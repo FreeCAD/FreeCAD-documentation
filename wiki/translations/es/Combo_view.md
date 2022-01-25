@@ -58,5 +58,7 @@ Entonces activa la vista usando el menú, **Vista → Paneles → Vista de árbo
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Combo view/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Combo view/es

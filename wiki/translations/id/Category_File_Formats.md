@@ -3,9 +3,10 @@ This category collects pages about all the different file formats that FreeCAD i
 
 ### Contents:
 
-  ---------------------------------------------------------
+  
   [File Format FCStd/id](File_Format_FCStd/id.md)
-  ---------------------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:File Formats/id
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:File Formats/id

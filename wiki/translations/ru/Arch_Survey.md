@@ -70,5 +70,7 @@ for obj in selection:
         print("Center of Mass: %f", element.CenterOfMass)
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/ru

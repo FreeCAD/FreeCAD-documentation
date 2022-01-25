@@ -49,9 +49,9 @@ Utilizarea metodei de ancorare [Endpoint](Draft_Snap_Endpoint.md) va asigura că
 
 {{Points Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Points Workbench/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench/ro

@@ -81,7 +81,7 @@ Pagina di discussione sull\'aspetto grafico del wiki: [WikiPages](WikiPages.md)
 
 {{languages/it |  }}
 
-[<img src="images/Property.png" style="width:16px"> Documentation/it](<img src="images/Property.png" style="width:16px"> Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Tutorials/it](<img src="images/Property.png" style="width:16px"> Tutorials/it.md)
+
 
 ---
-[documentation index](../README.md) > Esercitazioni
+![](images/Right_arrow.png) [documentation index](../README.md) > Esercitazioni

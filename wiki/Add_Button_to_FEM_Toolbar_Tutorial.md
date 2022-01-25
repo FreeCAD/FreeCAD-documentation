@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic:FEM
+   Level:Advanced
+   Time:60 min
+   Author:[JohnWang](User_JohnWang.md)
+   FCVersion:0.19
+   Files:
+---
+
 # Add Button to FEM Toolbar Tutorial
-{{TutorialInfo
-|Topic=FEM
-|Level=Advanced
-|Time=60 min
-|Author=[JohnWang](User_JohnWang.md)
-|FCVersion=0.19
-|Files=
-}}
+
+ 
+
+
 
 ## Introduction
 
@@ -101,7 +106,5 @@ To add the command to the **solve** menu of the FEM workbench, search for the fo
 
 
 
-[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [FEM](Category_FEM.md) > Add Button to FEM Toolbar Tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Add Button to FEM Toolbar Tutorial

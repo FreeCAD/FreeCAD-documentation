@@ -27,5 +27,7 @@ Das **[<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Kalkulat
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/de

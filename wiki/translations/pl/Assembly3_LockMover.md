@@ -18,5 +18,7 @@ The <img alt="" src=images/Assembly_LockMover.svg  style="width:24px;"> [Lock mo
     -   The **<img src="images/Assembly_LockMover.svg" width=16px> [Lock mover](Assembly3_LockMover.md)** button.
     -   The **Assembly3 → <img src="images/Assembly_LockMover.svg" width=16px> Lock mover** menu option.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 LockMover/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 LockMover/pl

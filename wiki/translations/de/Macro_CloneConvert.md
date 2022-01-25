@@ -138,5 +138,7 @@ Laden Sie das Makro in herunter Gist [Macro\_CloneConvert.FCMacro](https://gist.
 
 09/05/2014 ver. 0.2 = adding function \"Copy\"
 
+
+
 ---
-[documentation index](../README.md) > Macro CloneConvert/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro CloneConvert/de

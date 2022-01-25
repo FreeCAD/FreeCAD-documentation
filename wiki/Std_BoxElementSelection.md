@@ -31,5 +31,7 @@ The **Std BoxElementSelection** command selects faces from a user defined rectan
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std BoxElementSelection
+![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxElementSelection

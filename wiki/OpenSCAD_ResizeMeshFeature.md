@@ -44,5 +44,7 @@ Mesh.show(resized_mesh)
 
  {{OpenSCAD_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ResizeMeshFeature
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ResizeMeshFeature

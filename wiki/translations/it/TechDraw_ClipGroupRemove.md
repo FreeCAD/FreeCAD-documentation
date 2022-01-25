@@ -37,5 +37,7 @@ Questo strumento rimuove una vista da una clip esistente e la riporta nell\'area
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/it

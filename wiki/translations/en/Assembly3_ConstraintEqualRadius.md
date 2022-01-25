@@ -31,5 +31,7 @@ The radius value of the first selected circle or arc equals the radius value of 
 
     :   (if **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute.md)** and **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute.md)** are disabled).
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintEqualRadius/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualRadius/en

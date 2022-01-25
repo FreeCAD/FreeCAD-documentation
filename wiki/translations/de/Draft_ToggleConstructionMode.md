@@ -37,5 +37,7 @@ In FreeCAD Version 0.19 benutzen dieser und der [Draft ZurKonstruktionsgruppeHin
 -   Zur Änderung der Bezeichnung ({{Version/de|0.20}}) der Konstruktionsgruppe: **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Konstruktionsgeometrie → Konstruktionsgruppenname**.
 -   Zur Änderung der zu verwendenden Farbe: **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Konstruktionsgeometrie → Hilfsgeometriefarbe**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/de

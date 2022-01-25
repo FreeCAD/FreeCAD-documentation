@@ -20,5 +20,7 @@ Los documentos de LibreCAD se guardan con la extensión .FcStd, que es un format
 -   [El documento FreeCAD](Document_structure/es.md)
 -   [Formato archivo FCStd](File_Format_FCStd/es.md)
 
+
+
 ---
-[documentation index](../README.md) > Manual:The FreeCAD document/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD document/es

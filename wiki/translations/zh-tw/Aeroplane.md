@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/zh-tw
+   Topic:Part Workbench
+   Level:Beginner
+   Time:10 minutes
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Aeroplane/zh-tw
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/zh-tw
-|Topic=Part Workbench
-|Level=Beginner
-|Time=10 minutes
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -181,9 +187,6 @@ Here\'s some more suggestions for playing with the Aeroplane:
 I hope this little tutorial has helped you to get a feel for rotations.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Aeroplane/zh-tw
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/zh-tw

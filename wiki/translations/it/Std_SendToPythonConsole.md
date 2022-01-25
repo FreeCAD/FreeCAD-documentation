@@ -52,5 +52,7 @@ Il comando **Invia alla console Python** crea una variabile nel [console Python]
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SendToPythonConsole/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SendToPythonConsole/it

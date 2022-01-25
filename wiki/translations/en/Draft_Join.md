@@ -64,5 +64,7 @@ Draft.join_wires([wire1, wire3, wire2, wire4])
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Join/en

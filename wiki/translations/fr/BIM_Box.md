@@ -23,5 +23,7 @@ L'outil Boîte BIM vous permet de créer une [Part Box](Part_Box/fr.md) standard
 4.  Cliquez sur un troisième point pour définir une première face de la boîte, orthogonale au premier bord
 5.  Cliquez sur un quatrième point pour définir la distance d\'extrusion de la première face, formant ainsi la boîte finale.
 
+
+
 ---
-[documentation index](../README.md) > BIM Box/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Box/fr

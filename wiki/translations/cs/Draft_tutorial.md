@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/cs
+   Topic: Drafting
+   Level: Beginner
+   Time: 20 minutes
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 or above
+   Files:
+---
+
 # Draft tutorial/cs
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/cs
-|Topic= Drafting
-|Level= Beginner
-|Time= 20 minutes
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16 or above
-|Files=
-}}
 
 
 </div>
@@ -225,9 +231,6 @@ The [Draft Workbench](Draft_Workbench.md) in many ways is similar to the [Sketch
 -   It is possible to transform a Draft object into a [Sketch](Sketch.md), and the other way around, using the **[<img src=images/Draft_Draft2Sketch.svg style="width:16px"> [Draft Draft2Sketch](Draft_Draft2Sketch.md)** tool.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Draft_Workbench.md) > Draft tutorial/cs

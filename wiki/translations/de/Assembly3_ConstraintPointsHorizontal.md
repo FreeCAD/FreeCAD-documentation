@@ -28,5 +28,7 @@ Oder
 3.  Ein planares Flächenelement des dritten Objekts auswählen.
 4.  Schaltfläche **<img src="images/Assembly_ConstraintPointsHorizontal.svg" width=16px> [Horizontale Punkte](Assembly3_ConstraintPointsHorizontal/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointsHorizontal/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsHorizontal/de

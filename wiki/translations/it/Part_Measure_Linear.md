@@ -45,5 +45,7 @@ Questo strumento misura la distanza tra due elementi di topologia selezionati (v
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/it

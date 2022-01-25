@@ -146,5 +146,7 @@ Eine subtraktive Helix, die sich nicht selbst überschneidet ist sichtbar, wenn 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix/de

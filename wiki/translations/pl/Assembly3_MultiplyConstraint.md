@@ -18,5 +18,7 @@ The <img alt="" src=images/Assembly_ConstraintMultiply.svg  style="width:24px;">
     -   The **<img src="images/Assembly_ConstraintMultiply.svg" width=16px> [Multiply constraint](Assembly3_MultiplyConstraint.md)** button.
     -   The **Assembly3 → <img src="images/Assembly_ConstraintMultiply.svg" width=16px> Multiply constraint** menu option.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MultiplyConstraint/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MultiplyConstraint/pl

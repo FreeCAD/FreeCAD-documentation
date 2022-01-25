@@ -171,5 +171,7 @@ dlg.show()
 </nowiki>
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro ImperialScales/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro ImperialScales/pl

@@ -18,7 +18,7 @@ L\'intention de cette page est d\'aider à orienter les utilisateurs qui sont en
 -   [Gestion du code source](Source_code_management/fr.md)
 -   [Développer FreeCAD avec GitKraken](Developing_FreeCAD_with_GitKraken/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Developing FreeCAD with KDevelop/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [3rd Party](Category_3rd Party.md) > Developing FreeCAD with KDevelop/fr

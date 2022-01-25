@@ -96,5 +96,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves Pipeshell/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Pipeshell/fr

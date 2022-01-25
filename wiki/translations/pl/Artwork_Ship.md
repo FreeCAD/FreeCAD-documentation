@@ -12,9 +12,9 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Ship](Category_Ship.md)
+
 
 ---
-[documentation index](../README.md) > [Ship](Category_Ship.md) > Artwork Ship/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Artwork Ship/pl

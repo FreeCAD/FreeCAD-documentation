@@ -3,7 +3,7 @@ This category contains macros to extend your FreeCAD installation with new funct
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+    
   [Macro 3D Parametric Curve/en](Macro_3D_Parametric_Curve/en.md)                                                                   [Macro 3d Printer Slicer Individual Parts/en](Macro_3d_Printer_Slicer_Individual_Parts/en.md)         [Macro 3d Printer Slicer/en](Macro_3d_Printer_Slicer/en.md)
   [Macro 3DXML import/en](Macro_3DXML_import/en.md)                                                                                 [Macro AeroFoil/en](Macro_AeroFoil/en.md)                                                             [Macro Airfoil Import & Scale/en](Macro_Airfoil_Import_&_Scale/en.md)
   [Macro Alias Manager/en](Macro_Alias_Manager/en.md)                                                                               [Macro Align Camera to Working Plane/en](Macro_Align_Camera_to_Working_Plane/en.md)                   [Macro Align Face Object to View/en](Macro_Align_Face_Object_to_View/en.md)
@@ -72,10 +72,8 @@ This category contains macros to extend your FreeCAD installation with new funct
   [Macro WireXYZ/en](Macro_WireXYZ/en.md)                                                                                           [Macro Wiring And Hoses/en](Macro_Wiring_And_Hoses/en.md)                                             [Macro WorkFeatures/en](Macro_WorkFeatures/en.md)
   [Macro Zoom1 1/en](Macro_Zoom1_1/en.md)                                                                                           [Macros recipes/en](Macros_recipes/en.md)                                                             [Macros/en](Macros/en.md)
   [Misc templates Full/en](Misc_templates_Full/en.md)                                                                               [Qt Example/en](Qt_Example/en.md)                                                                     [Svg Namespace/en](Svg_Namespace/en.md)
-                                                                                                                                                                                                                                                          
-  ----------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Addons/en](<img src="images/Property.png" style="width:16px"> Addons/en.md) [<img src="images/Property.png" style="width:16px"> User Documentation/en](<img src="images/Property.png" style="width:16px"> User_Documentation/en.md) [<img src="images/Property.png" style="width:16px"> Categories/en](<img src="images/Property.png" style="width:16px"> Categories/en.md)
+
 
 ---
-[documentation index](../README.md) > Category:Macros/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Macros/en

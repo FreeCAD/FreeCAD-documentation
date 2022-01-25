@@ -68,21 +68,21 @@ Din răspuns puteți citi parametrii posibili:
 
 In the following table, selected options are described in more detail:
 
-+-------------------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Long option                               | Corresponding [config var name](#Configuration_set.md) | Synopsis                                                                                                                                                                                                                                                         |
 +===========================================+================================================================+==================================================================================================================================================================================================================================================================+
 |                            | UserParameter                                                  | Filename or relative path that ends with a filename. Defaults to `user.cfg`.                                                                                                                                                              |
 | `--user-cfg <filename>`          |                                                                |                                                                                                                                                                                                                                                                  |
 |                                        |                                                                |                                                                                                                                                                                                                                                                  |
-+-------------------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 |                            | Prepends to AdditionalModulePaths                              | Directory that contains modules. This option can be given repeatedly to specify multiple directories.                                                                                                                                                            |
 | `--module-path <dir>`            |                                                                |                                                                                                                                                                                                                                                                  |
 |                                        |                                                                |                                                                                                                                                                                                                                                                  |
-+-------------------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 |                            | most                                                           | Outputs the requested value in a popup dialog. Exits upon confirmation with **OK**. Cannot be used repeatedly. If an unknown/illegal variable name is used, the response is empty. The `--console` flag is not honored. |
 | `--get-config <config-var-name>` |                                                                |                                                                                                                                                                                                                                                                  |
 |                                        |                                                                |                                                                                                                                                                                                                                                                  |
-+-------------------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 
 Options can written in two forms: `--long-option arg` and `--long-option<nowiki>=</nowiki>arg`.
 
@@ -154,35 +154,35 @@ To read more about console or headless mode, refer to [Headless FreeCAD](Headles
 
 ### Running modules, macros and scripts 
 
-+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | File type       | System           | Command line example                                                                                                               |
 +=================+==================+====================================================================================================================================+
 | Module          | Windows          |                                                                                                                     |
 |                 |                  | `"C:\Program Files\FreeCAD\bin\FreeCAD.exe" -M "C:\FreeCAD\Mod\Draft"`                                                    |
 |                 |                  |                                                                                                                                 |
-+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------+
+++++
 |                 | Linux            |                                                                                                                     |
 |                 |                  | `FreeCAD_0.19 -M ~/.FreeCAD/Mod/Draft`                                                                                    |
 |                 |                  |                                                                                                                                 |
-+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------+
+++++
 |                 | Linux (AppImage) |                                                                                                                     |
 |                 |                  | `path/to/FreeCADXXX.AppImage -M ~/.FreeCAD/Mod/Draft`                                                                     |
 |                 |                  |                                                                                                                                 |
-+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------+
+++++
 |                 |                  |                                                                                                                                    |
-+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | .FCMacro or .py | Windows          |                                                                                                                     |
 |                 |                  | `"C:\Program Files\FreeCAD\bin\FreeCAD.exe" "C:\Users\userName\AppData\Roaming\FreeCAD\Mod\WorkFeature\start_WF.FCMacro"` |
 |                 |                  |                                                                                                                                 |
-+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------+
+++++
 |                 | Linux            |                                                                                                                     |
 |                 |                  | `FreeCAD_0.19 ~/.FreeCAD/Mod/WorkFeature/start_WF.FCMacro`                                                                |
 |                 |                  |                                                                                                                                 |
-+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------+
+++++
 |                 | Linux (AppImage) |                                                                                                                     |
 |                 |                  | `path/to/FreeCADXXX.AppImage ~/.FreeCAD/Mod/WorkFeature/start_WF.FCMacro`                                                 |
 |                 |                  |                                                                                                                                 |
-+-----------------+------------------+------------------------------------------------------------------------------------------------------------------------------------+
+++++
 
 See [Macro at Startup](Macro_at_Startup.md) on how to set up a macro to automatically run at FreeCAD startup.
 
@@ -190,21 +190,21 @@ See [Macro at Startup](Macro_at_Startup.md) on how to set up a macro to automati
 
 FreeCAD supports the following environment variables, which can be used to configure directories: <small>(v0.19)</small> 
 
-+------------------------------+----------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Environment variable         | Corresponding [config var name](#Configuration_set.md) | Synopsis                                                                                                                                    |
 +==============================+================================================================+=============================================================================================================================================+
 |               | UserHomePath                                                   | FreeCAD\'s \"base\" directory for keeping local user data.                                                                                  |
 | `FREECAD_USER_HOME` |                                                                |                                                                                                                                             |
 |                           |                                                                |                                                                                                                                             |
-+------------------------------+----------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 |               | UserAppData                                                    | If not set, defaults to `FREECAD_USER_HOME/.FreeCAD`, but only if `FREECAD_USER_HOME` is set. |
 | `FREECAD_USER_DATA` |                                                                |                                                                                                                                             |
 |                           |                                                                |                                                                                                                                             |
-+------------------------------+----------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 |               | AppTempPath                                                    | If not set, defaults to `FREECAD_USER_HOME/temp`, but only if `FREECAD_USER_HOME` is set.     |
 | `FREECAD_USER_TEMP` |                                                                |                                                                                                                                             |
 |                           |                                                                |                                                                                                                                             |
-+------------------------------+----------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 
 If the specified path does not exist, the setting is ignored!
 
@@ -286,7 +286,7 @@ La fiecare pornire, FreeCAD examinează parametrii din jur și cei ai liniei de 
 <div class="mw-translate-fuzzy">
 
   Config var name   Synopsis                                                   Example M\$                                                                   Example Posix (Linux)
-  ----------------- ---------------------------------------------------------- ----------------------------------------------------------------------------- ------------------------------------
+     
   UserAppData       Path where FreeCAD stores User Related application data.   C:\\Documents and Settings\\username\\Application Data\\FreeCAD               /home/username/.FreeCAD
   UserParameter     File where FreeCAD stores User Related application data.   C:\\Documents and Settings\\username\\Application Data\\FreeCAD\\user.cfg     /home/username/.FreeCAD/user.cfg
   SystemParameter   File where FreeCAD stores Application Related data.        C:\\Documents and Settings\\username\\Application Data\\FreeCAD\\system.cfg   /home/username/.FreeCAD/system.cfg
@@ -305,7 +305,7 @@ Note: For Linux distributions, an additional configuration file that relates to 
 <div class="mw-translate-fuzzy">
 
   Config var name         Synopsis                                                                                                                                                                                                                                                                                      Example
-  ----------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------
+    
   LoggingFile             1 if the logging is switched on                                                                                                                                                                                                                                                               1
   LoggingFileName         File name where the log is placed                                                                                                                                                                                                                                                             C:\\Documents and Settings\\username\\Application Data\\FreeCAD\\FreeCAD.log
   RunMode                 This indicates how the main loop will work. **\"Script\"** means that the given script is called and then exit. **\"Cmd\"** runs the command line interpreter. **\"Internal\"** runs an internal script. **\"Gui\"** enters the Gui event loop. **\"Module\"** loads a given python module.   \"Cmd\"
@@ -326,7 +326,7 @@ Note: For Linux distributions, an additional configuration file that relates to 
 <div class="mw-translate-fuzzy">
 
   Config var name    Synopsis                                                                                            Example M\$                    Example Posix (Linux)
-  ------------------ --------------------------------------------------------------------------------------------------- ------------------------------ --------------------------
+     
   AppHomePath        Path where FreeCAD is installed                                                                     c:/Progam Files/FreeCAD\_0.7   /user/local/FreeCAD\_0.7
   PythonSearchPath   Holds a list of paths which python search modules. This is at startup can change during execution                                  
 
@@ -343,7 +343,7 @@ Tabelul de mai jos prezintă informațiile disponibile despre versiunea disponib
 <div class="mw-translate-fuzzy">
 
   Config var name      Synopsis                                                                   Example
-  -------------------- -------------------------------------------------------------------------- -------------------------------------------------------------------
+    
   BuildVersionMajor    Major Version number of the Build. Defined in src/Build/Version.h.in       0
   BuildVersionMinor    Minor Version number of the Build. Defined in src/Build/Version.h.in       7
   BuildRevision        SVN Repository Revision number of the src in the Build. Generated by SVN   356
@@ -372,7 +372,7 @@ Aceste intrări de configurare sunt legate de mecanismul de branding al FreeCAD.
 <div class="mw-translate-fuzzy">
 
   Config var name    Synopsis                                                                                      Example
-  ------------------ --------------------------------------------------------------------------------------------- ------------------------
+    
   ExeName            Name of the build Executable file. Can differ from FreeCAD if a different main.cpp is used.   FreeCAD.exe
   ExeVersion         Over all Version shows up at start time                                                       V0.7
   AppIcon            Icon which is used for the Executable, shows in Application MainWindow.                       \"FCIcon\"
@@ -482,8 +482,5 @@ Now double-click the batch file to start FreeCAD. ([see](https://forum.freecadwe
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Start](Start_Workbench.md) > Start up and Configuration/ro

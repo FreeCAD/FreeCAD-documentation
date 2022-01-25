@@ -89,5 +89,7 @@ def myCustomTest():
    # to the user when they press the "Failed" button.
    return result
 
+
+
 ---
-[documentation index](../README.md) > BIM Preflight/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Preflight/fr

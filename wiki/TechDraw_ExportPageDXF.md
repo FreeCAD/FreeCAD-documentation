@@ -68,5 +68,7 @@ TechDraw.writeDXFPage(page,filename)
 
  {{TechDraw Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageDXF
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExportPageDXF

@@ -43,5 +43,7 @@ The <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltBottom/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltBottom/ru

@@ -18,5 +18,7 @@ Extrae la parte común (intersección) entre los objetos piezas seleccionados. E
 
 Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/es

@@ -283,7 +283,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 -   Punctul de referință al unui obiect variază în funcție de obiect. Câteva exemple pentru obiecte obișnuite:
 
   Object                           Reference Point
-  -------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                         left (minx), front (miny), bottom (minz) vertex
   Part.Sphere                      center of the sphere (ie centre of bounding box)
   Part.Cylinder                    center of the bottom face
@@ -316,5 +316,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Placement/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Placement/ro

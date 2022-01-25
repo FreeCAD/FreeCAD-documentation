@@ -138,11 +138,5 @@ And finally, one of the most powerful features of FreeCAD is the [scripting](scr
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/uk](<img src="images/Property.png" style="width:16px"> User_Documentation/uk.md)
-
 ---
-[documentation index](../README.md) > Getting started/uk
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/uk

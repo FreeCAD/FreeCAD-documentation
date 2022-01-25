@@ -34,5 +34,7 @@ This tool dresses up an existing path to add a ramp entry
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry

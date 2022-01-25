@@ -52,5 +52,7 @@ Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/es

@@ -65,5 +65,7 @@ Kosmetiklinien können mit den Methoden makeCosmeticLine(v1, v2) oder makeCosmet
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/de

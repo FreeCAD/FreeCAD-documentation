@@ -27,5 +27,7 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
  {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle

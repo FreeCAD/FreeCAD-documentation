@@ -111,5 +111,7 @@ list3 = Draft.move(list1, -2*vector, copy=True)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Move/en

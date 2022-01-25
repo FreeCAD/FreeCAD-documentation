@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/es
+   Topic: Part Workbench
+   Level: Beginner
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Engine Block Tutorial/es
+
+ 
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/es
-|Topic= Part Workbench
-|Level= Beginner
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -380,5 +386,7 @@ Selecciona los 6 objetos *Taladro Perno 1*, *Taladro Perno 2*\... y únelos llam
 
 Your final object should look like the picture on the right.
 
+
+
 ---
-[documentation index](../README.md) > Engine Block Tutorial/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Engine Block Tutorial/es

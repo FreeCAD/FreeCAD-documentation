@@ -98,5 +98,7 @@ Set the POV-Ray executable path to point to your installation of POV-Ray, usuall
 
 Then, before trying to render something, start POV-Ray separately and [set I/O restrictions according to POV-Ray documentation](https://wiki.povray.org/content/Documentation:Windows_Section_2.1), otherwise rendering will not work properly (or will not work at all).
 
+
+
 ---
-[documentation index](../README.md) > POV-Ray/en
+![](images/Right_arrow.png) [documentation index](../README.md) > POV-Ray/en

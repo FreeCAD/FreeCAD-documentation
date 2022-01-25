@@ -14,5 +14,7 @@
 
 La commande <img alt="" src=images/Draft_PathLinkArray.svg  style="width:24px;"> **Draft Réseau lié selon une courbe** crée un réseau lié [Link](App_Link/fr.md) à partir d\'un objet sélectionné en plaçant des copies le long d\'une courbe. Utilisez la commande [Draft Réseau selon une courbe](Draft_PathArray/fr.md) pour créer un réseau régulier moins efficace à la place. À l\'exception du type de réseau créé, réseau [Link](App_Link/fr.md) ou réseau régulier, cette commande est identique à la commande [Draft Réseau selon une courbe](Draft_PathArray/fr.md). Voir ici pour plus d\'informations.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray/fr

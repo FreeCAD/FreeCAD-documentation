@@ -38,5 +38,7 @@ Il comando **Info limiti d\'ingombro** fornisce le coordinate minime e massime d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/it

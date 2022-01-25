@@ -1,5 +1,7 @@
 # Part SectionCross
 1.  REDIRECT [Part\_CrossSections](Part_CrossSections.md)
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCross
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SectionCross

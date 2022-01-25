@@ -19,5 +19,7 @@ A collection of splitting tools.
 -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Slice](Part_Slice.md): Splits an object into pieces by intersections with another object.
 -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR.md): removes space shared by even number of objects (symmetric version of <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Cut](Part_Cut.md)).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools

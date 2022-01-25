@@ -104,5 +104,7 @@ add_list4, delete_list4 = Draft.downgrade(box, delete=True)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Downgrade/ru

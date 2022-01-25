@@ -5,7 +5,7 @@
 
 Questo ambiente è un insieme di comandi e oggetti personalizzati di FreeCAD che aiutano principalmente a velocizzare il disegno di strutture e tubazioni.
 
-------------------------------------------------------------------------
+
 
 :   L\'ambiente \"*Flamingo*\" è dedicato alle versioni che utilizzano la sintassi di Python\>2.7 e il toolkit Qt4.
 
@@ -15,7 +15,7 @@ Questo ambiente è un insieme di comandi e oggetti personalizzati di FreeCAD che
 
 :   L\'ambiente \"*Dodo*\" è per Python \>3.6 e Qt5.
 
-------------------------------------------------------------------------
+
 
 Per comodità gli strumenti di Flamingo e Dodo sono raggruppati in tre barre di strumenti/menu, più un set di utilità.
 
@@ -321,11 +321,11 @@ Nel caso sia selezionato un tubo, le sue proprietà vengono applicate al bullone
 
 Con il pulsante **Ref. face** è possibile selezionare la faccia del supporto su cui orientare l\'asse del cavallotto.
 
-------------------------------------------------------------------------
+
 
 *Solo in **Dodo**: i componenti di tubazione sopra possono essere inseriti anche dal menu a torta dedicato.*
 
-------------------------------------------------------------------------
+
 
 :   8\) Gestore PypeLine
 
@@ -566,8 +566,5 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Flamingo Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Flamingo Workbench/it

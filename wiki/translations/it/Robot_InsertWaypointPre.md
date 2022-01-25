@@ -56,5 +56,7 @@ Oggetti selezionabili sono
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypointPre/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypointPre/it

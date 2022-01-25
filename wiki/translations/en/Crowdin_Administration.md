@@ -15,7 +15,7 @@
 
 Filtering strings is a useful feature for proofreaders and managers. It give the person ability to effectively sort through many translation strings to for example show only strings that have been marked as \'missing more contextual information\' or \'incorrect source string\'. This service that the translators are doing for FreeCAD provides an extra layer of QA testing. Many typos, grammar issues, and even bugs can be exposed via checking translation strings. And so users mark these said problematic strings for us to respond to and eventually \'Resolve\'.
 
-------------------------------------------------------------------------
+
 
 ## Keyboard shortcuts 
 
@@ -37,8 +37,5 @@ Using keyboard shortcuts is a major time-saving and efficiency tip. It is worth 
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
-
 ---
-[documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/en

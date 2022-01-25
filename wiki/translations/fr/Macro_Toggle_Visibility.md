@@ -80,5 +80,7 @@ La discussion sur le forum [Proposal: select one or more pieces, hide the others
 
 ver 00.02 12/11/2015 **macro Macro\_SelectVisible** : Si aucun objet n\'est sélectionné tous les objets seront cachés, si les objets sont cachés et qu\'aucun objet n\'est sélectionné dans la Vue combinée tous les objets seront visibles. Cette nouvelle version inclus les trois macros en une seule.
 
+
+
 ---
-[documentation index](../README.md) > Macro Toggle Visibility/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Toggle Visibility/fr

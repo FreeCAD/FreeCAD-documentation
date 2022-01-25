@@ -179,5 +179,7 @@ shape3.ProjectionMode = "Individual Faces"
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/it

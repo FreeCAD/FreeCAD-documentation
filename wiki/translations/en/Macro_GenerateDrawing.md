@@ -34,7 +34,7 @@ ToolBar Icon ![](images/GenerateDrawing.svg )
 # PR-DC, Republic of Serbia
 # info@pr-dc.com
 # 
-# --------------------
+# 
 #
 # Copyright (C) 2022 PRDC <info@pr-dc.com>
 # 
@@ -51,7 +51,7 @@ ToolBar Icon ![](images/GenerateDrawing.svg )
 # You should have received a copy of the GNU Lesser General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
-# ----- PARAMS -----
+#  PARAMS 
 paper = [420, 297] # A3 paper size
 border = [10, 10, 400, 277] # border position ans size
 table = [190, 74] # table size
@@ -60,7 +60,7 @@ dy = 10 # space between views along y axis
 author = "Miloš Petrašinović" # author name
 drawn_date = "07.01.2022." # drawing drawn date
 template_file = "test\\PRDC_template_A3.svg" # drawing template
-# --------------------
+# 
 
 __Name__ = 'GenerateDrawing'
 __Comment__ = 'Macro for automatic drawing generation.'
@@ -245,5 +245,7 @@ else:
 
 The forum discussion [New Macros: GenerateViews and GenerateDrawing](https://forum.freecadweb.org/viewtopic.php?f=22&t=65135)
 
+
+
 ---
-[documentation index](../README.md) > Macro GenerateDrawing/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro GenerateDrawing/en

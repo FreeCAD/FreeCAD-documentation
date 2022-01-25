@@ -3,7 +3,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+    
   [Arch API/pl](Arch_API/pl.md)                                                                     [Base API/pl](Base_API/pl.md)                                                                         [Builtin modules/pl](Builtin_modules/pl.md)
   [Code snippets/pl](Code_snippets/pl.md)                                                           [Coin3d snippets/pl](Coin3d_snippets/pl.md)                                                           [Command/pl](Command/pl.md)
   [Console API/pl](Console_API/pl.md)                                                               [Create a FeaturePython object part I/pl](Create_a_FeaturePython_object_part_I/pl.md)                 [Create a FeaturePython object part II/pl](Create_a_FeaturePython_object_part_II/pl.md)
@@ -36,10 +36,8 @@ This category shows documentation articles dealing with python scripting, which 
   [TechDrawGui API/pl](TechDrawGui_API/pl.md)                                                       [Topological data scripting/pl](Topological_data_scripting/pl.md)                                     [TopoShape API/pl](TopoShape_API/pl.md)
   [Units/pl](Units/pl.md)                                                                           [Vector API/pl](Vector_API/pl.md)                                                                     [ViewObject API/pl](ViewObject_API/pl.md)
   [Viewprovider/pl](Viewprovider/pl.md)                                                             [Workbench creation/pl](Workbench_creation/pl.md)                                                     [Wrapping a Cplusplus class in Python/pl](Wrapping_a_Cplusplus_class_in_Python/pl.md)
-                                                                                                                                                                                                                          
-  --------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/pl](<img src="images/Property.png" style="width:16px"> Documentation/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:Poweruser Documentation/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Poweruser Documentation/pl

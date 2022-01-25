@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/de
+   Topic:Musterklasse
+   Level:Durchschnittlicher Anwender
+   Time:15 Minuten
+   Author:[Mario52](User_Mario52.md)
+   FCVersion:Alle
+---
+
 # Dxf Importer Install/de
-{{TutorialInfo/de
-|Topic=Musterklasse
-|Level=Durchschnittlicher Anwender
-|Time=15 Minuten
-|Author=[Mario52](User_Mario52.md)
-|FCVersion=Alle
-}}
+
+
+
+
 
 ### Beschreibung
 
@@ -183,5 +189,7 @@ Teigha verwenden. Teigha ist ein vollwertiges Programm und Du kannst es auch ohn
 
 Video Anleitung [FreeCAD Tutorial 24 - DXF/DWG Import](https://www.youtube.com/watch?v=wHxTWuDhc3M)
 
+
+
 ---
-[documentation index](../README.md) > Dxf Importer Install/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Dxf Importer Install/de

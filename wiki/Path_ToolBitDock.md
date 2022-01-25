@@ -45,5 +45,7 @@ A manager button at the top right (4) allows the user to launch the library mana
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitDock
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitDock

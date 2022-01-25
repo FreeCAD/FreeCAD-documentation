@@ -33,5 +33,7 @@ Crée une primitive soustractive dans le corps actif, en soustrayant sa forme du
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/fr

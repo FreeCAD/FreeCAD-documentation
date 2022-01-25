@@ -92,5 +92,7 @@ Das Spiegelungsergebnis kann in Echtzeit in der Vorschau angezeigt werden, bevor
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/de

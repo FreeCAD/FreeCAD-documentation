@@ -40,7 +40,7 @@ Der \'Geometrische Grundkörper\'-Dialog kann über **Formteil** → **<img src=
 
 <div class="mw-translate-fuzzy">
 
-+----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/PartHelixPrimitivesOptions_en.png ) | #### Parameter                                                                                                                                                                                              |
 |                                                                            |                                                                                                                                                                                                             |
 |                                                                            | -                                                                                                                                                                                            |
@@ -94,7 +94,7 @@ Der \'Geometrische Grundkörper\'-Dialog kann über **Formteil** → **<img src=
 |                                                                            |     {{Parameter|3D-Ansicht:}}                                                                                                                                                                               |
 |                                                                            |                                                                                                                                                                                                          |
 |                                                                            |     gibt das Zentrum der 3D-Ansicht an                                                                                                                                                                      |
-+----------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 </div>
@@ -127,7 +127,7 @@ Der \'Geometrische Grundkörper\'-Dialog kann über **Formteil** → **<img src=
 
 Sobald die Helix erstellt ist, lassen sich die Parameter ändern.
 
-+----------------------------------------------------------+-------------------------------------------------------------------------------------------+
++++
 | ![](images/PartHelixProperty_en.png ) | Die Parameter in diesem Menü entsprechen den oben beschriebenen.                          |
 |                                                          | **Base**                                                                |
 |                                                          | \* {{Parameter|Placement:}} Erlaubt die Verschiebung oder Drehung der Helix |
@@ -135,7 +135,9 @@ Sobald die Helix erstellt ist, lassen sich die Parameter ändern.
 |                                                          | -                                                                          |
 |                                                          |     {{Parameter|Winkel:}}                                                                 |
 |                                                          |                                                                                        |
-+----------------------------------------------------------+-------------------------------------------------------------------------------------------+
++++
+
+
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/de

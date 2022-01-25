@@ -34,7 +34,7 @@ Un exemple :
 Les cases **Point de base** peuvent être utilisées pour déplacer le miroir plan parallèle au plan de standard sélectionné. Seul l\'une des cases **X**, **Y** ou **Z** est active pour un plan standard donné.
 
   Plan miroir   Point de base   Résultat
-  ------------- --------------- -------------------------------------------------------
+    
   **XY**        **Z**           Déplace le plan de symmétrie le long de l\'axe *Z*.
   **XY**        **X**, **Y**    Pas d\'effet.
   **XZ**        **Y**           Déplace le plan de symmétrie le long de l\'axe **Y**.
@@ -46,5 +46,7 @@ Les cases **Point de base** peuvent être utilisées pour déplacer le miroir pl
 
 -   Les plans de miroir arbitraires (c\'est-à-dire non parallèles à un plan standard) ne sont pas pris en charge.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/fr

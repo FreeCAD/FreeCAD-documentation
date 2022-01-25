@@ -49,9 +49,9 @@ The assembly workbenches continue development, and it is expected that at some p
 
 {{Std Base navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/pl

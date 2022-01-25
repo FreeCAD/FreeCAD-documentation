@@ -9,7 +9,7 @@
 
 Questa è una raccolta di guide video realizzate dagli utenti e dagli sviluppatori di FreeCAD. Per altri link guardare nel subforum [Tutorials and videos forum](https://forum.freecadweb.org/viewforum.php?f=36). Un\'altra utile fonte di video tutorial è [YouTube](https://YouTube.com).
 
-Visitare la pagina [tutorial](tutorials/it.md) per esercitazioni di alta qualità. È possibile trovare un elenco completo e non ordinato di esercitazioni in [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+Visitare la pagina [tutorial](tutorials/it.md) per esercitazioni di alta qualità. È possibile trovare un elenco completo e non ordinato di esercitazioni in [:Category:Tutorials](:Category_Tutorials.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -171,11 +171,6 @@ Questi video sono stati realizzati molti anni fa e potrebbero non essere più pe
 For more see [Video tutorials obsolete](Video_tutorials_obsolete.md).
 
 
-{{Tutorials navi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/it

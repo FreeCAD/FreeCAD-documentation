@@ -5,7 +5,7 @@
 
 Although these videos are considered obsolete, they are included here for historical reference as the information they contain may still be useful for intermediate and advanced users. Absolute beginners are advised to avoid these videos until they have a better understanding of various modelling techniques.
 
-For up-to-date videos on different topics, see the [video tutorials](video_tutorials.md) page, and also [tutorials](tutorials.md) for written tutorials. A complete, unsorted list of tutorials can be found in [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+For up-to-date videos on different topics, see the [video tutorials](video_tutorials.md) page, and also [tutorials](tutorials.md) for written tutorials. A complete, unsorted list of tutorials can be found in [:Category:Tutorials](:Category_Tutorials.md).
 
 ## Outdated videos 
 
@@ -53,7 +53,7 @@ For up-to-date videos on different topics, see the [video tutorials](video_tutor
 
 -   [openPLM demo : FreeCAD interface](http://www.youtube.com/watch?v=SanPyZhLq6w): FreeCAD 0.10, it showcases the OpenPLM [addon](addon.md), intended for [Product Lifecycle Management](http://en.wikipedia.org/wiki/Product_lifecycle_management). It no longer works with recent versions of FreeCAD.
 
- {{Tutorials navi}}
+
 
 ---
-[documentation index](../README.md) > Video tutorials obsolete
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials obsolete

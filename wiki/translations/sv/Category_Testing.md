@@ -3,11 +3,11 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 ### Contents:
 
-  ------------------------------------- --
+   --
   [Testing/sv](Testing/sv.md)   
-  ------------------------------------- --
+   --
 
-[<img src="images/Property.png" style="width:16px"> Test Framework/sv](<img src="images/Property.png" style="width:16px"> Test_Framework/sv.md)
+
 
 ---
-[documentation index](../README.md) > Category:Testing/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Testing/sv

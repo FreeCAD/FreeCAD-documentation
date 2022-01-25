@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench/pt-br](PartDesign
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+    
   [Path Adaptive/pt-br](Path_Adaptive/pt-br.md)                                         [Path Area Workplane/pt-br](Path_Area_Workplane/pt-br.md)             [Path Area/pt-br](Path_Area/pt-br.md)
   [Path Array/pt-br](Path_Array/pt-br.md)                                               [Path Comment/pt-br](Path_Comment/pt-br.md)                           [Path Copy/pt-br](Path_Copy/pt-br.md)
   [Path Custom/pt-br](Path_Custom/pt-br.md)                                             [Path Development Roadmap/pt-br](Path_Development_Roadmap/pt-br.md)   [Path DressupDogbone/pt-br](Path_DressupDogbone/pt-br.md)
@@ -18,10 +18,9 @@ This category lists pages related to the [PartDesign Workbench/pt-br](PartDesign
   [Path Shape/pt-br](Path_Shape/pt-br.md)                                               [Path SimpleCopy/pt-br](Path_SimpleCopy/pt-br.md)                     [Path Simulator/pt-br](Path_Simulator/pt-br.md)
   [Path Slot/pt-br](Path_Slot/pt-br.md)                                                 [Path Stop/pt-br](Path_Stop/pt-br.md)                                 [Path Surface/pt-br](Path_Surface/pt-br.md)
   [Path ToolLibraryEdit/pt-br](Path_ToolLibraryEdit/pt-br.md)                           [Path Vcarve/pt-br](Path_Vcarve/pt-br.md)                             [Path Walkthrough for the Impatient/pt-br](Path_Walkthrough_for_the_Impatient/pt-br.md)
-  [Path Waterline/pt-br](Path_Waterline/pt-br.md)                                       [Path Workbench/pt-br](Path_Workbench/pt-br.md)                       
-  --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+  [Path Waterline/pt-br](Path_Waterline/pt-br.md)                                       [Path Workbench/pt-br](Path_Workbench/pt-br.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/pt-br](<img src="images/Property.png" style="width:16px"> Workbenches/pt-br.md)
+
 
 ---
-[documentation index](../README.md) > Category:Path/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Path/pt-br

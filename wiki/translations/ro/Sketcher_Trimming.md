@@ -60,5 +60,7 @@ Pentru a utiliza instrumentul, faceți:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/ro

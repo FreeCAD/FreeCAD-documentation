@@ -35,5 +35,7 @@ Con suerte, hemos conseguido darte una buena muestra de FreeCAD en este manual, 
 -   [Traduciendo FreeCAD en crowdin](https://crowdin.com/project/freecad)
 -   [El rastreador de errores de FreeCAD](http://www.freecadweb.org/tracker)
 
+
+
 ---
-[documentation index](../README.md) > Manual:The Community/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The Community/es

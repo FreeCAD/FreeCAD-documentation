@@ -54,8 +54,5 @@ Din această interfață puteți vedea informații utile și puteți să accesa�
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Start](Category_Start.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Start](Category_Start.md) > Start Workbench/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/ro

@@ -30,5 +30,7 @@ The <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:2
 
  {{TechDraw_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateLengthArc
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateLengthArc

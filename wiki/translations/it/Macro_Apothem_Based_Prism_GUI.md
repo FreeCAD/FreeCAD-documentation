@@ -129,5 +129,7 @@ L\'icona SVG da usare per il collegamento nella barra degli strumenti personaliz
 
 Un grazie al principale sviluppatore di FreeCAD [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765) e al programmatore di FreeCAD [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375) per il loro prezioso aiuto e consulenza nella costruzione di questo Macro.
 
+
+
 ---
-[documentation index](../README.md) > Macro Apothem Based Prism GUI/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Apothem Based Prism GUI/it

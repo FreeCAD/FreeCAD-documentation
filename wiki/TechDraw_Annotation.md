@@ -72,5 +72,7 @@ rc = page.addView(anno)
 
  {{TechDraw Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Annotation

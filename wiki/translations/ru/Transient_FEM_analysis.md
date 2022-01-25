@@ -1,15 +1,18 @@
+---
+- TutorialInfo:/ru
+   Topic: Transient FEM analysis
+   Level: 
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Transient FEM analysis/ru
-}
+
+ }
 
 
-{{TutorialInfo/ru
-|Topic= Transient FEM analysis
-|Level= 
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
 
 ## Background
 
@@ -99,9 +102,9 @@ from femexamples.thermomech_bimetall import setup
 setup()
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Transient FEM analysis/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Transient FEM analysis/ru

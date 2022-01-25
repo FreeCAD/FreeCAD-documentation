@@ -23,5 +23,7 @@ This tool deletes all geometry from the sketch being edited.
 
  {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllGeometry

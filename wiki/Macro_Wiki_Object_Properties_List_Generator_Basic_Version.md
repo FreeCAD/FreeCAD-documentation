@@ -265,5 +265,7 @@ print_obj_properties(obj,"Data")
 
 The discussion on the forum: <https://forum.freecadweb.org/viewtopic.php?f=21&t=61998>
 
+
+
 ---
-[documentation index](../README.md) > Macro Wiki Object Properties List Generator Basic Version
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Wiki Object Properties List Generator Basic Version

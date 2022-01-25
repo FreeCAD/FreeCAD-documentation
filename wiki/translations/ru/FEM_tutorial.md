@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ru
+   Topic: Анализ методом конечных элементов
+   Level: Новичок
+   Time: 10 минут + время работы Решателя
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16.6700 и выше
+   Files:
+---
+
 # FEM tutorial/ru
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru
-|Topic= Анализ методом конечных элементов
-|Level= Новичок
-|Time= 10 минут + время работы Решателя
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16.6700 и выше
-|Files=
-}}
 
 
 </div>
@@ -216,9 +222,9 @@
 </div>
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > FEM tutorial/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/ru

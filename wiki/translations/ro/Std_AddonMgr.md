@@ -135,5 +135,7 @@ Dacă dezvoltați un aelier de lucru în C ++, acesta nu poate fi rulat direct d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std AddonMgr/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std AddonMgr/ro

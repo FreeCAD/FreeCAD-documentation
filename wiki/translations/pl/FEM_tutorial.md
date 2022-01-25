@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/pl
+   Topic: Analiza elementów skończonych
+   Level: początkujący
+   Time: 10 minut + czas Solvera
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16.6700 lub nowszy
+---
+
 # FEM tutorial/pl
-{{TutorialInfo/pl
-|Topic= Analiza elementów skończonych
-|Level= początkujący
-|Time= 10 minut + czas Solvera
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16.6700 lub nowszy
-}}
+
+
+
+
 
 ## Wprowadzenie
 
@@ -105,9 +111,9 @@ Ustaliliśmy teraz ograniczenia i siły dla naszych badań statycznych.
 Zakończyliśmy teraz prezentacje podstawowego przepływu pracy dla środowiska [MES](FEM_Workbench/pl.md).
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > FEM tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/pl

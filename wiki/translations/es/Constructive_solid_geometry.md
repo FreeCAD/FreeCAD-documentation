@@ -36,9 +36,7 @@ La página de [tutoriales](tutorials/es.md) proporciona algunos ejemplos sobre l
 -   [Tutorial de pelota de béisbol](Whiffle_Ball_tutorial/es.md)
 -   [Tutorial de modelado básico](Basic_modeling_tutorial/es.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Constructive solid geometry/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/es

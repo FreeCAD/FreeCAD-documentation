@@ -74,5 +74,7 @@ Siehe auch [So wird eine benutzerdefinierte TechDraw Vorlage erstellt](TechDraw_
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/de

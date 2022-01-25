@@ -45,5 +45,7 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/pt-br

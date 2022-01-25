@@ -168,9 +168,6 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Arch/sv](<img src="images/Property.png" style="width:16px"> Arch/sv.md)
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/sv

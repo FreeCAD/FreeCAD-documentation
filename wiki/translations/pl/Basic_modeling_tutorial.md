@@ -1,11 +1,12 @@
 # Basic modeling tutorial/pl
-{{TutorialInfo/pl
-|Topic= Wprowadzenie do modelowania
-|Level= Początkujący
-|Time= 15 minut
-|Author=[NormandC](User_Normandc.md)
-|FCVersion=dowolny
-|Files=Nie dołączono
+---
+- TutorialInfo:/pl
+   Topic: Wprowadzenie do modelowania
+   Level: Początkujący
+   Time: 15 minut
+   Author:[NormandC](User_Normandc.md)
+   FCVersion:dowolny
+   Files:Nie dołączono
 }}
 
 ## Wprowadzenie
@@ -100,11 +101,11 @@ Naciśnij klawisz **0** *(zero)* na klawiaturze numerycznej, aby ustawić widok 
 
 ### Wyciągnie profilu 
 
-Aktywuj środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Część](Part_Workbench/pl.md) albo z menu wyboru [Środowisk pracy](Std_Workbench/pl.md), albo z menu **[Widok](Std_View_Menu/pl.md) → Środowiska pracy → Część**.
+Aktywuj środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Część](Part_Workbench/pl.md) albo z menu wyboru [Środowisk pracy](Std_Workbench/pl.md), albo z menu **[[Std_View_Menu/pl   Widok]] → Środowiska pracy → Część**.
 
-Kliknij na przycisk narzędzia **<img src="images/Part_Extrude.svg" width=32px> [Wyciągnięcie](Part_Extrude/pl.md)**.
+Kliknij na przycisk narzędzia **![](images/)**.
 
-W zakładce Zadania po lewej stronie wybierz obiekt **Polilinia**. Następnie wprowadź żądaną długość, powiedzmy {{Value|750mm}}. Pozostaw kierunek na Z = 1. Wciśnij przycisk **OK**. Powinieneś mieć teraz obiekt **Wyciągnięcie** w zakładce Model *(rys. 1.8)*.
+W zakładce Zadania po lewej stronie wybierz obiekt **Polilinia**. Następnie wprowadź żądaną długość, powiedzmy {{Value   750mm}}. Pozostaw kierunek na Z = 1. Wciśnij przycisk **OK**. Powinieneś mieć teraz obiekt **Wyciągnięcie** w zakładce Model *(rys. 1.8)*.
 
 ![Fig. 1.8 Wyciągnięty obiekt](images/Tutorial-normand08.jpg )
 
@@ -129,9 +130,10 @@ Etykieta na twoim przycisku może być różna, w zależności od twojej wersji,
 Powyższe instrukcje będą działać, bez względu na to, jaką etykietę posiada Twój przycisk.
 
 
-{{Tutorials navi
+  {{Userdocnavi
+---
 
-}}
+
 
 ---
-[documentation index](../README.md) > Basic modeling tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/pl

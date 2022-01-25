@@ -19,5 +19,7 @@ Der Befehl <img alt="" src=images/Assembly_LockMover.svg  style="width:24px;"> [
     -   Die Schaltfläche **<img src="images/Assembly_LockMover.svg" width=16px> [Bewegung verhindern](Assembly3_LockMover/de.md)**.
     -   Den Menüeintrag **Assembly3 → <img src="images/Assembly_LockMover.svg" width=16px> Bewegung verhindern**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 LockMover/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 LockMover/de

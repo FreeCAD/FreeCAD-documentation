@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+    
   [3Dconnexion input devices/tr](3Dconnexion_input_devices/tr.md)               [About FreeCAD/tr](About_FreeCAD/tr.md)                                               [Arch 3DS/tr](Arch_3DS/tr.md)
   [Arch Add/tr](Arch_Add/tr.md)                                                 [Arch API/tr](Arch_API/tr.md)                                                         [Arch Axis/tr](Arch_Axis/tr.md)
   [Arch Equipment/tr](Arch_Equipment/tr.md)                                     [Arch Floor/tr](Arch_Floor/tr.md)                                                     [Arch Remove/tr](Arch_Remove/tr.md)
@@ -84,12 +84,8 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [Third Party Libraries/tr](Third_Party_Libraries/tr.md)                       [Third Party Tools/tr](Third_Party_Tools/tr.md)                                       [Tracker/tr](Tracker/tr.md)
   [Template:TutorialInfo/tr](Template:TutorialInfo/tr.md)                       [Tutorials/tr](Tutorials/tr.md)                                                       [User hub/tr](User_hub/tr.md)
   [Video tutorials/tr](Video_tutorials/tr.md)                                   [Web Workbench/tr](Web_Workbench/tr.md)                                               [Workbenches/tr](Workbenches/tr.md)
-                                                                                                                                                                                      
-                                                                                                                                                                                      
-                                                                                                                                                                                      
-  ------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/tr](<img src="images/Property.png" style="width:16px"> Documentation/tr.md) [<img src="images/Property.png" style="width:16px"> Arch/tr](<img src="images/Property.png" style="width:16px"> Arch/tr.md) [<img src="images/Property.png" style="width:16px"> BIM/tr](<img src="images/Property.png" style="width:16px"> BIM/tr.md) [<img src="images/Property.png" style="width:16px"> Draft/tr](<img src="images/Property.png" style="width:16px"> Draft/tr.md) [<img src="images/Property.png" style="width:16px"> Image/tr](<img src="images/Property.png" style="width:16px"> Image/tr.md) [<img src="images/Property.png" style="width:16px"> Inspection/tr](<img src="images/Property.png" style="width:16px"> Inspection/tr.md) [<img src="images/Property.png" style="width:16px"> Macros/tr](<img src="images/Property.png" style="width:16px"> Macros/tr.md) [<img src="images/Property.png" style="width:16px"> Test Framework/tr](<img src="images/Property.png" style="width:16px"> Test_Framework/tr.md) [<img src="images/Property.png" style="width:16px"> Workbenches/tr](<img src="images/Property.png" style="width:16px"> Workbenches/tr.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/tr

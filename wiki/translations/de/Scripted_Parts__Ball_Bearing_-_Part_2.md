@@ -1,11 +1,11 @@
-# Scripted Parts: Ball Bearing - Part 2/de
-{{TutorialInfo/de
-|Topic= Part Scripting - Ball Bearing #2
-|Level= Beginner
-|Time= 30 min
-|Author=r-frank
-|FCVersion=0.16.6706
-|Files=
+---
+- TutorialInfo:/de
+   Topic: Part Scripting - Ball Bearing #2
+   Level: Beginner
+   Time: 30 min
+   Author:r-frank
+   FCVersion:0.16.6706
+   Files:
 }}
 
 ### Einleitung
@@ -76,7 +76,7 @@ Also benutzen wir dieselbe Methode wie in Teil 1.
 ### Code
 
 
-```python
+{{Code   code:
 ## Ball-bearing Skript
 ## 11.08.2016 von r-frank (BPLRFE/LearnFreeCAD on Youtube)
 ## basierend auf dem ball bearing script by JMG
@@ -169,14 +169,17 @@ for i in range(NBall):
 App.ActiveDocument.recompute()
 Gui.ActiveDocument.ActiveView.viewAxometric()
 Gui.SendMsgToActiveView("ViewFit")
-```
+---
 
+# Scripted Parts: Ball Bearing - Part 2/de
+
+ 
 
 {{Powerdocnavi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 2/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted Parts: Ball Bearing - Part 2/de

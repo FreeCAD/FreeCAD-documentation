@@ -40,5 +40,7 @@ Vedere: [Funzioni Part](Part_Feature/it.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatFace/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > [MeshPart](MeshPart_Workbench.md) > MeshPart CreateFlatFace/it

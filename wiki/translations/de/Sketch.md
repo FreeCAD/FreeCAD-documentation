@@ -34,9 +34,9 @@ Dennoch kann eine Skizze immer für jeden anderen Zweck durch sich selbst erstel
 
 {{Sketcher Tools navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Sketch/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/de

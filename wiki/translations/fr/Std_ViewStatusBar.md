@@ -25,5 +25,7 @@ La commande **Std Barre d\'état** bascule l\'affichage de la [Barre d\'état](S
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewStatusBar/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewStatusBar/fr

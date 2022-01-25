@@ -30,5 +30,7 @@ La commande **Points Exporter** exporte un nuage de points vers \'un fichier.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/fr

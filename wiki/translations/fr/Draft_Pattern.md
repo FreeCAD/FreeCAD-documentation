@@ -38,5 +38,7 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 -   La fenêtre **Edition → Préférences... → Draft → Paramètres visuels → Résolution des motifs SVG** préférence n\'est pas utilisée.
 -   Pour modifier la taille du motif {{PropertyView/fr|Pattern Size}} utilisée pour les nouveaux objets : **Edition → Préférences... → Draft → Paramètres visuels → Taille par défaut du motif SVG**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/fr

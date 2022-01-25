@@ -195,5 +195,7 @@ FreeCAD został uruchomiony, lecz zgłoszono, że nie działa system OpenGL, tak
 |[Instalacja w systemie Linux](Installing_on_Linux/pl.md)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Installing on Windows/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Windows/pl

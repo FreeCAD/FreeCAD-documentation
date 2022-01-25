@@ -199,5 +199,7 @@ Nu e disponibil. Fiecare obiect de mai sus poate fi modificat prin schimbarea pr
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/ro

@@ -57,5 +57,7 @@ sphere = FreeCAD.ActiveDocument.addObject("Part::Sphere", "mySphere")
 -   Gdzie parametr {{Incode|"mySphere"}} jest etykietą dla obiektu.
 -   Funkcja zwraca nowo utworzony obiekt.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/pl

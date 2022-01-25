@@ -34,5 +34,7 @@ Un compus/compound care conține piese care se intersectează sau atinge este **
 
 To turn this check on go to **Tools → Edit Parameters → Preferences... → Mod → Part → CheckGeometry → RunBOPCheck** and set the parameter to `true`.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/ro

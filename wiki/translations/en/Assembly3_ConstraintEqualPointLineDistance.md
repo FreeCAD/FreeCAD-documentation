@@ -30,5 +30,7 @@ The <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg  style=
 
     :   (if **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute.md)** and **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute.md)** are disabled).
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/en

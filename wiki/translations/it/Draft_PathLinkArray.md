@@ -32,5 +32,7 @@ Lo strumento [Serie di link su tracciato](Draft_PathLinkArray/it.md) posiziona c
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray/it

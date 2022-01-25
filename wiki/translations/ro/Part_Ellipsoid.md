@@ -57,5 +57,7 @@ este, de asemenea, raza maximă a secțiunii circulare
 
 ![](images/Part_Ellipsoid_screenshot.jpg )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/ro

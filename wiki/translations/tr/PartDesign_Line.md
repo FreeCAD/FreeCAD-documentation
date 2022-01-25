@@ -77,5 +77,7 @@ Model ağacındaki Referans çizgisi etiketine çift tıklayın veya sağ tıkla
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/tr

@@ -9,9 +9,9 @@ import cProfile
 pr = cProfile.Profile()
 pr.enable()
 
-# --------------------------------------
+# 
 # Lines of code that you want to profile
-# --------------------------------------
+# 
 
 pr.disable()
 pr.dump_stats("/tmp/profile.cprof")
@@ -34,11 +34,6 @@ kcachegrind /tmp/callgrind.out
 -   [FreeCAD\'s Python profiling tutorial](https://forum.freecadweb.org/viewtopic.php?f=10&t=44785).
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Profiling/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Profiling/fr

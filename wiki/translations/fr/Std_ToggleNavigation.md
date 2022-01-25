@@ -53,5 +53,7 @@ Ne confondez pas cette commande avec la commande [Std Mode édition](Std_Edit/fr
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ToggleNavigation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleNavigation/fr

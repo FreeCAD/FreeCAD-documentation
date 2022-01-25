@@ -38,5 +38,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std PrintPreview/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPreview/ko

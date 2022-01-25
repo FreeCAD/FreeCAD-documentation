@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic:Part Arbeitsbereich
+   Level:Anfänger
+   Time:10 Minuten
+   Author:Hughthecat
+   FCVersion:
+   Files:
+---
+
 # Aeroplane/de
-{{TutorialInfo/de
-|Topic=Part Arbeitsbereich
-|Level=Anfänger
-|Time=10 Minuten
-|Author=Hughthecat
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## First Steps 
 
@@ -105,9 +111,6 @@ Hier gibt es weitere Vorschläge für das Spielen mit dem Flugzeug:
 Ich hoffe, dass dieses kleine Tutorial dir geholfen hat, ein Gefühl für Rotationen zu bekommen.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Aeroplane/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/de

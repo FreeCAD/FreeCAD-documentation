@@ -34,5 +34,7 @@ Dialogul Create Primitives pote fi accesat via iconiței [CreatePrimitives](Part
 -   **Angle 1:** pornește muchia elipsei sau curba eliptică, (grade, sens antiorar/trigonometric), valaorea implicită este 0
 -   **Angle 2:** încheierea muchiei elipsei sau curbei eliptice, (exprimate în grade, sens antiorar), valoarea implictă este 360
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/ro

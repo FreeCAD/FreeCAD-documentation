@@ -59,5 +59,7 @@ Trucul este distins vizual în arborele model printr-o săgeată mică albă în
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/ro

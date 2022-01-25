@@ -70,5 +70,7 @@ Para añadir un nuevo segmento de eje, pulsa con el botón derecho en un espacio
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/es

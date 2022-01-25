@@ -116,5 +116,7 @@ Se si dispone di una lavorazione composta da più operazioni percorso, è possib
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/it

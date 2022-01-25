@@ -23,5 +23,7 @@ Der Grundkörper erstellen Dialog kann über das [Grundkörper](Part_Primitives/
 -   **Winkel 1:** Start der Kante der Ellipse oder elliptisch gekrümmten Kante, (Grad entgegen dem Uhrzeigersinn), der Vorgabewert ist 0
 -   **Winkel 2:** Ende der Kante der Ellipse oder elliptisch gekrümmten Kante, (Grad entgegen dem Uhrzeigersinn), der Vorgabewert ist 360
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/de

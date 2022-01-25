@@ -29,5 +29,7 @@ Montre ou masque l\'affichage de la multiplicité des nœuds d\'une courbe B-spl
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/fr

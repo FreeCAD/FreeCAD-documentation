@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to Sketcher
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [Arch panel tutorial/pl](Arch_panel_tutorial/pl.md)                                                             [Artwork Sketcher/pl](Artwork_Sketcher/pl.md)                                                   [Basic Attachment Tutorial/pl](Basic_Attachment_Tutorial/pl.md)
   [Basic Part Design Tutorial/pl](Basic_Part_Design_Tutorial/pl.md)                                               [Basic Sketcher Tutorial/pl](Basic_Sketcher_Tutorial/pl.md)                                     [Constraint/pl](Constraint/pl.md)
   [Creating a simple part with PartDesign/pl](Creating_a_simple_part_with_PartDesign/pl.md)                       [Draft ShapeString tutorial/pl](Draft_ShapeString_tutorial/pl.md)                               [Part and PartDesign/pl](Part_and_PartDesign/pl.md)
@@ -46,8 +46,9 @@ This category includes FreeCAD pages related to Sketcher
   [Template:Sketcher Tools navi/pl](Template:Sketcher_Tools_navi/pl.md)                                           [Sketcher Trimming/pl](Sketcher_Trimming/pl.md)                                                 [Sketcher Tutorial/pl](Sketcher_Tutorial/pl.md)
   [Sketcher ValidateSketch/pl](Sketcher_ValidateSketch/pl.md)                                                     [Sketcher ViewSection/pl](Sketcher_ViewSection/pl.md)                                           [Sketcher ViewSketch/pl](Sketcher_ViewSketch/pl.md)
   [Sketcher Workbench/pl](Sketcher_Workbench/pl.md)                                                               [Thread for Screw Tutorial/pl](Thread_for_Screw_Tutorial/pl.md)                                 [Toothbrush Head Stand/pl](Toothbrush_Head_Stand/pl.md)
-  [Tutorial custom placing of windows and doors/pl](Tutorial_custom_placing_of_windows_and_doors/pl.md)                                                                                                                   
-  ----------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+  [Tutorial custom placing of windows and doors/pl](Tutorial_custom_placing_of_windows_and_doors/pl.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:Sketcher/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sketcher/pl

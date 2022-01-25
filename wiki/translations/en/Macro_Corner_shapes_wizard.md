@@ -193,5 +193,7 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
     QtCore.QMetaObject.connectSlotsByName(dialog)
     dialog.show()
 
+
+
 ---
-[documentation index](../README.md) > Macro Corner shapes wizard/update/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Corner shapes wizard/update/en

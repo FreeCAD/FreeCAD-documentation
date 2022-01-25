@@ -28,5 +28,7 @@ Narzędzie to rysuje okrąg, wybierając dwa punkty: środek i punkt wzdłuż pr
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/pl

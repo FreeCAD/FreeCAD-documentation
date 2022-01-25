@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+    
   [About FreeCAD/sv](About_FreeCAD/sv.md)                                 [Arch Add/sv](Arch_Add/sv.md)                                                 [Arch Axis/sv](Arch_Axis/sv.md)
   [Arch Building/sv](Arch_Building/sv.md)                                 [Arch Check/sv](Arch_Check/sv.md)                                             [Arch CloseHoles/sv](Arch_CloseHoles/sv.md)
   [Arch Floor/sv](Arch_Floor/sv.md)                                       [Arch Frame/sv](Arch_Frame/sv.md)                                             [Arch IFC/sv](Arch_IFC/sv.md)
@@ -75,12 +75,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [TechDraw Workbench/sv](TechDraw_Workbench/sv.md)                       [Testing/sv](Testing/sv.md)                                                   [Third Party Libraries/sv](Third_Party_Libraries/sv.md)
   [Third Party Tools/sv](Third_Party_Tools/sv.md)                         [Tracker/sv](Tracker/sv.md)                                                   [Template:TutorialInfo/sv](Template:TutorialInfo/sv.md)
   [Tutorials/sv](Tutorials/sv.md)                                         [User hub/sv](User_hub/sv.md)                                                 [VRML Preparation for Robot Simulation/sv](VRML_Preparation_for_Robot_Simulation/sv.md)
-  [Web Workbench/sv](Web_Workbench/sv.md)                                 [Workbenches/sv](Workbenches/sv.md)                                           
-                                                                                                                                                                        
-                                                                                                                                                                        
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+  [Web Workbench/sv](Web_Workbench/sv.md)                                 [Workbenches/sv](Workbenches/sv.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/sv](<img src="images/Property.png" style="width:16px"> Documentation/sv.md) [<img src="images/Property.png" style="width:16px"> Arch/sv](<img src="images/Property.png" style="width:16px"> Arch/sv.md) [<img src="images/Property.png" style="width:16px"> BIM/sv](<img src="images/Property.png" style="width:16px"> BIM/sv.md) [<img src="images/Property.png" style="width:16px"> Draft/sv](<img src="images/Property.png" style="width:16px"> Draft/sv.md) [<img src="images/Property.png" style="width:16px"> Inspection/sv](<img src="images/Property.png" style="width:16px"> Inspection/sv.md) [<img src="images/Property.png" style="width:16px"> Test Framework/sv](<img src="images/Property.png" style="width:16px"> Test_Framework/sv.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/sv

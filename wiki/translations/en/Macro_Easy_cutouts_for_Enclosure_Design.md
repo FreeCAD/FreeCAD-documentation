@@ -256,5 +256,7 @@ else:
 
 Forum : [Easy cutouts for Enclosure Design Macro](http://forum.freecadweb.org/viewtopic.php?f=22&t=18488)
 
+
+
 ---
-[documentation index](../README.md) > Macro Easy cutouts for Enclosure Design/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Easy cutouts for Enclosure Design/en

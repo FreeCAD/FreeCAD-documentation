@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:TechDraw RadiusDimension
    Name/fr:TechDraw Cote de rayon
-   MenuLocation:TechDraw → Dimensions → Insérer une nouvelle cote de rayon
+   MenuLocation:TechDraw → Dimensions → Insérer une cote de rayon
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Cote de diamètre](TechDraw_DiameterDimension/fr.md)
 ---
@@ -19,7 +19,7 @@ L\'outil Cote de rayon ajoute une dimension de rayon à une vue. La cote peut ê
 ## Comment faire 
 
 1.  Sélectionnez un cercle ou un arc de cercle dans le dessin. (Remarquez que certains arcs qui semblent être circulaires sont en fait des ellipses ou des B-splines. Vous ne pouvez pas créer de cote de rayon dans ces cas-là)
-2.  Appuyez sur le bouton **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Insérer une nouvelle cote de rayon](TechDraw_RadiusDimension/fr.md)
+2.  Appuyez sur le bouton **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Insérer une cote de rayon](TechDraw_RadiusDimension/fr.md)
 **
 3.  Une dimension sera ajoutée à la vue. La dimension peut être déplacée à la position désirée.
 4.  Si nécessaire, ajoutez des tolérances comme décrit dans [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tol.C3.A9rances.md).
@@ -59,5 +59,7 @@ rc = page.addView(dim1)
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RadiusDimension/fr

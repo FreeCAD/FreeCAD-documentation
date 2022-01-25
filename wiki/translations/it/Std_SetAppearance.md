@@ -103,5 +103,7 @@ Imposta lo stile di disegno. Il menu a discesa offre 4 opzioni:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SetAppearance/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SetAppearance/it

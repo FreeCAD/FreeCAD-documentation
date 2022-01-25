@@ -41,5 +41,7 @@ Acest instrument permite / dezactivează funcția IfcBrep a unui obiect Arch sel
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ro

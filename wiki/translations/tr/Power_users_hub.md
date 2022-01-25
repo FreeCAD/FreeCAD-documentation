@@ -1,6 +1,6 @@
 # <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/tr
 
-------------------------------------------------------------------------
+
 
 
 
@@ -129,11 +129,6 @@ On the [Community portal](FreeCAD_Community_Portal.md), you can find other FreeC
 -   [Scientific literature](Scientific_literature.md): articles that reference or use the FreeCAD system in different ways.
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/tr

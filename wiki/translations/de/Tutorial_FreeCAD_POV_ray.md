@@ -1,4 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic:Rendern
+   Level:Mittel
+   Time:120 Minuten
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 oder höher
+   Files:keine
+---
+
 # Tutorial FreeCAD POV ray/de
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
@@ -8,14 +22,6 @@
 </div>
 
 
-{{TutorialInfo/de
-|Topic=Rendern
-|Level=Mittel
-|Time=120 Minuten
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 oder höher
-|Files=keine
-}}
 
 ## Einleitung
 
@@ -149,7 +155,7 @@ Dies ist der vollständige Inhalt der Datei `.pov`, nur ohne die Netze.
 #include "colors.inc"
 #include "metals.inc"
 
-// ----------------------------------------
+// 
 
 global_settings {
     assumed_gamma 1.0
@@ -157,7 +163,7 @@ global_settings {
     max_trace_level 20
 }  
 
-// ----------------------------------------
+// 
 
 
 sky_sphere {
@@ -171,7 +177,7 @@ sky_sphere {
 }
 
 
-// ----------------------------------------
+// 
 
 plane {
   y, -1
@@ -723,7 +729,7 @@ Dies ist der vollständige Inhalt der Datei `.pov`, nur ohne den letzten Abschni
 #include "stones.inc"
 #include "rad_def.inc"
 
-// ----------------------------------------
+// 
 #declare Rad_Quality = 3;
 
 global_settings {
@@ -751,7 +757,7 @@ global_settings {
 #end
 }
 
-// ----------------------------------------
+// 
 
 
 sky_sphere {
@@ -765,7 +771,7 @@ sky_sphere {
 }
 
 
-// ----------------------------------------
+// 
 
 #declare Parquet_normal = normal {
     gradient z 2 slope_map { [0 <0,1>][0.05 <1,0>][0.95 <1,0>][1 <0,-1>] }
@@ -877,9 +883,9 @@ Dem Benutzer wird empfohlen, die POV-Ray Dokumentation und weitere Tutorials ode
 -   [POV-Ray Referenz](http://www.povray.org/documentation/3.7.0/r3_0.html)
 
 
-{{Tutorials navi
+ {{Raytracing Tools navi}}
 
-}} {{Raytracing Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Tutorial FreeCAD POV ray/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/de

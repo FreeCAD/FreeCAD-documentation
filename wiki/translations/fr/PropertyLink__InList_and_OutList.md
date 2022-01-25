@@ -78,5 +78,7 @@ On peut accéder aux objets `PropertyLink` à l\'aide d\'une propriété Python 
 
 Remarquez que `InList` et `OutList` n\'ont *rien à voir* avec l\'arborescence du modèle de document qui est présentée dans l\'interface graphique. À tout moment, un parent dans cette arborescence peut contenir des enfants qui font partie de la `InList`, de la `OutList` ou d\'aucune des deux.
 
+
+
 ---
-[documentation index](../README.md) > PropertyLink: InList and OutList/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > PropertyLink: InList and OutList/fr

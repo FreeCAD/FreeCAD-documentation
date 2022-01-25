@@ -3,11 +3,10 @@ This category lists pages related to the [Raytracing Workbench/ja](Raytracing_Wo
 
 ### Contents:
 
-  ---------------------------------------------------------------
+  
   [Raytracing Workbench/ja](Raytracing_Workbench/ja.md)
-  ---------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/ja](<img src="images/Property.png" style="width:16px"> Workbenches/ja.md)
+
 
 ---
-[documentation index](../README.md) > Category:Raytracing/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Raytracing/ja

@@ -12,5 +12,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 {{Artwork}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Tux/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Tux/en

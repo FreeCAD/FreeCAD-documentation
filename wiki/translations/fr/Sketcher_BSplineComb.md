@@ -32,5 +32,7 @@ Le peigne de courbure indique la courbure (valeur de la dérivée de second ordr
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/fr

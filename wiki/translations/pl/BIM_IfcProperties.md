@@ -33,5 +33,7 @@ Pset_FreeCAD;Name;IfcLabel;Version;IfcReal
 
 would define a property set named \"FreeCAD\" (the Pset\_ prefix is not mandatory but is a common practice) that contains two properties: one called \"Name\" which is an IfcLabel (a piece of text), and another called \"Version\" which is an IfcReal (a numeric value with decimals)
 
+
+
 ---
-[documentation index](../README.md) > BIM IfcProperties/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcProperties/pl

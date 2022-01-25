@@ -33,9 +33,6 @@ The BIM Library tool allows you to place, in the current model, an object from t
 -   The Library can work offline, in which case it relies on the Parts Library addon to be installed (and updated by the user), or online, in which case it browses directly from the [Parts Library Git repository](https://github.com/FreeCAD/FreeCAD-library) and allows to download directly from there.
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/pl

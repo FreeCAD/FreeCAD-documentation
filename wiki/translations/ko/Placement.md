@@ -232,7 +232,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 -   The reference point of an object varies depending on the object. Some examples for common objects:
 
   Object                           Reference Point
-  -------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                         left (minx), front (miny), bottom (minz) vertex
   Part.Sphere                      center of the sphere (ie centre of bounding box)
   Part.Cylinder                    center of the bottom face
@@ -248,5 +248,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 -   This tutorial: [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
 
+
+
 ---
-[documentation index](../README.md) > Placement/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Placement/ko

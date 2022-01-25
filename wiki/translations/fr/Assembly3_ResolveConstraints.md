@@ -21,5 +21,7 @@ La commande <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24
     -   L\'option de menu **Assembly3 → <img src="images/Assembly3_workbench_icon.svg" width=16px> Résoudre les contraintes** option de menu.
     -   Le raccourci clavier : **A** puis **S**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ResolveConstraints/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ResolveConstraints/fr

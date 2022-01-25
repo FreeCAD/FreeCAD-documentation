@@ -37,7 +37,7 @@ Crée un objet Pyramide tronquée paramétrique. Par défaut, cette pyramide tro
 
 ### Entrées paramétriques 
 
-+------------------------------------------------------------------+--------------------------------------------------------------------+
++++
 | ![](images/PartWedgeProperty_Inputs.png ) | Utilisation du placement par défaut, les entrées disponibles sont: |
 |                                                                  |                                                                    |
 |                                                                  | -                                                   |
@@ -64,11 +64,13 @@ Crée un objet Pyramide tronquée paramétrique. Par défaut, cette pyramide tro
 |                                                                  |     {{PropertyData/fr|Z2 min/max}}                                 |
 |                                                                  |                                                                 |
 |                                                                  |     : Dimension de la face du dessus selon l\'axe Z                |
-+------------------------------------------------------------------+--------------------------------------------------------------------+
++++
 
 ### Autres exemples de pyramides tronquées 
 
 ![](images/Wedge_examples.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/fr

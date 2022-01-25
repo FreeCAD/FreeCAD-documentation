@@ -367,8 +367,5 @@ Plik `outfile.ts` będzie zawierał zestaw ciągów znaków, które są przesył
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Translating an external workbench/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Translating an external workbench/pl

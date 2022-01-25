@@ -63,5 +63,7 @@ Wie bei den meisten Dingen in FreeCAD gibt es viele Möglichkeiten, eine Kopie z
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Copying Objects/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Copying Objects/de

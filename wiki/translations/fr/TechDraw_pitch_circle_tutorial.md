@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/fr
+   Topic:TechDraw
+   Level:Débutant
+   Time:10 minutes
+   Author:Andergrin
+   FCVersion:0.19
+---
+
 # TechDraw pitch circle tutorial/fr
-{{TutorialInfo/fr
-|Topic=TechDraw
-|Level=Débutant
-|Time=10 minutes
-|Author=Andergrin
-|FCVersion=0.19
-}}
+
+
+
+
 
 ## Introduction
 
@@ -43,5 +49,7 @@ Ce tutoriel explique comment ajouter un cercle imaginaire à une vue <img alt=""
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw pitch circle tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw pitch circle tutorial/fr

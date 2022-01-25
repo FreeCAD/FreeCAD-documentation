@@ -49,5 +49,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/tr

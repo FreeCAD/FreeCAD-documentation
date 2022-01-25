@@ -38,9 +38,6 @@ The [external workbenches](external_workbenches.md) page has some information an
 New workbenches are in development, stay tuned!
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
-[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Addon/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Reinforcement Addon/pl

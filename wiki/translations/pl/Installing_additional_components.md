@@ -118,8 +118,5 @@ Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.m
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/pl](<img src="images/Property.png" style="width:16px"> User_Documentation/pl.md)
-
 ---
-[documentation index](../README.md) > Installing additional components/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/pl

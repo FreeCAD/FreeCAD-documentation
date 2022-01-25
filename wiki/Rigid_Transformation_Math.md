@@ -38,5 +38,7 @@ R & o \\
 0 & 1
 \end{pmatrix}$, where $I$ is the Identity matrix and $o$ is the 0-vector. Note that in terms of operations, we read the matrices from right to left, i. e. we first rotate $x$, then we translate it $Rx + a\leftarrow Rx\leftarrow x$.
 
+
+
 ---
-[documentation index](../README.md) > Rigid Transformation Math
+![](images/Right_arrow.png) [documentation index](../README.md) > Rigid Transformation Math

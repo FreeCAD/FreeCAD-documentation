@@ -144,7 +144,7 @@ Les géométrie (points, lignes et courbes) peuvent être sélectionnés en fais
 -   Le script OpenSCAD peut être exécuté depuis FreeCAD, par OpenSCAD (s\'il est installé sur votre ordinateur), le résultat apparait dans votre document FreeCAD.
 -   Pour plus d\'informations, consultez la page du wiki FreeCAD [Module OpenSCAD](OpenSCAD_Workbench/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.13/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.13/fr

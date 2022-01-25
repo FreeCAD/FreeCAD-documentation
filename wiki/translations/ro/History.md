@@ -150,7 +150,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 -   Overview
 
   Version   Release date   Informations
-  --------- -------------- -------------------------------------------------------------
+    
   0.18                     Current Developer Release
   0.17      2018-04-06     [Note despre Ediția 0.17](Release_notes_0.17/ro.md)
   0.16      2016-04-18     [Note despre Ediția 0.16](Release_notes_0.16.md)
@@ -231,7 +231,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 <div class="mw-translate-fuzzy">
 
   Culoare   Tipul Versiunii
-  --------- ------------------------------------
+   
             Ediție viitoare
             Ultima versiune preview
             **Ultima versiune**
@@ -255,7 +255,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > History/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > History/ro

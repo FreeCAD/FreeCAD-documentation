@@ -1,6 +1,6 @@
 # <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/de
 
-------------------------------------------------------------------------
+
 
 
 
@@ -129,11 +129,6 @@ Auf dem [Gemeinschaftsportal](FreeCAD_Community_Portal/de.md), findet man weiter
 -   [Wissenschaftliche Literatur](Scientific_literature/de.md): Artikel, die sich auf das FreeCAD System beziehen oder es auf unterschiedliche Weise nutzen.
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/de

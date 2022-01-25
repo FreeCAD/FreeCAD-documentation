@@ -133,8 +133,5 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Help FreeCAD/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/sv

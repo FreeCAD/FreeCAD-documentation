@@ -45,5 +45,7 @@ Le code G59 est utilisé pour étendre les capacités disponibles (nombre de poi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/fr

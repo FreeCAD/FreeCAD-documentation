@@ -24,7 +24,7 @@ Una primitiva geometrica Punto (vertice).
 
 ### Primitive geometriche 
 
-+------------------------------------------------------------------------------+---------------------+
++++
 | ![](images/PartVertexPrimitivesOptions_it.png ) | Point               |
 |                                                                              |                     |
 |                                                                              | #### Parametro      |
@@ -46,11 +46,11 @@ Una primitiva geometrica Punto (vertice).
 |                                                                              | -                   |
 |                                                                              | -                   |
 |                                                                              | -                   |
-+------------------------------------------------------------------------------+---------------------+
++++
 
 ### Proprietà
 
-+------------------------------------------------------------+-------------------------------------------------+
++++
 | ![](images/PartVertexProperty_it.png ) | #### Vista                                      |
 |                                                            |                                                 |
 |                                                            |                                       |
@@ -85,7 +85,7 @@ Una primitiva geometrica Punto (vertice).
 |                                                            |     **Z**                          |
 |                                                            |                                              |
 |                                                            |     :                                           |
-+------------------------------------------------------------+-------------------------------------------------+
++++
 
 
 
@@ -101,5 +101,7 @@ Una primitiva geometrica Punto (vertice).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/it

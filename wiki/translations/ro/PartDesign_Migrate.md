@@ -52,5 +52,7 @@ Atelierul PartDesign în FreeCAD v0.17 introduce noi instrumente și elemente ca
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/ro

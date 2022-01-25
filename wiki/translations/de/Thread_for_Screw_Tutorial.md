@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic: Produktgestaltung
+   Level: Fortgeschrittene
+   Time: 60 Minuten
+   Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Aktualisiert: Gewinde für Schrauben Tutorium]
+---
+
 # Thread for Screw Tutorial/de
-{{TutorialInfo/de
-|Topic= Produktgestaltung
-|Level= Fortgeschrittene
-|Time= 60 Minuten
-|Author=[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Aktualisiert: Gewinde für Schrauben Tutorium]
-}}
+
+
+
+
 
 ## Einführung
 
@@ -245,7 +251,9 @@ ISO- und andere Gewinde haben reduzierte, d.h. flache, innere und äußere Kante
 
 ![761PX](images/Threadform.PNG )
 
-Diese Methode erzeugt zuverlässige Festkörper, die korrekt boolesch sind. Obwohl sie keine \"parametrischen\" Schraubengewinde in Standardgrößen im Sinne eines einfachen Zugriffs auf die Form durch die Größe des Befestigungselements erzeugt, ist es eine einfache Möglichkeit, eine genaue Bibliothek zur Wiederverwendung zu erstellen, und Modelle von Spezialformen wie ACME oder archimedische Schrauben sind auch als Einzelstücke unkompliziert. {{Tutorials navi}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+Diese Methode erzeugt zuverlässige Festkörper, die korrekt boolesch sind. Obwohl sie keine \"parametrischen\" Schraubengewinde in Standardgrößen im Sinne eines einfachen Zugriffs auf die Form durch die Größe des Befestigungselements erzeugt, ist es eine einfache Möglichkeit, eine genaue Bibliothek zur Wiederverwendung zu erstellen, und Modelle von Spezialformen wie ACME oder archimedische Schrauben sind auch als Einzelstücke unkompliziert.   {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > Thread for Screw Tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/de

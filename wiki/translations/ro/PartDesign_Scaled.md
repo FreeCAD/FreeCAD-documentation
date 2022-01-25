@@ -29,7 +29,7 @@ De la FreeCAD 0.15, această funcție nu este valabilă direct, dar este inclus�
 
 ## Opțiuni
 
-+----------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Scaled_parameters.png ) | When creating a scaled feature, the \'scaled parameters\' dialogue offers the following options:                                             |
 |                                                    |                                                                                                                                              |
 |                                                    | ### Select originals                                                                                                      |
@@ -39,7 +39,7 @@ De la FreeCAD 0.15, această funcție nu este valabilă direct, dar este inclus�
 |                                                    | ### Factor and Occurrences                                                                                          |
 |                                                    |                                                                                                                                              |
 |                                                    | Specifies the maximum factor which the features are to be scaled to, and the total number of scaled shapes (including the original feature). |
-+----------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 
@@ -58,5 +58,7 @@ De la FreeCAD 0.15, această funcție nu este valabilă direct, dar este inclus�
 
 Deoarece scalarea se face în raport cu centrul de greutate, în cazul unui bosaj, este necesar ca bosajul să pătrundă și în corpul principal, în caz contrar obiectele scalate sunt plutitoare, detașate de corp. Pentru a avea un bosaj care intersectează corpul principal, se poate utiliza opțiunea \"două dimensiuni\" sau opțiunea \"simetric la plan\".
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/ro

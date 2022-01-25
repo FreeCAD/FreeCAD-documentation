@@ -8,11 +8,5 @@ From this browser you are able to navigate the web, click on links, read the onl
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Web](Category_Web.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Category_Web.md) > [Workbenches](Category_Workbenches.md) > Web Workbench/tr

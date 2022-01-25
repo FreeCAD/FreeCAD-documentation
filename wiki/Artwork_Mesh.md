@@ -11,11 +11,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 ### src/Mod/Mesh/Gui/Resources/Icons/RegularSolids/
 
- <img alt="" src=images/Mesh_Cone.svg  style="width:64px;"> <img alt="" src=images/Mesh_Cube.svg  style="width:64px;"> <img alt="" src=images/Mesh_Cylinder.svg  style="width:64px;"> <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:64px;"> <img alt="" src=images/Mesh_Sphere.svg  style="width:64px;"> <img alt="" src=images/Mesh_Torus.svg  style="width:64px;"> 
+ <img alt="" src=images/Mesh_Cone.svg  style="width:64px;"> <img alt="" src=images/Mesh_Cube.svg  style="width:64px;"> <img alt="" src=images/Mesh_Cylinder.svg  style="width:64px;"> <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:64px;"> <img alt="" src=images/Mesh_Sphere.svg  style="width:64px;"> <img alt="" src=images/Mesh_Torus.svg  style="width:64px;">
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md)
 
 ---
-[documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh

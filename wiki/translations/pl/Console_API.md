@@ -28,9 +28,6 @@ FreeCAD.Console.PrintMessage("Hello World!\n")
 {{APIFunction|SetStatus|string|Ustaw statystyki Log, Msg, Wrn lub Error dla obserwatora| }}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Console API/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Console API/pl

@@ -65,5 +65,7 @@ Questo metodo crea un aggancio a un punto su una linea immaginaria che si estend
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Extension/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Extension/it

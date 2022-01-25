@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic:Pfad Arbeitsbereich
+   Level:Anfänger/Mittelmäßig
+   Time:15 Minuten
+   Author:Chrisb
+   FCVersion:0.19
+   Files:
+---
+
 # Path Walkthrough for the Impatient/de
-{{TutorialInfo/de
-|Topic=Pfad Arbeitsbereich
-|Level=Anfänger/Mittelmäßig
-|Time=15 Minuten
-|Author=Chrisb
-|FCVersion=0.19
-|Files=
-}}
+
+
+
+
 
 ## Ziel
 
@@ -293,9 +299,9 @@ Der letzte Schritt zur Erzeugung von G-Code für die Zielfräse ist die Nachbear
 </div>
 
 
-{{Tutorials navi
+ {{Path Tools navi}}
 
-}} {{Path Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/de

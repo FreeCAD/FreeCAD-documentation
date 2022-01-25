@@ -23,5 +23,7 @@ SVG soubory jsou běžně užívané a mohou být zobrazovány ve většině mod
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/cs

@@ -45,5 +45,7 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 
 Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Center/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Center/fr

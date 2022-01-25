@@ -3,7 +3,7 @@ This category lists pages related to the [Mesh Workbench](Mesh_Workbench.md).
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [Artwork Mesh/en](Artwork_Mesh/en.md)                                                         [Artwork MeshPart/en](Artwork_MeshPart/en.md)                   [Asymptote/en](Asymptote/en.md)
   [Manual:Preparing models for 3D printing/en](Manual:Preparing_models_for_3D_printing/en.md)   [Mesh AddFacet/en](Mesh_AddFacet/en.md)                         [Mesh BoundingBox/en](Mesh_BoundingBox/en.md)
   [Mesh BuildRegularSolid/en](Mesh_BuildRegularSolid/en.md)                                     [Mesh CrossSections/en](Mesh_CrossSections/en.md)               [Mesh CurvatureInfo/en](Mesh_CurvatureInfo/en.md)
@@ -19,10 +19,8 @@ This category lists pages related to the [Mesh Workbench](Mesh_Workbench.md).
   [Mesh SplitComponents/en](Mesh_SplitComponents/en.md)                                         [Mesh to Part/en](Mesh_to_Part/en.md)                           [Mesh TrimByPlane/en](Mesh_TrimByPlane/en.md)
   [Mesh Union/en](Mesh_Union/en.md)                                                             [Mesh VertexCurvature/en](Mesh_VertexCurvature/en.md)           [Mesh Workbench/en](Mesh_Workbench/en.md)
   [Mesh/en](Mesh/en.md)                                                                         [MeshPart CreateFlatFace/en](MeshPart_CreateFlatFace/en.md)     [MeshPart CreateFlatMesh/en](MeshPart_CreateFlatMesh/en.md)
-                                                                                                                                                                                
-  ----------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Category:Mesh/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [User_Documentation](Category_User_Documentation.md) > Category:Mesh/en

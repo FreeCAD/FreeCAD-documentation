@@ -47,5 +47,7 @@ For testing you can use [this file](https://raw.githubusercontent.com/FreeCAD/Ex
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/pl

@@ -58,5 +58,7 @@ Das <img alt="" src=images/Curves_ExtendCurve.svg  style="width:24px;"> [Kurven 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves ExtendCurve/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ExtendCurve/de

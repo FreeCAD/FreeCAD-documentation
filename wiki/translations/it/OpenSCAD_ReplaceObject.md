@@ -64,5 +64,7 @@ Sostituisce un oggetto nell\'albero delle caratteristiche.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ReplaceObject/it

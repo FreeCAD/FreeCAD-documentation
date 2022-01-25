@@ -34,5 +34,7 @@ Cet outil ajoute au tracé existant des actions de coin et des extensions de bor
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDragKnife/fr

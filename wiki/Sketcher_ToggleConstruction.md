@@ -52,5 +52,7 @@ and once you **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [le
 
  {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction

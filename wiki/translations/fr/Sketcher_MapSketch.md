@@ -58,5 +58,7 @@ Maintenant, nous sélectionnons la face de dessus de la protrusion (Pad) puis cl
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/fr

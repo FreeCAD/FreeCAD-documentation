@@ -58,5 +58,7 @@ Die **Abgekoppelt** Menüoption koppelt die aktive [3D Ansicht](3D_view/de.md) i
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewDockUndockFullscreen/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewDockUndockFullscreen/de

@@ -3,11 +3,10 @@ This category lists pages related to the [Raytracing Workbench/pt](Raytracing_Wo
 
 ### Contents:
 
-  ---------------------------------------------------------------
+  
   [Raytracing Workbench/pt](Raytracing_Workbench/pt.md)
-  ---------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/pt](<img src="images/Property.png" style="width:16px"> Workbenches/pt.md)
+
 
 ---
-[documentation index](../README.md) > Category:Raytracing/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Raytracing/pt

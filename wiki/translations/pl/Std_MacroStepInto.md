@@ -23,5 +23,7 @@ To polecenie w tej chwili nie działa.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MacroStepInto/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroStepInto/pl

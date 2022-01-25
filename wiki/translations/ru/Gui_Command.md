@@ -128,9 +128,6 @@ There are a lot of GuiCommands (tools) in FreeCAD which are experimental or used
 </div>
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > Gui Command/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/ru

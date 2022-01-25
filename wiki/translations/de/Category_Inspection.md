@@ -3,11 +3,10 @@ This category lists pages related to the [Inspection Workbench](Inspection_Workb
 
 ### Contents:
 
-  ---------------------------------------------------------------
+  
   [Inspection Workbench/de](Inspection_Workbench/de.md)
-  ---------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Category:Inspection/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [User_Documentation](Category_User_Documentation.md) > Category:Inspection/de

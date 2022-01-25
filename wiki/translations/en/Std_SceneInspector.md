@@ -27,5 +27,7 @@ The **Std SceneInspector** command opens a dialog box displaying an overview of 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SceneInspector/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SceneInspector/en

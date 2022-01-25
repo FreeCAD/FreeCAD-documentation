@@ -15,11 +15,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 ### src/Mod/Assembly/Gui/Resources/icons/constraints/
 
- ![](images/Assembly_ConstraintAlignment.svg ) ![](images/Assembly_ConstraintAngle.svg ) ![](images/Assembly_ConstraintBidirectional.svg ) ![](images/Assembly_ConstraintCoincidence.svg ) ![](images/Assembly_ConstraintDistance.svg ) ![](images/Assembly_ConstraintEqual.svg ) ![](images/Assembly_ConstraintGeneral.svg ) ![](images/Assembly_ConstraintLock.svg ) ![](images/Assembly_ConstraintOpposite.svg ) ![](images/Assembly_ConstraintOrientation.svg ) ![](images/Assembly_ConstraintParallel.svg ) ![](images/Assembly_ConstraintPerpendicular.svg ) ![](images/Assembly_ConstraintUnidirectional1.svg ) ![](images/Assembly_ConstraintUnidirectional2.svg ) 
+ ![](images/Assembly_ConstraintAlignment.svg ) ![](images/Assembly_ConstraintAngle.svg ) ![](images/Assembly_ConstraintBidirectional.svg ) ![](images/Assembly_ConstraintCoincidence.svg ) ![](images/Assembly_ConstraintDistance.svg ) ![](images/Assembly_ConstraintEqual.svg ) ![](images/Assembly_ConstraintGeneral.svg ) ![](images/Assembly_ConstraintLock.svg ) ![](images/Assembly_ConstraintOpposite.svg ) ![](images/Assembly_ConstraintOrientation.svg ) ![](images/Assembly_ConstraintParallel.svg ) ![](images/Assembly_ConstraintPerpendicular.svg ) ![](images/Assembly_ConstraintUnidirectional1.svg ) ![](images/Assembly_ConstraintUnidirectional2.svg )
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Assembly](Category_Assembly.md)
 
 ---
-[documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly
+![](images/Right_arrow.png) [documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly

@@ -3,7 +3,7 @@ This category contains the help pages of each of FreeCAD command.
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------
+    
   [Arch 3Views/ro](Arch_3Views/ro.md)                                                       [Arch Add/ro](Arch_Add/ro.md)                                                         [Arch Axis/ro](Arch_Axis/ro.md)
   [Arch AxisSystem/ro](Arch_AxisSystem/ro.md)                                               [Arch Building/ro](Arch_Building/ro.md)                                               [Arch BuildingPart/ro](Arch_BuildingPart/ro.md)
   [Arch Check/ro](Arch_Check/ro.md)                                                         [Arch CloneComponent/ro](Arch_CloneComponent/ro.md)                                   [Arch CloseHoles/ro](Arch_CloseHoles/ro.md)
@@ -170,10 +170,9 @@ This category contains the help pages of each of FreeCAD command.
   [Surface CurveOnMesh/ro](Surface_CurveOnMesh/ro.md)                                       [Surface Filling/ro](Surface_Filling/ro.md)                                           [Surface GeomFillSurface/ro](Surface_GeomFillSurface/ro.md)
   [Tasks Placement/ro](Tasks_Placement/ro.md)                                               [TechDraw AngleDimension/ro](TechDraw_AngleDimension/ro.md)                           [TechDraw DiameterDimension/ro](TechDraw_DiameterDimension/ro.md)
   [TechDraw Hatch/ro](TechDraw_Hatch/ro.md)                                                 [TechDraw HorizontalDimension/ro](TechDraw_HorizontalDimension/ro.md)                 [TechDraw Image/ro](TechDraw_Image/ro.md)
-  [TechDraw LengthDimension/ro](TechDraw_LengthDimension/ro.md)                             [TechDraw LinkDimension/ro](TechDraw_LinkDimension/ro.md)                             
-  ------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------
+  [TechDraw LengthDimension/ro](TechDraw_LengthDimension/ro.md)                             [TechDraw LinkDimension/ro](TechDraw_LinkDimension/ro.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/ro](<img src="images/Property.png" style="width:16px"> Categories/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/ro

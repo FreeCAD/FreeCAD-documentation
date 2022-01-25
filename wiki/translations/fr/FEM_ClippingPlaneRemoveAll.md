@@ -23,5 +23,7 @@ A faire
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ClippingPlaneRemoveAll/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneRemoveAll/fr

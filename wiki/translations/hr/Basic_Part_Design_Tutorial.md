@@ -1,8 +1,15 @@
+---
+- TutorialInfo:/hr   Topic:Modeling   Level:Beginner   Author:HarryGeier ([[User:HarryGeier   HarryGeier]])|Time:Less than an hour   FCVersion:0.17 or higher   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
+---
+
 # Basic Part Design Tutorial/hr
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/hr|Topic=Modeling|Level=Beginner|Author=HarryGeier ([HarryGeier](User_HarryGeier.md))|Time=Less than an hour|FCVersion=0.17 or higher|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]}}
 
 
 </div>
@@ -192,5 +199,7 @@ This tutorial and your model are complete.
 
 }} {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Basic Part Design Tutorial/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Basic Part Design Tutorial/hr

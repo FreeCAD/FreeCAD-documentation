@@ -54,5 +54,7 @@ The curvature comb indicates the curvature (value of the second-order derivative
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineComb/it

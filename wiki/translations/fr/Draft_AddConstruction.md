@@ -32,5 +32,7 @@ Dans la version 0.19 de FreeCAD, cette commande et la commande [Draft Basculer e
 -   Les objets peuvent également être déplacés vers le groupe de construction en les glissant et en les déposant sur le groupe dans la [Vue en arborescence](Tree_view/fr.md) ou en utilisant la commande [Draft Ajouter au groupe de construction](Draft_AddToGroup/fr.md). Dans les deux cas, la [Couleur de la géométrie de construction](Draft_ToggleConstructionMode/fr#Pr.C3.A9f.C3.A9rences.md) n\'est pas appliquée.
 -   Pour plus d\'informations sur l\'organisation de votre modèle, voir [Structure du document](Document_structure/fr.md) et [Tutoriel Arch](Arch_tutorial/fr#Organiser_votre_mod.C3.A8le.md)
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/fr

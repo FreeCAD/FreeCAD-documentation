@@ -32,7 +32,7 @@ L\'outil **Rainure** fait pivoter une esquisse ou un profil sélectionné autour
 
 Lors de la création de la révolution, les **Paramètres de la rainure** permettent de définir les réglages de révolution de l\'esquisse.
 
-+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/partdesign_groove_parameters.png ) | ### Axes                                                                                                                                                                                                                                                                                                                          |
 |                                                                          |                                                                                                                                                                                                                                                                                                                                   |
 |                                                                          | Cette option spécifie l\'axe autour duquel l\'esquisse doit être tournée.                                                                                                                                                                                                                                                         |
@@ -55,7 +55,7 @@ Lors de la création de la révolution, les **Paramètres de la rainure** permet
 |                                                                          | ### Inversé                                                                                                                                                                                                                                                                                                                       |
 |                                                                          |                                                                                                                                                                                                                                                                                                                                   |
 |                                                                          | La direction de la révolution sera inversée du défaut, qui est dans le sens des aiguilles d\'une montre.                                                                                                                                                                                                                          |
-+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ## Propriétés
 
@@ -79,5 +79,7 @@ Ci-dessous les propriétés qui peuvent être modifiées après la création de 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/fr

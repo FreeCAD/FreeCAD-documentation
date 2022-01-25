@@ -34,5 +34,7 @@ Il existe plusieurs façons d\'appeler la commande Modifier l\'esquisse:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/fr

@@ -23,5 +23,7 @@ The **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Spreadshe
 
  {{Spreadsheet_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells

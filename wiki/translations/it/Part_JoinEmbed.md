@@ -141,5 +141,7 @@ Lo strumento è implementato in Python, vedere {{FileName|/Mod/Part/JoinFeatures
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/it

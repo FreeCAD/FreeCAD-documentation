@@ -40,5 +40,7 @@ Les éléments peuvent être ajoutés et supprimés à partir de la fusion, en l
 
 Après que cette opération soit complète, il peut être nécessaire de nettoyer la forme avec <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Affiner la forme](Part_RefineShape/fr.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/fr

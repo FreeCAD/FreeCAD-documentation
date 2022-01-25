@@ -210,9 +210,6 @@ Ver [Guiones Pieza](Part_scripting/es.md).
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/es

@@ -264,5 +264,7 @@ Example:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Slot/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Slot/it

@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ro
+   Topic: Export to STL or OBJ
+   Level: Beginner
+   Time: 20 minutes
+   Author:r-frank
+   FCVersion:0.16.6703
+   Files:
+---
+
 # Export to STL or OBJ/ro
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro
-|Topic= Export to STL or OBJ
-|Level= Beginner
-|Time= 20 minutes
-|Author=r-frank
-|FCVersion=0.16.6703
-|Files=
-}}
 
 
 </div>
@@ -110,8 +116,5 @@ Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fiș
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/ro

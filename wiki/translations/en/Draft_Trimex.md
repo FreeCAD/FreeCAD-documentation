@@ -119,5 +119,7 @@ solid = Draft.extrude(rectangle, vector, solid=True)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Trimex/en

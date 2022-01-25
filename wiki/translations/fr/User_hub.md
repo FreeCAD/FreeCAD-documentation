@@ -1,6 +1,6 @@
 # <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/fr
 
-------------------------------------------------------------------------
+
 
 
 
@@ -24,16 +24,18 @@ Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il 
 -   [FAQ](Frequently_asked_questions/fr.md) : foire aux questions.
 -   Des [tutoriels](Tutorials/fr.md) couvrant différentes parties de FreeCAD.
 
-Voir aussi :
+#### Vous venez d\'un autre logiciel? 
 
 -   [Migrer vers FreeCAD depuis Fusion360](Migrating_to_FreeCAD_from_Fusion360/fr.md)
+-   [Guide de migration vers FreeCAD BIM](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide) en anglais
+-   [BIM Tableau de compatibilité des applications](BIM_application_compatibility_table/fr.md)
 
 ### Concepts de base de l\'application 
 
 -   [Interface](Interface/fr.md) : l\'interface FreeCAD est composée de divers éléments graphiques à l\'écran, y compris la [Vue 3D](3D_view/fr.md), la [vue d\'arborescence](tree_view/fr.md), l\'[éditeur de propriétés](property_editor/fr.md), le [panneau de tâches](task_panel/fr.md) et la [console Python](Python_console/fr.md).
 -   [Navigation par la souris](Mouse_navigation/fr.md) : les différents types d\'utilisation de la souris ou du trackpad pour naviguer dans la vue 3D.
 -   [Méthodes de sélection](Selection_methods/fr.md) : différentes méthodes de sélection d\'objets dans le logiciel.
--   [Objet name](Object_name/fr.md) : tous les objets ont un `Name` en lecture seule qui les identifie de manière unique et un `Label` qui est modifiable par l\'utilisateur.
+-   [Objet name](Object_name/fr.md) : les objets FreeCAD ont un `Name` en lecture seule qui les identifie de manière unique et un `Label` qui est modifiable par l\'utilisateur.
 -   [Éditeur de préférences](Preferences_Editor/fr.md) : le système qui vous permet de contrôler de nombreuses propriétés du système de base et des ateliers individuels.
 -   [Formats de fichiers](Import_Export/fr.md) : les différents formats que FreeCAD peut lire et écrire.
 
@@ -41,7 +43,7 @@ Voir aussi :
 
 Les [ateliers](Workbenches/fr.md) sont des ensembles d'outils utilisés pour des tâches spécifiques. Voici les ateliers de base fournis avec chaque installation de FreeCAD :
 
--   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Base](Std_Base/fr.md). Ce n\'est pas vraiment un atelier mais plutôt une catégorie de commandes et d\'outils \'standards\' qui peuvent être utilisés dans tous les ateliers.
+-   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Outils communs](Std_Base/fr.md). Ces commandes et outils sont présents dans tous les ateliers.
 
 -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> L\'[atelier Arch](Arch_Workbench/fr.md) pour travailler avec des éléments architecturaux.
 
@@ -119,8 +121,5 @@ Il s\'agit de l\'aide en ligne officielle de FreeCAD. Veuillez noter que l\'ense
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/fr

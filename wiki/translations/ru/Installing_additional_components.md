@@ -123,8 +123,5 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/ru](<img src="images/Property.png" style="width:16px"> User_Documentation/ru.md)
-
 ---
-[documentation index](../README.md) > Installing additional components/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/ru

@@ -12,5 +12,7 @@ Alle Symbole im Quellbaum findest Du unter [Artwork](Artwork/de.md).
 
 {{Artwork/de}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Tux/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Tux/de

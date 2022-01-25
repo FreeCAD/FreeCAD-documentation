@@ -5,7 +5,7 @@ Special pages are [Offsite tutorials](Offsite_tutorials/de.md) and [Video tutori
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+    
   [Add FEM Constraint Tutorial/de](Add_FEM_Constraint_Tutorial/de.md)                                     [Add FEM Equation Tutorial/de](Add_FEM_Equation_Tutorial/de.md)                                         [Advanced TechDraw Tutorial/de](Advanced_TechDraw_Tutorial/de.md)
   [Aeroplane/de](Aeroplane/de.md)                                                                         [Analysis of reinforced concrete with FEM/de](Analysis_of_reinforced_concrete_with_FEM/de.md)           [Arch panel tutorial/de](Arch_panel_tutorial/de.md)
   [Arch tutorial/de](Arch_tutorial/de.md)                                                                 [Basic modeling tutorial/de](Basic_modeling_tutorial/de.md)                                             [Basic Part Design Tutorial/de](Basic_Part_Design_Tutorial/de.md)
@@ -34,10 +34,9 @@ Special pages are [Offsite tutorials](Offsite_tutorials/de.md) and [Video tutori
   [Tutorial Render with Blender/de](Tutorial_Render_with_Blender/de.md)                                   [Template:TutorialInfo/de](Template:TutorialInfo/de.md)                                                 [Tutorials/de](Tutorials/de.md)
   [Video tutorials for architectural design/de](Video_tutorials_for_architectural_design/de.md)           [Video tutorials for product design/de](Video_tutorials_for_product_design/de.md)                       [Video tutorials obsolete/de](Video_tutorials_obsolete/de.md)
   [Video tutorials/de](Video_tutorials/de.md)                                                             [VRML Preparation for Robot Simulation/de](VRML_Preparation_for_Robot_Simulation/de.md)                 [Whiffle Ball tutorial/de](Whiffle_Ball_tutorial/de.md)
-  [Wikihouse porting tutorial/de](Wikihouse_porting_tutorial/de.md)                                                                                                                                                       
-  --------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+  [Wikihouse porting tutorial/de](Wikihouse_porting_tutorial/de.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md)
+
 
 ---
-[documentation index](../README.md) > Category:Tutorials/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/de

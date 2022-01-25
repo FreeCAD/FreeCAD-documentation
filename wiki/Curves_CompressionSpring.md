@@ -31,5 +31,7 @@ The <img alt="" src=images/Curves_CompressionSpring.svg  style="width:24px;"> [C
 
  {{Curves Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Curves CompressionSpring
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves CompressionSpring

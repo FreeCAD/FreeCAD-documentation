@@ -50,5 +50,7 @@ The following additional options are available in the context menu:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Alignment/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Alignment/ro

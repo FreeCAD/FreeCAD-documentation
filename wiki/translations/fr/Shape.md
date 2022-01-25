@@ -32,9 +32,9 @@ Cependant, lorsque plus de précision est requise, la distinction doit être fai
 -   Un \"[Part](Part/fr.md)\" est utilisé pour regrouper plusieurs \"[Corps](Body/fr.md)\" pour former un [assemblage](assembly/fr.md). Une \"pièce\" a une collection de \"formes\", mais n\'a pas de \"forme\" qui lui soit propre.
 
 
- {{Document objects navi}} 
+ {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Shape/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Part](Category_Part.md) > Shape/fr

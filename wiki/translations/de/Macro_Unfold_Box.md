@@ -601,5 +601,7 @@ DialogBox.show()
 </nowiki>
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Unfold Box/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Unfold Box/de

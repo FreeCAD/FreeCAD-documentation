@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Tutoriel de base de l'atelier Plot
+   Level:Débutant
+   Time:
+   Author:
+   FCVersion:0.19
+   Files:
+---
+
 # Plot Basic tutorial/fr
-{{TutorialInfo/fr
-|Topic=Tutoriel de base de l'atelier Plot
-|Level=Débutant
-|Time=
-|Author=
-|FCVersion=0.19
-|Files=
-}}
+
+
+
+
 
 Dans ce tutoriel, nous allons apprendre à créer un tracé de base à l\'aide de l\'[atelier Plot](Plot_Workbench/fr.md) et de la [console Python](Python_console/fr.md).
 
@@ -148,9 +154,9 @@ Définissez la taille de l\'image de sortie en pouces, par exemple, utilisez 11,
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
+}} {{Plot_Tools_navi}}
 
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Basic tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Basic tutorial/fr

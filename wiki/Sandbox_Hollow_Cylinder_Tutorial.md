@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/en
+   Topic:Exploring FreeCAD
+   Level:Beginner
+   Time:As much or as little as you want
+   Author:[hmk](User_hmk.md)
+   FCVersion:0.19
+   Files:
+---
+
 # Sandbox:Hollow Cylinder Tutorial
+
+
+
+
 [Tutorial\_guidelines](Tutorial_guidelines.md)
 
 
-{{TutorialInfo/en
-|Topic=Exploring FreeCAD
-|Level=Beginner
-|Time=As much or as little as you want
-|Author=[hmk](User_hmk.md)
-|FCVersion=0.19
-|Files=
-}}
 
 ## Markup for feedback 
 
@@ -19,5 +25,7 @@
 -   ![](images/At2_Delete.gif )Delete ?
     -   Something You think should be deleted
 
+
+
 ---
-[documentation index](../README.md) > Sandbox:Hollow Cylinder Tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:Hollow Cylinder Tutorial

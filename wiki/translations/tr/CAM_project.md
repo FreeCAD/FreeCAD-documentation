@@ -3,8 +3,5 @@ CAM tezgahı ve projesi kullanımdan kaldırılmıştır. Bunun yerine [ CNC G-K
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > CAM project/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > CAM project/tr

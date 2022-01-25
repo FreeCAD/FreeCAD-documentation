@@ -34,9 +34,6 @@ You may join the [FreeCAD\'s Facebook public group](https://www.facebook.com/gro
 We have an [official dedicated FreeCAD Discord server](https://discord.gg/NpMefpXWFT) with a variety of channels for various sub-topics. There are also several third-party servers with FreeCAD-related discussion channels. The [Elmer FEM](https://discordapp.com/invite/NeZEBZn) server has a channel for seemingly every CAD, CAM, and CAE tool out there, whether open source or proprietary, and it has a fairly well-established \"freecad\" channel. The wide variety of channels and communities this server attracts means it can be good for having discussions with people in related communities. The [OpenFOAM](https://discordapp.com/invite/P9p9eHn) server has a \"freecad-salome-etc\" channel, where you might be able to find people more interested in the overlap between FreeCAD and computational fluid dynamics tools like OpenFOAM. The [Modelica Language](https://discordapp.com/invite/bp2yeYU) server also has a \"freecad\" channel if you are interested in FreeCAD from a multi-domain modeling perspective. However, please do not use chat groups as the main medium of exchanging data. They are not indexed by the search engines and information produced on these platforms is not properly accumulated, as it is on forums, blog posts, or wiki pages.
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Help](Category_Help.md)
 
 ---
-[documentation index](../README.md) > [Help](Category_Help.md) > Help/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Help](Category_Help.md) > Help/en

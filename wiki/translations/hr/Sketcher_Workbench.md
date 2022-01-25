@@ -330,9 +330,9 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 {{Sketcher Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Sketcher/hr](<img src="images/Property.png" style="width:16px"> Sketcher/hr.md) [<img src="images/Property.png" style="width:16px"> Workbenches/hr](<img src="images/Property.png" style="width:16px"> Workbenches/hr.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/hr

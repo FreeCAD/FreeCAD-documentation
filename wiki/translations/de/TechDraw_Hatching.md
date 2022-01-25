@@ -82,5 +82,7 @@ Die Datei `FCPAT.pat` befindet sich im folgenden Verzeichnis:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Hatching/de

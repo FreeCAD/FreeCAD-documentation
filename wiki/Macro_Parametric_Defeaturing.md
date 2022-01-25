@@ -43,5 +43,7 @@ ToolBar Icon  ![](images/parametric_defeaturing.svg )
 
 {{CodeDownload|https://gist.github.com/mwganson/0d55a5c51b1d6ff488b7a2f62bf50656|parametric_defeaturing.FCMacro}}
 
+
+
 ---
-[documentation index](../README.md) > Macro Parametric Defeaturing
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Parametric Defeaturing

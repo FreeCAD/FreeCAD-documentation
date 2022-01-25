@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/pl
+   Topic:Modelowanie
+   Level:średniozaawansowany
+   Time:...
+   Author:[Yorik](User_Yorik.md)
+   FCVersion:0.14
+---
+
 # Arch tutorial/pl
-{{TutorialInfo/pl
-|Topic=Modelowanie
-|Level=średniozaawansowany
-|Time=...
-|Author=[Yorik](User_Yorik.md)
-|FCVersion=0.14
-}}
+
+
+
+
 
 ![](images/Arch_tutorial_00.jpg )
 
@@ -473,9 +479,6 @@ Mam nadzieję, że poradnik dostarczy Państwu dobrego przeglądu dostępnych na
 Plik utworzony podczas tego ćwiczenia można znaleźć [ze strony yorik-a](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd).
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/pl

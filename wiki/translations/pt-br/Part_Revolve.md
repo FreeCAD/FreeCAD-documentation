@@ -12,7 +12,7 @@
 Revolves the selected object around a given axis. The following shape types are allowed, and lead to the listed output shapes:
 
   Input shape   Output shape
-  ------------- ----------------------------
+   
   Vertex        Edge
   Edge          Face
   Wire          Shell
@@ -31,5 +31,7 @@ If you select a user defined axis, the numbers define the direction of the revol
 
 -   If the object to revolve intersects the rotation axis the operation will fail in most cases.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/pt-br

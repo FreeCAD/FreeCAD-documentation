@@ -98,9 +98,6 @@ Ponieważ utworzona bryła nie posiada historii i żadnych edytowalnych funkcji 
 -   [Import i eksport](Import_Export/pl.md)
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import from STL or OBJ/pl

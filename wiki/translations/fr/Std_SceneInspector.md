@@ -28,5 +28,7 @@ La commande **Std Inspecteur de scène‏‎** ouvre une boîte de dialogue affi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SceneInspector/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SceneInspector/fr

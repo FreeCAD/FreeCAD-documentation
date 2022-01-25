@@ -3,7 +3,7 @@ Pages relating to Architectural and Building Information Management
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+    
   [Arch 3DS/de](Arch_3DS/de.md)                                                                                 [Arch 3Views/de](Arch_3Views/de.md)                                         [Arch Add/de](Arch_Add/de.md)
   [Arch API/de](Arch_API/de.md)                                                                                 [Arch Axis/de](Arch_Axis/de.md)                                             [Arch AxisSystem/de](Arch_AxisSystem/de.md)
   [Arch Building/de](Arch_Building/de.md)                                                                       [Arch BuildingPart/de](Arch_BuildingPart/de.md)                             [Arch Check/de](Arch_Check/de.md)
@@ -34,10 +34,9 @@ Pages relating to Architectural and Building Information Management
   [BIM Library/de](BIM_Library/de.md)                                                                           [Custom Spacing/de](Custom_Spacing/de.md)                                   [IfcOpenShell/de](IfcOpenShell/de.md)
   [Import/Export IFC - compiling IfcOpenShell/de](Import/Export_IFC_-_compiling_IfcOpenShell/de.md)             [Manual:BIM modeling/de](Manual:BIM_modeling/de.md)                         [Material/de](Material/de.md)
   [Reinforcement Addon/de](Reinforcement_Addon/de.md)                                                           [Reinforcement API/de](Reinforcement_API/de.md)                             [Tutorial custom placing of windows and doors/de](Tutorial_custom_placing_of_windows_and_doors/de.md)
-  [Tutorial for open windows/de](Tutorial_for_open_windows/de.md)                                                                                                                                   
-  --------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+  [Tutorial for open windows/de](Tutorial_for_open_windows/de.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/de](<img src="images/Property.png" style="width:16px"> User_Documentation/de.md) [<img src="images/Property.png" style="width:16px"> BIM/de](<img src="images/Property.png" style="width:16px"> BIM/de.md) [<img src="images/Property.png" style="width:16px"> Reinforcement/de](<img src="images/Property.png" style="width:16px"> Reinforcement/de.md)
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Category:Arch/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch/de

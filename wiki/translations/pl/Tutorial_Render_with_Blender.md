@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/pl
+   Topic:Renderowanie
+   Level:średniozaawansowany
+   Time:60 minut
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 lub nowszy
+   Files:brak
+---
+
 # Tutorial Render with Blender/pl
-{{TutorialInfo/pl
-|Topic=Renderowanie
-|Level=średniozaawansowany
-|Time=60 minut
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 lub nowszy
-|Files=brak
-}}
+
+
+
+
 
 ## Wprowadzenie
 
@@ -342,7 +348,9 @@ Z drugiej strony, Cycles jest prawdziwym rendererem raytracingowym, co oznacza, 
 
 Oba renderery mogą być użyte w celu wykorzystania zalet każdego z nich. W wielu przypadkach scena może być szybko przygotowana i przetestowana z EEVEE, aby uzyskać wstępne renderingi. Następnie ta sama scena może być użyta z niewielkimi zmianami z Cycles, aby uzyskać wyższej jakości, ostateczny rendering. W szczególności, gdy scena, która została ustawiona w EEVEE będzie używana w Cycles, światła mogą wymagać korekty wartości i pozycji, jako że oba renderery traktują światło w różny sposób.
 
-Uzyskanie dobrych rezultatów zależy w dużej mierze od opcji renderowania, materiałów i oświetlenia. Shader materiałów `Principled BSDF` jest ogólnym rozwiązaniem, które sprawdza się w wielu przypadkach, jednak aby uzyskać prawdziwie fotorealistyczne rezultaty, nadal bardzo ważne jest użycie map tekstur i map normalnych, wraz z dokładnym oświetleniem sceny. {{Tutorials navi}} {{Raytracing Tools navi}}
+Uzyskanie dobrych rezultatów zależy w dużej mierze od opcji renderowania, materiałów i oświetlenia. Shader materiałów `Principled BSDF` jest ogólnym rozwiązaniem, które sprawdza się w wielu przypadkach, jednak aby uzyskać prawdziwie fotorealistyczne rezultaty, nadal bardzo ważne jest użycie map tekstur i map normalnych, wraz z dokładnym oświetleniem sceny.  {{Raytracing Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > Tutorial Render with Blender/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Tutorial Render with Blender/pl

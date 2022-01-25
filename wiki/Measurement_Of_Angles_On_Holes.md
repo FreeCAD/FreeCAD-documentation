@@ -1,11 +1,16 @@
+---
+- TutorialInfo:   Topic:TechDraw
+   Level:Base
+   Time:1 minute
+   Author:AnHi
+   FCVersion:0.19
+---
+
 # Measurement Of Angles On Holes
-{{TutorialInfo
-|Topic=TechDraw
-|Level=Base
-|Time=1 minute
-|Author=AnHi
-|FCVersion=0.19
-}}
+
+ 
+
+
 
 ## Introduction
 
@@ -37,7 +42,9 @@ The created center line can change. Select the center line and press the button 
 Quadrant points select with <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> from the tool bar. Next select the points as show below and use <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> from the tool bar to create the angle. Other succession create other angles. Is there no catching point on the center line change \"ISO count\" in the properties.
 
  <img alt="" src=images/AnHi11.PNG  style="width:250px;">
-  {{TechDraw Tools navi}} {{Tutorials navi}}
+  {{TechDraw Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > Measurement Of Angles On Holes
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes

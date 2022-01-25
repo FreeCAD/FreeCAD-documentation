@@ -10,5 +10,7 @@ A [spreadsheet](spreadsheet.md) is a page that contains rows and columns that al
 3.  Edit the contents of the cells.
 4.  Close the spreadsheet tab when you are finished, the values are saved automatically as you type them.
 
+
+
 ---
-[documentation index](../README.md) > Spreadsheet
+![](images/Right_arrow.png) [documentation index](../README.md) > Spreadsheet

@@ -88,8 +88,5 @@ Pour terminer l\'installation, le chemin d\'accès à l\'exécutable POV-Ray doi
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > POV-Ray-Rendering Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > POV-Ray-Rendering Workbench/fr

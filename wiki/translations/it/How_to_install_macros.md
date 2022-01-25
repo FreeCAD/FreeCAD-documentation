@@ -1,5 +1,5 @@
-# How to install macros/it
-{{TutorialInfo/it|Topic=Programmazione e Configurazione|Level=Medio|Time=15 minuti|FCVersion=Tutte|Author=[Mario52](User_Mario52.md)}}
+---
+- TutorialInfo:/it   Topic:Programmazione e Configurazione   Level:Medio   Time:15 minuti   FCVersion:Tutte   Author:[[User:Mario52   Mario52]]}}
 
 ## Descrizione
 
@@ -7,7 +7,7 @@ Dalla v0.17 è facile aggiungere le macro usando [Addon Manager](Std_AddonMgr/it
 
 Le macro sono sequenze di comandi che vengono utilizzati per eseguire un\'operazione complessa. Le macro sono degli script [Python](Python/it.md), il che significa che sono file di testo che possono essere scritti e modificati con un editor di testo.
 
-Sebbene gli script Python abbiano normalmente l\'estensione `.py`, le macro di FreeCAD dovrebbero avere l\'estensione `.FCMacro`. Una raccolta di macro scritte da utenti esperti si trova nella pagina [Raccolta di macro](macros_recipes/it.md).
+Sebbene gli script Python abbiano normalmente l\'estensione {{incode   .py}}, le macro di FreeCAD dovrebbero avere l\'estensione {{incode   .FCMacro}}. Una raccolta di macro scritte da utenti esperti si trova nella pagina [Raccolta di macro](macros_recipes/it.md).
 
 Vedere la pagina [Introduzione a Python](Introduction_to_Python/it.md) per conoscere il linguaggio di programmazione Python e poi le pagine [Guida agli script Python](Python_scripting_tutorial/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md) per imparare a scrivere delle macro.
 
@@ -50,10 +50,13 @@ Anche le macro scaricate dovrebbero essere collocate in questa directory.
 Le macro possono essere semplicemente copiate in
 
 
-```python
+{{Code   code:
 $ROOT_DIR/
-```
+---
 
+# How to install macros/it
+
+ 
 dove `$ROOT_DIR` è una directory di primo livello ricercata da FreeCAD all\'avvio.
 
 La `$ROOT_DIR` può essere una directory di sistema, nel qual caso la macro viene installata per tutti gli utenti.
@@ -513,11 +516,6 @@ e poi cliccare sul pulsante **OK**
 </div>
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > How to install macros/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > How to install macros/it

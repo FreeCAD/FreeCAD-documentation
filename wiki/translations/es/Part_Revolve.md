@@ -19,7 +19,7 @@ Revoluciona los objetos seleccionados alrededor de un eje dado. Los siguientes t
 <div class="mw-translate-fuzzy">
 
   Forma de entrada   Forma de salida
-  ------------------ ------------------
+   
   Vértice            Arista
   Arista             Cara
   Contorno           Cáscara
@@ -65,5 +65,7 @@ Si seleccionas un eje definido por el usuario, los números definen la direcció
 
 -   If the object to revolve intersects the rotation axis the operation will fail in most cases.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/es

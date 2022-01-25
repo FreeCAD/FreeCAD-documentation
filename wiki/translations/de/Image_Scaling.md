@@ -51,5 +51,7 @@ Das [Bild Skalierung](Image_Scaling/de.md)-Werkzeug skaliert ein Bild, das mit d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/de

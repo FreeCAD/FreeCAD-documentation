@@ -42,5 +42,7 @@ Pour les réseaux de l\'atelier de Draft, utilisez l\'outil [Draft Rétrograder]
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup/fr

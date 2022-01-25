@@ -47,5 +47,7 @@ Această funcție vă permite să definiți aspectul paginii care va fi tipărit
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std PrintPreview/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPreview/ro

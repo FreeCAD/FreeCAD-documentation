@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Assembly_TreeItemDown.svg  style="width:24px;
     -   Le bouton **<img src="images/Assembly_TreeItemDown.svg" width=16px> [Move item down](Assembly3_MoveItemDown/fr.md)**.
     -   L\'option de menu **Assembly3 → <img src="images/Assembly_TreeItemDown.svg" width=16px> Move item down**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MoveItemDown/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MoveItemDown/fr

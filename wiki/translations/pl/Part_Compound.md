@@ -27,5 +27,7 @@ Złożenie zawierające elementy, które przecinają się lub dotykają, jest **
 
 Aby uaktywnić tę kontrolę, przejdź do **Narzędzia → Edycja Parametrów → Preferences... → Mod → Part → CheckGeometry → RunBOPCheck** i ustaw parametr na `true`.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/pl

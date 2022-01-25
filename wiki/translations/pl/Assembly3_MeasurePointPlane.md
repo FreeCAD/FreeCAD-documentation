@@ -16,5 +16,7 @@ This tool measures the distance between two objects of an assembly using a point
 1.  Select a point and a planar face.
 2.  Press the **<img src="images/Assembly_MeasurePointPlaneDistance.svg" width=16px> [Measure point to plane](Assembly3_MeasurePointPlane.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MeasurePointPlane/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasurePointPlane/pl

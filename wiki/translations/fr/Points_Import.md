@@ -49,5 +49,7 @@ Pour tester, vous pouvez utiliser ce fichier [Ce fichier](https://raw.githubuser
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/fr

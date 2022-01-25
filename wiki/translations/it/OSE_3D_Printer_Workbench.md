@@ -3,7 +3,5 @@ Vedere l\'ambiente sul wiki di OSE: <https://wiki.opensourceecology.org/wiki/3D_
 
 
 
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > OSE 3D Printer Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > OSE 3D Printer Workbench/it

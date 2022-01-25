@@ -61,11 +61,9 @@ Publicity: articles on [http://yorik.uncreated.net/guestblog.php](http://yori
 
 Decided rules and information goes to the [FreeCAD development model](FreeCAD_development_model.md) document.
 
-## Next actions 
+## Next actions
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > FreeCAD development model project
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > FreeCAD development model project

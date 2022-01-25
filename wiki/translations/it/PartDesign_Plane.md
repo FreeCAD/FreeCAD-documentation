@@ -76,5 +76,7 @@ Fare doppio clic sull\'etichetta DatumPlane nell\'albero del modello o fare clic
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/it

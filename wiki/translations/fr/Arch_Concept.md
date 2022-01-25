@@ -169,7 +169,7 @@ Le schéma suivant illustre la relation entre tous les objets décrits à ce jou
 
 <img alt="Objects for capturing building knowledge" src=images/BldgComponents.png  style="width:800px;">
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
+
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Arch](Arch_Workbench.md) > Arch Concept/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Arch](Arch_Workbench.md) > Arch Concept/fr

@@ -1,15 +1,20 @@
+---
+- TutorialInfo:   Topic:Rendering
+   Level:Intermediate
+   Time:120 minutes
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 or greater
+   Files:none
+---
+
 # Tutorial FreeCAD POV ray/pl
+
+
+
+
 **The [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench, and because the new workbench should basically work in the same way**
 
 
-{{TutorialInfo
-|Topic=Rendering
-|Level=Intermediate
-|Time=120 minutes
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 or greater
-|Files=none
-}}
 
 ## Wprowadzenie
 
@@ -143,7 +148,7 @@ This is the complete content of the `.pov` file, only without the meshes.
 #include "colors.inc"
 #include "metals.inc"
 
-// ----------------------------------------
+// 
 
 global_settings {
     assumed_gamma 1.0
@@ -151,7 +156,7 @@ global_settings {
     max_trace_level 20
 }  
 
-// ----------------------------------------
+// 
 
 
 sky_sphere {
@@ -165,7 +170,7 @@ sky_sphere {
 }
 
 
-// ----------------------------------------
+// 
 
 plane {
   y, -1
@@ -717,7 +722,7 @@ This is the complete content of the `.pov` file, only without the last section, 
 #include "stones.inc"
 #include "rad_def.inc"
 
-// ----------------------------------------
+// 
 #declare Rad_Quality = 3;
 
 global_settings {
@@ -745,7 +750,7 @@ global_settings {
 #end
 }
 
-// ----------------------------------------
+// 
 
 
 sky_sphere {
@@ -759,7 +764,7 @@ sky_sphere {
 }
 
 
-// ----------------------------------------
+// 
 
 #declare Parquet_normal = normal {
     gradient z 2 slope_map { [0 <0,1>][0.05 <1,0>][0.95 <1,0>][1 <0,-1>] }
@@ -871,9 +876,9 @@ The user is advised to read the POV-Ray documentation and more tutorials or exam
 -   [POV-Ray Reference](http://www.povray.org/documentation/3.7.0/r3_0.html)
 
 
-{{Tutorials navi
+ {{Raytracing Tools navi}}
 
-}} {{Raytracing Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Tutorial FreeCAD POV ray/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Tutorial FreeCAD POV ray/pl

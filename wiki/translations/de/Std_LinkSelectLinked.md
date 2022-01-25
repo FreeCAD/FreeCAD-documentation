@@ -29,5 +29,7 @@ Der Befehl **Std ZumVerknüpftenObjektGehen** wählt die {{PropertyData/de|Linke
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkSelectLinked/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectLinked/de

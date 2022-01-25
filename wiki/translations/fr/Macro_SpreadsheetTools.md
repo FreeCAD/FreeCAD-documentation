@@ -504,5 +504,7 @@ form = Spreadsheet_Tools(MainWindow)
 form.show()
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro SpreadsheetTools/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro SpreadsheetTools/fr

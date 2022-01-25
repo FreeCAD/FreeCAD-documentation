@@ -340,5 +340,7 @@ The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mous
 |[导航立方体](Navigation_Cube/zh.md)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Mouse navigation/zh
+![](images/Right_arrow.png) [documentation index](../README.md) > Mouse navigation/zh

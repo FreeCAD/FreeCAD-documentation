@@ -23,5 +23,7 @@ The underline style.
 
  {{Spreadsheet_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleUnderline

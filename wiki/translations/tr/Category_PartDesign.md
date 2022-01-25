@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench/tr](PartDesign_Wo
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+    
   [Basic Part Design Tutorial/tr](Basic_Part_Design_Tutorial/tr.md)               [Creating a simple part with PartDesign/tr](Creating_a_simple_part_with_PartDesign/tr.md)   [Draft ShapeString tutorial/tr](Draft_ShapeString_tutorial/tr.md)
   [Feature editing/tr](Feature_editing/tr.md)                                     [PartDesign AdditiveBox/tr](PartDesign_AdditiveBox/tr.md)                                   [PartDesign AdditiveCone/tr](PartDesign_AdditiveCone/tr.md)
   [PartDesign AdditiveCylinder/tr](PartDesign_AdditiveCylinder/tr.md)             [PartDesign AdditiveEllipsoid/tr](PartDesign_AdditiveEllipsoid/tr.md)                       [PartDesign AdditiveLoft/tr](PartDesign_AdditiveLoft/tr.md)
@@ -22,10 +22,8 @@ This category lists pages related to the [PartDesign Workbench/tr](PartDesign_Wo
   [PartDesign SubtractiveLoft/tr](PartDesign_SubtractiveLoft/tr.md)               [PartDesign SubtractivePipe/tr](PartDesign_SubtractivePipe/tr.md)                           [PartDesign SubtractivePrism/tr](PartDesign_SubtractivePrism/tr.md)
   [PartDesign SubtractiveSphere/tr](PartDesign_SubtractiveSphere/tr.md)           [PartDesign SubtractiveTorus/tr](PartDesign_SubtractiveTorus/tr.md)                         [PartDesign SubtractiveWedge/tr](PartDesign_SubtractiveWedge/tr.md)
   [PartDesign Thickness/tr](PartDesign_Thickness/tr.md)                           [PartDesign WizardShaft/tr](PartDesign_WizardShaft/tr.md)                                   [PartDesign Workbench/tr](PartDesign_Workbench/tr.md)
-                                                                                                                                                                                              
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/tr](<img src="images/Property.png" style="width:16px"> Workbenches/tr.md)
+
 
 ---
-[documentation index](../README.md) > Category:PartDesign/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:PartDesign/tr

@@ -50,5 +50,7 @@ El modo de ajuste a la rejilla se puede establecer en el [Preferencias del Croqu
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/es

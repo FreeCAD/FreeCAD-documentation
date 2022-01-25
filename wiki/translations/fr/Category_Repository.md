@@ -3,7 +3,7 @@ This category gathers pages that act as a repository of resources for FreeCAD, s
 
 ### Contents:
 
-[<img src="images/Property.png" style="width:16px"> Categories/fr](<img src="images/Property.png" style="width:16px"> Categories/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Repository/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Repository/fr

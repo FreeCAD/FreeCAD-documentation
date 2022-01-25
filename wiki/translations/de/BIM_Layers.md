@@ -19,5 +19,7 @@ Lagen werden von/nach [IFC](Arch_IFC/de.md) und [DXF/DWG](Draft_DXF/de.md) impor
 
 Mit dem Lagenverwalter kannst du deine Lagen verwalten, Lagen hinzufügen oder entfernen oder ihre visuellen Eigenschaften ändern. Um Objekte zu einer Lage hinzuzufügen, ziehe sie einfach in die Lage in der Strukturansicht. Um sie zu entfernen, ziehe sie aus der Lage und legen sie im Dokumentstamm ab.
 
+
+
 ---
-[documentation index](../README.md) > BIM Layers/de
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Layers/de

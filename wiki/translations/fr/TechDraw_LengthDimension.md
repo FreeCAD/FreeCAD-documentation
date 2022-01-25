@@ -35,35 +35,35 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 ### Tolérances
 
--   **Theoretically Exact**: Si coché, spécifie la dimension comme dimension théoriquement exacte. En tant que telle, elle ne supportera aucune tolérance. La dimension sera affichée par un cadre autour de la valeur: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
+-   **Théoriquement exact**: Si coché, spécifie la dimension comme dimension théoriquement exacte. En tant que telle, elle ne supportera aucune tolérance. La dimension sera affichée par un cadre autour de la valeur: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
 
--   **Equal Tolerance**: Si coché, la sur-tolérance et la sous-tolérance sont égales et la valeur négative de la sur- et de la sous-tolérance est utilisée comme sous-tolérance. L\'affichage sera <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">, sinon ce sera <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">.
+-   **Tolérance symétrique**: Si coché, la sur-tolérance et la sous-tolérance sont égales et la valeur négative de la sur- et de la sous-tolérance est utilisée comme sous-tolérance. L\'affichage sera <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">, sinon ce sera <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">.
 
--   **Overtolerance**: La valeur de combien la dimension peut être plus grande.
+-   **Tolérance supérieure**: La valeur de combien la dimension peut être plus grande.
 
--   **Undertolerance**: La valeur de combien la dimension peut être plus petite.
+-   **Tolérance inférieure**: La valeur de combien la dimension peut être plus petite.
 
 ### Mise en forme 
 
--   **Format Specifier**: comment la valeur de dimension sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
+-   **Nombre de décimales**: Comment la valeur de la dimension sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
 
--   **Arbitrary Text**: Si coché, la dimension est remplacée par le contenu du champ **Format Specifier**.
+-   **Texte arbitraire**: Si coché, la dimension est remplacée par le contenu du champ **Nombre de décimales**.
 
--   **OverTolerance Format Specifier**: comment la valeur de surtolérance sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
+-   **Précision de la tolérance supérieure**: Comment la valeur de surtolérance sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
 
--   **UnderTolerance Format Specifier**: Comment la valeur de sous-tolérance sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
+-   **Précision de la tolérance inférieure**: Comment la valeur de sous-tolérance sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
 
--   **Arbitrary Tolerance Text**: Si coché, les tolérances sont remplacées par le contenu des champs **OverTolerance Format Specifier** **UnderTolerance Format Specifier**.
+-   **Tolérance du texte arbitraire**: Si coché, les tolérances sont remplacées par le contenu des champs **Précision de la tolérance supérieure** **Précision de la tolérance inférieure**.
 
 ### Style d\'affichage 
 
--   **Flip Arrowheads**: Inverse la direction dans laquelle les flèches de la ligne de cote pointent. Par défaut, elles sont à l\'intérieur de la ligne de cote/de l\'arc et pointent vers l\'extérieur.
+-   **Inverser les flèches**: Inverse la direction dans laquelle les flèches de la ligne de cote pointent. Par défaut, elles sont à l\'intérieur de la ligne de cote/de l\'arc et pointent vers l\'extérieur.
 
--   **Color**: La couleur des lignes et du texte.
+-   **Couleur**: La couleur des lignes et du texte.
 
--   **Font Size**: La taille du texte de la cote.
+-   **Taille de la police**: La taille du texte de la cote.
 
--   **Drawing Style**: La norme (et son style) selon laquelle la cote est dessinée. Voir la propriété [**Standard And Style**](#Vue.md) pour plus de détails.
+-   **Style de représentation**: La norme (et son style) selon laquelle la cote est dessinée. Voir la propriété [**Standard And Style**](#Vue.md) pour plus de détails.
 
 ## Propriétés
 
@@ -72,20 +72,20 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 {{Properties_Title|Base}}
 
--    {{PropertyData/fr|X}}: position horizontale du texte de la cotation en mm par rapport à la vue.
+-    **X**: position horizontale du texte de la cotation en mm par rapport à la vue.
 
--    {{PropertyData/fr|Y}}: position verticale du texte de la cotation en mm par rapport à la vue.
+-    **Y**: position verticale du texte de la cotation en mm par rapport à la vue.
 
--    {{PropertyData/fr|Type}}: longueur, rayon, diamètre, etc. Normalement non manipulé par l\'utilisateur final.
+-    **Type**: longueur, rayon, diamètre, etc. Normalement non manipulé par l\'utilisateur final.
 
--    {{PropertyData/fr|Measure Type}}: Comment la mesure est effectuée. Normalement, n\'est pas manipulé directement par l\'utilisateur.
+-    **Measure Type**: Comment la mesure est effectuée. Normalement, n\'est pas manipulé directement par l\'utilisateur.
 
 :   
 
     :   *True* - basé sur la géométrie 3D ou
     :   *Projected* - basé sur le dessin
 
--    {{PropertyData/fr|Theoretical Exact}}: spécifie une dimension théoriquement exacte (ou de base).
+-    **Theoretical Exact**: spécifie une dimension théoriquement exacte (ou de base).
 
 :   
 
@@ -101,32 +101,32 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
 
--    {{PropertyData/fr|Equal Tolerance}}: si la sur-tolérance et la sous-tolérance sont égales, la valeur négative de la sur-tolérance est alors utilisée comme sous-tolérance.
+-    **Equal Tolerance**: si la sur-tolérance et la sous-tolérance sont égales, la valeur négative de la sur-tolérance est alors utilisée comme sous-tolérance.
 
 :   
 
     :   
         `True`
         
-        \- la valeur négative de la {{PropertyData/fr|Over Tolerance}} est utilisée comme {{PropertyData/fr|Under Tolerance}}. L\'affichage sera <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">.
+        \- la valeur négative de la **Over Tolerance** est utilisée comme **Under Tolerance**. L\'affichage sera <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">.
 
     :   
         `False`
         
-        \- la {{PropertyData/fr|Under Tolerance}} est prise en compte. L\'affichage sera <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
+        \- la **Under Tolerance** est prise en compte. L\'affichage sera <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
 
--    {{PropertyData/fr|Over Tolerance}}: valeur de combien la dimension peut être plus grande.
+-    **Over Tolerance**: valeur de combien la dimension peut être plus grande.
 
--    {{PropertyData/fr|Under Tolerance}}: valeur de combien la dimension peut être plus petite.
+-    **Under Tolerance**: valeur de combien la dimension peut être plus petite.
 
--    {{PropertyData/fr|Inverted}}: indique si la dimension représente une valeur commune ou une valeur inversée.
+-    **Inverted**: indique si la dimension représente une valeur commune ou une valeur inversée.
 
 :   
 
     :   
         `False`
         
-        \- la valeur ordinaire est utilisée. Pour la longueur, il s\'agit d\'un nombre positif, pour angle, la valeur oblique (0° - 180°).
+        \- la valeur ordinaire est utilisée. Pour la longueur, il s\'agit d\'un nombre positif, pour angle, la valeur oblique (0° à 180°).
 
     :   
         `True`
@@ -136,13 +136,13 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 {{Properties_Title|Format}}
 
--    {{PropertyData/fr|Format Spec}}: comment la valeur de dimension sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
+-    **Format Spec**: comment la valeur de dimension sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
 
--    {{PropertyData/fr|Format Spec Over Tolerance}}: comme {{PropertyData/fr|Format Spec}}, mais pour les surtolérances.
+-    **Format Spec Over Tolerance**: comme **Format Spec**, mais pour les surtolérances.
 
--    {{PropertyData/fr|Format Spec Under Tolerance}}: comme **Format Spec**, mais pour les sous-tolérances.
+-    **Format Spec Under Tolerance**: comme **Format Spec**, mais pour les sous-tolérances.
 
--    {{PropertyData/fr|Arbitrary}}: indique si la dimension est remplacée par le contenu du champ **Format Spec**.
+-    **Arbitrary**: indique si la dimension est remplacée par le contenu du champ **Format Spec**.
 
 :   
 
@@ -156,27 +156,27 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
         
         \- le contenu de **Format Spec** sera affiché sous forme de texte à la place si la valeur de la dimension.
 
--    {{PropertyData/fr|Arbitrary Tolerances}}: Comme {{PropertyData/fr|Arbitrary}}, mais pour la tolérance.
+-    **Arbitrary Tolerances**: Comme **Arbitrary**, mais pour la tolérance.
 
 ### Vue
 
 
 {{Properties_Title|Base}}
 
--    {{PropertyView/fr|Visibility}}: définit si la dimension est visible. `True` - visible, `False` - masqué.
+-    **Visibility**: définit si la dimension est visible. `True` - visible, `False` - masqué.
 
 
 {{Properties_Title|Dim Format}}
 
--    {{PropertyView/fr|Font}}: nom de la police à utiliser pour le texte de cote.
+-    **Font**: nom de la police à utiliser pour le texte de cote.
 
--    {{PropertyView/fr|Font Size}}: taille du texte.
+-    **Font Size**: taille du texte.
 
--    {{PropertyView/fr|Line Width}}: épaisseur de la ligne de cote.
+-    **Line Width**: épaisseur de la ligne de cote.
 
--    {{PropertyView/fr|Color}}: couleur des lignes et du texte.
+-    **Color**: couleur des lignes et du texte.
 
--    {{PropertyView/fr|Standard And Style}}: spécifie le standard (et son style) en fonction duquel la dimension est dessinée:
+-    **Standard And Style**: spécifie le standard (et son style) en fonction duquel la dimension est dessinée:
 
 <img alt="Différences entre les normes prises en charge" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
 
@@ -187,7 +187,7 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
     :   ASME Inlined - dessine conformément à la norme ASME Y14.5M (norme américaine), le texte est horizontal, inséré dans une rupture dans la ligne de cote ou dans l\'arc.
     :   ASME Referencing - dessiné conformément à la norme ASME Y14.5M, le texte est horizontal, la ligne de référence courte est attachée au centre vertical d\'un côté.
 
--    {{PropertyView/fr|Rendering Extent}}: propriété plutôt universelle spécifiant l\'espace que le dessin de dimension peut occuper:
+-    **Rendering Extent**: propriété plutôt universelle spécifiant l\'espace que le dessin de dimension peut occuper:
 
 :   
 
@@ -203,7 +203,7 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
     :   Les rayons sont dessinés comme une seule ligne en-tête du centre au point d\'arc le plus proche.
     :   Expanded - Seuls les diamètres prennent en charge cette valeur, ce qui les rend de manière horizontale ou verticale. Les autres types de dimension sont rendus comme avec l\'étendue Normal.
 
--    {{PropertyView/fr|Flip Arrowheads}}: par défaut, la valeur *à l\'intérieur* de la ligne/arc de cote désigne les flèches pointant vers *vers l\'extérieur*. Si elle est placée \"à l\'extérieur\" de la ligne/arc de cote, les flèches pointent \"à l\'intérieur\" de la ligne/arc de cote.
+-    **Flip Arrowheads**: par défaut, la valeur *à l\'intérieur* de la ligne/arc de cote désigne les flèches pointant vers *vers l\'extérieur*. Si elle est placée \"à l\'extérieur\" de la ligne/arc de cote, les flèches pointent \"à l\'intérieur\" de la ligne/arc de cote.
 
 :   
 
@@ -252,7 +252,7 @@ rc = page.addView(dim1)
 
 ## Notes
 
--   **Sélection du bord**. Les bords peuvent être difficiles à sélectionner. Vous pouvez ajuster la zone de sélection des arêtes à l'aide du paramètre \"/Mod/TechDraw/General/EdgeFuzz\" (voir [Editeur de paramètres Std](Std_DlgParameter/fr.md)). C\'est un nombre sans dimension. La valeur par défaut est 10.0. Des valeurs dans la plage 20-30 faciliteront considérablement la sélection des arêtes. Un grand nombre entraînera des chevauchements avec d\'autres éléments de dessin.
+-   **Sélection d\'un bord**. Les bords peuvent être difficiles à sélectionner. Vous pouvez ajuster la zone de sélection des arêtes à l'aide du paramètre \"/Mod/TechDraw/General/EdgeFuzz\" (voir l\'[Editeur de paramètres](Std_DlgParameter/fr.md)). C\'est un nombre sans dimension. La valeur par défaut est 10.0. Des valeurs dans la plage 20-30 faciliteront considérablement la sélection des arêtes. Un grand nombre entraînera des chevauchements avec d\'autres éléments de dessin.
 -   **Position des décimales**. Les cotes utilisent le paramètre de nombre total de décimales par défaut. Cela peut être changé via [préférences](TechDraw_Preferences/fr#Dimensions/fr.md) ou en modifiant la propriété FormatSpec.
 -   **Plusieurs objets**. Les vues peuvent contenir plusieurs objets 3D comme source. Les cotes peuvent être appliquées à la géométrie à partir de n\'importe quel objet dans la vue (par exemple d\'Object1.Vertex0 à Object2.Vertex3).
 
@@ -264,5 +264,7 @@ rc = page.addView(dim1)
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LengthDimension/fr

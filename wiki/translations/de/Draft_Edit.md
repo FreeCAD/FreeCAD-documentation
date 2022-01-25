@@ -206,5 +206,7 @@ Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceD
 
 Es gibt keine Python Methode für Entwurf Editieren Objekte. Um die Ergebnisse des Befehls zu emulieren, müssen geometrische Eigenschaften von Objekten geändert werden.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/de

@@ -3,10 +3,10 @@
 
 如何编译FreeCAD，针对每种操作系统，都有它自己的页面，在[在线帮助文档里有](Online_Help_Toc.md).
 
-  ------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
+    
    ![ alt=\'Windows\' \| link= Compile\_on\_Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Compile\_on\_Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Compile\_on\_MacOS](images/Mac.png )
                                [ 在Windows上编译](Compile_on_Windows.md)                                                       [ 在Linux/Unix上编译](Compile_on_Linux.md)                                                 [ 在Mac上编译](Compile_on_MacOS.md)
-  ------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
+    
 
 
 </div>
@@ -29,8 +29,5 @@ To learn to use revision control system and contribute code see [Source code man
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compiling/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compiling/zh-cn

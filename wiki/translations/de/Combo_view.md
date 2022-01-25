@@ -58,5 +58,7 @@ Aktiviere dann die Ansicht über das Menü {{MenuCommand/de|Ansicht → Paneele 
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Combo view/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Combo view/de

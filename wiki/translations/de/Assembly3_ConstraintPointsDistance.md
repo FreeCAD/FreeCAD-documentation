@@ -18,5 +18,7 @@ Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus
 2.  Je ein Punktelement pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintPointsDistance.svg" width=16px> [Punkt zu Punkt Abstand](Assembly3_ConstraintPointsDistance/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointsDistance/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsDistance/de

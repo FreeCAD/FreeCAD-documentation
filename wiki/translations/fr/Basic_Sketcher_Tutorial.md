@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic: Esquisse
+   Level: Débutant
+   Time:60 minutes
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] et vocx
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Basic Sketcher tutorial updated]
+---
+
 # Basic Sketcher Tutorial/fr
-{{TutorialInfo/fr
-|Topic= Esquisse
-|Level= Débutant
-|Time=60 minutes
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] et vocx
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Basic Sketcher tutorial updated]
-}}
+
+
+
+
 
 ## Introduction
 
@@ -296,11 +302,9 @@ Contraindre une esquisse peut se faire de différentes manières. En général, 
 -   Essayez d\'utiliser une autre géométrie de construction.
 
 
-{{Tutorials navi
+ {{Sketcher Tools navi}}
 
-}} {{Sketcher Tools navi}} 
 
-[<img src="images/Property.png" style="width:16px"> Sketcher/fr](<img src="images/Property.png" style="width:16px"> Sketcher/fr.md)
 
 ---
-[documentation index](../README.md) > Basic Sketcher Tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/fr

@@ -40,6 +40,9 @@ Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Co
 
 Die hier erwähnten Tastenkombinationen für einzelne Zeichen und die Modifikatortaste können geändert werden. Siehe [Entwurf Einstellungen](Draft_Preferences/de.md).
 
+
+<div class="mw-translate-fuzzy">
+
 -   Zur manuellen Eingabe der Koordinaten des Zentrums der Drehung einfach die X-, Y- und Z-Komponente eingeben und jeweils **Enter** drücken. Oder die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Schaltfläche betätigen, wenn die gewünschten Werte für den einzufügenden Punkt eingegeben sind. Es ist ratsam, vor der Eingabe der Koordinaten, den Mauszeiger außerhalb der [3D-Ansicht](3D_view/de.md) zu setzen.
 -   Das **Relative**-Auswahlkästchen hat zu diese Anweisung keine Bedeutung.
 -   Drücke **G** oder setze das **Global**-Auswahlkästchen, um in den globalen Modus zu schalten. Ist der globale Modus gesetzt, werden die Koordinaten relativ zum globalen Koordinatensystem verwendet. Umgekehrt werden sie relativ zum Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md) verwendet. <small>(v0.20)</small> 
@@ -50,6 +53,9 @@ Die hier erwähnten Tastenkombinationen für einzelne Zeichen und die Modifikato
 -   Durch Halten der **ALT**-Taste nach der Eingabe des **Base angle / grundlegenden Winkels** wird ebenfalls in den Kopiermodus geschalten. Wenn die **ALT**-Taste gehalten wird, können mehrere Punkte für die **Rotation / Drehung** gewählt werden. Nach dem Lösen der **ALT**-Taste wird die Anweisung abgeschlossen und die erstellten Kopien werden angezeigt.
 -   Drücken der **S**-Taste schaltet das [Fangen](Draft_Snap/de.md) ein oder aus.
 -   Drücken der **ESC**-Taste oder durch Klicken auf die {{button|Schließen}}-Schaltfläche wird die aktuelle Anweisung abgebrochen.
+
+
+</div>
 
 ## Hinweise
 
@@ -131,5 +137,7 @@ rot_list4 = Draft.rotate(list2, 4*angle2, center=cen, copy=True)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/de

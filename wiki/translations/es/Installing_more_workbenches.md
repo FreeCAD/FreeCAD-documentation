@@ -41,11 +41,6 @@ Puedes encontrar información adicional sobre cómo crear un ambiente de trabajo
 Consulta también una descripción detallada en la página [cómo instalar ambientes de trabajo adicionales](How_to_install_additional_workbenches/es.md).
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/es

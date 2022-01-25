@@ -268,5 +268,7 @@ Sur les MacBooks équipés d\'un pavé tactile, la navigation Gesture fonctionne
 
 Le tutoriel [Ajout d\'une nouvelle option de navigation à la souris à FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD/fr.md) oriente les développeurs qui souhaitent développer une option de navigation à la souris personnalisée. Une certaine familiarité avec la syntaxe C++ est requise.
 
+
+
 ---
-[documentation index](../README.md) > Mouse navigation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Mouse navigation/fr

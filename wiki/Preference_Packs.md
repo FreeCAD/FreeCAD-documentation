@@ -417,7 +417,5 @@ Preference Packs are distributed identically to [External Workbenches](External_
 
 
 
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Preference Packs
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > Preference Packs

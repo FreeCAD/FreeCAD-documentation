@@ -21,5 +21,7 @@ Clona, copia o sposta una geometria. Fare clic sulla freccia giù alla sua destr
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCopy/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCopy/it

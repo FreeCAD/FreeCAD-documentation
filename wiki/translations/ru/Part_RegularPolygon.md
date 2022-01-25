@@ -28,5 +28,7 @@
 -   Многоугольник(Polygon) - количество сторон многоугольника в поперечном сечении объекта в форме призмы.
 -   Описанный радиус (Circumradius) - радиус описанной окружности - это расстояние от центра многоугольника до его вершины.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/ru

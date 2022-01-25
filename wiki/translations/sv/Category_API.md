@@ -5,11 +5,10 @@ This category gathers article that list objects and methods available to the pyt
 
 ### Contents:
 
-  -----------------------------------------
+  
   [Draft API/sv](Draft_API/sv.md)
-  -----------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Categories/sv](<img src="images/Property.png" style="width:16px"> Categories/sv.md)
+
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Category:API/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Category:API/sv

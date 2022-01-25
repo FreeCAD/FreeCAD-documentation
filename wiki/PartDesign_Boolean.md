@@ -63,5 +63,7 @@ Alternatively, one or more Bodies can be selected prior to pressing the Boolean 
 
  {{PartDesign Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean

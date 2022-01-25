@@ -43,5 +43,7 @@ Ajoute des propriétés matériau à une pièce.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM MaterialSolid/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialSolid/fr

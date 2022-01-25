@@ -19,5 +19,7 @@ Cet outil établit un lien entre deux objets d\'un assemblage et fixe la distanc
 2.  Sélectionnez un élément de point d\'un objet et un élément de bord linéaire de l\'autre objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintPointLineDistance.svg" width=16px> [Point line distance](Assembly3_ConstraintPointLineDistance/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointLineDistance/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointLineDistance/fr

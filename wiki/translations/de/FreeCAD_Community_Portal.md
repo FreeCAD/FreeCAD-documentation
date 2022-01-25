@@ -84,7 +84,5 @@ Dies sind von der FreeCAD Gemeinschaft entwickelte Arbeitsbereiche, Skripte, Mak
 
 
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/de

@@ -1,5 +1,7 @@
 # Spinning/es
 1.  REDIRECT [Std\_DemoMode](Std_DemoMode.md)
 
+
+
 ---
-[documentation index](../README.md) > Spinning/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Spinning/es

@@ -23,5 +23,7 @@ The position on the circular element (arc length from the start point) is not de
 2.  Select one point element of one object and one circular face or edge element of the other object.
 3.  Press the **<img src="images/Assembly_ConstraintPointOnCircle.svg" width=16px> [Point on circle](Assembly3_ConstraintPointOnCircle.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/pl

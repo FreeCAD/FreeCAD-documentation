@@ -55,8 +55,5 @@ L\'opzione per esportare in PDF è disponibile nel menu **File → Esporta PDF**
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/it

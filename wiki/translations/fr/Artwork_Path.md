@@ -12,9 +12,9 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Path](Category_Path.md)
+
 
 ---
-[documentation index](../README.md) > [Path](Category_Path.md) > Artwork Path/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Category_Path.md) > Artwork Path/fr

@@ -192,9 +192,9 @@ Some preference settings are only accessible through the [Parameter editor](Std_
 
 {{TechDraw Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
+
 
 ---
-[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/en

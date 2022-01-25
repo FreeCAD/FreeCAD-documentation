@@ -45,5 +45,7 @@ for obj in FreeCADGui.Selection.getSelection():
 
 [Script to map texture with environement checked](https://forum.freecadweb.org/viewtopic.php?f=3&t=28795)
 
+
+
 ---
-[documentation index](../README.md) > Macro Texture Objects/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Texture Objects/en

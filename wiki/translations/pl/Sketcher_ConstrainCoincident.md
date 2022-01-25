@@ -85,5 +85,7 @@ Strona [skrypty w środowiszku szkicownika](Sketcher_scripting.md) opisuje warto
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/pl

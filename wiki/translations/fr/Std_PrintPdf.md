@@ -41,5 +41,7 @@ La commande **Std Exporter au format PDF** est principalement destinée à crée
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std PrintPdf/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPdf/fr

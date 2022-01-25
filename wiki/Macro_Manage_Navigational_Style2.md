@@ -47,5 +47,7 @@ p=App.ParamGet("User parameter:BaseApp/Preferences/View")
 p.SetString("NavigationStyle","Gui::InventorNavigationStyle")
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Manage Navigational Style2
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Manage Navigational Style2

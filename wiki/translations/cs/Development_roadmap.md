@@ -11,7 +11,7 @@ This section gives an overview of what is planned and gives you the opportunity 
 ## Projects
 
   Project                                                                                 Description                                                                                                                       Category                                                            Status
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------- ----------
+     
   **[STEP project](STEP_project.md)**                                             about improving and advancing the STEP support in FreeCAD                                                                         Modeling, File formats                                              Current
   **[Naming project](Naming_project.md)**                                         is about implementing a robust Shape referencing frame work.                                                                      Modeling                                                            Current
   **[FreeCAD development model project](FreeCAD_development_model_project.md)**   move FreeCAD to a more capable development model                                                                                  Development process                                                 Current
@@ -42,8 +42,5 @@ Like in the most [FLOSS](http://en.wikipedia.org/wiki/FLOSS) projects a release 
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/cs

@@ -31,5 +31,7 @@ Dieses Werkzeug erlaubt dir Objekte zu exportieren und auf dein [SketchFab](http
 -   Wenn du die Schaltfläche \"Hochladen\" drückst, verwandelt sich die Schaltfläche nach Abschluss des Hochladens in eine Schaltfläche \"Modell online ansehen\", die du direkt zur Modellseite auf Sketchfab führt, wenn du darauf klickst.
 -   Einige Formate, wie OBJ, werden von Sketchfab und FreeCAD unterschiedlich interpretiert. FreeCAD geht davon aus, dass die Z Achse nach oben zeigt, während Sketchfab davon ausgeht, dass sie in Richtung der Person hinter dem Bildschirm zeigt. Um dieses Problem zu beheben, verwendet der Exporteur nach dem Hochladen die Sketchfab API, um das Modell in die richtige Position zu drehen. Wenn dieser Vorgang fehlschlägt, wirst du gewarnt, aber dein Modell wird trotzdem korrekt hochgeladen. Du kannst das Modell in der Sketchfab Oberfläche manuell drehen, durch drücken des rechten Pfeils neben der \"X\" Achse im \"Modellausrichtung\"sreiter.
 
+
+
 ---
-[documentation index](../README.md) > WebTools Sketchfab/de
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab/de

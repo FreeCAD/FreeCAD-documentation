@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ro
+   Topic:Modeling
+   Level:Intermediate
+   Time:
+   Author:[Yorik](User_Yorik.md)
+   FCVersion:0.14
+   Files:
+---
+
 # Arch tutorial/ro
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro
-|Topic=Modeling
-|Level=Intermediate
-|Time=
-|Author=[Yorik](User_Yorik.md)
-|FCVersion=0.14
-|Files=
-}}
 
 
 </div>
@@ -654,9 +660,6 @@ Fișierul creat pe durata acestui tutorial poate fi găsit la [here](http://yori
 </div>
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ro

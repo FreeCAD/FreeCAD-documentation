@@ -754,8 +754,5 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly3 Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/it

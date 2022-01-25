@@ -59,5 +59,7 @@ Die Spitze wird im Modellbaum durch einen kleinen weißen Abwärtspfeil in einem
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/de

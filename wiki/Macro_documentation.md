@@ -218,7 +218,5 @@ In order to include the macro there, first it must be reviewed by the FreeCAD co
 
 
 
-[<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Macros](Category_Macros.md) > Macro documentation
+![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation

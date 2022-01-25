@@ -28,5 +28,7 @@ Oder
 3.  Ein planeres Flächenelement des dritten Objekts auswählen.
 4.  Schaltfläche**<img src="images/Assembly_ConstraintPointsSymmetric.svg" width=16px> [Symmetrische Punkte](Assembly3_ConstraintPointsSymmetric/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointsSymmetric/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsSymmetric/de

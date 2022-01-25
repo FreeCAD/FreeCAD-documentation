@@ -75,5 +75,7 @@ In questo momento i vertici cosmetici non sono accessibili dalle [macro](macros/
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/it

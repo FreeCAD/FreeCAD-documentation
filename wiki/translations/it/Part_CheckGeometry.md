@@ -69,5 +69,7 @@ If ticked, any errors found are also logged in the [report view](Report_view.md)
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/it

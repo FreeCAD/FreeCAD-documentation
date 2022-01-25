@@ -302,5 +302,7 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 
 La discussione sul forum [Macros for pyramids and polyhedrons](https://forum.freecadweb.org/viewtopic.php?f=22&t=40485&p=344116&hilit=Eddyverl#p344116)
 
+
+
 ---
-[documentation index](../README.md) > Macro Pyramid/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Pyramid/it

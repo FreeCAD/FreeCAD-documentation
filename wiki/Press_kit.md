@@ -39,5 +39,7 @@ Screenshots/gifs of various formats/sizes
 
 ## History of FreeCAD
 
+
+
 ---
-[documentation index](../README.md) > Press kit
+![](images/Right_arrow.png) [documentation index](../README.md) > Press kit

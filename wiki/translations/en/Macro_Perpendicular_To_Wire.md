@@ -141,5 +141,7 @@ Other parameters to `discretize()` are as follows:
 
 Ver 00.03 2020-03-21: Source and comment typo fixes Ver 00.02 2019-04-06: Python 3
 
+
+
 ---
-[documentation index](../README.md) > Macro Perpendicular To Wire/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Perpendicular To Wire/en

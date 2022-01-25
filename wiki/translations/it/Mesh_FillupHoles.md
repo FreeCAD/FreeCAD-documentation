@@ -41,5 +41,7 @@ Il comando **Riempi i buchi** riempie i buchi negli oggetti mesh.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/it

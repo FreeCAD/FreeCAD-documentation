@@ -67,9 +67,6 @@ gui_doc.activateWorkbench("myWorkbench")
 {{APIFunction | updateGui | | Mise à jour de la fenêtre principale et toutes ses fenêtres |}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > FreeCADGui API/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > FreeCADGui API/fr

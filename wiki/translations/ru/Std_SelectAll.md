@@ -29,5 +29,7 @@ The **Std SelectAll** command selects all objects in the [Tree view](Tree_view.m
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SelectAll/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectAll/ru

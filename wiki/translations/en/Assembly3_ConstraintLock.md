@@ -29,5 +29,7 @@ This can be used to define the fixed set in a static assembly as well as in a ki
 2.  Select one element of the object.
 3.  Press the **<img src="images/Assembly_ConstraintLock.svg" width=16px> [Locked](Assembly3_ConstraintLock.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintLock/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLock/en

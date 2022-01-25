@@ -49,5 +49,7 @@ C\'è anche il problema che non abbiamo una struttura (fondazione, associazione,
 
 Questo è il tempo del finanziamento collettivo (inglese: crowdfunding), dove tutti i tipi di progetti e idee possono a volte raccogliere molto denaro e interesse. Perché non inventare qualcosa di nuovo che potrebbe essere fatto per FreeCAD con i soldi, o aiutare a trovare soluzioni migliori? Sentiti libero di discuterne sul forum, [A proposito di finanziamenti e tutto il resto](http://forum.freecadweb.org/viewtopic.php?f=8&t=12242).
 
+
+
 ---
-[documentation index](../README.md) > Donate/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Donate/it

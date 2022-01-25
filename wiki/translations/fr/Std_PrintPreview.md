@@ -32,5 +32,7 @@ La commande **Std Aperçu avant impression** affichera un aperçu du résultat d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std PrintPreview/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPreview/fr

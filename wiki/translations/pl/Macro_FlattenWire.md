@@ -32,5 +32,7 @@ for p in obj.Points: newpoints.append(FreeCAD.Vector(p.x, p.y, z))
 obj.Points = newpoints
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro FlattenWire/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FlattenWire/pl

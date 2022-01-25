@@ -288,7 +288,7 @@ It becomes thus very easy to manage any number of properties with any kind of un
 -   The documentation of [Quantity](Quantity.md).
 -   The [Std UnitsCalculator](Std_UnitsCalculator.md) tool.
 
- {{Powerdocnavi}}
+
 
 ---
-[documentation index](../README.md) > Units
+![](images/Right_arrow.png) [documentation index](../README.md) > Units

@@ -12,9 +12,9 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
+
 
 ---
-[documentation index](../README.md) > [FEM](Category_FEM.md) > Artwork Fem/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Artwork Fem/pl

@@ -77,5 +77,7 @@ Creează o constrângere MEF pentru contactul între două suprafețe.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ConstraintContact/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintContact/ro

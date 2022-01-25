@@ -129,5 +129,7 @@ The tool itself is implemented in Python, see {{FileName|/Mod/Part/BOPTools/Spli
 
 -   [FreeCAD Slice und Slice Apart und andere Tricks](https://www.youtube.com/watch?v=JJAL5JmqqKQ) (German language), author: Ha Gei
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/pl

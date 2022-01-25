@@ -3,7 +3,7 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [Arch 3Views/hr](Arch_3Views/hr.md)                                                               [Arch Door/hr](Arch_Door/hr.md)                                             [Arch Reference/hr](Arch_Reference/hr.md)
   [Arch Structure/hr](Arch_Structure/hr.md)                                                         [BIM Classification/hr](BIM_Classification/hr.md)                           [BIM Copy/hr](BIM_Copy/hr.md)
   [BIM IfcElements/hr](BIM_IfcElements/hr.md)                                                       [BIM Views/hr](BIM_Views/hr.md)                                             [BIM Windows/hr](BIM_Windows/hr.md)
@@ -21,10 +21,9 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
   [Sketcher ViewSection/hr](Sketcher_ViewSection/hr.md)                                             [Sketcher ViewSketch/hr](Sketcher_ViewSketch/hr.md)                         [Std About/hr](Std_About/hr.md)
   [Std AddonMgr/hr](Std_AddonMgr/hr.md)                                                             [Std Quit/hr](Std_Quit/hr.md)                                               [Std WhatsThis/hr](Std_WhatsThis/hr.md)
   [Surface CurveOnMesh/hr](Surface_CurveOnMesh/hr.md)                                               [Surface ExtendFace/hr](Surface_ExtendFace/hr.md)                           [Surface Filling/hr](Surface_Filling/hr.md)
-  [Surface GeomFillSurface/hr](Surface_GeomFillSurface/hr.md)                                       [TechDraw 3PtAngleDimension/hr](TechDraw_3PtAngleDimension/hr.md)           
-  --------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- ---------------------------------------------------------------------------
+  [Surface GeomFillSurface/hr](Surface_GeomFillSurface/hr.md)                                       [TechDraw 3PtAngleDimension/hr](TechDraw_3PtAngleDimension/hr.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/hr](<img src="images/Property.png" style="width:16px"> Categories/hr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/hr

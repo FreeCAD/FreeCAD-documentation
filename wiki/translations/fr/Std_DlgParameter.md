@@ -175,5 +175,7 @@ C\'est probablement une mauvaise idée de modifier les préférences d\'autres p
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgParameter/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgParameter/fr

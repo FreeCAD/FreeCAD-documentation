@@ -129,7 +129,7 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 
 ## Opciones
 
-+--------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Multitransfrom_parameters.png ) | Cuando se crea una operación de multitransformación, el diálogo de \'parámetros de multitransformación\' ofrece dos listas diferentes de listas.                                                                                                                                                                                                      |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                       |
 |                                                                    | ### Seleccionar los originales                                                                                                                                                                                                                                                                                           |
@@ -157,7 +157,7 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 |                                                                    | #### Mover Arriba/Abajo                                                                                                                                                                                                                                                                                                           |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                       |
 |                                                                    | Permite cambiar el orden de las transformaciones en la lista                                                                                                                                                                                                                                                                                          |
-+--------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 
@@ -218,5 +218,7 @@ A partir de la cajera se crea una simetría respecto al plano YZ y luego se apli
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/es

@@ -94,5 +94,7 @@ TODO
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves GordonSurface/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves GordonSurface/pl

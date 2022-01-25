@@ -48,5 +48,7 @@ webbrowser.open("https://github.com/KeithSloan/FreeCAD_Info/archive/master.zip")
 
 С форума[Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 
+
+
 ---
-[documentation index](../README.md) > Macro ObjectInfo/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro ObjectInfo/ru

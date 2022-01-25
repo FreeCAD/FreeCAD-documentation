@@ -53,5 +53,7 @@ Si aucun décalage n\'est initialement attribué à l\'image, sa position peut t
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/fr

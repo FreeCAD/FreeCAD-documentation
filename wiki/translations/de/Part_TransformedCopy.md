@@ -45,5 +45,7 @@ Die Kopie hat eine einfache {{PropertyData/de|Positionierung}} Eigenschaft wie j
 
 Die Kopie hat einfache Ansichtseigenschaften wie jede andere [Teilfunktion](Part_Feature/de.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part TransformedCopy/de

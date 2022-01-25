@@ -29,5 +29,7 @@ The **Mesh BoundingBox** command shows the bounding box coordinates of a mesh ob
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/en

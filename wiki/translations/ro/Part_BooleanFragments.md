@@ -151,5 +151,7 @@ Acest instrument a fost introdus în FreeCAD v0.17.8053. FreeCAD și necesită c
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/ro

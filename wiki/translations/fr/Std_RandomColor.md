@@ -31,5 +31,7 @@ La commande **Std Couleur aléatoire** applique une {{PropertyView/fr|Shape Colo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std RandomColor/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std RandomColor/fr

@@ -1,11 +1,11 @@
-# Import/Export IFC - compiling IfcOpenShell/fr
-{{TutorialInfo/fr
-|Topic=Atelier Arch
-|Level=Avancé
-|Time=120 minutes
-|Author=Pablo Gil
-|FCVersion=0.19.x
-|Files=
+---
+- TutorialInfo:/fr
+   Topic:Atelier Arch
+   Level:Avancé
+   Time:120 minutes
+   Author:Pablo Gil
+   FCVersion:0.19.x
+   Files:
 }}
 
 ## Introduction
@@ -22,10 +22,14 @@ La recherche d\'une copie de travail d\'IfcOpenShell-python sous OSX/macOS pour 
 1\. Téléchargez ou clonez le projet GitHub complet sur <https://github.com/IfcOpenShell/IfcOpenShell> (ce sera toujours la version la plus récente)
 
 :   
-    `git clone https://github.com/IfcOpenShell/IfcOpenShell`
-    
+    `git clone https://github.com/IfcOpenShell/IfcOpenShell
+---
 
-2\. Depuis un terminal, accédez au dossier {{FileName|/nix/}} et lancez le script. Sous OSX, il est exécuté avec: 
+# Import/Export IFC - compiling IfcOpenShell/fr
+
+     
+
+2\. Depuis un terminal, accédez au dossier {{FileName|/nix/` et lancez le script. Sous OSX, il est exécuté avec: 
 ```python
 cd nix/
 ./build-all.sh
@@ -128,8 +132,5 @@ Tchao!
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > Import/Export IFC - compiling IfcOpenShell/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > [3rd Party](Category_3rd Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/fr

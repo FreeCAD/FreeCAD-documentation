@@ -50,5 +50,7 @@ Since inkscape and FreeCAD seem to have different approaches on how to apply dim
 
 Thanks to users \"freecad-heini-1\" and \"herbk\" for testing and providing valuable feedback.
 
+
+
 ---
-[documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape
+![](images/Right_arrow.png) [documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape

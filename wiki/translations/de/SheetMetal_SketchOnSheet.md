@@ -97,8 +97,5 @@ Dieses Dingens besteht aus einem Blechprofil mit hinzugefügten Löchern.  Es m�
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
-
 ---
-[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal SketchOnSheet/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal SketchOnSheet/de

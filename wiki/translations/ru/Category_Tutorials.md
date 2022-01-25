@@ -5,7 +5,7 @@
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+    
   [Add FEM Constraint Tutorial/ru](Add_FEM_Constraint_Tutorial/ru.md)                                     [Add FEM Equation Tutorial/ru](Add_FEM_Equation_Tutorial/ru.md)                                         [Advanced TechDraw Tutorial/ru](Advanced_TechDraw_Tutorial/ru.md)
   [Aeroplane/ru](Aeroplane/ru.md)                                                                         [Analysis of reinforced concrete with FEM/ru](Analysis_of_reinforced_concrete_with_FEM/ru.md)           [Arch panel tutorial/ru](Arch_panel_tutorial/ru.md)
   [Arch tutorial/ru](Arch_tutorial/ru.md)                                                                 [Basic modeling tutorial/ru](Basic_modeling_tutorial/ru.md)                                             [Basic Part Design Tutorial/ru](Basic_Part_Design_Tutorial/ru.md)
@@ -34,10 +34,9 @@
   [Tutorial Render with Blender/ru](Tutorial_Render_with_Blender/ru.md)                                   [Template:TutorialInfo/ru](Template:TutorialInfo/ru.md)                                                 [Tutorials/ru](Tutorials/ru.md)
   [Video tutorials for architectural design/ru](Video_tutorials_for_architectural_design/ru.md)           [Video tutorials for product design/ru](Video_tutorials_for_product_design/ru.md)                       [Video tutorials obsolete/ru](Video_tutorials_obsolete/ru.md)
   [Video tutorials/ru](Video_tutorials/ru.md)                                                             [VRML Preparation for Robot Simulation/ru](VRML_Preparation_for_Robot_Simulation/ru.md)                 [Whiffle Ball tutorial/ru](Whiffle_Ball_tutorial/ru.md)
-  [Wikihouse porting tutorial/ru](Wikihouse_porting_tutorial/ru.md)                                                                                                                                                       
-  --------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+  [Wikihouse porting tutorial/ru](Wikihouse_porting_tutorial/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/ru](<img src="images/Property.png" style="width:16px"> Categories/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Tutorials/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/ru

@@ -22,5 +22,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ArrangeIcons/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ArrangeIcons/ru

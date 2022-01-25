@@ -31,5 +31,7 @@ IL peut être utilisé pour définir l\'ensemble fixe dans un assemblage statiqu
 2.  Sélectionnez un élément de l\'objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintLock.svg" width=16px> [Locked](Assembly3_ConstraintLock/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintLock/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLock/fr

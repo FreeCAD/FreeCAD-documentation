@@ -30,5 +30,7 @@ This tool trims an edge to the nearest overlapping edge.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/sv

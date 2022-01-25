@@ -48,5 +48,7 @@ Distribuția presiunii este întotdeauna uniformă și întotdeauna perpendicula
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ConstraintPressure/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPressure/ro

@@ -308,5 +308,7 @@ Le décalage de l\'ancrage est utilisé pour appliquer un décalage linéaire ou
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/fr

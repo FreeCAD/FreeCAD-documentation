@@ -5,7 +5,7 @@
 
 Los tutoriales que se enumeran aquí son los que tratan del diseño de productos físicos para la fabricación o la impresión en 3D. Para otros temas, consulte la página general [video tutoriales](video_tutorials/es.md).
 
-Visite [tutoriales](tutorials/es.md) para obtener tutoriales escritos de alta calidad. Puedes encontrar una lista completa y sin clasificar de tutoriales en [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+Visite [tutoriales](tutorials/es.md) para obtener tutoriales escritos de alta calidad. Puedes encontrar una lista completa y sin clasificar de tutoriales en [:Category:Tutorials](:Category_Tutorials.md).
 
 ## Diseño de productos 
 
@@ -75,9 +75,6 @@ Aunque esta lista se centra en el contenido alemán, muchos de estos canales tam
     -   [FREECAD 0.17 - 0.18](https://www.youtube.com/watch?v=cBA7EJyrLkQ&list=PLfv54N1Sqk4zFGrn6mVU5kTSpfyfN2GyW): una serie de 15 vídeos que muestran cómo modelar diversos objetos: conectores mecánicos, turbinas, alicates, tubos, llantas de neumáticos, tornillos, un tapón de rosca, una broca de tornillo, un engranaje helicoidal, un neumático de bicicleta, y otros.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Video tutorials for product design/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/es

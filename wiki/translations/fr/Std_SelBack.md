@@ -32,5 +32,7 @@ La commande **Std Rétablir** restaure la sélection précédente enregistrée d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SelBack/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SelBack/fr

@@ -45,9 +45,7 @@ Components created using the Rocket Workbench are essentially parts similar to w
 
 [FreeCAD Rocket Workbench](https://youtube.com/playlist?list=PLIk8AsRj-ngQRr6uLD3DDJTBrLhJfF7eI) Tutorial Playlist on YouTube
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Rocket Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Workbench

@@ -32,8 +32,5 @@ Da questo browser è possibile navigare sul web, e accedere a siti web (i cookie
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Web](Category_Web.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Category_Web.md) > [Workbenches](Category_Workbenches.md) > Web Workbench/it

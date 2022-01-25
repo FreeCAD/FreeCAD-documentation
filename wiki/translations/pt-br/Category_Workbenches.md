@@ -3,7 +3,7 @@ This category lists workbenches included in FreeCAD.
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [Arch Workbench/pt-br](Arch_Workbench/pt-br.md)                                 [Draft Workbench/pt-br](Draft_Workbench/pt-br.md)             [FEM Workbench/pt-br](FEM_Workbench/pt-br.md)
   [Image Workbench/pt-br](Image_Workbench/pt-br.md)                               [Inspection Workbench/pt-br](Inspection_Workbench/pt-br.md)   [Mesh Workbench/pt-br](Mesh_Workbench/pt-br.md)
   [OpenSCAD Workbench/pt-br](OpenSCAD_Workbench/pt-br.md)                         [Part Module/pt-br](Part_Module/pt-br.md)                     [PartDesign Workbench/pt-br](PartDesign_Workbench/pt-br.md)
@@ -14,15 +14,8 @@ This category lists workbenches included in FreeCAD.
   [Std Macro Menu/pt-br](Std_Macro_Menu/pt-br.md)                                 [Std Tools Menu/pt-br](Std_Tools_Menu/pt-br.md)               [Std View Menu/pt-br](Std_View_Menu/pt-br.md)
   [Std Windows Menu/pt-br](Std_Windows_Menu/pt-br.md)                             [Surface Workbench/pt-br](Surface_Workbench/pt-br.md)         [TechDraw Workbench/pt-br](TechDraw_Workbench/pt-br.md)
   [Testing/pt-br](Testing/pt-br.md)                                               [Web Workbench/pt-br](Web_Workbench/pt-br.md)                 [Workbenches/pt-br](Workbenches/pt-br.md)
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                                
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------- ---------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/pt-br](<img src="images/Property.png" style="width:16px"> User_Documentation/pt-br.md) [<img src="images/Property.png" style="width:16px"> Draft/pt-br](<img src="images/Property.png" style="width:16px"> Draft/pt-br.md) [<img src="images/Property.png" style="width:16px"> External Workbenches/pt-br](<img src="images/Property.png" style="width:16px"> External_Workbenches/pt-br.md) [<img src="images/Property.png" style="width:16px"> FEM/pt-br](<img src="images/Property.png" style="width:16px"> FEM/pt-br.md) [<img src="images/Property.png" style="width:16px"> Image/pt-br](<img src="images/Property.png" style="width:16px"> Image/pt-br.md) [<img src="images/Property.png" style="width:16px"> Inspection/pt-br](<img src="images/Property.png" style="width:16px"> Inspection/pt-br.md) [<img src="images/Property.png" style="width:16px"> Mesh/pt-br](<img src="images/Property.png" style="width:16px"> Mesh/pt-br.md) [<img src="images/Property.png" style="width:16px"> OpenSCAD/pt-br](<img src="images/Property.png" style="width:16px"> OpenSCAD/pt-br.md) [<img src="images/Property.png" style="width:16px"> Part/pt-br](<img src="images/Property.png" style="width:16px"> Part/pt-br.md) [<img src="images/Property.png" style="width:16px"> Path/pt-br](<img src="images/Property.png" style="width:16px"> Path/pt-br.md) [<img src="images/Property.png" style="width:16px"> Plot/pt-br](<img src="images/Property.png" style="width:16px"> Plot/pt-br.md) [<img src="images/Property.png" style="width:16px"> Points/pt-br](<img src="images/Property.png" style="width:16px"> Points/pt-br.md) [<img src="images/Property.png" style="width:16px"> Raytracing/pt-br](<img src="images/Property.png" style="width:16px"> Raytracing/pt-br.md) [<img src="images/Property.png" style="width:16px"> Robot/pt-br](<img src="images/Property.png" style="width:16px"> Robot/pt-br.md) [<img src="images/Property.png" style="width:16px"> Ship/pt-br](<img src="images/Property.png" style="width:16px"> Ship/pt-br.md) [<img src="images/Property.png" style="width:16px"> Surface/pt-br](<img src="images/Property.png" style="width:16px"> Surface/pt-br.md) [<img src="images/Property.png" style="width:16px"> TechDraw/pt-br](<img src="images/Property.png" style="width:16px"> TechDraw/pt-br.md)
+
 
 ---
-[documentation index](../README.md) > Category:Workbenches/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Workbenches/pt-br

@@ -37,5 +37,7 @@ L\'atelier PartDesign dans FreeCAD V0.17 introduit de nouveaux outils et éléme
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/fr

@@ -40,5 +40,7 @@ Il comando **Avvia il trascinamento** avvia un\'operazione di trascinamento per 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeDrag/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeDrag/it

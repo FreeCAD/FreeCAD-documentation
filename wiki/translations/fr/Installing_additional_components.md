@@ -117,8 +117,5 @@ Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [F
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/fr](<img src="images/Property.png" style="width:16px"> User_Documentation/fr.md)
-
 ---
-[documentation index](../README.md) > Installing additional components/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/fr

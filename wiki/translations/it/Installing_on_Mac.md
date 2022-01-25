@@ -47,5 +47,7 @@ Attualmente non c\'è un programma di disinstallazione per FreeCAD installato co
 
 Se avete installato FreeCAD con homebrew utilizzate semplicemente il comando `brew uninstall freecad`. Tutto qui.
 
+
+
 ---
-[documentation index](../README.md) > Installing on Mac/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/it

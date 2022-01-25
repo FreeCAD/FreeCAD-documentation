@@ -49,5 +49,7 @@ L\'outil Basculer l\'affichage des cadres n\'a actuellement pas d\'interface de 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/fr

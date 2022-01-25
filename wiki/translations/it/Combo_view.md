@@ -58,5 +58,7 @@ Quindi attivare la vista utilizzando il menu **Visualizza → Pannelli → Strut
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Combo view/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Combo view/it

@@ -13,7 +13,7 @@
 Funkcja ta obraca wybrany obiekt tworząc wyciągnięcie wokół wybranej osi. Dozwolone są następujące typy kształtów, które prowadzą do uzyskania kształtów wyjściowych:
 
   Kształt wejściowy   Forma wyjściowa
-  ------------------- -----------------------------
+   
   Wierzchołek         Krawędź
   Krawędź             Powierzchnia
   Linia łamana        Powłoka
@@ -32,5 +32,7 @@ Jeśli wybierzemy oś zdefiniowaną przez użytkownika, to liczby określają ki
 
 -   Jeśli obiekt do obrócenia przecina oś obrotu, operacja nie powiedzie się w większości przypadków.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/pl

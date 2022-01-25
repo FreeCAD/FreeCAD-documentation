@@ -30,5 +30,7 @@ Make sure to have either the spline [degree](Sketcher_BSplineDegree.md), [polygo
 
  {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineApproximate
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineApproximate

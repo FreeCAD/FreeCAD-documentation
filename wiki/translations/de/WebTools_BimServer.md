@@ -58,5 +58,7 @@ Um diesen Befehl zu verwenden, müssen die folgenden Bedingungen erfüllt sein:
 -   Schreibe einen **Kommentar**, der die Beschreibung (Name) der Überarbeitung sein wird.
 -   Drücke die Schaltfläche **Hochladen**. Es öffnet sich ein Dialogfeld, das dir erlaubt die erstellte IFC Datei an einem Ort deiner Wahl speichern zu können, bevor du sie hochlädst. Wenn du auf **Abbrechen** drückst, wird die Datei stattdessen unter einem temporären Namen im temporären Verzeichnis des Systems gespeichert.
 
+
+
 ---
-[documentation index](../README.md) > WebTools BimServer/de
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools BimServer/de

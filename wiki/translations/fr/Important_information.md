@@ -22,5 +22,7 @@ Le [forum FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3) est le meille
 
 *align=center|Fenêtre contenant les informations "[A propos](Std_About/fr.md)" dans le logiciel. Ne prenez pas de photo de cette fenêtre. <br/> Cliquez sur le bouton **Copier dans le presse-papiers* pour pouvoir coller les informations avec votre votre demande d'aide.**
 
+
+
 ---
-[documentation index](../README.md) > Important information/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Important information/fr

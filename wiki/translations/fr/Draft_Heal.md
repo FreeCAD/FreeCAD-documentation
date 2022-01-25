@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft 
 2.  Sélectionnez l\'option **Utilitaires → <img src="images/Draft_Heal.svg" width=16px> Réparer** dans le menu.
 3.  Si aucune erreur n\'est trouvée, la commande ne fera rien.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/fr

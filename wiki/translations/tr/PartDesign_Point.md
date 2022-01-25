@@ -87,5 +87,7 @@ Model ağacında Referans noktası etiketine çift tıklayın veya sağ tıklay�
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/tr

@@ -156,5 +156,7 @@ La lettura di queste guide permette di conoscere il funzionamento di questo modu
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Ship Outline/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship Outline/it

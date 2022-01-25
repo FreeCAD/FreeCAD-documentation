@@ -19,9 +19,7 @@ FreeCAD is primarily a 3D modeling application, and thus doesn\'t have many 2D d
 
 -   [Import text and geometry from Inkscape](Import_text_and_geometry_from_Inkscape.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Draft](Category_Draft.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
-[documentation index](../README.md) > [Draft](Category_Draft.md) > SVG
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > [File_Formats](Category_File_Formats.md) > SVG

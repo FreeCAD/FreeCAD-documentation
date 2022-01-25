@@ -45,5 +45,7 @@ Alegeți ** Tools** → **<img src="images/Std_DlgCustomize.png" width=32px> Cus
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgCustomize/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgCustomize/ro

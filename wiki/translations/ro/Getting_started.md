@@ -276,8 +276,5 @@ Iar, la sfârşit, să remarcăm că una dintre cele mai puternice caracteristic
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/ro](<img src="images/Property.png" style="width:16px"> User_Documentation/ro.md)
-
 ---
-[documentation index](../README.md) > Getting started/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/ro

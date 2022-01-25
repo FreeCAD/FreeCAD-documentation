@@ -29,5 +29,7 @@ La commande <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;">
 
 -   Pour plus d\'informations sur l\'organisation de votre modèle, voir [Structure du document](Document_structure/fr.md) et [Tutoriel Arch](Arch_tutorial/fr#Organiser_votre_mod.C3.A8le.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddNamedGroup/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddNamedGroup/fr

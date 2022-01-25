@@ -30,5 +30,7 @@ Currently the command points to [<https://www.freecadweb.org/wiki/Power_users_hu
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std FreeCADPowerUserHub/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADPowerUserHub/ru

@@ -35,5 +35,7 @@ Dieses Werkzeug stutzt eine Kante bis zur nächsten überlappenden Kante.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/de

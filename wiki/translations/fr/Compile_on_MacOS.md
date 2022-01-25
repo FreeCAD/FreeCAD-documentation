@@ -80,7 +80,7 @@ Ensuite, nous allons lancer CMake pour générer la configuration de constructio
 ### Les options de CMake 
 
   Nom                           Valeur                                     Remarques
-  ----------------------------- ------------------------------------------ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
   CMAKE\_BUILD\_TYPE            Release (STRING)                           Release ou Debug. Le débogage est généralement utilisé pour les tests au niveau développeur mais peut également être requis pour des tests et le dépannage au niveau utilisateur.
   BUILD\_QT5                    1 (BOOL)                                   Nécessaire pour un build avec Qt5.
   CMAKE\_PREFIX\_PATH           \"/usr/local/opt/qt5152;\" \... (Chemin)   Nécessaire pour un build avec Qt5. Voir la remarque ci-dessous. Vous devez également ajouter le chemin d\'accès au fichier de configuration cmake des librairies VTK et NGLIB.
@@ -179,11 +179,5 @@ FreeCAD peut être construit à partir du dernier master git hébergé sur githu
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on MacOS/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/fr

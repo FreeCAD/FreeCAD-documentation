@@ -63,7 +63,5 @@ The templates are drawn by [Quick61](User_Quick61.md) and listed [FreeCAD-Drawin
 
 
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Drawing](Category_Drawing.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > ANSI templates
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > ANSI templates

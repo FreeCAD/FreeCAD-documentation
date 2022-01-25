@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ru
+   Topic:Arch Workbench
+   Level:Advanced
+   Time:120 minutes
+   Author:Pablo Gil
+   FCVersion:
+   Files:
+---
+
 # Import/Export IFC - compiling IfcOpenShell/ru
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru
-|Topic=Arch Workbench
-|Level=Advanced
-|Time=120 minutes
-|Author=Pablo Gil
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -134,8 +140,5 @@ Cheers
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > Import/Export IFC - compiling IfcOpenShell/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > [3rd Party](Category_3rd Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/ru

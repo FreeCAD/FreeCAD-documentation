@@ -33,5 +33,7 @@ Tworzy subtraktywną bryłę pierwotną w aktywnej bryle, odejmując jej kształ
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign CompPrimitiveSubtractive/pl

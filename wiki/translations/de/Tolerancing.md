@@ -39,7 +39,7 @@ Es gibt zwei Ansätze zur Angabe von Produkt- und Herstellungsinformationen (PMI
 </div>
 
   Herkömmlich                                               MBD
-  --------------------------------------------------------- -------------------------------------------------
+   
   3D Modelle mit 2D Zeichnungen, die GD&T/PMI enthalten     3D Modell mit eingebettetem GD&T/PMI
   Menschenlesbar                                            Menschen- und maschinenlesbar
   Verlässt sich auf menschliche Interpretation              Verlässt sich auf einen automatisierten Prozess
@@ -79,7 +79,7 @@ Es gibt zwei Ansätze zur Angabe von Produkt- und Herstellungsinformationen (PMI
 -   [GD&T für Anfänger \| Schritt für Schritt Ansatz zur Durchführung von GD&T für mechanisches Zeichnen (Video)](https://www.youtube.com/watch?v=-3tN7KvDUjQ)
 -   [Straight To The Point Engineering (Video tutorials)](https://www.youtube.com/c/StraightToThePointEngineering/videos?view=0&sort=da&flow=grid)
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md)
+
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Tolerancing/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [TechDraw](Category_TechDraw.md) > Tolerancing/de

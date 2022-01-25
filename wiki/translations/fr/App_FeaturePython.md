@@ -96,5 +96,7 @@ Si l\'objet souhaité doit avoir un placement, une forme, une pièce jointe ou d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > App FeaturePython/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > App FeaturePython/fr

@@ -1,11 +1,12 @@
 # Robot tutorial/ru
-{{TutorialInfo/ru
-|Topic= Robot Workbench
-|Level= Beginner
-|Time=
-|Author=r-frank
-|FCVersion=0.16.6703
-|Files=
+---
+- TutorialInfo:/ru
+   Topic: Robot Workbench
+   Level: Beginner
+   Time:
+   Author:r-frank
+   FCVersion:0.16.6703
+   Files:
 }}
 
 ## Introduction
@@ -48,11 +49,10 @@ This tutorial is targeting on the use of [industrial robots](http://en.wikipedia
 4.  Watch simulation
 
 
-{{Tutorials navi
+ {{Robot Tools navi}} {{Userdocnavi
+---
 
-}} {{Robot Tools navi}} 
 
-[<img src="images/Property.png" style="width:16px"> Tutorials/ru](<img src="images/Property.png" style="width:16px"> Tutorials/ru.md)
 
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/ru

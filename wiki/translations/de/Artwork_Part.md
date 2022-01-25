@@ -34,5 +34,7 @@ Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Part/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Artwork Part/de

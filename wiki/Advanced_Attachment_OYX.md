@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic:Attachment
+   Level:Intermediate/Advanced
+   Author:drmacro
+   Time:1 hour
+   FCVersion:0.19 or above
+   Files:[TBD]
+---
+
 # Advanced Attachment OYX
-{{TutorialInfo
-|Topic=Attachment
-|Level=Intermediate/Advanced
-|Author=drmacro
-|Time=1 hour
-|FCVersion=0.19 or above
-|Files=[TBD]
-}}
+
+ 
+
+
 
  <img alt="" src=images/AttOYX_Setup.png  style="width:800px;">  
 *The objects in initial position*
@@ -63,5 +68,7 @@ Now if we add a third reference by selecting the upper vertex of the orange edge
 
 :   Now the X axis of the sketch is aligned in the direction of the selected vertex of the orange edge.
 
+
+
 ---
-[documentation index](../README.md) > Advanced Attachment OYX
+![](images/Right_arrow.png) [documentation index](../README.md) > Advanced Attachment OYX

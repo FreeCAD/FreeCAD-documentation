@@ -76,5 +76,7 @@ For a Mesh Curvature object the following properties are available in the [Prope
 
  {{Mesh Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature

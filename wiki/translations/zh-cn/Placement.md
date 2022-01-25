@@ -66,7 +66,7 @@
 
 <div class="mw-translate-fuzzy">
 
-请注意，也可以令对象沿此旋转轴进行平移（移动，轴向移动），方法是：在Axial框中输入移动距离，再点击Apply axial按钮。（可以这样来想象此轴向移动操作：假设有一附有前置螺旋桨的飞机------飞行时，螺旋桨"绕"旋转轴转动，而飞机整体则"沿"此轴飞行。）可将此向量中的值看作是应用于对应方向的移动量。例如，在(0.71,0.71,0)这种y=x的情况下，对象将按Axial框中的值在X与Y方向上进行相同量的移动，且不会在Z方向上移动。
+请注意，也可以令对象沿此旋转轴进行平移（移动，轴向移动），方法是：在Axial框中输入移动距离，再点击Apply axial按钮。（可以这样来想象此轴向移动操作：假设有一附有前置螺旋桨的飞机飞行时，螺旋桨"绕"旋转轴转动，而飞机整体则"沿"此轴飞行。）可将此向量中的值看作是应用于对应方向的移动量。例如，在(0.71,0.71,0)这种y=x的情况下，对象将按Axial框中的值在X与Y方向上进行相同量的移动，且不会在Z方向上移动。
 
 **Position = (x,y,z)**是一个向量，描述目标对象几何体的位置（事实上，对于对象而言，此为其"局部原点（local origin）"）。请注意，在脚本里用Placement.Base来表示方位属性中的Position分量。属性编辑器称此值为\"Position\"，Placement对话框中则称之为\"Translation\"。
 
@@ -281,7 +281,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 -   The reference point of an object varies depending on the object. Some examples for common objects:
 
   Object                           Reference Point
-  -------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                         left (minx), front (miny), bottom (minz) vertex
   Part.Sphere                      center of the sphere (ie centre of bounding box)
   Part.Cylinder                    center of the bottom face
@@ -297,5 +297,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 -   This tutorial: [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
 
+
+
 ---
-[documentation index](../README.md) > Placement/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > Placement/zh-cn

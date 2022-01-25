@@ -76,5 +76,7 @@ Ciò corrisponde approssimativamente a una combinazione di [IfcMaterialLayerSet]
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MultiMaterial/it

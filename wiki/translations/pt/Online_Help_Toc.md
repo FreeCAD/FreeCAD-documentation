@@ -145,7 +145,9 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
 
 
 
-[Documentação](<img src="images/Property.png" style="width:16px"> Documentation/pt.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
+[Documentação](Category:Documentation/pt.md)
+
+
 
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/pt

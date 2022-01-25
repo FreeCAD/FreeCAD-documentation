@@ -69,5 +69,7 @@ App.ActiveDocument.recompute()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TextDocument/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TextDocument/fr

@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Architecture
+   Level:Débutant
+   Time:60 minutes
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 ou ultérieure
+   Files:aucun
+---
+
 # Tutorial for open windows/fr
-{{TutorialInfo/fr
-|Topic=Architecture
-|Level=Débutant
-|Time=60 minutes
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 ou ultérieure
-|Files=aucun
-}}
+
+
+
+
 
 ## Introduction
 
@@ -244,9 +250,9 @@ l\'[atelier TechDraw](TechDraw_Workbench/fr.md) n\'a qu\'un contrôle minimal su
 Une interaction plus étroite entre les ateliers est prévue pour les futures versions de FreeCAD. Dans ces versions, on s\'attend à ce que les problèmes de longue date soient résolus, tels que le contrôle des caractéristiques des lignes et des faces (largeur de ligne, couleur de ligne, couleur de face, motifs de hachures, etc\...).
 
 
-{{Tutorials navi
+   {{TechDraw Tools navi}}
 
-}}   {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Tutorial for open windows/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/fr

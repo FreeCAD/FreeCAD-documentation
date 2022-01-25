@@ -37,5 +37,7 @@ El comando **Std DiálogoPersonalizar** abre el cuadro de diálogo Personalizar 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgCustomize/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgCustomize/es

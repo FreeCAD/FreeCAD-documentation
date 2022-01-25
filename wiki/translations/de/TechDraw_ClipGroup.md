@@ -52,5 +52,7 @@ Dieses Werkzeug erstellt ein Ausschnittfenster, das eine oder mehrere Ansichten 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/de

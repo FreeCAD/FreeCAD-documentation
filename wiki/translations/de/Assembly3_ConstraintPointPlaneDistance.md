@@ -18,5 +18,7 @@ Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus
 2.  Ein Punktelement des einen und ein ebenes Flächenelement des anderen Objekts auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintPointPlaneDistance.svg" width=16px> [Punkt zu Ebene Abstand](Assembly3_ConstraintPointPlaneDistance/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointPlaneDistance/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointPlaneDistance/de

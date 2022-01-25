@@ -11,7 +11,7 @@ Help us to build, correct and extend this documentation. Correct mistakes, exten
 
 A couple of areas that would welcome your work:
 
--   The [:<img src="images/Property.png" style="width:16px"> Command Reference](:Category_Command_Reference.md) page lists and documents all of the FreeCAD [commands](command.md). Most of them contain little to no information at all. Please refer to [WikiPages](WikiPages.md) for good examples of what command documentation pages should look like.
+-   The [:Category:Command Reference](:Category_Command_Reference.md) page lists and documents all of the FreeCAD [commands](command.md). Most of them contain little to no information at all. Please refer to [WikiPages](WikiPages.md) for good examples of what command documentation pages should look like.
 -   The [Tutorials](Tutorials.md) section needs examples on how to use the workbenches. If you developed something cool with FreeCAD, why not document how you did it for posterity?
 -   There are open tickets on the FreeCAD [bug tracker](Tracker.md) tagged [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) that could use some love.
 
@@ -80,9 +80,7 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 -   Present yourself to other developers. FreeCAD is before anything a social project, we discuss a lot of things on the [forum](http://forum.freecadweb.org) before implementing it, and it\'s always best to discuss your ideas and tell people what you are planning to do before actually doing it. We also have an [IRC channel](irc://chat.freenode.net/freecad) which is synchronized with our [gitter](https://gitter.im/FreeCAD/FreeCAD) channel, but the forum is the one and only place where you can meet all the developers.
 -   Since 2016, FreeCAD also participates in the [Google Summer of Code 2020](Google_Summer_of_Code_2020.md). Be sure to check our ideas there if you are interested in participating in the next edition.
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Command Reference]] page lists and documents all of the FreeCAD ](Category_Command Reference]] page lists and documents all of the FreeCAD .md) > Help FreeCAD
+![](images/Right_arrow.png) [documentation index](../README.md) > [Command Reference]] page lists and documents all of the FreeCAD ](Category_Command Reference]] page lists and documents all of the FreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD

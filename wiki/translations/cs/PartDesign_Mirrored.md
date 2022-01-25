@@ -28,7 +28,7 @@ The **Mirrored** tool mirrors features on a plane.
 
 ## Použití
 
-+--------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/mirrored_parameters.png ) | Při zrcadlení prvku nabízí dialog \'Parametry zdrcadlení\' dva různé způsoby určení roviny zrcadlení.                                                                      |
 |                                                        |                                                                                                                                                                            |
 |                                                        | ### Standardní rovina                                                                                                                                  |
@@ -42,7 +42,7 @@ The **Mirrored** tool mirrors features on a plane.
 |                                                        | ### Náhled                                                                                                                                                                 |
 |                                                        |                                                                                                                                                                            |
 |                                                        | Výsledek zrcadlení si můžete zakliknutím políčka \"Aktializuj pohled\" prohlédnout v reálném čase ještě předtím, než kliknete na OK.                                       |
-+--------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 
@@ -130,5 +130,7 @@ The mirror result can be previewed in real time before clicking **OK** by checki
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/cs

@@ -7,7 +7,7 @@ FreeCAD 可以导入和导出多种类型的文件。下表列出了最重要的
 <div class="mw-translate-fuzzy">
 
   格式    导入   导出   说明
-  ------- ------ ------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     
   STEP    是     是     这是最忠实的导入/导出格式，因为它支持实体几何和 NURBS。只要可以，最好用它。
   IGES    是     是     这是较旧的实体几何格式，但也得到了很好的支持。一些较旧的应用程序不支持 STEP，但有IGES。
   BREP    是     是     这是 [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology) 的原生格式，是 FreeCAD 的几何内核。
@@ -56,8 +56,5 @@ FreeCAD 可以导入和导出多种类型的文件。下表列出了最重要的
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
-
 ---
-[documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Import and export to other filetypes/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Import and export to other filetypes/zh-cn

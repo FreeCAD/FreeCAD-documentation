@@ -6,7 +6,7 @@ This category lists pages that relate to using the wiki effectively for document
   --
   --
 
-[<img src="images/Property.png" style="width:16px"> Documentation/it](<img src="images/Property.png" style="width:16px"> Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Wiki:Example/it](<img src="images/Property.png" style="width:16px"> Wiki:Example/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:Wiki Documentation/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Wiki Documentation/it

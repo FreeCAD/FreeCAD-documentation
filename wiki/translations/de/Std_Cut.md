@@ -33,5 +33,7 @@ Um andere Objekte auszuschneiden, kannst du den [Std Kopieren](Std_Copy/de.md)-B
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Cut/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Cut/de

@@ -114,5 +114,7 @@
 
 Part/Деталь - Выдавить может выдавливать любой объект, имеющий геометрию детали (форму OCC), за исключением твёрдых тел и составных тел. И она не может выдавливать отдельные грани других объектов. PartDesign Выдавить принимает только эскиз как профиль (и небольшую выборку других типов объектов) или грань твёрдого тела.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/ru

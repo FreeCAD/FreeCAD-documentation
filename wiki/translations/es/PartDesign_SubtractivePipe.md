@@ -106,5 +106,7 @@ El **Barrido sustractivo** crea un sólido sustractivo en el Body (cuerpo) activ
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractivePipe/es

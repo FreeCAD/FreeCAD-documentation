@@ -13,7 +13,7 @@ This is the **top category** which contains the main categories of the FreeCAD w
         
   -- -- --
 
-[<img src="images/Property.png" style="width:16px"> Categories/cn](<img src="images/Property.png" style="width:16px"> Categories/cn.md) [<img src="images/Property.png" style="width:16px"> Administration/cn](<img src="images/Property.png" style="width:16px"> Administration/cn.md) [<img src="images/Property.png" style="width:16px"> Categories/cn](<img src="images/Property.png" style="width:16px"> Categories/cn.md) [<img src="images/Property.png" style="width:16px"> Command Reference/cn](<img src="images/Property.png" style="width:16px"> Command_Reference/cn.md) [<img src="images/Property.png" style="width:16px"> Documentation/cn](<img src="images/Property.png" style="width:16px"> Documentation/cn.md) [<img src="images/Property.png" style="width:16px"> Python Code/cn](<img src="images/Property.png" style="width:16px"> Python_Code/cn.md)
+
 
 ---
-[documentation index](../README.md) > Category:Categories/cn
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Categories/cn

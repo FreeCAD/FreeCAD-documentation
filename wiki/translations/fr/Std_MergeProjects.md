@@ -40,5 +40,7 @@ La commande **Std Fusion de projets** ajoute le contenu d\'un fichier FreeCAD da
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MergeProjects/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MergeProjects/fr

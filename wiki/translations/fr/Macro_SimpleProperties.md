@@ -3,13 +3,13 @@
 |Name=SimpleProperties
 |Name/fr=SimpleProperties
 |Icon=Macro_SimpleProperties.png
-|Description=Cette macro donne des propriétés simples de l'objet sélectionné (volume, boundbox, ...)
+|Description=Cette macro donne des propriétés simples de l'objet sélectionné (volume, boîte englobante, ...)
 |Author=OpenBrain
 |Date=2019-06-10
 |Version=0.7
-|FCVersion= 0.17+
-|Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_SimpleProperties.png ToolBar Icon]
-|SeeAlso=[Arch_Survey](Arch_Survey/fr.md) <img src="images/Arch_Survey.svg" width=24px><br />[Macro_FCInfo](Macro_FCInfo/fr.md) <img src="images/FCInfo.png" width=24px>
+|FCVersion=0.17+
+|Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_SimpleProperties.png Icône de la barre d'outils]
+|SeeAlso=[Arch_Survey](Arch_Survey/fr.md), [Macro_FCInfo](Macro_FCInfo/fr.md)
 }}
 
 ## Description
@@ -23,15 +23,15 @@ Cette macro a été écrite principalement pour que l\'utilisateur puisse accéd
 Sélectionnez un objet et exécutez la macro. Il affichera dans une boîte de message:
 
 -   Volume de l\'objet en litres
--   Dimensions de la borne d\'objet en millimètres
+-   Dimensions de la boîte englobante en millimètres
 -   Si un objet a été sélectionné en cliquant sur un bord, sa longueur est affichée en millimètres
 -   Si un objet a été sélectionné en cliquant sur une face, sa zone est affichée en mètres carrés.
 
 ### Installation
 
-La macro est disponible via le [gestionnaire d\'extensions](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où votre système n\'ait pas git-python. Bien qu\'elle devrait être à jour, la dernière version de la macro est toujours disponible sur [FreeCAD-macro repository](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/SimpleProperties.FCMacro)
+La macro est disponible via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où votre système n\'ait pas git-python. Bien qu\'elle devrait être à jour, la dernière version de la macro est toujours disponible sur [dépôt FreeCAD-macro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/SimpleProperties.FCMacro)
 
-Pour des explications plus détaillées, voir la page [Comment installer des macros](How_to_install_macros/fr.md).
+Pour des explications plus détaillées, consultez la page [Comment installer les macros](How_to_install_macros/fr.md).
 
 ## Script
 
@@ -41,7 +41,7 @@ Pour des explications plus détaillées, voir la page [Comment installer des mac
 
 ### Code
 
-ToolBar Icon ![](images/Macro_SimpleProperties.png )
+Icône de la barre d\'outils ![](images/Macro_SimpleProperties.png )
 
 **Macro\_SimpleProperties.FCMacro**
 
@@ -128,5 +128,7 @@ else:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro SimpleProperties/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro SimpleProperties/fr

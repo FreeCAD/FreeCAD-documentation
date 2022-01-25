@@ -257,5 +257,7 @@ path_array2 = Draft.make_path_array(obj, wire, count=3, extra=App.Vector(0, -500
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathArray

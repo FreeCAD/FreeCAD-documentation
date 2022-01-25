@@ -35,5 +35,7 @@ Ermöglicht es dir, eine Skizze von einer Fläche zu lösen und sie an einer der
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/de

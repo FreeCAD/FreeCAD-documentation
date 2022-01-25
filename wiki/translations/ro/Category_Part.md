@@ -3,7 +3,7 @@ This category lists pages related to the [Part Workbench/ro](Part_Workbench/ro.m
 
 ### Contents:
 
-  ----------------------------------------------------------------------------- --------------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [Aeroplane/ro](Aeroplane/ro.md)                                       [Basic modeling tutorial/ro](Basic_modeling_tutorial/ro.md)   [Draft ShapeString tutorial/ro](Draft_ShapeString_tutorial/ro.md)
   [Part Boolean/ro](Part_Boolean/ro.md)                                 [Part BooleanFragments/ro](Part_BooleanFragments/ro.md)       [Part Box/ro](Part_Box/ro.md)
   [Part Builder/ro](Part_Builder/ro.md)                                 [Part Chamfer/ro](Part_Chamfer/ro.md)                         [Part CheckGeometry/ro](Part_CheckGeometry/ro.md)
@@ -25,10 +25,9 @@ This category lists pages related to the [Part Workbench/ro](Part_Workbench/ro.m
   [Part Slice/ro](Part_Slice/ro.md)                                     [Part Sphere/ro](Part_Sphere/ro.md)                           [Part Spiral/ro](Part_Spiral/ro.md)
   [Part Sweep/ro](Part_Sweep/ro.md)                                     [Part Thickness/ro](Part_Thickness/ro.md)                     [Part Torus/ro](Part_Torus/ro.md)
   [Part Wedge/ro](Part_Wedge/ro.md)                                     [Ship Loading/ro](Ship_Loading/ro.md)                         [Thread for Screw Tutorial/ro](Thread_for_Screw_Tutorial/ro.md)
-  [Whiffle Ball tutorial/ro](Whiffle_Ball_tutorial/ro.md)                                                                                     
-  ----------------------------------------------------------------------------- --------------------------------------------------------------------- ---------------------------------------------------------------------------
+  [Whiffle Ball tutorial/ro](Whiffle_Ball_tutorial/ro.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/ro](<img src="images/Property.png" style="width:16px"> Workbenches/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:Part/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/ro

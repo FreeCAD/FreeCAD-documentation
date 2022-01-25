@@ -33,7 +33,5 @@ Encouraging results from David\_D:
 
 
 
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Sphinx
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Sphinx

@@ -122,11 +122,6 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 ```
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Python/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [API](Category_API.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Python/es

@@ -16,9 +16,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md)
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Artwork Arch/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > Artwork Arch/en

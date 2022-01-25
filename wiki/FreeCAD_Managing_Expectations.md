@@ -70,7 +70,5 @@ Links to forum thread discussions related to this topic
 
 
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
-
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations

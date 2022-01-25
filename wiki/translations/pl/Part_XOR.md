@@ -18,5 +18,7 @@
 
 ## Tworzenie skryptów
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part XOR/pl

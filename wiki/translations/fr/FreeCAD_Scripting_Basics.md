@@ -191,17 +191,9 @@ ou vérifier si un objet est dérivé de l\'un des objets de base (créé avec u
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-Maintenant, vous pouvez vraiment commencer à vous amuser avec FreeCAD ! Pour une liste complète des modules disponibles et de leurs outils, visitez la section [Catégorie : API](:<img src="images/Property.png" style="width:16px"> API/fr.md). {{Top}}
+Maintenant, vous pouvez vraiment commencer à vous amuser avec FreeCAD ! Pour une liste complète des modules disponibles et de leurs outils, visitez la section [Catégorie : API](:Category:API/fr.md). {{Top}}
 
 
-
-
-
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/fr

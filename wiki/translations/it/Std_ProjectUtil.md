@@ -85,5 +85,7 @@ Con il comando **Utilità di progetto** è possibile estrarre i file da un file 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ProjectUtil/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectUtil/it

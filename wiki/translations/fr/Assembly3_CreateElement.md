@@ -24,5 +24,7 @@ Il peut être utilisé pour préparer des **éléments** avant l\'utilisation de
 2.  Appuyez sur ou utilisez le raccourci clavier : **A** puis **E**
 3.  (facultatif mais recommandé) Renommez les éléments en modifiant leurs propriétés **Label**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 CreateElement/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 CreateElement/fr

@@ -72,9 +72,9 @@ Per le versioni beta di EM Workbench sono disponibili alcune esercitazioni video
 
 {{EM Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > EM Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [EM](Category_EM.md) > EM Workbench/it

@@ -57,5 +57,7 @@ RotateView(0,1,0,45)
 
 Se non ci sono documenti aperti viene restituito un errore.
 
+
+
 ---
-[documentation index](../README.md) > Macro Rotate View Free/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Rotate View Free/it

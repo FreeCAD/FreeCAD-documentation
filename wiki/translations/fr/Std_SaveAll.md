@@ -43,5 +43,7 @@ Pour enregistrer un document, utilisez la méthode `save` de l\'objet document. 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SaveAll/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SaveAll/fr

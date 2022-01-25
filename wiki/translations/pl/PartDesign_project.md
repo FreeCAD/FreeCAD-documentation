@@ -52,9 +52,9 @@ Imprint a sketch in a base solid either defined by depth or \"Up to last \| Up t
 
 A Very good bore parameter definition from the NaroCad specification:
 
-  ----------------------------------------------------------------------- ------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
   <img alt="" src=images/Counterbore_settings.png  style="width:300px;">   <img alt="" src=images/Counterbore_settings2.png  style="width:300px;">   <img alt="" src=images/Countersink_settings.png  style="width:300px;">
-  ----------------------------------------------------------------------- ------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
 
   : **NaroCAD Bore definitions**
 
@@ -155,7 +155,5 @@ Rotate a Sketch along one of its Axis and a certain angle. **Done \[jrheinlaende
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/pl

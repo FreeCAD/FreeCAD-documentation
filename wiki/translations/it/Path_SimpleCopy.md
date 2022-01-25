@@ -39,5 +39,7 @@ Questo strumento crea una copia non parametrica di un dato percorso.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/it

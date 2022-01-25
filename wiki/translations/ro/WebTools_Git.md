@@ -167,5 +167,7 @@ Pentru a permite utilizarea fcinfo (numai Linux și Mac - TODO: adăugați instr
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > WebTools Git/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Git/ro

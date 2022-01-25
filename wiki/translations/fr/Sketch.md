@@ -34,9 +34,9 @@ Néanmoins, une esquisse peut toujours être créée à toute autre fin. Elle ne
 
 {{Sketcher Tools navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Sketch/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch/fr

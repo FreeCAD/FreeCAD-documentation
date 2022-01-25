@@ -36,5 +36,7 @@ Acest instrument măsoară distanța dintre două elemente de topologie selectat
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/ro

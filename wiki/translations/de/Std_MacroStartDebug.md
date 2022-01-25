@@ -21,5 +21,7 @@ Dieser Befehl funktioniert zur Zeit nicht.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MacroStartDebug/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroStartDebug/de

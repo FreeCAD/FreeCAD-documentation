@@ -64,5 +64,7 @@ Vedere anche [Draft Promuovi](Draft_Upgrade/it.md) come modo alternativo per ott
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/it

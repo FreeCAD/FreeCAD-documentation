@@ -1251,8 +1251,5 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [API](Category_API.md) > FeaturePython Custom Properties/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > FeaturePython Custom Properties/pl

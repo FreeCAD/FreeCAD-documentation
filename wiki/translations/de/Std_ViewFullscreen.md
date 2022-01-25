@@ -35,5 +35,7 @@ Der **Std AnsichtVollbild** Befehl schaltet [3D Ansichten](3D_view/de.md) in den
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewFullscreen/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewFullscreen/de

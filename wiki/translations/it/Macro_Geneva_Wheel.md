@@ -21,7 +21,7 @@ Consente all\'utente di creare un meccanismo Croce di Malta da zero. Per modific
 
 Questa macro crea le parti principali di un meccanismo a forma di Croce di Malta. Dipende da sei valori che devono essere impostati nel codice, leggere i commenti nello script. Le variabili sono:
 
-+------------------------------+----------------------------------+
++++
 | Input                        | Output                           |
 +==============================+==================================+
 | -   a = Drive Crank Radius   | -   c = Distance Between Centers |
@@ -30,7 +30,7 @@ Questa macro crea le parti principali di un meccanismo a forma di Croce di Malta
 | -   p = Drive Pin Diameter   | -   y = Stop Arc Radius          |
 | -   t = Tolerance            | -   z = Stop Disc Radius         |
 | -   h = Height               | -   v = Clearance Arc            |
-+------------------------------+----------------------------------+
++++
 
 ## Link
 
@@ -148,5 +148,7 @@ Part.show(driveCrank)
 Part.show(genevaWheel)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Geneva Wheel/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Geneva Wheel/it

@@ -40,9 +40,6 @@ The purpose of this explorer is simply to allow you to check what is really writ
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/sv

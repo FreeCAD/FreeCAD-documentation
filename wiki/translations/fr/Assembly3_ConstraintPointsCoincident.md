@@ -24,5 +24,7 @@ Par rapport au premier objet, l\'objet suivant peut encore tourner autour de l\'
 2.  Sélectionnez un élément ponctuel de chaque objet
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintPointCoincident.svg" width=16px> [Points coincident](Assembly3_ConstraintPointsCoincident/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointsCoincident/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident/fr

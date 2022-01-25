@@ -30,5 +30,7 @@ The <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="wid
 
  {{TechDraw_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPositionSectionView
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionPositionSectionView

@@ -235,5 +235,7 @@ p()
 
 Cette macro est la version graphique de l\'original [Macro Geneva Wheel](Macro_Geneva_Wheel/fr.md) créé par [Drei](User_Drei.md)
 
+
+
 ---
-[documentation index](../README.md) > Macro Geneva Wheel GUI/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Geneva Wheel GUI/fr

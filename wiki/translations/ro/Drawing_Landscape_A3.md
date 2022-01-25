@@ -24,5 +24,7 @@ Dacă pagina nu apare, faceți clic pe<img alt="" src=images/view-refresh.png  s
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Landscape A3/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Landscape A3/ro

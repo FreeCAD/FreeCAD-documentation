@@ -24,5 +24,7 @@ Die Position auf dem Kreisobjekt (Bogenlänge vom Startpunkt) ist nicht festgelg
 2.  Ein Punktelement des einen und ein kreisförmiges Flächen- oder Kantenelement des anderen Objekts auswählen.
 3.  Schaltfläche **<img src="images/Assembly_ConstraintPointOnCircle.svg" width=16px> [Punkt auf Kreis](Assembly3_ConstraintPointOnCircle/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/de

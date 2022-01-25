@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/it
+   Topic: Modellare un pannello in Arch
+   Level: Base
+   Time: 60 minuti
+   Author: Yorik
+   FCVersion:
+   Files:
+---
+
 # Arch panel tutorial/it
-{{TutorialInfo/it
-|Topic= Modellare un pannello in Arch
-|Level= Base
-|Time= 60 minuti
-|Author= Yorik
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 Questo è un cross-post (duplicato) del [tutorial](http://opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) originariamente scritto per [Open-Source Ecology](http://opensourceecology.org).
 
@@ -193,9 +199,9 @@ Entrambi gli strumenti Ruota e Sposta di Draft usano il sistema di Aggancio di D
 ![](images/Arch_panel_tutorial_20.jpg )
 
 
-{{Tutorials navi
+   {{Sketcher Tools navi}}
 
-}}   {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/it

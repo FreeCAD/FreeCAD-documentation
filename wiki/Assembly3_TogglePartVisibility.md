@@ -11,7 +11,7 @@
 
 ## Description
 
-The <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="width:24px;"> [Toggle part visibility](Assembly3_TogglePartVisibility.md) command does\...
+The <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="width:24px;"> [Toggle part visibility](Assembly3_TogglePartVisibility.md) command toggles the visibility of the part object that is connected to a preselected **Element** object.
 
 ## Usage
 
@@ -20,5 +20,7 @@ The <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="width:24px;
     -   The **Assembly3 → <img src="images/Assembly_TogglePartVisibility.svg" width=16px> Toggle part visibility** menu option.
     -   The keyboard shortcut: **A** then **Space**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 TogglePartVisibility
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 TogglePartVisibility

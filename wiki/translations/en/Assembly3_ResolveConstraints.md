@@ -20,5 +20,7 @@ The <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:24px
     -   The **Assembly3 → <img src="images/Assembly3_workbench_icon.svg‎‎" width=16px> Resolve constraints** menu option.
     -   The keyboard shortcut: **A** then **S**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ResolveConstraints/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ResolveConstraints/en

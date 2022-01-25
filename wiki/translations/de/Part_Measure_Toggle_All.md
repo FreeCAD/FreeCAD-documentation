@@ -44,5 +44,7 @@ Dieses Werkzeug schaltet die Sichtbarkeit aller Messungen in der [3D Ansicht](3D
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/de

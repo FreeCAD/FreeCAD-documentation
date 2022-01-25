@@ -1,11 +1,11 @@
-# PartDesign tutorial/de
-{{TutorialInfo/de
-|Topic= Skizzieren
-|Level= Anfänger
-|Time= 15 Minuten
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16 oder höher
-|Files=
+---
+- TutorialInfo:/de
+   Topic: Skizzieren
+   Level: Anfänger
+   Time: 15 Minuten
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 oder höher
+   Files:
 }}
 
 ### Einleitung
@@ -28,7 +28,7 @@ Der Zweck des **PartDesign Arbeitsbereichs** ist es, dem Benutzer die Erstellung
 Um dies zu erreichen, gibt es zwei Werkzeuge: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Polster](PartDesign_Pad/de.md) und <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Drehung](PartDesign_Revolution/de.md). Neben ihren subtraktiven Gegenstücken (<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Tasche](PartDesign_Pocket/de.md) und <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [Nut](PartDesign_Groove/de.md)) bilden sie die meisten der von diesem Arbeitsbereich verwendeten üblichen Aktionen.
 
 1.  Wechsle in den Arbeitsbereich PartDesign.
-2.  Mit der Skizze ausgewählt in der [Baumansicht](tree_view/de.md), drücke **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**, Wähle die Standard XY-Ebene und drücke **OK**. Die Skizze sollte nun innerhalb des Körpers erscheinen.
+2.  Mit der Skizze ausgewählt in der [Baumansicht](tree_view/de.md), drücke **[PartDesign Körper](File:PartDesign_Body.svg   16px]] [[PartDesign_Body/de.md)**, Wähle die Standard XY-Ebene und drücke **OK**. Die Skizze sollte nun innerhalb des Körpers erscheinen.
 3.  Wähle <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Polster](PartDesign_Pad/de.md)
 4.  Setze den Abstand auf 5 mm
 5.  Wähle **OK**
@@ -37,7 +37,7 @@ Eine andere Möglichkeit zum Erzeugen von 3D Geometrie ist das <img alt="" src=i
 
 <img alt="" src=images/PartDesign_revolution_exercise.png  style="width:480px;">
 
-1.  Erstelle eine neuen Körper **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**, und dann eine Skizze auf der Grundlage des obigen Bildes.
+1.  Erstelle eine neuen Körper **[PartDesign Körper](File:PartDesign_Body.svg   16px]] [[PartDesign_Body/de.md)**, und dann eine Skizze auf der Grundlage des obigen Bildes.
 2.  Die Skizze kann sich auf jeder beliebigen Ebene befinden, sollte aber mit der horizontalen Achse deckungsgleich sein.
 3.  Wähle <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Drehung](PartDesign_Revolution/de.md) <img alt="" src=images/PartDesign_Revolution.png  style="width:24px;">.
 4.  Setze die \"Achse\" auf die \"Horizontale Skizzenachse\"
@@ -60,8 +60,12 @@ Wenn ein 3D Element erstellt wurde, ist es möglich, innerhalb einer Skizze Refe
 # Wähle <img src="images/Sketcher_External.svg" width=32px> [Externe Geometrie](Sketcher_External/de.md).
 # Nähere dich dem Element, auf das du referenzieren möchtest, z.B. die Kante eines '''Polsters'''.
 # Klicke darauf
-# Neue Elemente in einer anderen Farbe sollten in der Skizze an der Stelle erscheinen, auf die du Bezug nehmen möchtest.}}
+# Neue Elemente in einer anderen Farbe sollten in der Skizze an der Stelle erscheinen, auf die du Bezug nehmen möchtest.
+---
 
+# PartDesign tutorial/de
+
+ 
 <img alt="" src=images/PartDesign_pocket_exercise.png  style="width:480px;">
 
 Danach werden wir eine **Taschen** Funktion anwenden.
@@ -106,5 +110,7 @@ Wenn nicht, bearbeite den MehrfachUmwandlungs Vorgang erneut, indem du in der Ba
 
 Wir sind jetzt mit dem grundlegenden Workflow für den [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) fertig.
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/de

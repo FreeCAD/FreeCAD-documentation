@@ -36,5 +36,7 @@ Der **Std Kopieren**-Befehl kopiert Objekte in die Zwischenablage.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Copy/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Copy/de

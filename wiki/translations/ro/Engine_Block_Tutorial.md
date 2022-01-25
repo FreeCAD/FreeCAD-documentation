@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ro
+   Topic: Part Workbench
+   Level: Beginner
+   Time:
+   Author:Andrewbuck40
+   FCVersion:0.14.3700
+   Files:
+---
+
 # Engine Block Tutorial/ro
+
+ 
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro
-|Topic= Part Workbench
-|Level= Beginner
-|Time=
-|Author=Andrewbuck40
-|FCVersion=0.14.3700
-|Files=
-}}
 
 
 </div>
@@ -295,5 +301,7 @@ Now that we have 3D objects for the bore holes and the outer shape, we can use a
 
 Your final object should look like the picture on the right.
 
+
+
 ---
-[documentation index](../README.md) > Engine Block Tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Engine Block Tutorial/ro

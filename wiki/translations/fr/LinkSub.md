@@ -73,9 +73,6 @@ Le sous-élément peut ensuite être extrait de la propriété affectée et peut
 ```
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > LinkSub/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > LinkSub/fr

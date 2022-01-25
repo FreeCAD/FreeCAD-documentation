@@ -12,9 +12,9 @@
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Spreadsheet](Category_Spreadsheet.md)
+
 
 ---
-[documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Artwork Spreadsheet/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Artwork Spreadsheet/ru

@@ -1,12 +1,18 @@
-# Sketcher Micro Tutorial - Constraint Practices/de
-{{TutorialInfo/de
-|Topic=Skizzierer
-|Level=Anfänger
-|Time=30 Minuten
-|Author=Mark Stephen ([Quick61](User_Quick61.md)) und vocx
+---
+- TutorialInfo:/de
+   Topic:Skizzierer
+   Level:Anfänger
+   Time:30 Minuten
+   Author:Mark Stephen ([Quick61](User_Quick61.md)) und vocx
 |FCVersion 0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Skizzierer Beschränkungspraktiken]
-}}
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Skizzierer Beschränkungspraktiken]
+---
+
+# Sketcher Micro Tutorial - Constraint Practices/de
+
+
+
+
 
 ## Einführung
 
@@ -121,9 +127,9 @@ Dies ist der beste Weg, diese Skizze zu beschränken, da wir nur eine Bezugs- (B
 -   [Skizzierer Tutorium](Sketcher_Tutorial/de.md)
 
 
-{{Tutorials navi
+ {{Sketcher Tools navi}}
 
-}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/de

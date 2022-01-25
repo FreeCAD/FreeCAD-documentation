@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Atelier Bateau
+   Level:Débutant
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # FreeCAD-Ship s60 tutorial/fr
-{{TutorialInfo/fr
-|Topic=Atelier Bateau
-|Level=Débutant
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## Introduction
 
@@ -457,5 +463,7 @@ The [FreeCAD Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md) is the s
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD-Ship s60 tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial/fr

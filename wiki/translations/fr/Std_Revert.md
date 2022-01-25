@@ -29,5 +29,7 @@ La commande **Std Rétablir** ferme le document actif et rouvre la dernière ver
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Revert/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Revert/fr

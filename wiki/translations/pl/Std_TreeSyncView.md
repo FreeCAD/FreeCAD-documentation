@@ -32,5 +32,7 @@ The Tree view SyncView mode can also be set in the [Preferences editor](Preferen
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSyncView/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncView/pl

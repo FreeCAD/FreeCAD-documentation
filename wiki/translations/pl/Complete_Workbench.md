@@ -9,8 +9,5 @@ Zobacz temat [dostosowywanie interfejsu użytkownika do własnych potrzeb](Inter
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Complete](Category_Complete.md) [<img src="images/Property.png" style="width:16px"> Obsolete Workbenches](Category_Obsolete_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Complete](Category_Complete.md) > Complete Workbench/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Complete](Category_Complete.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > Complete Workbench/pl

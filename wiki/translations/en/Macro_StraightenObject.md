@@ -39,7 +39,7 @@ For more detailed explanations, see the [How to install macros](How_to_install_m
 Below a table presenting the different cases that are handled by the macro :
 
   First selected object item(s)                                       Subsequent selected object(s) item(s)   Macro behavior
-  ------------------------------------------------------------------- --------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
   One reference face                                                  Any (optional)                          First object is rotated/moved so reference face lies on XY plane, its center of mass being at the origin. Other selected objects undergo the same movement as first object
   One reference edge (or 2 reference vertexes)                        Any (optional)                          First object is rotated around its center of mass so that reference edge is parallel to Y axis (no shift is applied). Other selected objects undergo the same movement as first object
   One reference face + one reference edge (or 2 reference vertexes)   Any (optional)                          First object is rotated/moved so reference face lies on XY plane(its center of mass being at the origin) and reference edge is parallel to Y axis. Other selected objects undergo the same movement as first object
@@ -299,5 +299,7 @@ else:
 
 For any feedback (bug, feature request, comments, \...), please use this forum thread : [(Macro) Straighten objects](https://forum.freecadweb.org/viewtopic.php?f=22&t=35191)
 
+
+
 ---
-[documentation index](../README.md) > Macro StraightenObject/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro StraightenObject/en

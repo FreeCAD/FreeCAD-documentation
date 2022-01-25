@@ -15,7 +15,5 @@ The Stenfie workbench is not bundled with the default FreeCAD package, but can e
 
 
 
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Stemfie Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > Stemfie Workbench

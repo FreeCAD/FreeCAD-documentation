@@ -79,12 +79,6 @@ Draft.move(myrect, mydistance)
 {{APIFunction|getSVG|FreeCAD.Object, [linemodifier], [textmodifier], [(u,v)]|Создает SVG предствление указанного объекта. Параметр linemodifier  это масштабный фактор(в прцентах)для ширины линииfor line width, и textmodifier для рахзмера текста. Вы также можете дополнительно задать набор векторов определяющих плоскость проекции, в противном случае геометрия будет спроецирована на плоскость XY.|строка содержащая SVG изображение заданного объекта.}}
 
 
- 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > [Draft](Draft_Workbench.md) > Draft API/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Draft](Draft_Workbench.md) > Draft API/ru

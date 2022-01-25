@@ -9,9 +9,7 @@ Importing a .csv file into FreeCAD creates a <img alt="" src=images/Spreadsheet_
 
 Exporting a <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16px;"> [spreadsheet](Spreadsheet_CreateSheet.md) object to a .csv file simply writes all the values of the spreadsheet object. Functions, such as =A3+B5 are written as functions, not resulting values.
 
-  
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Spreadsheet](Category_Spreadsheet.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CSV
+![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CSV

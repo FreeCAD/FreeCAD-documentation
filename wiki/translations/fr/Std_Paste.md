@@ -41,5 +41,7 @@ La commande **Std Coller** colle les objets du Presse-papiers dans le document a
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Paste/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Paste/fr

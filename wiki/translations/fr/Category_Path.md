@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench/fr](PartDesign_Wo
 
 ### Contents:
 
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+    
   [Artwork Path/fr](Artwork_Path/fr.md)                           [Manual:Preparing models for 3D printing/fr](Manual:Preparing_models_for_3D_printing/fr.md)   [Path Adaptive/fr](Path_Adaptive/fr.md)
   [Path Area Workplane/fr](Path_Area_Workplane/fr.md)             [Path Area/fr](Path_Area/fr.md)                                                               [Path Array/fr](Path_Array/fr.md)
   [Path Comment/fr](Path_Comment/fr.md)                           [Path Copy/fr](Path_Copy/fr.md)                                                               [Path Custom/fr](Path_Custom/fr.md)
@@ -22,10 +22,9 @@ This category lists pages related to the [PartDesign Workbench/fr](PartDesign_Wo
   [Path ToolBit/fr](Path_ToolBit/fr.md)                           [Path ToolBitDock/fr](Path_ToolBitDock/fr.md)                                                 [Path ToolBitLibraryOpen/fr](Path_ToolBitLibraryOpen/fr.md)
   [Path ToolController/fr](Path_ToolController/fr.md)             [Path ToolLibraryEdit/fr](Path_ToolLibraryEdit/fr.md)                                         [Path Tools/fr](Path_Tools/fr.md)
   [Path ToolShape/fr](Path_ToolShape/fr.md)                       [Path Vcarve/fr](Path_Vcarve/fr.md)                                                           [Path Walkthrough for the Impatient/fr](Path_Walkthrough_for_the_Impatient/fr.md)
-  [Path Waterline/fr](Path_Waterline/fr.md)                       [Path Workbench/fr](Path_Workbench/fr.md)                                                     
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+  [Path Waterline/fr](Path_Waterline/fr.md)                       [Path Workbench/fr](Path_Workbench/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/fr](<img src="images/Property.png" style="width:16px"> Workbenches/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Path/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Path/fr

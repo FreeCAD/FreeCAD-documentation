@@ -86,5 +86,7 @@ subprocess.Popen([SLICER + "KISSlicer", stlFile])
 Thanks to [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) for his help in writing this script.
 Original forum topic: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
 
+
+
 ---
-[documentation index](../README.md) > Macro 3d Printer Slicer/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro 3d Printer Slicer/pl

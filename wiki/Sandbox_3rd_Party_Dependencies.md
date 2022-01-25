@@ -1,10 +1,10 @@
 # Sandbox:3rd Party Dependencies
 qt5                                                      qt5-base
-  -------------------------------------------------------- -------------------------------------------------------------
+   
   <https://repology.org/badge/vertical-allrepos/qt5.svg>   <https://repology.org/badge/vertical-allrepos/qt5-base.svg>
 
   opencascade                                                      occt                                                      oce                                                      opencascade-oce
-  ---------------------------------------------------------------- --------------------------------------------------------- -------------------------------------------------------- --------------------------------------------------------------------
+     
   <https://repology.org/badge/vertical-allrepos/opencascade.svg>   <https://repology.org/badge/vertical-allrepos/occt.svg>   <https://repology.org/badge/vertical-allrepos/oce.svg>   <https://repology.org/badge/vertical-allrepos/opencascade-oce.svg>
 
 \[!\[Packaging status\](https://repology.org/badge/vertical-allrepos/salome-smesh.svg)\](https://repology.org/metapackage/salome-smesh/versions)
@@ -12,37 +12,37 @@ qt5                                                      qt5-base
 \[!\[Packaging status\](https://repology.org/badge/vertical-allrepos/smesh.svg)\](https://repology.org/metapackage/smesh/versions)
 
   pivy
-  ---------------------------------------------------------
+  
   <https://repology.org/badge/vertical-allrepos/pivy.svg>
 
   vtk
-  ---------------------------------------------------------
+  
   <https://repology.org/badge/vertical-allrepos/vtk.svg>)
 
   calculix                                                      calculix-ccx
-  ------------------------------------------------------------- -----------------------------------------------------------------
+   
   <https://repology.org/badge/vertical-allrepos/calculix.svg>   <https://repology.org/badge/vertical-allrepos/calculix-ccx.svg>
 
   elmerfem
-  -------------------------------------------------------------
+  
   <https://repology.org/badge/vertical-allrepos/elmerfem.svg>
 
 \[!\[Packaging status\](https://repology.org/badge/vertical-allrepos/fenics.svg)\](https://repology.org/metapackage/fenics/versions)
 
   python:scipy                                                      scipy
-  ----------------------------------------------------------------- ----------------------------------------------------------
+   
   <https://repology.org/badge/vertical-allrepos/python:scipy.svg>   <https://repology.org/badge/vertical-allrepos/scipy.svg>
 
   python:numpy
-  -----------------------------------------------------------------
+  
   <https://repology.org/badge/vertical-allrepos/python:numpy.svg>
 
   boost
-  ----------------------------------------------------------
+  
   <https://repology.org/badge/vertical-allrepos/boost.svg>
 
   eigen
-  -----------------------------------------------------------
+  
   <https://repology.org/badge/vertical-allrepos/eigen3.svg>
 
 <https://repology.org/badge/vertical-allrepos/shiboken2.svg>
@@ -73,7 +73,7 @@ qt5                                                      qt5-base
 
 \[!\[Packaging status\](https://repology.org/badge/vertical-allrepos/graphviz.svg)\](https://repology.org/metapackage/graphviz-addons/versions)
 
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
+
 
 ---
-[documentation index](../README.md) > Sandbox:3rd Party Dependencies
+![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:3rd Party Dependencies

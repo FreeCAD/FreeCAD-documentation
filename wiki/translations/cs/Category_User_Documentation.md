@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+    
   [3Dconnexion input devices/cs](3Dconnexion_input_devices/cs.md)         [About FreeCAD/cs](About_FreeCAD/cs.md)                                                   [Aeroplane/cs](Aeroplane/cs.md)
   [Arch Add/cs](Arch_Add/cs.md)                                           [Arch Axis/cs](Arch_Axis/cs.md)                                                           [Arch Building/cs](Arch_Building/cs.md)
   [Arch Check/cs](Arch_Check/cs.md)                                       [Arch CloseHoles/cs](Arch_CloseHoles/cs.md)                                               [Arch DAE/cs](Arch_DAE/cs.md)
@@ -103,12 +103,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [Surface Workbench/cs](Surface_Workbench/cs.md)                         [Tasks Placement/cs](Tasks_Placement/cs.md)                                               [TechDraw Workbench/cs](TechDraw_Workbench/cs.md)
   [Template:TutorialInfo/cs](Template:TutorialInfo/cs.md)                 [Tutorials/cs](Tutorials/cs.md)                                                           [User hub/cs](User_hub/cs.md)
   [Video tutorials/cs](Video_tutorials/cs.md)                             [VRML Preparation for Robot Simulation/cs](VRML_Preparation_for_Robot_Simulation/cs.md)   [Web Workbench/cs](Web_Workbench/cs.md)
-  [Workbenches/cs](Workbenches/cs.md)                                                                                                                                       
-                                                                                                                                                                                    
-                                                                                                                                                                                    
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+  [Workbenches/cs](Workbenches/cs.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/cs](<img src="images/Property.png" style="width:16px"> Documentation/cs.md) [<img src="images/Property.png" style="width:16px"> Arch/cs](<img src="images/Property.png" style="width:16px"> Arch/cs.md) [<img src="images/Property.png" style="width:16px"> BIM/cs](<img src="images/Property.png" style="width:16px"> BIM/cs.md) [<img src="images/Property.png" style="width:16px"> Draft/cs](<img src="images/Property.png" style="width:16px"> Draft/cs.md) [<img src="images/Property.png" style="width:16px"> Inspection/cs](<img src="images/Property.png" style="width:16px"> Inspection/cs.md) [<img src="images/Property.png" style="width:16px"> Workbenches/cs](<img src="images/Property.png" style="width:16px"> Workbenches/cs.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/cs

@@ -143,5 +143,7 @@ Polygon3 = Draft.make_polygon(6, radius=1450, placement=place3)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Polygon/sv

@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/es
+   Topic:Modelización
+   Level:Principiante
+   Author:GlouGlou
+   Time:1 Hora
+   FCVersion:0.17 o por encima
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Creating_a_simple_PartDesign_Body.FCStd Creating a simple PartDesign Body.FCStd]
+---
+
 # Creating a simple part with PartDesign/es
-{{TutorialInfo/es
-|Topic=Modelización
-|Level=Principiante
-|Author=GlouGlou
-|Time=1 Hora
-|FCVersion=0.17 o por encima
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Creating_a_simple_PartDesign_Body.FCStd Creating a simple PartDesign Body.FCStd]
-}}
+
+
+
+
 
 ![](images/GGTuto1_Vue.PNG )
 
@@ -262,9 +268,9 @@ You can also continue with this other tutorial of a slightly more complicated pa
 [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)
 
 
-{{Tutorials navi
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
-}} {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Creating a simple part with PartDesign/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Creating a simple part with PartDesign/es

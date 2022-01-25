@@ -49,5 +49,7 @@ Armonizați normalele plaselor sau ochiurilor selectate.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/ro

@@ -3,7 +3,7 @@ Esta categoría contiene las páginas de ayuda de cada comando de FreeCAD.
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------
+    
   [Arch 3Views/es](Arch_3Views/es.md)                                                                             [Arch Add/es](Arch_Add/es.md)                                                             [Arch Axis/es](Arch_Axis/es.md)
   [Arch AxisSystem/es](Arch_AxisSystem/es.md)                                                                     [Arch Building/es](Arch_Building/es.md)                                                   [Arch BuildingPart/es](Arch_BuildingPart/es.md)
   [Arch Check/es](Arch_Check/es.md)                                                                               [Arch CloneComponent/es](Arch_CloneComponent/es.md)                                       [Arch CloseHoles/es](Arch_CloseHoles/es.md)
@@ -130,10 +130,9 @@ Esta categoría contiene las páginas de ayuda de cada comando de FreeCAD.
   [TechDraw PageTemplate/es](TechDraw_PageTemplate/es.md)                                                         [TechDraw ProjectionGroup/es](TechDraw_ProjectionGroup/es.md)                             [TechDraw RadiusDimension/es](TechDraw_RadiusDimension/es.md)
   [TechDraw RedrawPage/es](TechDraw_RedrawPage/es.md)                                                             [TechDraw SectionView/es](TechDraw_SectionView/es.md)                                     [TechDraw VerticalDimension/es](TechDraw_VerticalDimension/es.md)
   [TechDraw View/es](TechDraw_View/es.md)                                                                         [WebTools BimServer/es](WebTools_BimServer/es.md)                                         [WebTools Git/es](WebTools_Git/es.md)
-  [WebTools Sketchfab/es](WebTools_Sketchfab/es.md)                                                                                                                                                                 
-  ----------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------
+  [WebTools Sketchfab/es](WebTools_Sketchfab/es.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/es](<img src="images/Property.png" style="width:16px"> Categories/es.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/es

@@ -41,5 +41,7 @@ FreeCAD.ActiveDocument.recompute()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro ForceRecompute
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro ForceRecompute

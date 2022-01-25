@@ -43,5 +43,7 @@ Difficulties may arise when trying to install the documentation packages on Ubun
 -   Alternatively, you can instead get the development versions of the {{FileName|freecad.qhc}} and {{FileName|freecad.qch}} help files from [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Doc). You will need to [concatenate](http://man7.org/linux/man-pages/man1/cat.1.html) the .part files together: `cat freecad.qch.part00 freecad.qch.part01 freecad.qch.part02 freecad.qch.part03 > freecad.qch`.
 -   With administrative privileges (e.g., `sudo`), copy or move {{FileName|freecad.qhc}} and {{FileName|freecad.qch}} to {{FileName|/usr/share/doc/freecad-doc/}}. If you are using `freecad-daily`, this will instead be {{FileName|/usr/share/doc/freecad-daily-doc/}}.
 
+
+
 ---
-[documentation index](../README.md) > Installing Helpfile/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing Helpfile/es

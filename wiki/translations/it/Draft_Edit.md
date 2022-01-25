@@ -216,5 +216,7 @@ Per lo strumento Modifica non è disponibile un\'interfaccia di programmazione. 
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/it

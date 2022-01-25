@@ -27,5 +27,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:16px
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/it

@@ -43,5 +43,7 @@ Aumenta la tolleranza dei bordi, delle facce e dei vertici dell\'oggetto selezio
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature/it

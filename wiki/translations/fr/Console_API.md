@@ -27,9 +27,6 @@ FreeCAD.Console.PrintMessage("Hello World!\n")
 {{APIFunction | SetStatus | chaîne | Définir les états pour soit Connexion, Msg, Avert ou erreur pour un observateur |}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Console API/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Console API/fr

@@ -93,9 +93,9 @@ doc.recompute()
 
 An extensive, though hard to use, source of mesh related scripting are the unit test scripts of the `Mesh` module. In these unit tests literally all methods are called and all properties/attributes are tweaked. So if you are bold enough, take a look at the [Unit Test module](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-See also: [Mesh API](Mesh_API.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
+See also: [Mesh API](Mesh_API.md). {{Top}}  {{Mesh Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/en

@@ -69,5 +69,7 @@ Asta-i tot.
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Installing on Mac/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/ro

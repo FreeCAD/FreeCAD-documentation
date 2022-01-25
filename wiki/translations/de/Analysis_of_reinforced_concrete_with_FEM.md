@@ -1,11 +1,12 @@
 # Analysis of reinforced concrete with FEM/de
-{{TutorialInfo/de
-|Topic= Stahlbeton mit FEM
-|Level= Geübte
-|Time = 60 Minuten
-|Author=[User: HarryvL|HarryvL],[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=18062 HarryvL]
-|FCVersion=0.19.xxxxx oder neuer
-|Files=
+---
+- TutorialInfo:/de
+   Topic: Stahlbeton mit FEM
+   Level: Geübte
+   Time : 60 Minuten
+   Author:[User: HarryvL   HarryvL],[https://forum.freecadweb.org/memberlist.php?mode:viewprofile&u=18062 HarryvL]
+   FCVersion:0.19.xxxxx oder neuer
+   Files:
 }}
 
 ## Hintergrund
@@ -181,9 +182,10 @@ Das Zugspannungsmuster legt ein alternatives Konstruktionskonzept unter Verwendu
 -   [FEM Beton](FEM_Concrete/de.md)
 
 
-{{Tutorials navi
+ {{FEM Tools navi}} {{Userdocnavi
+---
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Analysis of reinforced concrete with FEM/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/de

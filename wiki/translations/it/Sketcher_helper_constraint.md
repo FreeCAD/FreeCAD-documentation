@@ -51,5 +51,7 @@ I vincoli di supporto sono stati introdotti nella versione 0.15.4387
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher helper constraint/it

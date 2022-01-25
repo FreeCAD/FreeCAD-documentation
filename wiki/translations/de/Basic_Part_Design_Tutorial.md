@@ -1,11 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic:Modellieren
+   Level:Einsteiger
+   Author:Mark Stephen ([Quick61](User_Quick61.md)) und HarryGeier ([HarryGeier](User_HarryGeier.md))
+   Time:Unter einer Stunde
+   FCVersion:0.17 oder höher
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Grundlagen Part Design für v0.17]
+---
+
 # Basic Part Design Tutorial/de
-{{TutorialInfo/de
-|Topic=Modellieren
-|Level=Einsteiger
-|Author=Mark Stephen ([Quick61](User_Quick61.md)) und HarryGeier ([HarryGeier](User_HarryGeier.md))
-|Time=Unter einer Stunde
-|FCVersion=0.17 oder höher
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Grundlagen Part Design für v0.17]}}
+
+
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -290,5 +297,7 @@ Dieses Tutorium und dein Modell sind vollständig.
 
 }} {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Basic Part Design Tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Basic Part Design Tutorial/de

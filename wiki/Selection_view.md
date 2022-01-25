@@ -79,5 +79,7 @@ Starting from v0.19, the **picked object list** checkbox is available. If this i
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Selection view
+![](images/Right_arrow.png) [documentation index](../README.md) > Selection view

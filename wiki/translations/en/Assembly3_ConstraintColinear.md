@@ -35,5 +35,7 @@ This tool accepts a 3D elements as well e.g. edges or center lines.
 -   2D/3D or 3D/2D: Instead of the 3D elements z axis the projection of that axis onto the 2D line\'s workplane is used to position the lines.
 -   Both 3D: The lines are positioned to one another but I can\'t figure out how\...
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintColinear/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintColinear/en

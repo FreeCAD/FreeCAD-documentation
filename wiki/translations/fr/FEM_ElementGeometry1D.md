@@ -45,5 +45,7 @@ Elément de géométries 1D est utilisé pour définir les sections transversale
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ElementGeometry1D/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementGeometry1D/fr

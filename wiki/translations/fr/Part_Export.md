@@ -20,5 +20,7 @@ l\'outil **<img src="images/Part_Export.svg" width=16px> [Part Exportation](Part
 3.  Aller dans le menu **Pièce →  [<img src=images/Part_Export.svg style="width:16px"> Exportation CAO...**.
 4.  Sélectionnez le format de fichier et le répertoire de sortie.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/fr

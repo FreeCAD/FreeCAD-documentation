@@ -188,29 +188,29 @@ When you look at the [creation function](#Non-uniform_B-splines.md) for non-unif
 
 Since the form of a B-spline does not tell much about its properties, FreeCAD offers [different tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) to display the properties:
 
-+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
++++
 | Property              | Toolbar button                                                                                                                          |
-+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Degree**            |                                                                                                                          |
 |                       | **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [Show/Hide B-spline degree](Sketcher_BSplineDegree.md)**                                |
 |                       |                                                                                                                                      |
-+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Control polygon**   |                                                                                                                          |
 |                       | **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Show/hide B-spline control polygon](Sketcher_BSplinePolygon.md)**                     |
 |                       |                                                                                                                                      |
-+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Curvature comb**    |                                                                                                                          |
 |                       | **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Show/hide B-spline curvature comb](Sketcher_BSplineComb.md)**                            |
 |                       |                                                                                                                                      |
-+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Knot multiplicity** |                                                                                                                          |
 |                       | **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)** |
 |                       |                                                                                                                                      |
-+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Weights**           |                                                                                                                          |
 |                       | **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md)**          |
 |                       |                                                                                                                                      |
-+-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ### Limitations
 
@@ -262,5 +262,7 @@ But is this really sufficient? At the point of geometric transition we have now 
 
 So we have also spatial areas in which the intensity of reflected light is different. To avoid this, we need at the geometrical point of transition also a continuity of the second order derivative and thus a cubic B-spline.
 
+
+
 ---
-[documentation index](../README.md) > B-Splines/en
+![](images/Right_arrow.png) [documentation index](../README.md) > B-Splines/en

@@ -24,5 +24,7 @@ It can be used to create a skeleton sketch for 2D kinematics.
 
 :   With an existing non-empty assembly steps 1 and 2 can be skipped and any planar face element can be used as a work plane for the sketch plane.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSketchPlane/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/pl

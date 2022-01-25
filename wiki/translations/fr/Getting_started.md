@@ -138,7 +138,7 @@ Et enfin, une des caractéristiques les plus puissantes de FreeCAD est l\'enviro
 
 {{Userdocnavi/fr}}
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/fr](<img src="images/Property.png" style="width:16px"> User_Documentation/fr.md)
+
 
 ---
-[documentation index](../README.md) > Getting started/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/fr

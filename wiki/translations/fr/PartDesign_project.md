@@ -52,9 +52,9 @@ L\'outil **Pocket feature** crée une cavité dans un solide de base, de la form
 
 Une très bonne définition des paramètres d\'alésage à partir de la spécification NaroCad:
 
-  ----------------------------------------------------------------------- ------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
   <img alt="" src=images/Counterbore_settings.png  style="width:300px;">   <img alt="" src=images/Counterbore_settings2.png  style="width:300px;">   <img alt="" src=images/Countersink_settings.png  style="width:300px;">
-  ----------------------------------------------------------------------- ------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
 
   : **NaroCAD Bore definitions**
 
@@ -161,7 +161,5 @@ Faire pivoter une esquisse sur un axe et un angle défini.
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/fr

@@ -35,5 +35,7 @@ Nous espérons que nous avons réussi à vous donner un bon aperçu de FreeCAD d
 -   [Traduction de FreeCAD sur crowdin](https://crowdin.com/project/freecad)
 -   [Le tracker des bugs FreeCAD](http://www.freecadweb.org/tracker)
 
+
+
 ---
-[documentation index](../README.md) > Manual:The Community/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The Community/fr

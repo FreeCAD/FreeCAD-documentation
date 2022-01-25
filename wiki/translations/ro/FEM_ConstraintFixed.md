@@ -43,5 +43,7 @@ Nu puteți amesteca tipuri diferite de obiecte în aceeași constrângere. Utliz
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ConstraintFixed/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintFixed/ro

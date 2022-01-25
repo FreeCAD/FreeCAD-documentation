@@ -49,5 +49,7 @@ Beim Versuch, die Dokumentationspakete unter Ubuntu zu installieren (z.B. `freec
 -   Alternativ kannst du stattdessen die Entwicklungsversionen der Hilfedateien {{FileName|freecad.qhc}} und {{FileName|freecad.qch}} von [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Doc) erhalten. Du musst die .part Dateien zusammen [verketten](http://man7.org/linux/man-pages/man1/cat.1.html): `cat freecad.qch.part00 freecad.qch.part01 freecad.qch.part02 freecad.qch.part03 > freecad.qch`.
 -   Mit administrativen Rechten (z. B. `sudo`) kopierst oder verschiebst du {{FileName|freecad.qhc}} und {{FileName|freecad.qch}} nach {{FileName|/usr/share/doc/freecad-doc/}}. Wenn du `freecad-daily` verwendest, wird dies stattdessen {{FileName|/usr/share/doc/freecad-daily-doc/}} sein.
 
+
+
 ---
-[documentation index](../README.md) > Installing Helpfile/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing Helpfile/de

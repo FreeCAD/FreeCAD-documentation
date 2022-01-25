@@ -31,5 +31,7 @@ The <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.svg  st
 
  {{TechDraw_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateObliqueChainDimension
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateObliqueChainDimension

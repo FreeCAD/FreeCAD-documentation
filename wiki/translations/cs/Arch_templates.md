@@ -96,7 +96,7 @@ Na této stránce je seznam šablon podle standardů American National Standards
 
 Šablony jsou nakresleny uživatelem [Quick61](User_Quick61.md) a jejich seznam je na [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Drawing](Category_Drawing.md)
+
 
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Arch](Arch_Workbench.md) > Arch templates/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > [Arch](Arch_Workbench.md) > Arch templates/cs

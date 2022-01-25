@@ -37,5 +37,7 @@ See [Draft OrthoArray](Draft_OrthoArray#Properties.md).
 
 See [Draft OrthoArray](Draft_OrthoArray#Scripting.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/ru

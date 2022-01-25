@@ -22,5 +22,7 @@ The [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=3) is the best 
 
 *align=center|Window with the "[About](Std_About.md)" information in the software. Do not take a picture of this window;<br/>Click the **Copy to clipboard* button to be able to paste the information with your help request.**
 
+
+
 ---
-[documentation index](../README.md) > Important information
+![](images/Right_arrow.png) [documentation index](../README.md) > Important information

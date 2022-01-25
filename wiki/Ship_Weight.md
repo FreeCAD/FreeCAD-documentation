@@ -71,5 +71,7 @@ Punctual weights are featured by its mass (in kg, or any other compatible unit).
 
  {{Ship_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > Ship Weight
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship Weight

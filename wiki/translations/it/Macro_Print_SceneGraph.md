@@ -116,5 +116,7 @@ else:
     QtGui.QApplication.restoreOverrideCursor()
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Print SceneGraph/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Print SceneGraph/it

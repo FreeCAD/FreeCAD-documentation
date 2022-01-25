@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Sketcher
+   Level:Débutant
+   Author:Mark Stephen ([Quick61](User_Quick61.md)) et vocx
+   Time:Moins de 15 minutes
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher Constraints practices]
+---
+
 # Sketcher Micro Tutorial - Constraint Practices/fr
-{{TutorialInfo/fr
-|Topic=Sketcher
-|Level=Débutant
-|Author=Mark Stephen ([Quick61](User_Quick61.md)) et vocx
-|Time=Moins de 15 minutes
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher Constraints practices]
-}}
+
+
+
+
 
 ## Introduction
 
@@ -123,12 +129,14 @@ En regardant la section **Constraints** du [Panneau des tâches](Task_Panel/fr.m
     * [Manuel de référence pour Sketcher](Sketcher_reference/fr.md)
     * [Tutoriel Sketcher (Esquisseur)](Sketcher_Tutorial/fr.md)
 
-    {{Tutorials navi}}
+    
 
 
 {{Sketcher Tools navi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/fr

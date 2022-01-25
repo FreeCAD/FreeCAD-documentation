@@ -26,5 +26,7 @@ Defines a tie constraint that connects the two selected surfaces in such a way t
 
  {{FEM Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > FEM ConstraintTie
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintTie

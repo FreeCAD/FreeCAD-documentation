@@ -3,7 +3,7 @@ This category contains python code examples for FreeCAD
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [Code snippets/ru](Code_snippets/ru.md)                                                   [Command/ru](Command/ru.md)                                                               [Create a FeaturePython object part I/ru](Create_a_FeaturePython_object_part_I/ru.md)
   [Create a FeaturePython object part II/ru](Create_a_FeaturePython_object_part_II/ru.md)   [Debugging/ru](Debugging/ru.md)                                                           [Dialog creation/ru](Dialog_creation/ru.md)
   [Embedding FreeCAD/ru](Embedding_FreeCAD/ru.md)                                           [Embedding FreeCADGui/ru](Embedding_FreeCADGui/ru.md)                                     [Extra python modules/ru](Extra_python_modules/ru.md)
@@ -20,10 +20,9 @@ This category contains python code examples for FreeCAD
   [Scripted objects migration/ru](Scripted_objects_migration/ru.md)                         [Scripted objects saving attributes/ru](Scripted_objects_saving_attributes/ru.md)         [Scripted objects with attachment/ru](Scripted_objects_with_attachment/ru.md)
   [Scripted objects/ru](Scripted_objects/ru.md)                                             [Scripted Parts: Ball Bearing - Part 1/ru](Scripted_Parts:_Ball_Bearing_-_Part_1/ru.md)   [Scripted Parts: Ball Bearing - Part 2/ru](Scripted_Parts:_Ball_Bearing_-_Part_2/ru.md)
   [Scripting and macros/ru](Scripting_and_macros/ru.md)                                     [Scripts/ru](Scripts/ru.md)                                                               [Svg Namespace/ru](Svg_Namespace/ru.md)
-  [Topological data scripting/ru](Topological_data_scripting/ru.md)                         [Workbench creation/ru](Workbench_creation/ru.md)                                         
-  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+  [Topological data scripting/ru](Topological_data_scripting/ru.md)                         [Workbench creation/ru](Workbench_creation/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/ru](<img src="images/Property.png" style="width:16px"> Categories/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Python Code/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Python Code/ru

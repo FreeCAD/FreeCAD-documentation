@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/pl
+   Topic: Projektowanie wyrobu
+   Level: Zaawansowany
+   Time: 60 minut
+   Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
+   FCVersion:0.19
+   Files: [https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Aktualizacja - Przewodnik: Tworzenie gwintów.]
+---
+
 # Thread for Screw Tutorial/pl
-{{TutorialInfo/pl
-|Topic= Projektowanie wyrobu
-|Level= Zaawansowany
-|Time= 60 minut
-|Author=[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
-|FCVersion=0.19
-|Files= [https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Aktualizacja - Przewodnik: Tworzenie gwintów.]
-}}
+
+
+
+
 
 ## Wprowadzenie
 
@@ -234,7 +240,9 @@ ISO i inne gwinty zostały uelastycznione, czyli płaskie, wewnętrzne i zewnęt
 
 ![761PX](images/Threadform.PNG )
 
-Ta metoda produkuje wysoce stabilne bryły, które prawidłowo działają z funkcjami logicznymi. Chociaż nie wytwarza ona \"parametrycznych\" gwintów śrubowych w standardowych rozmiarach w sensie prostego dostępu do kształtu poprzez rozmiar łącznika, jest to łatwy sposób na stworzenie wiarygodnej biblioteki do ponownego użycia. Modele o specjalnych kształtach, takich jak ACME czy śruby z serii Archimedian, są również nieskomplikowane do modelowania jako rozwiązania jednorazowe. {{Tutorials navi}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+Ta metoda produkuje wysoce stabilne bryły, które prawidłowo działają z funkcjami logicznymi. Chociaż nie wytwarza ona \"parametrycznych\" gwintów śrubowych w standardowych rozmiarach w sensie prostego dostępu do kształtu poprzez rozmiar łącznika, jest to łatwy sposób na stworzenie wiarygodnej biblioteki do ponownego użycia. Modele o specjalnych kształtach, takich jak ACME czy śruby z serii Archimedian, są również nieskomplikowane do modelowania jako rozwiązania jednorazowe.   {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > Thread for Screw Tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/pl

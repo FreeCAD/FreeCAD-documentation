@@ -67,9 +67,6 @@ gui_doc.activateWorkbench("myWorkbench")
 {{APIFunction | |updateGui | Actualizați fereastra principală și toate ferestrele sale |}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > FreeCADGui API/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > FreeCADGui API/ro

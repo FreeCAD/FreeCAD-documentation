@@ -159,5 +159,7 @@ Instrumentul propriu-zis este implementat în Python, vezi /Mod/Part/JoinFeature
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/ro

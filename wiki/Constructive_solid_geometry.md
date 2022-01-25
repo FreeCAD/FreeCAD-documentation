@@ -34,9 +34,7 @@ The [tutorials](tutorials.md) page provides some examples on creating solids wit
 -   [Wiffle ball tutorial](Whiffle_Ball_tutorial.md)
 -   [Basic modeling tutorial](Basic_modeling_tutorial.md)
 
-  
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Constructive solid geometry
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry

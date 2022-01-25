@@ -158,5 +158,7 @@ Instrumentul este re-implementat via generalFuse in FreeCAD v0.17.8053
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/ro

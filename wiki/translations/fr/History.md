@@ -136,7 +136,7 @@ En avril 2019, l\'équipe de développeurs principaux a été élargie: Jürgen,
 #### Vue d\'ensemble 
 
   Version   Nom de version   Date de sortie              Notes de version                                            Version de validation                                                                            Branches avec corrections de bogues
-  --------- ---------------- --------------------------- ----------------------------------------------------------- ------------------------------------------------------------------------------------------------ -----------------------------------------------------------------------------------------------------------
+       
   0.20      ?                en cours de développement   [Notes de version 0.20](Release_notes_0.20/fr.md)   [head master](https://github.com/FreeCAD/FreeCAD/commits/master)                                 
   0.19      \-               2021-03-20                  [Notes de version 0.19](Release_notes_0.19/fr.md)   [Version de validation 0.19](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19)   [Branches avec corrections de bogues 0.19](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-19)
   0.18      \-               2019-03-12                  [Notes de version 0.18](Release_notes_0.18/fr.md)   [Version de validation 0.18](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18)   [Branches avec corrections de bogues 0.18](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
@@ -162,7 +162,7 @@ En avril 2019, l\'équipe de développeurs principaux a été élargie: Jürgen,
 #### Légende
 
   Color   Type de version
-  ------- --------------------------------------
+   
           Future version
           Dernière pré-version
           **Dernière version**
@@ -176,7 +176,7 @@ En avril 2019, l\'équipe de développeurs principaux a été élargie: Jürgen,
 -   [SourceForge Old Files section](http://sourceforge.net/projects/free-cad/files/OldFiles/)
 -   [Announcing FreeCAD Project](http://www.opencascade.org/org/forum/thread_6572/?forum=11) Annonces sur le forum Open Cascade
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > History/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > History/fr

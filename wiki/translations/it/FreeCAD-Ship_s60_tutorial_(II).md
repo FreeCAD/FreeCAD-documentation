@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/it
+   Topic:Ambiente Navale
+   Level: Base
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # FreeCAD-Ship s60 tutorial (II)/it
-{{TutorialInfo/it
-|Topic=Ambiente Navale
-|Level= Base
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## Overview
 
@@ -314,5 +320,7 @@ Naturalmente questo esempio non è realistico (anche perché i serbatoi del carb
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/it

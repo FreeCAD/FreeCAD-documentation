@@ -283,12 +283,12 @@ Indication pour CORRECT
 
 ##  Remarques
 
-  ------- ------------------------------------------------------------------------------------------------------------------------------------------------
+   
   \(1\)   Il y a quelques inévitables conflits d\'appellation entre les chiffres romains et les caractères alphabétiques, par exemple : c, v, i, x, etc.
   \(2\)   Par conception, les chiffres romains ont la priorité sur les caractères alphabétiques.
   \(3\)   Les dépendances ne s\'appliquent qu\'à la \"copie standard\" ; leur application à la \"copie simple\" sera automatiquement ignorée.
           
-  ------- ------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
 ## Script
 
@@ -354,5 +354,7 @@ __Files__         = "MultiCopy_UI_Files/MultiCopy_Main_Dialog.ui, "\
 \[2\] [Dépôt Github des macros FreeCAD - MultiCopy](https://github.com/FreeCAD/FreeCAD-macros/tree/master/Conversion)
 \[3\] [Page de discussion du forum FreeCAD - MultiCopy](https://forum.freecadweb.org/viewtopic.php?f=22&t=56753)
 
+
+
 ---
-[documentation index](../README.md) > Macro MultiCopy/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro MultiCopy/fr

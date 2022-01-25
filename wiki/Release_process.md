@@ -374,7 +374,7 @@ This is a raw list of sites and blogs that have at some point mentioned FreeCAD.
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
+
 
 ---
-[documentation index](../README.md) > Release process
+![](images/Right_arrow.png) [documentation index](../README.md) > Release process

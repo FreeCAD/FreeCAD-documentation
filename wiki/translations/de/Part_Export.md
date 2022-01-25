@@ -19,5 +19,7 @@ Das **<img src="images/Part_Export.svg" width=16px> [Part Export](Part_Export/de
 3.  Gehe zum Menü {{MenuCommand/de|Part → [<img src=images/Part_Export.svg style="width:16px"> CAD exportieren}}.
 4.  Wähle das Dateiformat und den Ausgabepfad.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Export/de

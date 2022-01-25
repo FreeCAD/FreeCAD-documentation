@@ -156,9 +156,9 @@ Queste pagine si riferiscono all\'ambiente in sostituzione, programmato in C++, 
 
 {{Raytracing Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Raytracing Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/it

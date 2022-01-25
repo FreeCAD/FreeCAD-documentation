@@ -69,9 +69,9 @@ The Libraries tab shows a list of the external libraries used by the program, an
 
 
 
-{{Std Base navi}}  
+{{Std Base navi}}
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
+
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/hr

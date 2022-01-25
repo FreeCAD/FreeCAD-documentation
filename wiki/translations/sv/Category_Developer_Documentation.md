@@ -3,7 +3,7 @@ This category gathers documentation article mostly aimed at programmers
 
 ### Contents:
 
-  --------------------------------------------------------------------------- ----------------------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [Branding/sv](Branding/sv.md)                                       [Code snippets/sv](Code_snippets/sv.md)                               [Compile on MacOS/sv](Compile_on_MacOS/sv.md)
   [Compile on Windows/sv](Compile_on_Windows/sv.md)                   [Debugging/sv](Debugging/sv.md)                                       [Developer hub/sv](Developer_hub/sv.md)
   [Dialog creation/sv](Dialog_creation/sv.md)                         [Drawing templates/sv](Drawing_templates/sv.md)                       [Embedding FreeCAD/sv](Embedding_FreeCAD/sv.md)
@@ -16,10 +16,9 @@ This category gathers documentation article mostly aimed at programmers
   [PySide/sv](PySide/sv.md)                                           [PythonOCC/sv](PythonOCC/sv.md)                                       [Scenegraph/sv](Scenegraph/sv.md)
   [Scripted objects/sv](Scripted_objects/sv.md)                       [Source documentation/sv](Source_documentation/sv.md)                 [Start up and Configuration/sv](Start_up_and_Configuration/sv.md)
   [Testing/sv](Testing/sv.md)                                         [Third Party Libraries/sv](Third_Party_Libraries/sv.md)               [Third Party Tools/sv](Third_Party_Tools/sv.md)
-  [Topological data scripting/sv](Topological_data_scripting/sv.md)   [Tracker/sv](Tracker/sv.md)                                           
-  --------------------------------------------------------------------------- ----------------------------------------------------------------------------- ---------------------------------------------------------------------------
+  [Topological data scripting/sv](Topological_data_scripting/sv.md)   [Tracker/sv](Tracker/sv.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/sv](<img src="images/Property.png" style="width:16px"> Documentation/sv.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/sv

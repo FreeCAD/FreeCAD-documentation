@@ -408,7 +408,7 @@ RebarShapeCutListfunc.getRebarShapeCutList(
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
+
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Reinforcement Bar Shape Cut List/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Bar Shape Cut List/ru

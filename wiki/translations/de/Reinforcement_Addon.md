@@ -44,9 +44,6 @@ Die Seite [externe Arbeitsbereiche](external_workbenches/de.md) enthält einige 
 Neue Arbeitsbereiche sind in Entwicklung, bleib dran!
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
-[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Addon/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Reinforcement Addon/de

@@ -1,16 +1,17 @@
 # Basic TechDraw Tutorial/fr
-{{TutorialInfo/fr
-|Topic=Dessin technique
-|Level=Débutant
-|Author=[WandererFan](User_WandererFan.md)
-|Time=Moins d'une heure
-|FCVersion=0.17 ou ultérieur
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]
+---
+- TutorialInfo:/fr
+   Topic:Dessin technique
+   Level:Débutant
+   Author:[WandererFan](User_WandererFan.md)
+   Time:Moins d'une heure
+   FCVersion:0.17 ou ultérieur
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]
 }}
 
 ## Introduction
 
-Ce didacticiel présente au nouvel utilisateur certains des outils et techniques utilisés dans l\'**<img src="images/Workbench_TechDraw.svg" width=24px> [atelier de dessin technique TechDraw](TechDraw_Workbench/fr.md)**. Ce didacticiel n\'est pas un guide complet de l\'atelier TechDraw et de nombreux outils et fonctionnalités ne sont pas couverts. Ce didacticiel vous guidera dans les étapes nécessaires à la réalisation des dessins techniques de la pièce du [Tutoriel d\'introduction à l\'atelier PartDesign](Basic_Part_Design_Tutorial_017/fr.md).
+Ce didacticiel présente au nouvel utilisateur certains des outils et techniques utilisés dans l\'**![](images/)**. Ce didacticiel n\'est pas un guide complet de l\'atelier TechDraw et de nombreux outils et fonctionnalités ne sont pas couverts. Ce didacticiel vous guidera dans les étapes nécessaires à la réalisation des dessins techniques de la pièce du [Tutoriel d\'introduction à l\'atelier PartDesign](Basic_Part_Design_Tutorial_017/fr.md).
 
 ## Avant de commencer 
 
@@ -130,9 +131,10 @@ Il y a beaucoup plus de fonctionnalités à explorer dans TechDraw: vues en coup
 -   Le fichier FreeCAD de cet exercice pour comparaison (fait sous 0.17) [Télécharger](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 
 
-{{Tutorials navi
+ {{TechDraw Tools navi}} {{Userdocnavi
+---
 
-}} {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Basic TechDraw Tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/fr

@@ -47,5 +47,7 @@ For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ShowSelection/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ShowSelection/pl

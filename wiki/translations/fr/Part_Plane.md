@@ -49,5 +49,7 @@ Les propriétés de l\'objet peuvent être modifiées, soit dans l\'[Éditeur de
 
 Vous avez la vue standard des propriétés.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/fr

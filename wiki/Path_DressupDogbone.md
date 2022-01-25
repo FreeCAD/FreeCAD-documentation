@@ -34,5 +34,7 @@ The dogbone dressup needs a straight path segment (G1) before and after the corn
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone

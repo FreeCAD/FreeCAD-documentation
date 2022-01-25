@@ -32,5 +32,7 @@ La commande **Std Commencer un déplacement** lance une opération de glissement
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeDrag/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeDrag/fr

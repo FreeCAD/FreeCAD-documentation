@@ -92,5 +92,7 @@ Das Werkzeug wurde in FreeCAD v0.16.5069 eingeführt.
 
 Das Werkzeug wurde neu implementiert, um über generalFuse in FreeCAD v0.17.8053 zu arbeiten.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/de

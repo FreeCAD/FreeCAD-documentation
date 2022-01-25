@@ -59,7 +59,7 @@ First, you need to decide whether you want to install a **stable** version of Fr
 Stable released versions of FreeCAD are served on the conda-forge channel, while the latest from FreeCAD master is served on the freecad/label/dev channel.
 
   Conda Channel         Stable?
-  --------------------- ---------
+   
   conda-forge         Yes ✔️
   freecad/label/dev   No ❌
 
@@ -92,7 +92,7 @@ conda create --name fcenv-dev --channel freecad/label/dev freecad
 -   <https://github.com/FreeCAD/FreeCAD_Conda>
 -   <https://github.com/FreeCAD/FreeCAD-AppImage>
 
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
+
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Conda/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Conda/ru

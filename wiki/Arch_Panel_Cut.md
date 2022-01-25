@@ -97,5 +97,7 @@ FreeCAD.ActiveDocument.recompute()
 
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut

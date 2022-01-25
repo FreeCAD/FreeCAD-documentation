@@ -24,5 +24,7 @@ Diese Beziehung akzeptiert ebene Flächen.
 2.  Je ein ebenes Flächenelement pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintSameOrientation.svg" width=16px> [Richtungen angleichen](Assembly3_ConstraintSameOrientation/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSameOrientation/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSameOrientation/de

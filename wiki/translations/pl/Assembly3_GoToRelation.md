@@ -26,5 +26,7 @@ The result (highlighted objects) depends on the selected object.
 1.  Select a part, an element or a constraint.
 2.  Press the **<img src="images/Assembly_GotoRelation.svg" width=16px> [Go to relation](Assembly3_GoToRelation.md)** button or use the keyboard shortcut: **A** then **R**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 GoToRelation/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 GoToRelation/pl

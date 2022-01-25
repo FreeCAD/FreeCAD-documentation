@@ -3,7 +3,7 @@ Cette catégorie liste les pages liées à l\'[atelier Draft](Draft_Workbench/fr
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+    
   [Arch panel tutorial/fr](Arch_panel_tutorial/fr.md)                         [Artwork Draft/fr](Artwork_Draft/fr.md)                         [Draft AddConstruction/fr](Draft_AddConstruction/fr.md)
   [Draft AddNamedGroup/fr](Draft_AddNamedGroup/fr.md)                         [Draft AddToGroup/fr](Draft_AddToGroup/fr.md)                   [Draft annotation scale widget/fr](Draft_annotation_scale_widget/fr.md)
   [Draft AnnotationStyleEditor/fr](Draft_AnnotationStyleEditor/fr.md)         [Draft API/fr](Draft_API/fr.md)                                 [Draft ApplyStyle/fr](Draft_ApplyStyle/fr.md)
@@ -38,10 +38,9 @@ Cette catégorie liste les pages liées à l\'[atelier Draft](Draft_Workbench/fr
   [Draft WireToBSpline/fr](Draft_WireToBSpline/fr.md)                         [Draft Workbench/fr](Draft_Workbench/fr.md)                     [Draft WorkingPlaneProxy/fr](Draft_WorkingPlaneProxy/fr.md)
   [DXF/fr](DXF/fr.md)                                                         [FreeCAD and DWG Import/fr](FreeCAD_and_DWG_Import/fr.md)       [Macro FCCircularText/fr](Macro_FCCircularText/fr.md)
   [Manual:Traditional 2D drafting/fr](Manual:Traditional_2D_drafting/fr.md)   [SVG/fr](SVG/fr.md)                                             [Tutorial custom placing of windows and doors/fr](Tutorial_custom_placing_of_windows_and_doors/fr.md)
-  [Tutorial for open windows/fr](Tutorial_for_open_windows/fr.md)                                                                                     
-  ----------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+  [Tutorial for open windows/fr](Tutorial_for_open_windows/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/fr](<img src="images/Property.png" style="width:16px"> User_Documentation/fr.md) [<img src="images/Property.png" style="width:16px"> Workbenches/fr](<img src="images/Property.png" style="width:16px"> Workbenches/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Draft/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/fr

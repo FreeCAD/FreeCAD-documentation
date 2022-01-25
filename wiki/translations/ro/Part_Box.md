@@ -104,5 +104,7 @@ Puteți schimba amplasamentul cu:
 box.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/ro

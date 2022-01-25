@@ -28,5 +28,7 @@ This tool toggles the visibility of linear (red) and angular (blue) measurements
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3d/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3d/ru

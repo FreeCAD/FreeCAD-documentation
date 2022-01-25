@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to Sketcher
 
 ### Contents:
 
-  ----------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+    
   [Sketcher CompCreateArc/sv](Sketcher_CompCreateArc/sv.md)             [Sketcher ConstrainAngle/sv](Sketcher_ConstrainAngle/sv.md)                   [Sketcher ConstrainCoincident/sv](Sketcher_ConstrainCoincident/sv.md)
   [Sketcher ConstrainDistance/sv](Sketcher_ConstrainDistance/sv.md)     [Sketcher ConstrainDistanceX/sv](Sketcher_ConstrainDistanceX/sv.md)           [Sketcher ConstrainDistanceY/sv](Sketcher_ConstrainDistanceY/sv.md)
   [Sketcher ConstrainEqual/sv](Sketcher_ConstrainEqual/sv.md)           [Sketcher ConstrainHorizontal/sv](Sketcher_ConstrainHorizontal/sv.md)         [Sketcher ConstrainLock/sv](Sketcher_ConstrainLock/sv.md)
@@ -14,8 +14,9 @@ This category includes FreeCAD pages related to Sketcher
   [Sketcher CreateRectangle/sv](Sketcher_CreateRectangle/sv.md)         [Sketcher External/sv](Sketcher_External/sv.md)                               [Sketcher LeaveSketch/sv](Sketcher_LeaveSketch/sv.md)
   [Sketcher MapSketch/sv](Sketcher_MapSketch/sv.md)                     [Sketcher NewSketch/sv](Sketcher_NewSketch/sv.md)                             [Sketcher ReorientSketch/sv](Sketcher_ReorientSketch/sv.md)
   [Sketcher ToggleConstruction/sv](Sketcher_ToggleConstruction/sv.md)   [Sketcher Trimming/sv](Sketcher_Trimming/sv.md)                               [Sketcher ValidateSketch/sv](Sketcher_ValidateSketch/sv.md)
-  [Sketcher ViewSketch/sv](Sketcher_ViewSketch/sv.md)                   [Sketcher Workbench/sv](Sketcher_Workbench/sv.md)                             
-  ----------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+  [Sketcher ViewSketch/sv](Sketcher_ViewSketch/sv.md)                   [Sketcher Workbench/sv](Sketcher_Workbench/sv.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:Sketcher/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sketcher/sv

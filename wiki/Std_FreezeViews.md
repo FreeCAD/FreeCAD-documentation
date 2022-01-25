@@ -88,5 +88,7 @@ For each frozen view a **Restore view** option is added with which it can be res
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std FreezeViews
+![](images/Right_arrow.png) [documentation index](../README.md) > Std FreezeViews

@@ -71,8 +71,5 @@ FreeCAD由整个社区热心开发人员及用户开发及维护（请看[贡献
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
-
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/zh-cn

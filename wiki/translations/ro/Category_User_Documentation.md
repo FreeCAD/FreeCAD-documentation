@@ -1,7 +1,7 @@
 # Category:User Documentation/ro
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+    
   [Template:GuiCommandAddon/ro](Template:GuiCommandAddon/ro.md)                                       [3Dconnexion input devices/ro](3Dconnexion_input_devices/ro.md)                           [About FreeCAD/ro](About_FreeCAD/ro.md)
   [Add FEM Constraint Tutorial/ro](Add_FEM_Constraint_Tutorial/ro.md)                                 [Add FEM Equation Tutorial/ro](Add_FEM_Equation_Tutorial/ro.md)                           [Aeroplane/ro](Aeroplane/ro.md)
   [Arch 3Views/ro](Arch_3Views/ro.md)                                                                 [Arch Add/ro](Arch_Add/ro.md)                                                             [Arch API/ro](Arch_API/ro.md)
@@ -168,10 +168,9 @@
   [Sketcher ConstrainInternalAlignment/ro](Sketcher_ConstrainInternalAlignment/ro.md)                 [Sketcher ConstrainLock/ro](Sketcher_ConstrainLock/ro.md)                                 [Sketcher ConstrainParallel/ro](Sketcher_ConstrainParallel/ro.md)
   [Sketcher ConstrainPointOnObject/ro](Sketcher_ConstrainPointOnObject/ro.md)                         [Sketcher ConstrainRadius/ro](Sketcher_ConstrainRadius/ro.md)                             [Sketcher ConstrainSymmetric/ro](Sketcher_ConstrainSymmetric/ro.md)
   [Sketcher ConstrainTangent/ro](Sketcher_ConstrainTangent/ro.md)                                     [Sketcher ConstrainVertical/ro](Sketcher_ConstrainVertical/ro.md)                         [Sketcher Copy/ro](Sketcher_Copy/ro.md)
-  [Sketcher Create3PointArc/ro](Sketcher_Create3PointArc/ro.md)                                       [Sketcher Create3PointCircle/ro](Sketcher_Create3PointCircle/ro.md)                       
-  ----------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+  [Sketcher Create3PointArc/ro](Sketcher_Create3PointArc/ro.md)                                       [Sketcher Create3PointCircle/ro](Sketcher_Create3PointCircle/ro.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/ro](<img src="images/Property.png" style="width:16px"> Documentation/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/ro

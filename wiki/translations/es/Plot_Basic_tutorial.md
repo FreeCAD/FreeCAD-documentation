@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/es
+   Topic:Plot Workbench
+   Level:Beginner
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Plot Basic tutorial/es
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/es
-|Topic=Plot Workbench
-|Level=Beginner
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -388,9 +394,9 @@ También puede seleccionar el tamaño de la imagen de salida en pulgadas, por ej
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
+}} {{Plot_Tools_navi}}
 
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Basic tutorial/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Basic tutorial/es

@@ -25,5 +25,7 @@ Polecenie **Pasek stanu** przełącza wyświetlanie [Paska stanu](Status_bar/pl.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewStatusBar/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewStatusBar/pl

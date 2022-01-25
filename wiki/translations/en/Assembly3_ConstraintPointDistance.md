@@ -20,5 +20,7 @@ It can handle 3D point elements as well as 2D point elements within a work plane
 2.  Select one point element of each object
 3.  Press the **<img src="images/Assembly_ConstraintPointDistance.svg" width=16px> [Point distance](Assembly3_ConstraintPointDistance.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointDistance/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointDistance/en

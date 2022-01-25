@@ -68,5 +68,7 @@ Eskiz [Yerleştirme](Placement/tr.md) kullanılarak 3D alanda hareket ettirilebi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/tr

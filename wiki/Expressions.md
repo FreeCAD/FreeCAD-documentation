@@ -33,7 +33,7 @@ For more information about referencing objects, see [Reference to CAD\_data](#Re
 The following constants are supported:
 
   Constant   Description
-  ---------- ----------------------------------------------------------------------------
+   
   **e**      [Euler\'s number](https://en.wikipedia.org/wiki/E_(mathematical_constant))
   **pi**     [Pi](https://en.wikipedia.org/wiki/Pi)
 
@@ -42,7 +42,7 @@ The following constants are supported:
 The following operators are supported:
 
   Operator   Description
-  ---------- ---------------------------------------------------------------------------------
+   
   **+**      [Addition](https://en.wikipedia.org/wiki/Addition)
   **-**      [Subtraction](https://en.wikipedia.org/wiki/Subtraction)
   **\***     [Multiplication](https://en.wikipedia.org/wiki/Multiplication)
@@ -60,7 +60,7 @@ The mathematical functions listed below are available.
 These trigonometric functions are supported:
 
   Function      Description                                                                                                          Value range
-  ------------- -------------------------------------------------------------------------------------------------------------------- -----------------------------------------------
+    
   acos(x)       [Arc cosine](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                         -1 \<= x \<= 1
   asin(x)       [Arc sine](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                           -1 \<= x \<= 1
   atan(x)       [Arc tangent](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                        all
@@ -77,7 +77,7 @@ These trigonometric functions are supported:
 These functions for exponentiation and logarithmization are supported:
 
   Function    Description                                                                                    Value range
-  ----------- ---------------------------------------------------------------------------------------------- -------------
+    
   exp(x)      [Exponential function](https://en.wikipedia.org/wiki/Exponential_function#Formal_definition)   all
   log(x)      [Natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm)                           x \> 0
   log10(x)    [Common logarithm](https://en.wikipedia.org/wiki/Common_logarithm)                             x \> 0
@@ -87,7 +87,7 @@ These functions for exponentiation and logarithmization are supported:
 These functions for rounding, truncation and remainder are supported:
 
   Function    Description                                                                                                                        Value range
-  ----------- ---------------------------------------------------------------------------------------------------------------------------------- -------------------
+    
   abs(x)      [Absolute value](https://en.wikipedia.org/wiki/Absolute_value)                                                                     all
   ceil(x)     [Ceiling function](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions), smallest integer value greater than or equal to x   all
   floor(x)    [Floor function](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions), largest integer value less than or equal to x         all
@@ -103,7 +103,7 @@ Individual arguments to aggregate functions may consist of ranges of cells. A ra
 These aggregate functions are supported:
 
   Function                 Description                                                                                                                          Value range
-  ------------------------ ------------------------------------------------------------------------------------------------------------------------------------ -------------
+    
   average(a; b; c; \...)   [Average](https://en.wikipedia.org/wiki/Arithmetic_mean) value of the arguments; same as sum(a; b; c; \...) / count(a; b; c; \...)   all
   count(a; b; c; \...)     [Count](https://en.wikipedia.org/wiki/Counting) of the arguments; typically used for cell ranges                                     all
   max(a; b; c; \...)       [Maximum](https://en.wikipedia.org/wiki/Maxima_and_minima) value of the arguments                                                    all
@@ -192,29 +192,29 @@ When `create` is passed `<<placement>>` as the 1st argument, there are five ways
 
 These possible combinations are documented in the below table and are based on the [Placement API](Placement_API.md) page.
 
-+---------------------+----------------------------------------------------------+
++++
 | Number of arguments | Description                                              |
 +=====================+==========================================================+
 | 2                   |                                           |
 |                     | `create(<<placement>>; Placement)`              |
 |                     |                                                       |
-+---------------------+----------------------------------------------------------+
++++
 | 2                   |                                           |
 |                     | `create(<<placement>>; Matrix)`                 |
 |                     |                                                       |
-+---------------------+----------------------------------------------------------+
++++
 | 3                   |                                           |
 |                     | `create(<<placement>>; Base; Rotation)`         |
 |                     |                                                       |
-+---------------------+----------------------------------------------------------+
++++
 | 4                   |                                           |
 |                     | `create(<<placement>>; Base; Rotation; Center)` |
 |                     |                                                       |
-+---------------------+----------------------------------------------------------+
++++
 | 4                   |                                           |
 |                     | `create(<<placement>>; Base; Axis; Angle)`      |
 |                     |                                                       |
-+---------------------+----------------------------------------------------------+
++++
 
 The following example shows the syntax for creating a `Placement` from a `Base` (vector) and a `Rotation`:
 
@@ -265,7 +265,7 @@ Conditional expressions are of the form `condition ? resultTrue : resultFalse`. 
 The following [relational operators](https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators) are defined:
 
   Unit      Description
-  --------- --------------------------
+   
   **==**    equal to
   **!=**    not equal to
   **\>**    greater than
@@ -289,13 +289,13 @@ The following units are recognized by the expression parser:
 Amount of substance:
 
   Unit   Description
-  ------ ---------------------------------------------------
+   
   mol    [Mole](https://en.wikipedia.org/wiki/Mole_(unit))
 
 Angle:
 
   Unit   Description
-  ------ ----------------------------------------------------------------------------------------------------
+   
   °      [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternative to the unit deg
   deg    [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternative to the unit °
   rad    [Radian](https://en.wikipedia.org/wiki/Radian)
@@ -308,7 +308,7 @@ Angle:
 Current:
 
   Unit   Description
-  ------ -----------------------------------------------------
+   
   mA     Milli[ampere](https://en.wikipedia.org/wiki/Ampere)
   A      [Ampere](https://en.wikipedia.org/wiki/Ampere)
   kA     Kilo[ampere](https://en.wikipedia.org/wiki/Ampere)
@@ -317,7 +317,7 @@ Current:
 Energy/work:
 
   Unit   Description
-  ------ -----------------------------------------------------------------------------------------------
+   
   J      [Joule](https://en.wikipedia.org/wiki/Joule)
   Ws     [Watt second](https://en.wikipedia.org/wiki/Joule#Watt_second); alternative to the unit Joule
   VAs    [Volt-ampere-second](https://en.wikipedia.org/wiki/Joule); alternative to the unit Joule
@@ -326,7 +326,7 @@ Energy/work:
 Force:
 
   Unit   Description
-  ------ ---------------------------------------------------------------
+   
   mN     Milli[newton](https://en.wikipedia.org/wiki/Newton_(unit))
   N      [Newton](https://en.wikipedia.org/wiki/Newton_(unit))
   kN     Kilo[newton](https://en.wikipedia.org/wiki/Newton_(unit))
@@ -336,7 +336,7 @@ Force:
 Length:
 
   Unit   Description
-  ------ ------------------------------------------------------------------------------------------------------------
+   
   nm     Nano[meter](https://en.wikipedia.org/wiki/Metre)
   um     Micro[meter](https://en.wikipedia.org/wiki/Metre); alternative to the unit µm
   µm     Micro[meter](https://en.wikipedia.org/wiki/Metre); alternative to the unit um
@@ -357,13 +357,13 @@ Length:
 Luminous intensity:
 
   Unit   Description
-  ------ --------------------------------------------------
+   
   cd     [Candela](https://en.wikipedia.org/wiki/Candela)
 
 Mass:
 
   Unit   Description
-  ------ ----------------------------------------------------------------------------------
+   
   ug     Micro[gram](https://en.wikipedia.org/wiki/Gram); alternative to the unit µg
   µg     Micro[gram](https://en.wikipedia.org/wiki/Gram); alternative to the unit ug
   mg     Milli[gram](https://en.wikipedia.org/wiki/Gram)
@@ -379,14 +379,14 @@ Mass:
 Power:
 
   Unit   Description
-  ------ ----------------------------------------------------------
+   
   W      [Watt](https://en.wikipedia.org/wiki/Watt)
   VA     [Volt-ampere](https://en.wikipedia.org/wiki/Volt-ampere)
 
 Pressure:
 
   Unit    Description
-  ------- --------------------------------------------------------------------------------------------------------
+   
   Pa      [Pascal](https://en.wikipedia.org/wiki/Pascal_(unit))
   kPa     Kilo[pascal](https://en.wikipedia.org/wiki/Pascal_(unit))
   MPa     Mega[pascal](https://en.wikipedia.org/wiki/Pascal_(unit))
@@ -401,7 +401,7 @@ Pressure:
 Temperature:
 
   Unit   Description
-  ------ ---------------------------------------------------------------------------------
+   
   uK     Micro[kelvin](https://en.wikipedia.org/wiki/Kelvin); alternative to the unit µK
   µK     Micro[kelvin](https://en.wikipedia.org/wiki/Kelvin); alternative to the unit uK
   mK     Milli[kelvin](https://en.wikipedia.org/wiki/Kelvin)
@@ -410,7 +410,7 @@ Temperature:
 Time:
 
   Unit   Description
-  ------ ------------------------------------------------
+   
   s      [Second](https://en.wikipedia.org/wiki/Second)
   min    [Minute](https://en.wikipedia.org/wiki/Minute)
   h      [Hour](https://en.wikipedia.org/wiki/Hour)
@@ -418,13 +418,13 @@ Time:
 Volume:
 
   Unit   Description
-  ------ ----------------------------------------------
+   
   l      [Liter](https://en.wikipedia.org/wiki/Litre)
 
 The following commonly used units are not yet supported:
 
   Unit   Description                                                                                              Alternative
-  ------ -------------------------------------------------------------------------------------------------------- --------------------------
+    
   °C     [Celsius](https://en.wikipedia.org/wiki/Celsius)                                                         \[°C\] + 273.15 K
   °F     [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit);                                                  (\[°F\] + 459.67) × ​5/9
   u      [Atomic mass unit](https://en.wikipedia.org/wiki/Unified_atomic_mass_unit); alternative to the unit Da   1.66053906660e-27 kg
@@ -444,14 +444,14 @@ In cases where you cannot use a label, such as the name of a sketch\'s constrain
 
 For [labels](Object_name#Label.md) there are no invalid characters, however some characters need to be escaped:
 
-+----------------------------------------------------------+---------------------------------------------------------------------------+
++++
 | Characters                                               | Description                                                               |
 +==========================================================+===========================================================================+
 |                                           | Need to be escaped by adding `\` in front of them. |
 | `'`                                             |                                                                           |
 |                                                       |                                                                           |
 | , `\`, `"` |                                                                           |
-+----------------------------------------------------------+---------------------------------------------------------------------------+
++++
 
 For example, the label `Sketch\002` must be referenced as `<<Sketch\\002>>`.
 
@@ -460,7 +460,7 @@ For example, the label `Sketch\002` must be referenced as `<<Sketch\\002>>`.
 [Names](Object_name#Name.md) of objects like dimensions, sketches, etc. may not have the characters or character sequences listed below, otherwise the name is invalid:
 
   Characters / Character sequences                                                                                                              Description
-  --------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------
+   
   **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**                  Characters that are math operators or part of mathematical constructs
   **A**, **kA**, **mA**, **MA**, **C**, **G**, **F**, **uF**, **µF**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°**, and many more!   Characters and character sequences that are [units](Expressions#Units.md)
   **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **:**, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, and many more!                         Characters used as placeholder or to trigger special operations
@@ -482,45 +482,45 @@ It is possible to use data from the model itself in an expression. To reference 
 
 The following table shows some examples:
 
-+--------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | CAD data                                   | Call in expression                    | Result                                                                                                                                                                       |
 +============================================+=======================================+==============================================================================================================================================================================+
 | Parametric Length of a Part-Workbench Cube |                        | Length with units mm                                                                                                                                                         |
 |                                            | `Cube.Length`                |                                                                                                                                                                              |
 |                                            |                                    |                                                                                                                                                                              |
-+--------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Volume of the Cube                         |                        | Volume in mm³ without units                                                                                                                                                  |
 |                                            | `Cube.Shape.Volume`          |                                                                                                                                                                              |
 |                                            |                                    |                                                                                                                                                                              |
-+--------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Type of the Cube-shape                     |                        | String: Solid                                                                                                                                                                |
 |                                            | `Cube.Shape.ShapeType`       |                                                                                                                                                                              |
 |                                            |                                    |                                                                                                                                                                              |
-+--------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Label of the Cube                          |                        | String: Label                                                                                                                                                                |
 |                                            | `Cube.Label`                 |                                                                                                                                                                              |
 |                                            |                                    |                                                                                                                                                                              |
-+--------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | x-coordinate of center of mass of the Cube |                        | x-coordinate in mm without units                                                                                                                                             |
 |                                            | `Cube.Shape.CenterOfMass.x`  |                                                                                                                                                                              |
 |                                            |                                    |                                                                                                                                                                              |
-+--------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Value of constraint in a sketch            |                        | Numeric value of the named constraint `Width` in the sketch, if the expression is used in the sketch itself.                                          |
 |                                            | `Constraints.Width`          |                                                                                                                                                                              |
 |                                            |                                    |                                                                                                                                                                              |
-+--------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Value of constraint in a sketch            |                        | Numeric value of the named constraint `Width` in the sketch, if the expression is used outside of the sketch.                                         |
 |                                            | `MySketch.Constraints.Width` |                                                                                                                                                                              |
 |                                            |                                    |                                                                                                                                                                              |
-+--------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Value of a spreadsheet alias               |                        | Value of the alias `Depth` in the spreadsheet `Spreadsheet`                                                                    |
 |                                            | `Spreadsheet.Depth`          |                                                                                                                                                                              |
 |                                            |                                    |                                                                                                                                                                              |
-+--------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Value of a local property                  |                        | Value of the **Length** property in e.g a Pad object, if the expression is used in e.g **Length2** in the same object. |
 |                                            | `Length`                     |                                                                                                                                                                              |
 |                                            |                                    |                                                                                                                                                                              |
-+--------------------------------------------+---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 
 ## Document-wide global variables 
 
@@ -550,9 +550,7 @@ Of course, it\'s up to you to load the corresponding documents later when you wa
 -   FreeCAD does not yet have a built-in expression manager where all expressions in a document are listed, and can be created, deleted, queried, etc. But an addon is available: [fcxref expression manager](https://github.com/gbroques/fcxref).
 -   Open bugs/tickets for Expressions can be found in the [FreeCAD Bugtracker Expressions category](https://freecadweb.org/tracker/set_project.php?project_id=4;20)
 
- {{Powerdocnavi}}
 
-[<img src="images/Property.png" style="width:16px"> Spreadsheet](Category_Spreadsheet.md)
 
 ---
-[documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions

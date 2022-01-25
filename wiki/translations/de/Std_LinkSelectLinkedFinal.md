@@ -29,5 +29,7 @@ Der Befehl **Std ZumLetztenVerknüpftenObjektGehen** wählt die {{PropertyData/d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkSelectLinkedFinal/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectLinkedFinal/de

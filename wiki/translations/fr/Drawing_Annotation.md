@@ -46,5 +46,7 @@ Cette commande vous permet de placer un bloc de texte sur une [Feuille A3 paysag
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/fr

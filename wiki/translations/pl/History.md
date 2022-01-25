@@ -99,7 +99,7 @@ W kwietniu 2019 roku zespół core developerów został powiększony: Jürgen, W
 #### Przegląd
 
   Version   Nazwa wydania   Data ogłoszenia   Uwagi                                                           Commit wydania                                                                            Gałąź wydania
-  --------- --------------- ----------------- --------------------------------------------------------------- ----------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+       
   0.20      ?               w opracowaniu     [Informacje o wydaniu 0.20](Release_notes_0.20.md)      [head master](https://github.com/FreeCAD/FreeCAD/commits/master)                          
   0.19      ?               w opracowaniu     [Informacje o wydaniu 0.19](Release_notes_0.19/pl.md)   [head master](https://github.com/FreeCAD/FreeCAD/commits/master)                          
   0.18      \-              2019-03-12        [Informacje o wydaniu 0.18](Release_notes_0.18/pl.md)   [release commit 0.18](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18)   [branch bugfixes 0.18](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
@@ -125,7 +125,7 @@ W kwietniu 2019 roku zespół core developerów został powiększony: Jürgen, W
 #### Legenda
 
   Kolor   Version Type
-  ------- -------------------------------
+   
           Przyszłe wydanie
           Najnowsza wersja podglądowa
           **Bieżąca wersja**
@@ -139,7 +139,7 @@ W kwietniu 2019 roku zespół core developerów został powiększony: Jürgen, W
 -   [Sekcja starych plików SourceForge](http://sourceforge.net/projects/free-cad/files/OldFiles/)
 -   [Ogłoszenie projektu FreeCAD](http://www.opencascade.org/org/forum/thread_6572/?forum=11) na forum OpenCascade
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > History/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > History/pl

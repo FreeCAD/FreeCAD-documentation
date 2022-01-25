@@ -50,5 +50,7 @@ FreeCAD.ActiveDocument.redo()
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std Redo
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Redo

@@ -157,7 +157,7 @@ Das [WorkFeature Macro](https://github.com/Rentlau/WorkFeature) fügt ein breite
 
 <img alt="" src=images/WF.png  style="width:640px;">
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.15/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.15/de

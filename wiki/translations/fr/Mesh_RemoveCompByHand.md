@@ -34,5 +34,7 @@ La commande **Mesh Suppression manuelle de composants** supprime des composants 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/fr

@@ -5,7 +5,7 @@ Cette catégorie recense les pages d\'aide de chaque commande de FreeCAD [Comman
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+    
   [Arch 3Views/fr](Arch_3Views/fr.md)                                                                             [Arch Add/fr](Arch_Add/fr.md)                                                                     [Arch Axis/fr](Arch_Axis/fr.md)
   [Arch AxisSystem/fr](Arch_AxisSystem/fr.md)                                                                     [Arch Building/fr](Arch_Building/fr.md)                                                           [Arch BuildingPart/fr](Arch_BuildingPart/fr.md)
   [Arch Check/fr](Arch_Check/fr.md)                                                                               [Arch CloneComponent/fr](Arch_CloneComponent/fr.md)                                               [Arch CloseHoles/fr](Arch_CloseHoles/fr.md)
@@ -172,10 +172,9 @@ Cette catégorie recense les pages d\'aide de chaque commande de FreeCAD [Comman
   [Part ShapeFromMesh/fr](Part_ShapeFromMesh/fr.md)                                                               [Part SimpleCopy/fr](Part_SimpleCopy/fr.md)                                                       [Part Slice/fr](Part_Slice/fr.md)
   [Part SliceApart/fr](Part_SliceApart/fr.md)                                                                     [Part Sphere/fr](Part_Sphere/fr.md)                                                               [Part Spiral/fr](Part_Spiral/fr.md)
   [Part Sweep/fr](Part_Sweep/fr.md)                                                                               [Part Thickness/fr](Part_Thickness/fr.md)                                                         [Part Torus/fr](Part_Torus/fr.md)
-  [Part TransformedCopy/fr](Part_TransformedCopy/fr.md)                                                           [Part Tube/fr](Part_Tube/fr.md)                                                                   
-  ----------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+  [Part TransformedCopy/fr](Part_TransformedCopy/fr.md)                                                           [Part Tube/fr](Part_Tube/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/fr](<img src="images/Property.png" style="width:16px"> Categories/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/fr

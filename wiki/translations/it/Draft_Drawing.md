@@ -63,5 +63,7 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Drawing/it

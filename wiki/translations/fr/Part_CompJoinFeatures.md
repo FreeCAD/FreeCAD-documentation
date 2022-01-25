@@ -26,5 +26,7 @@ Cette commande est un bouton de la barre d\'outils déroulante contenant tous le
 <img alt="" src=images/JoinFeatures_demo.png  style="width:668px;"> 
 *Ci-dessus : montrant le résultat de chaque outil disponible*
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/fr

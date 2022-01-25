@@ -94,17 +94,22 @@ Typical Configuration Sections include:
 
 The **Edit** → **Preferences...** → **Path** → **Job Preferences tab** → **Defaults** → **Path** is used to set the default Postprocessor selected on Job creation. This allows Path workbench to be configured to only display desired Postprocessors, and to set a default.
 
-Included Postprocessors are saved in the **FreeCAD.Mod.Path.Pathscripts.Post** by default:
+Included Postprocessors are saved in the **FreeCAD/Mod/Path/Pathscripts/Post** by default:
 
 -   centroid
 -   comparams
+-   dxf
 -   dynapath
 -   grbl, including support for bCNC header blocks using Job output argument \--bcnc
+-   jtech (laser)
 -   [linuxcnc](http://linuxcnc.org/docs/html/gcode/g-code.html#gcode:g17-g19.1)
+-   mach3\_mach4
+-   nccad
 -   opensbp
 -   phillips
 -   rml
 -   smoothie
+-   uccnc
 
 ## Limitations
 
@@ -115,5 +120,7 @@ Included Postprocessors are saved in the **FreeCAD.Mod.Path.Pathscripts.Post** b
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post

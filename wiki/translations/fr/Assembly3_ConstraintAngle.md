@@ -24,5 +24,7 @@ La contrainte accepte les bords droits et les faces planes.
 2.  Sélectionnez un élément de bord droit ou un élément de face plane de chaque objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintAngle.svg" width=16px> [Angle](Assembly3_ConstraintAngle/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintAngle/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAngle/fr

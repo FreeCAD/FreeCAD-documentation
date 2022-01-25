@@ -12,9 +12,6 @@ There are two tabs: General settings, and Defaults.
 ![](images/Preference_Arch_Tab_02.png )
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
-[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Arch](Arch_Workbench.md) > Arch Preferences/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Arch](Arch_Workbench.md) > Arch Preferences/hr

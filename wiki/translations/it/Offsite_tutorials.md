@@ -23,9 +23,6 @@ Questa pagina elenca i tutorial per FreeCAD disponibili su altri siti web.
     -   5 - camshaft gear : <http://freecad-tutorial.blogspot.com/2011/10/engine-5-camshaft-gear.html>
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Offsite tutorials/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Offsite tutorials/it

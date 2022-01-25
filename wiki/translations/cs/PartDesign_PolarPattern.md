@@ -163,5 +163,7 @@ Určuje úhel, který má být vzorky pokryt a celkový počet vzorků (včetně
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/cs

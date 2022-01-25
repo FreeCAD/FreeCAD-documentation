@@ -1,12 +1,21 @@
+---
+- TutorialInfo:/fr
+   Topic:Scripting
+   Level:Base
+   Time:
+   Author:onekk Carlo
+   FCVersion:0.19
+   Files:
+---
+
 # Scripts/fr
-{{TutorialInfo/fr
-|Topic=Scripting
-|Level=Base
-|Time=
-|Author=onekk Carlo
-|FCVersion=0.19
-|Files=
-}}
+
+
+
+
+
+
+
 
 ## Introduction
 
@@ -14,7 +23,7 @@ Avec Scripting, nous entendons créer des objets topologiques à l\'aide de l\'i
 
 Malheureusement, les informations sur les scripts dans la documentation, et même dans ce wiki sont éparpillées et manquent d\'uniformité \"d\'écriture\" et la plupart d\'entre elles sont expliquées d\'une manière trop technique.
 
-## Vous ouvrir l\'appétit 
+## Mise en appétit 
 
 Le premier obstacle d\'une manière simple à la création de scripts est qu\'il n\'y a pas de moyen direct d\'accéder à l\'éditeur Python interne de FreeCAD via un élément de menu ou une icône dans la zone de la barre d\'outils, mais sachant que FreeCAD ouvre un fichier avec un `.py ` dans l\'éditeur Python interne, l\'astuce la plus simple est de créer dans votre éditeur de texte préféré, puis de l\'ouvrir avec la commande habituelle **Fichier → Ouvrir**.
 
@@ -191,7 +200,7 @@ FreeCAD.Placement(Vector(0,0,0), FreeCAD.Rotation(10,20,30), Vector(0,0,0))
 Mais par rapport à d\'autres considérations, une chose est cruciale, la géométrie **point de référence**, c\'est-à-dire le point à partir duquel l\'objet est modélisé par FreeCAD, comme décrit dans ce tableau, copié de [Placement](Placement/fr.md):
 
   Objet                             Point de référence
-  --------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                          gauche (minx), avant (miny), bas (minz) sommet
   Part.Sphere                       centre de la sphère (c\'est-à-dire centre de la boîte englobante)
   Part.Cylinder                     centre de la face inférieure
@@ -267,9 +276,9 @@ Expliquons quelque chose dans le code:
 -   Nous avons défini un objet complexe **aeroplano** (mot italien pour avion) mais nous l\'avons fait de manière **\"paramétrique\"** en définissant certains paramètres et en dérivant d\'autres paramètres, grâce à des calculs , basé sur les principaux paramètres.
 -   Nous avons utilisé des propriétés de placement `Placement` dans la méthode et avant de renvoyer les géométries finales, nous avons utilisé une propriété `Rotation` avec l\'écriture *Yaw-Pitch-Roll*. Notez le dernier `Vector(0,0, pos_ali)` qui définit un **centre de rotation** de toute la géométrie.
 
-  ----------------------------------------------------- ---------------------------------------------- ----------------------------------------------------
+    
   ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
-  ----------------------------------------------------- ---------------------------------------------- ----------------------------------------------------
+    
 
 On peut facilement remarquer que la géométrie **aeroplano** tourne autour de son \"barycentre\" ou \"centre de gravité\", que j\'ai fixé au centre de l\'aile, un endroit relativement \"naturel\", mais qui pourrait être placé n\'importe où vous voulez.
 
@@ -308,13 +317,5 @@ C\'est le sens du mot \"maladroit\" que j\'ai utilisé pour définir la proprié
 
 
 
-
-
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripts/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripts/fr

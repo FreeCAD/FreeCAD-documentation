@@ -134,9 +134,6 @@ Sperăm că acest lucru devine adevărat pentru toți GuiCommands din[List of Co
 </div>
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > Gui Command/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/ro

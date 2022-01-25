@@ -53,7 +53,7 @@ A common usage for the helix primitive is for [creating screw threads](Thread_fo
 
 Once you have created the helix you have the possibility to edit its parameters.
 
-+----------------------------------------------------------+----------------------------------------------------------------------------------+
++++
 | ![](images/PartHelixProperty_en.png ) | The parameters in this menu are similar to those described above.                |
 |                                                          | **Base**                                                       |
 |                                                          | \* {{Parameter|Placement:}} allows you to move or rotate the helix |
@@ -61,7 +61,9 @@ Once you have created the helix you have the possibility to edit its parameters.
 |                                                          | -                                                                 |
 |                                                          |     {{Parameter|Angle:}}                                                         |
 |                                                          |                                                                               |
-+----------------------------------------------------------+----------------------------------------------------------------------------------+
++++
+
+
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix

@@ -39,5 +39,7 @@ El componente de clonación simplemente tendrá su propiedad **CloneOf** estable
 
 ## Scripting
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/es

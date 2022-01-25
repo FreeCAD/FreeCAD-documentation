@@ -300,5 +300,7 @@ The page discussion [FreeCad Python assembly animation](http://forum.freecadweb.
 
 [See the animation on YouTube.](http://youtu.be/5Ik2Bh4wXYg)
 
+
+
 ---
-[documentation index](../README.md) > Macro Assembly
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Assembly

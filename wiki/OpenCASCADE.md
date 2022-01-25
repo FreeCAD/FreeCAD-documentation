@@ -79,9 +79,7 @@ Thus, out of shapes you can build very complex parts or, the other way round, ex
 -   Glossary, [Open CASCADE](Glossary#Open_CASCADE.md)
 -   Tracking OCCT bugs in the FreeCAD bugtracker [(thread)](https://forum.freecadweb.org/viewtopic.php?f=10&t=20264)
 
- {{Powerdocnavi}} 
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > OpenCASCADE
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > OpenCASCADE

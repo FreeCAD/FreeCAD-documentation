@@ -5,7 +5,7 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+    
   [A2plus Workbench](A2plus_Workbench.md)                                     [Addon](Addon.md)                                                             [Animation Workbench](Animation_Workbench.md)
   [Assembly2 Workbench](Assembly2_Workbench.md)                               [Assembly3 Workbench](Assembly3_Workbench.md)                                 [Assembly4 Workbench](Assembly4_Workbench.md)
   [BIM Workbench](BIM_Workbench.md)                                           [BOLTSFC Workbench](BOLTSFC_Workbench.md)                                     [CadQuery Workbench](CadQuery_Workbench.md)
@@ -38,11 +38,9 @@ This page lists external addon workbenches that have a page in this wiki. Addons
   [SheetMetal Workbench](SheetMetal_Workbench.md)                             [Ship Workbench](Ship_Workbench.md)                                           [Silk Workbench](Silk_Workbench.md)
   [Stemfie Workbench](Stemfie_Workbench.md)                                   [Symbols Library Workbench](Symbols_Library_Workbench.md)                     [ThreadProfile Workbench](ThreadProfile_Workbench.md)
   [Timber Workbench](Timber_Workbench.md)                                     [WebTools Workbench](WebTools_Workbench.md)                                   [Wood Frame Workbench](Wood_Frame_Workbench.md)
-  [Workfeature Workbench](Workfeature_Workbench.md)                                                                                                                 
-                                                                                                                                                                            
-  ----------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+  [Workfeature Workbench](Workfeature_Workbench.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> FCGear](Category_FCGear.md) [<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md)
+
 
 ---
-[documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons
+![](images/Right_arrow.png) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons

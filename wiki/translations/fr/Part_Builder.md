@@ -72,5 +72,7 @@ Un flux de travail possible pourrait être:
 -   Créer une \"coque à partir de faces\"
 -   Créer un \"solide à partir d\'une coque\"
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/fr

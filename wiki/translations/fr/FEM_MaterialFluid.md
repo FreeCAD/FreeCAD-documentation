@@ -38,5 +38,7 @@ Ajoute des propriétés fluides à une pièce.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM MaterialFluid/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialFluid/fr

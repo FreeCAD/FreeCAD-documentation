@@ -116,5 +116,7 @@ Strona [skrypty szkicownika](Sketcher_scripting.md) wyjaśnia wartości, które 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainPerpendicular/pl

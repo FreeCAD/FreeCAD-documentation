@@ -68,5 +68,7 @@ The properties can be changed later in the **Combined View → Data**, after sel
 
 You have the standard properties view.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/ro

@@ -45,9 +45,9 @@ Please note that assembly workbenches are generally incompatible with each other
 
 The assembly workbenches continue development, and it is expected that at some point one assembly workbench will emerge as the \"official\" one. This could happen by promoting one of the current assembly workbenches, or by combining them to produce a more complete solution.
 
- {{Std Base navi}} {{Document objects navi}} 
+ {{Std Base navi}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly

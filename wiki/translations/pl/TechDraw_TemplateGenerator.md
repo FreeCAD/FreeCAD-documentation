@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/pl
+   Topic:Generator szablonów - makrodefinicja Python
+   Level:Podstawowa znajomość środowiska Python i struktur svg jest przydatna
+   FCVersion:0.19.1 i nowszy
+   Time:''(Jeszcze nie wiem)''
+   Author:[FBXL5](User_FBXL5.md)
+---
+
 # TechDraw TemplateGenerator/pl
-{{TutorialInfo/pl
-|Topic=Generator szablonów - makrodefinicja Python
-|Level=Podstawowa znajomość środowiska Python i struktur svg jest przydatna
-|FCVersion=0.19.1 i nowszy
-|Time=''(Jeszcze nie wiem)''
-|Author=[FBXL5](User_FBXL5.md)
-}}
+
+
+
+
 
 ## Wprowadzenie
 
@@ -520,5 +526,7 @@ And what it should look like when inserted (plus magnified title block):
 
 ![TechDraw TemplateGenerator.png](images/TechDraw_TemplateGenerator.png )
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/pl

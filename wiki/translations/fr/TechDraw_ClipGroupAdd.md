@@ -28,5 +28,7 @@ Cet outil ajoute une vue à une fenêtre de rognage existante.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd/fr

@@ -20,9 +20,9 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> PartDesign](Category_PartDesign.md)
+
 
 ---
-[documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/pl

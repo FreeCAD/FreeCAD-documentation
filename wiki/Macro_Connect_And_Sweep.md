@@ -229,5 +229,7 @@ This macro is based to the microelly2 code see [Looking for some helpful GUI-com
 
 Other forum discussion [Macro\_Connect\_And\_Sweep](https://forum.freecadweb.org/viewtopic.php?f=22&t=35432)
 
+
+
 ---
-[documentation index](../README.md) > Macro Connect And Sweep
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Connect And Sweep

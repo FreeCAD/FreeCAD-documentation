@@ -393,9 +393,9 @@ While you work on your own branch, the official FreeCAD code keeps \"moving forw
 
 
 
-          .-----A origin/myNewBranch
+          .A origin/myNewBranch
          / 
-    -----o-----------Z FreeCAD upstream/master
+    oZ FreeCAD upstream/master
 
 
 
@@ -411,9 +411,9 @@ This will download the code from the `master` branch of the `upstream` repositor
 
 
 
-                      .-----A' origin/myNewBranch
+                      .A' origin/myNewBranch
                      /
-    -----o-----------Z FreeCAD upstream/master
+    oZ FreeCAD upstream/master
 
 
 
@@ -464,7 +464,7 @@ GitHub will show you a text editor so you can write a message documenting your c
 
  
 ```python
-base repository: FreeCAD/FreeCAD    base: master  <----  head repository: GITHUB_USERNAME/FreeCAD    compare: myNewBranch
+base repository: FreeCAD/FreeCAD    base: master  <  head repository: GITHUB_USERNAME/FreeCAD    compare: myNewBranch
 
 Able to merge. These branches can be automatically merged.
 ```
@@ -505,7 +505,7 @@ If you wish, you may delete the branch that was just merged, or even your entire
 
  
 ```python
------o-----------Z----A' FreeCAD upstream/master
+oZA' FreeCAD upstream/master
 ```
 
 
@@ -517,9 +517,9 @@ The pull request interface can be used whenever you want to submit code from you
 
  
 ```python
-base repository: SomeProject/Some_Software  base: master       <----  head repository: GITHUB_USERNAME/Some_Software  compare: add_new_functions
-base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <----  head repository: FreeCAD/FreeCAD                compare: master
-base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <----  head repository: GITHUB_USERNAME/FreeCAD        compare: fix-many-bugs-branch
+base repository: SomeProject/Some_Software  base: master       <  head repository: GITHUB_USERNAME/Some_Software  compare: add_new_functions
+base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repository: FreeCAD/FreeCAD                compare: master
+base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repository: GITHUB_USERNAME/FreeCAD        compare: fix-many-bugs-branch
 ```
 
 ### Keeping the GitHub repository up to date 
@@ -1023,9 +1023,7 @@ Head to the development section of the [FreeCAD forum](https://forum.freecadweb.
 -   [Git Tutorial for Beginners: Command-Line Fundamentals](https://www.youtube.com/watch?v=HVsySz-h9r4), video by Corey Schafer.
 -   [Introduction to Git - Core Concepts](https://www.youtube.com/watch?v=uR6G2v_WsRA), video by David Mahler.
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management

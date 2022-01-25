@@ -43,5 +43,7 @@ The <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:24
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleSide/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleSide/ru

@@ -67,5 +67,7 @@ See also:
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > DAG view/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > DAG view/fr

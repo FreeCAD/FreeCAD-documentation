@@ -455,5 +455,7 @@ ver 0.5 le 08/05/2017 : upgrade adesso acceta gli elementi \"mesh\" e \"Points\"
 
 ver 0.4 il 04/06/2016 : testo se value = 0 allora non crea il boundbox (esempio: obietto Draft)
 
+
+
 ---
-[documentation index](../README.md) > Macro BoundingBox Tracing/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro BoundingBox Tracing/it

@@ -221,7 +221,7 @@ Freecad, как программа с открытыми исходниками,
 
 {{Userdocnavi/ru}}
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/ru](<img src="images/Property.png" style="width:16px"> User_Documentation/ru.md)
+
 
 ---
-[documentation index](../README.md) > Getting started/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/ru

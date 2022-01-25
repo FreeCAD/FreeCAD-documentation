@@ -33,5 +33,7 @@ Fenster im Hauptansichtsbereich sind auch im **Fenster**-Menü aufgeführt und k
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ActivatePrevWindow/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivatePrevWindow/de

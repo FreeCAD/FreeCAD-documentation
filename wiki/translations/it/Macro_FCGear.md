@@ -53,5 +53,7 @@ Note:
 -   [FCGear](https://github.com/looooo/FCGear)
 -   [Discussione nel Forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=12878&start=20)
 
+
+
 ---
-[documentation index](../README.md) > Macro FCGear/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCGear/it

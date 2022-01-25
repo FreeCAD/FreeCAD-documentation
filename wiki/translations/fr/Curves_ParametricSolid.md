@@ -39,9 +39,9 @@
 
 {{Curves Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
+
 
 ---
-[documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Curves ParametricSolid/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Curves](Category_Curves.md) > Curves ParametricSolid/fr

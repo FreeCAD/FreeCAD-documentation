@@ -66,5 +66,7 @@ Per essere disponibile, questo strumento richiede che FreeCAD sia basato su Open
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/it

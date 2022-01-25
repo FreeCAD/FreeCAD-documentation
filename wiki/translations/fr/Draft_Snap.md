@@ -83,5 +83,7 @@ Remarquez qu\'après avoir modifié certaines préférences, vous devez redémar
 -   La couleur des symboles d\'accrochage et les dimensions de [Draft Aimantation Dimensions](Draft_Snap_Dimensions/fr.md) peuvent être modifiées : **Edition → Préférences... → Draft → Paramètres visuels → Paramètres visuels → Couleur**.
 -   Les raccourcis clavier à un seul caractère mentionnés peuvent être modifiés : **Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Raccourcis des commandes**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/fr

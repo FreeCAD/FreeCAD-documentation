@@ -3,7 +3,7 @@ Pages relating to Architectural and Building Information Management
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------
+    
   [Arch 3DS/ru](Arch_3DS/ru.md)                                                                                 [Arch 3Views/ru](Arch_3Views/ru.md)                                                                     [Arch Add/ru](Arch_Add/ru.md)
   [Arch API/ru](Arch_API/ru.md)                                                                                 [Arch Axis/ru](Arch_Axis/ru.md)                                                                         [Arch AxisSystem/ru](Arch_AxisSystem/ru.md)
   [Arch Building/ru](Arch_Building/ru.md)                                                                       [Arch BuildingPart/ru](Arch_BuildingPart/ru.md)                                                         [Arch Check/ru](Arch_Check/ru.md)
@@ -32,10 +32,8 @@ Pages relating to Architectural and Building Information Management
   [Artwork Arch/ru](Artwork_Arch/ru.md)                                                                         [BIM Library/ru](BIM_Library/ru.md)                                                                     [Custom Spacing/ru](Custom_Spacing/ru.md)
   [Import/Export IFC - compiling IfcOpenShell/ru](Import/Export_IFC_-_compiling_IfcOpenShell/ru.md)             [Manual:BIM modeling/ru](Manual:BIM_modeling/ru.md)                                                     [Material editor/ru](Material_editor/ru.md)
   [Material/ru](Material/ru.md)                                                                                 [Tutorial custom placing of windows and doors/ru](Tutorial_custom_placing_of_windows_and_doors/ru.md)   [Tutorial for open windows/ru](Tutorial_for_open_windows/ru.md)
-                                                                                                                                                                                                                                        
-  --------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/ru](<img src="images/Property.png" style="width:16px"> User_Documentation/ru.md) [<img src="images/Property.png" style="width:16px"> BIM/ru](<img src="images/Property.png" style="width:16px"> BIM/ru.md) [<img src="images/Property.png" style="width:16px"> Reinforcement/ru](<img src="images/Property.png" style="width:16px"> Reinforcement/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Arch/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch/ru

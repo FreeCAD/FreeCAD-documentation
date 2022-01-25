@@ -44,5 +44,7 @@ Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kre
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateEllipseBy3Points/de

@@ -137,5 +137,7 @@ Quando si preme il pulsante **OK**, il programma crea la nuova istanza barca, qu
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Ship New/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship New/it

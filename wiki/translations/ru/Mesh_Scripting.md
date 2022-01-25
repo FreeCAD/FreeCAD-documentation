@@ -93,9 +93,9 @@ doc.recompute()
 
 Широко применяемый, хотя и трудный в использовании, источник скриптов обработки полигональных сеток - это тестовые скрипты в модуле `Mesh`. В этих тестах модуля буквально все методы вызываются и все свойства/атрибуты перебираются. Так что если вы достаточно смелы, взгляните на [Unit Test module](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-Смотрите так же: [Mesh API](Mesh_API/ru.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
+Смотрите так же: [Mesh API](Mesh_API/ru.md). {{Top}}  {{Mesh Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/ru

@@ -49,5 +49,7 @@ Entfernt unnötige Linien. Nach einer Booleschen Operation bleiben einige Linien
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/de

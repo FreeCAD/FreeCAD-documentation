@@ -28,5 +28,7 @@ Le Polygone régulier est disponible à partir de la boîte de dialogue Créer d
 -   Polygone - Le nombre de faces du polygone
 -   Rayon circonscrit - Le rayon de la circonférence du polygone en partant du centre jusqu'à l\'extrémité du vertex.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/fr

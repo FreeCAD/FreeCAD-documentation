@@ -33,5 +33,7 @@ Erstelle Geregelte Oberfläche
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/de

@@ -28,5 +28,7 @@ The **Std LinkSelectLinked** command selects the **Linked Object**, the source o
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkSelectLinked/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectLinked/pl

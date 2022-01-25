@@ -71,5 +71,7 @@ La commande **Mesh Lissage** lisse les objets maillés en modifiant la position 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/fr

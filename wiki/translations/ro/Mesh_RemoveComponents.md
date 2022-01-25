@@ -54,5 +54,7 @@ Dacă este marcată \"Selectați întreaga componentă\", selectați întreaga c
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/ro

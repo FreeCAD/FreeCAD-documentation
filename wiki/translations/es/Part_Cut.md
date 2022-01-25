@@ -30,5 +30,7 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 
 Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/es

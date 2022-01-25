@@ -28,5 +28,7 @@ Siehe [Punkte Umwandeln](Points_Convert/de.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/de

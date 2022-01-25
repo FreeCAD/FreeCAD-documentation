@@ -41,9 +41,9 @@ Depuis leur apparition dans la v0.17, les objets de référence étaient destin�
 
 {{PartDesign Tools navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Datum/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Datum/fr

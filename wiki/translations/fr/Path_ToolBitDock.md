@@ -49,5 +49,7 @@ Un bouton de gestion en haut à droite (4) permet à l\'utilisateur de lancer le
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitDock/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitDock/fr

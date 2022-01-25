@@ -20,5 +20,7 @@ Les documents FreeCAD sont enregistrés avec l\'extension .FcStd, qui est un com
 -   [Le document FreeCAD](Document_structure.md)
 -   [Le format de fichier FcStd](File_Format_FCStd.md)
 
+
+
 ---
-[documentation index](../README.md) > Manual:The FreeCAD document/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD document/fr

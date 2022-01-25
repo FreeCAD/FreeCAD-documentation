@@ -24,5 +24,7 @@ La position sur l\'élément circulaire (longueur d\'arc à partir du point de d
 2.  Sélectionnez un élément de point d\'un objet et un élément de face ou de bord circulaire de l\'autre objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintPointOnCircle.svg" width=16px> [Point on circle](Assembly3_ConstraintPointOnCircle/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnCircle/fr

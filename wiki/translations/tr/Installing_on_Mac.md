@@ -67,5 +67,7 @@ Son sürüm yükleme dosyasını [İndirme sayfasından](Download.md) indirebili
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Installing on Mac/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/tr

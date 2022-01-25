@@ -30,7 +30,7 @@ Cette macro contraint et aligne des objets sur les faces ou les bords
 
 Ces aides fonctionnent avec les objets **Part, App :: Part et Body**. Chaque outil peut être **Flottant** ou **Docké à Gauche ou à Droite**.
 
-------------------------------------------------------------------------
+
 
 ## Anciennes Références 
 
@@ -76,5 +76,7 @@ vous devez la coller dans votre répertoire de macros
 
 Forum : [Faces or Edges constraint among non cylindrical parts Macro](http://forum.freecadweb.org/viewtopic.php?f=22&t=18655)
 
+
+
 ---
-[documentation index](../README.md) > Macro Center Align Objects with Faces or Edges/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Center Align Objects with Faces or Edges/fr

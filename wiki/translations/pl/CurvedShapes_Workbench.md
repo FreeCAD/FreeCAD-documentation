@@ -36,11 +36,9 @@ Zalecana sposób instalacji można wykonać poprzez <img alt="" src=images/Std_A
 -   [Środowisko pracy Krzywe](Curves_Workbench/pl.md)
 -   [Środowisko pracy AirPlaneDesign](https://github.com/FredsFactory/FreeCAD_AirPlaneDesign)
 
-## Zewnętrzne Środowiska pracy 
+## Zewnętrzne Środowiska pracy
 
 
-
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > CurvedShapes Workbench/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > CurvedShapes Workbench/pl

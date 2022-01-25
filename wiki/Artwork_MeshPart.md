@@ -15,5 +15,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  {{Artwork}} {{Mesh Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork MeshPart
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork MeshPart

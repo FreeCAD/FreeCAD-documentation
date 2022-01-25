@@ -32,9 +32,9 @@ Jednakże, gdy wymagana jest większa precyzja, należy dokonać rozróżnienia.
 -   [Część](Part/pl.md)\" jest używana do grupowania kilku \"[zawartości](Body/pl.md)\" w celu utworzenia [złożenia](Assembly/pl.md). \"Część\" posiada kolekcję \"Kształtów\", ale nie posiada własnego \"Kształtu\".
 
 
- {{Document objects navi}} 
+ {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Shape/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Part](Category_Part.md) > Shape/pl

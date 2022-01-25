@@ -3,7 +3,7 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+    
   [Arch 3Views](Arch_3Views.md)                                                                             [Arch Add](Arch_Add.md)                                                                                 [Arch Axis](Arch_Axis.md)
   [Arch AxisSystem](Arch_AxisSystem.md)                                                                     [Arch Building](Arch_Building.md)                                                                       [Arch BuildingPart](Arch_BuildingPart.md)
   [Arch Check](Arch_Check.md)                                                                               [Arch CloneComponent](Arch_CloneComponent.md)                                                           [Arch CloseHoles](Arch_CloseHoles.md)
@@ -170,10 +170,9 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
   [Part Offset2D](Part_Offset2D.md)                                                                         [Part Plane](Part_Plane.md)                                                                             [Part Point](Part_Point.md)
   [Part PointsFromMesh](Part_PointsFromMesh.md)                                                             [Part Primitives](Part_Primitives.md)                                                                   [Part Prism](Part_Prism.md)
   [Part ProjectionOnSurface](Part_ProjectionOnSurface.md)                                                   [Part RefineShape](Part_RefineShape.md)                                                                 [Part RegularPolygon](Part_RegularPolygon.md)
-  [Part ReverseShapes](Part_ReverseShapes.md)                                                               [Part Revolve](Part_Revolve.md)                                                                         
-  ----------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+  [Part ReverseShapes](Part_ReverseShapes.md)                                                               [Part Revolve](Part_Revolve.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference

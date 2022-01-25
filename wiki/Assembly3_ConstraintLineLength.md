@@ -20,5 +20,7 @@ The length is set to a certain value by editing the length parameter in the prop
 3.  Set the **Length** value in the properties panel.
 4.  Press the **<img src="images/Assembly3_workbench_icon.svg" width=16px> [Solve constraints](Assembly3_ResolveConstraints.md)** or the **<img src="images/Assembly_QuickSolve.svg" width=16px> [Quick solve](Assembly3_QuickSolve.md)** button to recompute.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintLineLength
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLineLength

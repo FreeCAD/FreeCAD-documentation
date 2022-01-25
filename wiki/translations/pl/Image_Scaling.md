@@ -28,5 +28,7 @@ The [Image Scaling](Image_Scaling.md) tool scales an image that was imported wit
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/pl

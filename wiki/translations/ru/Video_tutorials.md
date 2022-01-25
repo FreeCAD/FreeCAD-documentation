@@ -3,7 +3,7 @@
 
 На этой странице представлена подборка видеоуроков, созданных пользователями и разработчиками FreeCAD. Посетите подфорум [Учебники и видео](https://forum.freecadweb.org/viewforum.php?f=36) для получения дополнительных ссылок. Полезный источник видеоуроков - [YouTube](https://YouTube.com).
 
-Посетите [учебные пособия](tutorials/ru.md) ради высококачественных письменных учебных пособий. Полный несортированный список учебных пособий можно найти в [:<img src="images/Property.png" style="width:16px"> Tutorials/ru](:<img src="images/Property.png" style="width:16px"> Tutorials/ru.md) (не переведённые - в [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md)).
+Посетите [учебные пособия](tutorials/ru.md) ради высококачественных письменных учебных пособий. Полный несортированный список учебных пособий можно найти в [:Category:Tutorials/ru](:Category:Tutorials/ru.md) (не переведённые - в [:Category:Tutorials](:Category_Tutorials.md)).
 
 Если вы хотите внести свой вклад в написание вики-документации и учебных пособий, см. [ Помощь по FreeCAD](Help_FreeCAD.md), общие правила вики в [ ВикиСтраницах](WikiPages.md) и следуйте [ учебному руководству](tutorial_guidelines.md) .
 
@@ -85,11 +85,6 @@ Although these videos are considered obsolete, they are included here for histor
 For more see [Video tutorials obsolete](Video_tutorials_obsolete.md).
 
 
-{{Tutorials navi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Tutorials/ru]] (не переведённые - в ](Category_Tutorials/ru]] (не переведённые - в .md) > Video tutorials/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Tutorials/ru]] (не переведённые - в ](Category_Tutorials/ru]] (не переведённые - в .md) > [Common Questions](Category_Common Questions.md) > Video tutorials/ru

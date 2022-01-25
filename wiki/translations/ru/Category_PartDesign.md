@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to PartDesign
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+    
   [Artwork PartDesign/ru](Artwork_PartDesign/ru.md)                                           [Basic Part Design Tutorial/ru](Basic_Part_Design_Tutorial/ru.md)           [Body/ru](Body/ru.md)
   [Creating a simple part with PartDesign/ru](Creating_a_simple_part_with_PartDesign/ru.md)   [Datum/ru](Datum/ru.md)                                                     [Draft ShapeString tutorial/ru](Draft_ShapeString_tutorial/ru.md)
   [Feature editing/ru](Feature_editing/ru.md)                                                 [Part and PartDesign/ru](Part_and_PartDesign/ru.md)                         [PartDesign AdditiveBox/ru](PartDesign_AdditiveBox/ru.md)
@@ -26,8 +26,9 @@ This category includes FreeCAD pages related to PartDesign
   [PartDesign SubtractivePrism/ru](PartDesign_SubtractivePrism/ru.md)                         [PartDesign SubtractiveSphere/ru](PartDesign_SubtractiveSphere/ru.md)       [PartDesign SubtractiveTorus/ru](PartDesign_SubtractiveTorus/ru.md)
   [PartDesign SubtractiveWedge/ru](PartDesign_SubtractiveWedge/ru.md)                         [PartDesign Thickness/ru](PartDesign_Thickness/ru.md)                       [Template:PartDesign Tools navi/ru](Template:PartDesign_Tools_navi/ru.md)
   [PartDesign WizardShaft/ru](PartDesign_WizardShaft/ru.md)                                   [PartDesign Workbench/ru](PartDesign_Workbench/ru.md)                       [Thread for Screw Tutorial/ru](Thread_for_Screw_Tutorial/ru.md)
-  [Toothbrush Head Stand/ru](Toothbrush_Head_Stand/ru.md)                                     [Topological naming problem/ru](Topological_naming_problem/ru.md)           
-  --------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+  [Toothbrush Head Stand/ru](Toothbrush_Head_Stand/ru.md)                                     [Topological naming problem/ru](Topological_naming_problem/ru.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:PartDesign/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:PartDesign/ru

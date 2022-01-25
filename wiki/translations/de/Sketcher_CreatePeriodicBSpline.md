@@ -45,5 +45,7 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine periodische (geschl
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePeriodicBSpline/de

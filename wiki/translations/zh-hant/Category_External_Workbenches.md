@@ -3,11 +3,10 @@ This category collects pages from the [external workbenches](external_workbenche
 
 ### Contents:
 
-  -------------------------------------------------------------
+  
   [Ship Workbench/zh-hant](Ship_Workbench/zh-hant.md)
-  -------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/zh-hant](<img src="images/Property.png" style="width:16px"> Workbenches/zh-hant.md) [<img src="images/Property.png" style="width:16px"> Addons/zh-hant](<img src="images/Property.png" style="width:16px"> Addons/zh-hant.md)
+
 
 ---
-[documentation index](../README.md) > Category:External Workbenches/zh-hant
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Workbenches/zh-hant

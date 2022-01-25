@@ -43,5 +43,7 @@ ToolBar Icon ![](images/Macro_GMSH.png )
 
 [Смотрите использование макроса на YouTube (англ).](https://www.youtube.com/watch?v=ZcG5EEUe3yc)
 
+
+
 ---
-[documentation index](../README.md) > Macro GMSH/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro GMSH/ru

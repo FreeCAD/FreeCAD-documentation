@@ -92,9 +92,7 @@ No installation is required. Thanks go to the author of the program.
 2.  There are many other drawing files (Inventor 2.x format) that can be loaded in FreeCAD and saved as a python script. The formatting will not be great, but such a script can still help you understand the COIN3D library.
 3.  Generally, COIN3D doesn\'t provide good primitive drawings. The widget system Design456 does provide some: some basic shapes, and also some complex shapes. The arrow widget and the line widget used by the [Design456 Workbench](Design456_Workbench.md) are examples.
 
- {{Powerdocnavi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets

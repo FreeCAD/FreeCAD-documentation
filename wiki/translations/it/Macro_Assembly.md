@@ -298,5 +298,7 @@ La pagina della discussione [FreeCad Python assembly animation](http://forum.fre
 
 [Vedere l\'animazione su YouTube.](http://youtu.be/5Ik2Bh4wXYg)
 
+
+
 ---
-[documentation index](../README.md) > Macro Assembly/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Assembly/it

@@ -73,9 +73,6 @@ The subelement can then be extracted from the assigned property, and can be mani
 ```
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > LinkSub/en
+![](images/Right_arrow.png) [documentation index](../README.md) > LinkSub/en

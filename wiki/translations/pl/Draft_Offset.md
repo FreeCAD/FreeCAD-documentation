@@ -113,5 +113,7 @@ offset5 = Draft.offset(wire, 1.5*vector, copy=True, occ=True)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Offset/pl

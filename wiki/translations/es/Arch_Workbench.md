@@ -151,11 +151,5 @@ El Módulo de arquitectura puede usarse en scripts de [Python](Python/es.md) y e
 
 
 
-
-
- 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Arch](Category_Arch.md) > Arch Workbench/es

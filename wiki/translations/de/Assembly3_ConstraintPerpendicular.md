@@ -24,5 +24,7 @@ Diese Beziehung akzeptiert gerade Kanten und ebene Flächen.
 2.  Je eine gerade Kante oder ein ebenes Flächenelement pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintPerpendicular.svg" width=16px> [Rechtwinklig festlegen](Assembly3_ConstraintPerpendicular/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPerpendicular/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPerpendicular/de

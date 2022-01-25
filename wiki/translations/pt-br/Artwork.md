@@ -156,7 +156,7 @@ See [Artwork Erroneous](Artwork_Erroneous.md).
 
 }}
 
-[<img src="images/Property.png" style="width:16px"> Icon](Category_Icon.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Icon](Category_Icon.md) > Artwork/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Icon](Category_Icon.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork/pt-br

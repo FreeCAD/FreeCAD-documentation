@@ -424,7 +424,7 @@ Ora si può davvero iniziare a divertirsi con FreeCAD! Per vedere ciò che si pu
 
 Notare che, oltre ai moduli Parte e Mesh che sono i più completi e sono molto utilizzati, anche altri moduli come il [Modulo Draft](Draft_Workbench/it.md) hanno [script](Draft_API/it.md) API che possono servirvi.
 
-Per un elenco completo di tutti i moduli e gli strumenti disponibili, consultare la sezione [:<img src="images/Property.png" style="width:16px"> API/it](:<img src="images/Property.png" style="width:16px"> API/it.md).
+Per un elenco completo di tutti i moduli e gli strumenti disponibili, consultare la sezione [:Category:API/it](:Category:API/it.md).
 
 
 </div>
@@ -434,13 +434,5 @@ Per un elenco completo di tutti i moduli e gli strumenti disponibili, consultare
 
 
 
-
-
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/it

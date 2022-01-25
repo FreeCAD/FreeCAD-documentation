@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ro
+   Topic: Modeling
+   Level: Advanced
+   Time: 
+   Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md)
+   FCVersion:0.14 or above (depends on method)
+   Files:
+---
+
 # Thread for Screw Tutorial/ro
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro
-|Topic= Modeling
-|Level= Advanced
-|Time= 
-|Author=[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md)
-|FCVersion=0.14 or above (depends on method)
-|Files=
-}}
 
 
 </div>
@@ -328,7 +334,9 @@ ISO and other threads have relieved, ie flat, inner and outer edges rather than 
 
 ![761PX](images/Threadform.PNG )
 
-Această metodă produce solide fiabile, care sunt boolean în mod corespunzător. În timp ce nu produce șuruburi \"parametrice\" în dimensiuni standard, în sensul de a avea un acces simplu la forma prin mărimea șurubului, este o modalitate ușoară de a produce o bibliotecă precisă pentru reutilizare și modele de forme specializate cum ar fi ACME sau șuruburi Archimedian , sunt, de asemenea, necomplicate ca excepții. {{Tutorials navi}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+Această metodă produce solide fiabile, care sunt boolean în mod corespunzător. În timp ce nu produce șuruburi \"parametrice\" în dimensiuni standard, în sensul de a avea un acces simplu la forma prin mărimea șurubului, este o modalitate ușoară de a produce o bibliotecă precisă pentru reutilizare și modele de forme specializate cum ar fi ACME sau șuruburi Archimedian , sunt, de asemenea, necomplicate ca excepții.   {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > Thread for Screw Tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/ro

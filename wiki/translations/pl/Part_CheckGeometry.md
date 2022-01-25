@@ -37,5 +37,7 @@ If ticked, additionally a Boolean OPerations (BOP) check is performed. <small>(v
 
 If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/pl

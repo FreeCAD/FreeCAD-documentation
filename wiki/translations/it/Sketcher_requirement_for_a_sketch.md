@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/it
+   Topic:Sketch
+   Level:Base
+   Author:[Maker](User_Maker.md)
+   Time:
+   FCVersion:Tutte
+---
+
 # Sketcher requirement for a sketch/it
-{{TutorialInfo/it
-|Topic=Sketch
-|Level=Base
-|Author=[Maker](User_Maker.md)
-|Time=
-|FCVersion=Tutte
-}}
+
+
+
+
 
 ## Requisito minimo per uno schizzo 
 
@@ -42,5 +48,7 @@ Se si crea accidentalmente una \"ridondanza\", nella vista combinata viene visua
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/it

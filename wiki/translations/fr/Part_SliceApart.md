@@ -69,5 +69,7 @@ Séparer/exploser a été introduit dans FreeCAD v0.18.15506. FreeCAD doit être
 
 -   <https://www.youtube.com/watch?v=JJAL5JmqqKQ> : FreeCAD Slice und Slice Apart und andere Tricks (en allemand), auteur: Ha Gei
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/fr

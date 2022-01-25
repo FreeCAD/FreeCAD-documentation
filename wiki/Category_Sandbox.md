@@ -3,7 +3,7 @@ This category gathers all pages used as Sandbox: a place where you can draft or 
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
+    
   [Best Practices with SpreadSheets](Best_Practices_with_SpreadSheets.md)                               [CadQuery Workbench](CadQuery_Workbench.md)                                       [Cfd Workbench](Cfd_Workbench.md)
   [FEM FrontISTR Workbench](FEM_FrontISTR_Workbench.md)                                                 [FreeCAD on Video](FreeCAD_on_Video.md)                                           [FreeCADDocu:Sandbox](FreeCADDocu_Sandbox.md)
   [Macro Kerkythea](Macro_Kerkythea.md)                                                                 [Microscope Adapter Model](Microscope_Adapter_Model.md)                           [PCB Workbench](PCB_Workbench.md)
@@ -15,10 +15,9 @@ This category gathers all pages used as Sandbox: a place where you can draft or 
   [Sandbox:TechDraw template creation tutorial/en](Sandbox:TechDraw_template_creation_tutorial/en.md)   [Sandbox:TechDraw TemplateHelper](Sandbox_TechDraw_TemplateHelper.md)             [Sandbox:TranslationGuideLines/de](Sandbox:TranslationGuideLines/de.md)
   [Sandbox:TutorialArchBIM](Sandbox_TutorialArchBIM.md)                                                 [Sandbox:TutorialBIMannex](Sandbox_TutorialBIMannex.md)                           [Sandbox:VWegert](Sandbox_VWegert.md)
   [Symbols Library Workbench](Symbols_Library_Workbench.md)                                             [Timber Workbench](Timber_Workbench.md)                                           [Tutorial guidelines](Tutorial_guidelines.md)
-  [Workfeature Workbench](Workfeature_Workbench.md)                                                                                                                                               
-  ------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
+  [Workfeature Workbench](Workfeature_Workbench.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md)
+
 
 ---
-[documentation index](../README.md) > Category:Sandbox
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sandbox

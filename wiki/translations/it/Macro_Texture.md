@@ -434,5 +434,7 @@ ver 0.4 : 08/08/2014 PyQt4 PySide
 
 ver 0.3 : 28/03/2014 :commentata la riga \"**\# self.checkBox\_5.setAccessibleName(\_fromUtf8(\"\"))**\" che causa un errore con la seguente versione di FreeCAD : 0.14.3343 (Git), Python version: 2.7.6, Qt version: 4.8.5
 
+
+
 ---
-[documentation index](../README.md) > Macro Texture/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Texture/it

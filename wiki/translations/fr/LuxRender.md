@@ -58,5 +58,7 @@ Il n\'existe pas de version de développement de LuxRender, le développement ay
 
 L\'[Atelier Render](https://github.com/FreeCAD/FreeCAD-render) a abandonné la prise en charge de LuxRender, car il est dépassé. Il supporte à la place le redémarrage récent de [LuxCoreRender](LuxCoreRender/fr.md).
 
+
+
 ---
-[documentation index](../README.md) > LuxRender/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > LuxRender/fr

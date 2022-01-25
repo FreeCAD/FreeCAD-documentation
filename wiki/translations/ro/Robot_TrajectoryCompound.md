@@ -45,5 +45,7 @@ Creează un compus din mai multe traiectorii singulare.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/ro

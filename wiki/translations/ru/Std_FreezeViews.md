@@ -92,5 +92,7 @@ For each frozen view a **Restore view** option is added with which it can be res
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std FreezeViews/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std FreezeViews/ru

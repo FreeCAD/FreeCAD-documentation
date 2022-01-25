@@ -27,5 +27,7 @@ Wenn aktiviert, wird das aktuell ausgewählte Element (bzw. die Elemente) hervor
     -   Die Schaltfläche **<img src="images/Assembly_AutoElementVis.svg" width=16px> [Element automatisch anzeigen](Assembly3_AutoElementVisibility/de.md)**.
     -   Den Menüeintrag **Assembly3 → Element style → <img src="images/Assembly_AutoElementVis.svg" width=16px> Element automatisch anzeigen**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AutoElementVisibility/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoElementVisibility/de

@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg  style="width:24
     -   Le bouton **<img src="images/Assembly_Add_WorkplaneXZ.svg_" width=16px> [Add workplane XZ](Assembly3_AddXZWorkplane/fr.md)**.
     -   L\'option de menu **Assembly3 → Workplane and origin → <img src="images/Assembly_Add_WorkplaneXZ.svg_" width=16px> Add workplane XZ**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AddXZWorkplane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddXZWorkplane/fr

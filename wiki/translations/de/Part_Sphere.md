@@ -88,5 +88,7 @@ sphere = FreeCAD.ActiveDocument.addObject("Part::Sphere", "mySphere")
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/de

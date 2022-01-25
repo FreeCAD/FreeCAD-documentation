@@ -36,5 +36,7 @@ Questo comando apre un menu a tendina della barra degli strumenti che contiene t
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/it

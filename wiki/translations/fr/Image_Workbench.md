@@ -33,9 +33,9 @@ Le décalage de l\'image peut être défini lors de l\'importation ou modifié u
 
 {{Image Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Image](Category_Image.md) > Image Workbench/fr

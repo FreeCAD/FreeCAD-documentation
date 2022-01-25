@@ -43,5 +43,7 @@ When you press the **Accept** button, the computation starts. It may hang FreeCA
 
  {{Ship_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > Ship Area
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship Area

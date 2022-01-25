@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic:Plot Workbench Basic Tutorial
+   Level:Beginner
+   Time:
+   Author:
+   FCVersion:0.19
+   Files:
+---
+
 # Plot Basic tutorial
-{{TutorialInfo
-|Topic=Plot Workbench Basic Tutorial
-|Level=Beginner
-|Time=
-|Author=
-|FCVersion=0.19
-|Files=
-}}
+
+ 
+
+
 
 In this tutorial we will learn how to create a basic plot using the [Plot Workbench](Plot_Workbench.md) and the [Python console](Python_console.md).
 
@@ -145,9 +150,9 @@ First select the path and filename for the output file.
 
 Set the output image size in inches, for example use 11.7x8.3 to get a **DIN A4** size. DPI (Dots per inch) will control the image resolution, for example use 100 dpi. In combination with the given dimensions this will result in an image of 1170x830 pixels.
 
- {{Tutorials_navi}} {{Plot_Tools_navi}} 
+ {{Tutorials_navi}} {{Plot_Tools_navi}}
 
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Basic tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Basic tutorial

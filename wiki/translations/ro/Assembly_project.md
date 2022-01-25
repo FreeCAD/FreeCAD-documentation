@@ -152,7 +152,7 @@ Interface to allow (external) (multi)physics simulation software to take control
 -   Object model
 -   \...
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
+
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Assembly project/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Assembly project/ro

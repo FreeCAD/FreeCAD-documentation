@@ -53,5 +53,7 @@ You can load one of those examples following the next steps:
 
  {{Ship_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > Ship Geometries Examples
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship Geometries Examples

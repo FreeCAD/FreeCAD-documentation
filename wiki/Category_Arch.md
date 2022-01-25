@@ -3,7 +3,7 @@ This category list pages related to the [Arch Workbench](Arch_Workbench.md), the
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+    
   [Arch 3DS](Arch_3DS.md)                                                                                           [Arch 3Views](Arch_3Views.md)                                                                                     [Arch Add](Arch_Add.md)
   [Arch API](Arch_API.md)                                                                                           [Arch Axis](Arch_Axis.md)                                                                                         [Arch AxisSystem](Arch_AxisSystem.md)
   [Arch Building](Arch_Building.md)                                                                                 [Arch BuildingPart](Arch_BuildingPart.md)                                                                         [Arch Check](Arch_Check.md)
@@ -40,11 +40,9 @@ This category list pages related to the [Arch Workbench](Arch_Workbench.md), the
   [Reinforcement Addon](Reinforcement_Addon.md)                                                                     [Reinforcement API](Reinforcement_API.md)                                                                         [SweetHome3D](SweetHome3D.md)
   [Tutorial custom placing of windows and doors](Tutorial_custom_placing_of_windows_and_doors.md)                   [Tutorial for open windows](Tutorial_for_open_windows.md)                                                         [WikiRobots](WikiRobots.md)
   [WikiRobots/de](WikiRobots/de.md)                                                                                 [WikiRobots/en](WikiRobots/en.md)                                                                                 [WikiRobots/fr](WikiRobots/fr.md)
-  [WikiRobots/it](WikiRobots/it.md)                                                                                 [WikiRobots/pl](WikiRobots/pl.md)                                                                                 
-                                                                                                                                                                                                                                                      
-  ------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+  [WikiRobots/it](WikiRobots/it.md)                                                                                 [WikiRobots/pl](WikiRobots/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md) [<img src="images/Property.png" style="width:16px"> Reinforcement/pl](<img src="images/Property.png" style="width:16px"> Reinforcement/pl.md)
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Category:Arch
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch

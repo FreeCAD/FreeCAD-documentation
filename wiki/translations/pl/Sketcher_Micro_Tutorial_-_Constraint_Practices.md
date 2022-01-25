@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/pl
+   Topic:Modelowanie
+   Level:początkujący
+   Time:30 minut
+   Author:Mark Stephen ([Quick61](User_Quick61.md)) and vocx
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher: wiązania praktycznie]
+---
+
 # Sketcher Micro Tutorial - Constraint Practices/pl
-{{TutorialInfo/pl
-|Topic=Modelowanie
-|Level=początkujący
-|Time=30 minut
-|Author=Mark Stephen ([Quick61](User_Quick61.md)) and vocx
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher: wiązania praktycznie]
-}}
+
+
+
+
 
 ## Wprowadzenie
 
@@ -123,9 +129,9 @@ Jest to najlepszy sposób na związanie tego szkicu, ponieważ użyliśmy tylko 
 -   [Poradnik dla Środowiska pracy Sketcher](Sketcher_Tutorial/pl.md)
 
 
-{{Tutorials navi
+ {{Sketcher Tools navi}}
 
-}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/pl

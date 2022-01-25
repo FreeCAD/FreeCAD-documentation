@@ -100,5 +100,7 @@ FreeCAD использует библиотеку Quarter для использ�
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > 3D view/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > 3D view/ru

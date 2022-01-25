@@ -17,5 +17,7 @@ System preferencji programu FreeCAD, znajdujący się w menu **Edycja -> Prefere
 
 Po najechaniu myszką na poszczególne ustawienia, pojawi się podpowiedź wyjaśniająca do czego one służą oraz lokalizacja odpowiadającego im ustawienia w ogólnym systemie preferencji FreeCAD.
 
+
+
 ---
-[documentation index](../README.md) > BIM Setup/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/pl

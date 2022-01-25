@@ -59,5 +59,7 @@ Fehlt auf dieser Wiki-Seite etwas. Bitte stelle eine Anfrage für [Wiki Berechti
 
 -   [Umstieg auf FreeCAD von OnShape](Migrating_to_FreeCAD_from_OnShape/de.md)
 
+
+
 ---
-[documentation index](../README.md) > Migrating to FreeCAD from Fusion360/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Migrating to FreeCAD from Fusion360/de

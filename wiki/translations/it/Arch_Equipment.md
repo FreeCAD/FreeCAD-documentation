@@ -23,8 +23,17 @@ Lo strumento Arredo offre un modo semplice e comodo per inserire nei progetti de
 
 </div>
 
-![](images/Arch_equipment_example.jpg ) 
+![](images/Arch_equipment_example.jpg )
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Oggetti di arredamento racchiusi in un oggetto [Arredo](Arch_Equipment/it.md). Le proiezioni piatte possono essere ottenute dallo strumento [Vista 2D di Draft](Draft_Shape2DView/it.md)*
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -56,6 +65,9 @@ Quando si utilizza l\'esportatore OBJ di Arch, tutti gli oggetti arredo che si t
 
 -    {{PropertyData/it|Mesh}}: Una rappresentazione [Mesh](Mesh_Workbench/it.md) da utilizzare per questo arredo. Quando è impostata, diventa disponibile la modalità di visualizzazione **Mesh**.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
@@ -63,7 +75,23 @@ Quando si utilizza l\'esportatore OBJ di Arch, tutti gli oggetti arredo che si t
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Arredo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Arredo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 ```
@@ -94,5 +122,7 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/it

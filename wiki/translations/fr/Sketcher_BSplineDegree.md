@@ -29,5 +29,7 @@ Montre ou masque l\'affichage du **degré** d\'une courbe B-spline (voir [cette 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/fr

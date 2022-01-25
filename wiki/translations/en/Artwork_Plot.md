@@ -12,9 +12,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Plot](Category_Plot.md)
+
 
 ---
-[documentation index](../README.md) > [Plot](Category_Plot.md) > Artwork Plot/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Plot](Category_Plot.md) > Artwork Plot/en

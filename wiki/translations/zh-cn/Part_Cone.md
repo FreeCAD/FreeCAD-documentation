@@ -57,7 +57,7 @@ The cone properties can later be edited, either in the [Property editor](Propert
 
 ## 选项
 
-+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/PartConeProperty_en.png ) |                                                                                                                                                                  |
 |                                                        | **Cone**                                                                                                                                                                    |
 |                                                        |                                                                                                                                                                              |
@@ -65,7 +65,7 @@ The cone properties can later be edited, either in the [Property editor](Propert
 |                                                        | -   Radius 2 - 定义顶面弧或圆的半径                                                                                                                                             |
 |                                                        | -   Height - 零件圆锥体的高度                                                                                                                                                   |
 |                                                        | -   Angle - 定义截断圆锥体顶面与底面上弧或圆的角度值。默认值360创建的顶底皆为圆面，较小值将创建出不完整的部分圆锥，具体形状取决于实际角度与两个半径所定义的弧，乃至顶面与底面。 |
-+--------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 </div>
@@ -90,5 +90,7 @@ cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 -   Where {{Incode|"myCone"}} is the name for the object.
 -   The function returns the newly created object.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/zh-cn

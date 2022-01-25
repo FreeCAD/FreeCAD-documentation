@@ -15,11 +15,5 @@ Comme vous avez pu le constater parfois, les programmeurs sont de très mauvais 
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
-
 ---
-[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/fr

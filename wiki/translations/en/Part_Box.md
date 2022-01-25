@@ -64,5 +64,7 @@ You can change its placement with:
 box.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Box/en

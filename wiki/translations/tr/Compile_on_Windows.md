@@ -142,7 +142,7 @@ The CMake build system gives you control over some aspects of the build process.
 Here is a description of some of these variables:
 
   Variable name                            Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Default
-  ---------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -----------------------------------------------
+    
   BUILD\_XXX                               Build FreeCAD with the component XXX. If you don\'t want/need to compile e.g. the workbench *OpenSCAD*, disable the variable *BUILD\_OPENSCAD*. FreeCAD will then not have this workbench. **Note:** Some components are required for other components. If you for example uncheck *BUILD\_ROBOT* CMake will inform you that then the component *Path* cannot be compiled correctly. Therefore check the CMake output after you changed a BUILD\_XXX option!                                                                                                       depends
   BUILD\_ENABLE\_CXX\_STD                  The version of the C++ language standard. **C++14** is the highest possible for FreeCAD 0.19 while at least **C++17** is required for FreeCAC 0.20. See also the note in section [Building with Visual Studio 15 (2017) and 16 (2019)](#Release_Build.md)                                                                                                                                                                                                                                                                                                  depends
   BUILD\_FLAT\_MESH                        Necessary to have a build that includes the [CreateFlatMesh feature](MeshPart_CreateFlatMesh.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                           OFF
@@ -456,11 +456,5 @@ See also
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Windows/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/tr

@@ -33,9 +33,9 @@ All Points Workbench tools can be accessed from the **Points** menu. Some tools 
 
 
 
-  {{Points Tools navi}} 
+  {{Points Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Points Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Points](Category_Points.md) > Points Workbench

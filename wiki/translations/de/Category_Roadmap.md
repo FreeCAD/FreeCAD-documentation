@@ -3,7 +3,7 @@ Diese Kategorie sammelt alle Artikel, die dokumentieren, was in der Roadmap von 
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------- --------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+    
   [Arch Concept/de](Arch_Concept/de.md)                                             [Artwork project/de](Artwork_project/de.md)                         [Assembly project/de](Assembly_project/de.md)
   [CAM project/de](CAM_project/de.md)                                               [Development roadmap/de](Development_roadmap/de.md)                 [FEM project/de](FEM_project/de.md)
   [FreeCAD development model project/de](FreeCAD_development_model_project/de.md)   [HiDPI support/de](HiDPI_support/de.md)                             [Land Survey Workbench Blueprint/de](Land_Survey_Workbench_Blueprint/de.md)
@@ -12,10 +12,8 @@ Diese Kategorie sammelt alle Artikel, die dokumentieren, was in der Roadmap von 
   [Raytracing project/de](Raytracing_project/de.md)                                 [Resource framework project/de](Resource_framework_project/de.md)   [Robot project/de](Robot_project/de.md)
   [Sketcher project/de](Sketcher_project/de.md)                                     [STEP project/de](STEP_project/de.md)                               [Tolerancing/de](Tolerancing/de.md)
   [Units project/de](Units_project/de.md)                                           [UTF Project/de](UTF_Project/de.md)                                 [Wished tools/de](Wished_tools/de.md)
-                                                                                                                                                                        
-  ----------------------------------------------------------------------------------------- --------------------------------------------------------------------------- -------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md)
+
 
 ---
-[documentation index](../README.md) > Category:Roadmap/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Roadmap/de

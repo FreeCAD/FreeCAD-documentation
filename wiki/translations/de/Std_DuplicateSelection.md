@@ -54,5 +54,7 @@ Mehr Einzelheiten zum Replizieren von Objekten gibt es auf der [Objekte kopieren
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DuplicateSelection/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DuplicateSelection/de

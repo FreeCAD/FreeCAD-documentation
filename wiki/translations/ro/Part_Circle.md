@@ -40,7 +40,7 @@ Utilizăm meniul {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16px
 
 ### Primitive Geometrice 
 
-+------------------------------------------------------------------------------+------------------------------------------------+
++++
 | ![](images/PartCirclePrimitivesOptions_it.png ) | Cercul                                         |
 |                                                                              |                                                |
 |                                                                              | #### Parametri                                 |
@@ -60,7 +60,7 @@ Utilizăm meniul {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16px
 |                                                                              | -                               |
 |                                                                              |     {{Parameter|Cerc definit din trei puncte}} |
 |                                                                              |                                             |
-+------------------------------------------------------------------------------+------------------------------------------------+
++++
 
 
 </div>
@@ -71,5 +71,7 @@ Utilizăm meniul {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16px
 
 -    {{Parameter|Angle 1}}: Unghiul de capăt al muchiei curbate, (degrees sens antiorar/trigonometric), valoarea implictă este 360
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/ro

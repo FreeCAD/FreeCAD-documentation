@@ -33,5 +33,7 @@ La commande **Std Précédente** ne fonctionne pas correctement [1](https://foru
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ActivatePrevWindow/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivatePrevWindow/fr

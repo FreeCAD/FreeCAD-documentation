@@ -30,5 +30,7 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 
 }} {{Mesh Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork MeshPart/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork MeshPart/it

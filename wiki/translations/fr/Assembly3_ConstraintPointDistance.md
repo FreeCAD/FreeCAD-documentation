@@ -21,5 +21,7 @@ Il peut traiter des éléments ponctuels 3D ainsi que des éléments ponctuels 2
 2.  Sélectionnez un élément ponctuel de chaque objet
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintPointDistance.svg" width=16px> [Point distance](Assembly3_ConstraintPointDistance/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointDistance/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointDistance/fr

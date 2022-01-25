@@ -50,11 +50,5 @@ Néanmoins, cette décision est prise seulement pour le système de base de Free
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/fr

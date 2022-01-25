@@ -37,5 +37,7 @@ Moving a robot is done by
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/pt-br

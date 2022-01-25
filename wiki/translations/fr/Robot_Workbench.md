@@ -72,9 +72,9 @@ Voir [Robot API exemple](Robot_API_example/fr.md) pour une description des fonct
 
 {{Robot Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Robot Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Robot](Category_Robot.md) > Robot Workbench/fr

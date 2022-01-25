@@ -48,5 +48,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Paste/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Paste/ko

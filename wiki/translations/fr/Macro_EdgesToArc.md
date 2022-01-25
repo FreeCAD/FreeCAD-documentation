@@ -95,5 +95,7 @@ if circular:
             FreeCAD.ActiveDocument.removeObject(shape.Name)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro EdgesToArc/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro EdgesToArc/fr

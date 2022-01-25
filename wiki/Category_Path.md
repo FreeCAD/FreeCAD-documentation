@@ -3,7 +3,7 @@ This category lists pages related to the [Path Workbench](Path_Workbench.md).
 
 ### Contents:
 
-  --------------------------------------------------------------- ------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+    
   [Artwork Path](Artwork_Path.md)                         [GSoC Path/Robot Integration](GSoC_Path/Robot_Integration.md)                 [Manual:Preparing models for 3D printing](Manual_Preparing_models_for_3D_printing.md)
   [Path Adaptive](Path_Adaptive.md)                       [Path Area](Path_Area.md)                                                     [Path Area Workplane](Path_Area_Workplane.md)
   [Path Array](Path_Array.md)                             [Path Comment](Path_Comment.md)                                               [Path Copy](Path_Copy.md)
@@ -23,10 +23,9 @@ This category lists pages related to the [Path Workbench](Path_Workbench.md).
   [Path ToolBitLibraryOpen](Path_ToolBitLibraryOpen.md)   [Path ToolController](Path_ToolController.md)                                 [Path ToolLibraryEdit](Path_ToolLibraryEdit.md)
   [Path Tools](Path_Tools.md)                             [Template:Path Tools navi](Template_Path_Tools_navi.md)                       [Path ToolShape](Path_ToolShape.md)
   [Path Vcarve](Path_Vcarve.md)                           [Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md)   [Path Waterline](Path_Waterline.md)
-  [Path Workbench](Path_Workbench.md)                                                                                                           
-  --------------------------------------------------------------- ------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+  [Path Workbench](Path_Workbench.md)
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Category:Path
+![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [Workbenches](Category_Workbenches.md) > Category:Path

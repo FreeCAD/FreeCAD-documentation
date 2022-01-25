@@ -70,5 +70,7 @@ Le proprietà possono essere modificate successivamente in **Vista combinata →
 
 You have the standard properties view.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/it

@@ -3,7 +3,7 @@ Questa categoria contiene le macro per estendere l\'installazione FreeCAD con nu
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+    
   [Macro 3D Parametric Curve/it](Macro_3D_Parametric_Curve/it.md)                       [Macro 3d Printer Slicer Individual Parts/it](Macro_3d_Printer_Slicer_Individual_Parts/it.md)               [Macro 3d Printer Slicer/it](Macro_3d_Printer_Slicer/it.md)
   [Macro Airfoil Import & Scale/it](Macro_Airfoil_Import_&_Scale/it.md)                 [Macro Alias Manager/it](Macro_Alias_Manager/it.md)                                                         [Macro Align Camera to Working Plane/it](Macro_Align_Camera_to_Working_Plane/it.md)
   [Macro Align Face Object to View/it](Macro_Align_Face_Object_to_View/it.md)           [Macro Align Object to View/it](Macro_Align_Object_to_View/it.md)                                           [Macro Align View to Face/it](Macro_Align_View_to_Face/it.md)
@@ -65,10 +65,8 @@ Questa categoria contiene le macro per estendere l\'installazione FreeCAD con nu
   [Macro WireXYZ/it](Macro_WireXYZ/it.md)                                               [Macro Wiring And Hoses/it](Macro_Wiring_And_Hoses/it.md)                                                   [Macro WorkFeatures/it](Macro_WorkFeatures/it.md)
   [Template:Macro/it](Template:Macro/it.md)                                             [Macros recipes/it](Macros_recipes/it.md)                                                                   [Macros/it](Macros/it.md)
   [Misc templates Full/it](Misc_templates_Full/it.md)                                   [Qt Example/it](Qt_Example/it.md)                                                                           [Svg Namespace/it](Svg_Namespace/it.md)
-                                                                                                                                                                                                                    
-  --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Addons/it](<img src="images/Property.png" style="width:16px"> Addons/it.md) [<img src="images/Property.png" style="width:16px"> User Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Categories/it](<img src="images/Property.png" style="width:16px"> Categories/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:Macros/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Macros/it

@@ -31,5 +31,7 @@ Din cauza evoluției rapide a FreeCAD, unele definiții de obiecte s-ar putea sc
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/ro

@@ -150,5 +150,7 @@ Tools creating dimensions.
 
 -    **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Create an annotation showing the area](Void.md)**Creates an anotation of the area value, the unit of which is determined by the preferences.
 
+
+
 ---
-[documentation index](../README.md) > Macro TechDrawTools
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro TechDrawTools

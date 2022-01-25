@@ -99,5 +99,7 @@ Model ağacındaki Referans düzlemi etiketine çift tıklayın veya sağ tıkla
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/tr

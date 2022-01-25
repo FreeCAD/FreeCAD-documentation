@@ -3,7 +3,7 @@ Cette catégorie répertorie les pages associées à [Std Base](Std_Base/fr.md),
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
   [App DocumentObjectGroup/fr](App_DocumentObjectGroup/fr.md)                         [App Link/fr](App_Link/fr.md)                                                 [App Part/fr](App_Part/fr.md)
   [Assembly/fr](Assembly/fr.md)                                                       [Combo view/fr](Combo_view/fr.md)                                             [DAG view/fr](DAG_view/fr.md)
   [Interface Customization/fr](Interface_Customization/fr.md)                         [Part/fr](Part/fr.md)                                                         [Property editor/fr](Property_editor/fr.md)
@@ -59,10 +59,9 @@ Cette catégorie répertorie les pages associées à [Std Base](Std_Base/fr.md),
   [Std ViewTop/fr](Std_ViewTop/fr.md)                                                 [Std ViewTrimetric/fr](Std_ViewTrimetric/fr.md)                               [Std ViewZoomIn/fr](Std_ViewZoomIn/fr.md)
   [Std ViewZoomOut/fr](Std_ViewZoomOut/fr.md)                                         [Std WhatsThis/fr](Std_WhatsThis/fr.md)                                       [Std Windows Menu/fr](Std_Windows_Menu/fr.md)
   [Std Windows/fr](Std_Windows/fr.md)                                                 [Std Workbench/fr](Std_Workbench/fr.md)                                       [Tree view/fr](Tree_view/fr.md)
-  [View Measure Clear All/fr](View_Measure_Clear_All/fr.md)                           [View Measure Toggle All/fr](View_Measure_Toggle_All/fr.md)                   
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -----------------------------------------------------------------------
+  [View Measure Clear All/fr](View_Measure_Clear_All/fr.md)                           [View Measure Toggle All/fr](View_Measure_Toggle_All/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/fr](<img src="images/Property.png" style="width:16px"> User_Documentation/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Std Base/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Std Base/fr

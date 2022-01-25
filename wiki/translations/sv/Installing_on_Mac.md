@@ -67,5 +67,7 @@ Det är allt. Eventuellt så kommer FreeCAD att finnas tillgängligt som ett app
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Installing on Mac/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/sv

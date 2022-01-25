@@ -46,5 +46,7 @@ Lo strumento collega gli elementi secondo l\'ordine di selezione, quindi cliccar
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/it

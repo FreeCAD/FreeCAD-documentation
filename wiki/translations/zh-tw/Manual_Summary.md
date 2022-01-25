@@ -56,7 +56,5 @@ There is another table of contents for the [FreeCAD **Online Help** system](Onli
 
 
 
-[<img src="images/Property.png" style="width:16px"> Manual](Category_Manual.md)
-
 ---
-[documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/zh-tw
+![](images/Right_arrow.png) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/zh-tw

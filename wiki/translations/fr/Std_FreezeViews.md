@@ -92,5 +92,7 @@ Pour chaque vue figée, une option **Vue de restauration** est ajoutée avec laq
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std FreezeViews/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std FreezeViews/fr

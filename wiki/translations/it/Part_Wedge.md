@@ -33,7 +33,7 @@ Crea un solido parametrico a forma di cuneo. Il cuneo di default ha una base qua
 
 ### Parametri di input 
 
-+------------------------------------------------------------------+-------------------------------------------------------------------+
++++
 | ![](images/PartWedgeProperty_Inputs.png ) | Usando il posizionamento predefinito, gli input sottostanti sono: |
 |                                                                  |                                                                   |
 |                                                                  | -                                                  |
@@ -60,11 +60,13 @@ Crea un solido parametrico a forma di cuneo. Il cuneo di default ha una base qua
 |                                                                  |     {{PropertyData/it|Z2 min/max}}                                |
 |                                                                  |                                                                |
 |                                                                  |     : Estensione sull\'asse Z della faccia superiore              |
-+------------------------------------------------------------------+-------------------------------------------------------------------+
++++
 
 ### Altri esempi di cunei 
 
 ![](images/Wedge_examples.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/it

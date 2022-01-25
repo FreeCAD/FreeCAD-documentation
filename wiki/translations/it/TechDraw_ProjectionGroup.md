@@ -151,5 +151,7 @@ Nota di programmazione: Il Gruppo di proiezioni deve sempre essere aggiunto alla
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/it

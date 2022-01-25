@@ -124,5 +124,7 @@ Un posibil flux de lucru ar putea fi:
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/ro

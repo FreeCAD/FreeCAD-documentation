@@ -26,5 +26,7 @@ When activated the currently selected element(s) will be highlighted.  (The visi
     -   The **<img src="images/Assembly_AutoElementVis.svg" width=16px> [Auto element visibility](Assembly3_AutoElementVisibility.md)** button.
     -   The **Assembly3 → Element style → <img src="images/Assembly_AutoElementVis.svg" width=16px> Auto element visibility** menu option.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AutoElementVisibility/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoElementVisibility/pl

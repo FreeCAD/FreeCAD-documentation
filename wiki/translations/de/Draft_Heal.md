@@ -41,5 +41,7 @@ Dieser Befehl versucht, Objekte aus dem [Draft Arbeitsbereich](Draft_Workbench/d
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/de

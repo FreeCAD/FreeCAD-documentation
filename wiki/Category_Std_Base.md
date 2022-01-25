@@ -3,7 +3,7 @@ This category list pages related to the [Std Base](Std_Base.md), which collects 
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+    
   [App DocumentObjectGroup](App_DocumentObjectGroup.md)                   [App DocumentObjectGroup/pl](App_DocumentObjectGroup/pl.md)                   [App Link](App_Link.md)
   [App Link/pl](App_Link/pl.md)                                           [App Part](App_Part.md)                                                       [App Part/pl](App_Part/pl.md)
   [Assembly](Assembly.md)                                                 [Assembly/pl](Assembly/pl.md)                                                 [Combo view](Combo_view.md)
@@ -115,10 +115,9 @@ This category list pages related to the [Std Base](Std_Base.md), which collects 
   [Std Windows Menu](Std_Windows_Menu.md)                                 [Std Windows Menu/pl](Std_Windows_Menu/pl.md)                                 [Std Windows/pl](Std_Windows/pl.md)
   [Std Workbench](Std_Workbench.md)                                       [Std Workbench/pl](Std_Workbench/pl.md)                                       [Tree view](Tree_view.md)
   [Tree view/pl](Tree_view/pl.md)                                         [View Measure Clear All](View_Measure_Clear_All.md)                           [View Measure Clear All/pl](View_Measure_Clear_All/pl.md)
-  [View Measure Toggle All](View_Measure_Toggle_All.md)                   [View Measure Toggle All/pl](View_Measure_Toggle_All/pl.md)                   
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+  [View Measure Toggle All](View_Measure_Toggle_All.md)                   [View Measure Toggle All/pl](View_Measure_Toggle_All/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > Category:Std Base
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Std Base

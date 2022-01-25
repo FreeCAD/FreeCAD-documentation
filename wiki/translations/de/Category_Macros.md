@@ -3,7 +3,7 @@ This category contains macros to extend your FreeCAD installation with new funct
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------
+    
   [Macro 3D Parametric Curve/de](Macro_3D_Parametric_Curve/de.md)                   [Macro 3d Printer Slicer/de](Macro_3d_Printer_Slicer/de.md)                           [Macro AeroFoil/de](Macro_AeroFoil/de.md)
   [Macro Airfoil Import & Scale/de](Macro_Airfoil_Import_&_Scale/de.md)             [Macro Align Camera to Working Plane/de](Macro_Align_Camera_to_Working_Plane/de.md)   [Macro Align View to Face/de](Macro_Align_View_to_Face/de.md)
   [Macro Animated Constrain/de](Macro_Animated_Constrain/de.md)                     [Macro ArrayCopy/de](Macro_ArrayCopy/de.md)                                           [Macro at Startup/de](Macro_at_Startup/de.md)
@@ -29,10 +29,9 @@ This category contains macros to extend your FreeCAD installation with new funct
   [Macro Texture/de](Macro_Texture/de.md)                                           [Macro Unfold Box/de](Macro_Unfold_Box/de.md)                                         [Macro Unroll Ruled Surface/de](Macro_Unroll_Ruled_Surface/de.md)
   [Macro View Rotation/de](Macro_View_Rotation/de.md)                               [Macro WorkFeatures/de](Macro_WorkFeatures/de.md)                                     [Template:Macro/de](Template:Macro/de.md)
   [Macros recipes/de](Macros_recipes/de.md)                                         [Macros/de](Macros/de.md)                                                             [Qt Example/de](Qt_Example/de.md)
-  [Svg Namespace/de](Svg_Namespace/de.md)                                                                                                                                         
-  ----------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------
+  [Svg Namespace/de](Svg_Namespace/de.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md)
+
 
 ---
-[documentation index](../README.md) > Category:Macros/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Macros/de

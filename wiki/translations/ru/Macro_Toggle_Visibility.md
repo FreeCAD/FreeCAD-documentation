@@ -80,5 +80,7 @@ The discussion on the forum [Proposal: select one or more pieces, hide the other
 
 ver 00.02 12/11/2015 **macro Macro\_SelectVisible** : hidden the objects not selected, if not object selected displayed all objects, hidden all objects. This version include the tree macro in one
 
+
+
 ---
-[documentation index](../README.md) > Macro Toggle Visibility/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Toggle Visibility/ru

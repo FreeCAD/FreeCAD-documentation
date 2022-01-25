@@ -110,8 +110,5 @@ Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introducti
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/es

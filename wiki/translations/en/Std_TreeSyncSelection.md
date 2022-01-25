@@ -32,5 +32,7 @@ The Tree view SyncSelection mode can also be set in the [Preferences editor](Pre
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSyncSelection/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncSelection/en

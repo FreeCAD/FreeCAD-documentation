@@ -55,5 +55,7 @@ Când porniți o **[<img src=images/Std_DlgMacroRecord.png style="width:16px"> [
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MacroStopRecord/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroStopRecord/ro

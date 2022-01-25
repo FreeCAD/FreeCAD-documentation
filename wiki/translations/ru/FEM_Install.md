@@ -253,5 +253,7 @@ If you have problems installing Netgen, Gmsh, or CalculiX, or another external t
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM Install/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Install/ru

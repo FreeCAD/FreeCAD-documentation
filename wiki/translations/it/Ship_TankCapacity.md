@@ -17,5 +17,7 @@ Da fare
 
 {{Ship_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > Ship TankCapacity/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship TankCapacity/it

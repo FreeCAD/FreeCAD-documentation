@@ -35,5 +35,7 @@ There are many video tutorials online. One of the most popular (at the time this
 -   [Anyone willing to collaborate on writing guides for users coming from other CAD/CAM solutions to FreeCAD?](https://forum.freecadweb.org/viewtopic.php?f=8&t=42139&p=366957#p357540)
 -   [Extreme Difficulty coming from Autodesk Inventor 2019.](https://forum.freecadweb.org/viewtopic.php?f=3&t=42980#p366121)
 
+
+
 ---
-[documentation index](../README.md) > Transitioning from Solidworks to FreeCAD
+![](images/Right_arrow.png) [documentation index](../README.md) > Transitioning from Solidworks to FreeCAD

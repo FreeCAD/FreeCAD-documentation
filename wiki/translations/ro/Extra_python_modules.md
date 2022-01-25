@@ -39,7 +39,7 @@ Cea mai simplă modalitate de a instala PySide este prin managerul de pachete al
 
 #### Windows
 
-Programul poate fi descărcat de la <http://qt-project.org/wiki/<img src="images/Property.png" style="width:16px"> LanguageBindings>::PySide::Downloads. Va trebui să instalați bibliotecile Qt și SIP înainte de a instala PySide (pentru a fi documentate).
+Programul poate fi descărcat de la <http://qt-project.org/wiki/Category:LanguageBindings>::PySide::Downloads. Va trebui să instalați bibliotecile Qt și SIP înainte de a instala PySide (pentru a fi documentate).
 
 #### MacOSX
 
@@ -735,9 +735,6 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Python Code](Category_Python Code.md) > Extra python modules/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [Developer Documentation](Category_Developer Documentation.md) > Extra python modules/ro

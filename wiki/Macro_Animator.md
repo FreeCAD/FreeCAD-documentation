@@ -33,5 +33,7 @@ ToolBar Icon  ![](images/Animator.svg )
 
 {{CodeDownload|https://gist.github.com/mwganson/dace9e8dcfd861500647f9405c668358|Animator.FCMacro}}
 
+
+
 ---
-[documentation index](../README.md) > Macro Animator
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Animator

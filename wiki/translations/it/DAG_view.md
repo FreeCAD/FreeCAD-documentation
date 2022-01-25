@@ -71,5 +71,7 @@ Nell\'[editor dei parametri](Std_DlgParameter/it.md) si possono anche modificare
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > DAG view/it
+![](images/Right_arrow.png) [documentation index](../README.md) > DAG view/it

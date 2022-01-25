@@ -35,5 +35,7 @@ Cet outil ajuste la ligne jusqu\'à la première intersection rencontrée, à l\
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Trimming/fr

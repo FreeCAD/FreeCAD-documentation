@@ -58,5 +58,7 @@ Para utilizar este comando, se deben cumplir las siguientes condiciones:
 -   Escribe un **Comentario**\', que será la descripción (nombre) de la revisión.
 -   Pulse el botón **Subir**. Se abrirá un cuadro de diálogo que le permitirá guardar el archivo IFC producido en una ubicación de su elección antes de cargarlo. Si pulsa **Cancelar**, el archivo se guardará con un nombre temporal en el directorio temporal del sistema.
 
+
+
 ---
-[documentation index](../README.md) > WebTools BimServer/es
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools BimServer/es

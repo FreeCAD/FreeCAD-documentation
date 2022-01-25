@@ -67,5 +67,7 @@ Alternativ können ein oder mehrere Körper vor dem Klicken der Booleschen Schal
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/de

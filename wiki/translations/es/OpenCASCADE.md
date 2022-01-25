@@ -82,11 +82,6 @@ As√≠, a partir de las formas se pueden construir piezas muy complejas o, al rev√
 -   Seguimiento de los errores de OCCT en el bugtracker de FreeCAD [(hilo)](https://forum.freecadweb.org/viewtopic.php?f=10&t=20264)
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > OpenCASCADE/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > OpenCASCADE/es

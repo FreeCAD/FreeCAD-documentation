@@ -90,5 +90,7 @@ Hinweis: Eine neue Einstellung wurde hinzugefügt, die es dir erlaubt, deine eig
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/de

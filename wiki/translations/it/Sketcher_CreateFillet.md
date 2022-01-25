@@ -49,5 +49,7 @@ Dopo l\'esecuzione di un raccordo, lo strumento rimane attivo e permette di eseg
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/it

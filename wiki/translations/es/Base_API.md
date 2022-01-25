@@ -16,9 +16,6 @@ El módulo Base está contenido en el módulo FreeCAD y contiene constructores p
 {{APIClass|Placement| |Crea una [Ubicación](Placement_API.md).}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Base API/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Base API/es

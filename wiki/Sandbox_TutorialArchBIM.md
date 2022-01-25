@@ -1,12 +1,16 @@
+---
+- TutorialInfo:/en
+   Topic:Modeling
+   Level:Intermediate
+   Time:Indefinate
+   Author:[cadgiru](User_cadgiru.md)
+   FCVersion:0.17
+   Files:
+---
+
 # Sandbox:TutorialArchBIM
-{{TutorialInfo/en
-|Topic=Modeling
-|Level=Intermediate
-|Time=Indefinate
-|Author=[cadgiru](User_cadgiru.md)
-|FCVersion=0.17
-|Files=
-}}
+
+
 
 ![800 px](images/At2_goal.jpg )
 
@@ -26,12 +30,12 @@ Currently this document is **WORK in Progress**
 
 ### Contributors
 
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   [Yorik van Havre](http://yorik.uncreated.net/)                                        Main developer of Arch Workbench, and original author of this document
   [Peter Sande](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=10838)   Initiator and co-author of this update. Freecad 0.17 / 0.18 in summer / fall of 2018. The purpose was to seriously try to learn some Freecad Work flows, after playing with it at various points in time over at least the last 5 years.
   [Wilson](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=20694)        
   Other                                                                                 In order to make this a working document we need additional users
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
 ### Conventions
 
@@ -1474,7 +1478,7 @@ Also in {{Code|
 
 }}
 
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
+
 
 ---
-[documentation index](../README.md) > Sandbox:TutorialArchBIM
+![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:TutorialArchBIM

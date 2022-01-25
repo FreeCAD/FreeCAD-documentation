@@ -207,5 +207,7 @@ Questa macro si basa sul codice di microelly2, vedere [Looking for some helpful 
 
 Altra discussione sul foro [Macro\_Connect\_And\_Sweep](https://forum.freecadweb.org/viewtopic.php?f=22&t=35432)
 
+
+
 ---
-[documentation index](../README.md) > Macro Connect And Sweep/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Connect And Sweep/it

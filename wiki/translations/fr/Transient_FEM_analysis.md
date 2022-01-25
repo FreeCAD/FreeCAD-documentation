@@ -1,15 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic: Analyse FEM transitoire
+   Level: 
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Transient FEM analysis/fr
-}
+
+ }
 
 
-{{TutorialInfo/fr
-|Topic= Analyse FEM transitoire
-|Level= 
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
 
 ## Contexte
 
@@ -90,9 +93,9 @@ Dans FreeCAD, nous pouvons utiliser <img alt="" src=images/FEM_PostPipelineFromR
 -   [Exemple bimétallique analytique](https://forum.freecadweb.org/viewtopic.php?f=18&t=43040&start=10#p366664). L\'exemple analytique présenté dans le forum est inclus dans les exemples FreeCAD FEM. Il peut être démarré par Python à partir de femexamples.thermomech\_bimetall import setup setup()
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Transient FEM analysis/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Transient FEM analysis/fr

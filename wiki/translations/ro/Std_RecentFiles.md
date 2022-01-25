@@ -48,5 +48,7 @@ Documentul este deschis și inserat în proiect.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std RecentFiles/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std RecentFiles/ro

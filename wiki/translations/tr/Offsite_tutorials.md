@@ -16,9 +16,6 @@ Bu sayfa, web\'deki diğer sitelerde bulunan FreeCAD kılavuzlarını listeler.
     -   5 - camshaft gear : <http://freecad-tutorial.blogspot.com/2011/10/engine-5-camshaft-gear.html>
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Offsite tutorials/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Offsite tutorials/tr

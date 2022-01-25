@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ro
+   Topic: Whiffle Ball (Part Module)
+   Level: Beginner
+   Time:
+   Author:r-frank
+   FCVersion:0.16.6703
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true] Whiffle Ball
+---
+
 # Whiffle Ball tutorial/ro
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro
-|Topic= Whiffle Ball (Part Module)
-|Level= Beginner
-|Time=
-|Author=r-frank
-|FCVersion=0.16.6703
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true] Whiffle Ball
-}}
 
 
 </div>
@@ -408,9 +414,6 @@ Felicitări! Tocmai ați terminat cu succes acest tutorial!
 *Final whiffle ball model with fillets applied to the edges.*
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Whiffle Ball tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/ro

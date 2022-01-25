@@ -52,5 +52,7 @@ Inserisce una vista di una parte in un progetto raytracing.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/it

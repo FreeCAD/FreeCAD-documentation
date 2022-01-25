@@ -41,9 +41,6 @@ Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggett
 -   La ibreria può funzionare offline, nel qual caso si basa sull\'addon della Libreria delle parti da installare (e aggiornare dall\'utente), oppure online, nel qual caso naviga direttamente da [Parts Library Git repository](https://github.com/FreeCAD/FreeCAD-library) e permette di scaricare direttamente da lì.
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/it

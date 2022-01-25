@@ -178,9 +178,6 @@ Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Arch/es](<img src="images/Property.png" style="width:16px"> Arch/es.md)
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Stairs/es

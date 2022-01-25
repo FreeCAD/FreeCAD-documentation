@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to Sketcher
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+    
   [Basic Part Design Tutorial/es](Basic_Part_Design_Tutorial/es.md)                                 [Basic Sketcher Tutorial/es](Basic_Sketcher_Tutorial/es.md)                                                     [Constraint/es](Constraint/es.md)
   [Creating a simple part with PartDesign/es](Creating_a_simple_part_with_PartDesign/es.md)         [Part and PartDesign/es](Part_and_PartDesign/es.md)                                                             [Sketch/es](Sketch/es.md)
   [Sketcher CarbonCopy/es](Sketcher_CarbonCopy/es.md)                                               [Sketcher Clone/es](Sketcher_Clone/es.md)                                                                       [Sketcher CloseShape/es](Sketcher_CloseShape/es.md)
@@ -35,8 +35,8 @@ This category includes FreeCAD pages related to Sketcher
   [Sketcher Symmetry/es](Sketcher_Symmetry/es.md)                                                   [Sketcher ToggleConstruction/es](Sketcher_ToggleConstruction/es.md)                                             [Sketcher ToggleDrivingConstraint/es](Sketcher_ToggleDrivingConstraint/es.md)
   [Sketcher Trimming/es](Sketcher_Trimming/es.md)                                                   [Sketcher Tutorial/es](Sketcher_Tutorial/es.md)                                                                 [Sketcher ValidateSketch/es](Sketcher_ValidateSketch/es.md)
   [Sketcher ViewSketch/es](Sketcher_ViewSketch/es.md)                                               [Sketcher Workbench/es](Sketcher_Workbench/es.md)                                                               [Toothbrush Head Stand/es](Toothbrush_Head_Stand/es.md)
-                                                                                                                                                                                                                                    
-  --------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:Sketcher/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sketcher/es

@@ -33,5 +33,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="wid
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltSide/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadBoltSide/fr

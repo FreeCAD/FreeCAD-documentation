@@ -251,5 +251,7 @@ Label move is not implemented yet. But drawing move,size and resize in deed is t
 
 to be continued\...
 
+
+
 ---
-[documentation index](../README.md) > Fr Widget Basics
+![](images/Right_arrow.png) [documentation index](../README.md) > Fr Widget Basics

@@ -1,11 +1,12 @@
 # Basic modeling tutorial/ro
-{{TutorialInfo/ro
-|Topic= Introduction to modelling
-|Level= Beginner
-|Time= 15 minutes
-|Author=[NormandC](User_Normandc.md)
-|FCVersion=any
-|Files=none
+---
+- TutorialInfo:/ro
+   Topic: Introduction to modelling
+   Level: Beginner
+   Time: 15 minutes
+   Author:[NormandC](User_Normandc.md)
+   FCVersion:any
+   Files:none
 }}
 
 ## Introduction
@@ -165,7 +166,7 @@ Activați atelierul Piese [Part Workbench](Part_Workbench.md) fie din selectorul
 
 <div class="mw-translate-fuzzy">
 
-Click on the **<img src="images/Part_Extrude.png" width=32px> [Extrude](Part_Extrude.md)** tool.
+Click on the **![](images/)**_tool.
 
 
 </div>
@@ -201,9 +202,10 @@ Eticheta de pe butonul dvs. poate fi diferită, în funcție de versiunea dvs. �
 Instrucțiunile de mai sus vor funcționa, indiferent de eticheta pe care o are butonul.
 
 
-{{Tutorials navi
+  {{Userdocnavi
+---
 
-}}
+
 
 ---
-[documentation index](../README.md) > Basic modeling tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/ro

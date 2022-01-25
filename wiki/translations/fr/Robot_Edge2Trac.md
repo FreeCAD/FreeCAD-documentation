@@ -57,5 +57,7 @@ Vous pouvez changer les valeurs de cette trajectoire en définissant une [Modifi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/fr

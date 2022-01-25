@@ -37,5 +37,7 @@ Questo comando consente di inserire e posizionare un riquadro rettangolare, deno
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/it

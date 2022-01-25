@@ -116,10 +116,5 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 
 
 
-
-
-
-[<img src="images/Property.png" style="width:16px"> Documentation/es](<img src="images/Property.png" style="width:16px"> Documentation/es.md)
-
 ---
-[documentation index](../README.md) > Free-cad:Community Portal/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Free-cad:Community Portal/es

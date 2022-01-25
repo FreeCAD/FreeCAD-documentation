@@ -31,7 +31,7 @@ The **Groove** tool revolves a selected sketch or profile about a given axis, cu
 
 When creating a groove, the **Groove parameters** dialogue offers several parameters specifying how the sketch should be revolved.
 
-+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/partdesign_groove_parameters.png ) | ### Axis                                                                                                                                                                                                                                                                                                |
 |                                                                          |                                                                                                                                                                                                                                                                                                         |
 |                                                                          | This option specifies the axis about which the sketch is to be revolved.                                                                                                                                                                                                                                |
@@ -54,7 +54,7 @@ When creating a groove, the **Groove parameters** dialogue offers several parame
 |                                                                          | ### Reversed                                                                                                                                                                                                                                                                                            |
 |                                                                          |                                                                                                                                                                                                                                                                                                         |
 |                                                                          | If checked, the direction of revolution is reversed from default clockwise to counterclockwise .                                                                                                                                                                                                        |
-+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ## Properties
 
@@ -78,5 +78,7 @@ Below are properties which can be defined after creation of the feature. Data pr
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/tr

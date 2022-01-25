@@ -136,10 +136,10 @@ class Ui_ReplacePart(object):
       self.centralWidget.setObjectName(_fromUtf8("centralWidget"))
       
       """
-      #*** FIXME ***----------------------------
+      #*** FIXME ***
       #self.centralWidget.setAttribute(QtCore.Qt.WA_DeleteOnClose)
       self.centralWidget.setAttribute(QtCore.Qt.WA_DeleteOnClose, True)
-      #*** FIXME ***----------------------------
+      #*** FIXME ***
       """
       
       self.groupBoxNewName = QtGui.QButtonGroup()
@@ -310,12 +310,12 @@ class Ui_ReplacePart(object):
       self.radioButtonColorFromOld.setChecked(True) #Set the default color inherit to your preference
 
       """
-      #*** FIXME ***----------------------------
+      #*** FIXME ***
       self.timer = QtCore.QTimer()
       QtCore.QObject.connect(self.timer, QtCore.SIGNAL("timeout()"), self.my_update)
       self.timer.start(2000)
 
-      #*** FIXME ***----------------------------
+      #*** FIXME ***
       """
       self.retranslateUi(ReplacePart)
       
@@ -353,7 +353,7 @@ class Ui_ReplacePart(object):
       self.radioButtonColorFromOld.setText(_translate("ReplacePart", "Old part", None))
 
    """
-   #*** FIXME ***----------------------------
+   #*** FIXME ***
 
    def my_update(self):
       selectedPart = self.getSelectedPart()
@@ -384,7 +384,7 @@ class Ui_ReplacePart(object):
       else:
          event.ignore()
 
-   #--------------------------------------
+   #
    """
 
    def on_pushButtonNew_clicked(self):
@@ -624,5 +624,7 @@ class replace():
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Replace Part in Assembly/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Replace Part in Assembly/it

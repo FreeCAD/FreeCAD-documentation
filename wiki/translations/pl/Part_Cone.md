@@ -49,5 +49,7 @@ cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 -   Gdzie parametr {{Incode|"myCone"}} jest etykietą dla obiektu.
 -   Funkcja zwraca nowo utworzony obiekt.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/pl

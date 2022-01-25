@@ -63,5 +63,7 @@ else:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Toggle Panels Visibility/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Toggle Panels Visibility/fr

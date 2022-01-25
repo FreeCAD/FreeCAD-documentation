@@ -23,5 +23,7 @@ Related to the first object the following object can still spin around the origi
 2.  Select one point element of each object
 3.  Press the **<img src="images/Assembly_ConstraintPointCoincident.svg" width=16px> [Points coincident](Assembly3_ConstraintPointsCoincident.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointsCoincident
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsCoincident

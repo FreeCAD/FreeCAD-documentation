@@ -3,7 +3,7 @@ This category list pages related to the \"User\_Documentation/cs\" and \"Workben
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [Draft AddToGroup/cs](Draft_AddToGroup/cs.md)                           [Draft API/cs](Draft_API/cs.md)                                 [Draft ApplyStyle/cs](Draft_ApplyStyle/cs.md)
   [Draft Arc/cs](Draft_Arc/cs.md)                                         [Draft Array/cs](Draft_Array/cs.md)                             [Draft BezCurve/cs](Draft_BezCurve/cs.md)
   [Draft BSpline/cs](Draft_BSpline/cs.md)                                 [Draft Circle/cs](Draft_Circle/cs.md)                           [Draft Clone/cs](Draft_Clone/cs.md)
@@ -21,10 +21,9 @@ This category list pages related to the \"User\_Documentation/cs\" and \"Workben
   [Draft ToggleConstructionMode/cs](Draft_ToggleConstructionMode/cs.md)   [Draft ToggleContinueMode/cs](Draft_ToggleContinueMode/cs.md)   [Draft ToggleDisplayMode/cs](Draft_ToggleDisplayMode/cs.md)
   [Draft ToggleGrid/cs](Draft_ToggleGrid/cs.md)                           [Draft Trimex/cs](Draft_Trimex/cs.md)                           [Draft tutorial/cs](Draft_tutorial/cs.md)
   [Draft Upgrade/cs](Draft_Upgrade/cs.md)                                 [Draft Wire/cs](Draft_Wire/cs.md)                               [Draft WireToBSpline/cs](Draft_WireToBSpline/cs.md)
-  [Draft Workbench/cs](Draft_Workbench/cs.md)                                                                                                     
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------------------------------------------------------
+  [Draft Workbench/cs](Draft_Workbench/cs.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/cs](<img src="images/Property.png" style="width:16px"> User_Documentation/cs.md) [<img src="images/Property.png" style="width:16px"> Workbenches/cs](<img src="images/Property.png" style="width:16px"> Workbenches/cs.md)
+
 
 ---
-[documentation index](../README.md) > Category:Draft/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/cs

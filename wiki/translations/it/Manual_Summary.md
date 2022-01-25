@@ -58,7 +58,5 @@ C\'è un altro indice per il [Sommario della **Guida in linea**](Online_Help_Toc
 
 
 
-[<img src="images/Property.png" style="width:16px"> Manual](Category_Manual.md)
-
 ---
-[documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/it

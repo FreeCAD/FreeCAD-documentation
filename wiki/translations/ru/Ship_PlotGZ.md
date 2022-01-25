@@ -22,5 +22,7 @@ TODO
 
 {{Ship_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > Ship PlotGZ/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship PlotGZ/ru

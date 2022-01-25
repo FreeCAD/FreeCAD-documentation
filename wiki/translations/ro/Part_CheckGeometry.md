@@ -51,5 +51,7 @@ Dacă doriți să activați verificările extra BOP (BOP = Operații booleene), 
 
 If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/ro

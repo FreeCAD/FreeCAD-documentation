@@ -56,5 +56,7 @@ When you press the **Accept** button, the computation starts. It may hang FreeCA
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Ship Area/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship Area/ru

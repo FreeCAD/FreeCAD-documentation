@@ -30,5 +30,7 @@ The **Mesh RemoveCompByHand** command removes components from mesh objects.
 
  {{Mesh Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand

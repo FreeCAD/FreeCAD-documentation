@@ -84,5 +84,7 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 
 L\'outil lui-même est implémenté en Python, voir {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) là où FreeCAD est installé.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinCutout/fr

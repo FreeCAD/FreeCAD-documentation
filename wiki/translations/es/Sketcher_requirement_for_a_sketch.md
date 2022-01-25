@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/es
+   Topic:Croquis
+   Level:Principiante
+   Author:[Maker](User_Maker.md)
+   Time:
+   FCVersion:
+---
+
 # Sketcher requirement for a sketch/es
-{{TutorialInfo/es
-|Topic=Croquis
-|Level=Principiante
-|Author=[Maker](User_Maker.md)
-|Time=
-|FCVersion=
-}}
+
+
+
+
 
 ## Requisito mínimo para un croquis 
 
@@ -45,5 +51,7 @@ Si crea accidentalmente una \"sobremodulación\", aparece una advertencia en la 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/es

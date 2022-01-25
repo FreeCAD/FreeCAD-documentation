@@ -10,7 +10,7 @@
 
 ## 简介
 
-FreeCAD的实体建模能力都是基于 [Open Cascade Technology](http://en.wikipedia.org/wiki/Open_Cascade_Technology) (OCCT)内核------一种具有创建与处理高级3D几何体等特性的专业级CAD系统。[零件工作台（Part Workbench）是一种建立于OCCT库之上的层级](Part_Workbench.md)，为用户提供了访问OCCT几何图元与函数的功能。每种工作台(如[底图工作台](Draft_Workbench.md), [草图工作台](Sketcher_Workbench.md), [零件设计工作台等等](PartDesign_Workbench.md))的一切2D与3D绘制功能其实都是基于零件工作台暴露出的函数实现的。因此，可以认为零件工作台是FreeCAD建模功能的核心组件。
+FreeCAD的实体建模能力都是基于 [Open Cascade Technology](http://en.wikipedia.org/wiki/Open_Cascade_Technology) (OCCT)内核一种具有创建与处理高级3D几何体等特性的专业级CAD系统。[零件工作台（Part Workbench）是一种建立于OCCT库之上的层级](Part_Workbench.md)，为用户提供了访问OCCT几何图元与函数的功能。每种工作台(如[底图工作台](Draft_Workbench.md), [草图工作台](Sketcher_Workbench.md), [零件设计工作台等等](PartDesign_Workbench.md))的一切2D与3D绘制功能其实都是基于零件工作台暴露出的函数实现的。因此，可以认为零件工作台是FreeCAD建模功能的核心组件。
 
 
 </div>
@@ -319,11 +319,5 @@ These tools perform boolean operations.
 
 
 
-
-
- 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/zh-cn

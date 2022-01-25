@@ -29,5 +29,7 @@ Der **Std AllesAuswählen** Befehl wählt alle Objekte in der [Baumansicht](Tree
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SelectAll/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectAll/de

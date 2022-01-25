@@ -137,5 +137,7 @@ Wenn Du in {{MenuCommand/de|[<img src=images/Std_DlgMacroExecuteDirect.png style
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgMacroExecute/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecute/de

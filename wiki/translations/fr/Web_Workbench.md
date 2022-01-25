@@ -8,11 +8,5 @@ L\'[atelier Web](Web_Workbench/fr.md) n\'est pas vraiment un atelier de modélis
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Web](Category_Web.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Category_Web.md) > [Workbenches](Category_Workbenches.md) > Web Workbench/fr

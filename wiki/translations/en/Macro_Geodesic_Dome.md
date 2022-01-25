@@ -345,5 +345,7 @@ ToolBar Icon ![](images/Macro_Geodesic_Dome.svg )
 
 Forum [Designing geodesic dome](https://forum.freecadweb.org/viewtopic.php?t=9174)
 
+
+
 ---
-[documentation index](../README.md) > Macro Geodesic Dome/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Geodesic Dome/en

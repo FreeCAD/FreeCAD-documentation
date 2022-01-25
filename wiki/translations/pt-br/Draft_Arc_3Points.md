@@ -106,5 +106,7 @@ doc.recompute()
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/pt-br

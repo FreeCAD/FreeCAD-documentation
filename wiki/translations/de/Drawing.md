@@ -26,9 +26,9 @@ Wenn jedoch mehr Präzision erforderlich ist, muss eine Unterscheidung getroffen
 
 {{TechDraw Tools navi
 
-}} {{Document objects navi}} 
+}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Drawing/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [TechDraw](Category_TechDraw.md) > Drawing/de

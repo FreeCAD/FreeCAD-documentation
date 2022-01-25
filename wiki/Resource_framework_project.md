@@ -116,9 +116,7 @@ A class design for the Resource framwork.
 -   Build up test repositories on the Server and two local machines
 -   Test different use cases
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Resource framework project
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Resource framework project

@@ -41,5 +41,7 @@ Temel Geometrik şekil oluştur diyalog penceresine, Parça menüsünde veya Par
 -   **Açı 1:** elipsin kenarının başlangıcı veya eliptik eğri kenarları (saat yönünün tersine derece), varsayılan değer 0
 -   **Açı 2:** elipsin kenarının sonu veya eliptik kavisli kenar, (saat yönünün tersine derece), varsayılan değer 360
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/tr

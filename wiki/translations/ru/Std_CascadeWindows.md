@@ -28,5 +28,7 @@ The **Std CascadeWindows** command rearranges the windows in the [Main view area
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std CascadeWindows/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std CascadeWindows/ru

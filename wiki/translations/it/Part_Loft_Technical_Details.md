@@ -23,9 +23,9 @@ Se almeno uno dei profili ha un numero di segmenti diverso dagli altri, viene ap
 
 L\'operazione è applicata a tutti i profili, per produrre in ognuno un numero uguale di segmenti. Il numero totale di segmenti in ciascun profilo sarà pari alla somma di tutti i numeri di segmenti di tutti i profili (capita che su un determinato angolo polare non sia disponibile nessun vertice).
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   <img alt="Il processo con cui profile2 (la forma simile a una mezzaluna bianca) viene suddiviso per creare le giunzioni corrispondenti ai vertici di profile1 (il pentagono rosso). Le giunzioni inserite sono contrassegnate dalle frecce gialle." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="Il risultato del Loft relativo all\'immagine di sinistra." src=images/Loft_crescent_pentagon.png  style="width:300px;">
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
 ### Fase 2. Stabilire la corrispondenza tra i segmenti 
 
@@ -65,14 +65,10 @@ Notare che Loft ha una proprietà \"Ruled\". Se è impostata su true, le superfi
 -   Per Loft, non è necessario che i profili siano separati (vedere figura sotto). Possono essere complanari, ma non dovrebbero intersecarsi.
 -   Quando la proprietà \"Closed\" del Loft è \"true\", appare una giunzione a cuspide per tutte le spline che formano il Loft (vedere l\'immagine qui sotto). Per ora, non c\'è alcun modo affidabile per chiudere il Loft senza spigoli vivi.
 
-  ----------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
   <img alt="Non è necessario che i profili siano paralleli." src=images/Loft_nonparallel.png  style="width:300px;">   <img alt="In Loft, i profili possono essere complanari. In questo esempio, due dei tre profili sono complanari." src=images/Loft_Coplanar.png  style="width:300px;">   <img alt="Un esempio di un Loft chiuso tra tre profili pentagonali bianchi. Notare la giunzione non levigata sul profilo più esterno. Questo è il primo profilo nel loft chiuso." src=images/Loft-closed.png  style="width:300px;">
-  ----------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/it

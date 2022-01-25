@@ -211,7 +211,7 @@ La finestra di questa macro è indipendente dalla finestra di FreeCAD e può ess
 
 {{languages/it| }}
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Command\_Reference/it](<img src="images/Property.png" style="width:16px"> Command_Reference/it.md) [<img src="images/Property.png" style="width:16px"> Macros/it](<img src="images/Property.png" style="width:16px"> Macros/it.md)
+
 
 ---
-[documentation index](../README.md) > Standard Parts/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Standard Parts/it

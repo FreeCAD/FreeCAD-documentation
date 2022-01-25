@@ -1,15 +1,18 @@
+---
+- TutorialInfo:/pl
+   Topic: Projekty / Kreślenie
+   Level: Początkujący
+   Time: 15 minut
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 lub nowszy
+   Files:
+---
+
 # Drawing tutorial/pl
-**Rozwój Środowiska pracy [Kreślenie](Drawing_Workbench/pl.md) zatrzymał się w FreeCAD '''0.16''', a nowe Środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) mające na celu zastąpienie go zostało wprowadzone w wersji '''0.17'''. Oba Środowiska pracy są nadal dostępne w wersji '''0.17''', ale środowisko pracy Kreślenie może zostać usunięte w przyszłych wydaniach.**
+
+ **Rozwój Środowiska pracy [Kreślenie](Drawing_Workbench/pl.md) zatrzymał się w FreeCAD '''0.16''', a nowe Środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) mające na celu zastąpienie go zostało wprowadzone w wersji '''0.17'''. Oba Środowiska pracy są nadal dostępne w wersji '''0.17''', ale środowisko pracy Kreślenie może zostać usunięte w przyszłych wydaniach.**
 
 
-{{TutorialInfo/pl
-|Topic= Projekty / Kreślenie
-|Level= Początkujący
-|Time= 15 minut
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16 lub nowszy
-|Files=
-}}
 
 ### Introduction
 
@@ -111,9 +114,9 @@ We are now finished with the basic workflow for the [Drawing Workbench](Drawing_
 -   For more information about the tools available check out the [Drawing Workbench](Drawing_Workbench.md) page
 
 
-{{Tutorials navi
+ {{Drawing Tools navi}}
 
-}} {{Drawing Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial/pl

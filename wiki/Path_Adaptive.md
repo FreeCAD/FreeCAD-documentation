@@ -222,5 +222,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Adaptive

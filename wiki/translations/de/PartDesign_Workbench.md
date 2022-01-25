@@ -210,7 +210,7 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
  {{PartDesign Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/de

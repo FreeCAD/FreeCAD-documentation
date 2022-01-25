@@ -37,5 +37,7 @@ Copia este legată cu traiectoria originală. Dacă originalul se schimbă, la f
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/ro

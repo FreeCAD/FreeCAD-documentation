@@ -28,5 +28,7 @@ See [Points Convert](Points_Convert.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Merge/en

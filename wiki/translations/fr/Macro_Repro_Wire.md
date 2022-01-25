@@ -145,5 +145,7 @@ except Exception:
 
 Le forum [are there any tools to extrude only selected surface from a sketch?](http://forum.freecadweb.org/viewtopic.php?f=3&t=12922)
 
+
+
 ---
-[documentation index](../README.md) > Macro Repro Wire/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Repro Wire/fr

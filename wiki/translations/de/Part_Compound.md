@@ -42,5 +42,7 @@ Um diese Prüfung einzuschalten, gehe zu {{MenuCommand/de|Werkzeuge → Paramete
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/de

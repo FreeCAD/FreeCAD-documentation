@@ -30,5 +30,7 @@ Der **Netz BegrenzungsRahmen** Befehl zeigt die Begrenzungsrahmen Koordinaten ei
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/de

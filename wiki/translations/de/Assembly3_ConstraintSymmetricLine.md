@@ -28,5 +28,7 @@ Oder
 3.  Ein gerades Linienelement des dritten Objekts auswählen.
 4.  Schaltfläche **<img src="images/Assembly_ConstraintSymmetricLine.svg" width=16px> [Achsensymmetrie](Assembly3_ConstraintSymmetricLine/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSymmetricLine/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetricLine/de

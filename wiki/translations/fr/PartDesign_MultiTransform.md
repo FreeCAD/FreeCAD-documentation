@@ -111,7 +111,7 @@ Une fois lancé et complété de cette façon, **![](images/)_[Transformation_m
 
 ## Options
 
-+--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Multitransfrom_parameters.png ) | Lors de la création d\'une fonction de multitransformation, la boîte de dialogue \'paramètres de multitransformation\' propose deux listes différentes.                                                                                                                                                                                                                                                                                                                         |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    | ### Sélectionnez les originaux                                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -137,7 +137,7 @@ Une fois lancé et complété de cette façon, **![](images/)_[Transformation_m
 |                                                                    | #### Monter/Descendre                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    | Permet de changer l\'ordre des transformations dans la liste                                                                                                                                                                                                                                                                                                                                                                                                                    |
-+--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ## Exemples
 
@@ -153,5 +153,7 @@ Une fois lancé et complété de cette façon, **![](images/)_[Transformation_m
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/fr

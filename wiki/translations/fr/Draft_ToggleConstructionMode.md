@@ -38,5 +38,7 @@ Dans la version 0.19 de FreeCAD, cette commande et la commande [Draft Ajouter au
 -   Pour modifier l\'étiquette ({{Version/fr|0.20}}) du groupe de construction : **Edition → Préférences... → Draft → Paramètres généraux → Géométrie de construction → Nom du groupe de construction**.
 -   Pour modifier la couleur utilisée : **Edition → Préférences... → Draft → Paramètres généraux → Géométrie de construction → Couleur de la géométrie de construction**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/fr

@@ -45,9 +45,7 @@ patience.show()                    #show the image
  ![](images/Qlabel_Image_Animee00.gif )  
 *Example QLabel with animated GIF.*
 
- {{Powerdocnavi}} 
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Dialog creation image and animated GIF
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Dialog creation image and animated GIF

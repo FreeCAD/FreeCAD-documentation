@@ -69,7 +69,7 @@ Links to forum thread discussions related to this topic
 
 -   Discussion: FreeCAD is not ready for 1.0 ([forum thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=43461))
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
+
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD Managing Expectations/en

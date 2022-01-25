@@ -23,5 +23,7 @@ Es kann genutzt werden, um entweder **Festlegungen**, **Elemente**, oder **Part-
 
 :   Solange die Auswahl verschiedene Arten von Objekten enthält, ist die Schaltfläche **<img src="images/Assembly_New_Group.svg‎‎" width=16px> [Objekte gruppieren](Assembly3_GroupObjects/de.md)** inaktiv.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 GroupObjects/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 GroupObjects/de

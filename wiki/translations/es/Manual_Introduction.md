@@ -13,5 +13,7 @@ Este manual está siendo escrito para la versión estable más reciente de FreeC
 
 El contenido de este manual se publica bajo la licencia [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/), y puede ser utilizado, descargado, copiado y modificado libremente. Los archivos fuente de este manual están alojados en esta [wiki](Main_Page/es.md), y en la cuenta original [github](https://github.com/yorikvanhavre/FreeCAD-manual) utilizada para escribir la primera versión de este libro. Hay versiones HTML, PDF, MOBI y EPUB más fáciles de leer en [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). Se está preparando una versión impresa.
 
+
+
 ---
-[documentation index](../README.md) > Manual:Introduction/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Introduction/es

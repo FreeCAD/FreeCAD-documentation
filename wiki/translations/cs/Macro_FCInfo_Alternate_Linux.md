@@ -45,5 +45,7 @@ Soubory uložené s tímto makrem nejsou kompatibilní se soubory ostatních ver
 
 Obě verze mohou pracovat nezávisle na použitém operačním systému.
 
+
+
 ---
-[documentation index](../README.md) > Macro FCInfo Alternate Linux/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfo Alternate Linux/cs

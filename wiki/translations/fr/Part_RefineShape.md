@@ -57,5 +57,7 @@ La commande Python pour affiner une forme est la suivante:
 shape.removeSplitter()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/fr

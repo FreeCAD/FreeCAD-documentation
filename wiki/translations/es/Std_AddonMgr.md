@@ -69,7 +69,13 @@ Si has desarrollado un ambiente de trabajo o macro, y quieres verlo incluido en 
 
 ### Ambientes de trabajo Python 
 
+
+<div class="mw-translate-fuzzy">
+
 Para las ambientes de trabajo en python, no necesitas ninguna aprobación específica para que tu ambientes de trabajo sea añadido al gestor de complementos y, al estar fuera del código fuente de FreeCAD, puedes elegir la licencia que quieras. Si solicitas que tu ambiente de trabajo sea añadido a la lista (no añadiremos ningún nuevo ambiente de trabajo sin una petición de sus autores), ya sea pidiéndolo en el foro o abriendo una incidencia en el repositorio [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/), tu código permanecerá en tu propio repositorio git, sólo lo añadiremos como un submódulo al repositorio [FreeCAD-complementos](https://github.com/FreeCAD/FreeCAD-addons/). Por supuesto, antes de añadir tu ambiente de trabajo, le echaremos un vistazo y nos aseguraremos de que no hay nada potencialmente problemático en él.
+
+
+</div>
 
 ### Ambientes de trabajo C++ 
 
@@ -83,5 +89,7 @@ Si desarrollas un ambiente de trabajo en C++, no puede ser ejecutado directament
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std AddonMgr/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Std AddonMgr/es

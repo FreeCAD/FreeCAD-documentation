@@ -43,5 +43,7 @@ Comanda **[16px|text-top=Std Copy|link=Std Copy/fr](File:Std_Copy.png.md) [copie
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Copy/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Copy/ro

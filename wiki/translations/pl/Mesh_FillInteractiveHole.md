@@ -36,5 +36,7 @@ The **Mesh FillInteractiveHole** command fills selected holes in mesh objects.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/pl

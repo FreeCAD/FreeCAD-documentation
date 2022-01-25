@@ -46,5 +46,7 @@ Der **Std SendeAnPythonKonsole** Befehl erstellt eine Variable in der [Python Ko
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SendToPythonConsole/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SendToPythonConsole/de

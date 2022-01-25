@@ -42,5 +42,7 @@ Creează o constrângere MEF pentru a o deplasare prescrisă a unui obiect selec
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ConstraintDisplacement/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintDisplacement/ro

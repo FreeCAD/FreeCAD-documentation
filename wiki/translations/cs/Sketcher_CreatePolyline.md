@@ -54,5 +54,7 @@ Nástroj má vícenásobný mód, který může bý přepnut klávesou **M**. Na
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePolyline/cs

@@ -34,5 +34,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Part/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Artwork Part/ru

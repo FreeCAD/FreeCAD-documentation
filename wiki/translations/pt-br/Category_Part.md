@@ -3,7 +3,7 @@ This category lists pages related to the [Part Workbench/pt-br](Part_Workbench/p
 
 ### Contents:
 
-  --------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [Basic modeling tutorial/pt-br](Basic_modeling_tutorial/pt-br.md)         [Constructive solid geometry/pt-br](Constructive_solid_geometry/pt-br.md)   [Part and PartDesign/pt-br](Part_and_PartDesign/pt-br.md)
   [Part Boolean/pt-br](Part_Boolean/pt-br.md)                               [Part BooleanFragments/pt-br](Part_BooleanFragments/pt-br.md)               [Part Box/pt-br](Part_Box/pt-br.md)
   [Part BoxSelection/pt-br](Part_BoxSelection/pt-br.md)                     [Part Builder/pt-br](Part_Builder/pt-br.md)                                 [Part Chamfer/pt-br](Part_Chamfer/pt-br.md)
@@ -31,10 +31,9 @@ This category lists pages related to the [Part Workbench/pt-br](Part_Workbench/p
   [Part Sphere/pt-br](Part_Sphere/pt-br.md)                                 [Part Spiral/pt-br](Part_Spiral/pt-br.md)                                   [Part Sweep/pt-br](Part_Sweep/pt-br.md)
   [Part Thickness/pt-br](Part_Thickness/pt-br.md)                           [Part Torus/pt-br](Part_Torus/pt-br.md)                                     [Part TransformedCopy/pt-br](Part_TransformedCopy/pt-br.md)
   [Part Tube/pt-br](Part_Tube/pt-br.md)                                     [Part Wedge/pt-br](Part_Wedge/pt-br.md)                                     [Part XOR/pt-br](Part_XOR/pt-br.md)
-  [Topological naming problem/pt-br](Topological_naming_problem/pt-br.md)                                                                                       
-  --------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- ---------------------------------------------------------------------------
+  [Topological naming problem/pt-br](Topological_naming_problem/pt-br.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/pt-br](<img src="images/Property.png" style="width:16px"> Workbenches/pt-br.md)
+
 
 ---
-[documentation index](../README.md) > Category:Part/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/pt-br

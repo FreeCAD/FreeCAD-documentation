@@ -100,5 +100,7 @@ Crearea unui Șablon
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/ro

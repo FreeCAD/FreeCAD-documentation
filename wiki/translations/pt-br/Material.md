@@ -88,7 +88,7 @@ Here now the description of agreed material-properties. Feel free to add a subse
 ### General
 
   property name    Description                                                                                                                                                                       Unit/Data-Type
-  ---------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------
+    
   Name             Unique name of the property, following the rules described above                                                                                                                  ASCII string 7-bit
   Father           Name of the material group this material belongs to. If defined this material inherits all the father properties. That means if not defined the father properties will be used.   ASCII string 7-bit
   Description      A placeholder for a longer description of the material                                                                                                                            ASCII string 7-bit
@@ -104,7 +104,7 @@ Here now the description of agreed material-properties. Feel free to add a subse
 ### Mechanical
 
   property name                         Description                                                                                                                                                                                                                                                                                                                            Unit/Data-Type
-  ------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------
+    
   Young\'s Modulus                      Young\'s modulus, also known as the tensile modulus or elastic modulus, is a measure of the stiffness of an elastic material and is a quantity used to characterize materials. See: [Young\'s modulus](http://en.wikipedia.org/wiki/Young%27s_modulus)                                                                                 kg\*mm\^-1\*s\^-2 (kPa)
   Poisson\'s Ratio                      The lateral contraction of materials under tension as a fraction of their elongation. See: [Poisson\'s Ratio](https://en.wikipedia.org/wiki/Poisson%27s_ratio)                                                                                                                                                                         Dimensionless (-)
   Yield Strength                        The stress at which a ductile material (like steel) starts to develop plastic (irreversible) deformation. See: [Yield Strength](https://en.wikipedia.org/wiki/Yield_(engineering))                                                                                                                                                     N\'\*mm\^-2 (MPa)
@@ -124,7 +124,7 @@ Here now the description of agreed material-properties. Feel free to add a subse
 This section defines material-properties which are related to the visual appearance of the material. The
 
   property name    Description                                                                                          Unit/Data-Type
-  ---------------- ---------------------------------------------------------------------------------------------------- ----------------------------------
+    
   AmbientColor     Ambient color in the Coin3D color model                                                              float,float,float range: 0.0-1.0
   DiffuseColor     Diffuse color in the Coin3D color model                                                              float,float,float range: 0.0-1.0
   SpecularColor    Specular color in the Coin3D color model                                                             float,float,float range: 0.0-1.0
@@ -140,7 +140,7 @@ This section defines material-properties which are related to the visual appeara
 ### Thermal
 
   property name                 Description                                                                                                                                                          Unit/Data-Type
-  ----------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------
+    
   ThermalConductivity           The [thermal conductivity (R or lambda coefficient)](http://en.wikipedia.org/wiki/Thermal_conductivity) that indicates the capacity to transfer heat of a material   W/m²K
   ThermalExpansionCoefficient                                                                                                                                                                        
   SpecificHeat                                                                                                                                                                                       
@@ -150,7 +150,7 @@ This section defines material-properties which are related to the visual appeara
 ### Architecture and BIM 
 
   property name       Description                                                                                                                                                                                                                                                                                                                                                 Unit/Data-Type
-  ------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------
+    
   StandardCodeXXXX    Where XXXX is the name of the standard (for example taken from [the BlenderBIM standards repository](https://github.com/Moult/IfcClassification/tree/master/ifc)). For example, StandardCodeUniclass2. The value is the specific code of this material in the given standard. This property can appear several times, each with a different standard code   String ASCII 7-bit
   FireStandard        The fire rating standard used in the material                                                                                                                                                                                                                                                                                                               String ASCII 7-bit
   FireClass           The [fire resistance class](http://en.wikipedia.org/wiki/Fire-resistance_rating) of the material in the above standard                                                                                                                                                                                                                                      String ASCII 7-bit
@@ -165,9 +165,9 @@ This section defines material-properties which are related to the visual appeara
 
 -   add sustainability & LEED properties
 
- {{FEM Tools navi}} 
+ {{FEM Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
+
 
 ---
-[documentation index](../README.md) > [Developer](Category_Developer.md) > Material/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Roadmap](Category_Roadmap.md) > [BIM](Category_BIM.md) > [File_Formats](Category_File_Formats.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > Material/pt-br

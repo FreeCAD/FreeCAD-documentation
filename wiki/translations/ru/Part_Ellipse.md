@@ -24,5 +24,7 @@
 -   **Угол(Angle) 1:** начало ребра эллипса или изогнутого эллиптического ребра (в градусах и в направлении против часовой стрелки), значение по умолчанию - 0
 -   **Угол(Angle) 2:** окончание ребра эллипса или изогнутого эллиптического ребра (в градусах и в направлении против часовой стрелки), значение по умолчанию - 360
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/ru

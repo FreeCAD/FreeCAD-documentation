@@ -41,5 +41,7 @@ Lisez cet article pour comprendre comment les commandes doivent être nommées d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std WhatsThis/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std WhatsThis/fr

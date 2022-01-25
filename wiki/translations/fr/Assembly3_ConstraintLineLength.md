@@ -21,5 +21,7 @@ La longueur est fixée à une certaine valeur en modifiant le paramètre de long
 3.  Définissez la valeur **Longueur** dans le panneau des propriétés.
 4.  Appuyez sur le bouton **<img src="images/Assembly3_workbench_icon.svg" width=16px> [Solve constraints](Assembly3_ResolveConstraints/fr.md)** ou sur le bouton **<img src="images/Assembly_QuickSolve.svg" width=16px> [Quick solve](Assembly3_QuickSolve/fr.md)** pour recalculer.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintLineLength/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLineLength/fr

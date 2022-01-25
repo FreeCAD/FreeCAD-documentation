@@ -165,7 +165,7 @@ Vous devrez modifier le chemin d\'accès à libpack pour qu\'il corresponde au v
 
 Ce programme doit être exécuté avec des privilèges d\'administrateur (ou, vous pouvez autoriser les utilisateurs à utiliser mklink dans les paramètres de la politique de sécurité locale de Windows). Le batch peut échouer, s\'il y a des espaces dans les chemins (il peut fonctionner, mais ce n\'est pas testé). Astuce : créez un raccourci vers links\_libpack.bat, configurez-le pour qu\'il fonctionne en tant qu\'administrateur (dans les propriétés du raccourci), et faites glisser le dossier de construction sur le raccourci.
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > CompileOnWindows - Reducing Disk Footprint/fr

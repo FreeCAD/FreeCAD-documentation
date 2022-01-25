@@ -37,5 +37,7 @@ This command allows you to place a block of text on a [Drawing page](Drawing_Lan
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/cs

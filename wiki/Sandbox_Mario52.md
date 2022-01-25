@@ -2,7 +2,7 @@
 **'''my personal Sanbox Mario52'''<br />'''Not For Release - Do not Translate - Do not change - Not to read - Not to look'''**
 
 
-------------------------------------------------------------------------
+
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -49,9 +49,7 @@ totoche
 
 totoche
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
 
 ---
-[documentation index](../README.md) > Sandbox:Mario52
+![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:Mario52

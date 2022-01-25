@@ -65,5 +65,7 @@ for obj in FreeCADGui.Selection.getSelection():
 
 La discussion sur le forum [Convert mesh to solid?](http://forum.freecadweb.org/viewtopic.php?f=3&t=253&hilit=getPlanarSegments)
 
+
+
 ---
-[documentation index](../README.md) > Macro MeshToPart/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro MeshToPart/fr

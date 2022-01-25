@@ -3,7 +3,7 @@ This category collects pages related to artwork existing in the program, like ic
 
 ### Contents:
 
-  ----------------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [Artwork Arch/pl](Artwork_Arch/pl.md)                     [Artwork Assembly/pl](Artwork_Assembly/pl.md)             [Artwork Assembly3/pl](Artwork_Assembly3/pl.md)
   [Artwork Complete/pl](Artwork_Complete/pl.md)             [Artwork Draft/pl](Artwork_Draft/pl.md)                   [Artwork Drawing/pl](Artwork_Drawing/pl.md)
   [Artwork Erroneous/pl](Artwork_Erroneous/pl.md)           [Artwork Fem/pl](Artwork_Fem/pl.md)                       [Artwork Gui/pl](Artwork_Gui/pl.md)
@@ -16,10 +16,9 @@ This category collects pages related to artwork existing in the program, like ic
   [Artwork Splash screen/pl](Artwork_Splash_screen/pl.md)   [Artwork Spreadsheet/pl](Artwork_Spreadsheet/pl.md)       [Artwork Start/pl](Artwork_Start/pl.md)
   [Artwork Surface/pl](Artwork_Surface/pl.md)               [Artwork TechDraw/pl](Artwork_TechDraw/pl.md)             [Artwork Test/pl](Artwork_Test/pl.md)
   [Artwork Tux/pl](Artwork_Tux/pl.md)                       [Artwork Web/pl](Artwork_Web/pl.md)                       [Artwork/pl](Artwork/pl.md)
-  [Template:Artwork/pl](Template:Artwork/pl.md)                                                                               
-  ----------------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------------
+  [Template:Artwork/pl](Template:Artwork/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation/pl](<img src="images/Property.png" style="width:16px"> Developer_Documentation/pl.md) [<img src="images/Property.png" style="width:16px"> Icon/pl](<img src="images/Property.png" style="width:16px"> Icon/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:Artwork/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Artwork/pl

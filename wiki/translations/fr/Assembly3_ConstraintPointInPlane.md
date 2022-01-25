@@ -24,5 +24,7 @@ Par rapport au premier objet, l\'objet suivant peut toujours se déplacer le lon
 2.  Sélectionnez un élément de point d\'un objet et un élément de face planaire de l\'autre objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintPointInPlane.svg" width=16px> [Point on plane](Assembly3_ConstraintPointInPlane/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointInPlane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointInPlane/fr

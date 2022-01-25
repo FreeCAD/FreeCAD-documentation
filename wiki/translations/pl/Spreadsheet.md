@@ -10,5 +10,7 @@
 3.  Edytuj zawartość komórek.
 4.  Zamknij kartę arkusza po zakończeniu, wartości są zapisywane automatycznie w miarę wpisywania.
 
+
+
 ---
-[documentation index](../README.md) > Spreadsheet/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Spreadsheet/pl

@@ -6,9 +6,6 @@ Ta strona gromadzi informacje na temat pakietów FreeCAD dla różnych platform.
 -   [ Pakiety dla Windows](Windows_packaging.md). Informacje o plikach wykonywalnych instalacji, a także o wersjach przenośnych skompresowanych do 7z.
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Packaging](Category_Packaging.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Packaging](Category_Packaging.md) > Packaging/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Packaging/pl

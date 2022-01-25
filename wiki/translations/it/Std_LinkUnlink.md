@@ -44,5 +44,7 @@ L\'originale <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="widt
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkUnlink/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkUnlink/it

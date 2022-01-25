@@ -33,5 +33,7 @@ The prism properties can later be edited, either in the [Property editor](Proper
 
 -    **Second Angle**: Angle in second direction. <small>(v0.19)</small>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/pl

@@ -66,5 +66,7 @@ The **Mesh Smoothing** command smooths mesh objects by changing the position of 
 
  {{Mesh Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing

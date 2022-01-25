@@ -32,5 +32,7 @@ The <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width
 
  {{TechDraw_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLinePerpendicular
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionLinePerpendicular

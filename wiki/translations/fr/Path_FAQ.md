@@ -228,5 +228,7 @@ Il s\'agit seulement un problème d\'affichage de la trajectoire. Vous pouvez mo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/fr

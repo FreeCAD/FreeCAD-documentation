@@ -20,18 +20,18 @@ This tool creates a projection of the selected object (Source) in the 3D view.
 
 ## Usage
 
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/ProjectShapeSet_it.png ) | 1.  Select an object in the 3D view or in the project tree                                                                                                                                                                         |
 |                                                      | 2.  from the Drawing menu, click **Project shape**                                                                                                                                                                                 |
 |                                                      | 3.  set the desired options in the Task Dialog                                                                                                                                                                                     |
 |                                                      | 4.  click **OK**                                                                                                                                                                                                 |
 |                                                      |                                                                                                                                                                                                                                    |
 |                                                      | A projection object (**objectname\_proj**) will be added to the project. For subsequent projections of the same Source object, the projection object will be named **objectname\_projXXX**, where **XXX** is a three digit number. |
-+------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ### Edit an existing projection 
 
-+--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/ProjectShapeOptions_it.png ) | The projection parameters can be edited in the Property editor.                                                                                                                                                      |
 |                                                              | **Base**                                                                                                                                                                                           |
 |                                                              |                                                                                                                                                                                                                      |
@@ -106,12 +106,14 @@ This tool creates a projection of the selected object (Source) in the 3D view.
 |                                                              |     **VCompound**                                                                                                                                                                                       |
 |                                                              |                                                                                                                                                                                                                   |
 |                                                              |     :                                                                                                                                                                                                                |
-+--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 {{Drawing Tools navi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing ProjectShape/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing ProjectShape/ru

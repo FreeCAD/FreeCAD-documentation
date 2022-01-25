@@ -219,9 +219,9 @@ See [Path scripting](Path_scripting.md).
 
 {{Path_Tools_navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/pt](<img src="images/Property.png" style="width:16px"> User_Documentation/pt.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/pt

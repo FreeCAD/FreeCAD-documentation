@@ -87,9 +87,9 @@ Modeli onarmak için önce katıların görünürlüğünü değiştiriyoruz. Pa
 
 {{Sketcher Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Sketcher/tr](<img src="images/Property.png" style="width:16px"> Sketcher/tr.md)
+
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/tr

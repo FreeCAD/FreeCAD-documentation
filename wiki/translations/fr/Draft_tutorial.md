@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic: Drafting
+   Level: Débutant
+   Time: 30 minutes
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] et vocx
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Draft tutorial updated]
+---
+
 # Draft tutorial/fr
-{{TutorialInfo/fr
-|Topic= Drafting
-|Level= Débutant
-|Time= 30 minutes
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] et vocx
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Draft tutorial updated]
-}}
+
+
+
+
 
 ## Introduction
 
@@ -219,9 +225,6 @@ L\'[atelier Draft](Draft_Workbench/fr.md) est à bien des égards similaire au [
 -   Il est possible de transformer un objet Draft en [Esquisse](Sketch/fr.md) et inversement en utilisant l\'outil **[<img src=images/Draft_Draft2Sketch.svg style="width:16px"> [Draft Draft vers esquisse](Draft_Draft2Sketch/fr.md)**.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Draft_Workbench.md) > Draft tutorial/fr

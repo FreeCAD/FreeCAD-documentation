@@ -42,5 +42,7 @@ Podczas próby instalacji pakietów dokumentacji na Ubuntu mogą pojawić się t
 -   Pobierz pliki pomocy {{FileName|freecad.qch}} help files from <https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD.0_19.Offline.Doc.7z> i rozpakuj je przy użyciu 7zip.
 -   Alternatywnie, możesz zamiast tego pobrać rozwojowe wersje plików pomocy {{FileName|freecad.qhc}} oraz {{FileName|freecad.qch}} z [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Doc). Będziesz musiał scalić wszystkie pliki **.part** [concatenate](http://man7.org/linux/man-pages/man1/cat.1.html) w całość: `cat freecad.qch.part00 freecad.qch.part01 freecad.qch.part02 freecad.qch.part03 > freecad.qch`.
 
+
+
 ---
-[documentation index](../README.md) > Installing Helpfile/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing Helpfile/pl

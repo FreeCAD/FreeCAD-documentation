@@ -275,5 +275,7 @@ Ajout d\'options configurables dans les préférence de FC
 
 Version 0.1 2013-11-29 : [view toolbar : measure distance tool](https://forum.freecadweb.org/viewtopic.php?f=3&t=5036)
 
+
+
 ---
-[documentation index](../README.md) > Macro Delta xyz/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Delta xyz/fr

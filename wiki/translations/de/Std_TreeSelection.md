@@ -33,5 +33,7 @@ Falls der Baumansicht [Sync-Auswahl](Std_TreeSyncSelection/de.md)-Modus ausgesch
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSelection/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSelection/de

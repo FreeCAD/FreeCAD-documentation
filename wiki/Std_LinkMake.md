@@ -390,5 +390,7 @@ Other miscellaneous \"links\" about Link include:
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkMake
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkMake

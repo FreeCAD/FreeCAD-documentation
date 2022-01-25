@@ -39,5 +39,7 @@ Der **Std Rechteckauswahl**-Befehl ermöglicht es, in der 3D-Ansicht Flächen au
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std BoxSelection/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxSelection/de

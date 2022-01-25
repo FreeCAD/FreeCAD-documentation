@@ -34,5 +34,7 @@ Der **Std BoxElementAuswahl**-Befehl ermöglicht es, in der 3D-Ansicht Flächen 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std BoxElementSelection/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxElementSelection/de

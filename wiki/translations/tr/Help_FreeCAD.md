@@ -29,7 +29,7 @@ Help us to build, correct and extend this documentation. Correct mistakes, exten
 
 Çalışmanızı memnuniyetle karşılayacak birkaç alan:
 
--   [Komut Referans](:<img src="images/Property.png" style="width:16px"> Command_Reference/tr.md) sayfası, FreeCAD [ Komutlar](Command/tr.md) \'ın tümünü listeler ve belgeler. Birçoğu çok az veya hiçbir bilgi içermiyor. Komut dokümantasyon sayfalarının nasıl görünmesi gerektiğine dair iyi örnekler için lütfen [WikiPages](WikiPages.md) bölümüne bakın.
+-   [Komut Referans](:Category:Command_Reference/tr.md) sayfası, FreeCAD [ Komutlar](Command/tr.md) \'ın tümünü listeler ve belgeler. Birçoğu çok az veya hiçbir bilgi içermiyor. Komut dokümantasyon sayfalarının nasıl görünmesi gerektiğine dair iyi örnekler için lütfen [WikiPages](WikiPages.md) bölümüne bakın.
 -   [Kılavuzlar](Tutorials/tr.md) bölümü hala çok zayıf. FreeCAD ile harika bir şey geliştirdiyseniz, herkesin faydalanması için yaptığınızı bizimle paylaşır mısınız?
 -   FreeCAD\'de [bugtracker](bugtracker.md) etiketli \'[belgelendirme](https://freecadweb.org/tracker/search.php?tag_string=documentation)\' de biraz özveri isteyen işler var.
 
@@ -208,8 +208,5 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
-
 ---
-[documentation index](../README.md) > [Command_Reference/tr|Komut Referans]] sayfası, FreeCAD ](Category_Command_Reference/tr|Komut Referans]] sayfası, FreeCAD .md) > Help FreeCAD/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference/tr|Komut Referans]] sayfası, FreeCAD ](Category_Command_Reference/tr|Komut Referans]] sayfası, FreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/tr

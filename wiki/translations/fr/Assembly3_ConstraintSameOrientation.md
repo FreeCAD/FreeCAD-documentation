@@ -24,5 +24,7 @@ La contrainte accepte les faces planes.
 2.  Sélectionnez un élément de face plane de chaque objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintSameOrientation.svg" width=16px> [Same orientation](Assembly3_ConstraintSameOrientation/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSameOrientation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSameOrientation/fr

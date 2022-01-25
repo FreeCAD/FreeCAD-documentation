@@ -35,5 +35,7 @@ Icône de la barre d\'outils <img alt="" src=images/Macro_Megaminx.png  style="w
 
 Téléchargez le code de <https://github.com/rparkins999/Megaminx> dans votre macro annuaire. Exécutez la macro pour créer un document Megaminx. Ensuite, vous pouvez jouer avec. Les fonctions d\'historique peuvent être utilisées construire et sauvegarder des opérateurs (alias algorithmes) qui effectuent des transformations utiles sur le Megaminx. Un ensemble approprié de ceux-ci vous donnera une solution complète. Le step\_history Cette fonction peut être utilisée pour vous aider à reproduire un opérateur sur un vrai Megaminx.
 
+
+
 ---
-[documentation index](../README.md) > Macro Megaminx/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Megaminx/fr

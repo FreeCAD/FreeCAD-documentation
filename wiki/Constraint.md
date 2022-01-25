@@ -38,9 +38,9 @@ See the information in the <img alt="" src=images/Workbench_Sketcher.svg  style=
 -   Constraints are useful to create very precise profiles which can the be turned into solid extrusions by using the **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)** or **[<img src=images/Part_Extrude.svg style="width:16px"> [Part Extrude](Part_Extrude.md)** operations.
 -   Constraints are only used within [Sketches](Sketch.md); other 2D objects such as those created with the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) do not understand about constraints; the latter are simply placed in 3D space, and their properties define their shape and position.
 
- {{Sketcher Tools navi}} {{Document objects navi}} 
+ {{Sketcher Tools navi}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Constraint
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Constraint

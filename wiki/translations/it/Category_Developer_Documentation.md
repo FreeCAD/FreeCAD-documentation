@@ -5,7 +5,7 @@ Questa categoria raccoglie articoli e documentazione per lo più rivolti a progr
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [Add FEM Equation Tutorial/it](Add_FEM_Equation_Tutorial/it.md)                           [ANSI templates/it](ANSI_templates/it.md)                                                           [AppImage/it](AppImage/it.md)
   [Arch templates/it](Arch_templates/it.md)                                                 [Artwork Erroneous/it](Artwork_Erroneous/it.md)                                                     [Artwork Guidelines/it](Artwork_Guidelines/it.md)
   [Artwork/it](Artwork/it.md)                                                               [Branding/it](Branding/it.md)                                                                       [Bug Triage/it](Bug_Triage/it.md)
@@ -44,11 +44,9 @@ Questa categoria raccoglie articoli e documentazione per lo più rivolti a progr
   [Start up and Configuration/it](Start_up_and_Configuration/it.md)                         [Testing/it](Testing/it.md)                                                                         [The FreeCAD source code/it](The_FreeCAD_source_code/it.md)
   [Third Party Libraries/it](Third_Party_Libraries/it.md)                                   [Third Party Tools/it](Third_Party_Tools/it.md)                                                     [Topological data scripting/it](Topological_data_scripting/it.md)
   [Tracker/it](Tracker/it.md)                                                               [Translating an external workbench/it](Translating_an_external_workbench/it.md)                     [Viewprovider/it](Viewprovider/it.md)
-  [Workbench creation/it](Workbench_creation/it.md)                                                                                                                                                     
-                                                                                                                                                                                                                
-  ------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+  [Workbench creation/it](Workbench_creation/it.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/it](<img src="images/Property.png" style="width:16px"> Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Developer/it](<img src="images/Property.png" style="width:16px"> Developer/it.md) [<img src="images/Property.png" style="width:16px"> Packaging/it](<img src="images/Property.png" style="width:16px"> Packaging/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/it

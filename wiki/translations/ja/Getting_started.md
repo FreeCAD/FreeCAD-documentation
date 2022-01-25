@@ -243,8 +243,5 @@ There are two types of addons:
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/ja](<img src="images/Property.png" style="width:16px"> User_Documentation/ja.md)
-
 ---
-[documentation index](../README.md) > Getting started/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/ja

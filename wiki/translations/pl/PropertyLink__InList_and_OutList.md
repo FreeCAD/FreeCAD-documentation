@@ -81,5 +81,7 @@ objects can be accessed using a Python property using the name that they are reg
 
 Note that `InList` and `OutList` have **nothing** to do with the tree view of the document model that is presented in the GUI. At any time, a parent in that tree view may contain children that are part of the `InList`, the `OutList`, or neither.
 
+
+
 ---
-[documentation index](../README.md) > PropertyLink: InList and OutList/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > PropertyLink: InList and OutList/pl

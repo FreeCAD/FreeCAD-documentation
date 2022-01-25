@@ -117,7 +117,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 #### Overview
 
   Version   Release name   Release date     Release notes                                         Release commit                                                                            Release branch
-  --------- -------------- ---------------- ----------------------------------------------------- ----------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+       
   0.20      ?              in development   [Release notes 0.20](Release_notes_0.20.md)   [head master](https://github.com/FreeCAD/FreeCAD/commits/master)                          
   0.19      \-             2021-03-20       [Release notes 0.19](Release_notes_0.19.md)   [release commit 0.19](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19)   [branch bugfixes 0.19](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-19)
   0.18      \-             2019-03-12       [Release notes 0.18](Release_notes_0.18.md)   [release commit 0.18](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18)   [branch bugfixes 0.18](https://github.com/FreeCAD/FreeCAD/tree/releases/FreeCAD-0-18)
@@ -143,7 +143,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 #### Legend
 
   Color   Version Type
-  ------- --------------------------------
+   
           Future release
           Latest preview version
           **Latest version**
@@ -164,7 +164,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > History/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > History/ko

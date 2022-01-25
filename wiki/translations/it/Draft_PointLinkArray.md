@@ -32,5 +32,7 @@ Lo strumento **Serie di link su punti** posiziona copie di una forma selezionata
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/it

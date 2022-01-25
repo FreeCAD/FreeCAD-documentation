@@ -47,5 +47,7 @@ FreeCAD.ActiveDocument.recompute()
 spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/fr

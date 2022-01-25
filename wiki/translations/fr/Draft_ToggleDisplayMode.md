@@ -26,5 +26,7 @@ La commande <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24p
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Basculer le mode d'affichage de normal à filaire** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) ou de la [Vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier : **Maj**+**Barre espace**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleDisplayMode/fr

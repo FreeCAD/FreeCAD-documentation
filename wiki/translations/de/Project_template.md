@@ -27,7 +27,5 @@ Der zweite Schritt ist die \"Ergebnisvisionierung\". Wenn du einen Zweck und das
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template/de

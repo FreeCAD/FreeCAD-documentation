@@ -299,5 +299,7 @@ alla fine della funzione \'initUI\'. I primi due argomenti (right-300, 0) (linea
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
 
+
+
 ---
-[documentation index](../README.md) > Macro View Rotation/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro View Rotation/it

@@ -4,16 +4,16 @@
 
 {{TOCright}}
 
-The [topological naming problem](topological_naming_problem.md) in FreeCAD refers to the issue of a shape changing its internal name after a modelling operation (pad, cut, union, chamfer, fillet, etc.) is performed. This will result in other parametric features that depend on that shape to break or be incorrectly computed. This issue affects all objects in FreeCAD but is especially notable when building solids with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), and when dimensioning those solids with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
+Problem z **nazewnictwem topologicznym** w programie FreeCAD odnosi się do kwestii zmiany wewnętrznej nazwy kształtu po wykonaniu operacji modelowania *(wyciągnięcie, wycięcie, połączenie, fazka, zaokrąglenie, itp.)*. Spowoduje to, że inne właściwości parametryczne, które zależą od tego kształtu, zostaną uszkodzone lub niepoprawnie obliczone. Ten problem dotyczy wszystkich obiektów w programie FreeCAD, ale jest szczególnie zauważalny podczas budowania brył za pomocą środowiska pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), oraz podczas wymiarowania tych brył za pomocą środowiska<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md).
 
--   In <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md), if a feature is supported on a face (or edge or vertex), the feature may break if the underlying solid changes size or orientation, as the original face (or edge or vertex) may be internally renamed.
--   In <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench.md), if a dimension is measuring the length of a projected edge, the dimension may break if the 3D model is changed, as the vertices may be renamed thus changing the measured edge.
+-   W środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), jeśli element jest obsługiwany na powierzchni *(lub krawędzi lub wierzchołku)*, element może zostać uszkodzony, jeśli bazowa bryła zmieni rozmiar lub orientację, ponieważ oryginalna powierzchnia *(lub krawędź lub wierzchołek)* może zostać wewnętrznie przemianowana.
+-   W przypadku środowiska <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md), jeżeli wymiar mierzy długość rzutowanej krawędzi, wymiar może zostać uszkodzony, jeżeli model 3D zostanie zmodyfikowany, ponieważ wierzchołki mogą zostać przemianowane, zmieniając w ten sposób mierzoną krawędź.
 
-The topological naming issue is a complex problem in CAD modelling that stems from the way the internal FreeCAD routines handle updates of the geometrical shapes created with the [OCCT kernel](OpenCASCADE.md). As of FreeCAD 0.19 there are ongoing efforts to improve the core handling of shapes in order to reduce or eliminate such issues.
+Kwestia nazewnictwa topologicznego jest złożonym problemem w modelowaniu CAD, który wynika ze sposobu, w jaki wewnętrzne procedury programu FreeCAD obsługują aktualizacje kształtów geometrycznych utworzonych za pomocą [jądra OCCT](OpenCASCADE/pl.md). Od wersji FreeCAD 0.19 trwają prace nad poprawą obsługi kształtów w celu zmniejszenia lub wyeliminowania tego typu problemów.
 
--   Forum thread: [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278)
+-   Wątek na forum: [Nazewnictwo topologiczne, Moje spojrzenie](https://forum.freecadweb.org/viewtopic.php?t=27278)
 
-The topological naming problem most often affects and confuses new users of FreeCAD. In PartDesign, the user is advised to follow the best practices discussed in the [feature editing](feature_editing.md) page. Use of supporting datum objects like [planes](PartDesign_Plane.md) and [local coordinate systems](PartDesign_CoordinateSystem.md) is strongly recommended to produce models that aren\'t easily subject to such topological errors. In TechDraw, the user is advised to add dimensions only when the 3D model is complete and won\'t be modified further.
+Problem nazewnictwa topologicznego najczęściej dotyka i dezorientuje nowych użytkowników programu FreeCAD. W środowisku Projekt Części użytkownik powinien stosować się do najlepszych praktyk omówionych na stronie [Edycja cech](Feature_editing/pl.md). Użycie obiektów [płaszczyzny](PartDesign_Plane/pl.md) oraz [lokalne układy współrzędnych](PartDesign_CoordinateSystem/pl.md) jest zalecane do tworzenia modeli, które nie są podatne na tego typu błędy topologiczne. W środowisku Rysunek Techniczny, użytkownik powinien dodawać wymiary tylko wtedy, gdy model 3D jest kompletny i nie będzie dalej modyfikowany.
 
 ## Przykład
 
@@ -23,9 +23,9 @@ The topological naming problem most often affects and confuses new users of Free
 
 2\. Select the top face of the previous solid, and then use <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [PartDesign NewSketch](PartDesign_NewSketch.md) to draw another sketch; then perform a second pad.
 
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_02_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_03_solid_2.png  style="width:" height="400px;">
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
 
 3\. Select the top face of the previous extrusion, and once again create a sketch, and a pad.
 
@@ -33,17 +33,17 @@ The topological naming problem most often affects and confuses new users of Free
 
 4\. Now, double click the second sketch, and modify it so that its length is along the X direction; doing this will recreate the second pad. The third sketch and pad will stay in the same place.
 
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_05_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_06_solid_2.png  style="width:" height="400px;">
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
 
 <img alt="" src=images/FreeCAD_topological_problem_07_solid_3.png  style="width:" height="400px;">
 
 5\. Now, double click the second sketch again, and adjust its points so that a portion of it is outside the limits defined by the first pad. By doing this, the second pad will recompute correctly, however, when looking at the [tree view](tree_view.md), an error will be indicated in the third pad.
 
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width:" height="400px;">
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
 
 ![](images/FreeCAD_topological_problem_12_broken_tree.png )
 
@@ -51,17 +51,17 @@ The topological naming problem most often affects and confuses new users of Free
 
 The problem appears to be that when the second sketch was modified, the top face of the second pad was renamed from `Face13` to `Face14`. The third sketch is attached to `Face13` as it originally was, but since this face is now on the side (not at the top), the sketch follows its orientation and now is incorrectly positioned.
 
-  --------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_10_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_11_solid_2_faces.png  style="width:" height="400px;">
-  --------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------
+   
 
 7\. To fix the issue, the third sketch should be mapped to the top face again. Select the sketch, click on the ellipsis (three dots) next to the **Map Mode** property, and choose the top face of the second pad again. Then the sketch moves to the top of the existing solid, and the third pad is generated without issues.
 
 ![](images/FreeCAD_topological_problem_13_remap_sketch_2.png )
 
-  --------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_14_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_15_solid_3.png  style="width:" height="400px;">
-  --------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
 
 Remapping a sketch in this way can be done every time there is a topological naming error, however, this may be tedious if the model is complicated and there are many such sketches that need to be adjusted.
 
@@ -80,9 +80,9 @@ As explained in the [feature editing](feature_editing.md) page, a solution to th
 
 
 
-  --------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_17_datum_plane_1.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_18_datum_plane_2.png  style="width:" height="400px;">
-  --------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------
+   
 
 3\. Select the second sketch, click on the ellipsis next to the **Map Mode** property, and then select the first datum plane. The datum plane is already offset from the body\'s XY plane, so no further Z offset is required for the sketch.
 
@@ -125,9 +125,9 @@ Datum objects, [points](PartDesign_Point.md), [lines](PartDesign_Line.md), [plan
 -   [FreeCAD Is Fundamentally Broken! - Now what\... Help Me Decide\...](https://www.youtube.com/watch?v=QSsVFu929jo): A Maker Tales Video
 
 
- {{TechDraw Tools navi}} {{PartDesign Tools navi}} 
+ {{TechDraw Tools navi}} {{PartDesign Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
+
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Topological naming problem/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [TechDraw](Category_TechDraw.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Topological naming problem/pl

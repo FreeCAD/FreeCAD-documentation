@@ -66,5 +66,7 @@ Nun wird die obere Fläche von Pad ausgewählt und das Werkzeug \"Skizze einer F
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/de

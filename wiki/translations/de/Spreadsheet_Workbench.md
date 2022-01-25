@@ -123,7 +123,7 @@ Eine Weise, diese Probleme zu umgehen, besteht darin, den Textbeschriftungen, di
 Die folgende Tabelle zeigt einige Beispiele unter der Annahme, dass das Modell über eine Funktion namens \"MeinWürfel\" verfügt:
 
   CAD-Daten                                                     Zelle im Tabellenblatt             Ergebnis
-  ------------------------------------------------------------- ---------------------------------- -----------------------------------
+    
   Parametrische Länge eines Würfels des Arbeitsbereiches Part   =MeinWürfel.Length                 Länge mit den Einheiten mm
   Volumen des Würfels                                           =MeinWürfel.Shape.Volume           Volumen in mm³ ohne Einheiten
   Typ des Würfel-\"Shapes\"                                     =MeinWürfel.Shape.ShapeType        String: Solid
@@ -134,17 +134,17 @@ Die folgende Tabelle zeigt einige Beispiele unter der Annahme, dass das Modell �
 
 Um Kalkulationstabellendaten in anderen Teilen von FreeCAD zu verwenden, wirst du normalerweise einen [Ausdruck](Expressions/de.md) erstellen, der sich auf die Kalkulationstabelle und die Zelle bezieht, die die Daten enthält, die du verwenden möchtest. Du kannst Kalkulationstabellen über den Namen oder die Beschriftung identifizieren, und du kannst die Zellen über die Position oder über einen Alias identifizieren. Die Autovervollständigung ist für alle Formen des Verweises verfügbar.
 
-+---------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 |                     | Kalkulationstabelle nach Name                       | Kalkulationstabelle nach Beschriftung                  |
 +=====================+=====================================================+========================================================+
 | Zelle nach Position |                                      |                                         |
 |                     | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
 |                     |                                                  |                                                     |
-+---------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 | Zelle nach Alias    |                                      |                                         |
 |                     | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
 |                     |                                                  |                                                     |
-+---------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -246,9 +246,9 @@ sheet.get('Diameter')
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/de

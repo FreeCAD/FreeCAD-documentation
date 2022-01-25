@@ -20,5 +20,7 @@ Cloner, copier ou déplacer une géométrie. Cliquez sur la flèche vers le bas 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCopy/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCopy/fr

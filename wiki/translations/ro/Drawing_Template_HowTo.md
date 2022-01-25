@@ -1,4 +1,12 @@
+---
+- TutorialInfo:/ro   Topic:2D Drafting   Level:Intermediate   Author:Mark Stephen ([[User:Quick61   Quick61]])|Time:An hour or less   FCVersion:0.14.3700 or greater
+---
+
 # Drawing Template HowTo/ro
+
+
+
+
 **The [Drawing Workbench](Drawing_Workbench.md) became obsolete in v0.17. Consider using the [TechDraw Workbench](TechDraw_Workbench.md) instead.<br>
 For a tutorial on how to create a template for that workbench see [TechDraw TemplateHowTo](TechDraw_TemplateHowTo.md)**
 
@@ -8,7 +16,6 @@ For a tutorial on how to create a template for that workbench see [TechDraw Temp
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro|Topic=2D Drafting|Level=Intermediate|Author=Mark Stephen ([Quick61](User_Quick61.md))|Time=An hour or less|FCVersion=0.14.3700 or greater}}
 
 
 </div>
@@ -235,5 +242,7 @@ Cele două instrumente folosite în acest tutorial au fost Inkscape și Kate. Ac
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/ro

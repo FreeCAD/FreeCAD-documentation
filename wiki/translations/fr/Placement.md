@@ -232,7 +232,7 @@ Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous deve
 -   Le point de référence d\'un objet (FreeCAD.Placement.Base) varie en fonction de l\'objet. Quelques exemples d\'objets courants :
 
   Objet                                   Point de référence
-  --------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                                gauche (minx), face (miny), base (minz) vertex
   Part.Sphere                             centre de la sphère (centre de la limite du cube)
   Part.Cylinder                           centre de la base de la face
@@ -248,5 +248,7 @@ Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous deve
 
 -   Ce tutoriel : [Aéroplane](Aeroplane/fr.md) traite largement des mécanismes de modifications de position d\'un objet.
 
+
+
 ---
-[documentation index](../README.md) > Placement/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Placement/fr

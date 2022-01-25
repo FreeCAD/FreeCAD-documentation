@@ -3,7 +3,7 @@ This category contains the help pages of each of FreeCAD command.
 
 ### Contents:
 
-  --------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+    
   [Arch Floor/pt](Arch_Floor/pt.md)                                   [Template:GuiCommand/pt](Template:GuiCommand/pt.md)                           [Sketcher CarbonCopy/pt](Sketcher_CarbonCopy/pt.md)
   [Sketcher CompCreateArc/pt](Sketcher_CompCreateArc/pt.md)           [Sketcher ConstrainAngle/pt](Sketcher_ConstrainAngle/pt.md)                   [Sketcher ConstrainCoincident/pt](Sketcher_ConstrainCoincident/pt.md)
   [Sketcher ConstrainDistance/pt](Sketcher_ConstrainDistance/pt.md)   [Sketcher ConstrainDistanceX/pt](Sketcher_ConstrainDistanceX/pt.md)           [Sketcher ConstrainDistanceY/pt](Sketcher_ConstrainDistanceY/pt.md)
@@ -16,10 +16,9 @@ This category contains the help pages of each of FreeCAD command.
   [Sketcher MapSketch/pt](Sketcher_MapSketch/pt.md)                   [Sketcher Move/pt](Sketcher_Move/pt.md)                                       [Sketcher NewSketch/pt](Sketcher_NewSketch/pt.md)
   [Sketcher ReorientSketch/pt](Sketcher_ReorientSketch/pt.md)         [Sketcher SelectElementsWithDoFs/pt](Sketcher_SelectElementsWithDoFs/pt.md)   [Sketcher ToggleConstruction/pt](Sketcher_ToggleConstruction/pt.md)
   [Sketcher Trimming/pt](Sketcher_Trimming/pt.md)                     [Sketcher ValidateSketch/pt](Sketcher_ValidateSketch/pt.md)                   [Sketcher ViewSketch/pt](Sketcher_ViewSketch/pt.md)
-  [Std AddonMgr/pt](Std_AddonMgr/pt.md)                               [Std ViewScreenShot/pt](Std_ViewScreenShot/pt.md)                             
-  --------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+  [Std AddonMgr/pt](Std_AddonMgr/pt.md)                               [Std ViewScreenShot/pt](Std_ViewScreenShot/pt.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/pt](<img src="images/Property.png" style="width:16px"> Categories/pt.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/pt

@@ -96,5 +96,7 @@ FreeCAD.closeDocument(doc.Name)
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std New
+![](images/Right_arrow.png) [documentation index](../README.md) > Std New

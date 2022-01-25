@@ -49,5 +49,7 @@ Dieses Werkzeug erlaubt eine Kante in zwei identische Teile zu teilen, wobei die
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/de

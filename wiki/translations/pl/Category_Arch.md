@@ -3,7 +3,7 @@ Pages relating to Architectural and Building Information Management
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+    
   [Arch 3DS/pl](Arch_3DS/pl.md)                                                                                           [Arch 3Views/pl](Arch_3Views/pl.md)                                                                   [Arch Add/pl](Arch_Add/pl.md)
   [Arch API/pl](Arch_API/pl.md)                                                                                           [Arch Axis/pl](Arch_Axis/pl.md)                                                                       [Arch AxisSystem/pl](Arch_AxisSystem/pl.md)
   [Arch Building/pl](Arch_Building/pl.md)                                                                                 [Arch BuildingPart/pl](Arch_BuildingPart/pl.md)                                                       [Arch Check/pl](Arch_Check/pl.md)
@@ -38,10 +38,9 @@ Pages relating to Architectural and Building Information Management
   [IfcPlusPlus/pl](IfcPlusPlus/pl.md)                                                                                     [Import/Export IFC - compiling IfcOpenShell/pl](Import/Export_IFC_-_compiling_IfcOpenShell/pl.md)     [Manual:BIM modeling/pl](Manual:BIM_modeling/pl.md)
   [Material editor/pl](Material_editor/pl.md)                                                                             [Material/pl](Material/pl.md)                                                                         [Reinforcement Addon/pl](Reinforcement_Addon/pl.md)
   [Reinforcement API/pl](Reinforcement_API/pl.md)                                                                         [SweetHome3D/pl](SweetHome3D/pl.md)                                                                   [Tutorial custom placing of windows and doors/pl](Tutorial_custom_placing_of_windows_and_doors/pl.md)
-  [Tutorial for open windows/pl](Tutorial_for_open_windows/pl.md)                                                                                                                                                                       
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+  [Tutorial for open windows/pl](Tutorial_for_open_windows/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/pl](<img src="images/Property.png" style="width:16px"> User_Documentation/pl.md) [<img src="images/Property.png" style="width:16px"> BIM/pl](<img src="images/Property.png" style="width:16px"> BIM/pl.md) [<img src="images/Property.png" style="width:16px"> Workbenches/pl](<img src="images/Property.png" style="width:16px"> Workbenches/pl.md)
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Category:Arch/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch/pl

@@ -328,11 +328,5 @@ L\'inspection du code de ce module peut aider à comprendre l\'interface de prog
 
 
 
-
-
- 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Draft Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/fr

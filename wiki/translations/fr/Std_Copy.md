@@ -37,5 +37,7 @@ La commande **Std Copie** copie les objets dans le presse-papiers.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Copy/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Copy/fr

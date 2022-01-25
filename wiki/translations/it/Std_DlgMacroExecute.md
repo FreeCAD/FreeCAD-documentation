@@ -130,5 +130,7 @@ Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgMacroExecute/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecute/it

@@ -94,5 +94,7 @@ Jeśli tak się stanie:
 
 ## Przykłady
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ProjectionOnSurface/pl

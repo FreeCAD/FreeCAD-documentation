@@ -45,16 +45,15 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
 -   To manually enter the coordinates for the base point enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   The **Relative** checkbox has no purpose for this command.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   The remaining checkboxes in this task panel are ignore by the command.
+-   The other checkboxes in this task panel, displayed in FreeCAD version 0.19 and earlier, are ignored by the command.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press the **Close** button to abort the command.
 
 ### Second task panel 
 
 -   Enter the X, Y and Z factors to define the scaling. The values must be larger than zero.
--   Check the **Uniform scaling** checkbox to lock the X, Y and Z factors to the same value. For this setting to take effect one of the scale factors has to be changed. Alternatively you can click in the inputbox with the desired scale and press **Enter** to finish the command.
+-   Check the **Uniform scaling** checkbox to lock the X, Y and Z factors to the same value. In FreeCAD version 0.19 and earlier for this setting to take effect one of the scale factors has to be changed.
 -   If the **Working plane orientation** checkbox is checked the scale factors are relative to the [working plane](Draft_SelectPlane.md) coordinate system, else they are relative to the global coordinate system.
 -   If the **Copy** checkbox is checked a scaled copy of the original object is created. This only works for Draft objects that have a **Points** property, such as [Draft Wires](Draft_Wire.md).
 -   If the **Modify subelements** checkbox is checked the command will use the selected subelements instead of the whole objects. The subelements must belong to [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
@@ -70,9 +69,8 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the number of decimals used for the input of scale factors: **Edit → Preferences... → Draft → General settings → General Draft Settings → Internal precision level**.
--   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
+-   To change the number of decimals used for the input of scale factors (<small>(v0.20)</small> ) and coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   To change the number of decimals used for the input of scale factors ({{VersionMinus|0.19}}): **Edit → Preferences... → Draft → General settings → General Draft Settings → Internal precision level**.
 -   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
 ## Scripting
@@ -127,5 +125,7 @@ doc.recompute()
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Scale/pt-br

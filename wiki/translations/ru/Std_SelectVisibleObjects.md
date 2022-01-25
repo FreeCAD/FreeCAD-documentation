@@ -28,5 +28,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SelectVisibleObjects/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectVisibleObjects/ru

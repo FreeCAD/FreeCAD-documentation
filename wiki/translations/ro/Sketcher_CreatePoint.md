@@ -53,5 +53,7 @@ Modul de alinierea la grilă poate fi definit în [Sketcher Preferences](Sketche
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/ro

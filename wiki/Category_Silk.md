@@ -3,9 +3,10 @@ Pages related to the [Silk workbench](Silk_Workbench.md) which is an [external w
 
 ### Contents:
 
-  ---------------------------------------------
+  
   [Silk Workbench](Silk_Workbench.md)
-  ---------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:Silk
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Silk

@@ -23,5 +23,7 @@ Dieses Werkzeug misst den Abstand zwischen zwei topologischen Elementen (Eckpunk
 4.  Alternativ kann der Befehl ohne vorherige Auswahl gestartet werden. Dann öffnet sich ein Auswahldialog im [Aufgabenpaneel ](Task_panel/de.md). Ein Steuerungswidget bietet ebenfalls Schaltflächen zum Zurücksetzen der Auswahl, zum Umschalten der Messungen Anzeige in der [3D-Ansicht](3D_view/de.md) und zum Löschen aller Messungen.
 5.  Messungen werden automatisch beim Schließen des Dokuments verworfen.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Linear/de

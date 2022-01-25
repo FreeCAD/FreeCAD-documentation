@@ -229,5 +229,7 @@ Le lien sur forum (2016-11-27 ver:1.0 FC =\< 0.17): [Keyboard shortcut, View too
 
 The Forum link (2020-29-01 ver:2.0 FC =\> 0.17) : [Keyboard shortcut, View toolbar - Wireframe](https://forum.freecadweb.org/viewtopic.php?f=3&t=14336&start=50#p364692)
 
+
+
 ---
-[documentation index](../README.md) > Macro Toggle Drawstyle Optimized/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Toggle Drawstyle Optimized/fr

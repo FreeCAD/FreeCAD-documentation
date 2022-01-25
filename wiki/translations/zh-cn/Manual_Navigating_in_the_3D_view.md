@@ -44,7 +44,7 @@ FreeCAD 的 3D 空间是[欧几里德空间](https://en.wikipedia.org/wiki/Eucli
 <div class="mw-translate-fuzzy">
 
   模式             平移                                                                                                                                    旋转                                                                                                                                                       缩放                                                                                                                                                      选中
-  ---------------- --------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------
+      
   OpenInventor     ![按住鼠标中键](images/Pan-mouse.svg )                                                                                           ![按住鼠标左键](images/Select-mouse.svg )                                                                                                           ![滚动鼠标中键](images/Zoom-mouse.svg )                                                                                                            按住 CTRL + 拖动 ![按住鼠标左键](images/Select-mouse.svg )
   CAD **(默认)**   ![按住鼠标中键](images/Pan-mouse.svg ) 或 ![按住鼠标右键 + CTRL 键](images/Pan-mouse-CTRL.svg )         ![按住鼠标中键然后左键](images/Rotate-mouse.svg ) 或 ![按住鼠标右键 + SHIFT 键](images/Rotate-mouse-SHIFT.svg )   ![滚动鼠标中键](images/Zoom-mouse.svg ) 或 ![按住鼠标右键 + CTRL + SHIFT 键](images/Zoom-mouse-CTRL-SHIFT.svg )   ![点击鼠标左键](images/Select-mouse.svg )
   Blender          按住 SHIFT + ![按住鼠标中键](images/Pan-mouse.svg ) 或 ![按住鼠标左键和右键](images/Mouse_LMB%2BRMB.svg )   ![按住鼠标中键](images/Pan-mouse.svg )                                                                                                              ![滚动鼠标中键](images/Zoom-mouse.svg )                                                                                                            ![点击鼠标左键](images/Select-mouse.svg )
@@ -135,5 +135,7 @@ FreeCAD 的 3D 空间是[欧几里德空间](https://en.wikipedia.org/wiki/Eucli
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Manual:Navigating in the 3D view/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Navigating in the 3D view/zh-cn

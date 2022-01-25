@@ -92,5 +92,7 @@ Sélectionnez l\'un des axes standard de l\'origine du corps (X, Y ou Z) comme d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/fr

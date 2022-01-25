@@ -72,5 +72,7 @@ Prima prova altri metodi di aggancio; se nessuno è disponibile, il cursore si a
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/it

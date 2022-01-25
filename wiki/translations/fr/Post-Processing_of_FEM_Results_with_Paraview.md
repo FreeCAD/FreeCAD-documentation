@@ -1,11 +1,12 @@
 # Post-Processing of FEM Results with Paraview/fr
-{{TutorialInfo/fr
-|Topic=Post-traitement des résultats FEM avec Paraview
-|Level=Intermédiaire
-|Time=120 minutes
-|Author=[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/download/file.php?id=103403 beam] et [https://forum.freecadweb.org/download/file.php?id=103557 wall] dans ce [https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 fil du forum Freecad]
+---
+- TutorialInfo:/fr
+   Topic:Post-traitement des résultats FEM avec Paraview
+   Level:Intermédiaire
+   Time:120 minutes
+   Author:[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/download/file.php?id=103403 beam] et [https://forum.freecadweb.org/download/file.php?id=103557 wall] dans ce [https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 fil du forum Freecad]
 }}
 
 ## Introduction
@@ -125,11 +126,11 @@ Pour afficher la géométrie déformée superposée à la géométrie non défor
 
 Si nous voulons connaître la quantité d\'acier d\'armature dans la poutre dans son ensemble ou la quantité passant à travers une section particulière, nous devons effectuer l\'intégration (sommation sur la géométrie) des données de base.
 
-Par exemple, le volume total des barres d\'armature dans la poutre s\'étendant dans la direction x est obtenu à partir de l\'intégrale `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` sur toute la géométrie et la surface totale de l\'acier d\'armature en cours d\'exécution bien qu\'une section efficace particulière du beam soit obtenue à partir de `INTEGRATE(ReinforcementRatio_x * dy * dz)` sur une tranche.
+Par exemple, le volume total des barres d\'armature dans la poutre s\'étendant dans la direction x est obtenu à partir de l\'intégrale {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}} sur toute la géométrie et la surface totale de l\'acier d\'armature en cours d\'exécution bien qu\'une section efficace particulière du beam soit obtenue à partir de {{incode   INTEGRATE(ReinforcementRatio_x * dy * dz)}} sur une tranche.
 
 Dans Paraview, l\'intégration peut être effectuée avec un filtre d\'intégration. Ce filtre peut être appliqué à l\'ensemble de l\'objet VTK (le beam) ou à une tranche (la section transversale).
 
-REMARQUE: en raison d\'une incompatibilité de l\'ordre des nœuds entre Freecad FEM et Paraview, l\'intégration sur un volume donne des résultats négatifs, c\'est-à-dire `INTEGRATE( 1.0 * dx * dy *dz)` = -Volume au lieu de + Volume.
+REMARQUE: en raison d\'une incompatibilité de l\'ordre des nœuds entre Freecad FEM et Paraview, l\'intégration sur un volume donne des résultats négatifs, c\'est-à-dire {{incode   INTEGRATE( 1.0 * dx * dy *dz)}} = -Volume au lieu de + Volume.
 
 Pour calculer les intégrales, nous devons appliquer un filtre d\'intégration, qui se trouve dans l\'élément de menu Filters \> Alphabetical. Mettez en surbrillance l\'objet VTK et appliquez le filtre.
 
@@ -139,7 +140,7 @@ Appuyez sur le bouton **Apply** dans l\'onglet Propriétés et les résultats s\
 
 <img alt="" src=images/PVPic24.png  style="width:700px;">
 
-Avant de ranger cela pour trouver le résultat souhaité, c\'est-à-dire `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)`, voyons d\'abord comment nous pouvons contrôler où la fenêtre est placée et ce qu\'elle contient.
+Avant de ranger cela pour trouver le résultat souhaité, c\'est-à-dire {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}}, voyons d\'abord comment nous pouvons contrôler où la fenêtre est placée et ce qu\'elle contient.
 
 Fermez d\'abord la fenêtre SpreadSheetView qui s\'est ouverte à droite. Appuyez ensuite sur l\'icône de fractionnement horizontal dans la fenêtre Renderview et une nouvelle fenêtre s\'ouvrira avec un menu d\'options d\'affichage. Avant de sélectionner une option, assurez-vous que l\'objet de filtre d\'intégration est mis en surbrillance dans le Pipeline Browser.
 
@@ -149,7 +150,7 @@ Pour afficher les résultats numériques, nous devons sélectionner SpreadSheet 
 
 <img alt="" src=images/PVPic26.png  style="width:400px;">
 
-Pour inspecter `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)`, nous pouvons faire défiler vers la droite le tableau, mais nous pouvons également supprimer tous les résultats indésirables en les désélectionnant, c\'est-à-dire désélectionner toutes les colonnes et sélectionner **ReinforcementRatio\_x**.
+Pour inspecter {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}}, nous pouvons faire défiler vers la droite le tableau, mais nous pouvons également supprimer tous les résultats indésirables en les désélectionnant, c\'est-à-dire désélectionner toutes les colonnes et sélectionner **ReinforcementRatio\_x**.
 
 <img alt="" src=images/PVPic27.png  style="width:300px;"> . <img alt="" src=images/PVPic28.png  style="width:500px;">
 
@@ -182,7 +183,7 @@ Dans la section précédente, nous avons discuté du filtre d\'intégration et d
 Appliquez les paramètres suivants dans l\'onglet Propriétés de l\'objet VTK:
 
   Paramètres de l\'onglet Propriétés   Commentaire
-  ------------------------------------ --------------------------------------------------------
+   
   Representation: Wireframe            Ainsi, la tranche est visible
   Coloring: ReinforcementRatio\_x      Ou toute autre couleur
   Styling \> Line Width: 2             Ou tout autre paramètre qui donne un résultat agréable
@@ -192,7 +193,7 @@ Appliquez les paramètres suivants dans l\'onglet Propriétés de l\'objet VTK:
 Mettez ensuite en surbrillance l\'objet VTK et appliquez un filtre Slice (tranche) avec les paramètres suivants dans l\'onglet Propriétés:
 
   Paramètres de l\'onglet Propriétés             Commentaire
-  ---------------------------------------------- --------------------------------------------------------
+   
   Plane Parameters \> Show Plane: deselect       Supprimer les boîtes englobantes
   Plane Parameters \> Origin: 4000 / 100 / 200   Position de la section centrale
   Plane Parameters \> Normal: 1 /0 /0            Normale des points Slice dans la direction x
@@ -244,7 +245,7 @@ Le seul objet supplémentaire requis pour visualiser une variable le long d\'une
 Nous voulons ensuite afficher les exigences de renforcement horizontal dans la section verticale sous la colonne. Pour y parvenir de la manière illustrée ci-dessous, les paramètres suivants doivent être modifiés dans l\'onglet Propriétés du filtre Plot Over Line (assurez-vous que la fenêtre LineChartView et l\'objet Plot Over Line ont tous deux le focus)
 
   Paramètres de l\'onglet Propriétés                                     Commentaire
-  ---------------------------------------------------------------------- ---------------------------------------------------------------------
+   
   Line Parameters \> Point 1: 4000 / 0 / 0                               Point en bas du mur sous la colonne
   Line Parameters \> Point 2: 4000 / 4000 / 0                            Point en haut du mur sous la colonne
   x Axis Parameters \> x Array Name: ReinforcementRatio\_x               Affiche ReinforcementRatio\_x sur l\'axe horizontal
@@ -263,7 +264,7 @@ Notez que la distance le long de la ligne (longueur d\'arc) est généralement s
 Dans les deux images suivantes, seul l\'emplacement de la ligne a été modifié. Notez cependant que cette relocalisation modifiera automatiquement le paramètre Left Axis Range \> Use Custom Range pour «sélectionner». Cela peut signifier que le graphique ne tient pas correctement dans la fenêtre LineChartView. Il est donc nécessaire de désélectionner cette option à chaque changement de position de la ligne. Les autres paramètres sont conformes au tableau ci-dessus.
 
   Paramètres de l\'onglet Propriétés                Commentaire
-  ------------------------------------------------- ---------------------------------------------------------------------
+   
   Line Parameters \> Point 1: 6700 / 0 / 0          Point au bas du mur sous le côté gauche de la découpe
   Line Parameters \> Point 2: 6700 / 4000 / 0       Point en haut du mur au-dessus du côté gauche de la découpe
   Title \> Chart Title: Section left of Cut-out     
@@ -273,7 +274,7 @@ Dans les deux images suivantes, seul l\'emplacement de la ligne a été modifié
 <img alt="" src=images/PVPicLine3.png  style="width:700px;">
 
   Paramètres de l\'onglet Propriétés                Commentaire
-  ------------------------------------------------- ---------------------------------------------------------------------
+   
   Line Parameters \> Point 1: 10950 / 0 / 0         Point en bas du mur sur le support droit
   Line Parameters \> Point 2: 10950 / 4000 / 0      Point en haut du mur sur le support droit
   Title \> Chart Title: Section at Support          
@@ -291,7 +292,7 @@ De la manière habituelle, désélectionnez tout sauf le résultat Reinforcement
 Pour obtenir une distribution plus pratique des armatures, nous pourrions intégrer le graphique ci-dessus en plusieurs parties. Par exemple, si nous voulons connaître la section transversale requise de l\'acier dans les 400 mm supérieurs du mur, nous devons ajuster les propriétés de l\'objet Plot Over Line comme suit:
 
   Paramètres de l\'onglet Propriétés                Commentaire
-  ------------------------------------------------- ---------------------------------------------------------------------
+   
   Line Parameters \> Point 1: 10950 / 3600 / 0      Point près du haut du mur sur le support droit
   Line Parameters \> Point 2: 10950 / 4000 / 0      Point en haut du mur sur le support droit
   Left Axis Range \> Use Custom Range: deselect     Désélectionnez pour maximiser la plage de données le long de l\'axe
@@ -314,7 +315,7 @@ Revenons à l\'objet de données VTK pour la poutre avec support central et visu
 Mettez en surbrillance l\'objet de données VTK dans le Pipeline Browser et sélectionnez le filtre Glyph dans la barre d\'icônes de filtre ou dans l\'option de menu Filter \> Alphabetical. Appliquez ensuite les paramètres suivants dans l\'onglet Propriétés de l\'objet Filtre Glyph (voir tableau et image):
 
   Paramètres de l\'onglet Propriétés                   Commentaire
-  ---------------------------------------------------- -----------------------------------------------------------------------------
+   
   Glyph Source \> Glyph Type: Line                     Malheureusement, il n\'y a pas d\'option pour une flèche double face
   Orientation \> Orientation: Major Principal Stress   Le Glyph prend la direction principale de la contrainte
   Scale \> Scale Array: Major Principal Stress         La longueur de la ligne représentera l\'ampleur de la contrainte principale
@@ -334,7 +335,7 @@ Si tout se passe bien, vous devriez voir le résultat suivant pour l\'exemple de
 Ajoutez ensuite un autre filtre Glyph avec les paramètres suivants pour la contrainte principale mineure (n\'oubliez pas de mettre d\'abord en surbrillance l\'objet de données VTK dans le Pipeline Browser):
 
   Paramètres de l\'onglet Propriétés                   Commentaire
-  ---------------------------------------------------- -----------------------------------------------------------------------------
+   
   Glyph Source \> Glyph Type: Line                     Malheureusement, il n\'y a pas d\'option pour une flèche double face
   Orientation \> Orientation: Minor Principal Stress   Le Glyph prend la direction principale de la contrainte
   Scale \> Scale Array: Minor Principal Stress         La longueur de la ligne représentera l\'ampleur de la contrainte principale
@@ -351,7 +352,10 @@ Le résultat final montre les vecteurs de contrainte principaux majeurs et mineu
 
 ## Exportation des résultats graphiques 
 
-Pour exporter une fenêtre RenderView, mettez-la en surbrillance et utilisez l\'option de menu **File > Save Screenshot** {{Tutorials navi}} {{FEM Tools navi}}
+Pour exporter une fenêtre RenderView, mettez-la en surbrillance et utilisez l\'option de menu **File > Save Screenshot**  {{FEM Tools navi}} {{Userdocnavi
+---
+
+
 
 ---
-[documentation index](../README.md) > Post-Processing of FEM Results with Paraview/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/fr

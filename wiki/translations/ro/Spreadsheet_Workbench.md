@@ -153,7 +153,7 @@ FreeCAD checks for cyclic dependencies. See [Current limitations](Spreadsheet_Wo
 Este posibil să utilizați datele din construcție în foaia de calcul. Următorul tabel prezintă câteva exemple, presupunând că modelul are o caracteristică numită \"Cube\" (rețineți că acesta este numele intern al caracteristicii, și nu numele utilizatorului atribuit etichetei):
 
   CAD-Data                                     Call in Spreadsheet          Result
-  -------------------------------------------- ---------------------------- ----------------------------------
+    
   Parametric Length of a Part-Workbench Cube   =Cube.Length                 Length with units mm
   Volume of the Cube                           =Cube.Shape.Volume           Volume in mm³ without units
   Type of the Cube-shape                       =Cube.Shape.ShapeType        String: Solid
@@ -175,7 +175,7 @@ One way to side-step these issues is to prefix text labels corresponding to alia
 The following table shows some examples assuming the model has a feature named \"MyCube\":
 
   CAD-Data                                     Cell in Spreadsheet            Result
-  -------------------------------------------- ------------------------------ ----------------------------------
+    
   Parametric Length of a Part-Workbench Cube   =MyCube.Length                 Length with units mm
   Volume of the Cube                           =MyCube.Shape.Volume           Volume in mm³ without units
   Type of the Cube-shape                       =MyCube.Shape.ShapeType        String: Solid
@@ -192,17 +192,17 @@ The following table shows some examples assuming the model has a feature named \
 
 In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by position or by alias. Autocompletion is available for all forms of referencing.
 
-+------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 |                  | Spreadsheet by Name                                 | Spreadsheet by Label                                   |
 +==================+=====================================================+========================================================+
 | Cell by Position |                                      |                                         |
 |                  | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
 |                  |                                                  |                                                     |
-+------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 | Cell by Alias    |                                      |                                         |
 |                  | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
 |                  |                                                  |                                                     |
-+------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -376,9 +376,9 @@ sheet.get('Diameter')
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/ro

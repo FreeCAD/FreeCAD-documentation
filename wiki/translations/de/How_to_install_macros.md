@@ -1,10 +1,10 @@
-# How to install macros/de
-{{TutorialInfo/de
-|Topic=Programmierung
-|Level=durchschnittliche Programmierer
-|Zeit=15 Minuten
-|FCVersion=Alle
-|Author=[Mario52](User_Mario52.md)
+---
+- TutorialInfo:/de
+   Topic:Programmierung
+   Level:durchschnittliche Programmierer
+   Zeit:15 Minuten
+   FCVersion:Alle
+   Author:[Mario52](User_Mario52.md)
 }}
 
 ## Beschreibung
@@ -13,7 +13,7 @@ Seit v0.17 ist es einfach, Makros mit Hilfe des [Erweiterungsverwalter](Std_Addo
 
 Makros sind Befehlssequenzen, die zur Ausführung einer komplexen Zeichenoperation verwendet werden. Makros sind [Python](Python/de.md) Skripte, d.h. sie sind Textdateien, die mit einem Texteditor geschrieben und bearbeitet werden können.
 
-Während Python Skripte normalerweise die Erweiterung `.py` haben, sollten FreeCAD Makros die Erweiterung `.FCMacro` haben. Eine Sammlung von Makros, die von erfahrenen Anwendern geschrieben wurden, findest Du auf der Seite [Makrozepte](macros_recipes/de.md).
+Während Python Skripte normalerweise die Erweiterung {{incode   .py}} haben, sollten FreeCAD Makros die Erweiterung {{incode   .FCMacro}} haben. Eine Sammlung von Makros, die von erfahrenen Anwendern geschrieben wurden, findest Du auf der Seite [Makrozepte](macros_recipes/de.md).
 
 Siehe [Einführung in Python](Introduction_to_Python/de.md), um mehr über die Programmiersprache Python zu erfahren, und dann [Python Skript Tutorium](Python_scripting_tutorial/de.md) und [FreeCAD Skript Grundlagen](FreeCAD_Scripting_Basics/de.md), um das Schreiben von Makros zu erlernen.
 
@@ -30,7 +30,7 @@ Hier ist ein Video über [Installieren von FreeCAD Makros in Ubuntu](https://wik
 
 ### Menü
 
-Neben den Werkzeugen in der Werkzeugleiste sind auch die folgenden Funktionen im {{MenuCommand/de|Makro}} Menü verfügbar.
+Neben den Werkzeugen in der Werkzeugleiste sind auch die folgenden Funktionen im {{MenuCommand/de   Makro}} Menü verfügbar.
 
 -   [An den entfernten Debugger anhängen](Std_MacroAttachDebugger/de.md)
 -   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Fehlersuche Makro](Std_MacroStartDebug/de.md)
@@ -44,7 +44,7 @@ Neben den Werkzeugen in der Werkzeugleiste sind auch die folgenden Funktionen im
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Makros werden in einem bestimmten Ordner unter dem FreeCAD Benutzerverzeichnis erstellt. Dieses Verzeichnis kann im [Makrodialog ausführen](Std_DlgMacroExecute/de.md), oder im [Einstellungseditor](Preferences_Editor/de.md), über das Menü {{MenuCommand/de|Bearbeiten → Einstellungen → Allgemein →  Makro → Makro Aufnahme Einstellungen}}.
+Makros werden in einem bestimmten Ordner unter dem FreeCAD Benutzerverzeichnis erstellt. Dieses Verzeichnis kann im [Makrodialog ausführen](Std_DlgMacroExecute/de.md), oder im [Einstellungseditor](Preferences_Editor/de.md), über das Menü {{MenuCommand/de   Bearbeiten → Einstellungen → Allgemein →  Makro → Makro Aufnahme Einstellungen}}.
 
 Heruntergeladene Makros sollten ebenfalls in diesem Verzeichnis abgelegt werden.
 
@@ -56,10 +56,13 @@ Heruntergeladene Makros sollten ebenfalls in diesem Verzeichnis abgelegt werden.
 Makros können einfach kopiert werden in
 
 
-```python
+{{Code   code:
 $ROOT_DIR/
-```
+---
 
+# How to install macros/de
+
+ 
 wobei `$ROOT_DIR` ein Verzeichnis der obersten Ebene ist, das von FreeCAD beim Start durchsucht wird.
 
 Der `$ROOT_DIR` könnte ein systemweites Verzeichnis sein, in diesem Fall wird das Makro für alle Benutzer installiert.
@@ -520,11 +523,6 @@ und drücke dann die **OK** Schaltfläche.
 </div>
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > How to install macros/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > How to install macros/de

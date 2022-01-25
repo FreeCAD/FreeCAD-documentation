@@ -478,9 +478,9 @@ A se vedea pagina [Path scripting](Path_scripting/ro.md).
 
 {{Path_Tools_navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Path/ro](<img src="images/Property.png" style="width:16px"> Path/ro.md) [<img src="images/Property.png" style="width:16px"> Workbenches/ro](<img src="images/Property.png" style="width:16px"> Workbenches/ro.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/ro

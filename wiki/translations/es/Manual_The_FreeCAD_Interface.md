@@ -92,5 +92,7 @@ Estas opciones de personalización avanzada están disponibles en el **Herramien
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Manual:The FreeCAD Interface/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD Interface/es

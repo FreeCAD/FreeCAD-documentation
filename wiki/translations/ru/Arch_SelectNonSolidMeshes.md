@@ -21,5 +21,7 @@ This tool identifies and selects the non-solid (non-[manifold](http://en.wikiped
 1.  Select a mesh object.
 2.  Press the **<img src="images/Arch_SelectNonManifold.svg" width=24px> [Select non solid](Arch_SelectNonSolidMeshes.md)** entry in **Arch → Utilities → Select non solid**.
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/ru

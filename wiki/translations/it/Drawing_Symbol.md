@@ -32,5 +32,7 @@ Questo comando consente di aggiungere il contenuto di un\'immagine SVG in una [p
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Symbol/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Symbol/it

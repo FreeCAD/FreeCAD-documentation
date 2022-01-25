@@ -81,7 +81,7 @@ Zunächst führen wir CMake aus, um die Kompilierkonfiguration zu erzeugen. Mehr
 ### CMake Optionen 
 
   Name                          Wert                                     Anmerkungen
-  ----------------------------- ---------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
   CMAKE\_BUILD\_TYPE            Release (STRING)                         Release oder Debug. Debug wird im Allgemeinen für Tests auf Entwicklerebene verwendet, kann aber auch für Tests auf Benutzerebene und zur Fehlersuche erforderlich sein.
   BUILD\_QT5                    1 (BOOL)                                 Erforderlich für die Erstellung mit Qt5.
   CMAKE\_PREFIX\_PATH           \"/usr/local/opt/qt5152;\" \... (PATH)   Erforderlich für die Erstellung mit Qt5. Siehe Hinweis unten. Du musst auch den Pfad zu den VTK Bibliotheken und NGLIB Bibliotheken der cmake Konfigurationsdatei hinzufügen.
@@ -180,11 +180,5 @@ FreeCAD can be built against the latest git master hosted on github, and launche
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on MacOS/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/de

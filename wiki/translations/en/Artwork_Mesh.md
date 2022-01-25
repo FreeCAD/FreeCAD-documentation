@@ -16,9 +16,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md)
+
 
 ---
-[documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/en

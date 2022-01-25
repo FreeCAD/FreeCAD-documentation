@@ -69,5 +69,7 @@ S\'il n\'y a qu\'une seule forme enfant dans le résultat, la sortie est l\'enfa
 
 -    {{PropertyData/fr|items}}: Liste ou plage d\'éléments à sélectionner si le type de filtre est \"éléments spécifiques\".
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/fr

@@ -81,5 +81,7 @@ Slice Apart was introduced in FreeCAD v0.18.15506. FreeCAD needs to be compiled 
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/ru

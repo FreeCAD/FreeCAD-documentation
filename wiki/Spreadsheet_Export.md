@@ -23,5 +23,7 @@ The **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet E
 
  {{Spreadsheet_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export

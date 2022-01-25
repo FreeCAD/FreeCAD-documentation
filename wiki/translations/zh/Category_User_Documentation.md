@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  --------------------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------------------
+    
   [About FreeCAD/zh](About_FreeCAD/zh.md)                       [Arch Workbench/zh](Arch_Workbench/zh.md)                 [Complete Workbench/zh](Complete_Workbench/zh.md)
   [Document structure/zh](Document_structure/zh.md)             [Draft Workbench/zh](Draft_Workbench/zh.md)               [Drawing Workbench/zh](Drawing_Workbench/zh.md)
   [Feature list/zh](Feature_list/zh.md)                         [FEM Workbench/zh](FEM_Workbench/zh.md)                   [Getting started/zh](Getting_started/zh.md)
@@ -20,12 +20,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [Spreadsheet Workbench/zh](Spreadsheet_Workbench/zh.md)       [Start Workbench/zh](Start_Workbench/zh.md)               [Surface Workbench/zh](Surface_Workbench/zh.md)
   [TechDraw Workbench/zh](TechDraw_Workbench/zh.md)             [Tracker/zh](Tracker/zh.md)                               [Template:TutorialInfo/zh](Template:TutorialInfo/zh.md)
   [Tutorials/zh](Tutorials/zh.md)                               [User hub/zh](User_hub/zh.md)                             [Web Workbench/zh](Web_Workbench/zh.md)
-  [Workbenches/zh](Workbenches/zh.md)                                                                                             
-                                                                                                                                          
-                                                                                                                                          
-  --------------------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------------------
+  [Workbenches/zh](Workbenches/zh.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/zh](<img src="images/Property.png" style="width:16px"> Documentation/zh.md) [<img src="images/Property.png" style="width:16px"> Arch/zh](<img src="images/Property.png" style="width:16px"> Arch/zh.md) [<img src="images/Property.png" style="width:16px"> BIM/zh](<img src="images/Property.png" style="width:16px"> BIM/zh.md) [<img src="images/Property.png" style="width:16px"> Draft/zh](<img src="images/Property.png" style="width:16px"> Draft/zh.md) [<img src="images/Property.png" style="width:16px"> Inspection/zh](<img src="images/Property.png" style="width:16px"> Inspection/zh.md) [<img src="images/Property.png" style="width:16px"> Workbenches/zh](<img src="images/Property.png" style="width:16px"> Workbenches/zh.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/zh
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/zh

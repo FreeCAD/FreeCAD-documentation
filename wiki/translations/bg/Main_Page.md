@@ -45,7 +45,7 @@
 
 Следващата таблица съдържа всички статии в тази документация които формират гръбнака на документацията доставена с FreeCAD програмата. Тя е на разположение на няколко езика:
 
-+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |
 | -   ![](images/Flag-bg.jpg ) [Съдържание](Online_Help_Toc/bg.md)           | -   ![](images/Flag-hr.jpg ) [Sadržaj](Online_Help_Toc/hr.md)            | -   ![](images/Flag-pt-br.jpg ) [Índice](Online_Help_Toc/pt-br.md) pt-br  |
 | -   ![](images/Flag-cn.jpg‎ ) [目錄](Online_Help_Toc/zh.md) zh            | -   ![](images/Flag-id.jpg ) [Daftar isi](Online_Help_Toc/id.md)         | -   ![](images/Flag-ro.jpg ) [Cuprins](Online_Help_Toc/ro.md)                |
@@ -54,7 +54,7 @@
 | -   ![](images/Flag-cs.jpg ) [Obsah](Online_Help_Toc/cs.md)                | -   ![](images/Flag-ko.jpg ) [온라인 도움말](Online_Help_Toc/ko.md)      | -   ![](images/Flag-tr.jpg ) [İçindekiler](Online_Help_Toc/tr.md)            |
 | -   ![](images/Flag-de.jpg ) [Inhaltsverzeichnis](Online_Help_Toc/de.md)   | -   ![](images/Flag-pl.jpg ) [Spis Treści](Online_Help_Toc/pl.md)        | -   ![](images/Flag-uk.jpg ) [Вміст](Online_Help_Toc/uk.md)                  |
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
-+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+++++
 
 ## Включете се 
 
@@ -92,8 +92,5 @@ FreeCAD може да бъде компилиран на всички платф
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/bg
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/bg

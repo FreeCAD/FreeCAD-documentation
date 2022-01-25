@@ -263,9 +263,9 @@ Wenn Dir diese Übung gefallen hat, warum versuchst Du nicht, dieses kleine Werk
 -   Füge Ereignisse für andere Dinge hinzu: Jetzt überprüfen wir nur noch, ob es Ereignisse für die Maustaste gibt, was wäre, wenn wir auch etwas tun würden, wenn die Maus bewegt wird, wie z.B. die aktuellen Koordinaten anzeigen?
 -   Gib dem erstellten Objekt einen Namen
 
-Zögere nicht, deine Fragen oder Ideen im [Forum](http://forum.freecadweb.org/) zu teilen! {{Top}} {{Powerdocnavi}} 
+Zögere nicht, deine Fragen oder Ideen im [Forum](http://forum.freecadweb.org/) zu teilen! {{Top}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Line drawing function/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Line drawing function/de

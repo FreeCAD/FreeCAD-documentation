@@ -123,8 +123,5 @@ Siehe [Import Export Einstellungen](Import_Export_Preferences/de#DWG.md), [FreeC
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/de](<img src="images/Property.png" style="width:16px"> User_Documentation/de.md)
-
 ---
-[documentation index](../README.md) > Installing additional components/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/de

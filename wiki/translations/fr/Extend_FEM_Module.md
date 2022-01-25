@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/fr
+   Topic:FEM
+   Level:Intermédiaire
+   Time:1 heure
+   Author:[M42kus](User_M42kus.md)
+   FCVersion:0.17
+---
+
 # Extend FEM Module/fr
-{{TutorialInfo/fr
-|Topic=FEM
-|Level=Intermédiaire
-|Time=1 heure
-|Author=[M42kus](User_M42kus.md)
-|FCVersion=0.17
-}}
+
+
+
+
 
 L\'atelier FEM prend en charge déjà beaucoup de contraintes différentes et quelques solveurs. Malgré cela, les gens ont souvent besoin de contraintes non prises en charge par FreeCAD. Cette page est le point de départ d\'une série de tutoriels et autres ressources décrivant comment étendre l\'atelier FEM à l\'aide du cadre existant. Bien que cette série puisse également s'avérer utile pour les développeurs de logiciels, l'idée est de permettre aux utilisateurs de FEM interéssés par la programmation en Python d'ajouter ce qu\'ils ont besoin.  
 
@@ -129,7 +135,7 @@ Les contraintes définissent les conditions aux limites du problème à résoudr
 
 L\'ajout de nouvelles contraintes est assez simple. Pour les nouveaux arrivants, il existe un tutoriel:[Tutoriel pour ajouter des contraintes FEM](Add_FEM_Constraint_Tutorial/fr.md).
 
-[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
+
 
 ---
-[documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/fr

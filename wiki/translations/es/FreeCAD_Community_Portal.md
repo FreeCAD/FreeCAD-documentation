@@ -84,7 +84,5 @@ Estos son los ambientes de trabajo, scripts, macros y complementos desarrollados
 
 
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/es

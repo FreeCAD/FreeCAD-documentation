@@ -29,5 +29,7 @@ Po uruchomieniu narzędzia kursor myszki zmienia się w biały krzyżyk z czerwo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointArc/pl

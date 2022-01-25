@@ -1,11 +1,16 @@
+---
+- TutorialInfo:   Topic:Finite Element Analysis
+   Level:Beginner
+   Time:10 minutes + Solver time
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16.6700 or above
+---
+
 # FEM tutorial/en
-{{TutorialInfo
-|Topic=Finite Element Analysis
-|Level=Beginner
-|Time=10 minutes + Solver time
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16.6700 or above
-}}
+
+
+
+
 
 ## Introduction
 
@@ -107,9 +112,9 @@ We now have established the restrictions and forces for our static study.
 We are now finished with the basic workflow for the [FEM Workbench](FEM_Workbench.md).
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > FEM tutorial/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/en

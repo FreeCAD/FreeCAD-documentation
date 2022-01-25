@@ -868,5 +868,7 @@ mainaction = polyhedron_dialog()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Polyhedrons
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Polyhedrons

@@ -50,5 +50,7 @@ La discussion sur le forum [Creating faces from a DXF file](http://forum.freecad
 
 Ici un exemple d\'utilisation de transformation d\'une feuille 2D en objet 3D [Generate 3D solid from intersection of three imported 2D](http://forum.freecadweb.org/viewtopic.php?f=3&t=8280&p=67863#p67840)
 
+
+
 ---
-[documentation index](../README.md) > Macro Creating faces from a DXF file/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Creating faces from a DXF file/fr

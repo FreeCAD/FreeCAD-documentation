@@ -34,5 +34,7 @@ Der **Netz KrümmungsInfo** Befehl zeigt die absolute Krümmung von [Krümmungso
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/de

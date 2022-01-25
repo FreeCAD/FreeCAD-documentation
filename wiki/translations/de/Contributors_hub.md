@@ -23,5 +23,7 @@ Außerdem kannst du anderen Benutzern auf der [FreeCAD Unterstützungsseite](htt
 
 ## Web Entwickler oder Administrator
 
+
+
 ---
-[documentation index](../README.md) > Contributors hub/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Contributors hub/de

@@ -56,5 +56,7 @@ La commande **Mesh Division** crée des segments de maillage séparés pour les 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/fr

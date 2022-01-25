@@ -32,5 +32,7 @@ La copia ha una semplice proprietà vista come qualsiasi altra [Part Feature](Pa
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/it

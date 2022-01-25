@@ -4,7 +4,7 @@
 FreeCAD может импортировать и экспортировать во множество типов файлов. Здесь приведён список наиболее важных из них с коротким описанием доступных особенностей:
 
   Формат   Импорт   Экспорт   Примечания
-  -------- -------- --------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     
   STEP     Да       Да        Это наиболее точный из доступных форматов импорта/экспорта, поскольку он поддерживает твердотельную геометрию и NURBS. Используйте их где только можно.
   IGES     Да       Да        Более старый твердотельный формат, так же хорошо поддерживаемый. Некоторые старые приложения не поддерживают STEP, но имеют поддержку IGES.
   BREP     Да       Да        Внутренний формат [OpenCasCade](https://ru.wikipedia.org/wiki/Open_Cascade_Technology), геометрического ядра FreeCAD.
@@ -44,8 +44,5 @@ FreeCAD может импортировать и экспортировать в
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
-
 ---
-[documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Import and export to other filetypes/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Import and export to other filetypes/ru

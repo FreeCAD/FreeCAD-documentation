@@ -5,7 +5,7 @@ Kategori ini berisi artikel tentang penggunaan FreeCAD. Hal ini juga daftar pusa
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------- -----------------------------------------------------------------
+    
   [About FreeCAD/id](About_FreeCAD/id.md)                                         [Template:About/id](Template:About/id.md)                     [Arch Workbench/id](Arch_Workbench/id.md)
   [Document structure/id](Document_structure/id.md)                               [Draft Workbench/id](Draft_Workbench/id.md)                   [Drawing Workbench/id](Drawing_Workbench/id.md)
   [Feature list/id](Feature_list/id.md)                                           [FEM Workbench/id](FEM_Workbench/id.md)                       [File Format FCStd/id](File_Format_FCStd/id.md)
@@ -20,12 +20,8 @@ Kategori ini berisi artikel tentang penggunaan FreeCAD. Hal ini juga daftar pusa
   [Spreadsheet Workbench/id](Spreadsheet_Workbench/id.md)                         [Standard Menu/id](Standard_Menu/id.md)                       [Surface Workbench/id](Surface_Workbench/id.md)
   [TechDraw Workbench/id](TechDraw_Workbench/id.md)                               [Template:TutorialInfo/id](Template:TutorialInfo/id.md)       [Tutorials/id](Tutorials/id.md)
   [User hub/id](User_hub/id.md)                                                   [Video tutorials/id](Video_tutorials/id.md)                   [Workbenches/id](Workbenches/id.md)
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                                
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------- -----------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/id](<img src="images/Property.png" style="width:16px"> Documentation/id.md) [<img src="images/Property.png" style="width:16px"> Arch/id](<img src="images/Property.png" style="width:16px"> Arch/id.md) [<img src="images/Property.png" style="width:16px"> BIM/id](<img src="images/Property.png" style="width:16px"> BIM/id.md) [<img src="images/Property.png" style="width:16px"> Draft/id](<img src="images/Property.png" style="width:16px"> Draft/id.md) [<img src="images/Property.png" style="width:16px"> Macros/id](<img src="images/Property.png" style="width:16px"> Macros/id.md) [<img src="images/Property.png" style="width:16px"> Plot/id](<img src="images/Property.png" style="width:16px"> Plot/id.md) [<img src="images/Property.png" style="width:16px"> Workbenches/id](<img src="images/Property.png" style="width:16px"> Workbenches/id.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/id
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/id

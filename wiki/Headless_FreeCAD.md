@@ -48,7 +48,5 @@ See: [forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=55794&p=48
 
 
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Headless FreeCAD
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Headless FreeCAD

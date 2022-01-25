@@ -68,5 +68,7 @@ Este accesibil via **Macro → Macro recording ...**, sau pe calea apăsării bu
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgMacroRecord/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroRecord/ro

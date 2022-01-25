@@ -33,5 +33,7 @@ Boundary dress-up allows restricting the extent of a path to a smaller part of t
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupPathBoundary
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupPathBoundary

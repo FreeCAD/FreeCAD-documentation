@@ -24,5 +24,7 @@ Increases tolerance of edges/faces/vertex of selected object(s).
 
  {{OpenSCAD_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD IncreaseToleranceFeature

@@ -36,5 +36,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves PipeshellProfile/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PipeshellProfile/fr

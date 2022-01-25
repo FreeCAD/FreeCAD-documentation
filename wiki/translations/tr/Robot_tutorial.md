@@ -1,11 +1,11 @@
-# Robot tutorial/tr
-{{TutorialInfo/tr
-|Topic= Robot Tezgahı
-|Level= Yeni başlayan
-|Time=
-|Author=r-frank
-|FCVersion=0.16.6703
-|Files=
+---
+- TutorialInfo:/tr
+   Topic: Robot Tezgahı
+   Level: Yeni başlayan
+   Time:
+   Author:r-frank
+   FCVersion:0.16.6703
+   Files:
 }}
 
 
@@ -42,7 +42,7 @@ Bu eğitimde [endüstriyel robotlar](http://en.wikipedia.org/wiki/Industrial_rob
 ## Sahneyi ayarlama 
 
 1.  [Robot Tezgahı](Robot_Workbench/tr.md) bölümüne geçin
-2.  Üst menüden **Dosya** → {{KEY | Yeni}} Seçerek yeni bir belge oluşturun.
+2.  Üst menüden **Dosya** → {{KEY     Yeni}} Seçerek yeni bir belge oluşturun.
 3.  Üst menüden **Robot** → **Robot Ekle** → ** Kuka IR500** Seçerek sahneye bir Kuka IR500 robotu yerleştirin.
 4.  ![ 32px](images/_View-axometric.png ) üzerine tıklatarak aksonometrik görünüme geçin.
 5.  ![ 32px \| ](images/_View-zoom-all.png ) tıklayarak görünümü ekrana uydurun
@@ -80,7 +80,13 @@ Bu eğitimde [endüstriyel robotlar](http://en.wikipedia.org/wiki/Industrial_rob
 2.  ![ 32px](images/_Robot_Simulate.png ) öğesine tıklayarak simülasyonu seçin
 
 3.  
-    {{KEY | I>}}Oynat Düğmesine Tıklayın
+    {{KEY | I>
+---
+
+# Robot tutorial/tr
+
+     
+    Oynat Düğmesine Tıklayın
 
 4.  Simülasyonu izleyin
 
@@ -92,5 +98,7 @@ Bu eğitimde [endüstriyel robotlar](http://en.wikipedia.org/wiki/Industrial_rob
 
 }} {{Robot Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/tr

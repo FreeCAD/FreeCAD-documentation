@@ -23,9 +23,9 @@ However, when more precision is required, the distinction must be made.
 -   A \"Drawing\" is a 2D projection of a \"Body\" or a \"Part\".
 -   A \"Drawing\" may also be created with the [Drawing Workbench](Drawing_Workbench.md). However, since this workbench became obsolete in 0.17, you should prefer [TechDraw Workbench](TechDraw_Workbench.md) instead.
 
- {{TechDraw Tools navi}} {{Document objects navi}} 
+ {{TechDraw Tools navi}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Drawing
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [TechDraw](Category_TechDraw.md) > Drawing

@@ -41,5 +41,7 @@ See [Draft OrthoArray](Draft_OrthoArray#Scripting.md).
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/pt-br

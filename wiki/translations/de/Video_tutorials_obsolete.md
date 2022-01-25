@@ -5,7 +5,7 @@
 
 Obwohl sie als veraltet angesehen werden können, sind sie hier als Referenz enthalten, da die darin enthaltenen Informationen für fortgeschrittene und fortgeschrittene Benutzer noch nützlich sein können. Absoluten Anfängern wird empfohlen, diese Videos zu meiden, bis sie ein besseres Verständnis der Modellierungstechniken haben.
 
-Für aktuelle Videos zu unterschiedlichen Themen, siehe die [Video Tutorien](video_tutorials/de.md) Seite, und auch [Tutorien](tutorials/de.md) für schriftliche Tutorien. Eine vollständige, unsortierte Liste der Tutorien findest du unter [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+Für aktuelle Videos zu unterschiedlichen Themen, siehe die [Video Tutorien](video_tutorials/de.md) Seite, und auch [Tutorien](tutorials/de.md) für schriftliche Tutorien. Eine vollständige, unsortierte Liste der Tutorien findest du unter [:Category:Tutorials](:Category_Tutorials.md).
 
 ## Veraltete Videos 
 
@@ -54,9 +54,6 @@ Für aktuelle Videos zu unterschiedlichen Themen, siehe die [Video Tutorien](vid
 -   [openPLM demo : FreeCAD interface](http://www.youtube.com/watch?v=SanPyZhLq6w): FreeCAD 0.10, it showcases the OpenPLM [addon](addon.md), intended for [Product Lifecycle Management](http://en.wikipedia.org/wiki/Product_lifecycle_management). It no longer works with recent versions of FreeCAD.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Video tutorials obsolete/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials obsolete/de

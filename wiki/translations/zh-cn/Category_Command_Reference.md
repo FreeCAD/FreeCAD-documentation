@@ -3,7 +3,7 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
 
 ### Contents:
 
-  ----------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- -----------------------------------------------------------------------------
+    
   [Arch Add/zh-cn](Arch_Add/zh-cn.md)                                   [Arch Remove/zh-cn](Arch_Remove/zh-cn.md)                                         [Arch Wall/zh-cn](Arch_Wall/zh-cn.md)
   [Draft Arc 3Points/zh-cn](Draft_Arc_3Points/zh-cn.md)                 [Draft Arc/zh-cn](Draft_Arc/zh-cn.md)                                             [Draft Circle/zh-cn](Draft_Circle/zh-cn.md)
   [Draft Ellipse/zh-cn](Draft_Ellipse/zh-cn.md)                         [Draft Line/zh-cn](Draft_Line/zh-cn.md)                                           [Draft Snap Endpoint/zh-cn](Draft_Snap_Endpoint/zh-cn.md)
@@ -18,10 +18,9 @@ This category contains the help pages of each of FreeCAD [Command](Command.md).
   [Sketcher CreatePoint/zh-cn](Sketcher_CreatePoint/zh-cn.md)           [Sketcher EditSketch/zh-cn](Sketcher_EditSketch/zh-cn.md)                         [Sketcher LeaveSketch/zh-cn](Sketcher_LeaveSketch/zh-cn.md)
   [Sketcher MapSketch/zh-cn](Sketcher_MapSketch/zh-cn.md)               [Sketcher MergeSketches/zh-cn](Sketcher_MergeSketches/zh-cn.md)                   [Sketcher MirrorSketch/zh-cn](Sketcher_MirrorSketch/zh-cn.md)
   [Sketcher NewSketch/zh-cn](Sketcher_NewSketch/zh-cn.md)               [Sketcher ReorientSketch/zh-cn](Sketcher_ReorientSketch/zh-cn.md)                 [Sketcher ValidateSketch/zh-cn](Sketcher_ValidateSketch/zh-cn.md)
-  [Sketcher ViewSection/zh-cn](Sketcher_ViewSection/zh-cn.md)           [Sketcher ViewSketch/zh-cn](Sketcher_ViewSketch/zh-cn.md)                         
-  ----------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- -----------------------------------------------------------------------------
+  [Sketcher ViewSection/zh-cn](Sketcher_ViewSection/zh-cn.md)           [Sketcher ViewSketch/zh-cn](Sketcher_ViewSketch/zh-cn.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/zh-cn](<img src="images/Property.png" style="width:16px"> Categories/zh-cn.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/zh-cn

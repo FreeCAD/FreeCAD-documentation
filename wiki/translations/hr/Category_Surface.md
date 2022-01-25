@@ -3,12 +3,11 @@ This category lists pages related to the [Surface Workbench/hr](Surface_Workbenc
 
 ### Contents:
 
-  --------------------------------------------------------------------- ----------------------------------------------------------- -----------------------------------------------------
+    
   [Surface CurveOnMesh/hr](Surface_CurveOnMesh/hr.md)           [Surface ExtendFace/hr](Surface_ExtendFace/hr.md)   [Surface Filling/hr](Surface_Filling/hr.md)
-  [Surface GeomFillSurface/hr](Surface_GeomFillSurface/hr.md)   [Surface Workbench/hr](Surface_Workbench/hr.md)     
-  --------------------------------------------------------------------- ----------------------------------------------------------- -----------------------------------------------------
+  [Surface GeomFillSurface/hr](Surface_GeomFillSurface/hr.md)   [Surface Workbench/hr](Surface_Workbench/hr.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/hr](<img src="images/Property.png" style="width:16px"> Workbenches/hr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Surface/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Surface/hr

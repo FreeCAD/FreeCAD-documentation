@@ -26,5 +26,7 @@ Są to ekrany powitalne, które zostały użyte w poszczególnych wersjach progr
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Splash screen/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Splash screen/pl

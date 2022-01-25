@@ -40,5 +40,7 @@ The sketch can be moved in the [3D view](3D_view.md) using [Placement](Placement
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/hr

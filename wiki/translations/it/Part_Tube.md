@@ -69,5 +69,7 @@ tube = FreeCAD.ActiveDocument.addObject("Part::Tube", "myTube")
 -   Where {{Incode|"myTube"}} is the name for the object.
 -   The function returns the newly created object.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/it

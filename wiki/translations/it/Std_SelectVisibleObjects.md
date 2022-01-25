@@ -34,5 +34,7 @@ The **Std SelectVisibleObjects** command selects all visible objects. Note that 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SelectVisibleObjects/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectVisibleObjects/it

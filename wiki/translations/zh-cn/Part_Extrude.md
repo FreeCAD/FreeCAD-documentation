@@ -172,5 +172,7 @@ PartDesign Pad也是一种挤型功能，但是与本页描述的挤型工具大
 
 除了实体与复合实体（compsolid）以外，零件挤型工具能够对任意有着零件几何体（OCC形状）的对象执行挤压成型操作。另外，此工具还不能对其他对象上的单体面（individual face）进行挤型。而PartDesign Pad则只能接受草图Sketch（以及其他对象类型中的一小部分）或者实体上的单个面作为轮廓。
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/zh-cn

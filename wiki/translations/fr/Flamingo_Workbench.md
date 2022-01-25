@@ -6,7 +6,7 @@ Cette page wiki mettra en évidence les différences entre ces deux ateliers.**
 
 Il s\'agit d\'un ensemble de commandes et d\'objets FreeCAD personnalisés qui permettent principalement d\'accélérer le dessin des charpentes et des canalisations.
 
-------------------------------------------------------------------------
+
 
 :   L\'atelier \"*Flamingo*\" est dédié aux versions utilisant la syntaxe Python \>2.7 et la boîte à outils Qt4.
 
@@ -16,7 +16,7 @@ Il s\'agit d\'un ensemble de commandes et d\'objets FreeCAD personnalisés qui p
 
 :   L\'atelier \"*Dodo*\" est pour Python \>3.6 et Qt5.
 
-------------------------------------------------------------------------
+
 
 Par commodité, les outils Flamingo/Dodo sont groupés dans trois barres d\'outils et menus + un ensemble utilitaire.
 
@@ -314,11 +314,11 @@ Si un tuyau est sélectionné, ses propriétés sont appliquées au boulon en U.
 
 Avec le bouton **Ref. face**, il est possible de sélectionner la face du support sur laquelle orienter l\'axe du boulon en U.
 
-------------------------------------------------------------------------
+
 
 *Seulement dans **dodo** : les composants de tuyauterie ci-dessus peuvent également être insérés à partir du menu à tarte dédié.*
 
-------------------------------------------------------------------------
+
 
 :   8\) Gestionnaire canalisations
 
@@ -519,8 +519,5 @@ De nouveaux ateliers sont en développement, tenez vous au courant!
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Flamingo Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Flamingo Workbench/fr

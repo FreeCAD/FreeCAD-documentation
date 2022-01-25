@@ -70,9 +70,9 @@ L\'onglet Bibliothèques affiche une liste des bibliothèques externes utilisée
 
 
 
-{{Std Base navi}}  
+{{Std Base navi}}
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
+
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/fr

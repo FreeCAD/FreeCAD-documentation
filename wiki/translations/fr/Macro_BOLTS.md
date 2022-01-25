@@ -37,5 +37,7 @@ Une bibliothèque de pièces utiles pour un large éventail de personnes n\'est 
 
 Il existe de nombreuses possibilités et façons de [contribuer à BOLTS](https://boltsparts.github.io/en/contribute.html).
 
+
+
 ---
-[documentation index](../README.md) > Macro BOLTS/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro BOLTS/fr

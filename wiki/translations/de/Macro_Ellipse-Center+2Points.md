@@ -73,5 +73,7 @@ except:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Ellipse-Center+2Points/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Ellipse-Center+2Points/de

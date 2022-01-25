@@ -113,5 +113,7 @@ Eseguendo lo strumento (Caricare una geometria modello di nave) si apre una fine
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Ship Geometries Examples/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship Geometries Examples/it

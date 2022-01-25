@@ -21,5 +21,7 @@ La commande <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:2
     -   L\'option de menu **Assembly3 → <img src="images/Assembly_QuickSolve.svg‎‎" width=16px> Quick solve**.
     -   Le raccourci clavier : **A** puis **F**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 QuickSolve/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 QuickSolve/fr

@@ -1,11 +1,11 @@
-# Scripted Parts: Ball Bearing - Part 1/fr
-{{TutorialInfo/fr
-|Topic= Part : écrire un script - Roulement à bille #1
-|Level= Débutant
-|Time= 30 min
-|Author=r-frank
-|FCVersion=0.16.6706
-|Files=
+---
+- TutorialInfo:/fr
+   Topic: Part : écrire un script - Roulement à bille #1
+   Level: Débutant
+   Time: 30 min
+   Author:r-frank
+   FCVersion:0.16.6706
+   Files:
 }}
 
 ### Introduction
@@ -55,7 +55,7 @@ Pour faire une pièce \"scriptée\" avec des esquisses de révolution, consultez
 ### Code
 
 
-```python
+{{Code   code:
 ## Ball-bearing script
 ## 11.08.2016 by r-frank (BPLRFE/LearnFreeCAD on Youtube)
 ## based on ball bearing script by JMG
@@ -134,14 +134,17 @@ for i in range(NBall):
 App.activeDocument().recompute()
 Gui.activeDocument().activeView().viewAxometric()
 Gui.SendMsgToActiveView("ViewFit")
-```
+---
 
+# Scripted Parts: Ball Bearing - Part 1/fr
+
+ 
 
 {{Powerdocnavi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 1/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted Parts: Ball Bearing - Part 1/fr

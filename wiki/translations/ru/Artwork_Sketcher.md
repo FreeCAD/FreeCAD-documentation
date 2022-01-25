@@ -52,5 +52,7 @@
 
 }} {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Sketcher/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher/ru

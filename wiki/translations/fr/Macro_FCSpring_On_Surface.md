@@ -621,5 +621,7 @@ La genèse [Zwei Helix - ein Sweep](https://forum.freecadweb.org/viewtopic.php?f
 
 Le code original [How to intersect a line with a part](https://www.forum.freecadweb.org/viewtopic.php?f=22&t=5456#p44194) par wandererfan
 
+
+
 ---
-[documentation index](../README.md) > Macro FCSpring On Surface/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCSpring On Surface/fr

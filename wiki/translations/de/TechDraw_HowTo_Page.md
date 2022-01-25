@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/de
+   Topic:Anleitungen und verschiedene Infos 
+   Level:Alle
+   Time:n/v
+   Author:n/a
+   FCVersion:0.19
+---
+
 # TechDraw HowTo Page/de
-{{TutorialInfo/de
-|Topic=Anleitungen und verschiedene Infos 
-|Level=Alle
-|Time=n/v
-|Author=n/a
-|FCVersion=0.19
-}}
+
+
+
+
 
 ## Einführung
 
@@ -49,5 +55,7 @@ Siehe auch [Messung von Winkeln an Bohrungen](Measurement_Of_Angles_On_Holes/de.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/de

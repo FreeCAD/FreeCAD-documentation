@@ -404,5 +404,7 @@ Mes macros sur [mario52a](https://gist.github.com/mario52a) gists
 -   ver 00.03 2020/05/17 : disposition de la grille pour 0.19
 -   ver 00.02 19/10/2015 : ajout d\'un checkBox pour mémo String ou mémo Liste
 
+
+
 ---
-[documentation index](../README.md) > Macro PropertyMemo/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro PropertyMemo/fr

@@ -47,5 +47,7 @@ To save a document use the `save` method of the document object. A new document 
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std Save
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Save

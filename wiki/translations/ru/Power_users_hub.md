@@ -1,6 +1,6 @@
 # <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/ru
 
-------------------------------------------------------------------------
+
 
 
 
@@ -82,7 +82,7 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 
 ## Функции API 
 
-Полное описание API можно найти в <http://www.freecadweb.org/api/> . Он содержит программный интерфейс как на C++, так и на Python, и пока не совсем хорошо форматирован, что может мешать при просмотре кода Python. Более простая для просмотра версия доступна [здесь](:<img src="images/Property.png" style="width:16px"> API/ru.md). Заметим что он может быть неполным, так как обновляется вручную. Для получения более точной информации, просматривайте модули напрямую из консоли Python FreeCADа.
+Полное описание API можно найти в <http://www.freecadweb.org/api/> . Он содержит программный интерфейс как на C++, так и на Python, и пока не совсем хорошо форматирован, что может мешать при просмотре кода Python. Более простая для просмотра версия доступна [здесь](:Category:API/ru.md). Заметим что он может быть неполным, так как обновляется вручную. Для получения более точной информации, просматривайте модули напрямую из консоли Python FreeCADа.
 
 Связанное: [Представление C++ в Python](Exposing_C%2B%2B_to_Python/ru.md)
 
@@ -137,11 +137,6 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 -   [Научная литература](Scientific_literature/ru.md): статьи, которые по-разному ссылаются на систему FreeCAD или используют ее.
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/ru

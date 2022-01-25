@@ -66,9 +66,6 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Arch/uk](<img src="images/Property.png" style="width:16px"> Arch/uk.md)
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/uk
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Building/uk

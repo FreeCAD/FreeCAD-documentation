@@ -11,8 +11,5 @@ Un **manipulateur** est une poignée qui peut être utilisée pour modifier l\'a
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
-
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator/fr

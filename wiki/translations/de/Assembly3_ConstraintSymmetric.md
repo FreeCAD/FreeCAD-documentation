@@ -18,5 +18,7 @@ Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus
 2.  Je ein Element beider Objekte auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintSymmetric.svg" width=16px> [Symmetrie festlegen](Assembly3_ConstraintSymmetric/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSymmetric/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetric/de

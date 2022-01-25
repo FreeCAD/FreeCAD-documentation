@@ -25,5 +25,7 @@ Les directions des lignes ainsi que les normales des faces sont représentées p
 
 :   En outre, la fonction \"Flip element\" du panneau des propriétés des éléments peut être nécessaire si les SCI ne sont pas orientés comme prévu.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintEqualAngle/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/fr

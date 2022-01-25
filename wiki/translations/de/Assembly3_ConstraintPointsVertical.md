@@ -28,5 +28,7 @@ Oder
 3.  Ein planares Flächenelement des dritten Objekts auswählen.
 4.  Schaltfläche **<img src="images/Assembly_ConstraintPointsVertical.svg" width=16px> [Vertikale Punkte](Assembly3_ConstraintPointsVertical/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointsVertical/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsVertical/de

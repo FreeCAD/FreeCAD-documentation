@@ -42,5 +42,7 @@ Les options supplémentaires suivantes sont disponibles dans le menu contextuel 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Alignment/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Alignment/fr

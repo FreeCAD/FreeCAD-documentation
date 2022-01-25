@@ -92,5 +92,7 @@ Dies wird erreicht, indem die Detailansicht in eine [Klipgruppe](TechDraw_ClipGr
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/de

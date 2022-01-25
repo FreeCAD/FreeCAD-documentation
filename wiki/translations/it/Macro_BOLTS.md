@@ -43,5 +43,7 @@ Le istruzioni dettagliate si trovano nella [Documentation section](https://githu
 
 Una libreria di Parti che sia utile per una vasta gamma di persone può essere realizzata solo attraverso uno sforzo della comunità. Ci sono molte possibilità e diversi modi per [contribuire](https://boltsparts.github.io/en/contribute.html) a BOLTS.
 
+
+
 ---
-[documentation index](../README.md) > Macro BOLTS/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro BOLTS/it

@@ -26,5 +26,7 @@ This tool identifies and selects the non-solid (non-[manifold](http://en.wikiped
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/pt-br

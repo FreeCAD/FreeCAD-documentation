@@ -121,5 +121,7 @@ Zur Aktivierung der Nutzung von fcinfo (nur Linux und Mac - ToDo: Windows Anweis
 
 Füge die folgenden Zeilen zur .gitconfig-Datei in deinem home Verzeichnis hinzu: \[diff \"fcinfo\"\] textconv = /Pfad/zu/fcinfo Alternativ kannst du fcinfo mit Argumenten ausführen (z.B. --gui), benutze diesen Herangehensweise \[<https://stackoverflow.com/questions/55601430/how-to-pass-a-filename-> argument-gitconfig-diff-textconv\]: \[diff \"fcinfo\"\] textconv = sh -c \'/path/to/fcinfo \--gui \"\$0\"\'
 
+
+
 ---
-[documentation index](../README.md) > WebTools Git/de
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Git/de

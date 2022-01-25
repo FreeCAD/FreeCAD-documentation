@@ -1,11 +1,12 @@
 # Basic modeling tutorial/es
-{{TutorialInfo/es
-|Topic= Introducción a la modelización
-|Level= Principiante
-|Time= 15 minutos
-|Author=[NormandC](User_Normandc.md)
-|FCVersion=cualquier
-|Files=ninguno
+---
+- TutorialInfo:/es
+   Topic: Introducción a la modelización
+   Level: Principiante
+   Time: 15 minutos
+   Author:[NormandC](User_Normandc.md)
+   FCVersion:cualquier
+   Files:ninguno
 }}
 
 ## Introducción
@@ -186,9 +187,10 @@ La etiqueta en tu botón podría ser diferente, dependiendo de tu versión y tam
 Las instrucciones de arriba funcionarán, sin importar la etiqueta que tenga el botón.
 
 
-{{Tutorials navi
+  {{Userdocnavi
+---
 
-}}
+
 
 ---
-[documentation index](../README.md) > Basic modeling tutorial/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/es

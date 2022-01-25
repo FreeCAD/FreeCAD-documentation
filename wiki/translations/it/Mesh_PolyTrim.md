@@ -60,5 +60,7 @@ Il comando **Rifila con un poligono** taglia facce e parti di facce da oggetti m
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyTrim/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyTrim/it

@@ -148,8 +148,5 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation/pt-br](<img src="images/Property.png" style="width:16px"> Documentation/pt-br.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/pt-br

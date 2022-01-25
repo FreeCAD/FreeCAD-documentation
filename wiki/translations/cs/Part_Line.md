@@ -11,7 +11,7 @@
 
 ### Základní geometrické tvary 
 
-+--------------------------------------------------------------------------+---------------------------------+
++++
 | ![](images/PartLinePrimitivesOptions_it.png ) | Přímka                          |
 |                                                                          |                                 |
 |                                                                          | #### Parametr                   |
@@ -30,14 +30,14 @@
 |                                                                          |                                 |
 |                                                                          | -                               |
 |                                                                          | -                               |
-+--------------------------------------------------------------------------+---------------------------------+
++++
 
 
 <div class="mw-translate-fuzzy">
 
 ### Vlastnosti
 
-+--------------------------------------------------------+----------------------------------------------+
++++
 | ![](images/PartLineProperty_it.png ) | #### Pohled                                  |
 |                                                        |                                              |
 |                                                        | ..                                           |
@@ -83,7 +83,7 @@
 |                                                        |     {{ProprietaDati|X2}}                     |
 |                                                        |                                           |
 |                                                        |     :                                        |
-+--------------------------------------------------------+----------------------------------------------+
++++
 
 
 
@@ -91,5 +91,7 @@
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/cs

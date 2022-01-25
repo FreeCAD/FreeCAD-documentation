@@ -6,7 +6,7 @@ Diese Kategorie enthält die Hilfeseiten jedes FreeCAD-Befehls.
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+    
   [Arch 3Views/de](Arch_3Views/de.md)                                                                             [Arch Add/de](Arch_Add/de.md)                                                                     [Arch Axis/de](Arch_Axis/de.md)
   [Arch AxisSystem/de](Arch_AxisSystem/de.md)                                                                     [Arch Building/de](Arch_Building/de.md)                                                           [Arch BuildingPart/de](Arch_BuildingPart/de.md)
   [Arch Check/de](Arch_Check/de.md)                                                                               [Arch CloneComponent/de](Arch_CloneComponent/de.md)                                               [Arch CloseHoles/de](Arch_CloseHoles/de.md)
@@ -173,10 +173,9 @@ Diese Kategorie enthält die Hilfeseiten jedes FreeCAD-Befehls.
   [SheetMetal AddBend/de](SheetMetal_AddBend/de.md)                                                               [SheetMetal AddCornerRelief/de](SheetMetal_AddCornerRelief/de.md)                                 [SheetMetal AddFoldWall/de](SheetMetal_AddFoldWall/de.md)
   [SheetMetal AddJunction/de](SheetMetal_AddJunction/de.md)                                                       [SheetMetal AddRelief/de](SheetMetal_AddRelief/de.md)                                             [SheetMetal AddWall/de](SheetMetal_AddWall/de.md)
   [SheetMetal Extrude/de](SheetMetal_Extrude/de.md)                                                               [SheetMetal Forming/de](SheetMetal_Forming/de.md)                                                 [SheetMetal SketchOnSheet/de](SheetMetal_SketchOnSheet/de.md)
-  [SheetMetal UnattendedUnfold/de](SheetMetal_UnattendedUnfold/de.md)                                             [SheetMetal Unfold/de](SheetMetal_Unfold/de.md)                                                   
-  ----------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+  [SheetMetal UnattendedUnfold/de](SheetMetal_UnattendedUnfold/de.md)                                             [SheetMetal Unfold/de](SheetMetal_Unfold/de.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/de

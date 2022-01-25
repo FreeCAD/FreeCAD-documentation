@@ -36,9 +36,7 @@ La pagina [Tutorial](tutorials/it.md) fornisce alcuni esempi che usano il metodo
 -   [Tutorial Sfera traforata](Whiffle_Ball_tutorial/it.md)
 -   [Guida introduttiva alla modellazione 3D](Basic_modeling_tutorial/it.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Constructive solid geometry/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/it

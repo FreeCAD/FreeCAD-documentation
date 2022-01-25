@@ -41,5 +41,7 @@ The copy stays linked with the original path. If the original changes, so does t
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/ru

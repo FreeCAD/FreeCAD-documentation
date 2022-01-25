@@ -92,5 +92,7 @@ Diese Optionen befinden sich im Menü, {{MenuCommand/de|Werkzeuge → Benutzerde
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Interface/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface/de

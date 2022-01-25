@@ -36,5 +36,7 @@ Creates a FEM fluid section element for pneumatic and hydraulic networks
 
  {{FEM Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > FEM ElementFluid1D
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D

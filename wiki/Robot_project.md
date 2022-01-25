@@ -68,9 +68,7 @@ Robot simulation
 
 -   Trajectory and Waypoint management.
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Robot](Robot_Workbench.md) > Robot project
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Robot](Robot_Workbench.md) > Robot project

@@ -1,6 +1,6 @@
 # <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/ru
 
-------------------------------------------------------------------------
+
 
 
 
@@ -30,11 +30,22 @@
 -   [FAQ](FAQ/ru.md): Часто задаваемые вопросы
 -   [Учебники](Tutorials/ru.md) по различным частям FreeCAD
 
+#### Migrating from other software? 
+
+
+<div class="mw-translate-fuzzy">
+
 Смотрите также:
 
 -   [Переход на FreeCAD с Fusion360](Migrating_to_FreeCAD_from_Fusion360/ru.md)
 
+
+</div>
+
 ### Основные элементы Приложения 
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Интерфейс](Interface/ru.md): интерфейс FreeCAD составлен из различных графических элементов на экране, включая [трёхмерный вид](3D_view/ru.md), [древо проекта](Tree_view/ru.md), [редактор свойств](Property_editor/ru.md), [панель задач](Task_panel/ru.md), и [консоль Python](Python_console/ru.md).
 -   [Навигация мышью](Mouse_navigation/ru.md): различные способы использования мыши или трэкпада для навигации в панели трёхмерного вида.
@@ -43,11 +54,14 @@
 -   [Редактор настроек](Preferences_Editor/ru.md): система, позволяющая управлять множеством свойств базовой системы и отдельных верстаков.
 -   [Форматы файлов](Import_Export/ru.md): различные форматы файлов, которые FreeCAD может читать и записывать
 
+
+</div>
+
 ### Верстаки
 
 [Верстаки](Workbenches/ru.md) - это наборы инструментов, используемые для решения определенных задач. Далее перечислены базовые верстаки, идущие в комплекте с каждой установкой FreeCAD:
 
--   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Base](Std_Base.md). This is not really a workbench, but rather a category of \'standard\' commands and tools that can be used in all workbenches.
+-   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Standard tools](Std_Base.md). These commands and tools are present in all workbenches.
 
 -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> The [Arch Workbench](Arch_Workbench.md) for working with architectural elements.
 
@@ -143,8 +157,5 @@
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ru

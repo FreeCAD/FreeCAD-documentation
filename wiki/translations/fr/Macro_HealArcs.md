@@ -44,5 +44,7 @@ else:
         FreeCAD.ActiveDocument.removeObject(n)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro HealArcs/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro HealArcs/fr

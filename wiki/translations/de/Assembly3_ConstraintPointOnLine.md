@@ -24,5 +24,7 @@ Im Bezug auf das erste Element, kann sich das folgende Objekt noch entlang der Z
 2.  Ein Punktelement des einen und ein gerades Kantenelement des anderen Objekts auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintPointOnLine.svg" width=16px> [Punkt auf Line](Assembly3_ConstraintPointOnLine/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointOnLine/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/de

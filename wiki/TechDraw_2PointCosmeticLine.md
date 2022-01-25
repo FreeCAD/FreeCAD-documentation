@@ -58,5 +58,7 @@ Cosmetic lines can be created using the makeCosmeticLine(v1, v2) or makeCosmetic
 
  {{TechDraw Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine

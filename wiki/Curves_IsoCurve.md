@@ -40,5 +40,7 @@ The <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Curves Iso
 
  {{Curves Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Curves IsoCurve
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves IsoCurve

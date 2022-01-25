@@ -1822,7 +1822,7 @@ class TitleBlockEntries(QDialog):
         # nothing but devider
         # menu dividers
         self.SubTitleDivider = QAction(self)
-        self.SubTitleDivider.setText('---------')
+        self.SubTitleDivider.setText('')
         self.SubTitleDivider.triggered.connect(self.onPopMenuDivider)
         # define RMB-menu and add options
         self.inputSubTitle.setContextMenuPolicy(QtCore.Qt.ActionsContextMenu)
@@ -3147,7 +3147,7 @@ main()
 
 This is a sandbox / Dies ist eine Sandbox
 
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
+
 
 ---
-[documentation index](../README.md) > Sandbox:TechDraw TemplateHelper
+![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:TechDraw TemplateHelper

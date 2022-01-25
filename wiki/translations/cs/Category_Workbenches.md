@@ -3,7 +3,7 @@ This category lists workbenches included in FreeCAD.
 
 ### Contents:
 
-  --------------------------------------------------------------------------------- --------------------------------------------------------------- ---------------------------------------------------------------
+    
   [Arch Workbench/cs](Arch_Workbench/cs.md)                                 [Draft Workbench/cs](Draft_Workbench/cs.md)             [FEM Workbench/cs](FEM_Workbench/cs.md)
   [Image Workbench/cs](Image_Workbench/cs.md)                               [Inspection Workbench/cs](Inspection_Workbench/cs.md)   [Mesh Workbench/cs](Mesh_Workbench/cs.md)
   [OpenSCAD Workbench/cs](OpenSCAD_Workbench/cs.md)                         [Part Module/cs](Part_Module/cs.md)                     [PartDesign Workbench/cs](PartDesign_Workbench/cs.md)
@@ -11,16 +11,9 @@ This category lists workbenches included in FreeCAD.
   [Reverse Engineering Workbench/cs](Reverse_Engineering_Workbench/cs.md)   [Robot Workbench/cs](Robot_Workbench/cs.md)             [Sketcher Workbench/cs](Sketcher_Workbench/cs.md)
   [Spreadsheet Workbench/cs](Spreadsheet_Workbench/cs.md)                   [Start Workbench/cs](Start_Workbench/cs.md)             [Std Edit Menu/cs](Std_Edit_Menu/cs.md)
   [Std Tools Menu/cs](Std_Tools_Menu/cs.md)                                 [Surface Workbench/cs](Surface_Workbench/cs.md)         [TechDraw Workbench/cs](TechDraw_Workbench/cs.md)
-  [Web Workbench/cs](Web_Workbench/cs.md)                                   [Workbenches/cs](Workbenches/cs.md)                     
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-  --------------------------------------------------------------------------------- --------------------------------------------------------------- ---------------------------------------------------------------
+  [Web Workbench/cs](Web_Workbench/cs.md)                                   [Workbenches/cs](Workbenches/cs.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/cs](<img src="images/Property.png" style="width:16px"> User_Documentation/cs.md) [<img src="images/Property.png" style="width:16px"> Draft/cs](<img src="images/Property.png" style="width:16px"> Draft/cs.md) [<img src="images/Property.png" style="width:16px"> External Workbenches/cs](<img src="images/Property.png" style="width:16px"> External_Workbenches/cs.md) [<img src="images/Property.png" style="width:16px"> FEM/cs](<img src="images/Property.png" style="width:16px"> FEM/cs.md) [<img src="images/Property.png" style="width:16px"> Image/cs](<img src="images/Property.png" style="width:16px"> Image/cs.md) [<img src="images/Property.png" style="width:16px"> Inspection/cs](<img src="images/Property.png" style="width:16px"> Inspection/cs.md) [<img src="images/Property.png" style="width:16px"> Mesh/cs](<img src="images/Property.png" style="width:16px"> Mesh/cs.md) [<img src="images/Property.png" style="width:16px"> Obsolete Workbenches/cs](<img src="images/Property.png" style="width:16px"> Obsolete_Workbenches/cs.md) [<img src="images/Property.png" style="width:16px"> OpenSCAD/cs](<img src="images/Property.png" style="width:16px"> OpenSCAD/cs.md) [<img src="images/Property.png" style="width:16px"> Part/cs](<img src="images/Property.png" style="width:16px"> Part/cs.md) [<img src="images/Property.png" style="width:16px"> Path/cs](<img src="images/Property.png" style="width:16px"> Path/cs.md) [<img src="images/Property.png" style="width:16px"> Plot/cs](<img src="images/Property.png" style="width:16px"> Plot/cs.md) [<img src="images/Property.png" style="width:16px"> Points/cs](<img src="images/Property.png" style="width:16px"> Points/cs.md) [<img src="images/Property.png" style="width:16px"> Raytracing/cs](<img src="images/Property.png" style="width:16px"> Raytracing/cs.md) [<img src="images/Property.png" style="width:16px"> Robot/cs](<img src="images/Property.png" style="width:16px"> Robot/cs.md) [<img src="images/Property.png" style="width:16px"> Ship/cs](<img src="images/Property.png" style="width:16px"> Ship/cs.md) [<img src="images/Property.png" style="width:16px"> Surface/cs](<img src="images/Property.png" style="width:16px"> Surface/cs.md) [<img src="images/Property.png" style="width:16px"> TechDraw/cs](<img src="images/Property.png" style="width:16px"> TechDraw/cs.md) [<img src="images/Property.png" style="width:16px"> Web/cs](<img src="images/Property.png" style="width:16px"> Web/cs.md)
+
 
 ---
-[documentation index](../README.md) > Category:Workbenches/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Workbenches/cs

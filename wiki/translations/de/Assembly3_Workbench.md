@@ -139,11 +139,11 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 
 :\* <img alt="" src=images/Part_Attachment.svg‎‎  style="width:32px;"> [Befestigung](Assembly3_ConstraintAttachment/de.md): Zum Befestigen eines Teils an ein zweites mittels der ausgewählten (Geometrie-) Elemente.
 
-:\*: Diese Beziehung verbindet beide Teile starr miteinander.
+:\*: Diese Bedingung verbindet beide Teile starr miteinander.
 
 :\* <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:32px;"> [Axiale Ausrichtung](Assembly3_ConstraintAxial/de.md): Zum axialen Ausrichten (Fluchten) von Kanten und Flächen zweier oder mehrerer Teile.
 
-:\*: Die Beziehung akzeptiert:
+:\*: Die Bedingung akzeptiert:
 
 :\*:: lineare Kanten; sie werden kollinear ausgerichtet,
 
@@ -185,9 +185,9 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 
 :\*: Unterstützte Elemente sind gerade Kanten und ebene Flächen.
 
-:\* <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:32px;"> [Weitere](Assembly3_ConstraintMore/de.md): Werkzeugleisten umschalten für weitere Beschränkungen
+:\* <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:32px;"> [Weitere](Assembly3_ConstraintMore/de.md): Werkzeugleisten umschalten für weitere Bedingungen
 
-:\*: Nicht wirklich eine Beschränkung, sondern ein Umschalter zum Anzeigen/Ausblenden der **Werkzeugleisten für zusätzliche Beschränkungen**.
+:\*: Nicht wirklich eine Bedingung, sondern ein Umschalter zum Anzeigen/Ausblenden der **Zusatzwerkzeugleisten für Bedingungen**.
 
 
 </div>
@@ -580,8 +580,5 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly3 Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly3 Workbench/de

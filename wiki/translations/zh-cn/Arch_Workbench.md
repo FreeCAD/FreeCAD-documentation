@@ -139,9 +139,6 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 {{docnav/zh-cn|[Workbenches/zh-cn](Workbenches/zh-cn.md)|[Draft Workbench/zh-cn](Draft_Workbench/zh-cn.md)|IconL=|IconR=Workbench_Draft.svg}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Arch](Category_Arch.md) > Arch Workbench/zh-cn

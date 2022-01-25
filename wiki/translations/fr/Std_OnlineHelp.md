@@ -35,5 +35,7 @@ La commande **Std Aide** ouvre la documentation d\'aide. Pour ouvrir la document
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std OnlineHelp/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std OnlineHelp/fr

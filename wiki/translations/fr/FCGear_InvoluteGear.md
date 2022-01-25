@@ -118,76 +118,80 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 -    **reversed_backslash**: s\'il y a plusieurs vitesses, faites attention à la vitesse pour laquelle le paramètre est réglé.
 
+## Limitations
+
+Un profil de dent en 2D, obtenu en fixant la valeur de **height** à zéro, ne peut pas être utilisé avec des caractéristiques nécessitant une forme en 2D. Par exemple, les fonctions [PartDesign Protrusion](PartDesign_Pad/fr.md) et [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md) n\'acceptent pas un tel profil comme base. Pour les détails techniques, veuillez vous reporter à la question connexe [issue on GitHub](https://github.com/looooo/freecad.gears/issues/97).
+
 ## Formules utiles 
 
 ### Engrenages droits standards 
 
 Le terme \"standard\" désigne ici les engrenages droits sans coefficient de décalage de profil ($x$).
 
-+----------+-------------------------------------------------+----------------------------------------+---------------------------------------------+
++++++
 | Symbole  | Terme                                           | Formule                                | Paramètre FCGear                            |
 +==========+=================================================+========================================+=============================================+
 | $m$      | *Module*                                        | \-                                     | $\texttt{module}$                           |
-+----------+-------------------------------------------------+----------------------------------------+---------------------------------------------+
++++++
 | $z$      | *Nombre de dents*                               | \-                                     | $\texttt{teeth}$                            |
-+----------+-------------------------------------------------+----------------------------------------+---------------------------------------------+
++++++
 | $\alpha$ | *Angle de pression*                             | \-                                     | $\texttt{pressure} {\_} \texttt{parameter}$ |
 |          |                                                 | Typiquement, $\alpha = 20^\circ$       |                                             |
-+----------+-------------------------------------------------+----------------------------------------+---------------------------------------------+
++++++
 | d        | *Diamètre de référence* ou *Diamètre primitif*. | $z \cdot m$                            | \-                                          |
-+----------+-------------------------------------------------+----------------------------------------+---------------------------------------------+
++++++
 | $h^*_a$  | *Coefficient de l\'addendum*                    | \-                                     | $h^*_a = 1 + \texttt{ head}$                |
 |          |                                                 | Typiquement, $h^*_a = 1$               |                                             |
-+----------+-------------------------------------------------+----------------------------------------+---------------------------------------------+
++++++
 | $h^*_f$  | *Dedendum Coefficient*                          | \-                                     | $h^*_f = 1 + \texttt{ clearance}$           |
 |          |                                                 | Typiquement, $h^*_f = 1.25$            |                                             |
-+----------+-------------------------------------------------+----------------------------------------+---------------------------------------------+
++++++
 | $h_a$    | *Addendum*                                      | $h_a = h^*_a \cdot m$                  | \-                                          |
-+----------+-------------------------------------------------+----------------------------------------+---------------------------------------------+
++++++
 | $h_f$    | *Dedendum*                                      | $h_f = h^*_f \cdot m$                  | \-                                          |
-+----------+-------------------------------------------------+----------------------------------------+---------------------------------------------+
++++++
 | $h$      | *Hauteur des dents* or *Profondeur des dents*   | $h = h_a + h_f$                        | \-                                          |
 |          |                                                 | Typically, $h = 2.25 \cdot m$          |                                             |
-+----------+-------------------------------------------------+----------------------------------------+---------------------------------------------+
++++++
 | $x$      | *Coefficient de décalage du profil*             | \-                                     | $\texttt{shift}$                            |
 |          |                                                 | Pour les engrenages standards, $x = 0$ |                                             |
-+----------+-------------------------------------------------+----------------------------------------+---------------------------------------------+
++++++
 
 : style=\"text-align: left;\" \| Formules de base communes aux engrenages cylindriques standard internes et externes
 
-+---------+---------------------------+----------------------------------------+
+++++
 | Symbole | Terme                     | Formule                                |
 +=========+===========================+========================================+
 | $d_a$   | *Diamètre aux extrémités* | $d_a = d + 2 \cdot h_a$                |
 |         |                           | Typiquement, $d_a = (z + 2) \cdot m$   |
-+---------+---------------------------+----------------------------------------+
+++++
 | $d_f$   | *Diamètre du coeur*       | $d_f = d - 2 \cdot h_f$                |
 |         |                           | Typiquement, $d_f = (z - 2.5) \cdot m$ |
-+---------+---------------------------+----------------------------------------+
+++++
 
 : style=\"text-align: left;\" \| Formules de base spécifiques aux engrenages cylindriques externes standard
 
-+---------+---------------------------+----------------------------------------+
+++++
 | Symbole | Terme                     | Formule                                |
 +=========+===========================+========================================+
 | $d_a$   | *Diamètre aux extrémités* | $d_a = d - 2 \cdot h_a$                |
 |         |                           | Typiquement, $d_a = (z - 2) \cdot m$   |
-+---------+---------------------------+----------------------------------------+
+++++
 | $d_f$   | *Diamètre du coeur*       | $d_f = d + 2 \cdot h_f$                |
 |         |                           | Typiquement, $d_f = (z + 2.5) \cdot m$ |
-+---------+---------------------------+----------------------------------------+
+++++
 
 : style=\"text-align: left;\" \| Formules de base spécifiques aux engrenages cylindriques standard internes
 
-+---------+---------------------------------+---------------------------------+
+++++
 | Symbole | Terme                           | Formule                         |
 +=========+=================================+=================================+
 | $a$     | *Distance du centre*            | $d = \frac{d_1 + d_2}{2}$       |
-+---------+---------------------------------+---------------------------------+
+++++
 | $c$     | *Dégagement extrémité et coeur* | $c_1 = h_{f2} - h_{a1}$         |
 |         |                                 | $c_2 = h_{f1} - h_{a2}$         |
 |         |                                 | Typiquement, $c = 0.25 \cdot m$ |
-+---------+---------------------------------+---------------------------------+
+++++
 
 : style=\"text-align: left;\" \| Formules de base spécifiques à une paire d\'engrenages cylindriques standard externes
 
@@ -229,8 +233,5 @@ Gui.SendMsgToActiveView("ViewFit")
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> FCGear](Category_FCGear.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > FCGear InvoluteGear/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteGear/fr

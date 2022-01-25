@@ -36,5 +36,7 @@ The **Std BoxSelection** command selects objects from a user defined rectangular
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std BoxSelection
+![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxSelection

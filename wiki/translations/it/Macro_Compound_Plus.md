@@ -366,7 +366,7 @@ setIconPOL = [
 "...;#+++---*-+++",
 "....%=+++++*-+++",
 ".....;$++++****+",
-"......@%++++----",
+"......@%++++",
 "................"]
 
 #path#################################################################
@@ -1695,5 +1695,7 @@ Le mie macro su [Github](https://gist.github.com/mario52a)
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Macro Compound Plus/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Compound Plus/it

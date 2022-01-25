@@ -65,5 +65,7 @@ ver 00.03 : 09/02/2016 : minor (affichage sur le bouton Launch)
 
 ver 00.04 : 03/07/2019 : adapté pour Python 3
 
+
+
 ---
-[documentation index](../README.md) > Macro Loft/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Loft/fr

@@ -15,10 +15,10 @@ Cet outil extrait une section de l\'intersection de deux formes sélectionnées,
 
 Dans cet exemple, un cube est coupé par un cylindre :
 
-+------------------------------------------------+--------------------------------------------+
++++
 | ![](images/PartSection1_it.png ) | -   **Base**: objet de base, le cube       |
 |                                                | -   **Outil**: outil de coupe, le cylindre |
-+------------------------------------------------+--------------------------------------------+
++++
 
 
 
@@ -33,5 +33,7 @@ Dans cet exemple, un cube est coupé par un cylindre :
 
 Pour créer des coupes depuis un plan de coupe, voir <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Coupes](Part_CrossSections/fr.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/fr

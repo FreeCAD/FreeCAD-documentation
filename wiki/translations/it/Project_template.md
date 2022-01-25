@@ -29,7 +29,5 @@ I progetti sono raccolti nel [Piano di sviluppo](Development_roadmap/it.md).
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template/it

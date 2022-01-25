@@ -19,5 +19,7 @@ STEP assemblies are imported into separate documents.
 1.  Press **<img src="images/Assembly_ImportMulti.svg‎‎" width=16px> [Import as multi-document](Assembly3_ImportMultiDocument.md)** to open a file browser window
 2.  Select the STEP file to import
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ImportMultiDocument/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ImportMultiDocument/en

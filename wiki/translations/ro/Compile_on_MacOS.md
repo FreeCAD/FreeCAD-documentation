@@ -133,13 +133,13 @@ Next, we will run CMake to generate the build configuration. Several options mus
 
 <div class="mw-translate-fuzzy">
 
-+-----------------------------+------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Name                        | Value                                                | Notes                                                                                                                                      |
 +=============================+======================================================+============================================================================================================================================+
 | CMAKE\_BUILD\_TYPE          | Release (STRING)                                     | Release or Debug. Debug is generally used for developer-level testing but may also be required for user-level testing and troubleshooting. |
-+-----------------------------+------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | BUILD\_QT5                  | 1 (BOOL)                                             | Required to build with Qt5.                                                                                                                |
-+-----------------------------+------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | CMAKE\_PREFIX\_PATH         | \"/usr/local/Cellar/qt\@5.6/5.6.2/lib/cmake\" (PATH) | Required to build with Qt5. See note below.                                                                                                |
 |                             |                                                      |                                                                                                                                            |
 |                             |                                                      |                                                                                                                                  |
@@ -148,15 +148,15 @@ Next, we will run CMake to generate the build configuration. Several options mus
 |                             |                                                      |                                                                                                                                  |
 |                             |                                                      | <div class="mw-translate-fuzzy">                                                                                                           |
 |                             |                                                      |                                                                                                                                         |
-+-----------------------------+------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | FREECAD\_CREATE\_MAC\_APP   | 1 (BOOL)                                             | Create a FreeCAD.app bundle at the location specified in CMAKE\_INSTALL\_PREFIX, when the \'make install\' command issued.                 |
-+-----------------------------+------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | CMAKE\_INSTALL\_PREFIX      | \"./..\" (PATH)                                      | Path where you want to generate the FreeCAD.app bundle.                                                                                    |
-+-----------------------------+------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | FREECAD\_USE\_EXTERNAL\_KDL | 1 (BOOL)                                             | Required.                                                                                                                                  |
-+-----------------------------+------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | BUILD\_FEM\_NETGEN          | 1 (BOOL)                                             | Required.                                                                                                                                  |
-+-----------------------------+------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 
 
 </div>
@@ -317,11 +317,5 @@ FreeCAD can be built against the latest git master hosted on github, and launche
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on MacOS/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on MacOS/ro

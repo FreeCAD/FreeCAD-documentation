@@ -27,5 +27,7 @@ L\'outil **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Fusi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet MergeCells/fr

@@ -330,7 +330,7 @@ Un nuovo [tutorial](Arch_tutorial/it.md) di 35 pagine descrive l\'ambiente Arch 
 
 L\'elenco completo delle correzioni e delle nuove funzionalità può essere letto suhttp://freecadweb.org/tracker/changelog\_page.php
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.14/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.14/it

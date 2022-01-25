@@ -1,11 +1,11 @@
-# How to install additional workbenches/de
-{{TutorialInfo/de
-|Topic=Programmierung
-|Level=Mittelmäßiger Programmierer
-|Time=15 Minuten
-|FCVersion=Alle
-|Author=[r-frank](User:R-Frank.md)
-|Files=keine
+---
+- TutorialInfo:/de
+   Topic:Programmierung
+   Level:Mittelmäßiger Programmierer
+   Time:15 Minuten
+   FCVersion:Alle
+   Author:[r-frank](User:R-Frank.md)
+   Files:keine
 }}
 
 ## Beschreibung
@@ -18,7 +18,7 @@ Intensivnutzer haben FreeCAD um verschiedene kundenspezifische [externe Arbeitsb
 
 **Hinweis:**
 
-Ab Version 0.17 verfügt FreeCAD über einen <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) im **Werkzeuge → Erweiterungsverwalter** Menü, das die Installation sowohl von Makros als auch von Workbenches erlaubt. Die folgenden Anweisungen sind nur erforderlich, wenn du einen Arbeitsbereich manuell installieren möchtest. Dies könnte notwendig sein, wenn aus irgendeinem Grund der Erweiterungsverwalter nicht funktioniert, du aber Zugriff auf den als {{FileName|.zip}} Paket heruntergeladenen Arbeitsbereich hast.
+Ab Version 0.17 verfügt FreeCAD über einen <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) im **Werkzeuge → Erweiterungsverwalter** Menü, das die Installation sowohl von Makros als auch von Workbenches erlaubt. Die folgenden Anweisungen sind nur erforderlich, wenn du einen Arbeitsbereich manuell installieren möchtest. Dies könnte notwendig sein, wenn aus irgendeinem Grund der Erweiterungsverwalter nicht funktioniert, du aber Zugriff auf den als {{FileName   .zip}} Paket heruntergeladenen Arbeitsbereich hast.
 
 
 </div>
@@ -66,8 +66,8 @@ Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Std_AddonMgr/
 -   Lade den Arbeitsbereich von github herunter, durch anklicken auf die Schaltfläche **Clone** oder **Download** auf der github Seite (obere rechte Ecke) klickest und \"Download ZIP\" wählst
 -   Entpacke das heruntergeladene Archiv auf deiner lokalen Festplatte
 -   Suche innerhalb von FreeCAD den Makropfad, durch Wahl von **Bearbeiten → Einstellungen → Allgemein→ Makro** und nach dem \"Makropfad\" suchen.
--   Angenommen, dein Windows-Login ist \"*Benutzername*\", dann ist der Standard Makropfad {{FileName|%APPDATA%\FreeCAD\}}, der normalerweise {{FileName|C:\Users\''username''\Appdata\Roaming\FreeCAD}} ist.
--   Erstelle innerhalb des Makro-Verzeichnisses einen Ordner (falls nicht bereits vorhanden) namens \"{{FileName|Mod}}\"
+-   Angenommen, dein Windows-Login ist \"*Benutzername*\", dann ist der Standard Makropfad {{FileName   %APPDATA%\FreeCAD\}}, der normalerweise {{FileName   C:\Users\''username''\Appdata\Roaming\FreeCAD}} ist.
+-   Erstelle innerhalb des Makro-Verzeichnisses einen Ordner (falls nicht bereits vorhanden) namens \"{{FileName   Mod}}\"
 -   Lege innerhalb des Ordners Mod einen Ordner mit dem Namen des Arbeitsbereichs an, z.B. \"Curves\".
 -   Verschiebe nun die entpackten Dateien und Unterordner des Arbeitsbereichs in den soeben erstellten Arbeitsbereichs-Ordner
 -   Nach dem Neustart von FreeCAD solltest du nun einen Eintrag im [Arbeitsbereichsanwähler](Std_Workbench/de.md) haben
@@ -98,13 +98,16 @@ Hinzufügen der [community-ppa](https://launchpad.net/~freecad-community/+archiv
 Installation der Arbeitsbereiche über synaptische Paketmanager.
 
 
-```python
+{{Code   code:
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
 $ git clone  https://github.com/tomate44/CurvesWB.git
-```
+---
 
+# How to install additional workbenches/de
+
+ 
 In FreeCAD hast du nun einen neuen Arbeitsbereichs-Eintrag namens \"CurvesWB\". Nach der Installation kannst du git verwenden, um auf die neueste Version zu aktualisieren:
 
 
@@ -197,9 +200,6 @@ Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Ku
     -   siehe diesen Forumsbeitrag: [Assembly2 in Version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
- {{Powerdocnavi}}
-
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > How to install additional workbenches/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > How to install additional workbenches/de

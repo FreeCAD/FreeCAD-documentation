@@ -39,5 +39,7 @@ Feature needs OpenSCAD installed and configured in **Edit** → **Preferences**
 
  {{OpenSCAD_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski

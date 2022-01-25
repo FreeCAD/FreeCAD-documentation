@@ -24,5 +24,7 @@ The **Std SceneInspector** command opens a dialog box displaying an overview of 
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std SceneInspector
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SceneInspector

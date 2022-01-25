@@ -143,5 +143,7 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/ro

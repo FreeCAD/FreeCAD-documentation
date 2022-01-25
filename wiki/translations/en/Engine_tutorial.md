@@ -9,10 +9,5 @@ Modeling a complete engine (ongoing tutorial):
 
 
 
-
-
-
-[<img src="images/Property.png" style="width:16px"> Tutorials/en](<img src="images/Property.png" style="width:16px"> Tutorials/en.md)
-
 ---
-[documentation index](../README.md) > Engine tutorial/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Engine tutorial/en

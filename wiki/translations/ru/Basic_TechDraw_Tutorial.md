@@ -1,16 +1,17 @@
 # Basic TechDraw Tutorial/ru
-{{TutorialInfo/ru
-|Topic=Моделирование
-|Level=Для начинающих
-|Author=[WandererFan](User_WandererFan.md)
-|Time=Меньше часа
-|FCVersion=0.17 и выше
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Разработка простой детали Basic в v0.17 Пример]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Простое TechDraw руководство Пример]
+---
+- TutorialInfo:/ru
+   Topic:Моделирование
+   Level:Для начинающих
+   Author:[WandererFan](User_WandererFan.md)
+   Time:Меньше часа
+   FCVersion:0.17 и выше
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Разработка простой детали Basic в v0.17 Пример]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Простое TechDraw руководство Пример]
 }}
 
 ## Введение
 
-Это руководство для ознакомления начинающих пользователей с некоторыми инструментами и методами, используемыми в **<img src="images/Workbench_TechDraw.svg" width=24px> [верстаке технического черчения (TechDraw)](TechDraw_Workbench/ru.md)**. Это руководство не является полным и исчерпывающим, и многие инструменты и возможности в нем не рассматриваются. Данное руководство проведет пользователя по шагам, необходимым для создания технических чертежей из детали которая была спроектирована в [руководстве к PartDesign для начинающих](Basic_Part_Design_Tutorial/ru.md).
+Это руководство для ознакомления начинающих пользователей с некоторыми инструментами и методами, используемыми в **![](images/)**. Это руководство не является полным и исчерпывающим, и многие инструменты и возможности в нем не рассматриваются. Данное руководство проведет пользователя по шагам, необходимым для создания технических чертежей из детали которая была спроектирована в [руководстве к PartDesign для начинающих](Basic_Part_Design_Tutorial/ru.md).
 
 ## Прежде чем начать 
 
@@ -184,9 +185,10 @@
 -   FreeCAD файл этого упражнения для сравнения (создан в версии 0.17) [Скачать](https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd)
 
 
-{{Tutorials navi
+ {{TechDraw Tools navi}} {{Userdocnavi
+---
 
-}} {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Basic TechDraw Tutorial/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/ru

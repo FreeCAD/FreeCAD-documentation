@@ -66,5 +66,7 @@ Las propiedades pueden ser cambiadas posteriormente en la pestaña **Vista combi
 
 You have the standard properties view.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/es

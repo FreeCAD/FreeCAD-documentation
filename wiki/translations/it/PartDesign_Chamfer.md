@@ -61,5 +61,7 @@ Questo strumento applica degli smussi ai bordi di un oggetto selezionato. All\'a
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/it

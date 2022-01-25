@@ -7,7 +7,7 @@ FreeCAD poate importa și exporta multe tipuri de fișiere. Iată o listă cu ce
 <div class="mw-translate-fuzzy">
 
   Format   Import   Export   Notes
-  -------- -------- -------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     
   STEP     Yes      Yes      Acesta este cel mai fidel format import / export disponibil, deoarece susține geometria solidă și NURBS. Utilizați-l ori de câte ori este posibil.
   IGES     Yes      Yes      Un format solid mai vechi, de asemenea foarte bine susținut. Unele aplicații mai vechi nu acceptă PAS, dar au IGES.
   BREP     Yes      Yes      Formatul nativ al Open Cascade Technology [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology), FreeCAD\'s geometry kernel.
@@ -56,8 +56,5 @@ Unele dintre aceste formate de fișiere au opțiuni. Acestea pot fi configurate 
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
-
 ---
-[documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Import and export to other filetypes/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Import and export to other filetypes/ro

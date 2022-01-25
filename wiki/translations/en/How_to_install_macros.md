@@ -1,10 +1,9 @@
-# How to install macros/en
-{{TutorialInfo
-|Topic=Programming
-|Level=Medium programmer
-|Time=15 minutes
-|FCVersion=All
-|Author=[Mario52](User_Mario52.md)
+---
+- TutorialInfo:   Topic:Programming
+   Level:Medium programmer
+   Time:15 minutes
+   FCVersion:All
+   Author:[Mario52](User_Mario52.md)
 }}
 
 ## Description
@@ -13,7 +12,7 @@ Since v0.17 it is easy to add macros by using the [Addon Manager](Std_AddonMgr.m
 
 Macros are sequences of commands which are used to perform a complex drawing operation. Macros are [Python](Python.md) scripts, which means they are text files that can be written and edited with a text editor.
 
-While Python scripts normally have the `.py` extension, FreeCAD macros should have the `.FCMacro` extension. A collection of macros written by experienced users is found in the [macros recipes](macros_recipes.md) page.
+While Python scripts normally have the {{incode   .py}} extension, FreeCAD macros should have the {{incode   .FCMacro}} extension. A collection of macros written by experienced users is found in the [macros recipes](macros_recipes.md) page.
 
 See [Introduction to Python](Introduction_to_Python.md) to learn about the Python programming language, and then [Python scripting tutorial](Python_scripting_tutorial.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) to learn about writing macros.
 
@@ -56,10 +55,13 @@ Downloaded macros should also be placed in this directory.
 Macros can be simply copied into
 
 
-```python
+{{Code   code:
 $ROOT_DIR/
-```
+---
 
+# How to install macros/en
+
+ 
 where `$ROOT_DIR` is a top level directory searched by FreeCAD on startup.
 
 The `$ROOT_DIR` could be a system wide directory, in which case the macro is installed for all users.
@@ -508,11 +510,6 @@ and then press the **OK** button.
 </div>
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > How to install macros/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > How to install macros/en

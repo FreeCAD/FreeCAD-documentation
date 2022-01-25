@@ -37,5 +37,7 @@ This tool allows you to create a 2D profile of a sprocket (or chainwheel). It ca
 
  {{PartDesign Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket

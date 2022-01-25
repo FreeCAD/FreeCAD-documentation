@@ -3,7 +3,7 @@
 
 Ci-dessous vous trouverez une collection de tutoriels vidéos faite par les utilisateurs et développeurs de FreeCAD. Consultez le sujet [Tutorials and videos (EN)](https://forum.freecadweb.org/viewforum.php?f=36) du forum pour plus de liens. [YouTube](https://YouTube.com) est une source intéressante de didacticiels vidéo.
 
-Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels écrits de haute qualité. Vous trouverez une liste complète et non triée de didacticiels dans la [catégorie Didacticiels](:<img src="images/Property.png" style="width:16px"> Tutorials/fr.md).
+Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels écrits de haute qualité. Vous trouverez une liste complète et non triée de didacticiels dans la [catégorie Didacticiels](:Category:Tutorials/fr.md).
 
 Si vous souhaitez contribuer à la rédaction de la documentation et des didacticiels du wiki, voir [Aider FreeCAD](Help_FreeCAD/fr.md), reportez-vous aux instructions générales du wiki dans [WikiPages (en)](WikiPages.md) et suivez les [recommandations pour didacticiel (en)](tutorial_guidelines.md).
 
@@ -85,11 +85,6 @@ Bien que ces vidéos soient considérées comme obsolètes, elles sont incluses 
 Pour plus à voir [Tutoriels vidéo obsolètes](Video_tutorials_obsolete/fr.md).
 
 
-{{Tutorials navi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/fr

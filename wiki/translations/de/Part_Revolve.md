@@ -21,7 +21,7 @@ Dreht das ausgewählte Objekt um eine gegebene Achse. Die folgenden Formtypen si
 </div>
 
   Eingabeform   Ausgabeform
-  ------------- ----------------------------------
+   
   Knoten        Kante
   Kante         Fläche
   Draht         Hülle
@@ -55,5 +55,7 @@ Wenn Du eine benutzerdefinierte Achse wählst, definieren die Zahlen die Richtun
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/de

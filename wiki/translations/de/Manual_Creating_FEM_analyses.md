@@ -82,11 +82,5 @@ The results displayed by the FEM workbench are of course currently not enough to
 
 
 
-
-
-{{Tutorials navi
-
-}}
-
 ---
-[documentation index](../README.md) > Manual:Creating FEM analyses/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating FEM analyses/de

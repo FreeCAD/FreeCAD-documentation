@@ -26,5 +26,7 @@ Documentele FreeCAD sunt slavate cu extensia .FcStd , care este arhivată pe baz
 -   [The FreeCAD document](Document_structure.md)
 -   [File Format FCStd](File_Format_FCStd.md)
 
+
+
 ---
-[documentation index](../README.md) > Manual:The FreeCAD document/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD document/ro

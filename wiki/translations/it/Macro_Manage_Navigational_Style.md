@@ -48,5 +48,7 @@ p=App.ParamGet("User parameter:BaseApp/Preferences/View")
 p.SetString("NavigationStyle","Gui::CADNavigationStyle")
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Manage Navigational Style/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Manage Navigational Style/it

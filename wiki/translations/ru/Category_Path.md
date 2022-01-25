@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench/ru](PartDesign_Wo
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------- ---------------------------------------------------------------
+    
   [Artwork Path/ru](Artwork_Path/ru.md)                                               [Manual:Preparing models for 3D printing/ru](Manual:Preparing_models_for_3D_printing/ru.md)   [Path Array/ru](Path_Array/ru.md)
   [Path Comment/ru](Path_Comment/ru.md)                                               [Path Copy/ru](Path_Copy/ru.md)                                                               [Path Custom/ru](Path_Custom/ru.md)
   [Path Drilling/ru](Path_Drilling/ru.md)                                             [Path experimental/ru](Path_experimental/ru.md)                                               [Path FAQ/ru](Path_FAQ/ru.md)
@@ -14,10 +14,9 @@ This category lists pages related to the [PartDesign Workbench/ru](PartDesign_Wo
   [Path Shape/ru](Path_Shape/ru.md)                                                   [Path SimpleCopy/ru](Path_SimpleCopy/ru.md)                                                   [Path Simulator/ru](Path_Simulator/ru.md)
   [Path Stop/ru](Path_Stop/ru.md)                                                     [Path Surface/ru](Path_Surface/ru.md)                                                         [Path ToolBit Library/ru](Path_ToolBit_Library/ru.md)
   [Path ToolController/ru](Path_ToolController/ru.md)                                 [Path Tools/ru](Path_Tools/ru.md)                                                             [Path ToolShape/ru](Path_ToolShape/ru.md)
-  [Path Walkthrough for the Impatient/ru](Path_Walkthrough_for_the_Impatient/ru.md)   [Path Workbench/ru](Path_Workbench/ru.md)                                                     
-  ------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------- ---------------------------------------------------------------
+  [Path Walkthrough for the Impatient/ru](Path_Walkthrough_for_the_Impatient/ru.md)   [Path Workbench/ru](Path_Workbench/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/ru](<img src="images/Property.png" style="width:16px"> Workbenches/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Path/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Path/ru

@@ -82,5 +82,7 @@ Para lanzar FreeCAD dentro de la imagen Docker, simplemente ejecuta el comando F
 
 FreeCAD hilo de foro: <https://forum.freecadweb.org/viewtopic.php?f=8&t=45877>
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD Docker CLI mode/es
+![](images/Right_arrow.png) [documentation index](../README.md) > FreeCAD Docker CLI mode/es

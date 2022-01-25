@@ -20,5 +20,7 @@ La commande <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24
 4.  Créez votre géométrie.
 5.  Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande et désactiver le mode continu.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/fr

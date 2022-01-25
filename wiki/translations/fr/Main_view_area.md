@@ -20,5 +20,7 @@ Les fenêtres de la zone d\'affichage principale peuvent être organisées avec 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Main view area/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Main view area/fr

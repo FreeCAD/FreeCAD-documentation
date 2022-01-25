@@ -1,7 +1,7 @@
 # Category:Command Reference/ko
 ### Contents:
 
-  ------------------------------------------------------------------------------- --------------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [Template:GuiCommand/ko](Template:GuiCommand/ko.md)                     [Part Box/ko](Part_Box/ko.md)                                 [PartDesign Body/ko](PartDesign_Body/ko.md)
   [Std Alignment/ko](Std_Alignment/ko.md)                                 [Std BoxElementSelection/ko](Std_BoxElementSelection/ko.md)   [Std BoxSelection/ko](Std_BoxSelection/ko.md)
   [Std CloseActiveWindow/ko](Std_CloseActiveWindow/ko.md)                 [Std CloseAllWindows/ko](Std_CloseAllWindows/ko.md)           [Std Copy/ko](Std_Copy/ko.md)
@@ -19,8 +19,9 @@
   [Std Undo/ko](Std_Undo/ko.md)                                           [Std ViewCreate/ko](Std_ViewCreate/ko.md)                     [Std ViewDimetric/ko](Std_ViewDimetric/ko.md)
   [Std ViewDockUndockFullscreen/ko](Std_ViewDockUndockFullscreen/ko.md)   [Std ViewFitAll/ko](Std_ViewFitAll/ko.md)                     [Std ViewFitSelection/ko](Std_ViewFitSelection/ko.md)
   [Std ViewFullscreen/ko](Std_ViewFullscreen/ko.md)                       [Std ViewIsometric/ko](Std_ViewIsometric/ko.md)               [Std ViewScreenShot/ko](Std_ViewScreenShot/ko.md)
-  [Tasks Placement/ko](Tasks_Placement/ko.md)                                                                                                   
-  ------------------------------------------------------------------------------- --------------------------------------------------------------------- ---------------------------------------------------------------------
+  [Tasks Placement/ko](Tasks_Placement/ko.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/ko

@@ -41,7 +41,7 @@ Eh bien, votre coque semble avoir des erreurs, peut-être qu\'elle n\'est pas fe
 
 -   [FreeCAD Howto Import Export](FreeCAD_and_Mesh_Import/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
+
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > FreeCAD and Mesh Import/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and Mesh Import/fr

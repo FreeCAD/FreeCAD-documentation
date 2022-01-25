@@ -43,5 +43,7 @@ Crea un elemento FEM di sezione del fluido per le reti pneumatiche e idrauliche
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ElementFluid1D/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ElementFluid1D/it

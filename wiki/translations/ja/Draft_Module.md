@@ -1,5 +1,7 @@
 # Draft Module/ja
 1.  REDIRECT [Draft\_Workbench/ja](Draft_Workbench/ja.md)
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Module/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Module/ja

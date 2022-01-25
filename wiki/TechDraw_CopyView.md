@@ -44,5 +44,7 @@ There is only one View object after the copy operation. Any changes made to the 
 
  {{TechDraw Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CopyView
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CopyView

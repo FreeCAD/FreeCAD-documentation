@@ -52,5 +52,7 @@ In der Vergangenheit wurden die `.xpm`-Symbole als Überlagerungen bei der Anzei
 
 }} {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Sketcher/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher/de

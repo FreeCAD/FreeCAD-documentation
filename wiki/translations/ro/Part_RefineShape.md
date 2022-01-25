@@ -115,5 +115,7 @@ The Python command for refining a shape is the following:
 shape.removeSplitter()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RefineShape/ro

@@ -33,5 +33,7 @@ The **Std ViewHome** command changes the camera in the active [3D view](3D_view.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewHome/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewHome/pl

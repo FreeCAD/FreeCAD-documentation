@@ -37,5 +37,7 @@ Această comandă vă permite să plasați un dreptunghi de tăiere pe un ecran 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/ro

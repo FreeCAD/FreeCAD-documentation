@@ -45,5 +45,7 @@ for (cmd, shortcut) in preset:
     App.ParamGet("User parameter:BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Unbind Numpad Shortcuts/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Unbind Numpad Shortcuts/fr

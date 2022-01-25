@@ -115,5 +115,7 @@ App.activeDocument().AutoDrawing.addObject(App.activeDocument().IsoView)
 
 The forum [Automatic drawing](https://forum.freecadweb.org/viewtopic.php?f=8&t=3361)
 
+
+
 ---
-[documentation index](../README.md) > Macro Automatic drawing
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Automatic drawing

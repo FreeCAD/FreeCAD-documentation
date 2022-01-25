@@ -131,5 +131,7 @@ Une fois que la forme de l\'outil (profil) souhaitée existe, vous devez créer 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Tools/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Tools/fr

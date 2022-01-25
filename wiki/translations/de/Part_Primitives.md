@@ -90,5 +90,7 @@ Es kann auch als Eingabe in das Programm verwendet werden.
 freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/de

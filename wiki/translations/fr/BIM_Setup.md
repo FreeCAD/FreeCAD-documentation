@@ -17,5 +17,7 @@ Le système de préférences de FreeCAD, situé sous le menu **Edition -\> Préf
 
 En survolant chaque paramètre avec la souris, un ttoltip vous en expliquera l'utilisation, ainsi que l'emplacement du paramètre correspondant dans les préférences générales de FreeCAD.
 
+
+
 ---
-[documentation index](../README.md) > BIM Setup/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/fr

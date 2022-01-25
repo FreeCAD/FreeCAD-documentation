@@ -76,13 +76,5 @@ Voir les [Coin3d snippets](Coin3d_snippets/fr.md) grâce aux recherches de Mariw
 
 
 
-
-
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scenegraph/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scenegraph/fr

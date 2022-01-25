@@ -31,5 +31,7 @@ Un ECS est représenté par 3 lignes qui se rejoignent à l\'origine des éléme
     -   Le bouton **<img src="images/Assembly_ShowElementCS.svg" width=16px> [Show element coordinate system](Assembly3_ShowElementCS/fr.md)**.
     -   L\'option de menu **Assembly3 → Element style → <img src="images/Assembly_ShowElementCS.svg" width=16px> Show element coordinate system**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ShowElementCS/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ShowElementCS/fr

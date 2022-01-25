@@ -146,11 +146,5 @@ A bancada (módulo) Arch pode ser usado em scripts [Python](Python/pt-br.md) e [
 
 
 
-
-
- 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Arch](Category_Arch.md) > Arch Workbench/pt-br

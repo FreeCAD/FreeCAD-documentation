@@ -29,5 +29,7 @@ La commande **Std Lien objet lié** sélectionne {{PropertyData/fr|Linked Object
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkSelectLinked/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectLinked/fr

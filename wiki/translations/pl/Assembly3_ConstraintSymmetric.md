@@ -17,5 +17,7 @@ This tool builds a link between two objects of an assembly and matches their ori
 2.  Select one element of each object and a mirroring plane.
 3.  Press the **<img src="images/Assembly_ConstraintSymmetric.svg" width=16px> [Symmetric](Assembly3_ConstraintSymmetric.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSymmetric/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetric/pl

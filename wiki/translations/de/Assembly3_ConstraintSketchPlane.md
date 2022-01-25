@@ -23,5 +23,7 @@ Er kann verwendet werden um ein Grundgerüst (\"Skelett-Skizze\") für eine 2D-K
 
 :   Mit einer vorhandenen, nicht leeren, Baugruppe können die Schritte 1 und 2 ausgelassen werden und ein beliebiges ebenes Flächenelement kann als Arbeitsebene für die Skizzierebene verwendet werden.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSketchPlane/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/de

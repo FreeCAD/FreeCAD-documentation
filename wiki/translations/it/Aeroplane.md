@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/it
+   Topic:Part
+   Level:Base
+   Time:10 minuti
+   Author:Hughthecat
+   FCVersion:
+   Files:
+---
+
 # Aeroplane/it
-{{TutorialInfo/it
-|Topic=Part
-|Level=Base
-|Time=10 minuti
-|Author=Hughthecat
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## First Steps 
 
@@ -156,9 +162,6 @@ Ecco alcuni ulteriori suggerimenti per esercitarsi con l\'Aereo:
 Spero che questo piccolo tutorial sia di aiuto per gestire le rotazioni.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Aeroplane/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/it

@@ -214,5 +214,7 @@ App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + 
 
 -   **ver 0.2 25/02/2015 :** correct names files in for compatibility Linux (case sensitive) thanks microelly2
 
+
+
 ---
-[documentation index](../README.md) > Macro FCCamera/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCCamera/ru

@@ -21,13 +21,13 @@ Il checksum SHA256 per verificare l\'integrità del download si trova in [0.18.4
 
 Previous versions can be downloaded from the [releases](https://github.com/FreeCAD/FreeCAD/releases) page.
 
-+:---------------------------------------------------------------------------------------------------------------------------------:+---+:---------------------------------------------------------------------------------------------------------------:+---+:------------------------------------------:+
++::+---+::+---+::+
 | ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png ) |
 |                                                                                                                                   |   |                                                                                                                 |   |                                            |
 | Install on Windows                                                                                                                |   | Install on Mac                                                                                                  |   | Install on Linux                           |
 |                                                                                                                                   |   |                                                                                                                 |   |                                            |
 | [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-2.exe) (includes installer) |   | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)     |
-+-----------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------+---+--------------------------------------------+
+++---++---++
 
 
 <div class="mw-translate-fuzzy">
@@ -97,5 +97,7 @@ La comunità di FreeCAD offre numerosi moduli e macro aggiuntivi. Dalla versione
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Download/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Download/it

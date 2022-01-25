@@ -27,5 +27,7 @@ Or
 3.  Select a planar face element of the third object
 4.  Press the **<img src="images/Assembly_ConstraintPointsVertical.svg" width=16px> [Points vertical](Assembly3_ConstraintPointsVertical.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointsVertical/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsVertical/en

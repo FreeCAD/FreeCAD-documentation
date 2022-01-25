@@ -34,7 +34,7 @@ Il modo più semplice per installare PySide è attraverso il gestore dei pacchet
 
 ##### Windows
 
-Il programma può essere scaricato da <http://qt-project.org/wiki/<img src="images/Property.png" style="width:16px"> LanguageBindings>::PySide::Downloads. Prima di installare PyQt4 è necessario installare le librerie Qt e SIP (operazioni da documentare).
+Il programma può essere scaricato da <http://qt-project.org/wiki/Category:LanguageBindings>::PySide::Downloads. Prima di installare PyQt4 è necessario installare le librerie Qt e SIP (operazioni da documentare).
 
 #### MacOSX
 
@@ -737,9 +737,6 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Python Code](Category_Python Code.md) > Extra python modules/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [Developer Documentation](Category_Developer Documentation.md) > Extra python modules/it

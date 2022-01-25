@@ -31,5 +31,7 @@ Esta herramienta le permite exportar y subir objetos a su cuenta [SketchFab](htt
 -   Cuando pulses el \"botón de subir\", una vez terminada la subida, si todo ha ido bien, el botón se convertirá en un botón de \"Ver tu modelo online\", que, al pulsarlo, te llevará directamente a la página del modelo en Sketchfab.
 -   Algunos formatos, como el OBJ, son interpretados de forma diferente por Sketchfab y FreeCAD. FreeCAD considera que el eje Z apunta hacia arriba, mientras que Sketchfab considera que apunta hacia la persona que está detrás de la pantalla. Para remediar esto, una vez finalizada la carga, el exportador utilizará la API de Sketchfab para rotar el modelo a su posición correcta. Si esta operación falla, recibirás un aviso, pero tu modelo seguirá siendo subido correctamente. Puedes rotarlo manualmente en la interfaz de Sketchfab, pulsando la flecha derecha junto al eje \"X\" en la pestaña de orientación del modelo.
 
+
+
 ---
-[documentation index](../README.md) > WebTools Sketchfab/es
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab/es

@@ -18,5 +18,7 @@ Cet outil établit un lien entre deux objets d\'un assemblage et fixe la distanc
 2.  Sélectionnez un élément de point d\'un objet et un élément de face planaire de l\'autre objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintPointPlaneDistance.svg" width=16px> [Distance entre points et plans](Assembly3_ConstraintPointPlaneDistance/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointPlaneDistance/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointPlaneDistance/fr

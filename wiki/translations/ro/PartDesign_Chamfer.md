@@ -22,7 +22,7 @@ Acest instrument utilizează **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/
 
 This tool creates chamfers on the selected edges of an object. A new separate Chamfer entry (followed by a consecutive number if there are already existing chamfers in the document) is created in the Project tree.
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
++++
 | ![Sélection des arêtes avant de démarrer la commande.](images/PartDesign_Chamfer-01.png ) ![Réglage de la dimension du chanfrein dans les paramètres de chanfrein.](images/PartDesign_Chamfer-02.png ) ![Un élément Chamfer est ajouté dans l\'arborescence Projet.](images/PartDesign_Chamfer-03.png ) | ### Usage                                                                      |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 1.                                                                             |
@@ -34,7 +34,7 @@ This tool creates chamfers on the selected edges of an object. A new separate Ch
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | -                                                                              |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | -                                                                              |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | -                                                                              |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
++++
 
 ## Utilizare
 
@@ -163,5 +163,7 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/ro

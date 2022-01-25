@@ -39,5 +39,7 @@ Pentru a utiliza: selectați două margini care au un vârf comun. Apoi executa�
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/ro

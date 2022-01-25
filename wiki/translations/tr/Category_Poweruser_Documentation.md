@@ -3,7 +3,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------------- -------------------------------------------------------------------------
+    
   [Arch API/tr](Arch_API/tr.md)                                   [Builtin modules/tr](Builtin_modules/tr.md)                           [Code snippets/tr](Code_snippets/tr.md)
   [Command/tr](Command/tr.md)                                     [Debugging/tr](Debugging/tr.md)                                       [Dialog creation/tr](Dialog_creation/tr.md)
   [Draft API/tr](Draft_API/tr.md)                                 [Embedding FreeCAD/tr](Embedding_FreeCAD/tr.md)                       [Embedding FreeCADGui/tr](Embedding_FreeCADGui/tr.md)
@@ -13,10 +13,9 @@ This category shows documentation articles dealing with python scripting, which 
   [Mesh to Part/tr](Mesh_to_Part/tr.md)                           [Pivy/tr](Pivy/tr.md)                                                 [Power users hub/tr](Power_users_hub/tr.md)
   [Property/tr](Property/tr.md)                                   [PySide/tr](PySide/tr.md)                                             [Python scripting tutorial/tr](Python_scripting_tutorial/tr.md)
   [Python/tr](Python/tr.md)                                       [PythonOCC/tr](PythonOCC/tr.md)                                       [Scenegraph/tr](Scenegraph/tr.md)
-  [Scripted objects/tr](Scripted_objects/tr.md)                   [Topological data scripting/tr](Topological_data_scripting/tr.md)     
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------------- -------------------------------------------------------------------------
+  [Scripted objects/tr](Scripted_objects/tr.md)                   [Topological data scripting/tr](Topological_data_scripting/tr.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/tr](<img src="images/Property.png" style="width:16px"> Documentation/tr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Poweruser Documentation/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Poweruser Documentation/tr

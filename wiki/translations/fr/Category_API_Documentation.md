@@ -5,7 +5,7 @@ Cette catégorie regroupe tous les articles documentant l'API python de FreeCAD 
 
 [Python/fr](Python/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/fr](<img src="images/Property.png" style="width:16px"> Documentation/fr.md)
+
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Category:API Documentation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Category:API Documentation/fr

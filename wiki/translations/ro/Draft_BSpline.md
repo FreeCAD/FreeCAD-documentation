@@ -203,5 +203,7 @@ spline3 = Draft.make_bspline([1.3*p3, p1, -1.7*p2], closed=False)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft BSpline/ro

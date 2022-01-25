@@ -1,8 +1,15 @@
+---
+- TutorialInfo:/hr   Topic:SampleClass   Level:Medium user   Time:15 minutes   Author:[[User:Mario52   Mario52]]|FCVersion:All
+---
+
 # Dxf Importer Install/hr
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/hr|Topic=SampleClass|Level=Medium user|Time=15 minutes|Author=[Mario52](User_Mario52.md)|FCVersion=All}}
 
 
 </div>
@@ -183,5 +190,7 @@ Using Teigha. Teigha is a full program and you can use it without FreeCAD
 
 Video tutorial [FreeCAD Tutorial 24 - DXF/DWG Import](https://www.youtube.com/watch?v=wHxTWuDhc3M)
 
+
+
 ---
-[documentation index](../README.md) > Dxf Importer Install/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Dxf Importer Install/hr

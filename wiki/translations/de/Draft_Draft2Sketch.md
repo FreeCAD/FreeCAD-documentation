@@ -102,5 +102,7 @@ draft_from_sketch = Draft.draftify(sketch_from_draft, delete=False)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Draft2Sketch/de

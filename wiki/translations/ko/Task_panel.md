@@ -59,5 +59,7 @@ Gui::Control().closeDialog();
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Task panel/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Task panel/ko

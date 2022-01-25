@@ -40,5 +40,7 @@ Cette commande ne gère actuellement que cinq des paramètres proposés par la c
 
 -   Dans la version 0.20 de FreeCAD, la commande [Draft Définir le style](Draft_SetStyle/fr.md) peut également appliquer les paramètres.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/fr

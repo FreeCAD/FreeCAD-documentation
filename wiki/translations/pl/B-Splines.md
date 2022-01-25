@@ -188,29 +188,29 @@ Kiedy spojrzysz na [funkcję tworzenia](B-Splines/pl#Niejednorodne_krzywe_B-spli
 
 Ponieważ postać krzywej B-splajnu nie mówi wiele o jej właściwościach, FreeCAD oferuje [różne narzędzia](Sketcher_Workbench/pl#Narz.C4.99dzia_szkicownika_dla_krzywych_z.C5.82o.C5.BConych.md) do wyświetlania tych właściwości:
 
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | Właściwość               | Przycisk narzędzia                                                                                                                                   |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Stopień**              |                                                                                                                                       |
 |                          | **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [Pokaż / ukryj stopnie krzywej złożonej](Sketcher_BSplineDegree/pl.md)**                             |
 |                          |                                                                                                                                                   |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Ramka kontrolna**      |                                                                                                                                       |
 |                          | **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Pokaż / ukryj ramkę kontrolną krzywej złożonej](Sketcher_BSplinePolygon/pl.md)**                   |
 |                          |                                                                                                                                                   |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Grzebień krzywizny**   |                                                                                                                                       |
 |                          | **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Pokaż / ukryj grzebień krzywizny krzywej złożonej](Sketcher_BSplineComb/pl.md)**                      |
 |                          |                                                                                                                                                   |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Wielokrotność węzłów** |                                                                                                                                       |
 |                          | **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Pokaż / ukryj krotność węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md)** |
 |                          |                                                                                                                                                   |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Waga**                 |                                                                                                                                       |
 |                          | **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Pokaż / ukryj wagi krzywej złożonej](Sketcher_BSplinePoleWeight/pl.md)**                        |
 |                          |                                                                                                                                                   |
-+--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ### Ograniczenia
 
@@ -262,5 +262,7 @@ Ale czy to naprawdę wystarczy? W punkcie przejścia geometrycznego mamy teraz p
 
 Mamy więc również obszary przestrzenne, w których natężenie światła odbitego jest różne. Aby tego uniknąć, potrzebujemy w geometrycznym punkcie przejścia również ciągłości pochodnej drugiego rzędu, a więc sześciennej krzywej złożonej.
 
+
+
 ---
-[documentation index](../README.md) > B-Splines/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > B-Splines/pl

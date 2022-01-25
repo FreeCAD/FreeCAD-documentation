@@ -3,7 +3,7 @@ This category lists pages related to the [TechDraw Workbench/ru](TechDraw_Workbe
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+    
   [Advanced TechDraw Tutorial/ru](Advanced_TechDraw_Tutorial/ru.md)                   [Artwork TechDraw/ru](Artwork_TechDraw/ru.md)                                                                 [Basic TechDraw Tutorial/ru](Basic_TechDraw_Tutorial/ru.md)
   [Bitmap/ru](Bitmap/ru.md)                                                           [DXF/ru](DXF/ru.md)                                                                                           [Measurement Of Angles On Holes/ru](Measurement_Of_Angles_On_Holes/ru.md)
   [SVG/ru](SVG/ru.md)                                                                 [TechDraw 2LineCenterLine/ru](TechDraw_2LineCenterLine/ru.md)                                                 [TechDraw 2PointCenterLine/ru](TechDraw_2PointCenterLine/ru.md)
@@ -28,10 +28,9 @@ This category lists pages related to the [TechDraw Workbench/ru](TechDraw_Workbe
   [TechDraw Templates/ru](TechDraw_Templates/ru.md)                                   [TechDraw ToggleFrame/ru](TechDraw_ToggleFrame/ru.md)                                                         [TechDraw VerticalDimension/ru](TechDraw_VerticalDimension/ru.md)
   [TechDraw VerticalExtentDimension/ru](TechDraw_VerticalExtentDimension/ru.md)       [TechDraw View/ru](TechDraw_View/ru.md)                                                                       [TechDraw WeldSymbol/ru](TechDraw_WeldSymbol/ru.md)
   [TechDraw Workbench/ru](TechDraw_Workbench/ru.md)                                   [TechDrawGui API/ru](TechDrawGui_API/ru.md)                                                                   [Tolerancing/ru](Tolerancing/ru.md)
-  [Topological naming problem/ru](Topological_naming_problem/ru.md)                   [Tutorial for open windows/ru](Tutorial_for_open_windows/ru.md)                                               
-  ------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+  [Topological naming problem/ru](Topological_naming_problem/ru.md)                   [Tutorial for open windows/ru](Tutorial_for_open_windows/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/ru](<img src="images/Property.png" style="width:16px"> Workbenches/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:TechDraw/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:TechDraw/ru

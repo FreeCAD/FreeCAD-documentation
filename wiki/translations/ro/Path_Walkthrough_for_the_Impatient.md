@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ro
+   Topic:Path Workbench
+   Level:
+   Time:
+   Author:Chrisb
+   FCVersion:
+   Files:
+---
+
 # Path Walkthrough for the Impatient/ro
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro
-|Topic=Path Workbench
-|Level=
-|Time=
-|Author=Chrisb
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -320,9 +326,9 @@ Ultimul pas în generarea Codului G pentru mașina de frezare țintă este post-
 </div>
 
 
-{{Tutorials navi
+ {{Path Tools navi}}
 
-}} {{Path Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/ro

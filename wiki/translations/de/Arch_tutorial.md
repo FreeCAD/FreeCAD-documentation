@@ -1,10 +1,16 @@
+---
+- TutorialInfo:/de
+   Topic:Modellierung
+   Level:Fortgeschrittener Anfänger
+   Author:[Yorik](User_Yorik.md)
+   FCVersion:0.14
+---
+
 # Arch tutorial/de
-{{TutorialInfo/de
-|Topic=Modellierung
-|Level=Fortgeschrittener Anfänger
-|Author=[Yorik](User_Yorik.md)
-|FCVersion=0.14
-}}
+
+
+
+
 
 ![](images/Arch_tutorial_00.jpg )
 
@@ -471,9 +477,6 @@ Ich hoffe, dies gibt Ihnen einen guten Überblick über die verfügbaren Werkzeu
 Die in diesem Tutorial erzeugten Dateien finden Sie [hier](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd).
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/de

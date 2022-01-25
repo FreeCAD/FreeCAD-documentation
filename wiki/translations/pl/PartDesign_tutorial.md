@@ -1,11 +1,11 @@
-# PartDesign tutorial/pl
-{{TutorialInfo/pl
-|Topic= Szkicowanie
-|Level= Początkujący
-|Time= 15 minut
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16 lub nowszy
-|Files= Nie dołączono
+---
+- TutorialInfo:/pl
+   Topic: Szkicowanie
+   Level: Początkujący
+   Time: 15 minut
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 lub nowszy
+   Files: Nie dołączono
 }}
 
 ## Wprowadzenie
@@ -28,19 +28,19 @@ Celem środowiska roboczego **Projekt Części** jest umożliwienie użytkowniko
 Aby to osiągnąć, istnieją dwa narzędzia: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Wyciągnij](PartDesign_Pad/pl.md) oraz <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Wyciągnij przez obrót](PartDesign_Revolution/pl.md). Obok ich subtraktywnych odpowiedników *(<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [kieszeń](PartDesign_Pocket/pl.md) i <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [rowek](PartDesign_Groove/pl.md))* tworzą większość typowych akcji używanych przez to środowisko pracy.
 
 1.  Przełącz się do środowiska produkcyjnego Projekt Części.
-2.  Z zaznaczonym szkicem w oknie [widoku drzewa](Tree_view/pl.md), naciśnij przycisk **[<img src=images/PartDesign_Body.svg style="width:16px"> [Zawartość](PartDesign_Body/pl.md)**, wybierz domyślną płaszczyznę XY i naciśnij przycisk **OK**. Szkic powinien pojawić się teraz wewnątrz zawartości.
+2.  Z zaznaczonym szkicem w oknie [widoku drzewa](Tree_view/pl.md), naciśnij przycisk **[Zawartość](File:PartDesign_Body.svg   16px]] [[PartDesign_Body/pl.md)**, wybierz domyślną płaszczyznę XY i naciśnij przycisk **OK**. Szkic powinien pojawić się teraz wewnątrz zawartości.
 3.  Wybierz <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Wyciągnij wybrany szkic](PartDesign_Pad/pl.md).
-4.  Ustaw odległość na {{SpinBox|5 mm }}.
+4.  Ustaw odległość na {{SpinBox   5 mm }}.
 5.  Naciśnij na przycisk **OK**.
 
 Innym sposobem na tworzenie geometrii 3D jest narzędzie <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Wyciągnij wybrany szkic przez obrót](PartDesign_Revolution/pl.md).
 
 <img alt="" src=images/PartDesign_revolution_exercise.png  style="width:480px;">
 
-1.  Utwórz nową zawartość narzędziem **[<img src=images/PartDesign_Body.svg style="width:16px"> [Projekt Części Zawartość](PartDesign_Body/pl.md)**, a następnie szkic na podstawie powyższego obrazka.
+1.  Utwórz nową zawartość narzędziem **[Projekt Części Zawartość](File:PartDesign_Body.svg   16px]] [[PartDesign_Body/pl.md)**, a następnie szkic na podstawie powyższego obrazka.
 2.  Szkic może znajdować się na dowolnej płaszczyźnie, ale powinien przylegać do osi poziomej.
 3.  Wybierz narzędzie <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Wyciągnij wybrany szkic przez obrót](PartDesign_Revolution/pl.md).
-4.  Ustaw parametr **Oś** na wartość {{ComboBox|Pozioma oś szkicu}}.
+4.  Ustaw parametr **Oś** na wartość {{ComboBox   Pozioma oś szkicu}}.
 5.  Ustaw kąt na 360°.
 
 #### Cechy odejmujące 
@@ -60,8 +60,12 @@ Po utworzeniu elementu 3D możliwe jest utworzenie odniesień do niego w szkicu.
 # Wybierz narzędzie <img src="images/Sketcher_External.svg" width=32px> [Geometria zewnętrzna](Sketcher_External/pl.md).
 # Przybliż kursor myszki do elementu, do którego chcesz się odnieść, na przykład do krawędzi '''wyciągnięcia'''.
 # Kliknij na nim
-# Na szkicu w miejscu elementu, do którego chcesz się odnieść, powinny pojawić się nowe elementy w innym kolorze.}}
+# Na szkicu w miejscu elementu, do którego chcesz się odnieść, powinny pojawić się nowe elementy w innym kolorze.
+---
 
+# PartDesign tutorial/pl
+
+ 
 <img alt="" src=images/PartDesign_pocket_exercise.png  style="width:480px;">
 
 Następnie przejdziemy do zastosowania funkcji **Kieszeń**.
@@ -106,5 +110,7 @@ Jeśli nie, edytuj ponownie operację Transformacja wielokrotna, klikając na ni
 
 Zakończyliśmy teraz prezentacje podstawowego przepływu pracy dla środowiska [Projekt Części](PartDesign_Workbench/pl.md).
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/pl

@@ -67,5 +67,7 @@ torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
 -   Où {{Incode|"myTorus"}} est le nom de l\'objet.
 -   La fonction restitue l\'objet nouvellement créé.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/fr

@@ -38,5 +38,7 @@ The command was revised in FreeCAD version 0.20 and this page describes that ver
 
 -   Mehr Informationen über das Organisieren deines Modells findest du in [Documentstruktur](Document_structure/de.md) und [Arch Tutorium](Arch_tutorial/de#Ihr_Modell_organisieren.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/de

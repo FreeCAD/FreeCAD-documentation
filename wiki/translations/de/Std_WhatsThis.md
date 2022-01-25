@@ -40,5 +40,7 @@ Lies diesen Beitrag, um zu verstehen, wie die Befehle im Code benannt werden mü
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std WhatsThis/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std WhatsThis/de

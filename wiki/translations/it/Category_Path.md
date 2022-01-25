@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench/it](PartDesign_Wo
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------- -----------------------------------------------------------------
+    
   [Artwork Path/it](Artwork_Path/it.md)                                           [Manual:Preparing models for 3D printing/it](Manual:Preparing_models_for_3D_printing/it.md)   [Path Adaptive/it](Path_Adaptive/it.md)
   [Path Area Workplane/it](Path_Area_Workplane/it.md)                             [Path Area/it](Path_Area/it.md)                                                               [Path Array/it](Path_Array/it.md)
   [Path Comment/it](Path_Comment/it.md)                                           [Path Copy/it](Path_Copy/it.md)                                                               [Path Custom/it](Path_Custom/it.md)
@@ -20,10 +20,9 @@ This category lists pages related to the [PartDesign Workbench/it](PartDesign_Wo
   [Path Simulator/it](Path_Simulator/it.md)                                       [Path Slot/it](Path_Slot/it.md)                                                               [Path Stop/it](Path_Stop/it.md)
   [Path Surface/it](Path_Surface/it.md)                                           [Path ToolController/it](Path_ToolController/it.md)                                           [Path ToolLibraryEdit/it](Path_ToolLibraryEdit/it.md)
   [Path Vcarve/it](Path_Vcarve/it.md)                                             [Path Walkthrough for the Impatient/it](Path_Walkthrough_for_the_Impatient/it.md)             [Path Waterline/it](Path_Waterline/it.md)
-  [Path Workbench/it](Path_Workbench/it.md)                                                                                                                                             
-  --------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------- -----------------------------------------------------------------
+  [Path Workbench/it](Path_Workbench/it.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/it](<img src="images/Property.png" style="width:16px"> Workbenches/it.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:Path/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Path/it

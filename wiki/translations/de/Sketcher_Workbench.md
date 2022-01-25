@@ -514,9 +514,9 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite enthält Beispiele fü
 
 {{Sketcher Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/de

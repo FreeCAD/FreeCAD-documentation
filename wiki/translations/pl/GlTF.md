@@ -39,8 +39,5 @@ Source: [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=8&t=31680&p=
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > GlTF/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > GlTF/pl

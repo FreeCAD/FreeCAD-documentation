@@ -21,5 +21,7 @@ Le gestionnaire de classifications vous permet d\'attribuer une classe standard 
 -   Si vous souhaitez ajouter ou modifier une classe pour un objet, sélectionnez cet objet et appuyez sur le bouton Classification BIM.
 -   Si vous souhaitez ajouter ou modifier une classe pour un matériau, ne sélectionnez rien et appuyez sur le bouton Classification BIM. Vous pourrez parcourir les matériaux directement à partir de la fenêtre du gestionnaire de classification.
 
+
+
 ---
-[documentation index](../README.md) > BIM Classification/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Classification/fr

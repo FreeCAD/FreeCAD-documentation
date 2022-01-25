@@ -34,5 +34,7 @@ The <img alt="" src=images/Curves_ReflectLines.svg  style="width:24px;"> [Curves
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves ReflectLines/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ReflectLines/en

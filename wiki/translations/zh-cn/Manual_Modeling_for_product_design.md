@@ -18,7 +18,7 @@
 
 ![](images/Exercise_lego_01.jpg )
 
-乐高积木有个很酷的特色------容易在互联网上获得零件的尺寸，至少对于标准件而言是这样。建模之后，在 3D 打印机上打印，都很容易。带着点耐心（3D 打印通常需要大量的调整和微调），可以制作出完全兼容的部件，完美地匹配原始乐高积木。下面的示例将制作比原始尺寸大 1.5 倍的零件。
+乐高积木有个很酷的特色容易在互联网上获得零件的尺寸，至少对于标准件而言是这样。建模之后，在 3D 打印机上打印，都很容易。带着点耐心（3D 打印通常需要大量的调整和微调），可以制作出完全兼容的部件，完美地匹配原始乐高积木。下面的示例将制作比原始尺寸大 1.5 倍的零件。
 
 
 <div class="mw-translate-fuzzy">
@@ -166,7 +166,7 @@ But the best of both worlds also exists, which is the [Assembly2 Workbench](http
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
+
 
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/zh-cn

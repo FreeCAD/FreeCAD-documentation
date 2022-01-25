@@ -3,7 +3,7 @@ This category contains all Unfinished Documents
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+    
   [Animation Workbench](Animation_Workbench.md)                                                             [Animation Workbench/de](Animation_Workbench/de.md)                                     [Animation Workbench/en](Animation_Workbench/en.md)
   [Animation Workbench/es](Animation_Workbench/es.md)                                                       [Animation Workbench/fr](Animation_Workbench/fr.md)                                     [Animation Workbench/it](Animation_Workbench/it.md)
   [Animation Workbench/pl](Animation_Workbench/pl.md)                                                       [Animation Workbench/ru](Animation_Workbench/ru.md)                                     [Arch CompAxis](Arch_CompAxis.md)
@@ -170,10 +170,9 @@ This category contains all Unfinished Documents
   [Part Wedge/de](Part_Wedge/de.md)                                                                         [Part Wedge/en](Part_Wedge/en.md)                                                       [Part Wedge/es](Part_Wedge/es.md)
   [Part Wedge/fr](Part_Wedge/fr.md)                                                                         [Part Wedge/it](Part_Wedge/it.md)                                                       [Part Wedge/pl](Part_Wedge/pl.md)
   [Part Wedge/pt-br](Part_Wedge/pt-br.md)                                                                   [Part Wedge/ro](Part_Wedge/ro.md)                                                       [Part Wedge/ru](Part_Wedge/ru.md)
-  [Path Area](Path_Area.md)                                                                                 [Path Area Workplane](Path_Area_Workplane.md)                                           
-  ----------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+  [Path Area](Path_Area.md)                                                                                 [Path Area Workplane](Path_Area_Workplane.md)
 
-[<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md) [<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md)
+
 
 ---
-[documentation index](../README.md) > Category:UnfinishedDocu
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:UnfinishedDocu

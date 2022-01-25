@@ -25,5 +25,7 @@ The **Std TileWindows** command rearranges the windows in the [Main view area](M
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std TileWindows
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TileWindows

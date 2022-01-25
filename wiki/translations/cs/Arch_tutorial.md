@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/cs
+   Topic:Modeling
+   Level:Intermediate
+   Time:
+   Author:[Yorik](User_Yorik.md)
+   FCVersion:0.14
+   Files:
+---
+
 # Arch tutorial/cs
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/cs
-|Topic=Modeling
-|Level=Intermediate
-|Time=
-|Author=[Yorik](User_Yorik.md)
-|FCVersion=0.14
-|Files=
-}}
 
 
 </div>
@@ -658,9 +664,6 @@ Soubor vytvořený tímto výukovým programem najdete [zde](http://yorik.uncrea
 </div>
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/cs

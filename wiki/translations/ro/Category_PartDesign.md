@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to PartDesign
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+    
   [Basic Part Design Tutorial/ro](Basic_Part_Design_Tutorial/ro.md)               [Creating a simple part with PartDesign/ro](Creating_a_simple_part_with_PartDesign/ro.md)   [Draft ShapeString tutorial/ro](Draft_ShapeString_tutorial/ro.md)
   [Feature editing/ro](Feature_editing/ro.md)                                     [PartDesign AdditiveBox/ro](PartDesign_AdditiveBox/ro.md)                                   [PartDesign AdditiveCone/ro](PartDesign_AdditiveCone/ro.md)
   [PartDesign AdditiveCylinder/ro](PartDesign_AdditiveCylinder/ro.md)             [PartDesign AdditiveEllipsoid/ro](PartDesign_AdditiveEllipsoid/ro.md)                       [PartDesign AdditiveLoft/ro](PartDesign_AdditiveLoft/ro.md)
@@ -22,8 +22,9 @@ This category includes FreeCAD pages related to PartDesign
   [PartDesign SubtractiveLoft/ro](PartDesign_SubtractiveLoft/ro.md)               [PartDesign SubtractivePipe/ro](PartDesign_SubtractivePipe/ro.md)                           [PartDesign SubtractivePrism/ro](PartDesign_SubtractivePrism/ro.md)
   [PartDesign SubtractiveSphere/ro](PartDesign_SubtractiveSphere/ro.md)           [PartDesign SubtractiveTorus/ro](PartDesign_SubtractiveTorus/ro.md)                         [PartDesign SubtractiveWedge/ro](PartDesign_SubtractiveWedge/ro.md)
   [PartDesign Thickness/ro](PartDesign_Thickness/ro.md)                           [PartDesign WizardShaft/ro](PartDesign_WizardShaft/ro.md)                                   [PartDesign Workbench/ro](PartDesign_Workbench/ro.md)
-  [Thread for Screw Tutorial/ro](Thread_for_Screw_Tutorial/ro.md)                 [Toothbrush Head Stand/ro](Toothbrush_Head_Stand/ro.md)                                     
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+  [Thread for Screw Tutorial/ro](Thread_for_Screw_Tutorial/ro.md)                 [Toothbrush Head Stand/ro](Toothbrush_Head_Stand/ro.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:PartDesign/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:PartDesign/ro

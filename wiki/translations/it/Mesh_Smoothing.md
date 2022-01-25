@@ -76,5 +76,7 @@ Il comando **Leviga** smussa gli oggetti mesh cambiando la posizione dei loro ve
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Smoothing/it

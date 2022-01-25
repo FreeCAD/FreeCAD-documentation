@@ -46,5 +46,7 @@ In FreeCAD version 0.19 this command and the [Draft AddConstruction](Draft_AddCo
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/pt-br

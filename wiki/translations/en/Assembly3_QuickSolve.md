@@ -20,5 +20,7 @@ The <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:24px;"> [
     -   The **Assembly3 → <img src="images/Assembly_QuickSolve.svg‎‎" width=16px> Quick solve** menu option.
     -   The keyboard shortcut: **A** then **F**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 QuickSolve/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 QuickSolve/en

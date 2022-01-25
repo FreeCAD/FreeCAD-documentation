@@ -1,10 +1,11 @@
 # FEM Shear of a Composite Block/fr
-{{TutorialInfo/fr
-|Topic=Analyse d'éléments finis
-|Level=Débutant/intermédiaire
-|Time=30 minutes
-|Author=[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
-|FCVersion=0.17.12960 ou plus récente
+---
+- TutorialInfo:/fr
+   Topic:Analyse d'éléments finis
+   Level:Débutant/intermédiaire
+   Time:30 minutes
+   Author:[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
+   FCVersion:0.17.12960 ou plus récente
 }}
 
 ## Introduction
@@ -99,7 +100,10 @@ Le fichier FC pour ce tutoriel est joint ci-dessous comme point de départ.
 
 <https://forum.freecadweb.org/viewtopic.php?f=18&t=26517&start=20>
 
-Amusez-vous bien! {{Tutorials navi}} {{FEM Tools navi}}
+Amusez-vous bien!  {{FEM Tools navi}} {{Userdocnavi
+---
+
+
 
 ---
-[documentation index](../README.md) > FEM Shear of a Composite Block/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/fr

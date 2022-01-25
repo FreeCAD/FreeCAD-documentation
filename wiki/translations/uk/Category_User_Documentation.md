@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  ----------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [About FreeCAD/uk](About_FreeCAD/uk.md)             [Arch Axis/uk](Arch_Axis/uk.md)                           [Arch Building/uk](Arch_Building/uk.md)
   [Arch Equipment/uk](Arch_Equipment/uk.md)           [Arch Floor/uk](Arch_Floor/uk.md)                         [Arch Frame/uk](Arch_Frame/uk.md)
   [Arch Panel/uk](Arch_Panel/uk.md)                   [Arch Rebar/uk](Arch_Rebar/uk.md)                         [Arch Roof/uk](Arch_Roof/uk.md)
@@ -21,11 +21,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [Ship Workbench/uk](Ship_Workbench/uk.md)           [Sketcher Workbench/uk](Sketcher_Workbench/uk.md)         [Standard Menu/uk](Standard_Menu/uk.md)
   [Surface Workbench/uk](Surface_Workbench/uk.md)     [TechDraw Workbench/uk](TechDraw_Workbench/uk.md)         [Template:TutorialInfo/uk](Template:TutorialInfo/uk.md)
   [Tutorials/uk](Tutorials/uk.md)                     [User hub/uk](User_hub/uk.md)                             [Video tutorials/uk](Video_tutorials/uk.md)
-  [Workbenches/uk](Workbenches/uk.md)                                                                                   
-                                                                                                                                
-  ----------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------
+  [Workbenches/uk](Workbenches/uk.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/uk](<img src="images/Property.png" style="width:16px"> Documentation/uk.md) [<img src="images/Property.png" style="width:16px"> Arch/uk](<img src="images/Property.png" style="width:16px"> Arch/uk.md) [<img src="images/Property.png" style="width:16px"> BIM/uk](<img src="images/Property.png" style="width:16px"> BIM/uk.md) [<img src="images/Property.png" style="width:16px"> Draft/uk](<img src="images/Property.png" style="width:16px"> Draft/uk.md) [<img src="images/Property.png" style="width:16px"> Workbenches/uk](<img src="images/Property.png" style="width:16px"> Workbenches/uk.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/uk
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/uk

@@ -215,7 +215,7 @@ Um ein Makro aus dem [Erweiterungsverwalter](Std_AddonMgr/de.md) installierbar z
 
 Um das Makro dort aufzunehmen, muss es zunächst von der FreeCAD Gemeinschaft im [Python scripting and macros](https://forum.freecadweb.org/viewforum.php?f=22) Unterforum überprüft werden. Sobald dies geschehen ist, sollte das FreeCAD-Makro Repositorium abgezweigt werden, das neue Makro sollte in einen Zweig aufgenommen werden, und dann sollte der Zweig gepusht und in das Upstream- Repositorium zusammengeführt werden.
 
-[<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Macros](Category_Macros.md) > Macro documentation/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/de

@@ -18,11 +18,5 @@ Link to appropriate threads discussing this workbench
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Reverse Engineering](Category_Reverse_Engineering.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Reverse Engineering Workbench/zh-tw
+![](images/Right_arrow.png) [documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > [Workbenches](Category_Workbenches.md) > Reverse Engineering Workbench/zh-tw

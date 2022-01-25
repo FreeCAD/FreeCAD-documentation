@@ -41,5 +41,7 @@ Der **Std DemoModus**-Befehl dreht die Kamera kontinuierlich in einer [3D-Ansich
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DemoMode/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DemoMode/de

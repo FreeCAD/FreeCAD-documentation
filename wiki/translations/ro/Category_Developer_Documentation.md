@@ -3,7 +3,7 @@ This category gathers documentation article mostly aimed at programmers
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+    
   [Add FEM Equation Tutorial/ro](Add_FEM_Equation_Tutorial/ro.md)                                   [ANSI templates/ro](ANSI_templates/ro.md)                                     [Branding/ro](Branding/ro.md)
   [Code snippets/ro](Code_snippets/ro.md)                                                           [Command/ro](Command/ro.md)                                                   [Compile on Linux/ro](Compile_on_Linux/ro.md)
   [Compile on MacOS/ro](Compile_on_MacOS/ro.md)                                                     [Compile on Windows/ro](Compile_on_Windows/ro.md)                             [Compiling (Speeding up)/ro](Compiling_(Speeding_up)/ro.md)
@@ -23,10 +23,8 @@ This category gathers documentation article mostly aimed at programmers
   [Scripting and macros/ro](Scripting_and_macros/ro.md)                                             [Source documentation/ro](Source_documentation/ro.md)                         [Start up and Configuration/ro](Start_up_and_Configuration/ro.md)
   [Testing/ro](Testing/ro.md)                                                                       [Third Party Libraries/ro](Third_Party_Libraries/ro.md)                       [Third Party Tools/ro](Third_Party_Tools/ro.md)
   [Topological data scripting/ro](Topological_data_scripting/ro.md)                                 [Tracker/ro](Tracker/ro.md)                                                   [Workbench creation/ro](Workbench_creation/ro.md)
-                                                                                                                                                                                                  
-  --------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/ro](<img src="images/Property.png" style="width:16px"> Documentation/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/ro

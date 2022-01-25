@@ -109,11 +109,11 @@ Une fois la macro AeroFoil chargée, suivez les instructions des boîtes de dial
 
 #### Remarques
 
-  ------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   \(1\)   L\'exécution de la macro avec des points personnalisés et un affinement ne produit aucun changement visible.
   \(2\)   Les propriétés de l\'objet AeroFoil ne sont visibles que sur la version 0.19 du logiciel FreeCAD. Sur les versions antérieures, un avertissement s\'affiche sur la console. Cet avertissement n\'affectera pas le résultat.
           
-  ------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
 ####  Conseils à garder à l\'esprit pendant l\'utilisation : 
 
@@ -225,5 +225,7 @@ __Files__         = "AeroFoil_UI_Files/AeroFoil_Initial_Dialog.ui, "\
 \[4\] [Airfoil Tools](http://airfoiltools.com/) contient environ 1 638 profils aérodynamiques différents.
 \[5\] [UIUC Airfoil Coordinates Database](https://m-selig.ae.illinois.edu/ads/coord_database.html) contient près de 1 600 profils aérodynamiques différents.
 
+
+
 ---
-[documentation index](../README.md) > Macro AeroFoil/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro AeroFoil/fr

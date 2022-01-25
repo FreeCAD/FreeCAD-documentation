@@ -127,5 +127,7 @@ Alternatively, if you want to invoke fcinfo with arguments (e.g., --gui) use thi
 [diff "fcinfo"]
 textconv = sh -c '/path/to/fcinfo --gui "$0"'
 
+
+
 ---
-[documentation index](../README.md) > WebTools Git/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Git/ru

@@ -33,9 +33,9 @@ The current supported external solvers are:
 
 {{FEM Tools navi
 
-}}  
+}}
 
-[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
+
 
 ---
-[documentation index](../README.md) > [Preferences](Category_Preferences.md) > FEM Preferences/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [FEM](Category_FEM.md) > FEM Preferences/pl

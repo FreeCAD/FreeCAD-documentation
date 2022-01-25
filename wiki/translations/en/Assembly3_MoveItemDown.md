@@ -18,5 +18,7 @@ The <img alt="" src=images/Assembly_TreeItemDown.svg  style="width:24px;"> [Move
     -   The **<img src="images/Assembly_TreeItemDown.svg" width=16px> [Move item down](Assembly3_MoveItemDown.md)** button.
     -   The **Assembly3 → <img src="images/Assembly_TreeItemDown.svg" width=16px> Move item down** menu option.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MoveItemDown/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MoveItemDown/en

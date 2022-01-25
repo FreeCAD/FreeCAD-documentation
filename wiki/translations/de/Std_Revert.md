@@ -26,5 +26,7 @@ The **Std Revert** command closes the active document and reopens the last saved
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Revert/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Revert/de

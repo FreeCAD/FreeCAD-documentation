@@ -3,12 +3,11 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 ### Contents:
 
-  --------------------------------- ------------------------------------------------------------- -------------------------
+    
   [AppImage](AppImage.md)   [Continuous Integration](Continuous_Integration.md)   [LGTM](LGTM.md)
-  [Testing](Testing.md)                                                                   
-  --------------------------------- ------------------------------------------------------------- -------------------------
+  [Testing](Testing.md)
 
-[<img src="images/Property.png" style="width:16px"> Test Framework](Category_Test_Framework.md)
+
 
 ---
-[documentation index](../README.md) > Category:Testing
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Testing

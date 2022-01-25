@@ -14,5 +14,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} {{Artwork}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Surface/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Surface](Category_Surface.md) > Artwork Surface/pl

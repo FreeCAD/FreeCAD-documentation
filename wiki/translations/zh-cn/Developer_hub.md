@@ -1,5 +1,8 @@
-# Developer hub/zh-cn
-![150](images/Crystal_Clear_app_tutorials.png )
+# <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> Developer hub/zh-cn
+
+
+
+
 
 如果你对开发FreeCAD软件有兴趣，想贡献于这个项目的开发，这里正有你该了解的内容。
 
@@ -189,8 +192,5 @@ FreeCAD虽然在特定领域已经可用了，但是在跨入主流CAD的路途�
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/zh-cn

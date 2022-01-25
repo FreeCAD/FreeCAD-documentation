@@ -446,9 +446,9 @@ The IfcOpenShell project has also developed \"IFC Pipeline\", a self-hosted IFC 
 -   Pagine che puntano a [IfcOpenShell](Special:WhatLinksHere/IfcOpenShell.md).
 
 
- {{FEM Tools navi}} 
+ {{FEM Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md)
+
 
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > IfcOpenShell/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [3rd Party](Category_3rd Party.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > IfcOpenShell/it

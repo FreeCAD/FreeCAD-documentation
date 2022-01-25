@@ -23,8 +23,5 @@ deb [http://deb.debian.org/debian](http://deb.debian.org/debian) experimental�
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Packaging](Category_Packaging.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Packaging](Category_Packaging.md) > Debian Unstable/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > Debian Unstable/es

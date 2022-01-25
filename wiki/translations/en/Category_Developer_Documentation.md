@@ -3,7 +3,7 @@ This category gathers documentation article mostly aimed at programmers
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+    
   [Add Button to FEM Toolbar Tutorial/en](Add_Button_to_FEM_Toolbar_Tutorial/en.md)                   [Add FEM Equation Tutorial/en](Add_FEM_Equation_Tutorial/en.md)                                   [ANSI templates/en](ANSI_templates/en.md)
   [AppImage/en](AppImage/en.md)                                                                       [Arch templates/en](Arch_templates/en.md)                                                         [Artwork Erroneous/en](Artwork_Erroneous/en.md)
   [Artwork Guidelines/en](Artwork_Guidelines/en.md)                                                   [Artwork/en](Artwork/en.md)                                                                       [Branding/en](Branding/en.md)
@@ -44,11 +44,9 @@ This category gathers documentation article mostly aimed at programmers
   [Testing/en](Testing/en.md)                                                                         [The FreeCAD source code/en](The_FreeCAD_source_code/en.md)                                       [Third Party Libraries/en](Third_Party_Libraries/en.md)
   [Third Party Tools/en](Third_Party_Tools/en.md)                                                     [Topological data scripting/en](Topological_data_scripting/en.md)                                 [Tracker/en](Tracker/en.md)
   [Translating an external workbench/en](Translating_an_external_workbench/en.md)                     [Viewprovider/en](Viewprovider/en.md)                                                             [Workbench creation/en](Workbench_creation/en.md)
-  [Wrapping a Cplusplus class in Python/en](Wrapping_a_Cplusplus_class_in_Python/en.md)                                                                                                                         
-                                                                                                                                                                                                                        
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+  [Wrapping a Cplusplus class in Python/en](Wrapping_a_Cplusplus_class_in_Python/en.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/en](<img src="images/Property.png" style="width:16px"> Documentation/en.md) [<img src="images/Property.png" style="width:16px"> Artwork/en](<img src="images/Property.png" style="width:16px"> Artwork/en.md) [<img src="images/Property.png" style="width:16px"> Developer/en](<img src="images/Property.png" style="width:16px"> Developer/en.md) [<img src="images/Property.png" style="width:16px"> Packaging/en](<img src="images/Property.png" style="width:16px"> Packaging/en.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/en

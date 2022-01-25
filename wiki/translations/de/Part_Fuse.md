@@ -46,5 +46,7 @@ Elemente können der Verschmelzung hinzugefügt und entfernt werden, indem sie m
 
 Nachdem dieser Vorgang abgeschlossen ist, kann es notwendig sein, die Form mit <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [FormVerfeinern](Part_RefineShape/de.md) zu säubern.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/de

@@ -60,5 +60,7 @@ Questo metodo posiziona sempre un nuovo punto sull\'attuale [piano di lavoro](Dr
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap WorkingPlane/it

@@ -29,5 +29,7 @@ Il poligono regolare è disponibile dalla finestra di dialogo Crea primitive del
 -   Polygon - il numero di lati del poligono
 -   Cirumradius - la circumradius è la distanza dal centro del poligono a un vertice.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/it

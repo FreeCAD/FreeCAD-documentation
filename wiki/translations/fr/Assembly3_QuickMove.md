@@ -21,5 +21,7 @@ La commande <img alt="" src=images/Assembly_QuickMove.svg  style="width:24px;"> 
     -   L\'option du menu **Assembly3 → <img src="images/Assembly_QuickMove.svg" width=16px> Quick move**.
     -   Le raccourci clavier : **A** puis **Q**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 QuickMove/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 QuickMove/fr

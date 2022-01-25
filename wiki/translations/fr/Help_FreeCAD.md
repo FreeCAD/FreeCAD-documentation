@@ -86,8 +86,5 @@ L\'écriture de code pour FreeCAD n\'est pas difficile, et vous n\'avez besoin d
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
-
 ---
-[documentation index](../README.md) > [Command_Reference|Command Reference]] de toutes les ](Category_Command_Reference|Command Reference]] de toutes les .md) > Help FreeCAD/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference|Command Reference]] de toutes les ](Category_Command_Reference|Command Reference]] de toutes les .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/fr

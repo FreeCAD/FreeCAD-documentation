@@ -1,12 +1,18 @@
+---
+- TutorialInfo:   Topic:Modeling
+   Level:Experienced User
+   Author:NormandC
+   Time:
+   FCVersion:0.19.23300 or higher
+   Files:
+---
+
 # PartDesign Bearingholder Tutorial II/it
-{{TutorialInfo
-|Topic=Modeling
-|Level=Experienced User
-|Author=NormandC
-|Time=
-|FCVersion=0.19.23300 or higher
-|Files=
-}}
+
+
+
+
+
 
 
 **Questo tutorial è stato originariamente scritto per una versione di sviluppo di FreeCAD ora deprecata. A partire da aprile 2016 queste funzionalità sono state integrate nella release di pre-sviluppo 0.17 disponibile [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre qui].
@@ -90,7 +96,5 @@ Per il resto della lavorazione, creare un nuovo corpo. La parte inferiore del su
 
 
 
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
-
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/it

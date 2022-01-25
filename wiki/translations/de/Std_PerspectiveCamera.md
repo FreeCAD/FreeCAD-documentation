@@ -56,5 +56,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraType()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std PerspectiveCamera/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std PerspectiveCamera/de

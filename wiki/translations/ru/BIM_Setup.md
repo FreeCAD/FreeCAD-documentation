@@ -16,5 +16,7 @@
 
 Наведите указатель мыши на каждый параметр, вам будет показан ttoltip, объясняющий, для чего он используется, и расположение соответствующего параметра в общей системе предпочтений FreeCAD.
 
+
+
 ---
-[documentation index](../README.md) > BIM Setup/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/ru

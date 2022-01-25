@@ -65,7 +65,7 @@ A screenshot of the 0.11 version
 
 {{languages | {{de|Release_notes_0.11/de}} {{es|Release_notes_0.11/es}} {{fr|Release_notes_0.11/fr}} {{it|Release_notes_0.11/it}} {{pl|Release_notes_0.11/pl}} {{ru|Release_notes_0.11/ru}} }}
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.11
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.11

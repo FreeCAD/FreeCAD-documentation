@@ -213,5 +213,7 @@ Il cursore può cambiare aspetto a seconda dell\'ambiente di lavoro usato, quind
 Il cursore può essere sostituito con altri cursori (es: durante l\'espansione di una finestra, gli angoli\...).
 La griglia resta permanante.
 
+
+
 ---
-[documentation index](../README.md) > Macro Mouse Cross/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Mouse Cross/it

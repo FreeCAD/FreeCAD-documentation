@@ -38,5 +38,7 @@ newObject.Shape = newShape
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Remove parametric history/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Remove parametric history/fr

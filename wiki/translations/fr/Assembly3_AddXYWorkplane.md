@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Assembly_Add_Workplane.svg  style="width:24px
     -   Le bouton **<img src="images/Assembly_Add_Workplane.svg_" width=16px> [Add workplane](Assembly3_AddXYWorkplane/fr.md)**.
     -   L\'option de menu **Assembly3 → Workplane and origin → <img src="images/Assembly_Add_Workplane.svg_" width=16px> Add workplane**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AddXYWorkplane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddXYWorkplane/fr

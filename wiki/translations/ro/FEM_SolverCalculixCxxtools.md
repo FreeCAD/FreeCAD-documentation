@@ -220,5 +220,7 @@ Documentația originală CalculiX poate fi găsită la <http://dhondt.de/> in th
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM SolverCalculixCxxtools/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverCalculixCxxtools/ro

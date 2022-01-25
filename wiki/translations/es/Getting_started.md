@@ -162,7 +162,7 @@ Y finalmente, una de las características más poderosas de FreeCAD es el entorn
 
 {{Userdocnavi/es}}
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/es](<img src="images/Property.png" style="width:16px"> User_Documentation/es.md)
+
 
 ---
-[documentation index](../README.md) > Getting started/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/es

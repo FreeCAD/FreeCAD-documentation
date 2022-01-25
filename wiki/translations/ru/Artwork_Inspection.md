@@ -12,9 +12,9 @@
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Inspection](Category_Inspection.md)
+
 
 ---
-[documentation index](../README.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/ru

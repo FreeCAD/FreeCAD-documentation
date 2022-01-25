@@ -16,5 +16,7 @@ Sistemul de preferințe al FreeCAD, situat sub meniul **Edit -\> Preferences**, 
 
 Dacă glisați mouse-ul peste fiecare setare, veți primi un ttoltip care explică ce este folosit și locația setării corespunzătoare în sistemul general de preferințe FreeCAD.
 
+
+
 ---
-[documentation index](../README.md) > BIM Setup/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/ro

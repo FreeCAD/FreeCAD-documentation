@@ -45,5 +45,7 @@ Notare che le velocità di avanzamento sono generate correttamente dal postproce
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/it

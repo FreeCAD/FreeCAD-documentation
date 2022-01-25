@@ -66,5 +66,7 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MeasureDistance/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MeasureDistance/ru

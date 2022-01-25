@@ -3,7 +3,7 @@ This category contains the help pages of each of FreeCAD command.
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------
+    
   [Arch 3Views/pl](Arch_3Views/pl.md)                                                               [Arch Add/pl](Arch_Add/pl.md)                                                                                 [Arch Axis/pl](Arch_Axis/pl.md)
   [Arch AxisSystem/pl](Arch_AxisSystem/pl.md)                                                       [Arch Building/pl](Arch_Building/pl.md)                                                                       [Arch BuildingPart/pl](Arch_BuildingPart/pl.md)
   [Arch Check/pl](Arch_Check/pl.md)                                                                 [Arch CloneComponent/pl](Arch_CloneComponent/pl.md)                                                           [Arch CloseHoles/pl](Arch_CloseHoles/pl.md)
@@ -170,10 +170,9 @@ This category contains the help pages of each of FreeCAD command.
   [PartDesign Boolean/pl](PartDesign_Boolean/pl.md)                                                 [PartDesign Chamfer/pl](PartDesign_Chamfer/pl.md)                                                             [PartDesign Clone/pl](PartDesign_Clone/pl.md)
   [PartDesign CompPrimitiveAdditive/pl](PartDesign_CompPrimitiveAdditive/pl.md)                     [PartDesign CompPrimitiveSubtractive/pl](PartDesign_CompPrimitiveSubtractive/pl.md)                           [PartDesign CoordinateSystem/pl](PartDesign_CoordinateSystem/pl.md)
   [PartDesign Draft/pl](PartDesign_Draft/pl.md)                                                     [PartDesign Fillet/pl](PartDesign_Fillet/pl.md)                                                               [PartDesign Groove/pl](PartDesign_Groove/pl.md)
-  [PartDesign Hole/pl](PartDesign_Hole/pl.md)                                                       [PartDesign InvoluteGear/pl](PartDesign_InvoluteGear/pl.md)                                                   
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------
+  [PartDesign Hole/pl](PartDesign_Hole/pl.md)                                                       [PartDesign InvoluteGear/pl](PartDesign_InvoluteGear/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/pl](<img src="images/Property.png" style="width:16px"> Categories/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/pl

@@ -35,5 +35,7 @@ Il comando **Seleziona tutto** permette di selezionare tutti gli elementi di un 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SelectAll/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectAll/it

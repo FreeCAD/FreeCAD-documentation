@@ -177,7 +177,9 @@ Ajouter votre/vos page(s) de préférence :
 
 Pour distribuer votre atelier Python, vous pouvez soit simplement héberger les fichiers dans un endroit quelconque et demander à vos utilisateurs de les télécharger et de les placer manuellement dans leur répertoire Mod, ou vous pouvez les héberger dans un dépôt git en ligne (GitHub, GitLab, et Debian Salsa sont actuellement des emplacements supportés) et les configurer pour que le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) les installe. Les instructions pour l\'inclusion dans la liste officielle des modules complémentaires de FreeCAD peuvent être trouvées sur le [Dépôt GitHub des Addons de FreeCAD](https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md). Pour utiliser le gestionnaire d\'addons, un [fichier de métadonnées package.xml](Package_Metadata/fr.md) doit être inclus, qui indique au gestionnaire d\'addons comment trouver l\'icône de votre atelier, et permet d\'afficher une description, un numéro de version, etc. Il peut également être utilisé pour spécifier d\'autres addons externes dont votre atelier dépend, qui le bloquent ou qu\'il est censé remplacer.
 
-En outre, vous pouvez inclure un fichier appelé metadata.txt décrivant les dépendances externes de votre atelier (sur d\'autres modules complémentaires, ateliers ou modules Python). Le format de ce fichier est du texte brut, avec trois lignes facultatives :
+En outre, vous pouvez inclure un fichier de métadonnées décrivant vos dépendances Python. Il peut s\'agir soit d\'un fichier appelé metadata.txt décrivant les dépendances externes de votre atelier (soit d\'autres addons, ateliers ou modules Python), soit d\'un fichier [requirements.txt](https://pip.pypa.io/en/latest/reference/requirements-file-format/) décrivant vos dépendances Python. Notez que si vous utilisez un fichier requirements.txt, seuls les noms des paquets spécifiés sont utilisés pour la résolution des dépendances : les options de la commande pip, les options include et les informations de version ne sont pas prises en charge par le gestionnaire d\'addons. Les utilisateurs peuvent exécuter manuellement le fichier d\'exigences en utilisant pip si ces fonctionnalités sont requises.
+
+Le format du fichier metadata.txt est du texte brut, avec trois lignes optionnelles :
 
 
 ```python
@@ -373,13 +375,5 @@ os.remove(qrc_filename)
 
 
 
-
-
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Workbench creation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Workbench creation/fr

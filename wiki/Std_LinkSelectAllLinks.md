@@ -26,5 +26,7 @@ The **Std LinkSelectAllLinks** command selects all [App Link](App_Link.md) objec
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkSelectAllLinks
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectAllLinks

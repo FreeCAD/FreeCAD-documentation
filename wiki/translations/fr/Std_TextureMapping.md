@@ -31,5 +31,7 @@ La commande **Std Mappage de textures** applique temporairement une texture sur 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TextureMapping/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TextureMapping/fr

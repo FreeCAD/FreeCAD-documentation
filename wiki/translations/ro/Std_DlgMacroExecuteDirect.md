@@ -35,5 +35,7 @@ The **Std DlgMacroExecuteDirect** command executes the macro in the current Macr
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgMacroExecuteDirect/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecuteDirect/ro

@@ -240,5 +240,7 @@ Coin version: 4.0.0a
 OCC version: 7.0.0
 ```
 
+
+
 ---
-[documentation index](../README.md) > Macro Recompute Profiler/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Recompute Profiler/it

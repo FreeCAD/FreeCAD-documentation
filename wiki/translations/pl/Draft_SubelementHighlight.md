@@ -38,5 +38,7 @@ The <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 -   If objects have been highlighted with this command the temporary visual changes should be reverted before saving and reopening the file.
 -   Highlighted objects should not be copied if subelement mode is off. The temporary visual changes cannot be reverted for copies created in this manner.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/pl

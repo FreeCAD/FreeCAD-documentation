@@ -49,5 +49,7 @@ The **Mesh PolyCut** command cuts whole faces from mesh objects.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/ru

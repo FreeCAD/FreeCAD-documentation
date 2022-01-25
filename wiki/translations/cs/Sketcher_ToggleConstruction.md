@@ -81,9 +81,9 @@ and once you **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [le
 
 {{Sketcher Tools navi
 
-}}  
+}}
 
-[<img src="images/Property.png" style="width:16px"> Sketcher/cs](<img src="images/Property.png" style="width:16px"> Sketcher/cs.md)
+
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ToggleConstruction/cs

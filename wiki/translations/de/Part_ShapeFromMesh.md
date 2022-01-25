@@ -55,5 +55,7 @@ solid.purgeTouched()
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ShapeFromMesh/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ShapeFromMesh/de

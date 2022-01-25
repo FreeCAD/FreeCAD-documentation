@@ -53,5 +53,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCamera()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewIvIssueCamPos/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewIvIssueCamPos/ru

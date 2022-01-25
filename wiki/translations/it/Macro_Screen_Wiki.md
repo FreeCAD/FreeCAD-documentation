@@ -282,5 +282,7 @@ Version=0.02: 2020/05/04 : correct bug color button (self.PB\_01\_Color obsolete
 
 Versione=0.01 : 2020/03/21 :
 
+
+
 ---
-[documentation index](../README.md) > Macro Screen Wiki/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Screen Wiki/it

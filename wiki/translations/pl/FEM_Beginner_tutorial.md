@@ -1,11 +1,12 @@
 # FEM Beginner tutorial/pl
-{{TutorialInfo/pl
-|Topic=FEM dla początkujących
-|Level=początkujący
-|Time=nieokreślony
-|Author=thschrader
-|FCVersion=0.17.11622+
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true] Whiffle Ball
+---
+- TutorialInfo:/pl
+   Topic:FEM dla początkujących
+   Level:początkujący
+   Time:nieokreślony
+   Author:thschrader
+   FCVersion:0.17.11622+
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true] Whiffle Ball
 }}
 
 ### Motywacja
@@ -22,7 +23,13 @@
 
 ### Aktywacja Środowiska pracy FEM i kontrola funkcji 
 
-### Modyfikacja belki, nowe obliczenia
+### Modyfikacja belki, nowe obliczenia 
+
+
+{{clear
+---
+
+
 
 ---
-[documentation index](../README.md) > FEM Beginner tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > FEM Beginner tutorial/pl

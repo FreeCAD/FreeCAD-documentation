@@ -141,7 +141,7 @@ FreeCAD проверяет на циклические зависимости. �
 В следующей таблице показаны некоторые примеры, предполагающие, что модель имеет функцию с именем «MyCube»:
 
   Данные САПР                                 Ячейка в таблице               Результат
-  ------------------------------------------- ------------------------------ ---------------------------------------
+    
   Параметрическая длинна Куба верстака Part   =MyCube.Length                 Длинна в единицах mm
   Объём Cube                                  =MyCube.Shape.Volume           Объём в mm³ без указания единиц
   Тип формы Cube                              =MyCube.Shape.ShapeType        String: Solid
@@ -152,17 +152,17 @@ FreeCAD проверяет на циклические зависимости. �
 
 In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by position or by alias. Autocompletion is available for all forms of referencing.
 
-+------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 |                  | Spreadsheet by Name                                 | Spreadsheet by Label                                   |
 +==================+=====================================================+========================================================+
 | Cell by Position |                                      |                                         |
 |                  | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
 |                  |                                                  |                                                     |
-+------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 | Cell by Alias    |                                      |                                         |
 |                  | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
 |                  |                                                  |                                                     |
-+------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -270,9 +270,9 @@ sheet.get('Diameter')
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/ru

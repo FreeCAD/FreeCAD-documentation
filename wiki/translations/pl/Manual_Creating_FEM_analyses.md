@@ -82,11 +82,5 @@ Wyniki wyświetlane za pomocą programu MES nie są oczywiście obecnie wystarcz
 
 
 
-
-
-{{Tutorials navi
-
-}}
-
 ---
-[documentation index](../README.md) > Manual:Creating FEM analyses/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating FEM analyses/pl

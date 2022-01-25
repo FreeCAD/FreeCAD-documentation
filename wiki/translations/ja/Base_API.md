@@ -16,9 +16,6 @@ BaseモジュールはFreeCADモジュール内部に含まれ、FreeCADでよ�
 {{APIClass|Placement| |[配置](Placement_API/jp.md)を作成します。}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Base API/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Base API/ja

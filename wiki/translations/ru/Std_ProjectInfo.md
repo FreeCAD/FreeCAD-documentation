@@ -46,5 +46,7 @@ The **Std ProjectInfo** command shows a dialog box with project information belo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ProjectInfo/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectInfo/ru

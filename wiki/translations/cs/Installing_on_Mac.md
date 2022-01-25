@@ -72,5 +72,7 @@ A je to. V konečné verzi bude FreeCAD dostupný jako balík obsahující aplik
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Installing on Mac/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/cs

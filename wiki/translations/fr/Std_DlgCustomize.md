@@ -37,5 +37,7 @@ La commande **Std Personnalisation** ouvre la boîte de dialogue Personnaliser d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgCustomize/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgCustomize/fr

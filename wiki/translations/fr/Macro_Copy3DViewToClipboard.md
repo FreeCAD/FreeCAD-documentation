@@ -99,5 +99,7 @@ c = v.addEventCallback("SoKeyboardEvent",o.logPosition)
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Copy3DViewToClipboard/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Copy3DViewToClipboard/fr

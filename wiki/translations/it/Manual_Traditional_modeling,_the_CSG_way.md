@@ -185,7 +185,7 @@ Si può guardare il tavolo di cui sopra, e pensare il suo design non è buono. I
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
+
 
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/it

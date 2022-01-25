@@ -105,5 +105,7 @@ Si vous souhaitez modifier la sélection des sections après la création du lof
 
 La séquence des sections dépend de la séquence des clics dans la liste. Si vous souhaitez apporter des modifications substantielles, il est recommandé de tout désélectionner en premier puis de recommencer la sélection dans le bon ordre.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/fr

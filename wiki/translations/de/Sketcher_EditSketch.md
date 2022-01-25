@@ -61,5 +61,7 @@ Es gibt verschiedene Wege den Befehl Skizze bearbeiten aufzurufen:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/de

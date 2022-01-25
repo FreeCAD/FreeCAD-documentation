@@ -360,7 +360,7 @@ This is a level 1 header
 ========================
 
 This is a level 2 header
-------------------------
+
 
 # This is a level 1 header
 
@@ -409,7 +409,7 @@ The following are Markdown extensions.
     [TOC]
 
     First Header  | Second Header
-    ------------- | -------------
+     | 
     Content Cell  | Content Cell 
     Content Cell  | Content Cell 
 
@@ -899,7 +899,7 @@ See this answer in [Stackoverflow](https://stackoverflow.com/a/35377654) for oth
 -   [Source documentation](Source_documentation.md)
 -   [FreeCAD API website](https://www.freecadweb.org/api/)
 
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md)
+
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Doxygen/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > [3rd Party](Category_3rd Party.md) > Doxygen/en

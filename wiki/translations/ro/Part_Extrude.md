@@ -211,5 +211,7 @@ Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only li
 
 Part Extrude poate extruda orice obiect care are Part Geometry (forma OCC), cu excepția solidelor și compsolids. Și nu poate extruda fațetele individuale ale altor obiecte. PartDesign Pad va accepta doar o schiță ca profil (și o mică selecție de alte tipuri de obiecte) sau o fațetă a unui solid.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/ro

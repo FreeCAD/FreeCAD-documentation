@@ -41,9 +41,6 @@
 -   Библиотека может работать в автономном режиме, в этом случае она зависит от устанавливаемой надстройки библиотеки компонентов (и обновляется пользователем), или в сети, и в этом случае она просматривается непосредственно с [репозитория Git библиотеки Parts](https://github.com/FreeCAD/FreeCAD-library) и позволяет скачивать прямо оттуда.
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/ru

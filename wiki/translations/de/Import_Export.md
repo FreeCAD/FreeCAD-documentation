@@ -16,7 +16,7 @@ Siehe die folgenden Seiten fürzusätzliche Information:
 <div class="mw-translate-fuzzy">
 
   Format                                      Beschreibung                                                                                                                                  Import / Öffne                                                                                            Export / Erstelle
-  ------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     
   [\*.FCStd](File_Format_FCStd.md)    FreeCAD eigenes Dateiformat                                                                                                                   [Std Öffnen](Std_Open/de.md), [Std ProjekteZusammenführen](Std_MergeProjects/de.md)       [Std Speichern](Std_Save/de.md)
   [\*.cam](Std_FreezeViews.md)        FreeCAD eingefrorene Ansichten (Kameraeinstellungen)                                                                                          [Std AnsichtenEinfrieren](Std_FreezeViews/de.md)                                                  [AnsichtenEinfrieren](Std_FreezeViews/de.md)
   [\*.FCMacro](Macros.md)             FreeCAD Macro (Python code)                                                                                                                   [Std Import](Std_Import/de.md)                                                                    [Std DlgMakroAufzeichnen](Std_DlgMacroRecord/de.md)
@@ -134,11 +134,5 @@ Siehe die folgenden Seiten fürzusätzliche Information:
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/de

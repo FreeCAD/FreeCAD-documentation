@@ -30,5 +30,7 @@ Die unterschiedliche Geometriearten können gemischt werden.
 2.  Je ein Element pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Axiale Ausrichtung](Assembly3_ConstraintAxial/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintAxial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAxial/de

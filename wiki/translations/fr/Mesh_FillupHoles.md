@@ -32,5 +32,7 @@ La commande **Mesh Remplir les trous** remplit les trous dans les objets maillé
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillupHoles/fr

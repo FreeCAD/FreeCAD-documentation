@@ -111,5 +111,7 @@ Panel = Arch.makePanel(Rect, thickness=36)
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/it

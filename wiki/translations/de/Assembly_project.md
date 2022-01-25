@@ -149,7 +149,7 @@ Schnittstelle, die es (externer) (Multi)Physiksimulationssoftware ermöglicht, d
 -   Objektmodell
 -   \...
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
+
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Assembly project/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Assembly project/de

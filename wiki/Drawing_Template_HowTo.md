@@ -1,17 +1,22 @@
+---
+- TutorialInfo:   Topic:2D Drafting
+   Level:Intermediate
+   Author:Mark Stephen ([Quick61](User_Quick61.md))
+   Time:An hour or less
+   FCVersion:0.14.3700 or greater
+---
+
 # Drawing Template HowTo
+
+ 
+
+
 **The [Drawing Workbench](Drawing_Workbench.md) became obsolete in v0.17. Consider using the [TechDraw Workbench](TechDraw_Workbench.md) instead.<br>
 For a tutorial on how to create a template for that workbench see [TechDraw TemplateHowTo](TechDraw_TemplateHowTo.md)**
 
 .
 
 
-{{TutorialInfo
-|Topic=2D Drafting
-|Level=Intermediate
-|Author=Mark Stephen ([Quick61](User_Quick61.md))
-|Time=An hour or less
-|FCVersion=0.14.3700 or greater
-}}
 
 ## Introduction
 
@@ -244,5 +249,7 @@ The two tools used in this tutorial were Inkscape and Kate. They can be found by
 
  {{Drawing Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo

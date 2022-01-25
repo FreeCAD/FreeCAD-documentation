@@ -11,7 +11,7 @@
 
 Dies ist eine Reihe von angepassten FreeCAD Befehlen und Objekten, die hauptsächlich helfen, das Zeichnen von Rahmen und Rohrleitungen zu beschleunigen.
 
-------------------------------------------------------------------------
+
 
 :   \"*Flamingo*\" Arbeitsbereich ist zugehörig zu Versionen die Python \>2.7 Syntax und Qt4 Werkzeugkasten verwenden.
 
@@ -21,7 +21,7 @@ Dies ist eine Reihe von angepassten FreeCAD Befehlen und Objekten, die hauptsäc
 
 :   \"*Dodo*\" Arbeitsbereich ist für Python \>3.6 und Qt5.
 
-------------------------------------------------------------------------
+
 
 Aus Zweckmäßigkeit sind Flamingo/Dodo Werkzeuge in drei Werkzeugleisten/Menüs + ein Hilfsprogrammsatz gruppiert.
 
@@ -313,11 +313,11 @@ In case one pipe is selected, its properties are aplied to the U-bolt. Moreover 
 
 With **Ref. face** button it\'s possible to select the face of the support to which to orient the U-bolt axis.
 
-------------------------------------------------------------------------
+
 
 *Only in **dodo**: the above piping components can be inserted also wfrom the dedicated pie-menu.*
 
-------------------------------------------------------------------------
+
 
 :   8\) PypeLine Manager
 
@@ -529,8 +529,5 @@ Neue Arbeitsbereiche sind in Entwicklung, bleib dran!
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Flamingo Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Flamingo Workbench/de

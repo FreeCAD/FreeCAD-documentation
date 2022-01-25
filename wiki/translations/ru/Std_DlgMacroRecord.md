@@ -55,5 +55,7 @@ The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgMacroRecord/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroRecord/ru

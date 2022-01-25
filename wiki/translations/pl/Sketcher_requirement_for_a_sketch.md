@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/pl
+   Topic:Szkicownik
+   Level:Początkujący
+   Author:[Maker](User_Maker.md)
+   Time:
+   FCVersion: dowolna
+---
+
 # Sketcher requirement for a sketch/pl
-{{TutorialInfo/pl
-|Topic=Szkicownik
-|Level=Początkujący
-|Author=[Maker](User_Maker.md)
-|Time=
-|FCVersion= dowolna
-}}
+
+
+
+
 
 ## Minimalne wymagania dotyczące szkicu 
 
@@ -45,5 +51,7 @@ Jeśli przypadkowo utworzysz *nadmierną ilość wiązań*, pojawi się ostrzeż
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/pl

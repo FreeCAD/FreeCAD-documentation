@@ -70,5 +70,7 @@ ver 00.03 : 09/02/2016 : minor (display on button)
 
 ver 00.04 : 03/07/2019 : adapt to Python 3
 
+
+
 ---
-[documentation index](../README.md) > Macro Loft/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Loft/cs

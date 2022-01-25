@@ -23,5 +23,7 @@ La commande <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> *
     -   Sélectionnez l\'option **Affichage → Barres d'outils → Draft Aimantation** dans le menu.
     -   Cliquez le bouton droit de la souris sur un espace vide dans la [zone de la barre d\'outils](Interface/fr.md) et sélectionnez l\'option **Draft Aimantation** dans le menu qui apparaît.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/fr

@@ -50,5 +50,7 @@ r = FreeCAD.DraftWorkingPlane.getRotation().Rotation.Q
 c.orientation.setValue(r)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Align Camera to Working Plane/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Align Camera to Working Plane/de

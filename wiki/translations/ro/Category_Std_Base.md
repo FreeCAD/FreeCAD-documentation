@@ -3,7 +3,7 @@ This category list pages related to the [Std Base](Std_Base/ro.md), which collec
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------- -------------------------------------------------------------------
+    
   [Interface Customization/ro](Interface_Customization/ro.md)             [Property editor/ro](Property_editor/ro.md)                       [Standard Menu/ro](Standard_Menu/ro.md)
   [Std About/ro](Std_About/ro.md)                                         [Std AddonMgr/ro](Std_AddonMgr/ro.md)                             [Std Alignment/ro](Std_Alignment/ro.md)
   [Std Base/ro](Std_Base/ro.md)                                           [Std BoxSelection/ro](Std_BoxSelection/ro.md)                     [Std CloseActiveWindow/ro](Std_CloseActiveWindow/ro.md)
@@ -30,10 +30,8 @@ This category list pages related to the [Std Base](Std_Base/ro.md), which collec
   [Std ViewIvIssueCamPos/ro](Std_ViewIvIssueCamPos/ro.md)                 [Std ViewRotateLeft/ro](Std_ViewRotateLeft/ro.md)                 [Std ViewRotateRight/ro](Std_ViewRotateRight/ro.md)
   [Std ViewScreenShot/ro](Std_ViewScreenShot/ro.md)                       [Std ViewZoomIn/ro](Std_ViewZoomIn/ro.md)                         [Std ViewZoomOut/ro](Std_ViewZoomOut/ro.md)
   [Std WhatsThis/ro](Std_WhatsThis/ro.md)                                 [Std Windows Menu/ro](Std_Windows_Menu/ro.md)                     [Std Workbench/ro](Std_Workbench/ro.md)
-                                                                                                                                                            
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------- -------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/ro](<img src="images/Property.png" style="width:16px"> User_Documentation/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:Std Base/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Std Base/ro

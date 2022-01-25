@@ -35,7 +35,7 @@ Icône de la barre d\'outils ![](images/GenerateViews.svg )
 # PR-DC, Republic of Serbia
 # info@pr-dc.com
 # 
-# --------------------
+# 
 #
 # Copyright (C) 2022 PRDC <info@pr-dc.com>
 # 
@@ -52,10 +52,10 @@ Icône de la barre d\'outils ![](images/GenerateViews.svg )
 # You should have received a copy of the GNU Lesser General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
-# ----- PARAMS -----
+#  PARAMS 
 dx = 10 # space between views along x axis
 dy = 10 # space between views along y axis
-# --------------------
+# 
 
 __Name__ = 'GenerateViews'
 __Comment__ = 'Macro for automatic 2D views generation.'
@@ -178,5 +178,7 @@ else:
 
 La discussion du forum [New Macros : GenerateViews et GenerateDrawing](https://forum.freecadweb.org/viewtopic.php?f=22&t=65135)
 
+
+
 ---
-[documentation index](../README.md) > Macro GenerateViews/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro GenerateViews/fr

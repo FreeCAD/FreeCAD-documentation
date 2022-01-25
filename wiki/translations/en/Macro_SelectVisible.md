@@ -55,5 +55,7 @@ else:
             Gui.Selection.addSelection(o)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro SelectVisible/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro SelectVisible/en

@@ -58,9 +58,6 @@ Es gibt viele Gui Befehle (Werkzeuge) in FreeCAD, die experimentell sind. oder f
 Hoffentlich wird dies für alle Gui Befehle in der [List of Commands](List_of_Commands/de.md). wahr.
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > Gui Command/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/de

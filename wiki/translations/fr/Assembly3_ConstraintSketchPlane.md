@@ -26,5 +26,7 @@ Elle peut être utilisé pour créer une esquisse de structure pour la cinémati
 
 :   Avec un assemblage existant non vide, les étapes 1 et 2 peuvent être sautées et tout élément de face planaire peut être utilisé comme plan de travail pour le plan d\'esquisse.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSketchPlane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/fr

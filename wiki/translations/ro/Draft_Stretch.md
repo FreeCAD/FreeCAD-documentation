@@ -90,5 +90,7 @@ Instrumentul Stretch nu are nicio funcție directă de tip python deoarece tot c
 
 There is no Python method to stretch objects. To emulate the results of the Draft Stretch command geometric properties of objects have to be modified.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/ro

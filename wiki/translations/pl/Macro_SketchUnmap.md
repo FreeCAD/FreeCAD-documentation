@@ -195,5 +195,7 @@ else:
 
 For any feedback (bug, feature request, comments, \...), please use this forum thread : [(FR) macro to remap sketch to different reference](https://forum.freecadweb.org/viewtopic.php?f=22&t=36078)
 
+
+
 ---
-[documentation index](../README.md) > Macro SketchUnmap/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro SketchUnmap/pl

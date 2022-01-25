@@ -1,12 +1,20 @@
+---
+- TutorialInfo:   Topic:Scripting
+   Level:Base
+   Time:
+   Author:onekk Carlo
+   FCVersion:0.19
+   Files:
+---
+
 # Scripts
-{{TutorialInfo
-|Topic=Scripting
-|Level=Base
-|Time=
-|Author=onekk Carlo
-|FCVersion=0.19
-|Files=
-}}
+
+ 
+
+
+
+
+
 
 ## Introduction
 
@@ -191,7 +199,7 @@ FreeCAD.Placement(Vector(0,0,0), FreeCAD.Rotation(10,20,30), Vector(0,0,0))
 But over other consideration, one thing is crucial, geometry **reference point**, in other word the point from which the object is modeled by FreeCAD, as described in this table, copied from [Placement](Placement.md):
 
   Object                           Reference Point
-  -------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                         left (minx), front (miny), bottom (minz) vertex
   Part.Sphere                      center of the sphere (ie centre of bounding box)
   Part.Cylinder                    center of the bottom face
@@ -269,9 +277,9 @@ Let\'s explain something in the code:
 
 
 
-  ----------------------------------------------------- ---------------------------------------------- ----------------------------------------------------
+    
   ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
-  ----------------------------------------------------- ---------------------------------------------- ----------------------------------------------------
+    
 
 
 
@@ -312,10 +320,5 @@ This is the meaning of the word \"awkward\" that I\'ve used to define `Placement
 
 
 
-
- {{Powerdocnavi}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripts
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripts

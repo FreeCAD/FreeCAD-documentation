@@ -262,7 +262,7 @@ Dar cea mai bună lume dintre cele două există, și este un addon [Assembly2 W
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
+
 
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/ro

@@ -18,5 +18,7 @@ Cet outil établit un lien entre deux objets d\'un assemblage et fait correspond
 2.  Sélectionnez un élément ponctuel de chaque objet
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintPointsDistance.svg" width=16px> [Distance des points](Assembly3_ConstraintPointsDistance/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointsDistance/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsDistance/fr

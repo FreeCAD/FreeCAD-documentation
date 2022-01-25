@@ -49,5 +49,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewRight/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewRight/pl

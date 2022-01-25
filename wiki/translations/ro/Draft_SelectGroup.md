@@ -53,5 +53,7 @@ The command was revised in FreeCAD version 0.20 and this page describes that ver
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SelectGroup/ro

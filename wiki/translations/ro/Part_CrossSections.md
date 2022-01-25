@@ -39,5 +39,7 @@ Utilitarul **Cross-sections** crează una sau mai multe secțiuni transversale p
 
 ![Result](images/SectionCross3.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/ro

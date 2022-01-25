@@ -66,5 +66,7 @@ oppure per ottenere subito una forma pulita e non dover ricorrere a questo coman
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/it

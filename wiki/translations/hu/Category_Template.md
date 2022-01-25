@@ -8,7 +8,7 @@ See also [UncategorizedTemplates](Special:UncategorizedTemplates/hu.md).
   --
   --
 
-[<img src="images/Property.png" style="width:16px"> Categories/hu](<img src="images/Property.png" style="width:16px"> Categories/hu.md) [<img src="images/Property.png" style="width:16px"> Template:Navigation/hu](<img src="images/Property.png" style="width:16px"> Template:Navigation/hu.md)
+
 
 ---
-[documentation index](../README.md) > Category:Template/hu
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template/hu

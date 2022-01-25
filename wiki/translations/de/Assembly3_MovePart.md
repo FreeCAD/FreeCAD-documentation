@@ -30,5 +30,7 @@ Der Befehl <img alt="" src=images/Assembly_Move.svg‎‎  style="width:24px;"> 
 
 Die Anfasser bewegen das Teil parallel zu einer der Basisebenen des LKS des gewählten Objekts; das Drücken und Halten der **shift**-Taste schränkt die Bewegung auf eine Achse ein.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MovePart/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MovePart/de

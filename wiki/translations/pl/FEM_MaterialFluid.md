@@ -37,5 +37,7 @@ Adds fluid properties to a part.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM MaterialFluid/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialFluid/pl

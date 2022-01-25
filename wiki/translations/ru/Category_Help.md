@@ -3,11 +3,10 @@ This category lists pages that contain helpfull information on MediaWiki and edi
 
 ### Contents:
 
-  -------------------------------
+  
   [Help/ru](Help/ru.md)
-  -------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Categories/ru](<img src="images/Property.png" style="width:16px"> Categories/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Help/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Help/ru

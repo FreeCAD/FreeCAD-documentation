@@ -94,5 +94,7 @@ In alternativa, è possibile selezionare uno o più Corpi prima di premere il pu
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Boolean/it

@@ -55,5 +55,7 @@ Icône de la barre d\'outils ![](images/Macro_FlattenWire3Points.png )
     sel.Object.Points = points
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro FlattenWire3Points/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FlattenWire3Points/fr

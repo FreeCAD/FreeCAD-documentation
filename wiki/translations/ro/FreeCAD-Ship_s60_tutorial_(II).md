@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/ro
+   Topic:Ship Workbench
+   Level: Beginner
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # FreeCAD-Ship s60 tutorial (II)/ro
-{{TutorialInfo/ro
-|Topic=Ship Workbench
-|Level= Beginner
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## Overview
 
@@ -294,5 +300,7 @@ Desigur, acest exemplu nu este real (mai întâi pentru toate cisternele de comb
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/ro

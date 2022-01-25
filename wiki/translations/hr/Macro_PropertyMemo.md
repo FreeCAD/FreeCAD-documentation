@@ -418,5 +418,7 @@ Moji makroi na [mario52a](https://gist.github.com/mario52a) gists
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Macro PropertyMemo/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro PropertyMemo/hr

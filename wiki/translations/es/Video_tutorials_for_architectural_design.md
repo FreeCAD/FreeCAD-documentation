@@ -5,7 +5,7 @@
 
 Los tutoriales que se enumeran aquí son los que tratan sobre el diseño de habitaciones, casas y otros edificios que interesan a los arquitectos e ingenieros civiles. Para otros temas, consulte la página general [video tutoriales](video_tutorials/es.md).
 
-Visite [tutoriales](tutorials/es.md) para obtener tutoriales escritos de alta calidad. Puedes encontrar una lista completa y sin clasificar de tutoriales en [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+Visite [tutoriales](tutorials/es.md) para obtener tutoriales escritos de alta calidad. Puedes encontrar una lista completa y sin clasificar de tutoriales en [:Category:Tutorials](:Category_Tutorials.md).
 
 ## Diseño arquitectónico 
 
@@ -51,9 +51,6 @@ Vídeos que recorren el modelado de habitaciones, casas, edificios de oficinas y
     -   [Fachmodell mit FreeCAD und ARCH](https://www.youtube.com/watch?v=iarSNPBKkfo&list=PLNv9lsSmVr-iDNhHqJ1u8aZUImYIc8bB8): second part of the series. The building of the actual model: a garage.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Video tutorials for architectural design/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for architectural design/es

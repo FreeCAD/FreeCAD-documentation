@@ -1,7 +1,7 @@
 # Python scripting tutorial/pl
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
 [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) is a programming language that it relatively easy to learn and understand. It is open-source and multi-platform, and can be used for many purposes: from simple shell scripts to very complex programs. But its most widespread use is as a scripting language embedded in other applications. That is how it is used inside FreeCAD. From the [Python console](Python_console.md), or from custom scripts, you can control FreeCAD and make it perform very complex operations.
 
@@ -101,7 +101,7 @@ box.Height = 5
 
 If you select your box with the mouse, you\'ll see that in the [Property editor](Property_editor.md), on the **Data** tab, our **Height** property appears. All properties of a FreeCAD object that appear there (and also on the **View** tab, more about that later), are directly accessible in Python too, by their names, like we did with the **Height** property. Try changing the other dimensions of the box. {{Top}}
 
-## Vectors and placements 
+## Wektory i umiejscowienia 
 
 [Vectors](https://en.wikipedia.org/wiki/Euclidean_vector) are a very fundamental concept in any 3D application. A vector is a list of 3 numbers (x, y and z), describing a point or position in 3D space. Many things can be done with vectors, such as additions, subtractions, projections and [much more](https://en.wikipedia.org/wiki/Vector_space). In FreeCAD vectors work like this:
 
@@ -270,13 +270,5 @@ Now you are ready for more in-depth FreeCAD scripting. So head on to the [Power 
 
 
 
-
-
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Python scripting tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Python scripting tutorial/pl

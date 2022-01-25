@@ -10,5 +10,7 @@ Un [foglio di calcolo](spreadsheet/it.md) è una pagina suddivisa in righe e col
 3.  Editare il contenuto delle celle.
 4.  Chiudere la scheda del foglio di calcolo quando si ha finito, i valori vengono salvati automaticamente mentre si digitano.
 
+
+
 ---
-[documentation index](../README.md) > Spreadsheet/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Spreadsheet/it

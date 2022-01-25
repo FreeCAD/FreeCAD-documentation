@@ -311,9 +311,6 @@ Diventa così molto facile gestire un numero qualsiasi di unità con qualsiasi t
 -   The [Std UnitsCalculator](Std_UnitsCalculator.md) tool.
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > Units/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Units/it

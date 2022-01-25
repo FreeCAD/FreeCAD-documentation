@@ -22,5 +22,7 @@ Der Abstand ihrer Z-Achsen und die Winkel zwischen ihren X-Achsen (und genauso i
 2.  Je ein planeres Flächenelement pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintAlignment.svg" width=16px> [Ebenen ausrichten](Assembly3_ConstraintAlignment/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintAlignment/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAlignment/de

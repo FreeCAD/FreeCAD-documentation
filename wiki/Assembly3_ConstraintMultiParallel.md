@@ -23,5 +23,7 @@ The constraint accepts straight edges and planar faces, which become parallel.
 2.  Select one straight edge element or one planar face element of each object.
 3.  Press the **<img src="images/Assembly_ConstraintMultiParallel.svg" width=16px> [Multi parallel](Assembly3_ConstraintMultiParallel.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintMultiParallel
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMultiParallel

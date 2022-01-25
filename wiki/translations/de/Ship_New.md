@@ -142,5 +142,7 @@ Wenn du die **Accept** Schaltfläche drückst, wird eine neue Schiffsinstanz mit
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Ship New/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship New/de

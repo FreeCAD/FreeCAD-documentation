@@ -31,5 +31,7 @@ The <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:24px;"
 
  {{TechDraw_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionHoleCircle
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionHoleCircle

@@ -55,5 +55,7 @@ Creează o constrângere FEM pentru păstrarea nodurilor în același plan
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ConstraintPlaneRotation/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPlaneRotation/ro

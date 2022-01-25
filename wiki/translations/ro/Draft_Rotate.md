@@ -147,5 +147,7 @@ rot_list4 = Draft.rotate(list2, 4*angle2, center=cen, copy=True)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/ro

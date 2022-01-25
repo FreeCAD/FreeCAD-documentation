@@ -36,5 +36,7 @@ In modalità **Modifica schizzo** usare uno dei seguenti modi:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSketch/it

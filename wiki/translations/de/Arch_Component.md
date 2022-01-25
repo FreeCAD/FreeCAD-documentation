@@ -67,5 +67,7 @@ Das Arch-Komponenten-Objekten ist auch eine Basis, die von allen anderen Arch-Ob
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Component/de

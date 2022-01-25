@@ -534,9 +534,9 @@ La página [Croquizador Guión](Sketcher_scripting/es.md) contiene ejemplos sobr
 
 {{Sketcher Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/es

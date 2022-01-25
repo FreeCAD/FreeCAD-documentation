@@ -15,7 +15,7 @@ L\'atelier Stenfie n\'est pas inclus dans le package FreeCAD par défaut mais pe
 
 ## Outils
 
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Stemfie Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External_Workbenches](Category_External_Workbenches.md) > Stemfie Workbench/fr

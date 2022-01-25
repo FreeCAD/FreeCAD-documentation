@@ -40,5 +40,7 @@ The fillet tool sometimes fails when trying to fillet complex shapes. A common c
 
 The fillet tool is affected by the [topological naming problem](Topological_naming_problem.md) when making a change to a modeling step earlier in the chain that affects the number of faces or vertices. This could cause unpredictable results. Until this problem is resolved it is advised to apply chamfer and fillet operations as the last steps in the modelling chain.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/pt-br

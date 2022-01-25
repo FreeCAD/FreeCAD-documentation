@@ -22,5 +22,7 @@ It can be used to either group **Constraints**, **Elements**, or **Parts** and w
 
 :   If the selection contains different types of objects the **<img src="images/Assembly_New_Group.svg‎‎" width=16px> [Group objects](Assembly3_GroupObjects.md)** button will be inactive.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 GroupObjects/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 GroupObjects/en

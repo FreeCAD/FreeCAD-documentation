@@ -82,5 +82,7 @@ The **Flat lines** style overrides the **Display Mode** of objects. This style m
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std DrawStyle
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DrawStyle

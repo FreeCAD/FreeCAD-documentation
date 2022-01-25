@@ -3,11 +3,10 @@ This category collects pages from the [external workbenches](external_workbenche
 
 ### Contents:
 
-  --------------------------------------------------------- ---------------------------------------------------------
+   
   [Plot Workbench/zh-tw](Plot_Workbench/zh-tw.md)   [Ship Workbench/zh-tw](Ship_Workbench/zh-tw.md)
-  --------------------------------------------------------- ---------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/zh-tw](<img src="images/Property.png" style="width:16px"> Workbenches/zh-tw.md) [<img src="images/Property.png" style="width:16px"> Addons/zh-tw](<img src="images/Property.png" style="width:16px"> Addons/zh-tw.md)
+
 
 ---
-[documentation index](../README.md) > Category:External Workbenches/zh-tw
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Workbenches/zh-tw

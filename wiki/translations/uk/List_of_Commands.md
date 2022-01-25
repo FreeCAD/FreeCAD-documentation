@@ -1,5 +1,7 @@
 # List of Commands/uk
-1.  REDIRECT [:<img src="images/Property.png" style="width:16px"> Command Reference/uk](:<img src="images/Property.png" style="width:16px"> Command_Reference/uk.md)
+1.  REDIRECT [:Category:Command Reference/uk](:Category:Command_Reference/uk.md)
+
+
 
 ---
-[documentation index](../README.md) > List of Commands/uk
+![](images/Right_arrow.png) [documentation index](../README.md) > List of Commands/uk

@@ -36,5 +36,7 @@ Il comando **Personalizza** apre la finestra di dialogo Personalizza dando acces
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgCustomize/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgCustomize/it

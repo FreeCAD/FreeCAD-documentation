@@ -31,5 +31,7 @@ Eksport aktualnych właściwości widoku do pliku Pov przeznaczonego do użytku 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView/pl

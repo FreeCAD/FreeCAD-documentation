@@ -309,7 +309,7 @@ Kiedy wszystko jest gotowe, powinieneś otrzymać drzwi prawidłowo osadzone w �
 <img alt="" src=images/BIM_Tutorial_32.jpg  style="width:300px;">
 
 
-{{BIMTutorialAction|goal1=Stwórz szklane drzwi|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Window" in o.Name]) == 1)}}
+{{BIMTutorialAction/pl|goal1=Stwórz szklane drzwi|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Window" in o.Name]) == 1)}}
 
 ### Organizacja naszego modelu 
 
@@ -334,27 +334,27 @@ Utwórz teraz Część budowlaną wybierając **Kondygnacja** z menu modelowania
 Zauważ, że ponieważ Części budowlane są ogólnymi komponentami budynku, nie jesteś zmuszony do organizowania swojego modelu według poziomów w programie FreeCAD. Możesz wybrać inne grupowanie swoich elementów. Ale format IFC oczekuje, że rzeczy będą pogrupowane według poziomów, więc jeżeli planujesz używać tego formatu, najlepiej jest traktować Części budowlane jako poziomy.
 
 
-{{BIMTutorialAction|goal1=Utwórz kondygnację|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name]) == 1)|goal2=Dodaj do niego cztery pozostałe obiekty główne BIM|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name and (len(o.Group) == 4)]) == 1)}}
+{{BIMTutorialAction/pl|goal1=Utwórz kondygnację|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name]) == 1)|goal2=Dodaj do niego cztery pozostałe obiekty główne BIM|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name and (len(o.Group) == 4)]) == 1)}}
 
 ### Dodawanie płaszczyzn przekroju 
 
-One of the most commonly operations done with a BIM model is to extract 2D drawings from it, such as plans or elevations. There are several ways to do that in FreeCAD, depending on the result you wish to obtain. Basically, you can choose between producing the 2D result inside the 3D space, which is useful if you wish to rework it there, build further on it or better control how it is exported to formats like [DXF](Draft_DXF.md) or [DWG](FreeCAD_and_DWG_Import.md), or on a [TechDraw sheet](TechDraw_Workbench.md) that is better suited for impression or export to PDF. In both cases, it starts with placing a [Section Plane](Arch_SectionPlane.md) in your model:
+Jedną z najczęściej wykonywanych operacji na modelu BIM jest wyodrębnienie z niego rysunków 2D, takich jak plany czy elewacje. Istnieje kilka sposobów, aby to zrobić w programie FreeCAD, w zależności od wyniku, jaki chcesz uzyskać. Zasadniczo możesz wybrać pomiędzy produkcją rezultatu 2D wewnątrz przestrzeni 3D, co jest przydatne jeśli chcesz go tam przerobić, rozbudować lub lepiej kontrolować jak jest eksportowany do formatów takich jak [DXF](Draft_DXF/pl.md) lub [DWG](FreeCAD_and_DWG_Import/pl.md), lub na arkuszu [Rysunku Technicznego](TechDraw_Workbench/pl.md), który lepiej nadaje się do tworzenia widoków lub eksportu do PDF. W obu przypadkach zaczyna się to od umieszczenia [płaszczyzny przekroju](Arch_SectionPlane/pl.md) w modelu:
 
 <img alt="" src=images/BIM_Tutorial_37.jpg  style="width:300px;">
 
-1.  Select the Level object that contains your objects, that we created in the last step
-2.  Add a Section Plane from menu **Annotations-\>Section Plane**
+1.  Wybierz obiekt Poziom, który zawiera Twoje obiekty, stworzone w ostatnim kroku,
+2.  Dodaj płaszczyznę przekroju z menu **Adnotacje-\>Płaszczyzna przekroju**.
 
-Section planes don\'t cut through the whole model, but only through objects in their **Objects** property. You can select the Section Plane to check and change the contents of this property anytime.
+Płaszczyzny przekroju nie przecinają całego modelu, lecz tylko obiekty znajdujące się w ich właściwości **Obiekty**. Można wybrać płaszczyznę przekroju, aby sprawdzić i zmienić zawartość tej właściwości w dowolnym momencie.
 
-By default, the new section plane will be placed in the middle of the selected object or its contents, and will look downwards, as to create a floor plan view. But the section plane is an object like any other and can be moved and rotated to do what you need. Place it horizontally to create a plan view, vertically inside your model to create a section, or outside the model to create an elevation.
+Domyślnie nowa płaszczyzna przekroju zostanie umieszczona w środku wybranego obiektu lub jego zawartości i będzie patrzeć w dół, tak aby utworzyć widok planu piętra. Płaszczyzna przekroju jest jednak obiektem jak każdy inny i można ją przesuwać i obracać w zależności od potrzeb. Umieść ją poziomo, aby utworzyć widok planu, pionowo wewnątrz modelu, aby utworzyć przekrój, lub na zewnątrz modelu, aby utworzyć elewację.
 
 
-{{BIMTutorialAction|goal1=Select the main Building Part|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "BuildingPart" in o.Name]) == 1)|goal2=Create a section plane|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Section" in o.Name and (len(o.Objects) == 1) and ("BuildingPart" in o.Objects[0].Name)]) == 1)}}
+{{BIMTutorialAction/pl|goal1=Wybierz główną część Budowli|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "BuildingPart" in o.Name]) == 1)|goal2=Utwórz płaszczyznę przekroju|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Section" in o.Name and (len(o.Objects) == 1) and ("BuildingPart" in o.Objects[0].Name)]) == 1)}}
 
-### Extracting 2D views as geometry 
+### Wyodrębnianie widoków 2D jako geometrii 
 
-Once your section plane is in place, we can now create 2D geometry from what it sees using the [Shape2DView](Draft_Shape2DView.md) tool:
+Gdy płaszczyzna przekroju jest już na miejscu, możemy teraz stworzyć geometrię 2D na podstawie tego, co widzi, używając narzędzia [Widok 2D kształtu](Draft_Shape2DView/pl.md):
 
 <img alt="" src=images/BIM_Tutorial_38.jpg  style="width:300px;">
 
@@ -364,14 +364,14 @@ Once your section plane is in place, we can now create 2D geometry from what it 
 
 <img alt="" src=images/BIM_Tutorial_39.jpg  style="width:300px;">
 
-The 2D view we created is a all-in-one 2D object and will be located on the (0,0) ground plane in the model. It can be moved around, and will be recalculated if the model changes.
+Stworzony przez nas widok 2D jest obiektem typu wszystko w jednym i będzie znajdował się na płaszczyźnie (0,0) w modelu. Można go przemieszczać i będzie on przeliczany, gdy model ulegnie zmianie.
 
-To create thicker lines for cut areas, you can create another Shape 2D view, and set its **Projection Mode** property to \"Cutlines\" or \"Cutfaces\", and its **In Place** property to \"False\". You will then have two objects, one for viewed lines and one for cut lines, for which you can give different line thicknesses.
+Aby utworzyć grubsze linie dla obszarów cięcia, możesz utworzyć kolejny widok Kształtu 2D i ustawić jego właściwość **Tryb rzutowania** na \"Linie cięcia\" lub \"Powierzchnie cięcia\", a jego właściwość **W miejscu** na \"Fałsz\". Będziesz miał wtedy dwa obiekty, jeden dla linii widocznych i jeden dla linii ciętych, dla których możesz nadać różne grubości linii.
 
 
-{{BIMTutorialAction|goal1=Select the section plane|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "Section" in o.Name]) == 1)|goal2=Create a Shape 2D View|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Shape2DView" in o.Name]) == 1)}}
+{{BIMTutorialAction/pl|goal1=Wybierz płaszczyznę przekroju|test1=bool(len([o for o in FreeCADGui.Selection.getSelection() if "Section" in o.Name]) == 1)|goal2=Utwórz widok kształtu 2D|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Shape2DView" in o.Name]) == 1)}}
 
-### Annotating and exporting to 2D CAD formats 
+### Sporządzanie adnotacji i eksport do formatów CAD 2D 
 
 You can place [Texts](Draft_Text.md), [Labels](Draft_Label.md) (text with line and arrow), [Dimensions](Draft_Dimension.md) on anything in the model space: Either directly on the 3D model, or on the 2D view that we created in the step above. The choice is yours, depending on what you wish to achieve. If you leave the 2D view exactly under the 3D model, you might also want to do both in one go.
 
@@ -504,7 +504,7 @@ FreeCAD jest wolnym oprogramowaniem, rozwijanym przez entuzjastyczną społeczno
 
 {{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
 
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
+
 
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM ingame tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Tutorials](Category_Tutorials.md) > BIM ingame tutorial/pl

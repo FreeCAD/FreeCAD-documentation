@@ -50,5 +50,7 @@ Zeigt oder Blendet die Anzeige des definierten Polygons einer B-Spline Kurve aus
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplinePolygon/de

@@ -92,5 +92,7 @@ j.Objects = FreeCADGui.Selection.getSelection()
 
 -   L\'outil a été ré-implémenté pour fonctionner via generalFuse dans FreeCAD V0.17.8053
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinConnect/fr

@@ -1,17 +1,23 @@
+---
+- TutorialInfo:   Topic:Modélisation
+   Level:Utilisateur expérimenté
+   Author:NormandC
+   Time:
+   FCVersion: ≥ 0.19.23300
+   Files:
+---
+
 # PartDesign Bearingholder Tutorial I/fr
+
+
+
+
+
 **This tutorial was originally written for a now deprecated development version of FreeCAD. This tutorial requires a complete rewrite to align with the PartDesign changes that will be in the upcoming v0.17 release.**
 
 
 
 
-{{TutorialInfo
-|Topic=Modélisation
-|Level=Utilisateur expérimenté
-|Author=NormandC
-|Time=
-|FCVersion= ≥ 0.19.23300
-|Files=
-}}
 
 Tutoriel Support de Roulement - Support de roulement terminé
 
@@ -102,7 +108,5 @@ Nous avons modélisé le haut du support de roulement avec les dimensions qu\'il
 
 
 
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
-
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/fr

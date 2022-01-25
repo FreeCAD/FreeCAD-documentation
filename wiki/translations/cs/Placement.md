@@ -346,7 +346,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 -   Referenční bod objektu (FreeCAD.Placement.Base) se mění v závislosti na objektu. Některé příklady pro běžné objekty:
 
   Objekt                         Referenční bod
-  ------------------------------ ----------------------------------------------------------------------------------
+   
   Part.Box                       levý (minx), přední (miny), spodní (minz) vrchol
   Part.Sphere                    střed koule (tj střed ohraničující kostky)
   Part.Cylinder                  střed spodní plochy
@@ -381,5 +381,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 -   This tutorial: [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
 
+
+
 ---
-[documentation index](../README.md) > Placement/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Placement/cs

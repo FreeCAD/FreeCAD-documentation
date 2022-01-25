@@ -19,7 +19,7 @@ Obtáčí vybraný objekt kolem zadané osy. Pro obtáčení jsou povoleny násl
 <div class="mw-translate-fuzzy">
 
   Vstupní tvar   Výstupní tvar
-  -------------- ----------------
+   
   Vrchol         Hrana
   Hrana          Plocha
   Drát           Plášť
@@ -59,5 +59,7 @@ Jestli je vybrána uživetelsky definována osa, čísla definují směr obtáč
 
 -   If the object to revolve intersects the rotation axis the operation will fail in most cases.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/cs

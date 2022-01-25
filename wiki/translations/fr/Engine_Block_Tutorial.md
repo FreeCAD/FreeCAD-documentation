@@ -1,11 +1,12 @@
 # Engine Block Tutorial/fr
-{{TutorialInfo/fr
-|Topic=  Atelier Part
-|Level=  Débutant
-|Time=   1 heure
-|Author= Andrewbuck40
-|FCVersion= 0.14.3700
-|Files=
+---
+- TutorialInfo:/fr
+   Topic:  Atelier Part
+   Level:  Débutant
+   Time:   1 heure
+   Author: Andrewbuck40
+   FCVersion: 0.14.3700
+   Files:
 }}
 
 <img alt="" src=images/Engine_Block_Tutorial_-_Finished_Engine_Block.png  style="width:600px;">
@@ -28,7 +29,7 @@ Dans l\'atelier Part, vous verrez une diversité de boutons pour les objets prim
 
 Dès que vous avez votre cube et êtes à l\'aise avec le fonctionnement de la souris, nous allons commencer le paramétrage des dimensions du modèle CAO. Sélectionnez le *Cube* en cliquant dessus dans l\'arborescence, puis cliquez sur l\' *onglet Données* de la *Vue Propriété* situé en dessous de l\'arborescence (aller à **Affichage → Panels → Vue Combo** si vous l\'avez fermé). Dans l*\'onglet Données*, vous pouvez modifier les propriétés de l\'objet que vous avez sélectionné dans l\'arborescence. Selon le type d\'objet sélectionné, il y aura différents paramètres que vous pourrez ajuster dans l\' *onglet Données*. Pour une boîte nous avons besoin de trois facteurs, l\'un pour sa position dans l\'espace 3D, un autre pour son orientation, et un troisième pour spécifier les dimensions de la boîte. Pour une sphère vous seriez en mesure de préciser le point central et le rayon ; les cônes ont un rayon, une hauteur et une position ; et ainsi de suite. Nous construisons un petit bloc moteur 2 cylindres afin de définir la taille et la position de la boîte pour les valeurs suivantes (Assurez-vous de définir le XYZ sous « Position », ceux sous « Axis » détermine l\'axe de rotation et les valeurs par défaut sont celles que nous voulons) :
 
-:   {\| Class = wikitable border = 1
+:   {\    Class : wikitable border = 1
 
 \|- \| X : 0,0 mm \|\| Longueur: 140,0 mm \|- \| Y : -40,0 mm \|\| Largeur: 80,0 mm \|- \| Z : 0,0 mm \|\| Hauteur: 110,0 mm \|- \|}
 
@@ -38,7 +39,7 @@ Maintenant que vous avez votre bloc moteur dimensionné correctement, nous devri
 
 Étape suivante, nous allons tailler le premier cylindre à travers le bloc moteur. Pour ce faire, nous allons ajouter un cylindre au modèle avec la profondeur que nous voulons aléser et ensuite faire une opération booléenne de *soustraction* de la matière du bloc. Cliquez sur le bouton ajouter cylindre (<img alt="" src=images/Part_Cylinder.svg  style="width:16px;">) pour créer un nouveau cylindre, puis sélectionnez-le dans l\'arborescence et définissez ses propriétés comme suit :
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X : 40.0 mm \|\| Hauteur: 110.0 mm \|- \| Y : 0.0 mm \|\| Rayon: 25.0 mm \|- \| Z : 0.0 mm \|\| \|- \|}
 
@@ -64,7 +65,7 @@ Maintenant que nous avons alésé nos cylindres nous allons prendre une seconde 
 
 Ensuite, nous allons fabriquer un carter sous le bloc moteur. Ajouter une nouvelle boîte, renommez la en **Bloc carter**, et donner lui les propriétés suivantes :
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 0.0 mm \|\| Hauteur: 140.0 mm \|- \| Y: -50.0 mm \|\| Longueur: 100.0 mm \|- \| Z: -85.0 mm \|\| Largeur: 85.0 mm \|- \|}
 
@@ -72,7 +73,7 @@ Pour faire apparaître le carter donnons lui une couleur différente. Vous pouve
 
 Ajoutez une autre boite appelée **Découpe palier**, donner lui les propriétés suivantes, puis couper **Découpe palier** du **Bloc carter** (c\'est à dire en sélectionnant le carter en premier) :
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 0.0 mm \|\| Hauteur (height): 140.0 mm \|- \| Y: -40.0 mm \|\| Longueur (lenght): 80.0 mm \|- \| Z: -85.0 mm \|\| Largeur (widht): 30.0 mm \|- \|}
 
@@ -82,7 +83,7 @@ Renommez l\'objet résultat \'\' Cut \'\' en **Carter creusé**.
 
 Ensuite, nous allons découper un emplacement semi-circulaire pour poser le vilebrequin et un espace dans le carter pour qu\'il tourne. Nous commencerons par un cylindre, mais l\'orientation du cylindre par défaut est verticale, alors que nous avons besoin d\'une horizontale. Cela signifie que nous devons trouver une façon de tourner le cylindre pour l\'aligner correctement avec notre moteur. Si vous regardez l\'axe de guidage dans le coin inférieur droit de la fenêtre 3D, vous verrez que nous voulons que le vilebrequin se situe le long de l\'axe des x positifs. Cela signifie qu\'à partir de sa position de départ nous avons besoin de faire tourner de 90 degrés autour d\'un axe parallèle à l\'axe Y de la scène. Cela nous indique ce que nous devons saisir comme paramètres pour le cylindre. Créer un cylindre appelé **Découpe vilebrequin** et lui donner ces propriétés (notez que nous avons maintenant à spécifier les paramètres d\'orientation, ainsi que les dimensions régulières comme nous avons fait pour les alésages du cylindre) :
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| Axe X: 0.0 mm \|\| Angle: 90.0 degrés \|- \| Axe Y: 1.0 mm \|\| \|- \| Axe Z: 0.0 mm \|\| \|- \| Position X: 0.0 mm \|\| Hauteur: 140.0 mm \|- \| Position Y: 0.0 mm \|\| Radius: 20.0 mm \|- \| Position Z: -55.0 mm \|\| \|- \|}
 
@@ -92,11 +93,11 @@ Couper l\'objet **Découpe vilebrequin** depuis **Carter creusé** et renommer l
 
 Enfin, nous allons découper deux boîtes finales de sorte que les tiges de piston puissent atteindre le carter vers le haut dans le bloc moteur. Faire deux objets appelés **Box sculpte 1** et **Box sculpte 2** avec les propriétés suivantes ; vous pouvez aussi dupliquer **Box sculpte 1** et juste changer la coordonnée X pour obtenir la deuxième découpe. Faire une union dont le résultat sera un objet appelé **Box sculpture carter**, et avec cet objet creuser **Carter avec paliers**, appeler le résultat final **Carter**. N\'oubliez pas, vous pouvez masquer l\'objet **Bloc alésé** en le sélectionnant et en appuyant la barre d\'espace pour pouvoir voir ce que vous faites.
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 15.0 mm \|\| Longueur: 50 mm \|- \| Y: -25.0 mm \|\| Largeur: 50.0 mm \|- \| Z: -55.0 mm \|\| Hauteur: 55.0 mm \|- \|}
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 75.0 mm \|\| Longueur: 50.0 mm \|- \| Y: -25.0 mm \|\| Largeur: 50.0 mm \|- \| Z: -55.0 mm \|\|Hauteur: 55.0 mm \|- \|}
 
@@ -122,11 +123,11 @@ L\'ajout des éléments avec la souris est rapide et facile, mais il n\'est pas 
 
 Maintenant que vous avez vu la façon de déterminer facilement les coordonnées des éléments de dessin, vous pouvez facilement concevoir un modèle de goujon ou d\'autres implantations en deux dimensions pour des pièces telles que des canaux de fluide, des tracés de circuits imprimés, etc. Pour nos 3 goujons de culasse nous allons sur ce côté du moteur, nous allons utiliser les coordonnées suivantes. Notez que lorsque vous tapez les valeurs dans les zones vous pouvez appuyez sur Entrée pour passer à la case suivante, c\'est aussi une bonne idée de déplacer votre souris en dehors de la vue 3D avant de commencer à taper les coordonnées car les mouvements de la souris écraserons les chiffres que vous avez déjà saisis dans les champs de saisie de texte. En outre, sur mon système, j\'ai eu des difficultés avec les cercles saisis qui avaient leurs coordonnées Z fixées à 12,5 pour une raison inconnue, si vous rencontrez ce problème, vous pouvez définir le plan de projection du dessin sur \'\' Aucun \'\' puis entrer manuellement la coordonnée Z des cercles à 110. Enfin, lors de la création des cercles, assurez-vous de cocher la case \'\' Rempli \'\', sinon, quand nous les extrudons plus tard, ils créeront simplement des tubes comme un tube de papier toilette au lieu d'un cylindre solide.
 
-  ---------- --------- ----------------
+    
   X1 : 10    Y1 : 25   Rayon : 2,5 mm
   X2 : 70    Y2 : 25   Rayon : 2,5 mm
   X3 : 130   Y3 : 25   Rayon : 2,5 mm
-  ---------- --------- ----------------
+    
 
 Nommez ces cercles **Boulon 1** à **Boulon 3**.
 
@@ -172,5 +173,11 @@ Maintenant que nous avons des objets 3D pour les trous et la forme extérieure, 
 
 Votre objet final devrait ressembler à l\'image sur la droite.
 
+
+{{clear
 ---
-[documentation index](../README.md) > Engine Block Tutorial/fr
+
+
+
+---
+![](images/Right_arrow.png) [documentation index](../README.md) > Engine Block Tutorial/fr

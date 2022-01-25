@@ -68,5 +68,7 @@ Jednym z możliwych rozwiązań może być przepływ pracy:
 -   Utwórz powłokę na powierzchni.
 -   Utwórz bryłę z powłoki.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/pl

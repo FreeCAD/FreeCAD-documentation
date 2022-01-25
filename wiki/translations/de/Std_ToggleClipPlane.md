@@ -57,5 +57,7 @@ Eine **Schnittebene** ist eine Ebene, die den Objektraum in zwei Halbräume teil
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ToggleClipPlane/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleClipPlane/de

@@ -29,5 +29,7 @@ The **Std ActivatePrevWindow** command does not work properly [1](https://forum.
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std ActivatePrevWindow
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivatePrevWindow

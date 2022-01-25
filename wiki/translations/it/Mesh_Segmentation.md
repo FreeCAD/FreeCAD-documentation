@@ -61,5 +61,7 @@ Il comando **Crea segmenti di mesh** crea segmenti di mesh separati per i tipi d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Segmentation/it

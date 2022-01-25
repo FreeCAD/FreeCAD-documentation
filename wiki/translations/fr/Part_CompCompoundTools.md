@@ -18,5 +18,7 @@ Un ensemble de divers outils composés.
 -   <img alt="" src=images/Part_ExplodeCompound.svg  style="width:32px;"> [Eclater le composé](Part_ExplodeCompound/fr.md) : Outil pour décomposer un objet composé.
 -   <img alt="" src=images/Part_Compound‏‎Filter.svg  style="width:32px;"> [Filtre composé](Part_Compound‏‎Filter/fr.md) : L\'outil est utilisé pour extraire des pièces individuellement.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/fr

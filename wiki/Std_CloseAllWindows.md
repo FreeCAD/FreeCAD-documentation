@@ -46,5 +46,7 @@ To close a document use the `closeDocument` method of the FreeCAD application. F
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std CloseAllWindows
+![](images/Right_arrow.png) [documentation index](../README.md) > Std CloseAllWindows

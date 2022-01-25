@@ -95,9 +95,7 @@ The key to loading a UI file successfully is to use the full path to the file. A
 self.dialog = FreeCADGui.PySideUic.loadUi(os.path.join(os.path.dirname(__file__), "AddonManager.ui"))
 ```
 
- {{Powerdocnavi}} 
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > PySide Advanced Examples
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > PySide Advanced Examples

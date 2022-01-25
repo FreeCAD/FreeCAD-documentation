@@ -3,11 +3,11 @@ This category lists obsolete workbenches, that is, workbenches that are old and 
 
 ### Contents:
 
-  --------------------------------------------------------- --
+   --
   [Drawing Workbench/bg](Drawing_Workbench/bg.md)   
-  --------------------------------------------------------- --
+   --
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/bg](<img src="images/Property.png" style="width:16px"> Workbenches/bg.md) [<img src="images/Property.png" style="width:16px"> Drawing/bg](<img src="images/Property.png" style="width:16px"> Drawing/bg.md)
+
 
 ---
-[documentation index](../README.md) > Category:Obsolete Workbenches/bg
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Obsolete Workbenches/bg

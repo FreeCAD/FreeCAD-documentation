@@ -294,5 +294,7 @@ Les deux premiers arguments, (**droit-300, 0**) (ligne 91) fournissent la positi
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
 
+
+
 ---
-[documentation index](../README.md) > Macro View Rotation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro View Rotation/fr

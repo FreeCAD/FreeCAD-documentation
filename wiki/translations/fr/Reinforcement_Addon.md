@@ -38,9 +38,6 @@ La page [ateliers externes](external_workbenches/fr.md) contient des information
 De nouveaux ateliers sont en développement alors tenez vous au jus!
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
-[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Addon/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Reinforcement Addon/fr

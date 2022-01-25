@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to Sketcher
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+    
   [Arch panel tutorial/ro](Arch_panel_tutorial/ro.md)                                                             [Basic Part Design Tutorial/ro](Basic_Part_Design_Tutorial/ro.md)                         [Basic Sketcher Tutorial/ro](Basic_Sketcher_Tutorial/ro.md)
   [Creating a simple part with PartDesign/ro](Creating_a_simple_part_with_PartDesign/ro.md)                       [Draft ShapeString tutorial/ro](Draft_ShapeString_tutorial/ro.md)                         [Sketcher CarbonCopy/ro](Sketcher_CarbonCopy/ro.md)
   [Sketcher Clone/ro](Sketcher_Clone/ro.md)                                                                       [Sketcher CloseShape/ro](Sketcher_CloseShape/ro.md)                                       [Sketcher CompCreateArc/ro](Sketcher_CompCreateArc/ro.md)
@@ -30,8 +30,9 @@ This category includes FreeCAD pages related to Sketcher
   [Sketcher Symmetry/ro](Sketcher_Symmetry/ro.md)                                                                 [Sketcher ToggleConstruction/ro](Sketcher_ToggleConstruction/ro.md)                       [Sketcher ToggleDrivingConstraint/ro](Sketcher_ToggleDrivingConstraint/ro.md)
   [Sketcher Trimming/ro](Sketcher_Trimming/ro.md)                                                                 [Sketcher ValidateSketch/ro](Sketcher_ValidateSketch/ro.md)                               [Sketcher ViewSection/ro](Sketcher_ViewSection/ro.md)
   [Sketcher ViewSketch/ro](Sketcher_ViewSketch/ro.md)                                                             [Sketcher Workbench/ro](Sketcher_Workbench/ro.md)                                         [Thread for Screw Tutorial/ro](Thread_for_Screw_Tutorial/ro.md)
-  [Toothbrush Head Stand/ro](Toothbrush_Head_Stand/ro.md)                                                                                                                                                           
-  ----------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+  [Toothbrush Head Stand/ro](Toothbrush_Head_Stand/ro.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:Sketcher/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sketcher/ro

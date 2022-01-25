@@ -77,5 +77,7 @@ Part(Деталь) Скругление может ничего не сдела�
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/ru

@@ -107,11 +107,6 @@ Es ist keine Installation erforderlich. Der Dank geht an den Autor des Programms
 3.  COIN3D bietet im Allgemeinen keine guten Grundkörper Zeichnungen. Das Widget System Design456 bietet einige: einige grundlegende Formen und auch einige komplexe Formen. Das Pfeil Widget und das Linien Widget, die von der [Design456 Arbeitsbereich](Design456_Workbench/de.md) verwendet werden, sind Beispiele.
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets/de

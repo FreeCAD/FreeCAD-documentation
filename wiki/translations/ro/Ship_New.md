@@ -136,5 +136,7 @@ Când apăsați butonul **Accept** programul crează noua Ship instance numită 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Ship New/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship New/ro

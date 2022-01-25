@@ -35,5 +35,7 @@ Pozwala na oderwanie szkicu od powierzchni i przymocowanie go do jednej z głów
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ReorientSketch/pl

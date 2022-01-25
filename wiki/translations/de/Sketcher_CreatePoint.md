@@ -50,5 +50,7 @@ Ein Modus zum Fangen an das Gitter kann unter [Skizzierer Einstellungen](Sketche
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/de

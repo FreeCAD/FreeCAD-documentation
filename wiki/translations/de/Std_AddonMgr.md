@@ -69,7 +69,13 @@ Wenn du einen Arbeitsbereich oder ein Makro entwickelt hast und es im Erweiterun
 
 ### Python Arbeitsbereiche 
 
+
+<div class="mw-translate-fuzzy">
+
 Für Python Arbeitsbereiche benötigst du keine besondere Genehmigung, damit dein Arbeitsbereich zum Erweiterungsverwalter hinzugefügt wird, und da sie außerhalb des FreeCAD Quellcodes liegen, kannst du die gewünschte Lizenz wählen. Wenn du darum anfragst, dass dein Arbeitsbereich in die Liste aufgenommen wird (wir werden keine neuen Arbeitsnbereich ohne eine Anfrage der Autoren hinzufügen), entweder durch eine entsprechende Anfrage im Forum oder durch das Öffnen einer Ausgabe im [FreeCAD-Erweiterungs](https://github.com/FreeCAD/FreeCAD-addons/) Repositorium, bleibt dein Code in deinem eigenen git Repositorium, wir fügen ihn einfach als Untermodul zum [FreeCAD-Erweiterungs](https://github.com/FreeCAD/FreeCAD-addons/) Repositorium hinzu. Natürlich werden wir, bevor wir deinen Arbeitsbereich hinzufügen, einen Blick darauf werfen und sicherstellen, dass es keine potentiellen Probleme damit gibt.
+
+
+</div>
 
 ### C++ Arbeitsbereiche 
 
@@ -83,5 +89,7 @@ Wenn du einen Arbeitsbereich in C++ entwickelst, kann er nicht direkt durch Benu
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std AddonMgr/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std AddonMgr/de

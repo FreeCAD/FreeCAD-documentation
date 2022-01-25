@@ -46,5 +46,7 @@ Cet outil crée une fenêtre de rognage qui peut contenir des vues.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroup/fr

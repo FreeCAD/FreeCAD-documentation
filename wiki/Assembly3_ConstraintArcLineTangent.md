@@ -25,5 +25,7 @@ Depending on the order of the selected lines following **errors** appear:
 Constraint "ArcLineTangent" requires the 1st element to be a circular edge
 Constraint "ArcLineTangent" requires the 1st element to be an arc edge
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintArcLineTangent
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintArcLineTangent

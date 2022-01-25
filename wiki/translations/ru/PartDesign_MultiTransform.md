@@ -112,7 +112,7 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 
 ## Options
 
-+--------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Multitransfrom_parameters.png ) | When creating a multitransform feature, the \'multitransform parameters\' dialogue offers two different list views.                                                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    | ### Select originals                                                                                                                                                                                                                                                                                                                                             |
@@ -138,7 +138,7 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 |                                                                    | #### Move Up/Down                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    | Allows changing the order of transformations in the list                                                                                                                                                                                                                                                                                                                            |
-+--------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ## Examples
 
@@ -154,5 +154,7 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/ru

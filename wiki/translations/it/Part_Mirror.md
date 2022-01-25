@@ -31,7 +31,7 @@ Esempio:
 Le caselle **Punto base** possono essere utilizzate per spostare il piano di specchiatura parallelamente al piano standard selezionato (scostamento). Solo una delle caselle **X**, **Y**, o **Z** è attiva per un determinato piano.
 
   Piano Standard   Punto Base     Effetto
-  ---------------- -------------- --------------------------------------
+    
   **XY**           **Z**          Sposta il piano lungo l\'asse **Z**.
   **XY**           **X**, **Y**   Nessun effetto.
   **XZ**           **Y**          Sposta il piano lungo l\'asse **Y**.
@@ -58,5 +58,7 @@ Le caselle **Punto base** possono essere utilizzate per spostare il piano di spe
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/it

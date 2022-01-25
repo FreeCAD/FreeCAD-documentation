@@ -1,15 +1,17 @@
+---
+- TutorialInfo:   Topic: Blueprints / Drawings
+   Level: Beginner
+   Time: 15 minutes
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 or above
+   Files:
+---
+
 # Drawing tutorial
-**Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
+
+  **Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
 
 
-{{TutorialInfo
-|Topic= Blueprints / Drawings
-|Level= Beginner
-|Time= 15 minutes
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16 or above
-|Files=
-}}
 
 ### Introduction
 
@@ -110,7 +112,9 @@ We are now finished with the basic workflow for the [Drawing Workbench](Drawing_
 -   To learn how to create custom templates see [Drawing Template HowTo](Drawing_Template_HowTo.md)
 -   For more information about the tools available check out the [Drawing Workbench](Drawing_Workbench.md) page
 
- {{Tutorials navi}} {{Drawing Tools navi}}
+  {{Drawing Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial

@@ -112,5 +112,7 @@ Executing the tool (Ship design/Load an example ship geometry) a task dialogue w
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Ship Geometries Examples/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship Geometries Examples/ro

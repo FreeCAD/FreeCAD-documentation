@@ -3,7 +3,7 @@ Cette catégorie répertorie les pages liées à l\'[atelier OpenSCAD](OpenSCAD_
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------- ------------------------------------------------------------------------------- -----------------------------------------------------------------------------
+    
   [Artwork OpenSCAD/fr](Artwork_OpenSCAD/fr.md)                                     [Import OpenSCAD code/fr](Import_OpenSCAD_code/fr.md)                   [OpenSCAD AddOpenSCADElement/fr](OpenSCAD_AddOpenSCADElement/fr.md)
   [OpenSCAD ColorCodeShape/fr](OpenSCAD_ColorCodeShape/fr.md)                       [OpenSCAD CSG/fr](OpenSCAD_CSG/fr.md)                                   [OpenSCAD Edgestofaces/fr](OpenSCAD_Edgestofaces/fr.md)
   [OpenSCAD ExpandPlacements/fr](OpenSCAD_ExpandPlacements/fr.md)                   [OpenSCAD ExplodeGroup/fr](OpenSCAD_ExplodeGroup/fr.md)                 [OpenSCAD Hull/fr](OpenSCAD_Hull/fr.md)
@@ -11,10 +11,8 @@ Cette catégorie répertorie les pages liées à l\'[atelier OpenSCAD](OpenSCAD_
   [OpenSCAD MirrorMeshFeature/fr](OpenSCAD_MirrorMeshFeature/fr.md)                 [OpenSCAD Preferences/fr](OpenSCAD_Preferences/fr.md)                   [OpenSCAD RefineShapeFeature/fr](OpenSCAD_RefineShapeFeature/fr.md)
   [OpenSCAD RemoveSubtree/fr](OpenSCAD_RemoveSubtree/fr.md)                         [OpenSCAD ReplaceObject/fr](OpenSCAD_ReplaceObject/fr.md)               [OpenSCAD ResizeMeshFeature/fr](OpenSCAD_ResizeMeshFeature/fr.md)
   [OpenSCAD ScaleMeshFeature/fr](OpenSCAD_ScaleMeshFeature/fr.md)                   [Template:OpenSCAD Tools navi/fr](Template:OpenSCAD_Tools_navi/fr.md)   [OpenSCAD Workbench/fr](OpenSCAD_Workbench/fr.md)
-                                                                                                                                                                            
-  ----------------------------------------------------------------------------------------- ------------------------------------------------------------------------------- -----------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/fr](<img src="images/Property.png" style="width:16px"> Workbenches/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:OpenSCAD/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:OpenSCAD/fr

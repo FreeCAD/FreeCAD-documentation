@@ -1,6 +1,6 @@
 # <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/pt-br
 
-------------------------------------------------------------------------
+
 
 
 
@@ -30,11 +30,22 @@ Se você gostaria de saber como o FreeCAD começou há anos, visite a página [H
 -   [FAQ](Frequently_asked_questions/pt-br.md): Dúvidas Frequentes
 -   [Tutoriais](Tutorials/pt-br.md) cobrindo diferentes partes do FreeCAD
 
+#### Migrating from other software? 
+
+
+<div class="mw-translate-fuzzy">
+
 Veja também:
 
 -   [Migrando para o FreeCAD do Fusion360](Migrating_to_FreeCAD_from_Fusion360/pt-br.md)
 
+
+</div>
+
 ### Conceitos Básicos do Software 
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Interface](Interface/pt-br.md): a interface FreeCAD é composta de vários elementos gráficos na tela, incluindo o [Vista 3D](3D_view/pt-br.md), o [Vista em árvore](Tree_view/pt-br.md), o [Editor de propriedade](Property_editor/pt-br.md), o [Painel de tarefas](Task_panel/pt-br.md), e o [Console Python](Python_console/pt-br.md).
 -   [Estilos de Navegação](Mouse_navigation/pt-br.md): os diferentes tipos de uso do mouse ou trackpad para navegar na visualização 3D.
@@ -43,11 +54,20 @@ Veja também:
 -   [Editor de Preferências](Preferences_Editor/pt-br.md): o sistema que permite controlar muitas propriedades do sistema base e das bancadas de trabalho individuais.
 -   [Formatos de arquivo](Import_Export/pt-br.md): os diferentes formatos de arquivo que o FreeCAD pode ler e escrever.
 
+
+</div>
+
 ### Bancadas de trabalho 
 
 [Bancadas de trabalho](Workbenches/pt-br.md) são coleções de ferramentas usadas para uma tarefa relativamente específica. Estas são as bancadas de trabalho de base agrupadas com cada instalação do FreeCAD:
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Base padrão](Std_Base/pt-br.md). Esta não é realmente uma bancada de trabalho, mas sim uma categoria de comandos e ferramentas \"padrão\" que podem ser usadas em todas as bancadas de trabalho.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> A [bancada de trabalho Arch](Arch_Workbench/pt-br.md) por trabalhar com elementos arquitetônicos.
 
@@ -131,8 +151,5 @@ Esta é a ajuda online oficial do FreeCAD. Note que o sistema de ajuda online es
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/pt-br

@@ -94,5 +94,7 @@ Wybierz jedną ze standardowych osi odniesienia bryły *(X, Y lub Z)* jako kieru
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/pl

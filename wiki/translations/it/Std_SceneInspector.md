@@ -44,5 +44,7 @@ Il comando **Ispettore di scena** apre una finestra di dialogo che mostra una pa
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SceneInspector/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SceneInspector/it

@@ -28,5 +28,7 @@ The <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> **Draft
 
 -   For more information about organizing your model see [Document structure](Document_structure.md) and [Arch tutorial](Arch_tutorial#Organizing_your_model.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddNamedGroup/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddNamedGroup/pl

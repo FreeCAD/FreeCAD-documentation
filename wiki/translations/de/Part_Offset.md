@@ -58,5 +58,7 @@ dieselbe Form mit einem 3D Versatz als SKIN und *gefülltem* Versatz
 
 <img alt="" src=images/PartOffset6.png  style="width:400" height="200px;">
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset/de

@@ -144,5 +144,7 @@ Draft.move(Wall2, FreeCAD.Vector(0, -1000, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/ru

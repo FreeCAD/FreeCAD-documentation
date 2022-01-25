@@ -3,7 +3,7 @@ This category contains python code examples for FreeCAD
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+    
   [Code snippets/de](Code_snippets/de.md)                                                           [Command/de](Command/de.md)                                                                       [Create a FeaturePython object part I/de](Create_a_FeaturePython_object_part_I/de.md)
   [Create a FeaturePython object part II/de](Create_a_FeaturePython_object_part_II/de.md)           [Debugging/de](Debugging/de.md)                                                                   [Dialog creation image and animated GIF/de](Dialog_creation_image_and_animated_GIF/de.md)
   [Dialog creation reading and writing files/de](Dialog_creation_reading_and_writing_files/de.md)   [Dialog creation setting colors/de](Dialog_creation_setting_colors/de.md)                         [Dialog creation with various widgets/de](Dialog_creation_with_various_widgets/de.md)
@@ -23,10 +23,9 @@ This category contains python code examples for FreeCAD
   [Scripted objects saving attributes/de](Scripted_objects_saving_attributes/de.md)                 [Scripted objects with attachment/de](Scripted_objects_with_attachment/de.md)                     [Scripted objects/de](Scripted_objects/de.md)
   [Scripted Parts: Ball Bearing - Part 1/de](Scripted_Parts:_Ball_Bearing_-_Part_1/de.md)           [Scripted Parts: Ball Bearing - Part 2/de](Scripted_Parts:_Ball_Bearing_-_Part_2/de.md)           [Scripting and macros/de](Scripting_and_macros/de.md)
   [Scripts/de](Scripts/de.md)                                                                       [Svg Namespace/de](Svg_Namespace/de.md)                                                           [Topological data scripting/de](Topological_data_scripting/de.md)
-  [Workbench creation/de](Workbench_creation/de.md)                                                                                                                                                           
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+  [Workbench creation/de](Workbench_creation/de.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md)
+
 
 ---
-[documentation index](../README.md) > Category:Python Code/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Python Code/de

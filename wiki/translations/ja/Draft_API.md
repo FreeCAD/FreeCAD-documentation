@@ -89,12 +89,6 @@ Draft.move(myrect, mydistance)
 与えられたオブジェクトのSVG表現を作成します。linemodifier属性はライン幅の（パーセント単位の）拡大縮小率で、textmodifierはテキストサイズ用です。またオプションで投影面を定義するベクトルのタプルを指定できますが、指定しない場合はジオメトリーはXY平面に投影されます。|与えられたオブジェクトのSVG表現が入った文字列}}
 
 
- 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > [Draft](Draft_Workbench.md) > Draft API/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Draft](Draft_Workbench.md) > Draft API/ja

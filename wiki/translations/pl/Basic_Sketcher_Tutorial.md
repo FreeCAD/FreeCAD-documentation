@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/pl
+   Topic: Szkicownik
+   Level: początkujący
+   Time: 60 minut
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] oraz vocx
+   FCVersion:0.19 lub nowszy
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Basic Sketcher tutorial updated]
+---
+
 # Basic Sketcher Tutorial/pl
-{{TutorialInfo/pl
-|Topic= Szkicownik
-|Level= początkujący
-|Time= 60 minut
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] oraz vocx
-|FCVersion=0.19 lub nowszy
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Basic Sketcher tutorial updated]
-}}
+
+
+
+
 
 ### Wprowadzenie
 
@@ -298,11 +304,9 @@ Ograniczenie szkicu może być wykonane na wiele różnych sposobów. Ogólnie r
 -   Spróbuj użyć innej geometrii konstrukcji.
 
 
-{{Tutorials navi
+ {{Sketcher Tools navi}}
 
-}} {{Sketcher Tools navi}} 
 
-[<img src="images/Property.png" style="width:16px"> Sketcher/pl](<img src="images/Property.png" style="width:16px"> Sketcher/pl.md)
 
 ---
-[documentation index](../README.md) > Basic Sketcher Tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/pl

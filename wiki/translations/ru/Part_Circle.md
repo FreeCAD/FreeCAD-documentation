@@ -32,5 +32,7 @@
 
 -    {{Parameter|Угол(Angle) 1}}: окончание изогнутого ребра (в градусах и в направлении против часовой стрелки), значение по умолчанию - 360
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/ru

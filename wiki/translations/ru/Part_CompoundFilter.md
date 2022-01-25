@@ -77,5 +77,7 @@ CompoundFilter можно использовать для извлечения �
 
 -    **items**: список или диапазон элементов, которые нужно выбрать, если тип фильтра - «specific items».
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/ru

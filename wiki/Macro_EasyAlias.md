@@ -171,5 +171,7 @@ for ci in cellIndices:
 App.ActiveDocument.recompute()
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro EasyAlias
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro EasyAlias

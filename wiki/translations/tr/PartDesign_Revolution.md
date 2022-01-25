@@ -31,7 +31,7 @@
 
 When creating a revolution, the **Revolution parameters** dialogue offers several parameters specifying how the sketch should be revolved.
 
-+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/partdesign_revolution_parameters.png ) | ### Axis                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                                  | This option specifies the axis about which the sketch is to be revolved.                                                                                                                                                                                                                                                                                                    |
@@ -54,7 +54,7 @@ When creating a revolution, the **Revolution parameters** dialogue offers severa
 |                                                                                  | ### Reversed                                                                                                                                                                                                                                                                                                                                                                |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                                  | If checked, the direction of revolution is reversed from default clockwise to counterclockwise.                                                                                                                                                                                                                                                                             |
-+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ## Properties
 
@@ -86,5 +86,7 @@ A [detailed example of use](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/tr

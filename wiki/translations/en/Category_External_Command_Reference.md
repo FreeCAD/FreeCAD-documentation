@@ -1,9 +1,9 @@
 # Category:External Command Reference/en
-This categorizes all **external** workbench commands separate from the internal [:<img src="images/Property.png" style="width:16px"> Command\_Reference/en](:<img src="images/Property.png" style="width:16px"> Command_Reference/en.md)
+This categorizes all **external** workbench commands separate from the internal [:Category:Command\_Reference/en](:Category:Command_Reference/en.md)
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+    
   [Arch Rebar BOM/en](Arch_Rebar_BOM/en.md)                               [Arch Rebar Dimensioning/en](Arch_Rebar_Dimensioning/en.md)                         [Arch Rebar Drawing Dimensioning/en](Arch_Rebar_Drawing_Dimensioning/en.md)
   [Arch Rebar Drawing/en](Arch_Rebar_Drawing/en.md)                       [Arch Rebar/en](Arch_Rebar/en.md)                                                   [BIM Views/en](BIM_Views/en.md)
   [BIM Windows/en](BIM_Windows/en.md)                                     [CurvedShapes CurvedArray/en](CurvedShapes_CurvedArray/en.md)                       [Curves CompressionSpring/en](Curves_CompressionSpring/en.md)
@@ -29,8 +29,9 @@ This categorizes all **external** workbench commands separate from the internal 
   [SheetMetal AddFoldWall/en](SheetMetal_AddFoldWall/en.md)               [SheetMetal AddJunction/en](SheetMetal_AddJunction/en.md)                           [SheetMetal AddRelief/en](SheetMetal_AddRelief/en.md)
   [SheetMetal AddWall/en](SheetMetal_AddWall/en.md)                       [SheetMetal Examples/en](SheetMetal_Examples/en.md)                                 [SheetMetal Extrude/en](SheetMetal_Extrude/en.md)
   [SheetMetal Forming/en](SheetMetal_Forming/en.md)                       [SheetMetal SketchOnSheet/en](SheetMetal_SketchOnSheet/en.md)                       [SheetMetal UnattendedUnfold/en](SheetMetal_UnattendedUnfold/en.md)
-  [SheetMetal Unfold/en](SheetMetal_Unfold/en.md)                         [SheetMetal Workbench/en](SheetMetal_Workbench/en.md)                               
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+  [SheetMetal Unfold/en](SheetMetal_Unfold/en.md)                         [SheetMetal Workbench/en](SheetMetal_Workbench/en.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:External Command Reference/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Command Reference/en

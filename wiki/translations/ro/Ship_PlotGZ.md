@@ -17,5 +17,7 @@ De făcut
 
 {{Ship_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > Ship PlotGZ/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship PlotGZ/ro

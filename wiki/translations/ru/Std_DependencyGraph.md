@@ -93,9 +93,9 @@ You can save a dependency graph:
 
 {{Std Base navi
 
-}}  
+}}
 
-[<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md)
+
 
 ---
-[documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Std DependencyGraph/ru

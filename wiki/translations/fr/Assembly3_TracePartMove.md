@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Assembly_Trace.svg  style="width:24px;"> [Tra
     -   Le bouton **<img src="images/Assembly_Trace.svg" width=16px> [Trace part move](Assembly3_TracePartMove/fr.md)**.
     -   L\'option de menu **Assembly3 → <img src="images/Assembly_Trace.svg" width=16px> Trace part move**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 TracePartMove/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 TracePartMove/fr

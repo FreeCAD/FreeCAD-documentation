@@ -43,5 +43,7 @@ Der PartDesign Arbeitsbereich in FreeCAD v0.17 enthält neue Werkzeuge und Eleme
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/de

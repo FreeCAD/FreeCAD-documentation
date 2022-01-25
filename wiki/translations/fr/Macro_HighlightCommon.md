@@ -34,5 +34,7 @@ Le code est visible sur Github : [Utility/HighlightCommon.FCMacro](https://githu
 -   Mon blog [Linux for an engineer](http://linuxforanengineer.blogspot.com.es/) pour le code et d\'autres macros intéressantes pour FreeCAD
 -   La discussion sur le forum [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 
+
+
 ---
-[documentation index](../README.md) > Macro HighlightCommon/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro HighlightCommon/fr

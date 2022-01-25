@@ -3,7 +3,7 @@ Pages relating to Architectural and Building Information Management
 
 ### Contents:
 
-  ------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------
+    
   [Arch 3Views/ro](Arch_3Views/ro.md)                               [Arch Add/ro](Arch_Add/ro.md)                                                                       [Arch API/ro](Arch_API/ro.md)
   [Arch Axis/ro](Arch_Axis/ro.md)                                   [Arch AxisSystem/ro](Arch_AxisSystem/ro.md)                                                         [Arch Building/ro](Arch_Building/ro.md)
   [Arch BuildingPart/ro](Arch_BuildingPart/ro.md)                   [Arch Check/ro](Arch_Check/ro.md)                                                                   [Arch CloneComponent/ro](Arch_CloneComponent/ro.md)
@@ -22,10 +22,9 @@ Pages relating to Architectural and Building Information Management
   [Arch ToggleSubs/ro](Arch_ToggleSubs/ro.md)                       [Arch tutorial/ro](Arch_tutorial/ro.md)                                                             [Arch Wall/ro](Arch_Wall/ro.md)
   [Arch Window/ro](Arch_Window/ro.md)                               [Arch Workbench/ro](Arch_Workbench/ro.md)                                                           [BIM Library/ro](BIM_Library/ro.md)
   [Custom Spacing/ro](Custom_Spacing/ro.md)                         [Import/Export IFC - compiling IfcOpenShell/ro](Import/Export_IFC_-_compiling_IfcOpenShell/ro.md)   [Manual:BIM modeling/ro](Manual:BIM_modeling/ro.md)
-  [Material editor/ro](Material_editor/ro.md)                                                                                                                                   
-  ------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------
+  [Material editor/ro](Material_editor/ro.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/ro](<img src="images/Property.png" style="width:16px"> User_Documentation/ro.md) [<img src="images/Property.png" style="width:16px"> BIM/ro](<img src="images/Property.png" style="width:16px"> BIM/ro.md) [<img src="images/Property.png" style="width:16px"> Reinforcement/ro](<img src="images/Property.png" style="width:16px"> Reinforcement/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:Arch/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch/ro

@@ -16,9 +16,9 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md)
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Artwork Arch/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > Artwork Arch/pl

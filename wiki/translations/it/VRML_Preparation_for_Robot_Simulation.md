@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/it
+   Topic:Robot
+   Level:Intermedio
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # VRML Preparation for Robot Simulation/it
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it
-|Topic=Robot
-|Level=Intermedio
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -52,7 +58,7 @@ I nomi delle forme sono attribuiti in modo correlativo da FreeCAD, (dato che per
 </div>
 
   nome FreeCAD   nome STEP
-  -------------- ------------------------------
+   
   TX40\_HB       HORIZONTAL BASE CABLE OUTLET
   TX40\_HB001    SHOULDER
   TX40\_HB002    ARM
@@ -79,7 +85,7 @@ Notare che la **Tabella DH** è necessaria solo quando si ha bisogno di usare la
 La **Tabella DH** per questo robot è la seguente **(mm, gradi e gradi/s)** :
 
   i   d     θ         r     α     θmin   θmax    Axis velocity
-  --- ----- --------- ----- ----- ------ ------- ---------------
+  ---       
   1   320   q1        0     -90   -180   180     555
   2   35    q2 - 90   225   0     -125   125     475
   3   0     q3 + 90   0     90    -138   138     585
@@ -457,9 +463,5 @@ Ecco un patch per ottenere il file VRML adatto per la simulazione del robot:
 
 
 
-
-
-[<img src="images/Property.png" style="width:16px"> Robot](Category_Robot.md)
-
 ---
-[documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/it

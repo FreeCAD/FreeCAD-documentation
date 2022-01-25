@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic: Conception de produit
+   Level: Avancé
+   Time: 60 minutes
+   Author:[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Updated: Thread for screw tutorial]
+---
+
 # Thread for Screw Tutorial/fr
-{{TutorialInfo/fr
-|Topic= Conception de produit
-|Level= Avancé
-|Time= 60 minutes
-|Author=[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Updated: Thread for screw tutorial]
-}}
+
+
+
+
 
 ## Introduction
 
@@ -235,7 +241,9 @@ Les filets ISO et autres ont été allégés, c\'est-à-dire que les bords inté
 
 ![761PX](images/Threadform.PNG )
 
-Cette méthode produit des solides fiables qui \"booléen\" correctement. Bien qu\'il ne produise pas de filetage de vis \"paramétrique\" dans les tailles standard, c\'est-à-dire qu\'il permet d\'accéder facilement à la forme par taille de fixation, il constitue un moyen simple de produire une bibliothèque précise à réutiliser, ainsi que des modèles de formes spécialisées telles que ACME ou des vis Archimédien. , sont également simples comme des one-offs. {{Tutorials navi}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+Cette méthode produit des solides fiables qui \"booléen\" correctement. Bien qu\'il ne produise pas de filetage de vis \"paramétrique\" dans les tailles standard, c\'est-à-dire qu\'il permet d\'accéder facilement à la forme par taille de fixation, il constitue un moyen simple de produire une bibliothèque précise à réutiliser, ainsi que des modèles de formes spécialisées telles que ACME ou des vis Archimédien. , sont également simples comme des one-offs.   {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > Thread for Screw Tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Thread for Screw Tutorial/fr

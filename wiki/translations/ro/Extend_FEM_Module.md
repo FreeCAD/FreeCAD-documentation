@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ro
+   Topic: 
+   Level: 
+   Time: 
+   Author:[M42kus](User_M42kus.md)
+   FCVersion:
+   Files:
+---
+
 # Extend FEM Module/ro
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro
-|Topic= 
-|Level= 
-|Time= 
-|Author=[M42kus](User_M42kus.md)
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -202,7 +208,7 @@ Adăugarea de noi constrângeri este destul de simplă. Pentru nou-veniți, exis
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
+
 
 ---
-[documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/ro

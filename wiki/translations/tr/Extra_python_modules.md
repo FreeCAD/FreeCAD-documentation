@@ -23,7 +23,7 @@ The simplest way to install PySide is through your distribution\'s package manag
 
 #### Windows
 
-The program can be downloaded from <http://qt-project.org/wiki/<img src="images/Property.png" style="width:16px"> LanguageBindings>::PySide::Downloads . You\'ll need to install the Qt and SIP libraries before installing PySide (to be documented).
+The program can be downloaded from <http://qt-project.org/wiki/Category:LanguageBindings>::PySide::Downloads . You\'ll need to install the Qt and SIP libraries before installing PySide (to be documented).
 
 #### MacOSX
 
@@ -702,11 +702,5 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
 
 
-
-
- 
-
-[<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Python Code](Category_Python Code.md) > Extra python modules/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Python Code](Category_Python Code.md) > [Developer Documentation](Category_Developer Documentation.md) > Extra python modules/tr

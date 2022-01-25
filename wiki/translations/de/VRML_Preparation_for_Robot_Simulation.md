@@ -24,7 +24,7 @@ Das Tutorium basiert auf einer STEP Datei eines Stäubli TX40 (TX40-HB.stp). Du 
 Beachte, dass der Roboter beim Import aus 8 Formen besteht, die sich direkt an der Wurzel des Dokumentenbaums befinden. Die Struktur der exportierten VRML Datei kann sich ändern, wenn Gruppen verwendet werden. Die Formen sind von der Basis bis zum Werkzeug geordnet. Die letzte Form enthält die Drehachsen aller Roboterachsen. Die Korrelation Formname - Teilename Teilname wird erteilt durch (vorläufig (März 2011) importiert FreeCAD die in STEP Dateien enthaltenen Namen nicht):
 
   FreeCAD name   STEP name
-  -------------- ------------------------------
+   
   TX40\_HB       HORIZONTAL BASE CABLE OUTLET
   TX40\_HB001    SHOULDER
   TX40\_HB002    ARM
@@ -41,7 +41,7 @@ Beachte, dass der Roboter beim Import aus 8 Formen besteht, die sich direkt an d
 Um die Denavit-Hartenberg Tabelle zu erstellen (siehe [Roboter 6-Achsen](Robot_6-Axis/de.md)) und die vrml Datei vorzubereiten, musst du die Eigenschaften des Roboters ermitteln. Im Moment ist das Messwerkzeug von FreeCAD noch nicht fertig, du kannst die in TX40\_HB007 enthaltenen Achsen verwenden (die Koordinaten werden unten links angezeigt, wenn du mit der Maus auf ein Objekt zeigst) oder du musst die Python Konsole verwenden, um einige Informationen über die Geometrie zu erhalten. Beachte, dass die DH-Tabelle nur erforderlich ist, wenn du die inverse Kinematik verwenden musst, d.h. bekomme die kartesischen Koordinaten oder steuere den Roboter mit kartesischen Koordinaten. Die DH-Tabelle für diesen Roboter ist die folgende (mm, Grad und Grad/s):
 
   i   d     θ         r     α     θmin   θmax    Achsgeschwindikeit
-  --- ----- --------- ----- ----- ------ ------- --------------------
+  ---       
   1   320   q1        0     -90   -180   180     555
   2   35    q2 - 90   225   0     -125   125     475
   3   0     q3 + 90   0     90    -138   138     585
@@ -379,9 +379,5 @@ Group {
 
 
 
-
-
-[<img src="images/Property.png" style="width:16px"> Robot](Category_Robot.md)
-
 ---
-[documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/de

@@ -33,5 +33,7 @@ The image is placed in a new viewport, not in the 3D view.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/es

@@ -3,9 +3,10 @@ This category lists all existing Preference menus of different FreeCAD workbench
 
 ### Contents:
 
-  -----------------------------------------------------------
+  
   [Preferences Editor/bg](Preferences_Editor/bg.md)
-  -----------------------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:Preferences/bg
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Preferences/bg

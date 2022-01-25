@@ -24,5 +24,7 @@ Te obrazy są większe niż ikony.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Gui/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Gui/pl

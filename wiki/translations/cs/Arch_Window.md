@@ -259,11 +259,5 @@ Door = Arch.makeWindowPreset("Simple door",
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Arch/cs](<img src="images/Property.png" style="width:16px"> Arch/cs.md)
-
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/cs

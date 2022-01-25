@@ -1,5 +1,7 @@
 # List of Commands/id
-1.  REDIRECT [:<img src="images/Property.png" style="width:16px"> Command Reference/id](:<img src="images/Property.png" style="width:16px"> Command_Reference/id.md)
+1.  REDIRECT [:Category:Command Reference/id](:Category:Command_Reference/id.md)
+
+
 
 ---
-[documentation index](../README.md) > List of Commands/id
+![](images/Right_arrow.png) [documentation index](../README.md) > List of Commands/id

@@ -33,7 +33,5 @@ Esta plantilla establece las directrices para el proyecto de desarrollo de FreeC
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template/es

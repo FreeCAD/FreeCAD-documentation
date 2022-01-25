@@ -66,5 +66,7 @@ new_list = Arch.splitMesh(mesh_obj)
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/pt-br

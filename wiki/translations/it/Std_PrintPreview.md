@@ -44,5 +44,7 @@ Il comando **Anteprima di stampa** mostra un\'anteprima del risultato del comand
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std PrintPreview/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPreview/it

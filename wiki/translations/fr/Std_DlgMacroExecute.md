@@ -113,5 +113,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgMacroExecute/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecute/fr

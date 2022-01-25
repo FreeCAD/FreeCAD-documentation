@@ -27,9 +27,9 @@ Dans un sens plus spécifique, une \"entité\" est une étape de modélisation u
 
 {{PartDesign Tools navi
 
-}}  {{Document objects navi}} 
+}}  {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Feature/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Feature/fr

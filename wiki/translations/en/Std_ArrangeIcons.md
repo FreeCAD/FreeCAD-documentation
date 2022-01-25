@@ -21,5 +21,7 @@ The **Std ArrangeIcons** command does not work properly. It has the same effect 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ArrangeIcons/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ArrangeIcons/en

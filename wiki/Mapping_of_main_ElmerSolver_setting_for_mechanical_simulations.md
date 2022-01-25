@@ -42,9 +42,9 @@ Since the integration of external solvers is a huge area in constant evolution, 
 
 Medium
 
-### Additional Information 
+### Additional Information
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > Mapping of main ElmerSolver setting for mechanical simulations
+![](images/Right_arrow.png) [documentation index](../README.md) > Mapping of main ElmerSolver setting for mechanical simulations

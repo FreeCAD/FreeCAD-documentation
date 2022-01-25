@@ -85,5 +85,7 @@ Si \"Frenet\" est à \"true\", l\'orientation du profil est calculée à partir 
 
 -   Puisque la fonction Balayage est souvent utilisée pour créer des filets de vis, nous vous suggérons la lecture du [Tutoriel création de vis](Thread_for_Screw_Tutorial/fr.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/fr

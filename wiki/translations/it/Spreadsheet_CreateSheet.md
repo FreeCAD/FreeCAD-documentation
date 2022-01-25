@@ -30,5 +30,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/it

@@ -21,5 +21,7 @@ Sur la base de l\'ICS d\'un élément plan, les origines des ICS des deux autres
 3.  Sélectionnez un élément planaire de l\'autre objet.
 4.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintGeneral.svg" width=16px> [Symmetric vertical](Assembly3_ConstraintSymmetricVertical/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/fr

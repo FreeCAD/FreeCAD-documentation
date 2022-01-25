@@ -3,7 +3,7 @@ This category gathers documentation article mostly aimed at programmers
 
 ### Contents:
 
-  --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- -------------------------------------------------------------------------
+    
   [AppImage/pt-br](AppImage/pt-br.md)                                       [Artwork Guidelines/pt-br](Artwork_Guidelines/pt-br.md)                   [Artwork/pt-br](Artwork/pt-br.md)
   [Branding/pt-br](Branding/pt-br.md)                                       [Bug Triage/pt-br](Bug_Triage/pt-br.md)                                   [Command/pt-br](Command/pt-br.md)
   [Compile on Docker/pt-br](Compile_on_Docker/pt-br.md)                     [Compile on Linux/pt-br](Compile_on_Linux/pt-br.md)                       [Compile on MacOS/pt-br](Compile_on_MacOS/pt-br.md)
@@ -19,10 +19,9 @@ This category gathers documentation article mostly aimed at programmers
   [Scripted objects/pt-br](Scripted_objects/pt-br.md)                       [Scripting and macros/pt-br](Scripting_and_macros/pt-br.md)               [Source code management/pt-br](Source_code_management/pt-br.md)
   [Source documentation/pt-br](Source_documentation/pt-br.md)               [Start up and Configuration/pt-br](Start_up_and_Configuration/pt-br.md)   [Testing/pt-br](Testing/pt-br.md)
   [The FreeCAD source code/pt-br](The_FreeCAD_source_code/pt-br.md)         [Third Party Libraries/pt-br](Third_Party_Libraries/pt-br.md)             [Third Party Tools/pt-br](Third_Party_Tools/pt-br.md)
-  [Topological data scripting/pt-br](Topological_data_scripting/pt-br.md)   [Tracker/pt-br](Tracker/pt-br.md)                                         
-  --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- -------------------------------------------------------------------------
+  [Topological data scripting/pt-br](Topological_data_scripting/pt-br.md)   [Tracker/pt-br](Tracker/pt-br.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/pt-br](<img src="images/Property.png" style="width:16px"> Documentation/pt-br.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/pt-br

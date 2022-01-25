@@ -142,9 +142,6 @@ These are additional tools to help you in specific tasks.
 {{docnav/uk|[Workbenches/uk](Workbenches/uk.md)|[Draft Workbench/uk](Draft_Workbench/uk.md)|IconL=|IconR=Workbench_Draft.svg}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/uk
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Arch](Category_Arch.md) > Arch Workbench/uk

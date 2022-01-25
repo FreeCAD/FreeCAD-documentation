@@ -36,5 +36,7 @@ La copie reste liée avec le chemin original. Si l\'original change, la copie au
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/fr

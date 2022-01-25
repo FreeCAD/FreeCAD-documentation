@@ -36,5 +36,7 @@ for wire in wires:
     FreeCAD.ActiveDocument.removeObject(wire.Name)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro FaceToSketch/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FaceToSketch/de

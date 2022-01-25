@@ -84,5 +84,7 @@ Asciidoctor est un processeur de texte open-source rapide pour la conversion d\'
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity/fr

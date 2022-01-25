@@ -3,7 +3,7 @@ This category lists pages related to the [Sketcher Workbench/hr](Sketcher_Workbe
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+    
   [Basic Part Design Tutorial/hr](Basic_Part_Design_Tutorial/hr.md)                                 [Sketcher CarbonCopy/hr](Sketcher_CarbonCopy/hr.md)                         [Sketcher Clone/hr](Sketcher_Clone/hr.md)
   [Sketcher CloseShape/hr](Sketcher_CloseShape/hr.md)                                               [Sketcher ConnectLines/hr](Sketcher_ConnectLines/hr.md)                     [Sketcher Copy/hr](Sketcher_Copy/hr.md)
   [Sketcher CreateArc/hr](Sketcher_CreateArc/hr.md)                                                 [Sketcher CreateCircle/hr](Sketcher_CreateCircle/hr.md)                     [Sketcher CreateFillet/hr](Sketcher_CreateFillet/hr.md)
@@ -15,10 +15,9 @@ This category lists pages related to the [Sketcher Workbench/hr](Sketcher_Workbe
   [Sketcher RestoreInternalAlignmentGeometry/hr](Sketcher_RestoreInternalAlignmentGeometry/hr.md)   [Sketcher SelectConstraints/hr](Sketcher_SelectConstraints/hr.md)           [Sketcher StopOperation/hr](Sketcher_StopOperation/hr.md)
   [Sketcher Symmetry/hr](Sketcher_Symmetry/hr.md)                                                   [Sketcher Trimming/hr](Sketcher_Trimming/hr.md)                             [Sketcher Tutorial/hr](Sketcher_Tutorial/hr.md)
   [Sketcher ValidateSketch/hr](Sketcher_ValidateSketch/hr.md)                                       [Sketcher ViewSection/hr](Sketcher_ViewSection/hr.md)                       [Sketcher ViewSketch/hr](Sketcher_ViewSketch/hr.md)
-  [Sketcher Workbench/hr](Sketcher_Workbench/hr.md)                                                                                                                                     
-  --------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+  [Sketcher Workbench/hr](Sketcher_Workbench/hr.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/hr](<img src="images/Property.png" style="width:16px"> Workbenches/hr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Sketcher/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sketcher/hr

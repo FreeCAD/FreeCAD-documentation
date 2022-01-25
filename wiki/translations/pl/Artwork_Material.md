@@ -14,5 +14,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Material/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Material/pl

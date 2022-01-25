@@ -22,5 +22,7 @@ Le décalage de leurs axes z et l\'angle entre leurs axes x (et y également) ne
 2.  Sélectionnez un élément de face planaire de chaque objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintAlignment.svg" width=16px>[Alignment](Assembly3_ConstraintAlignment/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintAlignment/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAlignment/fr

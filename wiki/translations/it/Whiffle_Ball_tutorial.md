@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/it
+   Topic: Whiffle Ball (Modulo Part)
+   Level: Base
+   Time:
+   Author:r-frank
+   FCVersion:0.16.6703
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true WhiffleBall_Tutorial_FCWiki.FCStd]
+---
+
 # Whiffle Ball tutorial/it
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it
-|Topic= Whiffle Ball (Modulo Part)
-|Level= Base
-|Time=
-|Author=r-frank
-|FCVersion=0.16.6703
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true WhiffleBall_Tutorial_FCWiki.FCStd]
-}}
 
 
 </div>
@@ -418,9 +424,6 @@ Se tutto è andato bene, il modello dovrebbe assomigliare a questo:
 *Final whiffle ball model with fillets applied to the edges.*
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Whiffle Ball tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Whiffle Ball tutorial/it

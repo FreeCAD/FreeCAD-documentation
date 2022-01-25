@@ -39,5 +39,7 @@ The <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [Curves Jo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves JoinCurve/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves JoinCurve/it

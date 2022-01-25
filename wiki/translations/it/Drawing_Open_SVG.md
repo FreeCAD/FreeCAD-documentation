@@ -38,5 +38,7 @@ Questo strumento apre un foglio di disegno salvato in precedenza come file SVG (
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Open SVG/it

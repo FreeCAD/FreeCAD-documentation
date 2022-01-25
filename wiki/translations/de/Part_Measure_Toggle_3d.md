@@ -47,5 +47,7 @@ Dieses Werkzeug schaltet die Sichtbarkeit von linearen (rot) und Winkel (blau) M
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3d/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3d/de

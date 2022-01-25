@@ -3,7 +3,7 @@ This category contains articles that are relevant for developers.
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------- -----------------------------------------------------------
+    
   [Changelog/pl](Changelog/pl.md)                                               [Compile on Docker/pl](Compile_on_Docker/pl.md)                                         [Compile on Linux/pl](Compile_on_Linux/pl.md)
   [Compile on MacOS/pl](Compile_on_MacOS/pl.md)                                 [Compile on MinGW/pl](Compile_on_MinGW/pl.md)                                           [Compile on Windows/pl](Compile_on_Windows/pl.md)
   [Compiling (Speeding up)/pl](Compiling_(Speeding_up)/pl.md)                   [Compiling/pl](Compiling/pl.md)                                                         [Conda/pl](Conda/pl.md)
@@ -12,10 +12,9 @@ This category contains articles that are relevant for developers.
   [File Format FCStd/pl](File_Format_FCStd/pl.md)                               [ImageConv/pl](ImageConv/pl.md)                                                         [InputField/pl](InputField/pl.md)
   [Land Survey Workbench Blueprint/pl](Land_Survey_Workbench_Blueprint/pl.md)   [LGTM/pl](LGTM/pl.md)                                                                   [Material/pl](Material/pl.md)
   [Organization chart/pl](Organization_chart/pl.md)                             [Svg Namespace/pl](Svg_Namespace/pl.md)                                                 [WikiRobots/pl](WikiRobots/pl.md)
-  [Wished tools/pl](Wished_tools/pl.md)                                         [Wrapping a Cplusplus class in Python/pl](Wrapping_a_Cplusplus_class_in_Python/pl.md)   
-  ------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------- -----------------------------------------------------------
+  [Wished tools/pl](Wished_tools/pl.md)                                         [Wrapping a Cplusplus class in Python/pl](Wrapping_a_Cplusplus_class_in_Python/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/pl](<img src="images/Property.png" style="width:16px"> Categories/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer/pl

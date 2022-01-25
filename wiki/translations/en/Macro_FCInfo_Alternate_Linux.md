@@ -45,5 +45,7 @@ Files saved with this macro are incompatible with the files of the other version
 
 Both versions can operate independently of the OS used.
 
+
+
 ---
-[documentation index](../README.md) > Macro FCInfo Alternate Linux/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfo Alternate Linux/en

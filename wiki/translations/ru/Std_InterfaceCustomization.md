@@ -1,5 +1,7 @@
 # Std InterfaceCustomization/ru
 1.  REDIRECT [Interface\_Customization/ru](Interface_Customization/ru.md)
 
+
+
 ---
-[documentation index](../README.md) > Std InterfaceCustomization/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std InterfaceCustomization/ru

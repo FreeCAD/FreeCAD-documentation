@@ -291,5 +291,7 @@ Guarda alternativamente con l\'occhio sinistro e l\'occhio destro per vedere le 
 La genesi della macro **Draft Circle 3 Points** si trova nel forum [(PYTHON) coordonnées d\'un point](http://forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) a cui ha contribuito flachyjoe che ringrazio.
 La formula è presa da [cercle\_3pts.pdf](http://www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) ed utilizzata con il gentile permesso del suo autore.
 
+
+
 ---
-[documentation index](../README.md) > Macro Draft Circle 3 Points/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Draft Circle 3 Points/it

@@ -40,5 +40,7 @@ La commande **Std Sélection par boîte** sélectionne des objets dans une zone 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std BoxSelection/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxSelection/fr

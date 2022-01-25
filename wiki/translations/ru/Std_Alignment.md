@@ -42,5 +42,7 @@ The **Std Alignment** command aligns an object in relation to a fixed reference 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Alignment/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Alignment/ru

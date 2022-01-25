@@ -53,5 +53,7 @@ La vestizione dogbone richiede un segmento di percorso rettilineo (G1) prima e d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupDogbone/it

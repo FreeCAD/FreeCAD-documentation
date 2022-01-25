@@ -35,5 +35,7 @@ This page is to help find solutions to problems that can occur across multiple m
 -   Cause: OCC call fails. The selection(s) made to define your command are incorrect or lead to a case that is not handled by OCC.
 -   Solution: Try using different selections for command or using a different command.
 
+
+
 ---
-[documentation index](../README.md) > Troubleshooting models
+![](images/Right_arrow.png) [documentation index](../README.md) > Troubleshooting models

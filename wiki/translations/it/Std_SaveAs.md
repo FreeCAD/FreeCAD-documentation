@@ -63,5 +63,7 @@ Per salvare un documento con un nuovo nome, utilizzare il metodo `saveAs` dell\'
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SaveAs/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SaveAs/it

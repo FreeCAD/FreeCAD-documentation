@@ -40,9 +40,6 @@ Travailler à travers toutes les commandes et établir une documentation :
 {{Special:WhatLinksHere/Template:UnfinishedDocu/fr}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Quality project/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Quality project/fr

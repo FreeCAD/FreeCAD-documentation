@@ -34,5 +34,7 @@ L\'outil <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="w
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleBottom/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionThreadHoleBottom/fr

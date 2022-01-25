@@ -41,6 +41,9 @@ When using the Arch OBJ exporter, all equipment objects that are in mesh display
 
 -    **Mesh**: A [Mesh](Mesh_Workbench.md) representation to use for this equipment. When set, the **Mesh** display mode becomes available.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Программирование
 
 
@@ -48,7 +51,15 @@ When using the Arch OBJ exporter, all equipment objects that are in mesh display
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Equipment tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+The Equipment tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 ```
@@ -70,5 +81,7 @@ Equip = Arch.makeEquipment(Box)
 FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/ru

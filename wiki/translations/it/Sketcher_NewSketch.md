@@ -68,5 +68,7 @@ Lo schizzo può essere spostato nella [vista 3D](3D_view/it.md) utilizzando [Pos
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/it

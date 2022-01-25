@@ -58,5 +58,7 @@ If no offset is given to the image initially, its position can still be adjusted
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/pt-br

@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/zh-tw
+   Topic:草圖
+   Level:初學者
+   Time:60分鐘
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] 及 vocx
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 草圖基本教學檔案更新]
+---
+
 # Basic Sketcher Tutorial/zh-tw
-{{TutorialInfo/zh-tw
-|Topic=草圖
-|Level=初學者
-|Time=60分鐘
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] 及 vocx
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 草圖基本教學檔案更新]
-}}
+
+
+
+
 
 簡介
 
@@ -301,9 +307,9 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 -   Try using other construction geometry.
 
 
-{{Tutorials navi
+ {{Sketcher Tools navi}}
 
-}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Basic Sketcher Tutorial/zh-tw
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/zh-tw

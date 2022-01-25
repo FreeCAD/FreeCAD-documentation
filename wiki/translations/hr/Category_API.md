@@ -5,11 +5,10 @@ This category gathers articles that list objects and methods available for [Pyth
 
 ### Contents:
 
-  ---------------------------------------
+  
   [Arch API/hr](Arch_API/hr.md)
-  ---------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Categories/hr](<img src="images/Property.png" style="width:16px"> Categories/hr.md)
+
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Category:API/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Category:API/hr

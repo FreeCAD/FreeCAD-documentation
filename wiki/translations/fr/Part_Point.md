@@ -22,7 +22,7 @@ Une primitive géométrique point (vertex).
 
 ### Primitives Geometriques 
 
-+------------------------------------------------------------------------------+---------------------+
++++
 | ![](images/PartVertexPrimitivesOptions_it.png ) | Point               |
 |                                                                              |                     |
 |                                                                              | #### Parameter      |
@@ -44,11 +44,11 @@ Une primitive géométrique point (vertex).
 |                                                                              | -                   |
 |                                                                              | -                   |
 |                                                                              | -                   |
-+------------------------------------------------------------------------------+---------------------+
++++
 
 ### Propriétés
 
-+------------------------------------------------------------+--------------------------------------------+
++++
 | ![](images/PartVertexProperty_it.png ) | #### Vue                                   |
 |                                                            |                                            |
 |                                                            | #### Données                               |
@@ -80,7 +80,7 @@ Une primitive géométrique point (vertex).
 |                                                            |     {{PropertyData/fr|Z}}                  |
 |                                                            |                                         |
 |                                                            |     :                                      |
-+------------------------------------------------------------+--------------------------------------------+
++++
 
 
 
@@ -90,5 +90,7 @@ Une primitive géométrique point (vertex).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/fr

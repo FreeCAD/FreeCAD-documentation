@@ -20,7 +20,7 @@ Allows the user to create a Geneva wheel mechanism from scratch. Must edit value
 
 This Macro creates the main parts of a Geneva Wheel Mechanism. It depends on six values that must be altered in the code, read the comments in the code. The variables are:
 
-+------------------------------+----------------------------------+
++++
 | Input                        | Output                           |
 +==============================+==================================+
 | -   a = Drive Crank Radius   | -   c = Distance Between Centers |
@@ -29,7 +29,7 @@ This Macro creates the main parts of a Geneva Wheel Mechanism. It depends on six
 | -   p = Drive Pin Diameter   | -   y = Stop Arc Radius          |
 | -   t = Tolerance            | -   z = Stop Disc Radius         |
 | -   h = Height               | -   v = Clearance Arc            |
-+------------------------------+----------------------------------+
++++
 
 ## Link
 
@@ -147,5 +147,7 @@ Part.show(driveCrank)
 Part.show(genevaWheel)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Geneva Wheel/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Geneva Wheel/en

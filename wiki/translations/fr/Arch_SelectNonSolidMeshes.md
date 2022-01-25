@@ -18,5 +18,7 @@ Cet outil identifie et sélectionne les objets mailles non solides (non-[manifol
 1.  Sélectionnez un objet mesh.
 2.  Cliquez sur le bouton **<img src="images/Arch_SelectNonManifold.svg" width=24px> [Selectionner les solides non manifold](Arch_SelectNonSolidMeshes/fr.md)** ou par **Arch → Utilitaires → Selectionner les solides non manifold**.
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/fr

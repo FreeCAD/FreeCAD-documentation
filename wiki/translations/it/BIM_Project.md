@@ -32,5 +32,7 @@ Dopo aver riempito le diverse opzioni, il contenuto della procedura guidata di i
 
 In alternativa, si può salvare il contenuto del documento corrente come modello. Ciò salva il documento attualmente aperto come un file standard **.FCStd**, ma include anche le impostazioni BIM aggiuntive come il piano di lavoro corrente o le unità correnti. Utilizzando in qualsiasi momento l\'opzione **ripristina**, il contenuto di quel file modello verrà unito al documento attivo e verranno applicate tutte le impostazioni in esso contenute.
 
+
+
 ---
-[documentation index](../README.md) > BIM Project/it
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Project/it

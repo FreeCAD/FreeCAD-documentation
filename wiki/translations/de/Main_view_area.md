@@ -20,5 +20,7 @@ Die Fenster im Hauptansichtsbereich können mit Befehlen im Menü [Windows Menü
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Main view area/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Main view area/de

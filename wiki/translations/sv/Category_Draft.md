@@ -3,7 +3,7 @@ This category list pages related to the \"User\_Documentation/sv\" and \"Workben
 
 ### Contents:
 
-  --------------------------------------------------------------------- ------------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
   [Draft AddToGroup/sv](Draft_AddToGroup/sv.md)                 [Draft API/sv](Draft_API/sv.md)                                         [Draft ApplyStyle/sv](Draft_ApplyStyle/sv.md)
   [Draft Arc/sv](Draft_Arc/sv.md)                               [Draft Array/sv](Draft_Array/sv.md)                                     [Draft BezCurve/sv](Draft_BezCurve/sv.md)
   [Draft BSpline/sv](Draft_BSpline/sv.md)                       [Draft Circle/sv](Draft_Circle/sv.md)                                   [Draft Clone/sv](Draft_Clone/sv.md)
@@ -20,10 +20,9 @@ This category list pages related to the \"User\_Documentation/sv\" and \"Workben
   [Draft Text/sv](Draft_Text/sv.md)                             [Draft ToggleConstructionMode/sv](Draft_ToggleConstructionMode/sv.md)   [Draft ToggleContinueMode/sv](Draft_ToggleContinueMode/sv.md)
   [Draft ToggleDisplayMode/sv](Draft_ToggleDisplayMode/sv.md)   [Draft ToggleGrid/sv](Draft_ToggleGrid/sv.md)                           [Draft Trimex/sv](Draft_Trimex/sv.md)
   [Draft tutorial/sv](Draft_tutorial/sv.md)                     [Draft Upgrade/sv](Draft_Upgrade/sv.md)                                 [Draft Wire/sv](Draft_Wire/sv.md)
-  [Draft WireToBSpline/sv](Draft_WireToBSpline/sv.md)           [Draft Workbench/sv](Draft_Workbench/sv.md)                             
-  --------------------------------------------------------------------- ------------------------------------------------------------------------------- -----------------------------------------------------------------------
+  [Draft WireToBSpline/sv](Draft_WireToBSpline/sv.md)           [Draft Workbench/sv](Draft_Workbench/sv.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/sv](<img src="images/Property.png" style="width:16px"> User_Documentation/sv.md) [<img src="images/Property.png" style="width:16px"> Workbenches/sv](<img src="images/Property.png" style="width:16px"> Workbenches/sv.md)
+
 
 ---
-[documentation index](../README.md) > Category:Draft/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/sv

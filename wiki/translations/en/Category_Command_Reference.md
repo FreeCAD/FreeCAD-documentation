@@ -3,7 +3,7 @@ This category contains the help pages of each of FreeCAD [command/en](command/en
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+    
   [Arch 3Views/en](Arch_3Views/en.md)                                                                             [Arch Add/en](Arch_Add/en.md)                                                                     [Arch Axis/en](Arch_Axis/en.md)
   [Arch AxisSystem/en](Arch_AxisSystem/en.md)                                                                     [Arch Building/en](Arch_Building/en.md)                                                           [Arch BuildingPart/en](Arch_BuildingPart/en.md)
   [Arch Check/en](Arch_Check/en.md)                                                                               [Arch CloneComponent/en](Arch_CloneComponent/en.md)                                               [Arch CloseHoles/en](Arch_CloseHoles/en.md)
@@ -170,10 +170,9 @@ This category contains the help pages of each of FreeCAD [command/en](command/en
   [Part SimpleCopy/en](Part_SimpleCopy/en.md)                                                                     [Part Slice/en](Part_Slice/en.md)                                                                 [Part SliceApart/en](Part_SliceApart/en.md)
   [Part Sphere/en](Part_Sphere/en.md)                                                                             [Part Spiral/en](Part_Spiral/en.md)                                                               [Part Sweep/en](Part_Sweep/en.md)
   [Part Thickness/en](Part_Thickness/en.md)                                                                       [Part Torus/en](Part_Torus/en.md)                                                                 [Part TransformedCopy/en](Part_TransformedCopy/en.md)
-  [Part Tube/en](Part_Tube/en.md)                                                                                 [Part Wedge/en](Part_Wedge/en.md)                                                                 
-  ----------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+  [Part Tube/en](Part_Tube/en.md)                                                                                 [Part Wedge/en](Part_Wedge/en.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/en](<img src="images/Property.png" style="width:16px"> Categories/en.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/en

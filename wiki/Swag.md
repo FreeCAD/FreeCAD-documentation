@@ -45,5 +45,7 @@ Downloadable files:
 
 [freecad-sticker-contour.svg](https://yorik.uncreated.net/images/2021/freecad-sticker-contour.svg) - contour only
 
+
+
 ---
-[documentation index](../README.md) > Swag
+![](images/Right_arrow.png) [documentation index](../README.md) > Swag

@@ -291,8 +291,5 @@ E finalmente, um dos recursos mais poderoso do FreeCAD é o ambiente de [ progra
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/pt](<img src="images/Property.png" style="width:16px"> User_Documentation/pt.md)
-
 ---
-[documentation index](../README.md) > Getting started/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/pt

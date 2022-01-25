@@ -16,7 +16,7 @@ Depuis FreeCAD 0.15, cette fonctionnalité n'est pas disponible directement, mai
 
 ## Options
 
-+-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | <img alt="" src=images/Scaled_parameters.png  style="width:240px;"> | Lorsque vous utilisez la fonction **[16px|text-top=Echelle|link=PartDesign_Scaled/fr](File:PartDesign_Scaled.png.md) [Echelle](PartDesign_Scaled/fr.md)**, la boîte de dialogue des paramètres d\'**[16px|text-top=Echelle|link=PartDesign_Scaled/fr](File:PartDesign_Scaled.png.md) [Echelle](PartDesign_Scaled/fr.md)**, offre les options suivantes : |
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                                                 | ### Selection des originaux                                                                                                                                                                                                                                                                                                                                |
@@ -26,7 +26,7 @@ Depuis FreeCAD 0.15, cette fonctionnalité n'est pas disponible directement, mai
 |                                                                 | ### Facteur et Occurrences                                                                                                                                                                                                                                                                                                                                  |
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                                                 | Spécifie le nombre et le facteur maximal à donner aux objets, qui vont être mis à l\'**[16px|text-top=Echelle|link=PartDesign_Scaled/fr](File:PartDesign_Scaled.png.md) [Echelle](PartDesign_Scaled/fr.md)**, (y compris la sélection originale).                                                                                                                      |
-+-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 
@@ -46,5 +46,7 @@ Depuis FreeCAD 0.15, cette fonctionnalité n'est pas disponible directement, mai
 
 Étant donné que la mise à l\'échelle est effectuée par rapport au centre de gravité, dans le cas d\'un pad, il est nécessaire que le pad pénètre également dans le corps principal, sinon les objets à mettre à l\'échelle flotteront, se détachent du corps. Pour avoir un pad qui coupe le corps principal, vous pouvez utiliser le type \"deux dimensions\" ou l\'option \"simmetric to plane\".
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/fr

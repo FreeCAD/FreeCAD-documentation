@@ -63,5 +63,7 @@ Il comando **Adatta i segmenti** crea segmenti di mesh separati per i tipi di su
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/it

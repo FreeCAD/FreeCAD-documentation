@@ -271,11 +271,5 @@ Oui, vous pouvez utiliser les composants essentiels de FreeCAD dans d'autres app
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/fr

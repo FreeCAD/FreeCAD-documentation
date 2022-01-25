@@ -130,5 +130,7 @@ L\'outil lui-même est implémenté en Python, voir {{FileName|/Mod/Part/BOPTool
 
 -   [FreeCAD Slice und Slice Apart und andere Tricks](https://www.youtube.com/watch?v=JJAL5JmqqKQ) (en allemand), auteur : Ha Gei
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/fr

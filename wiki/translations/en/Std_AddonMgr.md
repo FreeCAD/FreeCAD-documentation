@@ -68,7 +68,7 @@ If you have developed a workbench or macro, and want to see it included in the A
 
 ### Python workbenches 
 
-For python workbenches, you don\'t need any specific approval to have your workbench added to the Addon manager and, being outside the FreeCAD source code, you can choose the license you want. If you request for your workbench to be added to the list (we will not add any new workbench without a request from its authors), either by asking so on the forum or by opening an issue on the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) repository, your code will stay on your own git repository, we will just add it as a submodule to the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) repository. Of course, before adding your workbench, we will take a look at it and make sure there is nothing potentially problematic with it.
+For Python workbenches, you don\'t need any specific approval to have your workbench added to the Addon Manager. In addition, because your Addon is outside the FreeCAD source code, you can choose the license you want. If you request for your workbench to be added to the Addon Manager\'s default list (we will not add any new workbench without a request from its authors), either by asking so on the forum or by opening an issue on the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) repository, your code will stay on your own git repository, we will just add it as a submodule to the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) repository. Of course, before adding your workbench, we will take a look at it and make sure there is nothing potentially problematic with it. For more details about structuring your Addon, including information about metadata used by the Addon Manager, see [Workbench creation](Workbench_creation.md).
 
 ### C++ workbenches 
 
@@ -82,5 +82,7 @@ If you develop a workbench in C++, it cannot be run directly by users and must b
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std AddonMgr/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Std AddonMgr/en

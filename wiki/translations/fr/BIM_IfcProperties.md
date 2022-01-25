@@ -34,5 +34,7 @@ Pset_FreeCAD;Name;IfcLabel;Version;IfcReal
 
 définirait un ensemble de propriétés nommé \"FreeCAD\" (le préfixe Pset\_ n\'est pas obligatoire mais est une pratique courante) qui contient deux propriétés: une appelée \"Name\" qui est un IfcLabel (un morceau de texte) et une autre appelée \"Version\" qui est un IfcReal (une valeur numérique avec des décimales).
 
+
+
 ---
-[documentation index](../README.md) > BIM IfcProperties/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcProperties/fr

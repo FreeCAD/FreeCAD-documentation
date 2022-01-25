@@ -108,5 +108,7 @@ La simetría resultante puede ser vista de forma predeterminada en tiempo real a
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/es

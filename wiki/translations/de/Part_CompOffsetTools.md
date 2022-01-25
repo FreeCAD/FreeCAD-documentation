@@ -30,5 +30,7 @@ Ein Satz Versatzwerkzeuge
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompOffsetTools/de

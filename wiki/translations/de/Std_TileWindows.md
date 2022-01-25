@@ -28,5 +28,7 @@ Der **Std FensterAnordnen**-Befehl ordnet die Fenster im [Hauptansichtsbereich](
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TileWindows/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TileWindows/de

@@ -37,9 +37,9 @@ Sélectionnez l\'onglet du graphique que vous voulez modifier et exécutez cet o
 
 {{Plot_Tools_navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Series/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Series/fr

@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ro
+   Topic: 
+   Level: 
+   Time: 
+   Author:[M42kus](User_M42kus.md)
+   FCVersion:
+   Files:
+---
+
 # Add FEM constraint tutorial/ro
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro
-|Topic= 
-|Level= 
-|Time= 
-|Author=[M42kus](User_M42kus.md)
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -374,7 +380,7 @@ def _handleFlowBndConditions(self):
             self._handled(obj)
 ```
 
-[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
+
 
 ---
-[documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM constraint tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM constraint tutorial/ro

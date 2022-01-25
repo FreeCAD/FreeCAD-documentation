@@ -41,5 +41,7 @@ Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceD
 
 Es gibt keine Python Methode zur Neigung von Objekten. Um die Ergebnisse des Entwurf Neigung Befehls zu emulieren, muss die `Points`-Eigenschaft von Drahtobjekten geändert werden.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/de

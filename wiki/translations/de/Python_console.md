@@ -90,5 +90,7 @@ Ein Rechtsklick auf die Python Konsole zeigt einige Befehle an:
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Python console/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Python console/de

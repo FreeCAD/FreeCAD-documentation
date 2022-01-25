@@ -70,7 +70,7 @@ Jeśli opracowałeś Środowisko pracy lub makrodefinicję i chcesz zobaczyć je
 
 ### Python i środowiska pracy 
 
-Aby dodać swoje Środowisko pracy do menedżera dodatków, nie potrzebujesz żadnej konkretnej zgody, a będąc poza kodem źródłowym FreeCAD, możesz wybrać licencję, którą chcesz. Jeśli poprosisz o dodanie swojego Środowiska pracy do listy *(nie dodamy żadnego nowego stanowiska pracy bez prośby jego autorów)*, albo prosząc o to na forum, albo otwierając sprawę w repozytorium [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/), Twój kod pozostanie w Twoim własnym repozytorium git, po prostu dodamy go jako dodatkowy moduł do repozytorium [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/). Oczywiście, przed dodaniem twojego Środowiska pracy, przyjrzymy się mu i upewnimy się, że nie ma z nim nic potencjalnie problematycznego.
+Dla pakietów Pythona, nie potrzebujesz żadnej szczególnej zgody, aby Twój pakiet został dodany do Menedżera dodatków. Ponadto, ponieważ Twój dodatek jest poza kodem źródłowym FreeCAD, możesz wybrać licencję, jaką chcesz. Jeśli poprosisz o dodanie twojego środowiska pracy do domyślnej listy Menedżera Dodatków (nie dodamy żadnego nowego środowiska pracy bez prośby jego autorów), albo poprzez zapytanie na forum, albo poprzez otwarcie problemu na repozytorium [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/), twój kod pozostanie na twoim własnym repozytorium git, my tylko dodamy go jako submoduł do repozytorium [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/). Oczywiście, przed dodaniem twojego środowiska pracy, przyjrzymy się mu i upewnimy się, że nie ma w nim nic potencjalnie problematycznego. Więcej szczegółów na temat struktury Twojego dodatku, w tym informacje o metadanych używanych przez Menedżera Dodatków, znajdziesz na stronie [Tworzenie Środowiska pracy](Workbench_creation/pl.md).
 
 ### C++ i środowiska pracy 
 
@@ -84,5 +84,7 @@ Jeśli tworzysz własne środowisko pracy w C++, nie może ono być uruchamiane 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std AddonMgr/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std AddonMgr/pl

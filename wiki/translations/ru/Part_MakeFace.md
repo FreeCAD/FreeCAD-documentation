@@ -27,5 +27,7 @@
 1.  Выберите эскиз, определяющий по крайней мере один замкнутый контур
 2.  \# Нажмите кнопку <img alt="" src=images/Part_MakeFace.svg  style="width:24px;"> [Создать грань\...](Part_MakeFace/ru.md)
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeFace/ru

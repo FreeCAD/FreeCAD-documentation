@@ -228,5 +228,7 @@ This is only a matter of displaying the path. You can change this in the prefere
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/ru

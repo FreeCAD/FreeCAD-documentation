@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/pl
+   Topic:Poradnik: Podstawy środowiska pracy Wykres
+   Level:Początkujący
+   Time:
+   Author:
+   FCVersion:-
+   Files:
+---
+
 # Plot Basic tutorial/pl
-{{TutorialInfo/pl
-|Topic=Poradnik: Podstawy środowiska pracy Wykres
-|Level=Początkujący
-|Time=
-|Author=
-|FCVersion=-
-|Files=
-}}
+
+
+
+
 
 W tym poradniku dowiemy się, jak wykonać podstawowy wykres przy użyciu środowiska pracy [Wykres](Plot_Workbench/pl.md) i konsoli [Python](Python_console/pl.md).
 
@@ -148,9 +154,9 @@ Możesz ustawić rozmiar obrazu wyjściowego w calach, na przykład możemy usta
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
+}} {{Plot_Tools_navi}}
 
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Basic tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Basic tutorial/pl

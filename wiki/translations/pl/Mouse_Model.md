@@ -1,5 +1,7 @@
 # Mouse Model/pl
 1.  REDIRECT [Mouse\_navigation/pl](Mouse_navigation/pl.md)
 
+
+
 ---
-[documentation index](../README.md) > Mouse Model/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Mouse Model/pl

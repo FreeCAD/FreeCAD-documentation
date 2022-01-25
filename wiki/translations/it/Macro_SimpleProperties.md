@@ -1,4 +1,7 @@
 # Macro SimpleProperties/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=SimpleProperties
 |Icon=Macro_SimpleProperties.png
@@ -10,6 +13,9 @@
 |Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_SimpleProperties.png ToolBar Icon]
 |SeeAlso=[Arch_Survey](Arch_Survey/it.md) <img src="images/Arch_Survey.svg" width=24px><br />[Macro_FCInfo](Macro_FCInfo/it.md) <img src="images/FCInfo.png" width=24px>
 }}
+
+
+</div>
 
 ## Descrizione
 
@@ -36,13 +42,27 @@ Al momento, la macro non è disponibile dal gestore addon =\> PR inviata: <https
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Per spiegazioni più dettagliate, consultare la pagina [Come installare le macro](How_to_install_macros/it.md).
 
+
+</div>
+
 ## Script
+
+
+<div class="mw-translate-fuzzy">
 
 ### Limitazione
 
 -   Un solo oggetto alla volta
+
+
+</div>
+
+-   Only one object at a time
 
 ### Codice
 
@@ -133,5 +153,7 @@ else:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro SimpleProperties/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro SimpleProperties/it

@@ -85,5 +85,7 @@ FreeCADGui.setUserEditMode(MODENAME) # Where MODENAME is a string available in t
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std UserEditMode/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std UserEditMode/fr

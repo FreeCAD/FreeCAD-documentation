@@ -1178,5 +1178,7 @@ ver 00.06 : 13/10/2016 : selection format page and position for the symbol conve
 
 ver 5 : 08/08/2014 PyQt4 and PySide
 
+
+
 ---
-[documentation index](../README.md) > Macro CartoucheFC Full/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro CartoucheFC Full/en

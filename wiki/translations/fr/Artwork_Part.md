@@ -34,5 +34,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Part/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Artwork Part/fr

@@ -33,7 +33,7 @@ Crea un objeto paramétrico Cuña. Esta Cuña se predetermina a un cuadrado más
 
 ### Parametric Inputs 
 
-+------------------------------------------------------------------+----------------------------------------------------+
++++
 | ![](images/PartWedgeProperty_Inputs.png ) | Using the default placement, the below inputs are: |
 |                                                                  |                                                    |
 |                                                                  | -                                   |
@@ -60,11 +60,13 @@ Crea un objeto paramétrico Cuña. Esta Cuña se predetermina a un cuadrado más
 |                                                                  |     **Z2 min/max**                    |
 |                                                                  |                                                 |
 |                                                                  |     : Top face Z axis span                         |
-+------------------------------------------------------------------+----------------------------------------------------+
++++
 
 ### More examples for wedges 
 
 ![](images/Wedge_examples.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/es

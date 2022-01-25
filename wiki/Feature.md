@@ -24,9 +24,9 @@ In a more specific sense, a \"Feature\" is a modelling step used inside a [PartD
 
 -   For example, **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)**, **[<img src=images/PartDesign_AdditiveLoft.svg style="width:16px"> [PartDesign Additive loft](PartDesign_AdditiveLoft.md)**, **[<img src=images/PartDesign_Pocket.svg style="width:16px"> [PartDesign Pocket](PartDesign_Pocket.md)**, **[<img src=images/PartDesign_SubtractiveCone.svg style="width:16px"> [PartDesign Subtractive cone](PartDesign_SubtractiveCone.md)**, etc., are all \"Features\".
 
- {{PartDesign Tools navi}}  {{Document objects navi}} 
+ {{PartDesign Tools navi}}  {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Feature
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Feature

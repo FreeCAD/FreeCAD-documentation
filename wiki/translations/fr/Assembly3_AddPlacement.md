@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Assembly_Add_Placement.svg  style="width:24px
     -   Le bouton **<img src="images/Assembly_Add_Placement.svg_" width=16px> [Add placement](Assembly3_AddPlacement/fr.md)**.
     -   L\'option de menu **Assembly3 → Workplane and origin → <img src="images/Assembly_Add_Placement.svg_" width=16px> Add placement**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AddPlacement/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddPlacement/fr

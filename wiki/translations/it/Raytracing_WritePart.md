@@ -46,5 +46,7 @@ Esporta la parte selezionata in un file POV da usare in un progetto POV-Ray.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/it

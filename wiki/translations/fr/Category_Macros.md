@@ -3,7 +3,7 @@ Cette catégorie contient des macros qui permettent d\'étendre les fonctionnali
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+    
   [Macro 3D Parametric Curve/fr](Macro_3D_Parametric_Curve/fr.md)                                                                   [Macro 3d Printer Slicer Individual Parts/fr](Macro_3d_Printer_Slicer_Individual_Parts/fr.md)         [Macro 3d Printer Slicer/fr](Macro_3d_Printer_Slicer/fr.md)
   [Macro 3DXML import/fr](Macro_3DXML_import/fr.md)                                                                                 [Macro AeroFoil/fr](Macro_AeroFoil/fr.md)                                                             [Macro Airfoil Import & Scale/fr](Macro_Airfoil_Import_&_Scale/fr.md)
   [Macro Alias Manager/fr](Macro_Alias_Manager/fr.md)                                                                               [Macro Align Camera to Working Plane/fr](Macro_Align_Camera_to_Working_Plane/fr.md)                   [Macro Align Face Object to View/fr](Macro_Align_Face_Object_to_View/fr.md)
@@ -72,10 +72,9 @@ Cette catégorie contient des macros qui permettent d\'étendre les fonctionnali
   [Macro WireXYZ/fr](Macro_WireXYZ/fr.md)                                                                                           [Macro Wiring And Hoses/fr](Macro_Wiring_And_Hoses/fr.md)                                             [Macro WorkFeatures/fr](Macro_WorkFeatures/fr.md)
   [Macro Zoom1 1/fr](Macro_Zoom1_1/fr.md)                                                                                           [Template:Macro/fr](Template:Macro/fr.md)                                                             [Macros recipes/fr](Macros_recipes/fr.md)
   [Macros/fr](Macros/fr.md)                                                                                                         [Misc templates Full/fr](Misc_templates_Full/fr.md)                                                   [Qt Example/fr](Qt_Example/fr.md)
-  [Svg Namespace/fr](Svg_Namespace/fr.md)                                                                                                                                                                                                         
-  ----------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+  [Svg Namespace/fr](Svg_Namespace/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/fr](<img src="images/Property.png" style="width:16px"> Categories/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Macros/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Macros/fr

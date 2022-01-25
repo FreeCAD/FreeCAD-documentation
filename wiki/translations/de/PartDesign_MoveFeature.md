@@ -51,5 +51,7 @@ Hiermit wird ein Objekt aus einem Body in einen anderen Body verschoben. Das ver
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveFeature/de

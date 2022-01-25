@@ -14,7 +14,7 @@ Building is easy with the *Makefile* or the VisualStudio-Project.
 
 ImageConv is a command line tool.
 
-[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
+
 
 ---
-[documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/pl

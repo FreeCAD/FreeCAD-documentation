@@ -59,5 +59,7 @@ Jako mnoho věcí ve FreeCADu, je mnoho způsobů jak vytvořit kopii. Pro dalš
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Copying Objects/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Copying Objects/cs

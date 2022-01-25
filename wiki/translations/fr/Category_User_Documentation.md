@@ -5,7 +5,7 @@ Cette catégorie contient des articles sur l\'utilisation de FreeCAD. Il s\'agit
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+    
   [BIM Classification/fr](BIM_Classification/fr.md)                                                                       [BIM Clone/fr](BIM_Clone/fr.md)                                                                       [BIM IfcElements/fr](BIM_IfcElements/fr.md)
   [BIM IfcProperties/fr](BIM_IfcProperties/fr.md)                                                                         [BIM IfcQuantities/fr](BIM_IfcQuantities/fr.md)                                                       [BIM Layers/fr](BIM_Layers/fr.md)
   [BIM Preflight/fr](BIM_Preflight/fr.md)                                                                                 [BIM Project/fr](BIM_Project/fr.md)                                                                   [BIM Views/fr](BIM_Views/fr.md)
@@ -172,10 +172,9 @@ Cette catégorie contient des articles sur l\'utilisation de FreeCAD. Il s\'agit
   [FEM PostFilterClipRegion/fr](FEM_PostFilterClipRegion/fr.md)                                                           [FEM PostFilterClipScalar/fr](FEM_PostFilterClipScalar/fr.md)                                         [FEM PostFilterCutFunction/fr](FEM_PostFilterCutFunction/fr.md)
   [FEM PostFilterDataAlongLine/fr](FEM_PostFilterDataAlongLine/fr.md)                                                     [FEM PostFilterDataAtPoint/fr](FEM_PostFilterDataAtPoint/fr.md)                                       [FEM PostFilterLinearizedStresses/fr](FEM_PostFilterLinearizedStresses/fr.md)
   [FEM PostFilterWarp/fr](FEM_PostFilterWarp/fr.md)                                                                       [FEM PostPipelineFromResult/fr](FEM_PostPipelineFromResult/fr.md)                                     [FEM Preferences/fr](FEM_Preferences/fr.md)
-  [FEM project/fr](FEM_project/fr.md)                                                                                     [FEM ResultShow/fr](FEM_ResultShow/fr.md)                                                             
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+  [FEM project/fr](FEM_project/fr.md)                                                                                     [FEM ResultShow/fr](FEM_ResultShow/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/fr](<img src="images/Property.png" style="width:16px"> Documentation/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/fr

@@ -76,5 +76,7 @@ Conn3 = Arch.makePipeConnector([Pipe4, Pipe5], radius=400)
 FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch PipeConnector/fr

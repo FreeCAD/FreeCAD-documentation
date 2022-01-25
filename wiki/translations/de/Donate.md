@@ -43,5 +43,7 @@ Es besteht auch das Problem, dass wir keine Struktur (Stiftung, Verein, nichtsta
 
 Dies ist die Zeit der Schwarmfinanzierung (engl.: Crowdfunding), wo alle Arten von Projekten und Ideen manchmal viel Geld und Interesse aufbringen können. Warum nicht etwas Neues erfinden, das mit Geld für FreeCAD gemacht werden könnte, oder dabei helfen, bessere Lösungen zu finden? Zögere nicht, dies im Forum zu diskutieren, [Über Finanzierung und all das](http://forum.freecadweb.org/viewtopic.php?f=8&t=12242).
 
+
+
 ---
-[documentation index](../README.md) > Donate/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Donate/de

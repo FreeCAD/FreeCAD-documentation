@@ -34,5 +34,7 @@ La commande **Mesh Harmoniser les normales‎** harmonise les normales des objet
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/fr

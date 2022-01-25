@@ -38,5 +38,7 @@ Es werden keine zusätzlichen Beschränkungen für das Klonverhalten hinzugefüg
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/de

@@ -46,5 +46,7 @@ O menu padrão é composto por 7 submenus:
 
 }}  {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Standard Menu/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Standard Menu/pt-br

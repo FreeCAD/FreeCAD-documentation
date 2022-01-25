@@ -51,5 +51,7 @@ In order to use this command, the following conditions must be met:
 -   Write a **Comment**, that will be the description (name) of the revision.
 -   Press the **Upload** button. A dialog box will open to allow you to save the produced IFC file at a location of your choice before uploading it. If you press **Cancel**, the file will be saved under a temporary name in the system\'s temporary directory instead.
 
+
+
 ---
-[documentation index](../README.md) > WebTools BimServer
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools BimServer

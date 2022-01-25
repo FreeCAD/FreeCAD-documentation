@@ -68,5 +68,7 @@ Slice Apart was introduced in FreeCAD v0.18.15506. FreeCAD needs to be compiled 
 
 -   <https://www.youtube.com/watch?v=JJAL5JmqqKQ> : FreeCAD Slice und Slice Apart und andere Tricks (German lanuage), author: Ha Gei
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/pl

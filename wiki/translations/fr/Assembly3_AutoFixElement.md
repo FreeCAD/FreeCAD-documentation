@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Assembly_AutoFixElement.svg  style="width:24p
     -   Le bouton **<img src="images/Assembly_AutoFixElement.svg" width=16px> [Auto fix element](Assembly3_AutoFixElement/fr.md)**.
     -   L\'option de menu **Assembly3 → <img src="images/Assembly_AutoFixElement.svg" width=16px> Auto fix element**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AutoFixElement/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoFixElement/fr

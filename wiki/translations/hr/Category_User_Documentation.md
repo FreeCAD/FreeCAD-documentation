@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [About FreeCAD/hr](About_FreeCAD/hr.md)                                         [Arch 3Views/hr](Arch_3Views/hr.md)                                                                         [Arch API/hr](Arch_API/hr.md)
   [Arch Door/hr](Arch_Door/hr.md)                                                 [Arch Preferences/hr](Arch_Preferences/hr.md)                                                               [Arch Reference/hr](Arch_Reference/hr.md)
   [Arch Structure/hr](Arch_Structure/hr.md)                                       [Arch Workbench/hr](Arch_Workbench/hr.md)                                                                   [Basic Part Design Tutorial/hr](Basic_Part_Design_Tutorial/hr.md)
@@ -56,11 +56,8 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [TechDraw Workbench/hr](TechDraw_Workbench/hr.md)                               [Timber Workbench/hr](Timber_Workbench/hr.md)                                                               [Tutorial for open windows/hr](Tutorial_for_open_windows/hr.md)
   [Template:TutorialInfo/hr](Template:TutorialInfo/hr.md)                         [Tutorials/hr](Tutorials/hr.md)                                                                             [User hub/hr](User_hub/hr.md)
   [Video tutorials/hr](Video_tutorials/hr.md)                                     [Workbenches/hr](Workbenches/hr.md)                                                                         [Workfeature Workbench/hr](Workfeature_Workbench/hr.md)
-                                                                                                                                                                                                              
-                                                                                                                                                                                                              
-  --------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/hr](<img src="images/Property.png" style="width:16px"> Documentation/hr.md) [<img src="images/Property.png" style="width:16px"> Arch/hr](<img src="images/Property.png" style="width:16px"> Arch/hr.md) [<img src="images/Property.png" style="width:16px"> BIM/hr](<img src="images/Property.png" style="width:16px"> BIM/hr.md) [<img src="images/Property.png" style="width:16px"> Draft/hr](<img src="images/Property.png" style="width:16px"> Draft/hr.md) [<img src="images/Property.png" style="width:16px"> Inspection/hr](<img src="images/Property.png" style="width:16px"> Inspection/hr.md) [<img src="images/Property.png" style="width:16px"> Workbenches/hr](<img src="images/Property.png" style="width:16px"> Workbenches/hr.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/hr

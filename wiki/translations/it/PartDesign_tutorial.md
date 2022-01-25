@@ -1,11 +1,11 @@
-# PartDesign tutorial/it
-{{TutorialInfo/it
-|Topic= Schizzo
-|Level= Base
-|Time= 15 minuti
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16 o superiore
-|Files=
+---
+- TutorialInfo:/it
+   Topic: Schizzo
+   Level: Base
+   Time: 15 minuti
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 o superiore
+   Files:
 }}
 
 ### Introduzione
@@ -98,8 +98,12 @@ Dopo che è stato creato un elemento 3D è possibile creare dei riferimenti ad e
 # Selezionare <img src="images/Sketcher_External.png" width=32px> [Geometria esterna](Sketcher_External/it.md).
 # Accostarsi all'elemento a cui si desidera fare riferimento, ad esempio, il bordo di un '''Pad'''.
 # Cliccare sull'elemento
-# Nello schizzo dovrebbero apparire dei nuovi elementi di un colore diverso  nella posizione della funzionalità a cui si desidera fare riferimento.}}
+# Nello schizzo dovrebbero apparire dei nuovi elementi di un colore diverso  nella posizione della funzionalità a cui si desidera fare riferimento.
+---
 
+# PartDesign tutorial/it
+
+ 
 
 </div>
 
@@ -159,5 +163,7 @@ In caso contrario, modificare l\'operazione di MultiTransformazione facendo dopp
 
 A questo punto il flusso di lavoro di base per il [Modulo PartDesign](PartDesign_Workbench/it.md) è terminato.
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/it

@@ -60,9 +60,6 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 </div>
 
 
-  
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/sv](<img src="images/Property.png" style="width:16px"> User_Documentation/sv.md)
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/sv

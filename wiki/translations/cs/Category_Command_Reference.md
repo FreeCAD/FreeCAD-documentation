@@ -3,7 +3,7 @@ This category contains the help pages of each of FreeCAD command.
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------
+    
   [Arch Add/cs](Arch_Add/cs.md)                                                 [Arch Axis/cs](Arch_Axis/cs.md)                                               [Arch Building/cs](Arch_Building/cs.md)
   [Arch Check/cs](Arch_Check/cs.md)                                             [Arch CloseHoles/cs](Arch_CloseHoles/cs.md)                                   [Arch Floor/cs](Arch_Floor/cs.md)
   [Arch Frame/cs](Arch_Frame/cs.md)                                             [Arch IfcExplorer/cs](Arch_IfcExplorer/cs.md)                                 [Arch MeshToShape/cs](Arch_MeshToShape/cs.md)
@@ -57,10 +57,8 @@ This category contains the help pages of each of FreeCAD command.
   [Sketcher ToggleConstruction/cs](Sketcher_ToggleConstruction/cs.md)           [Sketcher Trimming/cs](Sketcher_Trimming/cs.md)                               [Sketcher ViewSketch/cs](Sketcher_ViewSketch/cs.md)
   [Std Copy/cs](Std_Copy/cs.md)                                                 [Std DuplicateSelection/cs](Std_DuplicateSelection/cs.md)                     [Std Edit/cs](Std_Edit/cs.md)
   [Std Paste/cs](Std_Paste/cs.md)                                               [Std ViewScreenShot/cs](Std_ViewScreenShot/cs.md)                             [Tasks Placement/cs](Tasks_Placement/cs.md)
-                                                                                                                                                                              
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Categories/cs](<img src="images/Property.png" style="width:16px"> Categories/cs.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/cs

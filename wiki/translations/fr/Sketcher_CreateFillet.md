@@ -33,5 +33,7 @@ Au démarrage de l\'outil, les sélections sont effacées et le pointeur de la s
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/fr

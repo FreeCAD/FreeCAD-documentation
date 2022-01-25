@@ -254,5 +254,7 @@ else:
 -   Macros\_recipes [Macro Creating faces from a DXF file](http://www.freecadweb.org/wiki/index.php?title=Macros_recipes)
 -   Macro originelle [Macro Creating faces from a DXF file](Macro_Creating_faces_from_a_DXF_file.md)
 
+
+
 ---
-[documentation index](../README.md) > Macro DXF to Face and Sketch/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro DXF to Face and Sketch/fr

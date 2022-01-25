@@ -46,5 +46,7 @@ Inserați o vizualizarea a unei Piese într-un proiect de randarea raytracing .
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/ro

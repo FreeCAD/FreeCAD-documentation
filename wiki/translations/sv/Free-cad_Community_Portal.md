@@ -116,10 +116,5 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 
 
 
-
-
-
-[<img src="images/Property.png" style="width:16px"> Documentation/sv](<img src="images/Property.png" style="width:16px"> Documentation/sv.md)
-
 ---
-[documentation index](../README.md) > Free-cad:Community Portal/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > Free-cad:Community Portal/sv

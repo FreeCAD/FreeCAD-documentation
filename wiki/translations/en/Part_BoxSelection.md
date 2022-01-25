@@ -28,5 +28,7 @@ The **<img src="images/Part_BoxSelection.svg" width=16px> [Part BoxSelection](Pa
 
 ## Scripting
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BoxSelection/en

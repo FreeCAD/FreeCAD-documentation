@@ -53,5 +53,7 @@ Les points cosmétiques ne sont pas accessibles par [macros](Macros/fr.md) ni pa
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Midpoints/fr

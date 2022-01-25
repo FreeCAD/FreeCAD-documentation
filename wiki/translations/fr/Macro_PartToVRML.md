@@ -238,5 +238,7 @@ La discussion forum [export VRML from FreeCAD with python for smaller size, kica
 
 La macro inverse, [Macro\_MeshToPart](Macro_MeshToPart.md)
 
+
+
 ---
-[documentation index](../README.md) > Macro PartToVRML/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro PartToVRML/fr

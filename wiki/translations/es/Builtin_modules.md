@@ -24,11 +24,6 @@ Esta página presenta información más detallada sobre los módulos incorporado
 </div>
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Builtin modules/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/es

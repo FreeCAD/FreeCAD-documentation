@@ -5,13 +5,11 @@ This category gathers articles that list objects and methods available for [Pyth
 
 ### Contents:
 
-  ----------------------------------------- ----------------------------------------------------- ---------------------------------------------
+    
   [Base API/ja](Base_API/ja.md)     [Builtin modules/ja](Builtin_modules/ja.md)   [Console API/ja](Console_API/ja.md)
   [Draft API/ja](Draft_API/ja.md)   [FreeCAD API/ja](FreeCAD_API/ja.md)           [Mesh API/ja](Mesh_API/ja.md)
-                                                                                                  
-  ----------------------------------------- ----------------------------------------------------- ---------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Categories/ja](<img src="images/Property.png" style="width:16px"> Categories/ja.md)
+
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Category:API/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Category:API/ja

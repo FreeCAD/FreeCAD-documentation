@@ -58,5 +58,7 @@ The **Std SetAppearance** command shows the Display properties [task panel](Task
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SetAppearance/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SetAppearance/ru

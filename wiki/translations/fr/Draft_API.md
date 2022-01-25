@@ -79,12 +79,6 @@ Draft.move(myrect, mydistance)
 {{APIFunction|getSVG|FreeCAD.Object, [linemodifier], [textmodifier], [(u,v)]|Crée une représentation SVG de l'objet donné. L'attribut '''linemodifier''' est le facteur d'échelle (en pourcent) pour la largeur de la ligne, et '''textmodifier''' pour la taille du texte. Vous pouvez également éventuellement fournir un tuple de vecteurs pour définir un plan de projection, sinon la forme géométrique sera projetée sur le plan '''X, Y'''.|Une chaîne contenant la représentation SVG de l'objet sélectionné.}}
 
 
- 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > [Draft](Draft_Workbench.md) > Draft API/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Draft](Draft_Workbench.md) > Draft API/fr

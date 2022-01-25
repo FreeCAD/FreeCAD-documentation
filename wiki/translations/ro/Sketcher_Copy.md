@@ -45,5 +45,7 @@ Nu sunt adăugate extra constrâgeri pentru comportamentul copiei.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Copy/ro

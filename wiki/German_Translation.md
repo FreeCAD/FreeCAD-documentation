@@ -110,7 +110,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                                Funktion          Deutscher Ausdruck                Anmerkung
-  -------------------------------------------------------------------------------------------------- ----------------- --------------------------------- -------------------------------
+     
   Std Base                                                                                           Workbench name    Std Basis                         Wiki-Seite, übersetzen?
   *File menu*                                                                                                                                            
   File                                                                                               Menue header      **Datei**                         
@@ -191,7 +191,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                      Funktion         Deutscher Ausdruck    Anmerkung
-  ------------------------------------------------------------------------ ---------------- --------------------- ---------------------------------------------
+     
   <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> Arch        Workbench name   **Arch**              Arbeitsbereich, nicht übersetzen!
   Arch                                                                     Menue header     Arch                  Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Utilities           Generic term     **Dienstprogramme**   
@@ -224,7 +224,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                                            Funktion         Deutscher Ausdruck   Anmerkung
-  -------------------------------------------------------------------------------------------------------------- ---------------- -------------------- -----------------------------------------------------------
+     
   Draft                                                                                                          Workbench name   **Draft**            Arbeitsbereich, nicht übersetzen!
   Drafting                                                                                                       Menue header     Drafting             Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Arc tools                                                 Generic term     Arc tools            Übersetzen?
@@ -257,7 +257,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                                               Funktion         Deutscher Ausdruck                Anmerkung
-  ----------------------------------------------------------------------------------------------------------------- ---------------- --------------------------------- ----------------------------------------
+     
   <img alt="" src=images/Workbench_FEM.svg  style="width:16px;"> FEM                                                    Workbench name   **Sketcher**                      Arbeitsbereich, nicht übersetzen!
   Model                                                                                                             Menue header     Model                             Menü-Überschrift (übersetzen?)
   <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> Analysis container                                       Command          Analyse-Container                 
@@ -305,7 +305,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                               Funktion         Deutscher Ausdruck        Anmerkung
-  ------------------------------------------------------------------------------------------------- ---------------- ------------------------- ------------------------------------------------------------
+     
   <img alt="" src=images/Workbench_Image.svg  style="width:16px;">Image                               Workbench name   **Image**                 Arbeitsbereich, nicht übersetzen!
                                                                                                     Menue header                               Menüspalte nicht vorhanden
   <img alt="" src=images/Image_Open.svg  style="width:16px;"> Open\...                                     Command          **Öffnen**\...            
@@ -327,7 +327,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                   Funktion         Deutscher Ausdruck      Anmerkung
-  ------------------------------------------------------------------------------------- ---------------- ----------------------- -----------------------------------
+     
   <img alt="" src=images/Workbench_Inspection.svg  style="width:16px;"> Inspection   Workbench name   **Inspection**          Arbeitsbereich, nicht übersetzen!
   Inspection                                                                            Menue header     Inspection              Menü-Überschrift (übersetzen?)
   Visual inspection\...                                                                 Command          Visual inspection\...   
@@ -348,7 +348,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                               Funktion         Deutscher Ausdruck            Anmerkung
-  ------------------------------------------------------------------------------------------------- ---------------- ----------------------------- --------------------------------------
+     
   <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> Mesh                                 Workbench name   **Mesh**                      Arbeitsbereich, nicht übersetzen!
   Meshes                                                                                            Menue header     Netze                         Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Mesh_Import.svg  style="width:16px;"> Import mesh\...                            Command          **Netz importieren**\...      
@@ -374,7 +374,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                                                             Funktion         Deutscher Ausdruck                 Anmerkung
-  ------------------------------------------------------------------------------------------------------------------------------- ---------------- ---------------------------------- -----------------------------------
+     
   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:16px;"> OpenSCAD                                                   Workbench name   **OpenSCAD**                       Arbeitsbereich, nicht übersetzen!
   OpenSCAD                                                                                                                        Menue header     OpenSCAD                           Menü-Überschrift
   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width:16px;"> Replace Object                                     Command          Replace Object                     Übersetzen?
@@ -409,7 +409,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                                         Funktion         Deutscher Ausdruck                        Anmerkung
-  ----------------------------------------------------------------------------------------------------------- ---------------- ----------------------------------------- -----------------------------------------------------------------------
+     
   <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> Part                                           Workbench name   **Part**                                  Arbeitsbereich, nicht übersetzen!
   Part                                                                                                        Menue header     **Formteil**                              Menü-Überschrift (wird übersetzt?)
   <img alt="" src=images/Part_Import.svg  style="width:16px;"> Import CAD\...                                       Command          **CAD importieren\...**                   
@@ -505,7 +505,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                                                       Funktion         Deutscher Ausdruck                                                                                       Anmerkung
-  ------------------------------------------------------------------------------------------------------------------------- ---------------- -------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------
+     
   <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> Part Design                                      Workbench name   **Part Design**                                                                                          Arbeitsbereich, nicht übersetzen!
   Part Design                                                                                                               Menue header     Teile-Konstruktion, (Bauteilkonstruktion)                                                                Menü-Überschrift, übersetzt (herbk Weshalb auf der Oberfläche übersetzt? Das ist das Menü zur WB die Part Design heißt ;-) )
   <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> Create body                                                Command          Körper erstellen                                                                                         
@@ -581,7 +581,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                          Funktion         Deutscher Ausdruck       Anmerkung
-  ---------------------------------------------------------------------------- ---------------- ------------------------ -----------------------------------
+     
   <img alt="" src=images/Workbench_Path.svg  style="width:16px;"> Path            Workbench name   **Path**                 Arbeitsbereich, nicht übersetzen!
   Path                                                                         Menue header     Path                     Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Path_Job.svg  style="width:16px;"> Job                         Command          **Auftrag**              
@@ -606,7 +606,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                       Funktion         Deutscher Ausdruck               Anmerkung
-  ----------------------------------------------------------------------------------------- ---------------- -------------------------------- -----------------------------------
+     
   Points                                                                                    Workbench name   **Points**                       Arbeitsbereich, nicht übersetzen!
   Points                                                                                    Menue header     Punkte                           Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Points_Convert.svg  style="width:16px;"> Convert to points\...        Command          **Zu Punkten konvertieren**      \... wandeln?
@@ -631,7 +631,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                                         Funktion         Deutscher Ausdruck                          Anmerkung
-  ----------------------------------------------------------------------------------------------------------- ---------------- ------------------------------------------- ---------------------------------------
+     
   Raytracing                                                                                                  Workbench name   **Raytracing**                              Arbeitsbereich, nicht übersetzen!
   Raytracing                                                                                                  Menue header     Raytracing                                  Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Utilities                                              Generic term     Utilities                                   Übersetzen?
@@ -666,7 +666,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                     Funktion         Deutscher Ausdruck                      Anmerkung
-  --------------------------------------------------------------------------------------- ---------------- --------------------------------------- -----------------------------------
+     
   Reverse Engineering                                                                     Workbench name   **Reverse Engineering**                 Arbeitsbereich, nicht übersetzen!
   Reverse Engineering                                                                     Menue header     Reverse Engineering                     Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Surface Reconstruction             Generic term     Surface Reconstruction                  Übersetzen?
@@ -702,7 +702,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                                        Funktion         Deutscher Ausdruck                     Anmerkung
-  ---------------------------------------------------------------------------------------------------------- ---------------- -------------------------------------- -------------------------------------------------------------
+     
   Robot                                                                                                      Workbench name   **Robot**                              Arbeitsbereich, nicht übersetzen!
   Robot                                                                                                      Menue header     Roboter                                Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Insert Robots                                         Generic term     **Roboter einfügen**                   
@@ -746,7 +746,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                   Funktion         Deutscher Ausdruck       Anmerkung
-  ------------------------------------------------------------------------------------- ---------------- ------------------------ -----------------------------------
+     
   Sketcher                                                                              Workbench name   **Sketcher**             Arbeitsbereich, nicht übersetzen!
   Sketch                                                                                Menue header     Sketch                   Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:16px;"> New sketch   Command          **Skizze erstellen**     
@@ -771,7 +771,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Menü und Schaltflächen
-  --------------------------------------------------------------------------------------------------------
+  
   Englischer Ausdruck
   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:16px;"> Spreadsheet
   Spreadsheet
@@ -839,7 +839,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                                   Funktion         Deutscher Ausdruck     Anmerkung
-  ----------------------------------------------------------------------------------------------------- ---------------- ---------------------- -----------------------------------
+     
   <img alt="" src=images/Workbench_Surface.svg  style="width:16px;"> Surface                            Workbench name   **Surface**            Arbeitsbereich, nicht übersetzen!
   Surface                                                                                               Menue header     Surface                Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Surface_Filling.svg  style="width:16px;"> Filling\...                            Command          Filling\...            Übersetzen?
@@ -863,7 +863,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck                                                                                            Funktion         Deutscher Ausdruck                                     Anmerkung
-  -------------------------------------------------------------------------------------------------------------- ---------------- ------------------------------------------------------ ---------------------------------------------
+     
   <img alt="" src=images/Workbench_TechDraw.svg  style="width:16px;"> TechDraw                                  Workbench name   **TechDraw** *(Techn. Zeichnen)*                       Arbeitsbereich, nicht übersetzen!
   TechDraw                                                                                                       Menue header     Technisches Zeichnen                                   Menü-Überschrift (übersetzen?)
   <img alt="" src=images/Arrow-down.svg  style="width:16px;">Dimensions                                                 Generic term     Bemaßungen                                             Bemaßung oder Maße
@@ -890,7 +890,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 <div class="mw-collapsible-content toccolours">
 
   Englischer Ausdruck   Wortart   Deutscher Ausdruck                                                                                                                                                                                 Anmerkung
-  --------------------- --------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     
   Brake                 Noun      **Kantbank**, (Abkantpresse)                                                                                                                                                                       Gerät zum Abkanten von Blechen
   Constraint            Noun      Bedingung, Beschränkung, Zwang, Auflage, Einschränkung, Nebenbedingung, (technische) Begrenzung, Restriktion, Hemmung, Nötigung, Randbedingung, Zwangsbedingung, Verformungsbehinderung            Wie die Einträge des Online-Wörterbuches zeigen, behindert man sich und die Verständlichkeit von Übersetzungen, wenn man nur Beschränkung als einzig mögliche Übersetzung ansieht.
   Constrain             Verb      Fesseln, belegen, zwingen, beschränken, behindern, einschränken, hemmen                                                                                                                            Siehe Constraint.
@@ -900,6 +900,8 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   Flange                Noun      Bördel, stehender Falz, Umbug, Kante                                                                                                                                                               Oberbegriff für rechtwinklig abgestellte Blechränder
   Hem                   Noun      Falz                                                                                                                                                                                               Oberbegriff für (auch mehrfach) umgeschlagene Blechränder
   Scale                 Noun      Maßstab                                                                                                                                                                                            Darstellungsverhältnis meist gezeichneter Geometrie zum Tatsächlichen Objekt
+  Script                Noun      **Skript**                                                                                                                                                                                         Schriftliche Ausarbeitung, hier im Sinne eines in einer Makro-Sprache verfassten, eher kurzen Programms
+  Script                Verb      Programmieren, Skript erstellen, **skripten**                                                                                                                                                      Skripten ist als Übersetzung fragwürdig, eignet sich aber gut um zwischen dem Programmieren umfangreicher Programme und dem Erstellen kleinerer Programme (Skripte, Macros) zu unterscheiden.
   Straight flange       Noun      Kante                                                                                                                                                                                              Rechtwinklig und entlang einer Geraden abgestellter Blechrand
 
 
@@ -916,49 +918,55 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible-content toccolours">
 
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Ausdruck                     | Beschreibung                                                                                                                                                                                                                                                        |
-+==============================+=====================================================================================================================================================================================================================================================================+
-| #### Zeichnung               |                                                                                                                                                                                                                                                                     |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Maß (Maßeintrag)             | Abstand zwischen 2 Punkten oder 2 parallelen Ebenen (3D) bzw. Strecken (2D). Die zeichnerische Darstellung besteht aus Maßzahl, Maßlinie, Maßhilfslinien und ggf. ergänzenden Angaben, wie z.B. Maßeinheit, Toleranz oder Rahmen zur Kennzeichnung spezieller Maße. |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Abmessung                    | Objekte/Werkstücke haben Abmessungen wie z.B. Länge, Breite, Höhe und Wandstärke. In einer Zeichnung werden sie als Maße eingetragen.                                                                                                                               |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Bemaßen                      | Das Eintragen der Maße auf einer Zeichnung. Früher mit dem Ziel ein Werkstück im Zusammenhang mit einer ausreichenden Anzahl von Ansichten vollständig zu beschreiben; heute als Ergänzung zum verbindlichen 3D-Datensatz.                                          |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Bemaßung                     | Die Gesamtheit aller Einträge zur (vollständigen) maßlichen Beschreibung eines Werkstücks.Kein Synonym für Maß!                                                                                                                                       |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Maßstab                      | (Größen-) Verhältnis des in einer Ansicht abgebildeten Werkstückes zu dessen tatsächlicher Größe. Auf der Zeichnung in der Regel als Division ganzer Zahlen angegeben, z.B. 5:1 (Vergrößerung), 1:2 (Verkleinerung).(Siehe auch Skalierung)           |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Pause, Blaupause             | Veraltet für Zeichnungskopie                                                                                                                                                                                                                                        |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Skalieren                    | Größenänderung eines Objektes (Vergrößerung oder Verkleinerung)                                                                                                                                                                                                     |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Skalierung                   | Verhältnis der Größe eines Objektes vor und nach dem Skalieren. Meist als ein Vielfaches der Ausgangsgröße oder in Prozent angegeben, z.B. 2x, 200% (Vergrößerung), 0,5x, 50% (Verkleinerung).(Siehe auch Maßstab)                                    |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| #### Werkstatt               |                                                                                                                                                                                                                                                                     |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Kantbank**, (Abkantpresse) | Gerät zum Abkanten (d.h. zum biegen um eine gerade Werkzeugkante mit konstantem Biegeradius) von Blechen.                                                                                                                                                           |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Falz                         | Umgeschlagener (um ca. 180° gebogener) Blechrand. Für steifere Blechränder, als Verletzungsschutz oder zum Verbinden zweier Werkstücke.                                                                                                                             |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Flansch                      | Montagerand an Rohrenden (Rohrflansch) oder Blechen (Schweiß-, Bördelflansch)                                                                                                                                                                                       |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Fluchten                     | In derselben Ausrichtung (kollinear, komplanar) verlaufend                                                                                                                                                                                                          |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Bördel, stehender Falz       | Meist rechtwinklig abgestellter (umgebogener) Rand gewölbter Bleche bzw. entlang geschwungener Konturen                                                                                                                                                             |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Kante                        | Meist rechtwinklig abgestellter (umgebogener) Rand an geraden Blechrändern                                                                                                                                                                                          |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                              |                                                                                                                                                                                                                                                                     |
-+------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
+| Ausdruck                     | Beschreibung                                                                                                                                                                                                                                                               |
++==============================+============================================================================================================================================================================================================================================================================+
+| #### Zeichnung               |                                                                                                                                                                                                                                                                            |
++++
+| Maß (Maßeintrag)             | Abstand zwischen 2 Punkten oder 2 parallelen Ebenen (3D) bzw. Strecken (2D). Die zeichnerische Darstellung besteht aus Maßzahl, Maßlinie, Maßhilfslinien und ggf. ergänzenden Angaben, wie z.B. Maßeinheit, Toleranz oder Rahmen zur Kennzeichnung spezieller Maße.        |
++++
+| Abmessung                    | Objekte/Werkstücke haben Abmessungen wie z.B. Länge, Breite, Höhe und Wandstärke. In einer Zeichnung werden sie als Maße eingetragen.                                                                                                                                      |
++++
+| Bemaßen                      | Das Eintragen der Maße auf einer Zeichnung. Früher mit dem Ziel ein Werkstück im Zusammenhang mit einer ausreichenden Anzahl von Ansichten vollständig zu beschreiben; heute als Ergänzung zum verbindlichen 3D-Datensatz.                                                 |
++++
+| Bemaßung                     | Die Gesamtheit aller Einträge zur (vollständigen) maßlichen Beschreibung eines Werkstücks.Kein Synonym für Maß!                                                                                                                                              |
++++
+| Maßstab                      | (Größen-) Verhältnis des in einer Ansicht abgebildeten Werkstückes zu dessen tatsächlicher Größe. Auf der Zeichnung in der Regel als Division ganzer Zahlen angegeben, z.B. 5:1 (Vergrößerung), 1:2 (Verkleinerung).(Siehe auch Skalierung)                  |
++++
+| Pause, Blaupause             | Veraltet für Zeichnungskopie                                                                                                                                                                                                                                               |
++++
+| Skalieren                    | Größenänderung eines Objektes (Vergrößerung oder Verkleinerung)                                                                                                                                                                                                            |
++++
+| Skalierung                   | Verhältnis der Größe eines Objektes vor und nach dem Skalieren. Meist als ein Vielfaches der Ausgangsgröße oder in Prozent angegeben, z.B. 2x, 200% (Vergrößerung), 0,5x, 50% (Verkleinerung).(Siehe auch Maßstab)                                           |
++++
+| #### Werkstatt               |                                                                                                                                                                                                                                                                            |
++++
+| **Kantbank**, (Abkantpresse) | Gerät zum Abkanten (d.h. zum biegen um eine gerade Werkzeugkante mit konstantem Biegeradius) von Blechen.                                                                                                                                                                  |
++++
+| Falz                         | Umgeschlagener (um ca. 180° gebogener) Blechrand. Für steifere Blechränder, als Verletzungsschutz oder zum Verbinden zweier Werkstücke.                                                                                                                                    |
++++
+| Flansch                      | Montagerand an Rohrenden (Rohrflansch) oder Blechen (Schweiß-, Bördelflansch)                                                                                                                                                                                              |
++++
+| Fluchten                     | In derselben Ausrichtung (kollinear, komplanar) verlaufend                                                                                                                                                                                                                 |
++++
+| Bördel, stehender Falz       | Meist rechtwinklig abgestellter (umgebogener) Rand gewölbter Bleche bzw. entlang geschwungener Konturen                                                                                                                                                                    |
++++
+| Kante                        | Meist rechtwinklig abgestellter (umgebogener) Rand an geraden Blechrändern                                                                                                                                                                                                 |
++++
+| #### Computer                |                                                                                                                                                                                                                                                                            |
++++
+| Programmieren, skripten      | Erstellung von Computerprogrammen. Das \"neudeutsche\" skripten scheint sich für die Erstellung kleinerer Programme (Skripte, Makros) durchzusetzen, während programmieren für das Erstellen von umfangreichen Programmen und als Oberbegriff verwendet wird |
++++
+|                              |                                                                                                                                                                                                                                                                            |
++++
 
 
 </div>
 
 
 </div>
+
+
 
 ---
-[documentation index](../README.md) > German Translation
+![](images/Right_arrow.png) [documentation index](../README.md) > German Translation

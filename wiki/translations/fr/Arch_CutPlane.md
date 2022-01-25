@@ -96,5 +96,7 @@ cutObj2 = Arch.cutComponentwithPlane(main_object2, cut_face2, 1)
 FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/fr

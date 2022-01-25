@@ -117,5 +117,7 @@ layer.Group = [polygon1, polygon2, polygon3]
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Layer/pl

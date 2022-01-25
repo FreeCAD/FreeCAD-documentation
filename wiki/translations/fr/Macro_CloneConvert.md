@@ -144,5 +144,7 @@ ver 0.13 = 15/09/2019 remplacé le signe grec micro par \"um\" (trop de problèm
 
 09/05/2014 ver. 0.2 = ajout de la fonction \"Copy\"
 
+
+
 ---
-[documentation index](../README.md) > Macro CloneConvert/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro CloneConvert/fr

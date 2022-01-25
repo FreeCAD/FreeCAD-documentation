@@ -57,5 +57,7 @@ La commande **Mesh Segmentation adaptée** crée des segments de maillage sépar
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit/fr

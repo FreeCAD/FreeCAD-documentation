@@ -91,7 +91,7 @@ Dieses Seite zeigt die Vorlagen entsprechend dem American National Standards Ins
 
 Die Vorlagen wurden erstellt durch [Quick61](User_Quick61.md) und aufgelistet in [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Drawing](Category_Drawing.md)
+
 
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Arch](Arch_Workbench.md) > Arch templates/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > [Arch](Arch_Workbench.md) > Arch templates/de

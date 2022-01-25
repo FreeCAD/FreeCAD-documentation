@@ -1142,11 +1142,5 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Wiki](Category_Wiki.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
-
 ---
-[documentation index](../README.md) > [Wiki](Category_Wiki.md) > Glossary/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Wiki](Category_Wiki.md) > [Glossary](Category_Glossary.md) > Glossary/ro

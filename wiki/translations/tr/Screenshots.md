@@ -201,7 +201,7 @@ FreeCAD runs in console mode (without gui)
 
 Dialog to save a picture with arbitrary sizes.
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/tr](<img src="images/Property.png" style="width:16px"> User_Documentation/tr.md) [<img src="images/Property.png" style="width:16px"> Screenshots/tr](<img src="images/Property.png" style="width:16px"> Screenshots/tr.md)
+
 
 ---
-[documentation index](../README.md) > Screenshots/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/tr

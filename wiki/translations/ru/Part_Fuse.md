@@ -40,5 +40,7 @@ Items can be added and removed from the fusion, by dragging them in or out of th
 
 После завершения этой операции может оказаться полезным уточнить форму с помощью команды <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Уточнить форму](Part_RefineShape/ru.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/ru

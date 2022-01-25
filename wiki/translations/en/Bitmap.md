@@ -13,8 +13,5 @@ FreeCAD can import bitmap images using the [Image Workbench](Image_Workbench.md)
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md) [<img src="images/Property.png" style="width:16px"> Image](Category_Image.md)
-
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Bitmap/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](Category_TechDraw.md) > [Image](Category_Image.md) > Bitmap/en

@@ -128,5 +128,7 @@ j.Objects = FreeCADGui.Selection.getSelection()
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/ru

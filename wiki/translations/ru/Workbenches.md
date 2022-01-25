@@ -73,11 +73,5 @@ The following workbenches are still included in the base installation for compat
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/ru

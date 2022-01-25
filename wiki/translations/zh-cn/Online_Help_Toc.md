@@ -161,8 +161,5 @@
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation/zh-cn](<img src="images/Property.png" style="width:16px"> Documentation/zh-cn.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/zh-cn

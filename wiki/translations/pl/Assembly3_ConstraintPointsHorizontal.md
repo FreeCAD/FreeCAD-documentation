@@ -27,5 +27,7 @@ Or
 3.  Select a planar face element of the third object
 4.  Press the **<img src="images/Assembly_ConstraintPointsHorizontal.svg" width=16px> [Points horizontal](Assembly3_ConstraintPointsHorizontal.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointsHorizontal/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsHorizontal/pl

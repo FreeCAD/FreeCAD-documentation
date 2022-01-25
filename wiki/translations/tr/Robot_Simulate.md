@@ -59,5 +59,7 @@ Soldan sağa düğmeler.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Simulate/tr

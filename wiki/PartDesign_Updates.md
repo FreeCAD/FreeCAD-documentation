@@ -38,9 +38,9 @@ As this work touches the core of the FreeCAD code you will get a deep and full u
 
 Medium
 
-### Additional Information 
+### Additional Information
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Updates
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Updates

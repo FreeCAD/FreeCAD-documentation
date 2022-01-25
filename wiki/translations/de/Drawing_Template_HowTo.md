@@ -1,17 +1,23 @@
+---
+- TutorialInfo:/de
+   Topic:2D-Zeichnen
+   Level:Fortgeschrittene Anfänger
+   Author:Mark Stephen ([Quick61](User_Quick61.md))
+   Time:Eine Stunde oder weniger
+   FCVersion:0.14.3700 oder höher
+---
+
 # Drawing Template HowTo/de
+
+
+
+
 **The [Drawing Workbench](Drawing_Workbench.md) became obsolete in v0.17. Consider using the [TechDraw Workbench](TechDraw_Workbench.md) instead.<br>
 For a tutorial on how to create a template for that workbench see [TechDraw TemplateHowTo](TechDraw_TemplateHowTo.md)**
 
 .
 
 
-{{TutorialInfo/de
-|Topic=2D-Zeichnen
-|Level=Fortgeschrittene Anfänger
-|Author=Mark Stephen ([Quick61](User_Quick61.md))
-|Time=Eine Stunde oder weniger
-|FCVersion=0.14.3700 oder höher
-}}
 
 ## Einführung
 
@@ -221,5 +227,7 @@ The two tools used in this tutorial were Inkscape and Kate. They can be found by
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/de

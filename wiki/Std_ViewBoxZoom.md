@@ -25,5 +25,7 @@ The **Std ViewBoxZoom** command zooms in on a user defined rectangular area, a b
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewBoxZoom
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewBoxZoom

@@ -3,7 +3,7 @@ This category lists pages related to the [FEM Workbench](FEM_Workbench.md) and F
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+    
   [Add Button to FEM Toolbar Tutorial/en](Add_Button_to_FEM_Toolbar_Tutorial/en.md)                       [Add FEM Constraint Tutorial/en](Add_FEM_Constraint_Tutorial/en.md)             [Add FEM Equation Tutorial/en](Add_FEM_Equation_Tutorial/en.md)
   [Analysis of reinforced concrete with FEM/en](Analysis_of_reinforced_concrete_with_FEM/en.md)           [Artwork Fem/en](Artwork_Fem/en.md)                                             [Extend FEM Module/en](Extend_FEM_Module/en.md)
   [FEM Analysis/en](FEM_Analysis/en.md)                                                                   [FEM CalculiX Cantilever 3D/en](FEM_CalculiX_Cantilever_3D/en.md)               [FEM CalculiX/en](FEM_CalculiX/en.md)
@@ -36,10 +36,9 @@ This category lists pages related to the [FEM Workbench](FEM_Workbench.md) and F
   [FEM Tutorial Python/en](FEM_Tutorial_Python/en.md)                                                     [FEM tutorial/en](FEM_tutorial/en.md)                                           [FEM Workbench/en](FEM_Workbench/en.md)
   [IfcOpenShell/en](IfcOpenShell/en.md)                                                                   [IfcPlusPlus/en](IfcPlusPlus/en.md)                                             [Material editor/en](Material_editor/en.md)
   [Material/en](Material/en.md)                                                                           [Mesh/en](Mesh/en.md)                                                           [Onboarding FEM Devs/en](Onboarding_FEM_Devs/en.md)
-  [Post-Processing of FEM Results with Paraview/en](Post-Processing_of_FEM_Results_with_Paraview/en.md)   [Transient FEM analysis/en](Transient_FEM_analysis/en.md)                       
-  --------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+  [Post-Processing of FEM Results with Paraview/en](Post-Processing_of_FEM_Results_with_Paraview/en.md)   [Transient FEM analysis/en](Transient_FEM_analysis/en.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Category:FEM/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [User_Documentation](Category_User_Documentation.md) > Category:FEM/en

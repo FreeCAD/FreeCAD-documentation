@@ -121,7 +121,5 @@ Zobacz również [Dostosowywanie interfejsu użytkownika do własnych potrzeb](I
 
 
 
-[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
-
 ---
-[documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/pl

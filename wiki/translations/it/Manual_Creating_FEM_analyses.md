@@ -219,9 +219,6 @@ Naturalmente, i risultati visualizzati attualmente dall\'ambiente FEM non sono s
 </div>
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Manual:Creating FEM analyses/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating FEM analyses/it

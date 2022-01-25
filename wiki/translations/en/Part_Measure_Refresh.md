@@ -18,5 +18,7 @@
     -   Press the **[<img src=images/Part_Measure_Refresh.svg style="width:16px"> [Measure Refresh](Part_Measure_Refresh.md)** button.
     -   Use the **Measure → [<img src=images/Part_Measure_Refresh.svg style="width:16px"> Refresh**.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Refresh/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Refresh/en

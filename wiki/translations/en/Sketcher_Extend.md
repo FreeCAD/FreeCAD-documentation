@@ -37,5 +37,7 @@ The **extend edge** tool extends an edge to an arbitrary location in the sketch,
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/en

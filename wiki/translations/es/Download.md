@@ -27,13 +27,13 @@ Las versiones anteriores pueden descargarse de la página [lanzamientos](https:/
 
 </div>
 
-+:---------------------------------------------------------------------------------------------------------------------------------:+---+:---------------------------------------------------------------------------------------------------------------:+---+:------------------------------------------:+
++::+---+::+---+::+
 | ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png ) |
 |                                                                                                                                   |   |                                                                                                                 |   |                                            |
 | Install on Windows                                                                                                                |   | Install on Mac                                                                                                  |   | Install on Linux                           |
 |                                                                                                                                   |   |                                                                                                                 |   |                                            |
 | [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-2.exe) (includes installer) |   | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)     |
-+-----------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------+---+--------------------------------------------+
+++---++---++
 
 
 <div class="mw-translate-fuzzy">
@@ -96,5 +96,7 @@ La comunidad de FreeCAD provee una multitud de módulos y macros adicionales. De
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Download/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Download/es

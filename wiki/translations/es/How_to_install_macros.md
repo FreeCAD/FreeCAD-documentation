@@ -1,8 +1,15 @@
+---
+- TutorialInfo:/es   Topic:Programming   Level:Medium programmer   Time:15 minutes   FCVersion:All   Author:[Mario52](User_Mario52.md)
+---
+
 # How to install macros/es
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/es|Topic=Programming|Level=Medium programmer|Time=15 minutes|FCVersion=All|Author=[Mario52](User_Mario52.md)}}
 
 
 </div>
@@ -508,11 +515,6 @@ and then press the **OK** button.
 </div>
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > How to install macros/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > How to install macros/es

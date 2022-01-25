@@ -3,5 +3,7 @@ This category lists pages that are obsolete in regard to the current FreeCAD ver
 
 ### Contents:
 
+
+
 ---
-[documentation index](../README.md) > Category:Obsolete page/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Obsolete page/en

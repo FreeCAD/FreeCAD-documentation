@@ -53,5 +53,7 @@ PartDesign in FreeCAD v0.17 introduce nuovi strumenti ed elementi che non sono r
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/it

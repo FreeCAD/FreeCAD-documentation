@@ -37,5 +37,7 @@ La limitation de zones permet de restreindre l\'étendue d\'un chemin à une plu
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupPathBoundary/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupPathBoundary/fr

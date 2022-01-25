@@ -197,5 +197,7 @@ Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/BOPT
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/de

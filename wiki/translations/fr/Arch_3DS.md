@@ -3,11 +3,5 @@ L\'atelier Arch supporte l\'importation de fichiers [3DS](https://en.wikipedia.o
 
 
 
-
-
- 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md) [<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Arch](Arch_Workbench.md) > Arch 3DS/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch 3DS/fr

@@ -3,7 +3,7 @@ This category lists templates that format text given as input.
 
 ### Contents:
 
-  ------------------------------------------------------------------- ------------------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [Template:APIClass](Template_APIClass.md)                   [Template:APIClass b](Template_APIClass_b.md)                     [Template:APIFunction](Template_APIFunction.md)
   [Template:APIFunction b](Template_APIFunction_b.md)         [Template:APIProperty](Template_APIProperty.md)                   [Template:ASCII](Template_ASCII.md)
   [Template:Button](Template_Button.md)                       [Template:Caption](Template_Caption.md)                           [Template:CheckBox](Template_CheckBox.md)
@@ -19,10 +19,8 @@ This category lists templates that format text given as input.
   [Template:SystemInput](Template_SystemInput.md)             [Template:SystemOutput](Template_SystemOutput.md)                 [Template:Term](Template_Term.md)
   [Template:TitleTasks](Template_TitleTasks.md)               [Template:URL](Template_URL.md)                                   [Template:URLn](Template_URLn.md)
   [Template:Value](Template_Value.md)                         [Template:Variable](Template_Variable.md)                         [Template:VeryImportantMessage](Template_VeryImportantMessage.md)
-                                                                                                                                                
-  ------------------------------------------------------------------- ------------------------------------------------------------------------- ---------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Template](Category_Template.md)
+
 
 ---
-[documentation index](../README.md) > Category:Template:Text Format
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template:Text Format

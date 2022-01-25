@@ -41,5 +41,7 @@ FreeCADGui.ActiveDocument.ActiveView.getViewDirection()
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewDimetric
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewDimetric

@@ -1,5 +1,7 @@
 # Addon Manager/it
 1.  REDIRECT [Std AddonMgr/it](Std_AddonMgr/it.md)
 
+
+
 ---
-[documentation index](../README.md) > Addon Manager/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Addon Manager/it

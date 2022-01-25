@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:TechDraw 3PtAngleDimension
    Name/fr:TechDraw Cote angulaire par 3 points
-   MenuLocation:TechDraw → Insérer une cote angulaire à 3 points
+   MenuLocation:TechDraw → Insérer une cote angulaire par 3 points
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.18
    SeeAlso:[TechDraw Cote angulaire](TechDraw_AngleDimension/fr.md)
@@ -20,7 +20,7 @@ L\'outil Mesure d\'angle par 3 points ajoute une cote angulaire à une vue. La d
 ## Comment faire 
 
 1.  Sélectionnez les points ou les arêtes qui définissent votre mesure.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Insérer une cote angulaire à 3 points](TechDraw_3PtAngleDimension/fr.md)**.
+2.  Appuyez sur le bouton **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Insérer une cote angulaire par 3 points](TechDraw_3PtAngleDimension/fr.md)**.
 3.  Une dimension sera ajoutée à la vue. La cote peut être déplacée à la position souhaitée.
 4.  Si nécessaire, ajoutez des tolérances comme décrit dans [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tol.C3.A9rances.md).
 
@@ -59,5 +59,7 @@ rc = page.addView(dim1)
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 3PtAngleDimension/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 3PtAngleDimension/fr

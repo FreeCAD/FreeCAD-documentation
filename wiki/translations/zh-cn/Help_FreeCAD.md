@@ -138,8 +138,5 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
-
 ---
-[documentation index](../README.md) > [Command Reference|范畴：命令参考]]页面列出了所有FreeCAD](Category_Command Reference|范畴：命令参考]]页面列出了所有FreeCAD.md) > Help FreeCAD/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Command Reference|范畴：命令参考]]页面列出了所有FreeCAD](Category_Command Reference|范畴：命令参考]]页面列出了所有FreeCAD.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/zh-cn

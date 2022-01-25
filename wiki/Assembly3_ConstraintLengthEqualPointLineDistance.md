@@ -27,5 +27,7 @@ The length value of the first selected line equals the shortest distance between
 
     :   (if **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute.md)** and **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute.md)** are disabled).
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance

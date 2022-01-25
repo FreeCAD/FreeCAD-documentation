@@ -47,9 +47,9 @@ Download the Curves workbench via the <img alt="" src=images/Std_AddonMgr.svg  s
 -   <img alt="" src=images/Curves_ReflectLines.svg  style="width:32px;"> [Curves ReflectLines](Curves_ReflectLines.md): Creates the reflect lines on a shape, according to a view direction.
 -   <img alt="" src=images/Curves_MultiLoft.svg  style="width:32px;"> [Curves MultiLoft](Curves_MultiLoft.md): Loft profile objects made of multiple faces in parallel.
 
- {{Curves Tools navi}} 
+ {{Curves Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Curves Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Curves](Category_Curves.md) > Curves Workbench

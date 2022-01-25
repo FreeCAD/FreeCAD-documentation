@@ -113,5 +113,7 @@ Outline draw plot.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Ship Outline/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship Outline/en

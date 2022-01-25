@@ -26,5 +26,7 @@ Zum Ändern des Durchmessers wird der Wert der Eigenschaft **Diameter** im Eigen
 
     :   (Wenn **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Automatische Berechnung](Assembly3_AutoRecompute/de.md)** und **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smarte Berechnung](Assembly3_SmartRecompute/de.md)** nicht aktiviert wurden).
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintDiameter/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintDiameter/de

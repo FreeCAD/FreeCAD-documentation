@@ -293,5 +293,7 @@ The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mous
 
 {{docnav|Getting started/bg|Document structure/bg}}
 
+
+
 ---
-[documentation index](../README.md) > Mouse navigation/bg
+![](images/Right_arrow.png) [documentation index](../README.md) > Mouse navigation/bg

@@ -140,5 +140,7 @@ Gibt den Winkel an, der vom Muster abgedeckt werden soll, sowie die Gesamtzahl d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/de

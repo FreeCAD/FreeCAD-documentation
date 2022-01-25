@@ -21,5 +21,7 @@ Es arbeitet sowohl mit 3D-Punkt-Elementen als auch mit 2D-Punkt-Elementen auf ei
 2.  Je ein Punktelement pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintPointDistance.svg" width=16px> [Abstand zweier Punkte](Assembly3_ConstraintPointDistance/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointDistance/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointDistance/de

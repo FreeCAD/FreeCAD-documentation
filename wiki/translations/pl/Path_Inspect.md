@@ -35,5 +35,7 @@ This tool allows inspection of the internal FreeCAD G-code dialect contents of a
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Inspect/pl

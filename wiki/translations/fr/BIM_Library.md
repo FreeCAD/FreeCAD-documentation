@@ -35,9 +35,6 @@ L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un obj
 -   La bibliothèque peut fonctionner hors ligne, auquel cas elle dépend du module complémentaire de bibliothèque de pièces à installer (et mettre à jour par l\'utilisateur) ou en ligne, auquel cas elle pointe directement à partir du [Parts Library Git repository](https://github.com/FreeCAD/FreeCAD-library) et permet de télécharger directement à partir de là.
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/fr

@@ -40,5 +40,7 @@ Icône de la barre d\'outils ![](images/Wirefilter.svg )
 
 {{CodeDownload|https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa6c|Wirefilter.FCMacro}}
 
+
+
 ---
-[documentation index](../README.md) > Macro WireFilter/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro WireFilter/fr

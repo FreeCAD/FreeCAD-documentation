@@ -27,5 +27,7 @@ The <img alt="" src=images/Assembly_AxialMove.svg  style="width:24px;"> [Axial m
     -   The **Esc** key.
     -   The **OK** button in the Tasks panel.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AxialMove/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AxialMove/en

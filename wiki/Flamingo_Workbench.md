@@ -5,7 +5,7 @@
 
 This is a set of customized FreeCAD commands and objects that help to speed-up the drawing of frames and pipelines, mainly.
 
-------------------------------------------------------------------------
+
 
 :   \"*Flamingo*\" workbench is dedicated for versions using Python \>2.7 syntax and Qt4 toolkit.
 
@@ -15,7 +15,7 @@ This is a set of customized FreeCAD commands and objects that help to speed-up t
 
 :   \"*Dodo*\" workbench is for Python \>3.6 and Qt5.
 
-------------------------------------------------------------------------
+
 
 For convenience Flamingo/Dodo tools are grouped in three toolbars/menus + one utility set.
 
@@ -313,11 +313,11 @@ In case one pipe is selected, its properties are aplied to the U-bolt. Moreover 
 
 With **Ref. face** button it\'s possible to select the face of the support to which to orient the U-bolt axis.
 
-------------------------------------------------------------------------
+
 
 *Only in **dodo**: the above piping components can be inserted also wfrom the dedicated pie-menu.*
 
-------------------------------------------------------------------------
+
 
 :   8\) PypeLine Manager
 
@@ -519,9 +519,7 @@ The [external workbenches](external_workbenches.md) page has some information an
 
 New workbenches are in development, stay tuned!
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Flamingo Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Flamingo Workbench

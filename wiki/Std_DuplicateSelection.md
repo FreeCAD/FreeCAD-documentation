@@ -31,5 +31,7 @@ The **Std DuplicateSelection** command duplicates objects within the active docu
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std DuplicateSelection
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DuplicateSelection

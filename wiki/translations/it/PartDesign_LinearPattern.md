@@ -117,5 +117,7 @@ v0.17 e superiore Seleziona uno degli assi standard di Origine del Corpo (X, Y o
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/it

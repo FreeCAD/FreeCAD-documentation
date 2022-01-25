@@ -277,7 +277,9 @@ Son olarak, FreeCAD\'in en güçlü özelliklerinden biri [betik](Power_users_hu
 
 
 
-[Kullanıcı Belgeleri](<img src="images/Property.png" style="width:16px"> User_Documentation/tr.md)
+[Kullanıcı Belgeleri](Category:User_Documentation/tr.md)
+
+
 
 ---
-[documentation index](../README.md) > Getting started/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/tr

@@ -1,11 +1,12 @@
 # Import text and geometry from Inkscape/fr
-{{TutorialInfo/fr
-|Topic= Importer texte et géométrie depuis Inkscape
-|Level= Débutant
-|Time= 30 minutes
-|Author=r-frank
-|FCVersion=0.16.6704
-|Files=
+---
+- TutorialInfo:/fr
+   Topic: Importer texte et géométrie depuis Inkscape
+   Level: Débutant
+   Time: 30 minutes
+   Author:r-frank
+   FCVersion:0.16.6704
+   Files:
 }}
 
 ## Introduction
@@ -17,7 +18,7 @@ Inkscape 0.91 et FreeCAD 0.16.6704 sur Windows sont utilisés pour ces opératio
 
 -   l\'import svg dans FreeCAD ne peut pas gérer un fichier svg avec une résolution de plus de 45 dpi, alors vérifiez les paramètres dans inkscape
 -   lors de l\'importation d\'objets chemin qui n\'apparaissent pas très lisses dans la vue 3D dans FreeCAD , cela peut être dû aux paramètres de FreeCAD pour la vue de la forme.
-    -   dans FreeCAD, choisissez {{KEY | Édition}} → {{KEY | Préférences}} → {{KEY | Conception de pièce}} → {{KEY | Vue de la Forme}}
+    -   dans FreeCAD, choisissez {{KEY     Édition}} → {{KEY     Préférences}} → {{KEY     Conception de pièce}} → {{KEY     Vue de la Forme}}
     -   en ce qui concerne \"Tesselation\" (mosaïque), la \"Déviation maximale pour la zone de délimitation du modèle\", la valeur par défaut est \"0,5%\"
     -   le réglage de cette valeur à une valeur inférieure augmentera la douceur du modèle dans la vue 3D (et utilisera plus de performances du PC)
     -   n\'utilisez pas de valeurs inférieures à \"0,01%\", cela entraînera probablement un crash de FreeCAD
@@ -26,7 +27,7 @@ Inkscape 0.91 et FreeCAD 0.16.6704 sur Windows sont utilisés pour ces opératio
 ## Importation de texte à partir de inkscape 
 
 -   Dans inkscape, après avoir inséré du texte (et peut-être en appliquant des effets comme plier ou autre chose), assurez-vous de
-    -   sélectionnez votre texte et choisissez {{KEY | Chemin}} → {{KEY | Objet en chemin}}
+    -   sélectionnez votre texte et choisissez {{KEY     Chemin}} → {{KEY     Objet en chemin}}
     -   dégroupez vos objets
     -   Enregistrer sous \"Format de fichier SVG simple (\* .svg)\"
 -   ouvrez le fichier dans FreeCAD, en choisissant l\'option \"SVG en tant que géométrie (importSVG)\"
@@ -50,5 +51,11 @@ Puisque inkscape et FreeCAD semblent avoir des approches différentes sur la fa�
 
 Merci aux utilisateurs \"freecad-heini-1\" et \"herbk\" pour avoir testé et fourni des commentaires précieux.
 
+
+{{clear
 ---
-[documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/fr
+
+
+
+---
+![](images/Right_arrow.png) [documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/fr

@@ -32,5 +32,7 @@ Das hinzugefügte **Assembly**-Objekt mit allen sichtbaren Containern sieht so a
 1.  Durch drücken der Schaltfläche **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Baugruppe anlegen](Assembly3_CreateAssembly/de.md)** oder
     durch die Verwendung des Tastenkürzels **A** dann **N**, wird ein leerer Assembly-Container erzeugt
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 CreateAssembly/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 CreateAssembly/de

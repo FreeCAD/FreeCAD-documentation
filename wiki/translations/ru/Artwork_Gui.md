@@ -24,5 +24,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Gui/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Gui/ru

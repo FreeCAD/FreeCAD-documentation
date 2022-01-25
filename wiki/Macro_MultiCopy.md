@@ -303,16 +303,16 @@ CORRECT Signal
 
 ##  Notes
 
-+-------+-----------------------------------------------------------------------------------------------------------------+
++++
 | \(1\) | There are a few inevitable from-to naming clashes between roman numerals and alphabetic characters.             |
 |       | E.g.: c, v, i, x, etc.                                                                                          |
-+-------+-----------------------------------------------------------------------------------------------------------------+
++++
 | \(2\) | By design, roman numerals take precedence over alphabetic characters.                                           |
-+-------+-----------------------------------------------------------------------------------------------------------------+
++++
 | \(3\) | Dependencies only apply to \'Standard Copy\'; its application on \'Simple Copy\' will automatically be ignored. |
-+-------+-----------------------------------------------------------------------------------------------------------------+
++++
 |       |                                                                                                                 |
-+-------+-----------------------------------------------------------------------------------------------------------------+
++++
 
 ## Script
 
@@ -376,5 +376,7 @@ __Files__         = "MultiCopy_UI_Files/MultiCopy_Main_Dialog.ui, "\
 \[2\] [FreeCAD Macros Github Repository - MultiCopy](https://github.com/FreeCAD/FreeCAD-macros/tree/master/Conversion)
 \[3\] [FreeCAD Forum Discussion Page - MultiCopy](https://forum.freecadweb.org/viewtopic.php?f=22&t=56753)
 
+
+
 ---
-[documentation index](../README.md) > Macro MultiCopy
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro MultiCopy

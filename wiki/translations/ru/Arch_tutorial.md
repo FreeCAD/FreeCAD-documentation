@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ru
+   Topic:Моделирование
+   Level:Средний
+   Time:
+   Author:[Yorik](User_Yorik.md)
+   FCVersion:0.14
+   Files:
+---
+
 # Arch tutorial/ru
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru
-|Topic=Моделирование
-|Level=Средний
-|Time=
-|Author=[Yorik](User_Yorik.md)
-|FCVersion=0.14
-|Files=
-}}
 
 
 </div>
@@ -635,9 +641,6 @@ To populate a spreadsheet with values extracted from the model the Arch\_Schedul
 Файл, созданный во время прохождения урока, может быть взят [здесь](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd).
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ru

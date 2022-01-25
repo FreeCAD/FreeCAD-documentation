@@ -45,5 +45,7 @@ Die Kopie hat einfache Ansichtseigenschaften wie jede andere [Teilfunktion](Part
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/de

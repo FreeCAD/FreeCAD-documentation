@@ -20,9 +20,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> PartDesign](Category_PartDesign.md)
+
 
 ---
-[documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/it

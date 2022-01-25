@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to Sketcher
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [Basic Sketcher Tutorial/pt](Basic_Sketcher_Tutorial/pt.md)                   [Sketcher CarbonCopy/pt](Sketcher_CarbonCopy/pt.md)                           [Sketcher CompCreateArc/pt](Sketcher_CompCreateArc/pt.md)
   [Sketcher ConstrainAngle/pt](Sketcher_ConstrainAngle/pt.md)                   [Sketcher ConstrainCoincident/pt](Sketcher_ConstrainCoincident/pt.md)         [Sketcher ConstrainDistance/pt](Sketcher_ConstrainDistance/pt.md)
   [Sketcher ConstrainDistanceX/pt](Sketcher_ConstrainDistanceX/pt.md)           [Sketcher ConstrainDistanceY/pt](Sketcher_ConstrainDistanceY/pt.md)           [Sketcher ConstrainEqual/pt](Sketcher_ConstrainEqual/pt.md)
@@ -16,8 +16,8 @@ This category includes FreeCAD pages related to Sketcher
   [Sketcher Move/pt](Sketcher_Move/pt.md)                                       [Sketcher NewSketch/pt](Sketcher_NewSketch/pt.md)                             [Sketcher ReorientSketch/pt](Sketcher_ReorientSketch/pt.md)
   [Sketcher SelectElementsWithDoFs/pt](Sketcher_SelectElementsWithDoFs/pt.md)   [Sketcher ToggleConstruction/pt](Sketcher_ToggleConstruction/pt.md)           [Sketcher Trimming/pt](Sketcher_Trimming/pt.md)
   [Sketcher ValidateSketch/pt](Sketcher_ValidateSketch/pt.md)                   [Sketcher ViewSketch/pt](Sketcher_ViewSketch/pt.md)                           [Sketcher Workbench/pt](Sketcher_Workbench/pt.md)
-                                                                                                                                                                              
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- ---------------------------------------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:Sketcher/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sketcher/pt

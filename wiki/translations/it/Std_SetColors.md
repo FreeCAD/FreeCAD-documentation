@@ -1,5 +1,7 @@
 # Std SetColors/it
 1.  REDIRECT [Part\_FaceColors/it](Part_FaceColors/it.md)
 
+
+
 ---
-[documentation index](../README.md) > Std SetColors/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SetColors/it

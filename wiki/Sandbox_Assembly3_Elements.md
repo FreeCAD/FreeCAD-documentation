@@ -197,7 +197,7 @@ This applies to circular edges like those of a cylinder or a cuboid fillet.
 
 Dies ist eine Sandbox
 
-[<img src="images/Property.png" style="width:16px"> Assembly3](Category_Assembly3.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
+
 
 ---
-[documentation index](../README.md) > [Assembly3](Category_Assembly3.md) > Sandbox:Assembly3 Elements
+![](images/Right_arrow.png) [documentation index](../README.md) > [Assembly3](Category_Assembly3.md) > [Addons](Category_Addons.md) > Sandbox:Assembly3 Elements

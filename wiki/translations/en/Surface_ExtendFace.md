@@ -105,7 +105,7 @@ surf = doc.addObject("Surface::Filling", "Surface")
 surf.BoundaryEdges = [(obj, "Edge1")]
 doc.recompute()
 
-# ---------------------------------------------------------
+# 
 points_spl = [App.Vector(-10, 0, 2),
               App.Vector(4, 0, 7),
               App.Vector(18, 0, -5),
@@ -117,7 +117,7 @@ doc.recompute()
 surf.UnboundEdges = [(aux_edge, "Edge1")]
 doc.recompute()
 
-# ---------------------------------------------------------
+# 
 surf_extended = doc.addObject("Surface::Extend", "Surface")
 surf_extended.Face = [surf, "Face1"]
 doc.recompute()
@@ -131,5 +131,7 @@ doc.recompute()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface ExtendFace/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface ExtendFace/en

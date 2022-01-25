@@ -201,7 +201,7 @@ FreeCAD s\'exécutant en mode console (sans interface graphique)
 
 La boîte de dialogue pour sauvegarder une image avec des dimensions personnalisées.
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/fr](<img src="images/Property.png" style="width:16px"> User_Documentation/fr.md) [<img src="images/Property.png" style="width:16px"> Screenshots/fr](<img src="images/Property.png" style="width:16px"> Screenshots/fr.md)
+
 
 ---
-[documentation index](../README.md) > Screenshots/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/fr

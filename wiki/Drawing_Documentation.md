@@ -136,9 +136,9 @@ CanvasView is the actual QGraphicsScene object and DrawingView processes a list 
 3.  Add your class to the bottom of Command.cpp
 4.  Add your information to Workbench.cpp, this will tell FreeCAD/Drawing module where to place the icons defined in command.cpp in the actual freecad interface (the toolbars, dropdowns, etc.)
 
- {{Drawing Tools navi}} 
+ {{Drawing Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing Documentation
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing Documentation

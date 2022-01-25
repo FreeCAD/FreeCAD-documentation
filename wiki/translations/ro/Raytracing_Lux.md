@@ -51,5 +51,7 @@ Setările suplimentare de proiect ar necesita definirea unor șabloane supliment
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Lux/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Lux/ro

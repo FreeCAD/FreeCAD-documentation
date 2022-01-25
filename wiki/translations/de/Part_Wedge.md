@@ -39,7 +39,7 @@ Erstellt ein parametrisches Keil-Objekt. Der Keil hat standardmäßig eine groß
 
 ### Parametrische Eingaben 
 
-+------------------------------------------------------------------+-----------------------------------------------------------------+
++++
 | ![](images/PartWedgeProperty_Inputs.png ) | Zusammen mit der Standard-Orientierung stehen die Eingaben für: |
 |                                                                  |                                                                 |
 |                                                                  | -                                                |
@@ -66,11 +66,13 @@ Erstellt ein parametrisches Keil-Objekt. Der Keil hat standardmäßig eine groß
 |                                                                  |     {{PropertyData/de|Z2 min/max}}                              |
 |                                                                  |                                                              |
 |                                                                  |     : Koordinatenwerte der oberen Fläche in Z-Richtung          |
-+------------------------------------------------------------------+-----------------------------------------------------------------+
++++
 
 ### Mehr Beispiele für Keile 
 
 ![](images/Wedge_examples.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/de

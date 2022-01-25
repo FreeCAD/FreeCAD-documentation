@@ -37,5 +37,7 @@ Der **Std DlgAnpassen** Befehl öffnet das Dialogfeld Anpassen, das Zugriff auf 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgCustomize/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgCustomize/de

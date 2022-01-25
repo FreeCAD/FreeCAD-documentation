@@ -102,5 +102,7 @@ Se l\'oggetto desiderato deve avere un posizionamento, una forma, un allegato o 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > App FeaturePython/it
+![](images/Right_arrow.png) [documentation index](../README.md) > App FeaturePython/it

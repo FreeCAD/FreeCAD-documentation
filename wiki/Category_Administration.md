@@ -3,7 +3,7 @@ This category contains articles and categories about wiki administrative subject
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------------- -----------------------------------------------------------------------------
+    
   [Template:Arch Tools navi](Template_Arch_Tools_navi.md)                 [Template:Artwork](Template_Artwork.md)                               [Template:Artwork/ru](Template:Artwork/ru.md)
   [Template:ASCII](Template_ASCII.md)                                     [Backend Adminstration](Backend_Adminstration.md)                     [Bug Triage](Bug_Triage.md)
   [Changelog](Changelog.md)                                               [Template:Choice](Template_Choice.md)                                 [Template:Code](Template_Code.md)
@@ -33,12 +33,9 @@ This category contains articles and categories about wiki administrative subject
   [Template:True/pl](Template:True/pl.md)                                 [Template:Tutorials navi](Template_Tutorials_navi.md)                 [Template:UnfinishedDocu](Template_UnfinishedDocu.md)
   [Template:URL](Template_URL.md)                                         [Template:URLn](Template_URLn.md)                                     [Template:Userdocnavi](Template_Userdocnavi.md)
   [Template:Value](Template_Value.md)                                     [Template:Variable](Template_Variable.md)                             [Template:VeryImportantMessage](Template_VeryImportantMessage.md)
-  [WikiPages](WikiPages.md)                                               [WikiRobots](WikiRobots.md)                                           
-                                                                                                                                                                
-                                                                                                                                                                
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------------- -----------------------------------------------------------------------------
+  [WikiPages](WikiPages.md)                                               [WikiRobots](WikiRobots.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md) [<img src="images/Property.png" style="width:16px"> Disambiguation](Category_Disambiguation.md) [<img src="images/Property.png" style="width:16px"> HouseKeeping](Category_HouseKeeping.md) [<img src="images/Property.png" style="width:16px"> Pages to delete](Category_Pages_to_delete.md) [<img src="images/Property.png" style="width:16px"> UnfinishedDocu](Category_UnfinishedDocu.md) [<img src="images/Property.png" style="width:16px"> Wiki](Category_Wiki.md) [<img src="images/Property.png" style="width:16px"> Work in progress](Category_Work_in_progress.md)
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Category:Administration
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Category:Administration

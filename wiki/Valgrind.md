@@ -22,7 +22,7 @@
 
 -   [gcc address santizers](http://gavinchou.github.io/experience/summary/syntax/gcc-address-sanitizer/) are another option. Apparently the error message output is very clear.
 
-[<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
+
 
 ---
-[documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > Valgrind
+![](images/Right_arrow.png) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > [Developer](Category_Developer.md) > Valgrind

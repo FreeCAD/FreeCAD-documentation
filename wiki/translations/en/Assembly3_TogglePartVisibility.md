@@ -20,5 +20,7 @@ The <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="width:24px;
     -   The **Assembly3 → <img src="images/Assembly_TogglePartVisibility.svg" width=16px> Toggle part visibility** menu option.
     -   The keyboard shortcut: **A** then **Space**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 TogglePartVisibility/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 TogglePartVisibility/en

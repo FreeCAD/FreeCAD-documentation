@@ -72,5 +72,7 @@ Ein möglicher Arbeitsablauf könnte sein:
 -   Erzeuge eine \"Hülle aus Flächen\"
 -   Erzeuge einen \"Festkörper aus Hülle\"
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/de

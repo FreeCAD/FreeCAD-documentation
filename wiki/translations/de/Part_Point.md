@@ -30,7 +30,7 @@ Ein Punkt (Knoten) geometrischer Grundkörper.
 
 ### Geometrische Grundkörper 
 
-+------------------------------------------------------------------------------+---------------------+
++++
 | ![](images/PartVertexPrimitivesOptions_it.png ) | Punkt               |
 |                                                                              |                     |
 |                                                                              | #### Parameter      |
@@ -52,11 +52,11 @@ Ein Punkt (Knoten) geometrischer Grundkörper.
 |                                                                              | -                   |
 |                                                                              | -                   |
 |                                                                              | -                   |
-+------------------------------------------------------------------------------+---------------------+
++++
 
 ### Eigenschaft
 
-+------------------------------------------------------------+----------------------------------------------+
++++
 | ![](images/PartVertexProperty_it.png ) | #### Ansicht                                 |
 |                                                            |                                              |
 |                                                            |                                    |
@@ -91,7 +91,7 @@ Ein Punkt (Knoten) geometrischer Grundkörper.
 |                                                            |     **Z**                       |
 |                                                            |                                           |
 |                                                            |     :                                        |
-+------------------------------------------------------------+----------------------------------------------+
++++
 
 
 
@@ -107,5 +107,7 @@ Ein Punkt (Knoten) geometrischer Grundkörper.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/de

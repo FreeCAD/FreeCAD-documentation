@@ -59,5 +59,7 @@ L\'option de menu **Undocked** sépare la [vue 3D](3D_view/fr.md) active de l\'i
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewDockUndockFullscreen/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewDockUndockFullscreen/fr

@@ -172,7 +172,7 @@ surf.BoundaryEdges = [(obj1, "Edge1"),
                       (obj4, "Edge1")]
 doc.recompute()
 
-# ---------------------------------------------------------
+# 
 points_spl = [App.Vector(-10, 0, 2),
               App.Vector(4, 0, 7),
               App.Vector(18, 0, -5),
@@ -184,7 +184,7 @@ doc.recompute()
 surf.UnboundEdges = [(aux_edge, "Edge1")]
 doc.recompute()
 
-# ---------------------------------------------------------
+# 
 aux_v1 = Draft.make_line(App.Vector(-13, -12, 5),
                          App.Vector(-13, -12, -5))
 aux_v2 = Draft.make_line(App.Vector(-3, 18, 5),
@@ -204,5 +204,7 @@ doc.recompute()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Filling/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Surface](Surface_Workbench.md) > Surface Filling/pl

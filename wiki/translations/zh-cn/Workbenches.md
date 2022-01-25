@@ -108,8 +108,5 @@ FreeCAD工作台很容易在[Python](http://www.python.org)中编程，所以很
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/zh-cn

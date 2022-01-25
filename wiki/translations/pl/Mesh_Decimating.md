@@ -34,5 +34,7 @@ The **Mesh Decimating** command reduces the number of faces in mesh objects.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/pl

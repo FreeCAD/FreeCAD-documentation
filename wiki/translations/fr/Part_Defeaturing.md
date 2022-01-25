@@ -36,5 +36,7 @@ Pour être disponible, cet outil nécessite que FreeCAD soit basé sur Open Casc
 -   Annonce officielle sur le portail de développement collaboratif Open Cascade [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211).
 -   <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [Atelier Defeaturing](Defeaturing_Workbench/fr.md)
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/fr

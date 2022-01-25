@@ -3,7 +3,7 @@ This category contains macros to extend your FreeCAD installation with new funct
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+    
   [Fastener holes](Fastener_holes.md)                                                             [Template:Macro](Template_Macro.md)                                                                                         [Macro 3D Parametric Curve](Macro_3D_Parametric_Curve.md)
   [Macro 3d Printer Slicer](Macro_3d_Printer_Slicer.md)                                           [Macro 3d Printer Slicer Individual Parts](Macro_3d_Printer_Slicer_Individual_Parts.md)                                     [Macro 3DXML import](Macro_3DXML_import.md)
   [Macro AeroFoil](Macro_AeroFoil.md)                                                             [Macro Airfoil Import & Scale](Macro_Airfoil_Import_&_Scale.md)                                                             [Macro Alias Manager](Macro_Alias_Manager.md)
@@ -75,10 +75,8 @@ This category contains macros to extend your FreeCAD installation with new funct
   [Macro Zoom1 1](Macro_Zoom1_1.md)                                                               [Macro ZTest Over 128](Macro_ZTest_Over_128.md)                                                                             [Macros](Macros.md)
   [Macros recipes](Macros_recipes.md)                                                             [Misc templates Full](Misc_templates_Full.md)                                                                               [Qt Example](Qt_Example.md)
   [Sandbox:Simone.b](Sandbox:Simone.b.md)                                                         [Simple grid](Simple_grid.md)                                                                                               [Svg Namespace](Svg_Namespace.md)
-                                                                                                                                                                                                                                              
-  ------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md)
+
 
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Category:Macros
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [User Documentation](Category_User Documentation.md) > [Categories](Category_Categories.md) > Category:Macros

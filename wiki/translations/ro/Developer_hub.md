@@ -1,5 +1,8 @@
-# Developer hub/ro
-![150](images/Crystal_Clear_app_tutorials.png )
+# <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> Developer hub/ro
+
+
+
+
 
 Acesta este locul unde veți veni dacă doriți să contribuiți la dezvoltarea software-ului FreeCAD.
 
@@ -189,8 +192,5 @@ FreeCAD, deși utilizabilă în anumite domenii, este la începutul unei lungi d
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/ro

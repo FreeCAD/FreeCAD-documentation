@@ -177,7 +177,7 @@ Hier ist eine Beschreibung einiger dieser Variablen:
 <div class="mw-translate-fuzzy">
 
   Variablenname                            Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Vorgabewert
-  ---------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------
+    
   BUILD\_XXX                               Erstelle FreeCAD mit der Komponente XXX. Falls du bspw. den Arbeitsbereich *OpenSCAD* nicht willst/brauchst, deaktiviere die Variable *BUILD\_OPENSCAD*. FreeCAD wird diesen Arbeitsbereich dann nicht enthalten. **Hinweis:** Einige Komponenten werden für andere Komponenten benötigt. Wenn du bspw. *BUILD\_ROBOT* deaktivierst, wird CMake dich darüber informieren, dass die Komponente *Path* nicht korrekt kompiliert werden kann. Prüfe daher die CMake-Ausgaben nach dem Ändern einer BUILD\_XXX-Option!                                                                                                                                      hängt davon ab
   BUILD\_ENABLE\_CXX\_STD                  Die Version des C++-Sprachstandards. **C++14** ist der höchstmögliche für FreeCAD 0.19, während wenigstens **C++17** für FreeCAD 0.20 erforderlich ist. Siehe auch den Hinweis im Abschnitt [\#Bau\_mit\_Visual\_Studio\_15\_(2017)\_und\_16\_(2019)](#Bau_mit_Visual_Studio_15_(2017)_und_16_(2019).md)                                                                                                                                                                                                                                                                                                                                        hängt davon ab
   CMAKE\_INSTALL\_PREFIX                   Das Ausgabeverzeichnis bei der Erstellung des Ziels *INSTALL*, siehe auch Abschnitt [\#Ausführen\_und\_Installieren\_von\_FreeCAD](#Ausführen_und_Installieren_von_FreeCAD.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Windows Standard-Programminstallationsverzeichnis
@@ -504,11 +504,5 @@ Siehe auch
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Windows/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/de

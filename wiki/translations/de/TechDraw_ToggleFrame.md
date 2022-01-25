@@ -54,5 +54,7 @@ Das Umschaltwerkzeug verfügt derzeit nicht über eine Programmierschnittstelle.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ToggleFrame/de

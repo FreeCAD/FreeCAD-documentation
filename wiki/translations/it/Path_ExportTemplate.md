@@ -100,5 +100,7 @@ Creare un modello
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/it

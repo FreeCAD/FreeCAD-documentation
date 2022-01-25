@@ -1,18 +1,23 @@
+---
+- TutorialInfo:/pl
+   Topic: Raytracing
+   Level: Początkujący
+   Time: 10 minut + czas renderowania
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16  lub nowszy
+   Files:
+---
+
 # Raytracing tutorial/pl
+
+
+
 ## Środowisko pracy Raytracing 
 
 
 **Środowisko [Raytracing](Raytracing_Workbench/pl.md) zostało zastąpione przez nowe [https://github.com/FreeCAD/FreeCAD-render środowisko Render], które ma je zastąpić. Nie należy go mylić z zatrzymanym i przestarzałym [Projekt Render](Render_project/pl.md). Środowisko pracy Render może być zainstalowane poprzez [Menadżer dodatków](Std_AddonMgr/pl.md). Informacja tutaj jest podana, ponieważ domyślnie FreeCAD jest nadal dostarczany ''(od wersji 0.19-24276)'' ze środowiskiem Raytracing, i ponieważ nowy moduł powinien w zasadzie działać w ten sam sposób.**
 
 
-{{TutorialInfo/pl
-|Topic= Raytracing
-|Level= Początkujący
-|Time= 10 minut + czas renderowania
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16  lub nowszy
-|Files=
-}}
 
 ## Wprowadzenie
 
@@ -76,7 +81,9 @@ Teraz mamy model, z którym możemy pracować.
 
 FreeCAD natychmiast otworzy obraz po zakończeniu renderowania.
 
-Dzięki temu ćwiczeniu poznaliśmy podstawowy przepływ pracy dla środowiska pracy [Raytracing](Raytracing_Workbench/pl.md). {{Tutorials navi}} {{Raytracing Tools navi}}
+Dzięki temu ćwiczeniu poznaliśmy podstawowy przepływ pracy dla środowiska pracy [Raytracing](Raytracing_Workbench/pl.md).  {{Raytracing Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/pl

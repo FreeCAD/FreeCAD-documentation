@@ -3,7 +3,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+    
   [Arch API/ro](Arch_API/ro.md)                                                             [Base API/ro](Base_API/ro.md)                                                                         [Builtin modules/ro](Builtin_modules/ro.md)
   [Code snippets/ro](Code_snippets/ro.md)                                                   [Command/ro](Command/ro.md)                                                                           [Console API/ro](Console_API/ro.md)
   [Debugging/ro](Debugging/ro.md)                                                           [Dialog creation/ro](Dialog_creation/ro.md)                                                           [Draft API/ro](Draft_API/ro.md)
@@ -23,10 +23,9 @@ This category shows documentation articles dealing with python scripting, which 
   [Scripted Parts: Ball Bearing - Part 1/ro](Scripted_Parts:_Ball_Bearing_-_Part_1/ro.md)   [Scripting and macros/ro](Scripting_and_macros/ro.md)                                                 [TechDraw API/ro](TechDraw_API/ro.md)
   [TechDrawGui API/ro](TechDrawGui_API/ro.md)                                               [Topological data scripting/ro](Topological_data_scripting/ro.md)                                     [TopoShape API/ro](TopoShape_API/ro.md)
   [Units/ro](Units/ro.md)                                                                   [Vector API/ro](Vector_API/ro.md)                                                                     [ViewObject API/ro](ViewObject_API/ro.md)
-  [Workbench creation/ro](Workbench_creation/ro.md)                                                                                                                                                       
-  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+  [Workbench creation/ro](Workbench_creation/ro.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/ro](<img src="images/Property.png" style="width:16px"> Documentation/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:Poweruser Documentation/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Poweruser Documentation/ro

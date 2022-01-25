@@ -1,10 +1,9 @@
-# Dxf Importer Install
-{{TutorialInfo
-|Topic=SampleClass
-|Level=Medium user
-|Time=15 minutes
-|Author=[Mario52](User_Mario52.md)
-|FCVersion=All
+---
+- TutorialInfo:   Topic:SampleClass
+   Level:Medium user
+   Time:15 minutes
+   Author:[Mario52](User_Mario52.md)
+   FCVersion:All
 }}
 
 ### Description
@@ -113,12 +112,16 @@ In Ubuntu, this is normally **/home/your\_user\_name/.FreeCAD**
 
 This repository contains several versions of the DXF importer. The default version, that you download when you press the \"download ZIP\" button above, is always the version needed by the current stable version of FreeCAD.
 
-If you use another version of FreeCAD, for example a development version or an older version, you might also need another verison of this DXF library. You can find out which version of the DXF library is needed by your version of FreeCAD, by entering the following code in the FreeCAD python console:  
-```python
+If you use another version of FreeCAD, for example a development version or an older version, you might also need another verison of this DXF library. You can find out which version of the DXF library is needed by your version of FreeCAD, by entering the following code in the FreeCAD python console:  {{Code   code:
 import importDXF
 print importDXF.CURRENTDXFLIB
-```
+---
 
+# Dxf Importer Install
+
+
+
+ 
 ### Third step: 
 
 Download Teigha converter for use DWG files
@@ -183,5 +186,7 @@ Using Teigha. Teigha is a full program and you can use it without FreeCAD
 
 Video tutorial [FreeCAD Tutorial 24 - DXF/DWG Import](https://www.youtube.com/watch?v=wHxTWuDhc3M)
 
+
+
 ---
-[documentation index](../README.md) > Dxf Importer Install
+![](images/Right_arrow.png) [documentation index](../README.md) > Dxf Importer Install

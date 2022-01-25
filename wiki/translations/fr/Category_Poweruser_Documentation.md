@@ -3,7 +3,7 @@ Cette catégorie affiche les articles de la documentation concernant le scriptin
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+    
   [Arch API/fr](Arch_API/fr.md)                                                                         [Base API/fr](Base_API/fr.md)                                                             [Builtin modules/fr](Builtin_modules/fr.md)
   [Code snippets/fr](Code_snippets/fr.md)                                                               [Coin3d snippets/fr](Coin3d_snippets/fr.md)                                               [Command/fr](Command/fr.md)
   [Console API/fr](Console_API/fr.md)                                                                   [Create a FeaturePython object part I/fr](Create_a_FeaturePython_object_part_I/fr.md)     [Create a FeaturePython object part II/fr](Create_a_FeaturePython_object_part_II/fr.md)
@@ -37,10 +37,8 @@ Cette catégorie affiche les articles de la documentation concernant le scriptin
   [TechDrawGui API/fr](TechDrawGui_API/fr.md)                                                           [Topological data scripting/fr](Topological_data_scripting/fr.md)                         [TopoShape API/fr](TopoShape_API/fr.md)
   [Units/fr](Units/fr.md)                                                                               [Vector API/fr](Vector_API/fr.md)                                                         [ViewObject API/fr](ViewObject_API/fr.md)
   [Viewprovider/fr](Viewprovider/fr.md)                                                                 [Workbench creation/fr](Workbench_creation/fr.md)                                         [Wrapping a Cplusplus class in Python/fr](Wrapping_a_Cplusplus_class_in_Python/fr.md)
-                                                                                                                                                                                                                  
-  ------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/fr](<img src="images/Property.png" style="width:16px"> Documentation/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Poweruser Documentation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Poweruser Documentation/fr

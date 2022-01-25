@@ -43,5 +43,7 @@ The **Mesh TrimByPlane** command trims faces and parts of faces on one side of a
 
  {{Mesh Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh TrimByPlane
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh TrimByPlane

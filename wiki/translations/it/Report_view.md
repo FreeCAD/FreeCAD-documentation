@@ -55,5 +55,7 @@ Fare clic con il tasto destro sulla vista del report per mostrare alcuni comandi
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Report view/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Report view/it

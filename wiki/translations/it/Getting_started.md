@@ -170,7 +170,7 @@ Infine, una delle più potenti caratteristiche di FreeCAD è l\'ambiente di [scr
 
 {{Userdocnavi/it}}
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md)
+
 
 ---
-[documentation index](../README.md) > Getting started/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/it

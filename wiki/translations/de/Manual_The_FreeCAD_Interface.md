@@ -67,5 +67,7 @@ Diese erweiterten Anpassungsoptionen sind über das Menü {{MenuCommand/de|Werkz
 -   [Arbeitsbereiche](Workbenches/de.md)
 -   [Mehr über Python](https://www.python.org)
 
+
+
 ---
-[documentation index](../README.md) > Manual:The FreeCAD Interface/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD Interface/de

@@ -35,5 +35,7 @@ La commande **Std Imprimer** est principalement destinée à imprimer des pages 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Print/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Print/fr

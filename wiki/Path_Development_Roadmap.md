@@ -142,5 +142,7 @@ The following list is not individual bugs but shows how Path is inconsistent in 
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Development Roadmap
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Development Roadmap

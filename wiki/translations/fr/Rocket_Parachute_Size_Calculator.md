@@ -71,11 +71,5 @@ Les calculs sont effectués en unités métriques, mais s\'affichent dans les un
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Rocket Parachute Size Calculator/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Parachute Size Calculator/fr

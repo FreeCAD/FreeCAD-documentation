@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/ru
+   Topic:Part Workbench
+   Level:Beginner
+   Time:10 minutes
+   Author:Hughthecat
+   FCVersion:
+   Files:
+---
+
 # Aeroplane/ru
-{{TutorialInfo/ru
-|Topic=Part Workbench
-|Level=Beginner
-|Time=10 minutes
-|Author=Hughthecat
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## First Steps 
 
@@ -135,9 +141,6 @@
 Я надеюсь, что этот небольшой учебник помог Вам почувствовать, что такое вращение.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Aeroplane/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/ru

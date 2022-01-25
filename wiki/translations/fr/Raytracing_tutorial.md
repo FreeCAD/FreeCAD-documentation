@@ -1,4 +1,17 @@
+---
+- TutorialInfo:/fr
+   Topic: Raytracing
+   Level: Débutant
+   Time: 10 minutes + Render time
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 et plus
+   Files:
+---
+
 # Raytracing tutorial/fr
+
+
+
 ## Atelier Raytracing 
 
 
@@ -7,14 +20,6 @@
 .
 
 
-{{TutorialInfo/fr
-|Topic= Raytracing
-|Level= Débutant
-|Time= 10 minutes + Render time
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16 et plus
-|Files=
-}}
 
 ## Introduction
 
@@ -79,7 +84,9 @@ Maintenant nous avons un modèle pour travailler.
 
 FreeCAD ouvrira immédiatement l\'image après que le rendu soit fini.
 
-Nous en avons maintenant terminé avec le processus de base pour l\'[atelier Raytracing](Raytracing_Workbench/fr.md). {{Tutorials navi}} {{Raytracing Tools navi}}
+Nous en avons maintenant terminé avec le processus de base pour l\'[atelier Raytracing](Raytracing_Workbench/fr.md).  {{Raytracing Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/fr

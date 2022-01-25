@@ -39,5 +39,7 @@ A copy of the original **[<img src=images/Std_Part.svg style="width:16px"> [Std 
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkImport
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkImport

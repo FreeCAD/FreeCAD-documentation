@@ -52,5 +52,7 @@ The RegularPolygon is available from the Create Primitives dialogue in the Part 
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RegularPolygon/de

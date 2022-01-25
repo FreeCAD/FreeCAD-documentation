@@ -56,5 +56,7 @@ Lo strumento esplode anche forme non composte nei loro costituenti di livello in
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/it

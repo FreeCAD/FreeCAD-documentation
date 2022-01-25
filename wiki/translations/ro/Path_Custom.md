@@ -47,5 +47,7 @@ a noului obiect creat. Consulatați pagina [Path scripting](Path_scripting
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Custom/ro

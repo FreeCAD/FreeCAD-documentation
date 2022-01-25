@@ -33,5 +33,7 @@ When the **Accept** button is pressed, a new tank instance is created inside the
 
  {{Ship_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > Ship TankNew
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship TankNew

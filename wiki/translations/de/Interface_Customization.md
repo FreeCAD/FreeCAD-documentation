@@ -288,5 +288,7 @@ Erweiterungen bieten eine weitere Möglichkeit, die Benutzeroberfläche anzupass
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Interface Customization/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface Customization/de

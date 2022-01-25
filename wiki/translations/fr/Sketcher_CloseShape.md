@@ -34,5 +34,7 @@ L\'outil va connecter les éléments dans l\'ordre de leur sélection, alors ass
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/fr

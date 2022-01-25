@@ -34,5 +34,7 @@ The <img alt="" src=images/Curves_ExtendCurve.svg  style="width:24px;"> [Curves 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves ExtendCurve/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ExtendCurve/en

@@ -35,5 +35,7 @@ The Tree view RecordSelection mode can also be set in the [Preferences editor](P
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeRecordSelection/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeRecordSelection/ru

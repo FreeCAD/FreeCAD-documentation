@@ -618,9 +618,7 @@ Some other links about IDEs for Python which might be of interest are:
 -   [Your Development Environment](http://docs.python-guide.org/en/latest/dev/env/)
 -   [PyCharm Community Edition IDE](http://www.jetbrains.com/pycharm/)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Python Development Environment
+![](images/Right_arrow.png) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Python Code](Category_Python Code.md) > Python Development Environment

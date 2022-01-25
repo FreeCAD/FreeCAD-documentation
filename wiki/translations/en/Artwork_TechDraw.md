@@ -28,9 +28,9 @@ The [TechDraw Workbench](TechDraw_Workbench.md) comes with a number of default t
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md)
+
 
 ---
-[documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/en

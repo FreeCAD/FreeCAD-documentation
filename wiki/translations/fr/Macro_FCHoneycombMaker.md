@@ -355,5 +355,7 @@ Autre similaire Honeycomb [Honeycomb Array](https://forum.freecadweb.org/viewtop
 
 2019-07-04 : première version
 
+
+
 ---
-[documentation index](../README.md) > Macro FCHoneycombMaker/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCHoneycombMaker/fr

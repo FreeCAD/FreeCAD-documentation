@@ -279,7 +279,5 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 
 
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Fasteners](Category_Fasteners.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Fasteners Workbench/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > [External Workbenches](Category_External Workbenches.md) > [Fasteners](Category_Fasteners.md) > Fasteners Workbench/pl

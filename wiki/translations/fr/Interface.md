@@ -82,5 +82,7 @@ Ces options sont dans le menu, **Outils → Personnaliser...**. Voir [Personnali
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Interface/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface/fr

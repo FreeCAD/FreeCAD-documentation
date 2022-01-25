@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/de
+   Topic:Plot Arbeitsbereich
+   Level:Anfänger
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Plot Basic tutorial/de
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/de
-|Topic=Plot Arbeitsbereich
-|Level=Anfänger
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -160,9 +166,9 @@ Set the output image size in inches, for example use 11.7x8.3 to get a **DIN A4*
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
+}} {{Plot_Tools_navi}}
 
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Basic tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot Basic tutorial/de

@@ -201,7 +201,5 @@ Dialog to save a picture with arbitrary sizes.
 
 
 
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Screenshots](Category_Screenshots.md)
-
 ---
-[documentation index](../README.md) > Screenshots
+![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots

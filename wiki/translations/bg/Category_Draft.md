@@ -3,11 +3,10 @@ This category list pages related to the \"User\_Documentation/bg\" and \"Workben
 
 ### Contents:
 
-  -----------------------------------------------------
+  
   [Draft Workbench/bg](Draft_Workbench/bg.md)
-  -----------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/bg](<img src="images/Property.png" style="width:16px"> User_Documentation/bg.md) [<img src="images/Property.png" style="width:16px"> Workbenches/bg](<img src="images/Property.png" style="width:16px"> Workbenches/bg.md)
+
 
 ---
-[documentation index](../README.md) > Category:Draft/bg
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/bg

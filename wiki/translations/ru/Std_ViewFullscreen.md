@@ -35,5 +35,7 @@ The **Std ViewFullscreen** command switches [3D views](3D_view.md) to and from f
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewFullscreen/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewFullscreen/ru

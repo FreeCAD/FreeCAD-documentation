@@ -1,9 +1,9 @@
 # Category:External Command Reference/pl
-Ta kategoria umieszcza wszystkie **zewnętrzne** polecenia środowiska oddzielone od wewnętrznych [:<img src="images/Property.png" style="width:16px"> Command\_Reference](:Category_Command_Reference.md).
+Ta kategoria umieszcza wszystkie **zewnętrzne** polecenia środowiska oddzielone od wewnętrznych [:Category:Command\_Reference](:Category_Command_Reference.md).
 
 ### Contents:
 
-  --------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+    
   [Arch Rebar BOM/pl](Arch_Rebar_BOM/pl.md)                           [Arch Rebar Dimensioning/pl](Arch_Rebar_Dimensioning/pl.md)                         [Arch Rebar Drawing Dimensioning/pl](Arch_Rebar_Drawing_Dimensioning/pl.md)
   [Arch Rebar Drawing/pl](Arch_Rebar_Drawing/pl.md)                   [Arch Rebar/pl](Arch_Rebar/pl.md)                                                   [BIM Views/pl](BIM_Views/pl.md)
   [BIM Windows/pl](BIM_Windows/pl.md)                                 [CurvedShapes CurvedArray/pl](CurvedShapes_CurvedArray/pl.md)                       [Curves GordonSurface/pl](Curves_GordonSurface/pl.md)
@@ -25,8 +25,9 @@ Ta kategoria umieszcza wszystkie **zewnętrzne** polecenia środowiska oddzielon
   [SheetMetal AddFoldWall/pl](SheetMetal_AddFoldWall/pl.md)           [SheetMetal AddJunction/pl](SheetMetal_AddJunction/pl.md)                           [SheetMetal AddRelief/pl](SheetMetal_AddRelief/pl.md)
   [SheetMetal AddWall/pl](SheetMetal_AddWall/pl.md)                   [SheetMetal Examples/pl](SheetMetal_Examples/pl.md)                                 [SheetMetal Extrude/pl](SheetMetal_Extrude/pl.md)
   [SheetMetal Forming/pl](SheetMetal_Forming/pl.md)                   [SheetMetal SketchOnSheet/pl](SheetMetal_SketchOnSheet/pl.md)                       [SheetMetal UnattendedUnfold/pl](SheetMetal_UnattendedUnfold/pl.md)
-  [SheetMetal Unfold/pl](SheetMetal_Unfold/pl.md)                     [SheetMetal Workbench/pl](SheetMetal_Workbench/pl.md)                               
-  --------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+  [SheetMetal Unfold/pl](SheetMetal_Unfold/pl.md)                     [SheetMetal Workbench/pl](SheetMetal_Workbench/pl.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:External Command Reference/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Command Reference/pl

@@ -3,7 +3,7 @@ This category gathers documentation article mostly aimed at programmers
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [Add Button to FEM Toolbar Tutorial/pl](Add_Button_to_FEM_Toolbar_Tutorial/pl.md)                   [Add FEM Equation Tutorial/pl](Add_FEM_Equation_Tutorial/pl.md)                                   [ANSI templates/pl](ANSI_templates/pl.md)
   [AppImage/pl](AppImage/pl.md)                                                                       [Arch templates/pl](Arch_templates/pl.md)                                                         [Artwork Erroneous/pl](Artwork_Erroneous/pl.md)
   [Artwork Guidelines/pl](Artwork_Guidelines/pl.md)                                                   [Artwork/pl](Artwork/pl.md)                                                                       [Branding/pl](Branding/pl.md)
@@ -43,11 +43,9 @@ This category gathers documentation article mostly aimed at programmers
   [Start up and Configuration/pl](Start_up_and_Configuration/pl.md)                                   [Testing/pl](Testing/pl.md)                                                                       [The FreeCAD source code/pl](The_FreeCAD_source_code/pl.md)
   [Third Party Libraries/pl](Third_Party_Libraries/pl.md)                                             [Third Party Tools/pl](Third_Party_Tools/pl.md)                                                   [Topological data scripting/pl](Topological_data_scripting/pl.md)
   [Tracker/pl](Tracker/pl.md)                                                                         [Translating an external workbench/pl](Translating_an_external_workbench/pl.md)                   [Viewprovider/pl](Viewprovider/pl.md)
-  [Workbench creation/pl](Workbench_creation/pl.md)                                                   [Wrapping a Cplusplus class in Python/pl](Wrapping_a_Cplusplus_class_in_Python/pl.md)             
-                                                                                                                                                                                                                        
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+  [Workbench creation/pl](Workbench_creation/pl.md)                                                   [Wrapping a Cplusplus class in Python/pl](Wrapping_a_Cplusplus_class_in_Python/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/pl](<img src="images/Property.png" style="width:16px"> Documentation/pl.md) [<img src="images/Property.png" style="width:16px"> Artwork/pl](<img src="images/Property.png" style="width:16px"> Artwork/pl.md) [<img src="images/Property.png" style="width:16px"> Document object/pl](<img src="images/Property.png" style="width:16px"> Document_object/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/pl

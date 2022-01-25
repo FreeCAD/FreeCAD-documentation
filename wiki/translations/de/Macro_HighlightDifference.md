@@ -40,5 +40,7 @@ Image:Macro HighlightDifference 00.png\|Originalobjekte Image:Macro HighlightDif
 -   Siehe für das ergänzende Makro [Macro\_GemeinsamHervorheben](Macro_HighlightCommon/de.md)
 -   Die Diskussion im Forum [\"Kollisionserkennung\", überlappend](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 
+
+
 ---
-[documentation index](../README.md) > Macro HighlightDifference/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro HighlightDifference/de

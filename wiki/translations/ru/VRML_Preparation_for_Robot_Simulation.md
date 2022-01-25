@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ru
+   Topic:Robot Workbench
+   Level:Intermediate
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # VRML Preparation for Robot Simulation/ru
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru
-|Topic=Robot Workbench
-|Level=Intermediate
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -31,7 +37,7 @@ The tutorial is based on a STEP-file of a Stäubli TX40 (TX40-HB.stp). You can d
 Notice, that on import, the robot is made of 8 shapes, directly on the root of the document tree. The structure of the exported VRML file may change if groups are used. The shapes are ordered from the base to the tool. The last shape contains the axes of rotations of all robot axes. The correlation shape name -- part name is given by (as for now (March 2011) FreeCAD doesn\'t import the names included in STEP files):
 
   FreeCAD name   STEP name
-  -------------- ------------------------------
+   
   TX40\_HB       HORIZONTAL BASE CABLE OUTLET
   TX40\_HB001    SHOULDER
   TX40\_HB002    ARM
@@ -48,7 +54,7 @@ For this import, change the "Display Mode" of each shape, TX40\_HB007 excepted, 
 In order to build the Denavit-Hartenberg table (see [Robot 6-Axis](Robot_6-Axis.md)) and prepare the vrml file, you need to get characteristics of the robot. For now, the measurement tool of FreeCAD is not ready, you can use the axes included in TX40\_HB007 (the co-ordinates are indicated on the bottom left when you point an object with the mouse) or you have to use the Python console to get some information about the geometry. Note that the DH-table is only required if you need to use the inverse kinematics, i.e. get the Cartesian coordinates or drive the robot with Cartesian coordinates. The DH-table for this robot is the following (mm, deg and deg/s):
 
   i   d     θ         r     α     θmin   θmax    Axis velocity
-  --- ----- --------- ----- ----- ------ ------- ---------------
+  ---       
   1   320   q1        0     -90   -180   180     555
   2   35    q2 - 90   225   0     -125   125     475
   3   0     q3 + 90   0     90    -138   138     585
@@ -386,9 +392,5 @@ Group {
 
 
 
-
-
-[<img src="images/Property.png" style="width:16px"> Robot](Category_Robot.md)
-
 ---
-[documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/ru

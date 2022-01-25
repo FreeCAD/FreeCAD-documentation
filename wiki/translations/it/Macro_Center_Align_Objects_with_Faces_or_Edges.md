@@ -55,7 +55,7 @@ Questo macro si allinea oggetti con i volti o i bordi vincoli
 
 Questi supporti lavorano con **Part, App::Part e Body objects**. Ogni strumento può essere **Floating** o **Docked Left o Right**.
 
-------------------------------------------------------------------------
+
 
 ## Vecchie referenze 
 
@@ -106,5 +106,7 @@ Per maggiori informazioni vedere la pagina [Come installare le macro](How_to_ins
 
 Nel forum : [Faces or Edges constraint among non cylindrical parts Macro](http://forum.freecadweb.org/viewtopic.php?f=22&t=18655)
 
+
+
 ---
-[documentation index](../README.md) > Macro Center Align Objects with Faces or Edges/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Center Align Objects with Faces or Edges/it

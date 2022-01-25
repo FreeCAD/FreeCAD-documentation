@@ -42,5 +42,7 @@ Codul este vizibil pe Github: [Utility/HighlightDifference.FCMacro](https://gith
 
 -   Discuția pe forum [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 
+
+
 ---
-[documentation index](../README.md) > Macro HighlightDifference/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro HighlightDifference/ro

@@ -30,5 +30,7 @@ Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyżyk
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/pl

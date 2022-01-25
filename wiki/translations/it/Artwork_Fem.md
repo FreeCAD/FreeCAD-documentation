@@ -18,9 +18,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
+
 
 ---
-[documentation index](../README.md) > [FEM](Category_FEM.md) > Artwork Fem/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Artwork Fem/it

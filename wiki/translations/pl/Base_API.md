@@ -27,9 +27,6 @@ Ramka ograniczająca to sześcian prostokątny, który jest sposobem na zdefinio
 {{APIClass|Placement| |Tworzy [Umiejscowienie](Placement_API/pl.md).}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Base API/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Base API/pl

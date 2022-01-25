@@ -101,5 +101,7 @@ arc = Draft.make_arc_3points(points)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc 3Points/ru

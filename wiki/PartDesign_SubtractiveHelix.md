@@ -124,5 +124,7 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
  {{PartDesign Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveHelix

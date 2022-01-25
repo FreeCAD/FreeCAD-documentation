@@ -37,5 +37,7 @@ There will be no analyzing or validating of the mesh object. Analyzing and repai
 
 ## Программирование
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/ru

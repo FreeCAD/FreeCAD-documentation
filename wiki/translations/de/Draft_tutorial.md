@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic: Technisches Zeichnen
+   Level: Anfänger
+   Time: 30 Minuten
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] und vocx
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Entwurf Tutorium aktualisiert]
+---
+
 # Draft tutorial/de
-{{TutorialInfo/de
-|Topic= Technisches Zeichnen
-|Level= Anfänger
-|Time= 30 Minuten
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] und vocx
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Entwurf Tutorium aktualisiert]
-}}
+
+
+
+
 
 ## Einführung
 
@@ -224,9 +230,6 @@ Der [Entwurf Arbeitsbereich](Draft_Workbench/de.md) ähnelt in vielerlei Hinsich
 -   Es ist möglich, ein Entwurfsobjekt in eine [Skizze](Sketch/de.md) umzuwandeln und umgekehrt, indem man das **[<img src=images/Draft_Draft2Sketch.svg style="width:16px"> [Entwurf EntwurfZuSkizze](Draft_Draft2Sketch.md)** Werkzeug verwendet.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Draft_Workbench.md) > Draft tutorial/de

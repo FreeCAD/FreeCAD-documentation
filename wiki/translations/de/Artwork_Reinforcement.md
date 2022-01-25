@@ -12,5 +12,7 @@ Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 
 {{Artwork/de}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Reinforcement/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Reinforcement/de

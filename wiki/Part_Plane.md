@@ -48,5 +48,7 @@ The properties of the object can be edited, either in the [Property editor](Prop
 
 You have the standard properties view.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane

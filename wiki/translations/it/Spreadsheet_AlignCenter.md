@@ -27,5 +27,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:16
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/it

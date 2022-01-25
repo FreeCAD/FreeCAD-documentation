@@ -38,5 +38,7 @@ Si cette case est cochée, une vérification supplémentaire des opérations boo
 
 Si cette case est cochée, toutes les erreurs trouvées sont également enregistrées dans la [Vue rapport](Report_view/fr.md). {{Version/fr|0.19}}
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CheckGeometry/fr

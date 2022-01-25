@@ -51,5 +51,7 @@ Questo strumento consente di posizionare una vista di un [foglio di calcolo](Spr
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing SpreadsheetView/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing SpreadsheetView/it

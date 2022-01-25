@@ -46,5 +46,7 @@ La commande **Information sur le projet** affiche une boîte de dialogue avec de
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ProjectInfo/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectInfo/fr

@@ -138,7 +138,7 @@ I na końcu, jedną z najpotężniejszych cech FreeCAD jest środowisko [skrypto
 
 {{Userdocnavi/pl}}
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/pl](<img src="images/Property.png" style="width:16px"> User_Documentation/pl.md)
+
 
 ---
-[documentation index](../README.md) > Getting started/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/pl

@@ -21,5 +21,7 @@ Der Befehl <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="widt
     -   Den Menüeintrag **Assembly3 → <img src="images/Assembly_TogglePartVisibility.svg" width=16px> Sichtbarkeit umschalten**.
     -   Das Tastenkürzel: **A** dann **Space**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 TogglePartVisibility/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 TogglePartVisibility/de

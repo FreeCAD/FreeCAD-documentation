@@ -67,5 +67,7 @@ Viene creato un file KRL (\*.src).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Export/it

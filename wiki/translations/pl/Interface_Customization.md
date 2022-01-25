@@ -287,5 +287,7 @@ Dodatki oferują jeszcze jeden sposób na dostosowanie interfejsu użytkownika. 
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Interface Customization/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface Customization/pl

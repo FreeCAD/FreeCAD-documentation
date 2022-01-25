@@ -132,8 +132,5 @@ Il existe de nombreuses applications disponibles pour simuler l'usinage réel, l
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Path](Category_Path.md) [<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
-
 ---
-[documentation index](../README.md) > [Path](Category_Path.md) > Manual:Preparing models for 3D printing/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Category_Path.md) > [Mesh](Category_Mesh.md) > [Tutorials](Category_Tutorials.md) > Manual:Preparing models for 3D printing/fr

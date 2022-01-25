@@ -46,5 +46,7 @@ Actualiser\]\] la vue si une vue de dessin n\'a pas été ouverte
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/fr

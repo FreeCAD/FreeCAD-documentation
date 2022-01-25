@@ -17,9 +17,9 @@ myObj.Placement = pl
 {{APIProperty | Base |. Un vector reprezentâtnd poziție  du Plasementului}} {{APIProperty | Rotation |. Un quaternion ( număr complex format din patru unități sclare) reprezentând rotația Plasamentului }} {{APIFunction | inverse | | calculază plasamentul invers |. Un placement}} {{APIFunction | move | Vector | deplasează plasamentul de-a lungul unui vector dat | nimic}} {{APIFunction | multVec | Vector | aplică plasamentul la vectorul dat| vectorul rezultant}.} {{APIFunction | multiplcați | Placement | multiplică acest plasamentul cu altul| plasamentul rezultatnt}.} {{APIFunction | toMatrix | | |. O matrice reprezentând transformarea plasamentului }}
 
 
-[[<img src="images/Property.png" style="width:16px"> API\]\] 
+[[Category:API\]\]
 
-[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Placement API/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Placement API/ro

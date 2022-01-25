@@ -1,10 +1,15 @@
+---
+- TutorialInfo:   Topic:Modeling
+   Level:Intermediate
+   Author:[Yorik](User_Yorik.md)
+   FCVersion:0.14
+---
+
 # Arch tutorial
-{{TutorialInfo
-|Topic=Modeling
-|Level=Intermediate
-|Author=[Yorik](User_Yorik.md)
-|FCVersion=0.14
-}}
+
+ 
+
+
 
  ![](images/Arch_tutorial_00.jpg ) 
 
@@ -465,12 +470,9 @@ Another way to survey your model and extract values, is to use the [Arch Survey]
 
 I hope this gives you a good overview of the available tools, be sure to refer to the [Arch Workbench](Arch_Workbench.md) and [Draft Workbench](Draft_Workbench.md) documentation for more (there are more tools that I didn\'t mention here), and, more generally, to the rest of the [FreeCAD documentation](Main_Page.md). Pay a visit to the [forum](http://forum.freecadweb.org) too, many problems can usually be solved there in no time, and follow my [blog](http://yorik.uncreated.net/guestblog.php?tag=freecad) for news about he Arch workbench development.
 
-The file created during this tutorial can be found [here](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd) 
+The file created during this tutorial can be found [here](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd)
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial

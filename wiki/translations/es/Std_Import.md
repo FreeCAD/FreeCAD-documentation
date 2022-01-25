@@ -47,9 +47,9 @@ Cuando se carga, el fichero es **incorporado** al proyecto actual (que debe esta
 
 {{Std Base navi
 
-}}  
+}}
 
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
+
 
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Import/es

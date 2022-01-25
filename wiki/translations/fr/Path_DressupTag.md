@@ -38,5 +38,7 @@ Les attaches sont automatiquement générées à intervalles réguliers le long 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupTag/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupTag/fr

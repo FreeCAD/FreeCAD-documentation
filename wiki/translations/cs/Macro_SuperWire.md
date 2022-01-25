@@ -54,5 +54,7 @@ else:
        FreeCAD.Console.PrintError("SuperWire operation failed!")
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro SuperWire/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro SuperWire/cs

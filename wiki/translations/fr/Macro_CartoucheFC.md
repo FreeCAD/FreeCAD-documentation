@@ -953,5 +953,7 @@ Ce module travaille avec la feuille de mise en plan incluse dans FreeCAD cette f
 
 ver 0.3 le 02/07/2014 conversion pour utilisation avec **PyQt4** et **PySide**
 
+
+
 ---
-[documentation index](../README.md) > Macro CartoucheFC/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro CartoucheFC/fr

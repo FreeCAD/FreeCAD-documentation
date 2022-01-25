@@ -38,5 +38,7 @@ Acest instrument vă permite să a dăugați un fișier [\*.IGES](http://en.wiki
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/ro

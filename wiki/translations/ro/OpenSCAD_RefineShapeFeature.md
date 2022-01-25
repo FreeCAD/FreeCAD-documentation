@@ -1,6 +1,6 @@
 # OpenSCAD RefineShapeFeature/ro
 ---
-- GuiCommand:   Name:OpenSCAD RefineShapeFeature   MenuLocation:OpenSCAD → Refine Shape Feature   Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|SeeAlso:------
+- GuiCommand:   Name:OpenSCAD RefineShapeFeature   MenuLocation:OpenSCAD → Refine Shape Feature   Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|SeeAlso:
 
 
 </div>
@@ -70,5 +70,7 @@ Curata liniile inutile. După o operație booleană, unele linii care definesc f
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD RefineShapeFeature/ro

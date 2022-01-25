@@ -12,9 +12,9 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Plot](Category_Plot.md)
+
 
 ---
-[documentation index](../README.md) > [Plot](Category_Plot.md) > Artwork Plot/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Plot](Category_Plot.md) > Artwork Plot/fr

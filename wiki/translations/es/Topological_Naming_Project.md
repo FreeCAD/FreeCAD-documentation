@@ -37,9 +37,9 @@ Si este proyecto se termina con éxito, una integración completa en el código 
 
 Difícil
 
-### Información adicional 
+### Información adicional
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > Topological Naming Project/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Topological Naming Project/es

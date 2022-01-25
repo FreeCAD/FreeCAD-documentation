@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Assembly_SmartRecompute.svg  style="width:24p
     -   Le bouton **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute/fr.md)**.
     -   L\'option du menu **Assembly3 → <img src="images/Assembly_SmartRecompute.svg" width=16px> Smart recompute**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 SmartRecompute/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 SmartRecompute/fr

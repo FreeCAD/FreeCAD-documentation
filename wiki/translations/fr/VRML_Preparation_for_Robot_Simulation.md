@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/fr
+   Topic:Robot Workbench
+   Level:Intermediate
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # VRML Preparation for Robot Simulation/fr
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/fr
-|Topic=Robot Workbench
-|Level=Intermediate
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -48,7 +54,7 @@ Le nom de forme de corrélation, le nom de la pièce est donné (pour l\'instant
 </div>
 
   FreeCAD name   STEP name
-  -------------- ------------------------------
+   
   TX40\_HB       HORIZONTAL BASE CABLE OUTLET
   TX40\_HB001    SHOULDER
   TX40\_HB002    ARM
@@ -74,7 +80,7 @@ Notez que, le **DH-tableau** n\'est nécessaire que si vous avez besoin d\'utili
 La **DH-table** pour ce robot est le suivant **(mm, degrés et deg/s)** :
 
   i   d     θ         r     α     θmin   θmax    Axis velocity
-  --- ----- --------- ----- ----- ------ ------- ---------------
+  ---       
   1   320   q1        0     -90   -180   180     555
   2   35    q2 - 90   225   0     -125   125     475
   3   0     q3 + 90   0     90    -138   138     585
@@ -451,9 +457,5 @@ Voici un **patch** pour obtenir un fichier **vrml** convenant à la simulation d
 
 
 
-
-
-[<img src="images/Property.png" style="width:16px"> Robot](Category_Robot.md)
-
 ---
-[documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/fr

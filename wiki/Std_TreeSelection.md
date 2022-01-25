@@ -29,5 +29,7 @@ If the Tree view [SyncSelection](Std_TreeSyncSelection.md) mode is off, the Tree
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSelection
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSelection

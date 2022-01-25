@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Rendering
+   Level:Intermédiaire
+   Time:60 minutes
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 ou ultérieure
+   Files:none
+---
+
 # Tutorial Render with Blender/fr
-{{TutorialInfo/fr
-|Topic=Rendering
-|Level=Intermédiaire
-|Time=60 minutes
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 ou ultérieure
-|Files=none
-}}
+
+
+
+
 
 ## Introduction
 
@@ -341,7 +347,9 @@ D\'autre part, Cycles est un véritable moteur de rendu par lancer de rayons, ce
 
 Les deux moteurs de rendu peuvent être utilisés pour tirer parti des avantages de chacun. Dans de nombreux cas, la scène peut être rapidement préparée et testée avec EEVEE pour obtenir des rendus préliminaires; Ensuite, la même scène peut être utilisée avec des modifications mineures avec Cycles afin de produire un rendu final de meilleure qualité. En particulier, lorsqu\'une scène configurée avec EEVEE sera utilisée avec Cycles, la valeur et la position des lumières peuvent devoir être ajustées car les deux moteurs de rendu traitent la lumière de différentes manières.
 
-L\'obtention de bons résultats dépend fortement des options de rendu, des matériaux et de l\'éclairage. Le shader de matériau `Principled BSDF` est une solution générique qui fonctionne bien dans de nombreux cas, cependant, pour produire des résultats vraiment photoréalistes, l\'utilisation de textures et de textures normales, ainsi que d\'un éclairage soigné de la scène est toujours très importante . {{Tutorials navi}} {{Raytracing Tools navi}}
+L\'obtention de bons résultats dépend fortement des options de rendu, des matériaux et de l\'éclairage. Le shader de matériau `Principled BSDF` est une solution générique qui fonctionne bien dans de nombreux cas, cependant, pour produire des résultats vraiment photoréalistes, l\'utilisation de textures et de textures normales, ainsi que d\'un éclairage soigné de la scène est toujours très importante .  {{Raytracing Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > Tutorial Render with Blender/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Tutorial Render with Blender/fr

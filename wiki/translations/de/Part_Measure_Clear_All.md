@@ -18,5 +18,7 @@ Dieses Werkzeug löscht alle Messungen in der 3D Ansicht.
     -   Drücke die **[<img src=images/Part_Measure_Clear_All.svg style="width:16px"> [Alles löschen](Part_Measure_Clear_All.md)**-Schaltfläche.
     -   Verwende den **Messen → Alles löschen**
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Clear All/de

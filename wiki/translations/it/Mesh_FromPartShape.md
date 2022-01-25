@@ -207,5 +207,7 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FromPartShape/it

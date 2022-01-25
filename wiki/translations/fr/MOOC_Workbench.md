@@ -65,9 +65,6 @@ La page [ateliers externes](External_workbenches/fr.md) contient des information
 De nouveaux ateliers sont en développement, tenez vous au courant!
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > MOOC Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > MOOC Workbench/fr

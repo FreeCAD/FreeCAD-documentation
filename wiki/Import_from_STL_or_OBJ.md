@@ -97,9 +97,7 @@ Since the created solid has no history and no editable features (like a simple c
 -   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
 -   [Import Export](Import_Export.md)
 
-  
 
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import from STL or OBJ
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import from STL or OBJ

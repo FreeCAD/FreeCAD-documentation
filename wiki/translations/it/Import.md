@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/it
+   Topic:Arch
+   Level:Avanzato
+   Time:120 minuti
+   Author:Pablo Gil
+   FCVersion:
+   Files:
+---
+
 # Import/Export IFC - compiling IfcOpenShell/it
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it
-|Topic=Arch
-|Level=Avanzato
-|Time=120 minuti
-|Author=Pablo Gil
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -191,8 +197,5 @@ La discussione nel Forum [qui](http://forum.freecadweb.org/viewtopic.php?f=23&t=
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > Import/Export IFC - compiling IfcOpenShell/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > [3rd Party](Category_3rd Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/it

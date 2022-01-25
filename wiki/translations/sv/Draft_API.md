@@ -84,12 +84,6 @@ Draft.move(myrect, mydistance)
 {{APIFunction|getSVG|FreeCAD.Object, [linemodifier], [textmodifier], [(u,v)]|Skapar en SVG representation av det givna objektet. linemodifier attributet är en skalfaktor (i procent) för linjebredd, och textmodifier för textstorlek. Du kan alternativt också ange en tupel med vektorer för att definiera ett projektionsplan, annars så kommer geometrin att projiceras på XY planet.|en sträng som innehåller en SVG representation av det givna objektet.}}
 
 
- 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > [Draft](Draft_Workbench.md) > Draft API/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Draft](Draft_Workbench.md) > Draft API/sv

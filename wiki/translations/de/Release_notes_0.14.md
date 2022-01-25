@@ -229,7 +229,7 @@ Viel Zeit wurde in die Arbeit an FreeCAD und der Arbeit an [IfcOpenShell](http:/
 
 Die vollständige Liste aller Bugfixes und Neuen Funtionen kann [hier](http://freecadweb.org/tracker/changelog_page.php) nachgelesen werden.
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.14/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.14/de

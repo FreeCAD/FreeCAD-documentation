@@ -35,5 +35,7 @@ Acest instrument comută între vizibilitatea măsurătorilor lineară (roșu) �
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3d/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle 3d/ro

@@ -23,5 +23,7 @@ The **[<img src=images/Spreadsheet_AlignVCenter.svg style="width:16px"> [Spreads
 
  {{Spreadsheet_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignVCenter

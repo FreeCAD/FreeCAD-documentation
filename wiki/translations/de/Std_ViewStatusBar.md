@@ -25,5 +25,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewStatusBar/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewStatusBar/de

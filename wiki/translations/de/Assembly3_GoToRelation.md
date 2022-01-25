@@ -27,5 +27,7 @@ Das Ergebnis (hervorgehobene Objekte) hängt von den ausgewählten Objekten ab.
 1.  Ein Part-Objekt, ein Element oder eine Bedingung auswählen.
 2.  Die Schaltfläche **<img src="images/Assembly_GotoRelation.svg" width=16px> [Zur Beziehung gehen](Assembly3_GoToRelation/de.md)** auswählen oder das Tastenkürzel **A** dann **R** benutzen.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 GoToRelation/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 GoToRelation/de

@@ -1,10 +1,16 @@
+---
+- TutorialInfo:/fr
+   Topic:Sketcher
+   Level:Débutant
+   Author:[Maker](User_Maker.md)
+   FCVersion:
+---
+
 # Sketcher requirement for a sketch/fr
-{{TutorialInfo/fr
-|Topic=Sketcher
-|Level=Débutant
-|Author=[Maker](User_Maker.md)
-|FCVersion=
-}}
+
+
+
+
 
 ## Exigences minimales pour une esquisse 
 
@@ -44,5 +50,7 @@ Si vous créez accidentellement une \"surmodulation\", un avertissement apparaî
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/fr

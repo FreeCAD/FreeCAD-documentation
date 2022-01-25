@@ -36,5 +36,7 @@ Lo strumento <img alt="" src=images/Part_Import.svg  style="width:16px;"> [Impor
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/it

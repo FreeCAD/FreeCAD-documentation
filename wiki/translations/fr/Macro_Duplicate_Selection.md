@@ -87,5 +87,7 @@ FreeCADGui.Selection.addObserver(s)    # installe la fonction en mode resident
 
 La discussion sur le forum [Duplicate Objects when more than one face selected](http://forum.freecadweb.org/viewtopic.php?f=3&t=15994)
 
+
+
 ---
-[documentation index](../README.md) > Macro Duplicate Selection/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Duplicate Selection/fr

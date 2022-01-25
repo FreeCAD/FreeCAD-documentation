@@ -23,9 +23,9 @@ If at least one of the profiles has a different number of segments, the followin
 
 The operation is extended to all profiles, to yield the equal number of segments. The total number of segments in each profile would be equal to the sum of all numbers of segments of all profiles (provided none of the vertices happen to be at the same polar angle).
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   <img alt="The process of slicing profile2 (white crescent-like shape) to create joints corresponding to vertices of profile1 (purple pentagon). The inserted joints are marked by yellow arrows." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="The result of loft relevant to the picture on the left." src=images/Loft_crescent_pentagon.png  style="width:300px;">
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
 ### Step 2. Establishing correspondence between segments 
 
@@ -65,14 +65,10 @@ Note that Loft has a \"Ruled\" property. If it is set to true, ruled surfaces ar
 -   For Loft, it is not required that the profiles are separated (see a picture below). They can be coplanar, but they should not intersect.
 -   When \"closed\" property of the Loft is \"true\", there is a cusp joint in all the splines forming the Loft (see a picture below). There is no reliable way to close the loft smoothly now.
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
   <img alt="It is not required that the profiles are parallel." src=images/Loft_nonparallel.png  style="width:300px;">   <img alt="In Loft, the profiles can be coplanar. In this example, two of three profiles are coplanar." src=images/Loft_Coplanar.png  style="width:300px;">   <img alt="An example of a closed loft between three pentagonal profiles (white). Note the non-smooth joint at the outermost profile. This is the first profile in the closed loft." src=images/Loft-closed.png  style="width:300px;">
-  ----------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/hr

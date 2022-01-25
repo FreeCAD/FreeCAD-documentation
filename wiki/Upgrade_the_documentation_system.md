@@ -57,7 +57,7 @@ Medium
 
 -   Potential mentors: [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > Upgrade the documentation system
+![](images/Right_arrow.png) [documentation index](../README.md) > Upgrade the documentation system

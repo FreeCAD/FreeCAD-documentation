@@ -36,9 +36,7 @@ La page [Tutoriels](tutorials/fr.md) fournit des exemples de création de solide
 -   [Tutoriel balle Whiffle](Whiffle_Ball_tutorial/fr.md)
 -   [Tutoriel d\'introduction à la modélisation](Basic_modeling_tutorial/fr.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Constructive solid geometry/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/fr

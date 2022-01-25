@@ -59,5 +59,7 @@ Ca multe lucruri în FreeCAD, există multe modalități de a face o copie. Pent
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Copying Objects/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Copying Objects/ro

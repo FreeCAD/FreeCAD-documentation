@@ -34,5 +34,7 @@ La primitiva geometrica Cerchio è disponibile dalla finestra di dialogo Crea pr
 
 -    {{Parameter|Angolo 2}}: fine del bordo curvo (gradi in senso antiorario), il valore di default è 360
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/it

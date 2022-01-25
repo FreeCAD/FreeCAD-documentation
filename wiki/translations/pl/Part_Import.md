@@ -18,5 +18,7 @@ The **<img src="images/Part_Import.svg" width=16px> [Part Import](Part_Import.md
 2.  Go to the menu **Part →  [<img src=images/Part_Import.svg style="width:16px"> Import CAD**.
 3.  Select the file to be imported.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/pl

@@ -39,5 +39,7 @@ Raggruppamento di numerosi strumenti relativi al pannello.
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/it

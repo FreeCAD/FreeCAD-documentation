@@ -40,5 +40,7 @@ Problemem jest również to, że nie mamy żadnej struktury *(fundacji, stowarzy
 
 Jest to czas finansowana społecznościowego, gdzie wszelkiego rodzaju projekty i pomysły mogą czasami zebrać dużo pieniędzy i zainteresowania. Dlaczego nie wymyślić czegoś nowego, co można by zrobić dla programu FreeCAD za pieniądze, lub pomóc w znalezieniu lepszych rozwiązań? Zapraszamy do dyskusji na forum, [O finansowaniu i takie tam](http://forum.freecadweb.org/viewtopic.php?f=8&t=12242).
 
+
+
 ---
-[documentation index](../README.md) > Donate/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Donate/pl

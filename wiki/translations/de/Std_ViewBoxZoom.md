@@ -42,5 +42,7 @@ Die Größe des zu vergrößernden Bereichs werden mit einem Rechteck in der 3D-
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewBoxZoom/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewBoxZoom/de

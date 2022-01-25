@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Ajouter des contraintes FEM
+   Level:
+   Time:
+   Author:[M42kus](User_M42kus.md)
+   FCVersion:
+   Files:
+---
+
 # Add FEM constraint tutorial/fr
-{{TutorialInfo/fr
-|Topic=Ajouter des contraintes FEM
-|Level=
-|Time=
-|Author=[M42kus](User_M42kus.md)
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 Dans ce tutoriel, nous allons ajouter la contrainte de vitesse d\'écoulement à FreeCAD et implémenter le support pour le solveur Elmer. Assurez-vous d\'avoir lu et compris [Module d\'extension FEM](Extend_FEM_Module/fr.md) avant de lire ce tutoriel.
 
@@ -306,7 +312,7 @@ def _handleFlowBndConditions(self):
             self._handled(obj)
 ```
 
-[<img src="images/Property.png" style="width:16px"> FEM/fr](<img src="images/Property.png" style="width:16px"> FEM/fr.md) [<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
+
 
 ---
-[documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM constraint tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM constraint tutorial/fr

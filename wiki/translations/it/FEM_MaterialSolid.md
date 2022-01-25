@@ -65,5 +65,7 @@ Aggiunge le proprietà dei materiali ad una parte.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM MaterialSolid/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialSolid/it

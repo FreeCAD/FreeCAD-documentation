@@ -31,5 +31,7 @@ Cet outil insère une commande d\'arrêt (M1). Cette commande suspendra le progr
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/fr

@@ -45,5 +45,7 @@ Această comandă este un meniu derulant din bara de instrumente Booleană și c
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/ro

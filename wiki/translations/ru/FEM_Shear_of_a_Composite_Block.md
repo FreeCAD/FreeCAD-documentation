@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ru
+   Topic: Finite Element Analysis
+   Level: Beginner/Intermediate
+   Time: 30 minutes
+   Author:[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
+   FCVersion:0.17.12960 or above
+   Files:
+---
+
 # FEM Shear of a Composite Block/ru
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru
-|Topic= Finite Element Analysis
-|Level= Beginner/Intermediate
-|Time= 30 minutes
-|Author=[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
-|FCVersion=0.17.12960 or above
-|Files=
-}}
 
 
 </div>
@@ -106,7 +112,9 @@
 
 <https://forum.freecadweb.org/viewtopic.php?f=18&t=26517&start=20>
 
-Позабавьте себя ! {{Tutorials navi}} {{FEM Tools navi}}
+Позабавьте себя !  {{FEM Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > FEM Shear of a Composite Block/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM Shear of a Composite Block/ru

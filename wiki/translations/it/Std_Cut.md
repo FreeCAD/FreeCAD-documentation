@@ -46,5 +46,7 @@ Per tagliare altri oggetti è possibile utilizzare il comando [Std Copy](Std_Cop
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Cut/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Cut/it

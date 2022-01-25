@@ -42,5 +42,7 @@ Narzędzie do zaokrąglania czasem zawodzi przy próbie zaokrąglenia złożonyc
 
 Zwróć również uwagę, że na funkcję zaokrąglania części wpływa [Topologiczny problem nazewnictwa](Topological_naming_problem/pl.md), gdy jakakolwiek zmiana jest dokonywana na wcześniejszym etapie modelowania w łańcuchu, który wpływa na liczbę powierzchni lub wierzchołków. Może to powodować nieprzewidywalne rezultaty. Dopóki problem ten nie zostanie rozwiązany, zaleca się stosowanie operacji fazowania i zaokrąglania jako ostatnich kroków w łańcuchu modelowania.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/pl

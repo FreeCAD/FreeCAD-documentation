@@ -3,11 +3,12 @@ The page should never have been created. The rule in other cases has been to del
 
 ### Contents:
 
-  ------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- -------------------------------------
+    
   [3Dconnexion input devices/de](3Dconnexion_input_devices/de.md)   [Developing FreeCAD with GitKraken/de](Developing_FreeCAD_with_GitKraken/de.md)                     [Doxygen/de](Doxygen/de.md)
   [IfcOpenShell/de](IfcOpenShell/de.md)                             [Import/Export IFC - compiling IfcOpenShell/de](Import/Export_IFC_-_compiling_IfcOpenShell/de.md)   [NumPy/de](NumPy/de.md)
-  [Std DependencyGraph/de](Std_DependencyGraph/de.md)                                                                                                                           
-  ------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- -------------------------------------
+  [Std DependencyGraph/de](Std_DependencyGraph/de.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:3rd Party/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:3rd Party/de

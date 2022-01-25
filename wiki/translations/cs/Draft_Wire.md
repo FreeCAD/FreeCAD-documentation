@@ -195,5 +195,7 @@ wire3 = Draft.make_wire([1.3*p3, p1, -1.7*p2], closed=True)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Wire/cs

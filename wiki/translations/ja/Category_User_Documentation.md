@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  ----------------------------------------------------------------------------- ----------------------------------------------------------------------------- -------------------------------------------------------------------------------
+    
   [About FreeCAD/ja](About_FreeCAD/ja.md)                               [Arch Add/ja](Arch_Add/ja.md)                                         [Arch Building/ja](Arch_Building/ja.md)
   [Arch Floor/ja](Arch_Floor/ja.md)                                     [Arch Pipe/ja](Arch_Pipe/ja.md)                                       [Arch PipeConnector/ja](Arch_PipeConnector/ja.md)
   [Arch Rebar/ja](Arch_Rebar/ja.md)                                     [Arch Remove/ja](Arch_Remove/ja.md)                                   [Arch SectionPlane/ja](Arch_SectionPlane/ja.md)
@@ -25,12 +25,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [Std Open/ja](Std_Open/ja.md)                                         [Std ViewScreenShot/ja](Std_ViewScreenShot/ja.md)                     [Surface Workbench/ja](Surface_Workbench/ja.md)
   [TechDraw Workbench/ja](TechDraw_Workbench/ja.md)                     [Third Party Libraries/ja](Third_Party_Libraries/ja.md)               [Third Party Tools/ja](Third_Party_Tools/ja.md)
   [Tracker/ja](Tracker/ja.md)                                           [Template:TutorialInfo/ja](Template:TutorialInfo/ja.md)               [User hub/ja](User_hub/ja.md)
-  [Workbenches/ja](Workbenches/ja.md)                                                                                                                 
-                                                                                                                                                              
-                                                                                                                                                              
-  ----------------------------------------------------------------------------- ----------------------------------------------------------------------------- -------------------------------------------------------------------------------
+  [Workbenches/ja](Workbenches/ja.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/ja](<img src="images/Property.png" style="width:16px"> Documentation/ja.md) [<img src="images/Property.png" style="width:16px"> Arch/ja](<img src="images/Property.png" style="width:16px"> Arch/ja.md) [<img src="images/Property.png" style="width:16px"> BIM/ja](<img src="images/Property.png" style="width:16px"> BIM/ja.md) [<img src="images/Property.png" style="width:16px"> Draft/ja](<img src="images/Property.png" style="width:16px"> Draft/ja.md) [<img src="images/Property.png" style="width:16px"> Macros/ja](<img src="images/Property.png" style="width:16px"> Macros/ja.md) [<img src="images/Property.png" style="width:16px"> Mesh/ja](<img src="images/Property.png" style="width:16px"> Mesh/ja.md) [<img src="images/Property.png" style="width:16px"> Points/ja](<img src="images/Property.png" style="width:16px"> Points/ja.md) [<img src="images/Property.png" style="width:16px"> Workbenches/ja](<img src="images/Property.png" style="width:16px"> Workbenches/ja.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/ja

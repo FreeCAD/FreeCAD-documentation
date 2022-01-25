@@ -51,5 +51,7 @@ FreeCAD.DraftWorkingPlane.position = pos
 FreeCADGui.Snapper.setGrid()
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Align Working Plane to Camera/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Align Working Plane to Camera/it

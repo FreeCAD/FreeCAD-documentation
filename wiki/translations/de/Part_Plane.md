@@ -65,5 +65,7 @@ Die Eigenschaften können später in **Combo Ansicht → Daten** nach der Auswah
 
 You have the standard properties view.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/de

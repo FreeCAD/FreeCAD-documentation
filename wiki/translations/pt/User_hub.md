@@ -1,6 +1,6 @@
 # <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/pt
 
-------------------------------------------------------------------------
+
 
 
 
@@ -59,9 +59,11 @@ Se tiver alguma informação que gostaria que aparecesse aqui, porque não contr
 
 </div>
 
-See also:
+#### Migrating from other software? 
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
+-   [BIM applications compatibility table](BIM_application_compatibility_table.md)
 
 
 <div class="mw-translate-fuzzy">
@@ -94,7 +96,7 @@ See also:
 
 [Workbenches](Workbenches.md) are collections of tools used for specific tasks. These are the base workbenches bundled with every FreeCAD installation:
 
--   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Base](Std_Base.md). This is not really a workbench, but rather a category of \'standard\' commands and tools that can be used in all workbenches.
+-   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Standard tools](Std_Base.md). These commands and tools are present in all workbenches.
 
 -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> The [Arch Workbench](Arch_Workbench.md) for working with architectural elements.
 
@@ -192,8 +194,5 @@ Esta é a ajuda online oficial do FreeCAD. Note que o sistema de ajuda online es
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/pt

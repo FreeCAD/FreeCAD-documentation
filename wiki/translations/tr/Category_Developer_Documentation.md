@@ -3,7 +3,7 @@ This category gathers documentation article mostly aimed at programmers
 
 ### Contents:
 
-  --------------------------------------------------------------------------- ----------------------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [Branding/tr](Branding/tr.md)                                       [Code snippets/tr](Code_snippets/tr.md)                               [Command/tr](Command/tr.md)
   [Compile on MacOS/tr](Compile_on_MacOS/tr.md)                       [Compile on MinGW/tr](Compile_on_MinGW/tr.md)                         [Compile on Windows/tr](Compile_on_Windows/tr.md)
   [Debugging/tr](Debugging/tr.md)                                     [Dialog creation/tr](Dialog_creation/tr.md)                           [Embedding FreeCAD/tr](Embedding_FreeCAD/tr.md)
@@ -17,10 +17,9 @@ This category gathers documentation article mostly aimed at programmers
   [Python/tr](Python/tr.md)                                           [PythonOCC/tr](PythonOCC/tr.md)                                       [Scenegraph/tr](Scenegraph/tr.md)
   [Scripted objects/tr](Scripted_objects/tr.md)                       [Source documentation/tr](Source_documentation/tr.md)                 [Start up and Configuration/tr](Start_up_and_Configuration/tr.md)
   [Testing/tr](Testing/tr.md)                                         [Third Party Libraries/tr](Third_Party_Libraries/tr.md)               [Third Party Tools/tr](Third_Party_Tools/tr.md)
-  [Topological data scripting/tr](Topological_data_scripting/tr.md)   [Tracker/tr](Tracker/tr.md)                                           
-  --------------------------------------------------------------------------- ----------------------------------------------------------------------------- ---------------------------------------------------------------------------
+  [Topological data scripting/tr](Topological_data_scripting/tr.md)   [Tracker/tr](Tracker/tr.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/tr](<img src="images/Property.png" style="width:16px"> Documentation/tr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/tr

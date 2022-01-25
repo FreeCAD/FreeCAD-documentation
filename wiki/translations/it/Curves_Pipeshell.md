@@ -95,5 +95,7 @@ The <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Curves Pi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves Pipeshell/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Pipeshell/it

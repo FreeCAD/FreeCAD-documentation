@@ -29,5 +29,7 @@ Line elements are made with <img alt="" src=images/Workbench_Draft.svg  style="w
 
     :   (if **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute.md)** and **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute.md)** are disabled).
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintMidPoint/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMidPoint/pl

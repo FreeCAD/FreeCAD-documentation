@@ -51,5 +51,7 @@ Valorile implicite ale programului sunt:he program\'s
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/ro

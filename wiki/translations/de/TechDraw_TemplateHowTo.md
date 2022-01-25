@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/de
+   Topic:Entwerfen
+   Level:Zwischenstufe
+   Time:60 Minuten
+   Author:[http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
+   FCVersion:0.17
+---
+
 # TechDraw TemplateHowTo/de
-{{TutorialInfo/de
-|Topic=Entwerfen
-|Level=Zwischenstufe
-|Time=60 Minuten
-|Author=[http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
-|FCVersion=0.17
-}}
+
+
+
+
 
 ## Einführung
 
@@ -124,9 +130,9 @@ Wenn du die grünen Kästchen für deine bearbeitbaren Texte nicht siehst, ist m
 If texts appear offset in FreeCAD, you may need to remove the {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} attributes in the SVG file. See: <https://www.forum.freecadweb.org/viewtopic.php?t=50897>.
 
 
-{{Tutorials navi
+ {{TechDraw Tools navi}}
 
-}} {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/de

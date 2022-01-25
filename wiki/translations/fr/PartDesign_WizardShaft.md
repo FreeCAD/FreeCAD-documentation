@@ -65,5 +65,7 @@ Pour ajouter un nouveau segment d\'arbre, cliquez avec le bouton droit de la sou
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/fr

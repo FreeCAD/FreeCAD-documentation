@@ -92,5 +92,7 @@ Repetați procedura de selecție de mai sus. Felia și subelementele sale vor fi
 
 -    **items**: List or range of elements to be selected if Filter Type is \"specific items\".
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompoundFilter/ro

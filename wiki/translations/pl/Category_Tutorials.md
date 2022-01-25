@@ -1,11 +1,11 @@
 # Category:Tutorials/pl
-To jest kompletna lista stron należących do [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+To jest kompletna lista stron należących do [:Category:Tutorials](:Category_Tutorials.md).
 
 Zobacz również [Poradniki](Tutorials/pl.md) oraz [Wideo poradniki](video_tutorials/pl.md).
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+    
   [Add Button to FEM Toolbar Tutorial/pl](Add_Button_to_FEM_Toolbar_Tutorial/pl.md)                                       [Add FEM Constraint Tutorial/pl](Add_FEM_Constraint_Tutorial/pl.md)                                   [Add FEM Equation Tutorial/pl](Add_FEM_Equation_Tutorial/pl.md)
   [Advanced Attachment OYX/pl](Advanced_Attachment_OYX/pl.md)                                                             [Advanced TechDraw Tutorial/pl](Advanced_TechDraw_Tutorial/pl.md)                                     [Aeroplane/pl](Aeroplane/pl.md)
   [Analysis of reinforced concrete with FEM/pl](Analysis_of_reinforced_concrete_with_FEM/pl.md)                           [Arch panel tutorial/pl](Arch_panel_tutorial/pl.md)                                                   [Arch tutorial/pl](Arch_tutorial/pl.md)
@@ -37,8 +37,9 @@ Zobacz również [Poradniki](Tutorials/pl.md) oraz [Wideo poradniki](video_tutor
   [Tutorial for open windows/pl](Tutorial_for_open_windows/pl.md)                                                         [Tutorial FreeCAD POV ray/pl](Tutorial_FreeCAD_POV_ray/pl.md)                                         [Tutorial Render with Blender/pl](Tutorial_Render_with_Blender/pl.md)
   [Template:TutorialInfo/pl](Template:TutorialInfo/pl.md)                                                                 [Tutorials/pl](Tutorials/pl.md)                                                                       [Video tutorials for product design/pl](Video_tutorials_for_product_design/pl.md)
   [Video tutorials obsolete/pl](Video_tutorials_obsolete/pl.md)                                                           [Video tutorials/pl](Video_tutorials/pl.md)                                                           [VRML Preparation for Robot Simulation/pl](VRML_Preparation_for_Robot_Simulation/pl.md)
-  [Whiffle Ball tutorial/pl](Whiffle_Ball_tutorial/pl.md)                                                                 [Wikihouse porting tutorial/pl](Wikihouse_porting_tutorial/pl.md)                                     
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+  [Whiffle Ball tutorial/pl](Whiffle_Ball_tutorial/pl.md)                                                                 [Wikihouse porting tutorial/pl](Wikihouse_porting_tutorial/pl.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:Tutorials/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/pl

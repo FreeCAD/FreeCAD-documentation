@@ -259,5 +259,7 @@ FreeCAD çalışıyor ancak OpenGL ekranının çalışmadığı, [ Wine](wikipe
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Installing on Windows/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Windows/tr

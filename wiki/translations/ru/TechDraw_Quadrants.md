@@ -55,5 +55,7 @@ Cosmetic Vertices are not accessible from [macros](Macros.md) or the [Python](Py
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/ru

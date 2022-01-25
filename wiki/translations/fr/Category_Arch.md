@@ -3,7 +3,7 @@ Pages relating to Architectural and Building Information Management
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------
+    
   [Arch 3DS/fr](Arch_3DS/fr.md)                                                                                           [Arch 3Views/fr](Arch_3Views/fr.md)                                                                                     [Arch Add/fr](Arch_Add/fr.md)
   [Arch API/fr](Arch_API/fr.md)                                                                                           [Arch Axis/fr](Arch_Axis/fr.md)                                                                                         [Arch AxisSystem/fr](Arch_AxisSystem/fr.md)
   [Arch Building/fr](Arch_Building/fr.md)                                                                                 [Arch BuildingPart/fr](Arch_BuildingPart/fr.md)                                                                         [Arch Check/fr](Arch_Check/fr.md)
@@ -38,11 +38,9 @@ Pages relating to Architectural and Building Information Management
   [IfcOpenShell/fr](IfcOpenShell/fr.md)                                                                                   [IfcPlusPlus/fr](IfcPlusPlus/fr.md)                                                                                     [Import/Export IFC - compiling IfcOpenShell/fr](Import/Export_IFC_-_compiling_IfcOpenShell/fr.md)
   [Manual:BIM modeling/fr](Manual:BIM_modeling/fr.md)                                                                     [Material editor/fr](Material_editor/fr.md)                                                                             [Material/fr](Material/fr.md)
   [Reinforcement Addon/fr](Reinforcement_Addon/fr.md)                                                                     [Reinforcement API/fr](Reinforcement_API/fr.md)                                                                         [SweetHome3D/fr](SweetHome3D/fr.md)
-  [Tutorial custom placing of windows and doors/fr](Tutorial_custom_placing_of_windows_and_doors/fr.md)                   [Tutorial for open windows/fr](Tutorial_for_open_windows/fr.md)                                                         
-                                                                                                                                                                                                                                                                  
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------
+  [Tutorial custom placing of windows and doors/fr](Tutorial_custom_placing_of_windows_and_doors/fr.md)                   [Tutorial for open windows/fr](Tutorial_for_open_windows/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/fr](<img src="images/Property.png" style="width:16px"> User_Documentation/fr.md) [<img src="images/Property.png" style="width:16px"> BIM/fr](<img src="images/Property.png" style="width:16px"> BIM/fr.md) [<img src="images/Property.png" style="width:16px"> Reinforcement/fr](<img src="images/Property.png" style="width:16px"> Reinforcement/fr.md)
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Category:Arch/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch/fr

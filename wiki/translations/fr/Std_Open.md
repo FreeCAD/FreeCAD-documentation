@@ -53,5 +53,7 @@ Pour un exemple de script, voir [Std Nouveau](Std_New/fr#Script.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Open/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Open/fr

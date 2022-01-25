@@ -11,11 +11,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 ### src/Mod/Arch/Resources/ui/
 
- ![](images/ParametersBeam.svg ) ![](images/ParametersDent.svg ) ![](images/ParametersDoorGlass.svg ) ![](images/ParametersDoorSimple.svg ) ![](images/ParametersIbeam.svg ) ![](images/ParametersPanel.svg ) ![](images/ParametersPillar.svg ) ![](images/ParametersSlab.svg ) ![](images/ParametersStairs.svg ) ![](images/ParametersWindowDouble.svg ) ![](images/ParametersWindowFixed.svg ) ![](images/ParametersWindowSimple.svg ) ![](images/ParametersWindowStash.svg ) 
+ ![](images/ParametersBeam.svg ) ![](images/ParametersDent.svg ) ![](images/ParametersDoorGlass.svg ) ![](images/ParametersDoorSimple.svg ) ![](images/ParametersIbeam.svg ) ![](images/ParametersPanel.svg ) ![](images/ParametersPillar.svg ) ![](images/ParametersSlab.svg ) ![](images/ParametersStairs.svg ) ![](images/ParametersWindowDouble.svg ) ![](images/ParametersWindowFixed.svg ) ![](images/ParametersWindowSimple.svg ) ![](images/ParametersWindowStash.svg )
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md)
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Artwork Arch
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > Artwork Arch

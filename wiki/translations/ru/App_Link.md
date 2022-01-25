@@ -51,5 +51,7 @@ An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App Do
 
 }} {{Document objects navi}}
 
+
+
 ---
-[documentation index](../README.md) > App Link/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > App Link/ru

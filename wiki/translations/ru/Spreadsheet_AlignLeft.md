@@ -27,5 +27,7 @@ The **[<img src=images/Spreadsheet_AlignLeft.svg style="width:16px"> [Spreadshee
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignLeft/ru

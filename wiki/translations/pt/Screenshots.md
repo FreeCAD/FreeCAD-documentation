@@ -231,7 +231,7 @@ O FreeCAD corre em modo consola (sem gui)
 
 Caixa de dialogo para salvar imagens com tamanhos arbitrários.
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/pt](<img src="images/Property.png" style="width:16px"> User_Documentation/pt.md) [<img src="images/Property.png" style="width:16px"> Screenshots/pt](<img src="images/Property.png" style="width:16px"> Screenshots/pt.md)
+
 
 ---
-[documentation index](../README.md) > Screenshots/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/pt

@@ -1,5 +1,7 @@
 # Assembly3/it
 1.  REDIRECT [Assembly3\_Workbench/it](Assembly3_Workbench/it.md)
 
+
+
 ---
-[documentation index](../README.md) > Assembly3/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3/it

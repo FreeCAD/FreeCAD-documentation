@@ -27,5 +27,7 @@ El **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Hoja de c
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/es

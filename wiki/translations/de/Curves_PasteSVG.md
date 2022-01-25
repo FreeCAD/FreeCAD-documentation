@@ -59,5 +59,7 @@ Das <img alt="" src=images/Curves_PasteSVG.svg  style="width:24px;"> [Kurven Ein
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves PasteSVG/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PasteSVG/de

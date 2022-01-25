@@ -23,9 +23,9 @@ Dacă cel puțin unul dintre profile are un număr diferit de segmente, se aplic
 
 Operația este extinsă la toate profilurile, pentru a obține un număr egal de segmente. Numărul total de segmente din fiecare profil ar fi egal cu suma tuturor numerelor de segmente ale tuturor profilurilor (cu condiția ca nici unul dintre vârfuri să nu aibă același unghi polar).
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   <img alt="The process of slicing profile2 (white crescent-like shape) to create joints corresponding to vertices of profile1 (purple pentagon). The inserted joints are marked by yellow arrows." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="The result of loft relevant to the picture on the left." src=images/Loft_crescent_pentagon.png  style="width:300px;">
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
 ### Pasul 2. Establishing correspondence between segments 
 
@@ -65,14 +65,10 @@ Rețineți că Loft are o proprietate \"Riglat\". Dacă este setat la adevărat,
 -   Pentru Loft, nu este necesar ca profilurile să fie separate (a se vedea o imagine de mai jos). Ele pot fi coplanare, dar nu ar trebui să se intersecteze.
 -   Când proprietatea \"închisă\" a Loft-ului este \"adevărată\", există o îmbinare la vârf între toate curbele spline care formează Loft-ul (vezi imaginea de mai jos). Nu există nici o modalitate sigură de a închide Loft-ul fără asperități/probleme.
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
   <img alt="It is not required that the profiles are parallel." src=images/Loft_nonparallel.png  style="width:300px;">   <img alt="In Loft, the profiles can be coplanar. In this example, two of three profiles are coplanar." src=images/Loft_Coplanar.png  style="width:300px;">   <img alt="An example of a closed loft between three pentagonal profiles (white). Note the non-smooth joint at the outermost profile. This is the first profile in the closed loft." src=images/Loft-closed.png  style="width:300px;">
-  ----------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/ro

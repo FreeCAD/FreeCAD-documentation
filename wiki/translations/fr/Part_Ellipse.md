@@ -24,5 +24,7 @@ La boîte de dialogue [Primitives](Part_Primitives/fr.md) est accessible en cliq
 -   **Angle 1:** Début de la ligne de l\'ellipse ou courbe elliptique, (dans le sens anti horaire), la valeur par défaut est 0°
 -   **Angle 2:** extrémité du bord de l\'ellipse ou du bord courbe elliptique, (degrés dans le sens inverse des aiguilles d\'une montre), la valeur par défaut est de 360°
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipse/fr

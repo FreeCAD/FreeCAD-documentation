@@ -3,11 +3,10 @@ This category lists pages related to the [Image Workbench/zh](Image_Workbench/zh
 
 ### Contents:
 
-  -----------------------------------------------------
+  
   [Image Workbench/zh](Image_Workbench/zh.md)
-  -----------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/zh](<img src="images/Property.png" style="width:16px"> Workbenches/zh.md)
+
 
 ---
-[documentation index](../README.md) > Category:Image/zh
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Image/zh

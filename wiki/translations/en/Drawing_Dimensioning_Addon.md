@@ -216,7 +216,7 @@ Tipps:
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> Drawing](Category_Drawing.md)
+
 
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing Dimensioning Addon/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [Drawing](Drawing_Workbench.md) > Drawing Dimensioning Addon/en

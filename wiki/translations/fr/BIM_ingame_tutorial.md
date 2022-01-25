@@ -504,7 +504,7 @@ FreeCAD est un logiciel gratuit, développé par une communauté passionnée d\'
 
 {{BIMTutorialAction|descr=Aucune action à effectuer pour cette étape}}
 
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
+
 
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM ingame tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Tutorials](Category_Tutorials.md) > BIM ingame tutorial/fr

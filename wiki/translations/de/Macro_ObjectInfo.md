@@ -48,5 +48,7 @@ Ein FreeCAD-Benutzer hat ein benutzerfreundliches \"Info\" Modul erstellt, das S
 
 Vom Forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 
+
+
 ---
-[documentation index](../README.md) > Macro ObjectInfo/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro ObjectInfo/de

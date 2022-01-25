@@ -97,7 +97,7 @@ ver 0.1 , 2018-07-14 : add create segment
 
 ver 0.0 , 2018-07-10 :
 
-[<img src="images/Property.png" style="width:16px"> Macros Needing Review](Category_Macros_Needing_Review.md)
+
 
 ---
-[documentation index](../README.md) > Macro CirclePlus/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro CirclePlus/it

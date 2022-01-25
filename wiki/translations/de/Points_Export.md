@@ -29,5 +29,7 @@ Der **Punkte Export** Befehl exportiert eine Punktwolke in eine Datei.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/de

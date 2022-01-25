@@ -36,5 +36,7 @@ nrot = cam.orientation.getValue() * rot
 cam.orientation = nrot
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Rotate View
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Rotate View

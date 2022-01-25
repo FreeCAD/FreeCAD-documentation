@@ -98,5 +98,7 @@ Legt den Zeichenstil fest. Das Aufklappmenü bietet 4 Wahlmöglichkeiten:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SetAppearance/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SetAppearance/de

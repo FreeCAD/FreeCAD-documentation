@@ -24,7 +24,8 @@ The <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="wi
     -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=16px> Select line attributes** option from the menu.
 2.  Optionally change the line style, the line width and the line color.
 3.  Optionally change the cascade spacing value used in several dimension cascading tools.
-4.  Press the **OK** button.
+4.  Optionally change the delta distance value used in <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:16px;"> [TechDraw ExtensionExtendLine](TechDraw_ExtensionExtendLine.md) and <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:16px;"> [TechDraw ExtensionShortenLine](TechDraw_ExtensionShortenLine.md).
+5.  Press the **OK** button.
 
 ## Notes
 
@@ -35,5 +36,7 @@ The <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="wi
 
  {{TechDraw_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionSelectLineAttributes
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionSelectLineAttributes

@@ -5,7 +5,7 @@ Special pages are [Offsite tutorials/ro](Offsite_tutorials/ro.md) and [Video tut
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------
+    
   [Add FEM Constraint Tutorial/ro](Add_FEM_Constraint_Tutorial/ro.md)                                 [Add FEM Equation Tutorial/ro](Add_FEM_Equation_Tutorial/ro.md)                                             [Aeroplane/ro](Aeroplane/ro.md)
   [Arch panel tutorial/ro](Arch_panel_tutorial/ro.md)                                                 [Arch tutorial/ro](Arch_tutorial/ro.md)                                                                     [Basic modeling tutorial/ro](Basic_modeling_tutorial/ro.md)
   [Basic Part Design Tutorial/ro](Basic_Part_Design_Tutorial/ro.md)                                   [Basic Sketcher Tutorial/ro](Basic_Sketcher_Tutorial/ro.md)                                                 [Basic TechDraw Tutorial/ro](Basic_TechDraw_Tutorial/ro.md)
@@ -26,10 +26,9 @@ Special pages are [Offsite tutorials/ro](Offsite_tutorials/ro.md) and [Video tut
   [Scripted Parts: Ball Bearing - Part 1/ro](Scripted_Parts:_Ball_Bearing_-_Part_1/ro.md)             [Sketcher Micro Tutorial - Constraint Practices/ro](Sketcher_Micro_Tutorial_-_Constraint_Practices/ro.md)   [Thread for Screw Tutorial/ro](Thread_for_Screw_Tutorial/ro.md)
   [Toothbrush Head Stand/ro](Toothbrush_Head_Stand/ro.md)                                             [Template:TutorialInfo/ro](Template:TutorialInfo/ro.md)                                                     [Tutorials/ro](Tutorials/ro.md)
   [Video tutorials/ro](Video_tutorials/ro.md)                                                         [VRML Preparation for Robot Simulation/ro](VRML_Preparation_for_Robot_Simulation/ro.md)                     [Whiffle Ball tutorial/ro](Whiffle_Ball_tutorial/ro.md)
-  [Wikihouse porting tutorial/ro](Wikihouse_porting_tutorial/ro.md)                                                                                                                                                       
-  ----------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------
+  [Wikihouse porting tutorial/ro](Wikihouse_porting_tutorial/ro.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/ro](<img src="images/Property.png" style="width:16px"> Categories/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:Tutorials/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/ro

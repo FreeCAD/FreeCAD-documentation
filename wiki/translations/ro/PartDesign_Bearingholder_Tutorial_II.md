@@ -1,12 +1,18 @@
+---
+- TutorialInfo:   Topic:Modeling
+   Level:Experienced User
+   Author:NormandC
+   Time:
+   FCVersion:0.19.23300 or higher
+   Files:
+---
+
 # PartDesign Bearingholder Tutorial II/ro
-{{TutorialInfo
-|Topic=Modeling
-|Level=Experienced User
-|Author=NormandC
-|Time=
-|FCVersion=0.19.23300 or higher
-|Files=
-}}
+
+
+
+
+
 
 
 **Acest tutorial a fost inițial scris pentru o versiune de dezvoltare și nu este acum disponibilă în binar sau ca executabil în FreeCAD. Începând cu aprilie 2016, aceste caracteristici au fost integrate în versiunea de 0.17 de pre-dezvoltare disponibilă [https://github.com/FreeCAD/FreeCAD/releases/tag/0.17_pre here].
@@ -91,7 +97,5 @@ For the rest of the machining, create a new Body. The bottom of the holder will 
 
 
 
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
-
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/ro

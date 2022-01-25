@@ -139,8 +139,5 @@ C\'è un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/it

@@ -1187,5 +1187,7 @@ ver 00.06 : 13/10/2016 : sélection du format de la page et position automatique
 
 ver 5 : 08/08/2014 PyQt4 and PySide
 
+
+
 ---
-[documentation index](../README.md) > Macro CartoucheFC Full/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro CartoucheFC Full/fr

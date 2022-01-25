@@ -36,5 +36,7 @@ La commande **Std Exécuter la macro dans l\'éditeur** exécute la macro dans l
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgMacroExecuteDirect/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecuteDirect/fr

@@ -37,5 +37,7 @@ La herramienta **extender borde** extiende una borde a una ubicación arbitraria
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/es

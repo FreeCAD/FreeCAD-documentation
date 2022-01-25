@@ -49,5 +49,7 @@ A kijelölt hálók normálisainak kiegyenlítése.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/hu
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/hu

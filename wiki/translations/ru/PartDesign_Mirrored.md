@@ -89,5 +89,7 @@ The mirror result can be previewed in real time before clicking **OK** by checki
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/ru

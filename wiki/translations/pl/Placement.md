@@ -1,21 +1,21 @@
 # Placement/pl
-## Overview
+## Przegląd
 
-**Placement** is how FreeCAD specifies the location and attitude (orientation) of an object in space. Placement can be specified in multiple forms and manipulated via [scripting](Python_scripting_tutorial#Vectors_and_placements.md), the [property editor](Property_editor.md) or selecting **Edit → Placement...** to open the [Placement task panel](Std_Placement.md).
+**Umiejscowienie** to sposób w jaki FreeCAD określa położenie i pozycję *(orientację)* obiektu w przestrzeni. Umiejscowienie może być określone w wielu formach i manipulowane poprzez [skrypty](Python_scripting_tutorial#Vectors_and_placements.md), [Edytor właściwości](Property_editor/pl.md) lub wybierając **Edycja → Umiejscowienie...** aby otworzyć [Panel zadań umiejscowienie](Std_Placement/pl.md).
 
-### Accessing the Placement Attribute 
+### Dostęp do atrybutu Umiejscowienie 
 
-An object\'s Placement attributes can be accessed and modified in 3 ways:
+Atrybuty Umiejscowienia obiektu mogą być dostępne i modyfikowane na 3 sposoby:
 
-![Placement in property editor](images/PlacementPropertiesv10-800x800.png ) 
+![Umiejscowienie w edytorze właściwości](images/PlacementPropertiesv10-800x800.png ) 
 
-![Scripting Placement as y/p/r and Matrix and its [API](images/Placement_API.md).](PlacePyConv10.png ) 
+![Umiejscowienie w skrypcie jako y/p/r i Macierz i jej [API](images/Placement_API/pl.md).](PlacePyConv10.png ) 
 
-![Placement task panel](images/PlacementDialogv10.png ) 
+![Panel zadań umiejscowienia](images/PlacementDialogv10.png ) 
 
-## Forms of Placement 
+## Formy umiejscowienia 
 
-The placement is stored internally as a position and a rotation (rotation axis and angle transformed into a [quaternion](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). While there are several forms to specify a rotation, for instance with a rotation center, this is only used to affect the rotation computation and is not stored for later operations. Similarly, if a rotation axis of (1,1,1) is specified, it may be normalized when stored in the quaternion and appear as (0.58, 0.58, 0.58) when browsing the object later.
+Umiejscowienie jest przechowywane wewnętrznie jako pozycja i obrót (oś obrotu i kąt przekształcone w [quaternion](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). Chociaż istnieje kilka form określania obrotu, na przykład środek obrotu, jest on używany tylko do wpływania na obliczanie obrotu i nie jest przechowywany do późniejszych operacji. Podobnie, jeśli określona jest oś obrotu o wartości (1,1,1), może ona zostać znormalizowana podczas przechowywania w kwaternionie i pojawić się jako (0.58, 0.58, 0.58) podczas późniejszego przeglądania obiektu.
 
 ### Angle, Axis and Position 
 
@@ -232,7 +232,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 -   The reference point of an object varies depending on the object. Some examples for common objects:
 
   Object                           Reference Point
-  -------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                         left (minx), front (miny), bottom (minz) vertex
   Part.Sphere                      center of the sphere (ie centre of bounding box)
   Part.Cylinder                    center of the bottom face
@@ -248,5 +248,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 -   This tutorial: [Aeroplane](Aeroplane.md) covers the mechanics of changing an object\'s Placement extensively.
 
+
+
 ---
-[documentation index](../README.md) > Placement/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Placement/pl

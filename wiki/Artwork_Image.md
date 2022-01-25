@@ -7,11 +7,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 ### src/Mod/Image/Gui/Resources/Icons/
 
- ![](images/Image_Open.svg ) ![](images/Image_CreateImagePlane.svg ) ![](images/Image_Scaling.svg ) ![](images/ImageWorkbench.svg ) 
+ ![](images/Image_Open.svg ) ![](images/Image_CreateImagePlane.svg ) ![](images/Image_Scaling.svg ) ![](images/ImageWorkbench.svg )
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Image](Category_Image.md)
 
 ---
-[documentation index](../README.md) > [Image](Category_Image.md) > Artwork Image
+![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Category_Image.md) > Artwork Image

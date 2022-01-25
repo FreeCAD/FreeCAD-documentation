@@ -26,5 +26,7 @@ The **Std DlgPreferences** command opens the [Preferences Editor](Preferences_Ed
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgPreferences
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgPreferences

@@ -184,9 +184,7 @@ class CustomObject:
 -   [obj.Proxy.Type is a dict, not a string](https://forum.freecadweb.org/viewtopic.php?f=18&t=44009), explanation of `__getstate__` and `__setstate__` in the forum.
 -   [The Pickle module](https://docs.python.org/3/library/pickle.html#object.__getstate__) in the Python documentation.
 
- {{Powerdocnavi}} 
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted objects saving attributes
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects saving attributes

@@ -33,5 +33,7 @@ To cut other objects you can use the [Std Copy](Std_Copy.md) command followed by
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Cut/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Cut/en

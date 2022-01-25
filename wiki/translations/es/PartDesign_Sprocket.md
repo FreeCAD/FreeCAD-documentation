@@ -56,5 +56,7 @@ Esta herramienta permite crear un perfil 2D de una rueda cadena. Se puede acolch
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Sprocket/es

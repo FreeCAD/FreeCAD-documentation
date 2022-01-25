@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/es
+   Topic: Importar código OpenSCAD
+   Level: Principiante
+   Time: 30 minutos
+   Author:r-frank
+   FCVersion:0.16.6704
+   Files:
+---
+
 # Import OpenSCAD code/es
-{{TutorialInfo/es
-|Topic= Importar código OpenSCAD
-|Level= Principiante
-|Time= 30 minutos
-|Author=r-frank
-|FCVersion=0.16.6704
-|Files=
-}}
+
+
+
+
 
 ## Introducción
 
@@ -54,7 +60,7 @@ Aquí usaremos el archivo example005.scad de los (antiguos) ejemplos de OpenSCAD
 
 \]\]
 
-[<img src="images/Property.png" style="width:16px"> OpenSCAD](Category_OpenSCAD.md)
+
 
 ---
-[documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > [Import](Import_Workbench.md) > Import OpenSCAD code/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > [Import](Import_Workbench.md) > Import OpenSCAD code/es

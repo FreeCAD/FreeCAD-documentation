@@ -3,7 +3,7 @@ This category collects pages about all the different file formats that FreeCAD i
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [Arch 3DS/ru](Arch_3DS/ru.md)                                                                       [Arch DAE/ru](Arch_DAE/ru.md)                               [Arch IFC/ru](Arch_IFC/ru.md)
   [Arch JSON/ru](Arch_JSON/ru.md)                                                                     [Arch OBJ/ru](Arch_OBJ/ru.md)                               [Draft DAT/ru](Draft_DAT/ru.md)
   [Draft DXF/ru](Draft_DXF/ru.md)                                                                     [Draft OCA/ru](Draft_OCA/ru.md)                             [Draft SVG/ru](Draft_SVG/ru.md)
@@ -12,8 +12,8 @@ This category collects pages about all the different file formats that FreeCAD i
   [Import Export Preferences/ru](Import_Export_Preferences/ru.md)                                     [Import Export/ru](Import_Export/ru.md)                     [Import from STL or OBJ/ru](Import_from_STL_or_OBJ/ru.md)
   [Import/Export IFC - compiling IfcOpenShell/ru](Import/Export_IFC_-_compiling_IfcOpenShell/ru.md)   [Material/ru](Material/ru.md)                               [PDF/ru](PDF/ru.md)
   [Std Export/ru](Std_Export/ru.md)                                                                   [Std Import/ru](Std_Import/ru.md)                           [SVG/ru](SVG/ru.md)
-                                                                                                                                                                                  
-  ----------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------- ---------------------------------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:File Formats/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:File Formats/ru

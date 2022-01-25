@@ -128,7 +128,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 -   Overview
 
   Version   Data di rilascio   Informations
-  --------- ------------------ --------------------------------------------------------------------------
+    
   0.18                         Versione di sviluppo attuale
   0.17      2018-04-06         [Note di rilascio della versione 0.17](Release_notes_0.17/it.md)
   0.16      2016-04-18         [Note di rilascio della versione 0.16](Release_notes_0.16/it.md)
@@ -206,7 +206,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 </div>
 
   Color   Version Type
-  ------- --------------------------------
+   
           Future release
           Latest preview version
           **Latest version**
@@ -227,7 +227,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > History/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > History/it

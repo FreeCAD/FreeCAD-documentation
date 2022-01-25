@@ -50,5 +50,7 @@ Il vincolo applica la temperatura iniziale a tutti i nodi nel modello FEA
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ConstraintInitialTemperature/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintInitialTemperature/it

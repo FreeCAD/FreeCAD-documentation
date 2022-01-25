@@ -77,9 +77,7 @@ In order to add anything to this list it needs to be vetted by the community. No
 
 -   Forum thread: [List of firms/companies/organizations that use FreeCAD in Production or in their workflow](https://forum.freecadweb.org/viewtopic.php?f=8&t=43604)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD used in production
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD used in production

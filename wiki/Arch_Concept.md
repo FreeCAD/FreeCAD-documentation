@@ -168,7 +168,5 @@ The following diagram illustrates the relationship between all objects described
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Arch](Arch_Workbench.md) > Arch Concept
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Arch](Arch_Workbench.md) > Arch Concept

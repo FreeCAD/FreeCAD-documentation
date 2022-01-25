@@ -47,5 +47,7 @@ Double-cliquez sur l\'étiquette DatumLine dans l\'arborescence du modèle ou cl
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/fr

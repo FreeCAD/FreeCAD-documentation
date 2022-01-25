@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/ru
+   Topic:TechDraw
+   Level:Base
+   Time:1 минута
+   Author:AnHi
+   FCVersion:0.19
+---
+
 # Measurement Of Angles On Holes/ru
-{{TutorialInfo/ru
-|Topic=TechDraw
-|Level=Base
-|Time=1 минута
-|Author=AnHi
-|FCVersion=0.19
-}}
+
+
+
+
 
 ## Введение
 
@@ -40,7 +46,9 @@ Quadrant points select with <img alt="" src=images/TechDraw_Quadrants.svg  style
 
 <img alt="" src=images/AnHi11.PNG  style="width:250px;">
 
-*Above: Succession of selection|center* {{TechDraw Tools navi}} {{Tutorials navi}}
+*Above: Succession of selection|center* {{TechDraw Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > Measurement Of Angles On Holes/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/ru

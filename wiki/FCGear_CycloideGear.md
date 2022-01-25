@@ -82,13 +82,11 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 ### Straight line as hypocycloid 
 
-To obtain a straight line, directly towards the center, as hypocycloid, use the following [expression](Expressions.md) for the **inner_diameter**: `teeth / 2`.
-
-Such a tooth form is often found in historical clockworks and thus called \"clock toothing\". A larger **clearance** makes the effect even more visible.
+To obtain a straight line, directly towards the center, as hypocycloid, use the following [expression](Expressions.md) for the **inner_diameter**: `teeth / 2`. Such a tooth form is often found in historical clockworks and thus called \"clock toothing\". A larger **clearance** makes the effect even more visible.
 
 ### Full hypocycloid/epicycloid as tooth 
 
-To obtain a gear made of complete hypocycloid and epicycloid curves use the following [expression](Expressions.md) for
+To obtain a gear made of complete hypocycloid and epicycloid curves use the following [expressions](Expressions.md):
 
 -    **inner_diameter**: `0.5 + 1e-6`
 
@@ -114,14 +112,9 @@ For more information see <img alt="" src=images/FCGear_InvoluteGear.svg  style="
 
 ## Properties cycloid parameter view 
 
- <img alt="" src=images/CycloidGear_inner-outer-diameter_2.svg  style="width:400px;"> 
+ <img alt="" src=images/CycloidGear_inner-outer-diameter_2.svg  style="width:400px;">
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> FCGear](Category_FCGear.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > FCGear CycloideGear
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear CycloideGear

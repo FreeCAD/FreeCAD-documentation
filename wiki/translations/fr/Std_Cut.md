@@ -35,5 +35,7 @@ Pour couper d\'autres objets, vous pouvez utiliser la commande [Std Copier](Std_
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Cut/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Cut/fr

@@ -55,5 +55,7 @@ L\'aggancio alla griglia può essere impostato nelle [Preferenze di Sketcher](Sk
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreatePoint/it

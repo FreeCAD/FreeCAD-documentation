@@ -139,9 +139,6 @@ Si spera che questo sia vero per tutti i comandi Gui della [List of Commands](Li
 </div>
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > Gui Command/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/it

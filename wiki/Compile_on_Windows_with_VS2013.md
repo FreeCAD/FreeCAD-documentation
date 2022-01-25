@@ -112,9 +112,7 @@ This will take a long time\...
 
 If you don\'t get any errors your done. Exit Visual Studio and start FreeCAD by double clicking the FreeCAD icon in the bin folder of the build directory.
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Windows with VS2013
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows with VS2013

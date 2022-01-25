@@ -103,5 +103,7 @@ More information about the current efforts to deal with Snaps:
 -   [AppImage](AppImage.md) - another self-contained \'binary\' like format to run FreeCAD
 -   [Flatpak](Flatpak.md)
 
+
+
 ---
-[documentation index](../README.md) > Ubuntu Snap/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Ubuntu Snap/it

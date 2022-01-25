@@ -23,5 +23,7 @@ Damit kannst du:
 -   Ändern des IFC Typs durch Anklicken eines einzelnen Typs oder, wenn mehr als einer ausgewählt ist, über das Auswahlmenü \"Typ ändern in:\".
 -   Ändern des Materials durch Anklicken eines einzelnen Materials oder, falls mehr als eines ausgewählt ist, über das Auswahlmenü \"Material ändern in:\".
 
+
+
 ---
-[documentation index](../README.md) > BIM IfcElements/de
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcElements/de

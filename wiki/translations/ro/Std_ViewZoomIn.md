@@ -70,5 +70,7 @@ FreeCADGui.ActiveDocument.ActiveView.zoomIn()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewZoomIn/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewZoomIn/ro

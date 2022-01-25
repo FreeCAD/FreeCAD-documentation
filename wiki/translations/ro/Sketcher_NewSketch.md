@@ -62,5 +62,7 @@ The sketch can be moved in the 3D-Space using [Placement](Placement.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/ro

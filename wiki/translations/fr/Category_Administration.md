@@ -1,11 +1,11 @@
 # Category:Administration/fr
-# <img src="images/Property.png" style="width:16px"> Administration/fr
+# Category:Administration/fr
 
 Cette catégorie contient les articles, et, les catégories sur le wiki, de tous les sujets administratifs.
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- -----------------------------------------------------------------------------------
+    
   [Template:Arch Tools navi/fr](Template:Arch_Tools_navi/fr.md)               [Bug Triage/fr](Bug_Triage/fr.md)                                           [Changelog/fr](Changelog/fr.md)
   [Crowdin Administration/fr](Crowdin_Administration/fr.md)                   [Crowdin Scripts/fr](Crowdin_Scripts/fr.md)                                 [Template:Document objects navi/fr](Template:Document_objects_navi/fr.md)
   [Template:Draft Tools navi/fr](Template:Draft_Tools_navi/fr.md)             [Template:Drawing Tools navi/fr](Template:Drawing_Tools_navi/fr.md)         [Template:EM Tools navi/fr](Template:EM_Tools_navi/fr.md)
@@ -18,10 +18,8 @@ Cette catégorie contient les articles, et, les catégories sur le wiki, de tous
   [Template:Sketcher Tools navi/fr](Template:Sketcher_Tools_navi/fr.md)       [Template:Start Tools navi/fr](Template:Start_Tools_navi/fr.md)             [Template:StdMenu/fr](Template:StdMenu/fr.md)
   [Template:TechDraw Tools navi/fr](Template:TechDraw_Tools_navi/fr.md)       [Tracker/fr](Tracker/fr.md)                                                 [Template:Tutorials navi/fr](Template:Tutorials_navi/fr.md)
   [Template:UnfinishedDocu/fr](Template:UnfinishedDocu/fr.md)                 [WikiPages/fr](WikiPages/fr.md)                                             [WikiRobots/fr](WikiRobots/fr.md)
-                                                                                                                                                                          
-  ----------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- -----------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Categories/fr](<img src="images/Property.png" style="width:16px"> Categories/fr.md) [<img src="images/Property.png" style="width:16px"> UnfinishedDocu/fr](<img src="images/Property.png" style="width:16px"> UnfinishedDocu/fr.md) [<img src="images/Property.png" style="width:16px"> Wiki/fr](<img src="images/Property.png" style="width:16px"> Wiki/fr.md)
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Category:Administration/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Category:Administration/fr

@@ -98,5 +98,7 @@ C. Double clicking anywhere else in the row will open the toolbit editing panel.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitLibraryOpen/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBitLibraryOpen/en

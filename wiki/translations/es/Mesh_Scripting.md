@@ -93,9 +93,9 @@ doc.recompute()
 
 Una fuente extensa, aunque difícil de usar, de scripts relacionados con la malla son los scripts de pruebas unitarias del módulo `Mesh`. En estas pruebas unitarias se llaman literalmente todos los métodos y se ajustan todas las propiedades/atributos. Así que si eres lo suficientemente audaz, echa un vistazo al módulo [Unit Test](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-Ver también: [Interfaz de programación de aplicaciones Malla](Mesh_API.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
+Ver también: [Interfaz de programación de aplicaciones Malla](Mesh_API.md). {{Top}}  {{Mesh Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/es

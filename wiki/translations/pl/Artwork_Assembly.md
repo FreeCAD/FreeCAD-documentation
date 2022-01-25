@@ -20,9 +20,9 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Assembly](Category_Assembly.md)
+
 
 ---
-[documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly/pl

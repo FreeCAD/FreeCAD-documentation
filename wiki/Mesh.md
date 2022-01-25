@@ -35,9 +35,9 @@ For more information see [FEM Workbench](FEM_Workbench.md) and [FEM Mesh](FEM_Me
 
 -   [Polygonal (mesh) geometry](https://forum.freecadweb.org/viewtopic.php?f=8&t=47493)
 
- {{Mesh Tools navi}} {{FEM Tools navi}} {{Document objects navi}} 
+ {{Mesh Tools navi}} {{FEM Tools navi}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Mesh
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Category_Mesh.md) > [FEM](Category_FEM.md) > Mesh

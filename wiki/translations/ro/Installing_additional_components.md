@@ -19,10 +19,10 @@
 
 FreeCAD este cu adevarat o aplicație multi-platformă, dezvoltată folosind renumitul pachet [Qt](http://en.wikipedia.org/wiki/Qt_(framework)). Asta inseamna ca FreeCAD arata si se comporta la fel in Windows, Linux si Mac. Totusi, procedura de instalare difera usor pentru fiecare sistem de operare. Selectati mai jos sistemul de operare pentru mai multe detalii despre procedura de instalare.
 
-  ---------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
+    
    ![ alt=\'Windows\' \| link= Install on Windows/ro](images/Windows.png )   ![ alt=\'Linux\' \| link= Install on Unix/ro](images/Linux.png )   ![ alt=\'Mac\' \| link= Install on Mac/ro](images/Mac.png )
                               [Instalare in Windows](Install_on_Windows/ro.md)                                                  [ Instalare in Linux/Unix](Install_on_Unix/ro.md)                                             [Instalare in Mac](Install_on_Mac/ro.md)
-  ---------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
+    
 
 
 </div>
@@ -278,7 +278,7 @@ O bibliotecă pentru exploatarea și manipularea câmpului (FOAM), care este nec
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/ro](<img src="images/Property.png" style="width:16px"> User_Documentation/ro.md)
+
 
 ---
-[documentation index](../README.md) > Installing additional components/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/ro

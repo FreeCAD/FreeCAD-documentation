@@ -31,5 +31,7 @@ Zobacz pełną listę właściwości na stronie [Std: LinkMake](Std_LinkMake/pl.
 
 }} {{Document objects navi}}
 
+
+
 ---
-[documentation index](../README.md) > App Link/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > App Link/pl

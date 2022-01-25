@@ -32,5 +32,7 @@ Voir [Points Conversion](Points_Convert/fr.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/fr

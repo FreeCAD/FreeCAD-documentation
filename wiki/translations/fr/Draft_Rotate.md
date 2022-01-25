@@ -41,7 +41,7 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_C
 Le raccourci clavier à caractère unique et les touches de modification mentionnées ici peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md).
 
 -   Pour saisir manuellement les coordonnées du centre de rotation, entrez les valeurs X, Y et Z,et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   La case à cocher **Relative** n\'a aucune utilité pour cette commande.
+-   La case à cocher **Relative**, affichée dans FreeCAD version 0.19 et antérieure, n\'a aucune utilité pour cette commande.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir été terminée. Ce mode n\'a vraiment de sens que si le mode copie est activé. En fonction de la préférence **Sélectionner les objets de base après la copie**, soit les objets originaux sont sélectionnés pour le prochain appel de la commande, soit les copies créées en dernier. Voir [Préférences](#Préférences.md).
 -   Appuyez sur **P** ou cliquez sur la case **Copie** pour activer le mode copie. Si le mode de copie est activé, la commande créera des copies pivotées au lieu de faire pivoter les objets originaux.
@@ -120,5 +120,7 @@ rot_list4 = Draft.rotate(list2, 4*angle2, center=cen, copy=True)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/fr

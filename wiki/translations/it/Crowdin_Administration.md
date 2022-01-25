@@ -95,8 +95,5 @@ If you notice a string in the FreeCAD UI that is not translated do the following
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
-
 ---
-[documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/it

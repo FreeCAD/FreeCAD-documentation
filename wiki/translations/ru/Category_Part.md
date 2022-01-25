@@ -3,7 +3,7 @@ This category lists pages related to the [Part Workbench/ru](Part_Workbench/ru.m
 
 ### Contents:
 
-  ----------------------------------------------------------------------------- --------------------------------------------------------------------------- -------------------------------------------------------------------------
+    
   [Aeroplane/ru](Aeroplane/ru.md)                                       [Artwork Part/ru](Artwork_Part/ru.md)                               [Basic modeling tutorial/ru](Basic_modeling_tutorial/ru.md)
   [Constructive solid geometry/ru](Constructive_solid_geometry/ru.md)   [Draft ShapeString tutorial/ru](Draft_ShapeString_tutorial/ru.md)   [Part and PartDesign/ru](Part_and_PartDesign/ru.md)
   [Part Boolean/ru](Part_Boolean/ru.md)                                 [Part BooleanFragments/ru](Part_BooleanFragments/ru.md)             [Part Box/ru](Part_Box/ru.md)
@@ -33,10 +33,9 @@ This category lists pages related to the [Part Workbench/ru](Part_Workbench/ru.m
   [Template:Part Tools navi/ru](Template:Part_Tools_navi/ru.md)         [Part TopoShape/ru](Part_TopoShape/ru.md)                           [Part Torus/ru](Part_Torus/ru.md)
   [Part TransformedCopy/ru](Part_TransformedCopy/ru.md)                 [Part Tube/ru](Part_Tube/ru.md)                                     [Part Wedge/ru](Part_Wedge/ru.md)
   [Part XOR/ru](Part_XOR/ru.md)                                         [Shape/ru](Shape/ru.md)                                             [Thread for Screw Tutorial/ru](Thread_for_Screw_Tutorial/ru.md)
-  [Topological naming problem/ru](Topological_naming_problem/ru.md)     [Whiffle Ball tutorial/ru](Whiffle_Ball_tutorial/ru.md)             
-  ----------------------------------------------------------------------------- --------------------------------------------------------------------------- -------------------------------------------------------------------------
+  [Topological naming problem/ru](Topological_naming_problem/ru.md)     [Whiffle Ball tutorial/ru](Whiffle_Ball_tutorial/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/ru](<img src="images/Property.png" style="width:16px"> Workbenches/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Part/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/ru

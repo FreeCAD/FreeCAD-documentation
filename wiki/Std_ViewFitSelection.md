@@ -43,5 +43,7 @@ FreeCADGui.SendMsgToActiveView('ViewSelection')
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewFitSelection
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewFitSelection

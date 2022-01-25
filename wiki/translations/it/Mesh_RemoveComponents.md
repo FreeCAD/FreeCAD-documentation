@@ -51,5 +51,7 @@ Il comando **Rimuovi componenti** rimuove le facce dagli oggetti mesh.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/it

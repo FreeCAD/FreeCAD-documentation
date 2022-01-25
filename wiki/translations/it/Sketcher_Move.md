@@ -48,5 +48,7 @@ Sposta da un punto a un altro gli elementi dello schizzo selezionati, utilizzand
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/it

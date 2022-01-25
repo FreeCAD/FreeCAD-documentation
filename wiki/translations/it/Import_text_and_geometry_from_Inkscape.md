@@ -1,11 +1,12 @@
 # Import text and geometry from Inkscape/it
-{{TutorialInfo/it
-|Topic= Importare testo e  geometria da Inkscape
-|Level= Base
-|Time= 30 minuti
-|Author=r-frank
-|FCVersion=0.16.6704
-|Files=
+---
+- TutorialInfo:/it
+   Topic: Importare testo e  geometria da Inkscape
+   Level: Base
+   Time: 30 minuti
+   Author:r-frank
+   FCVersion:0.16.6704
+   Files:
 }}
 
 ## Introduzione
@@ -50,5 +51,11 @@ Dato che Inkscape e FreeCAD sembrano avere approcci diversi sul modo di applicar
 
 Grazie agli utenti \"freecad-heini-1\" e \"herbk\" per la verifica e per aver fornito un prezioso feedback.
 
+
+{{clear
 ---
-[documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/it
+
+
+
+---
+![](images/Right_arrow.png) [documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/it

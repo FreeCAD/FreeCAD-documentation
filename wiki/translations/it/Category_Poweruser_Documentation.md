@@ -5,7 +5,7 @@ Questa categoria contiene articoli di documentazione sui file di script Python, 
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [Arch API/it](Arch_API/it.md)                                                             [Base API/it](Base_API/it.md)                                                                         [Builtin modules/it](Builtin_modules/it.md)
   [Code snippets/it](Code_snippets/it.md)                                                   [Command/it](Command/it.md)                                                                           [Console API/it](Console_API/it.md)
   [Create a FeaturePython object part I/it](Create_a_FeaturePython_object_part_I/it.md)     [Create a FeaturePython object part II/it](Create_a_FeaturePython_object_part_II/it.md)               [Custom icon in tree view/it](Custom_icon_in_tree_view/it.md)
@@ -37,11 +37,9 @@ Questa categoria contiene articoli di documentazione sui file di script Python, 
   [Selection API/it](Selection_API/it.md)                                                   [Svg Namespace/it](Svg_Namespace/it.md)                                                               [TechDraw API/it](TechDraw_API/it.md)
   [TechDrawGui API/it](TechDrawGui_API/it.md)                                               [Topological data scripting/it](Topological_data_scripting/it.md)                                     [TopoShape API/it](TopoShape_API/it.md)
   [Units/it](Units/it.md)                                                                   [Vector API/it](Vector_API/it.md)                                                                     [ViewObject API/it](ViewObject_API/it.md)
-  [Viewprovider/it](Viewprovider/it.md)                                                     [Workbench creation/it](Workbench_creation/it.md)                                                     
-                                                                                                                                                                                                                  
-  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+  [Viewprovider/it](Viewprovider/it.md)                                                     [Workbench creation/it](Workbench_creation/it.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/it](<img src="images/Property.png" style="width:16px"> Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Categories/it](<img src="images/Property.png" style="width:16px"> Categories/it.md) [<img src="images/Property.png" style="width:16px"> Python Code/it](<img src="images/Property.png" style="width:16px"> Python_Code/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:Poweruser Documentation/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Poweruser Documentation/it

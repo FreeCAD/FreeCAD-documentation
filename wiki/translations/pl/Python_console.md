@@ -90,5 +90,7 @@ Kliknij prawym przyciskiem myszy na konsoli Pythona, aby wyświetlić kilka pole
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Python console/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Python console/pl

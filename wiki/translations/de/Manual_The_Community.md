@@ -35,5 +35,7 @@ Hoffentlich ist es uns gelungen, dir in diesem Handbuch einen guten Vorgeschmack
 -   [FreeCAD auf Crowdin übersetzen](https://crowdin.com/project/freecad)
 -   [Der FreeCAD Fehlernachverfolger](http://www.freecadweb.org/tracker)
 
+
+
 ---
-[documentation index](../README.md) > Manual:The Community/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The Community/de

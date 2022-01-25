@@ -1,11 +1,16 @@
+---
+- TutorialInfo:   Topic:TechDraw
+   Level:Beginner
+   Time:10 minutes
+   Author:Andergrin
+   FCVersion:0.19
+---
+
 # TechDraw Pitch Circle Tutorial/en
-{{TutorialInfo
-|Topic=TechDraw
-|Level=Beginner
-|Time=10 minutes
-|Author=Andergrin
-|FCVersion=0.19
-}}
+
+
+
+
 
 ## Introduction
 
@@ -43,5 +48,7 @@ This tutorial explains how to add a pitch circle to a <img alt="" src=images/Wor
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Pitch Circle Tutorial/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Pitch Circle Tutorial/en

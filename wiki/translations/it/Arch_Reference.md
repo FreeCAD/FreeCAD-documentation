@@ -72,5 +72,7 @@ Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/it

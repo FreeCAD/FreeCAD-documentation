@@ -111,5 +111,7 @@ Pipe2 = Arch.makePipe(diameter=120, length=3000)
 FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Pipe/fr

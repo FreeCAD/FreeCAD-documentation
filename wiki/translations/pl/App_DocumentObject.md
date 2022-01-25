@@ -73,5 +73,7 @@ obj.Label = "Custom label"
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > App DocumentObject/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > App DocumentObject/pl

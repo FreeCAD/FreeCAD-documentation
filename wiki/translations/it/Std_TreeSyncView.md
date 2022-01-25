@@ -47,5 +47,7 @@ La modalità Sincronizza la vista SyncView è memorizzata in: **Strumenti → Mo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSyncView/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncView/it

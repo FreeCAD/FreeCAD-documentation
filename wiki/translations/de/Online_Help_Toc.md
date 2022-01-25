@@ -61,20 +61,20 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual:Intro
     -   [Setzen der Voreinstellungen für Import-Export ](Import_Export_Preferences/de.md)
     -   [Erster Start und Konfiguration](Start_up_and_Configuration.md)
 
--   [Python skripten](Scripting_and_macros/de.md)
+-   [Python Skripte erstellen](Scripting_and_macros/de.md)
     -   [Arbeiten mit Makros](Macros/de.md)
     -   [Skript Tutorium](Scripts/de.md)
     -   [Einführung in Python](Introduction_to_Python/de.md)
-    -   [Python Tutorium Skripten](Python_scripting_tutorial/de.md)
-    -   [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md)
-    -   [Part Skripten](Part_scripting/de.md)
-    -   [Form Veränderung](Topological_data_scripting/de.md)
-    -   [Gescriptete Objekte](Scripted_objects/de.md)
+    -   [Anleitung zum Erstellen von Python-Skripten](Python_scripting_tutorial/de.md)
+    -   [Grundlagen der Skripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md)
+    -   [Part-Objekte Skripten](Part_scripting/de.md)
+    -   [Topologische Daten bearbeiten](Topological_data_scripting/de.md)
+    -   [Skriptgenerierte Objekte](Scripted_objects/de.md)
     -   [Der Coin Szenengraph](Scenegraph/de.md)
     -   [Arbeiten mit Pivy](Pivy/de.md)
     -   [Arbeiten mit PySide](PySide/de.md)
     -   [Benutzeroberflächen erstellen](Interface_creation/de.md)
-    -   [Dialog erstellen](Dialog_creation/de.md)
+    -   [Dialoge erstellen](Dialog_creation/de.md)
 
 -   Entwicklungung
     -   [Lizenz](Licence/de.md)
@@ -110,8 +110,5 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual:Intro
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/de

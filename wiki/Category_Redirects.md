@@ -3,7 +3,7 @@ This category tracks redirects in the FreeCAD wiki
 
 ### Contents:
 
-  ----------------------------------------------------------------------- --------------------------------------------------------------- -----------------------------------------------------------
+    
   [About](About.md)                                               [Appimage](Appimage.md)                                 [Backtrace](Backtrace.md)
   [Bugtracker](Bugtracker.md)                                     [Bugtracker/de](Bugtracker/de.md)                       [Combo View](Combo_View.md)
   [Constructive Solid Geometry](Constructive_Solid_Geometry.md)   [Dependency Graph](Dependency_Graph.md)                 [Dependency graph](Dependency_graph.md)
@@ -18,8 +18,9 @@ This category tracks redirects in the FreeCAD wiki
   [Patch](Patch.md)                                               [Recompute](Recompute.md)                               [Recompute/ru](Recompute/ru.md)
   [Scripting](Scripting.md)                                       [Source Documentation](Source_Documentation.md)         [Std Exit](Std_Exit.md)
   [Topological](Topological.md)                                   [Translation](Translation.md)                           [TravisCI](TravisCI.md)
-  [Tree View](Tree_View.md)                                       [Visibility](Visibility.md)                             
-  ----------------------------------------------------------------------- --------------------------------------------------------------- -----------------------------------------------------------
+  [Tree View](Tree_View.md)                                       [Visibility](Visibility.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:Redirects
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Redirects

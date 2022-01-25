@@ -50,5 +50,7 @@ La commande **Mesh Couper un maillage** coupe des faces entières à partir d\'o
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyCut/fr

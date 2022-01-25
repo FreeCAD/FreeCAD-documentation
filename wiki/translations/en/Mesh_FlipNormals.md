@@ -31,5 +31,7 @@ The **Mesh FlipNormals** command reverses, flips, the normals of mesh objects.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FlipNormals/en

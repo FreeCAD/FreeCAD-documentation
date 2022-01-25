@@ -197,7 +197,7 @@ Pour rendre une macro installable à partir du <img alt="" src=images/Std_AddonM
 
 Pour y inclure la macro, elle doit d'abord être examinée par la communauté FreeCAD du sous-forum [Python scripting and macros](https://forum.freecadweb.org/viewforum.php?f=22). Une fois que cela est fait, le dépôt des FreeCAD-macros doit être divisé, la nouvelle macro doit être incluse dans une branche, puis la branche doit être poussée et fusionnée dans le dépôt en amont.
 
-[<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Macros](Category_Macros.md) > Macro documentation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/fr

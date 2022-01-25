@@ -56,5 +56,7 @@ L\'immagine viene posizionata in una nuova finestra, non nella vista 3D.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/it

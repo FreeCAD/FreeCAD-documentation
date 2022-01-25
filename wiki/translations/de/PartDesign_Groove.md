@@ -35,7 +35,7 @@ Das **Nut** Werkzeug dreht eine ausgewählte Skizze oder ein gegebenes Profil um
 
 Beim Erstellen einer Nut bietet der **Nutparameter** Dialog mehrere Parameter, die festlegen, wie die Skizze gedreht werden soll.
 
-+--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/partdesign_groove_parameters.png ) | ### Achse                                                                                                                                                                                                                                                                                                                                                                                |
 |                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                          | Diese Option legt die Achse fest, um die die Skizze gedreht werden soll.                                                                                                                                                                                                                                                                                                                 |
@@ -64,7 +64,7 @@ Beim Erstellen einer Nut bietet der **Nutparameter** Dialog mehrere Parameter, d
 |                                                                          | ### Umgekehrt                                                                                                                                                                                                                                                                                                                                                                            |
 |                                                                          |                                                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                          | Wenn diese Option aktiviert ist, wird die Drehrichtung umgekehrt von standardmäßig im Uhrzeigersinn auf gegen den Uhrzeigersinn.                                                                                                                                                                                                                                                         |
-+--------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ## Eigenschaften
 
@@ -91,5 +91,7 @@ Nachfolgend findest Du Eigenschaften, die nach der Erstellung des Merkmals defin
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/de

@@ -5,7 +5,7 @@ Cette catégorie rassemble les articles de documentation s\'adressant surtout au
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+    
   [Add Button to FEM Toolbar Tutorial/fr](Add_Button_to_FEM_Toolbar_Tutorial/fr.md)                   [Add FEM Equation Tutorial/fr](Add_FEM_Equation_Tutorial/fr.md)                                   [ANSI templates/fr](ANSI_templates/fr.md)
   [AppImage/fr](AppImage/fr.md)                                                                       [Arch templates/fr](Arch_templates/fr.md)                                                         [Artwork Erroneous/fr](Artwork_Erroneous/fr.md)
   [Artwork Guidelines/fr](Artwork_Guidelines/fr.md)                                                   [Artwork/fr](Artwork/fr.md)                                                                       [Branding/fr](Branding/fr.md)
@@ -46,10 +46,8 @@ Cette catégorie rassemble les articles de documentation s\'adressant surtout au
   [Third Party Libraries/fr](Third_Party_Libraries/fr.md)                                             [Third Party Tools/fr](Third_Party_Tools/fr.md)                                                   [Topological data scripting/fr](Topological_data_scripting/fr.md)
   [Tracker/fr](Tracker/fr.md)                                                                         [Translating an external workbench/fr](Translating_an_external_workbench/fr.md)                   [Viewprovider/fr](Viewprovider/fr.md)
   [Windows packaging/fr](Windows_packaging/fr.md)                                                     [Workbench creation/fr](Workbench_creation/fr.md)                                                 [Wrapping a Cplusplus class in Python/fr](Wrapping_a_Cplusplus_class_in_Python/fr.md)
-                                                                                                                                                                                                                        
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/fr](<img src="images/Property.png" style="width:16px"> Documentation/fr.md) [<img src="images/Property.png" style="width:16px"> Packaging/fr](<img src="images/Property.png" style="width:16px"> Packaging/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/fr

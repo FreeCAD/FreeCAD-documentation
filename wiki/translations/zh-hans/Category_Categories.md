@@ -13,7 +13,7 @@ This is the **top category** which contains the main categories of the FreeCAD w
         
   -- -- --
 
-[<img src="images/Property.png" style="width:16px"> Categories/zh-hans](<img src="images/Property.png" style="width:16px"> Categories/zh-hans.md) [<img src="images/Property.png" style="width:16px"> Addons/zh-hans](<img src="images/Property.png" style="width:16px"> Addons/zh-hans.md) [<img src="images/Property.png" style="width:16px"> Categories/zh-hans](<img src="images/Property.png" style="width:16px"> Categories/zh-hans.md) [<img src="images/Property.png" style="width:16px"> Documentation/zh-hans](<img src="images/Property.png" style="width:16px"> Documentation/zh-hans.md)
+
 
 ---
-[documentation index](../README.md) > Category:Categories/zh-hans
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Categories/zh-hans

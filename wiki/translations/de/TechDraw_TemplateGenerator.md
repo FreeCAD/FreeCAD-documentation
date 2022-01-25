@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/de
+   Topic:TechDraw-Vorlagen erzeugen mittels Python-Macro
+   Level:Grundkenntnisse von Python und SVG-Strukturen sind hilfreich
+   FCVersion: 0.19.1 und neuer
+   Time:(noch nicht bekannt)
+   Author:[FBXL5](User_FBXL5.md)
+---
+
 # TechDraw TemplateGenerator/de
-{{TutorialInfo/de
-|Topic=TechDraw-Vorlagen erzeugen mittels Python-Macro
-|Level=Grundkenntnisse von Python und SVG-Strukturen sind hilfreich
-|FCVersion= 0.19.1 und neuer
-|Time=(noch nicht bekannt)
-|Author=[FBXL5](User_FBXL5.md)
-}}
+
+
+
+
 
 ## Einleitung
 
@@ -520,5 +526,7 @@ Und so soll es aussehen, wenn sie (die Vorlage) eingefügt wurde (mit vergröße
 
 ![TechDraw TemplateGenerator.png](images/TechDraw_TemplateGenerator.png )
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/de

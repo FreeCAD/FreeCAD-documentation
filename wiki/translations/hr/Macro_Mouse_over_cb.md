@@ -66,5 +66,7 @@ Rasprava na forumu [finding/selecting all elements below cursor](https://forum.f
 
 Drugi slični makro [Selecting internal faces of a pressure vessel](https://forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950) (preuzmite datoteku [FC\_element\_selector\_v1p1p1.py](https://forum.freecadweb.org/download/file.php?id=31041))
 
+
+
 ---
-[documentation index](../README.md) > Macro Mouse over cb/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Mouse over cb/hr

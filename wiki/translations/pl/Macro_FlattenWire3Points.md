@@ -57,5 +57,7 @@ Ikonka paska narzędzi ![](images/Macro_FlattenWire3Points.png )
     sel.Object.Points = points
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro FlattenWire3Points/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FlattenWire3Points/pl

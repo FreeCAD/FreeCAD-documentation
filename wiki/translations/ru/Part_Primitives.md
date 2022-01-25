@@ -87,5 +87,7 @@ $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Primitives/ru

@@ -635,7 +635,9 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 }} 
 
-[分类:用户文档](<img src="images/Property.png" style="width:16px"> User_Documentation/zh-cn.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+[分类:用户文档](Category:User_Documentation/zh-cn.md)
+
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/zh-cn

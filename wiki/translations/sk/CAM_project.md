@@ -3,8 +3,5 @@ Pracovný stôl CAM a tento projekt sú už zastarané. Namiesto toho si pozrite
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > CAM project/sk
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > CAM project/sk

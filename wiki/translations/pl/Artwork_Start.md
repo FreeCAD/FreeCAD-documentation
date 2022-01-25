@@ -30,9 +30,9 @@ Poniższe zdjęcie zostało zmniejszone do szerokości wyświetlania 480 pikseli
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Start](Category_Start.md)
+
 
 ---
-[documentation index](../README.md) > [Start](Category_Start.md) > Artwork Start/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Start](Category_Start.md) > Artwork Start/pl

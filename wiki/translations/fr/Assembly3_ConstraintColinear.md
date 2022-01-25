@@ -32,5 +32,7 @@ Cet outil accepte également les éléments 3D, par exemple les bords ou les lig
 -   2D/3D ou 3D/2D : Au lieu de l\'axe z de l\'élément 3D, la projection de cet axe sur le plan de travail de la ligne 2D est utilisée pour positionner les lignes.
 -   Les deux 3D : les lignes sont positionnées l\'une par rapport à l\'autre mais je n\'arrive pas à comprendre comment\...
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintColinear/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintColinear/fr

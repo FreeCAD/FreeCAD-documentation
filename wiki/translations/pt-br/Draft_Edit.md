@@ -186,5 +186,7 @@ There is no Python method to Draft Edit objects. To emulate the results of the c
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Edit/pt-br

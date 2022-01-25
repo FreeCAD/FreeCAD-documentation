@@ -145,9 +145,9 @@ Mostra un elenco delle librerie esterne utilizzate dal programma e il sito Web p
 
 
 
-{{Std Base navi}}  
+{{Std Base navi}}
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
+
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/it

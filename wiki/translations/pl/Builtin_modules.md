@@ -20,11 +20,6 @@ Ta strona prezentuje więcej szczegółowych informacji na temat wbudowanych mod
 -   [View Objects](ViewObject_API/pl.md)
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Builtin modules/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/pl

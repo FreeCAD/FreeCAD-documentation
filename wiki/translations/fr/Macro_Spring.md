@@ -69,5 +69,7 @@ for ii2 in range(int(60)):
 
 La discussion du forum (en anglais) : [scripting animations](http://forum.freecadweb.org/viewtopic.php?f=22&t=7449#p62193)
 
+
+
 ---
-[documentation index](../README.md) > Macro Spring/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Spring/fr

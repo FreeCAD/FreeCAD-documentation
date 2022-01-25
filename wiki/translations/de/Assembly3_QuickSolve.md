@@ -21,5 +21,7 @@ Der Befehl <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:24
     -   Den Menüeintrag **Assembly3 → <img src="images/Assembly_QuickSolve.svg‎‎" width=16px> Schnelle Berechnung**.
     -   Das Tastenkürzel: **A** dann **F**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 QuickSolve/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 QuickSolve/de

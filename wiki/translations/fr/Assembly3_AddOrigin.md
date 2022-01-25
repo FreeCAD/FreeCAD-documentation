@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Assembly_Add_Origin.svg  style="width:24px;">
     -   Le bouton **<img src="images/Assembly_Add_Origin.svg_" width=16px> [Add origin](Assembly3_AddOrigin/fr.md)**.
     -   L\'option de menu **Assembly3 → Workplane and origin → <img src="images/Assembly_Add_Origin.svg_" width=16px> Add origin**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AddOrigin/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddOrigin/fr

@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/it
+   Topic: Analisi Elementi Finiti
+   Level: Base
+   Time: 10 minuti
+   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
+   FCVersion:0.16.6377 o superiore
+   Files:
+---
+
 # FEM CalculiX Cantilever 3D/it
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it
-|Topic= Analisi Elementi Finiti
-|Level= Base
-|Time= 10 minuti
-|Author=[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
-|FCVersion=0.16.6377 o superiore
-|Files=
-}}
 
 
 </div>
@@ -230,9 +236,9 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 </div>
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > FEM CalculiX Cantilever 3D/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/it

@@ -56,7 +56,5 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD **Online Hilfe** Syste
 
 
 
-[<img src="images/Property.png" style="width:16px"> Manual](Category_Manual.md)
-
 ---
-[documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/de

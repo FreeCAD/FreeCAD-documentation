@@ -16,9 +16,6 @@ Il modulo Base è contenuto all\'interno del modulo FreeCAD e contiene i costrut
 {{APIClass|Placement| |Crea una [Posizione](Placement_API/it.md).}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Base API/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Base API/it

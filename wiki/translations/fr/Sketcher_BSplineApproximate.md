@@ -34,5 +34,7 @@ Assurez-vous d\'avoir soit le [Degré d\'une BSpline](Sketcher_BSplineDegree/fr.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineApproximate/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineApproximate/fr

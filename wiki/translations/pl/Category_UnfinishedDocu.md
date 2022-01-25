@@ -3,7 +3,7 @@ This category contains all Unfinished Documents
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------
+    
   [Assembly3 AddOrigin/pl](Assembly3_AddOrigin/pl.md)                                   [Assembly3 AddPlacement/pl](Assembly3_AddPlacement/pl.md)                                   [Assembly3 AddXYWorkplane/pl](Assembly3_AddXYWorkplane/pl.md)
   [Assembly3 AddXZWorkplane/pl](Assembly3_AddXZWorkplane/pl.md)                         [Assembly3 AddZYWorkplane/pl](Assembly3_AddZYWorkplane/pl.md)                               [Assembly3 AutoElementVisibility/pl](Assembly3_AutoElementVisibility/pl.md)
   [Assembly3 AutoFixElement/pl](Assembly3_AutoFixElement/pl.md)                         [Assembly3 AutoRecompute/pl](Assembly3_AutoRecompute/pl.md)                                 [Assembly3 AxialMove/pl](Assembly3_AxialMove/pl.md)
@@ -51,10 +51,8 @@ This category contains all Unfinished Documents
   [SheetMetal Unfold/pl](SheetMetal_Unfold/pl.md)                                       [Ship Loading/pl](Ship_Loading/pl.md)                                                       [Ship PlotGZ/pl](Ship_PlotGZ/pl.md)
   [Ship TankCapacity/pl](Ship_TankCapacity/pl.md)                                       [Silk Workbench/pl](Silk_Workbench/pl.md)                                                   [Std MacroAttachDebugger/pl](Std_MacroAttachDebugger/pl.md)
   [TechDraw LinkDimension/pl](TechDraw_LinkDimension/pl.md)                             [Transient FEM analysis/pl](Transient_FEM_analysis/pl.md)                                   [Template:UnfinishedDocu/pl](Template:UnfinishedDocu/pl.md)
-                                                                                                                                                                                                    
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Administration/pl](<img src="images/Property.png" style="width:16px"> Administration/pl.md) [<img src="images/Property.png" style="width:16px"> Categories/pl](<img src="images/Property.png" style="width:16px"> Categories/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:UnfinishedDocu/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:UnfinishedDocu/pl

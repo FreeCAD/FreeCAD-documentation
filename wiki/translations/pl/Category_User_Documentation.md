@@ -3,7 +3,7 @@ Ta kategoria zawiera artykuły na temat sposobu używania FreeCAD. Jest to równ
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------
+    
   [BIM Clone/pl](BIM_Clone/pl.md)                                                                                         [BIM Copy/pl](BIM_Copy/pl.md)                                                                                           [BIM Setup/pl](BIM_Setup/pl.md)
   [BIM Windows/pl](BIM_Windows/pl.md)                                                                                     [3D view/pl](3D_view/pl.md)                                                                                             [3Dconnexion input devices/pl](3Dconnexion_input_devices/pl.md)
   [A2plus Workbench/pl](A2plus_Workbench/pl.md)                                                                           [About FreeCAD/pl](About_FreeCAD/pl.md)                                                                                 [Add Button to FEM Toolbar Tutorial/pl](Add_Button_to_FEM_Toolbar_Tutorial/pl.md)
@@ -170,10 +170,9 @@ Ta kategoria zawiera artykuły na temat sposobu używania FreeCAD. Jest to równ
   [FEM SolverRun/pl](FEM_SolverRun/pl.md)                                                                                 [FEM SolverZ88/pl](FEM_SolverZ88/pl.md)                                                                                 [FEM Tutorial Python/pl](FEM_Tutorial_Python/pl.md)
   [FEM tutorial/pl](FEM_tutorial/pl.md)                                                                                   [FEM Workbench/pl](FEM_Workbench/pl.md)                                                                                 [File Format FCStd/pl](File_Format_FCStd/pl.md)
   [Fine-tuning/pl](Fine-tuning/pl.md)                                                                                     [Flamingo Workbench/pl](Flamingo_Workbench/pl.md)                                                                       [FreeCAD and DWG Import/pl](FreeCAD_and_DWG_Import/pl.md)
-  [FreeCAD and DXF Import/pl](FreeCAD_and_DXF_Import/pl.md)                                                               [FreeCAD API/pl](FreeCAD_API/pl.md)                                                                                     
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------
+  [FreeCAD and DXF Import/pl](FreeCAD_and_DXF_Import/pl.md)                                                               [FreeCAD API/pl](FreeCAD_API/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/pl](<img src="images/Property.png" style="width:16px"> Documentation/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/pl

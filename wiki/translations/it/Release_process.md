@@ -127,8 +127,5 @@ Sentitevi liberi di aggiungere altre pagine oppure di assegnarvi una o più pagi
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap/it](<img src="images/Property.png" style="width:16px"> Roadmap/it.md)
-
 ---
-[documentation index](../README.md) > Release process/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Release process/it

@@ -54,5 +54,7 @@ Pour fermer un document, utilisez la méthode `closeDocument` de l\'application 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std CloseActiveWindow/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std CloseActiveWindow/fr

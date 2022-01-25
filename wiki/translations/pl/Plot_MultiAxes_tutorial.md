@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/pl
+   Topic:środowisko pracy wykres
+   Level:średniozaawansowany
+   Time:dowolny
+   Author:
+   FCVersion: -
+   Files:
+---
+
 # Plot MultiAxes tutorial/pl
-{{TutorialInfo/pl
-|Topic=środowisko pracy wykres
-|Level=średniozaawansowany
-|Time=dowolny
-|Author=
-|FCVersion= -
-|Files=
-}}
+
+
+
+
 
 Upewnij się, że odwiedziłeś [Poradnik: Podstawy dla środowiska pracy Wykres](Plot_Basic_tutorial/pl.md) przed rozpoczęciem tego poradnika. W tym poradniku nauczymy się jak tworzyć i edytować wykres wieloosiowy. Na stronie środowiska pracy[Wykres](Plot_Workbench/pl.md) możesz dowiedzieć się więcej o nim.
 
@@ -128,9 +134,9 @@ Teraz możesz zapisać swoją pracę. Zobacz [poprzedni poradnik](Plot_Basic_tut
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
+}} {{Plot_Tools_navi}}
 
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot MultiAxes tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot MultiAxes tutorial/pl

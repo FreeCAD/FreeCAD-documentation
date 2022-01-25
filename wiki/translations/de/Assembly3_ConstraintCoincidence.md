@@ -31,5 +31,7 @@ Die Drehung kann gestoppt werden, durch das setzen der Variablen Lock Angle im E
 2.  Je ein planeres Flächenelement pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Deckungsgleiche Ebenen](Assembly3_ConstraintCoincidence/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintCoincidence/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintCoincidence/de

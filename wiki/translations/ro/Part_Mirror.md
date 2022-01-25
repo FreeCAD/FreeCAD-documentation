@@ -1,6 +1,6 @@
 # Part Mirror/ro
 ---
-- GuiCommand:   Name:Part Mirror   MenuLocation:Part -> Mirror   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso:------
+- GuiCommand:   Name:Part Mirror   MenuLocation:Part -> Mirror   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso:
 
 
 </div>
@@ -66,7 +66,7 @@ Casetele **Base point** pot fi utilizate pentru a mișca planul oglinzii paralel
 </div>
 
   Standard Plane   Base Point Box   Effect
-  ---------------- ---------------- -------------------------------------
+    
   **XY**           **Z**            Move mirror plane along **Z** axis.
   **XY**           **X**, **Y**     No effect.
   **XZ**           **Y**            Move mirror plane along **Y** axis.
@@ -84,5 +84,7 @@ Casetele **Base point** pot fi utilizate pentru a mișca planul oglinzii paralel
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/ro

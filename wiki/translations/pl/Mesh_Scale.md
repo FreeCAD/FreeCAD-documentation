@@ -29,5 +29,7 @@ The **Mesh Scale** command scales mesh objects.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale/pl

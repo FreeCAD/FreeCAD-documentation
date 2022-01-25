@@ -129,7 +129,7 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 
 ## Volby
 
-+--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Multitransfrom_parameters.png ) | Při vytváření multitransformovaného objektu nabízí dialogové okno \'multitransformační parametry\' ve dvou různých oknech se seznamy.                                                                                                                                                                                                                                     |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                    | ### Výběr originálů                                                                                                                                                                                                                                                                                                                                     |
@@ -155,7 +155,7 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 |                                                                    | #### Posun nahoru/dolu                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                    | Umožňuje změnit pořadí transformací v seznamu                                                                                                                                                                                                                                                                                                                             |
-+--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 
@@ -207,5 +207,7 @@ Allows changing the order of transformations in the list \|}
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/cs

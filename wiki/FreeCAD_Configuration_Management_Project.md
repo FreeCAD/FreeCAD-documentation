@@ -32,9 +32,9 @@ This work will provide experience in the packaging and distribution of multi-pla
 
 Medium
 
-### Additional Information 
+### Additional Information
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > FreeCAD Configuration Management Project
+![](images/Right_arrow.png) [documentation index](../README.md) > FreeCAD Configuration Management Project

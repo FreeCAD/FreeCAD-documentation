@@ -34,5 +34,7 @@ This command essentially runs **[<img src=images/Std_LinkImport.svg style="width
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkImportAll
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkImportAll

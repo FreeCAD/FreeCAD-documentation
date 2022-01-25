@@ -60,5 +60,7 @@ Następnie należy aktywować widok za pomocą menu, **Widok → Panele → Wido
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Combo view/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Combo view/pl

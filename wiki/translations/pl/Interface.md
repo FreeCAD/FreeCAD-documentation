@@ -81,5 +81,7 @@ Opcje te znajdują się w menu, **Narzędzia → Dostosuj**. Patrz [Dostosowywan
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Interface/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface/pl

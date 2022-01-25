@@ -1,4 +1,7 @@
 # Macro SimpleProperties/de
+<div class="mw-translate-fuzzy">
+
+
 {{Macro
 |Name=SimplProperties
 |Name/de=EinfacheEigenschaften
@@ -11,6 +14,9 @@
 |Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_SimpleProperties.png Werkzeugleistensymbol]
 |SeeAlso=[Arch_Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=24px><br />[Makro_FCInfo](Macro_FCInfo/de.md) <img src="images/FCInfo.png" width=24px>
 }}
+
+
+</div>
 
 ## Beschreibung
 
@@ -29,15 +35,35 @@ Wähle ein Objekt aus und führe das Makro aus. Es wird in einem Meldungsfenster
 
 ### Installation
 
+
+<div class="mw-translate-fuzzy">
+
 Das Makro ist über [Erweiterungsverwalter](Std_AddonMgr/de.md) verfügbar. Der Code wird auf dieser Seite zur Verfügung gestellt, für den Fall, dass das Benutzersystem nicht über git-python verfügt. Obwohl es aktuell sein sollte, ist die neueste Version immer unter [FreeCAD-Makro Repositorium](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/SimpleProperties.FCMacro) verfügbar.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Für ausführlichere Erklärungen siehe die [So installieren Sie Makros](How_to_install_macros/de.md) Seite.
 
+
+</div>
+
 ## Skript
+
+
+<div class="mw-translate-fuzzy">
 
 ### Begrenzungen
 
 -   Nur ein Objekt gleichzeitig
+
+
+</div>
+
+-   Only one object at a time
 
 ### Code
 
@@ -128,5 +154,7 @@ else:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro SimpleProperties/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro SimpleProperties/de

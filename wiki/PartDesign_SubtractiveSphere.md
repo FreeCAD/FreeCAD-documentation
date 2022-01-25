@@ -48,5 +48,7 @@ The Sphere can be edited after its creation in two ways:
 
  {{PartDesign Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign SubtractiveSphere

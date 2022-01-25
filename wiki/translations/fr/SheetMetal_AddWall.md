@@ -161,9 +161,11 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
 
     
 
-    [[<img src="images/Property.png" style="width:16px"> SheetMetal]]
-    [[<img src="images/Property.png" style="width:16px"> Addons]]
-    [[<img src="images/Property.png" style="width:16px"> External Command Reference\]\]
+    [[Category:SheetMetal]]
+    [[Category:Addons]]
+    [[Category:External Command Reference\]\]
+
+
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddWall/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal AddWall/fr

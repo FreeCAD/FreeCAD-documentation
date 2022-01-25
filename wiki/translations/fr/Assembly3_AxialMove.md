@@ -28,5 +28,7 @@ La commande <img alt="" src=images/Assembly_AxialMove.svg  style="width:24px;"> 
     -   La touche **Echap**.
     -   Le bouton **OK** dans le panneau Tâches.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AxialMove/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AxialMove/fr

@@ -31,5 +31,7 @@ The <img alt="" src=images/Curves_Interpolate.svg  style="width:24px;"> [Curves 
 
  {{Curves Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Curves Interpolate
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves Interpolate

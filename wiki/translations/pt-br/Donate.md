@@ -52,5 +52,7 @@ Há também o problema de não termos uma estrutura (fundação, associação, O
 
 Este é o momento do financiamento coletivo, onde todo o tipo de projetos e ideias podem, por vezes, levantar muito dinheiro e despertar muito interesse. Porque não inventar algo novo que pudesse ser feito pelo FreeCAD com dinheiro, ou ajudar a encontrar soluções melhores? Sinta-se à vontade para discutir no fórum, sobre o financiamento e outros aspectos ([About funding and all that](http://forum.freecadweb.org/viewtopic.php?f=8&t=12242)).
 
+
+
 ---
-[documentation index](../README.md) > Donate/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Donate/pt-br

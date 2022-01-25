@@ -15,7 +15,7 @@ Si può, ad esempio, aiutare a migliorare la documentazione del programma, corre
 
 Alcune aree che devono essere ampliate e migliorate sono:
 
--   La sezione [Guida ai comandi](:<img src="images/Property.png" style="width:16px"> Command_Reference/it.md), in inglese la [:<img src="images/Property.png" style="width:16px"> Command Reference](:Category_Command_Reference.md), che include tutti i [comandi](Command/it.md) utilizzabili in FreeCAD, ma molti di questi non hanno ancora una descrizione oppure, se esiste, è molto scarna. Fare riferimento a [WikiPages](WikiPages.md) per vedere dei validi esempi su come costruire delle adeguate descrizioni.
+-   La sezione [Guida ai comandi](:Category:Command_Reference/it.md), in inglese la [:Category:Command Reference](:Category_Command_Reference.md), che include tutti i [comandi](Command/it.md) utilizzabili in FreeCAD, ma molti di questi non hanno ancora una descrizione oppure, se esiste, è molto scarna. Fare riferimento a [WikiPages](WikiPages.md) per vedere dei validi esempi su come costruire delle adeguate descrizioni.
 -   La sezione dei [Tutorial](Tutorials/it.md) ha bisogno di esempi su come usare gli ambienti. Se avete sviluppato o realizzato qualcosa di interessante con FreeCAD potete fare qualcosa di molto utile se scrivete una guida e la pubblicate in questo capitolo della documentazione.
 -   Nel [bugtracker](bugtracker.md) di FreeCAD ci sono delle etichette aperte contrassegnate \'[documentation](https://freecadweb.org/tracker/search.php?tag_string=documentation)\' che meritano attenzione.
 
@@ -99,8 +99,5 @@ Scrivere del codice per FreeCAD non è difficile, e non serve alcuna autorizzazi
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
-
 ---
-[documentation index](../README.md) > [Command_Reference/it|Guida ai comandi]], in inglese la ](Category_Command_Reference/it|Guida ai comandi]], in inglese la .md) > Help FreeCAD/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference/it|Guida ai comandi]], in inglese la ](Category_Command_Reference/it|Guida ai comandi]], in inglese la .md) > [Command Reference]], che include tutti i ](Category_Command Reference]], che include tutti i .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/it

@@ -51,5 +51,7 @@ Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_W
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/fr

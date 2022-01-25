@@ -31,5 +31,7 @@ Al iniciar la herramienta, las selecciones se borran y el puntero del ratón cam
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/es

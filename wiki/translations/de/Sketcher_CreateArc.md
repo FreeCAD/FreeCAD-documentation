@@ -30,5 +30,7 @@ Beim starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz m
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/de

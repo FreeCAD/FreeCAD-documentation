@@ -65,5 +65,7 @@ These advanced customization options are available from the **Tools → Customiz
 -   [Workbenches](Workbenches.md)
 -   [More about Python](https://www.python.org)
 
+
+
 ---
-[documentation index](../README.md) > Manual:The FreeCAD Interface/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD Interface/pl

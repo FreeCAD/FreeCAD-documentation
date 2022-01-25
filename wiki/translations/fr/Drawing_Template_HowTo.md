@@ -1,4 +1,17 @@
+---
+- TutorialInfo:/fr
+   Topic:Modélisation 2D
+   Level:Intermédiaire
+   Author:Mark Stephen ([Quick61](User_Quick61.md))
+   Time:Moins d'une heure
+   FCVersion:0.14.3700 ou plus
+---
+
 # Drawing Template HowTo/fr
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
@@ -8,13 +21,6 @@
 </div>
 
 
-{{TutorialInfo/fr
-|Topic=Modélisation 2D
-|Level=Intermédiaire
-|Author=Mark Stephen ([Quick61](User_Quick61.md))
-|Time=Moins d'une heure
-|FCVersion=0.14.3700 ou plus
-}}
 
 ## Introduction
 
@@ -247,5 +253,7 @@ Les deux outils utilisés dans ce tutoriel sont Inkscape et Kate. Ils peuvent ê
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/fr

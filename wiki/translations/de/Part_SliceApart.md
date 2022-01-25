@@ -81,5 +81,7 @@ Auseinander Schneiden wurde in FreeCAD v0.18.15506 eingeführt. FreeCAD muss mit
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SliceApart/de

@@ -27,5 +27,7 @@ Dieses Werkzeug fügt eine Ansicht zu einem vorhandenen Ausschnitt hinzu.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupAdd/de

@@ -59,5 +59,7 @@ Das <img alt="" src=images/Curves_SplitCurve.svg  style="width:24px;"> [Kurven T
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves SplitCurve/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SplitCurve/de

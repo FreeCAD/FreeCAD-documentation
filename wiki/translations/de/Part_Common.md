@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/de
-   Name:Part Cut
-   Name/de:Part Schnitt
-   MenuLocation:Formteil → Bool'sche Operationen → Schnitt
+   Name:Part Common
+   Name/de:Part Gemeinsam
+   MenuLocation:Formteil → Boolesche Operationen → Schnitt
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Bool'sche Operationen](Part_Boolean/de.md), [Part Schneiden](Part_Cut/de.md), [Part Verschmelzung](Part_Fuse/de.md)
+   SeeAlso:[Part Boolesche Operationen](Part_Boolean/de.md), [Part Schneiden](Part_Cut/de.md), [Part Verschmelzung](Part_Fuse/de.md)
 ---
 
 # Part Common/de
@@ -20,13 +20,9 @@ Extrahiert den gemeinsamen Teil (Schnittmenge) zwischen ausgewählten Teilobjekt
 
 ### Unterstützte Eingaben 
 
-
-<div class="mw-translate-fuzzy">
-
-Eingabeobjekte müssen [OpenCascade](OpenCASCADE/de.md) Formen sein. Beispiele: Dinge, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurde. Keine Polygonnetze (es sei denn, diese wurden in Formen konvertiert) - für Polygonnetze gibt es gesonderte boolesche Werkzeuge im Netzkonstruktionsarbeitsbereich.
+Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md) Formen sein. Beispiele: Dinge, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurde. Keine Polygonnetze (es sei denn, diese wurden in Formen konvertiert) - für Polygonnetze gibt es gesonderte boolesche Werkzeuge im Netzkonstruktionsarbeitsbereich.
 
 
-</div>
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/de

@@ -3,22 +3,15 @@ This category lists workbenches included in FreeCAD.
 
 ### Contents:
 
-  ----------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------
+    
   [Arch Workbench/hr](Arch_Workbench/hr.md)           [Draft Workbench/hr](Draft_Workbench/hr.md)               [FEM Workbench/hr](FEM_Workbench/hr.md)
   [Image Workbench/hr](Image_Workbench/hr.md)         [Inspection Workbench/hr](Inspection_Workbench/hr.md)     [Mesh Workbench/hr](Mesh_Workbench/hr.md)
   [OpenSCAD Workbench/hr](OpenSCAD_Workbench/hr.md)   [Part Module/hr](Part_Module/hr.md)                       [PartDesign Workbench/hr](PartDesign_Workbench/hr.md)
   [Path Workbench/hr](Path_Workbench/hr.md)           [Raytracing Workbench/hr](Raytracing_Workbench/hr.md)     [Robot Workbench/hr](Robot_Workbench/hr.md)
   [Sketcher Workbench/hr](Sketcher_Workbench/hr.md)   [Spreadsheet Workbench/hr](Spreadsheet_Workbench/hr.md)   [Surface Workbench/hr](Surface_Workbench/hr.md)
-  [TechDraw Workbench/hr](TechDraw_Workbench/hr.md)   [Workbenches/hr](Workbenches/hr.md)                       
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-                                                                                                                                
-  ----------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------
+  [TechDraw Workbench/hr](TechDraw_Workbench/hr.md)   [Workbenches/hr](Workbenches/hr.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/hr](<img src="images/Property.png" style="width:16px"> User_Documentation/hr.md) [<img src="images/Property.png" style="width:16px"> Draft/hr](<img src="images/Property.png" style="width:16px"> Draft/hr.md) [<img src="images/Property.png" style="width:16px"> External Workbenches/hr](<img src="images/Property.png" style="width:16px"> External_Workbenches/hr.md) [<img src="images/Property.png" style="width:16px"> FEM/hr](<img src="images/Property.png" style="width:16px"> FEM/hr.md) [<img src="images/Property.png" style="width:16px"> Image/hr](<img src="images/Property.png" style="width:16px"> Image/hr.md) [<img src="images/Property.png" style="width:16px"> Inspection/hr](<img src="images/Property.png" style="width:16px"> Inspection/hr.md) [<img src="images/Property.png" style="width:16px"> Mesh/hr](<img src="images/Property.png" style="width:16px"> Mesh/hr.md) [<img src="images/Property.png" style="width:16px"> OpenSCAD/hr](<img src="images/Property.png" style="width:16px"> OpenSCAD/hr.md) [<img src="images/Property.png" style="width:16px"> Part/hr](<img src="images/Property.png" style="width:16px"> Part/hr.md) [<img src="images/Property.png" style="width:16px"> PartDesign/hr](<img src="images/Property.png" style="width:16px"> PartDesign/hr.md) [<img src="images/Property.png" style="width:16px"> Path/hr](<img src="images/Property.png" style="width:16px"> Path/hr.md) [<img src="images/Property.png" style="width:16px"> Plot/hr](<img src="images/Property.png" style="width:16px"> Plot/hr.md) [<img src="images/Property.png" style="width:16px"> Points/hr](<img src="images/Property.png" style="width:16px"> Points/hr.md) [<img src="images/Property.png" style="width:16px"> Raytracing/hr](<img src="images/Property.png" style="width:16px"> Raytracing/hr.md) [<img src="images/Property.png" style="width:16px"> Robot/hr](<img src="images/Property.png" style="width:16px"> Robot/hr.md) [<img src="images/Property.png" style="width:16px"> Ship/hr](<img src="images/Property.png" style="width:16px"> Ship/hr.md) [<img src="images/Property.png" style="width:16px"> Sketcher/hr](<img src="images/Property.png" style="width:16px"> Sketcher/hr.md) [<img src="images/Property.png" style="width:16px"> Surface/hr](<img src="images/Property.png" style="width:16px"> Surface/hr.md) [<img src="images/Property.png" style="width:16px"> TechDraw/hr](<img src="images/Property.png" style="width:16px"> TechDraw/hr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Workbenches/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Workbenches/hr

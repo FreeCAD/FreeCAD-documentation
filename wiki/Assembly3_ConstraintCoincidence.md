@@ -27,5 +27,7 @@ The rotation can be stopped by switching Lock Angle to true in the properties pa
 2.  Select one planar face element of each object.
 3.  Press the **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Plane Coincidence](Assembly3_ConstraintCoincidence.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintCoincidence
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintCoincidence

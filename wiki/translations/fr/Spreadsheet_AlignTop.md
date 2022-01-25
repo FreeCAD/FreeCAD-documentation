@@ -27,5 +27,7 @@ L\'outil **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Spread
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignTop/fr

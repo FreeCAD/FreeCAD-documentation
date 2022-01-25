@@ -57,5 +57,7 @@ Dieses Werkzeug erzeugt Fasen an den ausgewählten Kanten eines Objekts. Im Proj
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/de

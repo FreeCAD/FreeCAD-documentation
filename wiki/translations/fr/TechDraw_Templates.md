@@ -73,5 +73,7 @@ Voir aussi [Comment créer un modèle TechDraw personnalisé](TechDraw_TemplateH
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Templates/fr

@@ -3,7 +3,7 @@ Pages relating to Architectural and Building Information Management
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------
+    
   [Arch 3DS/pt-br](Arch_3DS/pt-br.md)                                                                 [Arch 3Views/pt-br](Arch_3Views/pt-br.md)                                                                           [Arch Add/pt-br](Arch_Add/pt-br.md)
   [Arch Axis/pt-br](Arch_Axis/pt-br.md)                                                               [Arch AxisSystem/pt-br](Arch_AxisSystem/pt-br.md)                                                                   [Arch Building/pt-br](Arch_Building/pt-br.md)
   [Arch BuildingPart/pt-br](Arch_BuildingPart/pt-br.md)                                               [Arch Check/pt-br](Arch_Check/pt-br.md)                                                                             [Arch CloneComponent/pt-br](Arch_CloneComponent/pt-br.md)
@@ -30,10 +30,9 @@ Pages relating to Architectural and Building Information Management
   [Arch Survey/pt-br](Arch_Survey/pt-br.md)                                                           [Arch ToggleIfcBrepFlag/pt-br](Arch_ToggleIfcBrepFlag/pt-br.md)                                                     [Arch ToggleSubs/pt-br](Arch_ToggleSubs/pt-br.md)
   [Arch Truss/pt-br](Arch_Truss/pt-br.md)                                                             [Arch tutorial/pt-br](Arch_tutorial/pt-br.md)                                                                       [Arch Wall/pt-br](Arch_Wall/pt-br.md)
   [Arch Window/pt-br](Arch_Window/pt-br.md)                                                           [Arch Workbench/pt-br](Arch_Workbench/pt-br.md)                                                                     [Manual:BIM modeling/pt-br](Manual:BIM_modeling/pt-br.md)
-  [Material editor/pt-br](Material_editor/pt-br.md)                                                   [Material/pt-br](Material/pt-br.md)                                                                                 
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------
+  [Material editor/pt-br](Material_editor/pt-br.md)                                                   [Material/pt-br](Material/pt-br.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/pt-br](<img src="images/Property.png" style="width:16px"> User_Documentation/pt-br.md) [<img src="images/Property.png" style="width:16px"> BIM/pt-br](<img src="images/Property.png" style="width:16px"> BIM/pt-br.md)
+
 
 ---
-[documentation index](../README.md) > Category:Arch/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch/pt-br

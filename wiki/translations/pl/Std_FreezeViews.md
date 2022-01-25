@@ -92,5 +92,7 @@ Dla każdego zamrożonego widoku dodana jest opcja **Przywróć widok**, za pomo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std FreezeViews/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std FreezeViews/pl

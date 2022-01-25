@@ -3,11 +3,11 @@ This category contains articles and categories about wiki administrative subject
 
 ### Contents:
 
-  ----------------------------------------- --
+   --
   [Changelog/ko](Changelog/ko.md)   
-  ----------------------------------------- --
+   --
 
-[<img src="images/Property.png" style="width:16px"> Categories/ko](<img src="images/Property.png" style="width:16px"> Categories/ko.md) [<img src="images/Property.png" style="width:16px"> Wiki/ko](<img src="images/Property.png" style="width:16px"> Wiki/ko.md)
+
 
 ---
-[documentation index](../README.md) > Category:Administration/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Administration/ko

@@ -55,5 +55,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Alignment/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Alignment/ko

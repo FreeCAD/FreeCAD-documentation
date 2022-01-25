@@ -13,7 +13,7 @@ This is the **top category** which contains the main categories of the FreeCAD w
         
   -- -- --
 
-[<img src="images/Property.png" style="width:16px"> Categories/fi](<img src="images/Property.png" style="width:16px"> Categories/fi.md) [<img src="images/Property.png" style="width:16px"> Categories/fi](<img src="images/Property.png" style="width:16px"> Categories/fi.md) [<img src="images/Property.png" style="width:16px"> Documentation/fi](<img src="images/Property.png" style="width:16px"> Documentation/fi.md) [<img src="images/Property.png" style="width:16px"> Template/fi](<img src="images/Property.png" style="width:16px"> Template/fi.md)
+
 
 ---
-[documentation index](../README.md) > Category:Categories/fi
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Categories/fi

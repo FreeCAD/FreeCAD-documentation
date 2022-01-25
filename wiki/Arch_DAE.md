@@ -11,10 +11,5 @@ The Collada import functionality in the Arch workbench depends on [pycollada](ht
 
 
 
-
-  
-
-[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch DAE
+![](images/Right_arrow.png) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch DAE

@@ -422,5 +422,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/fr

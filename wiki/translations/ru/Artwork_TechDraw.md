@@ -28,9 +28,9 @@
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md)
+
 
 ---
-[documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw/ru

@@ -43,5 +43,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MergeProjects/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MergeProjects/ru

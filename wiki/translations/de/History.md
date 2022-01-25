@@ -99,7 +99,7 @@ Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner un
 #### Überblick
 
   Version   Veröffentlichungsname   Veröffentlichungsdatum   Veröffentlichungsverpflichtung                              Veröffentlichungszweig
-  --------- ----------------------- ------------------------ ----------------------------------------------------------- -----------------------------------------------------------------------------------------
+      
   0.20      ?                       in Entwicklung           [Versionshinweise 0.20](Release_notes_0.20/de.md)   [head master](https://github.com/FreeCAD/FreeCAD/commits/master)
   0.19      \-                      2021-03-20               [Versionshinweise 0.19](Release_notes_0.19/de.md)   [release commit 0.19](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-19)
   0.18      \-                      2019-03-12               [Versionshinweise 0.18](Release_notes_0.18/de.md)   [release commit 0.18](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-18)
@@ -125,7 +125,7 @@ Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner un
 #### Legende
 
   Farbe   Versionstyp
-  ------- ----------------------------------
+   
           Zukünftige Veröffentlichung
           Letzte Vorschauversion
           **Letzte Version**
@@ -139,7 +139,7 @@ Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner un
 -   [SourceForge Bereich Alte Dateien](http://sourceforge.net/projects/free-cad/files/OldFiles/)
 -   [Ankündigung des FreeCAD Projekts](http://www.opencascade.org/org/forum/thread_6572/?forum=11) im OpenCascade Forum
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > History/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > History/de

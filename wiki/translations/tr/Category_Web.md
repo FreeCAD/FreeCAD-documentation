@@ -3,11 +3,10 @@ This category lists pages that relate to the [Web Workbench/tr](Web_Workbench/tr
 
 ### Contents:
 
-  -------------------------------------------------
+  
   [Web Workbench/tr](Web_Workbench/tr.md)
-  -------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/tr](<img src="images/Property.png" style="width:16px"> Workbenches/tr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Web/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Web/tr

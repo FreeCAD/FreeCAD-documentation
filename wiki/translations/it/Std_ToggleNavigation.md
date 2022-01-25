@@ -62,5 +62,7 @@ Do not confuse this command with the [Std Edit](Std_Edit.md) command.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ToggleNavigation/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleNavigation/it

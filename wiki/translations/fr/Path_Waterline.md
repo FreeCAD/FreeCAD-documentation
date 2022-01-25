@@ -264,5 +264,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Waterline/fr

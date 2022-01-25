@@ -28,5 +28,7 @@ The **Std ViewCreate** command creates a new [3D view](3D_view.md) for the activ
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewCreate
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewCreate

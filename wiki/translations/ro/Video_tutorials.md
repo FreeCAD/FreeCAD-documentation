@@ -15,7 +15,7 @@ Mai jos este o colecție de tutoriale realizate de către utilizatorii și dezvo
 
 </div>
 
-Visit [tutorials](tutorials.md) for high quality written tutorials. A complete, unsorted list of tutorials can be found in [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+Visit [tutorials](tutorials.md) for high quality written tutorials. A complete, unsorted list of tutorials can be found in [:Category:Tutorials](:Category_Tutorials.md).
 
 If you\'d like to contribute with writing wiki documentation and tutorials, see [Help FreeCAD](Help_FreeCAD.md), the general wiki guidelines in [WikiPages](WikiPages.md), and follow the [tutorial guidelines](tutorial_guidelines.md).
 
@@ -146,11 +146,6 @@ Acesta este primul dintr-o serie de tutoriale germane de Roland Frank. Ele prece
 For more see [Video tutorials obsolete](Video_tutorials_obsolete.md).
 
 
-{{Tutorials navi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/ro

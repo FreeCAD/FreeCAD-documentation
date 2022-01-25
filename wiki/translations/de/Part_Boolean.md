@@ -68,5 +68,7 @@ In Fällen von Koplanarität können, selbst wenn die erste boolesche Operation 
 
 *Links: Formen, die eine gemeinsame Fläche haben, eine boolesche Vereinigung kann zu falschen Ergebnissen führen. Rechts: Formen, die sich deutlich überschneiden, wird die boolesche Vereinigung in den meisten Fällen erfolgreich sein.*
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Boolean/de

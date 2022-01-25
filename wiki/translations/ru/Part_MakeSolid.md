@@ -32,5 +32,7 @@ This command creates a solid from a shape object.
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/ru

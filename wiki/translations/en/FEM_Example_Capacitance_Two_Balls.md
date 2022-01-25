@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic: Finite Element Analysis
+   Level:Beginner
+   Time:
+   Author:[https://wiki.freecadweb.org/User:Sudhanshu_Dubey Sudhanshu Dubey]
+   FCVersion:0.19 or above
+   Files:
+---
+
 # FEM Example Capacitance Two Balls/en
-{{TutorialInfo
-|Topic= Finite Element Analysis
-|Level=Beginner
-|Time=
-|Author=[https://wiki.freecadweb.org/User:Sudhanshu_Dubey Sudhanshu Dubey]
-|FCVersion=0.19 or above
-|Files=
-}}
+
+
+
+
 
 ## Introduction
 
@@ -116,9 +121,9 @@ This case presents the solution of the capacitance of perfectly conducting balls
 -   Here, our desired result is C~12~ = 1.70071. This value is close to the `1.691` given in the [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). We can get an even closer value by making a finer [Mesh Region](FEM_MeshRegion.md) but this activity is left for the user. Also, the user is advised to play with the [Clip Filter](FEM_PostFilterClipRegion.md) to get a visual result similar to the first picture of this tutorial.
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > FEM Example Capacitance Two Balls/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM Example Capacitance Two Balls/en

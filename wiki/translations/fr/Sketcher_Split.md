@@ -49,5 +49,7 @@ Cet outil permet de diviser une arête en deux arêtes identiques, la plupart de
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Split/fr

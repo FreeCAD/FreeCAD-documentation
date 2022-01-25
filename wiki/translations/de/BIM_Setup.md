@@ -17,5 +17,7 @@ Das Einstellungssystem von FreeCAD, das sich unter dem Menü **Bearbeiten -\> Ei
 
 Durch Bewegen des Mauszeigers über jede Einstellung wird dir eine ttoltip Erläuterung angezeigt, wofür sie verwendet wird und wo die entsprechende Einstellung im allgemeinen FreeCAD Einstellungssystem zu finden ist.
 
+
+
 ---
-[documentation index](../README.md) > BIM Setup/de
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/de

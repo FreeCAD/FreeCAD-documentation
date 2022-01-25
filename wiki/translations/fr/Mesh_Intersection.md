@@ -38,5 +38,7 @@ Voir: [Mesh Feature](Mesh_Feature/fr.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Intersection/fr

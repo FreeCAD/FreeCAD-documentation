@@ -90,7 +90,7 @@ Voici maintenant la description des propriétés du matériau convenues. N\'hés
 ### Généralités
 
   Nom de la propriété   Description                                                                                                                                                                                                                           Unité/Type de donnée
-  --------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------
+    
   Name                  Nom unique de la propriété, suivant les règles décrites ci-dessus                                                                                                                                                                     ASCII string 7-bit
   Father                Nom du groupe de matériaux à qui ce matériau appartient. Si ce matériau est défini il hérite de toutes les propriétés Father (Parent). Ce qui signifie que s\'il n\'est pas défini les propriétés Father (Parent) seront utilisées.   ASCII string 7-bit
   Description           Un espace réservé pour une plus longue description du matériau                                                                                                                                                                        ASCII string 7-bit
@@ -106,7 +106,7 @@ Voici maintenant la description des propriétés du matériau convenues. N\'hés
 ### Mécanique
 
   Nom de la propriété                        Description                                                                                                                                                                                                                                                                                                                                                                         Unité/Type de donnée
-  ------------------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------
+    
   Young\'s Modulus                           Module de Young, également connu sous le nom de Module de traction ou module d\'élasticité, est une mesure de raideur d\'un matériau élastique et est une quantité utilisée pour caractériser les matériaux. Voir: [1](http://fr.wikipedia.org/wiki/Module_de_Young)                                                                                                                kg\*mm\^-1\*s\^-2 (MPa)
   Poisson\'s Ratio                           La contraction latérale des matériaux sous tension en une fraction de leur allongement. Voir: [Poisson\'s Ratio](https://en.wikipedia.org/wiki/Poisson%27s_ratio)                                                                                                                                                                                                                   Adimensionnelle (-)
   Rendement                                  La contrainte à laquelle un matériau ductile (comme l\'acier) commence à développer une déformation plastique (irréversible). Voir: [Yield Strength](https://en.wikipedia.org/wiki/Yield_(engineering))                                                                                                                                                                             N\'\*mm\^-2 (MPa)
@@ -126,7 +126,7 @@ Voici maintenant la description des propriétés du matériau convenues. N\'hés
 Cette section définit les propriétés du matériau qui sont liées à l\'apparence visuelle du matériau. Le
 
   Nom de la propriété   Description                                                                                                                 Unité/Type de donnée
-  --------------------- --------------------------------------------------------------------------------------------------------------------------- ----------------------------------
+    
   AmbientColor          Couleur d\'ambiance dans le modèle de couleur Coin3D                                                                        float,float,float range: 0.0-1.0
   DiffuseColor          Diffusion de Couleur dans le modèle de couleur Coin3D                                                                       float,float,float range: 0.0-1.0
   SpecularColor         Couleur spéculaire dans le modèle de couleur Coin3D                                                                         float,float,float range: 0.0-1.0
@@ -142,7 +142,7 @@ Cette section définit les propriétés du matériau qui sont liées à l\'appar
 ### Thermique
 
   Nom de la propriété           Description                                                                                                                                                                   Unité/Donnée-Type
-  ----------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------
+    
   Conductivité Thermique        La [Conductivité Thermique (R ou coefficient lambda)](http://en.wikipedia.org/wiki/Thermal_conductivity) qui indique la capacité de transférer de la chaleur d\'un matériau   W/m²K
   ThermalExpansionCoefficient                                                                                                                                                                                 
   SpecificHeat                                                                                                                                                                                                
@@ -152,7 +152,7 @@ Cette section définit les propriétés du matériau qui sont liées à l\'appar
 ### Architecture et BIM 
 
   Nom de la propriété   Description                                                                                                                                                                                                                                                                                                                                Unité/Type de donnée
-  --------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ----------------------
+    
   StandardCodeXXXX      Où XXXX est le nom de la norme (extrait de [dépôt des normes BlenderBIM](https://github.com/Moult/IfcClassification/tree/master/ifc)), par exemple, StandardCodeUniclass2. La valeur est le code spécifique de ce matériau dans la norme donnée. Cette propriété peut apparaître plusieurs fois, chacune avec un code standard différent   Chaîne ASCII 7-bit
   StandardCode          Le code spécifique de ce matériau dans le format standard ci-dessus                                                                                                                                                                                                                                                                        Chaîne ASCII 7-bit
   FireStandard          La norme de résistance au feu utilisée dans le matériau                                                                                                                                                                                                                                                                                    Chaîne ASCII 7-bit
@@ -168,9 +168,9 @@ Cette section définit les propriétés du matériau qui sont liées à l\'appar
 
 -   ajouter durabilité et propriétés LEED
 
- {{FEM Tools navi}} 
+ {{FEM Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
+
 
 ---
-[documentation index](../README.md) > [Developer](Category_Developer.md) > Material/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Roadmap](Category_Roadmap.md) > [BIM](Category_BIM.md) > [File_Formats](Category_File_Formats.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > Material/fr

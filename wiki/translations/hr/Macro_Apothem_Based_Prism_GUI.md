@@ -129,5 +129,7 @@ SVG ikona za korištenje u prečacima prilagođene alatne trake.
 
 Zahvaljujući glavnom programeru FreeCAD-a [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765) and FreeCAD programmer [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375) za njihovu neprocjenjivu pomoć i savjete u izradi ovog makroa.
 
+
+
 ---
-[documentation index](../README.md) > Macro Apothem Based Prism GUI/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Apothem Based Prism GUI/hr

@@ -5,7 +5,7 @@
 
 Les tutoriels répertoriés ici sont ceux qui traitent de la conception de pièces, de maisons et d\'autres bâtiments intéressants pour les architectes et les ingénieurs civils. Pour d\'autres sujets, consultez la page générale [tutoriels vidéo](video_tutorials/fr.md).
 
-Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels détaillés. Vous trouverez une liste complète et non triée de didacticiels dans la [catégorie tutoriels](:<img src="images/Property.png" style="width:16px"> Tutorials/fr.md).
+Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels détaillés. Vous trouverez une liste complète et non triée de didacticiels dans la [catégorie tutoriels](:Category:Tutorials/fr.md).
 
 ## Conception architecturale 
 
@@ -45,9 +45,6 @@ Vidéos montrant la modélisation de pièces, de maisons, d\'immeubles de bureau
     -   [Fachmodell mit FreeCAD und ARCH](https://www.youtube.com/watch?v=iarSNPBKkfo&list=PLNv9lsSmVr-iDNhHqJ1u8aZUImYIc8bB8) : deuxième partie de la série. La construction du modèle réel: un garage.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Video tutorials for architectural design/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for architectural design/fr

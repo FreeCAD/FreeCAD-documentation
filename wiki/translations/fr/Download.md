@@ -9,13 +9,13 @@ Vous pouvez trouver des checksums SHA256 pour vérifier l\'intégrité de votre 
 
 Les versions précédentes peuvent être téléchargées à partir de la page [releases](https://github.com/FreeCAD/FreeCAD/releases).
 
-+:---------------------------------------------------------------------------------------------------------------------------------:+---+:---------------------------------------------------------------------------------------------------------------:+---+:------------------------------------------:+
++::+---+::+---+::+
 | ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png ) |
 |                                                                                                                                   |   |                                                                                                                 |   |                                            |
 | Install on Windows                                                                                                                |   | Install on Mac                                                                                                  |   | Install on Linux                           |
 |                                                                                                                                   |   |                                                                                                                 |   |                                            |
 | [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-2.exe) (includes installer) |   | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)     |
-+-----------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------+---+--------------------------------------------+
+++---++---++
 
 ### Notes aux utilisateurs de Windows 
 
@@ -54,5 +54,7 @@ FreeCAD est en développement constant.
 
 La communauté FreeCAD propose une multitude de modules supplémentaires et de macros. Depuis la version 0.17, ils peuvent être installés directement depuis FreeCAD à l\'aide du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
+
+
 ---
-[documentation index](../README.md) > Download/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Download/fr

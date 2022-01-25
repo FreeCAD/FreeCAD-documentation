@@ -1,8 +1,15 @@
+---
+- TutorialInfo:/ro   Topic:Modeling   Level:Beginner   Author:[[User:WandererFan   WandererFan]]|Time:Less than an hour   FCVersion:0.17 or higher   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]
+---
+
 # Basic TechDraw Tutorial/ro
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro|Topic=Modeling|Level=Beginner|Author=[WandererFan](User_WandererFan.md)|Time=Less than an hour|FCVersion=0.17 or higher|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]}}
 
 
 </div>
@@ -140,9 +147,9 @@ There is much more functionality in TechDraw for you to explore - Section Views,
 </div>
 
 
-{{Tutorials navi
+ {{TechDraw Tools navi}}
 
-}} {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Basic TechDraw Tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Basic TechDraw Tutorial/ro

@@ -1,9 +1,9 @@
 # Category:External Command Reference
-This categorizes all **external** workbench commands separate from the internal [:<img src="images/Property.png" style="width:16px"> Command\_Reference](:Category_Command_Reference.md)
+This categorizes all **external** workbench commands separate from the internal [:Category:Command\_Reference](:Category_Command_Reference.md)
 
 ### Contents:
 
-  --------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------
+    
   [Arch Rebar](Arch_Rebar.md)                                               [Arch Rebar BOM](Arch_Rebar_BOM.md)                                           [Arch Rebar Dimensioning](Arch_Rebar_Dimensioning.md)
   [Arch Rebar Drawing](Arch_Rebar_Drawing.md)                               [Arch Rebar Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md)         [BIM Views](BIM_Views.md)
   [BIM Windows](BIM_Windows.md)                                             [CurvedShapes CurvedArray](CurvedShapes_CurvedArray.md)                       [Curves CompressionSpring](Curves_CompressionSpring.md)
@@ -34,8 +34,9 @@ This categorizes all **external** workbench commands separate from the internal 
   [SheetMetal AddFoldWall](SheetMetal_AddFoldWall.md)                       [SheetMetal AddJunction](SheetMetal_AddJunction.md)                           [SheetMetal AddRelief](SheetMetal_AddRelief.md)
   [SheetMetal AddWall](SheetMetal_AddWall.md)                               [SheetMetal Examples](SheetMetal_Examples.md)                                 [SheetMetal Extrude](SheetMetal_Extrude.md)
   [SheetMetal Forming](SheetMetal_Forming.md)                               [SheetMetal SketchOnSheet](SheetMetal_SketchOnSheet.md)                       [SheetMetal UnattendedUnfold](SheetMetal_UnattendedUnfold.md)
-  [SheetMetal Unfold](SheetMetal_Unfold.md)                                 [SheetMetal Workbench](SheetMetal_Workbench.md)                               
-  --------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------
+  [SheetMetal Unfold](SheetMetal_Unfold.md)                                 [SheetMetal Workbench](SheetMetal_Workbench.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:External Command Reference
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Command Reference

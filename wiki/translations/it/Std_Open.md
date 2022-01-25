@@ -57,5 +57,7 @@ For a scripting example see [Std New](Std_New#Scripting.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Open/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Open/it

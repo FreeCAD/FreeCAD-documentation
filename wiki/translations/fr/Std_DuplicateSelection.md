@@ -35,5 +35,7 @@ La commande **Std Dupliquer la sélection** duplique les objets dans le document
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DuplicateSelection/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DuplicateSelection/fr

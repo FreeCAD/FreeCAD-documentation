@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
+    
   [3D view/pt-br](3D_view/pt-br.md)                                                                   [About FreeCAD/pt-br](About_FreeCAD/pt-br.md)                                                                       [Addon/pt-br](Addon/pt-br.md)
   [App Link/pt-br](App_Link/pt-br.md)                                                                 [AppImage/pt-br](AppImage/pt-br.md)                                                                                 [Arch 3DS/pt-br](Arch_3DS/pt-br.md)
   [Arch 3Views/pt-br](Arch_3Views/pt-br.md)                                                           [Arch Add/pt-br](Arch_Add/pt-br.md)                                                                                 [Arch Axis/pt-br](Arch_Axis/pt-br.md)
@@ -170,10 +170,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [Sketcher BSplineIncreaseDegree/pt-br](Sketcher_BSplineIncreaseDegree/pt-br.md)                     [Sketcher BSplineIncreaseKnotMultiplicity/pt-br](Sketcher_BSplineIncreaseKnotMultiplicity/pt-br.md)                 [Sketcher BSplineKnotMultiplicity/pt-br](Sketcher_BSplineKnotMultiplicity/pt-br.md)
   [Sketcher BSplinePoleWeight/pt-br](Sketcher_BSplinePoleWeight/pt-br.md)                             [Sketcher BSplinePolygon/pt-br](Sketcher_BSplinePolygon/pt-br.md)                                                   [Sketcher CarbonCopy/pt-br](Sketcher_CarbonCopy/pt-br.md)
   [Sketcher Clone/pt-br](Sketcher_Clone/pt-br.md)                                                     [Sketcher CloseShape/pt-br](Sketcher_CloseShape/pt-br.md)                                                           [Sketcher CompCreateArc/pt-br](Sketcher_CompCreateArc/pt-br.md)
-  [Sketcher CompCreateBSpline/pt-br](Sketcher_CompCreateBSpline/pt-br.md)                             [Sketcher CompCreateCircle/pt-br](Sketcher_CompCreateCircle/pt-br.md)                                               
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
+  [Sketcher CompCreateBSpline/pt-br](Sketcher_CompCreateBSpline/pt-br.md)                             [Sketcher CompCreateCircle/pt-br](Sketcher_CompCreateCircle/pt-br.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/pt-br](<img src="images/Property.png" style="width:16px"> Documentation/pt-br.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/pt-br

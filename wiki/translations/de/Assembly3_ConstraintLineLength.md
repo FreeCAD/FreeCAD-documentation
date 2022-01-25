@@ -21,5 +21,7 @@ Die Länge kann durch Änderung des **Length**-Parameters im Eigenschaftenfenste
 3.  **Length**-Parameter im Eigenschaftenfenster auf den gewünschten Wert setzen.
 4.  Schaltfläche **<img src="images/Assembly3_workbench_icon.svg" width=16px> [Beziehungen berechnen](Assembly3_ResolveConstraints/de.md)** oder **<img src="images/Assembly_QuickSolve.svg" width=16px> [Schnelle Berechnung](Assembly3_QuickSolve/de.md)** drücken um neu zu berechnen.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintLineLength/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLineLength/de

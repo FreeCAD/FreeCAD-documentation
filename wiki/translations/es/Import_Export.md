@@ -16,7 +16,7 @@ Ver las siguientes páginas para obtener información adicional:
 <div class="mw-translate-fuzzy">
 
   Formato                                       Descripción                                                                                                                                         Importar   Exportar   Modulo                                                                                  Pagina de preferencias
-  --------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------- ---------- ---------- --------------------------------------------------------------------------------------- ------------------------
+       
   [FCStd](Fcstd_file_format/es.md)      Formato de archivo nativo de FreeCAD                                                                                                                si         si         Incorporado                                                                             no
   [FCMat](Material/es.md)               Tarjeta de material de FreeCAD                                                                                                                      si         si         Incorporado                                                                             no
   [FCMacro](Macros/es.md)               Macro de FreeCAD                                                                                                                                    si         si         Incorporado                                                                             no
@@ -65,11 +65,5 @@ Ver las siguientes páginas para obtener información adicional:
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/es

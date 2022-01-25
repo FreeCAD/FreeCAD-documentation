@@ -228,9 +228,6 @@ Ces points s\'appliquent aux bords (TopoShapeEdge).
 {{APIFunction/fr|valueAt|Float|Retourne la valeur du vecteur correspondant au paramètre 3D.|Vector}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > TopoShape API/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > TopoShape API/fr

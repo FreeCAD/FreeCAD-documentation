@@ -123,5 +123,7 @@ Il risultato della funzione di simmetria può essere visualizzato in tempo reale
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Mirrored/it

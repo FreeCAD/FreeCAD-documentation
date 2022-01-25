@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic:Attachment
+   Level:Beginner/Intermediate
+   Author:Bance
+   Time:1 hour
+   FCVersion:0.17 or above
+   Files:[https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
+---
+
 # Basic Attachment Tutorial
-{{TutorialInfo
-|Topic=Attachment
-|Level=Beginner/Intermediate
-|Author=Bance
-|Time=1 hour
-|FCVersion=0.17 or above
-|Files=[https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
-}}
+
+ 
+
+
 
 ![centre\|The finished model](images/Attachment_Model.png )
 
@@ -294,5 +299,7 @@ Happy Attaching!
 
  {{Tutorials_navi}} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > Basic Attachment Tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > Basic Attachment Tutorial

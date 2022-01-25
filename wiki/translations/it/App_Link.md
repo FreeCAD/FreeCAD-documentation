@@ -31,5 +31,7 @@ Vedere l\'elenco completo delle proprietà nella pagina [Crea link](Std_LinkMake
 
 }} {{Document objects navi}}
 
+
+
 ---
-[documentation index](../README.md) > App Link/it
+![](images/Right_arrow.png) [documentation index](../README.md) > App Link/it

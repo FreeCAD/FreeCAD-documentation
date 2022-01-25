@@ -230,5 +230,7 @@ OCC version: 7.3.0
 Locale: French/France (fr_FR)
 ```
 
+
+
 ---
-[documentation index](../README.md) > Macro clone explicit
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro clone explicit

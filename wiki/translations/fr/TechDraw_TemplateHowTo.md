@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/fr
+   Topic:Dessin
+   Level:Intermédiaire
+   Time:60 minutes
+   Author:[wandererfan](User_wandererfan.md)
+   FCVersion:0.17
+---
+
 # TechDraw TemplateHowTo/fr
-{{TutorialInfo/fr
-|Topic=Dessin
-|Level=Intermédiaire
-|Time=60 minutes
-|Author=[wandererfan](User_wandererfan.md)
-|FCVersion=0.17
-}}
+
+
+
+
 
 ## Introduction
 
@@ -124,9 +130,9 @@ Si vous ne voyez pas les cases vertes pour vos textes modifiables, il se peut qu
 Si les textes apparaissent décalés dans FreeCAD, vous devrez peut-être supprimer les attributs {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} dans le fichier SVG. Voir : <https://www.forum.freecadweb.org/viewtopic.php?t=50897>.
 
 
-{{Tutorials navi
+ {{TechDraw Tools navi}}
 
-}} {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/fr

@@ -141,14 +141,9 @@ LShapeRebar.editLShapeRebar(Rebar, 50, 50, 20, 20,
 
 LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
                             12, 70, 6, True, 5, "Top Right")
-``` 
-
- 
+```
 
 
-
-
-[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
-[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar LShape
+![](images/Right_arrow.png) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar LShape

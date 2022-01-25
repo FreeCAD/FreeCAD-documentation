@@ -58,5 +58,7 @@ Then activate the view using the menu, **View → Panels → Tree view** or **�
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Combo view/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Combo view/ru

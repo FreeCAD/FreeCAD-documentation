@@ -7,7 +7,7 @@ This issue has been resolved by moving FreeCAD\'s Qt OpenGL usage to new classes
 
 See [issue 1401](http://freecadweb.org/tracker/view.php?id=1401).
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > OpenGL on MacOS
+![](images/Right_arrow.png) [documentation index](../README.md) > OpenGL on MacOS

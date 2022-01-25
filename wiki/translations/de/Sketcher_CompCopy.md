@@ -21,5 +21,7 @@ Klont, kopiert oder bewegt eine Geometrie. Klicke auf den Pfeil rechts neben dem
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCopy/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCopy/de

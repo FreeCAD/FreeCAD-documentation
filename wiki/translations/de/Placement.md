@@ -227,7 +227,7 @@ Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, w�
 -   Der Referenzpunkt eines Objektes ändert sich, abhängit vom Objekt selbst. Beispiele allgemeiner Objekte:
 
   Objekt                             Referenzpunkt
-  ---------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                           linker (minx), vorderer (miny), unterer (minz) Scheitelpunkt
   Part.Sphere                        Mittelpunkt der Kugel (d.h. Zentrum des Begrenzungskastens)
   Part.Cylinder                      Mitte der unteren Fläche
@@ -244,5 +244,7 @@ Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, w�
 
 -   Dieses Tutorium: [Flugzeug](Aeroplane/de.md) deckt die Mechanik der Änderung der Positionierung eines Objekts ausführlich ab.
 
+
+
 ---
-[documentation index](../README.md) > Placement/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Placement/de

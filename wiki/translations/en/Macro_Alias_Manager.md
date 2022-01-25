@@ -402,5 +402,7 @@ ToolBar Icon <img alt="" src=images/Aliasmanager_icon.png  style="width:32px;">
             self.dialog2.exec_()
     p()
 
+
+
 ---
-[documentation index](../README.md) > Macro Alias Manager/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Alias Manager/en

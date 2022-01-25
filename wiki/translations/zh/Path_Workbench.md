@@ -471,7 +471,9 @@ Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <sm
 
 }} 
 
-[类别:用户文档](<img src="images/Property.png" style="width:16px"> User_Documentation/zh.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+[类别:用户文档](Category:User_Documentation/zh.md)
+
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/zh
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/zh

@@ -1,5 +1,7 @@
 # Draft Module/ru
 1.  REDIRECT [Draft\_Workbench/ru](Draft_Workbench/ru.md)
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Module/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Module/ru

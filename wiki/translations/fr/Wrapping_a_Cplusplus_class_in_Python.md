@@ -163,13 +163,9 @@ PyAPI_FUNC(int) PyArg_VaParseTupleAndKeywords (PyObject *, PyObject *, const cha
 ## Liens
 
 -   [Exposer Cplusplus à Python](Exposing_Cplusplus_to_Python/fr.md)
+-   [Commit 20b86e5, exposer les méthodes de précision d\'OCC à Python](https://github.com/FreeCAD/FreeCAD/commit/20b86e55b8dd1873f4c19e036d047528c9ff7f4e)
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer](Category_Developer.md) > Wrapping a Cplusplus class in Python/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > Wrapping a Cplusplus class in Python/fr

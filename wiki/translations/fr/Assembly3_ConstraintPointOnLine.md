@@ -24,5 +24,7 @@ Par rapport au premier objet, l\'objet suivant peut toujours se déplacer le lon
 2.  Sélectionnez un élément de point d\'un objet et un élément de bord droit de l\'autre objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintPointOnLine.svg" width=16px> [Point sur une ligne](Assembly3_ConstraintPointOnLine/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointOnLine/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/fr

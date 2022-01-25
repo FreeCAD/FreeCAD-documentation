@@ -49,5 +49,7 @@ Rechtsklick in der 3D-Ansicht bietet die Möglichkeit zum
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveCompByHand/de

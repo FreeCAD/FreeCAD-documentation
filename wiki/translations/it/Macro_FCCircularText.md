@@ -879,5 +879,7 @@ replace
 
 I commenti nella pagina del forum: [Extrude from curved surface of cylinder](http://forum.freecadweb.org/viewtopic.php?f=3&t=7384)
 
+
+
 ---
-[documentation index](../README.md) > Macro FCCircularText/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Category_Draft.md) > Macro FCCircularText/it

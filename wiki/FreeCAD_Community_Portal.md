@@ -91,9 +91,7 @@ These are FreeCAD community developed workbenches, scripts, macros, and addons f
 
 -   See what you can do to [Help FreeCAD](Help_FreeCAD.md)\...
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal

@@ -31,9 +31,7 @@ Despite Coin3D now moving to a more open development platform, it\'s still very 
 -   Implement Coin3D text fields and nodes for use in project
 -   Migrate modules using SoText2 and SoText3 to utilise new nodes
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > UTF Project
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > UTF Project

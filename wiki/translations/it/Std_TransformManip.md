@@ -51,5 +51,7 @@ Non appena si ruota o si sposta l\'oggetto nella vista 3D, vengono applicate le 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TransformManip/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TransformManip/it

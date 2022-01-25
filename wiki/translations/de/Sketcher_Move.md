@@ -37,5 +37,7 @@ Verschiebt die ausgewählten Skizzenelemente von einem Punkt zum anderen, wobei 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/de

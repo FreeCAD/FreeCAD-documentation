@@ -196,5 +196,7 @@ msiexec /i Y:\\software\\FreeCAD<version>.msi
 
 FreeCAD работает, но сообщается, что OpenGL дисплей не работает, как и другие программы, работающие под [Wine](wikipedia:Wine_(software).md), то есть Google [SketchUp](wikipedia_SketchUp.md).
 
+
+
 ---
-[documentation index](../README.md) > Installing on Windows/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Windows/ru

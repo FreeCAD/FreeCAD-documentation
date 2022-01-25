@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign InvoluteGear
    Name/fr:PartDesign Engrenage droit à développante
-   MenuLocation:Conception de pièces → Involute gear...
+   MenuLocation:Conception de pièces → Engrenage à développante...
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    SeeAlso:[Atelier FCGear](FCGear_Workbench/fr.md)
 ---
@@ -11,7 +11,7 @@
 
 ## Description
 
-Cet outil permet de créer un profil 2D d\'une roue d\'engrenage à développante. Ce profil 2D est pleinement paramétrique et peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md).
+Cet outil permet de créer un profil 2D d\'une roue d\'engrenage à développante. Ce profil 2D est pleinement paramétrique et peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md) ou [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md).
 
 Pour des informations plus détaillées, voir également [Engrenage](https://fr.wikipedia.org/wiki/Engrenage) et [Involute Gear](https://en.wikipedia.org/wiki/Involute_gear)
 
@@ -19,22 +19,62 @@ Pour des informations plus détaillées, voir également [Engrenage](https://fr.
 
 ## Utilisation
 
-1.  Aller dans le menu **Conception de pièces → [<img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Involute gear...**.
-2.  Régler les paramètres de l\'engrenage à développante.
-3.  Cliquer sur **OK**.
-4.  L\'engrenage à développante est créé en dehors du corps actif. Faites-le glisser et mettez-le dans un corps pour appliquer d\'autres caractéristiques comme une protrusion.
+### Créer le profil 
 
-## Paramètres
+1.  Activez le bon corps.
+2.  Allez dans le menu **Conception de pièces → [<img src=images/PartDesign_InternalExternalGear.svg style="width:16px"> Engrenage à développante...**.
+3.  Définissez les paramètres de l\'engrenage à développante.
+4.  Cliquez sur **OK**.
+5.  S\'il n\'y avait pas de corps actif : faites glisser et déposez l\'engrenage dans un corps pour appliquer d\'autres fonctions comme une protrusion.
 
--   Nombre de dents : définit le nombre de dents désirées.
+### Créer un engrenage droit 
 
--   Module : diamètre de pas divisé par le nombre de dents.
+1.  Sélectionnez le profil d\'engrenage dans l\'arbre.
+2.  Appuyez sur le bouton **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
+3.  Réglez la longueur de la protrusion **Length** sur la largeur de face souhaitée pour l\'engrenage.
+4.  Cliquez sur **OK**.
 
--   Angle de pression : angle aigu entre la ligne d\'action et une normale à la ligne reliant les centres d\'engrenage. La valeur par défaut est de 20 degrés. ([plus d\'info](https://fr.wikipedia.org/wiki/Roue_dent%C3%A9e))
+### Créer un engrenage hélicoïdal 
 
--   Haute précision : vrai ou faux
 
--   Engrenages externes : vrai ou faux
+{{Version/fr|0.19}}
+
+1.  Sélectionnez le profil d\'engrenage dans la [Vue en arborescence](Tree_view/fr.md).
+2.  Appuyez sur le bouton **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [PartDesign Hélice additive](PartDesign_AdditiveHelix/fr.md)**.
+3.  Choisissez comme axe la normale du profil de l\'engrenage, c\'est-à-dire **Axe normal de l'esquisse**. {{Version/fr|0.20}}. (Dans les versions antérieures, l\'axe **Base Z** peut être utilisé tant que le plan du profil n\'a pas été modifié).
+4.  Choisissez un mode **Height-Turns**.
+5.  Réglez la hauteur **Height** sur la largeur de face souhaitée de l\'engrenage.
+6.  Pour définir l\'angle de l\'hélice souhaité, il faut une [expression](Expressions/fr.md) pour les tours **Turns**.
+    1.  Cliquez sur l\'icône bleue <img alt="" src=images/Bound-expression.svg  style="width:16px;"> à droite du champ de saisie.
+    2.  Saisissez la formule suivante : `Height * tan(25°) / (InvoluteGear.NumberOfTeeth * InvoluteGear.Modules * pi)`, où `25°` est un exemple d\'angle d\'hélice souhaité (également appelé valeur bêta) et `InvoluteGear` est le nom **Name** du profil.
+    3.  Cliquez sur **OK** pour fermer l\'éditeur de formule.
+    4.  Cliquez sur **OK** pour fermer le panneau des tâches.
+
+Conseil : Pour faire de l\'angle d\'hélice un paramètre accessible, utilisez une *propriété dynamique* :
+
+1.  Sélectionnez le profil.
+2.  Dans l\'[Éditeur de propriétés](Property_editor/fr.md), activez l\'option **Show all** dans le menu contextuel.
+3.  Toujours dans le menu contextuel, sélectionnez l\'option **Add Property**. Remarque : cette entrée n\'est disponible que lorsque l\'option **Show all** est active.
+4.  Dans la boîte de dialogue **Add Property** :
+    1.  Choisissez `App::PropertyAngle` comme Type.
+    2.  Définissez `Gear` comme Groupe.
+    3.  Définissez `HelicalAngle` comme Nom (sans espace).
+    4.  Cliquez sur **OK**.
+    5.  Maintenant une nouvelle propriété **Helical Angle** (espace ajouté automatiquement), avec une valeur initiale de `0.0°`, devient disponible.
+5.  Attribuez l\'angle hélicoïdal souhaité à la nouvelle propriété.
+6.  Dans la formule de la propriété **Turns** de l\'Hélice additive, vous pouvez maintenant faire référence à `InvoluteGear.HelicalAngle` au lieu de la valeur codée en dur de `25°`, en supposant que `InvoluteGear` est la **Name** du profil.
+
+## Propriétés
+
+-    **External Gear**: Vrai ou faux
+
+-    **High Precision**: Vrai ou faux
+
+-    **Modules**: Diamètre de pas divisé par le nombre de dents.
+
+-    **Number Of Teeth**: Définit le nombre de dents désirées.
+
+-    **Pressure Angle**: Angle aigu entre la ligne d\'action et une normale à la ligne reliant les centres d\'engrenage. La valeur par défaut est de 20 degrés. ([plus d\'info](https://fr.wikipedia.org/wiki/Roue_dent%C3%A9e))
 
 ## Tutoriels
 
@@ -52,5 +92,7 @@ Pour des informations plus détaillées, voir également [Engrenage](https://fr.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/fr

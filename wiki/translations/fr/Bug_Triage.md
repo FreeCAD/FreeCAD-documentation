@@ -66,7 +66,7 @@ Tous [open FreeCAD tickets with **ASSIGNED** status](https://freecadweb.org/trac
 
 Ces tickets ont été résolus mais pas encore fermés, probablement parce qu\'ils ont besoin de la confirmation que le ticket a été corrigé.
 
-------------------------------------------------------------------------
+
 
 ### Ticket Résolu 
 
@@ -144,11 +144,5 @@ Une méthodologie importante pour suivre les tickets par sujet/thème/catégorie
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Bug Triage/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Bug Triage/fr

@@ -90,9 +90,6 @@ Part.show(mycube)
 {{APIFunction|show|shape|Adds the shape to the active document or create one if no document exists.| }}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > [Part](Part_Workbench.md) > Part API/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Part](Part_Workbench.md) > Part API/en

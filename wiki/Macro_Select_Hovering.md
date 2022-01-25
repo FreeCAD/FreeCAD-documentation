@@ -412,5 +412,7 @@ ver 00.02 (26/12/2017) :
 
 [Multiple face selection to convert a shape to a solid](https://forum.freecadweb.org/viewtopic.php?f=3&t=26370)
 
+
+
 ---
-[documentation index](../README.md) > Macro Select Hovering
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Select Hovering

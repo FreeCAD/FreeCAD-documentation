@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ru
+   Topic: Export to STL or OBJ
+   Level: Beginner
+   Time: 20 minutes
+   Author:r-frank
+   FCVersion:0.16.6703
+   Files:
+---
+
 # Export to STL or OBJ/ru
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru
-|Topic= Export to STL or OBJ
-|Level= Beginner
-|Time= 20 minutes
-|Author=r-frank
-|FCVersion=0.16.6703
-|Files=
-}}
 
 
 </div>
@@ -63,8 +69,5 @@ Method 2 is to be preferred. Among the reasons:
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/ru

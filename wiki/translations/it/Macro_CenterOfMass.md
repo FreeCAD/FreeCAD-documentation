@@ -84,5 +84,7 @@ La discussione nel forum [Macro to compute center of mass](https://forum.freecad
 
 0.1.2 / 2018-11-10 : xx
 
+
+
 ---
-[documentation index](../README.md) > Macro CenterOfMass/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro CenterOfMass/it

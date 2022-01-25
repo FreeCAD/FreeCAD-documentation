@@ -56,5 +56,7 @@ Torna alla pagina [Ambienti](Workbenches/it#Ambienti_aggiuntivi.md) o alla pagin
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/it

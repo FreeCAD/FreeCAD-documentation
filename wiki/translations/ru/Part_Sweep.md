@@ -109,5 +109,7 @@
 
 -   Since Sweep is often used to create threads for screws, you should see [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/ru

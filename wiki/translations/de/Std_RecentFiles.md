@@ -53,5 +53,7 @@ Die Anzahl der in der Liste anzuzeigenden Einträge kann im Menü **Bearbeiten**
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std RecentFiles/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std RecentFiles/de

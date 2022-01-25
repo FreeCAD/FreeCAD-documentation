@@ -30,5 +30,7 @@ The **Mesh CurvatureInfo** command shows the absolute curvature of [curvature ob
 
  {{Mesh Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo

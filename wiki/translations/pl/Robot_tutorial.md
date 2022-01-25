@@ -1,11 +1,12 @@
 # Robot tutorial/pl
-{{TutorialInfo/pl
-|Topic= Środowisko pracy Robot
-|Level= początkujący
-|Time= dowolny
-|Author=r-frank
-|FCVersion=0.16.6703
-|Files=nie dołączono
+---
+- TutorialInfo:/pl
+   Topic: Środowisko pracy Robot
+   Level: początkujący
+   Time: dowolny
+   Author:r-frank
+   FCVersion:0.16.6703
+   Files:nie dołączono
 }}
 
 ## Wprowadzenie
@@ -51,9 +52,10 @@ Niniejszy poradnik jest skierowany do wykorzystania [Robotów przemysłowych](ht
 4.  Oglądaj efekty.
 
 
-{{Tutorials navi
+ {{Robot Tools navi}} {{Userdocnavi
+---
 
-}} {{Robot Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/pl

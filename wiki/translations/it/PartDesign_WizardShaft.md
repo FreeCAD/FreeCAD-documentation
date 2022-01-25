@@ -65,5 +65,7 @@ Per aggiungere un nuovo segmento all\'albero, fare clic con il tasto destro nell
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/it

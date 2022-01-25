@@ -101,9 +101,7 @@ See [here](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNamin
 3.  Determine if TNaming will be the solution long-term
 4.  Whether or not TNaming is the long-term solution, figure out a way to \'serialize/deserialize\' the data that TNaming uses for persistence across sessions
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Naming project
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Naming project

@@ -1,9 +1,9 @@
 # Category:External Command Reference/fr
-This categorizes all **external** workbench commands separate from the internal [:<img src="images/Property.png" style="width:16px"> Command\_Reference/fr](:<img src="images/Property.png" style="width:16px"> Command_Reference/fr.md)
+This categorizes all **external** workbench commands separate from the internal [:Category:Command\_Reference/fr](:Category:Command_Reference/fr.md)
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------- ------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+    
   [Arch Rebar BOM/fr](Arch_Rebar_BOM/fr.md)                                       [Arch Rebar Dimensioning/fr](Arch_Rebar_Dimensioning/fr.md)             [Arch Rebar Drawing Dimensioning/fr](Arch_Rebar_Drawing_Dimensioning/fr.md)
   [Arch Rebar Drawing/fr](Arch_Rebar_Drawing/fr.md)                               [Arch Rebar/fr](Arch_Rebar/fr.md)                                       [BIM Views/fr](BIM_Views/fr.md)
   [BIM Windows/fr](BIM_Windows/fr.md)                                             [CurvedShapes CurvedArray/fr](CurvedShapes_CurvedArray/fr.md)           [Curves CompressionSpring/fr](Curves_CompressionSpring/fr.md)
@@ -30,8 +30,8 @@ This categorizes all **external** workbench commands separate from the internal 
   [SheetMetal AddRelief/fr](SheetMetal_AddRelief/fr.md)                           [SheetMetal AddWall/fr](SheetMetal_AddWall/fr.md)                       [SheetMetal Examples/fr](SheetMetal_Examples/fr.md)
   [SheetMetal Extrude/fr](SheetMetal_Extrude/fr.md)                               [SheetMetal Forming/fr](SheetMetal_Forming/fr.md)                       [SheetMetal SketchOnSheet/fr](SheetMetal_SketchOnSheet/fr.md)
   [SheetMetal UnattendedUnfold/fr](SheetMetal_UnattendedUnfold/fr.md)             [SheetMetal Unfold/fr](SheetMetal_Unfold/fr.md)                         [SheetMetal Workbench/fr](SheetMetal_Workbench/fr.md)
-                                                                                                                                                                          
-  --------------------------------------------------------------------------------------- ------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:External Command Reference/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Command Reference/fr

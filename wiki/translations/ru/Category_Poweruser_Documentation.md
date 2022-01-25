@@ -3,7 +3,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+    
   [Arch API/ru](Arch_API/ru.md)                                                                         [Builtin modules/ru](Builtin_modules/ru.md)                                             [Code snippets/ru](Code_snippets/ru.md)
   [Command/ru](Command/ru.md)                                                                           [Create a FeaturePython object part I/ru](Create_a_FeaturePython_object_part_I/ru.md)   [Create a FeaturePython object part II/ru](Create_a_FeaturePython_object_part_II/ru.md)
   [Debugging/ru](Debugging/ru.md)                                                                       [Dialog creation/ru](Dialog_creation/ru.md)                                             [Draft API/ru](Draft_API/ru.md)
@@ -27,10 +27,9 @@ This category shows documentation articles dealing with python scripting, which 
   [Scripted Parts: Ball Bearing - Part 2/ru](Scripted_Parts:_Ball_Bearing_-_Part_2/ru.md)               [Scripting and macros/ru](Scripting_and_macros/ru.md)                                   [Scripts/ru](Scripts/ru.md)
   [Svg Namespace/ru](Svg_Namespace/ru.md)                                                               [TechDraw API/ru](TechDraw_API/ru.md)                                                   [TechDrawGui API/ru](TechDrawGui_API/ru.md)
   [Topological data scripting/ru](Topological_data_scripting/ru.md)                                     [Units/ru](Units/ru.md)                                                                 [Workbench creation/ru](Workbench_creation/ru.md)
-  [Wrapping a Cplusplus class in Python/ru](Wrapping_a_Cplusplus_class_in_Python/ru.md)                                                                                                                 
-  ------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+  [Wrapping a Cplusplus class in Python/ru](Wrapping_a_Cplusplus_class_in_Python/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/ru](<img src="images/Property.png" style="width:16px"> Documentation/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Poweruser Documentation/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Poweruser Documentation/ru

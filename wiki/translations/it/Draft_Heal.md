@@ -42,5 +42,7 @@ Questo comando tenta di correggere gli oggetti [Draft](Draft_Workbench/it.md) ch
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/it

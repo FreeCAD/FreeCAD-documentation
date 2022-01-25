@@ -34,7 +34,7 @@ Ein Beispiel:
 Die **Basispunkt** Felder können verwendet werden, um die Spiegelebene parallel zur Standardspiegelebene zu verschieben. Nur eins der **X** , **Y** oder **Z** Felder ist für eine bestimmte Standardebene wirksam.
 
   Standardebene   Basispunkt-Feld   Auswirkung
-  --------------- ----------------- ------------------------------------------------------
+    
   **XY**          **Z**             Verschiebt die Spiegelebene entlang der **Z**-Achse.
   **XY**          **X**, **Y**      Keine Auswirkung.
   **XZ**          **Y**             Verschiebt die Spiegelebene entlang der **Y**-Achse.
@@ -46,5 +46,7 @@ Die **Basispunkt** Felder können verwendet werden, um die Spiegelebene parallel
 
 -   Beliebige Spiegelebenen (d.h. nicht parallel zu einer Standardebene) werden nicht unterstützt
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/de

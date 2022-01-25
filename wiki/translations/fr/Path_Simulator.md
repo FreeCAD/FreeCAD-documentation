@@ -51,5 +51,7 @@ Cet outil permet de simuler la tâche Path en balayant les modèles 3D des outil
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/fr

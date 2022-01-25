@@ -1,9 +1,9 @@
 # Category:External Command Reference/it
-This categorizes all **external** workbench commands separate from the internal [:<img src="images/Property.png" style="width:16px"> Command\_Reference/it](:<img src="images/Property.png" style="width:16px"> Command_Reference/it.md)
+This categorizes all **external** workbench commands separate from the internal [:Category:Command\_Reference/it](:Category:Command_Reference/it.md)
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------- ------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+    
   [Arch Rebar BOM/it](Arch_Rebar_BOM/it.md)                                       [Arch Rebar Dimensioning/it](Arch_Rebar_Dimensioning/it.md)             [Arch Rebar Drawing Dimensioning/it](Arch_Rebar_Drawing_Dimensioning/it.md)
   [Arch Rebar Drawing/it](Arch_Rebar_Drawing/it.md)                               [Arch Rebar/it](Arch_Rebar/it.md)                                       [BIM Views/it](BIM_Views/it.md)
   [BIM Windows/it](BIM_Windows/it.md)                                             [CurvedShapes CurvedArray/it](CurvedShapes_CurvedArray/it.md)           [Curves ExtendCurve/it](Curves_ExtendCurve/it.md)
@@ -21,8 +21,9 @@ This categorizes all **external** workbench commands separate from the internal 
   [FCGear WormGear/it](FCGear_WormGear/it.md)                                     [Lattice2 AttachablePlacement/it](Lattice2_AttachablePlacement/it.md)   [Reinforcement Bar Bending Schedule/it](Reinforcement_Bar_Bending_Schedule/it.md)
   [Reinforcement Bar Shape Cut List/it](Reinforcement_Bar_Shape_Cut_List/it.md)   [SheetMetal AddJunction/it](SheetMetal_AddJunction/it.md)               [SheetMetal AddRelief/it](SheetMetal_AddRelief/it.md)
   [SheetMetal AddWall/it](SheetMetal_AddWall/it.md)                               [SheetMetal Extrude/it](SheetMetal_Extrude/it.md)                       [SheetMetal Unfold/it](SheetMetal_Unfold/it.md)
-  [SheetMetal Workbench/it](SheetMetal_Workbench/it.md)                                                                                                           
-  --------------------------------------------------------------------------------------- ------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+  [SheetMetal Workbench/it](SheetMetal_Workbench/it.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:External Command Reference/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Command Reference/it

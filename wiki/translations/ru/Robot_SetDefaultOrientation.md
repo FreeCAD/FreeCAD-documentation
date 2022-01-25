@@ -35,5 +35,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultOrientation/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultOrientation/ru

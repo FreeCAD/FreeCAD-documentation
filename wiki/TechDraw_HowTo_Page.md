@@ -1,11 +1,16 @@
+---
+- TutorialInfo:   Topic:How To's and Misc Info 
+   Level:all
+   Time:n/a
+   Author:n/a
+   FCVersion:0.19
+---
+
 # TechDraw HowTo Page
-{{TutorialInfo
-|Topic=How To's and Misc Info 
-|Level=all
-|Time=n/a
-|Author=n/a
-|FCVersion=0.19
-}}
+
+ 
+
+
 
 ## Introduction
 
@@ -51,5 +56,7 @@ See also [Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes.md)
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page

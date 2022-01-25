@@ -24,5 +24,7 @@ The web server is based on Python\'s [pydoc](https://docs.python.org/3.8/library
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std PythonHelp
+![](images/Right_arrow.png) [documentation index](../README.md) > Std PythonHelp

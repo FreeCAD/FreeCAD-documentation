@@ -85,5 +85,7 @@ Thanks to cae2100 for developing the original macro code - [also available here]
 Thanks to [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) for his help in writing this script.
 Original forum topic: <http://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
 
+
+
 ---
-[documentation index](../README.md) > Macro 3d Printer Slicer Individual Parts/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro 3d Printer Slicer Individual Parts/en

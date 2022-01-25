@@ -3,7 +3,7 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [A2plus Workbench/es](A2plus_Workbench/es.md)                                             [Addon/es](Addon/es.md)                                   [Animation Workbench/es](Animation_Workbench/es.md)
   [Assembly3 Workbench/es](Assembly3_Workbench/es.md)                                       [Assembly4 Workbench/es](Assembly4_Workbench/es.md)       [BIM Workbench/es](BIM_Workbench/es.md)
   [Civil Engineering Workbench/es](Civil_Engineering_Workbench/es.md)                       [External workbenches/es](External_workbenches/es.md)     [FCGear Workbench/es](FCGear_Workbench/es.md)
@@ -12,11 +12,9 @@ This page lists external addon workbenches that have a page in this wiki. Addons
   [Plot Labels/es](Plot_Labels/es.md)                                                       [Plot Legend/es](Plot_Legend/es.md)                       [Plot MultiAxes tutorial/es](Plot_MultiAxes_tutorial/es.md)
   [Plot Positions/es](Plot_Positions/es.md)                                                 [Plot Save/es](Plot_Save/es.md)                           [Plot Series/es](Plot_Series/es.md)
   [Plot Workbench/es](Plot_Workbench/es.md)                                                 [Render project/es](Render_project/es.md)                 [Ship Workbench/es](Ship_Workbench/es.md)
-  [Symbols Library Workbench/es](Symbols_Library_Workbench/es.md)                           [WebTools Workbench/es](WebTools_Workbench/es.md)         
-                                                                                                                                                                      
-  ------------------------------------------------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------
+  [Symbols Library Workbench/es](Symbols_Library_Workbench/es.md)                           [WebTools Workbench/es](WebTools_Workbench/es.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md) [<img src="images/Property.png" style="width:16px"> External Workbenches/es](<img src="images/Property.png" style="width:16px"> External_Workbenches/es.md)
+
 
 ---
-[documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/es

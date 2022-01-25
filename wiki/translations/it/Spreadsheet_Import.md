@@ -39,5 +39,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_Import.svg  style="width:16px;">
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Import/it

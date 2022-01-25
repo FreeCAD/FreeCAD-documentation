@@ -35,5 +35,7 @@ Polecenie **Mesh CurvatureInfo** wyświetla krzywiznę absolutną [obiektu krzyw
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/pl

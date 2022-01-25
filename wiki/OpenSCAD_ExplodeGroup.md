@@ -38,5 +38,7 @@ For dissolving arrays from draft workbench use the [Draft Downgrade](Draft_Downg
 
  {{OpenSCAD_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD ExplodeGroup

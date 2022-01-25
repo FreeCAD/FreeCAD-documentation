@@ -21,5 +21,7 @@ Bezüglich des LKS eines planaren Elements haben die Ursprünge der LKS von zwei
 3.  Ein ebenes Flächenelement des anderen Objekts auswählen
 4.  Schaltfläche **<img src="images/Assembly_ConstraintGeneral.svg" width=16px> [Vertikale Symmetrie](Assembly3_ConstraintSymmetricVertical/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/de

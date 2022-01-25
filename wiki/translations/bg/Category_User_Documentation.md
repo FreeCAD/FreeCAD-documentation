@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  ----------------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [About FreeCAD/bg](About_FreeCAD/bg.md)                   [Arch Workbench/bg](Arch_Workbench/bg.md)                 [Compile on Linux/bg](Compile_on_Linux/bg.md)
   [Document structure/bg](Document_structure/bg.md)         [Download/bg](Download/bg.md)                             [Draft Workbench/bg](Draft_Workbench/bg.md)
   [Drawing Workbench/bg](Drawing_Workbench/bg.md)           [Feature list/bg](Feature_list/bg.md)                     [Getting started/bg](Getting_started/bg.md)
@@ -15,12 +15,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [Robot Workbench/bg](Robot_Workbench/bg.md)               [Ship Workbench/bg](Ship_Workbench/bg.md)                 [Sketcher Workbench/bg](Sketcher_Workbench/bg.md)
   [Spreadsheet Workbench/bg](Spreadsheet_Workbench/bg.md)   [Surface Workbench/bg](Surface_Workbench/bg.md)           [TechDraw Workbench/bg](TechDraw_Workbench/bg.md)
   [Tutorials/bg](Tutorials/bg.md)                           [User hub/bg](User_hub/bg.md)                             [Web Workbench/bg](Web_Workbench/bg.md)
-  [Workbenches/bg](Workbenches/bg.md)                                                                                         
-                                                                                                                                      
-                                                                                                                                      
-  ----------------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------
+  [Workbenches/bg](Workbenches/bg.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/bg](<img src="images/Property.png" style="width:16px"> Documentation/bg.md) [<img src="images/Property.png" style="width:16px"> Arch/bg](<img src="images/Property.png" style="width:16px"> Arch/bg.md) [<img src="images/Property.png" style="width:16px"> BIM/bg](<img src="images/Property.png" style="width:16px"> BIM/bg.md) [<img src="images/Property.png" style="width:16px"> Draft/bg](<img src="images/Property.png" style="width:16px"> Draft/bg.md) [<img src="images/Property.png" style="width:16px"> Macros/bg](<img src="images/Property.png" style="width:16px"> Macros/bg.md) [<img src="images/Property.png" style="width:16px"> Web/bg](<img src="images/Property.png" style="width:16px"> Web/bg.md) [<img src="images/Property.png" style="width:16px"> Workbenches/bg](<img src="images/Property.png" style="width:16px"> Workbenches/bg.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/bg
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/bg

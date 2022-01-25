@@ -31,5 +31,7 @@ La commande **Affichage Supprimer les mesures** efface les mesures de la [vue 3D
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > View Measure Clear All/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > View Measure Clear All/fr

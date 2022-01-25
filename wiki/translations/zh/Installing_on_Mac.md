@@ -45,5 +45,7 @@ There currently isn\'t an uninstaller for FreeCAD installed with dmg package. To
 
 If you installed FreeCAD with homebrew simply use the `brew uninstall freecad` command. That\'s it.
 
+
+
 ---
-[documentation index](../README.md) > Installing on Mac/zh
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/zh

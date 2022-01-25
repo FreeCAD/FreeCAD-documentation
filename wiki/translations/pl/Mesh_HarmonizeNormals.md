@@ -32,5 +32,7 @@ The **Mesh HarmonizeNormals** command harmonizes the normals of mesh objects.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/pl

@@ -188,29 +188,29 @@ Wenn du dir die [Erstellungsfunktion](#Nicht-uniforme_B-splines.md) für nicht-u
 
 Da die Form eines B-Splines nicht viel über seine Eigenschaften aussagt, bietet FreeCAD [verschiedene Werkzeuge](Sketcher_Workbench/de#Skizzierer_B-spline_Werkzeuge.md), um die Eigenschaften anzuzeigen:
 
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | Eigenschaft         | Werkzeugleistenschaltfläche                                                                                                                        |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Grad**            |                                                                                                                                     |
 |                     | **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [B-Spline-Grad anzeigen/ausblenden](Sketcher_BSplineDegree/de.md)**                                |
 |                     |                                                                                                                                                 |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Kontrollpolygon** |                                                                                                                                     |
 |                     | **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Kontrollpolygon für B-Spline anzeigen/ausblenden](Sketcher_BSplinePolygon/de.md)**               |
 |                     |                                                                                                                                                 |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Krümmungskamm**   |                                                                                                                                     |
 |                     | **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [B-Spline Krümmungskamm anzeigen/ausblenden](Sketcher_BSplineComb/de.md)**                           |
 |                     |                                                                                                                                                 |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Knotenvielfalt**  |                                                                                                                                     |
 |                     | **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [B-Spline Knotenvielfalt anzeigen/ausblendenn](Sketcher_BSplineKnotMultiplicity/de.md)** |
 |                     |                                                                                                                                                 |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Gewichte**        |                                                                                                                                     |
 |                     | **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Gewicht des B-Spline Kontrollpunkts anzeigen/ausblenden](Sketcher_BSplinePoleWeight/de.md)**  |
 |                     |                                                                                                                                                 |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ### Begrenzungen
 
@@ -262,5 +262,7 @@ Aber ist das wirklich ausreichend? Am Punkt des geometrischen Übergangs haben w
 
 Wir haben also auch räumliche Bereiche, in denen die Intensität des reflektierten Lichts unterschiedlich ist. Um dies zu vermeiden, benötigen wir am geometrischen Übergangspunkt auch eine Stetigkeit der Ableitung zweiter Ordnung und damit einen kubischen B-Spline.
 
+
+
 ---
-[documentation index](../README.md) > B-Splines/de
+![](images/Right_arrow.png) [documentation index](../README.md) > B-Splines/de

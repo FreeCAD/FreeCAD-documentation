@@ -19,5 +19,7 @@ This link leaves no degree of freedom (DOF) unconstrained.
 2.  Select one element of each object.
 3.  Press the **<img src="images/Part_Attachment.svg" width=16px> [Attachment](Assembly3_ConstraintAttachment.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintAttachment/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAttachment/pl

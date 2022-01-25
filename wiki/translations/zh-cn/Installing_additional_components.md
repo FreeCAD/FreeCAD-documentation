@@ -19,10 +19,10 @@
 
 FreeCAD 是一个真正的跨平台应用程序，基于世界知名的 [Qt](http://en.wikipedia.org/wiki/Qt_(framework)) 框架之上。这意味着 FreeCAD 外观和行为与在 Windows, Linux 和 Mac 上是一致的。然而，安装过程在每个操作系统上是有所不同的。在下面选择你的操作系统以获得更多细节关于如何安装 FreeCAD。
 
-  ---------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------
+    
    ![ alt=\'Windows\' \| link= Install on Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Install on Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Install on Mac](images/Mac.png )
                            [在 Windows 上安装](Install_on_Windows/zh-cn.md)                                                [在 Linux 上安装](Install_on_Linux/zh-cn.md)                                          [在 Mac 上安装](Install_on_Mac/zh-cn.md)
-  ---------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------
+    
 
 
 </div>
@@ -291,7 +291,7 @@ Z88是另一种FEM程序，内含网格生成器、求解器与转换器，用�
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/zh-cn](<img src="images/Property.png" style="width:16px"> User_Documentation/zh-cn.md)
+
 
 ---
-[documentation index](../README.md) > Installing additional components/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/zh-cn

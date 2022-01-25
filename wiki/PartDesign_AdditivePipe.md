@@ -103,5 +103,7 @@ To use more than one cross-section, start with the first cross-section sketch as
 
  {{PartDesign Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign AdditivePipe

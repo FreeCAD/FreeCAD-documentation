@@ -1,18 +1,23 @@
+---
+- TutorialInfo:/ro
+   Topic: Raytracing
+   Level: Beginner
+   Time: 10 minutes + Render time
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 or above
+   Files:
+---
+
 # Raytracing tutorial/ro
+
+
+
 ## Raytracing Workbench 
 
 
 **The [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench, and because the new module should basically work in the same way**
 
 
-{{TutorialInfo/ro
-|Topic= Raytracing
-|Level= Beginner
-|Time= 10 minutes + Render time
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16 or above
-|Files=
-}}
 
 
 <div class="mw-translate-fuzzy">
@@ -105,9 +110,9 @@ We are now finished with the basic workflow for the [Raytracing Workbench](Raytr
 </div>
 
 
-{{Tutorials navi
+ {{Raytracing Tools navi}}
 
-}} {{Raytracing Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/ro

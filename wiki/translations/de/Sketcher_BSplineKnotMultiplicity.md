@@ -32,5 +32,7 @@ Zeigt oder verbirgt die Anzeige der Knotenvielfalt einer B-Spline. Siehe [diese 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineKnotMultiplicity/de

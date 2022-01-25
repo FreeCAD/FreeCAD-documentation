@@ -44,5 +44,7 @@ La commande *Points Couper par polygone* coupe des points de nuages de points.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points PolyCut/fr

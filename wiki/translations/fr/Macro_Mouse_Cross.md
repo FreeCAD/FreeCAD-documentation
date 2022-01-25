@@ -212,5 +212,7 @@ Le curseur peut changer d\'apparence suivant l\'établi utilisé, il faut alors 
 Le curseur peut se substituer aux autre curseurs (ex: lors de l\'agrandissement d\'une fenêtre, coins\...).
 La grille est permanente.
 
+
+
 ---
-[documentation index](../README.md) > Macro Mouse Cross/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Mouse Cross/fr

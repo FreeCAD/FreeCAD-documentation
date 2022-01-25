@@ -281,5 +281,7 @@ Version=0.02: 2020/05/04 : correction de la couleur du bouton bug (self.PB\_01\_
 
 Version = 00.01 : 2020/03/21 :
 
+
+
 ---
-[documentation index](../README.md) > Macro Screen Wiki/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Screen Wiki/fr

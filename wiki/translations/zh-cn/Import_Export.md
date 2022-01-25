@@ -22,7 +22,7 @@ See the following pages for additional information:
 <div class="mw-translate-fuzzy">
 
   格式                                       描述                                                                                            导入   导出   模块                                                                            参数页
-  ------------------------------------------ ----------------------------------------------------------------------------------------------- ------ ------ ------------------------------------------------------------------------------- --------
+       
   [FCStd](Fcstd_file_format.md)      FreeCAD的原生文件格式                                                                           是     是     内建                                                                            否
   [FCMat](Material.md)               FreeCAD 材质卡片                                                                                是     是     内建                                                                            否
   [FCMacro](Macros.md)               FreeCAD 宏                                                                                      是     是     内建                                                                            否
@@ -72,11 +72,5 @@ See the following pages for additional information:
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/zh-cn

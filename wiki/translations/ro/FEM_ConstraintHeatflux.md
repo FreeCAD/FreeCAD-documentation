@@ -39,5 +39,7 @@ Această constrângere specifică schimbul de căldură (transferul de căldură
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ConstraintHeatflux/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintHeatflux/ro

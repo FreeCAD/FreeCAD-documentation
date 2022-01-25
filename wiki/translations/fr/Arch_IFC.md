@@ -67,11 +67,5 @@ Si la forme des objets exportés est basée sur une extrusion ou une opération 
 
 
 
-
-
- 
-
-[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/fr

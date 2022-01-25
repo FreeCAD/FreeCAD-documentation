@@ -17,5 +17,7 @@ Il sistema di preferenze di FreeCAD, che si trova nel menu **Modifica -\> Prefer
 
 Passando il mouse sopra ogni impostazione, viene mostrato un suggerimento che spiega a cosa serve e la posizione delle impostazioni corrispondenti nel sistema delle preferenze di FreeCAD.
 
+
+
 ---
-[documentation index](../README.md) > BIM Setup/it
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Setup/it

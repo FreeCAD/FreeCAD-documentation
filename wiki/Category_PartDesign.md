@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench](PartDesign_Workb
 
 ### Contents:
 
-  ------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+    
   [Artwork PartDesign](Artwork_PartDesign.md)                       [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md)                             [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)
   [Body](Body.md)                                                   [Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)   [Datum](Datum.md)
   [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)       [Feature](Feature.md)                                                                 [Feature editing](Feature_editing.md)
@@ -27,10 +27,9 @@ This category lists pages related to the [PartDesign Workbench](PartDesign_Workb
   [PartDesign SubtractivePrism](PartDesign_SubtractivePrism.md)     [PartDesign SubtractiveSphere](PartDesign_SubtractiveSphere.md)                       [PartDesign SubtractiveTorus](PartDesign_SubtractiveTorus.md)
   [PartDesign SubtractiveWedge](PartDesign_SubtractiveWedge.md)     [PartDesign Thickness](PartDesign_Thickness.md)                                       [Template:PartDesign Tools navi](Template_PartDesign_Tools_navi.md)
   [PartDesign WizardShaft](PartDesign_WizardShaft.md)               [PartDesign Workbench](PartDesign_Workbench.md)                                       [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md)
-  [Toothbrush Head Stand](Toothbrush_Head_Stand.md)                 [Topological naming problem](Topological_naming_problem.md)                           
-  ------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+  [Toothbrush Head Stand](Toothbrush_Head_Stand.md)                 [Topological naming problem](Topological_naming_problem.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Category:PartDesign
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [User_Documentation](Category_User_Documentation.md) > Category:PartDesign

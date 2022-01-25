@@ -30,5 +30,7 @@ La commande <img alt="" src=images/Assembly_Move.svg  style="width:24px;"> [Dép
 
 Les poignées déplacent la pièce parallèlement à l\'un des plans de base ICS de l\'objet sélectionné ; en maintenant la touche **shift** enfoncée tout en faisant glisser la pièce, le mouvement est limité à un seul axe.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MovePart/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MovePart/fr

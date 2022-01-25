@@ -5,7 +5,7 @@
 
 Les tutoriels listés ici sont ceux qui traitent de la conception de produits physiques pour la fabrication ou l\'impression 3D. Pour d\'autres sujets, consultez la page générale [tutoriels vidéo](video_tutorials/fr.md).
 
-Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels écrits de haute qualité. Vous trouverez une liste complète et non triée de didacticiels dans la [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels écrits de haute qualité. Vous trouverez une liste complète et non triée de didacticiels dans la [:Category:Tutorials](:Category_Tutorials.md).
 
 ## Conception de produit 
 
@@ -81,5 +81,7 @@ Bien que cette liste se concentre sur le contenu allemand, bon nombre de ces cha
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Video tutorials for product design/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/fr

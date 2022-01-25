@@ -13,5 +13,7 @@
 
 {{Special:Allpages/Template}}
 
+
+
 ---
-[documentation index](../README.md) > Wiki Allpages Template
+![](images/Right_arrow.png) [documentation index](../README.md) > Wiki Allpages Template

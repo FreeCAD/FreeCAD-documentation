@@ -3,7 +3,7 @@ This category lists workbenches included in FreeCAD.
 
 ### Contents:
 
-  --------------------------------------------------------------------------------- --------------------------------------------------------------- ---------------------------------------------------------------
+    
   [Arch Workbench/ro](Arch_Workbench/ro.md)                                 [Draft Workbench/ro](Draft_Workbench/ro.md)             [FEM Workbench/ro](FEM_Workbench/ro.md)
   [Image Workbench/ro](Image_Workbench/ro.md)                               [Inspection Workbench/ro](Inspection_Workbench/ro.md)   [Mesh Workbench/ro](Mesh_Workbench/ro.md)
   [OpenSCAD Workbench/ro](OpenSCAD_Workbench/ro.md)                         [Part Module/ro](Part_Module/ro.md)                     [PartDesign Workbench/ro](PartDesign_Workbench/ro.md)
@@ -13,16 +13,9 @@ This category lists workbenches included in FreeCAD.
   [Std File Menu/ro](Std_File_Menu/ro.md)                                   [Std Macro Menu/ro](Std_Macro_Menu/ro.md)               [Std Tools Menu/ro](Std_Tools_Menu/ro.md)
   [Std View Menu/ro](Std_View_Menu/ro.md)                                   [Std Windows Menu/ro](Std_Windows_Menu/ro.md)           [Surface Workbench/ro](Surface_Workbench/ro.md)
   [TechDraw Workbench/ro](TechDraw_Workbench/ro.md)                         [Testing/ro](Testing/ro.md)                             [Web Workbench/ro](Web_Workbench/ro.md)
-  [Workbenches/ro](Workbenches/ro.md)                                                                                                       
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-  --------------------------------------------------------------------------------- --------------------------------------------------------------- ---------------------------------------------------------------
+  [Workbenches/ro](Workbenches/ro.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/ro](<img src="images/Property.png" style="width:16px"> User_Documentation/ro.md) [<img src="images/Property.png" style="width:16px"> Draft/ro](<img src="images/Property.png" style="width:16px"> Draft/ro.md) [<img src="images/Property.png" style="width:16px"> External Workbenches/ro](<img src="images/Property.png" style="width:16px"> External_Workbenches/ro.md) [<img src="images/Property.png" style="width:16px"> FEM/ro](<img src="images/Property.png" style="width:16px"> FEM/ro.md) [<img src="images/Property.png" style="width:16px"> Image/ro](<img src="images/Property.png" style="width:16px"> Image/ro.md) [<img src="images/Property.png" style="width:16px"> Inspection/ro](<img src="images/Property.png" style="width:16px"> Inspection/ro.md) [<img src="images/Property.png" style="width:16px"> Mesh/ro](<img src="images/Property.png" style="width:16px"> Mesh/ro.md) [<img src="images/Property.png" style="width:16px"> OpenSCAD/ro](<img src="images/Property.png" style="width:16px"> OpenSCAD/ro.md) [<img src="images/Property.png" style="width:16px"> Part/ro](<img src="images/Property.png" style="width:16px"> Part/ro.md) [<img src="images/Property.png" style="width:16px"> Path/ro](<img src="images/Property.png" style="width:16px"> Path/ro.md) [<img src="images/Property.png" style="width:16px"> Plot/ro](<img src="images/Property.png" style="width:16px"> Plot/ro.md) [<img src="images/Property.png" style="width:16px"> Points/ro](<img src="images/Property.png" style="width:16px"> Points/ro.md) [<img src="images/Property.png" style="width:16px"> Raytracing/ro](<img src="images/Property.png" style="width:16px"> Raytracing/ro.md) [<img src="images/Property.png" style="width:16px"> Reinforcement/ro](<img src="images/Property.png" style="width:16px"> Reinforcement/ro.md) [<img src="images/Property.png" style="width:16px"> Robot/ro](<img src="images/Property.png" style="width:16px"> Robot/ro.md) [<img src="images/Property.png" style="width:16px"> Ship/ro](<img src="images/Property.png" style="width:16px"> Ship/ro.md) [<img src="images/Property.png" style="width:16px"> Surface/ro](<img src="images/Property.png" style="width:16px"> Surface/ro.md) [<img src="images/Property.png" style="width:16px"> TechDraw/ro](<img src="images/Property.png" style="width:16px"> TechDraw/ro.md) [<img src="images/Property.png" style="width:16px"> Test Framework/ro](<img src="images/Property.png" style="width:16px"> Test_Framework/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:Workbenches/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Workbenches/ro

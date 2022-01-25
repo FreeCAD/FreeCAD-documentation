@@ -5,7 +5,7 @@
 
 Die hier aufgeführten Tutorien befassen sich mit der Gestaltung von Räumen, Häusern und anderen Gebäuden, die für Architekten und Bauingenieure interessant sind. Für weitere Themen siehe die allgemeine Seite [Videotutorien](video_tutorials/de.md).
 
-Besuche [Tutorien](tutorials/de.md) für schriftliche Tutorien von hoher Qualität. Eine vollständige, unsortierte Liste der Tutorials findest Du unter [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+Besuche [Tutorien](tutorials/de.md) für schriftliche Tutorien von hoher Qualität. Eine vollständige, unsortierte Liste der Tutorials findest Du unter [:Category:Tutorials](:Category_Tutorials.md).
 
 ## Architektonische Gestaltung 
 
@@ -45,9 +45,6 @@ Videos, die die Modellierung von Räumen, Häusern, Bürogebäuden und ähnliche
     -   [Fachmodell mit FreeCAD und ARCH](https://www.youtube.com/watch?v=iarSNPBKkfo&list=PLNv9lsSmVr-iDNhHqJ1u8aZUImYIc8bB8): second part of the series. The building of the actual model: a garage.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Video tutorials for architectural design/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for architectural design/de

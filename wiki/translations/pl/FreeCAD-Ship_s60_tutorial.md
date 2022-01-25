@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic:Ship Workbench
+   Level:Beginner
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # FreeCAD-Ship s60 tutorial/pl
-{{TutorialInfo
-|Topic=Ship Workbench
-|Level=Beginner
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## Introduction
 
@@ -307,5 +312,7 @@ The [FreeCAD Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md) is the s
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD-Ship s60 tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial/pl

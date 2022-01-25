@@ -37,5 +37,7 @@ Déplace les éléments d\'esquisse sélectionnés d\'un point à un autre, en u
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Move/fr

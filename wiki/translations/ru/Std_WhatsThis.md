@@ -44,5 +44,7 @@ Read this post to understand how the commands must be named in the code to match
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std WhatsThis/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std WhatsThis/ru

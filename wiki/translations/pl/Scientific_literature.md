@@ -10,11 +10,6 @@ Większość z tych artykułów ma nieograniczony dostęp.
 -   \"Interaktywne programowanie dla CAD parametrycznego\", Aman Mathur, Marcus Pirron, Damien Zufferey, [DOI: 10.1111/cgf.14046](https://doi.org/10.1111/cgf.14046).
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Scientific literature/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Scientific literature/pl

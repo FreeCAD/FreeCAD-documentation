@@ -60,11 +60,9 @@ Publicity: articles on [http://yorik.uncreated.net/guestblog.php](http://yori
 
 Die beschlossenen Regeln und Informationen gehen an das [FreeCAD Entwicklungsmodell](FreeCAD_development_model/de.md) Dokument.
 
-## Nächste Handlungen 
+## Nächste Handlungen
 
 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > FreeCAD development model project/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > FreeCAD development model project/de

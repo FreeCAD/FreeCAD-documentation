@@ -1,11 +1,11 @@
-# Tutorial custom placing of windows and doors/ru
-{{TutorialInfo/ru
-|Topic=Архитектура
-|Level=Средний
-|Time=60 минут
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 или выше
-|Files=нет
+---
+- TutorialInfo:/ru
+   Topic:Архитектура
+   Level:Средний
+   Time:60 минут
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 или выше
+   Files:нет
 }}
 
 ## Введение
@@ -37,9 +37,9 @@
 
 1\. Откройте FreeCAD, создайте новый пустой документ, и переключитесь на [Верстак Arch](Arch_Workbench/ru.md).
 
-2\. Убедитесь, что единицы измерения установлены в меню **Правка → Настройки → Основные → Единицы измерения** правильно. Например, `МКС (м/кг/с/градус)` хороши для работы с расстояниями в типичных строениях; и установите число знаков после запятой на `4`, чтобы учитывать малейшие доли метра.
+2\. Убедитесь, что единицы измерения установлены в меню **Правка → Настройки → Основные → Единицы измерения** правильно. Например, {{incode   МКС (м/кг/с/градус)}} хороши для работы с расстояниями в типичных строениях; и установите число знаков после запятой на {{incode   4}}, чтобы учитывать малейшие доли метра.
 
-3\. Используйте кнопку [Показывать сетку](Draft_ToggleGrid/ru.md) для показа сетки с достаточным разрешением. Вы можете изменить вид сетки в меню **Правка → Настройки → Draft → Сетка и привязка → Сетка**. Установите линии через каждые `50 mm`, с главными линиями каждые `20` линий (каждый метр), и `1000 линий` всего (сетка покрывает площадь 50 x 50 метров).
+3\. Используйте кнопку [Показывать сетку](Draft_ToggleGrid/ru.md) для показа сетки с достаточным разрешением. Вы можете изменить вид сетки в меню **Правка → Настройки → Draft → Сетка и привязка → Сетка**. Установите линии через каждые {{incode   50 mm}}, с главными линиями каждые {{incode   20}} линий (каждый метр), и {{incode   1000 линий}} всего (сетка покрывает площадь 50 x 50 метров).
 
 4\. [Отодвиньте](Zoom_out/ru.md) трёхмерный вид, если сетка слишком близка.
 
@@ -70,7 +70,7 @@
 </div>
 
 
-```python
+{{Code   code:
 import FreeCAD
 import Draft
 
@@ -81,8 +81,11 @@ FreeCAD.Vector(6000.0, 2000.0, 0.0),
 FreeCAD.Vector(6000.0, 5000.0, 0.0)]
 
 w = Draft.makeWire(p, closed=False)
-```
+---
 
+# Tutorial custom placing of windows and doors/ru
+
+ 
 6\. Выделите `DWire` и кликните инструмент [Arch Wall](Arch_Wall/ru.md); появится стена с шириной (толщиной) по умолчанию 0,2 м и высотой 3 м.
 
 <img alt="" src=images/01_T02_wire_wall.png  style="width:600px;">
@@ -371,5 +374,7 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 
 }}   {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Tutorial custom placing of windows and doors/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/ru

@@ -47,5 +47,7 @@ Il comando **Chiudi il buco** permette di chiudere i fori nelle mesh selezionand
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/it

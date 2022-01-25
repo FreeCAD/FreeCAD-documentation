@@ -30,6 +30,8 @@ For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wi
 
 ## Usage
 
+### Create the profile 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -43,11 +45,76 @@ For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wi
 
 </div>
 
-## Parametri
+### Create a spur gear 
+
+1.  Select the gear profile in the tree.
+2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> PartDesign Pad** button.
+3.  Set the pad\'s **Length** to the desired face width of the gear.
+4.  Click **OK**
+
+### Create a helical gear 
+
+
+<small>(v0.19)</small> 
+
+1.  Select the gear profile in the tree.
+2.  Press the **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md)** button.
+3.  Choose as Axis the normal of the gear profile, that is **Normal sketch axis** <small>(v0.20)</small> . (In earlier versions the **Base Z axis** can be used as long as the profile\'s plane has not been altered.)
+4.  Choose a **Height-Turns** mode.
+5.  Set the **Height** to the desired face width of the gear.
+6.  To set the desired helical angle an [Expressions](Expressions.md) for the **Turns** is required.
+    1.  Click the blue <img alt="" src=images/Bound-expression.svg  style="width:16px;"> icon at the right of the input field.
+    2.  Enter the following formula: `Height * tan(25°) / (InvoluteGear.NumberOfTeeth * InvoluteGear.Modules * pi)`, where `25°` is an example for the desired helical angle (also known as beta-value) and `InvoluteGear` is the **Name** of the profile.
+    3.  Click **OK** to close the formula editor.
+7.  Click **OK** to close the task panel.
+
+Hint: To make the helical angle an accessible parameter, use a *dynamic property*:
+
+1.  Select the profile.
+2.  In the [Property editor](Property_editor.md) activate the **Show all** option in the context menu.
+3.  Again in the context menu, select **Add Property**. Note: this entry is only available when **Show all** is active.
+4.  In the **Add Property** dialog:
+    1.  Choose `App::PropertyAngle` as Type.
+    2.  Set `Gear` as Group.
+    3.  Set `HelicalAngle` as Name (without a space).
+    4.  Click **OK**
+5.  Now a new property **Helical Angle** (space added automatically), with an initial value of `0.0°`, becomes available.
+6.  Assign the desired helical angle to the new property.
+7.  In the formula of the **Turns** property of the AdditiveHelix, you can now reference `InvoluteGear.HelicalAngle` instead of the hard coded value of e.g. `25°`; again assuming `InvoluteGear` is the **Name** of the profile.
+
+## Properties
+
+
+<div class="mw-translate-fuzzy">
+
+-   External gear: True o false
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   Alta precisione: True o False
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   Modulo: Diametro diviso per il numero di denti.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   Numero di denti: Impostare il numero di denti.
 
--   Modulo: Diametro diviso per il numero di denti.
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -56,10 +123,6 @@ For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wi
 
 
 </div>
-
--   Alta precisione: True o False
-
--   External gear: True o false
 
 ## Tutorials
 
@@ -83,5 +146,7 @@ For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign InvoluteGear/it

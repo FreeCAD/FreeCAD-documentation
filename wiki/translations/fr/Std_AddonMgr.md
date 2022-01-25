@@ -69,7 +69,7 @@ Si vous avez développé un atelier ou une macro et souhaitez l\'inclure dans le
 
 ### Ateliers Python 
 
-Pour les ateliers Python, vous n\'avez besoin d\'aucune approbation spécifique pour ajouter votre atelier au Addon manager et, étant en dehors du code source de FreeCAD, vous pouvez choisir la licence de votre choix. Si vous demandez l'ajout de votre atelier dans la liste (nous n'ajouterons aucun nouveau atelier sans une demande de ses auteurs), soit en le demandant sur le forum, soit en créant une requête (\"issue\" en anglais) sur le site [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/), votre code restera sur votre propre dépôt git, nous l\'ajouterons simplement en tant que sous-module au dépôt [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/). Bien sûr, avant d\'ajouter votre atelier, nous allons l\'examiner et nous assurer qu\'il ne pose aucun problème potentiel.
+Pour les ateliers Python, vous n\'avez pas besoin d\'une approbation spécifique pour que votre atelier soit ajouté au gestionnaire d\'addons. De plus, comme votre module d\'extension ne fait pas partie du code source de FreeCAD, vous pouvez choisir la licence qui vous convient. Si vous demandez que votre atelier soit ajouté à la liste par défaut du gestionnaire d\'addons (nous n\'ajouterons aucun nouvel atelier sans une demande de ses auteurs), soit en le demandant sur le forum, soit en ouvrant un problème sur le dépôt [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/), votre code restera sur votre propre dépôt git, nous l\'ajouterons simplement comme un sous-module au dépôt [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/). Bien sûr, avant d\'ajouter votre atelier, nous y jetterons un coup d\'œil et nous nous assurerons qu\'il n\'y a rien de potentiellement problématique. Pour plus de détails sur la structuration de votre addon, y compris des informations sur les métadonnées utilisées par le gestionnaire d\'addons, voir [Création d\'atelier](Workbench_creation/fr.md).
 
 ### Ateliers C++ 
 
@@ -83,5 +83,7 @@ Si vous développez un atelier en C++, il ne peut pas être exécuté directemen
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std AddonMgr/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std AddonMgr/fr

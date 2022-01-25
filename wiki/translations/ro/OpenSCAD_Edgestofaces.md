@@ -1,6 +1,6 @@
 # OpenSCAD Edgestofaces/ro
 ---
-- GuiCommand:   Name:OpenSCAD Edgestofaces   MenuLocation:OpenSCAD → EdgesToFaces‏‎   |Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|Shortcut:none   SeeAlso:------
+- GuiCommand:   Name:OpenSCAD Edgestofaces   MenuLocation:OpenSCAD → EdgesToFaces‏‎   |Workbenches:[[OpenSCAD Workbench   OpenSCAD]]|Shortcut:none   SeeAlso:
 
 
 </div>
@@ -58,5 +58,7 @@ A se vedea și [Draft Upgrade](Draft_Upgrade.md) pentru o alternativă la modul 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/ro

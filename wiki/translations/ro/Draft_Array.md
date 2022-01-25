@@ -114,5 +114,7 @@ Instrumentul Array poate fi utilizat în [macros](macros.md) și din consola Pyt
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/ro

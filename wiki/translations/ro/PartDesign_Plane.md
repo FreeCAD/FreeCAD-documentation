@@ -91,5 +91,7 @@ Faceți dublu clic pe eticheta DatumPlane din arborescența Model sau faceți cl
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/ro

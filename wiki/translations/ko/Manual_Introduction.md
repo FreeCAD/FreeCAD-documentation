@@ -31,5 +31,7 @@ The contents of this manual are published under the [Creative Commons 4.0](http:
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Manual:Introduction/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Introduction/ko

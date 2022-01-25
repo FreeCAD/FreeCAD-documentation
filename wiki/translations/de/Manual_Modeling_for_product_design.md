@@ -170,7 +170,7 @@ Aber das Beste aus beiden Welten existiert ebenfalls, das ist die [Assembly2 Wor
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
+
 
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/de

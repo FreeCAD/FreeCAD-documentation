@@ -410,5 +410,7 @@ Forum: No dedicated thread at time of writing.
 
 v0.1 2021-08-09 : first release
 
+
+
 ---
-[documentation index](../README.md) > Macro Spreadsheet2html/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Spreadsheet2html/en

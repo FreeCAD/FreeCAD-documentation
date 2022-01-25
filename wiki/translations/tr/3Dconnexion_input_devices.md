@@ -386,7 +386,7 @@ Belirli bir komutu bir düğmeyle bağlamak için, sol taraftaki düğmeyi seçi
 -   Forum thread [spacenav on windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
 -   Forum thread [Space navigator axis confusion](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md)
+
 
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > 3Dconnexion input devices/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [3rd Party](Category_3rd Party.md) > 3Dconnexion input devices/tr

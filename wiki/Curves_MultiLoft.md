@@ -31,5 +31,7 @@ The <img alt="" src=images/Curves_MultiLoft.svg  style="width:24px;"> [Curves Mu
 
  {{Curves Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Curves MultiLoft
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves MultiLoft

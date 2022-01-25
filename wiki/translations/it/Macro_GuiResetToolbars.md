@@ -38,7 +38,7 @@ ToolBar Icon ![](images/GuiResetToolbars.svg )
 # PR-DC, Republic of Serbia
 # info@pr-dc.com
 # 
-# --------------------
+# 
 #
 # Copyright (C) 2020 PR-DC <info@pr-dc.com>
 # 
@@ -55,7 +55,7 @@ ToolBar Icon ![](images/GuiResetToolbars.svg )
 # You should have received a copy of the GNU Lesser General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
-# --------------------
+# 
 
 __Name__ = 'GuiResetToolbars'
 __Comment__ = 'Reset Toolbars position'
@@ -85,5 +85,7 @@ for i in tb:
 
 La discussione sul forum [Reset toolbar position](https://forum.freecadweb.org/viewtopic.php?f=3&t=45452&p=390034#p389404)
 
+
+
 ---
-[documentation index](../README.md) > Macro GuiResetToolbars/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro GuiResetToolbars/it

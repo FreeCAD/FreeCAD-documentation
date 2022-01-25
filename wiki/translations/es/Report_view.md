@@ -55,5 +55,7 @@ Al hacer clic con el botón derecho del ratón en la vista del informe se muestr
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Report view/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Report view/es

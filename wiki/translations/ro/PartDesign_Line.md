@@ -69,5 +69,7 @@ Faceți dublu clic pe eticheta DatumLine din arborescența Model sau faceți cli
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Line/ro

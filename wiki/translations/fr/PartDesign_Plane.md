@@ -49,5 +49,7 @@ Double-cliquez sur l\'étiquette DatumPlane dans l\'arborescence du modèle ou c
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Plane/fr

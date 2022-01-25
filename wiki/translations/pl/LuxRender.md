@@ -56,5 +56,7 @@ There is no development version of LuxRender, as development has been halted in 
 
 The [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) has dropped support for LuxRender, as it is outdated. It supports instead the modern reboot [LuxCoreRender](LuxCoreRender.md).
 
+
+
 ---
-[documentation index](../README.md) > LuxRender/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > LuxRender/pl

@@ -24,7 +24,7 @@ Bod (vrchol) základního geometrického tělesa je dostupný z dialogového okn
 
 ### Geometric Primitives 
 
-+------------------------------------------------------------------------------+---------------------+
++++
 | ![](images/PartVertexPrimitivesOptions_it.png ) | Point               |
 |                                                                              |                     |
 |                                                                              | #### Parameter      |
@@ -46,11 +46,11 @@ Bod (vrchol) základního geometrického tělesa je dostupný z dialogového okn
 |                                                                              | -                   |
 |                                                                              | -                   |
 |                                                                              | -                   |
-+------------------------------------------------------------------------------+---------------------+
++++
 
 ### Property
 
-+------------------------------------------------------------+-----------------------------------------+
++++
 | ![](images/PartVertexProperty_it.png ) | #### View                               |
 |                                                            |                                         |
 |                                                            | #### Data                               |
@@ -82,7 +82,7 @@ Bod (vrchol) základního geometrického tělesa je dostupný z dialogového okn
 |                                                            |     **Z**                  |
 |                                                            |                                      |
 |                                                            |     :                                   |
-+------------------------------------------------------------+-----------------------------------------+
++++
 
 
 
@@ -92,5 +92,7 @@ Bod (vrchol) základního geometrického tělesa je dostupný z dialogového okn
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/cs

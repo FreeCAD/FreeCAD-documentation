@@ -62,5 +62,7 @@ Le déplacement d\'un robot se fait par:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint/fr

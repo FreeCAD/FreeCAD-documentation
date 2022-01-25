@@ -81,8 +81,5 @@ Szczegółowe instrukcje można znaleźć na [GitHub](https://github.com/HakanSe
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
-
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > ModernUI Workbench/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > ModernUI Workbench/pl

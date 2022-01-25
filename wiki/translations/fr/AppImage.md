@@ -26,7 +26,7 @@ Pour les autres types d\'installation, voir [Téléchargements](Download/fr.md).
 **'''Remarque:''' Les builds de développement sont maintenant hébergés sur le repo github [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''].<br/>Si les liens de téléchargement ci-dessous ne fonctionnent pas, veuillez télécharger manuellement les fichiers à partir du précédent lien, la section "Assets".**
 
   Stable                                                                                                                                                                                                                                                                                                              Development
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   ![](images/AppImage-logo.png ) [0.19.3](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-Linux-Conda_glibc2.12-x86_64.AppImage) ([SHA256](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-Linux-Conda_glibc2.12-x86_64.AppImage-SHA256.txt))   ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{:Template:Development-Version}}\] (\[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])
 
   : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
@@ -176,7 +176,5 @@ Le dépôt de ces scripts se trouve à [realthunder/FreeCADMakeImage](https://gi
 
 
 
-[<img src="images/Property.png" style="width:16px"> Packaging](Category_Packaging.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Testing](Category_Testing.md)
-
 ---
-[documentation index](../README.md) > [Packaging](Category_Packaging.md) > AppImage/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Packaging](Category_Packaging.md) > [Developer Documentation](Category_Developer Documentation.md) > [Testing](Category_Testing.md) > AppImage/fr

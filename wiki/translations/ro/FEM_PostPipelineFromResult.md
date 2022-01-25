@@ -57,5 +57,7 @@ Conducta este un obiect rezultat, care creează o nouă reprezentare grafică a 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM PostPipelineFromResult/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM PostPipelineFromResult/ro

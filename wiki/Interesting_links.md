@@ -52,9 +52,7 @@ This page contains links related to FreeCAD and other FLOSS projects.
 
 [FreeCAD Community Portal](FreeCAD_Community_Portal.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Interesting links
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Interesting links

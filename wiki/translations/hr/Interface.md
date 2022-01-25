@@ -82,5 +82,7 @@ These options are in the menu, **Tools → Customize**. See [interface customiza
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Interface/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface/hr

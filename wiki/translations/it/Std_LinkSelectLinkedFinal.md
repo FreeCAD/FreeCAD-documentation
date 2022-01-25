@@ -29,5 +29,7 @@ The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the sou
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkSelectLinkedFinal/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectLinkedFinal/it

@@ -1,11 +1,12 @@
 # Basic modeling tutorial/it
-{{TutorialInfo/it
-|Topic= Introduzione alla modellazione
-|Level= Base
-|Time= 15 minuti
-|Author=[NormandC](User_Normandc.md)
-|FCVersion=qualsiasi
-|Files=nessuno
+---
+- TutorialInfo:/it
+   Topic: Introduzione alla modellazione
+   Level: Base
+   Time: 15 minuti
+   Author:[NormandC](User_Normandc.md)
+   FCVersion:qualsiasi
+   Files:nessuno
 }}
 
 ## Introduzione
@@ -108,9 +109,9 @@ Premere il tasto **0** (zero) sul tastierino numerico per impostare la vista ass
 
 ### Estrudere il profilo 
 
-Attivare l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Parte](Part_Workbench/it.md) dal [selettore dell\'ambiente](Std_Workbench/it.md), o dal menu **[Visualizza](Std_View_Menu.md) → Ambiente → Part**.
+Attivare l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Parte](Part_Workbench/it.md) dal [selettore dell\'ambiente](Std_Workbench/it.md), o dal menu **[[Std View Menu   Visualizza]] → Ambiente → Part**.
 
-Cliccare sullo strumento **<img src="images/Part_Extrude.svg" width=32px> [Estrusione](Part_Extrude/it.md)**.
+Cliccare sullo strumento **![](images/)**.
 
 Nella scheda \"Azioni\" a sinistra, selezionare l\'oggetto **Wire**. Quindi immettere la lunghezza desiderata, ad esempio 750 mm. Lasciare come direzione Z=1. Fare clic su **OK**. Ora, nella scheda \"Modello\", si dovrebbe avere un oggetto **Estrusione** *(fig. 1.8)*.
 
@@ -137,9 +138,10 @@ L\'etichetta sul pulsante potrebbe essere diversa, secondo la versione e secondo
 Le istruzioni di cui sopra funzionano comunque, non importa quale etichetta compaia sul pulsante.
 
 
-{{Tutorials navi
+  {{Userdocnavi
+---
 
-}}
+
 
 ---
-[documentation index](../README.md) > Basic modeling tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/it

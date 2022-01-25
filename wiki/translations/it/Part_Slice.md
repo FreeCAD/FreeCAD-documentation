@@ -199,5 +199,7 @@ Lo strumento è implementato in Python, vedere see {{FileName|/Mod/Part/BOPTools
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/it

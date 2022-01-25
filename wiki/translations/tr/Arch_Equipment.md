@@ -47,7 +47,7 @@ When using the Arch OBJ exporter, all equipment objects that are in mesh display
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Equipment tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Equipment tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 ```
@@ -69,5 +69,7 @@ Equip = Arch.makeEquipment(Box)
 FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/tr

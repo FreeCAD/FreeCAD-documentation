@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+    
   [3D view/ru](3D_view/ru.md)                                                                     [3Dconnexion input devices/ru](3Dconnexion_input_devices/ru.md)                                   [A2plus Workbench/ru](A2plus_Workbench/ru.md)
   [About FreeCAD/ru](About_FreeCAD/ru.md)                                                         [Add FEM Constraint Tutorial/ru](Add_FEM_Constraint_Tutorial/ru.md)                               [Add FEM Equation Tutorial/ru](Add_FEM_Equation_Tutorial/ru.md)
   [Addon/ru](Addon/ru.md)                                                                         [Advanced TechDraw Tutorial/ru](Advanced_TechDraw_Tutorial/ru.md)                                 [Aeroplane/ru](Aeroplane/ru.md)
@@ -170,10 +170,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [Part Helix/ru](Part_Helix/ru.md)                                                               [Part Import/ru](Part_Import/ru.md)                                                               [Part JoinConnect/ru](Part_JoinConnect/ru.md)
   [Part JoinCutout/ru](Part_JoinCutout/ru.md)                                                     [Part JoinEmbed/ru](Part_JoinEmbed/ru.md)                                                         [Part Line/ru](Part_Line/ru.md)
   [Part Loft/ru](Part_Loft/ru.md)                                                                 [Part MakeFace/ru](Part_MakeFace/ru.md)                                                           [Part MakeSolid/ru](Part_MakeSolid/ru.md)
-  [Part Measure Angular/ru](Part_Measure_Angular/ru.md)                                           [Part Measure Clear All/ru](Part_Measure_Clear_All/ru.md)                                         
-  ------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+  [Part Measure Angular/ru](Part_Measure_Angular/ru.md)                                           [Part Measure Clear All/ru](Part_Measure_Clear_All/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/ru](<img src="images/Property.png" style="width:16px"> Documentation/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/ru

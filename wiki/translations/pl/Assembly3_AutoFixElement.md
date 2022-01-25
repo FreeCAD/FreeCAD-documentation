@@ -18,5 +18,7 @@ The <img alt="" src=images/Assembly_AutoFixElement.svg  style="width:24px;"> [Au
     -   The **<img src="images/Assembly_AutoFixElement.svg" width=16px> [Auto fix element](Assembly3_AutoFixElement.md)** button.
     -   The **Assembly3 → <img src="images/Assembly_AutoFixElement.svg" width=16px> Auto fix element** menu option.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AutoFixElement/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoFixElement/pl

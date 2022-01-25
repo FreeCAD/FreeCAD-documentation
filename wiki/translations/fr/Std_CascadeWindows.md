@@ -29,5 +29,7 @@ La commande **Std Cascade** réorganise les fenêtres dans la [Zone de vue princ
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std CascadeWindows/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std CascadeWindows/fr

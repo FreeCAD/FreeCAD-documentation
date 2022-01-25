@@ -300,5 +300,7 @@ Addons offer yet another way to customize the use interface. Below are some addo
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Interface Customization/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface Customization/pt

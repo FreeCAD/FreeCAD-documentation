@@ -22,7 +22,7 @@ See the following pages for additional information:
 <div class="mw-translate-fuzzy">
 
   Format                                     Description                                                                                                                                Import   Export   Module                                                                          Preferences page
-  ------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------ -------- -------- ------------------------------------------------------------------------------- ------------------
+       
   [FCStd](Fcstd_file_format.md)      FreeCAD\'s native file format                                                                                                              yes      yes      Built-in                                                                        no
   [FCMat](Material.md)               FreeCAD Material Card                                                                                                                      yes      yes      Built-in                                                                        no
   [FCMacro](Macros.md)               FreeCAD Macro                                                                                                                              yes      yes      Built-in                                                                        no
@@ -72,11 +72,5 @@ See the following pages for additional information:
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/ro

@@ -62,5 +62,7 @@ Linie kosmetyczne można tworzyć za pomocą metod makeCosmeticLine(v1, v2) lub 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw 2PointCosmeticLine/pl

@@ -301,7 +301,7 @@ Optional.
 
 == Scripting ==
 
-See also: [FreeCAD Scripting Basics](:<img src="images/Property.png" style="width:16px"> API]] and [[FreeCAD_Scripting_Basics.md).
+See also: [FreeCAD Scripting Basics](:Category:API]] and [[FreeCAD_Scripting_Basics.md).
 
 The ExampleCommandModel tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
@@ -340,9 +340,9 @@ Optional.
 
 {{Workbench Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Wiki:Example](<img src="images/Property.png" style="width:16px"> Wiki_Example.md)
+
 
 ---
-[documentation index](../README.md) > [API]] and ](Category_API]] and .md) > GuiCommand model/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [API]] and ](Category_API]] and .md) > [Workbench](Category_Workbench.md) > [#translation:}}}} <!--use the](Category_#translation:}}}} <!--use the.md) > GuiCommand model/it

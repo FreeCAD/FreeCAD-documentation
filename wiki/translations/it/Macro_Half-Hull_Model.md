@@ -932,5 +932,7 @@ Questo script funziona senza bug. Ma a causa della grande varietà di possibili 
 
 Lo script è troppo lungo per essere visualizzato nel Wiki quindi deve essere copiato o scaricato da [unabbreviated script on pastebin.com](http://pastebin.com/raw.php?i=tZMpUi6F)
 
+
+
 ---
-[documentation index](../README.md) > Macro Half-Hull Model/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Half-Hull Model/it

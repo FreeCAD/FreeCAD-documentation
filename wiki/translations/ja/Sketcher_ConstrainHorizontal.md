@@ -64,9 +64,9 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
 
-[<img src="images/Property.png" style="width:16px"> Sketcher](Category_Sketcher.md)
+
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainHorizontal/ja

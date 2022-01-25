@@ -236,5 +236,7 @@ point_array = Draft.make_point_array(polygon, compound)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointArray/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointArray/ro

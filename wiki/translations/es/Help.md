@@ -40,9 +40,6 @@ Tenemos un [official Servidor Discord dedicado a FreeCAD](https://discord.gg/BgZ
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Help](Category_Help.md)
 
 ---
-[documentation index](../README.md) > [Help](Category_Help.md) > Help/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Help](Category_Help.md) > Help/es

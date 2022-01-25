@@ -19,5 +19,7 @@ The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft S
     -   Select the **View → Toolbars → Draft Snap** option from the menu.
     -   Right-click an empty space in the [toolbar area](Interface.md) and select the **Draft Snap** option from the menu that appears.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/sv

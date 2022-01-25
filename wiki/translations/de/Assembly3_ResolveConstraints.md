@@ -21,5 +21,7 @@ Der Befehl <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="wid
     -   Den Menüeintrag **Assembly3 → <img src="images/Assembly3_workbench_icon.svg‎‎" width=16px> Beziehungen anwenden**.
     -   Das Tastenkürzel: **A** dann **S**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ResolveConstraints/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ResolveConstraints/de

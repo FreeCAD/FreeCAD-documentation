@@ -30,5 +30,7 @@ The <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style
 
  {{TechDraw_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertChainDimension
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ExtensionCreateVertChainDimension

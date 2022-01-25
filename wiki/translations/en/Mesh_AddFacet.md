@@ -51,5 +51,7 @@ The **Mesh AddFacet** command adds faces along a boundary of an open mesh object
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh AddFacet/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh AddFacet/en

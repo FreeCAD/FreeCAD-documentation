@@ -1,11 +1,12 @@
 # Post-Processing of FEM Results with Paraview/de
-{{TutorialInfo/de
-|Topic= PNachbearbeitung von FEM Ergebnissen mit ParaView
-|Level= Aufsteiger
-|Time= 120 Minuten
-|Author=[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/download/file.php?id=103403 Balken] und [https://forum.freecadweb.org/download/file.php?id=103557 Mauer] gefunden in diesem [https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 FC Forumsbeitrag]
+---
+- TutorialInfo:/de
+   Topic: PNachbearbeitung von FEM Ergebnissen mit ParaView
+   Level: Aufsteiger
+   Time: 120 Minuten
+   Author:[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/download/file.php?id=103403 Balken] und [https://forum.freecadweb.org/download/file.php?id=103557 Mauer] gefunden in diesem [https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 FC Forumsbeitrag]
 }}
 
 ## Einführung
@@ -125,11 +126,11 @@ To show the deformed geometry superimposed on the undeformed geometry, simply ma
 
 If we want to know the amount of reinforcement steel in the beam as a whole or the amount passing though a particular cross section we need to perform integration (summation over the geometry) of the base data.
 
-For example, the total volume of reinforcement bars in the beam running in x-direction is obtained from the integral `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` over the full geometry and the total area of reinforcement steel running though a particular beam cross section is obtained from `INTEGRATE(ReinforcementRatio_x * dy * dz)` over a slice.
+For example, the total volume of reinforcement bars in the beam running in x-direction is obtained from the integral {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}} over the full geometry and the total area of reinforcement steel running though a particular beam cross section is obtained from {{incode   INTEGRATE(ReinforcementRatio_x * dy * dz)}} over a slice.
 
 In Paraview, integration can be done with an Integration Filter. This filter can be applied to the entire VTK object (the beam) or to a Slice (the cross section).
 
-NOTE: due to a mismatch of node ordering between FCFEM and PV, integration over a volume renders negative results, i.e. `INTEGRATE( 1.0 * dx * dy *dz)` = - Volume instead of + Volume.
+NOTE: due to a mismatch of node ordering between FCFEM and PV, integration over a volume renders negative results, i.e. {{incode   INTEGRATE( 1.0 * dx * dy *dz)}} = - Volume instead of + Volume.
 
 To calculate integrals we need to apply an Integration Filter, which can be found in the menu item Filters \> Alphabetical. Highlight the VTK object and apply the filter.
 
@@ -139,7 +140,7 @@ Press the **Apply** button in the Properties tab and the results will open in a 
 
 <img alt="" src=images/PVPic24.png  style="width:700px;">
 
-Before we tidy this up to find the desired result, i.e. `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)`, lets first see how we can control where the window is placed and what it contains.
+Before we tidy this up to find the desired result, i.e. {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}}, lets first see how we can control where the window is placed and what it contains.
 
 First close the SpreadSheetView window that has opened to the right. Then press the horizontal split icon on the Renderview window and a new window will open with a menu of display options. Before selecting an option, make sure the Integration filter object is highlighted in the Pipeline Browser.
 
@@ -149,7 +150,7 @@ To display numerical results we need to select SpreadSheet View at the bottom of
 
 <img alt="" src=images/PVPic26.png  style="width:400px;">
 
-To inspect `INTEGRATE(ReinforcementRatio_x * dx * dy * dz)` we could scroll to the right through the table, but we can also remove all unwanted results by deselecting them, i.e. deselect All Columns and select **ReinforcementRatio\_x**.
+To inspect {{incode   INTEGRATE(ReinforcementRatio_x * dx * dy * dz)}} we could scroll to the right through the table, but we can also remove all unwanted results by deselecting them, i.e. deselect All Columns and select **ReinforcementRatio\_x**.
 
 <img alt="" src=images/PVPic27.png  style="width:300px;"> . <img alt="" src=images/PVPic28.png  style="width:500px;">
 
@@ -182,7 +183,7 @@ In the previous section we discussed the Integration filter and its application 
 Apply the following Settings in the Properties tab for the VTK object:
 
   Properties Tab Settings           Comment
-  --------------------------------- ---------------------------------------------------
+   
   Representation: Wireframe         So the Slice is visible
   Coloring: ReinforcementRatio\_x   Or any other color
   Styling \> Line Width: 2          Or any other setting that gives a pleasing result
@@ -192,7 +193,7 @@ Apply the following Settings in the Properties tab for the VTK object:
 Next highlight the VTK object and apply a Slice filter with the following settings on the Properties tab:
 
   Properties Tab Settings                        Comment
-  ---------------------------------------------- ---------------------------------------------------
+   
   Plane Parameters \> Show Plane: deselect       Remove the bounding boxes
   Plane Parameters \> Origin: 4000 / 100 / 200   Position of central section
   Plane Parameters \> Normal: 1 /0 /0            Normal of Slice points in x -direction
@@ -244,7 +245,7 @@ The only additional object required to visualise a variable along a straight lin
 We next want to display the horizontal reinforcement requirements in the vertical cross section under the column. To achieve this in the way shown below, the following settings need to be changed in the Properties tab of the Plot Over Line filter (make sure the LineChartView window and the Plot Over Line object both have the focus)
 
   Properties Tab Settings                                                Comment
-  ---------------------------------------------------------------------- -------------------------------------------------------
+   
   Line Parameters \> Point 1: 4000 / 0 / 0                               Point at bottom of wall under the column
   Line Parameters \> Point 2: 4000 / 4000 / 0                            Point at top of wall under the column
   x Axis Parameters \> x Array Name: ReinforcementRatio\_x               Displays ReinforcementRatio\_x on the horizontal axis
@@ -263,7 +264,7 @@ Note that the distance along the line (arc length) is usually on the horizontal 
 In the next two picture only the location of the line was changed. Note however that this relocation will automatically change the Left Axis Range \> Use Custom Range setting to "select". This may mean that the graph does not properly fit in the LineChartView window. It is therefore necessary to deselect this option every time the position of the line is changed. Other settings are as per the above table.
 
   Properties Tab Settings                           Comment
-  ------------------------------------------------- ----------------------------------------------------
+   
   Line Parameters \> Point 1: 6700 / 0 / 0          Point at bottom of wall under left side of cut-out
   Line Parameters \> Point 2: 6700 / 4000 / 0       Point at top of wall above left side of cut-out
   Title \> Chart Title: Section left of Cut-out     
@@ -273,7 +274,7 @@ In the next two picture only the location of the line was changed. Note however 
 <img alt="" src=images/PVPicLine3.png  style="width:700px;">
 
   Properties Tab Settings                           Comment
-  ------------------------------------------------- ----------------------------------------------------
+   
   Line Parameters \> Point 1: 10950 / 0 / 0         Point at bottom of wall at right-hand support
   Line Parameters \> Point 2: 10950 / 4000 / 0      Point at top of wall at right-hand support
   Title \> Chart Title: Section at Support          
@@ -291,7 +292,7 @@ In the usual way deselect all but the ReinforcementRatio\_x result in the Spread
 To achieve a more practical distribution of reinforcement we could integrate the above graph in parts. For example, if we want to know the required cross sectional area of steel in the top 400mm of the wall then we should adjust the properties of the Plot Over Line object as follows
 
   Properties Tab Settings                           Comment
-  ------------------------------------------------- ----------------------------------------------------
+   
   Line Parameters \> Point 1: 10950 / 3600 / 0      Point near top of wall at right-hand support
   Line Parameters \> Point 2: 10950 / 4000 / 0      Point at top of wall at right-hand support
   Left Axis Range \> Use Custom Range: deselect     Deselect to maximise the data range along the axis
@@ -314,7 +315,7 @@ Let's return to the VTK data object for the beam with central support and visual
 Highlight the VTK data object in the Pipeline Browser and select the Glyph Filter from the Filter Icon bar or from the menu option Filter \> Alphabetical. Then apply the following settings in the Properties tab of the Glyph Filter object (see table and picture):
 
   Properties Tab Settings                              Comment
-  ---------------------------------------------------- -----------------------------------------------------------------------------
+   
   Glyph Source \> Glyph Type: Line                     Unfortunately there is no option for a double sided arrow
   Orientation \> Orientation: Major Principal Stress   The Glyph takes the principal stress direction
   Scale \> Scale Array: Major Principal Stress         The length of the line will represent the magnitude of the principal stress
@@ -334,7 +335,7 @@ If all goes well you should see the following result for the example file.
 Next add another Glyph Filter with the following settings for the Minor Principal Stress (don't forget to first highlight the VTK data object in the Pipeline Browser):
 
   Properties Tab Settings                              Comment
-  ---------------------------------------------------- -----------------------------------------------------------------------------
+   
   Glyph Source \> Glyph Type: Line                     Unfortunately there is no option for a double sided arrow
   Orientation \> Orientation: Minor Principal Stress   The Glyph takes the principal stress direction
   Scale \> Scale Array: Minor Principal Stress         The length of the line will represent the magnitude of the principal stress
@@ -351,7 +352,10 @@ The final result shows the major and minor principal stress vectors superimposed
 
 ## Export grafischer Ergebnisse 
 
-To export a RenderView window highlight the window and use menu option **File > Save Screenshot** {{Tutorials navi}} {{FEM Tools navi}}
+To export a RenderView window highlight the window and use menu option **File > Save Screenshot**  {{FEM Tools navi}} {{Userdocnavi
+---
+
+
 
 ---
-[documentation index](../README.md) > Post-Processing of FEM Results with Paraview/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Post-Processing of FEM Results with Paraview/de

@@ -62,5 +62,7 @@ Nesneleri [Grup](Std_Group/tr.md) veya [Draft Layer](Draft_Layer.md) \'a eklemek
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddConstruction/tr

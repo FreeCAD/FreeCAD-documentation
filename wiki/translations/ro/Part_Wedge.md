@@ -39,7 +39,7 @@ Creați un obiect parametric Pană/Wedge. Valoarea implicită pentru această re
 
 ### Intrări Parametrice 
 
-+------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/PartWedgeProperty_Inputs.png ) | Utilizând destinația de plasare prestabilită, intrările de mai jos sunt:                                                        |
 |                                                                  |                                                                                                                                 |
 |                                                                  | -                                                                                                                |
@@ -75,11 +75,11 @@ Creați un obiect parametric Pană/Wedge. Valoarea implicită pentru această re
 |                                                                  | -   direcția axei wedge, x, y, z sau definite de utilizator.                                                                    |
 |                                                                  |                                                                                                                                 |
 |                                                                  | Parametrii și poziționarea pot fi modificate prin fila/tab-ul Proprietăți.                                                      |
-+------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ### Proprietăți
 
-+----------------------------------------------------------+------------------------------------------------------------------------------------------+
++++
 | ![](images/PartWedgeProperty_it.png ) | #### Vizualizări                                                                         |
 |                                                          |                                                                                          |
 |                                                          | ..                                                                                       |
@@ -145,11 +145,13 @@ Creați un obiect parametric Pană/Wedge. Valoarea implicită pentru această re
 |                                                          |     {{ProprietaDati|Z min}}                                                              |
 |                                                          |                                                                                       |
 |                                                          |     : coordonată (valoarea predefinită e 0 mm).                                          |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------+
++++
 
 ### Mai multe exemple de pene 
 
 ![](images/Wedge_examples.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/ro

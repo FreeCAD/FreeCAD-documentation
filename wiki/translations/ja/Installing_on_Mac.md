@@ -69,5 +69,7 @@ The FreeCAD installer is provided as a app package (.app) enclosed in a disk ima
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Installing on Mac/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/ja

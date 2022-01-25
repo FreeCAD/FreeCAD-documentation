@@ -29,5 +29,7 @@ The Tree view SyncPlacement mode is stored: **Tools → Edit parameters... → B
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSyncPlacement
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncPlacement

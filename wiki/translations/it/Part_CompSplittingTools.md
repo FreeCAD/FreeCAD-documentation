@@ -31,5 +31,7 @@ Una raccolta di strumenti di suddivisione.
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompSplittingTools/it

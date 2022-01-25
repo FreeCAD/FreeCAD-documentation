@@ -52,5 +52,7 @@ Se non è stata specificata nessuna posizione home tramite [Imposta la posizione
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/it

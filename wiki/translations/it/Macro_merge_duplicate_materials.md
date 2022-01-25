@@ -52,5 +52,7 @@ for tod in todelete:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro merge duplicate materials/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro merge duplicate materials/it

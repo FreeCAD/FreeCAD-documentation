@@ -47,5 +47,7 @@ FreeCAD.ActiveDocument.removeObject("myObjectName")
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Delete/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Delete/de

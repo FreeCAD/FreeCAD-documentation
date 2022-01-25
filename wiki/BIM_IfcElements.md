@@ -22,5 +22,7 @@ With it, you can:
 -   Change their IFC type either by clicking an individual type or, if more than one is selected, using the \"change type to:\" drop-down menu
 -   Change their material either by clicking an individual material or, if more than one is selected, using the \"change material to:\" drop-down menu
 
+
+
 ---
-[documentation index](../README.md) > BIM IfcElements
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcElements

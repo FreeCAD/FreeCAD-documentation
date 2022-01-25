@@ -23,5 +23,7 @@ Related to the first object the following object can still move along the x- and
 2.  Select one point element of one object and one planar face element of the other object.
 3.  Press the **<img src="images/Assembly_ConstraintPointInPlane.svg" width=16px> [Point on plane](Assembly3_ConstraintPointInPlane.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointInPlane/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointInPlane/pl

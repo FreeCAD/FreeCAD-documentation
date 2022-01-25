@@ -111,7 +111,7 @@ Wenn du es an der \"Spitze\" benötigst:
 
 ## Optionen
 
-+--------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Multitransfrom_parameters.png ) | Beim Erstellen eines Mehrfachtransformationselementes bietet der Dialog \'Mehrfachtransformation Parameter\' zwei verschiedene Listenansichten.                                                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    | ### Originale auswählen                                                                                                                                                                                                                                                                                                                                                                   |
@@ -137,7 +137,7 @@ Wenn du es an der \"Spitze\" benötigst:
 |                                                                    | #### Nach oben/unten bewegen                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                    | Erlaubt die Änderung der Reihenfolge der Transformationen in der Liste.                                                                                                                                                                                                                                                                                                                                         |
-+--------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ## Beispiele
 
@@ -153,5 +153,7 @@ Wenn du es an der \"Spitze\" benötigst:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/de

@@ -3,5 +3,7 @@ Bu kategori, mevcut FreeCAD sürümüyle ilgili olarak kullanılmayan sayfaları
 
 ### Contents:
 
+
+
 ---
-[documentation index](../README.md) > Category:Obsolete page/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Obsolete page/tr

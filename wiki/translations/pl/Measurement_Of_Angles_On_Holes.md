@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/pl
+   Topic:TechDraw
+   Level:Podstawowy
+   Time:1 minuta
+   Author:AnHi
+   FCVersion:0.19
+---
+
 # Measurement Of Angles On Holes/pl
-{{TutorialInfo/pl
-|Topic=TechDraw
-|Level=Podstawowy
-|Time=1 minuta
-|Author=AnHi
-|FCVersion=0.19
-}}
+
+
+
+
 
 ## Wprowadzenie
 
@@ -41,7 +47,9 @@ Punkty czworokąta wybierz za pomocą narzędzia <img alt="" src=images/TechDraw
 
 <img alt="" src=images/AnHi11.PNG  style="width:250px;">
 
-*Powyżej: Kolejność postępowania przy wyborze.|center* {{TechDraw Tools navi}} {{Tutorials navi}}
+*Powyżej: Kolejność postępowania przy wyborze.|center* {{TechDraw Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > Measurement Of Angles On Holes/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Measurement Of Angles On Holes/pl

@@ -36,9 +36,7 @@ Die [Tutorien](tutorials/de.md) Seite stellt einige Beispiele zur Erstellung von
 -   [Whiffleball Tutorium](Whiffle_Ball_tutorial/de.md)
 -   [Grundlegendes Modellierungstutorial](Basic_modeling_tutorial/de.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Constructive solid geometry/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/de

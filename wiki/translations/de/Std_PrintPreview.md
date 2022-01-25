@@ -33,5 +33,7 @@ Die **Std Druckvorschau**-Anweisung zeigt eine Vorschau der [Drucken](Std_Print/
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std PrintPreview/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std PrintPreview/de

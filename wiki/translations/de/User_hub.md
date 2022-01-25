@@ -1,6 +1,6 @@
 # <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/de
 
-------------------------------------------------------------------------
+
 
 
 
@@ -30,11 +30,22 @@ Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Ge
 -   [FAQ](Frequently_asked_questions/de.md): Häufig gestellte Fragen.
 -   [Tutorien](Tutorials/de.md) decken verschiedene Teile von FreeCAD ab.
 
+#### Migrating from other software? 
+
+
+<div class="mw-translate-fuzzy">
+
 Siehe auch:
 
 -   [Umstieg auf FreeCAD von Fusion360](Migrating_to_FreeCAD_from_Fusion360/de.md)
 
+
+</div>
+
 ### Grundlegende Anwendung 
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Benutzeroberfläche](Interface/de.md): Die FreeCAD Benutzeroberfläche besteht aus verschiedenen grafischen Elementen auf dem Bildschirm, darunter der [3D Ansicht](3D_view/de.md), der [Baumansicht](Tree_view/de.md), dem [Eigenschaftseditor](Property_editor/de.md), der [Aufgabenleiste](Task_panel/de.md) und der [Python Konsole](Python_console/de.md).
 -   [Mausnavigation](Mouse_navigation/de.md): die verschiedenen Arten der Verwendung der Maus oder des Trackpads zur Navigation in der 3D Ansicht.
@@ -43,11 +54,20 @@ Siehe auch:
 -   [Einstellungseditor](Preferences_Editor/de.md): das System, mit dem viele Eigenschaften des Basissystems und der einzelnen Arbeitsbereiche gesteuert werden können.
 -   [Dateiformate](Import_Export/de.md): die verschiedenen Dateiformate, die FreeCAD lesen und schreiben kann.
 
+
+</div>
+
 ### Arbeitsbereiche
 
 [Arbeitsbereiche](Workbenches/de.md) sind Werkzeugsammlungen, die für eine spezifische Aufgabe genutzt werden. Diese sind die Basis Arbeitsbereiche, die mit jeder FreeCAD-Installation verfügbar werden:
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Basis](Std_Base/de.md). Dies ist eigentlich kein Arbeitsbereich, sondern eher eine Kategorie von \'Standard\' Befehlen und Werkzeugen, die in allen Arbeitsbereichen verwendet werden können.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> Der [Arbeitsbereich Arch](Arch_Workbench/de.md) für die Arbeit mit architektonischen Elementen.
 
@@ -126,8 +146,5 @@ Dies ist die offizielle FreeCAD Online Hilfe. Bitte beachte, dass das gesamte On
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/de

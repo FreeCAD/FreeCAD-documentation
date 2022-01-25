@@ -386,5 +386,7 @@ The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mous
 [FreeCAD struktura Dokumenta](Document_structure/hr.md)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Mouse navigation/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Mouse navigation/hr

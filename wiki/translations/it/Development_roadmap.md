@@ -16,7 +16,7 @@ Dato che siamo volontari, possiamo dedicare a FreeCAD solo una limitata quantit√
 ## Progetti
 
   Project                                                                                 Description                                                                                                                       Category                                                            Status
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------- ----------
+     
   **[STEP project](STEP_project.md)**                                             about improving and advancing the STEP support in FreeCAD                                                                         Modeling, File formats                                              Current
   **[Naming project](Naming_project.md)**                                         is about implementing a robust Shape referencing frame work.                                                                      Modeling                                                            Current
   **[FreeCAD development model project](FreeCAD_development_model_project.md)**   move FreeCAD to a more capable development model                                                                                  Development process                                                 Current
@@ -47,8 +47,5 @@ Come nelle maggior parte dei progetti di [Software libero e open source (FLOSS)]
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/it

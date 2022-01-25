@@ -43,5 +43,7 @@ La copia rimane collegata al percorso originale. Le modifiche apportate all\'ori
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Copy/it

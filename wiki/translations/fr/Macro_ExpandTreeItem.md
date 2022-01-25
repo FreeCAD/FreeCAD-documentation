@@ -89,5 +89,7 @@ for tree in trees:
 
 [Objektbaum mit einem Klick komplett aufklappen?](https://forum.freecadweb.org/viewtopic.php?f=13&t=29406)
 
+
+
 ---
-[documentation index](../README.md) > Macro ExpandTreeItem/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro ExpandTreeItem/fr

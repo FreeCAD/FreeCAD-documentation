@@ -134,5 +134,7 @@ Par exemple, [Analyse FEM](FEM_Analysis/fr.md) est un objet `App::DocumentObject
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Group/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Group/fr

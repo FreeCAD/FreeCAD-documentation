@@ -25,5 +25,7 @@ Comme la plupart des choses dans FreeCAD, il y a plusieurs façons de faire une 
 -   Part: [Miroir](Part_Mirror/fr.md), [Copie simple](Part_SimpleCopy.md)
 -   Draft: [Décalage](Draft_Offset/fr.md), [Echelle](Draft_Scale/fr.md), [Réseau orthogonal](Draft_OrthoArray/fr.md), [Réseau selon une courbe](Draft_PathArray/fr.md), [Clone](Draft_Clone/fr.md), [Miroir](Draft_Mirror/fr.md)
 
+
+
 ---
-[documentation index](../README.md) > Copying Objects/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Copying Objects/fr

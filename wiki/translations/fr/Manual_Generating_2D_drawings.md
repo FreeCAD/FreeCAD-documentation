@@ -100,8 +100,5 @@ Notre page peut maintenant être exportée au format SVG pour être plus dévelo
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
-
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/fr

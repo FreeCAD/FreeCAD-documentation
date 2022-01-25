@@ -82,5 +82,7 @@ Toolbars can have more or fewer buttons, and custom toolbars can be created with
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Interface/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface/ru

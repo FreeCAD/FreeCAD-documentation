@@ -41,5 +41,7 @@ L\'outil Congé échoue parfois lors de la tentative de congé sur des formes co
 
 L\'outil congé est affecté par le [Problème de dénomination topologique](Topological_naming_problem/fr.md) lors d\'une modification d\'une étape de modélisation plus tôt dans la chaîne qui affecte le nombre de faces ou de sommets. Cela pourrait entraîner des résultats imprévisibles. Jusqu\'à ce que ce problème soit résolu, il est conseillé d\'appliquer les opérations de chanfrein et de congé comme dernières étapes de la chaîne de modélisation.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/fr

@@ -31,5 +31,7 @@ Vedere [Converti in punti](Points_Convert/it.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure/it

@@ -89,5 +89,7 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 new_list = Arch.splitMesh(mesh_obj)
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SplitMesh/es

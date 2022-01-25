@@ -54,7 +54,7 @@ Un usage courant de la primitive hélice est pour la [Création de vis](Thread_f
 
 Une fois l\'hélice créé vous avez la possibilité de modifier ses paramètres.
 
-+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------+
++++
 | ![](images/PartHelixProperty_en.png ) | Les paramètres de ce menu sont similaires que les réglages décrits plus haut.                            |
 |                                                          | **Base**                                                                               |
 |                                                          | \* {{Parameter|Placement:}} donne le déplacement ou (et) la rotation a donner à l\'hélice. |
@@ -62,7 +62,9 @@ Une fois l\'hélice créé vous avez la possibilité de modifier ses paramètres
 |                                                          | -                                                                                         |
 |                                                          |     {{Parameter|Angle:}}                                                                                 |
 |                                                          |                                                                                                       |
-+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------+
++++
+
+
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/fr

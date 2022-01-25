@@ -1,11 +1,12 @@
 # Basic modeling tutorial/de
-{{TutorialInfo/de
-|Thema= Einführung in die Modellierung
-|Level= Anfänger
-|Time= 15 Minuten
-|Autor=[NormandC](User_Normandc.md)
-|FCVersion=jede
-|Dateien=keine
+---
+- TutorialInfo:/de
+   Thema: Einführung in die Modellierung
+   Level: Anfänger
+   Time: 15 Minuten
+   Autor:[NormandC](User_Normandc.md)
+   FCVersion:jede
+   Dateien:keine
 }}
 
 ## Einführung
@@ -100,9 +101,9 @@ Drücke die **0** (Null) Taste auf der Zifferntastatur, um die Ansicht auf axono
 
 ### Extrudieren des Profils 
 
-Aktiviere den <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part Arbeitsbereich](Part_Workbench/de.md) entweder über die [Arbeitsbereichswähler](Std_Workbench/de.md) oder über **[Ansicht](Std_View_Menu/de.md) → Arbeitsbereich → Part** Menü.
+Aktiviere den <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part Arbeitsbereich](Part_Workbench/de.md) entweder über die [Arbeitsbereichswähler](Std_Workbench/de.md) oder über **[[Std View Menu/de   Ansicht]] → Arbeitsbereich → Part** Menü.
 
-Klicke auf das **<img src="images/Part_Extrude.svg" width=32px> [Extrudieren](Part_Extrude/de.md)** Werkzeug.
+Klicke auf das **![](images/)**_Werkzeug.
 
 Wähle auf dem Aufgabenreiter auf der linken Seite das Objekt **Draht** aus. Gib dann die gewünschte Länge ein, sagen wir 750 mm. Lasse die Richtung bei Z = 1. Drücke **OK**. Du solltest jetzt ein **Extrudieren** Objekt im Modellreiter *(Abb. 1.8)* haben.
 
@@ -127,9 +128,10 @@ Die Beschriftung deiner Schaltfläche kann unterschiedlich sein, je nach deiner 
 Die obigen Anweisungen werden funktionieren, unabhängig von der Beschriftung Deines Buttons.
 
 
-{{Tutorials navi
+  {{Userdocnavi
+---
 
-}}
+
 
 ---
-[documentation index](../README.md) > Basic modeling tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/de

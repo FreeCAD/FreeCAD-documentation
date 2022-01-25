@@ -66,10 +66,10 @@ TollBar Icon ![](images/Macro_Cabinets32.png )
 # This Macro generates holes and a groove for the side Base cabinet
 # Top and Bottom Wall are OUTSIDE the side base
 # like :
-# -------
+# 
 # |     |
 # |     |
-# -------
+# 
 
 from __future__ import division
 
@@ -551,5 +551,7 @@ if guiok:
 
 -   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
 
+
+
 ---
-[documentation index](../README.md) > Macro Cabinets32/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Cabinets32/en

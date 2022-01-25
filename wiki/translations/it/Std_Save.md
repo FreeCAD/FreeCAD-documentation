@@ -60,5 +60,7 @@ Per salvare un documento, utilizzare il metodo `save` dell\'oggetto documento. U
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Save/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Save/it

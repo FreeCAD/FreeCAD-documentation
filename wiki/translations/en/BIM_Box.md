@@ -23,5 +23,7 @@ The BIM Box tool allows you to create a standard [Part Box](Part_Box.md), but in
 4.  Click a third point to define a first face of the box, orthogonal to the first edge
 5.  Click a fourth point to define the extrusion distance of the first face, forming the final box
 
+
+
 ---
-[documentation index](../README.md) > BIM Box/en
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Box/en

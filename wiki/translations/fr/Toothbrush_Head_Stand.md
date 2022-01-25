@@ -1,5 +1,6 @@
 # Toothbrush Head Stand/fr
-{{TutorialInfo/fr|Topic=Modélisation|Level=Débutant|Author=[EmmanuelG](User_EmmanuelG.md)|Time=1 heure|FCVersion=0.16 ou ultérieure|Files=[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]}}
+---
+- TutorialInfo:/fr   Topic:Modélisation   Level:Débutant   Author:[[User:EmmanuelG   EmmanuelG]]|Time:1 heure   FCVersion:0.16 ou ultérieure   Files:[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]}}
 
 ## Un problème de la vie courante 
 
@@ -41,7 +42,7 @@ Vous avez maintenant un rectangle mobile de dimensions non spécifiées.
 
 Cliquez sur une ligne du rectangle, vous avez maintenant accès aux outils de contrainte à droite de la barre d\'outils (en fonction de la taille de votre écran, vous devrez peut-être les faire glisser vers la gauche pour les voir tous)
 
--   Cliquez sur le bouton **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte dimensionnelle'''](Sketcher_ConstrainDistance.md)**
+-   Cliquez sur le bouton **['''Contrainte dimensionnelle'''](File:Constraint_Length.png   32px]] [[Sketcher ConstrainDistance.md)**
 -   Une boîte de dialogue vous invite à définir une dimension. Entrez 80mm, cliquez sur **OK**.
 -   Répétez avec l\'autre côté du rectangle, également 80 mm.
 
@@ -107,7 +108,7 @@ Maintenant les cercles ont le même rayons
 
 Ces lignes seront les références pour positionner les cercles
 
--   Cliquez sur l\'outil **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte dimensionnelle'''](Sketcher_ConstrainDistance/fr.md)**
+-   Cliquez sur l\'outil **['''Contrainte dimensionnelle'''](File:Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
 -   Cliquez sur le centre d\'un cercle
 -   Cliquez sur une ligne magenta du bord
 -   Définissez 20mm (pour chaque cercle, vers les deux bords les plus proches)
@@ -115,7 +116,7 @@ Ces lignes seront les références pour positionner les cercles
 <img alt="" src=images/TBHS-13.JPG  style="width:800px;">
 
 -   Cliquez sur un cercle
--   Cliquez sur le bouton Contrainte **[<img src=images/Constraint_Radius.png style="width:32px"> ['''radiale'''](Sketcher_ConstrainRadius/fr.md)** et donnez la valeur de 1,5 mm.
+-   Cliquez sur le bouton Contrainte **['''radiale'''](File:Constraint_Radius.png   32px]] [[Sketcher ConstrainRadius/fr.md)** et donnez la valeur de 1,5 mm.
 
 <img alt="" src=images/TBHS-14.JPG  style="width:800px;">
 
@@ -225,13 +226,13 @@ Dans cette seconde version, nous allons utiliser d\'autres outils, par exemple \
 Maintenant nous avons un oblong mobile et sans dimensions spécifiées
 
 -   Cliquez sur une des lignes horizontales de l\'oblong
--   Cliquez sur le bouton **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte dimensionnelle '''](Sketcher_ConstrainDistance/fr.md)**
+-   Cliquez sur le bouton **['''Contrainte dimensionnelle '''](File:Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
 -   Dans la boite de dialogue. donnez une dimension. Entrer 75 mm, cliquez sur **OK**.
     -   Pour un stand de trois tête, compter 25mm pour chaque, mais vous pouvez mettre plus
 
 <img alt="" src=images/TBHS2-2.JPG  style="width:800px;">
 
-Cliquez en un point de la ligne horizontale Cliquez en un point de l\'autre ligne horizontale Cliquez sur le bouton **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte dimensionnelle '''](Sketcher_ConstrainDistance/fr.md)** Dans la boite de dialogue indiquer la longueur 29 mm, cliquez sur le bouton **OK**. <img alt="" src=images/TBHS2-3.JPG  style="width:800px;">
+Cliquez en un point de la ligne horizontale Cliquez en un point de l\'autre ligne horizontale Cliquez sur le bouton **['''Contrainte dimensionnelle '''](File:Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)** Dans la boite de dialogue indiquer la longueur 29 mm, cliquez sur le bouton **OK**. <img alt="" src=images/TBHS2-3.JPG  style="width:800px;">
 
 -   Dessinez un autre oblong <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [**Créer une rainure**](Sketcher_CreateSlot/fr.md) autour de la première rainure.
 
@@ -243,7 +244,7 @@ Cliquez en un point de la ligne horizontale Cliquez en un point de l\'autre lign
 
 -   Cliquez sur un extrémité horizontale du second oblong
 -   Cliquez sur l\'extrémité horizontale la plus proche du premier
--   Cliquez sur le bouton \"longueur **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte dimensionnelle '''](Sketcher_ConstrainDistance/fr.md)**
+-   Cliquez sur le bouton \"longueur **['''Contrainte dimensionnelle '''](File:Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
 -   Dans la boite de dialogue donner la valeur. Entrez 3 mm, cliquez sur **OK**.
 
 <img alt="" src=images/TBHS2-6.JPG  style="width:800px;">
@@ -255,7 +256,7 @@ Cliquez en un point de la ligne horizontale Cliquez en un point de l\'autre lign
 
 le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="width:800px;">
 
--   Pour quitter le sketcher, cliquez sur le bouton **Close** à gauche, ou sur l\'**[<img src=images/Sketcher_LeaveSketch.png style="width:32px"> icône** de la barre d\'outils, ou **ESC** ou le bouton droit de la souris.
+-   Pour quitter le sketcher, cliquez sur le bouton **Close** à gauche, ou sur l\'**[[File:Sketcher_LeaveSketch.png   32px]] icône** de la barre d\'outils, ou **ESC** ou le bouton droit de la souris.
 
 <img alt="" src=images/TBHS2-8.JPG  style="width:800px;">
 
@@ -291,25 +292,25 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 
 -   Cliquez sur le centre de l\' hexagone
 -   Cliquez sur la ligne horizontale du plan XY
--   Cliquez sur le bouton **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte dimensionnelle'''](Sketcher_ConstrainDistance/fr.md)**
+-   Cliquez sur le bouton **['''Contrainte dimensionnelle'''](File:Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
 -   Dans la boite de dialogue donner une dimension. Entrer 15 mm, Cliquez **OK**.
 
 <img alt="" src=images/TBHS2-14.JPG  style="width:800px;">
 
 -   Cliquez sur le centre de l\' hexagone
 -   Cliquez sur la vertical du plan XY
--   Cliquez sur le bouton **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte dimensionnelle '''](Sketcher_ConstrainDistance/fr.md)**
+-   Cliquez sur le bouton **['''Contrainte dimensionnelle '''](File:Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
 -   Dans la boite de dialogue, donner une dimension. Entrez 10 mm. Cliquez sur **OK**.
 
 <img alt="" src=images/TBHS2-15.JPG  style="width:800px;">
 
 -   Cliquez sur le cercle bleu de l\' hexagone
--   Cliquez sur le bouton **[<img src=images/Constraint_Radius.png style="width:32px"> ['''Rayon'''](Sketcher_ConstrainRadius/fr.md)**
+-   Cliquez sur le bouton **['''Rayon'''](File:Constraint_Radius.png   32px]] [[Sketcher ConstrainRadius/fr.md)**
 -   Dans la boite de dialogue donner une valeur. Entrer 8mm, Cliquez sur **OK**.
 
 <img alt="" src=images/TBHS2-16.JPG  style="width:800px;">
 
--   Quittez le sketcher comme précédemment en cliquant sur le ** [<img src=images/Sketcher_LeaveSketch.png style="width:32px">** sur la barre d\'outils, ou pressez sur **ESC**.
+-   Quittez le sketcher comme précédemment en cliquant sur le ** [[File:Sketcher_LeaveSketch.png   32px]]** sur la barre d\'outils, ou pressez sur **ESC**.
 
 <img alt="" src=images/TBHS2-17.JPG  style="width:800px;">
 
@@ -345,25 +346,25 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 
 -   Cliquez sur le centre du cercle
 -   Cliquez sur la ligne horizontale du plan XY
--   Cliquez sur le bouton **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte dimensionnelle '''](Sketcher_ConstrainDistance/fr.md)**
+-   Cliquez sur le bouton **['''Contrainte dimensionnelle '''](File:Constraint_Length.png   32px]] [[Sketcher ConstrainDistance/fr.md)**
 -   Dans la boite de dialogue donnez une valeur. Entrez 15mm, et cliquez **OK**.
 
 <img alt="" src=images/TBHS2-23.JPG  style="width:800px;">
 
 -   Cliquez au centre du cercle
 -   Cliquez sur la verticale du plan XY
--   Cliquez sur le bouton **[ <img src=images/Constraint_Length.png  style="width:32px"> ['''Distance'''](Sketcher_ConstrainDistance/fr.md)**
+-   Cliquez sur le bouton **['''Distance'''](File:Constraint_Length.png     32px]] [[Sketcher ConstrainDistance/fr.md)**
 -   Une boîte de dialogue vous invite à définir une dimension. Entrez 10mm, cliquez sur **OK**.
 
 <img alt="" src=images/TBHS2-24.JPG  style="width:800px;">
 
 -   Clquez sur le cercle
--   Cliquez sur le bouton **[<img src=images/Constraint_Radius.png style="width:32px"> ['''Rayon'''](Sketcher_ConstrainRadius/fr.md)**
+-   Cliquez sur le bouton **['''Rayon'''](File:Constraint_Radius.png   32px]] [[Sketcher ConstrainRadius/fr.md)**
 -   Dans la boite de dialogue donner un rayon. Entrer 3.5 mm, cliquer **OK**.
 
 <img alt="" src=images/TBHS2-25.JPG  style="width:800px;">
 
--   Quittez le sketch en cliquant sur le bouton **[<img src=images/Sketcher_LeaveSketch.png style="width:32px">** de la barre d\'outils, ou pressez sur **ESC**.
+-   Quittez le sketch en cliquant sur le bouton **[[File:Sketcher_LeaveSketch.png   32px]]** de la barre d\'outils, ou pressez sur **ESC**.
 
 <img alt="" src=images/TBHS2-26.JPG  style="width:800px;">
 
@@ -424,9 +425,10 @@ Parfait !
 -   N\'oubliez pas non plus d\'enregistrer ce nouveau plan en tant que dessin
 
 
-{{Tutorials navi
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}} {{Userdocnavi
+---
 
-}} {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Toothbrush Head Stand/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/fr

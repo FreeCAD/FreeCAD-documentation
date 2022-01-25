@@ -105,5 +105,7 @@ Wähle eine der Standardachsen des Körperursprungs (X, Y oder Z) als Richtung.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/de

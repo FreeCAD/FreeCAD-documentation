@@ -53,9 +53,6 @@ Esistono diversi subforum per gli sviluppatori e gli utenti di FreeCAD. Prima di
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Help](Category_Help.md)
 
 ---
-[documentation index](../README.md) > [Help](Category_Help.md) > Help/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Help](Category_Help.md) > Help/it

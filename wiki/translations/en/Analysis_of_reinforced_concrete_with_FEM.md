@@ -1,11 +1,11 @@
 # Analysis of reinforced concrete with FEM/en
-{{TutorialInfo
-|Topic= Reinforced concrete with FEM
-|Level= Intermediate
-|Time= 60 minutes
-|Author=[HarryvL](User_HarryvL.md), [https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=18062 HarryvL]
-|FCVersion= 0.19 or newer
-|Files=
+---
+- TutorialInfo:   Topic: Reinforced concrete with FEM
+   Level: Intermediate
+   Time: 60 minutes
+   Author:[[User:HarryvL   HarryvL]], [https://forum.freecadweb.org/memberlist.php?mode:viewprofile&u=18062 HarryvL]
+   FCVersion: 0.19 or newer
+   Files:
 }}
 
 ## Background
@@ -181,9 +181,10 @@ The tensile stress pattern suggests an alternative design concept using pre-stre
 -   [FEM Concrete](FEM_Concrete.md)
 
 
-{{Tutorials navi
+ {{FEM Tools navi}} {{Userdocnavi
+---
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Analysis of reinforced concrete with FEM/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/en

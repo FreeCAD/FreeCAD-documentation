@@ -38,9 +38,9 @@ This work will provide an introduction to the FreeCAD code base and the use of s
 
 Medium
 
-### Additional Information 
+### Additional Information
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Enhancement Project
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Enhancement Project

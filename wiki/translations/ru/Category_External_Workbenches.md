@@ -1,7 +1,7 @@
 # Category:External Workbenches/ru
 ### Contents:
 
-  --------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [External workbenches/ru](External_workbenches/ru.md)         [A2plus Workbench/ru](A2plus_Workbench/ru.md)                                             [Animation Workbench/ru](Animation_Workbench/ru.md)
   [Assembly2 Workbench/ru](Assembly2_Workbench/ru.md)           [Assembly3 Workbench/ru](Assembly3_Workbench/ru.md)                                       [Assembly4 Workbench/ru](Assembly4_Workbench/ru.md)
   [BIM Workbench/ru](BIM_Workbench/ru.md)                       [Cfd Workbench/ru](Cfd_Workbench/ru.md)                                                   [Fasteners BOM/ru](Fasteners_BOM/ru.md)
@@ -11,10 +11,9 @@
   [Plot MultiAxes tutorial/ru](Plot_MultiAxes_tutorial/ru.md)   [Plot Positions/ru](Plot_Positions/ru.md)                                                 [Plot Save/ru](Plot_Save/ru.md)
   [Plot Series/ru](Plot_Series/ru.md)                           [Plot Workbench/ru](Plot_Workbench/ru.md)                                                 [Reinforcement Workbench/ru](Reinforcement_Workbench/ru.md)
   [Render project/ru](Render_project/ru.md)                     [Rocket Workbench/ru](Rocket_Workbench/ru.md)                                             [Ship Workbench/ru](Ship_Workbench/ru.md)
-  [Workfeature Workbench/ru](Workfeature_Workbench/ru.md)                                                                                                         
-  --------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------
+  [Workfeature Workbench/ru](Workfeature_Workbench/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/ru](<img src="images/Property.png" style="width:16px"> Workbenches/ru.md) [<img src="images/Property.png" style="width:16px"> Addons/ru](<img src="images/Property.png" style="width:16px"> Addons/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:External Workbenches/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Workbenches/ru

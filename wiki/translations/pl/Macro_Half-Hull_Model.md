@@ -931,5 +931,7 @@ This script is running bug free. But due to the large range of possible inputs i
 
 The script is too long for the Wiki to display so it must be copied or downloaded from [unabbreviated script on pastebin.com](http://pastebin.com/raw.php?i=tZMpUi6F)
 
+
+
 ---
-[documentation index](../README.md) > Macro Half-Hull Model/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Half-Hull Model/pl

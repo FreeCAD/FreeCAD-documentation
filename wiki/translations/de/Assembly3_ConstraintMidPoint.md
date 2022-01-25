@@ -26,5 +26,7 @@ Die Linienelemente werden mit Werkzeugen der <img alt="" src=images/Workbench_Dr
 
     :   (Wenn **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Automatische Berechnung](Assembly3_AutoRecompute/de.md)** und **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smarte Berechnung](Assembly3_SmartRecompute/de.md)** nicht aktiviert wurden).
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintMidPoint/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMidPoint/de

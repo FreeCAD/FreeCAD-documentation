@@ -32,5 +32,7 @@ Vedere l\'elenco completo delle proprietà nella pagina [Std Part](Std_Part/it.m
 
 }} {{Document objects navi}}
 
+
+
 ---
-[documentation index](../README.md) > App Part/it
+![](images/Right_arrow.png) [documentation index](../README.md) > App Part/it

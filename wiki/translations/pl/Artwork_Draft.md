@@ -16,9 +16,9 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Draft](Category_Draft.md)
+
 
 ---
-[documentation index](../README.md) > [Draft](Category_Draft.md) > Artwork Draft/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Category_Draft.md) > Artwork Draft/pl

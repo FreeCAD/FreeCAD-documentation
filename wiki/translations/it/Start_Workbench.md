@@ -42,8 +42,5 @@ Da questa interfaccia è possibile visualizzare informazioni utili e passare ai 
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Start](Category_Start.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Start](Category_Start.md) > Start Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Start](Category_Start.md) > [Workbenches](Category_Workbenches.md) > Start Workbench/it

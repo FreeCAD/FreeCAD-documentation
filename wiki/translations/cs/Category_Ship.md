@@ -3,11 +3,10 @@ This category lists pages related to the [Ship Workbench/cs](Ship_Workbench/cs.m
 
 ### Contents:
 
-  ---------------------------------------------------
+  
   [Ship Workbench/cs](Ship_Workbench/cs.md)
-  ---------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/cs](<img src="images/Property.png" style="width:16px"> Workbenches/cs.md)
+
 
 ---
-[documentation index](../README.md) > Category:Ship/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Ship/cs

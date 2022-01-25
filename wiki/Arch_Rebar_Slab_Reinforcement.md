@@ -346,14 +346,9 @@ slabReinforcementGroup = editSlabReinforcement(
 
 -   [Slab Having L-Shape Rebars Reinforcement Mesh](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh.md)
 
- <img alt="" src=images/L-Shape_Rebars_isometric_view.png  style="width:800px;"> 
+ <img alt="" src=images/L-Shape_Rebars_isometric_view.png  style="width:800px;">
 
 
-
-
-  
-
-[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
-[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement
+![](images/Right_arrow.png) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Slab Reinforcement

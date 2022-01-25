@@ -31,5 +31,7 @@ Cet outil crée une copie non-paramétrique d\'un chemin donné.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy/fr

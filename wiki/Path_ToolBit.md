@@ -46,5 +46,7 @@ Within the FreeCAD GUI the Path toolbit library manager provides a mechanism to 
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit

@@ -33,5 +33,7 @@ Le mode Enregistrer l\'arborescence peut également être défini dans le [Régl
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeRecordSelection/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeRecordSelection/fr

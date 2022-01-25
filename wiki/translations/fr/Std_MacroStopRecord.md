@@ -32,5 +32,7 @@ La commande **Std Arrêt enregistrement macro** met fin à une session d\'enregi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MacroStopRecord/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroStopRecord/fr

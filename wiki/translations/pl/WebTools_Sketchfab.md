@@ -32,5 +32,7 @@ Narzędzie to umożliwia eksportowanie i przesyłanie obiektów na konto w serwi
 -   Po naciśnięciu przycisku **Prześlij**, gdy przesyłanie się zakończy, jeśli wszystko pójdzie dobrze, przycisk zmieni swój opis na **Przeglądaj swój model online**. Po kliknięciu zostaniesz przeniesiony bezpośrednio na stronę modelu w programie Sketchfab.
 -   Niektóre formaty, jak OBJ, są różnie interpretowane przez Sketchfab i FreeCAD. FreeCAD uważa, że oś Z jest skierowana ku górze, podczas gdy Sketchfab uważa, że wskazuje osobę znajdującą się za ekranem. Aby temu zaradzić, po zakończeniu ładowania, eksporter użyje API Sketchfab, aby obrócić model do właściwego położenia. Jeśli ta operacja się nie powiedzie, zostaniesz ostrzeżony, ale Twój model nadal będzie poprawnie załadowany. Możesz obrócić go ręcznie w interfejsie Sketchfab, naciskając strzałkę w prawo obok osi **X** w zakładce orientacji modelu.
 
+
+
 ---
-[documentation index](../README.md) > WebTools Sketchfab/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab/pl

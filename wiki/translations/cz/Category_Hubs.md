@@ -3,7 +3,7 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 ### Contents:
 
-[<img src="images/Property.png" style="width:16px"> Categories/cz](<img src="images/Property.png" style="width:16px"> Categories/cz.md)
+
 
 ---
-[documentation index](../README.md) > Category:Hubs/cz
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Hubs/cz

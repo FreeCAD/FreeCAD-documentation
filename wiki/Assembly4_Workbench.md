@@ -32,9 +32,7 @@ Assembly4 was inspired by <img alt="" src=images/A2p_workbench.svg  style="width
 -   [Various example parts, assemblies and tutorials](https://github.com/Zolko-123/FreeCAD_Examples)
 -   [Phone Assembly Tutorial](https://github.com/thermalling/FreeCADAsm4_TutorialSubassembly/)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly4 Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Assembly4 Workbench

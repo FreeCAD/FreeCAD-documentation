@@ -14,5 +14,7 @@ FreeCAD podporuje některá speciální vstupní zařízení jako jsou 3D myši.
 
 [category:Documentation](category_Documentation.md)
 
+
+
 ---
-[documentation index](../README.md) > 3D input devices/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > 3D input devices/cs

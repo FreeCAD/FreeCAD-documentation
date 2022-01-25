@@ -28,5 +28,7 @@ La rotation peut être arrêtée en mettant Lock Angle sur true dans le panneau 
 2.  Sélectionnez un élément de face plane de chaque objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Plane Coincidence](Assembly3_ConstraintCoincidence/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintCoincidence/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintCoincidence/fr

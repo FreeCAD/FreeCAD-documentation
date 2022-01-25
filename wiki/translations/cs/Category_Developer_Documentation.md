@@ -3,7 +3,7 @@ This category gathers documentation article mostly aimed at programmers
 
 ### Contents:
 
-  ----------------------------------------------------------------------------- --------------------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [ANSI templates/cs](ANSI_templates/cs.md)                             [Arch templates/cs](Arch_templates/cs.md)                           [Branding/cs](Branding/cs.md)
   [Code snippets/cs](Code_snippets/cs.md)                               [Compile on Linux/cs](Compile_on_Linux/cs.md)                       [Compile on MacOS/cs](Compile_on_MacOS/cs.md)
   [Compile on Windows/cs](Compile_on_Windows/cs.md)                     [Compiling/cs](Compiling/cs.md)                                     [Debugging/cs](Debugging/cs.md)
@@ -18,10 +18,8 @@ This category gathers documentation article mostly aimed at programmers
   [PySide/cs](PySide/cs.md)                                             [Python scripting tutorial/cs](Python_scripting_tutorial/cs.md)     [PythonOCC/cs](PythonOCC/cs.md)
   [Quantity/cs](Quantity/cs.md)                                         [Scenegraph/cs](Scenegraph/cs.md)                                   [Scripted objects/cs](Scripted_objects/cs.md)
   [Scripting and macros/cs](Scripting_and_macros/cs.md)                 [Start up and Configuration/cs](Start_up_and_Configuration/cs.md)   [Topological data scripting/cs](Topological_data_scripting/cs.md)
-                                                                                                                                                            
-  ----------------------------------------------------------------------------- --------------------------------------------------------------------------- ---------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/cs](<img src="images/Property.png" style="width:16px"> Documentation/cs.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/cs

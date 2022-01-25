@@ -37,5 +37,7 @@ Il sito ufficiale di FreeCAD è <http://www.freecadweb.org>
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Manual:What is FreeCAD/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:What is FreeCAD/it

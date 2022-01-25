@@ -59,7 +59,5 @@ Notă: informațiile din această pagină se bazează pe o înțelegere superfic
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Land Survey Workbench Blueprint/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Developer](Category_Developer.md) > Land Survey Workbench Blueprint/ro

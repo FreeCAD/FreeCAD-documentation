@@ -14,11 +14,5 @@ Pornind de aici, puteţi parcurge întregul Internet, să vă autentifi
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Web](Category_Web.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Category_Web.md) > [Workbenches](Category_Workbenches.md) > Web Workbench/ro

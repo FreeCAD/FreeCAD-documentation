@@ -37,5 +37,7 @@ Dieses Werkzeug schaltet die Sichtbarkeit von Delta (grün) Messungen um.
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/de

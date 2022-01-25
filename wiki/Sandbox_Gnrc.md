@@ -18,14 +18,5 @@ Bonjour !
 
 
 
-
-
-
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
-
 ---
-[documentation index](../README.md) > Sandbox:Gnrc
+![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:Gnrc

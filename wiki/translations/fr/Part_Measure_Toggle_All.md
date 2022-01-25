@@ -20,5 +20,7 @@ Cet outil bascule la visibilité de toutes les mesures dans la [vue 3D](3D_view/
     -   Appuyez sur le bouton **[<img src=images/Part_Measure_Toggle_All.svg style="width:16px"> '''Basculer tout'''**.
     -   Utilisez la **Mesure → Basculer tout**
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/fr

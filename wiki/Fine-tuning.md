@@ -36,6 +36,7 @@ The list below shows parameters that are not accessible via the preferences edit
 -   **Mod/Sketcher/RadiusDiameterConstraintDisplayAngleRandomness** (float): Set an angle randomness on the above value. Value is the range of the random angle, centered on base angle. Default is 0 degree \-- disabled \-- (if no value set).
 -   **PropertyView/AutoTransactionView** (boolean): Set to `True` so changes of View tab properties are added to the undo stack (hence are undoable). Defaults to `False`.
 -   **Selection/AutoShowSelectionView** (boolean): Set to `True` to make the Selection View pane show automatically when selecting something. Defaults to `False`.
+-   **Selection/singleClickFeatureSelect** (boolean): Set to `False` to disable single click selection of feature in PartDesign. Defaults to `True`.
 -   **View/NavigationDebug** (boolean): enables debug output of navigation styles (as of v0.19, only Gesture navigation style has something to say).
 -   **View/SavePicture** (string): Set to **FramebufferObject**, **PixelBuffer** or **CoinOffscreenRenderer** for different methods to produce images from the 3D view.
 
@@ -93,9 +94,7 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 -   [Parameter editor](Std_DlgParameter.md)
 -   [Preferences editor](Preferences_editor.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning

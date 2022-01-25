@@ -22,7 +22,7 @@ Per maggiori informazioni consultare queste pagine:
 <div class="mw-translate-fuzzy">
 
   Format         Description                                                                                                                                                  Import / Open                                                                                      Export / Create
-  -------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     
   \*.FCStd       FreeCAD native format                                                                                                                                        [Std Open](Std_Open.md), [Std MergeProjects](Std_MergeProjects.md)                 [Std Save](Std_Save.md)
   \*.cam         FreeCAD frozen views (camera settings)                                                                                                                       [Std FreezeViews](Std_FreezeViews.md)                                                      [Std FreezeViews](Std_FreezeViews.md)
   \*.FCMacro     FreeCAD macro (Python code)                                                                                                                                  [Std Import](Std_Import.md)                                                                [Std DlgMacroRecord](Std_DlgMacroRecord.md)
@@ -137,11 +137,5 @@ Per maggiori informazioni consultare queste pagine:
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/it

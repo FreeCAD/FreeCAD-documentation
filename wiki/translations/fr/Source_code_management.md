@@ -373,9 +373,9 @@ Le développeur standard n\'a pas d\'accès en écriture au référentiel `upstr
 
 Pendant que vous travaillez sur votre propre branche, le code officiel de FreeCAD continue de s\'améliorer avec les \"commits\" des autres développeurs, ce qui créé une différence de contenu avec votre branche personnelle.
 
-          .-----A origin/myNewBranch
+          .A origin/myNewBranch
          / 
-    -----o-----------Z FreeCAD upstream/master
+    oZ FreeCAD upstream/master
 
 Par conséquent, lorsque vous êtes prêt à fusionner votre branche sur le dépôt principal de FreeCAD, vous devez faire un \"rebase\" (sorte de re-synchronisation) de votre copie du dépôt, afin que son contenu se rapproche le plus possible de celui du dépôt officiel. Voir le document [Git Branching - Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) pour plus d\'informations.
 
@@ -387,9 +387,9 @@ git pull --rebase upstream master
 
 Cette opération va télécharger le code à partir de la branche `master` du dépôt `upstream` (le code source officiel de FreeCAD), et va le fusionner avec celui de votre branche courante (`myNewBranch`), afin que vos modifications apparaissent tout en haut de la liste du dernier code officiel. Si personne n\'a réalisé de modifications dans les fichiers sur lesquels vous avez travaillés, la fusion se fera sans erreurs. Si certains fichiers ont été modifiés en même temps par des personnes différentes, il se peut qu\'il y ait des conflits qui devront être résolus.
 
-                      .-----A' origin/myNewBranch
+                      .A' origin/myNewBranch
                      /
-    -----o-----------Z FreeCAD upstream/master
+    oZ FreeCAD upstream/master
 
 Pour résumer, vous devez être dans la branche appropriée, faire un \"rebase\" et puis un \"push\".
 
@@ -436,7 +436,7 @@ GitHub vous montrera un éditeur de texte pour que vous puissiez écrire un mess
 
 
 ```python
-base repository: FreeCAD/FreeCAD    base: master  <----  head repository: GITHUB_USERNAME/FreeCAD    compare: myNewBranch
+base repository: FreeCAD/FreeCAD    base: master  <  head repository: GITHUB_USERNAME/FreeCAD    compare: myNewBranch
 
 Able to merge. These branches can be automatically merged.
 ```
@@ -469,7 +469,7 @@ Si vous le souhaitez, vous pouvez supprimer la branche qui vient d\'être fusion
 
 
 ```python
------o-----------Z----A' FreeCAD upstream/master
+oZA' FreeCAD upstream/master
 ```
 
 
@@ -481,9 +481,9 @@ L\'interface de requête d\'extraction peut être utilisée chaque fois que vous
 
 
 ```python
-base repository: SomeProject/Some_Software  base: master       <----  head repository: GITHUB_USERNAME/Some_Software  compare: add_new_functions
-base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <----  head repository: FreeCAD/FreeCAD                compare: master
-base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <----  head repository: GITHUB_USERNAME/FreeCAD        compare: fix-many-bugs-branch
+base repository: SomeProject/Some_Software  base: master       <  head repository: GITHUB_USERNAME/Some_Software  compare: add_new_functions
+base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repository: FreeCAD/FreeCAD                compare: master
+base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repository: GITHUB_USERNAME/FreeCAD        compare: fix-many-bugs-branch
 ```
 
 ### Maintien du dépôt GitHub à jour 
@@ -985,7 +985,5 @@ Dirigez vous vers la section de développement du [forum FreeCAD](https://forum.
 
 
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/fr

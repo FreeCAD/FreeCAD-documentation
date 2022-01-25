@@ -33,5 +33,7 @@ L\'outil fera également exploser des formes non composées dans leurs constitua
 -   Obtention des contours individuels à partir d\'esquisses et de faces à contours multiples.
 -   Obtention d\'un solide pur à partir d\'un solide en composé pour une utilisation dans l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/fr

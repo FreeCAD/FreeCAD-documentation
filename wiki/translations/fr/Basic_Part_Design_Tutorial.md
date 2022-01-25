@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Modélisation
+   Level:Débutant
+   Author:Mark Stephen ([Quick61](User_Quick61.md)) et HarryGeier ([HarryGeier](User_HarryGeier.md))
+   Time:Moins d'une heure
+   FCVersion:0.17 ou plus
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
+---
+
 # Basic Part Design Tutorial/fr
-{{TutorialInfo/fr
-|Topic=Modélisation
-|Level=Débutant
-|Author=Mark Stephen ([Quick61](User_Quick61.md)) et HarryGeier ([HarryGeier](User_HarryGeier.md))
-|Time=Moins d'une heure
-|FCVersion=0.17 ou plus
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]
-}}
+
+
+
+
 
 Ce tutoriel introduit au nouvel utilisateur certains des outils et techniques utilisés dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Ce tutoriel n\'est pas un guide complet et exhaustif de l\'atelier Part Design et de nombreux outils et fonctionnalités ne sont pas couverts. Ce tutoriel guidera l\'utilisateur à travers les étapes nécessaires pour modéliser la pièce montrée dans l\'image ci-dessous à l\'aide de dessins.
 
@@ -192,5 +198,7 @@ Ce tutoriel ainsi que votre modèle sont terminés.
 
 }} {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Basic Part Design Tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Basic Part Design Tutorial/fr

@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic:Sketcher
+   Level:Beginner
+   Time:60 minutes
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] and vocx
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Basic Sketcher tutorial updated]
+---
+
 # Basic Sketcher Tutorial/pt-br
-{{TutorialInfo
-|Topic=Sketcher
-|Level=Beginner
-|Time=60 minutes
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] and vocx
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Basic Sketcher tutorial updated]
-}}
+
+
+
+
 
 ## Introduction
 
@@ -298,9 +303,9 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 -   Try using other construction geometry.
 
 
-{{Tutorials navi
+ {{Sketcher Tools navi}}
 
-}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Basic Sketcher Tutorial/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/pt-br

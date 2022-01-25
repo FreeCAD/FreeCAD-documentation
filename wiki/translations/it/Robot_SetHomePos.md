@@ -52,5 +52,7 @@ All\'inizio, quando il robot viene inserito nella scena la posizione sarà defin
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/it

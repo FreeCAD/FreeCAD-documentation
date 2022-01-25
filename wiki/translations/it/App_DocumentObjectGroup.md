@@ -32,5 +32,7 @@ Vedere le proprietà nella pagina [Gruppo](Std_Group/it.md).
 
 }} {{Document objects navi}}
 
+
+
 ---
-[documentation index](../README.md) > App DocumentObjectGroup/it
+![](images/Right_arrow.png) [documentation index](../README.md) > App DocumentObjectGroup/it

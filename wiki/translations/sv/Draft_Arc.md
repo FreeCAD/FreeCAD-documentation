@@ -97,5 +97,7 @@ arc3 = Draft.make_circle(750, startangle=-30, endangle=-150)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Arc/sv

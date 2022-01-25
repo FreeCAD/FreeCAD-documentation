@@ -14,7 +14,7 @@
 
 ## Volby
 
-+------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/linearpattern_parameters.png ) | Při vytváření lineárního vzorku prvku nabízí dialogové okno \'parametry lineárního vzorku\' dva různé způsoby specifikování směru vzorku.                                                                                                                   |
 |                                                                  |                                                                                                                                                                                                                                                             |
 |                                                                  | ### Standardní osy                                                                                                                                                                                                                         |
@@ -32,7 +32,7 @@
 |                                                                  | ### Délka a Výskyty                                                                                                                                                                                                                       |
 |                                                                  |                                                                                                                                                                                                                                                             |
 |                                                                  | Určuje délku, která má být pokryta vzorkem a celkový počet výskytů vzorků (včetně originálního prvku). Například šest výskytů v délce 150 dá šířku mezer mezi vzorky na 30 (150 děleno 5, protože mezer je 5 mezi celkovým počtem výskytů 6!).              |
-+------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 
@@ -131,5 +131,7 @@ Select one of the Body Origin\'s standard axis (X, Y or Z) as direction.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/cs

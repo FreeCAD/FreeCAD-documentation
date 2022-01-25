@@ -150,5 +150,7 @@ B7.ViewObject.DrawStyle = "Dashed"
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CubicBezCurve/fr

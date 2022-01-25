@@ -37,7 +37,7 @@ Proposed guidelines :
 ## Global Workbench 
 
   Command                                                                                Icon                                                                                               Description                                                                               Shortcut             Comment
-  -------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- -------------------- ---------
+      
   [Std\_About](Std_About.md)                                                     <img alt="" src=images/Std_About.svg  style="width:24px;">                                                     About %1                                                                                                       
   [Std\_ActivateNextWindow](Std_ActivateNextWindow.md)                           <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:24px;">                           Activate next window                                                                      Ctrl+Tab             
   [Std\_ActivatePrevWindow](Std_ActivatePrevWindow.md)                           <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width:24px;">                           Activate previous window                                                                  Ctrl+Shift+Backtab   
@@ -185,7 +185,7 @@ Proposed guidelines :
 ## Arch Workbench 
 
   Command                                                              Icon                                                                             Description                                                                                                                           Shortcut     Comment
-  -------------------------------------------------------------------- -------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------- ------------ ---------
+      
   [Arch\_3Views](Arch_3Views.md)                               <img alt="" src=images/Arch_3Views.svg  style="width:24px;">                               Creates 3 views (top, front, side) from a mesh-based object                                                                                        
   [Arch\_Add](Arch_Add.md)                                     <img alt="" src=images/Arch_Add.svg  style="width:24px;">                                     Adds the selected components to the active object                                                                                                  
   [Arch\_Axis](Arch_Axis.md)                                   <img alt="" src=images/Arch_Axis.svg  style="width:24px;">                                   Creates a set of axes                                                                                                                 A, X         
@@ -237,7 +237,7 @@ Proposed guidelines :
 ## Draft Workbench 
 
   Command                                                                    Icon                                                                                   Description                                                                                                                                                                                                                                                                                                                                                                                       Shortcut      Comment
-  -------------------------------------------------------------------------- -------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------- ---------
+      
   [Draft\_AddConstruction](Draft_AddConstruction.md)                 <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;">                 Adds the selected objects to the construction group, and changes their appearance to the construction style. It creates a construction group if it doesn\'t exist.                                                                                                                                                                                                                                              
   [Draft\_AddToGroup](Draft_AddToGroup.md)                           <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;">                           Moves the selected objects to an existing group, or removes them from any group. Create a group first to use this tool.                                                                                                                                                                                                                                                                                         
   [Draft\_AnnotationStyleEditor](Draft_AnnotationStyleEditor.md)     <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:24px;">     Manage or create annotation styles                                                                                                                                                                                                                                                                                                                                                                              
@@ -315,7 +315,7 @@ Proposed guidelines :
 ## Drawing Workbench 
 
   Command                    Description                                                            Shortcut   Comment
-  -------------------------- ---------------------------------------------------------------------- ---------- ---------
+     
   Drawing\_Annotation        Inserts an Annotation view in the active drawing                                  
   Drawing\_Clip              Inserts a clip group in the active drawing                                        
   Drawing\_DraftView         Inserts a Draft view of the selected object(s) in the active drawing              
@@ -333,7 +333,7 @@ Proposed guidelines :
 ## FEM Workbench 
 
   Command                                                                                    Icon                                                                                                   Description                                                                          Shortcut   Comment
-  ------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------ ---------- ---------
+      
   [FEM\_Analysis](FEM_Analysis.md)                                                   <img alt="" src=images/FEM_Analysis.svg  style="width:24px;">                                                   Creates an analysis container with standard solver CalculiX                          N, A       
   [FEM\_ClippingPlaneAdd](FEM_ClippingPlaneAdd.md)                                   <img alt="" src=images/FEM_ClippingPlaneAdd.svg  style="width:24px;">                                   Add a clipping plane on a selected face                                                         
   [FEM\_ClippingPlaneRemoveAll](FEM_ClippingPlaneRemoveAll.md)                       <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width:24px;">                       Remove all clipping planes                                                                      
@@ -400,7 +400,7 @@ Proposed guidelines :
 ## Image Workbench 
 
   Command                                                        Icon                                                                       Description                                                       Shortcut   Comment
-  -------------------------------------------------------------- -------------------------------------------------------------------------- ----------------------------------------------------------------- ---------- ---------
+      
   [Image\_CreateImagePlane](Image_CreateImagePlane.md)   <img alt="" src=images/Image_CreateImagePlane.svg  style="width:24px;">   Create a planar image in the 3D space                                        
   [Image\_Open](Image_Open.md)                           <img alt="" src=images/Image_Open.svg  style="width:24px;">                           Open image view                                                              
   [Image\_Scaling](Image_Scaling.md)                     <img alt="" src=images/Image_Scaling.svg  style="width:24px;">                     Scales an image plane by defining a distance between two points              
@@ -408,14 +408,14 @@ Proposed guidelines :
 ## Inspection Workbench 
 
   Command                        Description                Shortcut   Comment
-  ------------------------------ -------------------------- ---------- ---------
+     
   Inspection\_InspectElement     Get distance information              
   Inspection\_VisualInspection   Visual inspection                     
 
 ## Mesh Workbench 
 
   Command                                                            Icon                                                                           Description                                             Shortcut   Comment
-  ------------------------------------------------------------------ ------------------------------------------------------------------------------ ------------------------------------------------------- ---------- ---------
+      
   [MeshPart\_CreateFlatFace](MeshPart_CreateFlatFace.md)     <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:24px;">     find a flat representation of a mesh                               
   [MeshPart\_CreateFlatMesh](MeshPart_CreateFlatMesh.md)     <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:24px;">     find a flat representation of a mesh                               
   [Mesh\_AddFacet](Mesh_AddFacet.md)                         <img alt="" src=images/Mesh_AddFacet.svg  style="width:24px;">                         Add triangle manually to a mesh                                    
@@ -453,7 +453,7 @@ Proposed guidelines :
 ## OpenSCAD Workbench 
 
   Command                              Description                                                                                Shortcut   Comment
-  ------------------------------------ ------------------------------------------------------------------------------------------ ---------- ---------
+     
   OpenSCAD\_AddOpenSCADElement         Add an OpenSCAD element by entering OpenSCAD code and executing the OpenSCAD binary                   
   OpenSCAD\_ColorCodeShape             Color Shapes by validity and type                                                                     
   OpenSCAD\_Edgestofaces               Convert Edges to Faces                                                                                
@@ -470,7 +470,7 @@ Proposed guidelines :
 ## PartDesign Workbench 
 
   Command                                                                                  Icon                                                                                                 Description                                                                             Shortcut   Comment
-  ---------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------- ---------- ---------
+      
   [PartDesign\_AdditiveLoft](PartDesign_AdditiveLoft.md)                           <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width:24px;">                           Loft a selected profile through other profile sections                                             
   [PartDesign\_AdditivePipe](PartDesign_AdditivePipe.md)                           <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:24px;">                           Sweep a selected sketch along a path or to other profiles                                          
   [PartDesign\_Body](PartDesign_Body.md)                                           <img alt="" src=images/PartDesign_Body.svg  style="width:24px;">                                           Create a new body and make it active                                                               
@@ -511,7 +511,7 @@ Proposed guidelines :
 ## Part Workbench 
 
   Command                                                                Icon                                                                             Description                                                                              Shortcut   Comment
-  ---------------------------------------------------------------------- -------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------- ---------- ---------
+      
   [Part\_Boolean](Part_Boolean.md)                               <img alt="" src=images/Part_Boolean.svg  style="width:24px;">                             Run a boolean operation with two shapes selected                                                    
   [Part\_BooleanFragments](Part_BooleanFragments.md)             <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;">           Split objects where they intersect                                                                  
   [Part\_Box](Part_Box.md)                                       <img alt="" src=images/Part_Box.svg  style="width:24px;">                                     Create a cube solid                                                                                 
@@ -571,7 +571,7 @@ Proposed guidelines :
 ## Path Workbench 
 
   Command                                                            Icon                                                                           Description                                                                              Shortcut   Comment
-  ------------------------------------------------------------------ ------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------- ---------- ---------
+      
   [Path\_Adaptive](Path_Adaptive.md)                         <img alt="" src=images/Path_Adaptive.svg  style="width:24px;">                         Adaptive clearing and profiling                                                                     
   [Path\_Area](Path_Area.md)                                 <img alt="" src=images/Path_Area.svg  style="width:24px;">                                 Creates a feature area from selected objects                                                        
   [Path\_Area\_Workplane](Path_Area_Workplane.md)            <img alt="" src=images/Path_Area_Workplane.svg  style="width:24px;">             Select a workplane for a FeatureArea                                                                
@@ -609,7 +609,7 @@ Proposed guidelines :
 ## Points Workbench 
 
   Command                                            Icon                                                           Description                                Shortcut   Comment
-  -------------------------------------------------- -------------------------------------------------------------- ------------------------------------------ ---------- ---------
+      
   [Points\_Convert](Points_Convert.md)       <img alt="" src=images/Points_Convert.svg  style="width:24px;">       Convert to points                                     
   [Points\_Export](Points_Export.md)         <img alt="" src=images/Points_Export.svg  style="width:24px;">         Exports a point cloud                                 
   [Points\_Import](Points_Import.md)         <img alt="" src=images/Points_Import.svg  style="width:24px;">         Imports a point cloud                                 
@@ -620,7 +620,7 @@ Proposed guidelines :
 ## Raytracing Workbench 
 
   Command                        Description                                                                    Shortcut   Comment
-  ------------------------------ ------------------------------------------------------------------------------ ---------- ---------
+     
   Raytracing\_ExportProject      Export a Raytracing project to a file                                                     
   Raytracing\_NewLuxProject      Insert new Luxrender project into the document                                            
   Raytracing\_NewPartSegment     Insert a new part object into a Raytracing project                                        
@@ -634,7 +634,7 @@ Proposed guidelines :
 ## Reverse engineering Workbench 
 
   Command                            Description                                Shortcut   Comment
-  ---------------------------------- ------------------------------------------ ---------- ---------
+     
   Reen\_ApproxCylinder               Approximate a cylinder                                
   Reen\_ApproxPlane                  Approximate a plane                                   
   Reen\_ApproxPolynomial             Approximate a polynomial surface                      
@@ -650,7 +650,7 @@ Proposed guidelines :
 ## Robot Workbench 
 
   Command                          Description                                                                                                  Shortcut   Comment
-  -------------------------------- ------------------------------------------------------------------------------------------------------------ ---------- ---------
+     
   Robot\_AddToolShape              Add a tool shape to the robot                                                                                           
   Robot\_Create                    Place a robot (experimental!)                                                                                           
   Robot\_CreateTrajectory          Create a new empty trajectory                                                                                           
@@ -674,7 +674,7 @@ Proposed guidelines :
 ## Sketcher Workbench 
 
   Command                                                                                                            Icon                                                                                                                           Description                                                                                                    Shortcut       Comment
-  ------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------- -------------- ---------
+      
   [Sketcher\_BSplineComb](Sketcher_BSplineComb.md)                                                           <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:24px;">                                                           Switches between showing and hiding the curvature comb for all B-splines                                                      
   [Sketcher\_BSplineApproximate](Sketcher_BSplineApproximate.md)                                             <img alt="" src=images/Sketcher_BSplineConvertToNURB.svg  style="width:24px;">                                         Converts the given Geometry to a B-spline                                                                                     
   [Sketcher\_BSplineDecreaseKnotMultiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)                   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:24px;">                   Decreases the multiplicity of the selected knot of a B-spline                                                                 
@@ -774,7 +774,7 @@ Proposed guidelines :
 ## Spreadsheet Workbench 
 
   Command                                                                Icon                                                                               Description                                          Shortcut       Comment
-  ---------------------------------------------------------------------- ---------------------------------------------------------------------------------- ---------------------------------------------------- -------------- ---------
+      
   [Spreadsheet\_AlignBottom](Spreadsheet_AlignBottom.md)         <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;">         Bottom-align contents of selected cells                             
   [Spreadsheet\_AlignCenter](Spreadsheet_AlignCenter.md)         <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;">         Center-align contents of selected cells                             
   [Spreadsheet\_AlignLeft](Spreadsheet_AlignLeft.md)             <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;">             Left-align contents of selected cells                               
@@ -794,13 +794,13 @@ Proposed guidelines :
 ## Start Workbench 
 
   Command            Description                                 Shortcut   Comment
-  ------------------ ------------------------------------------- ---------- ---------
+     
   Start\_StartPage   Displays the start page in a browser view              
 
 ## Surface Workbench 
 
   Command                                                          Icon                                                                         Description                                                                        Shortcut   Comment
-  ---------------------------------------------------------------- ---------------------------------------------------------------------------- ---------------------------------------------------------------------------------- ---------- ---------
+      
   [Surface\_CurveOnMesh](Surface_CurveOnMesh.md)           <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:24px;">           Curve on mesh                                                                                 
   [Surface\_ExtendFace](Surface_ExtendFace.md)             <img alt="" src=images/Surface_ExtendFace.svg  style="width:24px;">             Extend face                                                                                   
   [Surface\_Filling](Surface_Filling.md)                   <img alt="" src=images/Surface_Filling.svg  style="width:24px;">                   Fills a series of boundary curves, constraint curves and vertexes with a surface              
@@ -809,7 +809,7 @@ Proposed guidelines :
 ## TechDraw Workbench 
 
   Command                                                                                Icon                                                                                               Description                                            Shortcut   Comment
-  -------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------- ------------------------------------------------------ ---------- ---------
+      
   [TechDraw\_2LineCenterLine](TechDraw_2LineCenterLine.md)                       <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;">                       Add Centerline between 2 Lines                                    
   [TechDraw\_2PointCenterLine](TechDraw_2PointCenterLine.md)                     <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:24px;">                     Add Centerline between 2 Points                                   
   [TechDraw\_3PtAngleDimension](TechDraw_3PtAngleDimension.md)                   <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:24px;">                   Insert 3-Point Angle Dimension                                    
@@ -860,7 +860,7 @@ Proposed guidelines :
 ## Test Workbench 
 
   Command                Description                                                   Shortcut   Comment
-  ---------------------- ------------------------------------------------------------- ---------- ---------
+     
   Test\_InsertFeature    Insert a TestFeature in the active Document                              
   Test\_Test             Runs a self-test to check if the application works properly              
   Test\_TestAll          Runs all tests at once (can take very long!)                             
@@ -871,9 +871,9 @@ Proposed guidelines :
   Test\_TestDeleteMenu   Test the menu stuff of FreeCAD                                           
   Test\_TestDoc          Test the document (creation, save, load and destruction)                 
   Test\_TestDocText      Test the document (creation, save, load and destruction)                 
-  Test\_TestWork         Test the switching of workbenches in FreeCAD                             
+  Test\_TestWork         Test the switching of workbenches in FreeCAD
 
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
+
 
 ---
-[documentation index](../README.md) > Sandbox:Keyboard Shortcuts
+![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:Keyboard Shortcuts

@@ -164,7 +164,7 @@ def move_points(sketch, geom_index, sigma):
     # not checked validity of comment for v1.2
     moved = False
     for point_index in point_indexes:
-        dprint('---- geo idx [{:>3} ] -- pt idx [{:>3} ] ----',
+        dprint(' geo idx [{:>3} ] -- pt idx [{:>3} ] ',
                geom_index, point_index)
         point = sketch.getPoint(geom_index, point_index)
         add_noise(point, sigma)
@@ -244,5 +244,7 @@ if shake_it:
 print('Macro finished.')
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Shake Sketch/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Shake Sketch/en

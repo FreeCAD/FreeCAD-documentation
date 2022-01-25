@@ -28,5 +28,7 @@ The Tree view DocumentMode mode is stored: **Tools → Edit parameters... → Ba
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeMultiDocument
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeMultiDocument

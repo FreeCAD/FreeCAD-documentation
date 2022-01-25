@@ -1,10 +1,19 @@
+---
+- TutorialInfo:/de
+   Topic:Modellierung
+   Level:Erfahrene Anwender
+   Author:domad
+   FCVersion:0.19.23300 oder höher
+---
+
 # Advanced TechDraw Tutorial/de
-{{TutorialInfo/de
-|Topic=Modellierung
-|Level=Erfahrene Anwender
-|Author=domad
-|FCVersion=0.19.23300 oder höher
-}}
+
+
+
+
+
+
+
 
 ## Zielsetzung in Kürze 
 
@@ -84,9 +93,9 @@ Jedoch könnte der beschriebene Weg den Ausgangspunkt (oder die Idee) darstellen
 -   [TechDraw: - come utilizzare gli strumenti Draft/Snaps per creare \" vertici/punti cosmetici\"](https://forum.freecadweb.org/viewtopic.php?f=28&t=53329) Forum Thema in italienischer Sprache
 
 
-{{Tutorials navi
+ {{TechDraw Tools navi}}
 
-}} {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Advanced TechDraw Tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/de

@@ -39,9 +39,9 @@ Since the integration of external solvers is a huge area in constant evolution, 
 
 Easy
 
-### Additional Information 
+### Additional Information
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > New solver object for handling ElmerFEM execution in FEM-workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > New solver object for handling ElmerFEM execution in FEM-workbench

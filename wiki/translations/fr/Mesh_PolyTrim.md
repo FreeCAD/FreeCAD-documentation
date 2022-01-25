@@ -50,5 +50,7 @@ La commande **Mesh Découper** permet de découper les faces et parties de faces
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyTrim/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh PolyTrim/fr

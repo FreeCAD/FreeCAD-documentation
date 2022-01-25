@@ -29,5 +29,7 @@ The <img alt="" src=images/Assembly_Move.svg‎‎  style="width:24px;"> [Move p
 
 The handles move the part parallel to one of the basic planes of the selected object\'s ICS; pressing and holding **shift** while dragging limits the movement to one axis.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MovePart/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MovePart/en

@@ -144,5 +144,7 @@ ellipse3 = Draft.make_ellipse(700, 1000, placement=place3)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Ellipse/ru

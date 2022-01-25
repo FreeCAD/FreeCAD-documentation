@@ -5,7 +5,7 @@ See [:Template:Delete](:Template_Delete.md) on how to use the deletion template.
 
 ### Contents:
 
-[<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md) [<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md)
+
 
 ---
-[documentation index](../README.md) > Category:Pages to delete
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Pages to delete

@@ -36,5 +36,7 @@ For a scripting example see [Std ToggleVisibility](Std_ToggleVisibility.md).
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std HideObjects
+![](images/Right_arrow.png) [documentation index](../README.md) > Std HideObjects

@@ -33,5 +33,7 @@ Le mode de présélection de l\'arborescence peut également être défini dans 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreePreSelection/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreePreSelection/fr

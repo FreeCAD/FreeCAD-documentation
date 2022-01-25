@@ -15,7 +15,7 @@ O comandă în FreeCAD este o aplicație care se execută atunci când apăsați
 
 <div class="mw-translate-fuzzy">
 
-Fiecare comandă FreeCAD are un nume unic care apare în lista tuturor comenzilor [:<img src="images/Property.png" style="width:16px"> Command\_Reference](:Category_Command_Reference.md). Comenzile pot fi invocate prin intermediul unui buton al barei de instrumente, al unei intrări în meniu, al unui script Python sau al consolei Python rulând:
+Fiecare comandă FreeCAD are un nume unic care apare în lista tuturor comenzilor [:Category:Command\_Reference](:Category_Command_Reference.md). Comenzile pot fi invocate prin intermediul unui buton al barei de instrumente, al unei intrări în meniu, al unui script Python sau al consolei Python rulând:
 
 
 </div>
@@ -132,11 +132,6 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 See [Line drawing function](Line_drawing_function.md).
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Command/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/ro

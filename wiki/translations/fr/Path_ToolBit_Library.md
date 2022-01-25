@@ -52,5 +52,7 @@ Une bibliothèque d\'outil coupants peut être exportée pour créer une [LinuxC
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit Library/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ToolBit Library/fr

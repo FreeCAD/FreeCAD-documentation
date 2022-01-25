@@ -3,7 +3,7 @@ This category list pages related to the [Std Base](Std_Base/ru.md), which collec
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+    
   [App Link/ru](App_Link/ru.md)                                                 [App Part/ru](App_Part/ru.md)                                     [Assembly/ru](Assembly/ru.md)
   [Combo view/ru](Combo_view/ru.md)                                             [DAG view/ru](DAG_view/ru.md)                                     [Interface Customization/ru](Interface_Customization/ru.md)
   [Part/ru](Part/ru.md)                                                         [Property editor/ru](Property_editor/ru.md)                       [Python console/ru](Python_console/ru.md)
@@ -59,10 +59,9 @@ This category list pages related to the [Std Base](Std_Base/ru.md), which collec
   [Std ViewTrimetric/ru](Std_ViewTrimetric/ru.md)                               [Std ViewZoomIn/ru](Std_ViewZoomIn/ru.md)                         [Std ViewZoomOut/ru](Std_ViewZoomOut/ru.md)
   [Std WhatsThis/ru](Std_WhatsThis/ru.md)                                       [Std Windows Menu/ru](Std_Windows_Menu/ru.md)                     [Std Windows/ru](Std_Windows/ru.md)
   [Std Workbench/ru](Std_Workbench/ru.md)                                       [Tree view/ru](Tree_view/ru.md)                                   [View Measure Clear All/ru](View_Measure_Clear_All/ru.md)
-  [View Measure Toggle All/ru](View_Measure_Toggle_All/ru.md)                                                                                             
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+  [View Measure Toggle All/ru](View_Measure_Toggle_All/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/ru](<img src="images/Property.png" style="width:16px"> User_Documentation/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Std Base/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Std Base/ru

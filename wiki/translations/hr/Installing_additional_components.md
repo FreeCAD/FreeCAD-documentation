@@ -141,7 +141,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/hr](<img src="images/Property.png" style="width:16px"> User_Documentation/hr.md)
+
 
 ---
-[documentation index](../README.md) > Installing additional components/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/hr

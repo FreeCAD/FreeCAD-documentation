@@ -140,7 +140,7 @@ Und schließlich ist eine der leistungsfähigsten Funktionen von FreeCAD die [sc
 
 {{Userdocnavi/de}}
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/de](<img src="images/Property.png" style="width:16px"> User_Documentation/de.md)
+
 
 ---
-[documentation index](../README.md) > Getting started/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/de

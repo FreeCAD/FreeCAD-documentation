@@ -126,5 +126,7 @@ rectangle3 = Draft.make_rectangle(3500, 250, placement=place3)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle

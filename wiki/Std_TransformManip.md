@@ -35,5 +35,7 @@ This tool allows you to apply rotation increments or translation increments to a
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std TransformManip
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TransformManip

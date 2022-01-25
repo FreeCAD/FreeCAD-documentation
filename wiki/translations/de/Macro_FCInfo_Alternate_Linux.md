@@ -45,5 +45,7 @@ Mit diesem Makro gespeicherte Dateien sind nicht kompatibel mit den Dateien der 
 
 Beide Versionen können unabhängig vom verwendeten Betriebssystem ausgeführt werden.
 
+
+
 ---
-[documentation index](../README.md) > Macro FCInfo Alternate Linux/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfo Alternate Linux/de

@@ -31,5 +31,7 @@ La commande **Mesh Boîte englobante** affiche les coordonnées de la boîte eng
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/fr

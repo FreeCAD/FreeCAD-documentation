@@ -397,9 +397,6 @@ Inspecting the code of this module can help to understand the programming interf
 {{Userdocnavi/tr}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches/tr](<img src="images/Property.png" style="width:16px"> Workbenches/tr.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Draft Workbench/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/tr

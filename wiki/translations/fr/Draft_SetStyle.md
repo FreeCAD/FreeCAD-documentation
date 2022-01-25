@@ -144,5 +144,7 @@ Les préférences suivantes sont en jeu :
 -   Afficher les unités : **Edition → Préférences... → Draft → Textes et dimensions → Paramètres de cotation → Afficher le suffixe de l'unité aux dimensions**.
 -   Remplacement de l\'unité : **Edition → Préférences... → Draft → Textes et dimensions → Paramètres de cotation → Remplacer l'unité**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/fr

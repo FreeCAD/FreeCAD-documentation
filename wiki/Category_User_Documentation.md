@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
+    
   [3D view](3D_view.md)                                                                                             [3Dconnexion input devices](3Dconnexion_input_devices.md)                                                         [A2plus Workbench](A2plus_Workbench.md)
   [About FreeCAD](About_FreeCAD.md)                                                                                 [Add Button to FEM Toolbar Tutorial](Add_Button_to_FEM_Toolbar_Tutorial.md)                                       [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md)
   [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md)                                                         [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md)             [Addon](Addon.md)
@@ -170,10 +170,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [FEM Install](FEM_Install.md)                                                                                     [FEM MaterialFluid](FEM_MaterialFluid.md)                                                                         [FEM MaterialMechanicalNonlinear](FEM_MaterialMechanicalNonlinear.md)
   [FEM MaterialReinforced](FEM_MaterialReinforced.md)                                                               [FEM MaterialSolid](FEM_MaterialSolid.md)                                                                         [FEM Mesh](FEM_Mesh.md)
   [FEM Mesh CalculiX](FEM_Mesh_CalculiX.md)                                                                         [FEM MeshBoundaryLayer](FEM_MeshBoundaryLayer.md)                                                                 [FEM MeshClear](FEM_MeshClear.md)
-  [FEM MeshDisplayInfo](FEM_MeshDisplayInfo.md)                                                                     [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md)                                                                 
-  ------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
+  [FEM MeshDisplayInfo](FEM_MeshDisplayInfo.md)                                                                     [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation

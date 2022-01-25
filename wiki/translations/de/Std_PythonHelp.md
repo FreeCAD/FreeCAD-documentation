@@ -28,5 +28,7 @@ Der Webserver basiert auf dem Python Modul [pydoc](https://docs.python.org/3.8/l
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std PythonHelp/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std PythonHelp/de

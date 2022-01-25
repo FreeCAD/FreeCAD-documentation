@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ru
+   Topic:Plot workbench
+   Level:Intermediate
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Plot MultiAxes tutorial/ru
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru
-|Topic=Plot workbench
-|Level=Intermediate
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -132,9 +138,9 @@ Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) 
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
+}} {{Plot_Tools_navi}}
 
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot MultiAxes tutorial/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot MultiAxes tutorial/ru

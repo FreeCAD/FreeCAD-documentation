@@ -14,10 +14,10 @@ Extracts a section from the intersection of two selected shapes, the second one 
 
 In this example, a cube is sectioned with a cylinder:
 
-+------------------------------------------------+------------------------------------------+
++++
 | ![](images/PartSection1_it.png ) | -   **Base**: base object, the Box       |
 |                                                | -   **Tool**: Section tool, the cylinder |
-+------------------------------------------------+------------------------------------------+
++++
 
 
 
@@ -32,5 +32,7 @@ In this example, a cube is sectioned with a cylinder:
 
 To create sections with a section plane see <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Cross-sections](Part_CrossSections.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section

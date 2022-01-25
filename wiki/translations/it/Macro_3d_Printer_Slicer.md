@@ -88,5 +88,7 @@ Grazie a [Wmayer](http://forum.freecadweb.org/viewtopic.php?f=10&t=4686) per il 
 
 Discussione nel forum : <https://forum.freecadweb.org/viewtopic.php?f=10&t=4686>
 
+
+
 ---
-[documentation index](../README.md) > Macro 3d Printer Slicer/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro 3d Printer Slicer/it

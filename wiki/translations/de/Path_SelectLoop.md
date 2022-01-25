@@ -42,5 +42,7 @@ Der Befehl WähleSchleife vervollständigt eine Auswahl von Kanten, die eine Sch
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/de

@@ -31,5 +31,7 @@ The <img alt="" src=images/Curves_ToConsole.svg  style="width:24px;"> [Curves To
 
  {{Curves Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Curves ToConsole
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ToConsole

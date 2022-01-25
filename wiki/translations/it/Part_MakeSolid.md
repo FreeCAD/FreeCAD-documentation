@@ -41,5 +41,7 @@ Si raccomanda di usare ** Part** → ** Affina forma** prima di convertirla in u
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/it

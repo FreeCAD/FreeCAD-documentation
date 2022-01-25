@@ -54,5 +54,7 @@ L\'onglet **Édition → Préférences... → Path → Job Preferences, Defaults
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate/fr

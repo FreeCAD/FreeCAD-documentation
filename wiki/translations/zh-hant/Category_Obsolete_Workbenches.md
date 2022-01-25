@@ -7,7 +7,7 @@ This category lists pages related to the [Drawing Workbench/zh-hant](Drawing_Wor
      
   -- --
 
-[<img src="images/Property.png" style="width:16px"> Obsolete Workbenches/zh-hant](<img src="images/Property.png" style="width:16px"> Obsolete_Workbenches/zh-hant.md) [<img src="images/Property.png" style="width:16px"> Drawing/zh-hant](<img src="images/Property.png" style="width:16px"> Drawing/zh-hant.md) [<img src="images/Property.png" style="width:16px"> Obsolete Workbenches/zh-hant](<img src="images/Property.png" style="width:16px"> Obsolete_Workbenches/zh-hant.md)
+
 
 ---
-[documentation index](../README.md) > Category:Obsolete Workbenches/zh-hant
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Obsolete Workbenches/zh-hant

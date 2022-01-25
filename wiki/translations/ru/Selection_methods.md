@@ -106,5 +106,7 @@ Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Selection methods/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Selection methods/ru

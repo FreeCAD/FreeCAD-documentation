@@ -56,5 +56,7 @@ La funzione è accessibile tramite **Macro → Registra macro ...**, oppure tram
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgMacroRecord/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroRecord/it

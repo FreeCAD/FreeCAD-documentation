@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/hr
+   Topic:Architecture
+   Level:Beginner
+   Time:60 minutes
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 or greater
+   Files:none
+---
+
 # Tutorial for open windows/hr
-{{TutorialInfo/hr
-|Topic=Architecture
-|Level=Beginner
-|Time=60 minutes
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 or greater
-|Files=none
-}}
+
+
+
+
 
 ## Predstavljanje
 
@@ -244,9 +250,9 @@ The [TechDraw Workbench](TechDraw_Workbench.md) only has minimal control over ho
 A closer interaction between the workbenches is planed for future versions of FreeCAD. In those versions it is expected that long-standing issues be resolved, such as controlling the characteristics of lines and faces (line width, line color, face color, hatch patterns, and others).
 
 
-{{Tutorials navi
+   {{TechDraw Tools navi}}
 
-}}   {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Tutorial for open windows/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/hr

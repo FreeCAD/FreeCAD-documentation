@@ -193,7 +193,7 @@ There is no technical support for the open source code, and it is probably diffi
 
 ### PolyFEM
 
-[PolyFEM](https://polyfem.github.io/) is PolyFEM is a simple C++ and Python finite element library. We provide a wide set of common PDEs including: Laplace, Helmholtz, Linear Elasticity, Saint-Venant Elasticity, Neo-Hookean Elasticity and Stokes. [PolyFEM (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=42857).
+[PolyFEM](https://polyfem.github.io/) is a simple C++ and Python finite element library. We provide a wide set of common partial differential equations including: Laplace, Helmholtz, Linear Elasticity, Saint-Venant Elasticity, Neo-Hookean Elasticity and Stokes. [PolyFEM (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=42857).
 
 ### Sparselizard
 
@@ -218,5 +218,7 @@ Technog was successfully used in FreeCAD as a substitute of CalculiX, although t
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM Solver/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM Solver/hr

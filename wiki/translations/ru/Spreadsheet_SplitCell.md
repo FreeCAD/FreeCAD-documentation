@@ -27,5 +27,7 @@ The **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Spreadshee
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SplitCell/ru

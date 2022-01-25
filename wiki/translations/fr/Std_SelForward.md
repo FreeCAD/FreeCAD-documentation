@@ -32,5 +32,7 @@ La commande **Std Établir** restaure la sélection suivante enregistrée de la 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SelForward/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SelForward/fr

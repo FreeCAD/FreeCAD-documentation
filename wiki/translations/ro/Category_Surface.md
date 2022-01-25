@@ -3,12 +3,11 @@ This category lists pages related to the [Surface Workbench/ro](Surface_Workbenc
 
 ### Contents:
 
-  ------------------------------------------------------------- ----------------------------------------------------- ---------------------------------------------------------------------
+    
   [Surface CurveOnMesh/ro](Surface_CurveOnMesh/ro.md)   [Surface Filling/ro](Surface_Filling/ro.md)   [Surface GeomFillSurface/ro](Surface_GeomFillSurface/ro.md)
-  [Surface Workbench/ro](Surface_Workbench/ro.md)                                                             
-  ------------------------------------------------------------- ----------------------------------------------------- ---------------------------------------------------------------------
+  [Surface Workbench/ro](Surface_Workbench/ro.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/ro](<img src="images/Property.png" style="width:16px"> Workbenches/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:Surface/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Surface/ro

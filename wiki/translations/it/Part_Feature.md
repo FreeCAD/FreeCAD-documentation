@@ -293,5 +293,7 @@ If desired, the `Label` attribute can be changed to a more meaningful text.
 
  {{Document objects navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Feature/it

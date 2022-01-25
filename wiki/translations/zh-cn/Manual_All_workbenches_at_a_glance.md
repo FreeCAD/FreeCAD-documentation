@@ -19,7 +19,7 @@ Part 工作台提供了处理实体零件的基本工具：基础几何体，例
 <div class="mw-translate-fuzzy">
 
   工具                                                                                                               说明                                               工具                                                                                                                               说明
-  ------------------------------------------------------------------------------------------------------------------ -------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------
+     
   <img alt="" src=images/Part_Box.png  style="width:32px;"> [Box](Part_Box.md)                                        绘制长方体                                         <img alt="" src=images/Part_Cone.png  style="width:32px;"> [Cone](Part_Cone.md)                                                    绘制圆锥
   <img alt="" src=images/Part_Cylinder.png  style="width:32px;"> [Cylinder](Part_Cylinder.md)                    绘制圆柱体                                         <img alt="" src=images/Part_Sphere.png  style="width:32px;"> [Sphere](Part_Sphere.md)                                            绘制球体
   <img alt="" src=images/Part_Torus.png  style="width:32px;"> [Torus](Part_Torus.md)                                绘制圆环体（环）                                   <img alt="" src=images/Part_CreatePrimitives.png  style="width:32px;"> [Create primitives](Part_CreatePrimitives.md)   创建各种其他参数化的几何图元
@@ -45,7 +45,7 @@ Draft 工作台提供了执行基本 2D CAD 绘图任务的工具：直线，圆
 <div class="mw-translate-fuzzy">
 
   工具                                                                                                                    描述                                            工具                                                                                                               描述
-  ----------------------------------------------------------------------------------------------------------------------- ----------------------------------------------- ------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------
+     
   <img alt="" src=images/Draft_Line.png  style="width:32px;"> [Line](Draft_Line.md)                                      在 2 个点之间绘制线段                           <img alt="" src=images/Draft_Wire.png  style="width:32px;"> [Wire](Draft_Wire.md)                                 绘制由多个线段组成的线（折线）
   <img alt="" src=images/Draft_Circle.png  style="width:32px;"> [Circle](Draft_Circle.md)                              以中心和半径绘制一个圆                          <img alt="" src=images/Draft_Arc.png  style="width:32px;"> [Arc](Draft_Arc.md)                                     以中心，半径，起始角度和结束角度绘制弧段
   <img alt="" src=images/Draft_Ellipse.png  style="width:32px;">[Ellipse](Draft_Ellipse.md)                           以两个角点绘制一个椭圆                          <img alt="" src=images/Draft_Polygon.png  style="width:32px;"> [Polygon](Draft_Polygon.md)                     以中心和半径绘制正多边形
@@ -72,7 +72,7 @@ Sketcher 工作台包含用于构建和编辑复杂 2D 对象的工具，称为�
 <div class="mw-translate-fuzzy">
 
   工具                                                                                                                                                            描述                                                                             工具                                                                                                                                                      描述
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------
+     
   <img alt="" src=images/Sketcher_CreatePoint.png  style="width:32px;"> [Point](Sketcher_CreatePoint.md)                                               画出一点                                                                         <img alt="" src=images/Sketcher_Line.png  style="width:32px;"> [Line](Sketcher_CreateLine.md)                                                         以 2 个点绘制线段
   <img alt="" src=images/Sketcher_Arc.png  style="width:32px;"> [Arc](Sketcher_CreateArc.md)                                                                   以中心，半径，起始角度和结束角度绘制弧段                                         <img alt="" src=images/Sketcher_CreateArc3Point.png  style="width:32px;"> [Arc 3 points](Sketcher_Create3PointArc.md)                      以两个端点和圆周上的另一个点绘制弧段
   <img alt="" src=images/Sketcher_Circle.png  style="width:32px;"> [Circle](Sketcher_CreateCircle.md)                                                       以中心和半径绘制一个圆                                                           <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="width:32px;"> [ Circle 3 points](Sketcher_Create3PointCircle.md)         以圆周上的三个点绘制一个圆
@@ -106,7 +106,7 @@ Part Design 工作台包含用于构建实体零件的高级工具，还包含 S
 <div class="mw-translate-fuzzy">
 
   工具                                                                                                                                     描述                               工具                                                                                                                                        描述
-  ---------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------
+     
   <img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Pad](PartDesign_Pad.md)                                            用选定草图拉伸出实体对象           <img alt="" src=images/PartDesign_Pocket.png  style="width:32px;"> [Pocket](PartDesign_Pocket.md)                                   用选定的草图创建一个凹坑。草图必须贴附于现有实体对象的面
   <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Revolution](PartDesign_Revolution.md)                通过围绕轴旋转草图来创建实体       <img alt="" src=images/PartDesign_Groove.png  style="width:32px;"> [Groove](PartDesign_Groove.md)                                   通过围绕轴旋转草图来创建凹槽
   <img alt="" src=images/PartDesign_Fillet.png  style="width:32px;"> [Fillet](PartDesign_Fillet.md)                                给对象的边缘做圆角                 <img alt="" src=images/PartDesign_Chamfer.png  style="width:32px;"> [Chamfer](PartDesign_Chamfer.md)                               给对象的边缘做倒角
@@ -126,7 +126,7 @@ Arch 工作台包含用于处理 [BIM](https://en.wikipedia.org/wiki/Building_in
 <div class="mw-translate-fuzzy">
 
   Tool                                                                                                  Description                            Tool                                                                                                               Description
-  ----------------------------------------------------------------------------------------------------- -------------------------------------- ------------------------------------------------------------------------------------------------------------------ --------------------------------------------
+     
   <img alt="" src=images/Arch_Wall.png  style="width:32px;"> [Wall](Arch_Wall.md)                       从头开始创建墙或使用选定对象作为基础   <img alt="" src=images/Arch_Structure.png  style="width:32px;"> [Structure](Arch_Structure.md)                从头开始创建结构元素或使用选定对象作为基础
   <img alt="" src=images/Arch_Rebar.png  style="width:32px;"> [Rebar](Arch_Rebar.md)                   在选定的结构元素中创建钢筋             <img alt="" src=images/Arch_Floor.png  style="width:32px;"> [Floor](Arch_Floor.md)                                创建包含所选对象的楼板
   <img alt="" src=images/Arch_Building.png  style="width:32px;"> [Building](Arch_Building.md)       创建包含所选对象的建筑物               <img alt="" src=images/Arch_Site.png  style="width:32px;"> [Site](Arch_Site.md)                                    创建包含所选对象的场地
@@ -158,7 +158,7 @@ The Drawing Workbench handles the creation and manipulation of 2D drawing sheets
 <div class="mw-translate-fuzzy">
 
   工具                                                                                                                    描述                                          工具                                                                                                                描述
-  ----------------------------------------------------------------------------------------------------------------------- --------------------------------------------- ------------------------------------------------------------------------------------------------------------------- ----------------------------------------
+     
   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> [New sheet](Drawing_Landscape_A3.md)   创建一张新的图纸                              <img alt="" src=images/Drawing_View.png  style="width:32px;"> [View](Drawing_View.md)                            在活动图纸中插入所选对象的视图
   <img alt="" src=images/Drawing_Annotation.png  style="width:32px;"> [Annotation](Drawing_Annotation.md)        向当前图纸添加注释                            <img alt="" src=images/Drawing_Clip.png  style="width:32px;"> [Clip](Drawing_Clip.md)                            将剪辑组添加到当前图纸（？）
   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> [Open browser](Drawing_Openbrowser.md)   在浏览器中打开当前工作表的预览                <img alt="" src=images/Drawing_Orthoviews.png  style="width:32px;"> [Ortho views](Drawing_Orthoviews.md)   在当前工程图纸上自动创建对象的正交视图
@@ -214,5 +214,7 @@ The Drawing Workbench handles the creation and manipulation of 2D drawing sheets
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Manual:All workbenches at a glance/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:All workbenches at a glance/zh-cn

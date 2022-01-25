@@ -100,9 +100,9 @@ Crea uno scavo con la forma di uno schizzo in un solido di base, con la profondi
 
 Ecco una ottima definizione dei parametri dei fori dalla specifica di NaroCad:
 
-  ----------------------------------------------------------------------- ------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
   <img alt="" src=images/Counterbore_settings.png  style="width:300px;">   <img alt="" src=images/Counterbore_settings2.png  style="width:300px;">   <img alt="" src=images/Countersink_settings.png  style="width:300px;">
-  ----------------------------------------------------------------------- ------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
 
   : **NaroCAD Bore definitions**
 
@@ -262,7 +262,5 @@ Ruota uno schizzo lungo uno dei suoi assi e di un certo angolo.
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/it

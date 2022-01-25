@@ -70,5 +70,7 @@ Robot kod ve bir vrml dosyası aracılığıyla tanımlanmalıdır, daha
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/tr

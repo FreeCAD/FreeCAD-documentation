@@ -3,7 +3,7 @@ This category gathers documentation article mostly aimed at programmers
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [Add FEM Equation Tutorial/ru](Add_FEM_Equation_Tutorial/ru.md)                           [ANSI templates/ru](ANSI_templates/ru.md)                                                 [AppImage/ru](AppImage/ru.md)
   [Artwork Erroneous/ru](Artwork_Erroneous/ru.md)                                           [Artwork Guidelines/ru](Artwork_Guidelines/ru.md)                                         [Artwork/ru](Artwork/ru.md)
   [Branding/ru](Branding/ru.md)                                                             [Bug Triage/ru](Bug_Triage/ru.md)                                                         [Code snippets/ru](Code_snippets/ru.md)
@@ -35,10 +35,9 @@ This category gathers documentation article mostly aimed at programmers
   [Start up and Configuration/ru](Start_up_and_Configuration/ru.md)                         [Testing/ru](Testing/ru.md)                                                               [The FreeCAD source code/ru](The_FreeCAD_source_code/ru.md)
   [Third Party Libraries/ru](Third_Party_Libraries/ru.md)                                   [Third Party Tools/ru](Third_Party_Tools/ru.md)                                           [Topological data scripting/ru](Topological_data_scripting/ru.md)
   [Tracker/ru](Tracker/ru.md)                                                               [Translating an external workbench/ru](Translating_an_external_workbench/ru.md)           [Workbench creation/ru](Workbench_creation/ru.md)
-  [Wrapping a Cplusplus class in Python/ru](Wrapping_a_Cplusplus_class_in_Python/ru.md)                                                                                                       
-  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+  [Wrapping a Cplusplus class in Python/ru](Wrapping_a_Cplusplus_class_in_Python/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/ru](<img src="images/Property.png" style="width:16px"> Documentation/ru.md) [<img src="images/Property.png" style="width:16px"> Document object/ru](<img src="images/Property.png" style="width:16px"> Document_object/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/ru

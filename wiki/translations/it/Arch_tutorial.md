@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/it
+   Topic:Modellazione
+   Level:Intermedio
+   Time:
+   Author:[Yorik](User_Yorik.md)
+   FCVersion:0.14
+   Files:
+---
+
 # Arch tutorial/it
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it
-|Topic=Modellazione
-|Level=Intermedio
-|Time=
-|Author=[Yorik](User_Yorik.md)
-|FCVersion=0.14
-|Files=
-}}
 
 
 </div>
@@ -646,9 +652,6 @@ Spero che questo offra una buona panoramica degli strumenti disponibili, per ave
 Il file creato durante questo tutorial è disponibile [qui](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd)
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/it

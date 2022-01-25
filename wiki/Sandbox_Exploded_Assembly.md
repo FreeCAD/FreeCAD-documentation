@@ -90,7 +90,7 @@ To install manually download this repository as ZIP and:
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)
 
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
+
 
 ---
-[documentation index](../README.md) > Sandbox:Exploded Assembly
+![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:Exploded Assembly

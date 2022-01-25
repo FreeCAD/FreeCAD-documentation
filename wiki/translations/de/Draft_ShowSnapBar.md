@@ -49,5 +49,7 @@ Dieser Befehl zeigt die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste, die die
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShowSnapBar/de

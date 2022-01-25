@@ -51,9 +51,9 @@ Sono gli strumenti per trasformare gli elementi esistenti.
 
 Per vedere come creare gli schizzi di base fare riferimento alla pagina dedicata a [Sketcher](Sketcher_Workbench/it.md).
 
-Torna a [Esercitazioni](Esercitazioni.md) 
+Torna a [Esercitazioni](Esercitazioni.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md)
+
 
 ---
-[documentation index](../README.md) > [Test](Test_Workbench.md) > Test Ambiente PartDesign
+![](images/Right_arrow.png) [documentation index](../README.md) > [Test](Test_Workbench.md) > Test Ambiente PartDesign

@@ -106,9 +106,9 @@ Una muy buena definición de parámetros de taladros de la especificación de Na
 
 </div>
 
-  ----------------------------------------------------------------------- ------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
   <img alt="" src=images/Counterbore_settings.png  style="width:300px;">   <img alt="" src=images/Counterbore_settings2.png  style="width:300px;">   <img alt="" src=images/Countersink_settings.png  style="width:300px;">
-  ----------------------------------------------------------------------- ------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
 
   : **NaroCAD Bore definitions**
 
@@ -272,7 +272,5 @@ Gira un croquis alrededor de un eje un cierto ángulo.
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/es

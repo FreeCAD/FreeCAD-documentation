@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to PartDesign
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------
+    
   [Basic Part Design Tutorial/es](Basic_Part_Design_Tutorial/es.md)               [Creating a simple part with PartDesign/es](Creating_a_simple_part_with_PartDesign/es.md)   [Feature editing/es](Feature_editing/es.md)
   [Part and PartDesign/es](Part_and_PartDesign/es.md)                             [PartDesign AdditiveBox/es](PartDesign_AdditiveBox/es.md)                                   [PartDesign AdditiveCone/es](PartDesign_AdditiveCone/es.md)
   [PartDesign AdditiveCylinder/es](PartDesign_AdditiveCylinder/es.md)             [PartDesign AdditiveEllipsoid/es](PartDesign_AdditiveEllipsoid/es.md)                       [PartDesign AdditiveHelix/es](PartDesign_AdditiveHelix/es.md)
@@ -21,8 +21,9 @@ This category includes FreeCAD pages related to PartDesign
   [PartDesign SubtractiveCylinder/es](PartDesign_SubtractiveCylinder/es.md)       [PartDesign SubtractiveEllipsoid/es](PartDesign_SubtractiveEllipsoid/es.md)                 [PartDesign SubtractivePipe/es](PartDesign_SubtractivePipe/es.md)
   [PartDesign SubtractivePrism/es](PartDesign_SubtractivePrism/es.md)             [PartDesign SubtractiveSphere/es](PartDesign_SubtractiveSphere/es.md)                       [PartDesign SubtractiveTorus/es](PartDesign_SubtractiveTorus/es.md)
   [PartDesign SubtractiveWedge/es](PartDesign_SubtractiveWedge/es.md)             [PartDesign Thickness/es](PartDesign_Thickness/es.md)                                       [PartDesign WizardShaft/es](PartDesign_WizardShaft/es.md)
-  [Toothbrush Head Stand/es](Toothbrush_Head_Stand/es.md)                         [Topological naming problem/es](Topological_naming_problem/es.md)                           
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------
+  [Toothbrush Head Stand/es](Toothbrush_Head_Stand/es.md)                         [Topological naming problem/es](Topological_naming_problem/es.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:PartDesign/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:PartDesign/es

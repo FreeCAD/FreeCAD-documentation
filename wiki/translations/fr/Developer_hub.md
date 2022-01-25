@@ -1,5 +1,8 @@
-# Developer hub/fr
-![150](images/Crystal_Clear_app_tutorials.png )
+# <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> Developer hub/fr
+
+
+
+
 
 Vous êtes ici à l\'endroit idéal pour vous documenter, si vous voulez contribuer au développement du logiciel FreeCAD.
 
@@ -122,8 +125,5 @@ FreeCAD, bien qu\'utilisable dans certains domaines, n\'est qu\'au début d\'un 
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/fr

@@ -3,7 +3,7 @@ Tutoriales de FreeCAD. Por favor, ayúdanos añadiendo más!
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
+    
   [Advanced TechDraw Tutorial/es](Advanced_TechDraw_Tutorial/es.md)                     [Aeroplane/es](Aeroplane/es.md)                                                                       [Analysis of reinforced concrete with FEM/es](Analysis_of_reinforced_concrete_with_FEM/es.md)
   [Arch tutorial/es](Arch_tutorial/es.md)                                               [Basic modeling tutorial/es](Basic_modeling_tutorial/es.md)                                           [Basic Part Design Tutorial/es](Basic_Part_Design_Tutorial/es.md)
   [Basic Sketcher Tutorial/es](Basic_Sketcher_Tutorial/es.md)                           [Creating a simple part with PartDesign/es](Creating_a_simple_part_with_PartDesign/es.md)             [Customize Toolbars/es](Customize_Toolbars/es.md)
@@ -20,10 +20,9 @@ Tutoriales de FreeCAD. Por favor, ayúdanos añadiendo más!
   [TechDraw HowTo Page/es](TechDraw_HowTo_Page/es.md)                                   [Toothbrush Head Stand/es](Toothbrush_Head_Stand/es.md)                                               [Template:TutorialInfo/es](Template:TutorialInfo/es.md)
   [Tutorials/es](Tutorials/es.md)                                                       [Video tutorials for architectural design/es](Video_tutorials_for_architectural_design/es.md)         [Video tutorials for product design/es](Video_tutorials_for_product_design/es.md)
   [Video tutorials obsolete/es](Video_tutorials_obsolete/es.md)                         [Video tutorials/es](Video_tutorials/es.md)                                                           [VRML Preparation for Robot Simulation/es](VRML_Preparation_for_Robot_Simulation/es.md)
-  [Wikihouse porting tutorial/es](Wikihouse_porting_tutorial/es.md)                                                                                                                                   
-  --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
+  [Wikihouse porting tutorial/es](Wikihouse_porting_tutorial/es.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/es](<img src="images/Property.png" style="width:16px"> Categories/es.md)
+
 
 ---
-[documentation index](../README.md) > Category:Tutorials/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/es

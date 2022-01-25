@@ -26,8 +26,5 @@ A partir desse navegador você é capaz de navegar na web, clicar em links, ler 
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Web](Category_Web.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Category_Web.md) > [Workbenches](Category_Workbenches.md) > Web Workbench/pt-br

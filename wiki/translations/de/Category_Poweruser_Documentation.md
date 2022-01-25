@@ -3,7 +3,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [Arch API/de](Arch_API/de.md)                                                       [Base API/de](Base_API/de.md)                                                                         [Builtin modules/de](Builtin_modules/de.md)
   [Code snippets/de](Code_snippets/de.md)                                             [Coin3d snippets/de](Coin3d_snippets/de.md)                                                           [Command/de](Command/de.md)
   [Console API/de](Console_API/de.md)                                                 [Create a FeaturePython object part I/de](Create_a_FeaturePython_object_part_I/de.md)                 [Create a FeaturePython object part II/de](Create_a_FeaturePython_object_part_II/de.md)
@@ -33,10 +33,8 @@ This category shows documentation articles dealing with python scripting, which 
   [Svg Namespace/de](Svg_Namespace/de.md)                                             [TechDraw API/de](TechDraw_API/de.md)                                                                 [TechDrawGui API/de](TechDrawGui_API/de.md)
   [Topological data scripting/de](Topological_data_scripting/de.md)                   [TopoShape API/de](TopoShape_API/de.md)                                                               [Units/de](Units/de.md)
   [Vector API/de](Vector_API/de.md)                                                   [ViewObject API/de](ViewObject_API/de.md)                                                             [Workbench creation/de](Workbench_creation/de.md)
-                                                                                                                                                                                                            
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/de](<img src="images/Property.png" style="width:16px"> Documentation/de.md) [<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md)
+
 
 ---
-[documentation index](../README.md) > Category:Poweruser Documentation/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Poweruser Documentation/de

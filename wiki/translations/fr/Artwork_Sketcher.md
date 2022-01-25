@@ -52,5 +52,7 @@ Par le passé, les icônes `.xpm` étaient utilisées comme superpositions lors 
 
 }} {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Sketcher/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher/fr

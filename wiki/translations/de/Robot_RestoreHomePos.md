@@ -46,5 +46,7 @@ Wenn über [Robot\_SetHomePos](Robot_SetHomePos.md) keine Ausgangsposition festg
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/de

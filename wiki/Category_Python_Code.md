@@ -3,7 +3,7 @@ This category contains python code examples for FreeCAD
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+    
   [Code snippets](Code_snippets.md)                                                   [Command](Command.md)                                                                       [Create a FeaturePython object part I](Create_a_FeaturePython_object_part_I.md)
   [Create a FeaturePython object part II](Create_a_FeaturePython_object_part_II.md)   [Custom icon in tree view](Custom_icon_in_tree_view.md)                                     [Debugging](Debugging.md)
   [Dialog creation](Dialog_creation.md)                                               [Dialog creation image and animated GIF](Dialog_creation_image_and_animated_GIF.md)         [Dialog creation reading and writing files](Dialog_creation_reading_and_writing_files.md)
@@ -24,10 +24,9 @@ This category contains python code examples for FreeCAD
   [Scripted objects migration](Scripted_objects_migration.md)                         [Scripted objects saving attributes](Scripted_objects_saving_attributes.md)                 [Scripted objects with attachment](Scripted_objects_with_attachment.md)
   [Scripted Parts: Ball Bearing - Part 1](Scripted_Parts:_Ball_Bearing_-_Part_1.md)   [Scripted Parts: Ball Bearing - Part 2](Scripted_Parts:_Ball_Bearing_-_Part_2.md)           [Scripting and macros](Scripting_and_macros.md)
   [Scripts](Scripts.md)                                                               [Svg Namespace](Svg_Namespace.md)                                                           [Topological data scripting](Topological_data_scripting.md)
-  [Viewprovider](Viewprovider.md)                                                     [Workbench creation](Workbench_creation.md)                                                 
-  ------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+  [Viewprovider](Viewprovider.md)                                                     [Workbench creation](Workbench_creation.md)
 
-[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md)
+
 
 ---
-[documentation index](../README.md) > Category:Python Code
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Python Code

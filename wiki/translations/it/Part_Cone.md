@@ -49,7 +49,7 @@ The cone properties can later be edited, either in the [Property editor](Propert
 
 ## Opzioni
 
-+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/PartConeProperty_en.png ) |                                                                                                                                                                                         |
 |                                                        | **Cone**                                                                                                                                                                                           |
 |                                                        |                                                                                                                                                                                                     |
@@ -57,7 +57,7 @@ The cone properties can later be edited, either in the [Property editor](Propert
 |                                                        | -   **Radius 2:** raggio dell\'arco o del cerchio che definisce la faccia superiore                                                                                                                    |
 |                                                        | -   **Height:** l\'altezza del cono                                                                                                                                                                    |
 |                                                        | -   **Angle:** il numero di gradi dell\'arco che definisce le facce superiore e inferiore del cono. Il valore 360° predefinito crea facce circolari, un valore inferiore crea una porzione di un cono. |
-+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 </div>
@@ -91,5 +91,7 @@ cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/it

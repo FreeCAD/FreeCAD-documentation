@@ -46,5 +46,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SendToPythonConsole/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SendToPythonConsole/ko

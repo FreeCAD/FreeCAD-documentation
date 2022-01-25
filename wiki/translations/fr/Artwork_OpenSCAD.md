@@ -12,9 +12,9 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> OpenSCAD](Category_OpenSCAD.md)
+
 
 ---
-[documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > Artwork OpenSCAD/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > Artwork OpenSCAD/fr

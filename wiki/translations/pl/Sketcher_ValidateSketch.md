@@ -83,5 +83,7 @@ Mechanizm blokujący zazwyczaj działa dobrze i narzędzie to nie powinno być p
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ValidateSketch/pl

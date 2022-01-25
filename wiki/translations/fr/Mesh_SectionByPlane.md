@@ -32,5 +32,7 @@ Voir: [Part Feature](Part_Feature/fr.md).
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SectionByPlane/fr

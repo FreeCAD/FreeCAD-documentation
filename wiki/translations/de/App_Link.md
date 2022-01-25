@@ -31,5 +31,7 @@ Siehe die vollständige Liste der Eigenschaften auf der [Std VerknüpfungHerstel
 
 }} {{Document objects navi}}
 
+
+
 ---
-[documentation index](../README.md) > App Link/de
+![](images/Right_arrow.png) [documentation index](../README.md) > App Link/de

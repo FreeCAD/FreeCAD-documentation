@@ -158,9 +158,6 @@ doc.recompute()
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Arch/es](<img src="images/Property.png" style="width:16px"> Arch/es.md)
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Roof/es

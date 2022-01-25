@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic:Schiff Arbeitsbereich
+   Level:Anfänger
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # FreeCAD-Ship s60 tutorial/de
-{{TutorialInfo/de
-|Topic=Schiff Arbeitsbereich
-|Level=Anfänger
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## Einführung
 
@@ -307,5 +313,7 @@ Das [FreeCAD Schiff s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md) ist
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD-Ship s60 tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial/de

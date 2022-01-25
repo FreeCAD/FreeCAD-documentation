@@ -44,5 +44,7 @@
 
 {{Artwork/ru}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Drawing/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Drawing/ru

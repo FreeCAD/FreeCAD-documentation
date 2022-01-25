@@ -44,5 +44,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DuplicateSelection/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DuplicateSelection/ko

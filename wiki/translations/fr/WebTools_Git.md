@@ -123,5 +123,7 @@ Alternativement, si vous souhaitez invoquer fcinfo avec des arguments (par exemp
 [diff "fcinfo"]
 textconv = sh -c '/path/to/fcinfo --gui "$0"'
 
+
+
 ---
-[documentation index](../README.md) > WebTools Git/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Git/fr

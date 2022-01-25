@@ -40,5 +40,7 @@ To polecenie obsługuje obecnie tylko pięć ustawień:
 
 -   W wersji FreeCAD v0.20 polecenie [Ustaw styl](Draft_SetStyle/pl.md) może również zastosować te ustawienia.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/pl

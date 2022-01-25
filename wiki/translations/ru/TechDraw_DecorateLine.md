@@ -53,5 +53,7 @@ DecorateLine is not accessible from [macros](Macros.md) or the [Python](Python.m
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/ru

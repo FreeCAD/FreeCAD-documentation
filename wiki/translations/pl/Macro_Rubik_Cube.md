@@ -1675,5 +1675,7 @@ ToolBar Icon <img alt="" src=images/Macro_Rubik_Cube.png  style="width:64px;">
 
     restoreCursor()
 
+
+
 ---
-[documentation index](../README.md) > Macro Rubik Cube/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Rubik Cube/pl

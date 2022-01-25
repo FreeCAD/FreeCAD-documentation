@@ -24,5 +24,7 @@ La contrainte accepte les bords droits et les faces planes.
 2.  Sélectionnez un élément de bord droit ou un élément de face plane de chaque objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintPerpendicular.svg" width=16px> [Perpendicular](Assembly3_ConstraintPerpendicular/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPerpendicular/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPerpendicular/fr

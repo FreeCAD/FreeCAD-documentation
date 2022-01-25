@@ -166,5 +166,7 @@ L\'estrusione di Part può estrudere qualsiasi oggetto che abbia una Part Geomet
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/it

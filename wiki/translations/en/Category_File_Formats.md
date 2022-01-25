@@ -3,7 +3,7 @@ This category collects pages about all the different file formats that FreeCAD i
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------- -------------------------------------------------------------------
+    
   [Arch 3DS/en](Arch_3DS/en.md)                                                                       [Arch DAE/en](Arch_DAE/en.md)                                 [Arch IFC/en](Arch_IFC/en.md)
   [Arch JSON/en](Arch_JSON/en.md)                                                                     [Arch OBJ/en](Arch_OBJ/en.md)                                 [Arch SHP/en](Arch_SHP/en.md)
   [Asymptote/en](Asymptote/en.md)                                                                     [Draft DAT/en](Draft_DAT/en.md)                               [Draft DXF/en](Draft_DXF/en.md)
@@ -14,8 +14,9 @@ This category collects pages about all the different file formats that FreeCAD i
   [Import/Export IFC - compiling IfcOpenShell/en](Import/Export_IFC_-_compiling_IfcOpenShell/en.md)   [Importing From Sketchup/en](Importing_From_Sketchup/en.md)   [Macro 3DXML import/en](Macro_3DXML_import/en.md)
   [Macro FCBmpImport/en](Macro_FCBmpImport/en.md)                                                     [Material/en](Material/en.md)                                 [OpenSCAD CSG/en](OpenSCAD_CSG/en.md)
   [PDF/en](PDF/en.md)                                                                                 [Spreadsheet CSV/en](Spreadsheet_CSV/en.md)                   [Std Export/en](Std_Export/en.md)
-  [Std Import/en](Std_Import/en.md)                                                                   [SVG/en](SVG/en.md)                                           
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------- -------------------------------------------------------------------
+  [Std Import/en](Std_Import/en.md)                                                                   [SVG/en](SVG/en.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:File Formats/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:File Formats/en

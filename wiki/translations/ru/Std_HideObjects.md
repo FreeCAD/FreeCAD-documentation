@@ -40,5 +40,7 @@ The **Std HideObjects** command hides all objects belonging to the active docume
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std HideObjects/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std HideObjects/ru

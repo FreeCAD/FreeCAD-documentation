@@ -1,11 +1,11 @@
-# Tutorial custom placing of windows and doors/fr
-{{TutorialInfo/fr
-|Topic=Architecture
-|Level=Intermédiaire
-|Time=60 minutes
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 ou ultérieure
-|Files=aucun
+---
+- TutorialInfo:/fr
+   Topic:Architecture
+   Level:Intermédiaire
+   Time:60 minutes
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 ou ultérieure
+   Files:aucun
 }}
 
 ## Introduction
@@ -31,9 +31,9 @@ Voir également la page suivante pour quelques vidéos sur la façon d\'aligner 
 
 1\. Ouvrez FreeCAD, créez un nouveau document vide et passez à l\'[atelier Arch](Arch_Workbench/fr.md)
 
-2\. Assurez-vous que vos unités sont correctement définies dans le menu **Edition → Préférences → Général → Unités**. Par exemple, `MKS (m/kg/s/degré)` est bon pour gérer les distances dans un bâtiment typique; de plus, définissez le nombre de décimales sur `4` pour considérer même les plus petites fractions du mètre.
+2\. Assurez-vous que vos unités sont correctement définies dans le menu **Edition → Préférences → Général → Unités**. Par exemple, {{incode   MKS (m/kg/s/degré)}} est bon pour gérer les distances dans un bâtiment typique; de plus, définissez le nombre de décimales sur {{incode   4}} pour considérer même les plus petites fractions du mètre.
 
-3\. Utilisez le bouton [Draft Visibilité de la grille](Draft_ToggleGrid/fr.md) pour afficher une grille avec une résolution suffisante. Vous pouvez modifier l\'apparence de la grille dans le menu **Edition → Préférences → Draft → Grille et ancrage → Grille**. Définissez des lignes tous les `50 mm`, avec des lignes principales toutes les `20` lignes (tous les mètres) et `1000 lignes` au total (la grille couvre une superficie de 50 mx 50 m).
+3\. Utilisez le bouton [Draft Visibilité de la grille](Draft_ToggleGrid/fr.md) pour afficher une grille avec une résolution suffisante. Vous pouvez modifier l\'apparence de la grille dans le menu **Edition → Préférences → Draft → Grille et ancrage → Grille**. Définissez des lignes tous les {{incode   50 mm}}, avec des lignes principales toutes les {{incode   20}} lignes (tous les mètres) et {{incode   1000 lignes}} au total (la grille couvre une superficie de 50 mx 50 m).
 
 4\. [Zoom arrière](Std_ViewZoomOut/fr.md) de la vue 3D si vous êtes trop près de la grille.
 
@@ -43,11 +43,11 @@ Nous sommes maintenant prêts à créer un mur simple sur lequel nous pouvons po
 
 5\. Utilisez l\'outil [Draft Fil](Draft_Wire/fr.md) pour créer un fil. Allez dans le sens antihoraire.
 
-:   5.1. Premier point dans (0, 4, 0); dans la boîte de dialogue, saisissez **0** **m** **Enter**, **4** **m** **Enter**, {{ KEY\|0}} **m** **Enter**.
-:   5.2. Deuxième point dans (2, 0, 0); dans la boîte de dialogue, saisissez **2** **m** **Enter**, **0** **m** **Enter**, {{ KEY\|0}} **m** **Enter**.
-:   5.3. Troisième point dans (4, 0, 0); dans la boîte de dialogue, saisissez **4** **m** **Enter**, **0** **m** **Enter**, {{ KEY\|0}} **m** **Enter**.
-:   5.4. Quatrième point dans (6, 2, 0); dans la boîte de dialogue, entrez **6** **m** **Enter**, **2** **m** **Enter**, {{ KEY\|0}} **m** **Enter**.
-:   5.4. Cinquième point dans (6, 5, 0); dans la boîte de dialogue, saisissez **6** **m** **Enter**, **5** **m** **Enter**, {{ KEY\|0}} **m** **Enter**.
+:   5.1. Premier point dans (0, 4, 0); dans la boîte de dialogue, saisissez **0** **m** **Enter**, **4** **m** **Enter**, {{ KEY\   0}} **m** **Enter**.
+:   5.2. Deuxième point dans (2, 0, 0); dans la boîte de dialogue, saisissez **2** **m** **Enter**, **0** **m** **Enter**, {{ KEY\   0}} **m** **Enter**.
+:   5.3. Troisième point dans (4, 0, 0); dans la boîte de dialogue, saisissez **4** **m** **Enter**, **0** **m** **Enter**, {{ KEY\   0}} **m** **Enter**.
+:   5.4. Quatrième point dans (6, 2, 0); dans la boîte de dialogue, entrez **6** **m** **Enter**, **2** **m** **Enter**, {{ KEY\   0}} **m** **Enter**.
+:   5.4. Cinquième point dans (6, 5, 0); dans la boîte de dialogue, saisissez **6** **m** **Enter**, **5** **m** **Enter**, {{ KEY\   0}} **m** **Enter**.
 :   5.5. Sur le pavé numérique, appuyez sur **A** pour terminer le fil.
 :   5.6. Dans le pavé numérique, appuyez sur **0** pour obtenir une [vue axonométrique](Std_View_Menu/fr.md) du modèle.
 :   
@@ -58,7 +58,7 @@ Nous sommes maintenant prêts à créer un mur simple sur lequel nous pouvons po
     **Note 3:**vous pouvez également créer des formes par programmation en créant des scripts dans [Python](Python/fr.md). Attention, la plupart des fonctions attendent leur saisie en millimètres.
 
 
-```python
+{{Code   code:
 import FreeCAD
 import Draft
 
@@ -69,8 +69,11 @@ FreeCAD.Vector(6000.0, 2000.0, 0.0),
 FreeCAD.Vector(6000.0, 5000.0, 0.0)]
 
 w = Draft.makeWire(p, closed=False)
-```
+---
 
+# Tutorial custom placing of windows and doors/fr
+
+ 
 6\. Sélectionnez `DWire` et cliquez sur l\'outil [Arch Mur](Arch_Wall/fr.md); le mur est immédiatement créé avec une largeur (épaisseur) par défaut de 0,2 m et une hauteur de 3 m.
 
 <img alt="" src=images/01_T02_wire_wall.png  style="width:600px;">
@@ -343,9 +346,9 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 ```
 
 
-{{Tutorials navi
+   {{Sketcher Tools navi}}
 
-}}   {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Tutorial custom placing of windows and doors/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/fr

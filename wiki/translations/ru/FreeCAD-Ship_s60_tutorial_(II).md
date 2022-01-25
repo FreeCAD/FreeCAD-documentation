@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/ru
+   Topic:Ship Workbench
+   Level: Beginner
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # FreeCAD-Ship s60 tutorial (II)/ru
-{{TutorialInfo/ru
-|Topic=Ship Workbench
-|Level= Beginner
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## Overview
 
@@ -198,5 +204,7 @@ Of course this example is not real (first for all fuel tanks cannot be placed in
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/ru

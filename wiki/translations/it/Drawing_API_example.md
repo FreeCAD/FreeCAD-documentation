@@ -239,11 +239,9 @@ Inputs for linear dimension are:
 With those two, you can proceed as above for displaying them on the drawing page. This module is very buggy and can be broken at any given moment, bug reports are welcome on the github page for now, or contact jcc242 on the forums if you post a bug somewhere else.
 
 
-{{Powerdocnavi
+ {{Drawing Tools navi}}
 
-}} {{Drawing Tools navi}} 
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > [Drawing](Drawing_Workbench.md) > Drawing API example/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Drawing](Drawing_Workbench.md) > Drawing API example/it

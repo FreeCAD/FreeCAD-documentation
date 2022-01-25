@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/it
+   Topic:Ambiente Path
+   Level:
+   Time:
+   Author:Chrisb
+   FCVersion:
+   Files:
+---
+
 # Path Walkthrough for the Impatient/it
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it
-|Topic=Ambiente Path
-|Level=
-|Time=
-|Author=Chrisb
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -318,9 +324,9 @@ Il passaggio finale per generare il G-Code per la fresatura è di postelaborare 
 </div>
 
 
-{{Tutorials navi
+ {{Path Tools navi}}
 
-}} {{Path Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/it

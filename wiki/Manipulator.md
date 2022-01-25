@@ -7,9 +7,7 @@ A **manipulator** can be used to modify an object\'s appearance, shape, or other
 
 -   Double-click on a Part object or PartDesign feature in the Model tree
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator

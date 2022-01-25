@@ -3,12 +3,10 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
-  ----------------------------------------------- ----------------------------------------------------------- -----------------------------------------------------------------
+    
   [Debugging/zh-tw](Debugging/zh-tw.md)   [Power users hub/zh-tw](Power_users_hub/zh-tw.md)   [Workbench creation/zh-tw](Workbench_creation/zh-tw.md)
-                                                                                                              
-  ----------------------------------------------- ----------------------------------------------------------- -----------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/zh-tw](<img src="images/Property.png" style="width:16px"> Documentation/zh-tw.md)
+
 
 ---
-[documentation index](../README.md) > Category:Poweruser Documentation/zh-tw
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Poweruser Documentation/zh-tw

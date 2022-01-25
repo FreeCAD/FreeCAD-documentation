@@ -65,5 +65,7 @@ App.ActiveDocument.recompute()
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std TextDocument
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TextDocument

@@ -190,5 +190,7 @@ Questa sezione elenca una serie di comandi che non sono ancora inclusi in questo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > ManualPartDesign/it
+![](images/Right_arrow.png) [documentation index](../README.md) > ManualPartDesign/it

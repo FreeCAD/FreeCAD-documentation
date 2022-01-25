@@ -25,5 +25,7 @@ Lo strumento Box di BIM consente di creare un [Cuboide](Part_Box/it.md) standard
 4.  Fare clic su un terzo punto per definire una prima faccia della scatola, ortogonale al primo bordo
 5.  Fare clic su un quarto punto per definire la distanza di estrusione della prima faccia, formando la scatola difinitiva
 
+
+
 ---
-[documentation index](../README.md) > BIM Box/it
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Box/it

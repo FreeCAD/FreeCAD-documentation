@@ -3,7 +3,7 @@ This category lists pages related to the [Mesh Workbench](Mesh_Workbench.md).
 
 ### Contents:
 
-  ------------------------------------------------------------------- --------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+    
   [Artwork Mesh](Artwork_Mesh.md)                             [Artwork MeshPart](Artwork_MeshPart.md)                       [Artwork MeshPart/pl](Artwork_MeshPart/pl.md)
   [Asymptote](Asymptote.md)                                   [Asymptote/pl](Asymptote/pl.md)                               [Manual:Preparing models for 3D printing](Manual_Preparing_models_for_3D_printing.md)
   [Mesh](Mesh.md)                                             [Mesh AddFacet](Mesh_AddFacet.md)                             [Mesh AddFacet/pl](Mesh_AddFacet/pl.md)
@@ -33,10 +33,9 @@ This category lists pages related to the [Mesh Workbench](Mesh_Workbench.md).
   [Mesh Union](Mesh_Union.md)                                 [Mesh Union/pl](Mesh_Union/pl.md)                             [Mesh VertexCurvature](Mesh_VertexCurvature.md)
   [Mesh VertexCurvature/pl](Mesh_VertexCurvature/pl.md)       [Mesh Workbench](Mesh_Workbench.md)                           [Mesh Workbench/pl](Mesh_Workbench/pl.md)
   [Mesh/pl](Mesh/pl.md)                                       [MeshPart CreateFlatFace](MeshPart_CreateFlatFace.md)         [MeshPart CreateFlatFace/pl](MeshPart_CreateFlatFace/pl.md)
-  [MeshPart CreateFlatMesh](MeshPart_CreateFlatMesh.md)       [MeshPart CreateFlatMesh/pl](MeshPart_CreateFlatMesh/pl.md)   
-  ------------------------------------------------------------------- --------------------------------------------------------------------- -----------------------------------------------------------------------------------------------
+  [MeshPart CreateFlatMesh](MeshPart_CreateFlatMesh.md)       [MeshPart CreateFlatMesh/pl](MeshPart_CreateFlatMesh/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Category:Mesh
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [User_Documentation](Category_User_Documentation.md) > Category:Mesh

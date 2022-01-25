@@ -94,5 +94,7 @@ Queste opzioni sono nel menu **Strumenti → Personalizza**. Vedere [Personalizz
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Interface/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface/it

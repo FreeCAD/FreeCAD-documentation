@@ -37,5 +37,7 @@ Questo strumento identifica e seleziona i mesh non-solido, non-[manifold](http:/
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/it

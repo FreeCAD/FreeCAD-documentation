@@ -172,5 +172,7 @@ Part Extrudieren kann jedes Objekt mit Part Geometrie (OCC Form) extrudieren, au
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Extrude/de

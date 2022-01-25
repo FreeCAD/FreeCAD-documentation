@@ -116,5 +116,7 @@ Domyślnie przyjmuje wartość {{false/pl}}. Przy ustawieniu tej opcji na warto�
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/pl

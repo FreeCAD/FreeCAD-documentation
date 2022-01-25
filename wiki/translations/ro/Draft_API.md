@@ -76,12 +76,6 @@ Draft.move(myrect, mydistance)
 {{APIFunction | getSVG | FreeCAD.Object, [linemodifier], [textmodifier], [(u, v)] | Creează o reprezentare SVG a obiectului dat. Atributul linemodifier este un factor de scalare (în procente) pentru lățimea liniei și textmodifier pentru dimensiunea textului. De asemenea, puteți furniza opțional o tuplă de vectori pentru a defini un plan de proiecție, altfel geometria va fi proiectată pe planul XY. | Un șir care conține o reprezentare SVG a obiectului dat.}}
 
 
- 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > [Draft](Draft_Workbench.md) > Draft API/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Draft](Draft_Workbench.md) > Draft API/ro

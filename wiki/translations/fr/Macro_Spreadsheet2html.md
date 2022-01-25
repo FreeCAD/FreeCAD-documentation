@@ -410,5 +410,7 @@ Forum : pas de fil au moment de la rédaction.
 
 v0.1 2021-08-09 : first release
 
+
+
 ---
-[documentation index](../README.md) > Macro Spreadsheet2html/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Spreadsheet2html/fr

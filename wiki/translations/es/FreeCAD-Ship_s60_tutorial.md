@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/es
+   Topic:Ambiente de Trabajo
+   Level:Principiante
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # FreeCAD-Ship s60 tutorial/es
-{{TutorialInfo/es
-|Topic=Ambiente de Trabajo
-|Level=Principiante
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## Introducción
 
@@ -309,5 +315,7 @@ El [Tutorial de FreeCAD-Nave s60 (II)](FreeCAD-Ship_s60_tutorial_(II)/es.md) es 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD-Ship s60 tutorial/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial/es

@@ -47,5 +47,7 @@ Die Wirkung des AllesAnzeigen Werkzeugs kann in [Makros](Macros/de.md) oder der 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/de

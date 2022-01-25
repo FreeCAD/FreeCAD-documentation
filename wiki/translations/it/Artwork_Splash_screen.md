@@ -26,5 +26,7 @@ Queste sono le schermate iniziali che sono state utilizzate per ogni versione de
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Splash screen/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Splash screen/it

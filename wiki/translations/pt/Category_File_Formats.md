@@ -3,9 +3,10 @@ This category collects pages about all the different file formats that FreeCAD i
 
 ### Contents:
 
-  --------------------------------------------------------- -------------------------------------------------
+   
   [File Format FCStd/pt](File_Format_FCStd/pt.md)   [Import Export/pt](Import_Export/pt.md)
-  --------------------------------------------------------- -------------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:File Formats/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:File Formats/pt

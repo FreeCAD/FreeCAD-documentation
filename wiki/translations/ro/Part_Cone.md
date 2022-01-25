@@ -70,7 +70,7 @@ The cone properties can later be edited, either in the [Property editor](Propert
 
 ### Primitive Geometriche 
 
-+--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/PartConePrimitivesOptions_it.png ) | Cono                                                                                                                                               |
 |                                                                          |                                                                                                                                                    |
 |                                                                          | #### Parametri                                                                                                                                     |
@@ -88,11 +88,11 @@ The cone properties can later be edited, either in the [Property editor](Propert
 |                                                                          | -   direzione dell\'asse del cono, x, y, z o definita dall\'utente.                                                                                |
 |                                                                          |                                                                                                                                                    |
 |                                                                          | Anche le dimensioni e il posizionamento del cono prodotto utilizzando le opzioni di creazione sono modificabili tramite la scheda delle proprietà. |
-+--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ## Opțiuni
 
-+--------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/PartConeProperty_en.png ) |                                                                                                                                                                                                                                                                                                                                                  |
 |                                                        | **Cone**                                                                                                                                                                                                                                                                                                                                                    |
 |                                                        |                                                                                                                                                                                                                                                                                                                                                              |
@@ -100,7 +100,7 @@ The cone properties can later be edited, either in the [Property editor](Propert
 |                                                        | -   Radius 2 - raza cercului sau arcului de cerc definită de fațeta suprioară                                                                                                                                                                                                                                                                                   |
 |                                                        | -   Height - înălțimea Part Cone                                                                                                                                                                                                                                                                                                                                |
 |                                                        | -   Angle - numărul de grade ale arcului sau cercurilor care definesc fațeta superioară și pe cea inferioară ale conului trunchiat. Implicit 360 crează fațete circulare, o valoare mai mică va crea o porțiune a unui con, așa cum este definită de fețele superioare și inferioare, fiecare cu marginile definite de un arc cu numărul de grade și două raze. |
-+--------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 </div>
@@ -125,5 +125,7 @@ cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 -   Where {{Incode|"myCone"}} is the name for the object.
 -   The function returns the newly created object.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/ro

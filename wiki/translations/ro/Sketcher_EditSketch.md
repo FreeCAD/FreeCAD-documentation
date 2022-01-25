@@ -50,9 +50,9 @@ Această comandă permite editarea unei schițe deja existente.
 
 {{Sketcher Tools navi
 
-}}  
+}}
 
-[<img src="images/Property.png" style="width:16px"> Sketcher/ro](<img src="images/Property.png" style="width:16px"> Sketcher/ro.md)
+
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/ro

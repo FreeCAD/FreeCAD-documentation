@@ -55,5 +55,7 @@ list_bad = Arch.check([Wall1, Wall2, Circle, Wire], includehidden=True)
 print(list_bad)
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Check/pl

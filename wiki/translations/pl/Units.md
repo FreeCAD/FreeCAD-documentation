@@ -284,9 +284,6 @@ W ten sposób bardzo łatwo jest zarządzać dowolną liczbą właściwości prz
 -   Narzędzie [Std\_UnitsCalculator](Std_UnitsCalculator.md)
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > Units/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Units/pl

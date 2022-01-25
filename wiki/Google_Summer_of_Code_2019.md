@@ -40,7 +40,7 @@ Our whole umbrella organisation will be allocated by Google a certain number slo
 The ideas listed here have a high chance of being accepted as project proposal. Note that for students already longer involved in FreeCAD, and which already contributed code, own ideas in their line of work are also welcome. Feel free to contact us on IRC, the forum or the mailing list for further discussions about the listed projects. The topics priority shows you how important the work on the ideas is for the mentors, and hence choosing a high priority topic will give you an advantage if there are more applications than slots for FreeCAD.
 
   Topic                                                                                                                                                                                                          Language         Difficulty   Priority   Contact
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------- ------------ ---------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      
   [FreeCAD-BRLCAD integration](FreeCAD-BRLCAD_integration.md): Allow to open, edit and save BRL-CAD models in FreeCAD                                                                                    C++              High         Medium     [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68), [Daniel Rossberg](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=23847)
   [BCF support](BCF_support.md): Allow to open, view and edit [BIM Collaboration Files (BCF)](https://www.buildingsmart.org/bim-collaboration-format-explained/) files in FreeCAD                        Python           Medium       Medium     [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
   [Upgrade the documentation system](Upgrade_the_documentation_system.md): Rework the documentation system so it supports multiple languages, and allows to switch between offline and online versions   C++, Python      Medium       Medium     [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
@@ -56,7 +56,7 @@ Best of luck to all applicants!
 -   [Google Summer of Code 2018](Google_Summer_of_Code_2018.md)
 -   [Google Summer of Code 2017](Google_Summer_of_Code_2017.md)
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > Google Summer of Code 2019
+![](images/Right_arrow.png) [documentation index](../README.md) > Google Summer of Code 2019

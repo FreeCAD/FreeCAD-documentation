@@ -41,11 +41,6 @@ Weitere Informationen zur Erstellung eines benutzerdefinierten Arbeitsbereichs f
 Siehe auch eine detaillierte Beschreibung auf der Seite [Wie man zusätzliche Arbeitsbereiche installiert](How_to_install_additional_workbenches/de.md).
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/de

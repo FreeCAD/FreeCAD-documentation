@@ -1,12 +1,21 @@
+---
+- TutorialInfo:/de
+   Topic:Skripten
+   Level:Basis
+   Time:
+   Author:onekk Carlo
+   FCVersion:0.19
+   Files:
+---
+
 # Scripts/de
-{{TutorialInfo/de
-|Topic=Skripten
-|Level=Basis
-|Time=
-|Author=onekk Carlo
-|FCVersion=0.19
-|Files=
-}}
+
+
+
+
+
+
+
 
 ## Einführung
 
@@ -14,7 +23,13 @@ Unter Skripten verstehen wir die Erstellung topologischer Objekte mit dem Python
 
 Bedauerlicherweise sind die Informationen über das Skripten in der Dokumentation und sogar in diesem Wiki verstreut und es mangelt an Einheitlichkeit beim \"Schreiben\", und die meisten von ihnen werden zu technisch erklärt.
 
-## Befeuchte deinen Appetit 
+
+<div class="mw-translate-fuzzy">
+
+## Zum Appetitanregen 
+
+
+</div>
 
 Das erste Hindernis auf einem einfachen Weg zur Skripterstellung ist, dass es keine direkte Möglichkeit gibt, den FreeCAD internen Python Editor über einen Menüeintrag oder ein Symbol im Werkzeugleistenbereich aufzurufen, aber wenn man weiß, dass FreeCAD eine Datei mit der Erweiterung `.py` im internen Python Editor öffnet, ist der einfachste Trick, sie in Ihrem bevorzugten Texteditor zu erstellen und sie dann mit dem üblichen Befehl **Datei → Öffnen** zu öffnen.
 
@@ -191,7 +206,7 @@ FreeCAD.Placement(Vector(0,0,0), FreeCAD.Rotation(10,20,30), Vector(0,0,0))
 Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich der geometrische **Referenzpunkt**, also der Punkt, von dem aus das Objekt von FreeCAD modelliert wird, wie in dieser Tabelle beschrieben, kopiert von [Platzierung](Placement/de.md):
 
   Objekt                                Referenzpunkt
-  ------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                              links (minx), vorne (miny), unten (minz) Knoten
   Part.Sphere                           Mittelpunkt der Kugel (d.h. Zentrum des Begrenzungskastens)
   Part.Cylinder                         Mitte der Unterseite
@@ -267,9 +282,9 @@ Lasse uns etwas im Code erklären:
 -   Wir haben ein komplexes Objekt **aeroplano**\' definiert. (italienisches Wort für Flugzeug), aber wir haben es auf eine **\"parametrische\"** Art und Weise getan, indem wir einige Parameter definiert und andere Parameter durch einige Berechnungen auf der Grundlage der Hauptparameter abgeleitet haben.
 -   Wir haben einige Platzierungs `Platzierung` Eigenschaften in der Methode verwendet, und bevor wir die endgültigen Geometrien zurückgeben, haben wir eine `Rotation` Eigenschaft mit der *Gieren-Stampfen-Rollen* Schreibweise verwendet. Beachte die letzten `Vector(0,0, pos_ali)`, die ein **Rotationszentrum** der gesamten Geometrie definieren.
 
-  ----------------------------------------------------- ---------------------------------------------- ----------------------------------------------------
+    
   ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
-  ----------------------------------------------------- ---------------------------------------------- ----------------------------------------------------
+    
 
 Man kann leicht feststellen, dass **aeroplano** Geometrie um sein \"Baryzentrum\" oder seinen \"Schwerpunkt\" rotiert, den ich in der Flügelmitte festgelegt habe, ein Ort, der relativ \"natürlich\" ist, aber wo immer man will, platziert werden könnte.
 
@@ -308,13 +323,5 @@ Dies ist die Bedeutung des Wortes \"umständlich\", das ich zur Definition der `
 
 
 
-
-
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripts/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripts/de

@@ -57,5 +57,7 @@ Crée un composé à partir de de plusieurs trajectoires individuelles.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/fr

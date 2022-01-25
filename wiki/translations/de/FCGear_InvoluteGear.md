@@ -129,76 +129,80 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **reversed_backslash**: If there are several gears, pay attention to which gear the parameter is set for.
 
+## Begrenzungen
+
+A 2D tooth profile, obtained by setting the **height** to zero, cannot be used with features requiring a 2D shape. For example [PartDesign Pad](PartDesign_Pad.md) and [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md) features do not accept such a profile as base. For technical details, please refer to the related [issue on GitHub](https://github.com/looooo/freecad.gears/issues/97).
+
 ## Useful formulas 
 
 ### Standard Spur Gears 
 
 Here "standard" refers to those spur gears with no profile shift coefficient ($x$).
 
-+----------+------------------------------------------+--------------------------------+---------------------------------------------+
++++++
 | Symbol   | Term                                     | Formula                        | FCGear Parameter                            |
 +==========+==========================================+================================+=============================================+
 | $m$      | *Module*                                 | \-                             | $\texttt{module}$                           |
-+----------+------------------------------------------+--------------------------------+---------------------------------------------+
++++++
 | $z$      | *Number of Teeth*                        | \-                             | $\texttt{teeth}$                            |
-+----------+------------------------------------------+--------------------------------+---------------------------------------------+
++++++
 | $\alpha$ | *Pressure Angle*                         | \-                             | $\texttt{pressure} {\_} \texttt{parameter}$ |
 |          |                                          | Typically, $\alpha = 20^\circ$ |                                             |
-+----------+------------------------------------------+--------------------------------+---------------------------------------------+
++++++
 | d        | *Reference Diameter* or *Pitch Diameter* | $z \cdot m$                    | \-                                          |
-+----------+------------------------------------------+--------------------------------+---------------------------------------------+
++++++
 | $h^*_a$  | *Addendum Coefficient*                   | \-                             | $h^*_a = 1 + \texttt{ head}$                |
 |          |                                          | Typically, $h^*_a = 1$         |                                             |
-+----------+------------------------------------------+--------------------------------+---------------------------------------------+
++++++
 | $h^*_f$  | *Dedendum Coefficient*                   | \-                             | $h^*_f = 1 + \texttt{ clearance}$           |
 |          |                                          | Typically, $h^*_f = 1.25$      |                                             |
-+----------+------------------------------------------+--------------------------------+---------------------------------------------+
++++++
 | $h_a$    | *Addendum*                               | $h_a = h^*_a \cdot m$          | \-                                          |
-+----------+------------------------------------------+--------------------------------+---------------------------------------------+
++++++
 | $h_f$    | *Dedendum*                               | $h_f = h^*_f \cdot m$          | \-                                          |
-+----------+------------------------------------------+--------------------------------+---------------------------------------------+
++++++
 | $h$      | *Tooth Height* or *Tooth Depth*          | $h = h_a + h_f$                | \-                                          |
 |          |                                          | Typically, $h = 2.25 \cdot m$  |                                             |
-+----------+------------------------------------------+--------------------------------+---------------------------------------------+
++++++
 | $x$      | *Profile Shift Coefficient*              | \-                             | $\texttt{shift}$                            |
 |          |                                          | For standard gears, $x = 0$    |                                             |
-+----------+------------------------------------------+--------------------------------+---------------------------------------------+
++++++
 
 : style=\"text-align: left;\" \| Basic formulas common to internal and external standard spur gears
 
-+--------+-----------------+--------------------------------------+
+++++
 | Symbol | Term            | Formula                              |
 +========+=================+======================================+
 | $d_a$  | *Tip Diameter*  | $d_a = d + 2 \cdot h_a$              |
 |        |                 | Typically, $d_a = (z + 2) \cdot m$   |
-+--------+-----------------+--------------------------------------+
+++++
 | $d_f$  | *Root Diameter* | $d_f = d - 2 \cdot h_f$              |
 |        |                 | Typically, $d_f = (z - 2.5) \cdot m$ |
-+--------+-----------------+--------------------------------------+
+++++
 
 : style=\"text-align: left;\" \| Basic formulas specific to external standard spur gears
 
-+--------+-----------------+--------------------------------------+
+++++
 | Symbol | Term            | Formula                              |
 +========+=================+======================================+
 | $d_a$  | *Tip Diameter*  | $d_a = d - 2 \cdot h_a$              |
 |        |                 | Typically, $d_a = (z - 2) \cdot m$   |
-+--------+-----------------+--------------------------------------+
+++++
 | $d_f$  | *Root Diameter* | $d_f = d + 2 \cdot h_f$              |
 |        |                 | Typically, $d_f = (z + 2.5) \cdot m$ |
-+--------+-----------------+--------------------------------------+
+++++
 
 : style=\"text-align: left;\" \| Basic formulas specific to internal standard spur gears
 
-+--------+--------------------------+-------------------------------+
+++++
 | Symbol | Term                     | Formula                       |
 +========+==========================+===============================+
 | $a$    | *Center Distance*        | $d = \frac{d_1 + d_2}{2}$     |
-+--------+--------------------------+-------------------------------+
+++++
 | $c$    | *Tip and Root Clearance* | $c_1 = h_{f2} - h_{a1}$       |
 |        |                          | $c_2 = h_{f1} - h_{a2}$       |
 |        |                          | Typically, $c = 0.25 \cdot m$ |
-+--------+--------------------------+-------------------------------+
+++++
 
 : style=\"text-align: left;\" \| Basic formulas specific for a pair of external standard spur gears
 
@@ -240,8 +244,5 @@ Gui.SendMsgToActiveView("ViewFit")
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> FCGear](Category_FCGear.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > FCGear InvoluteGear/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > [External Command Reference](Category_External Command Reference.md) > FCGear InvoluteGear/de

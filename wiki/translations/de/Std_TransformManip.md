@@ -40,5 +40,7 @@ Die Wertefelder sind für inkrementellen Parameter, jedoch nicht für absolute W
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TransformManip/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TransformManip/de

@@ -14,5 +14,7 @@
 
 Polecenie <img alt="" src=images/Draft_PointLinkArray.svg  style="width:24px;"> Polecenie **Szyk powiązań w punktach** tworzy tablicę [powiązań](App_Link.md) z wybranego obiektu poprzez umieszczenie kopii w punktach [zespołu](Draft_PointArray/pl#Zesp.C3.B3.C5.82_punkt.C3.B3w.md). Użyj polecenia [Szyk z punktów](Draft_PointArray/pl.md) by stworzyć mniej wydajną zwykłą tablicę. Z wyjątkiem typu tablicy, która jest tworzona, [Powiązanie](App_Link/pl.md) lub zwykła tablica, to polecenie jest identyczne z [szykiem z punktów](Draft_PointArray/pl.md). Zobacz tam po więcej informacji.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PointLinkArray/pl

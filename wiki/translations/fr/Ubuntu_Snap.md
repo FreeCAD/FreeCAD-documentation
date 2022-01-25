@@ -103,5 +103,7 @@ Plus d\'informations sur les efforts en cours pour gérer Snaps :
 -   [AppImage](AppImage/fr.md) - un autre format autonome de type \'binaire\' pour exécuter FreeCAD
 -   [Flatpak](Flatpak/fr.md)
 
+
+
 ---
-[documentation index](../README.md) > Ubuntu Snap/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Ubuntu Snap/fr

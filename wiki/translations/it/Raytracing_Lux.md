@@ -57,5 +57,7 @@ Ulteriori configurazioni di progetto richiedono la definizione di modelli aggiun
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Lux/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Lux/it

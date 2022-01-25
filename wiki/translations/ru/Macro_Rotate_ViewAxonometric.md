@@ -64,5 +64,7 @@ cam.orientation = nrot
 Gui.SendMsgToActiveView("ViewFit")
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Rotate ViewAxonometric/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Rotate ViewAxonometric/ru

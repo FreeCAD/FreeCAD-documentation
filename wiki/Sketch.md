@@ -30,9 +30,9 @@ A Sketch is very commonly used in conjunction with the <img alt="" src=images/Wo
 
 Nevertheless, a Sketch can always be created by itself for any other purpose; it does not have to be tied to a [PartDesign Body](PartDesign_Body.md). For example, the **[<img src=images/Arch_Window.svg style="width:16px"> [Arch Window](Arch_Window.md)** tool of the <img alt="" src=images/Workbench_Arch.svg  style="width:16px;"> [Arch Workbench](Arch_Workbench.md) uses Sketches to define the shapes of windows and doors; in the same way, they can be used to define the shape of **[<img src=images/Arch_Wall.svg style="width:16px"> [Arch Walls](Arch_Wall.md)**.
 
- {{Sketcher Tools navi}} {{Document objects navi}} 
+ {{Sketcher Tools navi}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Sketch
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Sketcher](Category_Sketcher.md) > Sketch

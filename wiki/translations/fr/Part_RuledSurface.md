@@ -21,5 +21,7 @@ Crée une surface réglée.
     -   Appuyez sur le bouton <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Créer un surface réglée à partir de\...](Part_RuledSurface/fr.md)
     -   Utilisez l\'entrée **Pièce → Créer un surface réglée** dans le menu Part
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part RuledSurface/fr

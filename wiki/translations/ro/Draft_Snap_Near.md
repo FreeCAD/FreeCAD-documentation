@@ -60,5 +60,7 @@ Funcționează și cu Draft Move and Draft Rotate.
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/ro

@@ -64,5 +64,7 @@ The blue construction lines of the sketch are part of the sketch even if they ar
 
  {{Curves Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Curves SketchOnSurface
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SketchOnSurface

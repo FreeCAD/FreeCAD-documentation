@@ -287,5 +287,7 @@ Les modules complémentaires offrent une autre façon de personnaliser l\'interf
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Interface Customization/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface Customization/fr

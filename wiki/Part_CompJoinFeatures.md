@@ -25,5 +25,7 @@ This command is a dropdown toolbar button containing all the Join tools. See ind
 <img alt="" src=images/JoinFeatures_demo.png  style="width:668px;"> 
 *Above: showing the result of each tool available*
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures

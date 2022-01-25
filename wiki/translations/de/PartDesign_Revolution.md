@@ -26,9 +26,9 @@ Das **Rotation**swerkzeug erstellt einen Festkörper aus der Rotation einer Skiz
 
 Bei der Erstellung einer Rotation bietet das **Rotationsparameter**Fenster einige Parameter an, die angeben, wie die Skizze gedreht werden soll.
 
-  ----------------------------------------------------------------------------------
+  
   ![](images/partdesign_revolution_parameters.png )
-  ----------------------------------------------------------------------------------
+  
 
 ### Achse
 
@@ -83,5 +83,7 @@ Ein [ausführliches Anwendungsbeispiel](http://forum.freecadweb.org/viewtopic.ph
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/de

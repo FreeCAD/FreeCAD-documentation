@@ -201,7 +201,7 @@ FreeCAD läuft im Konsolenmodus (ohne GUI)
 
 Dialog zum Speichern eines Bildes in beliebigen Größen.
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/de](<img src="images/Property.png" style="width:16px"> User_Documentation/de.md) [<img src="images/Property.png" style="width:16px"> Screenshots/de](<img src="images/Property.png" style="width:16px"> Screenshots/de.md)
+
 
 ---
-[documentation index](../README.md) > Screenshots/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/de

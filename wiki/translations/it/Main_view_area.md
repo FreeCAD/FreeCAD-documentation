@@ -26,5 +26,7 @@ Le finestre nell\'area di visualizzazione principale possono essere organizzate 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Main view area/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Main view area/it

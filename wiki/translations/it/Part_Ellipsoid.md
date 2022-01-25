@@ -46,5 +46,7 @@ La primitiva geometrica Ellissoide è disponibile dalla finestra di dialogo Crea
 
 ![](images/Part_Ellipsoid_screenshot.jpg )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/it

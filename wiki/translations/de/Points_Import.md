@@ -54,5 +54,7 @@ Zum Testen kannst du diese [diese Datei](https://github.com/FREECAD/Examples/blo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Import/de

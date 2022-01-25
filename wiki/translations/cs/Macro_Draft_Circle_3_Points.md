@@ -285,5 +285,7 @@ Zde je 3D pohled, který Vám umožňuje vidět 2 různé pozice pohledu použit
 
 Geneze makra **Draft Circle 3 Points** [na fóru (PYTHONu) coordonnées d\'un point](http://forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) helped flachyjoe thanks. Vzorec pochází od [cercle\_3pts.pdf](http://www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) a byl použit s laskavým svolením jeho autora.
 
+
+
 ---
-[documentation index](../README.md) > Macro Draft Circle 3 Points/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Draft Circle 3 Points/cs

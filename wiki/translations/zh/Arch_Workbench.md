@@ -140,9 +140,6 @@ The Arch module can be used in [Python](Python.md) scripts and [macros](Macros.m
 {{docnav/zh|[Workbenches/zh](Workbenches/zh.md)|[Draft Workbench/zh](Draft_Workbench/zh.md)|IconL=|IconR=Workbench_Draft.svg}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/zh
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Arch](Category_Arch.md) > Arch Workbench/zh

@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/fr
+   Topic:Analyse par éléments finis
+   Level:Débutant
+   Time:10 minutes + temps d'exécution
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16.6700 ou plus
+---
+
 # FEM tutorial/fr
-{{TutorialInfo/fr
-|Topic=Analyse par éléments finis
-|Level=Débutant
-|Time=10 minutes + temps d'exécution
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16.6700 ou plus
-}}
+
+
+
+
 
 ## Introduction
 
@@ -107,9 +113,9 @@ Nous venons d\'établir les restrictions et les forces pour notre étude statiqu
 Nous avons complété la procédure de base de l\'[atelier FEM](FEM_Workbench/fr.md).
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > FEM tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/fr

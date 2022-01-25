@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:TechDraw DiameterDimension
    Name/fr:TechDraw Cote de diamètre
-   MenuLocation:TechDraw → Dimensions → Insérer une nouvelle cote de diamètre
+   MenuLocation:TechDraw → Dimensions → Insérer une cote de diamètre
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Cote de rayon](TechDraw_RadiusDimension/fr.md)
 ---
@@ -20,7 +20,7 @@ L\'outil Cote de diamètre ajoute une dimension de diamètre à une vue. La cote
 ## Utilisation
 
 1.  Sélectionnez un bord circulaire dans le dessin. (Notez que certains arcs qui semblent être circulaires sont en fait des ellipses ou des B-splines. Vous ne pouvez pas créer de dimension de diamètre dans ces cas-là)
-2.  Appuyez sur le bouton **<img src="images/TechDraw_DiameterDimension.svg" width=16px> [Insérer une nouvelle cote de diamètre](TechDraw_DiameterDimension/fr.md)
+2.  Appuyez sur le bouton **<img src="images/TechDraw_DiameterDimension.svg" width=16px> [Insérer une cote de diamètre](TechDraw_DiameterDimension/fr.md)
 **
 3.  Une dimension sera ajoutée à la vue. La dimension peut être déplacée à la position désirée.
 4.  Si nécessaire, ajoutez des tolérances comme décrit dans [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tol.C3.A9rances.md).
@@ -60,5 +60,7 @@ rc = page.addView(dim1)
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DiameterDimension/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DiameterDimension/fr

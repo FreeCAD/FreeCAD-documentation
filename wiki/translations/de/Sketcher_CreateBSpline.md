@@ -48,5 +48,7 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine offene B-Splinekurv
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateBSpline/de

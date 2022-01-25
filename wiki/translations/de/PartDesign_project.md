@@ -100,9 +100,9 @@ Drucke eine Skizze in einen Basisvolumenkörper, entweder definiert durch die Ti
 
 Sehr gute Bohrungsparameterdefinition aus der NaroCad Spezifikation:
 
-  ----------------------------------------------------------------------- ------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
   <img alt="" src=images/Counterbore_settings.png  style="width:300px;">   <img alt="" src=images/Counterbore_settings2.png  style="width:300px;">   <img alt="" src=images/Countersink_settings.png  style="width:300px;">
-  ----------------------------------------------------------------------- ------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
 
   : **NaroCAD Bore definitions**
 
@@ -239,7 +239,5 @@ Drehe eine Skizze entlang einer ihrer Achsen und um einen bestimmten Winkel. **E
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/de

@@ -72,7 +72,7 @@ class Box():
         """
         Constructor
         Arguments
-        ---------
+        
         - obj: an existing document object or an object created with FreeCAD.Document.addObject('Part::FeaturePython', '{name}').
         """
 
@@ -150,11 +150,6 @@ Note: For FreeCAD 0.19 this tutorial needs a minor update:
 -   For details see <https://forum.freecadweb.org/viewtopic.php?f=10&t=54370>
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted objects with attachment/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripted objects with attachment/ru

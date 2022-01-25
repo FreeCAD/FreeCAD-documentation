@@ -80,5 +80,7 @@ Il comando **Misura la distanza** crea un oggetto distanza che misura e visualiz
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MeasureDistance/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MeasureDistance/it

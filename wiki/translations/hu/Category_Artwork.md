@@ -6,7 +6,7 @@ This category collects pages related to artwork existing in the program, like ic
   --
   --
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation/hu](<img src="images/Property.png" style="width:16px"> Developer_Documentation/hu.md) [<img src="images/Property.png" style="width:16px"> Icon/hu](<img src="images/Property.png" style="width:16px"> Icon/hu.md)
+
 
 ---
-[documentation index](../README.md) > Category:Artwork/hu
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Artwork/hu

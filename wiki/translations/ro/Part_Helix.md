@@ -46,7 +46,7 @@ Sub Windows "Elica"
 
 Sub Linux "Helix"
 
-+----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/PartHelixPrimitivesOptions_en.png ) | #### Parametrii                                                                                                                                                                                                                                                                      |
 |                                                                            |                                                                                                                                                                                                                                                                                      |
 |                                                                            | -                                                                                                                                                                                                                                                                     |
@@ -100,7 +100,7 @@ Sub Linux "Helix"
 |                                                                            |     {{Parameter|3D View:}}                                                                                                                                                                                                                                                           |
 |                                                                            |                                                                                                                                                                                                                                                                                   |
 |                                                                            |     vă permite să selectați centrul în vizualizarea 3D                                                                                                                                                                                                                               |
-+----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 </div>
@@ -133,7 +133,7 @@ Sub Linux "Helix"
 
 Odată ce ați creat elicea, aveți opțiunea de a modifica parametrii.
 
-+----------------------------------------------------------+----------------------------------------------------------------------------------+
++++
 | ![](images/PartHelixProperty_en.png ) | The parameters in this menu are similar to those described above.                |
 |                                                          | **Base**                                                       |
 |                                                          | \* {{Parameter|Placement:}} allows you to move or rotate the helix |
@@ -141,7 +141,9 @@ Odată ce ați creat elicea, aveți opțiunea de a modifica parametrii.
 |                                                          | -                                                                 |
 |                                                          |     {{Parameter|Angle:}}                                                         |
 |                                                          |                                                                               |
-+----------------------------------------------------------+----------------------------------------------------------------------------------+
++++
+
+
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/ro

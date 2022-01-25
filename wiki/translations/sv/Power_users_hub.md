@@ -1,6 +1,6 @@
 # <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/sv
 
-------------------------------------------------------------------------
+
 
 
 
@@ -161,7 +161,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 <div class="mw-translate-fuzzy">
 
-Den kompletta API beskrivningen hittas [här](:<img src="images/Property.png" style="width:16px"> API/sv.md). Notera att den kan vara ofullständig, eftersom vi fortfarande inte har hittat ett sätt att automatiskt inkludera den på denna wiki. För mer rättvisande information, titta i modulerna direkt från FreeCAD.
+Den kompletta API beskrivningen hittas [här](:Category:API/sv.md). Notera att den kan vara ofullständig, eftersom vi fortfarande inte har hittat ett sätt att automatiskt inkludera den på denna wiki. För mer rättvisande information, titta i modulerna direkt från FreeCAD.
 
 
 </div>
@@ -239,11 +239,6 @@ På [Grupportalen](free-cad:Community_Portal/sv.md), så kan du hitta andra Free
 -   [Scientific literature](Scientific_literature.md): articles that reference or use the FreeCAD system in different ways.
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/sv

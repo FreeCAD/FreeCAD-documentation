@@ -37,5 +37,7 @@ Instrumentul va conecta elementele în ordinea alegerii lor, deci asigurați-vă
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/ro

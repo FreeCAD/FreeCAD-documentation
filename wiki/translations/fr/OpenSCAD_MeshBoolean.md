@@ -35,5 +35,7 @@ OpenSCAD doit être installé et configuré dans **Edition** → **Préférences
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MeshBoolean/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD MeshBoolean/fr

@@ -29,7 +29,7 @@ This macro Aligns Objects through Faces or Edges constraints
 
 These helpers work with **Part, App::Part and Body objects**. Each Tool can be **Floating** or **Docked Left or Right**.
 
-------------------------------------------------------------------------
+
 
 ## OLD References 
 
@@ -79,5 +79,7 @@ you need to copy the file to your macro directory.
 
 Forum : [Faces or Edges constraint among non cylindrical parts Macro](http://forum.freecadweb.org/viewtopic.php?f=22&t=18655)
 
+
+
 ---
-[documentation index](../README.md) > Macro Center Align Objects with Faces or Edges
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Center Align Objects with Faces or Edges

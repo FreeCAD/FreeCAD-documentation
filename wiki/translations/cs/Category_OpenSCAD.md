@@ -3,11 +3,10 @@ This category lists pages related to the [OpenSCAD\_Workbench/cs](OpenSCAD_Workb
 
 ### Contents:
 
-  -----------------------------------------------------------
+  
   [OpenSCAD Workbench/cs](OpenSCAD_Workbench/cs.md)
-  -----------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/cs](<img src="images/Property.png" style="width:16px"> Workbenches/cs.md)
+
 
 ---
-[documentation index](../README.md) > Category:OpenSCAD/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:OpenSCAD/cs

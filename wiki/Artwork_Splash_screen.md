@@ -23,5 +23,7 @@ These are the splash screens that have been used for each version of the program
 
  {{Artwork}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Splash screen
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Splash screen

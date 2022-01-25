@@ -86,5 +86,7 @@ This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Array/it

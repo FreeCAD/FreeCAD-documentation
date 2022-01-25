@@ -3,7 +3,7 @@ This category contains the help pages of each of FreeCAD command.
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------
+    
   [Arch 3Views/pt-br](Arch_3Views/pt-br.md)                                                           [Arch Add/pt-br](Arch_Add/pt-br.md)                                                                                 [Arch Axis/pt-br](Arch_Axis/pt-br.md)
   [Arch AxisSystem/pt-br](Arch_AxisSystem/pt-br.md)                                                   [Arch Building/pt-br](Arch_Building/pt-br.md)                                                                       [Arch BuildingPart/pt-br](Arch_BuildingPart/pt-br.md)
   [Arch Check/pt-br](Arch_Check/pt-br.md)                                                             [Arch CloneComponent/pt-br](Arch_CloneComponent/pt-br.md)                                                           [Arch CloseHoles/pt-br](Arch_CloseHoles/pt-br.md)
@@ -169,10 +169,9 @@ This category contains the help pages of each of FreeCAD command.
   [Std LinkSelectLinkedFinal/pt-br](Std_LinkSelectLinkedFinal/pt-br.md)                               [Std LinkUnlink/pt-br](Std_LinkUnlink/pt-br.md)                                                                     [Std Part/pt-br](Std_Part/pt-br.md)
   [Std PythonHelp/pt-br](Std_PythonHelp/pt-br.md)                                                     [Std SelBack/pt-br](Std_SelBack/pt-br.md)                                                                           [Std SelectAll/pt-br](Std_SelectAll/pt-br.md)
   [Std SelForward/pt-br](Std_SelForward/pt-br.md)                                                     [Std SetAppearance/pt-br](Std_SetAppearance/pt-br.md)                                                               [Std ViewFitSelection/pt-br](Std_ViewFitSelection/pt-br.md)
-  [Std Workbench/pt-br](Std_Workbench/pt-br.md)                                                       [TechDraw SpreadsheetView/pt-br](TechDraw_SpreadsheetView/pt-br.md)                                                 
-  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------
+  [Std Workbench/pt-br](Std_Workbench/pt-br.md)                                                       [TechDraw SpreadsheetView/pt-br](TechDraw_SpreadsheetView/pt-br.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/pt-br](<img src="images/Property.png" style="width:16px"> Categories/pt-br.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/pt-br

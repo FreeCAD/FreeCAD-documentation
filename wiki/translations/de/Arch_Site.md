@@ -166,5 +166,7 @@ Node = Arch.makeSolarDiagram(-46.38, -23.33, scale=10000, complete=True)
 FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/de

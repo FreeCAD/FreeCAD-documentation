@@ -3,7 +3,7 @@ Cette catégorie répertorie les pages liées à [Part Workbench/fr](Part_Workbe
 
 ### Contents:
 
-  ----------------------------------------------------------------------------- ----------------------------------------------------------------------------- -------------------------------------------------------------------------
+    
   [Aeroplane/fr](Aeroplane/fr.md)                                       [Artwork Part/fr](Artwork_Part/fr.md)                                 [Basic modeling tutorial/fr](Basic_modeling_tutorial/fr.md)
   [Constructive solid geometry/fr](Constructive_solid_geometry/fr.md)   [Draft ShapeString tutorial/fr](Draft_ShapeString_tutorial/fr.md)     [Feature/fr](Feature/fr.md)
   [Part and PartDesign/fr](Part_and_PartDesign/fr.md)                   [Part Boolean/fr](Part_Boolean/fr.md)                                 [Part BooleanFragments/fr](Part_BooleanFragments/fr.md)
@@ -34,10 +34,9 @@ Cette catégorie répertorie les pages liées à [Part Workbench/fr](Part_Workbe
   [Template:Part Tools navi/fr](Template:Part_Tools_navi/fr.md)         [Part TopoShape/fr](Part_TopoShape/fr.md)                             [Part Torus/fr](Part_Torus/fr.md)
   [Part TransformedCopy/fr](Part_TransformedCopy/fr.md)                 [Part Tube/fr](Part_Tube/fr.md)                                       [Part Wedge/fr](Part_Wedge/fr.md)
   [Part XOR/fr](Part_XOR/fr.md)                                         [Shape/fr](Shape/fr.md)                                               [Thread for Screw Tutorial/fr](Thread_for_Screw_Tutorial/fr.md)
-  [Topological naming problem/fr](Topological_naming_problem/fr.md)     [Whiffle Ball tutorial/fr](Whiffle_Ball_tutorial/fr.md)               
-  ----------------------------------------------------------------------------- ----------------------------------------------------------------------------- -------------------------------------------------------------------------
+  [Topological naming problem/fr](Topological_naming_problem/fr.md)     [Whiffle Ball tutorial/fr](Whiffle_Ball_tutorial/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/fr](<img src="images/Property.png" style="width:16px"> Workbenches/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Part/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/fr

@@ -52,5 +52,7 @@ Vlastnosti mohou být změněny později v menu **Složený pohled → Data**, p
 
 You have the standard properties view.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Plane/cs

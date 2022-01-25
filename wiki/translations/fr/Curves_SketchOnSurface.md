@@ -68,5 +68,7 @@ Les lignes de construction bleues de l\'esquisse font partie de l\'esquisse mêm
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves SketchOnSurface/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves SketchOnSurface/fr

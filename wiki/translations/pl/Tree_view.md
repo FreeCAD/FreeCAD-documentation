@@ -192,5 +192,7 @@ Wskazuje to, że w obiekcie wystąpił błąd, który należy naprawić. Po prze
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Tree view/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Tree view/pl

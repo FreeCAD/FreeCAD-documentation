@@ -1,5 +1,5 @@
-# How to install additional workbenches/it
-{{TutorialInfo/it|Topic=Programmazione|Level=Medio|Time=15 minuti|FCVersion=Tutte|Author=[r-frank](User:R-Frank.md)|Files=none}}
+---
+- TutorialInfo:/it   Topic:Programmazione   Level:Medio   Time:15 minuti   FCVersion:Tutte   Author:[[User:R-Frank   r-frank]]|Files:none}}
 
 ## Descrizione
 
@@ -11,7 +11,7 @@ Gli utenti esperti hanno esteso FreeCAD con vari [ambienti di lavoro esterni](ex
 
 **Nota:**
 
-a partire dalla versione 0.17, FreeCAD include un <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md) nel menu **Strumenti → Addon manager**, che permette di installare sia macro che ambienti di lavoro. Le istruzioni seguenti sono necessarie solo si desidera installare manualmente un ambiente. Ciò potrebbe essere necessario se per qualche motivo Addon Manager non funziona ma si ha accesso all\'ambiente scaricato come pacchetto {{FileName|.zip}}.
+a partire dalla versione 0.17, FreeCAD include un <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md) nel menu **Strumenti → Addon manager**, che permette di installare sia macro che ambienti di lavoro. Le istruzioni seguenti sono necessarie solo si desidera installare manualmente un ambiente. Ciò potrebbe essere necessario se per qualche motivo Addon Manager non funziona ma si ha accesso all\'ambiente scaricato come pacchetto {{FileName   .zip}}.
 
 
 </div>
@@ -61,7 +61,7 @@ Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è pos
 -   Decomprimere l\'archivio scaricato sul disco rigido locale
 -   All\'interno di FreeCAD, individuare il percorso delle macro scegliendo **Modifica > Preferenze > Generale > Macro** e vedere quale è il "Percorso Macro"
 -   Supponendo che il vostro login di Windows sia "*User-Name*" il percorso predefinito delle macro è "C:\\User-Name\\Appdata\\Roaming\\FreeCAD"
--   All\'interno della directory delle macro creare (se non è ancora presente) una cartella chiamata "{{FileName|Mod}}"
+-   All\'interno della directory delle macro creare (se non è ancora presente) una cartella chiamata "{{FileName   Mod}}"
 -   All\'interno della cartella Mod creare una cartella con il nome dell\'ambiente, ad esempio "Curves"
 -   Ora spostare i file decompressi e le sottocartelle del Workbench nella cartella dell\'ambiente appena creato
 -   Dopo il riavvio di FreeCAD si dovrebbe avere una nuova voce nel menu a discesa [selettore degli ambienti](Std_Workbench/it.md)
@@ -92,13 +92,16 @@ Aggiungere il [community-ppa](https://launchpad.net/~freecad-community/+archive/
 Installare gli ambienti tramite il gestore dei pacchetti synaptic.
 
 
-```python
+{{Code   code:
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
 $ git clone https://github.com/tomate44/CurvesWB.git
-```
+---
 
+# How to install additional workbenches/it
+
+ 
 Ora negli ambienti di FreeCAD ci dovrebbe essere una nuova voce denominata \"CurvesWB\". Una volta installato, utilizzare git per l\'aggiornamento alla versione più recente in questo modo:
 
 
@@ -190,9 +193,6 @@ Per questo esempio, supponiamo di aver scelto [Curves](Curves_Workbench/it.md) c
     -   vedere nel forum questa discussione: [Assembly2 in Version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
- {{Powerdocnavi}}
-
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > How to install additional workbenches/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > How to install additional workbenches/it

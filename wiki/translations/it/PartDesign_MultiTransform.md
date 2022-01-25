@@ -179,7 +179,7 @@ Quando viene avviata e completata in questo modo, la **![](images/)_Multitrasfo
 
 ## Opzioni
 
-+------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Partdesign_Multitransfrom_parameters_it.png ) | Quando si crea una operazione di MultiTrasformazione, la finestra di dialogo **Parametri MultiTrasformazione** mostra due elenchi in campi diversi (Originali e Trasformazioni).                                                                                                                                                                                                                                                 |
 |                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |                                                                                                | #### Selezionare gli originali                                                                                                                                                                                                                                                                                                                                                                       |
@@ -205,7 +205,7 @@ Quando viene avviata e completata in questo modo, la **![](images/)_Multitrasfo
 |                                                                                                | #### Sposta su o giù                                                                                                                                                                                                                                                                                                                                                                                           |
 |                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |                                                                                                | Permette di cambiare l\'ordine delle trasformazioni nella lista                                                                                                                                                                                                                                                                                                                                                                  |
-+------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 
@@ -276,5 +276,7 @@ Allows changing the order of transformations in the list \|}
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/it

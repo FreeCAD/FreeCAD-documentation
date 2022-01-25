@@ -32,7 +32,7 @@ There are two approaches to specifying Product and Manufacturing Information (PM
 -   The modern 3D approach Model-Based Definition (MBD) which embeds GD&T data into the model and produces drawings with GD&T symbols
 
   Traditional                                           MBD
-  ----------------------------------------------------- ---------------------------------
+   
   3D models with 2D drawings containing GD&T/PMI        3D model with embedded GD&T/PMI
   Human-readable                                        Human- and machine-readable
   Relies on human interpretation                        Relies on an automated process
@@ -74,7 +74,5 @@ There are two approaches to specifying Product and Manufacturing Information (PM
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Tolerancing
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [TechDraw](Category_TechDraw.md) > Tolerancing

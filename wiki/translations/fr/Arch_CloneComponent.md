@@ -28,5 +28,7 @@ Le composant clone aura simplement sa propriété {{PropertyData/fr|CloneOf}} d�
 
 ## Script
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/fr

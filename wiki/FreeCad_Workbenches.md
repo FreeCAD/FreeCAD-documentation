@@ -121,7 +121,7 @@ This workbench can transform other FreeCad parts into meshes ( the sort of part 
 
 -   [Workbenches](Workbenches.md)
 
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Sandbox]]  ](Category_Sandbox]]  .md) > FreeCad Workbenches
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox]]  ](Category_Sandbox]]  .md) > [User Documentation]] ](Category_User Documentation]] .md) > FreeCad Workbenches

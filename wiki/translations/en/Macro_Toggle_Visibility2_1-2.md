@@ -89,5 +89,7 @@ The discussion on the forum [Re: Proposal: select one or more pieces, hide the o
 
 Original idea [Macro\_Toggle\_Visibility](https://www.freecadweb.org/wiki/index.php?title=Macro_Toggle_Visibility)
 
+
+
 ---
-[documentation index](../README.md) > Macro Toggle Visibility2 1-2/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Toggle Visibility2 1-2/en

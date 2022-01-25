@@ -29,5 +29,7 @@ Der **Std FensterÜberlappendAnordnen**-Befehl ordnet die Fenster im [Hauptansic
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std CascadeWindows/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std CascadeWindows/de

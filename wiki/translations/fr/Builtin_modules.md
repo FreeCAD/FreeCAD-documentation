@@ -22,11 +22,6 @@ Cette page n\'est pas une liste complète du contenus de ces modules, et, en rai
 -   [View Objects](ViewObject_API.md)
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Builtin modules/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/fr

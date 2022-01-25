@@ -23,5 +23,7 @@ It can be used to prepare **elements** before the use of constraints.  This coul
 2.  Press  or use the keyboard shortcut: **A** then **E**
 3.  (optional but recommended) Rename the elements by editing their **Label** properties.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 CreateElement
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 CreateElement

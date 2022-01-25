@@ -18,5 +18,7 @@ Cet outil établit un lien entre deux objets d\'un assemblage et fait correspond
 2.  Sélectionnez un élément de chaque objet et un plan miroir.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintSymmetric.svg" width=16px> [Symmetric](Assembly3_ConstraintSymmetric/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSymmetric/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetric/fr

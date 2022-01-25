@@ -113,7 +113,7 @@ Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la con
 
 ## Script
 
-Voir aussi : [:<img src="images/Property.png" style="width:16px"> API/fr](:<img src="images/Property.png" style="width:16px"> API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [:Category:API/fr](:Category:API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 A définir
 
@@ -123,11 +123,5 @@ A définir
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > Rocket Transition/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Rocket Transition/fr

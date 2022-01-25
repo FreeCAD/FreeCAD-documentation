@@ -93,5 +93,7 @@ App.ActiveDocument.commitTransaction() #commit transaction
 
 Per qualsiasi feedback (bug, richiesta di funzionalità, commenti, \...), utilizzare questo thread del forum : [Preserving global position of Parts during export](https://forum.freecadweb.org/viewtopic.php?f=3&t=36869)
 
+
+
 ---
-[documentation index](../README.md) > Macro PlacementAbsolufy/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro PlacementAbsolufy/it

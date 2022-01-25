@@ -10,13 +10,7 @@
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> [Curves Modifier une B-spline](Curves_EditableSpline/fr.md) crée une courbe B-Spline à main levée. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
-
-
-</div>
+<img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> [Curves Modifier une B-spline](Curves_EditableSpline/fr.md) crée une courbe B-spline à main levée. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Curves](Curves_Workbench/fr.md).
 
 ## Utilisation
 
@@ -27,18 +21,18 @@
 
 ## Options
 
-During the command a special edit mode is active and there are several actions and behaviors that can be controlled by keys and mouse clicks.
+Pendant la commande, un mode d\'édition spécial est actif et il y a plusieurs actions et comportements qui peuvent être contrôlés par des touches et des clics de souris.
 
--   To move a vertex or guide line (guide lines are the straight lines between vertexes) press and hold down the left mouse button on it, and move the mouse.
--   The **A** key selects or deselects all vertexes and guide lines.
--   The **I** key will add a vertex to the segment belonging to the selected guide line. The new vertex will be selected.
--   The **T** key sets or un-sets tangent mode for the selected vertexes or guide lines (relative to the view direction).
--   The **P** key aligns selected objects.
--   The **S** key can be used to snap a vertex to a vertex belonging to another B-spline. With a vertex of the B-spline being edited selected, hold down the **Ctrl** key and add the target vertex to the selection, then hit the **S** key. The vertexes are snapped together.
--   To unsnap vertexes, select the snapped vertex pair and again hit the **S** key. The vertex of the B-spline being edited remains selected and can now be moved.
--   The **L** key sets or un-sets the linear interpolation.
--   The **X**, **Y** or **Z** keys can be used to constrain the movement of the object being dragged. While dragging, hit the desired axis key. Hit the same key again to disable the constraint.
--   The **Q** key finishes the command and exits edit mode.
+-   Pour déplacer un sommet ou une ligne de guidage (les lignes de guidage sont les lignes droites entre les sommets), maintenez le bouton gauche de la souris enfoncé et déplacez la souris.
+-   La touche **A** sélectionne ou désélectionne tous les sommets et lignes de guidage.
+-   La touche **I** ajoute un sommet au segment appartenant à la ligne de guidage sélectionnée. Le nouveau sommet sera sélectionné.
+-   La touche **T** active ou désactive le mode tangent pour les sommets ou lignes de guidage sélectionnés (par rapport à la direction de la vue).
+-   La touche **P** aligne les objets sélectionnés.
+-   La touche **S** peut être utilisée pour accrocher un sommet à un sommet appartenant à une autre B-spline. Un sommet de la courbe B-spline en cours d\'édition étant sélectionné, maintenez la touche **Ctrl** enfoncée et ajoutez le sommet cible à la sélection, puis appuyez sur la touche **S**. Les sommets sont accrochés ensemble.
+-   Pour désassembler les sommets, sélectionnez la paire de sommets assemblés et appuyez à nouveau sur la touche **S**. Le sommet de la courbe B-spline en cours d\'édition reste sélectionné et peut maintenant être déplacé.
+-   La touche **L** active ou désactive l\'interpolation linéaire.
+-   Les touches **X**, **Y** ou **Z** peuvent être utilisées pour contraindre le mouvement de l\'objet que l\'on fait glisser. Tout en faisant glisser l\'objet, appuyez sur la touche de l\'axe souhaité. Appuyez à nouveau sur la même touche pour désactiver la contrainte.
+-   La touche **Q** termine la commande et quitte le mode d\'édition.
 
 ## Limitations
 
@@ -54,5 +48,7 @@ During the command a special edit mode is active and there are several actions a
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves EditableSpline/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves EditableSpline/fr

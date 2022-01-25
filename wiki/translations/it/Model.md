@@ -16,9 +16,9 @@ Nell\'uso informale, il termine \"[Disegno](Drawing.md)\" può essere usato con 
 
 {{Document objects navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Model/it

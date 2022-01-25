@@ -42,5 +42,7 @@ except Exception:
     None
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro If Selected Stay If Not Then Delete/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro If Selected Stay If Not Then Delete/pl

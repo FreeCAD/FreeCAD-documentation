@@ -19,5 +19,7 @@ Les calques sont importés et exportés de/vers [Arch IFC](Arch_IFC/fr.md) et [D
 
 Le gestionnaire de calques vous permet de gérer vos calques, d\'ajouter ou de supprimer des calques ou de modifier leurs propriétés visuelles. Pour ajouter des objets à un calque, faites-les simplement glisser dans le calque de l\'arborescence. Pour les supprimer, faites-les glisser du calque et déposez-les dans la racine du document.
 
+
+
 ---
-[documentation index](../README.md) > BIM Layers/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Layers/fr

@@ -38,9 +38,9 @@ Pour plus d\'informations, voir [Atelier FEM](FEM_Workbench/fr.md) et [FEM Mesh]
 
 {{Mesh Tools navi
 
-}} {{FEM Tools navi}} {{Document objects navi}} 
+}} {{FEM Tools navi}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Mesh/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Category_Mesh.md) > [FEM](Category_FEM.md) > Mesh/fr

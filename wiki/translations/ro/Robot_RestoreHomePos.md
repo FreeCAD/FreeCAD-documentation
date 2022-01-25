@@ -46,5 +46,7 @@ If no home position has been specified via [Robot\_SetHomePos](Robot_SetHomePos.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos/ro

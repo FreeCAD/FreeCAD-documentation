@@ -448,5 +448,7 @@ Computes the point of parameter u on this curve
 
 
 
+
+
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Line API
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Line API

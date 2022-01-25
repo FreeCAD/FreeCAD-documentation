@@ -36,5 +36,7 @@ L\'option de menu **Std Fichiers récents** affiche une liste des fichiers réce
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std RecentFiles/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std RecentFiles/fr

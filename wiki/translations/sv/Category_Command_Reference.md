@@ -3,7 +3,7 @@ Denna kategori innehåller hjälpsidorna för varje FreeCAD kommando.
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------
+    
   [Arch Add/sv](Arch_Add/sv.md)                                                 [Arch Axis/sv](Arch_Axis/sv.md)                                               [Arch Building/sv](Arch_Building/sv.md)
   [Arch Check/sv](Arch_Check/sv.md)                                             [Arch CloseHoles/sv](Arch_CloseHoles/sv.md)                                   [Arch Floor/sv](Arch_Floor/sv.md)
   [Arch Frame/sv](Arch_Frame/sv.md)                                             [Arch IfcExplorer/sv](Arch_IfcExplorer/sv.md)                                 [Arch MeshToShape/sv](Arch_MeshToShape/sv.md)
@@ -46,10 +46,9 @@ Denna kategori innehåller hjälpsidorna för varje FreeCAD kommando.
   [Sketcher External/sv](Sketcher_External/sv.md)                               [Sketcher LeaveSketch/sv](Sketcher_LeaveSketch/sv.md)                         [Sketcher MapSketch/sv](Sketcher_MapSketch/sv.md)
   [Sketcher NewSketch/sv](Sketcher_NewSketch/sv.md)                             [Sketcher ReorientSketch/sv](Sketcher_ReorientSketch/sv.md)                   [Sketcher ToggleConstruction/sv](Sketcher_ToggleConstruction/sv.md)
   [Sketcher Trimming/sv](Sketcher_Trimming/sv.md)                               [Sketcher ValidateSketch/sv](Sketcher_ValidateSketch/sv.md)                   [Sketcher ViewSketch/sv](Sketcher_ViewSketch/sv.md)
-  [Std ToggleClipPlane/sv](Std_ToggleClipPlane/sv.md)                           [Std ViewScreenShot/sv](Std_ViewScreenShot/sv.md)                             
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -------------------------------------------------------------------------------
+  [Std ToggleClipPlane/sv](Std_ToggleClipPlane/sv.md)                           [Std ViewScreenShot/sv](Std_ViewScreenShot/sv.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/sv](<img src="images/Property.png" style="width:16px"> Categories/sv.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/sv

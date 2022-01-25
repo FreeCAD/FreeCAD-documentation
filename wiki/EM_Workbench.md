@@ -62,9 +62,9 @@ Some video tutorials are available for the EM Workbench beta versions:
 -   [FreeCAD ElectroMagnetic WorkBench tutorial: using the path object, part 1](https://www.youtube.com/watch?v=CRqDuEtbdds)
 -   [FreeCAD ElectroMagnetic WorkBench tutorial: using the path object, part 2](https://www.youtube.com/watch?v=slsLdLoF2OI)
 
- {{EM Tools navi}} 
+ {{EM Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > EM Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [EM](Category_EM.md) > EM Workbench

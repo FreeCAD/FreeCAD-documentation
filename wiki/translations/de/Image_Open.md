@@ -43,5 +43,7 @@ Das Bild wird in einem neuen Ansichtsfenster platziert, nicht in der 3D Ansicht.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/de

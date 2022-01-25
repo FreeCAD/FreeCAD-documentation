@@ -23,5 +23,7 @@ The **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Spreadshee
 
  {{Spreadsheet_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold

@@ -31,5 +31,7 @@ La commande **Mesh Echelle** met à l\'échelle les objets maillés.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Scale/fr

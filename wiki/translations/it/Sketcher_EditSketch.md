@@ -57,5 +57,7 @@ Questo comando permette di modificare uno schizzo esistente. Apr la [Finestra di
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher EditSketch/it

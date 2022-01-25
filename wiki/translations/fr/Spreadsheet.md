@@ -10,5 +10,7 @@ Une [feuille de calcul](spreadsheet/fr.md) est une page qui contient des lignes 
 3.  Modifiez le contenu des cellules.
 4.  Fermez l\'onglet de la feuille de calcul lorsque vous avez terminé, les valeurs sont enregistrées automatiquement lorsque vous les tapez.
 
+
+
 ---
-[documentation index](../README.md) > Spreadsheet/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Spreadsheet/fr

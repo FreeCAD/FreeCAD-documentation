@@ -47,5 +47,7 @@ Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstell
 -   Die Standardtaste **Beschränken mod**, **Shift**, kann geändert werden: **Bearbeiten → Einstellungen... → Entwurf → Raster und Fang → Fangen → Beschränken mod**.
 -   Die Tastaturkürzel **X**, **Y** und **Z** können geändert werden: **Bearbeiten → Einstellungen... → Entwurf → Benutzeroberflächeneinstellungen → Befehlsinterne Tastaturkürzel**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/de

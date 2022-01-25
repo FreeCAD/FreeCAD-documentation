@@ -5,7 +5,7 @@ Kategoria ta gromadzi artykuły zawierające listę obiektów i metod dostępnyc
 
 ### Contents:
 
-  --------------------------------------------------------- --------------------------------------------------- -------------------------------------------------------------------------------------
+    
   [Arch API/pl](Arch_API/pl.md)                     [Base API/pl](Base_API/pl.md)               [Builtin modules/pl](Builtin_modules/pl.md)
   [Console API/pl](Console_API/pl.md)               [Draft API/pl](Draft_API/pl.md)             [FeaturePython Custom Properties/pl](FeaturePython_Custom_Properties/pl.md)
   [FreeCAD API/pl](FreeCAD_API/pl.md)               [FreeCADGui API/pl](FreeCADGui_API/pl.md)   [Matrix API/pl](Matrix_API/pl.md)
@@ -13,10 +13,9 @@ Kategoria ta gromadzi artykuły zawierające listę obiektów i metod dostępnyc
   [Placement API/pl](Placement_API/pl.md)           [Python/pl](Python/pl.md)                   [Reinforcement API/pl](Reinforcement_API/pl.md)
   [Robot API example/pl](Robot_API_example/pl.md)   [Selection API/pl](Selection_API/pl.md)     [TechDraw API/pl](TechDraw_API/pl.md)
   [TechDrawGui API/pl](TechDrawGui_API/pl.md)       [TopoShape API/pl](TopoShape_API/pl.md)     [Vector API/pl](Vector_API/pl.md)
-  [ViewObject API/pl](ViewObject_API/pl.md)                                                             
-  --------------------------------------------------------- --------------------------------------------------- -------------------------------------------------------------------------------------
+  [ViewObject API/pl](ViewObject_API/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/pl](<img src="images/Property.png" style="width:16px"> Categories/pl.md)
+
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Category:API/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Category:API/pl

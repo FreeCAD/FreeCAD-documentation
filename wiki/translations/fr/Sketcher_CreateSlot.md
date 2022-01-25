@@ -34,5 +34,7 @@ Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix b
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateSlot/fr

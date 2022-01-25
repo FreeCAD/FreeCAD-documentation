@@ -12,19 +12,19 @@ These are tools to improve your TechDraw drawings.
 
 -   <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width:32px;"> [Change line attributes](TechDraw_ExtensionChangeLineAttributes.md): changes the style, width and color of selected lines and center lines created with the Extensions tools. <small>(v0.20)</small> 
 
-------------------------------------------------------------------------
+
 
 -   <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:32px;"> [Extend line](TechDraw_ExtensionExtendLine.md): extends a line created with the Extensions tools at both ends. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:32px;"> [Shorten line](TechDraw_ExtensionShortenLine.md): shortens a line created with the Extensions tools at both ends. <small>(v0.20)</small> 
 
-------------------------------------------------------------------------
+
 
 -   <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:32px;"> [Lock/Unlock view](TechDraw_ExtensionLockUnlockView.md): locks or unlocks the position of a view. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:32px;"> [Align section view](TechDraw_ExtensionPositionSectionView.md): orthogonally aligns a section view with its source view. <small>(v0.20)</small> 
 
-------------------------------------------------------------------------
+
 
 -   <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:32px;"> [Align horizontal dimensions](TechDraw_ExtensionPosHorizChainDimension.md): aligns horizontal dimensions to create a chain dimension. <small>(v0.20)</small> 
 
@@ -44,17 +44,17 @@ These are tools to improve your TechDraw drawings.
 
 -   <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:32px;"> [Circular pattern centerlines](TechDraw_ExtensionHoleCircle.md): adds centerlines to a circular pattern of circles. <small>(v0.20)</small> 
 
-------------------------------------------------------------------------
+
 
 -   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Thread section hole](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Thread section shaft](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a shaft. <small>(v0.20)</small> 
-
 -   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Thread hole](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Thread section shaft](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a shaft. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Thread shaft](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of shafts. <small>(v0.20)</small> 
 
-------------------------------------------------------------------------
+
 
 -   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Add cosmetic intersections](TechDraw_ExtensionVertexAtIntersection.md): adds cosmetic vertices at the intersections of selected edges. <small>(v0.20)</small> 
 
@@ -86,19 +86,19 @@ These are tools to improve your TechDraw drawings.
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:32px;"> [Create arc length dimension](TechDraw_ExtensionCreateLengthArc.md): adds an arc length dimension. <small>(v0.20)</small> 
 
-------------------------------------------------------------------------
+
 
 -   <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:32px;"> [Insert diameter symbol](TechDraw_ExtensionInsertDiameter.md): adds a diameter symbol at the start of the dimension text. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width:32px;"> [Insert square symbol](TechDraw_ExtensionInsertSquare.md): adds a square tube section symbol at the start of the dimension text. <small>(v0.20)</small> 
 
-------------------------------------------------------------------------
+
 
 -   <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width:32px;"> [Increase decimals](TechDraw_ExtensionIncreaseDecimal.md): increases the number of decimal places of the dimension text. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Decrease decimals](TechDraw_ExtensionDecreaseDecimal.md): decreases the number of decimal places of the dimension text. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Decrease decimals](TechDraw_ExtensionDecreaseDecimal.md): decreases the number of decimal places of the dimension text. <small>(v0.20)</small>
 
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
+
 
 ---
-[documentation index](../README.md) > Sandbox:Roy 043
+![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:Roy 043

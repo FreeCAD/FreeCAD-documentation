@@ -176,5 +176,7 @@ Draft.move(Structure2, FreeCAD.Vector(2000, 0, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/de

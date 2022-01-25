@@ -513,7 +513,7 @@ Draft.move(box, mvec)
 
 ## 界面
 
-FreeCAD的用户界面是用 [Qt](http://en.wikipedia.org/wiki/Qt_%28framework%29)制作的，这是一个强大的图形界面系统，可用于绘制所有与3D视图有关的菜单、工具栏与按钮等控件，或处理相关的控制操作。Qt提供了一个模块------PySide，借此可通过python去访问与修改Qt界面，正像FreeCAD所做的那样。让我们试着摆弄下Qt界面并制作一个简单的对话框：
+FreeCAD的用户界面是用 [Qt](http://en.wikipedia.org/wiki/Qt_%28framework%29)制作的，这是一个强大的图形界面系统，可用于绘制所有与3D视图有关的菜单、工具栏与按钮等控件，或处理相关的控制操作。Qt提供了一个模块PySide，借此可通过python去访问与修改Qt界面，正像FreeCAD所做的那样。让我们试着摆弄下Qt界面并制作一个简单的对话框：
 
 
 </div>
@@ -579,11 +579,6 @@ Now that you have a good understanding of the basics, where are we going to keep
 </div>
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Python scripting tutorial/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Python scripting tutorial/zh-cn

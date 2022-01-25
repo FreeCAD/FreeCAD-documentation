@@ -15,7 +15,7 @@ Utilizzare il menu {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16
 
 ### Primitive Geometriche 
 
-+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+
++++
 | ![](images/PartLinePrimitivesOptions_it.png ) | Linea                                                                                                     |
 |                                                                          |                                                                                                           |
 |                                                                          | #### Parametri                                                                                            |
@@ -38,11 +38,11 @@ Utilizzare il menu {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16
 |                                                                          | -   direzione dell\'asse della linea, x, y, z o definita dall\'utente.                                    |
 |                                                                          |                                                                                                           |
 |                                                                          | I parametri e il posizionamento sono modificabili tramite la scheda delle proprietà.                      |
-+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+
++++
 
 ### Proprietà
 
-+--------------------------------------------------------+-----------------------------------------------------------+
++++
 | ![](images/PartLineProperty_it.png ) | #### Vista                                                |
 |                                                        |                                                           |
 |                                                        | ..                                                        |
@@ -88,7 +88,9 @@ Utilizzare il menu {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16
 |                                                        |     {{ProprietaDati|Z2}}                                  |
 |                                                        |                                                        |
 |                                                        |     : (di default è 1).                                   |
-+--------------------------------------------------------+-----------------------------------------------------------+
++++
+
+
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/it

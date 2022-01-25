@@ -70,5 +70,7 @@ L\'effetto dello strumento Mostra può essere replicato nelle [macro](macros/it.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ShowAll/it

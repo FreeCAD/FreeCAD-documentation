@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/de
+   Topic: Wikihouse Migration Tutorium
+   Level: Zwischenstufe/Fortgeschritten
+   Time: 60 Minuten
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Wikihouse porting tutorial/de
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/de
-|Topic= Wikihouse Migration Tutorium
-|Level= Zwischenstufe/Fortgeschritten
-|Time= 60 Minuten
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -157,5 +163,7 @@ The last step is simply to select all the sheets, then export them to DXF from m
 
 These files are ready to send to the shops that will do the actual cut. It would be possible to generate the G-Code to be sent to the CNC machine directly from FreeCAD too, but that is matter for another tutorial.
 
+
+
 ---
-[documentation index](../README.md) > Wikihouse porting tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Wikihouse porting tutorial/de

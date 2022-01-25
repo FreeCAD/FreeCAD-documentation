@@ -32,5 +32,7 @@ The **Std RecentFiles** menu option displays a list of recent files which can be
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std RecentFiles
+![](images/Right_arrow.png) [documentation index](../README.md) > Std RecentFiles

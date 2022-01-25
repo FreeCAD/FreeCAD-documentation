@@ -61,5 +61,7 @@ Les autres valeurs de la Feuille de configuration peuvent être référencées d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SetupSheet/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SetupSheet/fr

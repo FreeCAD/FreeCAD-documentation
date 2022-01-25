@@ -83,5 +83,7 @@ Si vous avez une tâche qui implique plus d\'une opération d\'usinage, vous pou
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Job/fr

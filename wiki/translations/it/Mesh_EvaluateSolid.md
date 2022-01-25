@@ -40,5 +40,7 @@ Il comando **Controlla se è un solido** controlla se un oggetto mesh è solido.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh EvaluateSolid/it

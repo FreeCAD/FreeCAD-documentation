@@ -21,5 +21,7 @@ Gruppierung mehrerer Paneel bezogener Werkzeuge.
 -   <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Tafelplatte](Arch_Panel_Sheet/de.md): Erstellt eine 2D Zuschnittplatte einschließlich [Tafelschnitte](Arch_Panel_Cut/de.md) oder anderer 2D Objekte <small>(v0.17)</small> 
 -   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Verschachteln](Arch_Nest/de.md): Mehrere flache Objekte innerhalb einer Behälterform verschachteln <small>(v0.17)</small>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/de

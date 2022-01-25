@@ -46,5 +46,7 @@ The **Std ToggleObjects** command toggles the visibility of all objects belongin
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ToggleObjects/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleObjects/ru

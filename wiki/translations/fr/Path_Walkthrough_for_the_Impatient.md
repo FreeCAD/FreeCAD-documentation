@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/fr
+   Topic:Atelier Path
+   Level:Débutant/modéré
+   Time:15 minutes
+   Author:Chrisb
+   FCVersion:0.19
+---
+
 # Path Walkthrough for the Impatient/fr
-{{TutorialInfo/fr
-|Topic=Atelier Path
-|Level=Débutant/modéré
-|Time=15 minutes
-|Author=Chrisb
-|FCVersion=0.19
-}}
+
+
+
+
 
 ## Objectif
 
@@ -157,9 +163,9 @@ La dernière étape pour générer le G-code pour la fraiseuse cible consiste à
     
 
 
-{{Tutorials navi
+ {{Path Tools navi}}
 
-}} {{Path Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/fr

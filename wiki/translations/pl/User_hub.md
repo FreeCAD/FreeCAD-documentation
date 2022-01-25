@@ -1,6 +1,6 @@
 # <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/pl
 
-------------------------------------------------------------------------
+
 
 
 
@@ -24,16 +24,20 @@ A jeśli interesuje cię historia programu FreeCAD, odwiedź stronę [Historia]
 -   [FAQ](Frequently_asked_questions/pl.md): Odpowiedzi na najczęściej zadawane pytania.
 -   [Poradniki](Tutorials/pl.md) obejmujące różne części FreeCAD.
 
+#### Migracja z innego oprogramowania? 
+
 Zobacz równiez:
 
 -   [Migracja do FreeCAD z Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [FreeCAD BIM poradnik migracji](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
+-   [Tabela kompatybilności aplikacji BIM](BIM_application_compatibility_table/pl.md)
 
 ### Informacje podstawowe 
 
 -   [Interface](Interface/pl.md): interfejs FreeCAD jest zbudowany z różnych elementów graficznych dostępnych na ekranie, w tym [widok 3D](3D_view/pl.md), [widok drzewa](Tree_view/pl.md), [edytor właściwości](Property_editor/pl.md), [panel zadań](Task_panel/pl.md), oraz [konsola Pythona](Python_console/pl.md).
 -   [Nawigacja przy użyciu myszki](Mouse_navigation/pl.md): różne warianty obsługi za pomocą myszki lub gładzika do obsługi widoku 3D.
 -   [Wybór](Selection_methods/pl.md): różne style wybierania obiektów w programie.
--   [Nazwa obiektu](Object_name/pl.md): wszystkie obiekty mają atrybut `Nazwa` tylko do odczytu, który je jednoznacznie identyfikuje, oraz atrybut `Etykieta`, który można być edytowany przez użytkownika.
+-   [Nazwa obiektu](Object_name/pl.md): obiekty FreeCAD mają atrybut `Nazwa` tylko do odczytu, który je jednoznacznie identyfikuje, oraz atrybut `Etykieta`, który można być edytowany przez użytkownika.
 -   [Edytor ustawień](Preferences_Editor/pl.md) i [Presonalizacja](Interface_Customization/pl.md):: mechanizm, który pozwala dostosować wiele parametrów systemu bazowego i poszczególnych środowisk roboczych.
 -   [Właściwości obiektów](Property_editor/pl.md): Jak działają właściwości obiektów w programie FreeCAD.
 -   [Struktura dokumentu](Document_structure/pl.md): W jaki sposób twój dokument jest zorganizowany, z jakich części się składa.
@@ -45,7 +49,7 @@ Zobacz równiez:
 
 [Środowisko pracy](Workbenches/pl.md) reprezentowane jest przez zestaw powiązanych narzędzi, które są wykorzystywane do realizacji konkretnych zadań. Są to podstawowe środowiska pracy dołączone do każdej instalacji FreeCAD:
 
--   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std: Base](Std_Base/pl.md). To nie jest tak naprawdę środowisko pracy, ale raczej kategoria \"standardowych\" poleceń i narzędzi, które mogą być używane we wszystkich środowiskach pracy.
+-   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Narzędzia standardowe](Std_Base/pl.md). Te polecenia i narzędzia są obecne we wszystkich środowiskach pracy.
 
 -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Architektura](Arch_Workbench/pl.md) do pracy z elementami architektonicznymi.
 
@@ -123,8 +127,5 @@ Jest to oficjalna pomoc Online FreeCAD. Proszę zwrócić uwagę, że cały syst
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/pl

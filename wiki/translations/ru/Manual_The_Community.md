@@ -53,5 +53,7 @@
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Manual:The Community/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The Community/ru

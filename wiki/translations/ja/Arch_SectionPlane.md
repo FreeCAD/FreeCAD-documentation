@@ -159,5 +159,7 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/ja

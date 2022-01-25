@@ -66,11 +66,9 @@ Publicidad: artículos en [http://yorik.uncreated.net/guestblog.php](http://y
 
 Las reglas decididas y la información va al documento [Modelo de desarrollo de FreeCAD](FreeCAD_development_model/es.md).
 
-## Siguientes acciones 
+## Siguientes acciones
 
 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > FreeCAD development model project/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > FreeCAD development model project/es

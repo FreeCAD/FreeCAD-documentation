@@ -17,5 +17,7 @@ Cet outil mesure l\'angle entre deux objets d\'un assemblage à l\'aide d\'arêt
 1.  Sélectionnez deux arêtes droites ou deux faces planes (ou une de chaque).
 2.  Appuyez sur le bouton **<img src="images/Assembly_MeasureAngle.svg" width=16px> [Measure angle](Assembly3_MeasureAngle/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MeasureAngle/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasureAngle/fr

@@ -170,5 +170,7 @@ Now that we have 3D objects for the bore holes and the outer shape, we can use a
 
 Your final object should look like the picture on the right.
 
+
+
 ---
-[documentation index](../README.md) > Engine Block Tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > Engine Block Tutorial

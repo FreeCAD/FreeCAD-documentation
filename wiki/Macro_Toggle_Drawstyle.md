@@ -131,5 +131,7 @@ else:
 
 The forum discussion [Keyboard shortcut, View toolbar - Wireframe](https://forum.freecadweb.org/viewtopic.php?f=3&t=14336)
 
+
+
 ---
-[documentation index](../README.md) > Macro Toggle Drawstyle
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Toggle Drawstyle

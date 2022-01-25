@@ -53,5 +53,7 @@ The **Mesh SegmentationBestFit** command creates separate mesh segments for spec
 
  {{Mesh Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SegmentationBestFit

@@ -72,5 +72,7 @@
 -   Создайте \"оболочку из граней\"
 -   Создайте \"твёрдое тело из оболочки\"
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder/ru

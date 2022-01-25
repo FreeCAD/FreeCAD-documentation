@@ -21,7 +21,7 @@ A Point (vertex) geometric primitive.
 
 ### Geometric Primitives 
 
-+------------------------------------------------------------------------------+---------------------+
++++
 | ![](images/PartVertexPrimitivesOptions_it.png ) | Point               |
 |                                                                              |                     |
 |                                                                              | #### Parameter      |
@@ -43,11 +43,11 @@ A Point (vertex) geometric primitive.
 |                                                                              | -                   |
 |                                                                              | -                   |
 |                                                                              | -                   |
-+------------------------------------------------------------------------------+---------------------+
++++
 
 ### Property
 
-+------------------------------------------------------------+-----------------------------------------+
++++
 | ![](images/PartVertexProperty_it.png ) | #### View                               |
 |                                                            |                                         |
 |                                                            | #### Data                               |
@@ -79,7 +79,7 @@ A Point (vertex) geometric primitive.
 |                                                            |     **Z**                  |
 |                                                            |                                      |
 |                                                            |     :                                   |
-+------------------------------------------------------------+-----------------------------------------+
++++
 
 
 
@@ -89,5 +89,7 @@ A Point (vertex) geometric primitive.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Point/pt-br

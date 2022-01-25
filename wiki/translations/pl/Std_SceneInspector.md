@@ -28,5 +28,7 @@ Polecenie **Inspektor sceny** otwiera okno dialogowe wyświetlające przegląd w
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SceneInspector/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SceneInspector/pl

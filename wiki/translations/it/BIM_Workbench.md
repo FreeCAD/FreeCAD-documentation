@@ -268,8 +268,5 @@ Sono in fase di sviluppo ulteriori nuovi ambienti.
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > BIM Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [BIM](Category_BIM.md) > BIM Workbench/it

@@ -23,5 +23,7 @@ The constraint accepts straight edges and planar faces.
 2.  Select one straight edge element or one planar face element of each object.
 3.  Press the **<img src="images/Assembly_ConstraintAngle.svg" width=16px> [Angle](Assembly3_ConstraintAngle.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintAngle
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAngle

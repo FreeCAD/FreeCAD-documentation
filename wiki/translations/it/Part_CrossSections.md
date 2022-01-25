@@ -50,5 +50,7 @@ L\'utilità **Sezioni\...** crea una o più sezioni trasversali attraverso la fo
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CrossSections/it

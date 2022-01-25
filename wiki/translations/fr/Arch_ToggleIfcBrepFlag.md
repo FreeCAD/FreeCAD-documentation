@@ -18,5 +18,7 @@ Cet outil active/désactive l\'indicateur IfcBrep d\'un objet [Arch](Arch_Workbe
 1.  Selectionnez un objet Arch
 2.  Sélectionnez le bouton **<img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px>** ou **Arch** → **Utilitaires** → **<img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px> [Activer/désactiver le marqueur Brep IFC](Arch_ToggleIfcBrepFlag/fr.md)** dans le menu supérieur.
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/fr

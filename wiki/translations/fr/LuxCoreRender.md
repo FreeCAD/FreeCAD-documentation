@@ -108,5 +108,7 @@ Après avoir installé le Render Workbench et LuxCoreRender, lancez FreeCAD, ouv
 
 Définissez le chemin de la commande LuxCore (cli), quelque chose comme *C:/Tools/LuxCore/pyluxcoretool.exe* et le chemin de l\'interface LuxCore, quelque chose comme *C:/Tools/LuxCore/luxcoreui.exe*, puis appliquez.
 
+
+
 ---
-[documentation index](../README.md) > LuxCoreRender/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > LuxCoreRender/fr

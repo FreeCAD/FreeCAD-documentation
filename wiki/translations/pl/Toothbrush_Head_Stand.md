@@ -1,5 +1,6 @@
 # Toothbrush Head Stand/pl
-{{TutorialInfo|Topic=Modeling|Level=Beginner|Author=[EmmanuelG](User_EmmanuelG.md)|Time=1 hour|FCVersion=0.16 or greater|Files=[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]}}
+---
+- TutorialInfo:   Topic:Modeling   Level:Beginner   Author:[[User:EmmanuelG   EmmanuelG]]|Time:1 hour   FCVersion:0.16 or greater   Files:[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]}}
 
 ## Problem z życia codziennego 
 
@@ -422,9 +423,10 @@ Perfect !
 -   Print it instead of the first version or to replace it if it eventually broke ;-)
 
 
-{{Tutorials navi
+ {{PartDesign Tools navi}} {{Sketcher Tools navi}} {{Userdocnavi
+---
 
-}} {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Toothbrush Head Stand/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > Toothbrush Head Stand/pl

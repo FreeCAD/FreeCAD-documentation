@@ -3,7 +3,7 @@ This category contains python code examples for FreeCAD
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+    
   [Code snippets/en](Code_snippets/en.md)                                                           [Command/en](Command/en.md)                                                                       [Create a FeaturePython object part I/en](Create_a_FeaturePython_object_part_I/en.md)
   [Create a FeaturePython object part II/en](Create_a_FeaturePython_object_part_II/en.md)           [Custom icon in tree view/en](Custom_icon_in_tree_view/en.md)                                     [Debugging/en](Debugging/en.md)
   [Dialog creation image and animated GIF/en](Dialog_creation_image_and_animated_GIF/en.md)         [Dialog creation reading and writing files/en](Dialog_creation_reading_and_writing_files/en.md)   [Dialog creation setting colors/en](Dialog_creation_setting_colors/en.md)
@@ -24,10 +24,9 @@ This category contains python code examples for FreeCAD
   [Scripted objects with attachment/en](Scripted_objects_with_attachment/en.md)                     [Scripted objects/en](Scripted_objects/en.md)                                                     [Scripted Parts: Ball Bearing - Part 1/en](Scripted_Parts:_Ball_Bearing_-_Part_1/en.md)
   [Scripted Parts: Ball Bearing - Part 2/en](Scripted_Parts:_Ball_Bearing_-_Part_2/en.md)           [Scripting and macros/en](Scripting_and_macros/en.md)                                             [Scripts/en](Scripts/en.md)
   [Svg Namespace/en](Svg_Namespace/en.md)                                                           [Topological data scripting/en](Topological_data_scripting/en.md)                                 [Viewprovider/en](Viewprovider/en.md)
-  [Workbench creation/en](Workbench_creation/en.md)                                                                                                                                                           
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+  [Workbench creation/en](Workbench_creation/en.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/en](<img src="images/Property.png" style="width:16px"> Categories/en.md)
+
 
 ---
-[documentation index](../README.md) > Category:Python Code/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Python Code/en

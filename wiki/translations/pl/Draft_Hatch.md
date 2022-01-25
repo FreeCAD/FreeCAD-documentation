@@ -118,5 +118,7 @@ hatch = Draft.make_hatch(rectangle, filename, pattern, scale=50, rotation=45)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Hatch/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Hatch/pl

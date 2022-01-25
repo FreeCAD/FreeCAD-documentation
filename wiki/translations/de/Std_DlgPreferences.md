@@ -30,5 +30,7 @@ Der **Std DlgEinstellungen**-Befehl öffnet den [Voreinstellungseditor](Preferen
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgPreferences/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgPreferences/de

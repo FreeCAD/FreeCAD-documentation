@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-每个FreeCAD命令都有自己独一无二的名称，可参见[:<img src="images/Property.png" style="width:16px"> Command\_Reference页面](:Category_Command_Reference.md)。加载命令的方式很多，如通过工具栏按钮、菜单项，也可以在python脚本或python控制台中执行：
+每个FreeCAD命令都有自己独一无二的名称，可参见[:Category:Command\_Reference页面](:Category_Command_Reference.md)。加载命令的方式很多，如通过工具栏按钮、菜单项，也可以在python脚本或python控制台中执行：
 
 
 </div>
@@ -132,11 +132,6 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 See [Line drawing function](Line_drawing_function.md).
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Command/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/zh-cn

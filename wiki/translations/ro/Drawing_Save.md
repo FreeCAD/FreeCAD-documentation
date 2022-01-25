@@ -20,5 +20,7 @@ Fișierele SVG sunt frecvente și pot fi vizualizate în majoritatea browserelor
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/ro

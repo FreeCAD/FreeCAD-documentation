@@ -111,5 +111,7 @@ Per lo strumento Stira non esiste un\'interfaccia di programmazione disponibile.
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Stretch/it

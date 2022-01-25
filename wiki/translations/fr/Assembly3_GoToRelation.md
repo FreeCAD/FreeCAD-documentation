@@ -27,5 +27,7 @@ Le résultat (objets en surbrillance) dépend de l\'objet sélectionné.
 1.  Sélectionnez une pièce, un élément ou une contrainte.
 2.  Appuyez sur le bouton **<img src="images/Assembly_GotoRelation.svg" width=16px> [Go to relation](Assembly3_GoToRelation/fr.md)** ou utilisez le raccourci clavier : **A** puis **R**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 GoToRelation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 GoToRelation/fr

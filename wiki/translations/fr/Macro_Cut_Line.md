@@ -124,5 +124,7 @@ cutLine(4, createLine = 1, biColor = 1, createPoint = 0)
 
 Cette macro utilise la fonction discretize [voir le code original](http://forum.freecadweb.org/viewtopic.php?f=3&t=4217&hilit=discretize)
 
+
+
 ---
-[documentation index](../README.md) > Macro Cut Line/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Cut Line/fr

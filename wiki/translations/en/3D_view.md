@@ -88,5 +88,7 @@ For more information see the power user documentation:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > 3D view/en
+![](images/Right_arrow.png) [documentation index](../README.md) > 3D view/en

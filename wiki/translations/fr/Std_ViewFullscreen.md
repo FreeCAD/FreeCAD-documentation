@@ -35,5 +35,7 @@ La commande **Std Plein écran** bascule la [vue 3D](3D_view/fr.md) vers et depu
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewFullscreen/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewFullscreen/fr

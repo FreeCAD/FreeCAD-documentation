@@ -39,5 +39,7 @@ Cet outil vous permet d\'appliquer des incréments de rotation ou des incrément
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TransformManip/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TransformManip/fr

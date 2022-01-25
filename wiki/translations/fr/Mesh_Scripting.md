@@ -93,9 +93,9 @@ doc.recompute()
 
 Les scripts, bien que difficile à utiliser, de test unitaire du module `Mesh` constituent une source étendue de scripts liés au maillage. Dans ces tests unitaires, toutes les méthodes sont appelées et toutes les propriétés / attributs sont modifiés. Donc, si vous êtes assez audacieux, jetez un œil au [module de test unitaire](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-Voir aussi: [Mesh API](Mesh_API/fr.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
+Voir aussi: [Mesh API](Mesh_API/fr.md). {{Top}}  {{Mesh Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/fr

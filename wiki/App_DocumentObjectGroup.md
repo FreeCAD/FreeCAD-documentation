@@ -29,5 +29,7 @@ See the properties in the [Std Group](Std_Group.md) page.
 
  {{Std Base navi}} {{Document objects navi}}
 
+
+
 ---
-[documentation index](../README.md) > App DocumentObjectGroup
+![](images/Right_arrow.png) [documentation index](../README.md) > App DocumentObjectGroup

@@ -27,5 +27,7 @@ La commande **Quitter l\'esquisse** quitte le mode d\'édition d\'esquisse et li
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/fr

@@ -3,11 +3,10 @@ This category lists pages related to the [Ship Workbench/bg](Ship_Workbench/bg.m
 
 ### Contents:
 
-  ---------------------------------------------------
+  
   [Ship Workbench/bg](Ship_Workbench/bg.md)
-  ---------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/bg](<img src="images/Property.png" style="width:16px"> Workbenches/bg.md)
+
 
 ---
-[documentation index](../README.md) > Category:Ship/bg
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Ship/bg

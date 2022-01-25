@@ -15,10 +15,10 @@ Wydobywa element przekroju z przecięcia dwóch wybranych profili, z których dr
 
 W tym przykładzie sześcian jest podzielony na sekcje za pomocą cylindra:
 
-+------------------------------------------------+------------------------------------------------+
++++
 | ![](images/PartSection1_it.png ) | -   **Baza**: obiekt bazowy, sześcian.         |
 |                                                | -   **Narzędzie**: narzędzie przekroju, walec. |
-+------------------------------------------------+------------------------------------------------+
++++
 
 
 
@@ -35,5 +35,7 @@ Aby utworzyć przekroje za pomocą płaszczyzny przekroju, zobacz stronę <img a
 
 [Przekrój poprzeczny](Part_CrossSections/pl.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/pl

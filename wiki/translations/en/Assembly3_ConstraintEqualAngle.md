@@ -24,5 +24,7 @@ The line directions as well as the face normals are represented by each ICS\'s z
 
 :   In addition the \"Flip element\" function of the elements properties panel may be needed if ICSs are not orientated as expected.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintEqualAngle/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/en

@@ -62,5 +62,7 @@ base = Arch.joinWalls([Wall1, Wall2])
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/ru

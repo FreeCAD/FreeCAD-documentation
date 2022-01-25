@@ -82,11 +82,5 @@ Les résultats affichés par l\'atelier FEM ne sont évidemment pas suffisantes 
 
 
 
-
-
-{{Tutorials navi
-
-}}
-
 ---
-[documentation index](../README.md) > Manual:Creating FEM analyses/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating FEM analyses/fr

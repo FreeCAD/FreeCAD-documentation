@@ -35,9 +35,9 @@ To access the hidden experimental commands of the Path Workbench, the user must 
 Read more about the specific experimental commands on the [wiki pages that link to this one](https://www.freecadweb.org/wiki/Special:WhatLinksHere/Path_experimental).
 
 
- {{Path Tools navi}} 
+ {{Path Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Path](Path_Workbench.md) > Path experimental/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Path](Path_Workbench.md) > Path experimental/en

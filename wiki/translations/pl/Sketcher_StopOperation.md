@@ -26,5 +26,7 @@ Jest to rozwiązanie podobne do naciśnięcia klawisza **Esc**.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher StopOperation/pl

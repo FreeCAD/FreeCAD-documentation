@@ -39,5 +39,7 @@ Le code est visible sur Github: [Utility/HighlightDifference.FCMacro](https://gi
 -   Voir la macro complémentaire [Macro\_HighlightCommon](Macro_HighlightCommon/fr.md)
 -   La discussion sur le forum [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
 
+
+
 ---
-[documentation index](../README.md) > Macro HighlightDifference/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro HighlightDifference/fr

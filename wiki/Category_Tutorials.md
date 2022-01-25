@@ -1,11 +1,11 @@
 # Category:Tutorials
-This is a complete list of pages under [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+This is a complete list of pages under [:Category:Tutorials](:Category_Tutorials.md).
 
 See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------
+    
   [Add Button to FEM Toolbar Tutorial](Add_Button_to_FEM_Toolbar_Tutorial.md)                                       [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md)                                   [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md)
   [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md)             [Advanced Attachment OYX](Advanced_Attachment_OYX.md)                                           [Advanced TechDraw Tutorial](Advanced_TechDraw_Tutorial.md)
   [Aeroplane](Aeroplane.md)                                                                                         [Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md)         [Arch panel tutorial](Arch_panel_tutorial.md)
@@ -41,8 +41,9 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
   [Tutorial Render with Blender](Tutorial_Render_with_Blender.md)                                                   [Template:TutorialInfo](Template_TutorialInfo.md)                                               [Tutorials](Tutorials.md)
   [Video tutorials](Video_tutorials.md)                                                                             [Video tutorials for architectural design](Video_tutorials_for_architectural_design.md)         [Video tutorials for product design](Video_tutorials_for_product_design.md)
   [Video tutorials obsolete](Video_tutorials_obsolete.md)                                                           [VRML Preparation for Robot Simulation](VRML_Preparation_for_Robot_Simulation.md)               [Washers](Washers.md)
-  [Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)                                                                 [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)                                     
-  ------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------
+  [Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)                                                                 [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:Tutorials
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials

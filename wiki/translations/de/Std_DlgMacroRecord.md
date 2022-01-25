@@ -55,5 +55,7 @@ Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesit
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgMacroRecord/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroRecord/de

@@ -35,7 +35,7 @@ The dependencies need to be installed in the system before proceeding with compi
 <div class="mw-translate-fuzzy">
 
   Biblioteksnamn   Nödvändig version   Länk till den
-  ---------------- ------------------- --------------------------------------------------------
+    
   Python           \>= 2.5.x           <http://www.python.org/>
   OpenCasCade      \>= 5.2             <http://www.opencascade.org>
   Qt               \>= 4.1.x           <http://www.qtsoftware.com>
@@ -489,11 +489,5 @@ It includes among other things: Boost 1.67, Coin3D 4.0.0a, Eigen3, Open CASCADE 
 
 
 
-
-
- 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Third Party Libraries/sv

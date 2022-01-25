@@ -238,5 +238,7 @@ La discussione nel forum: [export VRML from FreeCAD with python for smaller size
 
 La macro inversa, [Macro\_MeshToPart](Macro_MeshToPart/it.md)
 
+
+
 ---
-[documentation index](../README.md) > Macro PartToVRML/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro PartToVRML/it

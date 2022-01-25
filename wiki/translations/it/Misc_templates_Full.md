@@ -28,9 +28,6 @@ per Linux : \"\"
 <img alt="" src=images/A4_Portrait_IT_FULL.svg  style="width:400px;">
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md)
 
 ---
-[documentation index](../README.md) > [Macros](Category_Macros.md) > Misc templates Full/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > Misc templates Full/it

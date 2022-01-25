@@ -13,7 +13,7 @@ Le Proprieta Vista riguardano la **Visualizzazione** delle caratteristiche dell\
 
 Esempio di proprietà vista per un oggetto di Draft:
 
-+------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Draft_Line_View_it.png ) |                                                                                                                                            |
 |                                                      | {{KEY/it|Base}}                                                                                                                                           |
 |                                                      |                                                                                                                                                        |
@@ -171,7 +171,7 @@ Esempio di proprietà vista per un oggetto di Draft:
 |                                                      |     {{ProprietaVista|Tight Grid}}                                                                                                                         |
 |                                                      |                                                                                                                                                        |
 |                                                      |     : Griglia solo intorno all\'oggetto o su tutta l\'area                                                                                                |
-+------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ### Proprietà Dati 
 
@@ -181,7 +181,7 @@ Tutte le proprietà delle operazioni a cui è possibile accedere tramite la fine
 
 Esempio di proprietà dati di una operazione di Rivoluzione di Part Design:
 
-+------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/PartDesign_Revolution_it_04.png ) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                        | {{KEY/it|Base}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -253,23 +253,20 @@ Esempio di proprietà dati di una operazione di Rivoluzione di Part Design:
 |                                                                        |     {{ProprietaDati|Reversed}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |                                                                        |     : Inverte la direzione di rivoluzione                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-+------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 **Le proprietà presenti nelle schede possono variare secondo lo strumento utilizzato, oppure non essere disponibili.**
 
-+--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/PartDesignPlacementLocked_it.png ) | **Esempio di Placement disattivato**.                                                                                                                                                                                                                              |
 |                                                                          | Nel caso della figura a fianco, sulla faccia superiore del cubo è stato mappato uno schizzo contenente un cerchio e poi è stato utilizzato lo strumento Pad per creare il cilindro. Le geometrie sono connesse come mostrato nel grafico delle dipendenze, quindi: |
 |                                                                          |                                                                                                                                                                                                                                                                    |
 |                                                                          | -   il cubo può essere liberamente riposizionato, e tutte le altre geometrie seguono il cubo,                                                                                                                                                                      |
 |                                                                          | -   lo schizzo **non** può essere mosso dalla faccia su cui è stato creato,                                                                                                                                                                                        |
 |                                                                          | -   il cilindro **non** può essere spostato direttamente, ma per muoverlo è necessario riposizionare il cerchio nello schizzo da cui è stato generato.                                                                                                             |
-+--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
-
-
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md)
 
 ---
-[documentation index](../README.md) > DraftStandardProperty/it
+![](images/Right_arrow.png) [documentation index](../README.md) > DraftStandardProperty/it

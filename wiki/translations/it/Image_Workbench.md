@@ -47,9 +47,9 @@ L\'offset dell\'immagine può essere impostato durante l\'importazione o modific
 
 {{Image Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Image](Category_Image.md) > Image Workbench/it

@@ -81,5 +81,7 @@ Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Edge")
 
 Vedere nella [Documentazione del codice sorgente](Source_documentation/it.md) e nella [Documentazione dei moduli Python](Std_PythonHelp/it.md) per ulteriori aiuti sull\'uso di questi strumenti.
 
+
+
 ---
-[documentation index](../README.md) > Selection methods/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Selection methods/it

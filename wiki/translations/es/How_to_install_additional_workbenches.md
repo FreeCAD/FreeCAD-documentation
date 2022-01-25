@@ -1,11 +1,11 @@
-# How to install additional workbenches/es
-{{TutorialInfo/es
-|Topic=Programación
-|Level=Programador mediano
-|Time=15 minutos
-|FCVersion=Todos
-|Author=[r-frank](User:R-Frank.md)
-|Files=ninguno
+---
+- TutorialInfo:/es
+   Topic:Programación
+   Level:Programador mediano
+   Time:15 minutos
+   FCVersion:Todos
+   Author:[r-frank](User:R-Frank.md)
+   Files:ninguno
 }}
 
 ## Descripción
@@ -15,7 +15,7 @@ Usuarios avanzados han extendido FreeCAD con varios [Ambiente de trabajo externo
 
 **Note:**
 
-a partir de la versión 0.17, FreeCAD presenta un <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Administrador de complementos](Std_AddonMgr/es.md) en el menú **Herramientas → Administrador de complementos**, que permite instalar tanto macros como bancos de trabajo. Las instrucciones que siguen sólo son necesarias si se desea instalar manualmente un banco de trabajo. Esto puede ser necesario si por alguna razón el Administrador de complementos no funciona pero tienes acceso al banco de trabajo descargado como un paquete {{FileName|.zip}}.
+a partir de la versión 0.17, FreeCAD presenta un <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Administrador de complementos](Std_AddonMgr/es.md) en el menú **Herramientas → Administrador de complementos**, que permite instalar tanto macros como bancos de trabajo. Las instrucciones que siguen sólo son necesarias si se desea instalar manualmente un banco de trabajo. Esto puede ser necesario si por alguna razón el Administrador de complementos no funciona pero tienes acceso al banco de trabajo descargado como un paquete {{FileName   .zip}}.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -48,8 +48,8 @@ Este método es posible pero no necesario con la introducción del [Administrado
 -   Download the workbench from github by clicking on the button **Clone** or **Download** on the github page (upper right corner) and choosing \"Download ZIP\"
 -   Unpack the downloaded archive on your local hard disk
 -   Within FreeCAD, locate the macro path by choosing **Edit → Preferences → General → Macro** and look for the "Macro path"
--   Supposed your Windows-Login is "*username*" the default macro path is {{FileName|%APPDATA%\FreeCAD\}} which is usually {{FileName|C:\Users\''username''\Appdata\Roaming\FreeCAD}}
--   Within the macro-directory create (if not already present) a folder called "{{FileName|Mod}}"
+-   Supposed your Windows-Login is "*username*" the default macro path is {{FileName   %APPDATA%\FreeCAD\}} which is usually {{FileName   C:\Users\''username''\Appdata\Roaming\FreeCAD}}
+-   Within the macro-directory create (if not already present) a folder called "{{FileName   Mod}}"
 -   Within the Mod folder, create a folder with the name of the workbench, for example "Curves"
 -   Now move the unpacked files and sub-folders of the workbench to the just created workbench-folder
 -   After restart of FreeCAD you should now have an entry in the [workbench selector](Std_Workbench.md)
@@ -80,13 +80,16 @@ Adding the [community-ppa](https://launchpad.net/~freecad-community/+archive/ubu
 Installing the workbenches via synaptic packet manager.
 
 
-```python
+{{Code   code:
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
 $ git clone  https://github.com/tomate44/CurvesWB.git
-```
+---
 
+# How to install additional workbenches/es
+
+ 
 In FreeCAD you will now have a new workbench-entry called \"CurvesWB\". Once installed, use git to upgrade to the latest version:
 
 
@@ -166,9 +169,6 @@ For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_W
     -   see this forum thread [Assembly2 in Version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
- {{Powerdocnavi}}
-
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > How to install additional workbenches/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > How to install additional workbenches/es

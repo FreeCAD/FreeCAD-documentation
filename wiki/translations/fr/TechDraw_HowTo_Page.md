@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/fr
+   Topic:Comment et informations diverses
+   Level:Tous
+   Time:n/a
+   Author:n/a
+   FCVersion:0.19
+---
+
 # TechDraw HowTo Page/fr
-{{TutorialInfo/fr
-|Topic=Comment et informations diverses
-|Level=Tous
-|Time=n/a
-|Author=n/a
-|FCVersion=0.19
-}}
+
+
+
+
 
 ## Introduction
 
@@ -49,5 +55,7 @@ Voir aussi [Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_H
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw HowTo Page/fr

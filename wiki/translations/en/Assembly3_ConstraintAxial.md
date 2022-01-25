@@ -29,5 +29,7 @@ Different types of geometry elements can be mixed.
 2.  Select one element of each object.
 3.  Press the **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Axial Alignment](Assembly3_ConstraintAxial.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintAxial/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAxial/en

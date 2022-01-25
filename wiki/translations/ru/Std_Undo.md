@@ -63,5 +63,7 @@ FreeCAD.ActiveDocument.UndoMode = 1
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Undo/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Undo/ru

@@ -50,5 +50,7 @@ FreeCADGui.updateCommands()
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std SelBoundingBox
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SelBoundingBox

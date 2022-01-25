@@ -10,10 +10,10 @@
 
 FreeCAD je opravdu multiplatformní aplikace, která je vyvíjena pomocí světově známého frameworku [Qt](http://en.wikipedia.org/wiki/Qt_(framework)). Znamená to, že FreeCAD vypadá a chová se stejně ve Windows, Linuxu i Macu. Nicméně instalční procedura se trochu liší v každém operačním systému. Dále si vyberte Váš operační systém pro podrobnější popis jak na něm instalovat FreeCAD.
 
-  ---------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
+    
    ![ alt=\'Windows\' \| link= Install on Windows/cs](images/Windows.png )   ![ alt=\'Linux\' \| link= Install on Unix/cs](images/Linux.png )   ![ alt=\'Mac\' \| link= Install on Mac/cs](images/Mac.png )
                               [Instalace na Windows](Install_on_Windows/cs.md)                                                   [Instalace na Linux/Unix](Install_on_Unix/cs.md)                                             [Instalace na Mac](Install_on_Mac/cs.md)
-  ---------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
+    
 
 
 </div>
@@ -137,7 +137,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/cs](<img src="images/Property.png" style="width:16px"> User_Documentation/cs.md)
+
 
 ---
-[documentation index](../README.md) > Installing additional components/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/cs

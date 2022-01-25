@@ -59,7 +59,7 @@ Les règles et les lignes directrices suivantes définissent le jeu de G-Code em
 ### Liste des commandes G-Code actuellement acceptées 
 
   Commande        Description                                                                  Arguments acceptés   Affiché
-  --------------- ---------------------------------------------------------------------------- -------------------- ------------
+     
   G0              déplacement rapide                                                           X,Y,Z,A,B,C          Rouge
   G1              déplacement normal                                                           X,Y,Z,A,B,C          Vert
   G2              arc dans le sens des aiguilles                                               X,Y,Z,A,B,C,I,J,K    Vert
@@ -438,9 +438,9 @@ doc.recompute()
 
 {{Path_Tools_navi
 
-}} {{Powerdocnavi}}
+}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Path](Path_Workbench.md) > Path scripting/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Path](Path_Workbench.md) > Path scripting/fr

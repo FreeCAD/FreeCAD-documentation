@@ -3,7 +3,7 @@ This category contains macros to extend your FreeCAD installation with new funct
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------
+    
   [Macro 3D Parametric Curve/pl](Macro_3D_Parametric_Curve/pl.md)                       [Macro 3d Printer Slicer Individual Parts/pl](Macro_3d_Printer_Slicer_Individual_Parts/pl.md)     [Macro 3d Printer Slicer/pl](Macro_3d_Printer_Slicer/pl.md)
   [Macro AeroFoil/pl](Macro_AeroFoil/pl.md)                                             [Macro Airfoil Import & Scale/pl](Macro_Airfoil_Import_&_Scale/pl.md)                             [Macro Alias Manager/pl](Macro_Alias_Manager/pl.md)
   [Macro Align Camera to Working Plane/pl](Macro_Align_Camera_to_Working_Plane/pl.md)   [Macro Align Face Object to View/pl](Macro_Align_Face_Object_to_View/pl.md)                       [Macro Align View to Face/pl](Macro_Align_View_to_Face/pl.md)
@@ -39,10 +39,9 @@ This category contains macros to extend your FreeCAD installation with new funct
   [Macro Visibility Manager/pl](Macro_Visibility_Manager/pl.md)                         [Macro VisibleAlls/pl](Macro_VisibleAlls/pl.md)                                                   [Macro Wiki Object Properties List Generator/pl](Macro_Wiki_Object_Properties_List_Generator/pl.md)
   [Macro Wiring And Hoses/pl](Macro_Wiring_And_Hoses/pl.md)                             [Macro WorkFeatures/pl](Macro_WorkFeatures/pl.md)                                                 [Template:Macro/pl](Template:Macro/pl.md)
   [Macros recipes/pl](Macros_recipes/pl.md)                                             [Macros/pl](Macros/pl.md)                                                                         [Misc templates Full/pl](Misc_templates_Full/pl.md)
-  [Qt Example/pl](Qt_Example/pl.md)                                                     [Svg Namespace/pl](Svg_Namespace/pl.md)                                                           
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------
+  [Qt Example/pl](Qt_Example/pl.md)                                                     [Svg Namespace/pl](Svg_Namespace/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/pl](<img src="images/Property.png" style="width:16px"> Categories/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:Macros/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Macros/pl

@@ -1,11 +1,12 @@
 # FEM Beginner tutorial/it
-{{TutorialInfo/it
-|Topic= FEM Beginner tutorial
-|Level= Beginner
-|Time=
-|Author=thschrader
-|FCVersion=0.17.11622+
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true] Whiffle Ball
+---
+- TutorialInfo:/it
+   Topic: FEM Beginner tutorial
+   Level: Beginner
+   Time:
+   Author:thschrader
+   FCVersion:0.17.11622+
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true] Whiffle Ball
 }}
 
 ### **Motivation**
@@ -40,5 +41,11 @@ ToDo
 
 ToDo
 
+
+{{clear
 ---
-[documentation index](../README.md) > FEM Beginner tutorial/it
+
+
+
+---
+![](images/Right_arrow.png) [documentation index](../README.md) > FEM Beginner tutorial/it

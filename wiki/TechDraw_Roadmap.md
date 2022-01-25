@@ -74,9 +74,9 @@ Making a template with editable text fields requires significant expertise with 
 
 See the bug tracker for up to date information.
 
- {{TechDraw Tools navi}}  
+ {{TechDraw Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md)
+
 
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap

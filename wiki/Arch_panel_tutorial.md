@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic: Modeling an architectural panel
+   Level: Beginner
+   Time: 60 minutes
+   Author: Yorik
+   FCVersion:
+   Files:
+---
+
 # Arch panel tutorial
-{{TutorialInfo
-|Topic= Modeling an architectural panel
-|Level= Beginner
-|Time= 60 minutes
-|Author= Yorik
-|FCVersion=
-|Files=
-}}
+
+ 
+
+
 
 This is a cross-post of a [tutorial](http://opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) originally written for [Open-Source Ecology](http://opensourceecology.org).
 
@@ -193,9 +198,9 @@ Both Draft Rotate and Move tools make use of the Draft Snapping system. Differen
 ![](images/Arch_panel_tutorial_20.jpg )
 
 
-{{Tutorials navi
+   {{Sketcher Tools navi}}
 
-}}   {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial

@@ -21,5 +21,7 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
     -   Appuyez sur le bouton **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** dans le [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu sélectionnez l\'option **<img src="images/Draft_Snap_Lock.svg" width=16px> Snap Lock**.
     -   Utilisez le raccourci \"en commande\" : **S**. Ce raccourci ne peut être utilisé que si une commande est active et ne fonctionne pas pour toutes les commandes.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/fr

@@ -113,9 +113,6 @@ Autrement dit, n\'acceptez plus des travaux effectués au format DWG. Dans la pr
 Dans la version de développement comme mentionné ci-dessus, vous pouvez passer du convertisseur ODA propriétaire à la bibliothèque du logiciel libre LibreDWG pour les fichiers DWG (et DXF). Veuillez le faire et signaler tout problème que vous rencontrez.
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DWG Import/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Common Questions](Category_Common Questions.md) > [Draft](Category_Draft.md) > FreeCAD and DWG Import/fr

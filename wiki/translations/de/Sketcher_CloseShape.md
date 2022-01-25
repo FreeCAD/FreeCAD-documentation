@@ -40,5 +40,7 @@ Das Werkzeug wird die Elemente in der Reihenfolge ihrer Auswahl verbinden, so da
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CloseShape/de

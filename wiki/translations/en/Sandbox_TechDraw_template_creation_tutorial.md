@@ -1,11 +1,19 @@
+---
+- TutorialInfo:   Topic:Drafting
+   Level:Beginner
+   Time:(needs assessment)
+   Author:[https://wiki.freecadweb.org/User:ThanklessLiving ThanklessLiving] [http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
+   FCVersion:0.19
+---
+
 # Sandbox:TechDraw template creation tutorial/en
-{{TutorialInfo
-|Topic=Drafting
-|Level=Beginner
-|Time=(needs assessment)
-|Author=[https://wiki.freecadweb.org/User:ThanklessLiving ThanklessLiving] [http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
-|FCVersion=0.19
-}}
+
+
+
+
+
+
+
 
 ## Introduction
 
@@ -153,11 +161,9 @@ See a Stackoverflow discussion on [removing transform clauses in SVG files](http
 If you do not see the green boxes for your editable texts, there might be something wrong with your document scale. Open your file in Inkscape again and confirm the values of the viewBox and the sizes are matching.
 
 
-{{Tutorials navi
+ {{TechDraw Tools navi}}
 
-}} {{TechDraw Tools navi}} 
 
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
 
 ---
-[documentation index](../README.md) > Sandbox:TechDraw template creation tutorial/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Sandbox:TechDraw template creation tutorial/en

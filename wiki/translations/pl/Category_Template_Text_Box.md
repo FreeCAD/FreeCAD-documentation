@@ -5,11 +5,10 @@ These templates produce small pieces of text that are suitable for transclusion.
 
 ### Contents:
 
-  ---------------------------------------------------------------------
+  
   [Template:UnfinishedDocu/pl](Template:UnfinishedDocu/pl.md)
-  ---------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Template/pl](<img src="images/Property.png" style="width:16px"> Template/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:Template:Text Box/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template:Text Box/pl

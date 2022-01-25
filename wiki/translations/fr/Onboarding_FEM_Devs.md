@@ -136,7 +136,7 @@ A définir
 -   [Discussion sur le fil de discussion original](https://forum.freecadweb.org/viewtopic.php?f=18&t=60574) pour cette page wiki.
 -   [atelier FEM](FEM_Workbench/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [FEM](Category_FEM.md) > Onboarding FEM Devs/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Onboarding FEM Devs/fr

@@ -1,11 +1,11 @@
-# Import/Export IFC - compiling IfcOpenShell/de
-{{TutorialInfo/de
-|Topic=Architektur Arbeitsbereich
-|Level=Fortgeschritten
-|Time=120 Minuten
-|Author=Pablo Gil
-|FCVersion=0.19.x
-|Files=
+---
+- TutorialInfo:/de
+   Topic:Architektur Arbeitsbereich
+   Level:Fortgeschritten
+   Time:120 Minuten
+   Author:Pablo Gil
+   FCVersion:0.19.x
+   Files:
 }}
 
 ## Einführung
@@ -22,10 +22,14 @@ Es war eine so harte Nachforschung darüber, wie man eine Arbeitskopie von IfcOp
 1\. Lade das vollständige GitHub Projekt unter <https://github.com/IfcOpenShell/IfcOpenShell> herunter oder klone es (es wird immer die neueste Version sein)
 
 :   
-    `git Klon https://github.com/IfcOpenShell/IfcOpenShell`
-    
+    `git Klon https://github.com/IfcOpenShell/IfcOpenShell
+---
 
-2\. Gehe in einem Terminal zum Ordner {{FileName|/nix/}} und starte das Skript. Unter OSX wird es ausgeführt mit: 
+# Import/Export IFC - compiling IfcOpenShell/de
+
+     
+
+2\. Gehe in einem Terminal zum Ordner {{FileName|/nix/` und starte das Skript. Unter OSX wird es ausgeführt mit: 
 ```python
 cd nix/
 ./build-all.sh
@@ -134,8 +138,5 @@ Tschüss
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > Import/Export IFC - compiling IfcOpenShell/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > [3rd Party](Category_3rd Party.md) > [File_Formats](Category_File_Formats.md) > Import/Export IFC - compiling IfcOpenShell/de

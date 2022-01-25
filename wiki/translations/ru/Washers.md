@@ -1,5 +1,7 @@
 # Washers/ru
 1.  REDIRECT [Washers](Washers.md)
 
+
+
 ---
-[documentation index](../README.md) > Washers/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Washers/ru

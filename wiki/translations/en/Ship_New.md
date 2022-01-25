@@ -64,5 +64,7 @@ When you press **Accept** button, a new Ship instance named **Ship** is created 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Ship New/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship New/en

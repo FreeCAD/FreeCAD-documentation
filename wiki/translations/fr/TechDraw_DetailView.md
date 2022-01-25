@@ -95,5 +95,7 @@ Pour ce faire, placez la Vue détaillée dans une [Fenêtre de rognage](TechDraw
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView/fr

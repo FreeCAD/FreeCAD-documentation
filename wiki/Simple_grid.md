@@ -33,7 +33,5 @@ In order to configure it you should open the macro and change the variables at y
 
 
 
-[<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md)
-
 ---
-[documentation index](../README.md) > [Macros](Category_Macros.md) > Simple grid
+![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > Simple grid

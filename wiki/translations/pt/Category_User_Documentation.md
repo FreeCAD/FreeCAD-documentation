@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  --------------------------------------------------------------------------- ------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+    
   [About FreeCAD/pt](About_FreeCAD/pt.md)                             [Arch Floor/pt](Arch_Floor/pt.md)                                             [Arch Workbench/pt](Arch_Workbench/pt.md)
   [Basic modeling tutorial/pt](Basic_modeling_tutorial/pt.md)         [Basic Sketcher Tutorial/pt](Basic_Sketcher_Tutorial/pt.md)                   [Compile on Linux/pt](Compile_on_Linux/pt.md)
   [Compile on MacOS/pt](Compile_on_MacOS/pt.md)                       [Compile on Windows/pt](Compile_on_Windows/pt.md)                             [Complete Workbench/pt](Complete_Workbench/pt.md)
@@ -37,12 +37,8 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [Std ViewScreenShot/pt](Std_ViewScreenShot/pt.md)                   [Surface Workbench/pt](Surface_Workbench/pt.md)                               [TechDraw Workbench/pt](TechDraw_Workbench/pt.md)
   [Tracker/pt](Tracker/pt.md)                                         [Template:TutorialInfo/pt](Template:TutorialInfo/pt.md)                       [User hub/pt](User_hub/pt.md)
   [Video tutorials/pt](Video_tutorials/pt.md)                         [Web Workbench/pt](Web_Workbench/pt.md)                                       [Workbenches/pt](Workbenches/pt.md)
-                                                                                                                                                                    
-                                                                                                                                                                    
-                                                                                                                                                                    
-  --------------------------------------------------------------------------- ------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/pt](<img src="images/Property.png" style="width:16px"> Documentation/pt.md) [<img src="images/Property.png" style="width:16px"> Arch/pt](<img src="images/Property.png" style="width:16px"> Arch/pt.md) [<img src="images/Property.png" style="width:16px"> BIM/pt](<img src="images/Property.png" style="width:16px"> BIM/pt.md) [<img src="images/Property.png" style="width:16px"> Draft/pt](<img src="images/Property.png" style="width:16px"> Draft/pt.md) [<img src="images/Property.png" style="width:16px"> Inspection/pt](<img src="images/Property.png" style="width:16px"> Inspection/pt.md) [<img src="images/Property.png" style="width:16px"> Macros/pt](<img src="images/Property.png" style="width:16px"> Macros/pt.md) [<img src="images/Property.png" style="width:16px"> Workbenches/pt](<img src="images/Property.png" style="width:16px"> Workbenches/pt.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/pt

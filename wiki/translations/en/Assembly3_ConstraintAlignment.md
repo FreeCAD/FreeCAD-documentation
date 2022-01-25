@@ -21,5 +21,7 @@ The offset of their z-axes and the angle between their x-axes (and y-axes as wel
 2.  Select one planar face element of each object.
 3.  Press the **<img src="images/Assembly_ConstraintAlignment.svg" width=16px> [Alignment](Assembly3_ConstraintAlignment.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintAlignment/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAlignment/en

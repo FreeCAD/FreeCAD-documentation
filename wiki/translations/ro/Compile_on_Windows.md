@@ -184,7 +184,7 @@ Iată descrierea unora dintre aceste switch-uri. Probabil că se vor schimba mul
 <div class="mw-translate-fuzzy">
 
   Variable name                   Description                                                Default
-  ------------------------------- ---------------------------------------------------------- ----------------------------
+    
   FREECAD\_LIBPACK\_USE           Switch the usage of the FreeCAD LibPack on or off          On Win32 on, otherwise off
   FREECAD\_LIBPACK\_DIR           Directory where the LibPack is                             FreeCAD SOURCE dir
   FREECAD\_BUILD\_GUI             Build FreeCAD with all Gui related modules                 ON
@@ -543,11 +543,5 @@ A se vedea și
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Windows/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compile on Windows/ro

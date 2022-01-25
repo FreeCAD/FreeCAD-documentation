@@ -33,8 +33,8 @@ If you are here you probably have some question about how to contribute to this 
     -   **[WikiPages](WikiPages.md)** Seems to be the most important single page on the meta wiki. Has not had much in the way of major edit in about a year ( said Jan 2021 ), but minor edits have been active.
     -   \[<https://wiki.freecadweb.org/Special:PrefixIndex?prefix=Template>: List of Wiki templates\]
     -   **[Help for first steps within the wiki - FreeCAD Forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=15372)**
-    -   **[<img src="images/Property.png" style="width:16px"> Template - FreeCAD Documentation](https://wiki.freecadweb.org/<img src="images/Property.png" style="width:16px"> Template)**
-    -   **[<img src="images/Property.png" style="width:16px"> Documentation - FreeCAD Documentation](https://wiki.freecadweb.org/<img src="images/Property.png" style="width:16px"> Documentation)**
+    -   **[Category:Template - FreeCAD Documentation](https://wiki.freecadweb.org/Category:Template)**
+    -   **[Category:Documentation - FreeCAD Documentation](https://wiki.freecadweb.org/Category:Documentation)**
     -   Enough info?
 
 -   Do we have pages of different styles? ( actually I know we do, but it is unclear what each is and what the style guides are ). For example workbench overviews, individual commands, tutorials, example files\.....
@@ -108,9 +108,9 @@ A section of a wiki page can be collapsed, much like code folding. Make it look 
 
 Most pages have been classified into categories, these are listed at the bottom of the page. A couple of examples:
 
--   The category **Tutorials** **[<img src="images/Property.png" style="width:16px"> Tutorials - FreeCAD Documentation](https://wiki.freecadweb.org/<img src="images/Property.png" style="width:16px"> Tutorials)** links to Tutorials
--   The category **Command Reference** contains the help pages of each of FreeCAD Command. **[<img src="images/Property.png" style="width:16px"> Command Reference - FreeCAD Documentation](https://wiki.freecadweb.org/<img src="images/Property.png" style="width:16px"> Command_Reference)**
--   The category **TechDraw** lists pages related to the TechDraw Workbench. **[<img src="images/Property.png" style="width:16px"> TechDraw - FreeCAD Documentation](https://wiki.freecadweb.org/<img src="images/Property.png" style="width:16px"> TechDraw)**
+-   The category **Tutorials** **[Category:Tutorials - FreeCAD Documentation](https://wiki.freecadweb.org/Category:Tutorials)** links to Tutorials
+-   The category **Command Reference** contains the help pages of each of FreeCAD Command. **[Category:Command Reference - FreeCAD Documentation](https://wiki.freecadweb.org/Category:Command_Reference)**
+-   The category **TechDraw** lists pages related to the TechDraw Workbench. **[Category:TechDraw - FreeCAD Documentation](https://wiki.freecadweb.org/Category:TechDraw)**
 
 -   The category of all catagories **[Categories - FreeCAD Documentation](https://wiki.freecadweb.org/Special:Categories)** make link to a category of interest.
 
@@ -152,9 +152,9 @@ These are pages which gather a bunch of other pages together by links to give a 
 
 Pages for users, developers, wiki creators
 
-\[\[<img src="images/Property.png" style="width:16px"> UnfinishedDocu\]
+\[\[Category:UnfinishedDocu\]
 
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
+
 
 ---
-[documentation index](../README.md) > [Sandbox]]](Category_Sandbox]].md) > A Beginner's Questions about Working on the Wiki
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sandbox]]](Category_Sandbox]].md) > A Beginner's Questions about Working on the Wiki

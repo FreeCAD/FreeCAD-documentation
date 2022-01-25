@@ -27,5 +27,7 @@ Translations:Std LinkSelectLinkedFinal/1/pt-br
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkSelectLinkedFinal/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkSelectLinkedFinal/pt-br

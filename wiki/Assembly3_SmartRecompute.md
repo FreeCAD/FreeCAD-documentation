@@ -18,5 +18,7 @@ The <img alt="" src=images/Assembly_SmartRecompute.svg  style="width:24px;"> [Sm
     -   The **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute.md)** button.
     -   The **Assembly3 → <img src="images/Assembly_SmartRecompute.svg" width=16px> Smart recompute** menu option.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 SmartRecompute
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 SmartRecompute

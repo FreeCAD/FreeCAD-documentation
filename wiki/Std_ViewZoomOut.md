@@ -48,5 +48,7 @@ FreeCADGui.ActiveDocument.ActiveView.zoomOut()
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewZoomOut
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewZoomOut

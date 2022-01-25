@@ -330,9 +330,6 @@ Inspecting the code of this module can help to understand the programming interf
 {{docnav/id|Raytracing Workbench/id|Arch Workbench/id}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Draft Workbench/id
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/id

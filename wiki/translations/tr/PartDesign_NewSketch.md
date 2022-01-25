@@ -98,5 +98,7 @@ To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use th
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign NewSketch/tr

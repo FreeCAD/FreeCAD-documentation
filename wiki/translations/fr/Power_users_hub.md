@@ -1,6 +1,6 @@
 # <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/fr
 
-------------------------------------------------------------------------
+
 
 
 
@@ -80,7 +80,7 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 
 ## Fonctions API 
 
-La documentation complète de l\'API de FreeCAD se trouve à l\'adresse <http://www.freecadweb.org/api/>. Elle contient à la fois les APIs C++ et Python, et n\'est pas encore parfaitement formatée, ce qui peut être déroutant si vous recherchez du code uniquement Python. Une version plus facile à parcourir peut être trouvée [ici](:<img src="images/Property.png" style="width:16px"> API/fr.md). Notez qu\'elle peut être incomplète, car elle est mise à jour manuellement. Pour des informations plus précises, parcourez les modules directement depuis la console Python de FreeCAD.
+La documentation complète de l\'API de FreeCAD se trouve à l\'adresse <http://www.freecadweb.org/api/>. Elle contient à la fois les APIs C++ et Python, et n\'est pas encore parfaitement formatée, ce qui peut être déroutant si vous recherchez du code uniquement Python. Une version plus facile à parcourir peut être trouvée [ici](:Category:API/fr.md). Notez qu\'elle peut être incomplète, car elle est mise à jour manuellement. Pour des informations plus précises, parcourez les modules directement depuis la console Python de FreeCAD.
 
 En rapport : [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
@@ -129,11 +129,6 @@ Sur le [Portail communautaire FreeCAD](FreeCAD_Community_Portal/fr.md), vous pou
 -   [Scientific literature](Scientific_literature.md): articles qui référencent ou utilisent le système FreeCAD de différentes manières.
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/fr

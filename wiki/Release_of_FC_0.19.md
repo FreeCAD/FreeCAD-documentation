@@ -53,5 +53,7 @@ Maintainer(s): [Uwestoehr](User_Uwestoehr.md)
 
 Contributors:
 
+
+
 ---
-[documentation index](../README.md) > Release of FC 0.19
+![](images/Right_arrow.png) [documentation index](../README.md) > Release of FC 0.19

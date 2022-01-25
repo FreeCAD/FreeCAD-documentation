@@ -160,7 +160,7 @@ Comme avant-propos, il est important de souligner, que l\'objet unité en lui-m�
 Obligatoirement, une chaîne, indique la **Grandeur** de l\'unité. La **Grandeur** des 7 unités de base sont indiquées ci-dessous (à partir de [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)).
 
       **Grandeur**
-  --- ---------------------------
+  --- 
   1   LENGTH
   2   MASS
   3   TIME
@@ -178,7 +178,7 @@ La signature, est dans tableau d\'INTEGER (entiers) de 7 cases, la signature doi
 La signature des 7 unités de base sont les suivantes:
 
       **Grandeur**
-  --- ---------------------------
+  --- 
   1   LENGTH
   2   MASS
   3   TIME
@@ -190,7 +190,7 @@ La signature des 7 unités de base sont les suivantes:
 À partir de ces 7 unités, nous sommes en mesure d\'exprimer toutes les unités dérivées, définies dans [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf), et, au besoin, d\'en créer de nouvelles, comme par exemple :
 
       **Grandeur**
-  --- --------------
+  --- 
   1   MASS DENSITY
   2   AREA
 
@@ -301,9 +301,6 @@ Il devient ainsi très facile, de gérer un grand nombre de propriétés avec n\
 -   L\'outil [Std Convertisseur d\'unités](Std_UnitsCalculator/fr.md).
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > Units/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Units/fr

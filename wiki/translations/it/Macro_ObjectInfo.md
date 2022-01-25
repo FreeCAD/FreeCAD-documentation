@@ -53,5 +53,7 @@ Si tratta di un modulo creato da un utente di FreeCAD ottenibile presso <http://
 
 Dal Forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 
+
+
 ---
-[documentation index](../README.md) > Macro ObjectInfo/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro ObjectInfo/it

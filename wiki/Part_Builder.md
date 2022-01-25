@@ -71,5 +71,7 @@ A possible workflow could be:
 -   Create a \"shell from faces\"
 -   Create a \"solid from shell\"
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Builder

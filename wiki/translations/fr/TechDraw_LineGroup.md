@@ -75,5 +75,7 @@ Remarque: une nouvelle préférence a été ajoutée pour vous permettre d\'util
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw LineGroup/fr

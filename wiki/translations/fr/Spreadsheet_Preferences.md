@@ -5,23 +5,23 @@ Les préférences pour l\'<img alt="" src=images/Workbench_Spreadsheet.svg  styl
 
 Il n\'y a qu\'un seul onglet : *Tableur* dans la section **Tableur**. Dans cet onglet, vous pouvez spécifier les éléments suivants :
 
-+-------------------------------------------+--------------------------------------------------------------------------+
++++
 | Nom                                       | Description                                                              |
 +===========================================+==========================================================================+
 |                            | Le caractère utilisé comme délimiteur de champ.                          |
 | **Caractère de délimitation** |                                                                          |
 |                                        |                                                                          |
-+-------------------------------------------+--------------------------------------------------------------------------+
++++
 |                            | Le caractère utilisé pour délimiter les chaînes de caractères.           |
 | **Caractère guillemet**       |                                                                          |
 |                                        |                                                                          |
-+-------------------------------------------+--------------------------------------------------------------------------+
++++
 |                            | Le caractère utilisé pour empêcher le caractère suivant d\'être analysé. |
 | **Caractère d'échappement**   |                                                                          |
 |                                        |                                                                          |
-+-------------------------------------------+--------------------------------------------------------------------------+
++++
 |                                           |                                                                          |
-+-------------------------------------------+--------------------------------------------------------------------------+
++++
 
 ![](images/Spreadsheet-Preferences-Spreadsheet.png ) 
 *L'onglet Tableur*
@@ -32,9 +32,9 @@ Il n\'y a qu\'un seul onglet : *Tableur* dans la section **Tableur**. Dans cet o
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
+
 
 ---
-[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Preferences/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Preferences/fr

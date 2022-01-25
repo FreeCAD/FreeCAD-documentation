@@ -8,5 +8,7 @@ FreeCAD supporta alcuni dispositivi di input specializzati, come il mouse 3D. Es
 
 [category:Documentation](category_Documentation.md)
 
+
+
 ---
-[documentation index](../README.md) > 3D input devices/it
+![](images/Right_arrow.png) [documentation index](../README.md) > 3D input devices/it

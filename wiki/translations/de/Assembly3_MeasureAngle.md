@@ -17,5 +17,7 @@ Dieses Werkzeug misst den Winkel zwischen zwei Objekten eines Zusammenbaus unter
 1.  Zwei gerade Kanten oder ebene Flächen auswählen (oder jeweils eine).
 2.  Schaltfläche **<img src="images/Assembly_MeasureAngle.svg" width=16px> [Winkel messen](Assembly3_MeasureAngle/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MeasureAngle/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasureAngle/de

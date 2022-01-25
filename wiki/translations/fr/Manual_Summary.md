@@ -56,7 +56,5 @@ Il existe une autre table des matières pour le [Système d\'aide en ligne de Fr
 
 
 
-[<img src="images/Property.png" style="width:16px"> Manual](Category_Manual.md)
-
 ---
-[documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Manual](Category_Manual.md) > Manual:Summary/fr

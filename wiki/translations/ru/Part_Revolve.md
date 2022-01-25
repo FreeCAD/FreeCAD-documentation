@@ -22,7 +22,7 @@
 </div>
 
   Форма на входе   Форма на выходе
-  ---------------- ----------------------------------------
+   
   Вершина(точка)   Ребро
   Ребро            Грань
   Профиль          Оболочка
@@ -68,5 +68,7 @@
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/ru

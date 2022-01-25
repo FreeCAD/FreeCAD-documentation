@@ -66,5 +66,7 @@ Fare doppio clic sull\'etichetta DatumPoint nell\'albero del modello o fare clic
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Point/it

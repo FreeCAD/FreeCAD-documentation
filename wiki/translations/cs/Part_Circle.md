@@ -25,7 +25,7 @@ A Circle geometric primitive is available from the Create Primitives dialogue in
 
 ### Základní geometrické tvary 
 
-+------------------------------------------------------------------------------+-------------------------------+
++++
 | ![](images/PartCirclePrimitivesOptions_it.png ) | Kružnice                      |
 |                                                                              |                               |
 |                                                                              | #### Parametr                 |
@@ -54,7 +54,7 @@ A Circle geometric primitive is available from the Create Primitives dialogue in
 |                                                                              |                               |
 |                                                                              | -                             |
 |                                                                              | -                             |
-+------------------------------------------------------------------------------+-------------------------------+
++++
 
 
 </div>
@@ -65,5 +65,7 @@ A Circle geometric primitive is available from the Create Primitives dialogue in
 
 -    {{Parameter|Angle 1}}: end of the curved edge, (degrees anti-clockwise), the default value is 360
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/cs

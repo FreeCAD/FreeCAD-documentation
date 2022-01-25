@@ -42,5 +42,7 @@ Questo strumento attiva o disattiva la visibilità di tutte le misurazioni nella
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle All/it

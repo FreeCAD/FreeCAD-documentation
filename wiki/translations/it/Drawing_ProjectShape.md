@@ -20,18 +20,18 @@ Questo strumento crea una proiezione dell\'oggetto selezionato, l\'oggetto sorge
 
 ## Utilizzo
 
-+------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/ProjectShapeSet_it.png ) | 1.  Selezionare un oggetto nella vista 3D o nella struttura del progetto                                                                |
 |                                                      | 2.  fare clic sullo strumento **Proietta le forme**                                                                                     |
 |                                                      | 3.  impostare le opzioni desiderate                                                                                                     |
 |                                                      | 4.  cliccare su **OK**                                                                                                |
 |                                                      |                                                                                                                                         |
 |                                                      | Nell\'albero del progetto viene aggiunto un oggetto **Nome\_proj**. Per le proiezioni successive, viene aggiunto un numero a tre cifre. |
-+------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ### Modificare una proiezione esistente 
 
-+--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/ProjectShapeOptions_it.png ) | I parametri della proiezione possono essere modificati nella scheda Dati della vista combinata.                                                                                                                            |
 |                                                              | {{KEY/it|Base}}                                                                                                                                                                                              |
 |                                                              |                                                                                                                                                                                                                            |
@@ -106,12 +106,14 @@ Questo strumento crea una proiezione dell\'oggetto selezionato, l\'oggetto sorge
 |                                                              |     {{ProprietaDati|VCompound}}                                                                                                                                                                                            |
 |                                                              |                                                                                                                                                                                                                         |
 |                                                              |     :                                                                                                                                                                                                                      |
-+--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 {{Drawing Tools navi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing ProjectShape/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing ProjectShape/it

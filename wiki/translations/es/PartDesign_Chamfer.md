@@ -69,5 +69,7 @@ Esta herramienta crea chaflanes en los bordes seleccionados de un objeto. Se cre
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/es

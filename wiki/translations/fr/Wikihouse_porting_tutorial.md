@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Tutoriel de portage Wikihouse
+   Level:Intermediaire/Avancé
+   Time:60 minutes
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Wikihouse porting tutorial/fr
-{{TutorialInfo/fr
-|Topic=Tutoriel de portage Wikihouse
-|Level=Intermediaire/Avancé
-|Time=60 minutes
-|Author=
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## Introduction
 
@@ -133,5 +139,7 @@ La dernière étape consiste simplement à sélectionner toutes les feuilles, pu
 
 Ces fichiers sont prêts à être envoyés aux ateliers qui effectueront la découpe proprement dite. Il serait également possible de générer le code G à envoyer à la machine CNC directement à partir de FreeCAD, mais cela fera l\'objet d\'un autre tutoriel.
 
+
+
 ---
-[documentation index](../README.md) > Wikihouse porting tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Wikihouse porting tutorial/fr

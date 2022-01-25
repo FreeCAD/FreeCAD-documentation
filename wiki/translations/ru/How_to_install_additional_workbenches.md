@@ -1,14 +1,20 @@
+---
+- TutorialInfo:/ru
+   Topic:Programming
+   Level:Medium programmer
+   Time:15 minutes
+   FCVersion:All
+   Author:[r-frank](User:R-Frank.md)
+---
+
 # How to install additional workbenches/ru
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru
-|Topic=Programming
-|Level=Medium programmer
-|Time=15 minutes
-|FCVersion=All
-|Author=[r-frank](User:R-Frank.md)
-}}
 
 
 </div>
@@ -171,9 +177,6 @@ For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_W
     -   see this forum thread [Assembly2 in Version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
- {{Powerdocnavi}}
-
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > How to install additional workbenches/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > How to install additional workbenches/ru

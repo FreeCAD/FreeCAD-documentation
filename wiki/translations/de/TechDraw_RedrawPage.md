@@ -44,5 +44,7 @@ Der Neuzeichnen Befehl ist nicht direkt in Skripten verfügbar.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw RedrawPage/de

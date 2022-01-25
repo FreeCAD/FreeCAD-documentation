@@ -34,5 +34,7 @@ Moving a robot is done by
 
  {{Robot_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot InsertWaypoint

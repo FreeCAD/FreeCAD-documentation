@@ -19,5 +19,7 @@ Der Befehl <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg  style="width:24p
     -   Die Schaltfläche **<img src="images/Assembly_Add_WorkplaneXZ.svg_" width=16px> [XZ-Arbeitsebene hinzufügen](Assembly3_AddXZWorkplane/de.md)**.
     -   Den Menüeintrag **Assembly3 → Workplane and origin → <img src="images/Assembly_Add_WorkplaneXZ.svg_" width=16px> XZ-Arbeitsebene hinzufügen**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AddXZWorkplane/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddXZWorkplane/de

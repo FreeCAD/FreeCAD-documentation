@@ -28,5 +28,7 @@ Tnie *(odejmuje)* wybrane obiekty typu Część, przy czym ostatni jest odejmowa
 
 Obiekty wejściowe muszą być kształtami [OpenCascade](OpenCASCADE/pl.md). Przykłady: obiekty wykonane z użyciem Środowisk pracy Część, Projekt części, Szkicownik. Nie mogą to być siatki *(chyba że zostały zamienione na kształty)* - dla siatek, w środowisku pracy Siatka istnieją specyficzne narzędzia do przeprowadzania operacji logicznych.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/pl

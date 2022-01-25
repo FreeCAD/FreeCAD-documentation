@@ -93,5 +93,7 @@ FreeCAD использует [оболочку Qt](https://ru.wikipedia.org/wiki
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Manual:The FreeCAD Interface/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD Interface/ru

@@ -129,7 +129,7 @@ Ecco ora la descrizione delle proprietà-dei-materiali concordate. Sentitevi lib
 <div class="mw-translate-fuzzy">
 
   Nome della proprietà   Descrizione                                                                                                                                                                                                                                                                                        Unità/Tipo di Dati
-  ---------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------
+    
   Name                   Nome univoco della proprietà, seguendo le regole descritte sopra                                                                                                                                                                                                                                   stringa ASCII 7-bit
   Father                 Nome del gruppo di materiali a cui appartiene questo materiale. Se è definito questo materiale eredita tutte le proprietà del genitore. Per le proprietà non definite saranno utilizzate le proprietà del genitore.                                                                                ASCII string 7-bit
   Description            Un segnaposto per una descrizione più lunga del materiale                                                                                                                                                                                                                                          ASCII string 7-bit
@@ -148,7 +148,7 @@ Ecco ora la descrizione delle proprietà-dei-materiali concordate. Sentitevi lib
 ### Meccanica
 
   Nome della proprietà                            Descrizione                                                                                                                                                                                                                                                                                                                                                                                           Unità/Tipo di Dati
-  ----------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------
+    
   Modulo di Young                                 Il Modulo di Young, noto come modulo di elasticità longitudinale, è la misura della rigidità di un materiale elastico ed è un valore usato per caratterizzare i materiali. Vedere: [Modulo di elasticità](http://it.wikipedia.org/wiki/Modulo_di_elasticit%C3%A0)                                                                                                                                     kg\*mm\^-1\*s\^-2 (kPa)
   Rapporto di Poisson                             La contrazione laterale dei materiali in tensione come frazione del loro allungamento. Vedere: [Rapporto di Poisson](https://it.wikipedia.org/wiki/Coefficiente_di_Poisson)                                                                                                                                                                                                                           Adimensionale (-)
   Tensione di snervamento                         Lo stress a cui un materiale duttile (come l\'acciaio) inizia a sviluppare una deformazione plastica (irreversibile). Vedere: [Tensione di snervamento](https://it.wikipedia.org/wiki/Tensione_di_snervamento)                                                                                                                                                                                        N\'\*mm\^-2 (MPa)
@@ -171,7 +171,7 @@ Questa sezione definisce le proprietà relative all\'aspetto visivo del material
 <div class="mw-translate-fuzzy">
 
   Nome della proprietà   Descrizione                                                                                               Unità/Tipo di Dati
-  ---------------------- --------------------------------------------------------------------------------------------------------- ----------------------------------
+    
   AmbientColor           Colore dell\'ambiente nel modello di colore Coin3D                                                        float,float,float range: 0.0-1.0
   DiffuseColor           Colore diffuso nel modello di colore Coin3D                                                               float,float,float range: 0.0-1.0
   SpecularColor          Colore speculare nel modello di colore Coin3D                                                             float,float,float range: 0.0-1.0
@@ -189,7 +189,7 @@ Questa sezione definisce le proprietà relative all\'aspetto visivo del material
 ### Termico
 
   Nome della proprietà                 Descrizione                                                                                                                                                               Unità / Tipo di dati
-  ------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------
+    
   Conduttività termica                 La [conduttività termica](http://it.wikipedia.org/wiki/Conducibilit%C3%A0_termica) (coefficiente R o λ o k) che indica la capacità di un materiale di trasferire calore   W/m²K
   Coefficiente di espansione termica                                                                                                                                                                             
   Calore specifico                                                                                                                                                                                               
@@ -202,7 +202,7 @@ Questa sezione definisce le proprietà relative all\'aspetto visivo del material
 <div class="mw-translate-fuzzy">
 
   Nome della proprietà   Descrizione                                                                                                                                        Unità/Tipo di Dati
-  ---------------------- -------------------------------------------------------------------------------------------------------------------------------------------------- --------------------
+    
   StandardFormat         Il sistema di standard utilizzato in questo materiale (ASTM, MasterFormat, CSI, OmniClass, etc\...)                                                String ASCII 7-bit
   StandardCode           Il codice specifico di questo materiale nel formato standard prima                                                                                 String ASCII 7-bit
   FireStandard           Lo standard per la valutazione della resistenza al fuoco utilizzato per il materiale                                                               String ASCII 7-bit
@@ -223,9 +223,9 @@ Questa sezione definisce le proprietà relative all\'aspetto visivo del material
 
 -   add sustainability & LEED properties
 
- {{FEM Tools navi}} 
+ {{FEM Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
+
 
 ---
-[documentation index](../README.md) > [Developer](Category_Developer.md) > Material/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Roadmap](Category_Roadmap.md) > [BIM](Category_BIM.md) > [File_Formats](Category_File_Formats.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > Material/it

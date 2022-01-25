@@ -1717,5 +1717,7 @@ writeInventor() -> string
 
 
 
+
+
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Edge API
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Edge API

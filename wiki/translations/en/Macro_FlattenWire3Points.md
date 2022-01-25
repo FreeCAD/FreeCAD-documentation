@@ -55,5 +55,7 @@ ToolBar icon ![](images/Macro_FlattenWire3Points.png )
     sel.Object.Points = points
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro FlattenWire3Points/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FlattenWire3Points/en

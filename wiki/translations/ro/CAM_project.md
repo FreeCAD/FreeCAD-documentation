@@ -3,8 +3,5 @@ Baza de lucru CAM și proiectul sunt abandonate. Vedeți în schimb [Path Workbe
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > CAM project/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > CAM project/ro

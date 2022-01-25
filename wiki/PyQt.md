@@ -1,5 +1,7 @@
 # PyQt
 1.  REDIRECT [PySide](PySide.md)
 
+
+
 ---
-[documentation index](../README.md) > PyQt
+![](images/Right_arrow.png) [documentation index](../README.md) > PyQt

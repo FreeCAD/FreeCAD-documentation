@@ -41,11 +41,6 @@ Additional information on how to create a custom workbench can be found in the [
 See also a detailed description in the page [how to install additional workbenches](How_to_install_additional_workbenches.md).
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/en

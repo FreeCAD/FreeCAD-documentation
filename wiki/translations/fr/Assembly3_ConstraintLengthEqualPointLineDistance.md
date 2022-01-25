@@ -28,5 +28,7 @@ La valeur de la longueur de la première ligne sélectionnée est égale à la d
 
     :   (si **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute/fr.md)** et **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute/fr.md)** sont désactivés).
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLengthEqualPointLineDistance/fr

@@ -42,7 +42,7 @@
 
 目录中列出了本维基中的所有文章，它们构成了随 FreeCAD 应用程序发行的脱机帮助文档的主体。它已经有多种语言可用：
 
-+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |
 | -   ![](images/Flag-bg.jpg ) [Съдържание](Online_Help_Toc/bg.md)           | -   ![](images/Flag-hr.jpg ) [Sadržaj](Online_Help_Toc/hr.md)            | -   ![](images/Flag-pt-br.jpg ) [Índice](Online_Help_Toc/pt-br.md) pt-br  |
 | -   ![](images/Flag-cn.jpg‎ ) [目錄](Online_Help_Toc/zh.md) zh            | -   ![](images/Flag-id.jpg ) [Daftar isi](Online_Help_Toc/id.md)         | -   ![](images/Flag-ro.jpg ) [Cuprins](Online_Help_Toc/ro.md)                |
@@ -51,7 +51,7 @@
 | -   ![](images/Flag-cs.jpg ) [Obsah](Online_Help_Toc/cs.md)                | -   ![](images/Flag-ko.jpg ) [온라인 도움말](Online_Help_Toc/ko.md)      | -   ![](images/Flag-tr.jpg ) [İçindekiler](Online_Help_Toc/tr.md)            |
 | -   ![](images/Flag-de.jpg ) [Inhaltsverzeichnis](Online_Help_Toc/de.md)   | -   ![](images/Flag-pl.jpg ) [Spis Treści](Online_Help_Toc/pl.md)        | -   ![](images/Flag-uk.jpg ) [Вміст](Online_Help_Toc/uk.md)                  |
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
-+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+++++
 
 ## 参与进来
 
@@ -89,8 +89,5 @@ FreeCAD 可以用 [CMake](https://cmake.org/) 在所有平台上编译。源代�
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/zh-cn

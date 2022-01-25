@@ -38,9 +38,9 @@ If this project is finished successfully futher work on the FEM workbench can be
 
 Medium
 
-### Additional Information 
+### Additional Information
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > FEM Post Processing based on VTK
+![](images/Right_arrow.png) [documentation index](../README.md) > FEM Post Processing based on VTK

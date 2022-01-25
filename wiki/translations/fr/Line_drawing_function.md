@@ -267,9 +267,9 @@ Si vous avez aimé cet exercise, pourquoi ne pas essayer d\'améliorer ce petit 
 -   Ajouter des événements pour d\'autres fonctions: Maintenant que nous venons d\'apprendre les événements de bouton de souris, si nous souhaitons également faire quelque chose quand la souris est déplacée, comme par exemple l\'affichage des coordonnées actuelles?
 -   Donnez un nom à l\'objet créé et bien d\'autres choses.
 
-N\'hésitez pas à poser des questions ou à partager des idées sur le [forum](https://forum.freecadweb.org/)! {{Top}} {{Powerdocnavi}} 
+N\'hésitez pas à poser des questions ou à partager des idées sur le [forum](https://forum.freecadweb.org/)! {{Top}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Line drawing function/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Line drawing function/fr

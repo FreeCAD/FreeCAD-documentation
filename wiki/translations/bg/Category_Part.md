@@ -3,7 +3,7 @@ This category lists pages related to the [Part\_Workbench/bg](Part_Workbench/bg.
 
 ### Contents:
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/bg](<img src="images/Property.png" style="width:16px"> Workbenches/bg.md)
+
 
 ---
-[documentation index](../README.md) > Category:Part/bg
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/bg

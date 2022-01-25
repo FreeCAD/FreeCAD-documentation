@@ -19,5 +19,7 @@ Der Befehl <img alt="" src=images/Assembly_TreeItemDown.svg  style="width:24px;"
     -   Die Schaltfläche **<img src="images/Assembly_TreeItemDown.svg" width=16px> [Objekt abwärts bewegen](Assembly3_MoveItemDown/de.md)**.
     -   Den Menüeintrag **Assembly3 → <img src="images/Assembly_TreeItemDown.svg" width=16px> Objekt abwärts bewegen**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MoveItemDown/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MoveItemDown/de

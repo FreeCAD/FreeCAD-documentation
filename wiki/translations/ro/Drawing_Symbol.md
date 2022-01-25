@@ -35,5 +35,7 @@ Această comandă vă permite să adăugați conținutul unei imagini SVG pe un 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Symbol/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Symbol/ro

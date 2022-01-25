@@ -3,7 +3,7 @@ This category lists pages related to the [Part Workbench](Part_Workbench.md).
 
 ### Contents:
 
-  ----------------------------------------------------------------------- --------------------------------------------------------------------- -----------------------------------------------------------------------
+    
   [Aeroplane](Aeroplane.md)                                       [Artwork Part](Artwork_Part.md)                               [Basic modeling tutorial](Basic_modeling_tutorial.md)
   [Constructive solid geometry](Constructive_solid_geometry.md)   [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)   [Feature](Feature.md)
   [Part and PartDesign](Part_and_PartDesign.md)                   [Part Boolean](Part_Boolean.md)                               [Part BooleanFragments](Part_BooleanFragments.md)
@@ -34,10 +34,9 @@ This category lists pages related to the [Part Workbench](Part_Workbench.md).
   [Template:Part Tools navi](Template_Part_Tools_navi.md)         [Part TopoShape](Part_TopoShape.md)                           [Part Torus](Part_Torus.md)
   [Part TransformedCopy](Part_TransformedCopy.md)                 [Part Tube](Part_Tube.md)                                     [Part Wedge](Part_Wedge.md)
   [Part XOR](Part_XOR.md)                                         [Shape](Shape.md)                                             [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md)
-  [Topological naming problem](Topological_naming_problem.md)     [Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)             
-  ----------------------------------------------------------------------- --------------------------------------------------------------------- -----------------------------------------------------------------------
+  [Topological naming problem](Topological_naming_problem.md)     [Whiffle Ball tutorial](Whiffle_Ball_tutorial.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Category:Part
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [User_Documentation](Category_User_Documentation.md) > Category:Part

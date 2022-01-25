@@ -26,7 +26,7 @@ Vue d\'ensemble de l\'Application **:** Un aperçu général de FreeCAD (espace 
 ## Traduction de mots techniques 
 
   Atelier                           Mot anglais   Mot français
-  --------------------------------- ------------- --------------------------------
+    
   Flamingo et Dodo                  beam          poutre
   Flamingo et Dodo                  frame         charpente, châssis, cadre
   Flamingo et Dodo                  pipe          tuyau quelconque
@@ -43,5 +43,7 @@ Vue d\'ensemble de l\'Application **:** Un aperçu général de FreeCAD (espace 
 
   : Équivalence de mots techniques
 
+
+
 ---
-[documentation index](../README.md) > French Translation
+![](images/Right_arrow.png) [documentation index](../README.md) > French Translation

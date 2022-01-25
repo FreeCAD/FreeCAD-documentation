@@ -70,5 +70,7 @@ Dreptunghiul de selecție pentru a mări ![](images/ZoomEs1.png )  Zona extinsă
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewBoxZoom/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewBoxZoom/ro

@@ -22,5 +22,7 @@ La commande **Std Organiser les icônes** ne fonctionne pas correctement. Elle a
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ArrangeIcons/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ArrangeIcons/fr

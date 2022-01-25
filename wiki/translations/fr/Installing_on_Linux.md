@@ -368,11 +368,5 @@ Une fois FreeCAD installé, il est temps de [commencer](Getting_started/fr.md)!
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Installing on Linux/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing on Linux/fr

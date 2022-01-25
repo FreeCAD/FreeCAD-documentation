@@ -93,9 +93,6 @@ print m.A21()               # print m[1][0]
 {{APIFunction|unity| |Face din această matrice matricea unitate [https://ro.wikipedia.org/wiki/Matrice_unitate]|nimic.}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Matrix API/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Matrix API/ro

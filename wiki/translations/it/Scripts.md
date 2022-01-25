@@ -1,12 +1,21 @@
+---
+- TutorialInfo:/it
+   Topic:Scripting
+   Level:Base
+   Time:
+   Author:onekk Carlo
+   FCVersion:0.19
+   Files:
+---
+
 # Scripts/it
-{{TutorialInfo/it
-|Topic=Scripting
-|Level=Base
-|Time=
-|Author=onekk Carlo
-|FCVersion=0.19
-|Files=
-}}
+
+
+
+
+
+
+
 
 ## Introduzione
 
@@ -14,7 +23,13 @@ Per Scripting si intende l\'uso dell\'interprete Python interno di FreeCAD per g
 
 Le informazioni sullo scripting sono però sparse nella documentazione di FreeCAD, non c\'è una uniformità di \"scritture\" e alcune cose sono spiegate in maniera complicata per chi comincia.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Primo assaggio 
+
+
+</div>
 
 Il primo ostacolo ad un semplice approccio allo scripting deriva dal fatto che non esiste un modo per accedere direttamente all\'editor Python interno a FreeCAD, con un comando di menu od un\'icona nella barra degli strumenti, sapendo però che FreeCAD apre un file con estensione `.py` nell\'editor Python interno, il trucco più semplice è quello di creare usando il proprio editor di testo preferito, un file e poi aprirlo in FreeCAD con **File → Apri**.
 
@@ -209,7 +224,7 @@ FreeCAD.Placement(Vector(0,0,0), FreeCAD.Rotation(10,20,30), Vector(0,0,0))
 Comunque al di sopra di ogni ulteriore considerazione, una cosa è cruciale, il concetto di \"punto di riferimento\" della geometria. In altri termini, il punto dal quale l\'oggetto viene costruito da parte di FreeCAD, riportiamo in questa tabella, copiata direttamente da [Placement](Placement/it.md):
 
   Oggetto                                Punto di riferimento
-  -------------------------------------- --------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                               vertice sinistro (minimo x), frontale (minimo y), in basso (minimo z)
   Part.Sphere                            centro della sfera (centro del suo contenitore cubico)
   Part.Cylinder                          centro della faccia di base
@@ -291,9 +306,9 @@ Illustriamo meglio alcuni punti del codice:
 
 </div>
 
-  ----------------------------------------------------- ---------------------------------------------- ----------------------------------------------------
+    
   ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
-  ----------------------------------------------------- ---------------------------------------------- ----------------------------------------------------
+    
 
 Potete facilmente notare che l\'aereo ruota attorno al suo \"baricentro\" detto anche \"centro di gravità\", che ho fissato nel centro delle ali, una posizione abbastanza \"naturale\", potete comunque piazzarlo dove più vi aggrada o vi serve.
 
@@ -344,13 +359,5 @@ Questo è il significato dell\'aggettivo \"delicato\" che ho usato precedentemen
 
 
 
-
-
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripts/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripts/it

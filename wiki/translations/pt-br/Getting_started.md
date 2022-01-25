@@ -237,8 +237,5 @@ E, finalmente, um dos recursos mais poderosos do FreeCAD é o ambiente [ scripti
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/pt-br](<img src="images/Property.png" style="width:16px"> User_Documentation/pt-br.md)
-
 ---
-[documentation index](../README.md) > Getting started/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/pt-br

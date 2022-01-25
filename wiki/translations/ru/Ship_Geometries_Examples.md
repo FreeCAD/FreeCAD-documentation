@@ -60,5 +60,7 @@ You can load one of those examples following the next steps:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Ship Geometries Examples/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship Geometries Examples/ru

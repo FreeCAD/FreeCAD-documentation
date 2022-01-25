@@ -24,5 +24,7 @@ Im Bezug auf das Ebenenobjekt, kann sich das Punktobjekte noch entlang der X- un
 2.  Ein Punktelement des einen und ein ebenes Flächenelement des anderen Objekts auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintPointInPlane.svg" width=16px> [Punkt auf Ebene](Assembly3_ConstraintPointInPlane/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointInPlane/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointInPlane/de

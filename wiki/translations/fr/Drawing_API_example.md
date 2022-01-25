@@ -239,11 +239,9 @@ Les entrées pour la dimension linéaire sont:
 Vous pouvez procéder comme ci-dessus pour afficher les dimensions sur la page de dessin. Ce module est très bogué, et, peut être rompu à tout moment, des rapports de bugs, sont les bienvenus sur la page github pour l\'instant, ou contactez jcc242, sur les forums, si vous validez un bug, ou quelque chose d\'autre.
 
 
-{{Powerdocnavi
+ {{Drawing Tools navi}}
 
-}} {{Drawing Tools navi}} 
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > [Drawing](Drawing_Workbench.md) > Drawing API example/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Drawing](Drawing_Workbench.md) > Drawing API example/fr

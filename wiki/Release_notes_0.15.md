@@ -149,11 +149,9 @@ The [Drawing dimensioning workbench](https://github.com/hamish2014/FreeCAD_drawi
 
 The [WorkFeature macro](https://github.com/Rentlau/WorkFeature) adds a wide range of helper objects such as alignment planes or axes, and tools to help you to position and align objects along those helper objects (see [forum thread](http://forum.freecadweb.org/viewtopic.php?f=22&t=9056)).
 
- <img alt="" src=images/WF.png  style="width:640px;"> 
+ <img alt="" src=images/WF.png  style="width:640px;">
 
 
-
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.15
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.15

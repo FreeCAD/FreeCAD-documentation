@@ -321,7 +321,7 @@ homeIcon = [
 "   #@@=#---@@;>>>;@#    ",
 "   #@@,#---@@;>>>;@#    ",
 "   #@@,#---@@;>>>;@#    ",
-"   #@@=#---@@-----@#    ",
+"   #@@=#---@@@#    ",
 "   #@@=#---@@@@@@@@#    ",
 "   #@@=##--@@@@@@@@#    ",
 "   #################    ",
@@ -596,7 +596,7 @@ setIconPOL = [
 "...;#+++---*-+++",
 "....%=+++++*-+++",
 ".....;$++++****+",
-"......@%++++----",
+"......@%++++",
 "................"]
 
 def createSpace(texte):    # detecte majuscule et ajoute un espace devant la lettre
@@ -1145,5 +1145,7 @@ Version = \"2.0 Date = 2020/06/06 : Mise en page ajout d\'un bouton et une icôn
 
 Version = \"01.00\" Date = \"2019/05/10\"
 
+
+
 ---
-[documentation index](../README.md) > Macro Fonts Win10 PYMP/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Fonts Win10 PYMP/fr

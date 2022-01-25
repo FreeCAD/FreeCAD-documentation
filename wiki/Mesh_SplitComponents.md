@@ -28,5 +28,7 @@ See: [Mesh Feature](Mesh_Feature.md).
 
  {{Mesh Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SplitComponents
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh SplitComponents

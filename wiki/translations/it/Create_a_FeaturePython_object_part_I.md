@@ -84,19 +84,19 @@ class box():
 
 **The `__init__()` method breakdown:**
 
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------+
++++
 |                                | Parameters refer to the Python class itself and the FeaturePython object that it is attached to. |
 | `def __init__(self, obj):`           |                                                                                                  |
 |                                            |                                                                                                  |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------+
++++
 |                                | String definition of the custom Python type.                                                     |
 | `self.Type <nowiki>=</nowiki> 'box'` |                                                                                                  |
 |                                            |                                                                                                  |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------+
++++
 |                                | Stores a reference to the Python instance in the FeaturePython object.                           |
 | `obj.Proxy <nowiki>=</nowiki> self`  |                                                                                                  |
 |                                            |                                                                                                  |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------+
++++
 
 Add the following code at the top of the file:
 
@@ -118,23 +118,23 @@ def create(obj_name):
 
 **The `create()` method breakdown:**
 
-+------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 |                                       | Standard import for most Python scripts, the App alias is not required.                                                                                                                                                                         |
 | `import FreeCAD as App`                     |                                                                                                                                                                                                                                                 |
 |                                                   |                                                                                                                                                                                                                                                 |
-+------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 |                                       | Creates a new FreeCAD FeaturePython object with the name passed to the method. If there is no name clash, this will be the label and the name of the created object. Otherwise, a unique name and label will be created based on \'obj\_name\'. |
 | `obj <nowiki>=</nowiki> ... addObject(...)` |                                                                                                                                                                                                                                                 |
 |                                                   |                                                                                                                                                                                                                                                 |
-+------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 |                                       | Creates our custom class instance.                                                                                                                                                                                                              |
 | `box(obj)`                                  |                                                                                                                                                                                                                                                 |
 |                                                   |                                                                                                                                                                                                                                                 |
-+------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 |                                       | Returns the FeaturePython object.                                                                                                                                                                                                               |
 | `return obj`                                |                                                                                                                                                                                                                                                 |
 |                                                   |                                                                                                                                                                                                                                                 |
-+------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 The `create()` method is not required, but it provides a nice way to encapsulate the object creation code.
 
@@ -381,11 +381,6 @@ class box():
 {{docnav/it|[PySide](PySide/it.md)|[Creare un Box FeaturePython, Parte II](Creating_a_FeaturePython_Box,_Part_II/it.md)}}
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Create a FeaturePython object part I/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Create a FeaturePython object part I/it

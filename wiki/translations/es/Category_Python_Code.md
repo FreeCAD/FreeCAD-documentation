@@ -3,7 +3,7 @@ Esta categoría contiene ejemplos de código en Python para FreeCAD
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [Code snippets/es](Code_snippets/es.md)                                 [Command/es](Command/es.md)                                                                       [Debugging/es](Debugging/es.md)
   [Dialog creation/es](Dialog_creation/es.md)                             [Embedding FreeCAD/es](Embedding_FreeCAD/es.md)                                                   [Embedding FreeCADGui/es](Embedding_FreeCADGui/es.md)
   [Extra python modules/es](Extra_python_modules/es.md)                   [FEM Tutorial Python/es](FEM_Tutorial_Python/es.md)                                               [FreeCAD Scripting Basics/es](FreeCAD_Scripting_Basics/es.md)
@@ -15,10 +15,9 @@ Esta categoría contiene ejemplos de código en Python para FreeCAD
   [PySide/es](PySide/es.md)                                               [Python scripting tutorial/es](Python_scripting_tutorial/es.md)                                   [Python/es](Python/es.md)
   [PythonOCC/es](PythonOCC/es.md)                                         [Qt Example/es](Qt_Example/es.md)                                                                 [Scripted objects/es](Scripted_objects/es.md)
   [Scripting and macros/es](Scripting_and_macros/es.md)                   [Svg Namespace/es](Svg_Namespace/es.md)                                                           [Topological data scripting/es](Topological_data_scripting/es.md)
-  [Workbench creation/es](Workbench_creation/es.md)                                                                                                                                 
-  ------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------
+  [Workbench creation/es](Workbench_creation/es.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/es](<img src="images/Property.png" style="width:16px"> Categories/es.md)
+
 
 ---
-[documentation index](../README.md) > Category:Python Code/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Python Code/es

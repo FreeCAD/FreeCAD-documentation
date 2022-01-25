@@ -32,5 +32,7 @@ Questo comando consente di visualizzare una [pagina di disegno](Drawing_Landscap
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Openbrowser/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Openbrowser/it

@@ -1,12 +1,21 @@
+---
+- TutorialInfo:/pl
+   Topic:Modelowanie
+   Level:Użytkownik zaawansowany
+   Author:domad
+   Time: nieokreślony
+   FCVersion:0.19.23300 lub nowszy
+   Files:brak
+---
+
 # Advanced TechDraw Tutorial/pl
-{{TutorialInfo/pl
-|Topic=Modelowanie
-|Level=Użytkownik zaawansowany
-|Author=domad
-|Time= nieokreślony
-|FCVersion=0.19.23300 lub nowszy
-|Files=brak
-}}
+
+
+
+
+
+
+
 
 ## Krótko o celu 
 
@@ -82,9 +91,9 @@ Opisana ścieżka może jednak stanowić punkt wyjścia *(lub pomysł)* do napis
 -   [Rysunek Roboczy: -- jak używać narzędzi przyciągania środowiska Rysunek Roboczy do tworzenia \"wierzchołków / punktów kosmetycznych\"](https://forum.freecadweb.org/viewtopic.php?f=28&t=53329) Wątek na forum w języku włoskim.
 
 
-{{Tutorials navi
+ {{TechDraw Tools navi}}
 
-}} {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Advanced TechDraw Tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/pl

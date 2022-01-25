@@ -122,5 +122,7 @@ else:
     FreeCAD.Console.PrintError("Error acquiring QGraphicsView. You might need to update your version of FreeCAD.\n")
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Zoom1 1/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Zoom1 1/fr

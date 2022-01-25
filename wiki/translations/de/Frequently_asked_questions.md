@@ -277,11 +277,5 @@ Ja, du kannst die Kernteile von FreeCAD in anderen Anwendungen verwenden, solang
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/de

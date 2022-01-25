@@ -197,29 +197,29 @@ Cuando miras la [función de creación](#B-splines_no-uniformes.md) para B-splin
 
 Como la forma de una B-spline no dice mucho sobre sus propiedades, FreeCAD ofrece [diferentes herramientas](Sketcher_Workbench/es#Herramientas_de_la_B-spline_de_Sketcher.md) para mostrar las propiedades:
 
-+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | Propiedad                  | Botón de la barra de herramientas                                                                                                                     |
-+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Grado**                  |                                                                                                                                        |
 |                            | **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [Mostrar/ocultar el polígono de control de la B-spline](Sketcher_BSplineDegree/es.md)**               |
 |                            |                                                                                                                                                    |
-+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Polígono de control**    |                                                                                                                                        |
 |                            | **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Mostrar/ocultar el polígono de control de la B-spline](Sketcher_BSplinePolygon/es.md)**             |
 |                            |                                                                                                                                                    |
-+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Peine de curvatura**     |                                                                                                                                        |
 |                            | **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Mostrar/Ocultar peine de curvatura B-spline](Sketcher_BSplineComb/es.md)**                             |
 |                            |                                                                                                                                                    |
-+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Multiplicidad de nudos** |                                                                                                                                        |
 |                            | **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Mostrar/Ocultar multiplicidad de nudos B-spline](Sketcher_BSplineKnotMultiplicity/es.md)** |
 |                            |                                                                                                                                                    |
-+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Pesos**                  |                                                                                                                                        |
 |                            | **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Mostrar/Ocultar el peso del punto de control de la B-spline](Sketcher_BSplinePoleWeight/es.md)** |
 |                            |                                                                                                                                                    |
-+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ### Limitaciones
 
@@ -271,5 +271,7 @@ Cuando hay un borde, hay una zona espacial en la que la luz reflejada tiene meno
 
 Por lo tanto, también tenemos zonas espaciales en las que la intensidad de la luz reflejada es diferente. Para evitar esto, necesitamos en el punto geométrico de transición también una continuidad de la derivada de segundo orden y, por tanto, una B-spline cúbica.
 
+
+
 ---
-[documentation index](../README.md) > B-Splines/es
+![](images/Right_arrow.png) [documentation index](../README.md) > B-Splines/es

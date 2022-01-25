@@ -30,5 +30,7 @@ Currently the command points to [<https://www.freecadweb.org/wiki/FAQ>](https://
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std FreeCADFAQ/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADFAQ/ru

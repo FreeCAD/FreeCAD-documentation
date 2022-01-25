@@ -15,5 +15,7 @@ This tool only toggles the visibility of two more constraint panels.
 
 1.  Press the **<img src="images/Assembly_ConstraintMore.svg" width=16px> [More](Assembly3_ConstraintMore.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintMore
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMore

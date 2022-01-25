@@ -11,5 +11,7 @@ Diese Seite ist für Anwender gedacht, die sich für die Arbeit mit FreeCAD inte
 -   [Umstieg auf FreeCAD von Fusion360](Migrating_to_FreeCAD_from_Fusion360/de.md)
 -   Joko Engineering [video](https://youtu.be/oH8GOR8Jx88) Seite-für-Seite Vergleich von FreeCAD mit OnShape
 
+
+
 ---
-[documentation index](../README.md) > Migrating to FreeCAD from OnShape/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Migrating to FreeCAD from OnShape/de

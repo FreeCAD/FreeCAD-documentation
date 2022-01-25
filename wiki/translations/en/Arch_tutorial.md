@@ -1,10 +1,15 @@
+---
+- TutorialInfo:   Topic:Modeling
+   Level:Intermediate
+   Author:[Yorik](User_Yorik.md)
+   FCVersion:0.14
+---
+
 # Arch tutorial/en
-{{TutorialInfo
-|Topic=Modeling
-|Level=Intermediate
-|Author=[Yorik](User_Yorik.md)
-|FCVersion=0.14
-}}
+
+
+
+
 
 ![](images/Arch_tutorial_00.jpg )
 
@@ -470,9 +475,6 @@ I hope this gives you a good overview of the available tools, be sure to refer t
 The file created during this tutorial can be found [here](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd)
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/en

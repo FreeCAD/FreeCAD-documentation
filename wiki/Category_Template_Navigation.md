@@ -3,7 +3,7 @@ This category lists templates that create navigation elements.
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------------- -----------------------------------------------------------------------------
+    
   [Template:Arch Tools navi](Template_Arch_Tools_navi.md)                 [Template:Artwork](Template_Artwork.md)                               [Template:Artwork/ru](Template:Artwork/ru.md)
   [Template:Docnav](Template_Docnav.md)                                   [Template:Document objects navi](Template_Document_objects_navi.md)   [Template:Draft Tools navi](Template_Draft_Tools_navi.md)
   [Template:Drawing Tools navi](Template_Drawing_Tools_navi.md)           [Template:EM Tools navi](Template_EM_Tools_navi.md)                   [Template:FEM Tools navi](Template_FEM_Tools_navi.md)
@@ -14,10 +14,9 @@ This category lists templates that create navigation elements.
   [Template:Robot Tools navi](Template_Robot_Tools_navi.md)               [Template:Ship Tools navi](Template_Ship_Tools_navi.md)               [Template:Sketcher Tools navi](Template_Sketcher_Tools_navi.md)
   [Template:Spreadsheet Tools navi](Template_Spreadsheet_Tools_navi.md)   [Template:Start Tools navi](Template_Start_Tools_navi.md)             [Template:Std Base navi](Template_Std_Base_navi.md)
   [Template:Surface Tools navi](Template_Surface_Tools_navi.md)           [Template:TechDraw Tools navi](Template_TechDraw_Tools_navi.md)       [Template:Top](Template_Top.md)
-  [Template:Tutorials navi](Template_Tutorials_navi.md)                   [Template:Userdocnavi](Template_Userdocnavi.md)                       
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------------- -----------------------------------------------------------------------------
+  [Template:Tutorials navi](Template_Tutorials_navi.md)                   [Template:Userdocnavi](Template_Userdocnavi.md)
 
-[<img src="images/Property.png" style="width:16px"> Template](Category_Template.md)
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Category:Template:Navigation
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Category:Template:Navigation

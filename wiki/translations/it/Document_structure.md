@@ -40,5 +40,7 @@ FreeCADGui.ActiveDocument.Blob
 FreeCADGui.ActiveDocument.ActiveView
 ``` Restituisce la vista corrente
 
+
+
 ---
-[documentation index](../README.md) > Document structure/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Document structure/it

@@ -5,7 +5,7 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md).
 
 ### Contents:
 
-  --------------------------------------------------------------------------- --------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
   [Template:Docnav](Template_Docnav.md)                               [Template:GuiCommand](Template_GuiCommand.md)                       [Template:GuiCommand/bg](Template:GuiCommand/bg.md)
   [Template:GuiCommand/cs](Template:GuiCommand/cs.md)                 [Template:GuiCommand/de](Template:GuiCommand/de.md)                 [Template:GuiCommand/en](Template:GuiCommand/en.md)
   [Template:GuiCommand/es](Template:GuiCommand/es.md)                 [Template:GuiCommand/fr](Template:GuiCommand/fr.md)                 [Template:GuiCommand/hr](Template:GuiCommand/hr.md)
@@ -23,13 +23,8 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md).
   [Template:TutorialInfo/ru](Template:TutorialInfo/ru.md)             [Template:TutorialInfo/sv](Template:TutorialInfo/sv.md)             [Template:TutorialInfo/tr](Template:TutorialInfo/tr.md)
   [Template:TutorialInfo/uk](Template:TutorialInfo/uk.md)             [Template:TutorialInfo/zh](Template:TutorialInfo/zh.md)             [Template:TutorialInfo/zh-cn](Template:TutorialInfo/zh-cn.md)
   [Template:TutorialInfo/zh-hans](Template:TutorialInfo/zh-hans.md)   [Template:TutorialInfo/zh-hant](Template:TutorialInfo/zh-hant.md)   [Template:TutorialInfo/zh-tw](Template:TutorialInfo/zh-tw.md)
-                                                                                                                                                          
-                                                                                                                                                          
-                                                                                                                                                          
-                                                                                                                                                          
-  --------------------------------------------------------------------------- --------------------------------------------------------------------------- -----------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md) [<img src="images/Property.png" style="width:16px"> Template:Doc](<img src="images/Property.png" style="width:16px"> Template_Doc.md) [<img src="images/Property.png" style="width:16px"> Template:Effect](<img src="images/Property.png" style="width:16px"> Template_Effect.md) [<img src="images/Property.png" style="width:16px"> Template:Image](<img src="images/Property.png" style="width:16px"> Template_Image.md) [<img src="images/Property.png" style="width:16px"> Template:Navigation](<img src="images/Property.png" style="width:16px"> Template_Navigation.md) [<img src="images/Property.png" style="width:16px"> Template:Navigation/it](<img src="images/Property.png" style="width:16px"> Template:Navigation/it.md) [<img src="images/Property.png" style="width:16px"> Template:Text](<img src="images/Property.png" style="width:16px"> Template_Text.md) [<img src="images/Property.png" style="width:16px"> Template:Text Box](<img src="images/Property.png" style="width:16px"> Template_Text_Box.md) [<img src="images/Property.png" style="width:16px"> Template:Text Format](<img src="images/Property.png" style="width:16px"> Template_Text_Format.md) [<img src="images/Property.png" style="width:16px"> Template:Text Long](<img src="images/Property.png" style="width:16px"> Template_Text_Long.md)
+
 
 ---
-[documentation index](../README.md) > Category:Template
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template

@@ -3,7 +3,7 @@ This category gathers documentation article mostly aimed at programmers
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [Add FEM Equation Tutorial/de](Add_FEM_Equation_Tutorial/de.md)                           [ANSI templates/de](ANSI_templates/de.md)                                                   [AppImage/de](AppImage/de.md)
   [Arch templates/de](Arch_templates/de.md)                                                 [Artwork Erroneous/de](Artwork_Erroneous/de.md)                                             [Artwork Guidelines/de](Artwork_Guidelines/de.md)
   [Artwork/de](Artwork/de.md)                                                               [Branding/de](Branding/de.md)                                                               [Bug Triage/de](Bug_Triage/de.md)
@@ -39,11 +39,9 @@ This category gathers documentation article mostly aimed at programmers
   [Source documentation/de](Source_documentation/de.md)                                     [Start up and Configuration/de](Start_up_and_Configuration/de.md)                           [Testing/de](Testing/de.md)
   [The FreeCAD source code/de](The_FreeCAD_source_code/de.md)                               [Third Party Libraries/de](Third_Party_Libraries/de.md)                                     [Third Party Tools/de](Third_Party_Tools/de.md)
   [Topological data scripting/de](Topological_data_scripting/de.md)                         [Tracker/de](Tracker/de.md)                                                                 [Translating an external workbench/de](Translating_an_external_workbench/de.md)
-  [Windows packaging/de](Windows_packaging/de.md)                                           [Workbench creation/de](Workbench_creation/de.md)                                           
-                                                                                                                                                                                                        
-  ------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+  [Windows packaging/de](Windows_packaging/de.md)                                           [Workbench creation/de](Workbench_creation/de.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/de](<img src="images/Property.png" style="width:16px"> Documentation/de.md) [<img src="images/Property.png" style="width:16px"> Artwork/de](<img src="images/Property.png" style="width:16px"> Artwork/de.md) [<img src="images/Property.png" style="width:16px"> Packaging/de](<img src="images/Property.png" style="width:16px"> Packaging/de.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/de

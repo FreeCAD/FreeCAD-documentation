@@ -27,5 +27,7 @@ The **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet E
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/ru

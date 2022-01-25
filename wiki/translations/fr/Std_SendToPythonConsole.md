@@ -42,5 +42,7 @@ La commande **Std Vers la console Python** crée une variable dans la [console P
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SendToPythonConsole/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SendToPythonConsole/fr

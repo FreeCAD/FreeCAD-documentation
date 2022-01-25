@@ -32,5 +32,7 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 
 -   Voir aussi: [Draft Définir le style](Draft_SetStyle/fr.md) et [Draft Appliquer le style](Draft_ApplyStyle/fr.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft annotation scale widget/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft annotation scale widget/fr

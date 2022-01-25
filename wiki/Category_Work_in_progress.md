@@ -3,7 +3,7 @@ This category is for pages that are under construction and should not be touched
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------
+    
   [Advanced TechDraw Tutorial](Advanced_TechDraw_Tutorial.md)                                         [Advanced TechDraw Tutorial/de](Advanced_TechDraw_Tutorial/de.md)                               [Advanced TechDraw Tutorial/en](Advanced_TechDraw_Tutorial/en.md)
   [Advanced TechDraw Tutorial/es](Advanced_TechDraw_Tutorial/es.md)                                   [Advanced TechDraw Tutorial/fr](Advanced_TechDraw_Tutorial/fr.md)                               [Advanced TechDraw Tutorial/it](Advanced_TechDraw_Tutorial/it.md)
   [Advanced TechDraw Tutorial/pl](Advanced_TechDraw_Tutorial/pl.md)                                   [Advanced TechDraw Tutorial/ru](Advanced_TechDraw_Tutorial/ru.md)                               [FreeCAD Managing Expectations](FreeCAD_Managing_Expectations.md)
@@ -32,10 +32,9 @@ This category is for pages that are under construction and should not be touched
   [TechDraw ExtensionVertexAtIntersection](TechDraw_ExtensionVertexAtIntersection.md)                 [Transitioning from Solidworks to FreeCAD](Transitioning_from_Solidworks_to_FreeCAD.md)         [WikiPages](WikiPages.md)
   [WikiPages/de](WikiPages/de.md)                                                                     [WikiPages/en](WikiPages/en.md)                                                                 [WikiPages/es](WikiPages/es.md)
   [WikiPages/fr](WikiPages/fr.md)                                                                     [WikiPages/pl](WikiPages/pl.md)                                                                 [WikiPages/pt-br](WikiPages/pt-br.md)
-  [WikiPages/ru](WikiPages/ru.md)                                                                     [Template:Work in progress](Template_Work_in_progress.md)                                       
-  ----------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------
+  [WikiPages/ru](WikiPages/ru.md)                                                                     [Template:Work in progress](Template_Work_in_progress.md)
 
-[<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md) [<img src="images/Property.png" style="width:16px"> UnfinishedDocu](Category_UnfinishedDocu.md)
+
 
 ---
-[documentation index](../README.md) > Category:Work in progress
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Work in progress

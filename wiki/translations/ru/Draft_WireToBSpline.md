@@ -62,5 +62,7 @@ wire_from_spline = Draft.make_wire(points2)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/ru

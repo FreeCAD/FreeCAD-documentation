@@ -30,5 +30,7 @@ Das Projektwerkzeug unterstützt zwei Arten von Vorlagen: Nachdem du die verschi
 
 Alternativ kannst du auch den Inhalt des aktuellen Dokuments als Vorlage speichern. Dadurch wird das aktuell geöffnete Dokument als Standarddatei **.FCStd** gespeichert, enthält aber auch zusätzliche BIM Einstellungen wie die aktuelle Arbeitsebene oder die aktuellen Einheiten. Wenn du die Option **Wiederherstellen** jederzeit verwendest, wird der Inhalt dieser Vorlagendatei mit dem aktiven Dokument zusammengeführt und alle darin gefundenen Einstellungen werden angewendet.
 
+
+
 ---
-[documentation index](../README.md) > BIM Project/de
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Project/de

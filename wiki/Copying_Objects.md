@@ -23,5 +23,7 @@ Like most things in FreeCAD, there are many ways of making a copy. For more idea
 -   Part: [Mirror](Part_Mirror.md), [Create simple copy](Part_SimpleCopy.md)
 -   Draft: [Offset](Draft_Offset.md), [Scale](Draft_Scale.md), [Array](Draft_OrthoArray.md), [PathArray](Draft_PathArray.md), [Clone](Draft_Clone.md), [Mirror](Draft_Mirror.md)
 
+
+
 ---
-[documentation index](../README.md) > Copying Objects
+![](images/Right_arrow.png) [documentation index](../README.md) > Copying Objects

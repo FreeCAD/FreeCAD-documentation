@@ -37,9 +37,9 @@ Wenn dieses Projekt erfolgreich abgeschlossen ist, kann eine vollständige Integ
 
 Hart
 
-### Zusätzliche Informationen 
+### Zusätzliche Informationen
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > Topological Naming Project/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Topological Naming Project/de

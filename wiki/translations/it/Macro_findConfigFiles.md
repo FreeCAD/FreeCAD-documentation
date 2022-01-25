@@ -114,5 +114,7 @@ if ok == QtGui.QMessageBox.Ok or ok==0:
 
 Il foro [findConfigFiles macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=29888)
 
+
+
 ---
-[documentation index](../README.md) > Macro findConfigFiles/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro findConfigFiles/it

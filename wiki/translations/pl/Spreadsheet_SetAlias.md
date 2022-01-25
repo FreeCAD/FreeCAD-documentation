@@ -27,5 +27,7 @@ The **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Spreadsheet
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet SetAlias/pl

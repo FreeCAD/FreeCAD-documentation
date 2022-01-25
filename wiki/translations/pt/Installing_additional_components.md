@@ -10,10 +10,10 @@
 
 O FreeCAD é um software verdadeiramente multi-plataforma, desenvolvido usando a conhecida arquitetura [Qt](http://pt.wikipedia.org/wiki/Qt). Isso significa que o FreeCAD funciona e tem o mesmo aspeto no Windows, Linux e Mac. No entanto, o procedimento de instalação é um pouco diferente para cada sistema operativo. Escolha o seu sistema operativo em baixo para mais detalhes sobre a instalação do FreeCAD.
 
-  ---------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------
+    
    ![ alt=\'Windows\' \| link= Install on Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Install on Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Install on Mac](images/Mac.png )
                           [Instalação em Windows](Install_on_Windows/pt.md)                                               [Instalação em Linux](Install_on_Linux/pt.md)                                         [Instalação em Mac](Install_on_Mac/pt.md)
-  ---------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------
+    
 
 
 </div>
@@ -137,7 +137,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/pt](<img src="images/Property.png" style="width:16px"> User_Documentation/pt.md)
+
 
 ---
-[documentation index](../README.md) > Installing additional components/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/pt

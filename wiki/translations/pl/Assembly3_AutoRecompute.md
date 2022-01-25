@@ -18,5 +18,7 @@ The <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px;"> [Aut
     -   The **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute.md)** button.
     -   The **Assembly3 → <img src="images/Assembly_AutoRecompute.svg" width=16px> Auto recompute** menu option.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AutoRecompute/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoRecompute/pl

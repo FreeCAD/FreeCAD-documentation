@@ -59,7 +59,7 @@
 
 Ovi pomoćnici rade s **Part, App :: Part i Body objektima**. Svaki Alat može biti **Plutajući** ili **Usidren lijevo ili desno**.
 
-------------------------------------------------------------------------
+
 
 ## OLD Reference 
 
@@ -111,5 +111,7 @@ you need to copy the file to your macro directory.
 
 Forum : [Faces or Edges constraint among non cylindrical parts Macro](http://forum.freecadweb.org/viewtopic.php?f=22&t=18655)
 
+
+
 ---
-[documentation index](../README.md) > Macro Center Align Objects with Faces or Edges/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Center Align Objects with Faces or Edges/hr

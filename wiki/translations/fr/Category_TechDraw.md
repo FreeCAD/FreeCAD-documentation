@@ -3,7 +3,7 @@ Cette catégorie répertorie les pages liées à l\'atelier [Workbench](TechDraw
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+    
   [Advanced TechDraw Tutorial/fr](Advanced_TechDraw_Tutorial/fr.md)                   [Artwork TechDraw/fr](Artwork_TechDraw/fr.md)                                       [Basic TechDraw Tutorial/fr](Basic_TechDraw_Tutorial/fr.md)
   [Bitmap/fr](Bitmap/fr.md)                                                           [Drawing/fr](Drawing/fr.md)                                                         [DXF/fr](DXF/fr.md)
   [Measurement Of Angles On Holes/fr](Measurement_Of_Angles_On_Holes/fr.md)           [SVG/fr](SVG/fr.md)                                                                 [TechDraw 2LineCenterLine/fr](TechDraw_2LineCenterLine/fr.md)
@@ -29,10 +29,9 @@ Cette catégorie répertorie les pages liées à l\'atelier [Workbench](TechDraw
   [Template:TechDraw Tools navi/fr](Template:TechDraw_Tools_navi/fr.md)               [TechDraw VerticalDimension/fr](TechDraw_VerticalDimension/fr.md)                   [TechDraw VerticalExtentDimension/fr](TechDraw_VerticalExtentDimension/fr.md)
   [TechDraw View/fr](TechDraw_View/fr.md)                                             [TechDraw WeldSymbol/fr](TechDraw_WeldSymbol/fr.md)                                 [TechDraw Workbench/fr](TechDraw_Workbench/fr.md)
   [TechDrawGui API/fr](TechDrawGui_API/fr.md)                                         [Tolerancing/fr](Tolerancing/fr.md)                                                 [Topological naming problem/fr](Topological_naming_problem/fr.md)
-  [Tutorial for open windows/fr](Tutorial_for_open_windows/fr.md)                                                                                                                 
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+  [Tutorial for open windows/fr](Tutorial_for_open_windows/fr.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/fr](<img src="images/Property.png" style="width:16px"> Workbenches/fr.md)
+
 
 ---
-[documentation index](../README.md) > Category:TechDraw/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:TechDraw/fr

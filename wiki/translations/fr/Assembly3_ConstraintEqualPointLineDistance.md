@@ -27,5 +27,7 @@ La commande <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg
 
     :   (si **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute/fr.md)** et **<img src="images/Assembly_SmartRecompute.svg" width=16px> [Smart recompute](Assembly3_SmartRecompute/fr.md)** sont désactivés).
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualPointLineDistance/fr

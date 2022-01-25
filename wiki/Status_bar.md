@@ -20,5 +20,7 @@ The status bar also shows the last pre-selected object (any object under the poi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Status bar
+![](images/Right_arrow.png) [documentation index](../README.md) > Status bar

@@ -7,9 +7,7 @@ This workbench is empty. It used to hold all commands that were implemented and 
 
 See [Interface Customization](Interface_Customization.md) if you\'d like to adapt FreeCAD to your own needs, like creating custom toolbars with the tools and commands that you want.
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Complete](Category_Complete.md) [<img src="images/Property.png" style="width:16px"> Obsolete Workbenches](Category_Obsolete_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Complete](Category_Complete.md) > Complete Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [Complete](Category_Complete.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > Complete Workbench

@@ -1,10 +1,10 @@
-# How to install macros/fr
-{{TutorialInfo/fr
-|Topic=Programmation
-|Level=Programmeur moyen
-|Time=15 minutes
-|FCVersion=Toutes versions
-|Author=[Mario52](User_Mario52.md)
+---
+- TutorialInfo:/fr
+   Topic:Programmation
+   Level:Programmeur moyen
+   Time:15 minutes
+   FCVersion:Toutes versions
+   Author:[Mario52](User_Mario52.md)
 }}
 
 ## Description
@@ -13,7 +13,7 @@ Depuis la v0.17, il est facile d\'ajouter des macros en utilisant le [Gestionnai
 
 Les macros sont des séquences de commandes utilisées pour effectuer une opération de dessin complexe. Les macros sont des scripts en [Python](Python/fr.md), ce qui signifie qu\'il s\'agit de fichiers texte pouvant être écrits et modifiés à l\'aide d\'un éditeur de texte.
 
-Alors que les scripts Python ont normalement pour extension `.py`, les macros FreeCAD doivent avoir comme extension `.FCMacro`. Une collection de macros écrites par des utilisateurs expérimentés se trouve dans la page [Macros](macros_recipes/fr.md).
+Alors que les scripts Python ont normalement pour extension {{incode   .py}}, les macros FreeCAD doivent avoir comme extension {{incode   .FCMacro}}. Une collection de macros écrites par des utilisateurs expérimentés se trouve dans la page [Macros](macros_recipes/fr.md).
 
 Voir [Introduction à Python](Introduction_to_Python/fr.md) pour en savoir plus sur le langage de programmation Python, puis sur [Tutoriel sur les scripts Python](Python_scripting_tutorial/fr.md) et sur [principes de base des scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md) pour lancer la création de scripts dans FreeCAD.
 
@@ -56,10 +56,13 @@ Les macros téléchargées doivent également être placées dans ce répertoire
 Les macros peuvent être simplement copiées dans
 
 
-```python
+{{Code   code:
 $ROOT_DIR/
-```
+---
 
+# How to install macros/fr
+
+ 
 où `$ROOT_DIR` est un des premiers répertoire recherché par FreeCAD au démarrage.
 
 Le `$ROOT_DIR` pourrait être un répertoire système, auquel cas la macro est installée pour tous les utilisateurs.
@@ -510,11 +513,6 @@ et validez en cliquant sur le bouton **OK**.
 </div>
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > How to install macros/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > How to install macros/fr

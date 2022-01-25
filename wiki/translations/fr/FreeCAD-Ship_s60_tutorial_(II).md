@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Ship Workbench
+   Level: Beginner
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # FreeCAD-Ship s60 tutorial (II)/fr
-{{TutorialInfo/fr
-|Topic=Ship Workbench
-|Level= Beginner
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## Overview
 
@@ -294,5 +300,7 @@ Bien entendu, cet exemple n'est pas réel (d'abord, tous les réservoirs de carb
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/fr

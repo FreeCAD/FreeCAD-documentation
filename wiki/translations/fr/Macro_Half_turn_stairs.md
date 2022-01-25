@@ -297,5 +297,7 @@ Sauvez les données dans un fichier nommé **stairs.dat** dans votre répertoire
 
 -   [Macro\_PartsLibrary](Macro_PartsLibrary.md) FreeCAD Library
 
+
+
 ---
-[documentation index](../README.md) > Macro Half turn stairs/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Half turn stairs/fr

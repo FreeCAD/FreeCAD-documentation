@@ -3,7 +3,7 @@ This category collects pages from the [external workbenches](external_workbenche
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+    
   [External workbenches/en](External_workbenches/en.md)                               [A2plus Workbench/en](A2plus_Workbench/en.md)                                             [Animation Workbench/en](Animation_Workbench/en.md)
   [Assembly2 Workbench/en](Assembly2_Workbench/en.md)                                 [Assembly3 Workbench/en](Assembly3_Workbench/en.md)                                       [Assembly4 Workbench/en](Assembly4_Workbench/en.md)
   [BIM Workbench/en](BIM_Workbench/en.md)                                             [BOLTSFC Workbench/en](BOLTSFC_Workbench/en.md)                                           [CadQuery Workbench/en](CadQuery_Workbench/en.md)
@@ -33,11 +33,8 @@ This category collects pages from the [external workbenches](external_workbenche
   [SearchBar Mod/en](SearchBar_Mod/en.md)                                             [Ship Workbench/en](Ship_Workbench/en.md)                                                 [Silk Workbench/en](Silk_Workbench/en.md)
   [Stemfie Workbench/en](Stemfie_Workbench/en.md)                                     [Symbols Library Workbench/en](Symbols_Library_Workbench/en.md)                           [Timber Workbench/en](Timber_Workbench/en.md)
   [WebTools Workbench/en](WebTools_Workbench/en.md)                                   [Wood Frame Workbench/en](Wood_Frame_Workbench/en.md)                                     [Workfeature Workbench/en](Workfeature_Workbench/en.md)
-                                                                                                                                                                                                
-                                                                                                                                                                                                
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/en](<img src="images/Property.png" style="width:16px"> Workbenches/en.md) [<img src="images/Property.png" style="width:16px"> Addons/en](<img src="images/Property.png" style="width:16px"> Addons/en.md) [<img src="images/Property.png" style="width:16px"> BIM/en](<img src="images/Property.png" style="width:16px"> BIM/en.md) [<img src="images/Property.png" style="width:16px"> Fasteners/en](<img src="images/Property.png" style="width:16px"> Fasteners/en.md) [<img src="images/Property.png" style="width:16px"> FCGear/en](<img src="images/Property.png" style="width:16px"> FCGear/en.md)
+
 
 ---
-[documentation index](../README.md) > Category:External Workbenches/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:External Workbenches/en

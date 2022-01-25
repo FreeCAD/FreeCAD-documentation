@@ -349,9 +349,6 @@ Inspecting the code of this module can help to understand the programming interf
 {{docnav|[Arch Workbench](Arch_Workbench.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Workbench_Arch.svg|IconR=Workbench_Drawing.svg}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Draft Workbench/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Draft](Category_Draft.md) > Draft Workbench/ko

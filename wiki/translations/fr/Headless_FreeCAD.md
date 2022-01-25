@@ -49,7 +49,7 @@ Voir : [fil du forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=55794&p=
 -   [Intégrer FreeCAD](Embedding_FreeCAD/fr#Utilisation_de_FreeCAD_sans_interface_graphique_.28GUI.29.md)
 -   [Démarrage et configuration](Start_up_and_Configuration/fr#Executer_FreeCAD_sans_interface_graphique_utilisateur.md)
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Headless FreeCAD/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Headless FreeCAD/fr

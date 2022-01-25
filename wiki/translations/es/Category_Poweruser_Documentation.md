@@ -3,7 +3,7 @@ Esta categoría muestra documentación de artículos acerca de los archivos de g
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+    
   [Base API/es](Base_API/es.md)                                                                     [Builtin modules/es](Builtin_modules/es.md)                                                           [Code snippets/es](Code_snippets/es.md)
   [Coin3d snippets/es](Coin3d_snippets/es.md)                                                       [Command/es](Command/es.md)                                                                           [Console API/es](Console_API/es.md)
   [Debugging/es](Debugging/es.md)                                                                   [Dialog creation/es](Dialog_creation/es.md)                                                           [Draft API/es](Draft_API/es.md)
@@ -23,10 +23,9 @@ Esta categoría muestra documentación de artículos acerca de los archivos de g
   [Scripted objects/es](Scripted_objects/es.md)                                                     [Scripting and macros/es](Scripting_and_macros/es.md)                                                 [Selection API/es](Selection_API/es.md)
   [Svg Namespace/es](Svg_Namespace/es.md)                                                           [Topological data scripting/es](Topological_data_scripting/es.md)                                     [TopoShape API/es](TopoShape_API/es.md)
   [Units/es](Units/es.md)                                                                           [Vector API/es](Vector_API/es.md)                                                                     [ViewObject API/es](ViewObject_API/es.md)
-  [Workbench creation/es](Workbench_creation/es.md)                                                                                                                                                               
-  --------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+  [Workbench creation/es](Workbench_creation/es.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/es](<img src="images/Property.png" style="width:16px"> Documentation/es.md)
+
 
 ---
-[documentation index](../README.md) > Category:Poweruser Documentation/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Poweruser Documentation/es

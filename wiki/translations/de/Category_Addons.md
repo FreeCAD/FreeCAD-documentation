@@ -3,7 +3,7 @@ Diese Seite listet externe Erweiterungsarbeitsbereiche auf, die eine Seite in di
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------
+    
   [A2plus Workbench/de](A2plus_Workbench/de.md)                                       [Addon/de](Addon/de.md)                                                                   [Animation Workbench/de](Animation_Workbench/de.md)
   [Assembly3 Workbench/de](Assembly3_Workbench/de.md)                                 [Assembly4 Workbench/de](Assembly4_Workbench/de.md)                                       [BIM Workbench/de](BIM_Workbench/de.md)
   [CadQuery Workbench/de](CadQuery_Workbench/de.md)                                   [Civil Engineering Workbench/de](Civil_Engineering_Workbench/de.md)                       [Curves Workbench/de](Curves_Workbench/de.md)
@@ -24,10 +24,8 @@ Diese Seite listet externe Erweiterungsarbeitsbereiche auf, die eine Seite in di
   [SheetMetal SketchOnSheet/de](SheetMetal_SketchOnSheet/de.md)                       [SheetMetal UnattendedUnfold/de](SheetMetal_UnattendedUnfold/de.md)                       [SheetMetal Unfold/de](SheetMetal_Unfold/de.md)
   [SheetMetal Workbench/de](SheetMetal_Workbench/de.md)                               [Ship Workbench/de](Ship_Workbench/de.md)                                                 [Symbols Library Workbench/de](Symbols_Library_Workbench/de.md)
   [ThreadProfile Workbench/de](ThreadProfile_Workbench/de.md)                         [WebTools Workbench/de](WebTools_Workbench/de.md)                                         [Workfeature Workbench/de](Workfeature_Workbench/de.md)
-                                                                                                                                                                                                
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md) [<img src="images/Property.png" style="width:16px"> External Workbenches/de](<img src="images/Property.png" style="width:16px"> External_Workbenches/de.md) [<img src="images/Property.png" style="width:16px"> FCGear/de](<img src="images/Property.png" style="width:16px"> FCGear/de.md)
+
 
 ---
-[documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Addons/de

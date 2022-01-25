@@ -31,9 +31,9 @@ However, when more precision is required, the distinction must be made.
 -   A \"Shape\" is an internal object, embedded within the \"[Body](Body.md)\".
 -   A \"[Part](Part.md)\" is used to group several \"[Bodies](Body.md)\" to form an [assembly](assembly.md). A \"Part\" has a collection of \"Shapes\", but doesn\'t have a \"Shape\" of its own.
 
-  {{Document objects navi}} 
+  {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Shape
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Part](Category_Part.md) > Shape

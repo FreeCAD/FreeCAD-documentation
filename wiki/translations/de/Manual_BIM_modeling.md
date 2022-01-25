@@ -230,13 +230,5 @@ Unsere Seite ist nun fertig und wir können sie im SVG- oder DXF-Format ausgeben
 
 
 
-
-
-{{Tutorials navi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
-
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > Manual:BIM modeling/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > Manual:BIM modeling/de

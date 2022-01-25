@@ -66,9 +66,9 @@ Some video tutorials are available for the EM Workbench beta versions:
 
 {{EM Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > EM Workbench/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [EM](Category_EM.md) > EM Workbench/pl

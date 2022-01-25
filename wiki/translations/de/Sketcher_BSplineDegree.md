@@ -50,5 +50,7 @@ Zeigt oder blendet die Anzeige des Grades einer B-Spline-Kurve ein oder aus (sie
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher BSplineDegree/de

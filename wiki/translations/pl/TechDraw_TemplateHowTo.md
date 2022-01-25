@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/pl
+   Topic: Przygotowanie projektu
+   Level: początkujący
+   Time: 60 minut
+   Author:[http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
+   FCVersion:0.17
+---
+
 # TechDraw TemplateHowTo/pl
-{{TutorialInfo/pl
-|Topic= Przygotowanie projektu
-|Level= początkujący
-|Time= 60 minut
-|Author=[http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
-|FCVersion=0.17
-}}
+
+
+
+
 
 ## Wprowadzenie
 
@@ -123,7 +129,9 @@ Jeśli nie widzisz zielonych pól na swoich tekstach do edycji, może być coś 
 
 Jeśli w FreeCAD teksty są przesunięte, może być konieczne usunięcie atrybutów {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} w pliku SVG. Patrz: https://www.forum.freecadweb.org/viewtopic.php?t=50897.
 
-{{Tutorials navi}} {{TechDraw Tools navi}}
+ {{TechDraw Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/pl

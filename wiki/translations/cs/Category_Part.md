@@ -3,7 +3,7 @@ This category lists pages related to the [Part\_Workbench/cs](Part_Workbench/cs.
 
 ### Contents:
 
-  ------------------------------------------------------------- --------------------------------------------------------------------- ---------------------------------------------------------
+    
   [Aeroplane/cs](Aeroplane/cs.md)                       [Basic modeling tutorial/cs](Basic_modeling_tutorial/cs.md)   [Part Boolean/cs](Part_Boolean/cs.md)
   [Part Box/cs](Part_Box/cs.md)                         [Part Builder/cs](Part_Builder/cs.md)                         [Part Chamfer/cs](Part_Chamfer/cs.md)
   [Part Circle/cs](Part_Circle/cs.md)                   [Part Common/cs](Part_Common/cs.md)                           [Part Cone/cs](Part_Cone/cs.md)
@@ -16,10 +16,9 @@ This category lists pages related to the [Part\_Workbench/cs](Part_Workbench/cs.
   [Part RegularPolygon/cs](Part_RegularPolygon/cs.md)   [Part Revolve/cs](Part_Revolve/cs.md)                         [Part RuledSurface/cs](Part_RuledSurface/cs.md)
   [Part Section/cs](Part_Section/cs.md)                 [Part Sphere/cs](Part_Sphere/cs.md)                           [Part Spiral/cs](Part_Spiral/cs.md)
   [Part Sweep/cs](Part_Sweep/cs.md)                     [Part Thickness/cs](Part_Thickness/cs.md)                     [Part Torus/cs](Part_Torus/cs.md)
-  [Part Wedge/cs](Part_Wedge/cs.md)                                                                                           
-  ------------------------------------------------------------- --------------------------------------------------------------------- ---------------------------------------------------------
+  [Part Wedge/cs](Part_Wedge/cs.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/cs](<img src="images/Property.png" style="width:16px"> Workbenches/cs.md)
+
 
 ---
-[documentation index](../README.md) > Category:Part/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/cs

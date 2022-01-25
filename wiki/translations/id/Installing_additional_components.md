@@ -10,10 +10,10 @@
 
 FreeCAD adalah benar - benar aplikasi yang multi-platform, dikembangkan dengan kerangka (framework) [Qt](http://en.wikipedia.org/wiki/Qt_(framework)) yang terkenal di dunia. Yang berarti bahwa FreeCAD terlihat dan beraksi sama di sistem windows, Linux maupun Mac. Akan tetapi, prosedur penginstalasianya sedikit berbeda untuk masing - masing sistem. Untuk lebih jelasnya tentang bagaimana cara instalasinya, pilih Sistem Operasi di bawah.
 
-  ---------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------
+    
    ![ alt=\'Windows\' \| link= Install on Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Install on Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Install on Mac](images/Mac.png )
                              [Install on Windows](Install_on_Windows.md)                                                     [ Install on Linux](Install_on_Linux.md)                                              [Install on Mac](Install_on_Mac.md)
-  ---------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------
+    
 
 
 </div>
@@ -137,7 +137,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 </div>
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/id](<img src="images/Property.png" style="width:16px"> User_Documentation/id.md)
+
 
 ---
-[documentation index](../README.md) > Installing additional components/id
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/id

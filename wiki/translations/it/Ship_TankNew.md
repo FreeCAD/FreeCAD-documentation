@@ -38,5 +38,7 @@ When the **Accept** button is pressed, a new tank instance is created inside the
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Ship TankNew/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Ship TankNew/it

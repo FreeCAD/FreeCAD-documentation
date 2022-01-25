@@ -91,5 +91,7 @@ Per poter utilizzare questo comando, devono essere soddisfatte le seguenti condi
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > WebTools BimServer/it
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools BimServer/it

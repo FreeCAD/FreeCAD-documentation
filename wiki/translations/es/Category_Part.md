@@ -3,7 +3,7 @@ This category lists pages related to the [Part Workbench/es](Part_Workbench/es.m
 
 ### Contents:
 
-  ------------------------------------------------------------- --------------------------------------------------------------------- -----------------------------------------------------------------------------
+    
   [Aeroplane/es](Aeroplane/es.md)                       [Basic modeling tutorial/es](Basic_modeling_tutorial/es.md)   [Constructive solid geometry/es](Constructive_solid_geometry/es.md)
   [Part and PartDesign/es](Part_and_PartDesign/es.md)   [Part Boolean/es](Part_Boolean/es.md)                         [Part Box/es](Part_Box/es.md)
   [Part Builder/es](Part_Builder/es.md)                 [Part Chamfer/es](Part_Chamfer/es.md)                         [Part CheckGeometry/es](Part_CheckGeometry/es.md)
@@ -19,10 +19,8 @@ This category lists pages related to the [Part Workbench/es](Part_Workbench/es.m
   [Part Section/es](Part_Section/es.md)                 [Part Sphere/es](Part_Sphere/es.md)                           [Part Spiral/es](Part_Spiral/es.md)
   [Part Sweep/es](Part_Sweep/es.md)                     [Part Thickness/es](Part_Thickness/es.md)                     [Part Torus/es](Part_Torus/es.md)
   [Part Tube/es](Part_Tube/es.md)                       [Part Wedge/es](Part_Wedge/es.md)                             [Topological naming problem/es](Topological_naming_problem/es.md)
-                                                                                                                                      
-  ------------------------------------------------------------- --------------------------------------------------------------------- -----------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/es](<img src="images/Property.png" style="width:16px"> Workbenches/es.md)
+
 
 ---
-[documentation index](../README.md) > Category:Part/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/es

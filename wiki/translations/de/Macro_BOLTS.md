@@ -35,5 +35,7 @@ Detaillierte Informationen zur Verwendung von BOLTS gibt es in der [Documentatio
 
 Eine Teilebibliothek, die für ein breites Spektrum von Anwendungsfällen nützlich ist, kann nur von vielen verschiedenen Menschen gemeinsam verwirklicht werden. Es gibt viele Möglichkeiten, zu BOLTS auf einer Reihe von verschiedenen Wegen [beizutragen](https://www.boltsparts.github.io/en/contribute.html).
 
+
+
 ---
-[documentation index](../README.md) > Macro BOLTS/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro BOLTS/de

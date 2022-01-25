@@ -21,5 +21,7 @@ Sur la base de l\'ICS d\'un élément planaire, les points de départ et d\'arri
 3.  Sélectionnez un élément de face planaire du second objet
 4.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintLineHorizontal.svg" width=16px> [Line horizontal](Assembly3_ConstraintLineHorizontal/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/fr

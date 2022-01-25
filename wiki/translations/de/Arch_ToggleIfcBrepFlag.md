@@ -18,5 +18,7 @@ Dieses Werkzeug schaltet die IfcBrep-Markierung eines ausgewählten [Arch](Arch_
 1.  Wähle ein Arch Objekt aus.
 2.  Wähle die **<img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px>** Schaltfläche oder **Arch** → **Utilities** → **<img src="images/Arch_ToggleIfcBrepFlag.svg" width=16px> [Umschalten IfcBrepMarkierung](Arch_ToggleIfcBrepFlag.md)** aus dem oberen Menü.
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/de

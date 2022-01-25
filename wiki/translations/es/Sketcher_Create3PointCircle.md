@@ -27,5 +27,7 @@ Esta herramienta <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Create3PointCircle/es

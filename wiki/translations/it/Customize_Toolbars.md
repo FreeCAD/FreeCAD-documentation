@@ -127,7 +127,5 @@ Vedere anche [Personalizzare l\'interfaccia](Interface_Customization/it.md)
 
 
 
-[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
-
 ---
-[documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/it

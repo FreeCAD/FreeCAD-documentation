@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/pl
+   Topic:Dołączanie
+   Level:Początkujący/Średniozaawansowany
+   Author:Bance
+   Time:1 godzina
+   FCVersion:0.17 lub nowszy
+   Files:[https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
+---
+
 # Basic Attachment Tutorial/pl
-{{TutorialInfo/pl
-|Topic=Dołączanie
-|Level=Początkujący/Średniozaawansowany
-|Author=Bance
-|Time=1 godzina
-|FCVersion=0.17 lub nowszy
-|Files=[https://github.com/BanceFC/Examples/blob/master/AttachmentTutorial.FCStd Basic Attachment Tutorial.FCStd]
-}}
+
+
+
+
 
 ![centre\|Ukończony model](images/Attachment_Model.png )
 
@@ -305,5 +311,7 @@ Miłego dołączania!
 
 }} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > Basic Attachment Tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Basic Attachment Tutorial/pl

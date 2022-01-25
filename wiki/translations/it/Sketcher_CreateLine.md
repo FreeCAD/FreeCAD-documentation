@@ -48,5 +48,7 @@ L\'oggetto linea creato inizia e finisce nei punti specificati, ma rispetto ai v
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateLine/it

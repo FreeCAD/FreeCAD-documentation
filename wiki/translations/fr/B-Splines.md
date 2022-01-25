@@ -188,29 +188,29 @@ Lorsque vous consultez la [fonction de création](#B-splines_non-uniformes.md) p
 
 Comme la forme d\'une spline B ne renseigne pas beaucoup sur ses propriétés, FreeCAD propose [différents outils](Sketcher_Workbench/fr#Outils_d.27esquisse_B-spline.md) pour afficher les propriétés :
 
-+----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | Propriété                  | Bouton de la barre d\'outils                                                                                                                         |
-+----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Degré**                  |                                                                                                                                       |
 |                            | **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [Sketcher Degré d'une BSpline](Sketcher_BSplineDegree/fr.md)**                                       |
 |                            |                                                                                                                                                   |
-+----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Polygone de contrôle**   |                                                                                                                                       |
 |                            | **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Sketcher Polygone de contrôle d'une B-spline](Sketcher_BSplinePolygon/fr.md)**                     |
 |                            |                                                                                                                                                   |
-+----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Peigne de courbure**     |                                                                                                                                       |
 |                            | **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Sketcher Peigne de courbure d'une B-spline](Sketcher_BSplineComb/fr.md)**                             |
 |                            |                                                                                                                                                   |
-+----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Multiplicité des nœuds** |                                                                                                                                       |
 |                            | **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Sketcher Multiplicité des nœuds d'une B-spline](Sketcher_BSplineKnotMultiplicity/fr.md)** |
 |                            |                                                                                                                                                   |
-+----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | **Poids**                  |                                                                                                                                       |
 |                            | **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Sketcher Poids des points de contrôle B-spline](Sketcher_BSplinePoleWeight/fr.md)**             |
 |                            |                                                                                                                                                   |
-+----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ### Limitations
 
@@ -262,5 +262,7 @@ Mais est-ce vraiment suffisant ? Au point de transition géométrique, nous avon
 
 Nous avons donc également des zones dans lesquelles l\'intensité de la lumière réfléchie est différente. Pour éviter cela, nous avons besoin au point géométrique de transition d\'une continuité de la dérivée de second ordre et donc d\'une B-spline cubique.
 
+
+
 ---
-[documentation index](../README.md) > B-Splines/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > B-Splines/fr

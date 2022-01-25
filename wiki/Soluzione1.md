@@ -51,7 +51,7 @@ Torna a [Esercitazioni](Esercitazioni.md)
 
 {{languages/it | }}
 
-[<img src="images/Property.png" style="width:16px"> Documentation/it](<img src="images/Property.png" style="width:16px"> Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Tutorials/it](<img src="images/Property.png" style="width:16px"> Tutorials/it.md)
+
 
 ---
-[documentation index](../README.md) > Soluzione1
+![](images/Right_arrow.png) [documentation index](../README.md) > Soluzione1

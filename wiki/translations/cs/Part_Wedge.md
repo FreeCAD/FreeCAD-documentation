@@ -33,7 +33,7 @@ Vytváří parametrický objekt Klín. Defaultně se za základnu považuje vět
 
 ### Vstupní parametry 
 
-+------------------------------------------------------------------+----------------------------------------------------------------------+
++++
 | ![](images/PartWedgeProperty_Inputs.png ) | Při využití defaultního umístění jsou vstupní parametry následující: |
 |                                                                  |                                                                      |
 |                                                                  | -                                                     |
@@ -60,11 +60,13 @@ Vytváří parametrický objekt Klín. Defaultně se za základnu považuje vět
 |                                                                  |     **Z2 min/max**                                      |
 |                                                                  |                                                                   |
 |                                                                  |     : Top face Z axis span                                           |
-+------------------------------------------------------------------+----------------------------------------------------------------------+
++++
 
 ### More examples for wedges 
 
 ![](images/Wedge_examples.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge/cs

@@ -3,12 +3,10 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 ### Contents:
 
-  ------------------------------------------------- ----------------------------------------------------- ---------------------------------------
+    
   [Developer hub/ko](Developer_hub/ko.md)   [Power users hub/ko](Power_users_hub/ko.md)   [User hub/ko](User_hub/ko.md)
-                                                                                                          
-  ------------------------------------------------- ----------------------------------------------------- ---------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md)
+
 
 ---
-[documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Hubs/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > [Categories](Category_Categories.md) > Category:Hubs/ko

@@ -54,11 +54,5 @@ Crée un réseau et redimensionne les objets dans les limites d\'une ou plusieur
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Name](Category_Name.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
-
 ---
-[documentation index](../README.md) > [Name](Category_Name.md) > CurvedShapes CurvedArray/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Name](Category_Name.md) > [External Command Reference](Category_External Command Reference.md) > CurvedShapes CurvedArray/fr

@@ -71,5 +71,7 @@ Uwagi:
 
 ![](images/ThicknessEsempio4.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/pl

@@ -41,5 +41,7 @@ Se [Sincronizza la selezione](Std_TreeSyncSelection/it.md) della vista ad albero
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSelection/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSelection/it

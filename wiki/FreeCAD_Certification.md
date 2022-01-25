@@ -36,5 +36,7 @@ In the forum a [post](https://forum.freecadweb.org/viewtopic.php?f=8&t=31408) wa
 
 Reference forum thread: <https://forum.freecadweb.org/viewtopic.php?f=8&t=31408>
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD Certification
+![](images/Right_arrow.png) [documentation index](../README.md) > FreeCAD Certification

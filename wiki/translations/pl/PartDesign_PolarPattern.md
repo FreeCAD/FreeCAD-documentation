@@ -131,5 +131,7 @@ Określa kąt, który ma zostać ujęty we wzorcu, oraz całkowitą liczbę kszt
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign PolarPattern/pl

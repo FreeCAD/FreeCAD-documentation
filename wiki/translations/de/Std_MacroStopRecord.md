@@ -56,5 +56,7 @@ Wenn du einen **[<img src=images/Std_DlgMacroRecord.png style="width:16px"> [Auf
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MacroStopRecord/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroStopRecord/de

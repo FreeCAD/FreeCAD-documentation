@@ -31,9 +31,7 @@ However, manual installation is still possible.
 -   [How to install macros](How_to_install_macros.md)
 -   [Installing more workbenches](Installing_more_workbenches.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Addon
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon

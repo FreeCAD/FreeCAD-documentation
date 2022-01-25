@@ -282,5 +282,7 @@ The macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> 
 
 that causes an error with the version FreeCAD : Version: 0.14.3343 (Git), Python version: 2.7.6, Qt version: 4.8.5
 
+
+
 ---
-[documentation index](../README.md) > Macro Texture/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Texture/ru

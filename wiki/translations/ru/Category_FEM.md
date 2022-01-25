@@ -3,7 +3,7 @@ This category lists pages related to the [FEM Workbench/ru](FEM_Workbench/ru.md)
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+    
   [Add FEM Constraint Tutorial/ru](Add_FEM_Constraint_Tutorial/ru.md)                     [Add FEM Equation Tutorial/ru](Add_FEM_Equation_Tutorial/ru.md)                   [Analysis of reinforced concrete with FEM/ru](Analysis_of_reinforced_concrete_with_FEM/ru.md)
   [Artwork Fem/ru](Artwork_Fem/ru.md)                                                     [Extend FEM Module/ru](Extend_FEM_Module/ru.md)                                   [FEM Analysis/ru](FEM_Analysis/ru.md)
   [FEM CalculiX Cantilever 3D/ru](FEM_CalculiX_Cantilever_3D/ru.md)                       [FEM CalculiX/ru](FEM_CalculiX/ru.md)                                             [FEM ClippingPlaneAdd/ru](FEM_ClippingPlaneAdd/ru.md)
@@ -33,10 +33,9 @@ This category lists pages related to the [FEM Workbench/ru](FEM_Workbench/ru.md)
   [FEM SolverRun/ru](FEM_SolverRun/ru.md)                                                 [FEM SolverZ88/ru](FEM_SolverZ88/ru.md)                                           [FEM Tutorial Python/ru](FEM_Tutorial_Python/ru.md)
   [FEM tutorial/ru](FEM_tutorial/ru.md)                                                   [FEM Workbench/ru](FEM_Workbench/ru.md)                                           [Material editor/ru](Material_editor/ru.md)
   [Material/ru](Material/ru.md)                                                           [Mesh/ru](Mesh/ru.md)                                                             [Post-Processing of FEM Results with Paraview/ru](Post-Processing_of_FEM_Results_with_Paraview/ru.md)
-  [Transient FEM analysis/ru](Transient_FEM_analysis/ru.md)                                                                                                                         
-  ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+  [Transient FEM analysis/ru](Transient_FEM_analysis/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/ru](<img src="images/Property.png" style="width:16px"> Workbenches/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:FEM/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:FEM/ru

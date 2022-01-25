@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/es
+   Topic:Croquizador
+   Level:Principiante
+   Time:60 minutos
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] y vocx
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Basic Sketcher tutorial updated]
+---
+
 # Basic Sketcher Tutorial/es
-{{TutorialInfo/es
-|Topic=Croquizador
-|Level=Principiante
-|Time=60 minutos
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] y vocx
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Basic Sketcher tutorial updated]
-}}
+
+
+
+
 
 ## Introducción
 
@@ -298,9 +304,9 @@ La restricción de un croquis puede hacerse de muchas maneras diferentes. En gen
 -   Intente utilizar otra geometría de construcción.
 
 
-{{Tutorials navi
+ {{Sketcher Tools navi}}
 
-}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Basic Sketcher Tutorial/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/es

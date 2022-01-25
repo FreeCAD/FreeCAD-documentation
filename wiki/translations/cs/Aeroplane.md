@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/cs
+   Topic:Part Workbench
+   Level:Beginner
+   Time:10 minutes
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Aeroplane/cs
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/cs
-|Topic=Part Workbench
-|Level=Beginner
-|Time=10 minutes
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -237,9 +243,6 @@ Tady je ještě několik nápadů jak si můžete s letadlem pohrát:
 Doufám, že Vám tento výukový program pomohl orientovat se v otáčení objektů.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Aeroplane/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/cs

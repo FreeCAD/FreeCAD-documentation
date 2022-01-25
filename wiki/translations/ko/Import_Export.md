@@ -13,7 +13,7 @@ See the following pages for additional information:
 ## Overview of file formats 
 
   Format                                      Description                                                                                                                                                                                                                      Import / Open                                                                                      Export / Create
-  ------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     
   [\*.FCStd](File_Format_FCStd.md)    FreeCAD native format                                                                                                                                                                                                            [Std Open](Std_Open.md), [Std MergeProjects](Std_MergeProjects.md)                 [Std Save](Std_Save.md)
   [\*.cam](Std_FreezeViews.md)        FreeCAD frozen views (camera settings)                                                                                                                                                                                           [Std FreezeViews](Std_FreezeViews.md)                                                      [Std FreezeViews](Std_FreezeViews.md)
   [\*.FCMacro](Macros.md)             FreeCAD macro (Python code)                                                                                                                                                                                                      [Std Import](Std_Import.md)                                                                [Std DlgMacroRecord](Std_DlgMacroRecord.md)
@@ -136,11 +136,5 @@ See the following pages for additional information:
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/ko

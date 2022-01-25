@@ -1,11 +1,12 @@
 # Basic modeling tutorial/fr
-{{TutorialInfo/fr
-|Topic= Introduction à la modélisation
-|Level= Débutant
-|Time= 15 minutes
-|Author=[NormandC](User_Normandc.md)
-|FCVersion=toutes
-|Files=aucun
+---
+- TutorialInfo:/fr
+   Topic: Introduction à la modélisation
+   Level: Débutant
+   Time: 15 minutes
+   Author:[NormandC](User_Normandc.md)
+   FCVersion:toutes
+   Files:aucun
 }}
 
 ## Introduction
@@ -93,7 +94,7 @@ Passez en vue axonométrique en appuyant sur la touche **0** (zéro) du pavé nu
 
 ### Extruder le profil 
 
-Activez l\'<img alt="" src=images/Workbench_Part.svg  style="width:32px;">[atelier Pièce](Part_Workbench/fr.md) soit depuis le [sélecteur de plan de travail](Std_Workbench/fr.md), soit depuis le menu **{{StdMenu|[Affichage](Std_View_Menu/fr.md)** → Atelier → Part}}.
+Activez l\'<img alt="" src=images/Workbench_Part.svg  style="width:32px;">[atelier Pièce](Part_Workbench/fr.md) soit depuis le [sélecteur de plan de travail](Std_Workbench/fr.md), soit depuis le menu **{{StdMenu   [Affichage](Std_View_Menu/fr.md)** → Atelier → Part}}.
 
 Cliquez sur l\'outil <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> [Extruder](Part_Extrude/fr.md).
 
@@ -122,9 +123,10 @@ L\'étiquette sur votre bouton peut-être être différente en fonction de votre
 Les instructions ci-dessus fonctionneront, quelle que soit l\'étiquette sur le bouton.
 
 
-{{Tutorials navi
+  {{Userdocnavi
+---
 
-}}
+
 
 ---
-[documentation index](../README.md) > Basic modeling tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/fr

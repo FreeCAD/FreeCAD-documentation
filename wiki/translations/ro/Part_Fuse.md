@@ -55,5 +55,7 @@ Elementele pot fi adăugate și scoase din fuziune/uniune, tragându-le în sau 
 
 După această operație, este posibil să fie necesară curățarea formei [RefineShape](Part_RefineShape.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/ro

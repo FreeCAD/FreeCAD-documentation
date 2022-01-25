@@ -18,7 +18,7 @@ This tool creates chamfers on the selected edges of an object. A new separate Ch
 
 <div class="mw-translate-fuzzy">
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
++++
 | ![Výběr hran před spuštěním příkazu.](images/PartDesign_Chamfer-01.png ) ![Nastavení zkosení.](images/PartDesign_Chamfer-02.png ) ![Položka zkosení je přidána do stromu projektu.](images/PartDesign_Chamfer-03.png ) | ### Použití                                                                        |
 |                                                                                                                                                                                                                                                                                                                       |                                                                                    |
 |                                                                                                                                                                                                                                                                                                                       | 1.                                                                                 |
@@ -30,7 +30,7 @@ This tool creates chamfers on the selected edges of an object. A new separate Ch
 |                                                                                                                                                                                                                                                                                                                       | -                                                                                  |
 |                                                                                                                                                                                                                                                                                                                       | -                                                                                  |
 |                                                                                                                                                                                                                                                                                                                       | -                                                                                  |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
++++
 
 
 </div>
@@ -72,5 +72,7 @@ This tool creates chamfers on the selected edges of an object. A new separate Ch
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Chamfer/cs

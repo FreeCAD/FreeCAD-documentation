@@ -1,5 +1,7 @@
 # Tutorials/zh TW
-1.  REDIRECT [:<img src="images/Property.png" style="width:16px"> Tutorials/zh-tw](:<img src="images/Property.png" style="width:16px"> Tutorials/zh-tw.md)
+1.  REDIRECT [:Category:Tutorials/zh-tw](:Category:Tutorials/zh-tw.md)
+
+
 
 ---
-[documentation index](../README.md) > Tutorials/zh TW
+![](images/Right_arrow.png) [documentation index](../README.md) > Tutorials/zh TW

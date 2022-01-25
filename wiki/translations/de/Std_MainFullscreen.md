@@ -28,5 +28,7 @@ Der **Std ganzerHauptbildschirm** Befehl schaltet die FreeCAD Hauptansicht zu ei
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MainFullscreen/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MainFullscreen/de

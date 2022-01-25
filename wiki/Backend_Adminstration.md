@@ -18,7 +18,7 @@ Update pywikibot:
  cd core/
  git pull --recurse-submodules
 
-[<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
+
 
 ---
-[documentation index](../README.md) > Backend Adminstration
+![](images/Right_arrow.png) [documentation index](../README.md) > Backend Adminstration

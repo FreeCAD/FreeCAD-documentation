@@ -228,5 +228,7 @@ Dabei geht es nur um die Anzeige des Pfades. Du kannst dies in den Einstellungen
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ/de

@@ -312,5 +312,7 @@ I componenti aggiuntivi offrono ancora un altro modo per personalizzare l\'inter
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Interface Customization/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface Customization/it

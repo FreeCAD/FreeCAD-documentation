@@ -31,5 +31,7 @@ The Create Primitives dialogue can be accessed via the [CreatePrimitives](Part_C
 
 ![](images/Spiral_y45_it.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/ro

@@ -12,5 +12,7 @@
 
 {{Artwork/ru}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Reinforcement/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Reinforcement/ru

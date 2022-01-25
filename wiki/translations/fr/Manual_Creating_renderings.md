@@ -80,9 +80,9 @@ Vous pouvez étendre considérablement les possibilités de rendu de FreeCAD en 
 
 
 
-{{Raytracing Tools navi}} 
+{{Raytracing Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
+
 
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating renderings/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Manual:Creating renderings/fr

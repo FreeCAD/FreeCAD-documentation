@@ -65,5 +65,7 @@ Roboții predefiniți sunt:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/ro

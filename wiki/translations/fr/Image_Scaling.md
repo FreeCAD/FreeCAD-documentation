@@ -29,5 +29,7 @@ L\'outil [Redimensionner l\'mage](Image_Scaling/fr.md) redimensionne une image i
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/fr

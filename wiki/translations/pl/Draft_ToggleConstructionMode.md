@@ -37,5 +37,7 @@ W wersji programu FreeCAD 0.19 to polecenie i polecenie [Dodaj do grupy konstruk
 -   Aby zmienić etykietę ({{Version/pl|0.20}}) grupy konstrukcyjnej, użyj opcji: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Geometria konstrukcyjna → Nazwa grupy konstrukcyjnej**.
 -   Aby zmienić używany kolor, uyj opcji: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Geometria konstrukcyjna → Kolor geometrii konstrukcji**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleConstructionMode/pl

@@ -1,4 +1,12 @@
+---
+- TutorialInfo:/ru   Topic:2D Drafting   Level:Промежуточный   Author:Mark Stephen ([[User:Quick61   Quick61]])|Time:Час или меньше   FCVersion:0.14.3700 или выше
+---
+
 # Drawing Template HowTo/ru
+
+
+
+
 **The [Drawing Workbench](Drawing_Workbench.md) became obsolete in v0.17. Consider using the [TechDraw Workbench](TechDraw_Workbench.md) instead.<br>
 For a tutorial on how to create a template for that workbench see [TechDraw TemplateHowTo](TechDraw_TemplateHowTo.md)**
 
@@ -8,7 +16,6 @@ For a tutorial on how to create a template for that workbench see [TechDraw Temp
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru|Topic=2D Drafting|Level=Промежуточный|Author=Mark Stephen ([Quick61](User_Quick61.md))|Time=Час или меньше|FCVersion=0.14.3700 или выше}}
 
 
 </div>
@@ -268,5 +275,7 @@ viewBox="0 0 279 216"
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Template HowTo/ru

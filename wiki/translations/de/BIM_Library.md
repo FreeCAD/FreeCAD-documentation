@@ -40,9 +40,6 @@ Mit dem BIM Bibliothek Werkzeug kannst du im aktuellen Modell ein Objekt aus der
 -   Die Bibliothek kann offline arbeiten, in diesem Fall ist sie darauf angewiesen, dass die Erweiterung \"Teilebibliothek\" installiert (und vom Benutzer aktualisiert) wird, oder online, in diesem Fall browst sie direkt aus dem [Teilebibliothek-Git-Repository](https://github.com/FreeCAD/FreeCAD-library) und ermöglicht das direkte Herunterladen von dort.
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
-[documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Category_Arch.md) > BIM Library/de

@@ -23,5 +23,7 @@ Dieser Befehl erstellt einen Festkörper aus einem Formobjekt.
 -   Eine Analyse oder Validierung des Formobjekts findet nicht statt.
 -   Es wird empfohlen, [Part Form verfeinern](Part_RefineShape/de.md) vor der Konvertierung in einen Festkörper zu verwenden.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/de

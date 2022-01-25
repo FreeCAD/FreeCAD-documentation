@@ -3,7 +3,7 @@ This category collects pages about all the different file formats that FreeCAD i
 
 ### Contents:
 
-  ------------------------------------------------------------------- ------------------------------------------------------------- -----------------------------------------------------------------------------------------------------
+    
   [Arch 3DS](Arch_3DS.md)                                     [Arch DAE](Arch_DAE.md)                               [Arch IFC](Arch_IFC.md)
   [Arch JSON](Arch_JSON.md)                                   [Arch OBJ](Arch_OBJ.md)                               [Arch SHP](Arch_SHP.md)
   [Asymptote](Asymptote.md)                                   [Draft DAT](Draft_DAT.md)                             [Draft DXF](Draft_DXF.md)
@@ -16,8 +16,9 @@ This category collects pages about all the different file formats that FreeCAD i
   [Importing From Sketchup](Importing_From_Sketchup.md)       [Macro 3DXML import](Macro_3DXML_import.md)           [Macro FCBmpImport](Macro_FCBmpImport.md)
   [Material](Material.md)                                     [OpenSCAD CSG](OpenSCAD_CSG.md)                       [PDF](PDF.md)
   [Spreadsheet CSV](Spreadsheet_CSV.md)                       [Std Export](Std_Export.md)                           [Std Import](Std_Import.md)
-  [SVG](SVG.md)                                                                                                             
-  ------------------------------------------------------------------- ------------------------------------------------------------- -----------------------------------------------------------------------------------------------------
+  [SVG](SVG.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:File Formats
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:File Formats

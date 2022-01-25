@@ -83,9 +83,7 @@ for WB in WBList:
 -   Report bugs: <https://github.com/HakanSeven12/Modern-UI>
 -   Patreon (to support the author): <https://www.patreon.com/HakanSeven12>
 
- 
 
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > ModernUI Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > ModernUI Workbench

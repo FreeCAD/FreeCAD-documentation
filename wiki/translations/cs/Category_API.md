@@ -5,11 +5,10 @@ This category gathers article that list objects and methods available to the pyt
 
 ### Contents:
 
-  ----------------------------------------- -------------------------------------------------
+   
   [Draft API/cs](Draft_API/cs.md)   [Placement API/cs](Placement_API/cs.md)
-  ----------------------------------------- -------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Categories/cs](<img src="images/Property.png" style="width:16px"> Categories/cs.md)
+
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Category:API/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Category:API/cs

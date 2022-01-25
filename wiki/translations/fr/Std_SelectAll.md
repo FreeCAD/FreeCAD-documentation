@@ -29,5 +29,7 @@ La commande **Std Tout Sélectionner** sélectionne tous les objets dans la [vue
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SelectAll/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectAll/fr

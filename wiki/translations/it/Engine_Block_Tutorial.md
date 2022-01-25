@@ -1,11 +1,11 @@
-# Engine Block Tutorial/it
-{{TutorialInfo/it
-|Topic= Part
-|Level= Base
-|Time= 1 ora
-|Author=Andrewbuck40
-|FCVersion=0.14.3700
-|Files=
+---
+- TutorialInfo:/it
+   Topic: Part
+   Level: Base
+   Time: 1 ora
+   Author:Andrewbuck40
+   FCVersion:0.14.3700
+   Files:
 }}
 
 <img alt="" src=images/Engine_Block_Tutorial_-_Finished_Engine_Block.png  style="width:600px;">
@@ -65,7 +65,7 @@ Nella scheda dei dati è possibile modificare le proprietà dell\'oggetto selezi
 
 In questo caso si sta costruendo un piccolo blocco motore a due cilindri quindi impostare la dimensione e la posizione del cubo con i seguenti valori (accertarsi di impostare correttamente i valori X,Y,Z di *Posizione*, mentre per quelli di *Asse*, che impostano l\'asse di rotazione, vanno bene i valori di default):
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 0.0 mm \|\| Lunghezza: 140.0 mm \|- \| Y: -40.0 mm \|\| Larghezza: 80.0 mm \|- \| Z: 0.0 mm \|\| Altezza: 110.0 mm \|- \|}
 
@@ -84,7 +84,7 @@ Fare clic sul pulsante aggiungi <img alt="" src=images/Part_Cylinder.png  style=
 </div>
 
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 40.0 mm \|\| Altezza: 110.0 mm \|- \| Y: 0.0 mm \|\| Raggio: 25.0 mm \|- \| Z: 0.0 mm \|\| \|- \|}
 
@@ -128,8 +128,12 @@ I due oggetti selezionati sono di nuovo uniti come per una operazione di unione 
 Notare che nella schermata la vista ad albero sulla sinistra è espansa per visualizzare le primitive individuali e che è selezionato *Cilindro 2* per esaminare la sua scheda *Dati* nella finestra delle *Proprietà*.
 
 
+{{clear
+---
 
+# Engine Block Tutorial/it
 
+  
 
 </div>
 
@@ -423,5 +427,7 @@ L\'oggetto finale dovrebbe essere simile a quello dell\'immagine di destra.
 
 Your final object should look like the picture on the right.
 
+
+
 ---
-[documentation index](../README.md) > Engine Block Tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Engine Block Tutorial/it

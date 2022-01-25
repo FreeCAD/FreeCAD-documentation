@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic: Skizzierer
+   Level: Anfänger
+   Time: 60 Minuten
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] und vocx
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Grundlegendes Skizzierer Tutorium aktualisiert]
+---
+
 # Basic Sketcher Tutorial/de
-{{TutorialInfo/de
-|Topic= Skizzierer
-|Level= Anfänger
-|Time= 60 Minuten
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] und vocx
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Grundlegendes Skizzierer Tutorium aktualisiert]
-}}
+
+
+
+
 
 ## Einführung
 
@@ -298,9 +304,9 @@ Die Beschränkung einer Skizze kann auf viele verschiedene Arten erfolgen. Im Al
 -   Versuche, eine andere Konstruktionsgeometrie zu verwenden.
 
 
-{{Tutorials navi
+ {{Sketcher Tools navi}}
 
-}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Basic Sketcher Tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Category_Sketcher.md) > Basic Sketcher Tutorial/de

@@ -41,7 +41,7 @@ Für weitere Informationen über das Referenzieren von Objekten siehe [Referenz 
 Die folgenden Konstanten werden unterstützt:
 
   Konstante   Beschreibung
-  ----------- ----------------------------------------------------------------
+   
   **e**       [Eulersche Zahl](https://de.wikipedia.org/wiki/Eulersche_Zahl)
   **pi**      [Kreiszahl $\pi$](https://de.wikipedia.org/wiki/Kreiszahl)
 
@@ -50,7 +50,7 @@ Die folgenden Konstanten werden unterstützt:
 Die folgenden Operatoren werden untertstützt:
 
   Operator   Beschreibung
-  ---------- ----------------------------------------------------------------------------
+   
   **+**      [Addition](https://de.wikipedia.org/wiki/Addition)
   **-**      [Subtraktion](https://de.wikipedia.org/wiki/Subtraktion)
   **\***     [Multiplikation](https://de.wikipedia.org/wiki/Multiplikation)
@@ -68,7 +68,7 @@ Die nachfolgend aufgeführten mathematischen Funktionen sind verfügbar.
 Folgende Trigonometrische Funktionen werden unterstützt:
 
   Funktion      Beschreibung                                                                                                               Wertebereich
-  ------------- -------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------
+    
   acos(x)       [arccos](https://de.wikipedia.org/wiki/Arkusfunktion#Beziehungen_zwischen_den_Funktionen)                                  -1 \<= x \<= 1
   asin(x)       [arcsin](https://de.wikipedia.org/wiki/Arkusfunktion#Beziehungen_zwischen_den_Funktionen)                                  -1 \<= x \<= 1
   atan(x)       [arctan](https://de.wikipedia.org/wiki/Arkusfunktion#Beziehungen_zwischen_den_Funktionen)                                  alle
@@ -85,7 +85,7 @@ Folgende Trigonometrische Funktionen werden unterstützt:
 Diese Exponential- oder Logarithmusfunktionen werden unterstützt:
 
   Funktion    Beschreibung                                                                                        Wertebereich
-  ----------- --------------------------------------------------------------------------------------------------- --------------
+    
   exp(x)      [Exponentialfunktion](https://en.wikipedia.org/wiki/Exponential_function#Definition)                alle
   log(x)      [Natürlicher Logarithmus](https://de.wikipedia.org/wiki/Logarithmus#Nat%C3%BCrlicher_Logarithmus)   x \> 0
   log10(x)    [Dekadischer Logarithmus](https://de.wikipedia.org/wiki/Dekadischer_Logarithmus)                    x \> 0
@@ -95,7 +95,7 @@ Diese Exponential- oder Logarithmusfunktionen werden unterstützt:
 Diese Funktionen für Rundung, Trunkierung und Modulo werden unterstützt:
 
   Funktion    Beschreibung                                                                                                                                               Wertebereich
-  ----------- ---------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------
+    
   abs(x)      [Betragsfunktion](https://de.wikipedia.org/wiki/Betragsfunktion)                                                                                           alle
   ceil(x)     [Abrundungsfunktion](https://de.wikipedia.org/wiki/Abrundungsfunktion_und_Aufrundungsfunktion), kleinster ganzzahliger Wert größer oder gleich x           alle
   floor(x)    [Aufrundungsfunktion](https://de.wikipedia.org/wiki/Abrundungsfunktion_und_Aufrundungsfunktion), größter ganzzahliger Wert kleiner oder gleich x           alle
@@ -111,7 +111,7 @@ Einzelne Argumente für Aggregatfunktionen können aus Zellbereichen bestehen. E
 Diese Aggregatfunktionen werden unterstützt:
 
   Funktion                 Beschreibung                                                                                                                                                    Wertebereich
-  ------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------
+    
   average(a; b; c; \...)   [Arithmetisches Mittel](https://de.wikipedia.org/wiki/Arithmetisches_Mittel) der Werte der Argumente; dasselbe, wie sum(a; b; c; \...) / count(a; b; c; \...)   alle
   count(a; b; c; \...)     [Zählen](https://de.wikipedia.org/wiki/Z%C3%A4hlen) der Argumente; üblicherweise für Zellbereiche genutzt                                                       alle
   max(a; b; c; \...)       [Extremwert (Maximum)](https://de.wikipedia.org/wiki/Extremwert)-Werte der Argumente                                                                            alle
@@ -200,29 +200,29 @@ Wenn `create` `<<placement>>` als erstes Argument übergeben wird, gibt es fünf
 
 Diese möglichen Kombinationen werden in der Tabelle unten angezeigt und basieren auf der \[<https://freecad.github.io/SourceDoc/%5D-Seite>.
 
-+----------------------+----------------------------------------------------------------+
++++
 | Anzahl der Argumente | Beschreibung                                                   |
 +======================+================================================================+
 | 2                    |                                                 |
 |                      | `create(<<placement>>; Positionierung)`               |
 |                      |                                                             |
-+----------------------+----------------------------------------------------------------+
++++
 | 2                    |                                                 |
 |                      | `create(<<placement>>; Matrix)`                       |
 |                      |                                                             |
-+----------------------+----------------------------------------------------------------+
++++
 | 3                    |                                                 |
 |                      | `create(<<placement>>; Basis; Rotation)`              |
 |                      |                                                             |
-+----------------------+----------------------------------------------------------------+
++++
 | 4                    |                                                 |
 |                      | `create(<<placement>>; Basis; Rotation; Mittelpunkt)` |
 |                      |                                                             |
-+----------------------+----------------------------------------------------------------+
++++
 | 4                    |                                                 |
 |                      | `create(<<placement>>; Basis; Achse; Winkel)`         |
 |                      |                                                             |
-+----------------------+----------------------------------------------------------------+
++++
 
 Das folgende Beispiel zeigt die Syntax zur Erstellung einer `Positionierung` aus einem `Basis`-Vektor und einer `Rotation`:
 
@@ -273,7 +273,7 @@ Bedingte Ausdrücke haben die Form `Bedingung ? ResultatWahr : ResultatFalsch`. 
 Die folgenden [Vergleichsoperatoren](https://de.wikipedia.org/wiki/Vergleichsoperator) sind definiert:
 
   Einheit   Beschreibung
-  --------- ---------------------
+   
   **==**    gleich
   **!=**    ungleich
   **\>**    größer als
@@ -297,13 +297,13 @@ Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
 Menge einer Substanz:
 
   Einheit   Beschreibung
-  --------- ------------------------------------------
+   
   mol       [Mol](https://de.wikipedia.org/wiki/Mol)
 
 Winkel:
 
   Einheit   Beschreibung
-  --------- -------------------------------------------------------------------------------------------
+   
   °         [Grad (Winkel)](https://de.wikipedia.org/wiki/Grad_(Winkel)); Alternative zur Einheit deg
   deg       [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); Alternative zur Einheit °
   rad       [Radian](https://en.wikipedia.org/wiki/Radian)
@@ -316,7 +316,7 @@ Winkel:
 Strom:
 
   Einheit   Beschreibung
-  --------- -----------------------------------------------------
+   
   mA        Milli[ampere](https://de.wikipedia.org/wiki/Ampere)
   A         [Ampere](https://de.wikipedia.org/wiki/Ampere)
   kA        Kilo[ampere](https://de.wikipedia.org/wiki/Ampere)
@@ -325,7 +325,7 @@ Strom:
 Energie / Arbeit:
 
   Einheit   Beschreibung
-  --------- -----------------------------------------------------------------------------------------
+   
   J         [Joule](https://de.wikipedia.org/wiki/Joule)
   Ws        [Wattsekunde](https://de.wikipedia.org/wiki/Joule); Alternative zur Einheit Joule
   VAs       [Voltamperesekunde](https://de.wikipedia.org/wiki/Joule); Alternative zur Einheit Joule
@@ -334,7 +334,7 @@ Energie / Arbeit:
 Kraft:
 
   Einheit   Beschreibung
-  --------- ---------------------------------------------------------------
+   
   mN        Milli[newton](https://de.wikipedia.org/wiki/Newton_(Einheit))
   N         [Newton](https://de.wikipedia.org/wiki/Newton_(Einheit))
   kN        Kilo[newton](https://de.wikipedia.org/wiki/Newton_(Einheit))
@@ -344,7 +344,7 @@ Kraft:
 Länge:
 
   Einheit   Beschreibung
-  --------- ----------------------------------------------------------------------------------------------------------
+   
   nm        Nano[meter](https://de.wikipedia.org/wiki/Meter)
   um        Micro-[Meter](https://de.wikipedia.org/wiki/Meter); Alternative zur Einheit µm
   µm        Micro[meter](https://de.wikipedia.org/wiki/Meter); Alternative zur Einheit um
@@ -365,13 +365,13 @@ Länge:
 Lichtstärke:
 
   Einheit   Beschreibung
-  --------- --------------------------------------------------
+   
   cd        [Candela](https://de.wikipedia.org/wiki/Candela)
 
 Masse:
 
   Einheit   Beschreibung
-  --------- -------------------------------------------------------------------------------
+   
   ug        Micro[gramm](https://de.wikipedia.org/wiki/Gramm); Alternative zur Einheit µg
   µg        Micro[gramm](https://de.wikipedia.org/wiki/Gramm); Alternative zur Einheit ug
   mg        Milli[gramm](https://de.wikipedia.org/wiki/Gramm)
@@ -387,14 +387,14 @@ Masse:
 Energie:
 
   Einheit   Beschreibung
-  --------- ---------------------------------------------------------------
+   
   W         [Watt(Einheit)](https://de.wikipedia.org/wiki/Watt_(Einheit))
   VA        [Voltampere](https://de.wikipedia.org/wiki/Voltampere)
 
 Druck:
 
   Einheit   Beschreibung
-  --------- -------------------------------------------------------------------------------------------------------------
+   
   Pa        [Pascal (Einheit)](https://de.wikipedia.org/wiki/Pascal_(Einheit))
   kPa       Kilo-[Pascal (Einheit)](https://de.wikipedia.org/wiki/Pascal_(Einheit))
   MPa       Mega-[Pascal (Einheit)](https://de.wikipedia.org/wiki/Pascal_(Einheit))
@@ -409,7 +409,7 @@ Druck:
 Temperatur:
 
   Einheit   Beschreibung
-  --------- -----------------------------------------------------------------------------------
+   
   uK        Micro[kelvin](https://de.wikipedia.org/wiki/Kelvin); Alternative zur Einheit *µK*
   µK        Micro[kelvin](https://de.wikipedia.org/wiki/Kelvin); Alternative zur Einheit *uK*
   mK        Milli[kelvin](https://de.wikipedia.org/wiki/Kelvin)
@@ -418,7 +418,7 @@ Temperatur:
 Zeit:
 
   Einheit   Beschreibung
-  --------- --------------------------------------------------
+   
   s         [Secunde](https://de.wikipedia.org/wiki/Sekunde)
   min       [Minute](https://de.wikipedia.org/wiki/Minute)
   h         [Stunde](https://de.wikipedia.org/wiki/Stunde)
@@ -426,13 +426,13 @@ Zeit:
 Volumen:
 
   Einheit   Beschreibung
-  --------- ----------------------------------------------
+   
   l         [Liter](https://de.wikipedia.org/wiki/Liter)
 
 Die folgenden häufig verwendeten Einheiten werden noch nicht unterstützt:
 
   Einheit   Beschreibung                                                                                                          Alternative
-  --------- --------------------------------------------------------------------------------------------------------------------- --------------------------
+    
   °C        [Grad Celsius](https://de.wikipedia.org/wiki/Grad_Celsius)                                                            \[°C\] + 273.15 K
   °F        [Grad Fahrenheit](https://de.wikipedia.org/wiki/Grad_Fahrenheit);                                                     (\[°F\] + 459.67) × ​5/9
   u         [Atomare Masseneinheit](https://de.wikipedia.org/wiki/Atomare_Masseneinheit); Alternative zur Einheit Da (Dalton) =   1.66053906660e-27 kg
@@ -452,14 +452,14 @@ In Fällen, in denen du keine Beschriftung verwenden kannst, wie z. B. der Name 
 
 Für [Bezeichner](Object_name/de#Bezeichner.md) gibt es keine ungültigen Zeichen, jedoch müssen einige Zeichen maskiert werden:
 
-+----------------------------------------------------------+-------------------------------------------------------------------------------+
++++
 | Zeichen                                                  | Beschreibung                                                                  |
 +==========================================================+===============================================================================+
 |                                           | Müssen durch das Voranstellen von `\` maskiert werden. |
 | `'`                                             |                                                                               |
 |                                                       |                                                                               |
 | , `\`, `"` |                                                                               |
-+----------------------------------------------------------+-------------------------------------------------------------------------------+
++++
 
 Zum Beispiel muss der Bezeichner `Skizze\002` als `<<Skizze\002>>` referenziert werden.
 
@@ -468,7 +468,7 @@ Zum Beispiel muss der Bezeichner `Skizze\002` als `<<Skizze\002>>` referenziert 
 [Namen](Object_name/de#Name.md) von Objekten wie Dimensionen, Skizzen, usw. dürfen folgende Zeichen oder Zeichenfolgen nicht enthalten. Anderenfalls ist der Namen ungültig.
 
   Zeichen / Zeichenfolgen                                                                                                                          Beschreibung
-  ------------------------------------------------------------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------
+   
   **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**                     Zeichen die mathematische Operatoren oder mathematische Konstruktionen sind.
   **A**, **kA**, **mA**, **MA**, **C**, **G**, **F**, **uF**, **µF**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°**, und viele andere!   Zeichen oder Zeichenfolgen, die [Einheiten](Expressions/de#Units.md) sind.
   **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **:**, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, und viele andere!                         Zeichen, die als Platzhalter verwendet werden oder die Funktionen auslösen.
@@ -490,46 +490,46 @@ Es ist möglich, Daten aus dem Modell selbst in einem Ausdruck zu verwenden. Um 
 
 Die folgende Tabelle zeigt einige Beispiele:
 
-+----------------------------------------------------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | CAD-Daten                                                | Aufruf im Ausdruck                       | Ergebnis                                                                                                                                                                                                         |
 +==========================================================+==========================================+==================================================================================================================================================================================================================+
 | Parametrische Länge eines Quaders im Arbeitsbereich Part |                           |                                                                                                                                                                                                   |
 |                                                          | `Cube.Length`                   | `Length`                                                                                                                                                                                                |
 |                                                          |                                       |                                                                                                                                                                                                               |
 |                                                          |                                          | mit der Einheit mm                                                                                                                                                                                               |
-+----------------------------------------------------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Volumen des Würfels                                      |                           | Volume in mm³ ohne Einheiten                                                                                                                                                                                     |
 |                                                          | `Cube.Shape.Volume`             |                                                                                                                                                                                                                  |
 |                                                          |                                       |                                                                                                                                                                                                                  |
-+----------------------------------------------------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Typ der Würfelform (geometrische Figur)                  |                           | String: Solid                                                                                                                                                                                                    |
 |                                                          | `Cube.Shape.ShapeType`          |                                                                                                                                                                                                                  |
 |                                                          |                                       |                                                                                                                                                                                                                  |
-+----------------------------------------------------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Bezeichnung des Würfels                                  |                           | String: Label                                                                                                                                                                                                    |
 |                                                          | `Cube.Label`                    |                                                                                                                                                                                                                  |
 |                                                          |                                       |                                                                                                                                                                                                                  |
-+----------------------------------------------------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | X-Koordinate des Schwerpunktes des Würfels               |                           | X-Koordinate in mm ohne Einheiten                                                                                                                                                                                |
 |                                                          | `Cube.Shape.CenterOfMass.x`     |                                                                                                                                                                                                                  |
 |                                                          |                                       |                                                                                                                                                                                                                  |
-+----------------------------------------------------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Wert der Beschränkung in einer Skizze                    |                           | numerischer Wert der benannten Beschränkung \"`Width`\" (Breite) in der Skizze, wenn der Ausdruck in der Skizze selbst verwendet wird.                                                    |
 |                                                          | `Constraints.Width`             |                                                                                                                                                                                                                  |
 |                                                          |                                       |                                                                                                                                                                                                                  |
-+----------------------------------------------------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Wert der Beschränkung in einer Skizze                    |                           | numerischer Wert der benannten Beschränkung `Width` in der Skizze, wenn der Ausdruck außerhalb der Skizze verwendet wird.                                                                 |
 |                                                          | `MeineSkizze.Constraints.Width` |                                                                                                                                                                                                                  |
 |                                                          |                                       |                                                                                                                                                                                                                  |
-+----------------------------------------------------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Wert eines Alias einer Kalkulationstabelle               |                           | Wert eines Alias \"`Depth`\" (Tiefe) in der Kalkulationstabelle `Spreadsheet`                                                                                      |
 |                                                          | `Spreadsheet.Depth`             |                                                                                                                                                                                                                  |
 |                                                          |                                       |                                                                                                                                                                                                                  |
-+----------------------------------------------------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 | Wert einer lokalen Eigenschaft eines Objekts             |                           | Wert der Eigenschaft \"`Length`\" (Länge) z.B. in einem aufgepolsteren (Pad-) Objekt, wenn der Ausdruck z.B. in **Length2** im gleichen Objekt verwendet wird. |
 |                                                          | `Length`                        |                                                                                                                                                                                                                  |
 |                                                          |                                       |                                                                                                                                                                                                                  |
-+----------------------------------------------------------+------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+++++
 
 ## Dokumentweit gültige globale Variablen 
 
@@ -561,11 +561,6 @@ Natürlich liegt es bei dir, die zugehörigen Dokumente später zu laden, wenn d
 -   Offene Fehler/Tickets für die Ausdrücke (Expressions) können hier nachgeschlagen werden: [FreeCAD Bugtracker Expressions category](https://freecadweb.org/tracker/set_project.php?project_id=4;20)
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Spreadsheet](Category_Spreadsheet.md)
 
 ---
-[documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/de

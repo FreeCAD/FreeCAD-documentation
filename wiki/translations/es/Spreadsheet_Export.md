@@ -36,5 +36,7 @@ El **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Exportación d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Export/es

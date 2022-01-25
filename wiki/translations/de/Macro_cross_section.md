@@ -674,5 +674,7 @@ ver 00.06 06/09/2017 : Upgrade von Gift siehe [Optischer Schnitt durch Baugruppe
 
 ver 00.05 17/08/2017 : upgrade for 0.17 FreeCAD version by Sam see [Sezione Dinamica](https://forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=10#p187030)
 
+
+
 ---
-[documentation index](../README.md) > Macro cross section/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro cross section/de

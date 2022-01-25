@@ -55,5 +55,7 @@ Cette commande crée un nouveau [App Link](App_Link/fr.md). Ses propriétés son
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkReplace/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkReplace/fr

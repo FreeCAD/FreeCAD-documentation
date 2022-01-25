@@ -33,8 +33,5 @@ L\'installazione manuale è ancora possibile.
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
-
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/it

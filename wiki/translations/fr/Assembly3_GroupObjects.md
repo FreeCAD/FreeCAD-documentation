@@ -23,5 +23,7 @@ Elle peut être utilisée pour regrouper des **Contraintes**, des **Éléments**
 
 :   Si la sélection contient différents types d\'objets, le bouton **<img src="images/Assembly_New_Group.svg" width=16px> [Group objects](Assembly3_GroupObjects/fr.md)** sera inactif.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 GroupObjects/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 GroupObjects/fr

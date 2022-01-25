@@ -51,5 +51,7 @@ Crea un composto di diverse singole traiettorie.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryCompound/it

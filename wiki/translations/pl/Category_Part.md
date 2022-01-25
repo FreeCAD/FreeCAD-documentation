@@ -3,7 +3,7 @@ This category lists pages related to the [Part Workbench/pl](Part_Workbench/pl.m
 
 ### Contents:
 
-  ----------------------------------------------------------------------------- --------------------------------------------------------------------------- -------------------------------------------------------------------------
+    
   [Aeroplane/pl](Aeroplane/pl.md)                                       [Artwork Part/pl](Artwork_Part/pl.md)                               [Basic modeling tutorial/pl](Basic_modeling_tutorial/pl.md)
   [Constructive solid geometry/pl](Constructive_solid_geometry/pl.md)   [Draft ShapeString tutorial/pl](Draft_ShapeString_tutorial/pl.md)   [Feature/pl](Feature/pl.md)
   [Part and PartDesign/pl](Part_and_PartDesign/pl.md)                   [Part Boolean/pl](Part_Boolean/pl.md)                               [Part BooleanFragments/pl](Part_BooleanFragments/pl.md)
@@ -32,10 +32,9 @@ This category lists pages related to the [Part Workbench/pl](Part_Workbench/pl.m
   [Template:Part Tools navi/pl](Template:Part_Tools_navi/pl.md)         [Part TopoShape/pl](Part_TopoShape/pl.md)                           [Part Torus/pl](Part_Torus/pl.md)
   [Part TransformedCopy/pl](Part_TransformedCopy/pl.md)                 [Part Tube/pl](Part_Tube/pl.md)                                     [Part Wedge/pl](Part_Wedge/pl.md)
   [Part XOR/pl](Part_XOR/pl.md)                                         [Shape/pl](Shape/pl.md)                                             [Thread for Screw Tutorial/pl](Thread_for_Screw_Tutorial/pl.md)
-  [Topological naming problem/pl](Topological_naming_problem/pl.md)     [Whiffle Ball tutorial/pl](Whiffle_Ball_tutorial/pl.md)             
-  ----------------------------------------------------------------------------- --------------------------------------------------------------------------- -------------------------------------------------------------------------
+  [Topological naming problem/pl](Topological_naming_problem/pl.md)     [Whiffle Ball tutorial/pl](Whiffle_Ball_tutorial/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/pl](<img src="images/Property.png" style="width:16px"> Workbenches/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:Part/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Part/pl

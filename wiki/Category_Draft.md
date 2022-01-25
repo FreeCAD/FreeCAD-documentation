@@ -3,7 +3,7 @@ This category list pages related to the [Draft Workbench](Draft_Workbench.md).
 
 ### Contents:
 
-  ----------------------------------------------------------------------------- --------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [Arch panel tutorial](Arch_panel_tutorial.md)                         [Artwork Draft](Artwork_Draft.md)                       [Draft AddConstruction](Draft_AddConstruction.md)
   [Draft AddNamedGroup](Draft_AddNamedGroup.md)                         [Draft AddToGroup](Draft_AddToGroup.md)                 [Draft annotation scale widget](Draft_annotation_scale_widget.md)
   [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md)         [Draft API](Draft_API.md)                               [Draft ApplyStyle](Draft_ApplyStyle.md)
@@ -38,10 +38,9 @@ This category list pages related to the [Draft Workbench](Draft_Workbench.md).
   [Draft WireToBSpline](Draft_WireToBSpline.md)                         [Draft Workbench](Draft_Workbench.md)                   [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md)
   [DXF](DXF.md)                                                         [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md)     [Macro FCCircularText](Macro_FCCircularText.md)
   [Manual:Traditional 2D drafting](Manual_Traditional_2D_drafting.md)   [SVG](SVG.md)                                           [Tutorial custom placing of windows and doors](Tutorial_custom_placing_of_windows_and_doors.md)
-  [Tutorial for open windows](Tutorial_for_open_windows.md)                                                                             
-  ----------------------------------------------------------------------------- --------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+  [Tutorial for open windows](Tutorial_for_open_windows.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > Category:Draft
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft

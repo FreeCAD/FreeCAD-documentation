@@ -27,5 +27,7 @@ Lets the selected robot move to its home position.
 
  {{Robot_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot RestoreHomePos

@@ -136,9 +136,9 @@ CanvasView est l\'objet QGraphicsScene et DrawingView traite une liste de Featur
 3.  Ajoutez votre classe au bas de Command.cpp
 4.  Ajoutez vos informations dans Workbench.cpp, cela indiquera à FreeCAD/Drawing module où placer les icônes définies dans command.cpp dans l\'interface freecad réelle (les barres d\'outils, menus déroulants, etc.)
 
-{{Drawing Tools navi}} 
+{{Drawing Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing Documentation/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing Documentation/fr

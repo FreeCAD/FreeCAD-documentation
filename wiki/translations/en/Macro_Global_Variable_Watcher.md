@@ -332,5 +332,7 @@ form.exec_()
 #thus ends the macro...
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Global Variable Watcher/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Global Variable Watcher/en

@@ -1,5 +1,7 @@
 # Manual/es
 1.  Redirect:[Manual:Introduction/es](Manual:Introduction/es.md)
 
+
+
 ---
-[documentation index](../README.md) > Manual/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual/es

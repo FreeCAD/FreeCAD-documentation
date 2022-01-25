@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench/ro](PartDesign_Wo
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------- ----------------------------------------------------------------- -------------------------------------------------------------
+    
   [Manual:Preparing models for 3D printing/ro](Manual:Preparing_models_for_3D_printing/ro.md)   [Path Array/ro](Path_Array/ro.md)                         [Path Comment/ro](Path_Comment/ro.md)
   [Path Copy/ro](Path_Copy/ro.md)                                                               [Path Custom/ro](Path_Custom/ro.md)                       [Path DressupDogbone/ro](Path_DressupDogbone/ro.md)
   [Path DressupDragKnife/ro](Path_DressupDragKnife/ro.md)                                       [Path DressupRampEntry/ro](Path_DressupRampEntry/ro.md)   [Path DressupTag/ro](Path_DressupTag/ro.md)
@@ -13,10 +13,9 @@ This category lists pages related to the [PartDesign Workbench/ro](PartDesign_Wo
   [Path Post/ro](Path_Post/ro.md)                                                               [Path Profile/ro](Path_Profile/ro.md)                     [Path scripting/ro](Path_scripting/ro.md)
   [Path SelectLoop/ro](Path_SelectLoop/ro.md)                                                   [Path Shape/ro](Path_Shape/ro.md)                         [Path SimpleCopy/ro](Path_SimpleCopy/ro.md)
   [Path Simulator/ro](Path_Simulator/ro.md)                                                     [Path Stop/ro](Path_Stop/ro.md)                           [Path Surface/ro](Path_Surface/ro.md)
-  [Path Walkthrough for the Impatient/ro](Path_Walkthrough_for_the_Impatient/ro.md)             [Path Workbench/ro](Path_Workbench/ro.md)                 
-  ----------------------------------------------------------------------------------------------------- ----------------------------------------------------------------- -------------------------------------------------------------
+  [Path Walkthrough for the Impatient/ro](Path_Walkthrough_for_the_Impatient/ro.md)             [Path Workbench/ro](Path_Workbench/ro.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/ro](<img src="images/Property.png" style="width:16px"> Workbenches/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:Path/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Path/ro

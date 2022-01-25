@@ -26,5 +26,7 @@ This tool creates a non-parametric copy of a given path.
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SimpleCopy

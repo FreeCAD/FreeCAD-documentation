@@ -32,5 +32,7 @@ The **Std ActivateNextWindow** command activates the next window in the [Main vi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ActivateNextWindow/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivateNextWindow/it

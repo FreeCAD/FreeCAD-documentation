@@ -39,5 +39,7 @@ Selezionare due spigoli che hanno un vertice comune, quindi eseguire il comando.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/it

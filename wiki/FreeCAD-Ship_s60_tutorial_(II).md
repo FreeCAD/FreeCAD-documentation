@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic:Ship Workbench
+   Level: Beginner
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # FreeCAD-Ship s60 tutorial (II)
-{{TutorialInfo
-|Topic=Ship Workbench
-|Level= Beginner
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
+
+ 
+
+
 
 ## Overview
 
@@ -195,5 +200,7 @@ Of course this example is not real (first for all fuel tanks cannot be placed in
 
  {{Ship Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)

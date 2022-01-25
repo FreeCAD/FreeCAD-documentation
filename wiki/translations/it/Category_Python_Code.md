@@ -3,7 +3,7 @@ Questa categoria contiene esempi di codice Python per FreeCAD
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+    
   [Code snippets/it](Code_snippets/it.md)                                                           [Command/it](Command/it.md)                                                                       [Create a FeaturePython object part I/it](Create_a_FeaturePython_object_part_I/it.md)
   [Create a FeaturePython object part II/it](Create_a_FeaturePython_object_part_II/it.md)           [Custom icon in tree view/it](Custom_icon_in_tree_view/it.md)                                     [Debugging/it](Debugging/it.md)
   [Dialog creation image and animated GIF/it](Dialog_creation_image_and_animated_GIF/it.md)         [Dialog creation reading and writing files/it](Dialog_creation_reading_and_writing_files/it.md)   [Dialog creation setting colors/it](Dialog_creation_setting_colors/it.md)
@@ -24,10 +24,9 @@ Questa categoria contiene esempi di codice Python per FreeCAD
   [Scripted objects with attachment/it](Scripted_objects_with_attachment/it.md)                     [Scripted objects/it](Scripted_objects/it.md)                                                     [Scripted Parts: Ball Bearing - Part 1/it](Scripted_Parts:_Ball_Bearing_-_Part_1/it.md)
   [Scripted Parts: Ball Bearing - Part 2/it](Scripted_Parts:_Ball_Bearing_-_Part_2/it.md)           [Scripting and macros/it](Scripting_and_macros/it.md)                                             [Scripts/it](Scripts/it.md)
   [Svg Namespace/it](Svg_Namespace/it.md)                                                           [Topological data scripting/it](Topological_data_scripting/it.md)                                 [Viewprovider/it](Viewprovider/it.md)
-  [Workbench creation/it](Workbench_creation/it.md)                                                                                                                                                           
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+  [Workbench creation/it](Workbench_creation/it.md)
 
-[<img src="images/Property.png" style="width:16px"> Poweruser Documentation/it](<img src="images/Property.png" style="width:16px"> Poweruser_Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Categories/it](<img src="images/Property.png" style="width:16px"> Categories/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:Python Code/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Python Code/it

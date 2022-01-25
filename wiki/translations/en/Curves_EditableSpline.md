@@ -47,5 +47,7 @@ During the command a special edit mode is active and there are several actions a
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves EditableSpline/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves EditableSpline/en

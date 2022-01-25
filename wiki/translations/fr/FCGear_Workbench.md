@@ -168,8 +168,5 @@ Voir les instructions pour Linux ci-dessus
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> FCGear](Category_FCGear.md)
-
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > FCGear Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [FCGear](Category_FCGear.md) > FCGear Workbench/fr

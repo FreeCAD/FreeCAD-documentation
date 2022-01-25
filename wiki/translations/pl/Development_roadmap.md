@@ -11,7 +11,7 @@ Ta sekcja daje przegląd tego, co jest planowane i daje Ci możliwość uczestni
 ## Projektowanie
 
   Projekt                                                                                     Opis                                                                                                                                                                 Kategoria                                                      Status
-  ------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------- ----------
+     
   **[STEP project](STEP_project/pl.md)**                                              o poprawie i rozwoju obsługi STEP w FreeCAD                                                                                                                          Modelowanie, Formaty plików                                    Aktualne
   **[Naming project](Naming_project/pl.md)**                                          polega na wdrożeniu solidnych ram odniesienia kształtu.                                                                                                              Modelowanie                                                    Aktualne
   **[FreeCAD\_development model project](FreeCAD_development_model_project/pl.md)**   przeniesienie programu FreeCAD do bardziej wydajnego modelu rozwoju                                                                                                  Proces rozwoju                                                 Aktualne
@@ -42,8 +42,5 @@ Jak w większości [FLOSS](http://en.wikipedia.org/wiki/FLOSS) projektów, harmo
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/pl

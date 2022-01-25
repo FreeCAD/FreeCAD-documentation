@@ -34,5 +34,7 @@ Les propriétés du prisme peuvent être éditées ultérieurement, soit dans l\
 
 -    **Second Angle**: Angle dans la seconde direction. <small>(v0.19)</small>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Prism/fr

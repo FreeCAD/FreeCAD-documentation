@@ -59,5 +59,7 @@ Das <img alt="" src=images/Curves_ToConsole.svg  style="width:24px;"> [Kurven An
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves ToConsole/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves ToConsole/de

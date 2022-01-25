@@ -44,5 +44,7 @@ Alegeți ** Edit** → ** Preferences** din meniul principal.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgPreferences/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgPreferences/ro

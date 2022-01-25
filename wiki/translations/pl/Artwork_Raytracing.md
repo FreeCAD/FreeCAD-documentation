@@ -12,9 +12,9 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Raytracing](Category_Raytracing.md)
+
 
 ---
-[documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Artwork Raytracing/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Artwork Raytracing/pl

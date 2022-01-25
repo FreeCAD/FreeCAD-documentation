@@ -32,5 +32,7 @@ Le mode de l\'arborescence est enregistré: **Outils → Editer paramètres... �
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeCollapseDocument/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeCollapseDocument/fr

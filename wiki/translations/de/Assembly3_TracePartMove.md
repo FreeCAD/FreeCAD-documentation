@@ -19,5 +19,7 @@ Der Befehl <img alt="" src=images/Assembly_Trace.svg  style="width:24px;"> [Bewe
     -   Die Schaltfläche **<img src="images/Assembly_Trace.svg" width=16px> [Bewegung aufzeichnen](Assembly3_TracePartMove/de.md)**.
     -   Den Menüeintrag **Assembly3 → <img src="images/Assembly_Trace.svg" width=16px> Bewegung aufzeichnen**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 TracePartMove/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 TracePartMove/de

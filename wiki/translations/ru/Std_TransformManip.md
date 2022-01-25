@@ -39,5 +39,7 @@ This tool allows you to apply rotation increments or translation increments to a
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TransformManip/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TransformManip/ru

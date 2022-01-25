@@ -83,5 +83,7 @@ dialog.show()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro ArrayCopy/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro ArrayCopy/en

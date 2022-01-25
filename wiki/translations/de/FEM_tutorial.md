@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/de
+   Topic: Finite Element Analyse
+   Level: Anfänger
+   Time: 10 Minuten + Löserzeit
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16.6700 oder höher
+   Files:
+---
+
 # FEM tutorial/de
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/de
-|Topic= Finite Element Analyse
-|Level= Anfänger
-|Time= 10 Minuten + Löserzeit
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16.6700 oder höher
-|Files=
-}}
 
 
 </div>
@@ -214,9 +220,9 @@ Wir sind nun mit dem grundlegenden Arbeitsablauf für das [FEM Modul](FEM_Workbe
 </div>
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > FEM tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/de

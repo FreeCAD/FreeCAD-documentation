@@ -191,17 +191,9 @@ oder prüfe, ob ein Objekt von einem der Basisobjekte (Part Formelement, Netz Fo
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-Jetzt kannst du wirklich anfangen, mit FreeCAD zu spielen! Eine vollständige Liste der verfügbaren Module und ihrer Werkzeuge findest du im [<img src="images/Property.png" style="width:16px"> API](:Category_API.md) Abschnitt. {{Top}}
+Jetzt kannst du wirklich anfangen, mit FreeCAD zu spielen! Eine vollständige Liste der verfügbaren Module und ihrer Werkzeuge findest du im  Abschnitt. {{Top}}
 
 
-
-
-
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/de

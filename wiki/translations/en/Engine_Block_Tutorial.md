@@ -1,11 +1,11 @@
 # Engine Block Tutorial/en
-{{TutorialInfo
-|Topic=     Part Workbench
-|Level=     Beginner
-|Time=      1 hour
-|Author=    Andrewbuck40
-|FCVersion= 0.14.3700
-|Files=
+---
+- TutorialInfo:   Topic:     Part Workbench
+   Level:     Beginner
+   Time:      1 hour
+   Author:    Andrewbuck40
+   FCVersion: 0.14.3700
+   Files:
 }}
 
 <img alt="" src=images/Engine_Block_Tutorial_-_Finished_Engine_Block.png  style="width:600px;">
@@ -28,7 +28,7 @@ On the Part Workbench you will see a bunch of buttons for primitive objects like
 
 Once you have your cube and are comfortable with how the mouse works, we will begin setting up the dimensions of the CAD model. Select the *Cube* by clicking on it in the tree view and then click on the *Data tab* of the *Property View* located below the tree view (go to **View → Panels → Combo View** if you have closed it). In the *Data tab* you can modify the properties of the object you have selected in the tree view. Depending on what kind of object you select there will be different parameters for you to set in the *Data tab*. For a box we need a 3 vectors, one for its position in 3D space, another for its orientation, and a third to specify the dimensions of the box. For a sphere you would be able to specify the central point, and the radius; cones have a radius, height, and position; and so on. We are building a small 2-cylinder engine block so set the size and position of the box to the following values (make sure you set the XYZ under *Position*, the ones under *Axis* set the axis of rotation and the default values are what we want):
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 0.0 mm \|\| Length: 140.0 mm \|- \| Y: -40.0 mm \|\| Width: 80.0 mm \|- \| Z: 0.0 mm \|\| Height: 110.0 mm \|- \|}
 
@@ -38,7 +38,7 @@ Now that you have your engine block dimensioned properly we should give it a mor
 
 Next we will carve out the first cylinder all the way through the engine block. To do this we will add a cylinder to the model with the size we want to bore out and then do a Boolean operation to *subtract* the material away from the block. Click the add cylinder button (<img alt="" src=images/Part_Cylinder.svg  style="width:16px;">) to create a new cylinder and then select it in the tree view and set its properties to the following:
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 40.0 mm \|\| Height: 110.0 mm \|- \| Y: 0.0 mm \|\| Radius: 25.0 mm \|- \| Z: 0.0 mm \|\| \|- \|}
 
@@ -64,7 +64,7 @@ Now that we have our cylinders bored out we will take a second to see one of the
 
 Next we will work on a crankcase under the engine block. Add a new box, rename it to **Crankcase Billet**, and give it the following properties:
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 0.0 mm \|\| Length: 140.0 mm \|- \| Y: -50.0 mm \|\| Width: 100.0 mm \|- \| Z: -85.0 mm \|\| Height: 85.0 mm \|- \|}
 
@@ -72,7 +72,7 @@ In order to tell the crankcase apart from the let\'s give one of them a differen
 
 Add another box called **Bearing carve**, give it the following properties, and then cut the **Bearing carve** away from the **Crankcase Billet** (i.e. select the billet first):
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 0.0 mm \|\| Length: 140.0 mm \|- \| Y: -40.0 mm \|\| Width: 80.0 mm \|- \| Z: -85.0 mm \|\| Height: 30.0 mm \|- \|}
 
@@ -82,7 +82,7 @@ Rename the resulting *Cut* object to **Carved crankcase**.
 
 Next we will cut out a semi-circular place for the crankshaft to sit and a space in the crankcase for it to spin. We will start with a cylinder, but the orientation of the default cylinder is vertical, whereas we need a horizontal one. This means we need to figure out how to rotate the cylinder to align it properly with our engine. If you look at the guide axis in the bottom right corner of the 3D window you will see we want the crankshaft to lie along the positive x-axis. This means that from its starting location we need to rotate 90 degrees around an axis parallel to the y-axis of the scene. This tells us what we need to enter the parameters for the cylinder. Create a cylinder called **Crankshaft carve** and give it these properties (notice that now we have to specify the orientation parameters, as well as the regular dimensions we did for the cylinder bores):
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| Axis X: 0.0 mm \|\| Angle: 90.0 degrees \|- \| Axis Y: 1.0 mm \|\| \|- \| Axis Z: 0.0 mm \|\| \|- \| Position X: 0.0 mm \|\| Height: 140.0 mm \|- \| Position Y: 0.0 mm \|\| Radius: 20.0 mm \|- \| Position Z: -55.0 mm \|\| \|- \|}
 
@@ -92,11 +92,11 @@ Cut the **crankshaft carve** object away from the **Carved crankcase** and renam
 
 Lastly we will cut out 2 final boxes so that the piston rods can reach from the crankcase up into the engine block. Make two objects called **Box carve 1** and **Box carve 2** with the following properties; also, you can duplicate **Box carve 1** and just change the X coordinate to get the second carver. Union them into an object called **Box carvers**, and cut this object away from the **Crankcase with journals**, calling the final result **Crankcase**. Remember, you can hide the **Bored block** by selecting it and pushing spacebar so you can see what you are doing.
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 15.0 mm \|\| Length: 50.0 mm \|- \| Y: -25.0 mm \|\| Width: 50.0 mm \|- \| Z: -55.0 mm \|\| Height: 55.0 mm \|- \|}
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 75.0 mm \|\| Length: 50.0 mm \|- \| Y: -25.0 mm \|\| Width: 50.0 mm \|- \| Z: -55.0 mm \|\| Height: 55.0 mm \|- \|}
 
@@ -122,7 +122,7 @@ Adding drafting elements with the mouse is fast and easy, but it is not very pre
 
 Now that you see how to easily determine the coordinates of drawing elements you can easily design a bolt pattern or other 2 dimensional layout for a part such as fluid channels, circuit-board traces, etc. For our 3 head bolts let\'s on this side of the engine, let\'s use the following coordinates. Note that when you are typing in values to the boxes you can press enter to move on to the next box, and it is also a good idea to move your mouse out of the 3D view before you start typing in the coordinates as too much mouse movement will overwrite the numbers you have already entered in the text entry fields. Also, on my system I had trouble with the typed in circles having their Z coordinates set to 12.5 for some reason, if this is a problem for you, you can set the drawing projection plane to *None* and then manually enter the Z coordinates for the circles to be 110. Finally, when creating the circles, make sure to check the box labeled *Filled* otherwise when we extrude them later they will just create tubes like a toilet paper tube instead of a solid cylinder.
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X1: 10 \|\| Y1: 25 \|\| Radius: 2.5 mm \|- \| X2: 70 \|\| Y2: 25 \|\| Radius: 2.5 mm \|- \| X3: 130 \|\| Y3: 25 \|\| Radius: 2.5 mm \|}
 
@@ -170,5 +170,11 @@ Now that we have 3D objects for the bore holes and the outer shape, we can use a
 
 Your final object should look like the picture on the right.
 
+
+{{clear
 ---
-[documentation index](../README.md) > Engine Block Tutorial/en
+
+
+
+---
+![](images/Right_arrow.png) [documentation index](../README.md) > Engine Block Tutorial/en

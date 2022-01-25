@@ -30,5 +30,7 @@ Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/es

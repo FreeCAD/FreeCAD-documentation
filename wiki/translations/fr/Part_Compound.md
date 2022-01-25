@@ -27,5 +27,7 @@ Un composé contenant des pièces qui se croisent ou qui se touchent est **inval
 
 Pour activer cette vérification, allez sur **Outils → Éditer Paramètres... → Préférences → Mod → Part → CheckGeometry → RunBOPCheck** et réglez le paramètre sur `true`.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Compound/fr

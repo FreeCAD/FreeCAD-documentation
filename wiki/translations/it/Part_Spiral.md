@@ -23,5 +23,7 @@ Il dialogo **Crea Primitive** è accessibile tramite l\'icona [Crea Primitive](P
 
 ![](images/Spiral_y45_it.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Spiral/it

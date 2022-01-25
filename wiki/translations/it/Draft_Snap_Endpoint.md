@@ -58,5 +58,7 @@ Questa modalità di aggancio consente di selezionare i punti finali degli elemen
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Endpoint/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Endpoint/it

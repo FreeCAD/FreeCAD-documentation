@@ -1,12 +1,20 @@
+---
+- TutorialInfo:   Topic:Scripting
+   Level:Base
+   Time:
+   Author:onekk Carlo
+   FCVersion:0.19
+   Files:
+---
+
 # Scripts/pl
-{{TutorialInfo
-|Topic=Scripting
-|Level=Base
-|Time=
-|Author=onekk Carlo
-|FCVersion=0.19
-|Files=
-}}
+
+
+
+
+
+
+
 
 ## Introduction
 
@@ -14,7 +22,7 @@ With Scripting we mean create topological objects using FreeCAD\'s Python interp
 
 Sadly information about scripting in the documentation, and even in this wiki are scattered around and lacks of \"writing\" uniformity and most of them are explained in a too technical manner.
 
-## Wetting you appetite 
+## Whetting your appetite 
 
 The first obstacle in an easy way to scripting is that there is no direct way to access the FreeCAD internal Python editor through a menu item or a icon on the toolbar area, but knowing that FreeCAD opens a file with a `.py` extension in the internal Python editor, the most simple trick is create in your favorite text editor and then open it with the usual command **File → Open**.
 
@@ -191,7 +199,7 @@ FreeCAD.Placement(Vector(0,0,0), FreeCAD.Rotation(10,20,30), Vector(0,0,0))
 But over other consideration, one thing is crucial, geometry **reference point**, in other word the point from which the object is modeled by FreeCAD, as described in this table, copied from [Placement](Placement.md):
 
   Object                           Reference Point
-  -------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                         left (minx), front (miny), bottom (minz) vertex
   Part.Sphere                      center of the sphere (ie centre of bounding box)
   Part.Cylinder                    center of the bottom face
@@ -267,9 +275,9 @@ Let\'s explain something in the code:
 -   We have defined a complex object **aeroplano** (italian word for aeroplane), but we have done it in a **\"parametric\"** way, defining some parameters and deriving other parameters, through some calculation, based on the main parameters.
 -   We have used some Placement `Placement` poperties around in the method and before returning the final geometries we have used a `Rotation` property with the *Yaw-Pitch-Roll* writing. Note the last `Vector(0,0, pos_ali)`, that define a **center of rotation** of the whole geometry.
 
-  ----------------------------------------------------- ---------------------------------------------- ----------------------------------------------------
+    
   ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
-  ----------------------------------------------------- ---------------------------------------------- ----------------------------------------------------
+    
 
 It can be easily noted that **aeroplano** geometry rotate around his \"barycenter\" or \"center of gravity\", that I\'ve fixed at wing center, a place that is relatively \"natural\", but could be placed wherever you want.
 
@@ -308,13 +316,5 @@ This is the meaning of the word \"awkward\" that I\'ve used to define `Placement
 
 
 
-
-
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripts/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > Scripts/pl

@@ -35,5 +35,7 @@ Questo comando essenzialmente esegue <img alt="" src=images/Std_LinkImport.svg  
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkImportAll/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkImportAll/it

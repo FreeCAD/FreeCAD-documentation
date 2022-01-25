@@ -55,5 +55,7 @@ The **Std BoxSelection** command selects objects from a user defined rectangular
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std BoxSelection/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxSelection/ro

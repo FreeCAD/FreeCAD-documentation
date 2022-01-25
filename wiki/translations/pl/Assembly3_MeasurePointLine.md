@@ -16,5 +16,7 @@ To narzędzie mierzy odległość pomiędzy dwoma obiektami złożenia przy uży
 1.  Select a point and a straight edge.
 2.  Press the **<img src="images/Assembly_MeasurePointLineDistance.svg" width=16px> [Measure point to line](Assembly3_MeasurePointLine.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MeasurePointLine/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasurePointLine/pl

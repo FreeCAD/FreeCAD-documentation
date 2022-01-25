@@ -21,9 +21,6 @@ Bu formata farklı lehçeler var, bu yüzden bu içe aktarma modülü neredeyse 
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/tr](<img src="images/Property.png" style="width:16px"> User_Documentation/tr.md) [<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
-[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DAT/tr

@@ -61,5 +61,7 @@ Nu sunt adăugate extra constrâgeri pentru compartamentul clonei.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Clone/ro

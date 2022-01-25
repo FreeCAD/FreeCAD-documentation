@@ -101,5 +101,7 @@ Programmierhinweis: Die Projektionsgruppe sollte immer zur Seite hinzugefügt we
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ProjectionGroup/de

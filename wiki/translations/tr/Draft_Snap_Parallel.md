@@ -50,5 +50,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Parallel/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Parallel/tr

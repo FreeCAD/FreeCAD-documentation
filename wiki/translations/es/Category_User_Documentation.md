@@ -3,7 +3,7 @@ Esta categoría contiene artículos sobre la utilización de FreeCAD. También e
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
+    
   [Template:GuiCommandAddon/es](Template:GuiCommandAddon/es.md)                               [3D view/es](3D_view/es.md)                                                                         [3Dconnexion input devices/es](3Dconnexion_input_devices/es.md)
   [A2plus Workbench/es](A2plus_Workbench/es.md)                                               [About FreeCAD/es](About_FreeCAD/es.md)                                                             [Addon/es](Addon/es.md)
   [Advanced TechDraw Tutorial/es](Advanced_TechDraw_Tutorial/es.md)                           [Aeroplane/es](Aeroplane/es.md)                                                                     [Analysis of reinforced concrete with FEM/es](Analysis_of_reinforced_concrete_with_FEM/es.md)
@@ -170,10 +170,9 @@ Esta categoría contiene artículos sobre la utilización de FreeCAD. También e
   [Sketcher CreateHeptagon/es](Sketcher_CreateHeptagon/es.md)                                 [Sketcher CreateHexagon/es](Sketcher_CreateHexagon/es.md)                                           [Sketcher CreateLine/es](Sketcher_CreateLine/es.md)
   [Sketcher CreateOctagon/es](Sketcher_CreateOctagon/es.md)                                   [Sketcher CreatePentagon/es](Sketcher_CreatePentagon/es.md)                                         [Sketcher CreatePoint/es](Sketcher_CreatePoint/es.md)
   [Sketcher CreatePolyline/es](Sketcher_CreatePolyline/es.md)                                 [Sketcher CreateRectangle/es](Sketcher_CreateRectangle/es.md)                                       [Sketcher CreateRegularPolygon/es](Sketcher_CreateRegularPolygon/es.md)
-  [Sketcher CreateSlot/es](Sketcher_CreateSlot/es.md)                                         [Sketcher CreateSquare/es](Sketcher_CreateSquare/es.md)                                             
-  --------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
+  [Sketcher CreateSlot/es](Sketcher_CreateSlot/es.md)                                         [Sketcher CreateSquare/es](Sketcher_CreateSquare/es.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/es](<img src="images/Property.png" style="width:16px"> Documentation/es.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/es

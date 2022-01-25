@@ -3,7 +3,7 @@ This category list pages related to the \"User\_Documentation/ro\" and \"Workben
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------- -----------------------------------------------------------------------------------
+    
   [Arch panel tutorial/ro](Arch_panel_tutorial/ro.md)                     [Draft AddConstruction/ro](Draft_AddConstruction/ro.md)         [Draft AddToGroup/ro](Draft_AddToGroup/ro.md)
   [Draft API/ro](Draft_API/ro.md)                                         [Draft ApplyStyle/ro](Draft_ApplyStyle/ro.md)                   [Draft Arc/ro](Draft_Arc/ro.md)
   [Draft Array/ro](Draft_Array/ro.md)                                     [Draft AutoGroup/ro](Draft_AutoGroup/ro.md)                     [Draft BezCurve/ro](Draft_BezCurve/ro.md)
@@ -27,10 +27,8 @@ This category list pages related to the \"User\_Documentation/ro\" and \"Workben
   [Draft ToggleGrid/ro](Draft_ToggleGrid/ro.md)                           [Draft Trimex/ro](Draft_Trimex/ro.md)                           [Draft tutorial/ro](Draft_tutorial/ro.md)
   [Draft Upgrade/ro](Draft_Upgrade/ro.md)                                 [Draft Wire/ro](Draft_Wire/ro.md)                               [Draft WireToBSpline/ro](Draft_WireToBSpline/ro.md)
   [Draft Workbench/ro](Draft_Workbench/ro.md)                             [Draft WorkingPlaneProxy/ro](Draft_WorkingPlaneProxy/ro.md)     [Manual:Traditional 2D drafting/ro](Manual:Traditional_2D_drafting/ro.md)
-                                                                                                                                                          
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------- -----------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/ro](<img src="images/Property.png" style="width:16px"> User_Documentation/ro.md) [<img src="images/Property.png" style="width:16px"> Workbenches/ro](<img src="images/Property.png" style="width:16px"> Workbenches/ro.md)
+
 
 ---
-[documentation index](../README.md) > Category:Draft/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/ro

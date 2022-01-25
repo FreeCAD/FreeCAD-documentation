@@ -15,11 +15,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 ### src/Mod/PartDesign/WizardShaft/
 
- ![](images/WizardShaft.svg ) 
+ ![](images/WizardShaft.svg )
 
- 
 
-[<img src="images/Property.png" style="width:16px"> PartDesign](Category_PartDesign.md)
 
 ---
-[documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign

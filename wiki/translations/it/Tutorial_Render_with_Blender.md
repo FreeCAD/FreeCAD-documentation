@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/it
+   Topic:Rendering
+   Level:Intermedio
+   Time:60 minuti
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 o superiore
+   Files:none
+---
+
 # Tutorial Render with Blender/it
-{{TutorialInfo/it
-|Topic=Rendering
-|Level=Intermedio
-|Time=60 minuti
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 o superiore
-|Files=none
-}}
+
+
+
+
 
 ## Introduzione
 
@@ -342,7 +348,9 @@ On the other hand, Cycles is a true raytracing renderer which means it is more a
 
 Both renderers can be used to leverage the advantages of each. In many cases the scene can be quickly prepared and tested with EEVEE to obtain preliminary renderings; then the same scene can be used with minor changes with Cycles in order to produce a higher quality, final rendering. In particular, when a scene that was setup with EEVEE will be used with Cycles, the lights may need to be adjusted in value and position as both renderers treat light in different ways.
 
-Obtaining good results is highly dependent on the rendering options, the materials, and the lighting. The `Principled BSDF` material shader is a generic solution that works well for many cases, however, to produce truly photorealistic results, the use of texture maps and normal maps, along with careful lighting of the scene is still very important. {{Tutorials navi}} {{Raytracing Tools navi}}
+Obtaining good results is highly dependent on the rendering options, the materials, and the lighting. The `Principled BSDF` material shader is a generic solution that works well for many cases, however, to produce truly photorealistic results, the use of texture maps and normal maps, along with careful lighting of the scene is still very important.  {{Raytracing Tools navi}}
+
+
 
 ---
-[documentation index](../README.md) > Tutorial Render with Blender/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Raytracing](Category_Raytracing.md) > Tutorial Render with Blender/it

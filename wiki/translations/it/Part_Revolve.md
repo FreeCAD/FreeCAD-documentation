@@ -18,7 +18,7 @@ Ruota l\'oggetto selezionato e crea una rivoluzione intorno a un dato asse. Si p
 </div>
 
   Forma originale    Forma prodotta
-  ------------------ -----------------------------
+   
   Vertice            Bordo
   Bordo              Superficie
   Wire (polilinea)   Shell (guscio)
@@ -73,5 +73,7 @@ Quando si seleziona un asse definito dall\'utente, i numeri definiscono la direz
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/it

@@ -42,8 +42,5 @@ Som du kanske märkt tidigare, så är programmerare riktigt dåliga manualskriv
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
-
 ---
-[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/sv

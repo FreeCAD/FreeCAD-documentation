@@ -90,5 +90,7 @@ Das Werkzeug selbst ist in Python implementiert, siehe /Mod/Part/BOPTools/SplitF
 
 Das Werkzeug wurde in FreeCAD v0.17.8053 eingeführt. FreeCAD muss mit OCC 6.9.0 oder höher kompiliert werden, da das Werkzeug sonst nicht verfügbar ist.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part BooleanFragments/de

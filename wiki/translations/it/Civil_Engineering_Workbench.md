@@ -29,8 +29,5 @@ Gli strumenti Armatura attualmente sono parte dell\'ambiente [Architettura](Arch
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Civil Engineering Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > Civil Engineering Workbench/it

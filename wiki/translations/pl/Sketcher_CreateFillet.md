@@ -31,5 +31,7 @@ Po uruchomieniu narzędzia zaznaczenia są usuwane, a kursor myszki zmienia się
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateFillet/pl

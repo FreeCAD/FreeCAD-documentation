@@ -3,7 +3,7 @@ This category lists pages related to the [FEM Workbench/sv](FEM_Workbench/sv.md)
 
 ### Contents:
 
-  --------------------------------------------------------------------------------- --------------------------------------------------------------- ---------------------------------------------------------------
+    
   [Arch Workbench/sv](Arch_Workbench/sv.md)                                 [Draft Workbench/sv](Draft_Workbench/sv.md)             [FEM Workbench/sv](FEM_Workbench/sv.md)
   [Image Workbench/sv](Image_Workbench/sv.md)                               [Inspection Workbench/sv](Inspection_Workbench/sv.md)   [Mesh Workbench/sv](Mesh_Workbench/sv.md)
   [OpenSCAD Workbench/sv](OpenSCAD_Workbench/sv.md)                         [Part Module/sv](Part_Module/sv.md)                     [PartDesign Workbench/sv](PartDesign_Workbench/sv.md)
@@ -12,16 +12,8 @@ This category lists pages related to the [FEM Workbench/sv](FEM_Workbench/sv.md)
   [Spreadsheet Workbench/sv](Spreadsheet_Workbench/sv.md)                   [Start Workbench/sv](Start_Workbench/sv.md)             [Std Tools Menu/sv](Std_Tools_Menu/sv.md)
   [Std View Menu/sv](Std_View_Menu/sv.md)                                   [Surface Workbench/sv](Surface_Workbench/sv.md)         [TechDraw Workbench/sv](TechDraw_Workbench/sv.md)
   [Testing/sv](Testing/sv.md)                                               [Web Workbench/sv](Web_Workbench/sv.md)                 [Workbenches/sv](Workbenches/sv.md)
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-                                                                                                                                                    
-  --------------------------------------------------------------------------------- --------------------------------------------------------------- ---------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/sv](<img src="images/Property.png" style="width:16px"> Workbenches/sv.md) [<img src="images/Property.png" style="width:16px"> Draft/sv](<img src="images/Property.png" style="width:16px"> Draft/sv.md) [<img src="images/Property.png" style="width:16px"> External Workbenches/sv](<img src="images/Property.png" style="width:16px"> External_Workbenches/sv.md) [<img src="images/Property.png" style="width:16px"> FEM/sv](<img src="images/Property.png" style="width:16px"> FEM/sv.md) [<img src="images/Property.png" style="width:16px"> Image/sv](<img src="images/Property.png" style="width:16px"> Image/sv.md) [<img src="images/Property.png" style="width:16px"> Inspection/sv](<img src="images/Property.png" style="width:16px"> Inspection/sv.md) [<img src="images/Property.png" style="width:16px"> Mesh/sv](<img src="images/Property.png" style="width:16px"> Mesh/sv.md) [<img src="images/Property.png" style="width:16px"> OpenSCAD/sv](<img src="images/Property.png" style="width:16px"> OpenSCAD/sv.md) [<img src="images/Property.png" style="width:16px"> Part/sv](<img src="images/Property.png" style="width:16px"> Part/sv.md) [<img src="images/Property.png" style="width:16px"> Path/sv](<img src="images/Property.png" style="width:16px"> Path/sv.md) [<img src="images/Property.png" style="width:16px"> Plot/sv](<img src="images/Property.png" style="width:16px"> Plot/sv.md) [<img src="images/Property.png" style="width:16px"> Points/sv](<img src="images/Property.png" style="width:16px"> Points/sv.md) [<img src="images/Property.png" style="width:16px"> Raytracing/sv](<img src="images/Property.png" style="width:16px"> Raytracing/sv.md) [<img src="images/Property.png" style="width:16px"> Robot/sv](<img src="images/Property.png" style="width:16px"> Robot/sv.md) [<img src="images/Property.png" style="width:16px"> Ship/sv](<img src="images/Property.png" style="width:16px"> Ship/sv.md) [<img src="images/Property.png" style="width:16px"> Surface/sv](<img src="images/Property.png" style="width:16px"> Surface/sv.md) [<img src="images/Property.png" style="width:16px"> TechDraw/sv](<img src="images/Property.png" style="width:16px"> TechDraw/sv.md) [<img src="images/Property.png" style="width:16px"> Test Framework/sv](<img src="images/Property.png" style="width:16px"> Test_Framework/sv.md) [<img src="images/Property.png" style="width:16px"> Workbenches/sv](<img src="images/Property.png" style="width:16px"> Workbenches/sv.md)
+
 
 ---
-[documentation index](../README.md) > Category:Workbenches/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Workbenches/sv

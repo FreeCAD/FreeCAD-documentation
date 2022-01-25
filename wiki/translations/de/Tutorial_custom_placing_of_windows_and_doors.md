@@ -1,11 +1,11 @@
-# Tutorial custom placing of windows and doors/de
-{{TutorialInfo/de
-|Topic=Architektur
-|Level=fortgeschrittener Anfänger
-|Time=60 Minuten
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 oder höher
-|Files=keine
+---
+- TutorialInfo:/de
+   Topic:Architektur
+   Level:fortgeschrittener Anfänger
+   Time:60 Minuten
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 oder höher
+   Files:keine
 }}
 
 ## Einleitung
@@ -31,9 +31,9 @@ Siehe auch die folgende Seite für einige Videos über das Ausrichten von Fenste
 
 1\. Öffne FreeCAD, erstelle ein neues, leeres Dokument und wechsel zum [Architektur-Arbeitsbereich](Arch_Workbench/de.md).
 
-2\. Stelle sicher, dass Deine Einheiten im Menü **Bearbeiten → Einstellungen → Allgemein → Einheiten** korrekt eingestellt sind. Zum Beispiel ist `MKS (m/kg/s/Grad)` gut geeignet, um mit den Abständen in einem typischen Gebäude umzugehen; setze außerdem die Anzahl der Nachkommastellen auf `4`, um auch die kleinsten Teile eines Meters zu berücksichtigen.
+2\. Stelle sicher, dass Deine Einheiten im Menü **Bearbeiten → Einstellungen → Allgemein → Einheiten** korrekt eingestellt sind. Zum Beispiel ist {{incode   MKS (m/kg/s/Grad)}} gut geeignet, um mit den Abständen in einem typischen Gebäude umzugehen; setze außerdem die Anzahl der Nachkommastellen auf {{incode   4}}, um auch die kleinsten Teile eines Meters zu berücksichtigen.
 
-3\. Benutze die Schaltfläche **<img src="images/Draft_Grid.svg" width=16px> [Entwurfsraster ein-/ausschalten](Draft_ToggleGrid/de.md)**, um ein Raster mit ausreichender Auflösung einzublenden. Das Erscheinungsbild des Rasters kannst Du im Menü **Bearbeiten → Einstellungen → Draft → Raster und einrasten → Raster** ändern. Setze \"Hauptlinien alle\" auf `20`, \"Rasterabstand\" auf `50 mm` und \"Rastergröße\" auf `1000 Linien` (das Raster wird damit eine Fläche von 50m x 50m abdecken).
+3\. Benutze die Schaltfläche **![](images/)**,_um_ein_Raster_mit_ausreichender_Auflösung_einzublenden. Das Erscheinungsbild des Rasters kannst Du im Menü **Bearbeiten → Einstellungen → Draft → Raster und einrasten → Raster** ändern. Setze \"Hauptlinien alle\" auf {{incode   20}}, \"Rasterabstand\" auf {{incode   50 mm}} und \"Rastergröße\" auf {{incode   1000 Linien}} (das Raster wird damit eine Fläche von 50m x 50m abdecken).
 
 4\. [Zoome im 3D-Ansichtsfenster heraus](Std_ViewZoomOut/de.md), wenn Du zu nahe am Raster bist.
 
@@ -58,7 +58,7 @@ Jetzt sind wir bereit, um eine einfache Wand zu erstellen, in welcher wir Fenste
     **Hinweis 3:**Du kannst die Konturen auch programmatisch durch Scripting in [Python](Python/de.md) erstellen. Bedenke, dass die meisten Funktionen ihre Eingaben in Millimetern erwarten:
 
 
-```python
+{{Code   code:
 import FreeCAD
 import Draft
 
@@ -69,8 +69,11 @@ FreeCAD.Vector(6000.0, 2000.0, 0.0),
 FreeCAD.Vector(6000.0, 5000.0, 0.0)]
 
 w = Draft.makeWire(p, closed=False)
-```
+---
 
+# Tutorial custom placing of windows and doors/de
+
+ 
 6\. Wähle `DWire` im Modellbaum aus und klicke auf das [Arch:Wand](Arch_Wall/de.md)-Werkzeug; die Wände werden daraufhin mit einer voreingestellten Breite (Dicke) von 0.2 m und einer Höhe von 3 m erstellt.
 
 <img alt="" src=images/01_T02_wire_wall.png  style="width:600px;">
@@ -347,5 +350,7 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 
 }}   {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Tutorial custom placing of windows and doors/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors/de

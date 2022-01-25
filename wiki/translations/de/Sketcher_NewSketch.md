@@ -41,5 +41,7 @@ Die Fläche kann in der [3D-Ansicht](3D_view/de.md) mittels [Positionierung](Pla
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/de

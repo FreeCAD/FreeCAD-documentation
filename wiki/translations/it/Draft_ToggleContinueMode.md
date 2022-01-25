@@ -44,5 +44,7 @@ Molti strumenti per la creazione di geometrie di [Draft](Draft_Workbench/it.md) 
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/it

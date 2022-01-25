@@ -6,7 +6,7 @@
    MenuLocation:OpenSCAD → Minkowski‏‎
    Workbenches:[OpenSCAD](OpenSCAD_Workbench/ru.md)
    Shortcut:нет
-   SeeAlso:------
+   SeeAlso:
 
 
 </div>
@@ -46,5 +46,7 @@ Feature needs OpenSCAD installed and configured in **Edit** → **Preferences**
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/ru

@@ -40,5 +40,7 @@ Acest instrument vă permite să exportați sau să faceți upload de obiecte pe
 -   When you press the \"Upload button\", after the upload finished, if everything went well, the button will turn into a \"View your model online\" button, which, when clicked, will take you directly to the model page on Sketchfab.
 -   Unele formate, cum ar fi OBJ, sun interpretat diferit de Sketchfab și FreeCAD. FreeCAD consideră axa Z să fie orientată în sus, în timp ce Sketchfab consideră că aceasta indică persoana care se află în spatele ecranului. To remedy this, after the upload is finished, the exporter will use the Sketchfab API to rotate the model to its correct position. If this operation fails, you will be warned, but your model will still be correctly uploaded. Ysau îl puteți roti în interfața Sketchfab, apăsând pe săgeata dreapta axa \"X\" din tab-ul de orientare a modelului.
 
+
+
 ---
-[documentation index](../README.md) > WebTools Sketchfab/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab/ro

@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/hr
+   Topic:Sketch
+   Level:Beginner
+   Author:[Maker](User_Maker.md)
+   Time:
+   FCVersion:
+---
+
 # Sketcher requirement for a sketch/hr
-{{TutorialInfo/hr
-|Topic=Sketch
-|Level=Beginner
-|Author=[Maker](User_Maker.md)
-|Time=
-|FCVersion=
-}}
+
+
+
+
 
 ## Minimum requirement for a sketch 
 
@@ -45,5 +51,7 @@ If you accidentally create an \"overmodulation\", a warning appears in the combo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/hr

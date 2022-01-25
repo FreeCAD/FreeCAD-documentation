@@ -63,5 +63,7 @@ Il comando **Convertitore di unità** apre la finestra di dialogo per convertire
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std UnitsCalculator/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std UnitsCalculator/it

@@ -17,5 +17,7 @@ De făcut
 
 {{Part Tools navi/ro}}
 
+
+
 ---
-[documentation index](../README.md) > Ship Loading/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Ship Loading/ro

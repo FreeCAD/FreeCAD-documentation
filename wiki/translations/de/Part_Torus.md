@@ -90,5 +90,7 @@ torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/de

@@ -32,5 +32,7 @@ Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
 -   Aby użyć siatki wybierz: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Siatka → Użyj siatki**. After changing this preference you must restart FreeCAD.
 -   Dostępnych jest również kilka innych preferencji dla siatki: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Siatka**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/pl

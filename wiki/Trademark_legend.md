@@ -27,5 +27,7 @@
 
 <https://www.haiku-os.org/about/trademark_policy/>
 
+
+
 ---
-[documentation index](../README.md) > Trademark legend
+![](images/Right_arrow.png) [documentation index](../README.md) > Trademark legend

@@ -197,7 +197,7 @@ To make a macro installable from the [Addon Manager](Std_AddonMgr.md) it should 
 
 In order to include the macro there, first it must be reviewed by the FreeCAD community in the [Python scripting and macros](https://forum.freecadweb.org/viewforum.php?f=22) subforum. Once this is done, the FreeCAD-macros repository should be forked, the new macro should be included in a branch, and then the branch should be pushed and merged into the upstream repository.
 
-[<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Macros](Category_Macros.md) > Macro documentation/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Macros](Category_Macros.md) > [User Documentation](Category_User Documentation.md) > Macro documentation/en

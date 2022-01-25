@@ -108,5 +108,7 @@ Double-click the ShapeBinder label in the [tree view](Tree_view.md) or right-cli
 
  {{PartDesign Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder

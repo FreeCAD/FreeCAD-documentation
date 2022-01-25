@@ -176,5 +176,7 @@ Modyfikowanie preferencji innych części programu FreeCAD jest raczej złym pom
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgParameter/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgParameter/pl

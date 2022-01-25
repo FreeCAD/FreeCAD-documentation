@@ -3,7 +3,7 @@ This category list pages related to the [Std Base](Std_Base/es.md), which collec
 
 ### Contents:
 
-  ----------------------------------------------------------------- ------------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [App Link/es](App_Link/es.md)                             [Combo view/es](Combo_view/es.md)                           [Interface Customization/es](Interface_Customization/es.md)
   [Property editor/es](Property_editor/es.md)               [Python console/es](Python_console/es.md)                   [Report view/es](Report_view/es.md)
   [Standard Menu/es](Standard_Menu/es.md)                   [Std AddonMgr/es](Std_AddonMgr/es.md)                       [Std Base/es](Std_Base/es.md)
@@ -14,10 +14,9 @@ This category list pages related to the [Std Base](Std_Base/es.md), which collec
   [Std PerspectiveCamera/es](Std_PerspectiveCamera/es.md)   [Std ProjectUtil/es](Std_ProjectUtil/es.md)                 [Std Save/es](Std_Save/es.md)
   [Std SaveAs/es](Std_SaveAs/es.md)                         [Std SceneInspector/es](Std_SceneInspector/es.md)           [Std ToggleClipPlane/es](Std_ToggleClipPlane/es.md)
   [Std Tools Menu/es](Std_Tools_Menu/es.md)                 [Std View Menu/es](Std_View_Menu/es.md)                     [Std ViewScreenShot/es](Std_ViewScreenShot/es.md)
-  [Std Workbench/es](Std_Workbench/es.md)                   [Tree view/es](Tree_view/es.md)                             
-  ----------------------------------------------------------------- ------------------------------------------------------------------- ---------------------------------------------------------------------
+  [Std Workbench/es](Std_Workbench/es.md)                   [Tree view/es](Tree_view/es.md)
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/es](<img src="images/Property.png" style="width:16px"> User_Documentation/es.md)
+
 
 ---
-[documentation index](../README.md) > Category:Std Base/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Std Base/es

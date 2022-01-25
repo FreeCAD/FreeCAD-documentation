@@ -18,10 +18,10 @@ Extrahiert einen Abschnitt aus der Überschneidung zweier ausgewählter Formen, 
 
 In diesem Beispiel wird ein Würfel mit einem Zylinder zerschnitten:
 
-+------------------------------------------------+---------------------------------------------------+
++++
 | ![](images/PartSection1_it.png ) | -   **Basis**: Basisobjekt, der Quader            |
 |                                                | -   **Werkzeug**: Abschnittwerkzeug, der Zylinder |
-+------------------------------------------------+---------------------------------------------------+
++++
 
 
 
@@ -51,5 +51,7 @@ Zum Erzeugen von Abschnitten mit einer Schnittebene siehe <img alt="" src=images
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/de

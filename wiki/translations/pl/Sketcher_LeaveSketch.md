@@ -29,5 +29,7 @@ Polecenie opuszczenia szkicu kończy tryb edycji szkicu i zamyka zakładkę [pan
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/pl

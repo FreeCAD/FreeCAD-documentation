@@ -292,5 +292,7 @@ hilbert_dialog = Hilbert_Dialog()
 hilbert_dialog.exec()
 }}
 
+
+
 ---
-[documentation index](../README.md) > Sandbox:Simone.b
+![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:Simone.b

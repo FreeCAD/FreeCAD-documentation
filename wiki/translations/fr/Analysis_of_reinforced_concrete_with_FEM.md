@@ -1,11 +1,12 @@
 # Analysis of reinforced concrete with FEM/fr
-{{TutorialInfo/fr
-|Topic=Béton armé avec FEM
-|Level=Intermédiaire
-|Time=60 minutes
-|Author=[HarryvL](User_HarryvL.md), [https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=18062 HarryvL]
-|FCVersion=0.19 ou suivantes
-|Files=
+---
+- TutorialInfo:/fr
+   Topic:Béton armé avec FEM
+   Level:Intermédiaire
+   Time:60 minutes
+   Author:[[User:HarryvL   HarryvL]], [https://forum.freecadweb.org/memberlist.php?mode:viewprofile&u=18062 HarryvL]
+   FCVersion:0.19 ou suivantes
+   Files:
 }}
 
 ## Contexte
@@ -181,9 +182,10 @@ Le modèle de contrainte de traction suggère un concept alternatif utilisant de
 -   [FEM et béton](FEM_Concrete/fr.md)
 
 
-{{Tutorials navi
+ {{FEM Tools navi}} {{Userdocnavi
+---
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Analysis of reinforced concrete with FEM/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > Analysis of reinforced concrete with FEM/fr

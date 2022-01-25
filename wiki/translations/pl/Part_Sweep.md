@@ -86,5 +86,7 @@ Opcja **Przejście** ustawia styl przejścia Przeciągania w miejscu połączeni
 
 -   Ponieważ funkcja ta jest często używana do tworzenia gwintów dla śrub, powinieneś zobaczyć stronę [Przewodnik: Tworzenie gwintów](Thread_for_Screw_Tutorial/pl.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sweep/pl

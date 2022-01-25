@@ -1,5 +1,7 @@
 # License
 1.  REDIRECT [Licence](Licence.md)
 
+
+
 ---
-[documentation index](../README.md) > License
+![](images/Right_arrow.png) [documentation index](../README.md) > License

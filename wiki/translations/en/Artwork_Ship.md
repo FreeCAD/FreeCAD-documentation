@@ -12,9 +12,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Ship](Category_Ship.md)
+
 
 ---
-[documentation index](../README.md) > [Ship](Category_Ship.md) > Artwork Ship/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Artwork Ship/en

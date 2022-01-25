@@ -1,11 +1,16 @@
+---
+- TutorialInfo:   Topic:Template generation with Python macro
+   Level:Basic skills of Python and svg-structures are helpful
+   FCVersion:0.19.1 and later
+   Time:(I don't know yet)
+   Author:[FBXL5](User_FBXL5.md)
+---
+
 # TechDraw TemplateGenerator/en
-{{TutorialInfo
-|Topic=Template generation with Python macro
-|Level=Basic skills of Python and svg-structures are helpful
-|FCVersion=0.19.1 and later
-|Time=(I don't know yet)
-|Author=[FBXL5](User_FBXL5.md)
-}}
+
+
+
+
 
 ## Introduction
 
@@ -520,5 +525,7 @@ And what it should look like when inserted (plus magnified title block):
 
 ![TechDraw TemplateGenerator.png](images/TechDraw_TemplateGenerator.png )
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/en

@@ -30,5 +30,7 @@ Différents types d\'éléments géométriques peuvent être mélangés.
 2.  Sélectionnez un élément de chaque objet.
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Alignement axial](Assembly3_ConstraintAxial/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintAxial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAxial/fr

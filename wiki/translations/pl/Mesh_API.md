@@ -234,9 +234,6 @@ d.recompute()
 {{APIProperty|Placement|Aktualne przekształcenie obiektu jako umieszczenie}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > [Mesh](Mesh_Workbench.md) > Mesh API/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh API/pl

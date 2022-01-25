@@ -7,7 +7,5 @@ Pozostaje do wykonania\...
 
 
 
-[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Developer](Category_Developer.md) > InputField/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > InputField/pl

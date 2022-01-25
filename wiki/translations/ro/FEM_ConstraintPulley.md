@@ -25,5 +25,7 @@ Nu este suportată de către CalculiX Interface!
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ConstraintPulley/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintPulley/ro

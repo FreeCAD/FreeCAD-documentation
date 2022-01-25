@@ -58,5 +58,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 -   The default **Constrain mod** key, **Shift**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod**.
 -   The **X**, **Y** and **Z** shortcuts can be changed: **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Constrain/zh-cn

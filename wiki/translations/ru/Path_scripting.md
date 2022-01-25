@@ -59,7 +59,7 @@ The following rules and guidelines define the GCode subset used internally in Fr
 ### Актуальный перечень поддерживаемых GCode комманд 
 
   Command         Description                                     Supported Arguments   Displayed
-  --------------- ----------------------------------------------- --------------------- -----------
+     
   G0              rapid move                                      X,Y,Z,A,B,C           Red
   G1              normal move                                     X,Y,Z,A,B,C           Green
   G2              clockwise arc                                   X,Y,Z,A,B,C,I,J,K     Green
@@ -438,9 +438,9 @@ doc.recompute()
 
 {{Path_Tools_navi
 
-}} {{Powerdocnavi}}
+}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Path](Path_Workbench.md) > Path scripting/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Path](Path_Workbench.md) > Path scripting/ru

@@ -80,7 +80,13 @@ Se avete sviluppato un workbench o una macro e volete vederlo incluso in Addon m
 
 ### Ambienti di lavoro in Python 
 
+
+<div class="mw-translate-fuzzy">
+
 Per i workbench Python, non è necessaria alcuna approvazione specifica per aggiungerlo a Addon manager e, essendo al di fuori del codice sorgente di FreeCAD, è possibile scegliere la licenza desiderata. Se si richiede che il proprio workbench sia aggiunto alla lista (senza la richiesta dei suoi autori non viene aggiunto nessun nuovo workbench), sia chiedendolo sul forum o aprendo una istanza nel repository [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/), il codice continua a rimanere sul repository git dell\'autore, e viene semplicemente aggiunto come sottomodulo al repository [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/). Ovviamente, prima di aggiungere un nuovo workbench, viene data un\'occhiata al codice per verificare che non contenga nulla di potenzialmente problematico.
+
+
+</div>
 
 ### Workbench in C++ 
 
@@ -100,5 +106,7 @@ Se si sviluppa un workbench in C++, esso non può essere eseguito direttamente d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std AddonMgr/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std AddonMgr/it

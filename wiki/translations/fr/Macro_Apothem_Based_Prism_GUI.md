@@ -128,5 +128,7 @@ Le fichier icône SVG pour utiliser dans votre barre d\'outils.
 
 Remerciement à [shoogen](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=765) développeur et à [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375) pour leur aide précieuse et les conseils dans la mise au point de cette macro.
 
+
+
 ---
-[documentation index](../README.md) > Macro Apothem Based Prism GUI/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Apothem Based Prism GUI/fr

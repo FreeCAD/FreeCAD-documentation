@@ -157,5 +157,7 @@ Les objets maillés créés avec cette commande héritent de toutes les proprié
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BuildRegularSolid/fr

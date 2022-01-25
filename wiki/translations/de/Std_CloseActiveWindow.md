@@ -54,5 +54,7 @@ Um ein Dokument zu schließen, benutze die `closeDocument`-Methode der FreeCAD-A
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std CloseActiveWindow/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std CloseActiveWindow/de

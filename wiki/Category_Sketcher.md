@@ -3,7 +3,7 @@ This category lists pages related to the [Sketcher Workbench](Sketcher_Workbench
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+    
   [Arch panel tutorial](Arch_panel_tutorial.md)                                                             [Artwork Sketcher](Artwork_Sketcher.md)                                               [Basic Attachment Tutorial](Basic_Attachment_Tutorial.md)
   [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)                                               [Basic Sketcher Tutorial](Basic_Sketcher_Tutorial.md)                                 [Basic Sketcher Tutorial/ro](Basic_Sketcher_Tutorial/ro.md)
   [Constraint](Constraint.md)                                                                               [Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)   [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)
@@ -47,10 +47,9 @@ This category lists pages related to the [Sketcher Workbench](Sketcher_Workbench
   [Template:Sketcher Tools navi](Template_Sketcher_Tools_navi.md)                                           [Sketcher Trimming](Sketcher_Trimming.md)                                             [Sketcher Tutorial](Sketcher_Tutorial.md)
   [Sketcher ValidateSketch](Sketcher_ValidateSketch.md)                                                     [Sketcher ViewSection](Sketcher_ViewSection.md)                                       [Sketcher ViewSketch](Sketcher_ViewSketch.md)
   [Sketcher Workbench](Sketcher_Workbench.md)                                                               [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md)                             [Toothbrush Head Stand](Toothbrush_Head_Stand.md)
-  [Tutorial custom placing of windows and doors](Tutorial_custom_placing_of_windows_and_doors.md)                                                                                                         
-  ----------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+  [Tutorial custom placing of windows and doors](Tutorial_custom_placing_of_windows_and_doors.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > Category:Sketcher
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sketcher

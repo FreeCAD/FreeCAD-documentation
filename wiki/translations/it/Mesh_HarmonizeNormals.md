@@ -43,5 +43,7 @@ Il comando **Armonizza le normali** armonizza le normali degli oggetti mesh.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh HarmonizeNormals/it

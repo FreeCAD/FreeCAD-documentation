@@ -1,6 +1,6 @@
 # <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/es
 
-------------------------------------------------------------------------
+
 
 
 
@@ -30,11 +30,22 @@ Si quieres saber cómo empezó FreeCAD hace años visita la página [History](Hi
 -   [PMF](Frequently_asked_questions/es.md): Preguntas más frecuentes
 -   [Tutoriales](Tutorials/es.md) que cubren diferentes partes de FreeCAD
 
+#### Migrating from other software? 
+
+
+<div class="mw-translate-fuzzy">
+
 Ver también:
 
 -   [Migrar a FreeCAD desde Fusion360](Migrating_to_FreeCAD_from_Fusion360/es.md)
 
+
+</div>
+
 ### Aplicación basica 
+
+
+<div class="mw-translate-fuzzy">
 
 -   [Interfaz](Interface/es.md): la interfaz de FreeCAD se compone de varios elementos gráficos en la pantalla, incluyendo la [vista 3D](3D_view/es.md), la [vista de árbol](Tree_view/es.md), el [editor de propiedades](Property_editor/es.md), el [panel de tareas](Task_panel/es.md), y la [consola Python](Python_console/es.md).
 -   [Navegación con ratón](Mouse_navigation/es.md): los diferentes tipos de uso del ratón o trackpad para navegar en la vista 3D.
@@ -43,11 +54,20 @@ Ver también:
 -   [Editor de Preferencias](Preferences_Editor/es.md): el sistema que permite controlar muchas propiedades del sistema base y de los ambientes de trabajo individuales.
 -   [Formatos de archivo](Import_Export/es.md): los diferentes formatos de archivo que FreeCAD puede leer y escribir.
 
+
+</div>
+
 ### Ambientes de trabajo 
 
 [Ambientes de trabajo](Workbenches/es.md) son colecciones de herramientas utilizadas para tareas específicas. Estos son los ambientes de trabajo base que se incluyen en cada instalación de FreeCAD:
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Base](Std_Base/es.md). No se trata realmente de un ambiente de trabajo, sino de una categoría de comandos y herramientas \"estándar\" que pueden utilizarse en todos los ambientes de trabajo.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> El [Ambiente de trabajo Arquitectura](Arch_Workbench/es.md) para trabajar con elementos arquitectónicos.
 
@@ -125,8 +145,5 @@ Esta es la ayuda en línea oficial de FreeCAD. Por favor ten en cuenta que el si
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/es

@@ -29,5 +29,7 @@ This tool inserts a Stop command (M1). This command will Pause a running program
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/pt-br

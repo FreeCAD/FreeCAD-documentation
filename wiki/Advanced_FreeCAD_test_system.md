@@ -39,9 +39,9 @@ Future contributions can include new comparators, e.g. for meshes. Also creating
 
 Medium
 
-### Additional Information 
+### Additional Information
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > Advanced FreeCAD test system
+![](images/Right_arrow.png) [documentation index](../README.md) > Advanced FreeCAD test system

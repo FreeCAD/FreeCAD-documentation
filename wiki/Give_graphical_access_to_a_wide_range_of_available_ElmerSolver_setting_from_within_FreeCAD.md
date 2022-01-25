@@ -43,9 +43,9 @@ Since the integration of external solvers is a huge area in constant evolution, 
 
 Hard
 
-### Additional Information 
+### Additional Information
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > Give graphical access to a wide range of available ElmerSolver setting from within FreeCAD
+![](images/Right_arrow.png) [documentation index](../README.md) > Give graphical access to a wide range of available ElmerSolver setting from within FreeCAD

@@ -3,7 +3,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [Code snippets/cs](Code_snippets/cs.md)                         [Debugging/cs](Debugging/cs.md)                                       [Dialog creation/cs](Dialog_creation/cs.md)
   [Draft API/cs](Draft_API/cs.md)                                 [Embedding FreeCAD/cs](Embedding_FreeCAD/cs.md)                       [Embedding FreeCADGui/cs](Embedding_FreeCADGui/cs.md)
   [FreeCAD Scripting Basics/cs](FreeCAD_Scripting_Basics/cs.md)   [FreeCAD vector math library/cs](FreeCAD_vector_math_library/cs.md)   [Gui Command/cs](Gui_Command/cs.md)
@@ -13,10 +13,9 @@ This category shows documentation articles dealing with python scripting, which 
   [Property/cs](Property/cs.md)                                   [PySide/cs](PySide/cs.md)                                             [Python scripting tutorial/cs](Python_scripting_tutorial/cs.md)
   [PythonOCC/cs](PythonOCC/cs.md)                                 [Quantity/cs](Quantity/cs.md)                                         [Scenegraph/cs](Scenegraph/cs.md)
   [Scripted objects/cs](Scripted_objects/cs.md)                   [Scripting and macros/cs](Scripting_and_macros/cs.md)                 [Topological data scripting/cs](Topological_data_scripting/cs.md)
-  [Units/cs](Units/cs.md)                                                                                                                       
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------------- ---------------------------------------------------------------------------
+  [Units/cs](Units/cs.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/cs](<img src="images/Property.png" style="width:16px"> Documentation/cs.md)
+
 
 ---
-[documentation index](../README.md) > Category:Poweruser Documentation/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Poweruser Documentation/cs

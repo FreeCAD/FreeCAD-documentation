@@ -31,5 +31,7 @@ Une primitive géométrique Cercle est disponible dans la boîte de dialogue Cr�
 
 -    {{Parameter|Angle 1}}: Fin de la courbe, (en degrés anti-horaire), la valeur par défaut est de 360°.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/fr

@@ -1,5 +1,7 @@
 # Install on Linux/pt
 1.  REDIRECT [Installing\_on\_Linux/pt](Installing_on_Linux/pt.md)
 
+
+
 ---
-[documentation index](../README.md) > Install on Linux/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Install on Linux/pt

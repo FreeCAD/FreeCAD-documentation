@@ -3,7 +3,7 @@ Pages pertinentes pour l\'[atelier Curves](Curves_Workbench/fr.md) qui fait part
 
 ### Contents:
 
-  --------------------------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [Curves CompressionSpring/fr](Curves_CompressionSpring/fr.md)       [Curves Discretize/fr](Curves_Discretize/fr.md)           [Curves EditableSpline/fr](Curves_EditableSpline/fr.md)
   [Curves ExtendCurve/fr](Curves_ExtendCurve/fr.md)                   [Curves GordonSurface/fr](Curves_GordonSurface/fr.md)     [Curves Interpolate/fr](Curves_Interpolate/fr.md)
   [Curves IsoCurve/fr](Curves_IsoCurve/fr.md)                         [Curves JoinCurve/fr](Curves_JoinCurve/fr.md)             [Curves Line/fr](Curves_Line/fr.md)
@@ -12,8 +12,8 @@ Pages pertinentes pour l\'[atelier Curves](Curves_Workbench/fr.md) qui fait part
   [Curves ProfileSupport/fr](Curves_ProfileSupport/fr.md)             [Curves ReflectLines/fr](Curves_ReflectLines/fr.md)       [Curves SegmentSurface/fr](Curves_SegmentSurface/fr.md)
   [Curves SketchOnSurface/fr](Curves_SketchOnSurface/fr.md)           [Curves SplitCurve/fr](Curves_SplitCurve/fr.md)           [Curves ToConsole/fr](Curves_ToConsole/fr.md)
   [Template:Curves Tools navi/fr](Template:Curves_Tools_navi/fr.md)   [Curves Workbench/fr](Curves_Workbench/fr.md)             [Curves ZebraTool/fr](Curves_ZebraTool/fr.md)
-                                                                                                                                                
-  --------------------------------------------------------------------------- ----------------------------------------------------------------- ---------------------------------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:Curves/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Curves/fr

@@ -328,5 +328,7 @@ Formati dei file
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > ManualArch/it
+![](images/Right_arrow.png) [documentation index](../README.md) > ManualArch/it

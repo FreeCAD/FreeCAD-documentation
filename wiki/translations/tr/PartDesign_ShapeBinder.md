@@ -166,5 +166,7 @@ Birden fazla seçim için bir geçici çözüm vardır: Şekil bağlayıcı\'yı
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign ShapeBinder/tr

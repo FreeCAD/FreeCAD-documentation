@@ -1,6 +1,6 @@
 # <img alt="" src=images/Power_user_hub.png  style="width:64px;"> Power users hub/it
 
-------------------------------------------------------------------------
+
 
 
 
@@ -128,7 +128,7 @@ Le funzionalità di FreeCAD sono suddivise in moduli che trattano tipi specifici
 
 ## Funzioni API 
 
-La documentazione completa di FreeCAD si trova in <http://www.freecadweb.org/api/> . Essa contiene le API C++ e Python, e non è ancora del tutto formattata, il che può essere fonte di confusione quando si cerca solo il codice Python. Una versione delle API più facile da esplorare si trova [in questa pagina in inglese](:Category_API.md) e [in questa in italiano](:<img src="images/Property.png" style="width:16px"> API/it.md). Ricordare che può essere incompleta in quanto viene aggiornata manualmente. Per informazioni più accurate, esplorare i moduli direttamente dalla console di FreeCAD.
+La documentazione completa di FreeCAD si trova in <http://www.freecadweb.org/api/> . Essa contiene le API C++ e Python, e non è ancora del tutto formattata, il che può essere fonte di confusione quando si cerca solo il codice Python. Una versione delle API più facile da esplorare si trova [in questa pagina in inglese](:Category_API.md) e [in questa in italiano](:Category:API/it.md). Ricordare che può essere incompleta in quanto viene aggiornata manualmente. Per informazioni più accurate, esplorare i moduli direttamente dalla console di FreeCAD.
 
 Relazionato: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
@@ -190,11 +190,6 @@ Nel [Portale della comunità](FreeCAD_Community_Portal/it.md), è possibile trov
 -   [Letteratura scientifica](Scientific_literature/it.md): articoli che fanno riferimento o utilizzano il sistema FreeCAD in vari modi.
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
-[documentation index](../README.md) > [API|in questa pagina in inglese]] e ](Category_API|in questa pagina in inglese]] e .md) > Power users hub/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [API|in questa pagina in inglese]] e ](Category_API|in questa pagina in inglese]] e .md) > [Hubs](Category_Hubs.md) > Power users hub/it

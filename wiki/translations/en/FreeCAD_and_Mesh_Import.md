@@ -41,7 +41,7 @@ Well, your shell seems to have errors, maybe it is not closed (has holes). Since
 
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
+
 
 ---
-[documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > FreeCAD and Mesh Import/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and Mesh Import/en

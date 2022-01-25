@@ -162,7 +162,7 @@ I na kraju, jedna od najmoćnijih značajki FreeCAD-a je [skriptiranje](scriptin
 
 {{Userdocnavi/hr}}
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/hr](<img src="images/Property.png" style="width:16px"> User_Documentation/hr.md)
+
 
 ---
-[documentation index](../README.md) > Getting started/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/hr

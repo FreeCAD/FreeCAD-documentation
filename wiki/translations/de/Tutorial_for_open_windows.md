@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic:Architektur
+   Level:Anfänger
+   Time:60 Minuten
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 or höher
+   Files:none
+---
+
 # Tutorial for open windows/de
-{{TutorialInfo/de
-|Topic=Architektur
-|Level=Anfänger
-|Time=60 Minuten
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 or höher
-|Files=none
-}}
+
+
+
+
 
 ## Einleitung
 
@@ -244,9 +250,9 @@ Der [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) hat nur minimale Kontrol
 Für zukünftige FreeCAD-Versionen ist eine engere Interaktion zwischen beiden Arbeitsbereichen geplant. Für diese Versionen wird erwartet, dass seit langem bestehende Probleme gelöst werden, wie zum Beispiel die Charakteristika von Linien und Flächen (Linienbreite, Linienfarbe, Flächenfarbe, Schraffuren u.a.).
 
 
-{{Tutorials navi
+   {{TechDraw Tools navi}}
 
-}}   {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Tutorial for open windows/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [TechDraw](Category_TechDraw.md) > Tutorial for open windows/de

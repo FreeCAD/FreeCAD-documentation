@@ -12,9 +12,9 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Path](Category_Path.md)
+
 
 ---
-[documentation index](../README.md) > [Path](Category_Path.md) > Artwork Path/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Category_Path.md) > Artwork Path/pl

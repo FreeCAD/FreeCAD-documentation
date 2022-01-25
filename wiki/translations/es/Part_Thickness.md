@@ -93,5 +93,7 @@ En este objeto se han seleccionado y eliminado dos caras adyacentes.
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/es

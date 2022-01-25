@@ -22,5 +22,7 @@ Polecenie **Std: Rozmieszczenie ikon** nie działa poprawnie. Ma ono taki sam ef
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ArrangeIcons/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ArrangeIcons/pl

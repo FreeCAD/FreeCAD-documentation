@@ -32,5 +32,7 @@ Dieses Werkzeug akzeptiert auch 3D-Elemente wie z.B. Kanten oder Mittellinien.
 -   2D/3D or 3D/2D: Anstatt der Z-Achse des 3D-Elements wird die Projektion dieser Achse auf die Arbeitsebene der 2D-Linie genutzt, um die Linien zu Positionieren.
 -   Beide 3D: Die Linie werden zueinander positioniert, aber ich kann nicht erkennen, wie\...
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintColinear/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintColinear/de

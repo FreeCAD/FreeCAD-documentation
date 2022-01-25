@@ -39,7 +39,7 @@ Instrumentul Canelură/ **Groove**, învârte o schiță sau un profil selectat 
 
 Atunci când este crată o canelură, dialogul privind **Groove parameters** oferă câteva variante de parametrii care specifică cum schița profilului canelurii poate fi rotită.
 
-+--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/partdesign_groove_parameters.png ) | ### Axe                                                                                                                                                                                                                                                                                                                                                  |
 |                                                                          |                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                          |                                                                                                                                                                                                                                                                                                                                                |
@@ -68,7 +68,7 @@ Atunci când este crată o canelură, dialogul privind **Groove parameters** ofe
 |                                                                          | ### Reversed                                                                                                                                                                                                                                                                                                                                             |
 |                                                                          |                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                          | If checked, the direction of revolution is reversed from default clockwise to counterclockwise .                                                                                                                                                                                                                                                         |
-+--------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ### Proprietăți
 
@@ -100,5 +100,7 @@ Dacă este setat la true, curăță solidul de margini reziduale lăsate de func
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/ro

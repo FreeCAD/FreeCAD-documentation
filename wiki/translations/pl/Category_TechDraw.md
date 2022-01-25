@@ -3,7 +3,7 @@ This category lists pages related to the [TechDraw Workbench/pl](TechDraw_Workbe
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+    
   [Advanced TechDraw Tutorial/pl](Advanced_TechDraw_Tutorial/pl.md)                   [Artwork TechDraw/pl](Artwork_TechDraw/pl.md)                                       [Basic TechDraw Tutorial/pl](Basic_TechDraw_Tutorial/pl.md)
   [Bitmap/pl](Bitmap/pl.md)                                                           [Drawing/pl](Drawing/pl.md)                                                         [DXF/pl](DXF/pl.md)
   [Measurement Of Angles On Holes/pl](Measurement_Of_Angles_On_Holes/pl.md)           [SVG/pl](SVG/pl.md)                                                                 [TechDraw 2LineCenterLine/pl](TechDraw_2LineCenterLine/pl.md)
@@ -29,10 +29,9 @@ This category lists pages related to the [TechDraw Workbench/pl](TechDraw_Workbe
   [Template:TechDraw Tools navi/pl](Template:TechDraw_Tools_navi/pl.md)               [TechDraw VerticalDimension/pl](TechDraw_VerticalDimension/pl.md)                   [TechDraw VerticalExtentDimension/pl](TechDraw_VerticalExtentDimension/pl.md)
   [TechDraw View/pl](TechDraw_View/pl.md)                                             [TechDraw WeldSymbol/pl](TechDraw_WeldSymbol/pl.md)                                 [TechDraw Workbench/pl](TechDraw_Workbench/pl.md)
   [TechDrawGui API/pl](TechDrawGui_API/pl.md)                                         [Tolerancing/pl](Tolerancing/pl.md)                                                 [Topological naming problem/pl](Topological_naming_problem/pl.md)
-  [Tutorial for open windows/pl](Tutorial_for_open_windows/pl.md)                                                                                                                 
-  ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+  [Tutorial for open windows/pl](Tutorial_for_open_windows/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/pl](<img src="images/Property.png" style="width:16px"> Workbenches/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:TechDraw/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:TechDraw/pl

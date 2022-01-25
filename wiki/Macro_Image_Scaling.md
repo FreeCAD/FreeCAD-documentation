@@ -179,5 +179,7 @@ ui.setupUi(d)
 -   [Download zip](http://forum.freecadweb.org/download/file.php?id=19542)
 -   [Movie created by microelly2](https://youtu.be/2iFE40uHrA8)
 
+
+
 ---
-[documentation index](../README.md) > Macro Image Scaling
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Image Scaling

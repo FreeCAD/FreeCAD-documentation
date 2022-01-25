@@ -14,5 +14,7 @@
 
 Die <img alt="" src=images/Draft_PathLinkArray.svg  style="width:24px;"> **Entwurf verknüpfte Pfadanordnung**-Anweisung erzeugt eine [Verknüpfungsanordnung](App_Link/de.md) aus einem gewählten Objekt, indem Kopien entlang eines Pfades angeordnet werden. Mit der [Entwurf Pfadanordnungsanweisung](Draft_PathArray/de.md) wird, anstatt dessen, eine weniger effiziente, rechteckige Anordnung erstellt. Diese Anweisung ist identisch zur [Entwurf Pfadanordnungsanweisung](Draft_PathArray/de.md), außer für den Typ der Anordnung, die erzeugt wurde [Verknüpfungsanordnung](App_Link/de.md) or rechteckige Anordnung, siehe dort für mehr Informationen.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft PathLinkArray/de

@@ -123,5 +123,7 @@ Included Postprocessors are saved in the **FreeCAD.Mod.Path.Pathscripts.Post** b
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Post/ru

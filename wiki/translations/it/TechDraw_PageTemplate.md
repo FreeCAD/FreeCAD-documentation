@@ -110,5 +110,7 @@ Per modificare a livello di programmazione i campi di testo editabili in un mode
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/it

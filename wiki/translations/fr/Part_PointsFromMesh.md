@@ -32,5 +32,7 @@ Il n\'y aura pas d\'analyse ou de validation de l\'objet maillé. L\'analyse et 
 
 ## Script
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part PointsFromMesh/fr

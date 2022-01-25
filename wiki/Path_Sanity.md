@@ -80,5 +80,7 @@ Asciidoctor is a fast open-source text processor for converting asciidoc into HT
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Sanity

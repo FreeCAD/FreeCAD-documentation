@@ -28,5 +28,7 @@ See [Points Convert](Points_Convert.md).
 
  {{Points Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Structure

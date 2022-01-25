@@ -36,5 +36,7 @@ This command allows you to place a clipping rectangle on a [Drawing page](Drawin
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Clip/sv

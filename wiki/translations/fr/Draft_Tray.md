@@ -18,5 +18,7 @@ La **Draft Barre** permet de sélectionner le plan de travail, de définir les p
 
 -   ![](images/Draft_tray_button_layer.png ) [Groupement automatique](Draft_AutoGroup/fr.md) : change le [Draft Calque](Draft_Layer/fr.md) actif ou, accessoirement, le [Std Groupe](Std_Group/fr.md) actif ou un objet de type groupe [Arch](Arch_Workbench/fr.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Tray/fr

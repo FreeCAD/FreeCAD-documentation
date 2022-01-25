@@ -62,7 +62,7 @@ Un uso comune della primitiva elica è per [creare delle filettature](Thread_for
 
 Dopo aver creato l\'elica, è possibile modificare i suoi parametri.
 
-+----------------------------------------------------------+-----------------------------------------------------------------------------------+
++++
 | ![](images/PartHelixProperty_en.png ) | I parametri in questo menu sono simili a quelli descritti sopra.                  |
 |                                                          | **Base**                                                        |
 |                                                          | \* {{Parameter|Placement:}} consente di spostare o ruotare l\'elica |
@@ -70,7 +70,9 @@ Dopo aver creato l\'elica, è possibile modificare i suoi parametri.
 |                                                          | -                                                                  |
 |                                                          |     {{Parameter|Angle:}}                                                          |
 |                                                          |                                                                                |
-+----------------------------------------------------------+-----------------------------------------------------------------------------------+
++++
+
+
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/it

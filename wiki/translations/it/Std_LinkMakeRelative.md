@@ -66,5 +66,7 @@ App.ActiveDocument.recompute()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkMakeRelative/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkMakeRelative/it

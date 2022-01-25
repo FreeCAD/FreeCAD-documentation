@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Atelier Plot
+   Level:Intermediaire
+   Time:
+   Author:
+   FCVersion:0.19
+   Files:
+---
+
 # Plot MultiAxes tutorial/fr
-{{TutorialInfo/fr
-|Topic=Atelier Plot
-|Level=Intermediaire
-|Time=
-|Author=
-|FCVersion=0.19
-|Files=
-}}
+
+
+
+
 
 Veuillez effectuer le [tutoriel de base](Plot_Basic_tutorial/fr.md) avant de commencer avec ce tutoriel. Dans ce didacticiel, nous allons apprendre à créer et à modifier un tracé multiaxes. Vous pouvez en savoir plus sur l\'[Atelier Plot ici](Plot_Workbench/fr.md).
 
@@ -126,9 +132,9 @@ Vous pouvez maintenant enregistrer votre travail. Voir le [tutoriel précédent]
 
 {{Tutorials_navi
 
-}} {{Plot_Tools_navi}} 
+}} {{Plot_Tools_navi}}
 
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot MultiAxes tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot MultiAxes tutorial/fr

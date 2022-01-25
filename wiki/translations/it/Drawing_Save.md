@@ -28,5 +28,7 @@ I file SVG sono comuni e possono essere visualizzati nei browser più moderni e 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Save/it

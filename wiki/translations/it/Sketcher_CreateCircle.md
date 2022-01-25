@@ -32,5 +32,7 @@ Quando lo strumento è attivo, il puntatore del mouse assume la forma di croce b
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateCircle/it

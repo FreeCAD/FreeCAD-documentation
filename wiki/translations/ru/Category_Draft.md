@@ -3,7 +3,7 @@ This category list pages related to the \"User\_Documentation/ru\" and \"Workben
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- -------------------------------------------------------------------------------
+    
   [Arch panel tutorial/ru](Arch_panel_tutorial/ru.md)                                                     [Artwork Draft/ru](Artwork_Draft/ru.md)                                     [Draft AddConstruction/ru](Draft_AddConstruction/ru.md)
   [Draft AddToGroup/ru](Draft_AddToGroup/ru.md)                                                           [Draft AnnotationStyleEditor/ru](Draft_AnnotationStyleEditor/ru.md)         [Draft API/ru](Draft_API/ru.md)
   [Draft ApplyStyle/ru](Draft_ApplyStyle/ru.md)                                                           [Draft Arc 3Points/ru](Draft_Arc_3Points/ru.md)                             [Draft Arc/ru](Draft_Arc/ru.md)
@@ -35,10 +35,9 @@ This category list pages related to the \"User\_Documentation/ru\" and \"Workben
   [Draft Upgrade/ru](Draft_Upgrade/ru.md)                                                                 [Draft Wire/ru](Draft_Wire/ru.md)                                           [Draft WireToBSpline/ru](Draft_WireToBSpline/ru.md)
   [Draft Workbench/ru](Draft_Workbench/ru.md)                                                             [Draft WorkingPlaneProxy/ru](Draft_WorkingPlaneProxy/ru.md)                 [DXF/ru](DXF/ru.md)
   [FreeCAD and DWG Import/ru](FreeCAD_and_DWG_Import/ru.md)                                               [Manual:Traditional 2D drafting/ru](Manual:Traditional_2D_drafting/ru.md)   [SVG/ru](SVG/ru.md)
-  [Tutorial custom placing of windows and doors/ru](Tutorial_custom_placing_of_windows_and_doors/ru.md)   [Tutorial for open windows/ru](Tutorial_for_open_windows/ru.md)             
-  --------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- -------------------------------------------------------------------------------
+  [Tutorial custom placing of windows and doors/ru](Tutorial_custom_placing_of_windows_and_doors/ru.md)   [Tutorial for open windows/ru](Tutorial_for_open_windows/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/ru](<img src="images/Property.png" style="width:16px"> User_Documentation/ru.md) [<img src="images/Property.png" style="width:16px"> Workbenches/ru](<img src="images/Property.png" style="width:16px"> Workbenches/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Draft/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/ru

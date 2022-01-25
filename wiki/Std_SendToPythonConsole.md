@@ -39,5 +39,7 @@ The **Std SendToPythonConsole** command creates a variable in the [Python consol
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std SendToPythonConsole
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SendToPythonConsole

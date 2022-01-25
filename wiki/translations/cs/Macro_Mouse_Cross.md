@@ -212,5 +212,7 @@ Kurzor může být nahrazen jiným posuvníkem (např. rozšíření okna, rohu,
 Mřížka je permanentní.
 Zbytek rezidentního makra.
 
+
+
 ---
-[documentation index](../README.md) > Macro Mouse Cross/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Mouse Cross/cs

@@ -60,7 +60,7 @@ Políčka **Základní bod** mohou být použity pro posunutí roviny zrcadlení
 </div>
 
   Standardní rovina   Základní políčko   Vliv
-  ------------------- ------------------ --------------------------------------
+    
   **XY**              **Z**              Posune rovinu zrcadlení podle osy Z.
   **XY**              **X**, **Y**       Žádný vliv.
   **XZ**              **Y**              Posune rovinu zrcadlení podle osy Y.
@@ -78,5 +78,7 @@ Políčka **Základní bod** mohou být použity pro posunutí roviny zrcadlení
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/cs

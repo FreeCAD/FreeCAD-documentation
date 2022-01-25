@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ro
+   Topic:Robot Workbench
+   Level:Intermediate
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # VRML Preparation for Robot Simulation/ro
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro
-|Topic=Robot Workbench
-|Level=Intermediate
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -43,7 +49,7 @@ Observați că importăm, robotul este alcătuit din 8 forme, direct pe rădăci
 </div>
 
   FreeCAD name   STEP name
-  -------------- ------------------------------
+   
   TX40\_HB       HORIZONTAL BASE CABLE OUTLET
   TX40\_HB001    SHOULDER
   TX40\_HB002    ARM
@@ -66,7 +72,7 @@ Pentru acest import, schimbați \"Display Mode\" pentru fiecare formă, exceptâ
 În vederea construirii tabelului Denavit-Hartenberg (see [Robot 6-Axis](Robot_6-Axis.md)) și pregătiți fișierul vrml, trebuie să obțineți caracteristicile robotului. Deocamdată, instrumentul de măsurare FreeCAD nu este gata, puteți utiliza axele incluse în TX40\_HB007 (coordonatele sunt indicate în partea stângă jos atunci când indicați un obiect cu mouse-ul) sau trebuie să utilizați consola Python pentru a obține unele informații despre geometrie. Rețineți că tabelul DH este necesar numai dacă trebuie să utilizați cinematica inversă, adică să obțineți coordonatele carteziene sau să dirijați robotul cu coordonate carteziene. Tabelul DH-table pentru acest robot este următorul (mm, deg and deg/s):
 
   i   d     θ         r     α     θmin   θmax    Axis velocity
-  --- ----- --------- ----- ----- ------ ------- ---------------
+  ---       
   1   320   q1        0     -90   -180   180     555
   2   35    q2 - 90   225   0     -125   125     475
   3   0     q3 + 90   0     90    -138   138     585
@@ -438,9 +444,5 @@ Iată un patch pentru a obține fișierul vrml potrivit pentru simularea robotul
 
 
 
-
-
-[<img src="images/Property.png" style="width:16px"> Robot](Category_Robot.md)
-
 ---
-[documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/ro

@@ -897,7 +897,7 @@ origin_Icon = [
 "   #@@=#---@@;>>>;@#    ",
 "   #@@,#---@@;>>>;@#    ",
 "   #@@,#---@@;>>>;@#    ",
-"   #@@=#---@@-----@#    ",
+"   #@@=#---@@@#    ",
 "   #@@=#---@@@@@@@@#    ",
 "   #@@=##--@@@@@@@@#    ",
 "   #################    ",
@@ -2992,5 +2992,7 @@ myObject.Placement
 
 04/03/2017 ver 00.00
 
+
+
 ---
-[documentation index](../README.md) > Macro Rotate To Point/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Rotate To Point/en

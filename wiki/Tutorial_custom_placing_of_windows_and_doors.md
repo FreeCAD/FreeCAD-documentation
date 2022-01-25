@@ -1,11 +1,10 @@
-# Tutorial custom placing of windows and doors
-{{TutorialInfo
-|Topic=Architecture
-|Level=Intermediate
-|Time=60 minutes
-|Author=[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
-|FCVersion=0.18 or greater
-|Files=none
+---
+- TutorialInfo:   Topic:Architecture
+   Level:Intermediate
+   Time:60 minutes
+   Author:[https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=21943 vocx]
+   FCVersion:0.18 or greater
+   Files:none
 }}
 
 ## Introduction
@@ -31,9 +30,9 @@ See also the following page for some videos on how to align windows.
 
 1\. Open FreeCAD, create a new empty document, and switch to the [Arch Workbench](Arch_Workbench.md).
 
-2\. Make sure your units are set correctly in the menu **Edit → Preferences → General → Units**. For example, `MKS (m/kg/s/degree)` is good for dealing with distances in a typical building; moreover, set the number of decimals to `4`, to consider even the smallest fractions of a meter.
+2\. Make sure your units are set correctly in the menu **Edit → Preferences → General → Units**. For example, {{incode   MKS (m/kg/s/degree)}} is good for dealing with distances in a typical building; moreover, set the number of decimals to {{incode   4}}, to consider even the smallest fractions of a meter.
 
-3\. Use the [Draft ToggleGrid](Draft_ToggleGrid.md) button to show a grid with enough resolution. You can change the grid appearance in the menu **Edit → Preferences → Draft → Grid and snapping → Grid**. Set lines at every `50 mm`, with major lines every `20` lines (every meter), and `1000 lines` in total (the grid covers an area of 50 m x 50 m).
+3\. Use the [Draft ToggleGrid](Draft_ToggleGrid.md) button to show a grid with enough resolution. You can change the grid appearance in the menu **Edit → Preferences → Draft → Grid and snapping → Grid**. Set lines at every {{incode   50 mm}}, with major lines every {{incode   20}} lines (every meter), and {{incode   1000 lines}} in total (the grid covers an area of 50 m x 50 m).
 
 4\. [Zoom out](Zoom_out.md) of the 3D view if you are too close to the grid.
 
@@ -58,7 +57,7 @@ Now we are ready to create a simple wall on which we can position windows and do
     **Note 3:**you can also create shapes programmatically by scripting in [Python](Python.md). Beware that most functions expect their input in millimeters.
 
 
-```python
+{{Code   code:
 import FreeCAD
 import Draft
 
@@ -71,8 +70,11 @@ FreeCAD.Vector(6000.0, 5000.0, 0.0)]
 
 
 w = Draft.makeWire(p, closed=False)
-```
+---
 
+# Tutorial custom placing of windows and doors
+
+  
 6\. Select the `DWire` and click the [Arch Wall](Arch_Wall.md) tool; the wall is immediately created with a default width (thickness) of 0.2 m, and height of 3 m.
 
  <img alt="" src=images/01_T02_wire_wall.png  style="width:600px;"> 
@@ -351,5 +353,7 @@ abs(N) = 1 = sqrt(sin^2(angle) + cos^2(angle) + z^2)
 
 }}   {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Tutorial custom placing of windows and doors
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Category_Arch.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > Tutorial custom placing of windows and doors

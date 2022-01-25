@@ -31,7 +31,7 @@ An example:
 The **Base point** boxes can be used to move the mirror plane parallel to the selected standard mirror plane. Only one of the **X**, **Y**, or **Z** boxes is effective for a given standard plane.
 
   Standard Plane   Base Point Box   Effect
-  ---------------- ---------------- -------------------------------------
+    
   **XY**           **Z**            Move mirror plane along **Z** axis.
   **XY**           **X**, **Y**     No effect.
   **XZ**           **Y**            Move mirror plane along **Y** axis.
@@ -43,5 +43,7 @@ The **Base point** boxes can be used to move the mirror plane parallel to the se
 
 -   Arbitrary mirror planes (ie not parallel to a standard plane) are not supported.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Mirror/es

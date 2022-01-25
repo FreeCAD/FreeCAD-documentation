@@ -59,5 +59,7 @@ Punktwolkenobjekte sind [App GeoFeature](App_GeoFeature/de.md) Objekte mit den f
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Convert/de

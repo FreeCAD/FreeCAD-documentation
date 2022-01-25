@@ -67,5 +67,7 @@ Neste momento não há um desinstalador para o FreeCAD. Para o remover completam
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Installing on Mac/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/pt

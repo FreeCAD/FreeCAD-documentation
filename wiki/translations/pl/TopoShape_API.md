@@ -227,9 +227,6 @@ Niektóre atrybuty i metody mają zastosowanie tylko do określonych Kształtów
 {{APIFunction|centerOfCurvatureAt|Float|Zwraca środek (punkt 3D) okręgu oscylującego przy parametrze value.|Vector}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > TopoShape API/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > TopoShape API/pl

@@ -117,5 +117,7 @@ obj.Label = "Custom label"
 
 Beispielsweise, die meisten Werkzeuge aus dem [Entwurf Arbeitsbereich](Draft_Workbench/de.md), wie [Entwurf Linie](Draft_Line/de.md), [Entwurf Rechteck](Draft_Rectangle/de.md), [Entwurf Polygon](Draft_Polygon/de.md), usw., sind `Part::Part2DObjectPython` Objekte mit einem benutzerdefinierten Symbol und zusätzliche Eigenschaften.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Part2DObject/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Part2DObject/de

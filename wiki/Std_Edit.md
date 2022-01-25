@@ -62,5 +62,7 @@ FreeCADGui.ActiveDocument.resetEdit()
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std Edit
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Edit

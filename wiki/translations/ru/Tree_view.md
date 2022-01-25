@@ -195,5 +195,7 @@ The following keyboard actions are available when the focus is on the Tree view:
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Tree view/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Tree view/ru

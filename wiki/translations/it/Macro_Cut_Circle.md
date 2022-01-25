@@ -124,5 +124,7 @@ ver 00.02 09/03/2015 : adding create arcs coloured altenat alternately Red White
 
 ver 00.01 24/02/2015 :
 
+
+
 ---
-[documentation index](../README.md) > Macro Cut Circle/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Cut Circle/it

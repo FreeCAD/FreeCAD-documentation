@@ -7,7 +7,7 @@ E\' anche la lista centrale di download per la documentazione in linea di FreeCA
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+    
   [BIM Box/it](BIM_Box/it.md)                                                                                 [BIM Classification/it](BIM_Classification/it.md)                                                             [BIM Clone/it](BIM_Clone/it.md)
   [BIM Copy/it](BIM_Copy/it.md)                                                                               [BIM IfcElements/it](BIM_IfcElements/it.md)                                                                   [BIM IfcProperties/it](BIM_IfcProperties/it.md)
   [BIM Layers/it](BIM_Layers/it.md)                                                                           [BIM Project/it](BIM_Project/it.md)                                                                           [BIM Setup/it](BIM_Setup/it.md)
@@ -174,10 +174,9 @@ E\' anche la lista centrale di download per la documentazione in linea di FreeCA
   [Macro crank simul/it](Macro_crank_simul/it.md)                                                             [Macro Creating faces from a DXF file/it](Macro_Creating_faces_from_a_DXF_file/it.md)                         [Macro cross section/it](Macro_cross_section/it.md)
   [Macro Cut Circle/it](Macro_Cut_Circle/it.md)                                                               [Macro Cut Line/it](Macro_Cut_Line/it.md)                                                                     [Macro DeepCopy/it](Macro_DeepCopy/it.md)
   [Macro Delta xyz/it](Macro_Delta_xyz/it.md)                                                                 [Macro documentation/it](Macro_documentation/it.md)                                                           [Macro Draft Circle 3 Points 3D/it](Macro_Draft_Circle_3_Points_3D/it.md)
-  [Macro Draft Circle 3 Points/it](Macro_Draft_Circle_3_Points/it.md)                                         [Macro Draw 2D Function/it](Macro_Draw_2D_Function/it.md)                                                     
-  ------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------
+  [Macro Draft Circle 3 Points/it](Macro_Draft_Circle_3_Points/it.md)                                         [Macro Draw 2D Function/it](Macro_Draw_2D_Function/it.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/it](<img src="images/Property.png" style="width:16px"> Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Categories/it](<img src="images/Property.png" style="width:16px"> Categories/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/it

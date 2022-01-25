@@ -52,5 +52,7 @@ Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
 -   Ecrivez un **Commentaire**, ce sera la description (nom) de la révision.
 -   Appuyez sur le bouton **Upload**. Une boîte de dialogue s\'ouvre pour vous permettre de sauvegarder le fichier IFC produit à l\'emplacement de votre choix avant de le télécharger. Si vous appuyez sur **Annuler**, le fichier sera enregistré sous un nom temporaire dans le répertoire temporaire du système.
 
+
+
 ---
-[documentation index](../README.md) > WebTools BimServer/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools BimServer/fr

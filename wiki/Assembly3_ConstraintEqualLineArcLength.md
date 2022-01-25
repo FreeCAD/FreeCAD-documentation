@@ -39,5 +39,7 @@ Constraint "EqualLineArcLength" requires the 1st element to be a linear
 Constraint "EqualLineArcLength" requires the 2nd element to be an arc edge
 Constraint "EqualLineArcLength" requires the 2nd element to be a circular edge
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualLineArcLength

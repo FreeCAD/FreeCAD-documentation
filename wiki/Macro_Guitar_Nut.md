@@ -209,5 +209,7 @@ print("Finished creating nut")
 
 Forum discussion [Guitar fretboard macro / guitar body](https://forum.freecadweb.org/viewtopic.php?f=24&t=5827&)
 
+
+
 ---
-[documentation index](../README.md) > Macro Guitar Nut
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Guitar Nut

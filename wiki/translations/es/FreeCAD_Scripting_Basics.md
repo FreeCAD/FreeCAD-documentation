@@ -191,7 +191,7 @@ o comprobar si un objeto deriva de uno de los básicos (Característica Pieza, C
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-¡Ahora puedes empezar a jugar de verdad con FreeCAD! Para una lista completa de los módulos disponibles y sus herramientas, visite la sección [Categoría:API](:<img src="images/Property.png" style="width:16px"> API/es.md). {{Top}}
+¡Ahora puedes empezar a jugar de verdad con FreeCAD! Para una lista completa de los módulos disponibles y sus herramientas, visite la sección [Categoría:API](:Category:API/es.md). {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -203,11 +203,6 @@ print(myObj.isDerivedFrom("Part::Feature"))
 </div>
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/es

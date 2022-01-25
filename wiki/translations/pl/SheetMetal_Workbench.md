@@ -240,7 +240,7 @@ Jak to zrobić?
 -   Oficjalny blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Kod źródłowy na githubie: <https://github.com/shaise/FreeCAD_SheetMetal>
 
-[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
+
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Workbench/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Workbench/pl

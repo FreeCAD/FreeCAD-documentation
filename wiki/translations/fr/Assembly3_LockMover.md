@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Assembly_LockMover.svg  style="width:24px;"> 
     -   Le bouton **<img src="images/Assembly_LockMover.svg" width=16px> [Lock mover](Assembly3_LockMover/fr.md)**.
     -   L\'option de menu **Assembly3 → <img src="images/Assembly_LockMover.svg" width=16px> Lock mover**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 LockMover/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 LockMover/fr

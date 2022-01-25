@@ -3,7 +3,7 @@
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------
+    
   [Macro Align Camera to Working Plane/ru](Macro_Align_Camera_to_Working_Plane/ru.md)   [Macro Align Face Object to View/ru](Macro_Align_Face_Object_to_View/ru.md)                       [Macro Align Object to View/ru](Macro_Align_Object_to_View/ru.md)
   [Macro Align View to Face/ru](Macro_Align_View_to_Face/ru.md)                         [Macro Align Working Plane to Camera/ru](Macro_Align_Working_Plane_to_Camera/ru.md)               [Macro at Startup/ru](Macro_at_Startup/ru.md)
   [Macro BoundingBox Tracing/ru](Macro_BoundingBox_Tracing/ru.md)                       [Macro documentation/ru](Macro_documentation/ru.md)                                               [Macro FCCamera/ru](Macro_FCCamera/ru.md)
@@ -15,10 +15,9 @@
   [Macro Toggle Panels Visibility/ru](Macro_Toggle_Panels_Visibility/ru.md)             [Macro Toggle Visibility/ru](Macro_Toggle_Visibility/ru.md)                                       [Macro View Rotation/ru](Macro_View_Rotation/ru.md)
   [Macro VisibleAlls/ru](Macro_VisibleAlls/ru.md)                                       [Macro WorkFeatures/ru](Macro_WorkFeatures/ru.md)                                                 [Template:Macro/ru](Template:Macro/ru.md)
   [Macros recipes/ru](Macros_recipes/ru.md)                                             [Macros/ru](Macros/ru.md)                                                                         [Misc templates Full/ru](Misc_templates_Full/ru.md)
-  [Svg Namespace/ru](Svg_Namespace/ru.md)                                                                                                                                                         
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------
+  [Svg Namespace/ru](Svg_Namespace/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/ru](<img src="images/Property.png" style="width:16px"> Categories/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Macros/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Macros/ru

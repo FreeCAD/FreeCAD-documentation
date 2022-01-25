@@ -235,5 +235,7 @@ p()
 
 This Macro is based on [Macro Geneva Wheel](Macro_Geneva_Wheel.md)
 
+
+
 ---
-[documentation index](../README.md) > Macro Geneva Wheel GUI/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Geneva Wheel GUI/en

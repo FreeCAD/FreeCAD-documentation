@@ -19,5 +19,7 @@ Dieses Werkzeug stellt eine Verbindung zwischen zwei Objekten eines Zusammenbaus
 2.  Ein Punktelement des einen und ein gerades Kantenelement des anderen Objekts auswählen.
 3.  Schaltfläche **<img src="images/Assembly_ConstraintPointLineDistance.svg" width=16px> [Punkt zu Linie Abstand](Assembly3_ConstraintPointLineDistance/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointLineDistance/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointLineDistance/de

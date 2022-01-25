@@ -82,5 +82,7 @@ Pornind de la FreeCAD Version 0.14, FreeCAD va cÄƒuta executabilul OpenSCAD dacÄ
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD AddOpenSCADElement/ro

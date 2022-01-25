@@ -321,11 +321,5 @@ Dezvoltatori ai FreeCAD addons (preluat din <https://github.com/FreeCAD/FreeCAD-
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/ro

@@ -100,5 +100,7 @@ Définissez le chemin de l\'exécutable de POV-Ray pour qu\'il pointe vers votre
 
 Ensuite, avant d\'essayer d\'effectuer un rendu, démarrez POV-Ray séparément et [définissez les restrictions d\'E/S (I/O) conformément à la documentation de POV-Ray](https://wiki.povray.org/content/Documentation:Windows_Section_2.1), sinon le rendu ne fonctionnera pas correctement (ou ne fonctionnera pas du tout).
 
+
+
 ---
-[documentation index](../README.md) > POV-Ray/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > POV-Ray/fr

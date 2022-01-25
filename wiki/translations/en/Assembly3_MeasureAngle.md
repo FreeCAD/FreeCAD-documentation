@@ -16,5 +16,7 @@ This tool measures the angle between two objects of an assembly using straight e
 1.  Select two straight edges or planar faces (or one of each).
 2.  Press the **<img src="images/Assembly_MeasureAngle.svg" width=16px> [Measure angle](Assembly3_MeasureAngle.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MeasureAngle/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasureAngle/en

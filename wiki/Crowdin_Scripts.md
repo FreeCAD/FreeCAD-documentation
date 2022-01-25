@@ -87,9 +87,7 @@ The updatefromcrowdin.py script pulls changes from crowdin to your local FreeCAD
 -   [Crowdin Administration](Crowdin_Administration.md)
 -   [Release process](Release_process.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Crowdin Scripts
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Crowdin Scripts

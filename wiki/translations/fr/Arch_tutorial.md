@@ -1,10 +1,16 @@
+---
+- TutorialInfo:/fr
+   Topic:Modélisation
+   Level:Intermédiaire
+   Author:[Yorik](User_Yorik.md)
+   FCVersion:0.14
+---
+
 # Arch tutorial/fr
-{{TutorialInfo/fr
-|Topic=Modélisation
-|Level=Intermédiaire
-|Author=[Yorik](User_Yorik.md)
-|FCVersion=0.14
-}}
+
+
+
+
 
 ![](images/Arch_tutorial_00.jpg )
 
@@ -474,9 +480,6 @@ J\'espère que ce tutoriel vous aura donné un bon aperçu des outils disponible
 Le fichier créé durant ce tutoriel peut être téléchargé [ici](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd).
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Arch](Arch_Workbench.md) > Arch tutorial/fr

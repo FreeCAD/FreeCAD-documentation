@@ -32,5 +32,7 @@ Voir aussi [Draft Mettre à niveau](Draft_Upgrade/fr.md) pour une solution alter
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Edgestofaces/fr

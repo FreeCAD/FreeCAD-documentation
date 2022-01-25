@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/es
+   Topic:Part Workbench
+   Level:Beginner
+   Time:10 minutes
+   Author:Hughthecat
+   FCVersion:
+   Files:
+---
+
 # Aeroplane/es
-{{TutorialInfo/es
-|Topic=Part Workbench
-|Level=Beginner
-|Time=10 minutes
-|Author=Hughthecat
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## First Steps 
 
@@ -105,9 +111,6 @@ Aquí tienes algunas sugerencias para practicar con el aeroplano:
 Espero que este pequeño tutorial te ayude a manejar mejor las rotaciones.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Aeroplane/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/es

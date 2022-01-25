@@ -31,5 +31,7 @@ Aby zdefiniować prostokąt za pomocą punktu środkowego i punktu na krawędzi,
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateRectangle/pl

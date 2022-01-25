@@ -264,5 +264,7 @@ dlg.exec_()
 </nowiki>
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro TreeToAscii/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro TreeToAscii/it

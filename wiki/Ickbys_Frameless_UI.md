@@ -25,5 +25,7 @@ Issues and phases that would be needed to overcome this endeavour
 -   [https://www.youtube.com/watch?v=wrOP7sLqwiM&t=3m20s Youtube clip](https://www.youtube.com/watch?v=wrOP7sLqwiM&t=3m20s_Youtube_clip.md)
 -   Github repo: <https://github.com/ickby/FreeCAD_sf_master/commits/layout>
 
+
+
 ---
-[documentation index](../README.md) > Ickbys Frameless UI
+![](images/Right_arrow.png) [documentation index](../README.md) > Ickbys Frameless UI

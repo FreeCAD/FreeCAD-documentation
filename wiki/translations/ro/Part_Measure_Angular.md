@@ -41,5 +41,7 @@ Acest instrument măsoară unghiul între două muchii drepte , două fațete pl
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/ro

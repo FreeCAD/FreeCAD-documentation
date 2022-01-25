@@ -32,5 +32,7 @@ Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
 -   Pour utiliser la grille, sélectionnez : **Édition → Préférences... → Draft → Grille et aimantation → Grille → Activer la grille**. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
 -   D\'autres préférences de grille sont également disponibles : **Édition → Préférences... → Draft → Grille et aimantation → Grille**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/fr

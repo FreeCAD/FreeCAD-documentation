@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/ro
+   Topic: Modeling an architectural panel
+   Level: Beginner
+   Time: 60 minutes
+   Author: Yorik
+   FCVersion:
+   Files:
+---
+
 # Arch panel tutorial/ro
-{{TutorialInfo/ro
-|Topic= Modeling an architectural panel
-|Level= Beginner
-|Time= 60 minutes
-|Author= Yorik
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 Acesta este un cross-post(duplicat) al tutorialului [1](http://opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) inițial scris pentru [Open-Source Ecology](http://opensourceecology.org).
 
@@ -193,9 +199,9 @@ Atât instrumentele Draft Rotire cât și Move utilizează sistemul de ancorare 
 ![](images/Arch_panel_tutorial_20.jpg )
 
 
-{{Tutorials navi
+   {{Sketcher Tools navi}}
 
-}}   {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/ro

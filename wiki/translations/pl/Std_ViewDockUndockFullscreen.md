@@ -59,5 +59,7 @@ The **Undocked** menu option undocks the active [3D view](3D_view.md) from the m
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewDockUndockFullscreen/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewDockUndockFullscreen/pl

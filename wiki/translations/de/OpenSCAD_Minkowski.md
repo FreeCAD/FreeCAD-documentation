@@ -42,5 +42,7 @@ OpenSCAD muss installiert und konfiguriert sein in **Bearbeiten** → **Einstell
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD Minkowski/de

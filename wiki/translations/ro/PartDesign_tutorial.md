@@ -1,11 +1,11 @@
-# PartDesign tutorial/ro
-{{TutorialInfo/ro
-|Topic= Sketcher
-|Level= Beginner
-|Time= 15 minutes
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16 or above
-|Files=
+---
+- TutorialInfo:/ro
+   Topic: Sketcher
+   Level: Beginner
+   Time: 15 minutes
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 or above
+   Files:
 }}
 
 ### Introducere
@@ -40,7 +40,7 @@ Pentru a realiza acest lucru, există două instrumente:<img alt="" src=images/P
 </div>
 
 1.  Switch to the PartDesign Workbench
-2.  With the sketch selected in the [tree view](tree_view.md), press **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**, choose the default XY-plane, and press **OK**. The sketch should appear now inside the Body.
+2.  With the sketch selected in the [tree view](tree_view.md), press **[PartDesign Body](File:PartDesign_Body.svg   16px]] [[PartDesign_Body.md)**, choose the default XY-plane, and press **OK**. The sketch should appear now inside the Body.
 3.  Select <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Pad](PartDesign_Pad.md)
 4.  Set the distance to 5 mm
 5.  Select **Ok**
@@ -92,8 +92,12 @@ Când a fost creat un element 3D, este posibil să creați referințe la acesta 
 # Select <img src="images/Sketcher_External.png" width=32px> [External Geometry](Sketcher_External.md).
 # Approach the element that you wish to reference, the edge of a '''Pad''' for example.
 # Click on it
-# New elements of a different color should appear on the sketch in the location of the feature you wish to reference.}}
+# New elements of a different color should appear on the sketch in the location of the feature you wish to reference.
+---
 
+# PartDesign tutorial/ro
+
+ 
 
 </div>
 
@@ -153,5 +157,7 @@ If not, re-edit the MultiTransform operation by double clicking on it in the Tre
 
 Suntem terminați acum cu fluxul de lucru de bază pentru [PartDesign Workbench](PartDesign_Workbench.md).
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign tutorial/ro

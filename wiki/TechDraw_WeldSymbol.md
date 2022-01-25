@@ -111,5 +111,7 @@ Individual symbols are formed by 64x64 pixel SVG files. Additional symbols can b
 
  {{TechDraw Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw WeldSymbol

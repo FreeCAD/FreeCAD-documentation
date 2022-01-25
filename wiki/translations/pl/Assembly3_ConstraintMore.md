@@ -16,5 +16,7 @@ Narzędzie to przełącza jedynie widoczność dwóch kolejnych paneli z wiązan
 
 1.  Nacisnij przycisk **<img src="images/Assembly_ConstraintMore.svg" width=24px> [Więcej wiązań](Assembly3_ConstraintMore/pl.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintMore/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMore/pl

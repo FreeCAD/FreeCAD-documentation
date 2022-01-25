@@ -38,5 +38,7 @@ La commande **Mesh Boucher un trou** remplit les trous sélectionnés dans les o
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh FillInteractiveHole/fr

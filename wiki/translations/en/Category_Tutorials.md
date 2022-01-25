@@ -1,11 +1,11 @@
 # Category:Tutorials/en
-This is a complete list of pages under [:<img src="images/Property.png" style="width:16px"> Tutorials/en](:<img src="images/Property.png" style="width:16px"> Tutorials/en.md).
+This is a complete list of pages under [:Category:Tutorials/en](:Category:Tutorials/en.md).
 
 See also [Tutorials](Tutorials/en.md) and [video tutorials](video_tutorials/en.md)
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+    
   [Add Button to FEM Toolbar Tutorial/en](Add_Button_to_FEM_Toolbar_Tutorial/en.md)                                       [Add FEM Constraint Tutorial/en](Add_FEM_Constraint_Tutorial/en.md)                                         [Add FEM Equation Tutorial/en](Add_FEM_Equation_Tutorial/en.md)
   [Advanced Attachment OYX/en](Advanced_Attachment_OYX/en.md)                                                             [Advanced TechDraw Tutorial/en](Advanced_TechDraw_Tutorial/en.md)                                           [Aeroplane/en](Aeroplane/en.md)
   [Analysis of reinforced concrete with FEM/en](Analysis_of_reinforced_concrete_with_FEM/en.md)                           [Arch panel tutorial/en](Arch_panel_tutorial/en.md)                                                         [Arch tutorial/en](Arch_tutorial/en.md)
@@ -38,8 +38,9 @@ See also [Tutorials](Tutorials/en.md) and [video tutorials](video_tutorials/en.m
   [Tutorial Render with Blender/en](Tutorial_Render_with_Blender/en.md)                                                   [Template:TutorialInfo/en](Template:TutorialInfo/en.md)                                                     [Tutorials/en](Tutorials/en.md)
   [Video tutorials for architectural design/en](Video_tutorials_for_architectural_design/en.md)                           [Video tutorials for product design/en](Video_tutorials_for_product_design/en.md)                           [Video tutorials obsolete/en](Video_tutorials_obsolete/en.md)
   [Video tutorials/en](Video_tutorials/en.md)                                                                             [VRML Preparation for Robot Simulation/en](VRML_Preparation_for_Robot_Simulation/en.md)                     [Whiffle Ball tutorial/en](Whiffle_Ball_tutorial/en.md)
-  [Wikihouse porting tutorial/en](Wikihouse_porting_tutorial/en.md)                                                                                                                                                                           
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+  [Wikihouse porting tutorial/en](Wikihouse_porting_tutorial/en.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:Tutorials/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/en

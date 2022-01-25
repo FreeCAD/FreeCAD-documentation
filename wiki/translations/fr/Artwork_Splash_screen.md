@@ -26,5 +26,7 @@ Ce sont les écrans de démarrage qui ont été utilisés pour chaque version du
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Splash screen/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Splash screen/fr

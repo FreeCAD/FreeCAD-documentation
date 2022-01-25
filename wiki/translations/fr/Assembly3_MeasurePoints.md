@@ -17,5 +17,7 @@ Cet outil mesure la distance entre deux objets d\'un assemblage à l\'aide de de
 1.  Sélectionnez deux points.
 2.  Appuyez sur le bouton **<img src="images/Assembly_MeasurePointDistance.svg" width=16px> [Measure point to point](Assembly3_MeasurePoints/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MeasurePoints/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MeasurePoints/fr

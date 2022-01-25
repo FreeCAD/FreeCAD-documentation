@@ -1,11 +1,16 @@
+---
+- TutorialInfo:   Topic:FEM
+   Level:Intermediate
+   Time:1 hour
+   Author:[M42kus](User_M42kus.md)
+   FCVersion:0.17
+---
+
 # Extend FEM Module
-{{TutorialInfo
-|Topic=FEM
-|Level=Intermediate
-|Time=1 hour
-|Author=[M42kus](User_M42kus.md)
-|FCVersion=0.17
-}}
+
+ 
+
+
 
 The FEM workbench already supports a lot of different constraints and a handful of solver. Despite that people often need constraints not jet supported by FreeCAD. This page is the starting point to a series of tutorials and other resources describing how to extend the FEM workbench using the existing framework. While this series can prove helpful to software developers too the idea is to allow FEM users with a bit of interest into python coding to add the stuff they need themselves.
 
@@ -136,7 +141,5 @@ Adding new constraints is quite straight forward. For newcomers there is a tutor
 
 
 
-[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
-
 ---
-[documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module

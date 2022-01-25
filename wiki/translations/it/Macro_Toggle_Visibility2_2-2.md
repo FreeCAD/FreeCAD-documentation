@@ -49,5 +49,7 @@ try:
 except Exception:
     None }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Toggle Visibility2 2-2/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Toggle Visibility2 2-2/it

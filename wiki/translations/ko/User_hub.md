@@ -1,6 +1,6 @@
 # <img alt="" src=images/User_hub.png  style="width:64px;"> User hub/ko
 
-------------------------------------------------------------------------
+
 
 
 
@@ -41,9 +41,11 @@ FreeCAD에 기여하고 싶다면, [Help FreeCAD](Help_FreeCAD.md) 페이지를 
 
 </div>
 
-See also:
+#### Migrating from other software? 
 
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
+-   [BIM applications compatibility table](BIM_application_compatibility_table.md)
 
 
 <div class="mw-translate-fuzzy">
@@ -56,7 +58,7 @@ See also:
 -   [Interface](Interface.md): the FreeCAD interface is composed of various graphical elements on the screen, including the [3D view](3D_view.md), the [tree view](Tree_view.md), the [property editor](Property_editor.md), the [task panel](Task_panel.md), and the [Python console](Python_console.md).
 -   [Mouse navigation](Mouse_navigation.md): the different types of using the mouse or trackpad to navigate in the 3D view.
 -   [Selection methods](Selection_methods.md): the different methods of selecting objects in the software.
--   [Object name](Object_name.md): all objects have a read-only `Name` that uniquely identifies them, and a `Label` which is user editable.
+-   [Objects naming](Object_name.md): FreeCAD objects have a read-only `Name` that uniquely identifies them, and a `Label` which is user editable.
 -   [Preferences Editor](Preferences_Editor.md): the system that allows you to control many properties of the base system and of the individual workbenches.
 -   [File formats](Import_Export.md): the different file formats that FreeCAD can read and write.
 
@@ -64,7 +66,7 @@ See also:
 
 [Workbenches](Workbenches.md) are collections of tools used for specific tasks. These are the base workbenches bundled with every FreeCAD installation:
 
--   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Std Base](Std_Base.md). This is not really a workbench, but rather a category of \'standard\' commands and tools that can be used in all workbenches.
+-   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Standard tools](Std_Base.md). These commands and tools are present in all workbenches.
 
 -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> The [Arch Workbench](Arch_Workbench.md) for working with architectural elements.
 
@@ -154,8 +156,5 @@ This is the official FreeCAD online help. Please note that the whole online help
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ko

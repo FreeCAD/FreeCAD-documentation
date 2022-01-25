@@ -45,5 +45,7 @@ Exportiert das ausgewählte Teil in eine pov-Datei zur Verwendung in einem POV-R
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/de

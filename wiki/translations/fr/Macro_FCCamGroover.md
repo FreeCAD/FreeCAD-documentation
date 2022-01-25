@@ -313,5 +313,7 @@ diag.exec_()
 
 La discussion sur le forum [FC Cam Groover Macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=29816&sid=f6f9b946f015bc5072bf112d97b50256)
 
+
+
 ---
-[documentation index](../README.md) > Macro FCCamGroover/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCCamGroover/fr

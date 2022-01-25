@@ -34,5 +34,7 @@ Il comando **Schermo intero** attiva o disattiva la modalità a schermo intero d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MainFullscreen/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MainFullscreen/it

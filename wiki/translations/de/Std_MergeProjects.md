@@ -42,5 +42,7 @@ Die **Std Projekt zusammenführen** fügt den Inhalt einer FreeCAD-Datei dem akt
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MergeProjects/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MergeProjects/de

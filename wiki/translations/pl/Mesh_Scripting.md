@@ -93,9 +93,9 @@ doc.recompute()
 
 Rozległym *(choć trudnym w użyciu)* źródłem skryptów związanych z siatkami są skrypty do testów jednostkowych Środowiska pracy `Mesh`. Podczas tych testów jednostkowych wywoływane są dosłownie wszystkie metody i wszystkie właściwości/atrybuty są udoskonalane. Więc jeśli jesteś wystarczająco odważny, spójrz na [Moduł testowy jednostek](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
-Zobacz również: [API dla Mesh](Mesh_API.md) {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
+Zobacz również: [API dla Mesh](Mesh_API.md) {{Top}}  {{Mesh Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/pl

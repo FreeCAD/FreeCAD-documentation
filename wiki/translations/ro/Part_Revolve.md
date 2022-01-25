@@ -23,7 +23,7 @@ Se rotește obiectul selectat în jurul unei axe date. Următoarele tipuri de fo
 </div>
 
   Input shape   Output shape
-  ------------- ----------------------------
+   
   Vertex        Edge
   Edge          Face
   Wire          Shell
@@ -69,5 +69,7 @@ If you select a user defined axis, the numbers define the direction of the revol
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/ro

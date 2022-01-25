@@ -32,5 +32,7 @@ Ein Kreis geometrischer Grundkörper ist über den Grundkörper erstellen Dialog
 
 -    **Winkel 1**: Endwinkel der gebogenen Kante (in Grad, gegen Uhrzeigersinn), Standardwert ist 360
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Circle/de

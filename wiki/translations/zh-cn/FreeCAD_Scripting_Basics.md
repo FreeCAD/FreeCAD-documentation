@@ -191,17 +191,9 @@ or check if an object is derived from one of the basic ones (Part Feature, Mesh 
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-Now you can really start playing with FreeCAD! For a complete list of available modules and their tools, visit the [<img src="images/Property.png" style="width:16px"> API](:Category_API.md) section. {{Top}}
+Now you can really start playing with FreeCAD! For a complete list of available modules and their tools, visit the  section. {{Top}}
 
 
-
-
-
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/zh-cn

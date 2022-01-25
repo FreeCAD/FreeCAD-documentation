@@ -3,12 +3,11 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 ### Contents:
 
-  ------------------------------------------------- ----------------------------------------------------- -----------------------------------------------------------------
+    
   [Developer hub/de](Developer_hub/de.md)   [Power users hub/de](Power_users_hub/de.md)   [Scientific literature/de](Scientific_literature/de.md)
-  [User hub/de](User_hub/de.md)             [Wished tools/de](Wished_tools/de.md)         
-  ------------------------------------------------- ----------------------------------------------------- -----------------------------------------------------------------
+  [User hub/de](User_hub/de.md)             [Wished tools/de](Wished_tools/de.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md)
+
 
 ---
-[documentation index](../README.md) > Category:Hubs/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Hubs/de

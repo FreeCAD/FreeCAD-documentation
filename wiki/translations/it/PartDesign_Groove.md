@@ -29,7 +29,7 @@ Questo strumento rivoluziona uno schizzo selezionato o un oggetto 2D attorno ad 
 
 Quando si crea una scanalatura, i dialoghi **Parametri Groove** offrono diversi parametri che specificano come deve essere ruotato lo sketch.
 
-+--------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Partdesign_groove_parameters_it.png ) | ### Assi                                                                                                                                                                                                                                                                                                                                      |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                               |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                     |
@@ -58,7 +58,7 @@ Quando si crea una scanalatura, i dialoghi **Parametri Groove** offrono diversi 
 |                                                                                | ### Invertito                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                |                                                                                                                                                                                                                                                                                                                                               |
 |                                                                                | La direzione di rivoluzione viene invertita.                                                                                                                                                                                                                                                                                                  |
-+--------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ## Proprietà
 
@@ -94,5 +94,7 @@ Sotto sono riportate le proprietà che possono essere definite dopo la creazione
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Groove/it

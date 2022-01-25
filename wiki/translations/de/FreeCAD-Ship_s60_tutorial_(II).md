@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic:Schiff Arbeitsbereich
+   Level:Anfänger
+   Time:
+   Author:
+   FCVersion:
+   Files:
+---
+
 # FreeCAD-Ship s60 tutorial (II)/de
-{{TutorialInfo/de
-|Topic=Schiff Arbeitsbereich
-|Level=Anfänger
-|Time=
-|Author=
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## Überblick
 
@@ -198,5 +204,7 @@ Natürlich ist dieses Beispiel nicht real (erstens können die Treibstofftanks n
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FreeCAD-Ship s60 tutorial (II)/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/de

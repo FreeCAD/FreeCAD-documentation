@@ -40,7 +40,5 @@ Migrer des modules pour exploiter de nouveaux nœuds à l\'aide de [SoText2](htt
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > UTF Project/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > UTF Project/fr

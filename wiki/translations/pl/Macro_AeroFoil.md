@@ -110,11 +110,11 @@ Po załadowaniu makra Skrzydło samolotu postępuj zgodnie z instrukcjami w posz
 
 ####  Uwagi
 
-  ------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   *(1)*   Wykonanie operacji makro z punktami niestandardowymi i udoskonaleniem nie powoduje żadnych widocznych zmian.
   *(2)*   Właściwości obiektu AeroFoil są widoczne tylko w wersji programu FreeCAD 0.19. W starszych wersjach pojawi się ostrzeżenie na konsoli. Ostrzeżenie to nie będzie miało wpływu na dane wyjściowe.
           
-  ------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
 ####  Wskazówki, o których należy pamiętać podczas pracy: 
 
@@ -226,5 +226,7 @@ __Files__         = "AeroFoil_UI_Files/AeroFoil_Initial_Dialog.ui, "\
 \[4\] [Airfoil Tools](http://airfoiltools.com/) zawiera około 1638 różnych profili lotniczych.
 \[5\] [Baza danych współrzędnych profili lotniczych UIUC](https://m-selig.ae.illinois.edu/ads/coord_database.html) zawiera około 1600 różnych profili lotniczych.
 
+
+
 ---
-[documentation index](../README.md) > Macro AeroFoil/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro AeroFoil/pl

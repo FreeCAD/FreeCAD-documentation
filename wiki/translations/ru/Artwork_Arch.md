@@ -16,9 +16,9 @@
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md)
+
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Artwork Arch/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Category_Arch.md) > Artwork Arch/ru

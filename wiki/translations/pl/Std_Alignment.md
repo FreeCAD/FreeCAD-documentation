@@ -41,5 +41,7 @@ The following additional options are available in the context menu:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Alignment/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Alignment/pl

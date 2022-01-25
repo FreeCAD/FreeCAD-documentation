@@ -165,5 +165,7 @@ The following list is not individual bugs but shows how Path is inconsistent in 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Development Roadmap/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Development Roadmap/de

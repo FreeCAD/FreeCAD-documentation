@@ -32,5 +32,7 @@ Esta herramienta activa / desactiva el indicador IfcBrep de un objeto [ Arch](Ar
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/es

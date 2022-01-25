@@ -5,7 +5,7 @@
 
 Die hier aufgeführten Tutorien befassen sich mit dem Gestalten von physischen Produkten für die Fertigung oder den 3D Druck. Weitere Themen findest du auf der allgemeinen Seite [Video Tutorien](video_tutorials/de.md).
 
-Besuche [Tutorien](tutorials/de.md) für schriftliche Tutorien von hoher Qualität. Eine vollständige, unsortierte Liste der Tutorials findest Du unter [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+Besuche [Tutorien](tutorials/de.md) für schriftliche Tutorien von hoher Qualität. Eine vollständige, unsortierte Liste der Tutorials findest Du unter [:Category:Tutorials](:Category_Tutorials.md).
 
 ## Produktgestaltung
 
@@ -76,9 +76,6 @@ Obwohl sich diese Liste auf deutsche Inhalte konzentriert, haben viele dieser Ka
     -   [FREECAD 0.17 - 0.18](https://www.youtube.com/watch?v=cBA7EJyrLkQ&list=PLfv54N1Sqk4zFGrn6mVU5kTSpfyfN2GyW): eine Serie von 15 Videos, die zeigen, wie verschiedene Objekte modelliert werden: mechanische Verbindungsstücke, Turbinen, Zangen, Schläuche, Reifenfelgen, Schrauben, eine Schraubkappe, ein Schraubbit, ein Schrägzahnrad, ein Fahrradreifen und andere.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Video tutorials for product design/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/de

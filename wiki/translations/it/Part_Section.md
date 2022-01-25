@@ -11,10 +11,10 @@ Crea una sezione attraverso l\'intersezione di due oggetti selezionati, l\'ultim
 
 In questo esempio un cubo viene sezionato con un cilindro:
 
-+------------------------------------------------+----------------------------------------------------+
++++
 | ![](images/PartSection1_it.png ) | -   **Base**: oggetto base, il Box                 |
 |                                                | -   **Tool**: lo strumento di sezione, il Cilindro |
-+------------------------------------------------+----------------------------------------------------+
++++
 
 
 
@@ -50,5 +50,7 @@ Per creare delle sezioni con un piano di sezione vedere la pagina **Part** → *
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Section/it

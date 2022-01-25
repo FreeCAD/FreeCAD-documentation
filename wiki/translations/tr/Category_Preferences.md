@@ -3,10 +3,10 @@ This category lists all existing Preference menus of different FreeCAD workbench
 
 ### Contents:
 
-  ------------------------------------------------------------------------- ------------------------------------------------------------------- -----------------------------------------------------------
+    
   [Import Export Preferences/tr](Import_Export_Preferences/tr.md)   [PartDesign Preferences/tr](PartDesign_Preferences/tr.md)   [Preferences Editor/tr](Preferences_Editor/tr.md)
-                                                                                                                                                
-  ------------------------------------------------------------------------- ------------------------------------------------------------------- -----------------------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:Preferences/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Preferences/tr

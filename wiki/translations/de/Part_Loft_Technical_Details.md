@@ -23,9 +23,9 @@ Wenn mindestens eines der Profile eine unterschiedliche Anzahl von Segmenten hat
 
 Der Vorgang wird auf alle Profile ausgedehnt, um die gleiche Anzahl von Segmenten zu erhalten. Die Gesamtanzahl der Segmente in jedem Profil wäre gleich der Summe aller Segmentanzahlen aller Profile (vorausgesetzt, dass keiner der Knoten zufällig im gleichen Polarwinkel liegt).
 
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   <img alt="Der Vorgang des Schneidens von Profil2 (weiße sichelförmige Form), um Verbindungen zu erzeugen, die den Eckpunkten von Profil1 (violettes Fünfeck) entsprechen. Die eingefügten Verbindungen werden durch gelbe Pfeile markiert." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="Das Ergebnis der Ausformung entsprechend dem Bild links." src=images/Loft_crescent_pentagon.png  style="width:300px;">
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
 ### Schritt 2. Übereinstimmung zwischen den Segmenten herstellen 
 
@@ -65,14 +65,10 @@ Beachte, dass Ausformung eine \"Ruled\"-Eigenschaft hat. Wenn sie auf \"true\" g
 -   Bei Ausformngu ist es nicht erforderlich, dass die Profile getrennt sind (siehe Bild unten). Sie können koplanar sein, aber sie sollten sich nicht schneiden.
 -   Wenn die Eigenschaft \"geschlossen\" der Ausformung \"wahr\" ist, gibt es eine Eckverbindung in allen Splines, die die Ausformung bilden (siehe Bild unten). Es gibt jetzt keine zuverlässige Möglichkeit, die Ausformung sanft zu schließen.
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
   <img alt="Es ist nicht erforderlich, dass die Profile parallel sind." src=images/Loft_nonparallel.png  style="width:300px;">   <img alt="In Ausformung können die Profile koplanar sein. In diesem Beispiel sind zwei von drei Profilen koplanar." src=images/Loft_Coplanar.png  style="width:300px;">   <img alt="Ein Beispiel für eine geschlossene Ausformung zwischen drei fünfeckigen Profilen (weiß). Beachte die nicht glatte Verbindung am äußersten Profil. Dies ist das erste Profil im geschlossenen Loft." src=images/Loft-closed.png  style="width:300px;">
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/de

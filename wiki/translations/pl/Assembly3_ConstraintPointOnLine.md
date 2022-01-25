@@ -23,5 +23,7 @@ Related to the first object the following object can still move along the z-axis
 2.  Select one point element of one object and one straight edge element of the other object.
 3.  Press the **<img src="images/Assembly_ConstraintPointOnLine.svg" width=16px> [Point on line](Assembly3_ConstraintPointOnLine.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointOnLine/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointOnLine/pl

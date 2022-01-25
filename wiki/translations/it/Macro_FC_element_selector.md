@@ -213,5 +213,7 @@ Discussione sul foro [Selecting internal faces of a pressure vessel](https://for
 
 Altra similare macro [Macro Mouse over cb](Macro_Mouse_over_cb.md)
 
+
+
 ---
-[documentation index](../README.md) > Macro FC element selector/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FC element selector/it

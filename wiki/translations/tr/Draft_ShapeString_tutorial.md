@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/tr
+   Topic: ShapeString (Draft workbench)
+   Level: Beginner
+   Time:30 minutes
+   Author:r-frank
+   FCVersion:0.16.6704
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true Draft_Shapestring_Text]
+---
+
 # Draft ShapeString tutorial/tr
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/tr
-|Topic= ShapeString (Draft workbench)
-|Level= Beginner
-|Time=30 minutes
-|Author=r-frank
-|FCVersion=0.16.6704
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true Draft_Shapestring_Text]
-}}
 
 
 </div>
@@ -201,9 +207,9 @@ See the forum thread, [How to use ShapeStrings in PartDesign](https://forum.free
 -   To import text from an SVG file look at the [Import text and geometry from Inkscape](Import_text_and_geometry_from_Inkscape.md) tutorial.
 
 
-{{Tutorials navi
+  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
-}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ShapeString tutorial/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Draft](Draft_Workbench.md) > Draft ShapeString tutorial/tr

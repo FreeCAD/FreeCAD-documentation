@@ -90,5 +90,7 @@ Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > WebTools BimServer/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools BimServer/ro

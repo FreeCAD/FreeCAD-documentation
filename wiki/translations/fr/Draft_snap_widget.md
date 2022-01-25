@@ -21,5 +21,7 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 
 -   Le widget aimantation de Draft est facultatif : **Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Barre d'état Draft → Widget d'aimantation Draft**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft snap widget/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft snap widget/fr

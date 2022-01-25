@@ -33,5 +33,7 @@ Dieses Werkzeug entfernt eine Ansicht aus einem vorhandenen Ausschnitt und gibt 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw ClipGroupRemove/de

@@ -1,8 +1,15 @@
+---
+- TutorialInfo:/it   Topic:Modellazione   Level:Principiante   Author:Mark Stephen ([[User:Quick61   Quick61]])|Time:Meno di 15 minuti   FCVersion:0.15.4671 o successiva
+---
+
 # Sketcher Micro Tutorial - Constraint Practices/it
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it|Topic=Modellazione|Level=Principiante|Author=Mark Stephen ([Quick61](User_Quick61.md))|Time=Meno di 15 minuti|FCVersion=0.15.4671 o successiva}}
 
 
 </div>
@@ -170,9 +177,9 @@ This is the best way to constrain this sketch, as we only used one datum (dimens
 </div>
 
 
-{{Tutorials navi
+ {{Sketcher Tools navi}}
 
-}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/it

@@ -26,5 +26,7 @@ Currently the command points to [<https://www.freecadweb.org>](https://www.freec
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std FreeCADWebsite/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADWebsite/pl

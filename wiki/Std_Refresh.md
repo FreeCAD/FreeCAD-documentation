@@ -50,5 +50,7 @@ doc.recompute()
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std Refresh
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Refresh

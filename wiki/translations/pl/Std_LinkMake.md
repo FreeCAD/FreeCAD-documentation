@@ -393,5 +393,7 @@ Other miscellaneous \"links\" about Link include:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std LinkMake/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std LinkMake/pl

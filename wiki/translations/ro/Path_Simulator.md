@@ -57,5 +57,7 @@ Acest instrument simulează lucrarea de desen prin scanarea modelelor 3D ale ins
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/ro

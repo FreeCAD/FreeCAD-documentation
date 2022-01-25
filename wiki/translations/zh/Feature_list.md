@@ -122,11 +122,5 @@
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
-
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/zh
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/zh

@@ -6,9 +6,9 @@
 |Author=OpenBrain
 |Date=2019-06-10
 |Version=0.7
-|FCVersion= 0.17+
+|FCVersion=0.17+
 |Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_SimpleProperties.png ToolBar Icon]
-|SeeAlso=[Arch_Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=24px><br />[Macro_FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=24px>
+|SeeAlso=[Arch Survey](Arch_Survey.md), [Macro FCInfo](Macro_FCInfo.md)
 }}
 
 ## Description
@@ -127,5 +127,7 @@ else:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro SimpleProperties/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro SimpleProperties/en

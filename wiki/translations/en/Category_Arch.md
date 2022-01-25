@@ -3,7 +3,7 @@ This category list pages related to the [Arch Workbench](Arch_Workbench.md), the
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+    
   [Arch 3DS/en](Arch_3DS/en.md)                                                                                           [Arch 3Views/en](Arch_3Views/en.md)                                                                   [Arch Add/en](Arch_Add/en.md)
   [Arch API/en](Arch_API/en.md)                                                                                           [Arch Axis/en](Arch_Axis/en.md)                                                                       [Arch AxisSystem/en](Arch_AxisSystem/en.md)
   [Arch Building/en](Arch_Building/en.md)                                                                                 [Arch BuildingPart/en](Arch_BuildingPart/en.md)                                                       [Arch Check/en](Arch_Check/en.md)
@@ -38,10 +38,9 @@ This category list pages related to the [Arch Workbench](Arch_Workbench.md), the
   [IfcPlusPlus/en](IfcPlusPlus/en.md)                                                                                     [Import/Export IFC - compiling IfcOpenShell/en](Import/Export_IFC_-_compiling_IfcOpenShell/en.md)     [Manual:BIM modeling/en](Manual:BIM_modeling/en.md)
   [Material editor/en](Material_editor/en.md)                                                                             [Material/en](Material/en.md)                                                                         [Reinforcement Addon/en](Reinforcement_Addon/en.md)
   [Reinforcement API/en](Reinforcement_API/en.md)                                                                         [SweetHome3D/en](SweetHome3D/en.md)                                                                   [Tutorial custom placing of windows and doors/en](Tutorial_custom_placing_of_windows_and_doors/en.md)
-  [Tutorial for open windows/en](Tutorial_for_open_windows/en.md)                                                                                                                                                                       
-  ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+  [Tutorial for open windows/en](Tutorial_for_open_windows/en.md)
 
-[<img src="images/Property.png" style="width:16px"> BIM/en](<img src="images/Property.png" style="width:16px"> BIM/en.md) [<img src="images/Property.png" style="width:16px"> Workbenches/en](<img src="images/Property.png" style="width:16px"> Workbenches/en.md) [<img src="images/Property.png" style="width:16px"> User Documentation/en](<img src="images/Property.png" style="width:16px"> User_Documentation/en.md)
+
 
 ---
-[documentation index](../README.md) > Category:Arch/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch/en

@@ -44,5 +44,7 @@ The **Points Export** command exports a point cloud to a file.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Points_Workbench.md) > Points Export/it

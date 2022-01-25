@@ -20,5 +20,7 @@ Clone, copy or move a geometrie. Click on the down arrow to its right to expand 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCopy/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CompCopy/en

@@ -1,11 +1,12 @@
 # Import text and geometry from Inkscape/ro
-{{TutorialInfo/ro
-|Topic= Importaţi text şi forme geometrice create cu InkScape
-|Nivel= Începător
-|Timp= 30 minute
-|Autor=r-frank
-|FCVersion=0.16.6704
-|Fişiere=
+---
+- TutorialInfo:/ro
+   Topic: Importaţi text şi forme geometrice create cu InkScape
+   Nivel: Începător
+   Timp: 30 minute
+   Autor:r-frank
+   FCVersion:0.16.6704
+   Fişiere:
 }}
 
 ## Introducere
@@ -56,5 +57,11 @@ Since inkscape and FreeCAD seem to have different approaches on how to apply dim
 
 Le mulţumesc utilizatorilor \"freecad-heini-1\" şi \"herbk\" pentru testare şi pentru furnizarea unor impresii şi informaţii de un real folos.
 
+
+{{clear
 ---
-[documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/ro
+
+
+
+---
+![](images/Right_arrow.png) [documentation index](../README.md) > [Import](Import_Workbench.md) > Import text and geometry from Inkscape/ro

@@ -45,5 +45,7 @@ Puteți modifica valori pentru această traiectorie prin definirea unei valori [
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot Edge2Trac/ro

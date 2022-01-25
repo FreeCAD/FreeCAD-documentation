@@ -45,5 +45,7 @@ Questo strumento misura l\'angolo tra due bordi diritti, due facce planari o un 
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Angular/it

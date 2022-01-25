@@ -32,5 +32,7 @@ ToDo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ClippingPlaneAdd/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ClippingPlaneAdd/ru

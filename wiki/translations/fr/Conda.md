@@ -59,7 +59,7 @@ Par exemple, plusieurs machines de développement locales ou un serveur de const
 Les versions stables de FreeCAD sont servies sur le canal conda-forge tandis que la dernière version de FreeCAD master est servie sur le canal freecad/label/dev.
 
   Conda Channel         Stable?
-  --------------------- ---------
+   
   conda-forge         Oui ✔️
   freecad/label/dev   Non ❌
 
@@ -92,7 +92,7 @@ conda create --name fcenv-dev --channel freecad/label/dev freecad
 -   <https://github.com/FreeCAD/FreeCAD_Conda>
 -   <https://github.com/FreeCAD/FreeCAD-AppImage>
 
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
+
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Conda/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Conda/fr

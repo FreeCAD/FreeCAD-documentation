@@ -85,7 +85,7 @@ The amount of user control permitted by the installer can be controlled with /q 
 <div class="mw-translate-fuzzy">
 
 -   /qn - 无用户交互
--   /qb - 基本用户交互------只显示一个过程对话框。
+-   /qb - 基本用户交互只显示一个过程对话框。
 -   /qb! - 像 /qb，但是隐藏撤销按钮。
 -   /qr - 减少接口 - 显示所有不需要用户交互的对话框(跳过所有强制回应对话框)。
 -   /qn+ - 像 /qn，但是最后显示"安装完成"对话框。
@@ -178,7 +178,7 @@ msiexec /a FreeCAD<version>.msi
 
 暂时没有管理员权限的用户交互模式卸载，所以目标路径必须要在命令行中设定。
 
-没有为管理员权限安装的卸载方式------如果没有用户使用了，直接删除即可。
+没有为管理员权限安装的卸载方式如果没有用户使用了，直接删除即可。
 
 ### 广告方式
 
@@ -247,5 +247,7 @@ FreeCAD is running, but it has been reported that the OpenGL display does not wo
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Installing on Windows/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Windows/zh-cn

@@ -22,5 +22,7 @@ To polecenie w tej chwili nie działa.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MacroStartDebug/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroStartDebug/pl

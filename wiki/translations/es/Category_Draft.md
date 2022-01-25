@@ -3,7 +3,7 @@ This category list pages related to the \"User\_Documentation/es\" and \"Workben
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------- -----------------------------------------------------------------------------
+    
   [Draft AddConstruction/es](Draft_AddConstruction/es.md)                 [Draft AddToGroup/es](Draft_AddToGroup/es.md)                   [Draft AnnotationStyleEditor/es](Draft_AnnotationStyleEditor/es.md)
   [Draft API/es](Draft_API/es.md)                                         [Draft ApplyStyle/es](Draft_ApplyStyle/es.md)                   [Draft Arc/es](Draft_Arc/es.md)
   [Draft Array/es](Draft_Array/es.md)                                     [Draft AutoGroup/es](Draft_AutoGroup/es.md)                     [Draft BezCurve/es](Draft_BezCurve/es.md)
@@ -29,10 +29,8 @@ This category list pages related to the \"User\_Documentation/es\" and \"Workben
   [Draft tutorial/es](Draft_tutorial/es.md)                               [Draft Upgrade/es](Draft_Upgrade/es.md)                         [Draft Wire/es](Draft_Wire/es.md)
   [Draft WireToBSpline/es](Draft_WireToBSpline/es.md)                     [Draft Workbench/es](Draft_Workbench/es.md)                     [Draft WorkingPlaneProxy/es](Draft_WorkingPlaneProxy/es.md)
   [DXF/es](DXF/es.md)                                                     [FreeCAD and DWG Import/es](FreeCAD_and_DWG_Import/es.md)       [SVG/es](SVG/es.md)
-                                                                                                                                                          
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------- -----------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/es](<img src="images/Property.png" style="width:16px"> User_Documentation/es.md) [<img src="images/Property.png" style="width:16px"> Workbenches/es](<img src="images/Property.png" style="width:16px"> Workbenches/es.md)
+
 
 ---
-[documentation index](../README.md) > Category:Draft/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/es

@@ -44,7 +44,7 @@ ToolBar Icon ![](images/ImportAirfoil.svg )
 # https://vazmfb.com
 # Belgrade, 2022
 # 
-# --------------------
+# 
 #
 # Copyright (C) 2022 Milos Petrasinovic <info@vazmfb.com>
 # 
@@ -61,13 +61,13 @@ ToolBar Icon ![](images/ImportAirfoil.svg )
 # You should have received a copy of the GNU Lesser General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
-# --------------------
+# 
 #
 # Based on:
 # Airfoil Import and Scale 2.1.2
 # (c) quick61
 #
-# --------------------
+# 
 
 __Name__ = 'ImportAirfoil'
 __Comment__ = 'Airfoil import macro'
@@ -346,5 +346,7 @@ else:
 
 The forum discussion [New Macro: ImportAirfoil](https://forum.freecadweb.org/viewtopic.php?f=22&t=65085)
 
+
+
 ---
-[documentation index](../README.md) > Macro ImportAirfoil/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro ImportAirfoil/en

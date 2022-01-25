@@ -62,5 +62,7 @@ Siehe [Draft Fang Einstellungen](Draft_Snap/de#Einstellungen.md).
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/de

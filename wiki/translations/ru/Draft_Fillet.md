@@ -115,5 +115,7 @@ fillet = Draft.make_fillet([line1, line2], radius=500)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Fillet/ru

@@ -124,5 +124,7 @@ App.closeDocument(App.ActiveDocument.Name)
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewScreenShot/pt
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewScreenShot/pt

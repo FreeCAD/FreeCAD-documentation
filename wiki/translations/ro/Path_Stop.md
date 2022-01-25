@@ -40,5 +40,7 @@ Rețineți că acest lucru nu oprește axul.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Stop/ro

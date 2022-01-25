@@ -1,5 +1,7 @@
 # Draft CloseLine/tr
 1.  REDIRECT [Draft\_Wire/tr](Draft_Wire/tr.md)
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CloseLine/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft CloseLine/tr

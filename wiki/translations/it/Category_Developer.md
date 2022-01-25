@@ -5,7 +5,7 @@ Questa categoria contiene gli articoli che sono importanti per gli sviluppatori.
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- -----------------------------------------------------------
+    
   [Changelog/it](Changelog/it.md)                                               [Compile on Docker/it](Compile_on_Docker/it.md)                                   [Compile on Linux/it](Compile_on_Linux/it.md)
   [Compile on MacOS/it](Compile_on_MacOS/it.md)                                 [Compile on MinGW/it](Compile_on_MinGW/it.md)                                     [Compile on Windows/it](Compile_on_Windows/it.md)
   [Compiling (Speeding up)/it](Compiling_(Speeding_up)/it.md)                   [Compiling/it](Compiling/it.md)                                                   [Conda/it](Conda/it.md)
@@ -14,10 +14,9 @@ Questa categoria contiene gli articoli che sono importanti per gli sviluppatori.
   [File Format FCStd/it](File_Format_FCStd/it.md)                               [ImageConv/it](ImageConv/it.md)                                                   [InputField/it](InputField/it.md)
   [Land Survey Workbench Blueprint/it](Land_Survey_Workbench_Blueprint/it.md)   [LGTM/it](LGTM/it.md)                                                             [Material/it](Material/it.md)
   [Organization chart/it](Organization_chart/it.md)                             [Svg Namespace/it](Svg_Namespace/it.md)                                           [WikiRobots/it](WikiRobots/it.md)
-  [Wished tools/it](Wished_tools/it.md)                                                                                                                                   
-  ------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- -----------------------------------------------------------
+  [Wished tools/it](Wished_tools/it.md)
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation/it](<img src="images/Property.png" style="width:16px"> Developer_Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Categories/it](<img src="images/Property.png" style="width:16px"> Categories/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer/it

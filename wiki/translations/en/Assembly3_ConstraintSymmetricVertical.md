@@ -20,5 +20,7 @@ Based on one planar element\'s ICS both other elements\' ICSs\' origins are posi
 3.  Select a planar element of the other object
 4.  Press the **<img src="images/Assembly_ConstraintGeneral.svg" width=16px> [Symmetric vertical](Assembly3_ConstraintSymmetricVertical.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetricVertical/en

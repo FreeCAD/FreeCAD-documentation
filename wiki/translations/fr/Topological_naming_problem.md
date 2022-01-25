@@ -23,9 +23,9 @@ Le problème de dénomination topologique affecte et trouble le plus souvent les
 
 2\. Sélectionnez la face supérieure du solide précédent et utilisez <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md) pour dessiner une autre esquisse. Effectuez ensuite une deuxième protrusion.
 
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_02_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_03_solid_2.png  style="width:" height="400px;">
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
 
 3\. Sélectionnez la face supérieure de l\'extrusion précédente et créez à nouveau une esquisse et une protrusion.
 
@@ -33,17 +33,17 @@ Le problème de dénomination topologique affecte et trouble le plus souvent les
 
 4\. Double-cliquez à présent sur la seconde esquisse et modifiez la de manière à ce que sa longueur soit dans la direction X ; cela recréera la deuxième protrusion. Les troisième esquisse et protrusion resteront au même endroit.
 
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_05_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_06_solid_2.png  style="width:" height="400px;">
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
 
 <img alt="" src=images/FreeCAD_topological_problem_07_solid_3.png  style="width:" height="400px;">
 
 5\. Double-cliquez à nouveau sur la seconde esquisse et ajustez ses points de sorte qu\'une partie de celle-ci se situe en dehors des limites définies par la première protrusion. En faisant cela, la deuxième protrusion se recalculera correctement, cependant en regardant la [vue arborescente](tree_view/fr.md) une erreur sera indiquée dans la troisième protrusion.
 
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width:" height="400px;">
-  ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
 
 ![](images/FreeCAD_topological_problem_12_broken_tree.png )
 
@@ -51,17 +51,17 @@ Le problème de dénomination topologique affecte et trouble le plus souvent les
 
 Le problème semble être que lorsque la deuxième esquisse a été modifiée, la face supérieure du deuxième bloc a été renommée de `Face13` à `Face14`. La troisième esquisse est attachée à `Face13` comme elle l'était à l'origine, mais comme cette face est maintenant latérale et non plus au dessus, l'esquisse suit son orientation et est maintenant mal positionnée.
 
-  --------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_10_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_11_solid_2_faces.png  style="width:" height="400px;">
-  --------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------
+   
 
 7\. Pour résoudre le problème, la troisième esquisse doit à nouveau être tracée sur la face supérieure. Sélectionnez l\'esquisse, cliquez sur les points de suspension (trois points) en regard de la {{PropertyData/fr|Map Mode}}, puis choisissez à nouveau la face supérieure du second bloc. Ensuite, l\'esquisse se déplace vers le haut du solide existant et le troisième bloc est généré sans problème.
 
 ![](images/FreeCAD_topological_problem_13_remap_sketch_2.png )
 
-  --------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_14_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_15_solid_3.png  style="width:" height="400px;">
-  --------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+   
 
 Le retraçage d\'une esquisse de cette manière peut être effectué chaque fois qu\'il y a une erreur de nom topologique. Toutefois, cette opération peut s\'avérer fastidieuse si le modèle est compliqué et que de nombreuses esquisses de ce type doivent être ajustées.
 
@@ -80,9 +80,9 @@ Comme expliqué dans la page d\'[édition de fonctions](feature_editing/fr.md), 
 
 
 
-  --------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------
+   
   <img alt="" src=images/FreeCAD_topological_problem_17_datum_plane_1.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_18_datum_plane_2.png  style="width:" height="400px;">
-  --------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------
+   
 
 3\. Sélectionnez la seconde esquisse, cliquez sur les points de suspension en regard de la propriété {{PropertyData/fr|Map Mode}}, puis sélectionnez le premier plan de référence. Le plan de référence est déjà décalé par rapport au plan XY du corps, de sorte qu\'aucun autre décalage Z n\'est requis pour l\'esquisse.
 
@@ -124,9 +124,9 @@ Les objets de référence, [points](PartDesign_Point/fr.md), [lignes](PartDesign
 -   [Why do my FreeCAD models break? - \"Topological Naming Problem\"](https://youtu.be/6p2vqEEmWq4): Une explication vidéo des problèmes sous-jacents du [Problème de dénomination topologique](Topological_naming_problem/fr.md)
 
 
- {{TechDraw Tools navi}} {{PartDesign Tools navi}} 
+ {{TechDraw Tools navi}} {{PartDesign Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
+
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Topological naming problem/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [TechDraw](Category_TechDraw.md) > [PartDesign](Category_PartDesign.md) > [Part](Category_Part.md) > Topological naming problem/fr

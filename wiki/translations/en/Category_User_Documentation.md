@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+    
   [3D view/en](3D_view/en.md)                                                                                     [3Dconnexion input devices/en](3Dconnexion_input_devices/en.md)                                                         [A2plus Workbench/en](A2plus_Workbench/en.md)
   [About FreeCAD/en](About_FreeCAD/en.md)                                                                         [Add Button to FEM Toolbar Tutorial/en](Add_Button_to_FEM_Toolbar_Tutorial/en.md)                                       [Add FEM Constraint Tutorial/en](Add_FEM_Constraint_Tutorial/en.md)
   [Add FEM Equation Tutorial/en](Add_FEM_Equation_Tutorial/en.md)                                                 [Addon/en](Addon/en.md)                                                                                                 [Advanced Attachment OYX/en](Advanced_Attachment_OYX/en.md)
@@ -170,10 +170,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [FEM PostFilterClipScalar/en](FEM_PostFilterClipScalar/en.md)                                                   [FEM PostFilterCutFunction/en](FEM_PostFilterCutFunction/en.md)                                                         [FEM PostFilterDataAlongLine/en](FEM_PostFilterDataAlongLine/en.md)
   [FEM PostFilterDataAtPoint/en](FEM_PostFilterDataAtPoint/en.md)                                                 [FEM PostFilterLinearizedStresses/en](FEM_PostFilterLinearizedStresses/en.md)                                           [FEM PostFilterWarp/en](FEM_PostFilterWarp/en.md)
   [FEM PostPipelineFromResult/en](FEM_PostPipelineFromResult/en.md)                                               [FEM Preferences/en](FEM_Preferences/en.md)                                                                             [FEM project/en](FEM_project/en.md)
-  [FEM ResultShow/en](FEM_ResultShow/en.md)                                                                       [FEM ResultsPurge/en](FEM_ResultsPurge/en.md)                                                                           
-  ----------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+  [FEM ResultShow/en](FEM_ResultShow/en.md)                                                                       [FEM ResultsPurge/en](FEM_ResultsPurge/en.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/en](<img src="images/Property.png" style="width:16px"> Documentation/en.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/en

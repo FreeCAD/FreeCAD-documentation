@@ -122,7 +122,7 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 
 ## Opțiuni
 
-+--------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Multitransfrom_parameters.png ) | Atunci când creați o funcție multitransformare, dialogul \"parametrii multitransformați\" oferă două vizualizări de listă diferite.                                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    | ### Selectați originalele                                                                                                                                                                                                                                                                                                                                   |
@@ -148,7 +148,7 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 |                                                                    | #### Mutarea Sus/Jos                                                                                                                                                                                                                                                                                                                                               |
 |                                                                    |                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                    | Permite modificarea ordinii transformărilor din listă                                                                                                                                                                                                                                                                                                                               |
-+--------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 
@@ -200,5 +200,7 @@ Allows changing the order of transformations in the list \|}
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MultiTransform/ro

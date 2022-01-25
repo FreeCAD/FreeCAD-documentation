@@ -20,5 +20,7 @@ Der Befehl <img alt="" src=images/Assembly_Import.svg‎‎  style="width:24px;"
 1.  Schaltfläche **<img src="images/Assembly_Import.svg‎‎" width=16px> [STEP-Dateien importieren](Assembly3_ImportFromSTEP/de.md)** drücken, um ein Browser-Fenster zu öffnen
 2.  Eine STEP-Datei zum Importieren auswählen
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ImportFromSTEP/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ImportFromSTEP/de

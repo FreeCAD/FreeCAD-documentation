@@ -3,11 +3,13 @@ Cette catégorie répertorie les pages liées à l\'atelier [Test Framework Work
 
 ### Contents:
 
-  -------------------------------------
+  
   [Testing/fr](Testing/fr.md)
-  -------------------------------------
+  
 
-[Workbenches/fr](<img src="images/Property.png" style="width:16px"> Workbenches/fr.md) [User\_Documentation/fr](<img src="images/Property.png" style="width:16px"> User_Documentation/fr.md) [Testing/fr](<img src="images/Property.png" style="width:16px"> Testing/fr.md)
+[Workbenches/fr](Category:Workbenches/fr.md) [User\_Documentation/fr](Category:User_Documentation/fr.md) [Testing/fr](Category:Testing/fr.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:Test Framework/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Test Framework/fr

@@ -33,5 +33,7 @@ Le mode Synchronisation de vue de l\'arborescence peut également être défini 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSyncView/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncView/fr

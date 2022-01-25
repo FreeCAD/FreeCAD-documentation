@@ -9,7 +9,7 @@ A partire da FreeCAD 0.15, questa funzione non è disponibile direttamente, ma �
 
 ### Opzioni
 
-+----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Scaled_parameters.png ) | Quando si crea una operazione Scala, la finestra di dialogo **Parametri della scalatura** offre le seguenti opzioni:                                                   |
 |                                                    |                                                                                                                                                                        |
 |                                                    | #### Selezionare gli originali                                                                                                             |
@@ -19,7 +19,7 @@ A partire da FreeCAD 0.15, questa funzione non è disponibile direttamente, ma �
 |                                                    | #### Fattore di scala e numero di copie                                                                                           |
 |                                                    |                                                                                                                                                                        |
 |                                                    | **Factor** e **Occurrences** specificano rispettivamente il fattore di scala massimo e il numero totale di forme scalate (inclusa l\'originale) che si vuole ottenere. |
-+----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 
@@ -38,5 +38,7 @@ A partire da FreeCAD 0.15, questa funzione non è disponibile direttamente, ma �
 
 Poiché la scalatura viene eseguita rispetto al centro di gravità, nel caso di un Pad, è necessario che il pad penetri anche nel corpo principale, altrimenti gli oggetti scalati sono flottanti, staccati dal corpo. Per avere un pad che interseca il corpo principale possono essere utilizzate le opzioni \"due dimensioni\" o \"simmetrica al piano\".
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/it

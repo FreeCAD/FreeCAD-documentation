@@ -3,5 +3,7 @@ Questa categoria elenca le pagine che sono obsolete rispetto alla versione corre
 
 ### Contents:
 
+
+
 ---
-[documentation index](../README.md) > Category:Obsolete page/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Obsolete page/it

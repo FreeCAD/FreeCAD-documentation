@@ -54,7 +54,5 @@ La bibliothèque est un simple conteneur pour les fichiers FreeCAD (.fcstd) et S
 
 
 
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Parts Library Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > Parts Library Workbench/fr

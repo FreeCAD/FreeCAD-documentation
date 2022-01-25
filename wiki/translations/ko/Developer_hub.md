@@ -1,5 +1,8 @@
-# Developer hub/ko
-![150](images/Crystal_Clear_app_tutorials.png )
+# <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> Developer hub/ko
+
+
+
+
 
 이곳은 FreeCAD 개발에 기여하고 싶다면 올 장소입니다.
 
@@ -191,8 +194,5 @@ FreeCAD, though usable in certain areas, is at the beginning of a long way into 
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > [Hubs](Category_Hubs.md) > [Developer Documentation](Category_Developer Documentation.md) > Developer hub/ko

@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Atelier Part
+   Level:Débutant
+   Time:10 minutes
+   Author:Hughthecat
+   FCVersion:
+   Files:
+---
+
 # Aeroplane/fr
-{{TutorialInfo/fr
-|Topic=Atelier Part
-|Level=Débutant
-|Time=10 minutes
-|Author=Hughthecat
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 ## Premiers pas 
 
@@ -97,9 +103,6 @@ Voici quelques autres suggestions pour jouer avec l\'avion :
 J\'espère, que ce petit tutoriel vous a aidé, à comprendre les rotations.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Aeroplane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/fr

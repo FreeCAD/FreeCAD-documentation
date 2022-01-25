@@ -105,5 +105,7 @@ Se inizialmente non viene assegnato alcuno scostamento all\'immagine, la sua pos
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/it

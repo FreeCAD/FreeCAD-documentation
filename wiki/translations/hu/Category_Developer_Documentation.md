@@ -6,7 +6,7 @@ This category gathers documentation article mostly aimed at programmers
   --
   --
 
-[<img src="images/Property.png" style="width:16px"> Documentation/hu](<img src="images/Property.png" style="width:16px"> Documentation/hu.md) [<img src="images/Property.png" style="width:16px"> Artwork/hu](<img src="images/Property.png" style="width:16px"> Artwork/hu.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/hu
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/hu

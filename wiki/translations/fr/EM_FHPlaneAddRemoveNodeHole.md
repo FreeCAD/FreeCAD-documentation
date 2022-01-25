@@ -54,5 +54,7 @@ Pour ajouter ou supprimer des objets Noeud FH ou Trou FH d\'un Plan FH via des s
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > EM FHPlaneAddRemoveNodeHole/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPlaneAddRemoveNodeHole/fr

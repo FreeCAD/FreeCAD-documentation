@@ -47,5 +47,7 @@ Prima di utilizzare questo comando assicurarsi che agli elementi siano già appl
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConnectLines/it

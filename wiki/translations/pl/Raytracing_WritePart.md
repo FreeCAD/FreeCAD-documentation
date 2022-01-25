@@ -31,5 +31,7 @@ Eksport wybranego elementu do pliku o formacie POV-Ray, do użycia w projekcie P
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/pl

@@ -3,11 +3,10 @@ This category lists pages that relate to the [Web Workbench/cs](Web_Workbench/cs
 
 ### Contents:
 
-  -------------------------------------------------
+  
   [Web Workbench/cs](Web_Workbench/cs.md)
-  -------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/cs](<img src="images/Property.png" style="width:16px"> Workbenches/cs.md)
+
 
 ---
-[documentation index](../README.md) > Category:Web/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Web/cs

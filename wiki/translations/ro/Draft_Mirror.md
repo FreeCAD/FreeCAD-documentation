@@ -162,5 +162,7 @@ mirrored2 = Draft.mirror([polygon1, polygon2], -p1, -p2)
 doc.recompute()
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Mirror/ro

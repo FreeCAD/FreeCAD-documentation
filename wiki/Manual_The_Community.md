@@ -35,5 +35,7 @@ Hopefully, we managed to give you a good taste of FreeCAD in this manual, and yo
 -   [Translating FreeCAD on crowdin](https://crowdin.com/project/freecad)
 -   [The FreeCAD bug tracker](http://www.freecadweb.org/tracker)
 
+
+
 ---
-[documentation index](../README.md) > Manual:The Community
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The Community

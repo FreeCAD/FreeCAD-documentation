@@ -81,5 +81,7 @@ Wenn der Skizzenbearbeitungsmodus geschlossen ist, sind externe Geometrielinien 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher External/de

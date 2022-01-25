@@ -20,5 +20,7 @@ Based on one planar element\'s ICS the line element\'s start and end point are p
 3.  Select a planar face element of the second object
 4.  Press the **<img src="images/Assembly_ConstraintLineVertical.svg" width=16px> [Line vertical](Assembly3_ConstraintLineVertical.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintLineVertical/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLineVertical/pl

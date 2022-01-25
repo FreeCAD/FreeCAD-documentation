@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic:Plot workbench
+   Level:Intermediate
+   Time:
+   Author:
+   FCVersion:0.19
+   Files:
+---
+
 # Plot MultiAxes tutorial
-{{TutorialInfo
-|Topic=Plot workbench
-|Level=Intermediate
-|Time=
-|Author=
-|FCVersion=0.19
-|Files=
-}}
+
+ 
+
+
 
 Please complete the [basic tutorial](Plot_Basic_tutorial.md) before starting with this tutorial. In this tutorial we will learn how to create and edit a multiaxes plot. You can learn more about the [Plot Workbench here](Plot_Workbench.md).
 
@@ -123,9 +128,9 @@ When you run the tool you will see a list of all editable elements. Titles and l
 
 Now you can save your work. See the [previous tutorial](Plot_Basic_tutorial.md) if you don\'t remember how to do it.
 
- {{Tutorials_navi}} {{Plot_Tools_navi}} 
+ {{Tutorials_navi}} {{Plot_Tools_navi}}
 
-[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot MultiAxes tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > [Addons](Category_Addons.md) > Plot MultiAxes tutorial

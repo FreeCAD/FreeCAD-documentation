@@ -58,9 +58,6 @@ Il y a beaucoup de fonctions GuiCommands (outils) dans FreeCAD, qui sont expéri
 Espérons que cela devienne vrai pour toutes les GuiCommands de la [liste des commandes](List_of_Commands/fr.md).
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > Gui Command/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/fr

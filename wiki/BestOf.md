@@ -24,5 +24,7 @@ In order for this page to remain clean and clear and not descend in to a chaotic
 
 -   OSS Philosophy - \@Abdullah\'s response to a user who is part of a small firm asking if they should integrate FreeCAD in to their workflow - ([link](https://forum.freecadweb.org/viewtopic.php?f=10&t=22372#p173810))
 
+
+
 ---
-[documentation index](../README.md) > BestOf
+![](images/Right_arrow.png) [documentation index](../README.md) > BestOf

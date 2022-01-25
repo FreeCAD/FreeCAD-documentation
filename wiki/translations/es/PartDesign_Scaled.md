@@ -21,7 +21,7 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 
 ## Opciones
 
-+----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Scaled_parameters.png ) | Cuando se crea una operación de Escalar, el letrero de diálogo de \'parámetros de escalado\' ofrece las siguientes opciones:                              |
 |                                                    |                                                                                                                                                           |
 |                                                    | ### Selecionar los originales                                                                                                 |
@@ -31,7 +31,7 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 |                                                    | ### Factor e instancias                                                                                                             |
 |                                                    |                                                                                                                                                           |
 |                                                    | Especifica el máximo factor con respecto al cual la operaciones se van a escalar, y el número total de formas escaladas (incluida la operación original). |
-+----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 
@@ -56,5 +56,7 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 
 Since the scaling is done with respect to the center of gravity, in the case of a pad, it is necessary that the pad penetrate also in the main body, otherwise the scaled objects are floating, detached from the body. To have a pad that intersects the main body can be used \"two dimensions\" type or \"simmetric to plane\" option.
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/es

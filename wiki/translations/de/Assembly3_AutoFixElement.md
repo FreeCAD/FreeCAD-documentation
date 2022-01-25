@@ -19,5 +19,7 @@ Der Befehl <img alt="" src=images/Assembly_AutoFixElement.svg  style="width:24px
     -   Die Schaltfläche **<img src="images/Assembly_AutoFixElement.svg" width=16px> [Element automatisch fixieren](Assembly3_AutoFixElement/de.md)**.
     -   Den Menüeintrag **Assembly3 → <img src="images/Assembly_AutoFixElement.svg" width=16px> Element automatisch fixieren**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AutoFixElement/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoFixElement/de

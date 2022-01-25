@@ -43,9 +43,9 @@ L\'atelier Ship n\'était plus maintenu depuis la v0.17 mais a été ressuscité
 
 {{Ship Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Ship Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Ship](Category_Ship.md) > Ship Workbench/fr

@@ -88,7 +88,7 @@ Hier nun die Beschreibung von beschlossenen Materialeigenschaften. Du kannst ger
 ## Allgemein
 
   Eigenschaftsname   Beschreibung                                                                                                                                                                                            Einheit/Datentyp
-  ------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------
+    
   Name               Eindeutiger Name der Eigenschaft, gemäß den o.g. Regeln                                                                                                                                                 ASCII-String 7-bit
   Father             Name der Materialgruppe, zu der dieses Material gehört. Falls definiert, erbt dieses Material alle Vatereigenschaften. Das bedeutet, falls nicht definiert, werden die Vater-Eigenschaften verwendet.   ASCII-String 7-bit
   Description        Ein Platzhalter für eine längere Materialbeschreibung                                                                                                                                                   ASCII-String 7-bit
@@ -104,7 +104,7 @@ Hier nun die Beschreibung von beschlossenen Materialeigenschaften. Du kannst ger
 ### Mechanisch
 
   property name                         Description                                                                                                                                                                                                                                                                                                                            Unit/Data-Type
-  ------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------
+    
   Young\'s Modulus                      Young\'s modulus, also known as the tensile modulus or elastic modulus, is a measure of the stiffness of an elastic material and is a quantity used to characterize materials. See: [Young\'s modulus](http://en.wikipedia.org/wiki/Young%27s_modulus)                                                                                 kg\*mm\^-1\*s\^-2 (kPa)
   Poisson\'s Ratio                      The lateral contraction of materials under tension as a fraction of their elongation. See: [Poisson\'s Ratio](https://en.wikipedia.org/wiki/Poisson%27s_ratio)                                                                                                                                                                         Dimensionless (-)
   Yield Strength                        The stress at which a ductile material (like steel) starts to develop plastic (irreversible) deformation. See: [Yield Strength](https://en.wikipedia.org/wiki/Yield_(engineering))                                                                                                                                                     N\'\*mm\^-2 (MPa)
@@ -124,7 +124,7 @@ Hier nun die Beschreibung von beschlossenen Materialeigenschaften. Du kannst ger
 Dieser Abschnitt definiert Materialeigenschaften, die die visuelle Erscheinung des Materials betreffen. Die
 
   Eigenschaftenname            Beschreibung                                                                                         Einheit/Datentyp
-  ---------------------------- ---------------------------------------------------------------------------------------------------- ----------------------------------
+    
   AmbientColor                 Umgebungsfarbe im Coin3D Farbmodell                                                                  float,float,float range: 0.0-1.0
   DiffuseColor                 Diffuse Farbe im Coin3D Farbmodell                                                                   float,float,float range: 0.0-1.0
   SpecularColor                Spiegelfarbe im Coin3D Farbmodell                                                                    float,float,float range: 0.0-1.0
@@ -140,7 +140,7 @@ Dieser Abschnitt definiert Materialeigenschaften, die die visuelle Erscheinung d
 ### Thermisch
 
   Eigenschaftsname              Beschreibung                                                                                                                       Einheit/Datentyp
-  ----------------------------- ---------------------------------------------------------------------------------------------------------------------------------- ------------------
+    
   ThermalConductivity           Die [Wärmeleitfähigkeit (R oder Lambda-Koeffizient)](https://de.wikipedia.org/wiki/W%C3%A4rmeleitf%C3%A4higkeit) eines Materials   W/m²K
   ThermalExpansionCoefficient                                                                                                                                      
   SpecificHeat                                                                                                                                                     
@@ -153,7 +153,7 @@ Dieser Abschnitt definiert Materialeigenschaften, die die visuelle Erscheinung d
 <div class="mw-translate-fuzzy">
 
   Eigenschaftsname    Beschreibung                                                                                                   Einheit/Datentyp
-  ------------------- -------------------------------------------------------------------------------------------------------------- --------------------
+    
   StandardFormat      Das für dieses Material benutzte Standard-Spezifikationssystem (ASTM, MasterFormat, CSI, OmniClass, etc\...)   String ASCII 7-bit
   StandardCode        Der spezifische Code dieses Materials im o.g. Standardformat                                                   String ASCII 7-bit
   FireStandard        Die Feuerwiderstandsklasse für dieses Material                                                                 String ASCII 7-bit
@@ -174,9 +174,9 @@ Dieser Abschnitt definiert Materialeigenschaften, die die visuelle Erscheinung d
 
 -   add sustainability & LEED properties
 
- {{FEM Tools navi}} 
+ {{FEM Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
+
 
 ---
-[documentation index](../README.md) > [Developer](Category_Developer.md) > Material/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Roadmap](Category_Roadmap.md) > [BIM](Category_BIM.md) > [File_Formats](Category_File_Formats.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > Material/de

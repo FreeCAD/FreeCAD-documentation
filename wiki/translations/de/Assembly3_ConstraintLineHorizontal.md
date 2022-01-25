@@ -21,5 +21,7 @@ Bezüglich des LKS des planaren Elements werden Anfangs- und Endpunkt des Linien
 3.  Ein planares Flächenelement des anderen Objekts auswählen.
 4.  Schaltfläche **<img src="images/Assembly_ConstraintLineHorizontal.svg" width=16px> [Horizontale Linie](Assembly3_ConstraintLineHorizontal/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintLineHorizontal/de

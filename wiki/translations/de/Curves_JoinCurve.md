@@ -63,5 +63,7 @@ Das <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [Kurven Ve
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Curves JoinCurve/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves JoinCurve/de

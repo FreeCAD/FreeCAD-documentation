@@ -32,5 +32,7 @@ This tool allows you to place a view of a selected [spreadsheet](Spreadsheet_Wor
 
  {{Drawing Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing SpreadsheetView
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing SpreadsheetView

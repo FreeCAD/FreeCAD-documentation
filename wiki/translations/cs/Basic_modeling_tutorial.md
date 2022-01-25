@@ -1,11 +1,12 @@
 # Basic modeling tutorial/cs
-{{TutorialInfo/cs
-|Topic= Introduction to modelling
-|Level= Beginner
-|Time= 15 minutes
-|Author=
-|FCVersion=
-|Files=
+---
+- TutorialInfo:/cs
+   Topic: Introduction to modelling
+   Level: Beginner
+   Time: 15 minutes
+   Author:
+   FCVersion:
+   Files:
 }}
 
 ## Introduction
@@ -202,9 +203,10 @@ Označení na tlačítku Vašeho FreeCADu může být jiné v závislosti na ver
 Instrukce uvedené výše budou fungovat bez ohledu na to co je tlačítku.
 
 
-{{Tutorials navi
+  {{Userdocnavi
+---
 
-}}
+
 
 ---
-[documentation index](../README.md) > Basic modeling tutorial/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/cs

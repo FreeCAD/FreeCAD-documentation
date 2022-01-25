@@ -58,5 +58,7 @@ Activez ensuite la vue à l\'aide du menu, **Affichage → Panneaux → Vue arbo
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Combo view/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Combo view/fr

@@ -1,11 +1,12 @@
 # Robot tutorial/fr
-{{TutorialInfo/fr
-|Topic= Robot Workbench
-|Level= Débutant
-|Time=
-|Author=r-frank
-|FCVersion=0.16.6703 et plus
-|Files=
+---
+- TutorialInfo:/fr
+   Topic: Robot Workbench
+   Level: Débutant
+   Time:
+   Author:r-frank
+   FCVersion:0.16.6703 et plus
+   Files:
 }}
 
 Ce tutoriel a pour but de vous apprendre à utiliser l\'[atelier de simulation de Robot](Robot_Workbench/fr.md) pour simuler une cellule de configuration de robot.
@@ -47,9 +48,10 @@ Ce tutoriel vise l\'utilisation des [robots industriels](http://fr.wikipedia.org
 4.  Visualiser la simulation
 
 
-{{Tutorials navi
+ {{Robot Tools navi}} {{Userdocnavi
+---
 
-}} {{Robot Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/fr

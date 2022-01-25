@@ -63,5 +63,7 @@ Les valeurs par défaut du programme sont pour:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetDefaultValues/fr

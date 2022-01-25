@@ -10,5 +10,7 @@ Eine [Kalkulationstabelle](spreadsheet/de.md) ist eine Seite, die Zeilen und Spa
 3.  Den Inhalt der Zellen bearbeiten.
 4.  Schließe den Tabellenblattreiter, wenn du fertig bist. Die Werte werden automatisch gespeichert, wenn du sie eingibst.
 
+
+
 ---
-[documentation index](../README.md) > Spreadsheet/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Spreadsheet/de

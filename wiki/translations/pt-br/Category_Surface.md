@@ -3,11 +3,10 @@ This category lists pages related to the [Surface Workbench/pt-br](Surface_Workb
 
 ### Contents:
 
-  ---------------------------------------------------------------
+  
   [Surface Workbench/pt-br](Surface_Workbench/pt-br.md)
-  ---------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/pt-br](<img src="images/Property.png" style="width:16px"> Workbenches/pt-br.md)
+
 
 ---
-[documentation index](../README.md) > Category:Surface/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Surface/pt-br

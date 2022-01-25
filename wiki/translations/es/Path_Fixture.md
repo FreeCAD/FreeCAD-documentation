@@ -68,5 +68,7 @@ The G59 Fixture is used to expand available fixtures. The degree of expansion im
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Fixture/es

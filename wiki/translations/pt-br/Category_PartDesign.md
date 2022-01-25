@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to PartDesign
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [Basic Part Design Tutorial/pt-br](Basic_Part_Design_Tutorial/pt-br.md)                     [Body/pt-br](Body/pt-br.md)                                                       [Creating a simple part with PartDesign/pt-br](Creating_a_simple_part_with_PartDesign/pt-br.md)
   [Feature editing/pt-br](Feature_editing/pt-br.md)                                           [Part and PartDesign/pt-br](Part_and_PartDesign/pt-br.md)                         [PartDesign AdditiveBox/pt-br](PartDesign_AdditiveBox/pt-br.md)
   [PartDesign AdditiveCone/pt-br](PartDesign_AdditiveCone/pt-br.md)                           [PartDesign AdditiveCylinder/pt-br](PartDesign_AdditiveCylinder/pt-br.md)         [PartDesign AdditiveEllipsoid/pt-br](PartDesign_AdditiveEllipsoid/pt-br.md)
@@ -24,8 +24,9 @@ This category includes FreeCAD pages related to PartDesign
   [PartDesign SubtractiveHelix/pt-br](PartDesign_SubtractiveHelix/pt-br.md)                   [PartDesign SubtractiveLoft/pt-br](PartDesign_SubtractiveLoft/pt-br.md)           [PartDesign SubtractivePipe/pt-br](PartDesign_SubtractivePipe/pt-br.md)
   [PartDesign SubtractivePrism/pt-br](PartDesign_SubtractivePrism/pt-br.md)                   [PartDesign SubtractiveSphere/pt-br](PartDesign_SubtractiveSphere/pt-br.md)       [PartDesign SubtractiveTorus/pt-br](PartDesign_SubtractiveTorus/pt-br.md)
   [PartDesign SubtractiveWedge/pt-br](PartDesign_SubtractiveWedge/pt-br.md)                   [PartDesign Thickness/pt-br](PartDesign_Thickness/pt-br.md)                       [PartDesign WizardShaft/pt-br](PartDesign_WizardShaft/pt-br.md)
-  [PartDesign Workbench/pt-br](PartDesign_Workbench/pt-br.md)                                 [Topological naming problem/pt-br](Topological_naming_problem/pt-br.md)           
-  --------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+  [PartDesign Workbench/pt-br](PartDesign_Workbench/pt-br.md)                                 [Topological naming problem/pt-br](Topological_naming_problem/pt-br.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:PartDesign/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:PartDesign/pt-br

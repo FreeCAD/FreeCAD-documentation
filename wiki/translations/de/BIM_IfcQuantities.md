@@ -24,5 +24,7 @@ Beim Exportieren einer IFC Datei aus FreeCAD werden standardmäßig keine expliz
 
 Du kannst auch den Größenmanager verwenden, um die tatsächlichen **Höhe**, **Breite** und **Länge** Werte von Objekten zu ändern oder zu fixieren. Dies hat jedoch Auswirkungen auf die Objektgeometrie in FreeCAD.
 
+
+
 ---
-[documentation index](../README.md) > BIM IfcQuantities/de
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcQuantities/de

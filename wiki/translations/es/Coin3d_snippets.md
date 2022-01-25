@@ -107,11 +107,6 @@ No requiere instalación. Gracias al autor del programa.
 3.  Generalmente, COIN3D no proporciona buenos dibujos primitivos. El sistema de widgets Design456 sí proporciona algunos: algunas formas básicas, y también algunas formas complejas. El widget de flecha y el widget de línea utilizados por el [Ambiente de trabajo Design456](Design456_Workbench/es.md) son ejemplos.
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Coin3d snippets/es

@@ -65,5 +65,7 @@ Im [Parametereditor](Std_DlgParameter/de.md) kannst du auch einige Eigenschaften
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > DAG view/de
+![](images/Right_arrow.png) [documentation index](../README.md) > DAG view/de

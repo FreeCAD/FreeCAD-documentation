@@ -27,9 +27,6 @@ O cutie de legare este un cub ortografic, care este o modalitate de a descrie gr
 {{APIClass|Placement| |Creates a [Placement](Placement_API.md).}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Base API/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Base API/ro

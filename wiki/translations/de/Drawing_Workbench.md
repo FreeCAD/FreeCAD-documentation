@@ -78,9 +78,9 @@ Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite 
 
 {{Drawing Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Obsolete Workbenches](Category_Obsolete_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > Drawing Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > [Drawing](Category_Drawing.md) > Drawing Workbench/de

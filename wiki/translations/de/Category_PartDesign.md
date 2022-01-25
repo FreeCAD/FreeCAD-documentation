@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to PartDesign
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------
+    
   [Artwork PartDesign/de](Artwork_PartDesign/de.md)                                           [Basic Part Design Tutorial/de](Basic_Part_Design_Tutorial/de.md)                     [Body/de](Body/de.md)
   [Creating a simple part with PartDesign/de](Creating_a_simple_part_with_PartDesign/de.md)   [Datum/de](Datum/de.md)                                                               [Draft ShapeString tutorial/de](Draft_ShapeString_tutorial/de.md)
   [Feature editing/de](Feature_editing/de.md)                                                 [Feature/de](Feature/de.md)                                                           [Part and PartDesign/de](Part_and_PartDesign/de.md)
@@ -27,8 +27,9 @@ This category includes FreeCAD pages related to PartDesign
   [PartDesign SubtractiveSphere/de](PartDesign_SubtractiveSphere/de.md)                       [PartDesign SubtractiveTorus/de](PartDesign_SubtractiveTorus/de.md)                   [PartDesign SubtractiveWedge/de](PartDesign_SubtractiveWedge/de.md)
   [PartDesign Thickness/de](PartDesign_Thickness/de.md)                                       [Template:PartDesign Tools navi/de](Template:PartDesign_Tools_navi/de.md)             [PartDesign WizardShaft/de](PartDesign_WizardShaft/de.md)
   [PartDesign Workbench/de](PartDesign_Workbench/de.md)                                       [Thread for Screw Tutorial/de](Thread_for_Screw_Tutorial/de.md)                       [Toothbrush Head Stand/de](Toothbrush_Head_Stand/de.md)
-  [Topological naming problem/de](Topological_naming_problem/de.md)                                                                                                                         
-  --------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------
+  [Topological naming problem/de](Topological_naming_problem/de.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:PartDesign/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:PartDesign/de

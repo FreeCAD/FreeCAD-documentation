@@ -68,5 +68,7 @@ doc.saveCopy(fnm)
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SaveCopy/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SaveCopy/de

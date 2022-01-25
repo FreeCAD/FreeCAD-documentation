@@ -55,5 +55,7 @@ Input objects must be OpenCascade shapes. Examples: stuff made with Part, PartDe
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/ro

@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic:Sketcher
+   Level:Iniciante
+   Time:30 minutos
+   Author:Mark Stephen ([Quick61](User_Quick61.md)) e vocx
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher Constraints practices]
+---
+
 # Sketcher Micro Tutorial - Constraint Practices/pt-br
-{{TutorialInfo
-|Topic=Sketcher
-|Level=Iniciante
-|Time=30 minutos
-|Author=Mark Stephen ([Quick61](User_Quick61.md)) e vocx
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&p=371659#p371659 Sketcher Constraints practices]
-}}
+
+
+
+
 
 ## Introdução
 
@@ -121,9 +126,9 @@ This is the best way to constrain this sketch, as we only used one datum (dimens
 -   [Sketcher Tutorial](Sketcher_Tutorial.md)
 
 
-{{Tutorials navi
+ {{Sketcher Tools navi}}
 
-}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Micro Tutorial - Constraint Practices/pt-br

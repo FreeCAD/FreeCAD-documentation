@@ -34,5 +34,7 @@ La commande **Std Accueil** change la caméra dans la [vue 3D](3D_view/fr.md) se
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewHome/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewHome/fr

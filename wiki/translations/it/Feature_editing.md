@@ -207,9 +207,9 @@ La pagina [Tutorial](Tutorials/it.md) fornisce alcuni esempi di utilizzo del met
 
 {{PartDesign Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
+
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Feature editing/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing/it

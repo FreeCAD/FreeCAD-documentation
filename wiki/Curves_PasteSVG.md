@@ -31,5 +31,7 @@ The <img alt="" src=images/Curves_PasteSVG.svg  style="width:24px;"> [Curves Pas
 
  {{Curves Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Curves PasteSVG
+![](images/Right_arrow.png) [documentation index](../README.md) > [Curves](Category_Curves.md) > Curves PasteSVG

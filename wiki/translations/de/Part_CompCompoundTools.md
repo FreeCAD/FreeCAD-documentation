@@ -30,5 +30,7 @@ Ein Satz verschiedener Verbundwerkzeuge.
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompCompoundTools/de

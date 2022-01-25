@@ -3,7 +3,7 @@ Esta categoría recopila documentación de artículos principalmente dirigidos a
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------- -------------------------------------------------------------------------------
+    
   [AppImage/es](AppImage/es.md)                                                                     [Artwork Guidelines/es](Artwork_Guidelines/es.md)                   [Artwork/es](Artwork/es.md)
   [Branding/es](Branding/es.md)                                                                     [Code snippets/es](Code_snippets/es.md)                             [Coin3d snippets/es](Coin3d_snippets/es.md)
   [Command/es](Command/es.md)                                                                       [Compile on Docker/es](Compile_on_Docker/es.md)                     [Compile on Linux/es](Compile_on_Linux/es.md)
@@ -28,10 +28,8 @@ Esta categoría recopila documentación de artículos principalmente dirigidos a
   [Testing/es](Testing/es.md)                                                                       [The FreeCAD source code/es](The_FreeCAD_source_code/es.md)         [Third Party Libraries/es](Third_Party_Libraries/es.md)
   [Third Party Tools/es](Third_Party_Tools/es.md)                                                   [Topological data scripting/es](Topological_data_scripting/es.md)   [Tracker/es](Tracker/es.md)
   [Translating an external workbench/es](Translating_an_external_workbench/es.md)                   [Windows packaging/es](Windows_packaging/es.md)                     [Workbench creation/es](Workbench_creation/es.md)
-                                                                                                                                                                                        
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------- -------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation/es](<img src="images/Property.png" style="width:16px"> Documentation/es.md) [<img src="images/Property.png" style="width:16px"> Artwork/es](<img src="images/Property.png" style="width:16px"> Artwork/es.md)
+
 
 ---
-[documentation index](../README.md) > Category:Developer Documentation/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Developer Documentation/es

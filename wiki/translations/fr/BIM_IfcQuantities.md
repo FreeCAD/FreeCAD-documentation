@@ -24,5 +24,7 @@ Par défaut, lors de l\'exportation d\'un fichier IFC depuis FreeCAD, aucune qua
 
 Vous pouvez également utiliser le gestionnaire de quantités pour modifier ou fixer les valeurs réelles **Height**, **Width** et **Length** des objets. Mais cela affectera la géométrie de l\'objet dans FreeCAD.
 
+
+
 ---
-[documentation index](../README.md) > BIM IfcQuantities/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM IfcQuantities/fr

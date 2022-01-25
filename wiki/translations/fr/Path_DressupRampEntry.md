@@ -38,5 +38,7 @@ Cet outil ajoute au tracé existant une rampe d\'entrée à l\'usinage
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/fr

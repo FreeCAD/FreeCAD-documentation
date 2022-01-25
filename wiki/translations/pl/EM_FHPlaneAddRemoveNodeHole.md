@@ -53,5 +53,7 @@ To add or remove FHNode or FHPlaneHole objects from a FHPlane via Python scripti
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > EM FHPlaneAddRemoveNodeHole/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [EM](Category_EM.md) > EM FHPlaneAddRemoveNodeHole/pl

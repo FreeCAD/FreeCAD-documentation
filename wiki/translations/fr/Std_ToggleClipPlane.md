@@ -46,5 +46,7 @@ La commande **Std Basculer le plan de coupe** masque temporairement les objets e
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ToggleClipPlane/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleClipPlane/fr

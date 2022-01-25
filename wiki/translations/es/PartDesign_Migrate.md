@@ -43,5 +43,7 @@ El ambiente de trabajo de DiseñoPiezas en FreeCAD v0.17 introduce nuevas herram
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Migrate/es

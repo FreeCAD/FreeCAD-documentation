@@ -66,7 +66,7 @@ All current [open FreeCAD tickets with **ASSIGNED** status](https://freecadweb.o
 
 These tickets have been resolved but not closed yet, most likely because they need confirmation that the ticket has been fixed.
 
-------------------------------------------------------------------------
+
 
 ### Ticket Resolutioɲ 
 
@@ -144,11 +144,5 @@ An important methodology to track tickets by a certain subject/theme/category. I
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
-
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Bug Triage/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Bug Triage/de

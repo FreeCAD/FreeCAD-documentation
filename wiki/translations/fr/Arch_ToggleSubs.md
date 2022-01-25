@@ -30,5 +30,7 @@ La couleur d\'un élément de soustraction peut suivre le style des éléments [
 
 Le style de [Draft Basculer en mode construction](Draft_ToggleConstructionMode/fr.md) peut être défini dans les [Draft Préférences](Draft_Preferences/fr.md) dans le menu **Préférences → Draft → Paramètres généraux**.
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/fr

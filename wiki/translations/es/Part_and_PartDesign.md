@@ -99,7 +99,7 @@ Puede ver debajo el mismo ejemplo construído con cada uno de los dos bancos de 
 <div class="mw-translate-fuzzy">
 
   En <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> Banco de trabajo PartDesign                                                                             En <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> Banco de trabajo Part
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   01- <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> Nuevo Body \> <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Nuevo boceto en el plano XZ   01- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Boceto de PartDesign \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Boceto en el plano XZ
   ![](images/01sketchXZ_PartWBvsPartDesignWBn.jpg )                                                                                                    ![](images/01Psketch_PartWBvsPartDesignWBn.jpg )
                                                                                                                                                                                       
@@ -107,103 +107,103 @@ Puede ver debajo el mismo ejemplo construído con cada uno de los dos bancos de 
 
 </div>
 
-  ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------
+   
   02- <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> Revolución / Z   02- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Revolución / Z
   ![](images/02revolutionZ_PartWBvsPartDesignWBn.jpg )          ![](images/02revolveZ_PartWBvsPartDesignWBn.jpg )
                                                                                                   
-  ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------
+   
 
 
 <div class="mw-translate-fuzzy">
 
-  ------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   03- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Nuevo boceto en el plano XY   03- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Banco de trabajo PartDesign \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Nuevo boceto en el plano XY
   ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )                       ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )
                                                                                                          
-  ------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
 
 </div>
 
-  -------------------------------------------------------------------------------- --------------------------------------------------------------------------------
+   
   04- <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Vaciado   04a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrusión
   ![](images/04pocket_PartWBvsPartDesignWBn.jpg )     ![](images/04aExtrude_PartWBvsPartDesignWB.jpg )
                                                                                    
-  -------------------------------------------------------------------------------- --------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------ ------------------------------------------------------------------------
+   
                                                                                  04b- <img alt="" src=images/Part_Cut.svg  style="width:32px;"> Corte
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/04bCut_PartWBvsPartDesignWB.jpg )
                                                                                  
-  ------------------------------------------------------------------------------ ------------------------------------------------------------------------
+   
 
 
 <div class="mw-translate-fuzzy">
 
-  ------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   05- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Nuevo boceto en el plano XZ   05- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Banco de trabajo PartDesign \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Nuevo boceto en el plano XZ
   ![](images/05sketchXZ_PartWBvsPartDesignWB.jpg )                         ![](images/05PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                          
-  ------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
 
 </div>
 
-  ----------------------------------------------------------------------------------- --------------------------------------------------------------------------------
+   
   06- <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> Extrusión sim/XZ   06a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrusión sim/XZ
   ![](images/06padSymXZ_PartWBvsPartDesignWB.jpg )      ![](images/06aExtrude_PartWBvsPartDesignWB.jpg )
                                                                                       
-  ----------------------------------------------------------------------------------- --------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
                                                                                  06b- <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> Banco de trabajo Draft <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> Patrón Polar
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/06bDraftPolarPattern_PartWBvsPartDesignWB.jpg )
                                                                                  
-  ------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------ ------------------------------------------------------------------------------
+   
                                                                                  06c- <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> Fusión
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/06cFusion_PartWBvsPartDesignWB.jpg )
                                                                                  
-  ------------------------------------------------------------------------------ ------------------------------------------------------------------------------
+   
 
 
 <div class="mw-translate-fuzzy">
 
-  ---------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   07- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Nuevo boceto sobre la cara de la base   07- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Nuevo boceto en el plano XZ
   ![](images/07sketchBaseSupFace_PartWBvsPartDesignWB.jpg )                 ![](images/07PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                                    
-  ---------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
 
 </div>
 
-  ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------
+   
   08- <img alt="" src=images/PartDesign_Hole.svg  style="width:32px;"> Taladro abocardado            08a- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Revolución
   ![](images/08hole-counterbore_PartWBvsPartDesignWB.jpg )   ![](images/08aRevolve_PartWBvsPartDesignWB.jpg )
                                                                                                    
-  ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
                                                                                  08b- <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> Banco de trabajo Draft <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> Patrón Polar
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/08bDraftPolarPattern_PartWBvsPartDesignWB.jpg )
                                                                                  
-  ------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
-  ----------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------
+   
   09- <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> Patrón polar o Agujero y extrusión   09- <img alt="" src=images/Part_Cut.svg  style="width:32px;"> Corte
   ![](images/09polarPatternHoleAndPad_PartWBvsPartDesignWB.jpg )              ![](images/09Cut_PartWBvsPartDesignWB.jpg )
                                                                                                                           
-  ----------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------
+   
 
 Compare the construction trees in the two workbenches as well as their organization and reading timeline :
 
-  ------------------------------------------------------------------------------------ ------------------------------------------------------------------------
+   
   10- Construction tree in PartDesign workbench                                        10- Construction tree in Part workbench
   ![](images/PartvsPartDesign_TreePartDesignWB.jpg )   ![](images/PartvsPartDesign_TreePartWB.jpg )
                                                                                        
-  ------------------------------------------------------------------------------------ ------------------------------------------------------------------------
+   
 
 ## Conclusión
 
@@ -212,9 +212,9 @@ Los bancos de trabajo Part y PartDesign pueden ser usados juntos con cuidado, cr
 [Arriba](#Top.md)
 
 
-{{Tutorials navi
+  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
-}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part and PartDesign/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/es

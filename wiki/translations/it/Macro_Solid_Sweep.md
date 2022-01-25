@@ -102,5 +102,7 @@ Lo stesso argomento viene trattato anche in [questa discussione](http://forum.fr
 
 Utilizzando una elica come traiettoria, tramite uno sweep solido si può creare la filettatura di un bullone.
 
+
+
 ---
-[documentation index](../README.md) > Macro Solid Sweep/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Solid Sweep/it

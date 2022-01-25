@@ -3,7 +3,7 @@ This category contains python code examples for FreeCAD
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+    
   [Code snippets/pl](Code_snippets/pl.md)                                                           [Command/pl](Command/pl.md)                                                                       [Create a FeaturePython object part I/pl](Create_a_FeaturePython_object_part_I/pl.md)
   [Create a FeaturePython object part II/pl](Create_a_FeaturePython_object_part_II/pl.md)           [Custom icon in tree view/pl](Custom_icon_in_tree_view/pl.md)                                     [Debugging/pl](Debugging/pl.md)
   [Dialog creation image and animated GIF/pl](Dialog_creation_image_and_animated_GIF/pl.md)         [Dialog creation reading and writing files/pl](Dialog_creation_reading_and_writing_files/pl.md)   [Dialog creation setting colors/pl](Dialog_creation_setting_colors/pl.md)
@@ -24,10 +24,9 @@ This category contains python code examples for FreeCAD
   [Scripted objects with attachment/pl](Scripted_objects_with_attachment/pl.md)                     [Scripted objects/pl](Scripted_objects/pl.md)                                                     [Scripted Parts: Ball Bearing - Part 1/pl](Scripted_Parts:_Ball_Bearing_-_Part_1/pl.md)
   [Scripted Parts: Ball Bearing - Part 2/pl](Scripted_Parts:_Ball_Bearing_-_Part_2/pl.md)           [Scripting and macros/pl](Scripting_and_macros/pl.md)                                             [Scripts/pl](Scripts/pl.md)
   [Svg Namespace/pl](Svg_Namespace/pl.md)                                                           [Topological data scripting/pl](Topological_data_scripting/pl.md)                                 [Viewprovider/pl](Viewprovider/pl.md)
-  [Workbench creation/pl](Workbench_creation/pl.md)                                                                                                                                                           
-  --------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------
+  [Workbench creation/pl](Workbench_creation/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/pl](<img src="images/Property.png" style="width:16px"> Categories/pl.md)
+
 
 ---
-[documentation index](../README.md) > Category:Python Code/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Python Code/pl

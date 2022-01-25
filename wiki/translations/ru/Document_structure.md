@@ -36,5 +36,7 @@ FreeCADGui.ActiveDocument.Blob
 FreeCADGui.ActiveDocument.ActiveView
 ``` Вернет текущий активный вид.
 
+
+
 ---
-[documentation index](../README.md) > Document structure/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Document structure/ru

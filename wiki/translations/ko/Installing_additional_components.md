@@ -19,10 +19,10 @@
 
 FreeCAD는 진정한 멀티플랫폼 애플리케이션이며 세계적으로 유명한 [Qt](http://en.wikipedia.org/wiki/Qt_(framework)) 프레임워크로 개발되었습니다. This means FreeCAD looks and acts the same on Windows, Linux and Mac. However, the installation procedure is a little different for each operating system. Choose your operating system for details on installing FreeCAD.
 
-  ---------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------
+    
    ![ alt=\'Windows\' \| link= Install on Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Install on Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Install on Mac](images/Mac.png )
                              [Install on Windows](Install_on_Windows.md)                                                     [ Install on Linux](Install_on_Linux.md)                                              [Install on Mac](Install_on_Mac.md)
-  ---------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------
+    
 
 
 </div>
@@ -139,8 +139,5 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
-
 ---
-[documentation index](../README.md) > Installing additional components/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing additional components/ko

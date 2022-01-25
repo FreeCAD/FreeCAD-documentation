@@ -27,5 +27,7 @@ Das **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Kalkulatio
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet StyleBold/de

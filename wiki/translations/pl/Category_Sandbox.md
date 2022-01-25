@@ -3,13 +3,12 @@ This category gathers all pages used as Sandbox: a place where you can draft or 
 
 ### Contents:
 
-  ----------------------------------------------------------- ----------------------------------------------------------------- -------------------------------------------------------------------------
+    
   [CadQuery Workbench/pl](CadQuery_Workbench/pl.md)   [Cfd Workbench/pl](Cfd_Workbench/pl.md)                   [FEM FrontISTR Workbench/pl](FEM_FrontISTR_Workbench/pl.md)
   [Macro Kerkythea/pl](Macro_Kerkythea/pl.md)         [PCB Workbench/pl](PCB_Workbench/pl.md)                   [Symbols Library Workbench/pl](Symbols_Library_Workbench/pl.md)
-  [Timber Workbench/pl](Timber_Workbench/pl.md)       [Workfeature Workbench/pl](Workfeature_Workbench/pl.md)   
-  ----------------------------------------------------------- ----------------------------------------------------------------- -------------------------------------------------------------------------
+  [Timber Workbench/pl](Timber_Workbench/pl.md)       [Workfeature Workbench/pl](Workfeature_Workbench/pl.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md)
+
 
 ---
-[documentation index](../README.md) > Category:Sandbox/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sandbox/pl

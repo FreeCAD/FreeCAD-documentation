@@ -28,5 +28,7 @@ La commande **Std Plein écran principal** bascule le mode plein écran de la fe
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MainFullscreen/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MainFullscreen/fr

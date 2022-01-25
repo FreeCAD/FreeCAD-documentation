@@ -22,5 +22,7 @@ This command creates a solid from a shape object.
 -   There will be no analyzing or validating of the shape object.
 -   It is recommended to use [Part RefineShape](Part_RefineShape.md) before converting to a solid.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part MakeSolid/pt-br

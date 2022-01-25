@@ -22,5 +22,7 @@ Der **Std SymboleAnordnen**-Befehl funktioniert nicht richtig. Er hat den gleich
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ArrangeIcons/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ArrangeIcons/de

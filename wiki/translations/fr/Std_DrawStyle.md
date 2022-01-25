@@ -86,5 +86,7 @@ Le style **Filaire ombré** remplace {{PropertyView/fr|Display Mode}} des objets
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DrawStyle/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DrawStyle/fr

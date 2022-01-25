@@ -37,7 +37,7 @@ Observa, que en la importación, el robot es creado en 8 formas, directamente en
 </div>
 
   FreeCAD name   STEP name
-  -------------- ------------------------------
+   
   TX40\_HB       HORIZONTAL BASE CABLE OUTLET
   TX40\_HB001    SHOULDER
   TX40\_HB002    ARM
@@ -66,7 +66,7 @@ Para construir la tabla Denavit-Hartenberg (mira <http://www.freecadweb.org/wiki
 </div>
 
   i   d     θ         r     α     θmin   θmax    Axis velocity
-  --- ----- --------- ----- ----- ------ ------- ---------------
+  ---       
   1   320   q1        0     -90   -180   180     555
   2   35    q2 - 90   225   0     -125   125     475
   3   0     q3 + 90   0     90    -138   138     585
@@ -446,9 +446,5 @@ Aquí está un parche para conseguir el archivo VRML adecuado para la simulació
 
 
 
-
-
-[<img src="images/Property.png" style="width:16px"> Robot](Category_Robot.md)
-
 ---
-[documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/es

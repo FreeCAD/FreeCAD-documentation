@@ -1,7 +1,9 @@
 # Category:UnfinishedDocu/ru
-{<img src="images/Property.png" style="width:16px"> UnfinishedDocu}
+{Category:UnfinishedDocu}
 
 ### Contents:
 
+
+
 ---
-[documentation index](../README.md) > [UnfinishedDocu](Category_UnfinishedDocu.md) > Category:UnfinishedDocu/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [UnfinishedDocu](Category_UnfinishedDocu.md) > Category:UnfinishedDocu/ru

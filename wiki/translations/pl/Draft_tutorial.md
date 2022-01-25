@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/pl
+   Topic: Drafting
+   Level: początkujący
+   Time: 30 minut
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei and vocx]
+   FCVersion:0.19
+   Files:[https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Zaktualizowany projekt samouczka]
+---
+
 # Draft tutorial/pl
-{{TutorialInfo/pl
-|Topic= Drafting
-|Level= początkujący
-|Time= 30 minut
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei and vocx]
-|FCVersion=0.19
-|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=43651 Zaktualizowany projekt samouczka]
-}}
+
+
+
+
 
 ## Wprowadzenie
 
@@ -219,9 +225,6 @@ The [Draft Workbench](Draft_Workbench.md) in many ways is similar to the [Sketch
 -   It is possible to transform a Draft object into a [Sketch](Sketch.md), and the other way around, using the **[<img src=images/Draft_Draft2Sketch.svg style="width:16px"> [Draft Draft2Sketch](Draft_Draft2Sketch.md)** tool.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Draft_Workbench.md) > Draft tutorial/pl

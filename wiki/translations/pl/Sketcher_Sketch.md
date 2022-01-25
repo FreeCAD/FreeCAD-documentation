@@ -11,5 +11,7 @@ Ten dokument jest w trakcie tworzenia. Tymczasem skonsultuj się:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Sketch/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Sketch/pl

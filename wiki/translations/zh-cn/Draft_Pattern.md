@@ -46,5 +46,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 -   The **Edit → Preferences... → Draft → Visual settings → SVG pattern resolution** preference is not used.
 -   To change the **Pattern Size** used for new objects: **Edit → Preferences... → Draft → Visual settings → SVG pattern default size**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/zh-cn

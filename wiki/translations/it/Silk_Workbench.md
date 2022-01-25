@@ -31,8 +31,5 @@ Si consiglia di installarlo tramite <img alt="" src=images/Std_AddonMgr.svg  sty
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Silk](Category_Silk.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
-
 ---
-[documentation index](../README.md) > [Silk](Category_Silk.md) > Silk Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Silk](Category_Silk.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > Silk Workbench/it

@@ -46,5 +46,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewIvStereoQuadBuff/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewIvStereoQuadBuff/de

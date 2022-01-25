@@ -130,5 +130,7 @@ Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgMacroExecute/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroExecute/ro

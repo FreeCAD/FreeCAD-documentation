@@ -36,5 +36,7 @@ La commande **Mesh Décimation** réduit le nombre de faces dans les objets mail
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/fr

@@ -41,5 +41,7 @@ El croquis puede ser movido en la [Vista 3D](3D_view/es.md) usando [Colocación]
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher NewSketch/es

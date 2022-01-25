@@ -233,7 +233,7 @@ Freecad作为一种开放源代码软件，提供了使用插件补充其工作�
 
 {{Userdocnavi/zh}}
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/zh](<img src="images/Property.png" style="width:16px"> User_Documentation/zh.md)
+
 
 ---
-[documentation index](../README.md) > Getting started/zh
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/zh

@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/de
+   Topic:Skizze
+   Level:Anfänger
+   Author:[Maker](User_Maker.md)
+   Time:
+   FCVersion:
+---
+
 # Sketcher requirement for a sketch/de
-{{TutorialInfo/de
-|Topic=Skizze
-|Level=Anfänger
-|Author=[Maker](User_Maker.md)
-|Time=
-|FCVersion=
-}}
+
+
+
+
 
 ## Mindestanforderung an eine Skizze 
 
@@ -45,5 +51,7 @@ Stellt man versehentlich eine *Überregelung* her, erscheint eine Warnung in der
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher requirement for a sketch/de

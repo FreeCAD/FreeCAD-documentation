@@ -36,12 +36,12 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 <img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual_Introduction.md) は、このwikiに含まれる情報を表現するもう一つのより線形な方法です。 それは本のように読まれるように作られ、上のハブから他の多くのページにあなたを穏やかに紹介します。 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) も利用できます。また、[a couple of translations in pdf format](https://www.freecadweb.org/manual/) 
  FreeCADマニュアルはFreeCADの使用についての最先端のドキュメントを提供するためにコミュニティの努力のもと常に作業が行われており、既に複数の言語で利用可能です。まだマニュアルには多くの情報が欠けています。遠慮せずに参加と[貢献を行ってください](Help_FreeCAD/jp.md)！
 
-+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md)   | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) |
 | -   ![](images/Flag-cn.jpg ) [目录](Online_Help_Toc/cn.md)                 | -   ![](images/Flag-it.jpg ) [Indice dei contenuti](Online_Help_Toc/it.md) | -   ![](images/Flag-ru.jpg ) [Содержание](Online_Help_Toc/ru.md)          |
 | -   ![](images/Flag-de.jpg ) [Inhaltsverzeichnis](Online_Help_Toc/de.md)   | -   ![](images/Flag-jp.jpg ) [目次](Online_Help_Toc/jp.md)                 | -   ![](images/Flag-tr.jpg ) [İçindekiler](Online_Help_Toc/tr.md)         |
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) | -   ![](images/Flag-pl.jpg ) [Spis Treści](Online_Help_Toc/pl.md)          |                                                                                             |
-+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+++++
 
 
 </div>
@@ -50,7 +50,7 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 
 次の表は、FreeCADアプリケーションに同梱されているオフラインドキュメントのバックボーンを構成するこのwikiのすべての記事を示しています。 すでにいくつかの言語で利用可能です：
 
-+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |
 | -   ![](images/Flag-bg.jpg ) [Съдържание](Online_Help_Toc/bg.md)           | -   ![](images/Flag-hr.jpg ) [Sadržaj](Online_Help_Toc/hr.md)            | -   ![](images/Flag-pt-br.jpg ) [Índice](Online_Help_Toc/pt-br.md) pt-br  |
 | -   ![](images/Flag-cn.jpg‎ ) [目錄](Online_Help_Toc/zh.md) zh            | -   ![](images/Flag-id.jpg ) [Daftar isi](Online_Help_Toc/id.md)         | -   ![](images/Flag-ro.jpg ) [Cuprins](Online_Help_Toc/ro.md)                |
@@ -59,7 +59,7 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 | -   ![](images/Flag-cs.jpg ) [Obsah](Online_Help_Toc/cs.md)                | -   ![](images/Flag-ko.jpg ) [온라인 도움말](Online_Help_Toc/ko.md)      | -   ![](images/Flag-tr.jpg ) [İçindekiler](Online_Help_Toc/tr.md)            |
 | -   ![](images/Flag-de.jpg ) [Inhaltsverzeichnis](Online_Help_Toc/de.md)   | -   ![](images/Flag-pl.jpg ) [Spis Treści](Online_Help_Toc/pl.md)        | -   ![](images/Flag-uk.jpg ) [Вміст](Online_Help_Toc/uk.md)                  |
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
-+----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
+++++
 
 ## 参加しよう
 
@@ -103,8 +103,5 @@ FreeCADはcMakeまたはautotoolsを使ってコンパイルすることがで�
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ja

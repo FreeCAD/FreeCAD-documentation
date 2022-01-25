@@ -48,5 +48,7 @@ Componenta clonei va avea pur și simplu proprietatea \'\'\' CloneOf \'\'\'setat
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/ro

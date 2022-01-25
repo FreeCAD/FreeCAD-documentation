@@ -38,9 +38,9 @@ Since they appeared in v0.17, datum objects were intended to be used inside [Par
 -   [Structure toolbar and datums](https://forum.freecadweb.org/viewtopic.php?t=42759)
 -   [Local CS cannot be used in Part Wb?](https://forum.freecadweb.org/viewtopic.php?f=3&t=42960)
 
- {{PartDesign Tools navi}} {{Document objects navi}} 
+ {{PartDesign Tools navi}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Datum
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Datum

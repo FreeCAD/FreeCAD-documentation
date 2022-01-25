@@ -38,5 +38,7 @@ Un solide ellipsoïde paramétrique est disponible à partir de la boîte de dia
 
 ![](images/Part_Ellipsoid_screenshot.jpg )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Ellipsoid/fr

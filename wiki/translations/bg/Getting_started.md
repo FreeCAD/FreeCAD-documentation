@@ -288,8 +288,5 @@ There are two types of addons:
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/bg](<img src="images/Property.png" style="width:16px"> User_Documentation/bg.md)
-
 ---
-[documentation index](../README.md) > Getting started/bg
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/bg

@@ -3,7 +3,7 @@ This category list pages related to the \"User\_Documentation/pt-br\" and \"Work
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- -----------------------------------------------------------------------------
+    
   [Arch panel tutorial/pt-br](Arch_panel_tutorial/pt-br.md)                       [Draft AddConstruction/pt-br](Draft_AddConstruction/pt-br.md)               [Draft AddToGroup/pt-br](Draft_AddToGroup/pt-br.md)
   [Draft annotation scale widget/pt-br](Draft_annotation_scale_widget/pt-br.md)   [Draft AnnotationStyleEditor/pt-br](Draft_AnnotationStyleEditor/pt-br.md)   [Draft ApplyStyle/pt-br](Draft_ApplyStyle/pt-br.md)
   [Draft Arc 3Points/pt-br](Draft_Arc_3Points/pt-br.md)                           [Draft Arc/pt-br](Draft_Arc/pt-br.md)                                       [Draft Array/pt-br](Draft_Array/pt-br.md)
@@ -34,10 +34,9 @@ This category list pages related to the \"User\_Documentation/pt-br\" and \"Work
   [Draft ToggleGrid/pt-br](Draft_ToggleGrid/pt-br.md)                             [Draft Tray/pt-br](Draft_Tray/pt-br.md)                                     [Draft Trimex/pt-br](Draft_Trimex/pt-br.md)
   [Draft Upgrade/pt-br](Draft_Upgrade/pt-br.md)                                   [Draft Wire/pt-br](Draft_Wire/pt-br.md)                                     [Draft WireToBSpline/pt-br](Draft_WireToBSpline/pt-br.md)
   [Draft Workbench/pt-br](Draft_Workbench/pt-br.md)                               [Draft WorkingPlaneProxy/pt-br](Draft_WorkingPlaneProxy/pt-br.md)           [DXF/pt-br](DXF/pt-br.md)
-  [FreeCAD and DWG Import/pt-br](FreeCAD_and_DWG_Import/pt-br.md)                                                                                                     
-  --------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------- -----------------------------------------------------------------------------
+  [FreeCAD and DWG Import/pt-br](FreeCAD_and_DWG_Import/pt-br.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/pt-br](<img src="images/Property.png" style="width:16px"> User_Documentation/pt-br.md) [<img src="images/Property.png" style="width:16px"> Workbenches/pt-br](<img src="images/Property.png" style="width:16px"> Workbenches/pt-br.md)
+
 
 ---
-[documentation index](../README.md) > Category:Draft/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/pt-br

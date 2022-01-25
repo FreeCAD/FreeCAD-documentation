@@ -1,11 +1,16 @@
+---
+- TutorialInfo:   Topic:Export to STL or OBJ
+   Level:Beginner
+   Time:20 minutes
+   Author:r-frank
+   FCVersion:0.16.6703
+---
+
 # Export to STL or OBJ
-{{TutorialInfo
-|Topic=Export to STL or OBJ
-|Level=Beginner
-|Time=20 minutes
-|Author=r-frank
-|FCVersion=0.16.6703
-}}
+
+ 
+
+
 
 ## Introduction
 
@@ -54,9 +59,7 @@ Method 2 is to be preferred. Among the reasons:
 -   [Import from STL or OBJ](Import_from_STL_or_OBJ.md)
 -   [Import Export](Import_Export.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ

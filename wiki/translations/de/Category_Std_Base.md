@@ -3,7 +3,7 @@ Diese Kategorie listet Seiten zum Thema [Std Base](Std_Base/de.md), Dieser samme
 
 ### Contents:
 
-  ------------------------------------------------------------------------- ------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+    
   [App DocumentObjectGroup/de](App_DocumentObjectGroup/de.md)       [App Link/de](App_Link/de.md)                                           [App Part/de](App_Part/de.md)
   [Assembly/de](Assembly/de.md)                                     [Combo view/de](Combo_view/de.md)                                       [DAG view/de](DAG_view/de.md)
   [Interface Customization/de](Interface_Customization/de.md)       [Part/de](Part/de.md)                                                   [Property editor/de](Property_editor/de.md)
@@ -48,10 +48,8 @@ Diese Kategorie listet Seiten zum Thema [Std Base](Std_Base/de.md), Dieser samme
   [Std ViewTop/de](Std_ViewTop/de.md)                               [Std ViewTrimetric/de](Std_ViewTrimetric/de.md)                         [Std ViewZoomIn/de](Std_ViewZoomIn/de.md)
   [Std ViewZoomOut/de](Std_ViewZoomOut/de.md)                       [Std WhatsThis/de](Std_WhatsThis/de.md)                                 [Std Windows Menu/de](Std_Windows_Menu/de.md)
   [Std Windows/de](Std_Windows/de.md)                               [Std Workbench/de](Std_Workbench/de.md)                                 [Tree view/de](Tree_view/de.md)
-                                                                                                                                                            
-  ------------------------------------------------------------------------- ------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/de](<img src="images/Property.png" style="width:16px"> User_Documentation/de.md)
+
 
 ---
-[documentation index](../README.md) > Category:Std Base/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Std Base/de

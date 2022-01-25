@@ -2,9 +2,9 @@
 - GuiCommand:/de
    Name:Part Cut
    Name/de:Part Schnitt
-   MenuLocation:Formteil → Bool'sche Operationen → Schneiden
+   MenuLocation:Formteil → Boolesche Operationen → Schneiden
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Boolsche Operation](Part_Boolean/de.md), [Part Verschmelzung](Part_Fuse/de.md), [Part Schnittmenge](Part_Common/de.md)
+   SeeAlso:[Part Boolesche Operation](Part_Boolean/de.md), [Part Verschmelzung](Part_Fuse/de.md), [Part Schnittmenge](Part_Common/de.md)
 ---
 
 # Part Cut/de
@@ -26,13 +26,9 @@ Schneidet (subtrahiert) ausgewählte Teileobjekte, wobei das letzte vom ersten s
 
 ## Unterstützte Eingaben 
 
-
-<div class="mw-translate-fuzzy">
-
-Eingabeobjekte müssen [OpenCascade](OpenCASCADE/de.md) Formen sein. Beispiele: Sachen, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurden. Keine Polygonnetze (es sei denn, diese wurden in Formen umgewandelt) - für Polygonnetze gibt es spezielle boolesche Werkzeuge im Arbeitsbereich Netzkonstruktion.
+Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md) Formen sein. Beispiele: Sachen, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurden. Keine Polygonnetze (es sei denn, diese wurden in Formen umgewandelt) - für Polygonnetze gibt es spezielle boolesche Werkzeuge im Arbeitsbereich Netzkonstruktion.
 
 
-</div>
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/de

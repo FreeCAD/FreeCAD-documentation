@@ -178,11 +178,5 @@ FreeCAD.ActiveDocument.recompute()
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Arch/ro](<img src="images/Property.png" style="width:16px"> Arch/ro.md)
-
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/ro

@@ -65,5 +65,7 @@ Die vordefinierten Roboter sind
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot CreateRobot/de

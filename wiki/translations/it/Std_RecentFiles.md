@@ -42,5 +42,7 @@ L\'opzione di menu **File recenti** visualizza un elenco di file recenti che pos
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std RecentFiles/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std RecentFiles/it

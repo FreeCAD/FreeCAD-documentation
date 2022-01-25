@@ -39,5 +39,7 @@ Quando si avvia lo strumento, il puntatore del mouse assume la forma di croce bi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArc/it

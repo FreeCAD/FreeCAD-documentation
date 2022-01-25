@@ -77,5 +77,7 @@ These options are in the menu, **Tools → Customize**. See [interface customiza
 
  {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Interface
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface

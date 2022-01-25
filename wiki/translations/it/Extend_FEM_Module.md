@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/it
+   Topic: 
+   Level: 
+   Time: 
+   Author:[M42kus](User_M42kus.md)
+   FCVersion:
+   Files:
+---
+
 # Extend FEM Module/it
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it
-|Topic= 
-|Level= 
-|Time= 
-|Author=[M42kus](User_M42kus.md)
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -140,7 +146,7 @@ Constraints define boundary conditions for the problem that shall be solved. In 
 
 Adding new constraints is quite straight forward. For newcomers there is a tutorial: [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md).
 
-[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
+
 
 ---
-[documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/it

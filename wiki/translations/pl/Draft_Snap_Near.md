@@ -39,5 +39,7 @@ Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąg
 
 Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Near/pl

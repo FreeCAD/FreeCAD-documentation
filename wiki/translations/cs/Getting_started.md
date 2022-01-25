@@ -285,8 +285,5 @@ A nakonec jedna z nejmocnějších vlastností FreeCADu je prostředí pro [skri
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/cs](<img src="images/Property.png" style="width:16px"> User_Documentation/cs.md)
-
 ---
-[documentation index](../README.md) > Getting started/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Getting started/cs

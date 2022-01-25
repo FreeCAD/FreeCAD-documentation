@@ -744,5 +744,7 @@ class Fretboard():
 -   Version 0.2 : 2018-01-25 : conversion pour PySide
 -   Version 0.4 : 2020-01-09: réfection majeure pour ajouter des frettes multi-échelles et frette zéro
 
+
+
 ---
-[documentation index](../README.md) > Macro Guitar fretboard/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Guitar fretboard/fr

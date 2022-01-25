@@ -19,5 +19,7 @@ Der Befehl <img alt="" src=images/Assembly_Add_WorkplaneZY.svg  style="width:24p
     -   Die Schaltfläche **<img src="images/Assembly_Add_WorkplaneZY.svg_" width=16px> [ZY-Arbeitsebene hinzufügen](Assembly3_AddZYWorkplane/de.md)**.
     -   Den Menüeintrag **Assembly3 → Workplane and origin → <img src="images/Assembly_Add_WorkplaneZY.svg_" width=16px> ZY-Arbeitsebene hinzufügen**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AddZYWorkplane/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddZYWorkplane/de

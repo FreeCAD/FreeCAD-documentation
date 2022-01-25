@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench](PartDesign_Workb
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------
+    
   [Artwork PartDesign/en](Artwork_PartDesign/en.md)                       [Basic Attachment Tutorial/en](Basic_Attachment_Tutorial/en.md)                             [Basic Part Design Tutorial/en](Basic_Part_Design_Tutorial/en.md)
   [Body/en](Body/en.md)                                                   [Creating a simple part with PartDesign/en](Creating_a_simple_part_with_PartDesign/en.md)   [Datum/en](Datum/en.md)
   [Draft ShapeString tutorial/en](Draft_ShapeString_tutorial/en.md)       [Feature editing/en](Feature_editing/en.md)                                                 [Feature/en](Feature/en.md)
@@ -27,10 +27,9 @@ This category lists pages related to the [PartDesign Workbench](PartDesign_Workb
   [PartDesign SubtractivePrism/en](PartDesign_SubtractivePrism/en.md)     [PartDesign SubtractiveSphere/en](PartDesign_SubtractiveSphere/en.md)                       [PartDesign SubtractiveTorus/en](PartDesign_SubtractiveTorus/en.md)
   [PartDesign SubtractiveWedge/en](PartDesign_SubtractiveWedge/en.md)     [PartDesign Thickness/en](PartDesign_Thickness/en.md)                                       [PartDesign WizardShaft/en](PartDesign_WizardShaft/en.md)
   [PartDesign Workbench/en](PartDesign_Workbench/en.md)                   [Thread for Screw Tutorial/en](Thread_for_Screw_Tutorial/en.md)                             [Toothbrush Head Stand/en](Toothbrush_Head_Stand/en.md)
-  [Topological naming problem/en](Topological_naming_problem/en.md)                                                                                                           
-  ------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------
+  [Topological naming problem/en](Topological_naming_problem/en.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Category:PartDesign/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [User_Documentation](Category_User_Documentation.md) > Category:PartDesign/en

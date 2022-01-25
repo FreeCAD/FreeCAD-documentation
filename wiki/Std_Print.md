@@ -31,5 +31,7 @@ The **Std Print** command is primarily intended to print [TechDraw Workbench](Te
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std Print
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Print

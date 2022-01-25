@@ -149,5 +149,7 @@ def setColors():
 setColors()
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Colorize/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Colorize/fr

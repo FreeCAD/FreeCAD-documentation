@@ -29,5 +29,7 @@ Debido a la rápida evolución de FreeCAD, algunas definiciones de objetos puede
 2.  Select the **Utilities → <img src="images/Draft_Heal.svg" width=16px> Heal** option from the menu.
 3.  If no errors are found the command will do nothing.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Heal/es

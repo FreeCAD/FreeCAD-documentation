@@ -100,5 +100,7 @@ Per ulteriori informazioni, consultare la documentazione per utenti esperti:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > 3D view/it
+![](images/Right_arrow.png) [documentation index](../README.md) > 3D view/it

@@ -26,5 +26,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Splash screen/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Splash screen/ru

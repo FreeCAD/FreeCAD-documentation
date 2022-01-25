@@ -1,10 +1,10 @@
 # Compiling/de
 Jedes Betriebssystem hat seine eigene Seite für das Kompilieren von FreeCAD in der [Online Hilfe Dokumentation](Online_Help_Toc/de.md).
 
-  --------------------------------------------------------------- ----------------------------------------------------------- ----------------------------------------------------------- ------------------------------------------------------------------------------
+     
        <img alt="" src=images/Windows.png  style="width:" height="32px;">            <img alt="" src=images/Linux.png  style="width:" height="32px;">              <img alt="" src=images/Mac.png  style="width:" height="32px;">          <img alt="" src=images/Docker_logo_FreeCAD.svg  style="width:" height="32px;">
    [Kompilieren unter Windows](Compile_on_Windows/de.md)   [Kompilieren unter Linux](Compile_on_Linux/de.md)   [Kompilieren unter MacOS](Compile_on_MacOS/de.md)           [Kompilieren unter Docker](Compile_on_Docker/de.md)
-  --------------------------------------------------------------- ----------------------------------------------------------- ----------------------------------------------------------- ------------------------------------------------------------------------------
+     
 
 Um auf BSD- und anderen Unix-Systemen zu kompilieren, kannst du der allgemeinen Anleitung in [Kompilieren unter Linux](Compile_on_Linux/de.md) folgen, aber die entsprechenden Abhängigkeiten in diesen Systemen verwenden.
 
@@ -24,8 +24,5 @@ Zum Erlernen der Verwendung des Revisionskontrollsystems und des Beitragscodes s
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compiling/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compiling/de

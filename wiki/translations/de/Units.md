@@ -298,9 +298,6 @@ So wird es sehr einfach, mit wenigen Zeilen Python eine beliebige Anzahl von Obj
 </div>
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > Units/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Units/de

@@ -15,7 +15,5 @@
 
 
 
-[<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md) [<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md)
-
 ---
-[documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > SweetHome3D/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > [Arch](Category_Arch.md) > SweetHome3D/fr

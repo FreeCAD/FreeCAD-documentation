@@ -72,7 +72,7 @@ import feminout.importVTKResults
 import os
 from sys import exit
 
-FreeCAD.Console.PrintMessage(">>>---------Macro started\n")
+FreeCAD.Console.PrintMessage(">>>Macro started\n")
 
 #Get the file path and name of the active document 
 p = FreeCAD.ActiveDocument.FileName
@@ -80,7 +80,7 @@ FilePath = "/".join(p.split("/")[:-1])
 FileName = p.split("/")[-1].split(".")[0]
 FreeCAD.Console.PrintMessage("File path:" + FilePath + "\n")
 FreeCAD.Console.PrintMessage("File name:" + FileName + "\n")
-FreeCAD.Console.PrintMessage("\n<<<----------Macro finished with errors\n")
+FreeCAD.Console.PrintMessage("\n<<<Macro finished with errors\n")
 
 #Get FEM result objects into a list
 FreeCAD.Console.PrintMessage("Looking for result objects...")
@@ -126,7 +126,7 @@ if NumberOfResultObjects > 0:#Export result objects as .vtu file and generate .p
 else:
     FreeCAD.Console.PrintMessage("Nothing to export!")
 
-FreeCAD.Console.PrintMessage('\n<<<----------Macro finished\n')
+FreeCAD.Console.PrintMessage('\n<<<Macro finished\n')
 }}
 
 ## Link
@@ -135,5 +135,7 @@ Example [Transient FEM analysis](https://www.freecadweb.org/wiki/Transient_FEM_a
 
 The Forum discussion [Export transient FEM results to vtk/vtu for ParaView](https://forum.freecadweb.org/viewtopic.php?f=22&t=37650)
 
+
+
 ---
-[documentation index](../README.md) > Macro export transient FEM results/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro export transient FEM results/en

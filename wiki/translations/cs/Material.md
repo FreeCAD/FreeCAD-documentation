@@ -133,7 +133,7 @@ Zde je popis dohodnutých materiálových vlastností. Můžete přidat podsekci
 <div class="mw-translate-fuzzy">
 
   Název vlastnosti                  Popis                                                                                                                                                                                                                    Jednotka/Datový typ
-  --------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ---------------------
+    
   Name                              Jedinečné jméno vlastnosti, podle pravidel uvedených výše                                                                                                                                                                ASCII znaky 7-bit
   Father (otec)                     Název materiálové skupiny kam daný materiál patří. Je-li tato vlastnost definována, materiál dědí všechny vlastnosti svého otce. To znamená, že když dále není nic definováno, budou použity všechny vlastnosti otce..   ASCII znaky 7-bit
   Description (popis)               Místo pro delší popis materiálu                                                                                                                                                                                          ASCII znaky 7-bit
@@ -155,7 +155,7 @@ Zde je popis dohodnutých materiálových vlastností. Můžete přidat podsekci
 <div class="mw-translate-fuzzy">
 
   Název vlastnosti                  Popis                                                                                                                                                                                                                                              Jednotka/Datový typ
-  --------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------
+    
   YoungsModulus(modul elasticity)   Young\'s modul, známý také jako modul tažnosti nebo modul elasticity, je míra tuhosti elastického materiálu a je to veličina, které charakterizuje materiál. Podívejte se na: [Young\'s modulus](http://en.wikipedia.org/wiki/Young%27s_modulus)   kg\*mm\^-1\*s\^-2 (kPa)
   UltimateTensileStrength           Mez pevnosti v tahu                                                                                                                                                                                                                                N\'\*mm\^-2 (MPa)
   Hardness                          Tvrdost                                                                                                                                                                                                                                            
@@ -176,7 +176,7 @@ Tento odstavec definuje materiálové vlastnosti, které se vztahují k vizuáln
 <div class="mw-translate-fuzzy">
 
   Název vlastnosti   popis                                                                                                Jednotka/Datový typ
-  ------------------ ---------------------------------------------------------------------------------------------------- -----------------------------------------------
+    
   AmbientColor       Ambient color in the Coin3D color model                                                              desetinné,desetinné,desetinné rozsah: 0.0-1.0
   DiffuseColor       Diffuse color in the Coin3D color model                                                              desetinné,desetinné,desetinné rozsah: 0.0-1.0
   SpecularColor      Specular color in the Coin3D color model                                                             desetinné,desetinné,desetinné rozsah: 0.0-1.0
@@ -202,7 +202,7 @@ Tento odstavec definuje materiálové vlastnosti, které se vztahují k vizuáln
 </div>
 
   property name                 Description                                                                                                                                                          Unit/Data-Type
-  ----------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------
+    
   ThermalConductivity           The [thermal conductivity (R or lambda coefficient)](http://en.wikipedia.org/wiki/Thermal_conductivity) that indicates the capacity to transfer heat of a material   W/m²K
   ThermalExpansionCoefficient                                                                                                                                                                        
   SpecificHeat                                                                                                                                                                                       
@@ -215,7 +215,7 @@ Tento odstavec definuje materiálové vlastnosti, které se vztahují k vizuáln
 <div class="mw-translate-fuzzy">
 
   Název vlastnosti      Popis                                                                                                                                                         Jednotka/Datová typ
-  --------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------
+    
   StandardFormat        Specifikační systém standardu používaný u daného materiálu (ASTM, MasterFormat, CSI, OmniClass, etc\...)                                                      ASCII znaky 7-bit
   StandardCode          Specifický kód materiálu podle výše uvedeného formátu standardu                                                                                               ASCII znaky 7-bit
   FireStandard          Standard odolnosti proti ohni u daného materiálu                                                                                                              ASCII znaky 7-bit
@@ -237,9 +237,9 @@ Tento odstavec definuje materiálové vlastnosti, které se vztahují k vizuáln
 
 -   add sustainability & LEED properties
 
- {{FEM Tools navi}} 
+ {{FEM Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
+
 
 ---
-[documentation index](../README.md) > [Developer](Category_Developer.md) > Material/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [Roadmap](Category_Roadmap.md) > [BIM](Category_BIM.md) > [File_Formats](Category_File_Formats.md) > [Arch](Category_Arch.md) > [FEM](Category_FEM.md) > Material/cs

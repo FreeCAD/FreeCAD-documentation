@@ -74,5 +74,7 @@ Image:Macro Align Object to View 03.png\|Select the object and run the macro (th
 
 rentlau\_64 провел упрощение кода.
 
+
+
 ---
-[documentation index](../README.md) > Macro Align Object to View/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Align Object to View/ru

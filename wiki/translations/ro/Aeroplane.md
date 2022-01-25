@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ro
+   Topic:Part Workbench
+   Level:Beginner
+   Time:10 minutes
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Aeroplane/ro
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro
-|Topic=Part Workbench
-|Level=Beginner
-|Time=10 minutes
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -222,9 +228,6 @@ Aici sunt mai mule sugestii pentru a vă juca cu Plan, poziționare și rotații
 Sper că acest tutorial mic v-a ajutat să vă resimțiți rotațiile.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Aeroplane/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Aeroplane/ro

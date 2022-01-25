@@ -34,5 +34,7 @@ La commande **<img src="images/Path_SelectLoop.svg" width=16px> [Terminer une bo
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path SelectLoop/fr

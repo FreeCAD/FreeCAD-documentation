@@ -164,9 +164,6 @@ Zobacz wątek na forum, [PDF wewnątrz projektu](https://forum.freecadweb.org/vi
 -   Narzędzie konwertujące pliki [ImageConv](ImageConv.md).
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
-[documentation index](../README.md) > [Developer](Category_Developer.md) > File Format FCStd/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer](Category_Developer.md) > [Developer Documentation](Category_Developer Documentation.md) > [File_Formats](Category_File_Formats.md) > File Format FCStd/pl

@@ -90,5 +90,7 @@ This is done by putting the Detail view into a [clip group](TechDraw_ClipGroup.m
 
  {{TechDraw Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DetailView

@@ -29,5 +29,7 @@ This tool draws a rounded rectangle by picking two opposite points. When startin
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateOblong/ru

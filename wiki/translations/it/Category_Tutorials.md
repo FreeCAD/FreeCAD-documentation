@@ -7,7 +7,7 @@ Guide a FreeCAD . Contribuisci ad aggiungerne altre!
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
+    
   [Add FEM Constraint Tutorial/it](Add_FEM_Constraint_Tutorial/it.md)                                     [Add FEM Equation Tutorial/it](Add_FEM_Equation_Tutorial/it.md)                                             [Advanced TechDraw Tutorial/it](Advanced_TechDraw_Tutorial/it.md)
   [Aeroplane/it](Aeroplane/it.md)                                                                         [Analysis of reinforced concrete with FEM/it](Analysis_of_reinforced_concrete_with_FEM/it.md)               [Arch panel tutorial/it](Arch_panel_tutorial/it.md)
   [Arch tutorial/it](Arch_tutorial/it.md)                                                                 [Basic Attachment Tutorial/it](Basic_Attachment_Tutorial/it.md)                                             [Basic modeling tutorial/it](Basic_modeling_tutorial/it.md)
@@ -36,10 +36,9 @@ Guide a FreeCAD . Contribuisci ad aggiungerne altre!
   [Tutorial FreeCAD POV ray/it](Tutorial_FreeCAD_POV_ray/it.md)                                           [Tutorial Render with Blender/it](Tutorial_Render_with_Blender/it.md)                                       [Template:TutorialInfo/it](Template:TutorialInfo/it.md)
   [Tutorials/it](Tutorials/it.md)                                                                         [Video tutorials for architectural design/it](Video_tutorials_for_architectural_design/it.md)               [Video tutorials for product design/it](Video_tutorials_for_product_design/it.md)
   [Video tutorials obsolete/it](Video_tutorials_obsolete/it.md)                                           [Video tutorials/it](Video_tutorials/it.md)                                                                 [VRML Preparation for Robot Simulation/it](VRML_Preparation_for_Robot_Simulation/it.md)
-  [Whiffle Ball tutorial/it](Whiffle_Ball_tutorial/it.md)                                                 [Wikihouse porting tutorial/it](Wikihouse_porting_tutorial/it.md)                                           
-  --------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
+  [Whiffle Ball tutorial/it](Whiffle_Ball_tutorial/it.md)                                                 [Wikihouse porting tutorial/it](Wikihouse_porting_tutorial/it.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/it](<img src="images/Property.png" style="width:16px"> Categories/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:Tutorials/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/it

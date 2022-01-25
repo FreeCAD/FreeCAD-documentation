@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/it
+   Topic:Disegno tecnico
+   Level:Intermedio
+   Time:60 minuti
+   Author:[http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
+   FCVersion:0.17
+---
+
 # TechDraw TemplateHowTo/it
-{{TutorialInfo/it
-|Topic=Disegno tecnico
-|Level=Intermedio
-|Time=60 minuti
-|Author=[http://freecadweb.org/wiki/index.php?title=User:wandererfan wandererfan]
-|FCVersion=0.17
-}}
+
+
+
+
 
 ## Introduzione
 
@@ -180,9 +186,9 @@ If you do not see the green boxes for your editable texts, there might be someth
 If texts appear offset in FreeCAD, you may need to remove the {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} attributes in the SVG file. See: <https://www.forum.freecadweb.org/viewtopic.php?t=50897>.
 
 
-{{Tutorials navi
+ {{TechDraw Tools navi}}
 
-}} {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateHowTo/it

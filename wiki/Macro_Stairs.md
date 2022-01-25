@@ -114,5 +114,7 @@ FreeCAD.ActiveDocument.recompute()
 
 The discussion on the forum [Newbie question - spiral stairs reloaded](http://forum.freecadweb.org/viewtopic.php?f=3&t=9921)
 
+
+
 ---
-[documentation index](../README.md) > Macro Stairs
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Stairs

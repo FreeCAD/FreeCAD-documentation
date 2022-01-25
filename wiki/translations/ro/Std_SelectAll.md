@@ -52,5 +52,7 @@ Pentru mai multe informații despre modul de selectare, puteți consulta și pag
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SelectAll/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectAll/ro

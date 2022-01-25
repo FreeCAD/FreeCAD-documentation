@@ -20,5 +20,7 @@ FreeCAD Dokumente werden mit der Erweiterung .FcStd gespeichert, was ein auf zip
 -   [Das FreeCAD Dokument](Document_structure/de.md)
 -   [Dateiformat FCStd](File_Format_FCStd/de.md)
 
+
+
 ---
-[documentation index](../README.md) > Manual:The FreeCAD document/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD document/de

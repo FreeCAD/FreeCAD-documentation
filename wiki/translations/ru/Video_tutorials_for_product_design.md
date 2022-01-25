@@ -5,7 +5,7 @@
 
 The tutorials listed here are those that deal with design of physical products for manufacturing or 3D printing. For other topics, see the general page [video tutorials](video_tutorials.md).
 
-Visit [tutorials](tutorials.md) for high quality written tutorials. A complete, unsorted list of tutorials can be found in [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
+Visit [tutorials](tutorials.md) for high quality written tutorials. A complete, unsorted list of tutorials can be found in [:Category:Tutorials](:Category_Tutorials.md).
 
 ## Проектирование продукта 
 
@@ -75,9 +75,6 @@ Although this list focuses on German content, many of these channels also have v
     -   [FREECAD 0.17 - 0.18](https://www.youtube.com/watch?v=cBA7EJyrLkQ&list=PLfv54N1Sqk4zFGrn6mVU5kTSpfyfN2GyW): a series of 15 videos showing how to model various objects: mechanical connectors, turbines, pliers, tubings, tire rims, screws, a screw cap, a screw bit, a helical gear, a bicycle tire, and others.
 
 
-{{Tutorials navi
-
-}}
 
 ---
-[documentation index](../README.md) > Video tutorials for product design/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Video tutorials for product design/ru

@@ -108,9 +108,7 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 -   [Glossary](Glossary.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc

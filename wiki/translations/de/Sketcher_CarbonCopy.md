@@ -42,5 +42,7 @@ Maßbeschränkungen, die vor der Kopierfunktion bestehen, bleiben über [ Ausdr�
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CarbonCopy/de

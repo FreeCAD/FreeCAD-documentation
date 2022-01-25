@@ -45,5 +45,7 @@ Il comando **Decima** riduce il numero di facce negli oggetti mesh.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh Decimating/it

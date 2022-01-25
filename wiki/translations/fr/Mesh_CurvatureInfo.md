@@ -35,5 +35,7 @@ La commande **Mesh Info de courbures** affiche la courbure absolue du [Mesh Trac
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh CurvatureInfo/fr

@@ -24,5 +24,7 @@ Die Richtung der Linien und auch die Flächennormalen werden durch die Z-Achse d
 
 :   Zusätzlich kann es erforderlich sein die Funktion \"Element umdrehen\" zu nutzen, wenn die LKS nicht wie erwartet ausgerichtet sind.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintEqualAngle/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintEqualAngle/de

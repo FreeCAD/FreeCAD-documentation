@@ -31,5 +31,7 @@ The **Std OnlineHelp** command opens the help documentation. To open the documen
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std OnlineHelp
+![](images/Right_arrow.png) [documentation index](../README.md) > Std OnlineHelp

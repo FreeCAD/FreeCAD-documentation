@@ -14,7 +14,7 @@ Voici le modèle [de projet](Project_template/fr.md) ([en](Project_template.md))
 ## Projets
 
   Projet                                                                                          La description                                                                                                                                              Catégorie                                                                 Statut
-  ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------- ---------
+     
   **[Projet STEP](STEP_project/fr.md)**                                                   sur l\'amélioration et l\'avancement du support STEP dans FreeCAD                                                                                           Modélisation, formats de fichiers                                         Courant
   **[Projet Nommage](Naming_project/fr.md)**                                              consiste à implémenter un cadre robuste de référencement de forme.                                                                                          Modélisation                                                              Courant
   **[Projet Modèle de développement FreeCAD](FreeCAD_development_model_project/fr.md)**   déplacer FreeCAD vers un modèle de développement plus performant                                                                                            Processus de développement                                                Courant
@@ -45,8 +45,5 @@ Comme dans les plupart des projets [FLOSS](http://fr.wikipedia.org/wiki/Free/Lib
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/fr

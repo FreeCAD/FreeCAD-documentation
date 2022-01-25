@@ -105,5 +105,7 @@ Seleccionar uno de los ejes estándar de Origen del Body (cuerpo) (X, Y o Z) com
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign LinearPattern/es

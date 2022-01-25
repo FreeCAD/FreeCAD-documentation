@@ -186,5 +186,7 @@ App.ActiveDocument.recompute()
 
 Обсуждение на форуме [MoveToOrigin Macro](https://forum.freecadweb.org/viewtopic.php?f=22&t=59450)
 
+
+
 ---
-[documentation index](../README.md) > Macro MoveToOrigin/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro MoveToOrigin/ru

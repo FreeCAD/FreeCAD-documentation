@@ -1,17 +1,23 @@
+---
+- TutorialInfo:   Topic:Modeling
+   Level:Experienced User
+   Author:NormandC
+   Time:
+   FCVersion:0.19.23300 or higher
+   Files:
+---
+
 # PartDesign Bearingholder Tutorial I/ro
+
+
+
+
+
 **This tutorial was originally written for a now deprecated development version of FreeCAD. This tutorial requires a complete rewrite to align with the PartDesign changes that will be in the upcoming v0.17 release.**
 
 
 
 
-{{TutorialInfo
-|Topic=Modeling
-|Level=Experienced User
-|Author=NormandC
-|Time=
-|FCVersion=0.19.23300 or higher
-|Files=
-}}
 
 ![Bearing Holder Tutorial - Locaș de rulment finalizat (top)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
 
@@ -111,7 +117,5 @@ We have modelled the bearing holder top with the dimensions it will have after c
 
 
 
-[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
-
 ---
-[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/ro

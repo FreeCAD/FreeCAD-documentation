@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM ConstraintSpring
    Name/fr:FEM Contrainte de ressort
-   MenuLocation:Model → Mechanical Constraints → Constraint spring
+   MenuLocation:Modèle → Contraintes mécaniques→ Contrainte de ressort
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Version:0.20
 ---
@@ -25,5 +25,7 @@ Définit un \...
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ConstraintSpring/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSpring/fr

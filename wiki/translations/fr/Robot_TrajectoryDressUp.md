@@ -68,5 +68,7 @@ Vous pouvez alors changer les valeurs pour
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot TrajectoryDressUp/fr

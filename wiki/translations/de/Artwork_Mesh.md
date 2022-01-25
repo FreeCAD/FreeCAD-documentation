@@ -16,9 +16,9 @@ Für alle Symbole im Quellbaum siehe [Illustration](Artwork/de.md).
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md)
+
 
 ---
-[documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/de

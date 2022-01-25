@@ -604,5 +604,7 @@ FreeCAD.ActiveDocument.recompute()
 
 -   Recalculează toate componentele modificate de pe ecran și reîmprospătează afișajul.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/ro

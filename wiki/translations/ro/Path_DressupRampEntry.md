@@ -40,5 +40,7 @@ Acest instrument utilizează o cale existentă pentru a adăuga punți/etichete 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path DressupRampEntry/ro

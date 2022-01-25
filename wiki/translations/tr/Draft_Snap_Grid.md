@@ -74,5 +74,7 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Grid/tr

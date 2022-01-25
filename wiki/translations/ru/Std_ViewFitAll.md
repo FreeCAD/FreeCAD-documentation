@@ -59,5 +59,7 @@ FreeCADGui.SendMsgToActiveView('ViewFit')
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewFitAll/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewFitAll/ru

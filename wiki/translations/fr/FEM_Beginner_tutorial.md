@@ -1,11 +1,12 @@
 # FEM Beginner tutorial/fr
-{{TutorialInfo/fr
-|Topic= Tutoriel FEM Débutant
-|Level= Débutant
-|Time=
-|Author=thschrader
-|FCVersion=0.17.11622+
-|Files=[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true] Whiffle Ball
+---
+- TutorialInfo:/fr
+   Topic: Tutoriel FEM Débutant
+   Level: Débutant
+   Time:
+   Author:thschrader
+   FCVersion:0.17.11622+
+   Files:[https://github.com/FreeCAD/Examples/blob/master/Whiffle_Ball_Tutorial_ExampleFiles/WhiffleBall_Tutorial_FCWiki.FCStd?raw=true] Whiffle Ball
 }}
 
 ### **Motivation**
@@ -40,5 +41,11 @@ A faire
 
 A faire
 
+
+{{clear
 ---
-[documentation index](../README.md) > FEM Beginner tutorial/fr
+
+
+
+---
+![](images/Right_arrow.png) [documentation index](../README.md) > FEM Beginner tutorial/fr

@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/pl
+   Topic:Rysunek Techniczny
+   Level:Początkujący
+   Time:10 minut
+   Author:Andergrin
+   FCVersion:0.19
+---
+
 # TechDraw pitch circle tutorial/pl
-{{TutorialInfo/pl
-|Topic=Rysunek Techniczny
-|Level=Początkujący
-|Time=10 minut
-|Author=Andergrin
-|FCVersion=0.19
-}}
+
+
+
+
 
 ## Wprowadzenie
 
@@ -43,5 +49,7 @@ Ten poradnik wyjaśnia jak dodać okrąg podziałowy do widoku <img alt="" src=i
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw pitch circle tutorial/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw pitch circle tutorial/pl

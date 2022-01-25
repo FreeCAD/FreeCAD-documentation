@@ -31,5 +31,7 @@ Dieses Werkzeug erstellt einen Hyperbelbogen mit Mittelpunkt, Hauptradius und En
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher CreateArcOfHyperbola/de

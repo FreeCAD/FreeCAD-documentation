@@ -128,9 +128,6 @@ Se espera que esto sea cierto para todos los comandos de la interfaz gráfica de
 </div>
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > Gui Command/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/es

@@ -3,7 +3,7 @@ Diese Kategorie enthält Artikel über die Benutzung von FreeCAD. Es ist auch di
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+    
   [BIM Box/de](BIM_Box/de.md)                                                                                   [BIM Classification/de](BIM_Classification/de.md)                                                               [BIM Clone/de](BIM_Clone/de.md)
   [BIM Copy/de](BIM_Copy/de.md)                                                                                 [BIM IfcElements/de](BIM_IfcElements/de.md)                                                                     [BIM IfcProperties/de](BIM_IfcProperties/de.md)
   [BIM IfcQuantities/de](BIM_IfcQuantities/de.md)                                                               [BIM Project/de](BIM_Project/de.md)                                                                             [BIM Setup/de](BIM_Setup/de.md)
@@ -170,10 +170,9 @@ Diese Kategorie enthält Artikel über die Benutzung von FreeCAD. Es ist auch di
   [Macro Solid Sweep/de](Macro_Solid_Sweep/de.md)                                                               [Macro SuperWire/de](Macro_SuperWire/de.md)                                                                     [Macro Texture Objects/de](Macro_Texture_Objects/de.md)
   [Macro Texture/de](Macro_Texture/de.md)                                                                       [Macro Unfold Box/de](Macro_Unfold_Box/de.md)                                                                   [Macro Unroll Ruled Surface/de](Macro_Unroll_Ruled_Surface/de.md)
   [Macro View Rotation/de](Macro_View_Rotation/de.md)                                                           [Macro WorkFeatures/de](Macro_WorkFeatures/de.md)                                                               [Template:Macro/de](Template:Macro/de.md)
-  [Main Page/de](Main_Page/de.md)                                                                               [Main view area/de](Main_view_area/de.md)                                                                       
-  --------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------
+  [Main Page/de](Main_Page/de.md)                                                                               [Main view area/de](Main_view_area/de.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/de](<img src="images/Property.png" style="width:16px"> Documentation/de.md) [<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/de

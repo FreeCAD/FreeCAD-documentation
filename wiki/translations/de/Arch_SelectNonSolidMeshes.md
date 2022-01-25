@@ -19,5 +19,7 @@ Dieses Werkzeug identifiziert und wählt die nicht-festen (nicht-[1](https://de.
 1.  Wähle ein Netzobjekt
 2.  Drücke den **<img src="images/Arch_SelectNonManifold.svg" width=24px>[Wähle nicht feste](Arch_SelectNonSolidMeshes/de.md)** Eintrag in {{MenuCommand/de|Arch → Dienstprogramme → Wähle nicht fest}}.
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/de

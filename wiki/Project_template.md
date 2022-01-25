@@ -25,9 +25,7 @@ This template is the guideline for a FreeCAD development project. It follows the
 
 *The last, and fifth step is to **identify and set the next actions**. The GTD methodology covers that the best way to get a task done, is to decide and set the next actions. We do not do tasks, we do next actions. So the best way to get your holiday booked is to decide what the next actions are. These normally would be items such as, look up the resort on the Internet, check online travel comparison sites for cheap flights and accommodation, call in and see a travel agent for their price and recommendation within the resort. Again, I would be surprised if any of you would take the time and effort to write these next actions down, but also, I would be surprised if any of you forgot these next actions. it is funny how our mind has a great way of remembering projects assigned and planning using the Natural Planning Method.*
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template

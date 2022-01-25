@@ -1,11 +1,16 @@
+---
+- TutorialInfo:   Topic:Add FEM Equation
+   Level:Advanced
+   Time:1 day
+   Author:[JohnWang](User_JohnWang.md)
+   FCVersion:0.19
+---
+
 # Add FEM Equation Tutorial
-{{TutorialInfo
-|Topic=Add FEM Equation
-|Level=Advanced
-|Time=1 day
-|Author=[JohnWang](User_JohnWang.md)
-|FCVersion=0.19
-}}
+
+ 
+
+
 
 ## Introduction
 
@@ -190,7 +195,5 @@ We have just created a new equation class. To access it from the FEM GUI, we nee
 
 
 
-[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
-
 ---
-[documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM Equation Tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > [Developer Documentation](Category_Developer Documentation.md) > Add FEM Equation Tutorial

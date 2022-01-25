@@ -23,5 +23,7 @@ The constraint accepts straight edges and planar faces.
 2.  Select one straight edge element or one planar face element of each object.
 3.  Press the **<img src="images/Assembly_ConstraintPerpendicular.svg" width=16px> [Perpendicular](Assembly3_ConstraintPerpendicular.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPerpendicular/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPerpendicular/en

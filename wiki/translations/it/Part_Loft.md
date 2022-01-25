@@ -193,5 +193,7 @@ La sequenza delle sezioni dipende dalla sequenza di selezione nell\'elenco. Se s
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Loft/it

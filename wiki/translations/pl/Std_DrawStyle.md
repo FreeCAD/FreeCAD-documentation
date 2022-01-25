@@ -86,5 +86,7 @@ Styl **Płaskie linie** zastępuje styl **Tryb wyświetlania** obiektów. Ten st
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DrawStyle/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DrawStyle/pl

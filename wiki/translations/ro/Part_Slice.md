@@ -217,5 +217,7 @@ Instrumentul propriu-zis este implementat în Python, vezi /Mod/Part/BOPTools/Sp
 
 -   [FreeCAD Slice und Slice Apart und andere Tricks](https://www.youtube.com/watch?v=JJAL5JmqqKQ) (German language), author: Ha Gei
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Slice/ro

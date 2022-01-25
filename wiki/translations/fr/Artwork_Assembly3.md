@@ -30,9 +30,9 @@ Ces icônes se trouvent dans le chemin source indiqué de la branche de Realthun
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Assembly](Category_Assembly.md)
+
 
 ---
-[documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/fr

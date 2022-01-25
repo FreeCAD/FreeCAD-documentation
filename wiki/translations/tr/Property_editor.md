@@ -305,5 +305,7 @@ print(obj.ViewObject.PropertiesList)
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Property editor/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Property editor/tr

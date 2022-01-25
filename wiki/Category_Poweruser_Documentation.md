@@ -3,7 +3,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+    
   [Arch API](Arch_API.md)                                                                         [Base API](Base_API.md)                                                                     [Builtin modules](Builtin_modules.md)
   [Code snippets](Code_snippets.md)                                                               [Coin3d snippets](Coin3d_snippets.md)                                                       [Command](Command.md)
   [Console API](Console_API.md)                                                                   [Create a FeaturePython object part I](Create_a_FeaturePython_object_part_I.md)             [Create a FeaturePython object part II](Create_a_FeaturePython_object_part_II.md)
@@ -37,10 +37,9 @@ This category shows documentation articles dealing with python scripting, which 
   [TechDraw API](TechDraw_API.md)                                                                 [TechDrawGui API](TechDrawGui_API.md)                                                       [Topological data scripting](Topological_data_scripting.md)
   [TopoShape API](TopoShape_API.md)                                                               [Units](Units.md)                                                                           [Vector API](Vector_API.md)
   [ViewObject API](ViewObject_API.md)                                                             [Viewprovider](Viewprovider.md)                                                             [Workbench creation](Workbench_creation.md)
-  [Wrapping a Cplusplus class in Python](Wrapping_a_Cplusplus_class_in_Python.md)                                                                                                                     
-  ------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+  [Wrapping a Cplusplus class in Python](Wrapping_a_Cplusplus_class_in_Python.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Category:Poweruser Documentation
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Category:Poweruser Documentation

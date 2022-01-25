@@ -55,5 +55,7 @@ Kosmetische Knoten sind zur Zeit nicht über [Makros](Macros/de.md) oder die [Py
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Quadrants/de

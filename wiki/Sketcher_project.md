@@ -110,9 +110,9 @@ For 0.12:
 18. Make Snap-Grid less \'greedy\' **DONE** \[mrlukeparry\]
 19. Wiki page for the Sketcher Workbench **DONE** \[normandc\]
 
- {{Sketcher Tools navi}}  
+ {{Sketcher Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
+
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher project
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher project

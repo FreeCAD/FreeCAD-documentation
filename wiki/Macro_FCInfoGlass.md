@@ -220,5 +220,7 @@ My macros on [mario52a](https://gist.github.com/mario52a) gists
 
 **04/08/2015 Ver 0.02** : add switch and presentation
 
+
+
 ---
-[documentation index](../README.md) > Macro FCInfoGlass
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfoGlass

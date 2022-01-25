@@ -38,5 +38,7 @@ Gui.Selection.getSelectionEx()[0].SubObjects[0].Faces[0].normalAt(0,0)
 
 [Link to dicussion thread (german)](http://forum.freecadweb.org/viewtopic.php?f=13&t=10959)
 
+
+
 ---
-[documentation index](../README.md) > Macro Normal Vector
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Normal Vector

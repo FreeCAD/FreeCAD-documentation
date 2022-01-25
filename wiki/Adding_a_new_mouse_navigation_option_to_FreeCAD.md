@@ -1,15 +1,18 @@
+---
+- TutorialInfo:   Topic:Adding new navigation option to FreeCAD
+   Level:Advanced
+   Time:
+   Author:Kunda1
+   FCVersion:0.19.x and above
+   Files:
+---
+
 # Adding a new mouse navigation option to FreeCAD
+
+
 **This tutorial is still a WIP. Feel free to help improve it**
 
 
-{{TutorialInfo
-|Topic=Adding new navigation option to FreeCAD
-|Level=Advanced
-|Time=
-|Author=Kunda1
-|FCVersion=0.19.x and above
-|Files=
-}}
 
 ## Introduction
 
@@ -41,14 +44,9 @@ We can refer to previous code commits that added different mouse modes for orien
 -   Revit ([commit](https://github.com/FreeCAD/FreeCAD/commit/c397aee9ed3efcb2e33fa719313c98cc4867cf32))
 -   OpenCascade ([commit](https://github.com/FreeCAD/FreeCAD/commit/be70bad701cb881f169b15aebb50e12a22828fbd))
 
-## Source code 
+## Source code
 
 
-{{Tutorials navi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Adding a new mouse navigation option to FreeCAD
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Developer Documentation](Category_Developer Documentation.md) > Adding a new mouse navigation option to FreeCAD

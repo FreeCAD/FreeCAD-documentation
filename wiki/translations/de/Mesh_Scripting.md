@@ -93,9 +93,9 @@ doc.recompute()
 
 Eine umfangreiche, wenn auch schwer zu bedienende Quelle für auf Mesh bezogenes Skripten sind die Einheitstestkripte des `Mesh` Moduls. In diesen Komponententests werden buchstäblich alle Methoden aufgerufen und alle Eigenschaften/Attribute optimiert. Wenn Du also kühn genug bist, schau Dir das [Komponententestmodul](http://free-cad.svn.sourceforge.net/viewvc/free-cad/trunk/src/Mod/Mesh/App/MeshTestsApp.py?view=markup) an.
 
-Siehe auch: [Mesh API](Mesh_API/de.md) {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
+Siehe auch: [Mesh API](Mesh_API/de.md) {{Top}}  {{Mesh Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/de

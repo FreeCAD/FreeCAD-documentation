@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/fr
+   Topic:Attachment
+   Level:Intermédiaire/Avancé
+   Author:drmacro
+   Time:1 heure
+   FCVersion:0.19 ou supérieure
+   Files:[TBD]
+---
+
 # Advanced Attachment OYX/fr
-{{TutorialInfo/fr
-|Topic=Attachment
-|Level=Intermédiaire/Avancé
-|Author=drmacro
-|Time=1 heure
-|FCVersion=0.19 ou supérieure
-|Files=[TBD]
-}}
+
+
+
+
 
 <img alt="" src=images/AttOYX_Setup.png  style="width:800px;"> 
 *Les objets en position initiale*
@@ -63,5 +69,7 @@ Maintenant, si nous ajoutons une troisième référence en sélectionnant le som
 
 :   L\'axe X de l\'esquisse est maintenant aligné dans la direction du sommet sélectionné de l\'arête orange.
 
+
+
 ---
-[documentation index](../README.md) > Advanced Attachment OYX/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Advanced Attachment OYX/fr

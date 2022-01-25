@@ -75,5 +75,7 @@ Image:Macro Align Object to View 03.png\|Sélectionnez l\'objet et lancez la mac
 
 Merci rentlau\_64 pour avoir simplifié le code
 
+
+
 ---
-[documentation index](../README.md) > Macro Align Object to View/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Align Object to View/fr

@@ -33,5 +33,7 @@ La copie a une seule propriété {{PropertyData/fr|Placement}} comme n\'importe 
 
 La copie a des propriétés de vue simples comme toutes les autres [Objet Part](Part_Feature/fr.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part SimpleCopy/fr

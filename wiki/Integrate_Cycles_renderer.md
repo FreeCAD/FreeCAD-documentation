@@ -35,9 +35,9 @@ Since direct modeling is a huge area in constant evolution, the work done in thi
 
 Medium
 
-## Additional Information 
+## Additional Information
 
-[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
+
 
 ---
-[documentation index](../README.md) > Integrate Cycles renderer
+![](images/Right_arrow.png) [documentation index](../README.md) > Integrate Cycles renderer

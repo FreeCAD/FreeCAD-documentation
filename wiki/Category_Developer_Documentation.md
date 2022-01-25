@@ -3,7 +3,7 @@ This category gathers documentation article mostly aimed at programmers
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+    
   [Add Button to FEM Toolbar Tutorial](Add_Button_to_FEM_Toolbar_Tutorial.md)                   [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md)                             [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md)
   [ANSI templates](ANSI_templates.md)                                                           [AppImage](AppImage.md)                                                               [Arch templates](Arch_templates.md)
   [Artwork](Artwork.md)                                                                         [Artwork Erroneous](Artwork_Erroneous.md)                                             [Artwork Guidelines](Artwork_Guidelines.md)
@@ -48,11 +48,8 @@ This category gathers documentation article mostly aimed at programmers
   [Tracker](Tracker.md)                                                                         [Translating an external workbench](Translating_an_external_workbench.md)             [Viewprovider](Viewprovider.md)
   [Windows packaging](Windows_packaging.md)                                                     [Windows packaging/en](Windows_packaging/en.md)                                       [Windows packaging/pl](Windows_packaging/pl.md)
   [Windows packaging/ru](Windows_packaging/ru.md)                                               [Workbench creation](Workbench_creation.md)                                           [Wrapping a Cplusplus class in Python](Wrapping_a_Cplusplus_class_in_Python.md)
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-  ----------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Artwork](Category_Artwork.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Document object](Category_Document_object.md) [<img src="images/Property.png" style="width:16px"> Packaging](Category_Packaging.md) [<img src="images/Property.png" style="width:16px"> Packaging/pl](<img src="images/Property.png" style="width:16px"> Packaging/pl.md)
+
 
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Category:Developer Documentation
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Category:Developer Documentation

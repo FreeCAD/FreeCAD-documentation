@@ -40,5 +40,7 @@ TODO: Add Before and After screenshot
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ResultsPurge/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ResultsPurge/ru

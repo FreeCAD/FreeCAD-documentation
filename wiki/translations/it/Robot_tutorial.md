@@ -1,11 +1,12 @@
 # Robot tutorial/it
-{{TutorialInfo/it
-|Topic= Robot Workbench
-|Level= Base
-|Time=
-|Author=r-frank
-|FCVersion=0.16.6703
-|Files=
+---
+- TutorialInfo:/it
+   Topic: Robot Workbench
+   Level: Base
+   Time:
+   Author:r-frank
+   FCVersion:0.16.6703
+   Files:
 }}
 
 
@@ -84,9 +85,10 @@ Questo tutorial è finalizzato all\'uso di [robot industriali](http://en.wikiped
 </div>
 
 
-{{Tutorials navi
+ {{Robot Tools navi}} {{Userdocnavi
+---
 
-}} {{Robot Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/it

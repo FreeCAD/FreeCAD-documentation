@@ -177,7 +177,7 @@ class DisplayText(QtGui.QWidget):
         self.setGeometry(   self.windowHome, self.windowHome, self.windowWidth, self.windowHeight)
         self.setWindowTitle("Object Dump of '" + FreeCADGui.ActiveDocument.Document.Label + "' at " + str(datetime.now()))
         self.show()
-    #----------------------------------------------------------------------
+    #
     def onOk(self):
         self.close()
 
@@ -304,7 +304,7 @@ global choice1, choice2, choice3, csvFlag
 choice1 = "Report View"; choice2 = "CSV File"; choice3 = "Window"
 csvFlag = False
 summarySeparator = "======================================================="
-summarySeparatorCsv = "-------------------------------------------------------"
+summarySeparatorCsv = ""
 # code ***********************************************************************************
 if FreeCAD.ActiveDocument != None:
     # ask if to window or to Report View...
@@ -344,7 +344,7 @@ if FreeCAD.ActiveDocument != None:
             file.write(line + "\n")
         file.close()
     if form.result == choice3: # report to window
-        #----------------------------------------------------------------------
+        #
         longPrintLine = ""
         for line in printList:
             longPrintLine = longPrintLine + line + "\n"
@@ -364,5 +364,7 @@ if FreeCAD.ActiveDocument != None:
 #thus ends the macro...
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Dump Objects/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Dump Objects/fr

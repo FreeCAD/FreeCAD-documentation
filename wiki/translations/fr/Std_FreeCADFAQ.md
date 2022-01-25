@@ -27,5 +27,7 @@ Actuellement cette commande pointe vers [<https://www.freecadweb.org/wiki/FAQ>](
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std FreeCADFAQ/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADFAQ/fr

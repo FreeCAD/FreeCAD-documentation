@@ -36,5 +36,7 @@ Um verfügbar zu sein, muss FreeCAD auf Open Cascade 7.3.0 oder höher basieren.
 -   [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211), die offizielle Ankündigung auf dem Open Cascade Collaborative Development Portal.
 -   <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [ Arbeitsbereich Merkmal aus einer Form entfernen](Defeaturing_Workbench/de.md)
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Defeaturing/de

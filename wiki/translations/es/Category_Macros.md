@@ -3,7 +3,7 @@ Esta categoría contiene macros para extender tu instalación de FreeCAD con nue
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------- -----------------------------------------------------------------------------------------
+    
   [Macro Align View to Face/es](Macro_Align_View_to_Face/es.md)                 [Macro ArrayCopy/es](Macro_ArrayCopy/es.md)                 [Macro Automatic drawing/es](Macro_Automatic_drawing/es.md)
   [Macro Corner shapes wizard/es](Macro_Corner_shapes_wizard/es.md)             [Macro Draw 2D Function/es](Macro_Draw_2D_Function/es.md)   [Macro Draw Parametric 2D Function/es](Macro_Draw_Parametric_2D_Function/es.md)
   [Macro FlattenWire/es](Macro_FlattenWire/es.md)                               [Macro HealArcs/es](Macro_HealArcs/es.md)                   [Macro JointWire/es](Macro_JointWire/es.md)
@@ -12,10 +12,9 @@ Esta categoría contiene macros para extender tu instalación de FreeCAD con nue
   [Macro Remove parametric history/es](Macro_Remove_parametric_history/es.md)   [Macro Rotate View/es](Macro_Rotate_View/es.md)             [Macro Solid Sweep/es](Macro_Solid_Sweep/es.md)
   [Macro SuperWire/es](Macro_SuperWire/es.md)                                   [Macro Texture Objects/es](Macro_Texture_Objects/es.md)     [Macro View Rotation/es](Macro_View_Rotation/es.md)
   [Template:Macro/es](Template:Macro/es.md)                                     [Macros recipes/es](Macros_recipes/es.md)                   [Macros/es](Macros/es.md)
-  [Qt Example/es](Qt_Example/es.md)                                             [Svg Namespace/es](Svg_Namespace/es.md)                     
-  ------------------------------------------------------------------------------------- ------------------------------------------------------------------- -----------------------------------------------------------------------------------------
+  [Qt Example/es](Qt_Example/es.md)                                             [Svg Namespace/es](Svg_Namespace/es.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/es](<img src="images/Property.png" style="width:16px"> Categories/es.md)
+
 
 ---
-[documentation index](../README.md) > Category:Macros/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Macros/es

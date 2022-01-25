@@ -39,5 +39,7 @@ Non supportato da CalculiX Interface!
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM ConstraintBearing/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintBearing/it

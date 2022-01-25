@@ -148,5 +148,7 @@ ver 00.02 12/11/2015 **macro Macro\_SelectVisible** : hidden the objects not sel
 
 ver 00.02 12/11/2015 **macro Macro\_SelectVisible** : hidden the objects not selected, if not object selected displayed all objects, hidden all objects. This version include the tree macro in one
 
+
+
 ---
-[documentation index](../README.md) > Macro Toggle Visibility/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Toggle Visibility/it

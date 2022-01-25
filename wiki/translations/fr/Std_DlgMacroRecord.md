@@ -55,5 +55,7 @@ La commande **Std Enregistrement de macro** démarre une session d\'enregistreme
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgMacroRecord/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgMacroRecord/fr

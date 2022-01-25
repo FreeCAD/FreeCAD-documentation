@@ -165,9 +165,6 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/es](<img src="images/Property.png" style="width:16px"> User_Documentation/es.md) [<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
-[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft SVG/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft SVG/es

@@ -145,5 +145,7 @@ Par exemple, l\'élément [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) de
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > App GeoFeature/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > App GeoFeature/fr

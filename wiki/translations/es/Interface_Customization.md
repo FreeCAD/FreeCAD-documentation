@@ -287,5 +287,7 @@ Los complementos ofrecen otra forma de personalizar la interfaz de uso. A contin
 
 }} {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Interface Customization/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Interface Customization/es

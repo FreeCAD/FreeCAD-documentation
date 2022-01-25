@@ -80,5 +80,7 @@ Pour un objet maillé de courbure, les propriétés suivantes sont disponibles d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh VertexCurvature/fr

@@ -68,7 +68,7 @@ Widok ekranu z wersji 0.11.
 
 {{languages/pl | {{en|Release_notes_0.11}} {{de|Release_notes_0.11/de}} {{es|Release_notes_0.11/es}} {{fr|Release_notes_0.11/fr}} {{it|Release_notes_0.11/it}} {{ru|Release_notes_0.11/ru}} }}
 
-[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
+
 
 ---
-[documentation index](../README.md) > [News](Category_News.md) > Release notes 0.11/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [News](Category_News.md) > [Documentation](Category_Documentation.md) > [Releases](Category_Releases.md) > Release notes 0.11/pl

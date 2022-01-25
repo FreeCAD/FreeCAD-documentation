@@ -45,5 +45,7 @@ FreeCADGui.ActiveDocument.ActiveView.getCameraOrientation()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewRotateRight/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewRotateRight/pl

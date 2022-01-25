@@ -230,9 +230,7 @@ CSI/MasterFormat code (as there are several systems used in the industry which g
 -   Implement XML dictionaries to store default properties, with their units, that can be used by the user.
 -   Implement python GUI to handle this data.
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Material](Material_Workbench.md) > Material data model
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Material](Material_Workbench.md) > Material data model

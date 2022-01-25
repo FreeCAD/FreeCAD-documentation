@@ -61,8 +61,5 @@ Si vous remarquez une chaîne dans l\'interface utilisateur de FreeCAD qui n\'es
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
-
 ---
-[documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/fr

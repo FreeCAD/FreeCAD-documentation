@@ -27,5 +27,7 @@ Or
 3.  Select a straight line element of the third object
 4.  Press the **<img src="images/Assembly_ConstraintSymmetricLine.svg" width=16px> [Symmetric line](Assembly3_ConstraintSymmetricLine.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSymmetricLine/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSymmetricLine/pl

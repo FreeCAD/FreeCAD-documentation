@@ -237,7 +237,7 @@ FreeCAD ejecutado en modo consola (sin interfaz gráfico de usuario GUI)
 
 Letrero de diálogo para guardar una imagen de tamaño arbitrario.
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/es](<img src="images/Property.png" style="width:16px"> User_Documentation/es.md) [<img src="images/Property.png" style="width:16px"> Screenshots/es](<img src="images/Property.png" style="width:16px"> Screenshots/es.md)
+
 
 ---
-[documentation index](../README.md) > Screenshots/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/es

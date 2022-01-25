@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ro
+   Topic: Finite Element Analysis
+   Level: Beginner
+   Time: 10 minutes + Solver time
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16.6700 or above
+   Files:
+---
+
 # FEM tutorial/ro
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro
-|Topic= Finite Element Analysis
-|Level= Beginner
-|Time= 10 minutes + Solver time
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16.6700 or above
-|Files=
-}}
 
 
 </div>
@@ -222,9 +228,9 @@ Am terminat acum cu fluxul de lucru de bază pentru [FEM Workbench](FEM_Workbenc
 </div>
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > FEM tutorial/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/ro

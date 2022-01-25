@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to Sketcher
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------
+    
   [Arch panel tutorial/pt-br](Arch_panel_tutorial/pt-br.md)                                                             [Basic Part Design Tutorial/pt-br](Basic_Part_Design_Tutorial/pt-br.md)                         [Basic Sketcher Tutorial/pt-br](Basic_Sketcher_Tutorial/pt-br.md)
   [Creating a simple part with PartDesign/pt-br](Creating_a_simple_part_with_PartDesign/pt-br.md)                       [Part and PartDesign/pt-br](Part_and_PartDesign/pt-br.md)                                       [Sketch/pt-br](Sketch/pt-br.md)
   [Sketcher BSplineApproximate/pt-br](Sketcher_BSplineApproximate/pt-br.md)                                             [Sketcher BSplineComb/pt-br](Sketcher_BSplineComb/pt-br.md)                                     [Sketcher BSplineDecreaseDegree/pt-br](Sketcher_BSplineDecreaseDegree/pt-br.md)
@@ -42,8 +42,8 @@ This category includes FreeCAD pages related to Sketcher
   [Sketcher Symmetry/pt-br](Sketcher_Symmetry/pt-br.md)                                                                 [Sketcher ToggleActiveConstraint/pt-br](Sketcher_ToggleActiveConstraint/pt-br.md)               [Sketcher ToggleConstruction/pt-br](Sketcher_ToggleConstruction/pt-br.md)
   [Sketcher ToggleDrivingConstraint/pt-br](Sketcher_ToggleDrivingConstraint/pt-br.md)                                   [Sketcher Trimming/pt-br](Sketcher_Trimming/pt-br.md)                                           [Sketcher ValidateSketch/pt-br](Sketcher_ValidateSketch/pt-br.md)
   [Sketcher ViewSection/pt-br](Sketcher_ViewSection/pt-br.md)                                                           [Sketcher ViewSketch/pt-br](Sketcher_ViewSketch/pt-br.md)                                       [Sketcher Workbench/pt-br](Sketcher_Workbench/pt-br.md)
-                                                                                                                                                                                                                                        
-  ----------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:Sketcher/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sketcher/pt-br

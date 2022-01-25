@@ -27,5 +27,7 @@ Der Befehl **Std SceneInspector** öffnet ein Dialogfeld, das eine Übersicht ü
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SceneInspector/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SceneInspector/de

@@ -49,5 +49,7 @@ In the past, the `.xpm` icons were used as overlays when displaying constraints 
 
  {{Artwork}} {{Sketcher Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork Sketcher
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Category_Sketcher.md) > Artwork Sketcher

@@ -30,5 +30,7 @@ Currently the command points to [<https://www.freecadweb.org/wiki/User_hub>](htt
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std FreeCADUserHub/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std FreeCADUserHub/ru

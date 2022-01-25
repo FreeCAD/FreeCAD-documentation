@@ -1,5 +1,7 @@
 # CompileOnMinGW/it
 1.  REDIRECT [Compile on MinGW/it](Compile_on_MinGW/it.md)
 
+
+
 ---
-[documentation index](../README.md) > CompileOnMinGW/it
+![](images/Right_arrow.png) [documentation index](../README.md) > CompileOnMinGW/it

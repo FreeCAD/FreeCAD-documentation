@@ -1,11 +1,11 @@
 # Basic modeling tutorial/en
-{{TutorialInfo
-|Topic= Introduction to modelling
-|Level= Beginner
-|Time= 15 minutes
-|Author=[NormandC](User_Normandc.md)
-|FCVersion=any
-|Files=none
+---
+- TutorialInfo:   Topic: Introduction to modelling
+   Level: Beginner
+   Time: 15 minutes
+   Author:[NormandC](User_Normandc.md)
+   FCVersion:any
+   Files:none
 }}
 
 ## Introduction
@@ -100,9 +100,9 @@ Hit the **0** (zero) key on the numerical keypad to set the view to axonometric.
 
 ### Extruding the profile 
 
-Activate the <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part Workbench](Part_Workbench.md) either from the [workbench selector](Std_Workbench.md), or from the **[View](Std_View_Menu.md) → Workbench → Part** menu.
+Activate the <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part Workbench](Part_Workbench.md) either from the [workbench selector](Std_Workbench.md), or from the **[[Std View Menu   View]] → Workbench → Part** menu.
 
-Click on the **<img src="images/Part_Extrude.svg" width=32px> [Extrude](Part_Extrude.md)** tool.
+Click on the **![](images/)**_tool.
 
 On the Tasks tab on the left, select the **Wire** object. Then enter the desired length, say 750mm. Leave the direction at Z = 1. Press **OK**. You should now have an **Extrude** object in the Model tab *(fig. 1.8)*
 
@@ -129,9 +129,10 @@ The label on your button may be different, depending on your version and also on
 The above instructions will work, no matter what label your button has.
 
 
-{{Tutorials navi
+  {{Userdocnavi
+---
 
-}}
+
 
 ---
-[documentation index](../README.md) > Basic modeling tutorial/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Category_Part.md) > Basic modeling tutorial/en

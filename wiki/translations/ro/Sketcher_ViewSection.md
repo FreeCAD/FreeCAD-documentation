@@ -43,5 +43,7 @@ Instrumentul **View section** creează un plan de secțiune care ascunde tempora
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ViewSection/ro

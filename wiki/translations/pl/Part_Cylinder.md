@@ -50,5 +50,7 @@ cylinder = FreeCAD.ActiveDocument.addObject("Part::Cylinder", "myCylinder")
 -   Gdzie parametr {{Incode|"myCylinder"}} jest etykietą dla obiektu.
 -   Funkcja zwraca nowo utworzony obiekt.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/pl

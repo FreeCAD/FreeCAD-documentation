@@ -11,9 +11,7 @@ Bitmap images are usually compressed to reduce their file size. This results in 
 
 FreeCAD can import bitmap images using the [Image Workbench](Image_Workbench.md). Other workbenches can also insert bitmaps, like the [TechDraw Image](TechDraw_Image.md) tool from the [TechDraw Workbench](TechDraw_Workbench.md).
 
- 
 
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md) [<img src="images/Property.png" style="width:16px"> Image](Category_Image.md)
 
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Bitmap
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](Category_TechDraw.md) > [Image](Category_Image.md) > Bitmap

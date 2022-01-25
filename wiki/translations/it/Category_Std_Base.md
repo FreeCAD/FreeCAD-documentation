@@ -3,7 +3,7 @@ This category list pages related to the [Std Base](Std_Base/it.md), which collec
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
+    
   [App DocumentObjectGroup/it](App_DocumentObjectGroup/it.md)             [App Link/it](App_Link/it.md)                                                       [App Part/it](App_Part/it.md)
   [Assembly/it](Assembly/it.md)                                           [Combo view/it](Combo_view/it.md)                                                   [DAG view/it](DAG_view/it.md)
   [Interface Customization/it](Interface_Customization/it.md)             [Part/it](Part/it.md)                                                               [Property editor/it](Property_editor/it.md)
@@ -58,10 +58,8 @@ This category list pages related to the [Std Base](Std_Base/it.md), which collec
   [Std ViewZoomIn/it](Std_ViewZoomIn/it.md)                               [Std ViewZoomOut/it](Std_ViewZoomOut/it.md)                                         [Std WhatsThis/it](Std_WhatsThis/it.md)
   [Std Windows Menu/it](Std_Windows_Menu/it.md)                           [Std Windows/it](Std_Windows/it.md)                                                 [Std Workbench/it](Std_Workbench/it.md)
   [Tree view/it](Tree_view/it.md)                                         [View Measure Clear All/it](View_Measure_Clear_All/it.md)                           [View Measure Toggle All/it](View_Measure_Toggle_All/it.md)
-                                                                                                                                                                              
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> User\_Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:Std Base/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Std Base/it

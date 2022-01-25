@@ -61,7 +61,7 @@ A common usage for the helix primitive is for [creating screw threads](Thread_fo
 
 Když jste šroubovici vytvořili, máte ještě možnost upravit její parametry.
 
-+----------------------------------------------------------+------------------------------------------------------------------------------------+
++++
 | ![](images/PartHelixProperty_it.png ) | Parametry v tomto menu jsou podobné těm, které jsou popsány výše.                  |
 |                                                          | **Základ**                                                       |
 |                                                          | \* {{Parameter|Umístění:}} umožňuje posunovat nebo otáčet šroubovicí |
@@ -69,10 +69,12 @@ Když jste šroubovici vytvořili, máte ještě možnost upravit její parametr
 |                                                          | -                                                                   |
 |                                                          |     {{Parameter|Úhel:}}                                                            |
 |                                                          |                                                                                 |
-+----------------------------------------------------------+------------------------------------------------------------------------------------+
++++
 
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Helix/cs

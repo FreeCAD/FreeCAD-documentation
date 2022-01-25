@@ -84,5 +84,7 @@ For more information see the power user documentation:
 
  {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > 3D view
+![](images/Right_arrow.png) [documentation index](../README.md) > 3D view

@@ -19,9 +19,6 @@ sel = FreeCADGui.Selection.getSelection()
 . {{APIFunction|getSelectionEx|[chaîne]|Renvoie une liste de Sélection d'Objet pour un nom de document donné. Si aucun document n'est donné la sélection complète est retournée. Utilisé pour sélectionner les sous-objets (ex certaines arêtes d'une face)|. Une liste de Sélection d'Objets dans l'ordre où ils ont été sélectionnés}} {{APIFunction|isSelected|FreeCAD.Objet|Vérifie si un objet donné est sélectionné |}} {{APIFunction|removeSelection|FreeCAD.Objet|Supprime un objet de la sélection |}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Selection API/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Selection API/fr

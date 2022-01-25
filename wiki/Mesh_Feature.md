@@ -153,9 +153,9 @@ obj = App.ActiveDocument.addObject("Mesh::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 
- {{Mesh Tools navi}} {{Document objects navi}} 
+ {{Mesh Tools navi}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Mesh_Workbench.md) > Mesh Feature
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Mesh_Workbench.md) > Mesh Feature

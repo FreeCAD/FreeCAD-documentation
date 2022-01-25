@@ -50,5 +50,7 @@ Dieses Werkzeug ermöglicht dir eine [Kalkulationstabellen](Spreadsheet_Workbenc
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw SpreadsheetView/de

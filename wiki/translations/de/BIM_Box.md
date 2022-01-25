@@ -24,5 +24,7 @@ Mit dem BIM Kasten Werkzeug kannst du eine Standard [Bauteilbox](Part_Box/de.md)
 4.  Klicke auf einen dritten Punkt, um eine erste Fläche des Kastens zu definieren, die orthogonal zur ersten Kante liegt.
 5.  Klicke auf einen vierten Punkt, um den Extrusionsabstand der ersten Fläche zu definieren, die den endgültigen Kasten bildet.
 
+
+
 ---
-[documentation index](../README.md) > BIM Box/de
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Box/de

@@ -43,5 +43,7 @@ Il y a aussi le problème que nous n\'avons pas de structure (fondation, associa
 
 C\'est l\'époque du financement participatif où toutes sortes de projets et d\'idées peuvent susciter un grand intérêt et permettre de lever de fonds. Pourquoi ne pas inventer quelque chose de nouveau qui pourrait être réalisé pour FreeCad avec de l\'argent ou aider à trouver de meilleures solutions ? N\'hésitez pas à en discuter sur le forum, [A propos du financement et tout ça](http://forum.freecadweb.org/viewtopic.php?f=8&t=12242).
 
+
+
 ---
-[documentation index](../README.md) > Donate/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Donate/fr

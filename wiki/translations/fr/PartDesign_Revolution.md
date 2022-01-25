@@ -26,7 +26,7 @@ L\'outil **Révolution** produit un solide par révolution d\'une esquisse ou d\
 
 Lors de la création de la révolution, les **Paramètres de la révolution** permettent de définir les réglages de révolution de l\'esquisse.
 
-+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/partdesign_revolution_parameters.png ) | ### Axe                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                                  | Cette option spécifie l\'axe autour duquel l\'esquisse doit être tournée.                                                                                                                                                                                                                                                                                                                                                |
@@ -49,7 +49,7 @@ Lors de la création de la révolution, les **Paramètres de la révolution** pe
 |                                                                                  | ### Inversé                                                                                                                                                                                                                                                                                                                                                                                                              |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |                                                                                  | Si cette case est cochée, le sens de la révolution est inversé, passant du sens horaire par défaut au sens antihoraire.                                                                                                                                                                                                                                                                                                  |
-+----------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ## Propriétés
 
@@ -81,5 +81,7 @@ Un [exemple](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) d\'utilisatio
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/fr

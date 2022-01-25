@@ -62,5 +62,7 @@ Un **piano di taglio** divide lo spazio dell\'oggetto in due metà. Tutte le par
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ToggleClipPlane/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ToggleClipPlane/it

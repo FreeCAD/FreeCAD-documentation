@@ -1,11 +1,12 @@
 # Engine Block Tutorial/de
-{{TutorialInfo/de
-|Topic=Part Arbeitsbereich
-|Level=Anfänger
-|Time=1 Stunde
-|Author=Andrewbuck40
-|FCVersion=0.14.3700
-|Files=
+---
+- TutorialInfo:/de
+   Topic:Part Arbeitsbereich
+   Level:Anfänger
+   Time:1 Stunde
+   Author:Andrewbuck40
+   FCVersion:0.14.3700
+   Files:
 }}
 
 <img alt="" src=images/Engine_Block_Tutorial_-_Finished_Engine_Block.png  style="width:600px;">
@@ -28,7 +29,7 @@ Im Arbeitsbereich *Part* sind mehrere Werkzeuge für primitive Objekte wie Quade
 
 Sobald du deinen Würfel hast und mit der Funktionsweise der Maus vertraut bist, beginnen wir mit der Einrichtung der Abmessungen des CAD Modells. Wähle den *Würfel*, durch daraufklicken in der Baumansicht, und klicke dann auf den \'\'Datenreiter\' der *Eigenschaftsansicht*, die sich unter der Baumansicht befindet (gehe zu **Ansicht → Paneele → Combo Ansicht**, wenn du diese geschlossen hast). Im \"Datenreiter\" kannst du die Eigenschaften des in der Strukturansicht ausgewählten Objekts ändern. Je nachdem, welche Art von Objekt du auswählst, gibt es verschiedene Parameter, die du im \"Datenreiter\" einstellen kannst. Für einen Kasten benötigen wir 3 Vektoren, einen für seine Position im 3D Raum, einen weiteren für seine Orientierung und einen dritten, um die Abmessungen des Kastens festzulegen. Für eine Kugel könntest du den Mittelpunkt und den Radius angeben; Kegel haben einen Radius, eine Höhe und eine Position und so weiter. Wir bauen einen kleinen 2-Zylinder Motorblock, also stelle die Größe und die Position des Kastens auf die folgenden Werte ein (stelle sicher, dass du die XYZ unter *Position* einstellst, die unter *Achse* stellen die Rotationsachse ein, und die Standardwerte sind das, was wir wollen):
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 0.0 mm \|\| Länge: 140.0 mm \|- \| Y: -40.0 mm \|\| Breite: 80.0 mm \|- \| Z: 0.0 mm \|\| Höhe: 110.0 mm \|- \|}
 
@@ -38,7 +39,7 @@ Jetzt, wo du deinen Motorblock richtig dimensioniert hast, sollten wir ihm einen
 
 Als nächstes werden wir den ersten Zylinder durch den gesamten Motorblock herausschneiden. Dazu fügen wir dem Modell einen Zylinder in der Größe hinzu, die wir aufbohren wollen, und führen dann eine boolesche Operation durch, um das Material vom Block zu \"subtrahieren\". Klicke auf die Schaltfläche Zylinder hinzufügen (<img alt="" src=images/Part_Cylinder.svg  style="width:16px;">), um einen neuen Zylinder zu erstellen, wähle ihn dann in der Baumansicht aus und lege seine Eigenschaften wie folgt fest:
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 40.0 mm \|\| Höhe: 110.0 mm \|- \| Y: 0.0 mm \|\| Radius: 25.0 mm \|- \| Z: 0.0 mm \|\| \|- \|}
 
@@ -64,7 +65,7 @@ Nun da die Bohrungen des Blocks fertig sind, nehmen wir uns einen Moment, um ein
 
 In diesem Abschnitt widmen wir uns nun dem Kurbelgehäuse unterhalb des Motorblocks. Fügen Sie einen neuen Würfel ein, benennen Sie ihn um in **Kurbelgehäuse Rohling** und geben Sie ihm die folgenden Eigenschaften:
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 0.0 mm \|\| Länge: 140.0 mm \|- \| Y: -50.0 mm \|\| Breite: 100.0 mm \|- \| Z: -85.0 mm \|\| Höhe: 85.0 mm \|- \|}
 
@@ -72,7 +73,7 @@ Um das Kurbelgehäuse von dem anderen zu unterscheiden, geben wir einem von ihne
 
 Füge einen weiteren Kasten mit der Bezeichnung **Lageraussparung** hinzu, gib ihm die folgenden Eigenschaften und schneide dann den **Lageraussparung** vom **Kurbelgehäuserohling** weg (d.h. wähle zuerst den Rohling aus):
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 0.0 mm \|\| Länge: 140.0 mm \|- \| Y: -40.0 mm \|\| Breite: 80.0 mm \|- \| Z: -85.0 mm \|\| Höhe: 30.0 mm \|- \|}
 
@@ -82,7 +83,7 @@ Benennen Sie das resultierende *Cut* Objekt um in **Carved crankcase**.
 
 Als nächstes werden wir einen halbkreisförmigen Platz für den Sitz der Kurbelwelle und einen Freiraum im Gehäuse für die Drehung der Welle erzeugen. Wir beginnen mit einem Zylinder, wobei die Orientierung des Zylinders diesmal horizontal sein soll. Das heißt wir müssen herausfinden, wie der Zylinder entsprechend gedreht und passend zum Motorblock ausgerichtet werden kann. Ein Blick auf das Koordinatenkreuz in der unteren rechten Ecke der 3D Ansicht führt zu der Erkenntnis, dass der Zylinder in Richtung der x Achse zeigen muss. Der Zylinder muss also gegenüber seiner Standardorientierung um 90° um die y Achse gedreht werden. Erstelle einen Zylinder, nenne ihn **Crankshaft carve** und gib ihm die folgenden Eigenschaften (wichtig: anders als bisher, wird die Orientierung diesmal auch geändert!):
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| Achse X: 0.0 mm \|\| Winkel: 90.0 Grad \|- \| Achse Y: 1.0 mm \|\| \|- \| Achse Z: 0.0 mm \|\| \|- \| Position X: 0.0 mm \|\| Höhe: 140.0 mm \|- \| Position Y: 0.0 mm \|\| Radius: 20.0 mm \|- \| Position Z: -55.0 mm \|\| \|- \|}
 
@@ -92,11 +93,11 @@ Schneide das neue Objekt aus dem vorhandenen Gehäuse **Carved crankcase** aus u
 
 Zuletzt werden wir 2 Endkästen ausschneiden, so dass die Kolbenstangen vom Kurbelgehäuse bis in den Motorblock reichen können. Mache zwei Objekte mit den Namen **Box carve 1** und **Box carve 2** mit den folgenden Eigenschaften; du kannst auch **Box carve 1** duplizieren und einfach die X Koordinate ändern, um den zweiten Carver zu erhalten. Vereinige sie zu einem Objekt namens **Box carvers** und schneide dieses Objekt vom *\'Kurbelgehäuse mit Zapfen* ab und nenne das Endergebnis **Kurbelgehäuse**. Denke daran, dass du den **Gebohrten Block** ausblenden kannst, indem du ihn markierst und die Leertaste drückst, damit du sehen kannst, was du tust.
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 15.0 mm \|\| Länge: 50.0 mm \|- \| Y: -25.0 mm \|\| Breite: 50.0 mm \|- \| Z: -55.0 mm \|\| Höhe: 55.0 mm \|- \|}
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X: 75.0 mm \|\| Länge: 50.0 mm \|- \| Y: -25.0 mm \|\| Breite: 50.0 mm \|- \| Z: -55.0 mm \|\| Höhe: 55.0 mm \|- \|}
 
@@ -122,7 +123,7 @@ Entwurfselemente mit der Maus hinzuzufügen ist schnell und einfach, aber nicht 
 
 Nun da Sie wissen, wie man die Koordinaten der Zeichenelemente einfach ermittelt, können Sie ohne Probleme ein Bolzenmuster oder andere zweidimensionale Entwürfe erstellen. Für unseren drei Kopfbolzen werden wir die in der nachfolgenden Tabelle gezeigten Koordinaten verwenden. Beachten Sie, dass beim Eingeben der Werte in die Textfelder mit der Eingabetaste zum nächsten Textfeld gewechselt werden kann. Die Maus sollte dabei nicht bewegt werden, da sonst die Koordinaten überschrieben werden. Beim Zeichnen der Kreise sollte zudem die Option *Gefüllt* aktiviert sein. Falls es mit der z-Koordinate der Kreise Probleme geben sollte, so hilft es unter Umständen, die Zeichenebene auf der Höhe Z=0 zu erstellen und für die Kreise manuell eine Höhe von 110 mm einzugeben.
 
-:   {\| class=wikitable border=1
+:   {\    class:wikitable border=1
 
 \|- \| X1: 10 \|\| Y1: 25 \|\| Radius: 2.5 mm \|- \| X2: 70 \|\| Y2: 25 \|\| Radius: 2.5 mm \|- \| X3: 130 \|\| Y3: 25 \|\| Radius: 2.5 mm \|}
 
@@ -170,5 +171,11 @@ Jetzt, wo wir 3D Objekte für die Bohrungsöffnungen und die äußere Form haben
 
 Dein endgültiges Objekt sollte wie auf dem Bild rechts aussehen.
 
+
+{{clear
 ---
-[documentation index](../README.md) > Engine Block Tutorial/de
+
+
+
+---
+![](images/Right_arrow.png) [documentation index](../README.md) > Engine Block Tutorial/de

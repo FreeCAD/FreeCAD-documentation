@@ -78,90 +78,90 @@ Voir la page wiki de l\'outil <img alt="" src=images/PartDesign_Mirrored.svg  st
 Vous pouvez voir ci-dessous le même exemple construit avec chacun des deux ateliers. Bien sûr, il existe toujours plusieurs chronologies de construction possibles avec chaque atelier. ![Comparaison des constructions avec l\'atelier Part et l\'atelier PartDesign](images/PartWBvsPartDesignWBexample.jpg )
 
   Dans <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> l\'atelier PartDesign                                                                            Dans <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> l\'atelier Part
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   01- <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> Corps (Body) + <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XZ   01- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
   ![](images/01sketchXZ_PartWBvsPartDesignWBn.jpg )                                                                                               ![](images/01Psketch_PartWBvsPartDesignWBn.jpg )
                                                                                                                                                                                  
 
-  ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------
+   
   02- <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> Révolution / Z   02- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Révolution / Z
   ![](images/02revolutionZ_PartWBvsPartDesignWBn.jpg )          ![](images/02revolveZ_PartWBvsPartDesignWBn.jpg )
                                                                                                   
-  ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   03- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XY   03- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XY
   ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )                 ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )
                                                                                                    
-  ------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------ --------------------------------------------------------------------------------
+   
   04- <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Poche   04a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrusion
   ![](images/04pocket_PartWBvsPartDesignWBn.jpg )   ![](images/04aExtrude_PartWBvsPartDesignWB.jpg )
                                                                                  
-  ------------------------------------------------------------------------------ --------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------ ------------------------------------------------------------------------
+   
                                                                                  04b- <img alt="" src=images/Part_Cut.svg  style="width:32px;"> Soustraction
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/04bCut_PartWBvsPartDesignWB.jpg )
                                                                                  
-  ------------------------------------------------------------------------------ ------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   05- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XZ   05- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
   ![](images/05sketchXZ_PartWBvsPartDesignWB.jpg )                   ![](images/05PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                    
-  ------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
-  ----------------------------------------------------------------------------------- --------------------------------------------------------------------------------
+   
   06- <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> Extrusion sym/XZ   06a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrusion sym/XZ
   ![](images/06padSymXZ_PartWBvsPartDesignWB.jpg )      ![](images/06aExtrude_PartWBvsPartDesignWB.jpg )
                                                                                       
-  ----------------------------------------------------------------------------------- --------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
                                                                                  06b- <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> Draft WB <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> Répétition circulaire
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/06bDraftPolarPattern_PartWBvsPartDesignWB.jpg )
                                                                                  
-  ------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------ ------------------------------------------------------------------------------
+   
                                                                                  06c- <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> Fusion
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/06cFusion_PartWBvsPartDesignWB.jpg )
                                                                                  
-  ------------------------------------------------------------------------------ ------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   07- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse sur face plane de la base   07- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
   ![](images/07sketchBaseSupFace_PartWBvsPartDesignWB.jpg )              ![](images/07PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                                 
-  ------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------
+   
   08- <img alt="" src=images/PartDesign_Hole.svg  style="width:32px;"> Trou lamé                     08a- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Révolution
   ![](images/08hole-counterbore_PartWBvsPartDesignWB.jpg )   ![](images/08aRevolve_PartWBvsPartDesignWB.jpg )
                                                                                                    
-  ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------
+   
 
-  ------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
                                                                                  08b- <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> Draft WB <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> Répétition circulaire
   ![](images/00nothing_PartWBvsPartDesignWB.jpg )   ![](images/08bDraftPolarPattern_PartWBvsPartDesignWB.jpg )
                                                                                  
-  ------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
 
-  --------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------
+   
   09- <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> Répétition circulaire de Perçage + Extrusion   09- <img alt="" src=images/Part_Cut.svg  style="width:32px;"> Soustraction
   ![](images/09polarPatternHoleAndPad_PartWBvsPartDesignWB.jpg )                        ![](images/09Cut_PartWBvsPartDesignWB.jpg )
                                                                                                                                     
-  --------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------
+   
 
 Comparez les arbres de construction dans les deux ateliers ainsi que leur organisation et leur chronologie de lecture :
 
-  ------------------------------------------------------------------------------------ ------------------------------------------------------------------------
+   
   10- Arbre de construction dans l\'atelier PartDesign                                 10- Arbre de construction dans l\'atelier Part
   ![](images/PartvsPartDesign_TreePartDesignWB.jpg )   ![](images/PartvsPartDesign_TreePartWB.jpg )
                                                                                        
-  ------------------------------------------------------------------------------------ ------------------------------------------------------------------------
+   
 
 ## Conclusion
 
@@ -170,9 +170,9 @@ Les ateliers Part et PartDesign peuvent être utilisés ensemble, avec un peu de
 [Haut](#Top/fr.md)
 
 
-{{Tutorials navi
+  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
-}}  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part and PartDesign/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](Category_PartDesign.md) > [Sketcher](Category_Sketcher.md) > [Part](Part_Workbench.md) > Part and PartDesign/fr

@@ -3,11 +3,10 @@ This category lists pages related to the [TechDraw Workbench/zh-tw](TechDraw_Wor
 
 ### Contents:
 
-  -----------------------------------------------------------------
+  
   [TechDraw Workbench/zh-tw](TechDraw_Workbench/zh-tw.md)
-  -----------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/zh-tw](<img src="images/Property.png" style="width:16px"> Workbenches/zh-tw.md)
+
 
 ---
-[documentation index](../README.md) > Category:TechDraw/zh-tw
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:TechDraw/zh-tw

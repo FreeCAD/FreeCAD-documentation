@@ -149,5 +149,7 @@ The tool itself is implemented in Python, see /Mod/Part/JoinFeatures.py under wh
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part JoinEmbed/ro

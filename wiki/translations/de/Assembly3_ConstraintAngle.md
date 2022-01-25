@@ -24,5 +24,7 @@ Diese Beziehung akzeptiert gerade Kanten und ebene Flächen.
 2.  Je ein ebenes Flächenelement oder eine gerade Kante pro Objekt auswählen.
 3.  Schaltfläche**<img src="images/Assembly_ConstraintAngle.svg" width=16px> [WinkelFestlegen](Assembly3_ConstraintAngle/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintAngle/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAngle/de

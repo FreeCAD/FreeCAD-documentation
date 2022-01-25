@@ -5,12 +5,11 @@ This category gathers articles that list objects and methods available for [Pyth
 
 ### Contents:
 
-  --------------------------------------- ----------------------------------------------------- -----------------------------------------
+    
   [Arch API/tr](Arch_API/tr.md)   [Builtin modules/tr](Builtin_modules/tr.md)   [Draft API/tr](Draft_API/tr.md)
-  [Python/tr](Python/tr.md)                                                             
-  --------------------------------------- ----------------------------------------------------- -----------------------------------------
+  [Python/tr](Python/tr.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/tr](<img src="images/Property.png" style="width:16px"> Categories/tr.md)
+
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > Category:API/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > Category:API/tr

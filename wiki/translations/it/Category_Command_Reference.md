@@ -5,7 +5,7 @@ Questa categoria recensisce le pagine di aiuto di tutti i comandi di FreeCAD.
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+    
   [Arch 3Views/it](Arch_3Views/it.md)                                                     [Arch Add/it](Arch_Add/it.md)                                                                 [Arch Axis/it](Arch_Axis/it.md)
   [Arch AxisSystem/it](Arch_AxisSystem/it.md)                                             [Arch Building/it](Arch_Building/it.md)                                                       [Arch BuildingPart/it](Arch_BuildingPart/it.md)
   [Arch Check/it](Arch_Check/it.md)                                                       [Arch CloneComponent/it](Arch_CloneComponent/it.md)                                           [Arch CloseHoles/it](Arch_CloseHoles/it.md)
@@ -172,10 +172,9 @@ Questa categoria recensisce le pagine di aiuto di tutti i comandi di FreeCAD.
   [Path SimpleCopy/it](Path_SimpleCopy/it.md)                                             [Path Simulator/it](Path_Simulator/it.md)                                                     [Path Slot/it](Path_Slot/it.md)
   [Path Stop/it](Path_Stop/it.md)                                                         [Path Surface/it](Path_Surface/it.md)                                                         [Path ToolLibraryEdit/it](Path_ToolLibraryEdit/it.md)
   [Path Vcarve/it](Path_Vcarve/it.md)                                                     [Path Waterline/it](Path_Waterline/it.md)                                                     [Plot Axes/it](Plot_Axes/it.md)
-  [Plot Grid/it](Plot_Grid/it.md)                                                         [Plot Labels/it](Plot_Labels/it.md)                                                           
-  ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+  [Plot Grid/it](Plot_Grid/it.md)                                                         [Plot Labels/it](Plot_Labels/it.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/it](<img src="images/Property.png" style="width:16px"> Categories/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/it

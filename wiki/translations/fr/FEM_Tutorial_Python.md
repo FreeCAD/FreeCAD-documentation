@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/fr
+   Topic:Analyse par Éléménts Finis
+   Level:Intermédiaire
+   Time:30 minutes
+   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
+   FCVersion:0.18.15985 ou plus récente
+---
+
 # FEM Tutorial Python/fr
-{{TutorialInfo/fr
-|Topic=Analyse par Éléménts Finis
-|Level=Intermédiaire
-|Time=30 minutes
-|Author=[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
-|FCVersion=0.18.15985 ou plus récente
-}}
+
+
+
+
 
 ## Introduction
 
@@ -596,11 +602,9 @@ L\'écriture du fichier d\'entrée en mode console FreeCAD (sans interface graph
 Amusez-vous! Aussi, si vous avez des commentaires ou des améliorations, n\'hésitez pas à participer sur le [sous-forum FreeCAD FEM](https://forum.freecadweb.org/viewforum.php?f=18).
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}  
 
-[<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Python Code](Category_Python Code.md) > FEM Tutorial Python/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Python Code](Category_Python Code.md) > [FEM](Category_FEM.md) > FEM Tutorial Python/fr

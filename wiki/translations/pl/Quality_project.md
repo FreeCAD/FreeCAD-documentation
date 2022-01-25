@@ -38,9 +38,6 @@ Work through all the unfinished commands and make a documentation:
 {{Special:WhatLinksHere/Template:UnfinishedDocu}}
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Quality project/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Quality project/pl

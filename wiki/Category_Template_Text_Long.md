@@ -7,14 +7,13 @@ These long pages should not be transcluded; rather, the information should be pl
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------- ---------------------------------------------------------------------------------
+    
   [Template:Blender Navigation](Template_Blender_Navigation.md)           [Template:CAD Navigation](Template_CAD_Navigation.md)                   [Template:Gesture Navigation](Template_Gesture_Navigation.md)
   [Template:MayaGesture Navigation](Template_MayaGesture_Navigation.md)   [Template:OpenCascade Navigation](Template_OpenCascade_Navigation.md)   [Template:OpenInventor Navigation](Template_OpenInventor_Navigation.md)
   [Template:OpenSCAD Navigation](Template_OpenSCAD_Navigation.md)         [Template:Revit Navigation](Template_Revit_Navigation.md)               [Template:TinkerCAD Navigation](Template_TinkerCAD_Navigation.md)
-  [Template:Touchpad Navigation](Template_Touchpad_Navigation.md)                                                                                         
-  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------- ---------------------------------------------------------------------------------
+  [Template:Touchpad Navigation](Template_Touchpad_Navigation.md)
 
-[<img src="images/Property.png" style="width:16px"> Template](Category_Template.md)
+
 
 ---
-[documentation index](../README.md) > Category:Template:Text Long
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template:Text Long

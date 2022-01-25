@@ -47,5 +47,7 @@ Der KosmetikRadierer ist zur Zeit noch nicht zugänglich über [Makros](Macros/d
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw CosmeticEraser/de

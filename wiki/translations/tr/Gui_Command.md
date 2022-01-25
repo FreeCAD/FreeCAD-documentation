@@ -58,9 +58,6 @@ There are a lot of GuiCommands (tools) in FreeCAD which are experimental or used
 Hopefully this becomes true for all GuiCommands in the [List of Commands](List_of_Commands.md).
 
 
-{{Powerdocnavi
-
-}}
 
 ---
-[documentation index](../README.md) > Gui Command/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Gui Command/tr

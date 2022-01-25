@@ -36,5 +36,7 @@ The **Std Quit** command closes the FreeCAD application and optionally saves uns
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std Quit
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Quit

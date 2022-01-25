@@ -152,5 +152,7 @@ class myCommand(draftTools.Creator):
 myCommand()
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Make Cube/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Make Cube/it

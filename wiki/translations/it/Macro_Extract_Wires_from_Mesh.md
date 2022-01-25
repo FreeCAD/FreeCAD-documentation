@@ -50,5 +50,7 @@ for obj in FreeCADGui.Selection.getSelection():
                 obj.ViewObject.hide()
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Extract Wires from Mesh/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Extract Wires from Mesh/it

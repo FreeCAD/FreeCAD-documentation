@@ -71,5 +71,7 @@ FreeCADGui.Selection.addObserver(s)
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Make Arc 3 Points/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Make Arc 3 Points/pl

@@ -12,9 +12,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Raytracing](Category_Raytracing.md)
+
 
 ---
-[documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Artwork Raytracing/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Artwork Raytracing/en

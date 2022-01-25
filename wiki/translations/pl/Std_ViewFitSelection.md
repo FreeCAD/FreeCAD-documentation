@@ -47,5 +47,7 @@ FreeCADGui.SendMsgToActiveView('ViewSelection')
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewFitSelection/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewFitSelection/pl

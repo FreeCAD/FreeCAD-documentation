@@ -15,8 +15,5 @@ Ein **Manipulator** kann benutzt werden, um Aussehen, die Form oder andere Param
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
-
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator/de

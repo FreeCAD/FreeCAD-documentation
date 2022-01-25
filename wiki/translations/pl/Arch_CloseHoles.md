@@ -53,5 +53,7 @@ FreeCAD.ActiveDocument.recompute()
 solid = Arch.closeHole(Wall.Shape)
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/pl

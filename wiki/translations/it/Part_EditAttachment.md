@@ -323,5 +323,7 @@ Allegato Spostamento viene utilizzato per applicare uno spostamento lineare o ro
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part EditAttachment/it

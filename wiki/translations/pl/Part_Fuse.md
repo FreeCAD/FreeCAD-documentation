@@ -40,5 +40,7 @@ Elementy mogą być dodawane i usuwane z scalenia, poprzez przeciąganie ich mys
 
 Po zakończeniu tej operacji może być konieczne wyczyszczenie kształtu za pomocą narzędzia <img alt="" src=images/Part_RefineShape.svg  style="width:24px;">. [Udoskonal kształt](Part_RefineShape/pl.md).
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fuse/pl

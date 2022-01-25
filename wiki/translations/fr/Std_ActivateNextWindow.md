@@ -33,5 +33,7 @@ La commande **Std Suivante** active la fenêtre suivante dans [Zone de vue princ
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ActivateNextWindow/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ActivateNextWindow/fr

@@ -42,5 +42,7 @@ FreeCADGui.ActiveDocument.ActiveView.getStereoType()
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std ViewIvStereoRedGreen
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ViewIvStereoRedGreen

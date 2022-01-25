@@ -38,5 +38,7 @@ The following additional options are available in the context menu:
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std Alignment
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Alignment

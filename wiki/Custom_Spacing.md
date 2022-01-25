@@ -11,12 +11,7 @@ Output produced by Rebar Distribution dialog when user clicks on **OK** button:
 
 <img alt="" src=images/RebarDistribution.png  style="width:800px;">
 
-  
 
-
-
-
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Custom Spacing
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Custom Spacing

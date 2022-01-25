@@ -18,5 +18,7 @@ The <img alt="" src=images/Assembly_TreeItemUp.svg  style="width:24px;"> [Move i
     -   The **<img src="images/Assembly_TreeItemUp.svg" width=16px> [Move item up](Assembly3_MoveItemUp.md)** button.
     -   The **Assembly3 → <img src="images/Assembly_TreeItemUp.svg" width=16px> Move item up** menu option.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MoveItemUp/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MoveItemUp/pl

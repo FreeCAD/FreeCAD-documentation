@@ -398,5 +398,7 @@ The tutorial [Adding a new mouse navigation option to FreeCAD](Adding_a_new_mous
 
 {{docnav|Getting started|Document structure}}
 
+
+
 ---
-[documentation index](../README.md) > Mouse navigation/id
+![](images/Right_arrow.png) [documentation index](../README.md) > Mouse navigation/id

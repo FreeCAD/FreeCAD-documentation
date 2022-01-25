@@ -48,5 +48,7 @@ Sperăm că am reușit să vă oferim o bună prezentare pentru FreeCAD în aces
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Manual:The Community/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The Community/ro

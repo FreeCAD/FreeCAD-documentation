@@ -3,7 +3,7 @@ This category collects pages related to artwork existing in the program, like ic
 
 ### Contents:
 
-  ----------------------------------------------------------------- --------------------------------------------------------------------- ---------------------------------------------------------------------------
+    
   [Artwork](Artwork.md)                                     [Template:Artwork](Template_Artwork.md)                       [Artwork Arch](Artwork_Arch.md)
   [Artwork Arch/ru](Artwork_Arch/ru.md)                     [Artwork Assembly](Artwork_Assembly.md)                       [Artwork Assembly/ru](Artwork_Assembly/ru.md)
   [Artwork Assembly3](Artwork_Assembly3.md)                 [Artwork Complete](Artwork_Complete.md)                       [Artwork Complete/ru](Artwork_Complete/ru.md)
@@ -28,10 +28,8 @@ This category collects pages related to artwork existing in the program, like ic
   [Artwork TechDraw/ru](Artwork_TechDraw/ru.md)             [Artwork Test](Artwork_Test.md)                               [Artwork Test/ru](Artwork_Test/ru.md)
   [Artwork Tux](Artwork_Tux.md)                             [Artwork Tux/ru](Artwork_Tux/ru.md)                           [Artwork Web](Artwork_Web.md)
   [Artwork Web/ru](Artwork_Web/ru.md)                       [Artwork/ru](Artwork/ru.md)                                   [Template:Artwork/ru](Template:Artwork/ru.md)
-                                                                                                                                          
-  ----------------------------------------------------------------- --------------------------------------------------------------------- ---------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Icon](Category_Icon.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Category:Artwork
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Category:Artwork

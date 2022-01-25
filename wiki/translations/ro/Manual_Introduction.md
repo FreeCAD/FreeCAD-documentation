@@ -39,5 +39,7 @@ Tot conținutul manualului acesta este publicat sub licența [Creative Commons 4
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Manual:Introduction/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:Introduction/ro

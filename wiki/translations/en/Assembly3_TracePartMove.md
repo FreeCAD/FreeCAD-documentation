@@ -18,5 +18,7 @@ The <img alt="" src=images/Assembly_Trace.svg  style="width:24px;"> [Trace part 
     -   The **<img src="images/Assembly_Trace.svg" width=16px> [Trace part move](Assembly3_TracePartMove.md)** button.
     -   The **Assembly3 → <img src="images/Assembly_Trace.svg" width=16px> Trace part move** menu option.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 TracePartMove/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 TracePartMove/en

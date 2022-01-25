@@ -62,5 +62,7 @@ FreeCADGui.ActiveDocument.ActiveView.hasAxisCross()
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std AxisCross/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std AxisCross/ru

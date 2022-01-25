@@ -27,5 +27,7 @@ The **Std MainFullscreen** command toggles FreeCAD\'s main window fullscreen mod
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MainFullscreen/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MainFullscreen/en

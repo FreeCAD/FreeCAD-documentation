@@ -95,7 +95,7 @@ G90 (Il nome del comando è G90, non ci sono argomentis)
 <div class="mw-translate-fuzzy">
 
   Comando         Descrizione           Argomenti supportati
-  --------------- --------------------- ----------------------
+    
   G0              rapida                X,Y,Z,A,B,C
   G1              avanzamento normale   X,Y,Z,A,B,C
   G2              arco orario           X,Y,Z,A,B,C,I,J,K
@@ -494,9 +494,9 @@ doc.recompute()
 
 {{Path_Tools_navi
 
-}} {{Powerdocnavi}}
+}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Path](Path_Workbench.md) > Path scripting/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Path](Path_Workbench.md) > Path scripting/it

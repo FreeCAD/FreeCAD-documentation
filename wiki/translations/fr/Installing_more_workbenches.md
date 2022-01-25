@@ -41,11 +41,6 @@ Pour plus d\'informations pour créer votre propre atelier, allez sur [Documenta
 Voir aussi une description détaillée sur la page [Comment installer un atelier supplémentaire](How_to_install_additional_workbenches/fr.md).
 
 
-{{Powerdocnavi
-
-}} 
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/fr

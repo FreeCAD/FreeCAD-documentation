@@ -3,7 +3,7 @@ This category lists pages related to the [FEM Workbench/it](FEM_Workbench/it.md)
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
+    
   [Add FEM Constraint Tutorial/it](Add_FEM_Constraint_Tutorial/it.md)             [Add FEM Equation Tutorial/it](Add_FEM_Equation_Tutorial/it.md)                                         [Analysis of reinforced concrete with FEM/it](Analysis_of_reinforced_concrete_with_FEM/it.md)
   [Artwork Fem/it](Artwork_Fem/it.md)                                             [Extend FEM Module/it](Extend_FEM_Module/it.md)                                                         [FEM Analysis/it](FEM_Analysis/it.md)
   [FEM CalculiX Cantilever 3D/it](FEM_CalculiX_Cantilever_3D/it.md)               [FEM CalculiX/it](FEM_CalculiX/it.md)                                                                   [FEM ClippingPlaneAdd/it](FEM_ClippingPlaneAdd/it.md)
@@ -35,10 +35,8 @@ This category lists pages related to the [FEM Workbench/it](FEM_Workbench/it.md)
   [FEM tutorial/it](FEM_tutorial/it.md)                                           [FEM Workbench/it](FEM_Workbench/it.md)                                                                 [IfcOpenShell/it](IfcOpenShell/it.md)
   [IfcPlusPlus/it](IfcPlusPlus/it.md)                                             [Material editor/it](Material_editor/it.md)                                                             [Material/it](Material/it.md)
   [Mesh/it](Mesh/it.md)                                                           [Post-Processing of FEM Results with Paraview/it](Post-Processing_of_FEM_Results_with_Paraview/it.md)   [Transient FEM analysis/it](Transient_FEM_analysis/it.md)
-                                                                                                                                                                                                          
-  --------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/it](<img src="images/Property.png" style="width:16px"> Workbenches/it.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:FEM/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:FEM/it

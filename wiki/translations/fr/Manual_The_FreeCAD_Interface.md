@@ -65,5 +65,7 @@ Ces options de personnalisation avancées sont disponibles à partir du menu **
 -   [Ateliers](Workbenches/fr.md)
 -   [En savoir plus sur Python](https://www.python.org)
 
+
+
 ---
-[documentation index](../README.md) > Manual:The FreeCAD Interface/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD Interface/fr

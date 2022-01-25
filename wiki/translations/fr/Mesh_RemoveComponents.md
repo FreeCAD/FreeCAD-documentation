@@ -44,5 +44,7 @@ La commande **Mesh Supprimer des composants** supprime des composants d\'objets 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh RemoveComponents/fr

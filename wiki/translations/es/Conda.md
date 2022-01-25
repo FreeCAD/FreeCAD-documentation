@@ -59,7 +59,7 @@ Primero, debes decidir si quieres instalar una versión *estable* de FreeCAD, o 
 Las versiones estables de FreeCAD se sirven en el canal conda-forja, mientras que la última de FreeCAD maestro se sirve en el canal freecad/label/dev.
 
   Canal Conda           Estable?
-  --------------------- ----------
+   
   conda-forge         Si ✔️
   freecad/label/dev   No ❌
 
@@ -92,7 +92,7 @@ conda create --name fcenv-dev --channel freecad/label/dev freecad
 -   <https://github.com/FreeCAD/FreeCAD_Conda>
 -   <https://github.com/FreeCAD/FreeCAD-AppImage>
 
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
+
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Conda/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Conda/es

@@ -68,6 +68,7 @@ If the above is not working for you please consider :
 -   <img alt="" src=images/Design456_BackSideView.svg  style="width:32px;"> [Design456 Back Side View](Design456_BackSideView.md): Use this tool align camera and working plane to the Back side.
 -   <img alt="" src=images/Design456_MoveObject.svg  style="width:32px;"> [Design456 Move Object](Design456_MoveObject.md): Move, rotate 3D Objects.
 -   <img alt="" src=images/Design456_MoveObjectDetails.svg  style="width:32px;"> [Design456 Move Object in details](Design456_MoveObjectDetails.md): Move, rotate 3D and 2D Objects.
+-   <img alt="" src=images/Design456_SmartAlignment.svg  style="width:32px;"> [Design456 Align multiple objects](Design456_SmartAlignment.md): Do 9 alignments based on shapes bound boxes.
 
 ### [FreeCAD Direct Modeling](FreeCAD_Direct_Modeling.md) 
 
@@ -83,6 +84,8 @@ The main WB development is on this part at the moment. There are some (almost- f
 -   smart Face Extend
 -   Paint
 -   Hole
+-   Reset Placement
+-   Simplify Edges
 
 ##### Note: 
 
@@ -92,18 +95,24 @@ Please notice that there is no released version yet for this workbench. Intensiv
 
 Fr\_Widget system is a beginning work for the Coin3D and the QT drawing GUI toolkit. The toolkit will make it easy to make drawing and provides an interactive way to manipulate the objects. The simplicity of the toolkit should make it easy to use it. It will be well documented. Looking at the Devbranch at my github, you will find some widget that are already made. But it is just the beginning. More details will come after finishing the Nurbs tools. The toolkit will be a flavor of FLTK toolkit.
 
-### Microelly2 Tools converted 
+### Defeaturing WB added to Design456 
 
-I did the conversion for the Nurbs and fixed many bugs. In the begning I added the project to my WB, but since the tools are not working well, I remove it. The work is huge and there were places where I didn\'t know how to solve the issues. More time required and more understanding of Microlley\'s work is required that is why the work on the project is suspended. Some good works are done and you can find the project at : <https://github.com/MariwanJ/nurbs>
+I added the workbench to my workbench and further development of the tools will continue. Those tools are needed for my workbench. More tools must be added to let the defeaturing useful.
+
+-   Tobe continued!
+
+### Microelly2 Tools (Nurbs WB) converted 
+
+I did the conversion for the Nurbs and fixed many bugs. In the beginning I added the project to my WB, but since the tools are not working well, I remove it. The work is huge and there were places where I didn\'t know how to solve the issues. More time required and more understanding of Microlley\'s work is required that is why the work on the project is suspended. Some good works are done and you can find the project at : <https://github.com/MariwanJ/nurbs>
 
 -   Tobe continued!
 
 
 {{Design456 Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
+
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Design456 Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Design456](Category_Design456.md) > Design456 Workbench

@@ -295,9 +295,9 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 {{Drawing Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Documentation](Category_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/es

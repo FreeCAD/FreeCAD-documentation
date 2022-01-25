@@ -50,5 +50,7 @@ This tool allows Simulation of the Path Job by sweeping 3D Models of the Tools u
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Simulator/ru

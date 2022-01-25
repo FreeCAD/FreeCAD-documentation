@@ -19,5 +19,7 @@ L\'outil **<img src="images/Part_Import.svg" width=16px> [Part Importation](Part
 2.  Aller dans le menu **Pièce →  [<img src=images/Part_Import.svg style="width:16px"> Importation CAO...**.
 3.  Sélectionnez le fichier à importer.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Import/fr

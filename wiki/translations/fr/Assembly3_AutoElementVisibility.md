@@ -27,5 +27,7 @@ Lorsqu\'elle est activée, le ou les éléments sélectionnés sont mis en évid
     -   Le bouton **<img src="images/Assembly_AutoElementVis.svg" width=16px> [Auto element visibility](Assembly3_AutoElementVisibility/fr.md)**.
     -   L\'option de menu **Assembly3 → Element style → <img src="images/Assembly_AutoElementVis.svg" width=16px> Auto element visibility**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AutoElementVisibility/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoElementVisibility/fr

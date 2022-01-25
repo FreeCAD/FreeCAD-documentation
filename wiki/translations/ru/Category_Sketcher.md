@@ -3,7 +3,7 @@ This category includes FreeCAD pages related to Sketcher
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+    
   [Arch panel tutorial/ru](Arch_panel_tutorial/ru.md)                                                     [Artwork Sketcher/ru](Artwork_Sketcher/ru.md)                                                                   [Basic Part Design Tutorial/ru](Basic_Part_Design_Tutorial/ru.md)
   [Basic Sketcher Tutorial/ru](Basic_Sketcher_Tutorial/ru.md)                                             [Constraint/ru](Constraint/ru.md)                                                                               [Creating a simple part with PartDesign/ru](Creating_a_simple_part_with_PartDesign/ru.md)
   [Draft ShapeString tutorial/ru](Draft_ShapeString_tutorial/ru.md)                                       [Part and PartDesign/ru](Part_and_PartDesign/ru.md)                                                             [Sketch/ru](Sketch/ru.md)
@@ -45,8 +45,9 @@ This category includes FreeCAD pages related to Sketcher
   [Sketcher ToggleDrivingConstraint/ru](Sketcher_ToggleDrivingConstraint/ru.md)                           [Sketcher Trimming/ru](Sketcher_Trimming/ru.md)                                                                 [Sketcher Tutorial/ru](Sketcher_Tutorial/ru.md)
   [Sketcher ValidateSketch/ru](Sketcher_ValidateSketch/ru.md)                                             [Sketcher ViewSection/ru](Sketcher_ViewSection/ru.md)                                                           [Sketcher ViewSketch/ru](Sketcher_ViewSketch/ru.md)
   [Sketcher Workbench/ru](Sketcher_Workbench/ru.md)                                                       [Thread for Screw Tutorial/ru](Thread_for_Screw_Tutorial/ru.md)                                                 [Toothbrush Head Stand/ru](Toothbrush_Head_Stand/ru.md)
-  [Tutorial custom placing of windows and doors/ru](Tutorial_custom_placing_of_windows_and_doors/ru.md)                                                                                                                           
-  --------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+  [Tutorial custom placing of windows and doors/ru](Tutorial_custom_placing_of_windows_and_doors/ru.md)
+
+
 
 ---
-[documentation index](../README.md) > Category:Sketcher/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sketcher/ru

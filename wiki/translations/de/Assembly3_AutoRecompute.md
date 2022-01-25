@@ -19,5 +19,7 @@ Der Befehl <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px;
     -   Die Schaltfläche **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Automatische Berechnung](Assembly3_AutoRecompute/de.md)**.
     -   Den Menüeintrag **Assembly3 → <img src="images/Assembly_AutoRecompute.svg" width=16px> Automatische Berechnung**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AutoRecompute/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoRecompute/de

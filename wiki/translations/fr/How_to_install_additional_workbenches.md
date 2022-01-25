@@ -1,11 +1,11 @@
-# How to install additional workbenches/fr
-{{TutorialInfo/fr
-|Topic=Programmation
-|Level=Programmeur moyen
-|Time=15 minutes
-|FCVersion=Toutes versions
-|Author=[r-frank](User:R-Frank.md)
-|Files=aucun
+---
+- TutorialInfo:/fr
+   Topic:Programmation
+   Level:Programmeur moyen
+   Time:15 minutes
+   FCVersion:Toutes versions
+   Author:[r-frank](User:R-Frank.md)
+   Files:aucun
 }}
 
 ## Description
@@ -15,7 +15,7 @@ Les utilisateurs expérimentés ont étendu FreeCAD avec divers [ateliers extern
 
 **Remarque:**
 
-à partir de la version 0.17, FreeCAD propose un <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire d'Addon**. Il permet d\'installer à la fois des macros et des ateliers. Les instructions ci-dessous ne sont nécessaires que si vous souhaitez installer manuellement un atelier. Cela peut être nécessaire si, pour une raison quelconque, le Gestionnaire d\'Addon ne fonctionne pas mais que vous avez accès à l\'atelier téléchargé en tant que package {{FileName|.zip}}.
+à partir de la version 0.17, FreeCAD propose un <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire d'Addon**. Il permet d\'installer à la fois des macros et des ateliers. Les instructions ci-dessous ne sont nécessaires que si vous souhaitez installer manuellement un atelier. Cela peut être nécessaire si, pour une raison quelconque, le Gestionnaire d\'Addon ne fonctionne pas mais que vous avez accès à l\'atelier téléchargé en tant que package {{FileName   .zip}}.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -48,8 +48,8 @@ cette méthode est possible mais pas nécessaire avec l\'introduction du <img al
 -   Téléchargez l\'atelier depuis github en cliquant sur le bouton **Clone** ou **Download** sur la page github (coin supérieur droit) et en choisissant \"Télécharger ZIP\"
 -   Dézippez l\'archive téléchargée sur votre disque dur local
 -   Dans FreeCAD, localisez le chemin de la macro en choisissant **Édition → Préférences → Général → Macro** et recherchez le «Chemin de la macro»
--   Supposons que votre connexion Windows est «*nom\_utilisateur*», le chemin par défaut de la macro est {{FileName|%APPDATA%\FreeCAD\}} qui est couramment {{FileName|C:\Users\''nom_utilisateur''\Appdata\Roaming\FreeCAD}}
--   Dans le répertoire-macro, créez (s\'il n\'est pas déjà présent) un dossier appelé \"{{FileName|Mod}}\"
+-   Supposons que votre connexion Windows est «*nom\_utilisateur*», le chemin par défaut de la macro est {{FileName   %APPDATA%\FreeCAD\}} qui est couramment {{FileName   C:\Users\''nom_utilisateur''\Appdata\Roaming\FreeCAD}}
+-   Dans le répertoire-macro, créez (s\'il n\'est pas déjà présent) un dossier appelé \"{{FileName   Mod}}\"
 -   Dans le dossier Mod, créez un dossier avec le nom de l\'atelier, par exemple "Curves"
 -   Déplacez maintenant les fichiers et sous-dossiers décompressés de l\'atelier dans le dossier de l\'atelier qui vient d\'être créé.
 -   Après le redémarrage de FreeCAD, vous devriez maintenant avoir une entrée dans le [sélecteur d\'atelier](Std_Workbench/fr.md)
@@ -80,13 +80,16 @@ Ajout de [community-ppa](https://launchpad.net/~freecad-community/+archive/ubunt
 Installation des ateliers via le gestionnaire de paquets synaptique.
 
 
-```python
+{{Code   code:
 $ sudo apt-get install git python-numpy python-pyside
 $ mkdir ~/.FreeCAD/Mod
 $ cd ~/.FreeCAD/Mod
 $ git clone  https://github.com/tomate44/CurvesWB.git
-```
+---
 
+# How to install additional workbenches/fr
+
+ 
 Dans FreeCAD, vous aurez maintenant une nouvel atelier appelé \"CurvesWB\". Une fois installé, utilisez git pour les mises à jour:
 
 
@@ -166,9 +169,6 @@ Pour cet exemple, supposons que vous ayez choisi l\'[Atelier Courbes](Curves_Wor
     -   voir ce fil de discussion du forum [Assembly2 dans la version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
- {{Powerdocnavi}}
-
-[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
-[documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > How to install additional workbenches/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > How to install additional workbenches/fr

@@ -44,7 +44,7 @@ FreeCADのPythonコンソールに
 
 <img alt="" src=images/shaftwizard1.jpg  style="width:800px;"> 
 
-------------------------------------------------------------------------
+
 
 
 <div class="mw-translate-fuzzy">
@@ -115,5 +115,7 @@ For each shaft segment, the following parameters can be defined
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ja

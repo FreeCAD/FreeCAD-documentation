@@ -333,7 +333,7 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
             self.text_editor.addAction(mnuCloseWindow)
             #
             self.show()
-        #----------------------------------------------------------------------
+        #
         def onMenuDivider(self):
             # just a divider in the menu so we don't do anything
             pass
@@ -569,7 +569,7 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
             self.parentWindow.setGeometry(freeCadMainWidth+interWindowGap, newPawTop, newPawWidth-interWindowGap, newPawHeight)
             self.close()
 
-    #----------------------------------------------------------------------
+    #
 
     # Class definitions
             
@@ -596,7 +596,7 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
     markerTextLength    = len(markerText)
     copyFromConsoleText = "#=========== copy from console ==========="
     copyToConsoleText   = "#============ copy to console ============"
-    menuDividerText     = "--------"
+    menuDividerText     = ""
     interWindowGap      = 3 # space between 2 windows for appearance sake
     persistenceFile     = App.ConfigGet("UserAppData")+"PythonAssistantWindow.txt"
     # code ***********************************************************************************
@@ -640,5 +640,7 @@ ToolBar Icon ![](images/Macro_Python_Assistant_Window.png )
     #
     #thus ends the macro...
 
+
+
 ---
-[documentation index](../README.md) > Macro Python Assistant Window/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Python Assistant Window/it

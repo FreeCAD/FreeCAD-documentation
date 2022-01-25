@@ -53,5 +53,7 @@ The **Std Paste** command pastes objects from the Clipboard into the active docu
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Paste/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Paste/de

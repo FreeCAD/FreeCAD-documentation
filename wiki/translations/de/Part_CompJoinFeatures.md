@@ -42,5 +42,7 @@ Dieser Befehl ist eine Auswahlwerkzeugleistenschaltfläche, die alle Fügewerkze
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part CompJoinFeatures/de

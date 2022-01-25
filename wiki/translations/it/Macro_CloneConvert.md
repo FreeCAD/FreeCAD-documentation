@@ -181,5 +181,7 @@ Scaricare la macro da Gist [Macro\_CloneConvert.FCMacro](https://gist.github.com
 
 09/05/2014 ver. 0.2 = adding function \"Copy\"
 
+
+
 ---
-[documentation index](../README.md) > Macro CloneConvert/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro CloneConvert/it

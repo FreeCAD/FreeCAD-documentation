@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/it
+   Topic:Analisi agli elementi finiti
+   Level:base
+   Time:10 minuti più il tempo del solutore
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16.6700 o superiore
+   Files:
+---
+
 # FEM tutorial/it
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it
-|Topic=Analisi agli elementi finiti
-|Level=base
-|Time=10 minuti più il tempo del solutore
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16.6700 o superiore
-|Files=
-}}
 
 
 </div>
@@ -216,9 +222,9 @@ A questo punto il flusso di lavoro di base per il [Modulo FEM](FEM_Workbench/it.
 </div>
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > FEM tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM tutorial/it

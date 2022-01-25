@@ -15,7 +15,7 @@ Ayúdanos a construir, corregir y extender esta documentación. Corrige errores,
 
 Algunas áreas en las que será bienvenido tu trabajo:
 
--   La página [:<img src="images/Property.png" style="width:16px"> Command\_Reference](:Category_Command_Reference.md) lista y documenta todos los FreeCAD [comandos](command/es.md). La mayoría de ellos contienen poca o ninguna información. Por favor, consulta [WikiPáginas](WikiPages/es.md) para ver buenos ejemplos de cómo deberían ser las páginas de documentación de comandos.
+-   La página [:Category:Command\_Reference](:Category_Command_Reference.md) lista y documenta todos los FreeCAD [comandos](command/es.md). La mayoría de ellos contienen poca o ninguna información. Por favor, consulta [WikiPáginas](WikiPages/es.md) para ver buenos ejemplos de cómo deberían ser las páginas de documentación de comandos.
 -   La sección [Tutorials](Tutorials/es.md) necesita ejemplos sobre cómo usar los ambientes de trabajo. Si desarrollaste algo genial con FreeCAD, ¿por qué no documentar cómo lo hiciste para la posteridad?
 -   Hay tickets abiertos en el [bugtracker](Tracker/es.md) de FreeCAD etiquetados como [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) que podrían necesitar algo de amor.
 
@@ -96,8 +96,5 @@ Escribir código para FreeCAD no es difícil, y no necesitas ningún tipo de per
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
-
 ---
-[documentation index](../README.md) > [Command_Reference]] lista y documenta todos los FreeCAD ](Category_Command_Reference]] lista y documenta todos los FreeCAD .md) > Help FreeCAD/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference]] lista y documenta todos los FreeCAD ](Category_Command_Reference]] lista y documenta todos los FreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/es

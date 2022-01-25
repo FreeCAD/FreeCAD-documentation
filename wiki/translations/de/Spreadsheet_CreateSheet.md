@@ -27,5 +27,7 @@ Das **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulat
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CreateSheet/de

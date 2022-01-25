@@ -18,9 +18,6 @@ Notare che al momento non viene trattata tutta la questione delle unità georefe
 -   [Preferenze di Importa/Esporta](Import_Export_Preferences/it.md)
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
-[documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch SHP/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch SHP/it

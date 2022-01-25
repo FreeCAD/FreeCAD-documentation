@@ -39,5 +39,7 @@ La commande <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:2
 -   Si des objets ont été mis en évidence avec cette commande, les modifications visuelles temporaires doivent être annulées avant d\'enregistrer et de rouvrir le fichier.
 -   Les objets surlignés ne doivent pas être copiés si le mode sous-élément est désactivé. Les modifications visuelles temporaires ne peuvent pas être annulées pour les copies créées de cette manière.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SubelementHighlight/fr

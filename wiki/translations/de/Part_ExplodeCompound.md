@@ -45,5 +45,7 @@ Das Werkzeug wird auch nicht verbundene Formen in ihre untergeordneten Bestandte
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ExplodeCompound/de

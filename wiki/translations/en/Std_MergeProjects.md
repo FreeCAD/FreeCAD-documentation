@@ -39,5 +39,7 @@ The **Std MergeProjects** command adds the contents of a FreeCAD file into the a
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MergeProjects/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MergeProjects/en

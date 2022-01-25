@@ -52,5 +52,7 @@ Birden fazla robot seçilmediyse, sadece bir robot seçmeniz istenir.
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot SetHomePos/tr

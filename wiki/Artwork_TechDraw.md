@@ -25,9 +25,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 The [TechDraw Workbench](TechDraw_Workbench.md) comes with a number of default templates. These are not listed here.
 
- 
 
-[<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md)
 
 ---
-[documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](Category_TechDraw.md) > Artwork TechDraw

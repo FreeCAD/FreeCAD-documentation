@@ -16,5 +16,7 @@ Diese Werkzeug schaltet die Sichtbarkeit von zwei weitere Werkzeugleisten um.
 
 1.  Drücke die Schaltfläche **<img src="images/Assembly_ConstraintMore.svg" width=16px> [Weitere](Assembly3_ConstraintMore/de.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintMore/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintMore/de

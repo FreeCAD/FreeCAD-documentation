@@ -236,5 +236,7 @@ else:
     FreeCAD.Console.PrintWarning("Visibility Manager v"+str(__version__)+": no active document\n")
 }}
 
+
+
 ---
-[documentation index](../README.md) > Macro Visibility Manager/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Visibility Manager/en

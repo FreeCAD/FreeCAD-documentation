@@ -211,5 +211,7 @@ El cursor puede cambiar de aspecto dependiendo del Workbench utilizado, debe rep
 El cursor puede ser subtitulador de los otros controles deslizantes (por ejemplo, expansión de una ventana, esquina \...).
 La cuadrícula es permanente.
 
+
+
 ---
-[documentation index](../README.md) > Macro Mouse Cross/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Mouse Cross/es

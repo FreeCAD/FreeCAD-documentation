@@ -13,7 +13,7 @@ Consultez les pages suivantes pour plus d\'informations:
 ## Présentation des formats de fichiers 
 
   Format                                         Description                                                                                                                                                                                                                                                    Importer / Ouvrir                                                                                           Exporter / Créer
-  ---------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     
   [\*.FCStd](File_Format_FCStd/fr.md)    Format natif de FreeCAD                                                                                                                                                                                                                                        [Std Ouvrir](Std_Open/fr.md), [Std Fusion de projets](Std_MergeProjects/fr.md)              [Std Enregistrer](Std_Save/fr.md)
   [\*.cam](Std_FreezeViews/fr.md)        Vues figées de FreeCAD (paramètres de la caméra)                                                                                                                                                                                                               [Std Figer l\'affichage](Std_FreezeViews/fr.md)                                                     [Std Figer l\'affichage](Std_FreezeViews/fr.md)
   [\*.FCMacro](Macros/fr.md)             Macro FreeCAD (code Python)                                                                                                                                                                                                                                    [Std Importer](Std_Import/fr.md)                                                                    [Std Enregistrement de macro](Std_DlgMacroRecord/fr.md)
@@ -137,11 +137,5 @@ Consultez les pages suivantes pour plus d\'informations:
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/fr

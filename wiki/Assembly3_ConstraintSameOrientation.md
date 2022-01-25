@@ -23,5 +23,7 @@ The constraint accepts planar faces.
 2.  Select one planar face element of each object
 3.  Press the **<img src="images/Assembly_ConstraintSameOrientation.svg" width=16px> [Same orientation](Assembly3_ConstraintSameOrientation.md)** button.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintSameOrientation
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintSameOrientation

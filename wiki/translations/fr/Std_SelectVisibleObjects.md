@@ -24,5 +24,7 @@ La commande **Std Sélection objets visibles** sélectionne tous les objets visi
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std SelectVisibleObjects/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std SelectVisibleObjects/fr

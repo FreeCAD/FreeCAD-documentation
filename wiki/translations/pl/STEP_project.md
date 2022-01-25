@@ -74,7 +74,5 @@ The ISO 10303 (STEP) is very important in this field. Its the only good standard
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > STEP project/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > STEP project/pl

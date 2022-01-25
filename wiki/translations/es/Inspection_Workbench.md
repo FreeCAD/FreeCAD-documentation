@@ -34,14 +34,5 @@ Alternativamente, usa la macro <img alt="" src=images/HighlightDifference.png  s
 
 
 
-
-
-
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Inspection](Category_Inspection.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
-
 ---
-[documentation index](../README.md) > [Inspection](Category_Inspection.md) > Inspection Workbench/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Inspection](Category_Inspection.md) > [Workbenches](Category_Workbenches.md) > Inspection Workbench/es

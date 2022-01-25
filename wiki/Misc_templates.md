@@ -80,9 +80,7 @@ CompassRose\_3D [CompassRose\_3D.FCStd](http://forum.freecadweb.org/download/fil
 -   [Arch templates](Arch_templates.md): according to American National Standards Institute [Arch](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
 -   [ANSI templates](ANSI_templates.md): according to American National Standards Institute [ANSI](http://en.wikipedia.org/wiki/American_National_Standards_Institute) standard
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Drawing](Category_Drawing.md)
 
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Misc templates
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Category_Drawing.md) > Misc templates

@@ -83,5 +83,7 @@ Depuis la v0.19, la case **picked object list** est disponible. Si cette case es
 
 }} {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > Selection view/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Selection view/fr

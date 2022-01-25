@@ -16,9 +16,9 @@
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Web](Category_Web.md)
+
 
 ---
-[documentation index](../README.md) > [Web](Category_Web.md) > Artwork Web/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Category_Web.md) > Artwork Web/ru

@@ -3,7 +3,7 @@ Pages relating to Architectural and Building Information Management
 
 ### Contents:
 
-  ------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- -------------------------------------------------------------
+    
   [Arch 3Views/es](Arch_3Views/es.md)                         [Arch Add/es](Arch_Add/es.md)                                                                       [Arch Axis/es](Arch_Axis/es.md)
   [Arch AxisSystem/es](Arch_AxisSystem/es.md)                 [Arch Building/es](Arch_Building/es.md)                                                             [Arch BuildingPart/es](Arch_BuildingPart/es.md)
   [Arch Check/es](Arch_Check/es.md)                           [Arch CloneComponent/es](Arch_CloneComponent/es.md)                                                 [Arch CloseHoles/es](Arch_CloseHoles/es.md)
@@ -25,10 +25,9 @@ Pages relating to Architectural and Building Information Management
   [Arch tutorial/es](Arch_tutorial/es.md)                     [Arch Wall/es](Arch_Wall/es.md)                                                                     [Arch Window/es](Arch_Window/es.md)
   [Arch Workbench/es](Arch_Workbench/es.md)                   [BIM Library/es](BIM_Library/es.md)                                                                 [Custom Spacing/es](Custom_Spacing/es.md)
   [IfcOpenShell/es](IfcOpenShell/es.md)                       [Import/Export IFC - compiling IfcOpenShell/es](Import/Export_IFC_-_compiling_IfcOpenShell/es.md)   [Manual:BIM modeling/es](Manual:BIM_modeling/es.md)
-  [Material/es](Material/es.md)                                                                                                                                           
-  ------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- -------------------------------------------------------------
+  [Material/es](Material/es.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/es](<img src="images/Property.png" style="width:16px"> User_Documentation/es.md) [<img src="images/Property.png" style="width:16px"> BIM/es](<img src="images/Property.png" style="width:16px"> BIM/es.md) [<img src="images/Property.png" style="width:16px"> Reinforcement/es](<img src="images/Property.png" style="width:16px"> Reinforcement/es.md)
+
 
 ---
-[documentation index](../README.md) > Category:Arch/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Arch/es

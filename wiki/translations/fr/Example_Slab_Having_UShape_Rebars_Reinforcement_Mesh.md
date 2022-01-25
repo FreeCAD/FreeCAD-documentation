@@ -1,10 +1,16 @@
+---
+- TutorialInfo:/fr
+   Topic:Exemple de dalle avec armatures en forme de U Rebars Reinforcement Maillage
+   Level:Intermédiaire
+   Author:Shiv Charan
+   FCVersion:0.20
+---
+
 # Example Slab Having UShape Rebars Reinforcement Mesh/fr
-{{TutorialInfo/fr
-|Topic=Exemple de dalle avec armatures en forme de U Rebars Reinforcement Maillage
-|Level=Intermédiaire
-|Author=Shiv Charan
-|FCVersion=0.20
-}}
+
+
+
+
 
 ## Description
 
@@ -251,7 +257,9 @@ SlabReinforcementGroup = editSlabReinforcement(
 vous pouvez changer n\'importe quelle propriété pour modifier le renfort des dalles.
 
 
-  \[\[<img src="images/Property.png" style="width:16px"> Reinforcement\]
+  \[\[Category:Reinforcement\]
+
+
 
 ---
-[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Example Slab Having UShape Rebars Reinforcement Mesh/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Example Slab Having UShape Rebars Reinforcement Mesh/fr

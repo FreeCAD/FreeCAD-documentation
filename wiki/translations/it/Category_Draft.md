@@ -1,7 +1,7 @@
 # Category:Draft/it
 ### Contents:
 
-  ----------------------------------------------------------------------------------- ----------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+    
   [Arch panel tutorial/it](Arch_panel_tutorial/it.md)                         [Artwork Draft/it](Artwork_Draft/it.md)                               [Draft AddConstruction/it](Draft_AddConstruction/it.md)
   [Draft AddToGroup/it](Draft_AddToGroup/it.md)                               [Draft AnnotationStyleEditor/it](Draft_AnnotationStyleEditor/it.md)   [Draft API/it](Draft_API/it.md)
   [Draft ApplyStyle/it](Draft_ApplyStyle/it.md)                               [Draft Arc 3Points/it](Draft_Arc_3Points/it.md)                       [Draft Arc/it](Draft_Arc/it.md)
@@ -34,10 +34,9 @@
   [Draft WireToBSpline/it](Draft_WireToBSpline/it.md)                         [Draft Workbench/it](Draft_Workbench/it.md)                           [Draft WorkingPlaneProxy/it](Draft_WorkingPlaneProxy/it.md)
   [DXF/it](DXF/it.md)                                                         [FreeCAD and DWG Import/it](FreeCAD_and_DWG_Import/it.md)             [Macro FCCircularText/it](Macro_FCCircularText/it.md)
   [Manual:Traditional 2D drafting/it](Manual:Traditional_2D_drafting/it.md)   [SVG/it](SVG/it.md)                                                   [Tutorial custom placing of windows and doors/it](Tutorial_custom_placing_of_windows_and_doors/it.md)
-  [Tutorial for open windows/it](Tutorial_for_open_windows/it.md)                                                                                           
-  ----------------------------------------------------------------------------------- ----------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+  [Tutorial for open windows/it](Tutorial_for_open_windows/it.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Workbenches/it](<img src="images/Property.png" style="width:16px"> Workbenches/it.md)
+
 
 ---
-[documentation index](../README.md) > Category:Draft/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/it

@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Assembly_TreeItemUp.svg  style="width:24px;">
     -   Le bouton **<img src="images/Assembly_TreeItemUp.svg" width=16px> [Move item up](Assembly3_MoveItemUp/fr.md)**.
     -   L\'option de menu **Assembly3 → <img src="images/Assembly_TreeItemUp.svg" width=16px> Move item up**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MoveItemUp/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MoveItemUp/fr

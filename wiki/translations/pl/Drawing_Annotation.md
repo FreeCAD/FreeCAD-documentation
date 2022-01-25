@@ -34,5 +34,7 @@ To polecenie pozwala na umieszczenie bloku tekstu na [stronie rysunku](Drawing_L
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing Annotation/pl

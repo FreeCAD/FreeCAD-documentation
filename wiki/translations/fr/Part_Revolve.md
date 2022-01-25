@@ -13,7 +13,7 @@
 Fait pivoter l\'objet sélectionné autour d\'un axe donné. Les types de forme suivants sont autorisés et mènent aux formes de sortie énumérées :
 
   Objet en entrée,   Objet résultant
-  ------------------ ----------------------------
+   
   Sommet             Arête
   Arête              Face
   Filaire            Enveloppe
@@ -32,5 +32,7 @@ Si vous sélectionnez un axe défini par l\'utilisateur, les nombres définissen
 
 -   Si l\'objet à faire pivoter coupe l\'axe de rotation, l\'opération échouera dans la plupart des cas.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/fr

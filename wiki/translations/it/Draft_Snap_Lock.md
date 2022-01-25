@@ -47,5 +47,7 @@ Attiva o disattiva la funzione di [aggancio](Draft_Snap/it.md) (snap) agli ogget
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Lock/it

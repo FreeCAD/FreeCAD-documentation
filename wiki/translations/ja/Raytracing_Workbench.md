@@ -17,7 +17,7 @@ The Raytracing Workbench works with [templates](Raytracing_templates.md), which 
 
 Currently, two renderers are supported: [POV-Ray](POV-Ray.md) and [LuxRender](LuxRender.md). To be able to render from within FreeCAD, at least one of these programs must be installed and configured in your system. However, if no renderer is installed, you will still be able to export a project file to be rendered at another time.
 
-------------------------------------------------------------------------
+
 
 現在、Lux RendererやYafarayなどの複数のバックエンドをサポートするための新しいRenderer Workbenchが開発中です。開発版を使用するための情報は[Render\_projectで見ることができます](Render_project.md)。
 
@@ -88,7 +88,7 @@ See the [Raytracing API example](Raytracing_API_example.md) for information on w
 -   <http://www.povray.org/>
 -   <http://en.wikipedia.org/wiki/POV-Ray>
 
-------------------------------------------------------------------------
+
 
 現在、LuxRendererやYafarayといった複数のバックエンドをサポートするために新しくレンダラーワークベンチが開発中です。開発版を使用するための情報は[レンダラープロジェクトで見ることができます](Render_project.md)。
 
@@ -148,9 +148,9 @@ These pages refer to a replacement workbench, programmed in C++, proposed around
 
 {{Raytracing Tools navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Raytracing Workbench/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Raytracing](Category_Raytracing.md) > Raytracing Workbench/ja

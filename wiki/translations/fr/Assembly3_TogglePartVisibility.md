@@ -21,5 +21,7 @@ La commande <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="wid
     -   L\'option du menu **Assembly3 → <img src="images/Assembly_TogglePartVisibility.svg" width=16px> Toggle part visibility**.
     -   Le raccourci clavier : **A** puis **Espace**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 TogglePartVisibility/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 TogglePartVisibility/fr

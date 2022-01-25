@@ -52,7 +52,7 @@ Al crear una revolución, el diálogo *Parámetros de la revolución* ofrece var
 
 </div>
 
-+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/partdesign_revolution_parameters.png ) | ### Axis                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                                  | This option specifies the axis about which the sketch is to be revolved.                                                                                                                                                                                                                                                                                                    |
@@ -75,7 +75,7 @@ Al crear una revolución, el diálogo *Parámetros de la revolución* ofrece var
 |                                                                                  | ### Reversed                                                                                                                                                                                                                                                                                                                                                                |
 |                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
 |                                                                                  | If checked, the direction of revolution is reversed from default clockwise to counterclockwise.                                                                                                                                                                                                                                                                             |
-+----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ### Propiedades
 
@@ -107,5 +107,7 @@ A [detailed example of use](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Revolution/es

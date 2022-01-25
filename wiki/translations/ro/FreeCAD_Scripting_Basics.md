@@ -394,7 +394,7 @@ print(myObj.isDerivedFrom("Part::Feature"))
 
 <div class="mw-translate-fuzzy">
 
-Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu [Part Workbench](Part_Workbench.md), citiți pagina [ Pare scripting](Topological_data_scripting.md), sau pagina [Mesh Scriptingpentru](Mesh_Scripting.md) a lucra cu [Mesh Workbench](Mesh_Workbench.md).Rețineți că, deși modulele Parte și Mesh sunt cele mai complete și utilizate pe scară largă, alte module cum ar fi [Draft Workbench](Draft_Workbench.md) au, de asemenea, [scripting](Draft_API.md) APIs care vă pate fi utili.Pentru o listă completă a fiecărui modul și a instrumentelor disponibile, vizitați secțiunea [:<img src="images/Property.png" style="width:16px"> API](:Category_API.md).
+Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu [Part Workbench](Part_Workbench.md), citiți pagina [ Pare scripting](Topological_data_scripting.md), sau pagina [Mesh Scriptingpentru](Mesh_Scripting.md) a lucra cu [Mesh Workbench](Mesh_Workbench.md).Rețineți că, deși modulele Parte și Mesh sunt cele mai complete și utilizate pe scară largă, alte module cum ar fi [Draft Workbench](Draft_Workbench.md) au, de asemenea, [scripting](Draft_API.md) APIs care vă pate fi utili.Pentru o listă completă a fiecărui modul și a instrumentelor disponibile, vizitați secțiunea [:Category:API](:Category_API.md).
 
 
 </div>
@@ -412,11 +412,6 @@ Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu [
 </div>
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > FreeCAD Scripting Basics/ro

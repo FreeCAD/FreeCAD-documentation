@@ -28,5 +28,7 @@ Ou
 3.  Sélectionnez un élément planaire du troisième objet
 4.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintPointsSymmetric.svg" width=16px> [Points symmetric](Assembly3_ConstraintPointsSymmetric/fr.md)**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintPointsSymmetric/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintPointsSymmetric/fr

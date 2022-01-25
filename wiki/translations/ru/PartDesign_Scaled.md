@@ -19,7 +19,7 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 
 ## Options
 
-+----------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | ![](images/Scaled_parameters.png ) | When creating a scaled feature, the \'scaled parameters\' dialogue offers the following options:                                             |
 |                                                    |                                                                                                                                              |
 |                                                    | ### Select originals                                                                                                      |
@@ -29,7 +29,7 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 |                                                    | ### Factor and Occurrences                                                                                          |
 |                                                    |                                                                                                                                              |
 |                                                    | Specifies the maximum factor which the features are to be scaled to, and the total number of scaled shapes (including the original feature). |
-+----------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 
 
@@ -48,5 +48,7 @@ Starting from FreeCAD 0.15, this operation is not available directly, but was in
 
 Since the scaling is done with respect to the center of gravity, in the case of a pad, it is necessary that the pad penetrate also in the main body, otherwise the scaled objects are floating, detached from the body. To have a pad that intersects the main body can be used \"two dimensions\" type or \"simmetric to plane\" option.
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Scaled/ru

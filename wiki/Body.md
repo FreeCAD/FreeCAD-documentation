@@ -21,9 +21,9 @@ A Body is required when using the [PartDesign Workbench](PartDesign_Workbench.md
 
 A Body is not required when using the [Part Workbench](Part_Workbench.md), as this workbench uses a [constructive solid geometry](constructive_solid_geometry.md) workflow, which is based on [primitive shapes](Part_Primitives.md) and boolean operations.
 
- {{PartDesign Tools navi}} {{Document objects navi}} 
+ {{PartDesign Tools navi}} {{Document objects navi}}
 
-[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
+
 
 ---
-[documentation index](../README.md) > [Glossary](Category_Glossary.md) > Body
+![](images/Right_arrow.png) [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [PartDesign](Category_PartDesign.md) > Body

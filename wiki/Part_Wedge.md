@@ -36,7 +36,7 @@ Create a parametric Wedge object. This Wedge defaults to a larger square base an
 
 ### Parametric Inputs 
 
-+------------------------------------------------------------------+----------------------------------------------------+
++++
 | ![](images/PartWedgeProperty_Inputs.png ) | Using the default placement, the below inputs are: |
 |                                                                  |                                                    |
 |                                                                  | -                                   |
@@ -63,11 +63,13 @@ Create a parametric Wedge object. This Wedge defaults to a larger square base an
 |                                                                  |     **Z2 min/max**                    |
 |                                                                  |                                                 |
 |                                                                  |     : Top face Z axis span                         |
-+------------------------------------------------------------------+----------------------------------------------------+
++++
 
 ### More examples for wedges 
 
 ![](images/Wedge_examples.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Wedge

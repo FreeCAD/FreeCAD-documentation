@@ -120,5 +120,7 @@ obj.Label = "Custom label"
 
 Par exemple, la plupart des outils de [Atelier Draft](Draft_Workbench/fr.md), comme [Draft Ligne](Draft_Line/fr.md), [Draft Rectangle](Draft_Rectangle/fr.md), [Draft Polygone](Draft_Polygon/fr.md) etc\... sont des objets `Part::Part2DObjectPython` avec une icône personnalisée et des propriétés supplémentaires.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Part2DObject/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Part2DObject/fr

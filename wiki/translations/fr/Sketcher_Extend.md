@@ -38,5 +38,7 @@ L\'outil **prolonger l\'arête** prolonge une arête vers une position arbitrair
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Extend/fr

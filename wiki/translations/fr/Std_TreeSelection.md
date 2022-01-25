@@ -33,5 +33,7 @@ Si le mode de la vue en arborescence [Synchroniser la sélection](Std_TreeSyncSe
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSelection/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSelection/fr

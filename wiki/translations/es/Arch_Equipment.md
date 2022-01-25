@@ -96,6 +96,11 @@ Cuando se utiliza el exportador Arch OBJ, todos los equipos que están en el mod
 </div>
 
 
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
 <div class="mw-translate-fuzzy">
 
 La herramienta Equipamiento puede utilizarse en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función:
@@ -139,5 +144,7 @@ FreeCAD.ActiveDocument.recompute()
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/es

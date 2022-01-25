@@ -31,5 +31,7 @@ Polecenie **Std: Okno dialogowe preferencji** otwiera edytor [Edytor ustawień](
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std DlgPreferences/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std DlgPreferences/pl

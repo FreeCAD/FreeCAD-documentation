@@ -575,10 +575,5 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
 
 
 
-
-  
-
-[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
-
 ---
-[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement
+![](images/Right_arrow.png) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement

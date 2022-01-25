@@ -135,7 +135,7 @@ Uma maneira de evitar essas questões é prefixar etiquetas de texto corresponde
 A tabela a seguir mostra alguns exemplos assumindo que o modelo tem uma característica chamada \"MyCube\":
 
   Dados CAD                                                           Célula em Planilha             Resultado
-  ------------------------------------------------------------------- ------------------------------ ---------------------------------
+    
   Comprimento paramétrico de um cubo de bancada de trabalho parcial   =MyCube.Length                 Comprimento com unidades mm
   Volume do Cubo                                                      =MyCube.Shape.Volume           Volume em mm³ sem unidades
   Tipo da forma do cubo                                               =MyCube.Shape.ShapeType        String: Solid
@@ -146,17 +146,17 @@ A tabela a seguir mostra alguns exemplos assumindo que o modelo tem uma caracter
 
 Para usar os dados da planilha em outras partes do FreeCAD, você geralmente criará uma [Expressão](Expressions.md) que se refere à planilha e à célula que contém os dados que você deseja usar. Você pode identificar as planilhas por nome ou por etiqueta, e pode identificar as células por posição ou por pseudônimo. O auto-completamento está disponível para todas as formas de referência.
 
-+-----------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 |                       | Planilha por nome                                   | Planilha por Rótulo                                    |
 +=======================+=====================================================+========================================================+
 | Célula por Posição    |                                      |                                         |
 |                       | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
 |                       |                                                  |                                                     |
-+-----------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 | Célula por Pseudónimo |                                      |                                         |
 |                       | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
 |                       |                                                  |                                                     |
-+-----------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -288,9 +288,9 @@ sheet.get('Diameter')
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/pt-br

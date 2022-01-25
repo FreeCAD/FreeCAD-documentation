@@ -57,5 +57,7 @@ Pentru [select](Draft_Select/it.md) mai multe obiecte:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std Cut/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Cut/ro

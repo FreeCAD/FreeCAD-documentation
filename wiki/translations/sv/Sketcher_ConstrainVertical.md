@@ -49,9 +49,9 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 {{Sketcher Tools navi
 
-}}  
+}}
 
-[<img src="images/Property.png" style="width:16px"> Sketcher/sv](<img src="images/Property.png" style="width:16px"> Sketcher/sv.md)
+
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainVertical/sv

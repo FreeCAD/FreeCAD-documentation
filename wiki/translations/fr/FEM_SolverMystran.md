@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM SolverMystran
    Name/fr:FEM Solveur Mystran
-   MenuLocation:Solve → Solver Mystran
+   MenuLocation:Solve → Solveur Mystran
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**S** **M**
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
@@ -38,7 +38,7 @@ tasks.py
 
 Les fonctions de chaque fichier sont les suivantes :
 
-writer.py - fichier de contrôle principal
+writer.py - Fichier de contrôle principal
 
 
 ```python
@@ -106,5 +106,7 @@ add\_con\_force.py - Ajout de cartes FORCE
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > FEM SolverMystran/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM SolverMystran/fr

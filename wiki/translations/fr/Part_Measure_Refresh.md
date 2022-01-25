@@ -19,5 +19,7 @@
     -   Appuyez sur le bouton **[<img src=images/Part_Measure_Refresh.svg style="width:16px"> [Rafraîchir les mesures](Part_Measure_Refresh/fr.md)**.
     -   Allez dans le menu, **Mesure → [<img src=images/Part_Measure_Refresh.svg style="width:16px"> Rafraîchir les mesures**.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Refresh/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Refresh/fr

@@ -1,10 +1,18 @@
+---
+- TutorialInfo:   Topic:Modélisation
+   Level:Utilisateur expérimenté
+   Author:NormandC
+   FCVersion:≥ 0.19.23300
+---
+
 # Advanced TechDraw Tutorial/fr
-{{TutorialInfo
-|Topic=Modélisation
-|Level=Utilisateur expérimenté
-|Author=NormandC
-|FCVersion=≥ 0.19.23300
-}}
+
+
+
+
+
+
+
 
 ## L\'objectif en bref 
 
@@ -84,9 +92,9 @@ Cependant, le chemin décrit pourrait représenter le point de départ (ou l\'id
 -   [TechDraw : - come utilizzare gli strumenti Draft/Snaps per creare \" vertici/punti cosmetici \"](https://forum.freecadweb.org/viewtopic.php?f=28&t=53329) Fil de discussion en langue italienne
 
 
-{{Tutorials navi
+ {{TechDraw Tools navi}}
 
-}} {{TechDraw Tools navi}}
+
 
 ---
-[documentation index](../README.md) > Advanced TechDraw Tutorial/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [TechDraw](Category_TechDraw.md) > Advanced TechDraw Tutorial/fr

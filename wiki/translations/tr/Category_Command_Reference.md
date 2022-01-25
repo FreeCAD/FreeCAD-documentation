@@ -3,7 +3,7 @@ This category contains the help pages of each of FreeCAD command.
 
 ### Contents:
 
-  ------------------------------------------------------------------------------- --------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------
+    
   [Arch Add/tr](Arch_Add/tr.md)                                           [Arch Axis/tr](Arch_Axis/tr.md)                                                 [Arch Equipment/tr](Arch_Equipment/tr.md)
   [Arch Floor/tr](Arch_Floor/tr.md)                                       [Arch Remove/tr](Arch_Remove/tr.md)                                             [Arch SectionPlane/tr](Arch_SectionPlane/tr.md)
   [Arch Structure/tr](Arch_Structure/tr.md)                               [Arch Wall/tr](Arch_Wall/tr.md)                                                 [Draft AddConstruction/tr](Draft_AddConstruction/tr.md)
@@ -52,10 +52,9 @@ This category contains the help pages of each of FreeCAD command.
   [Ship Area/tr](Ship_Area/tr.md)                                         [Sketcher Clone/tr](Sketcher_Clone/tr.md)                                       [Sketcher EditSketch/tr](Sketcher_EditSketch/tr.md)
   [Sketcher LeaveSketch/tr](Sketcher_LeaveSketch/tr.md)                   [Sketcher MapSketch/tr](Sketcher_MapSketch/tr.md)                               [Sketcher NewSketch/tr](Sketcher_NewSketch/tr.md)
   [Sketcher ReorientSketch/tr](Sketcher_ReorientSketch/tr.md)             [Sketcher ViewSketch/tr](Sketcher_ViewSketch/tr.md)                             [Std AddonMgr/tr](Std_AddonMgr/tr.md)
-  [Std Group/tr](Std_Group/tr.md)                                         [Std Part/tr](Std_Part/tr.md)                                                   
-  ------------------------------------------------------------------------------- --------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------
+  [Std Group/tr](Std_Group/tr.md)                                         [Std Part/tr](Std_Part/tr.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/tr](<img src="images/Property.png" style="width:16px"> Categories/tr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/tr

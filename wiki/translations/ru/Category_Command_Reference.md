@@ -3,7 +3,7 @@
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+    
   [Arch 3Views/ru](Arch_3Views/ru.md)                                                             [Arch Add/ru](Arch_Add/ru.md)                                                                 [Arch Axis/ru](Arch_Axis/ru.md)
   [Arch AxisSystem/ru](Arch_AxisSystem/ru.md)                                                     [Arch Building/ru](Arch_Building/ru.md)                                                       [Arch BuildingPart/ru](Arch_BuildingPart/ru.md)
   [Arch Check/ru](Arch_Check/ru.md)                                                               [Arch CloneComponent/ru](Arch_CloneComponent/ru.md)                                           [Arch CloseHoles/ru](Arch_CloseHoles/ru.md)
@@ -170,10 +170,9 @@
   [Sketcher ConstrainVertical/ru](Sketcher_ConstrainVertical/ru.md)                               [Sketcher Copy/ru](Sketcher_Copy/ru.md)                                                       [Sketcher Create3PointArc/ru](Sketcher_Create3PointArc/ru.md)
   [Sketcher Create3PointCircle/ru](Sketcher_Create3PointCircle/ru.md)                             [Sketcher CreateArc/ru](Sketcher_CreateArc/ru.md)                                             [Sketcher CreateArcOfEllipse/ru](Sketcher_CreateArcOfEllipse/ru.md)
   [Sketcher CreateArcOfHyperbola/ru](Sketcher_CreateArcOfHyperbola/ru.md)                         [Sketcher CreateArcOfParabola/ru](Sketcher_CreateArcOfParabola/ru.md)                         [Sketcher CreateBSpline/ru](Sketcher_CreateBSpline/ru.md)
-  [Sketcher CreateCircle/ru](Sketcher_CreateCircle/ru.md)                                         [Sketcher CreateEllipseBy3Points/ru](Sketcher_CreateEllipseBy3Points/ru.md)                   
-  ------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
+  [Sketcher CreateCircle/ru](Sketcher_CreateCircle/ru.md)                                         [Sketcher CreateEllipseBy3Points/ru](Sketcher_CreateEllipseBy3Points/ru.md)
 
-[<img src="images/Property.png" style="width:16px"> Categories/ru](<img src="images/Property.png" style="width:16px"> Categories/ru.md)
+
 
 ---
-[documentation index](../README.md) > Category:Command Reference/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Command Reference/ru

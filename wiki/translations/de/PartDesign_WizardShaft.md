@@ -69,5 +69,7 @@ Um ein neues Wellensegment hinzuzufügen, klicken Sie mit der rechten Maustaste 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/de

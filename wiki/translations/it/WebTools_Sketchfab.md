@@ -40,5 +40,7 @@ Questo strumento consente di esportare e caricare gli oggetti in un proprio acco
 -   Quando si preme \"Upload button\", dopo aver completato il caricamento, se tutto è andato bene, il pulsante si trasforma in \"View your model online\", che, se cliccato, porta direttamente alla pagina del modello su Sketchfab.
 -   Alcuni formati, come OBJ, sono interpretati in modo diverso da Sketchfab e da FreeCAD. FreeCAD considera l\'asse Z rivolto verso l\'alto, mentre Sketchfab considera che punti verso la persona che sta davanti allo schermo. Per rimediare a questo, dopo aver terminato l\'upload, l\'esportatore utilizza la API Sketchfab per ruotare il modello nella sua posizione corretta. Se questa operazione non riesce, si viene avvertiti, e comunque il vostro modello rimane caricato correttamente. È possibile ruotarlo manualmente nell\'interfaccia di Sketchfab, premendo la freccia destra oltre l\'asse \"X\" nella scheda di orientamento del modello.
 
+
+
 ---
-[documentation index](../README.md) > WebTools Sketchfab/it
+![](images/Right_arrow.png) [documentation index](../README.md) > WebTools Sketchfab/it

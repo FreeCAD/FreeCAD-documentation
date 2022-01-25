@@ -34,5 +34,7 @@ Czubek jest wizualnie wyróżniony w drzewie modelu przez małą strzałkę w d�
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign MoveTip/pl

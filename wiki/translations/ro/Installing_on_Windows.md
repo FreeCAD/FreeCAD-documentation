@@ -261,5 +261,7 @@ FreeCAD rulează dar s-a raportat că interfața OpenGL nu funcționează, la fe
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Installing on Windows/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Windows/ro

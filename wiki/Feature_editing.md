@@ -164,9 +164,9 @@ The [tutorials](Tutorials.md) page provides some examples of using the [feature 
 
 <img alt="" src=images/PartDesign_workflow_3.svg  style="width:600px;">
 
- {{PartDesign Tools navi}} 
+ {{PartDesign Tools navi}}
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
+
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Feature editing
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [PartDesign](Category_PartDesign.md) > Feature editing

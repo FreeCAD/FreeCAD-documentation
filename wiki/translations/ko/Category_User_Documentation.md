@@ -3,7 +3,7 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 
 ### Contents:
 
-  --------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------------------
+    
   [3D view/ko](3D_view/ko.md)                                   [About FreeCAD/ko](About_FreeCAD/ko.md)                     [Aeroplane/ko](Aeroplane/ko.md)
   [Arch Workbench/ko](Arch_Workbench/ko.md)                     [Compile on Linux/ko](Compile_on_Linux/ko.md)               [Developer hub/ko](Developer_hub/ko.md)
   [Document structure/ko](Document_structure/ko.md)             [Download/ko](Download/ko.md)                               [Draft Workbench/ko](Draft_Workbench/ko.md)
@@ -37,10 +37,9 @@ This category contains articles about the usage of FreeCAD. It is also the centr
   [Std ViewIsometric/ko](Std_ViewIsometric/ko.md)               [Std ViewScreenShot/ko](Std_ViewScreenShot/ko.md)           [Std Windows Menu/ko](Std_Windows_Menu/ko.md)
   [Task panel/ko](Task_panel/ko.md)                             [Tasks Placement/ko](Tasks_Placement/ko.md)                 [TechDraw Workbench/ko](TechDraw_Workbench/ko.md)
   [Tree view/ko](Tree_view/ko.md)                               [Tutorials/ko](Tutorials/ko.md)                             [User hub/ko](User_hub/ko.md)
-  [Workbenches/ko](Workbenches/ko.md)                                                                                               
-  --------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------------------
+  [Workbenches/ko](Workbenches/ko.md)
 
-[<img src="images/Property.png" style="width:16px"> Documentation/ko](<img src="images/Property.png" style="width:16px"> Documentation/ko.md)
+
 
 ---
-[documentation index](../README.md) > Category:User Documentation/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:User Documentation/ko

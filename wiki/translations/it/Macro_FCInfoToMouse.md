@@ -533,5 +533,7 @@ Le mie macro in [mario52a](https://gist.github.com/mario52a) gists
 
 02/01/2016 : ver 0.1
 
+
+
 ---
-[documentation index](../README.md) > Macro FCInfoToMouse/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfoToMouse/it

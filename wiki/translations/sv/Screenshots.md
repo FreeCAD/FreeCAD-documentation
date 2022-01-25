@@ -225,7 +225,7 @@ FreeCAD körs i konsolläge (utan gränssnitt)
 
 Dialog för att spara en bild i valfri storlek.
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/sv](<img src="images/Property.png" style="width:16px"> User_Documentation/sv.md) [<img src="images/Property.png" style="width:16px"> Screenshots/sv](<img src="images/Property.png" style="width:16px"> Screenshots/sv.md)
+
 
 ---
-[documentation index](../README.md) > Screenshots/sv
+![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/sv

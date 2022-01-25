@@ -27,5 +27,7 @@ The **[<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Spreadsh
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet AlignCenter/ru

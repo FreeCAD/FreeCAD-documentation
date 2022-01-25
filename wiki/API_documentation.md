@@ -1,5 +1,7 @@
 # API documentation
-1.  REDIRECT [:<img src="images/Property.png" style="width:16px"> API](:Category_API.md)
+1.  REDIRECT [:Category:API](:Category_API.md)
+
+
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > API documentation
+![](images/Right_arrow.png) [documentation index](../README.md) > [API](Category_API.md) > API documentation

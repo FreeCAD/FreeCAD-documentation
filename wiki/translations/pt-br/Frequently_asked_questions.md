@@ -289,11 +289,5 @@ Sim, você pode usar as partes principais do FreeCAD em outras aplicações, des
 
 
 
-
-
-
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
-
 ---
-[documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Frequently asked questions/pt-br

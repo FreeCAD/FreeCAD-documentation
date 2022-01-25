@@ -225,5 +225,7 @@ This is only a matter of displaying the path. You can change this in the prefere
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path FAQ

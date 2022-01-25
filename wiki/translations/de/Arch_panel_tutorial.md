@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic: Modellierung eines Architektur Panels
+   Level: Anfänger
+   Time: 60 Minuten
+   Author: Yorik
+   FCVersion:
+   Files:
+---
+
 # Arch panel tutorial/de
-{{TutorialInfo/de
-|Topic= Modellierung eines Architektur Panels
-|Level= Anfänger
-|Time= 60 Minuten
-|Author= Yorik
-|FCVersion=
-|Files=
-}}
+
+
+
+
 
 Dies ist ein Mehrfach-Posting eines [Tutorials](http://opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial), das zuerst auf [Open-Source Ecology](http://opensourceecology.org) erschienen ist.
 
@@ -193,9 +199,9 @@ Beide Draft-Move-and-Rotate-Werkzeuge nutzen das Draft-Einrast-System. Verschied
 ![](images/Arch_panel_tutorial_20.jpg )
 
 
-{{Tutorials navi
+   {{Sketcher Tools navi}}
 
-}}   {{Sketcher Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Category_Draft.md) > [Sketcher](Category_Sketcher.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/de

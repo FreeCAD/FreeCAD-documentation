@@ -53,5 +53,7 @@ Con questo manuale speriamo di essere riusciti a dare una buona impressione di F
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Manual:The Community/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The Community/it

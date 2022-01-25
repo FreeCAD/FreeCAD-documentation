@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/it
+   Topic: Wikihouse porting tutorial
+   Level: Intermediate/Advanced
+   Time: 60 minuti
+   Author:
+   FCVersion:
+   Files:
+---
+
 # Wikihouse porting tutorial/it
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it
-|Topic= Wikihouse porting tutorial
-|Level= Intermediate/Advanced
-|Time= 60 minuti
-|Author=
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -241,5 +247,7 @@ L\'ultimo passo è semplicemente quello di selezionare tutti i fogli, poi esport
 
 Questi file sono pronti per essere inviati ai laboratori che faranno il taglio vero e proprio. Sarebbe anche possibile generare il codice G da inviare alla macchina CNC direttamente da FreeCAD, ma questo è materia per un altro tutorial.
 
+
+
 ---
-[documentation index](../README.md) > Wikihouse porting tutorial/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Wikihouse porting tutorial/it

@@ -3,7 +3,7 @@ Google Summer of Code
 
 ### Contents:
 
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------
+    
   [Advanced FreeCAD test system](Advanced_FreeCAD_test_system.md)                                                                                                                               [Automate reinforcement process](Automate_reinforcement_process.md)                                                                   [BCF support](BCF_support.md)
   [Direct modeling tools](Direct_modeling_tools.md)                                                                                                                                             [Extend Part workbench python API](Extend_Part_workbench_python_API.md)                                                               [Extended functionality of Rebar Addon](Extended_functionality_of_Rebar_Addon.md)
   [FEM Post Processing based on VTK](FEM_Post_Processing_based_on_VTK.md)                                                                                                                       [FreeCAD Configuration Management Project](FreeCAD_Configuration_Management_Project.md)                                               [FreeCAD-BRLCAD integration](FreeCAD-BRLCAD_integration.md)
@@ -15,8 +15,8 @@ Google Summer of Code
   [Topological Naming Project](Topological_Naming_Project.md)                                                                                                                                   [Topological Naming Project/de](Topological_Naming_Project/de.md)                                                                     [Topological Naming Project/en](Topological_Naming_Project/en.md)
   [Topological Naming Project/es](Topological_Naming_Project/es.md)                                                                                                                             [Topological Naming Project/fr](Topological_Naming_Project/fr.md)                                                                     [Topological Naming Project/it](Topological_Naming_Project/it.md)
   [Topological Naming Project/pt-br](Topological_Naming_Project/pt-br.md)                                                                                                                       [Unified Measurement Facility](Unified_Measurement_Facility.md)                                                                       [Upgrade the documentation system](Upgrade_the_documentation_system.md)
-                                                                                                                                                                                                                                                                                                                                                      
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:Google Summer of Code
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Google Summer of Code

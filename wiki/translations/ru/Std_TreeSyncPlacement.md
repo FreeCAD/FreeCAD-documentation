@@ -33,5 +33,7 @@ The Tree view SyncPlacement mode is stored: **Tools → Edit parameters... → B
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSyncPlacement/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncPlacement/ru

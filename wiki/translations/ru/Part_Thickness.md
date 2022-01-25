@@ -80,5 +80,7 @@ Notes:
 
 ![](images/ThicknessEsempio4.png )
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Thickness/ru

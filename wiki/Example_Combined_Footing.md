@@ -1,12 +1,17 @@
+---
+- TutorialInfo:   Topic:Example Combined Footing
+   Level:Intermediate
+   Time:
+   Author:Shiv Charan
+   FCVersion:0.20
+   Files:
+---
+
 # Example Combined Footing
-{{TutorialInfo
-|Topic=Example Combined Footing
-|Level=Intermediate
-|Time=
-|Author=Shiv Charan
-|FCVersion=0.20
-|Files=
-}}
+
+ 
+
+
 
 ## Description
 
@@ -59,9 +64,7 @@ Only if secondary rebars check is enable then:
 
 12\. Click **Cancel** to exit the dialog box.
 
-  
 
-[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
-[documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Example Combined Footing
+![](images/Right_arrow.png) [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Category_Arch.md) > Example Combined Footing

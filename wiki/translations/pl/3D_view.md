@@ -88,5 +88,7 @@ Więcej informacji można znaleźć w dokumentacji dla Power użytkowników:
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > 3D view/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > 3D view/pl

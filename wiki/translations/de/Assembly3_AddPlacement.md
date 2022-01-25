@@ -19,5 +19,7 @@ Der Befehl <img alt="" src=images/Assembly_Add_Placement.svg  style="width:24px;
     -   Die Schaltfläche**<img src="images/Assembly_Add_Placement.svg_" width=16px> [Platzierung hinzufügen](Assembly3_AddPlacement/de.md)**.
     -   Den Menüeintrag **Assembly3 → Workplane and origin → <img src="images/Assembly_Add_Placement.svg_" width=16px> Platzierung hinzufügen**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AddPlacement/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddPlacement/de

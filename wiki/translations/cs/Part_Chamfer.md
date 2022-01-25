@@ -155,5 +155,7 @@ FreeCAD.ActiveDocument.recompute()
 
 -   Recomputes all altered components on the screen and refreshes the display.
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Chamfer/cs

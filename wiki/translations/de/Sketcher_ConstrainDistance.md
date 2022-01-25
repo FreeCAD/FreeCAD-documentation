@@ -77,5 +77,7 @@ Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die f
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainDistance/de

@@ -57,5 +57,7 @@ Il comando **Rifila con un piano** taglia facce e parti di facce su un lato di u
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh TrimByPlane/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh TrimByPlane/it

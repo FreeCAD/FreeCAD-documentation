@@ -11,7 +11,13 @@
 
 ## Description
 
-The <img alt="" src=images/Assembly_QuickMove.svg  style="width:24px;"> [Quick move](Assembly3_QuickMove.md) command does\...
+The <img alt="" src=images/Assembly_QuickMove.svg  style="width:24px;"> [Quick move](Assembly3_QuickMove.md) command brings a pre-selected object to the cursor position.
+
+It sticks to the cursor until the next mouse action:
+
+:   \- **LMB**: Fixes the object at the current position.
+:   \- **RMB**: Cancels the command and moves the object back to its original position.
+:   \- **MMB**: The object jumps to a new position follwing the vector from the cursors position to the center of the 3D window.
 
 ## Usage
 
@@ -20,5 +26,7 @@ The <img alt="" src=images/Assembly_QuickMove.svg  style="width:24px;"> [Quick m
     -   The **Assembly3 → <img src="images/Assembly_QuickMove.svg" width=16px> Quick move** menu option.
     -   The keyboard shortcut: **A** then **Q**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 QuickMove
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 QuickMove

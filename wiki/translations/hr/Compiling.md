@@ -3,10 +3,10 @@
 
 Svaki operacijski sistem ima svoju stranicu za kompiliranje FreeCAD programa [Online Help Documentacija](Online_Help_Toc/hr.md).
 
-  ------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
+    
    ![ alt=\'Windows\' \| link= Compile\_on\_Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Compile\_on\_Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Compile\_on\_MacOS](images/Mac.png )
                               [Compile on Windows](Compile_on_Windows.md)                                                    [ Compile on Linux/Unix](Compile_on_Linux.md)                                               [ Compile on Mac](Compile_on_MacOS.md)
-  ------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
+    
 
 
 </div>
@@ -29,8 +29,5 @@ To learn to use revision control system and contribute code see [Source code man
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
-
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compiling/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > Compiling/hr

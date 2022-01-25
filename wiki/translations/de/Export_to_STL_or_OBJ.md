@@ -1,11 +1,17 @@
+---
+- TutorialInfo:/de
+   Topic: Export nach STL oder OBJ
+   Level:Anfänger
+   Time:20 Minuten
+   Author:r-frank
+   FCVersion:0.16.6703
+---
+
 # Export to STL or OBJ/de
-{{TutorialInfo/de
-|Topic= Export nach STL oder OBJ
-|Level=Anfänger
-|Time=20 Minuten
-|Author=r-frank
-|FCVersion=0.16.6703
-}}
+
+
+
+
 
 ## Einführung
 
@@ -55,8 +61,5 @@ Methode 2 ist zu bevorzugen: Wenn Du mehr als einen Body zu konvertieren hast, k
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
-
 ---
-[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/de

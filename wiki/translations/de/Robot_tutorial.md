@@ -1,11 +1,12 @@
 # Robot tutorial/de
-{{TutorialInfo/de
-|Topic= Roboter Arbeitsbereich
-|Level= Anfänger
-|Time=
-|Author=r-frank
-|FCVersion=0.16.6703
-|Files=
+---
+- TutorialInfo:/de
+   Topic: Roboter Arbeitsbereich
+   Level: Anfänger
+   Time:
+   Author:r-frank
+   FCVersion:0.16.6703
+   Files:
 }}
 
 ## Einführung
@@ -54,9 +55,10 @@ klicken auf <img alt="" src=images/Robot_InsertWaypoint.svg  style="width:24px;"
 4.  Simulation beobachten
 
 
-{{Tutorials navi
+ {{Robot Tools navi}} {{Userdocnavi
+---
 
-}} {{Robot Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Robot](Robot_Workbench.md) > Robot tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Robot](Robot_Workbench.md) > Robot tutorial/de

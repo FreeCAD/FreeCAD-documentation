@@ -12,9 +12,9 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Inspection](Category_Inspection.md)
+
 
 ---
-[documentation index](../README.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/pl

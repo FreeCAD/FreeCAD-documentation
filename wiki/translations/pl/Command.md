@@ -6,7 +6,7 @@
 
 A [command](Command.md) is what is being executed when you press a toolbar button or type a keyboard shortcut. It can be a very simple action, like changing the zoom level of the [3D view](3D_view.md) or rotating the point of view, or a complex system that will open dialog boxes and wait for the user to perform specific tasks.
 
-Each FreeCAD command has a unique name, that appears in the [:<img src="images/Property.png" style="width:16px"> Command Reference](:Category_Command_Reference.md) page. Commands can be launched by a toolbar button, a menu item, or from a [python](Python.md) script or the [Python console](Python_console.md), by running:
+Each FreeCAD command has a unique name, that appears in the [:Category:Command Reference](:Category_Command_Reference.md) page. Commands can be launched by a toolbar button, a menu item, or from a [python](Python.md) script or the [Python console](Python_console.md), by running:
 
 
 ```python
@@ -94,11 +94,6 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 See [Line drawing function](Line_drawing_function.md).
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
-[documentation index](../README.md) > [Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a ](Category_Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a .md) > Command/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a ](Category_Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/pl

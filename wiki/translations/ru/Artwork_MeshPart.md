@@ -18,5 +18,7 @@
 
 }} {{Mesh Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > Artwork MeshPart/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork MeshPart/ru

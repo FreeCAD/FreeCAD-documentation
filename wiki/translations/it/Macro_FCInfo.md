@@ -581,5 +581,7 @@ See Also: <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;"
 Si può commentare questa macro nel forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Qui uno altro post ché parla di [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)
 
+
+
 ---
-[documentation index](../README.md) > Macro FCInfo/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro FCInfo/it

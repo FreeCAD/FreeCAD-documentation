@@ -36,9 +36,9 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 
 {{Sketcher Tools navi
 
-}}  
+}}
 
-[<img src="images/Property.png" style="width:16px"> Sketcher/cs](<img src="images/Property.png" style="width:16px"> Sketcher/cs.md)
+
 
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/cs

@@ -135,7 +135,7 @@ Un modo per aggirare questi problemi è prefissare le etichette di testo corrisp
 La tabella seguente mostra alcuni esempi assumendo che il modello abbia una figura denominata \"MyCube\":
 
   Dati CAD                                    Chiamata nel foglio di calcolo   Risultato
-  ------------------------------------------- -------------------------------- ------------------------------------------
+    
   Lunghezza parametrica di un Cubo di Part    =MyCube.Length                   Lunghezza in mm
   Volume del Cubo                             =MyCube.Shape.Volume             Volume in mm³ senza unità
   Tipo di forma del Cubo                      =MyCube.Shape.ShapeType          String: Solid
@@ -146,17 +146,17 @@ La tabella seguente mostra alcuni esempi assumendo che il modello abbia una figu
 
 Per utilizzare i dati del foglio di calcolo in altre parti di FreeCAD, di solito creerai un [ Espressione](Expressions/it#Espressioni.md) che si riferisce al foglio di calcolo e alla cella che contiene i dati che desideri utilizzare. Puoi identificare i fogli di calcolo per nome o per etichetta e puoi identificare le celle per posizione o per alias. Il completamento automatico è disponibile per tutti i tipi di riferimento.
 
-+---------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 |                     | Foglio di calcolo per nome                          | Foglio di calcolo per etichetta                        |
 +=====================+=====================================================+========================================================+
 | Cella per Posizione |                                      |                                         |
 |                     | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
 |                     |                                                  |                                                     |
-+---------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 | Cella per Alias     |                                      |                                         |
 |                     | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
 |                     |                                                  |                                                     |
-+---------------------+-----------------------------------------------------+--------------------------------------------------------+
+++++
 
 
 <div class = "mw-collapsible mw-collapsed">
@@ -287,9 +287,9 @@ sheet.get('Diameter')
 
 {{Spreadsheet_Tools_navi
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
+
 
 ---
-[documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/it

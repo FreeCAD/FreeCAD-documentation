@@ -3,7 +3,7 @@ Diese Kategorie listet Seiten auf, die sich auf den [Sketcher-Arbeitsbereich](Sk
 
 ### Contents:
 
-  --------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+    
   [Arch panel tutorial/de](Arch_panel_tutorial/de.md)                                               [Artwork Sketcher/de](Artwork_Sketcher/de.md)                                                                   [Basic Part Design Tutorial/de](Basic_Part_Design_Tutorial/de.md)
   [Basic Sketcher Tutorial/de](Basic_Sketcher_Tutorial/de.md)                                       [Constraint/de](Constraint/de.md)                                                                               [Creating a simple part with PartDesign/de](Creating_a_simple_part_with_PartDesign/de.md)
   [Draft ShapeString tutorial/de](Draft_ShapeString_tutorial/de.md)                                 [Part and PartDesign/de](Part_and_PartDesign/de.md)                                                             [Sketch/de](Sketch/de.md)
@@ -44,10 +44,9 @@ Diese Kategorie listet Seiten auf, die sich auf den [Sketcher-Arbeitsbereich](Sk
   [Sketcher ToggleDrivingConstraint/de](Sketcher_ToggleDrivingConstraint/de.md)                     [Template:Sketcher Tools navi/de](Template:Sketcher_Tools_navi/de.md)                                           [Sketcher Trimming/de](Sketcher_Trimming/de.md)
   [Sketcher Tutorial/de](Sketcher_Tutorial/de.md)                                                   [Sketcher ValidateSketch/de](Sketcher_ValidateSketch/de.md)                                                     [Sketcher ViewSection/de](Sketcher_ViewSection/de.md)
   [Sketcher ViewSketch/de](Sketcher_ViewSketch/de.md)                                               [Sketcher Workbench/de](Sketcher_Workbench/de.md)                                                               [Thread for Screw Tutorial/de](Thread_for_Screw_Tutorial/de.md)
-  [Toothbrush Head Stand/de](Toothbrush_Head_Stand/de.md)                                           [Tutorial custom placing of windows and doors/de](Tutorial_custom_placing_of_windows_and_doors/de.md)           
-  --------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------
+  [Toothbrush Head Stand/de](Toothbrush_Head_Stand/de.md)                                           [Tutorial custom placing of windows and doors/de](Tutorial_custom_placing_of_windows_and_doors/de.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches/de](<img src="images/Property.png" style="width:16px"> Workbenches/de.md)
+
 
 ---
-[documentation index](../README.md) > Category:Sketcher/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Sketcher/de

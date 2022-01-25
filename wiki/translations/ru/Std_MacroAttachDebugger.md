@@ -24,5 +24,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std MacroAttachDebugger/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std MacroAttachDebugger/ru

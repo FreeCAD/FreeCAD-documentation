@@ -30,5 +30,7 @@ The **Std RandomColor** command applies a random **Shape Color** to selected obj
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std RandomColor/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Std RandomColor/pl

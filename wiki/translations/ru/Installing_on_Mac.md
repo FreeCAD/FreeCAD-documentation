@@ -47,5 +47,7 @@ brew install freecad
 
 Если вы установили FreeCAD вместе с homebrew, просто используйте команду `brew uninstall freecad`. Это все, что требуется.
 
+
+
 ---
-[documentation index](../README.md) > Installing on Mac/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Installing on Mac/ru

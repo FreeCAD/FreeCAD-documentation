@@ -1,12 +1,18 @@
+---
+- TutorialInfo:/es
+   Topic: Borrador
+   Level: Principiante
+   Time: 30 minutos
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] y vocx
+   FCVersion:0.19
+   Files:
+---
+
 # Draft tutorial/es
-{{TutorialInfo/es
-|Topic= Borrador
-|Level= Principiante
-|Time= 30 minutos
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] y vocx
-|FCVersion=0.19
-|Files=
-}}
+
+
+
+
 
 ## Introducción
 
@@ -220,7 +226,7 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
 
     * It is possible to transform a Draft object into a [Sketch](Sketch.md), and the other way around, using the **[<img src=images/Draft_Draft2Sketch.svg style="width:16px"> [Draft Draft2Sketch](Draft_Draft2Sketch.md)** tool.
 
-    {{Tutorials navi}}
+
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft tutorial/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Draft](Draft_Workbench.md) > Draft tutorial/es

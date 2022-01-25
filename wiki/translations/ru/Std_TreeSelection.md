@@ -35,5 +35,7 @@ If the Tree view [SyncSelection](Std_TreeSyncSelection.md) mode is off, the Tree
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSelection/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSelection/ru

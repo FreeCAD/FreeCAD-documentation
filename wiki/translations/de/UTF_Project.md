@@ -34,7 +34,5 @@ Ungeachtet dessen, dass Coin3D nun auf eine offenere Entwicklungsplattform umzie
 
 
 
-[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
-
 ---
-[documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > UTF Project/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > UTF Project/de

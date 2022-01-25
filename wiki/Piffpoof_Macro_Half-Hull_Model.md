@@ -1181,7 +1181,7 @@
                 FreeCAD.closeDocument(docSrc.Name)
             resetSketchesVisibility()
 
-[<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
+
 
 ---
-[documentation index](../README.md) > Piffpoof Macro Half-Hull Model
+![](images/Right_arrow.png) [documentation index](../README.md) > Piffpoof Macro Half-Hull Model

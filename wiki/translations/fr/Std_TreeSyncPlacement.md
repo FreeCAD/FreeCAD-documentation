@@ -33,5 +33,7 @@ Le mode Synchronisation placement arborescence est stocké: **Outils → Editer 
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std TreeSyncPlacement/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Std TreeSyncPlacement/fr

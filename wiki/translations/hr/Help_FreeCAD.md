@@ -21,7 +21,7 @@ Pomozi u stvaranju, ispravci i proširenju dokumentacije. Ispravi greške, proš
 
 Par područja koja bi pozdravila vaš rad:
 
--   Na stranici [:<img src="images/Property.png" style="width:16px"> Command Reference/hr](:<img src="images/Property.png" style="width:16px"> Command_Reference/hr.md) su popisane i dokumentirane sve FreeCAD [naredbes](command/hr.md). Većina ih sadrži malo ili nimalo informacija. Molimo pogledajte [Wiki stranice](WikiPages/hr.md) za dobre primjere kako trebaju izgledati stranice naredbene dokumentacije.
+-   Na stranici [:Category:Command Reference/hr](:Category:Command_Reference/hr.md) su popisane i dokumentirane sve FreeCAD [naredbes](command/hr.md). Većina ih sadrži malo ili nimalo informacija. Molimo pogledajte [Wiki stranice](WikiPages/hr.md) za dobre primjere kako trebaju izgledati stranice naredbene dokumentacije.
 -   U odjeljku [Vježbe](Tutorials/hr.md) potrebni su primjeri kako koristiti radne površine. Ako ste razvili nešto super s FreeCAD-om, zašto ne dokumentirati kako ste to učinili za potomstvo?
 -   Na FreeCAD [bugtracker](Tracker/hr.md) postoje otvorene karte s oznakom [\"dokumentacija\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) koje bi mogli koristiti sa ljubavlju za stvaranjem uputstava.
 
@@ -109,8 +109,5 @@ Kod za pisanje za FreeCAD nije težak i ne trebate nikakvo dopuštenje, odmah mo
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
-
 ---
-[documentation index](../README.md) > [Command Reference/hr]] su popisane i dokumentirane sve FreeCAD ](Category_Command Reference/hr]] su popisane i dokumentirane sve FreeCAD .md) > Help FreeCAD/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Command Reference/hr]] su popisane i dokumentirane sve FreeCAD ](Category_Command Reference/hr]] su popisane i dokumentirane sve FreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/hr

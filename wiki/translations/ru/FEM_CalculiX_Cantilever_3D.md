@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ru
+   Topic:Finite Element Analysis
+   Level:Beginner
+   Time:10 minutes
+   Author:[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
+   FCVersion:0.16.6377 or above
+   Files:
+---
+
 # FEM CalculiX Cantilever 3D/ru
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru
-|Topic=Finite Element Analysis
-|Level=Beginner
-|Time=10 minutes
-|Author=[http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd]
-|FCVersion=0.16.6377 or above
-|Files=
-}}
 
 
 </div>
@@ -230,9 +236,9 @@
 </div>
 
 
-{{Tutorials navi
+ {{FEM Tools navi}}
 
-}} {{FEM Tools navi}}
+
 
 ---
-[documentation index](../README.md) > FEM CalculiX Cantilever 3D/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [FEM](Category_FEM.md) > FEM CalculiX Cantilever 3D/ru

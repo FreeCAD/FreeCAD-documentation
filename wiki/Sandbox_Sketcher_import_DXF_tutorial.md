@@ -29,7 +29,7 @@ In the preferences section [Inport Export](Import_Export_Preferences.md) (DXF Ta
 
 Tip: This procedure can also be useful to convert parts from other CAD programs that can not be directly imported. If much of the design is in sketches, exporting the sketches to DXF and re-adding constraints and dimensions in FreeCAD can much quicker than re-creating the parts from scratch or using exported STEP files without modifiable creation history.
 
-[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
+
 
 ---
-[documentation index](../README.md) > Sandbox:Sketcher import DXF tutorial
+![](images/Right_arrow.png) [documentation index](../README.md) > Sandbox:Sketcher import DXF tutorial

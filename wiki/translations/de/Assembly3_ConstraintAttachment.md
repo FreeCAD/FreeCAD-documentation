@@ -20,5 +20,7 @@ Diese Verbindung lässt keinen Freiheitsgrad unbestimmt.
 2.  Je ein Element beider Objekte auswählen.
 3.  Schaltfläche **<img src="images/Part_Attachment.svg" width=16px> [Befestigung](Assembly3_ConstraintAttachment/de.md)** drücken.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 ConstraintAttachment/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 ConstraintAttachment/de

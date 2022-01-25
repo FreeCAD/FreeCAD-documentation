@@ -30,9 +30,9 @@ The following image has been re-sized to a display width of 480 pixels:
 
 {{Artwork
 
-}} 
+}}
 
-[<img src="images/Property.png" style="width:16px"> Start](Category_Start.md)
+
 
 ---
-[documentation index](../README.md) > [Start](Category_Start.md) > Artwork Start/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Start](Category_Start.md) > Artwork Start/en

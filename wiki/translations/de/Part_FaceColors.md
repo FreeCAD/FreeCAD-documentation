@@ -34,11 +34,5 @@ Um alle Flächenfarben zurückzusetzen:
 
 
 
-
-
- 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Command\_Reference](Category_Command_Reference.md)
-
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Part](Part_Workbench.md) > Part FaceColors/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Command_Reference](Category_Command_Reference.md) > [Part](Part_Workbench.md) > Part FaceColors/de

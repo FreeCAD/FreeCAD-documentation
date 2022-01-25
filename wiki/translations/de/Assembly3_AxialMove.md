@@ -28,5 +28,7 @@ Der Befehl <img alt="" src=images/Assembly_AxialMove.svg  style="width:24px;"> [
     -   Die **Esc**-Taste.
     -   Die Schaltfläche **OK** im Aufgaben-Fenster.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AxialMove/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AxialMove/de

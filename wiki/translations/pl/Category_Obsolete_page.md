@@ -3,5 +3,7 @@ Ta kategoria zawiera listę stron, które są nieaktualne w odniesieniu do obecn
 
 ### Contents:
 
+
+
 ---
-[documentation index](../README.md) > Category:Obsolete page/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Obsolete page/pl

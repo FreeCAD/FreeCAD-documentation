@@ -101,5 +101,7 @@ Pentru a adăuga un nou segment de arbore, faceți clic dreapta în spațiul gol
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign WizardShaft/ro

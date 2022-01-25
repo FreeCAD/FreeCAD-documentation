@@ -324,7 +324,7 @@ setIconPOL = [
 "...;#+++---*-+++",
 "....%=+++++*-+++",
 ".....;$++++****+",
-"......@%++++----",
+"......@%++++",
 "................"]
 
 #path#################################################################
@@ -1651,5 +1651,7 @@ My macros to [Github](https://gist.github.com/mario52a)
 -   24/01/2018 ver 00.02 : sup \"import PyQt4\"
 -   21/11/2016 ver 00.01 :
 
+
+
 ---
-[documentation index](../README.md) > Macro Compound Plus
+![](images/Right_arrow.png) [documentation index](../README.md) > Macro Compound Plus

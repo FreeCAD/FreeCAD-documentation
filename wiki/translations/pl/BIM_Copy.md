@@ -14,5 +14,7 @@
 
 Narzędzie Kopiuj BIM jest skrótem do standardowego narzędzia [Rysunek roboczy: Przesuń](Draft_Move/pl.md), ale z włączoną opcją **Kopiuj**, co pozwala na utworzenie kopii obiektu i umieszczenie go w danym miejscu, za jednym razem.
 
+
+
 ---
-[documentation index](../README.md) > BIM Copy/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Copy/pl

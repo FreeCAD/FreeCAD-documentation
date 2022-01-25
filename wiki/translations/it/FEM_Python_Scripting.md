@@ -67,10 +67,5 @@ Evidenziare alcuni nodi nella vista:
 
 
 
-
-
-
-[<img src="images/Property.png" style="width:16px"> Poweruser\_Documentation/it](<img src="images/Property.png" style="width:16px"> Poweruser_Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Developer/it](<img src="images/Property.png" style="width:16px"> Developer/it.md) [<img src="images/Property.png" style="width:16px"> Python\_Code/it](<img src="images/Property.png" style="width:16px"> Python_Code/it.md)
-
 ---
-[documentation index](../README.md) > FEM Python Scripting/it
+![](images/Right_arrow.png) [documentation index](../README.md) > FEM Python Scripting/it

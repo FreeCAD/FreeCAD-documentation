@@ -3,23 +3,23 @@ The preferences for the <img alt="" src=images/Workbench_Spreadsheet.svg  style=
 
 There is only one tab: *Spreadsheet* in the **Spreadsheet** section. On this tab you can specify the following:
 
-+-------------------------------------+--------------------------------------------------------------------------+
++++
 | Name                                | Description                                                              |
 +=====================================+==========================================================================+
 |                      | The character used as field delimiter.                                   |
 | **Delimiter Character** |                                                                          |
 |                                  |                                                                          |
-+-------------------------------------+--------------------------------------------------------------------------+
++++
 |                      | The character used to delimit strings.                                   |
 | **Quote Character**     |                                                                          |
 |                                  |                                                                          |
-+-------------------------------------+--------------------------------------------------------------------------+
++++
 |                      | The character used to prevent the following character from being parsed. |
 | **Escape Character**    |                                                                          |
 |                                  |                                                                          |
-+-------------------------------------+--------------------------------------------------------------------------+
++++
 |                                     |                                                                          |
-+-------------------------------------+--------------------------------------------------------------------------+
++++
 
 ![](images/Spreadsheet-Preferences-Spreadsheet.png ) 
 *The Spreadsheet tab*
@@ -27,9 +27,9 @@ There is only one tab: *Spreadsheet* in the **Spreadsheet** section. On this tab
 
 
 
- {{Spreadsheet_Tools_navi}} 
+ {{Spreadsheet_Tools_navi}}
 
-[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
+
 
 ---
-[documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Preferences
+![](images/Right_arrow.png) [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Preferences

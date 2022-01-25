@@ -69,5 +69,7 @@ Voir les informations dans [TechDraw Nouvelle page par défaut](TechDraw_PageDef
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw PageTemplate/fr

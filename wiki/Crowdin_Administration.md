@@ -55,9 +55,7 @@ If you notice a string in the FreeCAD UI that is not translated do the following
 -   [Crowdin Scripts](Crowdin_Scripts.md)
 -   [Release process](Release_process.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
 
 ---
-[documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration
+![](images/Right_arrow.png) [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration

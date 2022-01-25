@@ -94,5 +94,7 @@ Le opzioni di personalizzazione avanzate sono disponibili dal menu **Strumenti â
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Manual:The FreeCAD Interface/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Manual:The FreeCAD Interface/it

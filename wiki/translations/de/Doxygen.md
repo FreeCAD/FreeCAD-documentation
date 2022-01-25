@@ -366,7 +366,7 @@ Dies ist eine Level 1 Kopfzeile
 ========================
 
 Dies ist eine Level 2 Kopfzeile.
-------------------------
+
 
 # Dies ist ein Level 1 Kopfteil
 
@@ -415,7 +415,7 @@ Die folgenden sind Markdown Erweiterungen.
     [TOC]
 
     Erste Kopfzeile  | Zweite Kopfzeile
-    ------------- | -------------
+     | 
     Zellinhalt  | Zellinhalt
     Zellinhalt  | Zellinhalt 
 
@@ -905,7 +905,7 @@ Siehe diese Antwort in [Stackoverflow](https://stackoverflow.com/a/35377654) fü
 -   [Quelldokumentation](Source_documentation/de.md)
 -   [FreeCAD API Internetseite](https://www.freecadweb.org/api/de/)
 
-[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md)
+
 
 ---
-[documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Doxygen/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Developer](Category_Developer.md) > [3rd Party](Category_3rd Party.md) > Doxygen/de

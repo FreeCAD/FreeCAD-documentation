@@ -1,7 +1,7 @@
 # Category:Draft/tr
 ### Contents:
 
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------------------------------------------------------
+    
   [Draft AddConstruction/tr](Draft_AddConstruction/tr.md)                 [Draft AddToGroup/tr](Draft_AddToGroup/tr.md)                   [Draft API/tr](Draft_API/tr.md)
   [Draft ApplyStyle/tr](Draft_ApplyStyle/tr.md)                           [Draft Arc/tr](Draft_Arc/tr.md)                                 [Draft Array/tr](Draft_Array/tr.md)
   [Draft BezCurve/tr](Draft_BezCurve/tr.md)                               [Draft BSpline/tr](Draft_BSpline/tr.md)                         [Draft Circle/tr](Draft_Circle/tr.md)
@@ -23,10 +23,9 @@
   [Draft ToggleConstructionMode/tr](Draft_ToggleConstructionMode/tr.md)   [Draft ToggleContinueMode/tr](Draft_ToggleContinueMode/tr.md)   [Draft ToggleDisplayMode/tr](Draft_ToggleDisplayMode/tr.md)
   [Draft ToggleGrid/tr](Draft_ToggleGrid/tr.md)                           [Draft Trimex/tr](Draft_Trimex/tr.md)                           [Draft tutorial/tr](Draft_tutorial/tr.md)
   [Draft Upgrade/tr](Draft_Upgrade/tr.md)                                 [Draft Wire/tr](Draft_Wire/tr.md)                               [Draft WireToBSpline/tr](Draft_WireToBSpline/tr.md)
-  [Draft Workbench/tr](Draft_Workbench/tr.md)                                                                                                     
-  ------------------------------------------------------------------------------- ----------------------------------------------------------------------- ---------------------------------------------------------------------
+  [Draft Workbench/tr](Draft_Workbench/tr.md)
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/tr](<img src="images/Property.png" style="width:16px"> User_Documentation/tr.md) [<img src="images/Property.png" style="width:16px"> Workbenches/tr](<img src="images/Property.png" style="width:16px"> Workbenches/tr.md)
+
 
 ---
-[documentation index](../README.md) > Category:Draft/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Draft/tr

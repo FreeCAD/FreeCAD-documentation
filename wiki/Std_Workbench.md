@@ -50,5 +50,7 @@ FreeCADGui.activateWorkbench("PartDesignWorkbench")
 
  {{Std Base navi}}  {{Interface navi}}
 
+
+
 ---
-[documentation index](../README.md) > Std Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > Std Workbench

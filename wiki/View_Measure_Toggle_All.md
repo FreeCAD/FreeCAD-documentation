@@ -27,5 +27,7 @@ The **View Measure Toggle All** command toggles the display of the active [3D vi
 
  {{Std Base navi}}
 
+
+
 ---
-[documentation index](../README.md) > View Measure Toggle All
+![](images/Right_arrow.png) [documentation index](../README.md) > View Measure Toggle All

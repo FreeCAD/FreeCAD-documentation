@@ -71,5 +71,7 @@ Beachte auch, dass die Funktion Verrundung des Teils von dem Problem topologisch
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/de

@@ -34,5 +34,7 @@ Adds fluid properties to a part.
 
  {{FEM Tools navi}}
 
+
+
 ---
-[documentation index](../README.md) > FEM MaterialFluid
+![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MaterialFluid

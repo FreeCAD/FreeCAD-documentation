@@ -18,5 +18,7 @@ The <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg  style="width:24px;"> [A
     -   The **<img src="images/Assembly_Add_WorkplaneXZ.svg_" width=16px> [Add XZ workplane](Assembly3_AddXZWorkplane.md)** button.
     -   The **Assembly3 → Workplane and origin → <img src="images/Assembly_Add_WorkplaneXZ.svg_" width=16px> Add XZ workplane** menu option.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AddXZWorkplane/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AddXZWorkplane/pl

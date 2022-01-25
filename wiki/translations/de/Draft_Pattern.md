@@ -70,5 +70,7 @@ Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstell
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Pattern/de

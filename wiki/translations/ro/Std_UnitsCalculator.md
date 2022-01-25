@@ -74,5 +74,7 @@ Deschide caseta de dialog a calculatorului unității, care permite transformare
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std UnitsCalculator/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > Std UnitsCalculator/ro

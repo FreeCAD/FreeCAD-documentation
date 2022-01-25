@@ -8,5 +8,7 @@ FreeCAD поддерживает некоторые специальные вх�
 
 [category:Documentation](category_Documentation.md)
 
+
+
 ---
-[documentation index](../README.md) > 3D input devices/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > 3D input devices/ru

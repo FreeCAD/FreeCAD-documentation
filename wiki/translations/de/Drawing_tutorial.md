@@ -1,15 +1,18 @@
+---
+- TutorialInfo:/de
+   Topic: Blaupausen/ Zeichnungen
+   Level: Anfänger
+   Time: 15 Minuten
+   Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
+   FCVersion:0.16 oder neuer
+   Files:
+---
+
 # Drawing tutorial/de
-**Entwicklung des [Drawing Arbeitsbereich](Drawing_Workbench/de.md) wurde in FreeCAD v0.16 gestoppt und der neue in v0.17 eingeführte [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, ihn zu ersetzen. Beide Arbeitsbereiche werden in v0.17 bereitgestellt, aber der Drawing-Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
+
+ **Entwicklung des [Drawing Arbeitsbereich](Drawing_Workbench/de.md) wurde in FreeCAD v0.16 gestoppt und der neue in v0.17 eingeführte [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) zielt darauf, ihn zu ersetzen. Beide Arbeitsbereiche werden in v0.17 bereitgestellt, aber der Drawing-Arbeitsbereich könnte in zukünftigen Ausgaben entfernt werden.**
 
 
-{{TutorialInfo/de
-|Topic= Blaupausen/ Zeichnungen
-|Level= Anfänger
-|Time= 15 Minuten
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16 oder neuer
-|Files=
-}}
 
 ### Einleitung
 
@@ -109,9 +112,9 @@ Wir sind nun fertig mit dem grundlegenden Arbeitsablauf für den [Drawing-Arbeit
 -   Für weitere Informationen über die verfügbaren Werkzeuge siehe die Seite [Zeichnung-Arbeitsbereich](Drawing_Workbench/de.md)
 
 
-{{Tutorials navi
+ {{Drawing Tools navi}}
 
-}} {{Drawing Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Drawing](Drawing_Workbench.md) > Drawing tutorial/de

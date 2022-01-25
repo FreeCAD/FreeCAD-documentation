@@ -50,5 +50,7 @@ FreeCAD.ActiveDocument.recompute()
 base = Arch.joinWalls([Wall1, Wall2])
 ```
 
+
+
 ---
-[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MergeWalls/de

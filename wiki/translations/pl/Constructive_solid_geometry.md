@@ -37,9 +37,7 @@ Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów tworzenia brył z
 -   [Poradnik: Kula Whiffle](Whiffle_Ball_tutorial/pl.md)
 -   [Poradnik: Podstawy modelowania](Basic_modeling_tutorial/pl.md)
 
- 
 
-[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
-[documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Constructive solid geometry/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Part](Category_Part.md) > Constructive solid geometry/pl

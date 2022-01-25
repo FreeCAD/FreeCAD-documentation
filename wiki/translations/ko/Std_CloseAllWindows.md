@@ -50,5 +50,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std CloseAllWindows/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > Std CloseAllWindows/ko

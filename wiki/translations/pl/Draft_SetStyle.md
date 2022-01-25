@@ -143,5 +143,7 @@ The following preferences are involved:
 -   Show units: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Show the unit suffix in dimensions**.
 -   Unit override: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Override unit**.
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft SetStyle/pl

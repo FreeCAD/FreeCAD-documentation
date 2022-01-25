@@ -225,7 +225,7 @@ FreeCAD da riga di comando, senza interfaccia grafica
 
 La finestra di dialogo per salvare le immagini.
 
-[<img src="images/Property.png" style="width:16px"> User Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Screenshots/it](<img src="images/Property.png" style="width:16px"> Screenshots/it.md)
+
 
 ---
-[documentation index](../README.md) > Screenshots/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Screenshots/it

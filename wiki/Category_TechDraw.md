@@ -3,7 +3,7 @@ This category lists pages related to the [TechDraw Workbench](TechDraw_Workbench
 
 ### Contents:
 
-  ------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+    
   [Advanced TechDraw Tutorial](Advanced_TechDraw_Tutorial.md)                                     [Artwork TechDraw](Artwork_TechDraw.md)                                                             [Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md)
   [Bitmap](Bitmap.md)                                                                             [Drawing](Drawing.md)                                                                               [DXF](DXF.md)
   [Measurement Of Angles On Holes](Measurement_Of_Angles_On_Holes.md)                             [Sandbox:TechDraw template creation tutorial](Sandbox_TechDraw_template_creation_tutorial.md)       [SVG](SVG.md)
@@ -40,10 +40,9 @@ This category lists pages related to the [TechDraw Workbench](TechDraw_Workbench
   [TechDraw ToggleFrame](TechDraw_ToggleFrame.md)                                                 [Template:TechDraw Tools navi](Template_TechDraw_Tools_navi.md)                                     [TechDraw VerticalDimension](TechDraw_VerticalDimension.md)
   [TechDraw VerticalExtentDimension](TechDraw_VerticalExtentDimension.md)                         [TechDraw View](TechDraw_View.md)                                                                   [TechDraw WeldSymbol](TechDraw_WeldSymbol.md)
   [TechDraw Workbench](TechDraw_Workbench.md)                                                     [TechDrawGui API](TechDrawGui_API.md)                                                               [Tolerancing](Tolerancing.md)
-  [Topological naming problem](Topological_naming_problem.md)                                     [Tutorial for open windows](Tutorial_for_open_windows.md)                                           
-  ------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------
+  [Topological naming problem](Topological_naming_problem.md)                                     [Tutorial for open windows](Tutorial_for_open_windows.md)
 
-[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
+
 
 ---
-[documentation index](../README.md) > Category:TechDraw
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:TechDraw

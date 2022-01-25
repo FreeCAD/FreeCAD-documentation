@@ -420,5 +420,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Surface/ru

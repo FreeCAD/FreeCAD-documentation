@@ -19,5 +19,7 @@ La commande <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px
     -   Le bouton **<img src="images/Assembly_AutoRecompute.svg" width=16px> [Auto recompute](Assembly3_AutoRecompute/fr.md)**.
     -   L\'option de menu **Assembly3 → <img src="images/Assembly_AutoRecompute.svg" width=16px> Auto recompute**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 AutoRecompute/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 AutoRecompute/fr

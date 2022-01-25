@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Каждая команда FreeCAD имеет уникальное имя, которое внесено в список [:<img src="images/Property.png" style="width:16px"> Command\_Reference/ru](:<img src="images/Property.png" style="width:16px"> Command_Reference/ru.md). Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из [python](python/ru.md) скрипта или [консоли Python](Python_console/ru.md), по средством выполнения следующей комманды:
+Каждая команда FreeCAD имеет уникальное имя, которое внесено в список [:Category:Command\_Reference/ru](:Category:Command_Reference/ru.md). Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из [python](python/ru.md) скрипта или [консоли Python](Python_console/ru.md), по средством выполнения следующей комманды:
 
 
 </div>
@@ -100,11 +100,6 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 Смотрите [функцию рисования линии](Line_drawing_function/ru.md).
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
-[documentation index](../README.md) > [Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из ](Category_Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из .md) > Command/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из ](Category_Command_Reference/ru|:Category:Command_Reference/ru]]. Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/ru

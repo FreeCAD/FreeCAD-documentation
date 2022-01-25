@@ -53,5 +53,7 @@ DecorateLine n\'est pas accessible à partir de [macro](Macros/fr.md) ou de la c
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw DecorateLine/fr

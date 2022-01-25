@@ -323,5 +323,7 @@ Il tutorial [Aggiunta di una nuova opzione di navigazione del mouse a FreeCAD](A
 |[Metodi di selezione](Selection_methods/it.md)
 }}
 
+
+
 ---
-[documentation index](../README.md) > Mouse navigation/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Mouse navigation/it

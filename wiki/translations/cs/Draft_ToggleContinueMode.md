@@ -32,5 +32,7 @@ Některé nástroje modulů Kreslení a Architektura mají zaklikávací políč
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleContinueMode/cs

@@ -50,8 +50,5 @@ FreeCAD는 열정적인 개발자와 사용자 커뮤니티가 유지하고 개�
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
-
 ---
-[documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/ko
+![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > About FreeCAD/ko

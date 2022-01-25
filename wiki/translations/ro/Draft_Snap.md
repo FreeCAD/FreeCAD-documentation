@@ -111,9 +111,6 @@ Note that after changing some preferences you must restart FreeCAD.
 </div>
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> User Documentation/ro](<img src="images/Property.png" style="width:16px"> User_Documentation/ro.md)
 
 ---
-[documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap/ro

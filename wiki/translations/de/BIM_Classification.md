@@ -21,5 +21,7 @@ Der Klassifizierungsverwalter erlaubt dir, einem BIM Objekt oder Material eine S
 -   Wenn du eine Klasse für ein Objekt hinzufügst oder bearbeiten möchtest, wähle dieses Objekt und drücke die Schaltfläche BIM Klassifikation
 -   Wenn du eine Klasse für ein Material hinzufügst oder bearbeiten möchtest, wähle nichts aus und drücke die Schaltfläche BIM Klassifikation. Du kannst die Materialien direkt vom Fenster des Klassifizierungsmanagers aus durchsuchen.
 
+
+
 ---
-[documentation index](../README.md) > BIM Classification/de
+![](images/Right_arrow.png) [documentation index](../README.md) > BIM Classification/de

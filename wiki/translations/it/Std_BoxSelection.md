@@ -47,5 +47,7 @@
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std BoxSelection/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Std BoxSelection/it

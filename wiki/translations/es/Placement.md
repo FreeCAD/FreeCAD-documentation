@@ -232,7 +232,7 @@ Para hacer que la ubicación del \"Boceto\" sea la misma que la del \"Cilindro\"
 -   El punto de referencia de un objeto puede ser diferente dependiendo del objeto. Algunos ejemplos para objetos comunes:
 
   Objeto                                           Punto de referencia
-  ------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
   Part.Cubo                                        izquierda (minx), delante (miny), abajo (minz) vértice
   Part.Esfera                                      centro de la esfera (por ejemplo centro de cuadro delimitador)
   Part.Cilindro                                    centro de la cara inferior
@@ -248,5 +248,7 @@ Para hacer que la ubicación del \"Boceto\" sea la misma que la del \"Cilindro\"
 
 -   Este tutorial: [Aeroplano](Aeroplane/es.md) abarca los mecanismos del cambio de ubicación de un objeto extensivamente.
 
+
+
 ---
-[documentation index](../README.md) > Placement/es
+![](images/Right_arrow.png) [documentation index](../README.md) > Placement/es

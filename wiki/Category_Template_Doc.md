@@ -3,7 +3,7 @@ This category lists templates that produce text boxes used for documenting comma
 
 ### Contents:
 
-  --------------------------------------------------------------------------- --------------------------------------------------------------------------- -----------------------------------------------------------------------
+    
   [Template:GuiCommand](Template_GuiCommand.md)                       [Template:GuiCommand/bg](Template:GuiCommand/bg.md)                 [Template:GuiCommand/cs](Template:GuiCommand/cs.md)
   [Template:GuiCommand/de](Template:GuiCommand/de.md)                 [Template:GuiCommand/en](Template:GuiCommand/en.md)                 [Template:GuiCommand/es](Template:GuiCommand/es.md)
   [Template:GuiCommand/fr](Template:GuiCommand/fr.md)                 [Template:GuiCommand/hr](Template:GuiCommand/hr.md)                 [Template:GuiCommand/id](Template:GuiCommand/id.md)
@@ -21,10 +21,8 @@ This category lists templates that produce text boxes used for documenting comma
   [Template:TutorialInfo/ru](Template:TutorialInfo/ru.md)             [Template:TutorialInfo/sv](Template:TutorialInfo/sv.md)             [Template:TutorialInfo/tr](Template:TutorialInfo/tr.md)
   [Template:TutorialInfo/uk](Template:TutorialInfo/uk.md)             [Template:TutorialInfo/zh](Template:TutorialInfo/zh.md)             [Template:TutorialInfo/zh-cn](Template:TutorialInfo/zh-cn.md)
   [Template:TutorialInfo/zh-hans](Template:TutorialInfo/zh-hans.md)   [Template:TutorialInfo/zh-hant](Template:TutorialInfo/zh-hant.md)   [Template:TutorialInfo/zh-tw](Template:TutorialInfo/zh-tw.md)
-                                                                                                                                                          
-  --------------------------------------------------------------------------- --------------------------------------------------------------------------- -----------------------------------------------------------------------
 
-[<img src="images/Property.png" style="width:16px"> Template](Category_Template.md)
+
 
 ---
-[documentation index](../README.md) > Category:Template:Doc
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template:Doc

@@ -30,5 +30,7 @@ Dieses Werkzeug löscht alle Beschränkungen aus der zu bearbeitenden Skizze und
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher DeleteAllConstraints/de

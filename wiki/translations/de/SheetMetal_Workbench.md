@@ -241,7 +241,7 @@ Was macht man ?
 -   Offizieller Blog: [Blech Erweiterung für FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Quellcode auf github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
-[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
+
 
 ---
-[documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > [Addons](Category_Addons.md) > [External Command Reference](Category_External Command Reference.md) > SheetMetal Workbench/de

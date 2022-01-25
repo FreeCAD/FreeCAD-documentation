@@ -41,5 +41,7 @@ Vă oferă coordonatele Min / Max ale unei casete de delimitare pentru o singur�
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Mesh_Workbench.md) > Mesh BoundingBox/ro

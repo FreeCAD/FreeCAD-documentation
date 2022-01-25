@@ -4,7 +4,7 @@
 FreeCAD peut importer et exporter vers plusieurs types de fichiers. Voici une liste des plus importants avec une brève description des caractéristiques disponibles :
 
   Format   Import   Export   Notes
-  -------- -------- -------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     
   STEP     Oui      Oui      C\'est le format d\'importation/exportation le plus fidèle disponible, car il supporte la géométrie solide et NURBS. Utilisez le chaque fois que cela est possible.
   IGES     Oui      Oui      Un format solide ancien, également très bien pris en charge. Certaines anciennes applications ne supportent pas STEP mais supportent IGES.
   BREP     Oui      Oui      Le format natif d\'[OpenCasCade](https://fr.wikipedia.org/wiki/Open_CASCADE_Technology), le noyau de géométrie FreeCAD.
@@ -38,8 +38,5 @@ Certains de ces formats de fichiers ont des options. Celles-ci peuvent être con
 
 
 
-
-[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
-
 ---
-[documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Import and export to other filetypes/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Tutorials](Category_Tutorials.md) > Manual:Import and export to other filetypes/fr

@@ -15,7 +15,7 @@ Un comando de FreeCAD es lo que se ejecuta cuando presiona un botón de la barra
 
 <div class="mw-translate-fuzzy">
 
-Cada comando de FreeCAD tiene un nombre único, que aparece en la página [: <img src="images/Property.png" style="width:16px">  Command\_Reference](:_Category__Command_Reference.md). Los comandos se pueden iniciar mediante un botón de la barra de herramientas, un elemento del menú o desde una secuencia de comandos de Python o la consola de Python, ejecutando:
+Cada comando de FreeCAD tiene un nombre único, que aparece en la página [: Category: Command\_Reference](:_Category__Command_Reference.md). Los comandos se pueden iniciar mediante un botón de la barra de herramientas, un elemento del menú o desde una secuencia de comandos de Python o la consola de Python, ejecutando:
 
 
 </div>
@@ -106,11 +106,6 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 See [Line drawing function](Line_drawing_function.md).
 
 
-{{Powerdocnavi
-
-}}
-
-[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Command/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/es

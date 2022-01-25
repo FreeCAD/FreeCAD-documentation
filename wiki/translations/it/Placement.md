@@ -312,7 +312,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 -   Il punto di riferimento di un oggetto varia a seconda dell\'oggetto. Alcuni esempi di oggetti di uso comune:
 
   Oggetto                                Punto di riferimento
-  -------------------------------------- --------------------------------------------------------------------------------------------------------------------
+   
   Part.Box                               vertice sinistro (minimo x), frontale (minimo y), in basso (minimo z)
   Part.Sphere                            centro della sfera (centro del suo contenitore cubico)
   Part.Cylinder                          centro della faccia di base
@@ -348,5 +348,7 @@ Pertanto, il posizionamento di un solido creato in PartDesign da uno schizzo pu√
 
 </div>
 
+
+
 ---
-[documentation index](../README.md) > Placement/it
+![](images/Right_arrow.png) [documentation index](../README.md) > Placement/it

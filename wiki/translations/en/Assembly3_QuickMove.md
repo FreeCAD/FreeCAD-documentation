@@ -20,5 +20,7 @@ The <img alt="" src=images/Assembly_QuickMove.svg  style="width:24px;"> [Quick m
     -   The **Assembly3 → <img src="images/Assembly_QuickMove.svg" width=16px> Quick move** menu option.
     -   The keyboard shortcut: **A** then **Q**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 QuickMove/en
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 QuickMove/en

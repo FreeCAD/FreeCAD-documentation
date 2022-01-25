@@ -3,12 +3,12 @@ This category collects pages about all the different file formats that FreeCAD i
 
 ### Contents:
 
-  ----------------------------------------- --------------------------------------------------------- -----------------------------------------
+    
   [Arch DAE/cs](Arch_DAE/cs.md)     [Arch IFC/cs](Arch_IFC/cs.md)                     [Arch OBJ/cs](Arch_OBJ/cs.md)
   [Draft DAT/cs](Draft_DAT/cs.md)   [Draft DXF/cs](Draft_DXF/cs.md)                   [Draft OCA/cs](Draft_OCA/cs.md)
   [Draft SVG/cs](Draft_SVG/cs.md)   [File Format FCStd/cs](File_Format_FCStd/cs.md)   [Material/cs](Material/cs.md)
-                                                                                                      
-  ----------------------------------------- --------------------------------------------------------- -----------------------------------------
+
+
 
 ---
-[documentation index](../README.md) > Category:File Formats/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:File Formats/cs

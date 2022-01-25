@@ -116,5 +116,7 @@ Part.show(enlarged_circle)
 # structure follows that of source shape.
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Offset2D/en

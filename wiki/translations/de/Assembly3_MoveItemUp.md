@@ -19,5 +19,7 @@ Der Befehl <img alt="" src=images/Assembly_TreeItemUp.svg  style="width:24px;"> 
     -   Die Schaltfläche **<img src="images/Assembly_TreeItemUp.svg" width=16px> [Objekt aufwärts bewegen](Assembly3_MoveItemUp/de.md)**.
     -   Den Menüeintrag **Assembly3 → <img src="images/Assembly_TreeItemUp.svg" width=16px> Objekt aufwärts bewegen**.
 
+
+
 ---
-[documentation index](../README.md) > Assembly3 MoveItemUp/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Assembly3 MoveItemUp/de

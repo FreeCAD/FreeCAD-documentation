@@ -33,18 +33,18 @@ Ad es. con il comando ****Spazio**** oppure selezionare l\'oggetto, fare clic de
 
 **Scheda Origin**
 
-+-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
++++
 | <img alt="" src=images/Macro_WorkFeatures_02.png  style="width:200px;"> | -   **Scheda Origin**                                                                                                               |
 |                                                                         |                                                                                                                                     |
 |                                                                         | -                                                                                                                    |
 |                                                                         |     **Origin**                                                                                                                  |
 |                                                                         |                                                                                                                                  |
 |                                                                         |     : Crea una origine: un punto con gli assi X,Y,Z e i piani XZ,XY,YZ. Tutti gli elementi sono automaticamente impostati nascosti. |
-+-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 **Scheda Points**
 
-+-------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
++++
 | <img alt="" src=images/Macro_WorkFeatures_03.png  style="width:200px;"> | -   **Scheda Points**                                                                 |
 |                                                                         |                                                                                       |
 |                                                                         | -                                                                      |
@@ -98,11 +98,11 @@ Ad es. con il comando ****Spazio**** oppure selezionare l\'oggetto, fare clic de
 |                                                                         |     **Object(s) Base Point**                                                      |
 |                                                                         |                                                                                    |
 |                                                                         |     : Crea un punto base di tutti gli oggetti selezionati.                            |
-+-------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
++++
 
 **Scheda Axis**
 
-+-------------------------------------------------------------------------+-----------------------------------------------------------------------------+
++++
 | <img alt="" src=images/Macro_WorkFeatures_04.png  style="width:200px;"> | -   **Scheda Axis**                                                         |
 |                                                                         |                                                                             |
 |                                                                         | -                                                            |
@@ -158,11 +158,11 @@ Ad es. con il comando ****Spazio**** oppure selezionare l\'oggetto, fare clic de
 |                                                                         |     **Object(s) Base Axis**                                             |
 |                                                                         |                                                                          |
 |                                                                         |     : Crea 3 assi nella posizione di base di tutti gli oggetti selezionati. |
-+-------------------------------------------------------------------------+-----------------------------------------------------------------------------+
++++
 
 **Scheda Plane**
 
-+-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
++++
 | <img alt="" src=images/Macro_WorkFeatures_05.png  style="width:200px;"> | -   **Scheda Plane**                                                                            |
 |                                                                         |                                                                                                 |
 |                                                                         | -                                                                                |
@@ -198,11 +198,11 @@ Ad es. con il comando ****Spazio**** oppure selezionare l\'oggetto, fare clic de
 |                                                                         |     **Object(s) Center Planes**                                                             |
 |                                                                         |                                                                                              |
 |                                                                         |     : Crea 3 piani (XY, XZ e YZ) nel centro di tutti gli oggetti selezionati.                   |
-+-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+
++++
 
 **Scheda Objects**
 
-+-------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | <img alt="" src=images/Macro_WorkFeatures_06.png  style="width:200px;"> | -   **Scheda Objects**                                                                                                                                                                                                     |
 |                                                                         |                                                                                                                                                                                                                            |
 |                                                                         | -                                                                                                                                                                                                           |
@@ -224,22 +224,22 @@ Ad es. con il comando ****Spazio**** oppure selezionare l\'oggetto, fare clic de
 |                                                                         |     **Cube**                                                                                                                                                                                                           |
 |                                                                         |                                                                                                                                                                                                                         |
 |                                                                         |     : Prima selezionare un asse e un punto. Definire le dimensioni se necessario. Quindi fare clic sul pulsante \... Si crea un cubo allineato sull\'asse selezionato con una estremità nel punto selezionato.             |
-+-------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 **Scheda Views**
 
-+-------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | <img alt="" src=images/Macro_WorkFeatures_09.png  style="width:200px;"> | -   **Scheda Views**                                                                                                                                                                                    |
 |                                                                         |                                                                                                                                                                                                         |
 |                                                                         | -                                                                                                                                                                                        |
 |                                                                         |     **Align to ...**                                                                                                                                                                                |
 |                                                                         |                                                                                                                                                                                                      |
 |                                                                         |     : Imposta la vista corrente perpendicolare alla faccia selezionata, o allineata lungo l\'asse selezionato, o allineata lungo 2 punti. Ricliccando sulla stessa selezione si invertire la direzione. |
-+-------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 **Scheda Modif.**
 
-+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
++++
 | <img alt="" src=images/Macro_WorkFeatures_10.png  style="width:200px;"> | -   **Scheda Modif. Cutting**                                                                    |
 |                                                                         |                                                                                                  |
 |                                                                         | -                                                                                 |
@@ -276,11 +276,11 @@ Ad es. con il comando ****Spazio**** oppure selezionare l\'oggetto, fare clic de
 |                                                                         |     **Apply**                                                                                |
 |                                                                         |                                                                                               |
 |                                                                         |     : Applica i valori                                                                           |
-+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
++++
 
 **Check. Tab**
 
-+-------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 | <img alt="" src=images/Macro_WorkFeatures_11.png  style="width:200px;"> | -   **Check. Tab**                                                                                                                                   |
 |                                                                         |                                                                                                                                                      |
 |                                                                         | -                                                                                                                                     |
@@ -343,7 +343,7 @@ Ad es. con il comando ****Spazio**** oppure selezionare l\'oggetto, fare clic de
 |                                                                         |     **View**                                                                                                                                     |
 |                                                                         |                                                                                                                                                   |
 |                                                                         |     : Rileva la posizione della fotocamera. Il valore restituito è il valore fornito dalla funzione getCameraOrientation().                          |
-+-------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
++++
 
 ## Script
 
@@ -557,9 +557,6 @@ Data 2019-05-01 (YYYY-MM-DD)
 27/12/2014 : [WF\_2014\_12\_27.zip](http://forum.freecadweb.org/download/file.php?id=10325)
 
 
- 
-
-[<img src="images/Property.png" style="width:16px"> Addons/it](<img src="images/Property.png" style="width:16px"> Addons/it.md) [<img src="images/Property.png" style="width:16px"> User Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
 
 ---
-[documentation index](../README.md) > [Addons](Category_Addons.md) > Macro WorkFeatures/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [User Documentation](Category_User Documentation.md) > Macro WorkFeatures/it

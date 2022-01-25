@@ -50,5 +50,7 @@ The **Edit → Preferences... → Path → Job Preferences tab, Defaults → Tem
 
  {{Path_Tools_navi}}
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path ExportTemplate

@@ -1,5 +1,7 @@
 # Path Contour/it
 1.  REDIRECT [Path\_Profile/it](Path_Profile/it.md)
 
+
+
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Contour/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Path](Path_Workbench.md) > Path Contour/it

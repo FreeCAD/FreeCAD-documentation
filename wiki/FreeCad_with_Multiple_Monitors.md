@@ -25,7 +25,7 @@ Cannot Main file views, the view of the model and the spreadsheet
 
 # Links
 
-[<img src="images/Property.png" style="width:16px">  Sandbox](Category__Sandbox.md)
+
 
 ---
-[documentation index](../README.md) > FreeCad with Multiple Monitors
+![](images/Right_arrow.png) [documentation index](../README.md) > FreeCad with Multiple Monitors

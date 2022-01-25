@@ -47,5 +47,7 @@ Die **Std Projektinformationen**-Anweisung zeigt einen Dialog mit Projektinforma
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > Std ProjectInfo/de
+![](images/Right_arrow.png) [documentation index](../README.md) > Std ProjectInfo/de

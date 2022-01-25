@@ -122,5 +122,7 @@ La fonction `addObject` a deux arguments de chaîne de base.
 
         {{Userdocnavi}}
 
+
+
 ---
-[documentation index](../README.md) > Object name/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Object name/fr

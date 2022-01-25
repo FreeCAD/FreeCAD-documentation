@@ -30,115 +30,115 @@ Eine Beschränkung kann bis zu sechs Argumente annehmen, die Kanten sind oder an
 
 Bei geometrischen Beschränkungen ist das erste Argument eines der folgenden. Die möglichen Kombinationen von Argumenten, die für jede Beschränkung zulässig sind, findest du auf der entsprechenden Funktionsseite.
 
-+----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 | Code                       | Icon                                                                                       | Feature                                                       |
 +============================+============================================================================================+===============================================================+
 |             | <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;">       | [Coincident](Sketcher_ConstrainCoincident.md)         |
 | `'Coincident'`    |                                                                                            |                                                               |
 |                         |                                                                                            |                                                               |
-+----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> | [Point On Object](Sketcher_ConstrainPointOnObject.md) |
 | `'PointOnObject'` |                                                                                            |                                                               |
 |                         |                                                                                            |                                                               |
-+----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;">           | [Vertical](Sketcher_ConstrainVertical.md)             |
 | `'Vertical'`      |                                                                                            |                                                               |
 |                         |                                                                                            |                                                               |
-+----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;">       | [Horizontal](Sketcher_ConstrainHorizontal.md)         |
 | `'Horizontal'`    |                                                                                            |                                                               |
 |                         |                                                                                            |                                                               |
-+----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;">           | [Parallel](Sketcher_ConstrainParallel.md)             |
 | `'Parallel'`      |                                                                                            |                                                               |
 |                         |                                                                                            |                                                               |
-+----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> | [Perpendicular](Sketcher_ConstrainPerpendicular.md)   |
 | `'Perpendicular'` |                                                                                            |                                                               |
 |                         |                                                                                            |                                                               |
-+----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;">             | [Tangent](Sketcher_ConstrainTangent.md)               |
 | `'Tangent'`       |                                                                                            |                                                               |
 |                         |                                                                                            |                                                               |
-+----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;">                 | [Equal](Sketcher_ConstrainEqual.md)                   |
 | `'Equal'`         |                                                                                            |                                                               |
 |                         |                                                                                            |                                                               |
-+----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;">         | [Symmetric](Sketcher_ConstrainSymmetric.md)           |
 | `'Symmetric'`     |                                                                                            |                                                               |
 |                         |                                                                                            |                                                               |
-+----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;">                 | [Block](Sketcher_ConstrainBlock.md)                   |
 | `'Block'`         |                                                                                            |                                                               |
 |                         |                                                                                            |                                                               |
-+----------------------------+--------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 
 Die <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [InterneAusrichtungsbeschränkungen](Sketcher_ConstrainInternalAlignment/de.md) verhalten sich für die Zwecke der Skripterstellung wie geometrische Beschränkungen. Auch hier findest du auf der entsprechenden Funktionsseite die möglichen Kombinationen von Argumenten, die für jede Beschränkung zulässig sind.
 
-+-----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+++++
 | Code                                                | Icon                                                                                               | Feature                                                             |
 +=====================================================+====================================================================================================+=====================================================================+
 |                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [InternalAlignment](Sketcher_ConstrainInternalAlignment.md) |
 | `'InternalAlignment:EllipseMajorDiameter'` |                                                                                                    |                                                                     |
 |                                                  |                                                                                                    |                                                                     |
-+-----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+++++
 |                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [InternalAlignment](Sketcher_ConstrainInternalAlignment.md) |
 | `'InternalAlignment:EllipseMinorDiameter'` |                                                                                                    |                                                                     |
 |                                                  |                                                                                                    |                                                                     |
-+-----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+++++
 |                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [InternalAlignment](Sketcher_ConstrainInternalAlignment.md) |
 | `'InternalAlignment:EllipseFocus1'`        |                                                                                                    |                                                                     |
 |                                                  |                                                                                                    |                                                                     |
-+-----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+++++
 |                                      | <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> | [InternalAlignment](Sketcher_ConstrainInternalAlignment.md) |
 | `'InternalAlignment:EllipseFocus2'`        |                                                                                                    |                                                                     |
 |                                                  |                                                                                                    |                                                                     |
-+-----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+
+++++
 
 Bei Bemaßungsbeschränkungen ist das erste Argument eines der folgenden. Die möglichen Kombinationen von Argumenten, die für jede Beschränkung zulässig sind, findest du auf der entsprechenden Funktionsseite.
 
-+----------------------------+------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 | Code                       | Icon                                                                               | Feature                                                       |
 +============================+====================================================================================+===============================================================+
 |             | <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> | [Horizontal distance](Sketcher_ConstrainDistanceX.md) |
 | `'DistanceX'`     |                                                                                    |                                                               |
 |                         |                                                                                    |                                                               |
-+----------------------------+------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> | [Vertical distance](Sketcher_ConstrainDistanceY.md)   |
 | `'DistanceY'`     |                                                                                    |                                                               |
 |                         |                                                                                    |                                                               |
-+----------------------------+------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;">   | [Distance](Sketcher_ConstrainDistance.md)             |
 | `'Distance'`      |                                                                                    |                                                               |
 |                         |                                                                                    |                                                               |
-+----------------------------+------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;">       | [Radius](Sketcher_ConstrainRadius.md)                 |
 | `'Radius'`        |                                                                                    |                                                               |
 |                         |                                                                                    |                                                               |
-+----------------------------+------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:24px;">   | [Diameter](Sketcher_ConstrainDiameter.md)             |
 | `'Diameter'`      |                                                                                    |                                                               |
 |                         |                                                                                    |                                                               |
-+----------------------------+------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;">         | [Angle](Sketcher_ConstrainAngle.md)                   |
 | `'Angle'`         |                                                                                    |                                                               |
 |                         |                                                                                    |                                                               |
-+----------------------------+------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 |             | <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;">         | [Angle](Sketcher_ConstrainAngle.md)                   |
 | `'AngleViaPoint'` |                                                                                    |                                                               |
 |                         |                                                                                    |                                                               |
-+----------------------------+------------------------------------------------------------------------------------+---------------------------------------------------------------+
+++++
 
 Die <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Snelliusches Gesetz](Sketcher_ConstrainSnellsLaw/de.md) Beschränkungen verhalten sich für die Zwecke der Skripterstellung wie Bemaßungsbeschränkungen. Auch hier findest du auf der entsprechenden Funktionsseite die möglichen Kombinationen von Argumenten, die für jede Beschränkung zulässig sind.
 
-+------------------------+------------------------------------------------------------------------------------+--------------------------------------------------------+
+++++
 | Code                   | Icon                                                                               | Feature                                                |
 +========================+====================================================================================+========================================================+
 |         | <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> | [Snell\'s law](Sketcher_ConstrainSnellsLaw.md) |
 | `'SnellsLaw'` |                                                                                    |                                                        |
 |                     |                                                                                    |                                                        |
-+------------------------+------------------------------------------------------------------------------------+--------------------------------------------------------+
+++++
 
 Die <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Schloss](Sketcher_ConstrainLock/de.md) Beschränkung ist ein GUI Befehl, der eine <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontaler Abstand](Sketcher_ConstrainDistanceX/de.md) und eine <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertikaler Abstandsbeschränkung](Sketcher_ConstrainDistanceY/de.md) erzeugt, es ist keine eigene Beschränkung.
 
@@ -202,5 +202,7 @@ Der Befehl `Sketch.addConstraint(Sketcher.Constraint('Coincident',0,2,2,2))` erg
 
 }}
 
+
+
 ---
-[documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher scripting/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher scripting/de

@@ -1,15 +1,21 @@
+---
+- TutorialInfo:/ru
+   Topic:Path Workbench
+   Level:
+   Time:
+   Author:Chrisb
+   FCVersion:
+   Files:
+---
+
 # Path Walkthrough for the Impatient/ru
+
+
+
+
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru
-|Topic=Path Workbench
-|Level=
-|Time=
-|Author=Chrisb
-|FCVersion=
-|Files=
-}}
 
 
 </div>
@@ -169,9 +175,9 @@ The final step to generate G-Code for the target mill is to postprocess the Job.
     
 
 
-{{Tutorials navi
+ {{Path Tools navi}}
 
-}} {{Path Tools navi}}
+
 
 ---
-[documentation index](../README.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Path](Path_Workbench.md) > Path Walkthrough for the Impatient/ru
