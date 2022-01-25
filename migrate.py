@@ -84,6 +84,9 @@ CATEGORY_COLUMNS = 3 # the number of columns on category pages
 PART_API_PAGES = ["Vertex","Edge","Wire","Face","Shell","Solid","CompSolid","Compound",
                   "Arc","Circle","Line","Ellipse","Cone","BSplineCurve","BSplineSurface",
                   "BezierCurve","Cylinder","Point","Sphere","Shape"]
+# templates that are safe to remove entirely
+UNUSED_TEMPLATES = ["Userdocnavi","Powerdocnavi","Arch Tools navi","\\#translation:","clear",
+                   "Part Tools navi","Draft Tools navi","UnfinishedDocu","Tutorials navi"]
 
 
 class MediaWiki:
@@ -118,6 +121,7 @@ class MediaWiki:
         self.icon_module = os.path.join(self.imagefolder,"type_module.svg")
         self.icon_type = os.path.join(self.imagefolder,"type_class.svg")
         self.icon_builtin = os.path.join(self.imagefolder,"Type_enum.svg")
+        self.icon_nav = os.path.join(self.imagefolder,"Right_arrow.png")
 
 
     ### UTILS
@@ -408,7 +412,7 @@ class MediaWiki:
 
 
     def formatCategoryContents(self,name):
-        
+
         cpages = self.getCategoryContents(name)
         result = "{|\n"
         col = 1
@@ -438,6 +442,29 @@ class MediaWiki:
             if re.findall("Arch Tools navi",content):
                 return "Arch"
         return None
+
+
+    def getPageCategories(self,page):
+
+        """getPageCategories(self,page):
+        Returns the categories a page belongs to"""
+
+        cats = []
+        if "API" in page:
+            cats.append("API")
+        if page in self.pagecontents:
+            content = self.pagecontents[page]
+            if "Tutorials navi" in content:
+                cats.append("Tutorials")
+            cs = re.findall("Category:(.*?)[{}\[]",content)
+            for c in cs:
+                if not c in cats:
+                    cats.append(c)
+            tcs = re.findall("\{\{(.*?) Tools navi",content)
+            for tc in tcs:
+                if not tc in cats:
+                    cats.append(tc)
+        return cats
 
 
     ### IMAGE OPERATIONS
@@ -680,12 +707,13 @@ class MediaWiki:
         adds a footer with navigation links to the bottom of the page"""
 
         breadcrumb = " > "
-        footer = "\n\n---\n"
-        footer += "[documentation index](../"+self.rootpage+")"
-        c = self.getPageCategory(page)
+        footer = "\n\n\n\n---\n"
+        footer += "![]("+self.icon_nav+") [documentation index](../"+self.rootpage+")"
+        c = self.getPageCategories(page)
         w = self.getWorkbench(page)
-        if c and (c != w):
-            footer += breadcrumb + "[" + c + "](Category_" + c + ".md)"
+        for cat in c:
+            if cat != w:
+                footer += breadcrumb + "[" + cat + "](Category_" + cat + ".md)"
         if w:
             footer += breadcrumb + "[" + w + "](" + w + "_Workbench.md)"
         footer += breadcrumb + page.replace("_"," ") + "\n"
@@ -711,10 +739,6 @@ class MediaWiki:
             imagepath = self.imagefolder
         if (not debug) or (debug is True):
             debug = 100000
-
-        # templates that are safe to remove entirely
-        unusedtemplates = ["Userdocnavi","Arch Tools navi","\\#translation:","clear",
-                           "Part Tools navi","Draft Tools navi"]
 
         if debug >= 1:
             # path replacements
@@ -768,6 +792,18 @@ class MediaWiki:
                     result = re.sub("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n- GuiCommand:"+guicommandblk+"---\n",result,flags=flags)
                     result = "---"+"---".join(result.split("---")[1:]) # removing empty line before yaml block
 
+        if debug >= 7.5:
+            # turning TutorialInfo block into YAML
+            if "{{TutorialInfo" in result:
+                tutblk = re.findall("{{TutorialInfo(.*?)}}\n",result,flags=flags)
+                if tutblk:
+                    tutblk = tutblk[0]
+                    tutblk = tutblk.strip()
+                    tutblk = re.sub("\|(.*?)\=(.*?)",r"   \1:\2",tutblk) # fixing GuiCommand contents
+                    tutblk = "---\n- TutorialInfo:"+tutblk+"\n---\n\n"
+                    result = re.sub("{{TutorialInfo.*?}}\n","",result,flags=flags)
+                    result = tutblk + result
+
         if debug >= 8:
             # remove code fences
             result = re.sub("\`","",result)
@@ -810,7 +846,6 @@ class MediaWiki:
         if debug >= 11.7:
             result = re.sub("([0-9]+)px\]\(File\:(.*?)\.md\)",r'<img src='+imagepath+r'/\2 style="width:\1px">',result) # fix File: links
             result = re.sub("\:(\w+\.md\))",r"_\1",result) # rename Namespace:Page to Namespace_Page
-            result = re.sub("Category:","<img src=\""+imagepath+"/Property.png\" style=\"width:16px\"> ",result) # Replace Category: with icon
 
         if debug >= 12:
             # removing other leftovers
@@ -820,7 +855,7 @@ class MediaWiki:
         if debug >= 13:
             # removing all remaining templates
             for template in re.findall("{{.*?}}",result,flags=flags):
-                if template.strip("{").strip("}").strip() in unusedtemplates:
+                if template.strip("{").strip("}").strip() in UNUSED_TEMPLATES:
                     result = re.sub(template,"",result,flags=flags) # remove all remaining templates
                 else:
                     #print("WARNING: Unhandled template:",template)
@@ -831,6 +866,16 @@ class MediaWiki:
                         sys.exit(1)
                     if not template in unhandledTemplates:
                         unhandledTemplates.append(template)
+
+        if debug >= 14:
+            # remove horizontal lines
+            result = re.sub(r"(-)\1{3,}","",result)
+
+        if debug >= 15:
+            # remove category links (included in footer)
+            # result = re.sub("Category:","<img src=\""+imagepath+"/Property.png\" style=\"width:16px\"> ",result) # Replace Category: with icon
+            result = re.sub("\[Category\:.*?md\)","",result)
+
 
         return result.strip()
 
