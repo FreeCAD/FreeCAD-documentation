@@ -274,11 +274,6 @@ class MediaWiki:
         if "parse" in data:
             wikitext = data["parse"]["wikitext"]
             revision = data["parse"]["revid"]
-            if name.startswith("Category:"):
-                # add list of pages
-                cpages = self.formatCategoryContents(name)
-                cpages = "\n\n===Contents:===\n\n" + cpages
-                wikitext += cpages
             self.pagecontents[name] = wikitext
         else:
             #print("Page",BASE_URL+"/"+name,"not found")
@@ -414,16 +409,34 @@ class MediaWiki:
     def formatCategoryContents(self,name):
 
         cpages = self.getCategoryContents(name)
-        result = "{|\n"
+
+        # mediawiki table - obsolete, pandoc does not support it?
+        #result = "{|\n"
+        #col = 1
+        #for p in cpages:
+        #    result += "| [["+p+"]]\n"
+        #    if col == CATEGORY_COLUMNS:
+        #        result += "|-\n"
+        #        col = 1
+        #    else:
+        #        col += 1
+        #result += "|}\n"
+
+        result = "|"
+        for i in range(CATEGORY_COLUMNS):
+            result += "     |"
+        result += "\n|"
+        for i in range(CATEGORY_COLUMNS):
+            result += " --- |"
+        result += "\n|"
         col = 1
         for p in cpages:
-            result += "| [["+p+"]]\n"
+            result += " ["+p+"]("+self.wikifolder+"/"+p.replace(":","_")+".md) |"
             if col == CATEGORY_COLUMNS:
-                result += "|-\n"
+                result += "\n|"
                 col = 1
             else:
                 col += 1
-        result += "|}\n"
         return result
 
 
@@ -466,6 +479,24 @@ class MediaWiki:
                     cats.append(tc)
         return cats
 
+
+    def getLinks(self,page):
+
+        """getLinks(page):
+        Returns the links found in a page as md links: [...](...)"""
+
+        links = []
+        pagefile = os.path.join(self.output,page.replace(" ","_").replace(":","_")+".md")
+        if os.path.exists(pagefile):
+            with open(pagefile) as f:
+                for line in f:
+                    ll = re.findall("\[.*?\]\(.*?\)",line)
+                    for l in ll:
+                        if not ".png" in l:
+                            if not ".jpg" in l:
+                                if not "http" in l:
+                                    links.append(l)
+        return links
 
     ### IMAGE OPERATIONS
 
@@ -669,13 +700,18 @@ class MediaWiki:
         wikitext = self.pagecontents[page]
         xargs = ['--atx-headers'] # pandoc arguments
         try:
-            fmt = 'markdown+hard_line_breaks'
+            fmt = 'markdown+hard_line_breaks+pipe_tables'
             result = pypandoc.convert_text(wikitext, fmt, format='mediawiki', extra_args=xargs)
         except:
             print("Error converting",page)
             return None
         if clean:
             result = self.cleanMarkdown(result,debug=clean)
+        if page.startswith("Category:"):
+            # add list of pages
+            cpages = self.formatCategoryContents(page)
+            cpages = "\n\n### Contents\n\n" + cpages
+            result += cpages
         result = self.addTitle(page,result)
         result = self.addFooter(page,result)
         return result
@@ -708,7 +744,8 @@ class MediaWiki:
 
         breadcrumb = " > "
         footer = "\n\n\n\n---\n"
-        footer += "![]("+self.icon_nav+") [documentation index](../"+self.rootpage+")"
+        footer += "![]("+self.icon_nav+") "
+        footer += "[documentation index](../"+self.rootpage+")"
         c = self.getPageCategories(page)
         w = self.getWorkbench(page)
         for cat in c:
@@ -1117,6 +1154,35 @@ class MediaWiki:
         print("Regenerated",apipage)
 
 
+    def rebuildTOC(self):
+
+        """rebuildTOC():
+        Rebuilds the Online Help TOC page"""
+
+        tocpage = "Online_Help_Toc.md"
+        fname = os.path.join(self.output,tocpage)
+        hubs = ["User hub","Workbenches","Power users hub","Developer hub","Manual Summary"]
+        hubnames = ["Users documentation","Workbenches","Power users documentation",
+                    "Developers documentation","Manual"]
+        skipped = ["Wikipedia","WikiPages","Hubs","Documentation index","Workbenches",
+                   "Here","Developer Documentation","Manual.md",tocpage,"Speeding_up"]
+        md = ""
+        for i in range(5):
+            md += "- [" + hubnames[i] + "](" + hubs[i].replace(" ","_") + ".md)\n"
+            for l in self.getLinks(hubs[i]):
+                l = "[" + l[1].upper() + l[2:]
+                l = l[:l.index("(")+1] + l[l.index("(")+1].upper() + l[l.index("(")+2:]
+                if (i == 0) and ("Workbench" in l):
+                    continue
+                if any(sk in l for sk in skipped):
+                    continue
+                if not l in md:
+                    md += "    - " + l + "\n"
+        with open(fname,"w") as tocfile:
+            tocfile.write(md)
+        print("Regenerated",tocpage)
+
+
 
 ### GENERAL FUNCTIONS (USABLE THROUGH COMMAND-LINE)
 
@@ -1183,6 +1249,15 @@ def test(page=None,clean=True):
         #w.writeMarkdown("Draft_Line",basepath=os.path.dirname(__file__)+"/orig",clean=False)
         #w.writeMarkdown("Part_Extrude",basepath=os.path.dirname(__file__)+"/orig",clean=False)
 
+def testpage(page):
+
+    """gets and rebuilds a single page (for debugging use)"""
+
+    wiki = MediaWiki()
+    wiki.getPage(page)
+    wiki.writeCache()
+    wiki.writeMarkdown(page)
+    print("Wrote",page)
 
 def writepages():
 
@@ -1240,6 +1315,17 @@ if __name__ == "__main__":
             if arg in globals():
                 if callable(globals()[arg]):
                     globals()[arg]()
+                    exit(0)
+
+    # execute function with argument
+    elif len(args) == 2:
+        arg1 = args[0]
+        arg2 = args[1]
+        if arg1.startswith("--"):
+            arg1 = arg1[2:]
+            if arg1 in globals():
+                if callable(globals()[arg1]):
+                    globals()[arg1](arg2)
                     exit(0)
 
     # print help text
