@@ -1161,9 +1161,10 @@ class MediaWiki:
 
         tocpage = "Online_Help_Toc.md"
         fname = os.path.join(self.output,tocpage)
-        hubs = ["User hub","Workbenches","Power users hub","Developer hub","Manual Summary"]
+        hubs = ["User hub","Workbenches","Power users hub","Developer hub",
+                "Manual Summary","Category_API"]
         hubnames = ["Users documentation","Workbenches","Power users documentation",
-                    "Developers documentation","Manual"]
+                    "Developers documentation","Manual","API documentation"]
         skipped = ["Wikipedia","WikiPages","Hubs","Documentation index","Workbenches",
                    "Here","Developer Documentation","Manual.md",tocpage,"Speeding_up"]
         md = ""
