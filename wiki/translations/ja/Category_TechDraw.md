@@ -1,10 +1,11 @@
 # Category:TechDraw/ja
 This category lists pages related to the [TechDraw Workbench/ja](TechDraw_Workbench/ja.md).
 
-### Contents:
+### Contents
 
-  
-  [TechDraw Workbench/ja](TechDraw_Workbench/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [TechDraw Workbench/ja](wiki/TechDraw Workbench/ja.md) |
 
 
 

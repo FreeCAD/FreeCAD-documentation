@@ -1,10 +1,11 @@
 # Category:Test Framework/ru
 This category lists pages related to the [Test Framework Workbench](Testing/ru.md).
 
-### Contents:
+### Contents
 
-  
-  [Testing/ru](Testing/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Testing/ru](wiki/Testing/ru.md) |
 
 
 

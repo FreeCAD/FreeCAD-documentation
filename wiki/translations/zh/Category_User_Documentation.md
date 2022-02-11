@@ -1,26 +1,29 @@
 # Category:User Documentation/zh
 This category contains articles about the usage of FreeCAD. It is also the central download list for the online documentation of FreeCAD.
 
-### Contents:
+### Contents
 
-    
-  [About FreeCAD/zh](About_FreeCAD/zh.md)                       [Arch Workbench/zh](Arch_Workbench/zh.md)                 [Complete Workbench/zh](Complete_Workbench/zh.md)
-  [Document structure/zh](Document_structure/zh.md)             [Draft Workbench/zh](Draft_Workbench/zh.md)               [Drawing Workbench/zh](Drawing_Workbench/zh.md)
-  [Feature list/zh](Feature_list/zh.md)                         [FEM Workbench/zh](FEM_Workbench/zh.md)                   [Getting started/zh](Getting_started/zh.md)
-  [Template:GuiCommand/zh](Template:GuiCommand/zh.md)           [Image Workbench/zh](Image_Workbench/zh.md)               [Inspection Workbench/zh](Inspection_Workbench/zh.md)
-  [Installing on Linux/zh](Installing_on_Linux/zh.md)           [Installing on Mac/zh](Installing_on_Mac/zh.md)           [Installing on Windows/zh](Installing_on_Windows/zh.md)
-  [Interface Customization/zh](Interface_Customization/zh.md)   [Main Page/zh](Main_Page/zh.md)                           [Mesh Workbench/zh](Mesh_Workbench/zh.md)
-  [Mouse navigation/zh](Mouse_navigation/zh.md)                 [Online Help Startpage/zh](Online_Help_Startpage/zh.md)   [Online Help Toc/zh](Online_Help_Toc/zh.md)
-  [OpenSCAD Workbench/zh](OpenSCAD_Workbench/zh.md)             [Part Module/zh](Part_Module/zh.md)                       [PartDesign Workbench/zh](PartDesign_Workbench/zh.md)
-  [Path ExportTemplate/zh](Path_ExportTemplate/zh.md)           [Path Inspect/zh](Path_Inspect/zh.md)                     [Path Job/zh](Path_Job/zh.md)
-  [Path SelectLoop/zh](Path_SelectLoop/zh.md)                   [Path Simulator/zh](Path_Simulator/zh.md)                 [Path ToolLibraryEdit/zh](Path_ToolLibraryEdit/zh.md)
-  [Path Workbench/zh](Path_Workbench/zh.md)                     [Plot Workbench/zh](Plot_Workbench/zh.md)                 [Points Workbench/zh](Points_Workbench/zh.md)
-  [Preferences Editor/zh](Preferences_Editor/zh.md)             [Raytracing Workbench/zh](Raytracing_Workbench/zh.md)     [Reverse Engineering Workbench/zh](Reverse_Engineering_Workbench/zh.md)
-  [Robot Workbench/zh](Robot_Workbench/zh.md)                   [Ship Workbench/zh](Ship_Workbench/zh.md)                 [Sketcher Workbench/zh](Sketcher_Workbench/zh.md)
-  [Spreadsheet Workbench/zh](Spreadsheet_Workbench/zh.md)       [Start Workbench/zh](Start_Workbench/zh.md)               [Surface Workbench/zh](Surface_Workbench/zh.md)
-  [TechDraw Workbench/zh](TechDraw_Workbench/zh.md)             [Tracker/zh](Tracker/zh.md)                               [Template:TutorialInfo/zh](Template:TutorialInfo/zh.md)
-  [Tutorials/zh](Tutorials/zh.md)                               [User hub/zh](User_hub/zh.md)                             [Web Workbench/zh](Web_Workbench/zh.md)
-  [Workbenches/zh](Workbenches/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [About FreeCAD/zh](wiki/About FreeCAD/zh.md) | [Arch Workbench/zh](wiki/Arch Workbench/zh.md) | [Complete Workbench/zh](wiki/Complete Workbench/zh.md) |
+| [Document structure/zh](wiki/Document structure/zh.md) | [Draft Workbench/zh](wiki/Draft Workbench/zh.md) | [Drawing Workbench/zh](wiki/Drawing Workbench/zh.md) |
+| [Feature list/zh](wiki/Feature list/zh.md) | [FEM Workbench/zh](wiki/FEM Workbench/zh.md) | [Getting started/zh](wiki/Getting started/zh.md) |
+| [Template:GuiCommand/zh](wiki/Template_GuiCommand/zh.md) | [Image Workbench/zh](wiki/Image Workbench/zh.md) | [Inspection Workbench/zh](wiki/Inspection Workbench/zh.md) |
+| [Installing on Linux/zh](wiki/Installing on Linux/zh.md) | [Installing on Mac/zh](wiki/Installing on Mac/zh.md) | [Installing on Windows/zh](wiki/Installing on Windows/zh.md) |
+| [Interface Customization/zh](wiki/Interface Customization/zh.md) | [Main Page/zh](wiki/Main Page/zh.md) | [Mesh Workbench/zh](wiki/Mesh Workbench/zh.md) |
+| [Mouse navigation/zh](wiki/Mouse navigation/zh.md) | [Online Help Startpage/zh](wiki/Online Help Startpage/zh.md) | [Online Help Toc/zh](wiki/Online Help Toc/zh.md) |
+| [OpenSCAD Workbench/zh](wiki/OpenSCAD Workbench/zh.md) | [Part Module/zh](wiki/Part Module/zh.md) | [PartDesign Workbench/zh](wiki/PartDesign Workbench/zh.md) |
+| [Path ExportTemplate/zh](wiki/Path ExportTemplate/zh.md) | [Path Inspect/zh](wiki/Path Inspect/zh.md) | [Path Job/zh](wiki/Path Job/zh.md) |
+| [Path SelectLoop/zh](wiki/Path SelectLoop/zh.md) | [Path Simulator/zh](wiki/Path Simulator/zh.md) | [Path ToolLibraryEdit/zh](wiki/Path ToolLibraryEdit/zh.md) |
+| [Path Workbench/zh](wiki/Path Workbench/zh.md) | [Plot Workbench/zh](wiki/Plot Workbench/zh.md) | [Points Workbench/zh](wiki/Points Workbench/zh.md) |
+| [Preferences Editor/zh](wiki/Preferences Editor/zh.md) | [Raytracing Workbench/zh](wiki/Raytracing Workbench/zh.md) | [Reverse Engineering Workbench/zh](wiki/Reverse Engineering Workbench/zh.md) |
+| [Robot Workbench/zh](wiki/Robot Workbench/zh.md) | [Ship Workbench/zh](wiki/Ship Workbench/zh.md) | [Sketcher Workbench/zh](wiki/Sketcher Workbench/zh.md) |
+| [Spreadsheet Workbench/zh](wiki/Spreadsheet Workbench/zh.md) | [Start Workbench/zh](wiki/Start Workbench/zh.md) | [Surface Workbench/zh](wiki/Surface Workbench/zh.md) |
+| [TechDraw Workbench/zh](wiki/TechDraw Workbench/zh.md) | [Tracker/zh](wiki/Tracker/zh.md) | [Template:TutorialInfo/zh](wiki/Template_TutorialInfo/zh.md) |
+| [Tutorials/zh](wiki/Tutorials/zh.md) | [User hub/zh](wiki/User hub/zh.md) | [Web Workbench/zh](wiki/Web Workbench/zh.md) |
+| [Workbenches/zh](wiki/Workbenches/zh.md) | [Category:Arch/zh](wiki/Category_Arch/zh.md) | [Category:BIM/zh](wiki/Category_BIM/zh.md) |
+| [Category:Draft/zh](wiki/Category_Draft/zh.md) | [Category:Inspection/zh](wiki/Category_Inspection/zh.md) | [Category:Workbenches/zh](wiki/Category_Workbenches/zh.md) |
+|
 
 
 

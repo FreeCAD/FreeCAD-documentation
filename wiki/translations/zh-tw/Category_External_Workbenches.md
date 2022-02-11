@@ -1,10 +1,11 @@
 # Category:External Workbenches/zh-tw
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
-### Contents:
+### Contents
 
-   
-  [Plot Workbench/zh-tw](Plot_Workbench/zh-tw.md)   [Ship Workbench/zh-tw](Ship_Workbench/zh-tw.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/zh-tw](wiki/Plot Workbench/zh-tw.md) | [Ship Workbench/zh-tw](wiki/Ship Workbench/zh-tw.md) |
 
 
 

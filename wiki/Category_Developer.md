@@ -1,19 +1,20 @@
 # Category:Developer
 This category contains articles that are relevant for developers.
 
-### Contents:
+### Contents
 
-    
-  [0.20 Development Cycle](0.20_Development_Cycle.md)   [Changelog](Changelog.md)                                                         [Compile on Docker](Compile_on_Docker.md)
-  [Compile on Linux](Compile_on_Linux.md)               [Compile on MacOS](Compile_on_MacOS.md)                                           [Compile on MinGW](Compile_on_MinGW.md)
-  [Compile on Windows](Compile_on_Windows.md)           [Compiling](Compiling.md)                                                         [Compiling (Speeding up)](Compiling_(Speeding_up).md)
-  [Conda](Conda.md)                                     [Contributors](Contributors.md)                                                   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md)
-  [Doxygen](Doxygen.md)                                 [FEM CalculiX](FEM_CalculiX.md)                                                   [FEM Element Types](FEM_Element_Types.md)
-  [FEM Mesh CalculiX](FEM_Mesh_CalculiX.md)             [File Format FCStd](File_Format_FCStd.md)                                         [ImageConv](ImageConv.md)
-  [InputField](InputField.md)                           [IPython notebook integration](IPython_notebook_integration.md)                   [Land Survey Workbench Blueprint](Land_Survey_Workbench_Blueprint.md)
-  [LGTM](LGTM.md)                                       [Material](Material.md)                                                           [Organization chart](Organization_chart.md)
-  [Svg Namespace](Svg_Namespace.md)                     [Valgrind](Valgrind.md)                                                           [WikiRobots](WikiRobots.md)
-  [Wished tools](Wished_tools.md)                       [Wrapping a Cplusplus class in Python](Wrapping_a_Cplusplus_class_in_Python.md)
+|     |     |     |
+| --- | --- | --- |
+| [0.20 Development Cycle](wiki/0.20 Development Cycle.md) | [Changelog](wiki/Changelog.md) | [Compile on Docker](wiki/Compile on Docker.md) |
+| [Compile on Linux](wiki/Compile on Linux.md) | [Compile on MacOS](wiki/Compile on MacOS.md) | [Compile on MinGW](wiki/Compile on MinGW.md) |
+| [Compile on Windows](wiki/Compile on Windows.md) | [Compiling](wiki/Compiling.md) | [Compiling (Speeding up)](wiki/Compiling (Speeding up).md) |
+| [Conda](wiki/Conda.md) | [Contributors](wiki/Contributors.md) | [Developing FreeCAD with GitKraken](wiki/Developing FreeCAD with GitKraken.md) |
+| [Doxygen](wiki/Doxygen.md) | [FEM CalculiX](wiki/FEM CalculiX.md) | [FEM Element Types](wiki/FEM Element Types.md) |
+| [FEM Mesh CalculiX](wiki/FEM Mesh CalculiX.md) | [File Format FCStd](wiki/File Format FCStd.md) | [ImageConv](wiki/ImageConv.md) |
+| [InputField](wiki/InputField.md) | [IPython notebook integration](wiki/IPython notebook integration.md) | [Land Survey Workbench Blueprint](wiki/Land Survey Workbench Blueprint.md) |
+| [LGTM](wiki/LGTM.md) | [Material](wiki/Material.md) | [Organization chart](wiki/Organization chart.md) |
+| [Svg Namespace](wiki/Svg Namespace.md) | [Valgrind](wiki/Valgrind.md) | [WikiRobots](wiki/WikiRobots.md) |
+| [Wished tools](wiki/Wished tools.md) | [Wrapping a Cplusplus class in Python](wiki/Wrapping a Cplusplus class in Python.md) |
 
 
 

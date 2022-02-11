@@ -1,10 +1,11 @@
 # Category:External Workbenches/id
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
-### Contents:
+### Contents
 
-   
-  [Plot Workbench/id](Plot_Workbench/id.md)   [Ship Workbench/id](Ship_Workbench/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/id](wiki/Plot Workbench/id.md) | [Ship Workbench/id](wiki/Ship Workbench/id.md) |
 
 
 

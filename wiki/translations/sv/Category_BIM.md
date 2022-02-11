@@ -1,11 +1,11 @@
 # Category:BIM/sv
 This category is for pages related to building information management (BIM).
 
-### Contents:
+### Contents
 
-   --
-  [Arch IfcExplorer/sv](Arch_IfcExplorer/sv.md)   
-   --
+|     |     |     |
+| --- | --- | --- |
+| [Arch IfcExplorer/sv](wiki/Arch IfcExplorer/sv.md) | [Category:Arch/sv](wiki/Category_Arch/sv.md) |
 
 
 

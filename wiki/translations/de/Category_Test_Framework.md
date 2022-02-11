@@ -1,10 +1,11 @@
 # Category:Test Framework/de
 This category lists pages related to the [Test Framework Workbench](Testing/de.md).
 
-### Contents:
+### Contents
 
-  
-  [Testing/de](Testing/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Testing/de](wiki/Testing/de.md) |
 
 
 

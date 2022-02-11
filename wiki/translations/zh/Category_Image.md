@@ -1,10 +1,11 @@
 # Category:Image/zh
 This category lists pages related to the [Image Workbench/zh](Image_Workbench/zh.md).
 
-### Contents:
+### Contents
 
-  
-  [Image Workbench/zh](Image_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [Image Workbench/zh](wiki/Image Workbench/zh.md) |
 
 
 

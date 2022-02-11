@@ -1,12 +1,12 @@
 # Category:Addons/zh
 This page lists external addon workbenches that have a page in this wiki. Addons are modules or workbenches contributed by the community and are not part of standard FreeCAD.
 
-### Contents:
+### Contents
 
-    --
-  [Plot Workbench/zh](Plot_Workbench/zh.md)   [Ship Workbench/zh](Ship_Workbench/zh.md)   
-                                                                                                          
-    --
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/zh](wiki/Plot Workbench/zh.md) | [Ship Workbench/zh](wiki/Ship Workbench/zh.md) | [Category:External Workbenches/zh](wiki/Category_External Workbenches/zh.md) |
+|
 
 
 

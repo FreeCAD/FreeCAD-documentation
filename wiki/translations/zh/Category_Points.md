@@ -1,10 +1,11 @@
 # Category:Points/zh
 This category lists pages related to the [Points Workbench/zh](Points_Workbench/zh.md).
 
-### Contents:
+### Contents
 
-  
-  [Points Workbench/zh](Points_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [Points Workbench/zh](wiki/Points Workbench/zh.md) |
 
 
 

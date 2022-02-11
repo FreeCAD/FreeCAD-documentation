@@ -1,10 +1,11 @@
 # Category:Robot/uk
 This category lists pages related to the [Robot Workbench/uk](Robot_Workbench/uk.md).
 
-### Contents:
+### Contents
 
-  
-  [Robot Workbench/uk](Robot_Workbench/uk.md)
+|     |     |     |
+| --- | --- | --- |
+| [Robot Workbench/uk](wiki/Robot Workbench/uk.md) |
 
 
 

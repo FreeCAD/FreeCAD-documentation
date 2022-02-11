@@ -4,8 +4,8 @@
 |Icon=Wirefilter.svg
 |Description=Filter wires from sketches, 2D offsets, scales, rearranges wire order
 |Author=TheMarkster
-|Version=0.2021.12.13
-|Date=2021-12-13
+|Version=0.2022.02.09
+|Date=2022-02-09
 |FCVersion=python 3 versions
 |Download=[https://wiki.freecadweb.org/File:Wirefilter.svg ToolBar Icon]
 |Links=[https://github.com/mwganson/wirefilter Full Documentation on Github]

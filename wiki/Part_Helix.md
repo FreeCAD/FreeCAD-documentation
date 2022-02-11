@@ -63,6 +63,14 @@ Once you have created the helix you have the possibility to edit its parameters.
 |                                                          |                                                                               |
 +++
 
+## Notes
+
+## Properties 
+
+## Limitations
+
+## Scripting
+
 
 
 ---

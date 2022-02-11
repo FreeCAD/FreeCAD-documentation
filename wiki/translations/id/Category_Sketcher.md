@@ -1,10 +1,11 @@
 # Category:Sketcher/id
 This category lists pages related to the [Sketcher Workbench/id](Sketcher_Workbench/id.md).
 
-### Contents:
+### Contents
 
-  
-  [Sketcher Workbench/id](Sketcher_Workbench/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Sketcher Workbench/id](wiki/Sketcher Workbench/id.md) |
 
 
 

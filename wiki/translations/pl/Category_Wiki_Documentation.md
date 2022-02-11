@@ -1,10 +1,11 @@
 # Category:Wiki Documentation/pl
 Ta kategoria zawiera listę stron, które odnoszą się do efektywnego korzystania z wiki do dokumentowania FreeCAD.
 
-### Contents:
+### Contents
 
-  
-  [WikiPages/pl](WikiPages/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [WikiPages/pl](wiki/WikiPages/pl.md) |
 
 
 

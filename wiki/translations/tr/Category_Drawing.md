@@ -1,10 +1,11 @@
 # Category:Drawing/tr
 This category lists pages related to the [Drawing Workbench/tr](Drawing_Workbench/tr.md).
 
-### Contents:
+### Contents
 
-  
-  [Drawing Workbench/tr](Drawing_Workbench/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Drawing Workbench/tr](wiki/Drawing Workbench/tr.md) |
 
 
 

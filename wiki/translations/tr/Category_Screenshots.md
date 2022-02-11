@@ -1,10 +1,11 @@
 # Category:Screenshots/tr
 This category lists pages with screenshots.
 
-### Contents:
+### Contents
 
-  
-  [Screenshots/tr](Screenshots/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Screenshots/tr](wiki/Screenshots/tr.md) |
 
 
 

@@ -1,10 +1,11 @@
 # Category:Documentation/zh-hans
 This category groups all of the FreeCAD documentation
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:User Documentation/zh-hans](wiki/Category_User Documentation/zh-hans.md) |
 
 
 

@@ -13,11 +13,11 @@
 ## Description
 
 
-**[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake/fr.md)**
+**[<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)**
 
 crée une classe [App Link](App_Link/fr.md) (`App::Link`), un type d\'objet faisant référence ou lié à un autre objet, dans le même document ou dans un autre document. Il est spécialement conçu pour dupliquer efficacement un seul objet plusieurs fois, ce qui permet de créer des [assemblages](assembly/fr.md) complexes à partir de sous-assemblages plus petits et de plusieurs composants réutilisables tels que des vis, des écrous et des éléments de fixation similaires.
 
-L\'objet [App Link](App_Link/fr.md) a été nouvellement introduit dans la v0.19. Auparavant, une simple duplication d\'objets pouvait être réalisée avec **[<img src=images/Draft_Clone.svg style="width:16px"> [Draft Clone](Draft_Clone/fr.md)**, mais c\'est une solution moins efficace en raison de son implémentation qui crée essentiellement une copie de la [Forme](Part_TopoShape/fr.md) interne de l\'objet source. D\'un autre côté, un lien fait directement référence à la forme d\'origine, donc plus efficace en mémoire.
+L\'objet [App Link](App_Link/fr.md) a été nouvellement introduit dans la v0.19. Auparavant, une simple duplication d\'objets pouvait être réalisée avec **[<img src=images/Draft_Clone.svg style="width:16px"> [Draft Clone](Draft_Clone/fr.md)**, mais c\'est une solution moins efficace en raison de son implémentation qui crée essentiellement une copie de la [forme](Part_TopoShape/fr.md) interne de l\'objet source. D\'un autre côté, un lien fait directement référence à la forme d\'origine, donc plus efficace en mémoire.
 
 En lui-même, l\'objet [Link](App_Link/fr.md) peut se comporter comme un tableau dupliquant son objet de base plusieurs fois. Cela peut être fait en définissant sa propriété {{PropertyData/fr|Element Count}} sur {{Value|1}} ou plus. Cet objet \"[Link Array](#Link_Array/fr.md)\" peut également être créé avec les différents outils de tableau du <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md), par exemple **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft Réseau orthogonal](Draft_OrthoArray/fr.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft Réseau polaire](Draft_PolarArray/fr.md)**, et **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft Réseau circulaire](Draft_CircularArray/fr.md)**.
 
@@ -48,7 +48,7 @@ Sans sélection :
 
 1.  Commencez par un document contenant au moins un objet qui sera la source du lien.
 2.  Ouvrez un nouveau document ou un document existant. Pour une manipulation plus facile, utilisez **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std Arborescence plusieurs documents](Std_TreeMultiDocument/fr.md)** pour afficher les deux documents dans la [Vue en arborescence](Tree_view/fr.md). Avant de continuer, [sauvegarder](Std_Save/fr.md) les deux documents. Le lien ne pourra pas trouver sa source et sa cible à moins que les deux documents ne soient enregistrés sur le disque.
-3.  Dans le premier document, sélectionnez l\'objet que vous souhaitez lier, puis changez d\'onglet dans [Zone de vue principale](main_view_area/fr.md) pour passer au deuxième document.
+3.  Dans le premier document, sélectionnez l\'objet que vous souhaitez lier, puis changez d\'onglet dans la [Zone de vue principale](main_view_area/fr.md) pour passer au deuxième document.
 4.  Appuyez sur **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)**. L\'objet produit a la même icône que l\'objet d\'origine mais a une flèche superposée indique qu\'il s\'agit d\'un lien provenant d\'un document externe.
 
 

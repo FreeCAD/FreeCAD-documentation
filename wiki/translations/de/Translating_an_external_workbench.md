@@ -163,8 +163,6 @@ Verwende in diesem speziellen Fall nicht Deine eigenen {`"context"`}. Behalte {`
 
 :   Don\'t use your own `"context"` in this specific case. Keep `"App::Property"`.
 
--   Do not translate the text of document transactions made with `Document.openTransaction()`
-
 ### In InitGui.py 
 
 

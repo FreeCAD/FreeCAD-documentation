@@ -4,9 +4,9 @@
 |Icon=Workbench_PartDesign.svg
 |Description=Encapsuler des solides non-PartDesign pour travailler dans PartDesign
 |Author=TheMarkster
-|Version=0.2021.11.22
-|Date=2021-11-22
-|FCVersion=Les versions en Python 3
+|Version=0.2022.02.01
+|Date=2022-02-01
+|FCVersion=Versions en Python 3
 |Download=[https://wiki.freecadweb.org/File:Workbench_PartDesign.svg Icône de la barre d'outils]
 |Links=[https://github.com/mwganson/pdwrapper Documentation complète sur Github]
 }}
@@ -23,7 +23,7 @@ Les exemples et la documentation complète se trouvent sur github : [PDWrapper](
 ## Légende
 
 
-{{Codeextralink|https://gist.github.com/mwganson/4106e84eeaaf4d6e056cd286cbc39170/raw/ab6c50ac8624854c7eacee6db8e9411a87d86418/Pdwrapper.FCMacro|Pdwrapper.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/4106e84eeaaf4d6e056cd286cbc39170/raw/43a51ea22174953fb4e9083337fa48a2c92eabbb/Pdwrapper.FCMacro|Pdwrapper.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Workbench_PartDesign.svg )
 

@@ -9,6 +9,9 @@
 
 # Std ViewScreenShot/ru
 
+
+</div>
+
 ## Описание
 
 The **Std ViewScreenShot** command opens a dialog box to create an image file, a screenshot, from the active [3D view](3D_view.md).

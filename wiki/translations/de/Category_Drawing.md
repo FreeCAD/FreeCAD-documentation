@@ -1,15 +1,16 @@
 # Category:Drawing/de
 Diese Kategorie zeigt eine Liste der Seiten, die zum [Drawing-Arbeitsbereich](Drawing_Workbench/de.md) gehören.
 
-### Contents:
+### Contents
 
-    
-  [ANSI templates/de](ANSI_templates/de.md)                   [Arch templates/de](Arch_templates/de.md)               [Drawing Annotation/de](Drawing_Annotation/de.md)
-  [Drawing Clip/de](Drawing_Clip/de.md)                       [Drawing Landscape A3/de](Drawing_Landscape_A3/de.md)   [Drawing Open SVG/de](Drawing_Open_SVG/de.md)
-  [Drawing Openbrowser/de](Drawing_Openbrowser/de.md)         [Drawing Orthoviews/de](Drawing_Orthoviews/de.md)       [Drawing ProjectShape/de](Drawing_ProjectShape/de.md)
-  [Drawing Template HowTo/de](Drawing_Template_HowTo/de.md)   [Drawing templates/de](Drawing_templates/de.md)         [Template:Drawing Tools navi/de](Template:Drawing_Tools_navi/de.md)
-  [Drawing tutorial/de](Drawing_tutorial/de.md)               [Drawing View/de](Drawing_View/de.md)                   [Drawing Workbench/de](Drawing_Workbench/de.md)
-  [Misc templates/de](Misc_templates/de.md)                   [Svg Namespace/de](Svg_Namespace/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [ANSI templates/de](wiki/ANSI templates/de.md) | [Arch templates/de](wiki/Arch templates/de.md) | [Drawing Annotation/de](wiki/Drawing Annotation/de.md) |
+| [Drawing Clip/de](wiki/Drawing Clip/de.md) | [Drawing Landscape A3/de](wiki/Drawing Landscape A3/de.md) | [Drawing Open SVG/de](wiki/Drawing Open SVG/de.md) |
+| [Drawing Openbrowser/de](wiki/Drawing Openbrowser/de.md) | [Drawing Orthoviews/de](wiki/Drawing Orthoviews/de.md) | [Drawing ProjectShape/de](wiki/Drawing ProjectShape/de.md) |
+| [Drawing Template HowTo/de](wiki/Drawing Template HowTo/de.md) | [Drawing templates/de](wiki/Drawing templates/de.md) | [Template:Drawing Tools navi/de](wiki/Template_Drawing Tools navi/de.md) |
+| [Drawing tutorial/de](wiki/Drawing tutorial/de.md) | [Drawing View/de](wiki/Drawing View/de.md) | [Drawing Workbench/de](wiki/Drawing Workbench/de.md) |
+| [Misc templates/de](wiki/Misc templates/de.md) | [Svg Namespace/de](wiki/Svg Namespace/de.md) |
 
 
 

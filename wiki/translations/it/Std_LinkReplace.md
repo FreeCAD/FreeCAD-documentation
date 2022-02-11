@@ -23,9 +23,15 @@ Questa operazione può essere eseguita per sostituire con un link gli oggetti ni
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Assicurarsi di avere un oggetto all\'interno di un altro. Ad esempio, si consideri che è stata realizzata una **[<img src=images/Part_Fuse.svg style="width:16px"> [Unione](Part_Fuse/it.md)** con due oggetti creati in precedenza, una **[<img src=images/Part_Sphere.svg style="width:16px"> [sfera](Part_Sphere/it.md)** e un **[<img src=images/Part_Cylinder.svg style="width:16px"> [cilindro](Part_Cylinder/it.md)**.
 2.  Selezionare la <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [sfera](Part_Sphere/it.md) nella [vista ad albero](tree_view/it.md).
 3.  Premere **[<img src=images/Std_LinkReplace.svg style="width:16px"> [Sostituisci con il link](Std_LinkReplace/it.md)**.
+
+
+</div>
 
 L\'originale <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Sfera](Part_Sphere/it.md) deve ora essere al di fuori del **[<img src=images/Part_Fuse.svg style="width:16px"> [Unione](Part_Fuse/it.md)**, e all\'interno ci deve essere invece un Link (una piccola freccia in sovraimpressione viene visualizzata nell\'icona).
 

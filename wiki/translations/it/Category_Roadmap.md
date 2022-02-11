@@ -3,17 +3,19 @@
 
 Questa categoria raccoglie tutti gli articoli che documentano ciò che è previsto nel Piano di sviluppo di FreeCAD.
 
-### Contents:
+### Contents
 
-    
-  [Arch Concept/it](Arch_Concept/it.md)                                             [Artwork project/it](Artwork_project/it.md)                         [Assembly project/it](Assembly_project/it.md)
-  [CAM project/it](CAM_project/it.md)                                               [Development roadmap/it](Development_roadmap/it.md)                 [FEM project/it](FEM_project/it.md)
-  [FreeCAD development model project/it](FreeCAD_development_model_project/it.md)   [HiDPI support/it](HiDPI_support/it.md)                             [Land Survey Workbench Blueprint/it](Land_Survey_Workbench_Blueprint/it.md)
-  [Material data model/it](Material_data_model/it.md)                               [Material/it](Material/it.md)                                       [Naming project/it](Naming_project/it.md)
-  [PartDesign project/it](PartDesign_project/it.md)                                 [Project template/it](Project_template/it.md)                       [Quality project/it](Quality_project/it.md)
-  [Raytracing project/it](Raytracing_project/it.md)                                 [Resource framework project/it](Resource_framework_project/it.md)   [Robot project/it](Robot_project/it.md)
-  [Sketcher project/it](Sketcher_project/it.md)                                     [STEP project/it](STEP_project/it.md)                               [Tolerancing/it](Tolerancing/it.md)
-  [Units project/it](Units_project/it.md)                                           [UTF Project/it](UTF_Project/it.md)                                 [Wished tools/it](Wished_tools/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch Concept/it](wiki/Arch Concept/it.md) | [Artwork project/it](wiki/Artwork project/it.md) | [Assembly project/it](wiki/Assembly project/it.md) |
+| [CAM project/it](wiki/CAM project/it.md) | [Development roadmap/it](wiki/Development roadmap/it.md) | [FEM project/it](wiki/FEM project/it.md) |
+| [FreeCAD development model project/it](wiki/FreeCAD development model project/it.md) | [HiDPI support/it](wiki/HiDPI support/it.md) | [Land Survey Workbench Blueprint/it](wiki/Land Survey Workbench Blueprint/it.md) |
+| [Material data model/it](wiki/Material data model/it.md) | [Material/it](wiki/Material/it.md) | [Naming project/it](wiki/Naming project/it.md) |
+| [PartDesign project/it](wiki/PartDesign project/it.md) | [Project template/it](wiki/Project template/it.md) | [Quality project/it](wiki/Quality project/it.md) |
+| [Raytracing project/it](wiki/Raytracing project/it.md) | [Resource framework project/it](wiki/Resource framework project/it.md) | [Robot project/it](wiki/Robot project/it.md) |
+| [Sketcher project/it](wiki/Sketcher project/it.md) | [STEP project/it](wiki/STEP project/it.md) | [Tolerancing/it](wiki/Tolerancing/it.md) |
+| [Units project/it](wiki/Units project/it.md) | [UTF Project/it](wiki/UTF Project/it.md) | [Wished tools/it](wiki/Wished tools/it.md) |
+|
 
 
 

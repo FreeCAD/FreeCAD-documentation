@@ -1,10 +1,11 @@
 # Category:Screenshots/fr
 Cette catégorie répertorie les pages avec des captures d\'écran.
 
-### Contents:
+### Contents
 
-  
-  [Screenshots/fr](Screenshots/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Screenshots/fr](wiki/Screenshots/fr.md) |
 
 
 

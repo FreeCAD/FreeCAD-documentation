@@ -1,10 +1,11 @@
 # Category:Drawing/ja
 This category lists pages related to the [Drawing Workbench/ja](Drawing_Workbench/ja.md).
 
-### Contents:
+### Contents
 
-  
-  [Drawing Workbench/ja](Drawing_Workbench/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [Drawing Workbench/ja](wiki/Drawing Workbench/ja.md) |
 
 
 

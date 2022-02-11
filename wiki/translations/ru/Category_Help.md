@@ -1,10 +1,11 @@
 # Category:Help/ru
 This category lists pages that contain helpfull information on MediaWiki and editing.
 
-### Contents:
+### Contents
 
-  
-  [Help/ru](Help/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Help/ru](wiki/Help/ru.md) |
 
 
 

@@ -3,11 +3,11 @@ This category contains all the Templates
 
 See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
-### Contents:
+### Contents
 
-  -- --
-     
-  -- --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Template:Navigation/zh-cn](wiki/Category_Template_Navigation/zh-cn.md) | [Category:Template:Text Format/zh-cn](wiki/Category_Template_Text Format/zh-cn.md) |
 
 
 

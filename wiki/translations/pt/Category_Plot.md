@@ -1,10 +1,11 @@
 # Category:Plot/pt
 This category lists pages related to the [Plot Workbench/pt](Plot_Workbench/pt.md).
 
-### Contents:
+### Contents
 
-  
-  [Plot Workbench/pt](Plot_Workbench/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/pt](wiki/Plot Workbench/pt.md) |
 
 
 

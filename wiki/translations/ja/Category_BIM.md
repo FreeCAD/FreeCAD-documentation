@@ -1,10 +1,11 @@
 # Category:BIM/ja
 This category is for pages related to building information management (BIM).
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Arch/ja](wiki/Category_Arch/ja.md) |
 
 
 

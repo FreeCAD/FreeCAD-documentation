@@ -36,6 +36,7 @@ Cet outil crée des chanfreins sur les arêtes sélectionnées d\'un objet. Une 
 -   Si vous souhaitez supprimer des arêtes ou des faces:
     -   Sélectionnez l\'arête/la face dans la liste de la boîte de dialogue et appuyez sur la touche **Suppr**. *Remarque* : puisqu\'il doit y avoir au moins une arête pour la fonction, la dernière arête ou face restante dans la liste ne peut pas être supprimée.
     -   ou cliquez sur le bouton **Supprimer**. Toutes les arêtes et faces sélectionnées précédemment sont surlignées en violet. Sélectionnez l\'arête ou la face à supprimer.
+    -   Assurez-vous que la case **Utiliser tous les bords** n\'est pas cochée, sinon certains widgets de la boîte de dialogue seront désactivés. {{Version/fr|0.20}}
 -   Cliquez sur **OK** pour valider.
 -   Pour une chaîne d\'arêtes tangentes les unes aux autres, une seule arête peut être sélectionnée ; le chanfrein se propage le long de la chaîne.
 -   Pour modifier le chanfrein après la validation de la fonction, double-cliquez sur l\'étiquette du chanfrein dans l\'arborescence du projet, ou faites un clic droit dessus et sélectionnez **Modifier le chanfrein**.
@@ -43,6 +44,10 @@ Cet outil crée des chanfreins sur les arêtes sélectionnées d\'un objet. Une 
 ## Remarques
 
 -   Le PartDesign Chanfrein ne doit pas être confondu avec le [Part Chanfrein](Part_Chamfer/fr.md). À moins que vous ne sachiez ce que vous faites, [Part Chanfrein](Part_Chamfer/fr.md) ne doit pas être utilisé sur un corps PartDesign. Voir [Part et PartDesign](Part_and_PartDesign/fr.md).
+
+## Problèmes connus 
+
+Voir [PartDesign Congé](PartDesign_Fillet/fr#Probl.C3.A8mes_connus.md).
 
 
 

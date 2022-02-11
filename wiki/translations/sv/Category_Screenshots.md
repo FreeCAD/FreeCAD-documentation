@@ -1,10 +1,11 @@
 # Category:Screenshots/sv
 This category lists pages with screenshots.
 
-### Contents:
+### Contents
 
-  
-  [Screenshots/sv](Screenshots/sv.md)
+|     |     |     |
+| --- | --- | --- |
+| [Screenshots/sv](wiki/Screenshots/sv.md) |
 
 
 

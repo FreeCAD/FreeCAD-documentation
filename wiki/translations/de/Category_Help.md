@@ -1,10 +1,11 @@
 # Category:Help/de
 This category lists pages that contain helpfull information on MediaWiki and editing.
 
-### Contents:
+### Contents
 
-  
-  [Help/de](Help/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Help/de](wiki/Help/de.md) |
 
 
 

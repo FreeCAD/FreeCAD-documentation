@@ -3,10 +3,11 @@ This category contains all templates.
 
 See also [UncategorizedTemplates](Special:UncategorizedTemplates/hu.md).
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Template:Navigation/hu](wiki/Category_Template_Navigation/hu.md) |
 
 
 

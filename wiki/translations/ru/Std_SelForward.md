@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std SelForward
-   MenuLocation:''None''
+   MenuLocation:
    Workbenches:All
    Version:0.19
    SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelBack](Std_SelBack.md)
@@ -16,7 +16,7 @@ The **Std SelForward** command restores the next recorded [Tree view](Tree_view.
 ## Применение
 
 1.  There has to be a next Tree view selection.
-2.  Press the **<img src="images/Std_SelForward.svg" width=16px> [Std SelForward](Std_SelForward.md)** button.
+2.  Press the **<img src="images/Std_SelForward.svg" width=16px> [Forward](Std_SelForward.md)** button.
 3.  The next selection is restored.
 
 ## Примечания

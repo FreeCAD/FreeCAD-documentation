@@ -1,10 +1,11 @@
 # Category:Help/fr
 Category:Help/fr
 
-### Contents:
+### Contents
 
-   
-  [Help:Editing/fr](Help:Editing/fr.md)   [Help/fr](Help/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Help:Editing/fr](wiki/Help_Editing/fr.md) | [Help/fr](wiki/Help/fr.md) |
 
 
 

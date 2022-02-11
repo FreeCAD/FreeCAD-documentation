@@ -1,4 +1,7 @@
-# <img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:64px;"> SheetMetal Workbench/ru
+# SheetMetal Workbench/ru
+}
+
+<img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
 
 {{TOCright}}

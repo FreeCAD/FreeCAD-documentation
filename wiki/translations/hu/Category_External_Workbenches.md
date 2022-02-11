@@ -1,10 +1,11 @@
 # Category:External Workbenches/hu
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
-### Contents:
+### Contents
 
-   
-  [Plot Workbench/hu](Plot_Workbench/hu.md)   [Ship Workbench/hu](Ship_Workbench/hu.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/hu](wiki/Plot Workbench/hu.md) | [Ship Workbench/hu](wiki/Ship Workbench/hu.md) |
 
 
 

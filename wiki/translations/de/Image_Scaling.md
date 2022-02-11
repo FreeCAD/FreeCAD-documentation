@@ -1,50 +1,29 @@
 ---
 - GuiCommand:/de
    Name:Image Scaling
-   Name/de:Bild Skalierung
-   MenuLocation:None
-   Workbenches:[Bild](Image_Workbench/de.md)
+   Name/de:Image BildebeneSkalieren
+   MenuLocation:
+   Workbenches:[Image (Bild)](Image_Workbench/de.md)
    Version:0.18
-   SeeAlso:[Bild Öffnen](Image_Open/de.md), [Bild Ebene](Image_CreateImagePlane/de.md)
+   SeeAlso:[Image Öffnen](Image_Open/de.md), [Image Bildebene erstellen](Image_CreateImagePlane/de.md)
 ---
 
 # Image Scaling/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das [Bild Skalierung](Image_Scaling/de.md)-Werkzeug skaliert ein Bild, das mit dem Werkzeug [Bildebene](Image_CreateImagePlane/de.md) importiert wurde.
-
-
-</div>
+Das Werkzeug [Bildebene skalieren](Image_Scaling/de.md) skaliert ein Bild, das mit dem Werkzeug [Bildebene erstellen](Image_CreateImagePlane/de.md) importiert wurde.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **<img src="images/Image_Scaling.svg" width=16px> [Skalierung](Image_Scaling/de.md)**-Taste.
-2.  Klicke auf einen ersten Punkt in der 3D-Ansicht.
-3.  Klicke auf einen zweiten Punkt in der 3D-Ansicht.
-4.  Wähle eine vorhandene Bildebene aus dem Modellbaum, die mit dem **<img src="images/Image_CreateImagePlane.svg" width=16px> [Bildebene](Image_CreateImagePlane/de.md)**-Werkzeug erstellt wurde.
-5.  Füge einen Abstand in Millimetern hinzu und drücke **OK**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Die Schaltfläche **<img src="images/Image_Scaling.svg" width=16px> [Bildebene skalieren](Image_Scaling/de.md)** drücken.
+2.  Einen ersten Punkt in der 3D-Ansicht anklicken.
+3.  Einen zweiten Punkt in der 3D-Ansicht anklicken.
+4.  Eine vorhandene Bildebene aus dem Modellbaum auswählen, die mit dem Werkzeug **<img src="images/Image_CreateImagePlane.svg" width=16px> [Bildebene erstellen](Image_CreateImagePlane/de.md)** hinzugefügt wurde.
+5.  Einen Abstand in mm hinzufügen und **OK** drücken.
 
 
 
-
-
-</div>
 
 
 {{Image Tools navi

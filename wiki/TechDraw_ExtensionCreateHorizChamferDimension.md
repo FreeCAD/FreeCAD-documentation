@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionCreateHorizChamferDimension
-   MenuLocation:TechDraw → Extensions: Dimensions → Create horizontal chamfer dimension
+   MenuLocation:TechDraw → Extensions: Dimensions → Create Horizontal Chamfer Dimension
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
@@ -12,17 +12,17 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:24px;"> **TechDraw ExtensionCreateHorizChamferDimension** tool creates a horizontal chamfer dimension.
+The <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:24px;"> **TechDraw ExtensionCreateHorizChamferDimension** tool creates a horizontal size and angle dimension for a chamfer.
 
  <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimensionExample.png  style="width:450px;">  
 *On the right the created dimension*
 
 ## Usage
 
-1.  Select two vertices in any order.
+1.  Select two vertexes.
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ExtensionCreateHorizChamferDimension.svg" width=16px> [TechDraw ExtensionCreateHorizChamferDimension](TechDraw_ExtensionCreateHorizChamferDimension.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateHorizChamferDimension.svg" width=16px> Create horizontal chamfer dimension** option from the menu.
+    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateHorizChamferDimension.svg" width=16px> Create Horizontal Chamfer Dimension** option from the menu.
 3.  A chamfer dimension is created.
 
 

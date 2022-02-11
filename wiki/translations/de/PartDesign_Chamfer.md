@@ -49,6 +49,10 @@ Dieses Werkzeug erzeugt Fasen an den ausgewählten Kanten eines Objekts. Im Proj
 
 </div>
 
+## Known issues 
+
+See [PartDesign Fillet](PartDesign_Fillet#Known_issues.md).
+
 
 
 

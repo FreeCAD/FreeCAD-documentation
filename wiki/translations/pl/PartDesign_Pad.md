@@ -9,6 +9,9 @@
 
 # PartDesign Pad/pl
 
+
+</div>
+
 ## Opis
 
 Narzędzie **Wyciągnij** umożliwia wyciągnięcie szkicu lub powierzchni bryły wzdłuż prostej ścieżki.
@@ -38,10 +41,6 @@ Opcja **Typ** pozwala na wybranie pięciu różnych wariantów wyciągnięcia:
 
 Podaj długość wyciągnięcia. Domyślnie, kształt wyciągany jest poza bryłę, ale może to zostać zmienione wybierając opcje **Odwrócony**. Wytłoczenia występują [normalnie](http://en.wikipedia.org/wiki/Surface_normal) do płaszczyzny szkicu definiującego. Można to zmienić określając inny **Kierunek**\'. Za pomocą opcji **Symetryczna do płaszczyzny** wyciągnięcie zostanie przemieszczone tak, aby płaszczyzna szkicu znajdowała się pośrodku zadanej długości. Wymiary poprzedzone znakiem minus nie są akceptowalne. Zamiast tego należy użyć opcji \"Odwrócony\".
 
-#### Dwa wymiary 
-
-Pozwala na podanie drugiej długości, odpowiadającej wyciągnięciu obiektu w przeciwnym kierunku. Parametr może zostać ponownie modyfikowany gdy zaznaczysz opcję **Odwrócony**.
-
 #### Do ostatniego 
 
 Wyciągnięcie będzie wytłaczane aż do ostatniej ściany podparcia w kierunku wytłaczania. Jeśli podparcie nie wystąpi, pojawi się komunikat o błędzie.
@@ -53,6 +52,10 @@ Wyciągnięcie będzie wytłaczane aż do pierwszej ściany podparcia w kierunku
 #### Do powierzchni 
 
 Wyciągnięcie będzie wytłaczane do powierzchni modelu, którą można wybrać klikając.
+
+#### Dwa wymiary 
+
+Pozwala na podanie drugiej długości, odpowiadającej wyciągnięciu obiektu w przeciwnym kierunku. Parametr może zostać ponownie modyfikowany gdy zaznaczysz opcję **Odwrócony**.
 
 ### Długość 
 
@@ -89,6 +92,29 @@ Zaznacz pole wyboru, aby rozmieścić pośrodku zadaną długość wyciągnięci
 Opcja Reversed odwraca kierunek wyciągnięcia.
 
 Odwraca kierunek wyciągnięcia.
+
+### Taper angle 
+
+
+<small>(v0.20)</small> 
+
+Tapers the pad in the extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+
+Limitations:
+
+-   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
+-   For larger angles tapering will fail if the end face of the pad would have fewer edges than the start face/sketch.
+
+### 2nd length 
+
+Defines the length of the pad in the opposite extrusion direction. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available if **Type** is **Two dimensions**.
+
+### 2nd taper angle 
+
+
+<small>(v0.20)</small> 
+
+Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
 ## Właściwości
 

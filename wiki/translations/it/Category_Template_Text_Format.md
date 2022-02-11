@@ -1,10 +1,11 @@
 # Category:Template:Text Format/it
 Questa categoria elenca i modelli di formato testo forniti come input.
 
-### Contents:
+### Contents
 
-   
-  [Template:PropertyData/it](Template:PropertyData/it.md)   [Template:PropertyView/it](Template:PropertyView/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:PropertyData/it](wiki/Template_PropertyData/it.md) | [Template:PropertyView/it](wiki/Template_PropertyView/it.md) |
 
 
 

@@ -1,10 +1,11 @@
 # Category:Robot/id
 This category lists pages related to the [Robot Workbench/id](Robot_Workbench/id.md).
 
-### Contents:
+### Contents
 
-  
-  [Robot Workbench/id](Robot_Workbench/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Robot Workbench/id](wiki/Robot Workbench/id.md) |
 
 
 

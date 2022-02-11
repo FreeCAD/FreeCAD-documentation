@@ -1,10 +1,11 @@
 # Category:Template/pt-br
 This category contains all the Templates
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Template:Navigation/pt-br](wiki/Category_Template_Navigation/pt-br.md) |
 
 
 

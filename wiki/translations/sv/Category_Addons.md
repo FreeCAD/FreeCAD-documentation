@@ -1,12 +1,12 @@
 # Category:Addons/sv
 This page lists external addon workbenches that have a page in this wiki. Addons are modules or workbenches contributed by the community and are not part of standard FreeCAD.
 
-### Contents:
+### Contents
 
-    --
-  [Plot Workbench/sv](Plot_Workbench/sv.md)   [Ship Workbench/sv](Ship_Workbench/sv.md)   
-                                                                                                          
-    --
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/sv](wiki/Plot Workbench/sv.md) | [Ship Workbench/sv](wiki/Ship Workbench/sv.md) | [Category:External Workbenches/sv](wiki/Category_External Workbenches/sv.md) |
+|
 
 
 

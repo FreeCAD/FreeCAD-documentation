@@ -29,8 +29,8 @@ Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [
 
 ### Utworzenie koła zębatego czołowego 
 
-1.  Wybierz profil koła zębatego w widoku drzewa.
-2.  Naciśnij przycisk **<img src="images/PartDesign_Pad.svg" width=24px> Wyciągnij**.
+1.  Wybierz profil koła zębatego w [widoku drzewa](Tree_view/pl.md).
+2.  Naciśnij przycisk **<img src="images/PartDesign_Pad.svg" width=24px> [Wyciągnij](PartDesign_Pad/pl.md)**.
 3.  Ustaw **Długość** wyciągnięcia na żądaną szerokość powierzchni czołowej koła zębatego.
 4.  Kliknij na przycisk **OK**.
 
@@ -39,7 +39,7 @@ Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [
 
 {{Version/pl|0.19}}
 
-1.  Wybierz profil koła zębatego w widoku drzewia.
+1.  Wybierz profil koła zębatego w [widoku drzewa](Tree_view/pl.md).
 2.  Naciśnij przycisk **<img src="images/PartDesign_AdditiveHelix.svg" width=24px> [Addytywna helisa](PartDesign_AdditiveHelix/pl.md)**.
 3.  Wybierz jako oś, wektor normalny profilu koła zębatego, czyli **Oś normalna szkicu** {{Version/pl|0.20}} *(We wcześniejszych wersjach można użyć **Bazowa oś Z**, o ile płaszczyzna profilu nie została zmieniona)*.
 4.  Wybierz tryb **Wysokość - Obrót**.
@@ -77,6 +77,11 @@ Wskazówka: Aby uczynić kąt skrętu dostępnym parametrem, użyj \"właściwo�
 -    **Kąt przyporu**: kąt ostry między linią działania a normalną do linii łączącej środki kół zębatych. Domyślnie jest to 20°
 
 ([Więcej informacji](https://en.wikipedia.org/wiki/Involute_gear)).
+
+## Ograniczenia
+
+-   Obecnie nie ma możliwości regulacji grubości zęba. Ząb i przestrzeń zęba są rozmieszczone równomiernie na kole podziałowym. Dlatego jedynym sposobem na kontrolowanie luzu jest dostosowanie odległości środka w parowaniu przekładni.
+-   Obecnie nie ma [podcięcia](https://www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) w generowanym profilu przekładni. Oznacza to, że koła zębate z małą liczbą zębów mogą kolidować z zębami współpracującego koła zębatego. Dolna granica zależy od **Kąt docisku** i wynosi około 17 zębów dla 20° i 32 dla 14.5°. Większość praktycznych zastosowań toleruje brak podcięcia dla kół zębatych nieco mniejszych niż ta teoretyczna granica.
 
 ## Poradniki
 

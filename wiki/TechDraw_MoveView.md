@@ -1,23 +1,26 @@
 ---
 - GuiCommand:
-   Name:TechDraw  MoveView
+   Name:TechDraw MoveView
    MenuLocation:TechDraw → Move View
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Version:0.20
-   SeeAlso:[TechDraw CopyView](TechDraw_CopyView.md)
+   SeeAlso:[TechDraw ShareView](TechDraw_ShareView.md)
 ---
 
 # TechDraw MoveView
 
 ## Description
 
-The CopyView tool moves a View and all its dependents (Balloons, Dimensions, etc) to a different Page.
+The <img alt="" src=images/TechDraw_MoveView.svg  style="width:24px;"> **TechDraw MoveView** tool moves a View and all its dependents (Balloons, Dimensions, etc) to a different Page.
 
 ## Usage
 
-1.  (Optional) Select a View, a from Page and a to Page.
-2.  Press the **<img src="images/TechDraw_MoveView.svg" width=16px> [Move View](TechDraw_MoveView.md)** button
+1.  Optionally select a View, a from Page and a to Page. The pages must be selected in that order.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_MoveView.svg" width=16px> [Move View](TechDraw_MoveView.md)** button.
+    -   Select the **TechDraw → <img src="images/TechDraw_MoveView.svg" width=16px> Move View** option from the menu.
 3.  A dialog will open to allow you to select a View, from Page and to Page.
+4.  Press the **OK** button.
 
 ## Scripting
 

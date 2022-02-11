@@ -1,10 +1,11 @@
 # Category:Arch/id
 Pages relating to Architectural and Building Information Management
 
-### Contents:
+### Contents
 
-  
-  [Arch Workbench/id](Arch_Workbench/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch Workbench/id](wiki/Arch Workbench/id.md) |
 
 
 

@@ -1,10 +1,11 @@
 # Category:Macros/zh-cn
 This category contains macros to extend your FreeCAD installation with new functionality
 
-### Contents:
+### Contents
 
-  
-  [Macros/zh-cn](Macros/zh-cn.md)
+|     |     |     |
+| --- | --- | --- |
+| [Macros/zh-cn](wiki/Macros/zh-cn.md) |
 
 
 

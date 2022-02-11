@@ -1,10 +1,11 @@
 # Category:Developer/ko
 This category contains articles that are relevant for developers.
 
-### Contents:
+### Contents
 
-   
-  [Changelog/ko](Changelog/ko.md)   [Compile on Linux/ko](Compile_on_Linux/ko.md)
+|     |     |     |
+| --- | --- | --- |
+| [Changelog/ko](wiki/Changelog/ko.md) | [Compile on Linux/ko](wiki/Compile on Linux/ko.md) |
 
 
 

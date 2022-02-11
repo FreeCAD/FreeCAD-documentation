@@ -1,10 +1,11 @@
 # Category:Image/zh-tw
 This category lists pages related to the [Image Workbench/zh-tw](Image_Workbench/zh-tw.md).
 
-### Contents:
+### Contents
 
-  
-  [Image Workbench/zh-tw](Image_Workbench/zh-tw.md)
+|     |     |     |
+| --- | --- | --- |
+| [Image Workbench/zh-tw](wiki/Image Workbench/zh-tw.md) |
 
 
 

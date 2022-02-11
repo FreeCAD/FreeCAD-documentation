@@ -1,10 +1,11 @@
 # Category:Screenshots/zh-tw
 This category lists pages with screenshots.
 
-### Contents:
+### Contents
 
-  
-  [Screenshots/zh-tw](Screenshots/zh-tw.md)
+|     |     |     |
+| --- | --- | --- |
+| [Screenshots/zh-tw](wiki/Screenshots/zh-tw.md) |
 
 
 

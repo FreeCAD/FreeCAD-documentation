@@ -1,10 +1,11 @@
 # Category:Help/pl
 This category lists pages that contain helpfull information on MediaWiki and editing.
 
-### Contents:
+### Contents
 
-   
-  [Help/pl](Help/pl.md)   [Key ASCII/pl](Key_ASCII/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Help/pl](wiki/Help/pl.md) | [Key ASCII/pl](wiki/Key ASCII/pl.md) |
 
 
 

@@ -1,13 +1,14 @@
 # Category:Arch/tr
 Bu sayfa Mimari ve Yapı Bilgi Sistemi ile ilgilidir.
 
-### Contents:
+### Contents
 
-    
-  [Arch 3DS/tr](Arch_3DS/tr.md)         [Arch Add/tr](Arch_Add/tr.md)                     [Arch API/tr](Arch_API/tr.md)
-  [Arch Axis/tr](Arch_Axis/tr.md)       [Arch Equipment/tr](Arch_Equipment/tr.md)         [Arch Floor/tr](Arch_Floor/tr.md)
-  [Arch Remove/tr](Arch_Remove/tr.md)   [Arch SectionPlane/tr](Arch_SectionPlane/tr.md)   [Arch Structure/tr](Arch_Structure/tr.md)
-  [Arch Wall/tr](Arch_Wall/tr.md)       [Arch Workbench/tr](Arch_Workbench/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch 3DS/tr](wiki/Arch 3DS/tr.md) | [Arch Add/tr](wiki/Arch Add/tr.md) | [Arch API/tr](wiki/Arch API/tr.md) |
+| [Arch Axis/tr](wiki/Arch Axis/tr.md) | [Arch Equipment/tr](wiki/Arch Equipment/tr.md) | [Arch Floor/tr](wiki/Arch Floor/tr.md) |
+| [Arch Remove/tr](wiki/Arch Remove/tr.md) | [Arch SectionPlane/tr](wiki/Arch SectionPlane/tr.md) | [Arch Structure/tr](wiki/Arch Structure/tr.md) |
+| [Arch Wall/tr](wiki/Arch Wall/tr.md) | [Arch Workbench/tr](wiki/Arch Workbench/tr.md) |
 
 
 

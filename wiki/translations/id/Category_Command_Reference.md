@@ -1,10 +1,11 @@
 # Category:Command Reference/id
 This category contains the help pages of each of FreeCAD command.
 
-### Contents:
+### Contents
 
-  
-  [Template:GuiCommand/id](Template:GuiCommand/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:GuiCommand/id](wiki/Template_GuiCommand/id.md) |
 
 
 

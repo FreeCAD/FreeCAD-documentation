@@ -137,7 +137,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 -    **Visibility|Bool**: whether to display the object or not.
 
--    **Origin|Link**: the [App Origin](App_Origin.md) object that is the positional reference for all elements listed in **Group**.
+-    **Origin|Link**: the [App Origin](App_OriginGroupExtension.md) object that is the positional reference for all elements listed in **Group**.
 
 -    **_ Group Touched|Bool**: whether the group is touched or not.
 
@@ -236,7 +236,7 @@ The Origin consists of the three standard axes (X, Y, Z) and three standard plan
 
 **Note:**
 
-the Origin is an [App Origin](App_Origin.md) object (`App::Origin` class), while the axes and planes are objects of type `App::Line` and `App::Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
+the Origin is an [App Origin](App_OriginGroupExtension.md) object (`App::Origin` class), while the axes and planes are objects of type `App::Line` and `App::Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
 
 
 **Note 2:**

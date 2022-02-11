@@ -1,10 +1,11 @@
 # Category:BIM/zh-cn
 This category is for pages related to building information management (BIM).
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Arch/zh-cn](wiki/Category_Arch/zh-cn.md) |
 
 
 

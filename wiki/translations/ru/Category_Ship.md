@@ -1,14 +1,15 @@
 # Category:Ship/ru
 This category lists pages related to the [Ship Workbench/ru](Ship_Workbench/ru.md).
 
-### Contents:
+### Contents
 
-    
-  [Artwork Ship/ru](Artwork_Ship/ru.md)   [FreeCAD-Ship s60 tutorial (II)/ru](FreeCAD-Ship_s60_tutorial_(II)/ru.md)   [FreeCAD-Ship s60 tutorial/ru](FreeCAD-Ship_s60_tutorial/ru.md)
-  [Ship Area/ru](Ship_Area/ru.md)         [Ship Geometries Examples/ru](Ship_Geometries_Examples/ru.md)               [Ship Hydrostatics/ru](Ship_Hydrostatics/ru.md)
-  [Ship Loading/ru](Ship_Loading/ru.md)   [Ship New/ru](Ship_New/ru.md)                                               [Ship Outline/ru](Ship_Outline/ru.md)
-  [Ship PlotGZ/ru](Ship_PlotGZ/ru.md)     [Ship TankCapacity/ru](Ship_TankCapacity/ru.md)                             [Ship TankNew/ru](Ship_TankNew/ru.md)
-  [Ship Weight/ru](Ship_Weight/ru.md)     [Ship Workbench/ru](Ship_Workbench/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Ship/ru](wiki/Artwork Ship/ru.md) | [FreeCAD-Ship s60 tutorial (II)/ru](wiki/FreeCAD-Ship s60 tutorial (II)/ru.md) | [FreeCAD-Ship s60 tutorial/ru](wiki/FreeCAD-Ship s60 tutorial/ru.md) |
+| [Ship Area/ru](wiki/Ship Area/ru.md) | [Ship Geometries Examples/ru](wiki/Ship Geometries Examples/ru.md) | [Ship Hydrostatics/ru](wiki/Ship Hydrostatics/ru.md) |
+| [Ship Loading/ru](wiki/Ship Loading/ru.md) | [Ship New/ru](wiki/Ship New/ru.md) | [Ship Outline/ru](wiki/Ship Outline/ru.md) |
+| [Ship PlotGZ/ru](wiki/Ship PlotGZ/ru.md) | [Ship TankCapacity/ru](wiki/Ship TankCapacity/ru.md) | [Ship TankNew/ru](wiki/Ship TankNew/ru.md) |
+| [Ship Weight/ru](wiki/Ship Weight/ru.md) | [Ship Workbench/ru](wiki/Ship Workbench/ru.md) |
 
 
 

@@ -1,10 +1,12 @@
 # Category:Mesh/tr
 This category lists pages related to the [Mesh\_Workbench/tr](Mesh_Workbench/tr.md).
 
-### Contents:
+### Contents
 
-    
-  [Mesh Scripting/tr](Mesh_Scripting/tr.md)   [Mesh to Part/tr](Mesh_to_Part/tr.md)   [Mesh Workbench/tr](Mesh_Workbench/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Mesh Scripting/tr](wiki/Mesh Scripting/tr.md) | [Mesh to Part/tr](wiki/Mesh to Part/tr.md) | [Mesh Workbench/tr](wiki/Mesh Workbench/tr.md) |
+|
 
 
 

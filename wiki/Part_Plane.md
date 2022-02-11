@@ -48,6 +48,50 @@ The properties of the object can be edited, either in the [Property editor](Prop
 
 You have the standard properties view.
 
+## Notes
+
+## Properties 
+
+## Limitations
+
+## Scripting
+
+A Part Plane can be created with the following function:
+
+ 
+```python
+plane = FreeCAD.ActiveDocument.addObject("Part::Plane", "myPlane")
+```
+
+-   Where {{Incode|"myPlane"}} is the name for the object.
+-   The function returns the newly created object.
+
+You can access and modify attributes of the {{Incode|plane}} object.
+
+The name of the object can be easily changed by
+
+ 
+```python
+plane.Label = "new planeName"
+```
+
+For example, you may wish to modify the length and width of the plane.
+
+ 
+```python
+plane.Length = 10
+plane.Width = 20
+```
+
+The result will be a plane with the given length and width.
+
+You can change its placement and orientation with:
+
+ 
+```python
+plane.Placement = FreeCAD.Placement(FreeCAD.Vector(2, 4, 6), FreeCAD.Rotation(30, 45, 10))
+```
+
 
 
 ---

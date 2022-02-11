@@ -1,11 +1,12 @@
 # Category:Roadmap/cs
 This category gathers all articles documenting what is planned in the Roadmap of FreeCAD.
 
-### Contents:
+### Contents
 
-    
-  [Assembly project/cs](Assembly_project/cs.md)   [Development roadmap/cs](Development_roadmap/cs.md)   [FEM project/cs](FEM_project/cs.md)
-  [Material/cs](Material/cs.md)
+|     |     |     |
+| --- | --- | --- |
+| [Assembly project/cs](wiki/Assembly project/cs.md) | [Development roadmap/cs](wiki/Development roadmap/cs.md) | [FEM project/cs](wiki/FEM project/cs.md) |
+| [Material/cs](wiki/Material/cs.md) |
 
 
 

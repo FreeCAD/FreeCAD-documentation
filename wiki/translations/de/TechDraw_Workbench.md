@@ -51,6 +51,10 @@ Dies sind Werkzeuge zum Erstellen von Ansichtsobjekten.
 
 -   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Tabellenkalkulationsansicht einfügen](TechDraw_SpreadsheetView/de.md): Fügt die Ansicht eines [Tabellenkalkulation Arbeitsbereichsblatts](Spreadsheet_Workbench/de.md) hinzu.
 
+-   <img alt="" src=images/TechDraw_MoveView.svg  style="width:32px;"> [Move View](TechDraw_MoveView.md): Moves a view and its dependents to a different page. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ShareView.svg  style="width:32px;"> [Share View](TechDraw_ShareView.md): Share a view between multiple pages. <small>(v0.20)</small> 
+
 ## Ausschnittfenster
 
 Dies sind Werkzeuge zum Erstellen und Verwalten von Ausschnittfenstern.
@@ -237,92 +241,303 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
 
 </div>
 
+### Attributes and modifications 
+
 
 <div class="mw-translate-fuzzy">
 
-
-**Einige dieser Werkzeuge müssen noch freigegeben werden.**
+-   <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:32px;"> [Ansicht](TechDraw_ExtensionSelectLineAttributes.md): Wähle Stil, Breite und Farbe der Linien. <small>(v0.20)</small> 
 
 
 </div>
 
-### Attributes and modifications 
 
--   <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:32px;"> [Ansicht](TechDraw_ExtensionSelectLineAttributes.md): Wähle Stil, Breite und Farbe der Linien. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:32px;"> [Dehnen](TechDraw_ExtensionExtendLine.md): Verlängern einer Linie an beiden Enden. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:32px;"> [Verkürzen](TechDraw_ExtensionShortenLine.md): Verkürzen einer Linie an beiden Enden. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:32px;"> [Sperren/Entsperren](TechDraw_ExtensionLockUnlockView.md): Sperren/Entsperren einer Ansicht. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:32px;"> [Schnittansicht ausrichten](TechDraw_ExtensionPositionSectionView.md): Richte eine Schnittansicht rechtwinkelig zur Quellansicht aus. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:32px;"> [Horizontales Ausrichten](TechDraw_ExtensionPosHorizChainDimension.md): Richte eine horizontale Kettenbemaßung aus. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  style="width:32px;"> [Vertikal ausrichten](TechDraw_ExtensionPosVertChainDimension.md): Richte eine vertikale Kettenbemaßung aus. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style="width:32px;"> [Schräg ausrichten](TechDraw_ExtensionPosObliqueChainDimension.md): Richte eine schräge Kettenbemaßung aus. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:32px;"> [Horizontale Abstände](TechDraw_ExtensionCascadeHorizDimension.md): Bilde Abstände zwischen horizontalen Maßen. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  style="width:32px;"> [Vertikale Abstände](TechDraw_ExtensionCascadeVertDimension.md): Bilde Abstände zwischen vertikalen Maßen. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:32px;"> [Schräge Abstände](TechDraw_ExtensionCascadeObliqueDimension.md): Bilde Abstände zwischen schrägen Maßen. <small>(v0.20)</small> 
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width:32px;"> [Aussehen ändern](TechDraw_ExtensionChangeLineAttributes.md): Ändern von Stil, Breite und Farbe von Linien. <small>(v0.20)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:32px;"> [Dehnen](TechDraw_ExtensionExtendLine.md): Verlängern einer Linie an beiden Enden. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:32px;"> [Verkürzen](TechDraw_ExtensionShortenLine.md): Verkürzen einer Linie an beiden Enden. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:32px;"> [Sperren/Entsperren](TechDraw_ExtensionLockUnlockView.md): Sperren/Entsperren einer Ansicht. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:32px;"> [Schnittansicht ausrichten](TechDraw_ExtensionPositionSectionView.md): Richte eine Schnittansicht rechtwinkelig zur Quellansicht aus. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:32px;"> [Horizontales Ausrichten](TechDraw_ExtensionPosHorizChainDimension.md): Richte eine horizontale Kettenbemaßung aus. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  style="width:32px;"> [Vertikal ausrichten](TechDraw_ExtensionPosVertChainDimension.md): Richte eine vertikale Kettenbemaßung aus. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style="width:32px;"> [Schräg ausrichten](TechDraw_ExtensionPosObliqueChainDimension.md): Richte eine schräge Kettenbemaßung aus. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:32px;"> [Horizontale Abstände](TechDraw_ExtensionCascadeHorizDimension.md): Bilde Abstände zwischen horizontalen Maßen. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  style="width:32px;"> [Vertikale Abstände](TechDraw_ExtensionCascadeVertDimension.md): Bilde Abstände zwischen vertikalen Maßen. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:32px;"> [Schräge Abstände](TechDraw_ExtensionCascadeObliqueDimension.md): Bilde Abstände zwischen schrägen Maßen. <small>(v0.20)</small> 
+
+
+</div>
+
 ### Mittellinien und Gewinde 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Mittellinien bei Kreisbogen-Kreis](TechDraw_ExtensionCircleCenterLines.md): Erzeuge Mittellinien bei Kreisen und Kreisbögen. <small>(v0.20)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:32px;"> [Loch/Bolzenkreis Mittellinien](TechDraw_ExtensionHoleCircle.md): Zeichne die Mittellinien eines Loch/Bolzenkreises. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Scnittpunkt](TechDraw_ExtensionVertexAtIntersection.md): Erzeuge Konstruktionspunkte im Schnittpunkt von Linien. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:32px;"> [Kreislinie](TechDraw_ExtensionDrawCosmCircle.md): Zeichne eine Kreislinie durch Mittelpunkt und Radiuspunkt. <small>(v0.20)</small> 
+</div>
 
--   <img alt="" src=images/TechDraw_ExtensionDrawArc.svg  style="width:32px;"> [Kreisbogen](TechDraw_ExtensionDrawArc.md): Zeichne einen gegen den Uhrzeiger rotierenden Kreisbogen. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Rechtwinkelig](TechDraw_ExtensionLinePerpendicular.md): Zeichne eine Linie im rechten Winkel auf eine Andere, durch einen Konstruktionspunkt. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:32px;"> [Parallel](TechDraw_ExtensionLineParallel.md): Zeichne eine Linie parallel zu einer Anderen durch einen Konstruktionspunkt. <small>(v0.20)</small> 
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Bohrungsgewinde im Schnitt](TechDraw_ExtensionThreadHoleSide.md): Füge ein symbolisches Gewinde zum Schnitt einer Bohrung hinzu. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Bolzengewinde Seitenansicht](TechDraw_ExtensionThreadBoltSide.md): Füge ein symbolisches Gewinde zur Seitenansicht eines Bolzens hinzu. <small>(v0.20)</small> 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Bohrungsgewinde](TechDraw_ExtensionThreadHoleBottom.md): Füge ein symbolisches Gewinde zu einer von oben gesehenen Bohrung hinzu. <small>(v0.20)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Bolzengewinde Seitenansicht](TechDraw_ExtensionThreadBoltSide.md): Füge ein symbolisches Gewinde zur Seitenansicht eines Bolzens hinzu. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Bolzengewinde](TechDraw_ExtensionThreadBoltBottom.md): Füge ein symbolisches Gewinde zu einem von oben gesehenen Bolzen hinzu. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Scnittpunkt](TechDraw_ExtensionVertexAtIntersection.md): Erzeuge Konstruktionspunkte im Schnittpunkt von Linien. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:32px;"> [Kreislinie](TechDraw_ExtensionDrawCosmCircle.md): Zeichne eine Kreislinie durch Mittelpunkt und Radiuspunkt. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionDrawArc.svg  style="width:32px;"> [Kreisbogen](TechDraw_ExtensionDrawArc.md): Zeichne einen gegen den Uhrzeiger rotierenden Kreisbogen. <small>(v0.20)</small> 
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  style="width:32px;"> [Add Cosmetic Circle 3 Points](TechDraw_ExtensionDrawCosmCircle3Points.md): adds a cosmetic circle based on three vertexes. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:32px;"> [Parallel](TechDraw_ExtensionLineParallel.md): Zeichne eine Linie parallel zu einer Anderen durch einen Konstruktionspunkt. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Rechtwinkelig](TechDraw_ExtensionLinePerpendicular.md): Zeichne eine Linie im rechten Winkel auf eine Andere, durch einen Konstruktionspunkt. <small>(v0.20)</small> 
+
+
+</div>
 
 ### Maße
 
--   <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:32px;"> [Durchmesserzeichen](TechDraw_ExtensionInsertDiameter.md): Füge ein Durchmesserzeichen als erstes Zeichen ein. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width:32px;"> [Rohrsymbol](TechDraw_ExtensionInsertSquare.md): Füge eine Rohrsymbol als erstes Zeichen ein. <small>(v0.20)</small> 
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width:32px;"> [Horizontales Kettenmaß](TechDraw_ExtensionCreateHorizChainDimension.md): Erzeuge ein horizontales Kettenmaß. <small>(v0.20)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style="width:32px;"> [Vertikales Kettenmaß](TechDraw_ExtensionCreateVertChainDimension.md): Erzeuge ein vertikales Kettenmaß. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.svg  style="width:32px;"> [Schräges Kettenmaß](TechDraw_ExtensionCreateObliqueChainDimension.md): Erzeuge ein schräges Kettenmaß. <small>(v0.20)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width:32px;"> [Horizontale Stufenbemaßung](TechDraw_ExtensionCreateHorizCoordDimension.md): erzeuge eine horizontale Stufenbemaßung. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style="width:32px;"> [Vertikale Stufenbemaßung](TechDraw_ExtensionCreateVertCoordDimension.md): Erzeuge eine vertikale Stufenbemaßung. <small>(v0.20)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width:32px;"> [Schräge Stufenbemaßung](TechDraw_ExtensionCreateObliqueCoordDimension.md): Erzeuge eine schräge Stufenbemaßung. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:32px;"> [Horizontale Fasenbemaßung](TechDraw_ExtensionCreateHorizChamferDimension.md): erzeuge eine horizontale Fasenbemaßung. <small>(v0.20)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width:32px;"> [Vertikale Fasenbemaßung](TechDraw_ExtensionCreateVertChamferDimension.md): erzeuge eine vertikale Fasenbemaßung. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:32px;"> [Kreisbogen Längenmaß](TechDraw_ExtensionCreateLengthArc.md): erzeuge ein Kreisbogen Längenmaß. <small>(v0.20)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:32px;"> [Durchmesserzeichen](TechDraw_ExtensionInsertDiameter.md): Füge ein Durchmesserzeichen als erstes Zeichen ein. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width:32px;"> [Rohrsymbol](TechDraw_ExtensionInsertSquare.md): Füge eine Rohrsymbol als erstes Zeichen ein. <small>(v0.20)</small> 
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_ExtensionRemovePrefixChar.svg  style="width:32px;"> [Remove Prefix](TechDraw_ExtensionRemovePrefixChar.md): removes all symbols at the beginning of the dimension text. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width:32px;"> [Genauigkeit vergrößern](TechDraw_ExtensionIncreaseDecimal.md): vergrößere die Anzahl der Dezimalstellen . <small>(v0.20)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Genauigkeit verkleinern](TechDraw_ExtensionDecreaseDecimal.md): verkleinere die Anzahl der Dezimalstellen . <small>(v0.20)</small> 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

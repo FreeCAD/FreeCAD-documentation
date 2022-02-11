@@ -127,6 +127,9 @@ Typische Konfigurationsabschnitte sind:
 
 Der **Bearbeiten** → **Einstellungen...** → **Pfad** → **Auftragseinstellungen Reiter** → **Standardeinstellungen** → **Pfad** wird verwendet, um den bei der Auftragserstellung ausgewählten Standard Postprozessor festzulegen. Dies erlaubt Pfad Arbeitsbereich so konfiguriert zu werden, dass nur die gewünschten Postprozessoren angezeigt werden und ein Standard festgelegt wird.
 
+
+<div class="mw-translate-fuzzy">
+
 Enthaltene Postprozessoren werden standardmäßig in der **FreeCAD.Mod.Path.Pathscripts.Post** gespeichert:
 
 -   centroid
@@ -138,6 +141,9 @@ Enthaltene Postprozessoren werden standardmäßig in der **FreeCAD.Mod.Path.Path
 -   phillips
 -   rml
 -   smoothie
+
+
+</div>
 
 ## Limitations
 

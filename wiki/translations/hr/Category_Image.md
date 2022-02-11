@@ -1,10 +1,11 @@
 # Category:Image/hr
 This category lists pages related to the [Image Workbench/hr](Image_Workbench/hr.md).
 
-### Contents:
+### Contents
 
-  
-  [Image Workbench/hr](Image_Workbench/hr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Image Workbench/hr](wiki/Image Workbench/hr.md) |
 
 
 

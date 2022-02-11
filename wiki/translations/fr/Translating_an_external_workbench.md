@@ -115,8 +115,6 @@ Dans les notes suivantes, `"context"` doit être le nom de votre addon ou de vot
 
 :   N\'utilisez pas votre propre `"context"` dans ce cas précis. Gardez `"App::Property"`.
 
--   Ne traduisez pas le texte des opérations sur les documents effectuées à l\'aide de la fonction `Document.openTransaction()`.
-
 ### Dans InitGui.py 
 
 -   Ajouter la ligne suivante en haut du fichier :

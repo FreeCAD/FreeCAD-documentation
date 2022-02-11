@@ -2,6 +2,9 @@
 ---
 - GuiCommand:/it   Name:Std_ViewScreenShot   Name/it:Cattura Schermata   MenuLocation:Strumenti → Salva immagine...   Workbenches:Tutti   SeeAlso:[Stampa](Std_Print/it.md), [Esporta Pdf](Std_PrintPdf/it.md)---
 
+
+</div>
+
 ## Descrizione
 
 Il comando **Salva immagine** apre una finestra di dialogo per salvare il contenuto della [vista 3D](3D_view/it.md) attiva in un file.

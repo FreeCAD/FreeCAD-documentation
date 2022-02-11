@@ -1,10 +1,11 @@
 # Category:Plot/hr
 This category lists pages related to the [Plot Workbench/hr](Plot_Workbench/hr.md).
 
-### Contents:
+### Contents
 
-  
-  [Plot Workbench/hr](Plot_Workbench/hr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/hr](wiki/Plot Workbench/hr.md) |
 
 
 

@@ -1,11 +1,12 @@
 # Category:Start/pl
 Ta kategoria zawiera strony związane ze środowiskiem pracy [start](Start_Workbench/pl.md).
 
-### Contents:
+### Contents
 
-    
-  [Artwork Start/pl](Artwork_Start/pl.md)       [Start Preferences/pl](Start_Preferences/pl.md)   [Template:Start Tools navi/pl](Template:Start_Tools_navi/pl.md)
-  [Start Workbench/pl](Start_Workbench/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Start/pl](wiki/Artwork Start/pl.md) | [Start Preferences/pl](wiki/Start Preferences/pl.md) | [Template:Start Tools navi/pl](wiki/Template_Start Tools navi/pl.md) |
+| [Start Workbench/pl](wiki/Start Workbench/pl.md) |
 
 
 

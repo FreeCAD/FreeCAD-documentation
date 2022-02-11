@@ -26,10 +26,16 @@ Per raggruppare gli oggetti 3D come una singola unità, con l\'intenzione di cre
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Fare clic sul nome del documento nella [vista ad albero](tree_view/it.md), aprire il menu di scelta rapida (clic con il tasto destro) e scegliere **Crea gruppo**.
 2.  In alternativa premere il pulsante **<img src="images/Std_Group.svg" width=16px> [Gruppo](Std_Group/it.md)** nella barra degli strumenti della struttura. Viene creato un gruppo vuoto.
 3.  Per aggiungere degli oggetti a un gruppo, selezionarli nella [vista ad albero](tree_view/it.md), quindi trascinarli e rilasciarli sul gruppo.
 4.  Per rimuovere degli oggetti da un gruppo, trascinarli fuori dal gruppo, sull\'etichetta del documento nella parte superiore della [ vista ad albero](tree_view/it.md).
+
+
+</div>
 
 ### Note
 

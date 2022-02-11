@@ -1,12 +1,12 @@
 # Category:Obsolete Workbenches/de
 Diese Kategorie zeigt eine Liste der veralteten Arbeitsbereiche, d.h. Arbeitsbereiche, die alt sind und nicht gewartet werden und durch andere Arbeitsbereich ersetzt wurden.
 
-### Contents:
+### Contents
 
-    --
-  [Complete Workbench/de](Complete_Workbench/de.md)   [Drawing Workbench/de](Drawing_Workbench/de.md)   
-                                                                                                                        
-    --
+|     |     |     |
+| --- | --- | --- |
+| [Complete Workbench/de](wiki/Complete Workbench/de.md) | [Drawing Workbench/de](wiki/Drawing Workbench/de.md) | [Category:Drawing/de](wiki/Category_Drawing/de.md) |
+|
 
 
 

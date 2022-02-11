@@ -21,6 +21,14 @@ The Create Primitives dialogue can be accessed via the [Primitives](Part_Primiti
 
 ![](images/Spiral_y45_it.png )
 
+## Notes
+
+## Properties
+
+## Limitations
+
+## Scripting
+
 
 
 ---

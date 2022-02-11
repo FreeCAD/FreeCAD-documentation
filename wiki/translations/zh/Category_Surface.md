@@ -1,10 +1,11 @@
 # Category:Surface/zh
 This category lists pages related to the [Surface Workbench/zh](Surface_Workbench/zh.md).
 
-### Contents:
+### Contents
 
-  
-  [Surface Workbench/zh](Surface_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [Surface Workbench/zh](wiki/Surface Workbench/zh.md) |
 
 
 

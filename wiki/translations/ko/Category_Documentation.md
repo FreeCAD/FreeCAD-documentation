@@ -1,11 +1,13 @@
 # Category:Documentation/ko
 This category groups all of the FreeCAD documentation
 
-### Contents:
+### Contents
 
-    
-  [Help FreeCAD/ko](Help_FreeCAD/ko.md)               [Main Page/ko](Main_Page/ko.md)                     [Online Help Toc/ko](Online_Help_Toc/ko.md)
-  [Release notes 0.17/ko](Release_notes_0.17/ko.md)   [Release notes 0.18/ko](Release_notes_0.18/ko.md)
+|     |     |     |
+| --- | --- | --- |
+| [Help FreeCAD/ko](wiki/Help FreeCAD/ko.md) | [Main Page/ko](wiki/Main Page/ko.md) | [Online Help Toc/ko](wiki/Online Help Toc/ko.md) |
+| [Release notes 0.17/ko](wiki/Release notes 0.17/ko.md) | [Release notes 0.18/ko](wiki/Release notes 0.18/ko.md) | [Category:Developer Documentation/ko](wiki/Category_Developer Documentation/ko.md) |
+| [Category:User Documentation/ko](wiki/Category_User Documentation/ko.md) | [Category:Wiki/ko](wiki/Category_Wiki/ko.md) |
 
 
 

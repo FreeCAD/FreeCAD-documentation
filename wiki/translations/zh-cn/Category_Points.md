@@ -1,10 +1,11 @@
 # Category:Points/zh-cn
 This category lists pages related to the [Points Workbench/zh-cn](Points_Workbench/zh-cn.md).
 
-### Contents:
+### Contents
 
-  
-  [Points Workbench/zh-cn](Points_Workbench/zh-cn.md)
+|     |     |     |
+| --- | --- | --- |
+| [Points Workbench/zh-cn](wiki/Points Workbench/zh-cn.md) |
 
 
 

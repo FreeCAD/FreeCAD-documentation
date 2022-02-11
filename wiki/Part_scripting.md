@@ -29,6 +29,8 @@ $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 
 ## Examples
 
+### Line
+
 To create a line element switch to the Python console and type in:
 
  
@@ -101,6 +103,8 @@ def mycreateLine(pt1, pt2, objName):
 line = mycreateLine((0,0,0), (0,10,0), "LineName")
 ```
 
+### Circle
+
 A circle can be created in a similar way:
 
  
@@ -172,6 +176,35 @@ c = e.Curve
 ```
 
 Here we take the shape of our object f, then we take its list of edges. In this case there will be only one because we made the whole shape out of a single circle, so we take only the first item of the Edges list, and we takes its curve. Every Edge has a Curve, which is the geometry primitive it is based on.
+
+### Arc
+
+An arc can be created like this: 
+```python
+import Part
+doc = App.activeDocument()
+p1 = App.Vector(10,0,0)
+p2 = App.Vector(0,10,0)
+p3 = App.Vector(-10,0,0)
+c = Part.Arc(p1,p2,p3)
+f = doc.addObject("Part::Feature", "Arc")
+f.Shape = c.toShape()
+doc.recompute()
+``` This draws a half circle. The center is at (0,0). The Radium is 10. P1 is the start point on + X axis . P2 is the middle point on + Y axis and P3 is the end point on -Y axis.
+
+You can also create an arc as part of a circle like this: 
+```python
+import Part
+doc = App.activeDocument()
+p1 = App.Vector(10,0,0)
+p2 = App.Vector(0,10,0)
+p3 = App.Vector(-10,0,0)
+c = Part.Circle(p1,p2,p3)
+a=Part.ArcOfCircle(c,0.000000,0.762675)
+f = doc.addObject("Part::Feature", "Arc")
+f.Shape = a.toShape()
+doc.recompute()
+``` It needs a circle, Start angle and Finish angle.
 
 Head to the [Topological data scripting](Topological_data_scripting.md) page if you would like to know more.
 

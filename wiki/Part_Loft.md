@@ -104,6 +104,14 @@ If you want to change the selection of the sections after creation of the loft, 
 
 The sequence of sections depends on the sequence of clicks in the list. If you want to make substantial changes it is recommended to first deselect all and then start selection in the right order.
 
+## Notes
+
+## Properties
+
+## Limitations
+
+## Scripting
+
 
 
 ---

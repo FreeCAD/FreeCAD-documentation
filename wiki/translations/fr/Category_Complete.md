@@ -1,10 +1,11 @@
 # Category:Complete/fr
 Cette catégorie répertorie les pages en rapport avec [Complete Workbench](Complete_Workbench/fr.md).
 
-### Contents:
+### Contents
 
-  
-  [Complete Workbench/fr](Complete_Workbench/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Complete Workbench/fr](wiki/Complete Workbench/fr.md) |
 
 
 

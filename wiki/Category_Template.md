@@ -3,26 +3,31 @@ This category contains all templates.
 
 See also [UncategorizedTemplates](Special_UncategorizedTemplates.md).
 
-### Contents:
+### Contents
 
-    
-  [Template:Docnav](Template_Docnav.md)                               [Template:GuiCommand](Template_GuiCommand.md)                       [Template:GuiCommand/bg](Template:GuiCommand/bg.md)
-  [Template:GuiCommand/cs](Template:GuiCommand/cs.md)                 [Template:GuiCommand/de](Template:GuiCommand/de.md)                 [Template:GuiCommand/en](Template:GuiCommand/en.md)
-  [Template:GuiCommand/es](Template:GuiCommand/es.md)                 [Template:GuiCommand/fr](Template:GuiCommand/fr.md)                 [Template:GuiCommand/hr](Template:GuiCommand/hr.md)
-  [Template:GuiCommand/id](Template:GuiCommand/id.md)                 [Template:GuiCommand/it](Template:GuiCommand/it.md)                 [Template:GuiCommand/ko](Template:GuiCommand/ko.md)
-  [Template:GuiCommand/pl](Template:GuiCommand/pl.md)                 [Template:GuiCommand/pt](Template:GuiCommand/pt.md)                 [Template:GuiCommand/pt-br](Template:GuiCommand/pt-br.md)
-  [Template:GuiCommand/ro](Template:GuiCommand/ro.md)                 [Template:GuiCommand/ru](Template:GuiCommand/ru.md)                 [Template:GuiCommand/sv](Template:GuiCommand/sv.md)
-  [Template:GuiCommand/tr](Template:GuiCommand/tr.md)                 [Template:GuiCommand/uk](Template:GuiCommand/uk.md)                 [Template:GuiCommand/zh](Template:GuiCommand/zh.md)
-  [Template:GuiCommand/zh-cn](Template:GuiCommand/zh-cn.md)           [Template:GuiCommand/zh-tw](Template:GuiCommand/zh-tw.md)           [Template:GuiCommandAddon](Template_GuiCommandAddon.md)
-  [Template:GuiCommandAddon/pl](Template:GuiCommandAddon/pl.md)       [Template:TOCleft](Template_TOCleft.md)                             [Template:TOCright](Template_TOCright.md)
-  [Template:Top](Template_Top.md)                                     [Template:TutorialInfo](Template_TutorialInfo.md)                   [Template:TutorialInfo/cs](Template:TutorialInfo/cs.md)
-  [Template:TutorialInfo/de](Template:TutorialInfo/de.md)             [Template:TutorialInfo/en](Template:TutorialInfo/en.md)             [Template:TutorialInfo/es](Template:TutorialInfo/es.md)
-  [Template:TutorialInfo/fr](Template:TutorialInfo/fr.md)             [Template:TutorialInfo/hr](Template:TutorialInfo/hr.md)             [Template:TutorialInfo/id](Template:TutorialInfo/id.md)
-  [Template:TutorialInfo/it](Template:TutorialInfo/it.md)             [Template:TutorialInfo/ja](Template:TutorialInfo/ja.md)             [Template:TutorialInfo/pl](Template:TutorialInfo/pl.md)
-  [Template:TutorialInfo/pt](Template:TutorialInfo/pt.md)             [Template:TutorialInfo/pt-br](Template:TutorialInfo/pt-br.md)       [Template:TutorialInfo/ro](Template:TutorialInfo/ro.md)
-  [Template:TutorialInfo/ru](Template:TutorialInfo/ru.md)             [Template:TutorialInfo/sv](Template:TutorialInfo/sv.md)             [Template:TutorialInfo/tr](Template:TutorialInfo/tr.md)
-  [Template:TutorialInfo/uk](Template:TutorialInfo/uk.md)             [Template:TutorialInfo/zh](Template:TutorialInfo/zh.md)             [Template:TutorialInfo/zh-cn](Template:TutorialInfo/zh-cn.md)
-  [Template:TutorialInfo/zh-hans](Template:TutorialInfo/zh-hans.md)   [Template:TutorialInfo/zh-hant](Template:TutorialInfo/zh-hant.md)   [Template:TutorialInfo/zh-tw](Template:TutorialInfo/zh-tw.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Docnav](wiki/Template_Docnav.md) | [Template:GuiCommand](wiki/Template_GuiCommand.md) | [Template:GuiCommand/bg](wiki/Template_GuiCommand/bg.md) |
+| [Template:GuiCommand/cs](wiki/Template_GuiCommand/cs.md) | [Template:GuiCommand/de](wiki/Template_GuiCommand/de.md) | [Template:GuiCommand/en](wiki/Template_GuiCommand/en.md) |
+| [Template:GuiCommand/es](wiki/Template_GuiCommand/es.md) | [Template:GuiCommand/fr](wiki/Template_GuiCommand/fr.md) | [Template:GuiCommand/hr](wiki/Template_GuiCommand/hr.md) |
+| [Template:GuiCommand/id](wiki/Template_GuiCommand/id.md) | [Template:GuiCommand/it](wiki/Template_GuiCommand/it.md) | [Template:GuiCommand/ko](wiki/Template_GuiCommand/ko.md) |
+| [Template:GuiCommand/pl](wiki/Template_GuiCommand/pl.md) | [Template:GuiCommand/pt](wiki/Template_GuiCommand/pt.md) | [Template:GuiCommand/pt-br](wiki/Template_GuiCommand/pt-br.md) |
+| [Template:GuiCommand/ro](wiki/Template_GuiCommand/ro.md) | [Template:GuiCommand/ru](wiki/Template_GuiCommand/ru.md) | [Template:GuiCommand/sv](wiki/Template_GuiCommand/sv.md) |
+| [Template:GuiCommand/tr](wiki/Template_GuiCommand/tr.md) | [Template:GuiCommand/uk](wiki/Template_GuiCommand/uk.md) | [Template:GuiCommand/zh](wiki/Template_GuiCommand/zh.md) |
+| [Template:GuiCommand/zh-cn](wiki/Template_GuiCommand/zh-cn.md) | [Template:GuiCommand/zh-tw](wiki/Template_GuiCommand/zh-tw.md) | [Template:GuiCommandAddon](wiki/Template_GuiCommandAddon.md) |
+| [Template:GuiCommandAddon/pl](wiki/Template_GuiCommandAddon/pl.md) | [Template:TOCleft](wiki/Template_TOCleft.md) | [Template:TOCright](wiki/Template_TOCright.md) |
+| [Template:Top](wiki/Template_Top.md) | [Template:TutorialInfo](wiki/Template_TutorialInfo.md) | [Template:TutorialInfo/cs](wiki/Template_TutorialInfo/cs.md) |
+| [Template:TutorialInfo/de](wiki/Template_TutorialInfo/de.md) | [Template:TutorialInfo/en](wiki/Template_TutorialInfo/en.md) | [Template:TutorialInfo/es](wiki/Template_TutorialInfo/es.md) |
+| [Template:TutorialInfo/fr](wiki/Template_TutorialInfo/fr.md) | [Template:TutorialInfo/hr](wiki/Template_TutorialInfo/hr.md) | [Template:TutorialInfo/id](wiki/Template_TutorialInfo/id.md) |
+| [Template:TutorialInfo/it](wiki/Template_TutorialInfo/it.md) | [Template:TutorialInfo/ja](wiki/Template_TutorialInfo/ja.md) | [Template:TutorialInfo/pl](wiki/Template_TutorialInfo/pl.md) |
+| [Template:TutorialInfo/pt](wiki/Template_TutorialInfo/pt.md) | [Template:TutorialInfo/pt-br](wiki/Template_TutorialInfo/pt-br.md) | [Template:TutorialInfo/ro](wiki/Template_TutorialInfo/ro.md) |
+| [Template:TutorialInfo/ru](wiki/Template_TutorialInfo/ru.md) | [Template:TutorialInfo/sv](wiki/Template_TutorialInfo/sv.md) | [Template:TutorialInfo/tr](wiki/Template_TutorialInfo/tr.md) |
+| [Template:TutorialInfo/uk](wiki/Template_TutorialInfo/uk.md) | [Template:TutorialInfo/zh](wiki/Template_TutorialInfo/zh.md) | [Template:TutorialInfo/zh-cn](wiki/Template_TutorialInfo/zh-cn.md) |
+| [Template:TutorialInfo/zh-hans](wiki/Template_TutorialInfo/zh-hans.md) | [Template:TutorialInfo/zh-hant](wiki/Template_TutorialInfo/zh-hant.md) | [Template:TutorialInfo/zh-tw](wiki/Template_TutorialInfo/zh-tw.md) |
+| [Category:Template:Doc](wiki/Category_Template_Doc.md) | [Category:Template:Effect](wiki/Category_Template_Effect.md) | [Category:Template:Image](wiki/Category_Template_Image.md) |
+| [Category:Template:Navigation](wiki/Category_Template_Navigation.md) | [Category:Template:Navigation/it](wiki/Category_Template_Navigation/it.md) | [Category:Template:Text](wiki/Category_Template_Text.md) |
+| [Category:Template:Text Box](wiki/Category_Template_Text Box.md) | [Category:Template:Text Format](wiki/Category_Template_Text Format.md) | [Category:Template:Text Long](wiki/Category_Template_Text Long.md) |
+|
 
 
 

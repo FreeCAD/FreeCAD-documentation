@@ -1,12 +1,12 @@
 # Category:Artwork/es
 This category collects pages related to artwork existing in the program, like icons and images that are used in different workbenches.
 
-### Contents:
+### Contents
 
-    --
-  [Artwork Guidelines/es](Artwork_Guidelines/es.md)   [Artwork/es](Artwork/es.md)   
-                                                                                                    
-    --
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Guidelines/es](wiki/Artwork Guidelines/es.md) | [Artwork/es](wiki/Artwork/es.md) | [Category:Icon/es](wiki/Category_Icon/es.md) |
+|
 
 
 

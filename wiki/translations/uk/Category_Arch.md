@@ -1,15 +1,16 @@
 # Category:Arch/uk
 Pages relating to Architectural and Building Information Management
 
-### Contents:
+### Contents
 
-    
-  [Arch Axis/uk](Arch_Axis/uk.md)             [Arch Building/uk](Arch_Building/uk.md)     [Arch Equipment/uk](Arch_Equipment/uk.md)
-  [Arch Floor/uk](Arch_Floor/uk.md)           [Arch Frame/uk](Arch_Frame/uk.md)           [Arch Panel/uk](Arch_Panel/uk.md)
-  [Arch Rebar/uk](Arch_Rebar/uk.md)           [Arch Roof/uk](Arch_Roof/uk.md)             [Arch SectionPlane/uk](Arch_SectionPlane/uk.md)
-  [Arch Site/uk](Arch_Site/uk.md)             [Arch Space/uk](Arch_Space/uk.md)           [Arch Stairs/uk](Arch_Stairs/uk.md)
-  [Arch Structure/uk](Arch_Structure/uk.md)   [Arch tutorial/uk](Arch_tutorial/uk.md)     [Arch Wall/uk](Arch_Wall/uk.md)
-  [Arch Window/uk](Arch_Window/uk.md)         [Arch Workbench/uk](Arch_Workbench/uk.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch Axis/uk](wiki/Arch Axis/uk.md) | [Arch Building/uk](wiki/Arch Building/uk.md) | [Arch Equipment/uk](wiki/Arch Equipment/uk.md) |
+| [Arch Floor/uk](wiki/Arch Floor/uk.md) | [Arch Frame/uk](wiki/Arch Frame/uk.md) | [Arch Panel/uk](wiki/Arch Panel/uk.md) |
+| [Arch Rebar/uk](wiki/Arch Rebar/uk.md) | [Arch Roof/uk](wiki/Arch Roof/uk.md) | [Arch SectionPlane/uk](wiki/Arch SectionPlane/uk.md) |
+| [Arch Site/uk](wiki/Arch Site/uk.md) | [Arch Space/uk](wiki/Arch Space/uk.md) | [Arch Stairs/uk](wiki/Arch Stairs/uk.md) |
+| [Arch Structure/uk](wiki/Arch Structure/uk.md) | [Arch tutorial/uk](wiki/Arch tutorial/uk.md) | [Arch Wall/uk](wiki/Arch Wall/uk.md) |
+| [Arch Window/uk](wiki/Arch Window/uk.md) | [Arch Workbench/uk](wiki/Arch Workbench/uk.md) |
 
 
 

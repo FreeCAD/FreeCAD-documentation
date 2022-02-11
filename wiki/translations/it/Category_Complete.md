@@ -1,10 +1,11 @@
 # Category:Complete/it
 This category lists pages related to the [Complete Workbench/it](Complete_Workbench/it.md).
 
-### Contents:
+### Contents
 
-  
-  [Complete Workbench/it](Complete_Workbench/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Complete Workbench/it](wiki/Complete Workbench/it.md) |
 
 
 

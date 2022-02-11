@@ -81,6 +81,49 @@ A Point (vertex) geometric primitive.
 |                                                            |     :                                   |
 +++
 
+## Notes
+
+## Properties
+
+## Limitations
+
+## Scripting
+
+A Part Point can be created with the following function:
+
+ 
+```python
+point = FreeCAD.ActiveDocument.addObject("Part::Vertex", "myPoint")
+```
+
+-   Where {{Incode|"myPoint"}} is the name for the object.
+-   The function returns the newly created object.
+
+The name of the object can be easily changed by
+
+ 
+```python
+point.Label = "new pointName"
+```
+
+You can access and modify attributes of the {{Incode|point}} object. For example, you may wish to modify the x, y or z coordinate.
+
+ 
+```python
+point.X = 1
+point.Y = 2
+point.Z = 3
+```
+
+The result will be a new location of the point with the given coordinates.
+
+You can change its placement and orientation with:
+
+ 
+```python
+point.Placement= FreeCAD.Placement(FreeCAD.Vector(0.00,0.00,0.00),App.Rotation(App.Vector(0.00,0.00,1.00),0.00))
+```
+
 
 
 

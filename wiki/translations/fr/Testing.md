@@ -131,6 +131,31 @@ Ajoute la fonction de test
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
+### Recevoir une liste de tous les modules de test de premier niveau 
+
+
+```python
+FreeCAD.__unit_test__
+```
+
+Notez que les modules de test retournés ici dépendent de la présence ou non d\'une interface graphique. C\'est-à-dire que lorsqu\'ils sont exécutés en mode console, les différents tests se terminant par \"Gui\" sont absents.
+
+### Lancer des tests spécifiques 
+
+Il existe plusieurs façons d\'exécuter des tests en utilisant [la bibliothèque unittest de Python](https://docs.python.org/3/library/unittest.html). Le cadre de test de FreeCAD supprime une partie des cas basiques pour les cas les plus courants.
+
+Exécute tous les tests définis dans un module de Python : 
+```python
+import Test, TestFemApp
+Test.runTestsFromModule(TestFemApp)
+```
+
+Exécute tous les tests définis dans une classe de Python : 
+```python
+import Test, femtest.app.test_solver_calculix
+Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
+```
+
 ### Exemple 1 
 
 Dans la console Python de FreeCAD, le format de code suivant peut être utilisé pour exécuter des tests intégrés. Remplacez le texte rouge \"**TestFem**\" dans le code ci-dessous par le nom du module de test souhaité.

@@ -1,30 +1,31 @@
 # Category:Python Code/en
 This category contains python code examples for FreeCAD
 
-### Contents:
+### Contents
 
-    
-  [Code snippets/en](Code_snippets/en.md)                                                           [Command/en](Command/en.md)                                                                       [Create a FeaturePython object part I/en](Create_a_FeaturePython_object_part_I/en.md)
-  [Create a FeaturePython object part II/en](Create_a_FeaturePython_object_part_II/en.md)           [Custom icon in tree view/en](Custom_icon_in_tree_view/en.md)                                     [Debugging/en](Debugging/en.md)
-  [Dialog creation image and animated GIF/en](Dialog_creation_image_and_animated_GIF/en.md)         [Dialog creation reading and writing files/en](Dialog_creation_reading_and_writing_files/en.md)   [Dialog creation setting colors/en](Dialog_creation_setting_colors/en.md)
-  [Dialog creation with various widgets/en](Dialog_creation_with_various_widgets/en.md)             [Dialog creation/en](Dialog_creation/en.md)                                                       [Drawing API example/en](Drawing_API_example/en.md)
-  [Embedding FreeCAD/en](Embedding_FreeCAD/en.md)                                                   [Embedding FreeCADGui/en](Embedding_FreeCADGui/en.md)                                             [Extra python modules/en](Extra_python_modules/en.md)
-  [FeaturePython methods/en](FeaturePython_methods/en.md)                                           [FEM Tutorial Python/en](FEM_Tutorial_Python/en.md)                                               [FreeCAD Scripting Basics/en](FreeCAD_Scripting_Basics/en.md)
-  [FreeCAD vector math library/en](FreeCAD_vector_math_library/en.md)                               [How to install macros/en](How_to_install_macros/en.md)                                           [Interface creation/en](Interface_creation/en.md)
-  [Introduction to Python/en](Introduction_to_Python/en.md)                                         [Line drawing function/en](Line_drawing_function/en.md)                                           [Macro at Startup/en](Macro_at_Startup/en.md)
-  [Macros recipes/en](Macros_recipes/en.md)                                                         [Macros/en](Macros/en.md)                                                                         [Manual:A gentle introduction/en](Manual:A_gentle_introduction/en.md)
-  [Manual:Creating and manipulating geometry/en](Manual:Creating_and_manipulating_geometry/en.md)   [Manual:Creating interface tools/en](Manual:Creating_interface_tools/en.md)                       [Manual:Creating parametric objects/en](Manual:Creating_parametric_objects/en.md)
-  [Mesh Scripting/en](Mesh_Scripting/en.md)                                                         [Mesh to Part/en](Mesh_to_Part/en.md)                                                             [Part scripting/en](Part_scripting/en.md)
-  [Path scripting/en](Path_scripting/en.md)                                                         [Pivy/en](Pivy/en.md)                                                                             [Profiling/en](Profiling/en.md)
-  [Property/en](Property/en.md)                                                                     [PySide Advanced Examples/en](PySide_Advanced_Examples/en.md)                                     [PySide Beginner Examples/en](PySide_Beginner_Examples/en.md)
-  [PySide Intermediate Examples/en](PySide_Intermediate_Examples/en.md)                             [PySide usage snippets/en](PySide_usage_snippets/en.md)                                           [PySide/en](PySide/en.md)
-  [Python Development Environment/en](Python_Development_Environment/en.md)                         [Python scripting tutorial/en](Python_scripting_tutorial/en.md)                                   [Python/en](Python/en.md)
-  [PythonOCC/en](PythonOCC/en.md)                                                                   [Qt Example/en](Qt_Example/en.md)                                                                 [Quantity/en](Quantity/en.md)
-  [Raytracing API example/en](Raytracing_API_example/en.md)                                         [Scripted objects migration/en](Scripted_objects_migration/en.md)                                 [Scripted objects saving attributes/en](Scripted_objects_saving_attributes/en.md)
-  [Scripted objects with attachment/en](Scripted_objects_with_attachment/en.md)                     [Scripted objects/en](Scripted_objects/en.md)                                                     [Scripted Parts: Ball Bearing - Part 1/en](Scripted_Parts:_Ball_Bearing_-_Part_1/en.md)
-  [Scripted Parts: Ball Bearing - Part 2/en](Scripted_Parts:_Ball_Bearing_-_Part_2/en.md)           [Scripting and macros/en](Scripting_and_macros/en.md)                                             [Scripts/en](Scripts/en.md)
-  [Svg Namespace/en](Svg_Namespace/en.md)                                                           [Topological data scripting/en](Topological_data_scripting/en.md)                                 [Viewprovider/en](Viewprovider/en.md)
-  [Workbench creation/en](Workbench_creation/en.md)
+|     |     |     |
+| --- | --- | --- |
+| [Code snippets/en](wiki/Code snippets/en.md) | [Command/en](wiki/Command/en.md) | [Create a FeaturePython object part I/en](wiki/Create a FeaturePython object part I/en.md) |
+| [Create a FeaturePython object part II/en](wiki/Create a FeaturePython object part II/en.md) | [Custom icon in tree view/en](wiki/Custom icon in tree view/en.md) | [Debugging/en](wiki/Debugging/en.md) |
+| [Dialog creation image and animated GIF/en](wiki/Dialog creation image and animated GIF/en.md) | [Dialog creation reading and writing files/en](wiki/Dialog creation reading and writing files/en.md) | [Dialog creation setting colors/en](wiki/Dialog creation setting colors/en.md) |
+| [Dialog creation with various widgets/en](wiki/Dialog creation with various widgets/en.md) | [Dialog creation/en](wiki/Dialog creation/en.md) | [Drawing API example/en](wiki/Drawing API example/en.md) |
+| [Embedding FreeCAD/en](wiki/Embedding FreeCAD/en.md) | [Embedding FreeCADGui/en](wiki/Embedding FreeCADGui/en.md) | [Extra python modules/en](wiki/Extra python modules/en.md) |
+| [FeaturePython methods/en](wiki/FeaturePython methods/en.md) | [FEM Tutorial Python/en](wiki/FEM Tutorial Python/en.md) | [FreeCAD Scripting Basics/en](wiki/FreeCAD Scripting Basics/en.md) |
+| [FreeCAD vector math library/en](wiki/FreeCAD vector math library/en.md) | [How to install macros/en](wiki/How to install macros/en.md) | [Interface creation/en](wiki/Interface creation/en.md) |
+| [Introduction to Python/en](wiki/Introduction to Python/en.md) | [Line drawing function/en](wiki/Line drawing function/en.md) | [Macro at Startup/en](wiki/Macro at Startup/en.md) |
+| [Macros recipes/en](wiki/Macros recipes/en.md) | [Macros/en](wiki/Macros/en.md) | [Manual:A gentle introduction/en](wiki/Manual_A gentle introduction/en.md) |
+| [Manual:Creating and manipulating geometry/en](wiki/Manual_Creating and manipulating geometry/en.md) | [Manual:Creating interface tools/en](wiki/Manual_Creating interface tools/en.md) | [Manual:Creating parametric objects/en](wiki/Manual_Creating parametric objects/en.md) |
+| [Mesh Scripting/en](wiki/Mesh Scripting/en.md) | [Mesh to Part/en](wiki/Mesh to Part/en.md) | [Part scripting/en](wiki/Part scripting/en.md) |
+| [Path scripting/en](wiki/Path scripting/en.md) | [Pivy/en](wiki/Pivy/en.md) | [Profiling/en](wiki/Profiling/en.md) |
+| [Property/en](wiki/Property/en.md) | [PySide Advanced Examples/en](wiki/PySide Advanced Examples/en.md) | [PySide Beginner Examples/en](wiki/PySide Beginner Examples/en.md) |
+| [PySide Intermediate Examples/en](wiki/PySide Intermediate Examples/en.md) | [PySide usage snippets/en](wiki/PySide usage snippets/en.md) | [PySide/en](wiki/PySide/en.md) |
+| [Python Development Environment/en](wiki/Python Development Environment/en.md) | [Python scripting tutorial/en](wiki/Python scripting tutorial/en.md) | [Python/en](wiki/Python/en.md) |
+| [PythonOCC/en](wiki/PythonOCC/en.md) | [Qt Example/en](wiki/Qt Example/en.md) | [Quantity/en](wiki/Quantity/en.md) |
+| [Raytracing API example/en](wiki/Raytracing API example/en.md) | [Scripted objects migration/en](wiki/Scripted objects migration/en.md) | [Scripted objects saving attributes/en](wiki/Scripted objects saving attributes/en.md) |
+| [Scripted objects with attachment/en](wiki/Scripted objects with attachment/en.md) | [Scripted objects/en](wiki/Scripted objects/en.md) | [Scripted Parts: Ball Bearing - Part 1/en](wiki/Scripted Parts_ Ball Bearing - Part 1/en.md) |
+| [Scripted Parts: Ball Bearing - Part 2/en](wiki/Scripted Parts_ Ball Bearing - Part 2/en.md) | [Scripting and macros/en](wiki/Scripting and macros/en.md) | [Scripts/en](wiki/Scripts/en.md) |
+| [Svg Namespace/en](wiki/Svg Namespace/en.md) | [Topological data scripting/en](wiki/Topological data scripting/en.md) | [Viewprovider/en](wiki/Viewprovider/en.md) |
+| [Workbench creation/en](wiki/Workbench creation/en.md) |
 
 
 

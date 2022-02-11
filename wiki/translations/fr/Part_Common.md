@@ -13,12 +13,12 @@
 
 Extrait la partie commune (intersection) entre les objets Part sélectionnés. Cette opération est entièrement paramétrique et les composants peuvent être modifiés et le résultat recalculé.
 
-### Utilisation
+## Utilisation
 
 1.  Sélectionnez deux formes
 2.  Cliquez sur le bouton **![](images/)_[Intersection](Part_Common/fr.md)**
 
-### Entrées supportées 
+## Entrées supportées 
 
 Les objets utilisés doivent être des formes [OpenCASCADE](OpenCASCADE/fr.md). Exemples : les trucs faits avec un des ateliers Part, PartDesign, Sketcher. Pas de maillages (sauf s\'ils ont été convertis en formes) - pour les maillages, il existe des outils booléens spécifiques dans l\'atelier MeshDesign.
 

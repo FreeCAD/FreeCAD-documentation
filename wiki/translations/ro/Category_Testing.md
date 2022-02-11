@@ -1,12 +1,12 @@
 # Category:Testing/ro
 Pages related to testing in regards to unit testing, continuous integration, quality assurance, regression testing etc\...
 
-### Contents:
+### Contents
 
-    --
-  [Continuous Integration/ro](Continuous_Integration/ro.md)   [Testing/ro](Testing/ro.md)   
-                                                                                                            
-    --
+|     |     |     |
+| --- | --- | --- |
+| [Continuous Integration/ro](wiki/Continuous Integration/ro.md) | [Testing/ro](wiki/Testing/ro.md) | [Category:Test Framework/ro](wiki/Category_Test Framework/ro.md) |
+|
 
 
 

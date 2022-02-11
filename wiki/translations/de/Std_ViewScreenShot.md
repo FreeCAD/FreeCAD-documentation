@@ -9,6 +9,9 @@
 
 # Std ViewScreenShot/de
 
+
+</div>
+
 ## Beschreibung
 
 Der **Std AnsichtBildschirmFoto** Befehl öffnet ein Dialogfeld, um eine Bilddatei, einen Bildschirmfoto, von der aktiven [3D Ansicht](3D_view/de.md) zu erstellen.

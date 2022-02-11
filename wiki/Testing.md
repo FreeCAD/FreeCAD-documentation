@@ -143,13 +143,13 @@ Note that the test modules returned here depend on whether a GUI available or no
 
 There are various ways of running tests using [Python\'s unittest library](https://docs.python.org/3/library/unittest.html). FreeCAD\'s test framework removes some of the boiler plate for the most common cases.
 
-Run all tests defined in a python module:  
+Run all tests defined in a Python module:  
 ```python
 import Test, TestFemApp
 Test.runTestsFromModule(TestFemApp)
 ```
 
-Run all tests defined in a python class:  
+Run all tests defined in a Python class:  
 ```python
 import Test, femtest.app.test_solver_calculix
 Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)

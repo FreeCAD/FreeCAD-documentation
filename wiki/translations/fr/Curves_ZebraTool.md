@@ -23,9 +23,9 @@ L\'<img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> [Outil Zebr
 
 ## Propriétés
 
--    **Black Stripes Width**: modifiez la largeur des bandes noires.
+-    **Black Stripes Width**: modifie la largeur des bandes noires.
 
--    **Scale**: redimensionnez les rayures zébrées.
+-    **Scale**: redimensionne les rayures zébrées.
 
 -    **Rotation**: fait pivoter les rayures zébrées.
 

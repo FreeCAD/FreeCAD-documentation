@@ -81,15 +81,21 @@ Todo el trabajo en Part Design comienza con un [Body](Glossary#Body.md). Luego c
 
 </div>
 
-1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
+1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
 *Note: this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
-2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
+2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
 3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the Tasks tab from the Combo view, select **YZ\_Plane** in the list and press **OK**:
+4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ\_Plane** in the list and press **OK**:
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width:250px;">
 
+
+<div class="mw-translate-fuzzy">
+
 \"Nota: es posible que el botón OK no esté visible si el panel lateral no es lo suficientemente ancho. Puede hacerlo más ancho arrastrando su borde derecho. Coloque el puntero del mouse sobre el borde; cuando el puntero se convierta en una flecha bidireccional, mantenga presionado el botón izquierdo del mouse y arrastre\".
+
+
+</div>
 
 Una vez que hace clic en Aceptar, FreeCAD cambia automáticamente a [ Sketcher workbench](Sketcher_Workbench.md) y abre el boceto/sketch en modo de edición:
 
@@ -125,7 +131,13 @@ En este punto, debe tener un boceto totalmente restringido, tal como lo indica e
 
 ![](images/Tut17_profile.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Ahora en la vista combinada, haga clic en el botón Cerrar para salir del modo de edición de bocetos y seleccione ![ 32px](images/_PartDesign_Pad.png ) Pad desde la barra de herramientas o desde el menú Part Disign. Esto le dará un diálogo de Pad en la Combo View. Usando ese diálogo, primero usando el menú desplegable Tipo, seleccione dos dimensiones. El dibujo presentado al comienzo de este tutorial muestra que la pieza mide 53 mm de largo. Lo hacemos rellenando nuestro boceto en ambos sentidos desde el plano central para compensar esa distancia, es decir, hacer que el pad sea simétrico en relación con el plano de boceto. La razón de esto se ve más adelante al crear otros rasgos. Por ahora, dado que queremos que tenga 53 mm de longitud en total, ingresaremos 26.5 para Longitud y 26.5 nuevamente para la segunda longitud. Alternativamente, puede proporcionar una longitud única de 53 mm y hacer clic en la casilla de verificación simétrica al plano. Una vez hecho esto, ahora tenemos nuestra base sólida sobre la cual agregaremos características adicionales para construir nuestra pieza.
+
+
+</div>
 
 Un video de los pasos utilizados en esta parte del tutorial está aquí: <https://youtu.be/cUyPnCMeTgg>
 
@@ -143,7 +155,13 @@ Con el mouse o los iconos de la vista, gire el modelo para que pueda ver su part
 
 ![](images/PD_WB_Tutorial003.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Después de seleccionar la cara, haga clic en el ícono Nuevo boceto en la barra de herramientas o en el menú Part Design y eso correlacionará nuestro siguiente boceto con la cara posterior de la pieza. Ahora seleccione la herramienta de rectángulo ![ 32px](images/_Sketcher_CreateRectangle.png ) y coloque un rectángulo en la cara posterior de la pieza de forma similar a la que se muestra a continuación. Ahora, siguiendo los pasos enumerados, restrinja el boceto.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -162,9 +180,21 @@ Después de seleccionar la cara, haga clic en el ícono Nuevo boceto en la barra
 
 ![](images/tut17_slote_constrained.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Una vez hecho esto, haga clic en el botón Cerrar en la parte superior de la pestaña Tareas en la ventana de Combo View, luego seleccione ![ 32px](images/_PartDesign_Pocket.png ) Herramienta Pocket/hueco de la barra de herramientas o del menú Part Design. Usar esta herramienta es lo opuesto a la herramienta Pad. A medida que la herramienta Pad agrega material a la pieza, la herramienta Pocket/hueco elimina el material de la pieza. Ambas operaciones se llaman \"features\". En esta operación de hueco, queremos seleccionar \"A través de todo\" en el menú desplegable y luego hacer clic en el botón Aceptar.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Para la próxima operación, asegúrese de que esté seleccionado \"Pocket/hueco\" en la vista Model tree y, una vez hecho, haga clic en <img alt="" src=images/PartDesign_Mirrored.png  style="width:32px;"> la función Espejo en la barra de herramientas o desde el menú Part Design. En el cuadro de diálogo Espejo en el Combo View, seleccione Eje de boceto horizontal en el Plane pulldown menu. Luego haz clic en OK. La función Mirror funciona de esta manera porque la característica base de nuestro modelo fue implementada en ambos sentidos desde el plano horizontal en la primera operación con el boceto base. Si todo ha ido bien, ahora deberías tener una parte que se parece a la imagen de abajo después de que orbites alrededor del frente.
+
+
+</div>
 
 ![](images/tut17_profilewithslots.png )
 
@@ -222,7 +252,13 @@ En este punto, orbitando la parte que está al frente, podemos ver que nuestra p
 
 ![](images/tut17_innerplane.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Aquí utilizaremos la herramienta rectangular y colocaremos un rectángulo en nuestro boceto y, una vez hecho esto, aplicaremos las siguientes restricciones.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -263,7 +299,13 @@ Para crear un hueco que tenga el rectángulo inclinado como salida, dibujamos un
 
 ![](images/tut17_profilewithsideblocksrearplane.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Seleccione **Nuevo boceto** ![ 32px](images/_PartDesign_NewSketch.png ) desde la barra de herramientas o el menú Part Design. Ahora en el modo de edición de bosquejos, no vemos el rectángulo esbozado de la pendiente. Para que sea seleccionable, cambiamos la ventana Combo View a la pestaña Modelo y seleccionamos el último boceto realizado (Sketch003) en el plano inclinado. Luego, usando la barra espaciadora, hazla visible. Luego, seleccione la función de espejo arriba (mirrored001) y nuevamente usando la barra espaciadora, escóndalo. Entonces deberías ver el rectángulo dentro de la Vista 3D. Puede continuar trabajando con la pestaña del modelo visible o volver a la pestaña de tareas. Usando la herramienta de geometría externa ![ 32px](images/_Sketcher_External.png ), seleccione los bordes horizontales superior e inferior del rectángulo inclinado.
+
+
+</div>
 
 ![](images/tut17_rectangleunconstrained.png )
 
@@ -274,7 +316,13 @@ Y deberíamos terminar con esto.
 
 ![](images/tut17_rectangleconstrained.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Para el último paso de este tutorial, cierre la ventana del sketcher usando la edición close o fish editing desde el menú contextual de sketch004 y luego seleccione la función Pocket/hueco de ![ 32px](images/_PartDesign_Pocket.png ) desde la barra de herramientas o desde el menú Part Design. Desde el menú desplegable Type, seleccione **A través de todos** y haga clic en el botón Aceptar.
+
+
+</div>
 
 ![](images/Tut17_final.png )
 

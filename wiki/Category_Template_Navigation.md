@@ -1,22 +1,23 @@
 # Category:Template:Navigation
 This category lists templates that create navigation elements.
 
-### Contents:
+### Contents
 
-    
-  [Template:Arch Tools navi](Template_Arch_Tools_navi.md)                 [Template:Artwork](Template_Artwork.md)                               [Template:Artwork/ru](Template:Artwork/ru.md)
-  [Template:Docnav](Template_Docnav.md)                                   [Template:Document objects navi](Template_Document_objects_navi.md)   [Template:Draft Tools navi](Template_Draft_Tools_navi.md)
-  [Template:Drawing Tools navi](Template_Drawing_Tools_navi.md)           [Template:EM Tools navi](Template_EM_Tools_navi.md)                   [Template:FEM Tools navi](Template_FEM_Tools_navi.md)
-  [Template:Image Tools navi](Template_Image_Tools_navi.md)               [Template:Interface navi](Template_Interface_navi.md)                 [Template:Mesh Tools navi](Template_Mesh_Tools_navi.md)
-  [Template:Navigation menu 2](Template_Navigation_menu_2.md)             [Template:OpenSCAD Tools navi](Template_OpenSCAD_Tools_navi.md)       [Template:Part Tools navi](Template_Part_Tools_navi.md)
-  [Template:PartDesign Tools navi](Template_PartDesign_Tools_navi.md)     [Template:Path Tools navi](Template_Path_Tools_navi.md)               [Template:Plot Tools navi](Template_Plot_Tools_navi.md)
-  [Template:Points Tools navi](Template_Points_Tools_navi.md)             [Template:Powerdocnavi](Template_Powerdocnavi.md)                     [Template:Raytracing Tools navi](Template_Raytracing_Tools_navi.md)
-  [Template:Robot Tools navi](Template_Robot_Tools_navi.md)               [Template:Ship Tools navi](Template_Ship_Tools_navi.md)               [Template:Sketcher Tools navi](Template_Sketcher_Tools_navi.md)
-  [Template:Spreadsheet Tools navi](Template_Spreadsheet_Tools_navi.md)   [Template:Start Tools navi](Template_Start_Tools_navi.md)             [Template:Std Base navi](Template_Std_Base_navi.md)
-  [Template:Surface Tools navi](Template_Surface_Tools_navi.md)           [Template:TechDraw Tools navi](Template_TechDraw_Tools_navi.md)       [Template:Top](Template_Top.md)
-  [Template:Tutorials navi](Template_Tutorials_navi.md)                   [Template:Userdocnavi](Template_Userdocnavi.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Arch Tools navi](wiki/Template_Arch Tools navi.md) | [Template:Artwork](wiki/Template_Artwork.md) | [Template:Artwork/ru](wiki/Template_Artwork/ru.md) |
+| [Template:Docnav](wiki/Template_Docnav.md) | [Template:Document objects navi](wiki/Template_Document objects navi.md) | [Template:Draft Tools navi](wiki/Template_Draft Tools navi.md) |
+| [Template:Drawing Tools navi](wiki/Template_Drawing Tools navi.md) | [Template:EM Tools navi](wiki/Template_EM Tools navi.md) | [Template:FEM Tools navi](wiki/Template_FEM Tools navi.md) |
+| [Template:Image Tools navi](wiki/Template_Image Tools navi.md) | [Template:Interface navi](wiki/Template_Interface navi.md) | [Template:Mesh Tools navi](wiki/Template_Mesh Tools navi.md) |
+| [Template:Navigation menu 2](wiki/Template_Navigation menu 2.md) | [Template:OpenSCAD Tools navi](wiki/Template_OpenSCAD Tools navi.md) | [Template:Part Tools navi](wiki/Template_Part Tools navi.md) |
+| [Template:PartDesign Tools navi](wiki/Template_PartDesign Tools navi.md) | [Template:Path Tools navi](wiki/Template_Path Tools navi.md) | [Template:Plot Tools navi](wiki/Template_Plot Tools navi.md) |
+| [Template:Points Tools navi](wiki/Template_Points Tools navi.md) | [Template:Powerdocnavi](wiki/Template_Powerdocnavi.md) | [Template:Raytracing Tools navi](wiki/Template_Raytracing Tools navi.md) |
+| [Template:Robot Tools navi](wiki/Template_Robot Tools navi.md) | [Template:Ship Tools navi](wiki/Template_Ship Tools navi.md) | [Template:Sketcher Tools navi](wiki/Template_Sketcher Tools navi.md) |
+| [Template:Spreadsheet Tools navi](wiki/Template_Spreadsheet Tools navi.md) | [Template:Start Tools navi](wiki/Template_Start Tools navi.md) | [Template:Std Base navi](wiki/Template_Std Base navi.md) |
+| [Template:Surface Tools navi](wiki/Template_Surface Tools navi.md) | [Template:TechDraw Tools navi](wiki/Template_TechDraw Tools navi.md) | [Template:Top](wiki/Template_Top.md) |
+| [Template:Tutorials navi](wiki/Template_Tutorials navi.md) | [Template:Userdocnavi](wiki/Template_Userdocnavi.md) |
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Category:Template:Navigation
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Template:Navigation

@@ -35,6 +35,9 @@
 
 ### Дополнительные инструменты 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [\"Создать деталь\"](Std_Part/ru.md): Создает новую часть и делает ее активной.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [\"Создать группу\"](Std_Group/ru.md): Создает новую группу.
 -   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [\"Создать ссылку\"](Std_LinkMake/ru.md): Создает ссылку. {{Version/ru|0.19}}
@@ -51,6 +54,9 @@
 -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [\"Назад\"](Std_SelBack/ru.md): Вернуться к предидущему сохраненному выбору. {{Version/ru|0.19}}
 -   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [\"Вперед\"](Std_SelForward/ru.md): Восстанавливает следующий сохраненный выбор. {{Version/ru|0.19}}
 -   [\"Выражения\"](Std_Expressions.md): Действия с выражениями. {{Version/ru|0.19}}
+
+
+</div>
 
 
 

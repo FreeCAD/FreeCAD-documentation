@@ -1,10 +1,11 @@
 # Category:Draft/hu
 This category list pages related to the \"User\_Documentation/hu\" and \"Workbenches/hu\"
 
-### Contents:
+### Contents
 
-  
-  [Draft Workbench/hu](Draft_Workbench/hu.md)
+|     |     |     |
+| --- | --- | --- |
+| [Draft Workbench/hu](wiki/Draft Workbench/hu.md) |
 
 
 

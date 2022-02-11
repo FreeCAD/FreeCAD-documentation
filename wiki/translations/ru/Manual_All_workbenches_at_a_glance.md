@@ -71,6 +71,9 @@
 
 Верстак Sketcher содержит инструменты для создания и редактирования сложных двумерных объектов, называемых эскизами (sketch). Геометрия внутри этих эскизов может быть точно позиционирована и связана использованием ограничений. Это создано в первую очередь для создания блоков в геометрии PartDesign, но может быть полезно в любом месте FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
   Инструмент                                                                                                                                                         Описание                                                                                                                                                                     Инструмент                                                                                                                                                   Описание
      
   <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:32px;"> [Point](Sketcher_CreatePoint/ru.md)                                               Рисует точку                                                                                                                                                                 <img alt="" src=images/Sketcher_Line.svg  style="width:32px;"> [Line](Sketcher_CreateLine/ru.md)                                                         Рисует отрезок по двум точкам
@@ -94,6 +97,9 @@
   <img alt="" src=images/Constraint_InternalAngle.png  style="width:32px;"> [Internal anglr](Sketcher_ConstrainAngle/ru.md)                           Определяет внутренний угол между двумя выбранными линиями                                                                                                                    <img alt="" src=images/Constraint_SnellsLaw.png  style="width:32px;"> [Snell\'s law](Sketcher_ConstrainSnellsLaw/ru.md)                           Ограничивает две линии подчинением закону рефракции для симуляции света, идущего через интерфейс
   <img alt="" src=images/Constraint_InternalAlignment.png  style="width:32px;"> [Internal alignment](Sketcher_ConstrainInternalAlignment/ru.md)   Выравнивает выбранные элементы по выбранной форме (например, линии, чтобы стать главной осью эллипса)                                                                        <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Map sketch](Sketcher_MapSketch/ru.md)                                          Располагает эскиз на заранее выбранной плоскости тела
   <img alt="" src=images/Sketcher_MergeSketch.svg  style="width:32px;"> [Merge](Sketcher_MergeSketches/ru.md)                                             Соединяет два или более эскиза                                                                                                                                               <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Mirror](Sketcher_MirrorSketch/ru.md)                                     Отражает выбранные элементы эскиза
+
+
+</div>
 
 ### Верстак PartDesign 
 

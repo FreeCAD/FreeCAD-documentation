@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name:Std LinkMake
-   Name/de : LinkMake
+   Name/de:Std VerknüpfungErstellen
    MenuLocation:Keine
    Workbenches:Alle
    Version:0.19
@@ -13,28 +13,13 @@
 ## Beschreibung
 
 
-<div class="mw-translate-fuzzy">
+**[<img src=images/Std_LinkMake.svg style="width:16px"> [Verknüpfung erstellen](Std_LinkMake/de.md)**
 
-Ein [App::Link](Std_LinkMake/de.md) oder einfach nur [Link](Std_LinkMake/de.md) ist ein Objekttyp, der auf ein anderes Objekt, im selben Dokument oder in einem anderen Dokument verweist. Es ist für den Einsatz in mechanischen Baugruppen vorgesehen, bei denen ein Objekt mehrfach auftreten kann, z.B. Schrauben und Bolzen, aber auch andere komplexe Unterbaugruppen.
+erstellt ein [App-Link](App_Link.md)-Objekt (`App::Link` class), das auf ein anderes Objekt innerhalb desselben Dokuments oder in einem anderen Dokument verweist oder eine Verknüpfung zu ihm erzeugt. Es ist speziell dafür entwickelt worden einzelne Objekte effizient zu vervielfältigen, was bei der Erstellung komplexer [Baugruppen](assembly/de.md) aus kleineren Unterbaugruppen und vielen Wiederholteilen wie Schrauben, Muttern und ähnlichen Befestigungselementen hilft.
 
+Das [App-Link](App_Link/de.md)-Object wurde mit der Version 0.19 neu eingeführt; in der Vergangenheit wurde das einfache Duplizieren von Objekten durch **[<img src=images/Draft_Clone.svg style="width:16px"> [Draft Clone](Draft_Clone/de.md)** erreicht, aber das ist eine weniger effiziente Lösung, da sie entsprechend ihrer Implementierung zwingend eine Kopie der internen [Form](Part_TopoShape/de.md) des Quellobjekts erzeugt. Dagegen referenziert ein App-Link direkt auf die originale Form und ist dadurch speichereffizienter.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Für eine einfache Duplizierung von Objekten siehe [Entwurfsklon](Draft_Clone/de.md), [Entwurfsfeld](Draft_Array/de.md) und [Draft PathArray](Draft_PathArray/de.md). Die Werkzeuge [Draft LinkArray](Draft_LinkArray/de.md) und [Draft PathLinkArray](Draft_PathLinkArray/de.md) erstellen Verknüpfungen anstelle von einfachen Kopien.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Verknüpfungen sind für die Verwendung mit Vollkörpern vorgesehen. Um Arrays von Merkmalen innerhalb derselben [PartDesign Body](PartDesign_Body/de.md) zu erzeugen, verwende [PartDesign LinearPattern](PartDesign_LinearPattern/de.md), [PartDesign PolarPattern](PartDesign_PolarPattern/de.md) und [PartDesign MultiTransform](PartDesign_MultiTransform/de.md).
-
-
-</div>
+Das [App-Link](App_Link.md)-Objekt allein kann schon wie ein Array genutzt werden um das Basisobjekt zu vervielfältigen; das kann erreicht werden, durch das Ändern der {{PropertyData/de|Element Count}} auf {{Value|1}} oder größer. Dieses \"[Link-Array](#Link_Array.md)\"-Object kann auch mit den verschiedenen Array-Werkzeugen des <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft-Arbeitsbereichs](Draft_Workbench/de.md) erzeugt werden, z.B. **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft Rechtwinklige Anordnung](Draft_OrthoArray/de.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft Polare Anordnung](Draft_PolarArray/de.md)**, and **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft Kreisanordnung](Draft_CircularArray/de.md)**.
 
 When used with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), Links are intended to be used with **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Bodies](PartDesign_Body.md)**, so it is recommended to set **Display Mode Body** to {{Value|Tip}} to select the features of the entire Body, and not the individual features. To create arrays of the internal [PartDesign Features](PartDesign_Feature.md), use **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign LinearPattern](PartDesign_LinearPattern.md)**, **[<img src=images/PartDesign_PolarPattern.svg style="width:16px"> [PartDesign PolarPattern](PartDesign_PolarPattern.md)**, and **[<img src=images/PartDesign_MultiTransform.svg style="width:16px"> [PartDesign MultiTransform](PartDesign_MultiTransform.md)**.
 
@@ -53,7 +38,7 @@ The **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_L
 
 Without selection:
 
-1.  If no object is selected, press the **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)** button to create an empty <img alt="" src=images/Link.svg  style="width:24px;"> Link.
+1.  If no object is selected, press the **[<img src=images/Std_LinkMake.svg style="width:16px"> [Make link](Std_LinkMake.md)** button to create an empty <img alt="" src=images/Link.svg  style="width:24px;"> Link.
 2.  Go to the [property editor](property_editor.md), then click on the **Linked Object** property to open the [Link selection dialog](Selection_methods.md) to choose an object, then press **OK**.
 3.  Instead of choosing an entire object in the [tree view](tree_view.md), you can also pick subelements (vertices, edges, or faces) of a single object in the [3D view](3D_view.md). In this case, the Link will duplicate only these subelements, and the arrow overlay will be different. This can also be done with **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std LinkMakeRelative](Std_LinkMakeRelative.md)**.
 
@@ -68,7 +53,7 @@ Without selection:
 1.  Start with a document that has at least one object which will be the source of the Link.
 2.  Open a new document or an existing document. For easier handling, use **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std TreeMultiDocument](Std_TreeMultiDocument.md)** to show both documents in the [tree view](tree_view.md). Before you proceed, [save](Std_Save.md) both documents. The Link won\'t be able to find its source and target unless both documents are saved on disk.
 3.  In the first document, select the object that you wish to link; then switch tabs in the [main view area](main_view_area.md) to switch to the second document.
-4.  Press **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**. The produced object has the same icon as the original object, but has an additional arrow overlay indicating it is a Link coming from an external document.
+4.  Press **[<img src=images/Std_LinkMake.svg style="width:16px"> [Make link](Std_LinkMake.md)**. The produced object has the same icon as the original object, but has an additional arrow overlay indicating it is a Link coming from an external document.
 
 
 **Notes:**
@@ -406,13 +391,7 @@ Other miscellaneous \"links\" about Link include:
 -   [Dynamic linked object](Dynamic_linked_object.md) - A pattern with Link and assemblies that aims to reduce duplication of assembly related logic such as orientation, positioning, or number of instances.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

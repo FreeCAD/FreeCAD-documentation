@@ -22,6 +22,7 @@ Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'un objet.
 -   Si vous voulez supprimer des arêtes ou des faces
     -   sélectionnez l\'arête/la face dans la liste du dialogue et appuyez sur la touche **Suppr**. *Remarque* : puisqu\'il doit y avoir au moins une arête pour la fonction, la dernière arête ou face restante dans la liste ne peut pas être supprimée.
     -   ou cliquez sur le bouton **Suppression**. Toutes les arêtes et faces précédemment sélectionnées sont surlignées en violet. Sélectionnez l\'arête ou la face à supprimer.
+    -   Assurez-vous que la case **Utiliser tous les bords** n\'est pas cochée, sinon certains widgets de la boîte de dialogue seront désactivés. {{Version/fr|0.20}}
 -   Cliquez sur **OK** pour valider.
 -   Pour une chaîne d\'arêtes tangentes les unes aux autres, une seule arête peut être sélectionnée. Le congé se propagera le long de la chaîne.
 -   Pour éditer le filet après la validation de la fonction, double-cliquez sur l\'étiquette du filet dans l\'arbre du projet ou cliquez dessus avec le bouton droit de la souris et sélectionnez **Modifier le congé**.
@@ -60,7 +61,7 @@ L\'utilisateur est également responsable de l\'intégrité de son propre modèl
 
 ### Dénomination topologique 
 
-La numérotation des arêtes n\'est pas complètement stable. Il est donc conseillé de terminer la conception principale de votre corps solide avant d\'appliquer des fonctions telles que les congés et les chanfreins, sans quoi les arêtes risquent de changer de nom et les arêtes recevant un congé risquent de devenir invalides.
+La numérotation des arêtes n\'est pas complètement stable. Il est donc conseillé de terminer la conception principale de votre corps solide avant d\'appliquer des fonctions telles que les congés et les chanfreins, sans quoi les arêtes risquent de changer de nom et les arêtes recevant un congé risquent de devenir invalides. Lorsque la propriété *Utiliser tous les bords* {{Version/fr|0.20}} est cochée, il y a une certaine protection contre cela car dans ce cas, tous les bords de l\'objet de base sont utilisés et il n\'y a pas de dépendance sur les noms des bords individuels.
 
 Voir la page [Problème de dénomination topologique](Topological_naming_problem/fr.md) pour en savoir plus.
 

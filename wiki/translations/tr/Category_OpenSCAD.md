@@ -1,10 +1,11 @@
 # Category:OpenSCAD/tr
 This category lists pages related to the [OpenSCAD\_Workbench/tr](OpenSCAD_Workbench/tr.md).
 
-### Contents:
+### Contents
 
-  
-  [OpenSCAD Workbench/tr](OpenSCAD_Workbench/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [OpenSCAD Workbench/tr](wiki/OpenSCAD Workbench/tr.md) |
 
 
 

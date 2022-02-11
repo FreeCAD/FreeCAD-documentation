@@ -88,15 +88,21 @@
 
 </div>
 
-1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
+1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
 *Note: this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
-2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
+2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
 3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the Tasks tab from the Combo view, select **YZ\_Plane** in the list and press **OK**:
+4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ\_Plane** in the list and press **OK**:
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width:250px;">
 
+
+<div class="mw-translate-fuzzy">
+
 *Примечание: Возможно, кнопка OK может быть не видна, если боковая панель недостаточно широка. Вы можете сделать ее шире, перетаскивая за правую границу. Наведите указатель мыши на границу; когда указатель изменится на двустороннюю стрелку, нажмите и удерживайте левую кнопку мыши и двигайте.*
+
+
+</div>
 
 Когда вы нажмете OK, FreeCAD автоматически переключится на верстак [Sketcher](Sketcher_Workbench/ru.md) и откроет эскиз для редактирования:
 
@@ -132,7 +138,13 @@
 
 ![](images/Tut17_profile.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Теперь в комбинированном представлении нажмите кнопку Закрыть, чтобы выйти из режима редактирования эскиза, и выберите <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> Выдавить на панели инструментов или в меню Дизайна Детали. Это откроет диалоговое окно Выдавить в Комбо панели. Используя этот диалог, сначала с помощью выпадающего меню Тип выберите Два размера. Чертеж, представленный в начале этого урока, говорит, что длина детали составляет 53 мм. Вы сделаете это путем Выдавливания нашего эскиза в обе стороны от центральной плоскости, чтобы получить это расстояние, т.е. сделаете выдавливание симметрично расположению плоскости эскиза. Причину этого объясним позже при создании элементов. А теперь, если вы хотите, чтобы длина составила 53 мм, введите 26,5 для длины и 26,5 для второй длины. В качестве альтернативы, вы можете указать одну длину 53 мм и установить флажок Симметрично плоскости. Как только это будет сделано, вы получите основу, на которую добавите дополнительные элементы для построения вашей детали.
+
+
+</div>
 
 Видео шагов этой части урока находится здесь: <https://youtu.be/cUyPnCMeTgg>
 
@@ -150,7 +162,13 @@
 
 ![](images/PD_WB_Tutorial003.png )
 
+
+<div class="mw-translate-fuzzy">
+
 После выбора грани нажмите на иконку Новый эскиз на панели инструментов или в меню Дизайна Детали, и это разместит ваш следующий эскиз на задней гране детали. Теперь выберите инструмент <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> прямоугольник и поместите прямоугольник на задней стороне детали аналогичным образом, как показано ниже. Теперь, следуя перечисленным шагам, ограничьте эскиз.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -170,9 +188,21 @@
 
 ![](images/tut17_slote_constrained.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Как только это будет сделано, нажмите кнопку Закрыть в верхней части вкладки Задачи в окне Комбо панели, затем выберите инструмент<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Вырез на панели инструментов или в меню Дизайна Детали. Действие этого инструмента противоположно инструменту Выдавить. Инструмент Выдавить добавляет материал к детали, инструмент Вырез удаляет материал из детали. Обе операции являются функциями. В этой операции Выреза нам необходимо выбрать Насквозь в раскрывающемся меню Тип и затем нажать кнопку ОК.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Для следующей операции убедитесь, что Вырез выбран в представлении дерева модели, и после этого нажмите на инструмент <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> Элемент симметрии на панели инструментов или в меню Дизайна Детали. В диалоге Симметричного преобразования в Комбо панели, выберите Горизонтальная ось эскиза в выпадающем меню параметра Плоскость. Затем нажмите OK. Функция Симметрии работает таким образом потому, что базовый элемент вашей модели был Выдавлен в обе стороны от горизонтальной плоскости в первой операции с базовым эскизом. Если все прошло хорошо, теперь у вас должна быть деталь, похожая на изображение ниже, после того, как вы ее повернете лицевой частью вперед.
+
+
+</div>
 
 ![](images/tut17_profilewithslots.png )
 
@@ -230,7 +260,13 @@ Close the Sketcher.
 
 ![](images/tut17_innerplane.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Здесь вы будите использовать инструмент Прямоугольник и поместите прямоугольник в ваш эскиз, а после этого примените следующие ограничения.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -271,7 +307,13 @@ Close the Sketcher.
 
 ![](images/tut17_profilewithsideblocksrearplane.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Выберите **Новый Эскиз** <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> на панели инструментов или в меню Дизайна Детали. Теперь в режиме редактирования эскиза вы не видите нарисованный прямоугольник на склоне. Чтобы иметь возможность его выбрать, переключите Комбо панель на вкладку модели и выберите последний сделанный эскиз (Sketch003) на наклонной грани. Затем, используя пробел, сделайте его видимым. Далее выберите элемент симметрии выше (mirrored001) и снова, используя пробел, скройте его. Теперь вы должны увидеть наклонный прямоугольник внутри 3D вида. Вы можете продолжить работу с видимой вкладкой Модель или вернуться на вкладку Задачи. Используя инструмент Внешняя геометрия <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> выберите верхнюю и нижнюю грани наклонного прямоугольника. Затем добавьте в эскиз новый прямоугольник, используя <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> инструмент прямоугольника.
+
+
+</div>
 
 ![](images/tut17_rectangleunconstrained.png )
 
@@ -282,7 +324,13 @@ Close the Sketcher.
 
 ![](images/tut17_rectangleconstrained.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Последним шагом в этом уроке, закройте эскиз, с помощью кнопки закрытия или завершите редактирования из контекстного меню sketch004, а затем выберите инструмент <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Вырез на панели инструментов или из контекстного меню Дизайна Детали. В выпадающем меню поля Тип выберите **Насквозь** и нажмите кнопку OK.
+
+
+</div>
 
 ![](images/Tut17_final.png )
 

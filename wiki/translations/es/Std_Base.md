@@ -35,6 +35,9 @@ El menú estándar se compone de 7 submenús. Cada submenú tiene una página de
 
 ### Herramientas adicionales 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std Pieza](Std_Part/es.md): Crea una nueva pieza y la activa.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std Grupo](Std_Group/es.md): Crea un nuevo grupo.
 -   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Std EnlaceHacer](Std_LinkMake/es.md): Crea un enlace. {{Version/es|0.19}}
@@ -51,6 +54,9 @@ El menú estándar se compone de 7 submenús. Cada submenú tiene una página de
 -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Std SelVolver](Std_SelBack/es.md): Restablece la selección guardada anteriormente. {{Version/es|0.19}}
 -   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Std SelAdelante](Std_SelForward/es.md): Restaura la siguiente selección guardada. {{Version/es|0.19}}
 -   [Std Expresiones](Std_Expressions/es.md): Acciones de expresión. {{Version/es|0.19}}
+
+
+</div>
 
 
 

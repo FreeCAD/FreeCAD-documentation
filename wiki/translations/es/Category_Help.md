@@ -1,10 +1,11 @@
 # Category:Help/es
 Esta categoría lista páginas que contienen información útil sobre MediaWiki la edición.
 
-### Contents:
+### Contents
 
-  
-  [Help/es](Help/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Help/es](wiki/Help/es.md) |
 
 
 

@@ -1,4 +1,26 @@
 # Sketcher scripting
+## Creating a SketchObject using Python 
+
+We create a SketchObject like this:
+
+
+```python
+import Part,PartGui 
+import Sketcher
+from FreeCAD import Base
+doc=App.newDocument()  
+
+doc.addObject('Sketcher::SketchObject', 'Sketch')
+
+App.getDocument('Unnamed').getObject('Sketch').addGeometry(Part.LineSegment(App.Vector(1.2,1.8,0),App.Vector(5.2,5.3,0)),False)
+App.getDocument('Unnamed').getObject('Sketch').addGeometry(Part.LineSegment(App.Vector(6.5,1.5,0),App.Vector(10.2,5.0,0)),False)
+App.getDocument('Unnamed').getObject('Sketch').addGeometry(Part.LineSegment(App.Vector(12.2,1.0,0),App.Vector(15.4,5.0,0)),False)
+
+doc.recompute()
+```
+
+It also adds three lines in the newly created Sketch.
+
 ## Creating a constraint using Python 
 
 A geometric constraint <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> and the special <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [InternalAlignment](Sketcher_ConstrainInternalAlignment.md) constraints can be created from macros and from the python console by using the following command:
@@ -204,7 +226,25 @@ Let us take the previous example of the three lines. The subsequent figure indic
 
 The command `Sketch.addConstraint(Sketcher.Constraint('Coincident',1,2,2,1))` yields following result:
 
- <img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure4.jpg  style="width:600px;"> 
+ <img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure4.jpg  style="width:600px;">
+
+The full code to draw the three lines and add a Coincident constraint on two points from two lines is like this: 
+```python
+import Part,PartGui 
+import Sketcher
+from FreeCAD import Base
+doc=App.newDocument()  
+
+doc.addObject('Sketcher::SketchObject', 'Sketch')
+
+App.getDocument('Unnamed').getObject('Sketch').addGeometry(Part.LineSegment(App.Vector(1.2,1.8,0),App.Vector(5.2,5.3,0)),False)
+App.getDocument('Unnamed').getObject('Sketch').addGeometry(Part.LineSegment(App.Vector(6.5,1.5,0),App.Vector(10.2,5.0,0)),False)
+App.getDocument('Unnamed').getObject('Sketch').addGeometry(Part.LineSegment(App.Vector(12.2,1.0,0),App.Vector(15.4,5.0,0)),False)
+
+App.getDocument('Unnamed').getObject('Sketch').addConstraint(Sketcher.Constraint('Coincident',1,2,2,1))
+
+doc.recompute()
+```
 
 The command `Sketch.addConstraint(Sketcher.Constraint('Coincident',0,2,2,2))` yields following result:
 

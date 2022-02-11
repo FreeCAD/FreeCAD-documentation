@@ -34,8 +34,8 @@ L\'outil **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part
 ## Utilisation
 
 1.  Appuyez sur le bouton **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)**. Un Part vide est créée et devient automatiquement *[actif](Std_Part/fr#Statut_actif.md)*.
-2.  Pour ajouter des objets à un Part, sélectionnez-les dans la [vue en arborescence](tree_view/fr.md), puis faites-les glisser et déposez-les sur le Part.
-3.  Pour supprimer des objets d\'un Part, faites-les glisser hors du Part et sur l\'étiquette du document en haut de la [vue en arborescence](tree_view/fr.md).
+2.  Pour ajouter des objets à un Part, sélectionnez-les dans la [Vue en arborescence](Tree_view/fr.md), puis faites-les glisser et déposez-les sur le Part.
+3.  Pour supprimer des objets d\'un Part, faites-les glisser hors du Part et sur l\'étiquette du document en haut de la [Vue en arborescence](Tree_view/fr.md).
 
 ### Remarques
 
@@ -106,7 +106,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property
 
 -    {{PropertyData/fr|Visibility|Bool}}: afficher ou non l\'objet.
 
--    {{PropertyData/fr|Origin|Link}}: l\'objet [App Origin](App_Origin/fr.md) qui est la référence de position pour tous les éléments répertoriés dans **Group**.
+-    {{PropertyData/fr|Origin|Link}}: l\'objet [App Origin](App_OriginGroupExtension/fr.md) qui est la référence de position pour tous les éléments répertoriés dans **Group**.
 
 -    {{PropertyData/fr|_ Group Touched|Bool}}: si le groupe est touché ou non.
 
@@ -179,9 +179,9 @@ L\'Origine se compose des trois axes standard (X, Y, Z) et de trois plans standa
 *À gauche : Part Origin dans la [vue en arborescence](tree_view/fr.md) et telle qu'elle apparaît affichée dans la [vue 3D](3D_view/fr.md). À droite : représentation des éléments Origin dans la [Vue 3D](3D_view/fr.md).*
 
 
-**Remarque :**
+**Remarque**
 
-L\'origine est un [App Origin](App_Origin/fr.md) objet (de classe `App::Origin`) tandis que les axes et les plans sont respectivement des objets de type `App::Line` et `App::Plane`. Chacun de ces éléments peut être masqué et non masqué individuellement avec la barre **Espace**. Cela est utile pour choisir la référence correcte lors de la création d\'autres objets.
+: L\'origine est un [App Origin](App_OriginGroupExtension/fr.md) objet (de classe `App::Origin`) tandis que les axes et les plans sont respectivement des objets de type `App::Line` et `App::Plane`. Chacun de ces éléments peut être masqué et non masqué individuellement avec la barre **Espace**. Cela est utile pour choisir la référence correcte lors de la création d\'autres objets.
 
 
 **Remarque 2 :**

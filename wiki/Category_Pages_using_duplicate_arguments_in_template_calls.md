@@ -1,7 +1,11 @@
 # Category:Pages using duplicate arguments in template calls
 Pages using duplicate arguments in template calls
 
-### Contents:
+### Contents
+
+|     |     |     |
+| --- | --- | --- |
+|
 
 
 

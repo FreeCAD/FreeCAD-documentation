@@ -1,10 +1,11 @@
 # Category:Template:Text Format/fr
 Cette catégorie répertorie les modèles au format texte donnés en entrée.
 
-### Contents:
+### Contents
 
-   
-  [Template:PropertyData/fr](Template:PropertyData/fr.md)   [Template:PropertyView/fr](Template:PropertyView/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:PropertyData/fr](wiki/Template_PropertyData/fr.md) | [Template:PropertyView/fr](wiki/Template_PropertyView/fr.md) |
 
 
 

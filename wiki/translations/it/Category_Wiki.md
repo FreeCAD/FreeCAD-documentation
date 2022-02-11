@@ -1,11 +1,12 @@
 # Category:Wiki/it
 This category contains all documents that relate to the Wiki/it.
 
-### Contents:
+### Contents
 
-    
-  [Glossary/it](Glossary/it.md)           [Italian Translation](Italian_Translation.md)   [Localisation Sidebar/it](Localisation_Sidebar/it.md)
-  [Localisation/it](Localisation/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Glossary/it](wiki/Glossary/it.md) | [Italian Translation](wiki/Italian Translation.md) | [Localisation Sidebar/it](wiki/Localisation Sidebar/it.md) |
+| [Localisation/it](wiki/Localisation/it.md) |
 
 
 

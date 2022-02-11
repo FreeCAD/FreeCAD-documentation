@@ -1,12 +1,12 @@
 # Category:Administration/hr
 This category contains articles and categories about wiki administrative subjects.
 
-### Contents:
+### Contents
 
-   -- --
-  [Organization chart/hr](Organization_chart/hr.md)      
-                                                                 
-   -- --
+|     |     |     |
+| --- | --- | --- |
+| [Organization chart/hr](wiki/Organization chart/hr.md) | [Category:UnfinishedDocu/hr](wiki/Category_UnfinishedDocu/hr.md) | [Category:Wiki/hr](wiki/Category_Wiki/hr.md) |
+|
 
 
 

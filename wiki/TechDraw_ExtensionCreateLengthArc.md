@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionCreateLengthArc
-   MenuLocation:TechDraw → Extensions: Dimensions → Create arc length dimension
+   MenuLocation:TechDraw → Extensions: Dimensions → Create Arc Length Dimension
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
@@ -22,7 +22,7 @@ The <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:2
 1.  Select a single circular arc.
 2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ExtensionCreateLengthArc.svg" width=16px> [TechDraw ExtensionCreateLengthArc](TechDraw_ExtensionCreateLengthArc.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateLengthArc.svg" width=16px> Create arc length dimension** option from the menu.
+    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateLengthArc.svg" width=16px> Create Arc Length Dimension** option from the menu.
 3.  An arc length dimension is created.
 
 

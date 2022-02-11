@@ -1,10 +1,12 @@
 # Category:Hubs/pt
 This category gathers the meeting points of the 3 broad categories of users of FreeCAD\... Esta categoria reúne os pontos de encontro dos 3 grandes categorias de usuários do FreeCAD\...
 
-### Contents:
+### Contents
 
-    
-  [Developer hub/pt](Developer_hub/pt.md)   [Power users hub/pt](Power_users_hub/pt.md)   [User hub/pt](User_hub/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Developer hub/pt](wiki/Developer hub/pt.md) | [Power users hub/pt](wiki/Power users hub/pt.md) | [User hub/pt](wiki/User hub/pt.md) |
+|
 
 
 

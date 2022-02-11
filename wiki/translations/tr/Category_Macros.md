@@ -1,10 +1,11 @@
 # Category:Macros/tr
 This category contains macros to extend your FreeCAD installation with new functionality
 
-### Contents:
+### Contents
 
-   
-  [Macro Fonts Win10 PYMP/tr](Macro_Fonts_Win10_PYMP/tr.md)   [Macros/tr](Macros/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Macro Fonts Win10 PYMP/tr](wiki/Macro Fonts Win10 PYMP/tr.md) | [Macros/tr](wiki/Macros/tr.md) |
 
 
 

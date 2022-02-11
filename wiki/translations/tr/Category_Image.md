@@ -1,11 +1,11 @@
 # Category:Image/tr
 Bu kategori **Görüntülerin** üst kategorisidir. Herhangi bir dosya içermemeli sadece alt kategoriler bulunmalıdır.
 
-### Contents:
+### Contents
 
-   --
-  [Image Workbench/tr](Image_Workbench/tr.md)   
-   --
+|     |     |     |
+| --- | --- | --- |
+| [Image Workbench/tr](wiki/Image Workbench/tr.md) | [Category:Icon/tr](wiki/Category_Icon/tr.md) |
 
 
 

@@ -1,7 +1,11 @@
 # Category:Administration/bg
 This category contains articles and categories about wiki administrative subjects.
 
-### Contents:
+### Contents
+
+|     |     |     |
+| --- | --- | --- |
+|
 
 
 

@@ -1,10 +1,11 @@
 # Category:PartDesign/id
 This category lists pages related to the [PartDesign Workbench/id](PartDesign_Workbench/id.md).
 
-### Contents:
+### Contents
 
-  
-  [PartDesign Workbench/id](PartDesign_Workbench/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [PartDesign Workbench/id](wiki/PartDesign Workbench/id.md) |
 
 
 

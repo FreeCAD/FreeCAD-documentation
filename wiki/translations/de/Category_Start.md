@@ -1,10 +1,11 @@
 # Category:Start/de
 This category lists pages related to the [Start Workbench/de](Start_Workbench/de.md).
 
-### Contents:
+### Contents
 
-   
-  [Start Preferences/de](Start_Preferences/de.md)   [Start Workbench/de](Start_Workbench/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Start Preferences/de](wiki/Start Preferences/de.md) | [Start Workbench/de](wiki/Start Workbench/de.md) |
 
 
 

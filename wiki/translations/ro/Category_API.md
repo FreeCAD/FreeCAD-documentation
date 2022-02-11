@@ -3,15 +3,17 @@
 
 This category gathers article that list objects and methods available to the python programmer.
 
-### Contents:
+### Contents
 
-    
-  [Arch API/ro](Arch_API/ro.md)               [Base API/ro](Base_API/ro.md)           [Builtin modules/ro](Builtin_modules/ro.md)
-  [Console API/ro](Console_API/ro.md)         [Draft API/ro](Draft_API/ro.md)         [FreeCAD API/ro](FreeCAD_API/ro.md)
-  [FreeCADGui API/ro](FreeCADGui_API/ro.md)   [Matrix API/ro](Matrix_API/ro.md)       [Mesh API/ro](Mesh_API/ro.md)
-  [Object API/ro](Object_API/ro.md)           [Part API/ro](Part_API/ro.md)           [Placement API/ro](Placement_API/ro.md)
-  [Python/ro](Python/ro.md)                   [TechDraw API/ro](TechDraw_API/ro.md)   [TechDrawGui API/ro](TechDrawGui_API/ro.md)
-  [TopoShape API/ro](TopoShape_API/ro.md)     [Vector API/ro](Vector_API/ro.md)       [ViewObject API/ro](ViewObject_API/ro.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch API/ro](wiki/Arch API/ro.md) | [Base API/ro](wiki/Base API/ro.md) | [Builtin modules/ro](wiki/Builtin modules/ro.md) |
+| [Console API/ro](wiki/Console API/ro.md) | [Draft API/ro](wiki/Draft API/ro.md) | [FreeCAD API/ro](wiki/FreeCAD API/ro.md) |
+| [FreeCADGui API/ro](wiki/FreeCADGui API/ro.md) | [Matrix API/ro](wiki/Matrix API/ro.md) | [Mesh API/ro](wiki/Mesh API/ro.md) |
+| [Object API/ro](wiki/Object API/ro.md) | [Part API/ro](wiki/Part API/ro.md) | [Placement API/ro](wiki/Placement API/ro.md) |
+| [Python/ro](wiki/Python/ro.md) | [TechDraw API/ro](wiki/TechDraw API/ro.md) | [TechDrawGui API/ro](wiki/TechDrawGui API/ro.md) |
+| [TopoShape API/ro](wiki/TopoShape API/ro.md) | [Vector API/ro](wiki/Vector API/ro.md) | [ViewObject API/ro](wiki/ViewObject API/ro.md) |
+|
 
 
 

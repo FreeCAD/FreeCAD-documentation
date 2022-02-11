@@ -13,12 +13,26 @@
 
 Extrahiert den gemeinsamen Teil (Schnittmenge) zwischen ausgewählten Teilobjekten. Diese Operation ist voll parametrisch und die Komponenten können modifiziert und das Ergebnis neu berechnet werden.
 
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
 ### Anwendung
 
 1.  Wähle zwei Formen
 2.  Drücke die **![](images/)_[Gemeinsam](Part_Common/de.md)** Schaltfläche.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ### Unterstützte Eingaben 
+
+
+</div>
 
 Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md) Formen sein. Beispiele: Dinge, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurde. Keine Polygonnetze (es sei denn, diese wurden in Formen konvertiert) - für Polygonnetze gibt es gesonderte boolesche Werkzeuge im Netzkonstruktionsarbeitsbereich.
 

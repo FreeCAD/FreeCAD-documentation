@@ -1,12 +1,12 @@
 # Category:Obsolete Workbenches/cs
 This category lists obsolete workbenches, that is, workbenches that are old and unmaintained, and which have been superseded by other workbenches.
 
-### Contents:
+### Contents
 
-    --
-  [Complete Workbench/cs](Complete_Workbench/cs.md)   [Drawing Workbench/cs](Drawing_Workbench/cs.md)   
-                                                                                                                        
-    --
+|     |     |     |
+| --- | --- | --- |
+| [Complete Workbench/cs](wiki/Complete Workbench/cs.md) | [Drawing Workbench/cs](wiki/Drawing Workbench/cs.md) | [Category:Drawing/cs](wiki/Category_Drawing/cs.md) |
+|
 
 
 

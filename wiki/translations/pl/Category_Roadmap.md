@@ -1,17 +1,19 @@
 # Category:Roadmap/pl
 Ta kategoria gromadzi wszystkie artykuły dokumentujące to, co jest przewidziane w planach rozwoju FreeCAD.
 
-### Contents:
+### Contents
 
-    
-  [Arch Concept/pl](Arch_Concept/pl.md)                                             [Artwork project/pl](Artwork_project/pl.md)                         [Assembly project/pl](Assembly_project/pl.md)
-  [CAM project/pl](CAM_project/pl.md)                                               [Development roadmap/pl](Development_roadmap/pl.md)                 [FEM project/pl](FEM_project/pl.md)
-  [FreeCAD development model project/pl](FreeCAD_development_model_project/pl.md)   [HiDPI support/pl](HiDPI_support/pl.md)                             [Land Survey Workbench Blueprint/pl](Land_Survey_Workbench_Blueprint/pl.md)
-  [Material data model/pl](Material_data_model/pl.md)                               [Material/pl](Material/pl.md)                                       [Naming project/pl](Naming_project/pl.md)
-  [PartDesign project/pl](PartDesign_project/pl.md)                                 [Project template/pl](Project_template/pl.md)                       [Quality project/pl](Quality_project/pl.md)
-  [Raytracing project/pl](Raytracing_project/pl.md)                                 [Resource framework project/pl](Resource_framework_project/pl.md)   [Robot project/pl](Robot_project/pl.md)
-  [Sketcher project/pl](Sketcher_project/pl.md)                                     [STEP project/pl](STEP_project/pl.md)                               [Tolerancing/pl](Tolerancing/pl.md)
-  [Units project/pl](Units_project/pl.md)                                           [UTF Project/pl](UTF_Project/pl.md)                                 [Wished tools/pl](Wished_tools/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch Concept/pl](wiki/Arch Concept/pl.md) | [Artwork project/pl](wiki/Artwork project/pl.md) | [Assembly project/pl](wiki/Assembly project/pl.md) |
+| [CAM project/pl](wiki/CAM project/pl.md) | [Development roadmap/pl](wiki/Development roadmap/pl.md) | [FEM project/pl](wiki/FEM project/pl.md) |
+| [FreeCAD development model project/pl](wiki/FreeCAD development model project/pl.md) | [HiDPI support/pl](wiki/HiDPI support/pl.md) | [Land Survey Workbench Blueprint/pl](wiki/Land Survey Workbench Blueprint/pl.md) |
+| [Material data model/pl](wiki/Material data model/pl.md) | [Material/pl](wiki/Material/pl.md) | [Naming project/pl](wiki/Naming project/pl.md) |
+| [PartDesign project/pl](wiki/PartDesign project/pl.md) | [Project template/pl](wiki/Project template/pl.md) | [Quality project/pl](wiki/Quality project/pl.md) |
+| [Raytracing project/pl](wiki/Raytracing project/pl.md) | [Resource framework project/pl](wiki/Resource framework project/pl.md) | [Robot project/pl](wiki/Robot project/pl.md) |
+| [Sketcher project/pl](wiki/Sketcher project/pl.md) | [STEP project/pl](wiki/STEP project/pl.md) | [Tolerancing/pl](wiki/Tolerancing/pl.md) |
+| [Units project/pl](wiki/Units project/pl.md) | [UTF Project/pl](wiki/UTF Project/pl.md) | [Wished tools/pl](wiki/Wished tools/pl.md) |
+|
 
 
 

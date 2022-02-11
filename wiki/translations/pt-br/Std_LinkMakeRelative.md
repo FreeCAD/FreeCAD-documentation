@@ -21,7 +21,7 @@ creates an [App Link](App_Link.md) (`App::Link` class), just like **[<img src=im
 With selection:
 
 1.  Select a subelement in the [3D view](3D_view.md), this means a vertex, edge, or face, or any combination of these. These subelements must belong to a single object.
-2.  Press the **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std LinkMakeRelative](Std_LinkMakeRelative.md)** button. The produced object has the same icon as the original object, but has two arrow overlays indicating it is a relative Link.
+2.  Press the **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Make sub-link](Std_LinkMakeRelative.md)** button. The produced object has the same icon as the original object, but has two arrow overlays indicating it is a relative Link.
 
 Without selection:
 

@@ -1,10 +1,11 @@
 # Category:Plot/id
 This category lists pages related to the [Plot Workbench/id](Plot_Workbench/id.md).
 
-### Contents:
+### Contents
 
-  
-  [Plot Workbench/id](Plot_Workbench/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/id](wiki/Plot Workbench/id.md) |
 
 
 

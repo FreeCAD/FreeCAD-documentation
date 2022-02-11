@@ -1,10 +1,11 @@
 # Category:Sketcher/zh
 This category lists pages related to the [Sketcher Workbench/zh](Sketcher_Workbench/zh.md).
 
-### Contents:
+### Contents
 
-  
-  [Sketcher Workbench/zh](Sketcher_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [Sketcher Workbench/zh](wiki/Sketcher Workbench/zh.md) |
 
 
 

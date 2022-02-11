@@ -3,10 +3,11 @@ This is a complete list of pages under [:Category:Tutorials/ja](:Category:Tutori
 
 See also [Tutorials](Tutorials/ja.md) and [video tutorials](video_tutorials/ja.md)
 
-### Contents:
+### Contents
 
-  
-  [Template:TutorialInfo/ja](Template:TutorialInfo/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:TutorialInfo/ja](wiki/Template_TutorialInfo/ja.md) |
 
 
 

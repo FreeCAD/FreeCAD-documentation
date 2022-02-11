@@ -1,14 +1,15 @@
 # Category:Poweruser Documentation/pt
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
-### Contents:
+### Contents
 
-    
-  [Debugging/pt](Debugging/pt.md)                                     [Embedding FreeCAD/pt](Embedding_FreeCAD/pt.md)             [FreeCAD Scripting Basics/pt](FreeCAD_Scripting_Basics/pt.md)
-  [Gui Command/pt](Gui_Command/pt.md)                                 [Introduction to Python/pt](Introduction_to_Python/pt.md)   [Macros/pt](Macros/pt.md)
-  [Power users hub/pt](Power_users_hub/pt.md)                         [Property/pt](Property/pt.md)                               [PySide/pt](PySide/pt.md)
-  [Python scripting tutorial/pt](Python_scripting_tutorial/pt.md)     [Scenegraph/pt](Scenegraph/pt.md)                           [Scripted objects/pt](Scripted_objects/pt.md)
-  [Topological data scripting/pt](Topological_data_scripting/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Debugging/pt](wiki/Debugging/pt.md) | [Embedding FreeCAD/pt](wiki/Embedding FreeCAD/pt.md) | [FreeCAD Scripting Basics/pt](wiki/FreeCAD Scripting Basics/pt.md) |
+| [Gui Command/pt](wiki/Gui Command/pt.md) | [Introduction to Python/pt](wiki/Introduction to Python/pt.md) | [Macros/pt](wiki/Macros/pt.md) |
+| [Power users hub/pt](wiki/Power users hub/pt.md) | [Property/pt](wiki/Property/pt.md) | [PySide/pt](wiki/PySide/pt.md) |
+| [Python scripting tutorial/pt](wiki/Python scripting tutorial/pt.md) | [Scenegraph/pt](wiki/Scenegraph/pt.md) | [Scripted objects/pt](wiki/Scripted objects/pt.md) |
+| [Topological data scripting/pt](wiki/Topological data scripting/pt.md) |
 
 
 

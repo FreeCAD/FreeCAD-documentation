@@ -31,7 +31,13 @@ To switch the virtual space:
 if you decide to set constraints on the second virtual space, don\'t forget about them later on if you don\'t see them in the [3D view](3D_view.md).
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

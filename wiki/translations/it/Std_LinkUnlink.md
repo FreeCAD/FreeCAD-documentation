@@ -18,9 +18,15 @@ Questa operazione viene utilizzata per rimuovere un collegamento da un contenito
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Assicurarsi di avere un link all\'interno di un contenitore, ad esempio, un link a una **[<img src=images/Part_Sphere.svg style="width:16px"> [sfera](Part_Sphere/it.md)** all\'interno di una **[<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)**.
 2.  Selezionare il link interno nella [vista ad albero](tree_view/it.md).
 3.  Premere **[<img src=images/Std_LinkUnlink.svg style="width:16px"> Annulla il link**.
+
+
+</div>
 
 L\'originale <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> [Sfera](Part_Sphere/it.md) deve ora essere dentro **[<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)**, e il Link deve essere fuori. Ora questo collegamento può essere cancellato se non è più necessario, e non rovinerà il contenitore.
 

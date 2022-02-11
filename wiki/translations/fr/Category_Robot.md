@@ -1,16 +1,17 @@
 # Category:Robot/fr
 This category lists pages related to the [Robot Workbench/fr](Robot_Workbench/fr.md).
 
-### Contents:
+### Contents
 
-    
-  [Artwork Robot/fr](Artwork_Robot/fr.md)                         [Robot 6-Axis/fr](Robot_6-Axis/fr.md)                                                     [Robot API example/fr](Robot_API_example/fr.md)
-  [Robot CreateRobot/fr](Robot_CreateRobot/fr.md)                 [Robot CreateTrajectory/fr](Robot_CreateTrajectory/fr.md)                                 [Robot Edge2Trac/fr](Robot_Edge2Trac/fr.md)
-  [Robot Export/fr](Robot_Export/fr.md)                           [Robot InsertWaypoint/fr](Robot_InsertWaypoint/fr.md)                                     [Robot InsertWaypointPre/fr](Robot_InsertWaypointPre/fr.md)
-  [Robot RestoreHomePos/fr](Robot_RestoreHomePos/fr.md)           [Robot SetDefaultOrientation/fr](Robot_SetDefaultOrientation/fr.md)                       [Robot SetDefaultValues/fr](Robot_SetDefaultValues/fr.md)
-  [Robot SetHomePos/fr](Robot_SetHomePos/fr.md)                   [Robot Simulate/fr](Robot_Simulate/fr.md)                                                 [Template:Robot Tools navi/fr](Template:Robot_Tools_navi/fr.md)
-  [Robot TrajectoryCompound/fr](Robot_TrajectoryCompound/fr.md)   [Robot TrajectoryDressUp/fr](Robot_TrajectoryDressUp/fr.md)                               [Robot tutorial/fr](Robot_tutorial/fr.md)
-  [Robot Workbench/fr](Robot_Workbench/fr.md)                     [VRML Preparation for Robot Simulation/fr](VRML_Preparation_for_Robot_Simulation/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Robot/fr](wiki/Artwork Robot/fr.md) | [Robot 6-Axis/fr](wiki/Robot 6-Axis/fr.md) | [Robot API example/fr](wiki/Robot API example/fr.md) |
+| [Robot CreateRobot/fr](wiki/Robot CreateRobot/fr.md) | [Robot CreateTrajectory/fr](wiki/Robot CreateTrajectory/fr.md) | [Robot Edge2Trac/fr](wiki/Robot Edge2Trac/fr.md) |
+| [Robot Export/fr](wiki/Robot Export/fr.md) | [Robot InsertWaypoint/fr](wiki/Robot InsertWaypoint/fr.md) | [Robot InsertWaypointPre/fr](wiki/Robot InsertWaypointPre/fr.md) |
+| [Robot RestoreHomePos/fr](wiki/Robot RestoreHomePos/fr.md) | [Robot SetDefaultOrientation/fr](wiki/Robot SetDefaultOrientation/fr.md) | [Robot SetDefaultValues/fr](wiki/Robot SetDefaultValues/fr.md) |
+| [Robot SetHomePos/fr](wiki/Robot SetHomePos/fr.md) | [Robot Simulate/fr](wiki/Robot Simulate/fr.md) | [Template:Robot Tools navi/fr](wiki/Template_Robot Tools navi/fr.md) |
+| [Robot TrajectoryCompound/fr](wiki/Robot TrajectoryCompound/fr.md) | [Robot TrajectoryDressUp/fr](wiki/Robot TrajectoryDressUp/fr.md) | [Robot tutorial/fr](wiki/Robot tutorial/fr.md) |
+| [Robot Workbench/fr](wiki/Robot Workbench/fr.md) | [VRML Preparation for Robot Simulation/fr](wiki/VRML Preparation for Robot Simulation/fr.md) |
 
 
 

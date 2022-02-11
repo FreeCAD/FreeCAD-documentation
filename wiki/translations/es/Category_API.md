@@ -3,15 +3,16 @@
 
 Esta categoría recopila artículos que listan objetos y métodos disponibles para los programadores en Python.
 
-### Contents:
+### Contents
 
-    
-  [Base API/es](Base_API/es.md)                     [Builtin modules/es](Builtin_modules/es.md)   [Console API/es](Console_API/es.md)
-  [Draft API/es](Draft_API/es.md)                   [FreeCAD API/es](FreeCAD_API/es.md)           [FreeCADGui API/es](FreeCADGui_API/es.md)
-  [Matrix API/es](Matrix_API/es.md)                 [Mesh API/es](Mesh_API/es.md)                 [Object API/es](Object_API/es.md)
-  [Part API/es](Part_API/es.md)                     [Placement API/es](Placement_API/es.md)       [Python/es](Python/es.md)
-  [Robot API example/es](Robot_API_example/es.md)   [Selection API/es](Selection_API/es.md)       [TopoShape API/es](TopoShape_API/es.md)
-  [Vector API/es](Vector_API/es.md)                 [ViewObject API/es](ViewObject_API/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Base API/es](wiki/Base API/es.md) | [Builtin modules/es](wiki/Builtin modules/es.md) | [Console API/es](wiki/Console API/es.md) |
+| [Draft API/es](wiki/Draft API/es.md) | [FreeCAD API/es](wiki/FreeCAD API/es.md) | [FreeCADGui API/es](wiki/FreeCADGui API/es.md) |
+| [Matrix API/es](wiki/Matrix API/es.md) | [Mesh API/es](wiki/Mesh API/es.md) | [Object API/es](wiki/Object API/es.md) |
+| [Part API/es](wiki/Part API/es.md) | [Placement API/es](wiki/Placement API/es.md) | [Python/es](wiki/Python/es.md) |
+| [Robot API example/es](wiki/Robot API example/es.md) | [Selection API/es](wiki/Selection API/es.md) | [TopoShape API/es](wiki/TopoShape API/es.md) |
+| [Vector API/es](wiki/Vector API/es.md) | [ViewObject API/es](wiki/ViewObject API/es.md) |
 
 
 

@@ -1,24 +1,26 @@
 # Category:Part/es
 This category lists pages related to the [Part Workbench/es](Part_Workbench/es.md).
 
-### Contents:
+### Contents
 
-    
-  [Aeroplane/es](Aeroplane/es.md)                       [Basic modeling tutorial/es](Basic_modeling_tutorial/es.md)   [Constructive solid geometry/es](Constructive_solid_geometry/es.md)
-  [Part and PartDesign/es](Part_and_PartDesign/es.md)   [Part Boolean/es](Part_Boolean/es.md)                         [Part Box/es](Part_Box/es.md)
-  [Part Builder/es](Part_Builder/es.md)                 [Part Chamfer/es](Part_Chamfer/es.md)                         [Part CheckGeometry/es](Part_CheckGeometry/es.md)
-  [Part Circle/es](Part_Circle/es.md)                   [Part Common/es](Part_Common/es.md)                           [Part CompCompoundTools/es](Part_CompCompoundTools/es.md)
-  [Part Compound/es](Part_Compound/es.md)               [Part CompoundFilter/es](Part_CompoundFilter/es.md)           [Part Cone/es](Part_Cone/es.md)
-  [Part CrossSections/es](Part_CrossSections/es.md)     [Part Cut/es](Part_Cut/es.md)                                 [Part Cylinder/es](Part_Cylinder/es.md)
-  [Part Ellipse/es](Part_Ellipse/es.md)                 [Part Ellipsoid/es](Part_Ellipsoid/es.md)                     [Part ExplodeCompound/es](Part_ExplodeCompound/es.md)
-  [Part Extrude/es](Part_Extrude/es.md)                 [Part Fillet/es](Part_Fillet/es.md)                           [Part Fuse/es](Part_Fuse/es.md)
-  [Part Helix/es](Part_Helix/es.md)                     [Part Line/es](Part_Line/es.md)                               [Part Mirror/es](Part_Mirror/es.md)
-  [Part Module/es](Part_Module/es.md)                   [Part Plane/es](Part_Plane/es.md)                             [Part Point/es](Part_Point/es.md)
-  [Part Primitives/es](Part_Primitives/es.md)           [Part Prism/es](Part_Prism/es.md)                             [Part ProjectionOnSurface/es](Part_ProjectionOnSurface/es.md)
-  [Part RegularPolygon/es](Part_RegularPolygon/es.md)   [Part Revolve/es](Part_Revolve/es.md)                         [Part scripting/es](Part_scripting/es.md)
-  [Part Section/es](Part_Section/es.md)                 [Part Sphere/es](Part_Sphere/es.md)                           [Part Spiral/es](Part_Spiral/es.md)
-  [Part Sweep/es](Part_Sweep/es.md)                     [Part Thickness/es](Part_Thickness/es.md)                     [Part Torus/es](Part_Torus/es.md)
-  [Part Tube/es](Part_Tube/es.md)                       [Part Wedge/es](Part_Wedge/es.md)                             [Topological naming problem/es](Topological_naming_problem/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Aeroplane/es](wiki/Aeroplane/es.md) | [Basic modeling tutorial/es](wiki/Basic modeling tutorial/es.md) | [Constructive solid geometry/es](wiki/Constructive solid geometry/es.md) |
+| [Part and PartDesign/es](wiki/Part and PartDesign/es.md) | [Part Boolean/es](wiki/Part Boolean/es.md) | [Part Box/es](wiki/Part Box/es.md) |
+| [Part Builder/es](wiki/Part Builder/es.md) | [Part Chamfer/es](wiki/Part Chamfer/es.md) | [Part CheckGeometry/es](wiki/Part CheckGeometry/es.md) |
+| [Part Circle/es](wiki/Part Circle/es.md) | [Part Common/es](wiki/Part Common/es.md) | [Part CompCompoundTools/es](wiki/Part CompCompoundTools/es.md) |
+| [Part Compound/es](wiki/Part Compound/es.md) | [Part CompoundFilter/es](wiki/Part CompoundFilter/es.md) | [Part Cone/es](wiki/Part Cone/es.md) |
+| [Part CrossSections/es](wiki/Part CrossSections/es.md) | [Part Cut/es](wiki/Part Cut/es.md) | [Part Cylinder/es](wiki/Part Cylinder/es.md) |
+| [Part Ellipse/es](wiki/Part Ellipse/es.md) | [Part Ellipsoid/es](wiki/Part Ellipsoid/es.md) | [Part ExplodeCompound/es](wiki/Part ExplodeCompound/es.md) |
+| [Part Extrude/es](wiki/Part Extrude/es.md) | [Part Fillet/es](wiki/Part Fillet/es.md) | [Part Fuse/es](wiki/Part Fuse/es.md) |
+| [Part Helix/es](wiki/Part Helix/es.md) | [Part Line/es](wiki/Part Line/es.md) | [Part Mirror/es](wiki/Part Mirror/es.md) |
+| [Part Module/es](wiki/Part Module/es.md) | [Part Plane/es](wiki/Part Plane/es.md) | [Part Point/es](wiki/Part Point/es.md) |
+| [Part Primitives/es](wiki/Part Primitives/es.md) | [Part Prism/es](wiki/Part Prism/es.md) | [Part ProjectionOnSurface/es](wiki/Part ProjectionOnSurface/es.md) |
+| [Part RegularPolygon/es](wiki/Part RegularPolygon/es.md) | [Part Revolve/es](wiki/Part Revolve/es.md) | [Part scripting/es](wiki/Part scripting/es.md) |
+| [Part Section/es](wiki/Part Section/es.md) | [Part Sphere/es](wiki/Part Sphere/es.md) | [Part Spiral/es](wiki/Part Spiral/es.md) |
+| [Part Sweep/es](wiki/Part Sweep/es.md) | [Part Thickness/es](wiki/Part Thickness/es.md) | [Part Torus/es](wiki/Part Torus/es.md) |
+| [Part Tube/es](wiki/Part Tube/es.md) | [Part Wedge/es](wiki/Part Wedge/es.md) | [Topological naming problem/es](wiki/Topological naming problem/es.md) |
+|
 
 
 

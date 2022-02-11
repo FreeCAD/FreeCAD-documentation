@@ -1,10 +1,11 @@
 # Category:PartDesign/zh
 This category lists pages related to the [PartDesign Workbench/zh](PartDesign_Workbench/zh.md).
 
-### Contents:
+### Contents
 
-  
-  [PartDesign Workbench/zh](PartDesign_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [PartDesign Workbench/zh](wiki/PartDesign Workbench/zh.md) |
 
 
 

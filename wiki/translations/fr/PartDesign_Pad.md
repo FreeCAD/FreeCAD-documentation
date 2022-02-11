@@ -4,7 +4,7 @@
    Name/fr:PartDesign Protrusion 
    MenuLocation:Conception de pièces → Créer une fonction additive → Protrusion
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Cavité](PartDesign_Pocket/fr.md)
+   SeeAlso:[PartDesign Cavité](PartDesign_Pocket/fr.md), [Part Extrusion](Part_Extrude/fr.md)
 ---
 
 # PartDesign Pad/fr
@@ -38,10 +38,6 @@ Type offre 5 différentes façons de définir la longueur de la protrusion:
 
 Permet de saisir une valeur numérique pour la longueur de la protrusion. La direction par défaut de la protrusion est vers le haut du plan d\'esquisse, mais cela peut être changé en cochant la case **Inversé**. La protrusion s\'effectue par défaut [normale](http://fr.wikipedia.org/wiki/Normale_%C3%A0_une_surface) au plan de l\'esquisse. Ceci peut être modifié en spécifiant une autre *Direction*. L\'option **Symétrique au plan** étendra la protrusion à la moitié de la longueur saisie de chaque côté du plan d\'esquisse. Les dimensions négatives ne sont pas permises, utilisez plutôt l\'option **Inversé**.
 
-#### Deux dimensions 
-
-Permet de saisir une seconde valeur de longueur pour prolonger la protrusion dans la direction opposée (à travers le support). Les directions peuvent être inversées en cochant l\'option *Inversé*.
-
 #### Au dernier 
 
 La protrusion sera prolongée jusqu\'à la dernière face rencontrée dans la direction d\'extrusion. S\'il n\'y a aucun support rencontré, un message d\'erreur apparaîtra.
@@ -53,6 +49,10 @@ La protrusion sera prolongée jusqu\'à la première face rencontrée dans la di
 #### Jusqu\'à la face 
 
 La protrusion sera prolongée jusqu\'à une face du modèle qui peut être choisie en cliquant dessus.
+
+#### Deux dimensions 
+
+Permet de saisir une seconde valeur de longueur pour prolonger la protrusion dans la direction opposée (à travers le support). Les directions peuvent être inversées en cochant l\'option *Inversé*.
 
 ### Longueur
 
@@ -87,6 +87,29 @@ Cochez la case pour extruder la moitié de la longueur donnée de chaque côté 
 ### Inversé
 
 Inverse la direction de la protrusion.
+
+### Angle de conicité 
+
+
+{{Version/fr|0.20}}
+
+Génère la protrusion dans le sens de l\'extrusion selon l\'angle donné. Un angle positif signifie que le bord extérieur de la protrusion s\'élargit. Cette option n\'est disponible que si le **Type** est mis soit à **Dimension** soit à **Deux dimensions**. Notez que les structures internes reçoivent l\'angle de conicité opposé. Ceci est fait pour faciliter la conception de moules et de pièces moulées.
+
+Limitations :
+
+-   Les esquisses contenant des [B-splines](B-Splines/fr.md) ne peuvent souvent pas être correctement formées. Il s\'agit d\'une limitation du noyau d\'[OpenCASCADE](OpenCASCADE/fr.md) utilisé par FreeCAD.
+-   Pour des angles trés importants, le cone échouera si la face finale de la protrusion a moins d\'arêtes que la face/esquisse de départ.
+
+### 2ème longueur 
+
+Définit la longueur de la protrusion dans le sens d\'extrusion opposé. Plusieurs unités peuvent être utilisées indépendamment des préférences de l\'utilisateur (m, cm, mm, nm, ft ou \', in ou \"). Cette option n\'est disponible que si le **Type** est à **Deux dimensions**.
+
+### 2ème angle de conicité 
+
+
+{{Version/fr|0.20}}
+
+Génère la protrusion dans le sens opposé de l\'extrusion selon l\'angle donné. Un angle positif signifie que le bord extérieur de la protrusion s\'élargit. Cette option n\'est disponible que si le **Type** est à **Deux dimensions**. Notez que les structures internes reçoivent l\'angle d\'inclinaison opposé. Ceci est fait pour faciliter la conception de moules et de pièces moulées.
 
 ## Propriétés
 

@@ -16,10 +16,16 @@ Lo strumento <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:16px;
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 Con selezione:
 
 1.  Selezionare un sottoelemento nella [vista 3D](3D_view/it.md), ad esempio un vertice, uno spigolo o una faccia o una qualsiasi combinazione di questi. Questi sottoelementi devono appartenere a un singolo oggetto.
 2.  Premere il pulsante **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> Crea un link relativo**. L\'oggetto prodotto ha la stessa icona dell\'oggetto originale, ma ha due frecce sovrapposte che indicano che è un collegamento relativo.
+
+
+</div>
 
 Senza selezione:
 

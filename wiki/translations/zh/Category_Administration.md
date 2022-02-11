@@ -1,10 +1,11 @@
 # Category:Administration/zh
 This category contains articles and categories about wiki administrative subjects.
 
-### Contents:
+### Contents
 
-  
-  [Tracker/zh](Tracker/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [Tracker/zh](wiki/Tracker/zh.md) |
 
 
 

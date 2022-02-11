@@ -1,10 +1,11 @@
 # Category:Mesh/bg
 This category lists pages related to the [Mesh\_Workbench/bg](Mesh_Workbench/bg.md).
 
-### Contents:
+### Contents
 
-  
-  [Mesh Workbench/bg](Mesh_Workbench/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Mesh Workbench/bg](wiki/Mesh Workbench/bg.md) |
 
 
 

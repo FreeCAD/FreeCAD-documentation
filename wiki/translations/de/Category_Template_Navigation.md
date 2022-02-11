@@ -1,12 +1,14 @@
 # Category:Template:Navigation/de
 This category lists templates that create navigation elements.
 
-### Contents:
+### Contents
 
-    
-  [Template:Arch Tools navi/de](Template:Arch_Tools_navi/de.md)   [Template:Drawing Tools navi/de](Template:Drawing_Tools_navi/de.md)         [Template:OpenSCAD Tools navi/de](Template:OpenSCAD_Tools_navi/de.md)
-  [Template:Part Tools navi/de](Template:Part_Tools_navi/de.md)   [Template:PartDesign Tools navi/de](Template:PartDesign_Tools_navi/de.md)   [Template:Robot Tools navi/de](Template:Robot_Tools_navi/de.md)
-  [Template:Ship Tools navi/de](Template:Ship_Tools_navi/de.md)   [Template:Sketcher Tools navi/de](Template:Sketcher_Tools_navi/de.md)       [Template:TechDraw Tools navi/de](Template:TechDraw_Tools_navi/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Arch Tools navi/de](wiki/Template_Arch Tools navi/de.md) | [Template:Drawing Tools navi/de](wiki/Template_Drawing Tools navi/de.md) | [Template:OpenSCAD Tools navi/de](wiki/Template_OpenSCAD Tools navi/de.md) |
+| [Template:Part Tools navi/de](wiki/Template_Part Tools navi/de.md) | [Template:PartDesign Tools navi/de](wiki/Template_PartDesign Tools navi/de.md) | [Template:Robot Tools navi/de](wiki/Template_Robot Tools navi/de.md) |
+| [Template:Ship Tools navi/de](wiki/Template_Ship Tools navi/de.md) | [Template:Sketcher Tools navi/de](wiki/Template_Sketcher Tools navi/de.md) | [Template:TechDraw Tools navi/de](wiki/Template_TechDraw Tools navi/de.md) |
+|
 
 
 

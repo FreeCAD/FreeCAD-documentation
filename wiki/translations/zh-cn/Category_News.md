@@ -1,10 +1,11 @@
 # Category:News/zh-cn
 This category contains articles with news and messages about FreeCAD.
 
-### Contents:
+### Contents
 
-   
-  [History/zh-cn](History/zh-cn.md)   [Release notes 0.18/zh-cn](Release_notes_0.18/zh-cn.md)
+|     |     |     |
+| --- | --- | --- |
+| [History/zh-cn](wiki/History/zh-cn.md) | [Release notes 0.18/zh-cn](wiki/Release notes 0.18/zh-cn.md) |
 
 
 

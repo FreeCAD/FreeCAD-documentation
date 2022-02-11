@@ -1,18 +1,19 @@
 # Category:Developer/pl
 This category contains articles that are relevant for developers.
 
-### Contents:
+### Contents
 
-    
-  [Changelog/pl](Changelog/pl.md)                                               [Compile on Docker/pl](Compile_on_Docker/pl.md)                                         [Compile on Linux/pl](Compile_on_Linux/pl.md)
-  [Compile on MacOS/pl](Compile_on_MacOS/pl.md)                                 [Compile on MinGW/pl](Compile_on_MinGW/pl.md)                                           [Compile on Windows/pl](Compile_on_Windows/pl.md)
-  [Compiling (Speeding up)/pl](Compiling_(Speeding_up)/pl.md)                   [Compiling/pl](Compiling/pl.md)                                                         [Conda/pl](Conda/pl.md)
-  [Contributors/pl](Contributors/pl.md)                                         [Developing FreeCAD with GitKraken/pl](Developing_FreeCAD_with_GitKraken/pl.md)         [Doxygen/pl](Doxygen/pl.md)
-  [FEM CalculiX/pl](FEM_CalculiX/pl.md)                                         [FEM Element Types/pl](FEM_Element_Types/pl.md)                                         [FEM Mesh CalculiX/pl](FEM_Mesh_CalculiX/pl.md)
-  [File Format FCStd/pl](File_Format_FCStd/pl.md)                               [ImageConv/pl](ImageConv/pl.md)                                                         [InputField/pl](InputField/pl.md)
-  [Land Survey Workbench Blueprint/pl](Land_Survey_Workbench_Blueprint/pl.md)   [LGTM/pl](LGTM/pl.md)                                                                   [Material/pl](Material/pl.md)
-  [Organization chart/pl](Organization_chart/pl.md)                             [Svg Namespace/pl](Svg_Namespace/pl.md)                                                 [WikiRobots/pl](WikiRobots/pl.md)
-  [Wished tools/pl](Wished_tools/pl.md)                                         [Wrapping a Cplusplus class in Python/pl](Wrapping_a_Cplusplus_class_in_Python/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Changelog/pl](wiki/Changelog/pl.md) | [Compile on Docker/pl](wiki/Compile on Docker/pl.md) | [Compile on Linux/pl](wiki/Compile on Linux/pl.md) |
+| [Compile on MacOS/pl](wiki/Compile on MacOS/pl.md) | [Compile on MinGW/pl](wiki/Compile on MinGW/pl.md) | [Compile on Windows/pl](wiki/Compile on Windows/pl.md) |
+| [Compiling (Speeding up)/pl](wiki/Compiling (Speeding up)/pl.md) | [Compiling/pl](wiki/Compiling/pl.md) | [Conda/pl](wiki/Conda/pl.md) |
+| [Contributors/pl](wiki/Contributors/pl.md) | [Developing FreeCAD with GitKraken/pl](wiki/Developing FreeCAD with GitKraken/pl.md) | [Doxygen/pl](wiki/Doxygen/pl.md) |
+| [FEM CalculiX/pl](wiki/FEM CalculiX/pl.md) | [FEM Element Types/pl](wiki/FEM Element Types/pl.md) | [FEM Mesh CalculiX/pl](wiki/FEM Mesh CalculiX/pl.md) |
+| [File Format FCStd/pl](wiki/File Format FCStd/pl.md) | [ImageConv/pl](wiki/ImageConv/pl.md) | [InputField/pl](wiki/InputField/pl.md) |
+| [Land Survey Workbench Blueprint/pl](wiki/Land Survey Workbench Blueprint/pl.md) | [LGTM/pl](wiki/LGTM/pl.md) | [Material/pl](wiki/Material/pl.md) |
+| [Organization chart/pl](wiki/Organization chart/pl.md) | [Svg Namespace/pl](wiki/Svg Namespace/pl.md) | [WikiRobots/pl](wiki/WikiRobots/pl.md) |
+| [Wished tools/pl](wiki/Wished tools/pl.md) | [Wrapping a Cplusplus class in Python/pl](wiki/Wrapping a Cplusplus class in Python/pl.md) |
 
 
 

@@ -1,10 +1,11 @@
 # Category:TechDraw/id
 This category lists pages related to the [TechDraw Workbench/id](TechDraw_Workbench/id.md).
 
-### Contents:
+### Contents
 
-  
-  [TechDraw Workbench/id](TechDraw_Workbench/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [TechDraw Workbench/id](wiki/TechDraw Workbench/id.md) |
 
 
 

@@ -1,10 +1,11 @@
 # Category:Ship/bg
 This category lists pages related to the [Ship Workbench/bg](Ship_Workbench/bg.md).
 
-### Contents:
+### Contents
 
-  
-  [Ship Workbench/bg](Ship_Workbench/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Ship Workbench/bg](wiki/Ship Workbench/bg.md) |
 
 
 

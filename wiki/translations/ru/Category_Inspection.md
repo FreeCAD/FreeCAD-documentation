@@ -1,10 +1,11 @@
 # Category:Inspection/ru
 This category lists pages related to the [Inspection Workbench](Inspection_Workbench.md).
 
-### Contents:
+### Contents
 
-   
-  [Artwork Inspection/ru](Artwork_Inspection/ru.md)   [Inspection Workbench/ru](Inspection_Workbench/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Inspection/ru](wiki/Artwork Inspection/ru.md) | [Inspection Workbench/ru](wiki/Inspection Workbench/ru.md) |
 
 
 

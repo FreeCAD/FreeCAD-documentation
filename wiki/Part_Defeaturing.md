@@ -4,6 +4,7 @@
    MenuLocation:Part → Defeaturing
    Workbenches:[Part](Part_Workbench.md)
    Version:0.18
+   SeeAlso:[[Macro_Parametric_Defeaturing]]
 ---
 
 # Part Defeaturing
@@ -34,6 +35,7 @@ To be available, this tool requires FreeCAD to be based on Open Cascade 7.3.0 or
 
 -   [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211), the official announcement on the Open Cascade collaborative development portal.
 -   <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [Defeaturing Workbench](Defeaturing_Workbench.md)
+-   <img alt="" src=images/Parametric_defeaturing.svg  style="width:24px;"> [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing.md)
 
 
 

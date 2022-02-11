@@ -27,6 +27,14 @@ The RegularPolygon is available from the Create Primitives dialogue in the Part 
 -   Polygon - the number of sides of the polygon which describes the cross section of the Part Prism
 -   Circumradius - the circumradius is the distance from the centre of the polygon to a vertex.
 
+## Notes
+
+## Properties
+
+## Limitations
+
+## Scripting
+
 
 
 ---

@@ -1,10 +1,11 @@
 # Category:Image/uk
 This category lists pages related to the [Image Workbench/uk](Image_Workbench/uk.md).
 
-### Contents:
+### Contents
 
-  
-  [Image Workbench/uk](Image_Workbench/uk.md)
+|     |     |     |
+| --- | --- | --- |
+| [Image Workbench/uk](wiki/Image Workbench/uk.md) |
 
 
 

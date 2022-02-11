@@ -1,10 +1,11 @@
 # Category:Robot/hr
 This category lists pages related to the [Robot Workbench/hr](Robot_Workbench/hr.md).
 
-### Contents:
+### Contents
 
-  
-  [Robot Workbench/hr](Robot_Workbench/hr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Robot Workbench/hr](wiki/Robot Workbench/hr.md) |
 
 
 

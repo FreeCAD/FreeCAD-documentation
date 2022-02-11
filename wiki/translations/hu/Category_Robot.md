@@ -1,10 +1,11 @@
 # Category:Robot/hu
 This category lists pages related to the [Robot Workbench/hu](Robot_Workbench/hu.md).
 
-### Contents:
+### Contents
 
-  
-  [Robot Workbench/hu](Robot_Workbench/hu.md)
+|     |     |     |
+| --- | --- | --- |
+| [Robot Workbench/hu](wiki/Robot Workbench/hu.md) |
 
 
 

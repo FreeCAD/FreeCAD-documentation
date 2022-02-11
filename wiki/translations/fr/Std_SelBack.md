@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Std SelBack
    Name/fr:Std Rétablir
-   MenuLocation:''Aucun''
+   MenuLocation:
    Workbenches:Tous
    Version:0.19
    SeeAlso:[Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Tous les liens](Std_LinkSelectAllLinks/fr.md), [Std Etablir](Std_SelForward/fr.md)
@@ -17,7 +17,7 @@ La commande **Std Rétablir** restaure la sélection précédente enregistrée d
 ## Utilisation
 
 1.  Il doit y avoir une sélection d\'arborescence précédente.
-2.  Appuyez sur le bouton **<img src="images/Std_SelBack.svg" width=16px> [Std SelBack](Std_SelBack/fr.md)**.
+2.  Appuyez sur le bouton **<img src="images/Std_SelBack.svg" width=16px> [Std Rétablir](Std_SelBack/fr.md)**.
 3.  La sélection précédente est restaurée.
 
 ## Remarques

@@ -7,16 +7,18 @@ Den betreffenden Artikeln folgende Zeile anhängen:
 
 <noinclude>[[Category:Administration/de]] [[Category:Template/de]]</noinclude>
 
-### Contents:
+### Contents
 
-    
-  [Template:Arch Tools navi/de](Template:Arch_Tools_navi/de.md)           [Bug Triage/de](Bug_Triage/de.md)                                       [Changelog/de](Changelog/de.md)
-  [Crowdin Administration/de](Crowdin_Administration/de.md)               [Crowdin Scripts/de](Crowdin_Scripts/de.md)                             [Template:Drawing Tools navi/de](Template:Drawing_Tools_navi/de.md)
-  [Template:OpenSCAD Tools navi/de](Template:OpenSCAD_Tools_navi/de.md)   [Template:Part Tools navi/de](Template:Part_Tools_navi/de.md)           [Template:PartDesign Tools navi/de](Template:PartDesign_Tools_navi/de.md)
-  [Template:Properties Title/de](Template:Properties_Title/de.md)         [Template:PropertyData/de](Template:PropertyData/de.md)                 [Template:PropertyView/de](Template:PropertyView/de.md)
-  [Python 3/de](Python_3/de.md)                                           [Template:Robot Tools navi/de](Template:Robot_Tools_navi/de.md)         [Template:Ship Tools navi/de](Template:Ship_Tools_navi/de.md)
-  [Template:Sketcher Tools navi/de](Template:Sketcher_Tools_navi/de.md)   [Template:TechDraw Tools navi/de](Template:TechDraw_Tools_navi/de.md)   [Tracker/de](Tracker/de.md)
-  [Template:UnfinishedDocu/de](Template:UnfinishedDocu/de.md)             [WikiPages/de](WikiPages/de.md)                                         [WikiRobots/de](WikiRobots/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Arch Tools navi/de](wiki/Template_Arch Tools navi/de.md) | [Bug Triage/de](wiki/Bug Triage/de.md) | [Changelog/de](wiki/Changelog/de.md) |
+| [Crowdin Administration/de](wiki/Crowdin Administration/de.md) | [Crowdin Scripts/de](wiki/Crowdin Scripts/de.md) | [Template:Drawing Tools navi/de](wiki/Template_Drawing Tools navi/de.md) |
+| [Template:OpenSCAD Tools navi/de](wiki/Template_OpenSCAD Tools navi/de.md) | [Template:Part Tools navi/de](wiki/Template_Part Tools navi/de.md) | [Template:PartDesign Tools navi/de](wiki/Template_PartDesign Tools navi/de.md) |
+| [Template:Properties Title/de](wiki/Template_Properties Title/de.md) | [Template:PropertyData/de](wiki/Template_PropertyData/de.md) | [Template:PropertyView/de](wiki/Template_PropertyView/de.md) |
+| [Python 3/de](wiki/Python 3/de.md) | [Template:Robot Tools navi/de](wiki/Template_Robot Tools navi/de.md) | [Template:Ship Tools navi/de](wiki/Template_Ship Tools navi/de.md) |
+| [Template:Sketcher Tools navi/de](wiki/Template_Sketcher Tools navi/de.md) | [Template:TechDraw Tools navi/de](wiki/Template_TechDraw Tools navi/de.md) | [Tracker/de](wiki/Tracker/de.md) |
+| [WikiPages/de](wiki/WikiPages/de.md) | [WikiRobots/de](wiki/WikiRobots/de.md) | [Category:UnfinishedDocu/de](wiki/Category_UnfinishedDocu/de.md) |
+| [Category:Wiki/de](wiki/Category_Wiki/de.md) |
 
 
 

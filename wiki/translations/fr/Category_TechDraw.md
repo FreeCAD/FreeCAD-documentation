@@ -1,35 +1,48 @@
 # Category:TechDraw/fr
 Cette catégorie répertorie les pages liées à l\'atelier [Workbench](TechDraw_Workbench/fr.md).
 
-### Contents:
+### Contents
 
-    
-  [Advanced TechDraw Tutorial/fr](Advanced_TechDraw_Tutorial/fr.md)                   [Artwork TechDraw/fr](Artwork_TechDraw/fr.md)                                       [Basic TechDraw Tutorial/fr](Basic_TechDraw_Tutorial/fr.md)
-  [Bitmap/fr](Bitmap/fr.md)                                                           [Drawing/fr](Drawing/fr.md)                                                         [DXF/fr](DXF/fr.md)
-  [Measurement Of Angles On Holes/fr](Measurement_Of_Angles_On_Holes/fr.md)           [SVG/fr](SVG/fr.md)                                                                 [TechDraw 2LineCenterLine/fr](TechDraw_2LineCenterLine/fr.md)
-  [TechDraw 2PointCenterLine/fr](TechDraw_2PointCenterLine/fr.md)                     [TechDraw 2PointCosmeticLine/fr](TechDraw_2PointCosmeticLine/fr.md)                 [TechDraw 3PtAngleDimension/fr](TechDraw_3PtAngleDimension/fr.md)
-  [TechDraw ActiveView/fr](TechDraw_ActiveView/fr.md)                                 [TechDraw AngleDimension/fr](TechDraw_AngleDimension/fr.md)                         [TechDraw Annotation/fr](TechDraw_Annotation/fr.md)
-  [TechDraw API/fr](TechDraw_API/fr.md)                                               [TechDraw ArchView/fr](TechDraw_ArchView/fr.md)                                     [TechDraw Balloon/fr](TechDraw_Balloon/fr.md)
-  [TechDraw ClipGroup/fr](TechDraw_ClipGroup/fr.md)                                   [TechDraw ClipGroupAdd/fr](TechDraw_ClipGroupAdd/fr.md)                             [TechDraw ClipGroupRemove/fr](TechDraw_ClipGroupRemove/fr.md)
-  [TechDraw CosmeticEraser/fr](TechDraw_CosmeticEraser/fr.md)                         [TechDraw CosmeticVertex/fr](TechDraw_CosmeticVertex/fr.md)                         [TechDraw DecorateLine/fr](TechDraw_DecorateLine/fr.md)
-  [TechDraw DetailView/fr](TechDraw_DetailView/fr.md)                                 [TechDraw DiameterDimension/fr](TechDraw_DiameterDimension/fr.md)                   [TechDraw DraftView/fr](TechDraw_DraftView/fr.md)
-  [TechDraw ExportPageDXF/fr](TechDraw_ExportPageDXF/fr.md)                           [TechDraw ExportPageSVG/fr](TechDraw_ExportPageSVG/fr.md)                           [TechDraw ExtensionCircleCenterLines/fr](TechDraw_ExtensionCircleCenterLines/fr.md)
-  [TechDraw ExtensionThreadBoltBottom/fr](TechDraw_ExtensionThreadBoltBottom/fr.md)   [TechDraw ExtensionThreadBoltSide/fr](TechDraw_ExtensionThreadBoltSide/fr.md)       [TechDraw ExtensionThreadHoleBottom/fr](TechDraw_ExtensionThreadHoleBottom/fr.md)
-  [TechDraw ExtensionThreadHoleSide/fr](TechDraw_ExtensionThreadHoleSide/fr.md)       [TechDraw FaceCenterLine/fr](TechDraw_FaceCenterLine/fr.md)                         [TechDraw Geometric dimensioning and tolerancing/fr](TechDraw_Geometric_dimensioning_and_tolerancing/fr.md)
-  [TechDraw GeometricHatch/fr](TechDraw_GeometricHatch/fr.md)                         [TechDraw Hatch/fr](TechDraw_Hatch/fr.md)                                           [TechDraw Hatching/fr](TechDraw_Hatching/fr.md)
-  [TechDraw HorizontalDimension/fr](TechDraw_HorizontalDimension/fr.md)               [TechDraw HorizontalExtentDimension/fr](TechDraw_HorizontalExtentDimension/fr.md)   [TechDraw HowTo Page/fr](TechDraw_HowTo_Page/fr.md)
-  [TechDraw Image/fr](TechDraw_Image/fr.md)                                           [TechDraw LandmarkDimension/fr](TechDraw_LandmarkDimension/fr.md)                   [TechDraw LeaderLine/fr](TechDraw_LeaderLine/fr.md)
-  [TechDraw LengthDimension/fr](TechDraw_LengthDimension/fr.md)                       [TechDraw LineGroup/fr](TechDraw_LineGroup/fr.md)                                   [TechDraw LinkDimension/fr](TechDraw_LinkDimension/fr.md)
-  [TechDraw Midpoints/fr](TechDraw_Midpoints/fr.md)                                   [TechDraw PageDefault/fr](TechDraw_PageDefault/fr.md)                               [TechDraw PageTemplate/fr](TechDraw_PageTemplate/fr.md)
-  [TechDraw Pitch Circle Tutorial/fr](TechDraw_Pitch_Circle_Tutorial/fr.md)           [TechDraw Preferences/fr](TechDraw_Preferences/fr.md)                               [TechDraw ProjectionGroup/fr](TechDraw_ProjectionGroup/fr.md)
-  [TechDraw Quadrants/fr](TechDraw_Quadrants/fr.md)                                   [TechDraw RadiusDimension/fr](TechDraw_RadiusDimension/fr.md)                       [TechDraw RedrawPage/fr](TechDraw_RedrawPage/fr.md)
-  [TechDraw RichTextAnnotation/fr](TechDraw_RichTextAnnotation/fr.md)                 [TechDraw Roadmap/fr](TechDraw_Roadmap/fr.md)                                       [TechDraw SectionView/fr](TechDraw_SectionView/fr.md)
-  [TechDraw ShowAll/fr](TechDraw_ShowAll/fr.md)                                       [TechDraw SpreadsheetView/fr](TechDraw_SpreadsheetView/fr.md)                       [TechDraw Symbol/fr](TechDraw_Symbol/fr.md)
-  [TechDraw TemplateHowTo/fr](TechDraw_TemplateHowTo/fr.md)                           [TechDraw Templates/fr](TechDraw_Templates/fr.md)                                   [TechDraw ToggleFrame/fr](TechDraw_ToggleFrame/fr.md)
-  [Template:TechDraw Tools navi/fr](Template:TechDraw_Tools_navi/fr.md)               [TechDraw VerticalDimension/fr](TechDraw_VerticalDimension/fr.md)                   [TechDraw VerticalExtentDimension/fr](TechDraw_VerticalExtentDimension/fr.md)
-  [TechDraw View/fr](TechDraw_View/fr.md)                                             [TechDraw WeldSymbol/fr](TechDraw_WeldSymbol/fr.md)                                 [TechDraw Workbench/fr](TechDraw_Workbench/fr.md)
-  [TechDrawGui API/fr](TechDrawGui_API/fr.md)                                         [Tolerancing/fr](Tolerancing/fr.md)                                                 [Topological naming problem/fr](Topological_naming_problem/fr.md)
-  [Tutorial for open windows/fr](Tutorial_for_open_windows/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Advanced TechDraw Tutorial/fr](wiki/Advanced TechDraw Tutorial/fr.md) | [Artwork TechDraw/fr](wiki/Artwork TechDraw/fr.md) | [Basic TechDraw Tutorial/fr](wiki/Basic TechDraw Tutorial/fr.md) |
+| [Bitmap/fr](wiki/Bitmap/fr.md) | [Drawing/fr](wiki/Drawing/fr.md) | [DXF/fr](wiki/DXF/fr.md) |
+| [Measurement Of Angles On Holes/fr](wiki/Measurement Of Angles On Holes/fr.md) | [SVG/fr](wiki/SVG/fr.md) | [TechDraw 2LineCenterLine/fr](wiki/TechDraw 2LineCenterLine/fr.md) |
+| [TechDraw 2PointCenterLine/fr](wiki/TechDraw 2PointCenterLine/fr.md) | [TechDraw 2PointCosmeticLine/fr](wiki/TechDraw 2PointCosmeticLine/fr.md) | [TechDraw 3PtAngleDimension/fr](wiki/TechDraw 3PtAngleDimension/fr.md) |
+| [TechDraw ActiveView/fr](wiki/TechDraw ActiveView/fr.md) | [TechDraw AngleDimension/fr](wiki/TechDraw AngleDimension/fr.md) | [TechDraw Annotation/fr](wiki/TechDraw Annotation/fr.md) |
+| [TechDraw API/fr](wiki/TechDraw API/fr.md) | [TechDraw ArchView/fr](wiki/TechDraw ArchView/fr.md) | [TechDraw Balloon/fr](wiki/TechDraw Balloon/fr.md) |
+| [TechDraw ClipGroup/fr](wiki/TechDraw ClipGroup/fr.md) | [TechDraw ClipGroupAdd/fr](wiki/TechDraw ClipGroupAdd/fr.md) | [TechDraw ClipGroupRemove/fr](wiki/TechDraw ClipGroupRemove/fr.md) |
+| [TechDraw CosmeticEraser/fr](wiki/TechDraw CosmeticEraser/fr.md) | [TechDraw CosmeticVertex/fr](wiki/TechDraw CosmeticVertex/fr.md) | [TechDraw DecorateLine/fr](wiki/TechDraw DecorateLine/fr.md) |
+| [TechDraw DetailView/fr](wiki/TechDraw DetailView/fr.md) | [TechDraw DiameterDimension/fr](wiki/TechDraw DiameterDimension/fr.md) | [TechDraw DraftView/fr](wiki/TechDraw DraftView/fr.md) |
+| [TechDraw ExportPageDXF/fr](wiki/TechDraw ExportPageDXF/fr.md) | [TechDraw ExportPageSVG/fr](wiki/TechDraw ExportPageSVG/fr.md) | [TechDraw ExtensionCascadeHorizDimension/fr](wiki/TechDraw ExtensionCascadeHorizDimension/fr.md) |
+| [TechDraw ExtensionCascadeObliqueDimension/fr](wiki/TechDraw ExtensionCascadeObliqueDimension/fr.md) | [TechDraw ExtensionCascadeVertDimension/fr](wiki/TechDraw ExtensionCascadeVertDimension/fr.md) | [TechDraw ExtensionChangeLineAttributes/fr](wiki/TechDraw ExtensionChangeLineAttributes/fr.md) |
+| [TechDraw ExtensionCircleCenterLines/fr](wiki/TechDraw ExtensionCircleCenterLines/fr.md) | [TechDraw ExtensionCreateHorizChainDimension/fr](wiki/TechDraw ExtensionCreateHorizChainDimension/fr.md) | [TechDraw ExtensionCreateHorizChamferDimension/fr](wiki/TechDraw ExtensionCreateHorizChamferDimension/fr.md) |
+| [TechDraw ExtensionCreateHorizCoordDimension/fr](wiki/TechDraw ExtensionCreateHorizCoordDimension/fr.md) | [TechDraw ExtensionCreateLengthArc/fr](wiki/TechDraw ExtensionCreateLengthArc/fr.md) | [TechDraw ExtensionCreateObliqueChainDimension/fr](wiki/TechDraw ExtensionCreateObliqueChainDimension/fr.md) |
+| [TechDraw ExtensionCreateObliqueCoordDimension/fr](wiki/TechDraw ExtensionCreateObliqueCoordDimension/fr.md) | [TechDraw ExtensionCreateVertChainDimension/fr](wiki/TechDraw ExtensionCreateVertChainDimension/fr.md) | [TechDraw ExtensionCreateVertChamferDimension/fr](wiki/TechDraw ExtensionCreateVertChamferDimension/fr.md) |
+| [TechDraw ExtensionCreateVertCoordDimension/fr](wiki/TechDraw ExtensionCreateVertCoordDimension/fr.md) | [TechDraw ExtensionDecreaseDecimal/fr](wiki/TechDraw ExtensionDecreaseDecimal/fr.md) | [TechDraw ExtensionDrawCosmArc/fr](wiki/TechDraw ExtensionDrawCosmArc/fr.md) |
+| [TechDraw ExtensionDrawCosmCircle/fr](wiki/TechDraw ExtensionDrawCosmCircle/fr.md) | [TechDraw ExtensionDrawCosmCircle3Points/fr](wiki/TechDraw ExtensionDrawCosmCircle3Points/fr.md) | [TechDraw ExtensionExtendLine/fr](wiki/TechDraw ExtensionExtendLine/fr.md) |
+| [TechDraw ExtensionHoleCircle/fr](wiki/TechDraw ExtensionHoleCircle/fr.md) | [TechDraw ExtensionIncreaseDecimal/fr](wiki/TechDraw ExtensionIncreaseDecimal/fr.md) | [TechDraw ExtensionInsertDiameter/fr](wiki/TechDraw ExtensionInsertDiameter/fr.md) |
+| [TechDraw ExtensionInsertSquare/fr](wiki/TechDraw ExtensionInsertSquare/fr.md) | [TechDraw ExtensionLineParallel/fr](wiki/TechDraw ExtensionLineParallel/fr.md) | [TechDraw ExtensionLinePerpendicular/fr](wiki/TechDraw ExtensionLinePerpendicular/fr.md) |
+| [TechDraw ExtensionLockUnlockView/fr](wiki/TechDraw ExtensionLockUnlockView/fr.md) | [TechDraw ExtensionPosHorizChainDimension/fr](wiki/TechDraw ExtensionPosHorizChainDimension/fr.md) | [TechDraw ExtensionPositionSectionView/fr](wiki/TechDraw ExtensionPositionSectionView/fr.md) |
+| [TechDraw ExtensionPosObliqueChainDimension/fr](wiki/TechDraw ExtensionPosObliqueChainDimension/fr.md) | [TechDraw ExtensionPosVertChainDimension/fr](wiki/TechDraw ExtensionPosVertChainDimension/fr.md) | [TechDraw ExtensionRemovePrefixChar/fr](wiki/TechDraw ExtensionRemovePrefixChar/fr.md) |
+| [TechDraw ExtensionSelectLineAttributes/fr](wiki/TechDraw ExtensionSelectLineAttributes/fr.md) | [TechDraw ExtensionShortenLine/fr](wiki/TechDraw ExtensionShortenLine/fr.md) | [TechDraw ExtensionThreadBoltBottom/fr](wiki/TechDraw ExtensionThreadBoltBottom/fr.md) |
+| [TechDraw ExtensionThreadBoltSide/fr](wiki/TechDraw ExtensionThreadBoltSide/fr.md) | [TechDraw ExtensionThreadHoleBottom/fr](wiki/TechDraw ExtensionThreadHoleBottom/fr.md) | [TechDraw ExtensionThreadHoleSide/fr](wiki/TechDraw ExtensionThreadHoleSide/fr.md) |
+| [TechDraw ExtensionVertexAtIntersection/fr](wiki/TechDraw ExtensionVertexAtIntersection/fr.md) | [TechDraw FaceCenterLine/fr](wiki/TechDraw FaceCenterLine/fr.md) | [TechDraw Geometric dimensioning and tolerancing/fr](wiki/TechDraw Geometric dimensioning and tolerancing/fr.md) |
+| [TechDraw GeometricHatch/fr](wiki/TechDraw GeometricHatch/fr.md) | [TechDraw Hatch/fr](wiki/TechDraw Hatch/fr.md) | [TechDraw Hatching/fr](wiki/TechDraw Hatching/fr.md) |
+| [TechDraw HorizontalDimension/fr](wiki/TechDraw HorizontalDimension/fr.md) | [TechDraw HorizontalExtentDimension/fr](wiki/TechDraw HorizontalExtentDimension/fr.md) | [TechDraw HowTo Page/fr](wiki/TechDraw HowTo Page/fr.md) |
+| [TechDraw Image/fr](wiki/TechDraw Image/fr.md) | [TechDraw LandmarkDimension/fr](wiki/TechDraw LandmarkDimension/fr.md) | [TechDraw LeaderLine/fr](wiki/TechDraw LeaderLine/fr.md) |
+| [TechDraw LengthDimension/fr](wiki/TechDraw LengthDimension/fr.md) | [TechDraw LineGroup/fr](wiki/TechDraw LineGroup/fr.md) | [TechDraw LinkDimension/fr](wiki/TechDraw LinkDimension/fr.md) |
+| [TechDraw Midpoints/fr](wiki/TechDraw Midpoints/fr.md) | [TechDraw MoveView/fr](wiki/TechDraw MoveView/fr.md) | [TechDraw PageDefault/fr](wiki/TechDraw PageDefault/fr.md) |
+| [TechDraw PageTemplate/fr](wiki/TechDraw PageTemplate/fr.md) | [TechDraw Pitch Circle Tutorial/fr](wiki/TechDraw Pitch Circle Tutorial/fr.md) | [TechDraw Preferences/fr](wiki/TechDraw Preferences/fr.md) |
+| [TechDraw ProjectionGroup/fr](wiki/TechDraw ProjectionGroup/fr.md) | [TechDraw Quadrants/fr](wiki/TechDraw Quadrants/fr.md) | [TechDraw RadiusDimension/fr](wiki/TechDraw RadiusDimension/fr.md) |
+| [TechDraw RedrawPage/fr](wiki/TechDraw RedrawPage/fr.md) | [TechDraw RichTextAnnotation/fr](wiki/TechDraw RichTextAnnotation/fr.md) | [TechDraw Roadmap/fr](wiki/TechDraw Roadmap/fr.md) |
+| [TechDraw SectionView/fr](wiki/TechDraw SectionView/fr.md) | [TechDraw ShareView/fr](wiki/TechDraw ShareView/fr.md) | [TechDraw ShowAll/fr](wiki/TechDraw ShowAll/fr.md) |
+| [TechDraw SpreadsheetView/fr](wiki/TechDraw SpreadsheetView/fr.md) | [TechDraw Symbol/fr](wiki/TechDraw Symbol/fr.md) | [TechDraw TemplateHowTo/fr](wiki/TechDraw TemplateHowTo/fr.md) |
+| [TechDraw Templates/fr](wiki/TechDraw Templates/fr.md) | [TechDraw ToggleFrame/fr](wiki/TechDraw ToggleFrame/fr.md) | [Template:TechDraw Tools navi/fr](wiki/Template_TechDraw Tools navi/fr.md) |
+| [TechDraw VerticalDimension/fr](wiki/TechDraw VerticalDimension/fr.md) | [TechDraw VerticalExtentDimension/fr](wiki/TechDraw VerticalExtentDimension/fr.md) | [TechDraw View/fr](wiki/TechDraw View/fr.md) |
+| [TechDraw WeldSymbol/fr](wiki/TechDraw WeldSymbol/fr.md) | [TechDraw Workbench/fr](wiki/TechDraw Workbench/fr.md) | [TechDrawGui API/fr](wiki/TechDrawGui API/fr.md) |
+| [Tolerancing/fr](wiki/Tolerancing/fr.md) | [Topological naming problem/fr](wiki/Topological naming problem/fr.md) | [Tutorial for open windows/fr](wiki/Tutorial for open windows/fr.md) |
+|
 
 
 

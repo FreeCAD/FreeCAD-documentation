@@ -1,4 +1,7 @@
-# <img alt="Ikonka FreeCAD dla zewnętrznego środowiska pracy Arkusz blachy" src=images/Sheetmetal_workbench_icon.svg  style="width:64px;"> SheetMetal Workbench/pl
+# SheetMetal Workbench/pl
+}
+
+<img alt="Ikonka FreeCAD dla zewnętrznego środowiska pracy Arkusz blachy" src=images/Sheetmetal_workbench_icon.svg  style="width:128px;">
 
 
 {{TOCright}}

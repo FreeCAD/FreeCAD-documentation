@@ -36,9 +36,9 @@ Po uruchomieniu aplikacji domyślnym Środowiskiem pracy jest [Start](Start_Work
 
 -    **Akcje z wyrażeniami**:
 
-    -   [Kopiuj wybrane](Std_Expressions/pl.md),
-    -   [Kopiuj aktywny element](Std_Expressions/pl.md),
-    -   [Kopiuj wszystkie dokumenty](Std_Expressions/pl.md),
+    -   [Kopiuj wybrane](Expressions/pl.md),
+    -   [Kopiuj aktywny element](Expressions/pl.md),
+    -   [Kopiuj wszystkie dokumenty](Expressions/pl.md),
     -   [Wklej](Std_Paste/pl.md).
 
 Umożliwiają one pracę z różnymi dokumentami, ale są wyłączone, jeśli nie ma dokumentu.
@@ -47,8 +47,8 @@ Po utworzeniu nowego dokumentu aktywne stają się następujące elementy:
 
 -    **Akcje z wyrażeniami**:
 
-    -   [Kopiuj aktywny dokument](Std_Expressions.md),
-    -   [Kopiuj wszystkie dokumenty](Std_Expressions.md).
+    -   [Kopiuj aktywny dokument](Expressions/pl.md),
+    -   [Kopiuj wszystkie dokumenty](Expressions/pl.md).
 
 Ponadto dostępne są dodatkowe akcje [Link](Std_LinkMake.md).
 

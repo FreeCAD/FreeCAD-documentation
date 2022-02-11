@@ -78,7 +78,31 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 -   **Zeichnungsstil**: Gibt den Standard (und dessen Stil) an, nach dem die Bemaßung gezeichnet wird. Siehe die Eigenschaft [**Standard und Stil**](#View.md) für Einzelheiten.
 
+### Lines
+
+-   **Override Angles**: If checked, the usual angles for the dimension line and extension lines will be overriden by the specified values.
+
+-   **Dimension line angle**: Override value for angle of dimension line with view X axis (in degrees).
+
+-   **Use default**: Set dimension line angle to the usual angle.
+
+-   **Use selection**: Set dimension line angle to match the angle of the selected edge (or 2 vertices) in the view.
+
+-   **Extension line angle**: Override value for angle of extension lines with view X axis (in degrees).
+
+-   **Use default**: Set extension line angle to the usual angle.
+
+-   **Use selection**: Set extension line angle to match the angle of the selected edge (or 2 vertices) in the view.
+
 ## Eigenschaften
+
+### Data
+
+
+{{Properties_Title|Base}}
+
+
+<div class="mw-translate-fuzzy">
 
 ### Daten
 
@@ -145,6 +169,15 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         \- der umgekehrte Wert wird verwendet. Für Länge eine negative Zahl, für Winkel der Reflexwert (180° - 360°).
 
 
+</div>
+
+
+{{Properties_Title|Format}}
+
+
+<div class="mw-translate-fuzzy">
+
+
 {{Properties_Title/de|Format}}
 
 -    {{PropertyData/de|FormatAngabe}}: Wie die Bemaßung formatiert sein wird. Als Standard ist der Spezifizierer *%.xf*, wobei *x* die Anzahl der Dezimalstellen ist. Für die Formatierungssyntax siehe [printf](https://en.wikipedia.org/wiki/Printf_format_string).
@@ -168,6 +201,38 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         \- ignoriere den Bemaßungwert und zeige genau **FormatAngabe** an.
 
 -    {{PropertyData/de|frei wählbare Toleranzen}}: Wie {{PropertyData/de|frei wählbar}}, aber für die Toleranz.
+
+
+</div>
+
+
+{{Properties_Title|Override}}
+
+-    **AngleOverride**: Whether the direction of dimension and extension lines is overridden.
+
+:   
+
+    :   
+        `False`
+        
+        \- the directions are computed as usual.
+
+    :   
+        `True`
+        
+        \- the directions are overridden by LineAngle and ExtensionAngle property values.
+
+-    **LineAngle**: angle of dimension line with view X axis (in degrees).
+
+-    **ExtensionAngle**: angle of extension line(s) with view X axis (in degrees).
+
+### View
+
+
+{{Properties_Title|Base}}
+
+
+<div class="mw-translate-fuzzy">
 
 ### Ansicht
 
@@ -225,6 +290,9 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         `True`
         
         \- Außer Kraft setzen der automatisch gewählten Richtung und erzwingen der entgegengesetzten Richtung.
+
+
+</div>
 
 ## Begrenzungen
 

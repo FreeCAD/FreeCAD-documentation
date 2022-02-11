@@ -5,11 +5,12 @@ Ces modèles produisent de petits morceaux de texte qui conviennent à la transc
 
 Les longs textes doivent être placés dans la page elle-même, de manière à pouvoir être traduits avec l\'extension de traduction.
 
-### Contents:
+### Contents
 
-    
-  [Template:Obsolete/fr](Template:Obsolete/fr.md)         [Template:Version/fr](Template:Version/fr.md)   [Template:VersionMinus/fr](Template:VersionMinus/fr.md)
-  [Template:VersionPlus/fr](Template:VersionPlus/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Obsolete/fr](wiki/Template_Obsolete/fr.md) | [Template:Version/fr](wiki/Template_Version/fr.md) | [Template:VersionMinus/fr](wiki/Template_VersionMinus/fr.md) |
+| [Template:VersionPlus/fr](wiki/Template_VersionPlus/fr.md) |
 
 
 

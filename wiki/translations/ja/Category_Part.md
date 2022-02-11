@@ -1,10 +1,11 @@
 # Category:Part/ja
 This category lists pages related to the [Part Workbench/ja](Part_Workbench/ja.md).
 
-### Contents:
+### Contents
 
-   
-  [Part Boolean/ja](Part_Boolean/ja.md)   [Part Module/ja](Part_Module/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [Part Boolean/ja](wiki/Part Boolean/ja.md) | [Part Module/ja](wiki/Part Module/ja.md) |
 
 
 

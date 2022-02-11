@@ -1,4 +1,7 @@
 # SheetMetal Workbench/it
+}
+
+
 <div class="mw-translate-fuzzy">
 
 Icona dell\'ambiente esterno SheetMetal

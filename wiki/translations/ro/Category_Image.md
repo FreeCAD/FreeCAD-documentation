@@ -1,10 +1,11 @@
 # Category:Image/ro
 This category lists pages related to the [Image Workbench/ro](Image_Workbench/ro.md).
 
-### Contents:
+### Contents
 
-  
-  [Image Workbench/ro](Image_Workbench/ro.md)
+|     |     |     |
+| --- | --- | --- |
+| [Image Workbench/ro](wiki/Image Workbench/ro.md) |
 
 
 

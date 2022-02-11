@@ -1,10 +1,11 @@
 # Category:Developer/zh-cn
 This category contains articles that are relevant for developers.
 
-### Contents:
+### Contents
 
-   
-  [Compiling/zh-cn](Compiling/zh-cn.md)   [Contributors/zh-cn](Contributors/zh-cn.md)
+|     |     |     |
+| --- | --- | --- |
+| [Compiling/zh-cn](wiki/Compiling/zh-cn.md) | [Contributors/zh-cn](wiki/Contributors/zh-cn.md) |
 
 
 

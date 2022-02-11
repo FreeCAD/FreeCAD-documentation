@@ -3,23 +3,25 @@
 
 Cette catégorie contient les articles, et, les catégories sur le wiki, de tous les sujets administratifs.
 
-### Contents:
+### Contents
 
-    
-  [Template:Arch Tools navi/fr](Template:Arch_Tools_navi/fr.md)               [Bug Triage/fr](Bug_Triage/fr.md)                                           [Changelog/fr](Changelog/fr.md)
-  [Crowdin Administration/fr](Crowdin_Administration/fr.md)                   [Crowdin Scripts/fr](Crowdin_Scripts/fr.md)                                 [Template:Document objects navi/fr](Template:Document_objects_navi/fr.md)
-  [Template:Draft Tools navi/fr](Template:Draft_Tools_navi/fr.md)             [Template:Drawing Tools navi/fr](Template:Drawing_Tools_navi/fr.md)         [Template:EM Tools navi/fr](Template:EM_Tools_navi/fr.md)
-  [Template:Interface navi/fr](Template:Interface_navi/fr.md)                 [Template:OngletTache](Template_OngletTache.md)                             [Template:OpenSCAD Tools navi/fr](Template:OpenSCAD_Tools_navi/fr.md)
-  [Organization chart/fr](Organization_chart/fr.md)                           [Part Chamfer/ro](Part_Chamfer/ro.md)                                       [Template:Part Tools navi/fr](Template:Part_Tools_navi/fr.md)
-  [PartDesign Chamfer/ro](PartDesign_Chamfer/ro.md)                           [Template:PartDesign Tools navi/fr](Template:PartDesign_Tools_navi/fr.md)   [Template:PartOngletVue 2/fr](Template:PartOngletVue_2/fr.md)
-  [Template:PartOngletVue/fr](Template:PartOngletVue/fr.md)                   [Template:PropertyData/fr](Template:PropertyData/fr.md)                     [Template:PropertyView/fr](Template:PropertyView/fr.md)
-  [Template:ProprieteDonnees](Template_ProprieteDonnees.md)                   [Template:ProprieteVue](Template_ProprieteVue.md)                           [Python 3/fr](Python_3/fr.md)
-  [Template:Raytracing Tools navi/fr](Template:Raytracing_Tools_navi/fr.md)   [Template:Robot Tools navi/fr](Template:Robot_Tools_navi/fr.md)             [Template:Ship Tools navi/fr](Template:Ship_Tools_navi/fr.md)
-  [Template:Sketcher Tools navi/fr](Template:Sketcher_Tools_navi/fr.md)       [Template:Start Tools navi/fr](Template:Start_Tools_navi/fr.md)             [Template:StdMenu/fr](Template:StdMenu/fr.md)
-  [Template:TechDraw Tools navi/fr](Template:TechDraw_Tools_navi/fr.md)       [Tracker/fr](Tracker/fr.md)                                                 [Template:Tutorials navi/fr](Template:Tutorials_navi/fr.md)
-  [Template:UnfinishedDocu/fr](Template:UnfinishedDocu/fr.md)                 [WikiPages/fr](WikiPages/fr.md)                                             [WikiRobots/fr](WikiRobots/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Arch Tools navi/fr](wiki/Template_Arch Tools navi/fr.md) | [Bug Triage/fr](wiki/Bug Triage/fr.md) | [Changelog/fr](wiki/Changelog/fr.md) |
+| [Crowdin Administration/fr](wiki/Crowdin Administration/fr.md) | [Crowdin Scripts/fr](wiki/Crowdin Scripts/fr.md) | [Template:Document objects navi/fr](wiki/Template_Document objects navi/fr.md) |
+| [Template:Draft Tools navi/fr](wiki/Template_Draft Tools navi/fr.md) | [Template:Drawing Tools navi/fr](wiki/Template_Drawing Tools navi/fr.md) | [Template:EM Tools navi/fr](wiki/Template_EM Tools navi/fr.md) |
+| [Template:Interface navi/fr](wiki/Template_Interface navi/fr.md) | [Template:OngletTache](wiki/Template_OngletTache.md) | [Template:OpenSCAD Tools navi/fr](wiki/Template_OpenSCAD Tools navi/fr.md) |
+| [Organization chart/fr](wiki/Organization chart/fr.md) | [Part Chamfer/ro](wiki/Part Chamfer/ro.md) | [Template:Part Tools navi/fr](wiki/Template_Part Tools navi/fr.md) |
+| [PartDesign Chamfer/ro](wiki/PartDesign Chamfer/ro.md) | [Template:PartDesign Tools navi/fr](wiki/Template_PartDesign Tools navi/fr.md) | [Template:PartOngletVue 2/fr](wiki/Template_PartOngletVue 2/fr.md) |
+| [Template:PartOngletVue/fr](wiki/Template_PartOngletVue/fr.md) | [Template:PropertyData/fr](wiki/Template_PropertyData/fr.md) | [Template:PropertyView/fr](wiki/Template_PropertyView/fr.md) |
+| [Template:ProprieteDonnees](wiki/Template_ProprieteDonnees.md) | [Template:ProprieteVue](wiki/Template_ProprieteVue.md) | [Python 3/fr](wiki/Python 3/fr.md) |
+| [Template:Raytracing Tools navi/fr](wiki/Template_Raytracing Tools navi/fr.md) | [Template:Robot Tools navi/fr](wiki/Template_Robot Tools navi/fr.md) | [Template:Ship Tools navi/fr](wiki/Template_Ship Tools navi/fr.md) |
+| [Template:Sketcher Tools navi/fr](wiki/Template_Sketcher Tools navi/fr.md) | [Template:Start Tools navi/fr](wiki/Template_Start Tools navi/fr.md) | [Template:StdMenu/fr](wiki/Template_StdMenu/fr.md) |
+| [Template:TechDraw Tools navi/fr](wiki/Template_TechDraw Tools navi/fr.md) | [Tracker/fr](wiki/Tracker/fr.md) | [Template:Tutorials navi/fr](wiki/Template_Tutorials navi/fr.md) |
+| [WikiPages/fr](wiki/WikiPages/fr.md) | [WikiRobots/fr](wiki/WikiRobots/fr.md) | [Category:UnfinishedDocu/fr](wiki/Category_UnfinishedDocu/fr.md) |
+| [Category:Wiki/fr](wiki/Category_Wiki/fr.md) |
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Category:Administration/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Administration/fr

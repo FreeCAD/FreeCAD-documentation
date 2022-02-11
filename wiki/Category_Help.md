@@ -1,11 +1,12 @@
 # Category:Help
 This category lists pages that contain helpfull information on MediaWiki and editing.
 
-### Contents:
+### Contents
 
-    
-  [Help:Editing](Help_Editing.md)   [Help:Editing/tr](Help:Editing/tr.md)   [Help](Help.md)
-  [Key ASCII](Key_ASCII.md)
+|     |     |     |
+| --- | --- | --- |
+| [Help:Editing](wiki/Help_Editing.md) | [Help:Editing/tr](wiki/Help_Editing/tr.md) | [Help](wiki/Help.md) |
+| [Key ASCII](wiki/Key ASCII.md) |
 
 
 

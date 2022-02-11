@@ -1,12 +1,12 @@
 # Category:Addons/bg
 This page lists external addon workbenches that have a page in this wiki. Addons are modules or workbenches contributed by the community and are not part of standard FreeCAD.
 
-### Contents:
+### Contents
 
-    --
-  [Plot Workbench/bg](Plot_Workbench/bg.md)   [Ship Workbench/bg](Ship_Workbench/bg.md)   
-                                                                                                          
-    --
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/bg](wiki/Plot Workbench/bg.md) | [Ship Workbench/bg](wiki/Ship Workbench/bg.md) | [Category:External Workbenches/bg](wiki/Category_External Workbenches/bg.md) |
+| [Category:Macros/bg](wiki/Category_Macros/bg.md) |
 
 
 

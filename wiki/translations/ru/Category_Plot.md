@@ -1,13 +1,14 @@
 # Category:Plot/ru
 This category lists pages related to the [Plot Workbench/ru](Plot_Workbench/ru.md).
 
-### Contents:
+### Contents
 
-    
-  [Artwork Plot/ru](Artwork_Plot/ru.md)                         [Plot Axes/ru](Plot_Axes/ru.md)             [Plot Basic tutorial/ru](Plot_Basic_tutorial/ru.md)
-  [Plot Grid/ru](Plot_Grid/ru.md)                               [Plot Labels/ru](Plot_Labels/ru.md)         [Plot Legend/ru](Plot_Legend/ru.md)
-  [Plot MultiAxes tutorial/ru](Plot_MultiAxes_tutorial/ru.md)   [Plot Positions/ru](Plot_Positions/ru.md)   [Plot Save/ru](Plot_Save/ru.md)
-  [Plot Series/ru](Plot_Series/ru.md)                           [Plot Workbench/ru](Plot_Workbench/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Plot/ru](wiki/Artwork Plot/ru.md) | [Plot Axes/ru](wiki/Plot Axes/ru.md) | [Plot Basic tutorial/ru](wiki/Plot Basic tutorial/ru.md) |
+| [Plot Grid/ru](wiki/Plot Grid/ru.md) | [Plot Labels/ru](wiki/Plot Labels/ru.md) | [Plot Legend/ru](wiki/Plot Legend/ru.md) |
+| [Plot MultiAxes tutorial/ru](wiki/Plot MultiAxes tutorial/ru.md) | [Plot Positions/ru](wiki/Plot Positions/ru.md) | [Plot Save/ru](wiki/Plot Save/ru.md) |
+| [Plot Series/ru](wiki/Plot Series/ru.md) | [Plot Workbench/ru](wiki/Plot Workbench/ru.md) |
 
 
 

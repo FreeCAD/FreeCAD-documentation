@@ -1,13 +1,14 @@
 # Category:Plot/it
 This category lists pages related to the [Plot Workbench/it](Plot_Workbench/it.md).
 
-### Contents:
+### Contents
 
-    
-  [Artwork Plot/it](Artwork_Plot/it.md)                         [Plot Axes/it](Plot_Axes/it.md)             [Plot Basic tutorial/it](Plot_Basic_tutorial/it.md)
-  [Plot Grid/it](Plot_Grid/it.md)                               [Plot Labels/it](Plot_Labels/it.md)         [Plot Legend/it](Plot_Legend/it.md)
-  [Plot MultiAxes tutorial/it](Plot_MultiAxes_tutorial/it.md)   [Plot Positions/it](Plot_Positions/it.md)   [Plot Save/it](Plot_Save/it.md)
-  [Plot Series/it](Plot_Series/it.md)                           [Plot Workbench/it](Plot_Workbench/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Plot/it](wiki/Artwork Plot/it.md) | [Plot Axes/it](wiki/Plot Axes/it.md) | [Plot Basic tutorial/it](wiki/Plot Basic tutorial/it.md) |
+| [Plot Grid/it](wiki/Plot Grid/it.md) | [Plot Labels/it](wiki/Plot Labels/it.md) | [Plot Legend/it](wiki/Plot Legend/it.md) |
+| [Plot MultiAxes tutorial/it](wiki/Plot MultiAxes tutorial/it.md) | [Plot Positions/it](wiki/Plot Positions/it.md) | [Plot Save/it](wiki/Plot Save/it.md) |
+| [Plot Series/it](wiki/Plot Series/it.md) | [Plot Workbench/it](wiki/Plot Workbench/it.md) |
 
 
 

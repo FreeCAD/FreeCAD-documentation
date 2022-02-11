@@ -1,10 +1,12 @@
 # Category:Glossary/ro
 This category tracks pages that explain definitions of words related to FreeCAD
 
-### Contents:
+### Contents
 
-    
-  [Command/ro](Command/ro.md)   [Glossary/ro](Glossary/ro.md)   [Python/ro](Python/ro.md)
+|     |     |     |
+| --- | --- | --- |
+| [Command/ro](wiki/Command/ro.md) | [Glossary/ro](wiki/Glossary/ro.md) | [Python/ro](wiki/Python/ro.md) |
+|
 
 
 

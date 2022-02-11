@@ -7,10 +7,13 @@ Den betreffenden Artikeln folgende Zeile anhängen:
 
 <noinclude>[[Category:Administration/de]] [[Category:Template/de]]</noinclude>
 
-### Contents:
+### Contents
 
-    
-  [Template:De](Template_De.md)   [Template:GuiCommandAddon/de](Template:GuiCommandAddon/de.md)   [Template:Languages/de](Template:Languages/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:De](wiki/Template_De.md) | [Template:GuiCommandAddon/de](wiki/Template_GuiCommandAddon/de.md) | [Template:Languages/de](wiki/Template_Languages/de.md) |
+| [Category:Template:Doc/de](wiki/Category_Template_Doc/de.md) | [Category:Template:Navigation/de](wiki/Category_Template_Navigation/de.md) | [Category:Template:Text Format/de](wiki/Category_Template_Text Format/de.md) |
+| [Category:Template:Text/de](wiki/Category_Template_Text/de.md) |
 
 
 

@@ -53,6 +53,7 @@ This tool creates fillets (rounds) on the selected edges of an object. A new sep
 -   If you want to remove edges or faces
     -   either select the edge/face in the list of the dialog and press the **DEL** key. *Note*: Since there must be at least one edge for the feature, the last remaining edge or face in the list cannot be removed.
     -   or click the **Remove** button. All edges and faces being previously selected are highlighted in purple. Select the edge or the face to be removed.
+    -   Ensure the **Use all edges** checkbox is unchecked or else some widgets in the dialog will be disabled. <small>(v0.20)</small> 
 -   Click **OK** to validate.
 -   For a chain of edges tangential to one another, one single edge can be selected; the fillet will propagate along the chain.
 -   To edit the fillet after the function has been validated, either double-click on the Fillet label in the Project tree, or right-click on it and select **Edit Fillet**.
@@ -61,7 +62,7 @@ This tool creates fillets (rounds) on the selected edges of an object. A new sep
 
 -   PartDesign Fillet should not be confused with [Part Fillet](Part_Fillet.md). Unless you know what you are doing, [Part Fillet](Part_Fillet.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
 
-## Known Issues 
+## Known issues 
 
 Fillets, chamfers, and other features that operate on solid bodies depend on the underlying OpenCASCADE Technology (OCCT) kernel that FreeCAD uses. The OCCT kernel occasionally has difficulty handling coincident sharp edges, where two faces meet. If this is the case FreeCAD may crash without an explanation.
 
@@ -91,7 +92,7 @@ The user is also responsible for the integrity of his or her own model. Dependin
 
 ### Topological naming 
 
-Edge numbers are not completely stable, therefore it is advisable that you finish the main design work of your solid body before applying features like fillets and chamfers, otherwise edges could change name and filleted edges would likely become invalid.
+Edge numbers are not completely stable, therefore it is advisable that you finish the main design work of your solid body before applying features like fillets and chamfers, otherwise edges could change name and filleted edges would likely become invalid. When the Use All Edges property <small>(v0.20)</small>  is True there is some protection from this because in such cases all the edges of the base object are used and there is no dependence on individual edge names.
 
 Read more in [topological naming problem](topological_naming_problem.md).
 

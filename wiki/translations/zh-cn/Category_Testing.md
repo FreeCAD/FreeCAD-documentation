@@ -1,11 +1,11 @@
 # Category:Testing/zh-cn
 Pages related to testing in regards to unit testing, continuous integration, quality assurance, regression testing etc\...
 
-### Contents:
+### Contents
 
-   --
-  [Testing/zh-cn](Testing/zh-cn.md)   
-   --
+|     |     |     |
+| --- | --- | --- |
+| [Testing/zh-cn](wiki/Testing/zh-cn.md) | [Category:Test Framework/zh-cn](wiki/Category_Test Framework/zh-cn.md) |
 
 
 

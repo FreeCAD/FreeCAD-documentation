@@ -1,14 +1,15 @@
 # Category:Preferences
 This category lists all existing Preference menus of different FreeCAD workbenches. See [Preferences\_Editor\#Workbench\_preferences](Preferences_Editor#Workbench_preferences.md)
 
-### Contents:
+### Contents
 
-    
-  [Arch Preferences](Arch_Preferences.md)               [Customize Toolbars](Customize_Toolbars.md)                 [Draft Preferences](Draft_Preferences.md)
-  [FEM Preferences](FEM_Preferences.md)                 [Import Export Preferences](Import_Export_Preferences.md)   [OpenSCAD Preferences](OpenSCAD_Preferences.md)
-  [PartDesign Preferences](PartDesign_Preferences.md)   [Path Preferences](Path_Preferences.md)                     [Preferences Editor](Preferences_Editor.md)
-  [Raytracing Preferences](Raytracing_Preferences.md)   [Sketcher Preferences](Sketcher_Preferences.md)             [Spreadsheet Preferences](Spreadsheet_Preferences.md)
-  [Start Preferences](Start_Preferences.md)             [TechDraw Preferences](TechDraw_Preferences.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch Preferences](wiki/Arch Preferences.md) | [Customize Toolbars](wiki/Customize Toolbars.md) | [Draft Preferences](wiki/Draft Preferences.md) |
+| [FEM Preferences](wiki/FEM Preferences.md) | [Import Export Preferences](wiki/Import Export Preferences.md) | [OpenSCAD Preferences](wiki/OpenSCAD Preferences.md) |
+| [PartDesign Preferences](wiki/PartDesign Preferences.md) | [Path Preferences](wiki/Path Preferences.md) | [Preferences Editor](wiki/Preferences Editor.md) |
+| [Raytracing Preferences](wiki/Raytracing Preferences.md) | [Sketcher Preferences](wiki/Sketcher Preferences.md) | [Spreadsheet Preferences](wiki/Spreadsheet Preferences.md) |
+| [Start Preferences](wiki/Start Preferences.md) | [TechDraw Preferences](wiki/TechDraw Preferences.md) |
 
 
 

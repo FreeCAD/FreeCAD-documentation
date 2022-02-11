@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Std Group
    Name/fr:Std Groupe
-   MenuLocation:[Vue arborescente](Tree_view/fr.md) → Clic droit sur le nom du document
+   MenuLocation:[Vue arborescente](Tree_view/fr.md) → Clic droit sur le nom du document → Créer un groupe...
    Workbenches:Tous
    Shortcut:
    Version:
@@ -28,7 +28,7 @@ Pour regrouper des objets 3D en une seule unité, avec l\'intention de créer de
 ## Utilisation
 
 1.  Cliquez sur le nom du document dans la [Vue en arborescence](Tree_view/fr.md), ouvrez le menu contextuel (clic droit) et choisissez **Créer un groupe**.
-2.  Vous pouvez également appuyer sur le bouton **<img src="images/Std_Group.svg" width=16px> [Group](Std_Group/fr.md)** dans la barre d\'outils de structure. Un groupe vide est créé.
+2.  Vous pouvez également appuyer sur le bouton **<img src="images/Std_Group.svg" width=16px> [Créer un groupe](Std_Group/fr.md)** dans la barre d\'outils de structure. Un groupe vide est créé.
 3.  Pour ajouter des objets à un groupe, sélectionnez-les dans la [Vue en arborescence](Tree_view/fr.md), puis faites-les glisser et déposez-les sur le groupe.
 4.  Pour supprimer des objets d\'un groupe, faites-les glisser hors du groupe et sur l\'étiquette du document en haut de la [Vue en arborescence](Tree_view/fr.md).
 

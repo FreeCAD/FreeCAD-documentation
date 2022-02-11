@@ -95,23 +95,31 @@ Les sections de configuration typiques incluent:
 -   POSTAMBLE (Configuration du code annexée au Travail, permettant de stationner la machine, etc \...)
 -   TOOL\_CHANGE (code inséré avec chaque changement d\'outil dans le Travail)
 
-L\'onglet **Edit** → **Preferences...** → **Path** → **Job Preferences tab** → **Defaults** → **Path** est utilisé pour définir le Post-processeur par défaut sélectionné lors de la création du Travail. Ceci permet à l\'atelier Path d\'être configuré pour n\'afficher que les Post-processeurs souhaités et de définir une valeur par défaut.
+
+**Édition**
+
+→ **Préférences...** → **Path** → **Préférences des tâches** → **Valeurs par défaut** → **Parcours** permet de définir le post-processeur par défaut sélectionné lors de la création de la tâche. Ceci permet à l\'atelier Path d\'être configuré pour n\'afficher que les post-processeurs souhaités et de définir une valeur par défaut.
 
 Les post-processeurs inclus sont enregistrés dans le fichier **FreeCAD.Mod.Path.Pathscripts.Post** par défaut:
 
--   centroïde
+-   centroid
 -   comparams
--   Dynapath
+-   dxf
+-   dynapath
 -   grbl, y compris la prise en charge des blocs d\'en-tête bCNC à l\'aide de l\'argument de sortie du travail \--bcnc
+-   jtech (laser)
 -   [linuxcnc](http://linuxcnc.org/docs/html/gcode/g-code.html#gcode:g17-g19.1)
+-   mach3\_mach4
+-   nccad
 -   opensbp
 -   phillips
 -   rml
 -   smoothie
+-   uccnc
 
 ## Limitations
 
-N\'utilisez **pas** le menu **File** → **Export**\'\'\' pour exporter vers le G-code, cela produirait un G-code endommagé!
+N\'utilisez **pas** le menu **Fichier** → **Exporter**\'\'\' pour exporter vers le G-code, cela produirait un G-code endommagé!
 
 
 

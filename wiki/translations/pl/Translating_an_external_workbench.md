@@ -103,8 +103,6 @@ Może to być użyte wszędzie: w `print()`, w `FreeCAD.Console.PrintMessage()`,
 
 Nie używaj swojego własnego `"kontekstu"` w tym konkretnym przypadku. Zachowaj `"App::Property"`.
 
--   Nie tłumacz tekstu operacji na dokumentach wykonanych za pomocą `Document.openTransaction()`
-
 ### Wewnątrz InitGui.py 
 
 -   Dodaj następującą linię, na początku pliku:

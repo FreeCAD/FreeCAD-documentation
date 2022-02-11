@@ -1,10 +1,11 @@
 # Category:Path/cs
 This category lists pages related to the [PartDesign Workbench/cs](PartDesign_Workbench/cs.md).
 
-### Contents:
+### Contents
 
-  
-  [Path Workbench/cs](Path_Workbench/cs.md)
+|     |     |     |
+| --- | --- | --- |
+| [Path Workbench/cs](wiki/Path Workbench/cs.md) |
 
 
 

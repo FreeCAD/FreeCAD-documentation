@@ -6,12 +6,12 @@
 |Name=Macro FCInfo
 |Icon=FCInfo.png
 |Description=Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
-<br />French Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/1c801f650334ba1238f4ef05ef1f90339ab425ce/FCInfo_fr_Ver_1-25e-rmu_Docked.FCMacro Version française]
+<br />French Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/9a23e3ef9d790818ca4b4e8061fdec1a4d649dd5/FCInfo_fr_Ver_1-26-rmu_Docked.FCMacro Version française]
 |Author=Mario52
-|Version=1.25e
-|Date=2021/12/18
+|Version=1.26
+|Date=2022/02/06
 |FCVersion=All
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey.md)<br />[Macro SimpleProperties](Macro_SimpleProperties.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width:24px"> [Macro SimpleProperties](Macro_SimpleProperties.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width:24px"> [Macro FCInfoGlass](Macro_FCInfoGlass.md)
 }}
 
 ## Description
@@ -274,6 +274,8 @@ project:
 ~~inlay right in the interface of FreeCAD~~ done
 
 ## Version
+
+-   ver 1.26 06/02/2022 add info on Mesh and Points objects, decode colours, duplicate object or subObject, memorize the latest path and other preferences options
 
 -   ver 1.25e 18/12/2021 add info detailed to BSpline (ToByArcs) and info \"sel\[0\].TypeId\"
 -   ver 1.25d 12/12/2021 \-\--

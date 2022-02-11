@@ -1,10 +1,11 @@
 # Category:Ship/pt
 This category lists pages related to the [Ship Workbench/pt](Ship_Workbench/pt.md).
 
-### Contents:
+### Contents
 
-  
-  [Ship Workbench/pt](Ship_Workbench/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Ship Workbench/pt](wiki/Ship Workbench/pt.md) |
 
 
 

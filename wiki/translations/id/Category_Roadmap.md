@@ -1,10 +1,11 @@
 # Category:Roadmap/id
 This category gathers all articles documenting what is planned in the Roadmap of FreeCAD.
 
-### Contents:
+### Contents
 
-   
-  [Assembly project/id](Assembly_project/id.md)   [Development roadmap/id](Development_roadmap/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Assembly project/id](wiki/Assembly project/id.md) | [Development roadmap/id](wiki/Development roadmap/id.md) |
 
 
 

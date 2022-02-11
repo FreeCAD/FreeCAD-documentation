@@ -1,12 +1,14 @@
 # Category:Documentation/ro
 This category groups all of the FreeCAD documentation
 
-### Contents:
+### Contents
 
-    
-  [3D input devices/ro](3D_input_devices/ro.md)       [ANSI templates/ro](ANSI_templates/ro.md)     [Help FreeCAD/ro](Help_FreeCAD/ro.md)
-  [Main Page/ro](Main_Page/ro.md)                     [Online Help Toc/ro](Online_Help_Toc/ro.md)   [Part Measure Menu/ro](Part_Measure_Menu/ro.md)
-  [Release notes 0.17/ro](Release_notes_0.17/ro.md)
+|     |     |     |
+| --- | --- | --- |
+| [3D input devices/ro](wiki/3D input devices/ro.md) | [ANSI templates/ro](wiki/ANSI templates/ro.md) | [Help FreeCAD/ro](wiki/Help FreeCAD/ro.md) |
+| [Main Page/ro](wiki/Main Page/ro.md) | [Online Help Toc/ro](wiki/Online Help Toc/ro.md) | [Part Measure Menu/ro](wiki/Part Measure Menu/ro.md) |
+| [Release notes 0.17/ro](wiki/Release notes 0.17/ro.md) | [Category:Developer Documentation/ro](wiki/Category_Developer Documentation/ro.md) | [Category:Poweruser Documentation/ro](wiki/Category_Poweruser Documentation/ro.md) |
+| [Category:User Documentation/ro](wiki/Category_User Documentation/ro.md) | [Category:Wiki/ro](wiki/Category_Wiki/ro.md) |
 
 
 

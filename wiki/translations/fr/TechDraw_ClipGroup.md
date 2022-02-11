@@ -33,13 +33,7 @@ Cet outil crée une fenêtre de rognage qui peut contenir des vues.
 -    {{PropertyData/fr|Views}}: Les vues contenues dans la fenêtre de rognage
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -1,10 +1,12 @@
 # Category:Hubs/sv
 This category gathers the meeting points of the 3 broad categories of users of FreeCAD\...
 
-### Contents:
+### Contents
 
-    
-  [Developer hub/sv](Developer_hub/sv.md)   [Power users hub/sv](Power_users_hub/sv.md)   [User hub/sv](User_hub/sv.md)
+|     |     |     |
+| --- | --- | --- |
+| [Developer hub/sv](wiki/Developer hub/sv.md) | [Power users hub/sv](wiki/Power users hub/sv.md) | [User hub/sv](wiki/User hub/sv.md) |
+|
 
 
 

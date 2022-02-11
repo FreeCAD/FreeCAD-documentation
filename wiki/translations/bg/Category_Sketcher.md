@@ -1,10 +1,11 @@
 # Category:Sketcher/bg
 This category lists pages related to the [Sketcher Workbench/bg](Sketcher_Workbench/bg.md).
 
-### Contents:
+### Contents
 
-  
-  [Sketcher Workbench/bg](Sketcher_Workbench/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Sketcher Workbench/bg](wiki/Sketcher Workbench/bg.md) |
 
 
 

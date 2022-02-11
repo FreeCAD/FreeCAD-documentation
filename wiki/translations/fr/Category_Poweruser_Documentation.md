@@ -1,42 +1,44 @@
 # Category:Poweruser Documentation/fr
 Cette catégorie affiche les articles de la documentation concernant le scripting python, destinées aux usagers avancés.
 
-### Contents:
+### Contents
 
-    
-  [Arch API/fr](Arch_API/fr.md)                                                                         [Base API/fr](Base_API/fr.md)                                                             [Builtin modules/fr](Builtin_modules/fr.md)
-  [Code snippets/fr](Code_snippets/fr.md)                                                               [Coin3d snippets/fr](Coin3d_snippets/fr.md)                                               [Command/fr](Command/fr.md)
-  [Console API/fr](Console_API/fr.md)                                                                   [Create a FeaturePython object part I/fr](Create_a_FeaturePython_object_part_I/fr.md)     [Create a FeaturePython object part II/fr](Create_a_FeaturePython_object_part_II/fr.md)
-  [Custom icon in tree view/fr](Custom_icon_in_tree_view/fr.md)                                         [Debugging/fr](Debugging/fr.md)                                                           [Dialog creation image and animated GIF/fr](Dialog_creation_image_and_animated_GIF/fr.md)
-  [Dialog creation reading and writing files/fr](Dialog_creation_reading_and_writing_files/fr.md)       [Dialog creation setting colors/fr](Dialog_creation_setting_colors/fr.md)                 [Dialog creation with various widgets/fr](Dialog_creation_with_various_widgets/fr.md)
-  [Dialog creation/fr](Dialog_creation/fr.md)                                                           [Draft API/fr](Draft_API/fr.md)                                                           [Drawing API example/fr](Drawing_API_example/fr.md)
-  [Embedding FreeCAD/fr](Embedding_FreeCAD/fr.md)                                                       [Embedding FreeCADGui/fr](Embedding_FreeCADGui/fr.md)                                     [Expressions/fr](Expressions/fr.md)
-  [FeaturePython methods/fr](FeaturePython_methods/fr.md)                                               [FEM CalculiX/fr](FEM_CalculiX/fr.md)                                                     [FEM Element Types/fr](FEM_Element_Types/fr.md)
-  [FEM Mesh CalculiX/fr](FEM_Mesh_CalculiX/fr.md)                                                       [FreeCAD API/fr](FreeCAD_API/fr.md)                                                       [FreeCAD Scripting Basics/fr](FreeCAD_Scripting_Basics/fr.md)
-  [FreeCAD vector math library/fr](FreeCAD_vector_math_library/fr.md)                                   [FreeCADGui API/fr](FreeCADGui_API/fr.md)                                                 [Gui Command/fr](Gui_Command/fr.md)
-  [Headless FreeCAD/fr](Headless_FreeCAD/fr.md)                                                         [How to install additional workbenches/fr](How_to_install_additional_workbenches/fr.md)   [How to install macros/fr](How_to_install_macros/fr.md)
-  [Installing more workbenches/fr](Installing_more_workbenches/fr.md)                                   [Interface creation/fr](Interface_creation/fr.md)                                         [Introduction to Python/fr](Introduction_to_Python/fr.md)
-  [Line drawing function/fr](Line_drawing_function/fr.md)                                               [LinkSub/fr](LinkSub/fr.md)                                                               [LinkSubList/fr](LinkSubList/fr.md)
-  [Macro at Startup/fr](Macro_at_Startup/fr.md)                                                         [Macros/fr](Macros/fr.md)                                                                 [Manual:A gentle introduction/fr](Manual:A_gentle_introduction/fr.md)
-  [Manual:Creating and manipulating geometry/fr](Manual:Creating_and_manipulating_geometry/fr.md)       [Manual:Creating interface tools/fr](Manual:Creating_interface_tools/fr.md)               [Manual:Creating parametric objects/fr](Manual:Creating_parametric_objects/fr.md)
-  [Manual:Import and export to other filetypes/fr](Manual:Import_and_export_to_other_filetypes/fr.md)   [Manual:Installing/fr](Manual:Installing/fr.md)                                           [Manual:Parametric objects/fr](Manual:Parametric_objects/fr.md)
-  [Matrix API/fr](Matrix_API/fr.md)                                                                     [Mesh API/fr](Mesh_API/fr.md)                                                             [Mesh Scripting/fr](Mesh_Scripting/fr.md)
-  [Mesh to Part/fr](Mesh_to_Part/fr.md)                                                                 [Multithreading/fr](Multithreading/fr.md)                                                 [Object API/fr](Object_API/fr.md)
-  [OpenCASCADE/fr](OpenCASCADE/fr.md)                                                                   [Part API/fr](Part_API/fr.md)                                                             [Part scripting/fr](Part_scripting/fr.md)
-  [Path experimental/fr](Path_experimental/fr.md)                                                       [Path scripting/fr](Path_scripting/fr.md)                                                 [Pivy/fr](Pivy/fr.md)
-  [Placement API/fr](Placement_API/fr.md)                                                               [Power users hub/fr](Power_users_hub/fr.md)                                               [Profiling/fr](Profiling/fr.md)
-  [Property/fr](Property/fr.md)                                                                         [PySide Advanced Examples/fr](PySide_Advanced_Examples/fr.md)                             [PySide Beginner Examples/fr](PySide_Beginner_Examples/fr.md)
-  [PySide Intermediate Examples/fr](PySide_Intermediate_Examples/fr.md)                                 [PySide usage snippets/fr](PySide_usage_snippets/fr.md)                                   [PySide/fr](PySide/fr.md)
-  [Python Development Environment/fr](Python_Development_Environment/fr.md)                             [Python scripting tutorial/fr](Python_scripting_tutorial/fr.md)                           [Python/fr](Python/fr.md)
-  [PythonOCC/fr](PythonOCC/fr.md)                                                                       [Qt Example/fr](Qt_Example/fr.md)                                                         [Quantity/fr](Quantity/fr.md)
-  [Raytracing API example/fr](Raytracing_API_example/fr.md)                                             [Reinforcement API/fr](Reinforcement_API/fr.md)                                           [Scenegraph/fr](Scenegraph/fr.md)
-  [Scientific literature/fr](Scientific_literature/fr.md)                                               [Scripted objects migration/fr](Scripted_objects_migration/fr.md)                         [Scripted objects saving attributes/fr](Scripted_objects_saving_attributes/fr.md)
-  [Scripted objects with attachment/fr](Scripted_objects_with_attachment/fr.md)                         [Scripted objects/fr](Scripted_objects/fr.md)                                             [Scripted Parts: Ball Bearing - Part 1/fr](Scripted_Parts:_Ball_Bearing_-_Part_1/fr.md)
-  [Scripted Parts: Ball Bearing - Part 2/fr](Scripted_Parts:_Ball_Bearing_-_Part_2/fr.md)               [Scripting and macros/fr](Scripting_and_macros/fr.md)                                     [Scripts/fr](Scripts/fr.md)
-  [Selection API/fr](Selection_API/fr.md)                                                               [Svg Namespace/fr](Svg_Namespace/fr.md)                                                   [TechDraw API/fr](TechDraw_API/fr.md)
-  [TechDrawGui API/fr](TechDrawGui_API/fr.md)                                                           [Topological data scripting/fr](Topological_data_scripting/fr.md)                         [TopoShape API/fr](TopoShape_API/fr.md)
-  [Units/fr](Units/fr.md)                                                                               [Vector API/fr](Vector_API/fr.md)                                                         [ViewObject API/fr](ViewObject_API/fr.md)
-  [Viewprovider/fr](Viewprovider/fr.md)                                                                 [Workbench creation/fr](Workbench_creation/fr.md)                                         [Wrapping a Cplusplus class in Python/fr](Wrapping_a_Cplusplus_class_in_Python/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch API/fr](wiki/Arch API/fr.md) | [Base API/fr](wiki/Base API/fr.md) | [Builtin modules/fr](wiki/Builtin modules/fr.md) |
+| [Code snippets/fr](wiki/Code snippets/fr.md) | [Coin3d snippets/fr](wiki/Coin3d snippets/fr.md) | [Command/fr](wiki/Command/fr.md) |
+| [Console API/fr](wiki/Console API/fr.md) | [Create a FeaturePython object part I/fr](wiki/Create a FeaturePython object part I/fr.md) | [Create a FeaturePython object part II/fr](wiki/Create a FeaturePython object part II/fr.md) |
+| [Custom icon in tree view/fr](wiki/Custom icon in tree view/fr.md) | [Debugging/fr](wiki/Debugging/fr.md) | [Dialog creation image and animated GIF/fr](wiki/Dialog creation image and animated GIF/fr.md) |
+| [Dialog creation reading and writing files/fr](wiki/Dialog creation reading and writing files/fr.md) | [Dialog creation setting colors/fr](wiki/Dialog creation setting colors/fr.md) | [Dialog creation with various widgets/fr](wiki/Dialog creation with various widgets/fr.md) |
+| [Dialog creation/fr](wiki/Dialog creation/fr.md) | [Draft API/fr](wiki/Draft API/fr.md) | [Drawing API example/fr](wiki/Drawing API example/fr.md) |
+| [Embedding FreeCAD/fr](wiki/Embedding FreeCAD/fr.md) | [Embedding FreeCADGui/fr](wiki/Embedding FreeCADGui/fr.md) | [Expressions/fr](wiki/Expressions/fr.md) |
+| [FeaturePython methods/fr](wiki/FeaturePython methods/fr.md) | [FEM CalculiX/fr](wiki/FEM CalculiX/fr.md) | [FEM Element Types/fr](wiki/FEM Element Types/fr.md) |
+| [FEM Mesh CalculiX/fr](wiki/FEM Mesh CalculiX/fr.md) | [FreeCAD API/fr](wiki/FreeCAD API/fr.md) | [FreeCAD Scripting Basics/fr](wiki/FreeCAD Scripting Basics/fr.md) |
+| [FreeCAD vector math library/fr](wiki/FreeCAD vector math library/fr.md) | [FreeCADGui API/fr](wiki/FreeCADGui API/fr.md) | [Gui Command/fr](wiki/Gui Command/fr.md) |
+| [Headless FreeCAD/fr](wiki/Headless FreeCAD/fr.md) | [How to install additional workbenches/fr](wiki/How to install additional workbenches/fr.md) | [How to install macros/fr](wiki/How to install macros/fr.md) |
+| [Installing more workbenches/fr](wiki/Installing more workbenches/fr.md) | [Interface creation/fr](wiki/Interface creation/fr.md) | [Introduction to Python/fr](wiki/Introduction to Python/fr.md) |
+| [Line drawing function/fr](wiki/Line drawing function/fr.md) | [LinkSub/fr](wiki/LinkSub/fr.md) | [LinkSubList/fr](wiki/LinkSubList/fr.md) |
+| [Macro at Startup/fr](wiki/Macro at Startup/fr.md) | [Macros/fr](wiki/Macros/fr.md) | [Manual:A gentle introduction/fr](wiki/Manual_A gentle introduction/fr.md) |
+| [Manual:Creating and manipulating geometry/fr](wiki/Manual_Creating and manipulating geometry/fr.md) | [Manual:Creating interface tools/fr](wiki/Manual_Creating interface tools/fr.md) | [Manual:Creating parametric objects/fr](wiki/Manual_Creating parametric objects/fr.md) |
+| [Manual:Import and export to other filetypes/fr](wiki/Manual_Import and export to other filetypes/fr.md) | [Manual:Installing/fr](wiki/Manual_Installing/fr.md) | [Manual:Parametric objects/fr](wiki/Manual_Parametric objects/fr.md) |
+| [Matrix API/fr](wiki/Matrix API/fr.md) | [Mesh API/fr](wiki/Mesh API/fr.md) | [Mesh Scripting/fr](wiki/Mesh Scripting/fr.md) |
+| [Mesh to Part/fr](wiki/Mesh to Part/fr.md) | [Multithreading/fr](wiki/Multithreading/fr.md) | [Object API/fr](wiki/Object API/fr.md) |
+| [OpenCASCADE/fr](wiki/OpenCASCADE/fr.md) | [Package Metadata/fr](wiki/Package Metadata/fr.md) | [Part API/fr](wiki/Part API/fr.md) |
+| [Part scripting/fr](wiki/Part scripting/fr.md) | [Path experimental/fr](wiki/Path experimental/fr.md) | [Path scripting/fr](wiki/Path scripting/fr.md) |
+| [Pivy/fr](wiki/Pivy/fr.md) | [Placement API/fr](wiki/Placement API/fr.md) | [Power users hub/fr](wiki/Power users hub/fr.md) |
+| [Profiling/fr](wiki/Profiling/fr.md) | [Property/fr](wiki/Property/fr.md) | [PySide Advanced Examples/fr](wiki/PySide Advanced Examples/fr.md) |
+| [PySide Beginner Examples/fr](wiki/PySide Beginner Examples/fr.md) | [PySide Intermediate Examples/fr](wiki/PySide Intermediate Examples/fr.md) | [PySide usage snippets/fr](wiki/PySide usage snippets/fr.md) |
+| [PySide/fr](wiki/PySide/fr.md) | [Python Development Environment/fr](wiki/Python Development Environment/fr.md) | [Python scripting tutorial/fr](wiki/Python scripting tutorial/fr.md) |
+| [Python/fr](wiki/Python/fr.md) | [PythonOCC/fr](wiki/PythonOCC/fr.md) | [Qt Example/fr](wiki/Qt Example/fr.md) |
+| [Quantity/fr](wiki/Quantity/fr.md) | [Raytracing API example/fr](wiki/Raytracing API example/fr.md) | [Reinforcement API/fr](wiki/Reinforcement API/fr.md) |
+| [Scenegraph/fr](wiki/Scenegraph/fr.md) | [Scientific literature/fr](wiki/Scientific literature/fr.md) | [Scripted objects migration/fr](wiki/Scripted objects migration/fr.md) |
+| [Scripted objects saving attributes/fr](wiki/Scripted objects saving attributes/fr.md) | [Scripted objects with attachment/fr](wiki/Scripted objects with attachment/fr.md) | [Scripted objects/fr](wiki/Scripted objects/fr.md) |
+| [Scripted Parts: Ball Bearing - Part 1/fr](wiki/Scripted Parts_ Ball Bearing - Part 1/fr.md) | [Scripted Parts: Ball Bearing - Part 2/fr](wiki/Scripted Parts_ Ball Bearing - Part 2/fr.md) | [Scripting and macros/fr](wiki/Scripting and macros/fr.md) |
+| [Scripts/fr](wiki/Scripts/fr.md) | [Selection API/fr](wiki/Selection API/fr.md) | [Svg Namespace/fr](wiki/Svg Namespace/fr.md) |
+| [TechDraw API/fr](wiki/TechDraw API/fr.md) | [TechDrawGui API/fr](wiki/TechDrawGui API/fr.md) | [Topological data scripting/fr](wiki/Topological data scripting/fr.md) |
+| [TopoShape API/fr](wiki/TopoShape API/fr.md) | [Units/fr](wiki/Units/fr.md) | [Vector API/fr](wiki/Vector API/fr.md) |
+| [ViewObject API/fr](wiki/ViewObject API/fr.md) | [Viewprovider/fr](wiki/Viewprovider/fr.md) | [Workbench creation/fr](wiki/Workbench creation/fr.md) |
+| [Wrapping a Cplusplus class in Python/fr](wiki/Wrapping a Cplusplus class in Python/fr.md) |
 
 
 

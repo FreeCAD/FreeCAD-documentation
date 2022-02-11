@@ -47,8 +47,8 @@ For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wi
 
 ### Create a spur gear 
 
-1.  Select the gear profile in the tree.
-2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> PartDesign Pad** button.
+1.  Select the gear profile in the [Tree view](Tree_view.md).
+2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Pad](PartDesign_Pad.md)** button.
 3.  Set the pad\'s **Length** to the desired face width of the gear.
 4.  Click **OK**
 
@@ -57,12 +57,12 @@ For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wi
 
 <small>(v0.19)</small> 
 
-1.  Select the gear profile in the tree.
+1.  Select the gear profile in the [Tree view](Tree_view.md).
 2.  Press the **<img src="images/PartDesign_AdditiveHelix.svg" width=16px> [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md)** button.
 3.  Choose as Axis the normal of the gear profile, that is **Normal sketch axis** <small>(v0.20)</small> . (In earlier versions the **Base Z axis** can be used as long as the profile\'s plane has not been altered.)
 4.  Choose a **Height-Turns** mode.
 5.  Set the **Height** to the desired face width of the gear.
-6.  To set the desired helical angle an [Expressions](Expressions.md) for the **Turns** is required.
+6.  To set the desired helical angle an [Expression](Expressions.md) for the **Turns** is required.
     1.  Click the blue <img alt="" src=images/Bound-expression.svg  style="width:16px;"> icon at the right of the input field.
     2.  Enter the following formula: `Height * tan(25°) / (InvoluteGear.NumberOfTeeth * InvoluteGear.Modules * pi)`, where `25°` is an example for the desired helical angle (also known as beta-value) and `InvoluteGear` is the **Name** of the profile.
     3.  Click **OK** to close the formula editor.
@@ -123,6 +123,11 @@ Hint: To make the helical angle an accessible parameter, use a *dynamic property
 
 
 </div>
+
+## Limitations
+
+-   It is currently not possible to adjust the tooth thickness. Tooth and tooth space are distributed equally on the pitch circle. Thus the only way to control backlash is to adjust the center distance in a gear paring.
+-   There is currently no [undercut](https://www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) in the generated gear profile. That means gears with a low number of teeth can interfere with the teeth of the mating gear. The lower limit depends on the **Pressure Angle** and is around 17 teeth for 20° and 32 for 14.5°. Most practical applications tolerate a missing undercut for gears a little smaller than this theoretical limit though.
 
 ## Tutorials
 

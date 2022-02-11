@@ -1,10 +1,11 @@
 # Category:Inspection/es
 This category lists pages related to the [Inspection Workbench](Inspection_Workbench.md).
 
-### Contents:
+### Contents
 
-  
-  [Inspection Workbench/es](Inspection_Workbench/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Inspection Workbench/es](wiki/Inspection Workbench/es.md) |
 
 
 

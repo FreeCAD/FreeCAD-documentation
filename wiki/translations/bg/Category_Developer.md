@@ -1,10 +1,11 @@
 # Category:Developer/bg
 This category contains articles that are relevant for developers.
 
-### Contents:
+### Contents
 
-  
-  [Compile on Linux/bg](Compile_on_Linux/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Compile on Linux/bg](wiki/Compile on Linux/bg.md) |
 
 
 

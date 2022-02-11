@@ -1,10 +1,11 @@
 # Category:Poweruser Documentation/zh-hant
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
-### Contents:
+### Contents
 
-  
-  [Workbench creation/zh-hant](Workbench_creation/zh-hant.md)
+|     |     |     |
+| --- | --- | --- |
+| [Workbench creation/zh-hant](wiki/Workbench creation/zh-hant.md) |
 
 
 

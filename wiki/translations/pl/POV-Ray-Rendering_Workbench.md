@@ -1,4 +1,7 @@
-# <img alt="POV-Ray-Rendering Workbench icon" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:64px;"> POV-Ray-Rendering Workbench/pl
+# POV-Ray-Rendering Workbench/pl
+}
+
+<img alt="POV-Ray-Rendering Workbench icon" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:128px;">
 
 
 {{TOCright}}

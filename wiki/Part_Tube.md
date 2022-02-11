@@ -63,11 +63,8 @@ A Part Tube can be created using the following function:
 
  
 ```python
-tube = FreeCAD.ActiveDocument.addObject("Part::Tube", "myTube")
-```
 
--   Where {{Incode|"myTube"}} is the name for the object.
--   The function returns the newly created object.
+```
 
 
 

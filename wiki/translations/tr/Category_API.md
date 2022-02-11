@@ -3,11 +3,12 @@
 
 This category gathers articles that list objects and methods available for [Python](Python.md) programming.
 
-### Contents:
+### Contents
 
-    
-  [Arch API/tr](Arch_API/tr.md)   [Builtin modules/tr](Builtin_modules/tr.md)   [Draft API/tr](Draft_API/tr.md)
-  [Python/tr](Python/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch API/tr](wiki/Arch API/tr.md) | [Builtin modules/tr](wiki/Builtin modules/tr.md) | [Draft API/tr](wiki/Draft API/tr.md) |
+| [Python/tr](wiki/Python/tr.md) |
 
 
 

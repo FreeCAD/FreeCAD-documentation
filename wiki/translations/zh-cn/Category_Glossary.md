@@ -1,10 +1,11 @@
 # Category:Glossary/zh-cn
 This category tracks pages that explain definitions of words related to FreeCAD
 
-### Contents:
+### Contents
 
-   
-  [Command/zh-cn](Command/zh-cn.md)   [Glossary/zh-cn](Glossary/zh-cn.md)
+|     |     |     |
+| --- | --- | --- |
+| [Command/zh-cn](wiki/Command/zh-cn.md) | [Glossary/zh-cn](wiki/Glossary/zh-cn.md) |
 
 
 

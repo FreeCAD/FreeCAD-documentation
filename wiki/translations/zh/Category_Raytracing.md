@@ -1,10 +1,11 @@
 # Category:Raytracing/zh
 This category lists pages related to the [Raytracing Workbench/zh](Raytracing_Workbench/zh.md).
 
-### Contents:
+### Contents
 
-  
-  [Raytracing Workbench/zh](Raytracing_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [Raytracing Workbench/zh](wiki/Raytracing Workbench/zh.md) |
 
 
 

@@ -1,10 +1,11 @@
 # Category:Raytracing/ja
 This category lists pages related to the [Raytracing Workbench/ja](Raytracing_Workbench/ja.md).
 
-### Contents:
+### Contents
 
-  
-  [Raytracing Workbench/ja](Raytracing_Workbench/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [Raytracing Workbench/ja](wiki/Raytracing Workbench/ja.md) |
 
 
 

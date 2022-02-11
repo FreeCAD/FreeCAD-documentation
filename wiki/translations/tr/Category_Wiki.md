@@ -1,10 +1,12 @@
 # Category:Wiki/tr
 This category contains all documents that relate to the Wiki/tr.
 
-### Contents:
+### Contents
 
-    
-  [Glossary/tr](Glossary/tr.md)   [Localisation Sidebar/tr](Localisation_Sidebar/tr.md)   [Localisation/tr](Localisation/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Glossary/tr](wiki/Glossary/tr.md) | [Localisation Sidebar/tr](wiki/Localisation Sidebar/tr.md) | [Localisation/tr](wiki/Localisation/tr.md) |
+|
 
 
 

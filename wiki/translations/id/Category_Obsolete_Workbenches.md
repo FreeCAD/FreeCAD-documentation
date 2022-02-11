@@ -1,12 +1,12 @@
 # Category:Obsolete Workbenches/id
 This category lists pages related to the [Drawing Workbench/id](Drawing_Workbench/id.md).
 
-### Contents:
+### Contents
 
-   -- --
-  [Drawing Workbench/id](Drawing_Workbench/id.md)      
-                                                               
-   -- --
+|     |     |     |
+| --- | --- | --- |
+| [Drawing Workbench/id](wiki/Drawing Workbench/id.md) | [Category:Drawing/id](wiki/Category_Drawing/id.md) | [Category:Obsolete Workbenches/id](wiki/Category_Obsolete Workbenches/id.md) |
+|
 
 
 

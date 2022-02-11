@@ -1,10 +1,11 @@
 # Category:Macros/bg
 This category contains macros to extend your FreeCAD installation with new functionality
 
-### Contents:
+### Contents
 
-  
-  [Macros/bg](Macros/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Macros/bg](wiki/Macros/bg.md) |
 
 
 

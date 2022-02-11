@@ -1,10 +1,11 @@
 # Category:BIM/hu
 This category is for pages related to building information management (BIM).
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Arch/hu](wiki/Category_Arch/hu.md) |
 
 
 

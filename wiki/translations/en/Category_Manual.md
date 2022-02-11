@@ -1,18 +1,19 @@
 # Category:Manual/en
 This category contains all the page of the FreeCAD manual (Manual/en)
 
-### Contents:
+### Contents
 
-    
-  [Manual:A gentle introduction/en](Manual:A_gentle_introduction/en.md)                                 [Manual:All workbenches at a glance/en](Manual:All_workbenches_at_a_glance/en.md)               [Manual:BIM modeling/en](Manual:BIM_modeling/en.md)
-  [Manual:Creating and manipulating geometry/en](Manual:Creating_and_manipulating_geometry/en.md)       [Manual:Creating FEM analyses/en](Manual:Creating_FEM_analyses/en.md)                           [Manual:Creating interface tools/en](Manual:Creating_interface_tools/en.md)
-  [Manual:Creating parametric objects/en](Manual:Creating_parametric_objects/en.md)                     [Manual:Creating renderings/en](Manual:Creating_renderings/en.md)                               [Manual:Generating 2D drawings/en](Manual:Generating_2D_drawings/en.md)
-  [Manual:Import and export to other filetypes/en](Manual:Import_and_export_to_other_filetypes/en.md)   [Manual:Installing/en](Manual:Installing/en.md)                                                 [Manual:Introduction/en](Manual:Introduction/en.md)
-  [Manual:Modeling for product design/en](Manual:Modeling_for_product_design/en.md)                     [Manual:Navigating in the 3D view/en](Manual:Navigating_in_the_3D_view/en.md)                   [Manual:Parametric objects/en](Manual:Parametric_objects/en.md)
-  [Manual:Preparing models for 3D printing/en](Manual:Preparing_models_for_3D_printing/en.md)           [Manual:Summary/en](Manual:Summary/en.md)                                                       [Manual:The Community/en](Manual:The_Community/en.md)
-  [Manual:The FreeCAD document/en](Manual:The_FreeCAD_document/en.md)                                   [Manual:The FreeCAD Interface/en](Manual:The_FreeCAD_Interface/en.md)                           [Template:Manual:TOC/en](Template:Manual:TOC/en.md)
-  [Manual:Traditional 2D drafting/en](Manual:Traditional_2D_drafting/en.md)                             [Manual:Traditional modeling, the CSG way/en](Manual:Traditional_modeling,_the_CSG_way/en.md)   [Manual:Using spreadsheets/en](Manual:Using_spreadsheets/en.md)
-  [Manual:What is FreeCAD/en](Manual:What_is_FreeCAD/en.md)
+|     |     |     |
+| --- | --- | --- |
+| [Manual:A gentle introduction/en](wiki/Manual_A gentle introduction/en.md) | [Manual:All workbenches at a glance/en](wiki/Manual_All workbenches at a glance/en.md) | [Manual:BIM modeling/en](wiki/Manual_BIM modeling/en.md) |
+| [Manual:Creating and manipulating geometry/en](wiki/Manual_Creating and manipulating geometry/en.md) | [Manual:Creating FEM analyses/en](wiki/Manual_Creating FEM analyses/en.md) | [Manual:Creating interface tools/en](wiki/Manual_Creating interface tools/en.md) |
+| [Manual:Creating parametric objects/en](wiki/Manual_Creating parametric objects/en.md) | [Manual:Creating renderings/en](wiki/Manual_Creating renderings/en.md) | [Manual:Generating 2D drawings/en](wiki/Manual_Generating 2D drawings/en.md) |
+| [Manual:Import and export to other filetypes/en](wiki/Manual_Import and export to other filetypes/en.md) | [Manual:Installing/en](wiki/Manual_Installing/en.md) | [Manual:Introduction/en](wiki/Manual_Introduction/en.md) |
+| [Manual:Modeling for product design/en](wiki/Manual_Modeling for product design/en.md) | [Manual:Navigating in the 3D view/en](wiki/Manual_Navigating in the 3D view/en.md) | [Manual:Parametric objects/en](wiki/Manual_Parametric objects/en.md) |
+| [Manual:Preparing models for 3D printing/en](wiki/Manual_Preparing models for 3D printing/en.md) | [Manual:Summary/en](wiki/Manual_Summary/en.md) | [Manual:The Community/en](wiki/Manual_The Community/en.md) |
+| [Manual:The FreeCAD document/en](wiki/Manual_The FreeCAD document/en.md) | [Manual:The FreeCAD Interface/en](wiki/Manual_The FreeCAD Interface/en.md) | [Template:Manual:TOC/en](wiki/Template_Manual_TOC/en.md) |
+| [Manual:Traditional 2D drafting/en](wiki/Manual_Traditional 2D drafting/en.md) | [Manual:Traditional modeling, the CSG way/en](wiki/Manual_Traditional modeling, the CSG way/en.md) | [Manual:Using spreadsheets/en](wiki/Manual_Using spreadsheets/en.md) |
+| [Manual:What is FreeCAD/en](wiki/Manual_What is FreeCAD/en.md) |
 
 
 

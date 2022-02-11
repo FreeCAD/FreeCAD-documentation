@@ -3,13 +3,14 @@
 
 This category gathers article that list objects and methods available to the python programmer.
 
-### Contents:
+### Contents
 
-    
-  [Arch API/ru](Arch_API/ru.md)                                                 [Builtin modules/ru](Builtin_modules/ru.md)       [Draft API/ru](Draft_API/ru.md)
-  [FeaturePython Custom Properties/ru](FeaturePython_Custom_Properties/ru.md)   [FreeCAD API/ru](FreeCAD_API/ru.md)               [Part API/ru](Part_API/ru.md)
-  [Python/ru](Python/ru.md)                                                     [Robot API example/ru](Robot_API_example/ru.md)   [TechDraw API/ru](TechDraw_API/ru.md)
-  [TechDrawGui API/ru](TechDrawGui_API/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch API/ru](wiki/Arch API/ru.md) | [Builtin modules/ru](wiki/Builtin modules/ru.md) | [Draft API/ru](wiki/Draft API/ru.md) |
+| [FeaturePython Custom Properties/ru](wiki/FeaturePython Custom Properties/ru.md) | [FreeCAD API/ru](wiki/FreeCAD API/ru.md) | [Part API/ru](wiki/Part API/ru.md) |
+| [Python/ru](wiki/Python/ru.md) | [Robot API example/ru](wiki/Robot API example/ru.md) | [TechDraw API/ru](wiki/TechDraw API/ru.md) |
+| [TechDrawGui API/ru](wiki/TechDrawGui API/ru.md) |
 
 
 

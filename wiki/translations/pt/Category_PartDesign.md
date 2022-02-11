@@ -1,10 +1,11 @@
 # Category:PartDesign/pt
 This category includes FreeCAD pages related to PartDesign
 
-### Contents:
+### Contents
 
-  
-  [PartDesign Workbench/pt](PartDesign_Workbench/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [PartDesign Workbench/pt](wiki/PartDesign Workbench/pt.md) |
 
 
 

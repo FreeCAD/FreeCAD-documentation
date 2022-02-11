@@ -1,19 +1,23 @@
 # Category:External Workbenches/de
-### Contents:
 
-    
-  [External workbenches/de](External_workbenches/de.md)         [A2plus Workbench/de](A2plus_Workbench/de.md)                                             [Animation Workbench/de](Animation_Workbench/de.md)
-  [Assembly3 Workbench/de](Assembly3_Workbench/de.md)           [Assembly4 Workbench/de](Assembly4_Workbench/de.md)                                       [BIM Workbench/de](BIM_Workbench/de.md)
-  [CadQuery Workbench/de](CadQuery_Workbench/de.md)             [Curves Workbench/de](Curves_Workbench/de.md)                                             [Defeaturing Workbench/de](Defeaturing_Workbench/de.md)
-  [Defeaturing/de](Defeaturing/de.md)                           [Fasteners Workbench/de](Fasteners_Workbench/de.md)                                       [FCGear Workbench/de](FCGear_Workbench/de.md)
-  [Flamingo Workbench/de](Flamingo_Workbench/de.md)             [How to install additional workbenches/de](How_to_install_additional_workbenches/de.md)   [KicadStepUp Workbench/de](KicadStepUp_Workbench/de.md)
-  [Lattice2 Workbench/de](Lattice2_Workbench/de.md)             [ModernUI Workbench/de](ModernUI_Workbench/de.md)                                         [Parts Library Workbench/de](Parts_Library_Workbench/de.md)
-  [PCB Workbench/de](PCB_Workbench/de.md)                       [Plot Axes/de](Plot_Axes/de.md)                                                           [Plot Basic tutorial/de](Plot_Basic_tutorial/de.md)
-  [Plot Grid/de](Plot_Grid/de.md)                               [Plot Labels/de](Plot_Labels/de.md)                                                       [Plot Legend/de](Plot_Legend/de.md)
-  [Plot MultiAxes tutorial/de](Plot_MultiAxes_tutorial/de.md)   [Plot Positions/de](Plot_Positions/de.md)                                                 [Plot Save/de](Plot_Save/de.md)
-  [Plot Series/de](Plot_Series/de.md)                           [Plot Workbench/de](Plot_Workbench/de.md)                                                 [Pyramids and polyhedrons Workbench/de](Pyramids_and_polyhedrons_Workbench/de.md)
-  [Render project/de](Render_project/de.md)                     [Ship Workbench/de](Ship_Workbench/de.md)                                                 [Symbols Library Workbench/de](Symbols_Library_Workbench/de.md)
-  [WebTools Workbench/de](WebTools_Workbench/de.md)             [Workfeature Workbench/de](Workfeature_Workbench/de.md)
+
+### Contents
+
+|     |     |     |
+| --- | --- | --- |
+| [External workbenches/de](wiki/External workbenches/de.md) | [A2plus Workbench/de](wiki/A2plus Workbench/de.md) | [Animation Workbench/de](wiki/Animation Workbench/de.md) |
+| [Assembly3 Workbench/de](wiki/Assembly3 Workbench/de.md) | [Assembly4 Workbench/de](wiki/Assembly4 Workbench/de.md) | [BIM Workbench/de](wiki/BIM Workbench/de.md) |
+| [CadQuery Workbench/de](wiki/CadQuery Workbench/de.md) | [Curves Workbench/de](wiki/Curves Workbench/de.md) | [Defeaturing Workbench/de](wiki/Defeaturing Workbench/de.md) |
+| [Defeaturing/de](wiki/Defeaturing/de.md) | [Fasteners Workbench/de](wiki/Fasteners Workbench/de.md) | [FCGear Workbench/de](wiki/FCGear Workbench/de.md) |
+| [Flamingo Workbench/de](wiki/Flamingo Workbench/de.md) | [How to install additional workbenches/de](wiki/How to install additional workbenches/de.md) | [KicadStepUp Workbench/de](wiki/KicadStepUp Workbench/de.md) |
+| [Lattice2 Workbench/de](wiki/Lattice2 Workbench/de.md) | [ModernUI Workbench/de](wiki/ModernUI Workbench/de.md) | [Parts Library Workbench/de](wiki/Parts Library Workbench/de.md) |
+| [PCB Workbench/de](wiki/PCB Workbench/de.md) | [Plot Axes/de](wiki/Plot Axes/de.md) | [Plot Basic tutorial/de](wiki/Plot Basic tutorial/de.md) |
+| [Plot Grid/de](wiki/Plot Grid/de.md) | [Plot Labels/de](wiki/Plot Labels/de.md) | [Plot Legend/de](wiki/Plot Legend/de.md) |
+| [Plot MultiAxes tutorial/de](wiki/Plot MultiAxes tutorial/de.md) | [Plot Positions/de](wiki/Plot Positions/de.md) | [Plot Save/de](wiki/Plot Save/de.md) |
+| [Plot Series/de](wiki/Plot Series/de.md) | [Plot Workbench/de](wiki/Plot Workbench/de.md) | [Pyramids and polyhedrons Workbench/de](wiki/Pyramids and polyhedrons Workbench/de.md) |
+| [Render project/de](wiki/Render project/de.md) | [Ship Workbench/de](wiki/Ship Workbench/de.md) | [Symbols Library Workbench/de](wiki/Symbols Library Workbench/de.md) |
+| [WebTools Workbench/de](wiki/WebTools Workbench/de.md) | [Workfeature Workbench/de](wiki/Workfeature Workbench/de.md) | [Category:Fasteners/de](wiki/Category_Fasteners/de.md) |
+| [Category:FCGear/de](wiki/Category_FCGear/de.md) |
 
 
 

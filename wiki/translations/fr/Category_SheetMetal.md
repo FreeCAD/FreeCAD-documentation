@@ -1,14 +1,15 @@
 # Category:SheetMetal/fr
 This page collects the documentation pages for the [SheetMetal Workbench](SheetMetal_Workbench.md), one of the [external workbenches](external_workbenches.md).
 
-### Contents:
+### Contents
 
-    
-  [SheetMetal AddBase/fr](SheetMetal_AddBase/fr.md)           [SheetMetal AddBend/fr](SheetMetal_AddBend/fr.md)               [SheetMetal AddCornerRelief/fr](SheetMetal_AddCornerRelief/fr.md)
-  [SheetMetal AddFoldWall/fr](SheetMetal_AddFoldWall/fr.md)   [SheetMetal AddJunction/fr](SheetMetal_AddJunction/fr.md)       [SheetMetal AddRelief/fr](SheetMetal_AddRelief/fr.md)
-  [SheetMetal AddWall/fr](SheetMetal_AddWall/fr.md)           [SheetMetal Examples/fr](SheetMetal_Examples/fr.md)             [SheetMetal Extrude/fr](SheetMetal_Extrude/fr.md)
-  [SheetMetal Forming/fr](SheetMetal_Forming/fr.md)           [SheetMetal SketchOnSheet/fr](SheetMetal_SketchOnSheet/fr.md)   [SheetMetal UnattendedUnfold/fr](SheetMetal_UnattendedUnfold/fr.md)
-  [SheetMetal Unfold/fr](SheetMetal_Unfold/fr.md)             [SheetMetal Workbench/fr](SheetMetal_Workbench/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [SheetMetal AddBase/fr](wiki/SheetMetal AddBase/fr.md) | [SheetMetal AddBend/fr](wiki/SheetMetal AddBend/fr.md) | [SheetMetal AddCornerRelief/fr](wiki/SheetMetal AddCornerRelief/fr.md) |
+| [SheetMetal AddFoldWall/fr](wiki/SheetMetal AddFoldWall/fr.md) | [SheetMetal AddJunction/fr](wiki/SheetMetal AddJunction/fr.md) | [SheetMetal AddRelief/fr](wiki/SheetMetal AddRelief/fr.md) |
+| [SheetMetal AddWall/fr](wiki/SheetMetal AddWall/fr.md) | [SheetMetal Examples/fr](wiki/SheetMetal Examples/fr.md) | [SheetMetal Extrude/fr](wiki/SheetMetal Extrude/fr.md) |
+| [SheetMetal Forming/fr](wiki/SheetMetal Forming/fr.md) | [SheetMetal SketchOnSheet/fr](wiki/SheetMetal SketchOnSheet/fr.md) | [SheetMetal UnattendedUnfold/fr](wiki/SheetMetal UnattendedUnfold/fr.md) |
+| [SheetMetal Unfold/fr](wiki/SheetMetal Unfold/fr.md) | [SheetMetal Workbench/fr](wiki/SheetMetal Workbench/fr.md) |
 
 
 

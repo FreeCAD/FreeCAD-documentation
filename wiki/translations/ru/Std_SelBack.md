@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Std SelBack
-   MenuLocation:''None''
+   MenuLocation:
    Workbenches:All
    Version:0.19
    SeeAlso:[Std LinkSelectLinked](Std_LinkSelectLinked.md), [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md), [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md), [Std SelForward](Std_SelForward.md)
@@ -16,7 +16,7 @@ The **Std SelBack** command restores the previous recorded [Tree view](Tree_view
 ## Применение
 
 1.  There has to be a previous Tree view selection.
-2.  Press the **<img src="images/Std_SelBack.svg" width=16px> [Std SelBack](Std_SelBack.md)** button.
+2.  Press the **<img src="images/Std_SelBack.svg" width=16px> [Back](Std_SelBack.md)** button.
 3.  The previous selection is restored.
 
 ## Примечания

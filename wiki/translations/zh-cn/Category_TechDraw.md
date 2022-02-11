@@ -1,10 +1,11 @@
 # Category:TechDraw/zh-cn
 This category lists pages related to the [TechDraw Workbench/zh-cn](TechDraw_Workbench/zh-cn.md).
 
-### Contents:
+### Contents
 
-  
-  [TechDraw Workbench/zh-cn](TechDraw_Workbench/zh-cn.md)
+|     |     |     |
+| --- | --- | --- |
+| [TechDraw Workbench/zh-cn](wiki/TechDraw Workbench/zh-cn.md) |
 
 
 

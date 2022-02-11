@@ -1,10 +1,12 @@
 # Category:Preferences/cs
 This category lists all existing Preference menus of different FreeCAD workbenches. See [Preferences\_Editor\#Workbench\_preferences](Preferences_Editor#Workbench_preferences.md)
 
-### Contents:
+### Contents
 
-    
-  [Customize Toolbars/cs](Customize_Toolbars/cs.md)   [Draft Preferences/cs](Draft_Preferences/cs.md)   [Preferences Editor/cs](Preferences_Editor/cs.md)
+|     |     |     |
+| --- | --- | --- |
+| [Customize Toolbars/cs](wiki/Customize Toolbars/cs.md) | [Draft Preferences/cs](wiki/Draft Preferences/cs.md) | [Preferences Editor/cs](wiki/Preferences Editor/cs.md) |
+|
 
 
 

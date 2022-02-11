@@ -1,4 +1,10 @@
 # Manual:BIM modeling/ro
+}
+
+
+
+
+
 {{Manual:TOC/ro}}
 
 BIM înseamnă [Building Information Modeling](https://en.wikipedia.org/wiki/Building_information_modeling). Definiția exactă a ceea ce este variază, dar putem spune pur și simplu că în prezent sunt modelate clădiri și alte structuri mari, cum ar fi poduri, tuneluri etc. Modelele BIM se bazează, de obicei, pe modele 3D și includ, de asemenea, o serie de informații suplimentare, cum ar fi informații despre materiale, relații cu alte obiecte sau modele sau instrucțiuni speciale pentru construirea sau întreținerea. Această informație suplimentară permite toate tipurile de analize avansate ale modelului, cum ar fi rezistența structurală, costurile și estimările timpului de construcție sau calculele consumului de energie.

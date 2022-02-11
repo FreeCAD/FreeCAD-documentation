@@ -1,10 +1,12 @@
 # Category:Hubs/pt-br
 This category gathers the meeting points of the 3 broad categories of users of FreeCAD\...
 
-### Contents:
+### Contents
 
-    
-  [Developer hub/pt-br](Developer_hub/pt-br.md)   [Power users hub/pt-br](Power_users_hub/pt-br.md)   [User hub/pt-br](User_hub/pt-br.md)
+|     |     |     |
+| --- | --- | --- |
+| [Developer hub/pt-br](wiki/Developer hub/pt-br.md) | [Power users hub/pt-br](wiki/Power users hub/pt-br.md) | [User hub/pt-br](wiki/User hub/pt-br.md) |
+|
 
 
 

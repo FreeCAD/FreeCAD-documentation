@@ -1,10 +1,12 @@
 # Category:Hubs/es
 Esta categoría recopila los puntos de encuentro de las 3 categorías de usuarios de FreeCAD\...
 
-### Contents:
+### Contents
 
-    
-  [Developer hub/es](Developer_hub/es.md)   [Power users hub/es](Power_users_hub/es.md)   [User hub/es](User_hub/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Developer hub/es](wiki/Developer hub/es.md) | [Power users hub/es](wiki/Power users hub/es.md) | [User hub/es](wiki/User hub/es.md) |
+|
 
 
 

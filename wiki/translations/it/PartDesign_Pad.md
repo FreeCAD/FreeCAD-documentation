@@ -9,6 +9,9 @@
 
 # PartDesign Pad/it
 
+
+</div>
+
 ## Descrizione
 
 
@@ -68,16 +71,6 @@ Inserire un valore numerico per la lunghezza dell\'estrusione. La direzione pred
 
 </div>
 
-#### Due dimensioni 
-
-
-<div class="mw-translate-fuzzy">
-
-Questo consente di inserire una seconda lunghezza per estendere l\'estrusione in direzioni opposte (nel supporto). Anche in questo caso la direzione può essere modificata barrando l\'opzione **Invertita**.
-
-
-</div>
-
 #### Fino all\'ultimo 
 
 Il solido viene estruso fino all\'ultima faccia del supporto nella direzione di estrusione. Se non vi è alcun supporto, viene visualizzato un messaggio di errore.
@@ -92,6 +85,16 @@ Il solido viene estruso fino alla prima faccia del supporto nella direzione di e
 <div class="mw-translate-fuzzy">
 
 Il solido verrà estruso fino a una faccia del supporto che può essere scelta cliccando su di essa. Se non c\'è un supporto, nessuna selezione sarà accettata.
+
+
+</div>
+
+#### Due dimensioni 
+
+
+<div class="mw-translate-fuzzy">
+
+Questo consente di inserire una seconda lunghezza per estendere l\'estrusione in direzioni opposte (nel supporto). Anche in questo caso la direzione può essere modificata barrando l\'opzione **Invertita**.
 
 
 </div>
@@ -168,6 +171,29 @@ Estende la lunghezza data su entrambi i lati del piano di schizzo, simmetricamen
 ### Invertita
 
 Inverte la direzione dell\'estrusione.
+
+### Taper angle 
+
+
+<small>(v0.20)</small> 
+
+Tapers the pad in the extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+
+Limitations:
+
+-   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
+-   For larger angles tapering will fail if the end face of the pad would have fewer edges than the start face/sketch.
+
+### 2nd length 
+
+Defines the length of the pad in the opposite extrusion direction. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available if **Type** is **Two dimensions**.
+
+### 2nd taper angle 
+
+
+<small>(v0.20)</small> 
+
+Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
 ## Proprietà
 

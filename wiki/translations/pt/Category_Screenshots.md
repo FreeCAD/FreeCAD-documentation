@@ -1,10 +1,11 @@
 # Category:Screenshots/pt
 This category lists pages with screenshots.
 
-### Contents:
+### Contents
 
-  
-  [Screenshots/pt](Screenshots/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Screenshots/pt](wiki/Screenshots/pt.md) |
 
 
 

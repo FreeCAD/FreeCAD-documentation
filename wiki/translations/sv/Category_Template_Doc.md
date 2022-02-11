@@ -1,10 +1,11 @@
 # Category:Template:Doc/sv
 This category lists templates that produce text boxes used for documenting commands, tutorials, and other elements.
 
-### Contents:
+### Contents
 
-  
-  [Template:Macro/sv](Template:Macro/sv.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Macro/sv](wiki/Template_Macro/sv.md) |
 
 
 

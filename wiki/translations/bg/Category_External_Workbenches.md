@@ -1,10 +1,11 @@
 # Category:External Workbenches/bg
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
-### Contents:
+### Contents
 
-   
-  [Plot Workbench/bg](Plot_Workbench/bg.md)   [Ship Workbench/bg](Ship_Workbench/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/bg](wiki/Plot Workbench/bg.md) | [Ship Workbench/bg](wiki/Ship Workbench/bg.md) |
 
 
 

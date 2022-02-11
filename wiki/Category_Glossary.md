@@ -1,14 +1,16 @@
 # Category:Glossary
 This category tracks pages that explain definitions of words related to FreeCAD
 
-### Contents:
+### Contents
 
-    
-  [Assembly](Assembly.md)           [Body](Body.md)           [Command](Command.md)
-  [Constraint](Constraint.md)       [Datum](Datum.md)         [Drawing](Drawing.md)
-  [Feature](Feature.md)             [Glossary](Glossary.md)   [Mesh](Mesh.md)
-  [Mesh Feature](Mesh_Feature.md)   [Model](Model.md)         [Part](Part.md)
-  [Python](Python.md)               [Shape](Shape.md)         [Sketch](Sketch.md)
+|     |     |     |
+| --- | --- | --- |
+| [Assembly](wiki/Assembly.md) | [Body](wiki/Body.md) | [Command](wiki/Command.md) |
+| [Constraint](wiki/Constraint.md) | [Datum](wiki/Datum.md) | [Drawing](wiki/Drawing.md) |
+| [Feature](wiki/Feature.md) | [Glossary](wiki/Glossary.md) | [Mesh](wiki/Mesh.md) |
+| [Mesh Feature](wiki/Mesh Feature.md) | [Model](wiki/Model.md) | [Part](wiki/Part.md) |
+| [Python](wiki/Python.md) | [Shape](wiki/Shape.md) | [Sketch](wiki/Sketch.md) |
+|
 
 
 

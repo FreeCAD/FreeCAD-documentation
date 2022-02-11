@@ -1,15 +1,16 @@
 # Category:Poweruser Documentation/id
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
-### Contents:
+### Contents
 
-    
-  [Code snippets/id](Code_snippets/id.md)                             [Embedding FreeCAD/id](Embedding_FreeCAD/id.md)           [FreeCAD Scripting Basics/id](FreeCAD_Scripting_Basics/id.md)
-  [Introduction to Python/id](Introduction_to_Python/id.md)           [Line drawing function/id](Line_drawing_function/id.md)   [Macros/id](Macros/id.md)
-  [Mesh Scripting/id](Mesh_Scripting/id.md)                           [Mesh to Part/id](Mesh_to_Part/id.md)                     [Pivy/id](Pivy/id.md)
-  [Power users hub/id](Power_users_hub/id.md)                         [Property/id](Property/id.md)                             [PySide/id](PySide/id.md)
-  [Python scripting tutorial/id](Python_scripting_tutorial/id.md)     [Scenegraph/id](Scenegraph/id.md)                         [Scripted objects/id](Scripted_objects/id.md)
-  [Topological data scripting/id](Topological_data_scripting/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Code snippets/id](wiki/Code snippets/id.md) | [Embedding FreeCAD/id](wiki/Embedding FreeCAD/id.md) | [FreeCAD Scripting Basics/id](wiki/FreeCAD Scripting Basics/id.md) |
+| [Introduction to Python/id](wiki/Introduction to Python/id.md) | [Line drawing function/id](wiki/Line drawing function/id.md) | [Macros/id](wiki/Macros/id.md) |
+| [Mesh Scripting/id](wiki/Mesh Scripting/id.md) | [Mesh to Part/id](wiki/Mesh to Part/id.md) | [Pivy/id](wiki/Pivy/id.md) |
+| [Power users hub/id](wiki/Power users hub/id.md) | [Property/id](wiki/Property/id.md) | [PySide/id](wiki/PySide/id.md) |
+| [Python scripting tutorial/id](wiki/Python scripting tutorial/id.md) | [Scenegraph/id](wiki/Scenegraph/id.md) | [Scripted objects/id](wiki/Scripted objects/id.md) |
+| [Topological data scripting/id](wiki/Topological data scripting/id.md) |
 
 
 

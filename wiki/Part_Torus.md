@@ -42,13 +42,13 @@ A torus can be assimilated to a small disc that makes a circular orbit around an
 
 -    {{Parameter|Angle3:}}3rd angle to define the circumference of the torus.
 
-as well as the standard set of placement parameters. The pictures below give a visual overview of the parameters antecedently mentioned:
+As well as the standard set of placement parameters. The pictures below give a visual overview of the parameters antecedently mentioned:
 
 ![](images/TorusExampleRadius1.jpg ) The parameter Radius1 has a value of 20 mm.
 
 ![](images/TorusExampleRadius2.jpg ) The parameter Radius2 has a value of 2 mm.
 
-![](images/TorusExampleAngle1.jpg ) The parameter Angle1 has a value of -90°. Notice that, the \"angle measure\" tool cannot display negative angle. Considered the displayed value in picture as \"-90°\".
+![](images/TorusExampleAngle1.jpg ) The parameter Angle1 has a value of -90°. Notice that, the \'angle measure\' tool cannot display negative angle. Considered the displayed value in picture as \'-90°\'.
 
 ![](images/TorusExampleAngle2.jpg ) The parameter Angle2 has a value of 90°.
 
@@ -65,6 +65,37 @@ torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
 
 -   Where {{Incode|"myTorus"}} is the name for the object.
 -   The function returns the newly created object.
+
+The name of the object can be easily changed by
+
+ 
+```python
+torus.Label = "new torusName"
+```
+
+You can access and modify attributes of the {{Incode|torus}} object. For example, you may wish to modify the radii or angle parameters.
+
+ 
+```python
+torus.Radius1 = 20
+torus.Radius2 = 10
+torus.Angle0 = -90
+torus.Angle1 = 45
+torus.Angle2 = 270
+```
+
+The result will be a quarter of a torus.
+
+You can change its placement and orientation with:
+
+ 
+```python
+torus.Placement = FreeCAD.Placement(FreeCAD.Vector(2, 4, 6), FreeCAD.Rotation(30, 45, 10))
+```
+
+The Part Torus with the values of the scripting example looks like:
+
+![Part Torus with the values of the scripting example.](images/Part_Torus_Scripting_Example.png )
 
 
 

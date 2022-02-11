@@ -1,13 +1,13 @@
 # Category:Test Framework/fr
 Cette catégorie répertorie les pages liées à l\'atelier [Test Framework Workbench](Testing/fr.md).
 
-### Contents:
-
-  
-  [Testing/fr](Testing/fr.md)
-  
-
 [Workbenches/fr](Category:Workbenches/fr.md) [User\_Documentation/fr](Category:User_Documentation/fr.md) [Testing/fr](Category:Testing/fr.md)
+
+### Contents
+
+|     |     |     |
+| --- | --- | --- |
+| [Testing/fr](wiki/Testing/fr.md) |
 
 
 

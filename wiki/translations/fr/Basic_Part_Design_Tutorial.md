@@ -40,15 +40,15 @@ Commencez par vérifier que vous êtes dans l\'atelier PartDesign. Une fois là,
 
 Tout travail dans Part Design commence par un [Corps (Body)](Glossary/fr#Body.md). Puis nous construirons un solide dans le Corps à partir d\'une [Esquisse (Sketch)](Glossary/fr#Sketch.md).
 
-1.  Cliquez sur <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Créer un corps](PartDesign_Body/fr.md) pour créer et activer un nouveau conteneur corps. 
+1.  Cliquez sur <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Créer un corps](PartDesign_Body/fr.md) pour créer et activer un nouveau conteneur corps. 
 *Remarque: cette étape peut être omise. Lors de la création d\'une esquisse, si aucun corps n\'est trouvé, un nouveau corps sera créé et activé automatiquement.*
-2.  Cliquer sur <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> [Créer une nouvelle esquisse](PartDesign_NewSketch/fr.md). Ceci créera l\'esquisse dans le corps que vous venez de créer.
+2.  Cliquer sur <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Créer une nouvelle esquisse](PartDesign_NewSketch/fr.md). Ceci créera l\'esquisse dans le corps que vous venez de créer.
 3.  Nous devons définir où l\'esquisse sera appliquée. Nous l\'attacherons sur un plan de l\'[Origine](Glossary/fr#Origin.md) du corps.
-4.  Sous l\'onglet Tâches de la vue combinée, sélectionnez **YZ\_Plane** dans la liste puis appuyez sur **OK**:
+4.  Sous l\'[onglet Tâches](Task_panel/fr.md) onglet Tâches de la [vue combinée](Combo_view/fr.md), sélectionnez **YZ\_Plane** dans la liste puis appuyez sur **OK**:
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width:250px;">
 
-*N.B.: il est possible que le bouton OK ne soit pas visible dans le panneau latéral si ce dernier n\'est pas assez large. Vous pouvez l\'élargir en déplaçant sa bordure de droite. Placez votre souris au dessus de la bordure ; quand le pointeur change pour une flèche à deux sens, pressez et gardez le bouton gauche de la souris enfoncé et glissez.*
+*N.B.: il est possible que le bouton **OK** ne soit pas visible dans le panneau latéral si ce dernier n\'est pas assez large. Vous pouvez l\'élargir en déplaçant sa bordure de droite. Placez votre souris au dessus de la bordure ; quand le pointeur change pour une flèche à deux sens, pressez et gardez le bouton gauche de la souris enfoncé et glissez.*
 
 Une fois que vous avez cliqué sur OK, FreeCAD passe automatiquement au [Sketcher](Sketcher_Workbench/fr.md) et ouvre l\'esquisse en mode d\'édition:
 
@@ -56,21 +56,21 @@ Une fois que vous avez cliqué sur OK, FreeCAD passe automatiquement au [Sketche
 
 ### Créer l\'esquisse 
 
-Ensuite, vous utiliserez l\'outil <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyligne](Sketcher_CreatePolyline/fr.md) pour tracer une forme à peu près comme dans l\'image suivante. Elle n\'a pas besoin d\'être parfaite car la forme finale sera définie par des contraintes. Une fois que vous avez la forme de base, nous commençons à appliquer les contraintes. Si les contraintes automatiques étaient activées, certaines de ces contraintes seraient appliquées automatiquement. Si ce n\'est pas le cas, procédez comme suit. Mais assurez-vous d'abord que vous avez quitté l'outil Polyligne en cliquant avec le bouton droit de la souris ou en appuyant deux fois sur **Echap**. Le curseur de la souris doit revenir du réticule au curseur en forme de flèche standard. (N\'appuyez pas sur **Echap** une troisième fois ou vous quitterez le mode d\'édition d\'esquisse; si cela se produit, cliquez sur l\'onglet Modèle, puis double-cliquez sur l\'élément Esquisse dans l\'arborescence ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier l\'esquisse** dans le menu contextuel.)
+Ensuite, vous utiliserez l\'outil <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Polyligne](Sketcher_CreatePolyline/fr.md) pour tracer une forme à peu près comme dans l\'image suivante. Elle n\'a pas besoin d\'être parfaite car la forme finale sera définie par des contraintes. Une fois que vous avez la forme de base, nous commençons à appliquer les contraintes. Si les contraintes automatiques étaient activées, certaines de ces contraintes seraient appliquées automatiquement. Si ce n\'est pas le cas, procédez comme suit. Mais assurez-vous d'abord que vous avez quitté l'outil Polyligne en cliquant avec le bouton droit de la souris ou en appuyant deux fois sur **Echap**. Le curseur de la souris doit revenir du réticule au curseur en forme de flèche standard. (N\'appuyez pas sur **Echap** une troisième fois ou vous quitterez le mode d\'édition d\'esquisse; si cela se produit, cliquez sur l\'onglet Modèle, puis double-cliquez sur l\'élément Esquisse dans l\'arborescence ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier l\'esquisse** dans le menu contextuel.)
 
-1.  Sélectionnez les deux lignes horizontales avec votre souris en cliquant dessus, et une fois sélectionnées, cliquez sur la contrainte horizontale <img alt="" src=images/Constraint_Horizontal.svg  style="width:32px;">.
-2.  Sélectionnez la ligne verticale sur la droite puis cliquez sur la contrainte verticale <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;">.
-3.  Sélectionnez les points de début et de fin de votre polyligne et cliquez sur la contrainte de coïncidence <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> pour fermer la polyligne.
-4.  Sélectionnez la ligne horizontale inférieure et la ligne verticale droite et appliquez la contrainte d\'égalité <img alt="" src=images/Constraint_EqualLength.png  style="width:32px;">.
-5.  Sélectionnez la ligne horizontale ou verticale et appliquez une contrainte de distance verticale <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:32px;"> ou <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:32px;"> correspondante et donnez-lui une valeur de 26 mm.
-6.  Sélectionnez la ligne horizontale supérieure et appliquez la contrainte de distance horizontale et donnez-lui une valeur de 5 mm.
-7.  Sélectionnez le point inférieur droit (vertex) de la ligne horizontale Origine, puis le point central de la grille et appliquez la contrainte de coïncidence <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> pour corriger votre forme.
+1.  Sélectionnez les deux lignes horizontales avec votre souris en cliquant dessus, et une fois sélectionnées, cliquez sur la <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md).
+2.  Sélectionnez la ligne verticale sur la droite puis cliquez sur la <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> [contrainte verticale](Sketcher_ConstrainVertical/fr.md).
+3.  Sélectionnez les points de début et de fin de votre polyligne et cliquez sur la <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> \[Sketcher\_ConstrainCoincident/fr\|contrainte de coïncidence\]\] pour fermer la polyligne.
+4.  Sélectionnez la ligne horizontale inférieure et la ligne verticale droite et appliquez la <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [contrainte d\'égalité](Sketcher_ConstrainEqual/fr.md).
+5.  Sélectionnez la ligne horizontale ou verticale et appliquez une <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [contrainte de distance horizontale](Sketcher_ConstrainDistanceX/fr.md) ou <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [contrainte de distance verticale](Sketcher_ConstrainDistanceX/fr.md) et donnez-lui une valeur de 26 mm.
+6.  Sélectionnez la ligne horizontale supérieure, appliquez la contrainte de distance horizontale et donnez-lui une valeur de 5 mm.
+7.  Sélectionnez le point (sommet) inférieur droit de la ligne horizontale Origine, puis le point central de la grille et appliquez la <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) pour figer votre forme.
 
 À ce stade, vous devriez avoir une esquisse entièrement contrainte comme indiqué par le changement de couleur et le message affiché dans la vue combinée. Il devrait maintenant ressembler à l\'image ci-dessous.
 
 ![](images/Tut17_profile.png )
 
-Maintenant, dans la vue combinée, cliquez sur le bouton Fermer pour quitter le mode d\'édition d\'esquisse et sélectionnez <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> Protrusion dans la barre d\'outils ou dans le menu Part Design. Cela vous donnera une boîte de dialogue Paramètres de protrusion dans la vue combinée. À l\'aide de cette boîte de dialogue, en utilisant d\'abord le menu déroulant Type, sélectionnez Deux dimensions. Le dessin présenté au début de ce tutoriel indique que la pièce mesure 53 mm de long. Nous le faisons en remplissant notre esquisse des deux côtés à partir du plan central pour obtenir cette distance, c\'est-à-dire rendre le pavé symétrique par rapport au plan d\'esquisse. La raison en est vue plus tard lors de la création de fonctionnalités. Pour l\'instant, étant donné que nous voulons qu\'il soit de 53 mm au total, nous allons entrer 26.5 pour la première longueur et 26.5 pour la deuxième longueur. Vous pouvez également fournir une longueur unique de 53 mm et cliquer sur la case à cocher Symétrique par rapport au plan. Une fois cela fait, nous avons maintenant notre base solide sur laquelle nous allons ajouter des fonctionnalités supplémentaires pour construire notre pièce.
+Maintenant, dans la [vue combinée](Combo_view/fr.md), cliquez sur le bouton **Fermer** pour quitter le mode d\'édition d\'esquisse et sélectionnez <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Protrusion](PartDesign_Pad/fr.md) dans la barre d\'outils ou dans le menu Part Design. Cela vous donnera une boîte de dialogue Paramètres de protrusion dans la vue combinée. À l\'aide de cette boîte de dialogue, en utilisant d\'abord le menu déroulant Type, sélectionnez Deux dimensions. Le dessin présenté au début de ce tutoriel indique que la pièce mesure 53 mm de long. Nous le faisons en remplissant notre esquisse des deux côtés à partir du plan central pour obtenir cette distance, c\'est-à-dire rendre le pavé symétrique par rapport au plan d\'esquisse. La raison en est vue plus tard lors de la création de fonctionnalités. Pour l\'instant, étant donné que nous voulons qu\'il soit de 53 mm au total, nous allons entrer 26.5 pour la première longueur et 26.5 pour la deuxième longueur. Vous pouvez également fournir une longueur unique de 53 mm et cliquer sur la case à cocher Symétrique par rapport au plan. Une fois cela fait, nous avons maintenant notre base solide sur laquelle nous allons ajouter des fonctionnalités supplémentaires pour construire notre pièce.
 
 Une vidéo des étapes utilisées dans cette partie du tutoriel est ici: <https://youtu.be/cUyPnCMeTgg>
 
@@ -80,11 +80,12 @@ Une vidéo des étapes utilisées dans cette partie du tutoriel est ici: <https:
 
 ![](images/PD_WB_Tutorial003.png )
 
-Une fois la face sélectionnée, cliquez sur l\'icône Nouvelle esquisse dans la barre d\'outils ou dans le menu Part Design, afin de mapper (déposer) notre esquisse suivante sur la face arrière de la pièce. Sélectionnez maintenant l\'outil rectangle <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> et placez un rectangle sur la face arrière de la pièce de la même manière que ci-dessous. Maintenant, en suivant les étapes répertoriées, contraignez l\'esquisse.
+Une fois la face sélectionnée, cliquez sur l\'icône Nouvelle esquisse dans la barre d\'outils ou dans le menu Part Design, afin de mapper (déposer) notre esquisse suivante sur la face arrière de la pièce. Sélectionnez maintenant l\'outil <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Rectangle](Sketcher_CreateRectangle/fr.md) et placez un rectangle sur la face arrière de la pièce de la même manière que ci-dessous. Maintenant, en suivant les étapes répertoriées, contraignez l\'esquisse.
 
 1.  Sélectionnez l\'une des lignes horizontales en appliquant une contrainte de distance horizontale et une valeur de 5 mm.
 2.  Sélectionnez l\'une des lignes verticales et donnez-lui une contrainte de distance verticale et une valeur de 11 mm.
-3.  Utilisez <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> l\'Outil de géométrie externe et sélectionnez le sommet supérieur droit de la face et cliquez dessus pour obtenir un point de la géométrie externe auquel lier notre esquisse.
+3.  Utilisez l\'outil <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [géométrie externe](Sketcher_External/fr.md).
+4.  Sélectionnez le sommet supérieur droit de la face et cliquez dessus pour obtenir un point de la géométrie externe auquel lier notre esquisse.
 
 ![](images/tut17_slot_unconstrained.png )
 
@@ -93,9 +94,9 @@ Une fois la face sélectionnée, cliquez sur l\'icône Nouvelle esquisse dans la
 
 ![](images/tut17_slote_constrained.png )
 
-Une fois cela fait, cliquez sur le bouton Fermer en haut de l\'onglet Tâches dans la fenêtre Vue Combo, puis sélectionnez l\'outil Cavité <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> dans la barre d\'outils ou le menu Part Design. L\'utilisation de cet outil est l\'opposé de l\'outil Protrusion. Comme l\'outil Protrusion ajoute de la matière à la pièce, l\'outil Cavité supprime de la matière de la pièce. Les deux opérations sont appelées des fonctions. Dans cette opération de cavité, nous allons sélectionner À travers tout dans le menu déroulant de type, puis cliquer sur le bouton OK.
+Une fois cela fait, cliquez sur le bouton Fermer en haut de l\'onglet Tâches dans la fenêtre Vue Combo, puis sélectionnez l\'outil <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Cavité](PartDesign_Pocket/fr.md) dans la barre d\'outils ou le menu Part Design. L\'utilisation de cet outil est l\'opposé de l\'outil Protrusion. Comme l\'outil Protrusion ajoute de la matière à la pièce, l\'outil Cavité supprime de la matière de la pièce. Les deux opérations sont appelées des fonctions. Dans cette opération de cavité, nous allons sélectionner À travers tout dans le menu déroulant de type, puis cliquer sur le bouton OK.
 
-Pour l\'opération suivante, assurez-vous que \"Pocket\" est sélectionné dans l\'arborescence du modèle et une fois terminé, cliquez sur la fonction Symétrie <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> dans la barre d\'outils ou dans le menu Part Design. Dans la boîte de dialogue Symétrie de la vue combinée, sélectionnez Axe d\'esquisse horizontal dans le menu déroulant Plan. Puis cliquez sur OK. La fonction Symétrie fonctionne de cette manière car la fonction de base de notre modèle a été réalisée des deux côtés du plan horizontal lors de la première opération avec l\'esquisse de base. Si tout s\'est bien passé, vous devriez maintenant avoir une pièce qui ressemble à l\'image ci-dessous après avoir réorienté la vue de la pièce vers l\'avant.
+Pour l\'opération suivante, assurez-vous que \"Pocket\" est sélectionné dans l\'arborescence du modèle et une fois terminé, cliquez sur la fonction <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [Symétrie](PartDesign_Mirrored/fr.md) dans la barre d\'outils ou dans le menu Part Design. Dans la boîte de dialogue Symétrie de la vue combinée, sélectionnez Axe d\'esquisse horizontal dans le menu déroulant Plan. Puis cliquez sur OK. La fonction Symétrie fonctionne de cette manière car la fonction de base de notre modèle a été réalisée des deux côtés du plan horizontal lors de la première opération avec l\'esquisse de base. Si tout s\'est bien passé, vous devriez maintenant avoir une pièce qui ressemble à l\'image ci-dessous après avoir réorienté la vue de la pièce vers l\'avant.
 
 ![](images/tut17_profilewithslots.png )
 
@@ -137,7 +138,7 @@ Une vidéo des étapes utilisées dans cette partie du tutoriel est ici: <https:
 
 ![](images/tut17_innerplane.png )
 
-Ici, nous allons utiliser l\'outil rectangle et en tracer un dans notre esquisse et une fois cela fait, appliquer les contraintes suivantes.
+Ici, nous allons utiliser l\'outil Rectangle et en tracer un dans notre esquisse et une fois cela fait, appliquer les contraintes suivantes.
 
 1.  Sélectionnez une ligne horizontale et une ligne verticale, et après que les deux sont sélectionnés, cliquez sur la contrainte d\'égalité.
 2.  Sélectionnez une ligne horizontale ou verticale et appliquer une contrainte correspondante de distance horizontale ou verticale avec une valeur de 17 mm.
@@ -166,7 +167,7 @@ Pour créer une cavité qui a le rectangle incliné comme sortie, nous dessinons
 
 ![](images/tut17_profilewithsideblocksrearplane.png )
 
-Sélectionnez **Nouvelle esquisse** <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> dans la barre d\'outils ou dans le menu Part Design. Maintenant, en mode d\'édition d\'esquisse, nous ne voyons pas le rectangle esquissé sur la pente. Pour le rendre sélectionnable, nous basculons la vue combinée dans l\'onglet modèle et sélectionnons la dernière esquisse réalisée (Sketch003) sur le plan incliné. Ensuite, en utilisant la barre d\'espace, rendez-la visible. Ensuite, sélectionnez la fonction miroir ci-dessus (mirrored001) et à nouveau à l\'aide de la barre d\'espace, masquez-le. Ensuite, vous devriez voir le rectangle incliné à l\'intérieur de la vue 3D. Vous pouvez continuer à travailler avec l\'onglet du modèle visible ou revenir à l\'onglet des tâches. À l\'aide de l\'outil <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> Géométrie externe, sélectionnez les bords horizontaux supérieur et inférieur du rectangle incliné. Ensuite, ajoutez un nouveau rectangle à l\'esquisse à l\'aide de l\'outil de rectangle <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;">.
+Sélectionnez <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Nouvelle esquisse](PartDesign_NewSketch/fr.md) dans la barre d\'outils ou dans le menu Part Design. Maintenant, en mode d\'édition d\'esquisse, nous ne voyons pas le rectangle esquissé sur la pente. Pour le rendre sélectionnable, nous basculons la vue combinée dans l\'onglet modèle et sélectionnons la dernière esquisse réalisée (Sketch003) sur le plan incliné. Ensuite, en utilisant la barre d\'espace, rendez-la visible. Ensuite, sélectionnez la fonction miroir ci-dessus (mirrored001) et à nouveau à l\'aide de la barre d\'espace, masquez-le. Ensuite, vous devriez voir le rectangle incliné à l\'intérieur de la vue 3D. Vous pouvez continuer à travailler avec l\'onglet du modèle visible ou revenir à l\'onglet des tâches. À l\'aide de l\'outil <img alt="" src=images/Sketcher_External.svg  style="width:24px;"> [Géométrie externe](Sketcher_External/fr.md), sélectionnez les bords horizontaux supérieur et inférieur du rectangle incliné. Ensuite, ajoutez un nouveau rectangle à l\'esquisse à l\'aide de l\'outil <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:24px;"> [Rectangle](Sketcher_CreateRectangle/fr.md).
 
 ![](images/tut17_rectangleunconstrained.png )
 
@@ -177,7 +178,7 @@ Et nous devrions finir avec ça.
 
 ![](images/tut17_rectangleconstrained.png )
 
-Pour la dernière étape de ce tutoriel, fermez la fenêtre d\'esquisse par \"fermer\" ou \"fin de modification\" dans le menu contextuel de sketch004, puis sélectionnez la <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> fonction Poche dans la barre d\'outils ou dans le menu Part Design. Dans le menu déroulant \"Type\", sélectionnez **A travers tout** et cliquez sur le bouton OK.
+Pour la dernière étape de ce tutoriel, fermez la fenêtre d\'esquisse par \"fermer\" ou \"fin de modification\" dans le menu contextuel de sketch004, puis sélectionnez la fonction <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [Cavité](PartDesign_Pocket/fr.md) dans la barre d\'outils ou dans le menu Part Design. Dans le menu déroulant \"Type\", sélectionnez **A travers tout** et cliquez sur le bouton OK.
 
 ![](images/Tut17_final.png )
 

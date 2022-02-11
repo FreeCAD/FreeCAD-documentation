@@ -3,11 +3,12 @@ FreeCAD tutorials. Please help us adding more!
 
 Special pages are [Offsite tutorials/pt](Offsite_tutorials/pt.md) and [Video tutorials/pt](Video_tutorials/pt.md) that hierarchically contain links to tutorials hosted on external sites. A useful source of video tutorials is of course also a *FreeCAD* keyword search on [YouTube](http://YouTube.com).
 
-### Contents:
+### Contents
 
-    
-  [Basic modeling tutorial/pt](Basic_modeling_tutorial/pt.md)   [Basic Sketcher Tutorial/pt](Basic_Sketcher_Tutorial/pt.md)   [Draft tutorial/pt](Draft_tutorial/pt.md)
-  [Template:TutorialInfo/pt](Template:TutorialInfo/pt.md)       [Video tutorials/pt](Video_tutorials/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Basic modeling tutorial/pt](wiki/Basic modeling tutorial/pt.md) | [Basic Sketcher Tutorial/pt](wiki/Basic Sketcher Tutorial/pt.md) | [Draft tutorial/pt](wiki/Draft tutorial/pt.md) |
+| [Template:TutorialInfo/pt](wiki/Template_TutorialInfo/pt.md) | [Video tutorials/pt](wiki/Video tutorials/pt.md) |
 
 
 

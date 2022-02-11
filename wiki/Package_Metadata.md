@@ -1,9 +1,7 @@
 # Package Metadata
 ## Introduction
 
- 
-
-Beginning in FreeCAD v0.20, external add-ons (workbenches, macros, and preference packs) may be distributed with a metadata file describing the contents of the package. If the file \"package.xml\" is present it is read by FreeCAD and its contents used in various parts of the user interface. It is currently optional for workbenches and macros, and required for preference packs. This page documents the format of that metadata file. The format (and the contents of this Wiki page) are based on [REP 149](https://ros.org/reps/rep-0149.html).
+Beginning in FreeCAD version 0.20, external add-ons (workbenches, macros, and preference packs) may be distributed with a metadata file describing the contents of the package. If the file \"package.xml\" is present it is read by FreeCAD and its contents used in various parts of the user interface. It is currently optional for workbenches and macros, and required for preference packs. This page documents the format of that metadata file. The format (and the contents of this Wiki page) are based on [REP 149](https://ros.org/reps/rep-0149.html).
 
 ## Overall file format 
 
@@ -216,7 +214,7 @@ The name of a person who is an author of the package, as acknowledgement of thei
 
 Multiple allowed
 
-Declares another FreeCAD Addon or workbench. Note that not all dependency-related features are fully implemented yet.
+Declares another FreeCAD Addon or workbench. Note that not all dependency-related features are fully implemented yet. Does not support Python package dependencies, which should be specified using either a requirements.txt or metadata.txt file (see [Workbench creation](Workbench_creation#Distribution.md) for details).
 
 #### Attributes 
 

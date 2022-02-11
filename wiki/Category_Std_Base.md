@@ -1,121 +1,122 @@
 # Category:Std Base
 This category list pages related to the [Std Base](Std_Base.md), which collects commands from the base system which do not belong to any of the workbenches.
 
-### Contents:
+### Contents
 
-    
-  [App DocumentObjectGroup](App_DocumentObjectGroup.md)                   [App DocumentObjectGroup/pl](App_DocumentObjectGroup/pl.md)                   [App Link](App_Link.md)
-  [App Link/pl](App_Link/pl.md)                                           [App Part](App_Part.md)                                                       [App Part/pl](App_Part/pl.md)
-  [Assembly](Assembly.md)                                                 [Assembly/pl](Assembly/pl.md)                                                 [Combo view](Combo_view.md)
-  [Combo view/pl](Combo_view/pl.md)                                       [DAG view](DAG_view.md)                                                       [DAG view/pl](DAG_view/pl.md)
-  [Interface Customization](Interface_Customization.md)                   [Interface Customization/pl](Interface_Customization/pl.md)                   [Part](Part.md)
-  [Part/pl](Part/pl.md)                                                   [Property editor](Property_editor.md)                                         [Property editor/pl](Property_editor/pl.md)
-  [Python console](Python_console.md)                                     [Python console/pl](Python_console/pl.md)                                     [Report view](Report_view.md)
-  [Report view/pl](Report_view/pl.md)                                     [Selection view](Selection_view.md)                                           [Selection view/pl](Selection_view/pl.md)
-  [Standard Menu](Standard_Menu.md)                                       [Standard Menu/pl](Standard_Menu/pl.md)                                       [Std About](Std_About.md)
-  [Std About/pl](Std_About/pl.md)                                         [Std ActivateNextWindow](Std_ActivateNextWindow.md)                           [Std ActivateNextWindow/pl](Std_ActivateNextWindow/pl.md)
-  [Std ActivatePrevWindow](Std_ActivatePrevWindow.md)                     [Std ActivatePrevWindow/pl](Std_ActivatePrevWindow/pl.md)                     [Std AddonMgr](Std_AddonMgr.md)
-  [Std AddonMgr/pl](Std_AddonMgr/pl.md)                                   [Std Alignment](Std_Alignment.md)                                             [Std Alignment/pl](Std_Alignment/pl.md)
-  [Std ArrangeIcons](Std_ArrangeIcons.md)                                 [Std ArrangeIcons/pl](Std_ArrangeIcons/pl.md)                                 [Std AxisCross](Std_AxisCross.md)
-  [Std AxisCross/pl](Std_AxisCross/pl.md)                                 [Std Base](Std_Base.md)                                                       [Template:Std Base navi](Template_Std_Base_navi.md)
-  [Std Base/pl](Std_Base/pl.md)                                           [Std BoxElementSelection](Std_BoxElementSelection.md)                         [Std BoxElementSelection/pl](Std_BoxElementSelection/pl.md)
-  [Std BoxSelection](Std_BoxSelection.md)                                 [Std BoxSelection/pl](Std_BoxSelection/pl.md)                                 [Std CascadeWindows](Std_CascadeWindows.md)
-  [Std CascadeWindows/pl](Std_CascadeWindows/pl.md)                       [Std CloseActiveWindow](Std_CloseActiveWindow.md)                             [Std CloseActiveWindow/pl](Std_CloseActiveWindow/pl.md)
-  [Std CloseAllWindows](Std_CloseAllWindows.md)                           [Std CloseAllWindows/pl](Std_CloseAllWindows/pl.md)                           [Std Copy](Std_Copy.md)
-  [Std Copy/pl](Std_Copy/pl.md)                                           [Std Cut](Std_Cut.md)                                                         [Std Cut/pl](Std_Cut/pl.md)
-  [Std Delete](Std_Delete.md)                                             [Std Delete/pl](Std_Delete/pl.md)                                             [Std DemoMode](Std_DemoMode.md)
-  [Std DemoMode/pl](Std_DemoMode/pl.md)                                   [Std DependencyGraph](Std_DependencyGraph.md)                                 [Std DependencyGraph/pl](Std_DependencyGraph/pl.md)
-  [Std DlgCustomize](Std_DlgCustomize.md)                                 [Std DlgCustomize/pl](Std_DlgCustomize/pl.md)                                 [Std DlgMacroExecute](Std_DlgMacroExecute.md)
-  [Std DlgMacroExecute/pl](Std_DlgMacroExecute/pl.md)                     [Std DlgMacroExecuteDirect](Std_DlgMacroExecuteDirect.md)                     [Std DlgMacroExecuteDirect/pl](Std_DlgMacroExecuteDirect/pl.md)
-  [Std DlgMacroRecord](Std_DlgMacroRecord.md)                             [Std DlgMacroRecord/pl](Std_DlgMacroRecord/pl.md)                             [Std DlgParameter](Std_DlgParameter.md)
-  [Std DlgParameter/pl](Std_DlgParameter/pl.md)                           [Std DlgPreferences](Std_DlgPreferences.md)                                   [Std DlgPreferences/pl](Std_DlgPreferences/pl.md)
-  [Std DrawStyle](Std_DrawStyle.md)                                       [Std DrawStyle/pl](Std_DrawStyle/pl.md)                                       [Std DuplicateSelection](Std_DuplicateSelection.md)
-  [Std DuplicateSelection/pl](Std_DuplicateSelection/pl.md)               [Std Edit](Std_Edit.md)                                                       [Std Edit Menu](Std_Edit_Menu.md)
-  [Std Edit Menu/pl](Std_Edit_Menu/pl.md)                                 [Std Edit/pl](Std_Edit/pl.md)                                                 [Std Export](Std_Export.md)
-  [Std Export/pl](Std_Export/pl.md)                                       [Std File Menu](Std_File_Menu.md)                                             [Std File Menu/pl](Std_File_Menu/pl.md)
-  [Std FreeCADFAQ](Std_FreeCADFAQ.md)                                     [Std FreeCADFAQ/pl](Std_FreeCADFAQ/pl.md)                                     [Std FreeCADForum](Std_FreeCADForum.md)
-  [Std FreeCADForum/pl](Std_FreeCADForum/pl.md)                           [Std FreeCADPowerUserHub](Std_FreeCADPowerUserHub.md)                         [Std FreeCADPowerUserHub/pl](Std_FreeCADPowerUserHub/pl.md)
-  [Std FreeCADUserHub](Std_FreeCADUserHub.md)                             [Std FreeCADUserHub/pl](Std_FreeCADUserHub/pl.md)                             [Std FreeCADWebsite](Std_FreeCADWebsite.md)
-  [Std FreeCADWebsite/pl](Std_FreeCADWebsite/pl.md)                       [Std FreezeViews](Std_FreezeViews.md)                                         [Std FreezeViews/pl](Std_FreezeViews/pl.md)
-  [Std Group](Std_Group.md)                                               [Std Group/pl](Std_Group/pl.md)                                               [Std Help Menu](Std_Help_Menu.md)
-  [Std Help Menu/pl](Std_Help_Menu/pl.md)                                 [Std HideObjects](Std_HideObjects.md)                                         [Std HideObjects/pl](Std_HideObjects/pl.md)
-  [Std HideSelection](Std_HideSelection.md)                               [Std HideSelection/pl](Std_HideSelection/pl.md)                               [Std Import](Std_Import.md)
-  [Std Import/pl](Std_Import/pl.md)                                       [Std LinkImport](Std_LinkImport.md)                                           [Std LinkImport/pl](Std_LinkImport/pl.md)
-  [Std LinkImportAll](Std_LinkImportAll.md)                               [Std LinkImportAll/pl](Std_LinkImportAll/pl.md)                               [Std LinkMake](Std_LinkMake.md)
-  [Std LinkMake/pl](Std_LinkMake/pl.md)                                   [Std LinkMakeRelative](Std_LinkMakeRelative.md)                               [Std LinkMakeRelative/pl](Std_LinkMakeRelative/pl.md)
-  [Std LinkReplace](Std_LinkReplace.md)                                   [Std LinkReplace/pl](Std_LinkReplace/pl.md)                                   [Std LinkSelectAllLinks](Std_LinkSelectAllLinks.md)
-  [Std LinkSelectAllLinks/pl](Std_LinkSelectAllLinks/pl.md)               [Std LinkSelectLinked](Std_LinkSelectLinked.md)                               [Std LinkSelectLinked/pl](Std_LinkSelectLinked/pl.md)
-  [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal.md)               [Std LinkSelectLinkedFinal/pl](Std_LinkSelectLinkedFinal/pl.md)               [Std LinkUnlink](Std_LinkUnlink.md)
-  [Std LinkUnlink/pl](Std_LinkUnlink/pl.md)                               [Std Macro Menu](Std_Macro_Menu.md)                                           [Std Macro Menu/pl](Std_Macro_Menu/pl.md)
-  [Std MacroAttachDebugger](Std_MacroAttachDebugger.md)                   [Std MacroAttachDebugger/pl](Std_MacroAttachDebugger/pl.md)                   [Std MacroStartDebug](Std_MacroStartDebug.md)
-  [Std MacroStartDebug/pl](Std_MacroStartDebug/pl.md)                     [Std MacroStepInto](Std_MacroStepInto.md)                                     [Std MacroStepInto/pl](Std_MacroStepInto/pl.md)
-  [Std MacroStepOver](Std_MacroStepOver.md)                               [Std MacroStepOver/pl](Std_MacroStepOver/pl.md)                               [Std MacroStopDebug](Std_MacroStopDebug.md)
-  [Std MacroStopDebug/pl](Std_MacroStopDebug/pl.md)                       [Std MacroStopRecord](Std_MacroStopRecord.md)                                 [Std MacroStopRecord/pl](Std_MacroStopRecord/pl.md)
-  [Std MainFullscreen](Std_MainFullscreen.md)                             [Std MainFullscreen/pl](Std_MainFullscreen/pl.md)                             [Std MeasureDistance](Std_MeasureDistance.md)
-  [Std MeasureDistance/pl](Std_MeasureDistance/pl.md)                     [Std MergeProjects](Std_MergeProjects.md)                                     [Std MergeProjects/pl](Std_MergeProjects/pl.md)
-  [Std New](Std_New.md)                                                   [Std New/pl](Std_New/pl.md)                                                   [Std OnlineHelp](Std_OnlineHelp.md)
-  [Std OnlineHelp/pl](Std_OnlineHelp/pl.md)                               [Std Open](Std_Open.md)                                                       [Std Open/pl](Std_Open/pl.md)
-  [Std OrthographicCamera](Std_OrthographicCamera.md)                     [Std OrthographicCamera/pl](Std_OrthographicCamera/pl.md)                     [Std Part](Std_Part.md)
-  [Std Part/pl](Std_Part/pl.md)                                           [Std Paste](Std_Paste.md)                                                     [Std Paste/pl](Std_Paste/pl.md)
-  [Std PerspectiveCamera](Std_PerspectiveCamera.md)                       [Std PerspectiveCamera/pl](Std_PerspectiveCamera/pl.md)                       [Std Placement](Std_Placement.md)
-  [Std Placement/pl](Std_Placement/pl.md)                                 [Std Print](Std_Print.md)                                                     [Std Print/pl](Std_Print/pl.md)
-  [Std PrintPdf](Std_PrintPdf.md)                                         [Std PrintPdf/pl](Std_PrintPdf/pl.md)                                         [Std PrintPreview](Std_PrintPreview.md)
-  [Std PrintPreview/pl](Std_PrintPreview/pl.md)                           [Std ProjectInfo](Std_ProjectInfo.md)                                         [Std ProjectInfo/pl](Std_ProjectInfo/pl.md)
-  [Std ProjectUtil](Std_ProjectUtil.md)                                   [Std ProjectUtil/pl](Std_ProjectUtil/pl.md)                                   [Std PythonHelp](Std_PythonHelp.md)
-  [Std PythonHelp/pl](Std_PythonHelp/pl.md)                               [Std Quit](Std_Quit.md)                                                       [Std Quit/pl](Std_Quit/pl.md)
-  [Std RandomColor](Std_RandomColor.md)                                   [Std RandomColor/pl](Std_RandomColor/pl.md)                                   [Std RecentFiles](Std_RecentFiles.md)
-  [Std RecentFiles/pl](Std_RecentFiles/pl.md)                             [Std Redo](Std_Redo.md)                                                       [Std Redo/pl](Std_Redo/pl.md)
-  [Std Refresh](Std_Refresh.md)                                           [Std Refresh/pl](Std_Refresh/pl.md)                                           [Std Revert](Std_Revert.md)
-  [Std Revert/pl](Std_Revert/pl.md)                                       [Std Save](Std_Save.md)                                                       [Std Save/pl](Std_Save/pl.md)
-  [Std SaveAll](Std_SaveAll.md)                                           [Std SaveAll/pl](Std_SaveAll/pl.md)                                           [Std SaveAs](Std_SaveAs.md)
-  [Std SaveAs/pl](Std_SaveAs/pl.md)                                       [Std SaveCopy](Std_SaveCopy.md)                                               [Std SaveCopy/pl](Std_SaveCopy/pl.md)
-  [Std SceneInspector](Std_SceneInspector.md)                             [Std SceneInspector/pl](Std_SceneInspector/pl.md)                             [Std SelBack](Std_SelBack.md)
-  [Std SelBack/pl](Std_SelBack/pl.md)                                     [Std SelBoundingBox](Std_SelBoundingBox.md)                                   [Std SelBoundingBox/pl](Std_SelBoundingBox/pl.md)
-  [Std SelectAll](Std_SelectAll.md)                                       [Std SelectAll/pl](Std_SelectAll/pl.md)                                       [Std SelectVisibleObjects](Std_SelectVisibleObjects.md)
-  [Std SelectVisibleObjects/pl](Std_SelectVisibleObjects/pl.md)           [Std SelForward](Std_SelForward.md)                                           [Std SelForward/pl](Std_SelForward/pl.md)
-  [Std SendToPythonConsole](Std_SendToPythonConsole.md)                   [Std SendToPythonConsole/pl](Std_SendToPythonConsole/pl.md)                   [Std SetAppearance](Std_SetAppearance.md)
-  [Std SetAppearance/pl](Std_SetAppearance/pl.md)                         [Std ShowObjects](Std_ShowObjects.md)                                         [Std ShowObjects/pl](Std_ShowObjects/pl.md)
-  [Std ShowSelection](Std_ShowSelection.md)                               [Std ShowSelection/pl](Std_ShowSelection/pl.md)                               [Std TextDocument](Std_TextDocument.md)
-  [Std TextDocument/pl](Std_TextDocument/pl.md)                           [Std TextureMapping](Std_TextureMapping.md)                                   [Std TextureMapping/pl](Std_TextureMapping/pl.md)
-  [Std TileWindows](Std_TileWindows.md)                                   [Std TileWindows/pl](Std_TileWindows/pl.md)                                   [Std ToggleBreakpoint](Std_ToggleBreakpoint.md)
-  [Std ToggleBreakpoint/pl](Std_ToggleBreakpoint/pl.md)                   [Std ToggleClipPlane](Std_ToggleClipPlane.md)                                 [Std ToggleClipPlane/pl](Std_ToggleClipPlane/pl.md)
-  [Std ToggleNavigation](Std_ToggleNavigation.md)                         [Std ToggleNavigation/pl](Std_ToggleNavigation/pl.md)                         [Std ToggleObjects](Std_ToggleObjects.md)
-  [Std ToggleObjects/pl](Std_ToggleObjects/pl.md)                         [Std ToggleSelectability](Std_ToggleSelectability.md)                         [Std ToggleSelectability/pl](Std_ToggleSelectability/pl.md)
-  [Std ToggleVisibility](Std_ToggleVisibility.md)                         [Std ToggleVisibility/pl](Std_ToggleVisibility/pl.md)                         [Std Tools Menu](Std_Tools_Menu.md)
-  [Std Tools Menu/pl](Std_Tools_Menu/pl.md)                               [Std TransformManip](Std_TransformManip.md)                                   [Std TransformManip/pl](Std_TransformManip/pl.md)
-  [Std TreeCollapseDocument](Std_TreeCollapseDocument.md)                 [Std TreeCollapseDocument/pl](Std_TreeCollapseDocument/pl.md)                 [Std TreeDrag](Std_TreeDrag.md)
-  [Std TreeDrag/pl](Std_TreeDrag/pl.md)                                   [Std TreeMultiDocument](Std_TreeMultiDocument.md)                             [Std TreeMultiDocument/pl](Std_TreeMultiDocument/pl.md)
-  [Std TreePreSelection](Std_TreePreSelection.md)                         [Std TreePreSelection/pl](Std_TreePreSelection/pl.md)                         [Std TreeRecordSelection](Std_TreeRecordSelection.md)
-  [Std TreeRecordSelection/pl](Std_TreeRecordSelection/pl.md)             [Std TreeSelection](Std_TreeSelection.md)                                     [Std TreeSelection/pl](Std_TreeSelection/pl.md)
-  [Std TreeSingleDocument](Std_TreeSingleDocument.md)                     [Std TreeSingleDocument/pl](Std_TreeSingleDocument/pl.md)                     [Std TreeSyncPlacement](Std_TreeSyncPlacement.md)
-  [Std TreeSyncPlacement/pl](Std_TreeSyncPlacement/pl.md)                 [Std TreeSyncSelection](Std_TreeSyncSelection.md)                             [Std TreeSyncSelection/pl](Std_TreeSyncSelection/pl.md)
-  [Std TreeSyncView](Std_TreeSyncView.md)                                 [Std TreeSyncView/pl](Std_TreeSyncView/pl.md)                                 [Std Undo](Std_Undo.md)
-  [Std Undo/pl](Std_Undo/pl.md)                                           [Std UnitsCalculator](Std_UnitsCalculator.md)                                 [Std UnitsCalculator/pl](Std_UnitsCalculator/pl.md)
-  [Std UserEditMode](Std_UserEditMode.md)                                 [Std UserEditMode/pl](Std_UserEditMode/pl.md)                                 [Std View Menu](Std_View_Menu.md)
-  [Std View Menu/pl](Std_View_Menu/pl.md)                                 [Std ViewBottom](Std_ViewBottom.md)                                           [Std ViewBottom/pl](Std_ViewBottom/pl.md)
-  [Std ViewBoxZoom](Std_ViewBoxZoom.md)                                   [Std ViewBoxZoom/pl](Std_ViewBoxZoom/pl.md)                                   [Std ViewCreate](Std_ViewCreate.md)
-  [Std ViewCreate/pl](Std_ViewCreate/pl.md)                               [Std ViewDimetric](Std_ViewDimetric.md)                                       [Std ViewDimetric/pl](Std_ViewDimetric/pl.md)
-  [Std ViewDockUndockFullscreen](Std_ViewDockUndockFullscreen.md)         [Std ViewDockUndockFullscreen/pl](Std_ViewDockUndockFullscreen/pl.md)         [Std ViewFitAll](Std_ViewFitAll.md)
-  [Std ViewFitAll/pl](Std_ViewFitAll/pl.md)                               [Std ViewFitSelection](Std_ViewFitSelection.md)                               [Std ViewFitSelection/pl](Std_ViewFitSelection/pl.md)
-  [Std ViewFront](Std_ViewFront.md)                                       [Std ViewFront/pl](Std_ViewFront/pl.md)                                       [Std ViewFullscreen](Std_ViewFullscreen.md)
-  [Std ViewFullscreen/pl](Std_ViewFullscreen/pl.md)                       [Std ViewHome](Std_ViewHome.md)                                               [Std ViewHome/pl](Std_ViewHome/pl.md)
-  [Std ViewIsometric](Std_ViewIsometric.md)                               [Std ViewIsometric/pl](Std_ViewIsometric/pl.md)                               [Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos.md)
-  [Std ViewIvIssueCamPos/pl](Std_ViewIvIssueCamPos/pl.md)                 [Std ViewIvStereoInterleavedColumns](Std_ViewIvStereoInterleavedColumns.md)   [Std ViewIvStereoInterleavedColumns/pl](Std_ViewIvStereoInterleavedColumns/pl.md)
-  [Std ViewIvStereoInterleavedRows](Std_ViewIvStereoInterleavedRows.md)   [Std ViewIvStereoInterleavedRows/pl](Std_ViewIvStereoInterleavedRows/pl.md)   [Std ViewIvStereoOff](Std_ViewIvStereoOff.md)
-  [Std ViewIvStereoOff/pl](Std_ViewIvStereoOff/pl.md)                     [Std ViewIvStereoQuadBuff](Std_ViewIvStereoQuadBuff.md)                       [Std ViewIvStereoQuadBuff/pl](Std_ViewIvStereoQuadBuff/pl.md)
-  [Std ViewIvStereoRedGreen](Std_ViewIvStereoRedGreen.md)                 [Std ViewIvStereoRedGreen/pl](Std_ViewIvStereoRedGreen/pl.md)                 [Std ViewLeft](Std_ViewLeft.md)
-  [Std ViewLeft/pl](Std_ViewLeft/pl.md)                                   [Std ViewRear](Std_ViewRear.md)                                               [Std ViewRear/pl](Std_ViewRear/pl.md)
-  [Std ViewRight](Std_ViewRight.md)                                       [Std ViewRight/pl](Std_ViewRight/pl.md)                                       [Std ViewRotateLeft](Std_ViewRotateLeft.md)
-  [Std ViewRotateLeft/pl](Std_ViewRotateLeft/pl.md)                       [Std ViewRotateRight](Std_ViewRotateRight.md)                                 [Std ViewRotateRight/pl](Std_ViewRotateRight/pl.md)
-  [Std ViewScreenShot](Std_ViewScreenShot.md)                             [Std ViewScreenShot/pl](Std_ViewScreenShot/pl.md)                             [Std ViewStatusBar](Std_ViewStatusBar.md)
-  [Std ViewStatusBar/pl](Std_ViewStatusBar/pl.md)                         [Std ViewTop](Std_ViewTop.md)                                                 [Std ViewTop/pl](Std_ViewTop/pl.md)
-  [Std ViewTrimetric](Std_ViewTrimetric.md)                               [Std ViewTrimetric/pl](Std_ViewTrimetric/pl.md)                               [Std ViewZoomIn](Std_ViewZoomIn.md)
-  [Std ViewZoomIn/pl](Std_ViewZoomIn/pl.md)                               [Std ViewZoomOut](Std_ViewZoomOut.md)                                         [Std ViewZoomOut/pl](Std_ViewZoomOut/pl.md)
-  [Std WhatsThis](Std_WhatsThis.md)                                       [Std WhatsThis/pl](Std_WhatsThis/pl.md)                                       [Std Windows](Std_Windows.md)
-  [Std Windows Menu](Std_Windows_Menu.md)                                 [Std Windows Menu/pl](Std_Windows_Menu/pl.md)                                 [Std Windows/pl](Std_Windows/pl.md)
-  [Std Workbench](Std_Workbench.md)                                       [Std Workbench/pl](Std_Workbench/pl.md)                                       [Tree view](Tree_view.md)
-  [Tree view/pl](Tree_view/pl.md)                                         [View Measure Clear All](View_Measure_Clear_All.md)                           [View Measure Clear All/pl](View_Measure_Clear_All/pl.md)
-  [View Measure Toggle All](View_Measure_Toggle_All.md)                   [View Measure Toggle All/pl](View_Measure_Toggle_All/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [App DocumentObjectGroup](wiki/App DocumentObjectGroup.md) | [App DocumentObjectGroup/pl](wiki/App DocumentObjectGroup/pl.md) | [App Link](wiki/App Link.md) |
+| [App Link/pl](wiki/App Link/pl.md) | [App Part](wiki/App Part.md) | [App Part/pl](wiki/App Part/pl.md) |
+| [Assembly](wiki/Assembly.md) | [Assembly/pl](wiki/Assembly/pl.md) | [Combo view](wiki/Combo view.md) |
+| [Combo view/pl](wiki/Combo view/pl.md) | [DAG view](wiki/DAG view.md) | [DAG view/pl](wiki/DAG view/pl.md) |
+| [Interface Customization](wiki/Interface Customization.md) | [Interface Customization/pl](wiki/Interface Customization/pl.md) | [Part](wiki/Part.md) |
+| [Part/pl](wiki/Part/pl.md) | [Property editor](wiki/Property editor.md) | [Property editor/pl](wiki/Property editor/pl.md) |
+| [Python console](wiki/Python console.md) | [Python console/pl](wiki/Python console/pl.md) | [Report view](wiki/Report view.md) |
+| [Report view/pl](wiki/Report view/pl.md) | [Selection view](wiki/Selection view.md) | [Selection view/pl](wiki/Selection view/pl.md) |
+| [Standard Menu](wiki/Standard Menu.md) | [Standard Menu/pl](wiki/Standard Menu/pl.md) | [Std About](wiki/Std About.md) |
+| [Std About/pl](wiki/Std About/pl.md) | [Std ActivateNextWindow](wiki/Std ActivateNextWindow.md) | [Std ActivateNextWindow/pl](wiki/Std ActivateNextWindow/pl.md) |
+| [Std ActivatePrevWindow](wiki/Std ActivatePrevWindow.md) | [Std ActivatePrevWindow/pl](wiki/Std ActivatePrevWindow/pl.md) | [Std AddonMgr](wiki/Std AddonMgr.md) |
+| [Std AddonMgr/pl](wiki/Std AddonMgr/pl.md) | [Std Alignment](wiki/Std Alignment.md) | [Std Alignment/pl](wiki/Std Alignment/pl.md) |
+| [Std ArrangeIcons](wiki/Std ArrangeIcons.md) | [Std ArrangeIcons/pl](wiki/Std ArrangeIcons/pl.md) | [Std AxisCross](wiki/Std AxisCross.md) |
+| [Std AxisCross/pl](wiki/Std AxisCross/pl.md) | [Std Base](wiki/Std Base.md) | [Template:Std Base navi](wiki/Template_Std Base navi.md) |
+| [Std Base/pl](wiki/Std Base/pl.md) | [Std BoxElementSelection](wiki/Std BoxElementSelection.md) | [Std BoxElementSelection/pl](wiki/Std BoxElementSelection/pl.md) |
+| [Std BoxSelection](wiki/Std BoxSelection.md) | [Std BoxSelection/pl](wiki/Std BoxSelection/pl.md) | [Std CascadeWindows](wiki/Std CascadeWindows.md) |
+| [Std CascadeWindows/pl](wiki/Std CascadeWindows/pl.md) | [Std CloseActiveWindow](wiki/Std CloseActiveWindow.md) | [Std CloseActiveWindow/pl](wiki/Std CloseActiveWindow/pl.md) |
+| [Std CloseAllWindows](wiki/Std CloseAllWindows.md) | [Std CloseAllWindows/pl](wiki/Std CloseAllWindows/pl.md) | [Std Copy](wiki/Std Copy.md) |
+| [Std Copy/pl](wiki/Std Copy/pl.md) | [Std Cut](wiki/Std Cut.md) | [Std Cut/pl](wiki/Std Cut/pl.md) |
+| [Std Delete](wiki/Std Delete.md) | [Std Delete/pl](wiki/Std Delete/pl.md) | [Std DemoMode](wiki/Std DemoMode.md) |
+| [Std DemoMode/pl](wiki/Std DemoMode/pl.md) | [Std DependencyGraph](wiki/Std DependencyGraph.md) | [Std DependencyGraph/pl](wiki/Std DependencyGraph/pl.md) |
+| [Std DlgCustomize](wiki/Std DlgCustomize.md) | [Std DlgCustomize/pl](wiki/Std DlgCustomize/pl.md) | [Std DlgMacroExecute](wiki/Std DlgMacroExecute.md) |
+| [Std DlgMacroExecute/pl](wiki/Std DlgMacroExecute/pl.md) | [Std DlgMacroExecuteDirect](wiki/Std DlgMacroExecuteDirect.md) | [Std DlgMacroExecuteDirect/pl](wiki/Std DlgMacroExecuteDirect/pl.md) |
+| [Std DlgMacroRecord](wiki/Std DlgMacroRecord.md) | [Std DlgMacroRecord/pl](wiki/Std DlgMacroRecord/pl.md) | [Std DlgParameter](wiki/Std DlgParameter.md) |
+| [Std DlgParameter/pl](wiki/Std DlgParameter/pl.md) | [Std DlgPreferences](wiki/Std DlgPreferences.md) | [Std DlgPreferences/pl](wiki/Std DlgPreferences/pl.md) |
+| [Std DrawStyle](wiki/Std DrawStyle.md) | [Std DrawStyle/pl](wiki/Std DrawStyle/pl.md) | [Std DuplicateSelection](wiki/Std DuplicateSelection.md) |
+| [Std DuplicateSelection/pl](wiki/Std DuplicateSelection/pl.md) | [Std Edit](wiki/Std Edit.md) | [Std Edit Menu](wiki/Std Edit Menu.md) |
+| [Std Edit Menu/pl](wiki/Std Edit Menu/pl.md) | [Std Edit/pl](wiki/Std Edit/pl.md) | [Std Export](wiki/Std Export.md) |
+| [Std Export/pl](wiki/Std Export/pl.md) | [Std File Menu](wiki/Std File Menu.md) | [Std File Menu/pl](wiki/Std File Menu/pl.md) |
+| [Std FreeCADFAQ](wiki/Std FreeCADFAQ.md) | [Std FreeCADFAQ/pl](wiki/Std FreeCADFAQ/pl.md) | [Std FreeCADForum](wiki/Std FreeCADForum.md) |
+| [Std FreeCADForum/pl](wiki/Std FreeCADForum/pl.md) | [Std FreeCADPowerUserHub](wiki/Std FreeCADPowerUserHub.md) | [Std FreeCADPowerUserHub/pl](wiki/Std FreeCADPowerUserHub/pl.md) |
+| [Std FreeCADUserHub](wiki/Std FreeCADUserHub.md) | [Std FreeCADUserHub/pl](wiki/Std FreeCADUserHub/pl.md) | [Std FreeCADWebsite](wiki/Std FreeCADWebsite.md) |
+| [Std FreeCADWebsite/pl](wiki/Std FreeCADWebsite/pl.md) | [Std FreezeViews](wiki/Std FreezeViews.md) | [Std FreezeViews/pl](wiki/Std FreezeViews/pl.md) |
+| [Std Group](wiki/Std Group.md) | [Std Group/pl](wiki/Std Group/pl.md) | [Std Help Menu](wiki/Std Help Menu.md) |
+| [Std Help Menu/pl](wiki/Std Help Menu/pl.md) | [Std HideObjects](wiki/Std HideObjects.md) | [Std HideObjects/pl](wiki/Std HideObjects/pl.md) |
+| [Std HideSelection](wiki/Std HideSelection.md) | [Std HideSelection/pl](wiki/Std HideSelection/pl.md) | [Std Import](wiki/Std Import.md) |
+| [Std Import/pl](wiki/Std Import/pl.md) | [Std LinkImport](wiki/Std LinkImport.md) | [Std LinkImport/pl](wiki/Std LinkImport/pl.md) |
+| [Std LinkImportAll](wiki/Std LinkImportAll.md) | [Std LinkImportAll/pl](wiki/Std LinkImportAll/pl.md) | [Std LinkMake](wiki/Std LinkMake.md) |
+| [Std LinkMake/pl](wiki/Std LinkMake/pl.md) | [Std LinkMakeRelative](wiki/Std LinkMakeRelative.md) | [Std LinkMakeRelative/pl](wiki/Std LinkMakeRelative/pl.md) |
+| [Std LinkReplace](wiki/Std LinkReplace.md) | [Std LinkReplace/pl](wiki/Std LinkReplace/pl.md) | [Std LinkSelectAllLinks](wiki/Std LinkSelectAllLinks.md) |
+| [Std LinkSelectAllLinks/pl](wiki/Std LinkSelectAllLinks/pl.md) | [Std LinkSelectLinked](wiki/Std LinkSelectLinked.md) | [Std LinkSelectLinked/pl](wiki/Std LinkSelectLinked/pl.md) |
+| [Std LinkSelectLinkedFinal](wiki/Std LinkSelectLinkedFinal.md) | [Std LinkSelectLinkedFinal/pl](wiki/Std LinkSelectLinkedFinal/pl.md) | [Std LinkUnlink](wiki/Std LinkUnlink.md) |
+| [Std LinkUnlink/pl](wiki/Std LinkUnlink/pl.md) | [Std Macro Menu](wiki/Std Macro Menu.md) | [Std Macro Menu/pl](wiki/Std Macro Menu/pl.md) |
+| [Std MacroAttachDebugger](wiki/Std MacroAttachDebugger.md) | [Std MacroAttachDebugger/pl](wiki/Std MacroAttachDebugger/pl.md) | [Std MacroStartDebug](wiki/Std MacroStartDebug.md) |
+| [Std MacroStartDebug/pl](wiki/Std MacroStartDebug/pl.md) | [Std MacroStepInto](wiki/Std MacroStepInto.md) | [Std MacroStepInto/pl](wiki/Std MacroStepInto/pl.md) |
+| [Std MacroStepOver](wiki/Std MacroStepOver.md) | [Std MacroStepOver/pl](wiki/Std MacroStepOver/pl.md) | [Std MacroStopDebug](wiki/Std MacroStopDebug.md) |
+| [Std MacroStopDebug/pl](wiki/Std MacroStopDebug/pl.md) | [Std MacroStopRecord](wiki/Std MacroStopRecord.md) | [Std MacroStopRecord/pl](wiki/Std MacroStopRecord/pl.md) |
+| [Std MainFullscreen](wiki/Std MainFullscreen.md) | [Std MainFullscreen/pl](wiki/Std MainFullscreen/pl.md) | [Std MeasureDistance](wiki/Std MeasureDistance.md) |
+| [Std MeasureDistance/pl](wiki/Std MeasureDistance/pl.md) | [Std MergeProjects](wiki/Std MergeProjects.md) | [Std MergeProjects/pl](wiki/Std MergeProjects/pl.md) |
+| [Std New](wiki/Std New.md) | [Std New/pl](wiki/Std New/pl.md) | [Std OnlineHelp](wiki/Std OnlineHelp.md) |
+| [Std OnlineHelp/pl](wiki/Std OnlineHelp/pl.md) | [Std Open](wiki/Std Open.md) | [Std Open/pl](wiki/Std Open/pl.md) |
+| [Std OrthographicCamera](wiki/Std OrthographicCamera.md) | [Std OrthographicCamera/pl](wiki/Std OrthographicCamera/pl.md) | [Std Part](wiki/Std Part.md) |
+| [Std Part/pl](wiki/Std Part/pl.md) | [Std Paste](wiki/Std Paste.md) | [Std Paste/pl](wiki/Std Paste/pl.md) |
+| [Std PerspectiveCamera](wiki/Std PerspectiveCamera.md) | [Std PerspectiveCamera/pl](wiki/Std PerspectiveCamera/pl.md) | [Std Placement](wiki/Std Placement.md) |
+| [Std Placement/pl](wiki/Std Placement/pl.md) | [Std Print](wiki/Std Print.md) | [Std Print/pl](wiki/Std Print/pl.md) |
+| [Std PrintPdf](wiki/Std PrintPdf.md) | [Std PrintPdf/pl](wiki/Std PrintPdf/pl.md) | [Std PrintPreview](wiki/Std PrintPreview.md) |
+| [Std PrintPreview/pl](wiki/Std PrintPreview/pl.md) | [Std ProjectInfo](wiki/Std ProjectInfo.md) | [Std ProjectInfo/pl](wiki/Std ProjectInfo/pl.md) |
+| [Std ProjectUtil](wiki/Std ProjectUtil.md) | [Std ProjectUtil/pl](wiki/Std ProjectUtil/pl.md) | [Std PythonHelp](wiki/Std PythonHelp.md) |
+| [Std PythonHelp/pl](wiki/Std PythonHelp/pl.md) | [Std Quit](wiki/Std Quit.md) | [Std Quit/pl](wiki/Std Quit/pl.md) |
+| [Std RandomColor](wiki/Std RandomColor.md) | [Std RandomColor/pl](wiki/Std RandomColor/pl.md) | [Std RecentFiles](wiki/Std RecentFiles.md) |
+| [Std RecentFiles/pl](wiki/Std RecentFiles/pl.md) | [Std Redo](wiki/Std Redo.md) | [Std Redo/pl](wiki/Std Redo/pl.md) |
+| [Std Refresh](wiki/Std Refresh.md) | [Std Refresh/pl](wiki/Std Refresh/pl.md) | [Std Revert](wiki/Std Revert.md) |
+| [Std Revert/pl](wiki/Std Revert/pl.md) | [Std Save](wiki/Std Save.md) | [Std Save/pl](wiki/Std Save/pl.md) |
+| [Std SaveAll](wiki/Std SaveAll.md) | [Std SaveAll/pl](wiki/Std SaveAll/pl.md) | [Std SaveAs](wiki/Std SaveAs.md) |
+| [Std SaveAs/pl](wiki/Std SaveAs/pl.md) | [Std SaveCopy](wiki/Std SaveCopy.md) | [Std SaveCopy/pl](wiki/Std SaveCopy/pl.md) |
+| [Std SceneInspector](wiki/Std SceneInspector.md) | [Std SceneInspector/pl](wiki/Std SceneInspector/pl.md) | [Std SelBack](wiki/Std SelBack.md) |
+| [Std SelBack/pl](wiki/Std SelBack/pl.md) | [Std SelBoundingBox](wiki/Std SelBoundingBox.md) | [Std SelBoundingBox/pl](wiki/Std SelBoundingBox/pl.md) |
+| [Std SelectAll](wiki/Std SelectAll.md) | [Std SelectAll/pl](wiki/Std SelectAll/pl.md) | [Std SelectVisibleObjects](wiki/Std SelectVisibleObjects.md) |
+| [Std SelectVisibleObjects/pl](wiki/Std SelectVisibleObjects/pl.md) | [Std SelForward](wiki/Std SelForward.md) | [Std SelForward/pl](wiki/Std SelForward/pl.md) |
+| [Std SendToPythonConsole](wiki/Std SendToPythonConsole.md) | [Std SendToPythonConsole/pl](wiki/Std SendToPythonConsole/pl.md) | [Std SetAppearance](wiki/Std SetAppearance.md) |
+| [Std SetAppearance/pl](wiki/Std SetAppearance/pl.md) | [Std ShowObjects](wiki/Std ShowObjects.md) | [Std ShowObjects/pl](wiki/Std ShowObjects/pl.md) |
+| [Std ShowSelection](wiki/Std ShowSelection.md) | [Std ShowSelection/pl](wiki/Std ShowSelection/pl.md) | [Std TextDocument](wiki/Std TextDocument.md) |
+| [Std TextDocument/pl](wiki/Std TextDocument/pl.md) | [Std TextureMapping](wiki/Std TextureMapping.md) | [Std TextureMapping/pl](wiki/Std TextureMapping/pl.md) |
+| [Std TileWindows](wiki/Std TileWindows.md) | [Std TileWindows/pl](wiki/Std TileWindows/pl.md) | [Std ToggleBreakpoint](wiki/Std ToggleBreakpoint.md) |
+| [Std ToggleBreakpoint/pl](wiki/Std ToggleBreakpoint/pl.md) | [Std ToggleClipPlane](wiki/Std ToggleClipPlane.md) | [Std ToggleClipPlane/pl](wiki/Std ToggleClipPlane/pl.md) |
+| [Std ToggleNavigation](wiki/Std ToggleNavigation.md) | [Std ToggleNavigation/pl](wiki/Std ToggleNavigation/pl.md) | [Std ToggleObjects](wiki/Std ToggleObjects.md) |
+| [Std ToggleObjects/pl](wiki/Std ToggleObjects/pl.md) | [Std ToggleSelectability](wiki/Std ToggleSelectability.md) | [Std ToggleSelectability/pl](wiki/Std ToggleSelectability/pl.md) |
+| [Std ToggleVisibility](wiki/Std ToggleVisibility.md) | [Std ToggleVisibility/pl](wiki/Std ToggleVisibility/pl.md) | [Std Tools Menu](wiki/Std Tools Menu.md) |
+| [Std Tools Menu/pl](wiki/Std Tools Menu/pl.md) | [Std TransformManip](wiki/Std TransformManip.md) | [Std TransformManip/pl](wiki/Std TransformManip/pl.md) |
+| [Std TreeCollapseDocument](wiki/Std TreeCollapseDocument.md) | [Std TreeCollapseDocument/pl](wiki/Std TreeCollapseDocument/pl.md) | [Std TreeDrag](wiki/Std TreeDrag.md) |
+| [Std TreeDrag/pl](wiki/Std TreeDrag/pl.md) | [Std TreeMultiDocument](wiki/Std TreeMultiDocument.md) | [Std TreeMultiDocument/pl](wiki/Std TreeMultiDocument/pl.md) |
+| [Std TreePreSelection](wiki/Std TreePreSelection.md) | [Std TreePreSelection/pl](wiki/Std TreePreSelection/pl.md) | [Std TreeRecordSelection](wiki/Std TreeRecordSelection.md) |
+| [Std TreeRecordSelection/pl](wiki/Std TreeRecordSelection/pl.md) | [Std TreeSelection](wiki/Std TreeSelection.md) | [Std TreeSelection/pl](wiki/Std TreeSelection/pl.md) |
+| [Std TreeSingleDocument](wiki/Std TreeSingleDocument.md) | [Std TreeSingleDocument/pl](wiki/Std TreeSingleDocument/pl.md) | [Std TreeSyncPlacement](wiki/Std TreeSyncPlacement.md) |
+| [Std TreeSyncPlacement/pl](wiki/Std TreeSyncPlacement/pl.md) | [Std TreeSyncSelection](wiki/Std TreeSyncSelection.md) | [Std TreeSyncSelection/pl](wiki/Std TreeSyncSelection/pl.md) |
+| [Std TreeSyncView](wiki/Std TreeSyncView.md) | [Std TreeSyncView/pl](wiki/Std TreeSyncView/pl.md) | [Std Undo](wiki/Std Undo.md) |
+| [Std Undo/pl](wiki/Std Undo/pl.md) | [Std UnitsCalculator](wiki/Std UnitsCalculator.md) | [Std UnitsCalculator/pl](wiki/Std UnitsCalculator/pl.md) |
+| [Std UserEditMode](wiki/Std UserEditMode.md) | [Std UserEditMode/pl](wiki/Std UserEditMode/pl.md) | [Std View Menu](wiki/Std View Menu.md) |
+| [Std View Menu/pl](wiki/Std View Menu/pl.md) | [Std ViewBottom](wiki/Std ViewBottom.md) | [Std ViewBottom/pl](wiki/Std ViewBottom/pl.md) |
+| [Std ViewBoxZoom](wiki/Std ViewBoxZoom.md) | [Std ViewBoxZoom/pl](wiki/Std ViewBoxZoom/pl.md) | [Std ViewCreate](wiki/Std ViewCreate.md) |
+| [Std ViewCreate/pl](wiki/Std ViewCreate/pl.md) | [Std ViewDimetric](wiki/Std ViewDimetric.md) | [Std ViewDimetric/pl](wiki/Std ViewDimetric/pl.md) |
+| [Std ViewDockUndockFullscreen](wiki/Std ViewDockUndockFullscreen.md) | [Std ViewDockUndockFullscreen/pl](wiki/Std ViewDockUndockFullscreen/pl.md) | [Std ViewFitAll](wiki/Std ViewFitAll.md) |
+| [Std ViewFitAll/pl](wiki/Std ViewFitAll/pl.md) | [Std ViewFitSelection](wiki/Std ViewFitSelection.md) | [Std ViewFitSelection/pl](wiki/Std ViewFitSelection/pl.md) |
+| [Std ViewFront](wiki/Std ViewFront.md) | [Std ViewFront/pl](wiki/Std ViewFront/pl.md) | [Std ViewFullscreen](wiki/Std ViewFullscreen.md) |
+| [Std ViewFullscreen/pl](wiki/Std ViewFullscreen/pl.md) | [Std ViewHome](wiki/Std ViewHome.md) | [Std ViewHome/pl](wiki/Std ViewHome/pl.md) |
+| [Std ViewIsometric](wiki/Std ViewIsometric.md) | [Std ViewIsometric/pl](wiki/Std ViewIsometric/pl.md) | [Std ViewIvIssueCamPos](wiki/Std ViewIvIssueCamPos.md) |
+| [Std ViewIvIssueCamPos/pl](wiki/Std ViewIvIssueCamPos/pl.md) | [Std ViewIvStereoInterleavedColumns](wiki/Std ViewIvStereoInterleavedColumns.md) | [Std ViewIvStereoInterleavedColumns/pl](wiki/Std ViewIvStereoInterleavedColumns/pl.md) |
+| [Std ViewIvStereoInterleavedRows](wiki/Std ViewIvStereoInterleavedRows.md) | [Std ViewIvStereoInterleavedRows/pl](wiki/Std ViewIvStereoInterleavedRows/pl.md) | [Std ViewIvStereoOff](wiki/Std ViewIvStereoOff.md) |
+| [Std ViewIvStereoOff/pl](wiki/Std ViewIvStereoOff/pl.md) | [Std ViewIvStereoQuadBuff](wiki/Std ViewIvStereoQuadBuff.md) | [Std ViewIvStereoQuadBuff/pl](wiki/Std ViewIvStereoQuadBuff/pl.md) |
+| [Std ViewIvStereoRedGreen](wiki/Std ViewIvStereoRedGreen.md) | [Std ViewIvStereoRedGreen/pl](wiki/Std ViewIvStereoRedGreen/pl.md) | [Std ViewLeft](wiki/Std ViewLeft.md) |
+| [Std ViewLeft/pl](wiki/Std ViewLeft/pl.md) | [Std ViewRear](wiki/Std ViewRear.md) | [Std ViewRear/pl](wiki/Std ViewRear/pl.md) |
+| [Std ViewRight](wiki/Std ViewRight.md) | [Std ViewRight/pl](wiki/Std ViewRight/pl.md) | [Std ViewRotateLeft](wiki/Std ViewRotateLeft.md) |
+| [Std ViewRotateLeft/pl](wiki/Std ViewRotateLeft/pl.md) | [Std ViewRotateRight](wiki/Std ViewRotateRight.md) | [Std ViewRotateRight/pl](wiki/Std ViewRotateRight/pl.md) |
+| [Std ViewScreenShot](wiki/Std ViewScreenShot.md) | [Std ViewScreenShot/pl](wiki/Std ViewScreenShot/pl.md) | [Std ViewStatusBar](wiki/Std ViewStatusBar.md) |
+| [Std ViewStatusBar/pl](wiki/Std ViewStatusBar/pl.md) | [Std ViewTop](wiki/Std ViewTop.md) | [Std ViewTop/pl](wiki/Std ViewTop/pl.md) |
+| [Std ViewTrimetric](wiki/Std ViewTrimetric.md) | [Std ViewTrimetric/pl](wiki/Std ViewTrimetric/pl.md) | [Std ViewZoomIn](wiki/Std ViewZoomIn.md) |
+| [Std ViewZoomIn/pl](wiki/Std ViewZoomIn/pl.md) | [Std ViewZoomOut](wiki/Std ViewZoomOut.md) | [Std ViewZoomOut/pl](wiki/Std ViewZoomOut/pl.md) |
+| [Std WhatsThis](wiki/Std WhatsThis.md) | [Std WhatsThis/pl](wiki/Std WhatsThis/pl.md) | [Std Windows](wiki/Std Windows.md) |
+| [Std Windows Menu](wiki/Std Windows Menu.md) | [Std Windows Menu/pl](wiki/Std Windows Menu/pl.md) | [Std Windows/pl](wiki/Std Windows/pl.md) |
+| [Std Workbench](wiki/Std Workbench.md) | [Std Workbench/pl](wiki/Std Workbench/pl.md) | [Tree view](wiki/Tree view.md) |
+| [Tree view/pl](wiki/Tree view/pl.md) | [View Measure Clear All](wiki/View Measure Clear All.md) | [View Measure Clear All/pl](wiki/View Measure Clear All/pl.md) |
+| [View Measure Toggle All](wiki/View Measure Toggle All.md) | [View Measure Toggle All/pl](wiki/View Measure Toggle All/pl.md) |
 
 
 

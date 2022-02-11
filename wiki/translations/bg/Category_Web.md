@@ -1,10 +1,11 @@
 # Category:Web/bg
 This category lists pages that relate to the [Web Workbench/bg](Web_Workbench/bg.md).
 
-### Contents:
+### Contents
 
-  
-  [Web Workbench/bg](Web_Workbench/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Web Workbench/bg](wiki/Web Workbench/bg.md) |
 
 
 

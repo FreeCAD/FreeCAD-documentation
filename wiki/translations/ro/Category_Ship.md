@@ -1,13 +1,14 @@
 # Category:Ship/ro
 This category lists pages related to the [Ship Workbench/ro](Ship_Workbench/ro.md).
 
-### Contents:
+### Contents
 
-    
-  [FreeCAD-Ship s60 tutorial (II)/ro](FreeCAD-Ship_s60_tutorial_(II)/ro.md)   [FreeCAD-Ship s60 tutorial/ro](FreeCAD-Ship_s60_tutorial/ro.md)   [Ship Area/ro](Ship_Area/ro.md)
-  [Ship Geometries Examples/ro](Ship_Geometries_Examples/ro.md)               [Ship Hydrostatics/ro](Ship_Hydrostatics/ro.md)                   [Ship New/ro](Ship_New/ro.md)
-  [Ship Outline/ro](Ship_Outline/ro.md)                                       [Ship PlotGZ/ro](Ship_PlotGZ/ro.md)                               [Ship TankCapacity/ro](Ship_TankCapacity/ro.md)
-  [Ship TankNew/ro](Ship_TankNew/ro.md)                                       [Ship Workbench/ro](Ship_Workbench/ro.md)
+|     |     |     |
+| --- | --- | --- |
+| [FreeCAD-Ship s60 tutorial (II)/ro](wiki/FreeCAD-Ship s60 tutorial (II)/ro.md) | [FreeCAD-Ship s60 tutorial/ro](wiki/FreeCAD-Ship s60 tutorial/ro.md) | [Ship Area/ro](wiki/Ship Area/ro.md) |
+| [Ship Geometries Examples/ro](wiki/Ship Geometries Examples/ro.md) | [Ship Hydrostatics/ro](wiki/Ship Hydrostatics/ro.md) | [Ship New/ro](wiki/Ship New/ro.md) |
+| [Ship Outline/ro](wiki/Ship Outline/ro.md) | [Ship PlotGZ/ro](wiki/Ship PlotGZ/ro.md) | [Ship TankCapacity/ro](wiki/Ship TankCapacity/ro.md) |
+| [Ship TankNew/ro](wiki/Ship TankNew/ro.md) | [Ship Workbench/ro](wiki/Ship Workbench/ro.md) |
 
 
 

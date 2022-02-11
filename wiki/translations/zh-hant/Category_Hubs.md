@@ -1,10 +1,11 @@
 # Category:Hubs/zh-hant
 This category gathers the meeting points of the 3 broad categories of users of FreeCAD\...
 
-### Contents:
+### Contents
 
-  
-  [User hub/zh-hant](User_hub/zh-hant.md)
+|     |     |     |
+| --- | --- | --- |
+| [User hub/zh-hant](wiki/User hub/zh-hant.md) |
 
 
 

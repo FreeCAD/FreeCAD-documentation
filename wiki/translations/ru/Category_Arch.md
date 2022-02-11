@@ -1,37 +1,39 @@
 # Category:Arch/ru
 Pages relating to Architectural and Building Information Management
 
-### Contents:
+### Contents
 
-    
-  [Arch 3DS/ru](Arch_3DS/ru.md)                                                                                 [Arch 3Views/ru](Arch_3Views/ru.md)                                                                     [Arch Add/ru](Arch_Add/ru.md)
-  [Arch API/ru](Arch_API/ru.md)                                                                                 [Arch Axis/ru](Arch_Axis/ru.md)                                                                         [Arch AxisSystem/ru](Arch_AxisSystem/ru.md)
-  [Arch Building/ru](Arch_Building/ru.md)                                                                       [Arch BuildingPart/ru](Arch_BuildingPart/ru.md)                                                         [Arch Check/ru](Arch_Check/ru.md)
-  [Arch CloneComponent/ru](Arch_CloneComponent/ru.md)                                                           [Arch CloseHoles/ru](Arch_CloseHoles/ru.md)                                                             [Arch CompAxis/ru](Arch_CompAxis/ru.md)
-  [Arch Component/ru](Arch_Component/ru.md)                                                                     [Arch CompPanel/ru](Arch_CompPanel/ru.md)                                                               [Arch CompPipe/ru](Arch_CompPipe/ru.md)
-  [Arch CompRebarStraight/ru](Arch_CompRebarStraight/ru.md)                                                     [Arch CompSetMaterial/ru](Arch_CompSetMaterial/ru.md)                                                   [Arch CurtainWall/ru](Arch_CurtainWall/ru.md)
-  [Arch CutPlane/ru](Arch_CutPlane/ru.md)                                                                       [Arch DAE/ru](Arch_DAE/ru.md)                                                                           [Arch Door/ru](Arch_Door/ru.md)
-  [Arch Equipment/ru](Arch_Equipment/ru.md)                                                                     [Arch Fence/ru](Arch_Fence/ru.md)                                                                       [Arch Floor/ru](Arch_Floor/ru.md)
-  [Arch Frame/ru](Arch_Frame/ru.md)                                                                             [Arch Grid/ru](Arch_Grid/ru.md)                                                                         [Arch IFC/ru](Arch_IFC/ru.md)
-  [Arch IfcExplorer/ru](Arch_IfcExplorer/ru.md)                                                                 [Arch IfcSpreadsheet/ru](Arch_IfcSpreadsheet/ru.md)                                                     [Arch JSON/ru](Arch_JSON/ru.md)
-  [Arch MergeWalls/ru](Arch_MergeWalls/ru.md)                                                                   [Arch MeshToShape/ru](Arch_MeshToShape/ru.md)                                                           [Arch MultiMaterial/ru](Arch_MultiMaterial/ru.md)
-  [Arch Nest/ru](Arch_Nest/ru.md)                                                                               [Arch OBJ/ru](Arch_OBJ/ru.md)                                                                           [Arch Panel Cut/ru](Arch_Panel_Cut/ru.md)
-  [Arch Panel Sheet/ru](Arch_Panel_Sheet/ru.md)                                                                 [Arch panel tutorial/ru](Arch_panel_tutorial/ru.md)                                                     [Arch Panel/ru](Arch_Panel/ru.md)
-  [Arch Pipe/ru](Arch_Pipe/ru.md)                                                                               [Arch PipeConnector/ru](Arch_PipeConnector/ru.md)                                                       [Arch Preferences/ru](Arch_Preferences/ru.md)
-  [Arch Rebar BeamReinforcement/ru](Arch_Rebar_BeamReinforcement/ru.md)                                         [Arch Rebar BentShape/ru](Arch_Rebar_BentShape/ru.md)                                                   [Arch Rebar Circular ColumnReinforcement/ru](Arch_Rebar_Circular_ColumnReinforcement/ru.md)
-  [Arch Rebar ColumnReinforcement TwoTiesSixRebars/ru](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/ru.md)   [Arch Rebar ColumnReinforcement/ru](Arch_Rebar_ColumnReinforcement/ru.md)                               [Arch Rebar Drawing Dimensioning/ru](Arch_Rebar_Drawing_Dimensioning/ru.md)
-  [Arch Rebar Helical/ru](Arch_Rebar_Helical/ru.md)                                                             [Arch Rebar LShape/ru](Arch_Rebar_LShape/ru.md)                                                         [Arch Rebar Stirrup/ru](Arch_Rebar_Stirrup/ru.md)
-  [Arch Rebar Straight/ru](Arch_Rebar_Straight/ru.md)                                                           [Arch Rebar UShape/ru](Arch_Rebar_UShape/ru.md)                                                         [Arch Rebar/ru](Arch_Rebar/ru.md)
-  [Arch Reference/ru](Arch_Reference/ru.md)                                                                     [Arch Remove/ru](Arch_Remove/ru.md)                                                                     [Arch RemoveShape/ru](Arch_RemoveShape/ru.md)
-  [Arch Roof/ru](Arch_Roof/ru.md)                                                                               [Arch Schedule/ru](Arch_Schedule/ru.md)                                                                 [Arch SectionPlane/ru](Arch_SectionPlane/ru.md)
-  [Arch SelectNonSolidMeshes/ru](Arch_SelectNonSolidMeshes/ru.md)                                               [Arch SetMaterial/ru](Arch_SetMaterial/ru.md)                                                           [Arch Site/ru](Arch_Site/ru.md)
-  [Arch Space/ru](Arch_Space/ru.md)                                                                             [Arch SplitMesh/ru](Arch_SplitMesh/ru.md)                                                               [Arch Stairs/ru](Arch_Stairs/ru.md)
-  [Arch Structure/ru](Arch_Structure/ru.md)                                                                     [Arch Survey/ru](Arch_Survey/ru.md)                                                                     [Arch ToggleIfcBrepFlag/ru](Arch_ToggleIfcBrepFlag/ru.md)
-  [Arch ToggleSubs/ru](Arch_ToggleSubs/ru.md)                                                                   [Arch Truss/ru](Arch_Truss/ru.md)                                                                       [Arch tutorial/ru](Arch_tutorial/ru.md)
-  [Arch Wall/ru](Arch_Wall/ru.md)                                                                               [Arch Window/ru](Arch_Window/ru.md)                                                                     [Arch Workbench/ru](Arch_Workbench/ru.md)
-  [Artwork Arch/ru](Artwork_Arch/ru.md)                                                                         [BIM Library/ru](BIM_Library/ru.md)                                                                     [Custom Spacing/ru](Custom_Spacing/ru.md)
-  [Import/Export IFC - compiling IfcOpenShell/ru](Import/Export_IFC_-_compiling_IfcOpenShell/ru.md)             [Manual:BIM modeling/ru](Manual:BIM_modeling/ru.md)                                                     [Material editor/ru](Material_editor/ru.md)
-  [Material/ru](Material/ru.md)                                                                                 [Tutorial custom placing of windows and doors/ru](Tutorial_custom_placing_of_windows_and_doors/ru.md)   [Tutorial for open windows/ru](Tutorial_for_open_windows/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch 3DS/ru](wiki/Arch 3DS/ru.md) | [Arch 3Views/ru](wiki/Arch 3Views/ru.md) | [Arch Add/ru](wiki/Arch Add/ru.md) |
+| [Arch API/ru](wiki/Arch API/ru.md) | [Arch Axis/ru](wiki/Arch Axis/ru.md) | [Arch AxisSystem/ru](wiki/Arch AxisSystem/ru.md) |
+| [Arch Building/ru](wiki/Arch Building/ru.md) | [Arch BuildingPart/ru](wiki/Arch BuildingPart/ru.md) | [Arch Check/ru](wiki/Arch Check/ru.md) |
+| [Arch CloneComponent/ru](wiki/Arch CloneComponent/ru.md) | [Arch CloseHoles/ru](wiki/Arch CloseHoles/ru.md) | [Arch CompAxis/ru](wiki/Arch CompAxis/ru.md) |
+| [Arch Component/ru](wiki/Arch Component/ru.md) | [Arch CompPanel/ru](wiki/Arch CompPanel/ru.md) | [Arch CompPipe/ru](wiki/Arch CompPipe/ru.md) |
+| [Arch CompRebarStraight/ru](wiki/Arch CompRebarStraight/ru.md) | [Arch CompSetMaterial/ru](wiki/Arch CompSetMaterial/ru.md) | [Arch CurtainWall/ru](wiki/Arch CurtainWall/ru.md) |
+| [Arch CutPlane/ru](wiki/Arch CutPlane/ru.md) | [Arch DAE/ru](wiki/Arch DAE/ru.md) | [Arch Door/ru](wiki/Arch Door/ru.md) |
+| [Arch Equipment/ru](wiki/Arch Equipment/ru.md) | [Arch Fence/ru](wiki/Arch Fence/ru.md) | [Arch Floor/ru](wiki/Arch Floor/ru.md) |
+| [Arch Frame/ru](wiki/Arch Frame/ru.md) | [Arch Grid/ru](wiki/Arch Grid/ru.md) | [Arch IFC/ru](wiki/Arch IFC/ru.md) |
+| [Arch IfcExplorer/ru](wiki/Arch IfcExplorer/ru.md) | [Arch IfcSpreadsheet/ru](wiki/Arch IfcSpreadsheet/ru.md) | [Arch JSON/ru](wiki/Arch JSON/ru.md) |
+| [Arch MergeWalls/ru](wiki/Arch MergeWalls/ru.md) | [Arch MeshToShape/ru](wiki/Arch MeshToShape/ru.md) | [Arch MultiMaterial/ru](wiki/Arch MultiMaterial/ru.md) |
+| [Arch Nest/ru](wiki/Arch Nest/ru.md) | [Arch OBJ/ru](wiki/Arch OBJ/ru.md) | [Arch Panel Cut/ru](wiki/Arch Panel Cut/ru.md) |
+| [Arch Panel Sheet/ru](wiki/Arch Panel Sheet/ru.md) | [Arch panel tutorial/ru](wiki/Arch panel tutorial/ru.md) | [Arch Panel/ru](wiki/Arch Panel/ru.md) |
+| [Arch Pipe/ru](wiki/Arch Pipe/ru.md) | [Arch PipeConnector/ru](wiki/Arch PipeConnector/ru.md) | [Arch Preferences/ru](wiki/Arch Preferences/ru.md) |
+| [Arch Rebar BeamReinforcement/ru](wiki/Arch Rebar BeamReinforcement/ru.md) | [Arch Rebar BentShape/ru](wiki/Arch Rebar BentShape/ru.md) | [Arch Rebar Circular ColumnReinforcement/ru](wiki/Arch Rebar Circular ColumnReinforcement/ru.md) |
+| [Arch Rebar ColumnReinforcement TwoTiesSixRebars/ru](wiki/Arch Rebar ColumnReinforcement TwoTiesSixRebars/ru.md) | [Arch Rebar ColumnReinforcement/ru](wiki/Arch Rebar ColumnReinforcement/ru.md) | [Arch Rebar Drawing Dimensioning/ru](wiki/Arch Rebar Drawing Dimensioning/ru.md) |
+| [Arch Rebar Helical/ru](wiki/Arch Rebar Helical/ru.md) | [Arch Rebar LShape/ru](wiki/Arch Rebar LShape/ru.md) | [Arch Rebar Stirrup/ru](wiki/Arch Rebar Stirrup/ru.md) |
+| [Arch Rebar Straight/ru](wiki/Arch Rebar Straight/ru.md) | [Arch Rebar UShape/ru](wiki/Arch Rebar UShape/ru.md) | [Arch Rebar/ru](wiki/Arch Rebar/ru.md) |
+| [Arch Reference/ru](wiki/Arch Reference/ru.md) | [Arch Remove/ru](wiki/Arch Remove/ru.md) | [Arch RemoveShape/ru](wiki/Arch RemoveShape/ru.md) |
+| [Arch Roof/ru](wiki/Arch Roof/ru.md) | [Arch Schedule/ru](wiki/Arch Schedule/ru.md) | [Arch SectionPlane/ru](wiki/Arch SectionPlane/ru.md) |
+| [Arch SelectNonSolidMeshes/ru](wiki/Arch SelectNonSolidMeshes/ru.md) | [Arch SetMaterial/ru](wiki/Arch SetMaterial/ru.md) | [Arch Site/ru](wiki/Arch Site/ru.md) |
+| [Arch Space/ru](wiki/Arch Space/ru.md) | [Arch SplitMesh/ru](wiki/Arch SplitMesh/ru.md) | [Arch Stairs/ru](wiki/Arch Stairs/ru.md) |
+| [Arch Structure/ru](wiki/Arch Structure/ru.md) | [Arch Survey/ru](wiki/Arch Survey/ru.md) | [Arch ToggleIfcBrepFlag/ru](wiki/Arch ToggleIfcBrepFlag/ru.md) |
+| [Arch ToggleSubs/ru](wiki/Arch ToggleSubs/ru.md) | [Arch Truss/ru](wiki/Arch Truss/ru.md) | [Arch tutorial/ru](wiki/Arch tutorial/ru.md) |
+| [Arch Wall/ru](wiki/Arch Wall/ru.md) | [Arch Window/ru](wiki/Arch Window/ru.md) | [Arch Workbench/ru](wiki/Arch Workbench/ru.md) |
+| [Artwork Arch/ru](wiki/Artwork Arch/ru.md) | [BIM Library/ru](wiki/BIM Library/ru.md) | [Custom Spacing/ru](wiki/Custom Spacing/ru.md) |
+| [Import/Export IFC - compiling IfcOpenShell/ru](wiki/Import/Export IFC - compiling IfcOpenShell/ru.md) | [Manual:BIM modeling/ru](wiki/Manual_BIM modeling/ru.md) | [Material editor/ru](wiki/Material editor/ru.md) |
+| [Material/ru](wiki/Material/ru.md) | [Tutorial custom placing of windows and doors/ru](wiki/Tutorial custom placing of windows and doors/ru.md) | [Tutorial for open windows/ru](wiki/Tutorial for open windows/ru.md) |
+| [Category:Reinforcement/ru](wiki/Category_Reinforcement/ru.md) |
 
 
 

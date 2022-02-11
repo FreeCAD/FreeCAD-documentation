@@ -1,10 +1,11 @@
 # Category:Web/es
 This category lists pages that relate to the [Web Workbench/es](Web_Workbench/es.md).
 
-### Contents:
+### Contents
 
-  
-  [Web Workbench/es](Web_Workbench/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Web Workbench/es](wiki/Web Workbench/es.md) |
 
 
 

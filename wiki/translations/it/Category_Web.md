@@ -1,10 +1,11 @@
 # Category:Web/it
 This category lists pages that relate to the [Web Workbench/it](Web_Workbench/it.md).
 
-### Contents:
+### Contents
 
-   
-  [Artwork Web/it](Artwork_Web/it.md)   [Web Workbench/it](Web_Workbench/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Web/it](wiki/Artwork Web/it.md) | [Web Workbench/it](wiki/Web Workbench/it.md) |
 
 
 

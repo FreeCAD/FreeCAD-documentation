@@ -1,10 +1,11 @@
 # Category:Image/pt
 This category lists pages related to the [Image Workbench/pt](Image_Workbench/pt.md).
 
-### Contents:
+### Contents
 
-  
-  [Image Workbench/pt](Image_Workbench/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Image Workbench/pt](wiki/Image Workbench/pt.md) |
 
 
 

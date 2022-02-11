@@ -21,7 +21,7 @@ This command essentially runs **[<img src=images/Std_LinkImport.svg style="width
 ## Применение
 
 1.  Make sure you have a \"source\" document with original objects, and a second \"target\" document with Links to those objects.
-2.  Open the target document and press **[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std LinkImportAll](Std_LinkImportAll.md)**.
+2.  Open the target document and press **[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Import all links](Std_LinkImportAll.md)**.
 
 ![](images/Std_Link_tree_import_all_1_example.png ) ![](images/Std_Link_tree_import_all_2_example.png )
 

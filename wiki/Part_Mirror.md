@@ -44,6 +44,14 @@ The **Base point** boxes can be used to move the mirror plane parallel to the se
 
 -   Arbitrary mirror planes (ie not parallel to a standard plane) are not supported.
 
+## Notes
+
+## Properties
+
+## Limitations 
+
+## Scripting
+
 
 
 ---

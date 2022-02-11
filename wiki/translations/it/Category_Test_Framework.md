@@ -1,10 +1,11 @@
 # Category:Test Framework/it
 This category lists pages related to the [Test Framework Workbench](Testing/it.md).
 
-### Contents:
+### Contents
 
-  
-  [Testing/it](Testing/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Testing/it](wiki/Testing/it.md) |
 
 
 

@@ -6,7 +6,7 @@
    Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:
+   SeeAlso:[Osie otworów w okręgu](TechDraw_ExtensionHoleCircle/pl.md)
 ---
 
 # TechDraw ExtensionCircleCenterLines/pl
@@ -20,14 +20,12 @@ Narzędzie <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style
 
 ## Użycie
 
-1.  Opcjonalnie wybierz preferowane atrybuty linii używając funkcji **<img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=24px> [Zmień atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md)**.
+1.  Opcjonalnie określ preferowane atrybuty linii używając funkcji **<img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=24px> [Zmień atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md)**.
 2.  Wybierz jeden lub więcej okręgów lub łuków.
 3.  Istnieje kilka sposobów na wywołanie narzędzia:
     -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> [Rysuj osie środka okręgu](TechDraw_ExtensionCircleCenterLines/pl.md)**.
     -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenie: linie środka i gwinty → <img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> Rysuj osie środka okręgu**.
-4.  Linie środkowe są dodawane do każdego okręgu lub łuku.
-
--   Dodane linie środkowe mają atrybuty *(styl, szerokość, kolor)* wybrane za pomocą funkcji **<img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=24px> [Zmień atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md)**.
+4.  Linie środkowe są dodawane do każdego okręgu i łuku.
 
 
 

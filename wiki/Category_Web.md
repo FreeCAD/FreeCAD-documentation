@@ -1,10 +1,11 @@
 # Category:Web
 This category lists pages that relate to the [Web Workbench](Web_Workbench.md).
 
-### Contents:
+### Contents
 
-   
-  [Artwork Web](Artwork_Web.md)   [Web Workbench](Web_Workbench.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Web](wiki/Artwork Web.md) | [Web Workbench](wiki/Web Workbench.md) |
 
 
 

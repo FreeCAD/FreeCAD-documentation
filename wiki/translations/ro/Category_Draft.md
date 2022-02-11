@@ -1,32 +1,34 @@
 # Category:Draft/ro
 This category list pages related to the \"User\_Documentation/ro\" and \"Workbenches/ro\"
 
-### Contents:
+### Contents
 
-    
-  [Arch panel tutorial/ro](Arch_panel_tutorial/ro.md)                     [Draft AddConstruction/ro](Draft_AddConstruction/ro.md)         [Draft AddToGroup/ro](Draft_AddToGroup/ro.md)
-  [Draft API/ro](Draft_API/ro.md)                                         [Draft ApplyStyle/ro](Draft_ApplyStyle/ro.md)                   [Draft Arc/ro](Draft_Arc/ro.md)
-  [Draft Array/ro](Draft_Array/ro.md)                                     [Draft AutoGroup/ro](Draft_AutoGroup/ro.md)                     [Draft BezCurve/ro](Draft_BezCurve/ro.md)
-  [Draft BSpline/ro](Draft_BSpline/ro.md)                                 [Draft Circle/ro](Draft_Circle/ro.md)                           [Draft Clone/ro](Draft_Clone/ro.md)
-  [Draft Constrain/ro](Draft_Constrain/ro.md)                             [Draft Dimension/ro](Draft_Dimension/ro.md)                     [Draft Downgrade/ro](Draft_Downgrade/ro.md)
-  [Draft Draft2Sketch/ro](Draft_Draft2Sketch/ro.md)                       [Draft Drawing/ro](Draft_Drawing/ro.md)                         [Draft DXF/ro](Draft_DXF/ro.md)
-  [Draft Edit/ro](Draft_Edit/ro.md)                                       [Draft Ellipse/ro](Draft_Ellipse/ro.md)                         [Draft Facebinder/ro](Draft_Facebinder/ro.md)
-  [Draft FlipDimension/ro](Draft_FlipDimension/ro.md)                     [Draft Heal/ro](Draft_Heal/ro.md)                               [Draft Label/ro](Draft_Label/ro.md)
-  [Draft Line/ro](Draft_Line/ro.md)                                       [Draft Mirror/ro](Draft_Mirror/ro.md)                           [Draft Move/ro](Draft_Move/ro.md)
-  [Draft Offset/ro](Draft_Offset/ro.md)                                   [Draft PathArray/ro](Draft_PathArray/ro.md)                     [Draft Point/ro](Draft_Point/ro.md)
-  [Draft PointArray/ro](Draft_PointArray/ro.md)                           [Draft Polygon/ro](Draft_Polygon/ro.md)                         [Draft Preferences/ro](Draft_Preferences/ro.md)
-  [Draft Rectangle/ro](Draft_Rectangle/ro.md)                             [Draft Rotate/ro](Draft_Rotate/ro.md)                           [Draft Scale/ro](Draft_Scale/ro.md)
-  [Draft SelectGroup/ro](Draft_SelectGroup/ro.md)                         [Draft SelectPlane/ro](Draft_SelectPlane/ro.md)                 [Draft Shape2DView/ro](Draft_Shape2DView/ro.md)
-  [Draft ShapeString/ro](Draft_ShapeString/ro.md)                         [Draft ShowSnapBar/ro](Draft_ShowSnapBar/ro.md)                 [Draft Slope/ro](Draft_Slope/ro.md)
-  [Draft Snap Angle/ro](Draft_Snap_Angle/ro.md)                           [Draft Snap Center/ro](Draft_Snap_Center/ro.md)                 [Draft Snap Endpoint/ro](Draft_Snap_Endpoint/ro.md)
-  [Draft Snap Extension/ro](Draft_Snap_Extension/ro.md)                   [Draft Snap Grid/ro](Draft_Snap_Grid/ro.md)                     [Draft Snap Intersection/ro](Draft_Snap_Intersection/ro.md)
-  [Draft Snap Lock/ro](Draft_Snap_Lock/ro.md)                             [Draft Snap Midpoint/ro](Draft_Snap_Midpoint/ro.md)             [Draft Snap Near/ro](Draft_Snap_Near/ro.md)
-  [Draft Snap Parallel/ro](Draft_Snap_Parallel/ro.md)                     [Draft Snap Special/ro](Draft_Snap_Special/ro.md)               [Draft Snap WorkingPlane/ro](Draft_Snap_WorkingPlane/ro.md)
-  [Draft Snap/ro](Draft_Snap/ro.md)                                       [Draft Stretch/ro](Draft_Stretch/ro.md)                         [Draft Text/ro](Draft_Text/ro.md)
-  [Draft ToggleConstructionMode/ro](Draft_ToggleConstructionMode/ro.md)   [Draft ToggleContinueMode/ro](Draft_ToggleContinueMode/ro.md)   [Draft ToggleDisplayMode/ro](Draft_ToggleDisplayMode/ro.md)
-  [Draft ToggleGrid/ro](Draft_ToggleGrid/ro.md)                           [Draft Trimex/ro](Draft_Trimex/ro.md)                           [Draft tutorial/ro](Draft_tutorial/ro.md)
-  [Draft Upgrade/ro](Draft_Upgrade/ro.md)                                 [Draft Wire/ro](Draft_Wire/ro.md)                               [Draft WireToBSpline/ro](Draft_WireToBSpline/ro.md)
-  [Draft Workbench/ro](Draft_Workbench/ro.md)                             [Draft WorkingPlaneProxy/ro](Draft_WorkingPlaneProxy/ro.md)     [Manual:Traditional 2D drafting/ro](Manual:Traditional_2D_drafting/ro.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch panel tutorial/ro](wiki/Arch panel tutorial/ro.md) | [Draft AddConstruction/ro](wiki/Draft AddConstruction/ro.md) | [Draft AddToGroup/ro](wiki/Draft AddToGroup/ro.md) |
+| [Draft API/ro](wiki/Draft API/ro.md) | [Draft ApplyStyle/ro](wiki/Draft ApplyStyle/ro.md) | [Draft Arc/ro](wiki/Draft Arc/ro.md) |
+| [Draft Array/ro](wiki/Draft Array/ro.md) | [Draft AutoGroup/ro](wiki/Draft AutoGroup/ro.md) | [Draft BezCurve/ro](wiki/Draft BezCurve/ro.md) |
+| [Draft BSpline/ro](wiki/Draft BSpline/ro.md) | [Draft Circle/ro](wiki/Draft Circle/ro.md) | [Draft Clone/ro](wiki/Draft Clone/ro.md) |
+| [Draft Constrain/ro](wiki/Draft Constrain/ro.md) | [Draft Dimension/ro](wiki/Draft Dimension/ro.md) | [Draft Downgrade/ro](wiki/Draft Downgrade/ro.md) |
+| [Draft Draft2Sketch/ro](wiki/Draft Draft2Sketch/ro.md) | [Draft Drawing/ro](wiki/Draft Drawing/ro.md) | [Draft DXF/ro](wiki/Draft DXF/ro.md) |
+| [Draft Edit/ro](wiki/Draft Edit/ro.md) | [Draft Ellipse/ro](wiki/Draft Ellipse/ro.md) | [Draft Facebinder/ro](wiki/Draft Facebinder/ro.md) |
+| [Draft FlipDimension/ro](wiki/Draft FlipDimension/ro.md) | [Draft Heal/ro](wiki/Draft Heal/ro.md) | [Draft Label/ro](wiki/Draft Label/ro.md) |
+| [Draft Line/ro](wiki/Draft Line/ro.md) | [Draft Mirror/ro](wiki/Draft Mirror/ro.md) | [Draft Move/ro](wiki/Draft Move/ro.md) |
+| [Draft Offset/ro](wiki/Draft Offset/ro.md) | [Draft PathArray/ro](wiki/Draft PathArray/ro.md) | [Draft Point/ro](wiki/Draft Point/ro.md) |
+| [Draft PointArray/ro](wiki/Draft PointArray/ro.md) | [Draft Polygon/ro](wiki/Draft Polygon/ro.md) | [Draft Preferences/ro](wiki/Draft Preferences/ro.md) |
+| [Draft Rectangle/ro](wiki/Draft Rectangle/ro.md) | [Draft Rotate/ro](wiki/Draft Rotate/ro.md) | [Draft Scale/ro](wiki/Draft Scale/ro.md) |
+| [Draft SelectGroup/ro](wiki/Draft SelectGroup/ro.md) | [Draft SelectPlane/ro](wiki/Draft SelectPlane/ro.md) | [Draft Shape2DView/ro](wiki/Draft Shape2DView/ro.md) |
+| [Draft ShapeString/ro](wiki/Draft ShapeString/ro.md) | [Draft ShowSnapBar/ro](wiki/Draft ShowSnapBar/ro.md) | [Draft Slope/ro](wiki/Draft Slope/ro.md) |
+| [Draft Snap Angle/ro](wiki/Draft Snap Angle/ro.md) | [Draft Snap Center/ro](wiki/Draft Snap Center/ro.md) | [Draft Snap Endpoint/ro](wiki/Draft Snap Endpoint/ro.md) |
+| [Draft Snap Extension/ro](wiki/Draft Snap Extension/ro.md) | [Draft Snap Grid/ro](wiki/Draft Snap Grid/ro.md) | [Draft Snap Intersection/ro](wiki/Draft Snap Intersection/ro.md) |
+| [Draft Snap Lock/ro](wiki/Draft Snap Lock/ro.md) | [Draft Snap Midpoint/ro](wiki/Draft Snap Midpoint/ro.md) | [Draft Snap Near/ro](wiki/Draft Snap Near/ro.md) |
+| [Draft Snap Parallel/ro](wiki/Draft Snap Parallel/ro.md) | [Draft Snap Special/ro](wiki/Draft Snap Special/ro.md) | [Draft Snap WorkingPlane/ro](wiki/Draft Snap WorkingPlane/ro.md) |
+| [Draft Snap/ro](wiki/Draft Snap/ro.md) | [Draft Stretch/ro](wiki/Draft Stretch/ro.md) | [Draft Text/ro](wiki/Draft Text/ro.md) |
+| [Draft ToggleConstructionMode/ro](wiki/Draft ToggleConstructionMode/ro.md) | [Draft ToggleContinueMode/ro](wiki/Draft ToggleContinueMode/ro.md) | [Draft ToggleDisplayMode/ro](wiki/Draft ToggleDisplayMode/ro.md) |
+| [Draft ToggleGrid/ro](wiki/Draft ToggleGrid/ro.md) | [Draft Trimex/ro](wiki/Draft Trimex/ro.md) | [Draft tutorial/ro](wiki/Draft tutorial/ro.md) |
+| [Draft Upgrade/ro](wiki/Draft Upgrade/ro.md) | [Draft Wire/ro](wiki/Draft Wire/ro.md) | [Draft WireToBSpline/ro](wiki/Draft WireToBSpline/ro.md) |
+| [Draft Workbench/ro](wiki/Draft Workbench/ro.md) | [Draft WorkingPlaneProxy/ro](wiki/Draft WorkingPlaneProxy/ro.md) | [Manual:Traditional 2D drafting/ro](wiki/Manual_Traditional 2D drafting/ro.md) |
+|
 
 
 

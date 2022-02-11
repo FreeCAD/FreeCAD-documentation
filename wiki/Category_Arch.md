@@ -1,46 +1,48 @@
 # Category:Arch
 This category list pages related to the [Arch Workbench](Arch_Workbench.md), the [BIM Workbench](BIM_Workbench.md), and topics related to architecture and building information management (BIM).
 
-### Contents:
+### Contents
 
-    
-  [Arch 3DS](Arch_3DS.md)                                                                                           [Arch 3Views](Arch_3Views.md)                                                                                     [Arch Add](Arch_Add.md)
-  [Arch API](Arch_API.md)                                                                                           [Arch Axis](Arch_Axis.md)                                                                                         [Arch AxisSystem](Arch_AxisSystem.md)
-  [Arch Building](Arch_Building.md)                                                                                 [Arch BuildingPart](Arch_BuildingPart.md)                                                                         [Arch Check](Arch_Check.md)
-  [Arch CloneComponent](Arch_CloneComponent.md)                                                                     [Arch CloseHoles](Arch_CloseHoles.md)                                                                             [Arch CompAxis](Arch_CompAxis.md)
-  [Arch Component](Arch_Component.md)                                                                               [Arch CompPanel](Arch_CompPanel.md)                                                                               [Arch CompPipe](Arch_CompPipe.md)
-  [Arch CompRebarStraight](Arch_CompRebarStraight.md)                                                               [Arch CompSetMaterial](Arch_CompSetMaterial.md)                                                                   [Arch CurtainWall](Arch_CurtainWall.md)
-  [Arch CutLine](Arch_CutLine.md)                                                                                   [Arch CutPlane](Arch_CutPlane.md)                                                                                 [Arch DAE](Arch_DAE.md)
-  [Arch Door](Arch_Door.md)                                                                                         [Arch Equipment](Arch_Equipment.md)                                                                               [Arch Fence](Arch_Fence.md)
-  [Arch Floor](Arch_Floor.md)                                                                                       [Arch Frame](Arch_Frame.md)                                                                                       [Arch Grid](Arch_Grid.md)
-  [Arch IFC](Arch_IFC.md)                                                                                           [Arch IfcExplorer](Arch_IfcExplorer.md)                                                                           [Arch IfcSpreadsheet](Arch_IfcSpreadsheet.md)
-  [Arch JSON](Arch_JSON.md)                                                                                         [Arch MergeWalls](Arch_MergeWalls.md)                                                                             [Arch MeshToShape](Arch_MeshToShape.md)
-  [Arch MultiMaterial](Arch_MultiMaterial.md)                                                                       [Arch Nest](Arch_Nest.md)                                                                                         [Arch OBJ](Arch_OBJ.md)
-  [Arch Panel](Arch_Panel.md)                                                                                       [Arch Panel Cut](Arch_Panel_Cut.md)                                                                               [Arch Panel Sheet](Arch_Panel_Sheet.md)
-  [Arch panel tutorial](Arch_panel_tutorial.md)                                                                     [Arch Pipe](Arch_Pipe.md)                                                                                         [Arch PipeConnector](Arch_PipeConnector.md)
-  [Arch Preferences](Arch_Preferences.md)                                                                           [Arch Profile](Arch_Profile.md)                                                                                   [Arch Project](Arch_Project.md)
-  [Arch Rebar](Arch_Rebar.md)                                                                                       [Arch Rebar BeamReinforcement](Arch_Rebar_BeamReinforcement.md)                                                   [Arch Rebar BentShape](Arch_Rebar_BentShape.md)
-  [Arch Rebar Circular ColumnReinforcement](Arch_Rebar_Circular_ColumnReinforcement.md)                             [Arch Rebar ColumnReinforcement](Arch_Rebar_ColumnReinforcement.md)                                               [Arch Rebar ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md)
-  [Arch Rebar Dimensioning](Arch_Rebar_Dimensioning.md)                                                             [Arch Rebar Drawing](Arch_Rebar_Drawing.md)                                                                       [Arch Rebar Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md)
-  [Arch Rebar Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md)                                           [Arch Rebar Helical](Arch_Rebar_Helical.md)                                                                       [Arch Rebar LShape](Arch_Rebar_LShape.md)
-  [Arch Rebar Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md)                                                 [Arch Rebar Stirrup](Arch_Rebar_Stirrup.md)                                                                       [Arch Rebar Straight](Arch_Rebar_Straight.md)
-  [Arch Rebar UShape](Arch_Rebar_UShape.md)                                                                         [Arch Reference](Arch_Reference.md)                                                                               [Arch Remove](Arch_Remove.md)
-  [Arch RemoveShape](Arch_RemoveShape.md)                                                                           [Arch Roof](Arch_Roof.md)                                                                                         [Arch Schedule](Arch_Schedule.md)
-  [Arch SectionPlane](Arch_SectionPlane.md)                                                                         [Arch SelectNonSolidMeshes](Arch_SelectNonSolidMeshes.md)                                                         [Arch SetMaterial](Arch_SetMaterial.md)
-  [Arch SHP](Arch_SHP.md)                                                                                           [Arch Site](Arch_Site.md)                                                                                         [Arch Space](Arch_Space.md)
-  [Arch SplitMesh](Arch_SplitMesh.md)                                                                               [Arch Stairs](Arch_Stairs.md)                                                                                     [Arch Structure](Arch_Structure.md)
-  [Arch Survey](Arch_Survey.md)                                                                                     [Arch ToggleIfcBrepFlag](Arch_ToggleIfcBrepFlag.md)                                                               [Arch ToggleSubs](Arch_ToggleSubs.md)
-  [Template:Arch Tools navi](Template_Arch_Tools_navi.md)                                                           [Arch Truss](Arch_Truss.md)                                                                                       [Arch tutorial](Arch_tutorial.md)
-  [Arch Wall](Arch_Wall.md)                                                                                         [Arch Window](Arch_Window.md)                                                                                     [Arch Workbench](Arch_Workbench.md)
-  [Artwork Arch](Artwork_Arch.md)                                                                                   [BIM Library](BIM_Library.md)                                                                                     [Custom Spacing](Custom_Spacing.md)
-  [Example Combined Footing](Example_Combined_Footing.md)                                                           [Example Slab Having LShape Rebars Reinforcement Mesh](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh.md)   [Example Slab Having Mesh Of Straight Rebars](Example_Slab_Having_Mesh_Of_Straight_Rebars.md)
-  [Example Slab Having UShape Rebars Reinforcement Mesh](Example_Slab_Having_UShape_Rebars_Reinforcement_Mesh.md)   [Example Slab Spanning in One Direction](Example_Slab_Spanning_in_One_Direction.md)                               [Example Slab Spanning in Two Directions](Example_Slab_Spanning_in_Two_Directions.md)
-  [IfcOpenShell](IfcOpenShell.md)                                                                                   [IfcPlusPlus](IfcPlusPlus.md)                                                                                     [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell.md)
-  [Manual:BIM modeling](Manual_BIM_modeling.md)                                                                     [Material](Material.md)                                                                                           [Material editor](Material_editor.md)
-  [Reinforcement Addon](Reinforcement_Addon.md)                                                                     [Reinforcement API](Reinforcement_API.md)                                                                         [SweetHome3D](SweetHome3D.md)
-  [Tutorial custom placing of windows and doors](Tutorial_custom_placing_of_windows_and_doors.md)                   [Tutorial for open windows](Tutorial_for_open_windows.md)                                                         [WikiRobots](WikiRobots.md)
-  [WikiRobots/de](WikiRobots/de.md)                                                                                 [WikiRobots/en](WikiRobots/en.md)                                                                                 [WikiRobots/fr](WikiRobots/fr.md)
-  [WikiRobots/it](WikiRobots/it.md)                                                                                 [WikiRobots/pl](WikiRobots/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch 3DS](wiki/Arch 3DS.md) | [Arch 3Views](wiki/Arch 3Views.md) | [Arch Add](wiki/Arch Add.md) |
+| [Arch API](wiki/Arch API.md) | [Arch Axis](wiki/Arch Axis.md) | [Arch AxisSystem](wiki/Arch AxisSystem.md) |
+| [Arch Building](wiki/Arch Building.md) | [Arch BuildingPart](wiki/Arch BuildingPart.md) | [Arch Check](wiki/Arch Check.md) |
+| [Arch CloneComponent](wiki/Arch CloneComponent.md) | [Arch CloseHoles](wiki/Arch CloseHoles.md) | [Arch CompAxis](wiki/Arch CompAxis.md) |
+| [Arch Component](wiki/Arch Component.md) | [Arch CompPanel](wiki/Arch CompPanel.md) | [Arch CompPipe](wiki/Arch CompPipe.md) |
+| [Arch CompRebarStraight](wiki/Arch CompRebarStraight.md) | [Arch CompSetMaterial](wiki/Arch CompSetMaterial.md) | [Arch CurtainWall](wiki/Arch CurtainWall.md) |
+| [Arch CutLine](wiki/Arch CutLine.md) | [Arch CutPlane](wiki/Arch CutPlane.md) | [Arch DAE](wiki/Arch DAE.md) |
+| [Arch Door](wiki/Arch Door.md) | [Arch Equipment](wiki/Arch Equipment.md) | [Arch Fence](wiki/Arch Fence.md) |
+| [Arch Floor](wiki/Arch Floor.md) | [Arch Frame](wiki/Arch Frame.md) | [Arch Grid](wiki/Arch Grid.md) |
+| [Arch IFC](wiki/Arch IFC.md) | [Arch IfcExplorer](wiki/Arch IfcExplorer.md) | [Arch IfcSpreadsheet](wiki/Arch IfcSpreadsheet.md) |
+| [Arch JSON](wiki/Arch JSON.md) | [Arch MergeWalls](wiki/Arch MergeWalls.md) | [Arch MeshToShape](wiki/Arch MeshToShape.md) |
+| [Arch MultiMaterial](wiki/Arch MultiMaterial.md) | [Arch Nest](wiki/Arch Nest.md) | [Arch OBJ](wiki/Arch OBJ.md) |
+| [Arch Panel](wiki/Arch Panel.md) | [Arch Panel Cut](wiki/Arch Panel Cut.md) | [Arch Panel Sheet](wiki/Arch Panel Sheet.md) |
+| [Arch panel tutorial](wiki/Arch panel tutorial.md) | [Arch Pipe](wiki/Arch Pipe.md) | [Arch PipeConnector](wiki/Arch PipeConnector.md) |
+| [Arch Preferences](wiki/Arch Preferences.md) | [Arch Profile](wiki/Arch Profile.md) | [Arch Project](wiki/Arch Project.md) |
+| [Arch Rebar](wiki/Arch Rebar.md) | [Arch Rebar BeamReinforcement](wiki/Arch Rebar BeamReinforcement.md) | [Arch Rebar BentShape](wiki/Arch Rebar BentShape.md) |
+| [Arch Rebar Circular ColumnReinforcement](wiki/Arch Rebar Circular ColumnReinforcement.md) | [Arch Rebar ColumnReinforcement](wiki/Arch Rebar ColumnReinforcement.md) | [Arch Rebar ColumnReinforcement TwoTiesSixRebars](wiki/Arch Rebar ColumnReinforcement TwoTiesSixRebars.md) |
+| [Arch Rebar Dimensioning](wiki/Arch Rebar Dimensioning.md) | [Arch Rebar Drawing](wiki/Arch Rebar Drawing.md) | [Arch Rebar Drawing Dimensioning](wiki/Arch Rebar Drawing Dimensioning.md) |
+| [Arch Rebar Footing Reinforcement](wiki/Arch Rebar Footing Reinforcement.md) | [Arch Rebar Helical](wiki/Arch Rebar Helical.md) | [Arch Rebar LShape](wiki/Arch Rebar LShape.md) |
+| [Arch Rebar Slab Reinforcement](wiki/Arch Rebar Slab Reinforcement.md) | [Arch Rebar Stirrup](wiki/Arch Rebar Stirrup.md) | [Arch Rebar Straight](wiki/Arch Rebar Straight.md) |
+| [Arch Rebar UShape](wiki/Arch Rebar UShape.md) | [Arch Reference](wiki/Arch Reference.md) | [Arch Remove](wiki/Arch Remove.md) |
+| [Arch RemoveShape](wiki/Arch RemoveShape.md) | [Arch Roof](wiki/Arch Roof.md) | [Arch Schedule](wiki/Arch Schedule.md) |
+| [Arch SectionPlane](wiki/Arch SectionPlane.md) | [Arch SelectNonSolidMeshes](wiki/Arch SelectNonSolidMeshes.md) | [Arch SetMaterial](wiki/Arch SetMaterial.md) |
+| [Arch SHP](wiki/Arch SHP.md) | [Arch Site](wiki/Arch Site.md) | [Arch Space](wiki/Arch Space.md) |
+| [Arch SplitMesh](wiki/Arch SplitMesh.md) | [Arch Stairs](wiki/Arch Stairs.md) | [Arch Structure](wiki/Arch Structure.md) |
+| [Arch Survey](wiki/Arch Survey.md) | [Arch ToggleIfcBrepFlag](wiki/Arch ToggleIfcBrepFlag.md) | [Arch ToggleSubs](wiki/Arch ToggleSubs.md) |
+| [Template:Arch Tools navi](wiki/Template_Arch Tools navi.md) | [Arch Truss](wiki/Arch Truss.md) | [Arch tutorial](wiki/Arch tutorial.md) |
+| [Arch Wall](wiki/Arch Wall.md) | [Arch Window](wiki/Arch Window.md) | [Arch Workbench](wiki/Arch Workbench.md) |
+| [Artwork Arch](wiki/Artwork Arch.md) | [BIM Library](wiki/BIM Library.md) | [Custom Spacing](wiki/Custom Spacing.md) |
+| [Example Combined Footing](wiki/Example Combined Footing.md) | [Example Slab Having LShape Rebars Reinforcement Mesh](wiki/Example Slab Having LShape Rebars Reinforcement Mesh.md) | [Example Slab Having Mesh Of Straight Rebars](wiki/Example Slab Having Mesh Of Straight Rebars.md) |
+| [Example Slab Having UShape Rebars Reinforcement Mesh](wiki/Example Slab Having UShape Rebars Reinforcement Mesh.md) | [Example Slab Spanning in One Direction](wiki/Example Slab Spanning in One Direction.md) | [Example Slab Spanning in Two Directions](wiki/Example Slab Spanning in Two Directions.md) |
+| [IfcOpenShell](wiki/IfcOpenShell.md) | [IfcPlusPlus](wiki/IfcPlusPlus.md) | [Import/Export IFC - compiling IfcOpenShell](wiki/Import/Export IFC - compiling IfcOpenShell.md) |
+| [Manual:BIM modeling](wiki/Manual_BIM modeling.md) | [Material](wiki/Material.md) | [Material editor](wiki/Material editor.md) |
+| [Reinforcement Addon](wiki/Reinforcement Addon.md) | [Reinforcement API](wiki/Reinforcement API.md) | [SweetHome3D](wiki/SweetHome3D.md) |
+| [Tutorial custom placing of windows and doors](wiki/Tutorial custom placing of windows and doors.md) | [Tutorial for open windows](wiki/Tutorial for open windows.md) | [WikiRobots](wiki/WikiRobots.md) |
+| [WikiRobots/de](wiki/WikiRobots/de.md) | [WikiRobots/en](wiki/WikiRobots/en.md) | [WikiRobots/fr](wiki/WikiRobots/fr.md) |
+| [WikiRobots/it](wiki/WikiRobots/it.md) | [WikiRobots/pl](wiki/WikiRobots/pl.md) | [Category:Reinforcement](wiki/Category_Reinforcement.md) |
+| [Category:Reinforcement/pl](wiki/Category_Reinforcement/pl.md) |
 
 
 

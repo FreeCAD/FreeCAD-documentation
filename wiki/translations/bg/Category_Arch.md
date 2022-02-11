@@ -1,10 +1,11 @@
 # Category:Arch/bg
 Pages relating to Architectural and Building Information Management
 
-### Contents:
+### Contents
 
-  
-  [Arch Workbench/bg](Arch_Workbench/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch Workbench/bg](wiki/Arch Workbench/bg.md) |
 
 
 

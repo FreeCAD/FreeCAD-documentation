@@ -1,11 +1,12 @@
 # Category:Wiki/fr
 Cette catégorie contient tous les documents relatifs au Wiki
 
-### Contents:
+### Contents
 
-    
-  [Glossary/fr](Glossary/fr.md)     [Localisation Sidebar/fr](Localisation_Sidebar/fr.md)   [Localisation/fr](Localisation/fr.md)
-  [WikiPages/fr](WikiPages/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Glossary/fr](wiki/Glossary/fr.md) | [Localisation Sidebar/fr](wiki/Localisation Sidebar/fr.md) | [Localisation/fr](wiki/Localisation/fr.md) |
+| [WikiPages/fr](wiki/WikiPages/fr.md) |
 
 
 

@@ -1,10 +1,11 @@
 # Category:OpenSCAD/zh
 This category lists pages related to the [OpenSCAD\_Workbench/zh](OpenSCAD_Workbench/zh.md).
 
-### Contents:
+### Contents
 
-  
-  [OpenSCAD Workbench/zh](OpenSCAD_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [OpenSCAD Workbench/zh](wiki/OpenSCAD Workbench/zh.md) |
 
 
 

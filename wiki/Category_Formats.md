@@ -1,7 +1,11 @@
 # Category:Formats
 1.  REDIRECT
 
-### Contents:
+### Contents
+
+|     |     |     |
+| --- | --- | --- |
+|
 
 
 

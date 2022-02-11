@@ -1,10 +1,11 @@
 # Category:Help/en
 This category lists pages that contain helpfull information on MediaWiki and editing.
 
-### Contents:
+### Contents
 
-   
-  [Help/en](Help/en.md)   [Key ASCII/en](Key_ASCII/en.md)
+|     |     |     |
+| --- | --- | --- |
+| [Help/en](wiki/Help/en.md) | [Key ASCII/en](wiki/Key ASCII/en.md) |
 
 
 

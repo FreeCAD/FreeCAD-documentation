@@ -1,10 +1,11 @@
 # Category:Inspection/tr
 This category lists pages related to the [Inspection Workbench](Inspection_Workbench.md).
 
-### Contents:
+### Contents
 
-  
-  [Inspection Workbench/tr](Inspection_Workbench/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Inspection Workbench/tr](wiki/Inspection Workbench/tr.md) |
 
 
 

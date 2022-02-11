@@ -1,27 +1,29 @@
 # Category:User Documentation/uk
 This category contains articles about the usage of FreeCAD. It is also the central download list for the online documentation of FreeCAD.
 
-### Contents:
+### Contents
 
-    
-  [About FreeCAD/uk](About_FreeCAD/uk.md)             [Arch Axis/uk](Arch_Axis/uk.md)                           [Arch Building/uk](Arch_Building/uk.md)
-  [Arch Equipment/uk](Arch_Equipment/uk.md)           [Arch Floor/uk](Arch_Floor/uk.md)                         [Arch Frame/uk](Arch_Frame/uk.md)
-  [Arch Panel/uk](Arch_Panel/uk.md)                   [Arch Rebar/uk](Arch_Rebar/uk.md)                         [Arch Roof/uk](Arch_Roof/uk.md)
-  [Arch SectionPlane/uk](Arch_SectionPlane/uk.md)     [Arch Site/uk](Arch_Site/uk.md)                           [Arch Space/uk](Arch_Space/uk.md)
-  [Arch Stairs/uk](Arch_Stairs/uk.md)                 [Arch Structure/uk](Arch_Structure/uk.md)                 [Arch tutorial/uk](Arch_tutorial/uk.md)
-  [Arch Wall/uk](Arch_Wall/uk.md)                     [Arch Window/uk](Arch_Window/uk.md)                       [Arch Workbench/uk](Arch_Workbench/uk.md)
-  [Document structure/uk](Document_structure/uk.md)   [Draft Workbench/uk](Draft_Workbench/uk.md)               [Drawing Workbench/uk](Drawing_Workbench/uk.md)
-  [Feature list/uk](Feature_list/uk.md)               [Getting started/uk](Getting_started/uk.md)               [Template:GuiCommand/uk](Template:GuiCommand/uk.md)
-  [Help FreeCAD/uk](Help_FreeCAD/uk.md)               [Image Workbench/uk](Image_Workbench/uk.md)               [Installing on Linux/uk](Installing_on_Linux/uk.md)
-  [Installing on Mac/uk](Installing_on_Mac/uk.md)     [Installing on Windows/uk](Installing_on_Windows/uk.md)   [Interface Customization/uk](Interface_Customization/uk.md)
-  [Localisation/uk](Localisation/uk.md)               [Main Page/uk](Main_Page/uk.md)                           [Mesh Workbench/uk](Mesh_Workbench/uk.md)
-  [Mouse navigation/uk](Mouse_navigation/uk.md)       [Online Help Startpage/uk](Online_Help_Startpage/uk.md)   [Online Help Toc/uk](Online_Help_Toc/uk.md)
-  [Part Module/uk](Part_Module/uk.md)                 [PartDesign Workbench/uk](PartDesign_Workbench/uk.md)     [Preferences Editor/uk](Preferences_Editor/uk.md)
-  [Property editor/uk](Property_editor/uk.md)         [Raytracing Workbench/uk](Raytracing_Workbench/uk.md)     [Robot Workbench/uk](Robot_Workbench/uk.md)
-  [Ship Workbench/uk](Ship_Workbench/uk.md)           [Sketcher Workbench/uk](Sketcher_Workbench/uk.md)         [Standard Menu/uk](Standard_Menu/uk.md)
-  [Surface Workbench/uk](Surface_Workbench/uk.md)     [TechDraw Workbench/uk](TechDraw_Workbench/uk.md)         [Template:TutorialInfo/uk](Template:TutorialInfo/uk.md)
-  [Tutorials/uk](Tutorials/uk.md)                     [User hub/uk](User_hub/uk.md)                             [Video tutorials/uk](Video_tutorials/uk.md)
-  [Workbenches/uk](Workbenches/uk.md)
+|     |     |     |
+| --- | --- | --- |
+| [About FreeCAD/uk](wiki/About FreeCAD/uk.md) | [Arch Axis/uk](wiki/Arch Axis/uk.md) | [Arch Building/uk](wiki/Arch Building/uk.md) |
+| [Arch Equipment/uk](wiki/Arch Equipment/uk.md) | [Arch Floor/uk](wiki/Arch Floor/uk.md) | [Arch Frame/uk](wiki/Arch Frame/uk.md) |
+| [Arch Panel/uk](wiki/Arch Panel/uk.md) | [Arch Rebar/uk](wiki/Arch Rebar/uk.md) | [Arch Roof/uk](wiki/Arch Roof/uk.md) |
+| [Arch SectionPlane/uk](wiki/Arch SectionPlane/uk.md) | [Arch Site/uk](wiki/Arch Site/uk.md) | [Arch Space/uk](wiki/Arch Space/uk.md) |
+| [Arch Stairs/uk](wiki/Arch Stairs/uk.md) | [Arch Structure/uk](wiki/Arch Structure/uk.md) | [Arch tutorial/uk](wiki/Arch tutorial/uk.md) |
+| [Arch Wall/uk](wiki/Arch Wall/uk.md) | [Arch Window/uk](wiki/Arch Window/uk.md) | [Arch Workbench/uk](wiki/Arch Workbench/uk.md) |
+| [Document structure/uk](wiki/Document structure/uk.md) | [Draft Workbench/uk](wiki/Draft Workbench/uk.md) | [Drawing Workbench/uk](wiki/Drawing Workbench/uk.md) |
+| [Feature list/uk](wiki/Feature list/uk.md) | [Getting started/uk](wiki/Getting started/uk.md) | [Template:GuiCommand/uk](wiki/Template_GuiCommand/uk.md) |
+| [Help FreeCAD/uk](wiki/Help FreeCAD/uk.md) | [Image Workbench/uk](wiki/Image Workbench/uk.md) | [Installing on Linux/uk](wiki/Installing on Linux/uk.md) |
+| [Installing on Mac/uk](wiki/Installing on Mac/uk.md) | [Installing on Windows/uk](wiki/Installing on Windows/uk.md) | [Interface Customization/uk](wiki/Interface Customization/uk.md) |
+| [Localisation/uk](wiki/Localisation/uk.md) | [Main Page/uk](wiki/Main Page/uk.md) | [Mesh Workbench/uk](wiki/Mesh Workbench/uk.md) |
+| [Mouse navigation/uk](wiki/Mouse navigation/uk.md) | [Online Help Startpage/uk](wiki/Online Help Startpage/uk.md) | [Online Help Toc/uk](wiki/Online Help Toc/uk.md) |
+| [Part Module/uk](wiki/Part Module/uk.md) | [PartDesign Workbench/uk](wiki/PartDesign Workbench/uk.md) | [Preferences Editor/uk](wiki/Preferences Editor/uk.md) |
+| [Property editor/uk](wiki/Property editor/uk.md) | [Raytracing Workbench/uk](wiki/Raytracing Workbench/uk.md) | [Robot Workbench/uk](wiki/Robot Workbench/uk.md) |
+| [Ship Workbench/uk](wiki/Ship Workbench/uk.md) | [Sketcher Workbench/uk](wiki/Sketcher Workbench/uk.md) | [Standard Menu/uk](wiki/Standard Menu/uk.md) |
+| [Surface Workbench/uk](wiki/Surface Workbench/uk.md) | [TechDraw Workbench/uk](wiki/TechDraw Workbench/uk.md) | [Template:TutorialInfo/uk](wiki/Template_TutorialInfo/uk.md) |
+| [Tutorials/uk](wiki/Tutorials/uk.md) | [User hub/uk](wiki/User hub/uk.md) | [Video tutorials/uk](wiki/Video tutorials/uk.md) |
+| [Workbenches/uk](wiki/Workbenches/uk.md) | [Category:Arch/uk](wiki/Category_Arch/uk.md) | [Category:BIM/uk](wiki/Category_BIM/uk.md) |
+| [Category:Draft/uk](wiki/Category_Draft/uk.md) | [Category:Workbenches/uk](wiki/Category_Workbenches/uk.md) |
 
 
 

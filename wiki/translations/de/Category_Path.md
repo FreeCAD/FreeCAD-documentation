@@ -1,17 +1,18 @@
 # Category:Path/de
 Diese Kategorie zeigt eine Liste von Seiten, die zum [Part Design-Arbeitsbereich](PartDesign_Workbench/de.md) gehören.
 
-### Contents:
+### Contents
 
-    
-  [Manual:Preparing models for 3D printing/de](Manual:Preparing_models_for_3D_printing/de.md)   [Path Adaptive/de](Path_Adaptive/de.md)                                         [Path Comment/de](Path_Comment/de.md)
-  [Path Development Roadmap/de](Path_Development_Roadmap/de.md)                                 [Path Drilling/de](Path_Drilling/de.md)                                         [Path Engrave/de](Path_Engrave/de.md)
-  [Path ExportTemplate/de](Path_ExportTemplate/de.md)                                           [Path FAQ/de](Path_FAQ/de.md)                                                   [Path Inspect/de](Path_Inspect/de.md)
-  [Path Job/de](Path_Job/de.md)                                                                 [Path MillFace/de](Path_MillFace/de.md)                                         [Path Pocket Shape/de](Path_Pocket_Shape/de.md)
-  [Path Post/de](Path_Post/de.md)                                                               [Path Postprocessor Customization/de](Path_Postprocessor_Customization/de.md)   [Path Preferences/de](Path_Preferences/de.md)
-  [Path Profile/de](Path_Profile/de.md)                                                         [Path scripting/de](Path_scripting/de.md)                                       [Path SelectLoop/de](Path_SelectLoop/de.md)
-  [Path Simulator/de](Path_Simulator/de.md)                                                     [Path ToolLibraryEdit/de](Path_ToolLibraryEdit/de.md)                           [Path Vcarve/de](Path_Vcarve/de.md)
-  [Path Walkthrough for the Impatient/de](Path_Walkthrough_for_the_Impatient/de.md)             [Path Workbench/de](Path_Workbench/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Manual:Preparing models for 3D printing/de](wiki/Manual_Preparing models for 3D printing/de.md) | [Path Adaptive/de](wiki/Path Adaptive/de.md) | [Path Comment/de](wiki/Path Comment/de.md) |
+| [Path Development Roadmap/de](wiki/Path Development Roadmap/de.md) | [Path Drilling/de](wiki/Path Drilling/de.md) | [Path Engrave/de](wiki/Path Engrave/de.md) |
+| [Path ExportTemplate/de](wiki/Path ExportTemplate/de.md) | [Path FAQ/de](wiki/Path FAQ/de.md) | [Path Inspect/de](wiki/Path Inspect/de.md) |
+| [Path Job/de](wiki/Path Job/de.md) | [Path MillFace/de](wiki/Path MillFace/de.md) | [Path Pocket Shape/de](wiki/Path Pocket Shape/de.md) |
+| [Path Post/de](wiki/Path Post/de.md) | [Path Postprocessor Customization/de](wiki/Path Postprocessor Customization/de.md) | [Path Preferences/de](wiki/Path Preferences/de.md) |
+| [Path Profile/de](wiki/Path Profile/de.md) | [Path scripting/de](wiki/Path scripting/de.md) | [Path SelectLoop/de](wiki/Path SelectLoop/de.md) |
+| [Path Simulator/de](wiki/Path Simulator/de.md) | [Path ToolLibraryEdit/de](wiki/Path ToolLibraryEdit/de.md) | [Path Vcarve/de](wiki/Path Vcarve/de.md) |
+| [Path Walkthrough for the Impatient/de](wiki/Path Walkthrough for the Impatient/de.md) | [Path Workbench/de](wiki/Path Workbench/de.md) |
 
 
 

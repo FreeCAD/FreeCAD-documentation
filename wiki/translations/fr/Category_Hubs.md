@@ -1,11 +1,12 @@
 # Category:Hubs/fr
 This category gathers the meeting points of the 3 broad categories of users of FreeCAD\...
 
-### Contents:
+### Contents
 
-    
-  [Developer hub/fr](Developer_hub/fr.md)   [Power users hub/fr](Power_users_hub/fr.md)   [Scientific literature/fr](Scientific_literature/fr.md)
-  [User hub/fr](User_hub/fr.md)             [Wished tools/fr](Wished_tools/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Developer hub/fr](wiki/Developer hub/fr.md) | [Power users hub/fr](wiki/Power users hub/fr.md) | [Scientific literature/fr](wiki/Scientific literature/fr.md) |
+| [User hub/fr](wiki/User hub/fr.md) | [Wished tools/fr](wiki/Wished tools/fr.md) |
 
 
 

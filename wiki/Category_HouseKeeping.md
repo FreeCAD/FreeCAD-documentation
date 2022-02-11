@@ -5,10 +5,11 @@ Pages in this category typically has status and short info for different type of
 
 The first one out is renaming the Module pages to Workbench, with all the needed re-linking required.
 
-### Contents:
+### Contents
 
-  
-  [Rename Module to Workbench](Rename_Module_to_Workbench.md)
+|     |     |     |
+| --- | --- | --- |
+| [Rename Module to Workbench](wiki/Rename Module to Workbench.md) |
 
 
 

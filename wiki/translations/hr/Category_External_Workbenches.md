@@ -1,11 +1,15 @@
 # Category:External Workbenches/hr
-### Contents:
 
-    
-  [BIM Workbench/hr](BIM_Workbench/hr.md)                           [CadQuery Workbench/hr](CadQuery_Workbench/hr.md)         [Cfd Workbench/hr](Cfd_Workbench/hr.md)
-  [Flamingo Workbench/hr](Flamingo_Workbench/hr.md)                 [KicadStepUp Workbench/hr](KicadStepUp_Workbench/hr.md)   [Manipulator Workbench/hr](Manipulator_Workbench/hr.md)
-  [PCB Workbench/hr](PCB_Workbench/hr.md)                           [Plot Workbench/hr](Plot_Workbench/hr.md)                 [Ship Workbench/hr](Ship_Workbench/hr.md)
-  [Symbols Library Workbench/hr](Symbols_Library_Workbench/hr.md)   [Timber Workbench/hr](Timber_Workbench/hr.md)             [Workfeature Workbench/hr](Workfeature_Workbench/hr.md)
+
+### Contents
+
+|     |     |     |
+| --- | --- | --- |
+| [BIM Workbench/hr](wiki/BIM Workbench/hr.md) | [CadQuery Workbench/hr](wiki/CadQuery Workbench/hr.md) | [Cfd Workbench/hr](wiki/Cfd Workbench/hr.md) |
+| [Flamingo Workbench/hr](wiki/Flamingo Workbench/hr.md) | [KicadStepUp Workbench/hr](wiki/KicadStepUp Workbench/hr.md) | [Manipulator Workbench/hr](wiki/Manipulator Workbench/hr.md) |
+| [PCB Workbench/hr](wiki/PCB Workbench/hr.md) | [Plot Workbench/hr](wiki/Plot Workbench/hr.md) | [Ship Workbench/hr](wiki/Ship Workbench/hr.md) |
+| [Symbols Library Workbench/hr](wiki/Symbols Library Workbench/hr.md) | [Timber Workbench/hr](wiki/Timber Workbench/hr.md) | [Workfeature Workbench/hr](wiki/Workfeature Workbench/hr.md) |
+|
 
 
 

@@ -1,10 +1,11 @@
 # Category:Documentation/cz
 This category groups all of the FreeCAD documentation
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:User Documentation/cz](wiki/Category_User Documentation/cz.md) |
 
 
 

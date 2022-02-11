@@ -1,14 +1,16 @@
 # Category:Administration/ru
 This category contains articles and categories about wiki administrative subjects.
 
-### Contents:
+### Contents
 
-    
-  [Bug Triage/ru](Bug_Triage/ru.md)                         [Changelog/ru](Changelog/ru.md)                                             [Crowdin Administration/ru](Crowdin_Administration/ru.md)
-  [Crowdin Scripts/ru](Crowdin_Scripts/ru.md)               [Template:Document objects navi/ru](Template:Document_objects_navi/ru.md)   [Template:Interface navi/ru](Template:Interface_navi/ru.md)
-  [Organization chart/ru](Organization_chart/ru.md)         [Template:Part Tools navi/ru](Template:Part_Tools_navi/ru.md)               [Template:PartDesign Tools navi/ru](Template:PartDesign_Tools_navi/ru.md)
-  [Template:PropertyData/ru](Template:PropertyData/ru.md)   [Template:PropertyView/ru](Template:PropertyView/ru.md)                     [Template:Std Base navi/ru](Template:Std_Base_navi/ru.md)
-  [Tracker/ru](Tracker/ru.md)                               [Template:UnfinishedDocu/ru](Template:UnfinishedDocu/ru.md)                 [WikiPages/ru](WikiPages/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Bug Triage/ru](wiki/Bug Triage/ru.md) | [Changelog/ru](wiki/Changelog/ru.md) | [Crowdin Administration/ru](wiki/Crowdin Administration/ru.md) |
+| [Crowdin Scripts/ru](wiki/Crowdin Scripts/ru.md) | [Template:Document objects navi/ru](wiki/Template_Document objects navi/ru.md) | [Template:Interface navi/ru](wiki/Template_Interface navi/ru.md) |
+| [Organization chart/ru](wiki/Organization chart/ru.md) | [Template:Part Tools navi/ru](wiki/Template_Part Tools navi/ru.md) | [Template:PartDesign Tools navi/ru](wiki/Template_PartDesign Tools navi/ru.md) |
+| [Template:PropertyData/ru](wiki/Template_PropertyData/ru.md) | [Template:PropertyView/ru](wiki/Template_PropertyView/ru.md) | [Template:Std Base navi/ru](wiki/Template_Std Base navi/ru.md) |
+| [Tracker/ru](wiki/Tracker/ru.md) | [WikiPages/ru](wiki/WikiPages/ru.md) | [Category:Wiki/ru](wiki/Category_Wiki/ru.md) |
+|
 
 
 

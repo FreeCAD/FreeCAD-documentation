@@ -1,24 +1,26 @@
 # Category:Mesh/it
 This category lists pages related to the [Mesh\_Workbench/it](Mesh_Workbench/it.md).
 
-### Contents:
+### Contents
 
-    
-  [Artwork Mesh/it](Artwork_Mesh/it.md)                                                         [Artwork MeshPart/it](Artwork_MeshPart/it.md)                   [Asymptote/it](Asymptote/it.md)
-  [Manual:Preparing models for 3D printing/it](Manual:Preparing_models_for_3D_printing/it.md)   [Mesh AddFacet/it](Mesh_AddFacet/it.md)                         [Mesh BoundingBox/it](Mesh_BoundingBox/it.md)
-  [Mesh BuildRegularSolid/it](Mesh_BuildRegularSolid/it.md)                                     [Mesh CrossSections/it](Mesh_CrossSections/it.md)               [Mesh CurvatureInfo/it](Mesh_CurvatureInfo/it.md)
-  [Mesh Decimating/it](Mesh_Decimating/it.md)                                                   [Mesh Difference/it](Mesh_Difference/it.md)                     [Mesh EvaluateFacet/it](Mesh_EvaluateFacet/it.md)
-  [Mesh EvaluateSolid/it](Mesh_EvaluateSolid/it.md)                                             [Mesh Evaluation/it](Mesh_Evaluation/it.md)                     [Mesh Export/it](Mesh_Export/it.md)
-  [Mesh Feature/it](Mesh_Feature/it.md)                                                         [Mesh FillInteractiveHole/it](Mesh_FillInteractiveHole/it.md)   [Mesh FillupHoles/it](Mesh_FillupHoles/it.md)
-  [Mesh FlipNormals/it](Mesh_FlipNormals/it.md)                                                 [Mesh FromPartShape/it](Mesh_FromPartShape/it.md)               [Mesh HarmonizeNormals/it](Mesh_HarmonizeNormals/it.md)
-  [Mesh Import/it](Mesh_Import/it.md)                                                           [Mesh Intersection/it](Mesh_Intersection/it.md)                 [Mesh Merge/it](Mesh_Merge/it.md)
-  [Mesh MeshObject/it](Mesh_MeshObject/it.md)                                                   [Mesh PolyCut/it](Mesh_PolyCut/it.md)                           [Mesh PolyTrim/it](Mesh_PolyTrim/it.md)
-  [Mesh RemeshGmsh/it](Mesh_RemeshGmsh/it.md)                                                   [Mesh RemoveCompByHand/it](Mesh_RemoveCompByHand/it.md)         [Mesh RemoveComponents/it](Mesh_RemoveComponents/it.md)
-  [Mesh Scale/it](Mesh_Scale/it.md)                                                             [Mesh Scripting/it](Mesh_Scripting/it.md)                       [Mesh SectionByPlane/it](Mesh_SectionByPlane/it.md)
-  [Mesh Segmentation/it](Mesh_Segmentation/it.md)                                               [Mesh SegmentationBestFit/it](Mesh_SegmentationBestFit/it.md)   [Mesh Smoothing/it](Mesh_Smoothing/it.md)
-  [Mesh SplitComponents/it](Mesh_SplitComponents/it.md)                                         [Mesh to Part/it](Mesh_to_Part/it.md)                           [Mesh TrimByPlane/it](Mesh_TrimByPlane/it.md)
-  [Mesh Union/it](Mesh_Union/it.md)                                                             [Mesh VertexCurvature/it](Mesh_VertexCurvature/it.md)           [Mesh Workbench/it](Mesh_Workbench/it.md)
-  [Mesh/it](Mesh/it.md)                                                                         [MeshPart CreateFlatFace/it](MeshPart_CreateFlatFace/it.md)     [MeshPart CreateFlatMesh/it](MeshPart_CreateFlatMesh/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Mesh/it](wiki/Artwork Mesh/it.md) | [Artwork MeshPart/it](wiki/Artwork MeshPart/it.md) | [Asymptote/it](wiki/Asymptote/it.md) |
+| [Manual:Preparing models for 3D printing/it](wiki/Manual_Preparing models for 3D printing/it.md) | [Mesh AddFacet/it](wiki/Mesh AddFacet/it.md) | [Mesh BoundingBox/it](wiki/Mesh BoundingBox/it.md) |
+| [Mesh BuildRegularSolid/it](wiki/Mesh BuildRegularSolid/it.md) | [Mesh CrossSections/it](wiki/Mesh CrossSections/it.md) | [Mesh CurvatureInfo/it](wiki/Mesh CurvatureInfo/it.md) |
+| [Mesh Decimating/it](wiki/Mesh Decimating/it.md) | [Mesh Difference/it](wiki/Mesh Difference/it.md) | [Mesh EvaluateFacet/it](wiki/Mesh EvaluateFacet/it.md) |
+| [Mesh EvaluateSolid/it](wiki/Mesh EvaluateSolid/it.md) | [Mesh Evaluation/it](wiki/Mesh Evaluation/it.md) | [Mesh Export/it](wiki/Mesh Export/it.md) |
+| [Mesh Feature/it](wiki/Mesh Feature/it.md) | [Mesh FillInteractiveHole/it](wiki/Mesh FillInteractiveHole/it.md) | [Mesh FillupHoles/it](wiki/Mesh FillupHoles/it.md) |
+| [Mesh FlipNormals/it](wiki/Mesh FlipNormals/it.md) | [Mesh FromPartShape/it](wiki/Mesh FromPartShape/it.md) | [Mesh HarmonizeNormals/it](wiki/Mesh HarmonizeNormals/it.md) |
+| [Mesh Import/it](wiki/Mesh Import/it.md) | [Mesh Intersection/it](wiki/Mesh Intersection/it.md) | [Mesh Merge/it](wiki/Mesh Merge/it.md) |
+| [Mesh MeshObject/it](wiki/Mesh MeshObject/it.md) | [Mesh PolyCut/it](wiki/Mesh PolyCut/it.md) | [Mesh PolyTrim/it](wiki/Mesh PolyTrim/it.md) |
+| [Mesh RemeshGmsh/it](wiki/Mesh RemeshGmsh/it.md) | [Mesh RemoveCompByHand/it](wiki/Mesh RemoveCompByHand/it.md) | [Mesh RemoveComponents/it](wiki/Mesh RemoveComponents/it.md) |
+| [Mesh Scale/it](wiki/Mesh Scale/it.md) | [Mesh Scripting/it](wiki/Mesh Scripting/it.md) | [Mesh SectionByPlane/it](wiki/Mesh SectionByPlane/it.md) |
+| [Mesh Segmentation/it](wiki/Mesh Segmentation/it.md) | [Mesh SegmentationBestFit/it](wiki/Mesh SegmentationBestFit/it.md) | [Mesh Smoothing/it](wiki/Mesh Smoothing/it.md) |
+| [Mesh SplitComponents/it](wiki/Mesh SplitComponents/it.md) | [Mesh to Part/it](wiki/Mesh to Part/it.md) | [Mesh TrimByPlane/it](wiki/Mesh TrimByPlane/it.md) |
+| [Mesh Union/it](wiki/Mesh Union/it.md) | [Mesh VertexCurvature/it](wiki/Mesh VertexCurvature/it.md) | [Mesh Workbench/it](wiki/Mesh Workbench/it.md) |
+| [Mesh/it](wiki/Mesh/it.md) | [MeshPart CreateFlatFace/it](wiki/MeshPart CreateFlatFace/it.md) | [MeshPart CreateFlatMesh/it](wiki/MeshPart CreateFlatMesh/it.md) |
+|
 
 
 

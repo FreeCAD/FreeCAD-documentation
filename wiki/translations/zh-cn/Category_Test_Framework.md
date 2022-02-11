@@ -1,10 +1,11 @@
 # Category:Test Framework/zh-cn
 This category lists pages related to the [Test Framework Workbench](Testing/zh-cn.md).
 
-### Contents:
+### Contents
 
-  
-  [Testing/zh-cn](Testing/zh-cn.md)
+|     |     |     |
+| --- | --- | --- |
+| [Testing/zh-cn](wiki/Testing/zh-cn.md) |
 
 
 

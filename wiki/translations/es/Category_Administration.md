@@ -1,11 +1,13 @@
 # Category:Administration/es
 Esta categoría contiene artículos y categorías sobre temas de administración de la wiki.
 
-### Contents:
+### Contents
 
-    
-  [Changelog/es](Changelog/es.md)                           [Organization chart/es](Organization_chart/es.md)   [Template:PropertyData/es](Template:PropertyData/es.md)
-  [Template:PropertyView/es](Template:PropertyView/es.md)   [Tracker/es](Tracker/es.md)                         [WikiPages/es](WikiPages/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Changelog/es](wiki/Changelog/es.md) | [Organization chart/es](wiki/Organization chart/es.md) | [Template:PropertyData/es](wiki/Template_PropertyData/es.md) |
+| [Template:PropertyView/es](wiki/Template_PropertyView/es.md) | [Tracker/es](wiki/Tracker/es.md) | [WikiPages/es](wiki/WikiPages/es.md) |
+| [Category:Wiki/es](wiki/Category_Wiki/es.md) |
 
 
 

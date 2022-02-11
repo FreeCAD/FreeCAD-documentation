@@ -1,10 +1,11 @@
 # Category:Drawing/zh
 This category lists pages related to the [Drawing Workbench/zh](Drawing_Workbench/zh.md).
 
-### Contents:
+### Contents
 
-  
-  [Drawing Workbench/zh](Drawing_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [Drawing Workbench/zh](wiki/Drawing Workbench/zh.md) |
 
 
 

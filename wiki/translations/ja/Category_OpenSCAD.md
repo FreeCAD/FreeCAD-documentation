@@ -1,10 +1,11 @@
 # Category:OpenSCAD/ja
 This category lists pages related to the [OpenSCAD\_Workbench/ja](OpenSCAD_Workbench/ja.md).
 
-### Contents:
+### Contents
 
-  
-  [OpenSCAD AddOpenSCADElement/ja](OpenSCAD_AddOpenSCADElement/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [OpenSCAD AddOpenSCADElement/ja](wiki/OpenSCAD AddOpenSCADElement/ja.md) |
 
 
 

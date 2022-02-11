@@ -43,7 +43,7 @@ Il existe un modèle pour styliser les commandes de menu, comme **Fichier → Sa
 
 Si vous travaillez sur une grande page, il est conseillé de marquer la page comme travail en cours ou comme inachevée. Cela garantit que les administrateurs du wiki ne marquent pas votre page comme prête pour la traduction pendant que vous la modifiez encore.
 
-Pour signaler une page, ajoutez soit  ou  en première ligne. Avec {UnfinishedDocu}}, vous invitez les autres à se joindre à vous pour terminer la page, tandis que {{Page in progress} indique que vous ferez le travail vous-même et que les autres doivent vous laisser du temps.
+Pour signaler une page, ajoutez soit  ou  en première ligne. Avec , vous invitez les autres à se joindre à vous pour terminer la page, tandis que  indique que vous ferez le travail vous-même et que les autres doivent vous laisser du temps.
 
 Une fois le travail terminé, n\'oubliez pas de retirer les avertissements!
 

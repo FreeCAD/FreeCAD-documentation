@@ -1,28 +1,29 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign MoveFeatureInTree
-   MenuLocation:Contextual menu → Move object after other object
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Przenieś cechę w drzewie
+   MenuLocation:Menu kontekstowe → Przesuń obiekt za inny obiekt
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object to other body](PartDesign_MoveFeature.md)
+   SeeAlso:[Ustaw czubek](PartDesign_MoveTip/pl.md), [Przesuń cechę do innej zawartości](PartDesign_MoveFeature/pl.md)
 ---
 
 # PartDesign MoveFeatureInTree/pl
 
-## Description
+## Opis
 
-<img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:24px;"> [Move object after other object](PartDesign_MoveFeatureInTree.md), as this command is labeled in the context menu, allows reordering of objects under a Body. Sketches, datum geometry and features are supported.
+<img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:24px;"> [Przesuń obiekt za inny obiekt](PartDesign_MoveFeatureInTree/pl.md), jak to polecenie jest nazwane w menu kontekstowym, pozwala na zmianę kolejności obiektów w Zawartości. Obsługiwane są szkice, geometria punktów odniesienia i cechy.
 
-## Usage
+## Użycie
 
-1.  In the Model tree, select the object(s) to be moved then right-click to open the contextual menu.
-2.  Select **Move object after other object**.
-3.  In the **Select feature** dialog, select the object under which to move the object(s).
-4.  Press **OK**.
+1.  W drzewie modelu zaznacz obiekt*(y)*, który ma zostać przesunięty, a następnie kliknij prawym przyciskiem myszy, aby otworzyć menu podręczne.
+2.  Wybierz opcję **Przesuń obiekt za inny obiekt**.
+3.  W oknie dialogowym **Wybierz element** wybierz obiekt, pod który chcesz przesunąć obiekt*(y)*.
+4.  Naciśnij przycisk **OK**.
 
-## Example
+## Przykład
 
-The following three pictures show the same model with a pocket defined on a sketch attached to the datum plane. The features are reordered from one picture to the other. This has the effect that the pocket makes either no hole or make holes in different pads, depending on the order of the features in the model tree.
+Poniższe trzy obrazki przedstawiają ten sam model z kieszenią zdefiniowaną na szkicu dołączonym do płaszczyzny odniesienia. Na każdym z rysunków zmieniono kolejność elementów. Powoduje to, że kieszeń nie wykonuje żadnego otworu lub wykonuje otwory w różnych wyciągnięciach, w zależności od kolejności cech w drzewie modelu.
 
 ![](images/PD_move_feature0.png ) ![](images/Hole_Pad002.png ) ![](images/PD_move_feature2.png )
 

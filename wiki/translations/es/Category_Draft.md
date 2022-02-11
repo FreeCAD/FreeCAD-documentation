@@ -1,34 +1,36 @@
 # Category:Draft/es
 This category list pages related to the \"User\_Documentation/es\" and \"Workbenches/es\"
 
-### Contents:
+### Contents
 
-    
-  [Draft AddConstruction/es](Draft_AddConstruction/es.md)                 [Draft AddToGroup/es](Draft_AddToGroup/es.md)                   [Draft AnnotationStyleEditor/es](Draft_AnnotationStyleEditor/es.md)
-  [Draft API/es](Draft_API/es.md)                                         [Draft ApplyStyle/es](Draft_ApplyStyle/es.md)                   [Draft Arc/es](Draft_Arc/es.md)
-  [Draft Array/es](Draft_Array/es.md)                                     [Draft AutoGroup/es](Draft_AutoGroup/es.md)                     [Draft BezCurve/es](Draft_BezCurve/es.md)
-  [Draft BSpline/es](Draft_BSpline/es.md)                                 [Draft Circle/es](Draft_Circle/es.md)                           [Draft CircularArray/es](Draft_CircularArray/es.md)
-  [Draft Clone/es](Draft_Clone/es.md)                                     [Draft Constrain/es](Draft_Constrain/es.md)                     [Draft CubicBezCurve/es](Draft_CubicBezCurve/es.md)
-  [Draft DAT/es](Draft_DAT/es.md)                                         [Draft Dimension/es](Draft_Dimension/es.md)                     [Draft Downgrade/es](Draft_Downgrade/es.md)
-  [Draft Draft2Sketch/es](Draft_Draft2Sketch/es.md)                       [Draft Drawing/es](Draft_Drawing/es.md)                         [Draft DXF/es](Draft_DXF/es.md)
-  [Draft Edit/es](Draft_Edit/es.md)                                       [Draft Ellipse/es](Draft_Ellipse/es.md)                         [Draft Facebinder/es](Draft_Facebinder/es.md)
-  [Draft FlipDimension/es](Draft_FlipDimension/es.md)                     [Draft Heal/es](Draft_Heal/es.md)                               [Draft Label/es](Draft_Label/es.md)
-  [Draft Line/es](Draft_Line/es.md)                                       [Draft Mirror/es](Draft_Mirror/es.md)                           [Draft Move/es](Draft_Move/es.md)
-  [Draft OCA/es](Draft_OCA/es.md)                                         [Draft Offset/es](Draft_Offset/es.md)                           [Draft OrthoArray/es](Draft_OrthoArray/es.md)
-  [Draft PathArray/es](Draft_PathArray/es.md)                             [Draft Point/es](Draft_Point/es.md)                             [Draft PointArray/es](Draft_PointArray/es.md)
-  [Draft PolarArray/es](Draft_PolarArray/es.md)                           [Draft Polygon/es](Draft_Polygon/es.md)                         [Draft Preferences/es](Draft_Preferences/es.md)
-  [Draft Rectangle/es](Draft_Rectangle/es.md)                             [Draft Rotate/es](Draft_Rotate/es.md)                           [Draft Scale/es](Draft_Scale/es.md)
-  [Draft SelectGroup/es](Draft_SelectGroup/es.md)                         [Draft SelectPlane/es](Draft_SelectPlane/es.md)                 [Draft Shape2DView/es](Draft_Shape2DView/es.md)
-  [Draft ShapeString/es](Draft_ShapeString/es.md)                         [Draft ShowSnapBar/es](Draft_ShowSnapBar/es.md)                 [Draft Slope/es](Draft_Slope/es.md)
-  [Draft Snap Angle/es](Draft_Snap_Angle/es.md)                           [Draft Snap Center/es](Draft_Snap_Center/es.md)                 [Draft Snap Extension/es](Draft_Snap_Extension/es.md)
-  [Draft Snap Intersection/es](Draft_Snap_Intersection/es.md)             [Draft Snap Lock/es](Draft_Snap_Lock/es.md)                     [Draft Snap Midpoint/es](Draft_Snap_Midpoint/es.md)
-  [Draft Snap Ortho/es](Draft_Snap_Ortho/es.md)                           [Draft Snap Parallel/es](Draft_Snap_Parallel/es.md)             [Draft Snap/es](Draft_Snap/es.md)
-  [Draft Stretch/es](Draft_Stretch/es.md)                                 [Draft SVG/es](Draft_SVG/es.md)                                 [Draft Text/es](Draft_Text/es.md)
-  [Draft ToggleConstructionMode/es](Draft_ToggleConstructionMode/es.md)   [Draft ToggleContinueMode/es](Draft_ToggleContinueMode/es.md)   [Draft ToggleDisplayMode/es](Draft_ToggleDisplayMode/es.md)
-  [Draft ToggleGrid/es](Draft_ToggleGrid/es.md)                           [Draft Tray/es](Draft_Tray/es.md)                               [Draft Trimex/es](Draft_Trimex/es.md)
-  [Draft tutorial/es](Draft_tutorial/es.md)                               [Draft Upgrade/es](Draft_Upgrade/es.md)                         [Draft Wire/es](Draft_Wire/es.md)
-  [Draft WireToBSpline/es](Draft_WireToBSpline/es.md)                     [Draft Workbench/es](Draft_Workbench/es.md)                     [Draft WorkingPlaneProxy/es](Draft_WorkingPlaneProxy/es.md)
-  [DXF/es](DXF/es.md)                                                     [FreeCAD and DWG Import/es](FreeCAD_and_DWG_Import/es.md)       [SVG/es](SVG/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Draft AddConstruction/es](wiki/Draft AddConstruction/es.md) | [Draft AddToGroup/es](wiki/Draft AddToGroup/es.md) | [Draft AnnotationStyleEditor/es](wiki/Draft AnnotationStyleEditor/es.md) |
+| [Draft API/es](wiki/Draft API/es.md) | [Draft ApplyStyle/es](wiki/Draft ApplyStyle/es.md) | [Draft Arc/es](wiki/Draft Arc/es.md) |
+| [Draft Array/es](wiki/Draft Array/es.md) | [Draft AutoGroup/es](wiki/Draft AutoGroup/es.md) | [Draft BezCurve/es](wiki/Draft BezCurve/es.md) |
+| [Draft BSpline/es](wiki/Draft BSpline/es.md) | [Draft Circle/es](wiki/Draft Circle/es.md) | [Draft CircularArray/es](wiki/Draft CircularArray/es.md) |
+| [Draft Clone/es](wiki/Draft Clone/es.md) | [Draft Constrain/es](wiki/Draft Constrain/es.md) | [Draft CubicBezCurve/es](wiki/Draft CubicBezCurve/es.md) |
+| [Draft DAT/es](wiki/Draft DAT/es.md) | [Draft Dimension/es](wiki/Draft Dimension/es.md) | [Draft Downgrade/es](wiki/Draft Downgrade/es.md) |
+| [Draft Draft2Sketch/es](wiki/Draft Draft2Sketch/es.md) | [Draft Drawing/es](wiki/Draft Drawing/es.md) | [Draft DXF/es](wiki/Draft DXF/es.md) |
+| [Draft Edit/es](wiki/Draft Edit/es.md) | [Draft Ellipse/es](wiki/Draft Ellipse/es.md) | [Draft Facebinder/es](wiki/Draft Facebinder/es.md) |
+| [Draft FlipDimension/es](wiki/Draft FlipDimension/es.md) | [Draft Heal/es](wiki/Draft Heal/es.md) | [Draft Label/es](wiki/Draft Label/es.md) |
+| [Draft Line/es](wiki/Draft Line/es.md) | [Draft Mirror/es](wiki/Draft Mirror/es.md) | [Draft Move/es](wiki/Draft Move/es.md) |
+| [Draft OCA/es](wiki/Draft OCA/es.md) | [Draft Offset/es](wiki/Draft Offset/es.md) | [Draft OrthoArray/es](wiki/Draft OrthoArray/es.md) |
+| [Draft PathArray/es](wiki/Draft PathArray/es.md) | [Draft Point/es](wiki/Draft Point/es.md) | [Draft PointArray/es](wiki/Draft PointArray/es.md) |
+| [Draft PolarArray/es](wiki/Draft PolarArray/es.md) | [Draft Polygon/es](wiki/Draft Polygon/es.md) | [Draft Preferences/es](wiki/Draft Preferences/es.md) |
+| [Draft Rectangle/es](wiki/Draft Rectangle/es.md) | [Draft Rotate/es](wiki/Draft Rotate/es.md) | [Draft Scale/es](wiki/Draft Scale/es.md) |
+| [Draft SelectGroup/es](wiki/Draft SelectGroup/es.md) | [Draft SelectPlane/es](wiki/Draft SelectPlane/es.md) | [Draft Shape2DView/es](wiki/Draft Shape2DView/es.md) |
+| [Draft ShapeString/es](wiki/Draft ShapeString/es.md) | [Draft ShowSnapBar/es](wiki/Draft ShowSnapBar/es.md) | [Draft Slope/es](wiki/Draft Slope/es.md) |
+| [Draft Snap Angle/es](wiki/Draft Snap Angle/es.md) | [Draft Snap Center/es](wiki/Draft Snap Center/es.md) | [Draft Snap Extension/es](wiki/Draft Snap Extension/es.md) |
+| [Draft Snap Intersection/es](wiki/Draft Snap Intersection/es.md) | [Draft Snap Lock/es](wiki/Draft Snap Lock/es.md) | [Draft Snap Midpoint/es](wiki/Draft Snap Midpoint/es.md) |
+| [Draft Snap Ortho/es](wiki/Draft Snap Ortho/es.md) | [Draft Snap Parallel/es](wiki/Draft Snap Parallel/es.md) | [Draft Snap/es](wiki/Draft Snap/es.md) |
+| [Draft Stretch/es](wiki/Draft Stretch/es.md) | [Draft SVG/es](wiki/Draft SVG/es.md) | [Draft Text/es](wiki/Draft Text/es.md) |
+| [Draft ToggleConstructionMode/es](wiki/Draft ToggleConstructionMode/es.md) | [Draft ToggleContinueMode/es](wiki/Draft ToggleContinueMode/es.md) | [Draft ToggleDisplayMode/es](wiki/Draft ToggleDisplayMode/es.md) |
+| [Draft ToggleGrid/es](wiki/Draft ToggleGrid/es.md) | [Draft Tray/es](wiki/Draft Tray/es.md) | [Draft Trimex/es](wiki/Draft Trimex/es.md) |
+| [Draft tutorial/es](wiki/Draft tutorial/es.md) | [Draft Upgrade/es](wiki/Draft Upgrade/es.md) | [Draft Wire/es](wiki/Draft Wire/es.md) |
+| [Draft WireToBSpline/es](wiki/Draft WireToBSpline/es.md) | [Draft Workbench/es](wiki/Draft Workbench/es.md) | [Draft WorkingPlaneProxy/es](wiki/Draft WorkingPlaneProxy/es.md) |
+| [DXF/es](wiki/DXF/es.md) | [FreeCAD and DWG Import/es](wiki/FreeCAD and DWG Import/es.md) | [SVG/es](wiki/SVG/es.md) |
+|
 
 
 

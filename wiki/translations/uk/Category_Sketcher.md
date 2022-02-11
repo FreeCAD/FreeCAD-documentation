@@ -1,10 +1,11 @@
 # Category:Sketcher/uk
 This category lists pages related to the [Sketcher Workbench/uk](Sketcher_Workbench/uk.md).
 
-### Contents:
+### Contents
 
-  
-  [Sketcher Workbench/uk](Sketcher_Workbench/uk.md)
+|     |     |     |
+| --- | --- | --- |
+| [Sketcher Workbench/uk](wiki/Sketcher Workbench/uk.md) |
 
 
 

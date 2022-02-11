@@ -17,20 +17,20 @@ Atrybuty Umiejscowienia obiektu mogą być dostępne i modyfikowane na 3 sposoby
 
 Umiejscowienie jest przechowywane wewnętrznie jako pozycja i obrót (oś obrotu i kąt przekształcone w [quaternion](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)). Chociaż istnieje kilka form określania obrotu, na przykład środek obrotu, jest on używany tylko do wpływania na obliczanie obrotu i nie jest przechowywany do późniejszych operacji. Podobnie, jeśli określona jest oś obrotu o wartości (1,1,1), może ona zostać znormalizowana podczas przechowywania w kwaternionie i pojawić się jako (0.58, 0.58, 0.58) podczas późniejszego przeglądania obiektu.
 
-### Angle, Axis and Position 
+### Kąt, oś i pozycja 
 
-**Placement = \[Angle, Axis, Position\]**
+**Umiejscowienie = \[Kąt, Oś i Pozycja\]**
 
-The first form of **Placement** fixes an object\'s location in space with a Position, and describes its orientation as a single rotation about an axis.
+Pierwsza forma **Umiejscowienia** ustala położenie obiektu w przestrzeni za pomocą Pozycji i opisuje jego orientację jako pojedynczy obrót wokół osi.
 
-**Angle = r** is a scalar indicating the amount of rotation of the object about **Axis**. Entered as degrees, but stored internally as radians.
+**Kąt = r** jest skalarem wskazującym wielkość obrotu obiektu wokół **Osi**. Wprowadzany jako stopnie, ale przechowywany wewnętrznie jako radiany.
 
-**Axis = (ax,ay,az)** is a vector describing an axis of rotation (See Note about axis of rotation). Examples are:
+**Oś = (ax,ay,az)** jest wektorem opisującym oś obrotu *(patrz uwaga o osi obrotu)*. Przykładami są:
 
-   (1,0,0)       ==> about **X** axis
-   (0,1,0)       ==> about **Y** axis
-   (0,0,1)       ==> about **Z** axis
-   (0.71,0.71,0) ==> about the line **y=x**
+   *(1,0,0)* ==> wokół osi **X**,
+   *(0,1,0)* ==> wokół osi **Y**,
+   *(0,0,1)* ==> wokół **osi Z**,
+   *(0,71,0,71,0)* ==> wokół prostej **y=x**.
 
 Note that it is also possible to translate (move) an object along this axis of rotation (axial motion) by entering the distance to move in the {{SpinBox|Axial: 0.0mm}} spinbox and clicking **Apply axial**. (One way to envision axial motion is to think of an airplane with a propeller spinning on its nose \-- the propeller spins *about* an axis of rotation while the plane moves *along* that same axis.) The values in the vector can be thought of as the relative amount of motion that will be applied in that direction. For example, in the y=x case (0.71,0.71,0) the value contained in the Axial spinbox gets applied in equal measure to the X and Y directions, but no movement happens in the Z direction.
 
@@ -225,7 +225,7 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 
 **NOTE:** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
 
-## Notes
+## Uwagi
 
 -   The Placement properties in the Data tab are disabled for objects which are attached to some other object. The Attachment Offset has to be edited instead.
 -   Axis and Angle can also be expressed as a [quaternion](http://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation).
@@ -240,9 +240,9 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
   Part.Torus                       center of the torus
   Features derived from Sketches   the Feature inherits the Position of the underlying Sketch. Sketches always start with Position = (0,0,0). This position corresponds to the origin in the sketch.
 
-## Issues
+## Problemy
 
--   Relative Placement of objects will eventually be handled in the Assembly workbench.
+-   Względne rozmieszczanie obiektów będzie docelowo obsługiwane w środowisku pracy Złożenie.
 
 ## More
 

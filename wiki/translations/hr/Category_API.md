@@ -3,10 +3,11 @@
 
 This category gathers articles that list objects and methods available for [Python](Python.md) programming.
 
-### Contents:
+### Contents
 
-  
-  [Arch API/hr](Arch_API/hr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch API/hr](wiki/Arch API/hr.md) |
 
 
 

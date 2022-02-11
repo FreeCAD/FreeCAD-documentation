@@ -1,10 +1,11 @@
 # Category:BIM/tr
 This category is for pages related to building information management (BIM).
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Arch/tr](wiki/Category_Arch/tr.md) |
 
 
 

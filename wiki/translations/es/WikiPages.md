@@ -49,7 +49,13 @@ Las plantillas se utilizan para dar estilo a las páginas de ayuda. Proporcionan
 
 Si está trabajando en una página grande, es aconsejable marcar la página como trabajo en curso o como inacabada. Esto asegura que los administradores del wiki no marquen su página como lista para ser traducida mientras usted todavía la está cambiando.
 
+
+<div class="mw-translate-fuzzy">
+
 Para marcar una página, añada  o  como primera línea. Con  invitas a otros a unirse a ti para terminar la página, mientras que  indica que tú mismo harás el trabajo y que los demás deben darte algo de tiempo.
+
+
+</div>
 
 Una vez terminado el trabajo, no olvides retirar las banderas.
 

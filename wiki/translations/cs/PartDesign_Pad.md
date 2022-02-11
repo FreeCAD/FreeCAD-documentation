@@ -64,16 +64,6 @@ Zadání číselné hodnoty pro výšku desky. Defaultní směr vysunutí je ven
 
 </div>
 
-### Dva rozměry 
-
-
-<div class="mw-translate-fuzzy">
-
-Umožňuje zadat druhý rozměr. Pak se deska o tuto vzdálenost vysune na opačnou stranu (vzhledem k podkladové rovině). Opět lze využít volby **Opačně**.
-
-
-</div>
-
 ### K poslední 
 
 Deska se vysune až k poslední ploše tělesa ve směru vysunutí. Není-li v daném směru žádná plocha, zobrazí se chybové hlášení.
@@ -88,6 +78,16 @@ Deska se vysune k první ploše tělesa ve směru vysunutí. Není-li v daném s
 <div class="mw-translate-fuzzy">
 
 Deska se vysune až k ploše v objektu, která je vybrána kliknutím na ni. Není-li zde žádný objekt, nebude akceptován žádný výběr.
+
+
+</div>
+
+### Dva rozměry 
+
+
+<div class="mw-translate-fuzzy">
+
+Umožňuje zadat druhý rozměr. Pak se deska o tuto vzdálenost vysune na opačnou stranu (vzhledem k podkladové rovině). Opět lze využít volby **Opačně**.
 
 
 </div>
@@ -125,6 +125,29 @@ Tick the checkbox to extrude half of the given length to either side of the sket
 ### Reversed
 
 Reverses the direction of the pad.
+
+### Taper angle 
+
+
+<small>(v0.20)</small> 
+
+Tapers the pad in the extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+
+Limitations:
+
+-   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
+-   For larger angles tapering will fail if the end face of the pad would have fewer edges than the start face/sketch.
+
+### 2nd length 
+
+Defines the length of the pad in the opposite extrusion direction. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available if **Type** is **Two dimensions**.
+
+### 2nd taper angle 
+
+
+<small>(v0.20)</small> 
+
+Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
 ## Properties
 

@@ -3,10 +3,11 @@ This category contains all the Templates
 
 See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
-### Contents:
+### Contents
 
-  
-  [Template:Languages/fi](Template:Languages/fi.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Languages/fi](wiki/Template_Languages/fi.md) |
 
 
 

@@ -30,11 +30,11 @@ The **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_L
 With selection:
 
 1.  Select an object in the [tree view](tree_view.md) or [3D view](3D_view.md) for which you wish to create a Link.
-2.  Press the **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)** button. The produced object has the same icon as the original object, but has an arrow overlay indicating it is a Link.
+2.  Press the **[<img src=images/Std_LinkMake.svg style="width:16px"> [Make link](Std_LinkMake.md)** button. The produced object has the same icon as the original object, but has an arrow overlay indicating it is a Link.
 
 Without selection:
 
-1.  If no object is selected, press the **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)** button to create an empty <img alt="" src=images/Link.svg  style="width:24px;"> Link.
+1.  If no object is selected, press the **[<img src=images/Std_LinkMake.svg style="width:16px"> [Make link](Std_LinkMake.md)** button to create an empty <img alt="" src=images/Link.svg  style="width:24px;"> Link.
 2.  Go to the [property editor](property_editor.md), then click on the **Linked Object** property to open the [Link selection dialog](Selection_methods.md) to choose an object, then press **OK**.
 3.  Instead of choosing an entire object in the [tree view](tree_view.md), you can also pick subelements (vertices, edges, or faces) of a single object in the [3D view](3D_view.md). In this case, the Link will duplicate only these subelements, and the arrow overlay will be different. This can also be done with **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std LinkMakeRelative](Std_LinkMakeRelative.md)**.
 
@@ -49,7 +49,7 @@ Without selection:
 1.  Start with a document that has at least one object which will be the source of the Link.
 2.  Open a new document or an existing document. For easier handling, use **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std TreeMultiDocument](Std_TreeMultiDocument.md)** to show both documents in the [tree view](tree_view.md). Before you proceed, [save](Std_Save.md) both documents. The Link won\'t be able to find its source and target unless both documents are saved on disk.
 3.  In the first document, select the object that you wish to link; then switch tabs in the [main view area](main_view_area.md) to switch to the second document.
-4.  Press **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**. The produced object has the same icon as the original object, but has an additional arrow overlay indicating it is a Link coming from an external document.
+4.  Press **[<img src=images/Std_LinkMake.svg style="width:16px"> [Make link](Std_LinkMake.md)**. The produced object has the same icon as the original object, but has an additional arrow overlay indicating it is a Link coming from an external document.
 
 
 **Notes:**

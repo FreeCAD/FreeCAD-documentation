@@ -1,10 +1,11 @@
 # Category:Developer/zh-tw
 This category contains articles that are relevant for developers.
 
-### Contents:
+### Contents
 
-   
-  [Compiling/zh-tw](Compiling/zh-tw.md)   [Contributors/zh-tw](Contributors/zh-tw.md)
+|     |     |     |
+| --- | --- | --- |
+| [Compiling/zh-tw](wiki/Compiling/zh-tw.md) | [Contributors/zh-tw](wiki/Contributors/zh-tw.md) |
 
 
 

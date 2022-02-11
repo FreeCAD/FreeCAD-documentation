@@ -1,11 +1,12 @@
 # Category:News/pt
 This category contains articles with news and messages about FreeCAD.
 
-### Contents:
+### Contents
 
-    
-  [History/pt](History/pt.md)                         [Release notes 0.15/pt](Release_notes_0.15/pt.md)   [Release notes 0.16/pt](Release_notes_0.16/pt.md)
-  [Release notes 0.17/pt](Release_notes_0.17/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [History/pt](wiki/History/pt.md) | [Release notes 0.15/pt](wiki/Release notes 0.15/pt.md) | [Release notes 0.16/pt](wiki/Release notes 0.16/pt.md) |
+| [Release notes 0.17/pt](wiki/Release notes 0.17/pt.md) |
 
 
 

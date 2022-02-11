@@ -1,10 +1,11 @@
 # Category:Web/pl
 Ta kategoria zawiera strony, które nawiązują do środowiska pracy [Web](Web_Workbench/pl.md).
 
-### Contents:
+### Contents
 
-   
-  [Artwork Web/pl](Artwork_Web/pl.md)   [Web Workbench/pl](Web_Workbench/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Web/pl](wiki/Artwork Web/pl.md) | [Web Workbench/pl](wiki/Web Workbench/pl.md) |
 
 
 

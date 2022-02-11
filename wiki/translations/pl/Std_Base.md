@@ -35,22 +35,22 @@ Istnieje 7 standardowych pod-menu. Każde podmenu ma dedykowaną stronę. Wystar
 
 ### Narzędzia dodatkowe 
 
--   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std: Część](Std_Part/pl.md): Tworzy nową część i czyni ją aktywną.
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std: Group](Std_Group/pl.md): Tworzy nową grupę.
--   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Std: LinkMake](Std_LinkMake/pl.md): Tworzy link. {{Version/pl|0.19}}
--   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:32px;"> [Std: LinkMakeRelative](Std_LinkMakeRelative/pl.md): Tworzy odnośnik podobiektu lub podelementu. {{Version/pl|0.19}}
--   <img alt="" src=images/Std_LinkReplace.svg  style="width:32px;"> [Std: LinkReplace](Std_LinkReplace/pl.md): Zastępuje obiekt(y) nowym linkiem(ami). {{Version/pl|0.19}}
--   <img alt="" src=images/Std_LinkUnlink.svg  style="width:32px;"> [Std: LinkUnlink](Std_LinkUnlink/pl.md): Zastępuje odnośnik(i) ich powiązanym obiektem(ami). {{Version/pl|0.19}}
--   <img alt="" src=images/Std_LinkImport.svg  style="width:32px;"> [Std: LinkImport](Std_LinkImport/pl.md): Importuje wybrany link zewnętrzny (linki). {{Version/pl|0.19}}
--   <img alt="" src=images/Std_LinkImportAll.svg  style="width:32px;"> [Std: LinkImportAll](Std_LinkImportAll/pl.md): Importuje wszystkie linki zewnętrzne. {{Version/pl|0.19}}
--   <img alt="" src=images/Std_LinkMakeGroup.svg  style="width:32px;"> [Std : Utwórz grupę łączy](Std_LinkMakeGroup/pl.md): Tworzy grupę linków. {{Version/pl|0.19}}
--   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Std: LinkSelectLinked](Std_LinkSelectLinked/pl.md): Zaznacza połączony obiekt i przełącza się do jego dokumentu. {{Version/pl|0.19}}
--   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Std: LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal/pl.md): Wybiera najgłębiej powiązany obiekt i przełącza się na jego dokument. {{Version/pl|0.19}}
--   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Std: LinkSelectAllLinks](Std_LinkSelectAllLinks/pl.md): Zaznacza wszystkie linki do obiektu. {{Version/pl|0.19}}
--   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width:32px;"> [Std: Wybierz wszystkie wystąpienia](Std_TreeSelectAllInstances/pl.md): Zaznacza wszystkie wystąpienia obiektu. {{Version/pl|0.19}}
--   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Std: SelBack](Std_SelBack/pl.md): Przywraca poprzednio zapisany wybór. <small>(v0.19)</small> 
--   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Std: SelForward](Std_SelForward/pl.md): Przywraca następny zapisany wybór. <small>(v0.19)</small> 
--   [Std: Wyrażenia](Std_Expressions/pl.md): Akcje wyrażania. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Utwórz Część](Std_Part/pl.md): Tworzy nową część i czyni ją aktywną.
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Utwórz grupę](Std_Group/pl.md): Tworzy nową grupę.
+-   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Utwórz łącze](Std_LinkMake/pl.md): Tworzy link. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:32px;"> [Utwórz łącze względne](Std_LinkMakeRelative/pl.md): Tworzy odnośnik podobiektu lub podelementu. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_LinkReplace.svg  style="width:32px;"> [Zastąp przez łącze](Std_LinkReplace/pl.md): Zastępuje obiekt(y) nowym linkiem*(ami)*. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_LinkUnlink.svg  style="width:32px;"> [Usuń powiązanie](Std_LinkUnlink/pl.md): Zastępuje odnośnik(i) ich powiązanym obiektem*(ami)*. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_LinkImport.svg  style="width:32px;"> [Importuj łącza](Std_LinkImport/pl.md): Importuje wybrany link zewnętrzny *(linki)*. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_LinkImportAll.svg  style="width:32px;"> [Importuj wszystkie łącza](Std_LinkImportAll/pl.md): Importuje wszystkie linki zewnętrzne. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_LinkMakeGroup.svg  style="width:32px;"> [Utwórz grupę łączy](Std_LinkMakeGroup/pl.md): Tworzy grupę linków. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Wybierz powiązane łącza](Std_LinkSelectLinked/pl.md): Zaznacza połączony obiekt i przełącza się do jego dokumentu. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md): Wybiera najgłębiej powiązany obiekt i przełącza się na jego dokument. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Wybierz wszystkie łącza](Std_LinkSelectAllLinks/pl.md): Zaznacza wszystkie linki do obiektu. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width:32px;"> [Wybierz wszystkie wystąpienia](Std_TreeSelectAllInstances/pl.md): Zaznacza wszystkie wystąpienia obiektu. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Przywróć wybór](Std_SelBack/pl.md): Przywraca poprzednio zapisany wybór. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Ponów wybór](Std_SelForward/pl.md): Przywraca następny zapisany wybór. <small>(v0.19)</small> 
+-   [Wyrażenia](Std_Expressions/pl.md): Akcje wyrażania. {{Version/pl|0.19}}
 
 
 

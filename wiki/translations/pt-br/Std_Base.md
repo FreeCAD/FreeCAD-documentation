@@ -44,6 +44,9 @@ O menu padrão é composto de 7 sub-menus. Cada sub-menu tem uma página dedicad
 
 ### Ferramentas adicionais 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std Part](Std_Part/pt-br.md): Cria uma nova peça e a torna ativa.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std Group](Std_Group/pt-br.md): Cria um novo grupo.
 -   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Std LinkMake](Std_LinkMake/pt-br.md): Cria um link (vínculo). <small>(v0.19)</small> 
@@ -60,6 +63,9 @@ O menu padrão é composto de 7 sub-menus. Cada sub-menu tem uma página dedicad
 -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Std SelBack](Std_SelBack/pt-br.md): Restaura a seleção anterior salva. <small>(v0.19)</small> 
 -   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Std SelForward](Std_SelForward/pt-br.md): Restaura a próxima seleção salva. <small>(v0.19)</small> 
 -   [Std Expressions](Std_Expressions/pt-br.md): Ações de expressão. <small>(v0.19)</small> 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

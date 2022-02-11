@@ -3,10 +3,11 @@ This is a complete list of pages under [:Category:Tutorials/zh-hant](:Category:T
 
 See also [Tutorials](Tutorials/zh-hant.md) and [video tutorials](video_tutorials/zh-hant.md)
 
-### Contents:
+### Contents
 
-   
-  [Draft tutorial/zh-hant](Draft_tutorial/zh-hant.md)   [Template:TutorialInfo/zh-hant](Template:TutorialInfo/zh-hant.md)
+|     |     |     |
+| --- | --- | --- |
+| [Draft tutorial/zh-hant](wiki/Draft tutorial/zh-hant.md) | [Template:TutorialInfo/zh-hant](wiki/Template_TutorialInfo/zh-hant.md) |
 
 
 

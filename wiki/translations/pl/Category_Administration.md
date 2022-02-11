@@ -1,24 +1,25 @@
 # Category:Administration/pl
 Ta kategoria zawiera artykuły i kategorie dotyczące tematów administracyjnych wiki.
 
-### Contents:
+### Contents
 
-    
-  [Template:Arch Tools navi/pl](Template:Arch_Tools_navi/pl.md)               [Template:Artwork/pl](Template:Artwork/pl.md)                           [Bug Triage/pl](Bug_Triage/pl.md)
-  [Changelog/pl](Changelog/pl.md)                                             [Crowdin Administration/pl](Crowdin_Administration/pl.md)               [Crowdin Scripts/pl](Crowdin_Scripts/pl.md)
-  [Template:Document objects navi/pl](Template:Document_objects_navi/pl.md)   [Template:Draft Tools navi/pl](Template:Draft_Tools_navi/pl.md)         [Template:Drawing Tools navi/pl](Template:Drawing_Tools_navi/pl.md)
-  [Template:EM Tools navi/pl](Template:EM_Tools_navi/pl.md)                   [Template:FEM Tools navi/pl](Template:FEM_Tools_navi/pl.md)             [Template:Image Tools navi/pl](Template:Image_Tools_navi/pl.md)
-  [Template:Interface navi/pl](Template:Interface_navi/pl.md)                 [Template:Mesh Tools navi/pl](Template:Mesh_Tools_navi/pl.md)           [Template:OpenSCAD Tools navi/pl](Template:OpenSCAD_Tools_navi/pl.md)
-  [Organization chart/pl](Organization_chart/pl.md)                           [Template:Part Tools navi/pl](Template:Part_Tools_navi/pl.md)           [Template:PartDesign Tools navi/pl](Template:PartDesign_Tools_navi/pl.md)
-  [Template:Path Tools navi/pl](Template:Path_Tools_navi/pl.md)               [Template:Plot Tools navi/pl](Template:Plot_Tools_navi/pl.md)           [Template:Powerdocnavi/pl](Template:Powerdocnavi/pl.md)
-  [Template:PropertyData/pl](Template:PropertyData/pl.md)                     [Template:PropertyView/pl](Template:PropertyView/pl.md)                 [Python 3/pl](Python_3/pl.md)
-  [Template:Raytracing Tools navi/pl](Template:Raytracing_Tools_navi/pl.md)   [Template:Robot Tools navi/pl](Template:Robot_Tools_navi/pl.md)         [Template:Ship Tools navi/pl](Template:Ship_Tools_navi/pl.md)
-  [Template:Sketcher Tools navi/pl](Template:Sketcher_Tools_navi/pl.md)       [Template:Start Tools navi/pl](Template:Start_Tools_navi/pl.md)         [Template:Std Base navi/pl](Template:Std_Base_navi/pl.md)
-  [Template:Surface Tools navi/pl](Template:Surface_Tools_navi/pl.md)         [Template:TechDraw Tools navi/pl](Template:TechDraw_Tools_navi/pl.md)   [Tracker/pl](Tracker/pl.md)
-  [Template:Tutorials navi/pl](Template:Tutorials_navi/pl.md)                 [Template:UnfinishedDocu/pl](Template:UnfinishedDocu/pl.md)             [WikiPages/pl](WikiPages/pl.md)
-  [WikiRobots/pl](WikiRobots/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Arch Tools navi/pl](wiki/Template_Arch Tools navi/pl.md) | [Template:Artwork/pl](wiki/Template_Artwork/pl.md) | [Bug Triage/pl](wiki/Bug Triage/pl.md) |
+| [Changelog/pl](wiki/Changelog/pl.md) | [Crowdin Administration/pl](wiki/Crowdin Administration/pl.md) | [Crowdin Scripts/pl](wiki/Crowdin Scripts/pl.md) |
+| [Template:Document objects navi/pl](wiki/Template_Document objects navi/pl.md) | [Template:Draft Tools navi/pl](wiki/Template_Draft Tools navi/pl.md) | [Template:Drawing Tools navi/pl](wiki/Template_Drawing Tools navi/pl.md) |
+| [Template:EM Tools navi/pl](wiki/Template_EM Tools navi/pl.md) | [Template:FEM Tools navi/pl](wiki/Template_FEM Tools navi/pl.md) | [Template:Image Tools navi/pl](wiki/Template_Image Tools navi/pl.md) |
+| [Template:Interface navi/pl](wiki/Template_Interface navi/pl.md) | [Template:Mesh Tools navi/pl](wiki/Template_Mesh Tools navi/pl.md) | [Template:OpenSCAD Tools navi/pl](wiki/Template_OpenSCAD Tools navi/pl.md) |
+| [Organization chart/pl](wiki/Organization chart/pl.md) | [Template:Part Tools navi/pl](wiki/Template_Part Tools navi/pl.md) | [Template:PartDesign Tools navi/pl](wiki/Template_PartDesign Tools navi/pl.md) |
+| [Template:Path Tools navi/pl](wiki/Template_Path Tools navi/pl.md) | [Template:Plot Tools navi/pl](wiki/Template_Plot Tools navi/pl.md) | [Template:Powerdocnavi/pl](wiki/Template_Powerdocnavi/pl.md) |
+| [Template:PropertyData/pl](wiki/Template_PropertyData/pl.md) | [Template:PropertyView/pl](wiki/Template_PropertyView/pl.md) | [Python 3/pl](wiki/Python 3/pl.md) |
+| [Template:Raytracing Tools navi/pl](wiki/Template_Raytracing Tools navi/pl.md) | [Template:Robot Tools navi/pl](wiki/Template_Robot Tools navi/pl.md) | [Template:Ship Tools navi/pl](wiki/Template_Ship Tools navi/pl.md) |
+| [Template:Sketcher Tools navi/pl](wiki/Template_Sketcher Tools navi/pl.md) | [Template:Start Tools navi/pl](wiki/Template_Start Tools navi/pl.md) | [Template:Std Base navi/pl](wiki/Template_Std Base navi/pl.md) |
+| [Template:Surface Tools navi/pl](wiki/Template_Surface Tools navi/pl.md) | [Template:TechDraw Tools navi/pl](wiki/Template_TechDraw Tools navi/pl.md) | [Tracker/pl](wiki/Tracker/pl.md) |
+| [Template:Tutorials navi/pl](wiki/Template_Tutorials navi/pl.md) | [WikiPages/pl](wiki/WikiPages/pl.md) | [WikiRobots/pl](wiki/WikiRobots/pl.md) |
+| [Category:UnfinishedDocu/pl](wiki/Category_UnfinishedDocu/pl.md) | [Category:Wiki/pl](wiki/Category_Wiki/pl.md) |
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Category:Administration/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > Category:Administration/pl

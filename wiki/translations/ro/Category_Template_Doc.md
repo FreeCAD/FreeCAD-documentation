@@ -1,10 +1,11 @@
 # Category:Template:Doc/ro
 This category lists templates that produce text boxes used for documenting commands, tutorials, and other elements.
 
-### Contents:
+### Contents
 
-  
-  [Template:Macro/ro](Template:Macro/ro.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Macro/ro](wiki/Template_Macro/ro.md) |
 
 
 

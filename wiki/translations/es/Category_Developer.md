@@ -1,15 +1,16 @@
 # Category:Developer/es
 Esta categoría contiene artículos que son relevantes para los desarrolladores.
 
-### Contents:
+### Contents
 
-    
-  [Changelog/es](Changelog/es.md)                               [Compile on Docker/es](Compile_on_Docker/es.md)   [Compile on Linux/es](Compile_on_Linux/es.md)
-  [Compile on MacOS/es](Compile_on_MacOS/es.md)                 [Compile on MinGW/es](Compile_on_MinGW/es.md)     [Compile on Windows/es](Compile_on_Windows/es.md)
-  [Compiling (Speeding up)/es](Compiling_(Speeding_up)/es.md)   [Compiling/es](Compiling/es.md)                   [Conda/es](Conda/es.md)
-  [Contributors/es](Contributors/es.md)                         [Doxygen/es](Doxygen/es.md)                       [File Format FCStd/es](File_Format_FCStd/es.md)
-  [ImageConv/es](ImageConv/es.md)                               [Material/es](Material/es.md)                     [Organization chart/es](Organization_chart/es.md)
-  [Svg Namespace/es](Svg_Namespace/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Changelog/es](wiki/Changelog/es.md) | [Compile on Docker/es](wiki/Compile on Docker/es.md) | [Compile on Linux/es](wiki/Compile on Linux/es.md) |
+| [Compile on MacOS/es](wiki/Compile on MacOS/es.md) | [Compile on MinGW/es](wiki/Compile on MinGW/es.md) | [Compile on Windows/es](wiki/Compile on Windows/es.md) |
+| [Compiling (Speeding up)/es](wiki/Compiling (Speeding up)/es.md) | [Compiling/es](wiki/Compiling/es.md) | [Conda/es](wiki/Conda/es.md) |
+| [Contributors/es](wiki/Contributors/es.md) | [Doxygen/es](wiki/Doxygen/es.md) | [File Format FCStd/es](wiki/File Format FCStd/es.md) |
+| [ImageConv/es](wiki/ImageConv/es.md) | [Material/es](wiki/Material/es.md) | [Organization chart/es](wiki/Organization chart/es.md) |
+| [Svg Namespace/es](wiki/Svg Namespace/es.md) |
 
 
 

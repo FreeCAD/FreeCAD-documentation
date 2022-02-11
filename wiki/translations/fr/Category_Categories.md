@@ -8,18 +8,18 @@ Utilisez les outils suivants pour travailler avec les :
 -   toutes les **catégories** qui sont **non classées**, utiliser la [liste des catégories inclassables](Special:Uncategorizedcategories/fr.md).
 -   toutes les **images** qui sont **non classées**, utiliser la [liste des images non classées](Special:Uncategorizedimages/fr.md).
 
-### Contents:
+### Contents
 
-  -- -- --
-        
-        
-        
-        
-        
-        
-        
-        
-  -- -- --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Addons/fr](wiki/Category_Addons/fr.md) | [Category:Administration/fr](wiki/Category_Administration/fr.md) | [Category:API/fr](wiki/Category_API/fr.md) |
+| [Category:Categories/fr](wiki/Category_Categories/fr.md) | [Category:Command Reference/fr](wiki/Category_Command Reference/fr.md) | [Category:Developer/fr](wiki/Category_Developer/fr.md) |
+| [Category:Documentation/fr](wiki/Category_Documentation/fr.md) | [Category:Help/fr](wiki/Category_Help/fr.md) | [Category:Hubs/fr](wiki/Category_Hubs/fr.md) |
+| [Category:Icon/fr](wiki/Category_Icon/fr.md) | [Category:Image/fr](wiki/Category_Image/fr.md) | [Category:Macros/fr](wiki/Category_Macros/fr.md) |
+| [Category:News/fr](wiki/Category_News/fr.md) | [Category:Python Code/fr](wiki/Category_Python Code/fr.md) | [Category:Repository/fr](wiki/Category_Repository/fr.md) |
+| [Category:Roadmap/fr](wiki/Category_Roadmap/fr.md) | [Category:Sandbox/fr](wiki/Category_Sandbox/fr.md) | [Category:Template/fr](wiki/Category_Template/fr.md) |
+| [Category:Tutorials/fr](wiki/Category_Tutorials/fr.md) | [Category:UnfinishedDocu/fr](wiki/Category_UnfinishedDocu/fr.md) | [Category:Wiki/fr](wiki/Category_Wiki/fr.md) |
+|
 
 
 

@@ -1,10 +1,11 @@
 # Category:Web/tr
 This category lists pages that relate to the [Web Workbench/tr](Web_Workbench/tr.md).
 
-### Contents:
+### Contents
 
-  
-  [Web Workbench/tr](Web_Workbench/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Web Workbench/tr](wiki/Web Workbench/tr.md) |
 
 
 

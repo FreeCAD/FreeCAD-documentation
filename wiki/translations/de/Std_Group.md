@@ -25,10 +25,16 @@ Um 3D-Objekte zu einer einzelnen Einheit zu gruppieren, um Baugruppen zu erzeuge
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Auf den Namen des Dokumentes in der [Baumansicht](tree_view/de.md) klicken, das Kontextmenü mit einem Rechtsklick öffnen und **Erstelle Gruppe** wählen.
 2.  Oder die Schaltfläche **<img src="images/Std_Group.svg" width=16px> [Gruppe](Std_Group/de.md)** in der Strukturwerkzeugleiste betätigen. Es wird eine leere Gruppe erstellt.
 3.  Um Objekte einer Gruppe hinzuzufügen, werden sie in der [Baumansicht](tree_view/de.md) gewählt und mit Drag & Drop auf die Gruppe gezogen.
 4.  Um Objekte aus einer Gruppe zu entfernen, werden sie aus der Gruppe auf die Dokumentbezeichnung oben in der [Baumansicht](tree_view/de.md) gezogen .
+
+
+</div>
 
 ### Hinweise
 

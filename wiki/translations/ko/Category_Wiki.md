@@ -1,10 +1,11 @@
 # Category:Wiki/ko
 This category contains all documents that relate to the Wiki.
 
-### Contents:
+### Contents
 
-  
-  [Localisation/ko](Localisation/ko.md)
+|     |     |     |
+| --- | --- | --- |
+| [Localisation/ko](wiki/Localisation/ko.md) |
 
 
 

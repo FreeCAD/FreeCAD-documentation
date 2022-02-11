@@ -34,16 +34,28 @@ Lo strumento **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link]
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 Con selezione:
 
 1.  Selezionare un oggetto nella [vista ad albero](tree_view/it.md) o nella [vista 3D](3D_view/it.md) per il quale si desidera creare un link.
 2.  Premere il pulsante **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)**. L\'oggetto prodotto ha la stessa icona dell\'oggetto originale, ma ha una freccia sovrapposta che indica che è un collegamento.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Senza selezione:
 
 1.  Se non viene selezionato alcun oggetto, premere il pulsante<img alt="" src=images/Link.svg  style="width:24px;"> **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)** per creare un link vuoto .
 2.  Vai all\'[editor delle proprietà](property_editor/it.md), quindi clicca sulla proprietà {{PropertyData/it|Linked Object}} per aprire [metodi di selezione](Selection_methods/it.md) e scegliere un oggetto, poi premi **OK**.
 3.  Invece di scegliere un intero oggetto nella [vista ad albero](tree_view/it.md), è anche possibile scegliere i sottoelementi (vertici, bordi o facce) di un singolo oggetto nella [vista 3D](3D_view/it.md). In questo caso, il Link duplicherà solo questi sottoelementi, e la sovrapposizione delle frecce sarà diversa. Questo può essere fatto anche con **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [crea un link relativo](Std_LinkMakeRelative/it.md)**.
+
+
+</div>
 
 ![](images/Std_Link_tree_example.png ) ![](images/Std_Link_example.png )
 
@@ -53,10 +65,16 @@ Senza selezione:
 
 ## Utilizzo: documenti esterni 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Iniziare con un documento che ha almeno un oggetto che sarà la fonte del Link.
 2.  Aprire un nuovo documento o un documento esistente. Per una più facile gestione, usare **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Visualizza Multi documento](Std_TreeMultiDocument/it.md)** per mostrare entrambi i documenti nella [vista ad albero](tree_view/it.md). Prima di procedere, [salva](Std_Save/it.md) entrambi i documenti. Il Link non sarà in grado di trovare la sua fonte e la sua destinazione a meno che entrambi i documenti non siano salvati su disco.
 3.  Nel primo documento, selezionare l\'oggetto che si desidera collegare; poi passare alle schede nell\'[area della vista principale](main_view_area/it.md) per passare al secondo documento.
 4.  Premere **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)**. L\'oggetto prodotto ha la stessa icona dell\'oggetto originale, ma ha una freccia aggiuntiva che indica che si tratta di un link proveniente da un documento esterno.
+
+
+</div>
 
 
 **Notes:**

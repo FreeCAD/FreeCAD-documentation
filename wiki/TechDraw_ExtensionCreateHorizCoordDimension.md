@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionCreateHorizCoordDimension
-   MenuLocation:TechDraw → Extensions: Dimensions → Create horizontal coordinate dimension
+   MenuLocation:TechDraw → Extensions: Dimensions → Create Horizontal Coordinate Dimensions
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
@@ -19,14 +19,13 @@ The <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  styl
 
 ## Usage
 
-1.  The spacing is determined by the **Cascade spacing** box in the **<img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=16px> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md)** tool.
-2.  Select two or more vertexes.
-3.  If the first selected vertex is positioned left of the second one, the baseline is created at the leftmost vertex.
-4.  If the first selected vertex is positioned right of the second one, the baseline is created at the rightmost vertex.
-5.  There are several ways to invoke the tool:
+1.  Optionally specify the cascade spacing with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
+2.  Select three or more vertexes.
+3.  The selection order of the first two vertexes determines the position of the baseline. If the vertex that is selected first is to the left of the second, the baseline is created at the leftmost vertex, else it is created at the rightmost vertex.
+4.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> [TechDraw ExtensionCreateHorizCoordDimension](TechDraw_ExtensionCreateHorizCoordDimension.md)** button.
-    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> Create horizontal coordinate dimension** option from the menu.
-6.  Coordinate dimensions with centered dimension texts are created.
+    -   Select the **TechDraw → Extensions: Dimensions → <img src="images/TechDraw_ExtensionCreateHorizCoordDimension.svg" width=16px> Create Horizontal Coordinate Dimensions** option from the menu.
+5.  Coordinate dimensions with centered dimension texts are created.
 
 
 

@@ -1,10 +1,11 @@
 # Category:BIM/uk
 This category is for pages related to building information management (BIM).
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Arch/uk](wiki/Category_Arch/uk.md) |
 
 
 

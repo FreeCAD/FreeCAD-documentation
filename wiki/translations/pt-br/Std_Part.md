@@ -32,7 +32,7 @@ The **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)*
 
 ## Usage
 
-1.  Press the **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** button. An empty Part is created and automatically becomes *[active](Std_Part#Active_status.md)*.
+1.  Press the **[<img src=images/Std_Part.svg style="width:16px"> [Create part](Std_Part.md)** button. An empty Part is created and automatically becomes *[active](Std_Part#Active_status.md)*.
 2.  To add objects to a Part, select them in [tree view](tree_view.md), and then drag and drop them over the Part.
 3.  To remove objects from a Part, drag them out of the Part, and onto the document label at the top of the [tree view](tree_view.md).
 
@@ -105,7 +105,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 -    **Visibility|Bool**: whether to display the object or not.
 
--    **Origin|Link**: the [App Origin](App_Origin.md) object that is the positional reference for all elements listed in **Group**.
+-    **Origin|Link**: the [App Origin](App_OriginGroupExtension.md) object that is the positional reference for all elements listed in **Group**.
 
 -    **_ Group Touched|Bool**: whether the group is touched or not.
 
@@ -178,7 +178,7 @@ The Origin consists of the three standard axes (X, Y, Z) and three standard plan
 
 **Note:**
 
-the Origin is an [App Origin](App_Origin.md) object (`App::Origin` class), while the axes and planes are objects of type `App::Line` and `App::Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
+the Origin is an [App Origin](App_OriginGroupExtension.md) object (`App::Origin` class), while the axes and planes are objects of type `App::Line` and `App::Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar; this is useful to choose the correct reference when creating other objects.
 
 
 **Note 2:**

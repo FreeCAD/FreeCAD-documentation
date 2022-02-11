@@ -1,11 +1,12 @@
 # Category:Testing/pl
 Pages related to testing in regards to unit testing, continuous integration, quality assurance, regression testing etc\...
 
-### Contents:
+### Contents
 
-    
-  [AppImage/pl](AppImage/pl.md)   [Continuous Integration/pl](Continuous_Integration/pl.md)   [LGTM/pl](LGTM/pl.md)
-  [Testing/pl](Testing/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [AppImage/pl](wiki/AppImage/pl.md) | [Continuous Integration/pl](wiki/Continuous Integration/pl.md) | [LGTM/pl](wiki/LGTM/pl.md) |
+| [Testing/pl](wiki/Testing/pl.md) | [Category:Test Framework/pl](wiki/Category_Test Framework/pl.md) |
 
 
 

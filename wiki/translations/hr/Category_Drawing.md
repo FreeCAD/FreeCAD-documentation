@@ -1,10 +1,11 @@
 # Category:Drawing/hr
 This category lists pages related to the [Drawing Workbench/hr](Drawing_Workbench/hr.md).
 
-### Contents:
+### Contents
 
-  
-  [Drawing Workbench/hr](Drawing_Workbench/hr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Drawing Workbench/hr](wiki/Drawing Workbench/hr.md) |
 
 
 

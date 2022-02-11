@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/fr
    Name:Material_editor
-   Name/fr:Editeur de matériaux
+   Name/fr:Éditeur de matériaux
    Icon:Arch_Material_Group.svg
-   MenuLocation:Model → Material → Material editor
+   MenuLocation:Modèle → Matériaux → Éditeur de matériaux
    Workbenches:[FEM](FEM_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.18
    SeeAlso:[Matériau](Material/fr.md), [Arch Matériaux](Arch_SetMaterial/fr.md), [Tutoriel FEM](FEM_tutorial/fr.md)
@@ -26,30 +26,30 @@ L\'éditeur de matériau est accessible soit par:
     -   L\'entrée du menu **Arch → Outils matériaux...**
 2.  <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [Atelier FEM](FEM_Workbench/fr.md)
     -   L\'icône <img alt="" src=images/Arch_Material_Group.svg  style="width:16px;"> [Editeur de matériaux](Material_editor/fr.md)
-    -   L\'entrée du menu **Models → Materials → Material editor**
+    -   L\'entrée du menu **Modèle → Matériaux → Éditeur de matériaux**
 3.  Via Python (voir la section [Script](#Script.md) ci-dessous)
 
 ## Options
 
--   **Browser button**: Ouvre l\'url des propriétés dans un navigateur web
+-   **Browser button** : Ouvre l\'url des propriétés dans un navigateur web
 
--   **Material card**: Choix d\'un champs prédéterminé
+-   **Material card** : Choix d\'un champs prédéterminé
 
 -    **Open**: Ouvre un fichier .FCMat
 
 -    **Save as**: Sauvegarde le contenu de l\'éditeur dans un nouveau fichier .FCMat file
 
--   **Preview**: Pas encore implémenté
+-   **Preview** : Pas encore implémenté
 
--   **Properties editor**: Alloue ou édite le contenu des propriétés du matériau
+-   **Properties editor** : Alloue ou édite le contenu des propriétés du matériau
 
 -    **Add property**: Alloue ou ajoute une nouvelle propriété
 
 -    **Delete property**: Efface les propriétés du matériau
 
-Remarque:
+Remarque :
 
--   Les boutons **OK** et **Cancel** ont le même effet dans l\'éditeur de matériaux et ne sont pas utilisés directement dans les propriétés du matériau de l\'objet existant.
+-   Les boutons **OK** et **Annuler** ont le même effet dans l\'éditeur de matériaux et ne sont pas utilisés directement dans les propriétés du matériau de l\'objet existant.
 
 ## Script
 

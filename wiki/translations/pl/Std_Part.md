@@ -33,7 +33,7 @@ Narzędzie **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](S
 
 ## Użycie
 
-1.  Naciśnij przycisk **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](Std_Part/pl.md)**. Zostanie utworzona pusta część, która automatycznie stanie się *[aktywna](Std_Part/pl#Status_aktywności.md)*.
+1.  Naciśnij przycisk **[<img src=images/Std_Part.svg style="width:16px"> [Utwórz Część](Std_Part/pl.md)**. Zostanie utworzona pusta część, która automatycznie stanie się *[aktywna](Std_Part/pl#Status_aktywności.md)*.
 2.  Aby dodać obiekty do nowo utworzonej pozycji Części, zaznacz ją w [widoku drzewa](Tree_view/pl.md), a następnie przeciągnij je i upuść nad Częścią.
 3.  Aby usunąć obiekty z części, przeciągnij je poza część, na etykietę dokumentu u góry [widoku drzewa](Tree_view/pl.md).
 
@@ -106,7 +106,7 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 -    **Widoczność|Bool**: parametr określający czy obiekt ma być widoczny, czy też nie.
 
--    **Origin|Link**: the [App: Origin](App_Origin.md) obiekt, który jest odniesieniem położenia dla wszystkich elementów wymienionych w **Grupie**.
+-    **Origin|Link**: the [App: Odniesienie położenia](App_OriginGroupExtension.md) obiekt, który jest odniesieniem położenia dla wszystkich elementów wymienionych w **Grupie**.
 
 -    **_ Grupa Dotknięta|Bool**: parametr określający czy grupa jest wzruszona, czy też nie.
 
@@ -181,7 +181,7 @@ Początek układu współrzędnych składa się z trzech standardowych osi *(X, 
 
 **Uwaga:**
 
-Początek układu współrzędnych jest obiektem [App Origin](App_Origin.md) *(klasa `App::Origin`)*, podczas gdy osie i płaszczyzny są obiektami odpowiednio typu `App::Line` oraz `App::Plane`. Każdy z tych elementów może być ukryty i nieujawniany indywidualnie przy użyciu klawisza **spacja**. Jest to przydatne przy tworzeniu innych obiektów, aby wybrać właściwe odniesienie.
+Początek układu współrzędnych jest obiektem [App: Odniesienie położenia](App_OriginGroupExtension.md) *(klasa `App::Origin`)*, podczas gdy osie i płaszczyzny są obiektami odpowiednio typu `App::Line` oraz `App::Plane`. Każdy z tych elementów może być ukryty i nieujawniany indywidualnie przy użyciu klawisza **spacja**. Jest to przydatne przy tworzeniu innych obiektów, aby wybrać właściwe odniesienie.
 
 
 **Uwaga 2:**

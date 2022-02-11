@@ -65,6 +65,22 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 -   **Style de représentation**: La norme (et son style) selon laquelle la cote est dessinée. Voir la propriété [**Standard And Style**](#Vue.md) pour plus de détails.
 
+### Lignes
+
+-   **Remplacer les angles** : Si cette case est cochée, les angles existants de la ligne de cote et des lignes d\'extension seront remplacés par les valeurs spécifiées.
+
+-   **Angle de la cote** : Valeur de substitution pour l\'angle de la cote avec l\'axe X de la vue (en degrés).
+
+-   **Utiliser la valeur par défaut** : Met l\'angle de la ligne de cote à l\'angle existant.
+
+-   **Utiliser la sélection** : Définit l\'angle de la ligne de cote pour qu\'il corresponde à l\'angle de l\'arête sélectionnée (ou de deux sommets) dans la vue.
+
+-   **Angle des lignes d\'extension** : Valeur de remplacement pour l\'angle des lignes d\'extension avec l\'axe X de la vue (en degrés).
+
+-   **Utiliser la valeur par défaut** : Met l\'angle de la ligne d\'extension à l\'angle existant.
+
+-   **Utiliser la sélection** : Définit l\'angle de la ligne d\'extension pour qu\'il corresponde à l\'angle de l\'arête sélectionnée (ou de 2 sommets) dans la vue.
+
 ## Propriétés
 
 ### Données
@@ -82,8 +98,8 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 :   
 
-    :   *True* - basé sur la géométrie 3D ou
-    :   *Projected* - basé sur le dessin
+    :   True - basé sur la géométrie 3D ou
+    :   Projected - basé sur le dessin
 
 -    **Theoretical Exact**: spécifie une dimension théoriquement exacte (ou de base).
 
@@ -157,6 +173,27 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
         \- le contenu de **Format Spec** sera affiché sous forme de texte à la place si la valeur de la dimension.
 
 -    **Arbitrary Tolerances**: Comme **Arbitrary**, mais pour la tolérance.
+
+
+{{Properties_Title|Override}}
+
+-    **AngleOverride**: Indique si la direction des lignes de cote et d\'extension est remplacée.
+
+:   
+
+    :   
+        `False`
+        
+        \- les directions sont calculées comme d\'habitude.
+
+    :   
+        `True`
+        
+        \- les directions sont remplacées par les valeurs des propriétés LineAngle et ExtensionAngle.
+
+-    **LineAngle**: Angle de la ligne de cote avec l\'axe X de la vue (en degrés).
+
+-    **ExtensionAngle**: Angle de la ou des lignes d\'extension avec l\'axe X de la vue (en degrés).
 
 ### Vue
 

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionPosVertChainDimension
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Align vertical dimensions
+   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Position Vertical Chain Dimensions
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
@@ -19,11 +19,11 @@ The <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  style="w
 
 ## Usage
 
-1.  Select the first vertical dimension. This dimension will not be moved, the dimensions that are added to the selection will be aligned with this dimension.
-2.  Add one or more vertical dimensions to the selection.
+1.  Select two or more vertical dimensions.
+2.  The first dimension defines the position. This dimension will not be move.
 3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ExtensionPosVertChainDimension.svg" width=16px> [TechDraw ExtensionPosVertChainDimension](TechDraw_ExtensionPosVertChainDimension.md)** button.
-    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionPosVertChainDimension.svg" width=16px> Align vertical dimensions** option from the menu.
+    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionPosVertChainDimension.svg" width=16px> Position Vertical Chain Dimensions** option from the menu.
 4.  The dimensions are aligned and their dimension texts are centered.
 
 ## Notes

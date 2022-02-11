@@ -1,10 +1,11 @@
 # Category:Hubs/uk
 This category gathers the meeting points of the 3 broad categories of users of FreeCAD\...
 
-### Contents:
+### Contents
 
-  
-  [User hub/uk](User_hub/uk.md)
+|     |     |     |
+| --- | --- | --- |
+| [User hub/uk](wiki/User hub/uk.md) |
 
 
 

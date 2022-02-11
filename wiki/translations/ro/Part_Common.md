@@ -22,12 +22,26 @@ Funcția **![](images/)_[Intersection](Part_Common/fr.md)**, extrage partea com
 [480px\|left](IMAGE:Part_Common_fr_01.png.md)
 
 
-### Usage
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
+### Usage 
 
 1.  Select two shapes
 2.  Press the **![](images/)_[Common](Part_Common.md)** button.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ### Intrări suportate 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

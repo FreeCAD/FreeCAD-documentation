@@ -1,10 +1,11 @@
 # Category:Arch/zh-hant
 Pages relating to Architectural and Building Information Management
 
-### Contents:
+### Contents
 
-  
-  [Arch Workbench/zh-hant](Arch_Workbench/zh-hant.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch Workbench/zh-hant](wiki/Arch Workbench/zh-hant.md) |
 
 
 

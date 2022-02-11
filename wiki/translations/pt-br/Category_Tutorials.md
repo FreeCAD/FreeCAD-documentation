@@ -3,17 +3,18 @@ FreeCAD tutorials. Please help us adding more!
 
 Special pages are [Offsite tutorials](Offsite_tutorials/pt-br.md) and [Video tutorials](Video_tutorials/pt-br.md) that hierarchically contain links to tutorials hosted on external sites. A useful source of video tutorials is of course also a *FreeCAD* keyword search on [YouTube](http://YouTube.com).
 
-### Contents:
+### Contents
 
-    
-  [Arch panel tutorial/pt-br](Arch_panel_tutorial/pt-br.md)                                   [Arch tutorial/pt-br](Arch_tutorial/pt-br.md)                                                   [Basic modeling tutorial/pt-br](Basic_modeling_tutorial/pt-br.md)
-  [Basic Part Design Tutorial/pt-br](Basic_Part_Design_Tutorial/pt-br.md)                     [Basic Sketcher Tutorial/pt-br](Basic_Sketcher_Tutorial/pt-br.md)                               [Creating a simple part with PartDesign/pt-br](Creating_a_simple_part_with_PartDesign/pt-br.md)
-  [Export to STL or OBJ/pt-br](Export_to_STL_or_OBJ/pt-br.md)                                 [How to install additional workbenches/pt-br](How_to_install_additional_workbenches/pt-br.md)   [How to install macros/pt-br](How_to_install_macros/pt-br.md)
-  [Import from STL or OBJ/pt-br](Import_from_STL_or_OBJ/pt-br.md)                             [Manual:BIM modeling/pt-br](Manual:BIM_modeling/pt-br.md)                                       [Part and PartDesign/pt-br](Part_and_PartDesign/pt-br.md)
-  [PartDesign Bearingholder Tutorial I/pt-br](PartDesign_Bearingholder_Tutorial_I/pt-br.md)   [PartDesign Bearingholder Tutorial II/pt-br](PartDesign_Bearingholder_Tutorial_II/pt-br.md)     [Path Walkthrough for the Impatient/pt-br](Path_Walkthrough_for_the_Impatient/pt-br.md)
-  [Robot 6-Axis/pt-br](Robot_6-Axis/pt-br.md)                                                 [Robot tutorial/pt-br](Robot_tutorial/pt-br.md)                                                 [Sketcher Micro Tutorial - Constraint Practices/pt-br](Sketcher_Micro_Tutorial_-_Constraint_Practices/pt-br.md)
-  [Sketcher requirement for a sketch/pt-br](Sketcher_requirement_for_a_sketch/pt-br.md)       [Template:TutorialInfo/pt-br](Template:TutorialInfo/pt-br.md)                                   [Tutorials/pt-br](Tutorials/pt-br.md)
-  [Video tutorials/pt-br](Video_tutorials/pt-br.md)                                           [VRML Preparation for Robot Simulation/pt-br](VRML_Preparation_for_Robot_Simulation/pt-br.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch panel tutorial/pt-br](wiki/Arch panel tutorial/pt-br.md) | [Arch tutorial/pt-br](wiki/Arch tutorial/pt-br.md) | [Basic modeling tutorial/pt-br](wiki/Basic modeling tutorial/pt-br.md) |
+| [Basic Part Design Tutorial/pt-br](wiki/Basic Part Design Tutorial/pt-br.md) | [Basic Sketcher Tutorial/pt-br](wiki/Basic Sketcher Tutorial/pt-br.md) | [Creating a simple part with PartDesign/pt-br](wiki/Creating a simple part with PartDesign/pt-br.md) |
+| [Export to STL or OBJ/pt-br](wiki/Export to STL or OBJ/pt-br.md) | [How to install additional workbenches/pt-br](wiki/How to install additional workbenches/pt-br.md) | [How to install macros/pt-br](wiki/How to install macros/pt-br.md) |
+| [Import from STL or OBJ/pt-br](wiki/Import from STL or OBJ/pt-br.md) | [Manual:BIM modeling/pt-br](wiki/Manual_BIM modeling/pt-br.md) | [Part and PartDesign/pt-br](wiki/Part and PartDesign/pt-br.md) |
+| [PartDesign Bearingholder Tutorial I/pt-br](wiki/PartDesign Bearingholder Tutorial I/pt-br.md) | [PartDesign Bearingholder Tutorial II/pt-br](wiki/PartDesign Bearingholder Tutorial II/pt-br.md) | [Path Walkthrough for the Impatient/pt-br](wiki/Path Walkthrough for the Impatient/pt-br.md) |
+| [Robot 6-Axis/pt-br](wiki/Robot 6-Axis/pt-br.md) | [Robot tutorial/pt-br](wiki/Robot tutorial/pt-br.md) | [Sketcher Micro Tutorial - Constraint Practices/pt-br](wiki/Sketcher Micro Tutorial - Constraint Practices/pt-br.md) |
+| [Sketcher requirement for a sketch/pt-br](wiki/Sketcher requirement for a sketch/pt-br.md) | [Template:TutorialInfo/pt-br](wiki/Template_TutorialInfo/pt-br.md) | [Tutorials/pt-br](wiki/Tutorials/pt-br.md) |
+| [Video tutorials/pt-br](wiki/Video tutorials/pt-br.md) | [VRML Preparation for Robot Simulation/pt-br](wiki/VRML Preparation for Robot Simulation/pt-br.md) |
 
 
 

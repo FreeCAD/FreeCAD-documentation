@@ -24,6 +24,32 @@ Phases planifiées pour générer du contenu :
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/fr.md)**.
 }}
 
+
+<div class="mw-collapsible mw-collapsed">
+
+### Charnière étape par étape 
+
+
+<div class="mw-collapsible-content toccolours">
+
+1.  Créez un profil (une ligne et un arc tangent), de préférence en utilisant l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;">[atelier Sketcher](Sketcher_Workbench/fr.md).
+2.  Activez <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase/fr.md) pour créer un objet BaseBend.
+3.  Modifiez les paramètres de l\'objet BaseBend :
+    -   Définissez **Mid Plane** sur `True` pour que le profil s\'étende symétriquement des deux côtés du plan de l\'esquisse.
+    -   Donnez à **radius** et **thickness** les valeurs de votre choix.
+4.  Créez un contour découpé avec l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;">[atelier Sketcher](Sketcher_Workbench/fr.md).
+5.  Utilisez <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md) pour couper la moitié du bout rond.
+6.  Créez un modèle de trou avec l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;">[atelier Sketcher](Sketcher_Workbench/fr.md)
+7.  Utilisez <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [PartDesign Perçage](PartDesign_Hole/fr.md). Évitez les options Chambrage et Fraisure pour que le corps reste dépliable.
+8.  Activez la commande <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold/fr.md) pour obtenir un objet déplié.
+9.  C\'est fait !
+
+
+</div>
+
+
+</div>
+
 ## Clip papier 
 
 <img alt="" src=images/SheetMetal_Example-02.png  style="width:400px;">
@@ -35,7 +61,74 @@ cloner, retourner et fusionner,
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/fr.md)**.
 }}
 
-Dommage qu\'il manque un outil pour mettre en miroir l\'objet entier. Un objet de liaison pourrait être mis en miroir, mais lorsqu\'il est fusionné (booléen), le dépliage échoue. Pour obtenir une pièce dépliable avec les deux moitiés fusionnées, un clone ou l\'un d\'une paire d\'objets de liaison doit être retourné (tourné de 180°) au lieu d\'être mis en miroir.
+
+<div class="mw-collapsible mw-collapsed">
+
+### Clip papier étape par étape 
+
+
+<div class="mw-collapsible-content toccolours">
+
+1.  Créez un profil, de préférence en utilisant l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;">[atelier Sketcher](Sketcher_Workbench/fr.md) sur le plan XZ.
+    <img alt="Esquisse du profil" src=images/SheetMetal_Example-02e.png  style="width:300px;">
+2.  Activez <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase/fr.md) pour créer un objet BaseBend.
+3.  Modifiez les paramètres de l\'objet BaseBend dans le panneau des propriétés:
+    <img alt="Objet BaseBend et esquisse en surbrillance" src=images/SheetMetal_Example-02f.png  style="width:200px;">.
+    -   Définissez **mid plane** sur `True` pour que le profil s\'étende symétriquement des deux côtés du plan de l\'esquisse.
+    -   Définissez **length** sur 32 mm.
+    -   Donnez à **radius** la valeur 2 mm.
+    -   Définissez **thickness** à 0,3 mm.
+4.  Sélectionnez la face entre les sections rondes et activez l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;">[atelier Sketcher](Sketcher_Workbench/fr.md).
+    <img alt="Face pour supporter l\'esquisse" src=images/SheetMetal_Example-02g.png  style="width:200px;">
+5.  Pour cacher la partie recourbée, utilisez <img alt="" src=images/Sketcher_ViewSection.svg  style="width:16px;"> [Sketcher Vue en section](Sketcher_ViewSection/fr.md).
+6.  Créez le contour de la découpe.
+    <img alt="Contour de la découpe" src=images/SheetMetal_Example-02h.png  style="width:" height="240px;"> <img alt="Contour découpé touchant légèrement la face sélectionnée" src=images/SheetMetal_Example-02i.png  style="width:" height="240px;">
+7.  Terminez l\'esquisse en utilisant <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketcher Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md).
+8.  Sélectionnez à nouveau la face et ajoutez l\'esquisse de découpe à la sélection.
+    <img alt="Face et esquisse sélectionnées" src=images/SheetMetal_Example-02j.png  style="width:200px;">
+9.  Utilisez l\'outil <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Sketch on Sheet](SheetMetal_SketchOnSheet/fr.md) pour découper autour de la partie recourbée.
+    <img alt="Première moitié finie" src=images/SheetMetal_Example-02b.png  style="width:200px;">
+10. Un côté est terminé. Nous devons maintenant trouver un moyen d\'inverser le corps.
+
+*Options possibles pour la symétrie :*.
+
+-   La commande <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> [PartDesign Symétrie](PartDesign_Mirrored/fr.md) échoue car elle ne peut pas gérer les caractéristiques SheetMetal pour une raison inconnue. Cela ne fonctionne donc pas.
+-   La commande <img alt="" src=images/Part_Mirror.svg  style="width:16px;"> [Part Miroir](Part_Mirror/fr.md) crée une pièce miroir, mais celle-ci n\'est plus dépliable. Cela ne fonctionne pas non plus.
+-   La seule solution qui peut fonctionner est d\'utiliser un clone. Celui-ci ne peut toujours pas être symétrisé, mais il peut utiliser la symétrie axiale (le tourner de 180°).
+-   Un autre moyen qui fonctionne est d\'utiliser un objet de liaison.
+
+**Symétrie utilisant un clone :**
+
+1.  Sélectionnez le corps dans l\'arborescence.
+2.  Utilisez <img alt="" src=images/PartDesign_Clone.svg  style="width:16px;"> [PartDesign Clone](PartDesign_Clone/fr.md). Cela ajoute un nouveau corps contenant un objet clone.
+    Pour appliquer un retournement de 180°, réglez **Angle** sous la propriété Placement du corps ou du clone sur 180°. (L\'axe Z est par défaut et devrait convenir si vous avez commencé sur le plan XZ comme décrit).
+    <img alt="Moitié clonée" src=images/SheetMetal_Example-02b.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="Moitié clonée inversée" src=images/SheetMetal_Example-02l.png  style="width:200px;">
+3.  Avec le corps toujours actif, utilisez une <img alt="" src=images/PartDesign_Boolean.svg  style="width:16px;"> [PartDesign Opération booléenne](PartDesign_Boolean/fr.md) pour ajouter le corps du clone et fusionner les deux moitiés.
+    <img alt="Moitiés fusionnées" src=images/SheetMetal_Example-02c.png  style="width:200px;">
+4.  Activez le <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold/fr.md) pour obtenir un objet déplié.
+    <img alt="Clip et objet déplié" src=images/SheetMetal_Example-02m.png  style="width:200px;"> <img alt="Objet déplié" src=images/SheetMetal_Example-02d.png  style="width:200px;">
+5.  C\'est fait !
+
+**Symétrie utilisant un objet de liaison :**
+
+1.  Sélectionnez le corps dans l\'arborescence.
+2.  Utilisez la commande <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> [Créer un lien](Std_LinkMake/fr.md). Cela ajoute un nouvel objet lien.
+3.  Dupliquez l\'objet lien en fixant la propriété **Element Count** à 2.
+4.  Pour appliquer un retournement de 180°, définissez **Angle** sous la propriété Placement de l\'un ou l\'autre des objets sous-liés sur 180°. (L\'axe Z est la valeur par défaut et devrait convenir si vous avez commencé sur le plan XZ comme décrit).
+5.  Sélectionnez les deux objets sous-liés dans l\'arborescence.
+6.  Activez la fonction <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> [Part Union](Part_Fuse/fr.md) pour fusionner les deux moitiés.
+    <img alt="Moitiés fusionnées" src=images/SheetMetal_Example-02c.png  style="width:200px;">
+7.  Activez la commande <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold/fr.md) pour obtenir un objet déplié.
+
+<img alt="Clip et objet déplié" src=images/SheetMetal_Example-02m.png  style="width:200px;"> <img alt="Objet déplié" src=images/SheetMetal_Example-02d.png  style="width:200px;">
+
+1.  C\'est fait !
+
+
+</div>
+
+
+</div>
 
 ## Collier oméga 
 

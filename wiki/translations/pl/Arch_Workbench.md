@@ -19,70 +19,70 @@ Twórcy Draft, Arch i BIM współpracują również z większą [Społeczności�
 
 Są to narzędzia służące do tworzenia obiektów architektonicznych.
 
--   <img alt="" src=images/Arch_Wall.svg  style="width:32px;"> [Wall](Arch_Wall.md): tworzy ścianę od podstaw lub wykorzystuje wybrany obiekt jako podstawę.
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Mur osłonowy](Arch_CurtainWall.md): tworzy od podstaw ścianę osłonową lub wykorzystuje wybrany obiekt jako podstawę. {{Version/pl|0.19}}
--   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Structural element](Arch_Structure.md): tworzy element konstrukcyjny od podstaw lub wykorzystując wybrany obiekt jako podstawę.
+-   <img alt="" src=images/Arch_Wall.svg  style="width:32px;"> [Ściana](Arch_Wall/pl.md): tworzy ścianę od podstaw lub wykorzystuje wybrany obiekt jako podstawę.
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Ściana kurtynowa](Arch_CurtainWall/pl.md): tworzy od podstaw ścianę osłonową lub wykorzystuje wybrany obiekt jako podstawę. {{Version/pl|0.19}}
+-   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Element konstrukcyjny](Arch_Structure/pl.md): tworzy element konstrukcyjny od podstaw lub wykorzystując wybrany obiekt jako podstawę.
 
--   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Rebar tools](Arch_CompRebarStraight.md): dodatek do konstruowania zbrojeń powiększa zasobność Środowiska pracy Arch.
-    -   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Straight Rebar](Arch_Rebar_Straight.md): w wybranym elemencie konstrukcji tworzy prosty pręt zbrojeniowy.
-    -   <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> [UShape Rebar](Arch_Rebar_UShape.md): w wybranym elemencie konstrukcji tworzy pręt zbrojeniowy w kształcie litery U.
-    -   <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> [LShape Rebar](Arch_Rebar_LShape.md): w wybranym elemencie konstrukcji tworzy pręt zbrojeniowy o kształcie litery L.
-    -   <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> [Bent Shape Rebar](Arch_Rebar_BentShape.md): w wybranym elemencie konstrukji tworzy pręt zbrojeniowy o kształcie ugiętym *(Bent Shape)*.
-    -   <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width:32px;"> [Stirrup Rebar](Arch_Rebar_Stirrup.md): w wybranym elemencie konstrukcji tworzy pręt zbrojeniowy strzemion.
-    -   <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> [Helical Rebar](Arch_Rebar_Helical.md): w wybranym elemencie konstrukcji tworzy spiralny pręt zbrojeniowy.
-    -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.png  style="width:32px;"> [ColumnReinforcement](Arch_Rebar_ColumnReinforcement.md): tworzy pręty zbrojeniowe wewnątrz obiektu konstrukcji słupa.
-    -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.png  style="width:32px;"> [ColumnReinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md): tworzy pręty zbrojeniowe wewnątrz obiektu konstrukcji słupa.
-    -   <img alt="" src=images/Arch_Rebar_BeamReinforcement.png  style="width:32px;"> [BeamReinforcement](Arch_Rebar_BeamReinforcement.md): tworzy pręty zbrojeniowe wewnątrz obiektu konstrukcji dźwigara.
-    -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Rebar](Arch_Rebar.md): na podstawie szkicu tworzy niestandardowy pręt zbrojeniowy w wybranym elemencie konstrukcji.
+-   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Komponent pręty zbrojeniowe](Arch_CompRebarStraight/pl.md): dodatek do konstruowania zbrojeń powiększa zasobność środowiska pracy Architektura.
+    -   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Pręty zbrojeniowe proste](Arch_Rebar_Straight/pl.md): w wybranym elemencie konstrukcji tworzy prosty pręt zbrojeniowy.
+    -   <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> [Pręty zbrojeniowe typu U](Arch_Rebar_UShape/pl.md): w wybranym elemencie konstrukcji tworzy pręt zbrojeniowy w kształcie litery U.
+    -   <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> [Pręty zbrojeniowe typu L](Arch_Rebar_LShape/pl.md): w wybranym elemencie konstrukcji tworzy pręt zbrojeniowy o kształcie litery L.
+    -   <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> [Pręty zbrojeniowe wygięte](Arch_Rebar_BentShape/pl.md): w wybranym elemencie konstrukji tworzy pręt zbrojeniowy o kształcie ugiętym *(Bent Shape)*.
+    -   <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width:32px;"> [Strzemiona](Arch_Rebar_Stirrup/pl.md): w wybranym elemencie konstrukcji tworzy pręt zbrojeniowy strzemion.
+    -   <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> [Pręty zbrojeniowe spiralne](Arch_Rebar_Helical/pl.md): w wybranym elemencie konstrukcji tworzy spiralny pręt zbrojeniowy.
+    -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.png  style="width:32px;"> [Zbrojenie słupów](Arch_Rebar_ColumnReinforcement/pl.md): tworzy pręty zbrojeniowe wewnątrz obiektu konstrukcji słupa.
+    -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.png  style="width:32px;"> [Zbrojenie słupa dwa ściągi sześć prętów zbrojeniowych](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/pl.md): tworzy pręty zbrojeniowe wewnątrz obiektu konstrukcji słupa.
+    -   <img alt="" src=images/Arch_Rebar_BeamReinforcement.png  style="width:32px;"> [Zbrojenie belek](Arch_Rebar_BeamReinforcement/pl.md): tworzy pręty zbrojeniowe wewnątrz obiektu konstrukcji dźwigara.
+    -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Pręt zbrojeniowy](Arch_Rebar/pl.md): na podstawie szkicu tworzy niestandardowy pręt zbrojeniowy w wybranym elemencie konstrukcji.
 
--   <img alt="" src=images/Arch_Floor.svg  style="width:32px;"> [Floor](Arch_Floor.md): tworzy podłogę z wybranymi obiektami.
--   <img alt="" src=images/Arch_BuildingPart.png  style="width:32px;"> [Building Part](Arch_BuildingPart.md): tworzy fragment budynku zawierający wybrane obiekty.
--   <img alt="" src=images/Arch_Building.svg  style="width:32px;"> [Building](Arch_Building.md): tworzy budynek zawierający wybrane obiekty.
--   <img alt="" src=images/Arch_Site.svg  style="width:32px;"> [Site](Arch_Site.md): tworzy witrynę zawierającą wybrane obiekty.
--   <img alt="" src=images/Arch_Project.svg  style="width:32px;"> [Project](Arch_Project.md): tworzy projekt zawierający wybrane obiekty.
--   <img alt="" src=images/Arch_Reference.svg  style="width:32px;"> [Reference](Arch_Reference.md): łączy obiekty z innego pliku FreeCAD do bieżącego dokumentu.
--   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Window](Arch_Window.md): tworzy okno z wykorzystaniem wybranego obiektu jako podstawy.
--   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Section Plane](Arch_SectionPlane.md): dodaje obiekt płaszczyzny przekroju do dokumentu.
+-   <img alt="" src=images/Arch_Floor.svg  style="width:32px;"> [Piętro](Arch_Floor/pl.md): tworzy podłogę z wybranymi obiektami.
+-   <img alt="" src=images/Arch_BuildingPart.png  style="width:32px;"> [Część budynku](Arch_BuildingPart/pl.md): tworzy fragment budynku zawierający wybrane obiekty.
+-   <img alt="" src=images/Arch_Building.svg  style="width:32px;"> [Budowla](Arch_Building/pl.md): tworzy budynek zawierający wybrane obiekty.
+-   <img alt="" src=images/Arch_Site.svg  style="width:32px;"> [Teren](Arch_Site/pl.md): tworzy witrynę zawierającą wybrane obiekty.
+-   <img alt="" src=images/Arch_Project.svg  style="width:32px;"> [Projekt](Arch_Project/pl.md): tworzy projekt zawierający wybrane obiekty.
+-   <img alt="" src=images/Arch_Reference.svg  style="width:32px;"> [Odniesienie](Arch_Reference/pl.md): łączy obiekty z innego pliku FreeCAD do bieżącego dokumentu.
+-   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Okno](Arch_Window/pl.md): tworzy okno z wykorzystaniem wybranego obiektu jako podstawy.
+-   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Płaszczyzna przekroju](Arch_SectionPlane/pl.md): dodaje obiekt płaszczyzny przekroju do dokumentu.
 
 -   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Narzędzia osi](Arch_CompAxis/pl.md): narzędzie Axis pozwala na umieszczenie szeregu osi w aktualnym dokumencie.
     -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Osie](Arch_Axis/pl.md): dodaje 1-kierunkowy układ osi do dokumentu.
     -   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Układ osi](Arch_AxisSystem/pl.md): dodaje do dokumentu układ osi składający się z kilku osi.
     -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Siatka](Arch_Grid/pl.md): dodaje do dokumentu obiekt podobny do siatki.
 
--   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Roof](Arch_Roof.md): tworzy dach skośny z wybranej płaszczyzny.
--   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Space](Arch_Space.md): tworzy obiekt przestrzenny w dokumencie.
--   <img alt="" src=images/Arch_Stairs.svg  style="width:32px;"> [Stairs](Arch_Stairs.md): tworzy obiekt schodów w dokumencie.
+-   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Dach](Arch_Roof/pl.md): tworzy dach skośny z wybranej płaszczyzny.
+-   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Kubatura](Arch_Space/pl.md): tworzy obiekt przestrzenny w dokumencie.
+-   <img alt="" src=images/Arch_Stairs.svg  style="width:32px;"> [Schody](Arch_Stairs/pl.md): tworzy obiekt schodów w dokumencie.
 
--   <img alt="" src=images/Arch_CompPanel.png  style="width:48px;"> [Panel tools](Arch_CompPanel.md): pozwala na budowanie wszelkiego rodzaju elementów przypominających panele.
-    -   <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Panel](Arch_Panel.md): tworzy obiekt panelu z wybranego obiektu 2D.
-    -   <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> [Panel Cut](Arch_Panel_Cut.md): tworzy widok cięcia 2D z panelu. {{Version/pl|0.17}}
-    -   <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Panel Sheet](Arch_Panel_Sheet.md): tworzy arkusz cięcia 2D wraz z cięciami paneli lub innych obiektów 2D. {{Version/pl|0.17}}
-    -   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Nest](Arch_Nest.md): umożliwiają zagnieżdżenie kilku płaskich przedmiotów w kształcie kontenera. {{Version/pl|0.17}}
+-   <img alt="" src=images/Arch_CompPanel.png  style="width:48px;"> [Narzędzia panelu](Arch_CompPanel/pl.md): pozwala na budowanie wszelkiego rodzaju elementów przypominających panele.
+    -   <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Panel](Arch_Panel/pl.md): tworzy obiekt panelu z wybranego obiektu 2D.
+    -   <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> [Panelizacja do cięcia](Arch_Panel_Cut/pl.md): tworzy widok cięcia 2D z panelu. {{Version/pl|0.17}}
+    -   <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Arkusz panela](Arch_Panel_Sheet/pl.md): tworzy arkusz cięcia 2D wraz z cięciami paneli lub innych obiektów 2D. {{Version/pl|0.17}}
+    -   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Zagnieżdżanie](Arch_Nest/pl.md): umożliwia zagnieżdżenie kilku płaskich przedmiotów w kształcie kontenera. {{Version/pl|0.17}}
 
--   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Ramka](Arch_Frame.md): tworzy obiekt ramki z wybranego układu.
--   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Ogrodzenie](Arch_Fence.md): tworzy obiekt ogrodzenia z wybranego słupka i ścieżki. {{Version/pl|0.19}}
--   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Kratownica](Arch_Truss.md): Tworzy kratownicę z wybranej linii począwszy od podstaw. {{Version/pl|0.19}}
--   <img alt="" src=images/Arch_Equipment.svg  style="width:32px;"> [Wyposażenie](Arch_Equipment.md): tworzy wyposażenie lub obiekt umeblowania.
--   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profil](Arch_Profile.md): Tworzy parametryczny profil 2D. {{Version/pl|0.19}}
+-   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Ramka](Arch_Frame/pl.md): tworzy obiekt ramki z wybranego układu.
+-   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Ogrodzenie](Arch_Fence/pl.md): tworzy obiekt ogrodzenia z wybranego słupka i ścieżki. {{Version/pl|0.19}}
+-   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Kratownica](Arch_Truss/pl.md): Tworzy kratownicę z wybranej linii począwszy od podstaw. {{Version/pl|0.19}}
+-   <img alt="" src=images/Arch_Equipment.svg  style="width:32px;"> [Wyposażenie](Arch_Equipment/pl.md): tworzy wyposażenie lub obiekt umeblowania.
+-   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profil](Arch_Profile/pl.md): Tworzy parametryczny profil 2D. {{Version/pl|0.19}}
 
--   <img alt="" src=images/Arch_CompPipe.png  style="width:48px;"> [Narzędzia do rur](Arch_CompPipe.md) <small>(v0.17)</small> 
-    -   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Pipe](Arch_Pipe.md): Tworzy rurę. {{Version/pl|0.17}}
-    -   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Pipe Connector](Arch_PipeConnector.md): tworzy połączenie typu kolanko lub trójnik pomiędzy 2 lub 3 wybranymi rurami. {{Version/pl|0.17}}
+-   <img alt="" src=images/Arch_CompPipe.png  style="width:48px;"> [Narzędzia do rur](Arch_CompPipe/pl.md) <small>(v0.17)</small> 
+    -   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Rura](Arch_Pipe/pl.md): Tworzy rurę. {{Version/pl|0.17}}
+    -   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Kształtka](Arch_PipeConnector/pl.md): tworzy połączenie typu kolanko lub trójnik pomiędzy 2 lub 3 wybranymi rurami. {{Version/pl|0.17}}
 
--   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Material tools](Arch_CompSetMaterial.md): narzędzia Materiałowe pozwalają na definiowanie materiałów w aktywnym dokumencie.
-    -   <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Material](Arch_SetMaterial.md): pozwala stworzyć materiał i przypisać go do wybranych obiektów, jeśli takie istnieją.
-    -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Material](Arch_MultiMaterial.md): tworzy wielość materiałów i przypisuje je do wybranych obiektów, jeśli istnieją. {{Version/pl|0.17}}
--   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Schedule](Arch_Schedule.md): tworzy różne rodzaje harmonogramów.
+-   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Komponent ustaw materiał](Arch_CompSetMaterial/pl.md): narzędzia Materiałowe pozwalają na definiowanie materiałów w aktywnym dokumencie.
+    -   <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Materiał](Arch_SetMaterial/pl.md): pozwala stworzyć materiał i przypisać go do wybranych obiektów, jeśli takie istnieją.
+    -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Materiał złożony](Arch_MultiMaterial/pl.md): tworzy wielość materiałów i przypisuje je do wybranych obiektów, jeśli istnieją. {{Version/pl|0.17}}
+-   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Obmiar](Arch_Schedule/pl.md): tworzy różne rodzaje zestawień obmiarów.
 
 ### Narzędzia do modyfikacji 
 
 Są to narzędzia służące do modyfikowania obiektów architektonicznych.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cięcie wzdłuż linii](Arch_CutLine.md): Przetnij obiekt według linii. {{Version/pl|0.19}}
--   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): przetnij obiekt zgodnie z płaszczyzną.
--   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): dodaje pozycje do elementu składowego.
--   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): odejmuje lub usuwa pozycje z elementu składowego.
--   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Survey](Arch_Survey.md): uruchamia lub zakańcza tryb pomiarowy.
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cięcie wzdłuż linii](Arch_CutLine/pl.md): Przetnij obiekt według linii. {{Version/pl|0.19}}
+-   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cięcie płaszczyzną](Arch_CutPlane/pl.md): przetnij obiekt zgodnie z płaszczyzną.
+-   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Dodaj komponent](Arch_Add/pl.md): dodaje pozycje do elementu składowego.
+-   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Usuń komponent](Arch_Remove/pl.md): odejmuje lub usuwa pozycje z elementu składowego.
+-   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Spis wymiarów](Arch_Survey/pl.md): uruchamia lub zakańcza tryb pomiarowy.
 
 ### Przydatne narzędzia 
 
@@ -99,8 +99,8 @@ Są to dodatkowe narzędzia, które pomogą Ci w konkretnych zadaniach.
 -   <img alt="" src=images/Arch_Check.svg  style="width:32px;"> [Sprawdź](Arch_Check/pl.md): sprawdza, czy zaznaczone obiekty są bryłami i nie zawierają defektów.
 -   <img alt="" src=images/IFC.svg  style="width:32px;"> [Przeglądarka Ifc](Arch_IfcExplorer/pl.md): umożliwia przeglądanie zawartości plików typu [IFC](Arch_IFC/pl.md).
 -   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Przełącz flagę IFC Brep](Arch_ToggleIfcBrepFlag/pl.md): Wymusza wyeksportowanie wybranego obiektu jako [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm).
--   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 widoki](Arch_3Views/pl.md): tworzy widok od góry, od przodu i z boku dla [siatki](Mesh_Workbench/pl.md).
--   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Arkusz kalkulacyjny IFC](Arch_IfcSpreadsheet/pl.md): tworzy arkusz kalkulacyjny do przechowywania własności obiektu [IFC](Arch_IFC.md).
+-   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [Trzy widoki](Arch_3Views/pl.md): tworzy widok od góry, od przodu i z boku dla [siatki](Mesh_Workbench/pl.md).
+-   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Arkusz kalkulacyjny IFC](Arch_IfcSpreadsheet/pl.md): tworzy arkusz kalkulacyjny do przechowywania własności obiektu [IFC](Arch_IFC/pl.md).
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Przełącz widoczność odjęcia](Arch_ToggleSubs/pl.md): pokazuje lub ukrywa elementy składowe obiektu architektury.
 
 ### Ustawienia

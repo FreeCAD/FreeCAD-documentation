@@ -1,10 +1,11 @@
 # Category:Screenshots/cs
 This category lists pages with screenshots.
 
-### Contents:
+### Contents
 
-  
-  [Screenshots/cs](Screenshots/cs.md)
+|     |     |     |
+| --- | --- | --- |
+| [Screenshots/cs](wiki/Screenshots/cs.md) |
 
 
 

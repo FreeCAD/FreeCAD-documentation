@@ -1,10 +1,12 @@
 # Category:Icon
 This category contains icon images, and buttons, which can be placed in documentation pages of the wiki.
 
-### Contents:
+### Contents
 
-    
-  [Artwork](Artwork.md)   [Artwork Erroneous](Artwork_Erroneous.md)   [Key ASCII](Key_ASCII.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork](wiki/Artwork.md) | [Artwork Erroneous](wiki/Artwork Erroneous.md) | [Key ASCII](wiki/Key ASCII.md) |
+|
 
 
 

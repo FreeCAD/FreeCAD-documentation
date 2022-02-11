@@ -1,10 +1,11 @@
 # Category:Robot/zh-hant
 This category lists pages related to the [Robot Workbench/zh-hant](Robot_Workbench/zh-hant.md).
 
-### Contents:
+### Contents
 
-  
-  [Robot Workbench/zh-hant](Robot_Workbench/zh-hant.md)
+|     |     |     |
+| --- | --- | --- |
+| [Robot Workbench/zh-hant](wiki/Robot Workbench/zh-hant.md) |
 
 
 

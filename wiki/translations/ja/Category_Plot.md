@@ -1,10 +1,11 @@
 # Category:Plot/ja
 This category lists pages related to the [Plot Workbench/ja](Plot_Workbench/ja.md).
 
-### Contents:
+### Contents
 
-  
-  [Plot Save/ja](Plot_Save/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Save/ja](wiki/Plot Save/ja.md) |
 
 
 

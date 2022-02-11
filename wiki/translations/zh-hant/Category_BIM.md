@@ -1,10 +1,11 @@
 # Category:BIM/zh-hant
 This category is for pages related to building information management (BIM).
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Arch/zh-hant](wiki/Category_Arch/zh-hant.md) |
 
 
 

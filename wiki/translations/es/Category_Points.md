@@ -1,10 +1,11 @@
 # Category:Points/es
 This category lists pages related to the [Points Workbench/es](Points_Workbench/es.md).
 
-### Contents:
+### Contents
 
-  
-  [Points Workbench/es](Points_Workbench/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Points Workbench/es](wiki/Points Workbench/es.md) |
 
 
 

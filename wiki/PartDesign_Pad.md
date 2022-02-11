@@ -3,7 +3,7 @@
    Name:PartDesign Pad
    MenuLocation:Part Design → Create an additive feature → Pad
    Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Pocket](PartDesign_Pocket.md)
+   SeeAlso:[PartDesign Pocket](PartDesign_Pocket.md), [Part Extrude](Part_Extrude.md)
 ---
 
 # PartDesign Pad
@@ -37,10 +37,6 @@ Type offers five different ways of specifying the length to which the pad will b
 
 Enter a numeric value for the length of the pad. The default direction for extrusion is away (outside of) the support, but it can be changed by ticking the **Reversed** option. Extrusions occur by default [normal](http://en.wikipedia.org/wiki/Surface_normal) to the defining sketch plane. This can be changed by specifying another **Direction**. With the option **Symmetric to plane** the pad will extend half of the given length to either side of the plane. Negative dimensions are not possible. Use the **Reversed** option instead.
 
-#### Two dimensions 
-
-This allows to enter a second length in which the pad should extend in the opposite direction (into the support). The directions can be switched by ticking the **Reversed** option.
-
 #### To last 
 
 The pad will extrude up to the last face of the support in the extrusion direction. If there is no support, an error message will appear.
@@ -52,6 +48,10 @@ The pad will extrude up to the first face of the support in the extrusion direct
 #### Up to face 
 
 The pad will extrude up to a face in the model that can be chosen by clicking on it.
+
+#### Two dimensions 
+
+This allows to enter a second length in which the pad should extend in the opposite direction (into the support). The directions can be switched by ticking the **Reversed** option.
 
 ### Length
 
@@ -86,6 +86,29 @@ Tick the checkbox to extrude half of the given length to either side of the sket
 ### Reversed
 
 Reverses the direction of the pad.
+
+### Taper angle 
+
+
+<small>(v0.20)</small> 
+
+Tapers the pad in the extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+
+Limitations:
+
+-   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
+-   For larger angles tapering will fail if the end face of the pad would have fewer edges than the start face/sketch.
+
+### 2nd length 
+
+Defines the length of the pad in the opposite extrusion direction. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available if **Type** is **Two dimensions**.
+
+### 2nd taper angle 
+
+
+<small>(v0.20)</small> 
+
+Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
 ## Properties
 

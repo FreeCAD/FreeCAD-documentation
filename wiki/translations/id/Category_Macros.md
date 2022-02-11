@@ -1,10 +1,11 @@
 # Category:Macros/id
 This category contains macros to extend your FreeCAD installation with new functionality
 
-### Contents:
+### Contents
 
-  
-  [Macros/id](Macros/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Macros/id](wiki/Macros/id.md) |
 
 
 

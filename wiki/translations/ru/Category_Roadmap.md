@@ -1,13 +1,14 @@
 # Category:Roadmap/ru
 This category gathers all articles documenting what is planned in the Roadmap of FreeCAD.
 
-### Contents:
+### Contents
 
-    
-  [Assembly project/ru](Assembly_project/ru.md)   [CAM project/ru](CAM_project/ru.md)                 [Development roadmap/ru](Development_roadmap/ru.md)
-  [FEM project/ru](FEM_project/ru.md)             [Material/ru](Material/ru.md)                       [Naming project/ru](Naming_project/ru.md)
-  [Project template/ru](Project_template/ru.md)   [Raytracing project/ru](Raytracing_project/ru.md)   [Resource framework project/ru](Resource_framework_project/ru.md)
-  [Tolerancing/ru](Tolerancing/ru.md)             [Wished tools/ru](Wished_tools/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Assembly project/ru](wiki/Assembly project/ru.md) | [CAM project/ru](wiki/CAM project/ru.md) | [Development roadmap/ru](wiki/Development roadmap/ru.md) |
+| [FEM project/ru](wiki/FEM project/ru.md) | [Material/ru](wiki/Material/ru.md) | [Naming project/ru](wiki/Naming project/ru.md) |
+| [Project template/ru](wiki/Project template/ru.md) | [Raytracing project/ru](wiki/Raytracing project/ru.md) | [Resource framework project/ru](wiki/Resource framework project/ru.md) |
+| [Tolerancing/ru](wiki/Tolerancing/ru.md) | [Wished tools/ru](wiki/Wished tools/ru.md) |
 
 
 

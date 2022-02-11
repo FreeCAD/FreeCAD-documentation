@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionPosObliqueChainDimension
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Align oblique dimensions
+   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Position Oblique Chain Dimensions
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
@@ -19,16 +19,12 @@ The <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style
 
 ## Usage
 
-1.  Select the first oblique dimension. This dimension will not be moved, the dimensions that are added to the selection will be aligned with this dimension.
-2.  Add one or more parallel oblique dimensions to the selection.
+1.  Select two or more parallel oblique dimensions.
+2.  The first dimension defines the position. This dimension will not be moved.
 3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ExtensionPosObliqueChainDimension.svg" width=16px> [TechDraw ExtensionPosObliqueChainDimension](TechDraw_ExtensionPosObliqueChainDimension.md)** button.
-    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Align oblique dimensions** option from the menu.
-4.  The dimensions are aligned and their dimension texts are centered.
-
-## Notes
-
--   The tool can also be used to center the dimension text of a single dimension.
+    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Position Oblique Chain Dimensions** option from the menu.
+4.  The dimensions are aligned.
 
 
 

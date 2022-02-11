@@ -1,10 +1,11 @@
 # Category:Inspection/zh-tw
 This category lists pages related to the [Inspection Workbench](Inspection_Workbench.md).
 
-### Contents:
+### Contents
 
-  
-  [Inspection Workbench/zh-tw](Inspection_Workbench/zh-tw.md)
+|     |     |     |
+| --- | --- | --- |
+| [Inspection Workbench/zh-tw](wiki/Inspection Workbench/zh-tw.md) |
 
 
 

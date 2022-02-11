@@ -1,15 +1,17 @@
 # Category:OpenSCAD/de
 Diese Kategorie zeigt eine Liste von Seiten, die zum [OpenSCAD-Arbeitsbereich](OpenSCAD_Workbench/de.md) gehören.
 
-### Contents:
+### Contents
 
-    
-  [Import OpenSCAD code/de](Import_OpenSCAD_code/de.md)       [OpenSCAD AddOpenSCADElement/de](OpenSCAD_AddOpenSCADElement/de.md)     [OpenSCAD ColorCodeShape/de](OpenSCAD_ColorCodeShape/de.md)
-  [OpenSCAD CSG/de](OpenSCAD_CSG/de.md)                       [OpenSCAD Edgestofaces/de](OpenSCAD_Edgestofaces/de.md)                 [OpenSCAD ExpandPlacements/de](OpenSCAD_ExpandPlacements/de.md)
-  [OpenSCAD ExplodeGroup/de](OpenSCAD_ExplodeGroup/de.md)     [OpenSCAD Hull/de](OpenSCAD_Hull/de.md)                                 [OpenSCAD IncreaseToleranceFeature/de](OpenSCAD_IncreaseToleranceFeature/de.md)
-  [OpenSCAD MeshBoolean/de](OpenSCAD_MeshBoolean/de.md)       [OpenSCAD Minkowski/de](OpenSCAD_Minkowski/de.md)                       [OpenSCAD MirrorMeshFeature/de](OpenSCAD_MirrorMeshFeature/de.md)
-  [OpenSCAD Preferences/de](OpenSCAD_Preferences/de.md)       [OpenSCAD RefineShapeFeature/de](OpenSCAD_RefineShapeFeature/de.md)     [OpenSCAD RemoveSubtree/de](OpenSCAD_RemoveSubtree/de.md)
-  [OpenSCAD ReplaceObject/de](OpenSCAD_ReplaceObject/de.md)   [Template:OpenSCAD Tools navi/de](Template:OpenSCAD_Tools_navi/de.md)   [OpenSCAD Workbench/de](OpenSCAD_Workbench/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Import OpenSCAD code/de](wiki/Import OpenSCAD code/de.md) | [OpenSCAD AddOpenSCADElement/de](wiki/OpenSCAD AddOpenSCADElement/de.md) | [OpenSCAD ColorCodeShape/de](wiki/OpenSCAD ColorCodeShape/de.md) |
+| [OpenSCAD CSG/de](wiki/OpenSCAD CSG/de.md) | [OpenSCAD Edgestofaces/de](wiki/OpenSCAD Edgestofaces/de.md) | [OpenSCAD ExpandPlacements/de](wiki/OpenSCAD ExpandPlacements/de.md) |
+| [OpenSCAD ExplodeGroup/de](wiki/OpenSCAD ExplodeGroup/de.md) | [OpenSCAD Hull/de](wiki/OpenSCAD Hull/de.md) | [OpenSCAD IncreaseToleranceFeature/de](wiki/OpenSCAD IncreaseToleranceFeature/de.md) |
+| [OpenSCAD MeshBoolean/de](wiki/OpenSCAD MeshBoolean/de.md) | [OpenSCAD Minkowski/de](wiki/OpenSCAD Minkowski/de.md) | [OpenSCAD MirrorMeshFeature/de](wiki/OpenSCAD MirrorMeshFeature/de.md) |
+| [OpenSCAD Preferences/de](wiki/OpenSCAD Preferences/de.md) | [OpenSCAD RefineShapeFeature/de](wiki/OpenSCAD RefineShapeFeature/de.md) | [OpenSCAD RemoveSubtree/de](wiki/OpenSCAD RemoveSubtree/de.md) |
+| [OpenSCAD ReplaceObject/de](wiki/OpenSCAD ReplaceObject/de.md) | [Template:OpenSCAD Tools navi/de](wiki/Template_OpenSCAD Tools navi/de.md) | [OpenSCAD Workbench/de](wiki/OpenSCAD Workbench/de.md) |
+|
 
 
 

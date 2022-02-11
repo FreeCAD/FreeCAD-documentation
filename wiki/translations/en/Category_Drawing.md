@@ -1,17 +1,18 @@
 # Category:Drawing/en
 This category lists pages related to the [Drawing Workbench](Drawing_Workbench.md).
 
-### Contents:
+### Contents
 
-    
-  [ANSI templates/en](ANSI_templates/en.md)                   [Arch templates/en](Arch_templates/en.md)                     [Drawing Annotation/en](Drawing_Annotation/en.md)
-  [Drawing API example/en](Drawing_API_example/en.md)         [Drawing Clip/en](Drawing_Clip/en.md)                         [Drawing Dimensioning Addon/en](Drawing_Dimensioning_Addon/en.md)
-  [Drawing Documentation/en](Drawing_Documentation/en.md)     [Drawing Landscape A3/en](Drawing_Landscape_A3/en.md)         [Drawing Open SVG/en](Drawing_Open_SVG/en.md)
-  [Drawing Openbrowser/en](Drawing_Openbrowser/en.md)         [Drawing Orthoviews/en](Drawing_Orthoviews/en.md)             [Drawing ProjectShape/en](Drawing_ProjectShape/en.md)
-  [Drawing Save/en](Drawing_Save/en.md)                       [Drawing SpreadsheetView/en](Drawing_SpreadsheetView/en.md)   [Drawing Symbol/en](Drawing_Symbol/en.md)
-  [Drawing Template HowTo/en](Drawing_Template_HowTo/en.md)   [Drawing templates/en](Drawing_templates/en.md)               [Drawing tutorial/en](Drawing_tutorial/en.md)
-  [Drawing View/en](Drawing_View/en.md)                       [Drawing Workbench/en](Drawing_Workbench/en.md)               [Misc templates/en](Misc_templates/en.md)
-  [Svg Namespace/en](Svg_Namespace/en.md)
+|     |     |     |
+| --- | --- | --- |
+| [ANSI templates/en](wiki/ANSI templates/en.md) | [Arch templates/en](wiki/Arch templates/en.md) | [Drawing Annotation/en](wiki/Drawing Annotation/en.md) |
+| [Drawing API example/en](wiki/Drawing API example/en.md) | [Drawing Clip/en](wiki/Drawing Clip/en.md) | [Drawing Dimensioning Addon/en](wiki/Drawing Dimensioning Addon/en.md) |
+| [Drawing Documentation/en](wiki/Drawing Documentation/en.md) | [Drawing Landscape A3/en](wiki/Drawing Landscape A3/en.md) | [Drawing Open SVG/en](wiki/Drawing Open SVG/en.md) |
+| [Drawing Openbrowser/en](wiki/Drawing Openbrowser/en.md) | [Drawing Orthoviews/en](wiki/Drawing Orthoviews/en.md) | [Drawing ProjectShape/en](wiki/Drawing ProjectShape/en.md) |
+| [Drawing Save/en](wiki/Drawing Save/en.md) | [Drawing SpreadsheetView/en](wiki/Drawing SpreadsheetView/en.md) | [Drawing Symbol/en](wiki/Drawing Symbol/en.md) |
+| [Drawing Template HowTo/en](wiki/Drawing Template HowTo/en.md) | [Drawing templates/en](wiki/Drawing templates/en.md) | [Drawing tutorial/en](wiki/Drawing tutorial/en.md) |
+| [Drawing View/en](wiki/Drawing View/en.md) | [Drawing Workbench/en](wiki/Drawing Workbench/en.md) | [Misc templates/en](wiki/Misc templates/en.md) |
+| [Svg Namespace/en](wiki/Svg Namespace/en.md) |
 
 
 

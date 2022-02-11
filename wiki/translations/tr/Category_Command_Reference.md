@@ -1,58 +1,59 @@
 # Category:Command Reference/tr
 This category contains the help pages of each of FreeCAD command.
 
-### Contents:
+### Contents
 
-    
-  [Arch Add/tr](Arch_Add/tr.md)                                           [Arch Axis/tr](Arch_Axis/tr.md)                                                 [Arch Equipment/tr](Arch_Equipment/tr.md)
-  [Arch Floor/tr](Arch_Floor/tr.md)                                       [Arch Remove/tr](Arch_Remove/tr.md)                                             [Arch SectionPlane/tr](Arch_SectionPlane/tr.md)
-  [Arch Structure/tr](Arch_Structure/tr.md)                               [Arch Wall/tr](Arch_Wall/tr.md)                                                 [Draft AddConstruction/tr](Draft_AddConstruction/tr.md)
-  [Draft AddToGroup/tr](Draft_AddToGroup/tr.md)                           [Draft ApplyStyle/tr](Draft_ApplyStyle/tr.md)                                   [Draft Arc/tr](Draft_Arc/tr.md)
-  [Draft Array/tr](Draft_Array/tr.md)                                     [Draft BezCurve/tr](Draft_BezCurve/tr.md)                                       [Draft BSpline/tr](Draft_BSpline/tr.md)
-  [Draft Circle/tr](Draft_Circle/tr.md)                                   [Draft Clone/tr](Draft_Clone/tr.md)                                             [Draft Dimension/tr](Draft_Dimension/tr.md)
-  [Draft Downgrade/tr](Draft_Downgrade/tr.md)                             [Draft Draft2Sketch/tr](Draft_Draft2Sketch/tr.md)                               [Draft Drawing/tr](Draft_Drawing/tr.md)
-  [Draft Edit/tr](Draft_Edit/tr.md)                                       [Draft Ellipse/tr](Draft_Ellipse/tr.md)                                         [Draft Facebinder/tr](Draft_Facebinder/tr.md)
-  [Draft FlipDimension/tr](Draft_FlipDimension/tr.md)                     [Draft Heal/tr](Draft_Heal/tr.md)                                               [Draft Label/tr](Draft_Label/tr.md)
-  [Draft Line/tr](Draft_Line/tr.md)                                       [Draft Mirror/tr](Draft_Mirror/tr.md)                                           [Draft Move/tr](Draft_Move/tr.md)
-  [Draft Offset/tr](Draft_Offset/tr.md)                                   [Draft PathArray/tr](Draft_PathArray/tr.md)                                     [Draft Point/tr](Draft_Point/tr.md)
-  [Draft PointArray/tr](Draft_PointArray/tr.md)                           [Draft Polygon/tr](Draft_Polygon/tr.md)                                         [Draft Rectangle/tr](Draft_Rectangle/tr.md)
-  [Draft Rotate/tr](Draft_Rotate/tr.md)                                   [Draft Scale/tr](Draft_Scale/tr.md)                                             [Draft SelectGroup/tr](Draft_SelectGroup/tr.md)
-  [Draft SelectPlane/tr](Draft_SelectPlane/tr.md)                         [Draft Shape2DView/tr](Draft_Shape2DView/tr.md)                                 [Draft ShapeString/tr](Draft_ShapeString/tr.md)
-  [Draft ShowSnapBar/tr](Draft_ShowSnapBar/tr.md)                         [Draft Snap Angle/tr](Draft_Snap_Angle/tr.md)                                   [Draft Snap Center/tr](Draft_Snap_Center/tr.md)
-  [Draft Snap Dimensions/tr](Draft_Snap_Dimensions/tr.md)                 [Draft Snap Grid/tr](Draft_Snap_Grid/tr.md)                                     [Draft Snap Lock/tr](Draft_Snap_Lock/tr.md)
-  [Draft Snap Midpoint/tr](Draft_Snap_Midpoint/tr.md)                     [Draft Snap Near/tr](Draft_Snap_Near/tr.md)                                     [Draft Snap Ortho/tr](Draft_Snap_Ortho/tr.md)
-  [Draft Snap Parallel/tr](Draft_Snap_Parallel/tr.md)                     [Draft Snap Special/tr](Draft_Snap_Special/tr.md)                               [Draft Snap WorkingPlane/tr](Draft_Snap_WorkingPlane/tr.md)
-  [Draft Text/tr](Draft_Text/tr.md)                                       [Draft ToggleConstructionMode/tr](Draft_ToggleConstructionMode/tr.md)           [Draft ToggleContinueMode/tr](Draft_ToggleContinueMode/tr.md)
-  [Draft ToggleDisplayMode/tr](Draft_ToggleDisplayMode/tr.md)             [Draft ToggleGrid/tr](Draft_ToggleGrid/tr.md)                                   [Draft Trimex/tr](Draft_Trimex/tr.md)
-  [Draft Upgrade/tr](Draft_Upgrade/tr.md)                                 [Draft Wire/tr](Draft_Wire/tr.md)                                               [Draft WireToBSpline/tr](Draft_WireToBSpline/tr.md)
-  [Template:GuiCommand/tr](Template:GuiCommand/tr.md)                     [Part Box/tr](Part_Box/tr.md)                                                   [Part Builder/tr](Part_Builder/tr.md)
-  [Part Ellipse/tr](Part_Ellipse/tr.md)                                   [Part Extrude/tr](Part_Extrude/tr.md)                                           [Part Line/tr](Part_Line/tr.md)
-  [Part Primitives/tr](Part_Primitives/tr.md)                             [Part Prism/tr](Part_Prism/tr.md)                                               [PartDesign AdditiveBox/tr](PartDesign_AdditiveBox/tr.md)
-  [PartDesign AdditiveCone/tr](PartDesign_AdditiveCone/tr.md)             [PartDesign AdditiveCylinder/tr](PartDesign_AdditiveCylinder/tr.md)             [PartDesign AdditiveEllipsoid/tr](PartDesign_AdditiveEllipsoid/tr.md)
-  [PartDesign AdditiveLoft/tr](PartDesign_AdditiveLoft/tr.md)             [PartDesign AdditivePipe/tr](PartDesign_AdditivePipe/tr.md)                     [PartDesign AdditivePrism/tr](PartDesign_AdditivePrism/tr.md)
-  [PartDesign AdditiveSphere/tr](PartDesign_AdditiveSphere/tr.md)         [PartDesign AdditiveTorus/tr](PartDesign_AdditiveTorus/tr.md)                   [PartDesign AdditiveWedge/tr](PartDesign_AdditiveWedge/tr.md)
-  [PartDesign Body/tr](PartDesign_Body/tr.md)                             [PartDesign Boolean/tr](PartDesign_Boolean/tr.md)                               [PartDesign Chamfer/tr](PartDesign_Chamfer/tr.md)
-  [PartDesign Clone/tr](PartDesign_Clone/tr.md)                           [PartDesign CompPrimitiveAdditive/tr](PartDesign_CompPrimitiveAdditive/tr.md)   [PartDesign CompPrimitiveSubtractive/tr](PartDesign_CompPrimitiveSubtractive/tr.md)
-  [PartDesign Draft/tr](PartDesign_Draft/tr.md)                           [PartDesign Fillet/tr](PartDesign_Fillet/tr.md)                                 [PartDesign Groove/tr](PartDesign_Groove/tr.md)
-  [PartDesign Hole/tr](PartDesign_Hole/tr.md)                             [PartDesign InvoluteGear/tr](PartDesign_InvoluteGear/tr.md)                     [PartDesign Line/tr](PartDesign_Line/tr.md)
-  [PartDesign LinearPattern/tr](PartDesign_LinearPattern/tr.md)           [PartDesign Mirrored/tr](PartDesign_Mirrored/tr.md)                             [PartDesign MoveFeature/tr](PartDesign_MoveFeature/tr.md)
-  [PartDesign MoveFeatureInTree/tr](PartDesign_MoveFeatureInTree/tr.md)   [PartDesign MoveTip/tr](PartDesign_MoveTip/tr.md)                               [PartDesign MultiTransform/tr](PartDesign_MultiTransform/tr.md)
-  [PartDesign NewSketch/tr](PartDesign_NewSketch/tr.md)                   [PartDesign Pad/tr](PartDesign_Pad/tr.md)                                       [PartDesign Plane/tr](PartDesign_Plane/tr.md)
-  [PartDesign Pocket/tr](PartDesign_Pocket/tr.md)                         [PartDesign Point/tr](PartDesign_Point/tr.md)                                   [PartDesign PolarPattern/tr](PartDesign_PolarPattern/tr.md)
-  [PartDesign Revolution/tr](PartDesign_Revolution/tr.md)                 [PartDesign ShapeBinder/tr](PartDesign_ShapeBinder/tr.md)                       [PartDesign SubtractiveBox/tr](PartDesign_SubtractiveBox/tr.md)
-  [PartDesign SubtractiveCone/tr](PartDesign_SubtractiveCone/tr.md)       [PartDesign SubtractiveCylinder/tr](PartDesign_SubtractiveCylinder/tr.md)       [PartDesign SubtractiveEllipsoid/tr](PartDesign_SubtractiveEllipsoid/tr.md)
-  [PartDesign SubtractiveLoft/tr](PartDesign_SubtractiveLoft/tr.md)       [PartDesign SubtractivePipe/tr](PartDesign_SubtractivePipe/tr.md)               [PartDesign SubtractivePrism/tr](PartDesign_SubtractivePrism/tr.md)
-  [PartDesign SubtractiveSphere/tr](PartDesign_SubtractiveSphere/tr.md)   [PartDesign SubtractiveTorus/tr](PartDesign_SubtractiveTorus/tr.md)             [PartDesign SubtractiveWedge/tr](PartDesign_SubtractiveWedge/tr.md)
-  [PartDesign Thickness/tr](PartDesign_Thickness/tr.md)                   [PartDesign WizardShaft/tr](PartDesign_WizardShaft/tr.md)                       [Path Helix/tr](Path_Helix/tr.md)
-  [Path MillFace/tr](Path_MillFace/tr.md)                                 [Plot Axes/tr](Plot_Axes/tr.md)                                                 [Plot Grid/tr](Plot_Grid/tr.md)
-  [Plot Labels/tr](Plot_Labels/tr.md)                                     [Plot Legend/tr](Plot_Legend/tr.md)                                             [Plot Positions/tr](Plot_Positions/tr.md)
-  [Plot Series/tr](Plot_Series/tr.md)                                     [Robot CreateRobot/tr](Robot_CreateRobot/tr.md)                                 [Robot CreateTrajectory/tr](Robot_CreateTrajectory/tr.md)
-  [Robot Export/tr](Robot_Export/tr.md)                                   [Robot RestoreHomePos/tr](Robot_RestoreHomePos/tr.md)                           [Robot SetDefaultOrientation/tr](Robot_SetDefaultOrientation/tr.md)
-  [Robot SetDefaultValues/tr](Robot_SetDefaultValues/tr.md)               [Robot SetHomePos/tr](Robot_SetHomePos/tr.md)                                   [Robot Simulate/tr](Robot_Simulate/tr.md)
-  [Ship Area/tr](Ship_Area/tr.md)                                         [Sketcher Clone/tr](Sketcher_Clone/tr.md)                                       [Sketcher EditSketch/tr](Sketcher_EditSketch/tr.md)
-  [Sketcher LeaveSketch/tr](Sketcher_LeaveSketch/tr.md)                   [Sketcher MapSketch/tr](Sketcher_MapSketch/tr.md)                               [Sketcher NewSketch/tr](Sketcher_NewSketch/tr.md)
-  [Sketcher ReorientSketch/tr](Sketcher_ReorientSketch/tr.md)             [Sketcher ViewSketch/tr](Sketcher_ViewSketch/tr.md)                             [Std AddonMgr/tr](Std_AddonMgr/tr.md)
-  [Std Group/tr](Std_Group/tr.md)                                         [Std Part/tr](Std_Part/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch Add/tr](wiki/Arch Add/tr.md) | [Arch Axis/tr](wiki/Arch Axis/tr.md) | [Arch Equipment/tr](wiki/Arch Equipment/tr.md) |
+| [Arch Floor/tr](wiki/Arch Floor/tr.md) | [Arch Remove/tr](wiki/Arch Remove/tr.md) | [Arch SectionPlane/tr](wiki/Arch SectionPlane/tr.md) |
+| [Arch Structure/tr](wiki/Arch Structure/tr.md) | [Arch Wall/tr](wiki/Arch Wall/tr.md) | [Draft AddConstruction/tr](wiki/Draft AddConstruction/tr.md) |
+| [Draft AddToGroup/tr](wiki/Draft AddToGroup/tr.md) | [Draft ApplyStyle/tr](wiki/Draft ApplyStyle/tr.md) | [Draft Arc/tr](wiki/Draft Arc/tr.md) |
+| [Draft Array/tr](wiki/Draft Array/tr.md) | [Draft BezCurve/tr](wiki/Draft BezCurve/tr.md) | [Draft BSpline/tr](wiki/Draft BSpline/tr.md) |
+| [Draft Circle/tr](wiki/Draft Circle/tr.md) | [Draft Clone/tr](wiki/Draft Clone/tr.md) | [Draft Dimension/tr](wiki/Draft Dimension/tr.md) |
+| [Draft Downgrade/tr](wiki/Draft Downgrade/tr.md) | [Draft Draft2Sketch/tr](wiki/Draft Draft2Sketch/tr.md) | [Draft Drawing/tr](wiki/Draft Drawing/tr.md) |
+| [Draft Edit/tr](wiki/Draft Edit/tr.md) | [Draft Ellipse/tr](wiki/Draft Ellipse/tr.md) | [Draft Facebinder/tr](wiki/Draft Facebinder/tr.md) |
+| [Draft FlipDimension/tr](wiki/Draft FlipDimension/tr.md) | [Draft Heal/tr](wiki/Draft Heal/tr.md) | [Draft Label/tr](wiki/Draft Label/tr.md) |
+| [Draft Line/tr](wiki/Draft Line/tr.md) | [Draft Mirror/tr](wiki/Draft Mirror/tr.md) | [Draft Move/tr](wiki/Draft Move/tr.md) |
+| [Draft Offset/tr](wiki/Draft Offset/tr.md) | [Draft PathArray/tr](wiki/Draft PathArray/tr.md) | [Draft Point/tr](wiki/Draft Point/tr.md) |
+| [Draft PointArray/tr](wiki/Draft PointArray/tr.md) | [Draft Polygon/tr](wiki/Draft Polygon/tr.md) | [Draft Rectangle/tr](wiki/Draft Rectangle/tr.md) |
+| [Draft Rotate/tr](wiki/Draft Rotate/tr.md) | [Draft Scale/tr](wiki/Draft Scale/tr.md) | [Draft SelectGroup/tr](wiki/Draft SelectGroup/tr.md) |
+| [Draft SelectPlane/tr](wiki/Draft SelectPlane/tr.md) | [Draft Shape2DView/tr](wiki/Draft Shape2DView/tr.md) | [Draft ShapeString/tr](wiki/Draft ShapeString/tr.md) |
+| [Draft ShowSnapBar/tr](wiki/Draft ShowSnapBar/tr.md) | [Draft Snap Angle/tr](wiki/Draft Snap Angle/tr.md) | [Draft Snap Center/tr](wiki/Draft Snap Center/tr.md) |
+| [Draft Snap Dimensions/tr](wiki/Draft Snap Dimensions/tr.md) | [Draft Snap Grid/tr](wiki/Draft Snap Grid/tr.md) | [Draft Snap Lock/tr](wiki/Draft Snap Lock/tr.md) |
+| [Draft Snap Midpoint/tr](wiki/Draft Snap Midpoint/tr.md) | [Draft Snap Near/tr](wiki/Draft Snap Near/tr.md) | [Draft Snap Ortho/tr](wiki/Draft Snap Ortho/tr.md) |
+| [Draft Snap Parallel/tr](wiki/Draft Snap Parallel/tr.md) | [Draft Snap Special/tr](wiki/Draft Snap Special/tr.md) | [Draft Snap WorkingPlane/tr](wiki/Draft Snap WorkingPlane/tr.md) |
+| [Draft Text/tr](wiki/Draft Text/tr.md) | [Draft ToggleConstructionMode/tr](wiki/Draft ToggleConstructionMode/tr.md) | [Draft ToggleContinueMode/tr](wiki/Draft ToggleContinueMode/tr.md) |
+| [Draft ToggleDisplayMode/tr](wiki/Draft ToggleDisplayMode/tr.md) | [Draft ToggleGrid/tr](wiki/Draft ToggleGrid/tr.md) | [Draft Trimex/tr](wiki/Draft Trimex/tr.md) |
+| [Draft Upgrade/tr](wiki/Draft Upgrade/tr.md) | [Draft Wire/tr](wiki/Draft Wire/tr.md) | [Draft WireToBSpline/tr](wiki/Draft WireToBSpline/tr.md) |
+| [Template:GuiCommand/tr](wiki/Template_GuiCommand/tr.md) | [Part Box/tr](wiki/Part Box/tr.md) | [Part Builder/tr](wiki/Part Builder/tr.md) |
+| [Part Ellipse/tr](wiki/Part Ellipse/tr.md) | [Part Extrude/tr](wiki/Part Extrude/tr.md) | [Part Line/tr](wiki/Part Line/tr.md) |
+| [Part Primitives/tr](wiki/Part Primitives/tr.md) | [Part Prism/tr](wiki/Part Prism/tr.md) | [PartDesign AdditiveBox/tr](wiki/PartDesign AdditiveBox/tr.md) |
+| [PartDesign AdditiveCone/tr](wiki/PartDesign AdditiveCone/tr.md) | [PartDesign AdditiveCylinder/tr](wiki/PartDesign AdditiveCylinder/tr.md) | [PartDesign AdditiveEllipsoid/tr](wiki/PartDesign AdditiveEllipsoid/tr.md) |
+| [PartDesign AdditiveLoft/tr](wiki/PartDesign AdditiveLoft/tr.md) | [PartDesign AdditivePipe/tr](wiki/PartDesign AdditivePipe/tr.md) | [PartDesign AdditivePrism/tr](wiki/PartDesign AdditivePrism/tr.md) |
+| [PartDesign AdditiveSphere/tr](wiki/PartDesign AdditiveSphere/tr.md) | [PartDesign AdditiveTorus/tr](wiki/PartDesign AdditiveTorus/tr.md) | [PartDesign AdditiveWedge/tr](wiki/PartDesign AdditiveWedge/tr.md) |
+| [PartDesign Body/tr](wiki/PartDesign Body/tr.md) | [PartDesign Boolean/tr](wiki/PartDesign Boolean/tr.md) | [PartDesign Chamfer/tr](wiki/PartDesign Chamfer/tr.md) |
+| [PartDesign Clone/tr](wiki/PartDesign Clone/tr.md) | [PartDesign CompPrimitiveAdditive/tr](wiki/PartDesign CompPrimitiveAdditive/tr.md) | [PartDesign CompPrimitiveSubtractive/tr](wiki/PartDesign CompPrimitiveSubtractive/tr.md) |
+| [PartDesign Draft/tr](wiki/PartDesign Draft/tr.md) | [PartDesign Fillet/tr](wiki/PartDesign Fillet/tr.md) | [PartDesign Groove/tr](wiki/PartDesign Groove/tr.md) |
+| [PartDesign Hole/tr](wiki/PartDesign Hole/tr.md) | [PartDesign InvoluteGear/tr](wiki/PartDesign InvoluteGear/tr.md) | [PartDesign Line/tr](wiki/PartDesign Line/tr.md) |
+| [PartDesign LinearPattern/tr](wiki/PartDesign LinearPattern/tr.md) | [PartDesign Mirrored/tr](wiki/PartDesign Mirrored/tr.md) | [PartDesign MoveFeature/tr](wiki/PartDesign MoveFeature/tr.md) |
+| [PartDesign MoveFeatureInTree/tr](wiki/PartDesign MoveFeatureInTree/tr.md) | [PartDesign MoveTip/tr](wiki/PartDesign MoveTip/tr.md) | [PartDesign MultiTransform/tr](wiki/PartDesign MultiTransform/tr.md) |
+| [PartDesign NewSketch/tr](wiki/PartDesign NewSketch/tr.md) | [PartDesign Pad/tr](wiki/PartDesign Pad/tr.md) | [PartDesign Plane/tr](wiki/PartDesign Plane/tr.md) |
+| [PartDesign Pocket/tr](wiki/PartDesign Pocket/tr.md) | [PartDesign Point/tr](wiki/PartDesign Point/tr.md) | [PartDesign PolarPattern/tr](wiki/PartDesign PolarPattern/tr.md) |
+| [PartDesign Revolution/tr](wiki/PartDesign Revolution/tr.md) | [PartDesign ShapeBinder/tr](wiki/PartDesign ShapeBinder/tr.md) | [PartDesign SubtractiveBox/tr](wiki/PartDesign SubtractiveBox/tr.md) |
+| [PartDesign SubtractiveCone/tr](wiki/PartDesign SubtractiveCone/tr.md) | [PartDesign SubtractiveCylinder/tr](wiki/PartDesign SubtractiveCylinder/tr.md) | [PartDesign SubtractiveEllipsoid/tr](wiki/PartDesign SubtractiveEllipsoid/tr.md) |
+| [PartDesign SubtractiveLoft/tr](wiki/PartDesign SubtractiveLoft/tr.md) | [PartDesign SubtractivePipe/tr](wiki/PartDesign SubtractivePipe/tr.md) | [PartDesign SubtractivePrism/tr](wiki/PartDesign SubtractivePrism/tr.md) |
+| [PartDesign SubtractiveSphere/tr](wiki/PartDesign SubtractiveSphere/tr.md) | [PartDesign SubtractiveTorus/tr](wiki/PartDesign SubtractiveTorus/tr.md) | [PartDesign SubtractiveWedge/tr](wiki/PartDesign SubtractiveWedge/tr.md) |
+| [PartDesign Thickness/tr](wiki/PartDesign Thickness/tr.md) | [PartDesign WizardShaft/tr](wiki/PartDesign WizardShaft/tr.md) | [Path Helix/tr](wiki/Path Helix/tr.md) |
+| [Path MillFace/tr](wiki/Path MillFace/tr.md) | [Plot Axes/tr](wiki/Plot Axes/tr.md) | [Plot Grid/tr](wiki/Plot Grid/tr.md) |
+| [Plot Labels/tr](wiki/Plot Labels/tr.md) | [Plot Legend/tr](wiki/Plot Legend/tr.md) | [Plot Positions/tr](wiki/Plot Positions/tr.md) |
+| [Plot Series/tr](wiki/Plot Series/tr.md) | [Robot CreateRobot/tr](wiki/Robot CreateRobot/tr.md) | [Robot CreateTrajectory/tr](wiki/Robot CreateTrajectory/tr.md) |
+| [Robot Export/tr](wiki/Robot Export/tr.md) | [Robot RestoreHomePos/tr](wiki/Robot RestoreHomePos/tr.md) | [Robot SetDefaultOrientation/tr](wiki/Robot SetDefaultOrientation/tr.md) |
+| [Robot SetDefaultValues/tr](wiki/Robot SetDefaultValues/tr.md) | [Robot SetHomePos/tr](wiki/Robot SetHomePos/tr.md) | [Robot Simulate/tr](wiki/Robot Simulate/tr.md) |
+| [Ship Area/tr](wiki/Ship Area/tr.md) | [Sketcher Clone/tr](wiki/Sketcher Clone/tr.md) | [Sketcher EditSketch/tr](wiki/Sketcher EditSketch/tr.md) |
+| [Sketcher LeaveSketch/tr](wiki/Sketcher LeaveSketch/tr.md) | [Sketcher MapSketch/tr](wiki/Sketcher MapSketch/tr.md) | [Sketcher NewSketch/tr](wiki/Sketcher NewSketch/tr.md) |
+| [Sketcher ReorientSketch/tr](wiki/Sketcher ReorientSketch/tr.md) | [Sketcher ViewSketch/tr](wiki/Sketcher ViewSketch/tr.md) | [Std AddonMgr/tr](wiki/Std AddonMgr/tr.md) |
+| [Std Group/tr](wiki/Std Group/tr.md) | [Std Part/tr](wiki/Std Part/tr.md) |
 
 
 

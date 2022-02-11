@@ -1,33 +1,34 @@
 # Category:PartDesign/pl
 This category includes FreeCAD pages related to PartDesign
 
-### Contents:
+### Contents
 
-    
-  [Artwork PartDesign/pl](Artwork_PartDesign/pl.md)                       [Basic Attachment Tutorial/pl](Basic_Attachment_Tutorial/pl.md)                             [Basic Part Design Tutorial/pl](Basic_Part_Design_Tutorial/pl.md)
-  [Body/pl](Body/pl.md)                                                   [Creating a simple part with PartDesign/pl](Creating_a_simple_part_with_PartDesign/pl.md)   [Datum/pl](Datum/pl.md)
-  [Draft ShapeString tutorial/pl](Draft_ShapeString_tutorial/pl.md)       [Feature editing/pl](Feature_editing/pl.md)                                                 [Feature/pl](Feature/pl.md)
-  [Part and PartDesign/pl](Part_and_PartDesign/pl.md)                     [PartDesign AdditiveBox/pl](PartDesign_AdditiveBox/pl.md)                                   [PartDesign AdditiveCone/pl](PartDesign_AdditiveCone/pl.md)
-  [PartDesign AdditiveCylinder/pl](PartDesign_AdditiveCylinder/pl.md)     [PartDesign AdditiveEllipsoid/pl](PartDesign_AdditiveEllipsoid/pl.md)                       [PartDesign AdditiveHelix/pl](PartDesign_AdditiveHelix/pl.md)
-  [PartDesign AdditiveLoft/pl](PartDesign_AdditiveLoft/pl.md)             [PartDesign AdditivePipe/pl](PartDesign_AdditivePipe/pl.md)                                 [PartDesign AdditivePrism/pl](PartDesign_AdditivePrism/pl.md)
-  [PartDesign AdditiveSphere/pl](PartDesign_AdditiveSphere/pl.md)         [PartDesign AdditiveTorus/pl](PartDesign_AdditiveTorus/pl.md)                               [PartDesign AdditiveWedge/pl](PartDesign_AdditiveWedge/pl.md)
-  [PartDesign Body/pl](PartDesign_Body/pl.md)                             [PartDesign Boolean/pl](PartDesign_Boolean/pl.md)                                           [PartDesign Chamfer/pl](PartDesign_Chamfer/pl.md)
-  [PartDesign Clone/pl](PartDesign_Clone/pl.md)                           [PartDesign CompPrimitiveAdditive/pl](PartDesign_CompPrimitiveAdditive/pl.md)               [PartDesign CompPrimitiveSubtractive/pl](PartDesign_CompPrimitiveSubtractive/pl.md)
-  [PartDesign CoordinateSystem/pl](PartDesign_CoordinateSystem/pl.md)     [PartDesign Draft/pl](PartDesign_Draft/pl.md)                                               [PartDesign Feature/pl](PartDesign_Feature/pl.md)
-  [PartDesign Fillet/pl](PartDesign_Fillet/pl.md)                         [PartDesign Groove/pl](PartDesign_Groove/pl.md)                                             [PartDesign Hole/pl](PartDesign_Hole/pl.md)
-  [PartDesign InvoluteGear/pl](PartDesign_InvoluteGear/pl.md)             [PartDesign Line/pl](PartDesign_Line/pl.md)                                                 [PartDesign LinearPattern/pl](PartDesign_LinearPattern/pl.md)
-  [PartDesign Migrate/pl](PartDesign_Migrate/pl.md)                       [PartDesign Mirrored/pl](PartDesign_Mirrored/pl.md)                                         [PartDesign MoveFeature/pl](PartDesign_MoveFeature/pl.md)
-  [PartDesign MoveFeatureInTree/pl](PartDesign_MoveFeatureInTree/pl.md)   [PartDesign MoveTip/pl](PartDesign_MoveTip/pl.md)                                           [PartDesign MultiTransform/pl](PartDesign_MultiTransform/pl.md)
-  [PartDesign NewSketch/pl](PartDesign_NewSketch/pl.md)                   [PartDesign Pad/pl](PartDesign_Pad/pl.md)                                                   [PartDesign Plane/pl](PartDesign_Plane/pl.md)
-  [PartDesign Pocket/pl](PartDesign_Pocket/pl.md)                         [PartDesign Point/pl](PartDesign_Point/pl.md)                                               [PartDesign PolarPattern/pl](PartDesign_PolarPattern/pl.md)
-  [PartDesign Preferences/pl](PartDesign_Preferences/pl.md)               [PartDesign Revolution/pl](PartDesign_Revolution/pl.md)                                     [PartDesign ShapeBinder/pl](PartDesign_ShapeBinder/pl.md)
-  [PartDesign Sprocket/pl](PartDesign_Sprocket/pl.md)                     [PartDesign SubShapeBinder/pl](PartDesign_SubShapeBinder/pl.md)                             [PartDesign SubtractiveBox/pl](PartDesign_SubtractiveBox/pl.md)
-  [PartDesign SubtractiveCone/pl](PartDesign_SubtractiveCone/pl.md)       [PartDesign SubtractiveCylinder/pl](PartDesign_SubtractiveCylinder/pl.md)                   [PartDesign SubtractiveEllipsoid/pl](PartDesign_SubtractiveEllipsoid/pl.md)
-  [PartDesign SubtractiveHelix/pl](PartDesign_SubtractiveHelix/pl.md)     [PartDesign SubtractiveLoft/pl](PartDesign_SubtractiveLoft/pl.md)                           [PartDesign SubtractivePipe/pl](PartDesign_SubtractivePipe/pl.md)
-  [PartDesign SubtractivePrism/pl](PartDesign_SubtractivePrism/pl.md)     [PartDesign SubtractiveSphere/pl](PartDesign_SubtractiveSphere/pl.md)                       [PartDesign SubtractiveTorus/pl](PartDesign_SubtractiveTorus/pl.md)
-  [PartDesign SubtractiveWedge/pl](PartDesign_SubtractiveWedge/pl.md)     [PartDesign Thickness/pl](PartDesign_Thickness/pl.md)                                       [Template:PartDesign Tools navi/pl](Template:PartDesign_Tools_navi/pl.md)
-  [PartDesign WizardShaft/pl](PartDesign_WizardShaft/pl.md)               [PartDesign Workbench/pl](PartDesign_Workbench/pl.md)                                       [Thread for Screw Tutorial/pl](Thread_for_Screw_Tutorial/pl.md)
-  [Toothbrush Head Stand/pl](Toothbrush_Head_Stand/pl.md)                 [Topological naming problem/pl](Topological_naming_problem/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork PartDesign/pl](wiki/Artwork PartDesign/pl.md) | [Basic Attachment Tutorial/pl](wiki/Basic Attachment Tutorial/pl.md) | [Basic Part Design Tutorial/pl](wiki/Basic Part Design Tutorial/pl.md) |
+| [Body/pl](wiki/Body/pl.md) | [Creating a simple part with PartDesign/pl](wiki/Creating a simple part with PartDesign/pl.md) | [Datum/pl](wiki/Datum/pl.md) |
+| [Draft ShapeString tutorial/pl](wiki/Draft ShapeString tutorial/pl.md) | [Feature editing/pl](wiki/Feature editing/pl.md) | [Feature/pl](wiki/Feature/pl.md) |
+| [Part and PartDesign/pl](wiki/Part and PartDesign/pl.md) | [PartDesign AdditiveBox/pl](wiki/PartDesign AdditiveBox/pl.md) | [PartDesign AdditiveCone/pl](wiki/PartDesign AdditiveCone/pl.md) |
+| [PartDesign AdditiveCylinder/pl](wiki/PartDesign AdditiveCylinder/pl.md) | [PartDesign AdditiveEllipsoid/pl](wiki/PartDesign AdditiveEllipsoid/pl.md) | [PartDesign AdditiveHelix/pl](wiki/PartDesign AdditiveHelix/pl.md) |
+| [PartDesign AdditiveLoft/pl](wiki/PartDesign AdditiveLoft/pl.md) | [PartDesign AdditivePipe/pl](wiki/PartDesign AdditivePipe/pl.md) | [PartDesign AdditivePrism/pl](wiki/PartDesign AdditivePrism/pl.md) |
+| [PartDesign AdditiveSphere/pl](wiki/PartDesign AdditiveSphere/pl.md) | [PartDesign AdditiveTorus/pl](wiki/PartDesign AdditiveTorus/pl.md) | [PartDesign AdditiveWedge/pl](wiki/PartDesign AdditiveWedge/pl.md) |
+| [PartDesign Body/pl](wiki/PartDesign Body/pl.md) | [PartDesign Boolean/pl](wiki/PartDesign Boolean/pl.md) | [PartDesign Chamfer/pl](wiki/PartDesign Chamfer/pl.md) |
+| [PartDesign Clone/pl](wiki/PartDesign Clone/pl.md) | [PartDesign CompPrimitiveAdditive/pl](wiki/PartDesign CompPrimitiveAdditive/pl.md) | [PartDesign CompPrimitiveSubtractive/pl](wiki/PartDesign CompPrimitiveSubtractive/pl.md) |
+| [PartDesign CoordinateSystem/pl](wiki/PartDesign CoordinateSystem/pl.md) | [PartDesign Draft/pl](wiki/PartDesign Draft/pl.md) | [PartDesign Feature/pl](wiki/PartDesign Feature/pl.md) |
+| [PartDesign Fillet/pl](wiki/PartDesign Fillet/pl.md) | [PartDesign Groove/pl](wiki/PartDesign Groove/pl.md) | [PartDesign Hole/pl](wiki/PartDesign Hole/pl.md) |
+| [PartDesign InvoluteGear/pl](wiki/PartDesign InvoluteGear/pl.md) | [PartDesign Line/pl](wiki/PartDesign Line/pl.md) | [PartDesign LinearPattern/pl](wiki/PartDesign LinearPattern/pl.md) |
+| [PartDesign Migrate/pl](wiki/PartDesign Migrate/pl.md) | [PartDesign Mirrored/pl](wiki/PartDesign Mirrored/pl.md) | [PartDesign MoveFeature/pl](wiki/PartDesign MoveFeature/pl.md) |
+| [PartDesign MoveFeatureInTree/pl](wiki/PartDesign MoveFeatureInTree/pl.md) | [PartDesign MoveTip/pl](wiki/PartDesign MoveTip/pl.md) | [PartDesign MultiTransform/pl](wiki/PartDesign MultiTransform/pl.md) |
+| [PartDesign NewSketch/pl](wiki/PartDesign NewSketch/pl.md) | [PartDesign Pad/pl](wiki/PartDesign Pad/pl.md) | [PartDesign Plane/pl](wiki/PartDesign Plane/pl.md) |
+| [PartDesign Pocket/pl](wiki/PartDesign Pocket/pl.md) | [PartDesign Point/pl](wiki/PartDesign Point/pl.md) | [PartDesign PolarPattern/pl](wiki/PartDesign PolarPattern/pl.md) |
+| [PartDesign Preferences/pl](wiki/PartDesign Preferences/pl.md) | [PartDesign Revolution/pl](wiki/PartDesign Revolution/pl.md) | [PartDesign ShapeBinder/pl](wiki/PartDesign ShapeBinder/pl.md) |
+| [PartDesign Sprocket/pl](wiki/PartDesign Sprocket/pl.md) | [PartDesign SubShapeBinder/pl](wiki/PartDesign SubShapeBinder/pl.md) | [PartDesign SubtractiveBox/pl](wiki/PartDesign SubtractiveBox/pl.md) |
+| [PartDesign SubtractiveCone/pl](wiki/PartDesign SubtractiveCone/pl.md) | [PartDesign SubtractiveCylinder/pl](wiki/PartDesign SubtractiveCylinder/pl.md) | [PartDesign SubtractiveEllipsoid/pl](wiki/PartDesign SubtractiveEllipsoid/pl.md) |
+| [PartDesign SubtractiveHelix/pl](wiki/PartDesign SubtractiveHelix/pl.md) | [PartDesign SubtractiveLoft/pl](wiki/PartDesign SubtractiveLoft/pl.md) | [PartDesign SubtractivePipe/pl](wiki/PartDesign SubtractivePipe/pl.md) |
+| [PartDesign SubtractivePrism/pl](wiki/PartDesign SubtractivePrism/pl.md) | [PartDesign SubtractiveSphere/pl](wiki/PartDesign SubtractiveSphere/pl.md) | [PartDesign SubtractiveTorus/pl](wiki/PartDesign SubtractiveTorus/pl.md) |
+| [PartDesign SubtractiveWedge/pl](wiki/PartDesign SubtractiveWedge/pl.md) | [PartDesign Thickness/pl](wiki/PartDesign Thickness/pl.md) | [Template:PartDesign Tools navi/pl](wiki/Template_PartDesign Tools navi/pl.md) |
+| [PartDesign WizardShaft/pl](wiki/PartDesign WizardShaft/pl.md) | [PartDesign Workbench/pl](wiki/PartDesign Workbench/pl.md) | [Thread for Screw Tutorial/pl](wiki/Thread for Screw Tutorial/pl.md) |
+| [Toothbrush Head Stand/pl](wiki/Toothbrush Head Stand/pl.md) | [Topological naming problem/pl](wiki/Topological naming problem/pl.md) |
 
 
 

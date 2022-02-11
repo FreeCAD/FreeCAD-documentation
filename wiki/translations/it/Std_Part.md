@@ -30,9 +30,15 @@ Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal 
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Premere il pulsante **[<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)**. Viene creata una parte vuota che diventa automaticamente *[attiva](Std_Part/it#Stato_attivo.md)*.
 2.  Per aggiungere oggetti a una parte, trascinarli e rilasciarli sulla parte nella [vista ad albero](tree_view/it.md).
 3.  Per rimuovere oggetti da una parte, trascinarli fuori dalla parte e sull\'etichetta del documento nella parte superiore della [vista ad albero](tree_view/it.md).
+
+
+</div>
 
 ### Note
 
@@ -91,6 +97,9 @@ Queste sono le proprietà disponibili nell\'[editore delle proprietà](property_
 
 #### Proprietà dati nascoste 
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Material|Map**: mappa con le proprietà del materiale. Per impostazione predefinita, è vuota {}.
 
 -    **Meta|Map**: mappa con ulteriori meta-informazioni. Per impostazione predefinita, è vuota {}.
@@ -106,6 +115,9 @@ Queste sono le proprietà disponibili nell\'[editore delle proprietà](property_
 -    **Origin|Link**: l\'oggetto [App Origin](App_Origin/it.md) è il riferimento posizionale per tutti gli elementi elencati in **Group**.
 
 -    **_ Group Touched|Bool**: se il gruppo viene coinvolto o meno.
+
+
+</div>
 
 ### Vista
 
@@ -176,9 +188,15 @@ L\'Origine è costituita dai tre assi standard (X, Y, Z) e da tre piani standard
 *A sinistra: Origine di Part nella [vista ad albero](tree_view/it.md).</br> A destra: rappresentazione degli elementi Origine nella [vista 3D](3D_view/it.md).*
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Nota:**
 
 l\'origine è un oggetto [App Origin](App_Origin/it.md)(`App::Origin` class), mentre gli assi e i piani sono rispettivamente oggetti di tipo `App::Linea` e `App::Piano`. Ognuno di questi elementi può essere nascosto e non nascosto singolarmente con la barra **Spazio**; questo è utile per scegliere il riferimento corretto quando si creano altri oggetti.
+
+
+</div>
 
 
 **Nota 2:**

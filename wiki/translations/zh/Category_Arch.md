@@ -1,10 +1,11 @@
 # Category:Arch/zh
 Pages relating to Architectural and Building Information Management
 
-### Contents:
+### Contents
 
-  
-  [Arch Workbench/zh](Arch_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch Workbench/zh](wiki/Arch Workbench/zh.md) |
 
 
 

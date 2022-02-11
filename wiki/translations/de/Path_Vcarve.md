@@ -31,7 +31,7 @@ The V-carve algorithm calculates a path down the center-line of a region using a
 -    **[<img src=images/Draft_ShapeString.svg style="width:24px"> [Draft ShapeStrings](Draft_ShapeString.md)**are usable out of the box
 
 -   SVG files require some massaging, both in the editor and in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md):
-    -   In the editor (e.g. [inkscape](https://www.inkscape.org)): make sure the file only contains paths and that the paths are ungrouped; make sure there are no self-intersecting paths, (in inkscape) use Path → Simplify and union to join paths that overlap.
+    -   In the editor (e.g. [Inkscape](https://www.inkscape.org)): make sure the file only contains paths and that the paths are ungrouped; make sure there are no self-intersecting paths, (in Inkscape) use Path → Simplify and union to join paths that overlap.
     -   Switch to the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) in [workbench dropdown list](Std_Workbench.md)
     -   Import the SVG using **File → Import → select "SVG as geometry"**
     -   The result should look similar to this:
@@ -44,7 +44,7 @@ The V-carve algorithm calculates a path down the center-line of a region using a
 
 :   
 
-    :   Paths with holes (letters, the vine in the image above) are imported as 2 separate paths (named along the lines of `Path905` and `Path905001` in the tree), one of them is the hole and the other one is the outline; we\'ll deal with this in the next step
+    :   Paths with holes (letters, the vine in the image above) are imported as 2 separate paths (named along the lines of `Path905` and `Path905001` in the [Tree view](Tree_view.md)), one of them is the hole and the other one is the outline; we\'ll deal with this in the next step
 
 -   -   In order to get the 2D faces, [Path Vcarve](Path_Vcarve.md) needs:
         -   For paths without holes:

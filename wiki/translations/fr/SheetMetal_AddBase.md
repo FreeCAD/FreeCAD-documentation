@@ -38,7 +38,7 @@ A partir d\'un contour fermé, il crée une *plaque* de base (vierge) :
 ### Plaque
 
 1.  Sélectionnez une <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [esquisse](Sketcher_Workbench/fr.md) à **contour fermé**.
-2.  Lancez <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase/fr.md) (voir ci-dessus).
+2.  Lancez la commande <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase/fr.md) (voir ci-dessus).
 3.  Ajustez le paramètre de la plaque en éditant la valeur correspondante dans l\'[Éditeur de propriétés](Property_editor/fr.md) :
     -   La propriété **thickness** pour l\'épaisseur de la plaque.
 

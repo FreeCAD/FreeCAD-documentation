@@ -1,10 +1,11 @@
 # Category:Macros/pt
 This category contains macros to extend your FreeCAD installation with new functionality
 
-### Contents:
+### Contents
 
-  
-  [Macros/pt](Macros/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Macros/pt](wiki/Macros/pt.md) |
 
 
 

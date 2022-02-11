@@ -48,6 +48,36 @@ cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 -   Where {{Incode|"myCone"}} is the name for the object.
 -   The function returns the newly created object.
 
+The name of the object can be easily changed by
+
+ 
+```python
+cone.Label = "new coneName"
+```
+
+You can access and modify attributes of the {{Incode|cone}} object. For example, you may wish to modify the lower or upper radius, the height or the angle parameters.
+
+ 
+```python
+cone.Radius1 = 5
+cone.Radius2 = 10
+cone.Height = 50
+cone.Angle = 270
+```
+
+The result will be a 270° portion of a full cone.
+
+You can change its placement and orientation with:
+
+ 
+```python
+cone.Placement = FreeCAD.Placement(FreeCAD.Vector(2, 4, 6), FreeCAD.Rotation(30, 45, 10))
+```
+
+The Part Cone with the values of the scripting example looks like:
+
+![Part Cone with the values of the scripting example.](images/Part_Cone_Scripting_Example.png )
+
 
 
 ---

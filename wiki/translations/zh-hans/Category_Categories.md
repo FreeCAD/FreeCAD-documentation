@@ -6,12 +6,12 @@ This is the **top category** which contains the main categories of the FreeCAD w
 -   all *categories* that are *not classified*, use the [list of uncategorized categories](Special_Uncategorizedcategories.md).
 -   all *images* that are *not classified*, use the [list of uncategorized images](Special_Uncategorizedimages.md).
 
-### Contents:
+### Contents
 
-  -- -- --
-        
-        
-  -- -- --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Addons/zh-hans](wiki/Category_Addons/zh-hans.md) | [Category:Categories/zh-hans](wiki/Category_Categories/zh-hans.md) | [Category:Documentation/zh-hans](wiki/Category_Documentation/zh-hans.md) |
+|
 
 
 

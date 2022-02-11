@@ -1,10 +1,11 @@
 # Category:BIM/zh-tw
 This category is for pages related to building information management (BIM).
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Arch/zh-tw](wiki/Category_Arch/zh-tw.md) |
 
 
 

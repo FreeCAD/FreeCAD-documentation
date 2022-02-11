@@ -27,14 +27,28 @@ The box properties can later be edited, either in the property editor or by doub
 
 ## Properties
 
+See also: [Property editor](Property_editor.md).
 
-{{Properties_Title|Box}}
+A Part Box object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
--    **Length**: The length parameter is the Box\'s dimension in the x-direction.
+### Data
 
--    **Width**: The width parameter is the Box\'s dimension in the y-direction.
 
--    **Height**: The height parameter is the Box\'s dimension in the z-direction.
+{{TitleProperty|Box}}
+
+-    **Length|Length**: The length of the box. This is the dimension in the X direction.
+
+-    **Width|Length**: The width of the box. This is the dimension in the Y direction.
+
+-    **Height|Length**: The height of the box. This is the dimension in the Z direction.
+
+## Notes
+
+By default, a box is created with three sides of equal length (cubes) of 10 mm each.
+
+This can be easily recognized by the additional tick at the icon in the tree view.
+
+## Limitations
 
 ## Scripting
 
@@ -48,12 +62,19 @@ box = FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
 -   Where {{Incode|"myBox"}} is the name for the object.
 -   The function returns the newly created object.
 
+The name of the object can be easily changed by
+
+ 
+```python
+box.Label = "new boxName"
+```
+
 You can access and modify attributes of the {{Incode|box}} object. For example, you may wish to modify the length, width and height parameters.
 
  
 ```python
-box.Length = 25
-box.Width = 15
+box.Length = 20
+box.Width = 10
 box.Height = 30
 ```
 
@@ -63,6 +84,10 @@ You can change its placement with:
 ```python
 box.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
+
+The Part Box with the values of the scripting example looks like:
+
+![Part Box with the values of the scripting example.](images/Part_Box_Scripting_Example.png )
 
 
 

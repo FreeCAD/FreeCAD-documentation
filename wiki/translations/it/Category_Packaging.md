@@ -1,11 +1,13 @@
 # Category:Packaging/it
 This category collects pages related to packing FreeCAD for different platforms, including Linux, Windows, and MacOS.
 
-### Contents:
+### Contents
 
-    
-  [AppImage/it](AppImage/it.md)                   [Debian development/it](Debian_development/it.md)   [Debian Unstable/it](Debian_Unstable/it.md)
-  [Git buildpackage/it](Git_buildpackage/it.md)   [Linux packaging/it](Linux_packaging/it.md)         [Packaging/it](Packaging/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [AppImage/it](wiki/AppImage/it.md) | [Debian development/it](wiki/Debian development/it.md) | [Debian Unstable/it](wiki/Debian Unstable/it.md) |
+| [Git buildpackage/it](wiki/Git buildpackage/it.md) | [Linux packaging/it](wiki/Linux packaging/it.md) | [Packaging/it](wiki/Packaging/it.md) |
+|
 
 
 

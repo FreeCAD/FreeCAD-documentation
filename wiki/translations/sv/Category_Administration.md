@@ -1,10 +1,12 @@
 # Category:Administration/sv
 This category contains articles and categories about wiki administrative subjects.
 
-### Contents:
+### Contents
 
-    
-  [Template:PropertyData/sv](Template:PropertyData/sv.md)   [Template:PropertyView/sv](Template:PropertyView/sv.md)   [Tracker/sv](Tracker/sv.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:PropertyData/sv](wiki/Template_PropertyData/sv.md) | [Template:PropertyView/sv](wiki/Template_PropertyView/sv.md) | [Tracker/sv](wiki/Tracker/sv.md) |
+| [Category:UnfinishedDocu/sv](wiki/Category_UnfinishedDocu/sv.md) |
 
 
 

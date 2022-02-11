@@ -3,10 +3,11 @@ This is a complete list of pages under [:Category:Tutorials/bg](:Category:Tutori
 
 See also [Tutorials](Tutorials/bg.md) and [video tutorials](video_tutorials/bg.md)
 
-### Contents:
+### Contents
 
-  
-  [Tutorials/bg](Tutorials/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Tutorials/bg](wiki/Tutorials/bg.md) |
 
 
 

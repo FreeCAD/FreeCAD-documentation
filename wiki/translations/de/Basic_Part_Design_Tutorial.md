@@ -82,15 +82,21 @@ um einen neuen Körper Container zu erstellen und zu aktivieren. *Hinweis: Diese
 
 </div>
 
-1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
+1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
 *Note: this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
-2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
+2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
 3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the Tasks tab from the Combo view, select **YZ\_Plane** in the list and press **OK**:
+4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ\_Plane** in the list and press **OK**:
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width:250px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Hinweis: Es ist möglich, dass die OK Schaltfläche nicht sichtbar ist, wenn das Seitenpaneel nicht breit genug ist. Du kannst es breiter machen, indem du an seinem rechten Rand ziehst. Bewege den Mauszeiger über den Rand; wenn sich der Zeiger in einen Zwei-Wege Pfeil verwandelt, halte die linke Maustaste gedrückt und ziehe.\'\'
+
+
+</div>
 
 Sobald du auf OK klickst, wechselt FreeCAD automatisch in den [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) und öffnet die Skizze im Bearbeitungsmodus:
 
@@ -126,7 +132,13 @@ An diesem Punkt sollten Sie eine vollständig eingeschränkte Skizze haben, wie 
 
 ![](images/Tut17_profile.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Nun in der Combo-Ansicht auf die Schaltfläche **Schließen** klicken, um den Skizzenbearbeitungsmodus zu verlassen und Skizze aufpolstern <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> (Pad) aus der Symbolleiste im PartDesign-Menü wählen. Das öffnet ein **Aufpolstern**-Menü in der Combo-Ansicht. Leider sind derzeit 2 Begriffe dafür in der Programmübersetzung Aufpolstern = Block = PAD. In diesem Dialogfeld zuerst das Aufklappmenü **Typ** und dann **Zwei Dimensionen** wählen. Die Zeichnung am Anfang dieses Tutorials sagt aus, dass das Teil 53 mm lang ist. Wir erhalten diesen Abstand, indem wir unsere Skizze in beide Richtungen von der Mittelebene aus auffüllen, d.h. es wird symmetrisch bezüglich der Skizzierebene aufgepolstert. Der Grund dafür wird später beim Erstellen von Features klar werden. Zunächst soll das Teil insgesamt 53 mm lang sein, also 26,5 für die erste Längenhälfte und 26,5 für die zweite Längenhälfte eingeben. Alternativ könnte die volle Länge von 53 mm eingegeben und dann auf das Kontrollkästchen **Symmetrisch zu Ebene** geklickt werden. Sobald das erledigt ist, haben wir nun unsere Basis, auf der wir zusätzliche Features hinzufügen werden, um unser Teil zu konstruieren.
+
+
+</div>
 
 Ein Video der Schritte in diesem Teil des Tutorials ist hier: <https://youtu.be/cUyPnCMeTgg>
 
@@ -144,7 +156,13 @@ Mit der Maus oder den Ansichtssymbolen drehen Sie das Modell um, so dass Sie sei
 
 ![](images/PD_WB_Tutorial003.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Nachdem die Oberfläche ausgewählt wurde, auf das Symbol **Neue Skizze** in der PartDesign-Menüleiste klicken. Dies wird unsere nächste Skizze auf die Rückseite des Teils positionieren. Nun das Werkzeug ![ 32px](images/Sketcher_CreateRectangle.svg ) **Rechteck** wählen und ein Rechteck auf die Rückseite des Teils auf ähnliche Weise positionieren, wie unten gezeigt. Nun den aufgeführten Schritten folgen und die Skizze einschränken.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -164,9 +182,21 @@ Nachdem die Oberfläche ausgewählt wurde, auf das Symbol **Neue Skizze** in der
 
 ![](images/tut17_slote_constrained.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Danach auf die Schaltfläche **Schließen** oben in der Registerkarte **Aufgaben** in der Combo-Ansicht klicken und dann **Vertiefung** <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> aus dem PartDesign-Menü wählen. Leider sind derzeit 2 Begriffe dafür in der Programmübersetzung : Tasche = Vertiefung = POCKET. Das Werkzeug **Tasche** ist das Gegenteil des **Aufpolstern** (Pad)-Werkzeugs. Während das **Aufpolstern**-Werkzeug dem Teil Material hinzufügt, entfernt das **Vertiefen**-Werkzeug Material aus dem Teil. Beide Operationen werden als Features bezeichnet. In diesem Vertiefen-Vorgang wird aus dem Aufklappmenü **Typ** der Punkt **Durch alle** ausgewählt und dann auf die Schaltfläche OK geklickt.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Für den nächsten Schritt muß \"Pocket\" im Modell Tab der Combo-Ansicht ausgewählt sein. Nun auf **gespiegeltes Objekt erzeugen** ![ 32px](images/_PartDesign_Mirrored.svg ) oder **Spiegeln** im PartDesign-Menü klicken. Im Dialogfeld **Mirrored Parameters** in der Combo-Ansicht die Option **Horizontale Skizzenachse** aus dem Aufklappmenü **Ebene** wählen. Auf OK klicken. Die Mirror-Funktion funktioniert deshalb auf diese Weise, weil das Basis-Feature unseres Modells in beiden Richtungen von der horizontalen Ebene aus, in der ersten Operation mit der Basisskizze aufgepolstert wurde. Wenn alles gut gegangen ist, sollten Sie jetzt ein Teil haben, welches dem Bild unten entspricht, nachdem Sie es in die Vorderansicht gedreht haben.
+
+
+</div>
 
 ![](images/tut17_profilewithslots.png )
 
@@ -224,7 +254,13 @@ An diesem Punkt drehen wir das Teil in der Ansicht nach vorne, wir können sehen
 
 ![](images/tut17_innerplane.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Hier werden wir wieder das Rechteck-Werkzeug verwenden und ein Rechteck in unsere Skizze einfügen, und nachdem Sie dies getan haben, wenden Sie die folgenden Bedingungen an.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -265,7 +301,13 @@ Um eine Tasche zu erstellen, die das geneigte Rechteck als Auslass hat, zeichnen
 
 ![](images/tut17_profilewithsideblocksrearplane.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Erneut **Neue Skizze** <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> aus der Werkzeugleiste im PartDesign-Menü wählen. Im Skizzenbearbeitungsmodus sehen wir nun das skizzierte Rechteck auf der Schräge nicht mehr. Um es auswählbar zu machen, wechseln wir die Combo-Ansicht zur Modell-Registerkarte und wählen die letzte Skizze (Sketch003) auf der geneigten Ebene. Die Leertaste drücken, um diese sichtbar zu machen. Als nächstes die Spiegelfunktion oben (Mirrored001) wählen und wieder mit der Leertaste diese verstecken. Danach sollte das Rechteck in der 3D-Ansicht zu sehen sein. Man kann weiterhin mit der sichtbaren Registerkarte **Modell** arbeiten oder zur Registerkarte **Aufgaben** zurückkehren. Mit dem Werkzeug <img alt="" src=images/_Sketcher_External.svg  style="width:32px;"> **Externe Geometrie** die oberen und unteren horizontalen Kanten des geneigten Rechtecks aus. Dann mit dem Werkzeug <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> **Rechteck** ein neues Rechteck der Skizze hinzufügen.
+
+
+</div>
 
 ![](images/tut17_rectangleunconstrained.png )
 
@@ -276,7 +318,13 @@ Und das sollte am Ende dabei herauskommen.
 
 ![](images/tut17_rectangleconstrained.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Für den letzten Schritt in diesem Tutorium schließe das Skizziererfenster mit Schließen oder Bearbeitung beenden aus dem Kontextmenü von sketch004 und wähle dann das <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Taschen Funktion aus der Werkzeugleiste oder aus dem Menü \"Part Design\" aus. Wähle aus dem Auswahlmenü Typ die Option **Durch alles** und klicke auf die Schaltfläche OK.
+
+
+</div>
 
 ![](images/Tut17_final.png )
 

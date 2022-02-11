@@ -1,10 +1,12 @@
 # Category:Icon/it
 Questa categoria contiene le **immagini icone**.
 
-### Contents:
+### Contents
 
-    
-  [Artwork Erroneous/it](Artwork_Erroneous/it.md)   [Artwork/it](Artwork/it.md)   [Key ASCII/it](Key_ASCII/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Erroneous/it](wiki/Artwork Erroneous/it.md) | [Artwork/it](wiki/Artwork/it.md) | [Key ASCII/it](wiki/Key ASCII/it.md) |
+|
 
 
 

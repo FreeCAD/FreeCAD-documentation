@@ -78,7 +78,7 @@ Supported operating systems:
 -   Fixed an issue where using a tablet pen devices (e.g. Wacom tablet) was slow to the point of being completely unusable. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=45046), [Pull request \#4687](https://github.com/FreeCAD/FreeCAD/pull/4687).
 -   The coordinate system in the 3D view can be resized in the preferences in the section [Display → 3D View](Preferences_Editor#3D_View.md). [Pull request \#5182](https://github.com/FreeCAD/FreeCAD/pull/5182)
 -   A new setting in [Preferences → General](Preferences_Editor#General.md) allows to substitute the numerical keypad decimal separator with the appropriate locale separator if they are different. [Pull request \#3256](https://github.com/FreeCAD/FreeCAD/pull/3256) [Pull request \#5150](https://github.com/FreeCAD/FreeCAD/pull/5150) [Pull request 5203](https://github.com/FreeCAD/FreeCAD/pull/5203)
--   It is now possible to set the Backspace key as a standalone shortcut key without the need to specify an additional modifier key. [Pull request \#5428](https://github.com/FreeCAD/FreeCAD/pull/5428)
+-   It is now possible to set the **Backspace** key as a standalone shortcut key without the need to specify an additional modifier key. [Pull request \#5428](https://github.com/FreeCAD/FreeCAD/pull/5428)
 
 ## Core system and API 
 
@@ -105,6 +105,8 @@ Supported operating systems:
 
 
 <div class="mw-collapsible-content">
+-   *Circle2dPy::getCircleCenter*: Gets the circle center defined by three points. [commit 3dc91fa2](https://github.com/FreeCAD/FreeCAD/commit/3dc91fa2)
+
 -   *ComplexGeoDataPy::applyRotation*: Applies an additional rotation to the placement. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
 -   *ComplexGeoDataPy::applyTranslation*: Applies an additional translation to the placement. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
 -   *ComplexGeoDataPy::countSubElements*: Returns the number of elements of a type. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
@@ -222,6 +224,7 @@ Supported operating systems:
 
 ### Further FEM improvements 
 
+-   Support for linear buckling analyses was added. [Pull request \#4379](https://github.com/FreeCAD/FreeCAD/pull/4379)
 -   A new solver was added: **Solve → [<img src=images/FEM_SolverMystran.svg style="width:16px"> [Solver Mystran](FEM_SolverMystran.md)**. Multiple commits.
 -   A new constraint was added: **Model → Geometrical Constraints → [<img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Constraint Spring](FEM_ConstraintSpring.md)**. [Pull request \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982)
 -   The element order of [Gmsh](FEM_MeshGmshFromShape.md) meshes can be changed via the mesh dialog. [Pull request \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660)
@@ -264,6 +267,10 @@ There is also a text box for feedback of OpenSCAD errors.
 
 ## Part Workbench 
 
+   
+  <img alt="" src=images/Part_Extrusion-inner-structures_relnotes_0.20.png  style="width:384px;">Tapered extrusion of a sketch with an inner structure.   The tapered [extrusion](Part_Extrude.md) of inner structures creates now usable results. Previously, inner structures were extruded as if they were stand-alone and not part of a structure. [Pull request \#5367](https://github.com/FreeCAD/FreeCAD/pull/5367)
+   
+
 ### Further Part improvements 
 
 -   The dialog to edit [Cylinders](Part_Cylinder.md) allows now to specify an angle in respect to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
@@ -271,23 +278,25 @@ There is also a text box for feedback of OpenSCAD errors.
 ## PartDesign Workbench 
 
    
-  <img alt="" src=images/PD_Pocket-direction_relnotes_0.20.gif  style="width:384px;">Pocketing along different directions.Click on the image to show the animation.                                      It is now possible to specify the direction for the pocket extrusion. [Pull request \#5164](https://github.com/FreeCAD/FreeCAD/pull/5164)
   <img alt="" src=images/PD_Pad-Length-along-reference_relnotes_0.20.gif  style="width:384px;">Padding along an edge from the model.Click on the image to show the animation.                  There is a new option to pad along the direction of an edge in the 3D model. [Pull request \#4685](https://github.com/FreeCAD/FreeCAD/pull/4685)
-  <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width:384px;">Effect of the new option *Length along sketch normal*.Click on the image to show the animation.   There is a new option to pad a certain length along the direction. The length is either measured along the sketch normal or along the custom direction. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=50466), [Pull request \#3893](https://github.com/FreeCAD/FreeCAD/pull/3893)
-  <img alt="" src=images/PartDesign_Cylinder_direction_relnotes_0.20.png  style="width:384px;">                                                                                                                                The dialog to edit [Cylinder](PartDesign_AdditiveCylinder.md) (additive and subtractive) allows now to specify an angle in respect to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
   <img alt="" src=images/PartDesign_Chamfer_Face_Selection_relnotes_0.20.png  style="width:384px;">                                                                                                                        When Distance and Angle is specified in the [Chamfer](PartDesign_Chamfer.md) tool and faces are selected, the distance will be applied along the selected faces. Likewise if two distances are specified then Size 1 will be applied along the selected face. This behaviour can be swapped to the other face using the flip direction button. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=19&t=62084), [Pull request \#5039](https://github.com/FreeCAD/FreeCAD/pull/5039)
-  <img alt="" src=images/PartDesign_Loft_Vertex_relnotes_0.20.png  style="width:384px;">                                                                                                                                              It is now possible to create an [Additive Loft](PartDesign_AdditiveLoft.md), [Subtractive Loft](PartDesign_SubtractiveLoft.md), [Additive Pipe](PartDesign_AdditivePipe.md) or [Subtractive Pipe](PartDesign_SubtractivePipe.md) towards or from a [Vertex](Glossary#V.md) of either a sketch or a body. This allows for example to create pyramids. [Pull request \#5170](https://github.com/FreeCAD/FreeCAD/pull/5170) (for lofts), [Pull request \#5193](https://github.com/FreeCAD/FreeCAD/pull/5193) (for pipes)
+  <img alt="" src=images/PartDesign_Loft_Vertex_relnotes_0.20.png  style="width:384px;">                                                                                                                                              It is now possible to create an [Additive](PartDesign_AdditiveLoft.md) or [Subtractive Loft](PartDesign_SubtractiveLoft.md), [Additive](PartDesign_AdditivePipe.md) or [Subtractive Pipe](PartDesign_SubtractivePipe.md) towards or from a [Vertex](Glossary#V.md) of either a sketch or a body. This allows for example to create pyramids. [Pull request \#5170](https://github.com/FreeCAD/FreeCAD/pull/5170) (for lofts), [Pull request \#5193](https://github.com/FreeCAD/FreeCAD/pull/5193) (for pipes)
+  <img alt="" src=images/PD_Pad-Taper-angle_relnotes_0.20.png  style="width:384px;">A tapered pocket within a non-tapered pad.                                                                                          The dialog for [Pad](PartDesign_Pad.md) and [Pocket](PartDesign_Pocket.md) offer to set a taper angle for the extrusion. [Pull request \#5357](https://github.com/FreeCAD/FreeCAD/pull/5357)
+  <img alt="" src=images/PD_Pocket-direction_relnotes_0.20.gif  style="width:384px;">Pocketing along different directions.Click on the image to show the animation.                                      It is now possible to specify the direction for the pocket extrusion. [Pull request \#5164](https://github.com/FreeCAD/FreeCAD/pull/5164)
+  <img alt="" src=images/PartDesign_Cylinder_direction_relnotes_0.20.png  style="width:384px;">                                                                                                                                The dialog to edit [Cylinder](PartDesign_AdditiveCylinder.md) (additive and subtractive) allows now to specify an angle in respect to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
   <img alt="" src=images/PartDesign_Helix_Growth_relnotes_0.20.png  style="width:384px;">                                                                                                                                            The [Helix](PartDesign_AdditiveHelix.md) feature has the new mode **Height-Turns-Growth** to create flat spirals. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=19&t=56378) [Pull request \#4590](https://github.com/FreeCAD/FreeCAD/pull/4590)
+  <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width:384px;">Effect of the new option *Length along sketch normal*.Click on the image to show the animation.   There is a new option to pad a certain length along the direction. The length is either measured along the sketch normal or along the custom direction. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=50466), [Pull request \#3893](https://github.com/FreeCAD/FreeCAD/pull/3893)
    
 
 ### Further PartDesign improvements 
 
 -   In the [Helix](PartDesign_AdditiveHelix.md) feature one can now also use the sketch normal as axis. [Pull request \#5199](https://github.com/FreeCAD/FreeCAD/pull/5199)
--   The [Sprocket](PartDesign_Sprocket.md) feature can now create also ISO-normed sprockets. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525#p478369) [Pull request \#4478](https://github.com/FreeCAD/FreeCAD/pull/4478)
+-   The [Sprocket](PartDesign_Sprocket.md) feature can now also create ISO-normed sprockets. [Forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525#p478369) [Pull request \#4478](https://github.com/FreeCAD/FreeCAD/pull/4478)
 -   The [Loft](PartDesign_AdditiveLoft.md) and [Pipe](PartDesign_AdditivePipe.md) features now allow using the body\'s faces for sections. [Pull request \#5155](https://github.com/FreeCAD/FreeCAD/pull/5155)
 -   It is now possible to select several faces before calling the [Pad](PartDesign_Pad.md) or [Pocket](PartDesign_Pocket.md) dialog. In this case the first selected face will be used to determine the default padding/pocketing direction. [commit d34a5616](https://github.com/FreeCAD/FreeCAD/commit/d34a5616a2b38c96ad05f9a0763ba7504dfb814d)
 -   In the [Chamfer](PartDesign_Chamfer.md) and [Fillet](PartDesign_Fillet.md) dialogs all edges of a body can be selected via the context menu while in Add mode. [Pull request \#5269](https://github.com/FreeCAD/FreeCAD/pull/5269)
     When you selected a 3D object before clicking the icon to create a fillet or chamfer, all object edges will automatically be selected. [Pull request \#5328](https://github.com/FreeCAD/FreeCAD/pull/5328)
+-   [Chamfer](PartDesign_Chamfer.md) and [Fillet](PartDesign_Fillet.md) dialogs now each have a new Use all edges checkbox, which is connected to the Use All Edges property for these objects. When the box is checked the property is set to True, when unchecked the property is set to False. When checked the Add and Remove buttons and the list box of edges are disabled and all the edges of the object will be filleted or chamfered. Note: when Use All Edges is True there is protection against the [topological naming problem](topological_naming_problem.md) because then all of the edges of the base object are used regardless of how many edges there are. [Pull request \#5340](https://github.com/FreeCAD/FreeCAD/pull/5340)
 
 ## Path Workbench 
 
@@ -329,7 +338,7 @@ There is also a text box for feedback of OpenSCAD errors.
 
 -   Import XLSX (used by [Std Import](Std_Import.md)): Added support for floor and ceil functions. [Pull request \#5015](https://github.com/FreeCAD/FreeCAD/pull/5015).
 -   Cell binding: instruct a set of cells to display the contents of another set of cells. Part of [Pull request \#2862](https://github.com/FreeCAD/FreeCAD/pull/2862).
--   Improved navigation using the Tab and Enter keys.
+-   Improved navigation using the **Tab** and **Enter** keys.
 -   Improved interface for cutting and pasting blocks of cells.
 
 ## Start Workbench 

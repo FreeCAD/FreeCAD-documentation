@@ -6,12 +6,12 @@ This is the **top category** which contains the main categories of the FreeCAD w
 -   all *categories* that are *not classified*, use the [list of uncategorized categories](Special_Uncategorizedcategories.md).
 -   all *images* that are *not classified*, use the [list of uncategorized images](Special_Uncategorizedimages.md).
 
-### Contents:
+### Contents
 
-  -- -- --
-        
-        
-  -- -- --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Categories/cz](wiki/Category_Categories/cz.md) | [Category:Documentation/cz](wiki/Category_Documentation/cz.md) | [Category:Hubs/cz](wiki/Category_Hubs/cz.md) |
+|
 
 
 

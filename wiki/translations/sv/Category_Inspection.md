@@ -1,10 +1,11 @@
 # Category:Inspection/sv
 This category lists pages related to the [Inspection Workbench](Inspection_Workbench.md).
 
-### Contents:
+### Contents
 
-  
-  [Inspection Workbench/sv](Inspection_Workbench/sv.md)
+|     |     |     |
+| --- | --- | --- |
+| [Inspection Workbench/sv](wiki/Inspection Workbench/sv.md) |
 
 
 

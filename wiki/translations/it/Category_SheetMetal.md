@@ -1,11 +1,13 @@
 # Category:SheetMetal/it
 This page collects the documentation pages for the [SheetMetal Workbench/it](SheetMetal_Workbench/it.md), one of the [external workbenches/it](external_workbenches/it.md).
 
-### Contents:
+### Contents
 
-    
-  [SheetMetal AddJunction/it](SheetMetal_AddJunction/it.md)   [SheetMetal AddRelief/it](SheetMetal_AddRelief/it.md)   [SheetMetal AddWall/it](SheetMetal_AddWall/it.md)
-  [SheetMetal Extrude/it](SheetMetal_Extrude/it.md)           [SheetMetal Unfold/it](SheetMetal_Unfold/it.md)         [SheetMetal Workbench/it](SheetMetal_Workbench/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [SheetMetal AddJunction/it](wiki/SheetMetal AddJunction/it.md) | [SheetMetal AddRelief/it](wiki/SheetMetal AddRelief/it.md) | [SheetMetal AddWall/it](wiki/SheetMetal AddWall/it.md) |
+| [SheetMetal Extrude/it](wiki/SheetMetal Extrude/it.md) | [SheetMetal Unfold/it](wiki/SheetMetal Unfold/it.md) | [SheetMetal Workbench/it](wiki/SheetMetal Workbench/it.md) |
+|
 
 
 

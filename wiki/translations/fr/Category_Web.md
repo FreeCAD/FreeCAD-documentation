@@ -1,10 +1,11 @@
 # Category:Web/fr
 Cette catégorie répertorie les pages relatives à [Web Workbench](Web_Workbench/fr.md).
 
-### Contents:
+### Contents
 
-   
-  [Artwork Web/fr](Artwork_Web/fr.md)   [Web Workbench/fr](Web_Workbench/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Web/fr](wiki/Artwork Web/fr.md) | [Web Workbench/fr](wiki/Web Workbench/fr.md) |
 
 
 

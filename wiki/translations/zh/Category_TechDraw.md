@@ -1,10 +1,11 @@
 # Category:TechDraw/zh
 This category lists pages related to the [TechDraw Workbench/zh](TechDraw_Workbench/zh.md).
 
-### Contents:
+### Contents
 
-  
-  [TechDraw Workbench/zh](TechDraw_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [TechDraw Workbench/zh](wiki/TechDraw Workbench/zh.md) |
 
 
 

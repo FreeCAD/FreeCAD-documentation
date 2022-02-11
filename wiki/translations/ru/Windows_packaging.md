@@ -1,5 +1,5 @@
 # Windows packaging/ru
-
+}
 
 
 

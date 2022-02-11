@@ -3,10 +3,11 @@
 
 This category gathers article that list objects and methods available to the python programmer.
 
-### Contents:
+### Contents
 
-  
-  [Draft API/sv](Draft_API/sv.md)
+|     |     |     |
+| --- | --- | --- |
+| [Draft API/sv](wiki/Draft API/sv.md) |
 
 
 

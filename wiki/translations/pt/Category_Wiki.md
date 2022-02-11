@@ -1,10 +1,11 @@
 # Category:Wiki/pt
 This category contains all documents that relate to the Wiki.
 
-### Contents:
+### Contents
 
-  
-  [Localisation/pt](Localisation/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Localisation/pt](wiki/Localisation/pt.md) |
 
 
 

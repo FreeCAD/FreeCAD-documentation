@@ -1,10 +1,11 @@
 # Category:Arch/pt
 Pages relating to Architectural and Building Information Management
 
-### Contents:
+### Contents
 
-   
-  [Arch Floor/pt](Arch_Floor/pt.md)   [Arch Workbench/pt](Arch_Workbench/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch Floor/pt](wiki/Arch Floor/pt.md) | [Arch Workbench/pt](wiki/Arch Workbench/pt.md) |
 
 
 

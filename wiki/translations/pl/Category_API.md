@@ -3,17 +3,18 @@
 
 Kategoria ta gromadzi artykuły zawierające listę obiektów i metod dostępnych dla programisty środowiska Python.
 
-### Contents:
+### Contents
 
-    
-  [Arch API/pl](Arch_API/pl.md)                     [Base API/pl](Base_API/pl.md)               [Builtin modules/pl](Builtin_modules/pl.md)
-  [Console API/pl](Console_API/pl.md)               [Draft API/pl](Draft_API/pl.md)             [FeaturePython Custom Properties/pl](FeaturePython_Custom_Properties/pl.md)
-  [FreeCAD API/pl](FreeCAD_API/pl.md)               [FreeCADGui API/pl](FreeCADGui_API/pl.md)   [Matrix API/pl](Matrix_API/pl.md)
-  [Mesh API/pl](Mesh_API/pl.md)                     [Object API/pl](Object_API/pl.md)           [Part API/pl](Part_API/pl.md)
-  [Placement API/pl](Placement_API/pl.md)           [Python/pl](Python/pl.md)                   [Reinforcement API/pl](Reinforcement_API/pl.md)
-  [Robot API example/pl](Robot_API_example/pl.md)   [Selection API/pl](Selection_API/pl.md)     [TechDraw API/pl](TechDraw_API/pl.md)
-  [TechDrawGui API/pl](TechDrawGui_API/pl.md)       [TopoShape API/pl](TopoShape_API/pl.md)     [Vector API/pl](Vector_API/pl.md)
-  [ViewObject API/pl](ViewObject_API/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch API/pl](wiki/Arch API/pl.md) | [Base API/pl](wiki/Base API/pl.md) | [Builtin modules/pl](wiki/Builtin modules/pl.md) |
+| [Console API/pl](wiki/Console API/pl.md) | [Draft API/pl](wiki/Draft API/pl.md) | [FeaturePython Custom Properties/pl](wiki/FeaturePython Custom Properties/pl.md) |
+| [FreeCAD API/pl](wiki/FreeCAD API/pl.md) | [FreeCADGui API/pl](wiki/FreeCADGui API/pl.md) | [Matrix API/pl](wiki/Matrix API/pl.md) |
+| [Mesh API/pl](wiki/Mesh API/pl.md) | [Object API/pl](wiki/Object API/pl.md) | [Part API/pl](wiki/Part API/pl.md) |
+| [Placement API/pl](wiki/Placement API/pl.md) | [Python/pl](wiki/Python/pl.md) | [Reinforcement API/pl](wiki/Reinforcement API/pl.md) |
+| [Robot API example/pl](wiki/Robot API example/pl.md) | [Selection API/pl](wiki/Selection API/pl.md) | [TechDraw API/pl](wiki/TechDraw API/pl.md) |
+| [TechDrawGui API/pl](wiki/TechDrawGui API/pl.md) | [TopoShape API/pl](wiki/TopoShape API/pl.md) | [Vector API/pl](wiki/Vector API/pl.md) |
+| [ViewObject API/pl](wiki/ViewObject API/pl.md) |
 
 
 

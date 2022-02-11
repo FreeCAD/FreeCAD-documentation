@@ -1,10 +1,11 @@
 # Category:External Workbenches/uk
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
-### Contents:
+### Contents
 
-  
-  [Ship Workbench/uk](Ship_Workbench/uk.md)
+|     |     |     |
+| --- | --- | --- |
+| [Ship Workbench/uk](wiki/Ship Workbench/uk.md) |
 
 
 

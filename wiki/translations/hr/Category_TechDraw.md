@@ -1,11 +1,12 @@
 # Category:TechDraw/hr
 This category lists pages related to the [TechDraw Workbench/hr](TechDraw_Workbench/hr.md).
 
-### Contents:
+### Contents
 
-    
-  [TechDraw 3PtAngleDimension/hr](TechDraw_3PtAngleDimension/hr.md)   [TechDraw Preferences/hr](TechDraw_Preferences/hr.md)             [TechDraw Templates/hr](TechDraw_Templates/hr.md)
-  [TechDraw Workbench/hr](TechDraw_Workbench/hr.md)                   [Tutorial for open windows/hr](Tutorial_for_open_windows/hr.md)
+|     |     |     |
+| --- | --- | --- |
+| [TechDraw 3PtAngleDimension/hr](wiki/TechDraw 3PtAngleDimension/hr.md) | [TechDraw Preferences/hr](wiki/TechDraw Preferences/hr.md) | [TechDraw Templates/hr](wiki/TechDraw Templates/hr.md) |
+| [TechDraw Workbench/hr](wiki/TechDraw Workbench/hr.md) | [Tutorial for open windows/hr](wiki/Tutorial for open windows/hr.md) |
 
 
 

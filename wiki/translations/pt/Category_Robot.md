@@ -1,10 +1,11 @@
 # Category:Robot/pt
 This category lists pages related to the [Robot Workbench/pt](Robot_Workbench/pt.md).
 
-### Contents:
+### Contents
 
-  
-  [Robot Workbench/pt](Robot_Workbench/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Robot Workbench/pt](wiki/Robot Workbench/pt.md) |
 
 
 

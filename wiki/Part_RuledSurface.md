@@ -20,6 +20,14 @@ Create ruled surface
     -   Press the <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Part RuledSurface](Part_RuledSurface.md) button
     -   Use the **Part → RuledSurface** entry in the Part menu
 
+## Notes
+
+## Properties
+
+## Limitations
+
+## Scripting
+
 
 
 ---

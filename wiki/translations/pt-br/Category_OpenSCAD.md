@@ -1,10 +1,11 @@
 # Category:OpenSCAD/pt-br
 This category lists pages related to the [OpenSCAD\_Workbench/pt-br](OpenSCAD_Workbench/pt-br.md).
 
-### Contents:
+### Contents
 
-  
-  [OpenSCAD Workbench/pt-br](OpenSCAD_Workbench/pt-br.md)
+|     |     |     |
+| --- | --- | --- |
+| [OpenSCAD Workbench/pt-br](wiki/OpenSCAD Workbench/pt-br.md) |
 
 
 

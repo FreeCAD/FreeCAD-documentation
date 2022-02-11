@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Std SelForward
    Name/fr:Std Établir
-   MenuLocation:''Aucun''
+   MenuLocation:
    Workbenches:Tous
    Version:0.19
    SeeAlso:[Std Lien objet lié](Std_LinkSelectLinked/fr.md), [Std Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md), [Std Tous les liens](Std_LinkSelectAllLinks/fr.md), [Std Rétablir](Std_SelBack/fr.md)
@@ -17,7 +17,7 @@ La commande **Std Établir** restaure la sélection suivante enregistrée de la 
 ## Utilisation
 
 1.  Il doit y avoir une prochaine sélection d\'arborescence.
-2.  Appuyez sur le bouton **<img src="images/Std_SelForward.svg" width=16px> [Std SelForward](Std_SelForward/fr.md)**.
+2.  Appuyez sur le bouton **<img src="images/Std_SelForward.svg" width=16px> [Std Établir](Std_SelForward/fr.md)**.
 3.  La sélection suivante est restaurée.
 
 ## Remarques

@@ -1,10 +1,11 @@
 # Category:Template:Doc/hr
 This category lists templates that produce text boxes used for documenting commands, tutorials, and other elements.
 
-### Contents:
+### Contents
 
-  
-  [Template:Macro/hr](Template:Macro/hr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Macro/hr](wiki/Template_Macro/hr.md) |
 
 
 

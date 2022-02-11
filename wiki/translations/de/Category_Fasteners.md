@@ -1,10 +1,11 @@
 # Category:Fasteners/de
 This page collects the documentation pages for the [Fasteners Workbench](Fasteners_Workbench.md), one of the [external workbenches](external_workbenches.md).
 
-### Contents:
+### Contents
 
-  
-  [Fasteners Workbench/de](Fasteners_Workbench/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Fasteners Workbench/de](wiki/Fasteners Workbench/de.md) |
 
 
 

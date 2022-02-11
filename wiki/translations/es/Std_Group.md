@@ -22,7 +22,7 @@ To group 3D objects as a single unit, with the intention of creating assemblies,
 ## Usage
 
 1.  Click on the name of the document in the [tree view](tree_view.md), open the context menu (right click), and choose **Create group**.
-2.  Alternatively, press the **<img src="images/Std_Group.svg" width=16px> [Group](Std_Group.md)** button in the structure toolbar. An empty Group is created.
+2.  Alternatively, press the **<img src="images/Std_Group.svg" width=16px> [Create group](Std_Group.md)** button in the structure toolbar. An empty Group is created.
 3.  To add objects to a Group, select them in [tree view](tree_view.md), and then drag and drop them over the Group.
 4.  To remove objects from a Group, drag them out of the Group, and onto the document label at the top of the [tree view](tree_view.md).
 

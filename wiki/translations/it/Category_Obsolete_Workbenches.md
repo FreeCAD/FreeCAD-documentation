@@ -1,10 +1,13 @@
 # Category:Obsolete Workbenches/it
 This category lists pages related to the [Drawing Workbench/it](Drawing_Workbench/it.md).
 
-### Contents:
+### Contents
 
-    
-  [Complete Workbench/it](Complete_Workbench/it.md)   [Drawing Workbench/it](Drawing_Workbench/it.md)   [ManualDrawing/it](ManualDrawing/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Complete Workbench/it](wiki/Complete Workbench/it.md) | [Drawing Workbench/it](wiki/Drawing Workbench/it.md) | [ManualDrawing/it](wiki/ManualDrawing/it.md) |
+| [Category:Complete/it](wiki/Category_Complete/it.md) | [Category:Drawing/it](wiki/Category_Drawing/it.md) | [Category:Obsolete Workbenches/it](wiki/Category_Obsolete Workbenches/it.md) |
+|
 
 
 

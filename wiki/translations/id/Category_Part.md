@@ -1,10 +1,11 @@
 # Category:Part/id
 This category lists pages related to the [Part Workbench/id](Part_Workbench/id.md).
 
-### Contents:
+### Contents
 
-  
-  [Part Module/id](Part_Module/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Part Module/id](wiki/Part Module/id.md) |
 
 
 

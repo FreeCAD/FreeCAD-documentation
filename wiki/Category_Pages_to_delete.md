@@ -3,7 +3,11 @@ This category contains pages that have been marked for deletion. Should be revie
 
 See [:Template:Delete](:Template_Delete.md) on how to use the deletion template.
 
-### Contents:
+### Contents
+
+|     |     |     |
+| --- | --- | --- |
+|
 
 
 

@@ -1,10 +1,11 @@
 # Category:TechDraw/pt
 This category lists pages related to the [TechDraw Workbench/pt](TechDraw_Workbench/pt.md).
 
-### Contents:
+### Contents
 
-  
-  [TechDraw Workbench/pt](TechDraw_Workbench/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [TechDraw Workbench/pt](wiki/TechDraw Workbench/pt.md) |
 
 
 

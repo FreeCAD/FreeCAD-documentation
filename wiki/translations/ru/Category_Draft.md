@@ -1,41 +1,42 @@
 # Category:Draft/ru
 This category list pages related to the \"User\_Documentation/ru\" and \"Workbenches/ru\"
 
-### Contents:
+### Contents
 
-    
-  [Arch panel tutorial/ru](Arch_panel_tutorial/ru.md)                                                     [Artwork Draft/ru](Artwork_Draft/ru.md)                                     [Draft AddConstruction/ru](Draft_AddConstruction/ru.md)
-  [Draft AddToGroup/ru](Draft_AddToGroup/ru.md)                                                           [Draft AnnotationStyleEditor/ru](Draft_AnnotationStyleEditor/ru.md)         [Draft API/ru](Draft_API/ru.md)
-  [Draft ApplyStyle/ru](Draft_ApplyStyle/ru.md)                                                           [Draft Arc 3Points/ru](Draft_Arc_3Points/ru.md)                             [Draft Arc/ru](Draft_Arc/ru.md)
-  [Draft Array/ru](Draft_Array/ru.md)                                                                     [Draft AutoGroup/ru](Draft_AutoGroup/ru.md)                                 [Draft BezCurve/ru](Draft_BezCurve/ru.md)
-  [Draft BSpline/ru](Draft_BSpline/ru.md)                                                                 [Draft Circle/ru](Draft_Circle/ru.md)                                       [Draft CircularArray/ru](Draft_CircularArray/ru.md)
-  [Draft Clone/ru](Draft_Clone/ru.md)                                                                     [Draft Constrain/ru](Draft_Constrain/ru.md)                                 [Draft CubicBezCurve/ru](Draft_CubicBezCurve/ru.md)
-  [Draft DAT/ru](Draft_DAT/ru.md)                                                                         [Draft Dimension/ru](Draft_Dimension/ru.md)                                 [Draft Downgrade/ru](Draft_Downgrade/ru.md)
-  [Draft Draft2Sketch/ru](Draft_Draft2Sketch/ru.md)                                                       [Draft Drawing/ru](Draft_Drawing/ru.md)                                     [Draft DXF/ru](Draft_DXF/ru.md)
-  [Draft Edit/ru](Draft_Edit/ru.md)                                                                       [Draft Ellipse/ru](Draft_Ellipse/ru.md)                                     [Draft Facebinder/ru](Draft_Facebinder/ru.md)
-  [Draft Fillet/ru](Draft_Fillet/ru.md)                                                                   [Draft FlipDimension/ru](Draft_FlipDimension/ru.md)                         [Draft Heal/ru](Draft_Heal/ru.md)
-  [Draft Join/ru](Draft_Join/ru.md)                                                                       [Draft Label/ru](Draft_Label/ru.md)                                         [Draft Layer/ru](Draft_Layer/ru.md)
-  [Draft Line/ru](Draft_Line/ru.md)                                                                       [Draft Mirror/ru](Draft_Mirror/ru.md)                                       [Draft Move/ru](Draft_Move/ru.md)
-  [Draft OCA/ru](Draft_OCA/ru.md)                                                                         [Draft Offset/ru](Draft_Offset/ru.md)                                       [Draft OrthoArray/ru](Draft_OrthoArray/ru.md)
-  [Draft PathArray/ru](Draft_PathArray/ru.md)                                                             [Draft PathLinkArray/ru](Draft_PathLinkArray/ru.md)                         [Draft Pattern/ru](Draft_Pattern/ru.md)
-  [Draft Point/ru](Draft_Point/ru.md)                                                                     [Draft PointArray/ru](Draft_PointArray/ru.md)                               [Draft PolarArray/ru](Draft_PolarArray/ru.md)
-  [Draft Polygon/ru](Draft_Polygon/ru.md)                                                                 [Draft Preferences/ru](Draft_Preferences/ru.md)                             [Draft Rectangle/ru](Draft_Rectangle/ru.md)
-  [Draft Rotate/ru](Draft_Rotate/ru.md)                                                                   [Draft Scale/ru](Draft_Scale/ru.md)                                         [Draft SelectGroup/ru](Draft_SelectGroup/ru.md)
-  [Draft SelectPlane/ru](Draft_SelectPlane/ru.md)                                                         [Draft Shape2DView/ru](Draft_Shape2DView/ru.md)                             [Draft ShapeString/ru](Draft_ShapeString/ru.md)
-  [Draft ShowSnapBar/ru](Draft_ShowSnapBar/ru.md)                                                         [Draft Slope/ru](Draft_Slope/ru.md)                                         [Draft Snap Angle/ru](Draft_Snap_Angle/ru.md)
-  [Draft Snap Center/ru](Draft_Snap_Center/ru.md)                                                         [Draft Snap Dimensions/ru](Draft_Snap_Dimensions/ru.md)                     [Draft Snap Endpoint/ru](Draft_Snap_Endpoint/ru.md)
-  [Draft Snap Extension/ru](Draft_Snap_Extension/ru.md)                                                   [Draft Snap Grid/ru](Draft_Snap_Grid/ru.md)                                 [Draft Snap Intersection/ru](Draft_Snap_Intersection/ru.md)
-  [Draft Snap Lock/ru](Draft_Snap_Lock/ru.md)                                                             [Draft Snap Midpoint/ru](Draft_Snap_Midpoint/ru.md)                         [Draft Snap Near/ru](Draft_Snap_Near/ru.md)
-  [Draft Snap Ortho/ru](Draft_Snap_Ortho/ru.md)                                                           [Draft Snap Parallel/ru](Draft_Snap_Parallel/ru.md)                         [Draft Snap Perpendicular/ru](Draft_Snap_Perpendicular/ru.md)
-  [Draft Snap Special/ru](Draft_Snap_Special/ru.md)                                                       [Draft Snap WorkingPlane/ru](Draft_Snap_WorkingPlane/ru.md)                 [Draft Snap/ru](Draft_Snap/ru.md)
-  [Draft Split/ru](Draft_Split/ru.md)                                                                     [Draft Stretch/ru](Draft_Stretch/ru.md)                                     [Draft SubelementHighlight/ru](Draft_SubelementHighlight/ru.md)
-  [Draft SVG/ru](Draft_SVG/ru.md)                                                                         [Draft Text/ru](Draft_Text/ru.md)                                           [Draft ToggleConstructionMode/ru](Draft_ToggleConstructionMode/ru.md)
-  [Draft ToggleContinueMode/ru](Draft_ToggleContinueMode/ru.md)                                           [Draft ToggleDisplayMode/ru](Draft_ToggleDisplayMode/ru.md)                 [Draft ToggleGrid/ru](Draft_ToggleGrid/ru.md)
-  [Draft Tray/ru](Draft_Tray/ru.md)                                                                       [Draft Trimex/ru](Draft_Trimex/ru.md)                                       [Draft tutorial/ru](Draft_tutorial/ru.md)
-  [Draft Upgrade/ru](Draft_Upgrade/ru.md)                                                                 [Draft Wire/ru](Draft_Wire/ru.md)                                           [Draft WireToBSpline/ru](Draft_WireToBSpline/ru.md)
-  [Draft Workbench/ru](Draft_Workbench/ru.md)                                                             [Draft WorkingPlaneProxy/ru](Draft_WorkingPlaneProxy/ru.md)                 [DXF/ru](DXF/ru.md)
-  [FreeCAD and DWG Import/ru](FreeCAD_and_DWG_Import/ru.md)                                               [Manual:Traditional 2D drafting/ru](Manual:Traditional_2D_drafting/ru.md)   [SVG/ru](SVG/ru.md)
-  [Tutorial custom placing of windows and doors/ru](Tutorial_custom_placing_of_windows_and_doors/ru.md)   [Tutorial for open windows/ru](Tutorial_for_open_windows/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch panel tutorial/ru](wiki/Arch panel tutorial/ru.md) | [Artwork Draft/ru](wiki/Artwork Draft/ru.md) | [Draft AddConstruction/ru](wiki/Draft AddConstruction/ru.md) |
+| [Draft AddToGroup/ru](wiki/Draft AddToGroup/ru.md) | [Draft AnnotationStyleEditor/ru](wiki/Draft AnnotationStyleEditor/ru.md) | [Draft API/ru](wiki/Draft API/ru.md) |
+| [Draft ApplyStyle/ru](wiki/Draft ApplyStyle/ru.md) | [Draft Arc 3Points/ru](wiki/Draft Arc 3Points/ru.md) | [Draft Arc/ru](wiki/Draft Arc/ru.md) |
+| [Draft Array/ru](wiki/Draft Array/ru.md) | [Draft AutoGroup/ru](wiki/Draft AutoGroup/ru.md) | [Draft BezCurve/ru](wiki/Draft BezCurve/ru.md) |
+| [Draft BSpline/ru](wiki/Draft BSpline/ru.md) | [Draft Circle/ru](wiki/Draft Circle/ru.md) | [Draft CircularArray/ru](wiki/Draft CircularArray/ru.md) |
+| [Draft Clone/ru](wiki/Draft Clone/ru.md) | [Draft Constrain/ru](wiki/Draft Constrain/ru.md) | [Draft CubicBezCurve/ru](wiki/Draft CubicBezCurve/ru.md) |
+| [Draft DAT/ru](wiki/Draft DAT/ru.md) | [Draft Dimension/ru](wiki/Draft Dimension/ru.md) | [Draft Downgrade/ru](wiki/Draft Downgrade/ru.md) |
+| [Draft Draft2Sketch/ru](wiki/Draft Draft2Sketch/ru.md) | [Draft Drawing/ru](wiki/Draft Drawing/ru.md) | [Draft DXF/ru](wiki/Draft DXF/ru.md) |
+| [Draft Edit/ru](wiki/Draft Edit/ru.md) | [Draft Ellipse/ru](wiki/Draft Ellipse/ru.md) | [Draft Facebinder/ru](wiki/Draft Facebinder/ru.md) |
+| [Draft Fillet/ru](wiki/Draft Fillet/ru.md) | [Draft FlipDimension/ru](wiki/Draft FlipDimension/ru.md) | [Draft Heal/ru](wiki/Draft Heal/ru.md) |
+| [Draft Join/ru](wiki/Draft Join/ru.md) | [Draft Label/ru](wiki/Draft Label/ru.md) | [Draft Layer/ru](wiki/Draft Layer/ru.md) |
+| [Draft Line/ru](wiki/Draft Line/ru.md) | [Draft Mirror/ru](wiki/Draft Mirror/ru.md) | [Draft Move/ru](wiki/Draft Move/ru.md) |
+| [Draft OCA/ru](wiki/Draft OCA/ru.md) | [Draft Offset/ru](wiki/Draft Offset/ru.md) | [Draft OrthoArray/ru](wiki/Draft OrthoArray/ru.md) |
+| [Draft PathArray/ru](wiki/Draft PathArray/ru.md) | [Draft PathLinkArray/ru](wiki/Draft PathLinkArray/ru.md) | [Draft Pattern/ru](wiki/Draft Pattern/ru.md) |
+| [Draft Point/ru](wiki/Draft Point/ru.md) | [Draft PointArray/ru](wiki/Draft PointArray/ru.md) | [Draft PolarArray/ru](wiki/Draft PolarArray/ru.md) |
+| [Draft Polygon/ru](wiki/Draft Polygon/ru.md) | [Draft Preferences/ru](wiki/Draft Preferences/ru.md) | [Draft Rectangle/ru](wiki/Draft Rectangle/ru.md) |
+| [Draft Rotate/ru](wiki/Draft Rotate/ru.md) | [Draft Scale/ru](wiki/Draft Scale/ru.md) | [Draft SelectGroup/ru](wiki/Draft SelectGroup/ru.md) |
+| [Draft SelectPlane/ru](wiki/Draft SelectPlane/ru.md) | [Draft Shape2DView/ru](wiki/Draft Shape2DView/ru.md) | [Draft ShapeString/ru](wiki/Draft ShapeString/ru.md) |
+| [Draft ShowSnapBar/ru](wiki/Draft ShowSnapBar/ru.md) | [Draft Slope/ru](wiki/Draft Slope/ru.md) | [Draft Snap Angle/ru](wiki/Draft Snap Angle/ru.md) |
+| [Draft Snap Center/ru](wiki/Draft Snap Center/ru.md) | [Draft Snap Dimensions/ru](wiki/Draft Snap Dimensions/ru.md) | [Draft Snap Endpoint/ru](wiki/Draft Snap Endpoint/ru.md) |
+| [Draft Snap Extension/ru](wiki/Draft Snap Extension/ru.md) | [Draft Snap Grid/ru](wiki/Draft Snap Grid/ru.md) | [Draft Snap Intersection/ru](wiki/Draft Snap Intersection/ru.md) |
+| [Draft Snap Lock/ru](wiki/Draft Snap Lock/ru.md) | [Draft Snap Midpoint/ru](wiki/Draft Snap Midpoint/ru.md) | [Draft Snap Near/ru](wiki/Draft Snap Near/ru.md) |
+| [Draft Snap Ortho/ru](wiki/Draft Snap Ortho/ru.md) | [Draft Snap Parallel/ru](wiki/Draft Snap Parallel/ru.md) | [Draft Snap Perpendicular/ru](wiki/Draft Snap Perpendicular/ru.md) |
+| [Draft Snap Special/ru](wiki/Draft Snap Special/ru.md) | [Draft Snap WorkingPlane/ru](wiki/Draft Snap WorkingPlane/ru.md) | [Draft Snap/ru](wiki/Draft Snap/ru.md) |
+| [Draft Split/ru](wiki/Draft Split/ru.md) | [Draft Stretch/ru](wiki/Draft Stretch/ru.md) | [Draft SubelementHighlight/ru](wiki/Draft SubelementHighlight/ru.md) |
+| [Draft SVG/ru](wiki/Draft SVG/ru.md) | [Draft Text/ru](wiki/Draft Text/ru.md) | [Draft ToggleConstructionMode/ru](wiki/Draft ToggleConstructionMode/ru.md) |
+| [Draft ToggleContinueMode/ru](wiki/Draft ToggleContinueMode/ru.md) | [Draft ToggleDisplayMode/ru](wiki/Draft ToggleDisplayMode/ru.md) | [Draft ToggleGrid/ru](wiki/Draft ToggleGrid/ru.md) |
+| [Draft Tray/ru](wiki/Draft Tray/ru.md) | [Draft Trimex/ru](wiki/Draft Trimex/ru.md) | [Draft tutorial/ru](wiki/Draft tutorial/ru.md) |
+| [Draft Upgrade/ru](wiki/Draft Upgrade/ru.md) | [Draft Wire/ru](wiki/Draft Wire/ru.md) | [Draft WireToBSpline/ru](wiki/Draft WireToBSpline/ru.md) |
+| [Draft Workbench/ru](wiki/Draft Workbench/ru.md) | [Draft WorkingPlaneProxy/ru](wiki/Draft WorkingPlaneProxy/ru.md) | [DXF/ru](wiki/DXF/ru.md) |
+| [FreeCAD and DWG Import/ru](wiki/FreeCAD and DWG Import/ru.md) | [Manual:Traditional 2D drafting/ru](wiki/Manual_Traditional 2D drafting/ru.md) | [SVG/ru](wiki/SVG/ru.md) |
+| [Tutorial custom placing of windows and doors/ru](wiki/Tutorial custom placing of windows and doors/ru.md) | [Tutorial for open windows/ru](wiki/Tutorial for open windows/ru.md) |
 
 
 

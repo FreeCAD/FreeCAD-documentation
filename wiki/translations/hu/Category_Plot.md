@@ -1,10 +1,11 @@
 # Category:Plot/hu
 This category lists pages related to the [Plot Workbench/hu](Plot_Workbench/hu.md).
 
-### Contents:
+### Contents
 
-  
-  [Plot Workbench/hu](Plot_Workbench/hu.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/hu](wiki/Plot Workbench/hu.md) |
 
 
 

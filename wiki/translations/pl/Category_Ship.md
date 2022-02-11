@@ -1,14 +1,16 @@
 # Category:Ship/pl
 This category lists pages related to the [Ship Workbench/pl](Ship_Workbench/pl.md).
 
-### Contents:
+### Contents
 
-    
-  [Artwork Ship/pl](Artwork_Ship/pl.md)                           [FreeCAD-Ship s60 tutorial (II)/pl](FreeCAD-Ship_s60_tutorial_(II)/pl.md)   [FreeCAD-Ship s60 tutorial/pl](FreeCAD-Ship_s60_tutorial/pl.md)
-  [Ship Area/pl](Ship_Area/pl.md)                                 [Ship Geometries Examples/pl](Ship_Geometries_Examples/pl.md)               [Ship Hydrostatics/pl](Ship_Hydrostatics/pl.md)
-  [Ship Loading/pl](Ship_Loading/pl.md)                           [Ship New/pl](Ship_New/pl.md)                                               [Ship Outline/pl](Ship_Outline/pl.md)
-  [Ship PlotGZ/pl](Ship_PlotGZ/pl.md)                             [Ship TankCapacity/pl](Ship_TankCapacity/pl.md)                             [Ship TankNew/pl](Ship_TankNew/pl.md)
-  [Template:Ship Tools navi/pl](Template:Ship_Tools_navi/pl.md)   [Ship Weight/pl](Ship_Weight/pl.md)                                         [Ship Workbench/pl](Ship_Workbench/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Ship/pl](wiki/Artwork Ship/pl.md) | [FreeCAD-Ship s60 tutorial (II)/pl](wiki/FreeCAD-Ship s60 tutorial (II)/pl.md) | [FreeCAD-Ship s60 tutorial/pl](wiki/FreeCAD-Ship s60 tutorial/pl.md) |
+| [Ship Area/pl](wiki/Ship Area/pl.md) | [Ship Geometries Examples/pl](wiki/Ship Geometries Examples/pl.md) | [Ship Hydrostatics/pl](wiki/Ship Hydrostatics/pl.md) |
+| [Ship Loading/pl](wiki/Ship Loading/pl.md) | [Ship New/pl](wiki/Ship New/pl.md) | [Ship Outline/pl](wiki/Ship Outline/pl.md) |
+| [Ship PlotGZ/pl](wiki/Ship PlotGZ/pl.md) | [Ship TankCapacity/pl](wiki/Ship TankCapacity/pl.md) | [Ship TankNew/pl](wiki/Ship TankNew/pl.md) |
+| [Template:Ship Tools navi/pl](wiki/Template_Ship Tools navi/pl.md) | [Ship Weight/pl](wiki/Ship Weight/pl.md) | [Ship Workbench/pl](wiki/Ship Workbench/pl.md) |
+|
 
 
 

@@ -1,33 +1,35 @@
 # Category:Artwork
 This category collects pages related to artwork existing in the program, like icons and images that are used in different workbenches.
 
-### Contents:
+### Contents
 
-    
-  [Artwork](Artwork.md)                                     [Template:Artwork](Template_Artwork.md)                       [Artwork Arch](Artwork_Arch.md)
-  [Artwork Arch/ru](Artwork_Arch/ru.md)                     [Artwork Assembly](Artwork_Assembly.md)                       [Artwork Assembly/ru](Artwork_Assembly/ru.md)
-  [Artwork Assembly3](Artwork_Assembly3.md)                 [Artwork Complete](Artwork_Complete.md)                       [Artwork Complete/ru](Artwork_Complete/ru.md)
-  [Artwork Draft](Artwork_Draft.md)                         [Artwork Draft/ru](Artwork_Draft/ru.md)                       [Artwork Drawing](Artwork_Drawing.md)
-  [Artwork Drawing/ru](Artwork_Drawing/ru.md)               [Artwork Erroneous](Artwork_Erroneous.md)                     [Artwork Erroneous/ru](Artwork_Erroneous/ru.md)
-  [Artwork Fem](Artwork_Fem.md)                             [Artwork Fem/ru](Artwork_Fem/ru.md)                           [Artwork Gui](Artwork_Gui.md)
-  [Artwork Gui/ru](Artwork_Gui/ru.md)                       [Artwork Guidelines](Artwork_Guidelines.md)                   [Artwork Image](Artwork_Image.md)
-  [Artwork Image/ru](Artwork_Image/ru.md)                   [Artwork Inspection](Artwork_Inspection.md)                   [Artwork Inspection/ru](Artwork_Inspection/ru.md)
-  [Artwork Material](Artwork_Material.md)                   [Artwork Material/ru](Artwork_Material/ru.md)                 [Artwork Mesh](Artwork_Mesh.md)
-  [Artwork Mesh/ru](Artwork_Mesh/ru.md)                     [Artwork MeshPart](Artwork_MeshPart.md)                       [Artwork MeshPart/ru](Artwork_MeshPart/ru.md)
-  [Artwork OpenSCAD](Artwork_OpenSCAD.md)                   [Artwork OpenSCAD/ru](Artwork_OpenSCAD/ru.md)                 [Artwork Part](Artwork_Part.md)
-  [Artwork Part/ru](Artwork_Part/ru.md)                     [Artwork PartDesign](Artwork_PartDesign.md)                   [Artwork PartDesign/ru](Artwork_PartDesign/ru.md)
-  [Artwork Path](Artwork_Path.md)                           [Artwork Path/ru](Artwork_Path/ru.md)                         [Artwork Plot](Artwork_Plot.md)
-  [Artwork Plot/ru](Artwork_Plot/ru.md)                     [Artwork Points](Artwork_Points.md)                           [Artwork Points/ru](Artwork_Points/ru.md)
-  [Artwork Raytracing](Artwork_Raytracing.md)               [Artwork Raytracing/ru](Artwork_Raytracing/ru.md)             [Artwork Reinforcement](Artwork_Reinforcement.md)
-  [Artwork Reinforcement/ru](Artwork_Reinforcement/ru.md)   [Artwork ReverseEngineering](Artwork_ReverseEngineering.md)   [Artwork ReverseEngineering/ru](Artwork_ReverseEngineering/ru.md)
-  [Artwork Robot](Artwork_Robot.md)                         [Artwork Robot/ru](Artwork_Robot/ru.md)                       [Artwork Ship](Artwork_Ship.md)
-  [Artwork Ship/ru](Artwork_Ship/ru.md)                     [Artwork Sketcher](Artwork_Sketcher.md)                       [Artwork Sketcher/ru](Artwork_Sketcher/ru.md)
-  [Artwork Splash screen](Artwork_Splash_screen.md)         [Artwork Splash screen/ru](Artwork_Splash_screen/ru.md)       [Artwork Spreadsheet](Artwork_Spreadsheet.md)
-  [Artwork Spreadsheet/ru](Artwork_Spreadsheet/ru.md)       [Artwork Start](Artwork_Start.md)                             [Artwork Start/ru](Artwork_Start/ru.md)
-  [Artwork Surface](Artwork_Surface.md)                     [Artwork Surface/ru](Artwork_Surface/ru.md)                   [Artwork TechDraw](Artwork_TechDraw.md)
-  [Artwork TechDraw/ru](Artwork_TechDraw/ru.md)             [Artwork Test](Artwork_Test.md)                               [Artwork Test/ru](Artwork_Test/ru.md)
-  [Artwork Tux](Artwork_Tux.md)                             [Artwork Tux/ru](Artwork_Tux/ru.md)                           [Artwork Web](Artwork_Web.md)
-  [Artwork Web/ru](Artwork_Web/ru.md)                       [Artwork/ru](Artwork/ru.md)                                   [Template:Artwork/ru](Template:Artwork/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork](wiki/Artwork.md) | [Template:Artwork](wiki/Template_Artwork.md) | [Artwork Arch](wiki/Artwork Arch.md) |
+| [Artwork Arch/ru](wiki/Artwork Arch/ru.md) | [Artwork Assembly](wiki/Artwork Assembly.md) | [Artwork Assembly/ru](wiki/Artwork Assembly/ru.md) |
+| [Artwork Assembly3](wiki/Artwork Assembly3.md) | [Artwork Complete](wiki/Artwork Complete.md) | [Artwork Complete/ru](wiki/Artwork Complete/ru.md) |
+| [Artwork Draft](wiki/Artwork Draft.md) | [Artwork Draft/ru](wiki/Artwork Draft/ru.md) | [Artwork Drawing](wiki/Artwork Drawing.md) |
+| [Artwork Drawing/ru](wiki/Artwork Drawing/ru.md) | [Artwork Erroneous](wiki/Artwork Erroneous.md) | [Artwork Erroneous/ru](wiki/Artwork Erroneous/ru.md) |
+| [Artwork Fem](wiki/Artwork Fem.md) | [Artwork Fem/ru](wiki/Artwork Fem/ru.md) | [Artwork Gui](wiki/Artwork Gui.md) |
+| [Artwork Gui/ru](wiki/Artwork Gui/ru.md) | [Artwork Guidelines](wiki/Artwork Guidelines.md) | [Artwork Image](wiki/Artwork Image.md) |
+| [Artwork Image/ru](wiki/Artwork Image/ru.md) | [Artwork Inspection](wiki/Artwork Inspection.md) | [Artwork Inspection/ru](wiki/Artwork Inspection/ru.md) |
+| [Artwork Material](wiki/Artwork Material.md) | [Artwork Material/ru](wiki/Artwork Material/ru.md) | [Artwork Mesh](wiki/Artwork Mesh.md) |
+| [Artwork Mesh/ru](wiki/Artwork Mesh/ru.md) | [Artwork MeshPart](wiki/Artwork MeshPart.md) | [Artwork MeshPart/ru](wiki/Artwork MeshPart/ru.md) |
+| [Artwork OpenSCAD](wiki/Artwork OpenSCAD.md) | [Artwork OpenSCAD/ru](wiki/Artwork OpenSCAD/ru.md) | [Artwork Part](wiki/Artwork Part.md) |
+| [Artwork Part/ru](wiki/Artwork Part/ru.md) | [Artwork PartDesign](wiki/Artwork PartDesign.md) | [Artwork PartDesign/ru](wiki/Artwork PartDesign/ru.md) |
+| [Artwork Path](wiki/Artwork Path.md) | [Artwork Path/ru](wiki/Artwork Path/ru.md) | [Artwork Plot](wiki/Artwork Plot.md) |
+| [Artwork Plot/ru](wiki/Artwork Plot/ru.md) | [Artwork Points](wiki/Artwork Points.md) | [Artwork Points/ru](wiki/Artwork Points/ru.md) |
+| [Artwork Raytracing](wiki/Artwork Raytracing.md) | [Artwork Raytracing/ru](wiki/Artwork Raytracing/ru.md) | [Artwork Reinforcement](wiki/Artwork Reinforcement.md) |
+| [Artwork Reinforcement/ru](wiki/Artwork Reinforcement/ru.md) | [Artwork ReverseEngineering](wiki/Artwork ReverseEngineering.md) | [Artwork ReverseEngineering/ru](wiki/Artwork ReverseEngineering/ru.md) |
+| [Artwork Robot](wiki/Artwork Robot.md) | [Artwork Robot/ru](wiki/Artwork Robot/ru.md) | [Artwork Ship](wiki/Artwork Ship.md) |
+| [Artwork Ship/ru](wiki/Artwork Ship/ru.md) | [Artwork Sketcher](wiki/Artwork Sketcher.md) | [Artwork Sketcher/ru](wiki/Artwork Sketcher/ru.md) |
+| [Artwork Splash screen](wiki/Artwork Splash screen.md) | [Artwork Splash screen/ru](wiki/Artwork Splash screen/ru.md) | [Artwork Spreadsheet](wiki/Artwork Spreadsheet.md) |
+| [Artwork Spreadsheet/ru](wiki/Artwork Spreadsheet/ru.md) | [Artwork Start](wiki/Artwork Start.md) | [Artwork Start/ru](wiki/Artwork Start/ru.md) |
+| [Artwork Surface](wiki/Artwork Surface.md) | [Artwork Surface/ru](wiki/Artwork Surface/ru.md) | [Artwork TechDraw](wiki/Artwork TechDraw.md) |
+| [Artwork TechDraw/ru](wiki/Artwork TechDraw/ru.md) | [Artwork Test](wiki/Artwork Test.md) | [Artwork Test/ru](wiki/Artwork Test/ru.md) |
+| [Artwork Tux](wiki/Artwork Tux.md) | [Artwork Tux/ru](wiki/Artwork Tux/ru.md) | [Artwork Web](wiki/Artwork Web.md) |
+| [Artwork Web/ru](wiki/Artwork Web/ru.md) | [Artwork/ru](wiki/Artwork/ru.md) | [Template:Artwork/ru](wiki/Template_Artwork/ru.md) |
+| [Category:Icon](wiki/Category_Icon.md) |
 
 
 

@@ -1,14 +1,15 @@
 # Category:PartDesign/cs
 This category includes FreeCAD pages related to PartDesign
 
-### Contents:
+### Contents
 
-    
-  [PartDesign Chamfer/cs](PartDesign_Chamfer/cs.md)           [PartDesign Draft/cs](PartDesign_Draft/cs.md)                     [PartDesign Fillet/cs](PartDesign_Fillet/cs.md)
-  [PartDesign Groove/cs](PartDesign_Groove/cs.md)             [PartDesign InvoluteGear/cs](PartDesign_InvoluteGear/cs.md)       [PartDesign LinearPattern/cs](PartDesign_LinearPattern/cs.md)
-  [PartDesign Mirrored/cs](PartDesign_Mirrored/cs.md)         [PartDesign MultiTransform/cs](PartDesign_MultiTransform/cs.md)   [PartDesign Pad/cs](PartDesign_Pad/cs.md)
-  [PartDesign Pocket/cs](PartDesign_Pocket/cs.md)             [PartDesign PolarPattern/cs](PartDesign_PolarPattern/cs.md)       [PartDesign Revolution/cs](PartDesign_Revolution/cs.md)
-  [PartDesign WizardShaft/cs](PartDesign_WizardShaft/cs.md)   [PartDesign Workbench/cs](PartDesign_Workbench/cs.md)
+|     |     |     |
+| --- | --- | --- |
+| [PartDesign Chamfer/cs](wiki/PartDesign Chamfer/cs.md) | [PartDesign Draft/cs](wiki/PartDesign Draft/cs.md) | [PartDesign Fillet/cs](wiki/PartDesign Fillet/cs.md) |
+| [PartDesign Groove/cs](wiki/PartDesign Groove/cs.md) | [PartDesign InvoluteGear/cs](wiki/PartDesign InvoluteGear/cs.md) | [PartDesign LinearPattern/cs](wiki/PartDesign LinearPattern/cs.md) |
+| [PartDesign Mirrored/cs](wiki/PartDesign Mirrored/cs.md) | [PartDesign MultiTransform/cs](wiki/PartDesign MultiTransform/cs.md) | [PartDesign Pad/cs](wiki/PartDesign Pad/cs.md) |
+| [PartDesign Pocket/cs](wiki/PartDesign Pocket/cs.md) | [PartDesign PolarPattern/cs](wiki/PartDesign PolarPattern/cs.md) | [PartDesign Revolution/cs](wiki/PartDesign Revolution/cs.md) |
+| [PartDesign WizardShaft/cs](wiki/PartDesign WizardShaft/cs.md) | [PartDesign Workbench/cs](wiki/PartDesign Workbench/cs.md) |
 
 
 

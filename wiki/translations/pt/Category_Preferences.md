@@ -1,10 +1,11 @@
 # Category:Preferences/pt
 This category lists all existing Preference menus of different FreeCAD workbenches. See [Preferences\_Editor\#Workbench\_preferences](Preferences_Editor#Workbench_preferences.md)
 
-### Contents:
+### Contents
 
-  
-  [Preferences Editor/pt](Preferences_Editor/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Preferences Editor/pt](wiki/Preferences Editor/pt.md) |
 
 
 

@@ -1,7 +1,11 @@
 # Category:Points/ja
 This category lists workbenches included in FreeCAD.
 
-### Contents:
+### Contents
+
+|     |     |     |
+| --- | --- | --- |
+|
 
 
 

@@ -1,10 +1,11 @@
 # Category:Sketcher/hu
 This category lists pages related to the [Sketcher Workbench/hu](Sketcher_Workbench/hu.md).
 
-### Contents:
+### Contents
 
-  
-  [Sketcher Workbench/hu](Sketcher_Workbench/hu.md)
+|     |     |     |
+| --- | --- | --- |
+| [Sketcher Workbench/hu](wiki/Sketcher Workbench/hu.md) |
 
 
 

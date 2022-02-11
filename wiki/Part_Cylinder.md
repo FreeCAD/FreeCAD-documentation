@@ -25,17 +25,25 @@ The cylinder properties can later be edited, either in the [Property editor](Pro
 
 <img alt="a cylinder created with the Cylinder tool" src=images/cylinder.png  style="width:650px;">
 
+## Notes
+
 ## Properties
 
--    **Angle**: This is the rotation angle that permits the creation of a portion of cylinder (it is set to 360° by default)
+See also: [Property editor](Property_editor.md).
 
--    **Height**: The height is the distance in the z-axis
+A Part Cylinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
--    **Radius**: The radius defines a plane in x-y.
+-    **Angle|Angle**: The rotation angle of the cylinder. The rotation angle permits the creation of a portion of cylinder (it is set to 360° by default).
 
--    **First Angle**: Angle in first direction. <small>(v0.20)</small> 
+-    **Height|Height**: The height of the cylinder. This is the dimension in the Z direction.
 
--    **Second Angle**: Angle in second direction. <small>(v0.20)</small> 
+-    **Radius|Radius**: The radius of the cylinder. This defines a plane in the XY area.
+
+-    **First Angle|First Angle**: Angle in first direction. <small>(v0.20)</small> 
+
+-    **Second Angle|Second Angle**: Angle in second direction. <small>(v0.20)</small> 
+
+## Limitations
 
 ## Scripting
 
@@ -48,6 +56,37 @@ cylinder = FreeCAD.ActiveDocument.addObject("Part::Cylinder", "myCylinder")
 
 -   Where {{Incode|"myCylinder"}} is the name for the object.
 -   The function returns the newly created object.
+
+You can access and modify attributes of the {{Incode|cylinder}} object.
+
+The name of the object can be easily changed by
+
+ 
+```python
+cylinder.Label = "new cylinderName"
+```
+
+For example, you may wish to modify the width, length or of the start and finish vertex.
+
+ 
+```python
+cylinder.Radius = 10
+cylinder.Height = 25
+cylinder.Angle = 270
+cylinder.FirstAngle = 30
+cylinder.SecondAngle = 45
+```
+
+The result is a three-quarter cylinder.
+
+You can change its placement and orientation with:
+
+ 
+```python
+cylinder.Placement = FreeCAD.Placement(FreeCAD.Vector(2, 4, 6), FreeCAD.Rotation(30, 45, 10))
+```
+
+![Part Cylinder with the values of the scripting example.](images/Part_Cylinder_Scripting_Example.png )
 
 
 

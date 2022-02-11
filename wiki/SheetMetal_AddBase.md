@@ -37,7 +37,7 @@ From a closed outline it creates a base **plate** (blank):
 ### Plate
 
 1.  Select a **closed outline** <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md).
-2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase.md) (see above).
+2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase.md) command (see above).
 3.  Adjust the plate\'s parameter by editing the corresponding value in the [Property editor](Property_editor.md):
     -   The property **thickness** for the thickness of the plate.
 

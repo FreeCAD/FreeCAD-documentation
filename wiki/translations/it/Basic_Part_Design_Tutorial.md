@@ -82,15 +82,21 @@ Tutti i lavori in Part Design iniziano con un [Corpo](Glossary#Body.md). Quindi 
 
 </div>
 
-1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
+1.  Click on <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Create new body](PartDesign_Body.md) to create and activate a new Body Container. 
 *Note: this step can be omitted. When creating a sketch, if no existing Body is found, a new one will be automatically created and activated.*
-2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
+2.  Click on <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Create new sketch](PartDesign_NewSketch.md). This will create the sketch within the just created body.
 3.  We need to define where the sketch will be attached. We will attach it to a plane from the Body´s [Origin](Glossary#Origin.md).
-4.  In the Tasks tab from the Combo view, select **YZ\_Plane** in the list and press **OK**:
+4.  In the [Tasks tab](Task_panel.md) from the [Combo view](Combo_view.md), select **YZ\_Plane** in the list and press **OK**:
 
 <img alt="" src=images/Tut17_sketchplanes.png  style="width:250px;">
 
+
+<div class="mw-translate-fuzzy">
+
 *Nota: se il pannello laterale non è sufficientemente largo è possibile che il pulsante OK non sia visibile. Per renderlo più ampio trascinare il bordo destro. Posizionare il puntatore del mouse sul bordo; quando il puntatore si trasforma in una freccia bidirezionale, tenere premuto il tasto sinistro del mouse e trascinare.*
+
+
+</div>
 
 Dopo aver fatto clic su OK, FreeCAD passa automaticamente all\'ambiente [Sketcher](Sketcher_Workbench/it.md) e apre lo schizzo in modalità di modifica:
 
@@ -126,7 +132,13 @@ A questo punto si dovrebbe avere un disegno completamente vincolato, come indica
 
 ![](images/Tut17_profile.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Ora, nella Vista Combinata, cliccare sul pulsante Close per uscire dalla modalità di modifica schizzo e selezionare <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> *Prisma* (Pad) dalla barra degli strumenti o dal menu di Part Design. Questo apre la finestra di dialogo per Pad nella Vista Combinata. Aprire il menu a discesa di tale finestra e selezionare *due dimensioni*. Come si può vedere nel disegno presentato all\'inizio di questo tutorial la parte è lunga 53 mm. Ora, quello che vogliamo fare è estrudere lo schizzo in entrambe le direzioni simmetricamente dal centro del piano per coprire tale distanza. Il motivo di questo diventerà evidente più avanti. Per ora, dato che vogliamo che in totale sia lungo 53 mm inserire 26,5 per la *lunghezza* e di nuovo 26,5 per la *seconda lunghezza*. In alternativa, si può fornire una sola lunghezza di 53 mm e attivare la casella *Simmetrico al piano*. Fatto questo, abbiamo prodotto la base solida a cui aggiungere le funzioni aggiuntive per costruire la Parte.
+
+
+</div>
 
 Il video dei passaggi utilizzati in questa parte del tutorial è in: <https://youtu.be/cUyPnCMeTgg>
 
@@ -144,7 +156,13 @@ Utilizzando il mouse, o con le icone di visualizzazione, ruotare il modello in m
 
 ![](images/PD_WB_Tutorial003.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Dopo aver selezionato la faccia, fare clic sull\'icona Nuovo schizzo nella barra degli strumenti o dal menu Part Design per mappare il prossimo schizzo sulla faccia posteriore della Parte. Poi selezionare lo strumento <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> rettangolo e posizionare un rettangolo sulla faccia posteriore della parte in modo simile a come mostrato di seguito. Infine, seguendo i passaggi elencati, vincolare lo schizzo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -164,9 +182,21 @@ Dopo aver selezionato la faccia, fare clic sull\'icona Nuovo schizzo nella barra
 
 ![](images/tut17_slote_constrained.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Fatto questo, cliccare sul pulsante Chiudi nella parte superiore della scheda Azioni della Vista combinata, quindi selezionare lo strumento <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> *Tasca* (Pocket) dalla barra degli strumenti o nel menu di Part Design. Questo strumento fa l\'opposto dello strumento Pad. Così come lo strumento Pad aggiunge del materiale alla Parte, lo strumento Tasca rimuove il materiale dal pezzo. Entrambe le operazioni sono chiamate funzioni (features). Per questa operazione Tasca selezionare il tipo *Attraversa tutto* dal menu a tendina e quindi fare clic sul pulsante OK.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Per l\'operazione successiva, assicurarsi che \"Pocket\" sia selezionato nella vista ad albero del modello, poi cliccare sulla funzione <img alt="" src=images/PartDesign_Mirrored.svg  style="width:32px;"> *Specchio* sulla barra degli strumenti o dal menu Part Design. Nella finestra di dialogo Specchio della Vista Combinata, selezionare *asse orizzontale dello schizzo* dal menu a tendina di *Piano*. Quindi fare clic su OK. In questo modo la funzione Specchio funziona perché, durante la prima operazione fatta con lo schizzo base, la funzione di base del nostro modello è stata estrusa in entrambe le direzioni del piano orizzontale. Se tutto è andato bene e dopo averla ruotata, ora si dovrebbe avere una Parte che si presenta come l\'immagine sottostante.
+
+
+</div>
 
 ![](images/tut17_profilewithslots.png )
 
@@ -224,7 +254,13 @@ A questo punto ruotando la Parte dalla parte anteriore, possiamo vedere che la P
 
 ![](images/tut17_innerplane.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Ora usare lo strumento rettangolo per posizionare un rettangolo nello schizzo e poi applicare i seguenti vincoli.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -265,7 +301,13 @@ Per creare una tasca che abbia il rettangolo inclinato sulla faccia in uscita, s
 
 ![](images/tut17_profilewithsideblocksrearplane.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Selezionare **Nuovo schizzo** <img alt="" src=images/PartDesign_NewSketch.svg  style="width:32px;"> nella barra degli strumenti o nel menu di Part Design. Ora, in modalità di modifica degli schizzi, il rettangolo dello schizzo inclinato non è visibile. Per renderlo selezionabile, passare dalla vista combinata alla scheda del modello e selezionare l\'ultimo schizzo realizzato sul piano inclinato (Sketch003), poi usare la barra spaziatrice per renderlo visibile. Quindi, selezionare la funzione specchio precedente (mirrored001) e usando ancora la barra spaziatrice, nasconderla. Ora si dovrebbe vedere il rettangolo inclinato all\'interno della vista 3D. È possibile continuare a lavorare con la scheda del modello visibile o tornare alla scheda delle azioni. Utilizzando lo strumento <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> Geometria esterna, nel rettangolo inclinato selezionare il bordo orizzontale superiore e il bordo orizzontale inferiore del rettangolo inclinato. Quindi, aggiungere un nuovo rettangolo allo schizzo utilizzando lo strumento rettangolo <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;">.
+
+
+</div>
 
 ![](images/tut17_rectangleunconstrained.png )
 
@@ -276,7 +318,13 @@ E con questo dovremmo finire.
 
 ![](images/tut17_rectangleconstrained.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Per concludere questo tutorial, chiudere la finestra di sketch usando *Chiudi* o *Esci dalla modifica* dal menu di scelta rapida dello sketch004. Quindi selezionare la funzione <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Pocket dalla barra degli strumenti o dal menu Part Design. Dal menu a discesa Tipo selezionare **Attraverso tutto** e fare clic sul pulsante OK.
+
+
+</div>
 
 ![](images/Tut17_final.png )
 

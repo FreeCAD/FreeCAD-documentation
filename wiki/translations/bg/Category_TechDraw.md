@@ -1,10 +1,11 @@
 # Category:TechDraw/bg
 This category lists pages related to the [TechDraw Workbench/bg](TechDraw_Workbench/bg.md).
 
-### Contents:
+### Contents
 
-  
-  [TechDraw Workbench/bg](TechDraw_Workbench/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [TechDraw Workbench/bg](wiki/TechDraw Workbench/bg.md) |
 
 
 

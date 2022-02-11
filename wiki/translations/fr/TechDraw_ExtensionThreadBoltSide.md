@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:TechDraw ExtensionThreadBoltSide
    Name/fr:TechDraw Corps de filetage
-   MenuLocation:TechDraw → Extensions: centerlines and threading → Thread section Shaft
+   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Corps de filetage
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.20
    SeeAlso:[TechDraw Corps de taraudage](TechDraw_ExtensionThreadHoleSide/fr.md)
@@ -12,18 +12,19 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw Corps de filetage** ajoute un filetage symbolique à la vue latérale d\'une vis.
+L\'outil <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw Corps de filetage** ajoute un filetage cosmétique à la vue latérale des boulons/vis/tiges.
 
-<img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:400px;"> 
-*À droite, une vis avec un filetage symbolique.*
+<img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:300px;"> 
+*À droite, une tige avec un corps de filetage cosmétique.*
 
 ## Utilisation
 
-1.  Sélectionner les deux lignes parallèles d\'un boulon.
-2.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [Thread section Shaft](TechDraw_ExtensionThreadBoltSide/fr.md)**.
-    -   Sélectionnez l\'option du menu **TechDraw → Extensions: centerlines and threading → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Thread section Shaft**.
-3.  Un filetage symbolique est ajouté.
+1.  Spécifiez à votre convenance les attributs de ligne avec l\'outil <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw Sélection des attributs](TechDraw_ExtensionSelectLineAttributes/fr.md).
+2.  Sélectionnez deux lignes parallèles.
+3.  Il existe plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [Corps de filetage](TechDraw_ExtensionThreadBoltSide.md)**.
+    -   Sélectionnez l\'option **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Corps de filetage** à partir du menu.
+4.  Un corps de filetage cosmétique est ajouté.
 
 
 

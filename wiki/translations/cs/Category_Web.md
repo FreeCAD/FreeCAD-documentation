@@ -1,10 +1,11 @@
 # Category:Web/cs
 This category lists pages that relate to the [Web Workbench/cs](Web_Workbench/cs.md).
 
-### Contents:
+### Contents
 
-  
-  [Web Workbench/cs](Web_Workbench/cs.md)
+|     |     |     |
+| --- | --- | --- |
+| [Web Workbench/cs](wiki/Web Workbench/cs.md) |
 
 
 

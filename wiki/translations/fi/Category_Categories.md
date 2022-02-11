@@ -6,12 +6,12 @@ This is the **top category** which contains the main categories of the FreeCAD w
 -   all *categories* that are *not classified*, use the [list of uncategorized categories](Special_Uncategorizedcategories.md).
 -   all *images* that are *not classified*, use the [list of uncategorized images](Special_Uncategorizedimages.md).
 
-### Contents:
+### Contents
 
-  -- -- --
-        
-        
-  -- -- --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Categories/fi](wiki/Category_Categories/fi.md) | [Category:Documentation/fi](wiki/Category_Documentation/fi.md) | [Category:Template/fi](wiki/Category_Template/fi.md) |
+|
 
 
 

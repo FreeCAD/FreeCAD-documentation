@@ -1,7 +1,11 @@
 # Category:Template:Text Format/tr
 This category lists templates that format text given as input.
 
-### Contents:
+### Contents
+
+|     |     |     |
+| --- | --- | --- |
+|
 
 
 

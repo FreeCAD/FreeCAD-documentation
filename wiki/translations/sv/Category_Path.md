@@ -1,10 +1,11 @@
 # Category:Path/sv
 This category lists pages related to the [PartDesign Workbench/sv](PartDesign_Workbench/sv.md).
 
-### Contents:
+### Contents
 
-  
-  [Path Workbench/sv](Path_Workbench/sv.md)
+|     |     |     |
+| --- | --- | --- |
+| [Path Workbench/sv](wiki/Path Workbench/sv.md) |
 
 
 

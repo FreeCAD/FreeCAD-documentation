@@ -1,10 +1,11 @@
 # Category:Template:Doc/de
 This category lists templates that produce text boxes used for documenting commands, tutorials, and other elements.
 
-### Contents:
+### Contents
 
-   
-  [Template:GuiCommandAddon/de](Template:GuiCommandAddon/de.md)   [Template:Macro/de](Template:Macro/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:GuiCommandAddon/de](wiki/Template_GuiCommandAddon/de.md) | [Template:Macro/de](wiki/Template_Macro/de.md) |
 
 
 

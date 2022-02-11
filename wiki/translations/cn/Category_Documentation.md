@@ -1,12 +1,12 @@
 # Category:Documentation/cn
 This category groups all of the FreeCAD documentation
 
-### Contents:
+### Contents
 
-  -- -- --
-        
-        
-  -- -- --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Developer Documentation/cn](wiki/Category_Developer Documentation/cn.md) | [Category:Poweruser Documentation/cn](wiki/Category_Poweruser Documentation/cn.md) | [Category:User Documentation/cn](wiki/Category_User Documentation/cn.md) |
+|
 
 
 

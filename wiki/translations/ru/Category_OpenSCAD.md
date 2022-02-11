@@ -1,15 +1,16 @@
 # Category:OpenSCAD/ru
 This category lists pages related to the [OpenSCAD\_Workbench/ru](OpenSCAD_Workbench/ru.md).
 
-### Contents:
+### Contents
 
-    
-  [Artwork OpenSCAD/ru](Artwork_OpenSCAD/ru.md)                         [Import OpenSCAD code/ru](Import_OpenSCAD_code/ru.md)       [OpenSCAD AddOpenSCADElement/ru](OpenSCAD_AddOpenSCADElement/ru.md)
-  [OpenSCAD ColorCodeShape/ru](OpenSCAD_ColorCodeShape/ru.md)           [OpenSCAD Edgestofaces/ru](OpenSCAD_Edgestofaces/ru.md)     [OpenSCAD ExpandPlacements/ru](OpenSCAD_ExpandPlacements/ru.md)
-  [OpenSCAD ExplodeGroup/ru](OpenSCAD_ExplodeGroup/ru.md)               [OpenSCAD Hull/ru](OpenSCAD_Hull/ru.md)                     [OpenSCAD IncreaseToleranceFeature/ru](OpenSCAD_IncreaseToleranceFeature/ru.md)
-  [OpenSCAD MeshBoolean/ru](OpenSCAD_MeshBoolean/ru.md)                 [OpenSCAD Minkowski/ru](OpenSCAD_Minkowski/ru.md)           [OpenSCAD Preferences/ru](OpenSCAD_Preferences/ru.md)
-  [OpenSCAD RefineShapeFeature/ru](OpenSCAD_RefineShapeFeature/ru.md)   [OpenSCAD RemoveSubtree/ru](OpenSCAD_RemoveSubtree/ru.md)   [OpenSCAD ReplaceObject/ru](OpenSCAD_ReplaceObject/ru.md)
-  [OpenSCAD Workbench/ru](OpenSCAD_Workbench/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork OpenSCAD/ru](wiki/Artwork OpenSCAD/ru.md) | [Import OpenSCAD code/ru](wiki/Import OpenSCAD code/ru.md) | [OpenSCAD AddOpenSCADElement/ru](wiki/OpenSCAD AddOpenSCADElement/ru.md) |
+| [OpenSCAD ColorCodeShape/ru](wiki/OpenSCAD ColorCodeShape/ru.md) | [OpenSCAD Edgestofaces/ru](wiki/OpenSCAD Edgestofaces/ru.md) | [OpenSCAD ExpandPlacements/ru](wiki/OpenSCAD ExpandPlacements/ru.md) |
+| [OpenSCAD ExplodeGroup/ru](wiki/OpenSCAD ExplodeGroup/ru.md) | [OpenSCAD Hull/ru](wiki/OpenSCAD Hull/ru.md) | [OpenSCAD IncreaseToleranceFeature/ru](wiki/OpenSCAD IncreaseToleranceFeature/ru.md) |
+| [OpenSCAD MeshBoolean/ru](wiki/OpenSCAD MeshBoolean/ru.md) | [OpenSCAD Minkowski/ru](wiki/OpenSCAD Minkowski/ru.md) | [OpenSCAD Preferences/ru](wiki/OpenSCAD Preferences/ru.md) |
+| [OpenSCAD RefineShapeFeature/ru](wiki/OpenSCAD RefineShapeFeature/ru.md) | [OpenSCAD RemoveSubtree/ru](wiki/OpenSCAD RemoveSubtree/ru.md) | [OpenSCAD ReplaceObject/ru](wiki/OpenSCAD ReplaceObject/ru.md) |
+| [OpenSCAD Workbench/ru](wiki/OpenSCAD Workbench/ru.md) |
 
 
 

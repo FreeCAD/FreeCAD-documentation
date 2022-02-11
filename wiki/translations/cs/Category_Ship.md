@@ -1,10 +1,11 @@
 # Category:Ship/cs
 This category lists pages related to the [Ship Workbench/cs](Ship_Workbench/cs.md).
 
-### Contents:
+### Contents
 
-  
-  [Ship Workbench/cs](Ship_Workbench/cs.md)
+|     |     |     |
+| --- | --- | --- |
+| [Ship Workbench/cs](wiki/Ship Workbench/cs.md) |
 
 
 

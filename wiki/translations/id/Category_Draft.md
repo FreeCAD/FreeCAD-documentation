@@ -1,10 +1,11 @@
 # Category:Draft/id
 This category list pages related to the \"User\_Documentation/id\" and \"Workbenches/id\"
 
-### Contents:
+### Contents
 
-  
-  [Draft Workbench/id](Draft_Workbench/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Draft Workbench/id](wiki/Draft Workbench/id.md) |
 
 
 

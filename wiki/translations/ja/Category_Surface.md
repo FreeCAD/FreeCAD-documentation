@@ -1,10 +1,11 @@
 # Category:Surface/ja
 This category lists pages related to the [Surface Workbench/ja](Surface_Workbench/ja.md).
 
-### Contents:
+### Contents
 
-  
-  [Surface Workbench/ja](Surface_Workbench/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [Surface Workbench/ja](wiki/Surface Workbench/ja.md) |
 
 
 

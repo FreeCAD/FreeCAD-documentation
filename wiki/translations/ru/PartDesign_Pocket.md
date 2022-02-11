@@ -34,7 +34,7 @@ When creating a pocket, the the **Pocket parameters** dialog will be shown. It o
 
 Type offers four different ways of specifying the length to which the pocket will be extruded:
 
-### Dimension
+#### Dimension
 
 Enter a numeric value for the length of the pocket. The default direction for extrusion is into the support, but it can be changed by ticking the **Reversed** option. Extrusions occur by default [normal](http://en.wikipedia.org/wiki/Surface_normal) to the defining sketch plane. This can be changed by specifying another **Direction** <small>(v0.20)</small> . With the option **Symmetric to plane** the pocket will extend half of the given length to either side of the plane. Negative dimensions are not possible. Use the **Reversed** option instead.
 
@@ -90,6 +90,29 @@ Tick the checkbox to extrude half of the given length to either side of the sket
 ### Reversed
 
 Reverses the direction of the pocket.
+
+### Taper angle 
+
+
+<small>(v0.20)</small> 
+
+Tapers the pocket in the extrusion direction by the given angle. A positive angle means the outer pocket border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+
+Limitations:
+
+-   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
+-   For larger angles tapering will fail if the end face of the pocket would have fewer edges than the start face/sketch.
+
+### 2nd length 
+
+Defines the length of the pocket in the opposite extrusion direction. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available if **Type** is **Two dimensions**.
+
+### 2nd taper angle 
+
+
+<small>(v0.20)</small> 
+
+Tapers the pocket in the opposite extrusion direction by the given angle. A positive angle means the outer pocket border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
 
 ## Properties
 

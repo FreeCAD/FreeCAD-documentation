@@ -1,13 +1,14 @@
 # Category:Packaging
 This category collects pages related to packing FreeCAD for different platforms, including Linux, Windows, and MacOS.
 
-### Contents:
+### Contents
 
-    
-  [AppImage](AppImage.md)                           [Debian development](Debian_development.md)       [Debian Unstable](Debian_Unstable.md)
-  [Git buildpackage](Git_buildpackage.md)           [Linux packaging](Linux_packaging.md)             [MacOS packaging](MacOS_packaging.md)
-  [Packaging](Packaging.md)                         [Windows packaging](Windows_packaging.md)         [Windows packaging/en](Windows_packaging/en.md)
-  [Windows packaging/pl](Windows_packaging/pl.md)   [Windows packaging/ru](Windows_packaging/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [AppImage](wiki/AppImage.md) | [Debian development](wiki/Debian development.md) | [Debian Unstable](wiki/Debian Unstable.md) |
+| [Git buildpackage](wiki/Git buildpackage.md) | [Linux packaging](wiki/Linux packaging.md) | [MacOS packaging](wiki/MacOS packaging.md) |
+| [Packaging](wiki/Packaging.md) | [Windows packaging](wiki/Windows packaging.md) | [Windows packaging/en](wiki/Windows packaging/en.md) |
+| [Windows packaging/pl](wiki/Windows packaging/pl.md) | [Windows packaging/ru](wiki/Windows packaging/ru.md) |
 
 
 

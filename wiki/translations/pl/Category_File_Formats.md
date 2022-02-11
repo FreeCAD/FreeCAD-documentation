@@ -1,19 +1,20 @@
 # Category:File Formats/pl
 This category collects pages about all the different file formats that FreeCAD is able to handle via its different workbenches. Note that some formats can be available only for import or only for export. Each page will describe more in detail what the importer/exporter features.
 
-### Contents:
+### Contents
 
-    
-  [Arch 3DS/pl](Arch_3DS/pl.md)                               [Arch DAE/pl](Arch_DAE/pl.md)                               [Arch IFC/pl](Arch_IFC/pl.md)
-  [Arch JSON/pl](Arch_JSON/pl.md)                             [Arch OBJ/pl](Arch_OBJ/pl.md)                               [Arch SHP/pl](Arch_SHP/pl.md)
-  [Asymptote/pl](Asymptote/pl.md)                             [Draft DAT/pl](Draft_DAT/pl.md)                             [Draft DXF/pl](Draft_DXF/pl.md)
-  [Draft OCA/pl](Draft_OCA/pl.md)                             [Draft SVG/pl](Draft_SVG/pl.md)                             [DXF/pl](DXF/pl.md)
-  [Export to STL or OBJ/pl](Export_to_STL_or_OBJ/pl.md)       [File Format FCStd/pl](File_Format_FCStd/pl.md)             [FreeCAD and DWG Import/pl](FreeCAD_and_DWG_Import/pl.md)
-  [FreeCAD and DXF Import/pl](FreeCAD_and_DXF_Import/pl.md)   [GlTF/pl](GlTF/pl.md)                                       [Import Export Preferences/pl](Import_Export_Preferences/pl.md)
-  [Import Export/pl](Import_Export/pl.md)                     [Import from STL or OBJ/pl](Import_from_STL_or_OBJ/pl.md)   [Import/Export IFC - compiling IfcOpenShell/pl](Import/Export_IFC_-_compiling_IfcOpenShell/pl.md)
-  [Material/pl](Material/pl.md)                               [OpenSCAD CSG/pl](OpenSCAD_CSG/pl.md)                       [PDF/pl](PDF/pl.md)
-  [Spreadsheet CSV/pl](Spreadsheet_CSV/pl.md)                 [Std Export/pl](Std_Export/pl.md)                           [Std Import/pl](Std_Import/pl.md)
-  [SVG/pl](SVG/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch 3DS/pl](wiki/Arch 3DS/pl.md) | [Arch DAE/pl](wiki/Arch DAE/pl.md) | [Arch IFC/pl](wiki/Arch IFC/pl.md) |
+| [Arch JSON/pl](wiki/Arch JSON/pl.md) | [Arch OBJ/pl](wiki/Arch OBJ/pl.md) | [Arch SHP/pl](wiki/Arch SHP/pl.md) |
+| [Asymptote/pl](wiki/Asymptote/pl.md) | [Draft DAT/pl](wiki/Draft DAT/pl.md) | [Draft DXF/pl](wiki/Draft DXF/pl.md) |
+| [Draft OCA/pl](wiki/Draft OCA/pl.md) | [Draft SVG/pl](wiki/Draft SVG/pl.md) | [DXF/pl](wiki/DXF/pl.md) |
+| [Export to STL or OBJ/pl](wiki/Export to STL or OBJ/pl.md) | [File Format FCStd/pl](wiki/File Format FCStd/pl.md) | [FreeCAD and DWG Import/pl](wiki/FreeCAD and DWG Import/pl.md) |
+| [FreeCAD and DXF Import/pl](wiki/FreeCAD and DXF Import/pl.md) | [GlTF/pl](wiki/GlTF/pl.md) | [Import Export Preferences/pl](wiki/Import Export Preferences/pl.md) |
+| [Import Export/pl](wiki/Import Export/pl.md) | [Import from STL or OBJ/pl](wiki/Import from STL or OBJ/pl.md) | [Import/Export IFC - compiling IfcOpenShell/pl](wiki/Import/Export IFC - compiling IfcOpenShell/pl.md) |
+| [Material/pl](wiki/Material/pl.md) | [OpenSCAD CSG/pl](wiki/OpenSCAD CSG/pl.md) | [PDF/pl](wiki/PDF/pl.md) |
+| [Spreadsheet CSV/pl](wiki/Spreadsheet CSV/pl.md) | [Std Export/pl](wiki/Std Export/pl.md) | [Std Import/pl](wiki/Std Import/pl.md) |
+| [SVG/pl](wiki/SVG/pl.md) |
 
 
 

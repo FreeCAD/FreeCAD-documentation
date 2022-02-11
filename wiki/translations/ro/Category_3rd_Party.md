@@ -1,10 +1,12 @@
 # Category:3rd Party/ro
 External aka 3rd-Party applications/libraries that FreeCAD depends on or are of some interest to the FC community
 
-### Contents:
+### Contents
 
-    
-  [3Dconnexion input devices/ro](3Dconnexion_input_devices/ro.md)   [Import/Export IFC - compiling IfcOpenShell/ro](Import/Export_IFC_-_compiling_IfcOpenShell/ro.md)   [Std DependencyGraph/ro](Std_DependencyGraph/ro.md)
+|     |     |     |
+| --- | --- | --- |
+| [3Dconnexion input devices/ro](wiki/3Dconnexion input devices/ro.md) | [Import/Export IFC - compiling IfcOpenShell/ro](wiki/Import/Export IFC - compiling IfcOpenShell/ro.md) | [Std DependencyGraph/ro](wiki/Std DependencyGraph/ro.md) |
+|
 
 
 

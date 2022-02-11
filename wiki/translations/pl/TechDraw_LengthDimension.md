@@ -62,6 +62,22 @@ The dimension dialog offers the following settings:
 
 -   **Drawing Style**: The standard (and its style) according to which the dimension is drawn. See the property [**Standard And Style**](#View.md) for details.
 
+### Lines
+
+-   **Override Angles**: If checked, the usual angles for the dimension line and extension lines will be overriden by the specified values.
+
+-   **Dimension line angle**: Override value for angle of dimension line with view X axis (in degrees).
+
+-   **Use default**: Set dimension line angle to the usual angle.
+
+-   **Use selection**: Set dimension line angle to match the angle of the selected edge (or 2 vertices) in the view.
+
+-   **Extension line angle**: Override value for angle of extension lines with view X axis (in degrees).
+
+-   **Use default**: Set extension line angle to the usual angle.
+
+-   **Use selection**: Set extension line angle to match the angle of the selected edge (or 2 vertices) in the view.
+
 ## Właściwości
 
 ### Data
@@ -79,8 +95,8 @@ The dimension dialog offers the following settings:
 
 :   
 
-    :   *True* - based on 3D geometry or
-    :   *Projected* - based on the drawing
+    :   True - based on 3D geometry or
+    :   Projected - based on the drawing
 
 -    **Theoretical Exact**: Specifies a theoretically exact (or basic) dimension.
 
@@ -152,6 +168,27 @@ The dimension dialog offers the following settings:
         \- the content of the **Format Spec** will be displayed as text instead if the dimension value.
 
 -    **Arbitrary Tolerances**: Like **Arbitrary**, but for the tolerance.
+
+
+{{Properties_Title|Override}}
+
+-    **AngleOverride**: Whether the direction of dimension and extension lines is overridden.
+
+:   
+
+    :   
+        `False`
+        
+        \- the directions are computed as usual.
+
+    :   
+        `True`
+        
+        \- the directions are overridden by LineAngle and ExtensionAngle property values.
+
+-    **LineAngle**: angle of dimension line with view X axis (in degrees).
+
+-    **ExtensionAngle**: angle of extension line(s) with view X axis (in degrees).
 
 ### View
 

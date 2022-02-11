@@ -1,10 +1,11 @@
 # Category:Wiki/ro
 This category contains all documents that relate to the Wiki/ro.
 
-### Contents:
+### Contents
 
-   
-  [Glossary/ro](Glossary/ro.md)   [Localisation/ro](Localisation/ro.md)
+|     |     |     |
+| --- | --- | --- |
+| [Glossary/ro](wiki/Glossary/ro.md) | [Localisation/ro](wiki/Localisation/ro.md) |
 
 
 

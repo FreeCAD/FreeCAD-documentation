@@ -31,7 +31,13 @@ Zum Wechseln des virtuellen Raums:
 Wenn du dich entscheidest, Beschränkungen für den zweiten virtuellen Raum festzulegen, vergesse diese später nicht, wenn du sie in der [3D Ansicht](3D_view/de.md) nicht siehst.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

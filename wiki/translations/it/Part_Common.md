@@ -9,6 +9,8 @@
 
 La funzione estrae la parte comune (intersezione) tra gli oggetti Parte selezionati. Questa operazione è completamente parametrica, le componenti possono essere modificate e il risultato ricalcolato.
 
+## Usage
+
 
 <div class="mw-translate-fuzzy">
 
@@ -20,7 +22,13 @@ La funzione estrae la parte comune (intersezione) tra gli oggetti Parte selezion
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ### Input supportati 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

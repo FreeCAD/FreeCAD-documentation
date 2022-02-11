@@ -1,10 +1,11 @@
 # Category:Web/de
 This category lists pages that relate to the [Web Workbench/de](Web_Workbench/de.md).
 
-### Contents:
+### Contents
 
-  
-  [Web Workbench/de](Web_Workbench/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Web Workbench/de](wiki/Web Workbench/de.md) |
 
 
 

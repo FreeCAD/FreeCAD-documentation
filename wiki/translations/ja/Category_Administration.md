@@ -1,10 +1,11 @@
 # Category:Administration/ja
 This category contains articles and categories about wiki administrative subjects.
 
-### Contents:
+### Contents
 
-  
-  [Tracker/ja](Tracker/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [Tracker/ja](wiki/Tracker/ja.md) |
 
 
 

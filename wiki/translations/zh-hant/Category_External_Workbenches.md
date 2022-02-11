@@ -1,10 +1,11 @@
 # Category:External Workbenches/zh-hant
 This category collects pages from the [external workbenches](external_workbenches.md) list.
 
-### Contents:
+### Contents
 
-  
-  [Ship Workbench/zh-hant](Ship_Workbench/zh-hant.md)
+|     |     |     |
+| --- | --- | --- |
+| [Ship Workbench/zh-hant](wiki/Ship Workbench/zh-hant.md) |
 
 
 

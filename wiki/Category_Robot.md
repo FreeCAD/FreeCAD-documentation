@@ -1,16 +1,18 @@
 # Category:Robot
 This category lists pages related to the [Robot Workbench](Robot_Workbench.md).
 
-### Contents:
+### Contents
 
-    
-  [Artwork Robot](Artwork_Robot.md)                           [GSoC Path/Robot Integration](GSoC_Path/Robot_Integration.md)   [Robot 6-Axis](Robot_6-Axis.md)
-  [Robot API example](Robot_API_example.md)                   [Robot CreateRobot](Robot_CreateRobot.md)                       [Robot CreateTrajectory](Robot_CreateTrajectory.md)
-  [Robot Edge2Trac](Robot_Edge2Trac.md)                       [Robot Export](Robot_Export.md)                                 [Robot InsertWaypoint](Robot_InsertWaypoint.md)
-  [Robot InsertWaypointPre](Robot_InsertWaypointPre.md)       [Robot RestoreHomePos](Robot_RestoreHomePos.md)                 [Robot SetDefaultOrientation](Robot_SetDefaultOrientation.md)
-  [Robot SetDefaultValues](Robot_SetDefaultValues.md)         [Robot SetHomePos](Robot_SetHomePos.md)                         [Robot Simulate](Robot_Simulate.md)
-  [Template:Robot Tools navi](Template_Robot_Tools_navi.md)   [Robot TrajectoryCompound](Robot_TrajectoryCompound.md)         [Robot TrajectoryDressUp](Robot_TrajectoryDressUp.md)
-  [Robot tutorial](Robot_tutorial.md)                         [Robot Workbench](Robot_Workbench.md)                           [VRML Preparation for Robot Simulation](VRML_Preparation_for_Robot_Simulation.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Robot](wiki/Artwork Robot.md) | [GSoC Path/Robot Integration](wiki/GSoC Path/Robot Integration.md) | [Robot 6-Axis](wiki/Robot 6-Axis.md) |
+| [Robot API example](wiki/Robot API example.md) | [Robot CreateRobot](wiki/Robot CreateRobot.md) | [Robot CreateTrajectory](wiki/Robot CreateTrajectory.md) |
+| [Robot Edge2Trac](wiki/Robot Edge2Trac.md) | [Robot Export](wiki/Robot Export.md) | [Robot InsertWaypoint](wiki/Robot InsertWaypoint.md) |
+| [Robot InsertWaypointPre](wiki/Robot InsertWaypointPre.md) | [Robot RestoreHomePos](wiki/Robot RestoreHomePos.md) | [Robot SetDefaultOrientation](wiki/Robot SetDefaultOrientation.md) |
+| [Robot SetDefaultValues](wiki/Robot SetDefaultValues.md) | [Robot SetHomePos](wiki/Robot SetHomePos.md) | [Robot Simulate](wiki/Robot Simulate.md) |
+| [Template:Robot Tools navi](wiki/Template_Robot Tools navi.md) | [Robot TrajectoryCompound](wiki/Robot TrajectoryCompound.md) | [Robot TrajectoryDressUp](wiki/Robot TrajectoryDressUp.md) |
+| [Robot tutorial](wiki/Robot tutorial.md) | [Robot Workbench](wiki/Robot Workbench.md) | [VRML Preparation for Robot Simulation](wiki/VRML Preparation for Robot Simulation.md) |
+|
 
 
 

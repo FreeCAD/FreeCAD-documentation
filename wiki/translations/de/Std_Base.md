@@ -35,6 +35,9 @@ Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat ei
 
 ### Zusätzliche Werkzeuge 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std Part](Std_Part/de.md): Erzeugt ein neues Teil und macht es aktiv.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std Group](Std_Group/de.md): Creates a new group.
 -   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Std LinkMake](Std_LinkMake/de.md): Creates a link. <small>(v0.19)</small> 
@@ -51,6 +54,9 @@ Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat ei
 -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Std SelBack](Std_SelBack/de.md): Restores the previous saved selection. <small>(v0.19)</small> 
 -   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Std SelForward](Std_SelForward/de.md): Restores the next ved selection. <small>(v0.19)</small> 
 -   [Std Expressions](Std_Expressions/de.md): Expression actions. <small>(v0.19)</small> 
+
+
+</div>
 
 
 

@@ -1,10 +1,11 @@
 # Category:Points/pt
 This category lists pages related to the [Points Workbench/pt](Points_Workbench/pt.md).
 
-### Contents:
+### Contents
 
-  
-  [Points Workbench/pt](Points_Workbench/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Points Workbench/pt](wiki/Points Workbench/pt.md) |
 
 
 

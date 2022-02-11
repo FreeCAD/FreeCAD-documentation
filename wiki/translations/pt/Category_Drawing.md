@@ -1,10 +1,11 @@
 # Category:Drawing/pt
 This category lists pages related to the [Drawing Workbench/pt](Drawing_Workbench/pt.md).
 
-### Contents:
+### Contents
 
-  
-  [Drawing Workbench/pt](Drawing_Workbench/pt.md)
+|     |     |     |
+| --- | --- | --- |
+| [Drawing Workbench/pt](wiki/Drawing Workbench/pt.md) |
 
 
 

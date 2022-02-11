@@ -1,10 +1,11 @@
 # Category:Points/cs
 This category lists pages related to the [Points Workbench/cs](Points_Workbench/cs.md).
 
-### Contents:
+### Contents
 
-  
-  [Points Workbench/cs](Points_Workbench/cs.md)
+|     |     |     |
+| --- | --- | --- |
+| [Points Workbench/cs](wiki/Points Workbench/cs.md) |
 
 
 

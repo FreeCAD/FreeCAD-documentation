@@ -4,8 +4,8 @@
 |Icon=Wirefilter.svg
 |Description=Filtrez les lignes à partir d'esquisses, décalages 2D, échelles, réorganisez l'ordre des lignes.
 |Author=TheMarkster
-|Version=0.2021.12.13
-|Date=2021-12-13
+|Version=0.2022.02.09
+|Date=2022-02-09
 |FCVersion=Les versions en Python 3
 |Download=[https://wiki.freecadweb.org/File:Wirefilter.svg Icône de la barre d'outils]
 |Links=[https://github.com/mwganson/wirefilter Documentation complète sur Github]
@@ -29,7 +29,7 @@ Parfois, la protrusion ne peut pas trouver la normale correcte et le WireFilter 
 ## Légende
 
 
-{{Codeextralink|https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa6c/raw/bfff4a29d8484f02bda2a49fea196dad21752280/wirefilter.FCMacro|wirefilter.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa6c/raw/e9d282440f8ae58817df8fad1c4995861c7cc949/wirefilter.FCMacro|wirefilter.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Wirefilter.svg )
 

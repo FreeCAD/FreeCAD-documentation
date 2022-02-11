@@ -5,11 +5,12 @@ These templates produce small pieces of text that are suitable for transclusion.
 
 Longer pieces of text should be placed in the page itself so that they are translatable with the translation extension.
 
-### Contents:
+### Contents
 
-    
-  [Template:Obsolete/it](Template:Obsolete/it.md)         [Template:Version/it](Template:Version/it.md)   [Template:VersionMinus/it](Template:VersionMinus/it.md)
-  [Template:VersionPlus/it](Template:VersionPlus/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Obsolete/it](wiki/Template_Obsolete/it.md) | [Template:Version/it](wiki/Template_Version/it.md) | [Template:VersionMinus/it](wiki/Template_VersionMinus/it.md) |
+| [Template:VersionPlus/it](wiki/Template_VersionPlus/it.md) |
 
 
 

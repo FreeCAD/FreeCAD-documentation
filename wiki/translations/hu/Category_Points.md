@@ -1,10 +1,11 @@
 # Category:Points/hu
 This category lists pages related to the [Points Workbench/hu](Points_Workbench/hu.md).
 
-### Contents:
+### Contents
 
-  
-  [Points Workbench/hu](Points_Workbench/hu.md)
+|     |     |     |
+| --- | --- | --- |
+| [Points Workbench/hu](wiki/Points Workbench/hu.md) |
 
 
 

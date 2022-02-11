@@ -1,12 +1,12 @@
 # Category:BIM/hr
 This category is for pages related to building information management (BIM).
 
-### Contents:
+### Contents
 
-    --
-  [BIM Workbench/hr](BIM_Workbench/hr.md)   [Manual:BIM modeling/hr](Manual:BIM_modeling/hr.md)   
-                                                                                                                  
-    --
+|     |     |     |
+| --- | --- | --- |
+| [BIM Workbench/hr](wiki/BIM Workbench/hr.md) | [Manual:BIM modeling/hr](wiki/Manual_BIM modeling/hr.md) | [Category:Arch/hr](wiki/Category_Arch/hr.md) |
+|
 
 
 

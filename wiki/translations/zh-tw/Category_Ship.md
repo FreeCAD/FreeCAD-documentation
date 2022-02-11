@@ -1,10 +1,11 @@
 # Category:Ship/zh-tw
 This category lists pages related to the [Ship Workbench/zh-tw](Ship_Workbench/zh-tw.md).
 
-### Contents:
+### Contents
 
-  
-  [Ship Workbench/zh-tw](Ship_Workbench/zh-tw.md)
+|     |     |     |
+| --- | --- | --- |
+| [Ship Workbench/zh-tw](wiki/Ship Workbench/zh-tw.md) |
 
 
 

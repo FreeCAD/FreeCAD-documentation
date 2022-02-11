@@ -1,10 +1,11 @@
 # Category:Ship/hu
 This category lists pages related to the [Ship Workbench/hu](Ship_Workbench/hu.md).
 
-### Contents:
+### Contents
 
-  
-  [Ship Workbench/hu](Ship_Workbench/hu.md)
+|     |     |     |
+| --- | --- | --- |
+| [Ship Workbench/hu](wiki/Ship Workbench/hu.md) |
 
 
 

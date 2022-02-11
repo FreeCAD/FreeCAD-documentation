@@ -1,10 +1,11 @@
 # Category:PartDesign/bg
 This category lists pages related to the [PartDesign Workbench/bg](PartDesign_Workbench/bg.md).
 
-### Contents:
+### Contents
 
-  
-  [PartDesign Workbench/bg](PartDesign_Workbench/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [PartDesign Workbench/bg](wiki/PartDesign Workbench/bg.md) |
 
 
 

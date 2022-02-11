@@ -1,10 +1,11 @@
 # Category:Screenshots/ru
 This category lists pages with screenshots.
 
-### Contents:
+### Contents
 
-  
-  [Screenshots/ru](Screenshots/ru.md)
+|     |     |     |
+| --- | --- | --- |
+| [Screenshots/ru](wiki/Screenshots/ru.md) |
 
 
 

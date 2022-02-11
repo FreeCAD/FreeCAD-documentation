@@ -1,11 +1,11 @@
 # Category:Addons/uk
 This page lists external addon workbenches that have a page in this wiki. Addons are modules or workbenches contributed by the community and are not part of standard FreeCAD.
 
-### Contents:
+### Contents
 
-   --
-  [Ship Workbench/uk](Ship_Workbench/uk.md)   
-   --
+|     |     |     |
+| --- | --- | --- |
+| [Ship Workbench/uk](wiki/Ship Workbench/uk.md) | [Category:External Workbenches/uk](wiki/Category_External Workbenches/uk.md) |
 
 
 

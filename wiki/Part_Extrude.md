@@ -3,7 +3,7 @@
    Name:Part Extrude
    MenuLocation:Part → Extrude
    Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Draft Trimex](Draft_Trimex.md)
+   SeeAlso:[Draft Trimex](Draft_Trimex.md), [PartDesign Pad](PartDesign_Pad.md)
 ---
 
 # Part Extrude
@@ -44,7 +44,7 @@ The Extrude shape is defined by the following parameters, which can be edited af
 
 -   **Dir**: the direction to extend the shape. If **Dir Mode** is \'Custom\', you can edit **Dir**. Otherwise, **Dir** is read-only, and computed from the linked shape.
 
--   **Dir Link**: parametric link to a edge (line) that sets the direction of extrusion. As of v0.17, this property is not supported by property editor.
+-   **Dir Link**: parametric link to a edge (line) that sets the direction of extrusion. This property is not supported by the [Property editor](Property_editor.md).
 
 -   **Dir Mode**: sets how **Dir** is controlled. \'Custom\' means **Dir** is editable. \'Edge\' means Dir is obtained from an edge (line) linked by **Dir Link**. \'Normal\' means Dir is perpendicular to plane of the input shape.
 
@@ -58,7 +58,7 @@ The Extrude shape is defined by the following parameters, which can be edited af
 
 -   **Symmetric**: if True, extrusion is centered at the input shape, and total length is **Length Fwd**. **Length Rev** is ignored.
 
--   **Taper Angle** and **Taper Angle Rev**: applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**). As of v0.17, tapered extrusion is only supported for wires with no holes. Taper does not work well if the extruded shape contains B-splines.
+-   **Taper Angle** and **Taper Angle Rev**: applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**).{{VersionMinus|0.19}}Tapered extrusion is only supported for wires with no holes. Taper does not work well if the extruded shape contains B-splines.
 
 -   **Face Maker Class**: sets C++ class name of face making code, which is used when making solids from wires. This property is here mainly for maintaining backward compatibility. Do not touch, unless you know what you are doing.
 
@@ -102,15 +102,14 @@ The Extrude shape is defined by the following parameters, which can be edited af
 
 -   Extrusion with taper angle does not support holes. It also may give bogus results if the number of segments in the profile changes as a result of taper.
 
-## Comparison with [PartDesign Pad](PartDesign_Pad.md) 
+## Comparison with PartDesign Pad 
 
-PartDesign Pad is also an extrusion feature, but there are important differences.
+[PartDesign Pad](PartDesign_Pad.md) is also an extrusion feature, but there are important differences:
 
-Part Extrude always creates a standalone shape. PartDesign Pad fuses the extrusion result to the rest of the Body.
-
-Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only live inside a [PartDesign Body](PartDesign_Body.md).
-
-Part Extrude can extrude any object that has Part Geometry (OCC shape), except for solids and compsolids. And it can\'t extrude individual faces of other objects. PartDesign Pad will only accept a Sketch as a profile (and a small selection of other object types), or a face of a solid.
+-   Part Extrude always creates a standalone shape. PartDesign Pad fuses the extrusion result to the rest of the Body.
+-   Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only live inside a [PartDesign Body](PartDesign_Body.md).
+-   Part Extrude can extrude any object that has a Part geometry ([OpenCASCADE](OpenCASCADE.md) shape), except for solids and CompSolids.
+-   Part Extrude can extrude individual faces of other objects. PartDesign Pad will only accept either Sketch or faces of PartDesign objects as a profile.
 
 
 

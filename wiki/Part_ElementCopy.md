@@ -31,6 +31,14 @@ The copy has a simple **Placement** property like any other [Part Feature](Part_
 
 The copy has simple view properties like any other [Part Feature](Part_Feature.md).
 
+## Notes
+
+## Properties 
+
+## Limitations
+
+## Scripting
+
 
 
 ---

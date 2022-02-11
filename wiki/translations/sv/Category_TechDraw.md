@@ -1,10 +1,11 @@
 # Category:TechDraw/sv
 This category lists pages related to the [TechDraw Workbench/sv](TechDraw_Workbench/sv.md).
 
-### Contents:
+### Contents
 
-  
-  [TechDraw Workbench/sv](TechDraw_Workbench/sv.md)
+|     |     |     |
+| --- | --- | --- |
+| [TechDraw Workbench/sv](wiki/TechDraw Workbench/sv.md) |
 
 
 

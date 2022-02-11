@@ -1,11 +1,12 @@
 # Category:Testing/de
 Pages related to testing in regards to unit testing, continuous integration, quality assurance, regression testing etc\...
 
-### Contents:
+### Contents
 
-    
-  [AppImage/de](AppImage/de.md)   [Continuous Integration/de](Continuous_Integration/de.md)   [LGTM/de](LGTM/de.md)
-  [Testing/de](Testing/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [AppImage/de](wiki/AppImage/de.md) | [Continuous Integration/de](wiki/Continuous Integration/de.md) | [LGTM/de](wiki/LGTM/de.md) |
+| [Testing/de](wiki/Testing/de.md) | [Category:Test Framework/de](wiki/Category_Test Framework/de.md) |
 
 
 

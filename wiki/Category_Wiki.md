@@ -1,11 +1,13 @@
 # Category:Wiki
 This category contains all documents that relate to the Wiki.
 
-### Contents:
+### Contents
 
-    
-  [Glossary](Glossary.md)                                                   [Localisation](Localisation.md)                 [Localisation Sidebar](Localisation_Sidebar.md)
-  [Sandbox:TranslationGuideLines/de](Sandbox:TranslationGuideLines/de.md)   [Tutorial guidelines](Tutorial_guidelines.md)   [WikiPages](WikiPages.md)
+|     |     |     |
+| --- | --- | --- |
+| [Glossary](wiki/Glossary.md) | [Localisation](wiki/Localisation.md) | [Localisation Sidebar](wiki/Localisation Sidebar.md) |
+| [Sandbox:TranslationGuideLines/de](wiki/Sandbox_TranslationGuideLines/de.md) | [Tutorial guidelines](wiki/Tutorial guidelines.md) | [WikiPages](wiki/WikiPages.md) |
+|
 
 
 

@@ -1,11 +1,11 @@
 # Category:Wiki Documentation
 This category lists pages that relate to using the wiki effectively for documenting FreeCAD.
 
-### Contents:
+### Contents
 
-   --
-  [WikiPages](WikiPages.md)   
-   --
+|     |     |     |
+| --- | --- | --- |
+| [WikiPages](wiki/WikiPages.md) | [Category:Wiki:Example](wiki/Category_Wiki_Example.md) |
 
 
 

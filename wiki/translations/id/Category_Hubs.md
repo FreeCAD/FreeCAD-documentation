@@ -1,10 +1,11 @@
 # Category:Hubs/id
 This category gathers the meeting points of the 3 broad categories of users of FreeCAD\...
 
-### Contents:
+### Contents
 
-   
-  [Power users hub/id](Power_users_hub/id.md)   [User hub/id](User_hub/id.md)
+|     |     |     |
+| --- | --- | --- |
+| [Power users hub/id](wiki/Power users hub/id.md) | [User hub/id](wiki/User hub/id.md) |
 
 
 

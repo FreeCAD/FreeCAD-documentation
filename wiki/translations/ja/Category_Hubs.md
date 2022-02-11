@@ -1,10 +1,11 @@
 # Category:Hubs/ja
 This category gathers the meeting points of the 3 broad categories of users of FreeCAD\...
 
-### Contents:
+### Contents
 
-  
-  [User hub/ja](User_hub/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [User hub/ja](wiki/User hub/ja.md) |
 
 
 

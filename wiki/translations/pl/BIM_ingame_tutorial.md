@@ -373,115 +373,115 @@ Aby utworzyć grubsze linie dla obszarów cięcia, możesz utworzyć kolejny wid
 
 ### Sporządzanie adnotacji i eksport do formatów CAD 2D 
 
-You can place [Texts](Draft_Text.md), [Labels](Draft_Label.md) (text with line and arrow), [Dimensions](Draft_Dimension.md) on anything in the model space: Either directly on the 3D model, or on the 2D view that we created in the step above. The choice is yours, depending on what you wish to achieve. If you leave the 2D view exactly under the 3D model, you might also want to do both in one go.
+Możesz umieścić [adnotacje wieloliniowe](Draft_Text/pl.md), [etykiety](Draft_Label/pl.md) *(tekst z linią i strzałką)*, [wymiary](Draft_Dimension/pl.md) na czymkolwiek w przestrzeni modelu: Albo bezpośrednio na modelu 3D, albo też w widoku 2D, który utworzyliśmy w kroku powyżej. Wybór należy do Ciebie, w zależności od tego, co chcesz osiągnąć. Jeśli pozostawisz widok 2D dokładnie pod modelem 3D, możesz również chcieć wykonać obie czynności za jednym razem.
 
 ![](images/BIM_Tutorial_34.jpg )
 
-Annotations (texts, labels, dimensions) will be placed on the current **Working Plane**. Be sure to place your working plane where you want your annotations. You can this way place annotations in any plane of the 3D space: Horizontally or vertically. You can also move or rotate them after creation.
+Adnotacje *(teksty, etykiety, wymiary)* zostaną umieszczone na bieżącej **płaszczyźnie roboczej**. Pamiętaj, aby umieścić płaszczyznę roboczą tam, gdzie chcesz umieścić adnotacje. Dzięki temu możesz umieszczać adnotacje w dowolnej płaszczyźnie przestrzeni 3D: Poziomo lub pionowo. Możesz je również przesuwać lub obracać po utworzeniu.
 
-Let\'s place a horizontal dimension between the extremities of our two walls:
+Umieśćmy wymiar poziomy pomiędzy krańcami naszych dwóch ścian:
 
 ![](images/BIM_Tutorial_40.jpg )
 
-1.  Set the **working plane** to **Top** position
-2.  Orient your view to be able to view the base of both walls
-3.  Choose menu **Annotations -\>** <img alt="" src=images/Draft_Dimension.png  style="width:16px;"> [Dimension](Draft_Dimension.md)
-4.  Click a first point at the extremity of the left wall
-5.  Press **SHIFT** to constrain the dimension vertically or horizontally
-6.  Click a second point at the extremity of the right wall
-7.  Click a third point to indicate where to place the dimension line
+1.  Ustaw **płaszczyznę roboczą** w pozycji **góra**,
+2.  Skieruj swój widok tak, by móc zobaczyć podstawę obu ścian,
+3.  Wybierz menu **Adnotacje →** <img alt="" src=images/Draft_Dimension.png  style="width:16px;"> [Wymiarowanie](Draft_Dimension/pl.md),
+4.  Kliknij na pierwszy punkt na krańcu lewej ściany,
+5.  Naciśnij klawisz **Shift** aby przyciąć wymiar pionowo lub poziomo,
+6.  Kliknij na drugi punkt na krańcu prawej ściany,
+7.  Kliknij w trzeci punkt, aby wskazać, gdzie umieścić linię wymiarową.
 
-[Dimensions](Draft_Dimension.md) have a lot of settings to tweak their aspect and the size and type of the text and arrow. You can set your preferred defaults under menu **Edit-\>Preferences-\>Draft-\>Text and Dimensions**.
+[Wymiar](Draft_Dimension/pl.md) posiada wiele ustawień, aby dostosować format, rozmiar i typ tekstu oraz strzałki. Możesz ustawić swoje preferowane wartości domyślne w menu **Edycja → Preferencje → Rysunek Roboczy → Teksty i wymiary**.
 
-Now let\'s add a text:
+Teraz dodajmy tekst:
 
 ![](images/BIM_Tutorial_41.jpg )
 
-1.  Choose menu **Annotations -\>** <img alt="" src=images/Draft_Text.png  style="width:16px;"> [Text](Draft_Text.md)
-2.  Click a location in the 3D view to place the text
-3.  Write the text you wish, for example **Pavilion**, then click the **Create Text** button or press Enter twice.
+1.  Wybierz menu **Opisy →** <img alt="" src=images/Draft_Text.png  style="width:24px;"> [Adnotacja wieloliniowa](Draft_Text/pl.md),
+2.  Kliknij na wybrane miejsce w oknie widoku 3D, aby umieścić tekst,
+3.  Napisz tekst, na przykład **Pawilon**, a następnie kliknij przycisk **Utwórz tekst** lub naciśnij klawisz **Enter** dwa razy.
 
-A good idea is to create **Groups** for the different sets of annotations (plan, section, different scales, etc\...):
+Dobrym pomysłem jest stworzenie **Grup** dla różnych zestawów adnotacji (plan, przekrój, różne skale, itd\...):
 
-1.  Create a group by right-clicking the document root and select **Create group**, rename it to \"Annotations\"
-2.  Select the annotations we created above in the tree and drag and drop them into the group
+1.  Utwórz grupę klikając prawym przyciskiem myszy na korzeń dokumentu i wybierz **Utwórz grupę**, zmień jej nazwę na \"Adnotacje\".
+2.  Wybierz adnotacje, które utworzyliśmy powyżej w drzewie i przeciągnij je do grupy.
 
-#### Exporting to DXF 
+#### Eksport do formatu DXF 
 
-2D objects such as lines or circles or 2D views as we created above or annotations are very suited to export to traditional 2D CAD formats such as [DXF or DWG](Draft_DXF.md). The DWG format requires an additional piece of software to be installed on your system, check the [instructions](Draft_DXF.md) to do that if needed.
+Obiekty 2D takie jak linie lub okręgi lub widoki 2D jak te stworzone powyżej, lub adnotacje, są bardzo odpowiednie do eksportu do tradycyjnych formatów 2D CAD takich jak [DXF lub DWG](Draft_DXF/pl.md). Format DWG wymaga zainstalowania w systemie dodatkowego oprogramowania, sprawdź [instrukcje](Draft_DXF/pl.md), aby to zrobić, jeżeli zachodzi taka potrzeba.
 
 Spróbujmy wyeksportować naszą pracę 2D do formatu DXF:
 
-1.  Select the 2D view, the dimension and the text
-2.  Select menu **File-\>Export**, choose the **Autodesk DXF**format, a file name, and press **Export**
+1.  Wybierz widok 2D, wymiar i tekst
+2.  Wybierz z menu **Plik → Eksportuj \...**, wybierz format **Autodesk DXF 2D**, wprowadź nazwę pliku i naciśnij **Zachowaj**.
 
-If you don\'t use any 2D CAD program, there are several free and open-source applications that can open DXF files (apart from FreeCAD itself, of course!) such as [LibreCAD](https://librecad.org/) and [QCAD CE](https://qcad.org/).
+Jeśli nie używasz żadnego programu CAD 2D, istnieje kilka darmowych i otwartych aplikacji, które mogą otwierać pliki DXF *(oprócz oczywiście samego programu FreeCAD!)*, takich jak [LibreCAD](https://librecad.org/) i [QCAD CE](https://qcad.org/).
 
 ![](images/BIM_Tutorial_42.jpg )
 
 
-{{BIMTutorialAction|goal1=Create a dimension|test1=bool(len([obj for obj in FreeCAD.ActiveDocument.Objects if "Dimension" in obj.Name]))|goal2=Create a text|test2=bool(len([obj for obj in FreeCAD.ActiveDocument.Objects if "Text" in obj.Name]))}}
+{{BIMTutorialAction/pl|goal1=Utwórz wymiar|test1=bool(len([obj for obj in FreeCAD.ActiveDocument.Objects if "Dimension" in obj.Name]))|goal2=Utwórz opis|test2=bool(len([obj for obj in FreeCAD.ActiveDocument.Objects if "Text" in obj.Name]))}}
 
-### Creating 2D geometry on a printable sheet 
+### Tworzenie geometrii 2D na stronie do wydruku 
 
-Printable sheets are created and managed with the [TechDraw Workbench](TechDraw_Workbench.md). Let\'s create a new sheet and place a view of our model on it:
+Arkusze do druku tworzy się i zarządza nimi za pomocą środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md). Utwórzmy nowy arkusz i umieśćmy na nim widok naszego modelu:
 
-1.  Switch to the **TechDraw Workbench**
-2.  Create a new empty sheet using the default template from menu **TechDraw -\> Insert default page**
-3.  Select the section plane and create a view on the page using **TechDraw -\> Insert Arch Workbench Object**
-4.  Change the **Scale** property of your Arch View and recalculate the model (F5) to see your changes.
+1.  Przełącz się do środowiska pracy **Rysunek Techniczny**
+2.  Stwórz nowy pusty arkusz używając domyślnego szablonu z menu **Rysunek Techniczny → Wstaw nową domyślną stronę rysunku**
+3.  Wybierz płaszczyznę przekroju i utwórz widok na stronie używając **Rysunek Techniczny → Wstaw obiekt środowiska pracy Architektura**
+4.  Zmień właściwość **Skala** w widoku architektonicznym i przelicz model naciskając klawisz *(F5)* aby zobaczyć zmiany.
 
-\... To be continued
+\... Ciąg dalszy nastąpi
 
 
 {{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
 
 ### Eksport do formatu IFC 
 
-The [IFC, or Industry Foundation Classes](https://en.wikipedia.org/wiki/Industry_Foundation_Classes), is a protocol and file format aimed at interchanging BIM model between applications. By saving your model as an IFC file, you will be able to open it in most or all other open-source or proprietary BIM applications out there.
+[IFC, czyli Industry Foundation Classes](https://en.wikipedia.org/wiki/Industry_Foundation_Classes), jest protokołem i formatem plików służącym do wymiany modeli BIM pomiędzy aplikacjami. Zapisując swój model jako plik IFC, będziesz mógł go otworzyć w większości lub wszystkich innych aplikacjach BIM, zarówno open-source jak i prawnie zastrzeżonych.
 
-IFC import/export operations in FreeCAD are performed by an external piece of software called [IfcOpenShell](http://www.ifcopenshell.org/). Read the [Arch IFC](Arch_IFC.md) page to learn further about how to install it.
+Operacje importu / eksportu IFC w FreeCAD są wykonywane przez zewnętrzny program o nazwie [IfcOpenShell](http://www.ifcopenshell.org/). Przeczytaj stronę [Architektura: IFC](Arch_IFC/pl.md) aby dowiedzieć się więcej o tym jak go zainstalować.
 
-Once IfcOpenShell is installed, exporting your model as an IFC file is as simple as selecting the objects you wish to export, or just the top container (group or Building Part) that contains all other objects you wish to export, and use menu **File-\>Export** and choose the IFC file format.
+Po zainstalowaniu IfcOpenShell, eksportowanie modelu jako pliku IFC jest tak proste, jak wybranie obiektów, które chcemy eksportować, lub tylko górnego kontenera *(grupy lub części budynku)*, który zawiera wszystkie inne obiekty, które chcemy eksportować, a potem należy użyć menu **Plik-\>Eksportuj \...** i wybrać format pliku IFC.
 
-Finally, once you have exported an IFC file, it is always a good idea to inspect it before sending it to other people, to make sure the model looks good and no object is missing. There are many free IFC viewer applications available on the internet for many platforms. A good, open-source viewer that works on all platforms is [IFC++](http://ifcquery.com/). If you want to use the IFC file for further editing [Blender BIM Add-on](https://blenderbim.org/) might be useful.
+Na koniec, po wyeksportowaniu pliku IFC, zawsze warto go sprawdzić przed wysłaniem do innych osób, aby upewnić się, że model wygląda dobrze i nie brakuje w nim żadnego obiektu. W Internecie dostępnych jest wiele darmowych aplikacji do przeglądania formatu IFC dla wielu platform. Dobrą przeglądarką open-source, która działa na wszystkich platformach jest [IFC++](http://ifcquery.com/). Jeśli chcesz użyć pliku IFC do dalszej edycji może być przydatny [dodatek Blender BIM](https://blenderbim.org/).
 
-To test the structure and validity of your model for IFC export run the **Manage-\>IFC Preflight** tool. This will be discussed in the next section.
+Aby sprawdzić strukturę i poprawność modelu do eksportu IFC należy uruchomić narzędzie **Zarządzanie → Kontrola wstępna \...**. Zostanie to omówione w następnym rozdziale.
 
 
-{{BIMTutorialAction|goal1=Open the BIM preflight tool and run all the tests|test1=True if (hasattr(FreeCADGui,"BIMPreflightDone") and (FreeCADGui.BIMPreflightDone == True)) else False}}
+{{BIMTutorialAction|goal1=Otwórz narzędzie BIM Kontrola wstępna i przeprowadź wszystkie testy|test1=True if (hasattr(FreeCADGui,"BIMPreflightDone") and (FreeCADGui.BIMPreflightDone == True)) else False}}
 
-### Managing BIM properties 
+### Zarządzanie własnościami BIM 
 
-A huge part of what makes a good BIM model are the non-geometry properties that you can give to your objects, such as type, material, or properties specific to a certain type. For example, a wall can be marked as load-bearing or not. Or as exterior or interior. The [IFC format](https://en.wikipedia.org/wiki/Industry_Foundation_Classes) is very rich in that regard. The amount of specifications and properties you want to give your objects depends mostly on your needs and how you work with others and what they expect your BIM model to contain.
+Ogromną częścią tego, co czyni dobrym model BIM są właściwości niegeometryczne, które możesz nadać swoim obiektom, takie jak typ, materiał lub właściwości specyficzne dla danego typu. Na przykład, ściana może być oznaczona jako nośna lub nie. Albo jako zewnętrzną lub wewnętrzną. Format [IFC](https://en.wikipedia.org/wiki/Industry_Foundation_Classes) jest bardzo bogaty pod tym względem. Ilość specyfikacji i właściwości, które chcesz nadać swoim obiektom, zależy głównie od twoich potrzeb oraz od tego, jak pracujesz z innymi i czego oczekują od twojego modelu BIM.
 
-One thing is important to keep in mind: all BIM/Arch objects in FreeCAD support the full set of IFC properties. Other FreeCAD objects, such as those modeled with other workbenches, will also be exported to IFC but you cannot change any of their IFC properties. You can however convert any FreeCAD object to a BIM object by selecting the object and using **3D/BIM -\> Create Component**.
+Należy pamiętać o jednej ważnej rzeczy: wszystkie obiekty BIM / Arch w FreeCAD obsługują pełny zestaw właściwości IFC. Inne obiekty FreeCAD, takie jak te modelowane za pomocą innych grup roboczych, również zostaną wyeksportowane do IFC, ale nie można zmienić żadnych ich właściwości IFC. Można jednak przekonwertować dowolny obiekt FreeCAD na obiekt BIM poprzez wybranie obiektu i użycie **3D / BIM → Utwórz komponent**.
 
 Najważniejsze dane, które możesz przekazać swoim obiektom, to:
 
-#### Name and description 
+#### Nazwa i opis 
 
-This seems obvious, but the simplest way to make your model more understandable to others is to properly name each of your objects, and, if relevant, add a description. This is done simply by selecting an object, and pressing **F2**, or change its **Label** property to rename it. The Description will be found among the object properties.
+Wydaje się to oczywiste, ale najprostszym sposobem, aby Twój model był bardziej zrozumiały dla innych, jest właściwe nazwanie każdego z obiektów i, jeśli to istotne, dodanie opisu. Można to zrobić po prostu wybierając obiekt i naciskając klawisz **F2** lub zmieniając jego właściwość **Etykieta** aby zmienić jego nazwę. Opis będzie można znaleźć wśród właściwości obiektu.
 
-#### The BIM/IFC type 
+#### Typ BIM / IFC 
 
-This is the most fundamental piece of information. In FreeCAD, an object created with the wall tool will have its IFC type set to \"Wall\" by default. But you can change this anytime. So you can use the wall tool to model a beam for example. You only need to change its IFC type after creating it. To change the IFC type of an object, select it, find its **IFC Type** in its properties, and change to another type from the drop-down list.
+Jest to najbardziej podstawowa informacja. W programie FreeCAD, obiekt utworzony za pomocą narzędzia Ściana będzie miał domyślnie ustawiony typ IFC na \"Ściana\". Możesz to jednak zmienić w każdej chwili. Możesz więc użyć narzędzia Ściana do modelowania np. belki. Wystarczy zmienić jej typ IFC po jej utworzeniu. Aby zmienić typ IFC obiektu, wybierz go, znajdź jego **Typ IFC** w jego właściwościach i zmień typ na inny z rozwijanej listy.
 
-You can also bulk-manage names, types and materials of several objects at a time using the IFC elements manager found under menu **Manage-\>IFC elements**.
+Można również zarządzać zbiorczo nazwami, typami i materiałami kilku obiektów jednocześnie używając menadżera elementów IFC znajdującego się w menu **Zarządzanie → Zarządzaj elementami IFC**.
 
-#### Materials
+#### Materiał
 
-Each object of a construction has a material. So it makes sense to give each object of your model a proper material, such as concrete or wood. To attribute a material to an object, select the object, and use the [materials manager](Arch_SetMaterial.md) from menu **Manage-\>Materials**.
+Każdy obiekt w konstrukcji ma swój materiał. Sensowne jest więc nadanie każdemu obiektowi w Twoim modelu odpowiedniego materiału, takiego jak beton czy drewno. Aby przypisać materiał do obiektu, wybierz go i użyj [menadzera materiału](Arch_SetMaterial/pl.md) z menu **Zarządzanie → Materiał**.
 
 #### Właściwości
 
-Each BIM object can also receive additional properties, for example to indicate that a wall is load-bearing or not. IFC allows you to add custom properties to just anything, but most types such as Wall or Beam also have special, predefined sets of properties, usually named Pset\_WallCommon or Pset\_BeamCommon. You can choose to add these sets to your objects, modify the value of the properties contained in the set, or add your custom properties. Managing the IFC properties for a selected object or bulk edit the properties of several objects at a time is done using the properties manager under menu **Manage-\>IFC properties**.
+Każdy obiekt BIM może również otrzymać dodatkowe właściwości, na przykład w celu wskazania, czy ściana jest nośną czy nie. IFC pozwala na dodawanie własnych właściwości do wszystkiego, ale większość typów takich jak Ściana czy Belka posiada również specjalne, predefiniowane zestawy właściwości, zwykle nazwane Pset\_WallCommon lub Pset\_BeamCommon. Możesz dodać te zestawy do swoich obiektów, zmodyfikować wartości właściwości zawartych w zestawie lub dodać swoje własne właściwości. Zarządzanie właściwościami IFC dla wybranego obiektu lub masowa edycja właściwości kilku obiektów na raz odbywa się za pomocą menedżera właściwości w menu **Zarządzanie → Edytuj właściwości IFC**.
 
 #### Ilości
 
-Quantities such as length or width or height of a wall can also be specifically written to an IFC file. They are not linked to the geometry of the object, so when meeting such quantities in an IFC file there is no guarantee that they reflect the actual object geometry. However, these quantities allow applications that are not able to process the geometry, such as spreadsheet applications, to know the principal dimensions of objects. You can check which quantities will be exported to IFC using the quantities manager found under menu **Manage-\>IFC quantities**.
+Wielkości takie jak długość, szerokość czy wysokość ściany mogą być również specjalnie zapisane w pliku IFC. Nie są one powiązane z geometrią obiektu, więc gdy spotykamy takie wielkości w pliku IFC, nie ma gwarancji, że odzwierciedlają one rzeczywistą geometrię obiektu. Jednakże wielkości te pozwalają aplikacjom, które nie są w stanie przetwarzać geometrii, takim jak arkusze kalkulacyjne, poznać główne wymiary obiektów. Można sprawdzić, które wielkości zostaną wyeksportowane do IFC za pomocą menedżera wielkości znajdującego się w menu **Zarządzanie → Edytuj ilości IFC**.
 
-The IFC format has many particularities and sometimes the application you will be opening your IFC file with or the person who will receive your IFC file will have further requirements. Becoming a fluent BIM modeller often means to get familiar with all these particularities and what needs to be added or specified to your BIM model. The BIM workbench of FreeCAD provides a [BIM Preflight](BIM_Preflight.md) tool that allows you to check your model for several of these particularities and most common requirements, and help you decide what to include in your model or not.
+Format IFC ma wiele cech szczególnych i czasami aplikacja, w której otwierasz swój plik IFC lub osoba, która otrzyma plik IFC, ma dodatkowe wymagania. Stanie się biegłym modelarzem BIM często oznacza zapoznanie się z tymi wszystkimi szczegółami i tym, co musi być dodane lub określone w modelu BIM. Narzędzie [BIM: Kontrola wstępna](BIM_Preflight/pl.md) pozwala na sprawdzenie Twojego modelu pod kątem kilku z tych szczegółów i najczęstszych wymagań, a także pomaga zdecydować, co należy uwzględnić w modelu, a czego nie.
 
 
 {{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
@@ -492,7 +492,7 @@ Poświęć chwilę na poznanie innych dostępnych narzędzi BIM. Pamiętaj, że 
 
 FreeCAD jest wielką rodziną środowisk pracy, a narzędzia z innych środowisk pracy często się przydają. Jak widzieliśmy powyżej, prawie każdy obiekt utworzony w innych środowiskach może zostać przekształcony w poprawny obiekt BIM, wystarczy użyć narzędzia **3D / BIM → Utwórz komponent** i nadać mu odpowiedni typ IFC.
 
-There are more tutorials about BIM and other workbenches in the [Tutorials](Tutorials.md) section of the [FreeCAD documentation](https://wiki.freecadweb.org), and a complete video series of [BIM tutorials](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU) on youtube.
+Więcej samouczków na temat BIM i innych grup roboczych można znaleźć w sekcji [Poradniki](Tutorials/pl.md) w [dokumentacji FreeCAD](https://wiki.freecadweb.org), a także w kompletnej serii wideo [Poradniki BIM](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU) na YouTube.
 
 
 {{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}

@@ -6,13 +6,13 @@ This is the **top category** which contains the main categories of the FreeCAD w
 -   all *categories* that are *not classified*, use the [list of uncategorized categories](Special:Uncategorizedcategories/hu.md).
 -   all *images* that are *not classified*, use the [list of uncategorized images](Special:Uncategorizedimages/hu.md).
 
-### Contents:
+### Contents
 
-  -- -- --
-        
-        
-        
-  -- -- --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Addons/hu](wiki/Category_Addons/hu.md) | [Category:Administration/hu](wiki/Category_Administration/hu.md) | [Category:API/hu](wiki/Category_API/hu.md) |
+| [Category:Categories/hu](wiki/Category_Categories/hu.md) | [Category:Documentation/hu](wiki/Category_Documentation/hu.md) | [Category:Help/hu](wiki/Category_Help/hu.md) |
+| [Category:Hubs/hu](wiki/Category_Hubs/hu.md) | [Category:Template/hu](wiki/Category_Template/hu.md) |
 
 
 

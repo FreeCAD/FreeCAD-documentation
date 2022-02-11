@@ -19,6 +19,8 @@
 
 ## Note
 
+-   Source: <https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/OpenSCAD/colorcodeshapes.py>
+
 
 
 

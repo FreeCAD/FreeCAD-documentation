@@ -1,10 +1,11 @@
 # Category:Template:Doc/fr
 This category lists templates that produce text boxes used for documenting commands, tutorials, and other elements.
 
-### Contents:
+### Contents
 
-  
-  [Template:Macro/fr](Template:Macro/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Macro/fr](wiki/Template_Macro/fr.md) |
 
 
 

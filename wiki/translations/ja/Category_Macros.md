@@ -1,10 +1,11 @@
 # Category:Macros/ja
 This category contains macros to extend your FreeCAD installation with new functionality
 
-### Contents:
+### Contents
 
-  
-  [Macros/ja](Macros/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [Macros/ja](wiki/Macros/ja.md) |
 
 
 

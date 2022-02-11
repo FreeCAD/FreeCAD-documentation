@@ -1,12 +1,13 @@
 # Category:Points/en
 This category lists pages related to the [Points Workbench](Points_Workbench.md).
 
-### Contents:
+### Contents
 
-    
-  [Artwork Points/en](Artwork_Points/en.md)       [Points Convert/en](Points_Convert/en.md)       [Points Export/en](Points_Export/en.md)
-  [Points Import/en](Points_Import/en.md)         [Points Merge/en](Points_Merge/en.md)           [Points PolyCut/en](Points_PolyCut/en.md)
-  [Points Structure/en](Points_Structure/en.md)   [Points Workbench/en](Points_Workbench/en.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Points/en](wiki/Artwork Points/en.md) | [Points Convert/en](wiki/Points Convert/en.md) | [Points Export/en](wiki/Points Export/en.md) |
+| [Points Import/en](wiki/Points Import/en.md) | [Points Merge/en](wiki/Points Merge/en.md) | [Points PolyCut/en](wiki/Points PolyCut/en.md) |
+| [Points Structure/en](wiki/Points Structure/en.md) | [Points Workbench/en](wiki/Points Workbench/en.md) |
 
 
 

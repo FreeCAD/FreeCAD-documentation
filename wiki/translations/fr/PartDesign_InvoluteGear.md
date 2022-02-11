@@ -29,7 +29,7 @@ Pour des informations plus détaillées, voir également [Engrenage](https://fr.
 
 ### Créer un engrenage droit 
 
-1.  Sélectionnez le profil d\'engrenage dans l\'arbre.
+1.  Sélectionnez le profil d\'engrenage dans la [Vue en arborescence](Tree_view/fr.md).
 2.  Appuyez sur le bouton **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
 3.  Réglez la longueur de la protrusion **Length** sur la largeur de face souhaitée pour l\'engrenage.
 4.  Cliquez sur **OK**.
@@ -75,6 +75,11 @@ Conseil : Pour faire de l\'angle d\'hélice un paramètre accessible, utilisez u
 -    **Number Of Teeth**: Définit le nombre de dents désirées.
 
 -    **Pressure Angle**: Angle aigu entre la ligne d\'action et une normale à la ligne reliant les centres d\'engrenage. La valeur par défaut est de 20 degrés. ([plus d\'info](https://fr.wikipedia.org/wiki/Roue_dent%C3%A9e))
+
+## Limitations
+
+-   Il n\'est actuellement pas possible de régler l\'épaisseur des dents. Les dents et l\'espacement des dents sont répartis de manière égale sur le cercle primitif. Ainsi, la seule façon de contrôler le jeu est d\'ajuster la distance centrale dans un engrenage.
+-   Il n\'y a actuellement pas de [undercut (contre-dépouille)](https://www.tec-science.com/mechanical-power-transmission/involute-gear/undercut/) dans le profil d\'engrenage généré. Cela signifie que les engrenages avec un faible nombre de dents peuvent interférer avec les dents de l\'engrenage correspondant. La limite inférieure dépend de l\'angle de pression **Pressure Angle** et se situe autour de 17 dents pour 20° et 32 pour 14,5°. La plupart des applications pratiques tolèrent cependant une contre-dépouille manquante pour des engrenages un peu plus petits que cette limite théorique.
 
 ## Tutoriels
 

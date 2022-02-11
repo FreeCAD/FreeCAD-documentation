@@ -22,7 +22,7 @@ La fonction **Perçage** crée un ou plusieurs trous à partir des cercles et de
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/PartDesign_Hole.svg" width=16px> '''Créer un perçage à partir de l'esquisse sélectionné'''**.
+1.  Appuyez sur le bouton **<img src="images/PartDesign_Hole.svg" width=16px> '''Perçage'''**.
 2.  Si une esquisse inutilisée existante est trouvée, elle sera automatiquement utilisée. Si plus d\'une esquisse est trouvée, un panneau **Sélectionner une fonction** apparaît pour faire une sélection. Alternativement, une esquisse peut être sélectionnée avant de lancer la commande Perçage.
 3.  Définir les paramètres du perçage, voir la section [Options](#Options.md).
 4.  Appuyez sur **OK**.

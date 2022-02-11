@@ -1,10 +1,11 @@
 # Category:Complete
 This category lists pages related to the [Complete Workbench](Complete_Workbench.md).
 
-### Contents:
+### Contents
 
-  
-  [Complete Workbench](Complete_Workbench.md)
+|     |     |     |
+| --- | --- | --- |
+| [Complete Workbench](wiki/Complete Workbench.md) |
 
 
 

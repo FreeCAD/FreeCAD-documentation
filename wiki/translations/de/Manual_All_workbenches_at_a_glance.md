@@ -50,6 +50,9 @@ Der Arbeitsbereich Entwurf bietet Werkzeuge zur Durchführung grundlegender 2D C
 
 Der Skizzierer Arbeitsbereich enthält Werkzeuge zum Erstellen und Bearbeiten komplexer 2D Objekte, genannt Skizzen. Die Geometrie innerhalb dieser Skizzen kann durch die Verwendung von Beschränkungen präzise positioniert und in Beziehung gesetzt werden. Sie sind in erster Linie als Bausteine der PartDesign Geometrie gedacht, sind aber überall in FreeCAD nützlich.
 
+
+<div class="mw-translate-fuzzy">
+
   Werkzeug                                                                                                                                                         Beschreibung                                                                                                                                                                              Werkzeug                                                                                                                                                           Beschreibung
      
   <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:32px;"> [Punkt](Sketcher_CreatePoint/de.md)                                             Zeichnet einen Punkt                                                                                                                                                                      <img alt="" src=images/Sketcher_Line.svg  style="width:32px;"> [Linie](Sketcher_CreateLine/de.md)                                                              Zeichnet einen Linienabschnitt aus zwei Punkten
@@ -74,9 +77,15 @@ Der Skizzierer Arbeitsbereich enthält Werkzeuge zum Erstellen und Bearbeiten ko
   <img alt="" src=images/Constraint_InternalAlignment.svg  style="width:32px;"> [Innenausrichtung](Sketcher_ConstrainInternalAlignment/de.md)   Richtet ausgewählte Elemente an ausgewählten Form aus (z.B. eine Linie, die zur Hauptachse einer Ellipse wird)                                                                            <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Skizze zuweisen](Sketcher_MapSketch/de.md)                                           Weist eine Skizze der zuvor ausgewählten Seite eines Volumenkörpers zu
   <img alt="" src=images/Sketcher_MergeSketch.svg  style="width:32px;"> [Zusammenführen](Sketcher_MergeSketches/de.md)                                  Zwei oder mehrere Skizzen zusammenführen                                                                                                                                                  <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Spiegeln](Sketcher_MirrorSketch/de.md)                                         Spiegelt ausgewählte Elemente einer Skizze
 
+
+</div>
+
 ### Part Design 
 
 Der Part Design Arbeitsbereich enthält fortgeschrittene Werkzeuge zum Erstellen von Volumenteilen. Sie enthält auch alle Werkzeuge aus dem Skizzierer. Da sie nur feste Formen erzeugen kann (die Regel Nummer eins der Teilekonstruktion), ist sie die Hauptarbeitsstation, die bei der Konstruktion von Teilen, die hergestellt oder in 3D ausgedruckt werden sollen, verwendet wird, da Sie immer ein druckbares Objekt erhalten.
+
+
+<div class="mw-translate-fuzzy">
 
   Werkzeug                                                                                                                                  Beschreibung                                                                                      Werkzeug                                                                                                                                              Beschreibung
      
@@ -87,6 +96,9 @@ Der Part Design Arbeitsbereich enthält fortgeschrittene Werkzeuge zum Erstellen
   <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [Linearmuster](PartDesign_LinearPattern/de.md)   Erzeugt ein lineares Muster von Grundelementen                                                    <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:32px;"> [Polarmuster](PartDesign_PolarPattern/de.md)                   Erzeugt ein polares Muster von Grundelementen
   <img alt="" src=images/PartDesign_Scaled.svg  style="width:32px;"> [Skaliert](PartDesign_Scaled/de.md)                            Skaliert Grundelemente auf eine andere Größe                                                      <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:32px;"> [Mehrfaches Umformen](PartDesign_MultiTransform/de.md)     Ermöglicht die Erstellung eines Musters mit einer beliebigen Kombination der anderen Transformationen
   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Wellen Assistent](PartDesign_WizardShaft/de.md)     Generiert eine Welle aus einer Wertetabelle und ermöglicht die Analyse von Kräften und Momenten   <img alt="" src=images/PartDesign_InvoluteGear.svg  style="width:32px;"> [Evolventenzahnrad Assistent](PartDesign_InvoluteGear/de.md)   Ermöglicht die Erstellung verschiedener Arten von Zahnrädern
+
+
+</div>
 
 ### Architektur
 

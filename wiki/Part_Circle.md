@@ -31,6 +31,49 @@ A Circle geometric primitive is available from the Create Primitives dialogue in
 
 -    {{Parameter|Angle 1}}: end of the curved edge, (degrees anti-clockwise), the default value is 360
 
+## Notes
+
+## Properties 
+
+## Limitations
+
+## Scripting
+
+A Part Circle can be created with the following function:
+
+ 
+```python
+circle = FreeCAD.ActiveDocument.addObject("Part::Circle", "myCircle")
+```
+
+-   Where {{Incode|"myCircle"}} is the name for the object.
+-   The function returns the newly created object.
+
+The name of the object can be easily changed by
+
+ 
+```python
+circle.Label = "new circleName"
+```
+
+You can access and modify attributes of the {{Incode|circle}} object. For example, you may wish to modify the radius, angle 0 and angle 1 parameters.
+
+ 
+```python
+circle.Radius = 10
+circle.Angle0 = 45
+circle.Angle1 = 225
+```
+
+The result will be a 45 degree rotated semicircle with a radius of 10.
+
+You can change its placement and orientation with:
+
+ 
+```python
+circle.Placement = FreeCAD.Placement(FreeCAD.Vector(2, 4, 6), FreeCAD.Rotation(30, 45, 10))
+```
+
 
 
 ---

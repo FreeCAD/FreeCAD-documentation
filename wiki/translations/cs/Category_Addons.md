@@ -1,12 +1,12 @@
 # Category:Addons/cs
 This page lists external addon workbenches that have a page in this wiki. Addons are modules or workbenches contributed by the community and are not part of standard FreeCAD.
 
-### Contents:
+### Contents
 
-    --
-  [Plot Workbench/cs](Plot_Workbench/cs.md)   [Ship Workbench/cs](Ship_Workbench/cs.md)   
-                                                                                                          
-    --
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/cs](wiki/Plot Workbench/cs.md) | [Ship Workbench/cs](wiki/Ship Workbench/cs.md) | [Category:External Workbenches/cs](wiki/Category_External Workbenches/cs.md) |
+|
 
 
 

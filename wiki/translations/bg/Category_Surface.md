@@ -1,10 +1,11 @@
 # Category:Surface/bg
 This category lists pages related to the [Surface Workbench/bg](Surface_Workbench/bg.md).
 
-### Contents:
+### Contents
 
-  
-  [Surface Workbench/bg](Surface_Workbench/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Surface Workbench/bg](wiki/Surface Workbench/bg.md) |
 
 
 

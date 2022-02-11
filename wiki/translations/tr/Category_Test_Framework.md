@@ -1,10 +1,11 @@
 # Category:Test Framework/tr
 This category lists pages related to the [Test Framework Workbench](Testing/tr.md).
 
-### Contents:
+### Contents
 
-  
-  [Testing/tr](Testing/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Testing/tr](wiki/Testing/tr.md) |
 
 
 

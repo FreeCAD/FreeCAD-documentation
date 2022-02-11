@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionThreadBoltSide
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Thread section shaft
+   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Bolt Side View
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
@@ -12,19 +12,19 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw ExtensionThreadBoltSide** tool adds a symbolic thread to the side view of a shaft.
+The <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw ExtensionThreadBoltSide** tool adds a cosmetic thread to the side view of a bolt/screw/rod.
 
  <img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:300px;">  
-*On the right a shaft with a symbolic thread*
+*On the right a rod with a cosmetic thread*
 
 ## Usage
 
-1.  Optionally change the current line attributes with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
-2.  Select the two parallel lines of a shaft.
+1.  Optionally specify the line attributes with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
+2.  Select two parallel lines.
 3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [TechDraw ExtensionThreadBoltSide](TechDraw_ExtensionThreadBoltSide.md)** button.
-    -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Thread section shaft** option from the menu.
-4.  A symbolic thread is added.
+    -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Add Cosmetic Thread Bolt Side View** option from the menu.
+4.  A cosmetic thread is added.
 
 
 

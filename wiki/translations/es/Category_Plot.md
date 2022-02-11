@@ -1,13 +1,14 @@
 # Category:Plot/es
 This category lists pages related to the [Plot Workbench/es](Plot_Workbench/es.md).
 
-### Contents:
+### Contents
 
-    
-  [Plot Axes/es](Plot_Axes/es.md)             [Plot Basic tutorial/es](Plot_Basic_tutorial/es.md)   [Plot Grid/es](Plot_Grid/es.md)
-  [Plot Labels/es](Plot_Labels/es.md)         [Plot Legend/es](Plot_Legend/es.md)                   [Plot MultiAxes tutorial/es](Plot_MultiAxes_tutorial/es.md)
-  [Plot Positions/es](Plot_Positions/es.md)   [Plot Save/es](Plot_Save/es.md)                       [Plot Series/es](Plot_Series/es.md)
-  [Plot Workbench/es](Plot_Workbench/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Axes/es](wiki/Plot Axes/es.md) | [Plot Basic tutorial/es](wiki/Plot Basic tutorial/es.md) | [Plot Grid/es](wiki/Plot Grid/es.md) |
+| [Plot Labels/es](wiki/Plot Labels/es.md) | [Plot Legend/es](wiki/Plot Legend/es.md) | [Plot MultiAxes tutorial/es](wiki/Plot MultiAxes tutorial/es.md) |
+| [Plot Positions/es](wiki/Plot Positions/es.md) | [Plot Save/es](wiki/Plot Save/es.md) | [Plot Series/es](wiki/Plot Series/es.md) |
+| [Plot Workbench/es](wiki/Plot Workbench/es.md) |
 
 
 

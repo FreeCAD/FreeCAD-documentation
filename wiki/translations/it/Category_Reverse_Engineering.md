@@ -1,10 +1,11 @@
 # Category:Reverse Engineering/it
 This category lists pages related to the [Reverse Engineering Workbench/it](Reverse_Engineering_Workbench/it.md).
 
-### Contents:
+### Contents
 
-   
-  [Artwork ReverseEngineering/it](Artwork_ReverseEngineering/it.md)   [Reverse Engineering Workbench/it](Reverse_Engineering_Workbench/it.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork ReverseEngineering/it](wiki/Artwork ReverseEngineering/it.md) | [Reverse Engineering Workbench/it](wiki/Reverse Engineering Workbench/it.md) |
 
 
 

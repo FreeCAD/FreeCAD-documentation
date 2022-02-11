@@ -47,6 +47,10 @@ Questo strumento applica degli smussi ai bordi di un oggetto selezionato. All\'a
 
 </div>
 
+## Known issues 
+
+See [PartDesign Fillet](PartDesign_Fillet#Known_issues.md).
+
 
 <div class="mw-translate-fuzzy">
 

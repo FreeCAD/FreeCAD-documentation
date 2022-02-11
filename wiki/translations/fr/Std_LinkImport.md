@@ -24,7 +24,7 @@ Utilisez **[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std Impor
 ## Utilisation
 
 1.  Assurez-vous que vous avez un document \"source\" avec un objet original, disons, un **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** et une seconde \"cible\" document avec un lien vers cet objet.
-2.  Ouvrez le document cible et sélectionnez le lien vers l\'objet. Sa {{PropertyData/fr|Linked Object}} doit afficher quelque chose comme {{Value|source#Part}}.
+2.  Ouvrez le document cible et sélectionnez le lien vers l\'objet. Sa **Linked Object** doit afficher quelque chose comme {{Value|source#Part}}.
 3.  Appuyez sur **[<img src=images/Std_LinkImport.svg style="width:16px"> [Std Importer des liens](Std_LinkImport/fr.md)**.
 
 Une copie de l\'original **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** doit maintenant se trouver dans le document \"cible\" actuel. La propriété {{PropertyData/fr|Linked Object}} du lien doit maintenant afficher {{Value|Part}} indiquant que le lien ne pointe plus vers {{Value|Part}} dans \"source\" mais vers {{Value|Part}} dans le document courant (\"cible\").

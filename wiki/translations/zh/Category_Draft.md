@@ -1,10 +1,11 @@
 # Category:Draft/zh
 This category list pages related to the \"User\_Documentation/zh\" and \"Workbenches/zh\"
 
-### Contents:
+### Contents
 
-  
-  [Draft Workbench/zh](Draft_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [Draft Workbench/zh](wiki/Draft Workbench/zh.md) |
 
 
 

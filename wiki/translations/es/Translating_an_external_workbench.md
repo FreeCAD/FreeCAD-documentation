@@ -126,8 +126,6 @@ En las siguientes notas, `"contexto"` debe ser el mismo nombre de tu complemento
 
 :   Don\'t use your own `"context"` in this specific case. Keep `"App::Property"`.
 
--   Do not translate the text of document transactions made with `Document.openTransaction()`
-
 ### In InitGui.py 
 
 -   Add the following line near the top of the file:

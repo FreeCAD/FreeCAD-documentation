@@ -33,9 +33,15 @@ Das Werkzeug **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Die Schaltfläche **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)** betätigen. Ein leeres Teil wird erzeugt und ist automatisch *[aktiv](Std_Part#Active_status.md)*.
 2.  In der [Baumansicht](tree_view/de.md) ein Objekt wählen und durch Drag & Drop auf dieses Teil ziehen, um es zum Teil hinzuzufügen.
 3.  Um Objekte aus einem Teil zu entfernen, zieht man es per Drag & Drop aus dem Teil auf die Dokumentenbeschriftung oben in der [Baumansicht](tree_view/de.md).
+
+
+</div>
 
 ### Hinweise
 
@@ -94,6 +100,9 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 
 #### Ausgeblendete Dateneigenschaften 
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Material|Map**: Karte mit Materialeigenschaften. Ein leerer Code {} ist vorgegeben.
 
 -    **Meta|Map**: Karte mit zusaätzlichen Metadaten. Ein leerer Code {} ist vorgegeben.
@@ -109,6 +118,9 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 -    **Ursprung|Link**: das [App Ursprungsobjekt](App_Origin.md) ist die Positionierungsreferenz für alle Elemente, in der **Group**.
 
 -    **_ Group Touched|Bool**: wird die Gruppe berührt oder nicht.
+
+
+</div>
 
 ### Ansicht
 
@@ -177,9 +189,15 @@ Der Ursprung besteht aus den drei Standardachsen (X, Y, Z) und drei Standardeben
 *Links: Teil Ursprung in der [Baumansicht](tree_view/de.md). Rechts: Ansicht der Ursprungselemente in der [3D-Ansicht](3D_view/de.md).*
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Hinweis:**
 
 der Ursprung ist ein [App Origin](App_Origin.md) Objekt (`App::Origin` Klasse), während die Achsen und Ebenen Objekte des Typs `App::Line` bzw. `App::Plane` sind. Jedes dieser Elemente kann mit der **Leertaste** individuell versteckt und wieder angezeigt werden. Damit kann sicher die korrekte Referenz gewählt werden, wenn andere Objekte erzeugt werden.
+
+
+</div>
 
 
 **Hinweis 2:**

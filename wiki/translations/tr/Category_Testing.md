@@ -1,11 +1,11 @@
 # Category:Testing/tr
 Pages related to testing in regards to unit testing, continuous integration, quality assurance, regression testing etc\...
 
-### Contents:
+### Contents
 
-   --
-  [Testing/tr](Testing/tr.md)   
-   --
+|     |     |     |
+| --- | --- | --- |
+| [Testing/tr](wiki/Testing/tr.md) | [Category:Test Framework/tr](wiki/Category_Test Framework/tr.md) |
 
 
 

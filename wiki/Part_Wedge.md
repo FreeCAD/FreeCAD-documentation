@@ -14,6 +14,11 @@ Create a parametric Wedge object. This Wedge defaults to a larger square base an
 
 ## Usage
 
+1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Primitives.svg" width=16px> [Primitives](Part_Primitives.md)** button.
+    -   Select the **Part → [Create primitives...](Part_Primitives.md) → Wedges** from the menu bar.
+
 ### Default Size and Placement 
 
 **Placement:** The default orientation places the base in the XZ plane and the top outward in the Y axis direction. The default base corner is the 0,0,0 origin.
@@ -68,6 +73,14 @@ Create a parametric Wedge object. This Wedge defaults to a larger square base an
 ### More examples for wedges 
 
 ![](images/Wedge_examples.png )
+
+## Notes
+
+## Properties
+
+## Limitations
+
+## Scripting
 
 
 

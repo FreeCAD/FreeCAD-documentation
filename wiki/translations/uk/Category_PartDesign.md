@@ -1,10 +1,11 @@
 # Category:PartDesign/uk
 This category lists pages related to the [PartDesign Workbench/uk](PartDesign_Workbench/uk.md).
 
-### Contents:
+### Contents
 
-  
-  [PartDesign Workbench/uk](PartDesign_Workbench/uk.md)
+|     |     |     |
+| --- | --- | --- |
+| [PartDesign Workbench/uk](wiki/PartDesign Workbench/uk.md) |
 
 
 

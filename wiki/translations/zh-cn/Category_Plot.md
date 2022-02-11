@@ -1,10 +1,11 @@
 # Category:Plot/zh-cn
 This category lists pages related to the [Plot Workbench/zh-cn](Plot_Workbench/zh-cn.md).
 
-### Contents:
+### Contents
 
-  
-  [Plot Workbench/zh-cn](Plot_Workbench/zh-cn.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/zh-cn](wiki/Plot Workbench/zh-cn.md) |
 
 
 

@@ -1,10 +1,12 @@
 # Category:Roadmap/pt-br
 This category gathers all articles documenting what is planned in the Roadmap of FreeCAD.
 
-### Contents:
+### Contents
 
-    
-  [Assembly project/pt-br](Assembly_project/pt-br.md)   [Development roadmap/pt-br](Development_roadmap/pt-br.md)   [Material/pt-br](Material/pt-br.md)
+|     |     |     |
+| --- | --- | --- |
+| [Assembly project/pt-br](wiki/Assembly project/pt-br.md) | [Development roadmap/pt-br](wiki/Development roadmap/pt-br.md) | [Material/pt-br](wiki/Material/pt-br.md) |
+|
 
 
 

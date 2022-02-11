@@ -1,10 +1,11 @@
 # Category:Template:Doc/es
 This category lists templates that produce text boxes used for documenting commands, tutorials, and other elements.
 
-### Contents:
+### Contents
 
-  
-  [Template:Macro/es](Template:Macro/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Macro/es](wiki/Template_Macro/es.md) |
 
 
 

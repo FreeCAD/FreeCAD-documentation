@@ -3,11 +3,11 @@ This category contains all the Templates
 
 See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
-### Contents:
+### Contents
 
-  -- --
-     
-  -- --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Template:Doc/hr](wiki/Category_Template_Doc/hr.md) | [Category:Template:Navigation/hr](wiki/Category_Template_Navigation/hr.md) |
 
 
 

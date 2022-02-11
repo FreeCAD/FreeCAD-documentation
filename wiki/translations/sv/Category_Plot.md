@@ -1,10 +1,11 @@
 # Category:Plot/sv
 This category lists pages related to the [Plot Workbench/sv](Plot_Workbench/sv.md).
 
-### Contents:
+### Contents
 
-  
-  [Plot Workbench/sv](Plot_Workbench/sv.md)
+|     |     |     |
+| --- | --- | --- |
+| [Plot Workbench/sv](wiki/Plot Workbench/sv.md) |
 
 
 

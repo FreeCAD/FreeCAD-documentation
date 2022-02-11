@@ -1,11 +1,12 @@
 # Category:Testing/fr
 Pages relatives aux tests concernant les tests unitaires, l\'intégration continue, l\'assurance qualité, les tests de régression, etc.
 
-### Contents:
+### Contents
 
-    
-  [AppImage/fr](AppImage/fr.md)   [Continuous Integration/fr](Continuous_Integration/fr.md)   [LGTM/fr](LGTM/fr.md)
-  [Testing/fr](Testing/fr.md)
+|     |     |     |
+| --- | --- | --- |
+| [AppImage/fr](wiki/AppImage/fr.md) | [Continuous Integration/fr](wiki/Continuous Integration/fr.md) | [LGTM/fr](wiki/LGTM/fr.md) |
+| [Testing/fr](wiki/Testing/fr.md) | [Category:Test Framework/fr](wiki/Category_Test Framework/fr.md) |
 
 
 

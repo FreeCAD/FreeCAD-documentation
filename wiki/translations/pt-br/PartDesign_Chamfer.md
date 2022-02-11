@@ -35,6 +35,7 @@ This tool creates chamfers on the selected edges of an object. A new separate Ch
 -   If you want to remove edges or faces
     -   either select the edge/face in the list of the dialog and press the **DEL** key. *Note*: Since there must be at least one edge for the feature, the last remaining edge or face in the list cannot be removed.
     -   or click the **Remove** button. All edges and faces being previously selected are highlighted in purple. Select the edge or the face to be removed.
+    -   Ensure the **Use all edges** checkbox is unchecked or else some widgets in the dialog will be disabled. <small>(v0.20)</small> 
 -   Click **OK** to validate.
 -   For a chain of edges tangential to one another, one single edge can be selected; the chamfer will propagate along the chain.
 -   To edit the chamfer after the function has been validated, either double-click on the chamfer label in the Project tree, or right-click on it and select **Edit Chamfer**.
@@ -42,6 +43,10 @@ This tool creates chamfers on the selected edges of an object. A new separate Ch
 ## Notes
 
 -   PartDesign Chamfer should not be confused with [Part Chamfer](Part_Chamfer.md). Unless you know what you are doing, [Part Chamfer](Part_Chamfer.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
+
+## Known issues 
+
+See [PartDesign Fillet](PartDesign_Fillet#Known_issues.md).
 
 
 

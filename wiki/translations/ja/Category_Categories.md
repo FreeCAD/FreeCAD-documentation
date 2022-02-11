@@ -6,14 +6,14 @@ This is the **top category** which contains the main categories of the FreeCAD w
 -   all *categories* that are *not classified*, use the [list of uncategorized categories](Special_Uncategorizedcategories.md).
 -   all *images* that are *not classified*, use the [list of uncategorized images](Special_Uncategorizedimages.md).
 
-### Contents:
+### Contents
 
-  -- -- --
-        
-        
-        
-        
-  -- -- --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Addons/ja](wiki/Category_Addons/ja.md) | [Category:Administration/ja](wiki/Category_Administration/ja.md) | [Category:API/ja](wiki/Category_API/ja.md) |
+| [Category:Categories/ja](wiki/Category_Categories/ja.md) | [Category:Command Reference/ja](wiki/Category_Command Reference/ja.md) | [Category:Developer/ja](wiki/Category_Developer/ja.md) |
+| [Category:Documentation/ja](wiki/Category_Documentation/ja.md) | [Category:Hubs/ja](wiki/Category_Hubs/ja.md) | [Category:Macros/ja](wiki/Category_Macros/ja.md) |
+| [Category:Python Code/ja](wiki/Category_Python Code/ja.md) | [Category:Template/ja](wiki/Category_Template/ja.md) |
 
 
 

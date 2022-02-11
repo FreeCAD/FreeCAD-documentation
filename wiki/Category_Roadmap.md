@@ -1,18 +1,19 @@
 # Category:Roadmap
 This category gathers all articles documenting what is planned in the Roadmap of FreeCAD.
 
-### Contents:
+### Contents
 
-    
-  [0.20 Development Cycle](0.20_Development_Cycle.md)                     [Arch Concept](Arch_Concept.md)                                             [Artwork project](Artwork_project.md)
-  [Assembly project](Assembly_project.md)                                 [CAM project](CAM_project.md)                                               [Development roadmap](Development_roadmap.md)
-  [FEM project](FEM_project.md)                                           [FreeCAD development model project](FreeCAD_development_model_project.md)   [HiDPI support](HiDPI_support.md)
-  [Land Survey Workbench Blueprint](Land_Survey_Workbench_Blueprint.md)   [Material](Material.md)                                                     [Material data model](Material_data_model.md)
-  [Naming project](Naming_project.md)                                     [PartDesign project](PartDesign_project.md)                                 [Project template](Project_template.md)
-  [Quality project](Quality_project.md)                                   [Raytracing project](Raytracing_project.md)                                 [Release process](Release_process.md)
-  [Resource framework project](Resource_framework_project.md)             [Robot project](Robot_project.md)                                           [Sketcher project](Sketcher_project.md)
-  [STEP project](STEP_project.md)                                         [Tolerancing](Tolerancing.md)                                               [Units project](Units_project.md)
-  [UTF Project](UTF_Project.md)                                           [Wished tools](Wished_tools.md)
+|     |     |     |
+| --- | --- | --- |
+| [0.20 Development Cycle](wiki/0.20 Development Cycle.md) | [Arch Concept](wiki/Arch Concept.md) | [Artwork project](wiki/Artwork project.md) |
+| [Assembly project](wiki/Assembly project.md) | [CAM project](wiki/CAM project.md) | [Development roadmap](wiki/Development roadmap.md) |
+| [FEM project](wiki/FEM project.md) | [FreeCAD development model project](wiki/FreeCAD development model project.md) | [HiDPI support](wiki/HiDPI support.md) |
+| [Land Survey Workbench Blueprint](wiki/Land Survey Workbench Blueprint.md) | [Material](wiki/Material.md) | [Material data model](wiki/Material data model.md) |
+| [Naming project](wiki/Naming project.md) | [PartDesign project](wiki/PartDesign project.md) | [Project template](wiki/Project template.md) |
+| [Quality project](wiki/Quality project.md) | [Raytracing project](wiki/Raytracing project.md) | [Release process](wiki/Release process.md) |
+| [Resource framework project](wiki/Resource framework project.md) | [Robot project](wiki/Robot project.md) | [Sketcher project](wiki/Sketcher project.md) |
+| [STEP project](wiki/STEP project.md) | [Tolerancing](wiki/Tolerancing.md) | [Units project](wiki/Units project.md) |
+| [UTF Project](wiki/UTF Project.md) | [Wished tools](wiki/Wished tools.md) |
 
 
 

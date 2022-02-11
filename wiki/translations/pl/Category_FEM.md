@@ -1,42 +1,43 @@
 # Category:FEM/pl
 This category lists pages related to the [FEM Workbench/pl](FEM_Workbench/pl.md).
 
-### Contents:
+### Contents
 
-    
-  [Add Button to FEM Toolbar Tutorial/pl](Add_Button_to_FEM_Toolbar_Tutorial/pl.md)               [Add FEM Constraint Tutorial/pl](Add_FEM_Constraint_Tutorial/pl.md)               [Add FEM Equation Tutorial/pl](Add_FEM_Equation_Tutorial/pl.md)
-  [Analysis of reinforced concrete with FEM/pl](Analysis_of_reinforced_concrete_with_FEM/pl.md)   [Artwork Fem/pl](Artwork_Fem/pl.md)                                               [Extend FEM Module/pl](Extend_FEM_Module/pl.md)
-  [FEM Analysis/pl](FEM_Analysis/pl.md)                                                           [FEM CalculiX Cantilever 3D/pl](FEM_CalculiX_Cantilever_3D/pl.md)                 [FEM CalculiX/pl](FEM_CalculiX/pl.md)
-  [FEM ClippingPlaneAdd/pl](FEM_ClippingPlaneAdd/pl.md)                                           [FEM ClippingPlaneRemoveAll/pl](FEM_ClippingPlaneRemoveAll/pl.md)                 [FEM Concrete/pl](FEM_Concrete/pl.md)
-  [FEM ConstantVacuumPermittivity/pl](FEM_ConstantVacuumPermittivity/pl.md)                       [FEM ConstraintBearing/pl](FEM_ConstraintBearing/pl.md)                           [FEM ConstraintBodyHeatSource/pl](FEM_ConstraintBodyHeatSource/pl.md)
-  [FEM ConstraintContact/pl](FEM_ConstraintContact/pl.md)                                         [FEM ConstraintDisplacement/pl](FEM_ConstraintDisplacement/pl.md)                 [FEM ConstraintElectrostaticPotential/pl](FEM_ConstraintElectrostaticPotential/pl.md)
-  [FEM ConstraintFixed/pl](FEM_ConstraintFixed/pl.md)                                             [FEM ConstraintFlowVelocity/pl](FEM_ConstraintFlowVelocity/pl.md)                 [FEM ConstraintFluidBoundary/pl](FEM_ConstraintFluidBoundary/pl.md)
-  [FEM ConstraintForce/pl](FEM_ConstraintForce/pl.md)                                             [FEM ConstraintGear/pl](FEM_ConstraintGear/pl.md)                                 [FEM ConstraintHeatflux/pl](FEM_ConstraintHeatflux/pl.md)
-  [FEM ConstraintInitialFlowVelocity/pl](FEM_ConstraintInitialFlowVelocity/pl.md)                 [FEM ConstraintInitialTemperature/pl](FEM_ConstraintInitialTemperature/pl.md)     [FEM ConstraintPlaneRotation/pl](FEM_ConstraintPlaneRotation/pl.md)
-  [FEM ConstraintPressure/pl](FEM_ConstraintPressure/pl.md)                                       [FEM ConstraintPulley/pl](FEM_ConstraintPulley/pl.md)                             [FEM ConstraintSectionPrint/pl](FEM_ConstraintSectionPrint/pl.md)
-  [FEM ConstraintSelfWeight/pl](FEM_ConstraintSelfWeight/pl.md)                                   [FEM ConstraintSpring/pl](FEM_ConstraintSpring/pl.md)                             [FEM ConstraintTemperature/pl](FEM_ConstraintTemperature/pl.md)
-  [FEM ConstraintTransform/pl](FEM_ConstraintTransform/pl.md)                                     [FEM CreateNodesSet/pl](FEM_CreateNodesSet/pl.md)                                 [FEM Element Types/pl](FEM_Element_Types/pl.md)
-  [FEM ElementFluid1D/pl](FEM_ElementFluid1D/pl.md)                                               [FEM ElementGeometry1D/pl](FEM_ElementGeometry1D/pl.md)                           [FEM ElementGeometry2D/pl](FEM_ElementGeometry2D/pl.md)
-  [FEM ElementRotation1D/pl](FEM_ElementRotation1D/pl.md)                                         [FEM EquationElasticity/pl](FEM_EquationElasticity/pl.md)                         [FEM EquationElectricforce/pl](FEM_EquationElectricforce/pl.md)
-  [FEM EquationElectrostatic/pl](FEM_EquationElectrostatic/pl.md)                                 [FEM EquationFlow/pl](FEM_EquationFlow/pl.md)                                     [FEM EquationFlux/pl](FEM_EquationFlux/pl.md)
-  [FEM EquationHeat/pl](FEM_EquationHeat/pl.md)                                                   [FEM Example Capacitance Two Balls/pl](FEM_Example_Capacitance_Two_Balls/pl.md)   [FEM FemMesh2Mesh/pl](FEM_FemMesh2Mesh/pl.md)
-  [FEM Install/pl](FEM_Install/pl.md)                                                             [FEM MaterialFluid/pl](FEM_MaterialFluid/pl.md)                                   [FEM MaterialMechanicalNonlinear/pl](FEM_MaterialMechanicalNonlinear/pl.md)
-  [FEM MaterialReinforced/pl](FEM_MaterialReinforced/pl.md)                                       [FEM MaterialSolid/pl](FEM_MaterialSolid/pl.md)                                   [FEM Mesh CalculiX/pl](FEM_Mesh_CalculiX/pl.md)
-  [FEM Mesh/pl](FEM_Mesh/pl.md)                                                                   [FEM MeshBoundaryLayer/pl](FEM_MeshBoundaryLayer/pl.md)                           [FEM MeshClear/pl](FEM_MeshClear/pl.md)
-  [FEM MeshDisplayInfo/pl](FEM_MeshDisplayInfo/pl.md)                                             [FEM MeshGmshFromShape/pl](FEM_MeshGmshFromShape/pl.md)                           [FEM MeshGroup/pl](FEM_MeshGroup/pl.md)
-  [FEM MeshNetgenFromShape/pl](FEM_MeshNetgenFromShape/pl.md)                                     [FEM MeshRegion/pl](FEM_MeshRegion/pl.md)                                         [FEM PostApplyChanges/pl](FEM_PostApplyChanges/pl.md)
-  [FEM PostCreateFunctions/pl](FEM_PostCreateFunctions/pl.md)                                     [FEM PostFilterClipRegion/pl](FEM_PostFilterClipRegion/pl.md)                     [FEM PostFilterClipScalar/pl](FEM_PostFilterClipScalar/pl.md)
-  [FEM PostFilterCutFunction/pl](FEM_PostFilterCutFunction/pl.md)                                 [FEM PostFilterDataAlongLine/pl](FEM_PostFilterDataAlongLine/pl.md)               [FEM PostFilterDataAtPoint/pl](FEM_PostFilterDataAtPoint/pl.md)
-  [FEM PostFilterLinearizedStresses/pl](FEM_PostFilterLinearizedStresses/pl.md)                   [FEM PostFilterWarp/pl](FEM_PostFilterWarp/pl.md)                                 [FEM PostPipelineFromResult/pl](FEM_PostPipelineFromResult/pl.md)
-  [FEM Preferences/pl](FEM_Preferences/pl.md)                                                     [FEM project/pl](FEM_project/pl.md)                                               [FEM ResultShow/pl](FEM_ResultShow/pl.md)
-  [FEM ResultsPurge/pl](FEM_ResultsPurge/pl.md)                                                   [FEM Shear of a Composite Block/pl](FEM_Shear_of_a_Composite_Block/pl.md)         [FEM Solver/pl](FEM_Solver/pl.md)
-  [FEM SolverCalculiX/pl](FEM_SolverCalculiX/pl.md)                                               [FEM SolverCalculixCxxtools/pl](FEM_SolverCalculixCxxtools/pl.md)                 [FEM SolverControl/pl](FEM_SolverControl/pl.md)
-  [FEM SolverElmer/pl](FEM_SolverElmer/pl.md)                                                     [FEM SolverMystran/pl](FEM_SolverMystran/pl.md)                                   [FEM SolverRun/pl](FEM_SolverRun/pl.md)
-  [FEM SolverZ88/pl](FEM_SolverZ88/pl.md)                                                         [Template:FEM Tools navi/pl](Template:FEM_Tools_navi/pl.md)                       [FEM Tutorial Python/pl](FEM_Tutorial_Python/pl.md)
-  [FEM tutorial/pl](FEM_tutorial/pl.md)                                                           [FEM Workbench/pl](FEM_Workbench/pl.md)                                           [IfcOpenShell/pl](IfcOpenShell/pl.md)
-  [IfcPlusPlus/pl](IfcPlusPlus/pl.md)                                                             [Material editor/pl](Material_editor/pl.md)                                       [Material/pl](Material/pl.md)
-  [Mesh/pl](Mesh/pl.md)                                                                           [Onboarding FEM Devs/pl](Onboarding_FEM_Devs/pl.md)                               [Post-Processing of FEM Results with Paraview/pl](Post-Processing_of_FEM_Results_with_Paraview/pl.md)
-  [Transient FEM analysis/pl](Transient_FEM_analysis/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Add Button to FEM Toolbar Tutorial/pl](wiki/Add Button to FEM Toolbar Tutorial/pl.md) | [Add FEM Constraint Tutorial/pl](wiki/Add FEM Constraint Tutorial/pl.md) | [Add FEM Equation Tutorial/pl](wiki/Add FEM Equation Tutorial/pl.md) |
+| [Analysis of reinforced concrete with FEM/pl](wiki/Analysis of reinforced concrete with FEM/pl.md) | [Artwork Fem/pl](wiki/Artwork Fem/pl.md) | [Extend FEM Module/pl](wiki/Extend FEM Module/pl.md) |
+| [FEM Analysis/pl](wiki/FEM Analysis/pl.md) | [FEM CalculiX Cantilever 3D/pl](wiki/FEM CalculiX Cantilever 3D/pl.md) | [FEM CalculiX/pl](wiki/FEM CalculiX/pl.md) |
+| [FEM ClippingPlaneAdd/pl](wiki/FEM ClippingPlaneAdd/pl.md) | [FEM ClippingPlaneRemoveAll/pl](wiki/FEM ClippingPlaneRemoveAll/pl.md) | [FEM Concrete/pl](wiki/FEM Concrete/pl.md) |
+| [FEM ConstantVacuumPermittivity/pl](wiki/FEM ConstantVacuumPermittivity/pl.md) | [FEM ConstraintBearing/pl](wiki/FEM ConstraintBearing/pl.md) | [FEM ConstraintBodyHeatSource/pl](wiki/FEM ConstraintBodyHeatSource/pl.md) |
+| [FEM ConstraintContact/pl](wiki/FEM ConstraintContact/pl.md) | [FEM ConstraintDisplacement/pl](wiki/FEM ConstraintDisplacement/pl.md) | [FEM ConstraintElectrostaticPotential/pl](wiki/FEM ConstraintElectrostaticPotential/pl.md) |
+| [FEM ConstraintFixed/pl](wiki/FEM ConstraintFixed/pl.md) | [FEM ConstraintFlowVelocity/pl](wiki/FEM ConstraintFlowVelocity/pl.md) | [FEM ConstraintFluidBoundary/pl](wiki/FEM ConstraintFluidBoundary/pl.md) |
+| [FEM ConstraintForce/pl](wiki/FEM ConstraintForce/pl.md) | [FEM ConstraintGear/pl](wiki/FEM ConstraintGear/pl.md) | [FEM ConstraintHeatflux/pl](wiki/FEM ConstraintHeatflux/pl.md) |
+| [FEM ConstraintInitialFlowVelocity/pl](wiki/FEM ConstraintInitialFlowVelocity/pl.md) | [FEM ConstraintInitialTemperature/pl](wiki/FEM ConstraintInitialTemperature/pl.md) | [FEM ConstraintPlaneRotation/pl](wiki/FEM ConstraintPlaneRotation/pl.md) |
+| [FEM ConstraintPressure/pl](wiki/FEM ConstraintPressure/pl.md) | [FEM ConstraintPulley/pl](wiki/FEM ConstraintPulley/pl.md) | [FEM ConstraintSectionPrint/pl](wiki/FEM ConstraintSectionPrint/pl.md) |
+| [FEM ConstraintSelfWeight/pl](wiki/FEM ConstraintSelfWeight/pl.md) | [FEM ConstraintSpring/pl](wiki/FEM ConstraintSpring/pl.md) | [FEM ConstraintTemperature/pl](wiki/FEM ConstraintTemperature/pl.md) |
+| [FEM ConstraintTransform/pl](wiki/FEM ConstraintTransform/pl.md) | [FEM CreateNodesSet/pl](wiki/FEM CreateNodesSet/pl.md) | [FEM Element Types/pl](wiki/FEM Element Types/pl.md) |
+| [FEM ElementFluid1D/pl](wiki/FEM ElementFluid1D/pl.md) | [FEM ElementGeometry1D/pl](wiki/FEM ElementGeometry1D/pl.md) | [FEM ElementGeometry2D/pl](wiki/FEM ElementGeometry2D/pl.md) |
+| [FEM ElementRotation1D/pl](wiki/FEM ElementRotation1D/pl.md) | [FEM EquationElasticity/pl](wiki/FEM EquationElasticity/pl.md) | [FEM EquationElectricforce/pl](wiki/FEM EquationElectricforce/pl.md) |
+| [FEM EquationElectrostatic/pl](wiki/FEM EquationElectrostatic/pl.md) | [FEM EquationFlow/pl](wiki/FEM EquationFlow/pl.md) | [FEM EquationFlux/pl](wiki/FEM EquationFlux/pl.md) |
+| [FEM EquationHeat/pl](wiki/FEM EquationHeat/pl.md) | [FEM Example Capacitance Two Balls/pl](wiki/FEM Example Capacitance Two Balls/pl.md) | [FEM FemMesh2Mesh/pl](wiki/FEM FemMesh2Mesh/pl.md) |
+| [FEM Install/pl](wiki/FEM Install/pl.md) | [FEM MaterialFluid/pl](wiki/FEM MaterialFluid/pl.md) | [FEM MaterialMechanicalNonlinear/pl](wiki/FEM MaterialMechanicalNonlinear/pl.md) |
+| [FEM MaterialReinforced/pl](wiki/FEM MaterialReinforced/pl.md) | [FEM MaterialSolid/pl](wiki/FEM MaterialSolid/pl.md) | [FEM Mesh CalculiX/pl](wiki/FEM Mesh CalculiX/pl.md) |
+| [FEM Mesh/pl](wiki/FEM Mesh/pl.md) | [FEM MeshBoundaryLayer/pl](wiki/FEM MeshBoundaryLayer/pl.md) | [FEM MeshClear/pl](wiki/FEM MeshClear/pl.md) |
+| [FEM MeshDisplayInfo/pl](wiki/FEM MeshDisplayInfo/pl.md) | [FEM MeshGmshFromShape/pl](wiki/FEM MeshGmshFromShape/pl.md) | [FEM MeshGroup/pl](wiki/FEM MeshGroup/pl.md) |
+| [FEM MeshNetgenFromShape/pl](wiki/FEM MeshNetgenFromShape/pl.md) | [FEM MeshRegion/pl](wiki/FEM MeshRegion/pl.md) | [FEM PostApplyChanges/pl](wiki/FEM PostApplyChanges/pl.md) |
+| [FEM PostCreateFunctions/pl](wiki/FEM PostCreateFunctions/pl.md) | [FEM PostFilterClipRegion/pl](wiki/FEM PostFilterClipRegion/pl.md) | [FEM PostFilterClipScalar/pl](wiki/FEM PostFilterClipScalar/pl.md) |
+| [FEM PostFilterCutFunction/pl](wiki/FEM PostFilterCutFunction/pl.md) | [FEM PostFilterDataAlongLine/pl](wiki/FEM PostFilterDataAlongLine/pl.md) | [FEM PostFilterDataAtPoint/pl](wiki/FEM PostFilterDataAtPoint/pl.md) |
+| [FEM PostFilterLinearizedStresses/pl](wiki/FEM PostFilterLinearizedStresses/pl.md) | [FEM PostFilterWarp/pl](wiki/FEM PostFilterWarp/pl.md) | [FEM PostPipelineFromResult/pl](wiki/FEM PostPipelineFromResult/pl.md) |
+| [FEM Preferences/pl](wiki/FEM Preferences/pl.md) | [FEM project/pl](wiki/FEM project/pl.md) | [FEM ResultShow/pl](wiki/FEM ResultShow/pl.md) |
+| [FEM ResultsPurge/pl](wiki/FEM ResultsPurge/pl.md) | [FEM Shear of a Composite Block/pl](wiki/FEM Shear of a Composite Block/pl.md) | [FEM Solver/pl](wiki/FEM Solver/pl.md) |
+| [FEM SolverCalculiX/pl](wiki/FEM SolverCalculiX/pl.md) | [FEM SolverCalculixCxxtools/pl](wiki/FEM SolverCalculixCxxtools/pl.md) | [FEM SolverControl/pl](wiki/FEM SolverControl/pl.md) |
+| [FEM SolverElmer/pl](wiki/FEM SolverElmer/pl.md) | [FEM SolverMystran/pl](wiki/FEM SolverMystran/pl.md) | [FEM SolverRun/pl](wiki/FEM SolverRun/pl.md) |
+| [FEM SolverZ88/pl](wiki/FEM SolverZ88/pl.md) | [Template:FEM Tools navi/pl](wiki/Template_FEM Tools navi/pl.md) | [FEM Tutorial Python/pl](wiki/FEM Tutorial Python/pl.md) |
+| [FEM tutorial/pl](wiki/FEM tutorial/pl.md) | [FEM Workbench/pl](wiki/FEM Workbench/pl.md) | [IfcOpenShell/pl](wiki/IfcOpenShell/pl.md) |
+| [IfcPlusPlus/pl](wiki/IfcPlusPlus/pl.md) | [Material editor/pl](wiki/Material editor/pl.md) | [Material/pl](wiki/Material/pl.md) |
+| [Mesh/pl](wiki/Mesh/pl.md) | [Onboarding FEM Devs/pl](wiki/Onboarding FEM Devs/pl.md) | [Post-Processing of FEM Results with Paraview/pl](wiki/Post-Processing of FEM Results with Paraview/pl.md) |
+| [Transient FEM analysis/pl](wiki/Transient FEM analysis/pl.md) |
 
 
 

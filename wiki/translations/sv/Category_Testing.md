@@ -1,11 +1,11 @@
 # Category:Testing/sv
 Pages related to testing in regards to unit testing, continuous integration, quality assurance, regression testing etc\...
 
-### Contents:
+### Contents
 
-   --
-  [Testing/sv](Testing/sv.md)   
-   --
+|     |     |     |
+| --- | --- | --- |
+| [Testing/sv](wiki/Testing/sv.md) | [Category:Test Framework/sv](wiki/Category_Test Framework/sv.md) |
 
 
 

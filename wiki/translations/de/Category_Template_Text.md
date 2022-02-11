@@ -5,11 +5,12 @@ Diese Vorlagen erzeugen kleine Textstücke, die für die Transklusion geeignet s
 
 Längere Textteile sollten auf der Seite selbst platziert werden, damit sie mit der Übersetzungserweiterung übersetzt werden können.
 
-### Contents:
+### Contents
 
-    
-  [Template:Obsolete/de](Template:Obsolete/de.md)         [Template:Version/de](Template:Version/de.md)   [Template:VersionMinus/de](Template:VersionMinus/de.md)
-  [Template:VersionPlus/de](Template:VersionPlus/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Obsolete/de](wiki/Template_Obsolete/de.md) | [Template:Version/de](wiki/Template_Version/de.md) | [Template:VersionMinus/de](wiki/Template_VersionMinus/de.md) |
+| [Template:VersionPlus/de](wiki/Template_VersionPlus/de.md) |
 
 
 

@@ -1,12 +1,12 @@
 # Category:Obsolete Workbenches/en
 This category lists obsolete workbenches, that is, workbenches that are old and unmaintained, and which have been superseded by other workbenches.
 
-### Contents:
+### Contents
 
-    --
-  [Complete Workbench/en](Complete_Workbench/en.md)   [Drawing Workbench/en](Drawing_Workbench/en.md)   
-                                                                                                                        
-    --
+|     |     |     |
+| --- | --- | --- |
+| [Complete Workbench/en](wiki/Complete Workbench/en.md) | [Drawing Workbench/en](wiki/Drawing Workbench/en.md) | [Category:Drawing/en](wiki/Category_Drawing/en.md) |
+|
 
 
 

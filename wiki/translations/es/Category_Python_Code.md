@@ -1,21 +1,22 @@
 # Category:Python Code/es
 Esta categoría contiene ejemplos de código en Python para FreeCAD
 
-### Contents:
+### Contents
 
-    
-  [Code snippets/es](Code_snippets/es.md)                                 [Command/es](Command/es.md)                                                                       [Debugging/es](Debugging/es.md)
-  [Dialog creation/es](Dialog_creation/es.md)                             [Embedding FreeCAD/es](Embedding_FreeCAD/es.md)                                                   [Embedding FreeCADGui/es](Embedding_FreeCADGui/es.md)
-  [Extra python modules/es](Extra_python_modules/es.md)                   [FEM Tutorial Python/es](FEM_Tutorial_Python/es.md)                                               [FreeCAD Scripting Basics/es](FreeCAD_Scripting_Basics/es.md)
-  [FreeCAD vector math library/es](FreeCAD_vector_math_library/es.md)     [How to install macros/es](How_to_install_macros/es.md)                                           [Introduction to Python/es](Introduction_to_Python/es.md)
-  [Line drawing function/es](Line_drawing_function/es.md)                 [Macros recipes/es](Macros_recipes/es.md)                                                         [Macros/es](Macros/es.md)
-  [Manual:A gentle introduction/es](Manual:A_gentle_introduction/es.md)   [Manual:Creating and manipulating geometry/es](Manual:Creating_and_manipulating_geometry/es.md)   [Mesh Scripting/es](Mesh_Scripting/es.md)
-  [Mesh to Part/es](Mesh_to_Part/es.md)                                   [Part scripting/es](Part_scripting/es.md)                                                         [Path scripting/es](Path_scripting/es.md)
-  [Pivy/es](Pivy/es.md)                                                   [Property/es](Property/es.md)                                                                     [PySide Beginner Examples/es](PySide_Beginner_Examples/es.md)
-  [PySide/es](PySide/es.md)                                               [Python scripting tutorial/es](Python_scripting_tutorial/es.md)                                   [Python/es](Python/es.md)
-  [PythonOCC/es](PythonOCC/es.md)                                         [Qt Example/es](Qt_Example/es.md)                                                                 [Scripted objects/es](Scripted_objects/es.md)
-  [Scripting and macros/es](Scripting_and_macros/es.md)                   [Svg Namespace/es](Svg_Namespace/es.md)                                                           [Topological data scripting/es](Topological_data_scripting/es.md)
-  [Workbench creation/es](Workbench_creation/es.md)
+|     |     |     |
+| --- | --- | --- |
+| [Code snippets/es](wiki/Code snippets/es.md) | [Command/es](wiki/Command/es.md) | [Debugging/es](wiki/Debugging/es.md) |
+| [Dialog creation/es](wiki/Dialog creation/es.md) | [Embedding FreeCAD/es](wiki/Embedding FreeCAD/es.md) | [Embedding FreeCADGui/es](wiki/Embedding FreeCADGui/es.md) |
+| [Extra python modules/es](wiki/Extra python modules/es.md) | [FEM Tutorial Python/es](wiki/FEM Tutorial Python/es.md) | [FreeCAD Scripting Basics/es](wiki/FreeCAD Scripting Basics/es.md) |
+| [FreeCAD vector math library/es](wiki/FreeCAD vector math library/es.md) | [How to install macros/es](wiki/How to install macros/es.md) | [Introduction to Python/es](wiki/Introduction to Python/es.md) |
+| [Line drawing function/es](wiki/Line drawing function/es.md) | [Macros recipes/es](wiki/Macros recipes/es.md) | [Macros/es](wiki/Macros/es.md) |
+| [Manual:A gentle introduction/es](wiki/Manual_A gentle introduction/es.md) | [Manual:Creating and manipulating geometry/es](wiki/Manual_Creating and manipulating geometry/es.md) | [Mesh Scripting/es](wiki/Mesh Scripting/es.md) |
+| [Mesh to Part/es](wiki/Mesh to Part/es.md) | [Part scripting/es](wiki/Part scripting/es.md) | [Path scripting/es](wiki/Path scripting/es.md) |
+| [Pivy/es](wiki/Pivy/es.md) | [Property/es](wiki/Property/es.md) | [PySide Beginner Examples/es](wiki/PySide Beginner Examples/es.md) |
+| [PySide/es](wiki/PySide/es.md) | [Python scripting tutorial/es](wiki/Python scripting tutorial/es.md) | [Python/es](wiki/Python/es.md) |
+| [PythonOCC/es](wiki/PythonOCC/es.md) | [Qt Example/es](wiki/Qt Example/es.md) | [Scripted objects/es](wiki/Scripted objects/es.md) |
+| [Scripting and macros/es](wiki/Scripting and macros/es.md) | [Svg Namespace/es](wiki/Svg Namespace/es.md) | [Topological data scripting/es](wiki/Topological data scripting/es.md) |
+| [Workbench creation/es](wiki/Workbench creation/es.md) |
 
 
 

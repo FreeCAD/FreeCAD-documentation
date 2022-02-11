@@ -1,11 +1,13 @@
 # Category:Template/ro
 This category contains all the Templates
 
-### Contents:
+### Contents
 
-    
-  [Template:Blender Navigation/ro](Template:Blender_Navigation/ro.md)   [Template:CAD Navigation/ro](Template:CAD_Navigation/ro.md)   [Template:Inventor Navigation/ro](Template:Inventor_Navigation/ro.md)
-  [Template:Languages/ro](Template:Languages/ro.md)                     [Template:Version/ro](Template:Version/ro.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:Blender Navigation/ro](wiki/Template_Blender Navigation/ro.md) | [Template:CAD Navigation/ro](wiki/Template_CAD Navigation/ro.md) | [Template:Inventor Navigation/ro](wiki/Template_Inventor Navigation/ro.md) |
+| [Template:Languages/ro](wiki/Template_Languages/ro.md) | [Template:Version/ro](wiki/Template_Version/ro.md) | [Category:Template:Doc/ro](wiki/Category_Template_Doc/ro.md) |
+| [Category:Template:Navigation/ro](wiki/Category_Template_Navigation/ro.md) |
 
 
 

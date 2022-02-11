@@ -1,10 +1,11 @@
 # Category:Wiki/bg
 This category lists pages that relate to the [Web Workbench/bg](Web_Workbench/bg.md).
 
-### Contents:
+### Contents
 
-  
-  [Localisation/bg](Localisation/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Localisation/bg](wiki/Localisation/bg.md) |
 
 
 

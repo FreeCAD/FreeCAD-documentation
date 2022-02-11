@@ -3,10 +3,11 @@ This category contains all the Templates
 
 See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
-### Contents:
+### Contents
 
-  --
-  --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Template:Navigation/zh-hant](wiki/Category_Template_Navigation/zh-hant.md) |
 
 
 

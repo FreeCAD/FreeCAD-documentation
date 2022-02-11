@@ -1,11 +1,12 @@
 # Category:Points/pl
 This category lists pages related to the [Points Workbench/pl](Points_Workbench/pl.md).
 
-### Contents:
+### Contents
 
-    
-  [Artwork Points/pl](Artwork_Points/pl.md)   [Points Convert/pl](Points_Convert/pl.md)       [Points Export/pl](Points_Export/pl.md)
-  [Points Import/pl](Points_Import/pl.md)     [Points Workbench/pl](Points_Workbench/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Artwork Points/pl](wiki/Artwork Points/pl.md) | [Points Convert/pl](wiki/Points Convert/pl.md) | [Points Export/pl](wiki/Points Export/pl.md) |
+| [Points Import/pl](wiki/Points Import/pl.md) | [Points Workbench/pl](wiki/Points Workbench/pl.md) |
 
 
 

@@ -1,10 +1,11 @@
 # Category:Inspection/hr
 This category lists pages related to the [Inspection Workbench](Inspection_Workbench.md).
 
-### Contents:
+### Contents
 
-  
-  [Inspection Workbench/hr](Inspection_Workbench/hr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Inspection Workbench/hr](wiki/Inspection Workbench/hr.md) |
 
 
 

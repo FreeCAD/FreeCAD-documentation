@@ -1,14 +1,16 @@
 # Category:Glossary/en
 This category tracks pages that explain definitions of words related to FreeCAD
 
-### Contents:
+### Contents
 
-    
-  [Assembly/en](Assembly/en.md)       [Body/en](Body/en.md)           [Command/en](Command/en.md)
-  [Constraint/en](Constraint/en.md)   [Datum/en](Datum/en.md)         [Drawing/en](Drawing/en.md)
-  [Feature/en](Feature/en.md)         [Glossary/en](Glossary/en.md)   [Mesh Feature/en](Mesh_Feature/en.md)
-  [Mesh/en](Mesh/en.md)               [Model/en](Model/en.md)         [Part/en](Part/en.md)
-  [Python/en](Python/en.md)           [Shape/en](Shape/en.md)         [Sketch/en](Sketch/en.md)
+|     |     |     |
+| --- | --- | --- |
+| [Assembly/en](wiki/Assembly/en.md) | [Body/en](wiki/Body/en.md) | [Command/en](wiki/Command/en.md) |
+| [Constraint/en](wiki/Constraint/en.md) | [Datum/en](wiki/Datum/en.md) | [Drawing/en](wiki/Drawing/en.md) |
+| [Feature/en](wiki/Feature/en.md) | [Glossary/en](wiki/Glossary/en.md) | [Mesh Feature/en](wiki/Mesh Feature/en.md) |
+| [Mesh/en](wiki/Mesh/en.md) | [Model/en](wiki/Model/en.md) | [Part/en](wiki/Part/en.md) |
+| [Python/en](wiki/Python/en.md) | [Shape/en](wiki/Shape/en.md) | [Sketch/en](wiki/Sketch/en.md) |
+|
 
 
 

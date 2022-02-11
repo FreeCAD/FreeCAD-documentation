@@ -3,10 +3,11 @@ This is a complete list of pages under [:Category:Tutorials/zh](:Category:Tutori
 
 See also [Tutorials](Tutorials/zh.md) and [video tutorials](video_tutorials/zh.md)
 
-### Contents:
+### Contents
 
-   
-  [Template:TutorialInfo/zh](Template:TutorialInfo/zh.md)   [Tutorials/zh](Tutorials/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [Template:TutorialInfo/zh](wiki/Template_TutorialInfo/zh.md) | [Tutorials/zh](wiki/Tutorials/zh.md) |
 
 
 

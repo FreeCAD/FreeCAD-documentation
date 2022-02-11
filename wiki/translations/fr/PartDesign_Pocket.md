@@ -32,7 +32,7 @@ Lors de la création de la protrusion, la boîte de dialogue **Paramètres de la
 
 Type offre 5 différentes façons de définir la longueur de la cavité:
 
-### Dimensions
+#### Dimension
 
 Entrez une valeur numérique pour la longueur de la cavité. La direction par défaut de l\'extrusion est vers le support, mais elle peut être modifiée en cochant l\'option **Inversé**. Les extrusions se produisent par défaut selon la [normale](https://fr.wikipedia.org/wiki/Normale_(g%C3%A9om%C3%A9trie)) au plan d\'esquisse de définition. Cela peut être modifié en spécifiant une autre **Direction** {{Version/fr|0.20}}. Avec l\'option **Symétrique au plan**, la cavité s\'étendra sur la moitié de la longueur donnée de chaque côté du plan. Les dimensions négatives ne sont pas possibles. Utilisez plutôt l\'option **Inversé**.
 
@@ -88,6 +88,29 @@ Cochez la case pour extruder la moitié de la longueur donnée de chaque côté 
 ### Inversé
 
 Inverse la direction de la cavité.
+
+### Angle de conicité 
+
+
+{{Version/fr|0.20}}
+
+Génère la cavité dans le sens de l\'extrusion selon l\'angle donné. Un angle positif signifie que le bord extérieur de la cavité s\'élargit. Cette option n\'est disponible que si le **Type** est mis soit à **Dimension** soit à **Deux dimensions**. Notez que les structures internes reçoivent l\'angle de conicité opposé. Ceci est fait pour faciliter la conception de moules et de pièces moulées.
+
+Limitations :
+
+-   Les esquisses contenant des [B-splines](B-Splines/fr.md) ne peuvent souvent pas être correctement formées. Il s\'agit d\'une limitation du noyau d\'[OpenCASCADE](OpenCASCADE/fr.md) utilisé par FreeCAD.
+-   Pour des angles trés importants, le cone échouera si la face finale de la cavité a moins d\'arêtes que la face/esquisse de départ.
+
+### 2ème longueur 
+
+Définit la longueur de la cavité dans le sens d\'extrusion opposé. Plusieurs unités peuvent être utilisées indépendamment des préférences de l\'utilisateur (m, cm, mm, nm, ft ou \', in ou \"). Cette option n\'est disponible que si le **Type** est à **Deux dimensions**.
+
+### 2ème angle de conicité 
+
+
+{{Version/fr|0.20}}
+
+Génère la cavité dans le sens opposé de l\'extrusion selon l\'angle donné. Un angle positif signifie que le bord extérieur de la protrusion s\'élargit. Cette option n\'est disponible que si le **Type** est à **Deux dimensions**. Notez que les structures internes reçoivent l\'angle d\'inclinaison opposé. Ceci est fait pour faciliter la conception de moules et de pièces moulées.
 
 ## Propriétés
 

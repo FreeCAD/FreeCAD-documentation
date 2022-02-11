@@ -44,6 +44,9 @@ Il menu standard è composto da 7 sotto-menu. Ogni sotto-menu ha una pagina dedi
 
 ### Strumenti aggiuntivi 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Parte](Std_Part/it.md): Crea una nuova parte e la rende attiva.
 -   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppo](Std_Group/it.md): Crea un nuovo gruppo.
 -   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Crea link](Std_LinkMake/it.md): Crea un link. {{Version/it|0.19}}
@@ -60,6 +63,9 @@ Il menu standard è composto da 7 sotto-menu. Ogni sotto-menu ha una pagina dedi
 -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Std SelBack](Std_SelBack/it.md): Ripristina la precedente selezione salvata. {{Version/it|0.19}}
 -   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Std SelForward](Std_SelForward/it.md): Ripristina la successiva selezione salvata. {{Version/it|0.19}}
 -   [Std Expressions](Std_Expressions/it.md): Azioni di espressione. {{Version/it|0.19}}
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

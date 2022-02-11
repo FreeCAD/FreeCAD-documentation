@@ -1,10 +1,11 @@
 # Category:Test Framework/pl
 This category lists pages related to the [Test Framework Workbench](Testing.md).
 
-### Contents:
+### Contents
 
-  
-  [Testing/pl](Testing/pl.md)
+|     |     |     |
+| --- | --- | --- |
+| [Testing/pl](wiki/Testing/pl.md) |
 
 
 

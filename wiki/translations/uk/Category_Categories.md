@@ -6,13 +6,13 @@ This is the **top category** which contains the main categories of the FreeCAD w
 -   all *categories* that are *not classified*, use the [list of uncategorized categories](Special_Uncategorizedcategories.md).
 -   all *images* that are *not classified*, use the [list of uncategorized images](Special_Uncategorizedimages.md).
 
-### Contents:
+### Contents
 
-  -- -- --
-        
-        
-        
-  -- -- --
+|     |     |     |
+| --- | --- | --- |
+| [Category:Addons/uk](wiki/Category_Addons/uk.md) | [Category:Administration/uk](wiki/Category_Administration/uk.md) | [Category:Categories/uk](wiki/Category_Categories/uk.md) |
+| [Category:Command Reference/uk](wiki/Category_Command Reference/uk.md) | [Category:Documentation/uk](wiki/Category_Documentation/uk.md) | [Category:Hubs/uk](wiki/Category_Hubs/uk.md) |
+| [Category:Template/uk](wiki/Category_Template/uk.md) | [Category:Tutorials/uk](wiki/Category_Tutorials/uk.md) |
 
 
 

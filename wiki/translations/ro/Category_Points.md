@@ -1,10 +1,11 @@
 # Category:Points/ro
 This category lists pages related to the [Points Workbench/ro](Points_Workbench/ro.md).
 
-### Contents:
+### Contents
 
-  
-  [Points Workbench/ro](Points_Workbench/ro.md)
+|     |     |     |
+| --- | --- | --- |
+| [Points Workbench/ro](wiki/Points Workbench/ro.md) |
 
 
 

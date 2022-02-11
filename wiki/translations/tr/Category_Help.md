@@ -1,10 +1,11 @@
 # Category:Help/tr
 Bu kategori, MediaWiki ve düzenleme ile ilgili yardım belgelerini içerir.
 
-### Contents:
+### Contents
 
-  
-  [Help/tr](Help/tr.md)
+|     |     |     |
+| --- | --- | --- |
+| [Help/tr](wiki/Help/tr.md) |
 
 
 

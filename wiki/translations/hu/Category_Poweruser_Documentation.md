@@ -1,10 +1,11 @@
 # Category:Poweruser Documentation/hu
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
-### Contents:
+### Contents
 
-  
-  [Mesh API/hu](Mesh_API/hu.md)
+|     |     |     |
+| --- | --- | --- |
+| [Mesh API/hu](wiki/Mesh API/hu.md) |
 
 
 

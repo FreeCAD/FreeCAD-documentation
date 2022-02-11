@@ -44,7 +44,13 @@ Vorlagen werden zum Gestalten der Hilfeseiten verwendet. Sie geben der Dokumenta
 
 Wenn man an einer großen Seite arbeitet, empfiehlt es sich, die Seite entweder als In-Arbeit oder als Unfertig zu kennzeichnen. Dadurch wird sichergestellt, dass die Wiki Administratoren die Seite nicht als Fertig zur Übersetzung markieren, während sie noch häufig geändert wird.
 
+
+<div class="mw-translate-fuzzy">
+
 Um eine Seite zu kennzeichnen, füge entweder {{Seite in Bearbeitung}} oder  als erste Zeile ein. Mit  lädst du andere ein, mit dir zusammen die Seite fertigzustellen, während {{Seite in Bearbeitung}} anzeigt, dass du die Arbeit selbst erledigen wirst und andere dir etwas Zeit geben sollen.
+
+
+</div>
 
 Wenn die Arbeit getan ist, vergesse bitte nicht, die Markierungen zu entfernen!
 

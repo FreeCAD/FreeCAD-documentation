@@ -1,12 +1,14 @@
 # Category:BIM/de
 This category is for pages related to building information management (BIM).
 
-### Contents:
+### Contents
 
-    
-  [Arch IfcExplorer/de](Arch_IfcExplorer/de.md)                                                       [BIM application compatibility table/de](BIM_application_compatibility_table/de.md)   [BIM ingame tutorial/de](BIM_ingame_tutorial/de.md)
-  [BIM Library/de](BIM_Library/de.md)                                                                 [BIM Workbench/de](BIM_Workbench/de.md)                                               [IfcOpenShell/de](IfcOpenShell/de.md)
-  [Import/Export IFC - compiling IfcOpenShell/de](Import/Export_IFC_-_compiling_IfcOpenShell/de.md)   [Manual:BIM modeling/de](Manual:BIM_modeling/de.md)                                   [Material/de](Material/de.md)
+|     |     |     |
+| --- | --- | --- |
+| [Arch IfcExplorer/de](wiki/Arch IfcExplorer/de.md) | [BIM application compatibility table/de](wiki/BIM application compatibility table/de.md) | [BIM ingame tutorial/de](wiki/BIM ingame tutorial/de.md) |
+| [BIM Library/de](wiki/BIM Library/de.md) | [BIM Workbench/de](wiki/BIM Workbench/de.md) | [IfcOpenShell/de](wiki/IfcOpenShell/de.md) |
+| [Import/Export IFC - compiling IfcOpenShell/de](wiki/Import/Export IFC - compiling IfcOpenShell/de.md) | [Manual:BIM modeling/de](wiki/Manual_BIM modeling/de.md) | [Material/de](wiki/Material/de.md) |
+| [Category:Arch/de](wiki/Category_Arch/de.md) |
 
 
 

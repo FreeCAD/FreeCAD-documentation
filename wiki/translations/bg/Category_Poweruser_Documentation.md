@@ -1,10 +1,11 @@
 # Category:Poweruser Documentation/bg
 This category shows documentation articles dealing with python scripting, which are directed at more advanced users.
 
-### Contents:
+### Contents
 
-   
-  [Debugging/bg](Debugging/bg.md)   [Macros/bg](Macros/bg.md)
+|     |     |     |
+| --- | --- | --- |
+| [Debugging/bg](wiki/Debugging/bg.md) | [Macros/bg](wiki/Macros/bg.md) |
 
 
 

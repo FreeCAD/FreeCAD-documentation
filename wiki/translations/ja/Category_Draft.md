@@ -1,10 +1,11 @@
 # Category:Draft/ja
 This category list pages related to the \"User\_Documentation/ja\" and \"Workbenches/ja\"
 
-### Contents:
+### Contents
 
-   
-  [Draft API/ja](Draft_API/ja.md)   [Draft Workbench/ja](Draft_Workbench/ja.md)
+|     |     |     |
+| --- | --- | --- |
+| [Draft API/ja](wiki/Draft API/ja.md) | [Draft Workbench/ja](wiki/Draft Workbench/ja.md) |
 
 
 

@@ -1,10 +1,11 @@
 # Category:Robot/zh
 This category lists pages related to the [Robot Workbench/zh](Robot_Workbench/zh.md).
 
-### Contents:
+### Contents
 
-  
-  [Robot Workbench/zh](Robot_Workbench/zh.md)
+|     |     |     |
+| --- | --- | --- |
+| [Robot Workbench/zh](wiki/Robot Workbench/zh.md) |
 
 
 

@@ -49,7 +49,13 @@ Os modelos são usados para estilizar as páginas de ajuda. Eles dão à documen
 
 Se estiver a trabalho numa página grande é aconselhável marcar a página como em construção ou como inacabada. Isto assegura que os administradores do wiki não marquem a sua página como pronta para tradução enquanto ainda está a alterá-la.
 
+
+<div class="mw-translate-fuzzy">
+
 Para sinalizar uma página, adicionar  ou  na primeira linha. Com  convidará outros a juntarem-se a ti para terminar a página, enquanto  indica que tu realizarás o trabalho e que outros devem esperar o autor concluir.
+
+
+</div>
 
 Uma vez terminado o trabalho, por favor não se esqueça de retirar os sinalizadores!
 

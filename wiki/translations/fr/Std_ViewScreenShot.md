@@ -9,6 +9,9 @@
 
 # Std ViewScreenShot/fr
 
+
+</div>
+
 ## Description
 
 La commande **Std Capture d\'écran** ouvre une boîte de dialogue pour créer un fichier image, une capture d\'écran, à partir de la [vue 3D](3D_view/fr.md) active.
