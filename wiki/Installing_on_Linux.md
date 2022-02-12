@@ -110,7 +110,7 @@ Install the stable PPA via the Command Line Interface (CLI):
     :   
         
 ```python
-        sudo apt install freecad freecad-doc
+        sudo apt install freecad freecad-common
         
 ```
         
