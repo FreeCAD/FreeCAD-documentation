@@ -87,9 +87,12 @@ Pour traduire la version de développement en cours en un numéro de révision (
 
 
 {{Code|lang=bash|code=
-snap info freecad-ppd {{!}}
-
-grep -e \'\^installed:\' {{!}} awk -F \' \' \'{ print \$2 }\' {{!}} cut -d\'\~\' -f2 {{!}} xargs -I{} git rev-list \--count {} }}
+snap info freecad-ppd <nowiki>|</nowiki>\
+grep -e '^installed:' <nowiki>|</nowiki>\
+awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
+cut -d'~' -f2 <nowiki>|</nowiki>\
+xargs -I{} git rev-list --count {}
+}}
 
 La différence entre les chiffres vous indiquera le nombre de révisions en retard du snap par rapport au développement (edge).
 

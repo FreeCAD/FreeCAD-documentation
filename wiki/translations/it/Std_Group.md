@@ -12,7 +12,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Un [Gruppo](Std_Group/it.md) (chiamato internamente [App DocumentObjectGroup](App_DocumentObjectGroup/it.md)) è un contenitore per scopi generici che consente di raggruppare diversi tipi di oggetti nella [vista ad albero](tree_view/it.md), indipendentemente dal tipo di dati. È usato come una semplice cartella per classificare e organizzare gli oggetti nel modello, al fine di mantenere una struttura logica. I gruppi possono essere nidificati all\'interno di altri gruppi.
+
+
+</div>
 
 Lo strumento Gruppo non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si ritrova nella **barra degli strumenti struttura**, che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md).
 
@@ -37,79 +43,85 @@ Per raggruppare gli oggetti 3D come una singola unità, con l\'intenzione di cre
 
 </div>
 
-### Note
-
--   L\'oggetto Gruppo non influisce sulle posizioni nella [Vista 3D](3D_view/it.md) degli elementi che contiene; è essenzialmente solo una cartella che viene utilizzata per mantenere organizzata la [vista ad albero](tree_view/it.md).
--   Il Gruppo può anche essere creato nella [Python console](Python_console.md) e sotto-classificato per creare speciali \"gruppi\" come indicato nella sezione [Script](Std_Group/it#Script.md).
-
 ## Proprietà
+
+
+<div class="mw-translate-fuzzy">
 
 Un [Gruppo](Std_Group/it.md) è internamente chiamato [App DocumentObjectGroup](App_DocumentObjectGroup/it.md) (`App::DocumentObjectGroup` class), è derivato dall\'oggetto base [App DocumentObject](App_DocumentObject/it.md) (`App::DocumentObject` class), pertanto condivide tutte le proprietà di quest\'ultimo.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Oltre alle proprietà descritte in [App FeaturePython](App_FeaturePython/it.md), che è l\'istanza più elementare di un [App DocumentObject](App_DocumentObject/it.md), l\'App DocumentObjectGroup ha la proprietà **Group**.
 
-Queste sono le proprietà disponibili nel [editore delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell\'[editore delle proprietà](property_editor/it.md).
+
+</div>
 
 ### Dati
 
 
 {{TitleProperty|Base}}
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Label|String**: il nome modificabile dall\'utente di questo oggetto, è una stringa UTF8 arbitraria.
 
 -    **Group|LinkList**: un elenco di oggetti referenziati. Di default, è vuoto {{value|[]}}.
 
-#### Proprietà dati nascoste 
 
--    **Proxy|PythonObject**: una classe personalizzata associata a questo oggetto. Questa esiste solo per la versione [Python](Python/it.md). Vedere [Script](Std_Group/it#Script.md).
-
-### Vista
-
-
-{{TitleProperty|Base}}
-
-Vedere [App FeaturePython](App_FeaturePython/it.md) per le proprietà di base della vista.
-
-#### Proprietà vista nascoste 
-
--    **Proxy|PythonObject**: una classe del provider di visualizzazione personalizzata associata a questo oggetto. Questo esiste solo per la versione [Python](Python/it.md). Vedere [Script](Std_Group/it#Script.md).
-
-## Eredità
-
-Un [Gruppo](Std_Group/it.md) è formalmente un\'istanza della classe `App::DocumentObjectGroup`, il cui parente è [App DocumentObject](App_DocumentObject/it.md) (`App::DocumentObject` class), e viene incrementato con un\'estensione del Gruppo.
-
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
-
-
-
-*Schema semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::DocumentObjectGroup* è un semplice contenitore che utilizza l'estensione Gruppo per poter contenere qualsiasi tipo di oggetto.`
+</div>
 
 ## Script
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](scripted_objects/it.md).
 
+
+</div>
+
 Vedi [Funzione Part](Part_Feature/it.md) per le informazioni generali su come aggiungere oggetti al documento.
 
-Un Gruppo ([App DocumentObjectGroup](App_DocumentObjectGroup.md)) è creato con il metodo del documento `addObject()`. Una volta che un Gruppo esiste, altri oggetti possono essere aggiunti ad esso con i metodi `addObject()` o `addObjects()`. 
+
+<div class="mw-translate-fuzzy">
+
+Un Gruppo ([App DocumentObjectGroup](App_DocumentObjectGroup.md)) è creato con il metodo del documento `addObject()`. Una volta che un Gruppo esiste, altri oggetti possono essere aggiunti ad esso con i metodi `addObject()` o `addObjects()`.
+
+
+</div>
+
+
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::DocumentObjectGroup", "Group")
+group = App.ActiveDocument.addObject("App::DocumentObjectGroup", "Group")
 
-bod1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
-bod2 = App.ActiveDocument.addObject("Part::Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
 
-obj.addObjects([bod1, bod2])
+group.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
 Questo `App::DocumentObjectGroup` di base non ha un oggetto Proxy, quindi non può essere pienamente utilizzato per la sotto-classe.
 
+
+<div class="mw-translate-fuzzy">
+
 Pertanto, per la sottoclasse [Python](Python/it.md), è necessario creare l\'oggetto `App::DocumentObjectGroupPython`.
+
+
+</div>
 
 
 ```python
@@ -132,7 +144,7 @@ Per esempio, un [Analisi FEM](FEM_Analysis/it.md) è un oggetto `App::DocumentOb
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

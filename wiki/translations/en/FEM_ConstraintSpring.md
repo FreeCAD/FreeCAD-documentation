@@ -12,11 +12,11 @@
 
 ## Description
 
-Defines a \...
+Defines a spring boundary condition to be used by MoFEM (currently unsupported).
 
 ## Usage
 
-\...
+For now, this constraint will not work since the MoFEM solver is not yet implemented.
 
 
 

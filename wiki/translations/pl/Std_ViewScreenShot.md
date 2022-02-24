@@ -3,7 +3,7 @@
    Name:Std ViewScreenShot
    MenuLocation:Tools → Save picture...
    Workbenches:All
-   SeeAlso:[Std Print](Std_Print.md), [Std PrintPdf](Std_PrintPdf.md), [[Macro_Snip]]
+   SeeAlso:[Std Print](Std_Print.md), [Std PrintPdf](Std_PrintPdf.md), [Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Macro Screen Wiki](Macro_Screen_Wiki.md), [Macro Snip](Macro_Snip.md)
 ---
 
 # Std ViewScreenShot/pl

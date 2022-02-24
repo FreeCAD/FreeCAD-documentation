@@ -67,7 +67,7 @@ Upewnij się, że bryła zawierająca obiekt, który ma zostać wytłoczony, jes
 
 ### Powielanie i tworzenie wzoru 
 
-Aby zmultiplikować i nadać wzór wytłoczonemu elementowi, można dodać **szkic** zawierający okręgi i łuki do właściwości obiektu **Formowanie Ściany** **Sketch**.
+Aby powielić i nadać wzór wytłoczonemu elementowi, można dodać **szkic** zawierający okręgi i łuki do właściwości obiektu **Formowanie Ściany** **Szkic**. Szkic wzoru musi być *współpłaszczyznowy* z powierzchnią, która ma podlegać wytłoczeniu.
 
 Punkty środkowe okręgów lub łuków są używane do zapewnienia pozycji do umieszczenia wystąpień wytłoczonego elementu, nie mają one wpływu na orientację wystąpień.
 

@@ -4,13 +4,10 @@
    Name/pl:Projekt Części: Wyciągnij
    MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Wyciągnij
    Workbenches:[Środowisko pracy Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Kieszeń](PartDesign_Pocket/pl.md)
+   SeeAlso:[Kieszeń](PartDesign_Pocket/pl.md), [Część: Wyciągnij](Part_Extrude/pl.md)
 ---
 
 # PartDesign Pad/pl
-
-
-</div>
 
 ## Opis
 
@@ -20,12 +17,14 @@ Narzędzie **Wyciągnij** umożliwia wyciągnięcie szkicu lub powierzchni brył
 
 \"Szkic (A) jest pokazany po lewej stronie; wynik końcowy działania operacji wyciągnięcia (B) prezentowany jest po prawej stronie.
 
-## Jak używać 
+## Użycie
 
-1.  Wybierz szkic lub ścianę do wyciągnięcia. {{Version/pl|0.20}} Alternatywnie można wybrać kilka szkiców lub kilka ścian.
-2.  Naciśnij przycisk**<img src="images/PartDesign_Pad.svg" width=24px> '''Wyciągnij przez obrót'''**.
+1.  Wybierz szkic lub ścianę do wyciągnięcia {{Version/pl|0.20}}. Alternatywnie można wybrać kilka szkiców lub kilka ścian.
+2.  Naciśnij przycisk **<img src="images/PartDesign_Pad.svg" width=24px> '''Wyciągnij przez obrót'''**.
 3.  Ustaw wymagane parametry dla tej operacji *(opisane w następnym akapicie [Opcje](#Opcje.md))*.
 4.  Naciśnij przycisk **OK**.
+
+Podczas wybierania pojedynczego szkicu może on mieć wiele profili zamkniętych wewnątrz większego, na przykład prostokąt z dwoma okręgami w środku. Profile te nie mogą się jednak przecinać. {{Version/pl|0.20}}
 
 ## Opcje
 
@@ -93,28 +92,28 @@ Opcja Reversed odwraca kierunek wyciągnięcia.
 
 Odwraca kierunek wyciągnięcia.
 
-### Taper angle 
+### Kąt zwężenia 
 
 
-<small>(v0.20)</small> 
+{{Version/pl|0.20}}
 
-Tapers the pad in the extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is either **Dimension** or **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+Zwęża wyciągnięcie w kierunku wytłaczania o podany kąt. Dodatni kąt oznacza, że zewnętrzna krawędź bryły staje się szersza. Opcja ta jest dostępna tylko gdy **Typ** jest ustawiony na **Wymiar** lub **Dwa wymiary**. Należy pamiętać, że konstrukcje wewnętrzne otrzymują przeciwny kąt zwężenia. Ma to na celu ułatwienie projektowania form i elementów formowanych.
 
-Limitations:
+Ograniczenia:
 
--   Sketches containing [B-Splines](B-Splines.md) often cannot be properly tapered. This is a limitation of the [OpenCASCADE](OpenCASCADE.md) kernel that FreeCAD uses.
--   For larger angles tapering will fail if the end face of the pad would have fewer edges than the start face/sketch.
+-   Szkice zawierające [krzywe złożone](B-Splines/pl.md) często nie mogą być poprawnie zwężone. Jest to ograniczenie jądra [OpenCASCADE](OpenCASCADE/pl.md), którego używa FreeCAD.
+-   Dla większych kątów zwężanie nie powiedzie się, jeżeli końcowa powierzchnia wyciągnięcia będzie miała mniej krawędzi niż powierzchnia / szkic początkowy.
 
-### 2nd length 
+### Druga długość 
 
-Defines the length of the pad in the opposite extrusion direction. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available if **Type** is **Two dimensions**.
+Określa długość wyciągnięcia w przeciwnym kierunku wyciskania. Można użyć wielu jednostek niezależnie od preferencji użytkownika dotyczących jednostek (m, cm, mm, nm, ft lub \', in lub \"). Opcja ta jest dostępna tylko gdy **Typ** jest **Dwuwymiarowy**.
 
-### 2nd taper angle 
+### Drugi kąt zwężenia 
 
 
-<small>(v0.20)</small> 
+{{Version/pl|0.20}}
 
-Tapers the pad in the opposite extrusion direction by the given angle. A positive angle means the outer pad border gets wider. This option is only available if **Type** is **Two dimensions**. Note that inner structures receive the opposite taper angle. This is done to facilitate the design of molds and molded parts.
+Zwęża wyciągnięcie w przeciwnym kierunku wyciskania o podany kąt. Dodatni kąt oznacza, że zewnętrzna powierzchnia bryły staje się szersza. Opcja ta jest dostępna tylko gdy **Typ** jest **Dwuwymiarowy**. Należy pamiętać, że struktury wewnętrzne otrzymują przeciwny kąt zwężenia. Robi się to w celu ułatwienia projektowania form i wyprasek.
 
 ## Właściwości
 
@@ -138,7 +137,7 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 ## Ograniczenia
 
--   tak jak wszystkie funkcje środowiska pracy Projekt Części, wyciągnięcie tworzy bryłę. a zatem szkic musi zawierać **zamknięty** kształt. Jeśli kształt nie jest zamknięty pojawi się błąd *Nie udało się zweryfikować uszkodzonej powierzchni*. W większym szkicu może znajdować się wiele zamkniętych kształtów, pod warunkiem, że żaden z nich się nie przecina *(na przykład prostokąt z dwoma okręgami w środku)*.
+-   Podobnie jak wszystkie funkcje projektowania części, funkcja wyciągnięcia tworzy bryłę, dlatego szkic musi zawierać profil zamknięty, w przeciwnym razie operacja zakończy się niepowodzeniem z błędem \"Nie udało się zweryfikować uszkodzonej powierzchni\".
 -   Algorytmy używane w **Do pierwszego** i **Do ostatniego**:
     -   utwórz linię przechodzącą przez środek ciężkości szkicu,
     -   znajdź wszystkie powierzchnie podparcia przecięte przez tę linię,

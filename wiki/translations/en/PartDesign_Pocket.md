@@ -16,10 +16,12 @@ The **Pocket** tool cuts solids by extruding a sketch or a face of a solid along
 
 ## Usage
 
-1.  Select the sketch or face to be pocketed. <small>(v0.20)</small>  Alternatively you can select several sketches or faces.
+1.  Select the sketch or face to be pocketed. <small>(v0.20)</small> : Alternatively you can select several sketches or faces.
 2.  Press the **<img src="images/PartDesign_Pocket.svg" width=16px> '''Pocket'''** button.
 3.  Set the Pocket parameters, see the [Options](#Options.md) below.
 4.  Click OK.
+
+When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
 
 ## Options
 

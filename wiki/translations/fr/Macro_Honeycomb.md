@@ -4,8 +4,8 @@
 |Icon=Macro_Honeycomb.svg
 |Description=Créez un objet Python en nid d'abeille aux caractéristiques entièrement paramétriques, compatible dans et en dehors de Part Design.
 |Author=TheMarkster
-|Version=0.2021.10.22
-|Date=2021-10-22
+|Version=0.2022.02.14
+|Date=2022-02-14
 |FCVersion=Les versions en Python 3
 |Download=[https://wiki.freecadweb.org/File:Macro_Honeycomb.svg Icône de la barre d'outils]
 |Links=[https://github.com/mwganson/honeycomb Documentation complète sur Github]
@@ -23,7 +23,7 @@ La documentation complète se trouve sur github : [Honeycomb](https://github.com
 ## Légende
 
 
-{{Codeextralink|https://gist.github.com/mwganson/97d185ac2114701b26d3da47dccc9f7a/raw/8ec08989b6b469f76e234b09a3c481717cf7f60e/Honeycomb.FCMacro|Honeycomb.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/97d185ac2114701b26d3da47dccc9f7a/raw/e5ba077a671824a9908f4cb0ff178bf4502a2045/Honeycomb.FCMacro|Honeycomb.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Macro_Honeycomb.svg )
 

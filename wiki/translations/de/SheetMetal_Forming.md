@@ -93,7 +93,7 @@ Es ist darauf zu achten, dass das Body-Objekt, welches das zu prägende Objekt e
 
 ### Verfvielfältigen und Anordnen 
 
-Um das geprägte Formelement zu vervielfältigen und nach einem Muster anzuordnen, kann eine **Skizze**, die Kreise und Bögen enthält, zu der Eigenschaft {{PropertyData/de|Sketch}} des *WallForming*\'-Objekts hinzugefügt werden.
+Um das geprägte Formelement zu vervielfältigen und nach einem Muster anzuordnen, kann eine **Skizze**, die Kreise und Bögen enthält, zu der Eigenschaft {{PropertyData/de|Sketch}} des *WallForming*\'-Objekts hinzugefügt werden. Diese Anordnungsskizze muss komplanar zu der zu prägenden Fläche sein.
 
 Die Mittelpunkte der Kreise und Bögen werden verwendet, um Positionen vorzugeben, an denen Instanzen der geprägten Formelemente eingesetzt werden; sie haben keinen Einfluss auf die Ausrichtung der Instanzen.
 

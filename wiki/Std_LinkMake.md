@@ -26,12 +26,12 @@ The **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_L
 
 ## Usage
 
-With selection:
+### Same document with selection 
 
 1.  Select an object in the [tree view](tree_view.md) or [3D view](3D_view.md) for which you wish to create a Link.
 2.  Press the **[<img src=images/Std_LinkMake.svg style="width:16px"> [Make link](Std_LinkMake.md)** button. The produced object has the same icon as the original object, but has an arrow overlay indicating it is a Link.
 
-Without selection:
+### Same document without selection 
 
 1.  If no object is selected, press the **[<img src=images/Std_LinkMake.svg style="width:16px"> [Make link](Std_LinkMake.md)** button to create an empty <img alt="" src=images/Link.svg  style="width:24px;"> Link.
 2.  Go to the [property editor](property_editor.md), then click on the **Linked Object** property to open the [Link selection dialog](Selection_methods.md) to choose an object, then press **OK**.
@@ -43,7 +43,7 @@ Without selection:
 
 *(1) An object, (2) an empty Link, (3) a full Link to the first object (with overriding material), and (4) a Link to only some subelements of the object. The empty Link is not tied to the real object so it is not displayed in the [3D view](3D_view.md).*
 
-## Usage: external documents 
+### External document 
 
 1.  Start with a document that has at least one object which will be the source of the Link.
 2.  Open a new document or an existing document. For easier handling, use **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std TreeMultiDocument](Std_TreeMultiDocument.md)** to show both documents in the [tree view](tree_view.md). Before you proceed, [save](Std_Save.md) both documents. The Link won\'t be able to find its source and target unless both documents are saved on disk.
@@ -65,7 +65,7 @@ Without selection:
 
 *(1, 2) Two objects from a source document linked into a target document, (3) a Link to the second Link (with overriding material), and (4) a Link to the subelements of the second Link.*
 
-### Dragging and dropping 
+### Drag and drop 
 
 Instead of switching document tabs, you can create Links by performing a drag and drop operation in the [tree view](Tree_view.md): select the source object from the first document, drag it, then drop it into the second document\'s name while holding the **Alt** key in the keyboard.
 
@@ -76,59 +76,6 @@ Dragging and dropping results in different actions depending on the modifier key
 -   Holding the **Alt** key creates a Link; a pair of chain links is shown in the cursor.
 
 For the **Ctrl** and **Alt** modifiers, dragging and dropping can also be done with a single document. That is, dragging an object and dropping it into the same document\'s name can be used to create multiple copies or multiple Links to it.
-
-## Groups
-
-
-**[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**
-
-can be used on **[<img src=images/Std_Part.svg style="width:16px"> [Std Parts](Std_Part.md)** in order to quickly duplicate groups of objects positioned in space, that is, [assemblies](assembly.md).
-
-![](images/Std_Link_tree_Std_Part_example.png )
-
-
-
-*Link created from a [Std Part](Std_Part.md); the objects are not duplicated but they are listed under the original container and under the Link container.*
-
-A regular **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)** does not possess a **Placement** property, so it cannot control the position of the objects inside of it. However, when **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)** is used with **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)**, the resulting Link behaves essentially like a **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**, and can also be moved in space.
-
-![](images/Std_Link_tree_Std_Group_example.png ) ![](images/Std_Link_Std_Group_example.png )
-
-
-
-*Link created from a [Std Group](Std_Group.md); the objects are not duplicated but they are listed under the original container and under the Link container. The Link (with overriding material) can be moved in space, just like a [Std Part](Std_Part.md).*
-
-A Link to a **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** will keep the visibility of the objects synchronized with the original Part; so if you hide one object in a Link, it will be hidden in all Links and in the original object. On the other hand a Link to a **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)** will allow independent control of the visibilities.
-
-![](images/Std_Link_tree_Std_Part_visibility.png ) ![](images/Std_Link_tree_Std_Group_visibility.png )
-
-
-
-*Left: [Std Part](Std_Part.md) with two objects, and two Links to the Part; the visibility of the objects is synchronized. Right: [Std Group](Std_Group.md) with two objects, and two Links to the Group; the visibility of the objects is independently controlled in each group.*
-
-## Overriding appearance 
-
-When a Link is created, by default the **Override Material** is `False`, so the Link will have the same appearance as the original **Linked Object**.
-
-When **Override Material** is set to `True`, the **Shape Material** property will now control the appearance of the Link.
-
-Regardless of the state of **Override Material**, it is possible to individually set the appearance of the subelements (vertices, edges, faces) of a Link.
-
-1.  Select the Link in the [tree view](tree_view.md). Open the context menu (right-click), and pick **Override colors**.
-2.  Now pick the individual subelements that you want in the [3D view](3D_view.md), press **Edit**, and change the properties including transparency.
-3.  To remove the custom attributes, select the elements in the list, and press **Remove**.
-4.  When you are satisfied with the result, press **OK** to close the dialog.
-
-
-**Note:**
-
-as of v0.19, the coloring of the subelements is subject to the [topological naming problem](topological_naming_problem.md) so it should be done as the last modelling step, when the model is not subject to change any more.
-
- <img alt="" src=images/Std_Link_override_color_example.png  style="width:500px;"> 
-
-
-
-*(1) An original object, (2) a Link with overriding material, and (3) a second Link with individual modified subelements.*
 
 ## Link Array 
 
@@ -153,7 +100,56 @@ Once you are satisfied with the placement and properties of the Link elements in
 
 When creating this type of Link array, you must place each of the elements manually; however, if you would like to use specific patterns to place the copies, you may use the array tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md), like **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft OrthoArray](Draft_OrthoArray.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft PolarArray](Draft_PolarArray.md)**, and **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft CircularArray](Draft_CircularArray.md)**; these commands can create normal copies or Link copies depending on the options at creation time.
 
-## Visibility
+## Link to Std Part 
+
+
+**[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**
+
+can be used on **[<img src=images/Std_Part.svg style="width:16px"> [Std Parts](Std_Part.md)** in order to quickly duplicate groups of objects positioned in space, that is, [assemblies](assembly.md). A Link to a Part will keep the visibility of its child objects synchronized with that Part. If you hide a child object in the Link, it will be hidden in the original Part, as well as in all other Links to that Part.
+
+![](images/Std_Link_tree_Std_Part_example.png )
+
+
+
+*Link created from a [Std Part](Std_Part.md); the objects are not duplicated but they are listed under the original container and under the Link container.*
+
+## Link to Std Group 
+
+A regular **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)** does not possess a **Placement** property, so it cannot control the position of the objects inside of it. However, when **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)** is used with **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group.md)**, the resulting Link behaves essentially like a **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)**, and can also be moved in space. A Link to a Group allows independent control of the visibility of its child objects.
+
+![](images/Std_Link_tree_Std_Group_example.png ) ![](images/Std_Link_Std_Group_example.png )
+
+
+
+*Link created from a [Std Group](Std_Group.md); the objects are not duplicated but they are listed under the original container and under the Link container. The Link (with overriding material) can be moved in space, just like a [Std Part](Std_Part.md).*
+
+## Override appearance 
+
+### Override material 
+
+When a Link is created, by default the **Override Material** is `False`, so the Link will have the same appearance as the original **Linked Object**.
+
+When **Override Material** is set to `True`, the **Shape Material** property will now control the appearance of the Link.
+
+Regardless of the state of **Override Material**, it is possible to individually set the appearance of the subelements (vertices, edges, faces) of a Link.
+
+1.  Select the Link in the [tree view](tree_view.md). Open the context menu (right-click), and pick **Override colors**.
+2.  Now pick the individual subelements that you want in the [3D view](3D_view.md), press **Edit**, and change the properties including transparency.
+3.  To remove the custom attributes, select the elements in the list, and press **Remove**.
+4.  When you are satisfied with the result, press **OK** to close the dialog.
+
+
+**Note:**
+
+as of v0.19, the coloring of the subelements is subject to the [topological naming problem](topological_naming_problem.md) so it should be done as the last modelling step, when the model is not subject to change any more.
+
+ <img alt="" src=images/Std_Link_override_color_example.png  style="width:500px;"> 
+
+
+
+*(1) An original object, (2) a Link with overriding material, and (3) a second Link with individual modified subelements.*
+
+### Override colors 
 
 When **Show Element** is `True` and individual elements are listed in the [tree view](Tree_view.md) in a [Link Array](#Link_Array.md), each Link can be shown or hidden by pressing the **Space** bar in the keyboard.
 
@@ -182,9 +178,9 @@ When the Link is for a **[<img src=images/Std_Part.svg style="width:16px"> [Std 
 
 ## Properties
 
-An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it has the latter\'s basic properties like **Label** and **Label2**.
+The [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class) and inherits all its properties.
 
-The following are the specific properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
+The following are the specific properties available in the [property editor](Property_editor.md). The [App Link](App_Link.md) will additionally show the properties of the original **Linked Object**. Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
 
 ### Data
 
@@ -195,9 +191,9 @@ The following are the specific properties available in the [property editor](Pro
 
 -    **Link Transform|Bool**: it defaults to `False`, in which case the Link will override the **Linked Object**\'s own placement. If it is set to `True`, the Link will be placed in the same position as the **Linked Object**, and its placement will be relative to the **Linked Object**\'s placement. This can also be achieved with **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std LinkMakeRelative](Std_LinkMakeRelative.md)**.
 
--    **Placement|Placement**: the placement of the Link in absolute coordinates.
-
 -    **Link Placement|Placement|Hidden**: it is an offset applied on top of the **Placement** of the **Linked Object**. This property is normally hidden but appears if **Link Transform** is set to `True`; in this case, **Placement** now becomes hidden.
+
+-    **Placement|Placement**: the placement of the Link in absolute coordinates.
 
 -    **Show Element|Bool**: it defaults to `True`, in which case the [tree view](tree_view.md) will show the individual Link copies, as long as **Element Count** is {{Value|1}} or larger.
 
@@ -206,6 +202,8 @@ The following are the specific properties available in the [property editor](Pro
 -    **Link Execute|String**: name of the execute function that will run for this particular Link object. It defaults to {{Value|'appLinkExecute'}}. Set it to {{Value|'None'}} to disable it.
 
 -    **Colored Elements|LinkSubHidden|Hidden**: list of Link elements that have had their color overriden.
+
+-    **Link Copy On Change|Enumeration**: {{Value|Disabled}} or {{Value|Enabled}}.
 
 -    **Scale|Float**: it defaults to {{Value|1.0}}. It is a factor for uniform scaling in each direction `X`, `Y`, and `Z`. For example, a cube of {{Value|2 mm}} x {{Value|2 mm}} x {{Value|2 mm}}, that is scaled by {{Value|2.0}}, will result in a shape with dimensions {{Value|4 mm}} x {{Value|4 mm}} x {{Value|4 mm}}.
 
@@ -219,23 +217,23 @@ The following are the specific properties available in the [property editor](Pro
 
 -    **Element List|LinkList|Hidden**: the list of Link elements.
 
--    **_LinkTouched|Bool|Hidden**:
+-    **_ Link Touched|Bool|Hidden**:
 
--    **_ChildCache|LinkList|Hidden**:
+-    **_ Child Cache|LinkList|Hidden**:
+
+-    **_ Link Owner|Integer|Hidden**:
 
 
 {{TitleProperty|Base}}
 
 -    **Proxy|PythonObject|Hidden**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Std_LinkMake#Scripting.md).
 
-The [App Link](App_Link.md) object will additionally show the properties of the original **Linked Object**, so the [property editor](property_editor.md) may have groups of properties like {{TitleProperty|Attachment}}, {{TitleProperty|Box}}, {{TitleProperty|Draft}}, etc.
-
 ### View
 
 
 {{TitleProperty| Link}}
 
--    **Draw Style|Enumeration**: it defaults to {{Value|None}}; it can be {{value|Solid}}, {{value|Dashed}}, {{value|Dotted}}, {{value|Dashdot}}; defines the style of the edges in the [3D view](3D_view.md).
+-    **Draw Style|Enumeration**: it defaults to {{Value|None}}; it can be {{value|Solid}}, {{value|Dashed}}, {{value|Dotted}}; defines the style of the edges in the [3D view](3D_view.md).
 
 -    **Line Width|FloatConstraint**: a float that determines the width in pixels of the edges in the [3D view](3D_view.md). It defaults to {{value|2.0}}.
 
@@ -288,10 +286,12 @@ The [App Link](App_Link.md) object will additionally show the properties of the 
 
 -    **Override Material List|BoolList|Hidden**: **(read-only)** if the individual materials of the link have been overridden they will be listed here.
 
+-    **Proxy|PythonObject|hidden**: a custom [viewprovider](Viewprovider.md) class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](#Scripting.md).
+
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: {{Value|'Link'}} or {{Value|'ChildView'}}.
+-    **Display Mode|Enumeration|Hidden**: {{Value|Link}} or {{Value|ChildView}}.
 
 -    **Show In Tree|Bool**: see the information in [App FeaturePython](App_FeaturePython.md).
 
@@ -304,51 +304,41 @@ The [App Link](App_Link.md) object will additionally show the properties of the 
 
 -    **Selection Style|Enumeration**: see the information in [App FeaturePython](App_FeaturePython.md).
 
-It will additionally show the view properties of the original **Linked Object**.
-
-## Inheritance
-
-An [App Link](App_Link.md) is formally an instance of the class `App::Link`, whose parent is the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class). It is a very low level object, which can be used with most other document objects.
-
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
-
-
-
-*Simplified diagram of the relationships between the core objects in the program. The `App::Link* object is a core component of the system, it does not depend on any workbench, but it can be used with most objects created in all workbenches.`
-
 ## Scripting
 
 
 **See also:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](scripted_objects.md).
+[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
 
-See [Part Feature](Part_Feature.md) for the general information.
+See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
 
-An App Link is created with the  
+An App Link is created with the `addObject()` method of the document. its **Linked Object** can be defined by changing its `LinkedObject` property, or by using its `setLink` method.
+
+ 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-bod1 = App.ActiveDocument.addObject("Part::Box", "Box")
-bod2 = App.ActiveDocument.addObject("Part::Cylinder", "Cylinder")
-bod1.Placement.Base = App.Vector(10, 0, 0)
-bod2.Placement.Base = App.Vector(0, 10, 0)
+obj1 = App.ActiveDocument.addObject("Part::Box", "Box")
+obj2 = App.ActiveDocument.addObject("Part::Cylinder", "Cylinder")
+obj1.Placement.Base = App.Vector(10, 0, 0)
+obj2.Placement.Base = App.Vector(0, 10, 0)
 
-obj1 = App.ActiveDocument.addObject("App::Link", "Link")
-obj2 = App.ActiveDocument.addObject("App::Link", "Link")
+link1 = App.ActiveDocument.addObject("App::Link", "Link")
+link2 = App.ActiveDocument.addObject("App::Link", "Link")
 
-obj1.LinkedObject = bod1
-obj2.setLink(bod2)
-obj1.Placement.Base = App.Vector(-10, -10, 0)
-obj2.Placement.Base = App.Vector(10, -10, 0)
-obj1.ViewObject.OverrideMaterial = True
+link1.LinkedObject = obj1
+link2.setLink(obj2)
+link1.Placement.Base = App.Vector(-10, -10, 0)
+link2.Placement.Base = App.Vector(10, -10, 0)
+link1.ViewObject.OverrideMaterial = True
 App.ActiveDocument.recompute()
 ```
 
 The basic `App::Link` doesn\'t have a Proxy object so it can\'t be fully used for sub-classing.
 
-Therefore, for [Python](Python.md) subclassing, you should create the `App::LinkPython` object.
+For [Python](Python.md) subclassing you should create a `App::LinkPython` object.
 
  
 ```python

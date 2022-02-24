@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Fixture
    Name/fr:Path Point de fixation
-   MenuLocation:Path → Supplemental commands → Point de fixation
+   MenuLocation:Parcours → Commandes additionnelles → Point de fixation
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -22,14 +22,14 @@ Le code G59 est utilisé pour étendre les capacités disponibles (nombre de poi
 
 ## Utilisation
 
-1.  Pressez le bouton **<img src="images/Path_Fixture.svg" width=16px> [Path Point de Fixation](Path_Fixture/fr.md)** ou utilisez le raccourci clavier **P** puis **F**.
+1.  Pressez le bouton **<img src="images/Path_Fixture.svg" width=16px> [Point de Fixation](Path_Fixture/fr.md)** ou utilisez le raccourci clavier **P** puis **F**.
 2.  Sélectionnez le dispositif de décalage de travail souhaité dans le menu déroulant.
 
 ## Propriétés
 
--    {{PropertyData/fr|Fixture}}: Définit le décalage courant.
+-    **Fixture**: Définit le décalage courant.
 
--    {{PropertyData/fr|Active}}: Définit si cette commande est active ou non lors de l\'ajout dans un composé.
+-    **Active**: Définit si cette commande est active ou non lors de l\'ajout dans un composé.
 
 ## Remarques
 

@@ -30,6 +30,9 @@ Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal 
 
 Nell\'uso informale, una \"Parte\" può essere qualunque figura geometrica che sia visibile nella [Vista 3D](3D_view/it.md), e dunque il suo concetto può essere confuso con quello di \"[Corpo](Body/it.md)\" o \"[Assemblaggio](Assembly/it.md)\".
 
+
+<div class="mw-translate-fuzzy">
+
 Tuttavia, quando è richiesta maggiore precisione, vanno fatte le dovute distinzioni.
 
 -   Un \"[Corpo](Body/it.md)\" è usato per singoli elementi contigui, di solito creati con gli ambienti di lavoro [Parte](Part_Workbench/it.md) o [Part Design](PartDesign_Workbench/it.md).
@@ -37,6 +40,9 @@ Tuttavia, quando è richiesta maggiore precisione, vanno fatte le dovute distinz
 -   Una \"Parte\" è usata per raggruppare un singolo \"Corpo\", o diversi, per formare un \"Assemblaggio\".
     -   Una \"Parte\" ha una collezione di \"[Forme](Shape/it.md)\", ma non ha essa stessa una \"Forma\".
 -   Un \"Assemblaggio\" è una collezione di \"Parti\" organizzate in una qualche maniera, manualmente, o usando un ambiente di assemblaggio.
+
+
+</div>
 
 
 {{Std Base navi

@@ -28,20 +28,23 @@ Vous pouvez référencer n\'importe quelle propriété numérique d\'un objet. P
 Pour référencer des objets de liste, utilisez `<<object_label>>.list[list_index]` ou `object_name.list [index_liste]`. Si vous souhaitez par exemple référencer une contrainte dans une esquisse, utilisez `<<MySketch>>.Constraints[16]`. Si vous êtes dans la même esquisse, vous pouvez omettre son nom et utiliser simplement `Constraints[16]`.
 **Remarque :** L\'index commence par 0, la contrainte 17 a donc l\'index 16.
 
-Pour plus d\'informations sur le référencement des objets, voir [Référence aux données CAO](#R.C3.A9f.C3.A9rence_aux_donn.C3.A9es_CAO.md).
+Pour plus d\'informations sur le référencement des objets, voir [Référence aux données CAO](#R.C3.A9f.C3.A9rence_aux_donn.C3.A9es_CAO.md). {{Top}}
 
 ## Constantes prises en charge 
 
-Les constantes suivantes sont supportées:
+Les constantes suivantes sont prises en charge :
 
   Constante   Description
    
   **e**       [nombre d\'Euler](https://fr.wikipedia.org/wiki/E_(nombre))
   **pi**      [Pi](https://fr.wikipedia.org/wiki/Pi)
 
+
+{{Top}}
+
 ## Opérateurs pris en charge 
 
-Les opérations suivantes sont supportées:
+Les opérateurs suivants sont pris en charge :
 
   Opération   Description
    
@@ -52,14 +55,18 @@ Les opérations suivantes sont supportées:
   **%**       [Reste](https://fr.wikipedia.org/wiki/Reste)
   **\^**      [Exponentiation](https://fr.wikipedia.org/wiki/Exponentiation)
 
+
+{{Top}}
+
 ## Fonctions supportées 
 
 ### Fonctions mathématiques générales 
 
-Les fonctions mathématiques suivantes sont disponibles.
+Les fonctions mathématiques suivantes sont prises en charge :
 
-Les [fonctions trigonométriques](https://fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique) utilisent le degré comme unité par défaut. Pour la mesure en radian, ajoutez première valeur dans une expression. Par exemple `cos(45)` est identique à `cos(pi rad / 4)`. Les expressions en `deg` ou `°`, comme `360deg - atan2(3; 4)` ou `360&deg; - atan2(3; 4)`. Si une expression est sans unités et doit être convertie en degrés ou radians pour la compatibilité, multipliez par `1&nbsp;deg`, `1&nbsp;°` ou `1&nbsp;rad` selon le cas, par ex. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
-Ces fonctions trigonométriques sont supportées :
+#### Fonctions trigonométriques 
+
+[Les fonctions trigonométriques](https://fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique) utilisent le degré comme unité par défaut. Pour la mesure du radian, ajoutez première valeur dans une expression. Ainsi, par exemple, `cos(45)` est identique à `cos(pi rad / 4)`. Les expressions en degrés peuvent utiliser soit `deg` soit `°`, par exemple `360deg - atan2(3 ; 4)` ou `360&deg ; - atan2(3 ; 4)`. Si une expression est sans unité et doit être convertie en degrés ou en radians pour des raisons de compatibilité, multipliez-la par `1&nbsp;deg`, `1&nbsp;°` ou `1&nbsp;rad` selon le cas, par exemple `(360 - X) * 1deg` ; `(360 - X) * 1°` ; `(0.5 + pi / 2) * 1rad`.
 
   Fonction      Description                                                                                                               Plage des valeurs
     
@@ -76,7 +83,7 @@ Ces fonctions trigonométriques sont supportées :
   hypot(x; y)   [Somme pythagoricienne](https://fr.wikipedia.org/wiki/Somme_pythagoricienne) (**hypot**énuse). Par ex. hypot(4; 3) = 5.   x et y \> 0
   cath(x; y)    Étant donné l\'hypoténuse, et un côté, donne l\'autre côté du triangle. Par ex. cath(5; 3) = 4.                           x et y \> 0, x \>= y
 
-Ces fonctions d'exponentiation et de logarithmisation sont prises en charge:
+#### Fonctions exponentielles et logarithmiques 
 
   Fonction    Description                                                                      Plage des valeurs
     
@@ -86,7 +93,7 @@ Ces fonctions d'exponentiation et de logarithmisation sont prises en charge:
   pow(x; y)   [Les puissances](https://fr.wikipedia.org/wiki/Exposant_(math%C3%A9matiques))    tout
   sqrt(x)     [Racine carrée](https://fr.wikipedia.org/wiki/Racine_carr%C3%A9e)                x \>= 0
 
-Ces fonctions d\'arrondi, de troncature et de reste sont supportées:
+#### Fonctions d\'arrondi, de troncature et de reste 
 
   Fonction    Description                                                                                                                                                                                 Plage des valeurs
     
@@ -97,12 +104,15 @@ Ces fonctions d\'arrondi, de troncature et de reste sont supportées:
   round(x)    [Arrondi](https://fr.wikipedia.org/wiki/Arrondi_(math%C3%A9matiques)) au nombre entier le plus proche                                                                                       tout
   trunc(x)    [Troncature](https://fr.wikipedia.org/wiki/Troncature) au nombre entier le plus proche en direction de zéro                                                                                 tout
 
+
+{{Top}}
+
 ### Statistiques et fonctions d\'agrégation 
 
 [Les fonctions d\'agrégation](https://fr.wikipedia.org/wiki/Fonction_d%27agr%C3%A9gation) prennent un ou plusieurs arguments.
 Les arguments individuels pour agréger les fonctions peuvent être constitués de plages de cellules. Une plage de cellules est exprimée sous la forme de deux références de cellule séparées par deux points {{Incode|:}}, par exemple {{Incode|average(B1:B8)}} ou {{Incode|sum(A1:A4; B1:B4)}}. Les références de cellule peuvent également utiliser des alias de cellule, par exemple {{Incode|average(StartTemp:EndTemp)}}.
 
-Les fonctions cumulatives supportées sont
+Les fonctions d\'agrégation suivantes sont prises en charge :
 
   Fonction                 Description                                                                                                                                      Plage des valeurs
     
@@ -112,6 +122,9 @@ Les fonctions cumulatives supportées sont
   min(a; b; c; \...)       Valeur [Minimum](https://fr.wikipedia.org/wiki/Extremum) des arguments                                                                           tout
   stddev(a; b; c; \...)    [Écart type](https://fr.wikipedia.org/wiki/%C3%89cart_type) des valeurs des arguments                                                            tout
   sum(a; b; c; \...)       [Somme](https://fr.wikipedia.org/wiki/Somme_(arithm%C3%A9tique)) des valeurs des arguments; généralement utilisé pour les plages de cellules     tout
+
+
+{{Top}}
 
 ### Manipulation de chaînes de caractères 
 
@@ -133,11 +146,11 @@ Le formatage des chaînes de caractères est pris en charge en utilisant le (vie
 
 Tous les spécificateurs % tels que définis dans la [documentation Python](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting).
 
-Par exemple, supposons que vous ayez un cube par défaut de 10mm de côté nommé \'Box\' \--nomination par défaut de FreeCAD\--, l\'expression suivante `<<Cube length : %s>> % Box.Length` se développera en \"Cube length : 10.0 mm\"
+Par exemple, supposons que vous ayez un cube par défaut de 10mm de côté nommé \'Box\' (nomination par défaut de FreeCAD), l\'expression suivante `<<Cube length : %s>> % Box.Length` se développera en \"Cube length : 10.0 mm\"
 
-Une limitation est qu\'un seul spécificateur % est autorisé dans une chaîne, vous devez donc utiliser la concaténation de chaînes si plusieurs sont nécessaires. Dans la même situation que ci-dessus, l\'expression `<<Cube length is %s>> % Box.Length + << and width is %s>> % Box.Width` se développera en \"Cube length is 10.0 mm and width is 10.0 mm\".
+Au dessus d\'un spécificateur de %, utilisez la syntaxe suivante : `<<Cube length is %s and width is %s>> % tuple(Box.Length; Box.Width)`. Ou utilisez la concaténation : `<<Cube length is %s>> % Box.Length + << and width is %s>> % Box.Width`. Les deux se développeront en \"Cube length is 10.0 mm and width is 10.0 mm\".
 
-Un exemple de fichier FreeCAD utilisant le formatage des chaînes de caractères est disponible [dans le forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657).
+Un exemple de fichier FreeCAD utilisant le formatage des chaînes de caractères est disponible [dans le forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657). {{Top}}
 
 ### Créer une fonction 
 
@@ -223,7 +236,7 @@ L\'exemple suivant montre la syntaxe pour créer un `Placement` à partir d\'une
 
 `create(<<placement>>; create(<<vector>>; 2; 1; 2); create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45))`
 
-Pour plus de lisibilité, vous pouvez définir les vecteurs et les rotations dans des cellules distinctes, puis faire référence à ces cellules dans votre expression.
+Pour plus de lisibilité, vous pouvez définir les vecteurs et les rotations dans des cellules distinctes, puis faire référence à ces cellules dans votre expression. {{Top}}
 
 ### Fonctions matricielles 
 
@@ -250,6 +263,9 @@ Inverse la `Matrice`, `Rotation` ou le `Placement` donné.
 
 `minvert(Placement)`
 
+
+{{Top}}
+
 ### Tuple & liste 
 
 Vous pouvez créer des objets Python `tuple` ou `list` via leurs fonctions respectives.
@@ -259,6 +275,9 @@ Vous pouvez créer des objets Python `tuple` ou `list` via leurs fonctions respe
 
 
 `list(2; 1; 2)`
+
+
+{{Top}}
 
 ## Expressions conditionnelles 
 
@@ -275,6 +294,9 @@ Les [opérateurs relationnels](https://en.wikipedia.org/wiki/Relational_operator
   **\>=**   plus grand ou égal à
   **\<=**   plus petit ou égal à
 
+
+{{Top}}
+
 ## Unités
 
 Les unités peuvent être directement utilisées dans des expressions. L\'analyseur les connecte à la valeur précédente. Donc `2mm` ou `2 mm` sont valides tandis que `mm` est invalide car il n\'y a pas de valeur.
@@ -288,11 +310,13 @@ Si vous avez une variable dont le nom est celui d\'une unité, vous devez mettre
 
 Les unités suivantes sont reconnues par l'analyseur d'expression:
 
+### Quantité de substance 
+
   Unité   Description
    
   mol     [Mole](https://fr.wikipedia.org/wiki/Mole_(unit%C3%A9))
 
-Angle:
+### Angle
 
   Unité   Description
    
@@ -305,7 +329,7 @@ Angle:
   M       [Minute d\'arc](https://fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); alternative à l\'unité ′
   ′       [Minute d\'arc](https://fr.wikipedia.org/wiki/Sous-unit%C3%A9s_du_degr%C3%A9); à l\'unité M
 
-Courant:
+### Courant
 
   Unité   Description
    
@@ -314,7 +338,7 @@ Courant:
   kA      Kilo[Ampère](https://fr.wikipedia.org/wiki/Amp%C3%A8re)
   MA      Méga[Ampère](https://fr.wikipedia.org/wiki/Amp%C3%A8re)
 
-Energie / Travail:
+### Énergie/travail
 
   Unité   Description
    
@@ -323,7 +347,7 @@ Energie / Travail:
   VAs     [Volt ampère seconde](https://fr.wikipedia.org/wiki/Joule); alternative à l\'unité *Joule*
   CV      [Coulomb·volt](https://en.wikipedia.org/wiki/Joule); alternative à l\'unité *Joule*
 
-Force:
+### Force
 
   Unité   Description
    
@@ -333,7 +357,7 @@ Force:
   MN      [mégaNewton](https://fr.wikipedia.org/wiki/Newton_(unit%C3%A9))
   lbf     [Livre-force](https://fr.wikipedia.org/wiki/Livre-force)
 
-Longueur:
+### Longueur
 
   Unité   Description
    
@@ -354,13 +378,13 @@ Longueur:
   yd      [yard ou verge](https://fr.wikipedia.org/wiki/Verge_(unit%C3%A9))
   mi      [mille](https://fr.wikipedia.org/wiki/Mille_(unit%C3%A9))
 
-Intensité lumineuse :
+### Intensité lumineuse 
 
-  Unit\"   Description
+  Unité\"   Description
    
-  cd       [Candela](https://fr.wikipedia.org/wiki/Candela)
+  cd        [Candela](https://fr.wikipedia.org/wiki/Candela)
 
-Poids:
+### Poids
 
   Unité   Description
    
@@ -376,14 +400,14 @@ Poids:
   st      [Stone](https://fr.wikipedia.org/wiki/Stone_(unit%C3%A9))
   cwt     [Hundredweight](https://en.wikipedia.org/wiki/Hundredweight)
 
-Puissance:
+### Puissance
 
   Unité   Description
    
   W       [Watt](https://fr.wikipedia.org/wiki/Watt)
   VA      [Voltampère](https://fr.wikipedia.org/wiki/Voltamp%C3%A8re)
 
-Pression:
+### Pression
 
   Unité   Description
    
@@ -398,7 +422,7 @@ Pression:
   psi     [Livre-force par pouce carré](https://fr.wikipedia.org/wiki/Livre-force_par_pouce_carr%C3%A9); 1 psi = 6.895 kPa
   ksi     Kilo[livre-force par pouce carré](https://fr.wikipedia.org/wiki/Livre-force_par_pouce_carr%C3%A9)
 
-Température:
+### Température
 
   Unité   Description
    
@@ -407,21 +431,23 @@ Température:
   mK      [millikelvin](https://fr.wikipedia.org/wiki/Kelvin)
   K       [Kelvin](https://fr.wikipedia.org/wiki/Kelvin)
 
-Temps :
+### Temps
 
   Unité   Description
    
-  s       [Second](https://fr.wikipedia.org/wiki/Seconde_(temps))
+  s       [Seconde](https://fr.wikipedia.org/wiki/Seconde_(temps))
   min     [Minute](https://fr.wikipedia.org/wiki/Minute_(temps))
   h       [Heure](https://fr.wikipedia.org/wiki/Heure)
 
-Volume:
+### Volume
 
   Unité   Description
    
   l       [Litre](https://fr.wikipedia.org/wiki/Litre)
 
-Les unités couramment utilisées suivantes ne sont pas encore prises en charge:
+### Unités non supportées 
+
+Les unités suivantes, couramment utilisées, ne sont pas encore prises en charge ; pour certaines, une alternative est proposée :
 
   Unité   Description                                                                                                                             Alternative
     
@@ -433,6 +459,9 @@ Les unités couramment utilisées suivantes ne sont pas encore prises en charge:
   lm      [Lumen](https://fr.wikipedia.org/wiki/Lumen_(unit%C3%A9))                                                                               Pas directement
   lx      [Lux](https://fr.wikipedia.org/wiki/Lux_(unit%C3%A9))                                                                                   Pas directement
   px      [Pixel](https://fr.wikipedia.org/wiki/Pixel)                                                                                            Pas directement
+
+
+{{Top}}
 
 ## Caractères et noms non valides 
 
@@ -474,7 +503,7 @@ Par exemple, le nom suivant est valide: `<<Sketch>>.Constraints.T2üßµ@`, alor
 
 ### Alias de cellules 
 
-Pour les [alias de cellule de feuille de calcul](Spreadsheet_SetAlias/fr.md), seuls les caractères alphanumériques et les traits de soulignement (`A` à `Z`, `a` à `z`, `0` à `9` et `_`) sont autorisés.
+Pour les [alias de cellule de feuille de calcul](Spreadsheet_SetAlias/fr.md), seuls les caractères alphanumériques et les traits de soulignement (`A` à `Z`, `a` à `z`, `0` à `9` et `_`) sont autorisés. {{Top}}
 
 ## Référence aux données CAO 
 
@@ -522,9 +551,12 @@ Le tableau suivant montre quelques exemples :
 |                                                          |                                    |                                                                                                                                                                                                        |
 ++++
 
+
+{{Top}}
+
 ## Variables globales 
 
-Pour le moment il n\'y a pas de notion de variables globales dans FreeCAD. Mais des variables arbitraires peuvent être définies comme des cellules dans une feuille de calcul en utilisant [l\'atelier Spreadsheet](Spreadsheet_Workbench/fr.md), auquelles on aura donné un nom en utilisant l\'alias de la propriété pour la cellule utilisée (clic-droit dans la cellule). Ainsi, elles peuvent être accessibles à partir de toute expression comme toute autre propriété de l\'objet.
+Pour le moment il n\'y a pas de notion de variables globales dans FreeCAD. Mais des variables arbitraires peuvent être définies comme des cellules dans une feuille de calcul en utilisant [l\'atelier Spreadsheet](Spreadsheet_Workbench/fr.md), auquelles on aura donné un nom en utilisant l\'alias de la propriété pour la cellule utilisée (clic-droit dans la cellule). Ainsi, elles peuvent être accessibles à partir de toute expression comme toute autre propriété de l\'objet. {{Top}}
 
 ## Liaison entre documents 
 
@@ -541,7 +573,7 @@ Une fois que le document maître avec la feuille de calcul est créé et enregis
 
 Malheureusement, le vérificateur intégré suppose parfois qu'aucun nom valide étendu n'existe. Continuez à taper quand même. Lorsque vous avez terminé la référence complète, le bouton **OK** devient actif.
 
-Bien sûr, vous pouvez charger les documents correspondants à tout moment pour y faire les modifications que vous voudrez.
+Bien sûr, vous pouvez charger les documents correspondants à tout moment pour y faire les modifications que vous voudrez. {{Top}}
 
 ## Problèmes connus / tâches restantes 
 
@@ -550,6 +582,9 @@ Bien sûr, vous pouvez charger les documents correspondants à tout moment pour 
 -   Comme indiqué ci-dessus, malheureusement, le vérificateur intégré prétend parfois qu\'un nom valide n\'existe pas. Continuez à taper quand même. Une fois la référence complète terminée, le bouton **OK** devient actif.
 -   FreeCAD ne dispose pas encore d\'un gestionnaire d\'expressions intégré où toutes les expressions d\'un document sont listées et peuvent être créées, supprimées, interrogées etc\... Un addon est disponible : [fcxref expression manager](https://github.com/gbroques/fcxref).
 -   les bogues et tickets ouverts pour les expressions sont référencés sur le [Bugtracker de Freecad, catégorie Expressions](https://freecadweb.org/tracker/set_project.php?project_id=4;20)
+
+
+{{Top}}
 
 
 

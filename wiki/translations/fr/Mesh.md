@@ -1,4 +1,6 @@
 # Mesh/fr
+{{TOCright}}
+
 ## Introduction
 
 Dans FreeCAD, le mot \"[Mesh](Mesh/fr.md)\" est normalement utilisé pour désigner un [Mesh Object](Mesh_MeshObject/fr.md) (`Mesh::MeshObject` class), un type d\'objet qui définit les données 3D mais n\'est pas un solide \"[Shape](Shape/fr.md)\".
@@ -21,7 +23,7 @@ Les maillages sont normalement créés par des fonctions internes de [Mesh Workb
 
 Essentiellement, chaque objet dérivé d\'une [Mesh Feature](Mesh_Feature/fr.md) (classe `Mesh::Feature`) devrait contenir et manipuler un maillage.
 
-Étant donné que FreeCAD est principalement conçu pour être un modeleur solide, il est mieux adapté pour traiter les solides [Shapes](Shape/fr.md). Il peut importer et afficher des maillages dans la [vue 3D](3D_view/fr.md), mais pour les transformer ou créer une nouvelle géométrie, le maillage doit d\'abord être converti en [Shape](Shape/fr.md) (voir [Part ShapeFromMesh ](Part_ShapeFromMesh/fr.md)). Dans de nombreux cas, cette conversion n\'est pas automatique et nécessite de recréer la géométrie à l\'aide de techniques de modélisation solides, en utilisant les outils [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md).
+Puisque FreeCAD est principalement conçu pour être un modeleur solide, il est mieux adapté pour traiter les [Shapes](Shape/fr.md) des solides. Il peut importer et afficher des maillages dans la [vue 3D](3D_view/fr.md), et l\'[atelier Mesh](Mesh_Workbench/fr.md) offre quelques commandes pour les manipuler directement. Mais dans de nombreux cas, le maillage doit d\'abord être converti en une [Shape](Shape/fr.md). (voir [Part Forme à partir d\'un maillage](Part_ShapeFromMesh/fr.md)), ou la géométrie doit être recréée à l\'aide des techniques de modélisation solide de l\'[atelier Part](Part_Workbench/fr.md) ou de l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
 
 ## Maillage par éléments finis 
 

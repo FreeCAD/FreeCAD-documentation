@@ -21,9 +21,7 @@ W nieformalnym użyciu, \"Część\" może być dowolną figurą geometryczną, 
 Jednakże, gdy wymagana jest większa precyzja, należy dokonać rozróżnienia.
 
 -   \"[Zawartość](Body/pl.md)\" jest używana dla pojedynczych, ciągłych elementów, zazwyczaj tworzonych za pomocą środowisk [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md).
-    -   \"Bryła\" ma \"[Kształt](Shape/pl.md)\".
 -   \"Część\" jest używana do grupowania pojedynczych \"Zawartości\" lub kilku z nich w celu utworzenia \"Złożenia\".
-    -   \"Część\" posiada pewną strukturę \"[Kształtów](Shape/pl.md)\", ale nie posiada własnego \"Kształtu\".
 -   \"Złożenie\" jest zbiorem \"Części\" ułożonych w jakiś sposób, ręcznie lub przy użyciu środowiska pracy.
 
 

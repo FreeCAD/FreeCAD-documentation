@@ -76,7 +76,12 @@ git rev-list --count HEAD
 To translate the current snap development version in to a revision number (make sure you\'re within your cloned FreeCAD repository as mentioned above):
 
  {{Code|lang=bash|code=
-snap info freecad-ppd {{!}}
+snap info freecad-ppd <nowiki>|</nowiki>\
+grep -e '^installed:' <nowiki>|</nowiki>\
+awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
+cut -d'~' -f2 <nowiki>|</nowiki>\
+xargs -I{} git rev-list --count {}
+}}
 
 The difference between the numbers will tell you how many revisions behind upstream the snap development (edge) is.
 

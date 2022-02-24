@@ -5,7 +5,7 @@
    MenuLocation:TechDraw → Déplacer une vue
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.20
-   SeeAlso:[TechDraw Partager une vue](TechDraw_ShareView/fr.md)
+   SeeAlso:[TechDraw Copier une vue](TechDraw_ShareView/fr.md)
 ---
 
 # TechDraw MoveView/fr

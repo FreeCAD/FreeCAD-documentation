@@ -39,6 +39,8 @@ La **<img src="images/PartDesign_Pad.svg" width=16px> [DiseñoPieza Pastilla](Pa
 
 </div>
 
+When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
+
 ## Opciones
 
 

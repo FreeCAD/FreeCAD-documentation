@@ -17,139 +17,147 @@ Voici les icônes créés pour FreeCad. N\'hésitez pas à les utiliser dans vos
 
 ## Images de démarrage 
 
-Voir [Artwork Splash screen](Artwork_Splash_screen/fr.md).
+Voir [Graphisme Écran de démarrage](Artwork_Splash_screen/fr.md).
 
 ## Icônes selon leur localisation dans le code source 
 
 ### Depuis src/Gui/ 
 
-Voir [Artwork Gui](Artwork_Gui/fr.md).
+Voir [Graphisme Gui](Artwork_Gui/fr.md).
 
 ### Depuis src/Mod/Arch/ 
 
-Voir [Artwork Arch](Artwork_Arch/fr.md).
+Voir [Graphisme Arch](Artwork_Arch/fr.md).
 
 ### Depuis src/Mod/Assembly/ 
 
-Voir [Artwork Assembly](Artwork_Assembly/fr.md).
+Voir [Graphisme Assembly](Artwork_Assembly/fr.md).
 
 ### Depuis src/Mod/Complete/ 
 
-Voir [Artwork Complete](Artwork_Complete/fr.md).
+Voir [Graphisme complet](Artwork_Complete/fr.md).
 
 ### Depuis src/Mod/Draft/ 
 
-Voir [Artwork Draft](Artwork_Draft/fr.md).
+Voir [Graphisme Draft](Artwork_Draft/fr.md).
 
 ### Depuis src/Mod/Drawing/ 
 
-Voir [Artwork Drawing](Artwork_Drawing/fr.md).
+Voir [Graphisme Drawing](Artwork_Drawing/fr.md).
 
 ### Depuis src/Mod/Fem/ 
 
-Voir [Artwork Fem](Artwork_Fem/fr.md).
+Voir [Graphisme FEM](Artwork_Fem/fr.md).
 
 ### Depuis src/Mod/Image/ 
 
-Voir [Artwork Image](Artwork_Image/fr.md).
+Voir [Graphisme Image](Artwork_Image/fr.md).
 
 ### Depuis src/Mod/Inspection/ 
 
-Voir [Artwork Inspection](Artwork_Inspection/fr.md).
+Voir [Graphisme Inspection](Artwork_Inspection/fr.md).
 
 ### Depuis src/Mod/Material/ 
 
-Voir [Artwork Material](Artwork_Material/fr.md).
+Voir [Graphisme Material](Artwork_Material/fr.md).
 
 ### Depuis src/Mod/Mesh/ 
 
-Voir [Artwork Mesh](Artwork_Mesh/fr.md).
+Voir [Graphisme Mesh](Artwork_Mesh/fr.md).
 
 ### Depuis src/Mod/MeshPart/ 
 
-Voir [Artwork MeshPart](Artwork_MeshPart/fr.md).
+Voir [Graphisme MeshPart](Artwork_MeshPart/fr.md).
 
 ### Depuis src/Mod/OpenSCAD/ 
 
-Voir [Artwork OpenSCAD](Artwork_OpenSCAD/fr.md).
+Voir [Graphisme OpenSCAD](Artwork_OpenSCAD/fr.md).
 
 ### Depuis src/Mod/Part/ 
 
-Voir [Artwork Part](Artwork_Part.md).
+Voir [Graphisme Part](Artwork_Part/fr.md).
 
 ### Depuis src/Mod/PartDesign/ 
 
-Voir [Artwork PartDesign](Artwork_PartDesign.md).
+Voir [Graphisme PartDesign](Artwork_PartDesign/fr.md).
 
 ### Depuis src/Mod/Path/ 
 
-Voir [Artwork Part](Artwork_Part.md).
+Voir [Graphisme Part](Artwork_Part/fr.md).
 
 ### Depuis src/Mod/Points/ 
 
-Voir [Artwork Points](Artwork_Points/fr.md).
+Voir [Graphisme Points](Artwork_Points/fr.md).
 
 ### Depuis src/Mod/Raytracing/ 
 
-Voir [Artwork Raytracing](Artwork_Raytracing.md).
+Voir [Graphisme Raytracing](Artwork_Raytracing/fr.md).
 
 ### Depuis src/Mod/ReverseEngineering/ 
 
-Voir [Artwork ReverseEngineering](Artwork_ReverseEngineering.md).
+Voir [Graphisme ReverseEngineering](Artwork_ReverseEngineering/fr.md).
 
 ### Depuis src/Mod/Robot/ 
 
-Voir [Artwork Robot](Artwork_Robot.md).
+Voir [Graphisme Robot](Artwork_Robot/fr.md).
 
 ### Depuis src/Mod/Sketcher/ 
 
-Voir [Artwork Sketcher](Artwork_Sketcher.md).
+Voir [Graphisme Sketcher](Artwork_Sketcher/fr.md).
 
 ### Depuis src/Mod/Spreadsheet/ 
 
-Voir [Artwork Spreadsheet](Artwork_Spreadsheet.md).
+Voir [Graphisme Spreadsheet](Artwork_Spreadsheet/fr.md).
 
 ### Depuis src/Mod/Start/ 
 
-Voir [Artwork Start](Artwork_Start.md).
+Voir [Graphisme Start](Artwork_Start/fr.md).
 
 ### Depuis src/Mod/Surface/ 
 
-Voir [Artwork Surface](Artwork_Surface.md).
+Voir [Graphisme Surface](Artwork_Surface/fr.md).
 
 ### Depuis src/Mod/TechDraw/ 
 
-Voir [Artwork TechDraw](Artwork_TechDraw.md).
+Voir [Graphisme TechDraw](Artwork_TechDraw/fr.md).
 
 ### Depuis src/Mod/Test 
 
-Voir [Artwork Test](Artwork_Test.md).
+Voir [Graphisme Test](Artwork_Test/fr.md).
 
 ### Depuis src/Mod/Tux/ 
 
-Voir [Artwork Tux](Artwork_Tux.md).
+Voir [Graphisme Tux](Artwork_Tux/fr.md).
 
 ### Depuis src/Mod/Web/ 
 
-Voir [Artwork Web](Artwork_Web.md).
+Voir [Graphisme Web](Artwork_Web/fr.md).
 
 ## Ateliers externes et addons 
 
+### Depuis Mod/asm3/ 
+
+Voir [Graphisme Assembly3](Artwork_Assembly3/fr.md).
+
 ### Depuis Mod/Plot/ 
 
-Voir [Artwork Plot](Artwork_Plot.md).
+Voir [Graphisme Plot](Artwork_Plot/fr.md).
 
 ### Depuis Mod/Reinforcement/ 
 
-Voir [Artwork Reinforcement](Artwork_Reinforcement.md).
+Voir [Graphisme Reinforcement](Artwork_Reinforcement/fr.md).
+
+### Depuis Mod/Render/ 
+
+Voir [Graphisme Render](Artwork_Render/fr.md).
 
 ### Depuis Mod/Ship/ 
 
-Voir [Artwork Ship](Artwork_Ship.md).
+Voir [Graphisme Ship](Artwork_Ship/fr.md).
 
 ## Icônes erronées 
 
-Voir [Erreurs graphiques](Artwork_Erroneous/fr.md).
+Voir [Graphisme Erreurs](Artwork_Erroneous/fr.md).
 
 
 {{Artwork

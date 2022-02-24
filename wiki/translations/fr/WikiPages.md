@@ -373,7 +373,7 @@ Les images peuvent être téléchargées via la page [Téléverser un fichier](S
 
 ### Nom
 
-Donnez des noms significatifs à vos images. Si vous avez une image qui présente les caractéristiques d\'une commande particulière, vous devez utiliser le nom de cette commande avec `_exemple` à la fin. Par exemple, pour la commande [Draft Offset](Draft_Offset.md), l\'image doit s\'appeler `Draft_Offset_exemple.jpg`.
+Donnez des noms significatifs à vos images. Si vous avez une image qui présente les caractéristiques d\'une commande particulière, vous devez utiliser le nom de cette commande avec `_example` à la fin. Par exemple, pour la commande [Draft Décalage](Draft_Offset/fr.md), l\'image doit s\'appeler `Draft_Offset_example.png`.
 
 ### Capture d\'écran 
 

@@ -10,6 +10,12 @@ An [App Origin](App_OriginGroupExtension.md) object, or formally an `App::Origin
 
 The axes and planes are objects of type `App::Line` and `App::Plane` respectively. Each of these elements can be hidden and unhidden individually with the **Space** bar. This can be useful when selecting the correct reference for creating other objects e.g. [Sketches](Sketch.md).
 
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
+
+
+*Simplified diagram of the relationships between the core objects in the program. Two of them have an Origin object to control the placement of the objects grouped under them.*
+
 
 {{Document_objects_navi
 

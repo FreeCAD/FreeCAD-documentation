@@ -10,7 +10,7 @@ The DWG format is a closed source binary file format that is not directly suppor
 ### LibreDWG
 
 -   homepage: <https://www.gnu.org/software/libredwg/>
--   license: GPLv2-or-later
+-   license: [GPLv3-or-later](https://savannah.gnu.org/projects/libredwg/)
 -   optional, used to enable import and export of DWG files
 
 GNU LibreDWG is a free C library to handle DWG files. It aims to be a free replacement for the Open Design Alliance Drawings SDK libraries. Be aware that, since libreDWG is a work-in-progress, it lacks support for some DWG entities.

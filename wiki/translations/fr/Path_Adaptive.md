@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Path Adaptive
-   Name/fr:Path Adaptation
-   MenuLocation:Path → Adaptatif
+   Name/fr:Path Adaptatif
+   MenuLocation:Parcours → Adaptatif
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -10,7 +10,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Path_Adaptive.svg  style="width:24px;"> [Path Adaptation](Path_Adaptive/fr.md) utilise un algorithme adaptatif pour créer des chemins de compensation et de profilage qui gèrent l\'engagement des outils de coupe de manière à ce que l\'engagement et l\'enlèvement de matière ne dépassent jamais une valeur maximale.
+L\'outil <img alt="" src=images/Path_Adaptive.svg  style="width:24px;"> [Adaptatif](Path_Adaptive/fr.md) utilise un algorithme adaptatif pour créer des chemins de compensation et de profilage qui gèrent l\'engagement des outils de coupe de manière à ce que l\'engagement et l\'enlèvement de matière ne dépassent jamais une valeur maximale.
 
 ## Utilisation
 
@@ -18,7 +18,7 @@ Les instructions d\'utilisation pour l\'opération [Adaptation](Path_Adaptive/fr
 
 #### Opération de base 
 
-1.  Appuyez sur l\'icône **<img src="images/Path_Adaptive.svg" width=16px> [Adaptive](Path_Adaptive/fr.md)** ou sélectionnez l\'outil **Path** → **<img src="images/Path_Adaptive.svg" width=24px> [Adaptive](Path_Adaptive/fr.md)** à partir du menu **Path**.
+1.  Appuyez sur l\'icône **<img src="images/Path_Adaptive.svg" width=16px> [Adaptatif](Path_Adaptive/fr.md)** ou sélectionnez l\'outil **Path** → **<img src="images/Path_Adaptive.svg" width=24px> [Adaptatif](Path_Adaptive/fr.md)** à partir du menu **Parcours**.
 2.  Sélectionnez le contrôleur d\'outil pour l\'opération dans la fenêtre contextuelle du contrôleur d\'outil, si vous y êtes invité.
 3.  Ajustez les profondeurs d\'opération selon vos besoins dans l\'onglet Profondeurs: Début Profondeur, Fin Profondeur, Pas (respectivement Start Depth, Finish Depth, Step Down).
 4.  Faites les ajustements nécessaires dans l'onglet Heights.
@@ -42,106 +42,106 @@ Les instructions d\'utilisation pour l\'opération [Adaptation](Path_Adaptive/fr
 
 #### Adaptive
 
--    {{PropertyData/fr|Force Inside-Out}}: force la pénétration dans le matériau à l\'intérieur et le nettoyage vers les bords.
+-    **Force Inside-Out**: force la pénétration dans le matériau à l\'intérieur et le nettoyage vers les bords.
 
--    {{PropertyData/fr|Helix Angle}}: angle d\'entrée de la rampe d\'hélice (degrés).
+-    **Helix Angle**: angle d\'entrée de la rampe d\'hélice (degrés).
 
--    {{PropertyData/fr|Helix Cone Angle}}: Angle de l\'hélice conique (degrés).
+-    **Helix Cone Angle**: Angle de l\'hélice conique (degrés).
 
--    {{PropertyData/fr|Helix Diameter Limit}}: limite le diamètre d\'entrée de l\'hélice, si la limite est supérieure au diamètre de l\'outil ou à 0, le diamètre de l\'outil est utilisé.
+-    **Helix Diameter Limit**: limite le diamètre d\'entrée de l\'hélice, si la limite est supérieure au diamètre de l\'outil ou à 0, le diamètre de l\'outil est utilisé.
 
--    {{PropertyData/fr|Keep Tool Down Ratio}}: longueur maximale de l\'outil en bas par rapport à la distance directe entre les points.
+-    **Keep Tool Down Ratio**: longueur maximale de l\'outil en bas par rapport à la distance directe entre les points.
 
--    {{PropertyData/fr|Lift Distance}}: distance de levage pour mouvements rapides.
+-    **Lift Distance**: distance de levage pour mouvements rapides.
 
--    {{PropertyData/fr|Operation Type}}: type d\'opération adaptative: éffacement ou profilage.
+-    **Operation Type**: type d\'opération adaptative: éffacement ou profilage.
 
--    {{PropertyData/fr|Side}}: côté des faces sélectionnées que l\'outil doit couper: intérieur ou extérieur.
+-    **Side**: côté des faces sélectionnées que l\'outil doit couper: intérieur ou extérieur.
 
--    {{PropertyData/fr|Step Over}}: pourcentage du diamètre de la fraise à éffectuer à chaque passage.
+-    **Step Over**: pourcentage du diamètre de la fraise à éffectuer à chaque passage.
 
--    {{PropertyData/fr|Stock to Leave}}: quantité de matière à laisser (c\'est-à-dire pour une opération de finition séparée).
+-    **Stock to Leave**: quantité de matière à laisser (c\'est-à-dire pour une opération de finition séparée).
 
--    {{PropertyData/fr|Tolerance}}: influence la précision et les performances.
+-    **Tolerance**: influence la précision et les performances.
 
--    {{PropertyData/fr|Use Helix Arcs}}: utilise les arcs (G2) pour la rampe hélicoïdale.
+-    **Use Helix Arcs**: utilise les arcs (G2) pour la rampe hélicoïdale.
 
 #### Base
 
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
--    {{PropertyData/fr|Placement}}: emplacement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
+-    **Placement**: emplacement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
     -   
-        {{PropertyData/fr|Angle}}
+        **Angle**
         
         : angle en degrés appliqué à la rotation de l\'objet autour de la valeur de la propriété Axis.
 
     -   
-        {{PropertyData/fr|Axis}}
+        **Axis**
         
         : axe (un ou plusieurs) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: x, y, z.
 
         -   
-            {{PropertyData/fr|X}}
+            **X**
             
             : valeur de l\'axe x.
 
         -   
-            {{PropertyData/fr|Y}}
+            **Y**
             
             : valeur de l\'axe y.
 
         -   
-            {{PropertyData/fr|Z}}
+            **Z**
             
             : valeur de l\'axe z.
 
     -   
-        {{PropertyData/fr|Position}}
+        **Position**
         
         : position de l\'objet, définie dans les sous-propriétés: x, y, z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
         -   
-            {{PropertyData/fr|X}}
+            **X**
             
             : valeur de distance x.
 
         -   
-            {{PropertyData/fr|Y}}
+            **Y**
             
             : valeur de distance y.
 
         -   
-            {{PropertyData/fr|Z}}
+            **Z**
             
             : valeur de distance z.
 
--    {{PropertyData/fr|Label}}: nom de l\'objet fourni par l\'utilisateur (UTF-8).
+-    **Label**: nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
-#### Profondeur
+#### Depth
 
--    {{PropertyData/fr|Clearance Height}}: hauteur nécessaire pour supprimer les pinces et les obstructions.
+-    **Clearance Height**: hauteur nécessaire pour supprimer les pinces et les obstructions.
 
--    {{PropertyData/fr|Final Depth}}: profondeur finale de l\'outil - valeur la plus basse de Z.
+-    **Final Depth**: profondeur finale de l\'outil - valeur la plus basse de Z.
 
--    {{PropertyData/fr|Finish Depth}}: maximum de matériau retiré lors du passage final.
+-    **Finish Depth**: maximum de matériau retiré lors du passage final.
 
--    {{PropertyData/fr|Safe Height}}: seuil supérieur duquel les mouvements rapides sont autorisés.
+-    **Safe Height**: seuil supérieur duquel les mouvements rapides sont autorisés.
 
--    {{PropertyData/fr|Start Depth}}: profondeur initiale de l\'outil - première profondeur de coupe en Z.
+-    **Start Depth**: profondeur initiale de l\'outil - première profondeur de coupe en Z.
 
--    {{PropertyData/fr|Step Down}}: abaissement incrémentiel de l\'outil.
+-    **Step Down**: abaissement incrémentiel de l\'outil.
 
-#### Tracé
+#### Path
 
--    {{PropertyData/fr|Active}}: mis à False, pour empêcher l\'opération de générer du code
+-    **Active**: mis à False, pour empêcher l\'opération de générer du code
 
--    {{PropertyData/fr|Comment}}: commentaire facultatif pour cette opération.
+-    **Comment**: commentaire facultatif pour cette opération.
 
--    {{PropertyData/fr|Tool Controller}}: définit le contrôleur d\'outil utilisé dans l\'opération.
+-    **Tool Controller**: définit le contrôleur d\'outil utilisé dans l\'opération.
 
--    {{PropertyData/fr|User Label}}: étiquette attribuée par l\'utilisateur
+-    **User Label**: étiquette attribuée par l\'utilisateur
 
 ## Présentation de l\'éditeur de fenêtre de tâches 
 
@@ -153,64 +153,64 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -   **Remove**: supprime le ou les éléments sélectionnés dans la liste emplacement de base.
 -   **Edit**: efface tous les éléments de la liste d\'emplacement de base.
 
-#### Profondeur 
+#### Profondeurs
 
--    {{PropertyData/fr|Start Depth}}
+-    **Start Depth**
     
 
--    {{PropertyData/fr|Final Depth}}
+-    **Final Depth**
     
 
--    {{PropertyData/fr|Finish Depth}}
+-    **Finish Depth**
     
 
--    {{PropertyData/fr|Step Down}}
+-    **Step Down**
     
 
-#### Hauteur
+#### Hauteurs
 
--    {{PropertyData/fr|Safe Height}}
+-    **Safe Height**
     
 
--    {{PropertyData/fr|Clearance Height}}
+-    **Clearance Height**
     
 
 #### Opération
 
--    {{PropertyData/fr|Tool Controller}}
+-    **Tool Controller**
     
 
--    {{PropertyData/fr|Cut Region}}(Side)
+-    **Cut Region**(Side)
 
--    {{PropertyData/fr|Operation Type}}
+-    **Operation Type**
     
 
--    {{PropertyData/fr|Step Over Percent}}
+-    **Step Over Percent**
     
 
--    {{PropertyData/fr|Accuracy vs Performance}}(Tolerance)
+-    **Accuracy vs Performance**(Tolerance)
 
--    {{PropertyData/fr|Helix Ramp Angle}}
+-    **Helix Ramp Angle**
     
 
--    {{PropertyData/fr|Helix Cone Angle}}
+-    **Helix Cone Angle**
     
 
--    {{PropertyData/fr|Helix Max Diameter}}(Helix Diameter Limit)
+-    **Helix Max Diameter**(Helix Diameter Limit)
 
--    {{PropertyData/fr|Lift Distance}}
+-    **Lift Distance**
     
 
--    {{PropertyData/fr|Keep Tool Down Ratio}}
+-    **Keep Tool Down Ratio**
     
 
--    {{PropertyData/fr|Stock to Leave}}
+-    **Stock to Leave**
     
 
--    {{PropertyData/fr|Force Clearing Inside-Out}}
+-    **Force Clearing Inside-Out**
     
 
--    {{PropertyData/fr|Stop}}
+-    **Stop**
     
 
 ## Ressources

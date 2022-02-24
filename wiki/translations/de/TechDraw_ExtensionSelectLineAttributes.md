@@ -29,7 +29,7 @@ Das <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="wi
 
 ## Anmerkungen
 
--   The specified values will be used in the current FreeCAD session only.
+-   Die festgelegten Werte werden nur in der laufenden FreeCAD Sitzung verwendet.
 
 
 

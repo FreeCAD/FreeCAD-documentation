@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Sanity
    Name/fr:Path Rechercher des erreurs
-   MenuLocation:Path → Vérifier le travail path pour les erreurs courantes
+   MenuLocation:Parcours → Vérifier le travail path pour les erreurs courantes
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **S**
    Version:0.19
@@ -63,7 +63,7 @@ Avertissements et erreurs détectés par [Path Rechercher des erreurs](Path_Sani
 1.  Sélectionnez un <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Tâche](Path_Job/fr.md) dans la [Vue en arborescence](Tree_view/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_Sanity.svg" width=16px> [Vérifier le travail path pour les erreurs courantes](Path_Sanity/fr.md)**.
-    -   Sélectionnez **Path → <img src="images/Path_Sanity.svg" width=16px> Vérifier le travail path pour les erreurs courantes** dans le menu.
+    -   Sélectionnez **Parcours → <img src="images/Path_Sanity.svg" width=16px> Vérifier le travail path pour les erreurs courantes** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **S**.
 3.  Les informations pertinentes sont rassemblées dans un dictionnaire Python puis formatées au format asciidoc.
 4.  Le fichier asciidoc est écrit sur le disque au même endroit que le fichier qui sera post-traité.

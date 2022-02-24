@@ -14,15 +14,15 @@
 
 ## Description
 
-tant que la page est en construction, ajouter le template [Template:UnfinishedDocu](Template_UnfinishedDocu.md) en haut de la page le modèle en mettant le code ****.
+Tant que la page est en construction, ajoutez le modèle [Template:UnfinishedDocu](Template_UnfinishedDocu.md) en haut de la page en tapant simplement : ****.
 
-Dans ce premier paragraphe, donnez une brève description de ce que fait la commande. La description peut faire référence à d\'autres ateliers tels que <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Atelier Sketcher ](Sketcher_Workbench/fr.md). (*Note de l\'éditeur:* L\'image fait 24px, pas 16px)
+Dans ce premier paragraphe, donnez une brève description de ce que fait la commande. La description peut faire référence à d\'autres ateliers tels que l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Atelier Sketcher](Sketcher_Workbench/fr.md). (*Note de l\'éditeur:* L\'image fait 24px, pas 16px)
 
-N\'oubliez pas d\'utiliser [Template:Version/fr](Template:Version/fr.md), [Template:VersionMinus/fr](Template:VersionMinus/fr.md), [Template:VersionPlus/fr](Template:VersionPlus/fr.md) et [Template:Obsolete/fr](Template:Obsolete/fr.md) le cas échéant.
+N\'oubliez pas d\'utiliser [Template:Version](Template_Version.md), [Template:VersionMinus](Template_VersionMinus.md), [Template:VersionPlus](Template_VersionPlus.md) et [Template:Obsolete](Template_Obsolete.md) le cas échéant.
 
-Par exemple: La fonctionnalité pour utiliser `App::Link` {{Version/fr|0.19}} permet la liaison entre les sous-ensembles, etc\....
+Par exemple : La fonction `App::Link` ({{Version/fr|0.19}}) permet de créer des liens entre les sous-ensembles, etc\...
 
-Ajoutez une image si possible et suivez les instructions dans [WikiPages\#Graphics](WikiPages#Graphics.md) (page en Anglais). Exemple tiré de [Part Balayage](Part_Sweep/fr.md) : ![](images/Part_Sweep_simple.png ) 
+Ajoutez une image si possible et suivez les instructions de [Ecrire une page Wiki](WikiPages/fr#Illustrations.md). Exemple tiré de [Part Balayage](Part_Sweep/fr.md) : ![](images/Part_Sweep_simple.png ) 
 *Facultatif : ajoutez une légende sous l'image pour expliquer le fonctionnement de l'outil.*
 
 La fermeture et l'ouverture des balises de traduction doivent entourer les images et d'autres éléments fixes, s'ils ne nécessitent pas de traduction. La légende doit toujours être traduite.
@@ -35,12 +35,11 @@ La fermeture et l'ouverture des balises de traduction doivent entourer les image
     -   Sélectionnez l\'option **Submenu → <img src="images/Std_Open.svg" width=16px> Texte du menu de la commande** dans le menu contextuel [Vue en arborescence](Tree_view/fr.md) ou [Vue 3D](3D_view/fr.md). (*Note de l\'éditeur:* Ceci utilise également le modèle [Template:MenuCommand](Template_MenuCommand.md), toutes les commandes ne sont pas accessibles à partir d\'un menu contextuel)
     -   Utilisez le raccourci clavier **F** puis **C** ou **Ctrl** + **Z**. (*Note de l\'éditeur:* Ceci utilise le modèle [Template:KEY](Template_KEY.md), toutes les commandes n\'ont pas de raccourci clavier)
 2.  Étapes détaillées au besoin. Certaines étapes peuvent nécessiter **Keyboard** pressions tandis que d\'autres peuvent nécessiter l\'utilisation de la souris pour cliquer sur un **Button**.
-3.  D\'autres commandes peuvent devoir être référencées / utilisées. Pensez à créer un lien vers leurs pages wiki avec leurs icônes **<img src="images/Draft_Line.svg" width=16px> [Draft Line](Draft_Line.md)** ou **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
-4.  Définissez les options et appuyez sur **OK**.
+3.  Définissez les options et appuyez sur **OK**.
 
 ## Options
 
--   Optionnel. Énumérez les options de commande ici. Découvrez deux exemples, **<img src="images/Draft_Line.svg" width=16px> [Draft Ligne](Draft_Line/fr.md)** et **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
+-   Optionnel. Énumérez les options de commande ici. Voir par exemple [Draft Polyligne](Draft_Wire/fr.md).
 
 ## Exemple
 
@@ -52,23 +51,27 @@ Optionnel.
 
 ## Propriétés
 
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+
+Un objet est généralement dérivé d\'un objet de base. Vous ne devez pas énumérer les propriétés qui sont héritées de cet objet de base. Voir par exemple [Draft Polyligne](Draft_Wire/fr#Propri.C3.A9t.C3.A9s.md).
+
 ### Données
 
 
 {{TitleProperty|Property Group}}
 
--    {{PropertyData/fr|Property Name 1}}: Description de la propriété
+-    **Nom de la propriété 1|PropertyType**: Description de la propriété. (*Note de l\'éditeur:* pour trouver {{Value|PropertyType}}, sélectionnez **Show all** dans le menu contextuel de l\'[Éditeur de propriétés](Property_editor/fr.md). L\'infobulle de chaque propriété comprendra alors cette information. Mais {{Value|PropertyType}} peut également être trouvé dans le code source).
 
 ### Vue
 
 
 {{TitleProperty|Property Group}}
 
--    {{PropertyView/fr|Property Name 2}}: Description de la propriété
+-    **Property Name 2|PropertyType**: Description de la propriété
 
 ## Script
 
-Voir aussi : [:Category:API/fr](:Category:API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil ExampleCommandModel peut être utilisé dans une [macro](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
@@ -119,9 +122,9 @@ In this first paragraph give a short description of what the command�
 
 Remember to use [[Template:Version]], [[Template:VersionMinus]], [[Template:VersionPlus]] and [[Template:Obsolete]] when applicable.
 
-For example: The feature to utilize `App::Link` <small>(v0.19)</small>  allows linking between sub-assemblies etc...
+For example: The `App::Link` feature (<small>(v0.19)</small> ) allows linking between sub-assemblies etc...
 
-Add an image if possible, and please follow the guidelines in [Part Sweep](WikiPages#Graphics]]. Example taken from [[Part_Sweep.md):
+Add an image if possible, and please follow the guidelines in [WikiPages](WikiPages#Graphics.md). Example taken from [Part Sweep](Part_Sweep.md):
 </translate>
 ![](images/)
 <translate>
@@ -132,18 +135,17 @@ Closing and opening translate tags should surround images, and other f
 
 == Usage ==
 
-# There are several ways to invoke the command: 
+# There are several ways to invoke the command:
 #* Press the **<img src="images/Std_Open.svg" width=16px> [Base ExampleCommandModel](GuiCommand_model.md)** button. (''Editor note:'' This uses the [[Template:Button]] template, it is necessary to link to the command as shown in this example)
 #* Select the **Menu → Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command** option from the menu. (''Editor note:'' This uses the [[Template:MenuCommand]] template)
 #* Select the **Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu. (''Editor note:'' This also uses the [[Template:MenuCommand]] template, not all commands can be accessed from a context menu)
 #* Use the keyboard shortcut **F** then **C** or **Ctrl**+**Z**. (''Editor note:'' This uses the [[Template:KEY]] template, not all commands have a keyboard shortcut)
 # Detailed steps as needed. Some steps may need **Keyboard** presses while others may require using the mouse to click on a **Button**.
-# Other commands may need to be referenced/used. Consider linking to their wiki pages along with their icons **<img src="images/Draft_Line.svg" width=16px> [Draft Line](Draft_Line.md)** or **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Pad](PartDesign_Pad.md)**.
 # Set options and press **OK**.
 
 == Options ==
 
-* Optional. List the command options here. Check out two examples, **<img src="images/Draft_Line.svg" width=16px> [Draft Line](Draft_Line.md)** and **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Pad](PartDesign_Pad.md)**.
+* Optional. List the command options here. See for example [Draft Wire](Draft_Wire.md).
 
 == Example ==
 
@@ -155,21 +157,25 @@ Optional.
 
 == Properties ==
 
+See also: [Property editor](Property_editor.md).
+
+An object is usually derived from a base object. You should not list the properties that are inherited from that base object. See for example [Draft Wire](Draft_Wire#Properties.md).
+
 === Data ===
 
 {{TitleProperty|Property Group}}
 
-* **Property Name 1**: Description of the property
+* **Property Name 1|PropertyType**: Description of the property. (''Editor note:'' to find the {{Value|PropertyType}} select **Show all** in the context menu of the [Property editor](Property_editor.md). The tooltip of each property will then include this information. But the {{Value|PropertyType}} can also be found in the source code.)
 
 === View ===
 
 {{TitleProperty|Property Group}}
 
-* **Property Name 2**: Description of the property
+* **Property Name 2|PropertyType**: Description of the property.
 
 == Scripting ==
 
-See also: [FreeCAD Scripting Basics](:Category:API]] and [[FreeCAD_Scripting_Basics.md).
+See also: [https://freecad.github.io/SourceDoc/ Autogenerated API documentation] and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 The ExampleCommandModel tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
@@ -199,18 +205,18 @@ Optional.
 
 
 </translate>
-{{Workbench Tools navi}} 
+{{Workbench_Tools_navi}} 
 
 
 
 
 
 
-{{Workbench Tools navi
+{{Workbench_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > [API]] and ](Category_API]] and .md) > [Workbench](Category_Workbench.md) > [#translation:}}}} <!--use the](Category_#translation:}}}} <!--use the.md) > GuiCommand model/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbench_Tools_navi{{#translation:}}}} <!--use the](Category_Workbench_Tools_navi{{#translation:}}}} <!--use the.md) > GuiCommand model/fr

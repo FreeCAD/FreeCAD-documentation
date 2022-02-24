@@ -17,7 +17,7 @@ Er kann verwendet werden um ein Grundgerüst (\"Skelett-Skizze\") für eine 2D-K
 ## Anwendung
 
 1.  Schaltfläche **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Baugruppe anlegen](Assembly3_CreateAssembly/de.md)** drücken, um einen leeren Baugruppenbehälter zu erstellen
-2.  Die neu erstellte Baugruppe Auswählen und die Schaltfläche **<img src="images/Assembly_Add_Workplane.svg‎‎" width=16px> [Arbeitsebene hinzufügen](Assembly3_AddXYWorkplane/de.md)** drücken
+2.  Die neu erstellte Baugruppe Auswählen und die Schaltfläche **<img src="images/Assembly_Add_Workplane.svg‎‎" width=16px> [Arbeitsebene hinzufügen](Assembly3_AddWorkplane/de.md)** drücken
 3.  Die Schaltfläche **<img src="images/Assembly_ConstraintSketchPlane.svg" width=24px> [Skizzierebene](Assembly3_ConstraintSketchPlane/de.md)** drücken
 4.  Zur Arbeitumgebung <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) wechseln um etwas Inhalt zu erzeugen
 

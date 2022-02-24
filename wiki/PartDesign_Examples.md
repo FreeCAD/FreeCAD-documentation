@@ -9,6 +9,46 @@ Sometimes you need a hint how powerful a tool is, without too much explanation.
 
 This is a collection of examples what can be achieved with certain tools. For detailed explanations see the tool descriptions and search the web for tutorials.
 
+## Pad
+
+<img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Pad](PartDesign_Pad.md) is a tool to create Pad objects, which are prismatic objects such as extrusion objects, cylinders, cones, cubes, wedges, spheres\...
+
+Each object is based on one outline (yellow), to define the cross-section shape (Preferably made with the Sketcher).
+
+The outline is dragged along a direction (extruded) to provide the object with a thickness or a length.
+By default it is the normal direction of the plane containing the outline (sketch plane). Optionally the direction can be altered by editing parameters in the properties panel or by selecting a separate straight line (white).
+
+
+<div class="mw-collapsible mw-collapsed">
+
+**Gallery**
+
+
+<div class="mw-collapsible-content toccolours">
+
+### Prismatic Primitives 
+
+++++
+| **Cylinder**      | <img alt="Cylinder" src=images/PartDesign_ExamplePad-01.png  style="width:200px;">           | -   Outline: **circle**.                             |
+++++
+| **Cube**          | <img alt="Cube" src=images/PartDesign_ExamplePad-02.png  style="width:200px;">                   | -   Outline: **square**.                             |
+|                   |                                                                             | -   Extrusion length: equals length of square edges. |
+++++
+| **Cuboid**        | <img alt="Cuboid" src=images/PartDesign_ExamplePad-03.png  style="width:200px;">               | -   Outline: **rectangle**.                          |
+++++
+| **Regular Prism** | <img alt="Regular Prism" src=images/PartDesign_ExamplePad-04.png  style="width:200px;"> | -   Outline: **hexagon**.                            |
+++++
+| **Wedge**         | <img alt="Wedge" src=images/PartDesign_ExamplePad-05.png  style="width:200px;">                 | -   Outline: **triangle**.                           |
+++++
+
+### Prismatic Profiles 
+
+
+</div>
+
+
+</div>
+
 ## Additive Pipe 
 
 <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:24px;"> [PartDesign Additive pipe](PartDesign_AdditivePipe.md) is a tool to create AdditivePipe objects such as sweep objects, extrusion objects, rotation objects, cylinders, cones, cubes, pyramids, spheres\...
@@ -120,6 +160,19 @@ Straight Sweep Objects
 | **Hex-Wrench**  |                                                                           | -   Path: curved **line**.                                 |
 ++++
 
+### Spiral and Helical Objects 
+
+++++
+| Coil Spring        | <img alt="Spring" src=images/PartDesign_ExampleSpring-01.png  style="width:200px;">                 | -   Outline: **circle**.                                                                                          |
+|                    |                                                                                  | -   Path: <img alt="" src=images/Part_Helix.svg  style="width:16px;"> [Part Helix](Part_Helix.md).               |
+++++
+| Hairspring         | <img alt="Balance Spring" src=images/PartDesign_ExampleSpring-03.png  style="width:200px;"> | -   Outline: **rectangle**.                                                                                       |
+| Balance Spring     |                                                                                  | -   Path: <img alt="" src=images/Part_Spiral.svg  style="width:16px;"> [Part Spiral](Part_Spiral.md).           |
+++++
+| **Volute Spring**, | <img alt="Volute Spring" src=images/PartDesign_ExampleSpring-04.png  style="width:200px;">   | -   Outline: **rectangle**.                                                                                       |
+| Conical Spring     |                                                                                  | -   Path: <img alt="" src=images/Part_Helix.svg  style="width:16px;"> [Part Helix](Part_Helix.md) with an angle. |
+++++
+
 ### Transition Objects 
 
 ++++
@@ -131,6 +184,53 @@ Straight Sweep Objects
 ++++
 | Polygon to Star  | <img alt="Polygon to Star" src=images/PartDesign_ExampleTrans-03.png  style="width:200px;">                       | -   Outlines: Base: **pentagon**, Top: **star shape**. |
 |                  |                                                                                                         | -   Path: straight **line**.                           |
+++++
+
+### Options
+
+#### Corner Transition 
+
+A polyline can be used as a path, and the property **Transition** influences the shapes of the corners.
+
+Transformed needs special attention as it can produce flat areas where the thickness is 0.
+
+++++
+| Parameter        | Iso View                                                                                         | Top View                                                                                         |
++==================+==================================================================================================+==================================================================================================+
+| **Transformed**  | <img alt="Transformed iso view" src=images/PartDesign_ExampleProperty-01.png  style="width:200px;">   | <img alt="Transformed top view" src=images/PartDesign_ExampleProperty-02.png  style="width:200px;">   |
+|                  |                                                                                                  |                                                                                                  |
+|                  | :   Inner and outer corners are edges.                                                           | :   The basic shape does not follow the line orientation.                                        |
+++++
+| **Right corner** | <img alt="Right corner iso view" src=images/PartDesign_ExampleProperty-03.png  style="width:200px;"> | <img alt="Right corner top view" src=images/PartDesign_ExampleProperty-04.png  style="width:200px;"> |
+|                  |                                                                                                  |                                                                                                  |
+|                  | :   Inner and outer corners are edges.                                                           | :   The basic shape follows the line orientation.                                                |
+++++
+| **Round corner** | <img alt="Round corner iso view" src=images/PartDesign_ExampleProperty-05.png  style="width:200px;"> | <img alt="Round corner top view" src=images/PartDesign_ExampleProperty-06.png  style="width:200px;"> |
+|                  |                                                                                                  |                                                                                                  |
+|                  | :   The corners lying outside the path are rounded.                                              | :   The basic shape follows the line orientation.                                                |
+++++
+
+#### Orientation Mode 
+
+++++
+| Parameter     | Iso View                                                                                    | Top View                                                                                            |
++===============+=============================================================================================+=====================================================================================================+
+| **Standard**  | <img alt="Standard iso view" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">    | <img alt="Standard top view" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">            |
+|               |                                                                                             |                                                                                                     |
+|               | :   Location and orientation follow the path.                                               | :   (If the object is twisted in an unexpected way, try Frenet)                                     |
+|               | :                                                                                           |                                                                                                     |
+++++
+| **Fixed**     | <img alt="Fixed iso view" src=images/PartDesign_ExampleProperty-09.png  style="width:200px;">          | <img alt="Fixed top view" src=images/PartDesign_ExampleProperty-10.png  style="width:200px;">                  |
+|               |                                                                                             |                                                                                                     |
+|               | :   Location follows the path and orientation stays the same as basic shape.                | :   This tends to cause self intersections which lead to further errors: a ghost face in this case. |
+++++
+| **Frenet**    | <img alt="Frenet iso view" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">        | <img alt="Frenet top view" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                |
+|               |                                                                                             |                                                                                                     |
+|               | :   Location and orientation follow the path, based on a different algorithm than Standard. | :   The basic shape follows the line orientation.                                                   |
+++++
+| **Auxiliary** |                                                                                             |                                                                                                     |
+++++
+| **Binormal**  |                                                                                             |                                                                                                     |
 ++++
 
 

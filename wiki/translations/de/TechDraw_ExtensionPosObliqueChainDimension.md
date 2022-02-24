@@ -19,18 +19,12 @@ Das <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style
 
 ## Verwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wähle zwei oder mehr parallele schräge Bemaßungen.
 2.  Die erste Bemaßung legt die Position fest. Diese Bemaßung wird nicht bewegt.
 3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
     -   Drücke die **<img src="images/TechDraw_ExtensionPosObliqueChainDimension.svg" width=16px> [TechDraw ExtensionPosObliqueChainDimension](TechDraw_ExtensionPosObliqueChainDimension.md)** Schaltfläche.
     -   Wähle die **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Position Oblique Chain Dimensions** Option aus dem menü.
 4.  Die Bemaßungen werden verbunden, die Maßzahlen werden zentriert.
-
-
-</div>
 
 
 

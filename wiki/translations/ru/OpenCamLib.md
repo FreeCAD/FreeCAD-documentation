@@ -1,8 +1,7 @@
 # OpenCamLib/ru
-## Описание
-
-
 {{TOCright}}
+
+## Описание
 
 OpenCamLib (OCL) is an open source library aiming to provide computer aided manufacturing (CAM) algorithms. FreeCAD uses OCL in the experimental **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** path operations and other experimental features.
 
@@ -88,7 +87,7 @@ Index: opencamlib-2019.07/src/pythonlib/pythonlib.cmake
      OUTPUT_STRIP_TRAILING_WHITESPACE
    )
 
-Then, in order for python3 to be detected correctly you\'ll need to add 2 more flags to the cmake line:
+Then, in order for Python 3 to be detected correctly you\'ll need to add 2 more flags to the cmake line:
 
    cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DPYTHON_EXECUTABLE="$(which python3)" -DPYTHON_VERSION_SUFFIX=3 -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
 

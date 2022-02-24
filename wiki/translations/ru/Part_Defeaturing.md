@@ -37,7 +37,6 @@ To be available, this tool requires FreeCAD to be based on Open Cascade 7.3.0 or
 ## Ссылки
 
 -   [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211), the official announcement on the Open Cascade collaborative development portal.
--   <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [Defeaturing Workbench](Defeaturing_Workbench.md)
 
 
 <div class="mw-translate-fuzzy">

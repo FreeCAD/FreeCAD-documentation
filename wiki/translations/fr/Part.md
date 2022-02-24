@@ -21,9 +21,7 @@ Dans un usage informel, une \"pièce\" peut être n\'importe quelle figure géom
 Cependant, lorsque plus de précision est requise, la distinction doit être faite.
 
 -   Un \"[corps](Body/fr.md)\" est utilisé pour des éléments contigus uniques, généralement créés avec les ateliers [Part](Part_Workbench/fr.md) ou [PartDesign](PartDesign_Workbench/fr.md).
-    -   Un \"corps\" a une \"[forme](Shape/fr.md)\".
 -   Une \"pièce\" est utilisée pour regrouper un seul \"corps\", ou plusieurs d\'entre eux pour former un assemblage.
-    -   Une \"pièce\" a une collection de \"[formes](Shape/fr.md)\", mais n\'a pas de \"forme\" qui lui soit propre.
 -   Un \"assemblage\" est une collection de \"pièces\" disposées d\'une manière ou d\'une autre, manuellement ou à l\'aide d\'un atelier d\'assemblage.
 
 

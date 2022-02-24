@@ -13,7 +13,7 @@ Le répertoire User Mod est un sous-répertoire du répertoire de données de l\
 
 -   Sous Linux, il s\'agit généralement de {{FileName|/home/<username>/.FreeCAD/Mod/}}.
 -   Sous Windows, il s\'agit de {{FileName|%APPDATA%\FreeCAD\Macro\}}, qui est généralement {{FileName|C:\Users\<username>\Appdata\Roaming\FreeCAD\Mod\}}.
--   Sur macOS, il s\'agit généralement de {{FileName|/Users/<username>/Library/Preferences/FreeCAD/Mod/}}.
+-   Sur macOS, il s\'agit généralement de {{FileName|/Users/<username>/Library/Application Support/FreeCAD/Mod/}}.
 
 Le répertoire Mod devrait ressembler à ceci:
 
@@ -372,7 +372,7 @@ os.remove(qrc_filename)
 ## En relation 
 
 -   [Traduction et ateliers externes](Translating_an_external_workbench/fr.md)
--   [Namespaced Workbenches - discussion](https://forum.freecadweb.org/viewtopic.php?t=47460)
+-   [Discussion sur le forum - Namespaced Workbenches](https://forum.freecadweb.org/viewtopic.php?t=47460)
 -   [freecad.workbench\_starterkit](https://github.com/FreeCAD/freecad.workbench_starterkit)
 
 

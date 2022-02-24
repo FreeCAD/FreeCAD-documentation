@@ -19,7 +19,13 @@
 
 ## Einführung
 
+
+<div class="mw-translate-fuzzy">
+
 Unter Skripten verstehen wir die Erstellung topologischer Objekte mit dem Python Interpreter von FreeCAD. FreeCAD könnte ein \"sehr guter\" Ersatz für OpenSCAD sein, vor allem, weil es einen echten Python Interpreter hat, das heißt, es hat eine echte Programmiersprache an Bord, fast alles, was man mit der GUI machen kann, ist mit einem Python Skript machbar.
+
+
+</div>
 
 Bedauerlicherweise sind die Informationen über das Skripten in der Dokumentation und sogar in diesem Wiki verstreut und es mangelt an Einheitlichkeit beim \"Schreiben\", und die meisten von ihnen werden zu technisch erklärt.
 
@@ -42,7 +48,6 @@ Um die Dinge in einer höflichen Art und Weise zu machen, muss die Datei mit ein
    Primo script per FreeCAD
 
 """
-
 ```
 
 Speichere sie mit einem aussagekräftigen Namen mit der Erweiterung `.py` und lade die resultierende Datei in FreeCAD, mit dem besagten **Datei - Öffnen** Befehl.
@@ -56,7 +61,6 @@ Ein Minimalbeispiel dafür, was in einem Skript enthalten sein muss, wird in die
    Here a short but significant description of what the script do 
 
 """
-
 
 import FreeCAD
 from FreeCAD import Base, Vector
@@ -78,20 +82,16 @@ def setview():
     FreeCAD.Gui.SendMsgToActiveView("ViewFit")
     FreeCAD.Gui.activeDocument().activeView().viewAxometric()
 
-
 if DOC is None:
     FreeCAD.newDocument(DOC_NAME)
     FreeCAD.setActiveDocument(DOC_NAME)
     DOC = FreeCAD.activeDocument()
-
 else:
-
     clear_doc()
 
 # EPS= tolerance to use to cut the parts
 EPS = 0.10
 EPS_C = EPS * -0.5
-
 ```
 
 Der obige Code enthält einige Tricks:
@@ -119,7 +119,6 @@ def cubo(nome, lung, larg, alt):
 obj = cubo("test_cube", 5, 5, 5)
 
 setview()
-
 ```
 
 Setze diese Zeilen nach dem \"Vorlage\" Code und drücke den grünen Pfeil in der **Makro Werkzeugleiste**
@@ -130,7 +129,13 @@ Du wirst einige magische Dinge sehen, ein neues Dokument mit dem Namen \"Pippo\"
 
 ## Etwas mehr\... 
 
+
+<div class="mw-translate-fuzzy">
+
 Nicht allzu erstaunlich? Ja, aber irgendwo müssen wir anfangen, wir können das Gleiche mit einem [Zylinder](Part_Cylinder/de.md) tun, diese Codezeilen nach der `cubo(` Methode und vor der Zeile `# objects definition` hinzufügen.
+
+
+</div>
 
 
 ```python
@@ -173,7 +178,6 @@ Verwenden wir die Geometrien, löschen wir Zeilen unterhalb des Codeabschnitts, 
 
 
 ```python
-
 # objects definition
 
 obj = cubo("cubo_di_prova", 5, 5, 5)
@@ -183,7 +187,6 @@ obj1 = base_cyl('primo cilindro', 360,2,10)
 fuse_obj("Fusione", obj, obj1)
 
 setview()
-
 ```
 
 Starte das Skript mit dem grünen Pfeil und wir sehen in der 3D Ansicht so etwas wie:
@@ -200,10 +203,13 @@ FreeCAD bietet eine große Auswahl an Möglichkeiten, diese Eigenschaft zu setze
 
 
 ```python 
-FreeCAD.Placement(Vector(0,0,0), FreeCAD.Rotation(10,20,30), Vector(0,0,0))
+FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 ```
 
 Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich der geometrische **Referenzpunkt**, also der Punkt, von dem aus das Objekt von FreeCAD modelliert wird, wie in dieser Tabelle beschrieben, kopiert von [Platzierung](Placement/de.md):
+
+
+<div class="mw-translate-fuzzy">
 
   Objekt                                Referenzpunkt
    
@@ -214,19 +220,20 @@ Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich d
   Part.Torus                            Mittelpunkt des Torus
   Formelemente abgeleitet aus Skizzen   das Formelement erbt die Position der zugrunde liegenden Skizze. Skizzen beginnen immer mit Position = (0,0,0). Diese Position entspricht dem Ursprung in der Skizze.
 
+
+</div>
+
 Diese Informationen müssen wir vor allem dann im Auge behalten, wenn wir eine Rotation anwenden müssen.
 
 Einige Beispiele mögen helfen, lösche die gesamte Zeile nach der `base_cyl` Methode und füge den Teil des Codes darunter ein:
 
 
 ```python
-
 def sfera(nome, rad):
     obj = DOC.addObject("Part::Sphere", nome)
     obj.Radius = radDOC.recompute()
 
     return obj   
-
 
 def mfuse_obj(nome, objs):
     obj = DOC.addObject("Part::MultiFuse", nome)
@@ -235,7 +242,6 @@ def mfuse_obj(nome, objs):
     DOC.recompute()
 
     return obj
-
 
 def aeroplano():
 
@@ -253,15 +259,15 @@ def aeroplano():
     obj2 = cubo('ali', ap_alare, spess_ali, larg_ali, True, off_ali)
 
     obj3 = sfera("naso", diam_fus)
-    obj3.Placement = FreeCAD.Placement(Vector(0,0,lung_fus), FreeCAD.Rotation(0,0,0), Vector(0,0,0))
+    obj3.Placement = FreeCAD.Placement(Vector(0, 0, lung_fus), FreeCAD.Rotation(0, 0, 0), Vector(0, 0, 0))
 
     obj4 = cubo('impennaggio', spess_ali, alt_imp, larg_ali, False, 0)
-    obj4.Placement = FreeCAD.Placement(Vector(0,alt_imp * -1,0), FreeCAD.Rotation(0,0,0), Vector(0,0,0))
+    obj4.Placement = FreeCAD.Placement(Vector(0, alt_imp * -1, 0), FreeCAD.Rotation(0, 0, 0), Vector(0, 0, 0))
 
     objs = (obj1, obj2, obj3, obj4)
 
     obj = mfuse_obj("Forma esempio", objs)
-    obj.Placement = FreeCAD.Placement(Vector(0,0,0), FreeCAD.Rotation(0,0,-90), Vector(0,0,pos_ali))
+    obj.Placement = FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali))
 
     DOC.recompute()
 
@@ -272,15 +278,20 @@ def aeroplano():
 aeroplano()
 
 setview()
-
 ```
 
 Lasse uns etwas im Code erklären:
+
+
+<div class="mw-translate-fuzzy">
 
 -   Wir haben eine Methode verwendet, um eine Kugel zu definieren, wobei wir die einfachste Definition verwendet haben und nur den Radius verwendet haben.
 -   Wir haben eine zweite Schreibweise für die **Vereingung** oder **Verschmelzung** eingeführt, die mehrere Objekte verwendet, nicht weiter entfernt von dem üblichen **Part::Fuse** es verwendet **Part:Multifuse**. Wir verwenden nur eine Eigenschaft `Formen`. Wir haben ein **Tupel** als Argumente übergeben, aber es akzeptiert auch eine **Liste**.
 -   Wir haben ein komplexes Objekt **aeroplano**\' definiert. (italienisches Wort für Flugzeug), aber wir haben es auf eine **\"parametrische\"** Art und Weise getan, indem wir einige Parameter definiert und andere Parameter durch einige Berechnungen auf der Grundlage der Hauptparameter abgeleitet haben.
 -   Wir haben einige Platzierungs `Platzierung` Eigenschaften in der Methode verwendet, und bevor wir die endgültigen Geometrien zurückgeben, haben wir eine `Rotation` Eigenschaft mit der *Gieren-Stampfen-Rollen* Schreibweise verwendet. Beachte die letzten `Vector(0,0, pos_ali)`, die ein **Rotationszentrum** der gesamten Geometrie definieren.
+
+
+</div>
 
     
   ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
@@ -288,27 +299,37 @@ Lasse uns etwas im Code erklären:
 
 Man kann leicht feststellen, dass **aeroplano** Geometrie um sein \"Baryzentrum\" oder seinen \"Schwerpunkt\" rotiert, den ich in der Flügelmitte festgelegt habe, ein Ort, der relativ \"natürlich\" ist, aber wo immer man will, platziert werden könnte.
 
+
+<div class="mw-translate-fuzzy">
+
 Der erste `Vector(0,0,0)` ist der Übersetzungsvektor, der hier nicht verwendet wird, aber wenn du `aeroplano()` durch diese Zeilen ersetzt:
 
 
-```python
+</div>
 
+
+```python
 obj_f = aeroplano()
 
 print(obj_F.Placement)
-
 ```
 
 Du wirst diesen Text im Berichtsfenster sehen:
 
 
 ```python
-Placement [Pos=(0,-21,21), Yaw-Pitch-Roll=(0,0,-90)]
+Placement [Pos=(0, -21, 21), Yaw-Pitch-Roll=(0, 0, -90)]
 ```
 
 Was ist geschehen?
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD hat die `Vector(0,0,0), FreeCAD.Rotation(0,0,-90), Vector(0,0,pos_ali)` mit anderen Worten unsere `Placement` Definition übersetzt, die drei Komponenten, **Translation**, **Rotation** und *Rotationszentrum*\' in den \"internen\" Werten von nur zwei Komponenten, **Translation** und **Rotation**, spezifiziert.
+
+
+</div>
 
 du kannst leicht den Wert von `pos_ali` mit einer print Anweisung in der `aeroplano(...` Methode visualisieren und sehen das es ist:
 
@@ -317,7 +338,13 @@ du kannst leicht den Wert von `pos_ali` mit einer print Anweisung in der `aeropl
 pos ali =  21.0
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 mit anderen Worten, das **Rotationszentrum** der Geometrie liegt bei `Vector(0,0,21)`, aber dieses Rotationszentrum wird in der GUI nicht angezeigt, es könnte als `Placement` Wert eingegeben werden, es könnte nicht leicht abgerufen werden.
+
+
+</div>
 
 Dies ist die Bedeutung des Wortes \"umständlich\", das ich zur Definition der `Placement` Eigenschaft verwendet habe.
 

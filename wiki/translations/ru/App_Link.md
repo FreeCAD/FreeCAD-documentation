@@ -10,18 +10,16 @@
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+<div class="mw-translate-fuzzy">
+
+
 
 *Упрощённая диаграмма отношений между основными объектами программы. Объект `App::Link* это основной компонент системы, он не зависит от какого-либо верстака, но может использоваться в большинстве объектов, созданных во всех верстаках.`
 
-## Применение
-
-
-<div class="mw-translate-fuzzy">
-
--   App Links может быть создан нажатием **<img src="images/Std_LinkMake.svg" width=16px> [LinkMake](Std_LinkMake/ru.md)**.
-
 
 </div>
+
+## Применение
 
 
 <div class="mw-translate-fuzzy">
@@ -36,8 +34,6 @@
 
 ## Properties
 
-An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it shares most of the latter\'s properties.
-
 
 <div class="mw-translate-fuzzy">
 
@@ -47,9 +43,9 @@ An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App Do
 </div>
 
 
-{{Std Base navi
+{{Std_Base_navi
 
-}} {{Document objects navi}}
+}} {{Document_objects_navi}}
 
 
 

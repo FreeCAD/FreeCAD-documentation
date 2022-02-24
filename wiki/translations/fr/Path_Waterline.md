@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Waterline
    Name/fr:Path Lignes de niveau
-   MenuLocation:Path → Waterline
+   MenuLocation:Parcours → Waterline
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---
@@ -253,8 +253,8 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 ## Ressources
 
--   simulateur G-code(tracé) : [NCViewer](https://ncviewer.com/)
--   simulateur G-code(tracé) : [CAMotics](https://www.camotics.org/)
+-   Simulateur G-code(tracé): [NCViewer](https://ncviewer.com/)
+-   Simulateur G-code(tracé): [CAMotics](https://www.camotics.org/)
 
 
 

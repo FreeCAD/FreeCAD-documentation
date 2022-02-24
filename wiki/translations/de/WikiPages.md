@@ -379,10 +379,16 @@ Bilder müssen über die [Special:Upload](Special_Upload.md) Seite hochgeladen w
 
 ### Namen
 
+
+<div class="mw-translate-fuzzy">
+
 Gib deinem Bild einen aussagekräftigen Namen. Wenn du ein Bild hast, das die Merkmale eines bestimmten Befehls präsentiert, solltest du den gleichen Namen wie der Befehl mit `_example` am Ende verwenden.
 
 -   Für den Befehl [Entwurf Versatz](Draft_Offset/de.md) sollte das Bild [Entwurf Versatz Beispiel.jpg](:Image:Draft_Offset_example.jpg.md) heißen.
 -   Für den Befehl [Arch Raum](Arch_Space/de.md) sollte das Bild [Arch Raum Beispiel.jpg](:Image:Arch_Space_example.jpg.md) heißen.
+
+
+</div>
 
 ### Bildschirmerfassung
 

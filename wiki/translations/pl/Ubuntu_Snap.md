@@ -87,9 +87,12 @@ To translate the current snap development version in to a revision number (make 
 
 
 {{Code|lang=bash|code=
-snap info freecad-ppd {{!}}
-
-grep -e \'\^installed:\' {{!}} awk -F \' \' \'{ print \$2 }\' {{!}} cut -d\'\~\' -f2 {{!}} xargs -I{} git rev-list \--count {} }}
+snap info freecad-ppd <nowiki>|</nowiki>\
+grep -e '^installed:' <nowiki>|</nowiki>\
+awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
+cut -d'~' -f2 <nowiki>|</nowiki>\
+xargs -I{} git rev-list --count {}
+}}
 
 The difference between the numbers will tell you how many revisions behind upstream the snap development (edge) is.
 

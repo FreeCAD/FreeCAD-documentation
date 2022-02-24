@@ -1,0 +1,351 @@
+# Package Metadata/pl
+{{TOCright}}
+
+## Introduction
+
+Beginning in FreeCAD version 0.20, external add-ons (workbenches, macros, and preference packs) may be distributed with a metadata file describing the contents of the package. If the file \"package.xml\" is present it is read by FreeCAD and its contents used in various parts of the user interface. It is currently optional for workbenches and macros, and required for preference packs. This page documents the format of that metadata file. The format (and the contents of this Wiki page) are based on [REP 149](https://ros.org/reps/rep-0149.html).
+
+## Overall file format 
+
+This document currently describes file format version 1.
+
+The metadata file must be a valid, well-formed XML 1.0 document. It must be called \"package.xml\", and must exist in the base directory of the software package. All understood XML tags are in lowercase, but unrecognized tags are **not** an error. Most tags are optional, and some only apply to certain types of package contents (for example, only Workbenches currently provide a \"classname\" element). Unneeded or unrecognized elements are ignored.
+
+Any file path specified in package.xml must use the slash (\"/\") as the directory separator: on systems that expect a different separator during execution (e.g. Windows) FreeCAD will automatically convert to the correct separator.
+
+## Content elements 
+
+### 
+
+The only top-level element allowed is , and the file may only contain one  element. Immediately subordinate to that are several required or optional elements, defined here. No other tags are permitted directly under the  element.
+
+    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+
+The  tag is the unique top-level tag in a package.xml file. All other tags are nested under it.
+
+#### Attributes
+
+-   format=\"NUMBER\": Specifying the package.xml format being used. For this interface, you must specify format=\"1\".
+-   xmlns=\"NAMESPACE\": Specifies the XML namespace for this package, and must be included exactly as shown above, as a link to <https://wiki.freecad.org/Package_Metadata>.
+
+#### Required child tags 
+
+The top-level  element must contain at least the following tags:
+
+-   [](#.3Cname.3E.md)
+-   [](#.3Cversion.3E.md)
+-   [](#.3Cdate.3E.md)
+-   [](#.3Cdescription.3E.md)
+-   [](#.3Cmaintainer.3E.md) (multiple, but at least one)
+-   [](#.3Clicense.3E.md) (multiple, but at least one)
+-   [](#.3Cicon.3E.md)
+-   [](#.3Ccontent.3E.md) (container element for package content items)
+
+#### Optional child tags 
+
+-   [](#.3Curl.3E.md) (multiple)
+-   [](#.3Cauthor.3E.md) (multiple)
+-   [](#.3Cdepend.3E.md) (multiple)
+-   [](#.3Cconflict.3E.md) (multiple)
+-   [](#.3Creplace.3E.md) (multiple)
+-   [](#.3Ctag.3E.md) (multiple)
+-   [](#.3Cfreecadmin.3E.md)
+-   [](#.3Cfreecadmax.3E.md)
+
+###  
+
+REQUIRED
+
+The name of this package. Must only contain characters that are valid for filenames (disallowed characters are /\\?%\*:\|\"\<\> ).
+
+###  
+
+REQUIRED
+
+A version number that follows either the [semantic versioning 2.0 standard](https://semver.org) (e.g. 1.0.2-beta) or the [CalVer style](https://calver.org/) (e.g. 2021.12.08). Note that you cannot include both types, and switching between types is not supported. Internally the code has no concept of which type is chosen, when comparing versions it performs a simple numerical comparison between each successive numeric component regardless of type.
+
+###  
+
+REQUIRED
+
+The date of the current version, in the format YYYY-MM-DD or YYYY.MM.DD.
+
+###  
+
+REQUIRED
+
+A concise (up to several sentences) text-only description of this package. No markup is supported.
+
+###  
+
+AT LEAST ONE REQUIRED (multiple allowed)
+
+The name of the person maintaining the package. All packages require a maintainer. For orphaned packages see below.
+
+#### Attributes 
+
+-   email=\"name\@domain.tld\" (required): Email address of the maintainer.
+
+An orphaned package is one with no current maintainer. Orphaned packages should use the following maintainer information:
+
+    <maintainer email="no-one@freecad.org">No current maintainer</maintainer>
+
+###  
+
+AT LEAST ONE REQUIRED (multiple allowed)
+
+Name of license for this package, e.g. BSD, GPL, LGPL. In order to assist machine readability, only include the license name in this tag. For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag.
+
+Most common open-source licenses are described on the [OSI website](https://opensource.org/licenses/alphabetical).
+
+Commonly-used license strings:
+
+-   Apache-2.0
+-   BSD
+-   Boost Software License
+-   GPLv2
+-   GPLv3
+-   LGPLv2.1
+-   LGPLv3
+-   MIT
+-   Mozilla Public License Version 1.1
+
+#### Attributes 
+
+-   file=\"FILE\" (optional): A path relative to the package.xml file containing the full license text. Many licenses require including the license text when redistributing the software. E.g. the Apache License, Version 2.0 states in paragraph 4.1: \"You must give any other recipients of the Work or Derivative Works a copy of this License\"
+
+###  
+
+REQUIRED
+
+The  tag describes the actual contents of the package. It has no attributes, and contains any number of children. Those children can have arbitrary tag names, only some of which may be recognized by FreeCAD. FreeCAD currently supports \"workbench\", \"macro\", and \"preferencepack\" elements. Each child is then defined recursively by this standard, containing any or all of the elements allowed for the root  node. For example:
+
+    <content>
+      <preferencepack>
+        <name>Unicorn Sparkles Theme</name>
+        <version>1.0.0</version>
+        <url type="readme">https://github.com/chennes/FreeCAD-themes/Unicorn%20Sparkles%20Theme/Readme.md</url>
+        <icon>sparkles.svg</icon>
+        <type>appearance</type>
+      </preferencepack>
+    </content>
+
+The existence of  items implies a set of subfolders, one for each content item, named exactly as the given name of the item. So for the example above, the package\'s folder structure is:
+
+    Package Directory/
+      package.xml
+      Unicorn Sparkles Theme/
+        Unicorn Sparkles Theme.cfg
+        sparkles.svg
+        (the theme's other files)
+
+In addition to the other elements of , content items can optionally provide information in , , , and  tags (technically these can be provided to the root  tag as well, but they are generally unused there).
+
+**Backwards-compatibility note**: to avoid having to restructure packages that pre-date this metadata standard, the optional [](#.3Csubdirectory.3E.md) tag is allowed to specify \"./\" as the subdirectory for a content item, in which case no subdirectory is required. This matches the pre-standard system where a single workbench was located at the top of the directory structure.
+
+####  
+
+REQUIRED for Workbenches
+
+The path to an icon file. If it is an icon for the top-level package this path is relative to the package.xml file itself. If the icon is an element of a  item, then the path is relative to the content\'s folder. The Addon Manager will display the top-level icon as the icon for the overall package. If no top-level icon is present, the first specified workbench icon will be used as the package icon.
+
+####  
+
+Optional.
+
+Normally a content item is assumed to be located in a subdirectory with the same name as the item. In some cases, however, it is useful to explicitly specify the subdirectory. For example, many macros may be located within a single subdirectory, but each have their own entry in the package.xml file. It also provides backwards-compatibility support for packages that predate the package.xml file format specification, and do not follow the expected subdirectory structure. Often in these cases, a \"./\" is used to indicate that the item is not located in a subdirectory at all.
+
+####  
+
+REQUIRED for Workbenches
+
+For workbenches, the name of the Python main entry class.
+
+####  
+
+Optional
+
+Provided for convenience to other tools, any number of other files may be listed here. Their use depends on the type of content. In a macro content item, each file entry is a single macro, and will be linked into the user\'s Macros installation directory by the [Addon Manager](Std_AddonMgr.md).
+
+####  
+
+REQUIRED for Preference Packs, not supported for other content elements
+
+Either \"appearance\", \"behavior\", or \"combination\" describing to end users what type of changes they can expect this preference pack to change.
+
+###  
+
+Multiple allowed
+
+A Uniform Resource Locator for the package\'s website, bug tracker, source repository, readme file, or documentation. For packages installed via git, the repository is required. Inclusion of the \"readme\" URL is highly recommended: if the readme is specified and is either a plain text, HTML, or Markdown document (as indicated by the extensions \*.txt, \*.html, and \*.md, respectively), the Addon Manager will download, cache, and display this file and its associated image files.
+
+It is a good idea to include  tags pointing users to your package\'s online resources. The website is commonly a wiki page on wiki.freecad.org where users can find and update information about the package, for example. The Addon Manager lists these URLs and provides clickable links to them in the package description.
+
+#### Attributes 
+
+-   type=\"TYPE\" (required): The type should be one of the following identifiers \-- \"website\", \"bugtracker\", \"repository\", \"readme\", or \"documentation\".
+-   branch=\"BRANCH\" (required for type=\"repository\"): The name of the branch to check out to obtain this package. Typically the name of your main development branch. May also specify any other type of git reference, e.g. a tag or specific commit.
+
+###  
+
+Multiple allowed
+
+The name of a person who is an author of the package, as acknowledgement of their work and for questions.
+
+#### Attributes 
+
+-   email=\"name\@domain.tld\" (optional): Email address of author.
+
+###  
+
+Multiple allowed
+
+Declares another FreeCAD Addon or workbench. Note that not all dependency-related features are fully implemented yet. Does not support Python package dependencies, which should be specified using either a requirements.txt or metadata.txt file (see [Workbench creation](Workbench_creation#Distribution.md) for details).
+
+#### Attributes 
+
+All dependencies and relationships may restrict their applicability to particular versions. For each comparison operator an attribute can be used. Two of these attributes can be used together to describe a version range.
+
+-   version\_lt=\"VERSION\" (optional): The dependency to the package is restricted to versions less than the stated version number.
+-   version\_lte=\"VERSION\" (optional): The dependency to the package is restricted to versions less or equal than the stated version number.
+-   version\_eq=\"VERSION\" (optional): The dependency to the package is restricted to a version equal than the stated version number.
+-   version\_gte=\"VERSION\" (optional): The dependency to the package is restricted to versions greater or equal than the stated version number.
+-   version\_gt=\"VERSION\" (optional): The dependency to the package is restricted to versions greater than the stated version number.
+-   condition=\"CONDITION\_EXPRESSION\": Every dependency can be conditional on a condition expression. If the condition expression evaluates to \"true\" the dependency is used and considered as if it doesn\'t have a condition attribute. If the condition expression evaluates to \"false\" the dependency is ignored and considered as if it doesn\'t exist. The expression must be a valid FreeCAD Expression (i.e. Python syntax), and may refer to the variables \"\$BuildVersionMajor\", \"\$BuildVersionMinor\", and \"\$BuildRevision\" representing the version of FreeCAD currently running.
+
+###  
+
+Multiple allowed
+
+Declares a package name with which this package conflicts. This package and the conflicting package should not be installed at the same time.
+
+#### Attributes 
+
+See .
+
+###  
+
+Multiple allowed
+
+Declares a package name that this package is intended to replace.
+
+#### Attributes 
+
+See .
+
+###  
+
+A simple text tag used for categorization when using a package manager. Multiple  elements may be specified.
+
+###  
+
+The minimum version of FreeCAD required to use this package/element, as a semantic version 2.0 string in the format MAJOR.MINOR.BUILD
+
+###  
+
+The maximum version of FreeCAD required to use package/element, as a semantic version 2.0 string in the format MAJOR.MINOR.BUILD
+
+## Examples
+
+A simple workbench-only package (for example, to add a metadata file to a package that predates this metadata format):
+
+    <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+      <name>Legacy Workbench</name>
+      <description>A package.xml file to add to a workbench that predates the metadata standard.</description>
+      <version>1.0.1</version>
+      <date>2022-01-07</date>
+      <maintainer email="your_address@null.com">Your Name</maintainer>
+      <license file="LICENSE">LGPLv2.1</license>
+      <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
+      <icon>Resources/icons/PackageIcon.svg</icon> 
+
+      <content>
+        <workbench>
+          <classname>MyLegacyWorkbench</classname>
+          <subdirectory>./</subdirectory>
+        </workbench>
+      </content>
+
+    </package>
+
+A complex, multi-component package:
+
+    <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+      <name>Example Package Format</name>
+      <description>An example of the package.xml file format</description>
+      <version>2022.01</version>
+      <date>2022-01-07</date>
+      <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
+      <license file="LICENSE">GPLv3</license>
+      <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
+      <icon>PackageIcon.svg</icon>
+
+      <content>
+        <preferencepack>
+          <name>FreeCAD Classic Colors</name>
+          <description>FreeCAD default colors for core app and included Mods.</description>
+          <version>1.0.0</version>
+          <tag>color</tag>
+          <tag>stylesheet</tag>
+        </preferencepack>
+        <workbench>
+          <name>Metadata Creation Workbench</name>
+          <description>A set of tools to assist in creation of package.xml metadata files</description>
+          <classname>MetadataCreationWorkbench</classname>
+          <subdirectory>MCW</subdirectory>
+          <icon>Resources/mcw.svg</icon>
+          <tag>developers</tag>
+          <version>0.9.0-alpha</version>
+        </workbench>
+        <macro>
+          <name>Problem Solver 9000</name>
+          <description>Deletes all emails in your inbox</description>
+          <subdirectory>./</subdirectory>
+          <file>PS9000.FCMacro</file>
+        </macro>
+      </content>
+
+    </package>
+
+A package with dependencies:
+
+    <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+      <name>Example with Dependencies</name>
+      <description>An example of the package.xml file format</description>
+      <version>1.0.1-beta3</version>
+      <date>2022-01-07</date>
+      <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
+      <license file="LICENSE">GPLv3</license>
+      <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
+      <icon>PackageIcon.svg</icon>
+
+      <content>
+        <workbench>
+          <name>Metadata Creation Workbench</name>
+          <description>A set of tools to assist in creation of package.xml metadata files</description>
+          <classname>MetadataCreationWorkbench</classname>
+          <subdirectory>MCW</subdirectory>
+          <icon>Resources/mcw.svg</icon>
+          <tag>developers</tag>
+
+          <depend>FEM</depend>
+          <depend version_gte="0.3.0">Curves workbench</depend>
+          <depend version_gte="3.3" version_lt="4">Steel column</depend>
+
+          
+          <replace>Metadata Creation Workbench Beta</replace>
+
+          
+          <conflict condition="$BuildRevision==24267">Do not use with build 24267</conflict> 
+        </workbench>
+      </content>
+
+    </package>
+
+
+
+---
+![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Package Metadata/pl

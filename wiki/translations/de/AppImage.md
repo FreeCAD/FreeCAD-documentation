@@ -23,13 +23,7 @@ Für andere Installationsarten siehe [Herunterladen](Download/de.md).
 ## FreeCAD AnwendungsAbbilder 
 
 
-<div class="mw-translate-fuzzy">
-
-
-**'''Note:''' Entwicklungs-Builds werden nun auf dem [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''] github repo bereitgestellt.<br/>Wenn die untenstehenden Download-Verknüpfungen nicht funktionieren, lade die Dateien bitte manuell aus dem eingeklappten Abschnitt "Assets" unter dem o.g. Link herunter.**
-
-
-</div>
+**'''Note:''' Entwicklungs-Builds werden nun auf dem [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''] github repo bereitgestellt.<br/>Wenn die untenstehenden Download-Verknüpfungen nicht funktionieren, lade die Dateien bitte manuell aus dem ausgeklappten Abschnitt "Assets" unter dem o.g. Link herunter.**
 
   Stable                                                                                                                                                                                                                                                                                                              Development
    
@@ -175,10 +169,10 @@ Dies macht es sehr bequem, Bilder für einen bestimmten Zweig des Quellcodes fü
 
 Das Repositorium für diese Skripte befindet sich unter [realthunder/FreeCADMakeImage](https://github.com/realthunder/FreeCADMakeImage). Bitte lies die [Readme.md](https://github.com/realthunder/FreeCADMakeImage/blob/master/Readme.md) für weitere Einzelheiten.
 
-## Related
+## Verwandtes
 
--   [Snap](Ubuntu_Snap.md) packages.
--   [Flatpak](Flatpak.md) packages.
+-   [Snap](Ubuntu_Snap/de.md) Pakete.
+-   [Flatpak](Flatpak/de.md) Pakete.
 
 
 

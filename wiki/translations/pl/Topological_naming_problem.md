@@ -71,11 +71,11 @@ Przemapowanie szkicu w ten sposób może być wykonywane za każdym razem, gdy w
 
 [Graf zależności](Std_DependencyGraph/pl.md) jest narzędziem, które jest pomocne w obserwowaniu zależności pomiędzy różnymi zawartościami w dokumencie. Użycie oryginalnego przepływu pracy modelowania ujawnia bezpośrednią zależność, jaka istnieje między szkicami a wyciągnięciami. Podobnie jak w przypadku łańcucha, łatwo zauważyć, że ta bezpośrednia zależność będzie podlegała problemom z nazewnictwem topologicznym, jeśli któreś z ogniw sekwencji ulegnie zmianie.
 
-As explained in the [feature editing](feature_editing.md) page, a solution to this problem is to support sketches not on faces but on datum planes which are offset from the main planes of the [PartDesign Body\'s](PartDesign_Body.md) Origin.
+Jak wyjaśniono na stronie [Edycja cech](Feature_editing/pl.md), rozwiązaniem tego problemu jest obsługa szkiców nie na powierzchniach, lecz na płaszczyznach odniesienia, które są odsunięte od głównych płaszczyzn położenia odniesienia [zawartości](PartDesign_Body/pl.md).
 
-1\. Select the origin of the [PartDesign Body](PartDesign_Body.md) and make sure that it is visible. Then select the XY plane, and click on [PartDesign Plane](PartDesign_Plane.md). In the attachment offset dialog, give it an offset in the Z direction so that the datum plane is coplanar with the top face of the first pad.
+1\. Zaznacz punkt położenie odniesienia [Zawartości](PartDesign_Body/pl.md) i upewnij się, że jest on widoczny. Następnie wybierz płaszczyznę XY i kliknij w narzędzie [Płaszczyzna](PartDesign_Plane/pl.md). W oknie dialogowym Odsunięcie dołączenia nadaj jej odsunięcie w kierunku Z, tak aby płaszczyzna odniesienia była współpłaszczyznowa z górną powierzchnią pierwszego wyciągnięcia.
 
-2\. Repeat the process but this time add a larger offset so that the second datum plane is coplanar with the top face of the second pad.
+2\. Powtórz proces, ale tym razem dodaj większe odsunięcie, tak aby druga płaszczyzna odniesienia była współpłaszczyznowa z górną powierzchnią drugiego wyciągnięcia.
 
 
 
@@ -84,7 +84,7 @@ As explained in the [feature editing](feature_editing.md) page, a solution to th
   <img alt="" src=images/FreeCAD_topological_problem_17_datum_plane_1.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_18_datum_plane_2.png  style="width:" height="400px;">
    
 
-3\. Select the second sketch, click on the ellipsis next to the **Map Mode** property, and then select the first datum plane. The datum plane is already offset from the body\'s XY plane, so no further Z offset is required for the sketch.
+3\. Zaznacz drugi szkic, kliknij elipsę obok właściwości **Tryb dołączenia**, a następnie wybierz pierwszą płaszczyznę odniesienia. Płaszczyzna odniesienia jest już odsunięta od płaszczyzny XY zawartości, więc w przypadku szkicu nie jest wymagane dodatkowe odsunięcie Z.
 
 4\. Repeat the process with the third sketch, and select the second datum plane as support. Again, no further Z offset is necessary.
 

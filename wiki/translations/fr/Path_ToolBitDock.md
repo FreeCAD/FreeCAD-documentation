@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Path ToolBitDock
-   Name/fr:Path Sélecteur d'outil coupant
-   MenuLocation:Path → ToolBit Dock
+   Name/fr:Path Sélecteur d'outils coupants
+   MenuLocation:Parcours → Sélecteur d'outils coupants
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **T**
    Version:0.19
@@ -19,7 +19,7 @@ Le sélecteur d\'outils coupants est facilement accessible depuis la barre d\'ou
 
 L\'objectif du sélecteur d\'outils est d\'afficher la bibliothèque sélectionné et de permettre à l\'utilisateur d\'ajouter rapidement des contrôleurs d\'outils au(x) Path tâche(s).
 
-Double-cliquer sur un toolbit créera un seul contrôleur d\'outil pour cet outil coupant. Si vous sélectionnez plusieurs outils coupants et appuyez sur le bouton \'Add to Job\', vous créerez des contrôleurs d\'outils pour tous les outils coupants de la bibliothèque.
+Double-cliquer sur un outil créera un seul contrôleur d\'outil pour cet outil coupant. Si vous sélectionnez plusieurs outils coupants et appuyez sur le bouton \'Add to Job\', vous créerez des contrôleurs d\'outils pour tous les outils coupants de la bibliothèque.
 
 L\'utilisateur peut également sélectionner plusieurs outils et utiliser le bouton \'Ajouter\...\' en bas pour ajouter des contrôleurs d\'outils pour la sélection.
 
@@ -32,12 +32,12 @@ Un bouton de gestion en haut à droite (4) permet à l\'utilisateur de lancer le
 ### Créer des contrôleurs d\'outils 
 
 1.  Il existe plusieurs façons d\'ouvrir le sélecteur d\'outils coupants :
-    -   Appuyez sur le bouton **<img src="images/Path_ToolBitDock.svg" width=16px> [Path ToolBitDock](Path_ToolBitDock/fr.md)**.
-    -   Sélectionnez l\'option **Path → <img src="images/Path_ToolBitDock.svg" width=16px> ToolBit Dock** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Path_ToolBitDock.svg" width=16px> [Sélecteur d'outils coupants](Path_ToolBitDock/fr.md)**.
+    -   Sélectionnez l\'option **Parcours → <img src="images/Path_ToolBitDock.svg" width=16px> Sélecteur d'outils coupants** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **T**.
-2.  Utilisez le dock pour ajouter des contrôleurs d\'outils à une Path tâche.
+2.  Utilisez le dock pour ajouter des contrôleurs d\'outils à une tâche.
     -   Double-cliquez sur un outil coupant (2) pour créer un contrôleur d\'outil pour cet outil coupant.
-    -   sélectionnez un ou plusieurs outils coupants et appuyez sur le bouton \'add to Job..\'(3).
+    -   Sélectionnez un ou plusieurs outils coupants et appuyez sur le bouton \"Ajouter à la tâche\...\"(3).
 
 ## Options
 

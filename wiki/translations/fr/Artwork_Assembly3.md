@@ -1,9 +1,9 @@
 # Artwork Assembly3/fr
 Ces icônes se trouvent dans le chemin source indiqué de la branche de Realthunder :
 
-## \.../Mod/asm3
+## Mod/asm3
 
-### \.../Mod/asm3/freecad/asm3/Gui/Resources/icons
+### Mod/asm3/freecad/asm3/Gui/Resources/icons
 
 ![](images/Assembly_Add_New_Part.svg ) ![](images/Assembly_Add_Origin.svg ) ![](images/Assembly_Add_Placement.svg ) ![](images/Assembly_Add_Workplane.svg ) ![](images/Assembly_Add_WorkplaneXZ.svg ) ![](images/Assembly_Add_WorkplaneZY.svg ) ![](images/Assembly_Assembly_Constraints_Tree.svg ) ![](images/Assembly_Assembly_Create_New.svg ) ![](images/Assembly_Assembly_Element_Tree.svg ) ![](images/Assembly_Assembly_Element.svg )
 
@@ -13,7 +13,7 @@ Ces icônes se trouvent dans le chemin source indiqué de la branche de Realthun
 
 ![](images/Assembly_QuickSolve.svg ) ![](images/Assembly_ShowElementCS.svg ) ![](images/Assembly_SmartRecompute.svg ) ![](images/Assembly_TogglePartVisibility.svg ) ![](images/Assembly_Trace.svg ) ![](images/Assembly_TreeItemDown.svg ) ![](images/Assembly_TreeItemUp.svg ) ![](images/Assembly_Workplane.svg ) ![](images/AssemblyWorkbench.svg )
 
-### \.../Mod/asm3/freecad/asm3/Gui/Resources/icons/constraints/
+### Mod/asm3/freecad/asm3/Gui/Resources/icons/constraints/
 
 ![](images/Assembly_ConstraintAlignment.svg ) ![](images/Assembly_ConstraintAngle.svg ) ![](images/Assembly_ConstraintArcLineTangent.svg ) ![](images/Assembly_ConstraintAttachment.svg ) ![](images/Assembly_ConstraintAxial.svg ) ![](images/Assembly_ConstraintBidirectional.svg ) ![](images/Assembly_ConstraintCoincidence.svg ) ![](images/Assembly_ConstraintColinear.svg ) ![](images/Assembly_ConstraintDiameter.svg ) ![](images/Assembly_ConstraintDistance.svg )
 

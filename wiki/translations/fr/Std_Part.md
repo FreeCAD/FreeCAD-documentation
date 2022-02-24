@@ -33,134 +33,103 @@ L\'outil **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)**. Un Part vide est créée et devient automatiquement *[actif](Std_Part/fr#Statut_actif.md)*.
-2.  Pour ajouter des objets à un Part, sélectionnez-les dans la [Vue en arborescence](Tree_view/fr.md), puis faites-les glisser et déposez-les sur le Part.
-3.  Pour supprimer des objets d\'un Part, faites-les glisser hors du Part et sur l\'étiquette du document en haut de la [Vue en arborescence](Tree_view/fr.md).
+1.  Appuyez sur le bouton **[<img src=images/Std_Part.svg style="width:16px"> [Créer une pièce](Std_Part/fr.md)**.
+2.  Une pièce vide est créée et devient automatiquement *[active](#Statut_actif.md)*.
+3.  Pour ajouter des objets à la pièce, sélectionnez-les dans la [Vue en arborescence](Tree_view/fr.md), puis faites-les glisser et déposez-les sur la pièce.
+4.  Pour retirer des objets de la pièce, faites-les glisser hors de la pièce et déposez-les sur l\'étiquette du document en haut de la [Vue en arborescence](Tree_view/fr.md).
+5.  Vous pouvez également ajouter et supprimer des objets en modifiant la propriété **Group** de la pièce.
 
-### Remarques
+## Remarques
 
--   Depuis la v0.19, un objet donné ne peut appartenir qu\'à un seul Part.
--   Double-cliquez sur Part dans la [vue en arborescence](tree_view/fr.md) ou ouvrez le menu contextuel (clic droit) et sélectionnez **Toggle active part** pour activer ou désactiver Part. Si un autre Part est actif, il sera désactivé. Voir [status actif](Std_Part/fr#Statut_actif.md) pour plus d\'informations.
-
-### Limitations
-
--   À l\'heure actuelle, les méthodes [Draft accrochage](Draft_Snap/fr.md) ne fonctionnent pas sur les conteneurs de Part sélectionnés ni sur les objets à l\'intérieur de ceux-ci.
--   Part n\'a pas de [forme topologique](Part_TopoShape/fr.md) donc les opérations 3D comme les [Part Opérations booléennes](Part_Boolean/fr.md) ne peuvent pas être utilisées sur un Part lui-même. Par exemple, vous ne pouvez pas sélectionner deux Parts et effectuer une [Part Union](Part_Union/fr.md) ou une [Part Soustraction](Part_Cut/fr.md).
-    -   Ces opérations booléennes ne fonctionnent que sur les objets contenus tant que ceux-ci sont dérivés de [Part Feature](Part_Feature/fr.md) et ont une [forme topologique](Part_TopoShape/fr.md).
+-   Un objet ne peut appartenir qu\'à une seule pièce.
+-   Les opérations 3D comme les [Part Opérationd booléenned](Part_Boolean/fr.md) ne peuvent pas être appliquées aux pièces. Par exemple, vous ne pouvez pas sélectionner deux pièces et effectuer un [Part Union](Part_Fuse/fr.md) ou un [Part Soustraction](Part_Cut/fr.md).
 
 ## Propriétés
 
-[Std Part](Std_Part/fr.md) est appelée en interne [App Part](App_Part/fr.md) (classe `App::Part`) et est dérivé d\'une [App GeoFeature](App_GeoFeature/fr.md) (classe `App::GeoFeature`). Il partage donc la plupart des propriétés de ce dernier.
+[Std Part](Std_Part/fr.md), appelée en interne [App Part](App_Part/fr.md) (classe `App::Part`), est dérivé de [App GeoFeature](App_GeoFeature/fr.md) (classe `App::GeoFeature`) et hérite de toutes ses propriétés. Il possède également plusieurs propriétés supplémentaires. Notamment des propriétés qui l\'aident à gérer les informations dans le contexte d\'un assemblage, par exemple, **Type**, **Id**, **License**, **LicenseURL** and **Group**.
 
-En plus des propriétés décrites dans [App GeoFeature](App_GeoFeature/fr.md), la classe App Part possède des propriétés qui l\'aident à gérer les informations dans le contexte d\'un assemblage, par exemple, **Type**, **Id**, **License**, **LicenseURL**, **Color** et **Group**.
-
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
 
 ### Données
 
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Type|String}}: une description de cet objet. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
+-    **Type|String**: a description for this object. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
 
--    {{PropertyData/fr|Id|String}}: une identification ou un numéro de pièce pour cet objet. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
+-    **Material|Link**: le matériau de cet objet.
 
--    {{PropertyData/fr|License|String}}: un champ pour spécifier la licence pour cet objet. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
+-    **Meta|Map|Hidden**: avec des méta-informations supplémentaires. Par défaut, il est vide {}.
 
--    {{PropertyData/fr|LicenseURL|String}}: un champ pour spécifier l\'adresse Web de la licence ou du contrat pour cet objet. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
+-    **Id|String**: une identification ou un numéro de pièce pour cet objet. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
 
--    {{PropertyData/fr|Color|Color}}: un tuple de quatre valeurs RGBA à virgule flottante white color.
+-    **Uid|UUID|Hidden**: l\'[identificateur unique et universel](https://fr.wikipedia.org/wiki/Universally_unique_identifier) (UUID) (numéro de 128 bits) de l\'objet. Il est attribué au moment de la création.
 
--    {{PropertyData/fr|Placement|Placement}}: la position de l\'objet dans la [Vue 3D](3D_view/fr.md). Le placement est défini par un point `Base` (vecteur) et une `Rotation` (axe et angle). Voir [Positionnement](Placement/fr.md).
+-    **License|String**: champ permettant de spécifier la licence de cet objet. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
 
-    -   
-        {{PropertyData/fr|Angle}}
-        
-        : l\'angle de rotation autour de {{PropertyData/fr|Axis}}. Par défaut, il s\'agit de {{value|0°}} (zéro degré).
+-    **LicenseURL|String**: champ permettant de spécifier l\'adresse web de la licence ou du contrat pour cet objet. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
 
-    -   
-        {{PropertyData/fr|Axis}}
-        
-        : le vecteur unitaire qui définit l\'axe de rotation pour le placement. Chaque composant est une valeur à virgule flottante entre {{value|0}} et {{value|1}}. Si une valeur est supérieure à {{value|1}}, le vecteur est normalisé de sorte que l\'amplitude du vecteur est {{value|1}}. Par défaut, il s\'agit de l\'axe Z positif, {{value|(0, 0, 1)}}.
+-    **Color|Color**: un tuple de quatre valeurs RGBA à virgule flottante couleur blanche.
+
+-    **Placement|Placement**: la position de l\'objet dans la [Vue 3D](3D_view/fr.md). L\'emplacement est défini par un point `Base` (vecteur) et un `Rotation` (axe et angle). Voir [Placement](Placement/fr.md).
 
     -   
-        {{PropertyData/fr|Position}}
+        **Angle**
         
-        : un vecteur avec les coordonnées 3D du point de base. Par défaut, c\'est l\'origine {{value|(0, 0, 0)}}.
+        : l\'angle de rotation autour de **Axis**. Par défaut, il est {{value|0°}}. (zéro degré).
 
--    {{PropertyData/fr|Label|String}}: le nom modifiable par l\'utilisateur de cet objet, c\'est une chaîne UTF8 arbitraire.
+    -   
+        **Axis**
+        
+        : le vecteur unitaire qui définit l\'axe de rotation du placement. Chaque composante est une valeur à virgule flottante comprise entre {{value|0}} et {{value|1}}. Si une valeur est supérieure à {{value|1}}, le vecteur est normalisé de manière à ce que sa magnitude soit {{value|1}}. Par défaut, il s\'agit de l\'axe Z positif, {{value|(0, 0, 1)}}.
 
--    {{PropertyData/fr|Group|LinkList}}: une liste d\'objets référencés. Par défaut, il est vide {{value|[]}}.
+    -   
+        **Position**
+        
+        : un vecteur contenant les coordonnées 3D du point de base. Par défaut, il s\'agit de l\'origine {{value|(0, 0, 0)}}.
 
-##### Propriétés cachées de Données 
+-    **Label|String**: le nom modifiable par l\'utilisateur de cet objet, il s\'agit d\'une chaîne UTF8 arbitraire.
 
--    {{PropertyData/fr|Material|Map}}: carte avec les propriétés du matériau. Par défaut, il est {}.
+-    **Label2|String|Hidden**: une description plus longue, modifiable par l\'utilisateur, de cet objet. Il s\'agit d\'une chaîne UTF8 arbitraire qui peut inclure des nouvelles lignes. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
 
--    {{PropertyData/fr|Meta|Map}}: carte avec des méta-informations supplémentaires. Par défaut, il est {}.
+-    **Expression Engine|ExpressionEngine|Hidden**: une liste d\'expressions. Par défaut, elle est vide {{value|[]}}.
 
--    {{PropertyData/fr|Uid|UUID}}: l\'identifiant universellement unique [universally unique identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier) (UUID) (numéro 128 bits) de l\'objet. Ceci est attribué au moment de la création.
+-    **Visibility|Bool|Hidden**: affichage ou non l\'objet.
 
--    {{PropertyData/fr|Label2|String}}: une description plus longue et modifiable par l\'utilisateur de cet objet, c\'est une chaîne UTF8 arbitraire qui peut inclure des retours à la ligne. Par défaut, il s\'agit d\'une chaîne vide {{value|""}}.
+-    **Origin|Link|Hidden**: l\'objet [App Origin](App_OriginGroupExtension.md) qui sert de référence positionnelle pour tous les éléments énumérés dans **Group**.
 
--    {{PropertyData/fr|Expression Engine|ExpressionEngine}}: une liste d\'expressions. Par défaut, il est vide {{value|[]}}.
+-    **Group|LinkList**: une liste d\'objets référencés. Par défaut, elle est vide {{value|[]}}.
 
--    {{PropertyData/fr|Visibility|Bool}}: afficher ou non l\'objet.
-
--    {{PropertyData/fr|Origin|Link}}: l\'objet [App Origin](App_OriginGroupExtension/fr.md) qui est la référence de position pour tous les éléments répertoriés dans **Group**.
-
--    {{PropertyData/fr|_ Group Touched|Bool}}: si le groupe est touché ou non.
+-    **_Group Touched|Bool|Hidden**: indique si le groupe est touché ou non.
 
 ### Vue
 
-App Part n\'a que les cinq propriétés de la base [App FeaturePython](App_FeaturePython/fr.md) et n\'a pas de propriétés masquées.
+
+{{TitleProperty|Display Options}}
+
+-    **Display Mode|Enumeration**: {{value|Group}}.
+
+-    **Show In Tree|Bool**: si la valeur est `True`, l\'objet apparaît dans la [Vue en arborescence](Tree_view/fr.md). Sinon, il est défini comme invisible.
+
+-    **Visibility|Bool**: si elle est `True`, l\'objet apparaît dans la [Vue 3D](3D_view/fr.md) ; sinon, il est invisible. Par défaut, cette propriété peut être activée ou désactivée en appuyant sur la barre **Espace** du clavier.
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Selection}}
 
--    {{PropertyView/fr|Display Mode|Enumeration}}: {{value|Group}}.
+-    **On Top When Selected|Enumeration**: {{value|Disabled}} (par défaut) (par défaut), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
 
--    {{PropertyView/fr|On Top When Selected|Enumeration}}: {{value|Disabled}} (default), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
-
--    {{PropertyView/fr|Selection Style|Enumeration}}: {{value|Shape}} (défaut), {{value|BoundBox}}. Si l\'option est {{value|Shape}}, la forme entière (sommets, arêtes et faces) sera mise en surbrillance dans la [vue 3D](3D_view/fr.md) ; s\'il s\'agit de {{value|BoundBox}}, seul le cadre de sélection sera mis en surbrillance.
-
--    {{PropertyView/fr|Show In Tree|Bool}}: s\'il s\'agit de `True`, l\'objet apparaît dans la [vue en arborescence](Tree_view/fr.md). Sinon, il est défini comme invisible.
-
--    {{PropertyView/fr|Visibility|Bool}}: s\'il s\'agit de `True`, l\'objet apparaît dans la [vue 3D](3D_view/fr.md) ; sinon il est invisible. Par défaut, cette propriété peut être activée et désactivée en appuyant sur la barre **Espace** du clavier.
-
-## Concept d\'assemblage 
-
-Std Part est destiné à être le bloc de construction de base pour créer des assemblages. Contrairement à un [PartDesign Corps](PartDesign_Body/fr.md), un assemblage est censé être une collection d\'éléments distincts et distinctifs qui sont connectés d\'une manière ou d\'une autre dans le monde physique, par exemple par pression, vis ou colle.
-
-Exemples qui pourraient être des Parts :
-
--   Une table en bois composée de pièces individuelles en bois (pieds, plateau) assemblées par de la colle ou des vis métalliques.
--   Un roulement à billes composé de plusieurs billes en acier, d\'une bague intérieure, d\'un dispositif de retenue, d\'un joint et d\'une bague extérieure.
--   Un assemblage d\'une vis avec une rondelle et un écrou assorti.
-
-<img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> 
-*A gauche : trois solides contigus individuels, chacun modélisé par un [PartDesign Corps](PartDesign_Body/fr.md). À droite : les corps individuels réunis à l'intérieur d'un Std Part pour créer un assemblage.*
-
-De manière générale, lors de l\'importation d\'un fichier STEP dans le programme, l\'assemblage principal et ses sous-assemblages seront importés en tant que conteneurs de Parts, chacun d\'eux contenant une simple [Part Feature](Part_Feature/fr.md).
+-    **Selection Style|Enumeration**: {{value|Shape}}. (par défaut), {{value|BoundBox}}. Si l\'option est {{value|Shape}}, la forme entière (sommets, arêtes et faces) sera mise en évidence dans la [Vue 3D](3D_view/fr.md) ; si elle est {{value|BoundBox}}, seule la boîte de délimitation sera mise en évidence.
 
 ## Explications détaillées 
 
 ### Statut actif 
 
-Un document ouvert peut contenir plusieurs Part. Un Part actif sera affiché dans la [vue en arborescence](Tree_view/fr.md) avec la couleur d\'arrière-plan spécifiée par la valeur **Conteneur actif** dans [éditeur de préférences](Preferences_Editor/fr#Couleurs.md) (par défaut, clair bleu). Une partie active sera également affichée en gras.
+Un document ouvert peut contenir plusieurs parties. Mais une seule pièce peut être active. La partie active est affichée dans la [vue en arborescence](Tree_view/fr.md) avec la couleur de fond spécifiée par la valeur **Contenant actif** dans l\'[éditeur de préférences](Preferences_Editor/fr#Couleurs.md) (par défaut, bleu clair). Il sera également affiché avec du texte en gras.
 
 Pour activer ou désactiver un Part :
 
 -   Double-cliquez dessus dans l\'[arborescence](Tree_view/fr.md) ou
 -   Ouvrez le menu contextuel (clic droit) et sélectionnez **Toggle active part**.
-
-
-**Remarques :**
-
--    {{emphasis|active status}}de Parts a été développé en v0.17 en parallèle avec le {{emphasis|active status}} de [PartDesign Corps](PartDesign_Body/fr.md). Cependant, à partir de la v0.19, ce statut ne sert plus à rien pour les Parts.
-
--   Même lorsqu\'un Part est actif, les objets nouvellement créés ne sont pas placés automatiquement à l\'intérieur. Dans ce cas, faites simplement glisser ces nouveaux objets et déposez-les sur le Part souhaité.
-
--   Un seul Part peut être actif à la fois.
 
 ![](images/Std_Part_active.png )
 
@@ -170,13 +139,13 @@ Pour activer ou désactiver un Part :
 
 ### Origine
 
-L\'Origine se compose des trois axes standard (X, Y, Z) et de trois plans standard (XY, XZ et YZ). Les [Esquisses](Sketch/fr.md) et d\'autres objets peuvent être attachés à ces éléments lors de leur création.
+L\'Origine se compose des trois axes standard (X, Y, Z) et de trois plans standard (XY, XZ et YZ). Les [esquisses](Sketch/fr.md) et d\'autres objets peuvent être attachés à ces éléments lors de leur création.
 
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
 
 
 
-*À gauche : Part Origin dans la [vue en arborescence](tree_view/fr.md) et telle qu'elle apparaît affichée dans la [vue 3D](3D_view/fr.md). À droite : représentation des éléments Origin dans la [Vue 3D](3D_view/fr.md).*
+*À gauche : Part Origin dans la [vue en arborescence](Tree_view/fr.md). À droite : représentation des éléments Origin dans la [Vue 3D](3D_view/fr.md).*
 
 
 **Remarque**
@@ -195,38 +164,28 @@ La visibilité d\'un Part remplace la visibilité de tout objet qu\'elle contien
 ![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
 *La visibilité de Std Part détermine si les objets regroupés sous lui sont affichés dans la [vue 3D](3D_view/fr.md) ou non. À gauche : Part est masqué, donc aucun des objets ne sera affiché dans la [vue 3D](3D_view/fr.md). À droite : Part est visible, donc chaque objet contrôle sa propre visibilité.*
 
-### Héritage
-
-Un [Std Part](Std_Part/fr.md) est formellement une instance de la classe `App::Part` dont le parent est la base de [App GeoFeature](App_GeoFeature/fr.md) (`App::GeoFeature` class) et est complété par une extension Origin.
-
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
-
-
-
-*Diagramme simplifié des relations entre les objets centraux du programme. La classe `App::Part* est un simple conteneur qui a une position dans l'espace 3D et a une origine pour contrôler le placement des objets regroupés sous celui-ci`
-
 ## Script
 
 
 **Voir aussi :**
 
-[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](scripted_objects/fr.md).
+[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
 Voir [Part Feature](Part_Feature/fr.md) pour les informations générales sur l\'ajout d\'objets au document.
 
-Std Part ([App Part](App_Part/fr.md)) est créé avec la méthode `addObject()` du document. Une fois que Part existe, d\'autres objets peuvent y être ajoutés avec les méthodes `addObject()` ou `addObjects()` de Part.
+Std Part ([App Part](App_Part/fr.md)) est créé avec la méthode `addObject()` du document. Une fois que Part existe, d\'autres objets peuvent y être ajoutés avec les méthodes `addObject()` ou `addObjects()`.
 
 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::Part", "Part")
+part = App.ActiveDocument.addObject("App::Part", "Part")
 
-bod1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
-bod2 = App.ActiveDocument.addObject("Part::Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
 
-obj.addObjects([bod1, bod2])
+part.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
@@ -247,8 +206,8 @@ class MyGroup(object):
         return
 
     def attach(self, obj):
-        obj.addExtension('App::OriginGroupExtensionPython')
-        obj.Origin = FreeCAD.ActiveDocument.addObject('App::Origin', 'Origin')
+        obj.addExtension("App::OriginGroupExtensionPython")
+        obj.Origin = FreeCAD.ActiveDocument.addObject("App::Origin", "Origin")
 
     def onDocumentRestored(self, obj):
         self.Object = obj
@@ -262,7 +221,7 @@ class ViewProviderMyGroup(object):
             self.ViewObject = None
 
     def attach(self, vobj):
-        vobj.addExtension('Gui::ViewProviderOriginGroupExtensionPython')
+        vobj.addExtension("Gui::ViewProviderOriginGroupExtensionPython")
         self.ViewObject = vobj
 
     def __getstate__(self):
@@ -271,14 +230,18 @@ class ViewProviderMyGroup(object):
     def __setstate__(self, _state):
         return None
 
-App.ActiveDocument.addObject('Part::FeaturePython', 'Group', group.MyGroup(), group.ViewProviderMyGroup(), True)
+App.ActiveDocument.addObject("Part::FeaturePython",
+                             "Group",
+                             group.MyGroup(),
+                             group.ViewProviderMyGroup(),
+                             True)
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

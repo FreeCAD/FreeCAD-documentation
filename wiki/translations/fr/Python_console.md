@@ -3,7 +3,12 @@
 
 ## Introduction
 
-La [console Python](Python_console/fr.md) est un panneau qui exécute une instance de l\'interpréteur [Python](Python.md) qui peut être utilisée pour contrôler les processus FreeCAD, ainsi que pour créer et modifier des objets et leurs propriétés.
+
+{{TOCright}}
+
+La [console Python](Python_console/fr.md) est une console qui fait partie de l\'[interface utilisateur](interface/fr.md) de FreeCAD. Elle exécute une instance de l\'interpréteur [Python](Python/fr.md) qui peut être utilisé pour contrôler les processus FreeCAD, créer et modifier des objets et leurs propriétés.
+
+Elle peut être rendue visible/cachée par le menu déroulant **Visualisation → Panneaux → Console Python**.
 
 La console Python de FreeCAD a une coloration syntaxique de base, capable de différencier avec différents styles et couleurs, commentaires, chaînes, valeurs numériques, fonctions intégrées, sortie texte imprimée et délimiteurs tels que des parenthèses et des virgules. Ces propriétés de la console peuvent être configurées dans l'[éditeur de préférences](Preferences_Editor/fr.md).
 
@@ -18,12 +23,12 @@ La console Python de FreeCAD a une coloration syntaxique de base, capable de dif
 
 **Pour les débutants complets, voir :**
 
-[Introduction à Python](Introduction_to_Python/fr.md) et [Didacticiel de création de scripts Python](Python_scripting_tutorial/fr.md).
+[Introduction à Python](Introduction_to_Python/fr.md) et [Tutoriel sur les scripts Python](Python_scripting_tutorial/fr.md).
 
 
 **Voir aussi :**
 
-[Notions de base sur les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md), et [Objets scriptés](Scripted_objects/fr.md).
+[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
 La console Python peut effectuer l\'achèvement du code de base lorsqu\'un point est écrit après un objet. il montrera les méthodes publiques et les attributs (variables) de l\'objet actuel (classe), par exemple `obj.`
 
@@ -78,7 +83,7 @@ Un clic droit sur la console Python affiche certaines commandes:
 
 ## Remarques
 
--   Possibilité de faire défiler l\'API dans la console Python. Exemple :
+-   On a la possibilité de faire défiler l\'API dans la console Python. Exemple :
     1.  Dans la console, tapez : `FreeCAD.`
     2.  Une boîte de dialogue s\'affiche avec des classes/fonctions optionnelles à choisir.
     3.  Faites défiler la liste pour lire la description de chaque classe/fonction.

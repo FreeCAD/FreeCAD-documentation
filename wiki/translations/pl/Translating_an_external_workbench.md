@@ -189,7 +189,7 @@ gdzie `"CommandName"` jest nazwą polecenia, zdefiniowaną przez:
 
 ## Zbierz wszystkie ciągi z twojego modułu 
 
--   Będziesz potrzebował zainstalowanych w systemie narzędzi `lupdate`, `lconvert`, `lrelease` i `pylupdate`. W dystrybucjach Linuksa są one zwykle dostępne w pakietach o nazwach `pyside-tools` lub `pyside2-tools`. W niektórych systemach `lupdate` nazywa się `lupdate4` lub `lupdate5` lub `lupdate-qt4` lub podobnie. To samo dotyczy innych narzędzi. Możesz użyć wersji Qt4 lub Qt5 według własnego uznania.
+-   Będziesz potrzebował zainstalowanych w systemie narzędzi `lupdate`, `lconvert`, `lrelease` i `pylupdate`. W dystrybucjach Linuksa są one zwykle dostępne w pakietach o nazwach `pyside-tools` lub `pyside2-tools`. W niektórych systemach `lupdate` nazywa się `lupdate4` lub `lupdate5` lub `lupdate-qt4` lub podobnie. To samo dotyczy innych narzędzi. Możesz użyć wersji Qt4 lub Qt5 według własnego uznania. W Qt6 nie ma oddzielnego systemu tłumaczeń dla plików środowiska Python, `lupdate` jest używany do wyodrębniania łańcuchów ze wszystkich typów plików źródłowych.
 -   Jeśli masz pliki `.ui`, musisz najpierw uruchomić `lupdate`:
 
 :   

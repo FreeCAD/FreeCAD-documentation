@@ -12,9 +12,9 @@
 
 ## Description
 
-The [Arch Stairs](Arch_Stairs.md) tool allows you to build automatically several types of stairs. At the moment, only straight stairs (with or without a central landing) are supported. Stairs can be built from scratch, or from a straight [line](Draft_Line.md), in which case the stairs follow the line. If the line is not horizontal but has a vertical inclination, the stairs will also follow its slope.
+The [Arch Stairs](Arch_Stairs.md) tool allows you to build automatically several types of stairs. At the moment, only straight stairs (with or without a central landing) are supported. Stairs can be built from scratch, or from a straight [Draft Line](Draft_Line.md), in which case the stairs follow the line. If the line is not horizontal but has a vertical inclination, the stairs will also follow its slope.
 
-See the [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) for a definition of the different terms used to describe parts of stairs.
+See the [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) for a definition of the different terms used to describe parts of stairs.
 
  <img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;">  
 *Two constructed stairs, one with a massive structure and a landing, and another one with a single stringer.*
@@ -25,7 +25,7 @@ See the [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) for a d
 
 ## Usage
 
-1.  Press the **<img src="images/Arch_Stairs.svg" width=16px> [[Arch Stairs]]** button, or press **S**, **R** keys.
+1.  Press the **<img src="images/Arch_Stairs.svg" width=16px> [Arch Stairs](Arch_Stairs.md)** button, or press **S**, **R** keys.
 2.  Adjust the desired properties. Some parts of the stairs, such as the structure, might not appear immediately, if any of the properties makes it impossible, such as a structure thickness of 0.
 
 ## Properties
@@ -135,7 +135,7 @@ See the [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) for a d
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Stairs tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:  
+The Stairs tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:  
 ```python
 Stairs = makeStairs(baseobj=None, length=None, width=None, height=None, steps=None, name="Stairs")
 ```

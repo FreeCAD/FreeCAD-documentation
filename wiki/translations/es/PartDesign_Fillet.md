@@ -84,7 +84,13 @@ Los números de los bordes no son completamente estables, por lo tanto es aconse
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Lea más en [problema de denominación topológica](topological_naming_problem/es.md).
+
+
+</div>
 
 ## Guión
 

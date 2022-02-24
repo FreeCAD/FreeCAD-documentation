@@ -1,38 +1,22 @@
 # Start up and Configuration/de
 {{TOCright}}
 
-## Overview
+## Übersicht
 
-
-<div class="mw-translate-fuzzy">
-
-## Überblick
-
-Diese Seite zeigt die verschiedene Wege, FreeCAD zu starten, und die wichtigsten Konfigurationsmöglichkeiten.
-
-
-</div>
+Diese Seite zeigt die verschiedene Wege FreeCAD zu starten und die wichtigsten Konfigurationsmöglichkeiten.
 
 ## FreeCAD von der Kommandozeile starten 
 
 FreeCAD kann ganz normal durch einen Doppelklick auf das Desktop Symbol oder durch Auswahl aus dem Startmenü gestartet werden, aber es kann auch direkt über die Befehlszeile gestartet werden. Dies erlaubt dir einige der Standard Startoptionen zu ändern.
 
-### Using command line options without a command line shell 
-
-
-<div class="mw-translate-fuzzy">
-
-### Verwendung von Kommandozeilenoptionen ohne eine Befehlszeilen Shell 
+### Nutzen von Kommandozeilen-Optionen ohne eine Kommandozeilen-Shell 
 
 -   Unter Ubuntu kannst du ein Desktop Symbol erstellen und dessen Eigenschaften bearbeiten. Füge die Kommandozeilenoptionen durch Leerzeichen getrennt hinter dem Programmnamen in das Feld \"Befehl\" ein.
 -   Unter Windows erstelle einen Tastenkürzel und bearbeite die Eigenschaften. Füge die Befehlszeilenoptionen durch Leerzeichen getrennt in das Feld \"Ziel\" ein.
 
+### Befehlszeilen-Optionen 
 
-</div>
-
-### Befehlszeilenoptionen
-
-Die Befehlszeilenoptionen unterliegen häufigen Änderungen. Daher ist es eine gute Idee, die aktuellen Optionen durch Eintippen zu überprüfen:
+Die Befehlszeilen-Optionen unterliegen häufigen Änderungen. Daher ist es eine gute Idee, die aktuellen Optionen durch Eintippen zu überprüfen:
 
 FreeCAD --help
 
@@ -122,13 +106,7 @@ FreeCAD --console
 
 Im Konsolenmodus wird keine grafische Benutzeroberfläche angezeigt, sondern eine Eingabeaufforderung des Python Interpreters: `>>>`. Von dieser Eingabeaufforderung aus hast du die gleiche Funktionalität wie der Python Interpreter, der innerhalb der FreeCAD GUI läuft, und Zugriff auf alle Module und Plugins von FreeCAD, ausser dem FreeCADGui Modul. Sei dir bewusst, dass Module, die von FreeCADGui abhängen, ebenfalls nicht verfügbar sein könnten.
 
-
-<div class="mw-translate-fuzzy">
-
 Um mehr über den Konsolen- oder Headlessmodus zu erfahren, schaue dir [Headless FreeCAD](Headless_FreeCAD.md) an.
-
-
-</div>
 
 ### Ausführen von Modulen, Makros und Skripten 
 
@@ -198,17 +176,9 @@ FreeCad selbst berücksichtigt die Umgebungsvariable `HOME` nicht (weil es das B
 
 Das Standard-tmp-Verzeichnis ist {{FileName|/tmp/}}. Die Umgebungsvariable `TMPDIR` kann benutzt werden, um die Standardvorgabe zu überschreiben. (*Editor: Rangfolge?*).
 
-### Libraries
-
-
-<div class="mw-translate-fuzzy">
-
 ### Bibliotheken
 
 Einige Bibliotheken müssen Systemumgebungsvariablen aufrufen. Manchmal, wenn es ein Problem mit einer FreeCAD Installation gibt, liegt es daran, dass eine Umgebungsvariable fehlt oder nicht korrekt ist. Daher werden einige wichtige Variablen in der Konfig dupliziert und in der Log Datei gespeichert.
-
-
-</div>
 
 **Python**
 
@@ -234,7 +204,13 @@ Einige Bibliotheken müssen Systemumgebungsvariablen aufrufen. Manchmal, wenn es
 
 ## Konfigurationssatz
 
+
+<div class="mw-translate-fuzzy">
+
 Bei jedem Start prüft FreeCAD seine Umgebung und die Kommandozeilenparameter. Es baut einen **Konfigurationssatz** auf, der das Wesentliche der Laufzeitinformationen enthält. Diese Informationen werden später verwendet, um den Ort zu bestimmen, an dem Benutzerdaten oder Protokolldateien gespeichert werden sollen. Sie sind auch für Postmortem Analysen sehr wichtig. Deshalb wird sie in der Protokolldatei gespeichert.
+
+
+</div>
 
 ### Benutzerbezogene Informationen 
 
@@ -375,13 +351,22 @@ Wird der Name nicht gefunden, wird eine leere Zeichenkette zurückgeliefert.
 
 **Von der Befehlszeile**
 
+
+<div class="mw-translate-fuzzy">
+
 Benutze die `--get-config <config-var-name>`-Option, um einen einzelnen Name abzufragen. Nicht alle Namen werden unterstützt. Beispiel:
 
  FreeCAD_0.19 --get-config ExeVersion
 
+
+</div>
+
 Benutze die `--dump-config`-Option, um eine Liste von Namen und ihren Werten zu erhalten. Nicht alle Namen werden unterstützt.
 
 **Aus der FreeCAD Konsole**
+
+
+<div class="mw-translate-fuzzy">
 
 Starte FreeCAD im Konsolenmodus mit `--console` und verwende Python-Code zur Abfrage. Beispiel:
 
@@ -391,6 +376,12 @@ Starte FreeCAD im Konsolenmodus mit `--console` und verwende Python-Code zur Abf
  '0.19'
  >>> exit()
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Bei Linux (bash shell) kannst du die folgenden Befehlszeile an deine Bedürfnisse anpassen:
 
  $ FreeCAD_0.19 --console <<EOF
@@ -398,6 +389,9 @@ Bei Linux (bash shell) kannst du die folgenden Befehlszeile an deine Bedürfniss
  print( "UserHomePath: " + FreeCAD.ConfigGet("UserHomePath") )
  exit()
  EOF
+
+
+</div>
 
 ## FreeCAD vom Schreibtisch aus starten 
 
@@ -434,7 +428,7 @@ set CURRENTDIR="%cd%"
 set FREECAD_USER_DATA=%CURRENTDIR%/..
 start FreeCAD.exe -u %FREECAD_USER_DATA%/user.cfg -s %FREECAD_USER_DATA%/system.cfg```
 
-With the batch in the root of the USB medium:
+Die Stapelverarbeitungs-Datei befindet sich im Stammverzeichnis des USB-Mediums:
 
 
 ```python
@@ -443,7 +437,7 @@ set FREECAD_USER_DATA=%CURRENTDIR%FreeCAD\
 start %cd%FreeCAD\bin\FreeCAD.exe -u %FREECAD_USER_DATA%user.cfg -s %FREECAD_USER_DATA%system.cfg
 ```
 
-Doppelklicke nun auf die Stapelverarbeitungsdatei, um FreeCAD zu starten. ([siehe](https://forum.freecadweb.org/viewtopic.php?f=4&t=49028))
+Doppelklicke nun auf die Stapelverarbeitungs-Datei, um FreeCAD zu starten. ([siehe](https://forum.freecadweb.org/viewtopic.php?f=4&t=49028))
 
 
 

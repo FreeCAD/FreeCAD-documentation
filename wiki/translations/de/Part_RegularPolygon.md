@@ -12,17 +12,9 @@
 
 </div>
 
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Ein Regelmäßiges Polygon-Grundkörper ist im **Grundkörper erstellen**-Dialog im Part-Arbeitsbereich verfügbar.
-
-
-</div>
+Erzeugt ein regelmäßiges Polygon-geometrischen Grundkörper.
 
 
 <div class="mw-translate-fuzzy">

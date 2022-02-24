@@ -11,14 +11,14 @@
 
 ## Description
 
-The Material tools allows to add [materials](Material.md) to the active document, and attribute a material to an [Arch](Arch_Workbench.md) object. Materials can all the properties of a certain material, and control the color of the object to which it is attached. Materials are stored into a **Materials** folder in the active document.
+This tool allows users to add [materials](Material.md) to the active document and attribute material to an [Arch](Arch_Workbench.md) object. Materials feature contains all the properties of a certain material and controls the color of the object to which it is attached. Materials are stored in a **Materials** folder in the active document.
 
 ![](images/Arch_materials_01.jpg )
 
 ## Usage
 
 1.  Optionally, select one or more objects to which you wish to attribute a new material.
-2.  Invoke the command several ways:
+2.  Invoke the command using one of the several ways:
     -   Press the **<img src="images/Arch_SetMaterial.svg" width=16px> [Material](Arch_SetMaterial.md)** button in the toolbar.
     -   Use the **M** then **T** keyboard shortcut.
     -   Use the **Arch → Material Tools → Material** entry from the top menu.

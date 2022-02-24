@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Pocket Shape
    Name/fr:Path Poche
-   MenuLocation:Path → Pocket Shape
+   MenuLocation:Parcours → Poche
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -20,8 +20,8 @@ L\'objet forme de poche ou Path Pocket Shape est fait pour travailler avec <img 
 
 1.  Sélectionnez le fond ou une face(s) d\'une poche. Alors qu\'il est généralement plus facile de sélectionner le fond, les faces doivent être sélectionnées lorsqu\'une poche est traversante.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Path_Pocket_Shape.svg" width=16px> [Pocket Shape](Path_Pocket_Shape/fr.md)**.
-    -   Sélectionnez l\'option **Path → <img src="images/Path_Pocket_Shape.svg" width=16px> Forme de poche** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Path_Pocket_Shape.svg" width=16px> [Poche](Path_Pocket_Shape/fr.md)**.
+    -   Sélectionnez l\'option **Parcours → <img src="images/Path_Pocket_Shape.svg" width=16px> Poche** dans le menu.
 3.  Ajustez les propriétés souhaitées.
 
 ## Propriétés
@@ -32,127 +32,127 @@ L\'objet forme de poche ou Path Pocket Shape est fait pour travailler avec <img 
 
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
--    {{PropertyData/fr|Placement}}: emplacement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
+-    **Placement**: emplacement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
     -   
-        {{PropertyData/fr|Angle}}
+        **Angle**
         
         : angle en degrés appliqué à la rotation de l\'objet autour de la valeur de la propriété Axis.
 
     -   
-        {{PropertyData/fr|Axis}}
+        **Axis**
         
         : axe (un ou plusieurs) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: x, y, z.
 
         -   
-            {{PropertyData/fr|X}}
+            **X**
             
             : valeur de l\'axe x.
 
         -   
-            {{PropertyData/fr|Y}}
+            **Y**
             
             : valeur de l\'axe y.
 
         -   
-            {{PropertyData/fr|Z}}
+            **Z**
             
             : valeur de l\'axe z.
 
     -   
-        {{PropertyData/fr|Position}}
+        **Position**
         
         : Position de l\'objet, définie dans les sous-propriétés: x, y, z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
         -   
-            {{PropertyData/fr|X}}
+            **X**
             
             : valeur de distance x.
 
         -   
-            {{PropertyData/fr|Y}}
+            **Y**
             
             : valeur de distance y.
 
         -   
-            {{PropertyData/fr|Z}}
+            **Z**
             
             : valeur de distance z.
 
--    {{PropertyData/fr|Label}}: nom de l\'objet fourni par l\'utilisateur (UTF-8).
+-    **Label**: nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
-#### Profondeur
+#### Depth
 
--    {{PropertyData/fr|Clearance Height}}: hauteur nécessaire pour supprimer les pinces et les obstructions.
+-    **Clearance Height**: hauteur nécessaire pour supprimer les pinces et les obstructions.
 
--    {{PropertyData/fr|Final Depth}}: profondeur finale de l\'outil - valeur la plus basse de Z.
+-    **Final Depth**: profondeur finale de l\'outil - valeur la plus basse de Z.
 
--    {{PropertyData/fr|Finish Depth}}: Le maximum de matériau retiré lors du passage final. La hauteur (épaisseur) du dernier niveau de coupe - \"\" pour une meilleure finition \".
+-    **Finish Depth**: Le maximum de matériau retiré lors du passage final. La hauteur (épaisseur) du dernier niveau de coupe - \"\" pour une meilleure finition \".
 
--    {{PropertyData/fr|Safe Height}}: hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (Hauteur de sécurité rapide entre les sites).
+-    **Safe Height**: hauteur au-dessus de laquelle les mouvements rapides sont autorisés. (Hauteur de sécurité rapide entre les sites).
 
--    {{PropertyData/fr|Start Depth}}: profondeur de départ de l\'outil - \'\' Profondeur de la première coupe en Z \'\'.
+-    **Start Depth**: profondeur de départ de l\'outil - \'\' Profondeur de la première coupe en Z \'\'.
 
--    {{PropertyData/fr|Step Down}}: abaissement incrémental de l\'outil pendant l\'opération.
+-    **Step Down**: abaissement incrémental de l\'outil pendant l\'opération.
 
 <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
 *Référence visuelle pour les propriétés de profondeur (paramètres)*
 
 #### Extension
 
--    {{PropertyData/fr|Coins d'extension}}: lorsque cette option est activée, les bords d\'extension connectés sont combinés à des fils.
+-    **Extension Corners**: lorsque cette option est activée, les bords d\'extension connectés sont combinés à des fils.
 
--    {{PropertyData/fr|Extension Length Default}}: longueur par défaut des extensions.
+-    **Extension Length Default**: longueur par défaut des extensions.
 
 #### Face
 
--    {{PropertyData/fr|Offset Pattern}}: effacement du motif à utiliser. (Sélectionnez la manière dont les mouvements horizontaux doivent être effectués.)
+-    **Offset Pattern**: effacement du motif à utiliser. (Sélectionnez la manière dont les mouvements horizontaux doivent être effectués.)
 
-#### Tracé
+#### Path
 
--    {{PropertyData/fr|Active}}: rend False, pour empêcher l\'opération de générer du code.
+-    **Active**: mis à False, pour empêcher l\'opération de générer du code.
 
--    {{PropertyData/fr|Comment}}: commentaire facultatif pour cette opération.
+-    **Comment**: commentaire facultatif pour cette opération.
 
--    {{PropertyData/fr|User Label}}: étiquette attribuée par l\'utilisateur.
+-    **User Label**: étiquette attribuée par l\'utilisateur.
 
--    {{PropertyData/fr|Tool Controller}}: définit le contrôleur d\'outil utilisé dans l\'opération.
+-    **Tool Controller**: définit le contrôleur d\'outil utilisé dans l\'opération.
 
-#### Poche
+#### Pocket
 
--    {{PropertyData/fr|Cut Mode}}: spécifie un déplacement CW ou CCW pour la coupe.
+-    **Cut Mode**: spécifie un déplacement CW ou CCW pour la coupe.
 
--    {{PropertyData/fr|Extra Offset}}: décalage supplémentaire à appliquer à l\'opération. La direction dépend du fonctionnement. (Valeur supplémentaire pour rester loin du profil final- *bon pour le parcours grossier*).
+-    **Extra Offset**: décalage supplémentaire à appliquer à l\'opération. La direction dépend du fonctionnement. (Valeur supplémentaire pour rester loin du profil final- *bon pour le parcours grossier*).
 
--    {{PropertyData/fr|Keep Tool}}: tente d\'éviter les retraits inutiles.
+-    **Keep Tool**: tente d\'éviter les retraits inutiles.
 
--    {{PropertyData/fr|Min Travel}}: utilise le tri 3D du chemin (lorsque plusieurs géométries de base sont utilisées).
+-    **Min Travel**: utilise le tri 3D du chemin (lorsque plusieurs géométries de base sont utilisées).
 
--    {{PropertyData/fr|Start At}}: commence à empocher au centre ou au bord.
+-    **Start At**: commence à empocher au centre ou au bord.
 
--    {{PropertyData/fr|Step Over}}: sélectionne le pas horizontal (**Pourcent** du diamètre de l\'outil: 100% = diamètre de l\'outil).
+-    **Step Over**: sélectionne le pas horizontal (**Pourcent** du diamètre de l\'outil: 100% = diamètre de l\'outil).
 
--    {{PropertyData/fr|Use Outline}}: utilise le contour de la géométrie de base.
+-    **Use Outline**: utilise le contour de la géométrie de base.
 
--    {{PropertyData/fr|Zig Zag Angle}}: angle du motif en zigzag. (Sélectionnez l'angle de trajectoire par rapport à l'axe X).
+-    **Zig Zag Angle**: angle du motif en zigzag. (Sélectionnez l'angle de trajectoire par rapport à l'axe X).
 
 #### Rotation
 
--    {{PropertyData/fr|Attempt Inverse Angle}}: tente automatiquement l\'angle inverse si la rotation initiale est incorrecte.
+-    **Attempt Inverse Angle**: tente automatiquement l\'angle inverse si la rotation initiale est incorrecte.
 
 -    
 
--    {{PropertyData/fr|Enable Rotation}}: active la rotation pour accéder aux trous non normaux sur l\'axe Z.
+-    **Enable Rotation**: active la rotation pour accéder aux trous non normaux sur l\'axe Z.
 
--    {{PropertyData/fr|Angle Inverse}}: inverse l\'angle de la rotation. \'\' **Exemple:** change une rotation de -22,5 à 22,5 degrés.\'\'
+-    **Angle Inverse**: inverse l\'angle de la rotation. \'\' **Exemple:** change une rotation de -22,5 à 22,5 degrés.\'\'
 
--    {{PropertyData/fr|Reverse Direction}}: inverse l\'orientation de l\'opération de 180 degrés.
+-    **Reverse Direction**: inverse l\'orientation de l\'opération de 180 degrés.
 
-#### Point de départ 
+#### Start Point 
 
--    {{PropertyData/fr|Start Point}}: le point de départ de ce chemin.
+-    **Start Point**: le point de départ de ce chemin.
 
--    {{PropertyData/fr|Use Start Point}}: en position True, si vous spécifiez manuellement un point de départ, saisissez Points de départ dans le champ Points de départ des données de la propriété.
+-    **Use Start Point**: en position True, si vous spécifiez manuellement un point de départ, saisissez Points de départ dans le champ Points de départ des données de la propriété.
 
 ## Présentation de l\'éditeur de fenêtre de tâches 
 
@@ -166,12 +166,12 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 #### Extensions
 
--    {{PropertyData/fr|Show All}}: si cette option est sélectionnée, toutes les extensions potentielles sont visualisées. Extensions activées en violet, extensions désactivées en jaune.
+-    **Show All**: si cette option est sélectionnée, toutes les extensions potentielles sont visualisées. Extensions activées en violet, extensions désactivées en jaune.
 
--    {{PropertyData/fr|Extension Corners}}
+-    **Extension Corners**
     
 
--    {{PropertyData/fr|Extension Length Default}}
+-    **Extension Length Default**
     
 
 -   **Enable**
@@ -180,40 +180,40 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -   **Clear**
 
-#### Profondeur 
+#### Depth 
 
--    {{PropertyData/fr|Start Depth}}
+-    **Start Depth**
     
 
--    {{PropertyData/fr|Final Depth}}
+-    **Final Depth**
     
 
--    {{PropertyData/fr|Step Down}}
+-    **Step Down**
     
 
-#### Hauteur
+#### Height
 
--    {{PropertyData/fr|Safe Height}}
+-    **Safe Height**
     
 
--    {{PropertyData/fr|Clearance Height}}
+-    **Clearance Height**
     
 
 #### Opération
 
--    {{PropertyData/fr|Tool Controller}}
+-    **Tool Controller**
     
 
--    {{PropertyData/fr|Cut Mode}}
+-    **Cut Mode**
     
 
--    {{PropertyData/fr|Pattern}}(motif de décalage)
+-    **Pattern**(motif de décalage)
 
--    {{PropertyData/fr|Angle}}(angle de zig zag)
+-    **Angle**(angle de zig zag)
 
--    {{PropertyData/fr|Step Over Percent}}(Pas à pas)
+-    **Step Over Percent**(Pas à pas)
 
--    {{PropertyData/fr|Pass Extension}}: distance à laquelle l\'opération de surfaçage s\'étendra au-delà des bordes la forme (géométrie de base).
+-    **Pass Extension**: distance à laquelle l\'opération de surfaçage s\'étendra au-delà des bordes la forme (géométrie de base).
 
 ## Script
 

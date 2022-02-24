@@ -375,7 +375,7 @@ Pliki graficzne mogą być załadowane poprzez stronę [Special:Upload](Special_
 
 ### Nazwa
 
-Nadawaj obrazkom znaczące nazwy. Jeśli masz obrazek, który pokazuje charakterystykę konkretnego polecenia, powinieneś użyć nazwy tego polecenia z `_example` na końcu. Na przykład dla polecenia [Draft Offset](Draft_Offset/pl.md) obrazek powinien mieć nazwę `Draft_Offset_example.jpg`.
+Nadawaj obrazkom znaczące nazwy. Jeśli masz obrazek, który pokazuje charakterystykę konkretnego polecenia, powinieneś użyć nazwy tego polecenia z `_example` na końcu. Na przykład dla polecenia [Draft Offset](Draft_Offset/pl.md) obrazek powinien mieć nazwę `Draft_Offset_example.png`.
 
 ### Zrzut ekranu 
 

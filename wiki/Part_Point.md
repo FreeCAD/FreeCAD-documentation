@@ -10,103 +10,45 @@
 
 ## Description
 
-A Point (vertex) geometric primitive.
+The <img alt="" src=images/Part_Point.svg  style="width:24px;"> [Part Point](Part_Point.md) command creates a point.
+
+FreeCAD creates a point (vertex) geometric primitive, that is positioned at the origin (0,0,0).
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
-2.  The Create Primitives dialogue can be accessed several ways:
-    -   Pressing the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Primitives](Part_Primitives.md) icon located in the Part toolbar
-    -   Using the **Part → [Create primitives](Part_Primitives.md) → Point** menu
-
-### Geometric Primitives 
-
-+++
-| ![](images/PartVertexPrimitivesOptions_it.png ) | Point               |
-|                                                                              |                     |
-|                                                                              | #### Parameter      |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|X}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|Y}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|Z}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | #### Location       |
-|                                                                              |                     |
-|                                                                              | -                   |
-|                                                                              | -                   |
-|                                                                              | -                   |
-+++
-
-### Property
-
-+++
-| ![](images/PartVertexProperty_it.png ) | #### View                               |
-|                                                            |                                         |
-|                                                            | #### Data                               |
-|                                                            |                                         |
-|                                                            |                          |
-|                                                            | **Base**                            |
-|                                                            |                                      |
-|                                                            | -                        |
-|                                                            |     **Label**              |
-|                                                            |                                      |
-|                                                            |     :                                   |
-|                                                            |                                         |
-|                                                            | -                        |
-|                                                            |     **Placement**          |
-|                                                            |                                      |
-|                                                            |     : [placement](Placement.md) |
-|                                                            |                                         |
-|                                                            | -                        |
-|                                                            |     **X**                  |
-|                                                            |                                      |
-|                                                            |     :                                   |
-|                                                            |                                         |
-|                                                            | -                        |
-|                                                            |     **Y**                  |
-|                                                            |                                      |
-|                                                            |     :                                   |
-|                                                            |                                         |
-|                                                            | -                        |
-|                                                            |     **Z**                  |
-|                                                            |                                      |
-|                                                            |     :                                   |
-+++
-
-## Notes
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Primitives.svg" width=16px> [Create Primitives...](Part_Primitives.md)** button.
+    -   Select the **Part → Create Primitives → <img src="images/Part_Primitives.svg" width=16px> Create Primitives...** option from the menu.
+    -   Select the **<img src="images/Part_Point.svg" width=16px> Point** option from the menu.
+2.  Set options and press **Create**.
+3.  To close the dialog press **Close**.
 
 ## Properties
 
-## Limitations
+See also: [Property editor](Property_editor.md).
+
+A Part Point object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It has no additional properties.
 
 ## Scripting
 
-A Part Point can be created with the following function:
+A Part Point is created with the {{Incode|addObject()}} method of the document.
 
  
 ```python
-point = FreeCAD.ActiveDocument.addObject("Part::Vertex", "myPoint")
+point = App.ActiveDocument.addObject("Part::Vertex", "myPoint")
 ```
 
--   Where {{Incode|"myPoint"}} is the name for the object.
+-   Where {{Incode|myPoint}} is the name for the object. The name must be unique for the entire document.
 -   The function returns the newly created object.
 
-The name of the object can be easily changed by
+The {{Incode|Label}} is the user editable name for the object. It can be easily changed by
 
  
 ```python
-point.Label = "new pointName"
+point.Label = "new myPointName"
 ```
 
-You can access and modify attributes of the {{Incode|point}} object. For example, you may wish to modify the x, y or z coordinate.
+You can access and modify attributes of the {{Incode|point}} object. For example, you may wish to modify the x, y or z-coordinate.
 
  
 ```python
@@ -121,7 +63,7 @@ You can change its placement and orientation with:
 
  
 ```python
-point.Placement= FreeCAD.Placement(FreeCAD.Vector(0.00,0.00,0.00),App.Rotation(App.Vector(0.00,0.00,1.00),0.00))
+point.Placement= App.Placement(App.Vector(1,2,3), App.Rotation())
 ```
 
 

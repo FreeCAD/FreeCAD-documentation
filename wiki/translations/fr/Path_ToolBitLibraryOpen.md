@@ -2,18 +2,17 @@
 - GuiCommand:/fr
    Name:Path ToolBitLibraryOpen
    Name/fr:Path Gestionnaire des outils coupants
-   MenuLocation:Path → ToolBit Library editor
+   MenuLocation:Parcours → Gestionnaire des outils coupants
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
-   SeeAlso:[Path Sélecteur d'outil coupant](Path_ToolBitDock/fr.md), [Path Outils](Path_Tools/fr.md), [Path Outil coupant](Path_ToolBit/fr.md)
+   SeeAlso:[Path Sélecteur d'outils coupants](Path_ToolBitDock/fr.md), [Path Outils](Path_Tools/fr.md), [Path Outil coupant](Path_ToolBit/fr.md)
 ---
 
 # Path ToolBitLibraryOpen/fr
 
 ## Description
 
-Le **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px> [Tool xxxxx](Path_ToolBitLibraryOpen/fr.md)
-**
+Le **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px> [Gestionnaire des outils coupants](Path_ToolBitLibraryOpen/fr.md)** :
 
 ![](images/Toolbitmanager.png )
 
@@ -49,7 +48,7 @@ Le bouton de fermeture (7) en bas à droite permet de quitter le gestionnaire de
 ### Gestion des outils coupants 
 
 1.  Il existe plusieurs façons d\'ouvrir le gestionnaire de bibliothèque des outils coupants :
-    -   Sélectionnez l\'option **Path → <img src="images/Path_ToolBitLibraryOpen.svg" width=16px> ToolBit Library editor** dans le menu.
+    -   Sélectionnez l\'option **Parcours → <img src="images/Path_ToolBitLibraryOpen.svg" width=16px> Gestionnaire des outils coupants ** dans le menu.
     -   Ouvrez le dock des outils coupants comme décrit ci-dessus et appuyez sur le bouton **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px>** pour ouvrir le gestionnaire de bibliothèque.
 2.  Sélectionnez une bibliothèque dans la liste.
 3.  Créez/Ajoutez/Supprimez des outils coupants de la bibliothèque.

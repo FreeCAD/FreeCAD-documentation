@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/fr
-   Name:Sketcher_CompCreateRectangles
+   Name:Sketcher Create Rectangles
    Name/fr:Sketcher Créer des rectangles
    Icon:Sketcher_CompCreateRectangles.png
-   MenuLocation:barre d'outils seulement
+   MenuLocation:Barre d'outils seulement
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.20
 ---

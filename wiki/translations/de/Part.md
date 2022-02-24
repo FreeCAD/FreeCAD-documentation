@@ -18,6 +18,9 @@ Das Std Part Werkzeug wird nicht durch einen bestimmten Arbeitsbereich, sondern 
 
 Im informellen Gebrauch kann ein *Part* jede geometrische Figur sein, die in der [3D Ansicht](3D_view/DE.md) sichtbar ist, und daher kann sein Konzept mit dem von \"[Körper](Body/DE.md)\" oder \"[Zusammenbau](Assembly/de.md)\" verwechselt werden.
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn jedoch mehr Präzision erforderlich ist, muss die Unterscheidung vorgenommen werden.
 
 -   Ein \"[Körper](Body/de.md)\" wird für einzelne, aneinandergrenzende Elemente verwendet, die normalerweise mit den [Part](Part_Workbench/de.md) oder [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) erstellt werden.
@@ -25,6 +28,9 @@ Wenn jedoch mehr Präzision erforderlich ist, muss die Unterscheidung vorgenomme
 -   Ein \"Teil\" wird verwendet, um einen einzelnen \"Körper\" oder mehrere von ihnen zu einer \"Baugruppe\" zu gruppieren.
     -   Ein \"Teil\" hat eine Sammlung von \"[Formen](Shape/de.md)\", aber keine eigene \"Form\".
 -   Eine \"Baugruppe\" ist eine Sammlung von \"Teilen\", die auf irgendeine Weise, manuell oder unter Verwendung einer Montage-Arbeitsbereichs, angeordnet sind.
+
+
+</div>
 
 
 {{Std Base navi

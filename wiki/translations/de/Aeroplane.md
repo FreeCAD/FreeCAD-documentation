@@ -14,17 +14,9 @@
 
 
 
-## First Steps 
-
-
-<div class="mw-translate-fuzzy">
-
 ## Erste Schritte 
 
 Wir werden im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) arbeiten - wähle ihn aus den Menüs über {{MenuCommand/de|Ansicht → Arbeitsbereich → Part}} oder über den [Arbeitsbereichwähler](Std_Workbench/de.md).
-
-
-</div>
 
 -   Erstelle ein neues leeres Dokument.
 -   Wechsle zur <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [isometrischen Ansicht](Std_ViewIsometric/de.md).

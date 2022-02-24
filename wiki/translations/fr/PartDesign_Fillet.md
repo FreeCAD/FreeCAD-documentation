@@ -61,7 +61,7 @@ L\'utilisateur est également responsable de l\'intégrité de son propre modèl
 
 ### Dénomination topologique 
 
-La numérotation des arêtes n\'est pas complètement stable. Il est donc conseillé de terminer la conception principale de votre corps solide avant d\'appliquer des fonctions telles que les congés et les chanfreins, sans quoi les arêtes risquent de changer de nom et les arêtes recevant un congé risquent de devenir invalides. Lorsque la propriété *Utiliser tous les bords* {{Version/fr|0.20}} est cochée, il y a une certaine protection contre cela car dans ce cas, tous les bords de l\'objet de base sont utilisés et il n\'y a pas de dépendance sur les noms des bords individuels.
+La numérotation des arêtes n\'est pas complètement stable. Il est donc conseillé de terminer la conception principale de votre corps solide avant d\'appliquer des fonctions telles que les congés et les chanfreins, sans quoi les arêtes risquent de changer de nom et les arêtes recevant un congé risquent de devenir invalides. Lorsque la propriété **Use All Edges** ({{Version/fr|0.20}}) est cochée à `True`, il existe une certaine protection contre ce problème. En effet, dans ce cas, toutes les arêtes de l\'objet de base sont utilisées et il n\'y a aucune dépendance vis-à-vis des noms des arêtes individuelles.
 
 Voir la page [Problème de dénomination topologique](Topological_naming_problem/fr.md) pour en savoir plus.
 

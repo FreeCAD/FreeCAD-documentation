@@ -135,13 +135,11 @@ Siehe [Grafik Web](Artwork_Web/de.md).
 
 ## Externe Arbeitsbereiche und Erweiterungen 
 
+### From Mod/asm3/ 
 
-<div class="mw-translate-fuzzy">
+See [Artwork Assembly3](Artwork_Assembly3.md).
 
-### Aus src/Mod/Plot/ 
-
-
-</div>
+### Aus Mod/Plot/ 
 
 Siehe [Grafik Plot](Artwork_Plot/de.md).
 
@@ -149,13 +147,11 @@ Siehe [Grafik Plot](Artwork_Plot/de.md).
 
 Siehe [Artwork Bewehrung](Artwork_Reinforcement/de.md).
 
+### From Mod/Render/ 
 
-<div class="mw-translate-fuzzy">
+See [Artwork Render](Artwork_Render.md).
 
-### Aus src/Mod/Ship/ 
-
-
-</div>
+### Aus /Mod/Ship/ 
 
 Siehe [Grafik Schiff](Artwork_Ship.md).
 

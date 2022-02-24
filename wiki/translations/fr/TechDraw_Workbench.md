@@ -47,7 +47,7 @@ Ce sont les outils pour créer des objets Vues.
 
 -   <img alt="" src=images/TechDraw_MoveView.svg  style="width:32px;"> [Déplacer une vue](TechDraw_MoveView/fr.md): déplace une vue et ses dépendants vers une page différente. {{Version/fr|0.20}}
 
--   <img alt="" src=images/TechDraw_ShareView.svg  style="width:32px;"> [Partager une vue](TechDraw_ShareView/fr.md) : Partagez une vue entre plusieurs pages. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ShareView.svg  style="width:32px;"> [Copier une vue](TechDraw_ShareView/fr.md) : Partagez une vue entre plusieurs pages. {{Version/fr|0.20}}
 
 ## Rognages
 

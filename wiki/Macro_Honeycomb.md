@@ -4,8 +4,8 @@
 |Icon=Macro_Honeycomb.svg
 |Description=Create a fully parametric feature Python Honeycomb object, compatible in and outside of Part Design
 |Author=TheMarkster
-|Version=0.2021.10.22
-|Date=2021-10-22
+|Version=0.2022.02.14
+|Date=2022-02-14
 |FCVersion=Python 3 versions
 |Download=[https://wiki.freecadweb.org/File:Macro_Honeycomb.svg ToolBar Icon]
 |Links=[https://github.com/mwganson/honeycomb Full Documentation on Github]

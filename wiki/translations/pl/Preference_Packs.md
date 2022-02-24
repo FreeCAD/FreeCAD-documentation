@@ -314,9 +314,9 @@ Podczas gdy rdzeniem większości Pakietów Preferencji jest pojedynczy plik kon
     -   pre.FCMacro
     -   post.FCMacro
 
-The [Package Metadata](Package_Metadata.md) file, package.xml, defines the name of the Preference Pack, and allows you to assign other metadata items such as a version number, author information, and tags (which are displayed in the main UI as a comma-separated list). For a Preference Pack saved using the GUI as explained above, a single package.xml file is created in the {{FileName|FREECAD_USER_DATA/SavedPreferencePacks/}} directory. This file is used to describe the details such as the name and tags of all user-saved preference packs. To change a pack\'s name or tags, that file must be manually edited with a text editor. It can also provide a template for distributed preference packs: the author of a distributed pack may choose to start by saving a pack locally, then copying the pack\'s subdirectory and this global package.xml file as a starting point, modifying the copied package.xml file to only reference the pack being packaged for distribution.
+Plik [Metadane pakietu](Package_Metadata/pl.md), package.xml, definiuje nazwę pakietu preferencji i umożliwia przypisanie innych elementów metadanych, takich jak numer wersji, informacje o autorze i znaczniki *(które są wyświetlane w głównym interfejsie użytkownika jako lista oddzielona przecinkami)*. W przypadku pakietu preferencji zapisanego za pomocą interfejsu graficznego w sposób opisany powyżej tworzony jest jeden plik package.xml w katalogu {{FileName|FREECAD_USER_DATA/SavedPreferencePacks/}}. Plik ten jest używany do opisywania szczegółów, takich jak nazwa i znaczniki wszystkich zapisanych przez użytkownika pakietów preferencji. Aby zmienić nazwę lub znaczniki pakietu, należy ręcznie edytować ten plik za pomocą edytora tekstu. Może on także stanowić szablon dla pakietów dystrybuowanych: autor pakietu dystrybuowanego może zacząć od zapisania pakietu lokalnie, a następnie skopiowania podkatalogu pakietu i globalnego pliku package.xml jako punktu wyjścia, modyfikując skopiowany plik package.xml tak, aby zawierał tylko odniesienie do pakietu pakowanego do dystrybucji.
 
-Other files may also be included in a distribution, depending on what\'s required for the pack. A well-produced preference pack designed for distributing a visual theme called \"DarkSide\" for FreeCAD might look like:
+Do dystrybucji mogą być dołączone także inne pliki, w zależności od tego, co jest wymagane w danym pakiecie. Dobrze wyprodukowany pakiet preferencji przeznaczony do dystrybucji motywu wizualnego o nazwie \"DarkSide\" dla programu FreeCAD może wyglądać następująco:
 
 -   package.xml
 -   resources/
@@ -326,11 +326,11 @@ Other files may also be included in a distribution, depending on what\'s require
     -   DarkSide.cfg
     -   DarkSide.qss
 
-Note the omission of the *pre.FCMacro* and *post.FCMacro* files, which are often unnecessary, as well as the inclusion of an icon (for display by the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md)), and the inclusion of a qss file (which will then be referenced in the *DarkSide.cfg* configuration data file).
+Zwróć uwagę na pominięcie plików *pre.FCMacro* i *post.FCMacro*, które często są niepotrzebne, a także na dołączenie ikony *(do wyświetlania przez <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md))*, i dołączenie pliku qss *(do którego następnie będzie się odwoływał plik danych konfiguracyjnych **DarkSide.cfg**)*.
 
-The pre- and post- macro files are standard FreeCAD Python macros, and may contain any commands valid in such a macro. If the pre.FCMacro raises an exception (of any type), the application of the preference pack is cancelled. If the post.FCMacro raises an exception (of any type), the application of the pack is rolled back using the backup taken prior to its application. For example, these macros may be used to query the user for license acceptance, or to verify they are happy with the final state of their system after application.
+Pliki pre- i post- makra są standardowymi makrodefinicjami FreeCAD Python i mogą zawierać dowolne polecenia obowiązujące w tego typu makrodefinicjach. Jeśli podczas wykonywania pre.FCMacro zostanie zgłoszony wyjątek *(dowolnego typu)*, stosowanie pakietu preferencji zostanie anulowane. Jeśli natomiast post.FCMacro zgłosi wyjątek *(dowolnego typu)*, zastosowanie pakietu jest cofane przy użyciu kopii zapasowej wykonanej przed jego zastosowaniem. Makrodefinicji tego typu można na przykład użyć do zapytania użytkownika o akceptację licencji lub do sprawdzenia, czy użytkownik jest zadowolony z ostatecznego stanu systemu po zastosowaniu pakietu.
 
-The package.xml file for this example pack might be:
+Plik package.xml dla tego przykładowego pakietu może mieć następującą postać:
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
     <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
@@ -355,13 +355,13 @@ The package.xml file for this example pack might be:
 
     </package>
 
-### Including templates in your add-on 
+### Włączanie szablonów do dodatku 
 
-Many add-ons have user-specifiable preference information that is added to the user.cfg file. An add-on author may also choose to provide a Preference Pack Template file that lists the user configuration variables that can be automatically saved using the \"Save new pack\" method described above. To include these template files, add-on authors should create a subdirectory in their package called either \"PreferencePackTemplates\" or \"preference\_pack\_templates\". Within that folder should be one or more \*.cfg files: each must be a valid, well-formed user.cfg XML file containing one or more configuration variables set to their default values. The name of the file should reflect its purpose, e.g. \"colors.cfg\", \"active\_tabs.cfg\", etc. This set of files will be presented to the user when they save a new preference pack, with each file receiving a checkable entry in the list of items to save. The filename is used to generate the UI entry, with underscores replaced by spaces (and the extension omitted).
+Wiele dodatków zawiera informacje o preferencjach użytkownika, które są dodawane do pliku user.cfg. Autor dodatku może również dostarczyć plik szablonu pakietu preferencji, zawierający listę zmiennych konfiguracyjnych użytkownika, które mogą być automatycznie zapisane za pomocą opisanej powyżej metody \"Zapisz nowy pakiet\". Aby dołączyć te pliki szablonów, autorzy dodatków powinni utworzyć w swoim pakiecie podkatalog o nazwie \"PreferencePackTemplates\" lub \"preference\_pack\_templates\". W tym katalogu powinien znajdować się jeden lub więcej plików \*.cfg: każdy z nich musi być poprawnym, dobrze sformatowanym plikiem XML user.cfg, zawierającym jedną lub więcej zmiennych konfiguracyjnych ustawionych na wartości domyślne. Nazwa pliku powinna odzwierciedlać jego przeznaczenie, np. \"colors.cfg\", \"active\_tabs.cfg\" itd. Ten zestaw plików zostanie przedstawiony użytkownikowi podczas zapisywania nowego pakietu preferencji, a każdy z nich będzie miał zaznaczoną pozycję na liście elementów do zapisania. Do wygenerowania wpisu w interfejsie użytkownika używana jest nazwa pliku, przy czym podkreślenia są zastępowane spacjami (a rozszerzenie pomijane).
 
-## Distributing a pack 
+## Dystrybucja pakietu 
 
-Preference Packs are distributed identically to [External Workbenches](External_workbenches.md) through the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). To install a pack manually, use git to clone the package repository into your FreeCAD data directory (the directory where your user.cfg file is located), in a subdirectory called \"Preference Packs\".
+Pakiety Preferencji są dystrybuowane tak samo jak [Zewnętrzne środowiska pracy](External_workbenches/pl.md) poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md). Aby zainstalować pakiet ręcznie, użyj git, aby sklonować repozytorium pakietów do katalogu danych FreeCAD *(katalogu, w którym znajduje się plik user.cfg)*, w podkatalogu o nazwie \"Pakiety preferencji\".
 
 
 

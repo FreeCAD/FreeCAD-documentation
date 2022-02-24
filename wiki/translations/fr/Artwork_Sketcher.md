@@ -41,7 +41,7 @@ Par le passé, les icônes `.xpm` étaient utilisées comme superpositions lors 
 
 ### src/Mod/Sketcher/Gui/Resources/icons/splines/
 
-![](images/Sketcher_BSplineApproximate.svg ) ![](images/Sketcher_BSplineComb.svg ) ![](images/Sketcher_BSplineDecreaseDegree.svg ) ![](images/Sketcher_BSplineDecreaseKnotMultiplicity.svg ) ![](images/Sketcher_BSplineDegree.svg ) ![](images/Sketcher_BSplineIncreaseDegree.svg ) ![](images/Sketcher_BSplineIncreaseKnotMultiplicity.svg ) ![](images/Sketcher_BSplineKnotMultiplicity.svg ) ![](images/Sketcher_BSplinePolygon.svg )
+![](images/Sketcher_BSplineApproximate.svg ) ![](images/Sketcher_BSplineComb.svg ) ![](images/Sketcher_BSplineDecreaseDegree.svg ) ![](images/Sketcher_BSplineDecreaseKnotMultiplicity.svg ) ![](images/Sketcher_BSplineDegree.svg ) ![](images/Sketcher_BSplineIncreaseDegree.svg ) ![](images/Sketcher_BSplineIncreaseKnotMultiplicity.svg ) ![](images/Sketcher_BSplineInsertKnot.svg ) ![](images/Sketcher_BSplineKnotMultiplicity.svg ) ![](images/Sketcher_BSplinePolygon.svg )
 
 ### src/Mod/Sketcher/Gui/Resources/icons/tools/
 

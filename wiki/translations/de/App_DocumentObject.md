@@ -7,7 +7,13 @@
 
 Ein [Anwendung DokumentObjekt](App_DocumentObject/de.md) Objekt oder formal ein `App::DocumentObject` ist die Basisklasse aller im Dokument behandelten Objektklassen.
 
+
+<div class="mw-translate-fuzzy">
+
 Allgemein ausgedrückt ist ein \"Dokumentobjekt\" jedes \"Ding\", das in der [Baumansicht](tree_view/de.md) erscheinen kann und das beim Öffnen eines Dokuments gespeichert und wiederhergestellt wird.
+
+
+</div>
 
 ![](images/App_DocumentObject_example.png )
 
@@ -18,12 +24,27 @@ Allgemein ausgedrückt ist ein \"Dokumentobjekt\" jedes \"Ding\", das in der [Ba
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+<div class="mw-translate-fuzzy">
+
+
 
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `App::DocumentObject* Klasse ist die Basisklasse von im Wesentlichen allen Objekten in der Software.`
 
+
+</div>
+
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 Das [Anwendung DokumentObjekt](App_DocumentObject/de.md) ist eine interne Klasse, kann also weder von der grafischen Oberfläche aus erstellt werden, noch ist sie für sich selbst gedacht. Sie definiert lediglich das grundlegende Verhalten und die Eigenschaften von Objekten in der Software.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Einige der wichtigsten DocumentObjects sind die folgenden:
 
@@ -32,11 +53,17 @@ Einige der wichtigsten DocumentObjects sind die folgenden:
 -   Die Klasse [Part Formelement](Part_Feature/de.md), abgeleitet von App GeoFeature, und die übergeordnete Klasse von Objekten mit 2D und 3D [topologische Formen](Part_TopoShape/de.md).
 -   Die Klasse [Polygonnetz Formelement](Mesh_Feature/de.md), abgeleitet von App GeoFeature, und die übergeordnete Klasse von Objekten mit 2D und 3D [Polygonnetze](Mesh_MeshObject/de.md).
 
+
+</div>
+
 ## Eigenschaften
 
 Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete Objekte haben können.
 
 Dies sind die grundlegenden Eigenschaften, die im Wesentlichen alle Objekte haben. Auf diese Eigenschaften kann über die [Python Konsole](Python_console/de.md) zugegriffen werden.
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|Expression Engine|ExpressionEngine}}: eine Liste von Ausdrücken.
 
@@ -46,16 +73,31 @@ Dies sind die grundlegenden Eigenschaften, die im Wesentlichen alle Objekte habe
 
 -    {{PropertyData/de|Visibility|Bool}}: whether to display the object or not.
 
+
+</div>
+
 Für abgeleitete Objekte wird standardmäßig nur {{PropertyData/de|Label}} im [Eigenschafteneditor](property_editor/de.md) aufgelistet. Die anderen Eigenschaften werden ausgeblendet.
 
 ## Skripten
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Siehe auch:**
 
 [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md), und [geskriptete Objekte](scripted_objects/de.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Siehe [Part Formelement](Part_Feature/de.md) für die allgemeinen Informationen über das Hinzufügen von Objekten zum Programm.
+
+
+</div>
 
 Ein DokumentObjekt wird mit der `addObject()` Methode des Dokuments erstellt. Im Allgemeinen ist es jedoch nicht erforderlich, dieses Objekt zu erstellen. In der Regel ist es besser, eine der komplexeren Klassen unterzuordnen, z.B. [App FeaturePython](App_FeaturePython/de.md), [App GeoFeature](App_GeoFeature/de.md), [Part Formelement](Part_Feature/de.md), [Part Teil2DObjekt](Part_Part2DObject/de.md), usw.
 
@@ -69,7 +111,7 @@ obj.Label = "Custom label"
 ```
 
 
-{{Document objects navi
+{{Document_objects_navi
 
 }}
 

@@ -1,7 +1,7 @@
 # OpenCamLib
 ## Description
 
-  OpenCamLib (OCL) is an open source library aiming to provide computer aided manufacturing (CAM) algorithms. FreeCAD uses OCL in the experimental **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** path operations and other experimental features.
+OpenCamLib (OCL) is an open source library aiming to provide computer aided manufacturing (CAM) algorithms. FreeCAD uses OCL in the experimental **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** path operations and other experimental features.
 
 Github: <https://github.com/aewallin/opencamlib>
 
@@ -50,7 +50,9 @@ For example:
    sudo apt-get install doxygen
    sudo apt-get install texlive-full
 
- Note: the \"libboost-program-options-dev\" may be substituted with \"libboost-all-dev\".
+
+
+Note: the \"libboost-program-options-dev\" may be substituted with \"libboost-all-dev\".
 
 If you are struggling, carefully review any error messages you get during the cmake and make phases as you may need to install additional packages.
 
@@ -93,7 +95,7 @@ Index: opencamlib-2019.07/src/pythonlib/pythonlib.cmake
 
 
 
-Then, in order for python3 to be detected correctly you\'ll need to add 2 more flags to the cmake line:
+Then, in order for Python 3 to be detected correctly you\'ll need to add 2 more flags to the cmake line:
 
 
 

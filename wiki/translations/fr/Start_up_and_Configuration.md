@@ -204,7 +204,7 @@ Certaines bibliothèques doivent appeler des variables d\'environnement système
 
 ## Configuration
 
-A chaque démarrage, FreeCAD examine son environnement, ainsi que les paramètres en ligne de commande. Il construit un **ensemble de configuration** qui détient le cœur des informations d\'exécution. Ces informations sont ensuite utilisées pour déterminer l'emplacement où enregistrer les données des utilisateurs ou des fichiers journaux. Il est également très important pour les analyses post-mortem. Par conséquent, il est enregistré dans le fichier journal (log file).
+A chaque démarrage, FreeCAD examine son environnement, ainsi que les paramètres en ligne de commande. Il construit un **ensemble de configuration** qui détient le cœur des informations d\'exécution. Ces informations sont ensuite utilisées pour déterminer l'emplacement où enregistrer les données des utilisateurs ou des fichiers journaux. Il est également très important pour les analyses post-mortem. Par conséquent, il est enregistré dans le fichier des logs.
 
 ### Informations relatives à l\'utilisateur 
 
@@ -349,7 +349,7 @@ Si le nom n\'est pas trouvé, une chaîne vide est renvoyée.
 
 Utilisez l\'option `--get-config <config-var-name>` pour interroger un seul nom. Tous les noms ne sont pas pris en charge. Par exemple:
 
- FreeCAD_0.19 --get-config ExeVersion
+ FreeCAD --get-config ExeVersion
 
 Utilisez l\'option `--dump-config` pour obtenir une liste de noms et leurs valeurs. Tous les noms ne sont pas pris en charge.
 
@@ -357,7 +357,7 @@ Utilisez l\'option `--dump-config` pour obtenir une liste de noms et leurs valeu
 
 Démarrez FreeCAD en mode console avec `--console` et interrogez avec du code Python. Par exemple:
 
- $ FreeCAD_0.19 --console
+ $ FreeCAD --console
  [FreeCAD Console mode <Use Ctrl-D (i.e. EOF) to exit.>]
  >>> FreeCAD.ConfigGet("ExeVersion")
  '0.19'
@@ -365,7 +365,7 @@ Démarrez FreeCAD en mode console avec `--console` et interrogez avec du code Py
 
 Pour Linux (shell bash), vous pouvez modifier la ligne de commande suivante en fonction de vos besoins:
 
- $ FreeCAD_0.19 --console <<EOF
+ $ FreeCAD --console <<EOF
  print( "FREECAD_USER_HOME: " + ( "not set" if ( os.environ.get('FREECAD_USER_HOME') is None ) else os.environ.get('FREECAD_USER_HOME') ) )
  print( "UserHomePath: " + FreeCAD.ConfigGet("UserHomePath") )
  exit()

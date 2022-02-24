@@ -1,4 +1,6 @@
 # Sketcher SketchObject/fr
+{{TOCright}}
+
 ## Introduction
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
@@ -14,7 +16,7 @@ est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md). Cela signifie qu\'
 
 
 
-*Schéma simplifié des relations entre les objets principaux dans FreeCAD. La classe `Sketcher::SketchObject* est spécialisée pour les formes 2D et comprend en plus une extension pour gérer les contraintes géométriques de ses éléments.`
+*Diagramme simplifié des relations entre les objets centraux dans Freecad*
 
 ## Utilisation
 
@@ -23,9 +25,9 @@ est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md). Cela signifie qu\'
 3.  Sélectionnez une {{MenuCommand/fr|Orientation de l'esquisse}}: plan XY, plan XZ ou plan YZ. Vous pouvez également choisir d\'{{MenuCommand/fr|Inverser la direction}} et donner une valeur de {{MenuCommand/fr|Décalage}}.
 4.  Appuyez sur **OK**.
 
-Bien que SketchObject puisse être utilisé seul pour dessiner sur un plan, il est le plus souvent utilisé conjointement avec [Atelier PartDesign](PartDesign_Workbench/fr.md) pour créer des solides extrudés.
+Bien que SketchObject puisse être utilisé seul pour dessiner sur un plan, il est le plus souvent utilisé conjointement avec l\'[Atelier PartDesign](PartDesign_Workbench/fr.md) pour créer des solides extrudés.
 
-1.  Basculer vers le [Atelier PartDesign](PartDesign_Workbench/fr.md).
+1.  Basculer vers l\'[Atelier PartDesign](PartDesign_Workbench/fr.md).
 
 2.  Appuyez sur **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**.
 
@@ -40,82 +42,82 @@ Bien que SketchObject puisse être utilisé seul pour dessiner sur un plan, il e
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets scriptés peuvent avoir.
 
-Un [Sketcher SketchObject](Sketcher_SketchObject/fr.md) (classe `Sketcher::SketchObject`) est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md) (classe `Part::Part2DObject`) donc partage toutes les propriétés de ce dernier.
+[Sketcher SketchObject](Sketcher_SketchObject/fr.md) (classe `Sketcher::SketchObject`) est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md) (classe `Part::Part2DObject`) et hérite de toutes ses propriétés.
 
-Outre les propriétés décrites dans [Part Part2DObject](Part_Part2DObject/fr.md), l\'objet de base Sketcher SketchObject possède les propriétés suivantes dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
+Le SketchObject possède également les propriétés supplémentaires suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés cachées peuvent être affichées à l\'aide de la commande **Show all** du menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
 
 ### Données
 
 
-{{TitleProperty|Attachment}}
-
--    {{PropertyData/fr|Map Mode}}, {{PropertyData/fr|Map Reversed}}, {{PropertyData/fr|Attachment Offset}} comme [Part Part2DObject](Part_Part2DObject/fr.md). Voir [Part Ancrage](Part_EditAttachment/fr.md) pour plus d\'informations sur tous les modes d\'ancrage.
-
-
 {{TitleProperty|Sketch}}
 
--    **Constraints|**: les contraintes nommées, si elles existent sinon c\'est une liste vide `[]`.
+-    **Geometry|GeometryList|Hidden**: une liste des géométries de Part qui existent dans l\'esquisse.
 
-#### Propriétés cachées de Données 
+-    **Constraints|**: contraintes nommées, si elles existent ; sinon, il s\'agit d\'une liste vide `[]`.
 
-Voir [Part Part2DObject](Part_Part2DObject/fr.md) pour le reste des propriétés masquées.
+-    **External Geometry|LinkSubList**: une liste de géométries de pièces extérieures à cette esquisse qui sont utilisées comme référence.
 
-
-{{TitleProperty|Base}}
-
--    {{PropertyData/fr|Proxy|PythonObject}}: classe personnalisée associée à cet objet. Cela n\'existe que pour la version [Python](Python/fr.md). Voir [Script](Sketcher_SketchObject/fr#Script.md).
-
-
-{{TitleProperty|Sketch}}
-
--    {{PropertyData/fr|Geometry|GeometryList}}: liste des géométries de pièce qui existent à l\'intérieur de l\'esquisse.
-
--    {{PropertyData/fr|Géométrie externe|LinkSubList}}: liste des géométries de pièce en dehors de cette esquisse qui sont utilisées comme référence.
+-    **Fully Constrained|Bool|Hidden**: (en lecture seule) si `True` l\'esquisse est entièrement contrainte.
 
 ### Vue
 
 
 {{TitleProperty|Auto Constraints}}
 
--    **Autoconstraints|Bool**: si `True`, il essaiera de définir des contraintes lors du tracé de la géométrie.
+-    **Autoconstraints|Bool**: si `True` les contraintes sont automatiquement ajoutées lorsque la géométrie est dessinée.
+
+-    **Avoid Redundant|Bool**: si `True` les contraintes automatiques redondantes sont évitées.
+
+
+{{TitleProperty|Grid}}
+
+-    **Grid Auto Size|Bool|Hidden**: si `True`, la grille est redimensionnée en fonction de la boîte de délimitation de la géométrie de l\'esquisse.
+
+-    **Grid Size|Length**: la taille de l\'espacement des lignes de la grille locale dans la [Vue 3D](3D_view/fr.md) ; la valeur par défaut est {{value|10 mm}}.
+
+-    **Grid Snap|Bool**: si `True`, la grille peut être utilisée pour fixer des points.
+
+-    **Grid Style|Enumeration**: le style des lignes de la grille ; {{value|Dashed}} (par défaut) ou {{value|Light}}.
+
+-    **Show Grid|Bool**: si `True`, une grille locale à l\'objet sera affichée dans la [Vue 3D](3D_view/fr.md). Cette grille est indépendante de la [Draft Grille](Draft_ToggleGrid/fr.md).
+
+-    **Show Only In Edit Mode|Bool**: si `True`, la grille n\'est affichée que lorsque l\'esquisse est en cours d\'édition.
+
+-    **Tight Grid|Bool**: si `True` la grille locale sera localisée autour de l\'origine de la forme, sinon elle s\'étendra davantage.
+
+-    **max Number Of Lines|Integer**: le nombre maximum de lignes dans la grille.
 
 
 {{TitleProperty|Visibility automation}}
 
--    **Editing Workbench|String**: nom du workbench à activer lors de la modification de l\'esquisse. Valeur par défaut {{value|SketcherWorkbench}}.
+-    **Editing Workbench|String**: nom de l\'atelier à activer lors de l\'édition de l\'esquisse ; la valeur par défaut est {{value|SketcherWorkbench}}.
 
--    **Hide Dependent|Bool**: si `True`, tous les objets qui dépendent de l\'esquisse sont masqués lors de l\'ouverture de l\'esquisse.
+-    **Force Ortho|Bool**: si `True`, la caméra sera forcée à [mode de vue orthographique](Std_OrthographicCamera/fr.md) lorsque l\'esquisse est ouverte.
 
--    **Restore Camera|Bool**: si `True` la position de la caméra est enregistrée avant l\'ouverture de l\'esquisse et est restaurée après sa fermeture.
+-    **Hide Dependent|Bool**: si `True`, tous les objets qui dépendent de l\'esquisse sont masqués lorsque l\'esquisse est ouverte.
 
--    **Show Links|Bool**: si `True`, tous les objets utilisés dans les liens vers une géométrie externe sont affichés lors de l\'ouverture de l\'esquisse.
+-    **Restore Camera|Bool**: si `True`, la position de la caméra est enregistrée avant l\'ouverture de l\'esquisse et est restaurée après sa fermeture.
 
--    **Show Support|Bool**: si `True` tous les objets auxquels cette esquisse est attachée sont affichés lors de l\'ouverture de l\'esquisse.
+-    **Section View|Bool**: si `True`, seuls les (parties des) objets situés derrière le plan de l\'esquisse sont visibles pendant l\'édition de l\'esquisse.
 
-#### Propriétés cachées de Vue 
+-    **Show Links|Bool**: si `True`, tous les objets utilisés dans les liens vers la géométrie externe sont affichés à l\'ouverture de l\'esquisse.
 
+-    **Show Support|Bool**: si `True`, tous les objets auxquels cette esquisse est attachée sont affichés lorsque l\'esquisse est ouverte.
 
-{{TitleProperty|Base}}
-
--    {{PropertyData/fr|Proxy|PythonObject}}: classe personnalisée associée à cet objet. Cela n\'existe que pour la version [Python](Python/fr.md). Voir [Script](Sketcher_SketchObject/fr#Script.md).
-
-
-{{TitleProperty|Visibility automation}}
-
--    {{PropertyView/fr|Tempo Vis|PythonObject}}: classe personnalisée associée à cet objet qui gère le masquage et l\'affichage d\'autres objets lors de l\'ouverture et de la fermeture de l\'esquisse.
-
-Toutes les autres propriétés de vue, y compris les propriétés masquées, sont celles de l\'objet de base [Part Feature](Part_Feature/fr.md)
+-    **Tempo Vis|PythonObject|Hidden**: une classe personnalisée associée à cet objet, qui gère le masquage et l\'affichage d\'autres objets lors de l\'ouverture et de la fermeture de l\'esquisse.
 
 ## Création de scripts 
 
 
-**Voir aussi:**
+**Voir aussi :**
 
-[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md) et [objet scripté](scripted_objects/fr.md).
+[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
 Voir [Part Feature](Part_Feature/fr.md) pour les informations générales sur l\'ajout d\'objets au document.
 
-Un SketchObject est créé avec la méthode `addObject()` du document. 
+Un SketchObject est créé avec la méthode `addObject()` du document.
+
+
 ```python
 import FreeCAD as App
 
@@ -124,9 +126,7 @@ obj = App.ActiveDocument.addObject("Sketcher::SketchObject", "Sketch")
 obj.Label = "Custom label"
 ```
 
-Ce `Sketcher::SketchObject` de base n\'a pas d\'objet Proxy, il ne peut donc pas être entièrement utilisé pour la sous-classification.
-
-Par conséquent, pour la sous-classe [Python](Python/fr.md), vous devez créer l\'objet `Sketcher::SketchObjectPython`.
+Pour la sous-classification de [Python](Python/fr.md), vous devez créer l\'objet `Sketcher::SketchObjectPython`.
 
 
 ```python
@@ -138,9 +138,9 @@ obj.Label = "Custom label"
 ```
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
-}}  {{Document objects navi}}
+}} {{Document_objects_navi}}
 
 
 

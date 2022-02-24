@@ -14,6 +14,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -24,7 +26,13 @@ Instrumentul Scara vă permite să construiți automat mai multe tipuri de scăr
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 A se vedea [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) pentru o definiție a diferitor termeni utilizați pentru a descrie piese/părți ale scărilor. (pentru liMba română avem <https://www.spatiulconstruit.ro/ghid-de-constructii/scari-notiuni-generale-clasificari/9> )
+
+
+</div>
 
 <img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;">
 
@@ -38,7 +46,15 @@ A se vedea [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) pent
 
 ## Opţiuni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Scările partajează proprietățile și comportamentele comune tuturor [Arch Components](Arch_Component.md)
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -54,7 +70,40 @@ A se vedea [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) pent
 
 ## Proprietăți
 
-Base
+### Data
+
+
+{{TitleProperty|Segment and Parts}}
+
+-    **Abs Top|Vector**: (read-only) The absolute top level the stairs lead to.
+
+-    **Last Segment|Link**: Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
+
+-    **Outline Left|VectorList**: The left outline of the stairs.
+
+-    **Outline Left All|VectorList**: The left outline of all segments of the stairs.
+
+-    **Outline Right|VectorList**: The right outline of the stairs.
+
+-    **Outline Right All|VectorList**: The right outline of all segments of the stairs.
+
+-    **Railing Height Left|Length**: Height of the left railing of the stairs or landing.
+
+-    **Railing Height Right|Length**: Height of the right railing of the stairs or landing.
+
+-    **Railing Left|String**: Name of the left railing object.
+
+-    **Railing Offset Left|Length**: Offset of the left railing from the edge of the stairs or landing.
+
+-    **Railing Offset Right|Length**: Offset of the right railing from the edge of the stairs or landing.
+
+-    **Railing Right|String**: Name of the right railing object.
+
+
+{{TitleProperty|Stairs}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Align**: Alinerea acestor scări cu linia de bază, dacă se poate aplica.
 
@@ -66,7 +115,19 @@ Base
 
 -    **Width**: Lățimea acestor scări.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Steps
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Nosing**: Mărimea proeminenței treptei (nasul).
 
@@ -78,7 +139,19 @@ Steps
 
 -    **Tread Thickness**: Grosimea treptelor.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Structure
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Landings**: Tipul odihnelor/palierelor.
 
@@ -93,6 +166,11 @@ Structure
 -    **Winders**: Tipul treptelor de schimbare a direcției (mai înguste pe o latură).
 
 
+</div>
+
+## Limitations
+
+
 <div class="mw-translate-fuzzy">
 
 ## Limitări
@@ -104,6 +182,8 @@ Structure
 
 
 </div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

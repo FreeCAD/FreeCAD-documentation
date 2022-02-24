@@ -81,6 +81,9 @@ Other
 
 ## Enlaces a la animación Ambiente de Trabajo 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Ambiente de Trabajo Wiki: [www.freecadbuch.de](http://freecadbuch.de/doku.php?id=Animation%20Wokbench)
 -   FreeCAD Wiki:
 -   Foro FreeCAD: <http://forum.freecadweb.org/viewtopic.php?t=8976&start=10>
@@ -88,6 +91,9 @@ Other
 -   Videos: [Animation videos](http://freecadbuch.de/doku.php?id=animation:videos)
 -   Archivos: [Ejemplos](https://github.com/microelly2/Animation-WB-Examples)
 -   Informar de los errores: Please report bugs at [Foro FreeCAD](http://forum.freecadweb.org/index.php), or at [Problemas de animación](https://github.com/microelly2/Animation/issues)
+
+
+</div>
 
 ## Otros enlaces útiles 
 

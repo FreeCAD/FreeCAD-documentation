@@ -35,17 +35,14 @@ Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat ei
 
 ### Zusätzliche Werkzeuge 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std Part](Std_Part/de.md): Erzeugt ein neues Teil und macht es aktiv.
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std Group](Std_Group/de.md): Creates a new group.
--   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Std LinkMake](Std_LinkMake/de.md): Creates a link. <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:32px;"> [Std LinkMakeRelative](Std_LinkMakeRelative/de.md): Creates a sub-object or sub-element link. <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkReplace.svg  style="width:32px;"> [Std LinkReplace](Std_LinkReplace/de.md): Replaces object(s) with new link(s). <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkUnlink.svg  style="width:32px;"> [Std LinkUnlink](Std_LinkUnlink/de.md): Replaces link(s) with their linked object(s). <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkImport.svg  style="width:32px;"> [Std LinkImport](Std_LinkImport/de.md): Imports selected external link(s). <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkImportAll.svg  style="width:32px;"> [Std LinkImportAll](Std_LinkImportAll/de.md): Imports all external link(s). <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Baugruppe erstellen](Std_Part/de.md): Erstellt ein neues Teil und macht es aktiv.
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppe erstellen](Std_Group/de.md): Erstellt eine neue Gruppe.
+-   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Verknüpfung erstellen](Std_LinkMake/de.md): Erstellt eine Verknüpfung. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:32px;"> [Unterverknüpfung erstellen](Std_LinkMakeRelative/de.md): Erstellt ein Unterobjekt oder eine Unter-Elementverknüpfung. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_LinkReplace.svg  style="width:32px;"> [Durch Verknüpfung ersetzen](Std_LinkReplace/de.md): Ersetzt ein oder mehrere Objekte durch eine oder mehrere neue Verknüpfungen. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_LinkUnlink.svg  style="width:32px;"> [Verknüpfung auflösen](Std_LinkUnlink/de.md): Ersetzt eine oder mehrere Verknüpfungen durch ihre verknüpften Objekte. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_LinkImport.svg  style="width:32px;"> [Verknüpfung importieren](Std_LinkImport/de.md): Importiert ausgewählte externe Verknüpfungen. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_LinkImportAll.svg  style="width:32px;"> [Alle Verknüpfungen importieren](Std_LinkImportAll/de.md): Importiert alle externe Verknüpfungen. <small>(v0.19)</small> 
 -   <img alt="" src=images/Std_LinkMakeGroup.svg  style="width:32px;"> [Std LinkMakeGroup](Std_LinkMakeGroup/de.md): Creates a group of links. <small>(v0.19)</small> 
 -   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Std LinkSelectLinked](Std_LinkSelectLinked/de.md): Selects the linked object and switches to its document. <small>(v0.19)</small> 
 -   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal/de.md): Selects the deepest linked object and switches to its document. <small>(v0.19)</small> 
@@ -54,9 +51,6 @@ Das Standardmenü setzt sich aus 7 Untermenüs zusammen. Jedes Untermenü hat ei
 -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Std SelBack](Std_SelBack/de.md): Restores the previous saved selection. <small>(v0.19)</small> 
 -   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Std SelForward](Std_SelForward/de.md): Restores the next ved selection. <small>(v0.19)</small> 
 -   [Std Expressions](Std_Expressions/de.md): Expression actions. <small>(v0.19)</small> 
-
-
-</div>
 
 
 

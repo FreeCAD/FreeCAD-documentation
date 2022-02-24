@@ -11,59 +11,95 @@
 
 ## Description
 
-The Tube command inserts a tube into the active document. The tube is geometrically treated as a cut of a smaller cylinder into a larger one. By default, the command will insert a 10 mm high tube with an outer radius of 5 mm and an inner radius of 2 mm. These parameters can be modified after the object has been added.
+The <img alt="" src=images/Part_Tube.svg  style="width:24px;"> [Part Tube](Part_Tube.md) command creates a parametric tube solid.
 
-![Screenshot of a Tube](images/Part_Tube-screenshot.png )
+FreeCAD creates a tube, with a inner radius of 2 millimetre, an outer radius of 5 millimetre and a height of 10 millimetre.
+
+By default, the tube is positioned with the center of the bottom circles at the origin (0,0,0). The bottom of the tube is on the xy-plane. Its extension in z-direction follows the positive axis value.
+
+![Screenshot of a Part Tube](images/Part_Tube_Example.png )
 
 ## Usage
 
-To create a tube either:
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube.md)** button.
+    -   Select the **Part → Primitives → <img src="images/Part_Tube.svg" width=16px> Tube** option from the menu.
 
--   press the **<img src="images/Part_Tube.svg" width=16px> Tube** button in the toolbar
--   use the menu **Part → Primitives → Create tube**
+## Example
 
-To edit the tube:
+![Part Tube scripting example.](images/Part_Tube_Scripting_Example.png )
 
--   either
-    -   select it in the tree and double-click on it
-    -   edit the parameters in the appearing dialog
--   or use the the [property editor](Property_editor.md) to edit the parameters
+A Part Tube object with the values of the bottom scripting example are shown here.
+
+## Notes
+
+The tube is geometrically treated as a cut of a smaller cylinder into a larger one.
 
 ## Properties
 
--   Via the [Property Editor](Property_editor.md):
-    -   
-        **Placement**
-        
-        : Specifies the orientation and position of the Box in the 3D space. See [Placement](Placement.md). The reference point is the left front lower corner of the box.
+See also: [Property editor](Property_editor.md).
 
-    -   
-        **Label**
-        
-        : The Label is the name given to the operation. This name can be changed at your convenience.
+A Part Tube object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-    -   
-        **Height**
-        
-        : Sets the height (default is 10 mm).
+### Data
 
-    -   
-        **Inner Radius**
-        
-        : Set the inner radius (default is 2 mm).
 
-    -   
-        **Outer Radius**
-        
-        : Set the outer radius (default is 5 mm).
+{{TitleProperty|Tube}}
+
+-    **Height|Length**: Sets the height (default is 10 mm).
+
+-    **Inner Radius|Length**: Set the inner radius (default is 2 mm).
+
+-    **Outer Radius|Length**: Set the outer radius (default is 5 mm).
 
 ## Scripting
 
-A Part Tube can be created using the following function:
+A Part Tube can be created with the following code from the {{Incode|CommandShapes.py}} file:
 
  
 ```python
+from BasicShapes import Shapes
+from BasicShapes import ViewProviderShapes
 
+tube = FreeCAD.ActiveDocument.addObject("Part::FeaturePython", "myTube")
+
+Shapes.TubeFeature(tube)
+ViewProviderShapes.ViewProviderTube(tube.ViewObject)
+```
+
+-   Where {{Incode|myTube}} is the name for the object. The name must be unique for the entire document.
+-   The function returns the newly created object.
+
+You have to [recompute](Std_Refresh.md) the current document with
+
+
+```python
+App.activeDocument().recompute(None,True,True)
+```
+
+to see the tube.
+
+The {{Incode|Label}} is the user editable name for the object. It can be easily changed by
+
+ 
+```python 
+tube.Label = "new myTubeName"
+```
+
+You can access and modify attributes of the {{Incode|tube}} object. For example, you may wish to modify the length, width and height parameters.
+
+ 
+```python
+tube.Height = 20
+tube.InnerRadius = 2
+tube.OuterRadius = 3
+```
+
+You can change its placement with:
+
+ 
+```python
+tube.Placement = FreeCAD.Placement(FreeCAD.Vector(1, 2, 3), FreeCAD.Rotation(60, 60, 30))
 ```
 
 

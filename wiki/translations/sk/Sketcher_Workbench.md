@@ -272,6 +272,8 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Znížiť násobnosť uzla](Sketcher_BSplineDecreaseKnotMultiplicity.md)
 
+-   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md), <small>(v0.20)</small> 
+
 ### Virtuálny priestor Náčrtníka 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Prepnúť virtuálny priestor](Sketcher_SwitchVirtualSpace.md): Umožní vám skryť všetky väzby náčrtu a potom ich znovu zobraziť.

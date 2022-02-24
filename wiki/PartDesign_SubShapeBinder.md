@@ -34,6 +34,10 @@ It can also bind to objects that are nested inside [Std Parts](Std_Part.md), and
 4.  Modify the properties of this binder object, for example its placement.
 5.  Use it with another operation, such as **[<img src=images/PartDesign_Boolean.svg style="width:16px"> [Boolean](PartDesign_Boolean.md)**.
 
+## Notes
+
+SubShapebinders may be used to reference any other objects outside of a PD body, such as Sketches(in other bodies or outside of the active body),solids created in Part WB or wires/faces from Draft WB. They may also contain only parts of those objects such as points,edges or faces. Therefore selection for further operations needs to be explicit, and is dependent on the requirements of the subsequent operation. Other than Boolean operations, the appropriate selection should be made in the 3D view.(A Pad or Pocket operation would require a face to be selected in order to succeed, etc.)
+
 ## Properties
 
 The [SubShapeBinder](PartDesign_SubShapeBinder.md) is derived from [Part Feature](Part_Feature.md) (`Part::Feature` class). In addition to the properties listed in [Part Feature](Part_Feature.md), the following properties are available in the [property editor](property_editor.md).

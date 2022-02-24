@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Custom
    Name/fr:Path Personnaliser
-   MenuLocation:Path → Supplemental Commands → Personnalisée
+   MenuLocation:Parcours → Commandes additionnelles → Personnalisé
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -26,13 +26,13 @@ Notez que les taux d'alimentation seront correctement générés par le post-pro
 
 ## Utilisation
 
-1.  Pressez le bouton **<img src="images/Path_Custom.svg" width=16px>  [Personnalisée](Path_Custom/fr.md)
+1.  Pressez le bouton **<img src="images/Path_Custom.svg" width=16px>  [Personnalisé](Path_Custom/fr.md)
 **
 2.  Écrivez le G-Code adapté dans la propriété **G Code** de l\'objet nouvellement créé. Voyez la page [Path Ecrire un script](Path_scripting/fr.md) pour les commandes G-Code acceptées.
 
 ## Propriétés
 
--    {{PropertyData/fr|G Code}}: Les commandes G-Code personnalisées pour programmer le chemin.
+-    **G Code**: Les commandes G-Code personnalisées pour programmer le chemin.
 
 
 

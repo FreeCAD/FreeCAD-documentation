@@ -91,6 +91,8 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Restricción de presión](FEM_ConstraintPressure/es.md): Utilizada para definir una restricción de presión
 
+-   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constraint centrif](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
+
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Restricción de peso propio](FEM_ConstraintSelfWeight/es.md): Utilizado para definir una aceleración de gravedad actuando sobre un modelo.
 
 ### Restricciónes Térmicas 

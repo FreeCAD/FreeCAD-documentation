@@ -50,22 +50,27 @@ All information applicable to an [Arch Window](Arch_Window.md) also applies to a
 4.  In the [3D view](3D_view.md), move the window to the location where you wish to place it. If you move the pointer over an [Arch Wall](Arch_Wall.md), the outline of the window should align itself with the face of that object.
 5.  Click on the [3D view](3D_view.md) with the mouse, or press the **Enter** key three times to confirm the X, Y, Z coordinates of the placement.
 
+#### Additional presets 
 
-**Note:**
-
-if you install the \"Parts Library\" from the [Addon Manager](Std_AddonMgr.md), the window tool will search this library for additional presets. These presets are FreeCAD files containing a single window based on a parametric sketch that has named constrains. You may place additional presets in the `parts_library` directory so that they are found by the window tool.
+If you install the [Parts Library](Parts_Library_Workbench.md) from the [Addon Manager](Std_AddonMgr.md), the window tool will search this library for additional presets. These presets are FreeCAD files containing a single window based on a parametric sketch that has named constrains. You may place additional presets in the {{FileName|parts_library}} directory so that they are found by the window tool.
 
 
-```python
-$ROOT_DIR/Mod/parts_library/Architectural\ Parts/Doors/Custom/
-$ROOT_DIR/Mod/parts_library/Architectural\ Parts/Windows/Custom/
-```
+{{FileName|$ROOT_DIR/Mod/parts_library/Architectural Parts/Doors/Custom/}}
 
-The `$ROOT_DIR` is the user\'s directory where FreeCAD configuration, macros, and external workbenches are stored.
+{{FileName|$ROOT_DIR/Mod/parts_library/Architectural Parts/Windows/Custom/}}
 
--   On Linux it is usually `/home/username/.FreeCAD/`
--   On Windows it is usually `C:\Users\username\Application Data\FreeCAD\`
--   On Mac OSX it is usually `/Users/username/Library/Preferences/FreeCAD/`
+It is also possible to place custom windows and doors in your user {{FileName|Arch}} directory. <small>(v0.20)</small> 
+
+
+{{FileName|$ROOT_DIR/Mod/Arch/Doors/Custom/}}
+
+{{FileName|$ROOT_DIR/Mod/Arch/Windows/Custom/}}
+
+-   The {{FileName|$ROOT_DIR}} is the user directory where FreeCAD configuration files, macros, and external workbenches are stored. It can be found be entering `FreeCAD.getUserAppDataDir()` in the [Python console](Python_console.md).
+    -   On Linux it is usually {{FileName|/home/username/.FreeCAD/}}
+    -   On Windows it is usually {{FileName|C:\Users\username\Application Data\FreeCAD\}}
+    -   On Mac OSX it is usually {{FileName|/Users/username/Library/Preferences/FreeCAD/}}
+-   The subdirectory name {{FileName|Custom}} is just a suggestion, any name can be used. But the files must be placed in one or more subdirectories inside the {{FileName|Doors}} or {{FileName|Windows}} directories.
 
 ### Creating from scratch 
 
@@ -78,10 +83,7 @@ The `$ROOT_DIR` is the user\'s directory where FreeCAD configuration, macros, an
 7.  Press the **<img src="images/Arch_Window.svg" width=16px> [Arch Window](Arch_Window.md)** button, or press **W** then **I** keys.
 8.  To adjust the window components and various properties, enter the window [task panel](task_panel.md) by double-clicking on the created object in the [tree view](tree_view.md).
 
-
-**Note:**
-
-when creating the sketch, pay close attention to the creation order of the loops; the numbering of the \"wires\" in the [task panel](task_panel.md) (\"Window elements\") depends on this.
+When creating the sketch, pay close attention to the creation order of the loops; the numbering of the \"wires\" in the [task panel](task_panel.md) (\"Window elements\") depends on this.
 
 ## Presets
 
@@ -184,6 +186,8 @@ You can use any other kind of workflow than the one described above, the importa
 
 
 </div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

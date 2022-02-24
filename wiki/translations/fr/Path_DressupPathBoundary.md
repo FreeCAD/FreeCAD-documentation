@@ -2,9 +2,9 @@
 - GuiCommand:/fr
    Name:Path DressupPathBoundary
    Name/fr:Path Limitation de zones
-   MenuLocation:Path → Path Dressup → Habillage de la limite
+   MenuLocation:Parcours → Optimization de trajectoire → Limitation de la zone de travail
    Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Saut de trajectoire](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry.md)
+   SeeAlso:[Path Languettes de maintien](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md)
 ---
 
 # Path DressupPathBoundary/fr

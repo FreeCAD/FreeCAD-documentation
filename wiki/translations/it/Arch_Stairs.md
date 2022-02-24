@@ -14,18 +14,43 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Lo strumento [Scale](Arch_Stairs/it.md) consente di creare automaticamente i diversi tipi di scale. Al momento, sono supportate solo le scale dritte (con o senza pianerottolo) sono supportati. Le scale possono essere costruite da zero, o da una [linea](Draft_Line/it.md) dritta, nel qual caso le scale seguono la linea. Se la linea non è orizzontale, ma è inclinata verticalmente, anche le scale seguono la sua pendenza.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la definizione dei diversi termini usati per descrivere le parti delle scale.
+
+
+</div>
 
 <img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;"> 
 *Due scale, uno con una struttura massiccia e un pianerottolo, e un'altra con un solo montante.*
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Gli elementi Scala condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
+
+
+</div>
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
@@ -33,14 +58,47 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 
 1.  Adeguare le proprietà desiderate. Alcune parti delle scale potrebbero non apparire immediatamente se una qualsiasi delle proprietà lo rende impossibile. Ad esempio, potrebbe non apparire la struttura se il suo spessore è impostato pari a 0.
 
+
+</div>
+
 ## Proprietà
 
 ![](images/StairsProperties_it.png )
 
-#### Dati
+### Data
 
 
-{{KEY/it|Arch}}
+{{TitleProperty|Segment and Parts}}
+
+-    **Abs Top|Vector**: (read-only) The absolute top level the stairs lead to.
+
+-    **Last Segment|Link**: Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
+
+-    **Outline Left|VectorList**: The left outline of the stairs.
+
+-    **Outline Left All|VectorList**: The left outline of all segments of the stairs.
+
+-    **Outline Right|VectorList**: The right outline of the stairs.
+
+-    **Outline Right All|VectorList**: The right outline of all segments of the stairs.
+
+-    **Railing Height Left|Length**: Height of the left railing of the stairs or landing.
+
+-    **Railing Height Right|Length**: Height of the right railing of the stairs or landing.
+
+-    **Railing Left|String**: Name of the left railing object.
+
+-    **Railing Offset Left|Length**: Offset of the left railing from the edge of the stairs or landing.
+
+-    **Railing Offset Right|Length**: Offset of the right railing from the edge of the stairs or landing.
+
+-    **Railing Right|String**: Name of the right railing object.
+
+
+{{TitleProperty|Stairs}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{ProprietaDati|Align}}: L\'allineamento delle scale sulla loro linea base, se applicabile.
 
@@ -60,7 +118,19 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 -    {{ProprietaDati|Placement}}: [posizionamento](Placement/it.md) del punto base della scala (angolo anteriore sinistro del primo scalino)
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
 {{KEY/it|Steps}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{ProprietaDati|Nosing}}: lunghezza di sovrapposizione degli scalini
 
@@ -73,7 +143,19 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 -    {{ProprietaDati|Tread Thickness}}: spessore degli scalini (aggiunto verso il basso)
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
 {{KEY/it|Structure}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{ProprietaDati|Landigs}}: pianerottoli
 
@@ -87,11 +169,27 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 
 -    {{ProprietaDati|Winders}}: gradini a ventaglio
 
+
+</div>
+
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Limitazioni
 
 -   Al momento sono disponibili solo scale dritte
 -   Vedere [nel forum](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534) per scale circolari.
 -   Per seguire l\'evoluzione dello strumento consultare la pagina [Arch Stairs](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564) nel forum
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -100,7 +198,18 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Le Scale possono essere create con le [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Le Scale possono essere create con le [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 Stairs = makeStairs(baseobj=None, length=None, width=None, height=None, steps=None, name="Stairs")
 ```

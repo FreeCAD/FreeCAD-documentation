@@ -273,6 +273,8 @@ Następujące narzędzia mogą być wykorzystane do zmiany działania wiązań:
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Zmniejsz liczbność węzłów](Sketcher_BSplineDecreaseKnotMultiplicity/pl.md)
 
+-   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md), <small>(v0.20)</small> 
+
 ### Wirtualna przestrzeń szkicownika 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Przełącz wirtualną przestrzeń](Sketcher_SwitchVirtualSpace.md): Umożliwia ukrycie wszystkich wiązań szkicu i ponowne ich wyeksponowanie.

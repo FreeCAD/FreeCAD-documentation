@@ -5,7 +5,7 @@
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionAreaAnnotation](TechDraw_ExtensionAreaAnnotation.md), [TechDraw ExtensionAreaAnnotation](TechDraw_ExtensionAreaAnnotation.md)
+   SeeAlso:
 ---
 
 # TechDraw ExtensionAreaAnnotation

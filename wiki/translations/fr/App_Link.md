@@ -11,25 +11,20 @@ Un [App Link](App_Link/fr.md), ou formellement un `App::Link`, est un type d\'ob
 
 
 
-*Diagramme simplifié des relations entre les objets centraux du programme. L'objet `App::Link* est un composant central du système : il ne dépend d'aucun atelier mais peut être utilisé avec la plupart des objets créés dans tous les ateliers.`
+*Diagramme simplifié des relations entre les objets centraux dans Freecad*
 
 ## Utilisation
 
-1.  Sélectionnez un objet dans la [Vue en arborescence](Tree_view/fr.md) ou la [Vue 3D](3D_view/fr.md) pour lequel vous souhaitez créer un lien.
-2.  Appuyez sur le bouton **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake/fr.md)**. L\'objet généré a la même icône que l\'objet d\'origine mais a une superposition de flèche indiquant qu\'il s\'agit d\'un lien.
-
-Voir la page [Std LinkMake](Std_LinkMake/fr.md) pour les informations complètes, y compris son utilisation dans un [Script](Std_LinkMake/fr#Script.md).
+Voir [Std Créer un lien](Std_LinkMake/fr#Utilisation.md).
 
 ## Propriétés
 
-[App Link](App_Link/fr.md) (classe `App::Link`) est dérivée de la classe de base [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`). Elle partage toutes les propriétés de cette dernière.
-
-Voir la liste complète des propriétés à la page [Std Créer un lien](Std_LinkMake/fr.md).
+Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md).
 
 
-{{Std Base navi
+{{Std_Base_navi
 
-}} {{Document objects navi}}
+}} {{Document_objects_navi}}
 
 
 

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Path Helix
-   Name/fr:Path Parcours hélicoïdal 
-   MenuLocation:Path → Parcours hélicoïdal
+   Name/fr:Path Hélice 
+   MenuLocation:Parcours → Hélice
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -10,7 +10,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Path_Helix.svg  style="width:24px;"> [Path Parcours hélicoïdal](Path_Helix/fr.md) insère une opération d\'interpolation hélicoïdale à la tâche. L\'interpolation hélicoïdale dans le sens des aiguilles d\'une montre produit des commandes G-Code (G2). A l\'inverse, des commandes G-Code (G3). Pourcentage de dépassement spécifie le dépassement concentrique en pourcentage du diamètre de l\'outil.
+La commande <img alt="" src=images/Path_Helix.svg  style="width:24px;"> [Hélice](Path_Helix/fr.md) insère une opération d\'interpolation hélicoïdale à la tâche. L\'interpolation hélicoïdale dans le sens des aiguilles d\'une montre produit des commandes G-Code (G2). A l\'inverse, des commandes G-Code (G3). Pourcentage de dépassement spécifie le dépassement concentrique en pourcentage du diamètre de l\'outil.
 
 ## Utilisation
 

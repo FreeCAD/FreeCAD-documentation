@@ -52,7 +52,7 @@ You can reference any numerical property of an object. For example, to reference
 To reference list objects, use `<<object_label>>.list[list_index]` or `object_name.list[list_index]`. If you want for example to reference a constraint in a sketch, use `<<MySketch>>.Constraints[16]`. If you are in the same sketch you may omit its name and just use `Constraints[16]`.
 **Note:** The index starts with 0, therefore constraint 17 has the index 16.
 
-For more information about referencing objects, see [Reference to CAD\_data](#Reference_to_CAD_data.md).
+For more information about referencing objects, see [Reference to CAD\_data](#Reference_to_CAD_data.md). {{Top}}
 
 ## Поддерживаемые константы 
 
@@ -62,6 +62,9 @@ The following constants are supported:
    
   **e**      [Euler\'s number](https://en.wikipedia.org/wiki/E_(mathematical_constant))
   **pi**     [Pi](https://en.wikipedia.org/wiki/Pi)
+
+
+{{Top}}
 
 ## Поддерживаемые операторы 
 
@@ -76,14 +79,18 @@ The following operators are supported:
   **%**      [Remainder](https://en.wikipedia.org/wiki/Remainder)
   **\^**     [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)
 
+
+{{Top}}
+
 ## Поддерживаемые функции 
 
 ### Основные математические функции 
 
-The mathematical functions listed below are available.
+The following mathematical functions are supported:
+
+#### Trigonometric functions 
 
 [Trigonometric functions](https://en.wikipedia.org/wiki/Trigonometric_functions) use degree as their default unit. For radian measure, add first value in an expression. So e.g. `cos(45)` is the same as `cos(pi rad / 4)`. Expressions in degrees can use either `deg` or `°`, e.g. `360deg - atan2(3; 4)` or `360&deg; - atan2(3; 4)`. If an expression is without units and needs to be converted to degrees or radians for compatibility, multiply by `1&nbsp;deg`, `1&nbsp;°` or `1&nbsp;rad` as appropriate, e.g. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
-These trigonometric functions are supported:
 
   Function      Description                                                                                                          Value range
     
@@ -100,7 +107,7 @@ These trigonometric functions are supported:
   hypot(x; y)   [Pythagorean addition](https://en.wikipedia.org/wiki/Pythagorean_addition) (**hypot**enuse). E.g. hypot(4; 3) = 5.   x and y \> 0
   cath(x; y)    Given hypotenuse, and one side, returns other side of triangle. E.g. cath(5; 3) = 4.                                 x and y \> 0, x \>= y
 
-These functions for exponentiation and logarithmization are supported:
+#### Exponential and logarithmic functions 
 
   Function    Description                                                                                    Value range
     
@@ -110,7 +117,7 @@ These functions for exponentiation and logarithmization are supported:
   pow(x; y)   [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)                                 all
   sqrt(x)     [Square root](https://en.wikipedia.org/wiki/Square_root)                                       x \>= 0
 
-These functions for rounding, truncation and remainder are supported:
+#### Rounding, truncation and remainder functions 
 
   Function    Description                                                                                                                        Value range
     
@@ -121,12 +128,15 @@ These functions for rounding, truncation and remainder are supported:
   round(x)    [Rounding](https://en.wikipedia.org/wiki/Rounding) to the nearest integer                                                          all
   trunc(x)    [Truncation](https://en.wikipedia.org/wiki/Truncation) to the nearest integer in the direction of zero                             all
 
+
+{{Top}}
+
 ### Statistical / aggregate functions 
 
 [Aggregate functions](https://en.wikipedia.org/wiki/Aggregate_function) take one or more arguments.
 Individual arguments to aggregate functions may consist of ranges of cells. A range of cells is expressed as two cell references separated by a colon {{Incode|:}}, for example {{Incode|average(B1:B8)}} or {{Incode|sum(A1:A4; B1:B4)}}. The cell references may also use cell aliases, for example {{Incode|average(StartTemp:EndTemp)}}.
 
-These aggregate functions are supported:
+The following aggregate functions are supported:
 
   Function                 Description                                                                                                                          Value range
     
@@ -136,6 +146,9 @@ These aggregate functions are supported:
   min(a; b; c; \...)       [Minimum](https://en.wikipedia.org/wiki/Maxima_and_minima) value of the arguments                                                    all
   stddev(a; b; c; \...)    [Standard deviation](https://en.wikipedia.org/wiki/standard_deviation) of the values of the arguments                                all
   sum(a; b; c; \...)       [Sum](https://en.wikipedia.org/wiki/Summation) of the values of the arguments; typically used for cell ranges                        all
+
+
+{{Top}}
 
 ### Операции со строками 
 
@@ -157,11 +170,11 @@ String formatting is supported using the (old) %-style Python way.
 
 All %-specifiers as defined in [Python documentation](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting).
 
-As an example, supposing you have a default 10mm-side cube named \'Box\' \--default FreeCAD naming\--, following expression `<<Cube length : %s>> % Box.Length` will expand to \"Cube length : 10.0 mm\"
+As an example, supposing you have a default 10mm-side cube named \'Box\' (default FreeCAD naming), the following expression `<<Cube length : %s>> % Box.Length` will expand to \"Cube length : 10.0 mm\"
 
-A limitation is that only one %-specifier is allowed in string, thus you have to use string concatenation if more than one is needed. With same above situation, expression `<<Cube length is %s>> % Box.Length + << and width is %s>> % Box.Width` will expand to \"Cube length is 10.0 mm and width is 10.0 mm\".
+For more than one %-specifier use the following syntax: `<<Cube length is %s and width is %s>> % tuple(Box.Length; Box.Width)`. Or use concatenation: `<<Cube length is %s>> % Box.Length + << and width is %s>> % Box.Width`. Both will expand to \"Cube length is 10.0 mm and width is 10.0 mm\".
 
-A FreeCAD sample file using string formatting is available [in the forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657)
+A FreeCAD sample file using string formatting is available [in the forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657) {{Top}}
 
 ### Create function 
 
@@ -247,7 +260,7 @@ The following example shows the syntax for creating a `Placement` from a `Base` 
 
 `create(<<placement>>; create(<<vector>>; 2; 1; 2); create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45))`
 
-For readability, you can define vectors and rotations in separate cells, and then reference the cells in your expression.
+For readability, you can define vectors and rotations in separate cells, and then reference the cells in your expression. {{Top}}
 
 ### Matrix functions 
 
@@ -274,6 +287,9 @@ Invert the given `Matrix`, `Rotation`, or `Placement`.
 
 `minvert(Placement)`
 
+
+{{Top}}
+
 ### Tuple & list 
 
 You can create Python `tuple` or `list` objects via their respective functions.
@@ -283,6 +299,9 @@ You can create Python `tuple` or `list` objects via their respective functions.
 
 
 `list(2; 1; 2)`
+
+
+{{Top}}
 
 ## Условные выражения 
 
@@ -299,6 +318,9 @@ The following [relational operators](https://en.wikipedia.org/wiki/Relational_op
   **\>=**   greater than or equal to
   **\<=**   less than or equal to
 
+
+{{Top}}
+
 ## Единицы измерений 
 
 Units can be used directly in expressions. The parser connects them to the previous value. So `2mm` or `2 mm` is valid while `mm` is invalid because there is no preceding value.
@@ -312,11 +334,13 @@ If you have a variable whose name is that of a unit you must put the variable be
 
 The following units are recognized by the expression parser:
 
-Amount of substance:
+### Amount of substance 
 
   Unit   Description
    
   mol    [Mole](https://en.wikipedia.org/wiki/Mole_(unit))
+
+### Angle
 
 
 <div class="mw-translate-fuzzy">
@@ -337,7 +361,7 @@ Amount of substance:
 
 </div>
 
-Current:
+### Current
 
   Unit   Description
    
@@ -346,7 +370,7 @@ Current:
   kA     Kilo[ampere](https://en.wikipedia.org/wiki/Ampere)
   MA     Mega[ampere](https://en.wikipedia.org/wiki/Ampere)
 
-Energy/work:
+### Energy/work
 
   Unit   Description
    
@@ -354,6 +378,8 @@ Energy/work:
   Ws     [Watt second](https://en.wikipedia.org/wiki/Joule#Watt_second); alternative to the unit Joule
   VAs    [Volt-ampere-second](https://en.wikipedia.org/wiki/Joule); alternative to the unit Joule
   CV     [Coulomb-volt](https://en.wikipedia.org/wiki/Joule); alternative to the unit Joule
+
+### Force
 
 
 <div class="mw-translate-fuzzy">
@@ -371,7 +397,7 @@ Energy/work:
 
 </div>
 
-Length:
+### Length
 
   Unit   Description
    
@@ -392,13 +418,13 @@ Length:
   yd     [Yard](https://en.wikipedia.org/wiki/Yard)
   mi     [Mile](https://en.wikipedia.org/wiki/Mile)
 
-Luminous intensity:
+### Luminous intensity 
 
   Unit   Description
    
   cd     [Candela](https://en.wikipedia.org/wiki/Candela)
 
-Mass:
+### Mass
 
   Unit   Description
    
@@ -414,14 +440,14 @@ Mass:
   st     [Stone](https://en.wikipedia.org/wiki/Stone_(weight))
   cwt    [Hundredweight](https://en.wikipedia.org/wiki/Hundredweight)
 
-Power:
+### Power
 
   Unit   Description
    
   W      [Watt](https://en.wikipedia.org/wiki/Watt)
   VA     [Volt-ampere](https://en.wikipedia.org/wiki/Volt-ampere)
 
-Pressure:
+### Pressure
 
   Unit    Description
    
@@ -436,7 +462,7 @@ Pressure:
   psi     [Pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch); 1 psi = 6.895 kPa
   ksi     Kilo[pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch)
 
-Temperature:
+### Temperature
 
   Unit   Description
    
@@ -445,7 +471,7 @@ Temperature:
   mK     Milli[kelvin](https://en.wikipedia.org/wiki/Kelvin)
   K      [Kelvin](https://en.wikipedia.org/wiki/Kelvin)
 
-Time:
+### Time
 
   Unit   Description
    
@@ -453,13 +479,15 @@ Time:
   min    [Minute](https://en.wikipedia.org/wiki/Minute)
   h      [Hour](https://en.wikipedia.org/wiki/Hour)
 
-Volume:
+### Volume
 
   Unit   Description
    
   l      [Liter](https://en.wikipedia.org/wiki/Litre)
 
-The following commonly used units are not yet supported:
+### Unsupported units 
+
+The following commonly used units are not yet supported, for some an alternative is provided:
 
   Unit   Description                                                                                              Alternative
     
@@ -471,6 +499,9 @@ The following commonly used units are not yet supported:
   lm     [Lumen](https://en.wikipedia.org/wiki/Lumen_(unit))                                                      not directly
   lx     [Lux](https://en.wikipedia.org/wiki/Lux)                                                                 not directly
   px     [Pixel](https://en.wikipedia.org/wiki/Pixel)                                                             not directly
+
+
+{{Top}}
 
 ## Invalid characters and names 
 
@@ -512,7 +543,7 @@ Since shorter names (especially if they have only one or two characters) can eas
 
 ### Cell aliases 
 
-For [spreadsheet cell aliases](Spreadsheet_SetAlias.md) only alphanumeric characters and underscores (`A` to `Z`, `a` to `z`, `0` to `9` and `_`) are allowed.
+For [spreadsheet cell aliases](Spreadsheet_SetAlias.md) only alphanumeric characters and underscores (`A` to `Z`, `a` to `z`, `0` to `9` and `_`) are allowed. {{Top}}
 
 ## Reference to CAD data 
 
@@ -560,9 +591,12 @@ The following table shows some examples:
 |                                            |                                    |                                                                                                                                                                              |
 ++++
 
+
+{{Top}}
+
 ## Document-wide global variables 
 
-There is no concept of global variables in FreeCAD at the moment. Instead, arbitrary variables can be defined as cells in a spreadsheet using the [Spreadsheet workbench](Spreadsheet_Workbench.md), and then be given a name using the alias property for the cell (right-click on cell). Then they can be accessed from any expression just as any other object property.
+There is no concept of global variables in FreeCAD at the moment. Instead, arbitrary variables can be defined as cells in a spreadsheet using the [Spreadsheet workbench](Spreadsheet_Workbench.md), and then be given a name using the alias property for the cell (right-click on cell). Then they can be accessed from any expression just as any other object property. {{Top}}
 
 ## Cross-document linking 
 
@@ -578,7 +612,7 @@ Once the master document with the spreadsheet is created and saved (named), it i
 
 Unfortunately, the integrated checker sometimes claims that a valid name doesn\'t exist. Continue typing anyway. When you have completed the full reference, the **OK** button will become active.
 
-Of course, it\'s up to you to load the corresponding documents later when you want to change anything.
+Of course, it\'s up to you to load the corresponding documents later when you want to change anything. {{Top}}
 
 ## Known issues / remaining tasks 
 
@@ -587,6 +621,9 @@ Of course, it\'s up to you to load the corresponding documents later when you wa
 -   As stated above, unfortunately, the integrated checker sometimes claims that a valid name doesn\'t exist. Continue typing anyway. When you have completed the full reference, the **OK** button will become active.
 -   FreeCAD does not yet have a built-in expression manager where all expressions in a document are listed, and can be created, deleted, queried, etc. But an addon is available: [fcxref expression manager](https://github.com/gbroques/fcxref).
 -   Open bugs/tickets for Expressions can be found in the [FreeCAD Bugtracker Expressions category](https://freecadweb.org/tracker/set_project.php?project_id=4;20)
+
+
+{{Top}}
 
 
 

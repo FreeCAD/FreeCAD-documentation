@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Comment
    Name/fr:Path Commentaire
-   MenuLocation:Path → Supplemental commands → Commentaire
+   MenuLocation:Parcours → Commandes additionnelles → Commentaire
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -14,12 +14,12 @@ Cet outil insère un commentaire. Lors de l\'export d\'un projet en G-Code, le c
 
 ## Utilisation
 
-1.  Pressez le bouton **<img src="images/Path_Comment.svg" width=16px> [Insérer un commentaire](Path_Comment/fr.md)** ou utilisez le raccourci clavier **P** puis **C**.
+1.  Pressez le bouton **<img src="images/Path_Comment.svg" width=16px> [Commentaire](Path_Comment/fr.md)** ou utilisez le raccourci clavier **P** puis **C**.
 2.  Écrivez votre commentaire dans la zone **Comment**
 
 ## Propriétés
 
--    {{PropertyData/fr|Comment}}: Le texte de votre commentaire
+-    **Comment**: Le texte de votre commentaire
 
 ## Script
 

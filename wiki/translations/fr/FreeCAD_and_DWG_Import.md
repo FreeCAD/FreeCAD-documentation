@@ -13,7 +13,7 @@ Le **format DWG est un format de fichier binaire fermé** (propriétaire) qui n\
 ### LibreDWG
 
 -   page d\'accueil: <https://www.gnu.org/software/libredwg/>
--   licence: GPLv2 ou version ultérieure
+-   licence: [GPLv3-or-later](https://savannah.gnu.org/projects/libredwg/)
 -   facultatif, utilisé pour activer l\'importation et l\'exportation de fichiers DWG
 
 GNU LibreDWG est une bibliothèque libre en C pour manipuler les fichiers DWG. Elle vise à remplacer librement les bibliothèques Drawings SDK de l\'Open Design Alliance. Soyez conscient que, puisque libreDWG est un travail en cours, il manque le support de certaines entités DWG.

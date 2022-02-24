@@ -66,7 +66,7 @@ Assurez-vous que le corps contenant l\'objet à emboutir est le corps actif. Si 
 
 ### Multiplication et motif 
 
-Pour multiplier et modeler la fonction emboutie, une **esquisse** contenant des cercles et des arcs peut être ajoutée à la propriété {{PropertyData/fr|Sketch}} de l\'objet **WallForming**.
+Pour multiplier et modeler la fonction emboutie, une **esquisse** contenant des cercles et des arcs peut être ajoutée à la propriété **Sketch** de l\'objet **WallForming**. Cette esquisse doit être **coplanaire** avec la face à emboutir.
 
 Les points centraux des cercles ou des arcs sont utilisés pour fournir des positions où placer les instances de la caractéristique en relief. Ils n\'influencent pas l\'orientation des instances.
 

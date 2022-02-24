@@ -39,7 +39,7 @@ Constrângerea greutății proprii este definită de către accelerația gravita
 
 ```python
 import ObjectsFem
-ObjectsFem.makeConstraintSelfWeight( name )
+ObjectsFem.makeConstraintSelfWeight(name)
 ```
 
 
@@ -52,7 +52,7 @@ ObjectsFem.makeConstraintSelfWeight( name )
 
 
 ```python
-App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [ (object) ]
+App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [(object)]
 ```
 
 
@@ -66,10 +66,16 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [ (obj
 
 ```python
 import ObjectsFem
-selfweight_obj = ObjectsFem.makeConstraintSelfWeight( 'MySelfWeightObject' )
+selfweight_obj = ObjectsFem.makeConstraintSelfWeight("MySelfWeightObject")
 App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfweight_obj]
-
 ```
+
+## Solver CalculiX 
+
+### Limitations
+
+
+<div class="mw-translate-fuzzy">
 
 ## Solver CalculiX 
 
@@ -78,9 +84,20 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 -   Trebuie să modificați fișierul .inp pentru a edita accelerația gravitațională.
 -   Gerutatea proprie este aplicată elemetului set Eall înseamnă întreg modelul .
 
+
+</div>
+
+### Editing CalculiX input file 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Editing CalculiX input file 
 
 Accelerarea constantă poate fi modificată prin modificarea manuală după generarea fișierului de intrare CalculiX.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -94,9 +111,25 @@ Eall,GRAV,9810,0.0,0.0,-1.0
 
 </div>
 
+
+```python
+*DLOAD
+Eall,GRAV,9810,0.0,0.0,-1.0
+```
+
+where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direction vector.
+
+## Solver Z88 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Rezolvitorul Z88 
 
 -   nu este implementat în rezolvitorul Z88 (March 2017)
+
+
+</div>
 
 
 

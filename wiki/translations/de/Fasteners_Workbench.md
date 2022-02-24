@@ -5,39 +5,42 @@
 
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Der <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Arbeitsbereich Verbindungselemente](Fasteners_Workbench/de.md) ist ein [Externer Arbeitsbereich](External_workbenches/de.md), der verschiedene Verbindungselemente zu Teilen hinzufügen/anhängen kann.
-
-
-</div>
-
-![](images/Fasteners_toolbars.png )
-
-
-<div class="mw-translate-fuzzy">
+Der <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Arbeitsbereich Verbindungselemente](Fasteners_Workbench/de.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md), der Bauteilen bzw. Baugruppen unterschiedliche Verbindungselemente hinzufügen kann.
 
 ![](images/Fasteners_toolbars.png ) 
-*Die Werkzeugleisten des Arbeitsbereichs Verbindungselemente*
-
-
-</div>
+*Das Standardlayout des Arbeitsbereichs mit zwei Werkzeugleisten.<br> Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole.<br> Verbindungselemente mit Zollmaßen haben türkisfarbene Symbole.*
 
 ## Einrichtung
 
+1.  Arbeitsbereich Verbindungselemente über den [Addon-Manager](Std_AddonMgr/de.md) installieren. Zur manuellen Installation siehe: [Weitere Arbeitsbereiche installieren](Installing_more_workbenches/de.md).
+2.  FreeCAD neu starten.
+3.  Ein neues Dokument erstellen.
+4.  Den Arbeitsbereich <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners](Fasteners_Workbench/de.md) (Verbindungselemente) aus der Auswahlliste [Arbeitsbereich](Std_Workbench/de.md) auswählen.
+5.  Die voreingestellte Anordnung mit zwei Werkzeugleisten wird angezeigt.
+6.  Die Werkzeugleiste **FS Screws** in dieser Anordnung enthält viele Verbindungselemente. Um sie zu erweitern und alle vorhandenen Knöpfe zu sehen, benutzt man die Schaltfläche **&gt;&gt;**.
+7.  Bei Bedarf kann die Werkzeugleiste und die Menüanordnung geändert werden:
+    1.  
+        **Edit → Einstellungen... → Fasteners → General settings → Toolbar screw icons grouping**
+        
+        .
 
-<div class="mw-translate-fuzzy">
+    2.  Eine der vorhandenen Möglichkeiten auswählen:
+        -   
+            **Keine**
+            
+            : Alle Verbindungselemente befinden sich in einer einzigen Werkzeugleiste. Dies ist die voreingestellte Anordnung.
 
-Die Verwendung ist ziemlich unkompliziert:
+        -   
+            **Separate toolbars**
+            
+            : Die Verbindungselemente werden in mehreren Werkzeugleisten gruppiert.
 
-1.  Installiere den Arbeitsbereich Verbindungselemente über den [Erweiterungsverwalter](Std_AddonMgr/de.md).
-2.  Starte ein neues Dokument in FreeCAD.
-3.  Wähle den <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Arbeitsbereich Verbindungselemente](Fasteners_Workbench/de.md) aus der [Arbeitsbereich Aufklappliste](Std_Workbench/de.md) aus.
-4.  Die zum Arbeitsbereich gehörenden [Werkzeugleisten](#Toolbars/de.md) werden angezeigt.
+        -   
+            **Dropdown buttons**
+            
+            : Die Verbindungselemente werden in einer Werkzeugleiste mit Ausklappmenüs gruppiert.
 
-
-</div>
+    3.  FreeCAD neu starten.
 
 ## Anwendung
 
@@ -66,26 +69,14 @@ Fasteners can be attached or unattached. Attached fasteners have a **base Object
 7.  Fasteners that appear upside-down can be inverted with the <img alt="" src=images/Fasteners_Flip.svg  style="width:16px;"> [Fasteners Flip](Fasteners_Flip.md) command or by changing their **invert** property.
 8.  Optionally change the **offset** property to create space between the fasteners and the edges they are attached to.
 
-## Notes
+## Hinweise
 
 -   To generate threads, the **thread** property of a fastener must be changed to `True`. Generating threads is costly. Recomputes take much longer if there are many fasteners with threads in a document.
 -   The **invert** property and the **offset** property are ignored for unattached fasteners.
 
+## Befehle
 
-<div class="mw-translate-fuzzy">
-
-### Befehle
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_Flip.svg  style="width:32px;"> [Verbindungselement Umklappen](Fasteners_Flip/de.md): Ausrichtung Verbindungselement umkehren.
-
-
-</div>
+-   <img alt="" src=images/Fasteners_Flip.svg  style="width:32px;"> [Verbindungselement Umdrehen](Fasteners_Flip/de.md): Ausrichtung der ausgewählten Verbindungselemente umkehren.
 
 
 <div class="mw-translate-fuzzy">
@@ -151,21 +142,9 @@ Fasteners can be attached or unattached. Attached fasteners have a **base Object
 
 </div>
 
+## Verbindungselemente
 
-<div class="mw-translate-fuzzy">
-
-### Verbindungselemente
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-**Hinweis:** Verbindungselemente mit metrischen Abmessungen haben hellorangefarbene Symbole. Befestigungselemente mit zölligen Abmessungen haben grüne Symbole.
-
-
-</div>
+Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigungselemente mit Zollmaßen haben türkisfarbene Symbole.
 
 
 <div class="mw-translate-fuzzy">
@@ -217,7 +196,7 @@ Fasteners can be attached or unattached. Attached fasteners have a **base Object
 
 -   <img alt="" src=images/Fasteners_IUTHeatInsert.svg  style="width:32px;"> Heat staked insert.
 
-### Hexagon head screws and bolts 
+### Sechskantschrauben und -Bolzen 
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Sechskantschrauben. *Produktklassen A und B.*
@@ -251,7 +230,7 @@ Fasteners can be attached or unattached. Attached fasteners have a **base Object
 
 </div>
 
-### Hexagon socket screws 
+### Schrauben mit Innensechskant 
 
 -   <img alt="" src=images/Fasteners_ISO4762.svg  style="width:32px;"> **ISO 4762** Zylinderschrauben mit Innensechskant.
 
@@ -299,7 +278,7 @@ Fasteners can be attached or unattached. Attached fasteners have a **base Object
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width:32px;"> **ASME B18.3.5D** UNC Hexagon socket set screw with cup point.
 
-### Slotted head screws 
+### Schlitzschrauben
 
 -   <img alt="" src=images/Fasteners_ISO2009.svg  style="width:32px;"> 
 **ISO 2009** Senkschrauben mit Schlitz. *Produktklasse A.*
@@ -354,7 +333,7 @@ Fasteners can be attached or unattached. Attached fasteners have a **base Object
 
 -   <img alt="" src=images/Fasteners_ISO7048.svg  style="width:32px;"> **ISO 7048** Zylinderschrauben mit Kreuzschlitz.
 
-### Hexalobular socket head screws 
+### Schrauben mit Innensechsrund 
 
 -   <img alt="" src=images/Fasteners_ISO14579.svg  style="width:32px;"> **ISO 14579** Zylinderschr. mit Innensechsrund.
 
@@ -391,7 +370,7 @@ Fasteners can be attached or unattached. Attached fasteners have a **base Object
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN Scheibe, breite Reihe.
 
-### Nuts
+### Muttern
 
 -   <img alt="" src=images/Fasteners_ISO4032.svg  style="width:32px;"> 
 **ISO 4032** Sechskantmuttern (Typ 1). *Produktklassen A und B.*

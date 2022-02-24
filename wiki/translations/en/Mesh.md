@@ -1,4 +1,6 @@
 # Mesh/en
+{{TOCright}}
+
 ## Introduction
 
 In FreeCAD the word \"[Mesh](Mesh.md)\" is normally used to refer to a [Mesh MeshObject](Mesh_MeshObject.md) (`Mesh::MeshObject` class), a type of object that defines 3D data but is not a solid \"[Shape](Shape.md)\".
@@ -21,7 +23,7 @@ Meshes are normally created by internal functions of the [Mesh Workbench](Mesh_W
 
 Essentially, every object derived from a [Mesh Feature](Mesh_Feature.md) (`Mesh::Feature` class) is expected to hold and manipulate a Mesh.
 
-Since FreeCAD is designed to be a solid modeller primarily, it is better suited to deal with solid [Shapes](Shape.md). It can import and display Meshes in the [3D view](3D_view.md), but to transform them or create new geometry, the Mesh first needs to be converted to a [Shape](Shape.md) (see [Part ShapeFromMesh](Part_ShapeFromMesh.md)). In many cases, this conversion is not automatic, and requires re-creating the geometry using solid modelling techniques, making use of [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) tools.
+Since FreeCAD is primarily designed to be a solid modeller, it is better suited to deal with solid [Shapes](Shape.md). It can import and display Meshes in the [3D view](3D_view.md), and the [Mesh Workbench](Mesh_Workbench.md) offers some commands to directly manipulate them. But in many cases the Mesh first needs to be converted to a [Shape](Shape.md) (see [Part ShapeFromMesh](Part_ShapeFromMesh.md)), or the geometry needs to be recreated using solid modelling techniques from the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md).
 
 ## Finite element meshes 
 

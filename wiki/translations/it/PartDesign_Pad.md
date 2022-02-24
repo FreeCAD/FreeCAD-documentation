@@ -39,6 +39,8 @@ Lo strumento **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Estr
 
 </div>
 
+When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
+
 ## Opzioni
 
 

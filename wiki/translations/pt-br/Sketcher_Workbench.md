@@ -464,6 +464,8 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Diminui a multiplicidade do nó](Sketcher_BSplineDecreaseKnotMultiplicity/pt-br.md)
 
+-   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md), <small>(v0.20)</small> 
+
 ### Espaço Virtual do Sketcher 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Trocar espaço virtual](Sketcher_SwitchVirtualSpace/pt-br.md): Permite esconder todas as restrições de um esboço e fazê-las visíveis novamente.

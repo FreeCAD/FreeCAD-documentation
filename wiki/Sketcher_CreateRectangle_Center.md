@@ -20,7 +20,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red re
 ## Usage
 
 -   After pressing the <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> **Create centered rectangle** toolbar button, click once to set the center point, then move the mouse and click a second time to set a corner point.
--   Pressing **Esc** or clicking the right mouse button cancels the function.
+-   Press **Esc** or click the right mouse button to cancel the function.
 
 
 

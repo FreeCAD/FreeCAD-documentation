@@ -15,11 +15,17 @@ Diese Seite zeigt dir, wie du einen neuen Arbeitsbereich zur FreeCAD Oberfläche
 
 Du benötigst einen Ordner mit irgendeinem Namen den du magst, platziert im Benutzer Mod Verzeichnis, mit einer `Init.py` Datei und wahlweise, einer `InitGui.py` Datei. Die Init Datei wird immer ausgeführt wenn FreeCAD startet, und die `InitGui.py` Datei wird unmittelbar danach ausgeführt wird, aber nur, wenn FreeCAD im GUI Modus startet. Das ist alles, was FreeCAD braucht, um deinen Arbeitsbereich beim Start zu finden und ihn in seine Oberfläche aufzunehmen.
 
+
+<div class="mw-translate-fuzzy">
+
 Das Benutzer Mod Verzeichnis ist ein Unterverzeichnis des Benutzer Anwendungsdaten Verzeichnisses (du kannst letzteres finden durch eintippen von `App.getUserAppDataDir()` in der [Python Konsole](Python_console/de.md)):
 
 -   Unter Linux ist es üblicherweise {{FileName|/home/<username>/.FreeCAD/Mod/}}.
 -   Unter Windows ist es {{FileName|%APPDATA%\FreeCAD\Macro\}}, üblicherweise {{FileName|C:\Users\<username>\Appdata\Roaming\FreeCAD\Mod\}}.
 -   Unter macOS ist es üblicherweise {{FileName|/Users/<username>/Library/Preferences/FreeCAD/Mod/}}.
+
+
+</div>
 
 Das Mod Verzeichnis sollte so aussehen:
 
@@ -386,9 +392,15 @@ os.remove(qrc_filename)
 
 ## Verwandtes
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Übersetzen eines externen Arbeitsbereichs](Translating_an_external_workbench/de.md)
 -   [Namespaced Workbenches - discussion](https://forum.freecadweb.org/viewtopic.php?t=47460)
 -   [freecad.workbench\_starterkit](https://github.com/FreeCAD/freecad.workbench_starterkit)
+
+
+</div>
 
 
 

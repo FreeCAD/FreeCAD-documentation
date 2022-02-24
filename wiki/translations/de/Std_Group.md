@@ -11,7 +11,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 [Standard Gruppe](Std_Group.md), intern [Anwendung DokumentObjektGruppe](App_DocumentObjectGroup/de.md) genannt, ist ein allgemein verwendeter Behälter für die Gruppierung unterschiedlicher Objekttypen in der [Baumansicht](tree_view.md), unabhängig von ihrem Datentyp. Er wird als einfacher Ordner zur Kategoriesierung und Organisation der Objekte im Modell verwendet, um eine logische Struktur zu erhalten. Std Gruppen kann in anderen Std Gruppen eingebettet werden.
+
+
+</div>
 
 Das Std Group Werkzeug ist nicht durch einen speziellen Arbeitbereich definiert, sondern durch das Basissystem. Daher befindet es sich in der **Strukturwerkzeugleiste**, die in allen [Arbeitsbereichen](Workbenches/de.md) zugänglich ist.
 
@@ -28,87 +34,93 @@ Um 3D-Objekte zu einer einzelnen Einheit zu gruppieren, um Baugruppen zu erzeuge
 
 <div class="mw-translate-fuzzy">
 
-1.  Auf den Namen des Dokumentes in der [Baumansicht](tree_view/de.md) klicken, das Kontextmenü mit einem Rechtsklick öffnen und **Erstelle Gruppe** wählen.
-2.  Oder die Schaltfläche **<img src="images/Std_Group.svg" width=16px> [Gruppe](Std_Group/de.md)** in der Strukturwerkzeugleiste betätigen. Es wird eine leere Gruppe erstellt.
+1.  Auf den Namen des Dokumentes in der [Baumansicht](tree_view/de.md) klicken, das Kontextmenü mit einem Rechtsklick öffnen und **Gruppe erstellen...** wählen.
+2.  Oder die Schaltfläche **<img src="images/Std_Group.svg" width=16px> [Gruppe erstellen](Std_Group/de.md)** in der Strukturwerkzeugleiste betätigen. Es wird eine leere Gruppe erstellt.
 3.  Um Objekte einer Gruppe hinzuzufügen, werden sie in der [Baumansicht](tree_view/de.md) gewählt und mit Drag & Drop auf die Gruppe gezogen.
 4.  Um Objekte aus einer Gruppe zu entfernen, werden sie aus der Gruppe auf die Dokumentbezeichnung oben in der [Baumansicht](tree_view/de.md) gezogen .
 
 
 </div>
 
-### Hinweise
-
--   Das Gruppenobjekt beeinflusst nicht die Positionen der enthaltenen Elemente in der [3D-Ansicht](3D_view/de.md). Im wesentlichen ist es nur ein Ordner zur Organisation der [Baumansicht](tree_view/de.md).
--   Die Gruppe kann auch aus der [Pythonkonsole](Python_console/de.md) als Unterklasse erstellt werden, um besondere \"Grupppen\" zu erzeugen, wie im Abschnitt [Skripten](Std_Group/de#Skripten.md) dargestellt.
-
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 Eine [Standard Gruppe](Std_Group/de.md) wird intern [Anwendung DokumentObjektGruppe](App_DocumentObjectGroup/de.md) (`App::DocumentObjectGroup` Klasse) genannt und stammt aus einer [Anwendung DokumentObjekt](App_DocumentObject/de.md) (`App::DocumentObject` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Zusätzlich zu den Eigenschaften, die in [App FeaturePython](App_FeaturePython.md), einer wesentlichen Instanz des [DokumentObjektes](App_DocumentObject/de.md), hat die App DocumentObjectGroup die {{PropertyData/de|Group}} Eigenschaft.
 
-Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Verfügung. Versteckte Eigenschaften werden durch den Befehl **Alle anzeigen** im Kontextmenü des [Eigenschaftseditors](property_editor/de.md) angezeigt.
+
+</div>
 
 ### Daten
 
 
 {{TitleProperty|Base}}
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/de|Bezeichnung|String}}: der Name dieses Objekts, vom Benutzer als beliebige UTF8-Zeichenkette veränderbar.
 
 -    **Gruppe|LinkList**: eine Liste referenzierter Objekte. Ein leerer Wert {{value|[]}} ist vorgegeben.
 
-#### Ausgeblendete Dateneigenschaften 
 
--    {{PropertyView/de|Proxy|PythonObject}}: eine benutzerdefinierte Klasse, die mit diesem Objekt verknüpft ist. Das gibt es nur für die [Python](Python/de.md) Version. Siehe [Skripten](Std_Group/de#Skripten.md).
-
-### Ansicht
-
-
-{{TitleProperty|Base}}
-
-Siehe [App FeaturePython](App_FeaturePython.md) zu grundlegenden Ansichtseigenschaften.
-
-#### Ansicht ausgeblendeter Eigenschaften 
-
--    **Proxy|PythonObject**: eine benutzerdefinierte Providerklasse, die mit diesem Objekt verknüpft ist. Das gibt es nur für die [Python](Python/de.md) Version. Siehe [Skripten](Std_Group/de#Skripten.md).
-
-## Vererbung
-
-[Standard Gruppe](Std_Group/de.md) ist formell eine Instanz der Klasse `App::DocumentObjectGroup`, deren Elternteil die Basisklasse [App DocumentObject](App_DocumentObject.md)(`App::DocumentObject`) ist und um eine Gruppen-Erweiterung erweitert wird.
-
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
-
-
-
-*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `App::DocumentObjectGroup* Klasse ist ein einfacher Behälter der der die Gruppenerweiterung nutzt, um alle Typen von Objekten aufzunehmen.`
+</div>
 
 ## Skripten
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Siehe auch:**
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](scripted_objects/de.md).
 
+
+</div>
+
 Siehe [Part Formelemente](Part_Feature/de.md) zu allgemeinen Informationen über das Hinzufügen von Objekten zum Dokument.
 
-Eine \'Std Group\' ([Anwendung DokumentObjektGruppe](App_DocumentObjectGroup/de.md))-wird mit der `addObject()`-Methode des Dokumentes erstellt. Sobald eine Gruppe existiert, können andere Objekte mit der `addObject()`- oder der `addObjects()`-Methode der Gruppe hinzugefügt werden. 
+
+<div class="mw-translate-fuzzy">
+
+Eine \'Std Group\' ([Anwendung DokumentObjektGruppe](App_DocumentObjectGroup/de.md))-wird mit der `addObject()`-Methode des Dokumentes erstellt. Sobald eine Gruppe existiert, können andere Objekte mit der `addObject()`- oder der `addObjects()`-Methode der Gruppe hinzugefügt werden.
+
+
+</div>
+
+
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::DocumentObjectGroup", "Group")
+group = App.ActiveDocument.addObject("App::DocumentObjectGroup", "Group")
 
-bod1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
-bod2 = App.ActiveDocument.addObject("Part::Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
 
-obj.addObjects([bod1, bod2])
+group.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
 Diese grundlegende `App::DocumentObjectGroup` hat kein Proxyobjekt, sodass es vollständig für Unterklassen verwendet werden kann.
 
+
+<div class="mw-translate-fuzzy">
+
 Deshalb sollte ein `App::DocumentObjectGroupPython`-Objekt für Unterklassen mit [Python](Python/de.md) erzeugt werden.
+
+
+</div>
 
 
 ```python
@@ -131,7 +143,7 @@ Zum Beispiel ist ein [FEM Analyse](FEM_Analysis/de.md) ein `App::DocumentObjectG
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

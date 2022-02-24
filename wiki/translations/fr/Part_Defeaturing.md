@@ -5,6 +5,7 @@
    MenuLocation:Pièce → Supprimer la fonctionnalité
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.18
+   SeeAlso:[Atelier Defeaturing](Defeaturing_Workbench/fr.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing/fr.md)
 ---
 
 # Part Defeaturing/fr
@@ -34,7 +35,6 @@ Pour être disponible, cet outil nécessite que FreeCAD soit basé sur Open Casc
 ## Liens
 
 -   Annonce officielle sur le portail de développement collaboratif Open Cascade [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211).
--   <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [Atelier Defeaturing](Defeaturing_Workbench/fr.md)
 
 
 

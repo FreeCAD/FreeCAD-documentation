@@ -22,11 +22,9 @@ Starsze uwagi na temat wydania FreeCAD można znaleźć na stronie [Lista funkcj
 
 ## Informacje ogólne 
 
-### Python 3 oraz Qt5 
+### Kompilacja
 
-### Znane problemy 
-
-### W rozwoju 
+Od tego wydania FreeCAD może być kompilowany tylko przy użyciu środowisk Qt 5 i Python 3.
 
 Aby przeprowadzić [kompilację w systemie Windows](Compile_on_Windows/pl.md), dostępne są różne Libpacki *(wstępnie spakowane biblioteki)*:
 
@@ -39,8 +37,6 @@ Obsługiwane systemy operacyjne:
 -   Linux Ubuntu Bionic Beaver (18.04) i Focal Fossa (20.04)
 -   MacOS wersja minimalna 10.12 Sierra
 -   Windows 7, 8 i 10
-
-Inne wiadomości dotyczące rozwoju:
 
 ### Dokumentacja
 
@@ -82,8 +78,11 @@ Inne wiadomości dotyczące rozwoju:
 -   Naprawiono błąd, który powodował, że korzystanie z urządzeń wyposażonych w pióro (np. z tabletu Wacom) było powolne do tego stopnia, że było całkowicie nieużyteczne. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=45046), [pull request \#4687](https://github.com/FreeCAD/FreeCAD/pull/4687).
 -   Układ współrzędnych w oknie [widoku 3D](3D_view/pl.md) może zostać zmieniony w preferencjach w sekcji [Wyświetlanie → Widok 3D](Preferences_Editor/pl#Widok_3D.md). [Pull request \#5182](https://github.com/FreeCAD/FreeCAD/pull/5182)
 -   Nowe ustawienie w [Preferencje → Ogólne](Preferences_Editor/pl#Og.C3.B3lne.md) pozwala na zastąpienie separatora dziesiętnego klawiatury numerycznej odpowiednim lokalnym separatorem, jeśli są one różne. [Pull request \#3256](https://github.com/FreeCAD/FreeCAD/pull/3256) [Pull request \#5150](https://github.com/FreeCAD/FreeCAD/pull/5150) [Pull request 5203](https://github.com/FreeCAD/FreeCAD/pull/5203).
+-   Możliwe jest teraz ustawienie klawisza **Backspace** jako samodzielnego klawisza skrótu bez potrzeby określania dodatkowego klawisza modyfikatora. [Pull request \#5428](https://github.com/FreeCAD/FreeCAD/pull/5428)
 
-## System podstawowy, App, baza i przestrzenie nazw GUI 
+## System podstawowy i API 
+
+### Rdzeń
 
 +++
 | <img alt="" src=images/Object_selection_relnotes_0.20.png  style="width:384px;"> |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -93,6 +92,83 @@ Inne wiadomości dotyczące rozwoju:
 +++
 
 -   Dodano nowy typ dodatku o nazwie [Zestaw preferencji](Preference_Packs/pl.md), pozwalający na dystrybucję i zastosowanie podzbioru pliku preferencji użytkownika *(user.cfg)*. [Dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=62477), [Pull request \#4787](https://github.com/FreeCAD/FreeCAD/pull/4787).
+
+### API
+
+
+<div class="mw-collapsible mw-collapsed toccolours">
+
+#### Nowe skrypty Python 
+
+
+<div class="mw-collapsible-content">
+
+-   *Circle2dPy::getCircleCenter*: Uzyskuje środek okręgu zdefiniowany przez trzy punkty. [commit 3dc91fa2](https://github.com/FreeCAD/FreeCAD/commit/3dc91fa2)
+
+-   *ComplexGeoDataPy::applyRotation*: Stosuje dodatkową rotację do umiejscowienia. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
+-   *ComplexGeoDataPy::applyTranslation*: Stosuje dodatkowe przesunięcie do umiejscowienia.. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
+-   *ComplexGeoDataPy::countSubElements*: Zwraca liczbę elementów danego typu. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
+-   *ComplexGeoDataPy::getElementTypes*: Zwraca listę typów elementów. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
+-   *ComplexGeoDataPy::getFaces*: Zwraca tuple punktów i trójkątów o zadanej dokładności. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
+-   *ComplexGeoDataPy::getLines*: Zwraca tuple punktów i linii z podaną dokładnością. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
+-   *ComplexGeoDataPy::getLinesFromSubelement*: Zwraca wierzchołki i linie elementu podrzędnego. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
+-   *ComplexGeoDataPy::getPoints*: Zwraca tuple punktów i normalnych z zadaną dokładnością. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
+-   *ComplexGeoDataPy::transformGeometry*: Stosuje transformację do geometrii bazowej. [commit 32592de8](https://github.com/FreeCAD/FreeCAD/commit/32592de8)
+
+-   *ControlPy::showModelView*: Pokazuje widok modelu. [commit 033bf619](https://github.com/FreeCAD/FreeCAD/commit/033bf619)
+
+-   *DocumentPy::clearDocument*: Czyści cały dokument. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::getFileName*: Dla zwykłego dokumentu zwraca jego właściwość nazwy pliku. Dla dokumentu tymczasowego zwraca jego katalog przejściowy. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::getProgramVersion*: Uzyskuje wersję programu, z jaką został utworzony plik projektu. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::isClosable*: Sprawdza, czy dokument może zostać zamknięty\... [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::isSaved*: Sprawdza, czy dokument jest zapisany. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::isTouched*: Sprawdza, czy jakiś obiekt jest poddany edycji [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::mustExecute*: Sprawdza, czy jakiś obiekt musi zostać ponownie obliczony. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::purgeTouched*: Czyści stan wykonanej edycji wszystkich obiektów. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+-   *DocumentPy::setClosable*: Ustawia flagę zezwalającą lub zabraniającą na zamknięcie dokumentu. [commit 526dc1a0](https://github.com/FreeCAD/FreeCAD/commit/526dc1a0)
+
+-   *DrawPagePy::requestPaint*: Maluje stronę Rysunku Technicznego. [commit 79f9fb68](https://github.com/FreeCAD/FreeCAD/commit/79f9fb68)
+
+-   *HLRBRep\_AlgoPy*: Aby uzyskać dostęp do usuwania ukrytych linii (HLR) Części. [commit 73a98671](https://github.com/FreeCAD/FreeCAD/commit/73a98671)
+-   *HLRBRep\_PolyAlgoPy*: Aby uzyskać dostęp do funkcji usuwania ukrytych linii (HLR). [commit ea85cf5e](https://github.com/FreeCAD/FreeCAD/commit/ea85cf5e)
+-   *HLRToShapePy*: Aby uzyskać dostęp do usuwania ukrytych linii części (HLR). [commit 73a98671](https://github.com/FreeCAD/FreeCAD/commit/73a98671)
+-   *PolyHLRToShapePy*: Aby uzyskać dostęp do usuwania poli-ukrytych linii części (HLR). [commit ea85cf5e](https://github.com/FreeCAD/FreeCAD/commit/ea85cf5e)
+
+-   *MDIViewPy::printPdf*: Drukuje plik PDF. [commit c93031da](https://github.com/FreeCAD/FreeCAD/commit/c93031da)
+-   *MDIViewPy::printPreview*: Drukuje podgląd. [commit c93031da](https://github.com/FreeCAD/FreeCAD/commit/c93031da)
+-   *MDIViewPy::printView*: Drukuje widok. [commit c93031da](https://github.com/FreeCAD/FreeCAD/commit/c93031da)
+-   *MDIViewPy::redoActions*: Ponawia akcję. [commit c93031da](https://github.com/FreeCAD/FreeCAD/commit/c93031da)
+-   *MDIViewPy::undoActions*: Cofa akcję. [commit c93031da](https://github.com/FreeCAD/FreeCAD/commit/c93031da)
+
+-   *PrecisionPy*: Umożliwia dostęp do precyzji zdefiniowanej przez jądro OpenCascade. [commit 20b86e55](https://github.com/FreeCAD/FreeCAD/commit/20b86e55)
+
+-   *PropertyContainerPy::setDocumentationOfProperty*: Ustawia ciąg dokumentacji właściwości dynamicznej tej klasy. . [commit 8cf3cf33](https://github.com/FreeCAD/FreeCAD/commit/8cf3cf33)
+-   *PropertyContainerPy::setGroupOfProperty*: Ustaw nazwę grupy właściwości dynamicznej. [commit 8cf3cf33](https://github.com/FreeCAD/FreeCAD/commit/8cf3cf33)
+
+-   *RotationPy::fromEuler*: Ustawia kąty Eulera rotacji lub pobiera kąty Eulera w podanej sekwencji dla rotacji. [commit 951a0be9](https://github.com/FreeCAD/FreeCAD/commit/951a0be9)
+-   *RotationPy::toEulerAngles*: Otrzymuje kąty Eulera w podanej sekwencji dla tego obrotu. [commit c1454dfb](https://github.com/FreeCAD/FreeCAD/commit/c1454dfb)
+
+-   *SpreadsheetViewPy*: Aby uzyskać dostęp do arkuszy kalkulacyjnych. [commit 6e713628](https://github.com/FreeCAD/FreeCAD/commit/6e713628)
+
+-   *View3DInventorPy::getCornerCrossSize*: Zwraca bieżący rozmiar krzyża osi narożnika. [commit 9d15df29](https://github.com/FreeCAD/FreeCAD/commit/9d15df29)
+-   *View3DInventorPy::setPopupMenuEnabled*: Włącza menu podręczne. [commit 9def811a](https://github.com/FreeCAD/FreeCAD/commit/9def811a)
+-   *View3DInventorPy::isCornerCrossVisible*: Zwraca bieżącą widoczność poprzeczną osi narożnika. [commit 9d15df29](https://github.com/FreeCAD/FreeCAD/commit/9d15df29)
+-   *View3DInventorPy::isPopupMenuEnabled*: Zwraca, czy menu podręczne jest włączone. [commit 9def811a](https://github.com/FreeCAD/FreeCAD/commit/9def811a)
+-   *View3DInventorPy::projectPointToLine*: Rzutuje podany punkt 2D na linię. [commit b6527a70](https://github.com/FreeCAD/FreeCAD/commit/b6527a70)
+-   *View3DInventorPy::setCornerCrossSize*: Definiuje rozmiar krzyża osi narożnika.[commit 9d15df29](https://github.com/FreeCAD/FreeCAD/commit/9d15df29)
+-   *View3DInventorPy::setCornerCrossVisible*: Określa widoczność krzyża osi narożnika. [commit 9d15df29](https://github.com/FreeCAD/FreeCAD/commit/9d15df29)
+
+-   *ViewProviderSpreadsheetPy*: Do obsługi komórek arkusza kalkulacyjnego. [commit 16bbe123](https://github.com/FreeCAD/FreeCAD/commit/16bbe123) i [commit 093f15dc](https://github.com/FreeCAD/FreeCAD/commit/093f15dc)
+
+
+</div>
+
+#### Zmienione API 
+
+-   *MeshObject::trim(base, normal)* zmieniono na *MeshPy::trimByPlane(base, normal)*: Przycina siatkę za pomocą podanej płaszczyzny. [commit 837de28e](https://github.com/FreeCAD/FreeCAD/commit/837de28e)
+
+
+</div>
 
 ## Menadżer dodatków 
 
@@ -138,6 +214,7 @@ Dla calowych <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [w
 
 ### Dalsze ulepszenia MES 
 
+-   Dodano wsparcie dla analiz wyboczenia liniowego. [Pull request \#4379](https://github.com/FreeCAD/FreeCAD/pull/4379)
 -   Dodano nowy solver: **Solve → [<img src=images/FEM_SolverMystran.svg style="width:16px">. [Solver Mystran](FEM_SolverMystran/pl.md)**. Wiele commitów.
 -   Dodano nowe wiązanie: **Model → Geometrical Constraints → [<img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Constraint Spring](FEM_ConstraintSpring/pl.md)**. [PR \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982).
 -   Kolejność elementów w generatorze siatek [Gmsh](FEM_MeshGmshFromShape/pl.md) może być zmieniona poprzez okno dialogowe siatki [PR \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660).
@@ -176,7 +253,13 @@ Wyczyść - wyczyść tekst
 
 Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 
+![](images/OpenSCAD_AddElement_relnotes_0.20.png )
+
 ## Środowisko pracy Część 
+
+   
+  <img alt="" src=images/Part_Extrusion-inner-structures_relnotes_0.20.png  style="width:384px;">Stożkowe wyciągniecie szkicu z wewnętrzną strukturą.   Stożkowe [wyciągnięcie](Part_Extrude/pl.md) wewnętrznych struktur daje teraz użyteczne rezultaty. Poprzednio wewnętrzne struktury były wyciągane tak, jakby były samodzielne, a nie były częścią struktury. [Pull request \#5367](https://github.com/FreeCAD/FreeCAD/pull/5367)
+   
 
 ### Planowane ulepszenia środowiska Część 
 
@@ -185,14 +268,15 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 ## Środowisko pracy Projekt Części 
 
    
-  <img alt="" src=images/PD_Pocket-direction_relnotes_0.20.gif  style="width:384px;"> Wykonywanie kieszeni wzdłuż różnych kierunków. Kliknij na obrazek, aby wyświetlić animację.                                            Teraz można określić kierunek wycięcia kieszeni. [Pull request \#5164](https://github.com/FreeCAD/FreeCAD/pull/5164)
   <img alt="" src=images/PD_Pad-Length-along-reference_relnotes_0.20.gif  style="width:384px;">Wyciągnięcie wzdłuż krawędzi modelu.Kliknij na obrazek, aby wyświetlić animację.                                    Istnieje nowa opcja wyciągania wzdłuż kierunku krawędzi w modelu 3D. [pull request \#4685](https://github.com/FreeCAD/FreeCAD/pull/4685)
-  <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width:384px;">Efekt działania nowej opcji *Długość wzdłuż wektora normalnego szkicu*.Kliknij na obrazek, aby wyświetlić animację.   Pojawiła się nowa opcja dopasowywania określonej długości wzdłuż kierunku. Długość jest mierzona wzdłuż wektora normalnego szkicu lub wzdłuż kierunku niestandardowego. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=50466), [pull request \#3893](https://github.com/FreeCAD/FreeCAD/pull/3893)
-  <img alt="" src=images/PartDesign_Cylinder_direction.png  style="width:384px;">                                                                                                                                                                                Okno dialogowe do edycji [walca](PartDesign_AdditiveCylinder/pl.md) *(addytywny i subtraktywny)* pozwala teraz na określenie kąta względem wektora normalnego wybranej płaszczyzny mocowania. W ten sposób można tworzyć skośne walce. [pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
   <img alt="" src=images/PartDesign_Chamfer_Face_Selection_relnotes_0.20.png  style="width:384px;">                                                                                                                                            Jeśli w narzędziu [Fazka](PartDesign_Chamfer/pl.md) określono odległość i kąt oraz wybrano powierzchnie, odległość zostanie zastosowana wzdłuż wybranych powierzchni. Analogicznie, jeśli podano dwie odległości, to wzdłuż wybranej powierzchni zostanie zastosowana wielkość 1. Zachowanie to można zamienić na inną powierzchnię za pomocą przycisku Przerzuć kierunek. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=19&t=62084), [pull request \#5039](https://github.com/FreeCAD/FreeCAD/pull/5039)
   <img alt="" src=images/PartDesign_Loft_Vertex_relnotes_0.20.png  style="width:384px;">                                                                                                                                                                  Możliwe jest teraz tworzenie [Wyciągnięcie przez profile](PartDesign_AdditiveLoft/pl.md), [Subtraktywne wyciągnięcie przez profile](PartDesign_SubtractiveLoft/pl.md), [Wyciągnięcie po ścieżce](PartDesign_AdditivePipe/pl.md) lub [Subtraktywne wyciągnięcie po ścieżce](PartDesign_SubtractivePipe/pl.md) w kierunku lub z [wierzchołka](Glossary/pl#V.md) szkicu lub bryły. Pozwala to na przykład na tworzenie piramid. [Pull request \#5170](https://github.com/FreeCAD/FreeCAD/pull/5170) 
 *(dla profili)*, [Pull request \#5193](https://github.com/FreeCAD/FreeCAD/pull/5193) *(dla ścieżki)*
+  <img alt="" src=images/PD_Pocket-direction_relnotes_0.20.gif  style="width:384px;"> Wykonywanie kieszeni wzdłuż różnych kierunków. Kliknij na obrazek, aby wyświetlić animację.                                            Teraz można określić kierunek wycięcia kieszeni. [Pull request \#5164](https://github.com/FreeCAD/FreeCAD/pull/5164)
+  <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width:384px;">Efekt działania nowej opcji *Długość wzdłuż wektora normalnego szkicu*.Kliknij na obrazek, aby wyświetlić animację.   Pojawiła się nowa opcja dopasowywania określonej długości wzdłuż kierunku. Długość jest mierzona wzdłuż wektora normalnego szkicu lub wzdłuż kierunku niestandardowego. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=50466), [pull request \#3893](https://github.com/FreeCAD/FreeCAD/pull/3893)
+  <img alt="" src=images/PartDesign_Cylinder_direction.png  style="width:384px;">                                                                                                                                                                                Okno dialogowe do edycji [walca](PartDesign_AdditiveCylinder/pl.md) *(addytywny i subtraktywny)* pozwala teraz na określenie kąta względem wektora normalnego wybranej płaszczyzny mocowania. W ten sposób można tworzyć skośne walce. [pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
   <img alt="" src=images/PartDesign_Helix_Growth_relnotes_0.20.png  style="width:384px;">                                                                                                                                                                Funkcja [Helisa](PartDesign_AdditiveHelix/pl.md) posiada nowy tryb **Wysokość - Obroty - Przyrost** do tworzenia płaskich spiral. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=19&t=56378) [Pull request \#4590](https://github.com/FreeCAD/FreeCAD/pull/4590)
+  <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width:384px;"> Efekt działania nowej opcji *Długość wzdłuż normalnej szkicu*.Kliknij na obrazek, aby wyświetlić animację.           Mamy nową opcję, która pozwala nam ustawić określoną długość wzdłuż kierunku. Długość jest mierzona albo wzdłuż normalnej szkicu, albo wzdłuż niestandardowego kierunku. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=50466), [Pull request \#3893](https://github.com/FreeCAD/FreeCAD/pull/3893)
    
 
 ### Planowane ulepszenia środowiska Projekt Części 
@@ -203,6 +287,7 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 -   Możliwe jest teraz wybranie kilku powierzchni przed wywołaniem okna dialogowego [wyciągnięcia](PartDesign_Pad/pl.md) lub [kieszeni](PartDesign_Pocket/pl.md). W tym przypadku pierwsza wybrana powierzchnia zostanie użyta do określenia domyślnego kierunku wyciągnięcia /kieszeni. [commit d34a5616](https://github.com/FreeCAD/FreeCAD/commit/d34a5616a2b38c96ad05f9a0763ba7504dfb814d).
 -   Okno dialogowe [Fazki](PartDesign_Chamfer/pl.md) i [Zaokrąglenia](PartDesign_Fillet/pl.md) umożliwia wybranie wszystkich krawędzi bryły poprzez menu kontekstowe w trybie dodawania. [Pull request \#5269](https://github.com/FreeCAD/FreeCAD/pull/5269)
     Po wybraniu obiektu 3D przed kliknięciem ikony do utworzenia zaokrąglenia lub sfazowania, wszystkie krawędzie obiektu zostaną automatycznie wybrane. [Pull request \#5328](https://github.com/FreeCAD/FreeCAD/pull/5328)
+-   Okna dialogowe [fazowania](PartDesign_Chamfer/pl.md) i [zaokrąglania](PartDesign_Fillet/pl.md) mają teraz nowe pole wyboru **Użyj wszystkich krawędzi**, które jest połączone z właściwością **Użyj wszystkich krawędzi** dla tych obiektów. Kiedy pole jest zaznaczone, właściwość jest ustawiona na wartość {{True/pl}}, kiedy jest odznaczone, właściwość jest ustawiona na wartość {{False/pl}}. Kiedy właściwość Użyj wszystkich krawędzi ma wartość {{True/pl}}, jest ochrona przed wystąpieniem [problemu nazewnictwa topologicznego](Topological_naming_problem/pl.md), ponieważ wtedy wszystkie krawędzie obiektu bazowego są używane niezależnie od tego, ile ich jest. [Pull request \#5340](https://github.com/FreeCAD/FreeCAD/pull/5340)
 
 ## Środowisko pracy Path 
 
@@ -230,7 +315,7 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 -   Wiązania promienia/średnicy są wyświetlane przy użyciu obrotu kątowego, aby ułatwić wizualizację. Kąt i opcjonalna losowość są ustawiane przez użytkownika za pomocą parametrów udokumentowanych w [Fine-tuning](Fine-tuning/pl.md) [Pull request \#4934](https://github.com/FreeCAD/FreeCAD/pull/4934) [Dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=60370).
 -   Możliwe jest teraz ustalenie kąta kierunku podczas używania narzędzia [Szyk prostokątny](Sketcher_RectangularArray/pl.md) [commit](https://github.com/FreeCAD/FreeCAD/commit/c9eaa2393d33) [Dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?p=535691#p535691)
 -   Możliwe jest teraz ustalenie kąta kierunku podczas używania narzędzi [Klonuj](Sketcher_Clone/pl.md), [Kopiuj](Sketcher_Copy/pl.md) i [Przesuń](Sketcher_Move/pl.md) [commit](https://github.com/FreeCAD/FreeCAD/commit/6e4a09f569cf) [Dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=62799)
--   Nowe narzędzie Wstaw węzeł, które pozwala użytkownikowi wstawić węzeł do istniejącej krzywej złożonej [Pull request \#5311](https://github.com/FreeCAD/FreeCAD/pull/5311).
+-   Nowe narzędzie <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:24px;"> [Wstaw węzeł](Sketcher_BSplineInsertKnot/pl.md), które pozwala użytkownikowi wstawić węzeł do istniejącej krzywej złożonej [Pull request \#5311](https://github.com/FreeCAD/FreeCAD/pull/5311).
 
 ## Środowisko pracy Arkusz Kalkulacyjny 
 
@@ -253,18 +338,13 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 
 ## Środowisko pracy Rysunek Techniczny 
 
-+++
-| <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width:400px;"> | Kilka nowych narzędzi, tak zwanych [rozszerzeń](TechDraw_Workbench/pl#Pakiet_rozszerze.C5.84.md), jest już dostępnych. Oferują one nowe, funkcje geometrii pomocniczych do ulepszania rysunków:                  |
-|                                                                                                             |                                                                                                                                                                                                                          |
-|                                                                                                             | -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:24px;"> [Oś otworu](TechDraw_ExtensionCircleCenterLines/pl.md)                                                |
-|                                                                                                             | -   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:24px;"> [Geometria pomocnicza dla otworu gwintowanego, widok z boku](TechDraw_ExtensionThreadHoleSide/pl.md)        |
-|                                                                                                             | -   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> [Geometria pomocnicza dla gwintu śruby, widok z boku](TechDraw_ExtensionThreadBoltSide/pl.md)               |
-|                                                                                                             | -   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:24px;"> [Geometria pomocnicza dla otworu gwintowanego, widok od dołu](TechDraw_ExtensionThreadHoleBottom/pl.md) |
-|                                                                                                             | -   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:24px;"> [Geometria pomocnicza dla śruby, widok od dołu](TechDraw_ExtensionThreadBoltBottom/pl.md)               |
-+++
+   
+  <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width:400px;">   Ponad 30 nowych narzędzi, tak zwanych [rozszerzeń](TechDraw_Workbench/pl#Pakiet_rozszerze.C5.84.md), jest już dostępnych. Oferują one nowe, funkcje geometrii pomocniczych do ulepszania rysunków.
+   
 
 ### Kolejne ulepszenia dla środowiska Rysunek Techniczny 
 
+-   Jest teraz możliwe [kopiowanie](TechDraw_ShareView/pl.md) i [przesuwanie](TechDraw_MoveView/pl.md) [widoków](TechDraw_Workbench/pl#Widoki.md).
 -   Kiedy jest dostępnych kilka [Stron](TechDraw_PageDefault/pl.md) i dodawany jest [Widok](TechDraw_View/pl.md), [Grupa rzutowania](TechDraw_ProjectionGroup/pl.md) itd, teraz dostępne jest okno dialogowe z pytaniem do jakiej strony powinien zostać dodany widok. [Pull request \#5309](https://github.com/FreeCAD/FreeCAD/pull/5309).
 
 ## Środowisko pracy Web 

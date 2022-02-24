@@ -66,7 +66,7 @@ Make sure that the body containing the object to be embossed is the active body.
 
 ### Multiply and Pattern 
 
-To muliply and pattern the embossed feature a **sketch** containing circles and arcs can be added to the **WallForming** object\'s property **Sketch**.
+To muliply and pattern the embossed feature a **sketch** containing circles and arcs can be added to the **WallForming** object\'s property **Sketch**. This pattern sketch must be **coplanar** with the face to be embossed.
 
 The centerpoints of the circles or arcs are used to provide positions to put instances of the embossed feature; they don\'t influence the instances\' orientation.
 

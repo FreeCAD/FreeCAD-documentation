@@ -185,13 +185,7 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;">[Farben festlegen](Part_FaceColors/de.md): Weist den Teilflächen Farben zu.
 
-
-<div class="mw-translate-fuzzy">
-
-### Einstellungen
-
-
-</div>
+## Einstellungen
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Einstellungen](PartDesign_Preferences/de.md): Einstellungen verfügbar für PartDesign Werkzeuge.
 -   [Feinabstimmung](Fine-tuning/de.md): Einige zusätzliche Parameter zur Feinabstimmung des PartDesign Verhaltens

@@ -27,6 +27,8 @@ Tutte le informazioni applicabili alle [finestre](Arch_Window/it.md) si applican
 3.  Compilare i parametri desiderati.
 4.  Nella [vista 3D](3D_view/it.md), spostare la finestra nella posizione in cui si desidera posizionarla. Se si sposta il puntatore su un [muro](Arch_Wall/it.md), il contorno della finestra dovrebbe allinearsi con la faccia di quell\'oggetto.
 
+#### Additional presets 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -39,16 +41,28 @@ se si installa la \"Parts Library\" da [AddonManager](Std_AddonMgr/it.md), lo st
 </div>
 
 
-```python
-$ROOT_DIR/Mod/parts_library/Architectural\ Parts/Doors/Custom/
-$ROOT_DIR/Mod/parts_library/Architectural\ Parts/Windows/Custom/
-```
+{{FileName|$ROOT_DIR/Mod/parts_library/Architectural Parts/Doors/Custom/}}
+
+{{FileName|$ROOT_DIR/Mod/parts_library/Architectural Parts/Windows/Custom/}}
+
+It is also possible to place custom windows and doors in your user {{FileName|Arch}} directory. <small>(v0.20)</small> 
+
+
+{{FileName|$ROOT_DIR/Mod/Arch/Doors/Custom/}}
+
+{{FileName|$ROOT_DIR/Mod/Arch/Windows/Custom/}}
+
+
+<div class="mw-translate-fuzzy">
 
 La `$ROOT_DIR` è la directory dell\'utente in cui sono archiviati la configurazione, le macro e gli ambienti di lavoro esterni di FreeCAD.
 
 -   Su Linux di solito è `/home/username/.FreeCAD/`
 -   Su Windows di solito è `C:\Users\username\Application Data\FreeCAD\`
 -   Su Mac OSX di solito è `/Users/username/Library/Preferences/FreeCAD/`
+
+
+</div>
 
 ### Creare dall\'inizio 
 
@@ -62,9 +76,15 @@ La `$ROOT_DIR` è la directory dell\'utente in cui sono archiviati la configuraz
 8.  Per regolare i componenti della finestra e le varie proprietà, entrare nella finestra del [pannello Azioni](task_panel/it.md) facendo doppio clic sull\'oggetto creato nella [vista ad albero](tree_view/it.md).
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Nota:**
 
 quando si crea lo schizzo, prestare molta attenzione all\'ordine di creazione dei contorni; la numerazione dei \"segmenti\" nel [ pannello delle azioni](task_panel/it.md) (\"Elementi della finestra\") dipende da questo.
+
+
+</div>
 
 ## Presets
 
@@ -181,6 +201,11 @@ You can use any other kind of workflow than the one described above, the importa
 
 -    {{PropertyData/it|Symbol Elevation}}: Mostra il simbolo 2D di apertura nell\'elevazione
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
@@ -188,7 +213,12 @@ You can use any other kind of workflow than the one described above, the importa
 
 [API Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Finestra può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+Lo strumento Finestra può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
 ```python
 Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Window")
 ```

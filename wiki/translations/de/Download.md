@@ -28,11 +28,11 @@ Frühere Versionen können von der [Versionen](https://github.com/FreeCAD/FreeCA
 </div>
 
 +::+---+::+---+::+
-| ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png ) |
-|                                                                                                                                   |   |                                                                                                                 |   |                                            |
-| Install on Windows                                                                                                                |   | Install on Mac                                                                                                  |   | Install on Linux                           |
-|                                                                                                                                   |   |                                                                                                                 |   |                                            |
-| [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-2.exe) (includes installer) |   | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)     |
+| ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png )         |
+|                                                                                                                                   |   |                                                                                                                 |   |                                                    |
+| [Install on Windows](Installing_on_Windows.md)                                                                            |   | [Install on Mac](Installing_on_Mac.md)                                                                  |   | [Install on Linux](Installing_on_Linux.md) |
+|                                                                                                                                   |   |                                                                                                                 |   |                                                    |
+| [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-4.exe) (includes installer) |   | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)             |
 ++---++---++
 
 

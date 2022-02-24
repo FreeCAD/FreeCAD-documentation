@@ -213,7 +213,7 @@ In the following notes, `"context"` should be your addon\'s or workbench\'s name
 
 ## Gather all the strings from your module 
 
--   You will need the `lupdate`, `lconvert`, `lrelease` and `pylupdate` tools installed on your system. In Linux distributions they usually come in packages named `pyside-tools` or `pyside2-tools`. On some systems `lupdate` is named `lupdate4` or `lupdate5` or `lupdate-qt4` or similar. Same for the other tools. You may use the Qt4 or Qt5 version at your choice.
+-   You will need the `lupdate`, `lconvert`, `lrelease` and `pylupdate` tools installed on your system. In Linux distributions they usually come in packages named `pyside-tools` or `pyside2-tools`. On some systems `lupdate` is named `lupdate4` or `lupdate5` or `lupdate-qt4` or similar. Same for the other tools. You may use the Qt4 or Qt5 version at your choice. In Qt6 there is no separate translation system for Python files, `lupdate` is used to extract strings from all types of source files.
 -   If you have `.ui` files, you need to run `lupdate` first:
 
 

@@ -11,25 +11,20 @@
 
 
 
-*Uproszczony schemat zależności pomiędzy głównymi obiektami w programie. Obiekt `App::Link* jest głównym składnikiem systemu, nie zależy on od żadnego środowiska pracy, a może być użyty z większością obiektów stworzonych we wszystkich środowiskach pracy.`
+*Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
 ## Użycie
 
-1.  Wybierz obiekt w [widoku drzewa](tree_view/pl.md) lub oknie [widoku 3D](3D_view.md) dla którego chcesz stworzyć Łącze.
-2.  Naciśnij przycisk**[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**. Stworzony obiekt ma tę samą ikonę jak oryginalny obiekt, ale została nałożona na niego strzałka informująca, że jest on Łączem.
-
-Zobacz stronę [Std: LinkMake](Std_LinkMake.md) dla pełnych informacji, włącznie z [tworzeniem skryptów](Std_LinkMake/pl#Tworzenie_skrypt.C3.B3w.md).
+Zobacz stronę [Std: Utwórz łącze](Std_LinkMake/pl#U.C5.BCycie.md)
 
 ## Właściwości
 
-[App: Link](App_Link/pl.md) *(klasa`App::Link`)* pochodzi z [App: DocumentObject](App_DocumentObject/pl.md) *(klasa`App::DocumentObject`)*, przez co współdzieli większość właściwości tej ostatniej.
-
-Zobacz pełną listę właściwości na stronie [Std: LinkMake](Std_LinkMake/pl.md).
+Zobacz stronę [Std: Utwórz łącze](Std_LinkMake/pl.md).
 
 
-{{Std Base navi
+{{Std_Base_navi
 
-}} {{Document objects navi}}
+}} {{Document_objects_navi}}
 
 
 

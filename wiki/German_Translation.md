@@ -421,7 +421,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> Sphere                                               Command          Kugel                                     
   <img alt="" src=images/Part_Cone.svg  style="width:16px;"> Cone                                                     Command          Kegel                                     
   <img alt="" src=images/Part_Torus.svg  style="width:16px;"> Torus                                                  Command          Torus                                     
-  <img alt="" src=images/Part_Tube.svg  style="width:16px;"> Create tube                                              Command          Erstelle eine Röhre                       (Rohr, **Röhre**, (Hohl-) Zylinder?)
+  <img alt="" src=images/Part_Tube.svg  style="width:16px;"> Create tube                                              Command          Rohr erstellen\...                        (Rohr, **Röhre**, (Hohl-) Zylinder?)
                                                                                                                                                                          
   <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> Create primitives\...                        Command          **Grundkörper erstellen**\...             Werkzeug zum Erstellen von Primitiven
   <img alt="" src=images/Part_Plane.svg  style="width:16px;"> Plane                                                  Menue item       **Ebene**                                 
@@ -436,7 +436,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   <img alt="" src=images/Part_Helix.svg  style="width:16px;"> Helix                                                  Menue item       Helix                                     Wendel?
   <img alt="" src=images/Part_Spiral.svg  style="width:16px;"> Spiral                                               Menue item       **Spirale**                               
   <img alt="" src=images/Part_Circle.svg  style="width:16px;"> Circle                                               Menue item       **Kreis**                                 
-  <img alt="" src=images/Part_Ellipse.svg  style="width:16px;"> Ellipse                                            Menue item       Ellipse                                   
+  <img alt="" src=images/Part_Ellipse.svg  style="width:16px;"> Ellipse                                            Menue item       **Ellipse**                               
   <img alt="" src=images/Part_Point.svg  style="width:16px;"> Point                                                  Menue item       **Punkt**                                 
   <img alt="" src=images/Part_Line.svg  style="width:16px;"> Line                                                     Menue item       **Linie**                                 
   <img alt="" src=images/Part_RegularPolygon.svg  style="width:16px;"> Regular polygon                      Menue item       Regelmäßiges Polygon                      Gleichseitiges Vieleck?
@@ -455,10 +455,10 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> Check geometry                         Command          Geometrie überprüfen                      
   <img alt="" src=images/Part_Defeaturing.svg  style="width:16px;"> Defeaturing                                Command          Merkmal entfernen                         
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Boolean                                                Generic term     Boolesche Operationen                     Bool\'sche korrigieren (Crowdin)
-  <img alt="" src=images/Part_Boolean.svg  style="width:16px;"> Boolean\...                                        Command          Boolesche Operation\...                   
-  <img alt="" src=images/Part_Cut.svg  style="width:16px;"> Cut                                                        Command          Differenz                                 
-  <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> Union                                                    Command          Vereinigung                               
-  <img alt="" src=images/Part_Common.svg  style="width:16px;"> Intersection                                         Command          Schnitt                                   
+  <img alt="" src=images/Part_Boolean.svg  style="width:16px;"> Boolean\...                                        Command          **Boolesche Operation**\...               
+  <img alt="" src=images/Part_Cut.svg  style="width:16px;"> Cut                                                        Command          **Differenz**                             Wie in Differenzmenge.
+  <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> Union                                                    Command          **Vereinigung**                           Wie in Vereinigungsmenge.
+  <img alt="" src=images/Part_Common.svg  style="width:16px;"> Intersection                                         Command          **Schnitt**                               Wie in Schnittmenge.
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Join                                                   Generic term     Verbinden                                 
   <img alt="" src=images/Part_JoinConnect.svg  style="width:16px;"> Connect objects                            Command          Objekte verbinden                         Schaltfläche ist nicht übersetzt\...
   <img alt="" src=images/Part_JoinEmbed.svg  style="width:16px;"> Embed object                                   Command          Objekt einbinden                          Schaltfläche ist nicht übersetzt\...
@@ -467,7 +467,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   <img alt="" src=images/Part_BooleanFragments.svg  style="width:16px;"> Boolean fragments                Command          Boolesche Fragmente                       Menüeintrag ist nicht übersetzt\...
   <img alt="" src=images/Part_SliceApart.svg  style="width:16px;"> Slice apart                                  Command          Verbundteile extrahieren                  Menüeintrag ist nicht übersetzt\...
   <img alt="" src=images/Part_Slice.svg  style="width:16px;"> Slice to compound                                      Command          Teilen zu einem Verbund                   Menüeintrag ist nicht und Schaltfläche schlecht übersetzt\...
-  <img alt="" src=images/Part_XOR.svg  style="width:16px;"> Boolean XOR                                                Command          Boolesche XOR                             Menüeintrag ist nicht übersetzt\...
+  <img alt="" src=images/Part_XOR.svg  style="width:16px;"> Boolean XOR                                                Command          **Boolesches XOR**                        Exklusiv(es) ODER,Menüeintrag ist nicht übersetzt\...
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Compound                                               Generic term     Verbund                                   
   <img alt="" src=images/Part_Compound.svg  style="width:16px;"> Make compound                                    Command          Erzeuge Verbund                           (Verbund erzeugen?)
   <img alt="" src=images/Part_ExplodeCompound.svg  style="width:16px;"> Explode compound                   Command          Verbundteile extrahieren                  Schaltfläche ist nicht übersetzt\...
@@ -504,67 +504,88 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible-content toccolours">
 
-  Englischer Ausdruck                                                                                                       Funktion         Deutscher Ausdruck                                                                                       Anmerkung
+  Englischer Ausdruck                                                                                                       Funktion            Deutscher Ausdruck                                                                                       Anmerkung
      
-  <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> Part Design                                      Workbench name   **Part Design**                                                                                          Arbeitsbereich, nicht übersetzen!
-  Part Design                                                                                                               Menue header     Teile-Konstruktion, (Bauteilkonstruktion)                                                                Menü-Überschrift, übersetzt (herbk Weshalb auf der Oberfläche übersetzt? Das ist das Menü zur WB die Part Design heißt ;-) )
-  <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> Create body                                                Command          Körper erstellen                                                                                         
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Create a datum                                                        Generic term     Bezugselement erstellen                                                                                  
-  <img alt="" src=images/PartDesign_Point.svg  style="width:16px;"> Create a datum point                                     Command          Bezugspunkt erstellen                                                                                    
-  <img alt="" src=images/PartDesign_Line.svg  style="width:16px;"> Create a datum line                                        Command          Bezugslinie erstellen                                                                                    
-  <img alt="" src=images/PartDesign_Plane.svg  style="width:16px;"> Create a datum plane                                     Command          Bezugsebene erstellen                                                                                    
-                                                                                                                                                                                                                                                      
-  <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:16px;"> Create a local coordinate system   Command          Lokales Koordinatensystem erstellen                                                                      
-  <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> Create a shape binder                        Command          Formbinder erstellen                                                                                     
-  <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> Create a sub-object(s) shape binder    Command          Formbinder für Teilobjekt erstellen                                                                      
-  <img alt="" src=images/PartDesign_Clone.svg  style="width:16px;"> Create a clone                                           Command          Klon erstellen                                                                                           
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create an additive feature                                           Generic term     Hinzuzufügende Objekte                                                                                   
-  <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> Pad                                                          Command          Extrusionsobjekt (passend zum Oberbegriff) oderExtrudieren/aufdicken (passend zu to pad)   Aufpolsterung sollte korrigiert werden.
-  <img alt="" src=images/PartDesign_Revolution.svg  style="width:16px;"> Revolution                                     Command          Drehteil/Drehobjekt (passend zum Oberbegriff)                                                            Drehen sollte korrigiert werden.
-  <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width:16px;"> Additive loft                              Command          Hinzuzufügende Ausformung                                                                                \"Zu addierende\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:16px;"> Additive pipe                              Command          Hinzuzufügendes Rohr                                                                                     \"Zuzufügendes\" sollte korrigiert werden (Crowdin)(herbk: englischer Begriff ist schon unpassend, das ist kein Rohr)
-  <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:16px;"> Additive helix                           Command          Hinzuzufügende Wendel                                                                                    
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create an additive primitive                                         Generic term     Hinzuzufügende Grundkörper                                                                               
-  <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> Additive Box                                 Command          Hinzuzufügender Quader                                                                                   \"Zu addierender\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/_PartDesign_AdditiveCylinder.svg  style="width:16px;"> Additive Cylinder                Command          Hinzuzufügender Zylinder                                                                                 \"Zu addierender\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_AdditiveSphere.svg  style="width:16px;"> Additive Sphere                        Command          Hinzuzufügende Kugel                                                                                     \"Zu addierende\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_AdditiveSphere.svg  style="width:16px;"> Additive Cone                          Command          Hinzuzufügender Kegel                                                                                    
-  <img alt="" src=images/_PartDesign_AdditiveEllipsoid.svg  style="width:16px;"> Additive Ellipsoid             Command          Hinzuzufügendes Ellipsoid                                                                                \"Zu addierendes\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_AdditiveTorus.svg  style="width:16px;"> Additive Torus                           Command          Hinzuzufügender Torus                                                                                    \"Zu addierender\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:16px;"> Additive Prism                           Command          Hinzuzufügendes Prisma                                                                                   
-  <img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:16px;"> Additive Wedge                           Command          Hinzuzufügender Keil                                                                                     \"Zu addierender\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create a subtractive feature                                         Generic term     Abzuziehende Objekte                                                                                     
-  <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> Pocket                                                 Command          **Tasche**                                                                                               
-  <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> Hole                                                       Command          **Bohrung**                                                                                              
-  <img alt="" src=images/PartDesign_Groove.svg  style="width:16px;"> Groove                                                 Command          (Ring-) **Nut**                                                                                          
-  <img alt="" src=images/PartDesign_SubtractiveLoft.svg  style="width:16px;"> Subtractive loft                     Command          Abzuziehende Ausformung                                                                                  \"Abziehbare\" sollte korrigiert werden (Crowdin)
-  <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width:16px;"> Subtractive pipe                     Command          Abzuziehendes Rohr                                                                                       \"Abziehbare\" sollte korrigiert werden (Crowdin)(herbk: englischer Begriff ist schon unpassend, das ist kein Rohr)
-  <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:16px;"> Subtractive helix                  Command          Abzuziehende Wendel                                                                                      
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create a subtractive primitive                                       Generic term     Abzuziehende Grundkörper                                                                                 
-  <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:16px;"> Subtractive Box                        Command          Abzuziehender Quader                                                                                     
-  <img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:16px;"> Subtractive Cylinder         Command          Abzuziehender Zylinder                                                                                   
-  <img alt="" src=images/_PartDesign_SubtractiveSphere.svg  style="width:16px;"> Subtractive Sphere             Command          Abzuziehende Kugel                                                                                       
-  <img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:16px;"> Subtractive Cone                     Command          Abzuziehender Kegel                                                                                      
-  <img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:16px;"> Subtractive Ellipsoid      Command          Abzuziehendes Ellipsoid                                                                                  
-  <img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:16px;"> Subtractive Torus                  Command          Abzuziehender Torus                                                                                      
-  <img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:16px;"> Subtractive Prism                  Command          Abzuziehendes Prisma                                                                                     
-  <img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:16px;"> Subtractive Wedge                  Command          Abzuziehender Keil                                                                                       
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Apply a pattern                                                      Generic term     Muster anwenden                                                                                          
-  <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> Mirrored                                           Command          **Spiegeln**                                                                                             
-  <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> Linear pattern                           Command          Lineares Muster                                                                                          
-  <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:16px;"> Polar pattern                              Command          Polares Muster                                                                                           
-  <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> Create MultiTransform                  Command          Mehrfach-Transformation erstellen                                                                        
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Apply a dress-up feature                                             Generic term     Modifikationen                                                                                           
-  <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> Fillet                                                 Command          **Verrundung**                                                                                           
-  <img alt="" src=images/PartDesign_Chamfer.svg  style="width:16px;"> Chamfer                                              Command          Fase                                                                                                     
-  <img alt="" src=images/PartDesign_Draft.svg  style="width:16px;"> Draft                                                    Command          **Formschräge**                                                                                          
-  <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> Thickness                                        Command          **Dicke**, Wandstärke                                                                                    
-                                                                                                                                                                                                                                                      
-  <img alt="" src=images/PartDesign_Boolean.svg  style="width:16px;"> Boolean operation                                    Command          Boolsche Operation                                                                                       
-  <img alt="" src=images/PartDesign_Migrate.svg  style="width:16px;"> Migrate                                              Command          Migrieren                                                                                                
-  <img alt="" src=images/PartDesign_Sprocket.svg  style="width:16px;"> Sprocket\...                                       Command          Kettenrad\...                                                                                            
-  <img alt="" src=images/_PartDesign_InternalExternalGear.svg  style="width:16px;"> Involute gear\...        Command          Evolventenrad\...                                                                                        
-  <img alt="" src=images/_PartDesign_WizardShaft.svg  style="width:16px;"> Shaft design wizard\...                    Command          (Shaft design wizard\...)                                                                                
+  <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> Part Design                                      Workbench name      **Part Design**                                                                                          Arbeitsbereich, nicht übersetzen!
+  Part Design                                                                                                               Menue header        Teile-Konstruktion, (Bauteilkonstruktion)                                                                Menü-Überschrift, übersetzt (herbk Weshalb auf der Oberfläche übersetzt? Das ist das Menü zur WB die Part Design heißt ;-) )
+  <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> Create body                                                Command             Körper erstellen                                                                                         
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Create a datum                                                        Generic term        Bezugselement erstellen                                                                                  
+  <img alt="" src=images/PartDesign_Point.svg  style="width:16px;"> Create a datum point                                     Command             Bezugspunkt erstellen                                                                                    
+  <img alt="" src=images/PartDesign_Line.svg  style="width:16px;"> Create a datum line                                        Command             Bezugslinie erstellen                                                                                    
+  <img alt="" src=images/PartDesign_Plane.svg  style="width:16px;"> Create a datum plane                                     Command             Bezugsebene erstellen                                                                                    
+                                                                                                                                                                                                                                                         
+  <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:16px;"> Create a local coordinate system   Command             Lokales Koordinatensystem erstellen                                                                      
+  <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:16px;"> Create a shape binder                        Command             Formbinder erstellen                                                                                     
+  <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:16px;"> Create a sub-object(s) shape binder    Command             Formbinder für Teilobjekt erstellen                                                                      
+  <img alt="" src=images/PartDesign_Clone.svg  style="width:16px;"> Create a clone                                           Command             Klon erstellen                                                                                           
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create an additive feature                                           Generic term        Hinzuzufügende Objekte                                                                                   
+  <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> Pad                                                          Command             Extrusionsobjekt (passend zum Oberbegriff) oderExtrudieren/aufdicken (passend zu to pad)   Aufpolsterung sollte korrigiert werden.
+  <img alt="" src=images/PartDesign_Revolution.svg  style="width:16px;"> Revolution                                     Command             Drehteil/Drehobjekt (passend zum Oberbegriff)                                                            Drehen sollte korrigiert werden.
+  <img alt="" src=images/PartDesign_AdditiveLoft.svg  style="width:16px;"> Additive loft                              Command             Hinzuzufügende Ausformung                                                                                \"Zu addierende\" sollte korrigiert werden (Crowdin)
+  <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:16px;"> Additive pipe                              Command             Hinzuzufügendes Rohr                                                                                     \"Zuzufügendes\" sollte korrigiert werden (Crowdin)(herbk: englischer Begriff ist schon unpassend, das ist kein Rohr)
+  <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:16px;"> Additive helix                           Command             Hinzuzufügende Wendel                                                                                    
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create an additive primitive                                         Generic term        Hinzuzufügende Grundkörper                                                                               
+  <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> Additive Box                                 Command             Hinzuzufügender Quader                                                                                   \"Zu addierender\" sollte korrigiert werden (Crowdin)
+  <img alt="" src=images/_PartDesign_AdditiveCylinder.svg  style="width:16px;"> Additive Cylinder                Command             Hinzuzufügender Zylinder                                                                                 \"Zu addierender\" sollte korrigiert werden (Crowdin)
+  <img alt="" src=images/PartDesign_AdditiveSphere.svg  style="width:16px;"> Additive Sphere                        Command             Hinzuzufügende Kugel                                                                                     \"Zu addierende\" sollte korrigiert werden (Crowdin)
+  <img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:16px;"> Additive Cone                              Command             Hinzuzufügender Kegel                                                                                    
+  <img alt="" src=images/_PartDesign_AdditiveEllipsoid.svg  style="width:16px;"> Additive Ellipsoid             Command             Hinzuzufügendes Ellipsoid                                                                                \"Zu addierendes\" sollte korrigiert werden (Crowdin)
+  <img alt="" src=images/PartDesign_AdditiveTorus.svg  style="width:16px;"> Additive Torus                           Command             Hinzuzufügender Torus                                                                                    \"Zu addierender\" sollte korrigiert werden (Crowdin)
+  <img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:16px;"> Additive Prism                           Command             Hinzuzufügendes Prisma                                                                                   
+  <img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:16px;"> Additive Wedge                           Command             Hinzuzufügender Keil                                                                                     \"Zu addierender\" sollte korrigiert werden (Crowdin)
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create a subtractive feature                                         Generic term        Abzuziehende Objekte                                                                                     
+  <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> Pocket                                                 Command             **Tasche**                                                                                               
+  <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> Hole                                                       Command             **Bohrung**                                                                                              
+  <img alt="" src=images/PartDesign_Groove.svg  style="width:16px;"> Groove                                                 Command             (Ring-) **Nut**                                                                                          
+  <img alt="" src=images/PartDesign_SubtractiveLoft.svg  style="width:16px;"> Subtractive loft                     Command             Abzuziehende Ausformung                                                                                  \"Abziehbare\" sollte korrigiert werden (Crowdin)
+  <img alt="" src=images/PartDesign_SubtractivePipe.svg  style="width:16px;"> Subtractive pipe                     Command             Abzuziehendes Rohr                                                                                       \"Abziehbare\" sollte korrigiert werden (Crowdin)(herbk: englischer Begriff ist schon unpassend, das ist kein Rohr)
+  <img alt="" src=images/PartDesign_SubtractiveHelix.svg  style="width:16px;"> Subtractive helix                  Command             Abzuziehende Wendel                                                                                      
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Create a subtractive primitive                                       Generic term        Abzuziehende Grundkörper                                                                                 
+  <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:16px;"> Subtractive Box                        Command             Abzuziehender Quader                                                                                     
+  <img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:16px;"> Subtractive Cylinder         Command             Abzuziehender Zylinder                                                                                   
+  <img alt="" src=images/_PartDesign_SubtractiveSphere.svg  style="width:16px;"> Subtractive Sphere             Command             Abzuziehende Kugel                                                                                       
+  <img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:16px;"> Subtractive Cone                     Command             Abzuziehender Kegel                                                                                      
+  <img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:16px;"> Subtractive Ellipsoid      Command             Abzuziehendes Ellipsoid                                                                                  
+  <img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:16px;"> Subtractive Torus                  Command             Abzuziehender Torus                                                                                      
+  <img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:16px;"> Subtractive Prism                  Command             Abzuziehendes Prisma                                                                                     
+  <img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:16px;"> Subtractive Wedge                  Command             Abzuziehender Keil                                                                                       
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Apply a pattern                                                      Generic term        Muster anwenden                                                                                          
+  <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> Mirrored                                           Command             **Spiegeln**                                                                                             
+  <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> Linear pattern                           Command             Lineares Muster                                                                                          
+  <img alt="" src=images/PartDesign_PolarPattern.svg  style="width:16px;"> Polar pattern                              Command             Polares Muster                                                                                           
+  <img alt="" src=images/PartDesign_MultiTransform.svg  style="width:16px;"> Create MultiTransform                  Command             Mehrfach-Transformation erstellen                                                                        
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Apply a dress-up feature                                             Generic term        Modifikationen                                                                                           
+  <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> Fillet                                                 Command             **Verrundung**                                                                                           
+  <img alt="" src=images/PartDesign_Chamfer.svg  style="width:16px;"> Chamfer                                              Command             Fase                                                                                                     
+  <img alt="" src=images/PartDesign_Draft.svg  style="width:16px;"> Draft                                                    Command             **Formschräge**                                                                                          
+  <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> Thickness                                        Command             **Dicke**, Wandstärke                                                                                    
+                                                                                                                                                                                                                                                         
+  <img alt="" src=images/PartDesign_Boolean.svg  style="width:16px;"> Boolean operation                                    Command             **Boolesche Operation**                                                                                  
+  <img alt="" src=images/PartDesign_Migrate.svg  style="width:16px;"> Migrate                                              Command             Migrieren                                                                                                Nur Menü
+  <img alt="" src=images/PartDesign_Sprocket.svg  style="width:16px;"> Sprocket\...                                       Command             Kettenrad\...                                                                                            Nur Menü
+  Sprocket parameter                                                                                                        Task panel header   Kettenradparameter                                                                                       
+  Number of teeth                                                                                                           Task panel label    Anzahl der Zähne                                                                                         
+  Sprocket Reference                                                                                                        Task panel label    Kettenradreferenz                                                                                        
+  Chain Pitch                                                                                                               Task panel label    Kettenteilung                                                                                            
+  Roller Diameter                                                                                                           Task panel label    Rollendurchmesser                                                                                        Hohe Genauigkeit?
+  Thickness                                                                                                                 Task panel label    Dicke                                                                                                    Zahnbreite?
+  <img alt="" src=images/_PartDesign_InternalExternalGear.svg  style="width:16px;"> Involute gear\...        Command             Evolventenrad\...                                                                                        Nur Menü
+  Involute parameter                                                                                                        Task panel header   Evolventenparameter                                                                                      
+  Number of teeth                                                                                                           Task panel label    Anzahl der Zähne                                                                                         
+  Module                                                                                                                    Task panel label    **Modul**                                                                                                
+  Pressure angle                                                                                                            Task panel label    Eingriffswinkel                                                                                          
+  High precision                                                                                                            Task panel label    Hohe Präzision                                                                                           Hohe Genauigkeit?
+  External gear                                                                                                             Task panel label    Außenrad                                                                                                 Stirnrad?
+  <img alt="" src=images/_PartDesign_WizardShaft.svg  style="width:16px;"> Shaft design wizard\...                    Command             (Shaft design wizard\...)                                                                                Nur Menü
+  *Sketcher Menu*                                                                                                                                                                                                                                        
+  Sketch                                                                                                                    Menue header        Skizze                                                                                                   Menü-Überschrift (übersetzen?, Skizzieren?)
+  <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:16px;"> Create sketch                                    Command             **Skizze erstellen**                                                                                     (PartDesign\_NewSketch != Sketcher\_NewSketch)
+  <img alt="" src=images/Sketcher_EditSketch.svg‎‎  style="width:16px;"> Edit sketch                                    Command             **Skizze bearbeiten**                                                                                    Nur Schaltfläche
+  <img alt="" src=images/Sketcher_LeaveSketch.svg‎‎  style="width:16px;"> Leave sketch                                 Command             **Skizze verlassen**                                                                                     Nur Menü
+  <img alt="" src=images/Sketcher_ViewSketch.svg‎‎  style="width:16px;"> View sketch                                    Command             **Skizze anzeigen**                                                                                      Nur Menü
+  <img alt="" src=images/Sketcher_MapSketch.svg‎‎  style="width:16px;"> Map sketch to face\...                           Command             **Skizze einer Fläche zuordnen**\...                                                                     
+  <img alt="" src=images/Sketcher_ReorientSketch.svg‎‎  style="width:16px;"> Reorient sketch\...                    Command             **Skizze neu ausrichten**\...                                                                            Nur Menü
+  <img alt="" src=images/Sketcher_ValidateSketch.svg‎‎  style="width:16px;"> Validate sketch\...                    Command             **Skizze überprüfen**\...                                                                                Nur Menü
 
 
 </div>
@@ -745,16 +766,26 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible-content toccolours">
 
-  Englischer Ausdruck                                                                   Funktion         Deutscher Ausdruck       Anmerkung
+  Englischer Ausdruck                                                                                      Funktion         Deutscher Ausdruck                     Anmerkung
      
-  Sketcher                                                                              Workbench name   **Sketcher**             Arbeitsbereich, nicht übersetzen!
-  Sketch                                                                                Menue header     Sketch                   Menü-Überschrift (übersetzen?)
-  <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:16px;"> New sketch   Command          **Skizze erstellen**     
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher geometries              Generic term     Skizzengeometrien        
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher constraints             Generic term     Skizzen-Beschränkungen   
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher tools                   Generic term     Skizzen-Werkzeuge        
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher B-spline tools          Generic term     B-Spline-Werkzeuge       
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher vitual space            Generic term     Virtueller Bereich       
+  Sketcher                                                                                                 Workbench name   **Sketcher**                           Arbeitsbereich, nicht übersetzen!
+  Sketch                                                                                                   Menue header     Sketch                                 Menü-Überschrift (übersetzen?)
+  <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:16px;"> New sketch                      Command          **Skizze erstellen**                   (Sketcher\_NewSketch != PartDesign\_NewSketch)
+  <img alt="" src=images/Sketcher_EditSketch.svg‎‎  style="width:16px;"> Edit sketch                   Command          **Skizze bearbeiten**                  
+  <img alt="" src=images/Sketcher_LeaveSketch.svg‎‎  style="width:16px;"> Leave sketch                Command          **Skizze verlassen**                   
+  <img alt="" src=images/Sketcher_ViewSketch.svg‎‎  style="width:16px;"> View sketch                   Command          **Skizze anzeigen**                    
+  <img alt="" src=images/Sketcher_ViewSection.svg‎‎  style="width:16px;"> View section                Command          Abschnitt anzeigen                     Skizzenebene anzeigen?
+  <img alt="" src=images/Sketcher_MapSketch.svg‎‎  style="width:16px;"> Map sketch to face\...          Command          **Skizze einer Fläche zuordnen**\...   
+  <img alt="" src=images/Sketcher_ReorientSketch.svg‎‎  style="width:16px;"> Reorient sketch\...   Command          **Skizze neu ausrichten**\...          
+  <img alt="" src=images/Sketcher_ValidateSketch.svg‎‎  style="width:16px;"> Validate sketch\...   Command          **Skizze überprüfen**\...              
+  <img alt="" src=images/Sketcher_MergeSketches.svg‎‎  style="width:16px;"> Merge sketches          Command          Skizzen zusammenführen                 (Skizzen zusammenlegen/zusamenfassen?)
+  <img alt="" src=images/Sketcher_MirrorSketch.svg‎‎  style="width:16px;"> Mirror sketch             Command          **Skizze spiegeln**                    
+  <img alt="" src=images/Sketcher_StopOperation.svg‎‎  style="width:16px;"> Stop operation          Command          **Vorgang stoppen**                    
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher geometries                                 Generic term     Skizzengeometrien                      
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher constraints                                Generic term     Skizzen-Beschränkungen                 
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher tools                                      Generic term     Skizzen-Werkzeuge                      
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher B-spline tools                             Generic term     B-Spline-Werkzeuge                     
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Sketcher vitual space                               Generic term     Virtueller Bereich                     
 
 
 </div>
@@ -872,6 +903,137 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   <img alt="" src=images/Arrow-down.svg  style="width:16px;">Add Lines                                                  Generic term     Linien hinzufügen                                      
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Add Vertices                                              Generic term     Knoten hinzufügen                                      
   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:16px;"> Add Welding Information to Leaderline   Command          Hinzufügen von Schweißinformationen zur Hinweislinie   Schweißsymbole zur Hinweislinie hinzufügen?
+
+
+</div>
+
+
+</div>
+
+#### Externe Arbeitsbereiche 
+
+
+<div class="mw-collapsible mw-collapsed">
+
+##### <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench.md) 
+
+
+<div class="mw-collapsible-content toccolours">
+
+Übersetzung entsprechend den Wiki-Seiten, Crowdin fehlt noch.
+
+  Englischer Ausdruck                                                                                                     Funktion         Deutscher Ausdruck                     Anmerkung
+     
+  <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;">Assembly3                               Workbench name   **Assembly3**                          Arbeitsbereich, nicht übersetzen!
+  Assembly3                                                                                                               Menue header     Assembly3                              
+  <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:16px;"> Create assembly                          Command          Baugruppe anlegen                      
+  <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:16px;"> Group objects                                  Command          Objekte gruppieren                     
+  <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:16px;"> Create element                             Command          Element anlegen                        
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Import from STEP                                                   Generic term     STEP-Dateien importieren               
+  <img alt="" src=images/Assembly_Import.svg‎‎  style="width:16px;"> Import from STEP                                     Command          STEP-Dateien importieren               In einem Dokument zusammenfassen?
+  <img alt="" src=images/Assembly_ImportMulti.svg  style="width:16px;"> Import as multi-document                       Command          Als Mehrfachdokument einfügen          Baugruppen auf separate Dokumente aufteilen?
+                                                                                                                                                                                  
+  <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:16px;"> Solve constraints                  Command          Beziehungen anwenden                   
+  <img alt="" src=images/Assembly_QuickSolve.svg  style="width:16px;"> Quick solve                                      Command          Schnelle Berechnung                    
+  <img alt="" src=images/Assembly_Move.svg‎‎  style="width:16px;"> Move part                                                Command          Teil bewegen                           Objekt bewegen?
+  <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:16px;"> Axial move part                                Command          Axial bewegen                          
+  <img alt="" src=images/Assembly_QuickMove.svg  style="width:16px;"> Quick move                                         Command          Schnelles bewegen                      
+  <img alt="" src=images/Assembly_LockMover.svg‎‎‎‎  style="width:16px;"> Lock mover                                 Command          Bewegung verhindern                    
+  <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width:16px;"> Toggle part visibility   Command          Sichtbarkeit umschalten                
+  <img alt="" src=images/Assembly_Trace.svg  style="width:16px;"> Trace part move                                            Command          Bewegung aufzeichnen                   
+  <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:16px;"> Auto recompute                             Command          Automatische Berechnung                
+  <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width:16px;"> Smart recompute                      Command          Smarte Berechnung                      
+  <img alt="" src=images/Assembly_AutoFixElement.svg  style="width:16px;"> Auto fix element                         Command          Element automatisch fixieren           
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Element style                                                      Generic term     Element Darstellung                    
+  <img alt="" src=images/Assembly_AutoElementVis.svg‎‎‎‎  style="width:16px;"> Auto element visibility          Command          Element automatisch anzeigen           
+  <img alt="" src=images/Assembly_ShowElementCS.svg  style="width:16px;"> Show element coordinate system             Command          Element-Koordinatensystem anzeigen     
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Workplan and origin                                                Generic term     Arbeitsebene hinzufügen                Workplan**e** - Fehler im Original!
+  <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:16px;"> Add workplane                          Command          Arbeitsebene hinzufügen                
+  <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg‎‎  style="width:16px;"> Add XZ workplane                   Command          XZ-Arbeitsebene hinzufügen             
+  <img alt="" src=images/Assembly_Add_WorkplaneZY.svg‎‎  style="width:16px;"> Add ZY workplane                   Command          ZY-Arbeitsebene hinzufügen             
+  <img alt="" src=images/Assembly_Add_Placement.svg  style="width:16px;"> Add placement                              Command          Bezugssystem hinzufügen                
+  <img alt="" src=images/Assembly_Add_Origin.svg  style="width:16px;"> Add Origin                                       Command          Ursprung hinzufügen                    
+                                                                                                                                                                                  
+  <img alt="" src=images/Assembly_GotoRelation.svg  style="width:16px;"> Go to relation                               Command          Zur Beziehung gehen                    
+  <img alt="" src=images/LinkSelect.svg  style="width:16px;"> Select linked object                                               Command          Verknüpftes Objekt auswählen           siehe auch: STD Go to linked object
+  <img alt="" src=images/LinkSelectFinal.svg  style="width:16px;"> Select linked final                                      Command          Letztes verknüpftes Objekt auswählen   siehe auch: STD Go to deepest linked object
+  <img alt="" src=images/Assembly_TreeItemUp.svg  style="width:16px;"> Move item up                                     Command          Objekt aufwärts bewegen                
+  <img alt="" src=images/Assembly_TreeItemDown.svg  style="width:16px;"> Move item down                               Command          Objekt abwärts bewegen                 
+  <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎‎‎  style="width:16px;"> Multiply constraint      Command          Beziehung vervielfältigen              
+
+
+</div>
+
+
+</div>
+
+
+<div class="mw-collapsible mw-collapsed">
+
+##### <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:16px;"> [SheetMetal](SheetMetal_Workbench.md) 
+
+
+<div class="mw-collapsible-content toccolours">
+
+Übersetzung entsprechend den Wiki-Seiten, Crowdin fehlt noch.
+
+  Englischer Ausdruck                                                                                          Funktion         Deutscher Ausdruck                 Anmerkung
+     
+  <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:16px;"> Sheet Metal               Workbench name   **Sheet Metal**                    Arbeitsbereich, nicht übersetzen!
+  Sheet Metal                                                                                                  Menue header     Sheet Metal                        
+  <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> Make Base Wall                          Command          Basisobjekt erstellen              
+  <img alt="" src=images/SheetMetal_AddWall.svg‎‎  style="width:16px;"> Make Wall                           Command          Kante ansetzen                     
+  <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> Extend Face                             Command          Fläche erweitern                   
+  <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:16px;"> Fold a Wall                     Command          Abkanten                           
+  <img alt="" src=images/SheetMetal_Unfold.svg‎‎  style="width:16px;"> Unfold                                Command          Abwickeln                          
+  <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> Unattended Unfold     Command          Abwickeln ohne Eingaben            
+  <img alt="" src=images/SheetMetal_AddCornerRelief.svg‎‎  style="width:16px;"> Add Corner Relief   Command          Eckentlastung hinzufügen           
+  <img alt="" src=images/SheetMetal_AddRelief.svg‎‎  style="width:16px;"> Make Relief                     Command          Entlastungsausschnitt hinzufügen   
+  <img alt="" src=images/SheetMetal_AddJunction.svg‎‎‎‎  style="width:16px;"> Make Junction           Command          Stoß hinzufügen                    
+  <img alt="" src=images/SheetMetal_AddBend.svg‎‎‎‎  style="width:16px;"> Make Bend                       Command          Bogen einfügen                     
+  <img alt="" src=images/SheetMetal_SketchOnSheet.svg‎‎  style="width:16px;"> Sketch On Sheet metal   Command          Skizze auf Blech                   
+  <img alt="" src=images/SheetMetal_Forming.svg‎‎  style="width:16px;"> Make Forming in Wall                Command          Prägen                             
+
+
+</div>
+
+
+</div>
+
+
+<div class="mw-collapsible mw-collapsed">
+
+##### <img alt="" src=images/Render_workbench_icon.svg  style="width:16px;"> [Render](https://github.com/FreeCAD/FreeCAD-render) 
+
+
+<div class="mw-collapsible-content toccolours">
+
+  Englischer Ausdruck                                                                                                                           Funktion         Deutscher Ausdruck         Anmerkung
+     
+  <img alt="" src=images/Render_workbench_icon.svg  style="width:16px;"> Render                                                             Workbench name   **Render**                 Arbeitsbereich, nicht übersetzen!
+  Render                                                                                                                                        Menue header     **Render**                 
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Projects                                                                                 Generic term     Projekte                   Projektvorlagen?
+  <img alt="" src=images/Render_Appleseed.svg  style="width:16px;"> Appleseed Project                                                            Command          Appleseed-Projekt          (2 kombinierte Crowdin-Einträge)
+  <img alt="" src=images/Blender.svg  style="width:16px;"> Cycles Project                                                                                 Command          Cycles-Projekt             (2 kombinierte Crowdin-Einträge)
+  <img alt="" src=images/Render_Luxcore.svg  style="width:16px;"> Luxcore Project                                                                  Command          Luxcore-Projekt            (2 kombinierte Crowdin-Einträge)
+  <img alt="" src=images/Render_Ospray.svg  style="width:16px;"> Ospray Project                                                                     Command          Ospray-Projekt             (2 kombinierte Crowdin-Einträge)
+  <img alt="" src=images/Render_Pbrt.svg  style="width:16px;"> Pbrt Project                                                                           Command          Pbrt-Projekt               (2 kombinierte Crowdin-Einträge)
+  <img alt="" src=images/Render_Povray.svg  style="width:16px;"> Povray Project                                                                     Command          Povray-Projekt             (2 kombinierte Crowdin-Einträge)
+                                                                                                                                                                                            
+  <img alt="" src=images/Camera-photo.svg  style="width:16px;"> Camera                                                                               Command          Kamera                     
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Lights                                                                                   Generic term     Lichter                    Lichtquellen
+  <img alt="" src=images/Render_PointLight.svg  style="width:16px;"> Point Light                                                                Command          Punktförmige Lichtquelle   Punktlicht? (radiale Strahlen)
+  <img alt="" src=images/Render_AreaLight.svg  style="width:16px;"> Area Light                                                                   Command          Leuchtfläche               Flächenlicht?
+  <img alt="" src=images/Render_SunskyLight.svg‎‎  style="width:16px;"> Sunsky Light                                                         Command          Sonnenlicht                (Lichtquelle mit parallelen Strahlen)
+  <img alt="" src=images/Render_ImageLight.svg  style="width:16px;"> Image Light                                                                Command          ?                          (Leuchtreklame)
+                                                                                                                                                                                            
+  <img alt="" src=images/Render_RenderingView.svg‎‎  style="width:16px;"> Rendering View                                                   Command          Rendering-Ansicht          
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Materials                                                                                Generic term     Material                   
+  <img alt="" src=images/Arch_SetMaterial.svg‎‎‎‎  style="width:16px;"> Create Material                                                      Command          Material anlegen           Material erstellen?
+  <img alt="" src=images/Render_EditMaterialRenderSettings.svg‎‎‎‎  style="width:16px;"> Edit Material Rendering Settings   Command                                     
+  <img alt="" src=images/Render_ApplyMaterial.svg‎‎  style="width:16px;"> Apply Material                                                   Command                                     
+                                                                                                                                                                                            
+  <img alt="" src=images/Render_workbench_icon.svg‎‎  style="width:16px;"> Render                                                         Command          Rendern                    
 
 
 </div>

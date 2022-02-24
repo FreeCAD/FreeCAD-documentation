@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Stop
    Name/fr:Path Stop
-   MenuLocation:Path → Supplemental Commands → Arrêter
+   MenuLocation:Parcours → Commandes additionnelles → Arrêter
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -21,7 +21,7 @@ Cet outil insère une commande d\'arrêt (M1). Cette commande suspendra le progr
 
 ## Propriétés
 
--    {{PropertyData/fr|Stop}}: Définit si l\'arrêt est facultatif ou obligatoire.
+-    **Stop**: Définit si l\'arrêt est facultatif ou obligatoire.
 
 
 

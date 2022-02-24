@@ -12,6 +12,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -22,7 +24,13 @@ La herramienta de escaleras le permite construir automáticamente varios tipos d
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Consulte la entrada [Stairs en wikipedia](http://en.wikipedia.org/wiki/Stairs) para obtener una definición de los diferentes términos utilizados para describir las partes de las escaleras.
+
+
+</div>
 
 <img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;">
 
@@ -36,7 +44,15 @@ Consulte la entrada [Stairs en wikipedia](http://en.wikipedia.org/wiki/Stairs) p
 
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 -   Las escaleras comparten las propiedades y comportamientos comunes de todos [ Arch Components](Arch_Component.md)
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -53,37 +69,40 @@ Presiona el botón **<img src="images/Arch_Stairs.png" width=32px> Escaleras
 
 ## Propiedades
 
-### Datos
+### Data
 
-#### Arquitectura
 
--    {{PropertyData/es|Align}}: La alineación de las escaleras en su línea base, si es aplicable
+{{TitleProperty|Segment and Parts}}
 
--    {{PropertyData/es|Base}}: Editar (aún no implementado)
+-    **Abs Top|Vector**: (read-only) The absolute top level the stairs lead to.
 
--    {{PropertyData/es|Height}}: La altura total de las escaleras
+-    **Last Segment|Link**: Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
 
--    {{PropertyData/es|Length}}: La longitud total de las escaleras si no se ha definido ninguna línea base
+-    **Outline Left|VectorList**: The left outline of the stairs.
 
--    {{PropertyData/es|Width}}: El ancho de las escaleras
+-    **Outline Left All|VectorList**: The left outline of all segments of the stairs.
 
-#### Base
+-    **Outline Right|VectorList**: The right outline of the stairs.
 
--    {{PropertyData/es|Label}}: Nombre de usuario del objeto (UTF8)
+-    **Outline Right All|VectorList**: The right outline of all segments of the stairs.
 
--    {{PropertyData/es|Placement}}:
+-    **Railing Height Left|Length**: Height of the left railing of the stairs or landing.
 
-#### Escalones
+-    **Railing Height Right|Length**: Height of the right railing of the stairs or landing.
 
--    {{PropertyData/es|Nosing}}: Tamaño de las superposición de los peldaños
+-    **Railing Left|String**: Name of the left railing object.
 
--    {{PropertyData/es|Number of risers}}: Número de peldaños en las escaleras
+-    **Railing Offset Left|Length**: Offset of the left railing from the edge of the stairs or landing.
 
--    {{PropertyData/es|Riser Height}}: La altura de los peldaños
+-    **Railing Offset Right|Length**: Offset of the right railing from the edge of the stairs or landing.
 
--    {{PropertyData/es|Tread Depth}}: La profundidad de las huellas
+-    **Railing Right|String**: Name of the right railing object.
 
--    {{PropertyData/es|Tread Thickness}}: El espesor de las huellas
+
+{{TitleProperty|Stairs}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/es|Align}}: La alineación de estas escaleras en su línea base, si corresponde.
 
@@ -95,7 +114,19 @@ Presiona el botón **<img src="images/Arch_Stairs.png" width=32px> Escaleras
 
 -    {{PropertyData/es|Width}}: El ancho de estas escaleras.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Escalones
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/es|Nosing}}: El tamaño de la nariz.
 
@@ -107,7 +138,19 @@ Escalones
 
 -    {{PropertyData/es|Tread Thickness}}: El grosor de las huellas.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Estructura
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/es|Landings}}: El tipo de rellanos.
 
@@ -122,6 +165,11 @@ Estructura
 -    {{PropertyData/es|Winders}}: Tipo de escalones no rectangulares
 
 
+</div>
+
+## Limitations
+
+
 <div class="mw-translate-fuzzy">
 
 ## Limitaciones
@@ -133,6 +181,8 @@ Estructura
 
 
 </div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

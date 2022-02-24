@@ -3,7 +3,18 @@
 
 ## Introducción
 
+
+{{TOCright}}
+
+
+<div class="mw-translate-fuzzy">
+
 La [Consola de Python](Python_console/es.md) es un panel que ejecuta una instancia del intérprete de [Python](Python/es.md) que puede ser utilizado para controlar los procesos de FreeCAD, y crear y modificar objetos y sus propiedades.
+
+
+</div>
+
+It can be made visible/hidden through the **View → Panels → Python console** drop-down menu.
 
 La consola de Python en FreeCAD tiene resaltado de sintaxis básico, capaz de diferenciarse con varios estilos y colores, comentarios, cadenas, valores numéricos, funciones incorporadas, salida de texto impreso, y delimitadores como paréntesis y comas. Estas propiedades de la consola pueden ser configuradas en el [Editor de Preferencias](Preferences_Editor/es.md).
 

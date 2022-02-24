@@ -11,25 +11,20 @@ Eine [Anwendungsverknüpfung](App_Link/de.md) oder formal ein `App::Link`, ist e
 
 
 
-*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Das  `App::Link* Objekt ist eine Kernkomponente des Systems, es ist von keinem Arbeitsbereich abhängig, aber es kann mit den meisten Objekten verwendet werden, die in allen Arbeitsbereichen erstellt werden.`
+*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD*
 
 ## Anwendung
 
-1.  Wähle ein Objekt in der [Baumansicht](tree_view/de.md) oder [3D Ansichtfür](3D_view/de.md) die du eine Verknüpfung erstellen möchtest.
-2.  Drücke die **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)** Schaltfläche. Das produzierte Objekt hat dasselbe Symbol wie das Originalobjekt, ist jedoch mit einem Pfeil überlagert, der darauf hinweist, dass es sich um eine Verknüpfung handelt.
-
-Siehe die [Std VerknüpfungErstellen](Std_LinkMake/de.md) Seite für die vollständige Informationen, einschließlich der Verwendung in [Skripten](Std_Part/de#Skripten.md).
+Siehe [Std VerknüpfungErstellen](Std_LinkMake/de#Anwendung.md).
 
 ## Eigenschaften
 
-Eine [Anwendungsverknüpfung](App_Link.md) (`App::Link` Klasse) wird aus der [Anwendung DokumentObjekt](App_DocumentObject/de.md) (`App::DocumentObject` Klasse) abgeleitet. Daher haben sie die meisten gleichen Eigenschaften.
-
-Siehe die vollständige Liste der Eigenschaften auf der [Std VerknüpfungHerstellen](Std_LinkMake/de.md) Seite.
+Siehe [Std VerknüpfungHerstellen](Std_LinkMake/de#Eigenschaften.md).
 
 
-{{Std Base navi
+{{Std_Base_navi
 
-}} {{Document objects navi}}
+}} {{Document_objects_navi}}
 
 
 

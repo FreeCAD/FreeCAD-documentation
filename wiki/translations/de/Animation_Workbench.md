@@ -87,6 +87,7 @@ Andere
 -   Tutorien: [Werkzeugsatz](http://freecadbuch.de/doku.php?id=Animation%20Wokbench#abroller)
 -   Videos: [Animationsvideos](http://freecadbuch.de/doku.php?id=animation:videos)
 -   Dateien: [Beispiele](https://github.com/microelly2/Animation-WB-Examples)
+-   Testdaten: [Test cases](https://github.com/microelly2/Animation/tree/master/testcases)
 -   Fehler melden: Bitte melde Fehler unter [FreeCAD Forum](http://forum.freecadweb.org/index.php), oder unter [Animationsprobleme](https://github.com/microelly2/Animation/issues).
 
 ## Andere nützliche Verweise 

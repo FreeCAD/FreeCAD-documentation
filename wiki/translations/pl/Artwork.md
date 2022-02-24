@@ -135,6 +135,10 @@ Zobacz strone [Grafika Środowiska pracy Web](Artwork_Web.md).
 
 ## Zewnętrzne Środowiska pracy oraz dodatki 
 
+### From Mod/asm3/ 
+
+See [Artwork Assembly3](Artwork_Assembly3.md).
+
 ### Ikonki Mod/Plot/ 
 
 Zobacz stronę [Grafika Środowiska pracy Plot](Artwork_Plot.md).
@@ -142,6 +146,10 @@ Zobacz stronę [Grafika Środowiska pracy Plot](Artwork_Plot.md).
 ### Ikonki dla Mod/Reinforcement/ 
 
 Zobacz stronę [Grafika Środowiska pracy Reinforcement](Artwork_Reinforcement.md).
+
+### From Mod/Render/ 
+
+See [Artwork Render](Artwork_Render.md).
 
 ### Ikonki Mod/Ship/ 
 

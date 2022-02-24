@@ -3,18 +3,18 @@
 
 ## Version stable courante 
 
-La version 0.19.3 initiale de FreeCAD (24366) a été publiée le 04 décembre 2021. Pour découvrir les nouveautés, consultez les [notes de version](Release_notes_0.19/fr.md).
+La version 0.19.3 de FreeCAD (24366) a été publiée le 04 décembre 2021. Pour découvrir ses nouveautés, consultez la [note de version](Release_notes_0.19/fr.md).
 
-Vous pouvez trouver des checksums SHA256 pour vérifier l\'intégrité de votre téléchargement sur la [0.19.3 page des releases](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19.3).
+Vous pouvez trouver des checksums SHA256 pour vérifier l\'intégrité de votre téléchargement sur la [page de la release 0.19.3](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19.3).
 
 Les versions précédentes peuvent être téléchargées à partir de la page [releases](https://github.com/FreeCAD/FreeCAD/releases).
 
 +::+---+::+---+::+
-| ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png ) |
-|                                                                                                                                   |   |                                                                                                                 |   |                                            |
-| Install on Windows                                                                                                                |   | Install on Mac                                                                                                  |   | Install on Linux                           |
-|                                                                                                                                   |   |                                                                                                                 |   |                                            |
-| [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-2.exe) (includes installer) |   | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)     |
+| ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png )         |
+|                                                                                                                                   |   |                                                                                                                 |   |                                                    |
+| [Install on Windows](Installing_on_Windows.md)                                                                            |   | [Install on Mac](Installing_on_Mac.md)                                                                  |   | [Install on Linux](Installing_on_Linux.md) |
+|                                                                                                                                   |   |                                                                                                                 |   |                                                    |
+| [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-4.exe) (includes installer) |   | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)             |
 ++---++---++
 
 ### Notes aux utilisateurs de Windows 

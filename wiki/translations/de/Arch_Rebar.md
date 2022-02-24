@@ -23,10 +23,7 @@ Bewehrungsobjekte basieren auf 2D Profilen wie [Entwurfsobjekten](Draft_Workbenc
 
 ## Verfügbare Erweiterung 
 
-
-<div class="mw-translate-fuzzy">
-
-Das Bewehrungswerkzeug wird durch den [Bewehrung-Arbeitsbereich](Reinforcement_Workbench/de.md) erweitert, der über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert wird. Die zusätzlich verfügbaren Bewehrungstypen der Erweiterung sind:
+Das Bewehrungswerkzeug wird durch den Arbeitsbereich [Reinforcement](Reinforcement_Workbench/de.md) erweitert, der über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert wird. Die zusätzlich verfügbaren Bewehrungstypen der Erweiterung sind:
 
 -   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)
 -   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)
@@ -34,9 +31,6 @@ Das Bewehrungswerkzeug wird durch den [Bewehrung-Arbeitsbereich](Reinforcement_W
 -   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Gebogener Formstab](Arch_Rebar_BentShape/de.md)
 -   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)
 -   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)
-
-
-</div>
 
 ## Anwendung
 

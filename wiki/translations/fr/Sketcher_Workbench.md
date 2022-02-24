@@ -266,13 +266,15 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Convertir une géométrie en B-spline](Sketcher_BSplineApproximate/fr.md)
 
--   <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:32px;"> [Augmenter le degré de la B-Spline](Sketcher_BSplineIncreaseDegree/fr.md)
+-   <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:32px;"> [Augmenter le degré de la B-spline](Sketcher_BSplineIncreaseDegree/fr.md)
 
--   <img alt="" src=images/Sketcher_BSplineDecreaseDegree.svg  style="width:32px;"> [Diminuer le degré de la B-Spline](Sketcher_BSplineDecreaseDegree/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Sketcher_BSplineDecreaseDegree.svg  style="width:32px;"> [Diminuer le degré de la B-spline](Sketcher_BSplineDecreaseDegree/fr.md), {{Version/fr|0.19}}
 
--   <img alt="" src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg  style="width:32px;"> [Augmenter la multiplicité des nœuds de la BSpline](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md)
+-   <img alt="" src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg  style="width:32px;"> [Augmenter la multiplicité des nœuds de la B-spline](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md)
 
--   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Diminuer la multiplicité des nœuds de la BSpline](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)
+-   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Diminuer la multiplicité des nœuds de la B-spline](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)
+
+-   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insérer un nœud](Sketcher_BSplineInsertKnot/fr.md), {{Version/fr|0.20}}
 
 ### Espace virtuel de l\'esquisse 
 

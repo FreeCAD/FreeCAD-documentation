@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Area Workplane
    Name/fr:Path Zone de travail plane
-   MenuLocation:Path → Zone de travail plane
+   MenuLocation:Parcours → Zone de travail plane
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 

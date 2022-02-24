@@ -1,4 +1,6 @@
 # Mesh/de
+{{TOCright}}
+
 ## Einleitung
 
 In FreeCAD wird das Wort \"[Polygonnetz](Mesh/de.md)\" normalerweise verwendet, um sich auf ein [Polygonnetz PolygonnetzObjekt](Mesh_MeshObject/de.md) (`Mesh::MeshObject` Klasse) zu beziehen, ein Objekttyp, der 3D Daten definiert, aber kein Volumenkörper \"[Form](Shape/de.md)\" ist.
@@ -21,7 +23,13 @@ Polygonnetze werden normalerweise durch interne Funktionen der [Polygonnetz Arbe
 
 Im Wesentlichen wird jedes Objekt, das von einer [Polygonnetz Formelement](Mesh_Feature/de.md) (`Mesh::Feature` Klasse) abgeleitet ist, wird erwartet, ein Polygonnetz zu halten und zu verändern.
 
+
+<div class="mw-translate-fuzzy">
+
 Da FreeCAD in erster Linie als Volumenmodellierer konzipiert ist, ist es besser geeignet, mit Volumenkörpern [Formen](Shape/de.md) zu arbeiten. Es kann Netze in der [3D Ansicht](3D_view.md) importieren und anzeigen, aber um sie zu transformieren oder neue Geometrie zu erzeugen, muss das Netz zuerst in eine [Form](Shape/de.md) konvertiert werden (siehe [Part FormAusPolygonnetz](Part_ShapeFromMesh/de.md)). In vielen Fällen erfolgt diese Konvertierung nicht automatisch und erfordert die Neuerstellung der Geometrie mit Volumenkörpermodellierungstechniken unter Verwendung der [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) Werkzeuge.
+
+
+</div>
 
 ## Finite Element Netze 
 

@@ -438,7 +438,13 @@ As imagens podem ser carregadas através da página [Enviar arquivo](Special:Upl
 
 ### Nome
 
+
+<div class="mw-translate-fuzzy">
+
 Dê nomes significativos às suas imagens. Se você tiver uma imagem que mostre as características de um determinado comando, você deve usar o nome desse comando com `_example` no final. Por exemplo, para o comando [Draft Offset](Draft_Offset/pt-br.md), a imagem deve ser chamada `Draft_Offset_example.jpg`.
+
+
+</div>
 
 ### Captura de tela 
 

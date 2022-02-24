@@ -166,6 +166,8 @@ These are tools to improve your TechDraw drawings.
 
 -   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [AreaAnnotation](TechDraw_ExtensionAreaAnnotation.md): insert an area annotation. <small>(v0.20)</small> 
 
+-   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [CustomizeFormat](TechDraw_ExtensionCustomizeFormat.md): customize balloon text or dimension format specifier. <small>(v0.20)</small> 
+
 ### Centerlines and threading 
 
 -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Add Circle Centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 

@@ -7,7 +7,7 @@ Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 
 ### src/Mod/Part/Gui/Resources/icons/
 
-<img alt="" src=images/Part_2D_object.svg  style="width:64px;"> <img alt="" src=images/Part_3D_object.svg  style="width:64px;"> <img alt="" src=images/Part_BoxSelection.svg  style="width:64px;"> <img alt="" src=images/Part_Export.svg  style="width:64px;"> <img alt="" src=images/Part_Feature.svg  style="width:64px;"> <img alt="" src=images/Part_FeatureImport.svg  style="width:64px;"> <img alt="" src=images/Part_Import.svg  style="width:64px;"> <img alt="" src=images/PartWorkbench.svg  style="width:64px;"> <img alt="" src=images/Preferences-part_design.svg  style="width:64px;">
+<img alt="" src=images/Part_2D_object.svg  style="width:64px;"> <img alt="" src=images/Part_3D_object.svg  style="width:64px;"> <img alt="" src=images/Part_BoxSelection.svg  style="width:64px;"> <img alt="" src=images/Part_Export.svg  style="width:64px;"> <img alt="" src=images/Part_Feature.svg  style="width:64px;"> <img alt="" src=images/Part_FeatureImport.svg  style="width:64px;"> <img alt="" src=images/Part_Import.svg  style="width:64px;"> <img alt="" src=images/Part_SectionCut.svg  style="width:64px;"> <img alt="" src=images/PartWorkbench.svg  style="width:64px;"> <img alt="" src=images/Preferences-part_design.svg  style="width:64px;">
 
 ### src/Mod/Part/Gui/Resources/icons/booleans
 

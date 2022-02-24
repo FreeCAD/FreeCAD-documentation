@@ -12,7 +12,7 @@
 
 ## Description
 
-Partie de bâtiment (BuildingPart) remplace les anciens [Arch Planchers](Arch_Floor/fr.md) et [Arch Bâtiment](Arch_Building/fr.md) par une version plus performante qui peut être utilisée non seulement pour créer un plancher/étage/niveaux mais également pour toutes sortes de situations dans lesquelles différents objets Arch/BIM doivent être groupés. Ce groupe pourra être traité comme un seul objet ou répliqué.
+Partie de bâtiment (BuildingPart) remplace les anciens [Arch Niveaux](Arch_Floor/fr.md) et [Arch Bâtiment](Arch_Building/fr.md) par une version plus performante qui peut être utilisée non seulement pour créer un plancher/étage/niveaux mais également pour toutes sortes de situations dans lesquelles différents objets Arch/BIM doivent être groupés. Ce groupe pourra être traité comme un seul objet ou répliqué.
 
 ## Utilisation
 

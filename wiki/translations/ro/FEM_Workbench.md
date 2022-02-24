@@ -96,6 +96,8 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-constraint-pressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure/ro.md): Utilizat pentru a defini constrângere de presiune.
 
+-   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constraint centrif](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
+
 -   <img alt="" src=images/Fem-constraint-selfweight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight/ro.md): Utilizat pentru a defini accelerația gravitațională care acționează asupra modelului.
 
 ### Constrângeri termice 

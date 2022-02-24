@@ -27,7 +27,13 @@ Das <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width
 4.  Bei jedem Kreis und Kreisbogen werden Mittellinien hinzugefügt.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw_Tools_navi

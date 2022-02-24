@@ -290,6 +290,8 @@ Sketcher не предназначен для создания 2D чертеже
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Уменьшить количество узлов сопряжения B-сплайна](Sketcher_BSplineDecreaseKnotMultiplicity/ru.md)
 
+-   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md), <small>(v0.20)</small> 
+
 ### Виртуальное пространство эскиза 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Переключатель Виртуального Пространства](Sketcher_SwitchVirtualSpace/ru.md): Позволяет «скрыть» все ограничения эскиза и сделать их снова видимыми.

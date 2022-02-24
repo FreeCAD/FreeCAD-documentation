@@ -83,7 +83,13 @@ Kantennummern sind nicht vollständig stabil, daher ist es ratsam, dass Du die H
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Lies mehr unter [topologisches Namensproblem](topological_naming_problem/de.md).
+
+
+</div>
 
 ## Skripten
 

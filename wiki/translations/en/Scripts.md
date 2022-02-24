@@ -18,7 +18,7 @@
 
 ## Introduction
 
-With Scripting we mean create topological objects using FreeCAD\'s Python interpreter. FreeCAD could be used a \"very good\" replacement of OpenSCAD, manìinly beacause it has a real Python interpreter, that means that it has a real programming language on board, almost everything you could do with the GUI, is doable with a Python Script.
+With Scripting we mean create topological objects using FreeCAD\'s Python interpreter. FreeCAD could be used a \"very good\" replacement of OpenSCAD, mainly because it has a real Python interpreter, that means that it has a real programming language on board, almost everything you could do with the GUI, is doable with a Python Script.
 
 Sadly information about scripting in the documentation, and even in this wiki are scattered around and lacks of \"writing\" uniformity and most of them are explained in a too technical manner.
 
@@ -35,7 +35,6 @@ To make the things in a polite way, the file has to be written with some order, 
    Primo script per FreeCAD
 
 """
-
 ```
 
 Save them with a meaningfull name with `.py` extension and load the resulting file in FreeCAD, with the said **File - Open** command.
@@ -49,7 +48,6 @@ A minimal example of what is necessary to have in a script is shown in this port
    Here a short but significant description of what the script do 
 
 """
-
 
 import FreeCAD
 from FreeCAD import Base, Vector
@@ -71,20 +69,16 @@ def setview():
     FreeCAD.Gui.SendMsgToActiveView("ViewFit")
     FreeCAD.Gui.activeDocument().activeView().viewAxometric()
 
-
 if DOC is None:
     FreeCAD.newDocument(DOC_NAME)
     FreeCAD.setActiveDocument(DOC_NAME)
     DOC = FreeCAD.activeDocument()
-
 else:
-
     clear_doc()
 
 # EPS= tolerance to use to cut the parts
 EPS = 0.10
 EPS_C = EPS * -0.5
-
 ```
 
 Some tricks are incorporated in the above code:
@@ -112,7 +106,6 @@ def cubo(nome, lung, larg, alt):
 obj = cubo("test_cube", 5, 5, 5)
 
 setview()
-
 ```
 
 Put these lines after the \"template\" code and press the green arrow in the **Macro toolbar**
@@ -123,7 +116,7 @@ You will see some magic things, a new document is open named \"Pippo\" (Italian 
 
 ## Something more\... 
 
-Not too amazing? Yes, but we have to start somewhere, we can do the same thing with a [Cylinder](Part_Cylinder.md), add these lines of code after the `cubo(` method and before the line `# objects definition`.
+Not too amazing? Yes, but we have to start somewhere, we can do the same thing with a [Cylinder](Part_Cylinder.md), add these lines of code after the `cubo()` method and before the line: `# objects definition`.
 
 
 ```python
@@ -166,7 +159,6 @@ Let\'s use the geometries, delete lines below the code section starting with `# 
 
 
 ```python
-
 # objects definition
 
 obj = cubo("cubo_di_prova", 5, 5, 5)
@@ -176,7 +168,6 @@ obj1 = base_cyl('primo cilindro', 360,2,10)
 fuse_obj("Fusione", obj, obj1)
 
 setview()
-
 ```
 
 Launch the script with the green arrow and we will see in the 3D view something like:
@@ -193,7 +184,7 @@ FreeCAD offer a wide choice of ways to set this property, one is more tailored t
 
 
 ```python 
-FreeCAD.Placement(Vector(0,0,0), FreeCAD.Rotation(10,20,30), Vector(0,0,0))
+FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 ```
 
 But over other consideration, one thing is crucial, geometry **reference point**, in other word the point from which the object is modeled by FreeCAD, as described in this table, copied from [Placement](Placement.md):
@@ -205,7 +196,7 @@ But over other consideration, one thing is crucial, geometry **reference point**
   Part.Cylinder                    center of the bottom face
   Part.Cone                        center of bottom face (or apex if bottom radius is 0)
   Part.Torus                       center of the torus
-  Features derived from Sketches   the Feature inherits the Position of the underlying Sketch. Sketches always start with Position = (0,0,0). This position corresponds to the origin in the sketch.
+  Features derived from Sketches   the Feature inherits the Position of the underlying Sketch. Sketches always start with Position = (0, 0, 0). This position corresponds to the origin in the sketch.
 
 This information has to be kept in mind especially when we have to apply a rotation.
 
@@ -213,13 +204,11 @@ Some examples may help, delete all the line after `base_cyl` method and insert t
 
 
 ```python
-
 def sfera(nome, rad):
     obj = DOC.addObject("Part::Sphere", nome)
     obj.Radius = radDOC.recompute()
 
     return obj   
-
 
 def mfuse_obj(nome, objs):
     obj = DOC.addObject("Part::MultiFuse", nome)
@@ -228,7 +217,6 @@ def mfuse_obj(nome, objs):
     DOC.recompute()
 
     return obj
-
 
 def aeroplano():
 
@@ -246,15 +234,15 @@ def aeroplano():
     obj2 = cubo('ali', ap_alare, spess_ali, larg_ali, True, off_ali)
 
     obj3 = sfera("naso", diam_fus)
-    obj3.Placement = FreeCAD.Placement(Vector(0,0,lung_fus), FreeCAD.Rotation(0,0,0), Vector(0,0,0))
+    obj3.Placement = FreeCAD.Placement(Vector(0, 0, lung_fus), FreeCAD.Rotation(0, 0, 0), Vector(0, 0, 0))
 
     obj4 = cubo('impennaggio', spess_ali, alt_imp, larg_ali, False, 0)
-    obj4.Placement = FreeCAD.Placement(Vector(0,alt_imp * -1,0), FreeCAD.Rotation(0,0,0), Vector(0,0,0))
+    obj4.Placement = FreeCAD.Placement(Vector(0, alt_imp * -1, 0), FreeCAD.Rotation(0, 0, 0), Vector(0, 0, 0))
 
     objs = (obj1, obj2, obj3, obj4)
 
     obj = mfuse_obj("Forma esempio", objs)
-    obj.Placement = FreeCAD.Placement(Vector(0,0,0), FreeCAD.Rotation(0,0,-90), Vector(0,0,pos_ali))
+    obj.Placement = FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali))
 
     DOC.recompute()
 
@@ -265,7 +253,6 @@ def aeroplano():
 aeroplano()
 
 setview()
-
 ```
 
 Let\'s explain something in the code:
@@ -273,7 +260,7 @@ Let\'s explain something in the code:
 -   We have used a method to define a sphere, using the most easy definition, using only the radius.
 -   We have introduced a second writing for the **Union** or **Fusion**, using multiple objects, not more distant from the usual **Part::Fuse** it uses **Part:Multifuse**. We only use one property `Shapes`. We have passed a **tuple** as arguments, but it accepts also a **list**.
 -   We have defined a complex object **aeroplano** (italian word for aeroplane), but we have done it in a **\"parametric\"** way, defining some parameters and deriving other parameters, through some calculation, based on the main parameters.
--   We have used some Placement `Placement` poperties around in the method and before returning the final geometries we have used a `Rotation` property with the *Yaw-Pitch-Roll* writing. Note the last `Vector(0,0, pos_ali)`, that define a **center of rotation** of the whole geometry.
+-   We have used some Placement `Placement` poperties around in the method and before returning the final geometries we have used a `Rotation` property with the *Yaw-Pitch-Roll* writing. Note the last `Vector(0, 0, pos_ali)`, that define a **center of rotation** of the whole geometry.
 
     
   ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
@@ -281,27 +268,25 @@ Let\'s explain something in the code:
 
 It can be easily noted that **aeroplano** geometry rotate around his \"barycenter\" or \"center of gravity\", that I\'ve fixed at wing center, a place that is relatively \"natural\", but could be placed wherever you want.
 
-The first `Vector(0,0,0)` is the Translation vector, not used here, but if you substitute `aeroplano()` with these lines:
+The first `Vector(0, 0, 0)` is the Translation vector, not used here, but if you substitute `aeroplano()` with these lines:
 
 
 ```python
-
 obj_f = aeroplano()
 
 print(obj_F.Placement)
-
 ```
 
 You will see in the Report window this text:
 
 
 ```python
-Placement [Pos=(0,-21,21), Yaw-Pitch-Roll=(0,0,-90)]
+Placement [Pos=(0, -21, 21), Yaw-Pitch-Roll=(0, 0, -90)]
 ```
 
 What has happened?
 
-FreeCAD has translated the `Vector(0,0,0), FreeCAD.Rotation(0,0,-90), Vector(0,0,pos_ali)` in other word our `Placement` definition that specifies three components, **Translation**, **Rotation** and *center of rotation*\' in the \"internal\" values of only two components, **Translation** and **Rotation**.
+FreeCAD has translated the `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali)` in other word our `Placement` definition that specifies three components, **Translation**, **Rotation** and *center of rotation*\' in the \"internal\" values of only two components, **Translation** and **Rotation**.
 
 you can easily visualize the value of `pos_ali` using a print statement in the `aeroplano(...` method and see that it is:
 
@@ -310,7 +295,7 @@ you can easily visualize the value of `pos_ali` using a print statement in the `
 pos ali =  21.0
 ```
 
-in other word the **rotation center** of the geometry is at `Vector(0,0,21)`, but this rotation center is not shown in the GUI, it could be entered as a `Placement` value, it could not be easily retrieved.
+in other word the **rotation center** of the geometry is at `Vector(0, 0, 21)`, but this rotation center is not shown in the GUI, it could be entered as a `Placement` value, it could not be easily retrieved.
 
 This is the meaning of the word \"awkward\" that I\'ve used to define `Placement` property.
 

@@ -1,13 +1,26 @@
 # Installing on Windows/ru
+{{TOCright}}
+
+## Standard Installation 
+
+
 <div class="mw-translate-fuzzy">
 
-Наиболее лёгкий способ установить FreeCAD под Windows - это загрузить одну из программ установки по ссылке ниже.
+Простейший способ **установить FreeCAD на Windows** - использовать пакет загружаемой программы установки выше. Эта страница описывает использование и возможности *Microsoft Installer* для дополнительных опций установки.
 
 
 </div>
 
 
 {{DownloadWindowsStable}}
+
+
+<div class="mw-translate-fuzzy">
+
+Если вы хотите загрузить версию для разработчиков (которая может быть нестабильной), см. страницу [ Загрузки](Download.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -25,176 +38,82 @@
 
 </div>
 
-## Простая установка c Microsoft Installer 
+## Installation for all users of the Windows system 
 
-Простейший способ **установить FreeCAD на Windows** - использовать пакет загружаемой программы установки выше. Эта страница описывает использование и возможности *Microsoft Installer* для дополнительных опций установки.
+By default FreeCAD will be installed for the user that executes the installer. If this user only has user permissions, the default installation path is:
 
-Если вы хотите загрузить версию для разработчиков (которая может быть нестабильной), см. страницу [ Загрузки](Download.md).
+:   
+    {{FileName|C:\Users\<username>\AppData\Local\Programs\FreeCAD X.YY}}
+    
+
+If the installer is executed by an admin user, or you execute it as admin, you can choose if FreeCAD should be installed for all users of the system or just for you. The default is for all users.
+
+If installed for all users, the default installation path is:
+
+:   
+    {{FileName|C:\Program Files\FreeCAD X.YY}}
+    
+
+## Silent Installation 
+
+To install FreeCAD silently, you can execute the installer from the command line:
+
+
+{{Code|lang=text|code=
+FreeCAD-~.exe /S
+}}
+
+Default settings will be used for all options. A custom installation path can be specified in this manner:
+
+
+{{Code|lang=text|code=
+FreeCAD-~.exe /S /D=A path to FreeCAD with spaces
+}}
+
+By default, even with silent installations, there will be a short popup when the installer is checked for corruption. This so-called cyclic redundancy check only takes a few seconds at most. To disable this corruption check:
+
+
+{{Code|lang=text|code=
+FreeCAD-~.exe /S /NCRC
+}}
+
+Note that this {{Incode|/NCRC}} flag is **not recommended** since the corruption check assures that the installer was e.g. completely downloaded.
 
 ## Chocolatey
 
-However, it is highly recommended that you use a package manager such as Chocolatey to keep your software updated. You can installed Chocolatey following [these instructions](https://chocolatey.org/install) and then open a PowerShell terminal as admin and run:
+It is highly recommended that you use a package manager such as Chocolatey to keep your software updated. You can install Chocolatey following [these instructions](https://chocolatey.org/install) and then open a PowerShell terminal as admin and run:
 
 
-```python
+{{Code|lang=text|code=
 choco install freecad
-```
+}}
 
-every once in a while you can update your software with
+Every once in a while you can update your software with:
 
 
-```python
+{{Code|lang=text|code=
 choco upgrade freecad
-```
+}}
 
-to get the latest version available on Chocolatey repository. If there are any issues with the chocolatey package, you may contact maintainers on [this page](https://chocolatey.org/packages/freecad).
-
-## Установка из командной строки 
-
-В утилите командной строки *msiexec.exe* доступны дополнительные особенности, такие как не интерактивная установка и административная установка. Смотрите примеры ниже.
-
-### Не интерактивная установка 
-
-Из командной строки
-
-
-```python
-msiexec /i FreeCAD<version>.msi
-```
-
-установка может быть начата программно. Дополнительные параметры могут быть переданы в конце командной строки, например
-
-
-```python
-msiexec /i FreeCAD-2.5.msi TARGETDIR=R:\FreeCAD25
-```
-
-### Ограниченный интерфейс пользователя 
-
-Величину пользовательского вмешательства, разрешенного установщиком, можно контролировать с помощью параметров /q:
-
--   /qn - без интерфейса
--   /qb - основной интерфейс - только маленький диалог прогресса с кнопкой Отмена
--   /qb! - как /qb, но скрыть кнопку Отмена
--   /qr - уменьшенный интерфейс - отображать все диалоги, которые не требуют взаимодействия с пользователем (пропустить все модальные диалоги)
--   /qn+ - как /qn, но отобразить диалог \"Завершено\" по окончании
-
-### Целевая папка 
-
-Параметр TARGETDIR определяет корневую папку для установки FreeCAD. Например, для установки на отдельный диск, может быть указано
-
-
-```python
-TARGETDIR=R:\FreeCAD25
-```
-
-По умолчанию TARGETDIR имеет значение \[WindowsVolume\\Programm Files\\\]FreeCAD.
-
-### Установка для всех пользователей 
-
-Добавление
-
-
-```python
-ALLUSERS=1
-```
-
-приводит к установке для всех пользователей. По умолчанию, не интерактивная установка (/i) устанавливает пакет только для текущего пользователя(который выполняет установку), а интерактивная установка предлагает диалог со значением по умолчанию \"для всех пользователей\", если пользователь, выполняющий установку, имеет достаточно привилегий.
-
-### Выбор функций 
-
-Некоторые из параметров позволяют выбрать функции при установке, переустановке или удалении. Перечень функций для установки FreeCAD
-
--   DefaultFeature - установить программное обеспечение и основные библиотеки
--   Documentation - установить документацию
--   Source code - установить исходники
--   \... ToDo
-
-Кроме того, ALL указывает все функции. Все функции зависят от DefaultFeature, поэтому при установке любой функции автоматически устанавливается и функция по умолчанию. Следующие свойства управляют функциями, которые будут установлены или удалены
-
--   ADDLOCAL - список функций, которые будут установлены на локальном компьютере
--   REMOVE - список функций, которые будут удалены с локального компьютера
--   ADDDEFAULT - список функций, добавленных с конфигурацией по умолчанию (локально для всех функций FreeCAD)
--   REINSTALL - список функций, подлежащих переустановке / восстановлению
--   ADVERTISE - список функций, для которых необходимо выполнить рекламную установку
-
-Есть несколько дополнительных свойств; для деталей см. документацию MSDN.
-
-С этими опциями, добавив
-
-
-```python
-ADDLOCAL=Extensions
-```
-
-устанавливается сам интерпретатор и регистрируются расширения, но больше ничего не устанавливается.
+This will get the latest version available from the Chocolatey repository. If there are any issues with the Chocolatey package, you can contact maintainers on [this page](https://chocolatey.org/packages/freecad).
 
 ## Удаление
 
-С
+To uninstall FreeCAD it is preferable to use the Windows tools for uninstalling software. Alternatively you can execute the uninstaller directly. This is the file:
+
+:   
+    {{FileName|Uninstall-FreeCAD.exe}}
+    
+
+You can find it in the folder where FreeCAD is installed.
+
+The uninstaller can also be executed silently using the command line:
 
 
-```python
-msiexec /x FreeCAD<version>.msi
-```
+{{Code|lang=text|code=
+Uninstall-FreeCAD.exe /S}}
 
-FreeCAD может быть удален. Для удаления нет необходимости иметь файл MSI; как вариант могут быть указаны пакет или код продукта. Вы можете найти код продукта, просмотрев свойства ярлыка Uninstall, который FreeCAD устанавливает в меню «Пуск».
-
-## Административная установка 
-
-С
-
-
-```python
-msiexec /a FreeCAD<version>.msi
-```
-
-«административная» (сетевая) установка может быть инициирована. Файлы распаковываются в целевой каталог (который должен быть сетевым каталогом), но никакие другие изменения не вносятся в локальную систему. Кроме того, в целевом каталоге создается другой (меньший) msi-файл, который клиенты затем могут использовать для локальной установки (в будущих версиях также может быть предложено сохранить некоторые функции на сетевом диске в целом).
-
-В настоящее время пользовательский интерфейс для административных установок отсутствует, поэтому целевой каталог необходимо передавать в командной строке.
-
-Специальной процедуры удаления для административной установки не существует - просто удалите целевой каталог, если его больше не использует ни один клиент.
-
-## Реклама
-
-С
-
-
-```python
-msiexec /jm FreeCAD<version>.msi
-```
-
-в принципе можно было бы «рекламировать» FreeCAD на машине (с / ju для пользователя). Это приведет к тому, что в меню «Пуск» появятся значки и будут зарегистрированы расширения без фактической установки ПО. Первое использование функции приведет к ее установке.
-
-В настоящее время установщик FreeCAD поддерживает только рекламу пунктов меню «Пуск», но не ярлыков.
-
-## Автоматическая установка на группу машин 
-
-С помощью групповой политики Windows можно автоматически устанавливать FreeCAD на группу компьютеров. Для этого выполните следующие действия:
-
-1.  Перейти на контроллер домена
-2.  Скопируйте файл MSI в папку, к которой открыт общий доступ для всех целевых компьютеров.
-3.  Откройте оснастку MMC «Пользователи и компьютеры Active Directory»
-4.  Перейдите к группе компьютеров, которым нужен FreeCAD
-5.  Открыть Свойства
-6.  Открыть Групповую Политику
-7.  Добавить новую политику и редактировать ее
-8.  В разделе «Конфигурация компьютера / Установка программного обеспечения» выберите «Новый» / «Пакет».
-9.  Выберите файл MSI через сетевой путь
-10. Опционально, выберите, что вы хотите, чтобы FreeCAD был деинсталлирован, если компьютер выходит за рамки политики.
-
-Распространение групповой политики обычно занимает некоторое время - для надежного развертывания пакета все компьютеры должны быть перезагружены.
-
-## Установка в Linux с использованием Crossover Office 
-
-Вы можете установить Windows-версию FreeCAD в системе Linux, используя \'\' CXOffice 5.0.1 \'\'. Запустите msiexec из командной строки CXOffice. Предполагается что установочный пакет находится в каталоге «software» на диске «Y:»:
-
-
-```python
-msiexec /i Y:\\software\\FreeCAD<version>.msi
-```
-
-FreeCAD работает, но сообщается, что OpenGL дисплей не работает, как и другие программы, работающие под [Wine](wikipedia:Wine_(software).md), то есть Google [SketchUp](wikipedia_SketchUp.md).
+Note that (silent) uninstallation will fail if there is a running instance of FreeCAD, even if that instance is not the version being uninstalled.
 
 
 

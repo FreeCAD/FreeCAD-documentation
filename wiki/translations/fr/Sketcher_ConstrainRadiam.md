@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+- GuiCommand:/fr
    Name:Sketcher ConstrainRadiam
    Name/fr:Sketcher Contrainte automatique rayon/diamètre
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte automatique rayon/diamètre

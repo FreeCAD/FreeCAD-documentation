@@ -10,49 +10,46 @@
 
 ## Description
 
-Creates a simple parametric torus, with position, angle1, angle2, angle3, radius1 and radius2 as parameters.
+The <img alt="" src=images/Part_Torus.svg  style="width:24px;"> [Part Torus](Part_Torus.md) command creates a parametric torus solid.
 
- <img alt="" src=images/SimpleTorus.jpg  style="width:400px;"> 
+FreeCAD creates a torus, with a radius 1 of 2 millimetre and a radius 2 of 10 millimetre.
+
+By default, the torus is positioned with its mass center at the origin (0,0,0).
+
+ ![](images/Part_Torus_Example.png ) 
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md)
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Torus.svg" width=16px> Torus** button in the toolbar.
-    -   Select the **Part → Primitives → <img src="images/Part_Torus.svg" width=16px> Torus** from the menu bar.
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Torus.svg" width=16px> [Torus](Part_Torus.md)** button.
+    -   Select the **Part → Primitives → <img src="images/Part_Torus.svg" width=16px> Torus** option from the menu.
 
-**Result:** The torus will be positioned at origin (point 0,0,0) on creation.
-The angle parameters (angle1, angle2, angle3), as well as the radius parameters (radius1, radius2) permit to parametrize the torus, see next section.
+## Example
 
-## Option
+![Part Torus scripting example.](images/Part_Torus_Scripting_Example.png )
 
-![](images/TorusExampleOverviewParameters.jpg )
+A Part Torus object with the values of the bottom scripting example are shown here.
 
-**Parameter**
+## Properties
 
-A torus can be assimilated to a small disc that makes a circular orbit around an imaginary axe. Thus the parametric torus is defined by the following parameters:
+See also: [Property editor](Property_editor.md).
 
--    {{Parameter|Radius1:}}Radius of the circle around which the disc circulate
+A Part Torus object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
--    {{Parameter|Radius2:}}Radius of the disc defining the form of the torus
+### Data
 
--    {{Parameter|Angle1:}}1st angle to cut / define the disc of the torus
 
--    {{Parameter|Angle2:}}2nd angle to cut / define the disc of the torus
+{{TitleProperty|Torus}}
 
--    {{Parameter|Angle3:}}3rd angle to define the circumference of the torus.
+-    **Radius1|Length**: Radius of the circle around which the disc circulate
 
-As well as the standard set of placement parameters. The pictures below give a visual overview of the parameters antecedently mentioned:
+-    **Radius2|Length**: Radius of the disc defining the form of the torus
 
-![](images/TorusExampleRadius1.jpg ) The parameter Radius1 has a value of 20 mm.
+-    **Angle1|Angle**: 1st angle to cut / define the disc of the torus
 
-![](images/TorusExampleRadius2.jpg ) The parameter Radius2 has a value of 2 mm.
+-    **Angle2|Angle**: 2nd angle to cut / define the disc of the torus
 
-![](images/TorusExampleAngle1.jpg ) The parameter Angle1 has a value of -90°. Notice that, the \'angle measure\' tool cannot display negative angle. Considered the displayed value in picture as \'-90°\'.
-
-![](images/TorusExampleAngle2.jpg ) The parameter Angle2 has a value of 90°.
-
-![](images/TorusExampleAngle3.jpg ) The parameter Angle3 has a value of 90°. 
+-    **Angle3|Angle**: 3rd angle to define the circumference of the torus.
 
 ## Scripting
 
@@ -63,15 +60,12 @@ A Part Torus can be created using the following function:
 torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
 ```
 
--   Where {{Incode|"myTorus"}} is the name for the object.
+-   Where {{Incode|myTorus}} is the user editable name for the object.
 -   The function returns the newly created object.
 
-The name of the object can be easily changed by
+The label text of the object can be easily changed by
 
  
-```python
-torus.Label = "new torusName"
-```
 
 You can access and modify attributes of the {{Incode|torus}} object. For example, you may wish to modify the radii or angle parameters.
 
@@ -79,23 +73,19 @@ You can access and modify attributes of the {{Incode|torus}} object. For example
 ```python
 torus.Radius1 = 20
 torus.Radius2 = 10
-torus.Angle0 = -90
-torus.Angle1 = 45
-torus.Angle2 = 270
+torus.Angle1 = -90
+torus.Angle2 = 45
+torus.Angle3 = 270
 ```
 
-The result will be a quarter of a torus.
+The result will be a three-quarter torus.
 
 You can change its placement and orientation with:
 
  
 ```python
-torus.Placement = FreeCAD.Placement(FreeCAD.Vector(2, 4, 6), FreeCAD.Rotation(30, 45, 10))
+torus.Placement = FreeCAD.Placement(FreeCAD.Vector(1, 2, 3), FreeCAD.Rotation(30, 45, 10))
 ```
-
-The Part Torus with the values of the scripting example looks like:
-
-![Part Torus with the values of the scripting example.](images/Part_Torus_Scripting_Example.png )
 
 
 

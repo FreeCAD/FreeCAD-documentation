@@ -4,8 +4,8 @@
 |Icon=Snip.png
 |Description=Use this macro to easily post screenshots to the FreeCAD forum.<br/>It is best to add this macro to your global custom macros toolbar for quick and easy access.<br/>When posting to the FreeCAD forum it is often useful to be able to include screenshots. The problem is this is a somewhat tedious task. This macro is to make that task a bit easier.<br/>The macro can take screenshots or it can use existing screenshots that have already been copied to the system clipboard. To bypass the image already in clipboard press the Shift key while invoking the macro. To use the macro to take the screenshot adjust the size and placement of the dialog that pops up, then click OK. Upon clicking OK the macro will attempt to take a screenshot of the area of the screen covered by the dialog. The dialog itself is semi-transparent, so you can see the contents beneath. 
 |Author=TheMarkster
-|Version=1.21
-|Date=2020.10.19
+|Version=1.22
+|Date=2022.02.23
 |FCVersion=All
 |Download=[https://wiki.freecadweb.org/images/a/a0/Snip.png ToolBar Icon]
 |SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md) <img src="images/Macro_Copy3DViewToClipboard.png" width=24px><br/>[Macro Screen Wiki](Macro_Screen_Wiki.md) <img src="images/Macro_Screen_Wiki.png" width=24px>
@@ -127,8 +127,8 @@ __title__ = "Snip"
 __author__ = "TheMarkster"
 __url__ = ""
 __Wiki__ = ""
-__date__ = "2020.10.19"
-__version__ = 1.21
+__date__ = "2022.02.23"
+__version__ = 1.22
 import FreeCAD
 from PySide import QtGui,QtCore
 import uuid
@@ -175,6 +175,16 @@ class SnipBox(QtGui.QDialog):
             textEdit.setMinimumWidth(0)
             textEdit.setMaximumWidth(16777215)
             textEdit.setSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
+#thanks to mario52 for this
+        if result == True:
+            try:
+                rect = mb.frameGeometry()
+                rectwidth  = rect.width()
+                rectheight = rect.height()
+                mb.setWindowTitle("Snip macro v"+str(__version__)+"  "+str(rectwidth)+" x "+str(rectheight))
+            except Exception:
+                None
+##############
         return result
 pg = FreeCAD.ParamGet("User parameter:Plugins/Snip_Macro")
 #parameters were originally in BaseApp, but should be in Plugins, so relocate if necessary

@@ -10,22 +10,27 @@
 
 ## Description
 
-Creates a simple parametric cylinder, with position, angle, radius and height parameters.
+The <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [Part Cylinder](Part_Cylinder.md) command creates a parametric cylinder solid.
+
+FreeCAD creates a cylinder, with a radius of 2 millimetres and a height of 10 millimetre.
+
+By default, the cylinder is positioned with the center of the bottom circle at the origin (0,0,0). The bottom of the cylinder is on the xy-plane. Its extension in z-direction follows the positive axis value.
+
+ ![](images/Part_Cylinder_Example.png ) 
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md)
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Cylinder.svg" width=16px> Cylinder** button in the toolbar.
-    -   Select **Part → Primitives → <img src="images/Part_Cylinder.svg" width=16px> Cylinder** entry from the top menu
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Cylinder.svg" width=16px> [Cylinder](Part_Cylinder.md)** button.
+    -   Select the **Part → Primitives → <img src="images/Part_Cylinder.svg" width=16px> Cylinder** option from the menu.
 
-**Result:** The default result is a full cylinder with a radius of 2 mm and height of 10 mm, centered along the global z-axis and attached to the global xy-plane.
+## Example
 
-The cylinder properties can later be edited, either in the [Property editor](Property_editor.md) or by double-clicking the cylinder in the [Tree view](Tree_view.md).
+![Part Cylinder scripting example.](images/Part_Cylinder_Scripting_Example.png )
 
-<img alt="a cylinder created with the Cylinder tool" src=images/cylinder.png  style="width:650px;">
+A Part Cylinder object with the values of the bottom scripting example are shown here.
 
-## Notes
+The described placement and orientation changes are not shown because of simplicity for the given example.
 
 ## Properties
 
@@ -33,17 +38,23 @@ See also: [Property editor](Property_editor.md).
 
 A Part Cylinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
--    **Angle|Angle**: The rotation angle of the cylinder. The rotation angle permits the creation of a portion of cylinder (it is set to 360° by default).
+### Data
 
--    **Height|Height**: The height of the cylinder. This is the dimension in the Z direction.
+
+{{TitleProperty|Cylinder}}
 
 -    **Radius|Radius**: The radius of the cylinder. This defines a plane in the XY area.
 
--    **First Angle|First Angle**: Angle in first direction. <small>(v0.20)</small> 
+-    **Height|Height**: The height of the cylinder. This is the dimension in the Z direction.
 
--    **Second Angle|Second Angle**: Angle in second direction. <small>(v0.20)</small> 
+-    **Angle|Angle**: The rotation angle of the cylinder. The rotation angle permits the creation of a portion of cylinder (it is set to 360° by default).
 
-## Limitations
+
+{{TitleProperty|Prism}}
+
+-    **First Angle|Angle**: Angle in first direction. This is the rotation around the Y axis. <small>(v0.20)</small> 
+
+-    **Second Angle|Angle**: Angle in second direction. This is the rotation around the X axis.<small>(v0.20)</small> 
 
 ## Scripting
 
@@ -54,16 +65,14 @@ A Part Cylinder can be created using the following function:
 cylinder = FreeCAD.ActiveDocument.addObject("Part::Cylinder", "myCylinder")
 ```
 
--   Where {{Incode|"myCylinder"}} is the name for the object.
+-   Where {{Incode|myCylinder}} is the user editable name for the object.
 -   The function returns the newly created object.
 
-You can access and modify attributes of the {{Incode|cylinder}} object.
-
-The name of the object can be easily changed by
+The label text of the object can be easily changed by
 
  
 ```python
-cylinder.Label = "new cylinderName"
+cylinder.Label = "new myCylinderName"
 ```
 
 For example, you may wish to modify the width, length or of the start and finish vertex.
@@ -83,10 +92,8 @@ You can change its placement and orientation with:
 
  
 ```python
-cylinder.Placement = FreeCAD.Placement(FreeCAD.Vector(2, 4, 6), FreeCAD.Rotation(30, 45, 10))
+cylinder.Placement = FreeCAD.Placement(FreeCAD.Vector(1, 2, 3), FreeCAD.Rotation(75, 60, 30))
 ```
-
-![Part Cylinder with the values of the scripting example.](images/Part_Cylinder_Scripting_Example.png )
 
 
 

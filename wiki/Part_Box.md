@@ -10,20 +10,25 @@
 
 ## Description
 
-The Box command from the [Part Workbench](Part_Workbench.md) inserts a parametric, [rectangular cuboid](http://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid), geometric primitive into the active document. By default, the Box command will insert a 10x10x10 mm cube, positioned at the origin, with the label \"cube\". These parameters may be modified after the object has been added.
+The <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Box](Part_Box.md) command creates a parametric box solid.
 
- <img alt="Part\_Box" src=images/Part_Box.jpg  style="width:400px;"> 
+FreeCAD creates a cube, each side with an equal length of 10 millimetre.
+
+By default, the box is positioned with the lower left corner at the origin (0,0,0). The bottom of the cube is on the xy-plane. Its extension in x, y and z direction follows the positive axis values.
+
+ ![Part\_Box](images/Part_Box_Example.jpg ) 
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md)
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Box.svg" width=16px> Cube** button in the toolbar.
-    -   Select the **Part → Primitives → <img src="images/Part_Box.svg" width=16px> Cube** from the menu bar.
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Box.svg" width=16px> [Cube](Part_Cube.md)** button.
+    -   Select the **Part → Primitives → <img src="images/Part_Box.svg" width=16px> Cube** option from the menu.
 
-**Result:** The default result is a box with an equal length, width and height of 10 mm. It is attached to the global xy-plane and one edge is coincident with the global z-axis.
+## Example
 
-The box properties can later be edited, either in the property editor or by double-clicking on the box in the model tree.
+![Part Box scripting example](images/Part_Box_Scripting_Example.png )
+
+A Part Box object with the values of the bottom scripting example are shown here.
 
 ## Properties
 
@@ -36,58 +41,46 @@ A Part Box object is derived from a [Part Feature](Part_Feature.md) object and i
 
 {{TitleProperty|Box}}
 
--    **Length|Length**: The length of the box. This is the dimension in the X direction.
+-    **Length|Length**: The length of the box. This is the dimension in the x-direction.
 
--    **Width|Length**: The width of the box. This is the dimension in the Y direction.
+-    **Width|Length**: The width of the box. This is the dimension in the y-direction.
 
--    **Height|Length**: The height of the box. This is the dimension in the Z direction.
-
-## Notes
-
-By default, a box is created with three sides of equal length (cubes) of 10 mm each.
-
-This can be easily recognized by the additional tick at the icon in the tree view.
-
-## Limitations
+-    **Height|Length**: The height of the box. This is the dimension in the z-direction.
 
 ## Scripting
 
-A Part Box can be created using the following function:
+A Part Box is created with the {{Incode|addObject()}} method of the document.
 
  
 ```python
 box = FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
 ```
 
--   Where {{Incode|"myBox"}} is the name for the object.
+-   Where {{Incode|myBox}} is the name for the object. The name must be unique for the entire document.
 -   The function returns the newly created object.
 
-The name of the object can be easily changed by
+The {{Incode|Label}} is the user editable name for the object. It can be easily changed by
 
  
-```python
-box.Label = "new boxName"
+```python 
+box.Label = "new myBoxName"
 ```
 
 You can access and modify attributes of the {{Incode|box}} object. For example, you may wish to modify the length, width and height parameters.
 
  
 ```python
-box.Length = 20
-box.Width = 10
-box.Height = 30
+box.Length = 4
+box.Width = 8
+box.Height = 12
 ```
 
-You can change its placement with:
+You can change its placement and orientation with:
 
  
 ```python
-box.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
+box.Placement = FreeCAD.Placement(FreeCAD.Vector(1, 2, 3), FreeCAD.Rotation(75, 60, 30))
 ```
-
-The Part Box with the values of the scripting example looks like:
-
-![Part Box with the values of the scripting example.](images/Part_Box_Scripting_Example.png )
 
 
 

@@ -87,12 +87,17 @@ Per ulteriori informazioni sul riferimento a oggetti, vedere [questa sezione](#R
 </div>
 
 
+{{Top}}
+
+
 <div class="mw-translate-fuzzy">
 
 ## Costanti supportate 
 
 
 </div>
+
+The following constants are supported:
 
 
 <div class="mw-translate-fuzzy">
@@ -107,7 +112,12 @@ Sono supportate le seguenti costanti:
 
 </div>
 
+
+{{Top}}
+
 ## Supported operators 
+
+The following operators are supported:
 
 
 <div class="mw-translate-fuzzy">
@@ -127,6 +137,9 @@ Sono supportati i seguenti operatori:
 </div>
 
 
+{{Top}}
+
+
 <div class="mw-translate-fuzzy">
 
 ## Funzioni supportate 
@@ -142,7 +155,11 @@ Sono supportati i seguenti operatori:
 
 </div>
 
-Le funzioni matematiche elencate di seguito sono disponibili.
+The following mathematical functions are supported:
+
+#### Trigonometric functions 
+
+[Trigonometric functions](https://en.wikipedia.org/wiki/Trigonometric_functions) use degree as their default unit. For radian measure, add first value in an expression. So e.g. `cos(45)` is the same as `cos(pi rad / 4)`. Expressions in degrees can use either `deg` or `°`, e.g. `360deg - atan2(3; 4)` or `360&deg; - atan2(3; 4)`. If an expression is without units and needs to be converted to degrees or radians for compatibility, multiply by `1&nbsp;deg`, `1&nbsp;°` or `1&nbsp;rad` as appropriate, e.g. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
 
 
 <div class="mw-translate-fuzzy">
@@ -166,6 +183,8 @@ Sono supportate le seguenti funzioni trigonometriche:
 
 </div>
 
+#### Exponential and logarithmic functions 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -181,6 +200,8 @@ Per esponenziazione e logaritmizzazione sono supportate le seguenti funzioni:
 
 
 </div>
+
+#### Rounding, truncation and remainder functions 
 
 
 <div class="mw-translate-fuzzy">
@@ -199,6 +220,9 @@ Per arrotondamento, troncamento e resto sono supportate queste funzioni :
 
 </div>
 
+
+{{Top}}
+
 ### Statistical / aggregate functions 
 
 
@@ -214,6 +238,8 @@ Gli argomenti possono includere intervalli di celle usando due riferimenti di ce
 </div>
 
 Individual arguments to aggregate functions may consist of ranges of cells. A range of cells is expressed as two cell references separated by a colon {{Incode|:}}, for example {{Incode|average(B1:B8)}} or {{Incode|sum(A1:A4; B1:B4)}}. The cell references may also use cell aliases, for example {{Incode|average(StartTemp:EndTemp)}}.
+
+The following aggregate functions are supported:
 
 
 <div class="mw-translate-fuzzy">
@@ -231,6 +257,9 @@ Sono supportate queste funzioni aggregate :
 
 
 </div>
+
+
+{{Top}}
 
 ### String manipulation 
 
@@ -252,11 +281,11 @@ String formatting is supported using the (old) %-style Python way.
 
 All %-specifiers as defined in [Python documentation](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting).
 
-As an example, supposing you have a default 10mm-side cube named \'Box\' \--default FreeCAD naming\--, following expression `<<Cube length : %s>> % Box.Length` will expand to \"Cube length : 10.0 mm\"
+As an example, supposing you have a default 10mm-side cube named \'Box\' (default FreeCAD naming), the following expression `<<Cube length : %s>> % Box.Length` will expand to \"Cube length : 10.0 mm\"
 
-A limitation is that only one %-specifier is allowed in string, thus you have to use string concatenation if more than one is needed. With same above situation, expression `<<Cube length is %s>> % Box.Length + << and width is %s>> % Box.Width` will expand to \"Cube length is 10.0 mm and width is 10.0 mm\".
+For more than one %-specifier use the following syntax: `<<Cube length is %s and width is %s>> % tuple(Box.Length; Box.Width)`. Or use concatenation: `<<Cube length is %s>> % Box.Length + << and width is %s>> % Box.Width`. Both will expand to \"Cube length is 10.0 mm and width is 10.0 mm\".
 
-A FreeCAD sample file using string formatting is available [in the forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657)
+A FreeCAD sample file using string formatting is available [in the forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657) {{Top}}
 
 ### Create function 
 
@@ -342,7 +371,7 @@ The following example shows the syntax for creating a `Placement` from a `Base` 
 
 `create(<<placement>>; create(<<vector>>; 2; 1; 2); create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45))`
 
-For readability, you can define vectors and rotations in separate cells, and then reference the cells in your expression.
+For readability, you can define vectors and rotations in separate cells, and then reference the cells in your expression. {{Top}}
 
 ### Matrix functions 
 
@@ -369,6 +398,9 @@ Invert the given `Matrix`, `Rotation`, or `Placement`.
 
 `minvert(Placement)`
 
+
+{{Top}}
+
 ### Tuple & list 
 
 You can create Python `tuple` or `list` objects via their respective functions.
@@ -378,6 +410,9 @@ You can create Python `tuple` or `list` objects via their respective functions.
 
 
 `list(2; 1; 2)`
+
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -411,6 +446,9 @@ Sono definiti i seguenti [operatori relazionali](https://en.wikipedia.org/wiki/R
 
 
 </div>
+
+
+{{Top}}
 
 ## Unità
 
@@ -449,6 +487,8 @@ Se una variabile ha il nome di un\'unità di misura, bisogna inserire la variabi
 
 Il parser delle espressioni riconosce le seguenti unità:
 
+### Amount of substance 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -461,6 +501,8 @@ Quantità di sostanza:
 
 
 </div>
+
+### Angle
 
 
 <div class="mw-translate-fuzzy">
@@ -481,6 +523,8 @@ Angolo:
 
 </div>
 
+### Current
+
 
 <div class="mw-translate-fuzzy">
 
@@ -495,6 +539,8 @@ Corrente:
 
 
 </div>
+
+### Energy/work
 
 
 <div class="mw-translate-fuzzy">
@@ -519,6 +565,8 @@ Energia / Lavoro:
 
 </div>
 
+### Force
+
 
 <div class="mw-translate-fuzzy">
 
@@ -534,6 +582,8 @@ Forza:
 
 
 </div>
+
+### Length
 
 
 <div class="mw-translate-fuzzy">
@@ -562,6 +612,8 @@ Lunghezza:
 
 </div>
 
+### Luminous intensity 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -573,6 +625,8 @@ Intensità luminosa:
 
 
 </div>
+
+### Mass
 
 
 <div class="mw-translate-fuzzy">
@@ -596,6 +650,8 @@ Massa:
 
 </div>
 
+### Power
+
 
 <div class="mw-translate-fuzzy">
 
@@ -609,6 +665,8 @@ Potenza:
 
 
 </div>
+
+### Pressure
 
 
 <div class="mw-translate-fuzzy">
@@ -634,6 +692,8 @@ Pressione:
 
 </div>
 
+### Temperature
+
 
 <div class="mw-translate-fuzzy">
 
@@ -648,6 +708,8 @@ Temperatura:
 
 
 </div>
+
+### Time
 
 
 <div class="mw-translate-fuzzy">
@@ -668,6 +730,8 @@ Tempo:
 
 </div>
 
+### Volume
+
 
 <div class="mw-translate-fuzzy">
 
@@ -681,6 +745,10 @@ Volume:
 
 
 </div>
+
+### Unsupported units 
+
+The following commonly used units are not yet supported, for some an alternative is provided:
 
 
 <div class="mw-translate-fuzzy">
@@ -700,6 +768,9 @@ Le seguenti unità comunemente utilizzate non sono ancora supportate:
 
 
 </div>
+
+
+{{Top}}
 
 ## Invalid characters and names 
 
@@ -741,7 +812,7 @@ Since shorter names (especially if they have only one or two characters) can eas
 
 ### Cell aliases 
 
-For [spreadsheet cell aliases](Spreadsheet_SetAlias.md) only alphanumeric characters and underscores (`A` to `Z`, `a` to `z`, `0` to `9` and `_`) are allowed.
+For [spreadsheet cell aliases](Spreadsheet_SetAlias.md) only alphanumeric characters and underscores (`A` to `Z`, `a` to `z`, `0` to `9` and `_`) are allowed. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -809,9 +880,12 @@ La tabella seguente mostra alcuni esempi:
 
 </div>
 
+
+{{Top}}
+
 ## Variabili globali nell\'ambito del documento 
 
-Al momento in FreeCAD non esiste il concetto di variabili globali. Invece, utilizzando l\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md), si possono definire delle variabili arbitrarie come celle in un foglio di calcolo, e poi assegnare loro un nome utilizzando la proprietà alias della cella (tasto destro del mouse sulla cella). Dopo si può accedere alla variabile da qualsiasi espressione, come per qualsiasi altra proprietà di un oggetto.
+Al momento in FreeCAD non esiste il concetto di variabili globali. Invece, utilizzando l\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md), si possono definire delle variabili arbitrarie come celle in un foglio di calcolo, e poi assegnare loro un nome utilizzando la proprietà alias della cella (tasto destro del mouse sulla cella). Dopo si può accedere alla variabile da qualsiasi espressione, come per qualsiasi altra proprietà di un oggetto. {{Top}}
 
 ## Riferimenti incrociati nel documento 
 
@@ -846,7 +920,7 @@ Una volta creato e salvato (e denominato) il documento master con il foglio di c
 
 Purtroppo, il checker integrato a volte afferma che un nome valido non esiste. Continuare comunque a digitare. Quando il riferimento è completato, il pulsante **OK** diventa attivo.
 
-Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrispondenti, quando si desidera cambiare qualcosa.
+Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrispondenti, quando si desidera cambiare qualcosa. {{Top}}
 
 ## Problemi noti / attività rimanenti 
 
@@ -862,6 +936,9 @@ Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrisp
 
 
 </div>
+
+
+{{Top}}
 
 
 

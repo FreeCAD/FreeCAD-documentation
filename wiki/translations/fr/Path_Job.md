@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Job
    Name/fr:Path Tâche
-   MenuLocation:Path → Tâche
+   MenuLocation:Parcours → Tâche
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **J**
    SeeAlso:[Path Post-traitement](Path_Post/fr.md), [Path Personnalisation du post-processeur](Path_Postprocessor_Customization/fr.md)
@@ -25,12 +25,12 @@ L\'outil Tâche crée un nouvel objet Tâche dans le document actif. L\'objet T�
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_Job.svg" width=16px> [Tâche](Path_Job/fr.md)**.
-    -   Sélectionnez l\'option **Path → <img src="images/Path_Job.svg" width=16px> Tâche** dans le menu.
+    -   Sélectionnez l\'option **Parcours → <img src="images/Path_Job.svg" width=16px> Tâche** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **J**.
 
-La boîte de dialogue GUI de la Tâche comporte cinq onglets alignés horizontalement: **General**, **Output**, **Setup**, **Tools** et **Workplan**. L\'utilisateur peut à tout moment utiliser les options **OK** ou **Cancel** dans la boîte de dialogue.
+La boîte de dialogue GUI de la Tâche comporte cinq onglets alignés horizontalement: **Général**, **Sortie**, **Installation**, **Outils** et **Plan de travail**. L\'utilisateur peut à tout moment utiliser les options **OK** ou **Annuler** dans la boîte de dialogue.
 
-## Généralités
+## Général
 
 ![](images/Job_1.jpg )
 
@@ -42,22 +42,22 @@ La boîte de dialogue GUI de la Tâche comporte cinq onglets alignés horizontal
 
 ![](images/Job_2.jpg )
 
--   **Fichier de sortie**: Définissez le nom, l\'extension et le chemin du fichier de sortie G-Code. Vous pouvez utiliser les espaces réservés suivants:
-    -   **%D** Répertoire du document actif
+-   **Fichier de sortie**: Définit le nom, l\'extension et le chemin du fichier de sortie G-Code. Vous pouvez utiliser les espaces réservés suivants:
+    -   **%D** répertoire du document actif
     -   **%d** nom du document actif (sans extension)
     -   **%M** répertoire macro utilisateur
     -   **%j** nom de l\'emploi
 
--   **Processor**: Sélectionnez le [post-processeur](Path_Post/fr.md) pour votre machine.
--   **Arguments**: Ajoutez des arguments pour le [post-processeur](Path_Post/fr.md) si nécessaire.
+-   **Processor**: Sélectionne le [post-processeur](Path_Post/fr.md) pour votre machine.
+-   **Arguments**: Ajoute des arguments pour le [post-processeur](Path_Post/fr.md) si nécessaire.
 
-## Conditions initiales 
+## Installation
 
 ![](images/Job_3.jpg )
 
--   **Brut**: définir la taille et la forme de la matière première.
--   **Orientation**:Le bord ou la face sélectionné est utilisé pour orienter la base ou le support en conséquence.
--   **Alignement**: sélectionnez un sommet pour définir l\'origine ou déplacer une base ou un stock
+-   **Brut**: Définit la taille et la forme de la matière première.
+-   **Orientation**: Le bord ou la face sélectionné est utilisé pour orienter la base ou le support en conséquence.
+-   **Alignement**: Sélectionne un sommet pour définir l\'origine ou déplacer une base ou un brut
 
 ## Outils
 

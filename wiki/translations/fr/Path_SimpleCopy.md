@@ -2,16 +2,16 @@
 - GuiCommand:/fr
    Name:Path SimpleCopy
    Name/fr:Path Copie simple
-   MenuLocation:Path → Path Modification → Copie simple
+   MenuLocation:Parcours → Modification du parcours → Copie simple
    Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Copie](Path_Copy/fr.md)
+   SeeAlso:[Path Copie d'opération](Path_Copy/fr.md)
 ---
 
 # Path SimpleCopy/fr
 
 ## Description
 
-Cet outil crée une copie non-paramétrique d\'un chemin donné.
+Cet outil crée une copie non-paramétrique d\'un parcours donné.
 
 ## Utilisation
 
@@ -21,7 +21,7 @@ Cet outil crée une copie non-paramétrique d\'un chemin donné.
 
 ## Options
 
--   La simple copie ne lie plus le chemin qui a été utilisé pour la copie et n\'est pas paramétrique. Par conséquent, lors de l\'édition avec l\'objet [Path Inspecteur G-code](Path_Inspect/fr.md), tout changement fait à son G-code sera gardé.
+-   La simple copie ne lie plus le parcours qui a été utilisé pour la copie et n\'est pas paramétrique. Par conséquent, lors de l\'édition avec l\'objet [Path Inspecteur G-code](Path_Inspect/fr.md), tout changement fait à son G-code sera gardé.
 
 
 

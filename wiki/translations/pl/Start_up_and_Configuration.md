@@ -204,7 +204,7 @@ Niektóre biblioteki muszą wywoływać systemowe zmienne środowiskowe. Czasami
 
 ## Zestaw konfiguracji 
 
-Przy każdym uruchomieniu FreeCAD bada swoje otoczenie i parametry wiersza poleceń. Tworzy **zestaw konfiguracyjny**, który zawiera esencję informacji o przebiegu pracy. Informacje te są później wykorzystywane do określenia miejsca, w którym zapisywane są dane użytkownika lub pliki dziennika. Jest ona również bardzo ważna dla analiz pośmiertnych. Dlatego jest ona zapisywana w pliku logu.
+Przy każdym uruchomieniu FreeCAD bada swoje otoczenie i parametry wiersza poleceń. Tworzy **zestaw konfiguracyjny**, który zawiera esencję informacji o przebiegu pracy. Informacje te są później wykorzystywane do określenia miejsca, w którym zapisywane są dane użytkownika lub pliki dziennika. Jest ona również bardzo ważna dla analiz po awarii. Dlatego jest ona zapisywana w pliku logu.
 
 ### Informacje dotyczące użytkownika 
 
@@ -345,7 +345,7 @@ Jeśli nazwa nie zostanie znaleziona, zwracany jest pusty ciąg znaków.
 
 Użyj opcji `--get-config <config-var-name>` aby zapytać o pojedynczą nazwę. Nie wszystkie nazwy są obsługiwane. Na przykład:
 
- FreeCAD_0.19 --get-config ExeVersion
+ FreeCAD --get-config ExeVersion
 
 Użyj opcji `--dump-config`, aby uzyskać listę nazw i ich wartości. Nie wszystkie nazwy są obsługiwane.
 
@@ -353,7 +353,7 @@ Użyj opcji `--dump-config`, aby uzyskać listę nazw i ich wartości. Nie wszys
 
 Uruchom FreeCAD w trybie konsoli za pomocą `--console` i zadawaj pytania za pomocą kodu Python. Na przykład: 
 ```python
-  $ FreeCAD_0.19 --console
+  $ FreeCAD --console
   [FreeCAD Console mode <Use Ctrl-D (i.e. EOF) to exit.>]
   >>> FreeCAD.ConfigGet("ExeVersion")
   '0.19'
@@ -362,7 +362,7 @@ Uruchom FreeCAD w trybie konsoli za pomocą `--console` i zadawaj pytania za pom
 
 Dla Linuksa *(powłoka bash)* możesz zmodyfikować następującą linię poleceń, aby dostosować ją do swoich potrzeb: 
 ```python
-  $ FreeCAD_0.19 --console <<EOF
+  $ FreeCAD --console <<EOF
   print( "FREECAD_USER_HOME: " + ( "not set" if ( os.environ.get('FREECAD_USER_HOME') is None ) else os.environ.get('FREECAD_USER_HOME') ) )
   print( "UserHomePath: " + FreeCAD.ConfigGet("UserHomePath") )
   exit()

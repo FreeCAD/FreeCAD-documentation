@@ -36,6 +36,8 @@ Jede auf ein [Arch Fenster](Arch_Window/de.md) zutreffende Information gilt auch
 4.  In der [3D Ansicht](3D_view/de.md), Bewege das Fenster an die Stelle, an der du es platzieren möchtest. Wenn du den Mauszeiger über eine [Arch Wand](Arch_Wall/de.md) bewegst, sollte sich der Umriss des Fensters an der Fläche dieses Objekts ausrichten.
 5.  Klick auf die [3D Ansicht](3D_view/de.md) mit der Maus oder drücke die **Eingabe** Taste dreimal, um die X, Y, Z Koordinaten der Platzierung zu bestätigen.
 
+#### Additional presets 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -48,16 +50,28 @@ Falls du die \"Parts Library\" über den [Erweiterungsverwalter](Std_AddonMgr/de
 </div>
 
 
-```python
-$ROOT_DIR/Mod/parts_library/Architectural\ Parts/Doors/Custom/
-$ROOT_DIR/Mod/parts_library/Architectural\ Parts/Windows/Custom/
-```
+{{FileName|$ROOT_DIR/Mod/parts_library/Architectural Parts/Doors/Custom/}}
+
+{{FileName|$ROOT_DIR/Mod/parts_library/Architectural Parts/Windows/Custom/}}
+
+It is also possible to place custom windows and doors in your user {{FileName|Arch}} directory. <small>(v0.20)</small> 
+
+
+{{FileName|$ROOT_DIR/Mod/Arch/Doors/Custom/}}
+
+{{FileName|$ROOT_DIR/Mod/Arch/Windows/Custom/}}
+
+
+<div class="mw-translate-fuzzy">
 
 Das `$ROOT_DIR` ist das Benutzerverzeichnis, wo die FreeCAD-Konfiguration, Makros und externe Arbeitsbereiche gespeichert werden.
 
 -   Unter Linux ist es normalerweise `/home/username/.FreeCAD/`
 -   Unter Windows ist es normalerweise `C:\users\Benutzername\Anwendungsdaten\FreeCAD\`
 -   Unter Mac OSX ist es normalerweise `/Benutzer/Benutzername/Bibliothek/Einstellungen/FreeCAD/`
+
+
+</div>
 
 ### Erzeugung von Anfang an 
 
@@ -71,9 +85,15 @@ Das `$ROOT_DIR` ist das Benutzerverzeichnis, wo die FreeCAD-Konfiguration, Makro
 8.  Um die Fensterkomponenten und verschiedene Eigenschaften anzupassen, aktivieren Sie das [Aufgaben-Paneel](Task_panel/de.md) durch Doppelklick auf das erstellte Objekt in der [Baumansicht](Tree_view/de.md).
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Hinweis:**
 
 Achten Sie bei der Erstellung der Skizze genau auf die Erstellungsreihenfolge der Schleifen; die Nummerierung der \"Linienzüge\" in der [Baumansicht](Tree_view/de.md) (\"Windows elements\") hängt hiervon ab.
+
+
+</div>
 
 ## Voreinstellungen
 
@@ -176,6 +196,11 @@ Du kannst einen beliebig anderen Arbeitsablauf verwenden, solange du folgende wi
 
 -    {{PropertyData/de|Symbol Elevation}}: Zeigt 2D-Symbole für \"zu öffnend\" in Seitenansichten
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skripten
 
 
@@ -183,7 +208,12 @@ Du kannst einen beliebig anderen Arbeitsablauf verwenden, solange du folgende wi
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Fensterwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden: 
+
+</div>
+
+Das Fensterwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
+
+
 ```python
 Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Window")
 ```

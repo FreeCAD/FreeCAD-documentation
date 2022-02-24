@@ -462,6 +462,8 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 -   <img alt="" src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg  style="width:32px;"> [Knotenvielfalt verringern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)
 
+-   <img alt="" src=images/Sketcher_BSplineInsertKnot.svg  style="width:32px;"> [Insert knot](Sketcher_BSplineInsertKnot.md), <small>(v0.20)</small> 
+
 ### Skizzierer virtueller Raum 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Virtuellen Raum wechseln](Sketcher_SwitchVirtualSpace/de.md): Ermöglicht dir alle Beschränkungen einer Skizze auszublenden und wieder sichtbar zu machen.

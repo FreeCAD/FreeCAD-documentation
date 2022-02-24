@@ -2,8 +2,8 @@
 - GuiCommand:/fr
    Name:Path Vcarve
    Name/fr:Path Gravure en V
-   MenuLocation:Path → Vcarve
-   Workbenches:[Path](Path_Workbench.md)
+   MenuLocation:Parcours → Gravure en V
+   Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---
 
@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> [Path Gravure en V](Path_Vcarve/fr.md) est principalement destiné à la gravure de la ligne centrale d\'une <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft Forme à partir texte](Draft_ShapeString/fr.md) sur une pièce. Cependant, cela peut être utile pour d\'autres types de 2D.
+L\'outil <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> [Gravure en V](Path_Vcarve/fr.md) est principalement destiné à la gravure de la ligne centrale d\'une <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft Forme à partir texte](Draft_ShapeString/fr.md) sur une pièce. Cependant, cela peut être utile pour d\'autres types de 2D.
 
 Contrairement à la gravure qui suit les lignes d\'une Forme à partir texte, la gravure en V utilise un couteau en forme de V et tente de dégager la zone en déplaçant le couteau au centre de la région et en variant la profondeur de coupe. Étant donné qu\'un rayon de coupe en V varie avec la profondeur, la largeur de coupe varie également. Le résultat est une coupe plus naturelle, en particulier pour les polices serif.
 
@@ -40,7 +40,7 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
 
     :   Les trajectoires avec des trous (lettres, la vigne dans l\'image ci-dessus) sont importés comme 2 chemins séparés (nommés le long des lignes de `Path905` et `Path905001` dans la [Vue en arborescence](Tree_view/fr.md)), l\'un d\'eux est le trou et l\'autre est le contour; nous traiterons de cela dans la prochaine étape
 
--   -   Pour obtenir les faces 2D, [Path Vcarve](Path_Vcarve/fr.md) a besoin de:
+-   -   Pour obtenir les faces 2D, [Path Gravure en V](Path_Vcarve/fr.md) a besoin de:
         -   Pour les trajectoires sans trous:
             1.  Sélectionnez le chemin
             2.  Choisissez **Modification → ![](images/)_[Mettre_à_niveau](Draft_Upgrade/fr.md)**
@@ -53,14 +53,14 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
         :   Le résultat final devrait ressembler à ceci:
         :   ![](images/Svgfaces.png )
 
-### Création de l\'opération Vcarve 
+### Création de l\'opération Gravure en V 
 
 -   Passez à l\'**[<img src=images/Workbench_Path.svg style="width:16px"> [atelier Path](Path_Workbench/fr.md)** depuis le [menu déroulant des ateliers](Std_Workbench/fr.md)
 -   Ajoutez un travail, utilisez les objets nommés `Face<number>` (ou le ShapeString) comme base, ajoutez un contrôleur d\'outil v-bit, définissez les flux, les vitesses, etc.
 -   L\'opération ne prend en charge qu\'un seul objet (soit un seul objet Face, soit un ShapeString), donc pour chaque objet:
-    -   Sélectionnez **Path → <img src="images/Path_Vcarve.svg" width=24px> Vcarve** dans le menu supérieur. Cela ouvre le panneau de configuration.
+    -   Sélectionnez **Parcours → <img src="images/Path_Vcarve.svg" width=24px> Gravure en V** dans le menu supérieur. Cela ouvre le panneau de configuration.
     -   Ouvrez l\'onglet **Base Geometry** et ajoutez toutes les faces du ShapeString, ou la face d\'un seul objet Face obtenu ci-dessus
-    -   Appuyez sur **Apply** et inspectez le chemin généré; si nécessaire, ajustez les paramètres de fonctionnement (le seuil peut être réglé plus haut dans la plupart des situations)
+    -   Appuyez sur **Appliquer** et inspectez le chemin généré; si nécessaire, ajustez les paramètres de fonctionnement (le seuil peut être réglé plus haut dans la plupart des situations)
     -   Appuyez sur **OK** pour terminer
 
 ## Options
@@ -73,65 +73,65 @@ Vide
 
 #### Base
 
--    {{PropertyData/fr|Placement}}: -
+-    **Placement**: -
 
--    {{PropertyData/fr|Label}}: -
+-    **Label**: -
 
-#### Profondeur
+#### Depth
 
--    {{PropertyData/fr|ClearanceHeight}}: -
+-    **ClearanceHeight**: -
 
--    {{PropertyData/fr|FinalDepth}}: -
+-    **FinalDepth**: -
 
--    {{PropertyData/fr|SafeHeight}}: -
+-    **SafeHeight**: -
 
--    {{PropertyData/fr|StartDepth}}: -
+-    **StartDepth**: -
 
--    {{PropertyData/fr|StepDown}}: -
+-    **StepDown**: -
 
-#### Valeurs Op 
+#### Op Values 
 
--    {{PropertyData/fr|OpFinalDepth}}: -
+-    **OpFinalDepth**: -
 
--    {{PropertyData/fr|OpStartDepth}}: -
+-    **OpStartDepth**: -
 
--    {{PropertyData/fr|OpStockZMax}}: -
+-    **OpStockZMax**: -
 
--    {{PropertyData/fr|OpStockZMin}}: -
+-    **OpStockZMin**: -
 
--    {{PropertyData/fr|OpToolDiameter}}: -
+-    **OpToolDiameter**: -
 
-#### Trajectoire
+#### Path
 
--    {{PropertyData/fr|Active}}: -
+-    **Active**: -
 
--    {{PropertyData/fr|Comment}}: -
+-    **Comment**: -
 
--    {{PropertyData/fr|CoolantMode}}: -
+-    **CoolantMode**: -
 
--    {{PropertyData/fr|StartVertex}}: -
+-    **StartVertex**: -
 
--    {{PropertyData/fr|ToolController}}: -
+-    **ToolController**: -
 
--    {{PropertyData/fr|UserLabel}}: -
+-    **UserLabel**: -
 
-### Cachés
+### Hidden
 
--    {{PropertyData/fr|Base}}: -
+-    **Base**: -
 
--    {{PropertyData/fr|BaseObject}}: -
+-    **BaseObject**: -
 
--    {{PropertyData/fr|BaseShapes}}: -
+-    **BaseShapes**: -
 
--    {{PropertyData/fr|ExpressionEngine}}: -
+-    **ExpressionEngine**: -
 
--    {{PropertyData/fr|Label2}}: -
+-    **Label2**: -
 
--    {{PropertyData/fr|Path}}: -
+-    **Path**: -
 
--    {{PropertyData/fr|Proxy}}: -
+-    **Proxy**: -
 
--    {{PropertyData/fr|Visibility}}: -
+-    **Visibility**: -
 
 ### Vue
 

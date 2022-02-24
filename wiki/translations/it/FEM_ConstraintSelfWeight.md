@@ -30,24 +30,54 @@ Il vincolo peso proprio definisce l\'accelerazione di gravità di 9,81 m/s\^2 ch
 
 ## Script
 
-**Nuovo oggetto** 
+
+<div class="mw-translate-fuzzy">
+
+**Nuovo oggetto**
+
+
+</div>
+
+
 ```python
 import ObjectsFem
-ObjectsFem.makeConstraintSelfWeight( name )
+ObjectsFem.makeConstraintSelfWeight(name)
 ```
 
-**Aggiungere all\'analisi un oggetto di nome Analisi** 
+
+<div class="mw-translate-fuzzy">
+
+**Aggiungere all\'analisi un oggetto di nome Analisi**
+
+
+</div>
+
+
 ```python
-App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [ (object) ]
+App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [(object)]
 ```
 
-**Esempio** 
+
+<div class="mw-translate-fuzzy">
+
+**Esempio**
+
+
+</div>
+
+
 ```python
 import ObjectsFem
-selfweight_obj = ObjectsFem.makeConstraintSelfWeight( 'MySelfWeightObject' )
+selfweight_obj = ObjectsFem.makeConstraintSelfWeight("MySelfWeightObject")
 App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfweight_obj]
-
 ```
+
+## Solver CalculiX 
+
+### Limitations
+
+
+<div class="mw-translate-fuzzy">
 
 ## Solver CalculiX 
 
@@ -56,9 +86,23 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 -   È necessario modificare il file .inp modificare l\'accelerazione di gravità.
 -   Applicare Peso proprio all\'elemento impostato Wall significa applicarlo all\'intero modello.
 
+
+</div>
+
+### Editing CalculiX input file 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Editare il file di input CalculiX 
 
 La costante dell\'accelerazione può essere modificata a mano dopo la generazione del file di input CalculiX.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Esempio di righenel file .inp: 
 ```python
@@ -66,9 +110,28 @@ Esempio di righenel file .inp:
 Eall,GRAV,9810,0.0,0.0,-1.0
 ``` dove 9810 è l\'accelerazione di gravità in \[mm/s\^2\], e 0,0,-1 è la direzione del vettore.
 
+
+</div>
+
+
+```python
+*DLOAD
+Eall,GRAV,9810,0.0,0.0,-1.0
+```
+
+where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direction vector.
+
+## Solver Z88 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Solver Z88 
 
 -   non implementato nel solver Z88 (Marzo 2017)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

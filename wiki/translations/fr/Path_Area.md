@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path-Area
    Name/fr:Path Zone d'usinage
-   MenuLocation:Path → Area
+   MenuLocation:Parcours → Surface
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -26,119 +26,119 @@ Vide
 
 #### Surface
 
--    {{PropertyData/fr|Operation}}: -
+-    **Operation**: -
 
--    {{PropertyData/fr|Fill}}: -
+-    **Fill**: -
 
--    {{PropertyData/fr|Coplanar}}: -
+-    **Coplanar**: -
 
--    {{PropertyData/fr|Reorient}}: -
+-    **Reorient**: -
 
--    {{PropertyData/fr|Outline}}: -
+-    **Outline**: -
 
--    {{PropertyData/fr|Explode}}: -
+-    **Explode**: -
 
--    {{PropertyData/fr|OpenMode}}: -
+-    **OpenMode**: -
 
--    {{PropertyData/fr|Deflection}}: -
+-    **Deflection**: -
 
--    {{PropertyData/fr|SubjectFill}}: -
+-    **SubjectFill**: -
 
--    {{PropertyData/fr|ClipFill}}: -
+-    **ClipFill**: -
 
 #### Base
 
--    {{PropertyData/fr|Sources}}: -
+-    **Sources**: -
 
--    {{PropertyData/fr|Placement}}: -
+-    **Placement**: -
 
--    {{PropertyData/fr|Label}}: -
+-    **Label**: -
 
-#### Décalage
+#### Offset
 
--    {{PropertyData/fr|Offset}}: -
+-    **Offset**: -
 
--    {{PropertyData/fr|ExtraPass}}: -
+-    **ExtraPass**: -
 
--    {{PropertyData/fr|Stepover}}: -
+-    **Stepover**: -
 
--    {{PropertyData/fr|LastStepover}}: -
+-    **LastStepover**: -
 
--    {{PropertyData/fr|JoinType}}: -
+-    **JoinType**: -
 
--    {{PropertyData/fr|EndType}}: -
+-    **EndType**: -
 
--    {{PropertyData/fr|MiterLimit}}: -
+-    **MiterLimit**: -
 
--    {{PropertyData/fr|RoundPrecision}}: -
+-    **RoundPrecision**: -
 
 #### Pocket
 
--    {{PropertyData/fr|PocketMode}}: -
+-    **PocketMode**: -
 
--    {{PropertyData/fr|ToolRadius}}: -
+-    **ToolRadius**: -
 
--    {{PropertyData/fr|PocketExtraOffset}}: -
+-    **PocketExtraOffset**: -
 
--    {{PropertyData/fr|PocketStepover}}: -
+-    **PocketStepover**: -
 
--    {{PropertyData/fr|PocketLastStepover}}: -
+-    **PocketLastStepover**: -
 
--    {{PropertyData/fr|FromCenter}}: -
+-    **FromCenter**: -
 
--    {{PropertyData/fr|Angle}}: -
+-    **Angle**: -
 
--    {{PropertyData/fr|AngleShift}}: -
+-    **AngleShift**: -
 
--    {{PropertyData/fr|Shift}}: -
+-    **Shift**: -
 
--    {{PropertyData/fr|Thicken}}: -
+-    **Thicken**: -
 
 #### Section
 
--    {{PropertyData/fr|SectionCount}}: -
+-    **SectionCount**: -
 
--    {{PropertyData/fr|Stepdown}}: -
+-    **Stepdown**: -
 
--    {{PropertyData/fr|SectionOffset}}: -
+-    **SectionOffset**: -
 
--    {{PropertyData/fr|SectionTolerance}}: -
+-    **SectionTolerance**: -
 
--    {{PropertyData/fr|SectionMode}}: -
+-    **SectionMode**: -
 
--    {{PropertyData/fr|Project}}: -
+-    **Project**: -
 
 #### libarea
 
--    {{PropertyData/fr|Tolerance}}: -
+-    **Tolerance**: -
 
--    {{PropertyData/fr|FitArcs}}: -
+-    **FitArcs**: -
 
--    {{PropertyData/fr|Simplify}}: -
+-    **Simplify**: -
 
--    {{PropertyData/fr|CleanDistance}}: -
+-    **CleanDistance**: -
 
--    {{PropertyData/fr|Accuracy}}: -
+-    **Accuracy**: -
 
--    {{PropertyData/fr|Unit}}: -
+-    **Unit**: -
 
--    {{PropertyData/fr|MinArcPoints}}: -
+-    **MinArcPoints**: -
 
--    {{PropertyData/fr|MaxArcPoints}}: -
+-    **MaxArcPoints**: -
 
--    {{PropertyData/fr|ClipperScale}}: -
+-    **ClipperScale**: -
 
-#### Caché
+#### HIDDEN
 
--    {{PropertyData/fr|ExpressionEngine}}: -
+-    **ExpressionEngine**: -
 
--    {{PropertyData/fr|Label2}}: -
+-    **Label2**: -
 
--    {{PropertyData/fr|Shape}}: -
+-    **Shape**: -
 
--    {{PropertyData/fr|Visibility}}: -
+-    **Visibility**: -
 
--    {{PropertyData/fr|WorkPlane}}: -
+-    **WorkPlane**: -
 
 ### Vue
 

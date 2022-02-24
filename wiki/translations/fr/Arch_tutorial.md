@@ -185,7 +185,7 @@ Maintenant une dernière chose doit être résolue, il y a une petite dalle dans
 
 <img alt="" src=images/Arch_tutorial_16.jpg  style="width:1024px;">
 
-## Planchers, Escaliers et Cheminée, 
+## Planchers, escaliers et cheminées 
 
 Maintenant, notre structure est complète, nous avons juste quelques petits objets à faire.
 

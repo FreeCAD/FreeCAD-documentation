@@ -60,9 +60,9 @@ The user is also responsible for the integrity of his or her own model. Dependin
 
 ### Topological naming 
 
-Edge numbers are not completely stable, therefore it is advisable that you finish the main design work of your solid body before applying features like fillets and chamfers, otherwise edges could change name and filleted edges would likely become invalid. When the Use All Edges property <small>(v0.20)</small>  is True there is some protection from this because in such cases all the edges of the base object are used and there is no dependence on individual edge names.
+Edge numbers are not completely stable, therefore it is advisable that you finish the main design work of your solid body before applying features like fillets and chamfers, otherwise edges could change name and filleted edges would likely become invalid. When the **Use All Edges** property (<small>(v0.20)</small> ) is `True` there is some protection from this. Because in such cases all the edges of the base object are used and there is no dependence on individual edge names.
 
-Read more in [topological naming problem](topological_naming_problem.md).
+Read more in [topological naming problem](Topological_naming_problem.md).
 
 ## Scripting
 

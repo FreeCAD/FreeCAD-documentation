@@ -9,6 +9,9 @@
 
 # Part Defeaturing/de
 
+
+</div>
+
 ## Beschreibung
 
 Das Werkzeug **Merkmal aus einer Form entfernen** ist für die Entfernung ausgewählter Merkmale aus dem Modell vorgesehen. In diesem Zusammenhang sind Grundelemente als Löcher, Vorsprünge, Lücken, Fasen, Verrundungen usw. gemeint, die sich auf dem Modell befinden.
@@ -33,8 +36,14 @@ Um verfügbar zu sein, muss FreeCAD auf Open Cascade 7.3.0 oder höher basieren.
 
 ## Verweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211), die offizielle Ankündigung auf dem Open Cascade Collaborative Development Portal.
 -   <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [ Arbeitsbereich Merkmal aus einer Form entfernen](Defeaturing_Workbench/de.md)
+
+
+</div>
 
 
 

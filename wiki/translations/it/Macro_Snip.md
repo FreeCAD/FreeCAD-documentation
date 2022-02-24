@@ -152,8 +152,8 @@ __title__ = "Snip"
 __author__ = "TheMarkster"
 __url__ = ""
 __Wiki__ = ""
-__date__ = "2020.10.19"
-__version__ = 1.21
+__date__ = "2022.02.23"
+__version__ = 1.22
 import FreeCAD
 from PySide import QtGui,QtCore
 import uuid
@@ -200,6 +200,16 @@ class SnipBox(QtGui.QDialog):
             textEdit.setMinimumWidth(0)
             textEdit.setMaximumWidth(16777215)
             textEdit.setSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Expanding)
+#thanks to mario52 for this
+        if result == True:
+            try:
+                rect = mb.frameGeometry()
+                rectwidth  = rect.width()
+                rectheight = rect.height()
+                mb.setWindowTitle("Snip macro v"+str(__version__)+"  "+str(rectwidth)+" x "+str(rectheight))
+            except Exception:
+                None
+##############
         return result
 pg = FreeCAD.ParamGet("User parameter:Plugins/Snip_Macro")
 #parameters were originally in BaseApp, but should be in Plugins, so relocate if necessary

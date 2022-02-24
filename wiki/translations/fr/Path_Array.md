@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Array
    Name/fr:Path Réseau
-   MenuLocation:Path → Path Modification → Réseau
+   MenuLocation:Parcours → Modification du parcours → Réseau
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -10,23 +10,23 @@
 
 ## Description
 
-Cet outil crée un nouveau chemin en duplicant un autre chemin plusieurs fois avec un intervale donné.
+Cet outil crée un nouveau parcours en duplicant un autre parcours plusieurs fois avec un intervale donné.
 
 ## Utilisation
 
 1.  Sélectionnez l\'opération que vous souhaitez répéter
 2.  Pressez le bouton **<img src="images/Path_Array.svg" width=24px> [Réseau](Path_Array/fr.md)
 **
-3.  Pressez **Apply**
+3.  Pressez **Applique**
 4.  Ajustez les propriétés souhaitées dans la boîte de dialogue des données
 
 ## Propriétés
 
--    {{PropertyData/fr|Type}}: Le type de réseau (polaire, linéaire dans une ou deux directions)
+-    **Type**: Le type de réseau (polaire, linéaire dans une ou deux directions)
 
--    {{PropertyData/fr|Offset}}: L\'espace entre les copies du réseau pour chaque direction
+-    **Offset**: L\'espace entre les copies du réseau pour chaque direction
 
--    {{PropertyData/fr|Copies}}: Le nombre de copies (sans compter l\'original) pour chaque direction
+-    **Copies**: Le nombre de copies (sans compter l\'original) pour chaque direction
 
 ## Limitations
 

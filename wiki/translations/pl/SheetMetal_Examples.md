@@ -80,7 +80,7 @@ clone, flip and fuse,
     -   Set **thickness** to 0.3 mm.
 4.  Select the face between the round sections and activate the <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
     <img alt="Face to support the sketch" src=images/SheetMetal_Example-02g.png  style="width:200px;">
-5.  To hide the curled part use the <img alt="" src=images/Sketcher_ViewSection.svg  style="width:16px;"> [Sketche View section](Sketcher_ViewSection.md) command.
+5.  To hide the curled part use the <img alt="" src=images/Sketcher_ViewSection.svg  style="width:16px;"> [Sketcher View section](Sketcher_ViewSection.md) command.
 6.  Create the cut-out contour.
     <img alt="Cut-out contour" src=images/SheetMetal_Example-02h.png  style="width:" height="240px;"> <img alt="Cut-out contour slightly touching the selected face" src=images/SheetMetal_Example-02i.png  style="width:" height="240px;">
 7.  Finish the sketch using the <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketcher Leave sketch](Sketcher_LeaveSketch.md) command.

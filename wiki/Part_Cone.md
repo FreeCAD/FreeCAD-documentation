@@ -10,31 +10,44 @@
 
 ## Description
 
-A parametric truncated Part Cone primitive is available in the Part workbench from the Part tool bar, Part menu (primitives sub-menu) and the Create Primitives dialogue.
+The <img alt="" src=images/Part_Cone.svg  style="width:24px;"> [Part Cone](Part_Cone.md) command creates a parametric cone solid.
 
- <img alt="" src=images/Otherwisedefault270degree_Part_Cone.png  style="width:300px;">  
-*A Part Cone with the parameter "Angle" set to 270 degrees and all other parameters are set to their default values.*
+FreeCAD creates a cone, each side with a radius of 2 millimetre a height of 10 millimetre.
+
+By default, the cone is positioned with the center of the bottom face at the origin (0,0,0). The bottom of the cone is on the xy-plane. Its extension in z-direction follows the positive axis value.
+
+ ![](images/Part_Cone_Example.png ) 
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md)
-2.  There are two ways to invoke the command:
-    -   Press the **<img src="images/Part_Cone.svg" width=16px> Cone** button in the toolbar.
-    -   Select the **Part → Primitives → <img src="images/Part_Cone.svg" width=16px> Cone** from the menu bar.
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Cone.svg" width=16px> [Cone](Part_Cone.md)** button.
+    -   Select the **Part → Primitives → <img src="images/Part_Cone.svg" width=16px> Cone** option from the menu.
 
-**Result:** The default values create a truncated parametric cone that is positioned at the origin (point 0,0,0) and attached to the global xy-plane. Its height of 10 mm is along the global z-axis. The lower **Radius 1** is 2 mm, the upper **Radius 2** is 4 mm.
+## Example
 
-The cone properties can later be edited, either in the [Property editor](Property_editor.md) or by double-clicking the cone in the [Tree view](Tree_view.md).
+![Part Cone scripting example](images/Part_Cone_Scripting_Example.png )
+
+A Part Cone object with the values of the bottom scripting example are shown here.
 
 ## Properties
 
--    **Radius 1**: Radius of the arc or circle defining the lower face
+See also: [Property editor](Property_editor.md).
 
--    **Radius 2**: Radius of the arc or circle defining the upper face
+A Part Torus object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
--    **Height**: Height of the Part Cone
+### Data
 
--    **Angle**: Number of degrees of the arc or circles defining the upper and lower faces of the truncated cone. The default 360° creates circular faces, a lower value will create a portion of a cone as defined by upper and lower faces each with edges defined by an arc of the number of degrees and two radii.
+
+{{TitleProperty|Cone}}
+
+-    **Radius1|Length**: Radius of the arc or circle defining the lower face
+
+-    **Radius2|Length**: Radius of the arc or circle defining the upper face
+
+-    **Height|Length**: Height of the Part Cone
+
+-    **Angle|Angle**: Number of degrees of the arc or circles defining the upper and lower faces of the truncated cone. The default 360° angle creates circular faces, a lower value will create a portion of a cone as defined by upper and lower faces each with edges defined by an arc of the number of degrees and two radii.
 
 ## Scripting
 
@@ -45,15 +58,12 @@ A Part Cone can be created using the following function:
 cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 ```
 
--   Where {{Incode|"myCone"}} is the name for the object.
+-   Where {{Incode|myCone}} is the user editable name for the object.
 -   The function returns the newly created object.
 
-The name of the object can be easily changed by
+The label text of the object can be easily changed by
 
  
-```python
-cone.Label = "new coneName"
-```
 
 You can access and modify attributes of the {{Incode|cone}} object. For example, you may wish to modify the lower or upper radius, the height or the angle parameters.
 
@@ -71,12 +81,8 @@ You can change its placement and orientation with:
 
  
 ```python
-cone.Placement = FreeCAD.Placement(FreeCAD.Vector(2, 4, 6), FreeCAD.Rotation(30, 45, 10))
+cone.Placement = FreeCAD.Placement(FreeCAD.Vector(1, 2, 3), FreeCAD.Rotation(30, 60, 15))
 ```
-
-The Part Cone with the values of the scripting example looks like:
-
-![Part Cone with the values of the scripting example.](images/Part_Cone_Scripting_Example.png )
 
 
 

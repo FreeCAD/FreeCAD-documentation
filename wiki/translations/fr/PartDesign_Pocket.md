@@ -17,10 +17,12 @@ L\'outil **Cavité** découpe des solides en extrudant une esquisse ou une face 
 
 ## Utilisation
 
-1.  Sélectionnez l\'esquisse ou la face recevant la cavité. {{Version/fr|0.20}} Vous pouvez également sélectionner plusieurs esquisses ou faces.
+1.  Sélectionnez l\'esquisse ou la face recevant la cavité. {{Version/fr|0.20}} : Vous pouvez également sélectionner plusieurs esquisses ou faces.
 2.  Appuyez sur le bouton **<img src="images/PartDesign_Pocket.svg" width=16px> '''Cavité''' **.
 3.  Définissez les paramètres de la cavité, voir les [Options](#Options.md) ci-dessous.
 4.  Cliquez sur OK.
+
+Lors de la sélection d\'une seule esquisse, celle-ci peut comporter plusieurs profils fermés à l\'intérieur d\'un profil plus grand, par exemple un rectangle contenant deux cercles. Mais les profils ne peuvent pas se croiser. {{Version/fr|0.20}}
 
 ## Options
 

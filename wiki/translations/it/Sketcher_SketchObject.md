@@ -1,4 +1,6 @@
 # Sketcher SketchObject/it
+{{TOCright}}
+
 ## Introduzione
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
@@ -6,9 +8,15 @@
 Un [Sketcher SketchObject](Sketcher_SketchObject/it.md), o formalmente un `Sketcher::SketchObject`, è l\'elemento base per creare oggetti 2D con l\'ambiente [Sketcher](Sketcher_Workbench/it.md).
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{Incode|Sketcher::SketchObject}}
 
 deriva da [Part Part2DObject](Part_Part2DObject/it.md), il che significa che è un oggetto [Part Feature](Part_Feature/it.md) specializzato per la geometria 2D. Come Part2DObject, anche SketchObject può essere collegato a piani e facce. Inoltre, SketchObject è in grado di gestire i vincoli geometrici delle linee e delle curve disegnate al suo interno.
+
+
+</div>
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -29,7 +37,16 @@ deriva da [Part Part2DObject](Part_Part2DObject/it.md), il che significa che è 
 3.  Selezionare un **orientamento**: piano XY, piano XZ o piano YZ. Opzionalmente scegliere anche **Direzione inversa**, e assegnare un valore di **Offset**.
 4.  Premere **OK**.
 
+
+<div class="mw-translate-fuzzy">
+
 Sebbene SketchObject possa essere utilizzato da solo per disegnare su un piano, viene comunemente utilizzato insieme a [PartDesign](PartDesign_Workbench/it.md) per creare solidi estrusi.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Passare in [PartDesign](PartDesign_Workbench/it.md).
 
@@ -42,11 +59,20 @@ Sebbene SketchObject possa essere utilizzato da solo per disegnare su un piano, 
 
 5.  Premere **OK**.
 
+
+</div>
+
 ## Proprietà
 
 Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono avere gli oggetti con script.
 
+
+<div class="mw-translate-fuzzy">
+
 Un [Sketcher SketchObject](Sketcher_SketchObject.md) (classe `Sketcher::SketchObject`) deriva da un [Part Part2DObject](Part_Part2DObject.md) (`Part::Part2DObject`), quindi condivide tutte le proprietà di quest\'ultimo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -59,42 +85,15 @@ Oltre alle proprietà descritte in [Part Part2DObject](Part_Part2DObject/it.md),
 ### Dati
 
 
-<div class="mw-translate-fuzzy">
-
-
-{{TitleProperty|Attachment}}
-
--    **Map Mode**: vedere [Part EditAttachment](Part_EditAttachment/it.md) per ulteriori informazioni su tutte le modalità di associazione.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
 {{TitleProperty|Sketch}}
 
--    **Constraints**: vincoli atribuiti, se esistono; altrimenti è un elenco `[]` vuoto.
+-    **Geometry|GeometryList|Hidden**: a list of Part geometries that exist inside the sketch.
 
-
-</div>
-
-#### Hidden properties Data 
-
-See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden properties.
-
-
-{{TitleProperty|Base}}
-
--    **Proxy|PythonObject**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Sketcher_SketchObject#Scripting.md).
-
-
-{{TitleProperty|Sketch}}
-
--    **Geometry|GeometryList**: a list of Part geometries that exist inside the sketch.
+-    **Constraints|**: named constraints, if they exist; otherwise it is an empty list `[]`.
 
 -    **External Geometry|LinkSubList**: a list of Part geometries outside this Sketch that are used for reference.
+
+-    **Fully Constrained|Bool|Hidden**: (read-only) if `True` the sketch is fully constrained.
 
 ### Vista
 
@@ -108,6 +107,32 @@ See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden propert
 
 
 </div>
+
+-    **Autoconstraints|Bool**: if `True` constraints are automatically added when geometry is drawn.
+
+-    **Avoid Redundant|Bool**: if `True` redundant auto-constraints are avoided.
+
+
+{{TitleProperty|Grid}}
+
+-    **Grid Auto Size|Bool|Hidden**: if `True` the grid is resized based on the boundingbox of the geometry of the sketch.
+
+-    **Grid Size|Length**: the size of the spacing of the local grid lines in the [3D view](3D_view.md); it defaults to {{value|10 mm}}.
+
+-    **Grid Snap|Bool**: if `True` the grid can be used to snap points.
+
+-    **Grid Style|Enumeration**: the style of the grid lines; {{value|Dashed}} (default) or {{value|Light}}.
+
+-    **Show Grid|Bool**: if `True` a grid local to the object will be displayed in the [3D view](3D_view.md). This grid is independent of the [Draft Grid](Draft_ToggleGrid.md).
+
+-    **Show Only In Edit Mode|Bool**: if `True` the grid is only displayed while the sketch is being edited.
+
+-    **Tight Grid|Bool**: if `True` the local grid will be localized around the origin of the shape, otherwise it will extend itself more.
+
+-    **max Number Of Lines|Integer**: the maximum number of lines in the grid.
+
+
+{{TitleProperty|Visibility automation}}
 
 
 <div class="mw-translate-fuzzy">
@@ -128,26 +153,18 @@ See [Part Part2DObject](Part_Part2DObject.md) for the rest of the hidden propert
 
 </div>
 
-#### Hidden properties View 
-
-
-{{TitleProperty|Base}}
-
--    **Proxy|PythonObject**: a custom view provider class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Sketcher_SketchObject#Scripting.md).
-
-
-{{TitleProperty|Visibility automation}}
-
--    **Tempo Vis|PythonObject**: a custom class associated with this object, that handles hiding and showing other objects when opening and closing the sketch.
-
-All other view properties, including hidden properties, are those of the base [Part Feature](Part_Feature.md) object.
-
 ## Script
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](scripted_objects/it.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -174,9 +191,7 @@ obj = App.ActiveDocument.addObject("Sketcher::SketchObject", "Sketch")
 obj.Label = "Custom label"
 ```
 
-This basic `Sketcher::SketchObject` doesn\'t have a Proxy object so it can\'t be fully used for sub-classing.
-
-Therefore, for [Python](Python.md) subclassing, you should create the `Sketcher::SketchObjectPython` object.
+For [Python](Python.md) subclassing you should create the `Sketcher::SketchObjectPython` object.
 
 
 ```python
@@ -188,9 +203,9 @@ obj.Label = "Custom label"
 ```
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
-}}  {{Document objects navi}}
+}} {{Document_objects_navi}}
 
 
 

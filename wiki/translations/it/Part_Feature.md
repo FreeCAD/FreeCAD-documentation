@@ -1,8 +1,7 @@
 # Part Feature/it
-## Introduzione
-
-
 {{TOCright}}
+
+## Introduzione
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
 
@@ -22,55 +21,82 @@ Una Part Feauture è la classe genitore della maggior parte degli oggetti 2D (Dr
 
 </div>
 
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 <div class="mw-translate-fuzzy">
-
-Ogni oggetto creato con [Part](Part_Workbench/it.md) è essenzialmente una [Part Feature](Part_Feature/it.md).
-
-
-</div>
-
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali in FreeCAD. La classe `Part::Feature* è l'origine della maggior parte degli oggetti 2D (Draft, Sketcher) e 3D (Part, PartDesign) per avere una [Part TopoShape](Part_TopoShape/it.md).`
 
+
+</div>
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 [Part Feature](Part_Feature/it.md) è un oggetto interno, quindi non può essere creato dall\'interfaccia grafica, ma solo dalla [console Python](Python_console/it.md) come descritto nel paragrafo [Script](Part_Feature/it#Script.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 L\'oggetto {{Incode|Part::Feature}} è definito in [Part](Part_Workbench/it.md) ma può essere usato come classe base per [script di oggetti](scripted_objects/it.md) in tutti gli [ambienti](Workbenches/it.md) che producono forme geometriche 2D e 3D. Sostanzialmente tutti gli oggetti prodotti in [Part](Part_Workbench/it.md) sono istanze di una `Part::Feature`. Gli oggetti solidi importati da file STEP o BREP sono importati utilizzando [Part](Part_Workbench/it.md), quindi sono anche importati come elementi `Part::Feature` sebbene senza cronologia parametrica.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 `Part::Feature`
 
 è anche la classe genitrice dei [Corpi di PartDesign](PartDesign_Body/it.md), delle [PartDesign Features](PartDesign_Feature/it.md), e dei [Part Part2DObject](Part_Part2DObject/it.md), che è specializzato per le forme 2D (planari).
 
-Un oggetto `Part::Feature` ha proprietà semplici come il [posizionamento](Placement/it.md) e le proprietà vista per definire l\'aspetto dei suoi vertici, bordi e facce. Gli ambienti possono aggiungere altre proprietà a questo elemento di base per produrre un oggetto con un comportamento complesso.
 
-## Proprietà
-
-Una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`) è derivata dalla base [App GeoFeature](App_GeoFeature/it.md) (classe`App::GeoFeature`), pertanto condivide la maggior parte delle proprietà di quest\'ultima.
+</div>
 
 
 <div class="mw-translate-fuzzy">
 
-Oltre alle proprietà descritte in [App GeoFeature](App_GeoFeature/it.md), Part Feature ha la proprietà {{PropertyData/it|Shape}}, che memorizza la [Part TopoShape](Part_TopoShape/it.md) di questi oggetti, che è la geometria mostrata nella [vista 3D](3D_view/it.md).
+Un oggetto `Part::Feature` ha proprietà semplici come il [posizionamento](Placement/it.md) e le proprietà vista per definire l\'aspetto dei suoi vertici, bordi e facce. Gli ambienti possono aggiungere altre proprietà a questo elemento di base per produrre un oggetto con un comportamento complesso.
 
 
 </div>
 
-Altre proprietà di questo oggetto sono quelle relative all\'aspetto della sua [TopoShape](Part_TopoShape/it.md), che comprende **Angular Deflection**, **Deviation**, **Draw Style**, **Lighting**, **Line Color**, **Line Width**, **Point Color**, **Point Size**, e anche le proprietà nascoste **Diffuse Color**, **Line Color Array**, **Line Material**, **Point Color Array**, e **Point Material**.
+## Proprietà
 
 Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono avere oggetti con script.
 
+
+<div class="mw-translate-fuzzy">
+
+Una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`) è derivata dalla base [App GeoFeature](App_GeoFeature/it.md) (classe`App::GeoFeature`), pertanto condivide la maggior parte delle proprietà di quest\'ultima.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Queste sono le proprietà disponibili nell\'[editor delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell \'[editor delle proprietà](property_editor/it.md).
+
+
+</div>
 
 ### Dati
 
 
 {{TitleProperty|Base}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Placement**: la posizione dell\'oggetto nella [Vista 3D](3D_view/it.md). Il posizionamento è definito da un punto `Base` (vettore) e una ` Rotation` (asse e angolo). Vedere [Posizionamento](Placement/it.md).
 
@@ -91,21 +117,6 @@ Queste sono le proprietà disponibili nell\'[editor delle proprietà](property_e
 
 -    **Label|String**: il nome modificabile dall\'utente di questo oggetto, è una stringa UTF8 arbitraria.
 
-#### Proprietà dati nascoste 
-
-
-<div class="mw-translate-fuzzy">
-
--    **Expression Engine|ExpressionEngine|hidden**: un elenco di espressioni. Di default, è vuota {{value|[]}}.
-
--    **Label2|String|hidden**: una descrizione più lunga e modificabile dall\'utente di questo oggetto, è una stringa UTF8 arbitraria che può includere nuove righe. Per impostazione predefinita, è una stringa vuota {{value|""}}.
-
--    **Proxy|PythonObject|hidden**: una classe personalizzata associata a questo oggetto. Questa esiste solo per la versione [Python](Python/it.md). Vedere [Script](Part_Feature/it#Script.md).
-
--    **Shape|PartShape|hidden**: una classe [Part TopoShape](Part_TopoShape/it.md) associata a questo oggetto.
-
--    **Visibility|Bool|hidden**: se visualizzare o no l\'oggetto.
-
 
 </div>
 
@@ -122,7 +133,7 @@ La maggior parte degli oggetti in FreeCAD ha quello che viene chiamato un \"forn
 
 {{TitleProperty|Base}}
 
--    **Proxy|PythonObject|hidden**: a custom [viewprovider](viewprovider.md) class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](Part_Feature#Scripting.md).
+-    **Proxy|PythonObject|hidden**: a custom [viewprovider](Viewprovider.md) class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](#Scripting.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -137,9 +148,9 @@ La maggior parte degli oggetti in FreeCAD ha quello che viene chiamato un \"forn
 
 -    **Display Mode|Enumeration**: {{value|Flat Lines}} (regular visualization), {{value|Shaded}} (no edges), {{value|Wireframe}} (no faces), {{value|Points}} (only vertices).
 
--    **Show In Tree|Bool**: it defaults to `True`, in which case the object will appear in the [tree view](tree_view.md); otherwise, the object will be hidden in the tree view. Once an object in the tree is invisible, you can see it again by opening the context menu over the name of the document (right-click), and selecting {{CheckBox|TRUE|Show hidden items}}. Then the hidden item can be chosen and **Show In Tree** can be switched back to `True`.
+-    **Show In Tree|Bool**: it defaults to `True`, in which case the object will appear in the [Tree view](Tree_view.md); otherwise, the object will be hidden in the tree view. Once an object in the tree is invisible, you can see it again by opening the context menu over the name of the document (right-click), and selecting {{CheckBox|TRUE|Show hidden items}}. Then the hidden item can be chosen and **Show In Tree** can be switched back to `True`.
 
--    **Visibility|Bool**: if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar in the keyboard.
+-    **Visibility|Bool**: if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar.
 
 
 {{TitleProperty|Object style}}
@@ -184,23 +195,6 @@ La maggior parte degli oggetti in FreeCAD ha quello che viene chiamato un \"forn
 
 </div>
 
-La deviazione è un valore in percentuale correlato alle dimensioni in millimetri del parallelepipedo contenitore dell\'oggetto. La deviazione in millimetri può essere calcolata come segue: 
-```python
-deviation_in_mm = (w + h + d)/3 * deviation/100
-``` dove {{value|w}}, {{value|h}}, {{value|d}} sono le dimensioni del contenitore.
-
--    **Draw Style|Enumeration**: {{value|Solid}} (default), {{value|Dashed}}, {{value|Dotted}}, {{value|Dashdot}}; defines the style of the edges in the [3D view](3D_view.md).
-
--    **Lighting|Enumeration**: {{value|Two side}} (default), {{value|One side}}; the illumination comes from two sides or one side in the [3D view](3D_view.md).
-
--    **Line Color|Color**: a tuple of three floating point RGB values  almost black .
-
--    **Line Color Array|ColorList|hidden**: it is a list of RGB tuples defining colors, similar to **Line Color**. It defaults to a list of one {{value|[(0.09, 0.09, 0.09)]}}.
-
--    **Line Material|Material|hidden**: an [App Material](App_Material.md) associated with the edges in this object. By default it is empty.
-
--    **Line Width|FloatConstraint**: a float that determines the width in pixels of the edges in the [3D view](3D_view.md). It defaults to {{value|2.0}}.
-
 -    **Point Color|Color**: similar to **Line Color**, defines the color of the vertices.
 
 -    **Point Color Array|ColorList|hidden**: it is a list of RGB tuples defining colors, similar to **Point Color**. It defaults to a list of one {{value|[(0.09, 0.09, 0.09)]}}.
@@ -218,27 +212,42 @@ deviation_in_mm = (w + h + d)/3 * deviation/100
 
 {{TitleProperty|Selection}}
 
--    **On Top When Selected|Enumeration**: it controls the way in which the selection occurs in the [3D view](3D_view.md) if the object has a [Shape](Part_TopoShape.md), and there are many objects partially covered by others. It defaults to {{value|Disabled}}, meaning that no special highlighting will occur; {{value|Enabled}} means that the object will appear on top of any other object when selected; {{value|Object}} means that the object will appear on top only if the entire object is selected in the [tree view](tree_view.md); {{value|Element}} means that the object will appear on top only if a subelement (vertex, edge, face) is selected in the [3D view](3D_view.md).
+-    **On Top When Selected|Enumeration**: it controls the way in which the selection occurs in the [3D view](3D_view.md) if the object has a [Shape](Part_TopoShape.md), and there are many objects partially covered by others. It defaults to {{value|Disabled}}, meaning that no special highlighting will occur; {{value|Enabled}} means that the object will appear on top of any other object when selected; {{value|Object}} means that the object will appear on top only if the entire object is selected in the [Tree view](Tree_view.md); {{value|Element}} means that the object will appear on top only if a subelement (vertex, edge, face) is selected in the [3D view](3D_view.md).
 
 -    **Selectable|Bool**: if it is `True`, the object can be picked with the pointer in the [3D view](3D_view.md). Otherwise, the object cannot be selected until this option is set to `True`.
 
 -    **Selection Style|Enumeration**: it controls the way the object is highlighted. If it is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} a bounding box will appear surrounding the object and will be highlighted.
 
-### Deviation value 
+### Angular deflection and deviation 
 
 <img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> 
-*Deflection parameters of `BRepMesh_IncrementalMesh* algorithm; d < linear deflection, α < angular deflection.`
+*Angular Deflection and deviation parameters; d < linear deflection, α < angular deflection.*
 
-See the forum thread, [Deviation and Angular deflection](https://forum.freecadweb.org/viewtopic.php?f=3&t=45512).
+La deviazione è un valore in percentuale correlato alle dimensioni in millimetri del parallelepipedo contenitore dell\'oggetto. La deviazione in millimetri può essere calcolata come segue:
+
+
+```python
+deviation_in_mm = (w + h + d)/3 * deviation/100
+```
+
+dove {{value|w}}, {{value|h}}, {{value|d}} sono le dimensioni del contenitore.
 
 ## Script
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](scripted_objects/it.md).
 
-Un oggetto Part Feature viene creato con il metodo `addObject()` del documento. 
+
+</div>
+
+Un oggetto Part Feature viene creato con il metodo `addObject()` del documento.
+
+
 ```python
 import FreeCAD as App
 
@@ -247,9 +256,9 @@ obj = App.ActiveDocument.addObject("Part::Feature", "Name")
 obj.Label = "Custom label"
 ```
 
-This basic `Part::Feature` doesn\'t have a Proxy object so it can\'t be fully used for sub-classing.
+For [Python](Python.md) subclassing, you should create a `Part::FeaturePython` object.
 
-Therefore, for [Python](Python.md) subclassing, you should create the `Part::FeaturePython` object. 
+
 ```python
 import FreeCAD as App
 
@@ -260,12 +269,9 @@ obj.Label = "Custom label"
 
 ### Name
 
+See also: [Object name](Object_name.md) for more information on the properties of the `Name`.
 
-**See also:**
-
-[Object name](Object_name.md), for more information on the properties of the Name.
-
-The `addObject` function has two basic string arguments.
+The `addObject` method has two basic string arguments.
 
 
 <div class="mw-translate-fuzzy">
@@ -287,11 +293,13 @@ The `addObject` function has two basic string arguments.
 
 If desired, the `Label` attribute can be changed to a more meaningful text.
 
--   The `Label` can accept any UTF8 string, including accents and spaces. Since the [tree view](tree_view.md) displays the `Label`, it is a good practice to change the `Label` to a more descriptive string.
+-   The `Label` can accept any UTF8 string, including accents and spaces. Since the [Tree view](Tree_view.md) displays the `Label`, it is a good practice to change the `Label` to a more descriptive string.
 -   By default the `Label` is unique, just like the `Name`. However, this behavior can be changed in the [preferences editor](Preferences_Editor.md), **Edit → Preferences → General → Document → Allow duplicate object labels in one document**. This means that in general the `Label` may be repeated in the same document; when testing for a specific element the user should rely on the `Name` rather than on the `Label`.
 
 
- {{Document objects navi}}
+{{Document_objects_navi
+
+}}
 
 
 

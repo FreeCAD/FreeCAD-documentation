@@ -128,8 +128,8 @@ Réglez son **placement** en ajustant son **angle** à 90 ° dans l\'axe (1,0,0)
 Voilà, notre modèle est maintenant terminé. Nous devrions maintenant l\'organiser afin qu\'il s'exporte correctement vers IFC. Le format IFC exige que tous les objets d\'un bâtiment se trouvent à l\'intérieur d\'un objet de construction, et éventuellement dans un historique. Il exige également que tous les bâtiments soient placés sur un site, mais l\'exportateur IFC de FreeCAD ajoutera automatiquement un site par défaut si nécessaire, donc nous n\'avons pas besoin d\'en ajouter un ici.
 
 -   Sélectionnez les deux dalles, le mur et le réseau de poutres.
--   Appuyez sur le bouton <img alt="" src=images/Arch_Floor.svg  style="width:16px;"> [Arch Planchers](Arch_Floor/fr.md).
--   Sélectionnez le plancher que nous venons de créer.
+-   Appuyez sur le bouton <img alt="" src=images/Arch_Floor.svg  style="width:16px;"> [Arch Niveaux](Arch_Floor/fr.md).
+-   Sélectionnez le niveau que nous venons de créer.
 -   Appuyez sur le bouton <img alt="" src=images/Arch_Building.svg  style="width:16px;"> [Arch Bâtiment](Arch_Building/fr.md).
 
 Notre modèle est maintenant prêt à exporter :

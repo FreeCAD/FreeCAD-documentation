@@ -14,7 +14,7 @@ Le flux de travail de l\'atelier Path FreeCAD crée ces instructions machine com
 -   Un modèle 3D est l\'objet de base, généralement créé à l\'aide d\'un ou plusieurs des ateliers <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Part Design](PartDesign_Workbench/fr.md), <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md) ou <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md).
 -   Une [Path Tâche](Path_Job/fr.md) est créée dans l\'atelier Path. Celui-ci contient toutes les informations nécessaires pour générer le G-code nécessaire pour traiter l\'usinage sur une fraiseuse CNC : il y a le brut de matière (le stock), le [magasin d\'outils](Path_ToolLibraryEdit/fr.md) et il suit certaines commandes contrôlant la vitesse et les mouvements (généralement en G-code).
 -   Les [Path Outils](Path_Tools/fr.md) sont sélectionnés comme requis par les opérations d\'usinage.
--   Les parcours de l\'outil de fraisage sont créés en utilisant par ex. des opérations de [Profilage](Path_Profile/fr.md) et [Poche](Path_Pocket_3D/fr.md). Ces objets Path utilisent le langage G-code interne à FreeCAD, indépendant de la machine CNC.
+-   Les parcours de l\'outil de fraisage sont créés en utilisant par ex. des opérations de [Profil](Path_Profile/fr.md) et [Poche](Path_Pocket_3D/fr.md). Ces objets Path utilisent le langage G-code interne à FreeCAD, indépendant de la machine CNC.
 -   Le travail est exporté en G-code, correspondant à votre machine. Cette étape s\'appelle *post-traitement*. Il y a différents post-processeurs disponibles.
 
 ## Concepts généraux 
@@ -37,9 +37,9 @@ L\'atelier Path possède des dépendances externes, notamment :
 
 Certaines limitations actuelles dont vous devez être conscient :
 
--   La plupart des outils de Path ne sont pas de véritables outils 3D mais uniquement compatibles 2.5D. Cela signifie qu\'ils prennent une forme 2D fixe et peuvent la découper à une profondeur donnée. Cependant, il existe deux outils qui produisent de véritables chemins 3D: **<img src="images/Path_3DPocket.svg" width=24px> [Poche 3D](Path_Pocket_3D/fr.md)** et **<img src="images/Path_Surface.svg" width=24px> [Surface 3D](Path_Surface/fr.md)** (qui est toujours une [fonction expérimentale](Path_experimental/fr.md) en novembre 2020).
+-   La plupart des outils de Path ne sont pas de véritables outils 3D mais uniquement compatibles 2.5D. Cela signifie qu\'ils prennent une forme 2D fixe et peuvent la découper à une profondeur donnée. Cependant, il existe deux outils qui produisent de véritables chemins 3D: **<img src="images/Path_3DPocket.svg" width=24px> [Évidement 3D](Path_Pocket_3D/fr.md)** et **<img src="images/Path_Surface.svg" width=24px> [Surface](Path_Surface/fr.md)** (qui est toujours une [fonction expérimentale](Path_experimental/fr.md) en novembre 2020).
 -   La plupart des ateliers Path sont conçus pour une fraiseuse/routeur CNC standard à 3 axes (xyz) simple, mais les outils de tour sont en cours de développement dans la version 0.19\_pre.
--   La plupart des opérations dans l\'atelier Path renverront des chemins basés sur un outil/un trépan de fraise standard uniquement, quel que soit le type d\'outil/trépan affecté dans un contrôleur d\'outil donné, à l\'exception de **![](images/)_[Gravure](Path_Engrave/fr.md)** et **<img src="images/Path_Surface.svg" width=24px> [Surface 3D](Path_Surface/fr.md)**.
+-   La plupart des opérations dans l\'atelier Path renverront des chemins basés sur un outil/un trépan de fraise standard uniquement, quel que soit le type d\'outil/trépan affecté dans un contrôleur d\'outil donné, à l\'exception de **![](images/)_[Gravure](Path_Engrave/fr.md)** et **<img src="images/Path_Surface.svg" width=24px> [Surface](Path_Surface/fr.md)**.
 -   Les opérations effectuées dans l\'atelier Path ne connaissent pas les mécanismes de serrage utilisés pour fixer le modèle à votre machine. Par conséquent, veuillez vérifier et simuler les chemins que vous générez avant d\'envoyer le code à votre machine. Si nécessaire, modélisez vos mécanismes de serrage dans FreeCAD afin de mieux inspecter les chemins générés. Recherchez les éventuelles collisions avec les fixations ou autres obstacles le long des trajectoires.
 
 ## Unités
@@ -90,7 +90,7 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 ### Commandes d\'outils 
 
--   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Inspecteur G-code](Path_Inspect/fr.md): Affiche le G-code pour vérification.
+-   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Inspection du G-code](Path_Inspect/fr.md): Affiche le G-code pour vérification.
 
 -   <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [Simulateur d\'usinage](Path_Simulator/fr.md) : Montre l\'opération d\'usinage comme le ferait la machine.
 
@@ -104,7 +104,7 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 ### Opérations de base 
 
--   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profilage](Path_Profile/fr.md) : crée une opération de profil de l\'ensemble du modèle ou à partir d\'une ou plusieurs faces ou arêtes sélectionnées. {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profil](Path_Profile/fr.md) : crée une opération de profil de l\'ensemble du modèle ou à partir d\'une ou plusieurs faces ou arêtes sélectionnées. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Poche](Path_Pocket_Shape/fr.md) : Crée une opération de poche à partir d\'une ou de plusieurs poches sélectionnées.
 
@@ -124,9 +124,9 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 ### Opérations 3D 
 
--   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [Poche 3D](Path_Pocket_3D/fr.md) : Crée un parcours d\'usinage pour une poche 3D.
+-   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [Évidement 3D](Path_Pocket_3D/fr.md) : Crée un parcours d\'usinage pour une poche 3D.
 
--   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [Surface 3D](Path_Surface/fr.md) : Crée un parcours d\'usinage pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [Surface](Path_Surface/fr.md) : Crée un parcours d\'usinage pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 
 -   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Contour par lignes de niveau](Path_Waterline/fr.md) : Crée un tracé défini par lignes de niveau pour une surface 3D. [**Fonctions expérimentales**](Path_experimental/fr.md). {{Version/fr|0.19}}
 

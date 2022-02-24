@@ -1,15 +1,29 @@
 # App GeoFeature/it
+{{TOCright}}
+
 ## Introduzione
 
 <img alt="" src=images/Feature.svg  style="width:32px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Un oggetto [App GeoFeature](App_GeoFeature/it.md), o formalmente un `App::GeoFeature`, è la classe base della maggior parte degli oggetti che visualizzano elementi geometrici nella [vista 3D](3D_view/it.md) perché include la proprietà {{PropertyData/it|Posizionamento}}.
+
+
+</div>
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+<div class="mw-translate-fuzzy">
+
+
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::GeoFeature* è essenzialmente la classe base di tutti gli oggetti nel software che mostrano una geometria nella [vista 3D](3D_view/it.md).`
+
+
+</div>
 
 ## Utilizzo
 
@@ -25,20 +39,38 @@ Alcuni degli oggetti derivati più importanti sono i seguenti:
 
 Quando si crea questo oggetto in [Python](Python/it.md), invece di sottoclassare `App::GeoFeature`, è necessario sottoclassare `App::GeometryPython` perché quest\'ultimo include di default un provider di visualizzazione e gli attributi `Proxy` per l\'oggetto stesso e il relativo provider di visualizzazione. Vedere [Script](App_GeoFeature/it#Script.md).
 
-## Proprietà
-
-Un oggetto [App GeoFeature](App_GeoFeature/it.md) (classe `App::GeoFeature`) è derivato dall\'oggetto base [App DocumentObject](App_DocumentObject/it.md) (classe `App::DocumentObject`), pertanto condivide tutte le proprietà di quest\'ultimo.
-
-Oltre alle proprietà descritte in [App DocumentObject](App_DocumentObject/it.md), GeoFeature ha la proprietà **Placement**, che controlla la sua posizione nella [vista 3D](3D_view/it.md).
+## Properties App GeoFeature 
 
 Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono avere gli oggetti con script.
 
+
+<div class="mw-translate-fuzzy">
+
+Un oggetto [App GeoFeature](App_GeoFeature/it.md) (classe `App::GeoFeature`) è derivato dall\'oggetto base [App DocumentObject](App_DocumentObject/it.md) (classe `App::DocumentObject`), pertanto condivide tutte le proprietà di quest\'ultimo.
+
+
+</div>
+
+## Properties App GeometryPython 
+
+See [Property](Property.md) for all property types that scripted objects can have.
+
+The [App GeometryPython](App_GeoFeature.md) (`App::GeometryPython` class) is derived from the basic [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class) and inherits all its properties. It also has several additional properties.
+
+
+<div class="mw-translate-fuzzy">
+
 Queste sono le proprietà disponibili nell\'[editor delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell\'[editor delle proprietà](property_editor/it.md).
+
+
+</div>
 
 ### Dati
 
 
 {{TitleProperty|Base}}
+
+-    **Proxy|PythonObject|Hidden**: a custom class associated with this object.
 
 -    **Placement|Placement**: the position of the object in the [3D view](3D_view.md). The placement is defined by a `Base` point (vector), and a `Rotation` (axis and angle). See [Placement](Placement.md).
 
@@ -59,10 +91,6 @@ Queste sono le proprietà disponibili nell\'[editor delle proprietà](property_e
 
 -    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string.
 
-#### Hidden properties Data 
-
--    **Proxy|PythonObject|Hidden**: a custom class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](App_GeoFeature#Scripting.md).
-
 -    **Label2|String|Hidden**: a longer, user editable description of this object, it is an arbitrary UTF8 string that may include newlines. By default, it is an empty string {{value|""}}.
 
 -    **Expression Engine|ExpressionEngine|Hidden**: a list of expressions. By default, it is empty {{value|[]}}.
@@ -74,7 +102,7 @@ Queste sono le proprietà disponibili nell\'[editor delle proprietà](property_e
 
 {{TitleProperty|Base}}
 
--    **Proxy|PythonObject|Hidden**: a custom view provider class associated with this object. This only exists for the [Python](Python.md) version. See [Scripting](App_GeoFeature#Scripting.md).
+-    **Proxy|PythonObject|Hidden**: a custom [viewprovider](Viewprovider.md) class associated with this object.
 
 
 {{TitleProperty|Display Options}}
@@ -110,11 +138,11 @@ Queste sono le proprietà disponibili nell\'[editor delle proprietà](property_e
 
 **See also:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](scripted_objects.md).
+[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the program
+See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
 
-A GeoFeature is created with the `addObject()` method of the document. If you would like to create an object with a 2D or 3D [topological shape](Part_TopoShape.md), it may be better to create one of the sub-classes specialized for handling shapes, for example, [Part Feature](Part_Feature.md) or [Part Part2DObject](Part_Part2DObject.md).
+A GeoFeature is created with the `addObject()` method of the document. If you would like to create an object with a 2D or 3D [topological shape](Part_TopoShape.md), it may be better to create one of the sub-classes specialized for handling shapes, for example [Part Feature](Part_Feature.md) or [Part Part2DObject](Part_Part2DObject.md).
 
 
 ```python
@@ -125,9 +153,7 @@ obj = App.ActiveDocument.addObject("App::GeoFeature", "Name")
 obj.Label = "Custom label"
 ```
 
-This basic `App::GeoFeature` doesn\'t have a default view provider, so no icon will be displayed on the [tree view](tree_view.md), and no **View** properties will be available.
-
-Therefore, for [Python](Python.md) subclassing, you should create the `App::GeometryPython` object.
+For [Python](Python.md) subclassing you should create the `App::GeometryPython` object.
 
 
 ```python
@@ -138,10 +164,8 @@ obj = App.ActiveDocument.addObject("App::GeometryPython", "Name")
 obj.Label = "Custom label"
 ```
 
-For example, the [Arch BuildingPart](Arch_BuildingPart.md) element of the [Arch Workbench](Arch_Workbench.md) is an `App::GeometryPython` object with a custom icon.
 
-
-{{Document objects navi
+{{Document_objects_navi
 
 }}
 

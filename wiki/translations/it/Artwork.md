@@ -143,6 +143,10 @@ See [Artwork Web](Artwork_Web.md).
 
 ## Ambienti esterni e componenti aggiuntivi 
 
+### From Mod/asm3/ 
+
+See [Artwork Assembly3](Artwork_Assembly3.md).
+
 ### From Mod/Plot/ 
 
 See [Artwork Plot](Artwork_Plot.md).
@@ -150,6 +154,10 @@ See [Artwork Plot](Artwork_Plot.md).
 ### Da Mod/Reinforcement/ 
 
 See [Artwork Reinforcement](Artwork_Reinforcement.md).
+
+### From Mod/Render/ 
+
+See [Artwork Render](Artwork_Render.md).
 
 ### From Mod/Ship/ 
 

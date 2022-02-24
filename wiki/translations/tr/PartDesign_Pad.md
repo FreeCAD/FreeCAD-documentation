@@ -24,10 +24,12 @@ The **Pad** tool extrudes a sketch or a face of a solid along a straight path.
 
 ## Usage
 
-1.  Select one sketch or face to be padded. <small>(v0.20)</small>  Alternatively you can select several sketches or faces.
+1.  Select one sketch or face to be padded. <small>(v0.20)</small> : Alternatively you can select several sketches or faces.
 2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> '''Pad'''** button.
 3.  Set the Pad parameters, see the [Options](#Options.md) below.
 4.  Click **OK**.
+
+When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
 
 ## Options
 
@@ -138,7 +140,7 @@ Tapers the pad in the opposite extrusion direction by the given angle. A positiv
 
 ## Limitations
 
--   Like all Part Design features, Pad creates a solid, thus the sketch must include a closed profile or it will fail with a *Failed to validate broken face* error. There can be multiple enclosed profiles inside a larger one, provided none intersect each other (for example, a rectangle with two circles inside it).
+-   Like all Part Design features, Pad creates a solid, thus the sketch must include a closed profile or it will fail with a *Failed to validate broken face* error.
 -   The algorithm used for **To First** and **To Last** is:
     -   Create a line through the center of gravity of the sketch
     -   Find all faces of the support cut by this line

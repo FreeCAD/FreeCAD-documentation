@@ -1,55 +1,55 @@
 # FreeCAD and DXF Import/pl
 {{TOCright}}
 
-## Background
+## Kontekst
 
-DXF is a proprietary CAD data format for 2D drawings that originated with AutoCAD. More details can be found on the [DXF](DXF.md) wiki page.
+DXF jest zastrzeżonym formatem danych CAD dla rysunków 2D, który wywodzi się z programu AutoCAD. Więcej szczegółów można znaleźć na stronie Wiki [DXF](DXF/pl.md).
 
-## Introduction
+## Wprowadzenie
 
-Since FreeCAD version 0.18 there is a new C++ DXF importer, and since version 0.19 also a new C++ DXF exporter. These new components are installed with FreeCAD.
+Od wersji 0.18 FreeCAD posiada nowy importer C++ DXF, a od wersji 0.19 również nowy eksporter C++ DXF. Te nowe komponenty są instalowane z programem FreeCAD.
 
-To use the older, legacy, DXF importer and exporter you need to install several files. These files cannot be included with FreeCAD since they use libraries published under a license that is not compatible with FreeCAD.
+Aby używać starszego importera i eksportera DXF, musisz zainstalować kilka plików. Te pliki nie mogą być dołączone do programu FreeCAD, ponieważ używają bibliotek opublikowanych na licencji, która nie jest kompatybilna z programem FreeCAD.
 
-## How to install the legacy DXF importer and exporter 
+## Jak zainstalować starszy importer i eksporter DXF 
 
-### Automatically
+### Automatycznie
 
-If the files are not already installed, go to the menu **Edit → Preferences → Import-Export → DXF** and enable the option **Allow FreeCAD to automatically download and update the DXF libraries** to make FreeCAD automatically download and install them.
+Jeśli pliki nie są jeszcze zainstalowane, przejdź do menu **Edycja → Preferencje ... → Import-Export → DXF** i włącz opcję **Pozwól programowi FreeCAD na automatyczne pobieranie i aktualizacje bibliotek DXF**, aby program FreeCAD automatycznie pobierał i instalował te pliki.
 
-For FreeCAD 0.14 or older you have to install manually:
+W przypadku programu FreeCAD 0.14 lub starszego należy zainstalować go ręcznie:
 
-### Manually
+### Samodzielnie
 
-1.  Go to [Yorik\'s Github account](https://github.com/yorikvanhavre/Draft-dxf-importer) and download these files (on the right side you can choose \"download as ZIP\").
-2.  Put the files in your macro folder.
-3.  If you are unsure where this folder is, go to **Edit → Preferences → General → Macro** and check the field named **Macro Path**.
+1.  Wejdź na stronę [Yorik\'s Github account](https://github.com/yorikvanhavre/Draft-dxf-importer) i pobierz te pliki *(po prawej stronie możesz wybrać \"pobierz jako ZIP\")*.
+2.  Umieść pliki w swoim folderze z makrodefinicjami.
+3.  Jeśli nie jesteś pewien, gdzie znajduje się ten folder, przejdź do **Edycja → Preferencje ... → Ogólne → Makrodefinicje** i sprawdź pole o nazwie **Ścieżka do pliku makrodefinicji**.
 
--   In Ubuntu your macro folder is normally (the folder is hidden, you may need to unhide it):
+-   W Ubuntu folder z makrami znajduje się w standardowej lokalizacji *(folder jest ukryty, może być konieczne jego celowe wyświetlenie)*:
 
 /home/your_user_name/.FreeCAD 
 
--   In Windows your macro folder is normally:
+-   W systemie Windows folder z makrami znajduje się w standardowej lokalizacji:
 
-C:\Users\your_user_name\AppData\Roaming\FreeCAD
+C:\Użytkownicy \AppData\Roaming\FreeCAD
 
-See also: [Dxf Importer Install](Dxf_Importer_Install.md)
+Zobacz również: [Instalacja importera Dxf](Dxf_Importer_Install/pl.md)
 
-## Tips and Tricks 
+## Porady i sztuczki 
 
-Sometimes DXF Files don\'t import although they open in other CAD-Programs without problems.
+Czasami pliki DXF nie importują się, mimo że otwierają się bez problemów w innych programach CAD.
 
-You can try:
+Możesz spróbować:
 
-1.  Go to **Edit → Preferences → Import-Export → DXF** and untick the option **Join geometry** and try again.
-2.  Remember that maybe now you won\'t have coincident endpoints. You will have to make them coincident yourself.
-3.  You can do this with the [Sketcher CloseShape](Sketcher_CloseShape.md) command <small>(v0.15)</small>  or you can apply the constraints manually.
+1.  Przejdź do menu **Edycja → Preferencje ... → Import-Export → DXF** i usuń zaznaczenie opcji **Łącz geometrie** i spróbuj ponownie.
+2.  Pamiętaj, że być może teraz nie będziesz miał zbieżnych punktów końcowych. Będziesz musiał sprawić, by były one zbieżne same z sobą.
+3.  Możesz to zrobić za pomocą polecenia [Zamknij kształt](Sketcher_CloseShape/pl.md) {{VersionPlus/pl|0.15}} lub zastosować wiązania samodzielnie.
 
-You can also try:
+Możesz również spróbować:
 
-1.  Go to **Edit → Preferences → Draft → General settings** and adjust the value of **Tolerance** (default: 0,05) and try again.
+1.  Przejdź do **Edycja → Preferencje ... → Rysunek Roboczy → Ustawienia ogólne** i dostosuj wartość **Tolerancja** *(domyślnie: 0,05)* i spróbuj ponownie.
 
-For an overview of all DXF related preferences see [Import Export Preferences](Import_Export_Preferences#DXF.md).
+Aby uzyskać przegląd wszystkich preferencji związanych z DXF, zobacz stronę [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DXF.md).
 
 
 

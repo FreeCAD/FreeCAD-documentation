@@ -70,7 +70,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Contrainte de rotation du plan](FEM_ConstraintPlaneRotation/fr.md) : Permet de définir une contrainte de rotation plane sur une face plane.
 
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Constraint section print](FEM_ConstraintSectionPrint/fr.md) : {{Version/fr|0.19}}
+-   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Contrainte d\'empreinte de section](FEM_ConstraintSectionPrint/fr.md) : {{Version/fr|0.19}}
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Contrainte de transformation](FEM_ConstraintTransform/fr.md) : Utilisé pour définir une contrainte de transformation sur une face.
 
@@ -90,7 +90,9 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Contrainte de pression](FEM_ConstraintPressure/fr.md) : Permet de définir une contrainte de pression.
 
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Contrainte de poids](FEM_ConstraintSelfWeight/fr.md) : Permet de définir une accélération de gravité agissant sur un modèle.
+-   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constrainte centrifuge](FEM_ConstraintCentrif/fr.md) : Utilisé pour définir une contrainte de charge de corps centrifuge. {{Version/fr|0.20}}
+
+-   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Contrainte de poids propre](FEM_ConstraintSelfWeight/fr.md) : Permet de définir une accélération de gravité agissant sur un modèle.
 
 ### Contraintes thermiques 
 

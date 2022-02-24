@@ -13,8 +13,6 @@
 
 The **Std AddonMgr** command opens the Addon manager. With the Addon manager you can install and manage [external workbenches](external_workbenches.md) and [macros](macros.md) provided by the FreeCAD community. The available workbenches and macros are taken from two repositories, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) and [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), and from the [Macros recipes](Macros_recipes.md) page.
 
-Addons that are marked as {{emphasis|Python 2 Only}} will not work in FreeCAD version 0.19 or higher.
-
 Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or a recent [0.19](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre) version. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
 
  ![](images/Std_AddonMgr_dialog.png )  
@@ -73,6 +71,75 @@ For Python workbenches, you don\'t need any specific approval to have your workb
 ### C++ workbenches 
 
 If you develop a workbench in C++, it cannot be run directly by users and must be compiled first. You then have two options, either you provide precompiled versions of your workbench yourself, for the different operating systems, or you should request to have your code merged into the FreeCAD source code. For that, you should use the LGPL license (or a fully compatible license like MIT or BSD), and you must present your new tools to the community in the [FreeCAD forum](https://forum.freecadweb.org) for review. Once your code has been tested and approved, you should fork the FreeCAD repository, if not done yet, create a new branch, push your code to it, and open a pull request so that your branch is merged into the main repository.
+
+## Changes coming in FreeCAD 0.20 
+
+The Addon Manager saw a major revision in 0.20, most notably adding support for modern SSL standards, but also undergoing a visual refresh and some added user-interface features.
+
+
+<table>
+
+
+<tr>
+
+
+<td>
+
+<img alt="" src=images/AddonManager_relnotes_0.20.png  style="width:500px;">
+
+
+</td>
+
+
+<td>
+
+1.  \"Condensed\" and \"Expanded\" views available. \"Expanded\" view is shown here.
+2.  Three different types of addons are now supported: Workbenches, Macros, and Preference Packs. You can choose to show just one type, or all of them in a single list.
+3.  The list can be limited to show just installed packages, just packages with available updates, or just packages that are not yet installed.
+4.  The list can be filtered, searching for a keyword in the title, description, and tags (description and tags must be specified by the addon developer in their addon\'s metadata). The filter can even be a regular expression, for fine-grained control of the exact search term.
+5.  The expanded view shows available version information, description, maintainer information, and installation version information, for packages that provide a [Package\_Metadata](Package_Metadata.md) file (or for macros with embedded metadata).
+6.  Metadata and icons are cached locally, with a variable cache update frequency set in the user preferences.
+7.  Update checks may be set up to be automatic, or done manually via a button click. Configured in user preferences.
+
+
+</td>
+
+
+</tr>
+
+
+<tr>
+
+
+<td>
+
+<img alt="" src=images/AddonManagerOptions_relnotes_0.20.png  style="width:500px;">
+
+
+</td>
+
+
+<td>
+
+The Addon Manager\'s preferences have been moved to the main FreeCAD preferences dialog. Several new preferences are available, and several existing preferences have modified behavior.
+
+1.  Automatic update checking is available, but not enabled by default. This check happens only when Addon Manager is launched, it is not a \"background\" update. The GitPython library is required to use the update check feature for workbenches (note that this also requires git to be installed, it is not included with FreeCAD).
+2.  Most macros contain extensive metadata describing their contents. This metadata can optionally be downloaded for display in the Addon Manager\'s main addon listing. This data is cached locally.
+3.  The addon availability and metadata information is cached locally: this cache can be updated either manually, or at set intervals.
+4.  Three different types of checks are available for automatically hiding certain addons, depending on information maintained at the FreeCAD Addons repository and/or in the addon\'s internal metadata. As addons in these categories are unlikely to work in your version of FreeCAD, these options are on by default.
+5.  Custom repositories may be configured, and should include the name of the branch you intend to use (typically \"master\" or \"main\", depending on the developer, but it is not limited to these options).
+6.  The Addon Manager includes experimental support for proxies requiring authentication, set up as user-defined proxies.
+7.  The Addon Manager now supports automatic pip-based installation of Python package dependencies, offered as an option when installing an Addon with the appropriate metadata set in either a \"requirements.txt\" or \"metadata.txt\" file. To support this the Addon Manager attempts to determine the Python executable that should be used. To override this selection, the user preference can be set here.
+8.  For developers and beta-testers, the Addon Manager can provide an interface on the addon\'s details screen that allows switching which git branch is currently checked out. This is intended for advanced users only, as it is possible that a non-primary-branch version of the Addon may result in instability and compatibility issues. Use with caution.
+
+
+</td>
+
+
+</tr>
+
+
+</table>
 
 
 

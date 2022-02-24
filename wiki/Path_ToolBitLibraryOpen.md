@@ -11,8 +11,7 @@
 
 ## Description
 
-The **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px> [Tool xxxxx](Path_ToolBitLibraryOpen.md)
-**
+The **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px> [ToolBit Library editor](Path_ToolBitLibraryOpen.md)**:
 
  ![](images/Toolbitmanager.png ) 
 

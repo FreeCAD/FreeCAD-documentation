@@ -84,7 +84,13 @@ I numeri che rappresentano i nomi dei bordi non sono completamente stabili, pert
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Ulteriori informazioni nella pagina dedicata al [problema di denominazione topologica](topological_naming_problem/it.md).
+
+
+</div>
 
 ## Script
 

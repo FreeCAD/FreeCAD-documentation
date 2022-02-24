@@ -399,7 +399,7 @@ If the name is not found, an empty string is returned.
 
 Use the `--get-config <config-var-name>` option to query a single name. Not all names are supported. For example:
 
- FreeCAD_0.19 --get-config ExeVersion
+ FreeCAD --get-config ExeVersion
 
 Use the `--dump-config` option to get a list of names and their values. Not all names are supported.
 
@@ -407,7 +407,7 @@ Use the `--dump-config` option to get a list of names and their values. Not all 
 
 Start FreeCAD in console mode with `--console` and query with Python code. For example:
 
- $ FreeCAD_0.19 --console
+ $ FreeCAD --console
  [FreeCAD Console mode <Use Ctrl-D (i.e. EOF) to exit.>]
  >>> FreeCAD.ConfigGet("ExeVersion")
  '0.19'
@@ -415,7 +415,7 @@ Start FreeCAD in console mode with `--console` and query with Python code. For e
 
 For Linux (bash shell) you can modify the following command line to suit your needs:
 
- $ FreeCAD_0.19 --console <<EOF
+ $ FreeCAD --console <<EOF
  print( "FREECAD_USER_HOME: " + ( "not set" if ( os.environ.get('FREECAD_USER_HOME') is None ) else os.environ.get('FREECAD_USER_HOME') ) )
  print( "UserHomePath: " + FreeCAD.ConfigGet("UserHomePath") )
  exit()

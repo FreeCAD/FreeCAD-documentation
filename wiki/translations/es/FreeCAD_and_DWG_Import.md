@@ -30,9 +30,15 @@ El formato **DWG es un formato de archivo binario de código cerrado** que no es
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   página web: <https://www.gnu.org/software/libredwg/>
 -   licencia: GPLv2-o posterior
 -   opcional, se utiliza para permitir la importación y exportación de archivos DWG
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

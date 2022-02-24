@@ -118,7 +118,7 @@ Numerele de margine nu sunt complet stabile, prin urmare este recomandat să fin
 
 </div>
 
-Read more in [topological naming problem](topological_naming_problem.md).
+Read more in [topological naming problem](Topological_naming_problem.md).
 
 ## Programare-Script 
 

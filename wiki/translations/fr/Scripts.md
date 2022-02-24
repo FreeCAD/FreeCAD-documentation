@@ -36,7 +36,6 @@ Pour faire les choses d\'une manière polie, le fichier doit être écrit avec u
    Primo script per FreeCAD
 
 """
-
 ```
 
 Enregistrez-les avec un nom significatif avec l\'extension `.py` et chargez le fichier résultant dans FreeCAD, avec la commande **Fichier - Ouvrir**.
@@ -50,7 +49,6 @@ Un exemple simple de ce qu\'il est nécessaire d\'avoir dans un script est prés
    Here a short but significant description of what the script do 
 
 """
-
 
 import FreeCAD
 from FreeCAD import Base, Vector
@@ -72,20 +70,16 @@ def setview():
     FreeCAD.Gui.SendMsgToActiveView("ViewFit")
     FreeCAD.Gui.activeDocument().activeView().viewAxometric()
 
-
 if DOC is None:
     FreeCAD.newDocument(DOC_NAME)
     FreeCAD.setActiveDocument(DOC_NAME)
     DOC = FreeCAD.activeDocument()
-
 else:
-
     clear_doc()
 
 # EPS= tolerance to use to cut the parts
 EPS = 0.10
 EPS_C = EPS * -0.5
-
 ```
 
 Certaines astuces sont incorporées dans le code ci-dessus:
@@ -113,7 +107,6 @@ def cubo(nome, lung, larg, alt):
 obj = cubo("test_cube", 5, 5, 5)
 
 setview()
-
 ```
 
 Mettez ces lignes après le code \"modèle\" et appuyez sur la flèche verte dans la **Barre d\'outils Macro**
@@ -124,7 +117,7 @@ Vous verrez des choses magiques, un nouveau document est ouvert nommé \"Pippo\"
 
 ## Quelque chose en plus\... 
 
-Pas trop étonnant? Oui, mais il faut commencer quelque part, on peut faire la même chose avec un [Cylindre](Part_Cylinder/fr.md), ajouter ces lignes de code après la méthode `cubo(` et avant la ligne `# objects definition`.
+Pas trop étonnant? Oui, mais il faut commencer quelque part, on peut faire la même chose avec un [Cylindre](Part_Cylinder/fr.md), ajouter ces lignes de code après la méthode `cubo()` et avant la ligne : `# objects definition`.
 
 
 ```python
@@ -167,7 +160,6 @@ Utilisons les géométries, supprimons les lignes sous la section de code commen
 
 
 ```python
-
 # objects definition
 
 obj = cubo("cubo_di_prova", 5, 5, 5)
@@ -177,7 +169,6 @@ obj1 = base_cyl('primo cilindro', 360,2,10)
 fuse_obj("Fusione", obj, obj1)
 
 setview()
-
 ```
 
 Lancez le script avec la flèche verte et nous verrons dans la vue 3D quelque chose comme:
@@ -194,7 +185,7 @@ FreeCAD offre un large choix de moyens pour définir cette propriété, l\'un es
 
 
 ```python 
-FreeCAD.Placement(Vector(0,0,0), FreeCAD.Rotation(10,20,30), Vector(0,0,0))
+FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 ```
 
 Mais par rapport à d\'autres considérations, une chose est cruciale, la géométrie **point de référence**, c\'est-à-dire le point à partir duquel l\'objet est modélisé par FreeCAD, comme décrit dans ce tableau, copié de [Placement](Placement/fr.md):
@@ -206,7 +197,7 @@ Mais par rapport à d\'autres considérations, une chose est cruciale, la géom�
   Part.Cylinder                     centre de la face inférieure
   Part.Cone                         centre de la face inférieure (ou sommet si le rayon inférieur est 0)
   Part.Torus                        centre du tore
-  Fonctions dérivées d\'esquisses   La fonction hérite de la position de l\'esquisse sous-jacente. Les esquisses commencent toujours par Position = (0,0,0). Cette position correspond à l\'origine dans l\'esquisse.
+  Fonctions dérivées d\'esquisses   La fonction hérite de la position de l\'esquisse sous-jacente. Les esquisses commencent toujours par Position = (0, 0, 0). Cette position correspond à l\'origine dans l\'esquisse.
 
 Cette information doit être gardée à l\'esprit, en particulier lorsque nous devons appliquer une rotation.
 
@@ -214,13 +205,11 @@ Quelques exemples peuvent aider, supprimez toute la ligne après la méthode `ba
 
 
 ```python
-
 def sfera(nome, rad):
     obj = DOC.addObject("Part::Sphere", nome)
     obj.Radius = radDOC.recompute()
 
     return obj   
-
 
 def mfuse_obj(nome, objs):
     obj = DOC.addObject("Part::MultiFuse", nome)
@@ -229,7 +218,6 @@ def mfuse_obj(nome, objs):
     DOC.recompute()
 
     return obj
-
 
 def aeroplano():
 
@@ -247,15 +235,15 @@ def aeroplano():
     obj2 = cubo('ali', ap_alare, spess_ali, larg_ali, True, off_ali)
 
     obj3 = sfera("naso", diam_fus)
-    obj3.Placement = FreeCAD.Placement(Vector(0,0,lung_fus), FreeCAD.Rotation(0,0,0), Vector(0,0,0))
+    obj3.Placement = FreeCAD.Placement(Vector(0, 0, lung_fus), FreeCAD.Rotation(0, 0, 0), Vector(0, 0, 0))
 
     obj4 = cubo('impennaggio', spess_ali, alt_imp, larg_ali, False, 0)
-    obj4.Placement = FreeCAD.Placement(Vector(0,alt_imp * -1,0), FreeCAD.Rotation(0,0,0), Vector(0,0,0))
+    obj4.Placement = FreeCAD.Placement(Vector(0, alt_imp * -1, 0), FreeCAD.Rotation(0, 0, 0), Vector(0, 0, 0))
 
     objs = (obj1, obj2, obj3, obj4)
 
     obj = mfuse_obj("Forma esempio", objs)
-    obj.Placement = FreeCAD.Placement(Vector(0,0,0), FreeCAD.Rotation(0,0,-90), Vector(0,0,pos_ali))
+    obj.Placement = FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali))
 
     DOC.recompute()
 
@@ -266,7 +254,6 @@ def aeroplano():
 aeroplano()
 
 setview()
-
 ```
 
 Expliquons quelque chose dans le code:
@@ -274,7 +261,7 @@ Expliquons quelque chose dans le code:
 -   Nous avons utilisé une méthode pour définir une sphère, en utilisant la définition la plus simple, en utilisant uniquement le rayon.
 -   Nous avons introduit une deuxième écriture pour **Union** ou **Fusion**, en utilisant plusieurs objets, pas trés éloignés de l\'habituel **Part::Fuse** qu\'il utilise **Part:Multifuse** et n\'utilise qu\'une seule propriété `Shapes`. Nous avons passé un **tuple** comme arguments mais il accepte aussi une **liste**.
 -   Nous avons défini un objet complexe **aeroplano** (mot italien pour avion) mais nous l\'avons fait de manière **\"paramétrique\"** en définissant certains paramètres et en dérivant d\'autres paramètres, grâce à des calculs , basé sur les principaux paramètres.
--   Nous avons utilisé des propriétés de placement `Placement` dans la méthode et avant de renvoyer les géométries finales, nous avons utilisé une propriété `Rotation` avec l\'écriture *Yaw-Pitch-Roll*. Notez le dernier `Vector(0,0, pos_ali)` qui définit un **centre de rotation** de toute la géométrie.
+-   Nous avons utilisé des propriétés de placement `Placement` dans la méthode et avant de renvoyer les géométries finales, nous avons utilisé une propriété `Rotation` avec l\'écriture *Yaw-Pitch-Roll*. Notez le dernier `Vector(0, 0, pos_ali)` qui définit un **centre de rotation** de toute la géométrie.
 
     
   ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
@@ -282,27 +269,25 @@ Expliquons quelque chose dans le code:
 
 On peut facilement remarquer que la géométrie **aeroplano** tourne autour de son \"barycentre\" ou \"centre de gravité\", que j\'ai fixé au centre de l\'aile, un endroit relativement \"naturel\", mais qui pourrait être placé n\'importe où vous voulez.
 
-Le premier `Vector(0,0,0)` est le vecteur de translation, non utilisé ici, mais si vous remplacez `aeroplano()` par ces lignes:
+Le premier `Vector(0, 0, 0)` est le vecteur de translation, non utilisé ici, mais si vous remplacez `aeroplano()` par ces lignes:
 
 
 ```python
-
 obj_f = aeroplano()
 
 print(obj_F.Placement)
-
 ```
 
 Vous verrez dans la fenêtre Rapport ce texte:
 
 
 ```python
-Placement [Pos=(0,-21,21), Yaw-Pitch-Roll=(0,0,-90)]
+Placement [Pos=(0, -21, 21), Yaw-Pitch-Roll=(0, 0, -90)]
 ```
 
 Que s\'est-il passé?
 
-FreeCAD a traduit le `Vector(0,0,0), FreeCAD.Rotation(0,0,-90), Vector(0,0,pos_ali)` en un autre mot notre définition `Placement` qui spécifie trois composants, **Translation**, **Rotation** et **centre de rotation**dans les valeurs \"internes\" de seulement deux composants,**Translation** et **Rotation**.
+FreeCAD a traduit le `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali)` en un autre mot notre définition `Placement` qui spécifie trois composants, **Translation**, **Rotation** et **centre de rotation** en valeurs \"internes\" de seulement deux composants, **Translation** et **Rotation**.
 
 vous pouvez facilement visualiser la valeur de `pos_ali` en utilisant une instruction print dans la méthode `aeroplano(...` et voir que c\'est:
 
@@ -311,7 +296,7 @@ vous pouvez facilement visualiser la valeur de `pos_ali` en utilisant une instru
 pos ali =  21.0
 ```
 
-en d\'autres termes, le **centre de rotation** de la géométrie est à `Vector(0,0,21)`, mais ce centre de rotation n\'est pas affiché dans l\'interface graphique, il pourrait être entré comme { {incode\|Placement}}, il n\'a pas pu être facilement récupéré.
+en d\'autres termes, le **centre de rotation** de la géométrie est à `Vector(0, 0, 21)`, mais ce centre de rotation n\'est pas affiché dans l\'interface graphique, il pourrait être entré comme { {incode\|Placement}}, il n\'a pas pu être facilement récupéré.
 
 C\'est le sens du mot \"maladroit\" que j\'ai utilisé pour définir la propriété `Placement`.
 

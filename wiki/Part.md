@@ -20,9 +20,7 @@ In informal usage, a \"Part\" may be any geometrical figure that is visible in t
 However, when more precision is required, the distinction must be made.
 
 -   A \"[Body](Body.md)\" is used for single contiguous elements, usually created with the [Part](Part_Workbench.md) or [PartDesign Workbenches](PartDesign_Workbench.md).
-    -   A \"Body\" has a \"[Shape](Shape.md)\".
 -   A \"Part\" is used to group a single \"Body\", or several of them to form an \"Assembly\".
-    -   A \"Part\" has a collection of \"[Shapes](Shape.md)\", but doesn\'t have a \"Shape\" of its own.
 -   An \"Assembly\" is a collection of \"Parts\" arranged in some way, manually, or by using an assembly workbench.
 
 

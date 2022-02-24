@@ -10,6 +10,12 @@ Les objets <img alt="" src=images/Std_Part.svg  style="width:16px;"> [Std Part](
 
 Les axes et les plans sont des objets de type `App::Line` et `App::Plane` respectivement. Chacun de ces éléments peut être masqué et démasqué individuellement avec la barre **Espace**. Cela peut être utile pour sélectionner la référence correcte pour créer d\'autres objets, par exemple des [esquisses](Sketch/fr.md).
 
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
+
+
+*Diagramme simplifié des relations entre les objets principaux du programme. Deux d'entre eux ont un objet Origine pour contrôler le placement des objets regroupés sous eux.*
+
 
 {{Document_objects_navi
 

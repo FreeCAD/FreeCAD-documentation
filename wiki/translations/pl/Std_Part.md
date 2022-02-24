@@ -23,36 +23,30 @@ Chociaż jest on przeznaczony głównie dla brył, Std: Część może być uży
 
 Nie należy mylić elementu **[<img src=images/PartDesign_Body.svg style="width:16px"> [Projekt Części: Zawartość](PartDesign_Body/pl.md)** z częścią **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](Std_Part/pl.md)**. Pierwszym z nich jest określony obiekt używany w środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), przeznaczony do modelowania [pojedynczej, ciągłej bryły](PartDesign_Body/pl#Single_contiguous_solid.md) za pomocą funkcji [właściwości](PartDesign_Feature.md). Z drugiej strony [Std: Część](Std_Part/pl.md) nie jest używana do modelowania, a jedynie do rozmieszczania różnych obiektów w przestrzeni z zamiarem tworzenia [złożeń](assembly.md).
 
-Narzędzie **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](Std_Part/pl.md)** nie jest zdefiniowane przez konkretne środowisko pracy, lecz przez system bazowy, a więc znajduje się na pasku **narzędzi struktury**, który jest dostępny we wszystkich [Środowiskach pracy.](Workbenches/pl.md) Aby dowolnie grupować obiekty bez względu na ich położenie, należy użyć funkcji **[<img src=images/Std_Group.svg style="width:16px"> [Std: Group](Std_Group.md)**. Obiekt ten nie ma wpływu na rozmieszczenie elementów, które zawiera, w zasadzie jest to tylko folder, który jest używany do utrzymania widoku drzewa w sposób zorganizowany.
+Narzędzie **[<img src=images/Std_Part.svg style="width:16px"> [Std: Część](Std_Part/pl.md)** nie jest zdefiniowane przez konkretne środowisko pracy, lecz przez system bazowy, a więc znajduje się na pasku **narzędzi struktury**, który jest dostępny we wszystkich [Środowiskach pracy.](Workbenches/pl.md) Aby dowolnie grupować obiekty bez względu na ich położenie, należy użyć funkcji **[<img src=images/Std_Group.svg style="width:16px"> [Std: Group](Std_Group/pl.md)**. Obiekt ten nie ma wpływu na rozmieszczenie elementów, które zawiera, w zasadzie jest to tylko folder, który jest używany do utrzymania widoku drzewa w sposób zorganizowany.
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
 
 
-*Z lewej: elementy wewnątrz Std: Część w [widoku drzewa](Tree_view/pl.md). <br>Z prawej: obiekty umieszczone w przestrzeni, odnoszące się do pochodzenia ''(Origin)'' Std: Część.*
+*Z lewej: elementy wewnątrz Std: Część w [widoku drzewa](Tree_view/pl.md). <br>Z prawej: obiekty umieszczone w przestrzeni, odnoszące się do odniesienia położenia Std: Części.*
 
 ## Użycie
 
-1.  Naciśnij przycisk **[<img src=images/Std_Part.svg style="width:16px"> [Utwórz Część](Std_Part/pl.md)**. Zostanie utworzona pusta część, która automatycznie stanie się *[aktywna](Std_Part/pl#Status_aktywności.md)*.
-2.  Aby dodać obiekty do nowo utworzonej pozycji Części, zaznacz ją w [widoku drzewa](Tree_view/pl.md), a następnie przeciągnij je i upuść nad Częścią.
-3.  Aby usunąć obiekty z części, przeciągnij je poza część, na etykietę dokumentu u góry [widoku drzewa](Tree_view/pl.md).
+1.  Naciśnij przycisk **[<img src=images/Std_Part.svg style="width:16px"> [Utwórz Część](Std_Part/pl.md)**.
+2.  Zostanie utworzona pusta część, która automatycznie stanie się *[aktywna](Std_Part/pl#Status_aktywności.md)*.
+3.  Aby dodać obiekty do nowo utworzonej pozycji Części, zaznacz ją w [widoku drzewa](Tree_view/pl.md), a następnie przeciągnij je i upuść nad Częścią.
+4.  Aby usunąć obiekty z części, przeciągnij je poza część, na etykietę dokumentu u góry [widoku drzewa](Tree_view/pl.md).
+5.  Obiekty można także dodawać i usuwać, edytując właściwość **Grupa** części.
 
 ## Uwagi
 
--   Od wersji programu v0.19, dany obiekt może należeć tylko do jednej pozycji Części.
--   Kliknij dwukrotnie w pozycję Część w [widoku drzewa](Tree_view/pl.md) lub otwórz menu kontekstowe *(klikając prawym przyciskiem myszy)* i wybierz **Przełącz aktywność części** aby uaktywnić lub dezaktywować wybraną Część. Jeśli aktywna jest inna część, jej aktywność zostanie wyłączona. Aby uzyskać więcej informacji, zobacz akapit [status aktywności](Std_Part/pl#Status_aktywności.md).
-
-## Ograniczenia
-
--   Aktualnie metody [Draft: Przyciąganie](Draft_Snap/pl.md) nie działają na wybranych kontenerach części ani na obiektach znajdujących się wewnątrz nich.
--   Część nie ma kształtu topologicznego, dlatego też operacje przestrzenne, takie jak [Część: Działania logiczne na bryłach](Part_Boolean/pl.md), nie mogą być bezpośrednio użyte na samej części. Na przykład nie można wybrać dwóch Części i wykonać za ich pomocą operacji [Część: Suma](Part_Fuse/pl.md) lub [Część: Wytnij](Part_Cut/pl.md).
-    -   Te operacje logiczne działają tylko na zawartych obiektach, o ile pochodzą one z obiektu [Część: funkcjonalność](Part_Feature/pl.md) i mają [kształt topologiczny](Part_TopoShape/pl.md).
+-   Dany obiekt może należeć tylko do jednej pozycji Części.
+-   Operacje 3D, takie jak [operacje logiczne](Part_Boolean/pl.md) środowiska Część, nie mogą być stosowane do części. Na przykład nie można wybrać dwóch części i wykonać operacji [Scalenie](Part_Fuse/pl.md) lub [Cięcie](Part_Cut/pl.md).
 
 ## Właściwości
 
-[Std: Część](Std_Part/pl.md) jest wewnętrznie nazywana [App: Part](App_Part.md) *(klasa App::Part)*, i pochodzi z [App: GeoFeature](App_GeoFeature.md) *(klasa App::GeoFeature)*, dlatego też posiada większość właściwości tej ostatniej.
-
-Oprócz właściwości opisanych w [App: GeoFeature](App_GeoFeature.md), klasa App Part posiada pewne właściwości, które pomagają w zarządzaniu informacjami w kontekście zespołu, na przykład: **Typ**, **Id**, **Licencja**, **LicencjaURL**, **Kolor**, oraz **Grupa**.
+[Std: Część](Std_Part/pl.md) jest wewnętrznie nazywana [App: Part](App_Part.md) *(klasa App::Part)*, i pochodzi z [App: GeoFeature](App_GeoFeature.md) *(klasa App::GeoFeature)*, ioraz dziedziczy wszystkie jego właściwości. Posiada również kilka dodatkowych właściwości. W szczególności właściwości, które pomagają zarządzać informacjami w kontekście złożenia, na przykład **Typ**, **Id**, **Licencja**, **LicencjaURL** i **Grupa**.
 
 Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.md). Ukryte właściwości można wyświetlić za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym [edytora właściwości](Property_editor/pl.md).
 
@@ -63,7 +57,13 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 -    **Typ|String**: opis dla obiektu. Domyślnie jest to pusty łańcuch znaków {{value|""}}.
 
+-    **Materiał|Link**: materiał wybrany dla tego obiektu.
+
+-    **Meta|Map|Ukryte**: wprowadza dodatkowe informacje meta. Domyślnie jest ona pusta. {}.
+
 -    **Id|String**: numer identyfikacyjny lub numer części dla obiektu. Domyślnie jest to pusty łańcuch znaków {{value|""}}.
+
+-    **Uid|UUID|Hidden**: [uniwersalny, niepowtarzalny identyfikator](https://en.wikipedia.org/wiki/Universally_unique_identifier) *(UUID)* *(liczba 128-bitowa)* obiektu. Jest on nadawany w czasie tworzenia.
 
 -    **Licencja|String**: pole do określenia licencji dla obiektu. Domyślnie jest to pusty łańcuch znaków {{value|""}}.
 
@@ -90,77 +90,46 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 -    **Etykieta|String**: edytowalna przez użytkownika nazwa obiektu, jest to dowolny ciąg znaków w standardzie UTF8.
 
+-    **Etykieta2|String|Ukryte**: dłuższy, edytowalny przez użytkownika opis tego obiektu, jest to dowolny ciąg znaków UTF8, który może zawierać znaki nowej linii. Domyślnie jest to pusty łańcuch {{value|""}}.
+
+-    **Silnik wyrażeń|ExpressionEngine|Ukryte**: lista wyrażeń. Domyślnie jest ona pusta {{value|[]}}.
+
+-    **Widoczność|Bool|Ukryte**: określa, czy obiekt ma być wyświetlany, czy nie.
+
+-    **Odniesienie położenia|Link|Ukryte**: obiekt [App: Odniesienie położenia](App_OriginGroupExtension/pl.md), który jest pozycyjnym odniesieniem dla wszystkich elementów wymienionych w **Grupie**.
+
 -    **Grupa|LinkList**: lista obiektów, których dotyczą odniesienia. Domyślnie jest pusta {{value|[]}}.
 
-#### Dane Właściwości ukryte 
-
--    **Materiał|Map**: mapa z właściwościami materiałów. Domyślnie jest ona pusta {}.
-
--    **Meta|Map**: mapa z dodatkowymi meta informacjami. Domyślnie jest ona pusta {}.
-
--    **Uid|UUID**: [uniwersalny identyfikator](https://en.wikipedia.org/wiki/Universally_unique_identifier) *(UUID)* *(128-bitowy numer)* obiektu. Numer ten jest przypisywany podczas tworzenia obiektu.
-
--    **Etykieta2|String**: dłuższy, edytowalny przez użytkownika opis tego obiektu. Jest to dowolny ciąg znaków w standardzie UTF8, który może zawierać nowe linie. Domyślnie jest to pusty łańcuch znaków {{value|""}}.
-
--    **Silnik wyrażenia|ExpressionEngine**: lista wyrażeń. Domyślnie, jest ona pusta {{value|[]}}.
-
--    **Widoczność|Bool**: parametr określający czy obiekt ma być widoczny, czy też nie.
-
--    **Origin|Link**: the [App: Odniesienie położenia](App_OriginGroupExtension.md) obiekt, który jest odniesieniem położenia dla wszystkich elementów wymienionych w **Grupie**.
-
--    **_ Grupa Dotknięta|Bool**: parametr określający czy grupa jest wzruszona, czy też nie.
+-    **_ Group Touched|Bool|Ukryte**: określa czy grupa jest poddana edycji, czy nie.
 
 ### Widok
 
-App: Część ma tylko pięć podstawowych właściwości [App: FeaturePython](App_FeaturePython.md), i nie ma właściwości ukrytych.
 
-
-{{TitleProperty|Podstawowe}}
+{{TitleProperty|Opcje wyświetlania}}
 
 -    **Tryb wyświetlania|Enumeration**: {{value|Grupa}}.
 
--    **Na górze po wybraniu|Enumeration**: {{value|Wyłączone}} *(domyślnie)*, {{value|Włączone}}, {{value|Obiekt}}, {{value|Element}}.
+-    **Wyświetl w drzewie|Bool**: jeśli ma wartość {{TRUE/pl}}, obiekt pojawia się w widoku [Widok drzewa](Tree_view/pl.md). W przeciwnym razie jest on niewidoczny..
 
--    **Styl wyboru|Enumeration**: {{value|Kształt}} *(domyślnie)*, {{value|Pole ograniczające}}. Jeśli wartość opcji jest następująca {{value|Kształt}}, cały kształt *(wierzchołki, krawędzie i powierzchnie)* zostanie podświetlony w oknie [widoku 3D](3D_view/pl.md). Jeśli wybrano wartość {{value|Pole ograniczające}}, to tylko ramka ograniczająca zostanie podświetlona.
+-    **Widoczność|Bool**: jeśli ma wartość {{TRUE/pl}}, obiekt pojawia się w oknie [widoku 3D](3D_view/pl.md). W przeciwnym razie jest niewidoczny. Domyślnie właściwość ta może być włączana i wyłączana przez naciśnięcie klawisza **Spacja** na klawiaturze.
 
--    **Pokaż w drzewku|Bool**: Jeśli ustawiono wartość `True`, obiekt pojawia się w [widoku drzewa](Tree_view.md). W przeciwnym razie, jest on określony jako niewidoczny.
 
--    **Widoczność|Bool**: Jeśli ustawiono wartość `True`, obiekt pojawia się w oknie [widoku 3D](3D_view/pl.md). W przeciwnym razie będzie niewidoczny. Domyślnie, właściwość ta, może być włączana i wyłączana, poprzez naciśnięcie klawisza **Spacja** na klawiaturze.
+{{TitleProperty|Wybieranie}}
 
-## Koncepcja złożeń 
+-    **Na wierzchu po wybraniu|Enumeration**: {{value|Wyłączone}} *(domyślnie)*, {{value|Wyłączone}}, {{value|Objekt}}, {{value|Element}}.
 
-Std: Część ma być podstawowym elementem konstrukcyjnym do tworzenia złożeń. W przeciwieństwie do [Projekt części: Zawartość](PartDesign_Body/pl.md), zespół ma być zbiorem oddzielnych, rozróżnialnych elementów, które są w jakiś sposób połączone w świecie fizycznym, na przykład za pomocą nacisku, śrub lub kleju.
-
-Przykłady, które mogą być częściami:
-
--   Drewniany stół, który składa się z pojedynczych drewnianych przedmiotów *(nóg, blatu)*, które są łączone za pomocą kleju lub metalowych wkrętów.
--   Łożysko kulkowe, które składa się z wielu stalowych kulek, pierścienia wewnętrznego, koszyka, uszczelki i pierścienia zewnętrznego.
--   Zespół śruby z podkładką i odpowiednią nakrętką.
-
-<img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> 
-*Z lewej: trzy pojedyncze sąsiadujące bryły, z których każda została wymodelowana za pomocą obiektu [Projekt Części: Zawartość](PartDesign_Body/pl.md). <br> Z prawej: poszczególne bryły złożone razem w Std: Część, aby utworzyć zespół.*
-
-Ogólnie rzecz biorąc, podczas importowania pliku STEP do programu, główny zespół i jego podzespoły będą importowane jako kontenery części, a każdy z nich będzie zawierał podstawową [funkcjonalność części](Part_Feature/pl.md).
+-    **Styl wyboru|Enumeration**: {{value|Kształt}} *(domyślnie)*, {{value|BoundBox}}. Jeśli opcja ma wartość {{value|Kształt}}, cały kształt *(wierzchołki, krawędzie i ściany)* zostanie podświetlony w oknie [widoku 3D](3D_view/pl.md). Jeśli wartość to {{value|Ramka otaczająca}}, podświetlone zostanie tylko pole ograniczające.
 
 ## Szczegółowe wyjaśnienia 
 
 ### Status aktywności 
 
-Otwarty dokument może zawierać wiele części. Aktywna Część zostanie wyświetlona w [widoku drzewa](Tree_view/pl.md) przy zastosowaniu koloru tła określonego w [edytorze preferencji](Preferences_Editor/pl#Kolory.md) przez wartość **Aktywny kontener** *(domyślnie, jasnoniebieski)*. Etykieta aktywnej części zostanie również wyświetlona pogrubionym tekstem.
+Otwarty dokument może zawierać wiele części. Ale tylko jedna Część może być aktywna. Aktywna Część zostanie wyświetlona w [widoku drzewa](Tree_view/pl.md) przy zastosowaniu koloru tła określonego w [edytorze preferencji](Preferences_Editor/pl#Kolory.md) przez wartość **Aktywny kontener** *(domyślnie, jasnoniebieski)*. Etykieta aktywnej części zostanie również wyświetlona pogrubionym tekstem.
 
 Aby uaktywnić lub dezaktywować Część:
 
 -   Kliknij dwukrotnie na jej pozycję w [widoku drzewa](Tree_view/pl.md), lub
 -   Otwórz menu kontekstowe *(klikając prawym przyciskiem myszy)* i wybierz **Przełącz aktywność części**.
-
-
-**Uwagi:**
-
--    {{emphasis|Aktywny status}}Części opracowano w v0.17 równolegle z {{emphasis|aktywnym statusem}} [Projekt części: Zawartość](PartDesign_Body.md), jednakże od v0.19 status ten nie ma rzeczywistego przeznaczenia dla Części.
-
--   Nawet gdy część jest aktywna, nowo wytworzone obiekty nie są automatycznie umieszczane w jej wnętrzu. W tym przypadku, po prostu przeciągnij wybrane nowe obiekty i upuść je do żądanej Części.
-
--   W danym momencie może być aktywna tylko pojedyncza Część.
 
 ![](images/Std_Part_active.png )
 
@@ -195,16 +164,6 @@ Parametr wyświetlania Części ma pierwszeństwo określania wyświetlania dowo
 ![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
 *Parametr widoczności Std Części określa, czy zgrupowane pod nią obiekty są prezentowane w oknie [widoku 3D](3D_view/pl.md), czy też nie. <br>Po lewej: Część została ukryta, więc żaden z obiektów nie będzie widoczny w oknie [widoku 3D](3D_view/pl.md). <br>Po prawej: Część jest widoczna, więc każdy obiekt kontroluje indywidualnie swoje właściwości w zakresie wyświetlania.*
 
-### Dziedziczenie
-
-Obiekt [Std: Część](Std_Part/pl.md) jest formalnie instancją klasy `App::Part`, której rodzicem jest podstawowa klasa [App GeoFeature](App_GeoFeature/pl.md) *(`App::GeoFeature`)*, i jest wzbogacona o rozszerzenie Origin.
-
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
-
-
-
-*Uproszczony schemat relacji między głównymi obiektami w programie. Klasa `App::Part* jest prostym kontenerem, który ma swoją pozycję w przestrzeni 3D i posiada zdefiniowany punkt początku w układzie współrzędnych ''(Origin)'', kontrolujący położenie zgrupowanych pod nim obiektów.`
-
 ## Tworzenie skryptów 
 
 
@@ -214,19 +173,19 @@ Obiekt [Std: Część](Std_Part/pl.md) jest formalnie instancją klasy `App::Par
 
 Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć w [Część: właściwość](Part_Feature/pl.md).
 
-Element Std: Part ([App Part](App_Part.md)) jest tworzony przy pomocy metody `addObject()` dokumentu. Gdy istnieje element Part, inne obiekty mogą być do niego dodane za pomocą metod `addObject()` lub `addObjects()`.
+Element Std: Part ([App Part](App_Part.md)) jest tworzony przy pomocy metody `addObject()` dokumentu. Gdy istnieje element Part, inne obiekty mogą być do niego dodane za pomocą metod `addObject()` lub `addObjects()` tej Części.
 
 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::Part", "Part")
+part = App.ActiveDocument.addObject("App::Part", "Part")
 
-bod1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
-bod2 = App.ActiveDocument.addObject("Part::Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
 
-obj.addObjects([bod1, bod2])
+part.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
@@ -247,8 +206,8 @@ class MyGroup(object):
         return
 
     def attach(self, obj):
-        obj.addExtension('App::OriginGroupExtensionPython')
-        obj.Origin = FreeCAD.ActiveDocument.addObject('App::Origin', 'Origin')
+        obj.addExtension("App::OriginGroupExtensionPython")
+        obj.Origin = FreeCAD.ActiveDocument.addObject("App::Origin", "Origin")
 
     def onDocumentRestored(self, obj):
         self.Object = obj
@@ -262,7 +221,7 @@ class ViewProviderMyGroup(object):
             self.ViewObject = None
 
     def attach(self, vobj):
-        vobj.addExtension('Gui::ViewProviderOriginGroupExtensionPython')
+        vobj.addExtension("Gui::ViewProviderOriginGroupExtensionPython")
         self.ViewObject = vobj
 
     def __getstate__(self):
@@ -271,14 +230,18 @@ class ViewProviderMyGroup(object):
     def __setstate__(self, _state):
         return None
 
-App.ActiveDocument.addObject('Part::FeaturePython', 'Group', group.MyGroup(), group.ViewProviderMyGroup(), True)
+App.ActiveDocument.addObject("Part::FeaturePython",
+                             "Group",
+                             group.MyGroup(),
+                             group.ViewProviderMyGroup(),
+                             True)
 ```
 
 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -3,7 +3,12 @@
 
 ## Wprowadzenie
 
-[Konsola Pythona](Python_console.md) to panel, który uruchamia instancję interpretera [Python](Python.md), który może być używany do sterowania procesami FreeCAD oraz tworzenia i modyfikowania obiektów i ich właściwości.
+
+{{TOCright}}
+
+[Konsola Python](Python_console/pl.md) jest panelem, który jest częścią [interfejs użytkownika](Interface/pl.md) FreeCAD. Może być używany do sterowania procesami FreeCAD oraz tworzenia i modyfikowania obiektów i ich właściwości.
+
+Można go uwidocznić/ukryć poprzez menu **Widok → Panele → Konsola Python**.
 
 Konsola Pythona w FreeCAD obsługuje podstawowe kolorowanie składni, potrafi rozróżnić różne style i kolory, komentarze, łańcuchy, wartości liczbowe, wbudowane funkcje, wydrukowany tekst wyjściowy i separatory, takie jak nawiasy i przecinki. Te właściwości konsoli można skonfigurować w [Edytor preferencji](Preferences_Editor.md).
 
@@ -80,10 +85,10 @@ Kliknij prawym przyciskiem myszy na konsoli Pythona, aby wyświetlić kilka pole
 
 -   Istnieje możliwość przewijania API w konsoli Pythona. Przykład:
     1.  W konsoli wpisz: `FreeCAD.`
-    2.  Pojawi się okno dialogowe z opcjonalnymi klasami/funkcjami do wyboru
-    3.  Przewiń listę, aby przeczytać opis każdej klasy/funkcji
+    2.  Pojawi się okno dialogowe z opcjonalnymi klasami / funkcjami do wyboru,
+    3.  Przewiń listę, aby przeczytać opis każdej klasy / funkcji
     4.  Wybierając funkcję i podążając za nią z `.` można powtórzyć kroki 2 i 3, aby zagłębić się w API.
--   Uzupełnianie tabulatorami / słowami jest obsługiwane za pomocą skrótu {{KEY | Ctrl}} + {{KEY | Spacja}}
+-   Uzupełnianie tabulatorami / słowami jest obsługiwane za pomocą skrótu **Ctrl** + **Spacja**
 
 
 {{Interface navi

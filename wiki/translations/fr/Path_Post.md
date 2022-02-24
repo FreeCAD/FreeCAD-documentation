@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path PostProcess
    Name/fr:Path Post-traitement
-   MenuLocation:Path → Post-traitement
+   MenuLocation:Parcours → Post-traitement
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **P**
 ---
@@ -64,13 +64,13 @@ Si une seule machine CNC est utilisée ou si toutes les machines CNC partagent u
 1.  Sélectionnez une <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Tâche](Path_Job/fr.md) dans la [Vue en arborescence](Tree_view/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_Post.svg" width=16px> [Post-traitement](Path_Post/fr.md)**.
-    -   Sélectionnez l\'option **Path → <img src="images/Path_Post.svg" width=16px> Post-traitement ** dans le menu.
+    -   Sélectionnez l\'option **Parcours → <img src="images/Path_Post.svg" width=16px> Post-traitement ** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **P**.
 3.  Confirmez le nom et le répertoire de **Output File**.
 
 ## Options
 
-Les propriétés du fichier de sortie et du post-processeur peuvent être définies dans le [Travail](Path_Job/fr.md) à tout moment, avant d\'appeler le Post-processeur.
+Les propriétés du fichier de sortie et du post-processeur peuvent être définies dans la [Tâche](Path_Job/fr.md) à tout moment, avant d\'appeler le Post-processeur.
 
 Les post-processeurs fournis sont écrits avec des commentaires indiquant les zones contenant des Balises, des Variables de configuration et des Sections de G-codes et de M-codes qui doivent être utilisés par le post-processeur pour configurer la sortie.
 

@@ -25,7 +25,7 @@ The user Mod directory is a sub-directory of the user application data directory
 
 -   On Linux it is usually {{FileName|/home/<username>/.FreeCAD/Mod/}}.
 -   On Windows it is {{FileName|%APPDATA%\FreeCAD\Macro\}}, which is usually {{FileName|C:\Users\<username>\Appdata\Roaming\FreeCAD\Mod\}}.
--   On macOS it is usually {{FileName|/Users/<username>/Library/Preferences/FreeCAD/Mod/}}.
+-   On macOS it is usually {{FileName|/Users/<username>/Library/Application Support/FreeCAD/Mod/}}.
 
 The Mod directory should look like this:
 
@@ -414,7 +414,7 @@ os.remove(qrc_filename)
 ## Related
 
 -   [Translating an external workbench](Translating_an_external_workbench.md)
--   [Namespaced Workbenches - discussion](https://forum.freecadweb.org/viewtopic.php?t=47460)
+-   [Forum discussion: Namespaced Workbenches](https://forum.freecadweb.org/viewtopic.php?t=47460)
 -   [freecad.workbench\_starterkit](https://github.com/FreeCAD/freecad.workbench_starterkit)
 
 

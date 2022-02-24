@@ -27,10 +27,12 @@
 
 ## Usage
 
-1.  Select one sketch or face to be padded. <small>(v0.20)</small>  Alternatively you can select several sketches or faces.
+1.  Select one sketch or face to be padded. <small>(v0.20)</small> : Alternatively you can select several sketches or faces.
 2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> '''Pad'''** button.
 3.  Set the Pad parameters, see the [Options](#Options.md) below.
 4.  Click **OK**.
+
+When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
 
 ## Volby
 

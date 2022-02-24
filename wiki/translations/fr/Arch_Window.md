@@ -36,22 +36,29 @@ Toutes les informations applicables à une [fenêtre](Arch_Window.md) s\'appliqu
 4.  Dans la [Vue 3D](3D_view/fr.md), déplacez la fenêtre à l\'emplacement où vous souhaitez la placer. Si vous déplacez le pointeur sur un [Arch Mur](Arch_Wall/fr.md), le contour de la fenêtre doit s'aligner sur la face de cet objet.
 5.  Cliquez sur la [Vue 3D](3D_view/fr.md) avec la souris ou appuyez trois fois sur la touche **Entrée** pour confirmer les coordonnées X, Y, Z du placement.
 
+#### Préréglages supplémentaires 
 
-**Remarque:**
-
-Si vous installez \"Parts Library\" à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), l\'outil recherchera des préréglages supplémentaires dans cette bibliothèque. Ces préréglages sont des fichiers FreeCAD contenant une seule fenêtre basée sur une esquisse paramétrique ayant des contraintes nommées. Vous pouvez placer des préréglages supplémentaires dans le répertoire `parts_library` de manière à ce qu\'ils soient trouvés par l\'outil Fenêtre.
+Si vous installez la [Bibliothèques de pièces](Parts_Library_Workbench/fr.md) à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), l\'outil Fenêtre recherchera dans cette bibliothèque des préréglages supplémentaires. Ces préréglages sont des fichiers FreeCAD contenant une seule fenêtre basée sur une esquisse paramétrique avec des contraintes nommées. Vous pouvez placer des préréglages supplémentaires dans le répertoire {{FileName|parts_library}} afin qu\'ils soient trouvés par l\'outil Fenêtre.
 
 
-```python
-$ROOT_DIR/Mod/parts_library/Architectural\ Parts/Doors/Custom/
-$ROOT_DIR/Mod/parts_library/Architectural\ Parts/Windows/Custom/
-```
+{{FileName|$ROOT_DIR/Mod/parts_library/Architectural Parts/Doors/Custom/}}
 
-Le dossier `$ROOT_DIR` est le répertoire de l\'utilisateur où la configuration, les macros et les établis externes de FreeCAD sont stockés.
+{{FileName|$ROOT_DIR/Mod/parts_library/Architectural Parts/Windows/Custom/}}
 
--   L\'emplacement habituel dans Linux est `/home/username/.FreeCAD/`
--   L\'emplacement habituel dans Windows est `C:\Users\username\AppData\Roaming\FreeCAD`
--   L\'emplacement habituel dans est `/Users/username/Library/Preferences/FreeCAD/`
+Il est également possible de placer des fenêtres et des portes personnalisées dans le répertoire {{FileName|Arch}} de votre utilisateur. {{Version/fr|0.20}}
+
+
+{{FileName|$ROOT_DIR/Mod/Arch/Doors/Custom/}}
+
+{{FileName|$ROOT_DIR/Mod/Arch/Windows/Custom/}}
+
+-    {{FileName|$ROOT_DIR}}est le répertoire utilisateur où sont stockés les fichiers de configuration de FreeCAD, les macros, et les ateliers externes. Il peut être trouvé en entrant `FreeCAD.getUserAppDataDir()` dans la [console Python](Python_console/fr.md).
+
+    -   Sous Linux, c\'est généralement {{FileName|/home/username/.FreeCAD/}}
+    -   Sous Windows, il s\'agit généralement du fichier {{FileName|C:\Users\username\Application Data\FreeCAD\}}
+    -   Sous Mac OSX, il s\'agit généralement de {{FileName|/Users/username/Library/Preferences/FreeCAD/}}
+
+-   Le nom du sous-répertoire {{FileName|Custom}} n\'est qu\'une suggestion, n\'importe quel nom peut être utilisé. Mais les fichiers doivent être placés dans un ou plusieurs sous-répertoires à l\'intérieur des répertoires {{FileName|Doors}} ou {{FileName|Windows}}.
 
 ### Création à partir de zéro 
 
@@ -64,10 +71,7 @@ Le dossier `$ROOT_DIR` est le répertoire de l\'utilisateur où la configuration
 7.  Appuyez sur le bouton **<img src="images/Arch_Window.svg" width=16px> [Arch Fenêtre](Arch_Window/fr.md)** ou appuyez sur les touches **W** puis **I** .
 8.  Pour ajuster les composants de la fenêtre et diverses propriétés, entrez dans le [Panneau des tâches](Task_panel/fr.md) de la fenêtre en double-cliquant sur l\'objet créé dans la [Vue en arborescence](Tree_view/fr.md).
 
-
-**Remarque:**
-
-lors de la création de l\'esquisse, faites très attention à l\'ordre de création des boucles. La numérotation des \"fils\" dans le [Panneau des tâches](Task_panel/fr.md) (\"Window elements\") en dépend.
+Lors de la création de l\'esquisse, faites très attention à l\'ordre de création des boucles. La numérotation des \"fils\" dans le [Panneau des tâches](Task_panel/fr.md) (\"Window elements\") en dépend.
 
 ## Préréglages
 
@@ -176,9 +180,11 @@ Vous pouvez utiliser tout autre type de workflow que celui décrit ci-dessus, le
 
 **Voir aussi:**
 
-[Arch API](Arch_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Fenêtre peut être utilisé à l\'intérieur d\'une [macro](macros/fr.md), et, à partir de la console [Python](Python/fr.md), en utilisant la fonction suivante : 
+L\'outil Fenêtre peut être utilisé à l\'intérieur d\'une [macro](macros/fr.md), et, à partir de la console [Python](Python/fr.md), en utilisant la fonction suivante :
+
+
 ```python
 Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Window")
 ```

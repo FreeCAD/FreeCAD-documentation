@@ -221,7 +221,7 @@ Dans les notes suivantes, `"context"` doit être le nom de votre addon ou de vot
 
 ## Rassemblez toutes les chaînes de votre module 
 
--   Vous aurez besoin des outils `lupdate`, `lconvert`, `lrelease` et `pylupdate` installés sur votre système. Dans les distributions Linux, ils sont généralement fournis dans des paquets nommés `pyside-tools` ou `pyside2-tools`. Sur certains systèmes, `lupdate` est nommé `lupdate4` ou `lupdate5` ou `lupdate-qt4` ou similaire. Idem pour les autres outils. Vous pouvez utiliser la version Qt4 ou Qt5 à votre choix.
+-   Vous aurez besoin des outils `lupdate`, `lconvert`, `lrelease` et `pylupdate` installés sur votre système. Dans les distributions Linux, ils sont généralement fournis dans des paquets nommés `pyside-tools` ou `pyside2-tools`. Sur certains systèmes, `lupdate` est nommé `lupdate4` ou `lupdate5` ou `lupdate-qt4` ou similaire. Idem pour les autres outils. Vous pouvez utiliser la version Qt4 ou Qt5 à votre choix. Dans Qt6 il n\'y a pas de système de traduction séparé pour les fichiers Python, `lupdate` est utilisé pour extraire les chaînes de caractères de tous les types de fichiers sources.
 -   Si vous avez des fichiers `.ui`, vous devez d\'abord exécuter `lupdate` :
 
 :   

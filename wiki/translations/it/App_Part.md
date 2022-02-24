@@ -1,4 +1,6 @@
 # App Part/it
+{{TOCright}}
+
 ## Introduzione
 
 <img alt="" src=images/Geofeaturegroup.svg  style="width:32px;">
@@ -10,27 +12,39 @@ Un oggetto [App Part](App_Part/it.md), o formalmente un `App::Part`, è un eleme
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+<div class="mw-translate-fuzzy">
+
+
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::Part* è un semplice contenitore che ha una posizione nello spazio 3D e ha un'origine per controllare il posizionamento degli oggetti raggruppati sotto di essa.`
 
+
+</div>
+
 ## Utilizzo
 
-1.  Premere il pulsante **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/it.md)**. Viene creata una parte vuota che diventa automaticamente *[attiva](Std_Part/it#Stato_attivo.md)*.
-2.  Per aggiungere oggetti a una parte, trascinarli e rilasciarli sulla parte nella [vista ad albero](tree_view/it.md).
-3.  Per rimuovere oggetti da una parte, trascinarli fuori dalla parte e sull\'etichetta del documento nella parte superiore della [vista ad albero](tree_view/it.md).
+
+<div class="mw-translate-fuzzy">
 
 Vedere la pagina [Std Part](Std_Part/it.md) per le informazioni complete, incluso il suo uso negli [Script](Std_Part/it#Script.md).
 
+
+</div>
+
 ## Proprietà
 
-Una classe [App Part](App_Part/it.md) (`App::Part`) è derivata dalla classe base [App GeoFeature](App_GeoFeature/it.md) (`App::GeoFeature`), pertanto condivide la maggior parte delle proprietà di quest\'ultima.
+
+<div class="mw-translate-fuzzy">
 
 Vedere l\'elenco completo delle proprietà nella pagina [Std Part](Std_Part/it.md).
 
 
-{{Std Base navi
+</div>
 
-}} {{Document objects navi}}
+
+{{Std_Base_navi
+
+}} {{Document_objects_navi}}
 
 
 

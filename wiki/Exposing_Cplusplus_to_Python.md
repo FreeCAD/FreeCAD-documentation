@@ -33,7 +33,7 @@ Note:
 ### Related Links 
 
 -   Source: <https://forum.freecadweb.org/viewtopic.php?p=314796#p314617>
--   <https://forum.freecadweb.org/viewtopic.php?p=560639#p560639>
+-   [Forum discussion: Adding Commands in Python to C++ Workbench](https://forum.freecadweb.org/viewtopic.php?p=560639#p560639)
 -   [Workbench creation](Workbench_creation.md)
 
 

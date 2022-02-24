@@ -11,11 +11,11 @@
 
 ## Description
 
-Définit un \...
+Définit une condition limite de ressort à utiliser par MoFEM (actuellement non supporté).
 
 ## Utilisation
 
-\...
+Pour l\'instant, cette contrainte ne fonctionnera pas puisque le solveur MoFEM n\'est pas encore implémenté.
 
 
 

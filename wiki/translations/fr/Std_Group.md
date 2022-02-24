@@ -27,78 +27,51 @@ Pour regrouper des objets 3D en une seule unité, avec l\'intention de créer de
 
 ## Utilisation
 
-1.  Cliquez sur le nom du document dans la [Vue en arborescence](Tree_view/fr.md), ouvrez le menu contextuel (clic droit) et choisissez **Créer un groupe**.
-2.  Vous pouvez également appuyer sur le bouton **<img src="images/Std_Group.svg" width=16px> [Créer un groupe](Std_Group/fr.md)** dans la barre d\'outils de structure. Un groupe vide est créé.
-3.  Pour ajouter des objets à un groupe, sélectionnez-les dans la [Vue en arborescence](Tree_view/fr.md), puis faites-les glisser et déposez-les sur le groupe.
-4.  Pour supprimer des objets d\'un groupe, faites-les glisser hors du groupe et sur l\'étiquette du document en haut de la [Vue en arborescence](Tree_view/fr.md).
-
-### Remarques
-
--   L\'objet Group n\'affecte pas les positions dans la [vue 3D](3D_view/fr.md) des éléments qu\'il contient ; il s\'agit essentiellement d\'un dossier qui permet d\'organiser la [Vue en arborescence](Tree_view/fr.md).
--   Le groupe peut également être créé à partir de la [console Python](Python_console/fr.md), et sous-classé pour créer des \"groupes\" spéciaux, comme indiqué dans la section [Script](Std_Group/fr#Script.md).
+1.  Effectuez l\'une des opérations suivantes :
+    -   Cliquez avec le bouton droit de la souris sur le nom du document dans la [Vue en arborescence](Tree_view/fr.md) et dans le menu contextuel, choisissez **Créer un groupe...**.
+    -   Appuyez sur le {{Bouton|<img src="images/Std_Group.svg" width=16px> [Créer un groupe](Std_Group/fr.md)}}.
+2.  Un groupe vide est créé.
+3.  Pour ajouter des objets au groupe, sélectionnez-les dans la [Vue en arborescence](Tree_view/fr.md), et faites-les glisser et déposez-les dans le groupe.
+4.  Pour supprimer des objets du groupe, faites-les glisser hors du groupe et déposez-les sur l\'étiquette du document en haut de l\'arborescence.
+5.  Vous pouvez également ajouter et supprimer des objets en modifiant la propriété **Group** du groupe.
 
 ## Propriétés
 
-Un [Std Groupe](Std_Group/fr.md) est appelé en interne [App DocumentObjectGroup](App_DocumentObjectGroup/fr.md) (classe `App::DocumentObjectGroup`) et dérive de [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`). Il partage donc toutes les propriétés de ce dernier.
+[Std Groupe](Std_Group/fr.md), appelé en interne [App DocumentObjectGroup](App_DocumentObjectGroup/fr.md) (classe `App::DocumentObjectGroup`), est dérivé de l\'objet de base [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`) et hérite de toutes ses propriétés.
 
-En plus des propriétés décrites dans [App FeaturePython](App_FeaturePython/fr.md), qui est l\'instance la plus élémentaire d\'un [App DocumentObject](App_DocumentObject/fr.md), App DocumentObjectGroup a la propriété **Group**.
-
-Ce sont les propriétés disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[Éditeur de propriétés](Property_editor/fr.md).
+Std Groupe a les mêmes propriétés que [App FeaturePython](App_FeaturePython/fr#Propri.C3.A9t.C3.A9s.md), qui est l\'instance la plus basique d\'un [App DocumentObject](App_DocumentObject/fr.md). Il possède également les propriétés supplémentaires suivantes dans l\'éditeur de propriétés de l\'[Éditeur de propriétés](Property_editor/fr.md). Les propriétés cachées peuvent être affichées à l\'aide de la commande **Show all** du menu contextuel de l\'[Éditeur de propriétés](Property_editor/fr.md).
 
 ### Données
 
 
 {{TitleProperty|Base}}
 
--    **Label|String**: nom modifiable par l\'utilisateur de cet objet, c\'est une chaîne UTF8 arbitraire.
-
 -    **Group|LinkList**: liste d\'objets référencés. Par défaut vide {{value|[]}}.
 
-#### Propriétés cachées de Données 
-
--    **Proxy|PythonObject**: classe personnalisée associée à cet objet. Cela n\'existe que pour la version [Python](Python/fr.md). Voir [Script](Std_Group/fr#Script.md).
-
-### Vue
-
-
-{{TitleProperty|Base}}
-
-Voir [App FeaturePython](App_FeaturePython/fr.md) pour les propriétés d\'affichage de base.
-
-#### Propriétés cachées de Vue 
-
--    **Proxy|PythonObject**: classe personnalisée associée à cet objet. Cela n\'existe que pour la version [Python](Python/fr.md). Voir [Script](Std_Group/fr#Script.md).
-
-## Héritage
-
-Un [Std Groupe](Std_Group.md) est formellement une instance de la classe `App::DocumentObjectGroup` dont le parent est le [App DocumentObject](App_DocumentObject/fr.md) (`App::DocumentObject` class) et est complété par une extension de groupe.
-
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
-
-
-
-*Diagramme simplifié des relations entre les objets centraux du programme. La classe `App::DocumentObjectGroup* est un groupe simple qui utilise l'extension Groupe pour pouvoir contenir tout type d'objet.`
+-    **_ Group Touched|Bool|Hidden**: indique si le groupe est touché ou non.
 
 ## Script
 
 
 **Voir aussi :**
 
-[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](scripted_objects/fr.md).
+[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
 Voir [Part Feature](Part_Feature/fr.md) pour les informations générales sur l\'ajout d\'objets au document.
 
-Un Std Groupe ([App DocumentObjectGroup](App_DocumentObjectGroup/fr.md)) est créé avec la méthode `addObject()` du document. Une fois qu\'un groupe existe, d\'autres objets peuvent y être ajoutés avec les méthodes `addObject()` ou `addObjects()` de ce groupe. 
+Std Groupe ([App DocumentObjectGroup](App_DocumentObjectGroup/fr.md)) est créé avec la méthode `addObject()` du document. Une fois qu\'un groupe existe, d\'autres objets peuvent y être ajoutés avec les méthodes `addObject()` ou `addObjects()`.
+
+
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::DocumentObjectGroup", "Group")
+group = App.ActiveDocument.addObject("App::DocumentObjectGroup", "Group")
 
-bod1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
-bod2 = App.ActiveDocument.addObject("Part::Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
 
-obj.addObjects([bod1, bod2])
+group.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
@@ -107,7 +80,7 @@ App.ActiveDocument.recompute()
 
 de base n\'a pas d\'objet Proxy, il ne peut donc pas être entièrement utilisé pour la sous-classification.
 
-Par conséquent, pour la sous-classe [Python](Python/fr.md), vous devez créer l\'objet `App::DocumentObjectGroupPython`.
+Pour la sous-classification de [Python](Python/fr.md), vous devez créer l\'objet `App::DocumentObjectGroupPython`.
 
 
 ```python
@@ -130,7 +103,7 @@ Par exemple, [Analyse FEM](FEM_Analysis/fr.md) est un objet `App::DocumentObject
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -10,86 +10,72 @@
 
 ## Description
 
-Create a simple parametric plane 10 x 10 mm, with the parameters of position, length, and width. By default, the plane is positioned at the origin (0,0,0).
+The <img alt="" src=images/Part_Plane.svg  style="width:24px;"> [Part Plane](Part_Plane.md) command creates a parametric plane.
 
- ![](images/PartPlane.png ) 
+FreeCAD creates a plane, each side with an equal length of 10 millimetre.
+
+By default, the plane is positioned with the lower left corner at the origin (0,0,0) on the xy-plane.
+
+ ![Screenshot of the Part Plane with default values](images/Part_Plane_Example.png ) 
 
 ## Usage
 
-The standard plane is created with its lower left corner at the origin point `0,0,0`. To change these parameters, open the Location section and enter the desired values ​​in the respective input fields, or click on the [3D view](3D_view.md) and select a point, the point coordinates are taken from the fields. In the Direction menu you can also define a standard vector (X, Y or Z) normal to the plane, or click User Defined \... to open the dialog box that allows you to set a different carrier (eg. direction 1.0 , -1 creates a plane inclined 45° with respect to X and Z).
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Primitives.svg" width=16px> [Create Primitives...](Part_Primitives.md)** button.
+    -   Select the **Part → Create Primitives → <img src="images/Part_Primitives.svg" width=16px> Create Primitives...** option from the menu.
+    -   Select the **<img src="images/Part_Plane.svg" width=16px> Plane** option from the menu.
+2.  Set options and press **Create**.
+3.  To close the dialog press **Close**.
 
-The properties of the object can be edited, either in the [Property editor](Property_editor.md) or by double-clicking the object in the [Tree view](Tree_view.md).
+## Example
+
+![Part Plane scripting example.](images/Part_Plane_Scripting_Example.png )
+
+A Part Plane object with the values of the bottom scripting example are shown here.
 
 ## Properties
 
 ### Data
 
 
-{{TitleProperty|Base}}
-
--    **Label**: String name of the object, defaults to \'Plane\'. User may rename it.
-
--    **Placement**: Placement of feature is defined by below angle, axis and position.
-
--    **Angle**: Angle of rotation relative to the below axis.
-
--    **Axis**: Defines the axis of rotation plane: X, Y, or Z. Defaults to Z axis, Z = 1
-
--    **Position**: Position X, Y, Z, relative to the origin 0, 0, 0.
-
-
 {{TitleProperty|Plane}}
 
--    **Length**: Length is the dimension along the X axis The default value is 10 mm
+-    **Length|Length**: Length is the dimension along the X axis The default value is 10 mm
 
--    **Width**: Width is the size of the Y-axis The default value is 10 mm
-
-### View
-
-You have the standard properties view.
-
-## Notes
-
-## Properties 
-
-## Limitations
+-    **Width|Length**: Width is the size of the Y-axis The default value is 10 mm
 
 ## Scripting
 
-A Part Plane can be created with the following function:
+A Part Plane is created with the {{Incode|addObject()}} method of the document.
 
  
 ```python
 plane = FreeCAD.ActiveDocument.addObject("Part::Plane", "myPlane")
 ```
 
--   Where {{Incode|"myPlane"}} is the name for the object.
+-   Where {{Incode|myPlane}} is the name for the object. The name must be unique for the entire document.
 -   The function returns the newly created object.
 
-You can access and modify attributes of the {{Incode|plane}} object.
-
-The name of the object can be easily changed by
+The {{Incode|Label}} is the user editable name for the object. It can be easily changed by
 
  
-```python
-plane.Label = "new planeName"
+```python 
+plane.Label = "new myPlaneName"
 ```
 
-For example, you may wish to modify the length and width of the plane.
+You can access and modify attributes of the {{Incode|plane}} object. For example, you may wish to modify the length and width parameters.
 
  
 ```python
-plane.Length = 10
-plane.Width = 20
+plane.Length = 4
+plane.Width = 8
 ```
 
-The result will be a plane with the given length and width.
-
-You can change its placement and orientation with:
+You can change its placement with:
 
  
 ```python
-plane.Placement = FreeCAD.Placement(FreeCAD.Vector(2, 4, 6), FreeCAD.Rotation(30, 45, 10))
+plane.Placement = FreeCAD.Placement(FreeCAD.Vector(1, 2, 3), FreeCAD.Rotation(20, 75, 60))
 ```
 
 

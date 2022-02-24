@@ -19,10 +19,12 @@ L\'outil *Protrusion* extrude une esquisse ou une face d\'un solide le long d\'u
 
 ## Utilisation
 
-1.  Sélectionnez une esquisse ou une face à extruder. {{Version/fr|0.20}} Vous pouvez également sélectionner plusieurs esquisses ou faces.
+1.  Sélectionnez une esquisse ou une face à extruder. {{Version/fr|0.20}} : Vous pouvez également sélectionner plusieurs esquisses ou faces.
 2.  Cliquer sur le bouton **<img src="images/PartDesign_Pad.svg" width=16px> '''Protrusion'''**.
 3.  Définir les paramètres de protrusion, voir [Options](#Options.md) ci-dessous.
 4.  Cliquer sur **OK**.
+
+Lors de la sélection d\'une seule esquisse, celle-ci peut comporter plusieurs profils fermés à l\'intérieur d\'un profil plus grand, par exemple un rectangle contenant deux cercles. Mais les profils ne peuvent pas se croiser. {{Version/fr|0.20}}
 
 ## Options
 
@@ -133,13 +135,14 @@ Génère la protrusion dans le sens opposé de l\'extrusion selon l\'angle donn�
 
 ## Limitations
 
--   Comme toutes les fonctions Part Design, la Protrusion créé un solide, l\'esquisse doit par conséquent inclure un profil fermé ou elle échouera. Il peut y avoir plusieurs profils fermés à l\'intérieur d\'un profil fermé plus grand, pourvu qu\'aucun des profils ne s\'entrecroise (par exemple, un rectangle avec deux cercles à l\'intérieur sera valide).
--   L\'algorithme utilisé pour **Au premier** et **Au dernier** fonctionne ainsi :
-    -   Il crée une ligne passant par le centre de gravité de l\'esquisse ;
-    -   Il trouve toutes les faces du support coupées par cette ligne ;
-    -   Il choisit la face la plus près/la plus loin du point d\'intersection de l\'esquisse.
--   Cela veut dire que la face trouvée pourrait ne pas être celle attendue. Si vous faites face à ce problème, utilisez plutôt le type **Jusqu\'à la face** et sélectionnez la face désirée.
--   Dans le cas très spécifique d\'une protrusion sur une surface concave, où l\'esquisse est plus grande que cette surface, la protrusion échouera. Il s\'agit d\'un bogue non-résolu.
+-   Comme toutes les fonctions de Part Design, la Protrusion crée un solide. L\'esquisse doit donc inclure un profil fermé, sinon elle échouera avec l\'erreur *Failed to validate broken face*.
+-   L\'algorithme utilisé pour **Au premier** et **Au dernier** est le suivant :
+    -   Créer une ligne passant par le centre de gravité de l\'esquisse.
+    -   Trouver toutes les faces du support coupées par cette ligne
+    -   Choisir la face dont le point d\'intersection est le plus proche ou le plus éloigné de l\'esquisse.
+
+:   Cela signifie que la face trouvée ne sera pas toujours celle que vous attendiez. Si vous rencontrez ce problème, utilisez plutôt le type **Jusqu\'à la face**, et choisissez la face que vous voulez.
+:   Pour le cas très spécial de l\'extrusion vers une surface concave, où l\'esquisse est plus grande que cette surface, l\'extrusion échouera. Il s\'agit d\'un bogue non résolu.
 
 
 

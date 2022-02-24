@@ -26,23 +26,28 @@ Constraint self weight defines gravity acceleration 9,81 m/s\^2 acting on the wh
 
 ## Scripting
 
-**New object** 
+New object:
+
+
 ```python
 import ObjectsFem
-ObjectsFem.makeConstraintSelfWeight( name )
+ObjectsFem.makeConstraintSelfWeight(name)
 ```
 
-**Add object to the analysis named Analysis** 
+Add object to the analysis named Analysis:
+
+
 ```python
-App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [ (object) ]
+App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [(object)]
 ```
 
-**Example:** 
+Example:
+
+
 ```python
 import ObjectsFem
-selfweight_obj = ObjectsFem.makeConstraintSelfWeight( 'MySelfWeightObject' )
+selfweight_obj = ObjectsFem.makeConstraintSelfWeight("MySelfWeightObject")
 App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfweight_obj]
-
 ```
 
 ## Solver CalculiX 
@@ -56,11 +61,15 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 Acceleration constant can be edited by hand modification after generating CalculiX input file.
 
-Example of lines in .inp file: 
+Example of lines in .inp file:
+
+
 ```python
 *DLOAD
 Eall,GRAV,9810,0.0,0.0,-1.0
-``` where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direction vector.
+```
+
+where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direction vector.
 
 ## Solver Z88 
 

@@ -10,68 +10,84 @@
 
 ## Description
 
-The <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> [Part Ellipsoid](Part_Ellipsoid.md) command creates a parametric Ellipsoid solid.
+The <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> [Part Ellipsoid](Part_Ellipsoid.md) command creates a parametric ellipsoid solid.
 
-The shape produced is limited in FreeCAD to being a solid (optionally truncated) spheroid, the shape you would create by rotating an ellipse around one of its axis. By default it is a [Oblate Spheroid](http://en.wikipedia.org/wiki/Oblate_spheroid), the shape you would create by rotating an ellipse around its minor axis. The parameters can be changed to form a [Prolate Spheroid](http://en.wikipedia.org/wiki/Prolate_spheroid).
+FreeCAD creates an ellipsoid, which will have a circle for any cross section parallel to the XY plane. The cross section parallel to the other two planes will be an ellipse.
 
-The default spheroid in FreeCAD will have a circle for any cross section parallel to the XY plane. The cross section parallel to the other two planes will be an ellipse.
+By default, the ellipsoid is positioned with its mass center at the origin (0,0,0).
 
-In mathematics, an [Ellipsoid](http://en.wikipedia.org/wiki/Ellipsoid) would have an elliptical cross section in all three planes.
+![Screenshot of a Part Ellipsoid with default values](images/Part_Ellipsoid_Example.png )
 
 ## Usage
 
-A parametric Ellipsoid solid is available from the Create Primitives dialogue in the Part workbench.
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Primitives.svg" width=16px> [Create Primitives...](Part_Primitives.md)** button.
+    -   Select the **Part → Create Primitives → <img src="images/Part_Primitives.svg" width=16px> Create Primitives...** option from the menu.
+    -   Select the **<img src="images/Part_Ellipsoid.svg" width=16px> Ellipsoid** option from the menu.
+2.  Set options and press **Create**.
+3.  To close the dialog press **Close**.
 
-1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
-2.  Access the Ellipsoid command several ways:
-    -   Through the Create Primitives dialogue, pressing the <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Primitives](Part_Primitives.md) button located in the Part toolbar
-    -   Using the **Part → [Create primitives](Part_Primitives.md) → Ellipsoid** entry in the Part menu
+## Example
 
-## Properties
+![Part Ellipsoid scripting example.](images/Part_Ellipsoid_Scripting_Example.png )
 
--   Radius1, by default the minor radius parallel to the Z-axis,
--   Radius2, by default the major radius parallel to the XY plane, it is also the maximum radius of the circular cross section
--   Radius3, by default the major radius parallel to the YZ plane, it is also the maximum radius of the angular cross section
--   Angle1, lower truncation of the ellipsoid, parallel to the circular cross section (-90 degrees in a full spheroid)
--   Angle2, upper truncation of the ellipsoid, parallel to the circular cross section (90 degrees in a full spheroid)
--   Angle3, angle of rotation of the elliptical cross section (360 degrees in a full spheroid)
-
-![](images/Part_Ellipsoid_screenshot.jpg )
+A Part Ellipsoid object with the values of the bottom scripting example are shown here.
 
 ## Notes
 
-## Properties 
+The shape produced is limited in FreeCAD to being a solid (optionally truncated) spheroid, the shape you would create by rotating an ellipse around one of its axis. By default it is a [Oblate Spheroid](http://en.wikipedia.org/wiki/Oblate_spheroid), the shape you would create by rotating an ellipse around its minor axis. The parameters can be changed to form a [Prolate Spheroid](http://en.wikipedia.org/wiki/Prolate_spheroid).
 
-## Limitations
+In mathematics, an [Ellipsoid](http://en.wikipedia.org/wiki/Ellipsoid) would have an elliptical cross section in all three planes.
+
+## Properties
+
+See also: [Property editor](Property_editor.md).
+
+A Part Ellipsoid object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+### Data
+
+
+{{TitleProperty|Ellipsoid}}
+
+-    **Radius1|Length**: By default the minor radius parallel to the Z-axis,
+
+-    **Radius2|Length**: By default the major radius parallel to the XY plane, it is also the maximum radius of the circular cross section
+
+-    **Radius3|Length**: By default the major radius parallel to the YZ plane, it is also the maximum radius of the angular cross section
+
+-    **Angle1|Angle**: Lower truncation of the ellipsoid, parallel to the circular cross section (-90 degrees in a full spheroid)
+
+-    **Angle2|Angle**: Upper truncation of the ellipsoid, parallel to the circular cross section (90 degrees in a full spheroid)
+
+-    **Angle3|Angle**: Angle of rotation of the elliptical cross section (360 degrees in a full spheroid)
 
 ## Scripting
 
-A Part Ellipsoid can be created with the following function:
+A Part Ellipsoid is created with the {{Incode|addObject()}} method of the document.
 
  
 ```python
 ellipsoid = FreeCAD.ActiveDocument.addObject("Part::Ellipsoid", "myEllipsoid")
 ```
 
--   Where {{Incode|"myEllipsoid"}} is the name for the object.
+-   Where {{Incode|myEllipsoid}} is the name for the object. The name must be unique for the entire document.
 -   The function returns the newly created object.
 
-You can access and modify attributes of the {{Incode| ellipsoid}} object.
-
-The name of the object can be easily changed by
+The {{Incode|Label}} is the user editable name for the object. It can be easily changed by
 
  
-```python
-ellipsoid.label = "new ellipsoidName"
+```python 
+ellipsoid.Label = "new myEllipsoidName"
 ```
 
-For example, you may wish to modify the two radii and the three angles of the ellipsoid.
+You can access and modify attributes of the {{Incode|ellipsoid}} object. For example, you may wish to modify the three radii and the three angles of the ellipsoid.
 
  
 ```python
 ellipsoid.Radius1 = 2
-ellipsoid.Radius2 = 8
-ellipsoid.Radius3 = 8
+ellipsoid.Radius2 = 4
+ellipsoid.Radius3 = 6
 ellipsoid.Angle1 = -90
 ellipsoid.Angle2 = 50
 ellipsoid.Angle3 = 300
@@ -83,7 +99,7 @@ You can change its placement and orientation with:
 
  
 ```python
-ellipsoid.Placement = FreeCAD.Placement(FreeCAD.Vector(2, 4, 6), FreeCAD.Rotation(30, 45, 10))
+ellipsoid.Placement = FreeCAD.Placement(FreeCAD.Vector(1, 2, 3), FreeCAD.Rotation(15, 0, 20))
 ```
 
 

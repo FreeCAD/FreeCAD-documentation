@@ -135,6 +135,10 @@
 
 ## Внешние верстаки и надстройки (addons) 
 
+### From Mod/asm3/ 
+
+See [Artwork Assembly3](Artwork_Assembly3.md).
+
 
 <div class="mw-translate-fuzzy">
 
@@ -148,6 +152,10 @@
 ### Из папки Mod/Reinforcement/ 
 
 Смотри [Художественное оформление Reinforcement](Artwork_Reinforcement/ru.md).
+
+### From Mod/Render/ 
+
+See [Artwork Render](Artwork_Render.md).
 
 
 <div class="mw-translate-fuzzy">

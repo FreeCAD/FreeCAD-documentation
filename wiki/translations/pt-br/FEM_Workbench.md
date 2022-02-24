@@ -94,6 +94,8 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Restrição de pressão](FEM_ConstraintPressure/pt-br.md): Usada para definir uma restrição de pressão.
 
+-   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constraint centrif](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
+
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Restrição de peso próprio](FEM_ConstraintSelfWeight/pt-br.md): Usada para definir uma aceleração da gravidade agindo sobre um modelo.
 
 ### Restrições Térmicas 
