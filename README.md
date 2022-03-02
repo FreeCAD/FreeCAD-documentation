@@ -15,7 +15,7 @@ This is the official documentation of [FreeCAD](http://www.freecadweb.org). Ther
 ## The hubs 
 
 #### <img alt="Crystal_Clear_app_display.png" src=wiki/images/Crystal_Clear_app_display.png  style="width:32px;"> [Users hub](wiki/User_hub.md)
-This page contains documentation useful for FreeCAD users in general: a list of all the [workbenches](wiki/Workbenches.md), detailed instructions on how to [install](wiki/Installing.md) and use the FreeCAD application, [tutorials](wiki/Category_Tutorials.md), [commands reference](wiki/List_of_Commands.md), and all you need to get started.
+This page contains documentation useful for FreeCAD users in general: [frequently asked questions](wiki/Frequently_asked_questions.md), a list of all the [workbenches](wiki/Workbenches.md), detailed instructions on how to [install](wiki/Installing.md) and use the FreeCAD application, [tutorials](wiki/Category_Tutorials.md), [commands reference](wiki/List_of_Commands.md),  and all you need to get started.
 
 #### <img alt="" src=wiki/images/Crystal_Clear_app_terminal.png  style="width:32px;"> [Power users hub](wiki/Power_users_hub.md)
 
@@ -54,6 +54,7 @@ This documentation is fully translatable by users to other languages, and is in 
 ## Other interesting resources
 
 * [Help FreeCAD](wiki/Help_FreeCAD.md): How to contribute to the project?
+* [Donation](wiki/Donate.md) options
 * FreeCAD participates to the [Google Summer of Code](wiki/Google_Summer_of_Code.md) since 2016. Learn how to participate
 * All the development communication happens on the [forum](http://forum.freecadweb.org), so be sure to visit it if you are interested in participating.
 
