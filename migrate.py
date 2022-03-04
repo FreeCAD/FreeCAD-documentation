@@ -1171,7 +1171,10 @@ class MediaWiki:
         for i in range(5):
             md += "- [" + hubnames[i] + "](" + hubs[i].replace(" ","_") + ".md)\n"
             for l in self.getLinks(hubs[i]):
-                l = "[" + l[1].upper() + l[2:]
+                title = l[1].upper() + l[2:]
+                if title.startswith("Std Base"):
+                    title = "Standard tools"+title[8:]
+                l = "[" + title
                 l = l[:l.index("(")+1] + l[l.index("(")+1].upper() + l[l.index("(")+2:]
                 if (i == 0) and ("Workbench" in l):
                     continue
@@ -1225,6 +1228,7 @@ def update():
     wiki.getAllImages()
     wiki.updateReadme()
     wiki.rebuildAllAPI()
+    wiki.rebuildTOC()
     print("All done!\n")
     if errors:
         print("page with write errors: ",errors)
