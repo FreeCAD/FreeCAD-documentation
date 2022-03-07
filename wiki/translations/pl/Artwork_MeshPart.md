@@ -14,11 +14,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 ![](images/MeshFace.svg )
 
 
-{{Artwork
-
-}} {{Mesh Tools navi}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork MeshPart/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Mesh](Category_Mesh.md) > Artwork MeshPart/pl

@@ -43,13 +43,13 @@ Un objet paramétrique Fragments Booléens est créé. Les objets d\'origine son
 ## Propriétés
 
 
-{{TitleProperty|Fragments Booléens}}
+{{TitleProperty|Boolean Fragments}}
 
--    {{PropertyData/fr|Objects}}: Liste des objets à fragmenter. Généralement, au moins deux objets sont nécessaires, mais un seul composé contenant les formes à fragmenter conviendra également. (à partir de FreeCAD v0.17.8053, cette propriété n\'est pas affichée dans l\'éditeur de propriétés et n\'est accessible que via Python).
+-    **Objects**: Liste des objets à fragmenter. Généralement, au moins deux objets sont nécessaires, mais un seul composé contenant les formes à fragmenter conviendra également. (à partir de FreeCAD v0.17.8053, cette propriété n\'est pas affichée dans l\'éditeur de propriétés et n\'est accessible que via Python).
 
--    {{PropertyData/fr|Mode}}: \"Standard\", \"Split\" ou \"CompSolid\". \"Standard\" est la valeur par défaut. Standard et Split diffèrent par l\'action de l\'outil sur les formes de type agrégation: si Split, celles-ci sont séparées; sinon, elles sont conservées ensemble (vous obtenez des segments supplémentaires).
+-    **Mode**: \"Standard\", \"Split\" ou \"CompSolid\". \"Standard\" est la valeur par défaut. Standard et Split diffèrent par l\'action de l\'outil sur les formes de type agrégation: si Split, celles-ci sont séparées; sinon, elles sont conservées ensemble (vous obtenez des segments supplémentaires).
 
--    {{PropertyData/fr|Tolerance}}: valeur \"floue\". Il s\'agit d\'une tolérance supplémentaire à appliquer lors de la recherche d\'intersections, en plus des tolérances stockées dans les formes en entrée.
+-    **Tolerance**: valeur \"floue\". Il s\'agit d\'une tolérance supplémentaire à appliquer lors de la recherche d\'intersections, en plus des tolérances stockées dans les formes en entrée.
 
 ## Détails d\'implémentation 
 

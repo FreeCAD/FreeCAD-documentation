@@ -1,4 +1,7 @@
-# <img alt="BIM Externes Arbeitsbereichssymbol" src=images/IFC.svg  style="width:64px;"> BIM Workbench/de
+# BIM Workbench/de
+}
+
+<img alt="BIM Externes Arbeitsbereichssymbol" src=images/IFC.svg  style="width:128px;">
 
 
 {{TOCright}}
@@ -43,13 +46,7 @@ Das [in-game tutorial](BIM_ingame_tutorial/de.md) ist ein einfacher Weg, um schn
 
 Der BIM Arbeitsbereich versammelt Werkzeuge aus mehreren anderen FreeCAD Arbeitsbereichen, hauptsächlich [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md) und [Part](Part_Workbench/de.md), die grob in logische Kategorien eingeteilt sind: *\'2D Zeichnungs*, *\'3D Modellierungs*, **Anmerkungs** und **Änderungs** Werkzeuge. Die **verwalten** Kategorie enthält Werkzeuge, die spezifisch für den BIM Arbeitsbereich sind.
 
-
-<div class="mw-translate-fuzzy">
-
-Zusätzlich, falls solche [Erweiterungen](External_workbenches/de.md) installiert sind, Werkzeuge von [Reinforcement](Arch_Rebar/de.md) (zusätzliche Werkzeuge für Bewehrungsstäbe), [Verbindungselemente](Fasteners_Workbench/de.md) (Bolzen und Schrauben), [Flamingo/Dodo](Flamingo_Workbench/de.md) (Metallstruktur- und Rohrleitungswerkzeuge) und [Teilebibliothek](Parts_Library/de.md) sind automatisch im BIM Arbeitsbereich enthalten.
-
-
-</div>
+Zusätzlich, falls solche [Erweiterungen](External_workbenches/de.md) installiert sind, Werkzeuge von [Reinforcement](Arch_Rebar/de.md) (zusätzliche Werkzeuge für Bewehrungsstäbe), [Verbindungselemente](Fasteners_Workbench/de.md) (Bolzen und Schrauben), [Flamingo/Dodo](Flamingo_Workbench/de.md) (Metallstruktur- und Rohrleitungswerkzeuge) und [Teilebibliothek](Parts_Library_Workbench/de.md) sind automatisch im BIM Arbeitsbereich enthalten.
 
 Der BIM Arbeitsbereich fügt auch eine Reihe von Elementen in der **Statusleiste** von FreeCAD und einige **Kontextmenüelemente** hinzu, die durch einen Rechtsklick in der 3D Ansicht oder in der Baumansicht zugänglich sind.
 
@@ -75,22 +72,16 @@ Der BIM Arbeitsbereich fügt auch eine Reihe von Elementen in der **Statusleiste
 
 Anmerkungen sind visuelle Hilfsobjekte, die in deinem Modell platziert werden können. Sie können verwendet werden, um dein Modell direkt in ein 2D Format wie [DXF](Draft_DXF/de.md) zu exportieren, oder bei der Erstellung von 2D Ansichten deines Modells mit der [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) wiederverwendet werden.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Text](Draft_Text/de.md): Zeichnet eine mehrzeilige Textanmerkung
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [FormZeichenkette](Draft_ShapeString/de.md): Zeichnet eine Textlinie als Geometrie
 -   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Abmessung](Draft_Dimension/de.md): Zeichnet eine lineare, winklige, radiale oder Durchmesserabmessung
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Beschriftung](Draft_Label/de.md): Platziert eine Beschriftung mit einem Pfeil, der auf ein ausgewähltes Element zeigt
 -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Achse](Arch_Axis/de.md): Erstellt eine einzelne Achse oder eine 1-Richtungs Anordnung von Achsen für das Dokument
--   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Achsensystem](Arch_AxisSystem/de.md): Erzeugt ein Achsensystem, das aus bis zu 3 Achsreihen gebildet wird
+-   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Achsensystem](Arch_AxisSystem/de.md): Erzeugt ein Achsensystem, das aus bis zu 3 Achsreihen gebildet wird
 -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Gitter](Arch_Grid/de.md): Erzeugt ein gitterartiges Objekt zum Dokument
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Schnittebene](Arch_SectionPlane/de.md): Fügt dem Dokument ein Schnittebenenobjekt hinzu. Schnittebenen definieren 2D Aznsichten wie Pläne, Schnitte und Erhebungen.
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Seite](TechDraw_PageDefault/de.md): Erstellt eine neue [TechDraw](TechDraw_Workbench.md) Seite aus einer [SVG Vorlage](TechDraw_Templates/de.md)
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Ansicht](TechDraw_ArchView/de.md): fügt eine Ansicht einer Schnittebene auf eine Seite ein
-
-
-</div>
 
 ### 3D / BIM Modellierung 
 

@@ -86,13 +86,13 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Beschränkungsbindung](FEM_ConstraintTie/de.md): {{Version/de|0.19}}
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Federbeschränkung](FEM_ConstraintSpring/de.md): Wird verwendet, um eine Federbeschränkung festzulegen. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Kraftbeschränkung](FEM_ConstraintForce.md): Wird verwendet, um eine Kraft in \[N\] festzulegen, die gleichmäßig auf eine wählbare Fläche in einer definierbaren Richtung wirkt.
 
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Druckbeschränkung](FEM_ConstraintPressure/de.md): Wird verwendet, um eine Druckbeschränkung festzulegen.
 
--   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constraint centrif](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Randbedingung Zentrifugal-Belastung](FEM_ConstraintCentrif/de.md): Wird verwendet, um eine Randbedingung Zentrifugal-Belastung festzulegen. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Eigengewichtsbeschränkung](FEM_ConstraintSelfWeight/de.md): Wird verwendet, um eine Schwerkraftbeschleunigung festzulegen, die auf ein Modell wirkt.
 
@@ -144,7 +144,7 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Löser Elmer](FEM_SolverElmer/de.md): Erstellt den Löser Steuerung für Elmer. Er ist unabhängig von anderen Löser Objekten.
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Löser Mystran](FEM_SolverMystran/de.md):
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Löser Z88](FEM_SolverZ88/de.md):
 
@@ -224,11 +224,17 @@ Die folgenden Seiten erläutern verschiedene Themen des FEM Arbeitsbereichs.
 
 [FEM Beton](FEM_Concrete/de.md): interessante Informationen zum Thema Simulation von Betonstrukturen.
 
-[FEM Projekt](FEM_project/de.md): weitere Informationen über das Einheitensystem, Begrenzungen und die Entwicklungsideen und den Fahrplan des Arbeitsbereichs.
+## Tutorials
+
+
+<div class="mw-translate-fuzzy">
 
 ## Tutorien
 
 Tutorium 1: [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/de.md); grundlegende, einfach unterstützte Strahlanalyse.
+
+
+</div>
 
 Tutorium 2: [FEM Tutorium](FEM_tutorial/de.md); einfache Spannungsanalyse einer Struktur.
 
@@ -256,17 +262,12 @@ Der FEM Arbeitsbereich wird ständig weiterentwickelt. Ein Ziel des Projekts ist
 
 Die folgenden Information richtet sich an fortgeschrittene Anwender und Entwickler, die den FEM Arbeitsbereich auf unterschiedliche Weise erweitern möchten. Vertrautheit mit C++ und Python werden vorausgesetzt, ebenso wie einige Kenntnisse des in FreeCAD verwendeten \"Dokumentobjekt\" Systems; diese Informationen sind im [Verteiler für Intensivnutzer](Power_users_hub/de.md) und im [Verteiler für Entwickler](Developer_hub/de.md) verfügbar. Bitte beachte, dass einige Artikel zu alt und damit veraltet sein können, da sich FreeCAD in der aktiven Entwicklung befindet. Die aktuellsten Informationen werden in den [FreeCAD Foren](https://forum.freecadweb.org/index.php), im Bereich Entwicklung, diskutiert. Für FEM Diskussionen, Ratschläge oder Unerstützung bei der Erweiterung des Arbeitsbereichs sollte sich der Leser auf das [FEM Unterforum](https://forum.freecadweb.org/viewforum.php?f=18) beziehen.
 
-
-<div class="mw-translate-fuzzy">
-
 In den folgenden Artikeln wird erläutert, wie der Arbeitsbereich erweitert werden kann, z.B. durch Hinzufügen neuer Arten von Randbedingungen (Beschränkungen) oder Gleichungen.
 
--   [FEM Modul erweitern](Extend_FEM_Module/de.md)
--   [Tutorium FEM Beschränkungen hinzufügen](Add_FEM_Constraint_Tutorial/de.md)
--   [Tutorium FEM Gleichungen hinzufügen](Add_FEM_Equation_Tutorial/de.md)
-
-
-</div>
+-   [FEM-Modul erweitern](Extend_FEM_Module/de.md)
+-   [Einarbeitung FEM-Entwickler](Onboarding_FEM_Devs/de.md) versucht neuen Entwicklern eine Orientierung zu geben, wie man zum Arbeitsbereich FEM beitragen kann.
+-   [Tutorium FEM-Beschränkungen hinzufügen](Add_FEM_Constraint_Tutorial/de.md)
+-   [Tutorium FEM-Gleichungen hinzufügen](Add_FEM_Equation_Tutorial/de.md)
 
 Ein Entwicklerhandbuch wurde geschrieben, um Power-Usern zu helfen, die komplexe FreeCAD-Codebasis und die Interaktionen zwischen den Kernelementen und den einzelnen Workbenches zu verstehen. Das Buch wird bei github gehostet, so dass mehrere Benutzer dazu beitragen und es auf dem neuesten Stand halten können.
 

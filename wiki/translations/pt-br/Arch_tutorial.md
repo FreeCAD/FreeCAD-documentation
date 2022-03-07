@@ -87,7 +87,7 @@ No momento em que eu estou escrevendo isso, a [Bancada de arquitetura](Arch_Work
 
 <div class="mw-translate-fuzzy">
 
--   Sem suporte de materiais. O FreeCAD terá um sistema completo de [material](material/pt-br.md), capaz de definir materiais muito complexos, com todos os extras que você pode esperar (propriedades personalizadas, famílias de materiais, propriedades de aspecto visuale de renderização, etc) e a [Bancada de arquitetura](Arch_Workbench/pt-br.md) vai, naturalmente, usá-lo quando estiver pronto.
+-   Sem suporte de materiais. O FreeCAD terá um sistema completo de [material](material.md), capaz de definir materiais muito complexos, com todos os extras que você pode esperar (propriedades personalizadas, famílias de materiais, propriedades de aspecto visuale de renderização, etc) e a [Bancada de arquitetura](Arch_Workbench/pt-br.md) vai, naturalmente, usá-lo quando estiver pronto.
 
 
 </div>
@@ -95,14 +95,6 @@ No momento em que eu estou escrevendo isso, a [Bancada de arquitetura](Arch_Work
 -   Um muito preliminar suporte [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Você já pode [importar arquivos IFC](Arch_IFC/pt-br.md) de forma bastante confiável, desde que o [IfcOpenShell](http://ifcopenshell.org) esteja instalado em seu sistema, mas exportar ainda não é oficialmente suportado. Isso está sendo trabalhado tanto pelos desenvolvedores FreeCAD quanto do IfcOpenShell, e no futuro podemos esperar um suporte IFC total.
 
 -   A maioria das ferramentas de arquiteura ainda estão em desenvolvimento. Isso significa que as ferramentas \"assistentes\" automáticos que criam geometria complexa automaticamente, como o [Telhado](Arch_Roof/pt-br.md) ou [Escadas](Arch_Stairs/pt-br.md) só podem produzir certos tipos de objetos e outras ferramentas que têm predefinições como [Estrutura](Arch_Structure/pt-br.md) ou [Janela](Arch_Window/pt-br.md) só têm alguns pré-ajustes básicos. Isto, naturalmente, crescerá ao longo do tempo.
-
-
-<div class="mw-translate-fuzzy">
-
--   As [Relações entre objetos](Assembly_project/pt-br.md) ainda não estão disponíveis oficialmente no FreeCAD. Estas, por exemplo a relação entre uma janela e sua parede, estão implementadas atualmente na [Bancada de arquitetura](Arch_Workbench/pt-br.md) com métodos temporários (e portanto, um pouco limitados). Muitas novas possibilidades surgirão quando esse recurso estiver totalmente disponível.
-
-
-</div>
 
 -   As [Unidades](Units/pt-br.md) estão sendo implementadas no FreeCAD, o que permitirá que você trabalhe com qualquer unidade que deseje (até mesmo unidades imperiais, vocês dos EUA podem ser eternamente gratos ao Jürgen, padrinho e ditador do FreeCAD, por isso). Mas neste momento a implementação não está completa e a bancada de arquitetura ainda não os suporta. Você deve considerá-lo \"sem unidades\".
 

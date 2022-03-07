@@ -10,9 +10,6 @@ Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 ![](images/CompleteWorkbench.svg )
 
 
-{{Artwork/de}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Complete/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Complete](Category_Complete.md) > Artwork Complete/de

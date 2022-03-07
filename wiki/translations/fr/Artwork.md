@@ -155,16 +155,7 @@ Voir [Graphisme Render](Artwork_Render/fr.md).
 
 Voir [Graphisme Ship](Artwork_Ship/fr.md).
 
-## Icônes erronées 
-
-Voir [Graphisme Erreurs](Artwork_Erroneous/fr.md).
-
-
-{{Artwork
-
-}}
-
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Icon](Category_Icon.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/fr

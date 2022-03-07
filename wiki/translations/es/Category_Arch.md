@@ -26,7 +26,7 @@ Pages relating to Architectural and Building Information Management
 | [Arch tutorial/es](wiki/Arch tutorial/es.md) | [Arch Wall/es](wiki/Arch Wall/es.md) | [Arch Window/es](wiki/Arch Window/es.md) |
 | [Arch Workbench/es](wiki/Arch Workbench/es.md) | [BIM Library/es](wiki/BIM Library/es.md) | [Custom Spacing/es](wiki/Custom Spacing/es.md) |
 | [IfcOpenShell/es](wiki/IfcOpenShell/es.md) | [Import/Export IFC - compiling IfcOpenShell/es](wiki/Import/Export IFC - compiling IfcOpenShell/es.md) | [Manual:BIM modeling/es](wiki/Manual_BIM modeling/es.md) |
-| [Material/es](wiki/Material/es.md) | [Category:Reinforcement/es](wiki/Category_Reinforcement/es.md) |
+| [Category:Reinforcement/es](wiki/Category_Reinforcement/es.md) |
 
 
 

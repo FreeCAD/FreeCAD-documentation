@@ -83,7 +83,7 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 
 ## Ambiente Arch 
 
--   **[Supporto Materiali](Arch_SetMaterial/it.md)**: Ora gli oggetti Arch possono essere associati a un [materiale](material/it.md), che utilizza la struttura dei materiali interna a FreeCAD. I materiali sono condivisi con gli altri ambienti, e sono pienamente supportati nell\'importazione ed esportazione IFC.
+-   **[Supporto Materiali](Arch_SetMaterial/it.md)**: Ora gli oggetti Arch possono essere associati a un [materiale](material.md), che utilizza la struttura dei materiali interna a FreeCAD. I materiali sono condivisi con gli altri ambienti, e sono pienamente supportati nell\'importazione ed esportazione IFC.
 -   **[Piano di sezione](Arch_SectionPlane/it.md)**: Ora il piano di sezione può tagliare la vista 3D, e mostrare la sezione in tempo reale.
 
 <img alt="" src=images/Arch_clip_plane.jpg  style="width:1024px;">

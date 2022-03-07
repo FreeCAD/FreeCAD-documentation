@@ -10,11 +10,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 ![](images/Workbench_Inspection.svg ) ![](images/inspect_pipette.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/fr

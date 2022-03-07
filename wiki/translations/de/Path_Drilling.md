@@ -51,7 +51,8 @@ The Drilling command generates a drilling Operation in the Job.
 
 \'\'\' *Note* \'\'\': Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
@@ -106,7 +107,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Disabled**: List of disabled features
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: The height needed to clear clamps and obstructions
 
@@ -116,7 +118,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Start Depth**: Starting depth of Tool - *first cut depth in Z*
 
-#### Drill
+
+{{TitleProperty|Drill}}
 
 -    **Add Tip Length**: Calculate the tip length and subtract from final depth
 
@@ -132,7 +135,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Return Level**: Controls how tool retracts Default=G98
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: make False, to prevent operation from generating code
 
@@ -142,7 +146,10 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Tool Controller**: Defines the Tool controller used in the Operation
 
-#### Rotation (*when available*) 
+
+{{TitleProperty|Rotation}}
+
+(*when available*)
 
 -    **Attempt Inverse Angle**: Automatically attempt Inverse Angle if initial rotation is incorrect.
 
@@ -157,19 +164,19 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Geometry 
+### Base Geometry 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: delete the selected item(s) in the Base Geometry list
 -   **Clear**: clear all items in the Base Geometry list
 
-#### Base Location 
+### Base Location 
 
 -   **Add**: add an (X,Y) coordinate location to the current drilling operation.
 -   **Remove**: remove the selected location item(s) from the Base Location list
 -   **Edit**: edit the selected location item
 
-#### Depth 
+### Depth
 
 -    **Start Depth**
     
@@ -177,7 +184,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Final Depth**
     
 
-#### Height
+### Height
 
 -    **Safe Height**
     
@@ -185,7 +192,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Clearance Height**
     
 
-#### Operation
+### Operation
 
 -    **Tool Controller**
     

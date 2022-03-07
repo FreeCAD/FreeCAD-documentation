@@ -143,13 +143,6 @@ Queste pagine si riferiscono al nuovo ambiente, programmato in Python, destinato
 -   [Render Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=25933) (announcement only, no discussion)
 -   [FreeCAD Renderer Workbench improvements](https://forum.freecadweb.org/viewtopic.php?t=39168)
 
-**Obsoleto**
-
-Queste pagine si riferiscono all\'ambiente in sostituzione, programmato in C++, proposto intorno al 2012, che non è mai stato completato.
-
--   [Progetto Raytracing](Raytracing_project/it.md)
--   [Progetto Render](Render_project/it.md)
-
 
 
 

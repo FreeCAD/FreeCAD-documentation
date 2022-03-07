@@ -22,9 +22,6 @@ Przedstawia renderowanie w Blenderze 2.80 z wykorzystaniem zarówno renderera EE
 
 Podobny opis tego procesu jest zaprezentowany w serii filmów, [Renderuj modele Solidworks i FreeCAD w Blenderze](https://www.youtube.com/watch?v=U7e6-Wfv2b0), autorstwa Joko Engineering.
 
-
-{{Note|Uwaga: szybszym sposobem na renderowanie modeli w blenderze bez opuszczania programu FreeCAD może być <img src="images/render_workbench_icon.svg" width=24px>[Projekt Render](Render_project/pl.md)|}}
-
 ## FreeCAD
 
 1\. Stwórz złożenie, używając zawartości ze środowiska [Caęść](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md), albo dowolnego innego środowiska, które tworzy obiekty brył, na przykład [Architektura](Arch_Workbench/pl.md). Przypisz kolory lub materiały poszczególnym zawartościom tworzącym złożenie, w przybliżeniu odpowiadające kolorowi, który chcesz uzyskać w renderingu.

@@ -27,36 +27,30 @@ Geplante Phasen um Inhalte zu erstellen:
 
 <div class="mw-collapsible mw-collapsed">
 
-### Hinge step by step 
+### Scharnier Schritt für Schritt 
 
 
 <div class="mw-collapsible-content toccolours">
 
-1.  Create a profile (a line and a tangent arc), preferably using the <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
-2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a BaseBend object.
-3.  Edit the BaseBend object\'s parameters:
-    -   Set **Mid Plane** to `True`to let the profile extend symmetrically to both sides of the sketch plane.
-    -   Set **radius** and **thickness** to values of your choice.
-4.  Create a cut-out contour with the <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
-5.  Use the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Pocket](PartDesign_Pocket.md) command to cut off one half of the Round bit.
-6.  Create a hole pattern with the <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
-7.  Use the <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [PartDesign Hole](PartDesign_Hole.md) command. Avoid the countersink and counterbore options to keep the body unfoldable.
-8.  Activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) command to get an Unfold object.
-9.  Done!
+1.  Ein Profil erstellen (eine Linie und einen tangential anschließenden Bogen), vorzugsweise mit dem <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/de.md).
+2.  Den Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [BasisprofilErstellen](SheetMetal_AddBase/de.md) aktivieren, um ein BaseBend-Objekt zu erstellen.
+3.  Die Parameter des BaseBend-Objekts editieren:
+    -   Die {{PropertyData/de|Mid Plane}} auf `True` setzen, damit das Profil symmetrisch auf beiden Seiten der Skizzenebene aufgebaut wird.
+    -   Der {{PropertyData/de|radius}} und der {{PropertyData/de|thickness}} gibt man Werte nach eigener Wahl.
+4.  Erstellen einer Beschnittkontur mit dem <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/de.md).
+5.  Mit dem Befehl <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Tasche](PartDesign_Pocket/de.md) entfernt man eine Hälfte des runden Bereichs.
+6.  Ein Lochbild mit dem <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/de.md) erstellen.
+7.  Den Befehl <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [PartDesign Bohrung](PartDesign_Hole/de.md) aktivieren. Die Optionen countersink (Kegelsenkung) und counterbore (Plan-/Zylindersenkung) sollte man vermeiden, damit das Objekt abwickelbar bleibt.
+8.  Mit dem Befehl <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Abwickeln](SheetMetal_Unfold/de.md) erstellt man ein Unfold-Objekt (Abwicklungskörper).
+9.  Fertig!
 
 
 </div>
 
 
 </div>
-
-
-<div class="mw-translate-fuzzy">
 
 ## Aktenklammer
-
-
-</div>
 
 <img alt="" src=images/SheetMetal_Example-02.png  style="width:400px;">
 <img alt="" src=images/SheetMetal_Example-02a.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-02b.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-02c.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-02d.png  style="width:200px;"> 
@@ -70,38 +64,38 @@ klonen, umdrehen und vereinigen,
 
 <div class="mw-collapsible mw-collapsed">
 
-### Paper clip step by step 
+### Aktenklammer Schritt für Schritt 
 
 
 <div class="mw-collapsible-content toccolours">
 
-1.  Create a profile, preferably using the <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher Workbench](Sketcher_Workbench.md) on the XZ plane.
+1.  Ein Profil erstellen, vorzugsweise mit dem <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/de.md) auf der XZ-Ebene.
     <img alt="Profile sketch" src=images/SheetMetal_Example-02e.png  style="width:300px;">
-2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a BaseBend object.
-3.  Edit the BaseBend object\'s parameters in the properties panel:
-    <img alt="BaseBend object and highlighted sketch" src=images/SheetMetal_Example-02f.png  style="width:200px;">
-    -   Set **Mid Plane** to `True`to let the profile extend symmetrically to both sides of the sketch plane.
-    -   Set **length** to 32 mm.
-    -   Set **radius** to 2 mm.
-    -   Set **thickness** to 0.3 mm.
-4.  Select the face between the round sections and activate the <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher Workbench](Sketcher_Workbench.md).
-    <img alt="Face to support the sketch" src=images/SheetMetal_Example-02g.png  style="width:200px;">
-5.  To hide the curled part use the <img alt="" src=images/Sketcher_ViewSection.svg  style="width:16px;"> [Sketcher View section](Sketcher_ViewSection.md) command.
-6.  Create the cut-out contour.
-    <img alt="Cut-out contour" src=images/SheetMetal_Example-02h.png  style="width:" height="240px;"> <img alt="Cut-out contour slightly touching the selected face" src=images/SheetMetal_Example-02i.png  style="width:" height="240px;">
-7.  Finish the sketch using the <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketcher Leave sketch](Sketcher_LeaveSketch.md) command.
-8.  Select the face again and add the Cut-out sketch to the selection.
-    <img alt="Face and sketch selected" src=images/SheetMetal_Example-02j.png  style="width:200px;">
-9.  Use the <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Sketch on Sheet](SheetMetal_SketchOnSheet.md) command to cut around the curled bit.
-    <img alt="Finished first half" src=images/SheetMetal_Example-02b.png  style="width:200px;">
-10. One side is finished. We now need to find a way to mirror the body.
+2.  Den Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [BasisprofilErstellen](SheetMetal_AddBase/de.md) aktivieren, um ein BaseBend-Objekt zu erstellen.
+3.  Die Parameter des BaseBend-Objekts im Eigenschafteneditor anpassen:
+    <img alt="BaseBend-Objekt und hervorgehobene Skizze" src=images/SheetMetal_Example-02f.png  style="width:200px;">
+    -   Die {{PropertyData/de|Mid Plane}} auf `True` setzen, damit das Profil symmetrisch auf beiden Seiten der Skizzenebene aufgebaut wird.
+    -   Die {{PropertyData/de|length}} auf 32 mm setzen.
+    -   Die {{PropertyData/de|radius}} auf 2 mm setzen.
+    -   Die {{PropertyData/de|thickness}} auf 0.3 mm setzen.
+4.  Auswahl der Fläche zwischen den Runden Abschnitten und Aktivieren des <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketchers](Sketcher_Workbench.md).
+    <img alt="Basisfläche der Skizze" src=images/SheetMetal_Example-02g.png  style="width:200px;">
+5.  Den aufgewickelten Teil blendet man mit dem Befehl <img alt="" src=images/Sketcher_ViewSection.svg  style="width:16px;"> [Sketcher SchnittAnzeigen](Sketcher_ViewSection/de.md) aus.
+6.  Ausschnittkontur erstellen.
+    <img alt="Ausschnittkontur" src=images/SheetMetal_Example-02h.png  style="width:" height="240px;"> <img alt="Die Ausschnittkontur überlappt die ausgewählte Fläche leicht" src=images/SheetMetal_Example-02i.png  style="width:" height="240px;">
+7.  Die Skizze abschließen mit dem Befehl <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:16px;"> [Sketcher SkizzeVerlassen](Sketcher_LeaveSketch/de.md).
+8.  Die Fläche erneut auswählen und die Ausschnittskizze zur Auswahl hinzufügen.
+    <img alt="Fläche und Skizze ausgewählt" src=images/SheetMetal_Example-02j.png  style="width:200px;">
+9.  Den Befehl <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md) aktivieren, um den aufgewickelten Teil (entlang seiner Oberfläche) auszuschneiden.
+    <img alt="Fertige erste Hälfte" src=images/SheetMetal_Example-02b.png  style="width:200px;">
+10. Eine Seite ist nun fertig. Jetzt muss noch eine Möglichkeit zum Spiegeln des Objekts gefunden werden.
 
-**Potential mirror options:**
+**Mögliche Spiegelungsoptionen:**
 
--   The <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> [PartDesign Mirrored](PartDesign_Mirrored.md) command fails because it cannot handle SheetMetal features for some reason. So that does not work.
--   The <img alt="" src=images/Part_Mirror.svg  style="width:16px;"> [Part Mirror](Part_Mirror.md) command creates a mirrored part, but this is no longer unfoldable. So that does not work either.
--   One way that can work is to use a clone. This still can\'t be mirrored, but it can use axial symmetry (turn it 180°).
--   Another way that works is to use a link object.
+-   Der Befehl <img alt="" src=images/PartDesign_Mirrored.svg  style="width:16px;"> [PartDesign Spiegeln](PartDesign_Mirrored/de.md) versagt, da er aus irgendwelchen Gründen nicht mit SheetMetal-Objekten umgehen kann. So geht es also nicht.
+-   Der Befehl <img alt="" src=images/Part_Mirror.svg  style="width:16px;"> [Part Spiegeln](Part_Mirror/de.md) erzeugt ein gespiegeltes Teil, aber dieses ist nicht mehr abwickelbar. So geht es also auch nicht.
+-   Ein Weg der funktionieren kann ist die Verwendung eines Klones. Dieser kann zwar nicht gespiegelt werden, aber auf ihn kann Achsensymmetrie angewendet werden (Drehung um 180°).
+-   Ein anderer funktionierender Weg ist die Verwendung eines Link-Objekts.
 
 **Mirror using a clone:**
 

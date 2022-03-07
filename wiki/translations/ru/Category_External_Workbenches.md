@@ -13,8 +13,8 @@
 | [Plot Grid/ru](wiki/Plot Grid/ru.md) | [Plot Labels/ru](wiki/Plot Labels/ru.md) | [Plot Legend/ru](wiki/Plot Legend/ru.md) |
 | [Plot MultiAxes tutorial/ru](wiki/Plot MultiAxes tutorial/ru.md) | [Plot Positions/ru](wiki/Plot Positions/ru.md) | [Plot Save/ru](wiki/Plot Save/ru.md) |
 | [Plot Series/ru](wiki/Plot Series/ru.md) | [Plot Workbench/ru](wiki/Plot Workbench/ru.md) | [Reinforcement Workbench/ru](wiki/Reinforcement Workbench/ru.md) |
-| [Render project/ru](wiki/Render project/ru.md) | [Rocket Workbench/ru](wiki/Rocket Workbench/ru.md) | [Ship Workbench/ru](wiki/Ship Workbench/ru.md) |
-| [Workfeature Workbench/ru](wiki/Workfeature Workbench/ru.md) |
+| [Rocket Workbench/ru](wiki/Rocket Workbench/ru.md) | [Ship Workbench/ru](wiki/Ship Workbench/ru.md) | [Workfeature Workbench/ru](wiki/Workfeature Workbench/ru.md) |
+|
 
 
 

@@ -27,7 +27,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=An abbreviation for the Architectural [workbench](#Workbench.md) which is used primarily for modeling buildings and structures.  Closely related to the [Draft Workbench](#Draft.md).}}
 
 
-{{term|Assembly|content=[Assembly](Assembly_Workbench.md)}}
+{{term|Assembly|content=[Assembly](Assembly.md)}}
 
 
 {{defn|no=1|defn=A set of [parts](#Part.md) that have defined positions in relation to each other.}}

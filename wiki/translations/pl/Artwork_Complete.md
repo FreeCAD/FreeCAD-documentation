@@ -10,11 +10,6 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 ![](images/CompleteWorkbench.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Complete/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Complete](Category_Complete.md) > Artwork Complete/pl

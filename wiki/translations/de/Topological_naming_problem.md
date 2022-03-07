@@ -112,22 +112,22 @@ Bezugsobjekte, [Punkte](PartDesign_Point/de.md), [Linien](PartDesign_Line/de.md)
 
 ## Verweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   [PartDesign Verrundung - Topologische Benennung](PartDesign_Fillet/de#Topological_naming.md)
 -   [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278) , eine mögliche Lösung, von realthunder.
--   [Benennungsprojekt](Naming_project/de.md): Bemühung, eine robuste topologische Benennung in FreeCAD zu implementieren.
 -   [Topologisches Benennungsprojekt](Topological_Naming_Project/de.md): Idee um das Problem zu lösen, von ickby.
 -   [Topologisches Datenskripten](Topological_data_scripting/de.md)
 -   [Funktionsbearbeitung](Feature_editing/de.md): enthält alternative Hinweise für stabile Modellierungstechniken.
 
-## Videos
-
-
-<div class="mw-translate-fuzzy">
-
--   [Warum brechen meine FreeCAD Modelle? - \"Topologisches Benennungsproblem\"](https://youtu.be/6p2vqEEmWq4): Eine Videoerklärung der zugrunde liegenden Probleme des [Topologisches Benennungsproblem](Topological_naming_problem/de.md)
-
 
 </div>
+
+## Videos
+
+-   [Warum brechen meine FreeCAD Modelle? - \"Topologisches Benennungsproblem\"](https://youtu.be/6p2vqEEmWq4): Eine Videoerklärung der zugrunde liegenden Probleme des [Topologisches Benennungsproblem](Topological_naming_problem/de.md)
+-   [FreeCAD Is Fundamentally Broken! - Now what\... Help Me Decide\...](https://www.youtube.com/watch?v=QSsVFu929jo): A Maker Tales Video
 
 
  {{TechDraw Tools navi}} {{PartDesign Tools navi}}

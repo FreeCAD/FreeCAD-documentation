@@ -21,18 +21,12 @@ Die Arbeitsbereich Strahlverfolgung ist im Wesentlichen veraltet. Eine Neuentwic
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
 ## Typischer Arbeitsablauf 
 
 1.  Erstelle oder öffne ein FreeCAD Projekt, füge einige Festkörperobjekte hinzu ([Part-basiert](Part_Workbench/de.md) oder [PartDesign-basiert](PartDesign_Workbench/de.md)); Netze werden derzeit nicht unterstützt.
-2.  Erstelle ein Strahlverfolgungsobjekt (povray oder luxrender).
-3.  Wähle die Objekte aus, die Du zum Strahlverfolgungsobjekt hinzufügen möchtest, und füge sie hinzu.
+2.  Erstelle ein Raytracing-Projekt (povray oder luxrender).
+3.  Wähle die Objekte für das Raytracing-Projekt aus und füge sie hinzu.
 4.  Exportiere die Projektdatei oder rendere sie direkt.
-
-
-</div>
 
 <img alt="" src=images/Raytracing_Workbench_workflow.svg  style="width:600px;">
 
@@ -44,20 +38,14 @@ Die Arbeitsbereich Strahlverfolgung ist im Wesentlichen veraltet. Eine Neuentwic
 
 ### Projekt Werkzeuge 
 
-
-<div class="mw-translate-fuzzy">
-
 Dies sind die wichtigsten Werkzeuge für den Export deiner 3D Arbeit in externe Renderer.
 
--   <img alt="" src=images/Raytrace_New.svg  style="width:32px;"> [Neues PovRay Projekt](Raytracing_New/de.md): Neues PovRay Projekt in das Dokument einfügen
--   <img alt="" src=images/Raytrace_Lux.svg  style="width:32px;"> [Neues LuxRender Projekt](Raytracing_Lux/de.md): Neues LuxRender Projekt in das Dokument einfügen
--   <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width:32px;"> [Teil einfügen](Raytracing_InsertPart/de.md): Einfügen einer Ansicht eines Teils in ein Strahlverfolgungsprojekt
--   <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:32px;"> [Kamera zurücksetzen](Raytracing_ResetCamera/de.md): Stimmt die Kameraposition eines Raytracing Projekts mit der aktuellen Ansicht ab.
--   <img alt="" src=images/Raytrace_ExportProject.svg  style="width:32px;"> [Export Projekt](Raytracing_ExportProject/de.md): Exportiert ein Strahlverfolgungsprojekt in eine Szene Datei zum Rendern in einem externen Renderer.
--   <img alt="" src=images/Raytrace_Render.svg  style="width:32px;"> [Rendern](Raytracing_Render/de.md): Rendert ein Strahlverfolgungsprojekt mit einem externen Renderer.
-
-
-</div>
+-   <img alt="" src=images/Raytracing_New.svg  style="width:32px;"> [Neues PovRay Projekt](Raytracing_New/de.md): Neues PovRay Projekt in das Dokument einfügen
+-   <img alt="" src=images/Raytracing_Lux.svg  style="width:32px;"> [Neues LuxRender Projekt](Raytracing_Lux/de.md): Neues LuxRender Projekt in das Dokument einfügen
+-   <img alt="" src=images/Raytracing_InsertPart.svg  style="width:32px;"> [Teil einfügen](Raytracing_InsertPart/de.md): Einfügen einer Ansicht eines Teils in ein Strahlverfolgungsprojekt
+-   <img alt="" src=images/Raytracing_ResetCamera.svg  style="width:32px;"> [Kamera zurücksetzen](Raytracing_ResetCamera/de.md): Stimmt die Kameraposition eines Raytracing Projekts mit der aktuellen Ansicht ab.
+-   <img alt="" src=images/Raytracing_ExportProject.svg  style="width:32px;"> [Export Projekt](Raytracing_ExportProject/de.md): Exportiert ein Strahlverfolgungsprojekt in eine Szene Datei zum Rendern in einem externen Renderer.
+-   <img alt="" src=images/Raytracing_Render.svg  style="width:32px;"> [Rendern](Raytracing_Render/de.md): Rendert ein Strahlverfolgungsprojekt mit einem externen Renderer.
 
 ### Hilfsmittel
 
@@ -142,13 +130,6 @@ Diese Seiten beziehen sich auf den neuen, in Python programmierten Arbeitsbereic
 -   [Arbeitsbereich Rendern](https://github.com/FreeCAD/FreeCAD-render)
 -   [Arbeitsbereich Rendern](https://forum.freecadweb.org/viewtopic.php?f=9&t=25933) (Nur Ankündigung, keine Erörterung)
 -   [FreeCAD Verbesserungen Arbeitsbereich Rendern](https://forum.freecadweb.org/viewtopic.php?t=39168)
-
-**Veraltet**
-
-Diese Seiten beziehen sich auf einen in C++ programmierten Ersatzarbeitsbereich, der um das Jahr 2012 herum vorgeschlagen und nie fertiggestellt wurde.
-
--   [Strahlverfolgungsprojekt](Raytracing_project/de.md)
--   [Projekt rendern](Render_project/de.md)
 
 
 

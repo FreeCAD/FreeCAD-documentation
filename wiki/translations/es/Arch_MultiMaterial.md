@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Multi-Material define una lista de [materiales](Material/es.md) con un nombre y un valor de espesor, para cada material. Esta lista de materiales múltiples se puede agregar a un objeto [Arch](Arch_Workbench/es.md) en lugar de a un único [Arch Material](Arch_SetMaterial/es.md).
+La herramienta Multi-Material define una lista de [materiales](Material.md) con un nombre y un valor de espesor, para cada material. Esta lista de materiales múltiples se puede agregar a un objeto [Arch](Arch_Workbench/es.md) en lugar de a un único [Arch Material](Arch_SetMaterial/es.md).
 
 
 </div>

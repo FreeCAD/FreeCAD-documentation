@@ -30,7 +30,6 @@ Il montaggio4 è stato ispirato da <img alt="" src=images/A2p_workbench.svg  sty
 -   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [External workbenches](External_workbenches.md)
 -   [External workbench list](External_workbench_list.md)
--   [Old Assembly project](Assembly_project.md) piano di sviluppo, per conoscerne la storia.
 
 
 </div>

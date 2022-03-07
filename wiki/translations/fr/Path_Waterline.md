@@ -75,7 +75,8 @@ Lorsque vous utilisez l\'algorithme \'\'\' *OCL Dropcutter* \'\'\', l\'opératio
 
 \'\'\' *Remarque* \'\'\': toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Remarque : il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
@@ -128,7 +129,8 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 -    {{PropertyData/fr|Label}}: nom de l\'objet fourni par l\'utilisateur (UTF-8)
 
-#### Options d\'évitement 
+
+{{TitleProperty|Clearing Options}}
 
 -    {{PropertyData/fr|Algorithm}}: bibliothèque à utiliser pour générer le chemin
 
@@ -148,7 +150,8 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 -    {{PropertyData/fr|Step Over}}:
 
-#### Profondeur
+
+{{TitleProperty|Depth}}
 
 -    {{PropertyData/fr|Clearance Height}}: hauteur nécessaire pour eviter les pinces et les obstructions.
 
@@ -160,7 +163,8 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 -    {{PropertyData/fr|Step Down}}: abaissement incrémentiel de l\'outil.
 
-#### Tracé
+
+{{TitleProperty|Path}}
 
 -    {{PropertyData/fr|Active}}: mettre à Falsepour empêcher l\'opération de générer du code.
 
@@ -176,7 +180,8 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 -    {{PropertyData/fr|User Label}}: étiquette attribuée par l\'utilisateur.
 
-#### Point de départ 
+
+{{TitleProperty|Start Point}}
 
 -    {{PropertyData/fr|Start Point}}: point de départ personnalisé pour le chemin de cette opération.
 
@@ -201,13 +206,13 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-##### Localisation de la base 
+### Localisation de la base 
 
 -   **Add** : ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
 -   **Remove** : supprime le ou les éléments sélectionnés dans la liste emplacement de base.
 -   **Edit** : efface tous les éléments de la liste d\'emplacement de base.
 
-#### Profondeurs
+### Profondeurs
 
 -    {{PropertyData/fr|Start Depth}}
     
@@ -218,7 +223,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 -    {{PropertyData/fr|Step Down}}
     
 
-#### Hauteurs
+### Hauteurs
 
 -    {{PropertyData/fr|Safe Height}}
     
@@ -226,7 +231,7 @@ Remarque : il est conseillé de ne pas modifier la propriété Placement des op�
 -    {{PropertyData/fr|Clearance Height}}
     
 
-#### Opération
+### Opération
 
 -    {{PropertyData/fr|Tool Controller}}
     

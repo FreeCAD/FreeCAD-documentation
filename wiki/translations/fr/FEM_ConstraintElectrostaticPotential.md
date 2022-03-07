@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM ConstraintElectrostaticPotential
    Name/fr:FEM Contrainte potentiel électrostatique
-   MenuLocation: Model → Electrostatic Constraints → Constraint Electrostatic Potential
+   MenuLocation:Modèle → Contraintes électrostatiques → Contrainte de potentiel électrostatique
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)

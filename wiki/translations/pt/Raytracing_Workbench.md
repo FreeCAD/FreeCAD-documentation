@@ -19,7 +19,7 @@ A bancada Raytracing trabalha com works with [templates](Raytracing_templates.md
 
 Atualmente, dois renderizadores são suportados: [povray](http://en.wikipedia.org/wiki/POV-Ray) e [luxrender](http://en.wikipedia.org/wiki/LuxRender). Para poder renderizar a partir do FreeCAD, pelo menos um desses programas deve ser instalado e configurado em seu sistema. No entanto, se nenhum renderizador estiver instalado, você ainda poderá exportar um arquivo de projeto para ser renderizado em outro momento.
 
-Um novo Render Workbench está em desenvolvimento para suportar múltiplos back-ends como o Lux Renderer e o Yafaray. Informações para usar a versão de desenvolvimento podem ser visualizadas em [ Render project](Render_project.md). Para o status de desenvolvimento do Módulo Render, procure no projeto [ Raytracing project](Raytracing_project.md).
+The Raytracing workbench is essentially obsolete. New development is happening in the [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), which is intended as its replacement. This workbench is fully programmed in Python so it is much easier to extend than the current workbench which is programmed in C++. Nevertheless, the information in this page is generally useful for the new workbench, as both modules work basically in the same way.
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -138,13 +138,6 @@ These pages refer to the new workbench, programmed in Python, meant to replace t
 -   [Render Workbench](https://github.com/FreeCAD/FreeCAD-render)
 -   [Render Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=25933) (announcement only, no discussion)
 -   [FreeCAD Renderer Workbench improvements](https://forum.freecadweb.org/viewtopic.php?t=39168)
-
-**Outdated**
-
-These pages refer to a replacement workbench, programmed in C++, proposed around 2012, which was never completed.
-
--   [Raytracing project](Raytracing_project.md)
--   [Render project](Render_project.md)
 
 
 {{docnav/pt|Drawing Workbench/pt|Image Workbench/pt}}

@@ -16,7 +16,13 @@
 
 ## Introduction
 
+
+<div class="mw-translate-fuzzy">
+
 Ce tutoriel est un ensemble de techniques pour modéliser les filetages de vis dans FreeCAD. Il a été mis à jour pour la v0.19, bien que le processus global soit essentiellement le même depuis la v0.14, lorsque le didacticiel a été initialement écrit. Le contenu mis à jour se concentre sur l\'utilisation de l\'[atelier PartDesign](PartDesign_Workbench/fr.md) <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> pour créer le filetage et de nouvelles illustrations pour les méthodes 0 à 3.
+
+
+</div>
 
 Dans les systèmes de CAO traditionnels, la modélisation des filetages de vis est déconseillée car elle impose une charge importante sur le noyau de modélisation, ainsi que sur le rendu des formes. Dans les systèmes traditionnels, un fil n\'a pas besoin d\'être représenté directement dans l\'espace 3D, car il peut être indiqué avec ses caractéristiques requises dans le dessin technique 2D envoyé pour la fabrication. Cependant, avec la vulgarisation de la fabrication additive (impression 3D), il existe désormais un réel besoin de modéliser les fils 3D, afin de les imprimer exactement comme prévu. C\'est à cela que sert ce didacticiel.
 
@@ -31,9 +37,24 @@ Voir aussi des vidéos utiles :
 
 N\'oubliez pas que les formes de filetages prennent beaucoup de mémoire et que le fait d\'avoir un seul filetage dans un document peut augmenter considérablement la taille du fichier, il est donc conseillé à l\'utilisateur de créer des filetages uniquement lorsque cela est absolument nécessaire.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Méthode 0. Récupération depuis une bibliothèques d\'objets 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 L\'utilisation de modèles créés par d\'autres personnes est facile et permet de gagner du temps. Voir la page des [ateliers externes](external_workbenches/fr.md) pour plus d\'informations sur les outils externes.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 En particulier, il est recommandé d\'installer deux ressources à partir du [gestionnaire de modules complémentaires](Std_AddonMgr/fr.md) :
 
@@ -49,18 +70,44 @@ Certaines petites vis /écrou ou grosse n'ont pas de filetage prédéf
 
 Une vis et un écrou de même diamètre nominal ne sont pas exactement identique il y a un jeu généralement H7/g6 , si on fabrique un écrou par soustraction d\'un barreau fileté , et une vis par soustraction d\'un écrou , ceux-ci ne se visseront pas dans l\'absolu , en fabrication en impression 3D et CNC précise
 
-<img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;"> 
+
+</div>
+
+<img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Diverses vis au standard ISO insérées avec l'atelier Fasteners. Une option à cocher (Threared) contrôle si un objet affiche le vrai filetage ou juste un simple cylindre.*
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## Méthode 1. Utilisation de macros (obsolète) 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Dans le passé, la [macro BOLTS](Macro_BOLTS.md) était utilisée pour insérer les pièces de la bibliothèque BOLTS. Ceci est désormais obsolète. Utilisez plutôt l\'atelier BOLTSFC. ou Fasteners
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Dans le passé, la [ macro Screw Maker](Macro_screw_maker1_2/fr.md), écrite par ulrich1a, était utilisée pour créer des boulons, des vis et des rondelles individuelles. Ceci est désormais obsolète. L\'atelier Fasteners, de shaise, comprend la macro de vissage complète, ainsi qu\'une barre d\'outils pour sélectionner le bon composant.
 
-## Méthode 2. Atelier Fasteners 
 
-Utilisez l\'atelier externe [Fasteners](Fasteners_Workbench/fr.md) pour ajouter/fixer diverses fixations aux pièces. Cet atelier peut être installé avec le [Gestionnaire d\'Addons](Std_AddonMgr/fr.md).
+</div>
 
 ## Méthode 3. Faux filetages non hélicoïdaux 
 
@@ -163,9 +210,15 @@ Pour une impression 3D on peu ne pas fusionner la pièce et le filet , celà dim
 
 ### Avantages et inconvénients 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Facile à comprendre.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Manière très naturelle de définir un profil de filetage.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Aucun problème avec le maillage de l\'objet résultant, contrairement à la méthode 4.
+
+
+</div>
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> En raison de l\'invalidité des balayages auto-entrecroisés, il est presque impossible de générer un filetage sans espace entre chaque dent, c\'est-à-dire sans face cylindrique droite sur les côtés intérieurs du filetage.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Les opérations booléennes sont nécessaires pour obtenir un solide solide contigu. Les opérations booléennes prennent un temps relativement long à calculer et échouent souvent.
@@ -185,7 +238,13 @@ Pour obtenir un profil standard en dent de scie, une paire de spirale d'Archimè
 
 ### Génération du profil 
 
+
+<div class="mw-translate-fuzzy">
+
 Se représenter ce que doit être le profil horizontal pour obtenir un profil vertical n\'est pas facile. Dans les cas simples comme les filets triangulaires ou trapézoïdale, cela peut être fait manuellement. Autrement, Il peuvent être créé en fabricant un filetage court avec la méthode 3, et en récupérant une tranche de ce dernier en faisant une [intersection](Part_Common/fr.md) entre le plan horizontal et le filet.
+
+
+</div>
 
 #### Profil pour un filetage triangulaire 
 
@@ -221,11 +280,23 @@ Ces étapes sont aussi visibles dans cette vidéo de Gaurav Prabhudesai: <http:/
 
 \+ Un filetage solide prêt à l\'emploi est créé directement par le balayage.
 
+
+<div class="mw-translate-fuzzy">
+
 La réalisation du filetage sur la tige est fait immédiatement Si une opération Booléenne est requise , elle se fait immédiatement , plus rapide que la mèthode 3 les bouts de vis sont fait immédiatement les vis longues ne sont pas un problème un filetage sans espace n\'est pas un problème
+
+
+</div>
 
 \- la définition du profil du filetage est compliquée faire un découpage pose problème fichier imposant
 
+
+<div class="mw-translate-fuzzy">
+
 ### Méthode 5. Lofting entre les faces extrudées hélicoïdales 
+
+
+</div>
 
 ### Généralités 
 
@@ -241,7 +312,10 @@ Les filets ISO et autres ont été allégés, c\'est-à-dire que les bords inté
 
 ![761PX](images/Threadform.PNG )
 
-Cette méthode produit des solides fiables qui \"booléen\" correctement. Bien qu\'il ne produise pas de filetage de vis \"paramétrique\" dans les tailles standard, c\'est-à-dire qu\'il permet d\'accéder facilement à la forme par taille de fixation, il constitue un moyen simple de produire une bibliothèque précise à réutiliser, ainsi que des modèles de formes spécialisées telles que ACME ou des vis Archimédien. , sont également simples comme des one-offs.   {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+Cette méthode produit des solides fiables qui \"booléen\" correctement. Bien qu\'il ne produise pas de filetage de vis \"paramétrique\" dans les tailles standard, c\'est-à-dire qu\'il permet d\'accéder facilement à la forme par taille de fixation, il constitue un moyen simple de produire une bibliothèque précise à réutiliser, ainsi que des modèles de formes spécialisées telles que ACME ou des vis Archimédien. , sont également simples comme des one-offs.
+
+
+  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 

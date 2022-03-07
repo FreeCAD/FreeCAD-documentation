@@ -216,13 +216,7 @@ Beispiel:
 
 ## Andere, verfügbare Attribute 
 
-
-<div class="mw-translate-fuzzy">
-
-Siehe [Drawing\_templates/de](Drawing_templates/de.md)
-
-
-</div>
+Siehe [Zeichnungsvorlagen](Drawing_templates/de.md)
 
 
 {{Drawing Tools navi

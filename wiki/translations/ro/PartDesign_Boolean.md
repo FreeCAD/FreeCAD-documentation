@@ -70,6 +70,9 @@ De asemenea, puteți selecta unul sau mai multe corpuri înainte de a apăsa but
 
 ## Proprietăți
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Type**: setează operația Boolean (Fuse, Cut, Common)
 
 -    **Label**: nume dat operațiunii, acest nume poate fi schimbat dacă vă convine.
@@ -85,10 +88,19 @@ De asemenea, puteți selecta unul sau mai multe corpuri înainte de a apăsa but
 
 -    **Visibility**: true or false. Comută vizibilitatea funcției în vizualizarea 3D.
 
+
+</div>
+
 ## Limite
+
+
+<div class="mw-translate-fuzzy">
 
 -   Pentru ca Intersecția să lucreze cu mai mult de un corp, altul decât corpul activ, fiecare trebuie să aibă o parte comună cu corpul activ.
 -   Corpurile folosite adoptă originea locală a corpului activ. Dacă corpul activ nu este localizat la coordonatele (0,0,0) în sistemul global de coordonate, plasarea corpurilor utilizate trebuie să fie relativă față de corpul activ. Poate fi mai ușor să transpuneți plasarea corpului activ la origine înainte de a aplica funcția Boolean și apoi să o readuceți la locația inițială.
+
+
+</div>
 
 
 

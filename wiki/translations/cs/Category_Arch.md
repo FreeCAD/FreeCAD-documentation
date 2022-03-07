@@ -14,7 +14,7 @@ Pages relating to Architectural and Building Information Management
 | [Arch Site/cs](wiki/Arch Site/cs.md) | [Arch Space/cs](wiki/Arch Space/cs.md) | [Arch SplitMesh/cs](wiki/Arch SplitMesh/cs.md) |
 | [Arch Stairs/cs](wiki/Arch Stairs/cs.md) | [Arch Structure/cs](wiki/Arch Structure/cs.md) | [Arch Survey/cs](wiki/Arch Survey/cs.md) |
 | [Arch tutorial/cs](wiki/Arch tutorial/cs.md) | [Arch Wall/cs](wiki/Arch Wall/cs.md) | [Arch Window/cs](wiki/Arch Window/cs.md) |
-| [Arch Workbench/cs](wiki/Arch Workbench/cs.md) | [Material/cs](wiki/Material/cs.md) |
+| [Arch Workbench/cs](wiki/Arch Workbench/cs.md) |
 
 
 

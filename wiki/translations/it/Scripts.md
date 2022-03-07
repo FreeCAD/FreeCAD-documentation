@@ -19,33 +19,15 @@
 
 ## Introduzione
 
+Per Scripting intendiamo la creazione di oggetti topologici mediante l\'uso dell\'interprete Python interno di FreeCAD. FreeCAD può essere usato come \"ottimo\" sostituto di OpenSCAD, principalmente perché possiede un vero interprete Python, questo vuol dire che ha un intero linguaggio di programmazione \"a bordo\", quasi tutto quello che si può realizzare con l\'interfaccia grafica è possibile realizzarlo anche attraverso uno script Python.
 
-<div class="mw-translate-fuzzy">
-
-Per Scripting si intende l\'uso dell\'interprete Python interno di FreeCAD per generare oggetti. FreeCAD può essere usato come \"ottimo\" sostituto di OpenSCAD, perché possiede un vero e proprio interprete Python, con il pieno supporto per tutti i costrutti di un linguaggio di programmazione, quasi tutto quello che si può realizzare con l\'interfaccia grafica è possibile realizzarlo anche attraverso uno script Python.
-
-
-</div>
-
-Le informazioni sullo scripting sono però sparse nella documentazione di FreeCAD, non c\'è una uniformità di \"scritture\" e alcune cose sono spiegate in maniera complicata per chi comincia.
-
-
-<div class="mw-translate-fuzzy">
+Purtroppo le informazioni che riguardano lo scripting nella documentazione di FreeCAD, e anche in questo wiki sono disperse e mancano di una uniformità di \"scrittura\" e molte di esse sono spiegate in maniera troppo tecnica.
 
 ## Primo assaggio 
 
+Il primo ostacolo ad un semplice approccio allo scripting deriva dal fatto che non esiste un modo per accedere direttamente all\'editor Python interno a FreeCAD, con un comando di menù od un\'icona nella barra degli strumenti, sapendo però che FreeCAD apre un file con estensione `.py` nell\'editor Python interno, il trucco più semplice è quello di creare usando il proprio editor di testo preferito, un file e poi aprirlo in FreeCAD con **File → Apri**.
 
-</div>
-
-Il primo ostacolo ad un semplice approccio allo scripting deriva dal fatto che non esiste un modo per accedere direttamente all\'editor Python interno a FreeCAD, con un comando di menu od un\'icona nella barra degli strumenti, sapendo però che FreeCAD apre un file con estensione `.py` nell\'editor Python interno, il trucco più semplice è quello di creare usando il proprio editor di testo preferito, un file e poi aprirlo in FreeCAD con **File → Apri**.
-
-
-<div class="mw-translate-fuzzy">
-
-Per fare le cose con un minimo di stile, lo script deve essere scritto con un certo ordine. L\'editor di FreeCAD possiede una buona \"evidenziazione di sintassi\" che manca a molti editor come Windows Notepad o altri editor di Linux di base, per cominciare basta scrivere queste poche righe:
-
-
-</div>
+Per fare le cose con un minimo di stile, il file deve essere scritto con un certo ordine. L\'editor di FreeCAD possiede una buona \"evidenziazione di sintassi\" che manca a molti editor come Windows Notepad o altri editor di Linux di base, per cominciare basta scrivere queste poche righe:
 
 
 ```python
@@ -58,7 +40,7 @@ Per fare le cose con un minimo di stile, lo script deve essere scritto con un ce
 
 Salvatele con un nome significativo e con estensione `.py` e caricate il file ottenuto in FreeCAD, con il comando **File → Apri**.
 
-Un esempio minimale ma che contiene tutto quanto necessario per uno script è mostrato in questa porzione di codice, che potete usare come modello per quasi ogni vostro futuro script:
+Un esempio minimale che contiene tutto quanto necessario per uno script è mostrato in questa porzione di codice, che potete usare come modello per quasi ogni vostro futuro script:
 
 
 ```python
@@ -102,15 +84,9 @@ EPS_C = EPS * -0.5
 
 Nel codice qui sopra sono presenti alcuni trucchi:
 
-
-<div class="mw-translate-fuzzy">
-
 -    `import FreeCAD`Questa linea serve per importare FreeCAD all\'interno dell\'interprete Python, può sembrare superfluo, ma non lo è.
 
 -    `from FreeCAD import Base, Vector`Base e Vector sono molto usati negli script in FreeCAD, importando questi due metodi in questo modo vi evita di scrivere `FreeCAD.Vector` oppure `FreeCAD.Base` al posto di `Base` oppure `Vector`, vi risparmiano quindi molto lavoro di battitura e rendono il codice più compatto.
-
-
-</div>
 
 Cominciamo con un piccolo script che fa un piccolo lavoro, ma mostra la potenza di questo approccio.
 
@@ -141,13 +117,7 @@ Accadranno alcune magie, si apre un nuovo documento chiamato \"Pippo\" e si visu
 
 ## Qualcosa di più\... 
 
-
-<div class="mw-translate-fuzzy">
-
-Niente di eccezionale? Vero, ma da qualcosa dobbiamo pure incominciare, possiamo fare la stessa cosa con un [Cilindro](Part_Cylinder/it.md), aggiungete queste linee dopo il metodo `cubo(` e prima della riga `# objects definition`.
-
-
-</div>
+Niente di eccezionale? Vero, ma da qualcosa dobbiamo pure incominciare, possiamo fare la stessa cosa con un [Cilindro](Part_Cylinder/it.md), aggiungete queste linee dopo il metodo `cubo()` e prima della riga `# objects definition`.
 
 
 ```python
@@ -161,20 +131,14 @@ def base_cyl(nome, ang, rad, alt ):
 
 ```
 
-Anche qui nulla di eccezionale, notiamo alcune nella costruzione del codice:
-
-
-<div class="mw-translate-fuzzy">
+Anche qui nulla di eccezionale. Notiamo alcune cose nella costruzione del codice:
 
 -   L\'assenza degli usuali riferimenti ad `App.`, presenti in molta documentazione che parla di scripting, è pienamente voluto, in futuro si potrà riusare il codice per accedere a FreeCAD come un modula da un interprete Python esterno, la cosa non è proprio facilissima da AppImage, ma con qualche accortezza è possibile. Di più facendo riferimento al motto di Python \"esplicito è meglio che implicito\", `App.` non indica molto bene da dove arrivano i metodi che si usano.
 -   Notate l\'uso della \"costante\" DOC assegnata al documento attivo in `DOC` = `FreeCAD.activeDocument()`; `activeDocument()` ovviamente non è una \"costante\", ma dal punto di vista semantico è il nostro \"documento attivo\", da qui l\'uso della convenzione di Pyhton del nome \"TUTTO MAIUSCOLO\" per le \"costanti\", senza considerare che `DOC` è molto pià corto che `FreeCAD.activeDocument()`.
--   ogni metodo ritorna un geometria, questo diventerà importante fra poco.
--   la geometria viene creata senza definire una la proprietà `Placement`, questo è voluto perché se utilizzando geometrie semplici per creare geometrie più complesse, la gestione della proprietà `Placement` è una cosa \"delicata\".
+-   Ogni metodo ritorna un geometria, questo diventerà importante fra poco.
+-   La geometria viene creata senza definire una la proprietà `Placement`, questo è voluto perché se utilizzando geometrie semplici per creare geometrie più complesse, la gestione della proprietà `Placement` è una cosa \"delicata\".
 
-
-</div>
-
-Ora dobbiamo pur farci qualcosa con questi oggetti,
+Ora cosa dobbiamo fare con questi oggetti?
 
 Introduciamo ora le operazioni booleane. Un esempio per cominciare, mettendo queste linee dopo `base_cyl(...`, si crea un metodo che esegue una operazione di \"Fusione\" conosciuta anche come \"Unione\":
 
@@ -226,9 +190,6 @@ FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0)
 
 Comunque al di sopra di ogni ulteriore considerazione, una cosa è cruciale, il concetto di \"punto di riferimento\" della geometria. In altri termini, il punto dal quale l\'oggetto viene costruito da parte di FreeCAD, riportiamo in questa tabella, copiata direttamente da [Placement](Placement/it.md):
 
-
-<div class="mw-translate-fuzzy">
-
   Oggetto                                Punto di riferimento
    
   Part.Box                               vertice sinistro (minimo x), frontale (minimo y), in basso (minimo z)
@@ -237,9 +198,6 @@ Comunque al di sopra di ogni ulteriore considerazione, una cosa è cruciale, il 
   Part.Cone                              centro della faccia di base (o superiore se il raggio della faccia di base vale 0)
   Part.Torus                             centro del toro
   Caratteristiche derivate ​​da Sketch   la caratteristica eredita la posizione dello schizzo sottostante. Lo schizzo inizia sempre con Position = (0,0,0).
-
-
-</div>
 
 Questa informazione va tenuta ben presente specie quando si applica una rotazione.
 
@@ -300,16 +258,10 @@ setview()
 
 Illustriamo meglio alcuni punti del codice:
 
-
-<div class="mw-translate-fuzzy">
-
 -   Abbiamo definito un metodo per creare una sfera, abbiamo usado la definizione più semplice, definendo solo il raggio.
 -   Abbiamo introdotto una seconda forma per l**\'Unione** o la **Fusione** come dir si voglia, quella che permette di fondere più oggetti, niente di speciale rispetto a **Part::Fuse** viene definita come **Part:Multifuse**, notate che possiede solo una proprietà `Shapes` dove abbiamo messo una **tupla** contenente gli oggetti da fondere, avremmo potuto se necessario passare una **lista**.
 -   Abbiamo definito una geometria complessa **aeroplano**, e lo abbiamo fatto in modo **\"parametrico\"**, cioè definendo alcuni parametri e calcolando in modo automatico, attraverso la definizione di alcune formule, molti dei valori che definiscono la geometria finale.
 -   Abbiamo definito qualche proprietà `Placement` per i vari componenti base della geometria e abbiamo definito la parte `Rotation` della proprietà `Placement` usando la scrittura *Yaw-Pitch-Roll*. Notate l\'ultimo componente `Vector(0,0, pos_ali)`, questo definisce il \"centro di rotazione\" della geometria finale.
-
-
-</div>
 
     
   ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
@@ -317,13 +269,7 @@ Illustriamo meglio alcuni punti del codice:
 
 Potete facilmente notare che l\'aereo ruota attorno al suo \"baricentro\" detto anche \"centro di gravità\", che ho fissato nel centro delle ali, una posizione abbastanza \"naturale\", potete comunque piazzarlo dove più vi aggrada o vi serve.
 
-
-<div class="mw-translate-fuzzy">
-
-Il primo `Vector(0,0,0)` della definizione di `Placement` è il vettore di Traslazione (o di posizionamento), che qui non abbiamo usato, se però sostituite la riga `aeroplano()` con le linee seguenti:
-
-
-</div>
+Il primo `Vector(0,0,0)` è il vettore di Traslazione (o di posizionamento), che qui non abbiamo usato, però se sostituite la riga `aeroplano()` con le linee seguenti:
 
 
 ```python
@@ -332,13 +278,7 @@ obj_f = aeroplano()
 print(obj_F.Placement)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 Potete leggere nella finestra Report questo testo:
-
-
-</div>
 
 
 ```python
@@ -347,13 +287,7 @@ Placement [Pos=(0, -21, 21), Yaw-Pitch-Roll=(0, 0, -90)]
 
 Cosa è successo?
 
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD ha \"tradotto\" il posizionamento passato con `Vector(0,0,0), FreeCAD.Rotation(0,0,-90), Vector(0,0,pos_ali)`, che specificava tre componenti **Translazione**, **Rotazione** e *centro di rotazione*\' nel suo valore \"interno\" che possiede solo due componenti, **Translazione** e **Rotazione**.
-
-
-</div>
+FreeCAD ha \"tradotto\" il posizionamento passato con `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali)`, che specificava tre componenti **Translazione**, **Rotazione** e *centro di rotazione*\' nel suo valore \"interno\" che possiede solo due componenti, **Translazione** e **Rotazione**.
 
 Potete facilmente inserire nel codice del metodo `aeroplano(...` una istruzione che stampi `pos_ali`, e vedrete che vale:
 
@@ -362,21 +296,9 @@ Potete facilmente inserire nel codice del metodo `aeroplano(...` una istruzione 
 pos ali =  21.0
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-In parole povere, il *\'centro di rotazione* della geometria è posizionato a `Vector(0,0,21)`, ma non è mostrato attraverso l\'interfaccia grafica nella vista Dati, può essere specificato come valore nella proprietà `Placement`, ma non può essere facilmente recuperato.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+In parole povere, il *\'centro di rotazione* della geometria è posizionato a `Vector(0, 0, 21)`, ma non è mostrato attraverso l\'interfaccia grafica nella vista Dati, può essere specificato come valore nella proprietà `Placement`, ma non può essere facilmente recuperato.
 
 Questo è il significato dell\'aggettivo \"delicato\" che ho usato precedentemente nel testo per definire la proprietà `Placement`.
-
-
-</div>
 
 
 

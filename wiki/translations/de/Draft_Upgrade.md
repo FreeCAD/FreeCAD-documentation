@@ -12,13 +12,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Der <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> Der Befehl **Entwurf Hochstufen** aktualisiert ausgewählte 2D Objekte. Das Ergebnis ist abhängig von der Anzahl der ausgewählten Objekte und deren Typ. Der Befehl kann zum Beispiel Elemente verschmelzen und Flächen erzeugen. Es lohnt sich, eine Auswahl mehrmals zu aktualisieren, um zu sehen, ob ein besseres Ergebnis erzielt werden kann. Siehe das Beispiel im Bild. Beachte, dass nicht alle Objekte hochgestuft werden können. Dieser Befehl ist das Gegenstück zum Befehl [Entwurf Herabstufen](Draft_Downgrade/de.md).
-
-
-</div>
+Der <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> Der Befehl **Draft Hochstufen** (Aufrüsten) aktualisiert ausgewählte Objekte. Das Ergebnis ist abhängig von der Anzahl der ausgewählten Objekte und deren Typ. Der Befehl kann zum Beispiel Elemente verschmelzen und Flächen erzeugen. Es lohnt sich, eine Auswahl mehrmals zu aktualisieren, um zu sehen, ob ein besseres Ergebnis erzielt werden kann. Siehe das Beispiel im Bild. Beachte, dass nicht alle Objekte hochgestuft werden können. Dieser Befehl ist das Gegenstück zum Befehl [Draft Herabstufen](Draft_Downgrade/de.md) (Zurückstufen).
 
 <img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *Ein offener nicht editierbarer Draht wird zu einem geschlossenen Draht und dann zu einer Fläche hochgestuft. Ein geschlossener, nicht editierbarer quadratischer Draht wird ebenfalls zu einer Fläche hochgestuft. Die beiden Flächen werden dann hochgestuft, um einen Verbund zu erstellen, der schließlich zu einem einzelnen bearbeitbaren Entwurf Draht hochgestuft wird.*

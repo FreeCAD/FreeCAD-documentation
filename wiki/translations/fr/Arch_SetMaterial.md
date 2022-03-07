@@ -12,14 +12,14 @@
 
 ## Description
 
-L\'outil Matériau permet d\'ajouter des [matériaux](Material/fr.md) dans le document actif et attribue un matériau à un objet [Arch](Arch_Workbench/fr.md). Les matériaux peuvent prendre toutes les propriétés d\'un certain matériel, et contrôler la couleur de l\'objet auquel il est attaché. Les données sont stockées dans le dossier **Matériaux** dans le document actif.
+Cet outil permet d\'ajouter des [matériaux](Material.md) au document actif et d\'attribuer un matériau à un objet [Arch](Arch_Workbench/fr.md). Un matériau contient toutes les propriétés d\'un certain matériau et contrôle la couleur de l\'objet auquel il est attaché. Les matériaux sont stockés dans un dossier **Matériaux** dans le document actif.
 
 ![](images/Arch_materials_01.jpg )
 
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets pour leur attribuer un nouveau matériau.
-2.  Appelez la commande de plusieurs manières:
+2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Arch_SetMaterial.svg" width=16px> [Matériau](Arch_SetMaterial/fr.md)** dans la barre d\'outils.
     -   Utilisez les raccourcis clavier **M** puis **T**.
     -   Utilisez l\'entrée **Arch → Outils matériaux → Matériau** dans le menu supérieur.

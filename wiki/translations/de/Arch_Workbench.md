@@ -44,16 +44,10 @@ Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 -   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Fenster](Arch_Window/de.md): Erzeugt ein Fenster im ausgewählten Objekt
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Schnittebene](Arch_SectionPlane/de.md): Fügt eine Schnittebene zum Dokument hinzu
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Achsenwerkzeuge](Arch_CompAxis/de.md): Das Achsen Werkzeug erlaubt dir das Platzieren einer Reihe von Achsen im aktuellen Dokument.
-    -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Achsen](Arch_Axis/de.md): Fügt eine 1-Richtungsanordnung von Achsen zum Dokument hinzu
-    -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Achsensystem](Arch_AxisSystem/de.md): Fügt ein aus mehreren Achsen gebildetes Achsensystem dem Dokument hinzu
+-   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Achsenwerkzeuge](Arch_CompAxis/de.md): Die Achsenwerkzeuge erlauben das Platzieren einer Reihe von Achsen im aktuellen Dokument.
+    -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Achsen](Arch_Axis/de.md): Fügt dem Dokument eine Anordnung gleich ausgerichteter Achsen hinzu
+    -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Achsensystem](Arch_AxisSystem/de.md): Fügt dem Dokument ein aus mehreren Achsen gebildetes Achsensystem hinzu
     -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Gitter](Arch_Grid/de.md): Fügt dem Dokument ein gitterartiges Objekt hinzu
-
-
-</div>
 
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Dach](Arch_Roof/de.md): Erzeugt eine Dachneigung aus der selektierten Fläche
 -   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Raum](Arch_Space/de.md): Erstellt ein Raumobjekt im Dokument
@@ -84,11 +78,11 @@ Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 
 Hier die Werkzeuge zur Änderung von Architekturobjekten:
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Mit einer Linie schneiden](Arch_CutLine/de.md): Ein Objekt in Übereinstimmung mit einer Linie schneiden. <small>(v0.19)</small> 
--   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Schnitt mit Ebene](Arch_CutPlane.md): Ein Objekt in Übereinstimmung mit einer Ebene schneiden.
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Mit Linie beschneiden](Arch_CutLine/de.md): Ein Objekt auf Basis einer Linie beschneiden. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Mit Ebene beschneiden](Arch_CutPlane.md): Ein Objekt auf Basis einer Ebene beschneiden.
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Komponente hinzufügen](Arch_Add/de.md): Fügt Objekte zu einer Komponente hinzu
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Komponente entfernen](Arch_Remove/de.md): Subtrahiert oder entfernt Objekte von einer Komponente
--   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Übersicht](Arch_Survey/de.md): betritt oder verlässt den Übersichtsmodus
+-   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Übersicht](Arch_Survey/de.md) (Messen): betritt oder verlässt den Übersichtsmodus
 
 ### Hilfsmittel
 
@@ -127,13 +121,7 @@ Hier sind zusätzliche Hilfsmittel für spezifische Aufgaben:
 
 ## API
 
-
-<div class="mw-translate-fuzzy">
-
-Der Arch-Arbeitsbereich kann mit den [Arch Python API](http://www.freecadweb.org/api/Arch.html)-Funktionen in [Python](Python/de.md)-Skripten und [Makros](macros/de.md) benutzt werden.
-
-
-</div>
+Der Arbeitsbereich Arch kann mit den Funktionen der [Arch Python API](http://www.freecadweb.org/api/Arch.html) in [Python](Python/de.md)-Skripten und [Makros](macros/de.md) verwendet werden.
 
 ## Übungen
 

@@ -9,17 +9,9 @@
 
 # Sketcher MapSketch/de
 
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
 Dieses Werkzeug ordnet eine vorhandene Skizze der Fläche einer Form zu. PartDesign Formelemente, die aus dieser Skizze erstellt werden, werden bei additiven Formelementen (Polster, Umlauf) mit dem darunter liegenden Festkörper verschmolzen oder bei subtraktiven Formelementen (Tasche, Nut) vom darunter liegenden Festkörper subtrahiert.
-
-
-</div>
 
 Bitte beachte, daß dieses Werkzeug nicht zum Erstellen neuer Skizzen verwendet wird. Es ordnet lediglich eine vorhandene Skizze der Fläche eines Festkörpers oder einem PartDesign Formelement zu oder ordnet diese neu zu. Typische Anwendungsfälle sind:
 

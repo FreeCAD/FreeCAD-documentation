@@ -230,13 +230,7 @@ In der [Baumansicht](tree_view/de.md) wird die Spitze des Körpers durch das [Pa
 
 ### Wechselwirkung mit anderen Arbeitsbereichen 
 
-
-<div class="mw-translate-fuzzy">
-
-Standardmäßig sind [PartDesign Funktionen](PartDesign_Feature/de.md) in einem Körper auswählbar, da dies zur Bearbeitung und zum Hinzufügen weiterer Eigenschaften mit [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) Werkzeugen erforderlich ist. Die Auswahl einzelner Funktionen zur Verwendung mit Werkzeugen anderer Arbeitsbereiche, wie [Part](Part_Workbench/de.md) oder [Draft](Draft_Workbench/de.md)) wird jedoch nicht empfohlen, da die Ergebnisse unerwartet sein können. Wenn dies gemacht wird, kann in der [Berichtsansicht](Report_view/de.md) ein Fehler angezeigt werden **Links go out of the allowed scope (Verknüpfungen liegen außerhalb des erlaubten Bereiches)**.
-
-
-</div>
+Standardmäßig sind [PartDesign Funktionen](PartDesign_Feature/de.md) in einem Körper auswählbar, da dies zur Bearbeitung und zum Hinzufügen weiterer Eigenschaften mit Werkzeugen des Arbeitsbereichs [PartDesign](PartDesign_Workbench/de.md) erforderlich ist. Die Auswahl einzelner Funktionen zur Verwendung mit Werkzeugen anderer Arbeitsbereiche, wie [Part](Part_Workbench/de.md) oder [Draft](Draft_Workbench/de.md) wird jedoch nicht empfohlen, da die Ergebnisse unerwartet sein können. Wenn dies gemacht wird, kann in der [Berichtsansicht](Report_view/de.md) ein Fehler angezeigt werden: **Links go out of the allowed scope** (Verknüpfungen liegen außerhalb des erlaubten Bereiches).
 
 Daher sollte bei Wechselwirkungen mit anderen Arbeitsbereichen in der [Baumansicht](tree_view/de.md) nur der Körper selbst ausgewählt werden. In Fällen, in denen es notwendig ist, bestimmte Unterelemente des Körpers (Knoten, Kanten und Flächen) auszuwählen, sollte die Eigenschaft {{PropertyView/de|Ansichtsmodus Körper}} des Körpers auf `Spitze` umgeschaltet werden. Wenn dieser Modus aktiviert ist, ist der Zugriff auf Objekte unter dem Körper ([Formelemente](PartDesign_Feature/de.md), Bezugspunkte, [Skizzen](Sketch/de.md)) deaktiviert, und alles außer der Körpereigenschaft [Spitze](PartDesign_Body#Tip/de.md) wird in der [3D-Ansicht](3D_view/de.md) ausgeblendet.
 

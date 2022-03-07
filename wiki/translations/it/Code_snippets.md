@@ -282,10 +282,11 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 ### Observe camera change in the 3D viewer via Python 
 
-This can be done adding a Node sensor to the camera. from pivy import coin
+This can be done adding a Node sensor to the camera.
 
 
 ```python
+from pivy import coin
 def callback(*args):
     cam, sensor = args
     print()

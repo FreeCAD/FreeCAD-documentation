@@ -19,9 +19,9 @@ Die Option, nach PDF zu exportieren, ist im Menü unter **Datei → [PDF exporti
 
 ## Verwandt
 
--   See also: <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export.md) and <img alt="" src=images/Std_PrintPdf.svg  style="width:24px;"> [Std PrintPdf](Std_PrintPdf.md).
+-   Siehe auch: <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Exportieren](Std_Export/de.md) and <img alt="" src=images/Std_PrintPdf.svg  style="width:24px;"> [PDF exportieren](Std_PrintPdf/de.md).
 
--   For [power users](Power_users_hub.md), there is an option to utilize the [Python console](Python_console.md) to export a PDF.
+-   Für [erfahrene Benutzer](Power_users_hub/de.md) gibt es die Möglichkeit, die [Python-Konsole](Python_console/de.md) zu verwenden, um eine PDF-Datei zu exportieren.
 
 
 

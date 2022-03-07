@@ -5,7 +5,7 @@ This category gathers all articles documenting what is planned in the Roadmap of
 
 |     |     |     |
 | --- | --- | --- |
-| [Assembly project/id](wiki/Assembly project/id.md) | [Development roadmap/id](wiki/Development roadmap/id.md) |
+|
 
 
 

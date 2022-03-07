@@ -257,15 +257,7 @@ este nedisponibilă, dar uneltele geometrice sunt accesibile.
 
 </div>
 
-## In lucru 
-
-
-<div class="mw-translate-fuzzy">
-
--   ![](images/Feature-assembly.jpg ) Un modul de [asamblare](Assembly_project/ro.md) ce permite lucrul cu mai multe proiecte, forme, documente, fisiere, relatii\... This module is currently in planning state.
-
-
-</div>
+## Extra Workbenches 
 
 
 <div class="mw-translate-fuzzy">

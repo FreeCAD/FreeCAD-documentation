@@ -19,17 +19,17 @@ Esta categoría recopila documentación de artículos principalmente dirigidos a
 | [Installing more workbenches/es](wiki/Installing more workbenches/es.md) | [Installing on Linux/es](wiki/Installing on Linux/es.md) | [Introduction to Python/es](wiki/Introduction to Python/es.md) |
 | [Licence/es](wiki/Licence/es.md) | [Line drawing function/es](wiki/Line drawing function/es.md) | [Linux packaging/es](wiki/Linux packaging/es.md) |
 | [Localisation/es](wiki/Localisation/es.md) | [Macros/es](wiki/Macros/es.md) | [Manual:A gentle introduction/es](wiki/Manual_A gentle introduction/es.md) |
-| [Manual:Creating and manipulating geometry/es](wiki/Manual_Creating and manipulating geometry/es.md) | [Material/es](wiki/Material/es.md) | [Mesh Scripting/es](wiki/Mesh Scripting/es.md) |
-| [Mesh to Part/es](wiki/Mesh to Part/es.md) | [OpenCASCADE/es](wiki/OpenCASCADE/es.md) | [Packaging/es](wiki/Packaging/es.md) |
-| [Part scripting/es](wiki/Part scripting/es.md) | [Path scripting/es](wiki/Path scripting/es.md) | [Pivy/es](wiki/Pivy/es.md) |
-| [Property/es](wiki/Property/es.md) | [PySide Beginner Examples/es](wiki/PySide Beginner Examples/es.md) | [PySide/es](wiki/PySide/es.md) |
-| [Python scripting tutorial/es](wiki/Python scripting tutorial/es.md) | [Python/es](wiki/Python/es.md) | [PythonOCC/es](wiki/PythonOCC/es.md) |
-| [Scenegraph/es](wiki/Scenegraph/es.md) | [Scripted objects/es](wiki/Scripted objects/es.md) | [Scripting and macros/es](wiki/Scripting and macros/es.md) |
-| [Source code management/es](wiki/Source code management/es.md) | [Source documentation/es](wiki/Source documentation/es.md) | [Start up and Configuration/es](wiki/Start up and Configuration/es.md) |
-| [Testing/es](wiki/Testing/es.md) | [The FreeCAD source code/es](wiki/The FreeCAD source code/es.md) | [Third Party Libraries/es](wiki/Third Party Libraries/es.md) |
-| [Third Party Tools/es](wiki/Third Party Tools/es.md) | [Topological data scripting/es](wiki/Topological data scripting/es.md) | [Tracker/es](wiki/Tracker/es.md) |
-| [Translating an external workbench/es](wiki/Translating an external workbench/es.md) | [Windows packaging/es](wiki/Windows packaging/es.md) | [Workbench creation/es](wiki/Workbench creation/es.md) |
-| [Category:Artwork/es](wiki/Category_Artwork/es.md) |
+| [Manual:Creating and manipulating geometry/es](wiki/Manual_Creating and manipulating geometry/es.md) | [Mesh Scripting/es](wiki/Mesh Scripting/es.md) | [Mesh to Part/es](wiki/Mesh to Part/es.md) |
+| [OpenCASCADE/es](wiki/OpenCASCADE/es.md) | [Packaging/es](wiki/Packaging/es.md) | [Part scripting/es](wiki/Part scripting/es.md) |
+| [Path scripting/es](wiki/Path scripting/es.md) | [Pivy/es](wiki/Pivy/es.md) | [Property/es](wiki/Property/es.md) |
+| [PySide Beginner Examples/es](wiki/PySide Beginner Examples/es.md) | [PySide/es](wiki/PySide/es.md) | [Python scripting tutorial/es](wiki/Python scripting tutorial/es.md) |
+| [Python/es](wiki/Python/es.md) | [PythonOCC/es](wiki/PythonOCC/es.md) | [Scenegraph/es](wiki/Scenegraph/es.md) |
+| [Scripted objects/es](wiki/Scripted objects/es.md) | [Scripting and macros/es](wiki/Scripting and macros/es.md) | [Source code management/es](wiki/Source code management/es.md) |
+| [Source documentation/es](wiki/Source documentation/es.md) | [Start up and Configuration/es](wiki/Start up and Configuration/es.md) | [Testing/es](wiki/Testing/es.md) |
+| [The FreeCAD source code/es](wiki/The FreeCAD source code/es.md) | [Third Party Libraries/es](wiki/Third Party Libraries/es.md) | [Third Party Tools/es](wiki/Third Party Tools/es.md) |
+| [Topological data scripting/es](wiki/Topological data scripting/es.md) | [Tracker/es](wiki/Tracker/es.md) | [Translating an external workbench/es](wiki/Translating an external workbench/es.md) |
+| [Windows packaging/es](wiki/Windows packaging/es.md) | [Workbench creation/es](wiki/Workbench creation/es.md) | [Category:Artwork/es](wiki/Category_Artwork/es.md) |
+|
 
 
 

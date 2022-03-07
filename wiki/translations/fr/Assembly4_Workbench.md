@@ -26,7 +26,6 @@ Assembly4 a été inspiré par <img alt="" src=images/A2p_workbench.svg  style="
 -   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), grand fil de discussion.
 -   [État actuel de l\'assemblage](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Ateliers externes](External_workbenches/fr.md)
--   [Old Assembly project](Assembly_project.md) plan de développement, pour se familiariser avec l\'historique du problème.
 
 ## Tutoriels
 

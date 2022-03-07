@@ -84,11 +84,17 @@ Estas son herramientas para crear objetos arquitectónicos.
 
 Estas son herramientas para modificar objetos de arquitectura.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cortar con una línea](Arch_CutLine/es.md): Cortar un objeto según una línea.<small>(v0.19)</small> 
 -   <img alt="" src=images/Arch_CutPlane.png  style="width:32px;"> [Corte con plano](Arch_CutPlane/es.md): Corta un objeto de acuerdo con un plano.
 -   <img alt="" src=images/Arch_Add.png  style="width:32px;"> [Añadir](Arch_Add/es.md): Añade objetos a un componente
 -   <img alt="" src=images/Arch_Remove.png  style="width:32px;"> [Eliminar](Arch_Remove/es.md): Resta o elimina objetos de un componente
 -   <img alt="" src=images/Arch_Survey.png  style="width:32px;"> [Inspección](Arch_Survey/es.md): ingresa o abandona el modo de inspección
+
+
+</div>
 
 ### Utilidades
 

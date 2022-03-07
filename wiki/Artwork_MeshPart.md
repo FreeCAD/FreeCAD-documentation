@@ -11,11 +11,9 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 #### src/Mod/MeshPart/Gui/Resources/icons/actions/
 
- ![](images/MeshFace.svg ) 
-
- {{Artwork}} {{Mesh Tools navi}}
+ ![](images/MeshFace.svg )
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork MeshPart
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Mesh](Category_Mesh.md) > Artwork MeshPart

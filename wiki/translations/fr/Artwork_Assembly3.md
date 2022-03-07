@@ -28,11 +28,6 @@ Ces icônes se trouvent dans le chemin source indiqué de la branche de Realthun
 ![](images/Assembly_MeasurePointPlaneDistance.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/fr

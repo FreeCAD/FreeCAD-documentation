@@ -127,7 +127,7 @@ Siehe eine Stackoverflow Debatte auf [Entfernen von Transformationsklauseln in S
 
 Wenn du die grünen Kästchen für deine bearbeitbaren Texte nicht siehst, ist möglicherweise etwas mit deinem Dokumentenmaßstab nicht in Ordnung. Öffne dein Datei erneut in Inkscape und bestätige, dass die Werte des AnsichtsKasten und die Größen übereinstimmen.
 
-If texts appear offset in FreeCAD, you may need to remove the {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} attributes in the SVG file. See: <https://www.forum.freecadweb.org/viewtopic.php?t=50897>.
+Wenn der Text in FreeCAD versetzt dargestellt wird, müssen eventuell die {{Incode|xml:space<nowiki>=</nowiki>"preserve"}}-Attribute aus der SVG-Datei entfernt werden. Siehe: <https://www.forum.freecadweb.org/viewtopic.php?t=50897>.
 
 
  {{TechDraw Tools navi}}

@@ -27,16 +27,15 @@ This category includes FreeCAD pages related to Sketcher
 | [Sketcher EditSketch/es](wiki/Sketcher EditSketch/es.md) | [Sketcher Extend/es](wiki/Sketcher Extend/es.md) | [Sketcher External/es](wiki/Sketcher External/es.md) |
 | [Sketcher helper constraint/es](wiki/Sketcher helper constraint/es.md) | [Sketcher LeaveSketch/es](wiki/Sketcher LeaveSketch/es.md) | [Sketcher MapSketch/es](wiki/Sketcher MapSketch/es.md) |
 | [Sketcher MergeSketches/es](wiki/Sketcher MergeSketches/es.md) | [Sketcher MirrorSketch/es](wiki/Sketcher MirrorSketch/es.md) | [Sketcher Move/es](wiki/Sketcher Move/es.md) |
-| [Sketcher NewSketch/es](wiki/Sketcher NewSketch/es.md) | [Sketcher Preferences/es](wiki/Sketcher Preferences/es.md) | [Sketcher project/es](wiki/Sketcher project/es.md) |
-| [Sketcher RectangularArray/es](wiki/Sketcher RectangularArray/es.md) | [Sketcher ReorientSketch/es](wiki/Sketcher ReorientSketch/es.md) | [Sketcher requirement for a sketch/es](wiki/Sketcher requirement for a sketch/es.md) |
-| [Sketcher RestoreInternalAlignmentGeometry/es](wiki/Sketcher RestoreInternalAlignmentGeometry/es.md) | [Sketcher scripting/es](wiki/Sketcher scripting/es.md) | [Sketcher SelectConflictingConstraints/es](wiki/Sketcher SelectConflictingConstraints/es.md) |
-| [Sketcher SelectConstraints/es](wiki/Sketcher SelectConstraints/es.md) | [Sketcher SelectElementsAssociatedWithConstraints/es](wiki/Sketcher SelectElementsAssociatedWithConstraints/es.md) | [Sketcher SelectElementsWithDoFs/es](wiki/Sketcher SelectElementsWithDoFs/es.md) |
-| [Sketcher SelectHorizontalAxis/es](wiki/Sketcher SelectHorizontalAxis/es.md) | [Sketcher SelectOrigin/es](wiki/Sketcher SelectOrigin/es.md) | [Sketcher SelectRedundantConstraints/es](wiki/Sketcher SelectRedundantConstraints/es.md) |
-| [Sketcher SelectVerticalAxis/es](wiki/Sketcher SelectVerticalAxis/es.md) | [Sketcher Split/es](wiki/Sketcher Split/es.md) | [Sketcher StopOperation/es](wiki/Sketcher StopOperation/es.md) |
-| [Sketcher Symmetry/es](wiki/Sketcher Symmetry/es.md) | [Sketcher ToggleConstruction/es](wiki/Sketcher ToggleConstruction/es.md) | [Sketcher ToggleDrivingConstraint/es](wiki/Sketcher ToggleDrivingConstraint/es.md) |
-| [Sketcher Trimming/es](wiki/Sketcher Trimming/es.md) | [Sketcher Tutorial/es](wiki/Sketcher Tutorial/es.md) | [Sketcher ValidateSketch/es](wiki/Sketcher ValidateSketch/es.md) |
-| [Sketcher ViewSketch/es](wiki/Sketcher ViewSketch/es.md) | [Sketcher Workbench/es](wiki/Sketcher Workbench/es.md) | [Toothbrush Head Stand/es](wiki/Toothbrush Head Stand/es.md) |
-|
+| [Sketcher NewSketch/es](wiki/Sketcher NewSketch/es.md) | [Sketcher Preferences/es](wiki/Sketcher Preferences/es.md) | [Sketcher RectangularArray/es](wiki/Sketcher RectangularArray/es.md) |
+| [Sketcher ReorientSketch/es](wiki/Sketcher ReorientSketch/es.md) | [Sketcher requirement for a sketch/es](wiki/Sketcher requirement for a sketch/es.md) | [Sketcher RestoreInternalAlignmentGeometry/es](wiki/Sketcher RestoreInternalAlignmentGeometry/es.md) |
+| [Sketcher scripting/es](wiki/Sketcher scripting/es.md) | [Sketcher SelectConflictingConstraints/es](wiki/Sketcher SelectConflictingConstraints/es.md) | [Sketcher SelectConstraints/es](wiki/Sketcher SelectConstraints/es.md) |
+| [Sketcher SelectElementsAssociatedWithConstraints/es](wiki/Sketcher SelectElementsAssociatedWithConstraints/es.md) | [Sketcher SelectElementsWithDoFs/es](wiki/Sketcher SelectElementsWithDoFs/es.md) | [Sketcher SelectHorizontalAxis/es](wiki/Sketcher SelectHorizontalAxis/es.md) |
+| [Sketcher SelectOrigin/es](wiki/Sketcher SelectOrigin/es.md) | [Sketcher SelectRedundantConstraints/es](wiki/Sketcher SelectRedundantConstraints/es.md) | [Sketcher SelectVerticalAxis/es](wiki/Sketcher SelectVerticalAxis/es.md) |
+| [Sketcher Split/es](wiki/Sketcher Split/es.md) | [Sketcher StopOperation/es](wiki/Sketcher StopOperation/es.md) | [Sketcher Symmetry/es](wiki/Sketcher Symmetry/es.md) |
+| [Sketcher ToggleConstruction/es](wiki/Sketcher ToggleConstruction/es.md) | [Sketcher ToggleDrivingConstraint/es](wiki/Sketcher ToggleDrivingConstraint/es.md) | [Sketcher Trimming/es](wiki/Sketcher Trimming/es.md) |
+| [Sketcher Tutorial/es](wiki/Sketcher Tutorial/es.md) | [Sketcher ValidateSketch/es](wiki/Sketcher ValidateSketch/es.md) | [Sketcher ViewSketch/es](wiki/Sketcher ViewSketch/es.md) |
+| [Sketcher Workbench/es](wiki/Sketcher Workbench/es.md) | [Toothbrush Head Stand/es](wiki/Toothbrush Head Stand/es.md) |
 
 
 

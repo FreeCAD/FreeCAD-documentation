@@ -107,7 +107,7 @@ Większość obiektów we FreeCAD ma coś, co nazywa się „[dostawca widoku](V
 
 -    **Macierz kolorów linii|ColorList|Ukryte**: jest to lista krotek RGB określających kolory, podobnie jak w przypadku **Kolor linii**. Domyślnie jest to lista składająca się z jednej wartości {{value|[(0.09, 0.09, 0.09)]}}.
 
--    **Materiał linii|Material|Ukryte**: [Materiał](Material/pl.md) powiązany z krawędziami w tym obiekcie. Domyślnie wartość ta jest pusta.
+-    **Materiał linii|Material|Ukryte**: [Materiał](Material.md) powiązany z krawędziami w tym obiekcie. Domyślnie wartość ta jest pusta.
 
 -    **Szerokość linii|FloatConstraint**: wartość typu zmiennoprzecinkowego, która określa szerokość krawędzi w pikselach w oknie [widoku 3D](3D_view/pl.md). Domyślnie przyjmuje wartość {{value|2.0}}.
 
@@ -115,13 +115,13 @@ Większość obiektów we FreeCAD ma coś, co nazywa się „[dostawca widoku](V
 
 -    **Macierz kolorów wierzchołków|ColorList|Ukryte**: jest to lista krotek RGB określających kolory, podobna do **Kolor wierzchołka**. Domyślnie jest to lista {{value|[(0.09, 0.09, 0.09)]}}.
 
--    **Materiał wierzchołka|Material|Ukryte**: [Materiał](Material/pl.md) powiązany z wierzchołkami w tym obiekcie. Domyślnie wartość jest pusta.
+-    **Materiał wierzchołka|Material|Ukryte**: [Materiał](Material.md) powiązany z wierzchołkami w tym obiekcie. Domyślnie wartość jest pusta.
 
 -    **Rozmiar wierzchołka|FloatConstraint**: podobnie jak **Szerokość linii**, definiuje rozmiar wierzchołków.
 
 -    **Kolor kształtu|Color**: podobnie jak jasny szary.
 
--    **Materiał kształtu|Material|Ukryte**: [Materiał](Material/pl.md) związany z tym obiektem. Domyślnie wartość jest pusta.
+-    **Materiał kształtu|Material|Ukryte**: [Materiał](Material.md) związany z tym obiektem. Domyślnie wartość jest pusta.
 
 -    **Przejrzystość|Percent**: liczba całkowita z zakresu {{value|0}} do {{value|100}}. *(wartość procentowa)* określająca poziom przezroczystości ścian w [widoku 3D](3D_view/pl.md). Wartość {{value|100}} oznacza całkowicie niewidoczne ściany Ściany są niewidoczne, ale nadal można je wybierać tak długo, jak wartość **Do wyboru** wynosi {{TRUE/pl}}.
 

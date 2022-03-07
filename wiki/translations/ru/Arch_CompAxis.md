@@ -1,4 +1,7 @@
 # Arch CompAxis/ru
+}
+
+
 <div class="mw-translate-fuzzy">
 
 

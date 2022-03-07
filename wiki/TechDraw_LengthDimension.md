@@ -42,7 +42,7 @@ The dimension dialog offers the following settings:
 
 ### Formatting
 
--   **Format Specifier**: How the dimension value will be formatted. By default the specifier is *%.xf* whereby *x* is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
+-   **Format Specifier**: How the dimension value will be formatted. By default the specifier is *%.xf* whereby *x* is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string). There is also an additional *%w* format that prints the specified number of digits after the dot and removes trailing zeros. For example, *%.2w* means that at most 2 decimals will be printed after dot and any trailing zeros will be cut off.
 
 -   **Arbitrary Text**: If checked, the dimension is replaced by the content of the **Format Specifier** field.
 
@@ -147,7 +147,7 @@ The dimension dialog offers the following settings:
 
 {{Properties_Title|Format}}
 
--    **Format Spec**: How the dimension value will be formatted. By default the specifier is *%.xf* whereby *x* is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
+-    **Format Spec**: How the dimension value will be formatted. By default the specifier is *%.xf* whereby *x* is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string). There is also an additional *%w* format that prints the specified number of digits after the dot and removes trailing zeros. For example, *%.2w* means that at most 2 decimals will be printed after dot and any trailing zeros will be cut off.
 
 -    **Format Spec Over Tolerance**: Like **Format Spec**, but for overtolerances.
 

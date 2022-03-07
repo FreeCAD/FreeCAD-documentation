@@ -4,7 +4,7 @@
    Name/fr:Part Extrusion
    MenuLocation:Pièce → Extrusion...
    Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Draft Ajuster ou prolonger](Draft_Trimex/fr.md)
+   SeeAlso:[Draft Ajuster ou prolonger](Draft_Trimex/fr.md), [PartDesign Protrusion](PartDesign_Pad/fr.md)
 ---
 
 # Part Extrude/fr
@@ -13,7 +13,7 @@
 
 ## Description
 
-L\'outil **Extrusion** prolonge une forme dans une distance et une direction spécifiées. Le type de la forme résultante pourra varier selon le type de la forme initiale et des options sélectionnées.
+**Part Extrusion** prolonge une forme dans une distance et une direction spécifiées. Le type de la forme résultante pourra varier selon le type de la forme initiale et des options sélectionnées.
 
 Dans les scénarios les plus courants, la liste suivante détaille les formes résultantes attendues depuis une forme initiale donnée :
 
@@ -30,8 +30,8 @@ Dans les scénarios les plus courants, la liste suivante détaille les formes r�
 
 1.  Sélectionner une ou des formes dans la [vue 3D](3D_view/fr.md) ou dans le modèle de la [vue en arborescence](Tree_view/fr.md).
 2.  Cliquer sur le bouton **<img src="images/Part_Extrude.svg" width=16px> [Part Extrusion](Part_Extrude/fr.md)
-** dans la barre d\'outils ou aller dans le menu **Pièce → Extrusion**
-3.  Définir la direction et la longueur, et optionnellement d\'autres paramètres (voir la section suivante [Paramètres](#Paramètres.md) pour plus de détails).
+** dans la barre d\'outils ou aller dans le menu **Part → Extrusion**
+3.  Définir la direction et la longueur, et optionnellement d\'autres paramètres (voir la section suivante [Paramètres](#Param.C3.A8tres.md) pour plus de détails).
 4.  Cliquer sur **OK**.
 
 La sélection peut également être faite après le lancement de l\'outil en sélectionnant une ou plusieurs formes dans le [Panneau des tâches](Task_panel/fr.md).
@@ -40,13 +40,13 @@ L\'arborescence du Modèle listera autant d\'objets « Extrude » que de forme
 
 ## Paramètres
 
-La forme extrudée est définie par les paramètres suivants qui peuvent être édités après sa création sous l\'onglet Données.
+La forme extrudée est définie par les paramètres suivants qui peuvent être édités après sa création dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
--   **Base**: la forme initiale (la forme à partir de laquelle l\'extrusion est appliquée)
+-   **Base**: la forme initiale (la forme à partir de laquelle l\'extrusion est appliquée).
 
 -   **Dir**: la direction pour étendre la forme. Si **Dir Mode** est sur \'Custom\', vous pouvez éditer **Dir**. Sinon, **Dir** est en lecture seule et est calculé à partir de la forme liée.
 
--   **Dir Link**: lien paramétré sur une arête (ligne) qui définit la direction de l\'extrusion. À partir de la v0.17, cette propriété n\'est plus prise en charge par l\'éditeur de propriétés.
+-   **Dir Link**: lien paramétré sur une arête (ligne) qui définit la direction de l\'extrusion.
 
 -   **Dir Mode**: définit le mode de contrôle de **Dir**. \'Custom\' signifie que **Dir** est éditable. \'Edge\' signifie que Dir est obtenu à partir d\'un bord (ligne) lié par un **Dir Link**. \'Normal\' signifie que Dir est perpendiculaire au plan de la forme de départ.
 
@@ -60,13 +60,13 @@ La forme extrudée est définie par les paramètres suivants qui peuvent être �
 
 -   **Symmetric**: si True, l\'extrusion est centrée par rapport à la forme d\'entrée et la longueur totale est **Length Fwd**. **Length Rev** est ignoré.
 
--   **Taper Angle** et **Taper Angle Rev**: applique un angle de dépouille à l\'extrusion, de sorte que les côtés de l\'extrusion soient dessinés selon l\'angle spécifié. Un angle positif signifie que la section transversale se dilate. **Taper Angle Rev** définit l\'angle de dépouille de la partie inversée de l\'extrusion (la partie de **Length Rev**). A partir de la v0.17, l\'extrusion avec dépouille n\'est prise en charge que pour les fils sans trous. Le filetage ne fonctionne pas bien si la forme extrudée contient des B-splines.
+-   **Taper Angle** et **Taper Angle Rev**: applique un angle de dépouille à l\'extrusion, de sorte que les côtés de l\'extrusion soient dessinés selon l\'angle spécifié. Un angle positif signifie que la section transversale se dilate. **Taper Angle Rev** définit l\'angle de dépouille de la partie inversée de l\'extrusion (la partie de **Length Rev**). {{VersionMinus/fr|0.19}} L\'extrusion conique n\'est prise en charge que pour les formes sans structure interne. L\'extrusion conique ne fonctionne pas bien si la forme contient des B-splines.
 
 -   **Face Maker Class**: définit le nom de classe C++ du code de création de face, utilisé lors de la création de solides à partir de filaires. Cette propriété est là pour prendre en charge la compatibilité ascendante. Ne touchez pas, sauf si vous savez ce que vous faites.
 
--   **Placement** : les paramètres standard de [positionnement](Placement/fr.md)
+-   **Placement** : les paramètres standard de [positionnement](Placement/fr.md).
 
--   **Label**: étiquette à afficher dans la [vue en arborescence](Tree_view/fr.md) du modèle (non disponible lors de la création d\'extrusion)
+-   **Label**: étiquette à afficher dans la [vue en arborescence](Tree_view/fr.md) du modèle (non disponible lors de la création d\'extrusion).
 
 ## Boîte de dialogue 
 
@@ -104,15 +104,22 @@ La forme extrudée est définie par les paramètres suivants qui peuvent être �
 
 -   L\'extrusion avec angle de dépouille ne supporte pas les trous. Cela peut également donner des résultats erronés si le nombre de segments dans le profil change à la suite de la réduction progressive.
 
-## Comparaison avec [PartDesign Protusion](PartDesign_Pad/fr.md) 
+## Comparaison avec PartDesign Protrusion 
 
-PartDesign Protusion est également une fonctionnalité d\'extrusion mais il existe des différences importantes.
+[PartDesign Protrusion](PartDesign_Pad/fr.md) est également une fonctionnalité d\'extrusion mais il existe des différences importantes :
 
-Part Extrusion crée toujours une forme autonome. PartDesign Protusion fusionne le résultat de l\'extrusion avec le reste du Corps.
+-   Part Extrusion crée toujours une forme autonome. PartDesign Protrusion fusionne le résultat de l\'extrusion avec le reste du corps.
+-   Part Extrusion ne se soucie pas de sa position dans l\'arborescence du modèle. PartDesign Protrusion ne peut se trouver qu\'à l\'intérieur d\'un [PartDesign Corps](PartDesign_Body/fr.md).
+-   Part Extrusion peut extruder tout objet ayant une géométrie Part (forme [OpenCASCADE](OpenCASCADE/fr.md)), à l\'exception des solides et des CompSolids.
+-   Part Extrusion peut extruder des faces individuelles d\'autres objets. PartDesign Protrusion n\'acceptera comme profil que des esquisses ou des faces d\'objets PartDesign.
 
-Part Extrusion ne se soucie pas de savoir où il se trouve dans l\'arborescence du modèle. PartDesign Protusion ne peut exister que dans un [PartDesign Corps](PartDesign_Body/fr.md).
 
-Part Extrude peut extruder n\'importe quel objet ayant une Geometrie Part (OCC shape), à l\'exception des solides et des solides composés. Et il ne peut pas extruder les faces individuelles d\'autres objets. PartDesign Pad n\'accepte qu\'une esquisse en tant que profil (et une petite sélection d\'autres types d\'objets) ou une face d\'un solide.
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

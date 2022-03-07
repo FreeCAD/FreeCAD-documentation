@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM MaterialMechanicalNonlinear
    Name/fr:FEM Matériau mécanique non linéaire
-   MenuLocation:Model → Materials →  Matériau mécanique non linéaire
+   MenuLocation:Modèle → Matériaux →  Matériau mécanique non linéaire
    Workbenches:[FEM](FEM_Workbench/fr.md)
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
@@ -16,8 +16,8 @@ Ajoute un modèle de matériau mécanique non linéaire. Actuellement, seule la 
 ## Utilisation
 
 1.  Pour définir un modèle de matériau mécanique non linéaire, procédez comme suit :
-    -   Ajoutez d\'abord le **<img src="images/Fem-add-material.svg" width=16px> [Materiau pour solide](FEM_MaterialSolid/fr.md)** et sélectionnez-le.
-    -   Cliquez sur le bouton **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> [FEM Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md)** ou choisissez l\'option **Model → Materials → <img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> Matériau mécanique non linéaire** dans le menu.
+    -   Ajoutez d\'abord le **<img src="images/Fem-add-material.svg" width=16px> [Matériau pour solide](FEM_MaterialSolid/fr.md)** et sélectionnez-le.
+    -   Cliquez sur le bouton **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> [Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md)** ou choisissez l\'option **Modèle → Matériaux → <img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> Matériau mécanique non linéaire** dans le menu.
 2.  Pour modifier un objet Matériau Fluide existant :
     -   Cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md).
     -   Sélectionnez le modèle de matériau (actuellement, seul le durcissement simple est disponible).

@@ -1,7 +1,8 @@
 # Material
 ## Overview
 
- 
+
+{{TOCright}}
 
 This page is about the Material data system in FreeCAD.
 
@@ -164,7 +165,7 @@ This section defines material-properties which are related to the visual appeara
 
 -   add sustainability & LEED properties
 
-  {{FEM Tools navi}}
+ {{FEM Tools navi}}
 
 
 

@@ -1,4 +1,10 @@
 # FreeCAD Docker CLI mode/de
+}
+
+
+
+
+
 {{TOCright}}
 
 ## Übersicht
@@ -28,19 +34,9 @@ Alle Abhängigkeiten von FreeCAD sind bereits installiert, miteinander kompatibe
 1.  Ziehe das Docker Abbild auf.{{Code|lang=bash|code=
     docker pull amrit3701/freecad-cli:latest
     }}
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Wenn du das Docker Abbild erfolgreich aufgezogen hast, kannst du jetzt das Abbild ausführen.
-
-
-</div>
-
-
-{{Code|lang=bash|code=
-docker run -it amrit3701/freecad-cli:lastest bash
-}}
+2.  Wenn das Docker-Abbild erfolgreich gezogen wurde, kann es jetzt ausgeführt werden.{{Code|lang=bash|code=
+    docker run -it amrit3701/freecad-cli:lastest bash
+    }}
 
 ## Zusätzliche Informationen 
 

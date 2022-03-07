@@ -222,8 +222,6 @@ Les pages suivantes décrivent différents sujets de l\'atelier FEM.
 
 [FEM Béton](FEM_Concrete/fr.md) : des informations intéressantes sur le thème de la simulation des structures en béton.
 
-[FEM Projet](FEM_project/fr.md) : pour plus de détails et d\'informations sur les unités, limitations et développement sur l\'atelier FEM.
-
 ## Tutoriels
 
 Tutoriel 1 : [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) ; analyse de base sur une poutre.

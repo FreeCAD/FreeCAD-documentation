@@ -155,7 +155,7 @@ This style was tailored for use with a touchscreen and pen. Nevertheless, it can
 
 </div>
 
-In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this mode was developed over the [Gesture navigation](#Gesture_navigation.md) mode.
+In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this style was developed over the [Gesture navigation](#Gesture_navigation.md) style.
 
 
 <div class="mw-translate-fuzzy">
@@ -212,7 +212,16 @@ The OpenCascade navigation style was modeled after [OpenCascade](https://www.ope
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 该模式不基于Autodesk Inventor
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{OpenInventor Navigation
@@ -224,6 +233,11 @@ The OpenCascade navigation style was modeled after [OpenCascade](https://www.ope
 |Select_text=按住**ctrl**，然后在要选择的对象上按鼠标左键。
 |Pan_text=按住鼠标中键，然后移动鼠标。
 |Zoom_text=使用鼠标滚轮放大和缩小。
+</div>
+
+Hold down **Ctrl** instead to select multiple objects.
+|Pan_text=Hold the middle mouse button, then move the pointer.
+|Zoom_text=Use the mouse wheel to zoom in and out.
 
 或者，按住鼠标中键，然后按住鼠标左键，然后移动指针。
 |Rotate_view_text =按住鼠标左键，然后移动指针。

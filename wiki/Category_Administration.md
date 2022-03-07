@@ -5,26 +5,25 @@ This category contains articles and categories about wiki administrative subject
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Arch Tools navi](wiki/Template_Arch Tools navi.md) | [Template:Artwork](wiki/Template_Artwork.md) | [Template:Artwork/ru](wiki/Template_Artwork/ru.md) |
-| [Template:ASCII](wiki/Template_ASCII.md) | [Backend Adminstration](wiki/Backend Adminstration.md) | [Bug Triage](wiki/Bug Triage.md) |
-| [Changelog](wiki/Changelog.md) | [Template:Choice](wiki/Template_Choice.md) | [Template:Code](wiki/Template_Code.md) |
-| [Template:ColoredParagraph](wiki/Template_ColoredParagraph.md) | [Template:ColoredText](wiki/Template_ColoredText.md) | [Crowdin Administration](wiki/Crowdin Administration.md) |
-| [Crowdin Scripts](wiki/Crowdin Scripts.md) | [Template:Delete](wiki/Template_Delete.md) | [Template:Development-Version](wiki/Template_Development-Version.md) |
-| [Template:Disambig](wiki/Template_Disambig.md) | [Template:Docnav](wiki/Template_Docnav.md) | [Template:Document objects navi](wiki/Template_Document objects navi.md) |
-| [Template:DownloadLinuxStable](wiki/Template_DownloadLinuxStable.md) | [Template:DownloadMacStable](wiki/Template_DownloadMacStable.md) | [Template:DownloadWindowsStable](wiki/Template_DownloadWindowsStable.md) |
-| [Template:Draft Tools navi](wiki/Template_Draft Tools navi.md) | [Template:Drawing Tools navi](wiki/Template_Drawing Tools navi.md) | [Template:EM Tools navi](wiki/Template_EM Tools navi.md) |
-| [Template:Emphasis](wiki/Template_Emphasis.md) | [Template:ExampleCode](wiki/Template_ExampleCode.md) | [Template:FALSE](wiki/Template_FALSE.md) |
-| [Template:False](wiki/Template_False.md) | [Template:FALSE/pl](wiki/Template_FALSE/pl.md) | [Template:False/pl](wiki/Template_False/pl.md) |
-| [Template:FEM Tools navi](wiki/Template_FEM Tools navi.md) | [Template:FileName](wiki/Template_FileName.md) | [Template:Hello](wiki/Template_Hello.md) |
-| [Template:Image Tools navi](wiki/Template_Image Tools navi.md) | [Template:Incode](wiki/Template_Incode.md) | [Template:Interface navi](wiki/Template_Interface navi.md) |
-| [Template:KEY](wiki/Template_KEY.md) | [Template:MacroCode](wiki/Template_MacroCode.md) | [Template:MenuCommand](wiki/Template_MenuCommand.md) |
-| [Template:Mesh Tools navi](wiki/Template_Mesh Tools navi.md) | [Template:Message](wiki/Template_Message.md) | [Template:Navigation menu 2](wiki/Template_Navigation menu 2.md) |
-| [Template:OpenSCAD Tools navi](wiki/Template_OpenSCAD Tools navi.md) | [Template:Optional](wiki/Template_Optional.md) | [Organization chart](wiki/Organization chart.md) |
-| [Template:Parameter](wiki/Template_Parameter.md) | [Template:Part Tools navi](wiki/Template_Part Tools navi.md) | [Template:PartDesign Tools navi](wiki/Template_PartDesign Tools navi.md) |
-| [Template:Path Tools navi](wiki/Template_Path Tools navi.md) | [Template:Plot Tools navi](wiki/Template_Plot Tools navi.md) | [Template:Points Tools navi](wiki/Template_Points Tools navi.md) |
-| [Template:Powerdocnavi](wiki/Template_Powerdocnavi.md) | [Template:Properties Title](wiki/Template_Properties Title.md) | [Template:Properties Title/pl](wiki/Template_Properties Title/pl.md) |
-| [Template:PropertyData](wiki/Template_PropertyData.md) | [Template:PropertyTasks](wiki/Template_PropertyTasks.md) | [Template:PropertyView](wiki/Template_PropertyView.md) |
-| [Python 3](wiki/Python 3.md) | [Template:Raytracing Tools navi](wiki/Template_Raytracing Tools navi.md) | [Release process](wiki/Release process.md) |
+| [Template:Arch Tools navi](wiki/Template_Arch Tools navi.md) | [Template:ASCII](wiki/Template_ASCII.md) | [Backend Adminstration](wiki/Backend Adminstration.md) |
+| [Bug Triage](wiki/Bug Triage.md) | [Changelog](wiki/Changelog.md) | [Template:Choice](wiki/Template_Choice.md) |
+| [Template:Code](wiki/Template_Code.md) | [Template:ColoredParagraph](wiki/Template_ColoredParagraph.md) | [Template:ColoredText](wiki/Template_ColoredText.md) |
+| [Crowdin Administration](wiki/Crowdin Administration.md) | [Crowdin Scripts](wiki/Crowdin Scripts.md) | [Template:Delete](wiki/Template_Delete.md) |
+| [Template:Development-Version](wiki/Template_Development-Version.md) | [Template:Disambig](wiki/Template_Disambig.md) | [Template:Docnav](wiki/Template_Docnav.md) |
+| [Template:Document objects navi](wiki/Template_Document objects navi.md) | [Template:DownloadLinuxStable](wiki/Template_DownloadLinuxStable.md) | [Template:DownloadMacStable](wiki/Template_DownloadMacStable.md) |
+| [Template:DownloadWindowsStable](wiki/Template_DownloadWindowsStable.md) | [Template:Draft Tools navi](wiki/Template_Draft Tools navi.md) | [Template:Drawing Tools navi](wiki/Template_Drawing Tools navi.md) |
+| [Template:EM Tools navi](wiki/Template_EM Tools navi.md) | [Template:Emphasis](wiki/Template_Emphasis.md) | [Template:ExampleCode](wiki/Template_ExampleCode.md) |
+| [Template:FALSE](wiki/Template_FALSE.md) | [Template:False](wiki/Template_False.md) | [Template:FALSE/pl](wiki/Template_FALSE/pl.md) |
+| [Template:False/pl](wiki/Template_False/pl.md) | [Template:FEM Tools navi](wiki/Template_FEM Tools navi.md) | [Template:FileName](wiki/Template_FileName.md) |
+| [Template:Hello](wiki/Template_Hello.md) | [Template:Image Tools navi](wiki/Template_Image Tools navi.md) | [Template:Incode](wiki/Template_Incode.md) |
+| [Template:Interface navi](wiki/Template_Interface navi.md) | [Template:KEY](wiki/Template_KEY.md) | [Template:MacroCode](wiki/Template_MacroCode.md) |
+| [Template:MenuCommand](wiki/Template_MenuCommand.md) | [Template:Mesh Tools navi](wiki/Template_Mesh Tools navi.md) | [Template:Message](wiki/Template_Message.md) |
+| [Template:Navigation menu 2](wiki/Template_Navigation menu 2.md) | [Template:OpenSCAD Tools navi](wiki/Template_OpenSCAD Tools navi.md) | [Template:Optional](wiki/Template_Optional.md) |
+| [Organization chart](wiki/Organization chart.md) | [Template:Parameter](wiki/Template_Parameter.md) | [Template:Part Tools navi](wiki/Template_Part Tools navi.md) |
+| [Template:PartDesign Tools navi](wiki/Template_PartDesign Tools navi.md) | [Template:Path Tools navi](wiki/Template_Path Tools navi.md) | [Template:Plot Tools navi](wiki/Template_Plot Tools navi.md) |
+| [Template:Points Tools navi](wiki/Template_Points Tools navi.md) | [Template:Powerdocnavi](wiki/Template_Powerdocnavi.md) | [Template:Properties Title](wiki/Template_Properties Title.md) |
+| [Template:Properties Title/pl](wiki/Template_Properties Title/pl.md) | [Template:PropertyData](wiki/Template_PropertyData.md) | [Template:PropertyTasks](wiki/Template_PropertyTasks.md) |
+| [Template:PropertyView](wiki/Template_PropertyView.md) | [Template:Raytracing Tools navi](wiki/Template_Raytracing Tools navi.md) | [Release process](wiki/Release process.md) |
 | [Template:Robot Tools navi](wiki/Template_Robot Tools navi.md) | [Template:Ship Tools navi](wiki/Template_Ship Tools navi.md) | [Template:Sketcher Tools navi](wiki/Template_Sketcher Tools navi.md) |
 | [Template:Spreadsheet Tools navi](wiki/Template_Spreadsheet Tools navi.md) | [Template:Start Tools navi](wiki/Template_Start Tools navi.md) | [Template:Std Base navi](wiki/Template_Std Base navi.md) |
 | [Template:StdMenu](wiki/Template_StdMenu.md) | [Template:Surface Tools navi](wiki/Template_Surface Tools navi.md) | [Template:SystemInput](wiki/Template_SystemInput.md) |

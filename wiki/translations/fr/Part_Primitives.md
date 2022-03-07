@@ -3,7 +3,7 @@
    Name:Part CreatePrimitives
    Name/fr:Part Primitives
    MenuLocation:Pièce → Créer des primitives...
-   Workbenches:[Part](Part_Workbench/fr.md)
+   Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
    SeeAlso:[Part Générateur de formes](Part_Builder/fr.md)
 ---
 
@@ -11,35 +11,36 @@
 
 ## Description
 
-[Part Primitives](Part_Primitives/fr.md) ouvre une boîte de dialogue pour créer l\'une des primitives géométriques paramétriques définies dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
+La commande <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Part Primitives** ouvre un dialogue pour créer une ou plusieurs primitives paramétriques. 16 types de primitives sont disponibles.
 
-<img alt="" src=images/Part_Primitives_example.png  style="width:800px;"> 
-*Formes primitives pouvant être créées avec l'[atelier Part](Part_Workbench/fr.md).*
+<img alt="" src=images/Part_Primitives_example.png  style="width:600px;"> 
+*Les primitives qui peuvent être créées avec la commande*
 
 ## Utilisation
 
-Pour créer une primitive, soit
+### Créer
 
-\#\* appuyez sur le bouton **<img src="images/Part_Primitives.svg" width=24px> '''Créer des primitives...'''** dans la barre d\'outils.
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Part_Primitives.svg" width=16px> [Créer des primitives...](Part_Primitives/fr.md)**.
+    -   Sélectionnez le **Part → Créer des primitives → <img src="images/Part_Primitives.svg" width=16px> Créer des primitives...** dans le menu.
+2.  Le panneau de tâches **Primitives géométriques** s\'ouvre.
+3.  Sélectionnez un type de primitive dans la liste déroulante.
+4.  Spécifiez les propriétés.
+5.  Appuyez sur le bouton **Créer**.
+6.  L\'objet primitif est créé.
+7.  Notez que le panneau de tâches reste ouvert.
+8.  Vous pouvez créer des primitives supplémentaires.
+9.  Appuyez sur le bouton **Fermer** pour fermer le panneau des tâches et terminer la commande.
 
-\#\* sélectionnez **Pièce → Créer des primitives...** dans la barre de menu.
+### Éditer
 
-1.  Dans la boîte de dialogue qui apparaît, sélectionnez la primitive, définissez ses paramètres et son emplacement, puis appuyez sur **Créer**
+1.  Double-cliquez sur l\'objet primitif dans la [Vue en arborescence](Tree_view/fr.md).
+2.  Le panneau de tâches **Primitives géométriques** s\'ouvre.
+3.  Modifiez une ou plusieurs propriétés.
+4.  L\'objet est mis à jour de manière dynamique dans la [Vue 3D](3D_view/fr.md).
+5.  Appuyez sur le bouton **OK**.
 
-La boîte de dialogue reste ouverte afin que vous puissiez ensuite créer d\'autres primitives.
-
-Pour éditer une primitive, il y a 2 façons:
-
-Utilisation de la boîte de dialogue: {{Version/fr|0.19}}
-
-1.  Sélectionnez la primitive dans l\'arborescence et double-cliquez dessus.
-2.  La même boîte de dialogue s\'ouvrira qui a également été utilisée pour créer la primitive. Modifiez-y les paramètres et vous obtenez un aperçu en direct de la primitive modifiée.
-3.  Pour terminer l\'édition, appuyez sur **OK**.
-
-Utilisation de l\'[Éditeur de propriétés](Property_editor/fr.md):
-
-1.  Sélectionnez la primitive dans l\'arborescence.
-2.  Modifiez ses propriétés dans la table Propriétés.
+Les propriétés d\'une Part Primitive peuvent également être modifiées dans l\'[Éditeur de propriétés](Property_editor/fr.md), et ses **Placement** peuvent également être modifiées avec la commande <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
 
 ## Primitives géométriques 
 
@@ -56,36 +57,49 @@ Les primitives suivantes peuvent être créées:
 -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Pyramide tronquée](Part_Wedge/fr.md): Crée une pyramide tronquée.
 -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Hélice](Part_Helix/fr.md): Crée une hélice.
 -   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spirale](Part_Spiral/fr.md): Crée une spirale.
--   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Cercle](Part_Circle/fr.md): Crée une arête circulaire.
--   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Ellipse](Part_Ellipse/fr.md): Crée une arête elliptique.
--   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Point](Part_Point.md): Crée un point (sommet).
--   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Ligne](Part_Line/fr.md): Crée une ligne (bord).
+-   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Cercle](Part_Circle/fr.md): Crée un arc de cercle.
+-   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Ellipse](Part_Ellipse/fr.md): Crée un arc elliptique.
+-   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Point](Part_Point.md): Crée un point.
+-   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Ligne](Part_Line/fr.md): Crée une ligne.
 -   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Polygone régulier](Part_RegularPolygon/fr.md): Crée un polygone régulier.
+
+## Remarques
+
+-   La commande Part Primitives ne peut pas créer un <img alt="" src=images/Part_Tube.svg  style="width:16px;"> [Part Tube](Part_Tube/fr.md).
 
 ## Script
 
+Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-**Voir aussi:**
+Il existe un script Python pour tester la création des primitives. Il peut être exécuté à partir de la [console Python](Python_console/fr.md) :
 
-[Part scripts](Part_scripting/fr.md)
 
-Testez la création des primitives avec un script. {{Version/fr|0.19}}
-
-Ce peut être lancer à partir de la [Console Python](Python_console/fr.md). 
 ```python
 import parttests.part_test_objects as pto
 pto.create_test_file("example_file")
 ```
 
-Ce script se trouve dans le répertoire d\'installation du programme et peut être examiné pour voir comment les primitives de base sont construites. 
+Ce script se trouve dans le répertoire d\'installation du programme et peut être examiné pour voir comment les primitives de base sont construites :
+
+
 ```python
 $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
 
-Il peut également être utilisé comme entrée dans le programme. 
+Il peut également être utilisé comme entrée pour le programme :
+
+
 ```python
 freecad $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 ```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

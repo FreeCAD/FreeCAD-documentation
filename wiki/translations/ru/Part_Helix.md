@@ -15,72 +15,115 @@
 ## Описание
 
 
+<div class="mw-translate-fuzzy">
+
+
 **[<img src=images/Part_Helix.svg style="width:16px"> [Спираль](Part_Helix/ru.md)**
 
 создаёт геометрический примитив в форме спирали, которая задаётся радиусом, шагом и общей высотой.
 
-Обычно винтовая спираль используется для [создания резьб](Thread_for_Screw_Tutorial/ru.md) в сочетании с закрытым профилем и операцией **<img src="images/Part_Sweep.svg" width=16px> [Развёртка(Sweep)](Part_Sweep/ru.md)** детали. Этот процесс работает практически так же как и в [верстаке PartDesign ](PartDesign_Workbench/ru.md) с помощью инструмента **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Аддитивная(добавочная) труба](PartDesign_AdditivePipe/ru.md)**.
+
+</div>
+
+<img alt="" src=images/Part_Helix_Example.png  style="width:400px;">
 
 ## Применение
 
+See [Part Primitives](Part_Primitives#Usage.md).
 
-<div class="mw-translate-fuzzy">
+## Example
 
-1.  Переключитесь на <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [верстак Part](Part_Workbench/ru.md).
-2.  Диалог Создания Примитивов доступен несколькими способами:
-    -   Нажмите на кнопку **[<img src=images/Part_Primitives.svg style="width:16px"> [Примитивы](Part_Primitives/ru.md)** на панели команд Деталь.
-    -   Используйте меню **Деталь → [<img src=images/Part_Primitives.svg style="width:16px"> [Создать примитивы...](Part_Primitives/ru.md) → Спираль(Helix)**
+![Part Helix from the scripting example](images/Part_Helix_Scripting_Example.png )
 
-
-</div>
-
-![](images/PartHelixPrimitivesOptions_en.png )
-
-#### Параметры
+A Part Helix object created with the [scripting example](#Scripting.md) below is shown here.
 
 
 <div class="mw-translate-fuzzy">
-
--    {{Parameter|Шаг(Pitch):}}Шаг соответствует промежутку между двумя последовательными \"витками\" спирали, измеренным вдоль главной оси спирали.
-
--    {{Parameter|Высота(Height):}}Высота соответствует общей высоте спирали, измеренной вдоль главной оси спирали.
-
--    {{Parameter|Радиус(Radius):}}Радиус соответствует радиусу круга, построенного спиралью при взгляде на спираль сверху или снизу.
-
--    {{Parameter|Угол(Angle)}}: По умолчанию спираль построена на воображаемом цилиндре. С помощью этой опции можно построить спираль на воображаемом конусе. Этот угол соответствует углу конуса. Значение должно находиться в диапазоне от 0 до +90 градусов.
-
--    {{Parameter|Лево или Правозаходная(Right-handed or Left-handed):}}Этот параметр указывает [направление захода](https://en.wikipedia.org/wiki/Screw_thread) спирали.
-
-
-</div>
-
-#### Размещение
-
--    {{Parameter|X:}}Основная ось спирали будет перемещена по оси X на значение, которое вы укажите в этом поле.
-
--    {{Parameter|Y:}}Основная ось спирали будет перемещена по оси Y на значение, которое вы укажите в этом поле.
-
--    {{Parameter|Z:}}Основная ось спирали будет перемещена по оси Z на значение, которое вы укажите в этом поле.
-
--    {{Parameter|Направление(Direction):}}По умолчанию главной осью спирали является ось Z. Здесь у вас есть возможность редактировать главную ось спирали. Если вы выберете параметр \"определяется пользователем (user defined) \...\", вам будет предложено указать главную ось спирали, введя координаты ее вектора.
-
--    {{Parameter|3D Вид(View):}}позволяет выбрать центр в 3D-виде.
 
 ## Опции
 
-### Свойства
 
-После создания спирали у вас есть возможность редактировать её параметры.
+</div>
 
-+++
-| ![](images/PartHelixProperty_en.png ) | Параметры в этом меню аналогичны описанным выше.                                               |
-|                                                          | **Основание(Base)**                                                          |
-|                                                          | \* {{Parameter|Размещение(Placement):}} позволяет перемещать или вращать спираль |
-|                                                          |                                                                                                |
-|                                                          | -                                                                               |
-|                                                          |     {{Parameter|Angle:}}                                                                       |
-|                                                          |                                                                                             |
-+++
+
+<div class="mw-translate-fuzzy">
+
+Обычно винтовая спираль используется для [создания резьб](Thread_for_Screw_Tutorial/ru.md) в сочетании с закрытым профилем и операцией **<img src="images/Part_Sweep.svg" width=16px> [Развёртка(Sweep)](Part_Sweep/ru.md)** детали. Этот процесс работает практически так же как и в [верстаке PartDesign ](PartDesign_Workbench/ru.md) с помощью инструмента **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Аддитивная(добавочная) труба](PartDesign_AdditivePipe/ru.md)**.
+
+
+</div>
+
+## Properties
+
+See also: [Property editor](Property_editor.md).
+
+A Part Helix object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+### Data
+
+
+{{TitleProperty|Attachment}}
+
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
+{{TitleProperty|Coordinate System}}
+
+-    **Local Coord|Enumeration**: The [handedness](https://en.wikipedia.org/wiki/Screw_thread), or direction, of the helix: {{Value|Right-handed}} or {{Value|Left-handed}}. The default is {{Value|Right-handed}}, meaning the helix turns counterclockwise as it goes up.
+
+
+{{TitleProperty|Helix}}
+
+-    **Pitch|Length**: The distance between two consecutive turns of the helix measured along its Z axis. The default is {{Value|1mm}}.
+
+-    **Height|Length**: The height of the helix. The default is {{Value|2mm}}.
+
+-    **Radius|Length**: The start radius of the helix. The helix has a constant radius if **Angle** is {{Value|0°}}.
+
+-    **Segment Length|QuantityConstraint**: The number of turns per helix subdivision. The default is {{Value|1}}, meaning each full turn of the helix is a separate segment. Use {{Value|0}} to suppress subdivision.
+
+-    **Angle|Angle**: The angle that defines of the outer shape of the helix. Valid range: {{Value|-90° &lt; value &lt; 90°}}. The default is {{Value|0°}}. If it is {{Value|0°}} the helix is cylindrical, else it is conical.
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Helix can be created with the {{Incode|addObject()}} method of the document:
+
+
+```python
+helix = FreeCAD.ActiveDocument.addObject("Part::Helix", "myHelix")
+```
+
+-   Where {{Incode|"myHelix"}} is the name for the object.
+-   The function returns the newly created object.
+
+Example:
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+helix = doc.addObject("Part::Helix", "myHelix")
+helix.Pitch = 2
+helix.Height = 3
+helix.Radius = 4
+helix.SegmentLength = 21
+helix.Angle = 45
+helix.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(75, 60, 30))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/pl
    Name:Part Offset
-   Name/pl:Part: Odsunięcie 3D
-   MenuLocation:Part → Odsunięcie 3D
+   Name/pl:Część: Odsunięcie
+   MenuLocation:Część → Odsunięcie 3D
    Workbenches:[Część](Part_Workbench/pl.md)
    SeeAlso:[Grubość](Part_Thickness/pl.md), [Odsunięcie 2D](Part_Offset2D/pl.md)
 ---

@@ -1,5 +1,10 @@
 # Feature list/zh
+<div class="mw-translate-fuzzy">
+
 这是FreeCAD实现的广泛但不完整的功能列表。如果您想展望未来，请参阅[开发路线图](Development_roadmap.md)，快速了解接下来会发生什么。此外，[截图集锦是一个不错的去处](Screenshots.md)。
+
+
+</div>
 
 
 {{TOCright}}
@@ -64,7 +69,13 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   **工作台概念**。在FreeCad界面中，工具按[工作台分组](workbenches.md)。这允许您只显示用于完成特定任务的工具，保持工作区整洁和且相应迅速，并允许应用程序快速加载。
+
+
+</div>
 
 -   **用于延迟加载功能/数据类型的插件/模块框架**。FreeCad被分为核心应用程序和只有在需要时才加载的模块。几乎所有工具和几何图形类型都存储在模块中。模块的作用类似于插件；除了延迟加载之外，还可以将单个模块添加到FreeCad的现有安装中或从中删除。
 
@@ -72,7 +83,13 @@
 
 -   **参数化创建基础元素**。可以通过指定其几何约束来创建基本对象，如长方体、球体、圆柱体等。
 
+
+<div class="mw-translate-fuzzy">
+
 -   **图形修改操作**。Freecad可以在三维空间的任何平面执行平移、旋转、缩放、镜像、偏移（甚至更细小的或如[jung/shin/choi](https://www.researchgate.net/publication/240754626-self-intersection-removal-in-triangular-mesh-offseting)所述的操作）或形状转换。
+
+
+</div>
 
 -   **[构造实体几何](Constructive_solid_geometry.md)（布尔运算）**。Freecad可以进行构造实体几何模型操作（联合、差分、相交）。
 
@@ -88,9 +105,21 @@
 
 -   **拓扑组件**类似于**顶点**、**边**、**线**和**平面**。
 
+
+<div class="mw-translate-fuzzy">
+
 -   **测试和修复**。 FreeCAD具有测试网格（实体测试，非双流形测试，自相交测试）和修复网格（孔填充，均匀定向）的工具。
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   **注释**。 FreeCAD可以插入文本或尺寸注释。
+
+
+</div>
 
 -   **撤消/重做框架**。 FreeCAD中的所有操作都是撤消/可重做的，用户可以访问撤消堆栈。可以一次撤消多个步骤。
 
@@ -98,27 +127,55 @@
 
 -   **内置[脚本框架](Scripting.md)**。Freecad具有内置的[Python](http://www.python.org/)解释器，其API几乎涵盖了应用程序的任何部分,接口、几何图形以及3D查看器中该几何图形的表示。解释器可以运行复杂的脚本和单个命令；整个模块可以完全用Python编程来开发。
 
+
+<div class="mw-translate-fuzzy">
+
 -   **内置python控制台**。python解释器包括一个带有语法高亮显示、自动补齐和类浏览器的控制台。python命令可以直接在freecad中发出，并立即返回结果。它允许脚本编写人员动态测试功能，探索freecad模块的内容，并轻松了解freecad内部。
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   **镜像用户交互**。用户在FreeCAD界面中所做的一切都会执行Python代码，这些代码可以在控制台上打印并记录在宏中脚本。
 
+
+</div>
+
 -   **完整的[宏记录和编辑](Macros.md)**功能。当用户操作界面时发出的python命令可以被记录、编辑（如果需要），并保存以备日后复制。
 
+
+<div class="mw-translate-fuzzy">
+
 -   *复合（基于zip）文档保存格式*。FreeCad文档以{{FileName|.[FCStd](File_Format_FCStd.md)}} 扩展名的形式保存。文档可以包含许多不同类型的信息，如几何图形、脚本或缩略图图标。 {{FileName|.FCStd}} 文件本身就是一个zip容器；已保存的freecad文件已被压缩。
+
+
+</div>
 
 -   **完全可自定义/脚本化的图形用户界面**。FreeCad基于 [Qt](https://www.qt.io)的界面完全可以通过python解释器访问。除了FreeCad本身为工作台提供的简单功能外，整个Qt框架是可访问的。用户可以在GUI上执行任何操作，例如创建、添加、停靠、修改或删除小部件和工具栏。
 
 -   **缩略图**. （目前只有在Linux系统中可用）在大多数文件管理器应用程序（如GNOME的Nautilus）中Freecad文档图标显示文件的内容。
 
+
+<div class="mw-translate-fuzzy">
+
 -   **模块化MSI安装程序**。FreeCad的安装程序可以被灵活地安装在Windows系统上。Ubuntu系统的软件包一直在维护。
 
-## 开发中
 
--   ![](images/Feature-assembly.jpg ) 一个允许一个人处理多个项目、多个形状、多个文档、多个文件、多个关系的装配模块当前处于计划状态。
+</div>
+
+## Extra Workbenches 
+
+
+<div class="mw-translate-fuzzy">
 
 ## 补充功能工作台
 
 超级用户创建了各种自定义[外部工作台](external_workbenches.md)。
+
+
+</div>
 
 
 

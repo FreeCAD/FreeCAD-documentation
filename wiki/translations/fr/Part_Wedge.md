@@ -2,8 +2,8 @@
 - GuiCommand:/fr
    Name:Part Wedge
    Name/fr:Part Pyramide tronquée
-   MenuLocation:Pièce → Créer des primitives → Pyramide tronquée
-   Workbenches:[Part](Part_Workbench/fr.md)
+   MenuLocation:Pièce → [Créer des primitives](Part_Primitives/fr.md) → Pyramide tronquée
+   Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
@@ -11,64 +11,105 @@
 
 ## Description
 
-Crée un objet Pyramide tronquée paramétrique. Par défaut, cette pyramide tronquée a une base carrée plus grande et un carré plus petit en sommet.
+Une <img alt="" src=images/Part_Wedge.svg  style="width:24px;"> **Part Pyramide tronquée** est un solide paramétrique qui peut être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives/fr.md). Elle possède quatre à six faces planes. Elle est définie par des plans principaux virtuels avant et arrière sur lesquels est créée une face rectangulaire (par défaut), une simple arête droite ou un simple sommet. Ces formes de base définissent les quatre faces quadrilatérales ou triangulaires qui les relient. Le solide résultant n\'est une véritable pyramide tronquée que si l\'une des formes de base est une face rectangulaire et l\'autre une arête droite. Dans le système de coordonnées défini par sa propriété **Placement**, les plans principaux virtuels avant et arrière du coin sont parallèles au plan XZ, et les bords des formes de base sont parallèles à l\'axe X ou Z. Toutes ses coordonnées sont relatives à ce système de coordonnées. Toutes ses coordonnées sont relatives à ce système de coordonnées.
+
+<img alt="" src=images/Part_Wedge_Example.png  style="width:400px;">
 
 ## Utilisation
 
-### Dimensions et placement par défaut 
+Voir [Part Primitives](Part_Primitives/fr#Utilisation.md).
 
-**Placement:** L'orientation par défaut place la base sur le plan XZ et la face supérieure se situe dans la direction de l\'axe Y. L\'angle de la base est située par défaut aux coordonnées d\'origine 0,0,0.
+## Exemple
 
-**Face de base :**
+![Part Pyramide tronquée à partir de l\'exemple du script](images/Part_Wedge_Scripting_Example.png )
 
--   X : 10 mm
--   Z : 10 mm
+Un objet Part Pyramide tronquée créé avec l\'[exemple du script](#Script.md) ci-dessous.
 
-**Hauteur:**
+## Remarques
 
--   Y : 0-10 mm
+-   Les valeurs des coordonnées de la Pyramide tronquée doivent être telles qu\'un solide valide puisse être créé. Cela signifie que les formes de base avant et arrière peuvent toutes deux être des arêtes simples, mais pas si elles sont parallèles. Et si l\'une des formes de base est un sommet, l\'autre forme doit être une face rectangulaire.
 
-**Face du dessus:**
+## Propriétés
 
--   X : 2-8 mm
--   Z : 2-8 mm
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-![](images/PartWedgeProperty.png ) 
+Un objet Part Pyramide tronquée est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
-### Entrées paramétriques 
+### Données
 
-+++
-| ![](images/PartWedgeProperty_Inputs.png ) | Utilisation du placement par défaut, les entrées disponibles sont: |
-|                                                                  |                                                                    |
-|                                                                  | -                                                   |
-|                                                                  |     {{PropertyData/fr|X min/max}}                                  |
-|                                                                  |                                                                 |
-|                                                                  |     : Dimension de la base selon l\'axe X                          |
-|                                                                  |                                                                    |
-|                                                                  | -                                                   |
-|                                                                  |     {{PropertyData/fr|Y min/max}}                                  |
-|                                                                  |                                                                 |
-|                                                                  |     : Hauteur de la pyramide tronquée                              |
-|                                                                  |                                                                    |
-|                                                                  | -                                                   |
-|                                                                  |     {{PropertyData/fr|Z min/max}}                                  |
-|                                                                  |                                                                 |
-|                                                                  |     : Dimension de la base selon l\'axe Z                          |
-|                                                                  |                                                                    |
-|                                                                  | -                                                   |
-|                                                                  |     {{PropertyData/fr|X2 min/max}}                                 |
-|                                                                  |                                                                 |
-|                                                                  |     : Dimension de la face du dessus selon l\'axe X                |
-|                                                                  |                                                                    |
-|                                                                  | -                                                   |
-|                                                                  |     {{PropertyData/fr|Z2 min/max}}                                 |
-|                                                                  |                                                                 |
-|                                                                  |     : Dimension de la face du dessus selon l\'axe Z                |
-+++
 
-### Autres exemples de pyramides tronquées 
+{{TitleProperty|Attachment}}
 
-![](images/Wedge_examples.png )
+L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Part_Part2DObject/fr#Donn.C3.A9es.md).
+
+
+{{TitleProperty|Wedge}}
+
+-    **Xmin|Distance**: La coordonnée X la plus basse de la face avant du coin. La valeur par défaut est {{Value|0mm}}.
+
+-    **Ymin|Distance**: La coordonnée Y de la face avant de la cale. La valeur par défaut est {{Value|0mm}}.
+
+-    **Zmin|Distance**: La coordonnée Z la plus basse de la face avant du coin. La valeur par défaut est {{Value|0mm}}.
+
+-    **X2min|Distance**: La plus petite coordonnée X de la face arrière du coin. La valeur par défaut est {{Value|2mm}}.
+
+-    **Z2min|Distance**: La plus petite coordonnée Z de la face arrière du coin. La valeur par défaut est {{Value|2mm}}.
+
+-    **Xmax|Distance**: La coordonnée X la plus élevée de la face avant du coin. La valeur par défaut est {{Value|10mm}}.
+
+-    **Ymax|Distance**: La coordonnée Y de la face arrière de la cale. La valeur par défaut est {{Value|10mm}}.
+
+-    **Zmax|Distance**: La coordonnée Z la plus élevée de la face avant du coin. La valeur par défaut est {{Value|10mm}}.
+
+-    **X2max|Distance**: La coordonnée X la plus élevée de la face arrière du coin. La valeur par défaut est {{Value|8mm}}.
+
+-    **Z2max|Distance**: La coordonnée Z la plus élevée de la face arrière du coin. La valeur par défaut est {{Value|8mm}}.
+
+## Script
+
+Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+
+Une Part Pyramide tronquée est créée avec la méthode `addObject()` du document :
+
+
+```python
+wedge = FreeCAD.ActiveDocument.addObject("Part::Wedge", "myWedge")
+```
+
+-   Où {{Incode|"myWedge"}} est le nom de l\'objet.
+-   La fonction restitue l\'objet nouvellement créé.
+
+Exemple :
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+wedge = doc.addObject("Part::Wedge", "myWedge")
+wedge.Xmin = 1
+wedge.Ymin = 2
+wedge.Zmin = 3
+wedge.X2min = 4
+wedge.Z2min = 6
+wedge.Xmax = 15
+wedge.Ymax = 20
+wedge.Zmax = 55
+wedge.X2max = 10
+wedge.Z2max = 12
+wedge.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(75, 60, 30))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

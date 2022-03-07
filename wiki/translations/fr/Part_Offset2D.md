@@ -12,9 +12,9 @@
 
 ## Description
 
-Part Décalage 2D génère un profil parallèle au profil d\'origine, à une distance définie de celui-ci. Il est également possible de d\'agrandir/réduire une face plane de la même façon.
+Part Décalage 2D génère une polyligne parallèle à la polyligne d\'origine, à une distance définie de celle-ci. Il est également possible de d\'agrandir/réduire une face plane de la même façon.
 
-Le profil/la face doit être plan. il peux y avoir plusieurs profils dans un objet, sans être nécessairement coplanaire.
+La polyligne/face doit être plan. Il peut y avoir plusieurs polylignes dans un même objet, pas nécessairement coplanaires.
 
 ![600px](images/Part_Offset2D_Demo.png)
 
@@ -22,26 +22,26 @@ Le profil/la face doit être plan. il peux y avoir plusieurs profils dans un obj
 
 1.  Sélectionner un objet à décaler
 2.  Appuyer sur le bouton **[<img src=images/Part_Offset2D.svg style="width:24px">** **Décalage 2D**.
-3.  Définir la valeur de décalage dans le [Panneau des tâches](Task_Panel/fr.md) puis valider.
+3.  Définir la valeur de décalage dans le [Panneau des tâches](Task_panel/fr.md) puis valider.
 4.  Appuyer sur **OK**.
 
-Un objet Décalage 2D paramétrique est crée. Les object originaux sont basculés en mode rendu filaire.
+Un objet paramétrique Décalage 2D est créé. Les objets originaux passent en mode d\'affichage filaire.
 
 ## Propriétés
 
--    {{PropertyData/fr|Source}}: lien vers la forme d\'origine
+-    **Source**: Lien vers la forme d\'origine
 
--    {{PropertyData/fr|Value}}Valeur d\'agrandissement de la face/profil. Si négative, la dimension de la face ou du profil est réduite.
+-    **Value**: Valeur d\'agrandissement de la polyligne/face. Si négative, la dimension de la face ou de la polyligne est rétrécie à la place.
 
--    {{PropertyData/fr|Mode}}(\"Pipe\" ou \"Skin\"): Définit le traitement des profils non fermés. Si \"Pipe\" est selectionné, le profil est décalé comme un contour fermé extrêmement petit. Si \"Skin\" est sélectionné, un profil ouvert est créé.
+-    **Mode**(\"Pipe\" ou \"Skin\") : Définit le traitement des polylignes non fermées. Si \"Pipe\" est selectionné, la polyligne est décalée comme un contour fermé extrêmement petit. Si \"Skin\" est sélectionné, une polyligne ouverte est créée.
 
 :   ![600px](images/Part_Offset2D_Mode.png)
 
--    {{PropertyData/fr|Join}}(\"Arc\", \"Tangent\", \"Intersection\"): Définit le traitement des coins. Avec \"Arc\", les segments décalés sont joints par des arcs de cercle dont le centre est le sommet d\'origine. \"Tangent\" n\'est pas supporté pour OCC7.0.0. \"Intersection\": les segments sont prolongés jusqu\'à ce qu\'ils se croisent.
+-    **Join**(\"Arc\", \"Tangent\", \"Intersection\") : Définit le traitement des coins. Avec \"Arc\", les segments décalés sont joints par des arcs de cercle dont le centre est le sommet d\'origine. \"Tangent\" n\'est pas supporté pour OCC7.0.0. \"Intersection\" : les segments décalés sont prolongés jusqu\'à ce qu\'ils se croisent.
 
 :   ![600px](images/Part_Offset2D_Join.png)
 
--    {{PropertyData/fr|Intersection}}(\"false\", \"true\"): Définit si les profils multiples sont traités collectivement ou indépendamment. Avec \"false\", les profils sont traités indépendamment les uns des autres, les intersections entre les profils résultants sont ignorées. Avec \"true\", les profils sont gérés de façon collective.
+-    **Intersection**(\"false\", \"true\") : Définit si les polylignes multiples sont traitées collectivement ou indépendamment. Avec \"false\", les polylignes sont traitées indépendamment les unes des autres, les intersections entre les polylignes résultantes sont ignorées. Avec \"true\", les polylignes sont gérées de façon collective.
 
 :   ![600px](images/Part_Offset2D_Intersection.png)
 
@@ -49,21 +49,21 @@ Un objet Décalage 2D paramétrique est crée. Les object originaux sont bascul�
 
 
 
-:   Seuls les profils dans un composé sont couplés. Par exemple, si la structure est composé (wire1, wire2, compound (wire3, wire4)), wire1 et wire2 seront traités collectivement, mais indépendamment de wire3 et wire4. De même, wire3 et wire4 sont traités collectivement, mais indépendamment de wire1 + wire2.
+:   Seuls les polylignes dans un composé sont couplées. Par exemple, si la structure est compound(wire1, wire2, compound (wire3, wire4)), wire1 et wire2 seront traités collectivement, mais indépendamment de wire3 et wire4. De même, wire3 et wire4 sont traités collectivement, mais indépendamment de wire1 + wire2.
 
 
 
 
 
-:   De même, en mode groupé, les directions des profils sont importantes et influencent la direction du décalage. Ceci est étroitement lié à la façon dont les trous dans les faces sont traités.
+:   De même, en mode groupé, les directions des polylignes sont importantes et influencent la direction du décalage. Ceci est étroitement lié à la façon dont les trous dans les faces sont traités.
 
 
 
 
 
-:   Les profils traités collectivement doivent être coplanaires. Les profils devant être décalés indépendamment n\'ont pas besoin d\'être coplanaires.
+:   Les polylignes traitées collectivement doivent être coplanaires. Les polylignes devant être décalées indépendamment n\'ont pas besoin d\'être coplanaires.
 
--    {{PropertyData/fr|Fill}}(\"false\", \"true\"): Si \"true\", l\'espace entre le profil / la face original et le décalage forme une face.
+-    **Fill**(\"false\", \"true\") : Si \"true\", l\'espace entre la polyligne/face d\'origine et le décalage forme une face.
 
 :   ![600px](images/Part_Offset2D_Fill.png)
 
@@ -75,19 +75,19 @@ Un objet Décalage 2D paramétrique est crée. Les object originaux sont bascul�
 
 -   L\'agrandissement des faces avec des trous circulaires d\'une valeur suffisamment grande pour que les trous se referment, génère un crash (OCC 7.0.0). Le problème semble être spécifique aux cercles; D\'autres formes semblent se terminer correctement.
 
--   lors du décalage de cercles dont le placement est non nul, le résultat est mal placé. (OCC 7.0.0)
+-   Lors du décalage de cercles dont le placement est non nul, le résultat est mal placé. (OCC 7.0.0)
 
--   lors du décalage de cercles, ils sont parfois décalés dans une direction inattendue (par exemple vers l\'intérieur au lieu de l\'extérieur). (OCC 7.0.0)
+-   Lors du décalage de cercles, ils sont parfois décalés dans une direction inattendue (par exemple vers l\'intérieur au lieu de l\'extérieur). (OCC 7.0.0)
 
--   Fill = \"true\" ne fonctionne pas avec décalage groupé de profils ouverts en mode \"Skin\"
+-   Fill = \"true\" ne fonctionne pas avec décalage groupé de polylignes ouvertes en mode \"Skin\"
 
 -   le mode de jonction \"Tangent\" ne fonctionne pas. (OCC 7.0.0)
 
--   Le décalage des profils constitués d\'un seul segment de ligne n\'est pas pris en charge (car le segment de ligne ne définit pas un plan). Les segments de ligne simples ne peuvent pas non plus participer à un décalage groupé.
+-   Le décalage des polylignes constituées d\'un seul segment de ligne n\'est pas pris en charge (car le segment de ligne ne définit pas un plan). Les segments de ligne simples ne peuvent pas non plus participer à un décalage groupé.
 
 ## Script
 
-L\'outil peut être utilisé dans des [macros](macros/fr.md) et depuis la console Python en utilisant les fonctions suivantes: {{code|code=
+L\'outil peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : {{code|code=
 f = App.ActiveDocument.addObject("Part::Offset2D", "Offset2D")
 f.Source =  #some object
 f.Value = 10.0

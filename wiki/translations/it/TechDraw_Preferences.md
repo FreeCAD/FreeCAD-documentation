@@ -68,6 +68,11 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 -   **File PAT**: file di default per il modello PAT predefinito per il [tratteggio geometrico](TechDraw_GeometricHatch/it.md).
 -   **Nome del modello**: il nome del motivo PAT predefinito.
 
+### Grid
+
+-   **Show Grid**: Default Show Grid setting for new pages. <small>(v0.20)</small> 
+-   **Grid Spacing**: Default distance between grid lines for new pages. <small>(v0.20)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -155,6 +160,9 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 Impostazione dei colori predefiniti per le nuove pagine.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Normale**: colore della linea normale.
 -   **Preselezione**: colore della preselezione. Il colore utilizzato per evidenziare gli oggetti quando ci si passa sopra con il mouse.
 -   **Selezionato**: colore per gli oggetti selezionati.
@@ -170,6 +178,9 @@ Impostazione dei colori predefiniti per le nuove pagine.
 -   **Tratteggio geometrico**: colore del [tratteggio geometrico](TechDraw_GeometricHatch/it.md).
 -   **Vertice**: colore dei [vertici](Glossary#V.md) selezionabili nelle viste.
 -   **Linea guida**: colore per le nuove [linee guida](TechDraw_LeaderLine/it.md).
+
+
+</div>
 
 ## HLR
 
@@ -204,40 +215,6 @@ HLR sta per *hidden line removal* (rimozione della linea nascosta).
 
 
 </div>
-
-## Impostazioni nascoste 
-
-\'\'\'Note: \'\'\' Da FreeCAD 0.19, tutte le impostazioni sono disponibili nelle finestre di dialogo delle Preferenze. Quanto segue vale solo per le versioni di FreeCAD precedenti alla 0.19:
-
-
-<div class="mw-translate-fuzzy">
-
-Alcune impostazioni delle preferenze sono accessibili solo tramite [Editor dei parametri](Std_DlgParameter/it.md), dal menu **Strumenti → Modifica parametri**.
-
-
-</div>
-
-### Preferences/Mod/TechDraw/Decorations
-
--   **CenterMarkScale**: fattore di scala predefinito per i segni di centro
--   **ShowCenterMarks**: default `True`/`False`
--   **PrintCenterMarks**: `True`/`False` mostra i CenterMarks nella stampa {{Version/it|0.19}}
-
-### Preferences/Mod/TechDraw/Generale
-
--   **DefaultScale**: impostazione iniziale della scala della pagina {{Version/it|0.19}}
--   **EdgeFuzz**: ambito o raggio di selezione dei bordi
--   **MarkFuzz**: ambito di selezione dei CenterMarks
--   **SectionFuseFirst**: fondere gli oggetti sorgente prima di eseguire il taglio in sezione
--   **EdgeEndCap**: forma delle estremità Edge 0x00 FlatCap, 0x10 SquareCap, 0x20 RoundCap (Qt :: PenCapStyle) {{Version/it|0.19}}
-
-### Preferences/Mod/TechDraw/Format
-
--   **SectionFormat**: stile della freccia della linea di sezione 0-ASME 1-ISO
-
-### Preferences/Mod/TechDraw/Standards
-
--   **RadiusAligned**: Formato dimensione raggio 0-ISO (allineato) 1-ASME (uniforme)
 
 
 <div class="mw-translate-fuzzy">

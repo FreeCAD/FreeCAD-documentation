@@ -145,7 +145,7 @@ In v0.18 questo metodo è disabilitato per impostazione predefinita. Per abilita
 
 ### Navigazione Maya-Gesture 
 
-In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this mode was developed over the [Gesture navigation](#Gesture_navigation.md) mode.
+In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this style was developed over the [Gesture navigation](#Gesture_navigation.md) style.
 
 
 <div class="mw-translate-fuzzy">
@@ -186,9 +186,24 @@ In alternativa, tenere premuto **Ctrl** e il tasto sinistro del mouse, quindi sp
 
 ### Navigazione OpenInventor 
 
+
+<div class="mw-translate-fuzzy">
+
 La Navigazione OpenInventor (formalmente Inventor), si basa sul modello [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Per selezionare gli oggetti, è necessario tenere premuto il tasto **Ctrl**.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Questa modalità non è basata su Autodesk Inventor.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{OpenInventor Navigation
@@ -200,6 +215,11 @@ Questa modalità non è basata su Autodesk Inventor.
 |Select_text=Tenere premuto **Ctrl**, quindi premere il tasto sinistro del mouse sopra un oggetto che si desidera selezionare.
 |Pan_text=Tenere premuto il pulsante centrale del mouse, quindi spostare il puntatore.
 |Zoom_text=Usare la rotellina del mouse per zoommare avanti e indietro.
+</div>
+
+Hold down **Ctrl** instead to select multiple objects.
+|Pan_text=Hold the middle mouse button, then move the pointer.
+|Zoom_text=Use the mouse wheel to zoom in and out.
 
 In alternativa, tenere premuto il pulsante centrale del mouse, quindi premere e tenere premuto il pulsante sinistro del mouse, quindi spostare il puntatore. 
 |Rotate_view_text=Tenere premuto il pulsante sinistro del mouse, quindi spostare il puntatore.

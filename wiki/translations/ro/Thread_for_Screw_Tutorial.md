@@ -30,7 +30,7 @@ Acest tutorial este o colecție de tehnici de modelare a șuruburilor filetate �
 
 </div>
 
-This tutorial is a collection of techniques to model screw threads in FreeCAD. It was updated for v0.19, although the overall process has been essentially the same since v0.14, when the tutorial was originally written. The updated content focuses on the use of the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) to create the thread, and new illustrations for methods 0 to 3.
+This tutorial is a collection of techniques to model screw threads in FreeCAD. It was updated for v0.19, although the overall process has been essentially the same since v0.14, when the tutorial was originally written. The updated content focuses on the use of the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) to create the thread.
 
 In traditional CAD systems modelling screw threads is discouraged because it puts a big load on the modelling kernel, as well as on the rendering of the shapes. In traditional systems a thread does not need to be represented directly in 3D space, as it can be indicated with its required characteristics in the 2D technical drawing that is sent for manufacturing. However, with the popularization of additive manufacturing (3D printing), there is now a real need to model 3D threads, in order to print them exactly as designed. This is what this tutorial is for.
 
@@ -55,25 +55,22 @@ Using models that other people have made is easy and saves time. Check out [Macr
 
 </div>
 
-Using models that other people have made is easy and saves time. See the [external workbenches](external_workbenches.md) page for information on external tools.
+Using utilities and parts that other people have created is easy and saves time. See the [external workbenches](external_workbenches.md) page for information on external tools.
 
-In particular, two resources are recommended that can be installed from the [Addon Manager](Std_AddonMgr.md):
+In particular, three resources are recommended that can be installed from the [Addon Manager](Std_AddonMgr.md):
 
--   [Fasteners Workbech](https://github.com/shaise/FreeCAD_FastenersWB), to place parametric screws and washers that follow ISO standards. The screws and nuts by default don\'t show a thread, but this can be controlled with an option.
--   [BOLTSFC](https://github.com/berndhahnebach/BOLTSFC), to place standard parts from the BOLTS library, which also follow ISO standards.
+-   [Fasteners Workbench](Fasteners_Workbench.md), to add/attach various fasteners to parts. The screws and nuts don\'t show a thread by default, but this can be controlled with an option.
+-   [BOLTSFC Workbench](BOLTSFC_Workbench.md), to place fasteners from the BOLTS library.
+-   [ThreadProfile Workbench](ThreadProfile_Workbench.md), to create common threads.
 
 <img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;"> 
-*Various ISO standard screws inserted with the Fasteners Workbench. An option controls whether an object shows the real thread or just a plain cylinder.*
+*Various standard screws inserted with the Fasteners Workbench. An option controls whether an object shows the real thread or just a plain cylinder.*
 
-## Method 1. Using macros (deprecated) 
+## Method 2. Using macros (deprecated) 
 
--   In the past, the [Macro BOLTS](Macro_BOLTS.md) was used to insert the parts from the BOLTS library. This is now deprecated. Use the BOLTSFC workbench instead.
+-   In the past, the [Macro BOLTS](Macro_BOLTS.md) was used to insert the parts from the BOLTS library. This is now deprecated. Use the [BOLTSFC Workbench](BOLTSFC_Workbench.md) instead.
 
--   In the past the stand-alone [Screw Maker macro](Macro_screw_maker1_2.md), by ulrich1a, was used to create individual bolts, screws, and washers. This is now deprecated. The Fasteners workbench, by shaise, includes the screw maker macro completely, together with a toolbar to select the right component.
-
-## Method 2. Fasteners Workbench 
-
-Use the external [Fasteners workbench](Fasteners_Workbench.md) to add/attach various fasteners to parts. This workbench can be installed with the [Addon manager](Std_AddonMgr.md).
+-   In the past the stand-alone [Screw Maker macro](Macro_screw_maker1_2.md), by ulrich1a, was used to create individual bolts, screws, and washers. This is now deprecated. The [Fasteners workbench](Fasteners_Workbench.md), by shaise, includes the complete screw maker macro, together with a GUI to select the right component.
 
 
 <div class="mw-translate-fuzzy">
@@ -217,7 +214,7 @@ Now you can proceed to add other primitives like **[<img src=images/Part_Cylinde
 
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Easy to understand.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Very natural way of defining a thread profile.
--   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> No problems with meshing of the resulting object, unlike method 4.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> No problems with meshing of the resulting object, unlike method 5.
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Due to invalidity of self-intersecting sweeps, it is next to impossible to generate a thread with no gap between each tooth, that is, with no straight cylindrical face at the inner sides of the thread.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Boolean operations are required to obtain a single contiguous solid. Boolean operations take take a relatively long time to calculate, and fail often.
@@ -253,7 +250,7 @@ Figuring out, what the horizontal profile needs to be made for obtaining a certa
 
 </div>
 
-Figuring out the horizontal profile to obtain a certain vertical profile is not easy. For simple cases like triangular or trapezoidal it can be constructed manually. Alternatively, it can be constructed by creating a short thread with method 3, and getting a slice of it by doing a [Part Common](Part_Common.md) between a horizontal plane face and the thread.
+Figuring out the horizontal profile to obtain a certain vertical profile is not easy. For simple cases like triangular or trapezoidal it can be constructed manually. Alternatively, it can be constructed by creating a short thread with method 4, and getting a slice of it by doing a [Part Common](Part_Common.md) between a horizontal plane face and the thread.
 
 #### Profile for triangular thread 
 
@@ -303,9 +300,9 @@ The steps are also shown in action on [this video by Gaurav Prabhudesai](http://
 </div>
 
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> a ready-to-use thread-on-a-rod solid shape is created by the sweep directly.
--   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> fewer or even no boolean operations are required, so generation speed is very high compared to Method 3.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> fewer or even no boolean operations are required, so generation speed is very high compared to Method 4.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> thread ends are nicely cut straight away
--   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> long threads are not a problem, unless a boolean operation is needed. Otherwise, it is not going to be much better than Method 3.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> long threads are not a problem, unless a boolean operation is needed. Otherwise, it is not going to be much better than Method 4.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> threads without a gap are not a problem.
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> defining thread profile is complicated.
@@ -334,7 +331,10 @@ ISO and other threads have relieved, ie flat, inner and outer edges rather than 
 
 ![761PX](images/Threadform.PNG )
 
-Această metodă produce solide fiabile, care sunt boolean în mod corespunzător. În timp ce nu produce șuruburi \"parametrice\" în dimensiuni standard, în sensul de a avea un acces simplu la forma prin mărimea șurubului, este o modalitate ușoară de a produce o bibliotecă precisă pentru reutilizare și modele de forme specializate cum ar fi ACME sau șuruburi Archimedian , sunt, de asemenea, necomplicate ca excepții.   {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+Această metodă produce solide fiabile, care sunt boolean în mod corespunzător. În timp ce nu produce șuruburi \"parametrice\" în dimensiuni standard, în sensul de a avea un acces simplu la forma prin mărimea șurubului, este o modalitate ușoară de a produce o bibliotecă precisă pentru reutilizare și modele de forme specializate cum ar fi ACME sau șuruburi Archimedian , sunt, de asemenea, necomplicate ca excepții.
+
+
+  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 

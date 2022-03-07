@@ -9,6 +9,9 @@
 
 # TechDraw PageTemplate/fr
 
+
+</div>
+
 ## Description
 
 L\'outil Page à partir d\'un modèle crée un nouvel objet Page à l\'aide du fichier de modèle sélectionné dans une boîte de dialogue.
@@ -27,9 +30,7 @@ Le répertoire de départ de la boîte de dialogue peut être spécifié dans le
 
 ## Propriétés
 
--    {{PropertyData/fr|Projection Type}}: Type de projection par défaut (premier ou troisième angle) pour cette Page.
-
--    {{PropertyData/fr|Scale}}: Échelle par défaut pour les vues dans cette page.
+See [TechDraw PageDefault](TechDraw_PageDefault#Properties.md).
 
 ## Script
 

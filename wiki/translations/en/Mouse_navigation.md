@@ -12,11 +12,11 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 ## Selecting a navigation style 
 
 1.  Do one of the following:
-    -   Press the **[<img src=images/NavigationCAD.svg style="width:16px">** button in the [Status bar](Status_bar.md).
+    -   Press the **[<img src=images/NavigationCAD_dark.svg style="width:16px">** button in the [Status bar](Status_bar.md).
     -   Right-click an empty area in the [3D view](3D_view.md), and select **Navigation styles** from the context menu.
     -   Use the [Preferences Editor](Preferences_Editor#Navigation.md). In the menu select **Edit → Preferences** and then **Display → Navigation → 3D Navigation**.
 2.  Select a style from the list.
-3.  Optionally change the **Orbit style**: press the **[<img src=images/NavigationCAD.svg style="width:16px">** button in the [Status bar](Status_bar.md) and then choose **Settings → Orbit style**. See [Preferences Editor](Preferences_Editor#Navigation.md).
+3.  Optionally change the **Orbit style**: press the **[<img src=images/NavigationCAD_dark.svg style="width:16px">** button in the [Status bar](Status_bar.md) and then choose **Settings → Orbit style**. See [Preferences Editor](Preferences_Editor#Navigation.md).
 4.  Optionally change the **Rotation mode**. See [Preferences Editor](Preferences_Editor#Navigation.md).
 5.  If the **CAD** navigation style is selected: optionally change the **Enable animation** setting. See [Preferences Editor](Preferences_Editor#Navigation.md).
 
@@ -56,7 +56,7 @@ This is the default navigation style. It allows the user a simple control of the
 |Shift=**Shift**
 |Select_text=Press the left mouse button over an object you want to select.
 
-Holding down **Ctrl** allows the selection of multiple objects.
+Hold down **Ctrl** to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
@@ -110,7 +110,7 @@ On v0.18 this method is disabled by default. To enable, go to **Edit → Prefere
 
 ### Maya-Gesture navigation 
 
-In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this mode was developed over the [Gesture navigation](#Gesture_navigation.md) mode.
+In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this style was developed over the [Gesture navigation](#Gesture_navigation.md) style.
 
 
 {{MayaGesture Navigation
@@ -148,9 +148,9 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 
 ### OpenInventor navigation 
 
-OpenInventor navigation (formerly Inventor) was modeled after [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). In order to select objects, you must hold down the **Ctrl** key.
+OpenInventor navigation (formerly Inventor) was modeled after [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). In order to select objects, you must hold down the **Shift** or **Ctrl** key.
 
-This mode is not based on Autodesk Inventor.
+This style is not based on Autodesk Inventor.
 
 
 {{OpenInventor Navigation
@@ -158,8 +158,10 @@ This mode is not based on Autodesk Inventor.
 |Pan_name=Pan
 |Zoom_name=Zoom
 |Rotate_view_name=Rotate view
-|Ctrl=**Ctrl**
-|Select_text=Hold **Ctrl**, then press the left mouse button over an object you want to select.
+|Shift=**Shift**
+|Select_text=Hold **Shift**, then press the left mouse button over an object you want to select.
+
+Hold down **Ctrl** instead to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
@@ -239,15 +241,15 @@ In Touchpad Navigation, panning, zooming, and rotating the view require a modifi
 |Pan_name=Pan
 |Zoom_name=Zoom
 |Rotate_view_name=Rotate view
-|Shift=**Shift**
 |Ctrl=**Ctrl**
+|Shift=**Shift**
 |Alt=**Alt**
 |PageUp=**PageUp**
 |PageDown=**PageDown**
 |Select_text=Press the left mouse button over an object you want to select.
 |Pan_text=Hold **Shift**, then move the pointer.
 |Zoom_text=Use **PageUp** and **PageDown** to zoom in and out.
-|Zoom_alt_text=Alternatively, hold **Shift** and **Ctrl**, then move the pointer.
+|Zoom_alt_text=Alternatively, hold **Ctrl** and **Shift**, then move the pointer.
 |Rotate_view_text=Hold **Alt**, then move the pointer.
 |Rotate_view_alt_text=Alternatively, hold **Shift** and the left button, then move the pointer.
 }}

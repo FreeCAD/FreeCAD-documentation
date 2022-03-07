@@ -225,11 +225,17 @@ En las siguientes páginas se explican diferentes temas del ambiente de trabajo 
 
 [Hormigón MEF](FEM_Concrete.md) interesante información sobre el tema de la simulación de estructuras de hormigón.
 
-[Proyecto MEF](FEM_project/es.md) más información sobre el sistema de unidades, las limitaciones y las ideas de desarrollo y la hoja de ruta del ambiente de trabajo.
+## Tutorials
+
+
+<div class="mw-translate-fuzzy">
 
 ## Tutoriales
 
 Tutorial 1: [MEF CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/es.md); un análisis básico de los rayos de apoyo.
+
+
+</div>
 
 Tutorial 2: [Tutorial MEF](FEM_tutorial/es.md); un simple análisis de tensión de una estructura.
 

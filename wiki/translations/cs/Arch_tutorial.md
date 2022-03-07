@@ -87,7 +87,7 @@ V době, kdy je psán tento text, [Pracovní ploch Architektura](Arch_Workbench/
 
 <div class="mw-translate-fuzzy">
 
--   Žádná podpora materiálů. FreeCAD bude mít kompletní [Materiálový](Material/cs.md) systém, který bude schopen definovat velmi komplexní materiály, se všemi výhodmai, které můžete očekávat (uživatelské vlastnosti, materiálové skupiny, vykreslování a vizuální vlastnosti, atd.) a [pracovní plocha Architektura](Arch_Workbench/cs.md) jej bude využívat hned jak bude připraven.
+-   Žádná podpora materiálů. FreeCAD bude mít kompletní [Materiálový](Material.md) systém, který bude schopen definovat velmi komplexní materiály, se všemi výhodmai, které můžete očekávat (uživatelské vlastnosti, materiálové skupiny, vykreslování a vizuální vlastnosti, atd.) a [pracovní plocha Architektura](Arch_Workbench/cs.md) jej bude využívat hned jak bude připraven.
 
 
 </div>
@@ -95,14 +95,6 @@ V době, kdy je psán tento text, [Pracovní ploch Architektura](Arch_Workbench/
 -   Je nainstalována velmi předběžbé podpora [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Už teď můžete docela spolehlivě [importovat IFC soubory](Arch_IFC/cs.md), poskytované z [IfcOpenShell](http://ifcopenshell.org), ale exportování ještě není oficiálně podporováno. Vývojáři pracují na FreeCADu i na IfcOpenShellu a v budoucnu můžeme očekávay plnou podporu IFC.
 
 -   Mnogo nástrojů Architektury je stále ještě ve vývoji. Znamená to, že automatické \"wizardy\", které jsou schopny vytvářet automaticky komplexní konstrukce, jako jsou [Střecha](Arch_Roof/cs.md) nebo [Schody](Arch_Stairs/cs.md) mohou zatím vytvářet jen určité typy těchto objektů a další nástroje, které mají předvolby jako jsou [Struktura](Arch_Structure/cs.md) nebo [Okno](Arch_Window/cs.md) mají jen několik základních předvoleb. To se samozřejmě časem zlepší.
-
-
-<div class="mw-translate-fuzzy">
-
--   [Vztahy mezi objekty](Assembly_project/cs.md) ve FreeCADu stále ještě nejsou oficiálně dostupné. Tyto vztahy, např. vztah mezi oknem jaho hostující zdí, jsou v současné době implementovány do [pracovní plochy Architektura](Arch_Workbench/cs.md) pomocí dočasných (a proto poněkud omezených) metod. Přibude mnoho nových možností až bude tato vlastnost plně funkční.
-
-
-</div>
 
 -   Vlastnost [Jednotky](Units/cs.md) jsou právě implementovány ve FreeCADu, což umožňuje práci s jakýmikoliv jednotkami (dokonce i imperiálními jednotkami, vy hoši z USA můžete být trvale vděční Jürgenovi, patronovi a hlavnímu šéfoviFreeCADu). Ale v tomto okamžiku není implementace kompletní a pracovní plocha Architektura zatím tyto jednotky nepodporuje. Zatím musíte počítat s tím, že je \"bezjednotková\".
 

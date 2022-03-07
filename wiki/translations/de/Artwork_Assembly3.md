@@ -28,11 +28,6 @@ Diese Symbole befinden sich im angegebenen Quellpfad von Realthunders Link-Branc
 ![](images/Assembly_MeasurePointPlaneDistance.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/de

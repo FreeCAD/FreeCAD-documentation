@@ -2,8 +2,8 @@
 - GuiCommand:/fr
    Name:FEM ElementFluid1D
    Name/fr:FEM Section fluide 1D
-   MenuLocation:Model → Element Geometry → Fluid section for 1D flow
-   Workbenches:[FEM](FEM_Workbench.md)
+   MenuLocation:Modèle → Géométrie de l'élement → Section de fluide pour écoulement 1D
+   Workbenches:[FEM](FEM_Workbench/fr.md)
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
@@ -11,14 +11,14 @@
 
 ## Description
 
-Crée un élément de section fluide FEM pour les réseaux pneumatiques et hydrauliques.
+Crée un élément FEM de section de fluide pour les réseaux pneumatiques et hydrauliques.
 
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/FEM_ElementFluid1D.svg" width=16px> [Create a FEM fluid section for a 1D flow](FEM_ElementFluid1D/fr.md)**.
-    -   Sélectionnez l\'option **Model → Element Geometry → <img src="images/FEM_ElementFluid1D.svg" width=16px> Section de fluide pour pour écoulement 1D** dans le menu.
-2.  Sélectionnez le type de fluide: liquide, gaz ou canal ouvert
+    -   Appuyez sur le bouton **<img src="images/FEM_ElementFluid1D.svg" width=16px> [Section de fluide pour écoulement 1D](FEM_ElementFluid1D/fr.md)**.
+    -   Sélectionnez l\'option **Modèle → Géométrie de l'élement → <img src="images/FEM_ElementFluid1D.svg" width=16px> Section de fluide pour écoulement 1D** dans le menu.
+2.  Sélectionnez le type de fluide: Liquid, Gas ou Open Channel
 3.  Sélectionnez le type de section: Pipe Manning, Pipe Inlet etc.
 4.  Entrez les paramètres du type de section.
 5.  Sélectionnez et ajoutez un bord.

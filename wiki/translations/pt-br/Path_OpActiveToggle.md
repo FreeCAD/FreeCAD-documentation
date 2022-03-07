@@ -37,12 +37,6 @@ Empty
 
 ## Properties
 
-### Data
-
-Empty
-
-### View
-
 Empty
 
 ## Scripting

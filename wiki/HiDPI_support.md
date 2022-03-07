@@ -1,11 +1,5 @@
 # HiDPI support
-**
-This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
-If you are not involved with the development discussed here:<br>
-!!! PLEASE DO NOT EDIT OR TRANSLATE !!!
-**
-
- 
+{{TOCright}}
 
 ![Device pixel ratio. 100% = 1, 200% = 2, 150% = 1.5](images/HiDpiDevicePixelRatio.png )
 
@@ -60,7 +54,7 @@ Goal: Support rescaling when the window is moved from one screen to another
 
 ### Display resolutions 
 
- <img alt="" src=images/Vector_Video_Standards8.svg  style="width:800px;"> 
+<img alt="" src=images/Vector_Video_Standards8.svg  style="width:800px;">
 
 ### Device pixel ratio 
 
@@ -99,7 +93,7 @@ Video: <https://www.youtube.com/watch?v=4U3eh_fMo4o>
 
 ### X Window 
 
-Useful commands: 
+Useful commands:
 
     ~$ xrdb -query
     *customization: -color
@@ -115,8 +109,6 @@ Useful commands:
     screen #0:
       dimensions:    3840x2160 pixels (1016x572 millimeters)
       resolution:    96x96 dots per inch
-
-
 
 ### Ubuntu (GNOME Shell) 
 

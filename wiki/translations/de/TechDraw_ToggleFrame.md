@@ -41,13 +41,7 @@ Du kannst die Größe der Knotenpunkte im [TechDraw Einstellungen/Maßstabs Reit
 Das Umschaltwerkzeug verfügt derzeit nicht über eine Programmierschnittstelle.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -22,22 +22,22 @@ This category shows documentation articles dealing with python scripting, which 
 | [Manual:Creating parametric objects/pl](wiki/Manual_Creating parametric objects/pl.md) | [Manual:Import and export to other filetypes/pl](wiki/Manual_Import and export to other filetypes/pl.md) | [Manual:Installing/pl](wiki/Manual_Installing/pl.md) |
 | [Manual:Parametric objects/pl](wiki/Manual_Parametric objects/pl.md) | [Matrix API/pl](wiki/Matrix API/pl.md) | [Mesh API/pl](wiki/Mesh API/pl.md) |
 | [Mesh Scripting/pl](wiki/Mesh Scripting/pl.md) | [Mesh to Part/pl](wiki/Mesh to Part/pl.md) | [Multithreading/pl](wiki/Multithreading/pl.md) |
-| [Object API/pl](wiki/Object API/pl.md) | [OpenCASCADE/pl](wiki/OpenCASCADE/pl.md) | [Part API/pl](wiki/Part API/pl.md) |
-| [Part scripting/pl](wiki/Part scripting/pl.md) | [Path scripting/pl](wiki/Path scripting/pl.md) | [Pivy/pl](wiki/Pivy/pl.md) |
-| [Placement API/pl](wiki/Placement API/pl.md) | [Power users hub/pl](wiki/Power users hub/pl.md) | [Profiling/pl](wiki/Profiling/pl.md) |
-| [Property/pl](wiki/Property/pl.md) | [PySide Advanced Examples/pl](wiki/PySide Advanced Examples/pl.md) | [PySide Beginner Examples/pl](wiki/PySide Beginner Examples/pl.md) |
-| [PySide Intermediate Examples/pl](wiki/PySide Intermediate Examples/pl.md) | [PySide usage snippets/pl](wiki/PySide usage snippets/pl.md) | [PySide/pl](wiki/PySide/pl.md) |
-| [Python Development Environment/pl](wiki/Python Development Environment/pl.md) | [Python scripting tutorial/pl](wiki/Python scripting tutorial/pl.md) | [Python/pl](wiki/Python/pl.md) |
-| [PythonOCC/pl](wiki/PythonOCC/pl.md) | [Qt Example/pl](wiki/Qt Example/pl.md) | [Quantity/pl](wiki/Quantity/pl.md) |
-| [Raytracing API example/pl](wiki/Raytracing API example/pl.md) | [Reinforcement API/pl](wiki/Reinforcement API/pl.md) | [Scenegraph/pl](wiki/Scenegraph/pl.md) |
-| [Scientific literature/pl](wiki/Scientific literature/pl.md) | [Scripted objects migration/pl](wiki/Scripted objects migration/pl.md) | [Scripted objects saving attributes/pl](wiki/Scripted objects saving attributes/pl.md) |
-| [Scripted objects with attachment/pl](wiki/Scripted objects with attachment/pl.md) | [Scripted objects/pl](wiki/Scripted objects/pl.md) | [Scripted Parts: Ball Bearing - Part 1/pl](wiki/Scripted Parts_ Ball Bearing - Part 1/pl.md) |
-| [Scripted Parts: Ball Bearing - Part 2/pl](wiki/Scripted Parts_ Ball Bearing - Part 2/pl.md) | [Scripting and macros/pl](wiki/Scripting and macros/pl.md) | [Scripts/pl](wiki/Scripts/pl.md) |
-| [Selection API/pl](wiki/Selection API/pl.md) | [Svg Namespace/pl](wiki/Svg Namespace/pl.md) | [TechDraw API/pl](wiki/TechDraw API/pl.md) |
-| [TechDrawGui API/pl](wiki/TechDrawGui API/pl.md) | [Topological data scripting/pl](wiki/Topological data scripting/pl.md) | [TopoShape API/pl](wiki/TopoShape API/pl.md) |
-| [Units/pl](wiki/Units/pl.md) | [Vector API/pl](wiki/Vector API/pl.md) | [ViewObject API/pl](wiki/ViewObject API/pl.md) |
-| [Viewprovider/pl](wiki/Viewprovider/pl.md) | [Workbench creation/pl](wiki/Workbench creation/pl.md) | [Wrapping a Cplusplus class in Python/pl](wiki/Wrapping a Cplusplus class in Python/pl.md) |
-|
+| [Object API/pl](wiki/Object API/pl.md) | [OpenCASCADE/pl](wiki/OpenCASCADE/pl.md) | [Package Metadata/pl](wiki/Package Metadata/pl.md) |
+| [Part API/pl](wiki/Part API/pl.md) | [Part scripting/pl](wiki/Part scripting/pl.md) | [Path scripting/pl](wiki/Path scripting/pl.md) |
+| [Pivy/pl](wiki/Pivy/pl.md) | [Placement API/pl](wiki/Placement API/pl.md) | [Power users hub/pl](wiki/Power users hub/pl.md) |
+| [Profiling/pl](wiki/Profiling/pl.md) | [Property/pl](wiki/Property/pl.md) | [PySide Advanced Examples/pl](wiki/PySide Advanced Examples/pl.md) |
+| [PySide Beginner Examples/pl](wiki/PySide Beginner Examples/pl.md) | [PySide Intermediate Examples/pl](wiki/PySide Intermediate Examples/pl.md) | [PySide usage snippets/pl](wiki/PySide usage snippets/pl.md) |
+| [PySide/pl](wiki/PySide/pl.md) | [Python Development Environment/pl](wiki/Python Development Environment/pl.md) | [Python scripting tutorial/pl](wiki/Python scripting tutorial/pl.md) |
+| [Python/pl](wiki/Python/pl.md) | [PythonOCC/pl](wiki/PythonOCC/pl.md) | [Qt Example/pl](wiki/Qt Example/pl.md) |
+| [Quantity/pl](wiki/Quantity/pl.md) | [Raytracing API example/pl](wiki/Raytracing API example/pl.md) | [Reinforcement API/pl](wiki/Reinforcement API/pl.md) |
+| [Scenegraph/pl](wiki/Scenegraph/pl.md) | [Scientific literature/pl](wiki/Scientific literature/pl.md) | [Scripted objects migration/pl](wiki/Scripted objects migration/pl.md) |
+| [Scripted objects saving attributes/pl](wiki/Scripted objects saving attributes/pl.md) | [Scripted objects with attachment/pl](wiki/Scripted objects with attachment/pl.md) | [Scripted objects/pl](wiki/Scripted objects/pl.md) |
+| [Scripted Parts: Ball Bearing - Part 1/pl](wiki/Scripted Parts_ Ball Bearing - Part 1/pl.md) | [Scripted Parts: Ball Bearing - Part 2/pl](wiki/Scripted Parts_ Ball Bearing - Part 2/pl.md) | [Scripting and macros/pl](wiki/Scripting and macros/pl.md) |
+| [Scripts/pl](wiki/Scripts/pl.md) | [Selection API/pl](wiki/Selection API/pl.md) | [Svg Namespace/pl](wiki/Svg Namespace/pl.md) |
+| [TechDraw API/pl](wiki/TechDraw API/pl.md) | [TechDrawGui API/pl](wiki/TechDrawGui API/pl.md) | [Topological data scripting/pl](wiki/Topological data scripting/pl.md) |
+| [TopoShape API/pl](wiki/TopoShape API/pl.md) | [Units/pl](wiki/Units/pl.md) | [Vector API/pl](wiki/Vector API/pl.md) |
+| [ViewObject API/pl](wiki/ViewObject API/pl.md) | [Viewprovider/pl](wiki/Viewprovider/pl.md) | [Workbench creation/pl](wiki/Workbench creation/pl.md) |
+| [Wrapping a Cplusplus class in Python/pl](wiki/Wrapping a Cplusplus class in Python/pl.md) |
 
 
 

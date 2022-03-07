@@ -3,13 +3,7 @@
 
 Das [Armierung Erweiterung](Reinforcement_Addon/de.md) ergänzt die [Arch Arbeitsbereich](Arch_Workbench/de.md) durch neue Schnittstellen und Voreinstellungen für die Erstellung gängiger Bewehrungsarten zur Verwendung mit [Arch Strukturen](Arch_Structure/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Die Werkzeuge können mit dem [Erweiterungsmanager](Std_AddonMgr/de.md) über das Menü {{MenuCommand/de|Werkzeuge → Addon Manager → Bewehrung}} installiert werden. FreeCAD muss neu gestartet werden, damit die neuen Werkzeuge unter der **<img src="images/Arch_Rebar.svg" width=16px>  [Arch Bewehrung](Arch_Rebar/de.md)**Schaltfläche erscheinen.
-
-
-</div>
+Die Werkzeuge können mit dem [Addon-Manager](Std_AddonMgr/de.md) über das Menü {{MenuCommand/de|Werkzeuge → Addon-Manager → Reinforcement}} installiert werden. FreeCAD muss neu gestartet werden, damit die neuen Werkzeuge unter der Schaltfläche **<img src="images/Arch_Rebar.svg" width=16px>  [Custom Rebar](Arch_Rebar/de.md)** erscheinen.
 
 Diese Erweiterung wurde während des [Google Summer of Code](Google_Summer_of_Code.md) 2017 entwickelt, und wird im Github Repositorium [FreeCAD Armierung](https://github.com/amrit3701/FreeCAD-Reinforcement) Github bereitgestellt, das vom Haupt Repositorium von FreeCAD getrennt ist.
 

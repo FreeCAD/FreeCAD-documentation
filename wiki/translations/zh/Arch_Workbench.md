@@ -83,7 +83,7 @@ These are tools for creating architectural objects.
 
 These are tools for modifying architectural objects.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with a line](Arch_CutLine.md): Cut an object according to a line. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cut an object according to a line. <small>(v0.19)</small> 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cut an object according to a plane.
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component

@@ -27,9 +27,9 @@ Tout fichier [bitmap](bitmap/fr.md) peut être utilisé (PNG, JPG, etc\...) comm
 
 Le fichier de motif de hachures par défaut peut être spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
-## Hachures géométriques 
+### Hachures géométriques 
 
-<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Hachures géométriques](TechDraw_GeometricHatch.md) forme un motif de lignes basé sur une spécification lue dans un fichier. Ce fichier est généralement **compatible avec le format AutoDesk® PAT largement utilisé**. Une petite sélection de modèles est incluse dans le fichier FCPAT.pat:
+<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Hachures géométriques](TechDraw_GeometricHatch/fr.md) forme un motif de lignes basé sur une spécification lue dans un fichier. Ce fichier est généralement **compatible avec le format AutoDesk® PAT largement utilisé**. Une petite sélection de modèles est incluse dans le fichier FCPAT.pat:
 
 
 ```python
@@ -46,6 +46,8 @@ Le fichier de motif de hachures par défaut peut être spécifié dans les [Tech
 -45,0,0,0,4.0
 *Diagonal4, 45 diagonal R, Solid, 4.0 mm separation
 45,0,0,0,4.0
+*Diagonal5, 45 diagonal L, Solid, 4.0 mm separation
+-45,0,0,0,4.0
 *Square, square grid, Solid, 5.0 mm separation 
 90,1,1,0,5.0
 0,0,0,1,5.0

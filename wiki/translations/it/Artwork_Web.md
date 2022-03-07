@@ -7,18 +7,13 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 ### src/Mod/Web/Gui/Resources/icons/
 
-<img alt="" src=images/Sketchfab.svg  style="width:128px;"> ![](images/WebWorkbench.svg )
+<img alt="" src=images/WebWorkbench.svg  style="width:64px;">
 
 ### src/Mod/Web/Gui/Resources/icons/actions/
 
-![](images/web-browser.svg ) ![](images/web-home.svg ) ![](images/web-next.svg ) ![](images/web-previous.svg ) ![](images/web-refresh.svg ) ![](images/web-sketchfab.svg ) ![](images/web-stop.svg ) ![](images/web-zoom-in.svg ) ![](images/web-zoom-out.svg )
-
-
-{{Artwork
-
-}}
+<img alt="" src=images/Web-browser.svg  style="width:64px;"> <img alt="" src=images/Web-home.svg  style="width:64px;"> <img alt="" src=images/Web-next.svg  style="width:64px;"> <img alt="" src=images/Web-previous.svg  style="width:64px;"> <img alt="" src=images/Web-refresh.svg  style="width:64px;"> <img alt="" src=images/Web-set-url.svg  style="width:64px;"> <img alt="" src=images/Web-sketchfab.svg  style="width:64px;"> <img alt="" src=images/Web-stop.svg  style="width:64px;"> <img alt="" src=images/Web-zoom-in.svg  style="width:64px;"> <img alt="" src=images/Web-zoom-out.svg  style="width:64px;">
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Web](Category_Web.md) > Artwork Web/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Web](Category_Web.md) > Artwork Web/it

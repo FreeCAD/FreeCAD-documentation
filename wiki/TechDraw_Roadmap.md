@@ -1,4 +1,4 @@
-# <img alt="" src=images/preferences-techdraw.svg  style="width:64px;">   TechDraw Roadmap
+# <img alt="" src=images/preferences-techdraw.svg  style="width:64px;">  TechDraw Roadmap
 
 The [TechDraw Workbench](TechDraw_Workbench.md) was introduced officially as part of FreeCAD in version 0.17.
 
@@ -38,9 +38,12 @@ Making a template with editable text fields requires significant expertise with 
 
 See the bug tracker for up to date information.
 
- {{TechDraw Tools navi}}
+
+{{TechDraw Tools navi
+
+}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap
+![](images/Right_arrow.png) [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap

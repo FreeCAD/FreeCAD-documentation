@@ -28,11 +28,6 @@ These icons are in the indicated source path of Realthunder\'s Link Branch:
 ![](images/Assembly_MeasurePointPlaneDistance.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/en

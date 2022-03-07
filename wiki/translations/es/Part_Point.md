@@ -7,76 +7,63 @@
 
 ## Description
 
-A Point (vertex) geometric primitive.
+A <img alt="" src=images/Part_Point.svg  style="width:24px;"> **Part Point** is a parametric point that can be created with the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives.md) command. Its coordinates are relative to the coordinate system defined by its **Placement** property.
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
-2.  The Create Primitives dialogue can be accessed several ways:
-    -   Pressing the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Primitives](Part_Primitives.md) icon located in the Part toolbar
-    -   Using the **Part → [Create primitives](Part_Primitives.md) → Point** menu
+See [Part Primitives](Part_Primitives#Usage.md).
 
-### Geometric Primitives 
+## Properties
 
-+++
-| ![](images/PartVertexPrimitivesOptions_it.png ) | Point               |
-|                                                                              |                     |
-|                                                                              | #### Parameter      |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|X}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|Y}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|Z}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | #### Location       |
-|                                                                              |                     |
-|                                                                              | -                   |
-|                                                                              | -                   |
-|                                                                              | -                   |
-+++
+See also: [Property editor](Property_editor.md).
 
-### Property
+A Part Point object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-+++
-| ![](images/PartVertexProperty_it.png ) | #### View                               |
-|                                                            |                                         |
-|                                                            | #### Data                               |
-|                                                            |                                         |
-|                                                            |                          |
-|                                                            | **Base**                            |
-|                                                            |                                      |
-|                                                            | -                        |
-|                                                            |     **Label**              |
-|                                                            |                                      |
-|                                                            |     :                                   |
-|                                                            |                                         |
-|                                                            | -                        |
-|                                                            |     **Placement**          |
-|                                                            |                                      |
-|                                                            |     : [placement](Placement.md) |
-|                                                            |                                         |
-|                                                            | -                        |
-|                                                            |     **X**                  |
-|                                                            |                                      |
-|                                                            |     :                                   |
-|                                                            |                                         |
-|                                                            | -                        |
-|                                                            |     **Y**                  |
-|                                                            |                                      |
-|                                                            |     :                                   |
-|                                                            |                                         |
-|                                                            | -                        |
-|                                                            |     **Z**                  |
-|                                                            |                                      |
-|                                                            |     :                                   |
-+++
+### Data
+
+
+{{TitleProperty|Attachment}}
+
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
+{{TitleProperty|Base}}
+
+-    **X|Distance**: The X coordinate of the point. The default is {{Value|0mm}}.
+
+-    **Y|Distance**: The Y coordinate of the point. The default is {{Value|0mm}}.
+
+-    **Z|Distance**: The Z coordinate of the point. The default is {{Value|0mm}}.
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Point can be created with the {{Incode|addObject()}} method of the document:
+
+
+```python
+point = FreeCAD.ActiveDocument.addObject("Part::Vertex", "myPoint")
+```
+
+-   Where {{Incode|"myPoint"}} is the name for the object.
+-   The function returns the newly created object.
+
+Example:
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+point = doc.addObject("Part::Vertex", "myPoint")
+point.X = 1
+point.Y = 2
+point.Z = 3
+
+doc.recompute()
+```
 
 
 

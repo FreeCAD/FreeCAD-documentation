@@ -46,7 +46,7 @@ import FreeCAD
 FreeCAD.ActiveDocument.undo()
 ```
 
-When running FreeCAD in pure console mode (CLI), the undo/redo mechanism isn\'t enabled by default. It must be explicitly activated for each document.
+Wenn FreeCAD im reinen Konsolenmodus (CLI) läuft, ist der Undo/Redo-Mechanismus standardmäßig deaktiviert ist. Er muss für jedes Dokument separat aktiviert werden.
 
 
 ```python

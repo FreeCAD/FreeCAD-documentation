@@ -38,11 +38,11 @@ If no offset is given to the image initially, its position can still be adjusted
 
 {{Properties Title|Image Plane}}
 
+-    **Image File**: specifies the image to use for this plane.
+
 -    **XSize**: specifies the width of the image plane.
 
 -    **YSize**: specifies the height of the image plane.
-
--    **Image Plane**: specifies the image to use for this plane.
 
 
 <div class="mw-translate-fuzzy">

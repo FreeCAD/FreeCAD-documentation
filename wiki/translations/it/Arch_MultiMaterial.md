@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Multi-materiale definisce una lista di [materiali](Material/it.md) con un nome e un valore di spessore per ogni materiale. Quindi, questo elenco di multi-materiali può essere aggiunto a un oggetto [Arch](Arch_Workbench/it.md) al posto di un [Materiale di Arch](Arch_SetMaterial/it.md) .
+Lo strumento Multi-materiale definisce una lista di [materiali](Material.md) con un nome e un valore di spessore per ogni materiale. Quindi, questo elenco di multi-materiali può essere aggiunto a un oggetto [Arch](Arch_Workbench/it.md) al posto di un [Materiale di Arch](Arch_SetMaterial/it.md) .
 
 
 </div>

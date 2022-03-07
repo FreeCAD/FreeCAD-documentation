@@ -50,7 +50,8 @@ Empty
 
 ### Data
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
@@ -103,7 +104,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Label**: User-provided name of the object (UTF-8)
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: The height needed to clear clamps and obstructions
 
@@ -117,7 +119,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Step Down**: Incremental Step Down of Tool
 
-#### Face
+
+{{TitleProperty|Face}}
 
 -    **BoundaryShape**: Shape to use for calculating Boundary
 
@@ -127,7 +130,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Offset Pattern**: Clearing pattern to use. (Select in which manner the horizontal movements should be done.)
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: make False, to prevent operation from generating code
 
@@ -143,7 +147,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **User Label**: User assigned label
 
-#### Pocket
+
+{{TitleProperty|Pocket}}
 
 -    **Cut Mode**: The direction that the toolpath should go around the part ClockWise (CW) or CounterClockWise (CCW)
 
@@ -161,7 +166,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Keep Tool Down**: Attempts to avoid unnecessary retractions.
 
-#### Rotation
+
+{{TitleProperty|Rotation}}
 
 -    **Attempt Inverse Angle**: Automatically attempt Inverse Angle if initial rotation is incorrect.
 
@@ -173,7 +179,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: The custom start point for the path of this operation.
 

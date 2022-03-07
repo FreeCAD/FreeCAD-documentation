@@ -6,7 +6,7 @@ L\'atelier <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [
 
 Des dimensions, des sections, des zones hachurées, des annotations et des symboles [SVG](SVG/fr.md) peuvent être ajoutés à la page, qui peuvent ensuite être exportés vers différents formats tels que [DXF](DXF/fr.md), [SVG](SVG/fr.md) et [PDF](PDF/fr.md).
 
-TechDraw a été officiellement inclus dans FreeCAD à partir de la version 0.17; il est destiné à remplacer l\'atelier [Drawing](Drawing_Workbench/fr.md) non pris en charge. Les deux ateliers sont toujours fournis dans la v0.17, mais l\'atelier Drawing pourrait être supprimé dans les versions ultérieures. Pour suivre les plans et les développements de TechDraw, visitez la [Feuille de route TechDraw](TechDraw_Roadmap/fr.md).
+TechDraw a été officiellement inclus dans FreeCAD à partir de la version 0.17; il est destiné à remplacer l\'atelier [Drawing](Drawing_Workbench/fr.md) non pris en charge. Les deux ateliers sont toujours fournis dans la v0.17, mais l\'atelier Drawing pourrait être supprimé dans les versions ultérieures. Pour suivre les plans et les développements de TechDraw, visitez la [Feuille de route TechDraw](TechDraw_Roadmap.md).
 
 Si votre objectif principal est la production de dessins 2D complexes et de fichiers [DXF](DXF/fr.md) et que vous n\'avez pas besoin de modélisation 3D, FreeCAD n\'est peut-être pas le bon choix pour vous. Vous pouvez envisager d\'utiliser un logiciel dédié au dessin technique, tel que [LibreCAD](https://fr.wikipedia.org/wiki/LibreCAD) ou [QCad](https://fr.wikipedia.org/wiki/QCad).
 
@@ -57,7 +57,7 @@ Ce sont des outils pour créer et gérer des objets de Rognages (vues découpée
 
 -   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [Ajout vue à une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md): ajoute une vue existante à une fenêtre de rognage.
 
--   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Suppression vue à une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md): supprime une vue à une fenêtre de rognage.
+-   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Suppression vue d\'une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md): supprime une vue d\'une fenêtre de rognage.
 
 ## Décorations
 
@@ -164,6 +164,10 @@ Ce sont des outils pour améliorer vos dessins TechDraw.
 -   <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  style="width:32px;"> [Cascade verticale](TechDraw_ExtensionCascadeVertDimension/fr.md): espace régulièrement des cotes verticales. {{Version/fr|0.20}}
 
 -   <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:32px;"> [Cascade oblique](TechDraw_ExtensionCascadeObliqueDimension/fr.md): espace régulièrement des cotes obliques. {{Version/fr|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Surface](TechDraw_ExtensionAreaAnnotation/fr.md) : calcule la surface des faces sélectionnées et insère une annotation de surface. {{Version/fr|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Personnaliser le format d\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md) : Personnalise le formatage du texte d\'une infobulle ou du texte d\'une cote. Des [symboles GD&T](https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) et d\'autres caractères spéciaux peuvent être ajoutés. {{Version/fr|0.20}}
 
 ### Lignes centrales, filetage et taraudage 
 
@@ -272,11 +276,11 @@ Tutoriels video par sliptonic
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [TechDraw](Category_TechDraw.md) > TechDraw Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/fr

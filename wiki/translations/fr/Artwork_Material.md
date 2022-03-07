@@ -10,11 +10,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 ![](images/preview-rendered.svg ) ![](images/preview-vector.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Material/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Material/fr

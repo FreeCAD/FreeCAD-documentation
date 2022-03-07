@@ -228,11 +228,17 @@ As páginas seguintes explicam diferentes tópicos do bancada de trabalho FEM.
 
 [FEM Concreto](FEM_Concrete/pt-br.md): informações interessantes sobre o tema da simulação de estruturas de concreto.
 
-[Projeto FEM](FEM_project.md): mais informações sobre o sistema de unidades, limitações e as idéias de desenvolvimento e roteiro da bancada de trabalho.
+## Tutorials
+
+
+<div class="mw-translate-fuzzy">
 
 ## Tutoriais
 
 Tutorial 1: [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/pt-br.md); análise básica de feixe simplesmente suportada.(Cantilever - Viga ou estrutura com apoio, ou fixação apenas num dos lados e que tem o outro lado livre.)
+
+
+</div>
 
 Tutorial 2: [Tutorial FEM](FEM_tutorial/pt-br.md); simples análise de tensão de uma estrutura.
 

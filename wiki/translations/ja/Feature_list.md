@@ -258,15 +258,7 @@
 
 </div>
 
-## In development 
-
-
-<div class="mw-translate-fuzzy">
-
--   ![](images/Feature-assembly.jpg )複数のプロジェクト、複数の図形、複数の文書、複数のファイル、複数の関係を扱うことを可能にする[Assembly計画状態です](Assembly_project.md)。
-
-
-</div>
+## Extra Workbenches 
 
 
 <div class="mw-translate-fuzzy">

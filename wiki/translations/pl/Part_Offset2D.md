@@ -21,7 +21,7 @@ The wire/face must be planar. There can be multiple wires in one object, not nec
 
 1.  Select an object to offset
 2.  Press the **[<img src=images/Part_Offset2D.svg style="width:24px">** **Offset2D** button.
-3.  Set up the offset in the [Task Panel](Task_Panel.md).
+3.  Set up the offset in the [Task Panel](Task_panel.md).
 4.  Press **OK**.
 
 A 2D Offset parametric object is created. Original objects are switched to wireframe display mode.
@@ -30,7 +30,7 @@ A 2D Offset parametric object is created. Original objects are switched to wiref
 
 -    **Source**: Link to original shape
 
--    **Value**The distance to enlarge the wire/face by. If negative, the wire/face is shrunk instead.
+-    **Value**: The distance to enlarge the wire/face by. If negative, the wire/face is shrunk instead.
 
 -    **Mode**(\"Pipe\" or \"Skin\"): sets how non-closed wires are processed. If \"Pipe\", the wire is outlined as if it was an extremely thin closed contour. If \"Skin\", an open wire is created.
 
@@ -74,9 +74,9 @@ A 2D Offset parametric object is created. Original objects are switched to wiref
 
 -   Enlarging faces with circular holes by an amount large enough to cause holes to close up, a crash occurs (OCC 7.0.0). The problem seems to be specific to circles; other shapes seem to close out properly.
 
--   when offsetting circles that have non-zero Placement, the result is placed wrongly. (OCC 7.0.0)
+-   When offsetting circles that have non-zero Placement, the result is placed wrongly. (OCC 7.0.0)
 
--   when offsetting circles, sometimes they are offset in unexpected direction (e.g. inward instead of outward). (OCC 7.0.0)
+-   When offsetting circles, sometimes they are offset in unexpected direction (e.g. inward instead of outward). (OCC 7.0.0)
 
 -   Fill=\"true\" doesn\'t work when collectively offsetting open wires in \"Skin\" mode
 
@@ -86,7 +86,7 @@ A 2D Offset parametric object is created. Original objects are switched to wiref
 
 ## Scripting
 
-The tool can by used in [macros](macros.md) and from the python console by using the following function: {{code|code=
+The tool can by used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: {{code|code=
 f = App.ActiveDocument.addObject("Part::Offset2D", "Offset2D")
 f.Source =  #some object
 f.Value = 10.0

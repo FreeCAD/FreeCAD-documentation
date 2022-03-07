@@ -71,13 +71,15 @@ Empty
 
 ### Data
 
-#### Base
+
+{{TitleProperty|Base}}
 
 -    **Placement**: -
 
 -    **Label**: -
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **ClearanceHeight**: -
 
@@ -89,7 +91,8 @@ Empty
 
 -    **StepDown**: -
 
-#### Op Values 
+
+{{TitleProperty|Op Values}}
 
 -    **OpFinalDepth**: -
 
@@ -101,7 +104,8 @@ Empty
 
 -    **OpToolDiameter**: -
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: -
 
@@ -115,7 +119,7 @@ Empty
 
 -    **UserLabel**: -
 
-### Hidden
+#### Hidden
 
 -    **Base**: -
 

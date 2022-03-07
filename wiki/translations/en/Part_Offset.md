@@ -3,7 +3,7 @@
    Name:Part Offset
    MenuLocation:Part → 3D Offset
    Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Thickness](Part_Thickness.md), [Part 2D Offset](Part_Offset2D.md)
+   SeeAlso:[Part Thickness](Part_Thickness.md), [Part 2D Offset](Part_Offset2D.md)
 ---
 
 # Part Offset/en

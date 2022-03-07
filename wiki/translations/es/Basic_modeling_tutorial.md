@@ -27,6 +27,9 @@ Luego existen otras herramientas más avanzadas. Tu empiezas dibujando un perfil
 
 Así que vamos a comenzar tratando de hacer un pie de hierro para una mesa con estos 2 métodos.
 
+
+<div class="mw-translate-fuzzy">
+
 ## 1er Método - Por Geometría Sólida Constructiva 
 
 1.  Comienza con el [Ambiente de trabajo Pieza](Part_Workbench/es.md) ![](images/Switch_PartWorkbench.JPG ).
@@ -38,6 +41,9 @@ Así que vamos a comenzar tratando de hacer un pie de hierro para una mesa con e
 7.  Crea una segunda caja de la misma manera, pero con los valores L=40, W=40 y H=750mm. Por defecto esta caja se superpondrá a la primera. *(ver Fig. 1.2)*
 8.  Ahora restaremos la segunda caja a la primera. Seleccione primero la primera forma (llamada Box), luego la segunda (llamada Box001), ¡el orden de selección es importante! (Asegúrate de que ambas formas están seleccionadas en el árbol del proyecto. Una cosa para recordar:\'\'\' en el modo de navegación de Inventor, **Ctrl** + clic no funciona para la selección múltiple. Cambie [Navegación con ratón](Mouse_navigation/es.md) a la selección de CAD o Blender).
 9.  En la barra de herramientas del ambiente de trabajo de piezas, haga clic en el <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cortar](Part_Cut/es.md).
+
+
+</div>
 
 ![Fig. 1.1 El primer cubo](images/Tutorial-normand01.jpg )
 

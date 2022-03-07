@@ -1,6 +1,6 @@
 # Macro Snip/pl
 {{Macro
-|Name=Snip
+|Name=Macro Snip
 |Icon=Snip.png
 |Description=Use this macro to easily post screenshots to the FreeCAD forum.<br/>It is best to add this macro to your global custom macros toolbar for quick and easy access.<br/>When posting to the FreeCAD forum it is often useful to be able to include screenshots. The problem is this is a somewhat tedious task. This macro is to make that task a bit easier.<br/>The macro can take screenshots or it can use existing screenshots that have already been copied to the system clipboard. To bypass the image already in clipboard press the Shift key while invoking the macro. To use the macro to take the screenshot adjust the size and placement of the dialog that pops up, then click OK. Upon clicking OK the macro will attempt to take a screenshot of the area of the screen covered by the dialog. The dialog itself is semi-transparent, so you can see the contents beneath. 
 |Author=TheMarkster
@@ -8,7 +8,7 @@
 |Date=2022.02.23
 |FCVersion=All
 |Download=[https://wiki.freecadweb.org/images/a/a0/Snip.png ToolBar Icon]
-|SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md) <img src="images/Macro_Copy3DViewToClipboard.png" width=24px><br/>[Macro Screen Wiki](Macro_Screen_Wiki.md) <img src="images/Macro_Screen_Wiki.png" width=24px>
+|SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Macro Screen Wiki](Macro_Screen_Wiki.md)
 |Shortcut=On Windows: Windows Key + Shift + S<br/>
 On Mac: Command + Shift + 4<br/>
 On Linux: gnone-screenshot utility<br/>

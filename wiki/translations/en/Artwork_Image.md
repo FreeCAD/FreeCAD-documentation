@@ -10,11 +10,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 ![](images/Image_Open.svg ) ![](images/Image_CreateImagePlane.svg ) ![](images/Image_Scaling.svg ) ![](images/ImageWorkbench.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Category_Image.md) > Artwork Image/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Image](Category_Image.md) > Artwork Image/en

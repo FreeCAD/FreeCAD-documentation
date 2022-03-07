@@ -121,16 +121,7 @@ Gibt den Winkel an, der vom Muster abgedeckt werden soll, sowie die Gesamtzahl d
 
 ## Begrenzungen
 
-
-<div class="mw-translate-fuzzy">
-
--   Siehe [Begrenzungen der linearen Musterformelemente](PartDesign_LinearPattern/de#Begrenzungen.md)
-
-
-
-
-
-</div>
+-   Siehe [Begrenzungen](PartDesign_LinearPattern/de#Begrenzungen.md) unter PartDesign Lineare Anordnung.
 
 
 

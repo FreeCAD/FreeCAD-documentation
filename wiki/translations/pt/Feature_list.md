@@ -251,15 +251,7 @@ Esta é uma lista extensiva, ainda que incompleta dos recursos que o FreeCAD dis
 
 </div>
 
-## Em desenvolvimento 
-
-
-<div class="mw-translate-fuzzy">
-
--   ![](images/Feature-assembly.jpg ) Um modulo de [Assemblagem (montagem)](Assembly_project.md) que permite trabalhar com múltiplos projetos, múltiplas formas, múltiplos documentos, múltiplos ficheiros, múltiplas relações\...
-
-
-</div>
+## Extra Workbenches 
 
 
 <div class="mw-translate-fuzzy">

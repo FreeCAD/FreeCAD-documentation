@@ -16,7 +16,13 @@
 
 ## Einführung
 
+
+<div class="mw-translate-fuzzy">
+
 Dieses Tutorium ist eine Sammlung von Techniken zum Modellieren von Schraubengewinden in FreeCAD. Es wurde für v0.19 aktualisiert, obwohl der Gesamtprozess seit v0.14, als das Tutorial ursprünglich geschrieben wurde, im Wesentlichen gleich geblieben ist. Der aktualisierte Inhalt konzentriert sich auf die Verwendung der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um das Gewinde zu erstellen, sowie neue Illustrationen für die Methoden 0 bis 3.
+
+
+</div>
 
 In herkömmlichen CAD Systemen wird von der Modellierung von Schraubengewinden abgeraten, da dies eine große Belastung für den Modellierungskern sowie für die Darstellung der Formen darstellt. In herkömmlichen Systemen muss ein Gewinde nicht direkt im 3D Raum dargestellt werden, da es in der technischen 2D Zeichnung, die zur Fertigung geschickt wird, mit seinen erforderlichen Eigenschaften angegeben werden kann. Mit der Popularisierung der additiven Fertigung (3D Druck) besteht nun jedoch ein echter Bedarf, 3D Gewinde zu modellieren, um sie genau so drucken zu können, wie sie entworfen wurden. Dafür ist dieses Tutorium gedacht.
 
@@ -31,27 +37,68 @@ Siehe auch hilfreiche Videos:
 
 Denke daran, dass Gewindeformen viel Speicherplatz beanspruchen und dass ein einziges Gewinde in einem Dokument die Dateigröße erheblich erhöhen kann, weshalb dem Benutzer empfohlen wird, Gewinde nur dann zu erstellen, wenn dies absolut notwendig ist.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Methode 0. Eins aus der Teilebibliothek beziehen 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Die Verwendung von Modellen, die andere Leute geschaffen haben, ist einfach und zeitsparend. Sieh dir [externe Arbeitsbereiche](external_workbenches/de.md) Seite an zu Informationen über externe Werkzeuge.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Insbesondere werden zwei Ressourcen empfohlen, die über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden können:
 
 -   [Verbindungselemente Arbeitsbereich](https://github.com/shaise/FreeCAD_FastenersWB), um parametrische Schrauben und Unterlegscheiben zu platzieren, die den ISO Normen entsprechen. Die Schrauben und Muttern zeigen standardmäßig kein Gewinde, aber dies kann mit einer Option gesteuert werden.
 -   [BOLTSFC](https://github.com/berndhahnebach/BOLTSFC), um Normteile aus der BOLTS Bibliothek zu platzieren, die ebenfalls ISO Normen entsprechen.
 
-<img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;"> 
+
+</div>
+
+<img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Verschiedene ISO Normschrauben, die mit dem Arbeitsbereich Verbindungselemente eingesetzt werden. Eine Option steuert, ob ein Objekt das echte Gewinde oder nur einen einfachen Zylinder zeigt.*
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## Methode 1: Verwendung von Makros (veraltet) 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   In der Vergangenheit wurden die Teile aus der BOLTS Bibliothek mit [Makro BOLTS](Macro_BOLTS/de.md) eingefügt. Dies ist nun veraltet. Verwende stattdessen den BOLTSFC Arbeitsbereich.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   In der Vergangenheit wurde das autonome [Schraubenmacher Makro](Macro_screw_maker1_2/de.md) von ulrich1a verwendet, um einzelne Bolzen, Schrauben und Unterlegscheiben zu erstellen. Dies ist nun veraltet. Der Arbeitsbereich für Verbindungselemente von shaise enthält das Schraubenherstellungsmakro vollständig, zusammen mit einer Werkzeugleiste zur Auswahl der richtigen Komponente.
 
-## Methode 2. Verbindungselemente-Arbeitsbereich 
 
-Benutze den externen [Arbeitsbereich Verbindungselemente](Fasteners_Workbench/de.md), um verschiedene Verbindungselemente zu Teilen hinzuzufügen/an Teilen anzubringen. Dieser Arbeitsbereich kann mit dem [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden.
+</div>
 
 ## Methode 3. Scheingewinde: nicht spiralförmig 
 
@@ -103,11 +150,11 @@ Wenn du möchtest, kannst du einen **[<img src=images/PartDesign_AdditiveCylinde
 
 Ein echtes Gewinde besteht aus einem geschlossenen Profil, das einen Festkörper entlang einer spiralförmigen Bahn austrägt.
 
-1.  Im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench.md), klicke auf **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Grundkörper](Part_Primitives/de.md)** zum Erstellen einer **[<img src=images/Part_Helix.svg style="width:16px"> [Part Spirale](Part_Helix/de.md)**. Gib ihm die entsprechenden Werte für {{MenuCommand/de|Steigung}} {{Value|3 mm}}, **Höhe** {{Value|23 mm}}, und **Radius** {{Value|10 mm}}.
+1.  Im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench.md), klicke auf **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Grundkörper](Part_Primitives/de.md)** zum Erstellen einer **[<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix/de.md)**. Gib ihm die entsprechenden Werte für {{MenuCommand/de|Steigung}} {{Value|3 mm}}, **Höhe** {{Value|23 mm}}, und **Radius** {{Value|10 mm}}.
 2.  Gehe zum <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), und klicke auf **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**.
 3.  Klicke auf **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Neue Skizze](PartDesign_NewSketch/de.md)**. Wähle {{Value|XZ_Ebene}}.
 4.  Zeichne eine geschlossene Skizze mit dem erforderlichen Profil für die Gewindezähne, normalerweise eine dreieckige Form. In diesem Fall werden wir eine Höhe von {{Value|2,9 mm}} verwenden, die etwas kleiner ist als die für den Spiralpfad verwendete Steigung {{Value|3,0 mm}}. Das Profil darf keine Selbstüberschneidungen erzeugen, wenn es entlang der Spirale bewegt wird, weder zwischen den Windungen noch in der Mitte, daher kann die Skizze, wie sie für Stapelscheiben gezeigt wird, nicht verwendet werden.
-5.  Wähle die Skizze aus und klicke dann auf **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additives Rohr](PartDesign_AdditivePipe.md)**. Im {{MenuCommand/de|Pad für die Austragung}} klicke auf {{MenuCommand/de|Objekt}}, und wähle das zuvor erstellte Spiralobjekt aus. Ändere dann {{MenuCommand/de|Richtungsmodus}} in {{Value|Frenet}}, so dass das Profil den Pfad ohne Verdrehung überstreicht; drücke dann **OK**.
+5.  Wähle die Skizze aus und klicke dann auf **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additives Rohr](PartDesign_AdditivePipe.md)**. Im {{MenuCommand/de|Pad für die Austragung}} klicke auf {{MenuCommand/de|Objekt}}, und wähle das zuvor erstellte Spiralobjekt aus. Ändere dann {{MenuCommand/de|Ausrichtungsmodus}} in {{Value|Frenet}}, so dass das Profil den Pfad ohne Verdrehung überstreicht; drücke dann **OK**.
 6.  Wenn der Dialog nach einem Verweis fragt, wähle {{Value|Querverweis erstellen}}.
 7.  Der schraubenförmige Wendel wird erstellt, aber es gibt keinen zentralen Körper oder Welle.
 8.  Klicke auf **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additiver Zylinder](PartDesign_AdditiveCylinder.md)** mit dem entsprechenden {{MenuCommand/de|Radius}} {{Value|10 mm}} und {{MenuCommand/de|Höhe}} {{Value|29.9 mm}}, um den Rest des spiralförmigen Gewindes zu berühren und automatisch mit ihm zu verschmelzen.
@@ -166,9 +213,15 @@ Im Allgemeinen vermeide Geometrie deckungsgleich mit Elementen der Austragung, w
 
 ### Vor- und Nachteile 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Leicht verständlich.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Sehr natürliche Art der Festlegung eines Gewindeprofils.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Keine Probleme mit der Netzbildung des resultierenden Objekts, im Gegensatz zu Methode 4.
+
+
+</div>
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Aufgrund der Ungültigkeit sich selbst überschneidender Austragungen ist es nahezu unmöglich, ein Gewinde ohne Lücke zwischen den einzelnen Zähnen zu erzeugen, d.h. ohne gerade zylindrische Fläche an den Innenseiten des Gewindes.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Boolesche Operationen sind erforderlich, um einen einzigen zusammenhängenden Festkörper zu erhalten. Die Berechnung boolescher Operationen nimmt relativ viel Zeit in Anspruch und schlägt häufig fehl.
@@ -188,7 +241,13 @@ Um ein Standard Sägezahnprofil zu erhalten, muss ein Paar gespiegelter archimed
 
 ### Generieren des Profils 
 
+
+<div class="mw-translate-fuzzy">
+
 Es ist nicht einfach, das horizontale Profil zu ermitteln, um ein bestimmtes vertikales Profil zu erhalten. Für einfache Fälle wie dreieckig oder trapezförmig kann es manuell konstruiert werden. Alternativ kann es konstruiert werden, indem man mit Methode 3 ein kurzes Gewinde erzeugt und ein Stück davon durch ein [Part Schnittmenge](Part_Common/de.md) zwischen einer horizontalen ebenen Fläche und dem Gewinde erhält.
+
+
+</div>
 
 #### Profil für ein dreieckigförmiges Gewinde 
 
@@ -225,17 +284,29 @@ Die Schritte werden auch in Aktion gezeigt auf [dieses Video von Gaurav Prabhude
 
 ### Vor- und Nachteile 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> eine gebrauchsfertige, massive Gewinde-auf-einer-Stange Massivform wird direkt durch die Austragung erzeugt.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Es werden weniger oder sogar keine booleschen Operationen erforderlich, so dass die Generierungsgeschwindigkeit im Vergleich zu Methode 3 sehr hoch ist.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Gewindeenden werden sofort schön geschnitten
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> lange Gewinde sind kein Problem, es sei denn, es ist eine boolesche Operation erforderlich. Andernfalls wird sie nicht viel besser als Methode 3 sein.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Gewinde ohne Lücke sind kein Problem.
 
+
+</div>
+
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> die Festlegung des Gewindeprofils ist kompliziert.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Die Verwendung des Standardnetz mit einem auf diese Weise erzeugten Gewinde erzeugt hässliche Netze, was zu Problemen führen kann. Andere Netze sind besser, z.B. scheint Mefisto die besten Ergebnisse zu liefern.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> großer Speicherplatzbedarf gemäß der [Zusammenstellung von Gewinde-Modellierungstechniken](http://forum.freecadweb.org/viewtopic.php?f=3&t=12593&start=10#p101197).
 
+
+<div class="mw-translate-fuzzy">
+
 ## Methode 5. Ausformung zwischen wendelförmig extrudierten Flächen 
+
+
+</div>
 
 ### Allgemein 
 
@@ -251,7 +322,10 @@ ISO- und andere Gewinde haben reduzierte, d.h. flache, innere und äußere Kante
 
 ![761PX](images/Threadform.PNG )
 
-Diese Methode erzeugt zuverlässige Festkörper, die korrekt boolesch sind. Obwohl sie keine \"parametrischen\" Schraubengewinde in Standardgrößen im Sinne eines einfachen Zugriffs auf die Form durch die Größe des Befestigungselements erzeugt, ist es eine einfache Möglichkeit, eine genaue Bibliothek zur Wiederverwendung zu erstellen, und Modelle von Spezialformen wie ACME oder archimedische Schrauben sind auch als Einzelstücke unkompliziert.   {{PartDesign Tools navi}} {{Sketcher Tools navi}}
+Diese Methode erzeugt zuverlässige Festkörper, die korrekt boolesch sind. Obwohl sie keine \"parametrischen\" Schraubengewinde in Standardgrößen im Sinne eines einfachen Zugriffs auf die Form durch die Größe des Befestigungselements erzeugt, ist es eine einfache Möglichkeit, eine genaue Bibliothek zur Wiederverwendung zu erstellen, und Modelle von Spezialformen wie ACME oder archimedische Schrauben sind auch als Einzelstücke unkompliziert.
+
+
+  {{PartDesign Tools navi}} {{Sketcher Tools navi}}
 
 
 

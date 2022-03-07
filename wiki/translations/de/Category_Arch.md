@@ -32,8 +32,8 @@ Pages relating to Architectural and Building Information Management
 | [Arch Survey/de](wiki/Arch Survey/de.md) | [Arch ToggleIfcBrepFlag/de](wiki/Arch ToggleIfcBrepFlag/de.md) | [Arch ToggleSubs/de](wiki/Arch ToggleSubs/de.md) |
 | [Template:Arch Tools navi/de](wiki/Template_Arch Tools navi/de.md) | [Arch Truss/de](wiki/Arch Truss/de.md) | [Arch tutorial/de](wiki/Arch tutorial/de.md) |
 | [Arch Wall/de](wiki/Arch Wall/de.md) | [Arch Window/de](wiki/Arch Window/de.md) | [Arch Workbench/de](wiki/Arch Workbench/de.md) |
-| [BIM Library/de](wiki/BIM Library/de.md) | [Custom Spacing/de](wiki/Custom Spacing/de.md) | [IfcOpenShell/de](wiki/IfcOpenShell/de.md) |
-| [Import/Export IFC - compiling IfcOpenShell/de](wiki/Import/Export IFC - compiling IfcOpenShell/de.md) | [Manual:BIM modeling/de](wiki/Manual_BIM modeling/de.md) | [Material/de](wiki/Material/de.md) |
+| [Artwork Arch/de](wiki/Artwork Arch/de.md) | [BIM Library/de](wiki/BIM Library/de.md) | [Custom Spacing/de](wiki/Custom Spacing/de.md) |
+| [IfcOpenShell/de](wiki/IfcOpenShell/de.md) | [Import/Export IFC - compiling IfcOpenShell/de](wiki/Import/Export IFC - compiling IfcOpenShell/de.md) | [Manual:BIM modeling/de](wiki/Manual_BIM modeling/de.md) |
 | [Reinforcement Addon/de](wiki/Reinforcement Addon/de.md) | [Reinforcement API/de](wiki/Reinforcement API/de.md) | [Tutorial custom placing of windows and doors/de](wiki/Tutorial custom placing of windows and doors/de.md) |
 | [Tutorial for open windows/de](wiki/Tutorial for open windows/de.md) | [Category:Reinforcement/de](wiki/Category_Reinforcement/de.md) |
 

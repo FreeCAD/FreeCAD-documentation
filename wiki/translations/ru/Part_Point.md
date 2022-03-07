@@ -9,78 +9,76 @@
 
 # Part Point/ru
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Описание
 
 Точка (вершина) - это геометрический примитив.
 
+
+</div>
+
 ## Применение
 
-1.  Переключитесь на верстак <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part (Деталь)](Part_Workbench/ru.md)
-2.  Диалог Создания Примитивов можно открыть несколькими способами:
-    -   Нажатием на кнопку <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Создать Примитивы\...](Part_Primitives/ru.md) на панели верстака Part(Деталь)
-    -   Используя меню **Деталь → [Создать Примитивы...](Part_Primitives/ru.md) → Точка**
+See [Part Primitives](Part_Primitives#Usage.md).
 
-### Геометрические примитивы 
+## Properties
 
-+++
-| ![](images/PartVertexPrimitivesOptions_ru.png ) | Точка               |
-|                                                                              |                     |
-|                                                                              | #### Параметр       |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|X}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|Y}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|Z}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | #### Расположение   |
-|                                                                              |                     |
-|                                                                              | -                   |
-|                                                                              | -                   |
-|                                                                              | -                   |
-+++
+See also: [Property editor](Property_editor.md).
 
-### Свойства
+A Part Point object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-+++
-| ![](images/PartVertexProperty_ru.png ) | #### Вид                                    |
-|                                                            |                                             |
-|                                                            | #### Данные                                 |
-|                                                            |                                             |
-|                                                            |                              |
-|                                                            | **Данные**                              |
-|                                                            |                                          |
-|                                                            | -                            |
-|                                                            |     {{PropertyData/ru|Label}}               |
-|                                                            |                                          |
-|                                                            |     :                                       |
-|                                                            |                                             |
-|                                                            | -                            |
-|                                                            |     {{PropertyData/ru|Placement}}           |
-|                                                            |                                          |
-|                                                            |     : [размещение](Placement/ru.md) |
-|                                                            |                                             |
-|                                                            | -                            |
-|                                                            |     {{PropertyData/ru|X}}                   |
-|                                                            |                                          |
-|                                                            |     :                                       |
-|                                                            |                                             |
-|                                                            | -                            |
-|                                                            |     {{PropertyData/ru|Y}}                   |
-|                                                            |                                          |
-|                                                            |     :                                       |
-|                                                            |                                             |
-|                                                            | -                            |
-|                                                            |     {{PropertyData/ru|Z}}                   |
-|                                                            |                                          |
-|                                                            |     :                                       |
-+++
+### Data
+
+
+{{TitleProperty|Attachment}}
+
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
+{{TitleProperty|Base}}
+
+-    **X|Distance**: The X coordinate of the point. The default is {{Value|0mm}}.
+
+-    **Y|Distance**: The Y coordinate of the point. The default is {{Value|0mm}}.
+
+-    **Z|Distance**: The Z coordinate of the point. The default is {{Value|0mm}}.
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Point can be created with the {{Incode|addObject()}} method of the document:
+
+
+```python
+point = FreeCAD.ActiveDocument.addObject("Part::Vertex", "myPoint")
+```
+
+-   Where {{Incode|"myPoint"}} is the name for the object.
+-   The function returns the newly created object.
+
+Example:
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+point = doc.addObject("Part::Vertex", "myPoint")
+point.X = 1
+point.Y = 2
+point.Z = 3
+
+doc.recompute()
+```
 
 
 

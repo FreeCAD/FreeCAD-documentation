@@ -83,11 +83,17 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 Эти инструменты предназначены для изменения архитектурных объектов.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with a line](Arch_CutLine.md): Cut an object according to a line.
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Обрезать по сечению](Arch_CutPlane/ru.md): Вырежьте архитектурный объект в соответствии с плоскостью.
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Добавить компонент](Arch_Add/ru.md): Добавляет объекты к компоненту
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Удалить компонент](Arch_Remove/ru.md): Вычитает или удаляет объекты из компонента
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Осмотр](Arch_Survey/ru.md): Вход или выход из режима осмотра
+
+
+</div>
 
 ### Утилиты
 

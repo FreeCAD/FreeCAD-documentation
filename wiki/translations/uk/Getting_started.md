@@ -57,7 +57,7 @@ The Start page allows you to quickly jump to one of the most common workbenches,
 
 ## Navigating in the 3D space 
 
-FreeCAD has several [navigation modes](Mouse_navigation.md) available, that change the way you use your mouse to interact with the objects in the 3D view and the view itself. One of them is specifically made for [touchpads](Mouse_navigation#Touchpad_navigation.md), where the middle mouse button is not used. The default navigation mode is [CAD navigation](Mouse_navigation#CAD_navigation.md). You can quickly change the current navigation mode by using the **[<img src=images/NavigationCAD.svg style="width:16px">** button in the [Status bar](Status_bar.md) or by right-clicking an empty area of the [3D view](3D_view.md).
+FreeCAD has several [navigation modes](Mouse_navigation.md) available, that change the way you use your mouse to interact with the objects in the 3D view and the view itself. One of them is specifically made for [touchpads](Mouse_navigation#Touchpad_navigation.md), where the middle mouse button is not used. The default navigation mode is [CAD navigation](Mouse_navigation#CAD_navigation.md). You can quickly change the current navigation mode by using the **[<img src=images/NavigationCAD_dark.svg style="width:16px">** button in the [Status bar](Status_bar.md) or by right-clicking an empty area of the [3D view](3D_view.md).
 
 You also have several view presets (top view, front view, etc) available in the View menu, on the View toolbar, and by numeric shortcuts (**1**, **2**, etc\...). By right-clicking on an object or on an empty area of the 3D view, you have quick access to some common operations, such as setting a particular view, or locating an object in the Tree view.
 

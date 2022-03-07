@@ -84,11 +84,17 @@ Strumenti per creare gli oggetti architettonici.
 
 Strumenti per modificare gli oggetti architettonici.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Taglia con una linea](Arch_CutLine/it.md): Taglia un oggetto secondo una linea. {{Version/it|0.19}}
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Taglia con un piano](Arch_CutPlane/it.md): Taglia un oggetto secondo un piano.
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Aggiungi componente](Arch_Add/it.md): Aggiunge oggetti ad un componente
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Rimuovi componente](Arch_Remove/it.md): Sottrae o rimuove oggetti da un componente
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Ispeziona](Arch_Survey/it.md): Entra o esce dalla modalità ispezione
+
+
+</div>
 
 ### Utilità
 

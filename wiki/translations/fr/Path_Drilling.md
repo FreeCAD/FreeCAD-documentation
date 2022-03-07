@@ -54,7 +54,8 @@ La commande Perçage génère une opération de perçage durant l\'opération.
 
 \'\'\' *Remarque* \'\'\': toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
@@ -109,7 +110,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Disabled**: liste des fonctionnalités désactivées.
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: hauteur nécessaire pour supprimer les pinces et les obstructions.
 
@@ -119,7 +121,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Start Depth**: profondeur de départ de l\'outil - *profondeur de la première coupe en Z*.
 
-#### Drill
+
+{{TitleProperty|Drill}}
 
 -    **Add Tip Length**: calcule la longueur de la pointe et soustrait de la profondeur finale.
 
@@ -135,7 +138,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Return Level**: contrôle le retrait de l\'outil. Par défaut = G98.
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: mis à False, pour empêcher l\'opération de générer du code.
 
@@ -145,7 +149,10 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Tool Controller**: définit le contrôleur d\'outil utilisé dans l\'opération.
 
-#### Rotation (*si disponible*) 
+
+{{TitleProperty|Rotation}}
+
+(*si disponible*)
 
 -    **Attempt Inverse Angle**: tente automatiquement l\'angle inverse si la rotation initiale est incorrecte.
 
@@ -161,19 +168,19 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-#### Géométrie de base 
+### Géométrie de base 
 
 -   **Add**: ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
 -   **Supprimer**: supprime le ou les éléments sélectionnés dans la liste géométrie de base.
 -   **Clear**: efface tous les éléments de la liste géométrie de base.
 
-#### Base Location 
+### Localisation de la base 
 
 -   **Add**: ajoute un emplacement de coordonnées (X, Y) à l\'opération de forage en cours.
 -   **Remove**: supprime le ou les éléments d\'emplacement sélectionnés de la liste Emplacement de base.
 -   **Edit**: édite l\'élément de lieu sélectionné.
 
-#### Depth 
+### Profondeurs
 
 -    **Start Depth**
     
@@ -181,7 +188,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Final Depth**
     
 
-#### Height
+### Hauteurs
 
 -    **Safe Height**
     
@@ -189,7 +196,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Clearance Height**
     
 
-#### Opération
+### Opération
 
 -    **Tool Controller**
     

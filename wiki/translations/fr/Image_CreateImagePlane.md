@@ -39,11 +39,11 @@ Si aucun décalage n\'est initialement attribué à l\'image, sa position peut t
 
 {{Properties Title|Image Plane}}
 
+-    **Image File**: pécifie l\'image à utiliser pour ce plan.
+
 -    **XSize**: spécifie la largeur du plan de l\'image.
 
 -    **YSize**: spécifie la hauteur du plan de l\'image.
-
--    **Plan Image**: spécifie l\'image à utiliser pour ce plan.
 
 
 

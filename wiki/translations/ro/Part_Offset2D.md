@@ -13,13 +13,23 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Part 2D Offset construiește un filament/contur, paralel cu firul original, la o anumită distanță de acesta. Sau mărește/micșorează o fațetă plană, în mod similar.
 
+
+</div>
+
 Filamentul/Fațete trebuie să fie în același plan.Pot exista mai multe filamente într-un singur obiect, nu neapărat coplanar.
 
 ![600px](images/Part_Offset2D_Demo.png)
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -40,7 +50,13 @@ Se creează un obiect parametric de offset 2D. Obiectele originale sunt comutate
 
 -    **Source**: Link to original shape
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Value**The distance to enlarge the wire/face by. If negative, the wire/face is shrunk instead.
+
+
+</div>
 
 -    **Mode**(\"Pipe\" or \"Skin\"): sets how non-closed wires are processed. If \"Pipe\", the wire is outlined as if it was an extremely thin closed contour. If \"Skin\", an open wire is created.
 
@@ -90,9 +106,21 @@ Se creează un obiect parametric de offset 2D. Obiectele originale sunt comutate
 
 -   Lărgirea fețelor cu găuri circulare cu o cantitate suficient de mare pentru a provoca gauri de închidere, apare un accident (OCC 7.0.0). Problema pare să fie specifică cercurilor; alte forme par să se închidă în mod corespunzător.
 
+
+<div class="mw-translate-fuzzy">
+
 -   când se compensează cercuri care au poziționare diferită de zero, rezultatul este plasat greșit. (OCC 7.0.0)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   când se compensează cercurile, uneori sunt compensate în direcție neașteptată (de exemplu spre interior în loc de exterior). (OCC 7.0.0)
+
+
+</div>
 
 -   Fill=\"true\" nu funcționează când compensați colectiv filamentele deschise în modul \"Skin\"
 
@@ -102,7 +130,16 @@ Se creează un obiect parametric de offset 2D. Obiectele originale sunt comutate
 
 ## Scrip-Programare 
 
-Instrumentul poate fi utilizat în [macros](macros.md) și din consola python utilizând următoarea funcție: {{code|code=
+
+<div class="mw-translate-fuzzy">
+
+Instrumentul poate fi utilizat în [macros](macros.md) și din consola python utilizând următoarea funcție:
+
+
+</div>
+
+
+{{code|code=
 f = App.ActiveDocument.addObject("Part::Offset2D", "Offset2D")
 f.Source =  #some object
 f.Value = 10.0

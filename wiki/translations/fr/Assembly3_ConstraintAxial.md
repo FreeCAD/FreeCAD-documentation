@@ -28,7 +28,20 @@ Différents types d\'éléments géométriques peuvent être mélangés.
 
 1.  Placez deux objets ou plus dans un assemblage.
 2.  Sélectionnez un élément de chaque objet.
-3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Alignement axial](Assembly3_ConstraintAxial/fr.md)**.
+3.  Activez la commande <img alt="" src=images/Assembly_ConstraintAxial.svg  style="width:16px;">. **Contrainte axiale** en utilisant l\'une des commandes suivantes :
+    -   Le bouton **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Create "AxialAlignment" constraint](Assembly3_ConstraintAxial/fr.md)**.
+
+## Équivalent cinématique 
+
+Utilisée dans un contexte cinématique, cette contrainte ressemble à une *articulation cylindrique*.
+
+Dans la vie réelle, nous ne pouvons pas manipuler les axes et nous utilisons donc des faces cylindriques pour représenter les axes liés.
+
+<img alt="" src=images/Assembly3_ConstraintAxial-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_ConstraintAxial-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_ConstraintAxial-03.png  style="width:200px;">
+
+
+
+*Objets contraints avant et après l'exécution du solveur puis glissés le long de l'axe*
 
 
 

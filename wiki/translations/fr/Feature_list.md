@@ -1,5 +1,5 @@
 # Feature list/fr
-Vous trouverez ici une liste approfondie, mais cependant incomplète, des fonctionnalités implémentées dans FreeCAD. Si vous voulez vous renseigner sur les fonctionnalités à venir, vous pouvez consulter le [calendrier de développement](Development_roadmap/fr.md). Pour un aperçu rapide, la page [captures d\'écran](Screenshots/fr.md) est un bon endroit à visiter.
+Il s\'agit d\'une liste étendue, mais non complète, des fonctionnalités que FreeCAD implémente.
 
 
 {{TOCright}}
@@ -25,12 +25,12 @@ Vous trouverez ici une liste approfondie, mais cependant incomplète, des foncti
 
 
 -   ![](images/Feature3.jpg ) Un **modèle paramétrique** complet. Tous les objets construits dans FreeCAD sont paramétriques, ce qui signifie que leurs formes sont basées sur des [propriétés](Property/fr.md) ou peuvent même dépendre d\'autres objets. Toutes les modifications sont recalculées à la demande et enregistrées dans la pile annuler/rétablir. Les nouveaux types d\'objet peuvent être ajoutés très facilement et peuvent même être totalement [programmés en Python](Scripted_objects/fr.md).
--   ![](images/Feature4.jpg ) L**\'architecture modulaire** permet aux modules (plugins) d\'ajouter des fonctionnalités à l\'application de base. Ces extensions peuvent être aussi complexes qu\'une nouvelle application programmée en **[C++](http://fr.wikipedia.org/wiki/C%2B%2B)** ou aussi simple qu\'un **[Script Python](Power_users_hub/fr.md)** ou encore une [macro](macros/fr.md) que vous avez enregistrée. Vous avez un accès complet à la console **[Python](http://www.python.org/)** intégrée pour concevoir vos macros ou exécuter des scripts externes, à pratiquement n\'importe quelle partie de FreeCAD que ce soit pour la création, la transformation, la représentation [géométrique](Topological_data_scripting/fr.md) 2D ou 3D de votre [projet graphique](scenegraph/fr.md) ou même l\'[interface de FreeCAD](PySide/fr.md) elle-même.
--   ![](images/Feature5.jpg ) L\'importation/exportation de **formats standards** tels que [STEP](http://fr.wikipedia.org/wiki/Standard_pour_l%27%C3%A9change_de_donn%C3%A9es_de_produit), [IGES](http://fr.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification), [OBJ](https://fr.wikipedia.org/wiki/Obj), [STL](http://fr.wikipedia.org/wiki/Fichier_de_st%C3%A9r%C3%A9olithographie), [DXF](http://fr.wikipedia.org/wiki/Drawing_eXchange_Format), [SVG](http://fr.wikipedia.org/wiki/Scalable_Vector_Graphics), [DAE](http://fr.wikipedia.org/wiki/Collaborative_Design_Activity), [SFI](http://fr.wikipedia.org/wiki/Industry_Foundation_Classes) ou [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://fr.wikipedia.org/wiki/Nastran), [VRML](http://fr.wikipedia.org/wiki/Virtual_Reality_Markup_Language), outre le format de fichier originaire de FreeCAD*\' {{FileName|[FCStd](File_Format_FCStd/fr.md)}}*\'. Le niveau de compatibilité entre FreeCAD et un format de fichier donné peut varier car cela dépend du module qui l\'implémente.
+-   ![](images/Feature4.jpg ) L**\'architecture modulaire** permet aux modules (plugins) d\'ajouter des fonctionnalités à l\'application de base. Ces extensions peuvent être aussi complexes qu\'une nouvelle application programmée en **[C++](https://fr.wikipedia.org/wiki/C%2B%2B)** ou aussi simple qu\'un **[Script Python](Power_users_hub/fr.md)** ou encore une [macro](Macros/fr.md) que vous avez enregistrée. Vous avez un accès complet à la console **[Python](http://www.python.org/)** intégrée pour concevoir vos macros ou exécuter des scripts externes, à pratiquement n\'importe quelle partie de FreeCAD que ce soit pour la création, la transformation, la représentation [géométrique](Topological_data_scripting/fr.md) 2D ou 3D de votre [Graphe de scène](Scenegraph/fr.md) ou même l\'[interface de FreeCAD](PySide/fr.md) elle-même.
+-   ![](images/Feature5.jpg ) L\'importation/exportation de **formats standards** tels que [STEP](https://fr.wikipedia.org/wiki/Standard_pour_l%27%C3%A9change_de_donn%C3%A9es_de_produit), [IGES](https://fr.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification), [OBJ](https://fr.wikipedia.org/wiki/Obj), [STL](https://fr.wikipedia.org/wiki/Fichier_de_st%C3%A9r%C3%A9olithographie), [DXF](https://fr.wikipedia.org/wiki/Drawing_eXchange_Format), [SVG](http://fr.wikipedia.org/wiki/Scalable_Vector_Graphics), [DAE](https://fr.wikipedia.org/wiki/Collaborative_Design_Activity), [SFI](https://fr.wikipedia.org/wiki/Industry_Foundation_Classes) ou [OFF](https://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](https://fr.wikipedia.org/wiki/Nastran), [VRML](https://fr.wikipedia.org/wiki/Virtual_Reality_Markup_Language), outre le format de fichier originaire de FreeCAD*\' {{FileName|[FCStd](File_Format_FCStd/fr.md)}}*\'. Le niveau de compatibilité entre FreeCAD et un format de fichier donné peut varier car cela dépend du module qui l\'implémente.
 -   ![](images/Feature7.jpg ) Le module [Sketcher](Sketcher_Workbench/fr.md) est un solveur de contraintes qui permet de faire des esquisses des formes 2D géométriques contraintes. L\'esquisse 2D contrainte avec Sketcher permet aujourdh\'ui de construire plusieurs types de contraintes géométriques et de les utiliser comme la base de construction d\'autres objets tout au long de l\'utilisation de FreeCAD.
 -   ![](images/Feature9.jpg ) Le module [Robot](Robot_Workbench/fr.md) permet d\'étudier les mouvements de type robot dans un environnement graphique.
 -   ![](images/_Feature8.jpg ) Le module [TechDraw](TechDraw_Workbench/fr.md) avec les options telles que vue détaillée, coupes, cotations et autres permet de générer des vues 2D sur feuille à partir de vos modèles 3D. Ce module produit des feuilles au format SVG ou PDF prêtes à être exportées. Il existe toujours l\'ancien module [Drawing](Drawing_Workbench/fr.md) avec quelques commandes par interface graphique mais présente de puissantes fonctionnalités en [Python](http://www.python.org/).
--   ![](images/Feature-raytracing.jpg ) Le module [Raytracing](Raytracing_Workbench/fr.md) peut exporter des objets 3D pour obtenir des **rendus** avec des convertisseurs externes. Actuellement seuls [Povray](http://fr.wikipedia.org/wiki/Povray) et [LuxRender](https://fr.wikipedia.org/wiki/LuxRender) sont pris en charge. A l\'avenir cela devrait être étendu à d\'autres convertisseurs.
+-   ![](images/Feature-raytracing.jpg ) Le module [Raytracing](Raytracing_Workbench/fr.md) peut exporter des objets 3D pour obtenir des **rendus** avec des convertisseurs externes. Actuellement seuls [Povray](https://fr.wikipedia.org/wiki/Povray) et [LuxRender](https://fr.wikipedia.org/wiki/LuxRender) sont pris en charge. A l\'avenir cela devrait être étendu à d\'autres convertisseurs.
 -   ![](images/Feature-arch.jpg ) Le module [Arch](Arch_Workbench/fr.md) permet d\'utiliser [BIM](http://fr.wikipedia.org/wiki/Building_Information_Modeling) comme processus de travail et est compatible avec le format [IFC](http://fr.wikipedia.org/wiki/Industry_Foundation_Classes).
 -   ![](images/Feature-CAM.jpg ) Le module [Path](Path_Workbench/fr.md) est dédié à l\'usinage mécanique [Fabrication assistée par ordinateur](https://fr.wikipedia.org/wiki/Fabrication_assist%C3%A9e_par_ordinateur) (FAO). Avec le module Path, vous êtes en mesure d\'afficher et de modifier le [G code](https://fr.wikipedia.org/wiki/Programmation_de_commande_num%C3%A9rique) contrôlant votre machine. 
 -   ![](images/_Feature_spreadsheet.png ) Une [Feuille de calcul intégrée](Spreadsheet_Workbench/fr.md) et un [analyseur d\'expression](Expressions/fr.md) permettent de piloter des feuilles basées sur des formules ou de récupérer des données à partir de modèles. 
@@ -58,7 +58,7 @@ Vous trouverez ici une liste approfondie, mais cependant incomplète, des foncti
 
 -   **[Géométrie Solide Constructive](Constructive_solid_geometry/fr.md) (opérations booléennes)** comme **union**, **différence** et **intersection**.
 
--   **Création graphique de géométrie planaire**. Des lignes, des fils, des rectangles, des B-splines et des arcs circulaires ou elliptiques peuvent être créés graphiquement dans n\'importe quel plan de l\'espace 3D.
+-   **Création graphique de géométrie planaire**. Des lignes, des polylignes, des rectangles, des B-splines et des arcs circulaires ou elliptiques peuvent être créés graphiquement dans n\'importe quel plan de l\'espace 3D.
 
 -   Modélisation à l\'aide d**\'extrusions** droites ou de révolution, de **sections** et de **congés**.
 
@@ -88,13 +88,9 @@ Vous trouverez ici une liste approfondie, mais cependant incomplète, des foncti
 
 -   **Un installeur modulaire MSI**. L\'installeur de Freecad permet une installation flexible sur les systèmes Windows. Les paquets pour les systèmes Ubuntu sont également maintenus.
 
-## En développement 
+## Ateliers externes 
 
--   ![](images/Feature-assembly.jpg ) Le module [Projet Assemblage](Assembly_project/fr.md) permet de travailler avec plusieurs projets, plusieurs formes, plusieurs documents, plusieurs fichiers, et de multiples relations\... Ce module est actuellement en phase de développement. 
-
-## Ateliers supplémentaires 
-
-Des utilisateurs avancés ont créé différents [Ateliers externes](external_workbenches/fr.md).
+Des utilisateurs avancés ont créé différents [Ateliers externes](External_workbenches/fr.md).
 
 
 

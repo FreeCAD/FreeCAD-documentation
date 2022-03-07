@@ -3,16 +3,24 @@
    Name:Part Extrude
    MenuLocation:Part → Extrude
    Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Draft Trimex](Draft_Trimex.md)
+   SeeAlso:[Draft Trimex](Draft_Trimex.md), [PartDesign Pad](PartDesign_Pad.md)
 ---
 
 # Part Extrude/zh-cn
 
 ![600px](images/Part_Extrude_demo.png)
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## 描述
 
 **零件挤型**工具根据用户指定的距离以特定方向将一个形状挤压成型。根据输入的形状类型与可选项的具体选择，输出的形状类型会有所不同。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -30,6 +38,8 @@
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -54,15 +64,35 @@
 
 操作完成后，模型树将列出与被选形状一样多的挤型对象。而每一个输入形状都将被置于其挤型对象之下。
 
+## Parameters
+
+
+<div class="mw-translate-fuzzy">
+
 ## 参数
 
 挤型对象由下列参数定义而成，可在创建挤型对象后于数据选项卡中对其参数进行编辑调整。
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   **Base**: 输入的形状（挤型工具工作时要用到的基本形状）
+
+
+</div>
 
 -   **Dir**: 挤型方向。如果**Dir Mode**为\'Custom\'，您就可以编辑**Dir**。 否则，**Dir**仅为只读，且根据连接形状（linked shape）开始计算。
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Dir Link**: 以参数化的方式连接至一条边（线），从而设置挤型方向。自v0.17版起，属性编辑器中不在支持此属性。
+
+
+</div>
 
 -   **Dir Mode**: 设置如何控制**Dir**参数。\'Custom\'选项意味着**Dir**是可编辑的。\'Edge\'表示Dir要通过**Dir Link**根据一条待连接的边（线）来确定。而\'Normal\'则表示Dir正交于输入形状的所在平面。
 
@@ -76,11 +106,17 @@
 
 -   **Symmetric**: 如果此项为True，则以输入形状为中心向指定方向及其相反方向进行挤型，且挤型总长度为**Length Fwd**。并忽略**Length Rev**。
 
--   **Taper Angle** and **Taper Angle Rev**: applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**). As of v0.17, tapered extrusion is only supported for wires with no holes. Taper does not work well if the extruded shape contains B-splines.
+-   **Taper Angle** and **Taper Angle Rev**: applies an angle to the extrusion, so that sides of the extrusion are drafted by the specified angle. Positive angle means the cross-section expands. **Taper Angle Rev** sets the taper for the reversed part of the extrusion (the part from **Length Rev**).{{VersionMinus|0.19}} Tapered extrusion is only supported for shapes without inner structures. Taper does not work well if the shape contains B-splines.
 
 -   **Face Maker Class**: sets C++ class name of face making code, which is used when making solids from wires. This property is here mainly for maintaining backward compatibility. Do not touch, unless you know what you are doing.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Placement**: 标准的[定位参数集](Placement.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -158,19 +194,26 @@
 
 </div>
 
-PartDesign Pad也是一种挤型功能，但是与本页描述的挤型工具大有不同。
-
-零件挤型工具总是创建孤立的形状。而PartDesign Pad则把挤压成型的独立形状与其余体对象融合在一起。
-
 
 <div class="mw-translate-fuzzy">
 
-零件挤型工具并不关心对象在模型树中的具体位置。而PartDesign Pad却只能存在于[PartDesign Body中](PartDesign_Body.md)。
+PartDesign Pad也是一种挤型功能，但是与本页描述的挤型工具大有不同。
 
 
 </div>
 
-除了实体与复合实体（compsolid）以外，零件挤型工具能够对任意有着零件几何体（OCC形状）的对象执行挤压成型操作。另外，此工具还不能对其他对象上的单体面（individual face）进行挤型。而PartDesign Pad则只能接受草图Sketch（以及其他对象类型中的一小部分）或者实体上的单个面作为轮廓。
+-   Part Extrude always creates a standalone shape. PartDesign Pad fuses the extrusion result to the rest of the Body.
+-   Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only live inside a [PartDesign Body](PartDesign_Body.md).
+-   Part Extrude can extrude any object that has a Part geometry ([OpenCASCADE](OpenCASCADE.md) shape), except for solids and CompSolids.
+-   Part Extrude can extrude individual faces of other objects. PartDesign Pad will only accept either Sketch or faces of PartDesign objects as a profile.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part SliceApart
    Name/fr:Part Séparer/exploser
-   MenuLocation:Pièce → Scinder → Slice Apart
+   MenuLocation:Pièce → Scinder → Séparer et exploser
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.18
    SeeAlso:[Part Scinder](Part_Slice/fr.md), [Part Éclater le composé](Part_ExplodeCompound/fr.md)
@@ -20,7 +20,7 @@ Outil pour diviser des formes par intersection avec d\'autres formes. Par exempl
 
 [Séparer/exploser](Part_SliceApart/fr.md) est identique à <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Scinder](Part_Slice/fr.md) suivi de <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Part Éclater le composé](Part_ExplodeCompound/fr.md). Alors que \"Slice to compound (Scinder vers composé)\" est totalement paramétrique et ne pose aucun problème lorsque le nombre de pièces change, \"Slice apart (Séparer/exploser)\" ne met pas à jour le nombre d\'objets lorsque le nombre de pièces change. Ils créent tous deux la fonction paramétrique Slice, qui place les morceaux scindés dans un composé, mais \"Slice apart\" fait exploser le composé résultant en objets séparés.
 
-La forme de sortie occupe le même espace que l\'original. Mais il est divisé là où il croise d\'autres formes. Les pièces fendues sont des pièces individuelles.
+La forme de sortie occupe le même espace que l\'original. Mais elle est divisée là où elle croise d\'autres formes. Les pièces divisées sont des pièces individuelles.
 
 Veuillez visiter la page [Part Scinder](Part_Slice/fr.md) pour plus d\'informations.
 

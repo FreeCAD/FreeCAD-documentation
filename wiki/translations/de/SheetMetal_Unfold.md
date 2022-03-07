@@ -16,23 +16,23 @@ Der Befehl <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **
 
 ## Anwendung
 
-To unfold a sheet metal part:
+Ein Blechteil abwickeln:
 
-1.  Switch to the <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:22px;"> [SheetMetal Workbench](SheetMetal_Workbench.md).
-2.  Select a flat face of the sheet metal part. **Note**:the face should be a plane, the thickness should be constant
-3.  Click on the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **Unfold** tool to display a menu in task panel to manage unfolding options.
-4.  Select projection options of future flattened sketch
-5.  Select the rule for bend deduction with [Kfactor](https://github.com/shaise/FreeCAD_SheetMetal#terminology):
-    -   Use [Material Definition Sheet](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet)
-    -   Or select a manual [Kfactor](https://github.com/shaise/FreeCAD_SheetMetal#terminology) then the ANSI or DIN standard to apply
+1.  Zum Arbeitsbereich <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:22px;"> [SheetMetal](SheetMetal_Workbench.md) wechseln.
+2.  Auswahl einer ebenen Fläche des Blechteils. **Hinweis**: Die Fläche sollte eine Ebene und die Wandstärke kontant sein.
+3.  Die Schaltfläche <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **Unfold** anklicken, um ein Menü im Aufgabenbereich anzuzeigen, mit dem die Abwicklungseinstellungen verwaltet werden.
+4.  Auswahl der Darstellungsoptionen der Abwicklungsskizze.
+5.  Auswahl der Regeln für die Abwicklungsableitung mit [k-Faktor](https://github.com/shaise/FreeCAD_SheetMetal#terminology):
+    -   Verwendung eines [Material-Datenblatts](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet)
+    -   Oder Eingabe des [k-Faktors](https://github.com/shaise/FreeCAD_SheetMetal#terminology) von Hand und die Auswahl ob der Berechnung eine ANSI- oder DIN-Norm zugrunde liegt.
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-This tool creates an Unfold object and has no representation of its own in the [Tree view](Tree_view.md) or elsewhere and so has no properties.
+Dieses Werkzeug erstellt ein Unfold-Objekt und hat keinen eigenen Repräsentanten in der [Baumansicht](Tree_view/de.md) oder sonstwo und hat daher auch keine Eigenschaften.
 
-The **Unfold** object, on the other hand, is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It has no additional properties, but its label has a default value:
+Das **Unfold**-Objekt, andererseits, wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Es hat keine zusätzlichen Eigenschaften, aber sein Label hat einen Standardwert:
 
 ### Daten
 

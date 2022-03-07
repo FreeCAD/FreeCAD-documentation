@@ -1,4 +1,7 @@
 # BIM application compatibility table/de
+}
+
+
 <div class="mw-translate-fuzzy">
 
 Diese Seite gibt einen allgemeinen Überblick darüber, wie die verschiedenen Werkzeuge und Konzepte, die in anderen gängigen BIM Anwendungen zu finden sind, im Vergleich zu FreeCAD, speziell der [BIM Arbeitsbereich](BIM_Workbench/de.md), aussehen.

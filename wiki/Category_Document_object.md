@@ -11,9 +11,9 @@ This category lists pages related to objects derived from the base [App Document
 | [Constraint](wiki/Constraint.md) | [Datum](wiki/Datum.md) | [Drawing](wiki/Drawing.md) |
 | [Feature](wiki/Feature.md) | [Mesh](wiki/Mesh.md) | [Mesh Feature](wiki/Mesh Feature.md) |
 | [Mesh MeshObject](wiki/Mesh MeshObject.md) | [Model](wiki/Model.md) | [Part](wiki/Part.md) |
-| [Part Feature](wiki/Part Feature.md) | [Part TopoShape](wiki/Part TopoShape.md) | [PartDesign Feature](wiki/PartDesign Feature.md) |
-| [Shape](wiki/Shape.md) | [Sketch](wiki/Sketch.md) | [Sketcher SketchObject](wiki/Sketcher SketchObject.md) |
-|
+| [Part Feature](wiki/Part Feature.md) | [Part Part2DObject](wiki/Part Part2DObject.md) | [Part TopoShape](wiki/Part TopoShape.md) |
+| [PartDesign Feature](wiki/PartDesign Feature.md) | [Shape](wiki/Shape.md) | [Sketch](wiki/Sketch.md) |
+| [Sketcher SketchObject](wiki/Sketcher SketchObject.md) |
 
 
 

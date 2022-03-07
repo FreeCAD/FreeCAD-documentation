@@ -3,7 +3,7 @@
    Name:TechDraw PageTemplate
    MenuLocation:TechDraw → Insert Page using Template
    Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw Default Page](TechDraw_PageDefault.md), [TechDraw Templates](TechDraw_Templates.md)
+   SeeAlso:[TechDraw PageDefault](TechDraw_PageDefault.md), [TechDraw Templates](TechDraw_Templates.md)
 ---
 
 # TechDraw PageTemplate/en
@@ -26,9 +26,7 @@ The starting directory for the dialog can be specified in the [TechDraw Preferen
 
 ## Properties
 
--    **Projection Type**: Default projection type (First or Third Angle) for this Page.
-
--    **Scale**: Default scale for Views in this Page.
+See [TechDraw PageDefault](TechDraw_PageDefault#Properties.md).
 
 ## Scripting
 

@@ -1,27 +1,28 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Sketcher BSplineInsertKnot
-   MenuLocation:Sketch → Sketcher B-spline tools → Insert knot
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Name/pl:Szkicownik: Wstaw węzeł krzywej zlożonej
+   MenuLocation:Szkic → Narzędzia szkicownika krzywej złożonej → Wstaw węzeł
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Version:0.20
-   SeeAlso:[Sketcher Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md), [Sketcher BSpline Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md), [Sketcher BSpline Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)
+   SeeAlso:[Pokaż / ukryj wyświetlanie węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md), [Zwiększ krotność węzłów krzywej złożonej](Sketcher_BSplineIncreaseKnotMultiplicity/pl.md), [Zmniejsz krotność węzła krzywej złożonej](Sketcher_BSplineDecreaseKnotMultiplicity/pl.md)
 ---
 
 # Sketcher BSplineInsertKnot/pl
 
-## Description
+## Opis
 
-Inserts a knot into an existing [B-spline](B-Splines.md). If a knot already exists at the specified parameter, increases the multiplicity of that knot by one.
+Wstawia węzeł do istniejącej [krzywej złożonej](B-Splines/pl.md). Jeśli przy podanym parametrze istnieje już węzeł, zwiększa krotność tego węzła o jeden.
 
-## Usage
+## Użycie
 
-1.  Select a B-spline, then either:
-    -   Press the button **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [B-spline insert knot](Sketcher_BSplineInsertKnot.md)**.
-    -   Use the menu **Sketch → Sketcher B-spline tools → [<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> Insert knot**.
-2.  Move the cursor to the desired location where the new knot point is to be created, and click to insert the knot. The parametric value of the knot is displayed for reference.
-3.  Optionally repeat the step above to create more knots.
-4.  Right click or press **Esc** to exit knot insertion mode.
-5.  Optionally use <img alt="" src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg  style="width:24px;"> [Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md) to increase the multiplicity of the knot(s).
+1.  Wybierz krzywą złożoną, a następnie albo:
+    -   Naciśnij przycisk **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [Wstaw węzeł krzywej zlożonej](Sketcher_BSplineInsertKnot/pl.md)**.
+    -   Użyj menu **Szkic → Narzędzia szkicownika krzywej złożonej → [<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> Wstaw węzeł**.
+2.  Przesuń kursor do żądanego miejsca, w którym ma zostać utworzony nowy punkt węzła i kliknij, aby wstawić węzeł. Wartość parametryczna węzła jest wyświetlana jako odniesienie.
+3.  Opcjonalnie powtórz powyższy krok, aby utworzyć więcej węzłów.
+4.  Kliknij prawym przyciskiem myszy lub naciśnij **Esc**, aby wyjść z trybu wstawiania węzłów.
+5.  Opcjonalnie użyj narzędzia <img alt="" src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg  style="width:24px;">. [Zwiększ krotność węzłów krzywej złożonej](Sketcher_BSplineIncreaseKnotMultiplicity/pl.md), by zwiększyć krotność węzła(ów).
 
 
 

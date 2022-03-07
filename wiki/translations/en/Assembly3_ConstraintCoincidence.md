@@ -25,7 +25,20 @@ The rotation can be stopped by switching Lock Angle to true in the properties pa
 
 1.  Place two or more objects into an assembly.
 2.  Select one planar face element of each object.
-3.  Press the **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Plane Coincidence](Assembly3_ConstraintCoincidence.md)** button.
+3.  Activate the <img alt="" src=images/Assembly_ConstraintCoincidence.svg  style="width:16px;"> **Assembly3 ConstraintCoincidence** command using:
+    -   The **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Create "PlaneCoincident" constraint](Assembly3_ConstraintCoincidence.md)** button.
+
+## Kinematic Equivalent 
+
+Used in kinematic context this constraint resembles a hinge or a **revolute joint** when used with arcs and circles.
+
+In real life the shapes of the objects allow rotation and prevent sliding and in this case arcs and circles are utilised to simulate this.
+
+<img alt="" src=images/Assembly3_ConstraintCoincidence-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_ConstraintCoincidence-02.png  style="width:200px;">
+
+
+
+*Constrained objects before and after running the solver*
 
 
 

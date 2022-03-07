@@ -12,11 +12,11 @@ Pour plus d\'informations sur la manipulation des objets, voir [Std Transformati
 ## Sélection d\'un style de navigation 
 
 1.  Faites l\'une des choses suivantes :
-    -   Appuyez sur le bouton **[<img src=images/NavigationCAD.svg style="width:16px">** de la [Barre d\'état](Status_bar/fr.md).
+    -   Appuyez sur le bouton **[<img src=images/NavigationCAD_dark.svg style="width:16px">** de la [Barre d\'état](Status_bar/fr.md).
     -   Cliquez du bouton droit de la souris sur une zone vide dans la [Vue 3D](3D_view/fr.md) et sélectionnez **Styles de navigation** dans le menu contextuel.
     -   Utilisez les [Réglages des préférences](Preferences_Editor/fr#Navigation.md). Dans le menu, sélectionnez **Edition → Préférences** et ensuite **Affichage → Navigation → Navigation 3D**.
 2.  Sélectionnez un style dans la liste.
-3.  Modifiez éventuellement le **Style d'orbite** : appuyez sur le bouton **[<img src=images/NavigationCAD.svg style="width:16px">** dans la [Barre d\'état](Status_bar/fr.md) puis choisissez **Paramètres → Style d'orbite**. Voir [Réglages des préférences](Preferences_Editor/fr#Navigation.md).
+3.  Modifiez éventuellement le **Style d'orbite** : appuyez sur le bouton **[<img src=images/NavigationCAD_dark.svg style="width:16px">** dans la [Barre d\'état](Status_bar/fr.md) puis choisissez **Paramètres → Style d'orbite**. Voir [Réglages des préférences](Preferences_Editor/fr#Navigation.md).
 4.  Vous pouvez également modifier le **Mode de rotation**. Voir [Réglages des préférences](Preferences_Editor/fr#Navigation.md).
 5.  Si le mode de navigation **CAD** est sélectionné : modifiez éventuellement le paramètre **Permettre l'animation**. Voir [Réglages des préférences](Preferences_Editor/fr#Navigation.md).
 
@@ -110,7 +110,7 @@ Dans la v0.18 ce mode est désactivé par défaut. Pour l'activer, allez dans **
 
 ### Mode MayaGesture 
 
-Dans le mode de navigation MayaGesture, le panoramique, le zoom et la rotation de la vue nécessitent la touche **Alt** ainsi qu\'un bouton de la souris; une souris à trois boutons est donc nécessaire. Il est également possible d\'utiliser des gestes car ce mode a été développé par rapport au mode de [navigation Gesture](#Mode_Gesture.md).
+Dans le mode de navigation MayaGesture, le panoramique, le zoom et la rotation de la vue nécessitent la touche **Alt** ainsi qu\'un bouton de la souris; une souris à trois boutons est donc nécessaire. Il est également possible d\'utiliser des gestes car ce style a été développé par rapport au style de [navigation Gesture](#Mode_Gesture.md).
 
 
 {{MayaGesture Navigation
@@ -148,9 +148,9 @@ Vous pouvez également maintenir la touche **Ctrl** et le bouton gauche de la so
 
 ### Mode OpenInventor 
 
-Le mode de navigation OpenInventor (anciennement Inventor) s\'inspire d\'[Open Inventor](https://fr.wikipedia.org/wiki/Inventor_(bibliothèque_logicielle)). Pour sélectionner des objets, vous devez maintenir la touche **Ctrl** enfoncée.
+Le mode de navigation OpenInventor (anciennement Inventor) s\'inspire d\'[Open Inventor](https://fr.wikipedia.org/wiki/Inventor_(bibliothèque_logicielle)). Pour sélectionner des objets, vous devez maintenir la touche **Maj** ou **Ctrl** enfoncée.
 
-Ce mode n\'est pas basé sur Autodesk Inventor.
+Ce style n\'est pas basé sur Autodesk Inventor.
 
 
 {{OpenInventor Navigation
@@ -158,10 +158,12 @@ Ce mode n\'est pas basé sur Autodesk Inventor.
 |Pan_name=Mouvement panoramique
 |Zoom_name=Zoom
 |Rotate_view_name=Rotation de la vue
-|Ctrl=**Ctrl**
-|Select_text=Maintenez la touche **Ctrl** enfoncée, cliquez ensuite avec le bouton gauche de la souris sur l'objet que vous souhaitez sélectionner.
-|Pan_text=Appuyez sur le bouton central de la souris, puis  déplacez le pointeur.
-|Zoom_text=Utilisez la molette de la souris pour zoomer et dézoomer.
+|Shift=**Maj**
+|Select_text=Maintenez la touche **Maj** enfoncée, cliquez ensuite avec le bouton gauche de la souris sur l'objet que vous souhaitez sélectionner.
+
+Maintenez plutôt la touche **Ctrl** enfoncée pour sélectionner plusieurs objets.
+|Pan_text=Maintenir le bouton central de la souris, puis déplacer le pointeur.
+|Zoom_text=Utilisez la molette de la souris pour effectuer un zoom avant ou arrière.
 
 Alternativement : Maintenez le bouton central de la souris enfoncé, pressez ensuite le bouton gauche de la souris, puis déplacez le pointeur.
 |Rotate_view_text=Appuyez sur le bouton gauche de la souris, puis déplacez le pointeur.
@@ -239,15 +241,15 @@ Dans la navigation Touchpad, le panoramique, le zoom et la rotation de la vue n�
 |Pan_name=Mouvement panoramique
 |Zoom_name=Zoom
 |Rotate_view_name=Rotation de la vue
-|Shift=**Maj**
 |Ctrl=**Ctrl**
+|Shift=**Maj**
 |Alt=**Alt**
 |PageUp=**Page précédente**
 |PageDown=**Page suivante**
 |Select_text=Cliquez avec le bouton gauche sur l'objet que vous souhaitez sélectionner.
 |Pan_text=Maintenez la touche **Maj** enfoncée et déplacez le pointeur.
 |Zoom_text=Utiliser les touches **Page précédente** et **Page suivante** pour zoomer et dézoomer.
-|Zoom_alt_text=Autre possibilité, maintenez les touches **Maj** et **Ctrl** enfoncées, puis déplacez le pointeur.
+|Zoom_alt_text=Autre possibilité, maintenez les touches **Ctrl** et **Maj** enfoncées, puis déplacez le pointeur.
 |Rotate_view_text=Maintenez la touche **Alt** enfoncée, puis déplacez le pointeur.
 |Rotate_view_alt_text=Autre possibilité, maintenez la touche **Maj** enfoncée ainsi que le bouton gauche, puis déplacez le pointeur.
 }}

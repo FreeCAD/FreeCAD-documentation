@@ -13,9 +13,9 @@ This category collects pages about all the different file formats that FreeCAD i
 | [FreeCAD and DXF Import/fr](wiki/FreeCAD and DXF Import/fr.md) | [FreeCAD and Mesh Import/fr](wiki/FreeCAD and Mesh Import/fr.md) | [GlTF/fr](wiki/GlTF/fr.md) |
 | [Import Export Preferences/fr](wiki/Import Export Preferences/fr.md) | [Import Export/fr](wiki/Import Export/fr.md) | [Import from STL or OBJ/fr](wiki/Import from STL or OBJ/fr.md) |
 | [Import/Export IFC - compiling IfcOpenShell/fr](wiki/Import/Export IFC - compiling IfcOpenShell/fr.md) | [Importing From Sketchup/fr](wiki/Importing From Sketchup/fr.md) | [Macro 3DXML import/fr](wiki/Macro 3DXML import/fr.md) |
-| [Macro FCBmpImport/fr](wiki/Macro FCBmpImport/fr.md) | [Material/fr](wiki/Material/fr.md) | [OpenSCAD CSG/fr](wiki/OpenSCAD CSG/fr.md) |
-| [PDF/fr](wiki/PDF/fr.md) | [Spreadsheet CSV/fr](wiki/Spreadsheet CSV/fr.md) | [Std Export/fr](wiki/Std Export/fr.md) |
-| [Std Import/fr](wiki/Std Import/fr.md) | [SVG/fr](wiki/SVG/fr.md) |
+| [Macro FCBmpImport/fr](wiki/Macro FCBmpImport/fr.md) | [OpenSCAD CSG/fr](wiki/OpenSCAD CSG/fr.md) | [PDF/fr](wiki/PDF/fr.md) |
+| [Spreadsheet CSV/fr](wiki/Spreadsheet CSV/fr.md) | [Std Export/fr](wiki/Std Export/fr.md) | [Std Import/fr](wiki/Std Import/fr.md) |
+| [SVG/fr](wiki/SVG/fr.md) |
 
 
 

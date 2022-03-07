@@ -190,7 +190,6 @@ Gestion des outils, des forets et de la bibliothèque d\'outils. Basé sur l\'ar
 -   [Path Feuille de configuration](Path_SetupSheet/fr.md) : Vous pouvez utiliser une Feuille de configuration pour personnaliser la façon dont les diverses valeurs de propriété pour les opérations sont calculées.
 -   [Path Personnalisation du post-processeur](Path_Postprocessor_Customization/fr.md) : Si vous avez une machine spéciale qui ne peut pas utiliser l\'un des post-processeurs disponibles, vous pouvez avoir besoin d\'écrire votre propre post-processeur.
 -   [Path Quatrième axe](Path_fourth_axis/fr.md) : Fraisage expérimental sur quatre axes.
--   [Path Feuille de route du développement](Path_Development_Roadmap/fr.md) : Lisez cette page si vous êtes un développeur et que vous voulez contribuer à Path.
 
 ## Préférences
 
@@ -209,6 +208,10 @@ Voir la page [Path Ecrire un script](Path_scripting/fr.md).
 -   [FreeCAD Path : Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL) : une playlist avec une série de 5 vidéos en anglais par sliptonic. Cette série montre comment travailler avec l\'[atelier Path](Path_Workbench/fr.md).
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC) : une playlist avec une série de 7 vidéos en anglais par CAD CAM Lessons.
 -   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) : une playlist avec une série de 8 vidéos en anglais par CAD CAM Lessons.
+
+## Feuille de route 
+
+-   [Path Plan de développement](Path_Development_Roadmap/fr.md) : Lisez ceci si vous êtes un développeur et que vous souhaitez contribuer à Path.
 
 
 

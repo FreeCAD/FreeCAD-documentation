@@ -181,30 +181,18 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 
 Ein ähnlicher Ablauf wie oben beschrieben kann mit der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) durchgeführt werden.
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Erstelle die **[Entwurf FormZeichenfolge](File:Draft_ShapeString.svg   16px]] [[Draft_ShapeString/de.md)** zuerst
+1.  Erstelle die **[Draft FormZeichenfolge](File:Draft_ShapeString.svg   16px]] [[Draft_ShapeString/de.md)** zuerst
 2.  Erstelle einen **[PartDesign Körper](File:PartDesign_Body_Tree.svg   16px]] [[PartDesign_Body/de.md)**, aktiviere ihn und füge einen Basis-Volumenkörper hinzu, indem du Primitive hinzufügst, oder verwende eine Skizze und extrudiere sie mit **[PartDesign Polster](File:PartDesign_Pad.svg   16px]] [[PartDesign_Pad/de.md)**.
-3.  Bewege das {{incode   FormZeichenfolge}} Objekt in den aktiven Körper.
-4.  Hänge das {{incode   FormZeichenfolge}} Objekt an eine der Flächen des Volumenkörpers oder an ein **[PartDesign Ebene](File:PartDesign_Plane.svg   16px]] [[PartDesign Plane/de.md)**, unter Verwendung **[/de|Part Bindung](File:Part_Attachment.svg   16px]] [[Part_EditAttachment.md)**.
-5.  Erstelle jetzt ein **[PartDesign Polster](File:PartDesign_Pad.svg   16px]] [[PartDesign_Pad/de.md)** oder ein **[PartDesign Tasche](File:PartDesign_Pocket.svg   16px]] [[PartDesign_Pocket/de.md)** aus der {{incode   Formzeichenfolge}}, um eine additive bzw. subtraktive [Grundelement](PartDesign_Feature/de.md) des Grundkörpers zu erzeugen.
-
-
-</div>
+3.  Bewege das {{incode   ShapeString}}-Objekt in den aktiven Körper.
+4.  Hänge das {{incode   ShapeString}}-Objekt an eine der Flächen des Volumenkörpers oder an ein **[PartDesign Bezugsebene erstellen](File:PartDesign_Plane.svg   16px]] [[PartDesign_Plane/de.md)**, unter Verwendung **[/de|Part AnhangBearbeiten](File:Part_EditAttachment.svg   16px]] [[Part_EditAttachment.md)**.
+5.  Erstelle jetzt ein **[PartDesign Polster](File:PartDesign_Pad.svg   16px]] [[PartDesign_Pad/de.md)** oder eine **[PartDesign Tasche](File:PartDesign_Pocket.svg   16px]] [[PartDesign_Pocket/de.md)** aus dem {{incode   ShapeString}}, um ein entsprechendes additives bzw. subtraktives [PartDesign Formelement](PartDesign_Feature/de.md) aus dem Grundkörper zu erzeugen.
 
 Siehe den Forumsbeitrag, [Wie man FormZeichenfolgen in PartDesign verwendet](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623).
 
 ## Anmerkungen
 
-
-<div class="mw-translate-fuzzy">
-
--   Um gekrümmten Text zu erstellen, kannst Du das Makro <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;"> verwenden. [Macro FCCircularText](Macro_FCCircularText/de.md).
--   Um Text aus einer SVG Datei zu importieren, schaue dir das Tutorium [Importieren von Text und Geometrie von Inkscape](Import_text_and_geometry_from_Inkscape/de.md) an.
-
-
-</div>
+-   Um gekrümmten Text zu erstellen, kann man das Makro <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;"> [Makro FCCircularTextverwenden](Macro_FCCircularText/de.md).
+-   Um Text aus einer SVG Datei zu importieren, schaue dir das Tutorium [Importieren von Text und Geometrie aus Inkscape](Import_text_and_geometry_from_Inkscape/de.md) an.
 
 
   {{PartDesign Tools navi}} {{Sketcher Tools navi}} {{Userdocnavi

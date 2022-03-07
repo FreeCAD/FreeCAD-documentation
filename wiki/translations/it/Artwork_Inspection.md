@@ -10,11 +10,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 ![](images/Workbench_Inspection.svg ) ![](images/inspect_pipette.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Inspection](Category_Inspection.md) > Artwork Inspection/it

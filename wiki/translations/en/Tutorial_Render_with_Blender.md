@@ -21,9 +21,6 @@ It produces a rendering with Blender 2.80 with both the EEVEE and Cycles rendere
 
 A similar description of this process is described in a series of videos, [Render Solidworks and FreeCAD Models in Blender](https://www.youtube.com/watch?v=U7e6-Wfv2b0), by Joko Engineering.
 
-
-{{Note|Note: a faster way to render models in blender without leaving FreeCAD can be done via the <img src="images/render_workbench_icon.svg" width=24px>[Render project](Render_project.md)|}}
-
 ## FreeCAD
 
 1\. Create an assembly using bodies from the [Part Workbench](Part_Workbench.md) or [PartDesign Workbench](PartDesign_Workbench.md), or any other workbench that produces solid objects, for example, the [Arch Workbench](Arch_Workbench.md). Assign colors or materials to the individual bodies that make the assembly, approximately matching the color that you want in your render.

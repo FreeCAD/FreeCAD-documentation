@@ -13,9 +13,17 @@
 
 ![600px](images/Part_Extrude_demo.png)
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 **Part Extrudieren** erweitert eine Form durch einen bestimmten Abstand in einer bestimmten Richtung. Der Typ der Ausgabeform ändert sich abhängig vom Type der Eingabeform und der gewählten Optionen.
+
+
+</div>
 
 In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformtyp aus einem gegebenen Eingabeformtyp aufgelistet,
 
@@ -27,6 +35,8 @@ In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformty
 -   extrudieren einer Fläche (z.B. Ebene) wird einen Festkörper (z.B. Quader) erzeugen
 -   extrudieren eines **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Entwurf Form Zeichenfolge](Draft_ShapeString.md)** wird einen Verbund von Festkörpern (die Zeichenfolge ist ein Verbund der Buchstaben, die ebenfalls Festkörper sind) erzeugen
 -   extrudieren einer Hülle von Flächen wird ein Verbundfestkörper erzeugt
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -41,19 +51,45 @@ In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformty
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Alternativ kann die Auswahl auch nach dem Start des Werkzeugs erfolgen, durch Wahl einer oder mehrerer Formen aus der Liste im [Aufgabenpaneel](Task_panel/de.md).
 
+
+</div>
+
 Der Modellbaum zeigt so viele Extrusionsobjekte wie vorher ausgewählte Formen. Jede Eingabeform wird unterhalb des jeweiligen Extrusionsobjekte abgelegt.
+
+## Parameters
+
+
+<div class="mw-translate-fuzzy">
 
 ## Parameter
 
 Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer Erstellung auf dem Datenreiter bearbeitet werden können.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   **Basis**: Die Eingabeform (die Form, auf die Part Extrudieren angewendet wurde)
+
+
+</div>
 
 -   **Dir**: Die Richtung, in die die Form extrudiert werden soll. Falls **Dir Mode** auf \'Custom\' gesetzt ist, kann **Dir** geändert werden. Andernfalls ist **Dir** nur-lesen und wird aus der verbundenen Form berechnet.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Dir Link**: Parametrische Verbindung zu einer Kante (Linie), die die Extrusionsrichtung setzt. Seit v0.17 wird diese Eigenschaft nicht mehr vom Eigenschafteneditor unterstützt.
+
+
+</div>
 
 -   **Dir Mode**: legt fest, wie **Dir** kontrolliert wird. \'Custom\' bedeutet, **Dir** ist änderbar. \'Edge\' bedeutet, Dir wird aus einer über **Dir Link** verbundenen Kante (Linie) ermittelt. \'Normal\' bedeutet, Dir ist senkrecht zur Ebene der Eingabeform.
 
@@ -67,11 +103,23 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 -   **Symmetric**: wenn True, ist die Extrusion an der Eingangsform zentriert, und die Gesamtlänge ist **Länge Fwd**. **Länge Rev**\' wird ignoriert.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Neigungswinkel**\' und **Neigungswinkel Rev**\': wendet einen Winkel auf die Extrusion an, so dass die Seiten der Extrusion um den angegebenen Winkel verzogen werden. Positiver Winkel bedeutet, dass sich der Querschnitt ausdehnt. **Neigungswinkel Rev**: legt die Verjüngung für den umgekehrten Teil der Extrusion fest (der Teil aus **Länge Rev**). Ab v0.17 wird die geneigte Extrusion nur noch für Drähte ohne Löcher unterstützt. Neigung funktioniert nicht gut, wenn die extrudierte Form B-Splines enthält.
+
+
+</div>
 
 -   **Flächer Hersteller Klasse**\': legt den C++ Klassennamen des Flächen Hersteller Codes fest, der bei der Herstellung von Festkörpern aus Drähten verwendet wird. Diese Eigenschaft dient hier hauptsächlich der Aufrechterhaltung der Abwärtskompatibilität. Nicht antasten, es sei denn, du weißt, was du tust.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Placement**: Die Standard-[placement](Placement.md)-Parameter
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -115,6 +163,8 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 -   Formliste: Hier werden die zu extrudierenden Formen ausgewählt. Bei der Auswahl von mehreren Objekte werden mehrere Extrusionsobjekte erstellt.
 
+## Notes
+
 
 <div class="mw-translate-fuzzy">
 
@@ -149,19 +199,18 @@ Extrusion mit Neigungswinkel unterstützt keine Bohrungen. Es kann auch zu falsc
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 PartDesign Polster ist ebenfalls ein Extrusionsmerkmal, aber es gibt wichtige Unterschiede.
 
-Part Extrudieren erzeugt immer eine einzelne Form. PartDesign Polster verschmilzt das Ergebnis der Extrusion mit dem Rest des Körpers.
-
-
-<div class="mw-translate-fuzzy">
-
-Part Extrudieren funktioniert überall im Modellbaum, PartDesign Polster nur innerhalb eines [PartDesign Körpers](PartDesign_Body/de.md).
-
 
 </div>
 
-Part Extrudieren kann jedes Objekt mit Part Geometrie (OCC Form) extrudieren, außer Festkörpern und Verbundfestkörper. Und es kann keine einzelnen Oberflächen von anderen Objekten extrudieren. PartDesign Polster akzeptiert nur eine Skizze als Profil (und eine kleine Auswahl anderer Objekttypen) oder eine Fläche eines Festkörpers.
+-   Part Extrude always creates a standalone shape. PartDesign Pad fuses the extrusion result to the rest of the Body.
+-   Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only live inside a [PartDesign Body](PartDesign_Body.md).
+-   Part Extrude can extrude any object that has a Part geometry ([OpenCASCADE](OpenCASCADE.md) shape), except for solids and CompSolids.
+-   Part Extrude can extrude individual faces of other objects. PartDesign Pad will only accept either Sketch or faces of PartDesign objects as a profile.
 
 
 <div class="mw-translate-fuzzy">
@@ -171,6 +220,11 @@ Part Extrudieren kann jedes Objekt mit Part Geometrie (OCC Form) extrudieren, au
 
 
 </div>
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

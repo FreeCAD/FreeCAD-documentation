@@ -24,13 +24,15 @@ Vide
 
 ### Données
 
-#### Base
+
+{{TitleProperty|Base}}
 
 -    **Placement**:
 
 -    **Label**: Nom d\'utilisateur de l\'objet (UTF-8)
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: hauteur nécessaire pour éviter les pinces et les obstructions.
 
@@ -42,7 +44,8 @@ Vide
 
 -    **Step Down**: abaissement incrémentiel de l\'outil.
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: mettre à False pour empêcher l\'opération de générer du code
 
@@ -60,7 +63,8 @@ Vide
 
 -    **User Label**: étiquette attribuée par l\'utilisateur
 
-### Hidden
+
+{{TitleProperty|Hidden}}
 
 -    **Base Object**:
 

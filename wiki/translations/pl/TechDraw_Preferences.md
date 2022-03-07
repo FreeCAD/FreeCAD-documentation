@@ -41,6 +41,11 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 -   **Plik PAT**: Domyślny plik definicji wzoru PAT dla **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [Kreskowanie powierzchni za pomocą pliku graficznego](TechDraw_GeometricHatch.md)**.
 -   \'\'\'\' Nazwa wzoru \'\'\': Nazwa domyślnego wzoru PAT.
 
+### Siatka
+
+-   **Pokaż siatkę**: Domyślne ustawienie pokazywania siatki dla nowych stron. {{Version/pl|0.20}}
+-   **Odstępy między liniami siatki**: Domyślna odległość między liniami siatki dla nowych stron. {{Version/pl|0.20}}
+
 ## Skala
 
 <img alt="Preferencje dotyczące skali" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
@@ -127,6 +132,7 @@ Ustawienie domyślnych kolorów dla nowo utworzonych stron:
 -   **Wypełnienie wzorem**: Kolor wypełnienia dla [wzoru wypełnienia](TechDraw_GeometricHatch.md).
 -   **Wierzchołek**: Kolor wybieranego [wierzchołka](Glossary#V.md).
 -   **Linia główna**: Kolor dla [linii głównych](TechDraw_LeaderLine.md).
+-   **Kolor siatki**: Kolor wszystkich siatek na stronie. {{Version/pl|0.20}}
 
 ## HLR
 
@@ -157,34 +163,6 @@ HLR oznacza \"usunięcie ukrytej linii\".
 -   **Kształt zakończenia linii**: Ustawienie kształtu zakończenia linii. Wyjaśnienie opcji: <https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum> kształt zakończenia linii.
 -   **Max SVG kafelki kreskowania**: Limit płytek SVG o rozmiarze 64x64 pikseli stosowany do zakreskowania pojedynczej powierzchni. Przy dużych skalach można popełnić błąd przy wielu kafelkach SVG, wtedy należy zwiększyć limit kafelków.
 -   *Maksymalne segmenty linii kreskowania PAT*: Maksymalna liczba segmentów linii kreskowania stosowana przy kreskowaniu powierzchni o wzorze PAT.
-
-## Ustawienia ukryte 
-
-\'\'\'Uwaga: \'\'\' Od wersji **0.19** wszystkie ustawienia są dostępne w menu Preferencje. Poniższe informacje dotyczą tylko wersji FreeCAD starszych niż 0.19:
-
-Niektóre ustawienia preferencji są dostępne tylko poprzez [Edytor parametrów](Std_DlgParameter/pl.md), **Narzędzia → Edycja parametrów**.
-
-### Preferencje/Mod/TechDraw/Dekoracje
-
--   **CenterMarkScale**: domyślny współczynnik skali dla znaczników środka.
--   **ShowCenterMarks**: domyślnie `True`/`False`.
--   **PrintCenterMarks**: `True`/`False` pokaż znaczniki środka podczas drukowania. {{Version/pl|0.19}}
-
-### Preferencje/Mod/TechDraw/Generalne
-
--   **DefaultScale**: wstępne ustawienie skali strony {{VersionPlus/pl|0.19}}.
--   **EdgeFuzz**: promień wybierania dla krawędzi.
--   **MarkFuzz**: promień wybierania dla znaczników środka.
--   **SectionFuseFirst**: zabezpiecz obiekty źródłowe przed wykonaniem cięcia przekroju.
--   **EdgeEndCap**: kształt zakończeń krawędzi **0x00** zakończenie płaskie, **0x10** zakończenie kwadratowe, **0x20** zakończenie okrągłe *(Qt::PenCapStyle)* {{VersionPlus/pl|0.19}}.
-
-### Preferencje/Mod/TechDraw/Format
-
--   **format przekroju**: styl linii przekroju 0-ASME 1-ISO
-
-### Preferencje/Mod/TechDraw/Standardy
-
--   **WyrównaniePromienia**: Format wymiaru promienia 0-ISO *(wyrównany)* 1-ASME *(jednolity)*.
 
 
 

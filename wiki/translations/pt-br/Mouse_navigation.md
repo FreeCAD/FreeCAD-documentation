@@ -141,7 +141,7 @@ Na v0.18 este método é desativado por padrão. Para ativar, vá para {**Editar
 === Maya-Gesture Navigation ===
 </div>
 
-In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It's also possible to use gestures as this mode was developed over the [Gesture navigation](#Gesture_navigation.md) mode.
+In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It's also possible to use gestures as this style was developed over the [Gesture navigation](#Gesture_navigation.md) style.
 
 <div class="mw-translate-fuzzy">
 Na Navegação com o Maya-Gesture, o panorâmico, o zoom e a rotação da vista requerem a tecla **Alt** juntamente com um botão do mouse; portanto, é necessário um mouse de três botões. Também é possível usar gestos, pois este modo foi desenvolvido sobre o modo [Navegação por gestos](#Navegação_por_gestos.md).
@@ -187,8 +187,11 @@ Alternativamente, segure **Ctrl** e o botão esquerdo do mouse, depois mova o po
 A navegação OpenInventor (antigo Inventor) foi modelada após [http://en.wikipedia.org/wiki/Open_Inventor Open Inventor]. Para selecionar objetos, você deve manter pressionada a tecla **Ctrl**.
 </div>
 
+<div class="mw-translate-fuzzy">
 Este modo não é baseado no Autodesk Inventor.
+</div>
 
+<div class="mw-translate-fuzzy">
 {{OpenInventor Navigation
 |Select_name=Selecionar
 |Pan_name=Pan(movimento panorâmico)
@@ -198,6 +201,11 @@ Este modo não é baseado no Autodesk Inventor.
 |Select_text=Segure **Ctrl**, depois pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
 |Pan_text=Segure o botão do meio do mouse, depois mova o ponteiro.
 |Zoom_text=Use a rodinha do mouse para aumentar e diminuir o zoom.
+</div>
+
+Hold down **Ctrl** instead to select multiple objects.
+|Pan_text=Hold the middle mouse button, then move the pointer.
+|Zoom_text=Use the mouse wheel to zoom in and out.
 
 Alternativamente, segure o botão central do mouse, depois pressione e segure o botão esquerdo do mouse, depois mova o ponteiro. |Rotate_view_text=Mantenha o botão esquerdo do mouse pressionado, depois mova o ponteiro.
 }}

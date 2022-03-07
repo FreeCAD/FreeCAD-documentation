@@ -25,7 +25,7 @@ Les principales fonctions de l\'Atelier Assembly3 sont les suivantes :
 
 #### Barre d\'outils principale 
 
-:   <img alt="" src=images/Assembly3_ToolbarMain.png  style="width:700px;">
+:   <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Import.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Move.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -35,71 +35,71 @@ La **Barre d\'outils principale** contient des outils qui couvrent les fonctions
 
 <div class="mw-collapsible-content toccolours">
 
-:\* <img alt="" src=images/Assembly_New_Assembly.svg  style="width:32px;"> [Create assembly](Assembly3_CreateAssembly/fr.md) : Ajouter un dossier d\'assemblage
+:\* <img alt="" src=images/Assembly_New_Assembly.svg  style="width:32px;"> [Créer un assemblage](Assembly3_CreateAssembly/fr.md) : Ajouter un dossier d\'assemblage.
 
-:\* <img alt="" src=images/Assembly_New_Group.svg  style="width:32px;"> [Group objects](Assembly3_GroupObjects/fr.md) : Objets de groupe
+:\* <img alt="" src=images/Assembly_New_Group.svg  style="width:32px;"> [Grouper des objets](Assembly3_GroupObjects/fr.md) : Grouper des objets.
 
-:\* <img alt="" src=images/Assembly_New_Element.svg  style="width:32px;"> [Create element](Assembly3_CreateElement/fr.md) : Crée un élément.
+:\* <img alt="" src=images/Assembly_New_Element.svg  style="width:32px;"> [Créer un élément](Assembly3_CreateElement/fr.md) : Créer un élément.
 
-:\* Importer depuis STEP. Cela a deux paramètres
+:\* Importer depuis STEP. Deux paramètres :
 
-:\*\* <img alt="" src=images/Assembly_Import.svg  style="width:32px;"> [Import STEP files](Assembly3_ImportFromSTEP/fr.md) : Importer des fichiers STEP
+:\*\* <img alt="" src=images/Assembly_Import.svg  style="width:32px;"> [Importer fichier STEP](Assembly3_ImportFromSTEP/fr.md) : Importer des fichiers STEP
 
-:\*\* <img alt="" src=images/Assembly_ImportMulti.svg  style="width:32px;"> [Import as multi-document](Assembly3_ImportMultiDocument/fr.md) : Importer des assemblages de STEP dans des documents séparés
+:\*\* <img alt="" src=images/Assembly_ImportMulti.svg  style="width:32px;"> [Importer plusieurs documents](Assembly3_ImportMultiDocument/fr.md) : Importer des assemblages de STEP dans des documents séparés
 
-:\* <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:32px;"> [Résoudre les contraintes](Assembly3_ResolveConstraints/fr.md) : Résoudre les contraintes
+:\* <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:32px;"> [Résoudre les contraintes](Assembly3_ResolveConstraints/fr.md) : Résoudre les contraintes.
 
-:\* <img alt="" src=images/Assembly_QuickSolve.svg  style="width:32px;"> [Quick resolution](Assembly3_QuickSolve/fr.md): Contraintes de résolution rapide
+:\* <img alt="" src=images/Assembly_QuickSolve.svg  style="width:32px;"> [Résolution rapide](Assembly3_QuickSolve/fr.md) : Résolution rapide des contraintes.
 
-:\* <img alt="" src=images/Assembly_Move.svg  style="width:32px;"> [Move part](Assembly3_MovePart/fr.md) : Déplacer les pièces en 3D, ceci est spécifique à Assembly3
+:\* <img alt="" src=images/Assembly_Move.svg  style="width:32px;"> [Déplacer une pièce](Assembly3_MovePart/fr.md) : Déplacer les pièces en 3D, ceci est spécifique à Assembly3.
 
-:\* <img alt="" src=images/Assembly_AxialMove.svg  style="width:32px;"> [Axial move](Assembly3_AxialMove/fr.md) : Déplacement axial des pièces en 3D, c\'est l\'outil classique disponible ailleurs dans FreeCAD
+:\* <img alt="" src=images/Assembly_AxialMove.svg  style="width:32px;"> [Déplacement axial](Assembly3_AxialMove/fr.md) : Déplacement axial des pièces en 3D, c\'est l\'outil classique disponible ailleurs dans FreeCAD.
 
-:\* <img alt="" src=images/Assembly_QuickMove.svg  style="width:32px;"> [Quick move](Assembly3_QuickMove/fr.md) : Ceci attachera la pièce sélectionnée dans l\'arborescence au curseur de la souris. Cela changera la position de la pièce lorsque vous cliquerez.
+:\* <img alt="" src=images/Assembly_QuickMove.svg  style="width:32px;"> [Déplacement rapide](Assembly3_QuickMove/fr.md) : Ceci attachera la pièce sélectionnée dans l\'arborescence au curseur de la souris. Cela changera la position de la pièce lorsque vous cliquerez.
 
 :\*: Souvent, les pièces ajoutées sont empilées les unes sur les autres à l\'origine. Utilisez cette fonction pour saisir une partie que vous ne pouvez pas voir.
 
-:\* <img alt="" src=images/Assembly_LockMover.svg  style="width:32px;"> [Lock mover](Assembly3_LockMover/fr.md) : Dispositif de verrouillage pour partie fixe. Bouton à bascule. Lorsque cette option n\'est pas sélectionnée, vous pouvez déplacer les pièces qui ont une contrainte \"Verrouillé\".
+:\* <img alt="" src=images/Assembly_LockMover.svg  style="width:32px;"> [Verrouiller le déplacement](Assembly3_LockMover/fr.md) : Dispositif de verrouillage pour une pièce fixe. Bouton à bascule. Lorsque cette option n\'est pas sélectionnée, vous pouvez déplacer les pièces qui ont une contrainte \"Verrouillage\".
 
 :\* <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="width:32px;"> [Basculer la visibilité de la pièce](Assembly3_TogglePartVisibility/fr.md) : Ceci active/désactive la visibilité de la pièce sélectionnée.
 
 :\*: Notez que cela diffère de l\'utilisation de l\'espace. L\'utilisation de l\'espace avec des éléments sélectionnés d\'un sous-assemblage dans la vue 3D ne se comporte souvent pas comme prévu. Utilisez cette fonction dans ces cas (ou le raccourci A-Space)
 
-:\* <img alt="" src=images/Assembly_Trace.svg  style="width:32px;"> [Trace part move](Assembly3_TracePartMove/fr.md): Trace part move (TBD)
+:\* <img alt="" src=images/Assembly_Trace.svg  style="width:32px;"> [Tracé du déplacement d\'une pièce](Assembly3_TracePartMove/fr.md) : Tracé du déplacement d\'une pièce (A définir)
 
-:\* <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:32px;"> [Auto recompute](Assembly3_AutoRecompute/fr.md) : Recalcul automatique. Habituellement activé.
+:\* <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:32px;"> [Recomputation automatique](Assembly3_AutoRecompute/fr.md) : Recalcul automatique. Habituellement activé.
 
-:\*: Peut être désélectionné lors de la réparation de contraintes ou de la fixation de pièces où le solveur donne un message \'\' \"ne convergent pas\" \'\' (par exemple en tournant la pièce à 180 degrés)
+:\*: Peut être désélectionné lors de la réparation de contraintes ou de la fixation de pièces où le solveur donne un message *\"do not converge\"* (par exemple en tournant la pièce à 180 degrés)
 
-:\* <img alt="" src=images/Assembly_SmartRecompute.svg  style="width:32px;"> [Smart recompute](Assembly3_SmartRecompute/fr.md) : Recalcul intelligent. Habituellement activé.
+:\* <img alt="" src=images/Assembly_SmartRecompute.svg  style="width:32px;"> [Recomputation intelligente](Assembly3_SmartRecompute/fr.md) : Recalcul intelligent. Habituellement activé.
 
-:\* <img alt="" src=images/Assembly_AutoFixElement.svg  style="width:32px;"> [Auto fix element](Assembly3_AutoFixElement/fr.md) : Élément auto réparation. Fonctionnalité expérimentale dans 0.19\_pre.
+:\* <img alt="" src=images/Assembly_AutoFixElement.svg  style="width:32px;"> [Auto réparation d\'un élement](Assembly3_AutoFixElement/fr.md) : Auto réparation d\'un élement. Fonctionnalité expérimentale dans 0.19\_pre.
 
 :\* Style d\'élément. Cela a deux paramètres
 
-:\*\* <img alt="" src=images/Assembly_AutoElementVis.svg  style="width:32px;"> [Visibilité d\'élément automatique](Assembly3_AutoElementVisibility/fr.md) : Visibilité d\'élément automatique
+:\*\* <img alt="" src=images/Assembly_AutoElementVis.svg  style="width:32px;"> [Visibilité d\'élément automatique](Assembly3_AutoElementVisibility/fr.md) : Visibilité d\'élément automatique.
 
-:\*\* <img alt="" src=images/Assembly_ShowElementCS.svg  style="width:32px;"> [Afficher le système de coordonnées de l\'élément](Assembly3_ShowElementCS/fr.md) : Afficher le système de coordonnées de l\'élément
+:\*\* <img alt="" src=images/Assembly_ShowElementCS.svg  style="width:32px;"> [Système de coordonnées de l\'élément](Assembly3_ShowElementCS/fr.md) : Afficher le système de coordonnées de l\'élément.
 
-:\* Plan de travail et origine. Ajoute un plan de travail, un placement ou une origine. Une pièce doit être sélectionnée. Cela a cinq paramètres
+:\* Plan de travail et origine. Ajoute un plan de travail, un placement ou une origine. Une pièce doit être sélectionnée. Cinq paramètres
 
-:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg  style="width:32px;"> [Add workplane](Assembly3_AddXYWorkplane/fr.md) : Ajouter un plan de travail XY
+:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg  style="width:32px;"> [Ajouter un plan de travail](Assembly3_AddWorkplane/fr.md) : Ajouter un plan de travail.
 
-:\*\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg  style="width:32px;"> [Add XZ workplane](Assembly3_AddXZWorkplane/fr.md) : Ajouter un plan de travail XZ
+:\*\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg  style="width:32px;"> [Ajouter un plan de travail XZ](Assembly3_AddXZWorkplane/fr.md) : Ajouter un plan de travail XZ.
 
-:\*\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg  style="width:32px;"> [Add ZY workplane](Assembly3_AddZYWorkplane/fr.md) : Ajouter un plan de travail YZ
+:\*\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg  style="width:32px;"> [Ajouter un plan de travail ZY](Assembly3_AddZYWorkplane/fr.md) : Ajouter un plan de travail YZ.
 
-:\*\* <img alt="" src=images/Assembly_Add_Placement.svg  style="width:32px;"> [Add placement](Assembly3_AddPlacement/fr.md) : Ajouter un emplacement
+:\*\* <img alt="" src=images/Assembly_Add_Placement.svg  style="width:32px;"> [Ajoutez un emplacement](Assembly3_AddPlacement/fr.md) : Ajouter un emplacement.
 
-:\*\* <img alt="" src=images/Assembly_Add_Origin.svg  style="width:32px;"> [Add Origin](Assembly3_AddOrigin/fr.md): Ajouter l\'origine
+:\*\* <img alt="" src=images/Assembly_Add_Origin.svg  style="width:32px;"> [Ajouter une origine](Assembly3_AddOrigin/fr.md): Ajouter l\'origine.
 
-:\* <img alt="" src=images/Assembly_TreeItemUp.svg  style="width:32px;"> [Move item up](Assembly3_MoveItemUp/fr.md) : Déplacer l\'élément d\'arborescence sélectionné vers le haut
+:\* <img alt="" src=images/Assembly_TreeItemUp.svg  style="width:32px;"> [Déplacer un objet vers le haut](Assembly3_MoveItemUp/fr.md) : Déplacer l\'élément d\'arborescence sélectionné vers le haut.
 
-:\* <img alt="" src=images/Assembly_TreeItemDown.svg  style="width:32px;"> [Déplacer l\'élément vers le bas](Assembly3_MoveItemDown/fr.md) : Déplacer l\'élément sélectionné de l\'arborescence vers le bas
+:\* <img alt="" src=images/Assembly_TreeItemDown.svg  style="width:32px;"> [Déplacer un objet vers le bas](Assembly3_MoveItemDown/fr.md) : Déplacer l\'élément sélectionné de l\'arborescence vers le bas.
 
 :\*: Permet de trier les pièces, éléments ou contraintes dans l\'arborescence. Élément retourné (de haut en bas et vice versa). Ne fonctionne que pour une seule sélection.
 
-:\* <img alt="" src=images/Assembly_ConstraintMultiply.svg  style="width:32px;"> [Multiply constraint](Assembly3_MultiplyConstraint/fr.md) : Contrainte de multiplication. Cela peut être sélectionné si plusieurs pièces et éléments appropriés sont présents.
+:\* <img alt="" src=images/Assembly_ConstraintMultiply.svg  style="width:32px;"> [Multiplier les contraintes](Assembly3_MultiplyConstraint/fr.md) : Contrainte de multiplication. Cela peut être sélectionné si plusieurs pièces et éléments appropriés sont présents.
 
 :\*: Il est utilisé par ex. pour affecter plusieurs fixations du même type dans plusieurs trous avec une seule contrainte.
 
@@ -247,25 +247,25 @@ Vous pouvez les activer en sélectionnant le bouton **<img src="images/Assembly_
 
 :\* <img alt="" src=images/Assembly_ConstraintLengthDifference.svg  style="width:32px;"> [Contrainte longueur différence](Assembly3_ConstraintLengthDifference/fr.md) : Ajoute une \"Différence de longueur\" pour contraindre la différence de longueur de deux lignes.
 
-:\* <img alt="" src=images/Assembly_ConstraintLengthEqualPointLineDistance.svg  style="width:32px;"> [Contrainte longueur égale distance point ligne](Assembly3_ConstraintLengthEqualPointLineDistance/fr.md): Ajoute une \"Length Equal Point Line Distance\" pour contraindre la distance
+:\* <img alt="" src=images/Assembly_ConstraintLengthEqualPointLineDistance.svg  style="width:32px;"> [Contrainte longueur égale distance point ligne](Assembly3_ConstraintLengthEqualPointLineDistance/fr.md): Ajoute une \"Length Equal Point Line Distance\" pour contraindre la distance.
 
 :\*: entre un point et une ligne pour être la même que la longueur d\'une autre ligne.
 
 :\* <img alt="" src=images/Assembly_ConstraintGeneral.svg  style="width:32px;"> (<img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg  style="width:32px;">) [Contrainte égalité longueur arc et ligne](Assembly3_ConstraintEqualLineArcLength.md) : Ajoute une \"Longueur d\'arc de ligne égale \"contrainte de faire une ligne de même longueur qu\'un arc.
 
-:\* <img alt="" src=images/Assembly_ConstraintMidPoint.svg  style="width:32px;"> [Mid point](Assembly3_ConstraintMidPoint/fr.md) : Ajoute un \"Milieu\" pour contraindre un point au milieu d\'une ligne.
+:\* <img alt="" src=images/Assembly_ConstraintMidPoint.svg  style="width:32px;"> [Contrainte milieu](Assembly3_ConstraintMidPoint/fr.md) : Ajoute un \"Milieu\" pour contraindre un point au milieu d\'une ligne.
 
-:\* <img alt="" src=images/Assembly_ConstraintDiameter.svg  style="width:32px;"> [Diameter](Assembly3_ConstraintDiameter/fr.md) : Ajoute un \"Diamètre\" pour contraindre le diamètre d\'un cercle/arc.
+:\* <img alt="" src=images/Assembly_ConstraintDiameter.svg  style="width:32px;"> [Contrainte diamètre](Assembly3_ConstraintDiameter/fr.md) : Ajoute un \"Diamètre\" pour contraindre le diamètre d\'un cercle/arc.
 
-:\* <img alt="" src=images/Assembly_ConstraintEqualRadius.svg  style="width:32px;"> [Equal radius](Assembly3_ConstraintEqualRadius/fr.md) : Ajoute une contrainte \"Equal radius\" pour créer deux cercles/arcs de même rayon.
+:\* <img alt="" src=images/Assembly_ConstraintEqualRadius.svg  style="width:32px;"> [Contrainte rayon](Assembly3_ConstraintEqualRadius/fr.md) : Ajoute une contrainte \"Egalité de rayon\" pour créer deux cercles/arcs de même rayon.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg  style="width:32px;"> [Points project distance](Assembly3_ConstraintPointsProjectDistance/fr.md) : Ajoute une \"distance du projet de points\" pour contraindre la distance de deux points projetés sur une ligne.
+:\* <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg  style="width:32px;"> [Contrainte distance du point projeté](Assembly3_ConstraintPointsProjectDistance/fr.md) : Ajoute une \"distance du projet de points\" pour contraindre la distance de deux points projetés sur une ligne.
 
-:\* <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg  style="width:32px;"> [Equal point line distance](Assembly3_ConstraintEqualPointLineDistance/fr.md) : Ajoute une \"Equal point line distance\" pour contraindre la distance
+:\* <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg  style="width:32px;"> [Contrainte égalité distance point et ligne](Assembly3_ConstraintEqualPointLineDistance/fr.md) : Ajoute une \"Equal point line distance\" pour contraindre la distance.
 
 :\*: entre un point et une ligne pour être identique à la distance entre un autre point et une ligne.
 
-:\* <img alt="" src=images/Assembly_ConstraintColinear.svg  style="width:32px;"> [Colinear](Assembly3_ConstraintColinear/fr.md) : Ajoute une contrainte \"Colinéaire\" pour rendre deux lignes colinéaires.
+:\* <img alt="" src=images/Assembly_ConstraintColinear.svg  style="width:32px;"> [Contrainte colinéaire](Assembly3_ConstraintColinear/fr.md) : Ajoute une contrainte \"Colinéaire\" pour rendre deux lignes colinéaires.
 
 
 </div>
@@ -295,11 +295,11 @@ Vous pouvez les activer en sélectionnant le bouton **<img src="images/Assembly_
 
 <div class="mw-collapsible-content toccolours">
 
-:\* <img alt="" src=images/Assembly_GotoRelation.svg  style="width:32px;"> [Go to relation](Assembly3_GoToRelation/fr.md) : Révèle le groupe Relations (caché par défaut) et sélectionne un objet relation.
+:\* <img alt="" src=images/Assembly_GotoRelation.svg  style="width:32px;"> [Relations](Assembly3_GoToRelation/fr.md) : Révèle le groupe Relations (caché par défaut) et sélectionne un objet relation.
 
-:\* <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Select linked object](Std_LinkSelectLinked/fr.md) : Sélectionne l\'objet lié et passe à son document. {{Version/fr|0.19}}
+:\* <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Lien objet lié](Std_LinkSelectLinked/fr.md) : Sélectionne l\'objet lié et passe à son document. {{Version/fr|0.19}}
 
-:\* <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Select linked final](Std_LinkSelectLinkedFinal/fr.md) : Sélectionne l\'objet lié le plus profond et passe à son document. {{Version/fr|0.19}}
+:\* <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md) : Sélectionne l\'objet lié le plus profond et passe à son document. {{Version/fr|0.19}}
 
 
 </div>
@@ -591,7 +591,6 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 -   [Tutoriel pour l\'atelier Assembly 3](http://help-freecad-jpg87.fr/02_ass_ind.php) par jpg87.
 -   [État actuel de l\'assemblage](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Ateliers externes](External_workbenches/fr.md)
--   [Projet Assembly](Assembly_project/fr.md) plan de développement, pour se familiariser avec l\'historique du problème.
 
 
 

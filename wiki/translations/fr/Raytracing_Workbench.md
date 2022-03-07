@@ -131,13 +131,6 @@ Ces pages font référence au nouveau plan de travail, programmé en Python, des
 -   [Render Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=25933) (annonce uniquement, pas de discussion)
 -   [Améliorations de FreeCAD Renderer Workbench](https://forum.freecadweb.org/viewtopic.php?t=39168)
 
-**Obsolète**
-
-Ces pages font référence à un plan de travail de remplacement, programmé en C ++, proposé vers 2012, qui n\'a jamais été achevé.
-
--   [Projet Raytracing](Raytracing_project/fr.md)
--   [Projet de rendu](Render_project/fr.md)
-
 
 
 

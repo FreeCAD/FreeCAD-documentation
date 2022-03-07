@@ -42,7 +42,7 @@ Git è uno strumento complesso, prima di utilizzare questo strumento considerare
 
 1.  Salvare il documento attivo corrente
 2.  Assicurarsi che il file salvato è già parte di un repository git
-3.  Selezionare il menu Arch → Utilità → **<img src="images/Arch_CommitGit.png" width=16px> [Git](Arch_Git/it.md)
+3.  Selezionare il menu Arch → Utilità → **<img src="images/WebTools_Git.svg" width=16px> [Git](Arch_Git/it.md)
 **
 
 

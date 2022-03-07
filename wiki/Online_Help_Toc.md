@@ -73,6 +73,7 @@
     - [Gui Command](Gui_Command.md)
     - [Units](Units.md)
     - [Profiling](Profiling.md)
+    - [Debugging](Debugging#Python_Debugging.md)
     - [Builtin modules](Builtin_modules.md)
     - [Workbench creation](Workbench_creation.md)
     - [Mesh Scripting](Mesh_Scripting.md)

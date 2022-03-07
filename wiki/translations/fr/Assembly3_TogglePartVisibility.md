@@ -5,14 +5,14 @@
    Icon:Assembly_TogglePartVisibility.svg‎‎
    MenuLocation:Assembly3 → Toggle part visibility
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
-   Shortcut:**A** puis **Space**
+   Shortcut:**A** puis **Espace**
 ---
 
 # Assembly3 TogglePartVisibility/fr
 
 ## Description
 
-La commande <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="width:24px;"> [Basculer la visibilité de pièces](Assembly3_TogglePartVisibility/fr.md) fait\...
+La commande <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="width:24px;"> [Basculer la visibilité de pièces](Assembly3_TogglePartVisibility/fr.md) permet d\'activer la visibilité de l\'objet pièce qui est connecté à un objet **Element** présélectionné.
 
 ## Utilisation
 

@@ -14,64 +14,111 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Создаёт параметрический клин. Этот клин по умолчанию в основании имеет большой квадрат и меньший в вершине.
+
+
+</div>
+
+<img alt="" src=images/Part_Wedge_Example.png  style="width:400px;">
 
 ## Применение
 
-### Размеры по умолчанию и Размещение 
+See [Part Primitives](Part_Primitives#Usage.md).
 
-**Размещение:** По умолчанию основание размещено в плоскости XZ, а верхняя часть размещена в направлении оси Y. По умолчанию, базовый угол размещён в начале координат 0,0,0.
+## Example
 
-**Базовая плоскость:**
+![Part Wedge from the scripting example](images/Part_Wedge_Scripting_Example.png )
 
--   X : 10 мм
--   Z : 10 мм
+A Part Wedge object created with the [scripting example](#Scripting.md) below is shown here.
 
-**Высота:**
+## Notes
 
--   Y : 0-10 мм
+-   The values of the coordinates of the wedge must be such that a valid solid can be create. This means that the front and rear base shapes can both be single edges, but not if they are parallel. And if one of the base shapes is a vertex the other shape must be a rectangular face.
 
-**Верхняя плоскость:**
+## Properties
 
--   X : 2-8 мм
--   Z : 2-8 мм
+See also: [Property editor](Property_editor.md).
 
-![](images/PartWedgeProperty.png ) 
+A Part Wedge object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-### Параметры ввода 
+### Data
 
-+++
-| ![](images/PartWedgeProperty_Inputs.png ) | Ниже приведены параметры:                  |
-|                                                                  |                                            |
-|                                                                  | -                           |
-|                                                                  |     **X мин/макс**            |
-|                                                                  |                                         |
-|                                                                  |     : Размеры основания относительно оси X |
-|                                                                  |                                            |
-|                                                                  | -                           |
-|                                                                  |     **Y мин/макс**            |
-|                                                                  |                                         |
-|                                                                  |     : Высота клина относительно оси Y      |
-|                                                                  |                                            |
-|                                                                  | -                           |
-|                                                                  |     **Z мин/макс**            |
-|                                                                  |                                         |
-|                                                                  |     : Размеры основания относительно оси Z |
-|                                                                  |                                            |
-|                                                                  | -                           |
-|                                                                  |     **X2 мин/макс**           |
-|                                                                  |                                         |
-|                                                                  |     : Размеры вершины относительно оси X   |
-|                                                                  |                                            |
-|                                                                  | -                           |
-|                                                                  |     **Z2 мин/макс**           |
-|                                                                  |                                         |
-|                                                                  |     : Размеры вершины относительно оси Z   |
-+++
 
-### Дополнительные примеры клиньев 
+{{TitleProperty|Attachment}}
 
-![](images/Wedge_examples.png )
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
+{{TitleProperty|Wedge}}
+
+-    **Xmin|Distance**: The lowest X coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **Ymin|Distance**: The Y coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **Zmin|Distance**: The lowest Z coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **X2min|Distance**: The lowest X coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+
+-    **Z2min|Distance**: The lowest Z coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+
+-    **Xmax|Distance**: The highest X coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+
+-    **Ymax|Distance**: The Y coordinate of the rear face of the wedge. The default is {{Value|10mm}}.
+
+-    **Zmax|Distance**: The highest Z coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+
+-    **X2max|Distance**: The highest X coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+
+-    **Z2max|Distance**: The highest Z coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Wedge can be created with the {{Incode|addObject()}} method of the document:
+
+
+```python
+wedge = FreeCAD.ActiveDocument.addObject("Part::Wedge", "myWedge")
+```
+
+-   Where {{Incode|"myWedge"}} is the name for the object.
+-   The function returns the newly created object.
+
+Example:
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+wedge = doc.addObject("Part::Wedge", "myWedge")
+wedge.Xmin = 1
+wedge.Ymin = 2
+wedge.Zmin = 3
+wedge.X2min = 4
+wedge.Z2min = 6
+wedge.Xmax = 15
+wedge.Ymax = 20
+wedge.Zmax = 55
+wedge.X2max = 10
+wedge.Z2max = 12
+wedge.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(75, 60, 30))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

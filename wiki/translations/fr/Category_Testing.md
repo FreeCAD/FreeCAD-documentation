@@ -5,8 +5,9 @@ Pages relatives aux tests concernant les tests unitaires, l\'intégration contin
 
 |     |     |     |
 | --- | --- | --- |
-| [AppImage/fr](wiki/AppImage/fr.md) | [Continuous Integration/fr](wiki/Continuous Integration/fr.md) | [LGTM/fr](wiki/LGTM/fr.md) |
-| [Testing/fr](wiki/Testing/fr.md) | [Category:Test Framework/fr](wiki/Category_Test Framework/fr.md) |
+| [AppImage/fr](wiki/AppImage/fr.md) | [Artwork Test/fr](wiki/Artwork Test/fr.md) | [Continuous Integration/fr](wiki/Continuous Integration/fr.md) |
+| [LGTM/fr](wiki/LGTM/fr.md) | [Testing/fr](wiki/Testing/fr.md) | [Category:Test Framework/fr](wiki/Category_Test Framework/fr.md) |
+|
 
 
 

@@ -47,7 +47,7 @@ Alternatively, one or more Bodies can be selected prior to pressing the Boolean 
 -    **Display**: sets the display between 2 modes:
 
     -   Result (default): displays the result of the Boolean feature. In this mode, the tool Bodies cannot be displayed in their original state, even when their visibility is toggled on.
-    -   Tools: displays the tool Bodies in their original state. This mode is useful when editing tool Bodies is needed.
+    -   Tools: displays the tool Bodies in their original state. This mode is useful when tool Bodies need to be edited, or used in later operations.
 
 -    **Selectable**: true or false. If set to false, the feature cannot be selected in the 3D view.
 
@@ -56,7 +56,7 @@ Alternatively, one or more Bodies can be selected prior to pressing the Boolean 
 ## Ограничения
 
 -   For Common to work with more than one tool body, they must all intersect each other along with the active Body.
--   Tool bodies adopt the local origin of the active Body. If the active Body is not located at (0,0,0) in the global coordinate system, the tool bodies\' placement need to be relative to the active Body. It may be easier to leave the active Body\'s placement at the origin before applying the Boolean feature, then to change its placement.
+-   Tool bodies adopt the local origin of the active Body. If the active Body is not located at (0,0,0) in the global coordinate system, the tool bodies\' placement need to be relative to the active Body. It may be easier to leave the active Body\'s placement at the origin before applying the Boolean feature, than to change its placement.
 
 
 

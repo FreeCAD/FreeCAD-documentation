@@ -13,9 +13,7 @@ Google Summer of Code
 | [GSoC FEM Solver Z88](wiki/GSoC FEM Solver Z88.md) | [GSoC FEM Unit Tests](wiki/GSoC FEM Unit Tests.md) | [GSoC Path/Robot Integration](wiki/GSoC Path/Robot Integration.md) |
 | [Integrate Cycles renderer](wiki/Integrate Cycles renderer.md) | [IPython notebook integration](wiki/IPython notebook integration.md) | [Mapping of main ElmerSolver setting for mechanical simulations](wiki/Mapping of main ElmerSolver setting for mechanical simulations.md) |
 | [New solver object for handling ElmerFEM execution in FEM-workbench](wiki/New solver object for handling ElmerFEM execution in FEM-workbench.md) | [PartDesign Updates](wiki/PartDesign Updates.md) | [Swept-path Analysis GSoC Project](wiki/Swept-path Analysis GSoC Project.md) |
-| [TechDraw Enhancement Project](wiki/TechDraw Enhancement Project.md) | [Topological Naming Project](wiki/Topological Naming Project.md) | [Topological Naming Project/de](wiki/Topological Naming Project/de.md) |
-| [Topological Naming Project/en](wiki/Topological Naming Project/en.md) | [Topological Naming Project/es](wiki/Topological Naming Project/es.md) | [Topological Naming Project/fr](wiki/Topological Naming Project/fr.md) |
-| [Topological Naming Project/it](wiki/Topological Naming Project/it.md) | [Topological Naming Project/pt-br](wiki/Topological Naming Project/pt-br.md) | [Unified Measurement Facility](wiki/Unified Measurement Facility.md) |
+| [TechDraw Enhancement Project](wiki/TechDraw Enhancement Project.md) | [Topological Naming Project](wiki/Topological Naming Project.md) | [Unified Measurement Facility](wiki/Unified Measurement Facility.md) |
 | [Upgrade the documentation system](wiki/Upgrade the documentation system.md) |
 
 

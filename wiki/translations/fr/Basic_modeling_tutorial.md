@@ -30,7 +30,7 @@ Commençons par la création d\'un pied en fer en L (cornière) pour fabriquer u
 ## 1ère méthode - par géométrie de construction de solides 
 
 1.  Commencez avec l\'[atelier Part](Part_Workbench/fr.md) ![](images/Switch_PartWorkbench.JPG ).
-2.  Si vous n\'avez pas créé un nouveau document FreeCAD (l\'essentiel de la fenêtre de FreeCAD paraît alors grisée), allez dans le menu déroulant **Fichier → Nouveau** ou cliquez sur <img alt="" src=images/Document-new.png  style="width:32px;"> **Créer un nouveau document vide**.
+2.  Si vous n\'avez pas créé un nouveau document FreeCAD (l\'essentiel de la fenêtre de FreeCAD paraît alors grisée), allez dans le menu déroulant **Fichier → Nouveau** ou cliquez sur <img alt="" src=images/Std_New.svg  style="width:32px;"> **Créer un nouveau document vide**.
 3.  Cliquez sur le bouton <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cube](Part_Box/fr.md) pour créer un cube.
 4.  Changez ses dimensions en le sélectionnant soit dans l\'espace 3D, soit en le cliquant dans l\'onglet Projet à gauche, puis
 5.  Cliquez sur l\'onglet Données en bas, et changez les valeurs de la Longueur, de la Largeur et de la Hauteur en 50mm, 50 et 750 *(voir Fig. 1.1)*. **Remarque** : *lorsque ces captures ont été faites, les propriétés étaient classées différemment, la Hauteur étant la première*.
@@ -60,7 +60,7 @@ Par ailleurs, nous pouvons ajouter des congés afin de rendre le fer en L plus r
 
 Avec cette méthode, nous commençons par dessiner un profil 2D. Activez l\'[atelier Draft](Draft_Workbench/fr.md) ![](images/Switch_DraftWorkbench.JPG ).
 
--   Si vous n\'avez pas créé de nouveau document FreeCAD (l\'essentiel de la fenêtre FreeCAD paraît alors grisé), aller dans le menu Fichier → Nouveau ou cliquer sur Créer un nouveau document vide <img alt="" src=images/Document-new.png  style="width:32px;">.
+-   Si vous n\'avez pas créé de nouveau document FreeCAD (l\'essentiel de la fenêtre FreeCAD paraît alors grisé), aller dans le menu Fichier → Nouveau ou cliquer sur l\'icône <img alt="" src=images/Std_New.svg  style="width:32px;"> **Créer un nouveau document vide**.
 
 ### Réglage du plan de travail 
 

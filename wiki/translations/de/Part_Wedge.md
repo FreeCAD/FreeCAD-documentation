@@ -13,64 +13,111 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
 Erstellt ein parametrisches Keil-Objekt. Der Keil hat standardmäßig eine große quadratische Grundfläche und eine kleinere quadratische Deckfläche.
+
+
+</div>
+
+<img alt="" src=images/Part_Wedge_Example.png  style="width:400px;">
 
 ## Usage
 
-### Start-Größe und Position 
+See [Part Primitives](Part_Primitives#Usage.md).
 
-**Position:** Die Standard-Orientierung platziert die Grundfläche in die XZ-Ebene und die Deckfläche in Richtung der Y-Achse. Der Nullpunkt der Grundfläche liegt in 0/0/0.
+## Example
 
-**Grundfläche:**
+![Part Wedge from the scripting example](images/Part_Wedge_Scripting_Example.png )
 
--   X : 10 mm
--   Z : 10 mm
+A Part Wedge object created with the [scripting example](#Scripting.md) below is shown here.
 
-**Höhe:**
+## Notes
 
--   Y : 0-10 mm
+-   The values of the coordinates of the wedge must be such that a valid solid can be create. This means that the front and rear base shapes can both be single edges, but not if they are parallel. And if one of the base shapes is a vertex the other shape must be a rectangular face.
 
-**Deckfläche:**
+## Properties
 
--   X : 2-8 mm
--   Z : 2-8 mm
+See also: [Property editor](Property_editor.md).
 
-![](images/PartWedgeProperty.png ) 
+A Part Wedge object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-### Parametrische Eingaben 
+### Data
 
-+++
-| ![](images/PartWedgeProperty_Inputs.png ) | Zusammen mit der Standard-Orientierung stehen die Eingaben für: |
-|                                                                  |                                                                 |
-|                                                                  | -                                                |
-|                                                                  |     {{PropertyData/de|X min/max}}                               |
-|                                                                  |                                                              |
-|                                                                  |     : Koordinatenwerte der unteren Fläche in X-Richtung         |
-|                                                                  |                                                                 |
-|                                                                  | -                                                |
-|                                                                  |     {{PropertyData/de|Y min/max}}                               |
-|                                                                  |                                                              |
-|                                                                  |     : Lage der oberen und unteren Fläche in Y-Richtung          |
-|                                                                  |                                                                 |
-|                                                                  | -                                                |
-|                                                                  |     {{PropertyData/de|Z min/max}}                               |
-|                                                                  |                                                              |
-|                                                                  |     : Koordinatenwerte der unteren Fläche in Z-Richtung         |
-|                                                                  |                                                                 |
-|                                                                  | -                                                |
-|                                                                  |     {{PropertyData/de|X2 min/max}}                              |
-|                                                                  |                                                              |
-|                                                                  |     : Koordinatenwerte der oberen Fläche in X-Richtung          |
-|                                                                  |                                                                 |
-|                                                                  | -                                                |
-|                                                                  |     {{PropertyData/de|Z2 min/max}}                              |
-|                                                                  |                                                              |
-|                                                                  |     : Koordinatenwerte der oberen Fläche in Z-Richtung          |
-+++
 
-### Mehr Beispiele für Keile 
+{{TitleProperty|Attachment}}
 
-![](images/Wedge_examples.png )
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
+{{TitleProperty|Wedge}}
+
+-    **Xmin|Distance**: The lowest X coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **Ymin|Distance**: The Y coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **Zmin|Distance**: The lowest Z coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **X2min|Distance**: The lowest X coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+
+-    **Z2min|Distance**: The lowest Z coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+
+-    **Xmax|Distance**: The highest X coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+
+-    **Ymax|Distance**: The Y coordinate of the rear face of the wedge. The default is {{Value|10mm}}.
+
+-    **Zmax|Distance**: The highest Z coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+
+-    **X2max|Distance**: The highest X coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+
+-    **Z2max|Distance**: The highest Z coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Wedge can be created with the {{Incode|addObject()}} method of the document:
+
+
+```python
+wedge = FreeCAD.ActiveDocument.addObject("Part::Wedge", "myWedge")
+```
+
+-   Where {{Incode|"myWedge"}} is the name for the object.
+-   The function returns the newly created object.
+
+Example:
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+wedge = doc.addObject("Part::Wedge", "myWedge")
+wedge.Xmin = 1
+wedge.Ymin = 2
+wedge.Zmin = 3
+wedge.X2min = 4
+wedge.Z2min = 6
+wedge.Xmax = 15
+wedge.Ymax = 20
+wedge.Zmax = 55
+wedge.X2max = 10
+wedge.Z2max = 12
+wedge.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(75, 60, 30))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

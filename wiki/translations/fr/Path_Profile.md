@@ -65,7 +65,8 @@ Apportez des ajustements supplémentaires à l\'opération en modifiant les prop
 
 \'\'\' *Remarque* \'\'\': toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
@@ -118,7 +119,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    {{PropertyData/fr|Label}}: nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: hauteur nécessaire pour supprimer les pinces et les obstructions.
 
@@ -135,7 +137,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:300px;"> 
 *Référence visuelle pour les propriétés de profondeur (paramètres)*
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: mettre à Falsepour empêcher l\'opération de générer du code.
 
@@ -151,7 +154,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **User Label**: étiquette attribuée par l\'utilisateur.
 
-#### Profile
+
+{{TitleProperty|Profile}}
 
 -    **Direction**: direction dans laquelle la trajectoire d\'outil doit contourner la pièce: dans le sens horaire \[CW\] ou dans le sens antihoraire \[CCW\].
 
@@ -173,7 +177,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Use Compensation**: si cette case est cochée, l\'opération de profil est décalée du rayon de l\'outil. La direction du décalage est déterminée par le côté de coupe.
 
-#### Rotation
+
+{{TitleProperty|Rotation}}
 
 -    **Attempt Inverse Angle**: tente automatiquement l\'angle inverse si la rotation initiale est incorrecte.
 
@@ -185,7 +190,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Reverse Direction**: inverse l\'orientation de l\'opération de 180 degrés.
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: point de départ personnalisé pour le chemin de cette opération.
 
@@ -210,13 +216,13 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-#### Géométrie de base 
+### Géométrie de base 
 
 -   **Add**: ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
 -   **Delete**: supprime le ou les éléments sélectionnés dans la liste emplacement de base.
 -   **Clear**: efface tous les éléments de la liste d\'emplacement de base.
 
-#### Profondeurs
+### Profondeurs
 
 -    **Start Depth**
     
@@ -227,7 +233,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Step Down**
     
 
-#### Hauteurs
+### Hauteurs
 
 -    **Safe Height**
     
@@ -235,7 +241,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Clearance Height**
     
 
-#### Opération
+### Opération
 
 -    **Tool Controller**
     

@@ -9,6 +9,9 @@
 
 # TechDraw PageTemplate/de
 
+
+</div>
+
 ## Beschreibung
 
 Das Neue Auswahl Werkzeug erstellt ein neues Seitenobjekt unter Verwendung der in einem Dialogfeld ausgewählten Vorlagendatei.
@@ -27,9 +30,7 @@ Das Startverzeichnis für das Dialogfenster kann in den [TechDraw Einstellungen]
 
 ## Eigenschaften
 
--    {{PropertyData/de|Projektionstyp}}: Standard Projektionstyp (erster oder dritter Winkel) für diese Seite.
-
--    {{PropertyData/de|Maßstab}}: Standardmaßstab für Ansichten auf dieser Seite.
+See [TechDraw PageDefault](TechDraw_PageDefault#Properties.md).
 
 ## Skripten
 

@@ -1,4 +1,10 @@
 # FreeCAD Docker CLI mode/es
+}
+
+
+
+
+
 {{TOCright}}
 
 ## Vista general 

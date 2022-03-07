@@ -15,7 +15,7 @@ Usage instructions for the [Adaptive](Path_Adaptive.md) operation are presented 
 
 #### Basic Operation 
 
-1.  Press the **<img src="images/Path_Adaptive.svg" width=16px> [Adaptive](Path_Adaptive.md)** icon, or select the ** Path** → **<img src="images/Path_Adaptive.svg" width=24px> [Adaptive](Path_Adaptive.md)** from the top menu.
+1.  Press the **<img src="images/Path_Adaptive.svg" width=16px> [Adaptive](Path_Adaptive.md)** icon, or select the **Path** → **<img src="images/Path_Adaptive.svg" width=24px> [Adaptive](Path_Adaptive.md)** from the top menu.
 2.  Select the tool controller for the Operation from the Tool controller dialogue pop up window, if prompted.
 3.  Adjust the operation depths as needed in the Depths tab: Start Depth, Finish Depth, Step Down.
 4.  Make adjustments in Heights tab if needed.
@@ -37,7 +37,8 @@ Usage instructions for the [Adaptive](Path_Adaptive.md) operation are presented 
 
 \'\'\' *Note* \'\'\': The names of some Properties in this list differ a little from the same settings used in the Task Window Editor.
 
-#### Adaptive
+
+{{TitleProperty|Adaptive}}
 
 -    **Force Inside-Out**: Force plunging into material inside and clearing towards the edges
 
@@ -63,7 +64,8 @@ Usage instructions for the [Adaptive](Path_Adaptive.md) operation are presented 
 
 -    **Use Helix Arcs**: Use Arcs (G2) for helix ramp
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
@@ -116,7 +118,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Label**: User-provided name of the object (UTF-8)
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: The height needed to clear clamps and obstructions
 
@@ -130,7 +133,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Step Down**: Incremental Step Down of Tool
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: make False, to prevent operation from generating code
 
@@ -144,13 +148,13 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 *Descriptions for these settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Geometry 
+### Base Geometry 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: delete the selected item(s) in the Base Geometry list
 -   **Clear**: clear all items in the Base Geometry list
 
-#### Depths
+### Depths
 
 -    **Start Depth**
     
@@ -164,7 +168,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Step Down**
     
 
-#### Heights
+### Heights
 
 -    **Safe Height**
     
@@ -172,7 +176,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Clearance Height**
     
 
-#### Operation
+### Operation
 
 -    **Tool Controller**
     

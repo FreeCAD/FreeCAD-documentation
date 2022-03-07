@@ -78,8 +78,14 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 These are tools for modifying architectural objects.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Add.png  style="width:32px;"> [追加](Arch_Add/jp.md): 構成要素にオブジェクトを追加します
 -   <img alt="" src=images/Arch_Remove.png  style="width:32px;"> [削除](Arch_Remove/jp.md): 構成要素からオブジェクトを減算したり削除したりします
+
+
+</div>
 
 ### ユーティリティ
 

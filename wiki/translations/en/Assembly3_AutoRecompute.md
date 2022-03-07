@@ -10,7 +10,7 @@
 
 ## Description
 
-The <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px;"> [Auto recompute](Assembly3_AutoRecompute.md) command does\...
+The <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px;"> [Auto recompute](Assembly3_AutoRecompute.md) command is a toggle that enables the <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:16px;"> [Resolve constraints](Assembly3_ResolveConstraints.md) command to run automatically.
 
 ## Usage
 

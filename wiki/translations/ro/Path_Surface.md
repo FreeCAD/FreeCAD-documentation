@@ -119,7 +119,8 @@ NOTE: As of May 2019, only the End Mill has any type of testing to determine acc
 
 \'\'\' *Note* \'\'\': Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
@@ -172,7 +173,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Label**: User-provided name of the object (UTF-8)
 
-#### Clearing Options 
+
+{{TitleProperty|Clearing Options}}
 
 -    **Bound Box**: Should the operation be limited by the stock object or by the bounding box of the base object
 
@@ -196,7 +198,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Step Over**: Step over percentage of the drop cutter path
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: The height needed to clear clamps and obstructions
 
@@ -208,13 +211,15 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Step Down**: Incremental Step Down of Tool
 
-#### Mesh Conversion 
+
+{{TitleProperty|Mesh Conversion}}
 
 -    **Angular Deflection**: Smaller values yield a finer, more accurate mesh. Smaller values increase processing time a lot
 
 -    **Linear Deflection**: Smaller values yield a finer, more accurate mesh. Smaller values do not increase processing time much but can increase memory comsumption
 
-#### Optimization
+
+{{TitleProperty|Optimization}}
 
 -    **Circular Use G2 G3**: Convert co-planar arcs to G2/G3 gcode commands for \Circular\ and \CircularZigZag\ cut patterns
 
@@ -226,7 +231,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Optimize Step Over Transitions**: Enable separate optimization of transitions between, and breaks within, each step over path
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: make False, to prevent operation from generating code
 
@@ -242,7 +248,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **User Label**: User assigned label
 
-#### Rotation
+
+{{TitleProperty|Rotation}}
 
 -    **Cutter Tilt**: Set the cutter (spindle) tilt angle.
 
@@ -271,7 +278,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Stop Index**: Stop index(angle) for rotation
 
-#### Selected Geometry Settings 
+
+{{TitleProperty|Selected Geometry Settings}}
 
 -    **Avoid Last X Faces**: Avoid cutting the last \'N\' faces in the Base Geometry list of selected faces
 
@@ -287,7 +295,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Internal Features Cut**: Cut internal feature areas within a larger selected face
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: The custom start point for the path of this operation, set in sub-properties: x, y, z
 
@@ -308,11 +317,13 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Use Start Point**: Make True, if specifying a Start Point
 
-#### Surface
+
+{{TitleProperty|Surface}}
 
 -    **Scan Type**: Planar: Flat, 3D surface scan. Rotational: 4th-axis rotational scan.
 
-#### Waste
+
+{{TitleProperty|Waste}}
 
 -    **Ignore Waste**: Ignore areas that proceed below specified depth.
 
@@ -324,7 +335,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Location 
+### Base Location 
 
 -   **Base Geometry import selection**: Use this list to select Base Geometry to be imported from the selected, existing operation
 -   **Import**: imports the selected operation\'s Base Geometry into the current operations Base Geometry list
@@ -333,7 +344,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -   **Remove**: remove the selected item(s) in the Base Location list
 -   **Edit**: clear all items in the Base Location list
 
-#### Depth 
+### Depth
 
 -    **Start Depth**
     
@@ -344,7 +355,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Step Down**
     
 
-#### Height
+### Height
 
 -    **Safe Height**
     
@@ -352,7 +363,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Clearance Height**
     
 
-#### Operation
+### Operation
 
 -    **Tool Controller**
     

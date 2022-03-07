@@ -14,11 +14,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 <img alt="" src=images/Mesh_Cone.svg  style="width:64px;"> <img alt="" src=images/Mesh_Cube.svg  style="width:64px;"> <img alt="" src=images/Mesh_Cylinder.svg  style="width:64px;"> <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:64px;"> <img alt="" src=images/Mesh_Sphere.svg  style="width:64px;"> <img alt="" src=images/Mesh_Torus.svg  style="width:64px;">
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/fr

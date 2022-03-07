@@ -78,8 +78,8 @@ Ces outils permettent la création d\'objets architecturaux.
 
 Ce sont des outils de modification d\'objets architecturaux.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Couper suivant une ligne](Arch_CutLine/fr.md) : coupe un objet selon une ligne. {{Version/fr|0.19}}
--   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Couper suivant un plan](Arch_CutPlane/fr.md) : coupe un objet selon un plan défini.
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Couper suivant une ligne](Arch_CutLine/fr.md) : couper un objet selon une ligne. {{Version/fr|0.19}}
+-   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Couper suivant un plan](Arch_CutPlane/fr.md) : couper un objet selon un plan défini.
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Ajouter](Arch_Add/fr.md) : ajouter un objet à un composant.
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Soustraire](Arch_Remove/fr.md) : soustraire ou effacer un ou des objets d\'un composant.
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Prise de cotes](Arch_Survey/fr.md) : permet de prendre rapidement des mesures et des informations sur un modèle.

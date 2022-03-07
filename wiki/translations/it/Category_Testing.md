@@ -5,8 +5,9 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 |     |     |     |
 | --- | --- | --- |
-| [AppImage/it](wiki/AppImage/it.md) | [Continuous Integration/it](wiki/Continuous Integration/it.md) | [LGTM/it](wiki/LGTM/it.md) |
-| [Testing/it](wiki/Testing/it.md) | [Category:Test Framework/it](wiki/Category_Test Framework/it.md) |
+| [AppImage/it](wiki/AppImage/it.md) | [Artwork Test/it](wiki/Artwork Test/it.md) | [Continuous Integration/it](wiki/Continuous Integration/it.md) |
+| [LGTM/it](wiki/LGTM/it.md) | [Testing/it](wiki/Testing/it.md) | [Category:Test Framework/it](wiki/Category_Test Framework/it.md) |
+|
 
 
 

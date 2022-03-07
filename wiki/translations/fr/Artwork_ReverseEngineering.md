@@ -14,11 +14,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 ![](images/FitSurface.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Artwork ReverseEngineering/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Artwork ReverseEngineering/fr

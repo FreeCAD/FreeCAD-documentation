@@ -76,13 +76,9 @@ Das Spiegelungsergebnis kann in Echtzeit in der Vorschau angezeigt werden, bevor
 
 ## Begrenzungen
 
-
-<div class="mw-translate-fuzzy">
-
--   Die Spiegelungsfunktion kann keinen ganzen Festkörper spiegeln. Dafür, siehe [Formteil Spiegeln](Part_Mirror/de.md) .
-
-
-</div>
+-   Die Spiegelungsfunktion kann keinen ganzen Festkörper spiegeln. Dafür, siehe [Part Spiegeln](Part_Mirror/de.md) .
+-   Eine Spiegelungsfunktion kann nicht direkt auf eine andere Anordnung angewendet werden, sei sie polar, linear oder eine weitere Spiegelung. Dafür braucht man [PartDesign Mehrfach Transformation](PartDesign_MultiTransform/de.md).
+-   Der gespiegelte Bestandteil muss sich mit dem Volumenkörper, auf dem er basiert (Support genannt), überschneiden, sonst kann die Ausführung des Befehls scheitern.
 
 
 

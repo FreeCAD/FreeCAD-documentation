@@ -55,13 +55,9 @@ This category contains all Unfinished Documents
 | [MacOS packaging](wiki/MacOS packaging.md) | [Macro clone explicit](wiki/Macro clone explicit.md) | [Manual:BIM modeling](wiki/Manual_BIM modeling.md) |
 | [Material](wiki/Material.md) | [ModernUI Workbench](wiki/ModernUI Workbench.md) | [OpenSCAD ColorCodeShape](wiki/OpenSCAD ColorCodeShape.md) |
 | [Part BoxSelection](wiki/Part BoxSelection.md) | [Part CompSplittingTools](wiki/Part CompSplittingTools.md) | [Part ElementCopy](wiki/Part ElementCopy.md) |
-| [Part Ellipse](wiki/Part Ellipse.md) | [Part Ellipsoid](wiki/Part Ellipsoid.md) | [Part Helix](wiki/Part Helix.md) |
-| [Part Line](wiki/Part Line.md) | [Part Loft](wiki/Part Loft.md) | [Part Mirror](wiki/Part Mirror.md) |
-| [Part Offset](wiki/Part Offset.md) | [Part Plane](wiki/Part Plane.md) | [Part Point](wiki/Part Point.md) |
-| [Part PointsFromMesh](wiki/Part PointsFromMesh.md) | [Part Prism](wiki/Part Prism.md) | [Part RegularPolygon](wiki/Part RegularPolygon.md) |
-| [Part RuledSurface](wiki/Part RuledSurface.md) | [Part Spiral](wiki/Part Spiral.md) | [Part TransformedCopy](wiki/Part TransformedCopy.md) |
-| [Part Tube](wiki/Part Tube.md) | [Part Wedge](wiki/Part Wedge.md) | [PartDesign Examples](wiki/PartDesign Examples.md) |
-| [Path Area](wiki/Path Area.md) | [Path Area Workplane](wiki/Path Area Workplane.md) | [Path Development Roadmap](wiki/Path Development Roadmap.md) |
+| [Part Loft](wiki/Part Loft.md) | [Part Mirror](wiki/Part Mirror.md) | [Part Offset](wiki/Part Offset.md) |
+| [Part PointsFromMesh](wiki/Part PointsFromMesh.md) | [Part RuledSurface](wiki/Part RuledSurface.md) | [Part TransformedCopy](wiki/Part TransformedCopy.md) |
+| [PartDesign Examples](wiki/PartDesign Examples.md) | [Path Area](wiki/Path Area.md) | [Path Area Workplane](wiki/Path Area Workplane.md) |
 | [Path DressupLeadInOut](wiki/Path DressupLeadInOut.md) | [Path Engrave](wiki/Path Engrave.md) | [Path Fixture](wiki/Path Fixture.md) |
 | [Path Helix](wiki/Path Helix.md) | [Path MillFace](wiki/Path MillFace.md) | [Path OpActiveToggle](wiki/Path OpActiveToggle.md) |
 | [Path Pocket 3D](wiki/Path Pocket 3D.md) | [Path Postprocessor Customization](wiki/Path Postprocessor Customization.md) | [Path Sanity](wiki/Path Sanity.md) |

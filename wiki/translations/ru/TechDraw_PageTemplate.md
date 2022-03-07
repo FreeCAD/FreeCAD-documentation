@@ -9,6 +9,9 @@
 
 # TechDraw PageTemplate/ru
 
+
+</div>
+
 ## Описание
 
 The New Pick tool creates a new Page object using the template file selected from a dialog.
@@ -27,9 +30,7 @@ The starting directory for the dialog can be specified in the [TechDraw Preferen
 
 ## Свойства
 
--    **Projection Type**: Default projection type (First or Third Angle) for this Page.
-
--    **Scale**: Default scale for Views in this Page.
+See [TechDraw PageDefault](TechDraw_PageDefault#Properties.md).
 
 ## Программирование
 

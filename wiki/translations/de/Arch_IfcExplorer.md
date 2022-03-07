@@ -25,15 +25,9 @@ Der Zweck dieses Explorers besteht einfach darin, dir zu ermöglichen, zu überp
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Rufe den Ifc Explorer auf über:
-    -   Drücken der <img alt="" src=images/IFC.svg  style="width:24px;"> Schaltfläche
-    -   Verwenden des {{MenuCommand/de|Architektur → Hilfsprogramme → Ifc Explorer}} Eintrags aus dem Architektur Aufklappmenü.
-
-
-</div>
+    -   Drücken der Schaltfläche <img alt="" src=images/Arch_IfcExplorer.svg  style="width:24px;">
+    -   Verwenden des Eintrags {{MenuCommand/de|Arch → Dienstprogramme → IFC Brep Kennzeichen umschalten}} aus dem Arch-Aufklappmenü.
 
 
 

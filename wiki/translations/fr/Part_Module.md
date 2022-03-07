@@ -35,29 +35,29 @@ Ce sont des outils pour créer des objets primitifs.
 
 -   <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cône](Part_Cone/fr.md): Dessine un cône.
 
--   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Tore](Part_Torus/fr.md): Dessine un tore (anneau).
+-   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Tore](Part_Torus/fr.md) : Dessine un tore.
 
--   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tube](Part_Tube/fr.md): dessine un tube {{Version/fr|0.19}}.
+-   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tube](Part_Tube/fr.md) : Dessine un tube {{Version/fr|0.19}}.
 
--   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Primitives](Part_Primitives/fr.md): Un outil pour créer l\'une des primitives suivantes:
-    -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plan](Part_Plane/fr.md): Crée un plan.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Cube](Part_Box/fr.md): Crée une boîte. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cube](Part_Box/fr.md).
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cylindre](Part_Cylinder/fr.md): Crée un cylindre. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cylindre](Part_Cylinder/fr.md).
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cône](Part_Cone/fr.md): Crée un cône. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cône](Part_Cone.md).
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sphère](Part_Sphere/fr.md): Crée une sphère. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Sphère](Part_Sphere/fr.md).
-    -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoïde](Part_Ellipsoid/fr.md): Crée un ellipsoïde.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Tore](Part_Torus/fr.md): Crée un tore. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Tore](Part_Torus/fr.md).
-    -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisme](Part_Prism/fr.md): Crée un prisme.
-    -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Pyramide tronquée](Part_Wedge/fr.md): Crée une pyramide tronquée.
-    -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Hélice](Part_Helix/fr.md): Crée une hélice.
-    -   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spirale](Part_Spiral/fr.md): Crée une spirale.
-    -   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Circle](Part_Circle/fr.md): Crée une arête circulaire.
-    -   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Ellipse](Part_Ellipse/fr.md): Crée une arête elliptique.
-    -   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Point](Part_Point/fr.md): Crée un point (sommet).
-    -   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Ligne](Part_Line/fr.md): Crée une ligne (arête).
-    -   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Polygone régulier](Part_RegularPolygon/fr.md): Crée un polygone régulier.
+-   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Créer des primitives\...](Part_Primitives/fr.md) : Outil pour créer l\'une des primitives suivantes :
+    -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plan](Part_Plane/fr.md) : Crée un plan.
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Cube](Part_Box/fr.md) : Crée une boîte. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cube](Part_Box/fr.md).
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cylindre](Part_Cylinder/fr.md) : Crée un cylindre. Cet objet peut également être créé avec la <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cylindre](Part_Cylinder/fr.md).
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cône](Part_Cone/fr.md) : Crée un cône. Cet objet peut également être créé avec la <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cône](Part_Cone/fr.md).
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sphère](Part_Sphere/fr.md) : Crée une sphère. Cet objet peut également être créé avec la <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> L\'outil [Sphère](Part_Sphere/fr.md).
+    -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoïde](Part_Ellipsoid/fr.md) : Crée un ellipsoïde.
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Tore](Part_Torus/fr.md) : Crée un tore. Cet objet peut aussi être créé avec la <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Tore](Outil_Part_Torus/fr.md).
+    -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisme](Part_Prism/fr.md) : Crée un prisme.
+    -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Pyramide tronquée](Part_Wedge/fr.md) : Crée une pyramide tronquée.
+    -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Hélice](Part_Helix/fr.md) : Crée une hélice.
+    -   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spirale](Part_Spiral/fr.md) : Crée une spirale.
+    -   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Cercle](Part_Circle/fr.md) : Crée un arc de cercle.
+    -   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Ellipse](Part_Ellipse/fr.md) : Crée un arc elliptique.
+    -   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Point](Part_Point/fr.md) : Crée un point.
+    -   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Ligne](Part_Line/fr.md) : Crée une ligne.
+    -   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Polygone régulier](Part_RegularPolygon/fr.md) : Crée un polygone régulier.
 
--   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Utilitaire de création de formes](Part_Builder/fr.md): Crée des formes à partir de diverses primitives.
+-   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Générateur de formes](Part_Builder/fr.md) : Crée des formes à partir de diverses primitives.
 
 ### Création et modification 
 

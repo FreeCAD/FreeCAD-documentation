@@ -32,8 +32,8 @@ Pages relating to Architectural and Building Information Management
 | [Arch Wall/ru](wiki/Arch Wall/ru.md) | [Arch Window/ru](wiki/Arch Window/ru.md) | [Arch Workbench/ru](wiki/Arch Workbench/ru.md) |
 | [Artwork Arch/ru](wiki/Artwork Arch/ru.md) | [BIM Library/ru](wiki/BIM Library/ru.md) | [Custom Spacing/ru](wiki/Custom Spacing/ru.md) |
 | [Import/Export IFC - compiling IfcOpenShell/ru](wiki/Import/Export IFC - compiling IfcOpenShell/ru.md) | [Manual:BIM modeling/ru](wiki/Manual_BIM modeling/ru.md) | [Material editor/ru](wiki/Material editor/ru.md) |
-| [Material/ru](wiki/Material/ru.md) | [Tutorial custom placing of windows and doors/ru](wiki/Tutorial custom placing of windows and doors/ru.md) | [Tutorial for open windows/ru](wiki/Tutorial for open windows/ru.md) |
-| [Category:Reinforcement/ru](wiki/Category_Reinforcement/ru.md) |
+| [Tutorial custom placing of windows and doors/ru](wiki/Tutorial custom placing of windows and doors/ru.md) | [Tutorial for open windows/ru](wiki/Tutorial for open windows/ru.md) | [Category:Reinforcement/ru](wiki/Category_Reinforcement/ru.md) |
+|
 
 
 

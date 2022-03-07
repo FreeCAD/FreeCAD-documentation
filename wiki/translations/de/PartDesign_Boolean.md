@@ -48,7 +48,7 @@ Alternativ können ein oder mehrere Körper vor dem Klicken der Booleschen Schal
 -    {{PropertyView/de|Anzeige}}: Setzt die Anzeige zwischen zwei Modi:
 
     -   Ergebnis (Standard): Zeigt das Ergebnis der Booleschen Funktion an. In diesem Modus können die Werkzeugkörper nicht in ihrem ursprünglichen Zustand angezeigt werden, selbst wenn ihre Sichtbarkeit eingeschaltet ist.
-    -   Werkzeuge: zeigt die Werkzeugkörper in ihrem ursprünglichen Zustand an. Dieser Modus ist nützlich, wenn das Werkzeug Körper bearbeitet werden muss.
+    -   Werkzeuge: zeigt die Werkzeugkörper in ihrem ursprünglichen Zustand an. Dieser Modus ist nützlich, wenn die Werkzeugkörper bearbeitet werden müssen, oder für spätere Bearbeitungen verwendet werden.
 
 -    {{PropertyView/de|Auswählbar}}: true oder false. Wenn auf \"false\" gesetzt, kann die Funktion nicht in der 3D Ansicht ausgewählt werden.
 
@@ -57,7 +57,7 @@ Alternativ können ein oder mehrere Körper vor dem Klicken der Booleschen Schal
 ## Begrenzungen
 
 -   Damit Schnittmenge mit mehr als einem Werkzeugkörper arbeiten kann, müssen sich alle zusammen mit dem aktiven Körper überschneiden.
--   Werkzeugkörper übernehmen den lokalen Ursprung des aktiven Körpers. Wenn sich der aktive Körper nicht bei (0,0,0) im globalen Koordinatensystem befindet, muss die Positionierung der Werkzeugkörper relativ zum aktiven Körper erfolgen. Es kann einfacher sein, die Positionierung des aktiven Körpers am Ursprung zu belassen, bevor die boolesche Funktion angewendet wird, und dann die Positionierung zu ändern.
+-   Werkzeugkörper übernehmen den lokalen Ursprung des aktiven Körpers. Wenn sich der aktive Körper nicht bei (0,0,0) im globalen Koordinatensystem befindet, muss die Positionierung der Werkzeugkörper relativ zum aktiven Körper erfolgen. Es kann einfacher sein, die Positionierung des aktiven Körpers am Ursprung zu belassen, bevor die boolesche Funktion angewendet wird, als seine Positionierung zu ändern.
 
 
 

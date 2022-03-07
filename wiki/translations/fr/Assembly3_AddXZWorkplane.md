@@ -11,7 +11,15 @@
 
 ## Description
 
-La commande <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg  style="width:24px;"> [Ajouter un plan de travail XZ](Assembly3_AddXZWorkplane/fr.md) fait\...
+La commande <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg  style="width:24px;"> [Ajouter un plan de travail XZ](Assembly3_AddXZWorkplane/fr.md) ajoute un plan de travail XZ à un assemblage actif.
+
+Un objet Workplane sera créé dans le conteneur Parts de l\'arbre d\'assemblage et un élément plan de travail associé sera placé dans la vue 3D. Il est placé à l\'origine de l\'assemblage et orienté selon le plan XZ de l\'assemblage, si l\'objet Assemblage a été sélectionné directement.
+
+<img alt="" src=images/Assembly_Add_Workplane-01.png  style="width:250px;"> <img alt="" src=images/Assembly_AddXZWorkplane-03.png  style="width:350px;">
+
+L\'assemblage peut également être sélectionné indirectement par un élément appartenant à l\'assemblage. Le plan de travail est alors placé à l\'origine de l\'élément et orienté selon le plan XZ local de cet élément.
+
+Les éléments valides sont par exemple les éléments, les corps, les sommets, les arêtes, les faces, les origines et les autres plans de travail de la [Vue en arborescence](Tree_view/fr.md) ou de la [Vue 3D](3D_view/fr.md).
 
 ## Utilisation
 

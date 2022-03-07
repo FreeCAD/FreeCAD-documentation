@@ -1,4 +1,7 @@
-# <img alt="Ikonka FreeCAD dla zewnętrznego Środowiska pracy BIM" src=images/IFC.svg  style="width:64px;"> BIM Workbench/pl
+# BIM Workbench/pl
+}
+
+<img alt="Ikonka FreeCAD dla zewnętrznego Środowiska pracy BIM" src=images/IFC.svg  style="width:128px;">
 
 
 {{TOCright}}

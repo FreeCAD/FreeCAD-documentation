@@ -3,6 +3,9 @@
 
 Jump to letter: {{CompactTOC|center=yes}}
 
+
+<div class="mw-translate-fuzzy">
+
 ## A
 
 
@@ -27,7 +30,7 @@ Jump to letter: {{CompactTOC|center=yes}}
 {{defn|defn=The FreeCAD App layer is AKA Graphical interface ([GUI](#GUI.md)) layer.}}
 
 
-{{term|Assembly|content=[Assembly](Assembly_Workbench.md)}}
+{{term|Assembly|content=[Assembly](Assembly.md)}}
 
 
 {{defn|no=1|defn=相对于彼此的位置关系所定义的一组[零件](#Part.md)。}}
@@ -49,6 +52,9 @@ Jump to letter: {{CompactTOC|center=yes}}
 
 
 {{glossend}}
+
+
+</div>
 
 ## B
 

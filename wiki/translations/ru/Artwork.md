@@ -167,16 +167,7 @@ See [Artwork Render](Artwork_Render.md).
 
 Смотри [Художественное оформление Ship](Artwork_Ship/ru.md).
 
-## Некорректные иконки 
-
-Смотри [Художественное оформление Erroneous](Artwork_Erroneous/ru.md).
-
-
-{{Artwork
-
-}}
-
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Icon](Category_Icon.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/ru

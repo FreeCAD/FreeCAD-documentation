@@ -5,8 +5,7 @@ This category collects pages related to artwork existing in the program, like ic
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Guidelines/es](wiki/Artwork Guidelines/es.md) | [Artwork/es](wiki/Artwork/es.md) | [Category:Icon/es](wiki/Category_Icon/es.md) |
-|
+| [Artwork Guidelines/es](wiki/Artwork Guidelines/es.md) | [Artwork/es](wiki/Artwork/es.md) |
 
 
 

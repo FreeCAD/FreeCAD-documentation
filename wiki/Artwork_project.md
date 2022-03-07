@@ -1,11 +1,5 @@
 # Artwork project
-**
-This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
-If you are not involved with the development discussed here:<br>
-!!! PLEASE DO NOT EDIT OR TRANSLATE !!!
-**
-
- 
+{{TOCright}}
 
 **Artwork project** is a [project](project.md) dedicated to coming up with a new logo, icons, and pictures. Not to be confused with [Artwork](Artwork.md) page which captures the current state of the art ;) . See also [Artwork Guidelines](Artwork_Guidelines.md) which describe the current agreed-upon rules.
 

@@ -1,17 +1,14 @@
 ---
 - GuiCommand:/de
    Name:Sketcher Create a B-spline
-   Name/de:Skizzierer Erstelle B-Spline
+   Name/de:Sketcher B-Spline erstellen
    Icon:Sketcher_CompCreateBSpline.png
    MenuLocation:Keine (nur Werkzeugleiste)
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Version:0.17
 ---
 
 # Sketcher CompCreateBSpline/de
-
-
-</div>
 
 ## Beschreibung
 

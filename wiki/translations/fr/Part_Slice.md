@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Slice
    Name/fr:Part Scinder
-   MenuLocation:Pièce → Scinder → Slice to compound
+   MenuLocation:Pièce → Scinder → Trancher vers composé
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Part Fragments booléens](Part_BooleanFragments/fr.md), [Part OU exclusif](Part_XOR/fr.md), [Part Jointure](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
@@ -39,8 +39,8 @@ Le résultat de l\'outil est très similaire à <img alt="" src=images/Part_Bool
 1.  Sélectionnez d\'abord l\'objet à découper, puis certains objets à découper.
     L\'ordre de sélection est important. Les composés avec auto-intersections ne sont pas autorisés (les auto-intersections peuvent parfois être prises en compte en passant le composé à travers <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Part Fragments booléens](Part_BooleanFragments/fr.md))
 2.  Appelez la commande Part Scinder de plusieurs manières :
-    -   Appuyez sur le bouton <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Trancher vers composé](Part_Slice/fr.md) dans la barre d\'outils Part
-    -   Utilisez l\'entrée **Pièce → Scinder → Slice to compound** dans le menu Part
+    -   Appuyez sur le bouton <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Trancher vers composé](Part_Slice/fr.md) dans la barre d\'outils Part
+    -   Utilisez l\'entrée **Pièce → Scinder → Trancher vers composé** depuis le menu
 
 
 
@@ -60,7 +60,7 @@ Le tranchage est créé et chaque morceau est uni dans un composé.
 ## Propriétés
 
 
-{{TitleProperty|Trancher vers composé}}
+{{TitleProperty|Slice}}
 
 -    **Base**: Objet à trancher.
 

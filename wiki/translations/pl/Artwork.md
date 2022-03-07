@@ -155,16 +155,7 @@ See [Artwork Render](Artwork_Render.md).
 
 Zobacz stronę [Grafika Środowiska pracy Ship](Artwork_Ship.md).
 
-## Nieprawidłowe ikony 
-
-Zobacz [Grafika niepoprawna](Artwork_Erroneous/pl.md).
-
-
-{{Artwork
-
-}}
-
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Icon](Category_Icon.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/pl

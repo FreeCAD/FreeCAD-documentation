@@ -57,19 +57,13 @@ Da es viele Videos gibt, die sich mit diesem Thema befassen, besuche bitte [Vide
 
 ## Andere
 
-
-<div class="mw-translate-fuzzy">
-
--   [Animation Arbeitsbereich](https://www.youtube.com/watch?v=AQjAa5JxmOg&list=PLIxaznuCUATKzCFbFUFhRwZMJMnYuQ1JB) von microelly: eine Serie von 7 Videos, die den Animation Arbeitsbereich von ihrem Entwickler beschreibt. Dies ist eines der [Externe Arbeitsbereiche](external_workbenches/de.md) die von der installiert <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) werden können.
-
-
-</div>
+-   [Arbeitsbereich Animation](https://www.youtube.com/watch?v=AQjAa5JxmOg&list=PLIxaznuCUATKzCFbFUFhRwZMJMnYuQ1JB) von microelly: eine Serie von 7 Videos, die den Arbeitsbereich Animation von ihrem Entwickler beschreibt. Dies ist einer der [externen Arbeitsbereiche](external_workbenches/de.md) die von dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden können.
 
 -   [FreeCAD Tutorien - ALLGEMEINES](https://www.youtube.com/watch?v=WdBQPXeAeMc&list=PLKu--JcOZKTPZjy761ELQ7ba45yZmxOpj) von AllVisuals4U: FreeCAD 0.16, eine Serie von 28 Kurzvideos zu allgemeinen Aspekten von FreeCAD; z.B. wird gezeigt, wie man Einheiten, Hintergrundfarbe, den Startbildschirm, Einschränkungen, perspektivische Ansicht, Transparenz, die Größe von Symbolleistensymbolen ändert, den 3D-Druck vorbereitet und Text extrudiert. Einige fortgeschrittenere Anleitungen beinhalten, wie man ein Logo entwirft, Metall biegt und zusammenbaut. Die meisten Videos beschreiben FreeCAD 0.16, aber da sie sich nicht auf Modellierungsaspekte konzentrieren, sind die Informationen im Allgemeinen auch für andere Versionen anwendbar.
 
 -   [flowwie\'s corner](https://www.youtube.com/c/flowwiescorner/videos) von flowwie in Deutsch: eine nette Serie von 62 kurzen Videos zu FreeCAD 0.18 und 0.19, vom Basisniveau bis zum mittleren Schwierigkeitsgrad.
 
--   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) by Evgeniy Ivanov in English: a nice series of videos concerning FreeCAD 0.19, from basic to intermediate level.
+-   [Evgeniy Ivanov](https://www.youtube.com/c/CFDIntech/videos) von Evgeniy Ivanov in Englisch: Eine nette Serie von Videos FreeCAD 0.19 betreffend, vom Einsteigerlevel bis zum Level für Fortgeschrittene.
 
 ## Veraltete Videos 
 

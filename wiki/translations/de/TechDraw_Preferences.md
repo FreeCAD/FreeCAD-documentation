@@ -50,6 +50,11 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 -   **PAT Datei**: Standard PAT Musterfestlegungsdatei für [Geometrische Schraffuren](TechDraw_GeometricHatch/de.md).
 -   **Mustername**: Name des Standard PAT Musters.
 
+### Grid
+
+-   **Show Grid**: Default Show Grid setting for new pages. <small>(v0.20)</small> 
+-   **Grid Spacing**: Default distance between grid lines for new pages. <small>(v0.20)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -136,6 +141,9 @@ Schnitt Schnittoberfläche\'\'\': Stil für Schnitt Schnittoberfläche. Die Opti
 
 Einstellung der Standardfarben für neue Seiten:
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Normal**: Normale Linienfarbe.
 -   **Vorausgewählt**: Vorausgewählte Farbe. Die Farbe, die verwendet wird, um Objekte hervorzuheben, wenn mit der Maus darüber gefahren wird.
 -   **Gewählt**: Farbe für ausgewählte Objekte.
@@ -151,6 +159,9 @@ Einstellung der Standardfarben für neue Seiten:
 -   **Geometrische Schraffur**: [Geometrische Schraffur](TechDraw_GeometricHatch/de.md) Musterfarbe.
 -   **Knoten**: Farbe der wählbaren [Knoten](Glossary#V.md) in Ansichten.
 -   **Führungslinie**: Farbe der neuen [Führungslinien](TechDraw_LeaderLine/de.md).
+
+
+</div>
 
 ## HLR
 
@@ -187,34 +198,6 @@ HLR steht für *Entfernen verdeckter Linien* (engl.: hidden line removal).
 
 
 </div>
-
-## Ausgeblendete Einstellungen 
-
-\'\'\'Hinweis: \'\'\' Seit FreeCAD 0.19 sind alle Einstellungen in den Voreinstellungsdialogen verfügbar. Das Folgende gilt nur für FreeCAD Versionen, die älter als 0.19 sind:
-
-Einige Einrichtungseinstellungen sind nur über den [Parametereditor](Std_DlgParameter/de.md), **Werkzeuge → Parameter bearbeiten** zugänglich.
-
-### Preferences/Mod/TechDraw/Decorations
-
--   **MittelpunktMarkierungMaßstab**: Standard Skalierungsfaktor für Mittelpunktsmarkierungen
--   **ZeigeMittelpunktsmarkierungen**: Standard `True`/`False`
--   **DruckMittelpunktsmarkierungen**: `True`/`False` zeige Mittelpunktsmarkierungen beim Drucken {{Version/de|0.19}}
-
-### Preferences/Mod/TechDraw/General
-
--   **StandardMaßstab**: Anfangseinstellung des Seitenmaßstabs {{Version/de|0.19}}
--   **EdgeFuzz**: Auswahlradius für Kanten
--   **MarkFuzz**: Auswahlradius für Mittelpunktsmarkierungen
--   **AbschnittErstVerschmelzen**: Verschmelzung von Quellobjekten vor der Durchführung des Sektionsschnitts
--   **KantenEnden**: Form der Kantenenden 0x00 FlacheEnden, 0x10 QuadratEnden, 0x20 RundeEnden (Qt::PenCapStyle) {{Version/de|0.19}}
-
-### Preferences/Mod/TechDraw/Format
-
--   **SchnittFormat**: Schnittlinienstil 0-ASME 1-ISO
-
-### Preferences/Mod/TechDraw/Standards
-
--   **RadiusAusgerichtet**: Radius Abmessungsformat 0-ISO(ausgerichtet) 1-ASME(einheitlich)
 
 
 

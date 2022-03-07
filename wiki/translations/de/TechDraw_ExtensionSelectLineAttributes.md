@@ -19,6 +19,9 @@ Das <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="wi
 
 ## Verwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
     -   Drücke die **<img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=16px> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md)** Schaltfläche.
     -   Wähle die **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=16px> Select Line Attributes, Cascade Spacing and Delta Distance** Option aus dem Menü.
@@ -26,6 +29,9 @@ Das <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="wi
 3.  Optional ändere das **Cascade spacing**. Das **Cascade Dimensions** Werkzeug und die **Create Coordinate Dimensions** Werkzeuge verwenden diesen Wert.
 4.  Optional ändere die **Delta distance**. Das <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:16px;"> [TechDraw ExtensionExtendLine](TechDraw_ExtensionExtendLine.md) Werkzeug und das <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:16px;"> [TechDraw ExtensionShortenLine](TechDraw_ExtensionShortenLine.md) Werkzeug verwenden diesen Wert.
 5.  Drücke die **OK** Schaltfläche.
+
+
+</div>
 
 ## Anmerkungen
 

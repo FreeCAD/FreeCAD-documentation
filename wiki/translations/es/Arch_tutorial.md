@@ -87,7 +87,7 @@ En el momento de escribir este tutorial, [Módulo de arquitectura](Arch_Workbenc
 
 <div class="mw-translate-fuzzy">
 
--   No hay soporte para materiales. FreeCAD tendrá un sistema completo para [Materiales](Material/es.md), capaz de definir materiales complejos con todas las características que pueden esperarse (propiedades personalizadas, familias de materiales, renderizado\...) y el [Módulo de arquitectura](Arch_Workbench/es.md) lo usará cuando esté listo.
+-   No hay soporte para materiales. FreeCAD tendrá un sistema completo para [Materiales](Material.md), capaz de definir materiales complejos con todas las características que pueden esperarse (propiedades personalizadas, familias de materiales, renderizado\...) y el [Módulo de arquitectura](Arch_Workbench/es.md) lo usará cuando esté listo.
 
 
 </div>
@@ -95,14 +95,6 @@ En el momento de escribir este tutorial, [Módulo de arquitectura](Arch_Workbenc
 -   Soporte muy básico para [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Aunque pueden [importarse ficheros IFC](Arch_IFC/es.md) con bastante fidelidad (siempre que se tenga instalado [IfcOpenShell](http://ifcopenshell.org) en el sistema), la exportación todavía no está soportada de forma oficial. Se está trabajando en ello tanto por parte de los desarrolladores de FreeCAD como de IfcOpenShell y es de esperar que en el futuro exista soporte completo para IFC.
 
 -   La mayoría de herramientas está todavía en desarrollo. Esto significa que los asistentes automáticos para crear geometría compleja de forma automática, tales como [ Cubiertas](Arch_Roof/es.md) o [ escaleras](Arch_Stairs/es.md) únicamente pueden producir ciertos tipos de objetos, mientras que los que asistentes que utilizan conjuntos predefinidos (Como el caso de [Estructuras](Arch_Structure/es.md) or [ Ventanas](Arch_Window/es.md)) apenas cuentan con unos pocos modelos predefinidos. Con el tiempo el número de modelos predefinidos irá aumentando.
-
-
-<div class="mw-translate-fuzzy">
-
--   FreeCAD todavía no incorpora [Relaciones entre objetos](Assembly_project/es.md), con lo cual relaciones como las que existen entre una ventana y el muro al que pertenece están implementadas utilizando el [Módulo de arquitectura](Arch_Workbench/es.md) de forma temporal y presenta ciertas limitaciones. En el momento en que las relaciones estén implementadas habrá muchas nuevas posibilidades.
-
-
-</div>
 
 -   Todavía se están implementando el uso de [Unidades](Units/es.md) que permitirán trabajar en cualquier unidad (incluidas las medidas imperiales -gente de EEUUAA podéis estar eternamente agradecidos a Jürgen, el padrino y dictador de FreeCAD). Sin embargo, su implementación no es completa todavía y el módulo de arquitectura todavía no las soporta. Deberá considerarse que el modelo sea adimensional.
 

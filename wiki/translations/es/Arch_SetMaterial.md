@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Las herramientas Material permiten agregar [materials](Material/es.md) al documento activo y atribuir un material a un objeto [Arch](Arch_Workbench/es.md). Los materiales pueden tener todas las propiedades de un material determinado y controlar el color del objeto al que está unido. Los materiales se almacenan en una carpeta **Materiales** en el documento activo.
+Las herramientas Material permiten agregar [materials](Material.md) al documento activo y atribuir un material a un objeto [Arch](Arch_Workbench/es.md). Los materiales pueden tener todas las propiedades de un material determinado y controlar el color del objeto al que está unido. Los materiales se almacenan en una carpeta **Materiales** en el documento activo.
 
 
 </div>

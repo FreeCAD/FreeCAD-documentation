@@ -137,13 +137,6 @@ Although direct export to the Kerkythea XML-File-Format is not supported yet, yo
 -   [Верстак Render](https://forum.freecadweb.org/viewtopic.php?f=9&t=25933) (только анонс, без дискуссии)
 -   [FreeCAD Renderer Workbench improvements](https://forum.freecadweb.org/viewtopic.php?t=39168)
 
-**Устаревшее**
-
-Эти страницы ссылаются на аналогичный верстак, запрограммированный на C++, предложенный примерно в 2012, но не завершённый.
-
--   [Raytracing project](Raytracing_project/ru.md)
--   [Render project](Render_project/ru.md)
-
 
 
 

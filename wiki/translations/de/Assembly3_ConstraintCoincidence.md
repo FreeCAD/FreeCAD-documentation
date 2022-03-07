@@ -26,7 +26,20 @@ Die Drehung kann gestoppt werden, durch das setzen der Variablen Lock Angle im E
 
 1.  Zwei oder mehr Objekte in einen Zusammenbau einfügen.
 2.  Je ein planeres Flächenelement pro Objekt auswählen.
-3.  Schaltfläche**<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Deckungsgleiche Ebenen](Assembly3_ConstraintCoincidence/de.md)** drücken.
+3.  Den Befehl <img alt="" src=images/Assembly_ConstraintCoincidence.svg  style="width:16px;"> [Assembly3 DeckungsgleicheEbenen](Assembly3_ConstraintCoincidence/de.md) aktivieren durch
+    -   Die Schaltfläche **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Create "PlaneCoincident" constraint](Assembly3_ConstraintCoincidence/de.md)**.
+
+## Kinematische Entsprechung 
+
+In einem kinematischen Zusammenhang stellt diese Bedingung ein Scharnier oder **Drehgelenk** dar, wenn sie mit Bögen und Kreisen verwendet wird.
+
+In der Realität erlauben die Formen der Objekte eine Drehung und verhindert eine Verschiebung; um dies zu simulieren, nutzt man in diesem Falle Bögen und Kreise.
+
+<img alt="" src=images/Assembly3_ConstraintCoincidence-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_ConstraintCoincidence-02.png  style="width:200px;">
+
+
+
+*Objekte mit gesetzter Bedingung vor und nach Aktivierung des Lösers*
 
 
 

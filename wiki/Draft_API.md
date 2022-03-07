@@ -390,7 +390,7 @@ The Draft working plane proxy object
 
 
     This function creates an array of independent objects.
-    Use makeArray() to create a parametric array object.
+    Use make_array() to create a parametric array object.
     
     Creates an array of the given objects (that can be an object or a list
     of objects).
@@ -449,22 +449,22 @@ Add a given object to the defined Draft autogroup, if applicable.
 #### <img src="images/type_method.svg" style="width:16px;"> clone <small>(obj, delta=None, forcedraft=False)</small>
 
 clone(obj,[delta,forcedraft])
-    
-    Makes a clone of the given object(s). 
+
+    Makes a clone of the given object(s).
     The clone is an exact, linked copy of the given object. If the original
-    object changes, the final object changes too. 
-    
+    object changes, the final object changes too.
+
     Parameters
     ----------
-    obj : 
+    obj :
 
     delta : Base.Vector
-        Delta Vector to move the clone from the original position. 
+        Delta Vector to move the clone from the original position.
 
     forcedraft : bool
         If forcedraft is True, the resulting object is a Draft clone
         even if the input object is an Arch object.
-    
+
     
 
 
@@ -2131,10 +2131,10 @@ make_circle(radius, [placement, face, startangle, endangle])
 
 #### <img src="images/type_method.svg" style="width:16px;"> makeCopy <small>(obj, force=None, reparent=False, simple_copy=False)</small>
 
-makeCopy(object, [force], [reparent])
-    
+make_copy(object, [force], [reparent], [simple_copy])
+
     Make an exact copy of an object and return it.
-    
+
     Parameters
     ----------
     obj :
@@ -2147,7 +2147,7 @@ makeCopy(object, [force], [reparent])
         Group the new object in the same group of the old one.
 
     simple_copy :
-        Create a simple copy of the object (a new non parametric 
+        Create a simple copy of the object (a new non parametric
         Part::Feature with the same Shape as the given object).
     
 
@@ -2211,10 +2211,10 @@ make_ellipse(majradius, minradius, [placement], [face], [support])
 
 #### <img src="images/type_method.svg" style="width:16px;"> makeFacebinder <small>(selectionset, name='Facebinder')</small>
 
-makeFacebinder(selectionset, [name])
-    
+make_facebinder(selectionset, [name])
+
     Creates a Facebinder object from a selection set.
-    
+
     Parameters
     ----------
     selectionset :
@@ -2266,8 +2266,8 @@ Create PathArray. DEPRECATED. Use 'make_path_array'.
 
 #### <img src="images/type_method.svg" style="width:16px;"> makePoint <small>(X=0, Y=0, Z=0, color=None, name='Point', point_size=5)</small>
 
- makePoint(x,y,z ,[color(r,g,b),point_size]) or
-        makePoint(Vector,color(r,g,b),point_size]) -
+ make_point(x, y, z, [color(r, g, b), point_size]) or
+        make_point(Vector, color(r, g, b), point_size])
 
     Creates a Draft Point in the current document.
 
@@ -2332,7 +2332,7 @@ makePolgon(edges,[radius],[inscribed],[placement],[face])
 
 #### <img src="images/type_method.svg" style="width:16px;"> makeRectangle <small>(length, height=0, placement=None, face=None, support=None)</small>
 
-makeRectangle(length, width, [placement], [face])
+make_rectangle(length, width, [placement], [face])
 
     Creates a Rectangle object with length in X direction and height in Y
     direction.
@@ -2343,13 +2343,13 @@ makeRectangle(length, width, [placement], [face])
 
     placement : Base.Placement
         If a placement is given, it is used.
-    
+
     face : Bool
-        If face is False, the rectangle is shown as a wireframe, 
+        If face is False, the rectangle is shown as a wireframe,
         otherwise as a face.
-        
+
     Rectangles can also be constructed by giving them a list of four vertices
-    as first argument: makeRectangle(list_of_vertices,face=...)
+    as first argument: make_rectangle(list_of_vertices, face=...)
     but you are responsible to check yourself that these 4 vertices are ordered
     and actually form a rectangle, otherwise the result might be wrong. Placement
     is ignored when constructing a rectangle this way (face argument is kept).
@@ -2359,7 +2359,7 @@ makeRectangle(length, width, [placement], [face])
 
 #### <img src="images/type_method.svg" style="width:16px;"> makeShape2DView <small>(baseobj, projectionVector=None, facenumbers=[])</small>
 
-makeShape2DView(object, [projectionVector], [facenumbers])
+make_shape2dview(object, [projectionVector], [facenumbers])
     
     Add a 2D shape to the document, which is a 2D projection of the given object. 
     
@@ -2394,8 +2394,8 @@ ShapeString(Text,FontFile,[Height],[Track])
 
 #### <img src="images/type_method.svg" style="width:16px;"> makeSketch <small>(objects_list, autoconstraints=False, addTo=None, delete=False, name='Sketch', radiusPrecision=-1, tol=0.001)</small>
 
-makeSketch(objects_list,[autoconstraints],[addTo],[delete],
-                  [name],[radiusPrecision],[tol])
+make_sketch(objects_list, [autoconstraints], [addTo], [delete],
+                   [name], [radiusPrecision], [tol])
 
     Makes a Sketch objects_list with the given Draft objects.
 
@@ -2435,7 +2435,7 @@ Create Text. DEPRECATED. Use 'make_text'.
 
 #### <img src="images/type_method.svg" style="width:16px;"> makeWire <small>(pointslist, closed=False, placement=None, face=None, support=None, bs2wire=False)</small>
 
-makeWire(pointslist,[closed],[placement])
+make_wire(pointslist, [closed], [placement])
     
     Creates a Wire object from the given list of vectors.  If face is
     true (and wire is closed), the wire will appear filled. Instead of
@@ -2611,8 +2611,8 @@ Create a Draft Array of the given object.
 
     Rectangular array
     -----------------
-    make_array(object,xvector,yvector,xnum,ynum,[name])
-    makeArray(object,xvector,yvector,zvector,xnum,ynum,znum,[name])
+    make_array(object, xvector, yvector, xnum, ynum)
+    make_array(object, xvector, yvector, zvector, xnum, ynum, znum)
 
     xnum of iterations in the x direction
     at xvector distance between iterations, same for y direction
@@ -2620,14 +2620,14 @@ Create a Draft Array of the given object.
 
     Polar array
     -----------
-    makeArray(object,center,totalangle,totalnum,[name]) for polar array, or
+    make_array(object, center, totalangle, totalnum) for polar array, or
 
     center is a vector, totalangle is the angle to cover (in degrees)
     and totalnum is the number of objects, including the original.
 
     Circular array
     --------------
-    makeArray(object,rdistance,tdistance,axis,center,ncircles,symmetry,[name])
+    make_array(object, rdistance, tdistance, axis, center, ncircles, symmetry)
 
     In case of a circular array, rdistance is the distance of the
     circles, tdistance is the distance within circles, axis the rotation-axis,
@@ -2840,32 +2840,32 @@ Create a circular array from the given object.
 #### <img src="images/type_method.svg" style="width:16px;"> make_clone <small>(obj, delta=None, forcedraft=False)</small>
 
 clone(obj,[delta,forcedraft])
-    
-    Makes a clone of the given object(s). 
+
+    Makes a clone of the given object(s).
     The clone is an exact, linked copy of the given object. If the original
-    object changes, the final object changes too. 
-    
+    object changes, the final object changes too.
+
     Parameters
     ----------
-    obj : 
+    obj :
 
     delta : Base.Vector
-        Delta Vector to move the clone from the original position. 
+        Delta Vector to move the clone from the original position.
 
     forcedraft : bool
         If forcedraft is True, the resulting object is a Draft clone
         even if the input object is an Arch object.
-    
+
     
 
 
 
 #### <img src="images/type_method.svg" style="width:16px;"> make_copy <small>(obj, force=None, reparent=False, simple_copy=False)</small>
 
-makeCopy(object, [force], [reparent])
-    
+make_copy(object, [force], [reparent], [simple_copy])
+
     Make an exact copy of an object and return it.
-    
+
     Parameters
     ----------
     obj :
@@ -2878,7 +2878,7 @@ makeCopy(object, [force], [reparent])
         Group the new object in the same group of the old one.
 
     simple_copy :
-        Create a simple copy of the object (a new non parametric 
+        Create a simple copy of the object (a new non parametric
         Part::Feature with the same Shape as the given object).
     
 
@@ -2962,10 +2962,10 @@ make_ellipse(majradius, minradius, [placement], [face], [support])
 
 #### <img src="images/type_method.svg" style="width:16px;"> make_facebinder <small>(selectionset, name='Facebinder')</small>
 
-makeFacebinder(selectionset, [name])
-    
+make_facebinder(selectionset, [name])
+
     Creates a Facebinder object from a selection set.
-    
+
     Parameters
     ----------
     selectionset :
@@ -3588,8 +3588,8 @@ Create a Path twisted array.
 
 #### <img src="images/type_method.svg" style="width:16px;"> make_point <small>(X=0, Y=0, Z=0, color=None, name='Point', point_size=5)</small>
 
- makePoint(x,y,z ,[color(r,g,b),point_size]) or
-        makePoint(Vector,color(r,g,b),point_size]) -
+ make_point(x, y, z, [color(r, g, b), point_size]) or
+        make_point(Vector, color(r, g, b), point_size])
 
     Creates a Draft Point in the current document.
 
@@ -3899,7 +3899,7 @@ Create a 2D rectangular array from the given object.
 
 #### <img src="images/type_method.svg" style="width:16px;"> make_rectangle <small>(length, height=0, placement=None, face=None, support=None)</small>
 
-makeRectangle(length, width, [placement], [face])
+make_rectangle(length, width, [placement], [face])
 
     Creates a Rectangle object with length in X direction and height in Y
     direction.
@@ -3910,13 +3910,13 @@ makeRectangle(length, width, [placement], [face])
 
     placement : Base.Placement
         If a placement is given, it is used.
-    
+
     face : Bool
-        If face is False, the rectangle is shown as a wireframe, 
+        If face is False, the rectangle is shown as a wireframe,
         otherwise as a face.
-        
+
     Rectangles can also be constructed by giving them a list of four vertices
-    as first argument: makeRectangle(list_of_vertices,face=...)
+    as first argument: make_rectangle(list_of_vertices, face=...)
     but you are responsible to check yourself that these 4 vertices are ordered
     and actually form a rectangle, otherwise the result might be wrong. Placement
     is ignored when constructing a rectangle this way (face argument is kept).
@@ -3926,7 +3926,7 @@ makeRectangle(length, width, [placement], [face])
 
 #### <img src="images/type_method.svg" style="width:16px;"> make_shape2dview <small>(baseobj, projectionVector=None, facenumbers=[])</small>
 
-makeShape2DView(object, [projectionVector], [facenumbers])
+make_shape2dview(object, [projectionVector], [facenumbers])
     
     Add a 2D shape to the document, which is a 2D projection of the given object. 
     
@@ -3961,8 +3961,8 @@ ShapeString(Text,FontFile,[Height],[Track])
 
 #### <img src="images/type_method.svg" style="width:16px;"> make_sketch <small>(objects_list, autoconstraints=False, addTo=None, delete=False, name='Sketch', radiusPrecision=-1, tol=0.001)</small>
 
-makeSketch(objects_list,[autoconstraints],[addTo],[delete],
-                  [name],[radiusPrecision],[tol])
+make_sketch(objects_list, [autoconstraints], [addTo], [delete],
+                   [name], [radiusPrecision], [tol])
 
     Makes a Sketch objects_list with the given Draft objects.
 
@@ -4035,7 +4035,7 @@ Create a Text object containing the given list of strings.
 
 #### <img src="images/type_method.svg" style="width:16px;"> make_wire <small>(pointslist, closed=False, placement=None, face=None, support=None, bs2wire=False)</small>
 
-makeWire(pointslist,[closed],[placement])
+make_wire(pointslist, [closed], [placement])
     
     Creates a Wire object from the given list of vectors.  If face is
     true (and wire is closed), the wire will appear filled. Instead of

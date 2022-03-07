@@ -71,7 +71,7 @@ FreeCAD supporte maintenant de nouveaux styles de navigation dont un tactile. Ce
 
 ## Atelier Arch 
 
--   **[Support des Materiaux](Arch_SetMaterial/fr.md)**: Un objet Arch peut maintenant avoir un [matériau](material/fr.md) associé, qui utilise le framework des matériaux intégré à FreeCAD. Ces matériaux sont partagés entre les ateliers. Ils sont pleinement supporté lors de l\'import et l\'export IFC.
+-   **[Support des Materiaux](Arch_SetMaterial/fr.md)**: Un objet Arch peut maintenant avoir un [matériau](material.md) associé, qui utilise le framework des matériaux intégré à FreeCAD. Ces matériaux sont partagés entre les ateliers. Ils sont pleinement supporté lors de l\'import et l\'export IFC.
 -   La **[Section plane](Arch_SectionPlane/fr.md)** peut maintenant faire une coupe dans la vue 3D montrant en temps réel la section.
 
 <img alt="" src=images/Arch_clip_plane.jpg  style="width:1024px;">

@@ -1,4 +1,7 @@
-# <img alt="El icono del Ambiente de trabajo BIM" src=images/IFC.svg  style="width:64px;"> BIM Workbench/es
+# BIM Workbench/es
+}
+
+<img alt="El icono del Ambiente de trabajo BIM" src=images/IFC.svg  style="width:128px;">
 
 
 {{TOCright}}

@@ -10,9 +10,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 ![](images/TestWorkbench.svg )
 
 
-{{Artwork}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Test/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Testing](Category_Testing.md) > Artwork Test/en

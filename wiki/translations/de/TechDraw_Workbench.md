@@ -6,7 +6,7 @@ Der <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">[TechDraw
 
 Bemaßungen, Abschnitte, schraffierte Bereiche, Anmerkungen und Symbole im Dateiformat[SVG](SVG/de.md) können der Seite hinzugefügt werden. Die Seite / Zeichnung kann später in verschiedene Formate wie [DXF](DXF/de.md), [SVG](SVG/de.md) und [PDF](PDF/de.md) exportiert werden.
 
-TechDraw wurde ab Version 0.17 offiziell in FreeCAD aufgenommen; es soll den nicht mehr unterstützten [Drawing-Arbeitsbereich](Drawing_Workbench/de.md) ersetzen. Beide Arbeitsbereiche sind in v0.17 noch vorhanden, aber der Drawing-Arbeitsbereich kann in zukünftigen Releases entfernt werden. Um mit den Plänen und Entwicklungen von TechDraw Schritt zu halten, besuchen Sie die [TechDraw-Planung](TechDraw_Roadmap/de.md).
+TechDraw wurde ab Version 0.17 offiziell in FreeCAD aufgenommen; es soll den nicht mehr unterstützten [Drawing-Arbeitsbereich](Drawing_Workbench/de.md) ersetzen. Beide Arbeitsbereiche sind in v0.17 noch vorhanden, aber der Drawing-Arbeitsbereich kann in zukünftigen Releases entfernt werden. Um mit den Plänen und Entwicklungen von TechDraw Schritt zu halten, besuchen Sie die [TechDraw-Planung](TechDraw_Roadmap.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -255,6 +255,10 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
 
 -   <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:32px;"> [Schräge Abstände](TechDraw_ExtensionCascadeObliqueDimension/de.md): Bilde Abstände zwischen schrägen Maßen. <small>(v0.20)</small> 
 
+-   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Calculate the area of selected faces](TechDraw_ExtensionAreaAnnotation.md): calculates the area of selected faces and inserts an area annotation. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Customize format label](TechDraw_ExtensionCustomizeFormat.md): customizes the formatting of a balloon text or dimension text. GD&T symbols and other special character can be added. <small>(v0.20)</small> 
+
 ### Mittellinien und Gewinde 
 
 -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Mittellinien bei Kreisbogen-Kreis](TechDraw_ExtensionCircleCenterLines/de.md): Erzeuge Mittellinien bei Kreisen und Kreisbögen. <small>(v0.20)</small> 
@@ -397,11 +401,11 @@ Video Tutorien von sliptonic
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [TechDraw](Category_TechDraw.md) > TechDraw Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/de

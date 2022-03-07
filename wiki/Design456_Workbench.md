@@ -44,10 +44,8 @@ If the above is not working for you please consider :
 
 ### 3D Drawing and manipulation tools 
 
--   <img alt="" src=images/Design456_Extrude.svg  style="width:32px;"> [Design456 Extrude](Design456_Extrude.md): Use this tool to extrude any face.
--   <img alt="" src=images/Design456_Extract.svg  style="width:32px;"> [Design456 Extract Face](Design456_Extract.md): Use this tool to extract a face from a 3D object.
--   <img alt="" src=images/Design456_ExtrudeFace.svg  style="width:32px;"> [Design456 Extrude Face](Design456_ExtrudeFace.md): Use this tool to extract a face from a 3D object and extrude it.
--   <img alt="" src=images/Design456_Tweak.svg  style="width:32px;"> [Design456 Tweak](Design456_Tweak.md): Use this tool to move a subshape of the object.
+-   <img alt="" src=images/Design456_Extrude.svg  style="width:32px;"> [Design456 Extrude](Design456_Extrude.md): Use this tool to extrude any face of 2D or 3D object.
+-   <img alt="" src=images/Design456_Extract.svg  style="width:32px;"> [Design456 Extract Face](Design456_Extract.md): Use this tool to extract a face, edge or vertex from any object.
 -   <img alt="" src=images/Design456_SplitObject.svg  style="width:32px;"> [Design456 Split a 3D object](Design456_SplitObject.md): Use this tool to split any 3D object.
 -   <img alt="" src=images/Design456_LoftOnDirection.svg  style="width:32px;"> [Design456 Loft on direction](Design456_LoftOnDirection.md): Use this tool create new 3D object based on the face you select and the scale you choose.
 -   <img alt="" src=images/Design456_PartMerge.svg  style="width:32px;"> [Design456 3D PartMerge](Design456_PartMerge.md): Use this tool to merge 3D objects.

@@ -1,16 +1,17 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign Boolean
-   MenuLocation:Part Design → Boolean operation
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   Name/pl:Projekt Części: Operacje logiczne
+   MenuLocation:Projekt Części → Operacja logiczna
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
 ---
 
 # PartDesign Boolean/pl
 
-## Description
+## Opis
 
-**PartDesign Boolean** imports one or more [PartDesign Bodies](PartDesign_Body.md) or [PartDesign Clones](PartDesign_Clone.md) (designated as \"tool bodies\") into the active PartDesign Body and applies a Boolean operation (fuse, cut or common).
+**Operacja logiczna** środowiska Projekt Części importuje jedną lub więcej [zawartości](PartDesign_Body/pl.md) lub [klonów](PartDesign_Clone/pl.md) *(oznaczonych jako \"zawartość narzędziowa\")* do aktywnej bryły Projekt Części i stosuje operację logiczną *(połączenie, przecięcie lub część wspólna)*.
 
 ![](images/PartDesign_Boolean_example.png )
 
@@ -18,7 +19,7 @@
 
 *On the left: active body (A) with tool bodies (B) and (C); result on the right after a Boolean Cut.*
 
-## Usage
+## Użycie
 
 1.  [Activate the Body](PartDesign_Body#Active_status.md) which is to receive the Boolean feature. ***Note**: It is important that neither the active Body nor any of the features it contains be selected!*
 2.  Press the **<img src="images/PartDesign_Boolean.svg" width=16px> [PartDesign Boolean](PartDesign_Boolean.md)** button.
@@ -29,14 +30,14 @@
 
 Alternatively, one or more Bodies can be selected prior to pressing the Boolean button; they will be automatically added.
 
-## Options
+## Opcje
 
 -   **Fuse:** merges the tool body or bodies to the active body.
 -   **Cut:** subtracts the tool body or bodies from the active body.
 -   **Common:** extracts the intersection from the selected body or bodies with the active body
 -   Press the **Remove body** button to remove a body, by selecting it in the [3D view](3D_view.md).
 
-## Properties
+## Właściwości
 
 -    **Type**: sets the Boolean operation (Fuse, Cut, Common)
 
@@ -47,16 +48,16 @@ Alternatively, one or more Bodies can be selected prior to pressing the Boolean 
 -    **Display**: sets the display between 2 modes:
 
     -   Result (default): displays the result of the Boolean feature. In this mode, the tool Bodies cannot be displayed in their original state, even when their visibility is toggled on.
-    -   Tools: displays the tool Bodies in their original state. This mode is useful when editing tool Bodies is needed.
+    -   Tools: displays the tool Bodies in their original state. This mode is useful when tool Bodies need to be edited, or used in later operations.
 
 -    **Selectable**: true or false. If set to false, the feature cannot be selected in the 3D view.
 
 -    **Visibility**: true or false. Toggles the feature\'s visibility in the 3D view.
 
-## Limitations
+## Ograniczenia
 
 -   For Common to work with more than one tool body, they must all intersect each other along with the active Body.
--   Tool bodies adopt the local origin of the active Body. If the active Body is not located at (0,0,0) in the global coordinate system, the tool bodies\' placement need to be relative to the active Body. It may be easier to leave the active Body\'s placement at the origin before applying the Boolean feature, then to change its placement.
+-   Tool bodies adopt the local origin of the active Body. If the active Body is not located at (0,0,0) in the global coordinate system, the tool bodies\' placement need to be relative to the active Body. It may be easier to leave the active Body\'s placement at the origin before applying the Boolean feature, than to change its placement.
 
 
 

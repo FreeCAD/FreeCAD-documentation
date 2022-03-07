@@ -42,9 +42,6 @@ L\'image suivante est \"A4\_Simple.svg\". C\'est une page vide.
 <img alt="" src=images/A4_Simple.svg  style="width:240px;">
 
 
-{{Artwork}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Drawing/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Drawing](Category_Drawing.md) > Artwork Drawing/fr

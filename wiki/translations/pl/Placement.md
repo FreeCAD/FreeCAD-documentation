@@ -32,67 +32,67 @@ Pierwsza forma **Umiejscowienia** ustala położenie obiektu w przestrzeni za po
    *(0,0,1)* ==> wokół **osi Z**,
    *(0,71,0,71,0)* ==> wokół prostej **y=x**.
 
-Note that it is also possible to translate (move) an object along this axis of rotation (axial motion) by entering the distance to move in the {{SpinBox|Axial: 0.0mm}} spinbox and clicking **Apply axial**. (One way to envision axial motion is to think of an airplane with a propeller spinning on its nose \-- the propeller spins *about* an axis of rotation while the plane moves *along* that same axis.) The values in the vector can be thought of as the relative amount of motion that will be applied in that direction. For example, in the y=x case (0.71,0.71,0) the value contained in the Axial spinbox gets applied in equal measure to the X and Y directions, but no movement happens in the Z direction.
+Zauważ, że możliwe jest również translacja *(przemieszczanie)* obiektu wzdłuż tej osi obrotu (ruch osiowy) poprzez wpisanie odległości do przemieszczenia w polu {{SpinBox|Osiowo: 0.0mm}} i kliknięcie **Zastosuj osiowo**. \'\'(Jednym ze sposobów wyobrażenia sobie ruchu osiowego jest samolot ze śmigłem obracającym się na dziobie - śmigło obraca się *wokół* osi obrotu, podczas gdy samolot porusza się *wzdłuż* tej samej osi)\'\'. Wartości w wektorze można traktować jako względną wielkość ruchu, który zostanie wykonany w danym kierunku. Na przykład w przypadku y=x *(0,71,0,71,0)* wartość zawarta w polu wyboru osi zostanie zastosowana w równej mierze w kierunkach X i Y, ale w kierunku Z nie nastąpi żaden ruch.
 
-**Position = (x,y,z)** is a Vector describing the point from which the object\'s geometry will be calculated (in effect, a \"local origin\" for the object). Note that in scripts, Placement.Base is used to denote the Position component of a placement. The property editor calls this value **Position** and the Placement task panel calls it **Translation**.
+**Pozycja = (x,y,z)** to wektor opisujący punkt, od którego będzie obliczana geometria obiektu *(w efekcie jest to \"lokalny początek\" obiektu)*. Należy zauważyć, że w skryptach do oznaczenia składowej położenia obiektu Placement.Base jest używana wartość Placement.Base. Edytor właściwości nazywa tę wartość **pozycją**, a panel zadań umieszczania - przesunięciem.
 
-### Position and Yaw, Pitch and Roll 
+### Pozycja i odchylenie, pochylenie oraz obrót 
 
-![Placement task panel: {{ComboBox|Euler angles}} selected](images/PlacementDialogv10b.png )  **Placement = \[Position, Yaw-Pitch-Roll\]**
+![Panel zadań umiejscowienia: {{ComboBox|Kąty Eulera}} zaznaczone](images/PlacementDialogv10b.png )  **Umiejscowienie = \[Pozycja, odchylenie, pochylenie, obrót\]**.
 
-The second form of **Placement** fixes an object\'s location in space with a **Position** (as in the first form), but describes its orientation using [Yaw, Pitch and Roll angles](http://en.wikipedia.org/wiki/Yaw,_pitch,_and_roll). These angles are sometimes referred to as [Euler angles](http://en.wikipedia.org/wiki/Euler_angles) or Tait-Bryan angles. Yaw, Pitch and Roll are common aviation terms for a body\'s orientation (or attitude).
+Druga forma **Umiejscowienia** określa położenie obiektu w przestrzeni za pomocą **Pozycji** *(tak jak w pierwszej formie)*, ale opisuje jego orientację za pomocą [Kątów odchylenia, pochylenia i obrotu](http://en.wikipedia.org/wiki/Yaw,_pitch,_and_roll). Kąty te są czasem określane jako [kąty Eulera](http://en.wikipedia.org/wiki/Euler_angles) lub kąty Tait-Bryana. Odchylenie, Pochylenie i Obrót to powszechnie używane w lotnictwie określenia orientacji *(lub położenia)* ciała.
 
-**Position = (x,y,z)** is a Vector describing the point from which the object\'s geometry will be calculated (in effect, a \"local origin\" for the object).
+**Położenie = (x,y,z)** to wektor opisujący punkt, od którego będzie obliczana geometria obiektu *(w efekcie \"lokalne odniesienie położenia\" obiektu)*.
 
-**Yaw-Pitch-Roll = (y,p,r)** is a tuple that specifies the attitude of the object. Values for y,p,r specify degrees of rotation about each of the z,y,x axis (see note).  
+**Odchylenie-Pochylenie-Obrót = (y,p,r)** to krotka określająca położenie obiektu. Wartości dla y,p,r określają stopnie obrotu wokół każdej z osi z,y,x *(patrz uwaga)*.  
 ```python
 >>> App.getDocument("Sans_nom").Cylinder.Placement=App.Placement(App.Vector(0,0,0), App.Rotation(10,20,30), App.Vector(0,0,0))
 ```
 
-App.Rotation(10,20,30) = Euler Angle
+App.Rotation(10,20,30) = Kąt Eulera
 
-**Yaw** = 10 degrees (**Z**)
+**Odchylenie** = 10° *(**Z**)*
 
-**Pitch** = 20 degrees (**Y**)
+**Pochylenie** = 20° *(**Y**)*
 
-**Roll** = 30 degrees (**X**)
+**Obrót** = 30° *(**X**)*
 
-![](images/Tache_Placement_Lacet_fr_Mini.gif )**Yaw** is the rotation about the **Z axis**, that is to say a rotation from left to right.
-(The yaw angle is the **Psi ψ**). 
+![](images/Tache_Placement_Lacet_fr_Mini.gif )**Odchylenie** to obrót wokół **osi Z**, czyli obrót z lewej strony na prawą.
+*(Kąt odchylenia jest równy **Psi ψ**)*. 
 
-![](images/Tache_Placement_Tangage_fr_Mini.gif )**Pitch** is rotation about the **Y axis**, that is to say nose-up and nose-down.
-(The Pitch angle is the **Phi φ**). 
+![](images/Tache_Placement_Tangage_fr_Mini.gif )**Pochylenie** to obrót wokół **osi Y**, czyli do góry i do dołu.
+*(Kąt nachylenia jest wartością **Phi φ**)*. 
 
-![](images/Tache_Placement_Roulis_fr_Mini.gif )**Roll** is rotation about the **X axis**, that is to say wing up and down.
-(The Roll angle is the **Thêta θ**). 
+![](images/Tache_Placement_Roulis_fr_Mini.gif )**Obrót** to obrót wokół osi X, czyli w górę i w dół skrzydła.
+*(Kąt obrotu to **Thêta θ**)*. 
 
-### Matrix
+### Macierz
 
-**Placement = Matrix**
+**Umiejscowienie = Macierz**
 
-The third form of **Placement** describes the object\'s position and orientation with a 4x4 affine transformation matrix ([Affine Transformation](http://en.wikipedia.org/wiki/Affine_transformation)).
+Trzecia forma **Umiejscowienia** opisuje położenie i orientację obiektu za pomocą macierzy transformacji afinicznej 4x4 *([Affine Transformation](http://en.wikipedia.org/wiki/Affine_transformation))*.
 
-**Matrix** =
+**Macierz** =
 
   ((r11,r12,r13,t1),
    (r21,r22,r23,t2),
    (r31,r32,r33,t3),
-   (0,0,0,1)) , with rij specifying rotation and ti specifying translation. 
+   (0,0,0,1)) , gdzie r*ij* określa obrót, a t*i* - przesunięcie. 
 
 
 
 
-## The Placement Dialog 
+## Okno dialogowe umiejscowienia 
 
-The Placement Dialog is invoked from the **Edit** menu. It is used to precisely rotate/translate objects. It is also used when we need to create a sketch on a \"non standard\" plane or change a sketch\'s orientation to a new plane.
+Okno dialogowe Umiejscowienia jest wywoływane z menu **Edycja**. Służy ono do precyzyjnego obracania / przesuwania obiektów. Jest ono również używane, gdy chcemy utworzyć szkic na \"niestandardowej\" płaszczyźnie lub zmienić orientację szkicu na nową płaszczyznę.
 
-The **Translation** section adjusts the object\'s location in space. The **Center** section adjusts the rotational axis to one that does not pass through the object\'s reference point. The **Rotation** section adjusts the rotational angle(s) and the method of specifying those angles.
+Sekcja **Przesunięcie** dostosowuje położenie obiektu w przestrzeni. Sekcja **Środek** dostosowuje oś obrotu do takiej, która nie przechodzi przez punkt odniesienia obiektu. W sekcji **Obrót** dostosowuje się kąt*(y)* obrotu oraz metodę określania tych kątów.
 
-But while the elements within each section generally apply to the purpose of that section there are also some elements in one section that can affect elements in another section. For example, clicking the Selected points button in the **Center** section with 2 points selected in the 3d view results in not only populating the **Center** coordinate spinboxes with the coordinates of the midpoint between those 2 selected points, but it also creates a custom axis along the line defined by those 2 selected points in the **Rotation** section. In another example, placing a value in the Axial spinbox and clicking the Apply axial button in the **Translation** section translates (moves) the object along the axis defined in the **Rotation** section.
+Chociaż elementy w każdej sekcji mają zasadniczo zastosowanie do celów danej sekcji, niektóre elementy w jednej sekcji mogą mieć wpływ na elementy w innej sekcji. Na przykład kliknięcie przycisku Wybrane punkty w sekcji **Środek** z zaznaczonymi dwoma punktami w oknie widoku 3D powoduje nie tylko wypełnienie pól wyboru współrzędnych **Środek** współrzędnymi punktu środkowego między tymi dwoma zaznaczonymi punktami, ale także utworzenie niestandardowej osi wzdłuż linii zdefiniowanej przez te dwa zaznaczone punkty w sekcji **Obrót**. W innym przykładzie umieszczenie wartości w polu wyboru osi i kliknięcie przycisku Zastosuj oś w sekcji **Przesunięcie** powoduje translację *(przesunięcie)* obiektu wzdłuż osi zdefiniowanej w sekcji **Obrót**.
 
-The **Apply incremental changes to object placement** tick box is useful when translations/rotations are to be made relative the object\'s current position/attitude, rather than to the original position/attitude. Ticking this box resets the dialogue input fields to zero, but does not change the object\'s orientation or location. Subsequent entries do change the orientation/location, but are applied from the object\'s current position. Enabling this checkbox is also useful when using the Selected points button as it can sometimes prevent undesired placement changes.
+Pole wyboru **Zastosuj zmiany przyrostowe** jest przydatne, gdy translacje / obroty mają być wykonywane względem aktualnego położenia / pochylenia obiektu, a nie względem pierwotnego położenia / pochylenia. Zaznaczenie tego pola resetuje pola dialogowe do zera, ale nie zmienia orientacji ani położenia obiektu. Kolejne wpisy zmieniają orientację / położenie, ale są stosowane od aktualnej pozycji obiektu. Włączenie tego pola wyboru jest również przydatne podczas korzystania z przycisku Wybrane punkty, ponieważ może ono czasami zapobiegać niepożądanym zmianom położenia.
 
-PS: since version 0.17 introduce new object Part, this object have his placement, and the Placement object created in the Part object is incremented with the Part Placement. <small>(v0.17)</small>  For obtain the Part Placement use this code 
+PS: od wersji 0.17 wprowadzono nowy obiekt Część, obiekt ten posiada swoje umiejscowienie, a obiekt Umiejscowienie utworzony w obiekcie Część jest inkrementowany o Umiejscowienie części. {{Version/pl|0.17}} Aby uzyskać Umiejscowienie środowiska Część użyj następującego kodu: 
 ```python
 import Draft, Part
 sel = FreeCADGui.Selection.getSelection()
@@ -102,17 +102,17 @@ print sel[0].getParentGeoFeatureGroup() # return the GeoFeatureGroup, ex:  Body 
 print  "____________________"
 ```
 
-**Selected points** button is used to populate the coordinates in the **Center** coordinates spinboxes and (when 2 or 3 points are selected) additionally to create a custom (user-defined) axis of rotation in the **Rotation** section. A point can be a vertex, but it can also be any point along an edge or on a face. When you select an edge or face the entire edge or face is selected, but FreeCAD also remembers which point on that face or edge the mouse pointer was hovering over when that edge or face was selected. It is this point\'s coordinates that get used in the Placement dialog when the **Selected points** button is clicked. You might be thinking this isn\'t a very precise way of selecting a point, and you are correct, but in many cases it is sufficient that the point selected is guaranteed to be on that edge or face. In cases where you need to precisely designate a point to be used you should select a vertex. When there is no vertex in the desired location consider creating one, perhaps in a temporary sketch attached to that face or edge, perhaps using a Draft workbench object, such as a line or point, etc.
+Przycisk **Wybrane punkty** służy do wypełniania współrzędnych w polach współrzędnych **Środek** oraz *(po wybraniu 2 lub 3 punktów)* dodatkowo do tworzenia własnej (zdefiniowanej przez użytkownika) osi obrotu w sekcji **Obrót**. Punktem może być wierzchołek, ale może to być także dowolny punkt wzdłuż krawędzi lub na powierzchni. Gdy zaznaczasz krawędź lub ścianę, zaznaczana jest cała krawędź lub ściana, ale FreeCAD zapamiętuje również, na który punkt na tej ścianie lub krawędzi najeżdżał kursor myszki, gdy ta krawędź lub ściana była zaznaczona. To właśnie współrzędne tego punktu są używane w oknie dialogowym Umiejscowienie, gdy zostanie kliknięty przycisk **Wybrane punkty**. Być może uważasz, że nie jest to zbyt precyzyjny sposób zaznaczania punktu, i masz rację, ale w wielu przypadkach wystarczy, że wybrany punkt będzie znajdował się na tej krawędzi lub ścianie. W przypadkach, gdy trzeba precyzyjnie wyznaczyć punkt, który ma zostać użyty, należy wybrać wierzchołek. Jeśli w żądanym miejscu nie ma żadnego wierzchołka, można go utworzyć, np. w tymczasowym szkicu dołączonym do tej ściany lub krawędzi, lub za pomocą obiektu środowiska Rysunek Roboczy, takiego jak linia lub punkt itp.
 
-Let us first consider the simple case of selecting 1 point. The workflow is to first select the desired point, then click the **Selected points** button. The coordinates of the selected point will be used to populate the X, Y, and Z spinboxes within the **Center** section. Now any rotation done on the object will about this center of rotation.
+Rozważmy najpierw prosty przypadek wybrania jednego punktu. W tym celu należy najpierw zaznaczyć żądany punkt, a następnie kliknąć przycisk **Wybrane punkty**. Współrzędne wybranego punktu zostaną użyte do wypełnienia pól obrotowych X, Y i Z w sekcji **Środek**. Teraz każdy obrót wykonywany na obiekcie będzie się odbywał wokół tego środka obrotu.
 
 Now consider the case of selecting 2 points. You would select the 2 desired points, and then click the **Selected points** button. The coordinates of the midpoint between the 2 selected points get placed into the X, Y, and Z spinboxes within the **Center** section. Now any rotation done on the object will be about this center of rotation. But in addition to setting up the **Center** section coordinates a custom (user-defined) axis is also added to the **Axis** element within the **Rotation** section. (Note: if you were in Euler rotation mode, the mode gets switched to Rotation with an axis mode and the new custom axis is selected as the current axis of rotation.) Now any rotation done using the new custom axis will be about this axis of rotation. As an added bonus, the distance is measured between the 2 selected points, and this information is given in the Report View. (Note: Hold down the Shift key while clicking the **Selected points** button to copy the distance measurement to the clipboard.) By entering this distance into the Axial spinbox in the **Translation** section and clicking the **Apply axial** button you can translate (move) the object so that the first selected point now occupies the coordinates occupied by the second selected point (at the time the **Selected points** button was clicked).
 
 Now consider the case of selecting 3 points. You would select the 3 desired points, and then click the **Selected points** button. The coordinates of the first selected point (order of selection is very important here) get placed into the X, Y, and Z spinboxes within the **Center** section. Since 3 points define a plane FreeCAD is able to take advantage of that and use those 3 points to create a new custom (user-defined) axis of rotation that is normal (perpendicular) to that defined plane. As with 2 selected points, the distance between points is also shown in the Report View, but this time it is the distance between the 2nd and 3rd selected points. (Note: Hold down the Shift key while clicking **Selected points** button \-- Shift + Click \-- to copy the angle measurement to the clipboard.) Additionally, the angle between the 2nd and 3rd points is also measured and displayed in the Report View. By entering this angle into the **Angle** spinbox within the **Rotation** section we can very precisely rotate the object such that now the 2nd selected point is in alignment with the coordinates occupied by the 3rd selected point. (Note: you might want to increase the number of digits used within the Edit menu -\> Preferences -\> General -\> Units -\> Number of decimals spinbox if you desire more precision.)
 
-## Examples
+## Przykłady
 
-Rotations about a single axis:
+Obroty wokół jednej osi:
 
 <img alt="Before Rotation" src=images/RotationAboutZBefore.png  style="width:600px;"> Before Rotation (top view) 
 

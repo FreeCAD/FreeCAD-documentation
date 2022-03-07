@@ -27,7 +27,7 @@ When selecting a single sketch, it can have multiple enclosed profiles inside a 
 
 ## Options
 
-When creating a pad, the the **Pad parameters** dialog will be shown. It offers the following settings:
+When creating a pad, the **Pad parameters** dialog will be shown. It offers the following settings:
 
 ![](images/pad_parameters_cropped.png )
 

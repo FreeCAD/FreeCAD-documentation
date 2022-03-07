@@ -31,7 +31,7 @@ La fonction **Perçage** crée un ou plusieurs trous à partir des cercles et de
 
 Selon la sélection effectuée, certains champs seront activés ou resteront désactivés.
 
-![](images/PartDesign_Hole_parameters_fr.png )
+![](images/PartDesign_Hole_parameters.png )
 
 ### Filetage et taille 
 

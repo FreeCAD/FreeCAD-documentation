@@ -1,5 +1,11 @@
 # Path fourth axis/it
+<div class="mw-translate-fuzzy">
+
+
 {{Path_Tools_navi/it}}
+
+
+</div>
 
 
 {{TOCright}}
@@ -61,7 +67,13 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 -   Toggle the \"Reverse Direction\" property if the path appears to be off by 180 degrees.
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{Userdocnavi/it}}
+
+
+</div>
 
 
 {{Path_Tools_navi

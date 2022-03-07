@@ -1,4 +1,7 @@
-# <img alt="Иконка верстака BIM. Данный верстак является внешним." src=images/IFC.svg  style="width:64px;"> BIM Workbench/ru
+# BIM Workbench/ru
+}
+
+<img alt="Иконка верстака BIM. Данный верстак является внешним." src=images/IFC.svg  style="width:128px;">
 
 
 {{TOCright}}

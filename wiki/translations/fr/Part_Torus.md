@@ -11,53 +11,68 @@
 
 ## Description
 
-Crée un tore paramétrique simple avec les paramètres position angle1, angle2, angle3, rayon1 et rayon2.
+La commande <img alt="" src=images/Part_Torus.svg  style="width:24px;"> **Part Tore** crée un solide paramétrique en forme de tore, de beignet. Il est le résultat du balayage d\'un profil circulaire autour d\'une trajectoire circulaire. Dans le système de coordonnées défini par sa propriété **Placement**, la trajectoire circulaire du tore se situe dans le plan XY avec son centre à l\'origine.
 
-<img alt="" src=images/SimpleTorus.jpg  style="width:400px;">
+Un Part Tore peut être transformé en un segment de tore en modifiant sa propriété **Angle3**. En modifiant ses propriétés **Angle1** et/ou **Angle2**, le profil balayé peut devenir un segment de cercle.
+
+<img alt="" src=images/Part_Torus_Example.png  style="width:400px;">
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Atelier PArt](Part_Workbench/fr.md)
-2.  Lancez la commande de plusieurs manières:
-    -   Appuyez sur le bouton **<img src="images/Part_Torus.svg" width=16px> Tore** dans la barre d\'outils.
-    -   Sélectionnez **Pièce → Primitives → <img src="images/Part_Torus.svg" width=16px> Tore** dans la barre de menus.
+1.  Il y a plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Part_Torus.svg" width=16px> [Tore](Part_Torus/fr.md)**.
+    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Torus.svg" width=16px> Tore** dans le menu.
+2.  Le tore est créé.
+3.  Vous pouvez éventuellement modifier les dimensions et **Placement** du tore en effectuant l\'une des opérations suivantes :
+    -   Double-cliquez sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md) :
+        1.  Le panneau de tâches **Primitives géométriques** s\'ouvre.
+        2.  Modifiez une ou plusieurs propriétés.
+        3.  L\'objet est mis à jour dynamiquement dans la [Vue 3D](3D_view/fr.md).
+        4.  Appuyez sur le bouton **OK**.
+        5.  Modifiez les propriétés dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+    -   Changez la **Placement** avec la <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
 
-**Résultat:** Le tore sera positionné à l\'origine (point 0,0,0) lors de la création.
-Les paramètres d\'angle (angle1, angle2, angle3) ainsi que les paramètres de paramètre de rayon (radius1, radius2) permettent de paramétrer le tore, voir section suivante.
+## Exemple
 
-## Option
+![Part Tore à partir de l\'exemple du script](images/Part_Torus_Scripting_Example.png )
 
-![](images/TorusExampleOverviewParameters.jpg )
+Un objet Part Tore créé avec l\'[exemple du script](#Script.md) ci-dessous.
 
-**Paramètres**
+## Remarques
 
-Un tore peut être assimilé à un petit disque qui forme une orbite circulaire autour d\'un axe imaginaire. Ainsi, le tore paramétrique est défini par les paramètres suivants:
+-   Un Part Tore peut également être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives/fr.md). Avec cette commande, vous pouvez spécifier les dimensions et le placement au moment de la création.
 
--    {{Parameter|Radius1:}}Rayon du cercle autour duquel le disque circule
+## Propriétés
 
--    {{Parameter|Radius2:}}Rayon du disque définissant la forme du tore
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
--    {{Parameter|Angle1:}}1er angle pour couper/définir le disque du tore
+Un objet Part Tore est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
--    {{Parameter|Angle2:}}2ème angle pour couper/définir le disque du tore
+### Données
 
--    {{Parameter|Angle3:}}3ème angle pour définir la circonférence du tore.
 
-ainsi que l\'ensemble standard de paramètres de placement. Les images ci-dessous donnent un aperçu visuel des paramètres mentionnés précédemment:
+{{TitleProperty|Attachment}}
 
-![](images/TorusExampleRadius1.jpg ) Le paramètre Rayon1 a une valeur de 20 mm.
+L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Part_Part2DObject/fr#Donn.C3.A9es.md).
 
-![](images/TorusExampleRadius2.jpg ) Le paramètre Rayon2 a une valeur de 2 mm.
 
-![](images/TorusExampleAngle1.jpg ) Le paramètre Angle1 a une valeur de -90°. Notez que l\'outil \"Mesure d\'angle\" ne peut pas afficher un angle négatif. Considérez la valeur affichée dans l\'image comme \"-90°\".
+{{TitleProperty|Torus}}
 
-![](images/TorusExampleAngle2.jpg ) Le paramètre Angle2 a une valeur de 90°.
+-    **Radius1|Length**: Le rayon de la trajectoire circulaire du tore. La valeur par défaut est {{Value|10mm}}.
 
-![](images/TorusExampleAngle3.jpg ) Le paramètre Angle3 a une valeur de 90°. 
+-    **Radius2|Length**: Le rayon du profil circulaire du tore. La valeur par défaut est {{Value|2mm}}.
+
+-    **Angle1|Angle**: L\'angle de départ du profil circulaire. Plage valide : {{Value|-180° &lt;&#61; value &lt;&#61; 180°}}. La valeur par défaut est {{Value|-180°}}.
+
+-    **Angle2|Angle**: L\'angle de fin du profil circulaire. Plage valide : {{Value|-180° &lt;&#61; value &lt;&#61; 180°}}. La valeur par défaut est {{Value|180°}}. Si l\'angle total du profil circulaire est inférieur à {{Value|360°}}, le profil aura une forme de tarte.
+
+-    **Angle3|Angle**: L\'angle de la trajectoire circulaire du tore. Plage valide : {{Value|0° &lt; value &lt;&#61; 360°}}. La valeur par défaut est {{Value|360°}}. Si elle est inférieure à {{Value|360°}}, le solide résultant sera un segment de tore.
 
 ## Script
 
-Un Part Tore peut être créé en utilisant la fonction suivante:
+Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+
+Un Part Tore est créé avec la méthode `addObject()` du document :
 
 
 ```python
@@ -66,6 +81,33 @@ torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
 
 -   Où {{Incode|"myTorus"}} est le nom de l\'objet.
 -   La fonction restitue l\'objet nouvellement créé.
+
+Exemple :
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+torus = doc.addObject("Part::Torus", "myTorus")
+torus.Radius1 = 20
+torus.Radius2 = 10
+torus.Angle1 = -90
+torus.Angle2 = 45
+torus.Angle3 = 270
+torus.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(30, 45, 10))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

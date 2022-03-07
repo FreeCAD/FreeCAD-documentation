@@ -31,7 +31,7 @@ Questo comando posiziona un oggetto Piano proxy allineato al corrente [Piano di 
 <div class="mw-translate-fuzzy">
 
 1.  Assicurarsi che il [Piano di lavoro](Draft_SelectPlane/it.md) sia impostato come si desidera.
-2.  Poi andare nel menu **Draft → Utilità → <img src="images/Draft_SetWorkingPlaneProxy.png" width=16px> [Crea un piano di lavoro Proxy](Draft_SetWorkingPlaneProxy/it.md)**.
+2.  Poi andare nel menu **Draft → Utilità → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Crea un piano di lavoro Proxy](Draft_SetWorkingPlaneProxy/it.md)**.
 
 
 </div>

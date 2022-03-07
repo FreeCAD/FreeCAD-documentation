@@ -131,13 +131,6 @@ Strony te odnoszą się do nowego Środowiska pracy, zaprogramowanego w Pythonie
 -   [Środowisko pracy Render](https://forum.freecadweb.org/viewtopic.php?f=9&t=25933) (announcement only, no discussion)
 -   [Ulepszenia środowiska Renderer programu FreeCAD](https://forum.freecadweb.org/viewtopic.php?t=39168)
 
-**Przestarzałe**
-
-Strony te odnoszą się do zastępczego stołu warsztatowego, zaprogramowanego w C++, zaproponowanego około 2012 roku, który nigdy nie został ukończony.
-
--   [Raytracing project](Raytracing_project.md)
--   [Render project](Render_project.md)
-
 
 
 

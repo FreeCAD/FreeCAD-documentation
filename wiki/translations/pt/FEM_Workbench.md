@@ -230,8 +230,6 @@ The following pages explain different topics of the FEM Workbench.
 
 [FEM Concrete](FEM_Concrete.md): interesting information on the topic of simulating concrete structures.
 
-[FEM Project](FEM_project.md): further information on the unit system, limitations, and the development ideas and roadmap of the workbench.
-
 ## Tutorials
 
 Tutorial 1: [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md); basic simply supported beam analysis.

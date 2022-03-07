@@ -1,36 +1,37 @@
 ---
 - GuiCommand:
    Name:Draft Snap Dimensions
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Draft Snap](Draft_Snap.md), [Draft Snap Lock](Draft_Snap_Lock.md), [Draft SelectPlane](Draft_SelectPlane.md)
+   Name/pl:Rysunek Roboczy: Przyciągnij do wymiaru
+   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
+   SeeAlso:[Przyciąganie](Draft_Snap/pl.md), [Przełącz przyciąganie](Draft_Snap_Lock/pl.md), [Wybór płaszczyzny roboczej](Draft_SelectPlane/pl.md)
 ---
 
 # Draft Snap Dimensions/pl
 
-## Description
+## Opis
 
-The <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **Draft Snap Dimensions** option shows temporary X and Y dimensions. They display the X and Y distance between the cursor and the previous point in the [working plane](Draft_SelectPlane.md) coordinate system. The dimensions are created on the [working plane](Draft_SelectPlane.md).
+Opcja <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **Przyciągnij do wymiaru** pokazuje tymczasowe wymiary X i Y. Wyświetlają one odległość X i Y między kursorem a poprzednim punktem w układzie współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). Wymiary są tworzone na [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
 
 <img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width:400px;"> 
-*Temporary dimensions show the position of the cursor*
+*Wymiary tymczasowe pokazują położenie kursora*
 
-## Usage
+## Użycie
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąganie](Draft_Snap/pl.md).
 
-1.  Optionally change the [working plane](Draft_SelectPlane.md).
-2.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
-3.  If **Draft Snap Dimensions** is not active do one of the following:
-    -   Press the **<img src="images/Draft_Snap_Dimensions.svg" width=16px>** button in the Draft Snap toolbar.
-    -   Press the **<img src="images/Draft_Snap_Dimensions.svg" width=16px>** button in the [Draft snap widget](Draft_snap_widget.md).
-4.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
-5.  Note that you can also change snap options while a command is active.
-6.  Pick a first point. This snap option requires a previous point.
-7.  As you move the cursor around temporary dimensions are displayed.
+1.  Opcjonalnie zmień [płaszczyznę roboczą](Draft_SelectPlane/pl.md).
+2.  Upewnij się, że przyciąganie jest włączone. Zobacz ikonkę narzędzia <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md).
+3.  Jeśli **Wymiarowanie szkicu** nie jest aktywne, wykonaj jedną z poniższych czynności:
+    -   Naciśnij przycisk **<img src="images/Draft_Snap_Dimensions.svg" width=16px>** na pasku narzędzi Rysunek Roboczy przyciąganie.
+    -   Naciśnij przycisk **<img src="images/Draft_Snap_Dimensions.svg" width=16px>** w widżecie [przyciągania](Draft_snap_widget/pl.md).
+4.  Wybierz środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), aby utworzyć geometrię.
+5.  Zauważ, że możesz zmieniać opcje przyciągania także wtedy, gdy polecenie jest aktywne.
+6.  Wybierz pierwszy punkt. Ta opcja przyciągania wymaga poprzedniego punktu.
+7.  Podczas przesuwania kursora wokół wyświetlane są tymczasowe wymiary.
 
-## Preferences
+## Ustawienia
 
-See [Draft Snap](Draft_Snap#Preferences.md).
+Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
 
 
 

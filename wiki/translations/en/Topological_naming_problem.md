@@ -114,7 +114,6 @@ Datum objects, [points](PartDesign_Point.md), [lines](PartDesign_Line.md), [plan
 
 -   [PartDesign Fillet - Topological naming](PartDesign_Fillet#Topological_naming.md)
 -   [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278): a possible solution, by realthunder.
--   [Naming project](Naming_project.md): effort to implement a robust topological naming in FreeCAD.
 -   [Topological Naming Project](Topological_Naming_Project.md): idea to solve the problem, by ickby.
 -   [Topological data scripting](Topological_data_scripting.md)
 -   [Feature editing](Feature_editing.md): contains alternate advice for stable modelling techniques.

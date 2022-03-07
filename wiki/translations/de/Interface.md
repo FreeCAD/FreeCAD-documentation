@@ -70,16 +70,10 @@ Um die Statusleiste zu aktivieren und zu deaktivieren, verwenden Sie das Menü {
 
 ### Andere
 
-
-<div class="mw-translate-fuzzy">
-
 Weitere nützliche Oberflächen und Fenster umfassen:
 
--   [Scene Inspector](Std_SceneInspector/de.md): eine Konsole, die die Coin3D Knoten anzeigt, aus denen sich der [scenegraph](scenegraph/de.md) zusammensetzt. Für Erfahrene Anwender und Entwickler kann es sinnvoll sein, Vorgänge, die die Szene direkt manipulieren, und die in der [3D Ansicht](3D_view/de.md) erstellten Objekte zu beheben.
--   [Abhängigkeitsgraph](Std_DependencyGraph/de.md): ein Fenster, das den Abhängigkeitsgraphen aller Objekte im Dokument anzeigt, die mit dem Hilfsprogramm [Graphviz](http://graphviz.org/) erstellt wurden. Es ist hilfreich, Probleme bei der Erstellung von Objekten zu erkennen, wie z.B. zirkuläre Abhängigkeiten, die aus der [Baumansicht](tree_view/de.md) oder der [DAG Ansicht](DAG_view/de.md) nicht ganz ersichtlich sind.
-
-
-</div>
+-   [Scene-Inspector](Std_SceneInspector/de.md): eine Konsole, die die Coin3D Knoten anzeigt, aus denen sich der [Szenengraph](Scenegraph/de.md) zusammensetzt. Für erfahrene Anwender und Entwickler kann es sinnvoll sein, Vorgänge, die die Szene direkt manipulieren, und die in der [3D-Ansicht](3D_view/de.md) erstellten Objekte zu beheben.
+-   [Abhängigkeitsgraph](Std_DependencyGraph/de.md): ein Fenster, das den Abhängigkeitsgraphen aller Objekte im Dokument anzeigt, die mit dem Hilfsprogramm [Graphviz](https://graphviz.org/) erstellt wurden. Es ist hilfreich, Probleme bei der Erstellung von Objekten zu erkennen, wie z.B. zirkuläre Abhängigkeiten, die aus der [Baumansicht](Tree_view/de.md) oder der [DAG-Ansicht](DAG_view/de.md) nicht ganz ersichtlich sind.
 
 ### Anpassung
 

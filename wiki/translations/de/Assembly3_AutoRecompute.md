@@ -11,7 +11,7 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px;"> [Automatische Berechnung](Assembly3_AutoRecompute/de.md) macht\...
+Der Befehl <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px;"> [Automatische Berechnung](Assembly3_AutoRecompute/de.md) ist ein Umschalter, der es dem Befehl <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:16px;"> [Beziehungen anwenden](Assembly3_ResolveConstraints/de.md) ermöglicht automatisch abzulaufen.
 
 ## Anwendung
 

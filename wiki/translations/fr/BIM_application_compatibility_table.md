@@ -1,4 +1,6 @@
 # BIM application compatibility table/fr
+}
+
 Cette page donne un aperçu général de la façon dont les différents outils et concepts utilisés dans d\'autres applications BIM sont comparables à FreeCAD, plus précisément à l\'[atelier BIM](BIM_Workbench/fr.md).
 
 **A FAIRE :** Ajouter d\'autres applications BIM : Allplan, Tekla, Vectorworks, BricsCAD, et quoi d\'autre ?

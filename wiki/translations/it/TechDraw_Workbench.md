@@ -6,7 +6,7 @@ L\'ambiente <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> 
 
 Alla pagina possono essere aggiunte dimensioni, sezioni, aree tratteggiate, annotazioni e simboli [SVG](SVG/it.md), e la pagina può essere ulteriormente esportata in diversi formati come [DXF](DXF/it.md), [SVG](SVG/it.md), e [PDF](PDF/it.md).
 
-TechDraw è stato incluso ufficialmente in FreeCAD a partire dalla versione 0.17; è destinato a sostituire l\'ambiente [Drawing](Drawing_Workbench/it.md) non più supportato. In v0.17 sono ancora forniti entrambi gli ambienti, ma nelle versioni future Drawing potrebbe essere rimosso. Per essere aggiornati sui piani e gli sviluppi di TechDraw, visitare la [Roadmap di TechDraw](TechDraw_Roadmap/it.md).
+TechDraw è stato incluso ufficialmente in FreeCAD a partire dalla versione 0.17; è destinato a sostituire l\'ambiente [Drawing](Drawing_Workbench/it.md) non più supportato. In v0.17 sono ancora forniti entrambi gli ambienti, ma nelle versioni future Drawing potrebbe essere rimosso. Per essere aggiornati sui piani e gli sviluppi di TechDraw, visitare la [Roadmap di TechDraw](TechDraw_Roadmap.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -255,6 +255,10 @@ These are tools to improve your TechDraw drawings.
 
 -   <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:32px;"> [Cascade Oblique Dimensions](TechDraw_ExtensionCascadeObliqueDimension.md): evenly spaces oblique dimensions. <small>(v0.20)</small> 
 
+-   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Calculate the area of selected faces](TechDraw_ExtensionAreaAnnotation.md): calculates the area of selected faces and inserts an area annotation. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Customize format label](TechDraw_ExtensionCustomizeFormat.md): customizes the formatting of a balloon text or dimension text. GD&T symbols and other special character can be added. <small>(v0.20)</small> 
+
 ### Centerlines and threading 
 
 -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Add Circle Centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
@@ -403,11 +407,11 @@ Video tutorial di sliptonic
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [TechDraw](Category_TechDraw.md) > TechDraw Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/it

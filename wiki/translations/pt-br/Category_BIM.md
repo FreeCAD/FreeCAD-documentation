@@ -5,8 +5,8 @@ This category is for pages related to building information management (BIM).
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch IfcExplorer/pt-br](wiki/Arch IfcExplorer/pt-br.md) | [Manual:BIM modeling/pt-br](wiki/Manual_BIM modeling/pt-br.md) | [Material/pt-br](wiki/Material/pt-br.md) |
-| [Category:Arch/pt-br](wiki/Category_Arch/pt-br.md) |
+| [Arch IfcExplorer/pt-br](wiki/Arch IfcExplorer/pt-br.md) | [Manual:BIM modeling/pt-br](wiki/Manual_BIM modeling/pt-br.md) | [Category:Arch/pt-br](wiki/Category_Arch/pt-br.md) |
+|
 
 
 

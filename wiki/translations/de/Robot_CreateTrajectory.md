@@ -1,9 +1,11 @@
-# Robot CreateTrajectory/de
 ---
-- GuiCommand:/de   Name:Robot CreateTrajectory   Workbenches:[[Robot_Workbench/de   Robot]]|MenuLocation:Roboter → Erstelle Bwegungsbahn---
+- GuiCommand:/de
+   Name:Robot CreateTrajectory
+   Workbenches:[Robot](Robot_Workbench/de.md)
+   MenuLocation:Roboter → Erstelle Bwegungsbahn
+---
 
-
-</div>
+# Robot CreateTrajectory/de
 
 
 <div class="mw-translate-fuzzy">

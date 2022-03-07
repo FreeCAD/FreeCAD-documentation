@@ -231,7 +231,6 @@ Was macht man ?
 ## Verweise
 
 -   [Macro Sheet Metal Unfolder](Macro_Sheet_Metal_Unfolder.md), das ursprüngliche Makro, auf dem das Abwicklungswerkzeug basiert.
--   [Blech Arbeitsbereich](https://forum.freecadweb.org/viewtopic.php?t=11303) Ankündigung im FreeCAD Forum.
 -   [Ein englisches und französisches Tutorium im PDF Format](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) im FreeCAD Forum.
 -   Fehler melden/Funktionen anfragen: <https://github.com/shaise/FreeCAD_SheetMetal/issues>.
 

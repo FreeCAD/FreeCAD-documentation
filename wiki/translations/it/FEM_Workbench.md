@@ -228,11 +228,17 @@ Le seguenti pagine spiegano diversi argomenti dell\'ambiente FEM.
 
 [FEM Concrete](FEM_Concrete/it.md): informazioni interessanti sul tema della simulazione di strutture in calcestruzzo.
 
-[Progetto FEM](FEM_project/it.md): ulteriori informazioni sul sistema di unità, limitazioni, e le idee di sviluppo e la tabella di marcia dell\'ambiente.
+## Tutorials
+
+
+<div class="mw-translate-fuzzy">
 
 ## Tutorial
 
 Tutorial 1: [FEM CalculiX Trave a sbalzo 3D](FEM_CalculiX_Cantilever_3D/it.md); analisi di base di una trave.
+
+
+</div>
 
 Tutorial 2: [Tutorial di FEM](FEM_tutorial/it.md); semplice analisi della tensione di una struttura.
 

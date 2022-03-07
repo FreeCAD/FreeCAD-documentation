@@ -13,9 +13,8 @@ Cette catégorie contient les articles importants relevants aux développeurs.
 | [Contributors/fr](wiki/Contributors/fr.md) | [Developing FreeCAD with GitKraken/fr](wiki/Developing FreeCAD with GitKraken/fr.md) | [Doxygen/fr](wiki/Doxygen/fr.md) |
 | [FEM CalculiX/fr](wiki/FEM CalculiX/fr.md) | [FEM Element Types/fr](wiki/FEM Element Types/fr.md) | [FEM Mesh CalculiX/fr](wiki/FEM Mesh CalculiX/fr.md) |
 | [File Format FCStd/fr](wiki/File Format FCStd/fr.md) | [ImageConv/fr](wiki/ImageConv/fr.md) | [InputField/fr](wiki/InputField/fr.md) |
-| [Land Survey Workbench Blueprint/fr](wiki/Land Survey Workbench Blueprint/fr.md) | [LGTM/fr](wiki/LGTM/fr.md) | [Material/fr](wiki/Material/fr.md) |
-| [Organization chart/fr](wiki/Organization chart/fr.md) | [Svg Namespace/fr](wiki/Svg Namespace/fr.md) | [WikiRobots/fr](wiki/WikiRobots/fr.md) |
-| [Wished tools/fr](wiki/Wished tools/fr.md) | [Wrapping a Cplusplus class in Python/fr](wiki/Wrapping a Cplusplus class in Python/fr.md) |
+| [LGTM/fr](wiki/LGTM/fr.md) | [Organization chart/fr](wiki/Organization chart/fr.md) | [Svg Namespace/fr](wiki/Svg Namespace/fr.md) |
+| [WikiRobots/fr](wiki/WikiRobots/fr.md) | [Wrapping a Cplusplus class in Python/fr](wiki/Wrapping a Cplusplus class in Python/fr.md) |
 
 
 

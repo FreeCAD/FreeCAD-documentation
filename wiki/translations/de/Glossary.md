@@ -3,6 +3,9 @@ Diese Seite ist ein Glossar mit allgemeinen FreeCAD Begriffen und Definitionen.
 
 Springe zu Buchstaben: {{CompactTOC|center=yes}}
 
+
+<div class="mw-translate-fuzzy">
+
 ## A
 
 
@@ -11,7 +14,10 @@ Springe zu Buchstaben: {{CompactTOC|center=yes}}
 
 {{term|Arc}}
 
-\> Bogen {{defn|defn=Ein Teil oder Segment eines Kreises}} {{term|Arch|content=[Arch](Arch_Workbench/de.md)}} \> Architektur {{defn|defn=Eine Abkürzung für den architektonischen [Arbeitsbereich](#Workbench.md), der hauptsächlich für die Modellierung von Gebäuden und Strukturen verwendet wird. Eng verwandt mit dem [Arbeitsbereich Entwurf](#Draft.md).}} {{term|Assembly|content=[Zusammenbau](Assembly_Workbench/de.md)}} {{defn|no=1|defn= eEin Satz von [Teilen](#Part/de.md), die definierte Positionen in Bezug zueinander haben.}} {{defn|no=2|defn= Ein [Arbeitsbereich](#Workbench/de.md), der die Erstellung von Baugruppen erleichtern soll. Sie befindet sich derzeit in der Entwicklung und ist noch nicht Teil von FreeCAD.}} {{term|Axes}} \> Achsen {{defn|defn=Eine imaginäre Linie duch den Ursprung des Arbeitsbereichs. Es gibt drei normale Achsen. Sie haben die drei klassischen Namen X, Y und Z. X ist horizontal, Y ist vertikal, Z ist in/aus Seite/Bildschirm.}} {{glossend}}
+\> Bogen {{defn|defn=Ein Teil oder Segment eines Kreises}} {{term|Arch|content=[Arch](Arch_Workbench/de.md)}} \> Architektur {{defn|defn=Eine Abkürzung für den architektonischen [Arbeitsbereich](#Workbench.md), der hauptsächlich für die Modellierung von Gebäuden und Strukturen verwendet wird. Eng verwandt mit dem [Arbeitsbereich Entwurf](#Draft.md).}} {{term|Assembly|content=[Zusammenbau](Assembly/de.md)}} {{defn|no=1|defn= eEin Satz von [Teilen](#Part/de.md), die definierte Positionen in Bezug zueinander haben.}} {{defn|no=2|defn= Ein [Arbeitsbereich](#Workbench/de.md), der die Erstellung von Baugruppen erleichtern soll. Sie befindet sich derzeit in der Entwicklung und ist noch nicht Teil von FreeCAD.}} {{term|Axes}} \> Achsen {{defn|defn=Eine imaginäre Linie duch den Ursprung des Arbeitsbereichs. Es gibt drei normale Achsen. Sie haben die drei klassischen Namen X, Y und Z. X ist horizontal, Y ist vertikal, Z ist in/aus Seite/Bildschirm.}} {{glossend}}
+
+
+</div>
 
 ## B
 

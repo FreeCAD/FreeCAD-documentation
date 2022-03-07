@@ -64,7 +64,8 @@ Make additional adjustments to the operation by modifying the operation\'s prope
 
 \'\'\' *Note* \'\'\': Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
@@ -117,7 +118,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Label**: User-provided name of the object (UTF-8)
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: The height needed to clear clamps and obstructions
 
@@ -134,7 +136,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
  <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:300px;">  
 *Visual reference for Depth properties (settings)*
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: make False, to prevent operation from generating code
 
@@ -150,7 +153,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **User Label**: User assigned label
 
-#### Profile
+
+{{TitleProperty|Profile}}
 
 -    **Direction**: The direction that the tool path should go around the part: Clockwise\[CW\] or Counterclockwise\[CCW\]
 
@@ -172,7 +176,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Use Compensation**: If checked, the Profile Operation is offset by the tool radius. The offset direction is determined by the Cut Side.
 
-#### Rotation
+
+{{TitleProperty|Rotation}}
 
 -    **Attempt Inverse Angle**: Automatically attempt Inverse Angle if initial rotation is incorrect.
 
@@ -184,7 +189,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: The custom start point for the path of this operation.
 
@@ -209,13 +215,13 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Geometry 
+### Base Geometry 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: delete the selected item(s) in the Base Geometry list
 -   **Clear**: clear all items in the Base Geometry list
 
-#### Depths
+### Depths
 
 -    **Start Depth**
     
@@ -226,7 +232,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Step Down**
     
 
-#### Heights
+### Heights
 
 -    **Safe Height**
     
@@ -234,7 +240,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Clearance Height**
     
 
-#### Operation
+### Operation
 
 -    **Tool Controller**
     

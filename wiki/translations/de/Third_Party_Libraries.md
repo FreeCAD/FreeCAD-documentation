@@ -74,22 +74,16 @@ Wenn du unter Windows kompilierst, ziehe es in Betracht, die [LibPack](#LibPack/
 
 **Python 2 wurde 2019 nicht mehr gebräuchlich. Die weitere Entwicklung von FreeCAD wird ausschließlich mit Python 3 erfolgen; die Kompatibilität mit Python 2 wird nicht getestet, so dass alte Arbeitsbereiche und Makros, die diese Version verwenden, aktualisiert werden müssen, da sie sonst möglicherweise nicht mehr funktionieren. Bitte melde dich auf der [https://forum.freecadweb.org/ FreeCAD forum] wenn Du auf Probleme mit Python 3 stösst.**
 
+Python ist eine beliebte Allzweck-Skriptsprache, die unter Linux und Open-Source-Software weit verbreitet ist. In FreeCAD wird Python während der Kompilierung und auch zur Laufzeit auf unterschiedliche Weise verwendet. Es wird verwendet
 
-<div class="mw-translate-fuzzy">
-
-Python ist eine beliebte Allzweck Skriptsprache, die unter Linux und Open Source Software weit verbreitet ist. In FreeCAD wird Python während der Kompilierung und auch zur Laufzeit auf unterschiedliche Weise verwendet. Es wird verwendet
-
--   um Testskripte zu schreiben, um auf verschiedene Bedingungen, wie z.B. Speicherlecks, zu testen, um die Funktionalität der Software nach Änderungen sicherzustellen, für Nach Bau Prüfungen und Testabdeckungstests,
+-   um Testskripte zu schreiben, um auf verschiedene Bedingungen, wie z.B. Speicherlecks, zu testen, um die Funktionalität der Software nach Änderungen sicherzustellen, für Prüfungen nach Fertigstellung und Testabdeckungstests,
 -   zum Schreiben von [Makros](macros/de.md) und zur Makroaufnahme,
 -   zur Implementierung von Anwendungslogik für Standardpakete,
--   um Hilfswerkzeuge wie den [Erweiterungs Manager](Std_AddonMgr/de.md) zu implementieren,
--   um ganze Arbeitsbereiche wie [Entwurf](Draft_Workbench/de.md) und [Architektur](Arch_Workbench/de.md) zu implementieren,
+-   um Hilfswerkzeuge wie den [Addon-Manager](Std_AddonMgr/de.md) zu implementieren,
+-   um ganze Arbeitsbereiche wie [Draft](Draft_Workbench/de.md) und [Arch](Arch_Workbench/de.md) zu implementieren,
 -   um Pakete dynamisch zu laden,
 -   die Regeln für Gestaltung umzusetzen (Wissensverarbeitung),
 -   um ausgefallene Internet Wechselwirkungen wie Arbeitsgruppen und PDM durchzuführen
-
-
-</div>
 
 Unter Linux ist Python normalerweise bereits in deiner Distribution installiert. Für Windows kannst Du eine vorkompilierte Binärdatei von [Python.org](http://www.python.org/) beziehen oder [ActiveState Python](http://www.activestate.com/) verwenden, obwohl es schwieriger ist, die Fehlerdiagnosebibliotheken von letzterer zu bekommen.
 

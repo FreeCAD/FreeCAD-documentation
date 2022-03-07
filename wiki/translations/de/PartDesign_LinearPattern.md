@@ -10,13 +10,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearesMuster'''** Werkzeug erzeugt gleichmäßig verteilte Kopien eines Formelements in einer linearen Richtung. Ab {{VersionPlus/de|0.17}} kann das Linear Muster Werkzeug mehrere Formelemente mustern.
-
-
-</div>
+Das **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearesMuster'''** Werkzeug erzeugt gleichmäßig verteilte Kopien eines Formelements in einer linearen Richtung.
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -82,20 +76,13 @@ Wenn die Skizze für das zu wiederholende Muster Konstruktionslinien besitzen, w
 
 Wähle eine der Standardachsen des Körperursprungs (X, Y oder Z) als Richtung. 
 
-## Limitations
-
-
-<div class="mw-translate-fuzzy">
-
-## Begrenzungen
+## Einschränkungen
 
 -   Musterformen dürfen einander nicht überlappen, außer im Sonderfall von nur zwei Vorkommen (Original plus eine Kopie)
 -   Alle Musterformen, die die Auflage des Originals nicht überlappen, werden ausgeschlossen. Dies stellt sicher, dass ein PartDesign Formelement immer aus einem einzelnen, verbundenen Festkörper besteht.
--   Die PartDesign Muster sind noch nicht so optimiert wie ihre Draft Gegenstücke. Bei einer größeren Anzahl von Instanzen solltest du daher stattdessen die Verwendung von [Draft Anordnung](Draft_Array/de.md) in Kombination mit einer booleschen Part Operation in Betracht ziehen. Dies kann größere Änderungen an deinem Modell beinhalten, wenn du PartDesign verlässt, was bedeutet, dass du nicht einfach mit weiteren PartDesign Formelementen im selben Körper fortfahren kannst. Ein Beispiel wird in diesem [Forum Thema](https://forum.freecadweb.org/viewtopic.php?f=3&t=55192) gezeigt.
--   Für weitere Begrenzungen siehe das [PartDesign Gespiegelt](PartDesign_Mirrored/de.md) Funktion
-
-
-</div>
+-   Die PartDesign Muster sind noch nicht so optimiert wie ihre Draft Gegenstücke. Bei einer größeren Anzahl von Instanzen solltest du daher stattdessen die Verwendung von [Draft Anordnung](Draft_OrthoArray/de.md) in Kombination mit einer booleschen Part Operation in Betracht ziehen. Dies kann größere Änderungen an deinem Modell beinhalten, wenn du PartDesign verlässt, was bedeutet, dass du nicht einfach mit weiteren PartDesign Formelementen im selben Körper fortfahren kannst. Ein Beispiel wird in diesem [Forum Thema](https://forum.freecadweb.org/viewtopic.php?f=3&t=55192) gezeigt.
+-   Eine lineare Anordnung kann nicht direkt auf andere Anordnungen angewendet werden, egal ob sie linear, polar oder eine Spiegelung sind. Dafür benutzt man die Funktion [PartDesign Mehrfach-Transformation erstellen](PartDesign_MultiTransform/de.md).
+-   Für weitere Einschränkungen siehe die Funktion [PartDesign Spiegeln](PartDesign_Mirrored/de.md).
 
 
 

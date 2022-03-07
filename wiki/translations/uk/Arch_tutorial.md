@@ -54,8 +54,6 @@ At the time I\'m writing this, though, the [Arch Workbench](Arch_Workbench.md), 
 
 -   Most Arch tools are still in development. That means that automatic \"wizard\" tools that create complex geometry automatically, such as [Arch Roof](Arch_Roof.md) or [Arch Stairs](Arch_Stairs.md) can only produce certain types of objects, and other tools that have presets, such as [Arch Structure](Arch_Structure.md) or [Arch Window](Arch_Window.md) only have a couple of basic presets. This will of course grow over time.
 
--   [Relations between objects](Assembly_project.md) in FreeCAD are still not officially available. These, for example the relation between a window and its host wall, are currently implemented in the [Arch Workbench](Arch_Workbench.md) with temporary (and therefore somewhat limited) methods. Many new possibilities will arise when this feature will be fully available.
-
 -   [Units](Units.md) are being implemented in FreeCAD, which will allow you to work with any unit you wish (even imperial units, you guys from the USA can be eternally grateful for this to Jürgen, FreeCAD\'s godfather and dictator). But at the moment the implementation is not complete, and the Arch workbench still doesn\'t support them. You must consider it \"unit-less\".
 
 

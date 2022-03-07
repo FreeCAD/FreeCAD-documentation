@@ -209,38 +209,7 @@ The following tools are available in this menu:
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   [Workbench](Std_Workbench.md)
-    -   None
-    -   <img alt="" src=images/Arch.png  style="width:24px;"> [Arch](Arch_Workbench/ro.md)
-    -   <img alt="" src=images/Workbench_Assembly.png  style="width:24px;"> [Assembly](Assembly_project.md)
-    -   <img alt="" src=images/Workbench_Complete.png  style="width:24px;"> [Complet](Complete_Workbench.md)
-    -   <img alt="" src=images/Workbench_Draft.png  style="width:24px;"> [Draft](Draft_Workbench.md)
-    -   <img alt="" src=images/Workbench_Drawing.png  style="width:24px;"> [Drawing](Drawing_Workbench.md)
-    -   <img alt="" src=images/Workbench_Mesh.png  style="width:24px;"> [Fem](FEM_Workbench.md)
-    -   <img alt="" src=images/Workbench_Image.png  style="width:24px;"> [Image](Image_Workbench.md)
-    -   [Info](Macro_ObjectInfo.md)
-    -   <img alt="" src=images/Freecad.png  style="width:24px;"> Inspection
-    -   <img alt="" src=images/Workbench_Mesh.png  style="width:24px;"> [Mesh](Mesh_Workbench.md)
-    -   <img alt="" src=images/Workbench_OpenSCAD.png  style="width:24px;"> [OpenSCAD](OpenSCAD_Workbench.md)
-    -   <img alt="" src=images/Workbench_Part.png  style="width:24px;"> [Part](Part_Workbench.md)
-    -   <img alt="" src=images/Workbench_PartDesign.png  style="width:24px;"> [Part Design](PartDesign_Workbench.md)
-    -   <img alt="" src=images/Plot_Save.png  style="width:24px;"> [Plot](Plot_Workbench.md)
-    -   <img alt="" src=images/Workbench_Points.png  style="width:24px;"> [Points](Points_Workbench.md)
-    -   <img alt="" src=images/Raytracing.png  style="width:24px;"> [Raytracing](Raytracing_Workbench.md)
-    -   <img alt="" src=images/Workbench_Reverse_Engineering.png  style="width:24px;"> [Reverse Engineering Workbench](Reverse_Engineering_Workbench.md)
-    -   <img alt="" src=images/Workbench_Robot.png  style="width:24px;"> [Robot](Robot_Workbench.md)
-    -   <img alt="" src=images/FreeCAD-Ship-Ico.png  style="width:24px;"> [Ship](Ship_Workbench.md)
-    -   <img alt="" src=images/Workbench_Sketcher.png  style="width:24px;"> [Sketcher](Sketcher_Workbench.md)
-    -   <img alt="" src=images/Spreadsheet_Create.png  style="width:24px;"> [Spreadsheet](Spreadsheet_Workbench.md)
-    -   <img alt="" src=images/Workbench_Start.png  style="width:24px;"> [Start Center](Start_Workbench.md)
-    -   <img alt="" src=images/Std_Test_framework.png  style="width:24px;"> [Test framework](Testing.md)
-    -   <img alt="" src=images/Workbench_Web.png  style="width:24px;"> [Web](Main_Page.md)
-
-
-</div>
+-   [Workbench](Std_Workbench.md) **-- Select a workbench from the submenu.**
 
 
 <div class="mw-translate-fuzzy">

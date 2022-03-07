@@ -7,7 +7,7 @@
    Workbenches:[FEM](FEM_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:
    Version:0.18
-   SeeAlso:[Material](Material/ru.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
+   SeeAlso:[Material](Material.md), [Arch SetMaterial](Arch_SetMaterial/ru.md), [FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # Material editor/ru
@@ -20,7 +20,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Редактор материалов позволяет редактировать и сохранять информацию в объекте [материала FreeCAD](Material/ru.md). Сейчас эти материалы используются в верстаках **<img src="images/Workbench_FEM.svg" width=24px> [FEM](FEM_Workbench/ru.md)** и **<img src="images/Workbench_Arch.svg" width=24px> [Arch](Arch_Workbench/ru.md)**.
+Редактор материалов позволяет редактировать и сохранять информацию в объекте [материала FreeCAD](Material.md). Сейчас эти материалы используются в верстаках **<img src="images/Workbench_FEM.svg" width=24px> [FEM](FEM_Workbench/ru.md)** и **<img src="images/Workbench_Arch.svg" width=24px> [Arch](Arch_Workbench/ru.md)**.
 
 
 </div>

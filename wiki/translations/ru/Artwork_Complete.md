@@ -10,9 +10,6 @@
 ![](images/CompleteWorkbench.svg )
 
 
-{{Artwork/ru}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Complete/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Complete](Category_Complete.md) > Artwork Complete/ru

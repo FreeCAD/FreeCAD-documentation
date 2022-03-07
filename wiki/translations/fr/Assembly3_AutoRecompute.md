@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px;"> [Recomputation automatique](Assembly3_AutoRecompute/fr.md) fait\...
+La commande <img alt="" src=images/Assembly_AutoRecompute.svg  style="width:24px;"> [Recomputation automatique](Assembly3_AutoRecompute/fr.md) est une commande à bascule qui permet à la commande <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Résoudre les contraintes](Assembly3_ResolveConstraints/fr.md) de s\'exécuter automatiquement.
 
 ## Utilisation
 

@@ -21,7 +21,7 @@ Atelierul de Randare funcționează împreună cu modulele [templates](Raytracin
 
 În mod obișnuit, sunt susținute două tipuri de randare: [povray](http://en.wikipedia.org/wiki/POV-Ray) și [luxrender](http://en.wikipedia.org/wiki/LuxRender). Pentru a putea randa direct din FreeCAD, cel puțin unul dintre aceste programe trebuiesc instalate pe sistemul dvs., iar calea trebuie să fie configurată în preferințele FreeCAD Raytracing. Totuși dacă nici un program de randare nu este instalat, veți putea să exportați un fișier scenă care poate fi folosit ulterior.
 
-În prezent, există un nou Atelier Renderer în dezvoltare pentru a sprijini multiple back-end-uri precum Lux Renderer și Yafaray. Informațiile pentru utilizarea versiunii în dezvoltare pot fi vizualizate la[Render\_project](Render_project.md). Pentru a afla starea de dezvoltare a modulului Render căutați în proiectul [Raytracing project](Raytracing_project.md)..
+The Raytracing workbench is essentially obsolete. New development is happening in the [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), which is intended as its replacement. This workbench is fully programmed in Python so it is much easier to extend than the current workbench which is programmed in C++. Nevertheless, the information in this page is generally useful for the new workbench, as both modules work basically in the same way.
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -137,23 +137,13 @@ Deși exportul direct către fișierul Kerkythea XML-File-Format nu este încă 
 
 -   dacă importați mai multe obiecte în Kerkythea, puteți folosi comanda \"File\>Merge\" în Kerkythea
 
-## Sugestii de legături 
-
--   [Render project](Render_project.md)
--   [Raytracing tutorial](Raytracing_tutorial.md)
+## Development
 
 These pages refer to the new workbench, programmed in Python, meant to replace the current Raytracing Workbench.
 
 -   [Render Workbench](https://github.com/FreeCAD/FreeCAD-render)
 -   [Render Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=25933) (announcement only, no discussion)
 -   [FreeCAD Renderer Workbench improvements](https://forum.freecadweb.org/viewtopic.php?t=39168)
-
-**Outdated**
-
-These pages refer to a replacement workbench, programmed in C++, proposed around 2012, which was never completed.
-
--   [Raytracing project](Raytracing_project.md)
--   [Render project](Render_project.md)
 
 
 

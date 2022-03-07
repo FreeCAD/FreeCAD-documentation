@@ -11,14 +11,20 @@ Für mehr Informationen zum Bearbeiten von Objekten siehe [Std Transformieren](S
 
 ## Navigationsstil auswählen 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Führe eine von folgenden Aktionen aus
-    -   Drücke die **[<img src=images/NavigationCAD.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md).
+    -   Drücke die **[<img src=images/NavigationCAD_dark.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md).
     -   Rechtsklick auf einen lehren Bereich in der [3D Ansicht](3D_view/de.md), wähle anschließend **Navigation styles** im Kontextmenü.
     -   Benutzen den [Voreinstellungseditor](Preferences_Editor/de#Navigation.md). Wähle dafür im Menü **Edit → Preferences** und dann **Display → Navigation → 3D Navigation**.
 2.  Wähle einen Stil von der List.
-3.  Ändere optional den **Orbit style**: drücke die **[<img src=images/NavigationCAD.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md) und Wähle **Settings → Orbit style**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+3.  Ändere optional den **Orbit style**: drücke die **[<img src=images/NavigationCAD_dark.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md) und Wähle **Settings → Orbit style**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 4.  Verändere optional den **Rotation mode**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 5.  Fals der **CAD** Navigationsstil ausgewählt ist: Ändere optional die **Enable animation** Einstellung. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+
+
+</div>
 
 ## Verfügbare Navigationsstile 
 
@@ -56,10 +62,12 @@ Dies ist der Standard Navigationsstil. Er ermöglicht dem Benutzer eine einfache
 |Shift=**Shift**
 |Select_text=Drücke die linke Maustaste über einem Objekt das du auswählen möchtest.
 
+<div class="mw-translate-fuzzy">
 Niederhalten von **Strg** ermöglicht die Auswahl mehrerer Objekte.
 |Pan_text=Halte die mittlere Maustaste gedrückt und bewege den Mauszeiger.
 |Pan_mode_text=Pan Modus: Halte die **Strg** Taste gedrückt, drücke einmal die rechte Maustaste und bewege dann den Mauszeiger.
 |Zoom_text=Verwende das Mausrad, um ein- und auszuzoomen.
+</div>
 
 Ein Klick auf die mittlere Maustaste zentriert die Sicht wieder auf die Position der Cursors.
 |Zoom_mode_text=Zoom Modus: Halte die **Strg** und **Shift** Tasten gedrückt, drücke einmal die rechte Maustaste und bewege dann den Zeiger.
@@ -114,7 +122,13 @@ In der Version 0.18 ist diese Methode per Voreinstellung deaktiviert. Im **Bearb
 
 ### Maya-Gestennavigation 
 
+
+<div class="mw-translate-fuzzy">
+
 In der Maya-Gestennavigation werden Schwenken, Zoomen und Drehen durch Drücken der **ALT**- und einer Maustaste aktiviert. Daher wird eine 3-Tasten-Maus benötigt. Es ist auch möglich, Gesten zu verwenden, da dieser Modus über den [Gestennavigationsmodus](#Gestennavigation.md) entwickelt wurde.
+
+
+</div>
 
 
 {{MayaGesture Navigation
@@ -158,9 +172,24 @@ Oder die **Strg**-Taste und die linke Maustaste halten und den Mauszeiger bewege
 
 ### OpenInventor Navigation 
 
+
+<div class="mw-translate-fuzzy">
+
 Die OpenInventor Navigation (ehemals Inventor) wurde nach dem Vorbild von [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor) gestaltet. Um Objekte auszuwählen, muss du die **Strg** Taste gedrückt halten.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Dieser Modus basiert nicht auf Autodesk Inventor.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{OpenInventor Navigation
@@ -172,6 +201,11 @@ Dieser Modus basiert nicht auf Autodesk Inventor.
 |Select_text=Halte die Taste **Strg** gedrückt und drücke dann die linke Maustaste über einem Objekt, das ausgewählt werden soll.
 |Pan_text=Halte die mittlere Maustaste gedrückt und bewege den Mauszeiger.
 |Zoom_text=Verwende das Mausrad, um ein- und auszuzoomen.
+</div>
+
+Hold down **Ctrl** instead to select multiple objects.
+|Pan_text=Hold the middle mouse button, then move the pointer.
+|Zoom_text=Use the mouse wheel to zoom in and out.
 
 Alternativ halte die mittlere Maustaste, dann drücke und halte die linke Maustaste, dann bewege den Mauszeiger. 
 |Rotate_view_text=Halte die linke Maustaste, dann bewege den Mauszeiger.

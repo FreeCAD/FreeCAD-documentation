@@ -12,9 +12,9 @@ This category collects pages about all the different file formats that FreeCAD i
 | [Export to STL or OBJ/pl](wiki/Export to STL or OBJ/pl.md) | [File Format FCStd/pl](wiki/File Format FCStd/pl.md) | [FreeCAD and DWG Import/pl](wiki/FreeCAD and DWG Import/pl.md) |
 | [FreeCAD and DXF Import/pl](wiki/FreeCAD and DXF Import/pl.md) | [GlTF/pl](wiki/GlTF/pl.md) | [Import Export Preferences/pl](wiki/Import Export Preferences/pl.md) |
 | [Import Export/pl](wiki/Import Export/pl.md) | [Import from STL or OBJ/pl](wiki/Import from STL or OBJ/pl.md) | [Import/Export IFC - compiling IfcOpenShell/pl](wiki/Import/Export IFC - compiling IfcOpenShell/pl.md) |
-| [Material/pl](wiki/Material/pl.md) | [OpenSCAD CSG/pl](wiki/OpenSCAD CSG/pl.md) | [PDF/pl](wiki/PDF/pl.md) |
-| [Spreadsheet CSV/pl](wiki/Spreadsheet CSV/pl.md) | [Std Export/pl](wiki/Std Export/pl.md) | [Std Import/pl](wiki/Std Import/pl.md) |
-| [SVG/pl](wiki/SVG/pl.md) |
+| [OpenSCAD CSG/pl](wiki/OpenSCAD CSG/pl.md) | [PDF/pl](wiki/PDF/pl.md) | [Spreadsheet CSV/pl](wiki/Spreadsheet CSV/pl.md) |
+| [Std Export/pl](wiki/Std Export/pl.md) | [Std Import/pl](wiki/Std Import/pl.md) | [SVG/pl](wiki/SVG/pl.md) |
+|
 
 
 

@@ -54,7 +54,7 @@ The topological naming problem most often affects and confuses new users of Free
 
 
 
-![](images/FreeCAD_topological_problem_12_broken_tree.png )
+ ![](images/FreeCAD_topological_problem_12_broken_tree.png ) 
 
 6\. By making visible the third sketch and pad, it is clear that the computation of the new solid did not proceed correctly. The third sketch, instead of being supported by the top face of the second pad, appears in a strange place, with its normal oriented towards the X direction. This results in an invalid pad, as this pad would be disconnected from the rest of the <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Body](PartDesign_Body.md), which is not allowed.
 
@@ -70,7 +70,7 @@ The problem appears to be that when the second sketch was modified, the top face
 
 7\. To fix the issue, the third sketch should be mapped to the top face again. Select the sketch, click on the ellipsis (three dots) next to the **Map Mode** property, and choose the top face of the second pad again. Then the sketch moves to the top of the existing solid, and the third pad is generated without issues.
 
-![](images/FreeCAD_topological_problem_13_remap_sketch_2.png )
+ ![](images/FreeCAD_topological_problem_13_remap_sketch_2.png ) 
 
 
 
@@ -84,7 +84,7 @@ Remapping a sketch in this way can be done every time there is a topological nam
 
 ## Solution
 
-![](images/FreeCAD_topological_problem_16_dependency_graph.png )
+ ![](images/FreeCAD_topological_problem_16_dependency_graph.png ) 
 
 The [dependency graph](Std_DependencyGraph.md) is a tool that is helpful to observe the relationships between the different bodies in the document. Using the original modelling workflow reveals the direct relationship that exists between the sketches and the pads. Like a chain, it is easy to see that this direct dependence will be subject to topological naming problems if any of the links in the sequence changes.
 
@@ -108,7 +108,7 @@ As explained in the [feature editing](feature_editing.md) page, a solution to th
 
 5\. The dependency graph now shows that the sketches and pads are supported by the datum planes. This model is more stable as each sketch can be modified essentially independently from each other.
 
-![](images/FreeCAD_topological_problem_19_dependency_graph_datum_planes.png )
+ ![](images/FreeCAD_topological_problem_19_dependency_graph_datum_planes.png ) 
 
 6\. Double click the second sketch and modify the shape. The second pad should update immediately without causing topological problems with the third sketch and the third pad.
 
@@ -132,7 +132,6 @@ Datum objects, [points](PartDesign_Point.md), [lines](PartDesign_Line.md), [plan
 
 -   [PartDesign Fillet - Topological naming](PartDesign_Fillet#Topological_naming.md)
 -   [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278): a possible solution, by realthunder.
--   [Naming project](Naming_project.md): effort to implement a robust topological naming in FreeCAD.
 -   [Topological Naming Project](Topological_Naming_Project.md): idea to solve the problem, by ickby.
 -   [Topological data scripting](Topological_data_scripting.md)
 -   [Feature editing](Feature_editing.md): contains alternate advice for stable modelling techniques.

@@ -47,9 +47,17 @@ Wenn das Makro auf deinem System nicht funktioniert, um Bildschirmfotos zu erste
 :   MacOS: **Command** + **Umschalten** + **4**
 :   Linux: gnome-Bildschirmfoto Hilfsprogramm
 
+## Parameters
+
+
+<div class="mw-translate-fuzzy">
+
 ## Parameter
 
 Das Makro unterstützt Benutzerparameter, die mit **Werkzeuge → Parameter bearbeiten... → Zusatzmodule → Schnitt_Makro**
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

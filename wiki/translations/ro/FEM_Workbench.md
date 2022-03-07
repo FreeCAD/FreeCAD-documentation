@@ -228,13 +228,17 @@ The following pages explain different topics of the FEM Workbench.
 
 [FEM Concrete](FEM_Concrete.md) for informations about analysis\'s of concrete structures.
 
-[FEM Project](FEM_project.md) Pentru informații mai detaliate asupra Unităților de măsură, a Limitărilor
+## Tutorials
 
-și Dezvoltarea modulelor de AEF
+
+<div class="mw-translate-fuzzy">
 
 ## Tutoriale
 
 Tutorial 1 [ FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md)
+
+
+</div>
 
 Tutorial 2 [ FEM Tutorial](FEM_tutorial.md)
 

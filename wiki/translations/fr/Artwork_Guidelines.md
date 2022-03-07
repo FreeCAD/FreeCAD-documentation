@@ -166,12 +166,8 @@ Une image en niveaux de gris vous permet d\'identifier plus facilement les probl
 
    
   Je ne peux pas distinguer tous les détails.   Les couleurs que vous avez choisies ont un contraste de faible valeur. Essayez d\'utiliser des couleurs plus éloignées de 4 tons dans votre palette, c\'est-à-dire qu\'un surlignage vert à côté d\'un surlignage jaune sera difficile à voir, décalez l\'une de ces couleurs en Base ou Foncé.
-   
-
-
-{{Artwork}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/fr

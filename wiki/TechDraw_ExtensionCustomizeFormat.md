@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionCustomizeFormat
-   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Customize Format
+   MenuLocation:TechDraw → Extensions: Attributes/Modifications → Customize format label
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
@@ -12,19 +12,21 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:24px;"> **TechDraw ExtensionCustomizeFormat** tool cutomize a balloon text or a dimension format specifier.
+The <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:24px;"> **TechDraw ExtensionCustomizeFormat** tool customizes the formatting of a balloon text or dimension text. [GD&T symbols](https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) and other special character can be added.
 
  <img alt="" src=images/TechDraw_ExtensionCustomizeFormatExample.png  style="width:250px;">  
 *The Customize Format task panel*
 
 ## Usage
 
-1.  Select a balloon or a dimension.
-2.  Edit the Format field, using the keyboard and/or the special buttons.
-3.  There are several ways to invoke the tool:
+1.  Select a Balloon object or a Dimension object.
+2.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ExtensionCustomizeFormat.svg" width=16px> [TechDraw ExtensionCustomizeFormat](TechDraw_ExtensionCustomizeFormat.md)** button.
-    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionCustomizeFormat.svg" width=16px> Customize Format** option from the menu.
-4.  The text or the formatSpec is changed as shown in the Preview field.
+    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionCustomizeFormat.svg" width=16px> Customize format label** option from the menu.
+3.  The **Customize Format** task panel opens.
+4.  Edit the **Format** field using the available task panel buttons and/or the keyboard.
+5.  The **Preview** field shows the result of the current formatting.
+6.  Press the **OK** button.
 
 
 

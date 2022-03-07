@@ -1,42 +1,27 @@
 ---
 - GuiCommand:/de
    Name:Image Open
-   Name/de:Bild Öffnen
-   MenuLocation:None
-   Workbenches:[Bild](Image_Workbench/de.md)
-   SeeAlso:[Bild Ebene](Image_CreateImagePlane/de.md), [Bild Skalieren](Image_Scaling/de.md)
+   Name/de:Image Öffnen
+   MenuLocation:
+   Workbenches:[Image (Bild)](Image_Workbench/de.md)
+   SeeAlso:[Bildebene erstellen](Image_CreateImagePlane/de.md), [Bildebene skalieren](Image_Scaling/de.md)
 ---
 
 # Image Open/de
 
-
-</div>
-
 ## Beschreibung
 
-Das [Bild Öffnen](Image_Open/de.md)-Werkzeug öffnet einfach ein Bild aus deinem System in einem neuen Reiter im Ansichtsfenster.
+Das Werkzeug [Image Öffnen](Image_Open/de.md) öffnet einfach ein Bild aus dem eigenen System in einem neuen Reiter im Ansichtsfenster.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **<img src="images/Image_Open.svg" width=16px> [Bild Öffnen](Image_Open/de.md)** Taste.
-2.  Wähle die gewünschte Bilddatei aus.
-
-
-</div>
+1.  Schaltfläche **<img src="images/Image_Open.svg" width=16px> [Öffnen...](Image_Open/de.md)** drücken.
+2.  Gewünschte Bilddatei auswählen.
 
 Das Bild wird in einem neuen Ansichtsfenster platziert, nicht in der 3D Ansicht.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Image Tools navi

@@ -44,13 +44,7 @@ Vorlagen werden zum Gestalten der Hilfeseiten verwendet. Sie geben der Dokumenta
 
 Wenn man an einer großen Seite arbeitet, empfiehlt es sich, die Seite entweder als In-Arbeit oder als Unfertig zu kennzeichnen. Dadurch wird sichergestellt, dass die Wiki Administratoren die Seite nicht als Fertig zur Übersetzung markieren, während sie noch häufig geändert wird.
 
-
-<div class="mw-translate-fuzzy">
-
-Um eine Seite zu kennzeichnen, füge entweder {{Seite in Bearbeitung}} oder  als erste Zeile ein. Mit  lädst du andere ein, mit dir zusammen die Seite fertigzustellen, während {{Seite in Bearbeitung}} anzeigt, dass du die Arbeit selbst erledigen wirst und andere dir etwas Zeit geben sollen.
-
-
-</div>
+Um eine Seite zu kennzeichnen, füge entweder  (Seite in Bearbeitung) oder  als erste Zeile ein. Mit  lädst du andere ein, mit dir zusammen die Seite fertigzustellen, während  anzeigt, dass du die Arbeit selbst erledigen wirst und andere dir etwas Zeit geben sollen.
 
 Wenn die Arbeit getan ist, vergesse bitte nicht, die Markierungen zu entfernen!
 
@@ -379,16 +373,9 @@ Bilder müssen über die [Special:Upload](Special_Upload.md) Seite hochgeladen w
 
 ### Namen
 
+Gib deinem Bild einen aussagekräftigen Namen. Wenn dein Bild Merkmale eines bestimmten Befehls darstellt, solltest du den originalen, englischen Namen des Befehls mit `_example` am Ende verwenden.
 
-<div class="mw-translate-fuzzy">
-
-Gib deinem Bild einen aussagekräftigen Namen. Wenn du ein Bild hast, das die Merkmale eines bestimmten Befehls präsentiert, solltest du den gleichen Namen wie der Befehl mit `_example` am Ende verwenden.
-
--   Für den Befehl [Entwurf Versatz](Draft_Offset/de.md) sollte das Bild [Entwurf Versatz Beispiel.jpg](:Image:Draft_Offset_example.jpg.md) heißen.
--   Für den Befehl [Arch Raum](Arch_Space/de.md) sollte das Bild [Arch Raum Beispiel.jpg](:Image:Arch_Space_example.jpg.md) heißen.
-
-
-</div>
+-   Für den Befehl [Draft Versetzen](Draft_Offset/de.md) sollte das Bild `Draft_Offset_example.png` heißen.
 
 ### Bildschirmerfassung
 

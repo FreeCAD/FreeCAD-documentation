@@ -250,19 +250,9 @@ Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD h
 
 </div>
 
-## I utveckling 
-
-
-<div class="mw-translate-fuzzy">
-
--   ![](images/Feature-assembly.jpg ) An [Församling](Assembly_project/sv.md) modul som gör det möjligt för att arbeta med flera projekt, flera former, flera dokument, flera filer, flera relationer\...
-
-
-</div>
-
 ## Extra Workbenches 
 
-Power users have created various custom [external workbenches](external_workbenches.md).
+Power users have created various custom [external workbenches](External_workbenches.md).
 
 
 <div class="mw-translate-fuzzy">

@@ -11,7 +11,9 @@
 
 ## Description
 
-La commande <img alt="" src=images/Assembly_LockMover.svg  style="width:24px;"> [Verrouiller le déplacement](Assembly3_LockMover/fr.md) fait\...
+La commande <img alt="" src=images/Assembly_LockMover.svg  style="width:24px;"> [Verrouiller le déplacement](Assembly3_LockMover/fr.md) est une commande qui empêche les pièces d\'être déplacées si elles sont fixées avec une contrainte de <img alt="" src=images/Assembly_ConstraintLock.svg  style="width:16px;"> [verrouillage](Assembly3_ConstraintLock/fr.md).
+
+Lorsqu\'elle est activée, aucune des commandes de déplacement <img alt="" src=images/Assembly_Move.svg  style="width:16px;"> [Déplacer une pièce](Assembly3_MovePart/fr.md), <img alt="" src=images/Assembly_AxialMove.svg  style="width:16px;"> [Déplacement axial](Assembly3_AxialMove/fr.md), ou <img alt="" src=images/Assembly_QuickMove.svg  style="width:16px;"> [Déplacement rapide](Assembly3_QuickMove/fr.md) peuvent être sélectionnés tant que la sélection en cours contient un objet fixe.
 
 ## Utilisation
 

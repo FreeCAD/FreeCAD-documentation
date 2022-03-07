@@ -10,11 +10,6 @@
 ![](images/preview-rendered.svg ) ![](images/preview-vector.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Material/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Material/ru

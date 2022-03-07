@@ -60,6 +60,9 @@ In alternativa, è possibile selezionare uno o più Corpi prima di premere il pu
 
 ## Proprietà
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/it|Type}}: imposta l\'operazione booleana (Fuse, Cut, Common)
 
 -    {{PropertyData/it|Label}}: nome dato all\'operazione, questo nome può essere cambiato a piacere.
@@ -75,10 +78,19 @@ In alternativa, è possibile selezionare uno o più Corpi prima di premere il pu
 
 -    {{PropertyView/it|Visibility}}: true o false. Attiva / disattiva la visibilità della funzione nella vista 3D.
 
+
+</div>
+
 ## Limitazioni
+
+
+<div class="mw-translate-fuzzy">
 
 -   Affinché Common funzioni con più di un corpo utensile, tutti i corpi devono intersecarsi tra loro e con il Corpo attivo.
 -   I corpi utensile adottano l\'origine locale del corpo attivo. Se il corpo attivo non si trova in (0,0,0) nel sistema di coordinate globali, la posizione dei corpi utensile deve essere relativa al corpo attivo. Potrebbe essere più semplice lasciare il posizionamento del Corpo attivo nell\'origine prima di applicare l\'operazione booleana, e poi cambiare la sua posizione dopo l\'operazione.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

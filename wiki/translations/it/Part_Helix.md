@@ -7,70 +7,113 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 La primitiva geometrica **[<img src=images/Part_Helix.svg style="width:16px"> [Elica](Part_Helix/it.md)** crea una forma ad elica, definita da un raggio, un passo e un\'altezza totale.
 
-Un uso comune della primitiva elica è per [creare delle filettature](Thread_for_Screw_Tutorial/it.md) insieme a un profilo chiuso e all\'operazione **<img src="images/Part_Sweep.svg" width=16px> [Sweep](Part_Sweep/it.md)**. Questo processo funziona essenzialmente allo stesso modo in [PartDesign](PartDesign_Workbench/it.md) utilizzando lo strumento **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [Sweep additivo ](PartDesign_AdditivePipe/it.md)**.
+
+</div>
+
+<img alt="" src=images/Part_Helix_Example.png  style="width:400px;">
 
 ## Utilizzo
 
+See [Part Primitives](Part_Primitives#Usage.md).
 
-<div class="mw-translate-fuzzy">
+## Example
 
-1.  Attivare l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md).
-2.  Il dialogo Crea primitive può essere avviato in uno dei seguenti modi:
-    -   Premere il pulsante **[<img src=images/Part_Primitives.svg style="width:16px"> [Primitive](Part_Primitives/it.md)** nella barra degli strumenti di Parte.
-    -   Usare la voce **Part → [<img src=images/Part_Primitives.svg style="width:16px"> [Crea primitive](Part_Primitives/it.md) → Elica** nel menu di Parte.
+![Part Helix from the scripting example](images/Part_Helix_Scripting_Example.png )
 
-
-</div>
-
-![](images/PartHelixPrimitivesOptions_en.png )
-
-#### Parametri
+A Part Helix object created with the [scripting example](#Scripting.md) below is shown here.
 
 
 <div class="mw-translate-fuzzy">
-
--    {{Parameter|Pitch:}}il passo corrisponde allo spazio tra due \"giri\" consecutivi dell\'elica misurata lungo l\'asse principale dell\'elica.
-
--    {{Parameter|Height:}}l\'altezza corrisponde all\'altezza complessiva dell\'elica misurata lungo l\'asse principale dell\'elica.
-
--    {{Parameter|Radius:}}il raggio corrisponde al raggio del cerchio costruito dall\'elica visualizzando l\'elica dall\'alto o dal basso.
-
--    {{Parameter|Angle}}: per impostazione predefinita, l\'elica è costruita su un cilindro immaginario. Con questa opzione è possibile costruire l\'elica su un cono immaginario. Questo angolo corrisponde all\'angolo del cono. Il valore deve essere compreso tra 0 e +90 gradi.
-
--    {{Parameter|Right-handed or Left-handed:}}questo parametro specifica il [verso](https://en.wikipedia.org/wiki/Screw_thread) dell\'elica.
-
-
-</div>
-
-#### Posizione
-
--    {{Parameter|X:}}l\'asse principale dell\'elica è traslato lungo l\'asse x del valore indicato in questo campo.
-
--    {{Parameter|Y:}}l\'asse principale dell\'elica è traslato lungo l\'asse y del valore indicato in questo campo.
-
--    {{Parameter|Z:}}l\'asse principale dell\'elica è traslato lungo l\'asse z del valore indicato in questo campo.
-
--    {{Parameter|Direction:}}per impostazione predefinita, l\'asse principale dell\'elica è l\'asse z. Qui è possibile modificare l\'asse principale dell\'elica. Selezionando il parametro \"definito dall\'utente \...\", viene chiesto di indicare l\'asse principale dell\'elica inserendo le coordinate del suo vettore.
-
--    {{Parameter|3D View:}}consente di selezionare il centro nella vista 3D
 
 ## Opzioni
 
-### Proprietà
 
-Dopo aver creato l\'elica, è possibile modificare i suoi parametri.
+</div>
 
-+++
-| ![](images/PartHelixProperty_en.png ) | I parametri in questo menu sono simili a quelli descritti sopra.                  |
-|                                                          | **Base**                                                        |
-|                                                          | \* {{Parameter|Placement:}} consente di spostare o ruotare l\'elica |
-|                                                          |                                                                                   |
-|                                                          | -                                                                  |
-|                                                          |     {{Parameter|Angle:}}                                                          |
-|                                                          |                                                                                |
-+++
+
+<div class="mw-translate-fuzzy">
+
+Un uso comune della primitiva elica è per [creare delle filettature](Thread_for_Screw_Tutorial/it.md) insieme a un profilo chiuso e all\'operazione **<img src="images/Part_Sweep.svg" width=16px> [Sweep](Part_Sweep/it.md)**. Questo processo funziona essenzialmente allo stesso modo in [PartDesign](PartDesign_Workbench/it.md) utilizzando lo strumento **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [Sweep additivo ](PartDesign_AdditivePipe/it.md)**.
+
+
+</div>
+
+## Properties
+
+See also: [Property editor](Property_editor.md).
+
+A Part Helix object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+### Data
+
+
+{{TitleProperty|Attachment}}
+
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
+{{TitleProperty|Coordinate System}}
+
+-    **Local Coord|Enumeration**: The [handedness](https://en.wikipedia.org/wiki/Screw_thread), or direction, of the helix: {{Value|Right-handed}} or {{Value|Left-handed}}. The default is {{Value|Right-handed}}, meaning the helix turns counterclockwise as it goes up.
+
+
+{{TitleProperty|Helix}}
+
+-    **Pitch|Length**: The distance between two consecutive turns of the helix measured along its Z axis. The default is {{Value|1mm}}.
+
+-    **Height|Length**: The height of the helix. The default is {{Value|2mm}}.
+
+-    **Radius|Length**: The start radius of the helix. The helix has a constant radius if **Angle** is {{Value|0°}}.
+
+-    **Segment Length|QuantityConstraint**: The number of turns per helix subdivision. The default is {{Value|1}}, meaning each full turn of the helix is a separate segment. Use {{Value|0}} to suppress subdivision.
+
+-    **Angle|Angle**: The angle that defines of the outer shape of the helix. Valid range: {{Value|-90° &lt; value &lt; 90°}}. The default is {{Value|0°}}. If it is {{Value|0°}} the helix is cylindrical, else it is conical.
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Helix can be created with the {{Incode|addObject()}} method of the document:
+
+
+```python
+helix = FreeCAD.ActiveDocument.addObject("Part::Helix", "myHelix")
+```
+
+-   Where {{Incode|"myHelix"}} is the name for the object.
+-   The function returns the newly created object.
+
+Example:
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+helix = doc.addObject("Part::Helix", "myHelix")
+helix.Pitch = 2
+helix.Height = 3
+helix.Radius = 4
+helix.SegmentLength = 21
+helix.Angle = 45
+helix.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(75, 60, 30))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

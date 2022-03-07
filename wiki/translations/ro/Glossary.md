@@ -24,7 +24,7 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{defn|defn=O abreviere pentru Arhitectură [workbench](#Workbench.md) care este folosită în principal pentru modelarea clădirilor și a structurilor. În strânsă legătură cu [Draft Workbench](#Draft.md).}}
 
 
-{{term|Assembly|content=[Assembly](Assembly_Workbench.md)}}
+{{term|Assembly|content=[Assembly](Assembly.md)}}
 
 
 {{defn|no=1|defn=Un set de [parts](#Part.md) care au definite pozițiile în relația fiecare cu celaltă.}}

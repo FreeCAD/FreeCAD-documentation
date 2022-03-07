@@ -11,9 +11,8 @@ This category collects pages about all the different file formats that FreeCAD i
 | [DXF/ru](wiki/DXF/ru.md) | [Export to STL or OBJ/ru](wiki/Export to STL or OBJ/ru.md) | [File Format FCStd/ru](wiki/File Format FCStd/ru.md) |
 | [FreeCAD and DWG Import/ru](wiki/FreeCAD and DWG Import/ru.md) | [FreeCAD and DXF Import/ru](wiki/FreeCAD and DXF Import/ru.md) | [FreeCAD and Mesh Import/ru](wiki/FreeCAD and Mesh Import/ru.md) |
 | [Import Export Preferences/ru](wiki/Import Export Preferences/ru.md) | [Import Export/ru](wiki/Import Export/ru.md) | [Import from STL or OBJ/ru](wiki/Import from STL or OBJ/ru.md) |
-| [Import/Export IFC - compiling IfcOpenShell/ru](wiki/Import/Export IFC - compiling IfcOpenShell/ru.md) | [Material/ru](wiki/Material/ru.md) | [PDF/ru](wiki/PDF/ru.md) |
-| [Std Export/ru](wiki/Std Export/ru.md) | [Std Import/ru](wiki/Std Import/ru.md) | [SVG/ru](wiki/SVG/ru.md) |
-|
+| [Import/Export IFC - compiling IfcOpenShell/ru](wiki/Import/Export IFC - compiling IfcOpenShell/ru.md) | [PDF/ru](wiki/PDF/ru.md) | [Std Export/ru](wiki/Std Export/ru.md) |
+| [Std Import/ru](wiki/Std Import/ru.md) | [SVG/ru](wiki/SVG/ru.md) |
 
 
 

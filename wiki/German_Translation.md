@@ -109,72 +109,118 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible-content toccolours">
 
-  Englischer Ausdruck                                                                                Funktion          Deutscher Ausdruck                Anmerkung
+  Englischer Ausdruck                                                                                                               Funktion          Deutscher Ausdruck                Anmerkung
      
-  Std Base                                                                                           Workbench name    Std Basis                         Wiki-Seite, übersetzen?
-  *File menu*                                                                                                                                            
-  File                                                                                               Menue header      **Datei**                         
-  <img alt="" src=images/Std_New.svg  style="width:16px;"> New                                                 Command           **Neu**                           
-  *Edit menu*                                                                                                                                            
-  Edit                                                                                               Menue header      **Bearbeiten**                    
-  <img alt="" src=images/Std_Undo.svg  style="width:16px;"> Undo                                              Command           **Rückgängig**                    
-  *View menu*                                                                                                                                            
-  View                                                                                               Menue header      **Ansicht**                       
-  <img alt="" src=images/Std_ViewCreate.svg  style="width:16px;"> Create new view                       Command           **Neue Ansicht**                  
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Standard views                                Generic term      **Standardansichten**             
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Freeze display                                Generic term      **Ansicht einfrieren**            
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Draw style                                    Generic term      **Zeichenstil**                   
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Stereo                                        Generic term      Stereo                            Übersetzen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Zoom                                          Generic term      Zoom                              Übersetzen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Document window                               Generic term      Dokumentfenster                   
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Visibility                                    Generic term      **Sichtbarkeit**                  
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Workbench                                     Generic term      **Arbeitsbereich**                
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Toolbars                                      Generic term      Symbolleisten                     Werkzeugleisten?
-  File                                                                                               Command, toggle   **Datei**                         
-  Workbench                                                                                          Command, toggle   Workbench                         Übersetzen? Arbeitsbereich
-  Macro                                                                                              Command, toggle   *\'Makro*                         
-  View                                                                                               Command, toggle   **Ansicht**                       
-  Structure                                                                                          Command, toggle   Structure                         Übersetzen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Panels                                        Generic term      Paneele                           Übersetzen?
-  Report view                                                                                        Command, toggle   **Ausgabefenster**                
-  Selection view                                                                                     Command, toggle   **Auswahlfenster**                
-  Combo view                                                                                         Command, toggle   **Combo-Ansicht**                 
-  Python comsole                                                                                     Command, toggle   **Python-Konsole**                
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> TreeView actions                              Generic term      BaumAnsicht-Aktionen              Übersetzen?
-                                                                                                                                                         
-  Status bar                                                                                         Command, toggle   **Statusleiste**                  
-  Tools                                                                                              Menue header      **Werkzeuge**                     
-  <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> Edit parameters\...               Command           **Parameter bearbeiten**          
-  *Macro menu*                                                                                                                                           
-  Macro                                                                                              Menue header      **Makro**                         
-  <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:16px;"> Macro recording\...           Command           **Makro aufzeichnen**\...         
-  <img alt="" src=images/Std_MacroStopRecord.svg  style="width:16px;"> Stop macro recording        Command           **Makroaufzeichnung beenden**     
-  <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> Macros\...                  Command           **Makros**\...                    
-  Recent macros                                                                                      Command           **Aktuelle Makros**               
-  <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:16px;"> Execute macro   Command           **Makro ausführen**               
-  Attach to remote debugger\...                                                                      Command           An Remote-Debugger anhängen\...   
-  <img alt="" src=images/Std_MacroStartDebug.svg  style="width:16px;"> Debug macro                 Command           **Makro debuggen**                
-  <img alt="" src=images/Std_MacroStopDebug.svg  style="width:16px;"> Stop debugging                Command           **Debuggen stoppen**              
-  Step over                                                                                          Command           Einen Schritt weiter              
-  Step into                                                                                          Command           Einzelschritt                     
-  Toggle breakpoint                                                                                  Command           Haltepunkt an/aus                 
-  *Windows menu*                                                                                                                                         
-  Windows                                                                                            Menue header      **Fenster**                       
-  <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:16px;"> Next                  Command           **Nächstes Fenster**              
-  *Help menu*                                                                                                                                            
-  Help                                                                                               Menue header      **Hilfe**                         
-  <img alt="" src=images/Std_OnlineHelp.svg  style="width:16px;"> Help                                  Command           Hilfe                             
-  *Additional tools panel*                                                                                                                               
-  Structure                                                                                          Panel header      Structure                         Nur Symbolleiste, Übersetzen?
-  <img alt="" src=images/Std_Part.svg  style="width:16px;"> Create part                                       Command           Baugruppe erstellen               
-  <img alt="" src=images/Std_Group.svg  style="width:16px;"> Create Group                                    Command           Gruppe erstellen                  
-  <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> Make link                                 Command           Verknüpfung erstellen             
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Link actions                                  Generic term      Link actions                      Übersetzen?
-  <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:16px;"> Make sub-link             Command           Unterverknüpfung erstellen        
-  <img alt="" src=images/Std_LinkReplace.svg  style="width:16px;"> Replace with link                   Command           Durch Verknüpfung ersetzen        
-  <img alt="" src=images/Std_LinkUnlink.svg  style="width:16px;"> Unlink                                Command           Verknüpfung auflösen              
-  <img alt="" src=images/Std_LinkImport.svg  style="width:16px;"> Import link                           Command           Verknüpfung importieren           
-  <img alt="" src=images/Std_LinkImportAll.svg  style="width:16px;"> Import all links                Command           Alle Verknüpfungen importieren    
+  Std Base                                                                                                                          Workbench name    Std Basis                         Wiki-Seite, übersetzen?
+  *File menu*                                                                                                                                                                           
+  File                                                                                                                              Menue header      **Datei**                         
+  <img alt="" src=images/Std_New.svg  style="width:16px;"> New                                                                                Command           **Neu**                           
+  *Edit menu*                                                                                                                                                                           
+  Edit                                                                                                                              Menue header      **Bearbeiten**                    
+  <img alt="" src=images/Std_Undo.svg  style="width:16px;"> Undo                                                                             Command           **Rückgängig**                    
+  *View menu*                                                                                                                                                                           
+  View                                                                                                                              Menue header      **Ansicht**                       
+  <img alt="" src=images/Std_ViewCreate.svg  style="width:16px;"> Create new view                                                      Command           **Neue Ansicht**                  
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Standard views                                                               Generic term      **Standardansichten**             
+  <img alt="" src=images/Std_ViewFitAll.svg  style="width:16px;"> Fit all                                                              Command           **Einpassen**                     
+  <img alt="" src=images/Std_ViewFitSelection.svg  style="width:16px;"> Fit selection                                            Command           Selektion einpassen               Auswahl einpassen?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Axonometric                                                                  Generic term      Axonometrisch                     
+  <img alt="" src=images/Std_ViewIsometric.svg  style="width:16px;"> Isometric                                                      Command           **Isometrisch**                   
+  <img alt="" src=images/Std_ViewDimetric.svg  style="width:16px;"> Dimetric                                                         Command           Dimetrisch                        
+  <img alt="" src=images/Std_ViewTrimetric.svg  style="width:16px;"> Trimetric                                                      Command           Trimetrisch                       
+                                                                                                                                                                                        
+  <img alt="" src=images/Std_ViewHome.svg  style="width:16px;"> Home                                                                     Command           Home                              ?
+  <img alt="" src=images/Std_ViewFront.svg  style="width:16px;"> Front                                                                  Command           Vorne                             Vorderansicht?
+  <img alt="" src=images/Std_ViewTop.svg  style="width:16px;"> Top                                                                        Command           Oben                              Draufsicht?
+  <img alt="" src=images/Std_ViewRight.svg  style="width:16px;"> Right                                                                  Command           Rechts                            Seitenansicht rechts?
+  <img alt="" src=images/Std_ViewRear.svg  style="width:16px;"> Rear                                                                     Command           Hinten                            Rückansicht?
+  <img alt="" src=images/Std_ViewBottom.svg  style="width:16px;"> Bottom                                                               Command           Unten                             Untersicht?
+  <img alt="" src=images/Std_ViewLeft.svg  style="width:16px;"> Left                                                                     Command           Links                             Seitenansicht links?
+  <img alt="" src=images/Std_ViewRotateLeft.svg  style="width:16px;"> Rotate left                                                  Command           Nach links drehen                 
+  <img alt="" src=images/Std_ViewRotateRight.svg  style="width:16px;"> Rotate right                                               Command           Rechtsherum rotieren              Nach rechts drehen?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Freeze display                                                               Generic term      **Ansicht einfrieren**            
+  Save views\...                                                                                                                    Command           **Ansichten speichern**\...       
+  Load views\...                                                                                                                    Command           **Ansichten laden**\...           
+  Freeze view                                                                                                                       Command           **Ansicht einfrieren**            
+  Clear views                                                                                                                       Command           **Ansichten löschen**             
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Draw style                                                                   Generic term      **Zeichenstil**                   
+  <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:16px;"> As is                                                          Command           Original                          ?
+  <img alt="" src=images/Std_DrawStylePoints.svg  style="width:16px;"> Points                                                     Command           Punkte                            
+  <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:16px;"> Wireframe                                            Command           Drahtgitter                       
+  <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:16px;"> Hidden line                                        Command           Versteckte Kanten                 Verdeckte Kanten?
+  <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:16px;"> No shading                                           Command           Keine Schattierung                
+  <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:16px;"> Shaded                                                     Command           Schattiert                        
+  <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:16px;"> Flat lines                                           Command           Flache Linien                     
+                                                                                                                                                                                        
+  <img alt="" src=images/Std_SelBoundingBox.svg  style="width:16px;"> Bounding box                                                 Command           Begrenzungsrahmen                 
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Stereo                                                                       Generic term      Stereo                            Übersetzen?
+  <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:16px;"> Stereo red/cyan                                  Command           Stereo rot/cyan                   
+  <img alt="" src=images/Std_ViewIvStereoQuadBuff.svg  style="width:16px;"> Stereo quad buffer                               Command           Stereo 4-fach Puffer              
+  <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:16px;"> Stereo interleaved Rows            Command           Horizontales Interlacing          
+  <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:16px;"> Stereo interleaved Columns   Command           Vertikales Interlacing            
+  <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:16px;"> Stereo Off                                                 Command           Stereo aus                        
+  <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:16px;"> Issue camera position                                  Command           Kameraposition ausgeben           
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Zoom                                                                         Generic term      Zoom                              Übersetzen?
+  <img alt="" src=images/Std_ViewZoomIn.svg  style="width:16px;"> Zoom in                                                              Command           Vergrößern                        
+  <img alt="" src=images/Std_ViewZoomOut.svg  style="width:16px;"> Zoom out                                                           Command           Verkleinern                       
+  <img alt="" src=images/Std_ViewBoxZoom.svg  style="width:16px;"> Box zoom                                                           Command           Zoomen mit Rechteck               
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Document window                                                              Generic term      Dokumentfenster                   
+  Docked                                                                                                                            Command           Angedockt                         
+  Undocked                                                                                                                          Command           Abgedockt                         
+  <img alt="" src=images/Std_ViewFullscreen.svg  style="width:16px;"> Full screen                                                  Command           Vollbild                          
+                                                                                                                                                                                        
+  <img alt="" src=images/Std_AxisCross.svg  style="width:16px;"> Toggle axis cross                                                      Command           Achsenkreuz ein/ausschalten       ein-?
+  <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:16px;"> Clipping plane                                             Command           Schnittebene                      
+  \--Icon\-- Persistent section cut                                                                                                 Command           Persistent section cut            Übersetzen!
+  <img alt="" src=images/Std_TextureMapping.svg  style="width:16px;"> Texture mapping\...                                          Command           Texturabbildung\...               
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Visibility                                                                   Generic term      **Sichtbarkeit**                  
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Workbench                                                                    Generic term      **Arbeitsbereich**                
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Toolbars                                                                     Generic term      Symbolleisten                     Werkzeugleisten?
+  File                                                                                                                              Command, toggle   **Datei**                         
+  Workbench                                                                                                                         Command, toggle   Workbench                         Übersetzen? Arbeitsbereich
+  Macro                                                                                                                             Command, toggle   *\'Makro*                         
+  View                                                                                                                              Command, toggle   **Ansicht**                       
+  Structure                                                                                                                         Command, toggle   Structure                         Übersetzen?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Panels                                                                       Generic term      Paneele                           Übersetzen?
+  Report view                                                                                                                       Command, toggle   **Ausgabefenster**                
+  Selection view                                                                                                                    Command, toggle   **Auswahlfenster**                
+  Combo view                                                                                                                        Command, toggle   **Combo-Ansicht**                 
+  Python comsole                                                                                                                    Command, toggle   **Python-Konsole**                
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> TreeView actions                                                             Generic term      BaumAnsicht-Aktionen              Übersetzen?
+                                                                                                                                                                                        
+  Status bar                                                                                                                        Command, toggle   **Statusleiste**                  
+  Tools                                                                                                                             Menue header      **Werkzeuge**                     
+  <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> Edit parameters\...                                              Command           **Parameter bearbeiten**          
+  *Macro menu*                                                                                                                                                                          
+  Macro                                                                                                                             Menue header      **Makro**                         
+  <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:16px;"> Macro recording\...                                          Command           **Makro aufzeichnen**\...         
+  <img alt="" src=images/Std_MacroStopRecord.svg  style="width:16px;"> Stop macro recording                                       Command           **Makroaufzeichnung beenden**     
+  <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> Macros\...                                                 Command           **Makros**\...                    
+  Recent macros                                                                                                                     Command           **Aktuelle Makros**               
+  <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:16px;"> Execute macro                                  Command           **Makro ausführen**               
+  Attach to remote debugger\...                                                                                                     Command           An Remote-Debugger anhängen\...   
+  <img alt="" src=images/Std_MacroStartDebug.svg  style="width:16px;"> Debug macro                                                Command           **Makro debuggen**                
+  <img alt="" src=images/Std_MacroStopDebug.svg  style="width:16px;"> Stop debugging                                               Command           **Debuggen stoppen**              
+  Step over                                                                                                                         Command           Einen Schritt weiter              
+  Step into                                                                                                                         Command           Einzelschritt                     
+  Toggle breakpoint                                                                                                                 Command           Haltepunkt an/aus                 
+  *Windows menu*                                                                                                                                                                        
+  Windows                                                                                                                           Menue header      **Fenster**                       
+  <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:16px;"> Next                                                 Command           **Nächstes Fenster**              
+  *Help menu*                                                                                                                                                                           
+  Help                                                                                                                              Menue header      **Hilfe**                         
+  <img alt="" src=images/Std_OnlineHelp.svg  style="width:16px;"> Help                                                                 Command           Hilfe                             
+  *Additional tools panel*                                                                                                                                                              
+  Structure                                                                                                                         Panel header      Structure                         Nur Symbolleiste, Übersetzen?
+  <img alt="" src=images/Std_Part.svg  style="width:16px;"> Create part                                                                      Command           Baugruppe erstellen               
+  <img alt="" src=images/Std_Group.svg  style="width:16px;"> Create Group                                                                   Command           Gruppe erstellen                  
+  <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> Make link                                                                Command           Verknüpfung erstellen             
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Link actions                                                                 Generic term      Link actions                      Übersetzen?
+  <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:16px;"> Make sub-link                                            Command           Unterverknüpfung erstellen        
+  <img alt="" src=images/Std_LinkReplace.svg  style="width:16px;"> Replace with link                                                  Command           Durch Verknüpfung ersetzen        
+  <img alt="" src=images/Std_LinkUnlink.svg  style="width:16px;"> Unlink                                                               Command           Verknüpfung auflösen              
+  <img alt="" src=images/Std_LinkImport.svg  style="width:16px;"> Import link                                                          Command           Verknüpfung importieren           
+  <img alt="" src=images/Std_LinkImportAll.svg  style="width:16px;"> Import all links                                               Command           Alle Verknüpfungen importieren    
 
 
 </div>
@@ -1051,20 +1097,21 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible-content toccolours">
 
-  Englischer Ausdruck   Wortart   Deutscher Ausdruck                                                                                                                                                                                 Anmerkung
+  Englischer Ausdruck          Wortart   Deutscher Ausdruck                                                                                                                                                                                 Anmerkung
      
-  Brake                 Noun      **Kantbank**, (Abkantpresse)                                                                                                                                                                       Gerät zum Abkanten von Blechen
-  Constraint            Noun      Bedingung, Beschränkung, Zwang, Auflage, Einschränkung, Nebenbedingung, (technische) Begrenzung, Restriktion, Hemmung, Nötigung, Randbedingung, Zwangsbedingung, Verformungsbehinderung            Wie die Einträge des Online-Wörterbuches zeigen, behindert man sich und die Verständlichkeit von Übersetzungen, wenn man nur Beschränkung als einzig mögliche Übersetzung ansieht.
-  Constrain             Verb      Fesseln, belegen, zwingen, beschränken, behindern, einschränken, hemmen                                                                                                                            Siehe Constraint.
-  Dimension             Noun      **Maß**                                                                                                                                                                                            Abstand zweier paralleler Flächen bzw. zweier punkte
-  Flange                Noun      Flansch                                                                                                                                                                                            Montagerand (Rohr-, Schweiß-, Bördelflansch)
-  Feature               Noun      Eigenschaft, Funktion, Merkmal, Besonderheit, Charakteristikum, Einrichtung, Kennzeichen, Zusatz, äußere Erscheinung, Befund, Abstraktion, Konstruktionsmerkmal, Eigentümlichkeit, Auffälligkeit   Stark vom Zusammenhang abhängig
-  Flange                Noun      Bördel, stehender Falz, Umbug, Kante                                                                                                                                                               Oberbegriff für rechtwinklig abgestellte Blechränder
-  Hem                   Noun      Falz                                                                                                                                                                                               Oberbegriff für (auch mehrfach) umgeschlagene Blechränder
-  Scale                 Noun      Maßstab                                                                                                                                                                                            Darstellungsverhältnis meist gezeichneter Geometrie zum Tatsächlichen Objekt
-  Script                Noun      **Skript**                                                                                                                                                                                         Schriftliche Ausarbeitung, hier im Sinne eines in einer Makro-Sprache verfassten, eher kurzen Programms
-  Script                Verb      Programmieren, Skript erstellen, **skripten**                                                                                                                                                      Skripten ist als Übersetzung fragwürdig, eignet sich aber gut um zwischen dem Programmieren umfangreicher Programme und dem Erstellen kleinerer Programme (Skripte, Macros) zu unterscheiden.
-  Straight flange       Noun      Kante                                                                                                                                                                                              Rechtwinklig und entlang einer Geraden abgestellter Blechrand
+  Brake                        Noun      **Kantbank**, (Abkantpresse)                                                                                                                                                                       Gerät zum Abkanten von Blechen
+  Constraint                   Noun      Bedingung, Beschränkung, Zwang, Auflage, Einschränkung, Nebenbedingung, (technische) Begrenzung, Restriktion, Hemmung, Nötigung, Randbedingung, Zwangsbedingung, Verformungsbehinderung            Wie die Einträge des Online-Wörterbuches zeigen, behindert man sich und die Verständlichkeit von Übersetzungen, wenn man nur Beschränkung als einzig mögliche Übersetzung ansieht.
+  Constrain                    Verb      Fesseln, belegen, zwingen, beschränken, behindern, einschränken, hemmen                                                                                                                            Siehe Constraint.
+  Dimension                    Noun      **Maß**                                                                                                                                                                                            Abstand zweier paralleler Flächen bzw. zweier punkte
+  Flange                       Noun      Flansch                                                                                                                                                                                            Montagerand (Rohr-, Schweiß-, Bördelflansch)
+  Feature                      Noun      Eigenschaft, Funktion, Merkmal, Besonderheit, Charakteristikum, Einrichtung, Kennzeichen, Zusatz, äußere Erscheinung, Befund, Abstraktion, Konstruktionsmerkmal, Eigentümlichkeit, Auffälligkeit   Stark vom Zusammenhang abhängig
+  Flange                       Noun      Bördel, stehender Falz, Umbug, Kante                                                                                                                                                               Oberbegriff für rechtwinklig abgestellte Blechränder
+  Hem                          Noun      Falz                                                                                                                                                                                               Oberbegriff für (auch mehrfach) umgeschlagene Blechränder
+  Scale                        Noun      Maßstab                                                                                                                                                                                            Darstellungsverhältnis meist gezeichneter Geometrie zum Tatsächlichen Objekt
+  Script                       Noun      **Skript**                                                                                                                                                                                         Schriftliche Ausarbeitung, hier im Sinne eines in einer Makro-Sprache verfassten, eher kurzen Programms
+  Script                       Verb      Programmieren, Skript erstellen, **skripten**                                                                                                                                                      Skripten ist als Übersetzung fragwürdig, eignet sich aber gut um zwischen dem Programmieren umfangreicher Programme und dem Erstellen kleinerer Programme (Skripte, Macros) zu unterscheiden.
+  Straight flange              Noun      Kante                                                                                                                                                                                              Rechtwinklig und entlang einer Geraden abgestellter Blechrand
+  Topological naming problem   Noun      Problem der topologischen Benennung                                                                                                                                                                Das häufig benutzte \"topologisches Benennungsproblem\" ist nicht richtig, da es sich nicht um ein Benennungsproblem handelt, das topologisch ist, sondern um eine topologische Benennung, die Probleme bereitet.
 
 
 </div>

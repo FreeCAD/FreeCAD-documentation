@@ -40,7 +40,8 @@ Les instructions d\'utilisation pour l\'opération [Adaptation](Path_Adaptive/fr
 
 \'\'\' *Remarque* \'\'\': les noms de certaines propriétés de cette liste diffèrent un peu des mêmes paramètres que ceux utilisés dans l\'éditeur de fenêtre de tâche.
 
-#### Adaptive
+
+{{TitleProperty|Adaptive}}
 
 -    **Force Inside-Out**: force la pénétration dans le matériau à l\'intérieur et le nettoyage vers les bords.
 
@@ -66,7 +67,8 @@ Les instructions d\'utilisation pour l\'opération [Adaptation](Path_Adaptive/fr
 
 -    **Use Helix Arcs**: utilise les arcs (G2) pour la rampe hélicoïdale.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
@@ -119,7 +121,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Label**: nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: hauteur nécessaire pour supprimer les pinces et les obstructions.
 
@@ -133,7 +136,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Step Down**: abaissement incrémentiel de l\'outil.
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: mis à False, pour empêcher l\'opération de générer du code
 
@@ -147,13 +151,13 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 *Les descriptions de ces paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-#### Géométrie de base 
+### Géométrie de base 
 
 -   **Add**: ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
 -   **Remove**: supprime le ou les éléments sélectionnés dans la liste emplacement de base.
 -   **Edit**: efface tous les éléments de la liste d\'emplacement de base.
 
-#### Profondeurs
+### Profondeurs
 
 -    **Start Depth**
     
@@ -167,7 +171,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Step Down**
     
 
-#### Hauteurs
+### Hauteurs
 
 -    **Safe Height**
     
@@ -175,7 +179,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Clearance Height**
     
 
-#### Opération
+### Opération
 
 -    **Tool Controller**
     

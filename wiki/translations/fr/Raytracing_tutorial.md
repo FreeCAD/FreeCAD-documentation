@@ -15,7 +15,7 @@
 ## Atelier Raytracing 
 
 
-**L'[atelier Raytracing](Raytracing_Workbench/fr.md) a été remplacé par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Il ne doit pas être confondu avec le [Projet Render](Render_project/fr.md), arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau module devrait fondamentalement fonctionner de la même manière**
+**L'[atelier Raytracing](Raytracing_Workbench/fr.md) a été remplacé par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau module devrait fondamentalement fonctionner de la même manière**
 
 .
 
@@ -23,7 +23,7 @@
 
 ## Introduction
 
-Ce tutoriel est destiné à présenter au lecteur le fonctionnement de base de l\'atelier Raytracing, ainsi que la plupart des outils disponibles pour créer une image rendue. Remarquez que l\'atelier Raytracing est progressivement écarté au profit du nouveau [module de rendus](Render_project/fr.md), disponible via le [gestionnaire d\'Addons](Std_AddonMgr.md).
+Ce tutoriel est destiné à présenter au lecteur le fonctionnement de base de l\'atelier Raytracing, ainsi que la plupart des outils disponibles pour créer une image rendue. **Remarquez** que l\'atelier Raytracing est progressivement écarté au profit du nouvel [atelier Render](https://github.com/FreeCAD/FreeCAD-render), disponible via le [gestionnaire d\'Addons](Std_AddonMgr/fr.md).
 
 <img alt="" src=images/Raytracing_tutorial_result.png  style="width:480px;">
 

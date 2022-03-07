@@ -15,13 +15,7 @@ Das [Abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)-Werkzeug erlaubt 
 
 Das [Arch Abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
-
-<div class="mw-translate-fuzzy">
-
-Dieser Befehl ist Teil des [Reinforcement-Workbench](Reinforcement_Workbench/de.md)-Arbeitsbereichs, der mit dem ![](images/Std_AddonMgr.svg ) [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
-
-
-</div>
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), der mit dem ![](images/Std_AddonMgr.svg ) [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;"> 
 *Zwei Sätze von abgewinkelten Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*

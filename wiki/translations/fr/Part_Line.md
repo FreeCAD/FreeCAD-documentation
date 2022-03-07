@@ -11,80 +11,85 @@
 
 ## Description
 
+Une <img alt="" src=images/Part_Line.svg  style="width:24px;"> **Part Ligne** est une ligne paramétrique qui peut être créée avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives/fr.md). Les coordonnées de son point de départ et de son point d\'arrivée sont relatives au système de coordonnées défini par sa propriété **Placement**.
+
+<img alt="" src=images/Part_Line_Example.png  style="width:400px;">
+
 ## Utilisation
 
-### Primitives géometriques 
+Voir [Part Primitives](Part_Primitives/fr#Utilisation.md).
 
-+++
-| ![](images/PartLinePrimitivesOptions_it.png ) | Ligne                             |
-|                                                                          |                                   |
-|                                                                          | #### Paramètre                    |
-|                                                                          |                                   |
-|                                                                          | :                                 |
-|                                                                          |                                   |
-|                                                                          | -                  |
-|                                                                          |     {{Parameter|Point de départ}} |
-|                                                                          |                                |
-|                                                                          |                                   |
-|                                                                          | -                  |
-|                                                                          |     {{Parameter|Point final}}     |
-|                                                                          |                                |
-|                                                                          |                                   |
-|                                                                          | #### Emplacement                  |
-|                                                                          |                                   |
-|                                                                          | -                                 |
-|                                                                          | -                                 |
-+++
+## Propriétés
 
-### Propriétés
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md).
 
-+++
-| ![](images/PartLineProperty_it.png ) | #### Vue                                    |
-|                                                        |                                             |
-|                                                        | ..                                          |
-|                                                        |                                             |
-|                                                        | #### Données                                |
-|                                                        |                                             |
-|                                                        |                              |
-|                                                        | **Base**                                |
-|                                                        |                                          |
-|                                                        | \* {{PropertyData/fr|Label}}: |
-|                                                        |                                             |
-|                                                        | -                            |
-|                                                        |     {{PropertyData/fr|Placement}}           |
-|                                                        |                                          |
-|                                                        |     : [placement](Placement/fr.md)  |
-|                                                        |                                             |
-|                                                        |                              |
-|                                                        | **Vertex 1 Start**                      |
-|                                                        |                                          |
-|                                                        | \* {{PropertyData/fr|X1}} :   |
-|                                                        |                                             |
-|                                                        | -                            |
-|                                                        |     {{PropertyData/fr|X1}}                  |
-|                                                        |                                          |
-|                                                        |     :                                       |
-|                                                        |                                             |
-|                                                        | -                            |
-|                                                        |     {{PropertyData/fr|X1}}                  |
-|                                                        |                                          |
-|                                                        |     :                                       |
-|                                                        |                                             |
-|                                                        |                              |
-|                                                        | **Vertex 2 Finish**                     |
-|                                                        |                                          |
-|                                                        | \* {{PropertyData/fr|X2}} :   |
-|                                                        |                                             |
-|                                                        | -                            |
-|                                                        |     {{PropertyData/fr|X2}}                  |
-|                                                        |                                          |
-|                                                        |     :                                       |
-|                                                        |                                             |
-|                                                        | -                            |
-|                                                        |     {{PropertyData/fr|X2}}                  |
-|                                                        |                                          |
-|                                                        |     :                                       |
-+++
+Un objet Part Ligne est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+### Données
+
+
+{{TitleProperty|Attachment}}
+
+L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Part_Part2DObject/fr#Donn.C3.A9es.md).
+
+
+{{TitleProperty|Vertex 1 - Start}}
+
+-    **X1|Distance**: La coordonnée X du point de départ de la ligne. La valeur par défaut est {{Value|0mm}}.
+
+-    **Y1|Distance**: La coordonnée Y du point de départ de la ligne. La valeur par défaut est {{Value|0mm}}.
+
+-    **Z1|Distance**: La coordonnée Z du point de départ de la ligne. La valeur par défaut est {{Value|0mm}}.
+
+
+{{TitleProperty|Vertex 2 - Finish}}
+
+-    **X2|Distance**: La coordonnée X du dernier point de la ligne. La valeur par défaut est {{Value|10mm}}.
+
+-    **Y2|Distance**: La coordonnée Y du dernier point de la ligne. La valeur par défaut est {{Value|10mm}}.
+
+-    **Z2|Distance**: La coordonnée Z du dernier point de la ligne. La valeur par défaut est {{Value|10mm}}.
+
+## Script
+
+Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+
+Une Part Ligne est créée avec la méthode `addObject()` du document :
+
+
+```python
+line = FreeCAD.ActiveDocument.addObject("Part::Line", "myLine")
+```
+
+-   Où {{Incode|"myLine"}} est le nom de l\'objet.
+-   La fonction restitue l\'objet nouvellement créé.
+
+Exemple :
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+line = doc.addObject("Part::Line", "myLine")
+line.X1 = 1
+line.Y1 = 3
+line.Z1 = 6
+line.X2 = 2
+line.Y2 = 3
+line.Z2 = 9
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

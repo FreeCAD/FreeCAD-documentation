@@ -41,6 +41,11 @@ Tous les paramètres de préférences avec des étiquettes en *italiques* sont d
 -   **Fichier PAT** : fichier de définition de modèle PAT par défaut pour [hachures géométriques](TechDraw_GeometricHatch/fr.md).
 -   **Nom du motif** : nom du motif PAT par défaut.
 
+### Grille
+
+-   **Show Grid** : Paramètre par défaut de Show Grid pour les nouvelles pages. {{Version/fr|0.20}}
+-   **Grid Spacing** : Distance par défaut entre les lignes de la grille pour les nouvelles pages. {{Version/fr|0.20}}
+
 ## Échelle
 
 <img alt="Préférences d\'Échelle" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
@@ -112,21 +117,22 @@ Tous les paramètres de préférences avec des étiquettes en *italiques* sont d
 
 Configuration des couleurs par défaut pour les nouvelles pages:
 
--   **Normal** : couleur des lignes normales.
--   **Préselectionnés** : couleur des présélections. Couleur utilisée pour mettre en surbrillance les objets lorsque vous passez la souris dessus.
--   **Sélection** : couleur des objets sélectionnés.
--   **Arrière-plan** : couleur d\'arrière-plan autour des pages.
--   **Dimension** : couleur des lignes de cote et du texte.
--   **Ligne centrale** : couleur des [lignes centrales de faces](TechDraw_FaceCenterLine/fr.md).
--   **Couleur des contours des vues détaillées** : couleur des lignes pour la forme des contours des [vues détaillées](TechDraw_DetailView/fr.md). {{Version/fr|0.19}}
--   **Faces transparentes** : si coché, les faces des objets seront transparentes. Sinon, la couleur définie sera utilisée pour les faces. {{Version/fr|0.19}}
--   **Lignes cachées** : couleur de la ligne cachée. Cette couleur sera utilisée pour toutes sortes de [lignes cachées](#Param.C3.A8tres_HLR.md).
--   **Vues en coupe** : couleur de la surface des [vues en coupe](TechDraw_SectionView/fr.md). Utilisé uniquement si le paramètre **Motif des vue en coupe** est réglé sur *Couleur pleine*.
--   **Lignes des vues en coupe** : couleur de la ligne des [vues en coupe](TechDraw_SectionView/fr.md).
--   **Hachure** : couleur de l\'image des [hachures par motifs](TechDraw_Hatch/fr.md).
--   **Hachure géometrique** : couleur du motif des [hachures géométriques](TechDraw_GeometricHatch/fr.md).
--   **Sommet** : couleur des [vertices](Glossary/fr#V.md) (sommets) sélectionnables dans les vues.
--   **Lignes de référence** : couleur des nouvelles [lignes de référence](TechDraw_LeaderLine/fr.md).
+-   **Normal** : Couleur des lignes normales.
+-   **Préselectionnés** : Couleur des présélections. Couleur utilisée pour mettre en surbrillance les objets lorsque vous passez la souris dessus.
+-   **Sélection** : Couleur des objets sélectionnés.
+-   **Arrière-plan** : Couleur d\'arrière-plan autour des pages.
+-   **Dimension** : Couleur des lignes de cote et du texte.
+-   **Ligne centrale** : Couleur des [lignes centrales de faces](TechDraw_FaceCenterLine/fr.md).
+-   **Couleur des contours des vues détaillées** : Couleur des lignes pour la forme des contours des [vues détaillées](TechDraw_DetailView/fr.md). {{Version/fr|0.19}}
+-   **Faces transparentes** : Si coché, les faces des objets seront transparentes. Sinon, la couleur définie sera utilisée pour les faces. {{Version/fr|0.19}}
+-   **Lignes cachées** : Couleur de la ligne cachée. Cette couleur sera utilisée pour toutes sortes de [lignes cachées](#Param.C3.A8tres_HLR.md).
+-   **Vues en coupe** : Couleur de la surface des [vues en coupe](TechDraw_SectionView/fr.md). Utilisé uniquement si le paramètre **Motif des vue en coupe** est réglé sur *Couleur pleine*.
+-   **Lignes des vues en coupe** : Couleur de la ligne des [vues en coupe](TechDraw_SectionView/fr.md).
+-   **Hachure** : Couleur de l\'image des [hachures par motifs](TechDraw_Hatch/fr.md).
+-   **Hachure géometrique** : Couleur du motif des [hachures géométriques](TechDraw_GeometricHatch/fr.md).
+-   **Sommet** : Couleur des [vertices](Glossary/fr#V.md) (sommets) sélectionnables dans les vues.
+-   **Lignes de référence** : Couleur des nouvelles [lignes de référence](TechDraw_LeaderLine/fr.md).
+-   **Couleur de la grille** : Couleur pour toutes les grilles de pages. <small>(v0.20)</small> 
 
 ## Lignes cachées 
 
@@ -157,34 +163,6 @@ Version anglaise de la GUI, HLR pour *hidden line removal* (suppression des lign
 -   **Style des extrémités de ligne** : réglage de la forme des extrémités des lignes. Explication des options: [pen cap styles](https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum)
 -   **Taille maximum des tuiles de hachures SVG** : limite des tuiles SVG d\'une taille de 64x64 pixels utilisées pour hachurer une seule face. Pour les grandes échelles, on peut obtenir une erreur sur de nombreuses tuiles SVG, puis il faut augmenter la limite de tuiles.
 -   **Nombre maximum de segments des hachures PAT** : nombre maximal de segments de hachures utilisés pour hachurer une face avec un motif PAT.
-
-## Paramètres cachés 
-
-**Remarque:** Depuis FreeCAD 0.19, tous les paramètres sont disponibles dans les boîtes de dialogue Préférences. Ce qui suit s\'applique uniquement aux versions de FreeCAD antérieures à 0,19:
-
-Certains paramètres de préférences ne sont accessibles que via [Std Editeur des paramètres](Std_DlgParameter/fr.md), **Outils → Éditer paramètres**.
-
-### Preferences/Mod/TechDraw/Decorations
-
--   **CenterMarkScale**: facteur d\'échelle par défaut pour les marques centrales CenterMarks
--   **ShowCenterMarks**: défaut `True`/`False`
--   **PrintCenterMarks**: `True`/`False` affiche les marques centrales CenterMarks lors de l\'impression {{Version/fr|0.19}}
-
-### Préférences/Mod/TechDraw/Général
-
--   **DefaultScale**: réglage initial de de la page échelle {{Version/fr|0.19}}
--   **EdgeFuzz**: rayon de la sélection des bords
--   **MarkFuzz**: rayon de la sélection des marques centrales
--   **SectionFuseFirst**: fusionne les objets source avant d\'effectuer la coupe de la section
--   **EdgeEndCap**: forme des extrémités des bords 0x00 FlatCap, 0x10 SquareCap, 0x20 RoundCap (Qt::PenCapStyle) {{Version/fr|0.19}}
-
-### Préférences/Mod/TechDraw/Format
-
--   **SectionFormat**: section style de lignes 0-ASME 1-ISO
-
-### Préférences/Mod/TechDraw/Standards
-
--   **RadiusAligned**: rayon format de dimension 0-ISO(aligné) 1-ASME(uniforme)
 
 
 

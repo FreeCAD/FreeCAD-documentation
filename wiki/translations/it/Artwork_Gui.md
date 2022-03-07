@@ -20,11 +20,6 @@ Queste immagini sono più grandi delle icone.
 <img alt="" src=images/Const_member.svg  style="width:64px;"> <img alt="" src=images/Member.svg  style="width:64px;"> <img alt="" src=images/Method.svg  style="width:64px;"> <img alt="" src=images/Property.svg  style="width:64px;"> <img alt="" src=images/Type_class.svg  style="width:64px;"> <img alt="" src=images/Type_enum.svg  style="width:64px;"> <img alt="" src=images/Type_module.svg  style="width:64px;">
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Gui/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Gui/it

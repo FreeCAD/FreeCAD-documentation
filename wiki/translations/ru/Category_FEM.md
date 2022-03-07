@@ -28,13 +28,12 @@ This category lists pages related to the [FEM Workbench/ru](FEM_Workbench/ru.md)
 | [FEM PostFilterClipRegion/ru](wiki/FEM PostFilterClipRegion/ru.md) | [FEM PostFilterClipScalar/ru](wiki/FEM PostFilterClipScalar/ru.md) | [FEM PostFilterCutFunction/ru](wiki/FEM PostFilterCutFunction/ru.md) |
 | [FEM PostFilterDataAlongLine/ru](wiki/FEM PostFilterDataAlongLine/ru.md) | [FEM PostFilterDataAtPoint/ru](wiki/FEM PostFilterDataAtPoint/ru.md) | [FEM PostFilterLinearizedStresses/ru](wiki/FEM PostFilterLinearizedStresses/ru.md) |
 | [FEM PostFilterWarp/ru](wiki/FEM PostFilterWarp/ru.md) | [FEM PostPipelineFromResult/ru](wiki/FEM PostPipelineFromResult/ru.md) | [FEM Preferences/ru](wiki/FEM Preferences/ru.md) |
-| [FEM project/ru](wiki/FEM project/ru.md) | [FEM ResultShow/ru](wiki/FEM ResultShow/ru.md) | [FEM ResultsPurge/ru](wiki/FEM ResultsPurge/ru.md) |
-| [FEM Shear of a Composite Block/ru](wiki/FEM Shear of a Composite Block/ru.md) | [FEM Solver/ru](wiki/FEM Solver/ru.md) | [FEM SolverCalculiX/ru](wiki/FEM SolverCalculiX/ru.md) |
-| [FEM SolverCalculixCxxtools/ru](wiki/FEM SolverCalculixCxxtools/ru.md) | [FEM SolverControl/ru](wiki/FEM SolverControl/ru.md) | [FEM SolverElmer/ru](wiki/FEM SolverElmer/ru.md) |
-| [FEM SolverRun/ru](wiki/FEM SolverRun/ru.md) | [FEM SolverZ88/ru](wiki/FEM SolverZ88/ru.md) | [FEM Tutorial Python/ru](wiki/FEM Tutorial Python/ru.md) |
-| [FEM tutorial/ru](wiki/FEM tutorial/ru.md) | [FEM Workbench/ru](wiki/FEM Workbench/ru.md) | [Material editor/ru](wiki/Material editor/ru.md) |
-| [Material/ru](wiki/Material/ru.md) | [Mesh/ru](wiki/Mesh/ru.md) | [Post-Processing of FEM Results with Paraview/ru](wiki/Post-Processing of FEM Results with Paraview/ru.md) |
-| [Transient FEM analysis/ru](wiki/Transient FEM analysis/ru.md) |
+| [FEM ResultShow/ru](wiki/FEM ResultShow/ru.md) | [FEM ResultsPurge/ru](wiki/FEM ResultsPurge/ru.md) | [FEM Shear of a Composite Block/ru](wiki/FEM Shear of a Composite Block/ru.md) |
+| [FEM Solver/ru](wiki/FEM Solver/ru.md) | [FEM SolverCalculiX/ru](wiki/FEM SolverCalculiX/ru.md) | [FEM SolverCalculixCxxtools/ru](wiki/FEM SolverCalculixCxxtools/ru.md) |
+| [FEM SolverControl/ru](wiki/FEM SolverControl/ru.md) | [FEM SolverElmer/ru](wiki/FEM SolverElmer/ru.md) | [FEM SolverRun/ru](wiki/FEM SolverRun/ru.md) |
+| [FEM SolverZ88/ru](wiki/FEM SolverZ88/ru.md) | [FEM Tutorial Python/ru](wiki/FEM Tutorial Python/ru.md) | [FEM tutorial/ru](wiki/FEM tutorial/ru.md) |
+| [FEM Workbench/ru](wiki/FEM Workbench/ru.md) | [Material editor/ru](wiki/Material editor/ru.md) | [Mesh/ru](wiki/Mesh/ru.md) |
+| [Post-Processing of FEM Results with Paraview/ru](wiki/Post-Processing of FEM Results with Paraview/ru.md) | [Transient FEM analysis/ru](wiki/Transient FEM analysis/ru.md) |
 
 
 

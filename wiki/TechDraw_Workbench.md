@@ -164,9 +164,9 @@ These are tools to improve your TechDraw drawings.
 
 -   <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:32px;"> [Cascade Oblique Dimensions](TechDraw_ExtensionCascadeObliqueDimension.md): evenly spaces oblique dimensions. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [AreaAnnotation](TechDraw_ExtensionAreaAnnotation.md): insert an area annotation. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Calculate the area of selected faces](TechDraw_ExtensionAreaAnnotation.md): calculates the area of selected faces and inserts an area annotation. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [CustomizeFormat](TechDraw_ExtensionCustomizeFormat.md): customize balloon text or dimension format specifier. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Customize format label](TechDraw_ExtensionCustomizeFormat.md): customizes the formatting of a balloon text or dimension text. GD&T symbols and other special character can be added. <small>(v0.20)</small> 
 
 ### Centerlines and threading 
 
@@ -274,9 +274,9 @@ Video tutorials by sliptonic
 
 
 
- {{TechDraw Tools navi}}
+ {{TechDraw_Tools_navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [TechDraw](Category_TechDraw.md) > TechDraw Workbench
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench

@@ -7,64 +7,111 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
 Vytváří parametrický objekt Klín. Defaultně se za základnu považuje větší plocha a menší je vrchol.
+
+
+</div>
+
+<img alt="" src=images/Part_Wedge_Example.png  style="width:400px;">
 
 ## Usage
 
-### Defaultní rozměr a umístění 
+See [Part Primitives](Part_Primitives#Usage.md).
 
-**Umístění:** Defaultně je základna v rovině XY a vrchol vznikne ve směru osy Z. Roh základny je v počátku 0,0,0.
+## Example
 
-**Plocha základny:**
+![Part Wedge from the scripting example](images/Part_Wedge_Scripting_Example.png )
 
--   X : 10 mm
--   Z : 10 mm
+A Part Wedge object created with the [scripting example](#Scripting.md) below is shown here.
 
-**Výška:**
+## Notes
 
--   Y : 0-10 mm
+-   The values of the coordinates of the wedge must be such that a valid solid can be create. This means that the front and rear base shapes can both be single edges, but not if they are parallel. And if one of the base shapes is a vertex the other shape must be a rectangular face.
 
-**Plocha vrcholu:**
+## Properties
 
--   X : 2-8 mm
--   Z : 2-8 mm
+See also: [Property editor](Property_editor.md).
 
-![](images/PartWedgeProperty.png ) 
+A Part Wedge object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-### Vstupní parametry 
+### Data
 
-+++
-| ![](images/PartWedgeProperty_Inputs.png ) | Při využití defaultního umístění jsou vstupní parametry následující: |
-|                                                                  |                                                                      |
-|                                                                  | -                                                     |
-|                                                                  |     **X min/max**                                       |
-|                                                                  |                                                                   |
-|                                                                  |     : Base face X axis span                                          |
-|                                                                  |                                                                      |
-|                                                                  | -                                                     |
-|                                                                  |     **Y min/max**                                       |
-|                                                                  |                                                                   |
-|                                                                  |     : Wedge height span                                              |
-|                                                                  |                                                                      |
-|                                                                  | -                                                     |
-|                                                                  |     **Z min/max**                                       |
-|                                                                  |                                                                   |
-|                                                                  |     : Base face Z axis span                                          |
-|                                                                  |                                                                      |
-|                                                                  | -                                                     |
-|                                                                  |     **X2 min/max**                                      |
-|                                                                  |                                                                   |
-|                                                                  |     : Top face X axis span                                           |
-|                                                                  |                                                                      |
-|                                                                  | -                                                     |
-|                                                                  |     **Z2 min/max**                                      |
-|                                                                  |                                                                   |
-|                                                                  |     : Top face Z axis span                                           |
-+++
 
-### More examples for wedges 
+{{TitleProperty|Attachment}}
 
-![](images/Wedge_examples.png )
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
+{{TitleProperty|Wedge}}
+
+-    **Xmin|Distance**: The lowest X coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **Ymin|Distance**: The Y coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **Zmin|Distance**: The lowest Z coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **X2min|Distance**: The lowest X coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+
+-    **Z2min|Distance**: The lowest Z coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+
+-    **Xmax|Distance**: The highest X coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+
+-    **Ymax|Distance**: The Y coordinate of the rear face of the wedge. The default is {{Value|10mm}}.
+
+-    **Zmax|Distance**: The highest Z coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+
+-    **X2max|Distance**: The highest X coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+
+-    **Z2max|Distance**: The highest Z coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Wedge can be created with the {{Incode|addObject()}} method of the document:
+
+
+```python
+wedge = FreeCAD.ActiveDocument.addObject("Part::Wedge", "myWedge")
+```
+
+-   Where {{Incode|"myWedge"}} is the name for the object.
+-   The function returns the newly created object.
+
+Example:
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+wedge = doc.addObject("Part::Wedge", "myWedge")
+wedge.Xmin = 1
+wedge.Ymin = 2
+wedge.Zmin = 3
+wedge.X2min = 4
+wedge.Z2min = 6
+wedge.Xmax = 15
+wedge.Ymax = 20
+wedge.Zmax = 55
+wedge.X2max = 10
+wedge.Z2max = 12
+wedge.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(75, 60, 30))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Draft OrthoArray
    Name/fr:Draft Réseau orthogonal
-   MenuLocation:Modification → Array tools → Array
+   MenuLocation:Modification → Outils de réseau → Réseau
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
@@ -23,8 +23,8 @@ La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draf
 
 1.  Sélectionner un objet au choix.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_OrthoArray.svg" width=16px> [Array](Draft_OrthoArray/fr.md)**.
-    -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_OrthoArray.svg" width=16px> Array** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Draft_OrthoArray.svg" width=16px> [Réseau](Draft_OrthoArray/fr.md)**.
+    -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_OrthoArray.svg" width=16px> Réseau** dans le menu.
 3.  Le panneau de tâches **Réseau orthogonal** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet.
 5.  Saisissez les paramètres requis dans le panneau des tâches.
@@ -46,7 +46,7 @@ La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draf
 
 ## Remarques
 
--   Un Draft Réseau orthogonal peut être transformé en un [Draft Réseau polaire](Draft_PolarArray/fr.md) ou un [Draft Réseau circulaire](Draft_CircularArray/fr.md) en modifiant sa propriété {{PropertyData/fr|Array Type}}.
+-   Un Draft Réseau orthogonal peut être transformé en un [Draft Réseau polaire](Draft_PolarArray/fr.md) ou un [Draft Réseau circulaire](Draft_CircularArray/fr.md) en modifiant sa propriété **Array Type**.
 -   Un réseau de liens ne peut pas être transformé en un réseau normal ou vice versa. Le type de réseau doit être décidé au moment de la création.
 
 ## Préférences
@@ -68,34 +68,34 @@ La commande Draft Réseau orthogonal, la commande [Draft Réseau polaire](Draft_
 
 Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens. Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyData/fr|Scale|Float}}
+-    **Scale|Float**
     
 
--    {{PropertyData/fr|Scale Vector|Vector|Hidden}}
+-    **Scale Vector|Vector|Hidden**
     
 
--    {{PropertyData/fr|Scale List|VectorList}}
+-    **Scale List|VectorList**
     
 
--    {{PropertyData/fr|Visibility List|BoolList|Hidden}}
+-    **Visibility List|BoolList|Hidden**
     
 
--    {{PropertyData/fr|Placement List|PlacementList|Hidden}}
+-    **Placement List|PlacementList|Hidden**
     
 
--    {{PropertyData/fr|Element List|LinkList|Hidden}}
+-    **Element List|LinkList|Hidden**
     
 
--    {{PropertyData/fr|_ Link Touched|Bool|Hidden}}
+-    **_ Link Touched|Bool|Hidden**
     
 
--    {{PropertyData/fr|_ Child Cache|LinkList|Hidden}}
+-    **_ Child Cache|LinkList|Hidden**
     
 
--    {{PropertyData/fr|Colored Elements|LinkSubHidden|Hidden}}
+-    **Colored Elements|LinkSubHidden|Hidden**
     
 
--    {{PropertyData/fr|Link Transform|Bool}}
+-    **Link Transform|Bool**
     
 
 
@@ -103,65 +103,65 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 Les propriétés de ce groupe sont cachées pour les réseaux orthogonaux et les réseaux polaires.
 
--    {{PropertyData/fr|Number Circles|Integer}}: spécifie le nombre de couches circulaires. Doit être au moins {{Value|2}}.
+-    **Number Circles|Integer**: spécifie le nombre de couches circulaires. Doit être au moins {{Value|2}}.
 
--    {{PropertyData/fr|Radial Distance|Distance}}: spécifie la distance entre les couches circulaires.
+-    **Radial Distance|Distance**: spécifie la distance entre les couches circulaires.
 
--    {{PropertyData/fr|Symmetry|Integer}}: spécifie le nombre de lignes de symétrie. Ce nombre modifie la répartition des éléments dans le réseau.
+-    **Symmetry|Integer**: spécifie le nombre de lignes de symétrie. Ce nombre modifie la répartition des éléments dans le réseau.
 
--    {{PropertyData/fr|Tangential Distance|Distance}}: spécifie la distance entre les éléments d\'une même couche circulaire. Elle doit être supérieure à zéro.
+-    **Tangential Distance|Distance**: spécifie la distance entre les éléments d\'une même couche circulaire. Elle doit être supérieure à zéro.
 
 
 {{TitleProperty|Objects}}
 
--    {{PropertyData/fr|Array Type|Enumeration}}: spécifie le type de réseau, qui peut être {{value|ortho}}, {{value|polar}} ou {{value|circular}}.
+-    **Array Type|Enumeration**: spécifie le type de réseau, qui peut être {{value|ortho}}, {{value|polar}} ou {{value|circular}}.
 
--    {{PropertyData/fr|Axis Reference|LinkGlobal}}: spécifie l\'objet et le bord à utiliser à la place des propriétés {{PropertyData/fr|Axis}} et {{PropertyData/fr|Center}}. Non utilisé pour les réseaux orthogonaux.
+-    **Axis Reference|LinkGlobal**: spécifie l\'objet et le bord à utiliser à la place des propriétés **Axis** et **Center**. Non utilisé pour les réseaux orthogonaux.
 
--    {{PropertyData/fr|Base|Link}}: spécifie l\'objet à dupliquer dans le réseau.
+-    **Base|Link**: spécifie l\'objet à dupliquer dans le réseau.
 
--    {{PropertyData/fr|Count|Integer}}: (en lecture seule) spécifie le nombre total d\'éléments dans le réseau. Uniquement disponible pour les réseaux Link.
+-    **Count|Integer**: (en lecture seule) spécifie le nombre total d\'éléments dans le réseau. Uniquement disponible pour les réseaux Link.
 
--    {{PropertyData/fr|Expand Array|Bool}}: spécifie s\'il faut développer le réseau dans la vue [Tree view](Tree_view.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
+-    **Expand Array|Bool**: spécifie s\'il faut développer le réseau dans la vue [Tree view](Tree_view.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
 
--    {{PropertyData/fr|Fuse|Bool}}: spécifie si les éléments qui se chevauchent dans le réseau sont fusionnés ou non. Non utilisé pour les réseaux de type Link.
+-    **Fuse|Bool**: spécifie si les éléments qui se chevauchent dans le réseau sont fusionnés ou non. Non utilisé pour les réseaux de type Link.
 
 
 {{TitleProperty|Orthogonal array}}
 
 Les propriétés de ce groupe sont masquées pour les réseaux circulaires et les réseaux polaires.
 
--    {{PropertyData/fr|Interval X|VectorDistance}}: spécifie l\'intervalle entre les éléments dans la direction X.
+-    **Interval X|VectorDistance**: spécifie l\'intervalle entre les éléments dans la direction X.
 
--    {{PropertyData/fr|Interval Y|VectorDistance}}: spécifie l\'intervalle entre les éléments dans la direction Y.
+-    **Interval Y|VectorDistance**: spécifie l\'intervalle entre les éléments dans la direction Y.
 
--    {{PropertyData/fr|Interval Z|VectorDistance}}: spécifie l\'intervalle entre les éléments dans la direction Z.
+-    **Interval Z|VectorDistance**: spécifie l\'intervalle entre les éléments dans la direction Z.
 
--    {{PropertyData/fr|Number X|Integer}}: spécifie le nombre d\'éléments dans la direction X. Doit être au moins {{Value|1}}.
+-    **Number X|Integer**: spécifie le nombre d\'éléments dans la direction X. Doit être au moins {{Value|1}}.
 
--    {{PropertyData/fr|Number Y|Integer}}: spécifie le nombre d\'éléments dans la direction Y. Doit avoir au moins la valeur {{Value|1}}.
+-    **Number Y|Integer**: spécifie le nombre d\'éléments dans la direction Y. Doit avoir au moins la valeur {{Value|1}}.
 
--    {{PropertyData/fr|Number Z|Integer}}: spécifie le nombre d\'éléments dans la direction Z. Doit être au moins égal à {{Value|1}}.
+-    **Number Z|Integer**: spécifie le nombre d\'éléments dans la direction Z. Doit être au moins égal à {{Value|1}}.
 
 
 {{TitleProperty|Polar array}}
 
 Les propriétés de ce groupe sont masquées pour les réseaux circulaires et les réseaux orthogonaux.
 
--    {{PropertyData/fr|Angle|Angle}}: spécifie l\'ouverture de l\'arc de cercle. Utilisez {{value|360&#176;}} pour un cercle complet.
+-    **Angle|Angle**: spécifie l\'ouverture de l\'arc de cercle. Utilisez {{value|360&#176;}} pour un cercle complet.
 
--    {{PropertyData/fr|Interval Axis|VectorDistance}}: spécifie l\'intervalle entre les éléments dans la direction {{PropertyData/fr|Axis}}.
+-    **Interval Axis|VectorDistance**: spécifie l\'intervalle entre les éléments dans la direction **Axis**.
 
--    {{PropertyData/fr|Number Polar|Integer}}: spécifie le nombre d\'éléments dans la direction polaire.
+-    **Number Polar|Integer**: spécifie le nombre d\'éléments dans la direction polaire.
 
 
 {{TitleProperty|Polar/circular array}}
 
 Les propriétés de ce groupe sont cachées pour les réseaux orthogonaux.
 
--    {{PropertyData/fr|Axis|Vector}}: spécifie la direction de l\'axe du réseau.
+-    **Axis|Vector**: spécifie la direction de l\'axe du réseau.
 
--    {{PropertyData/fr|Center|VectorDistance}}: spécifie le point central du réseau. L\'axe du réseau passe par ce point. Pour les réseaux circulaires, il s\'agit d\'un décalage par rapport à {{PropertyData/fr|Placement}} de l\'objet {{PropertyData/fr|Base}}.
+-    **Center|VectorDistance**: spécifie le point central du réseau. L\'axe du réseau passe par ce point. Pour les réseaux circulaires, il s\'agit d\'un décalage par rapport à **Placement** de l\'objet **Base**.
 
 ### Vue
 
@@ -170,21 +170,21 @@ Les propriétés de ce groupe sont cachées pour les réseaux orthogonaux.
 
 Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne sont disponibles que pour les réseaux liens (Link). Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyView/fr|Draw Style|Enumeration}}
+-    **Draw Style|Enumeration**
     
 
--    {{PropertyView/fr|Line Width|FloatConstraint}}
+-    **Line Width|FloatConstraint**
     
 
--    {{PropertyView/fr|Override Material|Bool}}
+-    **Override Material|Bool**
     
 
 -    **Point Size|FloatConstraint**
     
 
--    {{PropertyView/fr|Selectable|Bool}}: il s\'agit d\'une propriété héritée qui apparaît dans le groupe Sélection pour d\'autres réseaux.
+-    **Selectable|Bool**: il s\'agit d\'une propriété héritée qui apparaît dans le groupe Sélection pour d\'autres réseaux.
 
--    {{PropertyView/fr|Shape Material|Material}}
+-    **Shape Material|Material**
     
 
 
@@ -192,41 +192,41 @@ Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne s
 
 Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne sont disponibles que pour les réseaux liens (Link). Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyView/fr|Child View Provider|PersistentObject|Hidden}}
+-    **Child View Provider|PersistentObject|Hidden**
     
 
--    {{PropertyView/fr|Material List|MaterialList|Hidden}}
+-    **Material List|MaterialList|Hidden**
     
 
--    {{PropertyView/fr|Override Color List|ColorList|Hidden}}
+-    **Override Color List|ColorList|Hidden**
     
 
--    {{PropertyView/fr|Override Material List|BoolList|Hidden}}
+-    **Override Material List|BoolList|Hidden**
     
 
--    {{PropertyView/fr|Proxy|PythonObject|Hidden}}: il s\'agit d\'une propriété héritée.
+-    **Proxy|PythonObject|Hidden**: il s\'agit d\'une propriété héritée.
 
 
 {{TitleProperty|Display Options}}
 
 Les propriétés de ce groupe sont des propriétés héritées. Voir [Part Feature](Part_Feature/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyView/fr|Bounding Box|Bool}}: cette propriété n\'est pas héritée par les réseaux de liens (Link).
+-    **Bounding Box|Bool**: cette propriété n\'est pas héritée par les réseaux de liens (Link).
 
--    {{PropertyView/fr|Display Mode|Enumeration}}: pour les réseaux de liens, il peut s\'agir de {{value|Link}} ou {{value|ChildView}}. Pour les autres réseaux, il peut s\'agir de : {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} ou {{value|Points}}
+-    **Display Mode|Enumeration**: pour les réseaux de liens, il peut s\'agir de {{value|Link}} ou {{value|ChildView}}. Pour les autres réseaux, il peut s\'agir de : {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} ou {{value|Points}}
 
--    {{PropertyView/fr|Show In Tree|Bool}}
+-    **Show In Tree|Bool**
     
 
--    {{PropertyView/fr|Visibility|Bool}}
+-    **Visibility|Bool**
     
 
 
 {{TitleProperty|Draft}}
 
--    {{PropertyView/fr|Pattern|Enumeration}}: non utilisé.
+-    **Pattern|Enumeration**: non utilisé.
 
--    {{PropertyView/fr|Pattern Size|Float}}: non utilisé.
+-    **Pattern Size|Float**: non utilisé.
 
 
 {{TitleProperty|Object style}}

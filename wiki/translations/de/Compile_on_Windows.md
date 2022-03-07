@@ -311,11 +311,17 @@ Nach Fertigstellung kann es ausgeführt werden: Unten links befinden sich 2 grü
 
 <div class="mw-collapsible-content">
 
+
+<div class="mw-translate-fuzzy">
+
 Die Schritte, wie man von der Kommandozeile aus kompiliert, hängen vom Compiler ab. Für MSVC 2017 sind die Schritte:
 
 1.  In Windows\' Startmenü gehen Sie zu {{MenuCommand/de|Visual Studio 2017 → Visual Studio Tools}} und wähle **Developer Command Prompt for VS 2017**.
 2.  Wechsle in deinen Buildordner.
 3.  Führe den Befehl aus
+
+
+</div>
 
 
 ```pythonmsbuild ALL_BUILD.vcxproj /p:Configuration=Release```
@@ -325,12 +331,18 @@ oder
 
 ```pythonmsbuild INSTALL.vcxproj /p:Configuration=Release```
 
+
+<div class="mw-translate-fuzzy">
+
 Diese Schritte können auch automatisiert werden. Hier ist zum Beispiel eine Lösung für MSVC 2017:
 
 1.  Lade das Skript herunter [compile-FC.txt](https://forum.freecadweb.org/download/file.php?id=92135).
 2.  Umbenennen in *compile-FC.bat*\'.
 3.  Klicke im Datei Explorer von Windows mit der rechten Maustaste auf Dein Build Verzeichnis und benutze aus dem Kontextmenü *Befehlszeile hier*.
 4.  Führe den Befehl aus
+
+
+</div>
 
 
 ```pythoncompile-FC install```
@@ -413,11 +425,17 @@ FreeCAD verwendet [Qt](https://en.wikipedia.org/wiki/Qt_(software)) als Werkzeug
 
 Um Qt Designer auf die FreeCAD Widgets aufmerksam zu machen, musst du
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Laden [diese ZIP Datei](https://forum.freecadweb.org/download/file.php?id=124239) herunter. (Kompiliert mit Qt 5.12, siehe [unten](#Compilation/de.md)).
 2.  Entpacke die DLL Datei in der ZIP Datei und kopiere sie
 
 -   Wenn du das LibPack verwendest: in den Ordner*\~\\FreeCADLibs\_12.5.2\_x64\_VC17\\bin\\designer* Da es nur einen *bin* Ordner geben wird und du zuerst den Unterordner *designer* erstellen musst.
 -   Wenn du eine vollständige Qt-Installation hast: du kannst wählen zwischen dem Ordner*C:\\Qt\\Qt5.15.2\\msvc2019\_64\\plugins\\designer*oder*C:\\Qt\\Qt5.15.2\\msvc2019\_64\\bin\\designer*(du musst zuerst den Unterordner *designer* anlegen.)(passe die Pfade an deine Installation an!).
+
+
+</div>
 
 Starte den Qt Designer (erneut) und überprüfe sein Menü **Hilfe → Zusatzprogramme**. Wenn das Zusatzprogramm **FreeCAD\_widgets.dll** als geladen aufgeführt ist, kannst du nun FreeCADs .ui Dateien entwerfen und ändern. Falls nicht, musst du die DLL selbst [Kompilieren](#Compilation/de.md).
 
@@ -427,6 +445,9 @@ Wenn du lieber [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator) anstelle v
 
 Die DLL kann nicht als Zusatzprogramm geladen werden, wenn sie mit einer anderen Qt Version kompiliert wurde als die, auf der dein Qt Designer/Qt Creator basiert. In diesem Fall musst du die DLL selbst kompilieren. Dies geschieht auf folgende Weise:
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wechsle zum FreeCAD-Quell-Code-Verzeichnis*\~\\src\\Tools\\plugins\\widget*
 2.  Öffne eine MSVC x64-Kommandozeile über das Windows-Start-Menü und wechsle darin zum o.g. Verzeichnis. Es ist wichtig, dass es die x64-Version der MSVC-Kommandozeile ist!
 3.  Führe diesen Befehl aus *D:\\FreeCAD-build\\FreeCADLibs\_12.5.2\_x64\_VC17\\bin\\qmake -t vclib plugin.pro*für eine volle Qt-Installation ist es*C:\\Qt\\5.15.2\\msvc2019\_64\\bin\\qmake -t vclib plugin.pro* (passe die Pfade entsprechend deiner Installation an!)
@@ -434,6 +455,9 @@ Die DLL kann nicht als Zusatzprogramm geladen werden, wenn sie mit einer anderen
 5.  Stelle in der Werkzeugleiste der MSVC-IDE sicher, dass du das Kompilationsziel *Release* verwendest.
 6.  Es gibt ein Fenster namens *Solution Explorer*. Rechtklicke dort auf **FreeCAD\_widgets** und wähle dann **Build**.
 7.  Als Ergebnis solltest du nun eine Datei **FreeCAD\_widgets.dll** im Verzeichnis *\~\\src\\Tools\\plugins\\widget\\release* haben, die du als Plugin wie oben beschrieben installieren kannst.
+
+
+</div>
 
 ====Miniaturansicht Anbieter===
 

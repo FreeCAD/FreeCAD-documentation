@@ -9,14 +9,8 @@
 # WebTools BimServer/de
 
 
-<div class="mw-translate-fuzzy">
-
-
-**Beginnend mit FreeCAD v0.17 wurde dieses Werkzeug aus dem Architektur Arbeitsbereich entfernt und ist nun Teil des externen [WebWerkzeuge Arbeitsbereich](WebTools_Workbench/de.md)s, den du über das Menü Werkzeuge → <img src="images/AddonManager.svg" width=24px> [Erweiterungsverwalter](Std_AddonMgr/de.md) installieren kannst.
+**Beginnend mit FreeCAD v0.17 wurde dieses Werkzeug aus dem Arbeitsbereich Arch entfernt und ist nun Teil des externen Arbeitsbereichs [WebTools](WebTools_Workbench/de.md), der über das Menü Werkzeuge → <img src="images/AddonManager.svg" width=24px> [Addon-Manager](Std_AddonMgr/de.md) installiert werden kann.
 **
-
-
-</div>
 
 ## Beschreibung
 

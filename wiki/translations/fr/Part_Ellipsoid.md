@@ -11,32 +11,91 @@
 
 ## Description
 
-La commande <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> [Part Ellipsoïde](Part_Ellipsoid/fr.md) crée un solide ellipsoïde paramétrique.
+Un <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> **Part Ellipsoïde** est un solide paramétrique qui peut être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives/fr.md). Dans le système de coordonnées défini par sa propriété **Placement**, les axes de l\'ellipsoïde sont alignés sur les axes X, Y et Z, et son centre est donc positionné à l\'origine.
 
-La forme produite est solide un sphéroïde (éventuellement tronquée) est limitée dans FreeCAD, la forme est créée par rotation d\'une ellipse autour de son axe. Par défaut, il s\'agit d\'un [Oblate Spheroid](http://en.wikipedia.org/wiki/Oblate_spheroid), la forme est créée, par la rotation d\'une ellipse autour de son petit axe. Les paramètres peuvent être modifiés pour former un [Prolate Spheroid](http://en.wikipedia.org/wiki/Prolate_spheroid).
+Un Part Ellipsoïde peut être tronqué en haut et/ou en bas en modifiant ses propriétés **Angle1** et/ou **Angle2**. Il peut être transformé en un segment d\'ellipsoïde en modifiant sa propriété **Angle3**.
 
-Le sphéroïde par défaut dans FreeCAD aura un cercle pour toute section transversale parallèle au plan XY. La section transversale parallèle aux deux autres plans sera une ellipse.
-
-En mathématique, un [Ellipsoïde](https://fr.wikipedia.org/wiki/Ellipso%C3%AFde) aurait une section transversale elliptique dans les trois plans.
+<img alt="" src=images/Part_Ellipsoid_Example.png  style="width:400px;">
 
 ## Utilisation
 
-Un solide ellipsoïde paramétrique est disponible à partir de la boîte de dialogue Créer des primitives dans l\'atelier Part.
+Voir [Part Primitives](Part_Primitives/fr#Utilisation.md).
 
-1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md)
-2.  Accédez à la commande Ellipsoïde de plusieurs manières:
-    -   Dans la boîte de dialogue Créer des primitives, en appuyant sur le bouton <img alt="" src=images/Part_CreatePrimitives.svg  style="width:32px;"> [Création de primitives géométriques\...](Part_Primitives/fr.md) situé dans la barre d\'outils Part.
-    -   Using the **Pièce → [Créer des primitives...](Part_Primitives/fr.md) → Ellipsoïde** dans le menu Pièce.
+## Exemple
+
+![Part Ellipsoïde à partir de l\'exemple du script](images/Part_Ellipsoid_Scripting_Example.png )
+
+Un objet Part Ellipsoïde créé avec l\'[exemple du script](#Script.md) ci-dessous.
 
 ## Propriétés
 
--   Radius 1, Par défaut le petit rayon est parallèle à l\'axe Z,
--   Radius 2, Par défaut le grand rayon est parallèle au plan XY, il est également le grand rayon au croisement de la section circulaire
--   Angle 1, la troncature inférieure de l\'ellipsoïde, est parallèle à la section transversale circulaire (-90 degrés dans un sphéroïde complet)
--   Angle 2, la troncature supérieure de l\'ellipsoïde, est parallèle à la section transversale circulaire (90 degrés dans un sphéroïde complet)
--   Angle 3, est l\'angle de rotation de la section transversale elliptique (360 degrés dans un ellipsoïde complet)
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-![](images/Part_Ellipsoid_screenshot.jpg )
+Un objet Part Ellipsoïde est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+### Données
+
+
+{{TitleProperty|Attachment}}
+
+L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Part_Part2DObject/fr#Donn.C3.A9es.md).
+
+
+{{TitleProperty|Ellipsoid}}
+
+-    **Radius1|Length**: Le rayon de l\'ellipsoïde dans sa direction Z. La valeur par défaut est {{Value|2mm}}.
+
+-    **Radius2|Length**: Le rayon de l\'ellipsoïde dans sa direction X. La valeur par défaut est {{Value|4mm}}.
+
+-    **Radius3|Length**: Le rayon de l\'ellipsoïde dans sa direction Y. La valeur par défaut est {{Value|4mm}}. La valeur par défaut est {{Value|4mm}}.
+
+-    **Angle1|Angle**: L\'angle de départ des côtés elliptiques de l\'ellipsoïde. Plage valide : {{Value|-90° &lt;&#61; value &lt; 90°}}. Doit être inférieur à **Angle2**. La valeur par défaut est {{Value|-90°}}.
+
+-    **Angle2|Angle**: Le dernier angle des côtés elliptiques de l\'ellipsoïde. Plage valide : {{Value|-90° &lt; value &lt;&#61; 90°}}. Doit être supérieur à **Angle1**. La valeur par défaut est {{Value|90°}}. Si l\'angle total des côtés de l\'ellipse est inférieur à {{Value|180°}}, l\'ellipsoïde sera tronqué et aura une face plate en haut et/ou en bas.
+
+-    **Angle3|Angle**: L\'angle total de l\'ellipsoïde dans son plan XY. Plage valide : {{Value|0° &lt; value &lt;&#61; 360°}}. La valeur par défaut est {{Value|360°}}. Si elle est inférieure à {{Value|360°}}, le solide résultant sera un segment d\'ellipsoïde.
+
+## Script
+
+Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+
+Un Part Ellipsoïde est créé avec la méthode `addObject()` du document :
+
+
+```python
+ellipsoid = FreeCAD.ActiveDocument.addObject("Part::Ellipsoid", "myEllipsoid")
+```
+
+-   Où {{Incode|"myEllipsoid"}} est le nom de l\'objet.
+-   La fonction restitue l\'objet nouvellement créé.
+
+Exemple :
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+ellipsoid = doc.addObject("Part::Ellipsoid", "myEllipsoid")
+ellipsoid.Radius1 = 2
+ellipsoid.Radius2 = 4
+ellipsoid.Radius3 = 6
+ellipsoid.Angle1 = -90
+ellipsoid.Angle2 = 50
+ellipsoid.Angle3 = 300
+ellipsoid.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(15, 0, 20))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

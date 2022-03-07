@@ -12,11 +12,20 @@
 
 ## Beschreibung
 
-Die Material Werkzeuge erlauben dir [Materialien](Material/de.md) zum aktiven Dokument hinzuzufügen und ein Material einem [Arch](Arch_Workbench/de.md)-Objekt zuzuweisen. Materialien können alle Eigenschaften eines bestimmten Materials aufweisen und die Farbe des Objekts steuern, an das es angehängt wird. Materialien werden in einem **Materialien** Ordner im aktiven Dokument gespeichert.
+
+<div class="mw-translate-fuzzy">
+
+Die Material Werkzeuge erlauben dir [Materialien](Material.md) zum aktiven Dokument hinzuzufügen und ein Material einem [Arch](Arch_Workbench/de.md)-Objekt zuzuweisen. Materialien können alle Eigenschaften eines bestimmten Materials aufweisen und die Farbe des Objekts steuern, an das es angehängt wird. Materialien werden in einem **Materialien** Ordner im aktiven Dokument gespeichert.
+
+
+</div>
 
 ![](images/Arch_materials_01.jpg )
 
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle optional ein oder mehrere Objekte aus, denen du ein neues Material zuordnen möchtest.
 2.  Rufe den Befehl auf mehrere Arten auf:
@@ -25,6 +34,9 @@ Die Material Werkzeuge erlauben dir [Materialien](Material/de.md) zum aktiven Do
     -   Verwende die **Arch → Material Werkzeuge → Material** Eintrag aus dem oberen Menü.
 3.  Lade ein voreingestelltes Material, oder erstelle ein neues durch Ausfüllen der Felder .
 4.  Drücke **OK**.
+
+
+</div>
 
 ## Optionen
 

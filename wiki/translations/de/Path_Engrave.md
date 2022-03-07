@@ -29,13 +29,15 @@ Empty
 
 ### Daten
 
-#### Base
+
+{{TitleProperty|Base}}
 
 -    **Placement**: -
 
 -    **Label**: - User name of the object (UTF-8)
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: The height needed to clear clamps and obstructions
 
@@ -47,7 +49,8 @@ Empty
 
 -    **Step Down**: Incremental Step Down of Tool
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: - Make False, to prevent operation from generating code
 
@@ -65,7 +68,8 @@ Empty
 
 -    **User Label**: - User assigned label
 
-### Hidden
+
+{{TitleProperty|Hidden}}
 
 -    **Base Object**: -
 

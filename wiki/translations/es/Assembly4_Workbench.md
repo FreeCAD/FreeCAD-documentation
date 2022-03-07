@@ -21,12 +21,17 @@ Assembly4 se inspiró en <img alt="" src=images/A2p_workbench.svg  style="width:
 
 ## Enlaces
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Enlace de aplicación](App_Link/es.md) objeto que hace funcionar Assembly3 y Assembly4.
 -   [Assembly4](https://github.com/Zolko-123/FreeCAD_Assembly4) repositorio y documentación.
 -   [Assembly 4 ambiente de trabajo](https://forum.freecadweb.org/viewtopic.php?f=20&t=34806), gran hilo de discusión.
 -   [Estado actual de la Asamblea](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Ambientede trabajo externos](External_workbenches/es.md)
--   [Antiguo proyecto Assembly](Assembly_project/es.md) plan de desarrollo, para conocer la historia del tema.
+
+
+</div>
 
 ## Tutoriales
 

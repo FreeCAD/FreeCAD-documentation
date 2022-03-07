@@ -38,12 +38,6 @@ Vide
 
 ## Propriétés
 
-### Données
-
-Vide
-
-### Vue
-
 Vide
 
 ## Script

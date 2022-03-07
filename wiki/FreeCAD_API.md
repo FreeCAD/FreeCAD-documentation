@@ -306,6 +306,12 @@ This module is the Translate module
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> ScaleType <small>(value, names=None, *, module=None, qualname=None, type=None, start=1)</small>
+
+An enumeration.
+
+
+
 #### <img src="images/type_module.svg" style="width:16px;"> Units
 
 The Unit API

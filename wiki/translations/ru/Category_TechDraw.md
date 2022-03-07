@@ -24,12 +24,12 @@ This category lists pages related to the [TechDraw Workbench/ru](TechDraw_Workbe
 | [TechDraw PageDefault/ru](wiki/TechDraw PageDefault/ru.md) | [TechDraw PageTemplate/ru](wiki/TechDraw PageTemplate/ru.md) | [TechDraw Pitch Circle Tutorial/ru](wiki/TechDraw Pitch Circle Tutorial/ru.md) |
 | [TechDraw Preferences/ru](wiki/TechDraw Preferences/ru.md) | [TechDraw ProjectionGroup/ru](wiki/TechDraw ProjectionGroup/ru.md) | [TechDraw Quadrants/ru](wiki/TechDraw Quadrants/ru.md) |
 | [TechDraw RadiusDimension/ru](wiki/TechDraw RadiusDimension/ru.md) | [TechDraw RedrawPage/ru](wiki/TechDraw RedrawPage/ru.md) | [TechDraw RichTextAnnotation/ru](wiki/TechDraw RichTextAnnotation/ru.md) |
-| [TechDraw Roadmap/ru](wiki/TechDraw Roadmap/ru.md) | [TechDraw SectionView/ru](wiki/TechDraw SectionView/ru.md) | [TechDraw ShowAll/ru](wiki/TechDraw ShowAll/ru.md) |
-| [TechDraw SpreadsheetView/ru](wiki/TechDraw SpreadsheetView/ru.md) | [TechDraw Symbol/ru](wiki/TechDraw Symbol/ru.md) | [TechDraw TemplateHowTo/ru](wiki/TechDraw TemplateHowTo/ru.md) |
-| [TechDraw Templates/ru](wiki/TechDraw Templates/ru.md) | [TechDraw ToggleFrame/ru](wiki/TechDraw ToggleFrame/ru.md) | [TechDraw VerticalDimension/ru](wiki/TechDraw VerticalDimension/ru.md) |
-| [TechDraw VerticalExtentDimension/ru](wiki/TechDraw VerticalExtentDimension/ru.md) | [TechDraw View/ru](wiki/TechDraw View/ru.md) | [TechDraw WeldSymbol/ru](wiki/TechDraw WeldSymbol/ru.md) |
-| [TechDraw Workbench/ru](wiki/TechDraw Workbench/ru.md) | [TechDrawGui API/ru](wiki/TechDrawGui API/ru.md) | [Tolerancing/ru](wiki/Tolerancing/ru.md) |
-| [Topological naming problem/ru](wiki/Topological naming problem/ru.md) | [Tutorial for open windows/ru](wiki/Tutorial for open windows/ru.md) |
+| [TechDraw SectionView/ru](wiki/TechDraw SectionView/ru.md) | [TechDraw ShowAll/ru](wiki/TechDraw ShowAll/ru.md) | [TechDraw SpreadsheetView/ru](wiki/TechDraw SpreadsheetView/ru.md) |
+| [TechDraw Symbol/ru](wiki/TechDraw Symbol/ru.md) | [TechDraw TemplateHowTo/ru](wiki/TechDraw TemplateHowTo/ru.md) | [TechDraw Templates/ru](wiki/TechDraw Templates/ru.md) |
+| [TechDraw ToggleFrame/ru](wiki/TechDraw ToggleFrame/ru.md) | [TechDraw VerticalDimension/ru](wiki/TechDraw VerticalDimension/ru.md) | [TechDraw VerticalExtentDimension/ru](wiki/TechDraw VerticalExtentDimension/ru.md) |
+| [TechDraw View/ru](wiki/TechDraw View/ru.md) | [TechDraw WeldSymbol/ru](wiki/TechDraw WeldSymbol/ru.md) | [TechDraw Workbench/ru](wiki/TechDraw Workbench/ru.md) |
+| [TechDrawGui API/ru](wiki/TechDrawGui API/ru.md) | [Topological naming problem/ru](wiki/Topological naming problem/ru.md) | [Tutorial for open windows/ru](wiki/Tutorial for open windows/ru.md) |
+|
 
 
 

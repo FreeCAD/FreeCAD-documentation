@@ -12,4 +12,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Points](Category_Points.md) > Artwork Points
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Points](Category_Points.md) > Artwork Points

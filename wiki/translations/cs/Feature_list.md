@@ -247,19 +247,9 @@ Toto je obsáhlý, i když ne kompletní, seznam charakteristických vlastností
 
 </div>
 
-## Ve vývoji 
-
-
-<div class="mw-translate-fuzzy">
-
--   ![](images/Feature-assembly.jpg ) Modul [Assembly](Assembly_project/cs.md), který umožňuje práci s více projekty, více tavry, více dokumenty, více soubory, více vztahy\...
-
-
-</div>
-
 ## Extra Workbenches 
 
-Power users have created various custom [external workbenches](external_workbenches.md).
+Power users have created various custom [external workbenches](External_workbenches.md).
 
 
 <div class="mw-translate-fuzzy">

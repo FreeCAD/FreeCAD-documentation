@@ -86,43 +86,42 @@ Jak wyjaśniono na stronie [Edycja cech](Feature_editing/pl.md), rozwiązaniem t
 
 3\. Zaznacz drugi szkic, kliknij elipsę obok właściwości **Tryb dołączenia**, a następnie wybierz pierwszą płaszczyznę odniesienia. Płaszczyzna odniesienia jest już odsunięta od płaszczyzny XY zawartości, więc w przypadku szkicu nie jest wymagane dodatkowe odsunięcie Z.
 
-4\. Repeat the process with the third sketch, and select the second datum plane as support. Again, no further Z offset is necessary.
+4\. Powtórz tę procedurę z trzecim szkicem i wybierz drugą płaszczyznę odniesienia jako podporę. Również w tym przypadku nie jest konieczne dodatkowe przesunięcie w kierunku Z.
 
-5\. The dependency graph now shows that the sketches and pads are supported by the datum planes. This model is more stable as each sketch can be modified essentially independently from each other.
+5\. Na wykresie zależności widać teraz, że szkice i wyciągnięcia są obsługiwane przez płaszczyzny odniesienia. Ten model jest bardziej stabilny, ponieważ każdy szkic można modyfikować w zasadzie niezależnie od siebie.
 
 ![](images/FreeCAD_topological_problem_19_dependency_graph_datum_planes.png )
 
-6\. Double click the second sketch and modify the shape. The second pad should update immediately without causing topological problems with the third sketch and the third pad.
+6\. Kliknij dwukrotnie drugi szkic i zmodyfikuj jego kształt. Drugie wyciągnięcie powinno zostać natychmiast zaktualizowane, nie powodując problemów topologicznych z trzecim szkicem i trzecim wyciągnięciem.
 
 <img alt="" src=images/FreeCAD_topological_problem_20_independent_solid_2.png  style="width:" height="400px;">
 
-7\. In fact, every sketch can be modified without interfering with each other\'s pads. As long as the pads have sufficient extrusion length, so that they touch and form a contiguous solid, the entire body will be valid.
+7\. W rzeczywistości każdy szkic można modyfikować bez ingerencji w inne wyciągnięcie. Tak długo, jak wyciągnięcia mają wystarczającą długość wyciskania, tak że dotykają się i tworzą przylegającą bryłę, cała bryła będzie poprawna.
 
 <img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width:" height="400px;">
 
 ## Uwagi końcowe 
 
-Adding datum objects is more work for the user but ultimately produces more stable models that are less subject to the topological naming problem.
+Dodawanie obiektów punktów odniesienia wymaga więcej pracy od użytkownika, ale w efekcie końcowym daje bardziej stabilne modele, które w mniejszym stopniu podlegają problemowi nazewnictwa topologicznego.
 
-Naturally, datum objects can be created before any sketches are drawn, and pads are produced. This may be helpful to visualize the approximate shape and dimensions of the final body.
+Oczywiście obiekty układu odniesienia można utworzyć przed narysowaniem szkiców i wykonaniem wyciągnięć. Może to być pomocne w wizualizacji przybliżonego kształtu i wymiarów ostatecznej bryły.
 
-Datum planes can also be based on other datum planes. This creates a chain of dependencies that could also result in topological problems; however, since datum planes are very simple objects, the risks of having these issues is less than if the face of a solid object is used as support.
+Płaszczyzny odniesienia mogą być także oparte na innych płaszczyznach odniesienia. Tworzy to łańcuch zależności, który również może powodować problemy topologiczne. Ponieważ jednak płaszczyzny odniesienia są bardzo prostymi obiektami, ryzyko wystąpienia takich problemów jest mniejsze niż w przypadku, gdy jako podparcie wykorzystuje się powierzchnię obiektu bryłowego.
 
-Datum objects, [points](PartDesign_Point.md), [lines](PartDesign_Line.md), [planes](PartDesign_Plane.md), and [coordinate systems](PartDesign_CoordinateSystem.md), may also be useful as reference geometry, that is, as visual aids to show the important features in the model, even if no sketch is directly attached to them.
+Obiekty układu odniesienia, [punkty](PartDesign_Point/pl.md), [linie](PartDesign_Line/pl.md), [płaszczyzny](PartDesign_Plane/pl.md) oraz [układy współrzędnych](PartDesign_CoordinateSystem/pl.md), mogą być również przydatne jako geometria odniesienia, czyli jako pomoce wizualne pokazujące ważne cechy modelu, nawet jeśli nie jest do nich bezpośrednio dołączony żaden szkic.
 
 ## Odnośniki internetowe 
 
--   [PartDesign Fillet - Topological naming](PartDesign_Fillet#Topological_naming.md)
--   [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278): a possible solution, by realthunder.
--   [Naming project](Naming_project.md): effort to implement a robust topological naming in FreeCAD.
--   [Topological Naming Project](Topological_Naming_Project.md): idea to solve the problem, by ickby.
--   [Topological data scripting](Topological_data_scripting.md)
--   [Feature editing](Feature_editing.md): contains alternate advice for stable modelling techniques.
+-   [Projekt części: Zaokrąglenie - Nazewnictwo topologiczne](PartDesign_Fillet/pl#Nazewnictwo_topologiczne.md).
+-   [Nazewnictwo topologiczne, moje zdanie](https://forum.freecadweb.org/viewtopic.php?t=27278): możliwe rozwiązanie, autor: realthunder.
+-   [Projekt nazewnictwa topologicznego](Topological_Naming_Project/pl.md): pomysł na rozwiązanie problemu, autorstwa ickby.
+-   [Skrypty danych topologicznych](Topological_data_scripting/pl.md).
+-   [Edycja cech](Feature_editing/pl.md): zawiera alternatywne porady dotyczące stabilnych technik modelowania.
 
 ## Filmy
 
--   [Why do my FreeCAD models break? - \"Topological Naming Problem\"](https://youtu.be/6p2vqEEmWq4): A Video explanation of the underlying issues of [Topological naming problem](Topological_naming_problem.md)
--   [FreeCAD Is Fundamentally Broken! - Now what\... Help Me Decide\...](https://www.youtube.com/watch?v=QSsVFu929jo): A Maker Tales Video
+-   [Dlaczego moje modele FreeCAD się psują? - **Problem nazewnictwa topologicznego**](https://youtu.be/6p2vqEEmWq4): Wideo wyjaśnienie podstawowych zagadnień związanych z [Problem nazewnictwa topologicznego](Topological_naming_problem/pl.md).
+-   [FreeCAD jest fundamentalnie uszkodzony! - Co teraz\... Pomóż mi zdecydować\...](https://www.youtube.com/watch?v=QSsVFu929jo): Wideo autorstwa Maker Tales
 
 
  {{TechDraw Tools navi}} {{PartDesign Tools navi}}

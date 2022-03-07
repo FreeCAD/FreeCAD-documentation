@@ -15,7 +15,7 @@ La commande <img alt="" src=images/Assembly_ConstraintMultiply.svg  style="width
 
 ## Utilisation
 
-1.  Activez la commande <img alt="" src=images/Assembly_ConstraintMultiply.svg  style="width:16px;"> **Multiplier les contraintes**\' en utilisant l\'une des méthodes suivantes :
+1.  Activez la commande <img alt="" src=images/Assembly_ConstraintMultiply.svg  style="width:16px;"> **Multiplier les contraintes** en utilisant l\'une des méthodes suivantes :
     -   Le bouton **<img src="images/Assembly_ConstraintMultiply.svg" width=16px> [Multiply constraint](Assembly3_MultiplyConstraint/fr.md)**.
     -   L\'option du menu **Assembly3 → <img src="images/Assembly_ConstraintMultiply.svg" width=16px> Multiply constraint**.
 

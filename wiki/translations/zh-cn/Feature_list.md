@@ -251,15 +251,7 @@
 
 </div>
 
-## 开发中
-
-
-<div class="mw-translate-fuzzy">
-
--   ![](images/Feature-assembly.jpg ) 一个允许同时工作在多个项目、多个图形、多个文档、多个文件、多个关系的 [集合模块正在计划状态](Assembly_project/zh-cn.md)。
-
-
-</div>
+## Extra Workbenches 
 
 
 <div class="mw-translate-fuzzy">

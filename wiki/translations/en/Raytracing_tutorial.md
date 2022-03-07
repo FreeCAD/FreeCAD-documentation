@@ -14,13 +14,13 @@
 ## Raytracing Workbench 
 
 
-**The [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench, and because the new module should basically work in the same way**
+**The [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench, and because the new module should basically work in the same way**
 
 
 
 ## Introduction
 
-This tutorial is meant to introduce the reader to the basic workflow of the Raytracing Workbench, as well as most of the tools that are available to create a rendered image. **Note** that the Raytracing workbench is progressively being obsoleted in favor of the newer [Render Workbench](Render_project.md), available via the [Addons Manager](Std_AddonMgr.md)
+This tutorial is meant to introduce the reader to the basic workflow of the Raytracing Workbench, as well as most of the tools that are available to create a rendered image. **Note** that the Raytracing workbench is progressively being obsoleted in favor of the newer [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), available via the [Addons Manager](Std_AddonMgr.md)
 
 <img alt="" src=images/Raytracing_tutorial_result.png  style="width:480px;">
 

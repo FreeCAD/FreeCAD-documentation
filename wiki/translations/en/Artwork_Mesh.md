@@ -14,11 +14,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 <img alt="" src=images/Mesh_Cone.svg  style="width:64px;"> <img alt="" src=images/Mesh_Cube.svg  style="width:64px;"> <img alt="" src=images/Mesh_Cylinder.svg  style="width:64px;"> <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:64px;"> <img alt="" src=images/Mesh_Sphere.svg  style="width:64px;"> <img alt="" src=images/Mesh_Torus.svg  style="width:64px;">
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/en

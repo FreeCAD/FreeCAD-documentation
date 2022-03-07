@@ -26,7 +26,6 @@ Assembly4 wurde angeregt durch <img alt="" src=images/A2p_workbench.svg  style="
 -   [Assembly 4 workbench](https://forum.freecadweb.org/viewtopic.php?f=20&t=34806), großer Diskussionsbeitrag.
 -   [Aktueller Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Externe Arbeitsbereiche](External_workbenches/de.md)
--   [Altes Assembly Projekt](Assembly_project/de.md) Entwicklungsplan, um sich mit der Geschichte des Themas vertraut zu machen.
 
 ## Tutorien
 

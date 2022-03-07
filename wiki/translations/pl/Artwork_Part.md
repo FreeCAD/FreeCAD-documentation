@@ -30,11 +30,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 <img alt="" src=images/Part_Attachment.svg  style="width:64px;"> <img alt="" src=images/Part_Chamfer.svg  style="width:64px;"> <img alt="" src=images/Part_ColorFace.svg  style="width:64px;"> <img alt="" src=images/Part_Element_Copy.svg  style="width:64px;"> <img alt="" src=images/Part_Extrude.svg  style="width:64px;"> <img alt="" src=images/Part_Fillet.svg  style="width:64px;"> <img alt="" src=images/Part_Loft.svg  style="width:64px;"> <img alt="" src=images/Part_MakeFace.svg  style="width:64px;"> <img alt="" src=images/Part_MakeSolid.svg  style="width:64px;"> <img alt="" src=images/Part_Mirror.svg  style="width:64px;"> <img alt="" src=images/Part_Offset.svg  style="width:64px;"> <img alt="" src=images/Part_Offset2D.svg  style="width:64px;"> <img alt="" src=images/Part_PointsFromMesh.svg  style="width:64px;"> <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:64px;"> <img alt="" src=images/Part_Refine_Shape.svg  style="width:64px;"> <img alt="" src=images/Part_Reverse_Shape.svg  style="width:64px;"> <img alt="" src=images/Part_Revolve.svg  style="width:64px;"> <img alt="" src=images/Part_RuledSurface.svg  style="width:64px;"> <img alt="" src=images/Part_Shape_from_Mesh.svg  style="width:64px;"> <img alt="" src=images/Part_ShapeInfo.svg  style="width:64px;"> <img alt="" src=images/Part_Sweep.svg  style="width:64px;"> <img alt="" src=images/Part_Thickness.svg  style="width:64px;"> <img alt="" src=images/Part_Transformed_Copy.svg  style="width:64px;">
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Part](Category_Part.md) > Artwork Part/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Part](Category_Part.md) > Artwork Part/pl

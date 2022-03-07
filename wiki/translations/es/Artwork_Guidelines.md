@@ -166,12 +166,8 @@ Una imagen en escala de grises permite identificar más fácilmente los problema
 
    
   No puedo distinguir todos los detalles.   Los colores que has elegido tienen poco contraste de valores. Intenta usar colores que estén más separados en tu paleta de 4 tonos, es decir, un verde destacado al lado de un amarillo destacado será difícil de ver, baja uno de esos colores a Base u Oscuro.
-   
-
-
-{{Artwork/es}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/es

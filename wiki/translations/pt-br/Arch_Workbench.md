@@ -84,11 +84,17 @@ Estas são as ferramentas para criar objetos arquitetônicos:
 
 Estas são as ferramentas para modificar objetos arquitetônicos:
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Corte com uma linha](Arch_CutLine/pt-br.md): Cortar um objeto de acordo com uma linha. <small>(v0.19)</small> 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Corte com plano](Arch_CutPlane/pt-br.md): Cortar um objeto de acordo com um plano.
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Adicionar componente](Arch_Add/pt-br.md): Adiciona objetos a um componente
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remover componente](Arch_Remove/pt-br.md): Subtrai ou remove objetos de um componente
 -   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Levantamento](Arch_Survey/pt-br.md): Entra ou sai do modo de levantamento
+
+
+</div>
 
 ### Utilidades
 

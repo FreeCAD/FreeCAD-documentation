@@ -9,13 +9,26 @@
 
 # Part Offset2D/de
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Teil 2D Versatz konstruiert einen Draht, parallel zum ursprünglichen Draht, in einem bestimmten Abstand von diesem. Oder vergrößert/schrumpft gleichzeitig eine ebene Fläche.
 
+
+</div>
+
 Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben, nicht unbedingt koplanar.
 
 ![600px](images/Part_Offset2D_Demo.png)
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
@@ -24,13 +37,22 @@ Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben,
 3.  Richte den Versatz im [Aufgabenpaneel](Task_Panel/de.md) ein.
 4.  Drücke **OK**.
 
+
+</div>
+
 Ein parametrisches 2D Offset Objekt wird erstellt. Originalobjekte werden in den Drahtmodell Anzeigemodus geschaltet.
 
 ## Eigenschaften
 
 -    {{PropertyData/de|Quelle}}: Verbindung zur Originalform
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/de|Wert}}Der Abstand, um den Draht/Fläche zu vergrößern um. Im negativen Fall wird stattdessen die Draht/Fläche geschrumpft.
+
+
+</div>
 
 -    {{PropertyData/de|Modus}}(\"Pipe\" oder \"Skin\"): Legt fest, wie nicht geschlosseneDrähte verarbeitet werden. Bei \"Pipe\" wird der Draht so umrissen, als wäre er eine extrem dünne, geschlossene Kontur. Wenn \"Skin\", wird ein offener Draht erzeugt.
 
@@ -74,9 +96,21 @@ Ein parametrisches 2D Offset Objekt wird erstellt. Originalobjekte werden in den
 
 -   Vergrößern von Flächen mit kreisförmigen Löchern um einen Betrag, der groß genug ist, um das Schließen der Löcher zu bewirken, tritt ein Crash auf (OCC 7.0.0.0). Das Problem scheint kreisförmig zu sein; andere Formen scheinen sich richtig zu schließen.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Beim Versetzen von Kreisen, die eine Platzierung ungleich Null haben, wird das Ergebnis falsch platziert. (OCC 7.0.0.0)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   Beim Versatz von Kreisen werden diese manchmal in eine unerwartete Richtung versetzt (z.B. nach innen statt nach außen). (OCC 7.0.0.0)
+
+
+</div>
 
 -   Fill=\"true\" funktioniert nicht, wenn offene Drähte im \"Skin\"-Modus gemeinsam versetzt werden.
 
@@ -86,7 +120,16 @@ Ein parametrisches 2D Offset Objekt wird erstellt. Originalobjekte werden in den
 
 ## Skripten
 
-Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden: {{code|code=
+
+<div class="mw-translate-fuzzy">
+
+Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden:
+
+
+</div>
+
+
+{{code|code=
 f = App.ActiveDocument.addObject("Part::Offset2D", "Offset2D")
 f.Source =  #some object
 f.Value = 10.0

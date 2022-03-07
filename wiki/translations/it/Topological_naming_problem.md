@@ -110,9 +110,11 @@ Gli oggetti di riferimento, [punti](PartDesign_Point/it.md), [linee](PartDesign_
 
 ## Link
 
+
+<div class="mw-translate-fuzzy">
+
 -   [PartDesign Raccordo - Denominazione topologica](PartDesign_Fillet#Topological_naming/it.md)
 -   [Denominazione topologica, il mio punto di vista](https://forum.freecadweb.org/viewtopic.php?t=27278): una possibile soluzione, di realthunder.
--   [Progetto Denominazione](Naming_project/it.md): sviluppo e progettazione per implementare un sistema di denominazione topologica robusta (persistente e coerente) in FreeCAD.
 -   \[\[Topological\_Naming\_Project/it\|Progetto di denominazione topologica
 
 \]\]: idea per risolvere il problema, di ickby.
@@ -121,6 +123,9 @@ Gli oggetti di riferimento, [punti](PartDesign_Point/it.md), [linee](PartDesign_
 -   \[\[Feature\_editing/it\|Editazione delle funzioni
 
 \]\]: consigli alternativi per tecniche di modellazione stabili.
+
+
+</div>
 
 ## Video
 

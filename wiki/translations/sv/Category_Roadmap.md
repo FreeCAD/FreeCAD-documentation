@@ -5,8 +5,7 @@ This category gathers all articles documenting what is planned in the Roadmap of
 
 |     |     |     |
 | --- | --- | --- |
-| [Assembly project/sv](wiki/Assembly project/sv.md) | [Development roadmap/sv](wiki/Development roadmap/sv.md) | [FEM project/sv](wiki/FEM project/sv.md) |
-| [Project template/sv](wiki/Project template/sv.md) | [Resource framework project/sv](wiki/Resource framework project/sv.md) |
+|
 
 
 

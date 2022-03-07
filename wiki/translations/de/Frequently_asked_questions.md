@@ -21,13 +21,7 @@ Es wird nur die MacIntel Architektur unterstützt. Für die PowerPC Architektur 
 
 ### Was, wenn ich FreeCAD selbst kompilieren möchte? 
 
-
-<div class="mw-translate-fuzzy">
-
-Der Quellcode von FreeCAD ist immer im Projekt Quellcode Repositorium verfügbar. Wenn du FreeCAD selbst kompilierst, kannst du die neuesten Funktionen verwenden, die gerade entwickelt werden, erfordert aber ein wenig Computerkenntnisse, obwohl das Verfahren ziemlich einfach ist. Der Zugriff auf den Quellcode wird erklärt [hier](Compile_on_Linux/de#Abruf_der_Quelle.md), und wir haben detaillierte Anweisungen zum Kompilieren auf [Windows](Compile_on_Windows/de.md), [Linux](Compile_on_Linux/Unix/de.md) und [macOS](Compile_on_MacOS/de.md).
-
-
-</div>
+Der Quellcode von FreeCAD ist immer im Projekt-Quellcode-Repositorium verfügbar. Wenn du FreeCAD selbst kompilierst, kannst du die neuesten Funktionen verwenden, die gerade entwickelt werden, erfordert aber ein wenig Computerkenntnisse, obwohl das Verfahren ziemlich einfach ist. Der Zugriff auf den Quellcode wird erklärt [hier](Compile_on_Linux/de#Abruf_der_Quelle.md), und wir haben detaillierte Anweisungen zum Kompilieren auf [Windows](Compile_on_Windows/de.md), [Linux](Compile_on_Linux/de.md) und [macOS](Compile_on_MacOS/de.md).
 
 ### FreeCAD meldet, dass einige Module oder Anwendungen fehlen 
 
@@ -162,9 +156,7 @@ Klicken der mittleren Maustaste zentriert die Ansicht wieder auf die Position de
 |Zoom_mode_text=Zoom Modus: Halte die Tasten **Ctrl** und **Shift** gedrückt, drücke einmal die rechte Maustaste und bewege dann den Zeiger. {{Version/de|0.17}}
 |Rotate_view_text=Halte die mittlere Maustaste, dann die linke Maustaste gedrückt und bewege den Zeiger.
 
-<div class="mw-translate-fuzzy">
 Der Zeigerort bei gedrückter mittlerer Maustaste bestimmt das Zentrum der Drehung. Die Drehung funktioniert wie das Drehen eines Balls, der sich um seinen Mittelpunkt dreht. Wenn die Tasten losgelassen werden, bevor du die Mausbewegung stoppst, dreht sich die Ansicht weiter, wenn dies aktiviert ist.
-</div>
 
 Ein Doppelklick mit der mittleren Maustaste setzt einen neuen Drehpunkt.
 |Rotate_view_mode_text=Drehmodus: Halte die **Umschalten** Taste, drücke einmal die rechte Maustaste und bewege dann den Zeiger. {{Version/de|0.17}}

@@ -26,7 +26,20 @@ La rotation peut être arrêtée en mettant Lock Angle sur true dans le panneau 
 
 1.  Placez deux objets ou plus dans un assemblage.
 2.  Sélectionnez un élément de face plane de chaque objet.
-3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Plane Coincidence](Assembly3_ConstraintCoincidence/fr.md)**.
+3.  Activez la commande <img alt="" src=images/Assembly_ConstraintCoincidence.svg  style="width:16px;"> **Contrainte de coïncidence** en utilisant la commande suivante :
+    -   Le bouton **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Create "PlaneCoincident" constraint](Assembly3_ConstraintCoincidence/fr.md)**.
+
+## Équivalent cinématique 
+
+Utilisée dans un contexte cinématique, cette contrainte ressemble à une charnière ou à un *joint tournant* lorsqu\'elle est utilisée avec des arcs et des cercles.
+
+Dans la vie réelle, les formes des objets permettent la rotation et empêchent le glissement. Dans ce cas, des arcs et des cercles sont utilisés pour simuler cela.
+
+<img alt="" src=images/Assembly3_ConstraintCoincidence-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_ConstraintCoincidence-02.png  style="width:200px;">
+
+
+
+*Objets contraints avant et après l'exécution du solveur*
 
 
 

@@ -12,13 +12,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Mit dem BIM Bibliothek Werkzeug kannst du im aktuellen Modell ein Objekt aus der [FreeCAD Bauteilbibliothek](Parts_Library/de.md) platzieren, das über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden muss, damit dieses Tool verfügbar ist.
-
-
-</div>
+Mit dem Werkzeug BIM-Bibliothek kann man im aktuellen Modell ein Objekt aus der [FreeCAD-Bauteilbibliothek](Parts_Library/de.md) platzieren, die über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden muss, damit dieses Werkzeug verfügbar ist.
 
 <img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;"> 
 *Oben: Siehe das '''Bibliotheksbrowser''' Dialogfeld im [Aufgabenpaneel](Task_panel/de.md) auf der linken Seite.*

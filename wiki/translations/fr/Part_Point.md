@@ -3,7 +3,7 @@
    Name:Part Point
    Name/fr:Part Point
    MenuLocation:Pièce → [Créer des primitives...](Part_Primitives/fr.md) → Point
-   Workbenches:[Part](Part_Workbench/fr.md)
+   Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 
@@ -11,84 +11,69 @@
 
 ## Description
 
-Une primitive géométrique point (vertex).
+Un <img alt="" src=images/Part_Point.svg  style="width:24px;"> **Part Point** est un point paramétrique qui peut être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives/fr.md). Ses coordonnées sont relatives au système de coordonnées défini par sa propriété **Placement**.
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md)
-2.  La boîte de dialogue Primitives est accessible de plusieurs manières:
-    -   En appuyant sur l\'icône <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Création de primitives géométriques\...](Part_Primitives/fr.md) située dans la barre d\'outils Part
-    -   Utilisation de l\'entrée **Pièce → [Créer des primitives](Part_Primitives/fr.md) → Point**
+Voir [Part Primitives](Part_Primitives/fr#Utilisation.md).
 
-### Primitives Geometriques 
+## Propriétés
 
-+++
-| ![](images/PartVertexPrimitivesOptions_it.png ) | Point               |
-|                                                                              |                     |
-|                                                                              | #### Parameter      |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|X}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|Y}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | -    |
-|                                                                              |     {{Parameter|Z}} |
-|                                                                              |                  |
-|                                                                              |                     |
-|                                                                              | #### Location       |
-|                                                                              |                     |
-|                                                                              | -                   |
-|                                                                              | -                   |
-|                                                                              | -                   |
-+++
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-### Propriétés
+Un objet Part Point est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
-+++
-| ![](images/PartVertexProperty_it.png ) | #### Vue                                   |
-|                                                            |                                            |
-|                                                            | #### Données                               |
-|                                                            |                                            |
-|                                                            |                             |
-|                                                            | **Base**                               |
-|                                                            |                                         |
-|                                                            | -                           |
-|                                                            |     {{PropertyData/fr|Label}}              |
-|                                                            |                                         |
-|                                                            |     :                                      |
-|                                                            |                                            |
-|                                                            | -                           |
-|                                                            |     {{PropertyData/fr|Placement}}          |
-|                                                            |                                         |
-|                                                            |     : [placement](Placement/fr.md) |
-|                                                            |                                            |
-|                                                            | -                           |
-|                                                            |     {{PropertyData/fr|X}}                  |
-|                                                            |                                         |
-|                                                            |     :                                      |
-|                                                            |                                            |
-|                                                            | -                           |
-|                                                            |     {{PropertyData/fr|Y}}                  |
-|                                                            |                                         |
-|                                                            |     :                                      |
-|                                                            |                                            |
-|                                                            | -                           |
-|                                                            |     {{PropertyData/fr|Z}}                  |
-|                                                            |                                         |
-|                                                            |     :                                      |
-+++
+### Données
 
 
+{{TitleProperty|Attachment}}
+
+L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Part_Part2DObject/fr#Donn.C3.A9es.md).
 
 
+{{TitleProperty|Base}}
 
-{{Part_Tools_navi
+-    **X|Distance**: La coordonnée X du point. La valeur par défaut est {{Value|0mm}}.
 
-}}
+-    **Y|Distance} :} La coordonnée Y du point. La valeur par défaut est {{Value|0mm**.
+    * **Z|Distance** : La coordonnée Z du point. La valeur par défaut est {{Value|0mm}}.
+
+    == Script ==
+
+    Voir aussi: [https://freecad.github.io/SourceDoc/ Autogenerated API documentation], [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+
+    Un Part Point est créé avec la méthode `addObject()` du document :
+
+    
+```python
+    point = FreeCAD.ActiveDocument.addObject("Part::Vertex", "myPoint")
+    
+```
+
+    * Où {{Incode|"myPoint"}} est le nom de l'objet.
+    * La fonction restitue l'objet nouvellement créé.
+
+    Exemple :
+
+    
+```python
+    import FreeCAD as App
+
+    doc = App.activeDocument()
+
+    point = doc.addObject("Part::Vertex", "myPoint")
+    point.X = 1
+    point.Y = 2
+    point.Z = 3
+
+    doc.recompute()
+    
+```
+
+
+    
+
+    {{Part_Tools_navi}}
 
 
 

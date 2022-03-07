@@ -5,15 +5,14 @@ This category gathers all articles documenting what is planned in the Roadmap of
 
 |     |     |     |
 | --- | --- | --- |
-| [0.20 Development Cycle](wiki/0.20 Development Cycle.md) | [Arch Concept](wiki/Arch Concept.md) | [Artwork project](wiki/Artwork project.md) |
-| [Assembly project](wiki/Assembly project.md) | [CAM project](wiki/CAM project.md) | [Development roadmap](wiki/Development roadmap.md) |
-| [FEM project](wiki/FEM project.md) | [FreeCAD development model project](wiki/FreeCAD development model project.md) | [HiDPI support](wiki/HiDPI support.md) |
-| [Land Survey Workbench Blueprint](wiki/Land Survey Workbench Blueprint.md) | [Material](wiki/Material.md) | [Material data model](wiki/Material data model.md) |
-| [Naming project](wiki/Naming project.md) | [PartDesign project](wiki/PartDesign project.md) | [Project template](wiki/Project template.md) |
-| [Quality project](wiki/Quality project.md) | [Raytracing project](wiki/Raytracing project.md) | [Release process](wiki/Release process.md) |
-| [Resource framework project](wiki/Resource framework project.md) | [Robot project](wiki/Robot project.md) | [Sketcher project](wiki/Sketcher project.md) |
-| [STEP project](wiki/STEP project.md) | [Tolerancing](wiki/Tolerancing.md) | [Units project](wiki/Units project.md) |
-| [UTF Project](wiki/UTF Project.md) | [Wished tools](wiki/Wished tools.md) |
+| [0.20 Development Cycle](wiki/0.20 Development Cycle.md) | [Artwork project](wiki/Artwork project.md) | [Development roadmap](wiki/Development roadmap.md) |
+| [Development roadmap/de](wiki/Development roadmap/de.md) | [Development roadmap/en](wiki/Development roadmap/en.md) | [Development roadmap/es](wiki/Development roadmap/es.md) |
+| [Development roadmap/fr](wiki/Development roadmap/fr.md) | [Development roadmap/id](wiki/Development roadmap/id.md) | [Development roadmap/it](wiki/Development roadmap/it.md) |
+| [Development roadmap/ko](wiki/Development roadmap/ko.md) | [Development roadmap/pl](wiki/Development roadmap/pl.md) | [Development roadmap/pt](wiki/Development roadmap/pt.md) |
+| [Development roadmap/ro](wiki/Development roadmap/ro.md) | [Development roadmap/sv](wiki/Development roadmap/sv.md) | [HiDPI support](wiki/HiDPI support.md) |
+| [Material](wiki/Material.md) | [Path Development Roadmap](wiki/Path Development Roadmap.md) | [Project template](wiki/Project template.md) |
+| [Release process](wiki/Release process.md) | [TechDraw Roadmap](wiki/TechDraw Roadmap.md) | [Tolerancing](wiki/Tolerancing.md) |
+|
 
 
 

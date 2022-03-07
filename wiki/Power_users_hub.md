@@ -33,6 +33,7 @@ If you\'d like to contribute content to these pages, request a wiki account with
 -   [Gui Command](Gui_Command.md): Adding custom commands to the GUI
 -   Using mixed [Units](Units.md) in FreeCAD
 -   [Profiling](Profiling.md) the Python code
+-   [Debugging](Debugging#Python_Debugging.md) the Python code
 
 ### Modules
 

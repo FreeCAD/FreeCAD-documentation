@@ -29,10 +29,9 @@ The default hatch pattern file can be specified in the [TechDraw Preferences](Te
 
 <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md) forms a pattern of lines based on a specification read from a file. This file is generally **compatible with the widely used AutoDesk® PAT format**. A small selection of patterns is included in the FCPAT.pat file:
 
-
+ 
 ```python
 ; standard PAT patterns
-
 
 *Diamond, 45 diagonals L & R, Solid, 1.0 mm separation
 45,0,0,0,1.0
@@ -45,6 +44,8 @@ The default hatch pattern file can be specified in the [TechDraw Preferences](Te
 -45,0,0,0,4.0
 *Diagonal4, 45 diagonal R, Solid, 4.0 mm separation
 45,0,0,0,4.0
+*Diagonal5, 45 diagonal L, Solid, 4.0 mm separation
+-45,0,0,0,4.0
 *Square, square grid, Solid, 5.0 mm separation 
 90,1,1,0,5.0
 0,0,0,1,5.0

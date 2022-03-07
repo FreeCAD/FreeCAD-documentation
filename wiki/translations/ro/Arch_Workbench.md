@@ -86,10 +86,16 @@ Acestea sunt instrumente pentru crearea obiectelor arhitecturale.
 
 Acestea sunt instrumente pentru modificarea obiectelor arhitecturale.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CutPlane.png  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Secționați un obiect după un plan.
 -   <img alt="" src=images/Arch_Add.png  style="width:32px;"> [Add component](Arch_Add.md): Adăugați obiecte la componentă
 -   <img alt="" src=images/Arch_Remove.png  style="width:32px;"> [Remove component](Arch_Remove.md): Extrageți sau șetgeți obeicte din tr-o componentă
 -   <img alt="" src=images/Arch_Survey.png  style="width:32px;"> [Survey](Arch_Survey.md): Introduceți sau părăsiți modul surveying
+
+
+</div>
 
 ### Utilități
 

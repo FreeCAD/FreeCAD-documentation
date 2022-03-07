@@ -4,8 +4,8 @@
 |Icon=easy-alias-icon.png
 |Description=Use this to quickly and easily create aliases for cells in your spreadsheets. It takes the text labels you will have already created in one column and uses those labels as aliases in the next column.
 |Author=TheMarkster
-|Version=2020.10.06
-|Date=2020-10.06
+|Version=2022.02.28.rev2
+|Date=2022-02-28
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/5/5e/Easy-alias-icon.png ToolBar Icon]
 }}
@@ -23,9 +23,9 @@ Highlight the cells containing the text labels and run the macro. Adjacent cells
 
 ## Script
 
- ToolBar icon ![](images/easy-alias-icon.png )
+ToolBar icon ![](images/easy-alias-icon.png )
 
-**Macro\_EasyAlias.FCMacro**
+ **Macro\_EasyAlias.FCMacro**
 
 
 {{MacroCode|code=
@@ -81,8 +81,8 @@ __title__ = "EasyAlias"
 __author__ = "TheMarkster"
 __url__ = "https://wiki.freecadweb.org/Macro_EasyAlias"
 __Wiki__ = "https://wiki.freecadweb.org/Macro_EasyAlias"
-__date__ = "2020.10.06" #year.month.date
-__version__ = __date__
+__date__ = "2022.02.28" #year.month.date
+__version__ = __date__+".rev2"
 
 
 def getSelected(selected_sheet):
@@ -133,8 +133,11 @@ def getSpreadsheet():
     if not selObj:
         return None
     for obj in selObj:
-        if 'Spreadsheet.Sheet' in str(type(obj.Object)):
+        if 'Spreadsheet::Sheet' in obj.Object.TypeId:
             return obj.Object
+        elif "App::Link" in obj.Object.TypeId:
+            if 'Spreadsheet::Sheet' in obj.Object.LinkedObject.TypeId:
+                return obj.Object.LinkedObject
 
 def getCellContent(sheet, cellIndex):
     """sheet is the spreadsheet object, cellIndex is a tuple in the form of (row,col), e.g. (3,2) to get cell
@@ -160,6 +163,7 @@ if not s:
 cellIndices = getSelectedCellIndices(s)
 if len(cellIndices) == 0:
     FreeCAD.Console.PrintWarning("Unable to get selected cell indices.\n");
+s.Document.openTransaction("EasyAlias")
 for ci in cellIndices:
     #FreeCAD.Console.PrintMessage("setting alias: "+s.Name+'['+str(cellIndexToAddress(getCellIndexNextColumn(ci)))+"] ---> "+getCellContent(s,ci).replace(' ','_')+"\n")
     try:
@@ -167,6 +171,7 @@ for ci in cellIndices:
     except:
         FreeCAD.Console.PrintError("Error.  Unable to set alias: "+getCellContent(s,ci).replace(' ','_')+" for spreadsheet: "+str(s)+" cell "+cellIndexToAddress(getCellIndexNextColumn(ci))+"\n")
         FreeCAD.Console.PrintError("Remember, aliases cannot begin with a numeral or an underscore or contain any invalid characters.\n")
+s.Document.commitTransaction()
 
 App.ActiveDocument.recompute()
 }}

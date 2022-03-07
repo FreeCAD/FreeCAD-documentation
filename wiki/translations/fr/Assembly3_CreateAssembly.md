@@ -12,18 +12,18 @@
 
 ## Description
 
-La commande **Assembly3 Créer un assemblage** ajoute un nouvel objet de la branche **Assembly** à l\'arbre de conception.
+La commande **Créer un assemblage** ajoute un nouvel objet à la branche **Assembly** à l\'arbre de conception.
 
-Chaque objet de la branche est un <img alt="" src=images/Assembly_Assembly_Tree.svg  style="width:24px;"> un conteneur d**\'assemblage** et contient quatre conteneurs de groupe :
+Chaque objet de la branche est un <img alt="" src=images/Assembly_Assembly_Tree.svg  style="width:24px;"> un conteneur **Assembly** et contient quatre conteneurs de groupe :
 
-:   \- un pour les <img alt="" src=images/Assembly_Assembly_Constraints_Tree.svg  style="width:24px;"> **Contraintes** (qui est caché tant qu\'il est vide)
+:   \- un pour les <img alt="" src=images/Assembly_Assembly_Constraints_Tree.svg  style="width:24px;"> **Contraintes** (caché tant qu\'il est vide)
 :   \- Un pour les <img alt="" src=images/Assembly_Assembly_Element_Tree.svg  style="width:24px;"> 
 **Eléments**
 :   \- Un pour les <img alt="" src=images/Assembly_Assembly_Part_Tree.svg  style="width:24px;"> 
 **Pièces**
-:   \- Un pour les <img alt="" src=images/Assembly_Assembly_Relation_Tree.svg  style="width:24px;"> **Relations** (qui sont cachées par défaut et qui seront révélées lorsque <img alt="" src=images/Assembly_GotoRelation.svg  style="width:16px;"> [Go to relation](Assembly3_GoToRelation/fr.md) est utilisé.)
+:   \- Un pour les <img alt="" src=images/Assembly_Assembly_Relation_Tree.svg  style="width:24px;"> **Relations** (cachées par défaut et qui seront révélées lorsque <img alt="" src=images/Assembly_GotoRelation.svg  style="width:16px;"> [Relations](Assembly3_GoToRelation/fr.md) est utilisé.)
 
- L\'objet **Assemblage** ajouté avec tous les conteneurs visibles ressemble à ceci (0.20.pre et Link Branch) :
+ L\'objet **Assembly** ajouté avec tous les conteneurs visibles ressemble à ceci (0.20.pre et Link Branch) :
 
 <img alt="" src=images/Assembly3_Example-Tree-07.png  style="width:190px;"> <img alt="" src=images/Assembly3_Example-Tree-08.png  style="width:190px;">
 

@@ -114,7 +114,7 @@ Users who use the mouse with their right hand may find this method easier than t
 |Shift=**Shift**
 |Select_text=Press the left mouse button over an object you want to select.
 
-Holding down **Ctrl** allows the selection of multiple objects.
+Hold down **Ctrl** to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
@@ -193,7 +193,7 @@ On v0.18 this method is disabled by default. To enable, go to **Edit → Prefere
 
 </div>
 
-In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this mode was developed over the [Gesture navigation](#Gesture_navigation.md) mode.
+In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this style was developed over the [Gesture navigation](#Gesture_navigation.md) style.
 
 
 <div class="mw-translate-fuzzy">
@@ -263,7 +263,7 @@ Alternatively, hold the middle mouse button, then press and hold the left mouse 
 
 </div>
 
-This mode is not based on Autodesk Inventor.
+This style is not based on Autodesk Inventor.
 
 
 {{OpenInventor Navigation
@@ -271,8 +271,10 @@ This mode is not based on Autodesk Inventor.
 |Pan_name=Pan
 |Zoom_name=Zoom
 |Rotate_view_name=Rotate view
-|Ctrl=**Ctrl**
-|Select_text=Hold **Ctrl**, then press the left mouse button over an object you want to select.
+|Shift=**Shift**
+|Select_text=Hold **Shift**, then press the left mouse button over an object you want to select.
+
+Hold down **Ctrl** instead to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
 

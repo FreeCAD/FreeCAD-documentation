@@ -1,4 +1,10 @@
 # Compile on Docker/de
+}
+
+
+
+
+
 {{TOCright}}
 
 ## Überblick
@@ -7,18 +13,12 @@ Unter den Möglichkeiten, FreeCAD zu bauen und zu installieren, gibt es die Mög
 
 ### Vorteile
 
-
-<div class="mw-translate-fuzzy">
-
 Alle Abhängigkeiten von FreeCAD sind bereits installiert, miteinander kompatibel und entsprechend konfiguriert, so dass Du sehr schnell mit der Entwicklung beginnen kannst.
 
 -   Die Abhängigkeiten sind im Docker Container enthalten, wodurch verhindert wird, dass unerwünschte Pakete Ihre Arbeitsstation verunreinigen und dass es zu Kollisionen von Versionen kommt.
 -   Der Quellcode und die Bauverzeichnisse befinden sich außerhalb des Docker Containers. Dies erlaubt es Dir, deine bevorzugten Bearbeitungsprogramme, Versionierungssysteme, Entwicklungswerkzeuge usw. zu verwenden, ohne sie im Docker Container einrichten zu müssen. Du kannst sie einfach wie gewohnt direkt von deinem Arbeitsplatzrechner aus benutzen. (Außerdem bedeutet es, dass du den Docker Container nicht jedes Mal neu aufbauen musst, wenn du FreeCAD bauen willst).
--   Für diejenigen, die obskure \*nix Distributionen und [Gebrauchsanweisungen sind nicht verfügbar](Compile_on_Linux#Getting_the_dependencies/de.md) für das Holen von Abhängigkeiten verwenden, ist alles, was du auf deinem Arbeitsplatzrechner installieren musst, ein Docker, der in vielen Distributionen recht häufig verfügbar ist.
+-   Für diejenigen, die obskure \*nix Distributionen und [Gebrauchsanweisungen sind nicht verfügbar](Compile_on_Linux/de#Erhalten_der_Abhängigkeiten.md) für das Holen von Abhängigkeiten verwenden, ist alles, was du auf deinem Arbeitsplatzrechner installieren musst, ein Docker, der in vielen Distributionen recht häufig verfügbar ist.
 -   Er bietet eine statische, unveränderliche Entwicklungsumgebung. Ich persönlich finde das nützlich, wenn ich bei der Entwicklung die Anzahl der potentiellen Variablen, die ein Problem verursachen könnten, reduzieren möchte. Du weist, dass du zwischen den Builds nichts Esoterisches in der Umgebung verändert hast. Für Entwickler, die zusammenarbeiten und beide den gleichen Docker Container verwenden, kannst du sicher sein, dass ihr beide von der gleichen Umgebung aus arbeitet, was Kommunikationsfehler aufgrund von Unterschieden in der Umgebung reduziert.
-
-
-</div>
 
 ## Docker Repositorien 
 

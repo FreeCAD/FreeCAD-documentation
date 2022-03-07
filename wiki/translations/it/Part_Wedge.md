@@ -7,64 +7,111 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Crea un solido parametrico a forma di cuneo. Il cuneo di default ha una base quadrata più grande e una cima quadrata più piccola.
+
+
+</div>
+
+<img alt="" src=images/Part_Wedge_Example.png  style="width:400px;">
 
 ## Utilizzo
 
-### Dimensioni e posizionamento di default 
+See [Part Primitives](Part_Primitives#Usage.md).
 
-**Posizionamento:** Il posizionamento predefinito pone la base nel piano XZ e la parte superiore verso l\'esterno nella direzione dell\'asse Y. L\'angolo base di default è l\'origine 0,0,0.
+## Example
 
-**Faccia Base:**
+![Part Wedge from the scripting example](images/Part_Wedge_Scripting_Example.png )
 
--   X : 10 mm
--   Z : 10 mm
+A Part Wedge object created with the [scripting example](#Scripting.md) below is shown here.
 
-**Altezza:**
+## Notes
 
--   Y : 0-10 mm
+-   The values of the coordinates of the wedge must be such that a valid solid can be create. This means that the front and rear base shapes can both be single edges, but not if they are parallel. And if one of the base shapes is a vertex the other shape must be a rectangular face.
 
-**Faccia superiore:**
+## Properties
 
--   X : 2-8 mm
--   Z : 2-8 mm
+See also: [Property editor](Property_editor.md).
 
-![](images/PartWedgeProperty.png ) 
+A Part Wedge object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-### Parametri di input 
+### Data
 
-+++
-| ![](images/PartWedgeProperty_Inputs.png ) | Usando il posizionamento predefinito, gli input sottostanti sono: |
-|                                                                  |                                                                   |
-|                                                                  | -                                                  |
-|                                                                  |     {{PropertyData/it|X min/max}}                                 |
-|                                                                  |                                                                |
-|                                                                  |     : Estensione sull\'asse X della faccia di base                |
-|                                                                  |                                                                   |
-|                                                                  | -                                                  |
-|                                                                  |     {{PropertyData/it|Y min/max}}                                 |
-|                                                                  |                                                                |
-|                                                                  |     : Altezza del cuneo                                           |
-|                                                                  |                                                                   |
-|                                                                  | -                                                  |
-|                                                                  |     {{PropertyData/it|Z min/max}}                                 |
-|                                                                  |                                                                |
-|                                                                  |     : Estensione sull\'asse Z della faccia di base                |
-|                                                                  |                                                                   |
-|                                                                  | -                                                  |
-|                                                                  |     {{PropertyData/it|X2 min/max}}                                |
-|                                                                  |                                                                |
-|                                                                  |     : Estensione sull\'asse X della faccia superiore              |
-|                                                                  |                                                                   |
-|                                                                  | -                                                  |
-|                                                                  |     {{PropertyData/it|Z2 min/max}}                                |
-|                                                                  |                                                                |
-|                                                                  |     : Estensione sull\'asse Z della faccia superiore              |
-+++
 
-### Altri esempi di cunei 
+{{TitleProperty|Attachment}}
 
-![](images/Wedge_examples.png )
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
+{{TitleProperty|Wedge}}
+
+-    **Xmin|Distance**: The lowest X coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **Ymin|Distance**: The Y coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **Zmin|Distance**: The lowest Z coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+
+-    **X2min|Distance**: The lowest X coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+
+-    **Z2min|Distance**: The lowest Z coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+
+-    **Xmax|Distance**: The highest X coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+
+-    **Ymax|Distance**: The Y coordinate of the rear face of the wedge. The default is {{Value|10mm}}.
+
+-    **Zmax|Distance**: The highest Z coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+
+-    **X2max|Distance**: The highest X coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+
+-    **Z2max|Distance**: The highest Z coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Wedge can be created with the {{Incode|addObject()}} method of the document:
+
+
+```python
+wedge = FreeCAD.ActiveDocument.addObject("Part::Wedge", "myWedge")
+```
+
+-   Where {{Incode|"myWedge"}} is the name for the object.
+-   The function returns the newly created object.
+
+Example:
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+wedge = doc.addObject("Part::Wedge", "myWedge")
+wedge.Xmin = 1
+wedge.Ymin = 2
+wedge.Zmin = 3
+wedge.X2min = 4
+wedge.Z2min = 6
+wedge.Xmax = 15
+wedge.Ymax = 20
+wedge.Zmax = 55
+wedge.X2max = 10
+wedge.Z2max = 12
+wedge.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(75, 60, 30))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

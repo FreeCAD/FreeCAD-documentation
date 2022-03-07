@@ -7,9 +7,17 @@
 
 ![600px](images/Part_Extrude_demo.png)
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 **Part Extrude** extinde o formă la o distanță specificată, într-o direcție specificată. Tipul formei de ieșire va varia în funcție de tipul formei de intrare și de opțiunile selectate.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -27,6 +35,8 @@
 
 
 </div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -51,15 +61,35 @@ Alternatively, the selection can be done after launching the tool, by selecting 
 
 The Model tree will list as many Extrude objects as there were selected shapes. Each input shape is placed underneath its Extrude object.
 
+## Parameters
+
+
+<div class="mw-translate-fuzzy">
+
 ## Parametri
 
 Forma Extrude este definită de următorii parametri, care pot fi editați după crearea ei în fila/tab-ul Date.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   **Base**: the input shape (the shape upon which the Part Extrude was applied)
+
+
+</div>
 
 -   **Dir**: the direction to extend the shape. If **Dir Mode** is \'Custom\', you can edit **Dir**. Otherwise, **Dir** is read-only, and computed from the linked shape.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Dir Link**: parametric link to a edge (line) that sets the direction of extrusion. As of v0.17, this property is not supported by property editor.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -89,7 +119,13 @@ Forma Extrude este definită de următorii parametri, care pot fi editați după
 
 -   **Face Maker Class**: sets C++ class name of face making code, which is used when making solids from wires. This property is here mainly for maintaining backward compatibility. Do not touch, unless you know what you are doing.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Placement**: the standard [placement](Placement.md) parameters
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -163,6 +199,8 @@ Forma Extrude este definită de următorii parametri, care pot fi editați după
 
 -   Shape list: here you select, what shapes to extrude. If multiple objects are selected, multiple Extrude objects are created.
 
+## Notes
+
 
 <div class="mw-translate-fuzzy">
 
@@ -197,19 +235,26 @@ Extrusion with taper angle does not support holes. It also may give bogus result
 
 </div>
 
-PartDesign Pad este, de asemenea, o funcți(e)onalitate de extrudare, dar există diferențe importante.
-
-Part Extrude always creates a standalone shape. PartDesign Pad fuses the extrusion result to the rest of the Body.
-
 
 <div class="mw-translate-fuzzy">
 
-Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only live inside a [PartDesign Body](PartDesign_Body.md).
+PartDesign Pad este, de asemenea, o funcți(e)onalitate de extrudare, dar există diferențe importante.
 
 
 </div>
 
-Part Extrude poate extruda orice obiect care are Part Geometry (forma OCC), cu excepția solidelor și compsolids. Și nu poate extruda fațetele individuale ale altor obiecte. PartDesign Pad va accepta doar o schiță ca profil (și o mică selecție de alte tipuri de obiecte) sau o fațetă a unui solid.
+-   Part Extrude always creates a standalone shape. PartDesign Pad fuses the extrusion result to the rest of the Body.
+-   Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only live inside a [PartDesign Body](PartDesign_Body.md).
+-   Part Extrude can extrude any object that has a Part geometry ([OpenCASCADE](OpenCASCADE.md) shape), except for solids and CompSolids.
+-   Part Extrude can extrude individual faces of other objects. PartDesign Pad will only accept either Sketch or faces of PartDesign objects as a profile.
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

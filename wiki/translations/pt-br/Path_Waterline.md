@@ -74,7 +74,8 @@ When using the \'\'\' *OCL Dropcutter* \'\'\' algorithm, the Waterline operation
 
 \'\'\' *Note* \'\'\': Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
@@ -127,7 +128,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Label**: User-provided name of the object (UTF-8)
 
-#### Clearing Options 
+
+{{TitleProperty|Clearing Options}}
 
 -    **Algorithm**: The library to use to generate the path
 
@@ -147,7 +149,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Step Over**:
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: The height needed to clear clamps and obstructions
 
@@ -159,7 +162,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Step Down**: Incremental Step Down of Tool
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: make False, to prevent operation from generating code
 
@@ -175,7 +179,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **User Label**: User assigned label
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: The custom start point for the path of this operation.
 
@@ -200,13 +205,13 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Location 
+### Base Location 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Remove**: remove the selected item(s) in the Base Location list
 -   **Edit**: clear all items in the Base Location list
 
-#### Depths
+### Depths
 
 -    **Start Depth**
     
@@ -217,7 +222,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Step Down**
     
 
-#### Heights
+### Heights
 
 -    **Safe Height**
     
@@ -225,7 +230,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Clearance Height**
     
 
-#### Operation
+### Operation
 
 -    **Tool Controller**
     

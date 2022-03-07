@@ -23,7 +23,8 @@ Empty
 
 ### Data
 
-#### Area
+
+{{TitleProperty|Area}}
 
 -    **Operation**: -
 
@@ -45,7 +46,8 @@ Empty
 
 -    **ClipFill**: -
 
-#### Base
+
+{{TitleProperty|Base}}
 
 -    **Sources**: -
 
@@ -53,7 +55,8 @@ Empty
 
 -    **Label**: -
 
-#### Offset
+
+{{TitleProperty|Offset}}
 
 -    **Offset**: -
 
@@ -71,7 +74,8 @@ Empty
 
 -    **RoundPrecision**: -
 
-#### Pocket
+
+{{TitleProperty|Pocket}}
 
 -    **PocketMode**: -
 
@@ -93,7 +97,8 @@ Empty
 
 -    **Thicken**: -
 
-#### Section
+
+{{TitleProperty|Section}}
 
 -    **SectionCount**: -
 
@@ -107,7 +112,8 @@ Empty
 
 -    **Project**: -
 
-#### libarea
+
+{{TitleProperty|libarea}}
 
 -    **Tolerance**: -
 
@@ -127,7 +133,7 @@ Empty
 
 -    **ClipperScale**: -
 
-#### HIDDEN
+#### Hidden
 
 -    **ExpressionEngine**: -
 

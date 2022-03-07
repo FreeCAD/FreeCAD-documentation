@@ -5,8 +5,7 @@ This category is for pages related to building information management (BIM).
 
 |     |     |     |
 | --- | --- | --- |
-| [Arch IfcExplorer/cs](wiki/Arch IfcExplorer/cs.md) | [Material/cs](wiki/Material/cs.md) | [Category:Arch/cs](wiki/Category_Arch/cs.md) |
-|
+| [Arch IfcExplorer/cs](wiki/Arch IfcExplorer/cs.md) | [Category:Arch/cs](wiki/Category_Arch/cs.md) |
 
 
 

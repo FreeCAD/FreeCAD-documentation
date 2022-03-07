@@ -28,7 +28,8 @@ L\'objet forme de poche ou Path Pocket Shape est fait pour travailler avec <img 
 
 \'\'\' *Remarque* \'\'\': toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
@@ -81,7 +82,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Label**: nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: hauteur nécessaire pour supprimer les pinces et les obstructions.
 
@@ -98,17 +100,20 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
 *Référence visuelle pour les propriétés de profondeur (paramètres)*
 
-#### Extension
+
+{{TitleProperty|Extension}}
 
 -    **Extension Corners**: lorsque cette option est activée, les bords d\'extension connectés sont combinés à des fils.
 
 -    **Extension Length Default**: longueur par défaut des extensions.
 
-#### Face
+
+{{TitleProperty|Face}}
 
 -    **Offset Pattern**: effacement du motif à utiliser. (Sélectionnez la manière dont les mouvements horizontaux doivent être effectués.)
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: mis à False, pour empêcher l\'opération de générer du code.
 
@@ -118,7 +123,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Tool Controller**: définit le contrôleur d\'outil utilisé dans l\'opération.
 
-#### Pocket
+
+{{TitleProperty|Pocket}}
 
 -    **Cut Mode**: spécifie un déplacement CW ou CCW pour la coupe.
 
@@ -136,7 +142,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Zig Zag Angle**: angle du motif en zigzag. (Sélectionnez l'angle de trajectoire par rapport à l'axe X).
 
-#### Rotation
+
+{{TitleProperty|Rotation}}
 
 -    **Attempt Inverse Angle**: tente automatiquement l\'angle inverse si la rotation initiale est incorrecte.
 
@@ -148,7 +155,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Reverse Direction**: inverse l\'orientation de l\'opération de 180 degrés.
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: le point de départ de ce chemin.
 
@@ -158,13 +166,13 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-#### Géométrie de base 
+### Géométrie de base 
 
 -   **Add**: ajoute les éléments sélectionnés qui doivent être la base du ou des chemins.
 -   **Remove**: supprime le ou les éléments sélectionnés dans la liste emplacement de base.
 -   **Edit**: efface tous les éléments de la liste d\'emplacement de base.
 
-#### Extensions
+### Extensions
 
 -    **Show All**: si cette option est sélectionnée, toutes les extensions potentielles sont visualisées. Extensions activées en violet, extensions désactivées en jaune.
 
@@ -180,7 +188,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -   **Clear**
 
-#### Depth 
+### Profondeurs
 
 -    **Start Depth**
     
@@ -191,7 +199,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Step Down**
     
 
-#### Height
+### Hauteurs
 
 -    **Safe Height**
     
@@ -199,7 +207,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Clearance Height**
     
 
-#### Opération
+### Opération
 
 -    **Tool Controller**
     

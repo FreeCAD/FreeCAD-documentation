@@ -112,9 +112,8 @@ Les objets de référence, [points](PartDesign_Point/fr.md), [lignes](PartDesign
 
 ## Liens
 
--   [PartDesign Congé - Nom topologique](PartDesign_Fillet/fr#Nom_topologique.md)
+-   [PartDesign Congé - Nom topologique](PartDesign_Fillet/fr#D.C3.A9nomination_topologique.md)
 -   [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278), une solution possible par realthunder.
--   [Projet Nommage](Naming_project/fr.md): Efforts pour mettre en place une dénomination topologique robuste dans FreeCAD.
 -   [Projet de dénomination topologique](Topological_Naming_Project/fr.md): idée pour résoudre le problème, par ickby.
 -   [Script pour création topologique](Topological_data_scripting/fr.md)
 -   [Édition de fonctions](Feature_editing/fr.md): contient des conseils complémentaires sur les techniques de modélisation stables.

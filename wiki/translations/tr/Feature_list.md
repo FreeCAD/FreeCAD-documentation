@@ -255,15 +255,7 @@ FreeCAD\'in uyguladığı özelliklerin kapsamlı bir listesidir, dolayısıyla 
 
 </div>
 
-## Geliştirme aşamasında 
-
-
-<div class="mw-translate-fuzzy">
-
--   ![](images/Feature-assembly.jpg ) Birden fazla proje, birden fazla şekil, birden fazla belge, birden fazla dosya, birden fazla ilişkiyle çalışmanıza izin veren bir [Montaj](Assembly_project.md) modülü \... Bu modül şu anda planlama aşamasındadır.
-
-
-</div>
+## Extra Workbenches 
 
 
 <div class="mw-translate-fuzzy">

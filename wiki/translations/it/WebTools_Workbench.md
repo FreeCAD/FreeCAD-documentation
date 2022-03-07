@@ -23,7 +23,7 @@ Questo ambiente può essere facilmente installato e aggiornato dal [Addon Manage
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Arch_BimServer.png  style="width:32px;"> [BIM server](Arch_BimServer/it.md): Apre una finestra [BimServer](http://www.bimserver.org)
+-   <img alt="" src=images/WebTools_BimServer.svg  style="width:32px;"> [BIM server](Arch_BimServer/it.md): Apre una finestra [BimServer](http://www.bimserver.org)
 -   <img alt="" src=images/Arch_Git.png  style="width:32px;"> [Git](Arch_Git/it.md): Gestione dei file con [GIT](https://en.wikipedia.org/wiki/Git_%28software%29)
 -   <img alt="" src=images/WebTools_Sketchfab.png  style="width:32px;"> [Sketchfab exporter](WebTools_Sketchfab/it.md): Esporta e carica oggetti nel proprio account [SketchFab](http://www.sketchfab.com).
 

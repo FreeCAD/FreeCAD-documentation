@@ -28,11 +28,6 @@ Ikony te znajdują się we wskazanej ścieżce źródłowej gałęzi Realthunder
 ![](images/Assembly_MeasurePointPlaneDistance.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/pl

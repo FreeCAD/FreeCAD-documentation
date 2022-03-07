@@ -71,13 +71,15 @@ Vide
 
 ### Données
 
-#### Base
+
+{{TitleProperty|Base}}
 
 -    **Placement**: -
 
 -    **Label**: -
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **ClearanceHeight**: -
 
@@ -89,7 +91,8 @@ Vide
 
 -    **StepDown**: -
 
-#### Op Values 
+
+{{TitleProperty|Op Values}}
 
 -    **OpFinalDepth**: -
 
@@ -101,7 +104,8 @@ Vide
 
 -    **OpToolDiameter**: -
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: -
 
@@ -115,7 +119,7 @@ Vide
 
 -    **UserLabel**: -
 
-### Hidden
+#### Hidden
 
 -    **Base**: -
 

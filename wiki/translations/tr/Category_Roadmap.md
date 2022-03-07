@@ -5,7 +5,7 @@ This category gathers all articles documenting what is planned in the Roadmap of
 
 |     |     |     |
 | --- | --- | --- |
-| [Assembly project/tr](wiki/Assembly project/tr.md) | [CAM project/tr](wiki/CAM project/tr.md) |
+|
 
 
 

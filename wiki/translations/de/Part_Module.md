@@ -35,9 +35,9 @@ Dies sind Werkzeuge zum Erstellen von Grundobjekten.
 
 -   <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Kegel](Part_Cone/de.md): Zeichnet einen Kegel.
 
--   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus/de.md): Zeichnet einen Torus (Ring).
+-   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus/de.md): Zeichnet einen Torus.
 
--   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Rohr](Part_Tube/de.md): zeichnet ein Rohr. <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tube](Part_Tube.md): Creates a tube. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Grundelemente](Part_Primitives/de.md): Ein Werkzeug zum Erstellen eines der folgenden Grundelemente:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Ebene](Part_Plane/de.md): Erzeugt eine Ebene.
@@ -65,21 +65,21 @@ Dies sind Werkzeuge zum Erstellen neuer und Ändern vorhandener Objekte.
 
 -   <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> [Extrudieren](Part_Extrude/de.md): Extrudiert ebene Flächen.
 
--   <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> [Drehen](Part_Revolve/de.md): Erzeugt einen Festkörper, indem ein anderes Objekt (nicht Volumenkörper) um eine Achse gedreht wird.
+-   <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> [Revolve](Part_Revolve.md): Creates a solid by revolving an object (not a solid) around an axis.
 
--   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Soiegeln](Part_Mirror/de.md): Spiegelt das ausgewählte Objekt auf einer bestimmten Spiegelebene.
+-   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Mirror](Part_Mirror.md): Mirrors the selected object across a mirror plane.
 
--   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Verrundung](Part_Fillet/de.md): Verrundet die Kanten eines Objekts.
+-   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Fillet](Part_Fillet.md): Fillets (rounds) edges of an object.
 
--   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Fase](Part_Chamfer/de.md): Anfasen von Kanten eines Objekts.
+-   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chamfer](Part_Chamfer.md): Chamfers edges of an object.
 
 -   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Fläche aus Drähten machen](Part_MakeFace/de.md): Erzeugt eine Fläche aus einem Satz von Drähten (Konturen). <small>(v0.19)</small> 
 
--   <img alt="" src=images/Part_RuledSurface.png  style="width:32px;"> [Regelfläche](Part_RuledSurface/de.md): Erzeugt eine Regelfläche.
+-   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Ruled Surface](Part_RuledSurface.md): Creates a ruled surface.
 
--   <img alt="" src=images/Part_Loft.svg  style="width:32px;"> [Ausformung](Part_Loft/de.md): Ausformung von einem Profil zum anderen.
+-   <img alt="" src=images/Part_Loft.svg  style="width:32px;"> [Loft](Part_Loft.md): Lofts from one profile to another.
 
--   <img alt="" src=images/Part_Sweep.svg  style="width:32px;"> [Austragung](Part_Sweep/de.md): Austragung von ein oder mehrerer Profile entlang eines Pfades.
+-   <img alt="" src=images/Part_Sweep.svg  style="width:32px;"> [Sweep](Part_Sweep.md): Sweeps one or more profiles along a path.
 
 -   <img alt="" src=images/Part_Section.svg  style="width:32px;"> [Schnitt](Part_Section/de.md): Erzeugt einen Schnitt durch Überschneiden eines Objekts mit einer Schnittebene.
 
@@ -106,9 +106,9 @@ Diese Werkzeuge führen boolesche Operationen aus.
 
 -   <img alt="" src=images/Part_Boolean.svg  style="width:32px;"> [Boolesche Operationen](Part_Boolean/de.md): Führt boolesche Operationen an Objekten durch.
 
--   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Schneiden](Part_Cut/de.md): Schneidet (subtrahiert) ein Objekt von einem anderen.
+-   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut.md): Cuts (subtracts) one object from another.
 
--   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Verschmelzen](Part_Fuse/de.md): Verschmilzt (vereinigt) zwei Objekte.
+-   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fuse](Part_Fuse.md): Fuses (unions) two objects.
 
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Vereinigung](Part_Common/de.md): Entnimmt den gemeinsamen Teil (Vereinigungsmenge) von zwei Objekten.
 

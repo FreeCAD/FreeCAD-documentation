@@ -7,8 +7,7 @@ This category contains articles that are relevant for developers.
 | --- | --- | --- |
 | [Compile on Docker/pt-br](wiki/Compile on Docker/pt-br.md) | [Compile on Linux/pt-br](wiki/Compile on Linux/pt-br.md) | [Compile on MacOS/pt-br](wiki/Compile on MacOS/pt-br.md) |
 | [Compile on Windows/pt-br](wiki/Compile on Windows/pt-br.md) | [Compiling (Speeding up)/pt-br](wiki/Compiling (Speeding up)/pt-br.md) | [Compiling/pt-br](wiki/Compiling/pt-br.md) |
-| [Contributors/pt-br](wiki/Contributors/pt-br.md) | [File Format FCStd/pt-br](wiki/File Format FCStd/pt-br.md) | [Material/pt-br](wiki/Material/pt-br.md) |
-|
+| [Contributors/pt-br](wiki/Contributors/pt-br.md) | [File Format FCStd/pt-br](wiki/File Format FCStd/pt-br.md) |
 
 
 

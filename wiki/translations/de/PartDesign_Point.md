@@ -2,16 +2,13 @@
 - GuiCommand:/de
    Name:PartDesign Point
    Name/de:PartDesign Bezugspunkt erstellen
-   MenuLocation:Part Design → Bezugspunkt erstellen
+   MenuLocation:Part Design → Bezugselement erstellen → Bezugspunkt erstellen
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[PartDesign Bezugslinie](PartDesign_Line/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
 ---
 
 # PartDesign Point/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -31,13 +28,7 @@ Erstellt einen Bezugspunkt. Dieser kann innerhalb des aktuellen Körpers referen
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
-Doppel-Klicke das Referenzpunkt Label im Modellbaum oder klicke dies einfach und selektiere \"Bezug ändern\" oder wähle ein Referenzobjekt mit der rechten Maustaste im Kontextmenu. Details findet man bei Referenzmodus und Offsets , siehe: [Attachment](Part_EditAttachment.md).
-
-
-</div>
+Doppel-Klicke das Referenzpunkt Label im Modellbaum oder klicke dies einfach und selektiere \"Bezug ändern\" oder wähle ein Referenzobjekt mit der rechten Maustaste im Kontextmenu. Details findet man bei Referenzmodus und Offsets , siehe: [Part AnhangBearbeiten](Part_EditAttachment/de.md).
 
 ## Eigenschaften
 

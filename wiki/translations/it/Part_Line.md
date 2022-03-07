@@ -7,88 +7,85 @@
 
 ## Descrizione
 
+A <img alt="" src=images/Part_Line.svg  style="width:24px;"> **Part Line** is a parametric line that can be created with the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives.md) command. The coordinates of its start and end point are relative to the coordinate system defined by its **Placement** property.
+
+<img alt="" src=images/Part_Line_Example.png  style="width:400px;">
+
 ## Utilizzo
 
-Crea una linea parametrica.
+See [Part Primitives](Part_Primitives#Usage.md).
 
-Utilizzare il menu {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16px> Crea primitive... → Linea}}. Si apre una finestra di dialogo che consente di impostare:
+## Properties
 
-### Primitive Geometriche 
+See also: [Property editor](Property_editor.md).
 
-+++
-| ![](images/PartLinePrimitivesOptions_it.png ) | Linea                                                                                                     |
-|                                                                          |                                                                                                           |
-|                                                                          | #### Parametri                                                                                            |
-|                                                                          |                                                                                                           |
-|                                                                          | Coordinate di:                                                                                            |
-|                                                                          |                                                                                                           |
-|                                                                          | -                                                                                          |
-|                                                                          |     {{Parameter|Punto iniziale}}                                                                          |
-|                                                                          |                                                                                                        |
-|                                                                          |                                                                                                           |
-|                                                                          | -                                                                                          |
-|                                                                          |     {{Parameter|Punto finale}}                                                                            |
-|                                                                          |                                                                                                        |
-|                                                                          |                                                                                                           |
-|                                                                          | #### Posizione                                                                                            |
-|                                                                          |                                                                                                           |
-|                                                                          | Espandere la voce Posizione per stabilire:                                                                |
-|                                                                          |                                                                                                           |
-|                                                                          | -   punto di posizionamento nella vista 3D, di default il punto iniziale della linea viene posto in 0,0,0 |
-|                                                                          | -   direzione dell\'asse della linea, x, y, z o definita dall\'utente.                                    |
-|                                                                          |                                                                                                           |
-|                                                                          | I parametri e il posizionamento sono modificabili tramite la scheda delle proprietà.                      |
-+++
+A Part Line object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-### Proprietà
+### Data
 
-+++
-| ![](images/PartLineProperty_it.png ) | #### Vista                                                |
-|                                                        |                                                           |
-|                                                        | ..                                                        |
-|                                                        |                                                           |
-|                                                        | #### Dati                                                 |
-|                                                        |                                                           |
-|                                                        |                                            |
-|                                                        | {{KEY/it|Base}}                                           |
-|                                                        |                                                        |
-|                                                        | \* {{ProprietaDati|Label}}: nome            |
-|                                                        |                                                           |
-|                                                        | -                                          |
-|                                                        |     {{ProprietaDati|Placement}}                           |
-|                                                        |                                                        |
-|                                                        |     : [posizionamento](Placement/it.md)           |
-|                                                        |                                                           |
-|                                                        |                                            |
-|                                                        | {{KEY/it|Vertex 1 iniziale}}                              |
-|                                                        |                                                        |
-|                                                        | \* {{ProprietaDati|X1}} : (di default è 0). |
-|                                                        |                                                           |
-|                                                        | -                                          |
-|                                                        |     {{ProprietaDati|Y1}}                                  |
-|                                                        |                                                        |
-|                                                        |     : (di default è 0).                                   |
-|                                                        |                                                           |
-|                                                        | -                                          |
-|                                                        |     {{ProprietaDati|Z1}}                                  |
-|                                                        |                                                        |
-|                                                        |     : (di default è 0).                                   |
-|                                                        |                                                           |
-|                                                        |                                            |
-|                                                        | {{KEY/it|Vertex 2 finale}}                                |
-|                                                        |                                                        |
-|                                                        | \* {{ProprietaDati|X2}} : (di default è 1). |
-|                                                        |                                                           |
-|                                                        | -                                          |
-|                                                        |     {{ProprietaDati|Y2}}                                  |
-|                                                        |                                                        |
-|                                                        |     : (di default è 1).                                   |
-|                                                        |                                                           |
-|                                                        | -                                          |
-|                                                        |     {{ProprietaDati|Z2}}                                  |
-|                                                        |                                                        |
-|                                                        |     : (di default è 1).                                   |
-+++
+
+{{TitleProperty|Attachment}}
+
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
+{{TitleProperty|Vertex 1 - Start}}
+
+-    **X1|Distance**: The X coordinate of the start point of the line. The default is {{Value|0mm}}.
+
+-    **Y1|Distance**: The Y coordinate of the start point of the line. The default is {{Value|0mm}}.
+
+-    **Z1|Distance**: The Z coordinate of the start point of the line. The default is {{Value|0mm}}.
+
+
+{{TitleProperty|Vertex 2 - Finish}}
+
+-    **X2|Distance**: The X coordinate of the end point of the line. The default is {{Value|10mm}}.
+
+-    **Y2|Distance**: The Y coordinate of the end point of the line. The default is {{Value|10mm}}.
+
+-    **Z2|Distance**: The Z coordinate of the end point of the line. The default is {{Value|10mm}}.
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Line can be created with the {{Incode|addObject()}} method of the document:
+
+
+```python
+line = FreeCAD.ActiveDocument.addObject("Part::Line", "myLine")
+```
+
+-   Where {{Incode|"myLine"}} is the name for the object.
+-   The function returns the newly created object.
+
+Example:
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+line = doc.addObject("Part::Line", "myLine")
+line.X1 = 1
+line.Y1 = 3
+line.Z1 = 6
+line.X2 = 2
+line.Y2 = 3
+line.Z2 = 9
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

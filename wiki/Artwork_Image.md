@@ -12,4 +12,4 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Image](Category_Image.md) > Artwork Image
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Image](Category_Image.md) > Artwork Image

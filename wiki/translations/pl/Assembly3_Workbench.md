@@ -26,7 +26,7 @@ Głównymi cechami środowiska **Złożenie 3** są:
 
 #### Główny pasek narzędzi 
 
-:   <img alt="" src=images/Assembly3_ToolbarMain.png  style="width:700px;">
+:   <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Import.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Move.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -85,9 +85,9 @@ Głównymi cechami środowiska **Złożenie 3** są:
 
 :\* Płaszczyzna robocza i punkt odniesienia. Dodaje płaszczyznę roboczą, położenie lub punkt odniesienia. Część musi być wybrana. Opcja ta ma pięć ustawień.
 
-:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Dodaj płaszczyznę roboczą XY](Assembly3_AddXYWorkplane/pl.md): Dodaje płaszczyznę roboczą w płaszczyźnie XY.
+:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Dodaj płaszczyznę roboczą XY](Assembly3_AddWorkplane/pl.md): Dodaje płaszczyznę roboczą w płaszczyźnie.
 
-:\*\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg‎‎  style="width:32px;"> [Dodaj płaszczyznę roboczą XZ](Assembly3_AddXZWorkplane/pl.md): Dodaje płaszczyznę roboczą w płaszczyźnie XZ.
+-   -   <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Dodaj płaszczyznę roboczą XZ](Assembly3_AddWorkplane/pl.md): Dodaje płaszczyznę roboczą.
 
 :\*\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg‎‎  style="width:32px;"> [Dodaj płaszczyznę roboczą ZY](Assembly3_AddZYWorkplane/pl.md): Dodaje płaszczyznę roboczą w płaszczyźnie YZ.
 
@@ -588,13 +588,12 @@ Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystk
 
 ## Odnośniki internetowe 
 
--   [App Link](App_Link/pl.md) obiekt, dzięki któremu działa środowisko Złożenie 3.
+-   [App: Odnośnik](App_Link/pl.md) obiekt, dzięki któremu działa środowisko Złożenie 3.
 -   [FreeCAD assembly3](https://github.com/realthunder/FreeCAD_assembly3) repozytorium i dokumentacja.
 -   [podgląd Złożenie 3](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), duży wątek dyskusyjny.
 -   [Przewodnik dla środowiska Złożenie 3](http://help-freecad-jpg87.fr/02_ass_ind.php) autorstwa jpg87.
 -   [Aktualny status Złożenia](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Zewnętrzne środowiska pracy](External_workbenches/pl.md)
--   [Projekt Starego Złożenia](Assembly_project/pl.md) plan rozwoju, w celu zapoznania się z historią zagadnienia.
 
 
 

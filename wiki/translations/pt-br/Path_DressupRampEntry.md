@@ -29,6 +29,12 @@ This tool dresses up an existing path to add a ramp entry
 -   **Dressup Start Depth** is the distance above the target level where ramping starts
 -   **UseStartDepth** indicates that the ramping does not start above the stock level. If it is not set to true the first ramp can be steeper than expected.
 
+<img alt="" src=images/Ramp_method_1.png  style="width:" height="250px;"> <img alt="" src=images/Ramp_method_2.png  style="width:" height="250px;"> <img alt="" src=images/Ramp_method_3.png  style="width:" height="250px;"> 
+*From left to right: Ramp method 1, 2 and 3*
+
+<img alt="" src=images/Ramp_method_Helix.png  style="width:" height="250px;"> 
+*Ramp method Helix*
+
 
 
 

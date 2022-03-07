@@ -136,7 +136,7 @@ This style was tailored for use with a touchscreen and pen. Nevertheless, it can
 
 ### Навигация MayaGesture 
 
-In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this mode was developed over the [Gesture navigation](#Gesture_navigation.md) mode.
+In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It\'s also possible to use gestures as this style was developed over the [Gesture navigation](#Gesture_navigation.md) style.
 
 
 <div class="mw-translate-fuzzy">
@@ -177,9 +177,24 @@ The OpenCascade navigation style was modeled after [OpenCascade](https://www.ope
 
 ### Навигация OpenInventor 
 
+
+<div class="mw-translate-fuzzy">
+
 При навигации в стиле [OpenInventor](http://en.wikipedia.org/wiki/Open_Inventor). Для выделения объектов надо нажать кнопку **CTRL**.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Этот метод базируется на на Autodesk Inventor.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{OpenInventor Navigation
@@ -191,6 +206,11 @@ The OpenCascade navigation style was modeled after [OpenCascade](https://www.ope
 |Select_text=Удерживая **Ctrl**, нажимаем левую кнопку мыши над объектом, который хотим выделить.
 |Pan_text=Удерживая среднюю кнопку мыши, двигаем указатель.
 |Zoom_text=Используем колёсико мыши для приближения и отдаления.
+</div>
+
+Hold down **Ctrl** instead to select multiple objects.
+|Pan_text=Hold the middle mouse button, then move the pointer.
+|Zoom_text=Use the mouse wheel to zoom in and out.
 
 Иначе, удерживая среднюю кнопку мыши, нажимаем и удерживаем её левую кнопку, затем двигаем указатель. 
 |Rotate_view_text=Удерживая левую кнопку мыши, двигаем указатель.

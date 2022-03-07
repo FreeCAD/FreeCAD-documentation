@@ -25,7 +25,7 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 
 #### Hauptwerkzeugleiste
 
-:   <img alt="" src=images/Assembly3_ToolbarMain.png  style="width:700px;">
+:   <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Import.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Move.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:28px;"><img alt="" src=images/AngleDown.svg‎‎  style="width:14px;"><img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -84,13 +84,13 @@ Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 
 :\* Arbeitsebene und Ursprung. Fügt eine Arbeitsebene, eine Platzierung oder einen Ursprung hinzu. Es muss ein Teil ausgewählt sein. Hier gibt es fünf Einstellungen.
 
-:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [XY-Arbeitsebene hinzufügen](Assembly3_AddXYWorkplane/de.md): Arbeitsebene hinzufügen
+:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Arbeitsebene hinzufügen](Assembly3_AddWorkplane/de.md): Arbeitsebene hinzufügen
 
 :\*\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg‎‎  style="width:32px;"> [XZ-Arbeitsebene hinzufügen](Assembly3_AddXZWorkplane/de.md): XZ-Arbeitsebene hinzufügen
 
 :\*\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg‎‎  style="width:32px;"> [ZY-Arbeitsebene hinzufügen](Assembly3_AddZYWorkplane/de.md):YZ-Arbeitsebene hinzufügen
 
-:\*\* <img alt="" src=images/Assembly_Add_Placement.svg‎‎  style="width:32px;"> [Platzierung hinzufügen](Assembly3_AddPlacement/de.md): Platzierung hinzufügen
+:\*\* <img alt="" src=images/Assembly_Add_Placement.svg‎‎  style="width:32px;"> [Bezugssystem hinzufügen](Assembly3_AddPlacement/de.md): Bezugssystem hinzufügen
 
 :\*\* <img alt="" src=images/Assembly_Add_Origin.svg‎‎  style="width:32px;"> [Ursprung hinzufügen](Assembly3_AddOrigin/de.md): Ursprung hinzufügen
 
@@ -570,13 +570,12 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 
 ## Verweise
 
--   [App-Link](App_Link.md)-Objekt macht, dass Assembly3 funktioniert.
+-   Das [App-Link](App_Link.md)-Objekt ermöglicht, dass Assembly3 funktioniert.
 -   [FreeCAD\_assembly3](https://github.com/realthunder/FreeCAD_assembly3) Repository und Dokumentation.
 -   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), große Diskussionsrunde.
 -   [Tutorial for Assembly 3 Workbench](http://help-freecad-jpg87.fr/02_ass_ind.php) von jpg87.
 -   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Externe Arbeitsbereiche](External_workbenches.md)
--   [Altes Assembly Projekt](Assembly_project.md) Entwicklungsablauf, um sich mit der Geschichte des Themas vertraut zu machen.
 
 
 

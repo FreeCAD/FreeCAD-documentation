@@ -3,15 +3,13 @@
    Name:Draft BezCurve
    Name/de:Entwurf BezKurve
    MenuLocation:Entwurf → Bézierwerkzeuge → BézKurve
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
+   Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   Shortcut:**B** **Z**
    Version:0.14
-   SeeAlso:[Entwurf KubischeBezKurve](Draft_CubicBezCurve/de.md), [Entwurf BSpline](Draft_BSpline/de.md)
+   SeeAlso:[Draft KubischeBezKurve](Draft_CubicBezCurve/de.md), [Entwurf BSpline](Draft_BSpline/de.md)
 ---
 
 # Draft BezCurve/de
-
-
-</div>
 
 ## Beschreibung
 

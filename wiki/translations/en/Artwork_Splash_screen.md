@@ -1,32 +1,53 @@
 # Artwork Splash screen/en
+{{TOCright}}
+
 These are the splash screens that have been used for each version of the program.
 
-![](images/Splashscreen09.png )
+## FreeCAD 0.19 
 
-![](images/Splashscreen010.png )
+![](images/Freecadsplash019.png )
 
-![](images/Splash011.png )
-
-![](images/Splashscreen012.png )
-
-![](images/Splash013.jpg )
-
-![](images/Freecadsplash14.png )
-
-![](images/Freecadsplash15.png )
-
-![](images/Freecadsplash016.png )
-
-![](images/Freecadsplash017.png )
+## FreeCAD 0.18 
 
 ![](images/Freecadsplash018.png )
 
+## FreeCAD 0.17 
 
-{{Artwork
+![](images/Freecadsplash017.png )
 
-}}
+## FreeCAD 0.16 
+
+![](images/Freecadsplash016.png )
+
+## FreeCAD 0.15 
+
+![](images/Freecadsplash15.png )
+
+## FreeCAD 0.14 
+
+![](images/Freecadsplash14.png )
+
+## FreeCAD 0.13 
+
+![](images/Splash013.jpg )
+
+## FreeCAD 0.12 
+
+![](images/Splashscreen012.png )
+
+## FreeCAD 0.11 
+
+![](images/Splash011.png )
+
+## FreeCAD 0.10 
+
+![](images/Splashscreen010.png )
+
+## FreeCAD 0.9 
+
+![](images/Splashscreen09.png )
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Splash screen/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Splash screen/en

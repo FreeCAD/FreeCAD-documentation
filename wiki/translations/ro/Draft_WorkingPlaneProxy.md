@@ -28,7 +28,7 @@ Această comandă va plasa un obiect Proxy în document, plasat și aliniat la a
 ## Cum se folosește 
 
 1.  Asigurați-vă că [ Planul de lucru](Draft_SelectPlane.md) este setat așa cum doriți.
-2.  Apăsați Draft -\> Utilities -\> **<img src="images/Draft_SetWorkingPlaneProxy.png" width=16px> [Create WP Proxy](Draft_SetWorkingPlaneProxy.md)
+2.  Apăsați Draft -\> Utilities -\> **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Create WP Proxy](Draft_SetWorkingPlaneProxy.md)
 **
 
 

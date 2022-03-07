@@ -10,9 +10,6 @@
 ![](images/TestWorkbench.svg )
 
 
-{{Artwork/ru}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Test/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Testing](Category_Testing.md) > Artwork Test/ru

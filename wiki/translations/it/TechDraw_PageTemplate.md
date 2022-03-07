@@ -42,9 +42,7 @@ La directory di partenza per il dialogo può essere specificata nelle [Preferenz
 
 ## Proprietà
 
--    **Projection Type**: Tipo predefinito di proiezione (primo o terzo angolo) per questa pagina.
-
--    **Scale**: Scala predefinita per le Viste in questa pagina.
+See [TechDraw PageDefault](TechDraw_PageDefault#Properties.md).
 
 ## Script
 

@@ -25,13 +25,7 @@ Der **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbetsbereich](Workben
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
--   Zusätzliche [Externe Arbeitsbereiche](External_workbenches/de.md) können mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) heruntergeladen werden.
-
-
-</div>
+-   Zusätzliche [Externe Arbeitsbereiche](External_workbenches/de.md) können mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) heruntergeladen werden.
 
 ## Einstellungen
 

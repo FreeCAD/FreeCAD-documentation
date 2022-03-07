@@ -1,4 +1,3 @@
-# Engine Block Tutorial/fr
 ---
 - TutorialInfo:/fr
    Topic:  Atelier Part
@@ -176,6 +175,10 @@ Votre objet final devrait ressembler à l\'image sur la droite.
 
 {{clear
 ---
+
+# Engine Block Tutorial/fr
+
+ }
 
 
 

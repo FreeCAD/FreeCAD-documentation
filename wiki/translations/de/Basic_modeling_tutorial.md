@@ -30,7 +30,7 @@ Beginnen wir also damit, dass wir versuchen, mit diesen 2 Methoden einige eisern
 ## 1. Methode - Durch konstruktive Festkörpergeometrie 
 
 1.  Beginne mit dem [Part Arbeitsbereich](Part_Workbench/de.md) ![](images/Switch_PartWorkbench.JPG ).
-2.  Wenn du kein neues FreeCAD Dokument geöffnet hast (der größte Teil des FreeCAD Fensters ist ausgegraut), klicke im Aufklappmenü auf **Datei → Neu** oder klicke auf <img alt="" src=images/Document-new.png  style="width:32px;"> **Ein neues leeres Dokument erstellen** Symbol.
+2.  Wenn du kein neues FreeCAD Dokument geöffnet hast (der größte Teil des FreeCAD Fensters ist ausgegraut), klicke im Aufklappmenü auf **Datei → Neu** oder klicke auf das <img alt="" src=images/Std_New.svg  style="width:24px;"> **Neu**-Symbol.
 3.  Klicke auf die <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Kasten](Part_Box/de.md) Schaltfläche zum Erstellen eines Kastens
 4.  Ändere seine Abmessungen, indem du ihn entweder im 3D Raum auswählst oder indem du ihn auf dem Projektreiter links anklickst, dann
 5.  Klicke unten auf den Datenreiter und ändere die Werte für Länge, Breite und Höhe auf 50 mm, 50 und 750 *(siehe Abb. 1.1)*\' **Hinweis**: *Damals, als diese Aufnahmen gemacht wurden, waren die Eigenschaften anders angeordnet, wobei die Höhe an erster Stelle stand*.
@@ -62,7 +62,7 @@ Willst du nicht, dass der Winkel so ausgerichtet wird? Du musst nur die Platzier
 
 Diese Methode erfordert, dass du mit dem Zeichnen eines 2D Profils beginnst. Dazu musst du den [Entwurf Arbeitsbereich](Draft_Workbench/de.md) aktivieren. ![](images/Switch_DraftWorkbench.JPG ).
 
--   Wenn du kein neues FreeCAD Dokument geöffnet hast (der größte Teil des FreeCAD Fensters sieht ausgegraut aus), klicke im Aufklappmenü auf Datei → Neu oder klicke auf <img alt="" src=images/Document-new.png  style="width:32px;"> **Erstelle ein neues leeres Dokument** Symbol.
+1.  Wenn du kein neues FreeCAD Dokument geöffnet hast (der größte Teil des FreeCAD Fensters ist ausgegraut), klicke im Aufklappmenü auf **Datei → Neu** oder klicke auf das <img alt="" src=images/Std_New.svg  style="width:24px;"> **Neu**-Symbol.
 
 ### Setzen der Arbeitsebene 
 

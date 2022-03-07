@@ -88,7 +88,7 @@ As of 2020 the Assembly3 workbench features the following toolbars.
 
 :\* Workplane and origin. Adds a workplane, placement or origin. A part must be selected. This has five settings
 
-:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Add workplane](Assembly3_AddXYWorkplane.md): Add XY workplane
+:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Add workplane](Assembly3_AddWorkplane.md): Add workplane
 
 :\*\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg‎‎  style="width:32px;"> [Add XZ workplane](Assembly3_AddXZWorkplane.md): Add XZ workplane
 
@@ -601,7 +601,6 @@ One way to solve this is to just delete all invalid constraints and elements, im
 -   [Tutorial for Assembly 3 Workbench](http://help-freecad-jpg87.fr/02_ass_ind.php) by jpg87.
 -   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [External workbenches](External_workbenches.md)
--   [Old Assembly project](Assembly_project.md) development plan, to get acquainted with the history of the issue.
 
 
 

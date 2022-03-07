@@ -17,7 +17,7 @@ El Ambiente de trabajo trazado de rayos opera con [plantillas](Raytracing_templa
 
 De momento, dos renderizadores son soportados [povray](http://en.wikipedia.org/wiki/POV-Ray) y [luxrender](http://en.wikipedia.org/wiki/LuxRender). Para poder renderizar directamente en FeeCAD, al menos uno de esos renderizadores debe estar instalado en tu sistema, y su ubicación debe ser configurada en las preferencias de trazado de rayos de FreeCAD. Si ningún renderizador está instalado, todavía puedes exportar un archivo de escena que puede ser utilizado por alguno de los renderizadores después, o en otra máquina.
 
-Actualmente existe un nuevo entorno de renderizado en desarrollo para soportar múltiples back-ends de renderizado como Lux y Yafaray. Puedes ver información para utilizar la versión en desarrollo en el [Proyecto de Render](Render_project/es.md)
+The Raytracing workbench is essentially obsolete. New development is happening in the [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), which is intended as its replacement. This workbench is fully programmed in Python so it is much easier to extend than the current workbench which is programmed in C++. Nevertheless, the information in this page is generally useful for the new workbench, as both modules work basically in the same way.
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
@@ -135,13 +135,6 @@ These pages refer to the new workbench, programmed in Python, meant to replace t
 -   [Render Workbench](https://github.com/FreeCAD/FreeCAD-render)
 -   [Render Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=25933) (announcement only, no discussion)
 -   [FreeCAD Renderer Workbench improvements](https://forum.freecadweb.org/viewtopic.php?t=39168)
-
-**Outdated**
-
-These pages refer to a replacement workbench, programmed in C++, proposed around 2012, which was never completed.
-
--   [Raytracing project](Raytracing_project.md)
--   [Render project](Render_project.md)
 
 
 {{docnav/es|Robot_Workbench/es|Draft_Workbench/es}}

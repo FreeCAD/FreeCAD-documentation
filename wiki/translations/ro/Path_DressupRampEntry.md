@@ -32,6 +32,12 @@ Acest instrument utilizează o cale existentă pentru a adăuga punți/etichete 
 -   **Dressup Start Depth**este distanța deasupra nivelului țintă unde începe rampa
 -   **UseStartDepth** indică faptul că rampa nu pornește deasupra nivelului stocului. Dacă nu este setat la adevărat, prima ramă poate fi mai abruptă decât se aștepta.
 
+<img alt="" src=images/Ramp_method_1.png  style="width:" height="250px;"> <img alt="" src=images/Ramp_method_2.png  style="width:" height="250px;"> <img alt="" src=images/Ramp_method_3.png  style="width:" height="250px;"> 
+*From left to right: Ramp method 1, 2 and 3*
+
+<img alt="" src=images/Ramp_method_Helix.png  style="width:" height="250px;"> 
+*Ramp method Helix*
+
 
 
 

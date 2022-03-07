@@ -10,9 +10,10 @@ Questa categoria elenca le pagine relative agli oggetti derivati dalla base [App
 | [Assembly/it](wiki/Assembly/it.md) | [Body/it](wiki/Body/it.md) | [Constraint/it](wiki/Constraint/it.md) |
 | [Datum/it](wiki/Datum/it.md) | [Drawing/it](wiki/Drawing/it.md) | [Feature/it](wiki/Feature/it.md) |
 | [Mesh Feature/it](wiki/Mesh Feature/it.md) | [Mesh MeshObject/it](wiki/Mesh MeshObject/it.md) | [Mesh/it](wiki/Mesh/it.md) |
-| [Model/it](wiki/Model/it.md) | [Part Feature/it](wiki/Part Feature/it.md) | [Part TopoShape/it](wiki/Part TopoShape/it.md) |
-| [Part/it](wiki/Part/it.md) | [PartDesign Feature/it](wiki/PartDesign Feature/it.md) | [Shape/it](wiki/Shape/it.md) |
-| [Sketch/it](wiki/Sketch/it.md) | [Sketcher SketchObject/it](wiki/Sketcher SketchObject/it.md) |
+| [Model/it](wiki/Model/it.md) | [Part Feature/it](wiki/Part Feature/it.md) | [Part Part2DObject/it](wiki/Part Part2DObject/it.md) |
+| [Part TopoShape/it](wiki/Part TopoShape/it.md) | [Part/it](wiki/Part/it.md) | [PartDesign Feature/it](wiki/PartDesign Feature/it.md) |
+| [Shape/it](wiki/Shape/it.md) | [Sketch/it](wiki/Sketch/it.md) | [Sketcher SketchObject/it](wiki/Sketcher SketchObject/it.md) |
+|
 
 
 

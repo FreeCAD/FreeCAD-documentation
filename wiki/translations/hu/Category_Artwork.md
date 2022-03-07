@@ -5,7 +5,7 @@ This category collects pages related to artwork existing in the program, like ic
 
 |     |     |     |
 | --- | --- | --- |
-| [Category:Icon/hu](wiki/Category_Icon/hu.md) |
+|
 
 
 

@@ -11,7 +11,11 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Assembly_Add_Origin.svg  style="width:24px;"> [Ursprung hinzufügen](Assembly3_AddOrigin/de.md) macht\...
+Der Befehl <img alt="" src=images/Assembly_Add_Origin.svg  style="width:24px;"> [Ursprung hinzufügen](Assembly3_AddOrigin/de.md) fügt einem vorausgewählten Baugruppenbaum ein [Ursprungs](App_OriginGroupExtension/de.md)-Objekt hinzu.
+
+Das Ursprunsobjekt (Origin object) wird innerhalb des Parts-Containers angelegt und enthält 6 Unterelemente, die die X-, Y- und Z-Achsen sowie die XY-, YZ- und XZ-Ebenen repräsentieren.
+
+<img alt="" src=images/_App_Assembly_Add_Origin-01.png  style="width:250px;"> <img alt="" src=images/_App_OriginGroupExtension-02.png  style="width:350px;">
 
 ## Anwendung
 

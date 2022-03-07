@@ -87,7 +87,7 @@ In questo momento, però, l\'ambiente Arch, come il resto di FreeCAD, soffre di 
 
 <div class="mw-translate-fuzzy">
 
--   Per ora non c\'è ancora nessun supporto per i materiali. FreeCAD avrà presto un sistema completo di [Materiali](Material/it.md) in grado di definire dei materiali molto complessi, con tutte le preziosità che si possono desiderare (le proprietà personalizzate, le famiglie dei materiali, il rendering e le proprietà di aspetto, ecc) e ovviamente appena sarà pronto l\'ambiente Arch lo utilizzerà.
+-   Per ora non c\'è ancora nessun supporto per i materiali. FreeCAD avrà presto un sistema completo di [Materiali](Material.md) in grado di definire dei materiali molto complessi, con tutte le preziosità che si possono desiderare (le proprietà personalizzate, le famiglie dei materiali, il rendering e le proprietà di aspetto, ecc) e ovviamente appena sarà pronto l\'ambiente Arch lo utilizzerà.
 
 
 </div>
@@ -95,14 +95,6 @@ In questo momento, però, l\'ambiente Arch, come il resto di FreeCAD, soffre di 
 -   Supporto preliminare di [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). È già possibile [importare i file IFC](Arch_IFC/it.md) in modo abbastanza affidabile, a condizione che [IfcOpenShell](http://ifcopenshell.org) sia installato sul sistema, ma l\'esportazione non è ancora supportata ufficialmente. Su questo stanno lavorando sia gli sviluppatori di FreeCAD che di IfcOpenShell, e ci si può aspettare che in futuro il supporto di IFC sarà completo.
 
 -   La maggior parte degli strumenti di Arch sono ancora in sviluppo. Ciò significa che gli strumenti automatici \"wizard\", cioè quelli che creano automaticamente delle geometrie complesse, quali [Tetto](Arch_Roof/it.md) o [Scala](Arch_Stairs/it.md), possono produrre solo alcuni tipi di oggetti, e che altri strumenti che hanno delle impostazioni predefinite, quali [Struttura](Arch_Structure/it.md) o [Finestra](Arch_Window/it.md), per ora hanno solo poche preimpostazioni di base. Ovviamente cresceranno nel tempo.
-
-
-<div class="mw-translate-fuzzy">
-
--   Le [Relazioni tra gli oggetti](Assembly_project/it.md) non sono ancora ufficialmente disponibili. Attualmente, per esempio, la relazione tra una finestra e la sua parete ospitante, sono implementate nell\'ambiente Arch con metodi temporanei e quindi un po\' limitati. Quando questa funzione sarà completamente disponibile saranno presenti molte nuove possibilità.
-
-
-</div>
 
 -   In FreeCAD è già stato implementato il [Sistema di Unità](Units/it.md) di misura che permette di lavorare con qualsiasi unità desiderata (anche con le unità di misura imperiali, e chi proviene dagli Stati Uniti può essere eternamente grato di questo a Jürgen, il padrino e \"dittatore\" di FreeCAD). Al momento, però l\'attuazione non è completa, e l\'ambiente Arch non lo supporta ancora. Per ora Arch deve essere considerato \"unit-less\", cioè adimensionale.
 

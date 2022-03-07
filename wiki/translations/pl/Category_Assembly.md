@@ -5,7 +5,7 @@
 
 |     |     |     |
 | --- | --- | --- |
-| [Artwork Assembly/pl](wiki/Artwork Assembly/pl.md) | [Artwork Assembly3/pl](wiki/Artwork Assembly3/pl.md) |
+| [Artwork Assembly3/pl](wiki/Artwork Assembly3/pl.md) |
 
 
 

@@ -15,51 +15,66 @@ Crea un toro paramétrico simple, con los parámetros de posición, ángulo1, á
 
 </div>
 
-<img alt="" src=images/SimpleTorus.jpg  style="width:400px;">
+A Part Torus can be turned into a segment of a torus by changing its **Angle3** property. By changing its **Angle1** and/or **Angle2** properties the swept profile can become a segment of a circle.
+
+<img alt="" src=images/Part_Torus_Example.png  style="width:400px;">
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md)
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Torus.svg" width=16px> Torus** button in the toolbar.
-    -   Select the **Part → Primitives → <img src="images/Part_Torus.svg" width=16px> Torus** from the menu bar.
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Torus.svg" width=16px> [Part Torus](Part_Torus.md)** button.
+    -   Select the **Part → Primitives → <img src="images/Part_Torus.svg" width=16px> Torus** option from the menu.
+2.  The torus is created.
+3.  Optionally change the dimensions and **Placement** of the torus by doing one of the following:
+    -   Double-click the object in the [Tree view](Tree_view.md):
+        1.  The **Geometric Primitives** task panel opens.
+        2.  Change one or more properties.
+        3.  The object is dynamically updated in the [3D view](3D_view.md).
+        4.  Press the **OK** button.
+    -   Change the properties in the [Property editor](Property_editor.md).
+    -   Change the **Placement** with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
 
-**Result:** The torus will be positioned at origin (point 0,0,0) on creation.
-The angle parameters (angle1, angle2, angle3), as well as the radius parameters (radius1, radius2) permit to parametrize the torus, see next section.
+## Example
 
-## Option
+![Part Torus from the scripting example](images/Part_Torus_Scripting_Example.png )
 
-![](images/TorusExampleOverviewParameters.jpg )
+A Part Torus object created with the [scripting example](#Scripting.md) below is shown here.
 
-**Parameter**
+## Notes
 
-A torus can be assimilated to a small disc that makes a circular orbit around an imaginary axe. Thus the parametric torus is defined by the following parameters:
+-   A Part Torus can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
 
--    {{Parameter|Radius1:}}Radius of the circle around which the disc circulate
+## Properties
 
--    {{Parameter|Radius2:}}Radius of the disc defining the form of the torus
+See also: [Property editor](Property_editor.md).
 
--    {{Parameter|Angle1:}}1st angle to cut / define the disc of the torus
+A Part Torus object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
--    {{Parameter|Angle2:}}2nd angle to cut / define the disc of the torus
+### Data
 
--    {{Parameter|Angle3:}}3rd angle to define the circumference of the torus.
 
-as well as the standard set of placement parameters. The pictures below give a visual overview of the parameters antecedently mentioned:
+{{TitleProperty|Attachment}}
 
-![](images/TorusExampleRadius1.jpg ) The parameter Radius1 has a value of 20 mm.
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
 
-![](images/TorusExampleRadius2.jpg ) The parameter Radius2 has a value of 2 mm.
 
-![](images/TorusExampleAngle1.jpg ) The parameter Angle1 has a value of -90°. Notice that, the \"angle measure\" tool cannot display negative angle. Considered the displayed value in picture as \"-90°\".
+{{TitleProperty|Torus}}
 
-![](images/TorusExampleAngle2.jpg ) The parameter Angle2 has a value of 90°.
+-    **Radius1|Length**: The radius of the circular path of the torus. The default is {{Value|10mm}}.
 
-![](images/TorusExampleAngle3.jpg ) The parameter Angle3 has a value of 90°. 
+-    **Radius2|Length**: The radius of the circular profile of the torus. The default is {{Value|2mm}}.
+
+-    **Angle1|Angle**: The start angle of the circular profile. Valid range: {{Value|-180° &lt;&#61; value &lt;&#61; 180°}}. The default is {{Value|-180°}}.
+
+-    **Angle2|Angle**: The end angle the circular profile. Valid range: {{Value|-180° &lt;&#61; value &lt;&#61; 180°}}. The default is {{Value|180°}}. If the total angle of the circular profile is smaller than {{Value|360°}} the profile will have a pie-shape.
+
+-    **Angle3|Angle**: The angle of the circular path of the torus. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a torus.
 
 ## Scripting
 
-A Part Torus can be created using the following function:
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Torus can be created with the {{Incode|addObject()}} method of the document:
 
 
 ```python
@@ -68,6 +83,33 @@ torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
 
 -   Where {{Incode|"myTorus"}} is the name for the object.
 -   The function returns the newly created object.
+
+Example:
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+torus = doc.addObject("Part::Torus", "myTorus")
+torus.Radius1 = 20
+torus.Radius2 = 10
+torus.Angle1 = -90
+torus.Angle2 = 45
+torus.Angle3 = 270
+torus.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(30, 45, 10))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

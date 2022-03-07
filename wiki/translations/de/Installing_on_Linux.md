@@ -324,14 +324,8 @@ Viele alternative, nicht-offizielle FreeCAD Pakete sind im Netz verfügbar, z.B.
 
 ### Manuelle Installation auf .deb basierten Systemen 
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn aus irgendeinem Grund eine der oben genannten Methoden nicht verwendet werden können, kannst Du immer eines der .deb Pakete herunterladen, die auf der Seite [Download](Download/de.md) verfügbar sind.
+Wenn aus irgendeinem Grund eine der oben genannten Methoden nicht verwendet werden kann, kannst Du immer eines der .deb Pakete herunterladen, die auf der Seite [Download](Download/de.md) verfügbar sind.
 {{DownloadLinuxStable}}
-
-
-</div>
 
 Wenn du die entsprechende .deb Datei für dein System heruntergeladen und das [Gdebi](wikipedia:Debian#GDEBI.md) Paket installiert hast (was meistens der Fall ist), navigiere einfach zum Verzeichnis, wo du die Datei heruntergeladen hast und doppelklicke darauf. Die notwendigen Abhängigkeiten werden automatisch von deinem Systempaketmanager erledigt. Alternativ kannst du sie auch vom Terminal aus installieren, indem du zu der Stelle gehst, an der du die Datei heruntergeladen hast, und dann tippst:
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Draft PointArray
    Name/fr:Draft Réseau de points
-   MenuLocation:Modification → Array tools →  Réseau de points
+   MenuLocation:Modification → Outils de réseau →  Réseau de points
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.18
    SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
@@ -25,7 +25,7 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 2.  Ajoutez l\'objet [composé de points](#Compos.C3.A9_de_points.md) à la sélection.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_PointArray.svg" width=16px> [Réseau de points](Draft_PointArray/fr.md)**.
-    -   Sélectionnez l\'option **Modification → Array tools → <img src="images/Draft_PointArray.svg" width=16px> Réseau de points** dans le menu.
+    -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_PointArray.svg" width=16px> Réseau de points** dans le menu.
 4.  Le réseau est créé.
 5.  Vous pouvez éventuellement modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
@@ -50,48 +50,48 @@ Un objet Draft Réseau de points est dérivé d\'un objet [Part Feature](Part_Fe
 
 Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens. Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyData/fr|Scale|Float}}
+-    **Scale|Float**
     
 
--    {{PropertyData/fr|Scale Vector|Vector|Hidden}}
+-    **Scale Vector|Vector|Hidden**
     
 
--    {{PropertyData/fr|Scale List|VectorList}}
+-    **Scale List|VectorList**
     
 
--    {{PropertyData/fr|Visibility List|BoolList|Hidden}}
+-    **Visibility List|BoolList|Hidden**
     
 
--    {{PropertyData/fr|Placement List|PlacementList|Hidden}}
+-    **Placement List|PlacementList|Hidden**
     
 
--    {{PropertyData/fr|Element List|LinkList|Hidden}}
+-    **Element List|LinkList|Hidden**
     
 
--    {{PropertyData/fr|_ Link Touched|Bool|Hidden}}
+-    **_ Link Touched|Bool|Hidden**
     
 
--    {{PropertyData/fr|_ Child Cache|LinkList|Hidden}}
+-    **_ Child Cache|LinkList|Hidden**
     
 
--    {{PropertyData/fr|Colored Elements|LinkSubHidden|Hidden}}
+-    **Colored Elements|LinkSubHidden|Hidden**
     
 
--    {{PropertyData/fr|Link Transform|Bool}}
+-    **Link Transform|Bool**
     
 
 
 {{TitleProperty|Objects}}
 
--    {{PropertyData/fr|Base|Link}}: spécifie l\'objet à dupliquer dans le réseau.
+-    **Base|Link**: spécifie l\'objet à dupliquer dans le réseau.
 
--    {{PropertyData/fr|Count|Integer}}: (en lecture seule) spécifie le nombre d\'éléments dans le réseau. Ce nombre est déterminé par le nombre de points dans l\'objet {{PropertyData/fr|Point}}.
+-    **Count|Integer**: (en lecture seule) spécifie le nombre d\'éléments dans le réseau. Ce nombre est déterminé par le nombre de points dans l\'objet **Point**.
 
--    {{PropertyData/fr|Expand Array|Bool}}: spécifie s\'il faut développer le réseau dans la [Vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
+-    **Expand Array|Bool**: spécifie s\'il faut développer le réseau dans la [Vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
 
--    {{PropertyData/fr|Extra Placement|Placement}}: spécifie un [placement](Placement.md), une translation et une rotation supplémentaires pour chaque élément du réseau. {{Version/fr|0.19}}
+-    **Extra Placement|Placement**: spécifie un [placement](Placement.md), une translation et une rotation supplémentaires pour chaque élément du réseau. {{Version/fr|0.19}}
 
--    {{PropertyData/fr|Point Object|Link}}: spécifie l\'objet composé dont les points sont utilisés pour positionner les éléments du réseau. L\'objet doit avoir une propriété {{PropertyData/fr|Links}}, {{PropertyData/fr|Components}} ou {{PropertyData/fr|Geometry}} et contenir au moins un élément avec les propriétés {{PropertyData/fr|X}}, {{PropertyData/fr|Y}}, et {{PropertyData/fr|Z}}.
+-    **Point Object|Link**: spécifie l\'objet composé dont les points sont utilisés pour positionner les éléments du réseau. L\'objet doit avoir une propriété **Links**, **Components** ou **Geometry** et contenir au moins un élément avec les propriétés **X**, **Y**, et **Z**.
 
 ### Vue
 
@@ -100,21 +100,21 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne sont disponibles que pour les réseaux liens (Link). Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyView/fr|Draw Style|Enumeration}}
+-    **Draw Style|Enumeration**
     
 
--    {{PropertyView/fr|Line Width|FloatConstraint}}
+-    **Line Width|FloatConstraint**
     
 
--    {{PropertyView/fr|Override Material|Bool}}
+-    **Override Material|Bool**
     
 
 -    **Point Size|FloatConstraint**
     
 
--    {{PropertyView/fr|Selectable|Bool}}: il s\'agit d\'une propriété héritée qui apparaît dans le groupe Sélection pour d\'autres réseaux.
+-    **Selectable|Bool**: il s\'agit d\'une propriété héritée qui apparaît dans le groupe Sélection pour d\'autres réseaux.
 
--    {{PropertyView/fr|Shape Material|Material}}
+-    **Shape Material|Material**
     
 
 
@@ -122,41 +122,41 @@ Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne s
 
 Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne sont disponibles que pour les réseaux liens (Link). Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyView/fr|Child View Provider|PersistentObject|Hidden}}
+-    **Child View Provider|PersistentObject|Hidden**
     
 
--    {{PropertyView/fr|Material List|MaterialList|Hidden}}
+-    **Material List|MaterialList|Hidden**
     
 
--    {{PropertyView/fr|Override Color List|ColorList|Hidden}}
+-    **Override Color List|ColorList|Hidden**
     
 
--    {{PropertyView/fr|Override Material List|BoolList|Hidden}}
+-    **Override Material List|BoolList|Hidden**
     
 
--    {{PropertyView/fr|Proxy|PythonObject|Hidden}}: il s\'agit d\'une propriété héritée.
+-    **Proxy|PythonObject|Hidden**: il s\'agit d\'une propriété héritée.
 
 
 {{TitleProperty|Display Options}}
 
 Les propriétés de ce groupe sont des propriétés héritées. Voir [Part Feature](Part_Feature/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyView/fr|Bounding Box|Bool}}: cette propriété n\'est pas héritée par les réseaux de liens (Link).
+-    **Bounding Box|Bool**: cette propriété n\'est pas héritée par les réseaux de liens (Link).
 
--    {{PropertyView/fr|Display Mode|Enumeration}}: pour les réseaux de liens, il peut s\'agir de {{value|Link}} ou {{value|ChildView}}. Pour les autres réseaux, il peut s\'agir de : {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} ou {{value|Points}}
+-    **Display Mode|Enumeration**: pour les réseaux de liens, il peut s\'agir de {{value|Link}} ou {{value|ChildView}}. Pour les autres réseaux, il peut s\'agir de : {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} ou {{value|Points}}
 
--    {{PropertyView/fr|Show In Tree|Bool}}
+-    **Show In Tree|Bool**
     
 
--    {{PropertyView/fr|Visibility|Bool}}
+-    **Visibility|Bool**
     
 
 
 {{TitleProperty|Draft}}
 
--    {{PropertyView/fr|Pattern|Enumeration}}: non utilisé.
+-    **Pattern|Enumeration**: non utilisé.
 
--    {{PropertyView/fr|Pattern Size|Float}}: non utilisé.
+-    **Pattern Size|Float**: non utilisé.
 
 
 {{TitleProperty|Object style}}

@@ -27,7 +27,20 @@ Different types of geometry elements can be mixed.
 
 1.  Place two or more objects into an assembly.
 2.  Select one element of each object.
-3.  Press the **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Axial Alignment](Assembly3_ConstraintAxial.md)** button.
+3.  Activate the <img alt="" src=images/Assembly_ConstraintAxial.svg  style="width:16px;"> **Assembly3 ConstraintAxial** command using:
+    -   The **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Create "AxialAlignment" constraint](Assembly3_ConstraintAxial.md)** button.
+
+## Kinematic Equivalent 
+
+Used in kinematic context this constraint resembles a **cylindrical joint**.
+
+In real life we cannot handle axes and so cylindrical faces are used to represent the linked axes.
+
+ <img alt="" src=images/Assembly3_ConstraintAxial-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_ConstraintAxial-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_ConstraintAxial-03.png  style="width:200px;"> 
+
+
+
+*Constrained objects before and after running the solver and then slid along the axis*
 
 
 

@@ -1,6 +1,6 @@
 # Macro Snip/fr
 {{Macro/fr
-|Name=Snip
+|Name=Macro Snip
 |Icon=Snip.png
 |Description=Utilisez cette macro pour poster facilement des captures d’écran sur le forum FreeCAD.<br/>Il est préférable d’ajouter cette macro à votre barre d’outils de macros personnalisées globales pour un accès rapide et facile.<br/>Lors de la publication sur le forum FreeCAD, il est souvent utile d'être en mesure d'inclure des captures d'écran. Le problème est que c'est une tâche un peu fastidieuse. Cette macro facilite un peu la tâche.<br/>La macro peut prendre des captures d’écran ou utiliser des captures d’écran existantes déjà copiées dans le Presse-papiers du système. Pour ignorer l'image déjà dans le presse-papiers, appuyez sur la touche Maj tout en appelant la macro. Pour utiliser la macro afin de prendre la capture d'écran, ajustez la taille et l'emplacement de la boîte de dialogue qui apparaît, puis cliquez sur OK. En cliquant sur OK, la macro tentera de prendre une capture d'écran de la zone de l'écran couverte par la boîte de dialogue. La boîte de dialogue elle-même est semi-transparente, vous pouvez donc voir le contenu ci-dessous.
 |Author=TheMarkster
@@ -8,7 +8,7 @@
 |Date=2022.02.23
 |FCVersion=Tous
 |Download=[https://wiki.freecadweb.org/images/a/a0/Snip.png Icône de la barre d'outils]
-|SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard/fr.md) <img src="images/Macro_Copy3DViewToClipboard.png" width=24px><br/>[Macro Screen Wiki](Macro_Screen_Wiki/fr.md) <img src="images/Macro_Screen_Wiki.png" width=24px>
+|SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard/fr.md), [Macro Screen Wiki](Macro_Screen_Wiki/fr.md)
 |Shortcut=Sur Windows: Windows Key + Shift + S<br/>
 Sur Mac: Command + Shift + 4<br/>
 Sur Linux: gnone-screenshot utility<br/>
@@ -73,7 +73,7 @@ Vous pouvez contourner toute mise à l\'échelle en maintenant la touche Ctrl en
 
 ## Script
 
-ToolBar icon ![](images/Snip.png )
+Icône de la barre d\'outils ![](images/Snip.png )
 
 **Macro\_Snip.FCMacro**
 

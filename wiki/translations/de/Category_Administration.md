@@ -15,10 +15,10 @@ Den betreffenden Artikeln folgende Zeile anhängen:
 | [Crowdin Administration/de](wiki/Crowdin Administration/de.md) | [Crowdin Scripts/de](wiki/Crowdin Scripts/de.md) | [Template:Drawing Tools navi/de](wiki/Template_Drawing Tools navi/de.md) |
 | [Template:OpenSCAD Tools navi/de](wiki/Template_OpenSCAD Tools navi/de.md) | [Template:Part Tools navi/de](wiki/Template_Part Tools navi/de.md) | [Template:PartDesign Tools navi/de](wiki/Template_PartDesign Tools navi/de.md) |
 | [Template:Properties Title/de](wiki/Template_Properties Title/de.md) | [Template:PropertyData/de](wiki/Template_PropertyData/de.md) | [Template:PropertyView/de](wiki/Template_PropertyView/de.md) |
-| [Python 3/de](wiki/Python 3/de.md) | [Template:Robot Tools navi/de](wiki/Template_Robot Tools navi/de.md) | [Template:Ship Tools navi/de](wiki/Template_Ship Tools navi/de.md) |
-| [Template:Sketcher Tools navi/de](wiki/Template_Sketcher Tools navi/de.md) | [Template:TechDraw Tools navi/de](wiki/Template_TechDraw Tools navi/de.md) | [Tracker/de](wiki/Tracker/de.md) |
-| [WikiPages/de](wiki/WikiPages/de.md) | [WikiRobots/de](wiki/WikiRobots/de.md) | [Category:UnfinishedDocu/de](wiki/Category_UnfinishedDocu/de.md) |
-| [Category:Wiki/de](wiki/Category_Wiki/de.md) |
+| [Template:Robot Tools navi/de](wiki/Template_Robot Tools navi/de.md) | [Template:Ship Tools navi/de](wiki/Template_Ship Tools navi/de.md) | [Template:Sketcher Tools navi/de](wiki/Template_Sketcher Tools navi/de.md) |
+| [Template:TechDraw Tools navi/de](wiki/Template_TechDraw Tools navi/de.md) | [Tracker/de](wiki/Tracker/de.md) | [WikiPages/de](wiki/WikiPages/de.md) |
+| [WikiRobots/de](wiki/WikiRobots/de.md) | [Category:UnfinishedDocu/de](wiki/Category_UnfinishedDocu/de.md) | [Category:Wiki/de](wiki/Category_Wiki/de.md) |
+|
 
 
 

@@ -2,14 +2,11 @@
 - GuiCommand:/de
    Name:PartDesign Groove
    Name/de:PartDesign Nut
-   MenuLocation:PartDesign → Nut
+   MenuLocation:PartDesign → Objekte abziehen → Nut
    Workbenches:[PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)
 ---
 
 # PartDesign Groove/de
-
-
-</div>
 
 ## Beschreibung
 

@@ -27,7 +27,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{defn|defn=Architecture. Un Atelier ([Workbench](#Workbench.md)) utilisé principalement pour modéliser des bâtiments et des structures. Cet outil est étroitement lié à l'Atelier Sketcher ([Draft Workbench](#Draft.md)).}}
 
 
-{{term|Assembly|content=[Assembly](Assembly_Workbench/fr.md)}}
+{{term|Assembly|content=[Assembly](Assembly/fr.md)}}
 
 
 {{defn|no=1|defn=Terme anglais pour assemblage. Un ensemble de pièces ([Part](#Part.md)) dont les positions sont définies les unes par rapport aux autres.}}

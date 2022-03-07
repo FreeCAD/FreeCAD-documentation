@@ -11,58 +11,95 @@
 
 ## Description
 
-La primitive géométrique **[<img src=images/Part_Helix.svg style="width:16px"> [Part Hélice](Part_Helix/fr.md)** crée une forme d\'hélice définie par un rayon, un pas et une hauteur totale.
+Une <img alt="" src=images/Part_Helix.svg  style="width:24px;"> **Part Hélice** est une forme paramétrique qui peut être créée avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives/fr.md). Dans le système de coordonnées défini par sa propriété **Placement**, l\'axe de l\'hélice correspond à l\'axe des Z et son point inférieur, le point de départ, se trouve sur l\'axe des X.
 
-Un usage courant de la primitive hélice est pour la [Création de vis](Thread_for_Screw_Tutorial/fr.md) en conjonction avec un profil fermé et le **<img src="images/Part_Sweep.svg" width=16px> [Part Balayage](Part_Sweep/fr.md)** opération. Ce processus fonctionne essentiellement de la même manière dans l\'[Atelier PartDesign](PartDesign_Workbench.md) en utilisant l\'outil **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md)**.
+<img alt="" src=images/Part_Helix_Example.png  style="width:400px;">
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
-2.  La boîte de dialogue Créer des primitives est accessible de plusieurs manières:
-    -   En appuyant sur le bouton **[<img src=images/Part_Primitives.svg style="width:16px"> [Création de primitives géométriques...](Part_Primitives/fr.md)** situé dans la barre d\'outils Pièce.
-    -   Utilisation de l\'entrée **Pièce → [<img src=images/Part_Primitives.svg style="width:16px"> [Créer des primitives...](Part_Primitives/fr.md) → Hélice** dans le menu Part.
+Voir [Part Primitives](Part_Primitives/fr#Utilisation.md).
 
-![](images/PartHelixPrimitivesOptions_en.png )
+## Exemple
 
-#### Paramètres
+![Part Hélice à partir de l\'exemple du script](images/Part_Helix_Scripting_Example.png )
 
--    {{Parameter|Pitch:}}Le pas correspond à l\'espace entre deux \"tours\" consécutifs de l\'hélice mesuré le long de l\'axe principal de l\'hélice.
+Un objet Part Hélice créé avec l\'[exemple du script](#Script.md) ci-dessous.
 
--    {{Parameter|Height:}}La hauteur correspond à la hauteur globale de l\'hélice mesurée le long de l\'axe principal de l\'hélice.
+## Remarques
 
--    {{Parameter|Radius:}}Le rayon correspond au rayon du cercle construit par l\'hélice en visualisant l\'hélice du haut ou du bas.
+-   Une Part Hélice peut être utilisée pour créer des filets de vis. Voir [Tutoriel : Création de vis](Thread_for_Screw_Tutorial/fr.md).
 
--    {{Parameter|Angle}}: Par défaut, l\'hélice est construite sur un cylindre imaginaire. Avec cette option, il est possible de construire l\'hélice sur un cône imaginay. Cet angle correspond à l\'angle du cône. La valeur doit être comprise entre 0 et +90 degrés.
+## Propriétés
 
--    {{Parameter|Right-handed or Left-handed:}}Ce paramètre spécifie la [handeness (chiralité)](https://en.wikipedia.org/wiki/Screw_thread) de l\'hélice.
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-#### Location
+Un objet Part Hélice est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
--    {{Parameter|X:}}L\'axe principal de l\'hélice sera traduit le long de l\'axe x de la valeur que vous indiquez dans ce champ.
+### Données
 
--    {{Parameter|Y:}}L\'axe principal de l\'hélice sera traduit le long de l\'axe y de la valeur que vous indiquez dans ce champ.
 
--    {{Parameter|Z:}}L\'axe principal de l\'hélice sera traduit le long de l\'axe z de la valeur que vous indiquez dans ce champ.
+{{TitleProperty|Attachment}}
 
--    {{Parameter|Direction:}}Par défaut, l\'axe principal de l\'hélice est l\'axe z. Ici, vous avez la possibilité de modifier l\'axe principal de l\'hélice. Si vous sélectionnez le paramètre \"défini par l\'utilisateur \...\", vous serez invité à indiquer l\'axe principal de l\'hélice en entrant les coordonnées de son vecteur.
+L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Part_Part2DObject/fr#Donn.C3.A9es.md).
 
--    {{Parameter|3D View:}}vous permet de sélectionner le centre dans la vue 3D
 
-## Options
+{{TitleProperty|Coordinate System}}
 
-### Propriétés
+-    **Local Coord|Enumeration**: La [chiralité](https://fr.wikipedia.org/wiki/Chiralit%C3%A9), ou direction, de l\'hélice : {{Value|Right-handed}} ou {{Value|Left-handed}}. La valeur par défaut est {{Value|Right-handed}}, ce qui signifie que l\'hélice tourne dans le sens inverse des aiguilles d\'une montre en montant.
 
-Une fois l\'hélice créé vous avez la possibilité de modifier ses paramètres.
 
-+++
-| ![](images/PartHelixProperty_en.png ) | Les paramètres de ce menu sont similaires que les réglages décrits plus haut.                            |
-|                                                          | **Base**                                                                               |
-|                                                          | \* {{Parameter|Placement:}} donne le déplacement ou (et) la rotation a donner à l\'hélice. |
-|                                                          |                                                                                                          |
-|                                                          | -                                                                                         |
-|                                                          |     {{Parameter|Angle:}}                                                                                 |
-|                                                          |                                                                                                       |
-+++
+{{TitleProperty|Helix}}
+
+-    **Pitch|Length**: La distance entre deux tours consécutifs de l\'hélice, mesurée le long de son axe Z. La valeur par défaut est {{Value|1mm}}.
+
+-    **Height|Length**: La hauteur de l\'hélice. La valeur par défaut est {{Value|2mm}}.
+
+-    **Radius|Length**: Le rayon de départ de l\'hélice. L\'hélice a un rayon constant si **Angle** est {{Value|0°}}.
+
+-    **Segment Length|QuantityConstraint**: Le nombre de tours par subdivision de l\'hélice. La valeur par défaut est {{Value|1}}, ce qui signifie que chaque tour complet de l\'hélice est un segment séparé. Utilisez {{Value|0}} pour supprimer la subdivision.
+
+-    **Angle|Angle**: L\'angle qui définit la forme extérieure de l\'hélice. Plage valide : {{Value|-90° &lt; value &lt; 90°}}. La valeur par défaut est {{Value|0°}}. Si la valeur est {{Value|0°}}, l\'hélice est cylindrique, sinon elle est conique.
+
+## Script
+
+Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+
+Une Part Hélice est créée avec la méthode `addObject()` du document :
+
+
+```python
+helix = FreeCAD.ActiveDocument.addObject("Part::Helix", "myHelix")
+```
+
+-   Où {{Incode|"myHelix"}} est le nom de l\'objet.
+-   La fonction restitue l\'objet nouvellement créé.
+
+Exemple :
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+helix = doc.addObject("Part::Helix", "myHelix")
+helix.Pitch = 2
+helix.Height = 3
+helix.Radius = 4
+helix.SegmentLength = 21
+helix.Angle = 45
+helix.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(75, 60, 30))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

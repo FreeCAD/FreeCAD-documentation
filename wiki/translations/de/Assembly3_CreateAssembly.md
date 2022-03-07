@@ -16,7 +16,7 @@ Der Befehl **Assembly3 Baugruppe anlegen** fügt dem Konstruktionsbaum ein neues
 
 Jedes Astobjekt ist ein <img alt="" src=images/Assembly_Assembly_Tree.svg  style="width:24px;"> **Assembly** -Container und enthält vier Gruppencontainer:
 
-:   \- Einen für die <img alt="" src=images/Assembly_Assembly_Constraints_Tree.svg  style="width:24px;"> **Festlegungen** (welcher ausgeblendet ist, solange er leer ist)
+:   \- Einen für die <img alt="" src=images/Assembly_Assembly_Constraints_Tree.svg  style="width:24px;"> **Bedingungen** (welcher ausgeblendet ist, solange er leer ist)
 :   \- Einen für die <img alt="" src=images/Assembly_Assembly_Element_Tree.svg  style="width:24px;"> 
 **Elemente**
 :   \- Einen für die <img alt="" src=images/Assembly_Assembly_Part_Tree.svg  style="width:24px;"> 

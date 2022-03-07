@@ -6,7 +6,7 @@ This category gathers the meeting points of the 3 broad categories of users of F
 |     |     |     |
 | --- | --- | --- |
 | [Developer hub](wiki/Developer hub.md) | [Power users hub](wiki/Power users hub.md) | [Scientific literature](wiki/Scientific literature.md) |
-| [User hub](wiki/User hub.md) | [Wished tools](wiki/Wished tools.md) |
+| [User hub](wiki/User hub.md) |
 
 
 

@@ -9,6 +9,9 @@
 
 # TechDraw PageDefault/de
 
+
+</div>
+
 ## Beschreibung
 
 Das Neue Standard Werkzeug erstellt ein neues Seitenobjekt unter Verwendung der Vorlagendatei, die in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) festgelegt ist.
@@ -22,19 +25,62 @@ Das Neue Standard Werkzeug erstellt ein neues Seitenobjekt unter Verwendung der 
 
 ## Hinweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   Wenn in der Zeichnung die Eigenschaft »KeepUpdated« auf »False« gesetzt wird oder die TechDraw Einstellung »Seiten aktuell halten« deaktiviert ist, wird die Zeichnung bei einer 3D-Modelländerung nicht aktualisiert. Es kann dann vorkommen, dass Hinweise zu fehlenden Geometrien oder Bemaßungen usw. aufploppen. Sobald die Seite aktualisiert wird, sollten die Fehler behoben sein. Die Zeichnung wird mit diesem Symbol <img alt="" src=images/TechDraw_Tree_Page_Unsync.png  style="width:32px;"> im Baum anzeigen, wenn die Aktualisierung ausgesetzt ist. Diese Einstellung beeinflusst auch den Startprozess. Wenn die Seite als »Seiten nicht aktuell halten« markiert ist, wird sie nicht beim Programmstart gezeichnet.
 
-Wenn die Standardvorlage nicht in der Konfigurationsdatei `user.cfg` angegeben ist, wird das Werkzeug versuchen die Vorlage A4-Querformat zu öffnen und folgenden Pfad verwenden. 
-```python
-$INSTALL_DIR/Mod/TechDraw/Templates/A4_LandscapeTD.svg
-```
 
-wobei `$INSTALL_DIR` das Verzeichnis ist, in welchem FreeCAD installiert wurde. Das kann z.B. so aussehen 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Wenn die Standardvorlage nicht in der Konfigurationsdatei `user.cfg` angegeben ist, wird das Werkzeug versuchen die Vorlage A4-Querformat zu öffnen und folgenden Pfad verwenden.
+
+
+</div>
+
+
+:   
+    
 ```python
-/usr/share/freecad/Mod/TechDraw/Templates/A4_LandscapeTD.svg
+    $INSTALL_DIR/Mod/TechDraw/Templates/A4_LandscapeTD.svg
+    
 ```
+    
+
+
+<div class="mw-translate-fuzzy">
+
+wobei `$INSTALL_DIR` das Verzeichnis ist, in welchem FreeCAD installiert wurde. Das kann z.B. so aussehen
+
+
+</div>
+
+
+:   
+    
+```python
+    /usr/share/freecad/Mod/TechDraw/Templates/A4_LandscapeTD.svg
+    
+```
+    
 
 ## Eigenschaften
+
+### Data
+
+
+{{TitleProperty|Base}}
+
+-    **Projection Type**: Default projection type (First or Third Angle) for this Page.
+
+
+{{TitleProperty|Page}}
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Projektionstyp**: Standard Projektionstyp (erster oder dritter Winkel) für diese Seite.
 
@@ -45,6 +91,18 @@ wobei `$INSTALL_DIR` das Verzeichnis ist, in welchem FreeCAD installiert wurde. 
 -    **Ansichten**: Eine Liste von Verweisen auf die Ansichten auf dieser Seite.
 
 -    **Maßstab**: Standardmaßstab für Ansichten auf dieser Seite.
+
+
+</div>
+
+### View
+
+
+{{TitleProperty|Grid}}
+
+-    **Show Grid**: Show a grid over this Page. <small>(v0.20)</small> 
+
+-    **Grid Spacing**: Distance between grid lines in mm. <small>(v0.20)</small> 
 
 ## Skripten
 

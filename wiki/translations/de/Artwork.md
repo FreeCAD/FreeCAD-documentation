@@ -155,16 +155,7 @@ See [Artwork Render](Artwork_Render.md).
 
 Siehe [Grafik Schiff](Artwork_Ship.md).
 
-## Fehlerhafte Symbole 
-
-Siehe [Grafik Fehlerhaft](Artwork_Erroneous/de.md).
-
-
-{{Artwork
-
-}}
-
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Icon](Category_Icon.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Artwork/de

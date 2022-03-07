@@ -11,80 +11,85 @@
 
 ## Описание
 
+A <img alt="" src=images/Part_Line.svg  style="width:24px;"> **Part Line** is a parametric line that can be created with the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives.md) command. The coordinates of its start and end point are relative to the coordinate system defined by its **Placement** property.
+
+<img alt="" src=images/Part_Line_Example.png  style="width:400px;">
+
 ## Применение
 
-### Геометрические Примитивы 
+See [Part Primitives](Part_Primitives#Usage.md).
 
-+++
-| ![](images/PartLinePrimitivesOptions_ru.png ) | Линия                             |
-|                                                                          |                                   |
-|                                                                          | #### Параметр                     |
-|                                                                          |                                   |
-|                                                                          | :                                 |
-|                                                                          |                                   |
-|                                                                          | -                  |
-|                                                                          |     {{Parameter|Начальная точка}} |
-|                                                                          |                                |
-|                                                                          |                                   |
-|                                                                          | -                  |
-|                                                                          |     {{Parameter|Конечная точка}}  |
-|                                                                          |                                |
-|                                                                          |                                   |
-|                                                                          | #### Местоположение               |
-|                                                                          |                                   |
-|                                                                          | -                                 |
-|                                                                          | -                                 |
-+++
+## Properties
 
-### Свойства
+See also: [Property editor](Property_editor.md).
 
-+++
-| ![](images/PartLineProperty_ru.png ) | #### Вид                                    |
-|                                                        |                                             |
-|                                                        | ..                                          |
-|                                                        |                                             |
-|                                                        | #### Данные                                 |
-|                                                        |                                             |
-|                                                        |                              |
-|                                                        | **Основание**                           |
-|                                                        |                                          |
-|                                                        | \* {{PropertyData/ru|Label}}: |
-|                                                        |                                             |
-|                                                        | -                            |
-|                                                        |     {{PropertyData/ru|Placement}}           |
-|                                                        |                                          |
-|                                                        |     : [Размещение](Placement/ru.md) |
-|                                                        |                                             |
-|                                                        |                              |
-|                                                        | **Vertex 1 Start**                      |
-|                                                        |                                          |
-|                                                        | \* {{PropertyData/ru|X1}} :   |
-|                                                        |                                             |
-|                                                        | -                            |
-|                                                        |     {{PropertyData/ru|X1}}                  |
-|                                                        |                                          |
-|                                                        |     :                                       |
-|                                                        |                                             |
-|                                                        | -                            |
-|                                                        |     {{PropertyData/ru|X1}}                  |
-|                                                        |                                          |
-|                                                        |     :                                       |
-|                                                        |                                             |
-|                                                        |                              |
-|                                                        | **Vertex 2 Finish**                     |
-|                                                        |                                          |
-|                                                        | \* {{PropertyData/ru|X2}} :   |
-|                                                        |                                             |
-|                                                        | -                            |
-|                                                        |     {{PropertyData/ru|X2}}                  |
-|                                                        |                                          |
-|                                                        |     :                                       |
-|                                                        |                                             |
-|                                                        | -                            |
-|                                                        |     {{PropertyData/ru|X2}}                  |
-|                                                        |                                          |
-|                                                        |     :                                       |
-+++
+A Part Line object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+### Data
+
+
+{{TitleProperty|Attachment}}
+
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
+{{TitleProperty|Vertex 1 - Start}}
+
+-    **X1|Distance**: The X coordinate of the start point of the line. The default is {{Value|0mm}}.
+
+-    **Y1|Distance**: The Y coordinate of the start point of the line. The default is {{Value|0mm}}.
+
+-    **Z1|Distance**: The Z coordinate of the start point of the line. The default is {{Value|0mm}}.
+
+
+{{TitleProperty|Vertex 2 - Finish}}
+
+-    **X2|Distance**: The X coordinate of the end point of the line. The default is {{Value|10mm}}.
+
+-    **Y2|Distance**: The Y coordinate of the end point of the line. The default is {{Value|10mm}}.
+
+-    **Z2|Distance**: The Z coordinate of the end point of the line. The default is {{Value|10mm}}.
+
+## Scripting
+
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Line can be created with the {{Incode|addObject()}} method of the document:
+
+
+```python
+line = FreeCAD.ActiveDocument.addObject("Part::Line", "myLine")
+```
+
+-   Where {{Incode|"myLine"}} is the name for the object.
+-   The function returns the newly created object.
+
+Example:
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+line = doc.addObject("Part::Line", "myLine")
+line.X1 = 1
+line.Y1 = 3
+line.Z1 = 6
+line.X2 = 2
+line.Y2 = 3
+line.Z2 = 9
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

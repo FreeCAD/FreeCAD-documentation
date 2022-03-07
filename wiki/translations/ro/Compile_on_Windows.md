@@ -353,7 +353,7 @@ Here an example how to build FreeCAD from the Command line:
 
 The steps how to compile from the command line depends on the compiler. For MSVC 2017 the steps are:
 
-1.  In Windows\' start menu go to **Visual Studio 2017 → Visual Studio Tools** and choose **Developer Command Prompt for VS 2017**
+1.  In Windows start menu go to **Visual Studio 2017 → Visual Studio Tools** and choose **Developer Command Prompt for VS 2017**
 2.  Change to your build folder.
 3.  Execute the command
 
@@ -369,7 +369,7 @@ These steps can also be automaized. Here is for example a solution for MSVC 2017
 
 1.  Download the script [compile-FC.txt](https://forum.freecadweb.org/download/file.php?id=92135).
 2.  Rename it to *compile-FC.bat*
-3.  In Winddows\' file explorer Shift+Right-click on your build folder and use from the context menu *Command prompt here*.
+3.  In Windows file explorer Shift+Right-click on your build folder and use from the context menu *Command prompt here*.
 4.  Execute the command
 
 
@@ -453,10 +453,10 @@ FreeCAD uses [Qt](https://en.wikipedia.org/wiki/Qt_(software)) as toolkit for it
 
 To make Qt Designer aware of the FreeCAD widgets, you must
 
-1.  Download [this ZIP](https://forum.freecadweb.org/download/file.php?id=124239) file. (Compiled using Qt 5.12, see [below](#Compilation.md).)
-2.  Extract the DLL file in the ZIP and copy it
+1.  Download the [ZIP file](https://github.com/donovaly/FreeCAD-Qt-Designer-plugin/releases/tag/Qt-5.15.x-1). (Compiled using Qt 5.15, see [below](#Compilation.md).)
+2.  Extract the DLL file from the ZIP.
 
--   If you use the LibPack: to the folder*\~\\FreeCADLibs\_12.5.2\_x64\_VC17\\bin\\designer*Since there will only be a *bin* folder and you must first create the *designer* subfolder.
+-   If you use the LibPack: to the folder*\~\\FreeCADLibs\_12.5.4\_x64\_VC17\\bin\\designer*Since there will only be a *bin* folder and you must first create the *designer* subfolder.
 -   If you have a full Qt installation: you can choose between the folder*C:\\Qt\\5.15.2\\msvc2019\_64\\plugins\\designer*or*C:\\Qt\\5.15.2\\msvc2019\_64\\bin\\designer* (you must first create the *designer* subfolder.)(adapt the paths to your installation!).
 
 (Re)Start Qt Designer and check its menu **Help → Plugins**. If the plugin **FreeCAD\_widgets.dll** is listed as being loaded, you can now design and change FreeCAD\'s .ui files. If not, you must [compile](#Compilation.md) the DLL by yourself.
@@ -468,8 +468,8 @@ If you prefer using [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator) inste
 The DLL cannot be loaded as plugin if it was compiled using another Qt version than the one your Qt Designer/Qt Creator is based on. In this case you must compile the DLL by yourself. This is done the following way:
 
 1.  Change to the FreeCAD source folder*\~\\src\\Tools\\plugins\\widget*
-2.  Open a MSVC x64 command prompt using the Windows Start menu and change within it to the above folder. It is important that it is the x64 version of the MSVC command prompt!
-3.  Execute this command *D:\\FreeCAD-build\\FreeCADLibs\_12.5.2\_x64\_VC17\\bin\\qmake -t vclib plugin.pro*for a full Qt installation it is*C:\\Qt\\5.15.2\\msvc2019\_64\\bin\\qmake -t vclib plugin.pro* (adapt the paths to your installation!)
+2.  Open a *x64 Native Tool Command Prompt* using the Windows Start menu and change within it to the above folder. It is important that it is the x64 version of the command prompt!
+3.  Execute this command *D:\\FreeCAD-build\\FreeCADLibs\_12.5.4\_x64\_VC17\\bin\\qmake -t vclib plugin.pro*for a full Qt installation it is*C:\\Qt\\5.15.2\\msvc2019\_64\\bin\\qmake -t vclib plugin.pro* (adapt the paths to your installation!)
 4.  The call of *qmake* created the file **FreeCAD\_widgets.vcxproj** in the folder *\~\\src\\Tools\\plugins\\widget*. Double-click on it and the MSVC IDE will open.
 5.  In the toolbar of the MSVC IDE assure that you use the compilation target *Release*.
 6.  There is a window called *Solution Explorer*. Right-click there on **FreeCAD\_widgets** and then choose **Build**.

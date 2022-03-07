@@ -230,7 +230,6 @@ Jak to zrobić?
 ## Odnośniki internetowe 
 
 -   [Rozwinięcie blachy](Macro_Sheet_Metal_Unfolder/pl.md), oryginalna makrodefinicja, na której bazuje narzędzie Rozkładanie.
--   [Środowisko Arkusz Blachy](https://forum.freecadweb.org/viewtopic.php?t=11303) ogłoszenie na forum FreeCAD.
 -   [Angielski i francuski poradnik w formacie PDF](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) na forum FreeCAD.
 -   Zgłaszanie błędów/żądanie funkcji: <https://github.com/shaise/FreeCAD_SheetMetal/issues>.
 

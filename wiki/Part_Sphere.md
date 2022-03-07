@@ -10,43 +10,36 @@
 
 ## Description
 
-The <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [Part Sphere](Part_Sphere.md) command creates a parametric sphere solid.
+The <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> **Part Sphere** command creates a parametric sphere solid. It is the result of revolving a circular arc profile around an axis. In the coordinate system defined by its **Placement** property, the center of the sphere is positioned at the origin, and its axis of revolution is the Z axis.
 
-FreeCAD creates a sphere with a radius of 5 millimetre.
+A Part Sphere can be truncated at the top and/or bottom by changing its **Angle1** and/or **Angle2** properties. It can be turned into a segment of a sphere by changing its **Angle3** property.
 
-By default, the sphere is positioned with its center at the origin (0,0,0).
-
- ![](images/Part_Sphere_Example.png ) 
+ <img alt="" src=images/Part_Sphere_Example.png  style="width:400px;"> 
 
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Sphere.svg" width=16px> [Sphere](Part_Sphere.md)** button.
+    -   Press the **<img src="images/Part_Sphere.svg" width=16px> [Part Sphere](Part_Sphere.md)** button.
     -   Select the **Part → Primitives → <img src="images/Part_Sphere.svg" width=16px> Sphere** option from the menu.
+2.  The sphere is created.
+3.  Optionally change the dimensions and **Placement** of the sphere by doing one of the following:
+    -   Double-click the object in the [Tree view](Tree_view.md):
+        1.  The **Geometric Primitives** task panel opens.
+        2.  Change one or more properties.
+        3.  The object is dynamically updated in the [3D view](3D_view.md).
+        4.  Press the **OK** button.
+    -   Change the properties in the [Property editor](Property_editor.md).
+    -   Change the **Placement** with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
 
 ## Example
 
-![Part Sphere scripting example](images/Part_Sphere_Scripting_Example.png )
+![Part Sphere from the scripting example](images/Part_Sphere_Scripting_Example.png )
 
-A Part Sphere object with the values of the bottom scripting example are shown here.
+A Part Sphere object created with the [scripting example](#Scripting.md) below is shown here.
 
 ## Notes
 
-It is difficult to understand the meaning of the three angles.
-
-A full filled sphere is defined by:
-
--   Angle 1 = -90°
--   Angle 2 = 90°
--   Angle 3 = 360°
-
-If you increase or decrease these values, you will get a parted sphere.
-
-Angle 1 is defined as the angle between the x and z axis. 0° is equal to the x axis. Negative values are equal to the -z direction.
-
-Angle 2 is defined as the angle between the y and z axis. 0° is equal to the y axis. Positive values are equal to the z direction.
-
-Angle 3 is defined as the angle between the x and y axis. 0° is equal to the x axis. The angle rotation is counterclockwise.
+-   A Part Sphere can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
 
 ## Properties
 
@@ -57,62 +50,51 @@ A Part Sphere object is derived from a [Part Feature](Part_Feature.md) object an
 ### Data
 
 
+{{TitleProperty|Attachment}}
+
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
 {{TitleProperty|Sphere}}
 
--    **Radius|Length**: Radius of the sphere
+-    **Radius|Length**: The radius of the sphere. The default is {{Value|5mm}}.
 
--    **Angle1|Angle**: 1st angle to cut / define the sphere (angle between XZ axis)
+-    **Angle1|Angle**: The start angle of the circular arc profile of the sphere. Valid range: {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. May not be equal to **Angle2**. The default is {{Value|-90°}}.
 
--    **Angle2|Angle**: 2nd angle to cut / define the sphere (angle between YZ axis)
+-    **Angle2|Angle**: The end angle of the circular arc profile of the sphere. Valid range: {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. May not be equal to **Angle1**. The default is {{Value|90°}}. If the total angle of the arc profile is smaller than {{Value|180°}} the sphere will be truncated and have a flat face at the top and/or bottom.
 
--    **Angle3|Angle**: 3rd angle to cut / define the sphere (angle between XY axis)
-
-Because it is quite difficult to explain the meaning of the parameters angle 1, angle 2, angle 3, the picture below gives an explanation about these parameters with following values: angle 1 = -45°, angle 2 = 45° and angle 3= 90°.
-
- <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;"> 
-
-## Limitations
-
-If the Angle 1 and Angle 2 values are \'critical\' (e.g. both have a value of 45°), the sphere cutoffs are overlapping and the result is invisible.
+-    **Angle3|Angle**: The total angle of revolution of the sphere. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a sphere.
 
 ## Scripting
 
-A Part Sphere can be created using the following function:
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Sphere can be created with the {{Incode|addObject()}} method of the document:
 
  
 ```python
 sphere = FreeCAD.ActiveDocument.addObject("Part::Sphere", "mySphere")
 ```
 
--   Where {{Incode|mySphere}} is the user editable name for the object.
+-   Where {{Incode|"mySphere"}} is the name for the object.
 -   The function returns the newly created object.
 
-The label text of the object can be easily changed by
+Example:
 
  
 ```python
-sphere.Label = "new mySphereName"
-```
+import FreeCAD as App
 
-You can access and modify attributes of the {{Incode|sphere}} object.
+doc = App.activeDocument()
 
-For example, you may wish to modify the radius or the three angles of the sphere.
-
- 
-```python
+sphere = doc.addObject("Part::Sphere", "mySphere")
 sphere.Radius = 20
 sphere.Angle1 = -30
 sphere.Angle2 = 45
 sphere.Angle3 = 90
-```
+sphere.Placement = App.Placement(App.Vector(3, 9, 11), App.Rotation(75, 60, 30))
 
-The result will be a part of a sphere, that looks like a piece of cake.
-
-You can change its placement and orientation with:
-
- 
-```python
-sphere.Placement = FreeCAD.Placement(FreeCAD.Vector(1, 2, 3), FreeCAD.Rotation(75, 60, 30))
+doc.recompute()
 ```
 
 

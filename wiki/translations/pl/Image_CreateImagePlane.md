@@ -39,11 +39,11 @@ Jeśli początkowo nie podano żadnego odsunięcia dla obrazka, jego pozycję mo
 
 {{Properties Title|Płaszczyzna obrazu}}
 
+-    **Obraz płaszczyzny**: określa obraz, który ma być użyty dla tej płaszczyzny.
+
 -    **RozmiarX**: określa szerokość płaszczyzny obrazu.
 
 -    **RozmiarY**: określa wysokość płaszczyzny obrazu.
-
--    **Obraz płaszczyzny**: określa obraz, który ma być użyty dla tej płaszczyzny.
 
 
 

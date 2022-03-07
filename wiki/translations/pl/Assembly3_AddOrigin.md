@@ -10,7 +10,11 @@
 
 ## Description
 
-The <img alt="" src=images/Assembly_Add_Origin.svg  style="width:24px;"> [Add origin](Assembly3_AddOrigin.md) command does\...
+The <img alt="" src=images/Assembly_Add_Origin.svg  style="width:24px;"> [Add origin](Assembly3_AddOrigin.md) command adds an [Origin](App_OriginGroupExtension.md) object to a preselected assembly tree.
+
+The Origin object will be placed in the Parts container and it contains 6 sub-objects representing the X, Y, and Z axes and the XY, YZ, and XZ planes.
+
+<img alt="" src=images/_App_Assembly_Add_Origin-01.png  style="width:250px;"> <img alt="" src=images/_App_OriginGroupExtension-02.png  style="width:350px;">
 
 ## Usage
 

@@ -22,22 +22,18 @@
 | [FEM PostFilterWarp/ru](wiki/FEM PostFilterWarp/ru.md) | [FEM PostPipelineFromResult/ru](wiki/FEM PostPipelineFromResult/ru.md) | [FEM ResultShow/ru](wiki/FEM ResultShow/ru.md) |
 | [FEM ResultsPurge/ru](wiki/FEM ResultsPurge/ru.md) | [FEM SolverCalculiX/ru](wiki/FEM SolverCalculiX/ru.md) | [FEM SolverControl/ru](wiki/FEM SolverControl/ru.md) |
 | [FEM SolverRun/ru](wiki/FEM SolverRun/ru.md) | [FEM SolverZ88/ru](wiki/FEM SolverZ88/ru.md) | [FreeCAD Docker CLI mode/ru](wiki/FreeCAD Docker CLI mode/ru.md) |
-| [Lattice2 Workbench/ru](wiki/Lattice2 Workbench/ru.md) | [Manual:BIM modeling/ru](wiki/Manual_BIM modeling/ru.md) | [Material/ru](wiki/Material/ru.md) |
-| [OpenSCAD ColorCodeShape/ru](wiki/OpenSCAD ColorCodeShape/ru.md) | [Part BoxSelection/ru](wiki/Part BoxSelection/ru.md) | [Part CompSplittingTools/ru](wiki/Part CompSplittingTools/ru.md) |
-| [Part ElementCopy/ru](wiki/Part ElementCopy/ru.md) | [Part Ellipse/ru](wiki/Part Ellipse/ru.md) | [Part Ellipsoid/ru](wiki/Part Ellipsoid/ru.md) |
-| [Part Helix/ru](wiki/Part Helix/ru.md) | [Part Line/ru](wiki/Part Line/ru.md) | [Part Loft/ru](wiki/Part Loft/ru.md) |
-| [Part Mirror/ru](wiki/Part Mirror/ru.md) | [Part Offset/ru](wiki/Part Offset/ru.md) | [Part Plane/ru](wiki/Part Plane/ru.md) |
-| [Part Point/ru](wiki/Part Point/ru.md) | [Part PointsFromMesh/ru](wiki/Part PointsFromMesh/ru.md) | [Part RegularPolygon/ru](wiki/Part RegularPolygon/ru.md) |
-| [Part RuledSurface/ru](wiki/Part RuledSurface/ru.md) | [Part Spiral/ru](wiki/Part Spiral/ru.md) | [Part TransformedCopy/ru](wiki/Part TransformedCopy/ru.md) |
-| [Part Wedge/ru](wiki/Part Wedge/ru.md) | [Path Fixture/ru](wiki/Path Fixture/ru.md) | [Path Pocket 3D/ru](wiki/Path Pocket 3D/ru.md) |
-| [Path Postprocessor Customization/ru](wiki/Path Postprocessor Customization/ru.md) | [Path Sanity/ru](wiki/Path Sanity/ru.md) | [Path Shape/ru](wiki/Path Shape/ru.md) |
-| [Path Simulator/ru](wiki/Path Simulator/ru.md) | [Path Surface/ru](wiki/Path Surface/ru.md) | [Path ToolBit Library/ru](wiki/Path ToolBit Library/ru.md) |
-| [Path ToolController/ru](wiki/Path ToolController/ru.md) | [Path Tools/ru](wiki/Path Tools/ru.md) | [Path ToolShape/ru](wiki/Path ToolShape/ru.md) |
-| [Robot SetDefaultOrientation/ru](wiki/Robot SetDefaultOrientation/ru.md) | [SheetMetal Workbench/ru](wiki/SheetMetal Workbench/ru.md) | [Ship Loading/ru](wiki/Ship Loading/ru.md) |
-| [Ship PlotGZ/ru](wiki/Ship PlotGZ/ru.md) | [Ship TankCapacity/ru](wiki/Ship TankCapacity/ru.md) | [Sketcher ConstrainHorizontal/ru](wiki/Sketcher ConstrainHorizontal/ru.md) |
-| [Sketcher SelectElementsWithDoFs/ru](wiki/Sketcher SelectElementsWithDoFs/ru.md) | [Std MacroAttachDebugger/ru](wiki/Std MacroAttachDebugger/ru.md) | [TechDraw LinkDimension/ru](wiki/TechDraw LinkDimension/ru.md) |
-| [Transient FEM analysis/ru](wiki/Transient FEM analysis/ru.md) | [WikiPages/ru](wiki/WikiPages/ru.md) | [Windows packaging/ru](wiki/Windows packaging/ru.md) |
-|
+| [Lattice2 Workbench/ru](wiki/Lattice2 Workbench/ru.md) | [Manual:BIM modeling/ru](wiki/Manual_BIM modeling/ru.md) | [OpenSCAD ColorCodeShape/ru](wiki/OpenSCAD ColorCodeShape/ru.md) |
+| [Part BoxSelection/ru](wiki/Part BoxSelection/ru.md) | [Part CompSplittingTools/ru](wiki/Part CompSplittingTools/ru.md) | [Part ElementCopy/ru](wiki/Part ElementCopy/ru.md) |
+| [Part Loft/ru](wiki/Part Loft/ru.md) | [Part Mirror/ru](wiki/Part Mirror/ru.md) | [Part Offset/ru](wiki/Part Offset/ru.md) |
+| [Part PointsFromMesh/ru](wiki/Part PointsFromMesh/ru.md) | [Part RuledSurface/ru](wiki/Part RuledSurface/ru.md) | [Part TransformedCopy/ru](wiki/Part TransformedCopy/ru.md) |
+| [Path Fixture/ru](wiki/Path Fixture/ru.md) | [Path Pocket 3D/ru](wiki/Path Pocket 3D/ru.md) | [Path Postprocessor Customization/ru](wiki/Path Postprocessor Customization/ru.md) |
+| [Path Sanity/ru](wiki/Path Sanity/ru.md) | [Path Shape/ru](wiki/Path Shape/ru.md) | [Path Simulator/ru](wiki/Path Simulator/ru.md) |
+| [Path Surface/ru](wiki/Path Surface/ru.md) | [Path ToolBit Library/ru](wiki/Path ToolBit Library/ru.md) | [Path ToolController/ru](wiki/Path ToolController/ru.md) |
+| [Path Tools/ru](wiki/Path Tools/ru.md) | [Path ToolShape/ru](wiki/Path ToolShape/ru.md) | [Robot SetDefaultOrientation/ru](wiki/Robot SetDefaultOrientation/ru.md) |
+| [SheetMetal Workbench/ru](wiki/SheetMetal Workbench/ru.md) | [Ship Loading/ru](wiki/Ship Loading/ru.md) | [Ship PlotGZ/ru](wiki/Ship PlotGZ/ru.md) |
+| [Ship TankCapacity/ru](wiki/Ship TankCapacity/ru.md) | [Sketcher ConstrainHorizontal/ru](wiki/Sketcher ConstrainHorizontal/ru.md) | [Sketcher SelectElementsWithDoFs/ru](wiki/Sketcher SelectElementsWithDoFs/ru.md) |
+| [Std MacroAttachDebugger/ru](wiki/Std MacroAttachDebugger/ru.md) | [TechDraw LinkDimension/ru](wiki/TechDraw LinkDimension/ru.md) | [Transient FEM analysis/ru](wiki/Transient FEM analysis/ru.md) |
+| [WikiPages/ru](wiki/WikiPages/ru.md) | [Windows packaging/ru](wiki/Windows packaging/ru.md) |
 
 
 

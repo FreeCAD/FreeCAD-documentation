@@ -13,13 +13,26 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Offset 2D di Parte costruisce un contorno, parallelo al contorno originale, ad una data distanza da esso. Oppure ingrandisce o restringe una faccia piana, in modo simile.
 
+
+</div>
+
 La faccia del contorno deve essere planare. In un oggetto ci possono essere più contorni, non necessariamente complanari.
 
 ![600px](images/Part_Offset2D_Demo.png)
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
@@ -28,13 +41,22 @@ La faccia del contorno deve essere planare. In un oggetto ci possono essere più
 3.  Impostare l\'offset nel [Pannello delle azioni](Task_Panel/it.md).
 4.  Premere **OK**.
 
+
+</div>
+
 Viene creato un oggetto parametrico Offset 2D. Gli oggetti originali vengono convertiti nella modalità di visualizzazione wireframe (solo linee).
 
 ## Proprietà
 
 -    **Source**: Link alla forma originale
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Value**La distanza a cui allargare la faccia del contorno. Se è negativa, la faccia del contorno si restringe.
+
+
+</div>
 
 -    **Mode**(\"Pipe\" or \"Skin\"): Imposta il modo in cui vengono elaborati i contorni non chiusi. Se \"Pipe\", il contorno è delineato come se fosse un contorno chiuso estremamente sottile. Se \"Skin\", viene creato un contorno aperto.
 
@@ -78,9 +100,21 @@ Viene creato un oggetto parametrico Offset 2D. Gli oggetti originali vengono con
 
 -   Allargando delle facce con fori circolari di una quantità sufficiente a chiudere i fori, si verifica un crash (OCC 7.0.0). Il problema sembra essere specifico per cerchi; le altre forme sembrano chiudersi in modo corretto.
 
+
+<div class="mw-translate-fuzzy">
+
 -   quando si applica l\'offset a cerchi che hanno un posizionamento diverso da zero, il risultato può essere posizionato in modo sbagliato. (OCC 7.0.0)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   quando si applica l\'offset ai cerchi, a volte essi sono scalati in direzione inattesa (per esempio verso l\'interno anziché verso l\'esterno). (OCC 7.0.0)
+
+
+</div>
 
 -   Fill=\"true\" non funziona quando si trattano collettivamente dei contorni aperti in modalità \"Skin\"
 
@@ -90,7 +124,16 @@ Viene creato un oggetto parametrico Offset 2D. Gli oggetti originali vengono con
 
 ## Script
 
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console python utilizzando la seguente funzione: {{code|code=
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console python utilizzando la seguente funzione:
+
+
+</div>
+
+
+{{code|code=
 f = App.ActiveDocument.addObject("Part::Offset2D", "Offset2D")
 f.Source =  #some object
 f.Value = 10.0

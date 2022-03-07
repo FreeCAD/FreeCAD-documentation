@@ -14,13 +14,13 @@ This category gathers documentation article mostly aimed at programmers
 | [FreeCAD Build Tool/pt-br](wiki/FreeCAD Build Tool/pt-br.md) | [FreeCAD Scripting Basics/pt-br](wiki/FreeCAD Scripting Basics/pt-br.md) | [Help FreeCAD/pt-br](wiki/Help FreeCAD/pt-br.md) |
 | [How to install macros/pt-br](wiki/How to install macros/pt-br.md) | [Installing on Linux/pt-br](wiki/Installing on Linux/pt-br.md) | [Introduction to Python/pt-br](wiki/Introduction to Python/pt-br.md) |
 | [Licence/pt-br](wiki/Licence/pt-br.md) | [Localisation/pt-br](wiki/Localisation/pt-br.md) | [Macros/pt-br](wiki/Macros/pt-br.md) |
-| [Material/pt-br](wiki/Material/pt-br.md) | [Multithreading/pt-br](wiki/Multithreading/pt-br.md) | [OpenCASCADE/pt-br](wiki/OpenCASCADE/pt-br.md) |
-| [Part scripting/pt-br](wiki/Part scripting/pt-br.md) | [Path scripting/pt-br](wiki/Path scripting/pt-br.md) | [Property/pt-br](wiki/Property/pt-br.md) |
-| [PySide/pt-br](wiki/PySide/pt-br.md) | [Python/pt-br](wiki/Python/pt-br.md) | [Scenegraph/pt-br](wiki/Scenegraph/pt-br.md) |
-| [Scripted objects/pt-br](wiki/Scripted objects/pt-br.md) | [Scripting and macros/pt-br](wiki/Scripting and macros/pt-br.md) | [Source code management/pt-br](wiki/Source code management/pt-br.md) |
-| [Source documentation/pt-br](wiki/Source documentation/pt-br.md) | [Start up and Configuration/pt-br](wiki/Start up and Configuration/pt-br.md) | [Testing/pt-br](wiki/Testing/pt-br.md) |
-| [The FreeCAD source code/pt-br](wiki/The FreeCAD source code/pt-br.md) | [Third Party Libraries/pt-br](wiki/Third Party Libraries/pt-br.md) | [Third Party Tools/pt-br](wiki/Third Party Tools/pt-br.md) |
-| [Topological data scripting/pt-br](wiki/Topological data scripting/pt-br.md) | [Tracker/pt-br](wiki/Tracker/pt-br.md) |
+| [Multithreading/pt-br](wiki/Multithreading/pt-br.md) | [OpenCASCADE/pt-br](wiki/OpenCASCADE/pt-br.md) | [Part scripting/pt-br](wiki/Part scripting/pt-br.md) |
+| [Path scripting/pt-br](wiki/Path scripting/pt-br.md) | [Property/pt-br](wiki/Property/pt-br.md) | [PySide/pt-br](wiki/PySide/pt-br.md) |
+| [Python/pt-br](wiki/Python/pt-br.md) | [Scenegraph/pt-br](wiki/Scenegraph/pt-br.md) | [Scripted objects/pt-br](wiki/Scripted objects/pt-br.md) |
+| [Scripting and macros/pt-br](wiki/Scripting and macros/pt-br.md) | [Source code management/pt-br](wiki/Source code management/pt-br.md) | [Source documentation/pt-br](wiki/Source documentation/pt-br.md) |
+| [Start up and Configuration/pt-br](wiki/Start up and Configuration/pt-br.md) | [Testing/pt-br](wiki/Testing/pt-br.md) | [The FreeCAD source code/pt-br](wiki/The FreeCAD source code/pt-br.md) |
+| [Third Party Libraries/pt-br](wiki/Third Party Libraries/pt-br.md) | [Third Party Tools/pt-br](wiki/Third Party Tools/pt-br.md) | [Topological data scripting/pt-br](wiki/Topological data scripting/pt-br.md) |
+| [Tracker/pt-br](wiki/Tracker/pt-br.md) |
 
 
 

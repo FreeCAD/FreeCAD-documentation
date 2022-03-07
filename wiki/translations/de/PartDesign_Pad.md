@@ -4,74 +4,41 @@
    Name/de:PartDesign Polster
    MenuLocation:PartDesign → Erstelle ein additives Formelement → Polstern
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   SeeAlso:[PartDesign Tasche](PartDesign_Pocket/de.md)
+   SeeAlso:[PartDesign Tasche](PartDesign_Pocket/de.md), [Part Extrudieren](Part_Extrude/de.md)
 ---
 
 # PartDesign Pad/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Aufpolsterung](PartDesign_Pad/de.md)** Werkzeug extrudiert eine Skizze zu einem Festkörper senkrecht zur Ebene der Skizzenfläche. Ab {{VersionPlus/de|0.17}} können auch Flächen auf dem Festkörper verwendet werden.
-
-
-</div>
+Das Werkzeug **Aufpolsterung** extrudiert eine Skizze oder eine Fläche eines Volumenkörpers entlang eines geraden Pfades.
 
 ![](images/PartDesign_Pad_example.svg )
 
 *Skizze (A) links und der daraus resultierende Festkörper (B) rechts.*
 
-## Benutzung
+## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle die Skizze, die aufgepolstert werden soll. **Anmerkung:** Ab <small>(v0.17)</small>  kann alternativ eine Fläche auf dem bestehenden Festkörper verwendet werden.
-2.  Drücke die **<img src="images/PartDesign_Pad.svg" width=16px> '''Aufpolstern'''** Taste.
+1.  Eine Skizze oder Fläche auswählen, die extrudiert werden soll. Ab <small>(v0.20)</small>  können wahlweise mehrere Skizzen oder Flächen ausgewählt werden.
+2.  Drücke die Schaltfläche **<img src="images/PartDesign_Pad.svg" width=16px> '''Aufpolsterung'''**.
 3.  Setze die Aufpolsterparameter, siehe [Optionen](#Options.md) unten.
 4.  Klicke **OK**.
 
-
-</div>
-
-When selecting a single sketch, it can have multiple enclosed profiles inside a larger one, for example a rectangle with two circles inside it. But the profiles may not intersect each other. <small>(v0.20)</small> 
+Wenn eine einzelne Skizze ausgewählt wird, kann sie mehrere geschlossene Konturen innerhalb einer größeren enthalten, z.B. ein Rechteck mit zwei Kreisen darin. Die Konturen dürfen sich nur nicht überlappen. {{Version/de|0.20}}
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
-Währen des Aufpolsterns schaltet die Kombiansicht in den Aufgabenbereich und zeigt dort den **Parameter der Aufpolsterung** Dialog.
-
-
-</div>
+Währen des Extrudierens wird der Dialog **Parameter der Aufpolsterung** angezeigt. Er bietet folgende Einstellungen:
 
 ![](images/pad_parameters_cropped.png )
 
 ### Typ
 
-
-<div class="mw-translate-fuzzy">
-
-Typ bietet fünf verschiedene Möglichkeiten zum Festlegen der Länge, auf welche extrudiert werden soll.
-
-
-</div>
+Typ bietet fünf verschiedene Möglichkeiten zum Festlegen der Länge, auf welche extrudiert werden soll:
 
 #### Bemaßung
 
-
-<div class="mw-translate-fuzzy">
-
-Gib einen numerischen Wert für die Länge des Polsters ein. Die Standardrichtung für die Extrusion ist in Richtung positiver Normale des extrudierten Objekts, dies kann geändert werden, indem Sie die Option \'\' \'Umgekehrt\' \'\' ankreuzen. Extrusionen erfolgen [normal](http://en.wikipedia.org/wiki/Surface_normal) zur definierenden Ebene. Mit der Option \'Symmetrisch zu Ebene\' \'wird die Fläche um die Hälfte der gegebenen Länge auf jede Seite der Ebene verlängert. Negative Dimensionen sind nicht möglich. Verwenden Sie stattdessen die Option \'\' \'Umgekehrt\' \'\'.
-
-
-</div>
+Für die Länge der Aufpolsterung gibt man einen numerischen Wert ein. Die Standardrichtung für die Extrusion ist in Richtung der positiven Normale des extrudierten Objekts. Dies kann geändert werden, indem die Option **Umgekehrt** angekreuzt wird. Extrusionen erfolgen standardmäßig [normal](http://en.wikipedia.org/wiki/Surface_normal) zur definierenden Skizzenebene. Dies kann durch Angabe einer anderen **Richtung** geändert werden. Mit der Option **Symmetrisch zu Ebene** wird die Fläche mit jeweils der halben gegebenen Länge auf beiden Seiten der Ebene verlängert. Negative Maße sind nicht möglich. Stattdessen verwendet man die Option **Umgekehrt**.
 
 #### Zur letzten 
 
@@ -83,45 +50,21 @@ Die Aufpolsterung wird in Extrusionsrichtung bis zur ersten Seite des tragenden 
 
 #### Bis zur Fläche 
 
-
-<div class="mw-translate-fuzzy">
-
-Die Aufpolsterung wird zu einer Fläche im Ausgangskörper extrudiert, welche durch Klicken ausgewählt werden kann. Wenn keine Fläche vorhanden ist, werden keine Auswahlmöglichkeiten akzeptiert.
-
-
-</div>
+Die Aufpolsterung wird zu einer Fläche im Modell extrudiert, die durch Anklicken ausgewählt werden kann.
 
 #### Zwei Abmessungen 
 
-
-<div class="mw-translate-fuzzy">
-
-Dies ermöglicht die Eingabe einer zweiten Länge, in der sich das Polster in die entgegengesetzte Richtung (in die Halterung) erstrecken soll. Auch hier kann die Länge durch anhaken der **Umgekehrt** Option geändert werden.
-
-
-</div>
+Dies ermöglicht die Eingabe einer zweiten Länge, in der sich die Aufpolsterung in die entgegengesetzte Richtung (in die Halterung) erstrecken soll. Auch hier kann die Länge durch anhaken der **Umgekehrt** Option geändert werden.
 
 ### Länge
 
-
-<div class="mw-translate-fuzzy">
-
-Definiert die Länge der Extrusion(m, cm, mm, nm, ft oder \', in oder \"). Einheiten können unabhängig von der gewählten Standardeinheit angegeben werden.
-
-
-</div>
+Definiert die Länge der Extrusion. Die Maßeinheiten können unabhängig von den Benutzervorgaben in den Einstellungen angegeben werden (m, cm, mm, nm, ft oder \', in oder \"). Diese Option ist nur verfügbar, wenn als **Typ** entweder **Abmessung** oder **Zwei Längen** gewählt wurde.
 
 ### Versatz zur Fläche 
 
+Versatz von der Fläche, an der die Aufpolsterung enden soll. Diese Option ist nur verfügbar, wenn als **Typ** entweder **Zur letzten**, **Zur ersten** oder **Bis zur Fläche** gewählt wurde.
 
-<div class="mw-translate-fuzzy">
-
-Versatz von der Fläche, in der das Polster enden soll. Diese Option ist nur verfügbar, wenn **Typ** entweder **Zur letzten**, **Zur ersten** oder **Bis zur Fläche** ist.
-
-
-</div>
-
-### Direction
+### Richtung
 
 #### Direction/edge
 
@@ -131,32 +74,11 @@ You can select the direction of the extrusion:
 -   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
 -   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
 
+### Richtung anzeigen 
 
-<div class="mw-translate-fuzzy">
+Wenn angehakt, wird die Polster Richtung angezeigt. Falls die Aufpolsterung eine **benutzerdefinierte Richtung** verwendet, kann diese geändert werden. {{Version/de|0.20}}
 
-### Verwende benutzerdefinierte Richtung 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-<small>(v0.19)</small> 
-
-Wenn angehakt, ist die Polster Richtung nicht der Normalenvektor der Skizze, sondern der vorgegebene Vektor. Die Polster Länge wird jedoch entsprechend der Richtung des Normalenvektors festgelegt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Länge entlang der Skizzennormalen 
-
-
-</div>
+#### Länge entlang der Skizzennormalen 
 
 Wenn angehakt, wird die Polsterlänge entlang der Skizzen Normalen gemessen, sonst entlang der benutzerdefinierten Richtung. {{Version/de|0.20}}
 

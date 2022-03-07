@@ -224,11 +224,17 @@ Translations:FEM Module/141/ru
 
 [FEM Concrete](FEM_Concrete/ru.md): интересная информация по теме моделирования бетонных конструкций.
 
-[FEM Project](FEM_project/ru.md) дополнительная информация о системе единиц измерения, ограничениях, а также об идеях развития и дорожной карте верстака.
+## Tutorials
+
+
+<div class="mw-translate-fuzzy">
 
 ## Учебники
 
 Учебник 1: [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/ru.md), базовый анализ балки с простой опорой.
+
+
+</div>
 
 Учебник 2: [Учебник по МКЭ](FEM_tutorial/ru.md), простой анализ натяжения конструкции.
 

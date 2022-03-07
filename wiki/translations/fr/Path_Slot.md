@@ -55,7 +55,8 @@ L\'objet Path Rainure est conçu pour faire partie d\'une <img alt="" src=images
 
 \'\'\' *Remarque* \'\'\': toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
@@ -108,7 +109,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Label**: nom d\'objet fourni par l\'utilisateur (UTF-8)
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: hauteur nécessaire pour supprimer les pinces et les obstructions.
 
@@ -125,7 +127,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:300px;"> 
 *Référence visuelle pour les propriétés de profondeur (paramètres)*
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: mettre à False pour empêcher l\'opération de générer du code.
 
@@ -141,7 +144,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **User Label**: étiquette attribuée par l\'utilisateur.
 
-#### Slot
+
+{{TitleProperty|Slot}}
 
 -    **Custom Point1**: entrez un point de départ personnalisé pour le chemin de la rainure.
 
@@ -165,7 +169,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Reverse Direction**: activez cette option pour inverser la direction de coupe du chemin de la rainure.
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: point de départ personnalisé pour le chemin de cette opération.
 
@@ -190,13 +195,13 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-#### Géométrie de base 
+### Géométrie de base 
 
 -   **Add**: ajoute les éléments sélectionnés qui devraient être la ou les bases du ou des chemins
 -   **Delete**: supprime les éléments sélectionnés dans la liste Géométrie de base.
 -   **Clear**: efface tous les éléments de la liste Géométrie de base.
 
-#### Profondeurs
+### Profondeurs
 
 -    **Start Depth**
     
@@ -207,7 +212,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Step Down**
     
 
-#### Hauteurs
+### Hauteurs
 
 -    **Safe Height**
     
@@ -215,7 +220,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Clearance Height**
     
 
-#### Opération
+### Opération
 
 -    **Tool Controller**: l\'outil et ses paramètres à utiliser pour cette opération
 

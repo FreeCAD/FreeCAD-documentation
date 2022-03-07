@@ -172,12 +172,8 @@ Inkscape имеет удобный инструмент для проверки 
 
    
   Я не могу разобрать всех деталей.   Цвета, которые вы выбрали, имеют плохое значение контрастности. Попробуйте использовать цвета, которые находятся дальше друг от друга в вашей 4-х тоновой палитре, то есть Подсвечивающий зелёный рядом с Подсвечивающим жёлтым будет трудно увидеть, сбросьте один из этих цветов до базового или тёмного.
-   
-
-
-{{Artwork}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/ru

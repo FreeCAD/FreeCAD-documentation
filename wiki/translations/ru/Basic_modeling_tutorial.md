@@ -30,7 +30,7 @@ So let\'s start by trying to do some iron feet for a table with these 2 methods.
 ## 1st Method - By Constructive Solid Geometry 
 
 1.  Start with the [Part Workbench](Part_Workbench.md) ![](images/Switch_PartWorkbench.JPG ).
-2.  If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click **File → New** or click the <img alt="" src=images/Document-new.png  style="width:32px;"> **Create a new empty document** icon.
+2.  If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click **File → New** or click the <img alt="" src=images/Std_New.svg  style="width:32px;"> **Create a new empty document** icon.
 3.  Click on the <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Box](Part_Box.md) button to create a box
 4.  Change its dimensions by selecting it either in the 3D space, or by clicking it in the Project tab to the left, then
 5.  Click on the Data tab at the bottom, and change values for Length, Width and Height to 50mm, 50 and 750 *(see Fig. 1.1)* **Note**: *back when these captures were taken, the properties were ordered differently, with Height being first*.
@@ -62,7 +62,7 @@ By the way, we can add rounds to the angle so it is more realistic, using the <i
 
 This method requires that you start by drawing a 2D profile. You need to activate the [Draft workbench](Draft_Workbench.md) ![](images/Switch_DraftWorkbench.JPG ).
 
--   If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click File → New or click the <img alt="" src=images/Document-new.png  style="width:32px;"> **Create a new empty document** icon.
+-   If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click File → New or click the <img alt="" src=images/Std_New.svg  style="width:32px;"> **Create a new empty document** icon.
 
 ### Setting the working plane 
 

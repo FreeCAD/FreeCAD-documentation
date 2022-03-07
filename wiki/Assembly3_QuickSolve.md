@@ -11,9 +11,13 @@
 
 ## Description
 
-The <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:24px;"> [Quick solve](Assembly3_QuickSolve.md) command starts the solver algorhythm that relocates all objects of an assembly according to the constraints in the <img alt="" src=images/Assembly_Assembly_Constraints_Tree.svg  style="width:16px;"> [Constraints container](Assembly3_CreateAssembly#Description.md).
+The <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:24px;"> [Quick solve](Assembly3_QuickSolve.md) command starts the solver algorithm that relocates all objects of an assembly according to the constraints in the <img alt="" src=images/Assembly_Assembly_Constraints_Tree.svg  style="width:16px;"> [Constraints container](Assembly3_CreateAssembly#Description.md).
+
+
 
 :   (Here\'s the space to put the differences to the <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:16px;"> [Resolve constraints](Assembly3_ResolveConstraints.md) command\...)
+
+
 
 ## Usage
 

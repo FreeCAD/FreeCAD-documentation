@@ -11,35 +11,66 @@
 
 ## Description
 
-Un cône paramétrique tronqué est une primitive disponible dans la barre d\'outils Part, ou dans le menu (primitives sub-menu) une boite de dialogue primitives géométriques est ouverte.
+La commande <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **Part Cône** crée un solide conique paramétrique. Dans le système de coordonnées défini par sa propriété **Placement**, la face inférieure du cône se trouve dans le plan XY avec son centre à l\'origine.
 
-<img alt="" src=images/Otherwisedefault270degree_Part_Cone.png  style="width:300px;"> 
-*Cône dont le paramètre "Angle" est réglé sur 270 degrés et tous les autres paramètres sont réglés sur leurs valeurs par défaut.*
+Le Part Cône par défaut est tronqué. On peut le transformer en un cône complet, non tronqué, en donnant la valeur zéro à sa propriété **Radius1** ou **Radius2**. Il peut être transformé en un segment de cône en modifiant sa propriété **Angle**.
+
+<img alt="" src=images/Part_Cone_Example.png  style="width:400px;">
 
 ## Utilisation
 
-1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Atelier Part](Part_Workbench/fr.md)
-2.  Lancez la commande de deux manières:
-    -   Appuyez sur le bouton **<img src="images/Part_Cone.svg" width=16px> Cône** dans la barre d\'outils.
-    -   Sélectionnez **Pièce → Primitives → <img src="images/Part_Cone.svg" width=16px> Cône** dans la barre de menus.
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Part_Cone.svg" width=16px> [Cône](Part_Cone/fr.md)**.
+    -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Cone.svg" width=16px> Cône** dans le menu.
+2.  Le cône est créé.
+3.  Vous pouvez éventuellement modifier les dimensions et **Placement** du cône en effectuant l\'une des opérations suivantes :
+    -   Double-cliquez sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md) :
+        1.  Le panneau de tâches **Primitives géométriques** s\'ouvre.
+        2.  Modifiez une ou plusieurs propriétés.
+        3.  L\'objet est mis à jour dynamiquement dans la [Vue 3D](3D_view/fr.md).
+        4.  Appuyez sur le bouton **OK**.
+        5.  Modifiez les propriétés dans la [Éditeur de propriétés](Property_editor/fr.md).
+    -   Changez la **Placement** avec <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
 
-**Résultat:** les valeurs par défaut créent un cône paramétrique tronqué qui est positionné à l\'origine (point 0,0,0) et attaché au plan xy global. Sa hauteur de 10 mm se situe le long de l\'axe z global. Le rayon inférieur **Radius 1** est de 2 mm, le rayon supérieur **Radius 2** est de 4 mm.
+## Exemple
 
-Les propriétés du cône peuvent être éditées ultérieurement, soit dans l\'[Éditeur de propriétés](Property_editor/fr.md), soit en double-cliquant sur le prisme dans la [Vue par arborescence](Tree_view/fr.md).
+![Part Cône à partir de l\'exemple du script](images/Part_Cone_Scripting_Example.png )
+
+Un objet Part Cône créé avec l\'[exemple du script](#Script.md) ci-dessous.
+
+## Remarques
+
+-   Un Part Cône peut également être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives/fr.md). Avec cette commande, vous pouvez spécifier les dimensions et le placement au moment de la création.
 
 ## Propriétés
 
--    **Radius 1**: Rayon de l\'arc ou du cercle définissant la face inférieure.
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
--    **Radius 2**: Rayon de l\'arc ou du cercle définissant la face supérieure.
+Un objet Part Cône est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
--    **Height**: Hauteur du cône de la pièce
+### Données
 
--    **Angle**: Nombre de degrés de l\'arc ou des cercles définissant les faces supérieure et inférieure du cône tronqué. La valeur par défaut de 360° crée des faces circulaires, une valeur inférieure créera une partie de cône définie par des faces supérieure et inférieure dont les bords sont définis par un arc du nombre de degrés et deux rayons.
+
+{{TitleProperty|Attachment}}
+
+L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Part_Part2DObject/fr#Donn.C3.A9es.md).
+
+
+{{TitleProperty|Cone}}
+
+-    **Radius1|Length**: Le rayon de la face inférieure du cône. Peut être {{Value|0mm}} si **Radius2** est supérieur à {{Value|0mm}}. La valeur par défaut est {{Value|2mm}}.
+
+-    **Radius2|Length**: Le rayon de la face supérieure du cône. Peut être {{Value|0mm}} si **Radius1** est supérieur à {{Value|0mm}}. La valeur par défaut est {{Value|4mm}}.
+
+-    **Height|Length**: La hauteur du cône. La valeur par défaut est {{Value|10mm}}.
+
+-    **Angle|Angle**: L\'angle de l\'arc de cercle qui définit la face supérieure et inférieure du cône. Plage valide : {{Value|0° &lt; value &lt;&#61; 360°}}. La valeur par défaut est {{Value|360°}}. Si elle est inférieure à {{Value|360°}}, le solide résultant sera un segment de cône.
 
 ## Script
 
-Un Part Cône peut être créé en utilisant la fonction suivante:
+Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+
+Un Part Cône est créé avec la méthode `addObject()` du document :
 
 
 ```python
@@ -48,6 +79,32 @@ cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 
 -   Où {{Incode|"myCone"}} est le nom de l\'objet.
 -   La fonction restitue l\'objet nouvellement créé.
+
+Exemple :
+
+
+```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+cone = doc.addObject("Part::Cone", "myCone")
+cone.Radius1 = 5
+cone.Radius2 = 10
+cone.Height = 50
+cone.Angle = 270
+cone.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(30, 60, 15))
+
+doc.recompute()
+```
+
+
+
+
+
+{{Part_Tools_navi
+
+}}
 
 
 

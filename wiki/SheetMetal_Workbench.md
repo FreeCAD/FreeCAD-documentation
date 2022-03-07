@@ -251,7 +251,6 @@ How to do ?
 ## Links
 
 -   [Macro Sheet Metal Unfolder](Macro_Sheet_Metal_Unfolder.md), the original macro the Unfold tool is based on.
--   [Sheet Metal Workbench](https://forum.freecadweb.org/viewtopic.php?t=11303) announcement on the FreeCAD Forum.
 -   [An English and French tutorial in PDF format](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) on the FreeCAD forum.
 -   Report bugs/Request features: <https://github.com/shaise/FreeCAD_SheetMetal/issues>.
 

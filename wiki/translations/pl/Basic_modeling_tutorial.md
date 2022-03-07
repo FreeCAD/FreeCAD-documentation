@@ -30,7 +30,7 @@ Zacznijmy więc od próby zrobienia kilku żelaznych nóg do stołu za pomocą t
 ## Metoda pierwsza - Konstrukcyjna geometria bryły 
 
 1.  Zacznij od środowiska pracy [Część](Part_Workbench/pl.md) ![](images/Switch_PartWorkbench.JPG ).
-2.  Jeśli nie otworzyłeś nowego dokumentu FreeCAD *(większość okna FreeCAD wygląda na nieaktywną)*, z rozwijanego menu kliknij **Plik → Nowy** lub kliknij przycisk <img alt="" src=images/Document-new.png  style="width:32px;">. **Utwórz nowy, pusty dokument**.
+2.  Jeśli nie otworzyłeś nowego dokumentu FreeCAD *(większość okna FreeCAD wygląda na nieaktywną)*, z rozwijanego menu kliknij **Plik → Nowy** lub kliknij przycisk <img alt="" src=images/Std_New.svg  style="width:32px;">. **Utwórz nowy, pusty dokument**.
 3.  Kliknij na przycisk <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Sześcian](Part_Box/pl.md), aby utworzyć sześcian.
 4.  Zmień jego wymiary wybierając go w przestrzeni 3D lub klikając na zakładce Projekt po lewej stronie, a następnie,
 5.  Kliknij na zakładkę Dane na dole i zmień wartości dla Długość, Szerokość i Wysokość na 50mm, 50 i 750 *(patrz rys. 1.1)* **Uwaga**: *w czasie, gdy te rysunki były wykonywane, właściwości były uporządkowane inaczej, wysokość była pierwsza*\'.
@@ -62,7 +62,7 @@ Przy okazji, możemy dodać zaokrąglenia do kątownika, aby wyglądał bardziej
 
 Ta metoda wymaga, abyś zaczął od narysowania profilu 2D. Musisz aktywować środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) ![](images/Switch_DraftWorkbench.JPG ).
 
--   Jeśli nie otworzyłeś nowego dokumentu FreeCAD *(większość okna FreeCAD wygląda na nieaktywne)*, z rozwijanego menu kliknij Plik → Nowy lub kliknij przycisk <img alt="" src=images/Document-new.png  style="width:32px;"> **Utwórz nowy pusty dokument**.
+-   Jeśli nie otworzyłeś nowego dokumentu FreeCAD *(większość okna FreeCAD wygląda na nieaktywne)*, z rozwijanego menu kliknij Plik → Nowy lub kliknij przycisk <img alt="" src=images/Std_New.svg  style="width:32px;"> **Utwórz nowy pusty dokument**.
 
 ### Ustawienie płaszczyzny roboczej 
 

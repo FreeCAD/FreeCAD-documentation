@@ -1,9 +1,10 @@
 ---
 - GuiCommand:/de
+   Name:Part Offset
    Name/de:Part Versatz
    MenuLocation:Part → 3D Versatz
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Dicke](Part_Thickness/de.md), [Part 2D-Versatz](Part_Offset2D/de.md)
+   SeeAlso:[Part Dicke](Part_Thickness/de.md), [Part 2D-Versatz](Part_Offset2D/de.md)
 ---
 
 # Part Offset/de

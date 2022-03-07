@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="width:24px;"> [Sichtbarkeit umschalten](Assembly3_TogglePartVisibility/de.md) macht\...
+Der Befehl <img alt="" src=images/Assembly_TogglePartVisibility.svg  style="width:24px;"> [Sichtbarkeit umschalten](Assembly3_TogglePartVisibility/de.md) schaltet die Sichtbarkeit des Part-Objekts, das mit einem vorausgewählten Element-Objekt verbunden ist, ein bzw. aus.
 
 ## Anwendung
 

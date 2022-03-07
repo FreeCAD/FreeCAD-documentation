@@ -11,8 +11,7 @@ This category collects pages about all the different file formats that FreeCAD i
 | [Draft SVG/pt-br](wiki/Draft SVG/pt-br.md) | [DXF/pt-br](wiki/DXF/pt-br.md) | [Export to STL or OBJ/pt-br](wiki/Export to STL or OBJ/pt-br.md) |
 | [File Format FCStd/pt-br](wiki/File Format FCStd/pt-br.md) | [FreeCAD and DWG Import/pt-br](wiki/FreeCAD and DWG Import/pt-br.md) | [FreeCAD and DXF Import/pt-br](wiki/FreeCAD and DXF Import/pt-br.md) |
 | [Import Export Preferences/pt-br](wiki/Import Export Preferences/pt-br.md) | [Import Export/pt-br](wiki/Import Export/pt-br.md) | [Import from STL or OBJ/pt-br](wiki/Import from STL or OBJ/pt-br.md) |
-| [Material/pt-br](wiki/Material/pt-br.md) | [Std Export/pt-br](wiki/Std Export/pt-br.md) | [Std Import/pt-br](wiki/Std Import/pt-br.md) |
-|
+| [Std Export/pt-br](wiki/Std Export/pt-br.md) | [Std Import/pt-br](wiki/Std Import/pt-br.md) |
 
 
 

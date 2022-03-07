@@ -1,5 +1,10 @@
 # Feature list/pt-br
+<div class="mw-translate-fuzzy">
+
 Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponibiliza. Se você quer ter uma noção do que vem por aí, consulte o [Development roadmap](Development_roadmap.md) para uma rápida visão geral. Além disso, recomenda-se consultar a página de[capturas de tela](Screenshots/pt-br.md).
+
+
+</div>
 
 
 {{TOCright}}
@@ -18,6 +23,9 @@ Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponib
 -   [Versão 0.20](Release_notes_0.20.md) - A ser anunciada
 
 ## Recursos Principais 
+
+
+<div class="mw-translate-fuzzy">
 
 -   ![](images/Feature1.jpg ) Um **kernel de geometria** completo com base na [tecnologia Open CASCADE](http://en.wikipedia.org/wiki/Open_CASCADE) que permite operações complexas formas 3D, com suporte nativo para sólidos B-rep [representação de limite](https://en.wikipedia.org/wiki/Boundary_representation), curvas e superfícies NURBS ([curvas B-spline não-uniformes e de base racional](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline)), uma ampla gama de possibilidades de geração de sólidos por operações booleanas e uso de [filetes (en)](https://en.wikipedia.org/wiki/Fillet_(mechanics)), e suporte integrado aos formatos [STEP](https://en.wikipedia.org/wiki/ISO_10303) e [IGES](https://en.wikipedia.org/wiki/IGES) 
 
@@ -41,6 +49,9 @@ Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponib
 
 -   ![](images/Feature_spreadsheet.png ) [Spreadsheet](Spreadsheet_Workbench/pt-br.md) e [Expressions](Expressions/pt-br.md), módulos que podem ser usados para desenvolver modelos baseados em fórmulas e organizar os dados dos modelos em um local central.
 
+
+</div>
+
 ## Recursos gerais: 
 
 -   **multiplataforma**. O FreeCAD roda e se comporta exatamente da mesma forma em Windows, Linux, macOS e outras plataformas.
@@ -51,7 +62,13 @@ Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponib
 
 -   **pode ser importado como um [módulo Python](Embedding_FreeCAD.md)**. O FreeCAD pode ser importado para qualquer aplicação que possa executar scripts em Python. Assim como ocorre no modo de linhas de comando, a interface gráfica do usuário (GUI) do FreeCAD não fica disponível, mas todas as ferramentas de geometria continuam acessíveis.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **conceito de bancada de trabalho**. Na interface gráfica de usuário (GUI) do FreeCAD, as ferramentas são agrupadas por [ bancada de trabalho](workbenches/pt-br.md). Cada bancada pode conter apenas as ferramentas utilizadas para realizar uma determinada tarefa, contribuindo para manter o espaço de trabalho livre e responsivo e permitindo que a aplicação seja carregada rapidamente.
+
+
+</div>
 
 -   **posibilidade de realizar o carregamento posterior de funções e dados, por meio das estruturas Plugin e Módulo**. O FreeCAD é constituído por uma aplicação-base e por vários módulos, que são carregados quando necessário. A maior parte das ferramentas e tipos de geometria são armazenadas em módulos. Os módulos se comportam como plug-ins, pois podem ser carregados automaticamente sob demanda, e módulos externos ao desenvolvimento base do FreeCAD podem ser adicionados ou removidos.
 
@@ -59,19 +76,43 @@ Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponib
 
 -   **criação paramétrica d eprimitivas geométricas**. Primitivas geométricas, como paralelepípedo, esfera, cilindro, etc. podem ser criadas a partir da especificação de suas restrições.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **operações de modificação gráfica**. O FreeCAD pode realizar operações de translação, rotação, escalonamento, espelhamento, deslocamento (de modo trivial ou conforme descrito em [Jung/Shin/Choi](https://www.researchgate.net/publication/240754626_Self-intersection_Removal_in_Triangular_Mesh_Offsetting)) ou conversão de formas, em qualquer plano do espaço 3D.
+
+
+</div>
 
 -   **[Geometria Construtiva de Sólidos](Constructive_solid_geometry/pt-br.md) por operações booleanas**. O FreeCAD pode fazer operações CSG para criar e editar sólidos por união, diferença e intersecção.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **criação de geometrias planas simples**. Linhas, segmentos, retângulos, b-splines e arcos circulares ou elípticos podem ser criados em qualquer plano do espaço 3D.
+
+
+</div>
 
 -   **modelagem de extrusões, seções ou filetes a partir do uso de perfis**, **que seguem uma direção reta** ou **que giram ao redor de um eixo**.
 
 -   **componentes topológicos** como *\'vértices*, *\'arestas*, **fios** e **planos**.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **teste e reparo**. FreeCAD tem ferramentas para testar a integridade de malhas (teste de sólidos, teste de superfícies (non-two-dimensional manifold), teste de auto-intersecção) e para reparar malhas (preenchimento de furos, orientação uniforme).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   **anotações**. O FreeCAD pode inserir anotações de texto ou dimensões.
+
+
+</div>
 
 -   **Desfazer/Refazer estrutura**. Tudo no FreeCAD é desfeito/refeito, com acesso do usuário à pilha de ações. Várias etapas podem ser desfeitas de uma vez.
 
@@ -79,27 +120,55 @@ Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponib
 
 -   **estrutura [scripting](Power_users_hub/pt-br.md) integrada**. O FreeCAD possui um interpretador [Python](http://www.python.org/) embutido, com uma API que cobre praticamente qualquer parte da aplicação, da interface, da geometria e da representação desta geometria no visualizador 3D. O interpretador pode executar comandos simples e scripts complexos; módulos inteiros podem ser programados completamente em Python.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **console Python embutido**. O interpretador Python inclui um console com os recursos de destaque de sintaxe, autocompletar e um navegador de classe. Os comandos em Python podem ser emitidos diretamente no FreeCAD e retornar resultados imediatamente, permitindo que os programadores realizaem testes em tempo real, explorem o conteúdo dos módulos do FreeCAD e aprendam mais facilmente como funcionam os comandos que estruturam o FreeCAD internamente.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   **espelha a interação do usuário**. Tudo o que o usuário faz na interface FreeCAD é executado por em código Python, que são impressos no console e podem ser gravados como macros.
 
+
+</div>
+
 -   **gravação e edição completa de [macros](Macros/pt-br.md)**. Os comandos Python, emitidos quando o usuário manipula a interface, podem ser gravados, editados e, se necessário, salvos para serem reproduzidos posteriormente.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **formato de salvamento de documento composto (baseado em ZIP)**. Os documentos FreeCAD são salvos com a extensão {{{Nome_do_Arquivo|.[FCStd](File_Format_FCStd/pt-br.md)}}}. O documento pode conter muitos tipos de informações, como a geometria dos objetos, scripts ou ícones em miniatura. O arquivo {{{FileName/pt-br|.FCStd}}} é um contêiner zip, ou seja, os dados de um documento FreeCAD, ao serem salvos, já são comprimidos em ZIP.
+
+
+</div>
 
 -   **interface gráfica do usuário totalmente personalizável/scriptável**. A interface [Qt](https://www.qt.io) do FreeCAD é inteiramente acessível através do interpretador Python. Além das simples funções que o próprio FreeCAD oferece às bancadas de trabalho, toda a estrutura Qt é acessível. O usuário pode realizar qualquer operação na GUI, como criar, adicionar, acoplar, modificar ou remover 'widgets' e barras de ferramentas.
 
 -   **thumbnailer**. (atualmente apenas sistemas Linux) Os ícones do documento FreeCAD mostram o conteúdo do arquivo na maioria das aplicações de gerenciamento de arquivos, como o Nautilus do Gnome.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **instalador MSI modular**. O instalador do FreeCAD permite instalações flexíveis em sistemas Windows. Os pacotes para sistemas Ubuntu também são mantidos.
 
-## Em desenvolvimento 
 
--   ![](images/Feature-assembly.jpg ) [ Assembly](Assembly_project/pt-br.md), módulo que permite trabalhar com vários projetos, várias formas, vários documentos, vários arquivos, vários relacionamentos\... Este módulo está atualmente em estado de planejamento.
+</div>
+
+## Extra Workbenches 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Bancadas de trabalho extras 
 
 Usuários avançados criaram várias [bancadas de trabalho externas](external_workbenches/pt-br.md) personalizadas.
+
+
+</div>
 
 
 

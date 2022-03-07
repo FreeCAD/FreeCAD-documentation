@@ -129,7 +129,8 @@ REMARQUE: à compter de mai 2019, seule la fraise en bout dispose d\'un type de 
 
 \'\'\' *Remarque* \'\'\': toutes ces propriétés ne sont pas disponibles dans l\'éditeur de fenêtre de tâches. Certaines ne sont accessibles que dans l\'onglet Données du panneau Vue de propriétés pour cette opération.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
@@ -182,7 +183,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Label**: nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
-#### Clearing Options 
+
+{{TitleProperty|Clearing Options}}
 
 -    **Bound Box**: si l\'opération est limitée par l\'objet stock ou par le cadre englobant de l\'objet de base
 
@@ -206,7 +208,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Step Over**: pourcentage de dépassement du chemin de coupe-goutte
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: hauteur nécessaire pour éviter les pinces et les obstructions.
 
@@ -218,13 +221,15 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Step Down**: abaissement incrémentiel de l\'outil.
 
-#### Mesh Conversion 
+
+{{TitleProperty|Mesh Conversion}}
 
 -    **Angular Deflection**: des valeurs plus petites donnent un maillage plus fin et plus précis. Des valeurs plus petites augmentent beaucoup le temps de traitement
 
 -    **Linear Deflection**: des valeurs plus petites donnent un maillage plus fin et plus précis. Des valeurs plus petites n\'augmentent pas beaucoup le temps de traitement mais peuvent augmenter la consommation de mémoire.
 
-#### Optimization
+
+{{TitleProperty|Optimization}}
 
 -    **Circular Use G2 G3**: Convertissez les arcs coplanaires en commandes gcode G2/G3 pour les motifs de coupe \Circular\ et\ CircularZigZag\
 
@@ -236,7 +241,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Optimize Step Over Transitions**: permet une optimisation distincte des transitions entre chaque étape sur la trajectoire
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: mettre à False pour empêcher l\'opération de générer du code.
 
@@ -252,7 +258,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **User Label**: étiquette attribuée par l\'utilisateur.
 
-#### Rotation
+
+{{TitleProperty|Rotation}}
 
 -    **Cutter Tilt**: définit l\'angle d\'inclinaison de la fraise (broche).
 
@@ -281,7 +288,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Stop Index**: index d\'arrêt (angle) pour la rotation
 
-#### Selected Geometry Settings 
+
+{{TitleProperty|Selected Geometry Settings}}
 
 -    **Avoid Last X Faces**: évite de couper les \"N\" dernières faces dans la liste Géométrie de base des faces sélectionnées
 
@@ -297,7 +305,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Internal Features Cut**: coupe des zones de fonction internes dans une face sélectionnée plus grande
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: point de départ personnalisé pour la trajectoire de cette opération, défini dans les sous-propriétés: x, y, z
 
@@ -318,11 +327,13 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Use Start Point**: mis à True, si vous spécifiez un point de départ
 
-#### Surface
+
+{{TitleProperty|Surface}}
 
 -    **Scan Type**: Planaire: scan de surface plane en 3D. Rotationnel: balayage rotationnel 4ème axe.
 
-#### Waste
+
+{{TitleProperty|Waste}}
 
 -    **Ignore Waste**: ignore les zones situées en dessous de la profondeur spécifiée.
 
@@ -334,7 +345,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 *Les descriptions des paramètres sont fournies dans la liste des propriétés ci-dessus.* Cette section est simplement une représentation des paramètres de l'éditeur de fenêtres pour l'opération.
 
-#### Base Location 
+### Localisation de la base 
 
 -   **Base Geometry import selection**: utilisez cette liste pour sélectionner la géométrie de base à importer à partir de l\'opération existante sélectionnée
 -   **Import**: importe la géométrie de base de l\'opération sélectionnée dans la liste des géométries de base des opérations courantes
@@ -343,7 +354,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -   **Remove**: supprimez les éléments sélectionnés dans la liste Base Location
 -   **Edit**: efface tous les éléments de la liste Base Location
 
-#### Depth 
+### Profondeurs
 
 -    **Start Depth**
     
@@ -354,7 +365,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Step Down**
     
 
-#### Height
+### Hauteurs
 
 -    **Safe Height**
     
@@ -362,7 +373,7 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 -    **Clearance Height**
     
 
-#### Opération
+### Opération
 
 -    **Tool Controller**
     

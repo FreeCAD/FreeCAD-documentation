@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil Multi-matériaux définit une liste de [matériaux](Material/fr.md) avec, pour chaque matériau, un nom et une valeur d\'épaisseur. Cette liste multi-matériaux peut ensuite être ajoutée à un objet [Arch](Arch_Workbench/fr.md) à la place d\'un seul [Arch Matériau](Arch_SetMaterial/fr.md).
+L\'outil Multi-matériaux définit une liste de [matériaux](Material.md) avec, pour chaque matériau, un nom et une valeur d\'épaisseur. Cette liste multi-matériaux peut ensuite être ajoutée à un objet [Arch](Arch_Workbench/fr.md) à la place d\'un seul [Arch Matériau](Arch_SetMaterial/fr.md).
 
 ![](images/Arch_multimaterial_example.png )
 

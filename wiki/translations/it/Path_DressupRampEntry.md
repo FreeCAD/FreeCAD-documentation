@@ -32,6 +32,12 @@ Questo strumento veste un percorso esistente per aggiungere una rampa
 -   **Dressup Start Depth** è la distanza sopra il livello target in cui inizia la rampa
 -   **UseStartDepth** indica che la rampa non inizia sopra il livello del grezzo. Se non è impostato su true, la prima rampa può essere più ripida del previsto.
 
+<img alt="" src=images/Ramp_method_1.png  style="width:" height="250px;"> <img alt="" src=images/Ramp_method_2.png  style="width:" height="250px;"> <img alt="" src=images/Ramp_method_3.png  style="width:" height="250px;"> 
+*From left to right: Ramp method 1, 2 and 3*
+
+<img alt="" src=images/Ramp_method_Helix.png  style="width:" height="250px;"> 
+*Ramp method Helix*
+
 
 
 

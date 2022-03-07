@@ -6,13 +6,7 @@
 
 Dies ist der wichtigste Hilfebereich für FreeCAD Neueinsteiger.
 
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD wird ständig weiterentwickelt, so dass es zu fehlenden oder veralteten Informationen kommen kann. Wenn du die Informationen, die du brauchst, nicht findest, zögere nicht, sie im [FreeCAD Forum](https://forum.freecadweb.org) zu erfragen.
-
-
-</div>
+FreeCAD wird ständig weiterentwickelt, so dass es zu fehlenden oder veralteten Informationen kommen kann. Wenn du die Informationen, die du brauchst, nicht findest, zögere nicht, sie im [FreeCAD-Forum](https://forum.freecadweb.org) zu erfragen.
 
 Wenn Du zu FreeCAD beitragen möchtest, [spende](donate/de.md) bitte und lies die [Hilf FreeCAD](Help_FreeCAD.md) Seite für andere Möglichkeiten, einen Beitrag zu leisten. Wenn Du dieses Wiki bearbeiten möchtest, fordere ein Wiki Konto mit Bearbeiterberechtigungen an [im Forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), und lies die [Wiki Seiten](WikiPages/de.md) für die allgemeinen Richtlinien, die Du befolgen solltest.
 

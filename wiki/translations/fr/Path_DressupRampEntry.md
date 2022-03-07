@@ -30,6 +30,12 @@ Cet outil ajoute au tracé existant une rampe d\'entrée à l\'usinage
 -   **Dressup Start Depth** est la distance au-dessus du niveau cible où la rampe commence
 -   **UseStartDepth** indique que la rampe ne commence pas au-dessus du niveau des stocks. Si elle n\'est pas définie sur true, la première rampe peut être plus raide que prévue.
 
+<img alt="" src=images/Ramp_method_1.png  style="width:" height="250px;"> <img alt="" src=images/Ramp_method_2.png  style="width:" height="250px;"> <img alt="" src=images/Ramp_method_3.png  style="width:" height="250px;"> 
+*De gauche à droite : Méthode de rampe 1, 2 et 3*
+
+<img alt="" src=images/Ramp_method_Helix.png  style="width:" height="250px;"> 
+*Méthode de rampe Hélice*
+
 
 
 

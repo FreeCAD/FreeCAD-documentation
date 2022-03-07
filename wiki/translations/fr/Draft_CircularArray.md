@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Draft PolarArray
    Name/fr:Draft Réseau circulaire
-   MenuLocation:Modification → Array tools → Circular array
+   MenuLocation:Modification → Outils de réseau → Réseau circulaire
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
@@ -25,8 +25,8 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md).
 
 1.  Optionnellement, sélectionnez un objet.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_CircularArray.svg" width=16px> [Circular Array](Draft_CircularArray/fr.md)**.
-    -   Sélectionnez l\'option **Modification → Array tools → <img src="images/Draft_CircularArray.svg" width=16px> Circular array** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Draft_CircularArray.svg" width=16px> [Réseau circulaire](Draft_CircularArray/fr.md)**.
+    -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_CircularArray.svg" width=16px> Réseau circulaire** dans le menu.
 3.  Le panneau de tâches **Réseau circulaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez en un.
 5.  Saisissez les paramètres requis dans le panneau des tâches.

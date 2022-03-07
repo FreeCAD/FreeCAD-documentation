@@ -1,63 +1,63 @@
 # Part Part2DObject/pl
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
 <img alt="" src=images/Tree_Part2D.svg  style="width:32px;">
 
-A [Part Part2DObject](Part_Part2DObject.md), or formally a `Part::Part2DObject`, is a simple element with a [topological shape](Part_TopoShape.md) that can be displayed in the [3D view](3D_view.md).
+Obiekt [Part2DObject](Part_Part2DObject/pl.md) środowiska Część, lub formalnie `Part::Part2DObject`, jest prostym elementem [kształtu topologicznego](Part_TopoShape/pl.md), który może być wyświetlany w oknie [widoku 3D](3D_view/pl.md).
 
-The `Part::Part2DObject` is derived from the [Part Feature](Part_Feature.md), but is specialized for 2D geometry, given that its shape will lie on a plane. This plane is defined by its **Placement** property (position, normal, and rotation). However, the plane can also be defined by supporting geometrical elements, such as the plane created by three arbitrary vertices, or a face of a solid body.
+Obiekt `Part::Part2DObject` wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md), ale jest wyspecjalizowany do geometrii 2D, ponieważ jego kształt będzie leżał na płaszczyźnie. Płaszczyzna ta jest zdefiniowana przez właściwość **Umiejscowienie** ( pozycja, normalna i obrót). Płaszczyzna może być jednak również zdefiniowana przez pomocnicze elementy geometryczne, takie jak płaszczyzna utworzona przez trzy dowolne wierzchołki lub ściana bryły.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
-*Simplified diagram of the relationships between the core objects in FreeCAD*
+*Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
-## Usage
+## Użycie
 
-The [Part Part2DObject](Part_Part2DObject.md) is an internal object, so it cannot be created from the graphical interface, only from the [Python console](Python_console.md) as described in the [Scripting](#Scripting.md) section.
+Obiekt [Part Part2DObject](Part_Part2DObject/pl.md) jest obiektem wewnętrznym, więc nie można go utworzyć z poziomu interfejsu graficznego, tylko z poziomu [konsoli Python](Python_console/pl.md) jak opisano w sekcji [tworzenie skryptów](Part_Feature/pl#Tworzenie_skrypt.C3.B3w.md).
 
-The `Part::Part2DObject` is defined in the [Part Workbench](Part_Workbench.md) but can be used as the base class for [scripted objects](Scripted_objects.md) in all [workbenches](Workbenches.md) that produce 2D geometrical shapes. For example, it is the base object for sketches ([Sketcher SketchObject](Sketcher_SketchObject.md)), and for most objects created with the [Draft Workbench](Draft_Workbench.md).
+Obiekt `Part::Part2DObject` jest zdefiniowany w środowisku pracy [Część](Part_Workbench/pl.md), ale może być używany jako klasa bazowa dla [obiektów tworzonych skryptami](Scripted_objects/pl.md) we wszystkich [środowiskach pracy](Workbenches/pl.md), które tworzą dwuwymiarowe kształty geometryczne. Na przykład, jest to obiekt bazowy dla szkiców *([obiektów szkicu](Sketcher_SketchObject/pl.md))* i dla większości obiektów tworzonych za pomocą środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md).
 
-Workbenches can add more properties to this basic element to produce an object with complex behavior.
+Środowisko pracy może dodać więcej właściwości do tego podstawowego elementu, aby stworzyć obiekt o złożonym wyglądzie.
 
-## Properties
+## Właściwości
 
-See [Property](Property.md) for all property types that scripted objects can have.
+Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwości, które mogą mieć obiekty tworzone skryptami.
 
-The [Part Part2DObject](Part_Part2DObject.md) (`Part::Part2DObject` class) is derived from the [Part Feature](Part_Feature.md) (`Part::Feature` class) and inherits all its properties.
+Obiekt [Part Part2DObject](Part_Part2DObject.md) *(klasa `Part::Part2DObject`)* wywodzi się z [Część: Cecha](Part_Feature.md) *(klasa `Part::Feature`)* i dziedziczy wszystkie jej właściwości.
 
-The Part Part2DObject also has the following additional properties in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
+Obiekt Part2DObject ma także następujące dodatkowe właściwości w obszarze [edytora właściwości](Property_editor/pl.md). Ukryte właściwości można pokazać za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym okna [edycji właściwości](Property_editor/pl.md).
 
-### Data
-
-
-{{TitleProperty|Attachment}}
-
--    **Attacher Type|String|Hidden**: class name of the attach engine object driving the attachment. It defaults to `Attacher::AttachEnginePlane`.
-
--    **Support|LinkSubList**: it is the plane or face supporting the 2D geometry. It defaults to an empty list `[]`.
-
--    **Map Mode|Enumeration**: {{value|Deactivated}} by default. This property determines a plane which the object will use as reference for 2D geometry. Clicking on the ellipsis **...** (three dots), to the right of the entry field starts the [Part EditAttachment](Part_EditAttachment.md) command that allows selecting the supporting plane by picking different elements in the [3D view](3D_view.md). The different modes are: {{value|Deactivated}}, {{value|Translate origin}}, {{value|Object's XY}}, {{value|Object's XZ}}, {{value|Object's YZ}}, {{value|Plane face}}, {{value|Tangent to surface}}, {{value|Normal to edge}}, {{value|Frenet NB}}, {{value|Frenet TN}}, {{value|Frenet TB}}, {{value|Concentric}}, {{value|Revolution section}}, {{value|Plane by 3 points}}, {{value|Normal to 3 points}}, {{value|Folding}}, {{value|Inertia 2-3}}, {{value|Align O-N-X}}, {{value|Align O-N-Y}}, {{value|Align O-X-Y}}, {{value|Align O-X-N}}, {{value|Align O-Y-N}}, {{value|Align O-Y-X}}.
-
--    **Map Reversed|Bool**: it defaults to `False`; if it is `True` the Z direction will be reversed. For example, a [sketch](sketch.md) will be flipped upside down. Hidden if **Map Mode** is {{value|Deactivated}}.
-
--    **Map Path Parameter|Float|Hidden**: sets point of curve to map a [sketch](sketch.md) to. It goes from {{value|0}} to {{value|1}}, which corresponds to the {{value|start}} and {{value|end}}. It defaults to {{value|0}}.
-
--    **Attachment Offset|Placement**: the position of the object in the [3D view](3D_view.md), with respect to the attachment object\'s placement. The placement is defined by a `Base` point (vector), and a `Rotation` (axis and angle). See [Placement](Placement.md). Hidden if **Map Mode** is {{value|Deactivated}}.
-
-## Scripting
+### Dane
 
 
-**See also:**
+{{TitleProperty|Dołączenie}}
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
+-    **Typ mocowania|String|ukryty**: nazwa klasy obiektu attach engine sterującego dołączeniem. Domyślnie jest to `Attacher::AttachEnginePlane`.
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
+-    **Podparcie|LinkSubList**: jest to płaszczyzna lub powierzchnia obsługująca geometrię 2D. Domyślnie jest to pusta lista `[]`.
 
-A Part2DObject is created with the `addObject()` method of the document.
+-    **Tryb odłączenia|Enumeration**: {{value|Dezaktywowany}} domyślnie. Ta właściwość określa płaszczyznę, która będzie używana przez obiekt jako odniesienie dla geometrii 2D. Kliknięcie na elipsę **...** *(trzy kropki)*, po prawej stronie pola edycyjnego, uruchamia polecenie [Część: Edycja mocowania](Part_EditAttachment.md), które umożliwia wybór płaszczyzny pomocniczej poprzez wybranie różnych elementów w oknie [widoku 3D](3D_view/pl.md). Dostępne są różne tryby: {{value|Deactivated}}, {{value|Przemieść położenie odniesienia}}, {{value|Objekt XY}}, {{value|Objekt XZ}}, {{value|Objekt YZ}}, {{value|Płaszczyzna ściany}}, {{value|Stycznie do powierzchni}}, {{value|Normalna do krawędzi}}, {{value|Frenet NB}}, {{value|Frenet TN}}, {{value|Frenet TB}}, {{value|Współśrodkowo}}, {{value|Płaszczyzna przez 3 punkty}}, {{value|Normalna do 3 punktów}}, {{value|Składanie}}, {{value|Bezwładność 2-3}}, {{value|Wyrównane O-N-X}}, {{value|Wyrównane O-N-Y}}, {{value|Wyrównane O-X-Y}}, {{value|Wyrównane O-X-N}}, {{value|Wyrównane O-X-N}}, {{value|Wyrównane O-Y-N}}, {{value|Wyrównane O-Y-X}}.
+
+-    **Dołączenie odwrotne|Bool**: wartość domyślna to {{FALSE/pl}}.Jeśli parametr ma wartość {{TRUE/pl}}, kierunek Z zostanie odwrócony. Na przykład [szkic](Sketch/pl.md) zostanie odwrócony do góry nogami. Ukryje, jeśli parametr **Tryb dołączenia** ma wartość {{value|Dezaktywowany}}.
+
+-    **Parametr ścieżki dołączenia|Float|ukryty**: ustawia punkt krzywej, na który ma być mapowany [szkic](Sketch/pl.md). Przebiega od {{value|0}} do {{value|1}}, co odpowiada wartościom {{value|początek}} i {{value|koniec}}. Domyślnie przyjmuje wartość {{value|0}}.
+
+-    **Odsunięcie mocowania|umocowanie**: pozycja obiektu w oknie [widoku 3D](3D_view/pl.md), w odniesieniu do umiejscowienia obiektu dołączonego. Położenie jest określone przez punkt `Bazowy` *(wektor)* i punkt `Obrotu` *(oś i kąt)*. Zobacz [Umiejscowienie](Placement/pl.md). Ukryje, jeśli **Tryb dołączenia** ma wartość {{value|Dezaktywowany}}.
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty skryptowe](Scripted_objects/pl.md).
+
+Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć w [Część: właściwość](Part_Feature/pl.md).
+
+Obiekt Part2DObject jest tworzony za pomocą metody `addObject()`.
 
 
 ```python
@@ -68,7 +68,7 @@ obj = App.ActiveDocument.addObject("Part::Part2DObject", "Name")
 obj.Label = "Custom label"
 ```
 
-For [Python](Python.md) subclassing you should create a `Part::Part2DObjectPython` object.
+Dlatego też, dla klasy podrzędnej [Python](Python/pl.md), powinieneś stworzyć obiekt `Part::Part2DObject`.
 
 
 ```python

@@ -11,7 +11,7 @@
 
 ## Beschreibung
 
-Das Multi-Material Werkzeug definiert eine Liste von [Materialien](Material/de.md) mit, für jedes Material, einen Namen und einem Dickenwert. Diese Multimaterialliste kann dann zu einem [Bogen](Arch_Workbench/de.md) Objekt anstelle eines einzelnen [Arch Material](Arch_SetMaterial/de.md) hinzugefügt werden.
+Das Multi-Material Werkzeug definiert eine Liste von [Materialien](Material.md) mit, für jedes Material, einen Namen und einem Dickenwert. Diese Multimaterialliste kann dann zu einem [Bogen](Arch_Workbench/de.md) Objekt anstelle eines einzelnen [Arch Material](Arch_SetMaterial/de.md) hinzugefügt werden.
 
 ![](images/Arch_multimaterial_example.png )
 

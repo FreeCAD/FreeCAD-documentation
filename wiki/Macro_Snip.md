@@ -73,9 +73,7 @@ You can bypass all scaling by holding down the Ctrl key while clicking the Ok bu
 
 ## Script
 
-ToolBar icon ![](images/Snip.png )
-
-
+ToolBar icon ![](images/Snip.png ) 
 
 **Macro\_Snip.FCMacro**
 

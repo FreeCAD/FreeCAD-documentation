@@ -9,6 +9,9 @@
 
 # Part Offset/ru
 
+
+</div>
+
 ## Описание
 
 The Part 3D Offset tool creates parallel copies of a selected shape at a certain distance from the base shape, giving a new object.

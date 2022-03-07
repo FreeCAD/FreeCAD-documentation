@@ -22,9 +22,6 @@ Il produit un rendu avec Blender 2.80 avec les moteurs de rendu EEVEE et Cycles.
 
 Une description similaire de ce processus est décrite dans une série de vidéos, [Render Solidworks and FreeCAD Models in Blender](https://www.youtube.com/watch?v=U7e6-Wfv2b0) par Joko Engineering.
 
-
-{{Note|Remarque: un moyen plus rapide de rendre des modèles dans Blender sans quitter FreeCAD peut être réalisé via <img src="images/render_workbench_icon.svg" width=24px>[module de rendus](Render_project/fr.md)|}}
-
 ## FreeCAD
 
 1\. Créez un assemblage en utilisant des corps de l\'[atelier Part](Part_Workbench/fr.md) ou [atelier PartDesign](PartDesign_Workbench/fr.md), ou de tout autre atelier produisant des objets solides, par exemple, l\'[atelier Arch](Arch_Workbench/fr.md). Attribuez des couleurs ou des matériaux aux corps individuels qui composent l\'assemblage, en correspondant approximativement à la couleur souhaitée dans votre rendu.

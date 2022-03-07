@@ -1,8 +1,8 @@
 ---
 - GuiCommand:
    Name:Part Wedge
-   MenuLocation:Part → Create primitives → Wedge
-   Workbenches:[Part](Part_Workbench.md)
+   MenuLocation:Part → [Create primitives](Part_Primitives.md) → Wedge
+   Workbenches:[Part](Part_Workbench.md), [OpenSCAD](OpenSCAD_Workbench.md)
    SeeAlso:[Part Primitives](Part_Primitives.md)
 ---
 
@@ -10,28 +10,23 @@
 
 ## Description
 
-The <img alt="" src=images/Part_Wedge.svg  style="width:24px;"> [Part Wedge](Part_Wedge.md) command creates a parametric wedge solid.
+A <img alt="" src=images/Part_Wedge.svg  style="width:24px;"> **Part Wedge** is a parametric solid that can be created with the <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives.md) command. It has four to six planar faces. It is defined by virtual front and rear main planes on which a rectangular face (the default), a single straight edge or a single vertex is created. These base shapes define the four quadrilateral or triangular faces that connect them. The resulting solid is only a true wedge if one of the base shapes is a rectangular face and the other a straight edge. In the coordinate system defined by its **Placement** property, the virtual front and rear main planes of the wedge are plane-parallel to XZ plane, and the edges of the base shapes are parallel to the X or Z axis. All its coordinates are relative to that coordinate system.
 
-FreeCAD creates a wedge, with a larger front square and a smaller back square.
-
-By default, the wedge is positioned with the lower left corner at the origin (0,0,0). The front square of the wedge is on the xz-plane. Its extension in x, y and z direction follows the positive axis values.
-
-![Screenshot of a Part Wedge solid with default values](images/Part_Wedge_Example.png )
+ <img alt="" src=images/Part_Wedge_Example.png  style="width:400px;"> 
 
 ## Usage
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Primitives.svg" width=16px> [Create Primitives...](Part_Primitives.md)** button.
-    -   Select the **Part → Create Primitives → <img src="images/Part_Primitives.svg" width=16px> Create Primitives...** option from the menu.
-    -   Select the **<img src="images/Part_Wedge.svg" width=16px> Wedge** option from the menu.
-2.  Set options and press **Create**.
-3.  To close the dialog press **Close**.
+See [Part Primitives](Part_Primitives#Usage.md).
 
 ## Example
 
-![Part Wedge scripting example](images/Part_Wedge_Scripting_Example.png )
+![Part Wedge from the scripting example](images/Part_Wedge_Scripting_Example.png )
 
-A Part Wedge object with the values of the bottom scripting example are shown here.
+A Part Wedge object created with the [scripting example](#Scripting.md) below is shown here.
+
+## Notes
+
+-   The values of the coordinates of the wedge must be such that a valid solid can be create. This means that the front and rear base shapes can both be single edges, but not if they are parallel. And if one of the base shapes is a vertex the other shape must be a rectangular face.
 
 ## Properties
 
@@ -42,51 +37,56 @@ A Part Wedge object is derived from a [Part Feature](Part_Feature.md) object and
 ### Data
 
 
+{{TitleProperty|Attachment}}
+
+The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+
+
 {{TitleProperty|Wedge}}
 
--    **Xmin|Length**: Base face X minimum value
+-    **Xmin|Distance**: The lowest X coordinate of the front face of the wedge. The default is {{Value|0mm}}.
 
--    **Ymin|Length**: Wedge height minimum value
+-    **Ymin|Distance**: The Y coordinate of the front face of the wedge. The default is {{Value|0mm}}.
 
--    **Zmin|Length**: Base face Z minimum value
+-    **Zmin|Distance**: The lowest Z coordinate of the front face of the wedge. The default is {{Value|0mm}}.
 
--    **X2min|Length**: Top face X minimum value
+-    **X2min|Distance**: The lowest X coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
 
--    **Z2min|Length**: Top face Z minimum value
+-    **Z2min|Distance**: The lowest Z coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
 
--    **Xmax|Length**: Base face X maximum value
+-    **Xmax|Distance**: The highest X coordinate of the front face of the wedge. The default is {{Value|10mm}}.
 
--    **Ymax|Length**: Wedge height maximum value
+-    **Ymax|Distance**: The Y coordinate of the rear face of the wedge. The default is {{Value|10mm}}.
 
--    **Zmax|Length**: Base face Z maximum value
+-    **Zmax|Distance**: The highest Z coordinate of the front face of the wedge. The default is {{Value|10mm}}.
 
--    **X2max|Length**: Top face X maximum value
+-    **X2max|Distance**: The highest X coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
 
--    **Z2max|Length**: Top face Z maximum value
+-    **Z2max|Distance**: The highest Z coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
 
 ## Scripting
 
-A Part Wedge is created with the {{Incode|addObject()}} method of the document.
+See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+A Part Wedge can be created with the {{Incode|addObject()}} method of the document:
 
  
 ```python
 wedge = FreeCAD.ActiveDocument.addObject("Part::Wedge", "myWedge")
 ```
 
--   Where {{Incode|myWedge}} is the name for the object. The name must be unique for the entire document.
+-   Where {{Incode|"myWedge"}} is the name for the object.
 -   The function returns the newly created object.
 
-The {{Incode|Label}} is the user editable name for the object. It can be easily changed by
-
- 
-```python 
-wedge.Label = "new myWedgeName"
-```
-
-You can access and modify attributes of the {{Incode|wedge}} object. For example, you may wish to modify the minimum or maximum coordinate parameters.
+Example:
 
  
 ```python
+import FreeCAD as App
+
+doc = App.activeDocument()
+
+wedge = doc.addObject("Part::Wedge", "myWedge")
 wedge.Xmin = 1
 wedge.Ymin = 2
 wedge.Zmin = 3
@@ -97,14 +97,15 @@ wedge.Ymax = 20
 wedge.Zmax = 55
 wedge.X2max = 10
 wedge.Z2max = 12
+wedge.Placement = App.Placement(App.Vector(1, 2, 3), App.Rotation(75, 60, 30))
+
+doc.recompute()
 ```
 
-You can change its placement and orientation with:
 
- 
-```python
-wedge.Placement = FreeCAD.Placement(FreeCAD.Vector(1, 2, 3), FreeCAD.Rotation(75, 60, 30))
-```
+
+
+ {{Part_Tools_navi}}
 
 
 

@@ -44,7 +44,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Std_DuplicateSelection.png  style="width:32px;"> [Duplica la selezione](Std_DuplicateSelection/it.md): duplica gli oggetti all\'interno del documento.
+-   <img alt="" src=images/Std_DuplicateSelection.svg  style="width:32px;"> [Duplica la selezione](Std_DuplicateSelection/it.md): duplica gli oggetti all\'interno del documento.
 
 
 </div>

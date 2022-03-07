@@ -1,5 +1,5 @@
 # Feature list
-This is an extensive, but not complete, list of features which FreeCAD implements. If you want to look into the future see the [Development roadmap](Development_roadmap.md) for a quick overview of what\'s coming next. Also, the [Screenshots](Screenshots.md) are a nice place to go.
+This is an extensive, but not complete, list of features which FreeCAD implements.
 
  
 
@@ -20,7 +20,7 @@ This is an extensive, but not complete, list of features which FreeCAD implement
 
 -   ![](images/Feature1.jpg ) A complete [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE)-based **geometry kernel** allowing complex 3D operations on complex shape types, with native support for concepts like [Boundary Representation](https://en.wikipedia.org/wiki/Boundary_representation) (BREP), [Non-uniform rational basis spline](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline) (NURBS) curves and surfaces, a wide range of geometric entities, boolean operations and [fillets](https://en.wikipedia.org/wiki/Fillet_(mechanics)), and built-in support of [STEP](https://en.wikipedia.org/wiki/ISO_10303) and [IGES](https://en.wikipedia.org/wiki/IGES) formats 
 -   ![](images/Feature3.jpg ) A full **parametric model**. All FreeCAD objects are natively parametric, meaning their shape can be based on [properties](Property.md) or even depend on other objects. All changes are recalculated on demand, and recorded by an undo/redo stack. New object types can be added easily, and can even be [fully programmed in Python](Scripted_objects.md).
--   ![](images/Feature4.jpg ) A **modular architecture** that allows plugin extensions (modules) to add functionality to the core application. An extension can be as complex as a whole new application programmed in C++ or as simple as a [Python script](Power_users_hub.md) or self-recorded [macro](macros.md). You have complete access to almost any part of FreeCAD from the built-in **Python** interpreter, macros or external scripts, be it [geometry creation and transformation](Topological_data_scripting.md), the 2D or 3D representation of that geometry ([scenegraph](scenegraph.md)) or even the [FreeCAD interface](PySide.md) 
+-   ![](images/Feature4.jpg ) A **modular architecture** that allows plugin extensions (modules) to add functionality to the core application. An extension can be as complex as a whole new application programmed in C++ or as simple as a [Python script](Power_users_hub.md) or self-recorded [macro](Macros.md). You have complete access to almost any part of FreeCAD from the built-in **Python** interpreter, macros or external scripts, be it [geometry creation and transformation](Topological_data_scripting.md), the 2D or 3D representation of that geometry ([scenegraph](Scenegraph.md)) or even the [FreeCAD interface](PySide.md) 
 -   ![](images/Feature5.jpg ) Import/export to **standard formats** such as [STEP](http://en.wikipedia.org/wiki/ISO_10303), [IGES](http://en.wikipedia.org/wiki/IGES), [OBJ](http://en.wikipedia.org/wiki/Obj), [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29), [DXF](http://en.wikipedia.org/wiki/Dxf), [SVG](http://en.wikipedia.org/wiki/Svg), [DAE](http://en.wikipedia.org/wiki/COLLADA), [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) or [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://en.wikipedia.org/wiki/NASTRAN), [VRML](http://en.wikipedia.org/wiki/VRML) in addition to FreeCAD\'s native {{FileName|[FCStd](File_Format_FCStd.md)}} file format. The level of compatibility between FreeCAD and a given file format can vary, since it depends on the module that implements it.
 -   ![](images/Feature7.jpg ) A [Sketcher](Sketcher_Workbench.md) with integrated constraint-solver, allowing you to sketch geometry-constrained 2D shapes. The constrained 2D shapes built with Sketcher may then be used as a base to build other objects throughout FreeCAD.
 -   ![](images/Feature9.jpg ) A [Robot simulation](Robot_Workbench.md) module that allows you to study robot movements in a graphical environment.
@@ -40,7 +40,7 @@ This is an extensive, but not complete, list of features which FreeCAD implement
 
 -   **can be imported as a [Python module](Embedding_FreeCAD.md)**. FreeCAD can be imported into any application that can run Python scripts. As in command line mode, the interface part of FreeCAD is unavailable, but all geometry tools are accessible.
 
--   **workbench concept**. In the FreeCAD interface, tools are grouped by [workbenches](workbenches.md). This allows you to display only the tools used to accomplish a certain task, keeping the workspace uncluttered and responsive, and allowing the application to load rapidly.
+-   **workbench concept**. In the FreeCAD interface, tools are grouped by [workbenches](Workbenches.md). This allows you to display only the tools used to accomplish a certain task, keeping the workspace uncluttered and responsive, and allowing the application to load rapidly.
 
 -   **plugin/module framework for late loading of features/data-types**. FreeCAD is divided into a core application with modules that are loaded only when needed. Almost all tools and geometry types are stored in modules. Modules behave like plugins; in addition to delayed loading, individual modules can be added to or removed from an existing installation of FreeCAD.
 
@@ -82,13 +82,9 @@ This is an extensive, but not complete, list of features which FreeCAD implement
 
 -   **modular MSI installer**. FreeCAD\'s installer allows flexible installations on Windows systems. Packages for Ubuntu systems are also maintained.
 
-## In development 
-
--   ![](images/Feature-assembly.jpg ) An [Assembly](Assembly_project.md) module that allows one to work with multiple projects, multiple shapes, multiple documents, multiple files, multiple relationships\... This module is currently in the planning state.
-
 ## Extra Workbenches 
 
-Power users have created various custom [external workbenches](external_workbenches.md).
+Power users have created various custom [external workbenches](External_workbenches.md).
 
 
 

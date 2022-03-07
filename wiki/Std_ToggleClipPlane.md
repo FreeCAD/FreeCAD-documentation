@@ -3,6 +3,7 @@
    Name:Std ToggleClipPlane
    MenuLocation:View → Clipping plane
    Workbenches:All
+   SeeAlso:[SectionCut](Part_SectionCut.md)
 ---
 
 # Std ToggleClipPlane

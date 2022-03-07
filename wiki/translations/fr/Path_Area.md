@@ -24,7 +24,8 @@ Vide
 
 ### Données
 
-#### Surface
+
+{{TitleProperty|Area}}
 
 -    **Operation**: -
 
@@ -46,7 +47,8 @@ Vide
 
 -    **ClipFill**: -
 
-#### Base
+
+{{TitleProperty|Base}}
 
 -    **Sources**: -
 
@@ -54,7 +56,8 @@ Vide
 
 -    **Label**: -
 
-#### Offset
+
+{{TitleProperty|Offset}}
 
 -    **Offset**: -
 
@@ -72,7 +75,8 @@ Vide
 
 -    **RoundPrecision**: -
 
-#### Pocket
+
+{{TitleProperty|Pocket}}
 
 -    **PocketMode**: -
 
@@ -94,7 +98,8 @@ Vide
 
 -    **Thicken**: -
 
-#### Section
+
+{{TitleProperty|Section}}
 
 -    **SectionCount**: -
 
@@ -108,7 +113,8 @@ Vide
 
 -    **Project**: -
 
-#### libarea
+
+{{TitleProperty|libarea}}
 
 -    **Tolerance**: -
 
@@ -128,7 +134,7 @@ Vide
 
 -    **ClipperScale**: -
 
-#### HIDDEN
+#### Hidden
 
 -    **ExpressionEngine**: -
 

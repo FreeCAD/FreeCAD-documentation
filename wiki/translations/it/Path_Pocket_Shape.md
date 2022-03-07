@@ -42,7 +42,8 @@ L\'oggetto Tasca di Path è fatto per essere parte di una [Lavorazione](Path_Job
 
 \'\'\' *Note* \'\'\': Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
@@ -95,7 +96,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Label**: User-provided name of the object (UTF-8)
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 
 <div class="mw-translate-fuzzy">
@@ -109,17 +111,20 @@ Note: It is suggested that you do not edit the Placement property of path operat
 <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
 *Visual reference for Depth properties (settings)*
 
-#### Extension
+
+{{TitleProperty|Extension}}
 
 -    **Extension Corners**: When enabled connected extension edges are combined to wires.
 
 -    **Extension Length Default**: Default length of extensions.
 
-#### Face
+
+{{TitleProperty|Face}}
 
 -    **Offset Pattern**: Clearing pattern to use. (Select in which manner the horizontal movements should be done.)
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: make False, to prevent operation from generating code
 
@@ -129,7 +134,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Tool Controller**: Defines the Tool controller used in the Operation
 
-#### Pocket
+
+{{TitleProperty|Pocket}}
 
 -    **Cut Mode**: Specifies a CW or CCW move for the cut
 
@@ -147,7 +153,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Zig Zag Angle**: Angle of the zigzag pattern. (Select the path angle relative to X axis.)
 
-#### Rotation
+
+{{TitleProperty|Rotation}}
 
 -    **Attempt Inverse Angle**: Automatically attempt Inverse Angle if initial rotation is incorrect.
 
@@ -158,7 +165,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Reverse Direction**: Reverse orientation of Operation by 180 degrees.
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: The start point of this path
 
@@ -168,13 +176,13 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Geometry 
+### Base Geometry 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: delete the selected item(s) in the Base Geometry list
 -   **Clear**: clear all items in the Base Geometry list
 
-#### Extensions
+### Extensions
 
 -    **Show All**: If selected, all potential extensions are visualized. Enabled extensions in purple, disabled extensions in yellow.
 
@@ -190,7 +198,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -   **Clear**
 
-#### Depth 
+### Depths
 
 -    **Start Depth**
     
@@ -201,7 +209,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Step Down**
     
 
-#### Height
+### Heights
 
 -    **Safe Height**
     
@@ -209,7 +217,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Clearance Height**
     
 
-#### Operation
+### Operation
 
 -    **Tool Controller**
     

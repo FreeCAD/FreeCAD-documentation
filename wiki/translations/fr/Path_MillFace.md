@@ -50,7 +50,8 @@ Vide
 
 ### Données
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
@@ -103,7 +104,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Label**: Nom de l\'objet fourni par l\'utilisateur (UTF-8)
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: hauteur nécessaire pour supprimer les pinces et les obstructions.
 
@@ -117,7 +119,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Step Down**: abaissement incrémentiel de l\'outil.
 
-#### Face
+
+{{TitleProperty|Face}}
 
 -    **BoundaryShape**: Forme à utiliser pour le calcul de la limite
 
@@ -127,7 +130,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Offset Pattern**: Motif de décalage à utiliser. (Sélectionnez de quelle manière les mouvements horizontaux doivent être effectués).
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: mettre à Falsepour empêcher l\'opération de générer du code.
 
@@ -143,7 +147,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **User Label**: étiquette attribuée par l\'utilisateur.
 
-#### Pocket
+
+{{TitleProperty|Pocket}}
 
 -    **Cut Mode**: La direction dans laquelle le parcours doit contourner la pièce : sens horaire (ClockWise = CW) ou anti sens horaire (CounterClockWise = CCW).
 
@@ -161,7 +166,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Keep Tool Down**: Tente d\'éviter les rétractions inutiles.
 
-#### Rotation
+
+{{TitleProperty|Rotation}}
 
 -    **Attempt Inverse Angle**: Tente automatiquement l\'angle inverse si la rotation initiale est incorrecte.
 
@@ -173,7 +179,8 @@ Remarque: il est conseillé de ne pas modifier la propriété Placement des opé
 
 -    **Reverse Direction**: Inverse l\'orientation de l\'opération de 180 degrés.
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: point de départ personnalisé pour le chemin de cette opération.
 

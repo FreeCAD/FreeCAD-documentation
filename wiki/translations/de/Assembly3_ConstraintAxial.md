@@ -28,7 +28,20 @@ Die unterschiedliche Geometriearten können gemischt werden.
 
 1.  Zwei oder mehr Objekte in einen Zusammenbau einfügen.
 2.  Je ein Element pro Objekt auswählen.
-3.  Schaltfläche**<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Axiale Ausrichtung](Assembly3_ConstraintAxial/de.md)** drücken.
+3.  Den Befehl <img alt="" src=images/Assembly_ConstraintAxial.svg  style="width:16px;"> [Assembly3 AxialeAusrichtung](Assembly3_ConstraintAxial/de.md) aktivieren durch
+    -   Die Schaltfläche **<img src="images/Assembly_ConstraintAxial.svg" width=16px> [Create "AxialAlignment" constraint](Assembly3_ConstraintAxial/de.md)**.
+
+## Kinematische Entsprechung 
+
+In einem kinematischen Zusammenhang stellt diese Bedingung ein **zylindrisches Gelenk** dar.
+
+In der Realität kann man nicht mit Achsen arbeiten, daher nutzt man Zylinderflächen als Ersatz für die verbundenen Achsen.
+
+<img alt="" src=images/Assembly3_ConstraintAxial-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_ConstraintAxial-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/Assembly3_ConstraintAxial-03.png  style="width:200px;">
+
+
+
+*Objekte mit gesetzter Bedingung vor und nach Aktivierung des Lösers und letztlich entlang der Achse verschoben*
 
 
 

@@ -148,13 +148,6 @@ These pages refer to the new workbench, programmed in Python, meant to replace t
 -   [Render Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=25933) (announcement only, no discussion)
 -   [FreeCAD Renderer Workbench improvements](https://forum.freecadweb.org/viewtopic.php?t=39168)
 
-**Outdated**
-
-These pages refer to a replacement workbench, programmed in C++, proposed around 2012, which was never completed.
-
--   [Raytracing project](Raytracing_project.md)
--   [Render project](Render_project.md)
-
 
 {{docnav|[Points Workbench](Points_Workbench.md)|[Reverse Engineering Workbench](Reverse_Engineering_Workbench.md)|IconL=PointsWorkbench.svg|IconR=ReverseEngineeringWorkbench.svg}}
 

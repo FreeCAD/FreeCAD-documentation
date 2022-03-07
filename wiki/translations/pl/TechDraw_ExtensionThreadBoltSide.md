@@ -1,30 +1,31 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionThreadBoltSide
-   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Bolt Side View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Geometria pomocnicza dla gwintu śruby, widok z boku
+   MenuLocation:Rysunek Techniczny → Rozszerzenie: Linie środka / gwinty → Geometria pomocnicza dla gwintu śruby, widok z boku
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md)
+   SeeAlso:[Geometria pomocnicza dla otworu gwintowanego, widok z boku](TechDraw_ExtensionThreadHoleSide/pl.md)
 ---
 
 # TechDraw ExtensionThreadBoltSide/pl
 
-## Description
+## Opis
 
-The <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw ExtensionThreadBoltSide** tool adds a cosmetic thread to the side view of a bolt/screw/rod.
+Narzędzie <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **Geometria pomocnicza dla gwintu śruby, widok z boku** dodaje kosmetyczną geometrię gwintu do widoku z boku śruby / wkręta / trzpienia.
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:300px;"> 
-*On the right a rod with a cosmetic thread*
+*Z prawej strony pręt z geometrią pomocniczą gwintu*
 
-## Usage
+## Użycie
 
-1.  Optionally specify the line attributes with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
-2.  Select two parallel lines.
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [TechDraw ExtensionThreadBoltSide](TechDraw_ExtensionThreadBoltSide.md)** button.
-    -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Add Cosmetic Thread Bolt Side View** option from the menu.
-4.  A cosmetic thread is added.
+1.  Opcjonalnie określ atrybuty linii za pomocą narzędzia <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [Wybierz atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md).
+2.  Wybierz dwie równoległe linie.
+3.  Istnieje kilka sposobów na wywołanie tego narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [Geometria pomocnicza dla gwintu śruby, widok z bokui](TechDraw_ExtensionThreadBoltSide/pl.md)**.
+    -   Wybierz polecenie z menu **Rysunek Techniczny → Rozszerzenie: Linie środka / gwinty → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Geometria pomocnicza dla gwintu śruby, widok z boku**.
+4.  Zostanie dodana geometria pomocnicza gwintu.
 
 
 

@@ -3,13 +3,7 @@
 
 Alle Makros sollten ordnungsgemäß dokumentiert werden, und zwar auf die gleiche Weise wie [Gui Befehle](Gui_Command/de.md) dokumentiert werden. Sie sollten eine eigene Wiki Seite haben und in einer der Kategorien unter [Makro Rezepte](Macros_recipes/de.md) aufgeführt sein.
 
-
-<div class="mw-translate-fuzzy">
-
-Die [Makro Rezepte](Macros_recipes/de.md) Seite hat eine gute Auswahl von Makros, die von erfahrenen Benutzern erstellt wurden, und viele von ihnen können direkt aus dem [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden.
-
-
-</div>
+Die [Makro Rezepte](Macros_recipes/de.md) Seite hat eine gute Auswahl von Makros, die von erfahrenen Benutzern erstellt wurden, und viele von ihnen können direkt aus dem [Addon-Manager](Std_AddonMgr/de.md) installiert werden.
 
 Siehe [GuiBefehl Modell](GuiCommand_model/de.md) und Makroseiten wie [Makro Ausformung](Macro_Loft/de.md) und [Makro Seite Aus Konturen](Macro_Site_From_Contours/de.md), um zu sehen, wie Makros dokumentiert werden sollten. Es sollten mindestens zwei Abschnitte enthalten sein, ein Abschnitt **Description** mit allgemeinen Informationen zur Verwendung und ein Abschnitt **Script**, der den eigentlichen Makrocode enthält. Bei Bedarf können weitere Abschnitte hinzugefügt werden, um die Verwendung des Makros näher zu erläutern.
 
@@ -163,13 +157,7 @@ Zum Beispiel:
 
 Es wird angezeigt als: {{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/e16ad9ea7b38c0c47e42aa3019be01dd1267a620/FCInfo_en_Ver_1-20_Docked.FCMacro}}
 
-
-<div class="mw-translate-fuzzy">
-
-Diese Vorlage muss am Anfang der Makroseite im Abschnitt **Beschreibung** platziert werden. Es muss der erste Codeblock in der Seite sein, damit der [Erweiterungsverwalter](Std_AddonMgr/de.md) <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> kann sie automatisch erkennen und importieren. Siehe [Makro KreisPlus](Macro_CirclePlus/de.md) für ein Verwendungsbeispiel.
-
-
-</div>
+Diese Vorlage muss am Anfang der Makroseite im Abschnitt **Beschreibung** platziert werden. Es muss der erste Codeblock in der Seite sein, damit der <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) sie automatisch erkennen und importieren kann. Siehe [Makro CirclePlus](Macro_CirclePlus.md) für ein Anwendungsbeispiel.
 
 
 {{ColoredParagraph|'''PS:''' Im Falle einer Aktualisierung in GitHub wird der Pfad des RAW Codes geändert, nicht vergessen, den Verweis in der Codeextralink Vorlage zu ändern.}}
@@ -205,13 +193,7 @@ Um diese Vorlage zu lokalisieren, verwende den entsprechenden Sprachverweis im e
 
 ## Hinzufügen des neuen Makros zum zentralen Repositorium 
 
-
-<div class="mw-translate-fuzzy">
-
-Um ein Makro aus dem [Erweiterungsverwalter](Std_AddonMgr/de.md) installierbar zu machen, sollte es in das zentrale [FreeCAD-Makros](https://github.com/FreeCAD/FreeCAD-macros) Repositorium aufgenommen werden.
-
-
-</div>
+Um ein Makro aus dem [Addon-Manager](Std_AddonMgr/de.md) installierbar zu machen, sollte es in das zentrale [FreeCAD-Makros](https://github.com/FreeCAD/FreeCAD-macros) -Repositorium aufgenommen werden.
 
 Um das Makro dort aufzunehmen, muss es zunächst von der FreeCAD Gemeinschaft im [Python scripting and macros](https://forum.freecadweb.org/viewforum.php?f=22) Unterforum überprüft werden. Sobald dies geschehen ist, sollte das FreeCAD-Makro Repositorium abgezweigt werden, das neue Makro sollte in einen Zweig aufgenommen werden, und dann sollte der Zweig gepusht und in das Upstream- Repositorium zusammengeführt werden.
 

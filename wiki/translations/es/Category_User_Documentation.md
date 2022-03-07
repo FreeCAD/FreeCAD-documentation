@@ -72,33 +72,32 @@ Esta categoría contiene artículos sobre la utilización de FreeCAD. También e
 | [Extend FEM Module/es](wiki/Extend FEM Module/es.md) | [External workbenches/es](wiki/External workbenches/es.md) | [Extra python modules/es](wiki/Extra python modules/es.md) |
 | [FCGear Workbench/es](wiki/FCGear Workbench/es.md) | [Feature editing/es](wiki/Feature editing/es.md) | [Feature list/es](wiki/Feature list/es.md) |
 | [FEM CalculiX Cantilever 3D/es](wiki/FEM CalculiX Cantilever 3D/es.md) | [FEM Install/es](wiki/FEM Install/es.md) | [FEM MaterialSolid/es](wiki/FEM MaterialSolid/es.md) |
-| [FEM Mesh/es](wiki/FEM Mesh/es.md) | [FEM PostPipelineFromResult/es](wiki/FEM PostPipelineFromResult/es.md) | [FEM project/es](wiki/FEM project/es.md) |
-| [FEM Shear of a Composite Block/es](wiki/FEM Shear of a Composite Block/es.md) | [FEM Solver/es](wiki/FEM Solver/es.md) | [FEM SolverCalculixCxxtools/es](wiki/FEM SolverCalculixCxxtools/es.md) |
-| [FEM Tutorial Python/es](wiki/FEM Tutorial Python/es.md) | [FEM tutorial/es](wiki/FEM tutorial/es.md) | [FEM Workbench/es](wiki/FEM Workbench/es.md) |
-| [File Format FCStd/es](wiki/File Format FCStd/es.md) | [FreeCAD and DWG Import/es](wiki/FreeCAD and DWG Import/es.md) | [FreeCAD and DXF Import/es](wiki/FreeCAD and DXF Import/es.md) |
-| [FreeCAD API/es](wiki/FreeCAD API/es.md) | [FreeCAD Build Tool/es](wiki/FreeCAD Build Tool/es.md) | [FreeCAD-Ship s60 tutorial (II)/es](wiki/FreeCAD-Ship s60 tutorial (II)/es.md) |
-| [FreeCAD-Ship s60 tutorial/es](wiki/FreeCAD-Ship s60 tutorial/es.md) | [FreeCADGui API/es](wiki/FreeCADGui API/es.md) | [Frequently asked questions/es](wiki/Frequently asked questions/es.md) |
-| [Getting started/es](wiki/Getting started/es.md) | [Git buildpackage/es](wiki/Git buildpackage/es.md) | [Glossary/es](wiki/Glossary/es.md) |
-| [GuiCommand model/es](wiki/GuiCommand model/es.md) | [Template:GuiCommand/es](wiki/Template_GuiCommand/es.md) | [Help FreeCAD/es](wiki/Help FreeCAD/es.md) |
-| [Help/es](wiki/Help/es.md) | [How to install additional workbenches/es](wiki/How to install additional workbenches/es.md) | [How to install macros/es](wiki/How to install macros/es.md) |
-| [IfcOpenShell/es](wiki/IfcOpenShell/es.md) | [Image CreateImagePlane/es](wiki/Image CreateImagePlane/es.md) | [Image Open/es](wiki/Image Open/es.md) |
-| [Image Workbench/es](wiki/Image Workbench/es.md) | [Import Export Preferences/es](wiki/Import Export Preferences/es.md) | [Import Export/es](wiki/Import Export/es.md) |
-| [Import OpenSCAD code/es](wiki/Import OpenSCAD code/es.md) | [Import/Export IFC - compiling IfcOpenShell/es](wiki/Import/Export IFC - compiling IfcOpenShell/es.md) | [Inspection Workbench/es](wiki/Inspection Workbench/es.md) |
-| [Installing additional components/es](wiki/Installing additional components/es.md) | [Installing Helpfile/es](wiki/Installing Helpfile/es.md) | [Installing on Linux/es](wiki/Installing on Linux/es.md) |
-| [Installing on Mac/es](wiki/Installing on Mac/es.md) | [Installing on Windows/es](wiki/Installing on Windows/es.md) | [Interface Customization/es](wiki/Interface Customization/es.md) |
-| [Interface/es](wiki/Interface/es.md) | [KicadStepUp Workbench/es](wiki/KicadStepUp Workbench/es.md) | [Licence/es](wiki/Licence/es.md) |
-| [Linux packaging/es](wiki/Linux packaging/es.md) | [Localisation/es](wiki/Localisation/es.md) | [Macro Align View to Face/es](wiki/Macro Align View to Face/es.md) |
-| [Macro ArrayCopy/es](wiki/Macro ArrayCopy/es.md) | [Macro Automatic drawing/es](wiki/Macro Automatic drawing/es.md) | [Macro Corner shapes wizard/es](wiki/Macro Corner shapes wizard/es.md) |
-| [Macro Draw 2D Function/es](wiki/Macro Draw 2D Function/es.md) | [Macro Draw Parametric 2D Function/es](wiki/Macro Draw Parametric 2D Function/es.md) | [Macro FlattenWire/es](wiki/Macro FlattenWire/es.md) |
-| [Macro HealArcs/es](wiki/Macro HealArcs/es.md) | [Macro JointWire/es](wiki/Macro JointWire/es.md) | [Macro Make Cube/es](wiki/Macro Make Cube/es.md) |
-| [Macro MeshToPart/es](wiki/Macro MeshToPart/es.md) | [Macro MessageBox/es](wiki/Macro MessageBox/es.md) | [Macro Mouse Cross/es](wiki/Macro Mouse Cross/es.md) |
-| [Macro PartsLibrary/es](wiki/Macro PartsLibrary/es.md) | [Macro Rectellipse/es](wiki/Macro Rectellipse/es.md) | [Macro Remove parametric history/es](wiki/Macro Remove parametric history/es.md) |
-| [Macro Rotate View/es](wiki/Macro Rotate View/es.md) | [Macro Solid Sweep/es](wiki/Macro Solid Sweep/es.md) | [Macro SuperWire/es](wiki/Macro SuperWire/es.md) |
-| [Macro Texture Objects/es](wiki/Macro Texture Objects/es.md) | [Macro View Rotation/es](wiki/Macro View Rotation/es.md) | [Template:Macro/es](wiki/Template_Macro/es.md) |
-| [Main Page/es](wiki/Main Page/es.md) | [Material/es](wiki/Material/es.md) | [Matrix API/es](wiki/Matrix API/es.md) |
-| [Mesh API/es](wiki/Mesh API/es.md) | [Mesh Workbench/es](wiki/Mesh Workbench/es.md) | [MIBA/es](wiki/MIBA/es.md) |
-| [Migrating to FreeCAD from Fusion360/es](wiki/Migrating to FreeCAD from Fusion360/es.md) | [Migrating to FreeCAD from OnShape/es](wiki/Migrating to FreeCAD from OnShape/es.md) | [Mouse navigation/es](wiki/Mouse navigation/es.md) |
-| [Naming project/es](wiki/Naming project/es.md) | [Object API/es](wiki/Object API/es.md) | [Object name/es](wiki/Object name/es.md) |
+| [FEM Mesh/es](wiki/FEM Mesh/es.md) | [FEM PostPipelineFromResult/es](wiki/FEM PostPipelineFromResult/es.md) | [FEM Shear of a Composite Block/es](wiki/FEM Shear of a Composite Block/es.md) |
+| [FEM Solver/es](wiki/FEM Solver/es.md) | [FEM SolverCalculixCxxtools/es](wiki/FEM SolverCalculixCxxtools/es.md) | [FEM Tutorial Python/es](wiki/FEM Tutorial Python/es.md) |
+| [FEM tutorial/es](wiki/FEM tutorial/es.md) | [FEM Workbench/es](wiki/FEM Workbench/es.md) | [File Format FCStd/es](wiki/File Format FCStd/es.md) |
+| [FreeCAD and DWG Import/es](wiki/FreeCAD and DWG Import/es.md) | [FreeCAD and DXF Import/es](wiki/FreeCAD and DXF Import/es.md) | [FreeCAD API/es](wiki/FreeCAD API/es.md) |
+| [FreeCAD Build Tool/es](wiki/FreeCAD Build Tool/es.md) | [FreeCAD-Ship s60 tutorial (II)/es](wiki/FreeCAD-Ship s60 tutorial (II)/es.md) | [FreeCAD-Ship s60 tutorial/es](wiki/FreeCAD-Ship s60 tutorial/es.md) |
+| [FreeCADGui API/es](wiki/FreeCADGui API/es.md) | [Frequently asked questions/es](wiki/Frequently asked questions/es.md) | [Getting started/es](wiki/Getting started/es.md) |
+| [Git buildpackage/es](wiki/Git buildpackage/es.md) | [Glossary/es](wiki/Glossary/es.md) | [GuiCommand model/es](wiki/GuiCommand model/es.md) |
+| [Template:GuiCommand/es](wiki/Template_GuiCommand/es.md) | [Help FreeCAD/es](wiki/Help FreeCAD/es.md) | [Help/es](wiki/Help/es.md) |
+| [How to install additional workbenches/es](wiki/How to install additional workbenches/es.md) | [How to install macros/es](wiki/How to install macros/es.md) | [IfcOpenShell/es](wiki/IfcOpenShell/es.md) |
+| [Image CreateImagePlane/es](wiki/Image CreateImagePlane/es.md) | [Image Open/es](wiki/Image Open/es.md) | [Image Workbench/es](wiki/Image Workbench/es.md) |
+| [Import Export Preferences/es](wiki/Import Export Preferences/es.md) | [Import Export/es](wiki/Import Export/es.md) | [Import OpenSCAD code/es](wiki/Import OpenSCAD code/es.md) |
+| [Import/Export IFC - compiling IfcOpenShell/es](wiki/Import/Export IFC - compiling IfcOpenShell/es.md) | [Inspection Workbench/es](wiki/Inspection Workbench/es.md) | [Installing additional components/es](wiki/Installing additional components/es.md) |
+| [Installing Helpfile/es](wiki/Installing Helpfile/es.md) | [Installing on Linux/es](wiki/Installing on Linux/es.md) | [Installing on Mac/es](wiki/Installing on Mac/es.md) |
+| [Installing on Windows/es](wiki/Installing on Windows/es.md) | [Interface Customization/es](wiki/Interface Customization/es.md) | [Interface/es](wiki/Interface/es.md) |
+| [KicadStepUp Workbench/es](wiki/KicadStepUp Workbench/es.md) | [Licence/es](wiki/Licence/es.md) | [Linux packaging/es](wiki/Linux packaging/es.md) |
+| [Localisation/es](wiki/Localisation/es.md) | [Macro Align View to Face/es](wiki/Macro Align View to Face/es.md) | [Macro ArrayCopy/es](wiki/Macro ArrayCopy/es.md) |
+| [Macro Automatic drawing/es](wiki/Macro Automatic drawing/es.md) | [Macro Corner shapes wizard/es](wiki/Macro Corner shapes wizard/es.md) | [Macro Draw 2D Function/es](wiki/Macro Draw 2D Function/es.md) |
+| [Macro Draw Parametric 2D Function/es](wiki/Macro Draw Parametric 2D Function/es.md) | [Macro FlattenWire/es](wiki/Macro FlattenWire/es.md) | [Macro HealArcs/es](wiki/Macro HealArcs/es.md) |
+| [Macro JointWire/es](wiki/Macro JointWire/es.md) | [Macro Make Cube/es](wiki/Macro Make Cube/es.md) | [Macro MeshToPart/es](wiki/Macro MeshToPart/es.md) |
+| [Macro MessageBox/es](wiki/Macro MessageBox/es.md) | [Macro Mouse Cross/es](wiki/Macro Mouse Cross/es.md) | [Macro PartsLibrary/es](wiki/Macro PartsLibrary/es.md) |
+| [Macro Rectellipse/es](wiki/Macro Rectellipse/es.md) | [Macro Remove parametric history/es](wiki/Macro Remove parametric history/es.md) | [Macro Rotate View/es](wiki/Macro Rotate View/es.md) |
+| [Macro Solid Sweep/es](wiki/Macro Solid Sweep/es.md) | [Macro SuperWire/es](wiki/Macro SuperWire/es.md) | [Macro Texture Objects/es](wiki/Macro Texture Objects/es.md) |
+| [Macro View Rotation/es](wiki/Macro View Rotation/es.md) | [Template:Macro/es](wiki/Template_Macro/es.md) | [Main Page/es](wiki/Main Page/es.md) |
+| [Matrix API/es](wiki/Matrix API/es.md) | [Mesh API/es](wiki/Mesh API/es.md) | [Mesh Workbench/es](wiki/Mesh Workbench/es.md) |
+| [MIBA/es](wiki/MIBA/es.md) | [Migrating to FreeCAD from Fusion360/es](wiki/Migrating to FreeCAD from Fusion360/es.md) | [Migrating to FreeCAD from OnShape/es](wiki/Migrating to FreeCAD from OnShape/es.md) |
+| [Mouse navigation/es](wiki/Mouse navigation/es.md) | [Object API/es](wiki/Object API/es.md) | [Object name/es](wiki/Object name/es.md) |
 | [Online Help Startpage/es](wiki/Online Help Startpage/es.md) | [Online Help Toc/es](wiki/Online Help Toc/es.md) | [OpenSCAD AddOpenSCADElement/es](wiki/OpenSCAD AddOpenSCADElement/es.md) |
 | [OpenSCAD ColorCodeShape/es](wiki/OpenSCAD ColorCodeShape/es.md) | [OpenSCAD CSG/es](wiki/OpenSCAD CSG/es.md) | [OpenSCAD Edgestofaces/es](wiki/OpenSCAD Edgestofaces/es.md) |
 | [OpenSCAD ExpandPlacements/es](wiki/OpenSCAD ExpandPlacements/es.md) | [OpenSCAD IncreaseToleranceFeature/es](wiki/OpenSCAD IncreaseToleranceFeature/es.md) | [OpenSCAD Preferences/es](wiki/OpenSCAD Preferences/es.md) |
@@ -143,35 +142,36 @@ Esta categoría contiene artículos sobre la utilización de FreeCAD. También e
 | [Plot Positions/es](wiki/Plot Positions/es.md) | [Plot Save/es](wiki/Plot Save/es.md) | [Plot Series/es](wiki/Plot Series/es.md) |
 | [Plot Workbench/es](wiki/Plot Workbench/es.md) | [Points Workbench/es](wiki/Points Workbench/es.md) | [Preferences Editor/es](wiki/Preferences Editor/es.md) |
 | [Property editor/es](wiki/Property editor/es.md) | [Python console/es](wiki/Python console/es.md) | [Qt Example/es](wiki/Qt Example/es.md) |
-| [Quality project/es](wiki/Quality project/es.md) | [Raytracing New/es](wiki/Raytracing New/es.md) | [Raytracing Workbench/es](wiki/Raytracing Workbench/es.md) |
-| [Raytracing WriteCamera/es](wiki/Raytracing WriteCamera/es.md) | [Raytracing WritePart/es](wiki/Raytracing WritePart/es.md) | [Raytracing WriteView/es](wiki/Raytracing WriteView/es.md) |
-| [Render project/es](wiki/Render project/es.md) | [Report view/es](wiki/Report view/es.md) | [Reverse Engineering Workbench/es](wiki/Reverse Engineering Workbench/es.md) |
-| [Robot 6-Axis/es](wiki/Robot 6-Axis/es.md) | [Robot API example/es](wiki/Robot API example/es.md) | [Robot CreateRobot/es](wiki/Robot CreateRobot/es.md) |
-| [Robot CreateTrajectory/es](wiki/Robot CreateTrajectory/es.md) | [Robot Edge2Trac/es](wiki/Robot Edge2Trac/es.md) | [Robot Export/es](wiki/Robot Export/es.md) |
-| [Robot InsertWaypoint/es](wiki/Robot InsertWaypoint/es.md) | [Robot InsertWaypointPre/es](wiki/Robot InsertWaypointPre/es.md) | [Robot RestoreHomePos/es](wiki/Robot RestoreHomePos/es.md) |
-| [Robot SetDefaultOrientation/es](wiki/Robot SetDefaultOrientation/es.md) | [Robot SetDefaultValues/es](wiki/Robot SetDefaultValues/es.md) | [Robot SetHomePos/es](wiki/Robot SetHomePos/es.md) |
-| [Robot Simulate/es](wiki/Robot Simulate/es.md) | [Robot TrajectoryCompound/es](wiki/Robot TrajectoryCompound/es.md) | [Robot TrajectoryDressUp/es](wiki/Robot TrajectoryDressUp/es.md) |
-| [Robot tutorial/es](wiki/Robot tutorial/es.md) | [Robot Workbench/es](wiki/Robot Workbench/es.md) | [Screenshots/es](wiki/Screenshots/es.md) |
-| [Selection API/es](wiki/Selection API/es.md) | [Selection methods/es](wiki/Selection methods/es.md) | [Ship Area/es](wiki/Ship Area/es.md) |
-| [Ship Geometries Examples/es](wiki/Ship Geometries Examples/es.md) | [Ship Hydrostatics/es](wiki/Ship Hydrostatics/es.md) | [Ship New/es](wiki/Ship New/es.md) |
-| [Ship Outline/es](wiki/Ship Outline/es.md) | [Ship Workbench/es](wiki/Ship Workbench/es.md) | [Sketch/es](wiki/Sketch/es.md) |
-| [Sketcher CarbonCopy/es](wiki/Sketcher CarbonCopy/es.md) | [Sketcher Clone/es](wiki/Sketcher Clone/es.md) | [Sketcher CloseShape/es](wiki/Sketcher CloseShape/es.md) |
-| [Sketcher CompCreateArc/es](wiki/Sketcher CompCreateArc/es.md) | [Sketcher CompCreateBSpline/es](wiki/Sketcher CompCreateBSpline/es.md) | [Sketcher CompCreateCircle/es](wiki/Sketcher CompCreateCircle/es.md) |
-| [Sketcher CompCreateConic/es](wiki/Sketcher CompCreateConic/es.md) | [Sketcher CompCreateRegularPolygon/es](wiki/Sketcher CompCreateRegularPolygon/es.md) | [Sketcher ConnectLines/es](wiki/Sketcher ConnectLines/es.md) |
-| [Sketcher ConstrainAngle/es](wiki/Sketcher ConstrainAngle/es.md) | [Sketcher ConstrainBlock/es](wiki/Sketcher ConstrainBlock/es.md) | [Sketcher ConstrainCoincident/es](wiki/Sketcher ConstrainCoincident/es.md) |
-| [Sketcher ConstrainDiameter/es](wiki/Sketcher ConstrainDiameter/es.md) | [Sketcher ConstrainDistance/es](wiki/Sketcher ConstrainDistance/es.md) | [Sketcher ConstrainDistanceX/es](wiki/Sketcher ConstrainDistanceX/es.md) |
-| [Sketcher ConstrainDistanceY/es](wiki/Sketcher ConstrainDistanceY/es.md) | [Sketcher ConstrainEqual/es](wiki/Sketcher ConstrainEqual/es.md) | [Sketcher ConstrainHorizontal/es](wiki/Sketcher ConstrainHorizontal/es.md) |
-| [Sketcher ConstrainInternalAlignment/es](wiki/Sketcher ConstrainInternalAlignment/es.md) | [Sketcher ConstrainLock/es](wiki/Sketcher ConstrainLock/es.md) | [Sketcher ConstrainParallel/es](wiki/Sketcher ConstrainParallel/es.md) |
-| [Sketcher ConstrainPerpendicular/es](wiki/Sketcher ConstrainPerpendicular/es.md) | [Sketcher ConstrainPointOnObject/es](wiki/Sketcher ConstrainPointOnObject/es.md) | [Sketcher ConstrainRadius/es](wiki/Sketcher ConstrainRadius/es.md) |
-| [Sketcher ConstrainSnellsLaw/es](wiki/Sketcher ConstrainSnellsLaw/es.md) | [Sketcher ConstrainSymmetric/es](wiki/Sketcher ConstrainSymmetric/es.md) | [Sketcher ConstrainTangent/es](wiki/Sketcher ConstrainTangent/es.md) |
-| [Sketcher ConstrainVertical/es](wiki/Sketcher ConstrainVertical/es.md) | [Sketcher Copy/es](wiki/Sketcher Copy/es.md) | [Sketcher Create3PointArc/es](wiki/Sketcher Create3PointArc/es.md) |
-| [Sketcher Create3PointCircle/es](wiki/Sketcher Create3PointCircle/es.md) | [Sketcher CreateArc/es](wiki/Sketcher CreateArc/es.md) | [Sketcher CreateArcOfEllipse/es](wiki/Sketcher CreateArcOfEllipse/es.md) |
-| [Sketcher CreateArcOfHyperbola/es](wiki/Sketcher CreateArcOfHyperbola/es.md) | [Sketcher CreateArcOfParabola/es](wiki/Sketcher CreateArcOfParabola/es.md) | [Sketcher CreateCircle/es](wiki/Sketcher CreateCircle/es.md) |
-| [Sketcher CreateEllipseBy3Points/es](wiki/Sketcher CreateEllipseBy3Points/es.md) | [Sketcher CreateEllipseByCenter/es](wiki/Sketcher CreateEllipseByCenter/es.md) | [Sketcher CreateFillet/es](wiki/Sketcher CreateFillet/es.md) |
-| [Sketcher CreateHeptagon/es](wiki/Sketcher CreateHeptagon/es.md) | [Sketcher CreateHexagon/es](wiki/Sketcher CreateHexagon/es.md) | [Sketcher CreateLine/es](wiki/Sketcher CreateLine/es.md) |
-| [Sketcher CreateOctagon/es](wiki/Sketcher CreateOctagon/es.md) | [Sketcher CreatePentagon/es](wiki/Sketcher CreatePentagon/es.md) | [Sketcher CreatePoint/es](wiki/Sketcher CreatePoint/es.md) |
-| [Sketcher CreatePolyline/es](wiki/Sketcher CreatePolyline/es.md) | [Sketcher CreateRectangle/es](wiki/Sketcher CreateRectangle/es.md) | [Sketcher CreateRegularPolygon/es](wiki/Sketcher CreateRegularPolygon/es.md) |
-| [Sketcher CreateSlot/es](wiki/Sketcher CreateSlot/es.md) | [Sketcher CreateSquare/es](wiki/Sketcher CreateSquare/es.md) |
+| [Raytracing New/es](wiki/Raytracing New/es.md) | [Raytracing Workbench/es](wiki/Raytracing Workbench/es.md) | [Raytracing WriteCamera/es](wiki/Raytracing WriteCamera/es.md) |
+| [Raytracing WritePart/es](wiki/Raytracing WritePart/es.md) | [Raytracing WriteView/es](wiki/Raytracing WriteView/es.md) | [Report view/es](wiki/Report view/es.md) |
+| [Reverse Engineering Workbench/es](wiki/Reverse Engineering Workbench/es.md) | [Robot 6-Axis/es](wiki/Robot 6-Axis/es.md) | [Robot API example/es](wiki/Robot API example/es.md) |
+| [Robot CreateRobot/es](wiki/Robot CreateRobot/es.md) | [Robot CreateTrajectory/es](wiki/Robot CreateTrajectory/es.md) | [Robot Edge2Trac/es](wiki/Robot Edge2Trac/es.md) |
+| [Robot Export/es](wiki/Robot Export/es.md) | [Robot InsertWaypoint/es](wiki/Robot InsertWaypoint/es.md) | [Robot InsertWaypointPre/es](wiki/Robot InsertWaypointPre/es.md) |
+| [Robot RestoreHomePos/es](wiki/Robot RestoreHomePos/es.md) | [Robot SetDefaultOrientation/es](wiki/Robot SetDefaultOrientation/es.md) | [Robot SetDefaultValues/es](wiki/Robot SetDefaultValues/es.md) |
+| [Robot SetHomePos/es](wiki/Robot SetHomePos/es.md) | [Robot Simulate/es](wiki/Robot Simulate/es.md) | [Robot TrajectoryCompound/es](wiki/Robot TrajectoryCompound/es.md) |
+| [Robot TrajectoryDressUp/es](wiki/Robot TrajectoryDressUp/es.md) | [Robot tutorial/es](wiki/Robot tutorial/es.md) | [Robot Workbench/es](wiki/Robot Workbench/es.md) |
+| [Screenshots/es](wiki/Screenshots/es.md) | [Selection API/es](wiki/Selection API/es.md) | [Selection methods/es](wiki/Selection methods/es.md) |
+| [Ship Area/es](wiki/Ship Area/es.md) | [Ship Geometries Examples/es](wiki/Ship Geometries Examples/es.md) | [Ship Hydrostatics/es](wiki/Ship Hydrostatics/es.md) |
+| [Ship New/es](wiki/Ship New/es.md) | [Ship Outline/es](wiki/Ship Outline/es.md) | [Ship Workbench/es](wiki/Ship Workbench/es.md) |
+| [Sketch/es](wiki/Sketch/es.md) | [Sketcher CarbonCopy/es](wiki/Sketcher CarbonCopy/es.md) | [Sketcher Clone/es](wiki/Sketcher Clone/es.md) |
+| [Sketcher CloseShape/es](wiki/Sketcher CloseShape/es.md) | [Sketcher CompCreateArc/es](wiki/Sketcher CompCreateArc/es.md) | [Sketcher CompCreateBSpline/es](wiki/Sketcher CompCreateBSpline/es.md) |
+| [Sketcher CompCreateCircle/es](wiki/Sketcher CompCreateCircle/es.md) | [Sketcher CompCreateConic/es](wiki/Sketcher CompCreateConic/es.md) | [Sketcher CompCreateRegularPolygon/es](wiki/Sketcher CompCreateRegularPolygon/es.md) |
+| [Sketcher ConnectLines/es](wiki/Sketcher ConnectLines/es.md) | [Sketcher ConstrainAngle/es](wiki/Sketcher ConstrainAngle/es.md) | [Sketcher ConstrainBlock/es](wiki/Sketcher ConstrainBlock/es.md) |
+| [Sketcher ConstrainCoincident/es](wiki/Sketcher ConstrainCoincident/es.md) | [Sketcher ConstrainDiameter/es](wiki/Sketcher ConstrainDiameter/es.md) | [Sketcher ConstrainDistance/es](wiki/Sketcher ConstrainDistance/es.md) |
+| [Sketcher ConstrainDistanceX/es](wiki/Sketcher ConstrainDistanceX/es.md) | [Sketcher ConstrainDistanceY/es](wiki/Sketcher ConstrainDistanceY/es.md) | [Sketcher ConstrainEqual/es](wiki/Sketcher ConstrainEqual/es.md) |
+| [Sketcher ConstrainHorizontal/es](wiki/Sketcher ConstrainHorizontal/es.md) | [Sketcher ConstrainInternalAlignment/es](wiki/Sketcher ConstrainInternalAlignment/es.md) | [Sketcher ConstrainLock/es](wiki/Sketcher ConstrainLock/es.md) |
+| [Sketcher ConstrainParallel/es](wiki/Sketcher ConstrainParallel/es.md) | [Sketcher ConstrainPerpendicular/es](wiki/Sketcher ConstrainPerpendicular/es.md) | [Sketcher ConstrainPointOnObject/es](wiki/Sketcher ConstrainPointOnObject/es.md) |
+| [Sketcher ConstrainRadius/es](wiki/Sketcher ConstrainRadius/es.md) | [Sketcher ConstrainSnellsLaw/es](wiki/Sketcher ConstrainSnellsLaw/es.md) | [Sketcher ConstrainSymmetric/es](wiki/Sketcher ConstrainSymmetric/es.md) |
+| [Sketcher ConstrainTangent/es](wiki/Sketcher ConstrainTangent/es.md) | [Sketcher ConstrainVertical/es](wiki/Sketcher ConstrainVertical/es.md) | [Sketcher Copy/es](wiki/Sketcher Copy/es.md) |
+| [Sketcher Create3PointArc/es](wiki/Sketcher Create3PointArc/es.md) | [Sketcher Create3PointCircle/es](wiki/Sketcher Create3PointCircle/es.md) | [Sketcher CreateArc/es](wiki/Sketcher CreateArc/es.md) |
+| [Sketcher CreateArcOfEllipse/es](wiki/Sketcher CreateArcOfEllipse/es.md) | [Sketcher CreateArcOfHyperbola/es](wiki/Sketcher CreateArcOfHyperbola/es.md) | [Sketcher CreateArcOfParabola/es](wiki/Sketcher CreateArcOfParabola/es.md) |
+| [Sketcher CreateCircle/es](wiki/Sketcher CreateCircle/es.md) | [Sketcher CreateEllipseBy3Points/es](wiki/Sketcher CreateEllipseBy3Points/es.md) | [Sketcher CreateEllipseByCenter/es](wiki/Sketcher CreateEllipseByCenter/es.md) |
+| [Sketcher CreateFillet/es](wiki/Sketcher CreateFillet/es.md) | [Sketcher CreateHeptagon/es](wiki/Sketcher CreateHeptagon/es.md) | [Sketcher CreateHexagon/es](wiki/Sketcher CreateHexagon/es.md) |
+| [Sketcher CreateLine/es](wiki/Sketcher CreateLine/es.md) | [Sketcher CreateOctagon/es](wiki/Sketcher CreateOctagon/es.md) | [Sketcher CreatePentagon/es](wiki/Sketcher CreatePentagon/es.md) |
+| [Sketcher CreatePoint/es](wiki/Sketcher CreatePoint/es.md) | [Sketcher CreatePolyline/es](wiki/Sketcher CreatePolyline/es.md) | [Sketcher CreateRectangle/es](wiki/Sketcher CreateRectangle/es.md) |
+| [Sketcher CreateRegularPolygon/es](wiki/Sketcher CreateRegularPolygon/es.md) | [Sketcher CreateSlot/es](wiki/Sketcher CreateSlot/es.md) | [Sketcher CreateSquare/es](wiki/Sketcher CreateSquare/es.md) |
+| [Sketcher CreateTriangle/es](wiki/Sketcher CreateTriangle/es.md) | [Sketcher EditSketch/es](wiki/Sketcher EditSketch/es.md) | [Sketcher Extend/es](wiki/Sketcher Extend/es.md) |
+| [Sketcher External/es](wiki/Sketcher External/es.md) | [Sketcher helper constraint/es](wiki/Sketcher helper constraint/es.md) |
 
 
 

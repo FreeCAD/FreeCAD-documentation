@@ -41,7 +41,7 @@ Git este un instrument complex, înainte de a folosi acest instrument să ia în
 
 1.  Save the current active document
 2.  Make sure the saved file is inside an existing git repository
-3.  Select menu Arch -\> Utilities -\> **<img src="images/Arch_CommitGit.png" width=16px> [Git](Arch_Git.md)
+3.  Select menu Arch -\> Utilities -\> **<img src="images/WebTools_Git.svg" width=16px> [Git](Arch_Git.md)
 **
 
 

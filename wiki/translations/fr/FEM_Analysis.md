@@ -2,8 +2,8 @@
 - GuiCommand:/fr
    Name:FEM Analysis
    Name/fr:FEM Conteneur d'analyse
-   MenuLocation:Model → Conteneur d'analyse
-‎   Workbenches:[FEM](FEM_Workbench/fr.md)
+   MenuLocation:Modèle → Conteneur d'analyse‏‎
+   Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**S** **A**
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
@@ -21,8 +21,8 @@ Le module FEM ([Méthode d\'éléments finis](https://fr.wikipedia.org/wiki/M%C3
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/FEM_Analysis.svg" width=16px> [Créer un conteneur d'analyse...](FEM_Analysis/fr.md)**.
-    -   Sélectionnez l\'option **Model → <img src="images/FEM_Analysis.svg" width=16px> Conteneur d'analyse** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/FEM_Analysis.svg" width=16px> [Conteneur d'analyse](FEM_Analysis/fr.md)**.
+    -   Sélectionnez l\'option **Modèle → <img src="images/FEM_Analysis.svg" width=16px> Conteneur d'analyse** dans le menu.
     -   Utilisez le raccourci clavier: **S** puis **A**.
 2.  Une nouvelle analyse est créée et définie sur active.
 3.  D\'autres objets peuvent être ajoutés ou retirés du conteneur d\'analyse par glisser-déposer.
@@ -31,11 +31,11 @@ Le module FEM ([Méthode d\'éléments finis](https://fr.wikipedia.org/wiki/M%C3
 ## Options
 
 -   A ce jour il n\'y a pas d\'option de choix.
--   le module FEM est toujours en développement. Rendez vous sur le forum [1](http://forum.freecadweb.org/viewtopic.php?f=18&t=12189) pour plus d\' informations.
+-   le module FEM est toujours en développement. Rendez vous sur le [forum](http://forum.freecadweb.org/viewtopic.php?f=18&t=12189) pour plus d\'informations.
 
 ## Propriétés
 
--    {{PropertyData/fr|OutpuDir}}: Spécifie le répertoire de travail pour l\'analyse
+-    **OutpuDir**: Spécifie le répertoire de travail pour l\'analyse
 
 ## Script
 

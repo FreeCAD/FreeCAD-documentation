@@ -11,14 +11,20 @@ Więcej informacji na temat manipulowania obiektami znajdziesz na stronie [Przem
 
 ## Wybór stylu nawigacji 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wykonaj jedną z następujących czynności:
-    -   Naciśnij przycisk **[<img src=images/NavigationCAD.svg style="width:16px">** na pasku [Statusu](Status_bar/pl.md)
+    -   Naciśnij przycisk **[<img src=images/NavigationCAD_dark.svg style="width:16px">** na pasku [Statusu](Status_bar/pl.md)
     -   Kliknij prawym przyciskiem myszy pusty obszar w oknie [widoku 3D](3D_view/pl.md), a następnie wybierz **Style nawigacji** z menu kontekstowego.
     -   Użyj [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md). W menu wybierz **Edycja → Preferencje**, a następnie **Wyświetlanie → Nawigacja → Styl nawigacji w przestrzeni 3D**.
 2.  Wybierz styl z listy.
-3.  Opcjonalnie zmień styl **Techniki orbitalnej**: naciśnij przycisk **[<img src=images/NavigationCAD.svg style="width:24px">** w pasku [Statusu](Status_bar/pl.md), a następnie wybierz **Ustawienia  → Technika orbitalna**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
+3.  Opcjonalnie zmień styl **Techniki orbitalnej**: naciśnij przycisk **[<img src=images/NavigationCAD_dark.svg style="width:24px">** w pasku [Statusu](Status_bar/pl.md), a następnie wybierz **Ustawienia  → Technika orbitalna**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
 4.  Opcjonalnie zmień **Tryb obracania**. Zobacz [Edytor preferencji](Preferences_Editor/pl.md).
 5.  Jeśli wybrano styl nawigacji **CAD**: opcjonalnie zmień ustawienie **Włącz animację**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
+
+
+</div>
 
 ## Dostępne style nawigacji 
 
@@ -148,7 +154,7 @@ Ewentualnie przytrzymaj klawisz **Ctrl** i lewy przycisk myszy, a następnie prz
 
 ### OpenInventor
 
-Nawigacja OpenInventor *(dawniej Inventor)* została wymodelowana na podstawie [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Aby móc wybrać obiekty kursorem myszki, należy dodatkowo przytrzymać klawisz **Ctrl**.
+Nawigacja OpenInventor *(dawniej Inventor)* została wymodelowana na podstawie [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Aby móc wybrać obiekty kursorem myszki, należy dodatkowo przytrzymać klawisz **Shift** lub **Ctrl**.
 
 Ten styl nie jest oparty na nawigacji Autodesk Inventor.
 
@@ -158,10 +164,12 @@ Ten styl nie jest oparty na nawigacji Autodesk Inventor.
 |Pan_name=Przesuń
 |Zoom_name=Przybliż - oddal
 |Rotate_view_name=Obróć widok
-|Ctrl=**Ctrl**
-|Select_text=Przytrzymaj klawisz **Ctrl**, a następnie naciśnij lewy przycisk myszy nad obiektem, który chcesz wybrać.
-|Pan_text=Przytrzymaj środkowy przycisk myszy, a następnie przesuń kursor.
-|Zoom_text=Użyj rolki myszki, aby przybliżyć lub oddalić widok.
+|Ctrl=**Shift**
+|Select_text=Przytrzymaj klawisz **Shift**, a następnie naciśnij lewy przycisk myszy nad obiektem, który chcesz wybrać.
+
+Przytrzymaj klawisz **Ctrl**, aby wybrać wiele obiektów.
+|Pan_text= Przytrzymaj środkowy przycisk myszy, a następnie przesuń kursor.
+|Zoom_text=Użyj kółka myszy do powiększania i pomniejszania.
 
 Alternatywnie można przytrzymać środkowy przycisk myszy, następnie nacisnąć i przytrzymać lewy przycisk myszy, a następnie przesunąć kursor. 
 |Rotate_view_text=Przytrzymaj naciśnięty lewy przycisk myszy, a następnie przesuń kursor.}}
@@ -238,15 +246,15 @@ W przypadku nawigacji za pomocą panelu dotykowego przesuwanie, powiększanie i 
 |Pan_name=Przesuń
 |Zoom_name=Przybliż - oddal 
 |Rotate_view_name=Obróć widok
-|Shift=**Shift**
 |Ctrl=**Ctrl**
+|Shift=**Shift**
 |Alt=**Alt**
 |PageUp=**PageUp**
 |PageDown=**PageDown**
 |Select_text=Naciśnij lewy przycisk panelu dotykowego nad obiektem, który chcesz wybrać.
 |Pan_text=Przytrzymaj klawisz **Shift**, a następnie przesuń kursor.
 |Zoom_text=Użyj klawisza **PageUp** lub **PageDown** aby przybliżyć i oddalić widok.
-|Zoom_alt_text=Alternatywnie, przytrzymaj klawisz **Shift** oraz jednocześnie **Ctrl**, a następnie przesuń kursor.
+|Zoom_alt_text=Alternatywnie, przytrzymaj klawisz **Ctrl** oraz jednocześnie **Shift**, a następnie przesuń kursor.
 |Rotate_view_text=Przytrzymaj klawisz **Alt**, a następnie przesuń kursor.
 |Rotate_view_alt_text=Alternatywnie, przytrzymaj klawisz **Shift** i lewy przycisk, a następnie przesuń wskaźnik.
 }}

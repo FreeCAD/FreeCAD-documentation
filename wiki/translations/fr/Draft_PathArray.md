@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Draft PathArray
    Name/fr:Draft Réseau selon une courbe
-   MenuLocation:Modification → Array tools → Réseau selon une courbe
+   MenuLocation:Modification → Outils de réseau → Réseau selon une courbe
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.14
    SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
@@ -25,7 +25,7 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 2.  Ajoutez l\'objet courbe à la sélection. Il est également possible de sélectionner des arêtes à la place. Les arêtes doivent appartenir au même objet. Elles doivent être connectées et doivent être sélectionnées dans le bon ordre.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Draft_PathArray.svg" width=16px> [Réseau selon une courbe](Draft_PathArray/fr.md)**.
-    -   Sélectionnez l\'option **Modification → Array tools → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** dans le menu.
+    -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** dans le menu.
 4.  Le réseau est créé.
 5.  Vous pouvez éventuellement modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
@@ -42,7 +42,7 @@ Trois modes sont disponibles :
 
 #### Original
 
-Ce mode se rapproche le plus du mode unique {{PropertyData/fr|Align Mode}} disponible dans la version 0.18. Il s\'appuie sur un vecteur normal fixe. Si le chemin est planaire, ce vecteur est perpendiculaire au plan du chemin, sinon un vecteur par défaut, l\'axe Z positif, est utilisé. À partir de ce vecteur normal et du vecteur tangent local (l\'axe X local), un [produit vectoriel](https://fr.wikipedia.org/wiki/Produit_vectoriel) est calculé. Ce nouveau vecteur est utilisé comme axe Z local. L\'orientation de l\'axe Y local est déterminée à partir des axes X et Z locaux.
+Ce mode se rapproche le plus du mode unique **Align Mode** disponible dans la version 0.18. Il s\'appuie sur un vecteur normal fixe. Si le chemin est planaire, ce vecteur est perpendiculaire au plan du chemin, sinon un vecteur par défaut, l\'axe Z positif, est utilisé. À partir de ce vecteur normal et du vecteur tangent local (l\'axe X local), un [produit vectoriel](https://fr.wikipedia.org/wiki/Produit_vectoriel) est calculé. Ce nouveau vecteur est utilisé comme axe Z local. L\'orientation de l\'axe Y local est déterminée à partir des axes X et Z locaux.
 
 #### Frenet
 
@@ -54,7 +54,7 @@ Ce mode est similaire à **Align Mode**. {{Value|Original}} mais offre la possib
 
 ### Force Vertical et Vertical Vector 
 
-Ces propriétés ne sont disponibles que si **Align Mode** est {{Value|Original}} ou {{Value|Tangent}}. Si {{PropertyData/fr|Force Vertical}} est défini sur `True`, le système de coordonnées local est calculé d\'une manière différente. **Vertical Vector** est utilisé comme vecteur normal fixe. Un produit vectoriel est à nouveau calculé à partir de ce vecteur normal et du vecteur tangent local (l\'axe X local). Mais ce vecteur est maintenant utilisé comme l\'axe Y local. L\'orientation de l\'axe Z local est déterminée à partir des axes X et Y locaux.
+Ces propriétés ne sont disponibles que si **Align Mode** est {{Value|Original}} ou {{Value|Tangent}}. Si **Force Vertical** est défini sur `True`, le système de coordonnées local est calculé d\'une manière différente. **Vertical Vector** est utilisé comme vecteur normal fixe. Un produit vectoriel est à nouveau calculé à partir de ce vecteur normal et du vecteur tangent local (l\'axe X local). Mais ce vecteur est maintenant utilisé comme l\'axe Y local. L\'orientation de l\'axe Z local est déterminée à partir des axes X et Y locaux.
 
 L\'utilisation de ces propriétés peut être nécessaire si l\'un des bords du chemin est (presque) parallèle à la normale par défaut du chemin.
 

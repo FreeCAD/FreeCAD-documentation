@@ -29,7 +29,7 @@ Pour regrouper des objets 3D en une seule unité, avec l\'intention de créer de
 
 1.  Effectuez l\'une des opérations suivantes :
     -   Cliquez avec le bouton droit de la souris sur le nom du document dans la [Vue en arborescence](Tree_view/fr.md) et dans le menu contextuel, choisissez **Créer un groupe...**.
-    -   Appuyez sur le {{Bouton|<img src="images/Std_Group.svg" width=16px> [Créer un groupe](Std_Group/fr.md)}}.
+    -   Appuyez sur le **<img src="images/Std_Group.svg" width=16px> [Créer un groupe](Std_Group/fr.md)**.
 2.  Un groupe vide est créé.
 3.  Pour ajouter des objets au groupe, sélectionnez-les dans la [Vue en arborescence](Tree_view/fr.md), et faites-les glisser et déposez-les dans le groupe.
 4.  Pour supprimer des objets du groupe, faites-les glisser hors du groupe et déposez-les sur l\'étiquette du document en haut de l\'arborescence.

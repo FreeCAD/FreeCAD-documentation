@@ -150,17 +150,14 @@ In diesem Abschnitt werden die Einschränkungen der Skizze aufgelistet. Wenn du 
 
 You can set the following options:
 
-
-<div class="mw-translate-fuzzy">
-
 +++
 | Name                                           | Beschreibung                                                                                                                                                                                                                                                                                                                                                         |
 +================================================+======================================================================================================================================================================================================================================================================================================================================================================+
 |                                 | \| Du kannst wählen, welche Beschränkungstypen aufgeführt werden sollen. Die Typen sind                                                                                                                                                                                                                                                                              |
 | **Filter**                         | *Alles*: alle Beschränkungen                                                                                                                                                                                                                                                                                                                                         |
 |                                             | *Normal*: Beschränkungen für normale Skizzenelemente                                                                                                                                                                                                                                                                                                                 |
-|                                                | *Bezüge*: Abmessungsbeschränkungen für [Konstruktionselemente](Sketcher_ToggleConstruction/de.md)                                                                                                                                                                                                                                                            |
-|                                                | *Genannt*: Beschränkungen mit einem Namen                                                                                                                                                                                                                                                                                                                            |
+|                                                | *Bezüge*: maßliche Beschränkungen für [Konstruktionselemente](Sketcher_ToggleConstruction/de.md)                                                                                                                                                                                                                                                             |
+|                                                | *Benannt*: Beschränkungen mit einem Namen                                                                                                                                                                                                                                                                                                                            |
 |                                                | *Referenz*: Beschränkungen im [Referenzmodus](Sketcher_ToggleDrivingConstraint/de.md)                                                                                                                                                                                                                                                                        |
 +++
 |                                 | Falls aktiviert werden [innere Ausrichtungen](Sketcher_ConstrainInternalAlignment/de.md) versteckt. Aktuell benutzt der Skizzierer interne Ausrichtungen, um [Ellipsen/Bögen](Sketcher_CompCreateConic/de.md) und [B-Splines](Sketcher_CompCreateBSpline/de.md) zu kontruieren.                                                              |
@@ -174,9 +171,6 @@ You can set the following options:
 |                                                | Die GeoID ist die Nummer des Skizzenelements minus 1. Der Ursprung des Koordinatensystems hat die GeoID *-1*.                                                                                                                                                                                                                                                        |
 |                                                | Eine Bemaßung vom Ursprung zu einem Kreis mit der Elementnummer \'2\' wird bspw. diese Information haben: \[(1,3);(-1,1)\]                                                                                                                                                                                                                                           |
 +++
-
-
-</div>
 
 ## Elemente
 

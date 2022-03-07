@@ -105,17 +105,11 @@ import ifcopenshell
 from ifcopenshell import geom
 ``` wenn es keinen Fehler auswirft, bedeutet dies, dass es korrekt installiert sein könnte
 
-
-<div class="mw-translate-fuzzy">
-
-12.2 Gehe zum FreeCAD Handbuch von Yorik, navigiere zum unteren Teil der Seite und lade die folgenden Dateien zum Testen herunter: 
+12.2 Gehe zum [Handbuch BIM-Modellierung](Manual:BIM_modeling/de.md) (Yoriks FreeCAD-Manual), navigiere zum unteren Teil der Seite und lade die folgenden Dateien zum Testen herunter: 
 ```python
 house.FCStd
 house.ifc
 ```
-
-
-</div>
 
 12.3 Öffne {{FileName|house.FCStd}}, wähle das Stammobjekt \"Gebäude\" und exportiere s ({{MenuCommand/de|Datei → Export}}), wobei der Dateityp auf \"Industry Foundation Classes (\*.ifc)\" gesetzt wird. Drücke **Save** und wenn es funktioniert und in der [Berichtsansicht](Report_view/de.md) keinen Fehler auslöst, dann funktioniert es.
 

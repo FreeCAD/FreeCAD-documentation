@@ -3,7 +3,7 @@
    Name:Part Offset
    MenuLocation:Part → 3D Offset
    Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Thickness](Part_Thickness.md), [Part 2D Offset](Part_Offset2D.md)
+   SeeAlso:[Part Thickness](Part_Thickness.md), [Part 2D Offset](Part_Offset2D.md)
 ---
 
 # Part Offset
@@ -56,15 +56,7 @@ same shape with a 3D Offset as SKIN and *filled* offset
 
 *filled* offset with 2 Cylinders creating boolean cuts. Cylinder A goes through the FILL whilst Cylinder B only goes thru the FILL and NOT through the source 2D shape.
 
- <img alt="" src=images/PartOffset6.png  style="width:400" height="200px;"> 
-
-## Notes
-
-## Properties 
-
-## Limitations
-
-## Scripting
+ <img alt="" src=images/PartOffset6.png  style="width:400" height="200px;">
 
 
 

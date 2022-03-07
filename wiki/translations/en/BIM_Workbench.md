@@ -1,4 +1,7 @@
-# <img alt="BIM External Workbench icon" src=images/IFC.svg  style="width:64px;"> BIM Workbench/en
+# BIM Workbench/en
+}
+
+<img alt="BIM External Workbench icon" src=images/IFC.svg  style="width:128px;">
 
 
 {{TOCright}}

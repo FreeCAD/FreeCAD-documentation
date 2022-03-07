@@ -18,11 +18,6 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 ![](images/Assembly_ConstraintAlignment.svg ) ![](images/Assembly_ConstraintAngle.svg ) ![](images/Assembly_ConstraintBidirectional.svg ) ![](images/Assembly_ConstraintCoincidence.svg ) ![](images/Assembly_ConstraintDistance.svg ) ![](images/Assembly_ConstraintEqual.svg ) ![](images/Assembly_ConstraintGeneral.svg ) ![](images/Assembly_ConstraintLock.svg ) ![](images/Assembly_ConstraintOpposite.svg ) ![](images/Assembly_ConstraintOrientation.svg ) ![](images/Assembly_ConstraintParallel.svg ) ![](images/Assembly_ConstraintPerpendicular.svg ) ![](images/Assembly_ConstraintUnidirectional1.svg ) ![](images/Assembly_ConstraintUnidirectional2.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > Artwork Assembly/fr

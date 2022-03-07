@@ -54,7 +54,8 @@ The Path Slot object is made to be part of a <img alt="" src=images/Path_Job.svg
 
 \'\'\' *Note* \'\'\': Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
-#### Base
+
+{{TitleProperty|Base}}
 
 Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
 
@@ -107,7 +108,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Label**: User-provided name of the object (UTF-8)
 
-#### Depth
+
+{{TitleProperty|Depth}}
 
 -    **Clearance Height**: The height needed to clear clamps and obstructions
 
@@ -124,7 +126,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
  <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:300px;">  
 *Visual reference for Depth properties (settings)*
 
-#### Path
+
+{{TitleProperty|Path}}
 
 -    **Active**: make False, to prevent operation from generating code
 
@@ -140,7 +143,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **User Label**: User assigned label
 
-#### Slot
+
+{{TitleProperty|Slot}}
 
 -    **Custom Point1**: Enter custom start point for slot path.
 
@@ -164,7 +168,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 -    **Reverse Direction**: Enable to reverse the cut direction of the slot path.
 
-#### Start Point 
+
+{{TitleProperty|Start Point}}
 
 -    **Start Point**: The custom start point for the path of this operation.
 
@@ -189,13 +194,13 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 *Descriptions for the settings are provided in the Properties list above.* This section is simply a layout map of the settings in the window editor for the Operation.
 
-#### Base Geometry 
+### Base Geometry 
 
 -   **Add**: adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: delete the selected item(s) in the Base Geometry list
 -   **Clear**: clear all items in the Base Geometry list
 
-#### Depths
+### Depths
 
 -    **Start Depth**
     
@@ -206,7 +211,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Step Down**
     
 
-#### Heights
+### Heights
 
 -    **Safe Height**
     
@@ -214,7 +219,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 -    **Clearance Height**
     
 
-#### Operation
+### Operation
 
 -    **Tool Controller**: The tool and its settings to be used for this operation.
 

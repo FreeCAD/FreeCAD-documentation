@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento materiale permette di aggiungere dei [materiali](Material/it.md) al documento attivo, e di attribuire un materiale ad un oggetto [Arch](Arch_Workbench/it.md). I Materiali possiedono tutte le proprietà di un determinato materiale, e controllano il colore dell\'oggetto a cui sono allegati. I materiali vengono memorizzati in una cartella **Materials** nel documento attivo.
+Lo strumento materiale permette di aggiungere dei [materiali](Material.md) al documento attivo, e di attribuire un materiale ad un oggetto [Arch](Arch_Workbench/it.md). I Materiali possiedono tutte le proprietà di un determinato materiale, e controllano il colore dell\'oggetto a cui sono allegati. I materiali vengono memorizzati in una cartella **Materials** nel documento attivo.
 
 
 </div>
@@ -27,6 +27,9 @@ Lo strumento materiale permette di aggiungere dei [materiali](Material/it.md) al
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Facoltativamente, selezionare uno o più oggetti a cui si desidera attribuire un nuovo materiale.
 2.  Richiamare il comando in uno di questi modi:
     -   Premere il pulsante **<img src="images/Arch_SetMaterial.svg" width=16px> [Imposta materiale](Arch_SetMaterial/it.md)** nella barra degli strumenti.
@@ -34,6 +37,9 @@ Lo strumento materiale permette di aggiungere dei [materiali](Material/it.md) al
     -   Usare il comando **Arch → Strumenti materiali → Materiale** dal menu principale.
 3.  Caricare un materiale predefinito, o crearne uno nuovo riempiendo i campi.
 4.  Premere **OK**.
+
+
+</div>
 
 ## Opzioni
 

@@ -18,8 +18,8 @@ La commande <img alt="" src=images/Assembly_Move.svg  style="width:24px;"> [Dép
 
 ## Utilisation
 
-1.  Sélectionnez une face, une arête ou un sommet de la pièce 3D ou de la pièce entière dans l\'arborscence.
-2.  Activez la commande <img alt="" src=images/Assembly_Move.svg  style="width:16px;"> **Déplacer une pièce**\' en utilisant l\'une des méthodes suivantes :
+1.  Sélectionnez une face, une arête ou un sommet de la pièce 3D ou de la pièce entière dans l\'arborescence.
+2.  Activez la commande <img alt="" src=images/Assembly_Move.svg  style="width:16px;"> **Déplacer une pièce** en utilisant l\'une des méthodes suivantes :
     -   Le bouton **<img src="images/Assembly_Move.svg" width=16px> [Move part](Assembly3_MovePart/fr.md)**.
     -   L\'option de menu **Assembly3 → <img src="images/Assembly_Move.svg" width=16px> Move part**.
     -   Le raccourci clavier : **A** puis **M**.

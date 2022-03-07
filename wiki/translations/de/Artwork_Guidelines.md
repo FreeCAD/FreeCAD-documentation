@@ -166,12 +166,8 @@ Ein Graustufenbild erlaubt dir Kontrastprobleme leichter zu erkennen, da nur ein
 
    
   Ich kann nicht alle Details ausmachen.   Die von Ihnen gewählten Farben haben einen schlechten Wertkontrast. Versuche, Farben zu verwenden, die in deiner 4 Ton Palette weiter voneinander entfernt sind, d. h. ein helles Grün neben einem hellen Gelb wird schwer zu erkennen sein.
-   
-
-
-{{Artwork/de}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/de

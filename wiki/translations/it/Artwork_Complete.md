@@ -10,9 +10,6 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 ![](images/CompleteWorkbench.svg )
 
 
-{{Artwork/it}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Artwork Complete/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Complete](Category_Complete.md) > Artwork Complete/it

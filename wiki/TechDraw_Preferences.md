@@ -39,6 +39,11 @@ All preferences settings with *italic* labels are default values for new drawing
 -   **PAT File**: Default PAT pattern definition file for [geometric hatches](TechDraw_GeometricHatch.md).
 -   **Pattern Name**: Name of the default PAT pattern.
 
+### Grid
+
+-   **Show Grid**: Default Show Grid setting for new pages. <small>(v0.20)</small> 
+-   **Grid Spacing**: Default distance between grid lines for new pages. <small>(v0.20)</small> 
+
 ## Scale
 
 <img alt="Scale preferences" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
@@ -125,6 +130,7 @@ Setup of the default colors for new pages:
 -   **Geometric Hatch**: [Geometric hatch](TechDraw_GeometricHatch.md) pattern color.
 -   **Vertex**: Color of the selectable [vertices](Glossary#V.md) in views.
 -   **Leaderline**: Color for new [leaderlines](TechDraw_LeaderLine.md).
+-   **Grid Color**: Color for all page grids. <small>(v0.20)</small> 
 
 ## HLR
 
@@ -155,34 +161,6 @@ HLR stands for *hidden line removal*.
 -   **Line End Cap Shape**: Setting of the line end cap shape. Explanation of the options: [pen cap styles](https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum)
 -   **Max SVG Hatch Tiles**: The limit of SVG tiles with a size of 64x64 pixels used to hatch a single face. For large scalings one might get an error about to many SVG tiles, then one needs to increase the tile limit.
 -   **Max PAT Hatch Segments**: The maximum hatch line segments used when hatching a face with a PAT pattern.
-
-## Hidden Settings 
-
-\'\'\'Note: \'\'\' Since FreeCAD 0.19, all settings are available in the Preferences dialogs. The following only applies for FreeCAD versions older than 0.19:
-
-Some preference settings are only accessible through the [Parameter editor](Std_DlgParameter.md), **Tools → Edit parameters**.
-
-### Preferences/Mod/TechDraw/Decorations
-
--   **CenterMarkScale**: default scale factor for CenterMarks
--   **ShowCenterMarks**: default `True`/`False`
--   **PrintCenterMarks**: `True`/`False` show CenterMarks when printing <small>(v0.19)</small> 
-
-### Preferences/Mod/TechDraw/General
-
--   **DefaultScale**: initial setting of Page Scale <small>(v0.19)</small> 
--   **EdgeFuzz**: pick radius for Edges
--   **MarkFuzz**: pick radius for CenterMarks
--   **SectionFuseFirst**: fuse Source objects before performing Section cut
--   **EdgeEndCap**: shape of Edge ends 0x00 FlatCap, 0x10 SquareCap, 0x20 RoundCap (Qt::PenCapStyle) <small>(v0.19)</small> 
-
-### Preferences/Mod/TechDraw/Format
-
--   **SectionFormat**: section line style 0-ASME 1-ISO
-
-### Preferences/Mod/TechDraw/Standards
-
--   **RadiusAligned**: Radius dimension format 0-ISO(aligned) 1-ASME(uniform)
 
 
 

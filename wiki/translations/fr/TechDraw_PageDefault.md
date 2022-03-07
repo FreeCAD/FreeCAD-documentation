@@ -9,6 +9,9 @@
 
 # TechDraw PageDefault/fr
 
+
+</div>
+
 ## Description
 
 L\'outil Nouvelle Page par défaut crée un nouvel objet Page à l\'aide du fichier de modèle spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
@@ -22,29 +25,80 @@ L\'outil Nouvelle Page par défaut crée un nouvel objet Page à l\'aide du fich
 
 ## Remarques
 
+
+<div class="mw-translate-fuzzy">
+
 -   Si une page est marquée comme \"Ne pas garder à jour\" soit par le biais de la propriété KeepUpdated ou par le paramètre dans les Préférences, les changements dans le modèle 3D seront ignorés. Vous pouvez remarquer des anomalies (géométrie manquante, valeurs de dimension manquantes, etc.) dans l\'apparence de la page. Ceux-ci se corrigent une fois la Page mise à jour. L\'icône <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width:32px;"> de la page s\'affiche dans l\'arborescence lorsque la mise à jour est suspendue. Ce paramètre affecte également le processus de démarrage. Si la page est marquée \"ne pas garder à jour\", elle ne sera pas dessinée au début du programme.
 
-Si le modèle par défaut n\'est pas spécifié dans votre fichier de configuration utilisateur `user.cfg`, l\'outil va essayer 
-```python
-$INSTALL_DIR/Mod/TechDraw/Templates/A4_LandscapeTD.svg
-```
 
-Où `$INSTALL_DIR` est le répertoire d\'installation de FreeCAD, par exemple 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Si le modèle par défaut n\'est pas spécifié dans votre fichier de configuration utilisateur `user.cfg`, l\'outil va essayer
+
+
+</div>
+
+
+:   
+    
 ```python
-/usr/share/freecad/Mod/TechDraw/Templates/A4_LandscapeTD.svg
+    $INSTALL_DIR/Mod/TechDraw/Templates/A4_LandscapeTD.svg
+    
 ```
+    
+
+
+<div class="mw-translate-fuzzy">
+
+Où `$INSTALL_DIR` est le répertoire d\'installation de FreeCAD, par exemple
+
+
+</div>
+
+
+:   
+    
+```python
+    /usr/share/freecad/Mod/TechDraw/Templates/A4_LandscapeTD.svg
+    
+```
+    
 
 ## Propriétés
 
--    {{PropertyData/fr|Projection Type}}: Type de projection par défaut (premier ou troisième angle) pour cette page.
+### Données
 
--    {{PropertyData/fr|KeepUpdated}}: Si la valeur est false, la Page n\'est pas mise à jour avec les modifications apportées au modèle 3D. Utile pour les dessins compliqués/lents. Voir les Remarques.
 
--    {{PropertyData/fr|Template}}: Un lien vers cette Page [Modèle](TechDraw_Templates/fr.md) .
+{{TitleProperty|Base}}
 
--    {{PropertyData/fr|Views}}: Une liste de liens vers les vues sur cette page.
+-    **Projection Type**: Type de projection par défaut (premier ou troisième angle) pour cette page.
 
--    {{PropertyData/fr|Scale}}: Échelle par défaut pour les Vues dans cette Page.
+
+{{TitleProperty|Page}}
+
+-    **Projection Type**: Type de projection par défaut (premier ou troisième angle) pour cette page.
+
+-    **KeepUpdated**: Si la valeur est false, la page n\'est pas mise à jour avec les modifications apportées au modèle 3D. Utile pour les dessins compliqués/lents. Voir les Remarques.
+
+-    **Template**: Un lien vers cette Page [Modèle](TechDraw_Templates/fr.md) .
+
+-    **Views**: Une liste de liens vers les vues sur cette page.
+
+-    **Scale**: Échelle par défaut pour les Vues dans cette page.
+
+-    **Next Balloon Index**: Numérotation automatique des infobulles.
+
+### Vue
+
+
+{{TitleProperty|Grid}}
+
+-    **Show Grid**: Afficher une grille sur cette page. {{Version/fr|0.20}}
+
+-    **Grid Spacing**: Distance entre les lignes de la grille en mm. {{Version/fr|0.20}}
 
 ## Script
 

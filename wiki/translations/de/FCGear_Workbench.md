@@ -100,14 +100,8 @@ Bevor [FCZahnrad Arbeitsbereich](FCGear_Workbench/de.md) gestartet werden kann, 
 
 ### Automatische Einrichtung 
 
-
-<div class="mw-translate-fuzzy">
-
-Die empfohlene Installationsmethode ab v0.17 ist über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md). Dieser befindet sich im 
-**Werkzeuge → Erweiterungsverwalter**
-
-
-</div>
+Die empfohlene Installationsmethode ab v0.17 ist über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md). Dieser befindet sich im 
+**Werkzeuge → Addon-Manager**
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:700px">

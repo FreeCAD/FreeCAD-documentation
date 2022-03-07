@@ -11,9 +11,9 @@ Cette catégorie répertorie les pages liées aux objets dérivés de la base [A
 | [Constraint/fr](wiki/Constraint/fr.md) | [Datum/fr](wiki/Datum/fr.md) | [Drawing/fr](wiki/Drawing/fr.md) |
 | [Feature/fr](wiki/Feature/fr.md) | [Mesh Feature/fr](wiki/Mesh Feature/fr.md) | [Mesh MeshObject/fr](wiki/Mesh MeshObject/fr.md) |
 | [Mesh/fr](wiki/Mesh/fr.md) | [Model/fr](wiki/Model/fr.md) | [Part Feature/fr](wiki/Part Feature/fr.md) |
-| [Part TopoShape/fr](wiki/Part TopoShape/fr.md) | [Part/fr](wiki/Part/fr.md) | [PartDesign Feature/fr](wiki/PartDesign Feature/fr.md) |
-| [Shape/fr](wiki/Shape/fr.md) | [Sketch/fr](wiki/Sketch/fr.md) | [Sketcher SketchObject/fr](wiki/Sketcher SketchObject/fr.md) |
-|
+| [Part Part2DObject/fr](wiki/Part Part2DObject/fr.md) | [Part TopoShape/fr](wiki/Part TopoShape/fr.md) | [Part/fr](wiki/Part/fr.md) |
+| [PartDesign Feature/fr](wiki/PartDesign Feature/fr.md) | [Shape/fr](wiki/Shape/fr.md) | [Sketch/fr](wiki/Sketch/fr.md) |
+| [Sketcher SketchObject/fr](wiki/Sketcher SketchObject/fr.md) |
 
 
 

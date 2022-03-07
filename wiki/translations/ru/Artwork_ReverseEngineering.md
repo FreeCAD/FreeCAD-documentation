@@ -14,11 +14,6 @@
 ![](images/FitSurface.svg )
 
 
-{{Artwork
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Artwork ReverseEngineering/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Artwork](Category_Artwork.md) > [Reverse Engineering](Category_Reverse Engineering.md) > Artwork ReverseEngineering/ru

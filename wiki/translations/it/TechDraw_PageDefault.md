@@ -47,17 +47,51 @@ La pagina ha questa icona <img alt="" src=images/TechDraw_Tree_Page_Unsync.png  
 
 </div>
 
-Se il modello predefinito non è specificato nel file di configurazione utente `user.cfg`, lo strumento prova 
-```python
-$INSTALL_DIR/Mod/TechDraw/Templates/A4_LandscapeTD.svg
-```
 
-Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esempio 
+<div class="mw-translate-fuzzy">
+
+Se il modello predefinito non è specificato nel file di configurazione utente `user.cfg`, lo strumento prova
+
+
+</div>
+
+
+:   
+    
 ```python
-/usr/share/freecad/Mod/TechDraw/Templates/A4_LandscapeTD.svg
+    $INSTALL_DIR/Mod/TechDraw/Templates/A4_LandscapeTD.svg
+    
 ```
+    
+
+
+<div class="mw-translate-fuzzy">
+
+Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esempio
+
+
+</div>
+
+
+:   
+    
+```python
+    /usr/share/freecad/Mod/TechDraw/Templates/A4_LandscapeTD.svg
+    
+```
+    
 
 ## Proprietà
+
+### Data
+
+
+{{TitleProperty|Base}}
+
+-    **Projection Type**: Default projection type (First or Third Angle) for this Page.
+
+
+{{TitleProperty|Page}}
 
 
 <div class="mw-translate-fuzzy">
@@ -74,6 +108,15 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 
 </div>
+
+### View
+
+
+{{TitleProperty|Grid}}
+
+-    **Show Grid**: Show a grid over this Page. <small>(v0.20)</small> 
+
+-    **Grid Spacing**: Distance between grid lines in mm. <small>(v0.20)</small> 
 
 ## Script
 

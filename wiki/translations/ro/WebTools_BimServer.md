@@ -48,7 +48,7 @@ Pentru a utiliza această comandă, trebuie îndeplinite următoarele condiții:
 <div class="mw-translate-fuzzy">
 
 1.  Asigurați-vă că cerințele de mai sus sunt îndeplinite și că aveți acces la o instanță BIMServer care rulează
-2.  Selectați meniul Arch -\> Utilities -\> **<img src="images/Arch_BimServer.png" width=16px> [BIM Server](Arch_BimServer.md)
+2.  Selectați meniul Arch -\> Utilities -\> **<img src="images/WebTools_BimServer.svg" width=16px> [BIM Server](Arch_BimServer.md)
 **
 3.  Apăsați butonul **Connect** și completați detaliile dvs. de acreditare
 4.  Odată ce conexiunea cu serverul BIMServer a fost făcută, alegeți un proiect de lucru din caseta derulantă **Project**

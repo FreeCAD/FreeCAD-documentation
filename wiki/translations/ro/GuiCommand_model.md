@@ -47,15 +47,13 @@ Closing and opening translate tags should surround images, and other fixed eleme
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Apăsați butonul **[<img src=images/Std_Close.png style="width:24px"> '''Command name'''**.
-2.  Detalierea pașilor este necesară.
-3.  Definiți opțiunile și apăsați **OK**.
-
-
-</div>
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Std_Open.svg" width=16px> [Base ExampleCommandModel](GuiCommand_model.md)** button. (*Editor note:* This uses the [Template:Button](Template_Button.md) template, it is necessary to link to the command as shown in this example)
+    -   Select the **Menu → Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command** option from the menu. (*Editor note:* This uses the [Template:MenuCommand](Template_MenuCommand.md) template)
+    -   Select the **Submenu → <img src="images/Std_Open.svg" width=16px> Menu text for the command** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu. (*Editor note:* This also uses the [Template:MenuCommand](Template_MenuCommand.md) template, not all commands can be accessed from a context menu)
+    -   Use the keyboard shortcut **F** then **C** or **Ctrl**+**Z**. (*Editor note:* This uses the [Template:KEY](Template_KEY.md) template, not all commands have a keyboard shortcut)
+2.  Detailed steps as needed. Some steps may need **Keyboard** presses while others may require using the mouse to click on a **Button**.
+3.  Set options and press **OK**.
 
 
 <div class="mw-translate-fuzzy">

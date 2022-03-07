@@ -248,19 +248,9 @@ Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeC
 
 </div>
 
-## Dalam Pengembangan 
-
-
-<div class="mw-translate-fuzzy">
-
--   ![](images/Feature-assembly.jpg ) modul [Assembly](Assembly_project/id.md) yang memungkinkan bekerja dengan banyak objek banyak dokumen, banyak bentuk, banyak dokumen, banyak file, banyak hubungan\..... 
-
-
-</div>
-
 ## Extra Workbenches 
 
-Power users have created various custom [external workbenches](external_workbenches.md).
+Power users have created various custom [external workbenches](External_workbenches.md).
 
 
 <div class="mw-translate-fuzzy">

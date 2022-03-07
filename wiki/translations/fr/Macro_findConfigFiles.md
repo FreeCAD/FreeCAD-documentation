@@ -1,14 +1,13 @@
 # Macro findConfigFiles/fr
 {{Macro/fr
 |Name=findConfigFiles
-|Name/fr=findConfigFiles
 |Icon=Macro_findConfigFiles.png
-|Description=Utilisez cette macro pour rechercher les fichiers de configuration de vos paramètres utilisateur, c'est-à-dire <br/>'''system.cfg'''<br/>'''user.cfg'''<br/>. Ces fichiers peuvent être renommés dans afin de réinitialiser les paramètres de FreeCAD à leurs valeurs par défaut d'origine. Cela peut parfois résoudre les problèmes que vous rencontrez avec FreeCAD. <br/> Vous devez quitter FreeCAD avant de renommer les fichiers, puis rouvrir FreeCAD par la suite. Si renommer les fichiers n'a pas résolu le problème que vous rencontriez, vous pouvez supprimer les nouveaux fichiers créés par FreeCAD et renommer les fichiers d'origine à leurs noms d'origine afin de restaurer vos paramètres précédents. Vous pouvez également supprimer en toute sécurité les fichiers renommés une fois que vous êtes certain que vous n'en avez plus besoin ou que vous ne les souhaitez plus, mais il est recommandé de les renommer au lieu de les supprimer jusqu'à ce que vous soyez certain qu'ils ne sont plus nécessaires. <br/> Remarque: la macro ne renommer les fichiers ou apporter des modifications à vos paramètres. Elle trouve simplement l'emplacement de ces fichiers, copie cet emplacement dans le presse-papiers et (tente d'ouvrir) le dossier contenant ces fichiers sur votre ordinateur à l'aide du navigateur de fichiers par défaut.
+|Description=Utilisez cette macro pour rechercher les fichiers de configuration de vos paramètres utilisateur, c'est-à-dire <br/>'''system.cfg'''<br/>'''user.cfg'''<br/> Ces fichiers peuvent être renommés dans afin de réinitialiser les paramètres de FreeCAD à leurs valeurs par défaut d'origine. Cela peut parfois résoudre les problèmes que vous rencontrez avec FreeCAD. <br/> Vous devez quitter FreeCAD avant de renommer les fichiers, puis rouvrir FreeCAD par la suite. Si renommer les fichiers n'a pas résolu le problème que vous rencontriez, vous pouvez supprimer les nouveaux fichiers créés par FreeCAD et renommer les fichiers d'origine à leurs noms d'origine afin de restaurer vos paramètres précédents. Vous pouvez également supprimer en toute sécurité les fichiers renommés une fois que vous êtes certain que vous n'en avez plus besoin ou que vous ne les souhaitez plus, mais il est recommandé de les renommer au lieu de les supprimer jusqu'à ce que vous soyez certain qu'ils ne sont plus nécessaires. <br/> Remarque: la macro ne renommer les fichiers ou apporter des modifications à vos paramètres. Elle trouve simplement l'emplacement de ces fichiers, copie cet emplacement dans le presse-papiers et (tente d'ouvrir) le dossier contenant ces fichiers sur votre ordinateur à l'aide du navigateur de fichiers par défaut.
 |Author=TheMarkster
-|Version=2020.06.18
-|Date=2020-06-18
+|Version=2022.03.03
+|Date=2022-03-03
 |FCVersion=Tous
-|Download=[https://www.freecadweb.org/wiki/images/b/b5/Macro_findConfigFiles.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/b/b5/Macro_findConfigFiles.png Icône de la barre d'outils]
 }}
 
 ## Description
@@ -29,7 +28,7 @@ Remarque: La macro ne renomme pas les fichiers ou n\'apporte aucune modification
 
 ## Script
 
-ToolBar icon ![](images/Macro_findConfigFiles.png )
+Icône de la barre d\'outils ![](images/Macro_findConfigFiles.png )
 
 **Macro\_findConfigFiles.FCMacro**
 
@@ -44,7 +43,7 @@ __title__ = "findConfigFiles"
 __author__ = "TheMarkster"
 __url__ = "https://www.freecadweb.org/wiki/Macro_findConfigFiles"
 __Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_findConfigFiles"
-__date__ = "2020.06.18" 
+__date__ = "2022.03.03" 
 __version__ = __date__
 
 
@@ -52,7 +51,7 @@ __version__ = __date__
 
 clipboard = QtGui.QApplication.clipboard()
 sys = platform.system()
-userFolder = App.getUserAppDataDir()
+userFolder = App.getUserConfigDir() if hasattr(App,"getUserConfigDir") else App.getUserAppDataDir()
 
 msgBox = QtGui.QMessageBox()
 msgBox.setWindowTitle('findConfigFiles macro')

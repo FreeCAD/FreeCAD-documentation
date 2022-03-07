@@ -49,7 +49,7 @@ Per poter utilizzare questo comando, devono essere soddisfatte le seguenti condi
 <div class="mw-translate-fuzzy">
 
 1.  Assicurarsi che i requisiti di cui sopra siano soddisfatti, e si ha accesso a un\'istanza BIMServer in esecuzione
-2.  Selezionare il menu Arch -\> Utilità -\> **<img src="images/Arch_BimServer.png" width=16px> [BIM Server](Arch_BimServer/it.md)
+2.  Selezionare il menu Arch -\> Utilità -\> **<img src="images/WebTools_BimServer.svg" width=16px> [BIM Server](Arch_BimServer/it.md)
 **
 3.  Premere il pulsante **Connect** e compilare i dati delle credenziali
 4.  Stabilita la connessione al BIMServer, scegliere un progetto da lavorare dalla casella a discesa **Project**

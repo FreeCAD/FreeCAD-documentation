@@ -18,7 +18,7 @@ Elle peut être utilisé pour créer une esquisse de structure pour la cinémati
 
 1.  Créer un conteneur d\'assemblage vide en appuyant sur **<img src="images/Assembly_New_Assembly.svg" width=16px> [Create assembly](Assembly3_CreateAssembly/fr.md)
 **
-2.  Sélectionnez l\'objet d\'assemblage juste créé et cliquez sur **<img src="images/Assembly_Add_Workplane.svg‎‎" width=16px> [Add workplane](Assembly3_AddXYWorkplane/fr.md)
+2.  Sélectionnez l\'objet d\'assemblage juste créé et cliquez sur **<img src="images/Assembly_Add_Workplane.svg‎‎" width=16px> [Add workplane](Assembly3_AddWorkplane/fr.md)
 **
 3.  Appuyez sur le bouton **<img src="images/Assembly_ConstraintSketchPlane.svg" width=24px> [Sketch plane](Assembly3_ConstraintSketchPlane/fr.md)
 **

@@ -66,11 +66,17 @@ Infine, possiamo arrotondare gli spigoli dell\'angolare per renderlo più realis
 
 ![Fig. 1.6 Gli spigoli arrotondati](images/Tutorial-normand06.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 ## Secondo metodo - Estrusione di un profilo 
 
 Con questo metodo si inizia disegnando un profilo 2D. È necessario attivare l\'ambiente di lavoro [Disegno 2D o Draft](Draft_Workbench/it.md) (menu **Visualizza -\> Ambiente -\> Draft**) ![](images/Switch_DraftWorkbench.JPG ).
 
 -   Se non c\'è un nuovo documento di FreeCAD aperto (la maggior parte della finestra FreeCAD è grigia), dal menu a discesa fare clic su File → Nuovo o fare clic sull\'icona <img alt="" src=images/Document-new.png  style="width:32px;"> **Crea un nuovo documento vuoto**.
+
+
+</div>
 
 ### Impostare il piano di lavoro 
 

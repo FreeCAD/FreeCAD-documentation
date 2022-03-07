@@ -50,7 +50,7 @@ __title__ = "findConfigFiles"
 __author__ = "TheMarkster"
 __url__ = "https://www.freecadweb.org/wiki/Macro_findConfigFiles"
 __Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_findConfigFiles"
-__date__ = "2020.06.18" 
+__date__ = "2022.03.03" 
 __version__ = __date__
 
 
@@ -58,7 +58,7 @@ __version__ = __date__
 
 clipboard = QtGui.QApplication.clipboard()
 sys = platform.system()
-userFolder = App.getUserAppDataDir()
+userFolder = App.getUserConfigDir() if hasattr(App,"getUserConfigDir") else App.getUserAppDataDir()
 
 msgBox = QtGui.QMessageBox()
 msgBox.setWindowTitle('findConfigFiles macro')

@@ -17,9 +17,17 @@ TechDraw ha due strumenti per il tratteggio:
 
 **Risultato:** La faccia verrà tratteggiata inizialmente usando i valori predefiniti. **Nota**: modificare le proprietà del tratteggio per ottenere il tratteggio desiderato.
 
+### Hatch Face using Image File 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Tratteggio da modello 
 
 Il <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Tratteggio da modello](TechDraw_Hatch/it.md) utilizza delle tessere di base [SVG](SVG/it.md) o [bitmap](bitmap/it.md) per coprire la faccia selezionata.
+
+
+</div>
 
 Di solito le tessere SVG sono delle immagini di **64x64** pixel. Tutti i file di pattern forniti con FreeCAD sono disponibili su [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
@@ -33,9 +41,17 @@ I riempimenti di tratteggio predefiniti possono essere specificati nelle [Prefer
 
 </div>
 
+### Geometric Hatch 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Tratteggio geometrico 
 
 Il <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md) genera un modello di linee basato su una specifica letta da un file. Questo file è generalmente **compatibile con il formato PAT di AutoDesk® ampiamente utilizzato**. Una piccola selezione di modelli è inclusa nel file FCPAT.pat:
+
+
+</div>
 
 
 ```python
@@ -52,6 +68,8 @@ Il <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Tra
 -45,0,0,0,4.0
 *Diagonal4, 45 diagonal R, Solid, 4.0 mm separation
 45,0,0,0,4.0
+*Diagonal5, 45 diagonal L, Solid, 4.0 mm separation
+-45,0,0,0,4.0
 *Square, square grid, Solid, 5.0 mm separation 
 90,1,1,0,5.0
 0,0,0,1,5.0

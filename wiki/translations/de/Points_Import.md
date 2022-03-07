@@ -38,13 +38,7 @@ Siehe [Punkte Umwandeln](Points_Convert/de.md).
 1.4562 -7.2354 12.2367
 5.9423 3.1728 -17.6439
 
-
-<div class="mw-translate-fuzzy">
-
-Zum Testen kannst du diese [diese Datei](https://github.com/FREECAD/Examples/blob/master/Point_cloud_ExampleFiles/PointCloud-Data_Stanford-Bunny.asc) verwenden, die eine Niedrigpolygon Version des [Stanford Hasen](http://graphics.stanford.edu/data/3Dscanrep/) ist.
-
-
-</div>
+Zum Testen kann man [diese Datei](https://raw.githubusercontent.com/FreeCAD/Examples/master/Point_cloud_ExampleFiles/PointCloud-Data_Stanford-Bunny.asc) verwenden, die eine grobe (low poly) Version des [Stanford Hasen](http://graphics.stanford.edu/data/3Dscanrep/) ist.
 
 
 
