@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Rebar BentShape
    Name/fr:Arch Rebar Armature cintrée
-   MenuLocation:Arch → Rebar tools → Bent-Shape Rebar ou 3D/BIM → Reinforcement → Bent-Shape Rebar
+   MenuLocation:Arch → Rebar tools → Bent-Shape Rebar<br>3D/BIM → Reinforcement → Bent-Shape Rebar
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature en étrier](Arch_Rebar_Stirrup/fr.md), 

@@ -141,6 +141,9 @@ Arch.removeSpaceBoundaries(Space, selection)
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{docnav/de
 |[Dach](Arch_Roof/de.md)
 |[Treppe](Arch_Stairs/de.md)
@@ -149,6 +152,9 @@ Arch.removeSpaceBoundaries(Space, selection)
 |IconR=Arch_Stairs.svg
 |IconC=Workbench_Arch.svg
 }}
+
+
+</div>
 
 
 

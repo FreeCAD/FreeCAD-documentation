@@ -10,11 +10,28 @@
 
 # Arch Rebar Straight/it
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Lo strumento [Armatura dritta](Arch_Rebar_Straight.md) consente all\'utente di creare un set di staffe d\'armatura all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento **Armatura dritta** è anche integrato in [BIM](BIM_Workbench/it.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -24,10 +41,22 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 </div>
 
-<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Due serie di barre di rinforzo diritte all'interno di una  [Struttura](Arch_Structure/it.md)*
 
+
+</div>
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare una qualsiasi faccia dell\'oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** creato in precedenza.
 2.  Quindi selezionare **<img src="images/Arch_Rebar_Straight.svg" width=16px> Armatura dritta** dagli strumenti armatura.
@@ -40,6 +69,9 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 9.  Cliccare sulla faccia selezionata serve per verificare o modificare la faccia per la distribuzione dell\'armatura.
 10. Cliccare **OK** o **Apply** per generare l\'armatura.
 11. Cliccare **Cancel** per uscire dal pannello delle azioni.
+
+
+</div>
 
 <img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
 *Pannello Azioni per lo strumento Armatura dritta di Arch*
@@ -67,11 +99,27 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 ## Scripting
 
 
+<div class="mw-translate-fuzzy">
+
+## Scripting 
+
+
 **Vedere anche:**
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Armatura dritta può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Armatura dritta può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+
+
+</div>
+
+
 ```python
 Rebar = makeStraightRebar(f_cover, coverAlong, rt_cover, lb_cover,
                           diameter, amount_spacing_check, amount_spacing_value, orientation="Horizontal",

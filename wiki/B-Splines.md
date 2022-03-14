@@ -150,7 +150,7 @@ To create periodic B-splines (B-splines that form a closed curve), use the toolb
 
 B-splines can also be generated out of existing sketch segments. To do this, select the elements and press the the toolbar button **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convert Geometry to B-spline](Sketcher_BSplineApproximate.md)**.
 
-While creating a B-spline, its degree can directly by specified by pressing the key **D**. <small>(v0.20)</small>  This way FreeCAD\'s default to create a cubic B-spline when possible is overwritten.
+While creating a B-spline, its degree can be specified by pressing the **D** key. With this, the default to create a cubic B-spline if possible, can be overridden. <small>(v0.20)</small> 
 
 ### Changing the Degree 
 
@@ -188,7 +188,7 @@ When you look at the [creation function](#Non-uniform_B-splines.md) for non-unif
 
 New knots can be added using the **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [B-spline insert knot](Sketcher_BSplineInsertKnot.md)** button. <small>(v0.20)</small> 
 
-The deletion of knots is not yet possible, see section [ Limitations](#Limitations.md).
+Deleting knots is not yet possible, see section [Limitations](#Limitations.md).
 
 ### Display Information 
 

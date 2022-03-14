@@ -49,10 +49,16 @@ The Ellipsoid can be edited after its creation in two ways:
 -    **Angle3**: (labelled *U parameter* in the Primitive parameters) angle of rotation of the elliptical cross section (360 degrees in a full spheroid).
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

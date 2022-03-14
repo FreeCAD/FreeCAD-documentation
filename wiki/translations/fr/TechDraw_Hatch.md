@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil Hachures remplit une région fermée dans une vue avec un motif de hachures, qui peut être des fichiers [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md). Au contraire, l\'outil <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) utilise un fichier de modèle PAT spécifique, voir [Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
+L\'outil <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechDraw Hachures par motif** remplit une région fermée dans une vue avec un motif hachuré basé sur le format [SVG](SVG/fr.md). On peut aussi utiliser l\'outil <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) utilise des motifs de hachures basés sur PAT. Voir [TechDraw Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
@@ -21,10 +21,13 @@ L\'outil Hachures remplit une région fermée dans une vue avec un motif de hach
 
 ## Utilisation
 
-1.  Sélectionnez une région fermée dans une vue. La région deviendra verte.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_Hatch.svg" width=16px> [Hachurer une face en utilisant un fichier image](TechDraw_Hatch/fr.md)
-**
-3.  Une boîte de dialogue s\'ouvre dans laquelle vous pouvez sélectionner le fichier de motif, l\'échelle et la couleur.
+1.  Sélectionner une région fermée dans une vue.
+2.  Il existe plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_Hatch.svg" width=16px> [Hachurer une face en utilisant un fichier image ](TechDraw_Hatch/fr.md)**.
+    -   Sélectionnez le **TechDraw → <img src="images/TechDraw_Hatch.svg" width=16px> Hachurer une face en utilisant un fichier image ** dans le menu.
+3.  Le panneau de tâches **Appliquer le hachurage au visage** s\'ouvre.
+4.  Vous pouvez modifier **Fichier de motifs**, **Echelle des motifs** et **Couleur des lignes**.
+5.  Appuyez sur le bouton **OK**.
 
 ## Notes
 

@@ -68,7 +68,7 @@ Dopo la sua creazione il cilindro può essere modificato in due modi:
 </div>
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

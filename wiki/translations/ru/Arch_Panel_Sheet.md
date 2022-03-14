@@ -76,7 +76,7 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Panel sheet tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The Panel sheet tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python

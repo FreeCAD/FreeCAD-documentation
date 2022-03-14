@@ -27,133 +27,133 @@ Zobacz stronę [Grafika Gui](Artwork_Gui.md).
 
 ### Ikonki src/Mod/Arch/ 
 
-Zobacz stronę [Grafika Środowiska pracy Arch](Artwork_Arch.md).
+Zobacz stronę [Grafika środowiska pracy Architektura](Artwork_Arch/pl.md).
 
 ### Ikonki src/Mod/Assembly/ 
 
-Zobacz stronę [Grafika Środowiska pracy Assembly](Artwork_Assembly.md).
+Zobacz stronę [Grafika środowiska pracy Zlożenie](Artwork_Assembly/pl.md).
 
 ### Ikonki src/Mod/Complete/ 
 
-Zobacz strone [Grafika Środowiska pracy Complete](Artwork_Complete.md).
+Zobacz strone [Grafika środowiska pracy Complete](Artwork_Complete/pl.md).
 
 ### Ikonki src/Mod/Draft/ 
 
-Zobacz stronę [Grafika Środowiska pracy Draft](Artwork_Draft.md).
+Zobacz stronę [Grafika środowiska pracy Rysunek Roboczy](Artwork_Draft/pl.md).
 
 ### Ikonki src/Mod/Drawing/ 
 
-Zobacz stronę [Grafika Środowiska pracy Drawing](Artwork_Drawing.md).
+Zobacz stronę [Grafika środowiska pracy Kreślenie](Artwork_Drawing/pl.md).
 
 ### Ikonki src/Mod/Fem/ 
 
-Zobacz stronę [Grafika Środowiska pracy Fem](Artwork_Fem.md).
+Zobacz stronę [Grafika środowiska pracy MES](Artwork_Fem/pl.md).
 
 ### Ikonki src/Mod/Image/ 
 
-Zobacz stronę [Grafika Środowiska pracy Image](Artwork_Image.md).
+Zobacz stronę [Grafika środowiska pracy Obraz](Artwork_Image/pl.md).
 
 ### Ikonki src/Mod/Inspection/ 
 
-Zobacz stronę [AGrafika Środowiska pracy Inspection](Artwork_Inspection.md).
+Zobacz stronę [Grafika środowiska pracy Inspekcja](Artwork_Inspection/pl.md).
 
 ### Ikonki src/Mod/Material/ 
 
-Zobacz stronę [AGrafika Środowiska pracy Material](Artwork_Material.md).
+Zobacz stronę [Grafika środowiska pracy Materiał](Artwork_Material/pl.md).
 
 ### Ikonki src/Mod/Mesh/ 
 
-Zobacz stronę [Grafika Środowiska pracy Mesh](Artwork_Mesh.md).
+Zobacz stronę [Grafika środowiska pracy Siatka](Artwork_Mesh/pl.md).
 
 ### Ikonki src/Mod/MeshPart/ 
 
-Zobacz stronę [Grafika Środowiska pracy MeshPart](Artwork_MeshPart.md).
+Zobacz stronę [Grafika środowiska pracy MeshPart](Artwork_MeshPart/pl.md).
 
 ### Ikonki src/Mod/OpenSCAD/ 
 
-Zobacz stronę [Grafika Środowiska pracy OpenSCAD](Artwork_OpenSCAD.md).
+Zobacz stronę [Grafika środowiska pracy OpenSCAD](Artwork_OpenSCAD/pl.md).
 
 ### Ikonki src/Mod/Part/ 
 
-Zobacz strone [Grafika Środowiska pracy Part](Artwork_Part.md).
+Zobacz strone [Grafika Środowiska pracy Część](Artwork_Part/pl.md).
 
 ### Ikonki src/Mod/PartDesign/ 
 
-Zobacz stronę [Grafika Środowiska pracy PartDesign](Artwork_PartDesign.md).
+Zobacz stronę [Grafika środowiska pracy Projekt Części](Artwork_PartDesign/pl.md).
 
 ### Ikonki src/Mod/Path/ 
 
-Zobacz stronę [Grafika Środowiska pracy Path](Artwork_Path.md).
+Zobacz stronę [Grafika środowiska pracy Path](Artwork_Path/pl.md).
 
 ### Ikonki src/Mod/Points/ 
 
-Zobacz stronę [Grafika Środowiska pracy Points](Artwork_Points.md).
+Zobacz stronę [Grafika środowiska pracy Punkty](Artwork_Points/pl.md).
 
 ### Ikonki src/Mod/Raytracing/ 
 
-Zobacz stronę [AGrafika Środowiska pracy Raytracing](Artwork_Raytracing.md).
+Zobacz stronę [Grafika środowiska pracy Raytracing](Artwork_Raytracing/pl.md).
 
 ### Ikonki src/Mod/ReverseEngineering/ 
 
-Zobacz stronę [Grafika Środowiska pracy Inżynieria wsteczna](Artwork_ReverseEngineering.md).
+Zobacz stronę [Grafika środowiska pracy Inżynieria wsteczna](Artwork_ReverseEngineering/pl.md).
 
 ### Ikonki src/Mod/Robot/ 
 
-Zobacz stronę [Grafika Środowiska pracy Robot](Artwork_Robot.md).
+Zobacz stronę [Grafika środowiska pracy Robot](Artwork_Robot/pl.md).
 
 ### Ikonki src/Mod/Sketcher/ 
 
-Zobacz stronę [Grafika Środowiska pracy Sketcher](Artwork_Sketcher.md).
+Zobacz stronę [Grafika środowiska pracy Szkicownik](Artwork_Sketcher/pl.md).
 
 ### Ikonki src/Mod/Spreadsheet/ 
 
-Zobacz strone [Grafika Środowiska pracy Arkusz kalkulacyjny](Artwork_Spreadsheet.md).
+Zobacz strone [Grafika środowiska pracy Arkusz Kalkulacyjny](Artwork_Spreadsheet/pl.md).
 
 ### Ikonki src/Mod/Start/ 
 
-Zobacz strone [Grafika Środowiska pracy Start](Artwork_Start.md).
+Zobacz strone [Grafika środowiska pracy Start](Artwork_Start/pl.md).
 
 ### Ikonki src/Mod/Surface/ 
 
-Zobacz stronę [Grafika Środowiska pracy Surface](Artwork_Surface.md).
+Zobacz stronę [Grafika środowiska pracy Powierzchnia](Artwork_Surface/pl.md).
 
 ### Ikonki src/Mod/TechDraw/ 
 
-Zobacz strone [Grafika Środowiska pracy TechDraw](Artwork_TechDraw.md).
+Zobacz stronę [Grafika środowiska pracy Rysunek Techniczny](Artwork_TechDraw/pl.md).
 
 ### Ikonki z src/Mod/Test/ 
 
-Zobacz stronę [Grafika Środowiska pracy Test](Artwork_Test.md).
+Zobacz stronę [Grafika środowiska pracy Test](Artwork_Test/pl.md).
 
 ### Ikonki src/Mod/Tux/ 
 
-Zobacz stronę [Grafika Środowiska pracy Tux](Artwork_Tux.md).
+Zobacz stronę [Grafika środowiska pracy Tux](Artwork_Tux/pl.md).
 
 ### Ikonki src/Mod/Web/ 
 
-Zobacz strone [Grafika Środowiska pracy Web](Artwork_Web.md).
+Zobacz strone [Grafika środowiska pracy Web](Artwork_Web/pl.md).
 
 ## Zewnętrzne Środowiska pracy oraz dodatki 
 
 ### From Mod/asm3/ 
 
-See [Artwork Assembly3](Artwork_Assembly3.md).
+Zobacz stronę [Grafika środowiska pracy Złożenie 3](Artwork_Assembly3/pl.md).
 
 ### Ikonki Mod/Plot/ 
 
-Zobacz stronę [Grafika Środowiska pracy Plot](Artwork_Plot.md).
+Zobacz stronę [Grafika środowiska pracy Plot](Artwork_Plot/pl.md).
 
 ### Ikonki dla Mod/Reinforcement/ 
 
-Zobacz stronę [Grafika Środowiska pracy Reinforcement](Artwork_Reinforcement.md).
+Zobacz stronę [Grafika środowiska pracy Zbrojenie](Artwork_Reinforcement/pl.md).
 
 ### From Mod/Render/ 
 
-See [Artwork Render](Artwork_Render.md).
+Zobacz stronę [Grafika środowiska pracy Render](Artwork_Render/pl.md).
 
 ### Ikonki Mod/Ship/ 
 
-Zobacz stronę [Grafika Środowiska pracy Ship](Artwork_Ship.md).
+Zobacz stronę [Grafika środowiska pracy Statek](Artwork_Ship/pl.md).
 
 
 

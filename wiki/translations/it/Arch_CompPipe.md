@@ -15,10 +15,13 @@
 
 ## Descrizione
 
+Grouping of several pipe related tools.
+
 ## Tipi di oggetti per tubazioni 
 
--   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Tubo](Arch_Pipe/it.md): Crea un tubo {{Version/it|0.17}}
--   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Raccordo](Arch_PipeConnector/it.md): Crea una connessione a angolo o un tee (raccordo) tra 2 o 3 tubi selezionati {{Version/it|0.17}}
+-   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Pipe](Arch_Pipe.md): Creates a pipe.
+
+-   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connector](Arch_PipeConnector.md): Creates a corner or T-connection between 2 or 3 selected pipes.
 
 
 <div class="mw-translate-fuzzy">

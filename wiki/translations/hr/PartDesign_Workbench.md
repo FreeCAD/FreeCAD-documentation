@@ -46,9 +46,9 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Create sketch](PartDesign_NewSketch.md): creates‎ a new sketch on a selected face or plane. If no face is selected while this tool is executed, the user is prompted to select a plane from the Tasks panel. The interface then switches to the [Sketcher Workbench](Sketcher_Workbench.md) in sketch editing mode.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edit sketch](Sketcher_EditSketch.md): Edit the selected Sketch.
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edit sketch](Sketcher_EditSketch.md): edit the selected Sketch.
 
--   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Map sketch to face](Sketcher_MapSketch.md): Maps a sketch to a previously selected plane or a face of the active body.
+-   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Map sketch to face](Sketcher_MapSketch.md): maps a sketch to a previously selected plane or a face of the active body.
 
 ### Part Design Modeling tools 
 
@@ -64,7 +64,7 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Create a shape binder](PartDesign_ShapeBinder.md): creates a shape binder in the active body.
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object shape binder](PartDesign_SubShapeBinder.md): creates a shape binder to a subelement, like edge or face from another body, while retaining the relative position of that element. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object(s) shape binder](PartDesign_SubShapeBinder.md): creates a shape binder to a subelement, like edge or face from another body, while retaining the relative position of that element. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Create a clone](PartDesign_Clone.md): creates a clone of the selected body.
 
@@ -86,17 +86,17 @@ These are tools for creating base features or adding material to an existing sol
 
 :\*<img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Additive box](PartDesign_AdditiveBox.md): creates an additive box.
 
-:\*<img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Additive cone](PartDesign_AdditiveCone.md): creates an additive cone.
-
 :\*<img alt="" src=images/PartDesign_AdditiveCylinder.svg  style="width:32px;"> [Additive cylinder](PartDesign_AdditiveCylinder.md): creates an additive cylinder.
-
-:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.svg  style="width:32px;"> [Additive ellipsoid](PartDesign_AdditiveEllipsoid.md): creates an additive ellipsoid.
-
-:\*<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Additive prism](PartDesign_AdditivePrism.md): creates an additive prism.
 
 :\*<img alt="" src=images/PartDesign_AdditiveSphere.svg  style="width:32px;"> [Additive sphere](PartDesign_AdditiveSphere.md): creates an additive sphere.
 
+:\*<img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Additive cone](PartDesign_AdditiveCone.md): creates an additive cone.
+
+:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.svg  style="width:32px;"> [Additive ellipsoid](PartDesign_AdditiveEllipsoid.md): creates an additive ellipsoid.
+
 :\*<img alt="" src=images/PartDesign_AdditiveTorus.svg  style="width:32px;"> [Additive torus](PartDesign_AdditiveTorus.md): creates an additive torus.
+
+:\*<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Additive prism](PartDesign_AdditivePrism.md): creates an additive prism.
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Additive wedge](PartDesign_AdditiveWedge.md): creates an additive wedge.
 
@@ -120,17 +120,17 @@ These are tools for subtracting material from an existing body.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Subtractive box](PartDesign_SubtractiveBox.md): adds a subtractive box to the active body.
 
-:\*<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Subtractive cone](PartDesign_SubtractiveCone.md): adds a subtractive cone to the active body.
-
 :\*<img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:32px;"> [Subtractive cylinder](PartDesign_SubtractiveCylinder.md): adds a subtractive cylinder to the active body.
-
-:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Subtractive ellipsoid](PartDesign_SubtractiveEllipsoid.md): adds a subtractive ellipsoid to the active body.
-
-:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Subtractive prism](PartDesign_SubtractivePrism.md): adds a subtractive prism to the active body.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveSphere.svg  style="width:32px;"> [Subtractive sphere](PartDesign_SubtractiveSphere.md): adds a subtractive sphere to the active body.
 
+:\*<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Subtractive cone](PartDesign_SubtractiveCone.md): adds a subtractive cone to the active body.
+
+:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Subtractive ellipsoid](PartDesign_SubtractiveEllipsoid.md): adds a subtractive ellipsoid to the active body.
+
 :\*<img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:32px;"> [Subtractive torus](PartDesign_SubtractiveTorus.md): adds a subtractive torus to the active body.
+
+:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Subtractive prism](PartDesign_SubtractivePrism.md): adds a subtractive prism to the active body.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Subtractive wedge](PartDesign_SubtractiveWedge.md): adds a subtractive wedge to the active body.
 
@@ -168,9 +168,9 @@ Some additional functionality found in the Part Design menu:
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Migrate](PartDesign_Migrate.md): migrates files created with older FreeCAD versions. If the file is pure PartDesign feature-based, migration should succeed. If the file contains mixed Part/Part Design/Draft objects, the conversion will most likely fail.
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket design wizard](PartDesign_Sprocket.md): creates a sprocket profile that can be padded. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket](PartDesign_Sprocket.md): creates a sprocket profile that can be padded. <small>(v0.19)</small> 
 
--   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Involute gear design wizard](PartDesign_InvoluteGear.md): creates an involute gear profile that can be padded.
+-   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Involute gear](PartDesign_InvoluteGear.md): creates an involute gear profile that can be padded.
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Shaft design wizard](PartDesign_WizardShaft.md): Generates a shaft from a table of values and allows to analyze forces and moments. The shaft is made with a revolved sketch that can be edited.
 
@@ -216,9 +216,9 @@ Some additional functionality found in the Part Design menu:
 </div>
 
 
- {{PartDesign Tools navi}}
+ {{PartDesign_Tools_navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/hr

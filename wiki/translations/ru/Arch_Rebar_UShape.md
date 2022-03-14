@@ -40,11 +40,11 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Применение
 
-1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]** object.
+1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
 
 2.  Then select **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape.md)** from the rebar tools.
 
-3.  A [task panel](task_panel.md) will pop-out on the left side of the screen as shown below.
+3.  A [task panel](Task_panel.md) will pop-out on the left side of the screen as shown below.
 
 4.  Select the desired orientation.
 
@@ -85,6 +85,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    **Amount**: The amount of rebars.
 
 -    **Spacing**: The distance between the axes of each bar.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -142,6 +144,8 @@ Rebar2 = UShapeRebar.makeUShapeRebar(50, 50, 20, 20,
                                      8, 50, 4, True, 6, "Bottom", Structure, "Face6")
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
+
+### Edition of the rebar 
 
 
 <div class="mw-translate-fuzzy">

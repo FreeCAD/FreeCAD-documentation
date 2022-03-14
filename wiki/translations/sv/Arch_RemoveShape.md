@@ -18,9 +18,11 @@ This tool attempts at removing the inner cubic shape of an **<img src="images/Ar
 
 ## Bruk
 
-1.  Select an **<img src="images/Arch_Wall.svg" width=16px> [[Arch Wall]]
-** or **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]**
+1.  Select an **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)
+** or **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)**
 2.  Press the **<img src="images/Arch_RemoveShape.svg" width=16px>** button or use **Arch** → **Utilities** → **<img src="images/Arch_RemoveShape.svg" width=16px> [Remove Shape](Arch_RemoveShape.md)** from the top menu.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -30,7 +32,7 @@ This tool attempts at removing the inner cubic shape of an **<img src="images/Ar
 
 </div>
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 removeShape(objs, mark=True)
 ```
@@ -67,6 +69,11 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

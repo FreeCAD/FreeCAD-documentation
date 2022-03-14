@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name:TechDraw Dimension Link
-   Name/de:TechDraw Bemaßung verknüpfen
+   Name/de:TechDraw MaßVerknüpfen
    MenuLocation:TechDraw → Bemaßungen → Maß mit 3D Geometrie verknüpfen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw ProjektionsGruppe](TechDraw_ProjectionGroup/de.md)
@@ -9,60 +9,27 @@
 
 # TechDraw LinkDimension/de
 
-
-</div>
-
 ## Beschreibung
 
+Das Werkzeug MaßVerknüpfen erstellt eine Verknüpfung zwischen einer 3D-Geometrie und einem oder mehreren projizierten Maß(en) auf einer (Zeichnungs-)Seite. Diese Verknüpfung ermöglicht es dem Maß den tatsächlichen 3D-Wert anstelle des projizierten 2D-Wertes zu verwenden.
 
-<div class="mw-translate-fuzzy">
+Dieses Werkzeug wird meistens dafür verwendet, isometrische Ansichten einer Projektionsgruppe zu bemaßen. Die projizierte Länge (angezeigte Länge) einer Linie in einer isometrischen Zeichnungsansicht muss nicht zwangsläufig der tatsächlichen Länge dieser Linie im 3D-Bauteil entsprechen. In einer rechtwinkligen Ansicht sind die projizierten und tatsächlichen Längen immer gleich.
 
-Mit dem Werkzeug \"Bemaßung verknüpfen\" wird eine Verlinkung zwischen einem 3D-Bauteil und einer Ansicht auf einer Zeichnung erstellt. Dieser Link ermöglicht es den tatsächlichen 3D-Wert anstelle des angezeigten projizierten 2D-Wert zu verwenden.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug wird gewöhnlich dafür verwendet um isometrische Ansichten zu bemaßen. Die projezierte Länge bzw. angezeigte Länge einer Linie in einer isometrischen Zeichnungsansicht ist nicht gleich der tatsächlichen Länge dieser Linie im 3D-Bauteil. In einer rechtwinkligen Ansicht sind die projezierten und tatsächlichen Längen immer gleich.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug verlinkt die tatsächliche Länge einer Linie im 3D-Bauteil mit der angezeigten Länge in der isometrischen Zeichnungsansicht.
-
-
-</div>
+Diese Verknüpfung veranlasst das Maß seinen Wert direkt von der 3D-Geometrie abzuleiten.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Erstelle eine geeignete Bemaßung auf dem Zeichenblatt mit einer der folgenden Methoden [Bemaßung Länge](TechDraw_LengthDimension/de.md), [Bemaßung Horizontal](TechDraw_HorizontalDimension/de.md), usw. Diese Bemaßung steht an der richtigen Stelle auf der Seite, zeigt aber den projizierten Bemaßungswert an.
-2.  Wähle die Geometrie in der 3D Ansicht, z.B. eine Kante, die der projizierten Geometrie Ihrer Bemaßung entspricht.
-3.  Drücke die **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Bemaßungsverknüpfung](TechDraw_LinkDimension/de.md)** Schaltfläche.
-4.  Ein Dialog öffnet sich. Wähle eine oder mehrere Bemaßungen aus, die mit der ausgewählten 3D Geometrie verknüpft werden sollen.
+1.  Ein geeignetes Maß auf dem Zeichenblatt erstellen; mit einer der Bemaßungsfunktionen [Längenmaß](TechDraw_LengthDimension/de.md), [MaßHorizontal](TechDraw_HorizontalDimension/de.md), usw. Dieses Maß steht an der richtigen Stelle auf der Seite, zeigt aber den Wert des projizierten Maßes an.
+2.  Auswahl der Geometrie in der 3D-Ansicht, z.B. eine Kante, die der bemaßten projizierten Geometrie entspricht.
+3.  Schaltfläche **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Maß mit 3D-Geometrie verknüpfen](TechDraw_LinkDimension/de.md)** drücken.
+4.  Ein Dialog öffnet sich. Ein oder mehrere Maß(e) auswählen, die mit der ausgewählten 3D-Geometrie verknüpft werden sollen.
 5.  Drücke **OK**.
-
-
-</div>
 
 Nachdem die Verknüpfungsoperation abgeschlossen ist, ändert sich die **MeasureType** Eigenschaft der Bemaßung von `Projected` in `True`.
 
 ## Beschränkungen
 
-
-<div class="mw-translate-fuzzy">
-
-Bemaßungsobjekte sind anfällig für Probleme der \"topologischen Benennung\". Weitere Informationen findest Du in den Informationen im Werkzeug [TechDraw Längenbemaßung](TechDraw_LengthDimension/de.md). Es wird empfohlen, dass das Verknüpfen von Bemaßungen einer der letzten Schritte im Zeichenprozess ist.
-
-
-</div>
+Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md) für weitere Informationen. Es wird empfohlen, dass das Verknüpfen von Maßen einer der letzten Schritte der Zeichnungserstellung ist.
 
 Das Verknüpfungswerkzeug wird dich nicht daran hindern, unlogische Verknüpfungen zu erstellen, daher musst du beim Erstellen der Verknüpfung die richtige Kante aus der 3D Ansicht auswählen.
 
@@ -81,13 +48,7 @@ Beachte, dass, wenn die zu verknüpfende Bemaßung auf zwei Eckpunkten basiert, 
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Das Bemaßungsverknüpfungswerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden:
-
-
-</div>
+Das Werkzeug MaßVerknüpfung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python
@@ -95,13 +56,7 @@ to be defined
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -117,6 +117,9 @@ Diese Werkzeuge führen boolesche Operationen aus.
     -   <img alt="" src=images/Part_JoinEmbed.svg  style="width:32px;"> [Einbetten](Part_JoinEmbed/de.md): Bettet ein Hohlobjekt in ein anderes Hohlobjekt ein.
     -   <img alt="" src=images/Part_JoinCutout.svg  style="width:32px;"> [Ausschneiden](Part_JoinCutout/de.md): Erzeugt einen Ausschnitt in einer Wand eines Objekts für ein anderes Hohlobjekt.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_CompSplittingTools.png  style="width:48px;"> [Teilungswerkzeuge](Part_CompSplittingTools/de.md):
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Boolesche Fragmente](Part_BooleanFragments/de.md): erzeugt alle Teile, die durch boolesche Operationen erhalten werden.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Zerteilen eines Teils](Part_SliceApart/de.md):
@@ -125,6 +128,9 @@ Zerschneidet und teilt ein Objekt, indem er es mit anderen Objekten überschneid
 
 -   -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Zerschneiden](Part_Slice/de.md): Zerschneidet ein Objekt, indem es mit anderen Objekten überschnitten wird.
     -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR/de.md): Entfernt Bereiche, die von einer gleichen Anzahl von Objekten geteilt werden (symmetrische Version von [Cut](Part_Cut.md)).
+
+
+</div>
 
 ### Messung
 
@@ -150,7 +156,13 @@ Zerschneidet und teilt ein Objekt, indem er es mit anderen Objekten überschneid
 
 -   <img alt="" src=images/Part_Export.svg  style="width:32px;"> [Export](Part_Export/de.md): Exportiert aus \*.IGES, \*.STEP, oder \*.BREP Dateien.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Rechteckauswahl](Part_BoxSelection/de.md): Zur Wählt Flächen aus Rechteckflächen aus.
+
+
+</div>
 
 -   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Form aus Netz](Part_ShapeFromMesh/de.md): Erzeugt ein Formobjekt aus einem Netzobjekt.
 

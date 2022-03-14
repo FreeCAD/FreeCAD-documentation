@@ -11,7 +11,13 @@
 
 ## Beschreibung
 
-Das Schraffur Werkzeug füllt einen geschlossenen Bereich in einer Ansicht mit einem Schraffurmuster, das [SVG](SVG/de.md) oder [bitmap](bitmap/de.md) Dateien sein können. Im Gegenteil, das <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Geometrische Schraffur](TechDraw_GeometricHatch/de.md) Werkzeug verwendet eine bestimmte PAT Musterdatei, siehe [Schraffur](TechDraw_Hatching/de.md) für Einzelheiten.
+
+<div class="mw-translate-fuzzy">
+
+Das Schraffurwerkzeug füllt einen geschlossenen Bereich in einer Ansicht mit einem Schraffurmuster einer [SVG-](SVG/de.md) oder [Bitmap-Datei](bitmap/de.md). Im Gegensatz dazu verwendet das Werkzeug <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [GeometrischeSchraffur](TechDraw_GeometricHatch/de.md) ein Schraffurmuster aus einern bestimmte PAT-Datei, siehe [Schraffieren](TechDraw_Hatching/de.md) für Einzelheiten.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
@@ -21,9 +27,15 @@ Das Schraffur Werkzeug füllt einen geschlossenen Bereich in einer Ansicht mit e
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle einen geschlossenen Bereich in einer Ansicht.
-2.  Drücke die **<img src="images/TechDraw_Hatch.svg" width=16px> [Fläche schraffieren unter Verwendung einer Bilddatei](TechDraw_Hatch/de.md)** Schaltfläche
-3.  Ein Dialog öffnet sich, in demdu die Musterdatei, den Maßstab und die Farbe auswählen kannst.
+2.  Drücke die Schaltfläche **<img src="images/TechDraw_Hatch.svg" width=16px> [Fläche mit Muster aus einer Bilddatei schraffieren](TechDraw_Hatch/de.md)**.
+3.  Ein Dialog wird geöffnet, in welchem man die Musterdatei, den Maßstab und die Farbe auswählen kann.
+
+
+</div>
 
 ## Hinweise
 
@@ -68,13 +80,7 @@ rc = page.addView(hatch)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

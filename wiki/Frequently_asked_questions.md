@@ -185,6 +185,10 @@ There is a lot of documentation spread in different places, both on and outside 
 
 Please refer to the page [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md). Maybe your questions are already answered there.
 
+### What are the features that FreeCAD currently does not support and how to overcome those limitations? 
+
+Please refer to the page [Missing features](Missing_features.md) where a list of missing features with workarounds is available.
+
 ## Working with Part geometry 
 
 ### How do I extrude stuff into solids? I don\'t get the right result 

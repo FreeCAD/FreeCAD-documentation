@@ -34,7 +34,7 @@ See the information on [Arch Pipe](Arch_Pipe.md) for the workflow on using pipes
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Pipe Connector tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Pipe Connector tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```

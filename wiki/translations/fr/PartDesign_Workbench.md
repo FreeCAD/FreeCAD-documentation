@@ -35,7 +35,7 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 
 -   ![\|32px](images/Sketcher_NewSketch.svg ) [Esquisse](PartDesign_NewSketch/fr.md) : crée une nouvelle esquisse sur un plan ou une face sélectionnée. Si rien n\'est sélectionné, l\'utilisateur est invité à sélectionner un plan dans le panneau Tâches. L\'interface bascule ensuite vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md) en mode d\'édition d\'esquisse.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Modifier l\'esquisse](Sketcher_EditSketch/fr.md) : édite l\'esquisse sélectionnée.
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Modifier l\'esquisse](Sketcher_EditSketch/fr.md) : modifie l\'esquisse sélectionnée.
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md) : applique une esquisse sur une face ou un plan sélectionné du corps actif.
 
@@ -53,7 +53,7 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Forme liée](PartDesign_ShapeBinder/fr.md) : crée une forme liée dans le corps actif.
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Sous forme liée](PartDesign_SubShapeBinder/fr.md): crée une forme liée à un sous-élément comme le bord ou la face d\'un autre corps tout en conservant la position relative de cet élément. {{Version/fr|0.19}}
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Sous forme liée](PartDesign_SubShapeBinder/fr.md) : crée une forme liée à un sous-élément, comme le bord ou la face d\'un autre corps, tout en conservant la position relative de cet élément. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Clone](PartDesign_Clone/fr.md) : crée un clone dans le corps actif.
 
@@ -75,17 +75,17 @@ Ces outils permettent de créer des fonctions de base ou d\'ajouter de la matiè
 
 :\*<img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Cube additif](PartDesign_AdditiveBox/fr.md) : crée un cube additif.
 
-:\*<img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Cône additif](PartDesign_AdditiveCone/fr.md) : crée un cône additif.
-
 :\*<img alt="" src=images/PartDesign_AdditiveCylinder.svg  style="width:32px;"> [Cylindre additif](PartDesign_AdditiveCylinder/fr.md) : crée un cylindre additif.
-
-:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.svg  style="width:32px;"> [Ellipsoïde additif](PartDesign_AdditiveEllipsoid/fr.md) : crée un ellipsoïde additif.
-
-:\*<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Prisme additif](PartDesign_AdditivePrism/fr.md) : crée un prisme additif.
 
 :\*<img alt="" src=images/PartDesign_AdditiveSphere.svg  style="width:32px;"> [Sphère additive](PartDesign_AdditiveSphere/fr.md) : crée une sphère additive.
 
+:\*<img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Cône additif](PartDesign_AdditiveCone/fr.md) : crée un cône additif.
+
+:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.svg  style="width:32px;"> [Ellipsoïde additif](PartDesign_AdditiveEllipsoid/fr.md) : crée un ellipsoïde additif.
+
 :\*<img alt="" src=images/PartDesign_AdditiveTorus.svg  style="width:32px;"> [Tore additif](PartDesign_AdditiveTorus/fr.md) : crée un tore additif.
+
+:\*<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Prisme additif](PartDesign_AdditivePrism/fr.md) : crée un prisme additif.
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Pyramide tronquée additive](PartDesign_AdditiveWedge/fr.md) : crée une pyramide tronquée additive.
 
@@ -109,17 +109,17 @@ Ces outils permettent d\'enlever de la matière à un corps solide existant.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Cube soustractif](PartDesign_SubtractiveBox/fr.md) : crée un cube soustractif.
 
-:\*<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Cône soustractif](PartDesign_SubtractiveCone/fr.md) : crée un cône soustractif.
-
 :\*<img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:32px;"> [Cylindre soustractif](PartDesign_SubtractiveCylinder/fr.md) : crée un cylindre soustractif.
-
-:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Ellipsoïde soustractif](PartDesign_SubtractiveEllipsoid/fr.md) : crée un ellipsoïde soustractif.
-
-:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Prisme soustractif](PartDesign_SubtractivePrism/fr.md) : crée un prisme soustractif.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveSphere.svg  style="width:32px;"> [Sphère soustractive](PartDesign_SubtractiveSphere/fr.md) : crée une sphère soustractive.
 
+:\*<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Cône soustractif](PartDesign_SubtractiveCone/fr.md) : crée un cône soustractif.
+
+:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Ellipsoïde soustractif](PartDesign_SubtractiveEllipsoid/fr.md) : crée un ellipsoïde soustractif.
+
 :\*<img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:32px;"> [Tore soustractif](PartDesign_SubtractiveTorus/fr.md) : crée un tore soustractif.
+
+:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Prisme soustractif](PartDesign_SubtractivePrism/fr.md) : crée un prisme soustractif.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Pyramide tronquée soustractive](PartDesign_SubtractiveWedge/fr.md) : crée une pyramide tronquée soustractive.
 
@@ -194,9 +194,9 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 
 
 
- {{PartDesign Tools navi}}
+ {{PartDesign_Tools_navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/fr

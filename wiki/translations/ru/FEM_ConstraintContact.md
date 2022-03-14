@@ -21,8 +21,9 @@ Creates a FEM constraint for contact between 2 surfaces.
 
 ## Limitations
 
-1.  The contact constraint can only be applied to two faces.
-2.  Development for multiple contact at once: <https://forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=130#p303275>
+-   The contact constraint can only be applied to two faces.
+-   Development for multiple contact at once: <https://forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=130#p303275>
+-   Because multiple meshes are currently not supported, contact must be applied to faces that are separated by (at least) a small distance. If the faces were touching (no gap between them), the result of a boolean union or boolean fragments operation (necessary to avoid having multiple meshes which is not allowed at the moment) would be a continuous mesh and thus no need to use contact anymore. See [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=62307).
 
 ## Notes
 

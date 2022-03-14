@@ -66,6 +66,29 @@ La función ComprobarGeometría comprueba si la [Representación del límite](ht
 
 If ticked, any errors found are also logged in the [report view](Report_view.md). <small>(v0.19)</small> 
 
+## Shape Content 
+
+In addition to detecting potential geometry errors, this tool shows a range of properties regarding the selected object:
+
+-   Checked object
+-   Shape type
+-   Number of geometric entities: vertices, edges, wires, faces, shells, solids, compsolids, compounds, total shapes
+-   Geometric and mass properties:
+    -   Area
+    -   Volume
+    -   Mass
+    -   Length
+    -   Center of mass
+    -   Orientation
+    -   Symmetry axis
+    -   Symmetry point
+    -   Moments
+    -   First axis of inertia
+    -   Second axis of inertia
+    -   Third axis of inertia
+    -   Radius of gyration
+    -   Global placement
+
 
 <div class="mw-translate-fuzzy">
 

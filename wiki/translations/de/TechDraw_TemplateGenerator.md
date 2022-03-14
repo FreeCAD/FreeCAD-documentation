@@ -61,9 +61,8 @@ Der Körper startet mit einem öffnenden Tag, der Informationen über Namensräu
 
 :   **xmlns=**\"<http://www.w3.org/2000/svg>\": Externer Verweis auf den XML-Namensraum, um Standard-XML-Befehle nachzuschlagen.
 :   **version=**\"1.1\": Die verwendete XML-Version ist 1.1
-:   **xmlns:freecad=**\"[Svg-Namensraum](https://wiki.freecadweb.org/index.php?title=Svg_Namespace)\": Externer Verweis auf FreeCADs Namensraumerweiterung
-
-    :   zum Nachschlagen spezieller Befehle, die nur innerhalb einer FreeCAD-Umgebung verwendet werden, wie z.B. editierbare Texte
+:   **xmlns:freecad=**\"[Svg-Namensraum](https://wiki.freecadweb.org/index.php?title=Svg_Namespace)\": Externer Verweis auf FreeCADs Namensraumerweiterung zum Nachschlagen spezieller Befehle, die nur innerhalb einer FreeCAD-Umgebung verwendet werden, wie z.B. editierbare Texte.
+:   \"freecad:\" wird Attributnamen vorangestellt, damit sie durch die besagten speziellen Befehle verarbeitet werden.
 :   **width=**\"420mm\": Breite der Zeichenfläche
 :   **height=**\"297mm\": Höhe der Zeichenfläche
 :   **viewBox=**\"0 0 420 297\": Position der oberen linken Ecke (0;0) und der unteren rechten Ecke (420;297) im SVG-Konstruktionsraum (in SVG-Einheiten).

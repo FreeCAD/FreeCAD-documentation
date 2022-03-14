@@ -21,25 +21,90 @@ Zurück zu [Arbeitsbereiche](Workbenches#External_workbenches/de.md) / [Externe 
 
 ## Bewehrungstypen
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md): Erstellt einen geraden Bewehrungsstab in einem gewählten Strukturelement.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md): Erstellt einen U-förmigen Bewehrungsstab in einem gewählten Strukturelement.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> [L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md): Erstellt einen L-förmigen Bewehrungsstab in einem gewählten Strukturelement
 
--   <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> [Gebogener Formstab](Arch_Rebar_BentShape/de.md): Erstellt einen gebogenen Formstab in einem gewählten Strukturelement.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width:32px;"> [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md): Erstellt einen bügelförmigen Bewehrungsstab in einem gewählten Strukturelement
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> [Gebogener Formstab](Arch_Rebar_BentShape/de.md): Erstellt einen gebogenen Formstab in einem gewählten Strukturelement.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md): Erstellt einen spiralförmigen Bewehrungsstab in einem gewählten Strukturelement
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Rundsäulenverstärkung](Arch_Rebar_ColumnReinforcement/de.md): Erstellt eine Rundsäulenverstärkung in einem Stützen Arch Struktur Objekt.
 
--   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [ZweiBinderSechsStützen Bewehrung](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md): Erstellt eine Stützenbewehrung in einem ZweiBinderSechsStützen Arch Struktur Objekt.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Balkenbewehrung](Arch_Rebar_BeamReinforcement/de.md): Erstellt Bewehrungsstäbe in einem Balken Arch Struktur Objekt
 
+
+</div>
+
+-   <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md): Creates reinforcement bars in a selected slab.
+
+-   <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md): Creates reinforcement bars inside a selected footing.
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Bewehrung](Arch_Rebar/de.md): Erstellt einen maßgefertigten Bewehrungsstab in einem ausgewählten Strukturelement unter Verwendung einer Skizze
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

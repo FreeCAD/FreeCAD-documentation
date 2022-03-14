@@ -161,6 +161,8 @@ Para crear B-splines periódicas (B-splines que forman una curva cerrada), utili
 
 Las B-splines también pueden generarse a partir de segmentos de croquis existentes. Para ello, seleccione los elementos y pulse el botón de la barra de herramientas **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convertir geometría en B-spline](Sketcher_BSplineApproximate/es.md)**.
 
+While creating a B-spline, its degree can be specified by pressing the **D** key. With this, the default to create a cubic B-spline if possible, can be overridden. <small>(v0.20)</small> 
+
 ### Cambio de grado 
 
 Para cambiar el grado, seleccione la B-spline y utilice el botón de la barra de herramientas **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> [Aumentar grado de la B-spline](Sketcher_BSplineIncreaseDegree/es.md)** o **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> [Decrementar grado de B-spline](Sketcher_BSplineDecreaseDegree/es.md)**.
@@ -192,6 +194,12 @@ Si no se establece ninguna restricción de radio, también se puede cambiar el r
 En el ejemplo de arrastre se ve que un peso alto atrae la curva hacia el punto de control mientras que un peso muy bajo cambia la curva como si el punto de control casi no existiera.
 
 Cuando miras la [función de creación](#B-splines_no-uniformes.md) para B-splines racionales no uniformes ves que un peso de cero llevaría a una división por cero. Por lo tanto, sólo se pueden especificar pesos mayores que cero.
+
+### Editing Knots 
+
+New knots can be added using the **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [B-spline insert knot](Sketcher_BSplineInsertKnot.md)** button. <small>(v0.20)</small> 
+
+Deleting knots is not yet possible, see section [Limitations](#Limitations.md).
 
 ### Mostrar Información 
 

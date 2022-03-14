@@ -91,7 +91,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
     -   [Abgekoppelt\|Abgekoppelt](Std_ViewDockUndockFullscreen/de#Undocked.md): Koppelt eine 3D Ansicht ab.
     -   <img alt="" src=images/Std_ViewFullscreen.svg  style="width:32px;"> [Vollbild](Std_ViewFullscreen/de.md): Schaltet den Vollbildmodus einer 3D Ansicht um.
 
--   <img alt="" src=images/Std_AxisCross.svg  style="width:32px;"> [Toggle axis cross](Std_AxisCross.md): Toggles the axis cross.
+-   <img alt="" src=images/Std_AxisCross.svg  style="width:32px;"> [Achsenkreuz](Std_AxisCross/de.md): Aktiviert/deaktiviert das Achsenkreuz.
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Clipping plane](Std_ToggleClipPlane.md): Temporarily clips objects.
 

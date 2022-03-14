@@ -5,6 +5,7 @@
    MenuLocation:Arch → Outils pour panneaux → Panneau de coupe
    Workbenches:[Arch](Arch_Workbench/fr.md), [Path](Path_Workbench/fr.md)
    Shortcut:**P** **C**
+   Version:0.17
    SeeAlso:[Arch Panneaux](Arch_Panel/fr.md), [Arch Panneau feuille](Arch_Panel_Sheet/fr.md), [Arch Calepinage](Arch_Nest/fr.md)
 ---
 

@@ -28,7 +28,7 @@ This tool creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an obj
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 spreadsheet = makeIfcSpreadsheet(archobj=None)
 ```

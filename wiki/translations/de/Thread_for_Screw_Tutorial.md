@@ -146,7 +146,13 @@ Wenn du möchtest, kannst du einen **[<img src=images/PartDesign_AdditiveCylinde
 
 ## Methode 4. Austragen eines vertikalen Profils 
 
+
+<div class="mw-translate-fuzzy">
+
 ### Part Design 
+
+
+</div>
 
 Ein echtes Gewinde besteht aus einem geschlossenen Profil, das einen Festkörper entlang einer spiralförmigen Bahn austrägt.
 
@@ -169,7 +175,13 @@ Ein echtes Gewinde besteht aus einem geschlossenen Profil, das einen Festkörper
 <img alt="" src=images/T13_12_Threads_Helical_thread_cylinder.png  style="width:" height="300px;"> <img alt="" src=images/T13_13_Threads_Helical_thread_finished.png  style="width:" height="300px;"> 
 *Links: spiralförmiger Wendel, der mit einem zentralen Zylinder verschmolzen ist, um den Körper der Schraube zu bilden. Rechts: weitere Merkmale, ein Kopf und eine Spitze, hinzugefügt, um die Form der Schraube zu verbessern.*
 
+
+<div class="mw-translate-fuzzy">
+
 ### Part
+
+
+</div>
 
 Dieser Arbeitsgang kann auch mit den Werkzeugen dem [Part Arbeitsbereich](Part_Workbench/de.md) durchgeführt werden.
 
@@ -183,15 +195,33 @@ Dieser Arbeitsgang kann auch mit den Werkzeugen dem [Part Arbeitsbereich](Part_W
 
 Nun kannst du fortfahren, andere Grundelemente wie **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Zylinder](Part_Cylinder/de.md)**, oder andere Formen, um **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Verschmelzen](Part_Fuse/de.md)** auszuführen, und **[<img src=images/Part_Cut.svg style="width:16px"> [Part Schnitte](Part_Cut/de.md)** hinzuzufügen, um den Bau der Schraube abzuschließen.
 
-<img alt="" src=images/T13_14_Threads_components.png  style="width:" height="300px;"> 
+<img alt="" src=images/T13_14_Threads_components.png  style="width:" height="300px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Erstellen eines Gewindewendels durch Austragen eines vertikalen Profils, (1) das [Skizzenprofil](Sketch/de.md), (2) der [spiralförmige](Part_Helix/de.md) Austragungspfad und (3) das Ergebnis der [Austragung](Part_Sweep/de.md).*
+
+
+</div>
 
 ### Tips für den Erfolg 
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Regel 1.**Wenn das Profil die Spirale austrägt, darf sich die resultierende feste Wendel nicht berühren oder sich selbst schneiden, da es sich dann um einen ungültigen Festkörper handelt. Dies gilt sowohl für das Profil, das sich entlang des Spirale bewegt, als auch für Schnittpunkte in der Mitte der Spirale. Versuche, damit boolsche Operationen durchzuführen (Verschmelzen oder Schneiden), werden sehr wahrscheinlich fehlschlagen. Prüfe die Qualität des Wendels mit **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part PrüfeGeometrie](Part_CheckGeometry.md)**; wenn Selbstüberschneidungen gemeldet werden, musst du die Steigung der Spirale erhöhen.
+
+
+</div>
 
 <img alt="" src=images/T13_15_Threads_self_intersection.png  style="width:" height="300px;"> <img alt="" src=images/T13_16_Threads_no_self_intersections_OK.png  style="width:" height="300px;"> 
 *Links: ungültige Austragung, der durch die Verwendung einer sehr kleinen Steigung der Spirale im Vergleich zur Höhe des Dreiecksprofils erzeugt wurde. Rechts: Steigung, die ausreichend groß ist und keine Selbstüberschneidungen verursacht.*
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Regel 2.**Wenn ein Zylinder zu einem Wendel hinzugefügt wird, um den Hauptschaft einer Schraube zu bilden, darf der Zylinder das Wendelprofil nicht tangieren. Das heißt, der Zylinder darf nicht den gleichen Radius wie der Innenradius des Gewindes haben, da dies sehr wahrscheinlich zum Versagen eines Verschmelzungsvorgangs führt.
 
@@ -199,6 +229,9 @@ Im Allgemeinen vermeide Geometrie deckungsgleich mit Elementen der Austragung, w
 
 -   Wenn der Wendel und der Zylinder tangential verlaufen, kann es bei nachfolgenden boolschen Operationen mit einem dritten Festkörper fehlschlagen, selbst wenn die erste Verschmelzung erfolgreich ist.
 -   Dies ist eine Begrenzung des OpenCASCADE Technology (OCCT)-Kerns; im Allgemeinen kommt er mit Operationen zwischen koplanaren Flächen nicht gut zurecht.
+
+
+</div>
 
 <img alt="" src=images/T13_17_Threads_tangent_faces.png  style="width:" height="300px;"> <img alt="" src=images/T13_18_Threads_no_tangent_faces_OK.png  style="width:" height="300px;"> 
 *Links: der Massivzylinder verläuft tangential zum Innenradius des Gewindes ; dies kann zu einer ungültigen boolschen Vereinigung führen. Rechts: der Zylinder hat einen etwas größeren Radius, so dass sich die beiden Festkörper schneiden; dies führt zu einer gültigen Verschmelzung.*

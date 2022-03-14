@@ -117,11 +117,17 @@
     -   <img alt="" src=images/Part_JoinEmbed.svg  style="width:32px;"> [Embed (Внедрить)](Part_JoinEmbed/ru.md): Внедряет один тонкостенный объект в другой тонкостенный объект.
     -   <img alt="" src=images/Part_JoinCutout.svg  style="width:32px;"> [Cutout (Вырезать)](Part_JoinCutout/ru.md): Создаёт вырез в стенке тонкостенного объекта для другого тонкостенного объекта.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_CompSplittingTools.png  style="width:48px;"> [Инструменты разделения](Part_CompSplittingTools/ru.md):
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Логические(Булевы) фрагменты](Part_BooleanFragments/ru.md): Создаёт все фрагменты, которые могут быть получены булевыми операциями между объектами.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Разрезать на части](Part_SliceApart/ru.md): Разрезает и разбивает объект, путём его пересечения с другими объектами.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Обрезать](Part_Slice/ru.md): Обрезает объект, пересекая его с другими объектами образуя объединение.
     -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [Булева XOR](Part_XOR/ru.md): Удаляет пространство, общее для пересекаемых объектов (обратная версия [Обрезать](Part_Cut/ru.md)).
+
+
+</div>
 
 ### Измерение
 
@@ -147,7 +153,13 @@
 
 -   <img alt="" src=images/Part_Export.svg  style="width:32px;"> [Экспорт в CAD\...](Part_Export/ru.md): Экспортирует деталь в формат \*.IGES, \*.STEP или \*.BREP.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Выделить область](Part_BoxSelection/ru.md): Позволяет выбирать грани прямоугольной областью.
+
+
+</div>
 
 -   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Создание фигуры из полигональной сетки](Part_ShapeFromMesh/ru.md): Создаёт форму из сетки.
 

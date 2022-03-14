@@ -32,6 +32,8 @@ Tento nástroj rozdělí vybrané [Síťové](Mesh_Workbench.md) objekty do jeji
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -80,6 +82,14 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 
 new_list = Arch.splitMesh(mesh_obj)
 ```
+
+
+
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

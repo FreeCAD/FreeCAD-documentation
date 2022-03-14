@@ -16,23 +16,22 @@ La commande <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> *
 
 ## Utilisation
 
-Pour déplier une pièce de tôlerie:
-
-1.  Basculez vers <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:22px;"> [atelier SheetMetal](SheetMetal_Workbench/fr.md).
-2.  Sélectionnez une face plane de la pièce de tôlerie. **Remarque**: la face doit être un plan, l\'épaisseur doit être constante .
-3.  Cliquez sur l\'outil <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **Unfold** pour afficher un menu dans le panneau des tâches pour gérer les options de dépliage.
-4.  Sélectionnez les options de projection de la future esquisse aplatie
-5.  Sélectionnez la règle de déduction des plis avec [Kfactor](https://github.com/shaise/FreeCAD_SheetMetal#terminology):
-    -   Utilisez [Material Definition Sheet](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet)
-    -   Ou sélectionnez un manuel [Kfactor](https://github.com/shaise/FreeCAD_SheetMetal#terminology) puis la norme ANSI ou DIN à appliquer.
+1.  Sélectionnez une face plane de la pièce de tôle.
+2.  Activez la commande <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Déplier](SheetMetal_Unfold/fr.md) en utilisant l\'une des commandes suivantes :
+    -   Le bouton **<img src="images/_SheetMetal_Unfold.svg_" width=16px> [Unfold](SheetMetal_Unfold/fr.md)**.
+    -   Le bouton **SheetMetal → <img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/fr.md)** du menu.
+    -   Le raccourci clavier : **U**.
+3.  Ajuster les options de dépliage dans le [Panneau des tâches](Task_panel/fr.md) par :
+    -   sélectionnant les options de projection de l\'esquisse de dépliage.
+    -   Sélectionnant la méthode de déduction du pliage avec [facteur K](https://github.com/shaise/FreeCAD_SheetMetal#terminology) :
+        - Utilisez une [fiche de définition du matériau](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet).
+        - Sélectionnez un [K-factor](https://github.com/shaise/FreeCAD_SheetMetal#terminology) manuel puis la norme ANSI ou DIN à appliquer.
 
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Cet outil crée un objet Déplier et n\'a pas de représentation propre dans la [Vue en arborescence](Tree_view/fr.md) ou ailleurs et n\'a donc pas de propriétés.
-
-L\'objet *Unfold*, quant à lui, est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il n\'a pas de propriétés supplémentaires mais son étiquette a une valeur par défaut :
+Un objet SheetMetal Unfold est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il n\'a pas de propriétés supplémentaires mais son étiquette a une valeur par défaut :
 
 ### Données
 

@@ -37,7 +37,7 @@ You can also use the curtain wall tool without any selected object, in which cas
 ### Drawing a curtain wall from scratch 
 
 1.  Make sure nothing is selected
-2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall]]** button, or press **C** then **W** keys.
+2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press **C** then **W** keys.
 3.  Click a first point on the 3D view, or type coordinates.
 4.  Click a second point on the 3D view, or type coordinates.
 5.  Adjust needed properties.
@@ -45,7 +45,7 @@ You can also use the curtain wall tool without any selected object, in which cas
 ### Creating a curtain wall from a selected object 
 
 1.  Select one or more base geometry objects (Draft object, sketch, etc).
-2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall]]** button, or press the **C** then **W** keys.
+2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press the **C** then **W** keys.
 3.  Adjust needed properties.
 
 ## Options
@@ -115,7 +115,7 @@ The procedure described below creates a wall and a curtain wall based on a same 
 
 1.  Create a normal [Arch Wall](Arch_Wall.md), either by clicking two points of from an existing linear object
 2.  Select the base object of the newly created arch wall
-3.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall]]** button, or press the **C** then **W** keys to create a curtain wall from the same baseline as the wall
+3.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press the **C** then **W** keys to create a curtain wall from the same baseline as the wall
 4.  Make sure both the wall and curtain wall have the same **Height**
 5.  Set the number of **horizontal sections** of the curtain wall to zero if you wish only vertical frames
 6.  Set the desired **horizontal mullion width** and **horizontal mullion height** (or use a mullion profile)
@@ -131,7 +131,7 @@ The procedure described below creates a wall and a curtain wall based on a same 
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Curtain wall tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Curtain wall tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 MyCurtainWall = makeCurtainWall(baseobj)
 ```
@@ -153,6 +153,15 @@ curtainwall = Arch.makeCurtainWall(baseface)
 curtainWall.VerticalSections = 6
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

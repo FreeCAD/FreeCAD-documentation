@@ -2,7 +2,6 @@
 - GuiCommand:/pl
    Name:Part FaceColors
    Name/pl:Kolor powierzchni
-|
    MenuLocation:Menu podręczne → Ustaw kolor
    Workbenches:[Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
    SeeAlso:[Wygląd zewnętrzny](Std_SetAppearance/pl.md)
@@ -10,28 +9,9 @@
 
 # Part FaceColors/pl
 
-## Zmiana koloru ścian 
+## Opis
 
-Funkcja ta pozwala na zdefiniowanie koloru dla każdej powierzchni lub ściany obiektu. ![Start function](images/Std_SetColors1_it.png ) W widoku z drzewa:
-
---   
--
-
-
-
-W **Ustaw kolor dla powierzchni**. ![Set colors for face](images/Std_SetColors2_it.png )
-
--
-W oknie wyświetlany jest numer powierzchni czołowej.
-
--   Kliknij na poniższy prostokąt *(próbkę koloru)*, aby wyświetlić spektrum kolorów.
--   Wybierz odpowiedni kolor.
--   Jeśli to konieczne, przejdź do innych ścian, a następnie potwierdź.
-
-
-
-
-Aby przywrócić domyślne kolory należy użyć przycisku **Ustaw na domyślne** lub **Kolor kształtu** w zakładce **Widok**.
+Funkcja **Kolor powierzchni** umożliwia zdefiniowanie koloru dla każdej powierzchni obiektu. W ten sposób możesz przypisać wiele kolorów do jednej części. Aby pokolorować całe części, użyj zamiast tego właściwości *[Wygląd zewnętrzny](Std_SetAppearance/pl.md)*.
 
 ## Użycie
 
@@ -50,7 +30,7 @@ Aby zresetować wszystkie kolory powierzchni:
 1.  Kliknij w opcję **Ustaw na domyślne**. Spowoduje to ustawienie kolorów wszystkich powierzchni części na kolor domyślny. Przycisk działa od razu, tzn. nie można powstrzymać efektu za pomocą przycisku **Anuluj**.
 
 ![](images/Part_FaceColors-dialog.png ) 
-*Okno dialogowe kolor powierzchni*
+*Okno dialogowe Kolor powierzchni*
 
 
 

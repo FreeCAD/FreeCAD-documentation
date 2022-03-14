@@ -26,22 +26,22 @@ Cet outil vous permet de créer des raccords entre deux ou plusieurs [Tuyaux](Ar
 
 ## Travail typique 
 
-Reportez-vous aux informations sur [Tuyaux](Arch_Pipe/fr.md) pour en savoir plus sur l\'utilisation des tuyaux et la création de connecteurs.
+Reportez-vous aux informations de [Tuyaux](Arch_Pipe/fr.md) pour en savoir plus sur l\'utilisation des tuyaux et la création de connecteurs.
 
 ## Script
 
 
 **Voir aussi:**
 
-[API](Arch_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Connecteur peut être utilisé dans une [macro](macros/fr.md) ou depuis la console [Python](Python/fr.md) en utilisant la fonction suivante: 
+L\'outil Connecteur peut être utilisé dans une [macro](Macros/fr.md) ou depuis la console [Python](Python/fr.md) en utilisant la fonction suivante: 
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```
 
--   Crée un objet `Connector` à partir du `pipes` donné qui est une liste de [Tubes](Arch_Pipe/fr.md) et éventuellement un rayon `radius` de courbure.
-    -   Les objets de base ([Filaire](Draft_Wire/fr.md)) des [Tuyaux](Arch_Pipe/fr.md) doivent partager un noeud final afin de créer un connecteur lisse et approprié.
+-   Crée un objet `Connector` à partir du `pipes` donné qui est une liste de [Arch Tuyaux](Arch_Pipe/fr.md) et éventuellement un rayon `radius` de courbure.
+    -   Les objets de base ([Dradft Polylignes](Draft_Wire/fr.md)) des [Arch Tuyaux](Arch_Pipe/fr.md) devraient partager un point d\'extrémité afin de créer un connecteur correct et lisse.
 
 Exemple: 
 ```python

@@ -33,6 +33,8 @@ Questo strumento suddivide un oggetto [Mesh](Mesh_Workbench/it.md) selezionato n
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -46,18 +48,30 @@ Questo strumento suddivide un oggetto [Mesh](Mesh_Workbench/it.md) selezionato n
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Dividi Mesh può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+
+
+</div>
 
 
 ```python
 new_list = splitMesh(obj, mark=True)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 -   Divide l\'oggetto mesh dato (`obj`) in componenti separati.
 
 -   Se `mark` è `True` [non-manifold](http://en.wikipedia.org/wiki/Manifold) i componenti diventano rossi.
 
 -    `new_list`è un elenco di tutti i singoli componenti che creano la mesh.
+
+
+</div>
 
 Esempio:
 
@@ -87,6 +101,11 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 </div>
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

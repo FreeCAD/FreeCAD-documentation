@@ -10,6 +10,9 @@
 
 # Arch Rebar BeamReinforcement/de
 
+
+</div>
+
 ## Beschreibung
 
 Das [Balken Verstärkung](Arch_Rebar_BeamReinforcement/de.md) Werkzeug erlaubt dem Anwender Bewehrungsstäbe innerhalb eines Balken [Architektur Struktur](Arch_Structure/de.md) Objekts erzeugen.
@@ -373,6 +376,15 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
     facename="Face6",
 )
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

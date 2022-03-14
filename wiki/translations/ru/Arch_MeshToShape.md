@@ -40,7 +40,7 @@ This tool is optimized for objects with flat faces (no curves). The correspondin
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+This tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True)
 ```

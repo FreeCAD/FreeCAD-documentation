@@ -22,6 +22,9 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine periodische (geschl
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücke die **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Erstellen von periodischer B-Spline](Sketcher_CreatePeriodicBSpline/de.md)**-Schaltfläche.
 2.  Erstelle eine Reihe von Punkte durch Klicken in der 3D-Ansicht. Während der Befehl aktiv ist, werden die erstellten Punkte durch gerade Linien verbunden und um jeden Punkt ein Konstruktionskreis erstellt.
 3.  Wähle den ersten Kurvenpunkt oder rechtsklicke, um die Eingabe zu beenden und die Kurve zu generieren.
@@ -30,6 +33,9 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine periodische (geschl
 -   Es ist möglich, die Gewichtung der Kontrollpunkte zu definieren, indem die Radien der Gewichtskreise geändert werden. Die Gleichheitsbeschränkungen der Kreise müssen zuerst gelöscht werden. Die Radiusbeschränkung ist frei wählbar, das Gewicht der Kontrollpunkte wird durch die relativen Radien der Kreise definiert. Es funktioniert ähnlich wie Schwerkraft: je größer die Kreise im Vergleich zu anderen sind, um so mehr wird die Kurve vom Kontrollpunkt angezogen.
 -   Die Sichtbarkeit des Kontrollpolygons, des Krümmungskamms, der Grad und die Knotenvielzahl können über die [B-Spline Werkzeuge](Sketcher_Workbench/de#Sketcher_B-spline_tools.md)-Werkzeugleiste ein-/ausgeschaltet werden.
 -   Wirf einen Blick auf die anderen Werkzeuge in der [B-Spline Werkzeuge](Sketcher_Workbench/de#Sketcher_B-spline_tools.md)-Werkzeugleiste.
+
+
+</div>
 
 ## Begrenzungen
 

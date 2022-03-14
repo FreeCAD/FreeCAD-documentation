@@ -26,17 +26,23 @@ Esta bancada de trabalho contém funções para modificar o recurso de árvore C
 
 In FreeCAD 0.19, the Ply (Python-Lex-Yacc) module, which is used to import CSG files, was removed from the FreeCAD source code, as it is a third party library not developed by FreeCAD. As a result, you now need to install Ply before using the OpenSCAD Workbench. When using a pre-packaged, stable version of FreeCAD this dependency should be installed automatically in all platforms; in other cases, for example, when [compiling](Compiling.md) from source, you may have to install it from an online repository.
 
-In openSUSE this is done by: 
+In openSUSE this is done by:
+
+
 ```python
 sudo zypper install python3-ply
 ```
 
-In Debian/Ubuntu based systems this is done like the following: 
+In Debian/Ubuntu based systems this is done like the following:
+
+
 ```python
 sudo apt install python3-ply
 ```
 
-The general installation in all platforms can be done from the Python package index. 
+The general installation in all platforms can be done from the Python package index.
+
+
 ```python
 pip3 install --user ply
 ```
@@ -68,11 +74,25 @@ A linguagem OpenSCAD permite o uso de variáveis e laços de repetição. Permit
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferências](OpenSCAD_Preferences/pt-br.md): Preferências disponíveis para as ferramentas do OpenSCAD.
 
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Limitações
 
 O OpenSCAD cria geometria sólida construtiva, além de importar arquivos de malha e extrudir a geometria 2D dos arquivos [ DXF](DXF.md). O FreeCAD também permite que você crie CSG com primitivos. A geometria kernel (OCCT) do FreeCAD funciona usando um representação limite.Portanto, a conversão do CSG para o BREP deve, em teoria, ser possível, enquanto a conversão do BREP para o CSG não é, em geral, possível.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 O OpenSCAD trabalha internamente nas malhas. Algumas operações que são úteis em malhas não são significativas em um modelo BREP e não podem ser totalmente suportadas. Entre estes estão o casco convexo, soma minkowski, glide e subdiv. Atualmente executamos o binário OpenSCAD para realizar operações de casco e minkwoski e importar o resultado. Isso significa que a geometria envolvida será triangulada. No OpenSCAD, o escalonamento não uniforme é frequentemente usado, o que não impõe nenhum problema ao usar malhas. Em nossa geometria, as primitivas geométricas do kernel (linhas, seções circulares, etc) são convertidas para o BSpline antes de executar tais deformações. Esses BSplines são conhecidas por causar problemas em operações booleanas posteriores. Uma solução automática não está disponível no momento. Por favor, sinta-se livre para postar no fórum se você encontrar tais problemas. Muitas vezes, esses problemas podem ser resolvidos por pequenas peças de remodelação. Uma deformação de um cilindro pode ser substituída por uma extrusão de elipses.
+
+
+</div>
 
 ## Importing text 
 
@@ -103,9 +123,15 @@ Se o FreeCAD travar ao importar o CSG, é altamente recomendável que você ativ
 
 ## Links
 
+
+<div class="mw-translate-fuzzy">
+
 -   Repositório de código fonte do OpenSCAD em [GitHub](https://github.com/openscad/openscad)
 -   [Open tickets tagged \"Openscad\" on the FreeCAD bugtracker](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
 -   [Things tagged with \"OpenSCAD\" on Thingiverse](http://www.thingiverse.com/tag:openscad)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

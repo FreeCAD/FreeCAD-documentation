@@ -28,28 +28,51 @@ It also adds three lines in the newly created Sketch.
 
 ## Erstellen einer Beschränkung mit Python 
 
+
+<div class="mw-translate-fuzzy">
+
 Eine geometrische Beschränkung <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> und die spezielle <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [InterneAusrichtungsbeschränkungen](Sketcher_ConstrainInternalAlignment/de.md) können von Makros und von der Python Konsole aus durch Verwendung des folgenden Befehls erstellt werden:
+
+
+</div>
 
 
 ```pythonsketch.addConstraint(Sketcher.Constraint(ConstraintType, EdgeOrPartOfEdge…)) 
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Eine maßliche Beschränkung <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;"> und die spezielle Beschränkung <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Snelliusches Gesetz](Sketcher_ConstrainSnellsLaw/de.md) kann von Makros und von der Python Konsole aus durch Verwendung des folgenden Befehls erstellt werden:
+
+
+</div>
 
 
 ```pythonsketch.addConstraint(Sketcher.Constraint(DimensionalConstraintType, EdgeOrPartOfEdge…, App.Units.Quantity("float_value unit"))) 
 ```
 
-
-:   e.g.
+e.g.
 
 
 ```pythonsketch.addConstraint(Sketcher.Constraint(DimensionalConstraintType, EdgeOrPartOfEdge…, App.Units.Quantity("123.0 mm"))) 
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Das erste Argument `Beschränkungstyp` wird weiter unten in [Beschränkungstypen](#Beschränkungstypen.md) beschrieben.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Eine Beschränkung kann bis zu sechs Argumente annehmen, die Kanten sind oder angeben, welches Abschnittsteil einer Kante von der Beschränkung verwendet wird. In der Dokumentation der einzelnen Beschränkungen findest du Details darüber, welche Kombinationen von Kanten und Unterteilen von Kanten als Argumente übergeben werden können. Das Hauptproblem bei dieser Funktion besteht darin, die Zeilennummer und die Knotennummer der zu bearbeitenden Linien korrekt zu identifizieren. Die folgenden Abschnitte beschreiben, wie man [Identifiziere die Nummerierung einer Linie](#Identifizierung_der_Nummerierung_einer_Linie.md)) und wie man [Identifiziere die Nummerierung der Unterteile einer Linie](#Identifizierung_der_Nummerierung_der_Abschnittsteile_einer_Linie.md)).
+
+
+</div>
 
 ## Beschränkungstypen
 
@@ -223,7 +246,10 @@ Wenn du z. B. 4 und 5 liest, bedeutet dies, dass der Knoten mit der niedrigeren 
 
 Nehmen wir das vorherige Beispiel der drei Linien. Die nachfolgende Abbildung zeigt die Nummerierung der einzelnen Linien und deren Knoten gemäß der Konvention für die Skripterstellung.
 
-<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg  style="width:600px;"> 
+<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg  style="width:600px;">
+
+
+
 *<b>blauer Text:</b> Nummerierung der Linie, <b>svhwarzer Text:</b> Nummerierung der Knoten*
 
 

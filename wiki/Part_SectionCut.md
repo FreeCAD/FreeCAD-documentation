@@ -46,6 +46,20 @@ When you select a cut object in the tree view and then open the Section Cut dial
  <img alt="" src=images/Part_SectionCut_TD-example.png  style="width:400px;">  
 *A technical drawing where a Section Cut result is used. (Click on the image for full size.)*
 
+## Special cut positions 
+
+<img alt="A slant cut of an assembly." src=images/Part_SectionCut_slant-cut.png  style="width:200px;">
+
+-   For example in the first image in this page only one quarter of the assembly is cut. This was done by creating a cut in X direction. Then in the resulting cut object **SectionCutX** the [placement](placement.md) of the subobject **SectionCutBoxX** was changed.
+-   To get a cut in any direction, you can do this:
+
+1.  Create a new [Std Part](Std_Part.md) container.
+2.  Select all objects you want to cut in the tree view and move them into the container.
+3.  Now set the placement of the container to a rotation of your choice. For the image at the left, the container was rotated by 45° around the X and Z axis and the section cut was performed in X direction.
+
+
+
+
 ## Limitations
 
 <img alt="An assembly where two parts intersect each other and that are therefore not cut. Note the color artifacts at the cut face." src=images/Part_SectionCut_Color-artifact.png  style="width:200px;">
@@ -54,7 +68,6 @@ When you select a cut object in the tree view and then open the Section Cut dial
 -   In assemblies parts that intersect each other cannot be cut. Normally intersecting objects will not be cut while the others will. However, sometimes the cutting can produce strange results which is a bug in the OpenCASCADE libraries.
 -   There can be color artifacts in the cut result. If and how depends on the OpenCASCADE library and also on the view position. In many cases the color artifacts disappear when the 3D view is slightly rotated.
 -   It is technically not possible to apply automatically a certain color to all cut faces. This feature can first be implemented when the [Topological naming problem](Topological_naming_problem.md) is solved.
--   If there is a [Std Part](Std_Part.md) container with a non-default placement (for example the container is rotated), its parts will not be cut taking the container placement into account.
 
 
 
@@ -63,7 +76,7 @@ When you select a cut object in the tree view and then open the Section Cut dial
 
 **Section Cut** works technically this way:
 
-All visible objects are put into a [ Part Compound](Part_Compound.md) container and then the compound is cut using a [ Part Box](Part_Box.md) object. The box must be as large as necessary to cover the whole volume of all visible objects. To achieve this, the bounding box of the objects is acquired. When changing the view by adding/removing objects or changing the document, the bounding box must be updated. This is done when the button **Refresh view** is clicked.
+All visible objects are put into a [Part Compound](Part_Compound.md) container and then the compound is cut using a [Part Box](Part_Box.md) object. The box must be as large as necessary to cover the whole volume of all visible objects. To achieve this, the bounding box of the objects is acquired. When changing the view by adding/removing objects or changing the document, the bounding box must be updated. This is done when the button **Refresh view** is clicked.
 
 To enable the cutting of intersecting objects, instead of the Part Compound container a [Boolean Fragements](Part_BooleanFragments.md) container is needed. This feature addition is planned for the next FreeCAD version.
 

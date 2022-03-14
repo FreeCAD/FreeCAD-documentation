@@ -152,6 +152,8 @@ Aby utworzyć periodyczne krzywe złożone *(B-splajny, które tworzą zamknięt
 
 Krzywe złożone mogą być również generowane z istniejących segmentów szkicu. Aby to zrobić, zaznacz elementy i naciśnij przycisk paska narzędzi **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Konwertuj geometrię na krzywą złożoną](Sketcher_BSplineApproximate/pl.md)**.
 
+Podczas tworzenia krzywej złożonej można określić jej stopień, naciskając klawisz **D**. Dzięki temu można zastąpić domyślne ustawienie tworzenia sześciennej krzywej złożonej, jeśli jest to możliwe. {{Version/pl|0.20}}
+
 ### Zmiana stopni 
 
 Aby zmienić stopień, wybierz krzywą złożoną i użyj przycisku z paska narzędzi **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> [Zwiększ stopień krzywej złożonej](Sketcher_BSplineIncreaseDegree/pl.md)** lub **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> [Zmniejsz stopień krzywej złożonej](Sketcher_BSplineDecreaseDegree/pl.md)**.
@@ -183,6 +185,12 @@ Jeśli nie ustawiono żadnego wiązania promienia, można również zmienić pro
 W przykładzie przeciągania widać, że duża waga przyciąga krzywą do punktu kontrolnego, podczas gdy bardzo mała waga zmienia krzywą tak, jakby punkt kontrolny prawie nie istniał.
 
 Kiedy spojrzysz na [funkcję tworzenia](B-Splines/pl#Niejednorodne_krzywe_B-spline.md) dla niejednorodnych racjonalnych krzywych złożonych zobaczysz, że waga równa zero doprowadziłaby do dzielenia przez zero. Dlatego możesz określić tylko wagi większe od zera.
+
+### Edycja węzłów 
+
+Nowe węzły można dodawać za pomocą przycisku **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [Dodaj węzeł krzywej złozonej](Sketcher_BSplineInsertKnot/pl.md)**. {{Version/pl|0.20}}
+
+Usuwanie węzłów nie jest jeszcze możliwe, zobacz sekcję [Ograniczenia](#Ograniczenia.md).
 
 ### Wyświetlanie informacji 
 

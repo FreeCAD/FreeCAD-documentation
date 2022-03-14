@@ -9,6 +9,9 @@
 
 # Arch Add/de
 
+
+</div>
+
 ## Beschreibung
 
 Das Werkzeug Hinzufügen ermöglicht dir vier Arten von Arbeitsschritten durchzuführen:
@@ -75,6 +78,15 @@ FreeCAD.ActiveDocument.recompute()
 Arch.addComponents(Wall2, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

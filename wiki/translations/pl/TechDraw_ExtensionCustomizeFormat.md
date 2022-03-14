@@ -20,14 +20,14 @@ Narzędzie <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="
 
 ## Użycie
 
-1.  Select a Balloon object or a Dimension object.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCustomizeFormat.svg" width=16px> [TechDraw ExtensionCustomizeFormat](TechDraw_ExtensionCustomizeFormat.md)** button.
-    -   Select the **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionCustomizeFormat.svg" width=16px> Customize format label** option from the menu.
-3.  The **Customize Format** task panel opens.
-4.  Edit the **Format** field using the available task panel buttons and/or the keyboard.
-5.  The **Preview** field shows the result of the current formatting.
-6.  Press the **OK** button.
+1.  Wybierz obiekt dymek lub obiekt wymiar.
+2.  Istnieje kilka sposobów, aby wywołać to narzędzie:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionCustomizeFormat.svg" width=16px> [Dostosuj format etykiety](TechDraw_ExtensionCustomizeFormat/pl.md)**.
+    -   Wybierz polecenie **Rysunek Techniczny → Rozszerzenie: Atrybuty / Modyfikacje → <img src="images/TechDraw_ExtensionCustomizeFormat.svg" width=16px> Dostosuj format etykiety**.
+3.  Otwiera się panel zadań **Dostosuj format**.
+4.  Edytuj pole **Format**, używając dostępnych przycisków panelu zadań i / lub klawiatury.
+5.  W polu **Podgląd** wyświetlany jest wynik bieżącego formatowania.
+6.  Naciśnij przycisk **OK** aby zakończyć.
 
 
 

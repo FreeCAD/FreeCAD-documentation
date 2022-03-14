@@ -74,7 +74,13 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Restrição rotação plana](FEM_ConstraintPlaneRotation/pt-br.md): Usada para definir uma restrição de rotação plana em uma face plana.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Impressão da seção de restrição](FEM_ConstraintSectionPrint/pt-br.md): <small>(v0.19)</small> 
+
+
+</div>
 
 -   <img alt="" src=images/Fem-constraint-transform.svg  style="width:32px;"> [Restrição de transformar](FEM_ConstraintTransform/pt-br.md): Usado para definir uma restrição de transformação em um rosto.
 
@@ -124,9 +130,21 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 ## Menu: Malhas 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Malha FEM da forma pelo Netgen](FEM_MeshNetgenFromShape/pt-br.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [Malha FEM da forma pelo GMSH](FEM_MeshGmshFromShape/pt-br.md)
+
+
+</div>
 
 -   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> [Camada limite de malha FEM](FEM_MeshBoundaryLayer/pt-br.md): Cria malhas anisotrópicas para cálculos precisos perto dos limites.
 
@@ -176,9 +194,21 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:32px;"> [Postar mudanças aplicadas](FEM_PostApplyChanges/pt-br.md)
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Postar pipeline do resultado](FEM_PostPipelineFromResult/pt-br.md)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Filtro de dobra](FEM_PostFilterWarp/pt-br.md)
+
+
+</div>
 
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/pt-br.md):
 

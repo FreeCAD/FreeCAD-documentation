@@ -9,18 +9,45 @@
 
 # Arch Rebar UShape/de
 
+
+</div>
+
 ## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
 
 Das [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von U-förmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Das **<img src="images/Arch_Rebar_UShape.svg" width=16px>[Bewehrungsstab U-förmig](Arch_Rebar_UShape/de.md)**-Werkzeug ist auch in den [BIM Arbeitsbereich](BIM_Workbench/de.md) integriert.
+
+
+</div>
 
 Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
-<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Zwei Sätze von U-förmigen Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*
 
+
+</div>
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts.
 2.  Wähle dann **<img src="images/Arch_Rebar_UShape.svg" width=16px> [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)** aus den Bewehrungsstab-Werkzeugen.
@@ -32,6 +59,10 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 8.  Wähle **Pick selected face** zur Überprüfung oder ändere die Fläche zur Verteilung der Bewehrungsstäbe.
 9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
 10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
+
+
+</div>
+
 
 :   <img alt="" src=images/UShapeDialog.png  style="width:250px;">
 
@@ -62,16 +93,35 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 ## Scripting
 
 
+<div class="mw-translate-fuzzy">
+
+## Scripting 
+
+
 **Siehe auch:**
 
 [Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
-Das U-förmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Das U-förmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
+
+
+</div>
+
+
 ```python
 Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
                         structure=None, facename=None)
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 -   Erstellt ein `Rebar`-Objekt aus der gegebenen `structure`, die eine [Arch Struktur](Arch_Structure/de.md) ist, und `facename`, die eine Fläche dieser Struktur ist.
     -   Falls weder `structure` noch `facename` gegeben sind, wird die vom Benutzer gewählte Fläche als Eingabe genommen.
@@ -87,6 +137,9 @@ Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
 -    `amount_spacing_value`gibt die Anzahl von Bewehrungsstäben an oder den Abstandswert, abhängig von `amount_spacing_check`.
 
 -    `orientation`gibt die Ausrichtung der Bewehrung an; möglich sind `"Bottom"` (unten), `"Top"` (oben), `"Right"` (rechts) oder `"Left"` (links).
+
+
+</div>
 
 ### Beispiel
 
@@ -107,9 +160,19 @@ Rebar2 = UShapeRebar.makeUShapeRebar(50, 50, 20, 20,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
 
+### Edition of the rebar 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Anpassung des Bewehrungsstabs 
 
-Die Eigenschaften des Bewehrungsstabs lassen sich mit der folgenden Funktion verändern 
+Die Eigenschaften des Bewehrungsstabs lassen sich mit der folgenden Funktion verändern
+
+
+</div>
+
+
 ```python
 editUShapeRebar(Rebar, f_cover, b_cover, r_cover, l_cover,
                 diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation,
@@ -134,6 +197,9 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{docnav/de
 |[Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)
 |[L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)
@@ -142,6 +208,9 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 |IconR=Arch_Rebar_LShape.svg
 |IconC=Workbench_Arch.svg
 }}
+
+
+</div>
 
 
 

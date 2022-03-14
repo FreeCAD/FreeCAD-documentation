@@ -17,6 +17,8 @@
 
 Crea una primitiva additiva nel corpo attivo come prima caratteristica o la fonde con le caratteristiche esistenti. Se nel documento non viene trovato alcun corpo, ne viene creato automaticamente uno.
 
+## Types of primitives 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -44,7 +46,7 @@ Crea una primitiva additiva nel corpo attivo come prima caratteristica o la fond
 </div>
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

@@ -146,7 +146,7 @@ These are tools to organize the Model tree.
 
 </div>
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object shape binder](PartDesign_SubShapeBinder.md): creates a shape binder to a subelement, like edge or face from another body, while retaining the relative position of that element. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object(s) shape binder](PartDesign_SubShapeBinder.md): creates a shape binder to a subelement, like edge or face from another body, while retaining the relative position of that element. <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -213,31 +213,7 @@ Acestea sunt instrumente pentru crearea de caracteristici de bază sau adăugare
 
 <div class="mw-translate-fuzzy">
 
-:\*<img alt="" src=images/PartDesign_AdditiveCone.png  style="width:32px;"> [Additive cone](PartDesign_AdditiveCone.md): creează un con aditiv.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 :\*<img alt="" src=images/PartDesign_AdditiveCylinder.png  style="width:32px;"> [Additive cylinder](PartDesign_AdditiveCylinder.md): creează un cilindru aditiv.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.png  style="width:32px;"> [Additive ellipsoid](PartDesign_AdditiveEllipsoid.md): creează un elipsoid aditiv.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:\*<img alt="" src=images/PartDesign_AdditivePrism.png  style="width:32px;"> [Additive prism](PartDesign_AdditivePrism.md): creează o prismă aditivă.
 
 
 </div>
@@ -253,7 +229,31 @@ Acestea sunt instrumente pentru crearea de caracteristici de bază sau adăugare
 
 <div class="mw-translate-fuzzy">
 
+:\*<img alt="" src=images/PartDesign_AdditiveCone.png  style="width:32px;"> [Additive cone](PartDesign_AdditiveCone.md): creează un con aditiv.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.png  style="width:32px;"> [Additive ellipsoid](PartDesign_AdditiveEllipsoid.md): creează un elipsoid aditiv.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 :\*<img alt="" src=images/PartDesign_AdditiveTorus.png  style="width:32px;"> [Additive torus](PartDesign_AdditiveTorus.md): creează un tor aditiv.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+:\*<img alt="" src=images/PartDesign_AdditivePrism.png  style="width:32px;"> [Additive prism](PartDesign_AdditivePrism.md): creează o prismă aditivă.
 
 
 </div>
@@ -333,31 +333,7 @@ creează o formă solidă făcând o tranziție/extrudere între două sau mai m
 
 <div class="mw-translate-fuzzy">
 
-:\*<img alt="" src=images/PartDesign_SubtractiveCone.png  style="width:32px;"> [Subtractive cone](PartDesign_SubtractiveCone.md): adaugă un con subtractiv la corpul activ.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 :\*<img alt="" src=images/PartDesign_SubtractiveCylinder.png  style="width:32px;"> [Subtractive cylinder](PartDesign_SubtractiveCylinder.md): adaugă un cilindru substractiv la corpul activ.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.png  style="width:32px;"> [Subtractive ellipsoid](PartDesign_SubtractiveEllipsoid.md): adaugă un elipsoid substractiv la corpul activ.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:\*<img alt="" src=images/PartDesign_SubtractivePrism.png  style="width:32px;"> [Subtractive prism](PartDesign_SubtractivePrism.md): adaugă o prismă substractivă la corpul activ.
 
 
 </div>
@@ -373,7 +349,31 @@ creează o formă solidă făcând o tranziție/extrudere între două sau mai m
 
 <div class="mw-translate-fuzzy">
 
+:\*<img alt="" src=images/PartDesign_SubtractiveCone.png  style="width:32px;"> [Subtractive cone](PartDesign_SubtractiveCone.md): adaugă un con subtractiv la corpul activ.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.png  style="width:32px;"> [Subtractive ellipsoid](PartDesign_SubtractiveEllipsoid.md): adaugă un elipsoid substractiv la corpul activ.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 :\*<img alt="" src=images/PartDesign_SubtractiveTorus.png  style="width:32px;"> [Subtractive torus](PartDesign_SubtractiveTorus.md): adaugă un tor substractiv la corpul activ.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+:\*<img alt="" src=images/PartDesign_SubtractivePrism.png  style="width:32px;"> [Subtractive prism](PartDesign_SubtractivePrism.md): adaugă o prismă substractivă la corpul activ.
 
 
 </div>
@@ -482,7 +482,7 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 
 </div>
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket design wizard](PartDesign_Sprocket.md): creates a sprocket profile that can be padded. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket](PartDesign_Sprocket.md): creates a sprocket profile that can be padded. <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -566,9 +566,9 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 </div>
 
 
- {{PartDesign Tools navi}}
+ {{PartDesign_Tools_navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/ro

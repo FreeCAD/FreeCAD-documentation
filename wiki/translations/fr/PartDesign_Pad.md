@@ -20,7 +20,7 @@ L\'outil *Protrusion* extrude une esquisse ou une face d\'un solide le long d\'u
 ## Utilisation
 
 1.  Sélectionnez une esquisse ou une face à extruder. {{Version/fr|0.20}} : Vous pouvez également sélectionner plusieurs esquisses ou faces.
-2.  Cliquer sur le bouton **<img src="images/PartDesign_Pad.svg" width=16px> '''Protrusion'''**.
+2.  Cliquer sur le bouton **<img src="images/PartDesign_Pad.svg" width=16px> [Protrusion](PartDesign_Pad/fr.md)**.
 3.  Définir les paramètres de protrusion, voir [Options](#Options.md) ci-dessous.
 4.  Cliquer sur **OK**.
 

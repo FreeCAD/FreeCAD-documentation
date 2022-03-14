@@ -60,12 +60,20 @@ The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a
 
 -    **Hidden Faces**: The indices of faces to hide
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Программирование
 
 
 **См. так же:**
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
+
+
+</div>
 
 The Grid tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 

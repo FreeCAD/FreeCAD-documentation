@@ -6,7 +6,7 @@
 
 The A2plus workbench is an [external workbench](External_workbenches.md) to [assemble](Assembly.md) different parts in FreeCAD.
 
-This documentation describes A2plus version **0.4.47 or newer**.
+This documentation describes A2plus version **0.4.54b or newer**.
 
 ## Installing
 

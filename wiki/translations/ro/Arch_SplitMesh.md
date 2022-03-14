@@ -39,6 +39,8 @@ Acest instrument împarte un obiect selectat [ Mesh](Mesh_Workbench.md) în comp
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -87,6 +89,14 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 
 new_list = Arch.splitMesh(mesh_obj)
 ```
+
+
+
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

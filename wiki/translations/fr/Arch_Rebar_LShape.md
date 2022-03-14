@@ -2,8 +2,8 @@
 - GuiCommand:/fr
    Name:Arch Rebar LShape
    Name/fr:Arch Rebar Armature en L
-   MenuLocation:Arch → Rebar tools → LShape Rebar ou 3D/BIM → Reinforcement → LShape Rebar
-   Workbenches:[Arch](Arch_Workbench/fr.md),  [BIM](BIM_Workbench/fr.md)
+   MenuLocation:Arch → Rebar tools → LShape Rebar<br>3D/BIM → Reinforcement tools → L-Shape Rebar
+   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature cintrée](Arch_Rebar_BentShape/fr.md)
 ---

@@ -21,7 +21,13 @@ Sia l\'importatore che l\'esportatore dipendono dalla libreria [IfcOpenShell](If
 import ifcopenshell
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Se non viene visualizzato alcun messaggio di errore, IfcOpenShell è installato correttamente, e si può procedere con l\'[importazione](Std_Import/it.md) dei file IFC. Altrimenti, bisogna installarlo; leggere la pagina [IfcOpenShell](IfcOpenShell/it.md) per saperne di più su questo processo.
+
+
+</div>
 
 
 **Nota:**

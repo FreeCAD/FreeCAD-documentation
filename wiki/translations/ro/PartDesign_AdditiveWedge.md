@@ -65,7 +65,7 @@ Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

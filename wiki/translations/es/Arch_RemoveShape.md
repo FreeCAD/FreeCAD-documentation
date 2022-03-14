@@ -33,6 +33,8 @@ Esta herramienta intenta eliminar la forma cúbica interna de una [Arch Wall](Ar
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -87,6 +89,11 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

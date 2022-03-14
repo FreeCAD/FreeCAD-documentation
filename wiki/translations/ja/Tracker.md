@@ -1,6 +1,9 @@
 # Tracker/ja
 {{TOCright}}
 
+
+**In February 2022 FreeCAD bug tracking was migrated to [https://github.com/FreeCAD/FreeCAD/issues GitHub Issues]. The Mantis bug tracker described below is now in read-only mode.**
+
 ![](images/Mantis_logo_262x90.png )
 
 

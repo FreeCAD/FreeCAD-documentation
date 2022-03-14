@@ -73,7 +73,7 @@ Dopo la sua creazione il cubo può essere modificato in due modi:
 </div>
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

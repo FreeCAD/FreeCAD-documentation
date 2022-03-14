@@ -1,10 +1,10 @@
 ---
 - GuiCommand:
    Name:Arch Rebar UShape
-   MenuLocation:Arch → Rebar tools → Rebar UShape or 3D/BIM → Reinforcement → Rebar UShape
+   MenuLocation:Arch → Rebar tools → U-Shape Rebar<br>3D/BIM → Reinforcement tools → U-Shape Rebar
    Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar LShape](Arch_Rebar_LShape.md)
    Version:0.17
+   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar LShape](Arch_Rebar_LShape.md)
 ---
 
 # Arch Rebar UShape
@@ -18,15 +18,15 @@ The **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Re
 This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
  <img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;">  
-*Two sets of U-shaped reinforcement bars inside an [[Arch Structure]]*
+*Two sets of U-shaped reinforcement bars inside an [Arch Structure](Arch_Structure.md)*
 
 ## Usage
 
-1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]** object.
+1.  Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
 
 2.  Then select **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape.md)** from the rebar tools.
 
-3.  A [task panel](task_panel.md) will pop-out on the left side of the screen as shown below.
+3.  A [task panel](Task_panel.md) will pop-out on the left side of the screen as shown below.
 
 4.  Select the desired orientation.
 
@@ -76,7 +76,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The UShape Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:  
+The UShape Rebar tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:  
 ```python
 Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
@@ -119,7 +119,9 @@ Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 
 ### Edition of the rebar 
 
-You can change the properties of the rebar with the following function  
+You can change the properties of the rebar with the following function
+
+ 
 ```python
 editUShapeRebar(Rebar, f_cover, b_cover, r_cover, l_cover,
                 diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation,

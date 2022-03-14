@@ -14,6 +14,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -80,6 +82,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    {{PropertyData/es | Amount}}: la cantidad de barras de refuerzo.
 
 -    {{PropertyData/es | Spacing}}: la distancia entre los ejes de cada barra.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

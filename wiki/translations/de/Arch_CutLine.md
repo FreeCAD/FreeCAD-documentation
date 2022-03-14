@@ -36,6 +36,15 @@ Das [Arch SchneideLinie](Arch_CutLine/de.md) Werkzeug ermöglicht dir ein festes
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/de

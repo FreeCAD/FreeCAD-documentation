@@ -78,7 +78,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Constraint plane rotation](FEM_ConstraintPlaneRotation.md): Used to define a plane rotation constraint on a planar face.
 
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Constraint section print](FEM_ConstraintSectionPrint.md): <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Constraint section print](FEM_ConstraintSectionPrint.md): Used to print the predefined facial output variables (forces and moments) to the dat file. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Constraint transform](FEM_ConstraintTransform.md): Used to define a transform constraint on a face.
 
@@ -128,9 +128,9 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 ## Menu: Mesh 
 
--   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [FEM mesh from shape by Netgen](FEM_MeshNetgenFromShape.md):
+-   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [FEM mesh from shape by Netgen](FEM_MeshNetgenFromShape.md): Generates a finite element mesh for a model using Netgen.
 
--   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md):
+-   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md): Generates a finite element mesh for a model using Gmsh.
 
 -   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> [FEM mesh boundary layer](FEM_MeshBoundaryLayer.md): Creates anisotropic meshes for accurate calculations near boundaries.
 
@@ -178,9 +178,9 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:32px;"> [Apply changes to pipeline](FEM_PostApplyChanges.md):
 
--   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Post pipeline from result](FEM_PostPipelineFromResult.md):
+-   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Post pipeline from result](FEM_PostPipelineFromResult.md): Used to add a new graphical representation of FEM analysis results (color scale and more display options).
 
--   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Warp filter](FEM_PostFilterWarp.md):
+-   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Warp filter](FEM_PostFilterWarp.md): Used to visualize the scaled deformed shape of the model.
 
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar.md):
 

@@ -54,7 +54,7 @@ Le Cylindre peut être édité après sa création de deux façons :
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

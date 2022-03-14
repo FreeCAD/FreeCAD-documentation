@@ -63,10 +63,16 @@ Tras su creación, el Cilindro puede ser editado de dos maneras:
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

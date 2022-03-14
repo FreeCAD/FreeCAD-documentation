@@ -35,9 +35,21 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Создать эскиз](PartDesign_NewSketch/ru.md): создает новый эскиз на выбранной грани или плоскости. Если во время выполнения этого инструмента не выбрана ни одна из граней, пользователю будет предложено выбрать плоскость на панели Задач. После чего интерфейс переключится на [верстак \"Sketcher\"](Sketcher_Workbench/ru.md) в режим редактирования.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Редактировать эскиз](Sketcher_EditSketch/ru.md): Переключает интерфейс в режим редакктирования эскиза.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Разместить эскиз на грани](Sketcher_MapSketch/ru.md): Позволяет разместить эскиз на выбранной плоскости или грани активного тела.
+
+
+</div>
 
 ### Инструменты моделирования Part Design 
 
@@ -53,7 +65,13 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Создать связующую форму](PartDesign_ShapeBinder/ru.md): создает связующую форму в активном теле.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Создать связующую форму к подэлементу](PartDesign_SubShapeBinder/ru.md): создает связующую форму к подэлементу, например к краю или грани другого тела, сохраняя при этом относительное положение этого элемента.{{Version/ru|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Создать нового клона](PartDesign_Clone/ru.md): клонирует выбранное тело.
 
@@ -75,17 +93,17 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 :\*<img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Аддитивный куб](PartDesign_AdditiveBox/ru.md): создает аддитивный куб.
 
-:\*<img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Аддитивный конус](PartDesign_AdditiveCone/ru.md): создает аддитивный конус.
-
 :\*<img alt="" src=images/PartDesign_AdditiveCylinder.svg  style="width:32px;"> [Аддитивный цилиндр](PartDesign_AdditiveCylinder/ru.md): создает аддитивный цилиндр.
-
-:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.svg  style="width:32px;"> [Аддитивный эллипсоид](PartDesign_AdditiveEllipsoid/ru.md): создает аддитивный эллипсоид.
-
-:\*<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Аддитивная призма](PartDesign_AdditivePrism/ru.md): создает аддитивную призму.
 
 :\*<img alt="" src=images/PartDesign_AdditiveSphere.svg  style="width:32px;"> [Аддитивная сфера](PartDesign_AdditiveSphere/ru.md): создает аддитивную сферу.
 
+:\*<img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Аддитивный конус](PartDesign_AdditiveCone/ru.md): создает аддитивный конус.
+
+:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.svg  style="width:32px;"> [Аддитивный эллипсоид](PartDesign_AdditiveEllipsoid/ru.md): создает аддитивный эллипсоид.
+
 :\*<img alt="" src=images/PartDesign_AdditiveTorus.svg  style="width:32px;"> [Аддитивный тор](PartDesign_AdditiveTorus/ru.md): создает аддитивный тор.
+
+:\*<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Аддитивная призма](PartDesign_AdditivePrism/ru.md): создает аддитивную призму.
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Аддитивный клин](PartDesign_AdditiveWedge/ru.md): создает аддитивный клин.
 
@@ -109,17 +127,17 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 :\*<img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Субтрактивный параллепипед](PartDesign_SubtractiveBox/ru.md): создает субтрактивный прямоугольный параллелепипед и отнимает его от активного тела.
 
-:\*<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Субтрактивный конус](PartDesign_SubtractiveCone/ru.md): создает субтрактивный конус и отнимает его от активного тела.
-
 :\*<img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:32px;"> [Субтрактивный цилиндр](PartDesign_SubtractiveCylinder/ru.md): создает субтрактивный цилиндр и отнимает его от активного тела.
-
-:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Субтрактивный эллипсоид](PartDesign_SubtractiveEllipsoid/ru.md): создает субтрактивный эллипсоид и отнимает его от активного тела.
-
-:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Субтрактивная призма](PartDesign_SubtractivePrism/ru.md): создает субтрактивную призму и отнимает её от активного тела.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveSphere.svg  style="width:32px;"> [Субтрактивная сфера](PartDesign_SubtractiveSphere/ru.md): создает субтрактивную сферу и отнимает её от активного тела.
 
+:\*<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Субтрактивный конус](PartDesign_SubtractiveCone/ru.md): создает субтрактивный конус и отнимает его от активного тела.
+
+:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Субтрактивный эллипсоид](PartDesign_SubtractiveEllipsoid/ru.md): создает субтрактивный эллипсоид и отнимает его от активного тела.
+
 :\*<img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:32px;"> [Субтрактивный тор](PartDesign_SubtractiveTorus/ru.md): создает субтрактивный тор и отнимает его от активного тела.
+
+:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Субтрактивная призма](PartDesign_SubtractivePrism/ru.md): создает субтрактивную призму и отнимает её от активного тела.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Субтрактивный клин](PartDesign_SubtractiveWedge/ru.md): создает субтрактивный клин и отнимает его от активного тела.
 
@@ -157,9 +175,21 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Миграция](PartDesign_Migrate.md): переносит файлы, созданные с помощью более старых версий FreeCAD. Если файл полностью основан на функциях PartDesign, миграция должна пройти успешно. Если файл содержит смешанные объекты Part/Part Design/Draft объекты, преобразование, скорее всего, завершится неудачно.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Мастер проектирования цепного колеса (звездочки)](PartDesign_Sprocket/ru.md): cоздает профиль цепного колеса (звездчки), который можно далее сделать объемным. {{Version/ru|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Мастер проектирования шестерни с эвольвентным профилем](PartDesign_InvoluteGear/ru.md): создает внутренний или наружный эвольвентный профиль шестерни, который можно далее сделать объемным.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Мастер проектирования вала](PartDesign_WizardShaft/ru.md): Создает вал из таблицы значений и позволяет анализировать силы и моменты. Вал создается как фигура вращения из эскиза, который можно редактировать.
 
@@ -200,9 +230,9 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 
 
- {{PartDesign Tools navi}}
+ {{PartDesign_Tools_navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/ru

@@ -239,11 +239,15 @@ VS Code Debugging →
 
 Prerequis :
 
--   Le paquet ptvsd doit être installé
+-   Le paquet ptvsd doit être installé dans un Python 3 en dehors de FreeCAD, puis le module doit être copié dans le dossier de la bibliothèque Python de FreeCAD.
 
 
 ```python
+# In a cmd window that has a path to you local Python 3:
 pip install ptvsd
+# Then if your Python is installed in C:\Users\<userid>\AppData\Local\Programs\Python\Python37
+# and your FreeCAD is installed in C:\freecad\bin
+xcopy "C:\Users\<userid>\AppData\Local\Programs\Python\Python37\Lib\site-packages\ptvsd" "C:\freecad\bin\Lib\site-packages\ptvsd"
 ```
 
 [Page pypi](https://pypi.org/project/ptvsd/)
@@ -263,7 +267,8 @@ ptvsd.enable_attach(address=('localhost', 5678), redirect_output=True)
 ptvsd.wait_for_attach()
 ```
 
--   Ajoutez une configuration de débogage dans le Code Visual Studio **Debug → Add Configurations…**. Cela devrait ressembler à ceci :
+-   Ajoutez une configuration de débogage dans le Code Visual Studio **Debug → Add Configurations…**.
+-   La configuration doit ressembler à ceci :
 
 
 
@@ -283,13 +288,16 @@ ptvsd.wait_for_attach()
                 ]
             },
 
--   Dans VS Code, ajoutez un point d\'arrêt n\'importe où.
--   Lancez le script dans FreeCAD. FreeCAD gèle en attente de la pièce jointe.
--   Dans VS Code, lancez le débogage en utilisant la configuration créée. Vous devriez voir des variables dans la zone du débogueur.
+-   Dans VS Code, ajoutez un point d\'arrêt où vous voulez.
+-   Lancez le script dans FreeCAD. FreeCAD se fige en attendant la pièce jointe.
+-   Dans VS Code commencez le débogage en utilisant la configuration créée. Vous devriez voir des variables dans la zone du débogueur.
 -   Lors de la mise en place de points d\'arrêt, VS Code se plaindra de ne pas trouver le fichier .py ouvert dans l\'éditeur VS Code.
-    -   Changez \"remoteRoot\" : \".\" en \"remoteRoot\" : \"\"
-    -   Par exemple, si le fichier Python se trouve dans */home/FC\_myscripts/myscript.py*
-    -   Changez : \"remoteRoot\" : \"/home/FC\_myscripts\"
+    -   Changer \"remoteRoot\" : \".\" en \"remoteRoot\" : \"\"
+        -   Par exemple, si le fichier Python se trouve dans */home/FC\_myscripts/myscript.py*.
+        -   Changez en : \"remoteRoot\" : \"/home/FC\_myscripts\"
+    -   Si vous ne faites que déboguer les macros FreeCAD depuis le dossier des macros FreeCAD, et que ce dossier est \"C:/Users//AppData/Roaming/FreeCAD/Macro\", alors utilisez :
+        -   \"localRoot\" : \"C:/Users//AppData/Roaming/FreeCAD/Macro\",
+        -   \"remoteRoot\" : \"C:/Users//AppData/Roaming/FreeCAD/Macro\".
 -   Si votre macro ne trouve pas ptvsd alors que vous l\'avez installé quelque part, faites précéder \'import ptvsd\' par
 
 
@@ -298,17 +306,104 @@ from sys import path
 sys.path.append('/path/to/site-packages')
 ```
 
-où le chemin est celui du répertoire où ptvsd a été installé.
+Où le chemin est celui du répertoire où ptvsd a été installé.
 
 -   Sur le bord inférieur gauche de VSCode, vous pouvez choisir l\'exécutable Python - il est préférable de choisir la version fournie avec FreeCAD.
 
-Dans le package Mac, c\'est /Applications/FreeCAD.App/Contents/Resources/bin/python.
+Dans le paquetage Mac c\'est /Applications/FreeCAD.App/Contents/Resources/bin/python.
 
-Vous pouvez le trouver sur votre système en tapant 
+Vous pouvez le trouver sur votre système en tapant
+
+
 ```python
 import sys
 print(sys.executable)
-``` dans la console Python de FreeCAD.
+```
+
+dans la console Python de FreeCAD.
+
+
+</div>
+
+
+</div>
+
+### Avec LiClipse et AppImage 
+
+
+<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
+
+LiClipse Debugging →
+
+
+<div class="mw-collapsible-content">
+
+-   Extraire AppImage.
+
+
+```python
+> ./your location/FreeCAD_xxx.AppImage --appimage-extract
+> cd squashfs-root/
+```
+
+-   L\'emplacement sqashfs-root est l\'endroit où le débogueur sera connecté plus tard.
+
+-   Assurez-vous que vous pouvez démarrer une session FreeCAD à partir de l\'emplacement squashfs-root.
+
+
+```python
+squashfs-root> ./usr/bin/freecadcmd
+```
+
+-   Doit démarrer une session de ligne de commande FreeCAD.
+
+-   Installez [LiClipse](https://www.liclipse.com/).
+    -   Il est livré prêt avec pydev et possède des installateurs pour toutes les plateformes.
+    -   Pour linux, il suffit d\'extraire (à n\'importe quel endroit) et d\'exécuter.
+
+-   Configurez liclipse pour le débogage.
+    -   Clic droit sur l\'icône pydev (coin supérieur droit) et choisissez la personnalisation.
+        -   Activez \"PyDev Debug\" (par la case à cocher, ou il peut être nécessaire d\'aller dans l\'onglet \"Action Set Availability\" et de l\'activer d\'abord).
+        -   Dans le menu pydev, vous pouvez maintenant choisir \"démarrer le serveur de débogage\".
+    -   Utilisez le menu window/open perspective/other \> debug.
+        -   Cliquez avec le bouton droit de la souris sur l\'icône de débogage (coin supérieur droit) et choisissez \"customize\".
+        -   Cochez \"Debug\" fait apparaître les outils de navigation de débogage dans la barre d\'outils.
+    -   Ouvrez les préférences par le menu fenêtre/préférences.
+        -   Dans PyDev/Interpreters ajoutez \"new Interpreter by browsing\".
+        -   L\'interprète ajouté devrait être : `votre localité/squashfs-root/usr/bin/python`.
+        -   Si vous ne l\'utilisez que pour fc, vous pouvez également ajouter les dossiers de l\'atelier AddOn ou le faire plus tard dans un projet pydev.
+
+-   Trouvez le chemin vers `pydevd.py` dans votre installation de liclipse.
+    -   Quelque chose du genre : `votre emplacement/liclipse/plugins/org.python.pydev.xx/pysrc`.
+-   Créez un projet pydev normal dans liclipse.
+    -   Importez des sources externes, par exemple une macro que vous voulez déboguer, ou un atelier externe.
+    -   Dans cette macro (ou dans le fichier .py de l\'atelier), ajoutez les lignes de code :
+
+:   
+    
+```python
+    import sys; sys.path.append("path ending with /pysrc")
+    import pydevd; pydevd.settrace()
+    
+```
+    
+
+:\* C\'est l\'endroit où l\'exécution s\'arrêtera lorsque la macro sera exécutée.
+
+-   Démarrez le serveur de débogage de Liclipse (menu pydev).
+
+-   Lancez FreeCAD.
+
+
+```python
+squashfs-root> ./usr/bin/freecad
+```
+
+-   Exécutez la macro (ou tout autre fichier avec un déclencheur `pydevd.settrace()`) à partir de freecad, comme vous le feriez normalement.
+
+-   Bon débogage.
+
+-   L\'utilisation de LiClipse pour le débogage à distance, et les étapes décrites ici liées à liclipse, devraient fonctionner sur n\'importe quelle plateforme. Les parties relatives à AppImage sont pour linux uniquement.
 
 
 </div>

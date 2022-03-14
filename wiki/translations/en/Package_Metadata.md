@@ -100,19 +100,38 @@ Most common open-source licenses are described on the [OSI website](https://open
 
 Commonly-used license strings:
 
--   Apache-2.0
--   BSD
--   Boost Software License
--   GPLv2
--   GPLv3
--   LGPLv2.1
--   LGPLv3
--   MIT
--   Mozilla Public License Version 1.1
+-    `"Apache-2.0"`
+    
+
+-    `"BSD"`
+    
+
+-    `"Boost Software License"`
+    
+
+-    `"GPLv2"`
+    
+
+-    `"GPLv3"`
+    
+
+-    `"LGPLv2.1"`
+    
+
+-    `"LGPLv3"`
+    
+
+-    `"MIT"`
+    
+
+-    `"Mozilla Public License Version 1.1"`
+    
+
+-    `"CC0v1"`(Public Domain dedication)
 
 #### Attributes 
 
--   file=\"FILE\" (optional): A path relative to the package.xml file containing the full license text. Many licenses require including the license text when redistributing the software. E.g. the Apache License, Version 2.0 states in paragraph 4.1: \"You must give any other recipients of the Work or Derivative Works a copy of this License\"
+-    `file<nowiki>=</nowiki>"FILE"`(optional): A path relative to the `package.xml` file containing the full license text. Many licenses require including the license text when redistributing the software. E.g. the Apache License, Version 2.0 states in paragraph 4.1: \"You must give any other recipients of the Work or Derivative Works a copy of this License\"
 
 ###  
 
@@ -124,9 +143,8 @@ The  tag describes the actual contents of the package. It has no attributes, and
       <preferencepack>
         <name>Unicorn Sparkles Theme</name>
         <version>1.0.0</version>
-        <url type="readme">https://github.com/chennes/FreeCAD-themes/Unicorn%20Sparkles%20Theme/Readme.md</url>
+        <url type="readme">https://github.com/chennes/FreeCAD-themes/blob/main/Unicorn%20Sparkles%20Theme/Readme.md</url>
         <icon>sparkles.svg</icon>
-        <type>appearance</type>
       </preferencepack>
     </content>
 
@@ -139,7 +157,7 @@ The existence of  items implies a set of subfolders, one for each content item, 
         sparkles.svg
         (the theme's other files)
 
-In addition to the other elements of , content items can optionally provide information in , , , and  tags (technically these can be provided to the root  tag as well, but they are generally unused there).
+In addition to the other elements of , content items can optionally provide information in , , and  tags (technically these can be provided to the root  tag as well, but they are generally unused there).
 
 **Backwards-compatibility note**: to avoid having to restructure packages that pre-date this metadata standard, the optional [](#.3Csubdirectory.3E.md) tag is allowed to specify \"./\" as the subdirectory for a content item, in which case no subdirectory is required. This matches the pre-standard system where a single workbench was located at the top of the directory structure.
 
@@ -167,17 +185,13 @@ Optional
 
 Provided for convenience to other tools, any number of other files may be listed here. Their use depends on the type of content. In a macro content item, each file entry is a single macro, and will be linked into the user\'s Macros installation directory by the [Addon Manager](Std_AddonMgr.md).
 
-####  
-
-REQUIRED for Preference Packs, not supported for other content elements
-
-Either \"appearance\", \"behavior\", or \"combination\" describing to end users what type of changes they can expect this preference pack to change.
-
 ###  
 
-Multiple allowed
+Multiple allowed: \"repository\" is required, and \"readme\"-type is highly recommended.
 
-A Uniform Resource Locator for the package\'s website, bug tracker, source repository, readme file, or documentation. For packages installed via git, the repository is required. Inclusion of the \"readme\" URL is highly recommended: if the readme is specified and is either a plain text, HTML, or Markdown document (as indicated by the extensions \*.txt, \*.html, and \*.md, respectively), the Addon Manager will download, cache, and display this file and its associated image files.
+A Uniform Resource Locator for the package\'s website, bug tracker, source repository, zip download link, readme file, or documentation (as specified by the \"type\" attribute \-- see below).
+
+When specifying the \"readme\" type, a direct link to a rendered version of the README should be provided. For example, on GitHub, this is a \"blob\"-type link such as \"<https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md>\", or on a GitLab instance, \"<https://gitlab.com/opensimproject/cfdof/-/blob/master/README.md>\" (note the slightly different URL format between the two).
 
 It is a good idea to include  tags pointing users to your package\'s online resources. The website is commonly a wiki page on wiki.freecad.org where users can find and update information about the package, for example. The Addon Manager lists these URLs and provides clickable links to them in the package description.
 
@@ -200,7 +214,7 @@ The name of a person who is an author of the package, as acknowledgement of thei
 
 Multiple allowed
 
-Declares another FreeCAD Addon or workbench. Note that not all dependency-related features are fully implemented yet. Does not support Python package dependencies, which should be specified using either a requirements.txt or metadata.txt file (see [Workbench creation](Workbench_creation#Distribution.md) for details).
+Declares a dependency on another FreeCAD Addon or internal workbench, or Python package. The named dependency is first checked against the list of known Addons (e.g. those available either from the official FreeCAD Addons git repository, or those in a custom user-specified repository). If no match is found it is checked against the list of known internal workbenches (both installed and uninstalled). Finally, if the named dependency has not been located in the previous two steps it is assumed to be a Python package dependency. Note that not all dependency-related features are fully implemented yet.
 
 #### Attributes 
 
@@ -340,6 +354,10 @@ A package with dependencies:
 
           
           <conflict condition="$BuildRevision==24267">Do not use with build 24267</conflict> 
+
+          
+          <depend>matplotlib</depend>
+          <depend>some_other_package</depend> 
         </workbench>
       </content>
 

@@ -34,9 +34,9 @@ L\'outil Couper le plan vous permet de couper un objet Arch selon un plan:
 
 **Voir aussi:**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Couper selon un plan peut être utilisé dans une [macro](macros/fr.md), et, à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : 
+L\'outil Couper selon un plan peut être utilisé dans une [macro](Macros/fr.md), et, à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : 
 ```python
 cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 ```

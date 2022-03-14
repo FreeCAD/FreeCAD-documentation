@@ -30,6 +30,7 @@ Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'un objet.
 ## Remarques
 
 -   Le PartDesign Congé ne doit pas être confondu avec le [Part Congé](Part_Fillet/fr.md). À moins que vous ne sachiez ce que vous faites, [Part Congé](Part_Fillet/fr.md) ne doit pas être utilisé sur un corps PartDesign. Voir [Part et PartDesign](Part_and_PartDesign/fr.md).
+-   Les Congés ne peuvent pas entièrement épouser les faces adjacentes.
 
 ## Problèmes connus 
 

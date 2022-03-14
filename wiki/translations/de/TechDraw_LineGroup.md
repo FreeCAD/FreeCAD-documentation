@@ -1,13 +1,4 @@
 # TechDraw LineGroup/de
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Übersicht
@@ -77,13 +68,7 @@ Hinweis: Eine neue Einstellung wurde hinzugefügt, die es dir erlaubt, deine eig
 -   Die Linienbreite in TechDraw ist immer in mm angegeben, auch bei Verwendung anderer Einheitensysteme.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

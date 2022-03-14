@@ -16,10 +16,23 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento **Estendi bordo** estende un bordo fino ad una posizione arbitraria nello schizzo o fino ad un altro bordo.
 
-<img alt="" src=images/Sketcher_Extend_example_01.png  style="width:600px;"> 
+
+</div>
+
+<img alt="" src=images/Sketcher_Extend_example_01.png  style="width:600px;">
+
+
+<div class="mw-translate-fuzzy">
+
 *A sinistra (1) sono indicati i due elementi dello schizzo prima dell\'operazione; nel mezzo (2) la linea viene estesa all\'arco; a destra (3) il risultato finale.*
+
+
+</div>
 
 ## Utilizzo
 
@@ -36,9 +49,10 @@ Lo strumento **Estendi bordo** estende un bordo fino ad una posizione arbitraria
 
 </div>
 
-## Limitazioni
+## Notes
 
--   Per il momento possono essere estesi solo archi e linee.
+-   Only arcs and lines can be extended at this time.
+-   The target edge or point object may be modified as well if it is not fully constrained.
 
 
 <div class="mw-translate-fuzzy">

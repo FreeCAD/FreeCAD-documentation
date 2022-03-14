@@ -32,6 +32,8 @@ Acest instrument încearcă să înlăture forma cubică interioară a unui [Arc
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -86,6 +88,11 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

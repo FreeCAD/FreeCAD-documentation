@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Rebar ColumnReinforcement
    Name/fr:Arch Rebar Armature en colonne
-   MenuLocation:Arch → Rebar tools → Column Reinforcement ou 3D/BIM → Reinforcement → Column Reinforcement
+   MenuLocation:Arch → Rebar tools → Column Reinforcement<br>3D/BIM → Reinforcement → Column Reinforcement
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature hélicoïdale](Arch_Rebar_Helical/fr.md), [Arch Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md)

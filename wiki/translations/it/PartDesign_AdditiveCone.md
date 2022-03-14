@@ -75,7 +75,7 @@ Dopo la sua creazione il cono può essere modificato in due modi:
 </div>
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

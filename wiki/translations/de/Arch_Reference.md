@@ -56,6 +56,9 @@ Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{docnav/de
 |[Grundstück](Arch_Site/de.md)
 |[Fenster](Arch_Window/de.md)
@@ -64,6 +67,9 @@ Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 |IconR=Arch_Window.svg
 |IconC=Workbench_Arch.svg
 }}
+
+
+</div>
 
 
 

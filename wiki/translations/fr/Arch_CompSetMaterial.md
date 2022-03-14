@@ -16,8 +16,9 @@ Les outils Matériaux permettent d\'ajouter des matériaux au document actif.
 
 ## Types
 
--   <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Matériau](Arch_SetMaterial/fr.md): crée un matériau et l\'attribue, le cas échéant aux objets sélectionnés
--   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Matériaux multiples](Arch_MultiMaterial/fr.md): crée un multi-matériau et l\'attribue aux objets sélectionnés, le cas échéant {{Version/fr|0.17}}.
+-   <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Matériau](Arch_SetMaterial/fr.md) : Crée un matériau et l\'attribue aux objets sélectionnés, le cas échéant.
+
+-   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Matériaux multiples](Arch_MultiMaterial/fr.md) : Crée un multi-matériau et l\'attribue aux objets sélectionnés, le cas échéant.
 
 
 

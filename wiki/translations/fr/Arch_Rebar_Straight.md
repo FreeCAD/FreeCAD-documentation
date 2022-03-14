@@ -2,8 +2,9 @@
 - GuiCommand:/fr
    Name:Arch Rebar Straight
    Name/fr:Arch Rebar Armature droite
-   MenuLocation:Arch → Rebar tools → Straight Rebar ou 3D/BIM → Reinforcement → Straight Rebar
+   MenuLocation:Arch → Rebar tools → Straight Rebar<br>3D/BIM → Reinforcement tools → Straight Rebar
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version:0.17
    SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md)
 ---
 
@@ -22,7 +23,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Comment faire 
 
-1.  Sélectionnez n'importe quelle face d'un objet créé précédemment {{Button | <img src="images/_Arch_Structure.svg_" width= 16px> [Arch Structure](Arch_Structure/fr.md)}}.
+1.  Sélectionnez n'importe quelle face d'un objet créé précédemment **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
 2.  Puis sélectionnez **<img src="images/Arch_Rebar_Straight.svg" width=16px> [Armature droite](Arch_Rebar_Straight/fr.md)** dans les outils pour barres d\'armature.
 3.  Un panneau de tâches apparaîtra sur le côté gauche de l\'écran comme indiqué ci-dessous.
 4.  Sélectionnez l\'orientation souhaitée.
@@ -30,8 +31,8 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 6.  Sélectionnez le mode de distribution soit en montant ou en espacement.
 7.  Si l\'espacement est sélectionné, un utilisateur peut également opter pour [custom spacing](Custom_Spacing.md).
 8.  Choisir la face sélectionnée est utilisé pour vérifier ou modifier la face pour la distribution des barres.
-9.  Cliquez sur **OK** ou **Apply** pour générer les barres d'arceau.
-10. Cliquez sur **Cancel** pour quitter le panneau de tâches.
+9.  Cliquez sur **OK** ou **Appliquer** pour générer les barres d'arceau.
+10. Cliquez sur **Annuler** pour quitter le panneau de tâches.
 
 <img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
 *Panneau de tâches pour l'outil Armature droite*
@@ -61,9 +62,11 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 **Voir aussi :**
 
-[Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md), [Reinforcement API](Reinforcement_API/fr.md) et [FreeCAD Scripts de bases](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature droite peut être utilisé dans une [macro](macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante : 
+L\'outil Armature droite peut être utilisé dans une [macro](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante :
+
+
 ```python
 Rebar = makeStraightRebar(f_cover, coverAlong, rt_cover, lb_cover,
                           diameter, amount_spacing_check, amount_spacing_value, orientation="Horizontal",

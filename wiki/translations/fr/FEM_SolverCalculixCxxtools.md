@@ -42,12 +42,13 @@ En utilisant **Edit.inp file**, vous pouvez afficher et éditer le fichier d\'en
 
 Les valeurs par défaut peuvent être définies dans le menu **Edition → Préférences → FEM → CalculiX**.
 
--    {{PropertyData/fr|Analysis Type}}:
+-    **Analysis Type**:
 
     -   static
     -   frequency
     -   thermomech - pour les charges mécaniques et thermiques
     -   check - pour vérifier uniquement le maillage {{Version/fr|0.19}}
+    -   buckling - pour les analyses de flambage {{Version/fr|0.20}}
 
 -    {{PropertyData/fr|Résultat de résultat Beam Shell 3D}}: notez que CalculiX développe en interne les éléments 1D et 2D en éléments 3D pour réaliser l\'analyse FE.
 

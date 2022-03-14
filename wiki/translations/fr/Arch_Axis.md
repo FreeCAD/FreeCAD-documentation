@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Axis
    Name/fr:Arch Axes
-   MenuLocation:Arch → Outils de l'axe → Axe
+   MenuLocation:Arch → Outils pour les axes → Axe
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**A** **X**
    SeeAlso:[Arch Système d'axes](Arch_AxisSystem/fr.md), [Arch Grille](Arch_Grid/fr.md)
@@ -19,7 +19,7 @@ L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)**
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/Arch_Axis.svg" width=16px> [Outils pour les axes](Arch_Axis/fr.md)** ou appuyez sur les touches **A** puis **X**.
+1.  Appuyez sur le bouton **<img src="images/Arch_Axis.svg" width=16px> [Axe](Arch_Axis/fr.md)** ou appuyez sur les touches **A** puis **X**.
 2.  [Draft Déplacer](Draft_Move/fr.md)/[Draft Rotation](Draft_Rotate/fr.md) positionne le système d\'axes dans la position souhaitée.
 3.  Passez en mode édition en double-cliquant sur le système d\'axes dans l\'arborescence pour ajuster ses paramètres tels que le nombre d\'axes, les distances et les angles entre les axes.
 
@@ -32,21 +32,21 @@ L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)**
 
 ## Propriétés
 
--    {{PropertyData/fr|Length}}: La longueur des axes.
+-    **Length**: La longueur des axes.
 
--    {{PropertyData/fr|Limit}}: Si supérieure à zéro, chaque axe sera représenté par deux lignes de la longueur donnée au lieu d\'une ligne continue. {{Version/fr|0.20}}
+-    **Limit**: Si supérieure à zéro, chaque axe sera représenté par deux lignes de la longueur donnée au lieu d\'une ligne continue. {{Version/fr|0.20}}
 
--    {{PropertyView/fr|Bubble Size}}: La taille des bulles des axes.
+-    **Bubble Size**: La taille des bulles des axes.
 
--    {{PropertyView/fr|Numeration style}}: Style de numérotation : 1,2,3, A,B,C, etc\...
+-    **Numeration style**: Style de numérotation : 1,2,3, A,B,C, etc\...
 
--    {{PropertyView/fr|Bubble Position}}: Position de la bulle sur l\'axe: Point de départ, point de terminaison, les deux ou aucun.
+-    **Bubble Position**: Position de la bulle sur l\'axe: Point de départ, point de terminaison, les deux ou aucun.
 
--    {{PropertyView/fr|Font Name}}: Police du numéro de la bulle et/ou les étiquettes
+-    **Font Name**: Police du numéro de la bulle et/ou les étiquettes
 
--    {{PropertyView/fr|Font Size}}: La taille du texte de l\'étiquette uniquement (le texte de la bulle est contrôlé par la taille de la bulle)
+-    **Font Size**: La taille du texte de l\'étiquette uniquement (le texte de la bulle est contrôlé par la taille de la bulle)
 
--    {{PropertyView/fr|Show Labels}}: Active/désactive l\'affichage du textes des étiquettes
+-    **Show Labels**: Active/désactive l\'affichage du textes des étiquettes
 
 ## Utilisation comme marque de section 
 

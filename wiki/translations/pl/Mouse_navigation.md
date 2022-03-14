@@ -11,9 +11,6 @@ Więcej informacji na temat manipulowania obiektami znajdziesz na stronie [Przem
 
 ## Wybór stylu nawigacji 
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wykonaj jedną z następujących czynności:
     -   Naciśnij przycisk **[<img src=images/NavigationCAD_dark.svg style="width:16px">** na pasku [Statusu](Status_bar/pl.md)
     -   Kliknij prawym przyciskiem myszy pusty obszar w oknie [widoku 3D](3D_view/pl.md), a następnie wybierz **Style nawigacji** z menu kontekstowego.
@@ -22,9 +19,6 @@ Więcej informacji na temat manipulowania obiektami znajdziesz na stronie [Przem
 3.  Opcjonalnie zmień styl **Techniki orbitalnej**: naciśnij przycisk **[<img src=images/NavigationCAD_dark.svg style="width:24px">** w pasku [Statusu](Status_bar/pl.md), a następnie wybierz **Ustawienia  → Technika orbitalna**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
 4.  Opcjonalnie zmień **Tryb obracania**. Zobacz [Edytor preferencji](Preferences_Editor/pl.md).
 5.  Jeśli wybrano styl nawigacji **CAD**: opcjonalnie zmień ustawienie **Włącz animację**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
-
-
-</div>
 
 ## Dostępne style nawigacji 
 

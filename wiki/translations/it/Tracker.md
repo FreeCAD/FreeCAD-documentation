@@ -10,6 +10,9 @@
 
 {{TOCright}}
 
+
+**In February 2022 FreeCAD bug tracking was migrated to [https://github.com/FreeCAD/FreeCAD/issues GitHub Issues]. The Mantis bug tracker described below is now in read-only mode.**
+
 ![](images/Mantis_logo_262x90.png )
 
 Il [FreeCAD BugTracker](https://www.freecadweb.org/tracker) è il posto dove segnalare i bug, presentare le richieste di funzionalità, patch, o richiedere di fondere un proprio ramo, se avete sviluppato qualcosa usando Git. Il tracker è suddiviso in moduli, quindi cercate di essere specifici e di presentare la richiesta nella sottosezione appropriata. In caso di dubbio, lasciare il messaggio nella sezione \"FreeCAD\".

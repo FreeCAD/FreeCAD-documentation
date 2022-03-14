@@ -162,7 +162,7 @@ Birden fazla seçim için bir geçici çözüm vardır: Şekil bağlayıcı\'yı
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_ navi
 
 }}
 

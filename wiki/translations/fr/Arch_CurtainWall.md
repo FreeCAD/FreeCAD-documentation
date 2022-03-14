@@ -19,7 +19,7 @@ Cet outil crée un [Mur-rideau](https://fr.wikipedia.org/wiki/Mur-rideau) en sub
 
 Les murs-rideaux peuvent être créés à partir de n\'importe quel type d\'objet existant, auquel cas toutes les faces de l\'objet seront subdivisées. L\'outil fonctionne donc mieux s\'il est utilisé avec un objet qui n\'a qu\'une seule face. En règle générale, vous devez d\'abord créer une face, de préférence liée par exactement 4 arêtes, qui représente la zone que vous souhaitez remplir avec un mur-rideau, puis appliquer l\'outil.
 
-Les murs-rideaux peuvent également être construits à partir d\'un objet linéaire, tel qu\'une ligne, un arc ou une polyligne, comme l\'outil normal [Arch Mur](Arch_Wall/fr.md).
+Les murs-rideaux peuvent également être construits à partir d\'un objet linéaire, tel qu\'une ligne, un arc ou une polyligne, comme l\'outil [Arch Mur](Arch_Wall/fr.md).
 
 Les faces à double courbure ou les faces à plus de 4 arêtes fonctionneront également mais le résultat est moins prévisible.
 
@@ -34,7 +34,7 @@ Vous pouvez également utiliser l\'outil de mur-rideau sans aucun objet sélecti
 ### Dessiner un mur-rideau de zéro 
 
 1.  Assurez-vous que rien n\'est sélectionné
-2.  Appuyez sur le bouton **<img src="images/Arch_CurtainWall.svg" width=16px> [Arch CurtainWall](Arch_CurtainWall/fr.md)
+2.  Appuyez sur le bouton **<img src="images/Arch_CurtainWall.svg" width=16px> [Mur-rideau](Arch_CurtainWall/fr.md)
 ** ou appuyez sur les touches **C** puis **W**
 3.  Cliquez sur un premier point de la vue 3D ou rentrez des coordonnées
 4.  Cliquez sur un deuxième point de la vue 3D ou rentrez des coordonnées
@@ -43,7 +43,7 @@ Vous pouvez également utiliser l\'outil de mur-rideau sans aucun objet sélecti
 ### Création d\'un mur-rideau à partir d\'un objet sélectionné 
 
 1.  Sélectionnez un ou plusieurs objets de géométrie de base (objet Draft, esquisse, etc).
-2.  Appuyez sur le bouton **<img src="images/Arch_CurtainWall.svg" width=16px> [Arch CurtainWall](Arch_CurtainWall/fr.md)** ou appuyez sur les touches **C** puis **W**.
+2.  Appuyez sur le bouton **<img src="images/Arch_CurtainWall.svg" width=16px> [Mur-rideau](Arch_CurtainWall/fr.md)** ou appuyez sur les touches **C** puis **W**.
 3.  Ajustez les propriétés nécessaires.
 
 ## Options
@@ -57,51 +57,51 @@ Vous pouvez également utiliser l\'outil de mur-rideau sans aucun objet sélecti
 
 Les objets Mur-rideau héritent des propriétés des objets [Arch Composants](Arch_Component/fr.md) et ont également des propriétés supplémentaires suivantes:
 
--    {{PropertyData/fr|Vertical Mullion Number}}: nombre de meneaux verticaux
+-    **Vertical Mullion Number**: nombre de meneaux verticaux
 
--    {{PropertyData/fr|Vertical Mullion Alignment}}: si le profil des meneaux verticaux est aligné avec la surface ou non
+-    **Vertical Mullion Alignment**: si le profil des meneaux verticaux est aligné avec la surface ou non
 
--    {{PropertyData/fr|Vertical Sections}}: nombre de sections verticales de ce mur-rideau
+-    **Vertical Sections**: nombre de sections verticales de ce mur-rideau
 
--    {{PropertyData/fr|Vertical Mullion Height}}: hauteur du profil vertical des meneaux, si aucun profil n\'est utilisé
+-    **Vertical Mullion Height**: hauteur du profil vertical des meneaux, si aucun profil n\'est utilisé
 
--    {{PropertyData/fr|Vertical Mullion Width}}: largeur du profil vertical des meneaux, si aucun profil n\'est utilisé
+-    **Vertical Mullion Width**: largeur du profil vertical des meneaux, si aucun profil n\'est utilisé
 
--    {{PropertyData/fr|Vertical Mullion Profile}}: profil pour les meneaux verticaux (désactive la taille des meneaux verticaux)
+-    **Vertical Mullion Profile**: profil pour les meneaux verticaux (désactive la taille des meneaux verticaux)
 
--    {{PropertyData/fr|Horizontal Mullion Number}}: nombre de meneaux horizontaux
+-    **Horizontal Mullion Number**: nombre de meneaux horizontaux
 
--    {{PropertyData/fr|Horizontal Mullion Alignment}}: si le profil des meneaux horizontaux est aligné avec la surface ou non
+-    **Horizontal Mullion Alignment**: si le profil des meneaux horizontaux est aligné avec la surface ou non
 
--    {{PropertyData/fr|Horizontal Sections}}: nombre de sections horizontales de ce mur-rideau
+-    **Horizontal Sections**: nombre de sections horizontales de ce mur-rideau
 
--    {{PropertyData/fr|Horizontal Mullion Height}}: hauteur du profil des meneaux horizontaux, si aucun profil n\'est utilisé
+-    **Horizontal Mullion Height**: hauteur du profil des meneaux horizontaux, si aucun profil n\'est utilisé
 
--    {{PropertyData/fr|Horizontal Mullion Width}}: largeur du profil des meneaux horizontaux, si aucun profil n\'est utilisé
+-    **Horizontal Mullion Width**: largeur du profil des meneaux horizontaux, si aucun profil n\'est utilisé
 
--    {{PropertyData/fr|Horizontal Mullion Profile}}: profil pour les meneaux horizontaux (désactive la taille des meneaux horizontaux)
+-    **Horizontal Mullion Profile**: profil pour les meneaux horizontaux (désactive la taille des meneaux horizontaux)
 
--    {{PropertyData/fr|Diagonal Mullion Number}}: nombre de meneaux diagonaux
+-    **Diagonal Mullion Number**: nombre de meneaux diagonaux
 
--    {{PropertyData/fr|Diagonal Mullion Size}}: taille des meneaux diagonaux, le cas échéant, si aucun profil n\'est utilisé
+-    **Diagonal Mullion Size**: taille des meneaux diagonaux, le cas échéant, si aucun profil n\'est utilisé
 
--    {{PropertyData/fr|Diagonal Mullion Profile}}: profil pour les meneaux diagonaux, le cas échéant (désactive la taille des meneaux horizontaux)
+-    **Diagonal Mullion Profile**: profil pour les meneaux diagonaux, le cas échéant (désactive la taille des meneaux horizontaux)
 
--    {{PropertyData/fr|Panel Number}}: nombre de panneaux
+-    **Panel Number**: nombre de panneaux
 
--    {{PropertyData/fr|Panel Thickness}}: épaisseur des panneaux
+-    **Panel Thickness**: épaisseur des panneaux
 
--    {{PropertyData/fr|Swap Horizontal Vertical}}: échange les lignes horizontales et verticales
+-    **Swap Horizontal Vertical**: échange les lignes horizontales et verticales
 
--    {{PropertyData/fr|Refine}}: effectuer des soustractions entre les composants afin qu\'ils ne se chevauchent pas
+-    **Refine**: effectuer des soustractions entre les composants afin qu\'ils ne se chevauchent pas
 
--    {{PropertyData/fr|Center Profiles}}: centre le profil sur les bords ou non
+-    **Center Profiles**: centre le profil sur les bords ou non
 
--    {{PropertyData/fr|Vertical Direction}}: référence de direction verticale à utiliser par cet objet pour déduire les directions verticales/horizontales. Maintenez-le proche de la direction verticale réelle de votre mur-rideau
+-    **Vertical Direction**: référence de direction verticale à utiliser par cet objet pour déduire les directions verticales/horizontales. Maintenez-le proche de la direction verticale réelle de votre mur-rideau
 
--    {{PropertyData/fr|Height}}: hauteur de ce mur-rideau, au cas où elle serait basée sur un objet linéaire
+-    **Height**: hauteur de ce mur-rideau, au cas où elle serait basée sur un objet linéaire
 
--    {{PropertyData/fr|Host}}: hôte de ce mur-rideau. Le mur-rideau apparaîtra intégré dans son objet hôte dans l\'arborescence (aucune autre action n\'est effectuée)
+-    **Host**: hôte de ce mur-rideau. Le mur-rideau apparaîtra intégré dans son objet hôte dans l\'arborescence (aucune autre action n\'est effectuée)
 
 ## Faire des murs à ossature 
 
@@ -113,7 +113,7 @@ La procédure décrite ci-dessous crée un mur et un mur-rideau sur la base d\'u
 
 1.  Créez un [Arch Mur](Arch_Wall/fr.md) normal, soit en cliquant sur deux points d\'un objet linéaire existant
 2.  Sélectionnez l\'objet de base du mur d\'arc nouvellement créé
-3.  Appuyez sur le bouton **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall/fr.md)** ou appuyez sur les touches **C** puis **W** pour créer un mur-rideau de la même ligne de base que le mur
+3.  Appuyez sur le bouton **<img src="images/Arch_CurtainWall.svg" width=16px> [Mur-rideau](Arch_CurtainWall/fr.md)** ou appuyez sur les touches **C** puis **W** pour créer un mur-rideau de la même ligne de base que le mur
 4.  Assurez-vous que le mur et le mur-rideau ont la même **Hauteur**
 5.  Définissez le nombre de **horizontal sections** du mur-rideau sur zéro si vous ne souhaitez que des cadres verticaux
 6.  Définissez la **horizontal mullion width** (largeur horizontale du meneau) et **horizontal mullion height** (ou utilisez un profil de meneau)
@@ -127,9 +127,9 @@ La procédure décrite ci-dessous crée un mur et un mur-rideau sur la base d\'u
 
 **Voir aussi:**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Mur-rideau peut être utilisé à l\'intérieur d\'une [macro](macros/fr.md), et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : 
+L\'outil Mur-rideau peut être utilisé à l\'intérieur d\'une [macro](Macros/fr.md), et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : 
 ```python
 MyCurtainWall = makeCurtainWall(baseobj)
 ```

@@ -67,7 +67,7 @@ Cilindrul poate fi editat, după crearea sa, în două moduri:
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

@@ -71,7 +71,13 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Restricción de rotación de plano](FEM_ConstraintPlaneRotation/es.md): Utilizada para definir una restricción de rotación de plano sobre una cara plana.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Impresión de la sección de restricciones](FEM_ConstraintSectionPrint/es.md): {{Version/es|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Restricción de transformación](FEM_ConstraintTransform/es.md): Utilizada para definir una restricción de transformación en una cara.
 
@@ -121,9 +127,21 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 ## Menú de Malla 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Malla MEF a partir de forma por Netgen](FEM_MeshNetgenFromShape/es.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [Malla MEF a partir de forma por Gmsh](FEM_MeshGmshFromShape/es.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> [Capa límite de la malla FEM](FEM_MeshBoundaryLayer/es.md):
 
@@ -173,9 +191,21 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:32px;"> [Aplicar cambios a la canaliza](FEM_PostApplyChanges/es.md):
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Pos canaliza a resultado](FEM_PostPipelineFromResult/es.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Filtro de deformación](FEM_PostFilterWarp/es.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Filtro de clip Escalar](FEM_PostFilterClipScalar/es.md)
 

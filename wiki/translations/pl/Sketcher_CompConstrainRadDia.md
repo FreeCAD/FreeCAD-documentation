@@ -1,18 +1,19 @@
 # Sketcher CompConstrainRadDia/pl
-{{GuiCommand
+{{GuiCommand/pl
 |Name=Sketcher constrain an arc or a circle
-|Workbenches=[Sketcher](Sketcher_Workbench.md)
-|MenuLocation=None (toolbar only)
+|Name/pl=Szkicownik: Wiązanie promienia lub średnicy
+|Workbenches=[Szkicownik](Sketcher_Workbench/pl.md)
+|MenuLocation=Brak ''(tylko pasek narzędzi)''
 }}
 
-## Description
+## Opis
 
-**Constrain an arc or circle** is an icon button in the Sketcher constraints toolbar that groups tools to constrain an arc or a circle. Click on the down arrow to its right to expand the icons below it and select a tool.
+**Wiązanie łuku lub okręgu** to przycisk z ikoną na pasku narzędziowym wiązań w środowisku Szkicownik, który grupuje narzędzia do wiązania łuku lub okręgu. Kliknij strzałkę w dół po prawej stronie, aby rozwinąć znajdujące się pod nim ikony i wybrać narzędzie.
 
-## Types of constraints for an arc or circle 
+## Rodzaje wiązań dla łuku lub okręgu 
 
--   <img alt="" src=images/Sketcher_ConstrainRadius.png  style="width:32px;"> [Constrain radius](Sketcher_ConstrainRadius.md) : Fix the radius of a circle or an arc.
--   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Constrain diameter](Sketcher_ConstrainDiameter.md) : Fix the diameter of a circle or an arc.
+-   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Wiązanie promienia](Sketcher_ConstrainRadius/pl.md): ustal promień okręgu lub łuku.
+-   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Wiązanie średnicy](Sketcher_ConstrainDiameter/pl.md): ustal średnicę okręgu lub łuku.
 
 
 {{Sketcher Tools navi

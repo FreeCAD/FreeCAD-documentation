@@ -16,7 +16,7 @@ Please refer to the Page [FreeCAD and DWG-Import](FreeCAD_and_DWG_Import.md)
 
 ### Autodesk DXF 
 
-Please refer to the Page [FreeCAD and DXF Import](FreeCAD_and_DXF_Import.md)
+Please refer to the Page [FreeCAD and DXF Import](FreeCAD_and_DWG_Import.md)
 
 Tutorial: [DXF Importer Install](Dxf_Importer_Install.md)
 
@@ -30,7 +30,7 @@ Todo
 
 ### Collada
 
-Importing Collada files requires an external Python module to be installed on your system. This can be easily added by following the directions found on the [Extra python modules](Extra_python_modules.md) page under [pyCollada](http://www.freecadweb.org/wiki/index.php?title=Extra_python_modules#pyCollada) in this Wiki. Once the pyCollada Python module is installed, importing Collada files is the same as any standard file import.
+Importing Collada files requires an external Python module to be installed on your system. This can be easily added by following the directions found on the [Extra Python modules](Extra_python_modules.md) page under [pyCollada](http://www.freecadweb.org/wiki/index.php?title=Extra_python_modules#pyCollada) in this Wiki. Once the pyCollada Python module is installed, importing Collada files is the same as any standard file import.
 
 See also: [Importing From Sketchup](Importing_From_Sketchup.md)
 
@@ -156,7 +156,7 @@ Todo
 
 ### GL Transmission Format gITF 
 
--   [glTF](glTF.md)
+-   [glTF](GlTF.md)
 
 ### IGES Format 
 

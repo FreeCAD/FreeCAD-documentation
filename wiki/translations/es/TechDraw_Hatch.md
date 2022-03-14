@@ -11,7 +11,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 La herramienta Achurado rellena una región cerrada en una Vista con un patrón de achurado, que pueden ser archivos [SVG](SVG/es.md) o [bitmap](bitmap/es.md). Por el contrario el <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Achurado geométrico](TechDraw_GeometricHatch/es.md) utiliza un archivo de patrones PAT específico, vea [Achurado](TechDraw_Hatching/es.md) para más detalles.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
@@ -21,10 +27,16 @@ La herramienta Achurado rellena una región cerrada en una Vista con un patrón 
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Seleccione una región cerrada en una Vista.
 2.  Pulse el **<img src="images/TechDraw_Hatch.svg" width=16px> [Achurar un plano usando un archivo de imagen](TechDraw_Hatch/es.md)
 **
 3.  Se abrirá un diálogo en el que podrá seleccionar el archivo de patrón, la escala y el color.
+
+
+</div>
 
 ## Notas
 

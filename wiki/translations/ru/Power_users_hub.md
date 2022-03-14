@@ -29,12 +29,18 @@ FreeCAD расширяем с помощью кода [Python](Python/ru.md), к
 
 ### Основы
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Введение в Python](Introduction_to_Python/ru.md)- Смотрите также другие руководства по Python в нижней части этой страницы
 -   [Учебник скриптов FreeCAD](Python_scripting_tutorial.md) - Общий взгляд на написание скриптов на python в FreeCAD
 -   [Основы написания сценариев для FreeCAD](FreeCAD_Scripting_Basics/ru.md): Что сказать, основы \...
 -   [Команды графического интерфейса](Gui_Command/ru.md) : Добавление пользовательских команд в графический интерфейс
 -   Использование смешанных [Единиц измерения](Units/ru.md) в FreeCAD
 -   [Профилирование](Profiling/ru.md) кода Python
+
+
+</div>
 
 ### Модули
 

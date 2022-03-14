@@ -28,7 +28,7 @@
 ## Usage
 
 1.  Select one sketch or face to be padded. <small>(v0.20)</small> : Alternatively you can select several sketches or faces.
-2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> '''Pad'''** button.
+2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> [Pad](PartDesign_Pad.md)** button.
 3.  Set the Pad parameters, see the [Options](#Options.md) below.
 4.  Click **OK**.
 

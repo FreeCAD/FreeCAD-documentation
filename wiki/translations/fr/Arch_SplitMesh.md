@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Arch SplitMesh
-   Name/fr:Arch Séparer un objet Mesh
-   MenuLocation:Arch → Utilitaires → Diviser une maille
+   Name/fr:Arch Diviser un maillage
+   MenuLocation:Arch → Utilitaires → Diviser un maillage
    Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Sélection de maillages non-manifold](Arch_SelectNonSolidMeshes/fr.md), [Arch Maillage vers un objet shape](Arch_MeshToShape/fr.md)
 ---
@@ -16,16 +16,16 @@ Cet outil sépare les composants d\'un objet [Mesh](Mesh_Workbench/fr.md) sélec
 ## Utilisation
 
 1.  Sélectionnez un objet mesh.
-2.  Cliquez sur le bouton **<img src="images/Arch_SplitMesh.svg" width=16px>  [Diviser une maille](Arch_SplitMesh/fr.md)** dans **Arch → Utilitaires → Diviser une maille**.
+2.  Cliquez sur le bouton **<img src="images/Arch_SplitMesh.svg" width=16px>  [Diviser un maillage](Arch_SplitMesh/fr.md)** dans **Arch → Utilitaires → Diviser un maillage**.
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi:**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Séparer un objet Mesh est utilisable dans une [macro](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
+L\'outil Séparer un objet Mesh est utilisable dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 
 ```python
@@ -57,6 +57,14 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 
 new_list = Arch.splitMesh(mesh_obj)
 ```
+
+
+
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

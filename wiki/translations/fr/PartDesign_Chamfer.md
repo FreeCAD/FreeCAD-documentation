@@ -44,6 +44,7 @@ Cet outil crée des chanfreins sur les arêtes sélectionnées d\'un objet. Une 
 ## Remarques
 
 -   Le PartDesign Chanfrein ne doit pas être confondu avec le [Part Chanfrein](Part_Chamfer/fr.md). À moins que vous ne sachiez ce que vous faites, [Part Chanfrein](Part_Chamfer/fr.md) ne doit pas être utilisé sur un corps PartDesign. Voir [Part et PartDesign](Part_and_PartDesign/fr.md).
+-   Les chanfreins ne peuvent pas entièrement épouser les faces adjacentes.
 
 ## Problèmes connus 
 

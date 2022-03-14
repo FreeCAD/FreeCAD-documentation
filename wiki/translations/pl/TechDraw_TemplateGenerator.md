@@ -61,14 +61,13 @@ The Body starts with an opening tag which contains information about name spaces
 
 :   **xmlns=**\"<http://www.w3.org/2000/svg>\": External link to the xml name space to look up standard xml commands
 :   **version=**\"1.1\": Used xml version is 1.1
-:   **xmlns:freecad=**\"[Svg Namespace](https://wiki.freecadweb.org/index.php?title=Svg_Namespace)\": External link to FreeCAD\'s name space extension
-
-    :   to look up special commands that are only used inside a FreeCAD environment e.g. for editable texts
+:   **xmlns:freecad=**\"[Svg Namespace](https://wiki.freecadweb.org/index.php?title=Svg_Namespace)\": External link to FreeCAD\'s name space extension to look up special commands that are only used inside a FreeCAD environment e.g. for editable texts.
+:   \"freecad:\" will be prefixed to attribute names to have them handled by said special commands.
 :   **width=**\"420mm\": Width of the drawing area
 :   **height=**\"297mm\": Height of the drawing area
 :   **viewBox=**\"0 0 420 297\": Position of the upper left corner (0;0) and the lower right corner (420;297) in the svg construction space (in svg units).
 :   Width, height, and viewBox in this combination set 1 svg-unit to 1 mm for the whole document. A dimensional unit can be omitted from now on.
-:   In this case 420 and 297 give an A3 page. Customise these values to generate other page sizes
+:   In this case 420 and 297 give an A3 page. Customise these values to generate other page sizes.
 
 For a blank page size DIN A3 in landscape orientation that\'s all.
 

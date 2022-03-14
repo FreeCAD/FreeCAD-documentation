@@ -9,6 +9,9 @@
 
 # Arch Nest/de
 
+
+</div>
+
 ## Beschreibung
 
 Das **<img src="images/Arch_Nest.svg" width=16px> [Arch Verschachteln](Arch_Nest/de.md)** Werkzeug ermöglicht die Auswahl einer flachen Form als Behälter und einer Reihe anderer flacher Formen, die innerhalb des durch die Behälterform definierten Raums organisiert werden sollen. Dies ist in der Regel für CNC Bearbeitungen erforderlich, bei denen du eine Reihe von Teilen aus einer Grundplatte ausschneiden möchtest und diese Teile so kompakt wie möglich organisieren musst, damit sie weniger Platz auf der Platte einnehmen.
@@ -40,6 +43,15 @@ Der Algorithmus hinter dem Verschachtelungswerkzeug befindet sich in ständiger 
 -   Im Moment muss der Behälter rechteckig sein.
 -   Im Moment ist der Rand/Abstand zwischen den Teilen noch nicht implementiert.
 -   Die Berechnung kann bei vielen Objekten sehr viel Zeit in Anspruch nehmen. Das wird in Zukunft optimiert werden.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

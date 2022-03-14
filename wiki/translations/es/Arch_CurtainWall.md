@@ -22,13 +22,25 @@ Esta herramienta crea un [Muro cortina](https://es.wikipedia.org/wiki/Muro_corti
 
 Los Muros Cortina pueden ser creados a partir de cualquier tipo de objeto existente, en cuyo caso todas las caras del objeto serán subdivididas. Por lo tanto, funciona mejor si se utiliza con un objeto que sólo tiene una cara. Por lo general, primero debe crear una cara, preferiblemente delimitada por exactamente 4 aristas, que represente el área que desea rellenar con un muro cortina, y luego aplicar la herramienta.
 
+
+<div class="mw-translate-fuzzy">
+
 Los muros cortina también pueden construirse a partir de un objeto lineal, como una línea, un arco o una polilínea, como la herramienta normal [muro](Arch_Wall/es.md).
+
+
+</div>
 
 Las caras que tienen doble curvatura, o las caras con más de 4 aristas también funcionarán, pero el resultado es menos predecible.
 
 Las caras se dividirán en facetas cuadrangulares. Si los 4 puntos de la faceta son coplanares, se crea una faceta cuadrada. Si no, se divide en dos triángulos y se añade un parteluz diagonal.
 
+
+<div class="mw-translate-fuzzy">
+
 En caso de que necesites una subdivisión no regular, también es posible construir tu propio objeto subdividido, por ejemplo usando [Arch Grid/es](Arch_Grid/es.md), y establecer las subdivisiones verticales y horizontales del muro cortina a 1.
+
+
+</div>
 
 También puede utilizar la herramienta de muro cortina sin ningún objeto seleccionado, en cuyo caso podrá dibujar una línea de base, que será extruida verticalmente para formar la cara sobre la que se construirá el muro cortina.
 
@@ -37,7 +49,7 @@ También puede utilizar la herramienta de muro cortina sin ningún objeto selecc
 ### Dibujar un muro cortina desde cero 
 
 1.  Make sure nothing is selected
-2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall]]** button, or press **C** then **W** keys.
+2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press **C** then **W** keys.
 3.  Click a first point on the 3D view, or type coordinates.
 4.  Click a second point on the 3D view, or type coordinates.
 5.  Adjust needed properties.
@@ -45,7 +57,7 @@ También puede utilizar la herramienta de muro cortina sin ningún objeto selecc
 ### Creating a curtain wall from a selected object 
 
 1.  Select one or more base geometry objects (Draft object, sketch, etc).
-2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall]]** button, or press the **C** then **W** keys.
+2.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press the **C** then **W** keys.
 3.  Adjust needed properties.
 
 ## Opciones
@@ -115,7 +127,7 @@ The procedure described below creates a wall and a curtain wall based on a same 
 
 1.  Create a normal [Arch Wall](Arch_Wall.md), either by clicking two points of from an existing linear object
 2.  Select the base object of the newly created arch wall
-3.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall]]** button, or press the **C** then **W** keys to create a curtain wall from the same baseline as the wall
+3.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press the **C** then **W** keys to create a curtain wall from the same baseline as the wall
 4.  Make sure both the wall and curtain wall have the same **Height**
 5.  Set the number of **horizontal sections** of the curtain wall to zero if you wish only vertical frames
 6.  Set the desired **horizontal mullion width** and **horizontal mullion height** (or use a mullion profile)
@@ -131,7 +143,7 @@ The procedure described below creates a wall and a curtain wall based on a same 
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Curtain wall tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Curtain wall tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 MyCurtainWall = makeCurtainWall(baseobj)
 ```
@@ -153,6 +165,15 @@ curtainwall = Arch.makeCurtainWall(baseface)
 curtainWall.VerticalSections = 6
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

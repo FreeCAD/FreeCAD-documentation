@@ -35,6 +35,9 @@ Korzystanie ze skrótów klawiaturowych to ważna wskazówka dotycząca oszczęd
 
 ## Naprawa problemów z tłumaczeniem 
 
+
+<div class="mw-translate-fuzzy">
+
 Jeśli zauważysz ciąg znaków w interfejsie użytkownika FreeCAD, który nie jest przetłumaczony, wykonaj następujące czynności:
 
 1.  Jeśli nie jesteś pewien, do którego środowiska pracy należy ciąg znaków, najpierw zlokalizuj go w kodzie źródłowym programu FreeCAD. W systemie Linux możesz użyć {{Incode|grep -r "English text" *}}.
@@ -50,6 +53,9 @@ Jeśli zauważysz ciąg znaków w interfejsie użytkownika FreeCAD, który nie j
             1.  Sprawdź w pliku źródłowym, czy oryginalny ciąg znaków jest obsługiwany przez {{Incode|translate()}} lub {{Incode|QT_TRANSLATE_NOOP()}}.
             2.  Sprawdź, czy kontekst pasuje do tego, co jest na Crowdinie.
             3.  W przypadku {{Incode|QT_TRANSLATE_NOOP()}} istnieje kilka szczególnych przypadków. Dla poleceń, kontekstem musi być dokładna nazwa polecenia, taka sama jak użyta w {{Incode|FreeCADGui.runCommand()}}. Dla właściwości musi to być {{Incode|"App::Property"}}. Dla nazw menu i pasków narzędzi musi to być {{Incode|"Workbench"}}.
+
+
+</div>
 
 ## Odnośniki internetowe 
 

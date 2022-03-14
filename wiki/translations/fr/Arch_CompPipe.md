@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Arch CompPipe
+   Name/fr:Arch Outils tuyauteries
    MenuLocation:Arch → Outils tuyauteries
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
@@ -11,10 +12,13 @@
 
 ## Description
 
+Groupement de plusieurs outils en relation avec la tuyauterie.
+
 ## Types
 
--   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Tuyauterie](Arch_Pipe/fr.md): Crée un tuyau {{Version/fr|0.17}}
--   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connecteur](Arch_PipeConnector/fr.md): Crée un raccord à angle droit ou en té entre 2 ou 3 tuyaux sélectionnés. {{Version/fr|0.17}}
+-   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Tuyau](Arch_Pipe/fr.md) : Crée un tuyau.
+
+-   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connecteur](Arch_PipeConnector/fr.md) : Crée un angle ou une connexion en T entre 2 ou 3 tuyaux sélectionnés.
 
 
 

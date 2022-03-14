@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch CloneComponent
-   MenuLocation:Arch → Utilities → Clone Component‎‏‎
+   MenuLocation:Arch → Utilities → Clone component‎‏‎
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**C** **C‏‎**
    SeeAlso:[Draft Clone](Draft_Clone.md), [Arch Component](Arch_Component.md)

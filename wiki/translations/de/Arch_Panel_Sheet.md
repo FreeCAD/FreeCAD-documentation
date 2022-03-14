@@ -10,9 +10,18 @@
 
 # Arch Panel Sheet/de
 
+
+</div>
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich einer beliebigen Anzahl von [Arch Tafelschnitt](Arch_Panel_Cut/de.md) Objekten, oder jedes andere 2D Objekt, wie z.B. diejenigen, die mit [Entwurf Arbeitsbereich](Draft_Workbench/de.md) und [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) erstellt wurden. Das Tafelblech wird in der Regel für Layout Schnitte erstellt, die von einer CNC Maschine ausgeführt werden sollen. Diese Blätter können dann in eine [DXF](Draft_DXF/de.md) Datei exportiert werden.
+
+
+</div>
 
 <img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
 
@@ -22,8 +31,14 @@ Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich eine
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Optional wähle ein oder mehrere [Arch Tafel Schnitt](Arch_Panel_Cut/de.md)-Objekte oder jedes andere 2D-Objekt, das auf der XY-Ebene liegt.
 2.  Drücke die **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Arch Tafel Platte](Arch_Panel_Sheet/de.md)**-Schaltfläche oder drücke die Tasten **P**, dann **S**.
+
+
+</div>
 
 ## Optionen
 
@@ -102,7 +117,13 @@ Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich eine
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Das Tafelblechwerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
+
+
+</div>
 
 
 ```python

@@ -254,6 +254,11 @@ The Base Feature is entirely optional; it is only present when including an obje
 *Left: PartDesign Body with a Base Feature that is taken from an external solid object, and many subsequent [PartDesign Features](PartDesign_Feature.md) on top. Right: Body which doesn't have an explicit Base Feature.*
 
 
+**Note:**
+
+If another PartDesign body is selected as a BaseFeature it must have a shape. If it is empty (no features, no BaseFeature, \...) this will result in error.
+
+
 <div class="mw-translate-fuzzy">
 
 ### İpucu

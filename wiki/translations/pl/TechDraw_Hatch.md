@@ -11,7 +11,13 @@
 
 ## Opis
 
+
+<div class="mw-translate-fuzzy">
+
 Narzędzie **Hatch** wypełnia zamknięty obszar w widoku wzorcem kreskowania, którym mogą być pliki [SVG](SVG.md) lub [bitmap](bitmap.md). W odróżnieniu od tego, narzędzie <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [kreskowanie geometryczne](TechDraw_GeometricHatch/pl.md) wykorzystuje konkretny plik wzoru PAT, szczegółowe informacje znajdują się na stronie [kreskowanie](TechDraw_Hatching/pl.md).
+
+
+</div>
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
@@ -21,9 +27,15 @@ Narzędzie **Hatch** wypełnia zamknięty obszar w widoku wzorcem kreskowania, k
 
 ## Użycie
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wybierz zamknięty obszar w widoku.
 2.  Naciśnij przycisk **<img src="images/TechDraw_Hatch.svg" width=16px> [Kreskowanie powierzchni za pomocą pliku obrazu](TechDraw_Hatch.md)**.
 3.  Otworzy się okno dialogowe, w którym można wybrać plik wzoru, skalę i kolor.
+
+
+</div>
 
 ## Uwagi
 

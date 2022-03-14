@@ -112,7 +112,7 @@ Domyślnie przyjmuje wartość {{false/pl}}. Przy ustawieniu tej opcji na warto�
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_ navi
 
 }}
 

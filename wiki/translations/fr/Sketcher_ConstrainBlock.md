@@ -28,7 +28,7 @@ Ou appuyez d\'abord sur le bouton, puis sélectionnez les éléments.
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Block', Edge))```
 
-La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Edge` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Edge` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
 

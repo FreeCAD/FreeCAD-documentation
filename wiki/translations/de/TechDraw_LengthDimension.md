@@ -1,42 +1,27 @@
 ---
 - GuiCommand:/de
    Name:TechDraw Dimension Length
-   Name/de:TechDraw Längenbemaßung
+   Name/de:TechDraw Längenmaß
    MenuLocation:TechDraw → Bemaßungen → Längenmaß einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Bemaßung Horizontal](TechDraw_HorizontalDimension/de.md), [TechDraw Bemaßung Vertikal](TechDraw_VerticalDimension/de.md)
+   SeeAlso:[TechDraw MaßHorizontal](TechDraw_HorizontalDimension/de.md), [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md)
 ---
 
 # TechDraw LengthDimension/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug »Längenbemaßung« fügt ein lineares Maß in einer Ansicht hinzu. Das Längenmaß kann der Abstand zwischen zwei Ecken, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), aber dieser kann unter Verwendung des **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Bemaßungen verlinken](TechDraw_LinkDimension/de.md)**-Werkzeugs zum eigentlichen 3D-Abstand geändert werden.
-
-
-</div>
+Das Werkzeug Längenmaß fügt einer Ansicht ein lineares Maß hinzu. Das Längenmaß kann der Abstand zwischen zwei Eckpunkten, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), kann aber unter Verwendung des Werkzeugs **<img src="images/TechDraw_LinkDimension.svg" width=16px> [MaßVerknüpfen](TechDraw_LinkDimension/de.md)** auf den eigentlichen 3D-Abstand geändert werden.
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Längenbemaßung zweier beliebiger Knoten der Ansicht*
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle die Punkte oder die Kante, die deine Messung definieren.
-2.  Drücke die **<img src="images/TechDraw_LengthDimension.svg" width=20px> [Bemaßung Länge](TechDraw_LengthDimension/de.md)** Schaltfläche
-3.  Eine Bemaßung wird der Ansicht hinzugefügt. Die Bemaßung kann an die gewünschte Position gezogen werden.
-4.  Falls erforderlich, füge Toleranzen, wie in [diese Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzu.
-
-
-</div>
+1.  Die Punkte oder die Kante auswählen, die die Messung definieren.
+2.  Die Schaltfläche **<img src="images/TechDraw_LengthDimension.svg" width=20px> [Längenmaß einfügen](TechDraw_LengthDimension/de.md)** drücken.
+3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
+4.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
 
 Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der Bemaßungsdialog geöffnet.
 
@@ -58,13 +43,13 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 ### Formatierung
 
--   **Formatspezifizierer**: Wie der Bemaßungswert formatiert werden soll. Standardspezifizierer ist*%.xf*, wobei *x* die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax unter [printf format string](https://en.wikipedia.org/wiki/Printf_format_string) (engl.).
+-   **Formatspezifizierer**: Wie die Maßzahl formatiert werden soll. Standardspezifizierer ist {{Value|%.xf}}, wobei {{Value|x}} die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax findet man unter [printf format string](https://en.wikipedia.org/wiki/Printf_format_string) (engl.). Es gibt noch ein zusätzliches {{Value|%w}} Format, das die festgelegte Anzahl von Ziffern nach dem Dezimaltrennzeichen ausgibt und die am Ende stehenden Nullen entfernt. Zum Beispiel heißt {{Value|%.2w}}, dass höchstens 2 Dezimalstellen ausgegeben und alle Nullen am Ende abgeschnitten werden.
 
 -   **Beliebiger Text**: Falls aktiviert, wird die Bemaßung durch den Inhalt des **Formatspezifizierer**-Feldes ersetzt.
 
--   **Übertoleranz Formatspezifizierer**: Wie der Übertoleranzbemaßungswert formatiert werden soll. Standardspezifizierer ist*%.xf*, wobei *x* die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax unter [printf format string](https://en.wikipedia.org/wiki/Printf_format_string) (engl.).
+-   **Formatspezifizierer für das obere Abmaß**: Wie das obere Abmaß formatiert werden soll. Standardspezifizierer ist {{Value|%.xf}}, wobei {{Value|x}} die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax findet man unter [printf format string](https://en.wikipedia.org/wiki/Printf_format_string) (engl.).
 
--   **Untertoleranz Formatspezifizierer**: Wie der Untertoleranzbemaßungswert formatiert werden soll. Standardspezifizierer ist*%.xf*, wobei *x* die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax unter [printf format string](https://en.wikipedia.org/wiki/Printf_format_string) (engl.).
+-   **Formatspezifizierer für das untere Abmaß**: Wie das untere Abmaß formatiert werden soll. Standardspezifizierer ist {{Value|%.xf}}, wobei {{Value|x}} die Anzahl der Dezimalstellen angibt. Details zur Formatierungssyntax findet man unter [printf format string](https://en.wikipedia.org/wiki/Printf_format_string) (engl.).
 
 -   **Beliebiger Toleranztext**: Falls aktiviert, werden die Toleranzen durch den Inhalt der **Übertoleranz Formatspezifizierer**- und **Untertoleranz Formatspezifizierer**-Felder ersetzt.
 
@@ -78,40 +63,32 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 -   **Zeichnungsstil**: Gibt den Standard (und dessen Stil) an, nach dem die Bemaßung gezeichnet wird. Siehe die Eigenschaft [**Standard und Stil**](#View.md) für Einzelheiten.
 
-### Lines
+### Linien
 
--   **Override Angles**: If checked, the usual angles for the dimension line and extension lines will be overriden by the specified values.
+-   **Winkel überschreiben**: Wenn angehakt, werden die gewöhnlichen Winkel für Maßlinie und Maßhilfslinie durch die angegebenen Werte überschrieben.
 
--   **Dimension line angle**: Override value for angle of dimension line with view X axis (in degrees).
+-   **Maßlinienwinkel**: Vorgabewert für den Winkel zwischen Maßlinie und der X-Achse der Ansich (in Grad).
 
--   **Use default**: Set dimension line angle to the usual angle.
+-   **Standardwert verwenden**: Setzt den Maßlinienwinkel auf den üblichen Winkel.
 
--   **Use selection**: Set dimension line angle to match the angle of the selected edge (or 2 vertices) in the view.
+-   **Auswahl verwenden**: Setzt den Maßlinienwinkel entsprechend dem Winkel der ausgewählten Kante (oder der 2 Knotenpunkte) in der Ansicht.
 
--   **Extension line angle**: Override value for angle of extension lines with view X axis (in degrees).
+-   **Maßhilfslinienwinkel**: Vorgabewert für den Winkel zwischen Maßhilfslinie und der X-Achse der Ansicht (in Grad).
 
--   **Use default**: Set extension line angle to the usual angle.
+-   **Standardwert verwenden**: Setzt den Maßhilfslinienwinkel auf den üblichen Winkel.
 
--   **Use selection**: Set extension line angle to match the angle of the selected edge (or 2 vertices) in the view.
+-   **Auswahl verwenden**: Setzt den Maßhilfslinienwinkel entsprechend dem Winkel der ausgewählten Kante (oder der 2 Knotenpunkte) in der Ansicht.
 
 ## Eigenschaften
-
-### Data
-
-
-{{Properties_Title|Base}}
-
-
-<div class="mw-translate-fuzzy">
 
 ### Daten
 
 
 {{Properties_Title/de|Basis}}
 
--    {{PropertyData/de|X}}: Horizontale Position des Bemaßungstexts relativ zur Ansicht.
+-    {{PropertyData/de|X}}: Horizontale Position des Maßtexts relativ zur Ansicht.
 
--    {{PropertyData/de|Y}}: Vertikale Position des Bemaßungstexts relativ zur Ansicht.
+-    {{PropertyData/de|Y}}: Vertikale Position des Maßtexts relativ zur Ansicht.
 
 -    {{PropertyData/de|Typ}}: Länge, Radius, Durchmesser usw. Wird normalerweise vom Endanwender nicht geändert.
 
@@ -119,24 +96,24 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
 
 :   
 
-    :   *True* - basierend auf 3D-Geometrie
-    :   *Projected* - basierenf auf der Zeichung
+    :   True - basierend auf 3D-Geometrie
+    :   Projected - basierend auf der Zeichung
 
--    {{PropertyData/de|TheoretischExakt}}: Gibt eine theoretisch exakte (oder grundlegende) Abmessung an.
+-    {{PropertyData/de|TheoretischExakt}}: Gibt ein theoretisch genaues (oder grundlegende) Maß an.
 
 :   
 
     :   
         `False`
         
-        \- standardmäßig ein gemeinsames Maß, eventuell mit Toleranzen.
+        \- standardmäßig ein normales Maß, eventuell mit Toleranzen.
 
     :   
         `True`
         
         \- ein theoretischer Wert. Als solcher darf er keine Toleranzen aufweisen. Der Wert ist durch einen Rahmen um den Wert gekennzeichnet.
 
--    {{PropertyData/de|GleicheToleranz}}: Falls obere- und untere Toleranz gleich sind. Dann wird der negative Wert der oberen Toleranz als untere Toleranz benutzt
+-    {{PropertyData/de|GleicheToleranz}}: Falls oberes und unteres Abmaß gleich sind. Dann wird der negative Wert des oberen Abmaßes als unteres Abmaß benutzt
 
 :   
 
@@ -150,11 +127,11 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         
         \- der Wert von {{PropertyData/de|UntereToleranz}} wird benutzt. Die Anzeige zeigt <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
 
--    {{PropertyData/de|ObereToleranz}}: Der Betrag, um den die Abmessung größer sein könnte.
+-    {{PropertyData/de|ObereToleranz}}: Der Betrag, um den das Maß größer sein darf.
 
--    {{PropertyData/de|UntereToleranz}}: Der Betrag, um den Abmessung kleiner sein könnte.
+-    {{PropertyData/de|UntereToleranz}}: Der Betrag, um den das Maß kleiner sein darf.
 
--    {{PropertyData/de|Umgekehrt}}: Hebt hervor, ob die Bemaßung einen üblichen oder einen invertierten Wert darstellt.
+-    {{PropertyData/de|Umgekehrt}}: Hebt hervor, ob das Maß einen üblichen oder einen invertierten Wert darstellt.
 
 :   
 
@@ -169,22 +146,13 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
         \- der umgekehrte Wert wird verwendet. Für Länge eine negative Zahl, für Winkel der Reflexwert (180° - 360°).
 
 
-</div>
-
-
-{{Properties_Title|Format}}
-
-
-<div class="mw-translate-fuzzy">
-
-
 {{Properties_Title/de|Format}}
 
--    {{PropertyData/de|FormatAngabe}}: Wie die Bemaßung formatiert sein wird. Als Standard ist der Spezifizierer *%.xf*, wobei *x* die Anzahl der Dezimalstellen ist. Für die Formatierungssyntax siehe [printf](https://en.wikipedia.org/wiki/Printf_format_string).
+-    {{PropertyData/de|FormatAngabe}}: Wie die Bemaßung formatiert sein wird. Siehe [Formatierung](#Formatierung.md).
 
--    {{PropertyData/de|FormatAngabeObereToleranz}}: Wie {{PropertyData/de|FormatAngabe}}, aber für Übertoleranzen.
+-    {{PropertyData/de|FormatAngabeObereToleranz}}: Wie {{PropertyData/de|FormatAngabe}}, aber für obere Abmaße.
 
--    {{PropertyData/de|FormatAngabeUntereToleranz}}: Wie {{PropertyData/de|FormatAngabe}}, aber für Untertoleranzen.
+-    {{PropertyData/de|FormatAngabeUntereToleranz}}: Wie {{PropertyData/de|FormatAngabe}}, aber für untere Abmaße.
 
 -    {{PropertyData/de|frei wählbar}}: Gibt an, ob **FormatAngabe** als Vorlage oder als aktueller Text behandelt werden soll.
 
@@ -193,116 +161,110 @@ Der Bemaßungsdialog bietet die folgenden Einstellungen:
     :   
         `False`
         
-        \- ersetze die Formatangabe durch den tatsächlichen Dimensionswert.
+        \- der Inhalt von **Format Spec** wird zur Formatierung der Maßzahl verwendet.
 
     :   
         `True`
         
-        \- ignoriere den Bemaßungwert und zeige genau **FormatAngabe** an.
+        \- der Inhalt von **Format Spec** wird anstatt der Maßzahl als Text angezeigt.
 
 -    {{PropertyData/de|frei wählbare Toleranzen}}: Wie {{PropertyData/de|frei wählbar}}, aber für die Toleranz.
-
-
-</div>
-
-
-{{Properties_Title|Override}}
-
--    **AngleOverride**: Whether the direction of dimension and extension lines is overridden.
 
 :   
 
     :   
         `False`
         
-        \- the directions are computed as usual.
+        \- the content of the **Format Spec** is used to format the actual dimensional value.
 
     :   
         `True`
         
-        \- the directions are overridden by LineAngle and ExtensionAngle property values.
+        \- the content of the **Format Spec** will be displayed as text instead if the dimension value.
 
--    **LineAngle**: angle of dimension line with view X axis (in degrees).
-
--    **ExtensionAngle**: angle of extension line(s) with view X axis (in degrees).
-
-### View
+-    **Arbitrary Tolerances**: Like **Arbitrary**, but for the tolerance.
 
 
-{{Properties_Title|Base}}
+{{Properties_Title/de|Override}}
 
+-    {{PropertyData/de|AngleOverride}}: Ob die Richtung der Maßlinien und Maßhilfslinien überschrieben wird.
 
-<div class="mw-translate-fuzzy">
+:   
+
+    :   
+        `False`
+        
+        \- die Richtungen werden wie üblich berechnet.
+
+    :   
+        `True`
+        
+        \- die Richtungen werden mit den Werten der Eigenschaften LineAngle und ExtensionAngle überschrieben.
+
+-    {{PropertyData/de|LineAngle}}: Winkel zwischen Maßlinie und der X-Achse der Ansicht (in Grad).
+
+-    {{PropertyData/de|ExtensionAngle}}: Winkel zwischen Maßlinie(n) und der X-Achse der Ansicht (in Grad).
 
 ### Ansicht
 
 
-{{Properties_Title|Basis}}
+{{Properties_Title/de|Basis}}
 
--    {{PropertyView/de|Sichtbarkeit}}: Setzt, ob die Dimension sichtbar ist. `True` - sichtbar, `False` - versteckt.
+-    {{PropertyView/de|Sichtbarkeit}}: Setzt, ob das Maß sichtbar ist. `True` - sichtbar, `False` - versteckt.
 
 
-{{Properties_Title|Dim Format}}
+{{Properties_Title/de|Dim Format}}
 
--    {{PropertyView/de|Schriftart}}: Der Name der Schriftart, die für den Bemaßungstext verwendet werden soll.
+-    {{PropertyView/de|Schriftart}}: Der Name der Schriftart, die für den Maßtext verwendet werden soll.
 
--    {{PropertyView/de|Schriftgröße}}: Größe des Bemaßungstextes.
+-    {{PropertyView/de|Schriftgröße}}: Höhe des Maßtextes.
 
--    {{PropertyView/de|Linienbreite}}: Bemaßungslinienstärke.
+-    {{PropertyView/de|Linienbreite}}: Maßlinienstärke.
 
 -    {{PropertyView/de|Farbe}}: Farbe für Linien und Text.
 
--    {{PropertyView/de|Standard und Stil}}: Gibt den Standard (und dessen Stil) an, nach dem die Bemaßung gezeichnet wird:
+-    {{PropertyView/de|Standard und Stil}}: Gibt die Norm (und deren Ausführungsart) an, nach der die Bemaßung gezeichnet wird:
 
 <img alt="Unterschiede zwischen den unterstützten Standards" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
 
 :   
 
-    :   ISO Orientiert - gezeichnet gemäß Standard ISO 129-1, Text wird so gedreht, dass er parallel zur Tangente der Bemaßungslinie liegt.
+    :   ISO Orientiert - gezeichnet gemäß Standard ISO 129-1, Text wird so gedreht, dass er parallel zur Tangente der Maßlinie liegt.
     :   ISO Referenzierung - gezeichnet in Übereinstimmung mit ISO 129-1, der Text ist immer horizontal, über der kürzest möglichen Referenzlinie.
-    :   ASME Innenliegend - gezeichnet gemäß Standard ASME Y14.5M, der Text ist horizontal, in einem Bruch innerhalb der Maßlinie oder des Bogens eingefügt.
+    :   ASME Innenliegend - gezeichnet gemäß Standard ASME Y14.5M, der Text ist horizontal, in einem Ausbruch innerhalb der Maßlinie oder des Bogens eingefügt.
     :   ASME Referenzierung - gezeichnet in Übereinstimmung mit ASME Y14.5M, der Text ist horizontal, eine kurze Referenzlinie ist an der vertikalen Mitte einer Seite angebracht.
 
 -    {{PropertyView/de|Rendering Extent}}: Eher universelle Eigenschaft, die angibt, wie viel Platz die Maßzeichnung einnehmen darf:
 
 :   
 
-    :   None - es werden keine Linien oder Pfeile gezeichnet, sondern nur der nackte Bemaßungswert angezeigt.
-    :   Minimal - für Längen und Winkel wird eine einzelne Kopflinie gezeichnet, die den Bemaßungswert mit der *virtuellen Verlängerungslinie* des Endpunktes verbindet. Die Verlängerungslinie selbst wird nicht hinzugefügt.
+    :   None - es werden keine Linien oder Pfeile gezeichnet, sondern nur die nackte Maßzahl angezeigt.
+    :   Minimal - für Längen und Winkel wird eine einzelne Kopflinie gezeichnet, die die Maßzahl mit der *virtuellen Verlängerungslinie* des Endpunktes verbindet. Die Verlängerungslinie selbst wird nicht hinzugefügt.
     :   Durchmesser werden nach Begrenzt Umfang, Radien nach Reduziert Umfang gerendert.
     :   Eingegrenzt - für Längen und Winkel wird eine doppelte Linie (oder ein Bogen) gezeichnet, die die *virtuellen Verlängerungslinien* des Start- und Endpunktes verbindet, wobei die Verlängerungslinien selbst nicht hinzugefügt werden.
     :   Durchmesser werden mit einer minimalen einteiligen Linie vom Bemaßungswert zum nächsten Punkt auf dem Kreis gezeichnet, Radien wie bei ReduziertUmfang.
     :   Normal - der Standardwert. Für Längen und Winkel wird eine doppelseitige Linie (oder ein Bogen) gezeichnet, die die *Verlängerungslinien* des Start- und Endpunktes verbindet, die Verlängerungslinien selbst ebenfalls.
     :   Durchmesser werden als doppelseitige Linien gezeichnet, die den Mittelpunkt treffen und den nächsten und den entferntesten Punkt auf dem Kreis verbinden.
     :   Radien werden als einseitige Linie vom Mittelpunkt zum nächsten Kreisbogenpunkt gezeichnet.
-    :   Erweitert - Nur Durchmesser unterstützen diesen Wert, so dass sie horizontal oder vertikal längenähnlich dargestellt werden. Andere Bemaßungstypen werden wie bei Normal Ausdehnung dargestellt.
+    :   Erweitert - Nur Durchmesser unterstützen diesen Wert, so dass sie horizontal oder vertikal längenähnlich dargestellt werden. Andere Maßtypen werden wie bei Normal Ausdehnung dargestellt.
 
--    {{PropertyView/de|Pfeilspitzen kippen}}: Standardmäßig bedeutet der Wert *innerhalb* der Dimensionslinie/des Bogens die Pfeile, die *nach außen* zeigen. Wird der Wert *außerhalb* der Bemaßungslinie/des Bogens platziert, zeigen die Pfeile der Bemaßungslinie/des Bogens *nach innen*.
+-    {{PropertyView/de|Pfeilspitzen kippen}}: Standardmäßig bedeutet der Wert *innerhalb* der Maßlinie/des Bogens die Pfeile, die *nach außen* zeigen. Wird der Wert *außerhalb* der Maßlinie/des Bogens platziert, zeigen die Pfeile der Maßlinie/des Bogens *nach innen*.
 
 :   
 
     :   
         `False`
         
-        \- Lasse die Richtung der Pfeile automatisch nach der obigen Regel wählen.
+        \- Wählt die Richtung der Pfeile automatisch nach der obigen Regel aus.
 
     :   
         `True`
         
         \- Außer Kraft setzen der automatisch gewählten Richtung und erzwingen der entgegengesetzten Richtung.
 
-
-</div>
-
 ## Begrenzungen
 
-
-<div class="mw-translate-fuzzy">
-
-Bemaßungsobjekte sind anfällig für das \"[topologisches Benennungsproblem](topological_naming_problem/de.md)\". Das bedeutet, dass bei einer Änderung der 3D Geometrie die Flächen und Kanten des Modells intern umbenannt werden können; wenn eine Bemaßung an eine Kante angehängt wird, die dann geändert wird, kann die Bemaßung brechen. Im Allgemeinen ist es nicht möglich, die projizierten 2D Bemaßungen mit den tatsächlichen 3D Objekten synchronisiert zu halten.
-
-
-</div>
+Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Das bedeutet, dass bei einer Änderung der 3D Geometrie die Flächen und Kanten des Modells intern umbenannt werden können; wenn ein Maß an eine Kante angehängt wird, die dann geändert wird, kann das Maß brechen. Im Allgemeinen ist es nicht möglich, die projizierten 2D-Bemaßungen mit den tatsächlichen 3D-Objekten synchronisiert zu halten.
 
 Es wird daher empfohlen, Bemaßungen hinzuzufügen, wenn das 3D Modell nicht mehr verändert wird.
 
@@ -314,13 +276,7 @@ Wenn du eine TechDraw Ansicht mit Bemaßungen behalten möchtest, die nicht brec
 -   Wähle diese Kopie aus, verwende dann [TechDraw Ansicht](TechDraw_View/de.md) und füge die gewünschten Bemaßungen hinzu.
 -   Wenn das ursprüngliche 3D Modell geändert wird, wirken sich die Änderungen weder auf die einfache Kopie noch auf die Bemaßungen in der TechDraw Ansicht aus.
 
-
-<div class="mw-translate-fuzzy">
-
-Siehe [Leitbemaßungen](TechDraw_LandmarkDimension/de.md) für einen weiteren Ansatz zur Umgehung des topologischen Benennungsproblems.
-
-
-</div>
+Siehe [Leitbemaßungen](TechDraw_LandmarkDimension/de.md) für einen weiteren Ansatz zur Umgehung des Problems der topologischen Benennung.
 
 ## Skripten
 
@@ -329,13 +285,7 @@ Siehe [Leitbemaßungen](TechDraw_LandmarkDimension/de.md) für einen weiteren An
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug Längenbemaßung kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden:
-
-
-</div>
+Das Werkzeug Längenmaß kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python
@@ -352,13 +302,7 @@ rc = page.addView(dim1)
 -   **Mehrfache Objekte**\'. Ansichten können mehrere 3D Objekte als Quelle enthalten. Bemaßungen können auf die Geometrie von jedem Objekt in der Ansicht angewendet werden (z.B. von Objekt1.Vertex0 bis Objekt2.Vertex3).
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -116,7 +116,7 @@ Ces lignes seront les références pour positionner les cercles
 <img alt="" src=images/TBHS-13.JPG  style="width:800px;">
 
 -   Cliquez sur un cercle
--   Cliquez sur le bouton Contrainte **['''radiale'''](File:Constraint_Radius.png   32px]] [[Sketcher ConstrainRadius/fr.md)** et donnez la valeur de 1,5 mm.
+-   Cliquez sur <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [**Contrainte radiale**](Sketcher_ConstrainRadius/fr.md) et mettez la valeur à 1,5 mm.
 
 <img alt="" src=images/TBHS-14.JPG  style="width:800px;">
 
@@ -305,8 +305,8 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 <img alt="" src=images/TBHS2-15.JPG  style="width:800px;">
 
 -   Cliquez sur le cercle bleu de l\' hexagone
--   Cliquez sur le bouton **['''Rayon'''](File:Constraint_Radius.png   32px]] [[Sketcher ConstrainRadius/fr.md)**
--   Dans la boite de dialogue donner une valeur. Entrer 8mm, Cliquez sur **OK**.
+-   Cliquez sur <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [**Contrainte radiale**](Sketcher_ConstrainRadius/fr.md)
+-   Une boîte de dialogue vous invite à définir une dimension. Entrez 8mm, cliquez sur OK.
 
 <img alt="" src=images/TBHS2-16.JPG  style="width:800px;">
 
@@ -359,8 +359,8 @@ le dessin doit avoir passer au vert! <img alt="" src=images/TBHS2-7.JPG  style="
 <img alt="" src=images/TBHS2-24.JPG  style="width:800px;">
 
 -   Clquez sur le cercle
--   Cliquez sur le bouton **['''Rayon'''](File:Constraint_Radius.png   32px]] [[Sketcher ConstrainRadius/fr.md)**
--   Dans la boite de dialogue donner un rayon. Entrer 3.5 mm, cliquer **OK**.
+-   Cliquez sur <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [**Contrainte radiale**](Sketcher_ConstrainRadius/fr.md)
+-   Une boîte de dialogue vous invite à définir une dimension. Entrez 3,5 mm et cliquez sur OK.
 
 <img alt="" src=images/TBHS2-25.JPG  style="width:800px;">
 

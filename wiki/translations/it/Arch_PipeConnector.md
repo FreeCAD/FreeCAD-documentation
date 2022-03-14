@@ -16,7 +16,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento crea una connessione a angolo o un tee (raccordo) tra 2 o 3 [Tubi](Arch_Pipe/it.md) selezionati .
+
+
+</div>
 
 ## Uso
 
@@ -35,7 +41,18 @@ Questo strumento crea una connessione a angolo o un tee (raccordo) tra 2 o 3 [Tu
 
 ## Flusso di lavoro tipico 
 
+
+<div class="mw-translate-fuzzy">
+
 Vedere in [Tubo](Arch_Pipe/it.md) le informazioni per il flusso di lavoro sull\'uso dei tubi e la creazione di raccordi.
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -44,13 +61,30 @@ Vedere in [Tubo](Arch_Pipe/it.md) le informazioni per il flusso di lavoro sull\'
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Pipe Connector può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Pipe Connector può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+
+
+</div>
+
+
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 -   Crea un oggetto `Connector` dai `pipes` dati, che sono una lista di [Tubi](Arch_Pipe/it.md), e facoltativamente un `radius` di curvatura.
     -   Gli oggetti di base [Wire](Draft_Wire/it.md) dei [Tubi](Arch_Pipe/it.md) dovrebbero condividere un punto finale per creare un raccordo corretto e regolare.
+
+
+</div>
 
 Esempio: 
 ```python

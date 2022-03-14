@@ -10,16 +10,20 @@
 
 ## Description
 
-The GeometricHatch tool fills a closed region in a View with a pattern based on an AutoDesk PAT hatching specification. **Alternatively**, the [Hatch](TechDraw_Hatch.md) tool uses an [SVG](SVG.md) or [bitmap](bitmap.md) file as hatch pattern, see [Hatching](TechDraw_Hatching.md) for details.
+The <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> **TechDraw GeometricHatch** tool fills a closed region in a View with a pattern based on an AutoDesk PAT hatching specification. Alternatively the <img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> [TechDraw Hatch](TechDraw_Hatch.md) tool uses SVG based hatch patterns. See [Hatching](TechDraw_Hatching.md) for details.
 
  <img alt="" src=images/TechDraw_GeomHatch_example.png  style="width:300px;">  
 *Geometric hatch pattern on a face*
 
 ## Usage
 
-1.  Select an closed region in a View.
-2.  Press the **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md)** button
-3.  A dialog will open where you can select your pattern, the scale, line weight and color.
+1.  Select a closed region in a View.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md)** button.
+    -   Select the **TechDraw → <img src="images/TechDraw_GeometricHatch.svg" width=16px> Apply Geometric Hatch to Face** option from the menu.
+3.  The **Apply Geometric Hatch to Face** task panel opens.
+4.  Optionally change the **Pattern File**, the **Pattern Name**, the **Pattern Scale**, the **Line Weight** and the **Line Color**.
+5.  Press the **OK** button.
 
 ## Notes
 

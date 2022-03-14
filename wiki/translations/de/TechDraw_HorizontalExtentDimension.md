@@ -1,62 +1,35 @@
 ---
 - GuiCommand:/de
    Name:TechDraw Dimension Horizontal Extent
-   Name/de:TechDraw Bemaßung Horizontale Ausdehnung
+   Name/de:TechDraw MaßHorizontaleAusdehnung
    MenuLocation:TechDraw → Bemaßungen → Maß für die horizontale Ausdehnung einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
-   SeeAlso:[TechDraw Abmessung Länge](TechDraw_LengthDimension/de.md), [TechDraw Abmessung Vertikale Ausdehnung](TechDraw_VerticalExtentDimension/de.md)
+   SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßVertikaleAusdehnung](TechDraw_VerticalExtentDimension/de.md)
 ---
 
 # TechDraw HorizontalExtentDimension/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug \"Horizontale Ausdehnung Bemaßen\" fügt einer Ansicht eine lineare Bemaßung hinzu. Die Bemaßung erstreckt sich vom äußersten linken Punkt auf den ausgewählten Objekten bis zum äußersten rechten Punkt. An jedem Punkt wird ein KosmetischerKnoten platziert.
-
-
-</div>
+Das Werkzeug MaßHorizontaleAusdehnung fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom äußersten linken Punkt der ausgewählten Objekte bis zum äußersten rechten Punkt. An beiden Stellen wird ein Hilfspunkt gesetzt.
 
 <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
 *Horizontale Ausdehnung Bemaßen von BSpline Fläche*
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle eine Ansicht oder eine Sammlung von Kanten in einer Ansicht aus.
-2.  Drücke die **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Bemaßen Horizontale Ausdehnung](TechDraw_HorizontalExtentDimension/de.md)** Taste
-3.  Eine Bemaßung wird der Ansicht hinzugefügt. Die Bemaßung kann an die gewünschte Position gezogen werden.
-
-
-</div>
+1.  Eine Ansicht oder mehrere Kanten in einer Ansicht auswählen.
+2.  Die Schaltfläche **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Maß für die horizontale Ausdehnung einfügen](TechDraw_HorizontalExtentDimension/de.md)** drücken.
+3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
 
 ## Begrenzungen
 
-
-<div class="mw-translate-fuzzy">
-
-Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](topological_naming_problem/de.md)\" Probleme. Siehe die Informationen im **<img src="images/TechDraw_LengthDimension.svg" width=16px> [TechDraw Bemaßung Länge](TechDraw_LengthDimension/de.md)** Werkzeug für weitere Informationen.
-
-
-</div>
+Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md) für weitere Informationen.
 
 ## Eigenschaften
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Objekt hat die gleichen Eigenschaften wie das [TechDraw Bemaßung Länge](TechDraw_LengthDimension/de.md) Werkzeug. Siehe dieses Werkzeug für Einzelheiten. Ausnahmen vermerkt.
-
-
-</div>
+Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md). Ausnahmen sind weiter unten angegeben.
 
 ### Daten
 
@@ -69,13 +42,7 @@ Dieses Objekt hat die gleichen Eigenschaften wie das [TechDraw Bemaßung Länge]
 
 [TechDraw Anwendungsschnittstelle](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug Bemaßung Horizontale Ausdehnung kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole durch Anwendung der folgenden Funktion verwendet werden:
-
-
-</div>
+Das Werkzeug MaßHorizontaleAusdehnung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python
@@ -85,13 +52,7 @@ rc = page.addView(hExtentDim)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -11,16 +11,26 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент GeometricHatch заполняет замкнутый регион внутри вида шаблоном, базирующимся на спецификации AutoDesk PAT hatching. **В качестве альтернативы**, инструмент [Hatch](TechDraw_Hatch/ru.md) использует качестве рисунка штриховки файл в формате [SVG](SVG/ru.md) или [растровый](bitmap/ru.md), подробности см. в [Hatching](TechDraw_Hatching/ru.md).
+
+
+</div>
 
 <img alt="" src=images/TechDraw_GeomHatch_example.png  style="width:300px;"> 
 *Геометрический узор штриховки на грани*
 
 ## Применение
 
-1.  Select an closed region in a View.
-2.  Press the **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md)** button
-3.  A dialog will open where you can select your pattern, the scale, line weight and color.
+1.  Select a closed region in a View.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md)** button.
+    -   Select the **TechDraw → <img src="images/TechDraw_GeometricHatch.svg" width=16px> Apply Geometric Hatch to Face** option from the menu.
+3.  The **Apply Geometric Hatch to Face** task panel opens.
+4.  Optionally change the **Pattern File**, the **Pattern Name**, the **Pattern Scale**, the **Line Weight** and the **Line Color**.
+5.  Press the **OK** button.
 
 ## Примечания
 

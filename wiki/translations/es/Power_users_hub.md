@@ -27,12 +27,18 @@ Si quieres contribuir con contenido a estas páginas, solicita una cuenta wiki c
 
 ### General
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Introducción a Python](Introduction_to_Python/es.md) - Ver también otros tutoriales de Python en la parte inferior de esta página
 -   [Tutorial guionización en FreeCAD](Python_scripting_tutorial/es.md) - Una visión general a guionización Python en FreeCAD
 -   [Guionización básico en FreeCAD](FreeCAD_Scripting_Basics/es.md): Bien, lo básico\...
 -   [Comandos de la interfaz gráfica de usuario](Gui_Command/es.md) : Añadiendo comandos personalizados a la interfaz gráfica de usuario
 -   Utilizando [Unidades](Units/es.md) mezcladas en FreeCAD
 -   [Perfilando](Profiling/es.md) el código Python
+
+
+</div>
 
 ### Modulos
 

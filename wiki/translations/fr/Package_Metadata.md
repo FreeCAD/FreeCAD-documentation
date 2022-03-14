@@ -100,19 +100,38 @@ Les licences de logiciels libres les plus courantes sont décrites sur le [site 
 
 Les licences les plus utilisées :
 
--   Apache-2.0
--   BSD
--   Boost Software License
--   GPLv2
--   GPLv3
--   LGPLv2.1
--   LGPLv3
--   MIT
--   Mozilla Public License Version 1.1
+-    `"Apache-2.0"`
+    
+
+-    `"BSD"`
+    
+
+-    `"Boost Software License"`
+    
+
+-    `"GPLv2"`
+    
+
+-    `"GPLv3"`
+    
+
+-    `"LGPLv2.1"`
+    
+
+-    `"LGPLv3"`
+    
+
+-    `"MIT"`
+    
+
+-    `"Mozilla Public License Version 1.1"`
+    
+
+-    `"CC0v1"`(Public Domain dedication)
 
 #### Attributs 
 
--   file=\"FILE\" (facultatif) : Un chemin relatif au fichier package.xml contenant le texte complet de la licence. De nombreuses licences exigent l\'inclusion du texte de la licence lors de la redistribution du logiciel. Par exemple, la licence Apache, version 2.0, stipule au paragraphe 4.1 : \"Vous devez remettre à tout autre destinataire de l\'œuvre ou des œuvres dérivées une copie de la présente licence\".
+-    `file<nowiki>=</nowiki>"FILE"`(facultatif) : Un chemin relatif au fichier `package.xml` contenant le texte complet de la licence. De nombreuses licences exigent l\'inclusion du texte de la licence lors de la redistribution du logiciel. Par exemple, la licence Apache, version 2.0, stipule au paragraphe 4.1 : \"Vous devez remettre à tout autre destinataire de l\'œuvre ou des œuvres dérivées une copie de la présente licence\".
 
 ###  
 
@@ -124,9 +143,8 @@ La balise  décrit le contenu réel du paquet. Elle n\'a pas d\'attributs, et co
       <preferencepack>
         <name>Unicorn Sparkles Theme</name>
         <version>1.0.0</version>
-        <url type="readme">https://github.com/chennes/FreeCAD-themes/Unicorn%20Sparkles%20Theme/Readme.md</url>
+        <url type="readme">https://github.com/chennes/FreeCAD-themes/blob/main/Unicorn%20Sparkles%20Theme/Readme.md</url>
         <icon>sparkles.svg</icon>
-        <type>appearance</type>
       </preferencepack>
     </content>
 
@@ -139,7 +157,7 @@ L\'existence d\'éléments  implique un ensemble de sous-dossiers, un pour chaqu
         sparkles.svg
         (the theme's other files)
 
-Outre les autres éléments de , les éléments de contenu peuvent éventuellement fournir des informations dans les balises , ,  et  (techniquement, celles-ci peuvent également être fournies à la balise racine , mais elles y sont généralement inutilisées).
+Outre les autres éléments de , les éléments de contenu peuvent éventuellement fournir des informations dans les balises ,  et  (techniquement, celles-ci peuvent également être fournies à la balise racine , mais elles y sont généralement inutilisées).
 
 **Note de rétrocompatibilité** : pour éviter de devoir restructurer les paquets antérieurs à cette norme de métadonnées, la balise facultative [](#.3Csubdirectory.3E.md) est autorisée à spécifier \"./\" comme sous-répertoire pour un élément de contenu, auquel cas aucun sous-répertoire n\'est nécessaire. Cela correspond au système pré-standard où un seul poste de travail était situé au sommet de la structure des répertoires.
 
@@ -167,17 +185,13 @@ Optionnel.
 
 Fournis pour la convivialité d\'autres outils, un certain nombre d\'autres fichiers peuvent être répertoriés ici. Leur utilisation dépend du type de contenu. Dans un élément de contenu macro, chaque entrée de fichier est une macro unique et sera liée au répertoire d\'installation Macros de l\'utilisateur par le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-####  
-
-OBLIGATOIRE pour les kits de préférences, non pris en charge pour les autres éléments de contenu.
-
-Soit \"apparence\", \"comportement\" ou \"combinaison\" décrivant aux utilisateurs le type de changements qu\'ils peuvent attendre de ce kit de préférences.
-
 ###  
 
-Multiple autorisé
+Plusieurs autorisés : Le type \"repository\" est obligatoire, et le type \"readme\" est fortement recommandé.
 
-Un URL (Uniform Resource Locator) pour le site web du paquet, le gestionnaire de bogues, le dépôt de sources, le fichier readme ou la documentation. Pour les paquets installés via git, le dépôt est obligatoire. Il est fortement recommandé d\'inclure l\'URL \"readme\" : si le readme est spécifié et qu\'il s\'agit d\'un document en texte brut, HTML ou Markdown (comme indiqué par les extensions \*.txt, \*.html et \*.md, respectivement), le gestionnaire de modules complémentaires téléchargera, mettra en cache et affichera ce fichier et ses fichiers image associés.
+Un URL (Uniform Resource Locator) pour le site web du paquet, le système de suivi des bogues, le dépôt des sources, le lien de téléchargement du zip, le fichier readme ou la documentation (comme spécifié par l\'attribut \"type\" - voir ci-dessous).
+
+Lorsque vous spécifiez le type \"readme\", un lien direct vers une version restituée du fichier README doit être fourni. Par exemple, sur GitHub, il s\'agit d\'un lien de type \"blob\" tel que \"<https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md>\", ou sur une instance GitLab, \"<https://gitlab.com/opensimproject/cfdof/-/blob/master/README.md>\" (notez le format d\'URL légèrement différent entre les deux).
 
 C\'est une bonne idée d\'inclure des balises  pointant les utilisateurs vers les ressources en ligne de votre paquet. Il s\'agit généralement d\'une page wiki de wiki.freecad.org où les utilisateurs peuvent trouver et mettre à jour des informations sur le paquet, par exemple. Le gestionnaire d\'addons répertorie ces URL et fournit des liens cliquables vers celles-ci dans la description du paquet.
 
@@ -200,7 +214,7 @@ Le nom d\'une personne qui est un auteur du paquet, comme reconnaissance de son 
 
 Multiple autorisé
 
-Déclare un autre addon ou atelier de FreeCAD. Notez que toutes les fonctionnalités liées aux dépendances ne sont pas encore complètement implémentées. Ne supporte pas les dépendances des paquets en Python, qui doivent être spécifiées en utilisant un fichier requirements.txt ou metadata.txt (voir [Création d\'atelier](Workbench_creation/fr#Distribution.md) pour plus de détails).
+Déclare une dépendance sur un autre addon FreeCAD ou un atelier interne, ou un paquetage Python. La dépendance nommée est d\'abord comparée à la liste des modules complémentaires connus (par exemple ceux disponibles dans le dépôt git officiel de FreeCAD Addons, ou ceux dans un dépôt personnalisé spécifié par l\'utilisateur). Si aucune correspondance n\'est trouvée, elle est vérifiée par rapport à la liste des ateliers internes connus (à la fois installés et désinstallés). Enfin, si la dépendance nommée n\'a pas été localisée lors des deux étapes précédentes, elle est supposée être une dépendance du paquetage Python. Notez que toutes les fonctionnalités liées aux dépendances ne sont pas encore complètement implémentées.
 
 #### Attributs 
 
@@ -340,6 +354,10 @@ Un paquet avec des dépendances :
 
           
           <conflict condition="$BuildRevision==24267">Do not use with build 24267</conflict> 
+
+          
+          <depend>matplotlib</depend>
+          <depend>some_other_package</depend> 
         </workbench>
       </content>
 

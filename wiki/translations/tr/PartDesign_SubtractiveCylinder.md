@@ -53,7 +53,7 @@ The Cylinder can be edited after its creation in two ways:
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

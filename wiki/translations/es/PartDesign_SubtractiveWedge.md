@@ -62,10 +62,16 @@ Las cuñas pueden ser usadas para crear pirámides, seleccionando {{PropertyData
 Para crear una pirámide regular con un vértice en el lado superior, los valores de {{PropertyData/es|X2 min/max}} y de {{PropertyData/es|Z2 min/max}} tienen que ser la mitad de {{PropertyData/es|X max}} y {{PropertyData/es|Z max}}
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

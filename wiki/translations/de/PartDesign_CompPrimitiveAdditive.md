@@ -15,6 +15,11 @@
 
 Erzeugt ein additives Grundelement im aktiven Körper als erstes Formelement oder verschmilzt es mit dem/den vorhandenen Formelement(en). Wenn kein Körper im Dokument gefunden wird, wird automatisch einer erzeugt.
 
+## Types of primitives 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Typen von Grundkörpern 
 
 -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Zu addierender Quader](PartDesign_AdditiveBox.md)
@@ -27,10 +32,13 @@ Erzeugt ein additives Grundelement im aktiven Körper als erstes Formelement ode
 -   <img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Zu addierender Keil](PartDesign_AdditiveWedge.md)
 
 
+</div>
 
 
 
-{{PartDesign Tools navi
+
+
+{{PartDesign_Tools_navi
 
 }}
 

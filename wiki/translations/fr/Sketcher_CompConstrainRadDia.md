@@ -12,8 +12,8 @@
 
 ## Types de contraintes pour un arc ou un cercle 
 
--   <img alt="" src=images/Sketcher_ConstrainRadius.png  style="width:32px;"> [Contrainte rayon](Sketcher_ConstrainRadius.md): fixe le rayon d\'un cercle ou d\'un arc.
--   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Contraindre le diamètre](Sketcher_ConstrainDiameter.md): fixe le diamètre d\'un cercle ou d\'un arc.
+-   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Contrainte rayon](Sketcher_ConstrainRadius/fr.md) : Fixe le rayon d\'un cercle ou d\'un arc.
+-   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Contrainte diamètre](Sketcher_ConstrainDiameter/fr.md) : Fixe le diamètre d\'un cercle ou d\'un arc.
 
 
 {{Sketcher Tools navi

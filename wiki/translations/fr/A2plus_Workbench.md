@@ -7,7 +7,7 @@
 
 L\'atelier A2plus est un [atelier externe](External_workbenches/fr.md) de Freecad qui permet l\'[assemblage](Assembly/fr.md) de plusieurs pièces.
 
-Cette documentation d\'A2plus porte sur la version **0.4.47 ou plus récente**.
+Cette documentation d\'A2plus porte sur la version **0.4.54b ou plus récente**.
 
 ## Installation
 

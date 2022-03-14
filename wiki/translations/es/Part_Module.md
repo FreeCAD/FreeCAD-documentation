@@ -126,11 +126,17 @@ Estas herramientas realizan operaciones booleanas.
     -   <img alt="" src=images/Part_JoinEmbed.svg  style="width:32px;"> [Incrustar](Part_JoinEmbed/es.md): Incrusta un objeto hueco en otro objeto hueco.
     -   <img alt="" src=images/Part_JoinCutout.svg  style="width:32px;"> [Recorte](Part_JoinCutout/es.md): Crea un recorte en una pared de un objeto para otro objeto hueco.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_CompSplittingTools.png  style="width:48px;"> [Herramientas de división](Part_CompSplittingTools/es.md):
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Fragmentos booleanos](Part_BooleanFragments/es.md): Crea todas las piezas obtenidas de las operaciones booleanas.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Recorta una pieza](Part_SliceApart/es.md): Rebana y divide un objeto intersectándolo con otros objetos.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Corte](Part_Slice/es.md): Corta un objeto intersectándolo con otros objetos.
     -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR/es.md): Elimina el espacio compartido por un número par de objetos (versión simétrica de [Cortar](Part_Cut/es.md)).
+
+
+</div>
 
 ### Medida
 
@@ -156,7 +162,13 @@ Estas herramientas realizan operaciones booleanas.
 
 -   <img alt="" src=images/Part_Export.svg  style="width:32px;"> [Exportar](Part_Export/es.md): Exporta a archivos \*.IGES, \*.STEP o \*.BREP.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [CajaSelección](Part_BoxSelection/es.md): Selecciona las caras de un área rectangular.
+
+
+</div>
 
 -   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Forma a partir malla](Part_ShapeFromMesh/es.md): Crea un objeto de forma a partir de un objeto de malla.
 

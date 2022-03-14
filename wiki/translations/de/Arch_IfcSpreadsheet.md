@@ -22,6 +22,11 @@ Dieses Werkzeug erstellt eine Tabellenblatt, um [IFC](Arch_IFC/de.md) Eigenschaf
     -   Verwenden der **I** dann **P** Tastaturkürzel.
     -   Verwenden des {{MenuCommand/de|Arch → Dienstprogramme → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC Tabellenblatt erstellen}} Eintrags aus dem oberen Menü.
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skripten
 
 
@@ -29,7 +34,18 @@ Dieses Werkzeug erstellt eine Tabellenblatt, um [IFC](Arch_IFC/de.md) Eigenschaf
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden:
+
+
+</div>
+
+
 ```python
 spreadsheet = makeIfcSpreadsheet(archobj=None)
 ```
@@ -46,6 +62,15 @@ FreeCAD.ActiveDocument.recompute()
 
 spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

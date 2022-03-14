@@ -62,9 +62,9 @@ En mode Point centre d\'arête, si la grille doit réorienter ses doublures le l
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi:**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil Grille peut être utilisé dans une [macro](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante :
 

@@ -9,9 +9,6 @@
 
 # TechDraw PageDefault/fr
 
-
-</div>
-
 ## Description
 
 L\'outil Nouvelle Page par défaut crée un nouvel objet Page à l\'aide du fichier de modèle spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
@@ -25,22 +22,9 @@ L\'outil Nouvelle Page par défaut crée un nouvel objet Page à l\'aide du fich
 
 ## Remarques
 
+-   Si une page est marquée comme \"Ne pas garder à jour\" soit par le biais de la propriété KeepUpdated ou par le paramètre dans les Préférences, les changements dans le modèle 3D seront ignorés. Vous pouvez remarquer des anomalies (géométrie manquante, valeurs de dimension manquantes, etc.) dans l\'apparence de la page. Ceux-ci se corrigent une fois que la Page est mise à jour avec l\'outil [Redessiner une page](TechDraw_RedrawPage/fr.md). L\'icône <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width:24px;"> de la page s\'affiche dans l\'arborescence lorsque la mise à jour est suspendue. Ce paramètre affecte également le processus de démarrage. Si la page est marquée \"ne pas garder à jour\", elle ne sera pas dessinée au début du programme.
 
-<div class="mw-translate-fuzzy">
-
--   Si une page est marquée comme \"Ne pas garder à jour\" soit par le biais de la propriété KeepUpdated ou par le paramètre dans les Préférences, les changements dans le modèle 3D seront ignorés. Vous pouvez remarquer des anomalies (géométrie manquante, valeurs de dimension manquantes, etc.) dans l\'apparence de la page. Ceux-ci se corrigent une fois la Page mise à jour. L\'icône <img alt="" src=images/TechDraw_Tree_Page_Unsync.svg  style="width:32px;"> de la page s\'affiche dans l\'arborescence lorsque la mise à jour est suspendue. Ce paramètre affecte également le processus de démarrage. Si la page est marquée \"ne pas garder à jour\", elle ne sera pas dessinée au début du programme.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Si le modèle par défaut n\'est pas spécifié dans votre fichier de configuration utilisateur `user.cfg`, l\'outil va essayer
-
-
-</div>
-
+-   Si le modèle par défaut n\'est pas spécifié dans votre fichier de configuration utilisateur `user.cfg`, l\'outil va essayer :
 
 :   
     
@@ -51,14 +35,10 @@ Si le modèle par défaut n\'est pas spécifié dans votre fichier de configurat
     
 
 
-<div class="mw-translate-fuzzy">
-
-Où `$INSTALL_DIR` est le répertoire d\'installation de FreeCAD, par exemple
 
 
-</div>
 
-
+:   Où `$INSTALL_DIR` est le répertoire d\'installation de FreeCAD, par exemple :
 :   
     
 ```python

@@ -12,6 +12,7 @@
     - [FAQ](Frequently_asked_questions.md)
     - [Tutorials](Tutorials.md)
     - [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+    - [Migrating to FreeCAD from SolidWorks](Transitioning_from_Solidworks_to_FreeCAD.md)
     - [BIM applications compatibility table](BIM_application_compatibility_table.md)
     - [Interface](Interface.md)
     - [3D view](3D_view.md)

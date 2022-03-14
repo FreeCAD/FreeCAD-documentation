@@ -86,6 +86,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 -    {{PropertyData/es | Spacing}}: la distancia entre los ejes de cada barra.
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -148,6 +150,8 @@ Rebar2 = UShapeRebar.makeUShapeRebar(50, 50, 20, 20,
                                      8, 50, 4, True, 6, "Bottom", Structure, "Face6")
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
+
+### Edition of the rebar 
 
 
 <div class="mw-translate-fuzzy">

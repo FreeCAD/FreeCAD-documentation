@@ -36,29 +36,29 @@ Są to narzędzia do tworzenia obiektów o charakterze elementarnym.
 
 -   <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Stożek](Part_Cone/pl.md): rysuje stożek.
 
--   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus.md): Creates a torus.
+-   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus/pl.md): rysuje torus.
 
--   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tube](Part_Tube.md): Creates a tube. <small>(v0.19)</small> 
+-   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Rura](Part_Tube.md): rysuje rurę. {{Version/pl|0.19}}
 
--   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Create primitives\...](Part_Primitives.md): A tool to create one of the following primitives:
-    -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plane](Part_Plane.md): Creates a plane.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Box](Part_Box.md): Creates a box. This object can also be created with the <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Box](Part_Box.md) tool.
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cylinder](Part_Cylinder.md): Creates a cylinder. This object can also be created with the <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cylinder](Part_Cylinder.md) tool.
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cone](Part_Cone.md): Creates a cone. This object can also be created with the <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cone](Part_Cone.md) tool.
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sphere](Part_Sphere.md): Creates a sphere. This object can also be created with the <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Sphere](Part_Sphere.md) tool.
-    -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoid](Part_Ellipsoid.md): Creates a ellipsoid.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus.md): Creates a torus. This object can also be created with the <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus.md) tool.
-    -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prism](Part_Prism.md): Creates a prism.
-    -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Wedge](Part_Wedge.md): Creates a wedge.
-    -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helix](Part_Helix.md): Creates a helix.
-    -   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spiral](Part_Spiral.md): Creates a spiral.
-    -   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Circle](Part_Circle.md): Creates a circular arc.
-    -   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Ellipse](Part_Ellipse.md): Creates an elliptical arc.
-    -   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Point](Part_Point.md): Creates a point.
-    -   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Line](Part_Line.md): Creates a line.
-    -   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Regular polygon](Part_RegularPolygon.md): Creates a regular polygon.
+-   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Utwórz geometrie pierwotne \...](Part_Primitives/pl.md): Narzędzie do tworzenia jednego z następujących elementów pierwotnych:
+    -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Płaszczyzna](Part_Plane/pl.md): tworzy płaszczyznę.
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Sześcian](Part_Box/pl.md): tworzy sześcian. Obiekt ten można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Box](Part_Box/pl.md).
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Walec](Part_Cylinder/pl.md): tworzy walec. Obiekt ten można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Walec](Part_Cylinder/pl.md).
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Stożek](Part_Cone/pl.md): tworzy stożek. Obiekt ten można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Stożek](Part_Cone/pl.md).
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sfera](Part_Sphere/pl.md): tworzy sferę. Obiekt ten można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Sfera](Part_Sphere/pl.md).
+    -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Elipsoida](Part_Ellipsoid/pl.md): tworzy elipsoidę.
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus/pl.md): tworzy torus. Obiekt ten można również utworzyć za pomocą narzędzia <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus/pl.md) tool.
+    -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Graniastosłup](Part_Prism/pl.md): tworzy graniastosłup.
+    -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Klin](Part_Wedge/pl.md): tworzy klin.
+    -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helisa](Part_Helix/pl.md): tworzy helisę.
+    -   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spirala](Part_Spiral/pl.md): tworzy spiralę.
+    -   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Okrąg](Part_Circle/pl.md): tworzy łuk koła.
+    -   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Elipsa](Part_Ellipse/pl.md): tworzy łuk eliptyczny.
+    -   <img alt="" src=images/Part_Point.svg  style="width:32px;"> [Punkt](Part_Point/pl.md): tworzy punkt.
+    -   <img alt="" src=images/Part_Line.svg  style="width:32px;"> [Linia](Part_Line/pl.md): tworzy linę.
+    -   <img alt="" src=images/Part_RegularPolygon.svg  style="width:32px;"> [Wielokąt foremny](Part_RegularPolygon/pl.md): tworzy wielokąt foremny.
 
--   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Shape builder\...](Part_Builder.md): Creates shapes from various primitives.
+-   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Konstruktor kształtu \...](Part_Builder/pl.md): tworzy kształty z różnych elementów pierwotnych.
 
 ### Tworzenie i modyfikowanie obiektów 
 
@@ -66,21 +66,21 @@ Są to narzędzia do tworzenia i modyfikacji istniejących obiektów.
 
 -   <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> [Wyciągnięcie](Part_Extrude/pl.md): wyciąga płaskie powierzchnie obiektu.
 
--   <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> [Revolve](Part_Revolve.md): Creates a solid by revolving an object (not a solid) around an axis.
+-   <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> [Obrót \...](Part_Revolve/pl.md): tworzy bryłę obracając inny obiekt *(nie będący bryłą)* wokół osi.
 
--   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Mirror](Part_Mirror.md): Mirrors the selected object across a mirror plane.
+-   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Odbicie lustrzane \...](Part_Mirror/pl.md): odtwarza wybrany obiekt na danej płaszczyźnie lustrzanej.
 
--   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Fillet](Part_Fillet.md): Fillets (rounds) edges of an object.
+-   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Zaokrąglenie \...](Part_Fillet/pl.md): zaokrągla krawędzie obiektu.
 
--   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chamfer](Part_Chamfer.md): Chamfers edges of an object.
+-   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Fazka \...](Part_Chamfer/pl.md): fazowanie krawędzi obiektu.
 
 -   <img alt="" src=images/Part_MakeFace.svg  style="width:32px;"> [Utwórz ścianę z linii łamanych](Part_MakeFace/pl.md): Tworzy ścinę z zestawu linii. {{Version/pl|0.19}}
 
--   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Ruled Surface](Part_RuledSurface.md): Creates a ruled surface.
+-   <img alt="" src=images/Part_RuledSurface.svg  style="width:32px;"> [Utwórz powierzchnię prostokreślną](Part_RuledSurface/pl.md): tworzy powierzchnie bazującą np. na łuku.
 
--   <img alt="" src=images/Part_Loft.svg  style="width:32px;"> [Loft](Part_Loft.md): Lofts from one profile to another.
+-   <img alt="" src=images/Part_Loft.png  style="width:32px;"> [Wyciągnięcie przez profile](Part_Loft/pl.md): przeciąga jeden profil do drugiego.
 
--   <img alt="" src=images/Part_Sweep.svg  style="width:32px;"> [Sweep](Part_Sweep.md): Sweeps one or more profiles along a path.
+-   <img alt="" src=images/Part_Sweep.svg  style="width:32px;"> [Wyciągnięcie po ścieżce \...](Part_Sweep/pl.md): rozciąga jeden lub więcej profili wzdłuż ścieżki.
 
 -   <img alt="" src=images/Part_Section.svg  style="width:32px;"> [Przekrój](Part_Section/pl.md): tworzy przekrój, przecinając obiekt płaszczyzna przekroju.
 
@@ -107,9 +107,9 @@ Narzędzia te wykonują operacje logiczne.
 
 -   <img alt="" src=images/Part_Boolean.svg  style="width:32px;"> [Operacje logiczne](Part_Boolean/pl.md): wykonuje operacje z użyciem funkcji logicznych na obiektach.
 
--   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut.md): Cuts (subtracts) one object from another.
+-   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Wycięcie](Part_Cut/pl.md): Wycina *(odejmuje)* jeden obiekt z drugiego.
 
--   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fuse](Part_Fuse.md): Fuses (unions) two objects.
+-   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Łączenie](Part_Fuse/pl.md): zespaja *(dodaje)* dwa obiekty.
 
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Część wspólna](Part_Common/pl.md): wyodrębnia wspólną *(krzyżującą się)* część dwóch obiektów.
 
@@ -118,11 +118,11 @@ Narzędzia te wykonują operacje logiczne.
     -   <img alt="" src=images/Part_JoinEmbed.svg  style="width:32px;"> [Wstaw](Part_JoinEmbed.md): osadza obiekt posiadający ścianki w innym obiekcie ze ściankami.
     -   <img alt="" src=images/Part_JoinCutout.svg  style="width:32px;"> [Wytnij](Part_JoinCutout.md): tworzy wycięcie w ścianie obiektu dla innego obiektu ze ściankami.
 
--   <img alt="" src=images/Part_CompSplittingTools.png  style="width:48px;"> [Narzędzia do rozdzielania](Part_CompSplittingTools.md):
-    -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Fragmenty funkcji fogicznych](Part_BooleanFragments.md): tworzy wszystkie elementy, które można uzyskać poprzez operacje logiczne pomiędzy obiektami.
-    -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Pokroj część](Part_SliceApart.md): Przecina i dzieli obiekt przez przecięcie go przez inne obiekty.
-    -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Rozkroj częścią](Part_Slice.md): Dzieli obiekt na części, przecinając go innym obiektem.
-    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR.md): usuwa przestrzeń współdzieloną przez parzystą liczbę obiektów *(symetryczna wersja [Wycięcie](Part_Cut.md))*.
+-   <img alt="" src=images/Part_CompSplittingTools.png  style="width:48px;"> [Narzędzia do rozdzielania](Part_CompSplittingTools/pl.md):
+    -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Fragmenty funkcji fogicznych](Part_BooleanFragments/pl.md): tworzy wszystkie elementy, które można uzyskać poprzez operacje logiczne pomiędzy obiektami.
+    -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Pokrój część](Part_SliceApart/pl.md): Przecina i dzieli obiekt przez przecięcie go przez inne obiekty.
+    -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Rozkrój częścią](Part_Slice/pl.md): Dzieli obiekt na części, przecinając go innym obiektem.
+    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR/pl.md): usuwa przestrzeń współdzieloną przez parzystą liczbę obiektów *(symetryczna wersja [Wycięcie](Part_Cut/pl.md))*.
 
 ### Pomiary
 
@@ -148,7 +148,7 @@ Narzędzia te wykonują operacje logiczne.
 
 -   <img alt="" src=images/Part_Export.svg  style="width:32px;"> [Eksport CAD](Part_Export.md): narzędzie to umożliwia eksport do pliku \*.IGES, \*.STEP, \*.BREP.
 
--   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Pole wyboru](Part_BoxSelection.md): dodaj do zaznaczenia powierzchnie czołowe bryły, które są objęte zaznaczeniem prostokątnym.
+-   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Pole wyboru](Part_BoxSelection/pl.md): dodaj do zaznaczenia powierzchnie czołowe bryły, które są objęte zaznaczeniem prostokątnym.
 
 -   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Utwórz kształt z siatki](Part_ShapeFromMesh.md): tworzy bryłę z obiektu siatki.
 

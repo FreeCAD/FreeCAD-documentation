@@ -16,13 +16,7 @@
 
 ## Wprowadzenie
 
-
-<div class="mw-translate-fuzzy">
-
-Ten poradnik jest zbiorem technik modelowania gwintów śrubowych w programie FreeCAD. Został on zaktualizowany dla wersji **0.19**, chociaż ogólny proces jest zasadniczo taki sam od v0.14, kiedy to poradnik ten został pierwotnie napisany. Zaktualizowana zawartość skupia się na użyciu <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Part Design](PartDesign_Workbench/pl.md), aby utworzyć gwint, oraz dodano nowe ilustracje dla metod 0 do 3.
-
-
-</div>
+Ten poradnik jest zbiorem technik modelowania gwintów śrubowych w programie FreeCAD. Został on zaktualizowany dla wersji **0.19**, chociaż ogólny proces jest zasadniczo taki sam od v0.14, kiedy to poradnik ten został pierwotnie napisany. Zaktualizowana zawartość skupia się na użyciu środowiska pracy<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), aby utworzyć gwint.
 
 W tradycyjnych systemach CAD modelowanie gwintów śrubowych jest odradzane, ponieważ stanowi duże obciążenie dla jądra modelowania, jak również podczas renderowania kształtów. W tradycyjnych systemach gwint nie musi być przedstawiany bezpośrednio w przestrzeni 3D, ponieważ można go wskazać z jego wymaganą charakterystyką na rysunku technicznym, który jest wysyłany do produkcji. Jednakże, wraz z popularyzacją produkcji dodatków *(druk 3D)*, istnieje obecnie realna potrzeba modelowania gwintów przestrzennych, aby wydrukować je dokładnie tak, jak zostały zaprojektowane. I właśnie dlatego powstał ten poradnik.
 
@@ -37,68 +31,24 @@ Zobacz też pomocne filmy:
 
 Należy pamiętać, że kształty gwintów zajmują dużo pamięci, a posiadanie tylko jednego gwintu w dokumencie może znacznie zwiększyć rozmiar pliku, dlatego zaleca się tworzenie gwintów tylko wtedy, gdy jest to absolutnie konieczne.
 
+### Metoda 1. Używanie narzędzi i części ze stanowisk pracy 
 
-<div class="mw-translate-fuzzy">
+Korzystanie z narzędzi i części, które opracowały inne osoby, jest wygodne i pozwala zaoszczędzić wiele czasu. Zapoznaj się z stroną zawierającą informacje o [zewnętrznych Środowiskach pracy](External_workbenches/pl.md).
 
-### Metoda 0. Zdobądź jedną z bibliotek do tworzenia części 
+W szczególności polecane są trzy zasoby, które mogą być zainstalowane z narzędzia [Addon Manager](Std_AddonMgr.md):
 
+-   Środowisko pracy [Elementy Złączne](Fasteners_Workbench/pl.md), aby dodawać i mocować różne elementy złączne do części. Śruby i nakrętki domyślnie nie pokazują gwintu, ale można to kontrolować za pomocą opcji.
+-   Środowisko pracy [BOLTSFC](BOLTSFC_Workbench/pl.md), do umieszczania elementów złącznych z biblioteki BOLTS.
+-   Środowisko pracy [ThreadProfile](ThreadProfile_Workbench/pl.md), do tworzenia wspólnych gwintów.
 
-</div>
+<img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;"> 
+*Różne standardowe wkręty osadzone w Środowisku pracy Elementy Złączne ''(Fasteners)''. Istnieje możliwość kontroli, czy obiekt przedstawia prawdziwy gwint, czy tylko zwyczajny cylinder.*
 
+## Metoda 2. Używanie makrodefinicji (przestarzałe) 
 
-<div class="mw-translate-fuzzy">
+-   W przeszłości, do wstawiania części z biblioteki BOLTS używano [Makra BOLTS](Macro_BOLTS.md). Teraz jest już ono nieaktualne. Zamiast tego należy użyć Środowiska pracy [BOLTSFC](BOLTSFC_Workbench/pl.md).
 
-Korzystanie z modeli, które opracowały inne osoby, jest wygodne i pozwala zaoszczędzić wiele czasu. Zapoznaj się z stroną zawierającą informacje o [zewnętrznych Środowiskach pracy](external_workbenches.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-W szczególności polecane są dwa zasoby, które mogą być zainstalowane z narzędzia [Addon Manager](Std_AddonMgr.md):
-
--   [Fasteners Workbech](https://github.com/shaise/FreeCAD_FastenersWB), aby wstawiać śruby parametryczne i podkładki zgodne z normami ISO. Śruby i nakrętki domyślnie nie pokazują gwintu, ale można to kontrolować za pomocą opcji.
--   [BOLTSFC](https://github.com/berndhahnebach/BOLTSFC), aby umieścić części standardowe z biblioteki BOLTS, które również odpowiadają standardom ISO.
-
-
-</div>
-
-<img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Różne standardowe wkręty ISO osadzone w Środowisku pracy Fasteners. Istnieje możliwość kontroli, czy obiekt przedstawia prawdziwy gwint, czy tylko zwyczajny cylinder.*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Metoda 1. Używanie makrodefinicji 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   W przeszłości, do wstawiania części z biblioteki BOLTS używano [Makra BOLTS](Macro_BOLTS.md). Teraz jest już ono nieaktualne. Zamiast tego należy użyć Środowiska pracy BOLTSFC.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Znany jest skrypt [Screw Maker](Macro_screw_maker1_2/pl.md) autorstwa ulrich1a, został użyty do stworzenia pojedynczych śrub, wkrętów i podkładek. Obecnie jest to już przestarzałe rozwiązanie. Stanowisko pracy Fasteners autorstwa shaise, zawiera kompletne makro do tworzenia śrub, wraz z paskiem narzędzi do wyboru odpowiedniego elementu.
-
-
-</div>
+Znany jest skrypt [Screw Maker](Macro_screw_maker1_2/pl.md) autorstwa ulrich1a, został użyty do stworzenia pojedynczych śrub, wkrętów i podkładek. Obecnie jest to już przestarzałe rozwiązanie. Środowisko pracy [Fasteners](Fasteners_Workbench/pl.md) autorstwa shaise, zawiera kompletne makro do tworzenia śrub, wraz z GUI do wyboru odpowiedniego elementu.
 
 ## Metoda 3. Imitacja przez ułożenie stosu krążków. 
 
@@ -174,21 +124,21 @@ Proces ten można również wykonać za pomocą narzędzi środowiska pracy [Cz�
 Teraz możesz przystąpić do dodawania innych elementów pierwotnych, takich jak **[<img src=images/Part_Cylinder.svg style="width:16px"> [Część: Cylinder](Part_Cylinder/pl.md)** , lub innych kształtów, aby posłużyć się funkcją **[<img src=images/Part_Fuse.svg style="width:16px"> [Część: Suma](Part_Fuse/pl.md)** lub **[<img src=images/Part_Cut.svg style="width:16px"> [Część: Wytnij](Part_Cut.md)**.
 
 <img alt="" src=images/T13_14_Threads_components.png  style="width:" height="300px;"> 
-*Tworzenie zwoju gwintu poprzez przesuwanie pionowego profilu, (1) the [szkic profilu](sketch.md), (2) [helical](Part_Helix.md) ścieżka przeciągania, oraz (3) wynik [przeciągnięcia](Part_Sweep/pl.md).*
+*Tworzenie zwoju gwintu poprzez przesuwanie pionowego profilu, ''(1)'' the [szkic profilu](Sketch/pl.md), ''(2)'' [helical](Part_Helix/pl.md) ścieżka przeciągania, oraz ''(3)'' wynik [przeciągnięcia](Part_Sweep/pl.md).*
 
 ### Sztuczki wzmagające sukces 
 
 -    **Reguła 1.**
     
 
-Wyciągnięty wzdłuż spirali profil nie może zawierać krawędzi, które się przecinają lub stykają, ponieważ utworzy nieprawidłową bryłę. Dotyczy to zarówno profilu poruszającego się wzdłuż elementu spiralnego, jak i przecięć w jego środku. Próby wykonania z użyciem tego elementu operacji logicznych (bezpiecznik lub przecięcie) najprawdopodobniej się nie powiodą. Należy sprawdzić jakość wykonania cewki za pomocą funkcji **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part: Sprawdź geometrię](Part_CheckGeometry.md)**. Jeśli będą zgłaszane samoprzecięcia, musisz zwiększyć skok spirali.
+Wyciągnięty wzdłuż spirali profil nie może zawierać krawędzi, które się przecinają lub stykają, ponieważ utworzy nieprawidłową bryłę. Dotyczy to zarówno profilu poruszającego się wzdłuż elementu spiralnego, jak i przecięć w jego środku. Próby wykonania z użyciem tego elementu operacji logicznych (bezpiecznik lub przecięcie) najprawdopodobniej się nie powiodą. Należy sprawdzić jakość wykonania cewki za pomocą funkcji **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part: Sprawdź geometrię](Part_CheckGeometry/pl.md)**. Jeśli będą zgłaszane samoprzecięcia, musisz zwiększyć skok spirali.
 
 <img alt="" src=images/T13_15_Threads_self_intersection.png  style="width:" height="300px;"> <img alt="" src=images/T13_16_Threads_no_self_intersections_OK.png  style="width:" height="300px;"> 
 *Po lewej: nieprawidłowy przebieg wygenerowany przez zastosowanie bardzo małego skoku helisy w stosunku do wysokości profilu trójkątnego. <br>Po prawej: skok, który jest wystarczająco duży i nie powoduje samoistnych przecięć.*
 
 -    **Reguła 2.**Gdy cylinder jest dodawany do cewki w celu utworzenia głównego trzonu śruby, nie może być styczny z profilem cewki. Oznacza to, że cylinder nie może mieć tego samego promienia jak wewnętrzny promień gwintu, ponieważ jest bardzo prawdopodobne, że nie powiedzie się operacja fuse. Ogólnie rzecz biorąc, należy unikać geometrii stycznych do elementów przeciągnięcia, takich jak ściany styczne lub krawędzie styczne do ścian, z którymi nie są połączone. Aby uzyskać dobre połączenie logiczne, wyciągnięta cewka oraz cylinder muszą się przecinać.
 
-Sprawdź jakość połączenia za pomocą funkcji **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part: Sprawdź geometrię](Part_CheckGeometry.md)**, jeśli zgłaszane są powierzchnie współpłaszczyznowe, zwiększ promień cylindra o niewielką wartość.
+Sprawdź jakość połączenia za pomocą funkcji **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part: Sprawdź geometrię](Part_CheckGeometry/pl.md)**, jeśli zgłaszane są powierzchnie współpłaszczyznowe, zwiększ promień cylindra o niewielką wartość.
 
 -   Jeśli cewka i cylinder są ze sobą styczne, to jeśli nawet pierwsza operacja połączenia się powiedzie, to może się nie powieść w kolejnych krokach z trzecią bryłą.
 -   Jest to ograniczenie jądra technologii OpenCASCADE *(OCCT)*, na ogół nie radzi sobie dobrze z operacjami między powierzchniami współpłaszczyznowymi.
@@ -206,15 +156,9 @@ Sprawdź jakość połączenia za pomocą funkcji **[<img src=images/Part_CheckG
 
 ### Zalety i wady 
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Koncepcja budowy modelu łatwa do zrozumienia.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Bardzo naturalny sposób definiowania profilu gwintu.
--   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Brak problemów z zazębieniem się powstałego obiektu, w odróżnieniu od metody 4.
-
-
-</div>
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> Brak problemów z zazębieniem się powstałego obiektu, w odróżnieniu od metody 5.
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Z powodu zawodności samoczynnie przecinających się kształtów wyciągnięć, prawie niemożliwe jest wygenerowanie gwintu bez szczelin, to znaczy bez powierzchni płaskich na wewnętrznej powierzchni gwintu.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Operacje logiczne są wymagane do uzyskania pojedynczej zwartej bryły. Obliczenia operacji logicznych zajmują stosunkowo dużo czasu i często kończą się niepowodzeniem.
@@ -234,13 +178,7 @@ Aby otrzymać standardowy profil zęba piły, para lustrzanych odbić spirali ł
 
 ### Generowanie kształtu 
 
-
-<div class="mw-translate-fuzzy">
-
-Nie jest łatwo określić, jak przygotować profil poziomy, aby uzyskać określony kształt pionowy. W sytuacjach nieskomplikowanych, dotyczących kształtu trójkątnego lub trapezowego, profil może być wykonany ręcznie. Alternatywnie można go skonstruować, tworząc krótki gwint metodą 3 i pobierając jego kawałek poprzez wykonanie funkcji [common](Part_Common/pl.md) pomiędzy płaszczyzną poziomą a gwintem.
-
-
-</div>
+Nie jest łatwo określić, jak przygotować profil poziomy, aby uzyskać określony kształt pionowy. W sytuacjach nieskomplikowanych, dotyczących kształtu trójkątnego lub trapezowego, profil może być wykonany ręcznie. Alternatywnie można go skonstruować, tworząc krótki gwint metodą 4 i pobierając jego kawałek poprzez wykonanie funkcji [common](Part_Common/pl.md) pomiędzy płaszczyzną poziomą a gwintem.
 
 #### Kształt dla gwintu trójkątnego 
 
@@ -273,29 +211,17 @@ Drogę postępowania zaprezentował Gaurav Prabhudesai w przygotowanym przez sie
 
 ### Zalety i wady 
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> gotowy do użycia kształt bryły z gwintem na rdzeniu jest tworzony bezpośrednio przez wyciągnięcie.
--   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> wymagana jest mniejsza liczba operacji logicznych lub nawet ich brak, więc prędkość generowania jest bardzo wysoka w porównaniu z metodą 3.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> wymagana jest mniejsza liczba operacji logicznych lub nawet ich brak, więc prędkość generowania jest bardzo wysoka w porównaniu z metodą 4.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> końce gwintów są ładnie przycięte natychmiastowo.
--   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> długie gwinty nie stanowią problemu, chyba że konieczne jest przeprowadzenie operacji logicznych. W przeciwnym razie nie będzie ona dużo lepsza niż Metoda 3.
+-   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> długie gwinty nie stanowią problemu, chyba że konieczne jest przeprowadzenie operacji logicznych. W przeciwnym razie nie będzie ona dużo lepsza niż Metoda 4.
 -   <img alt="" src=images/Edit_OK.svg  style="width:24px;"> gwinty bez przerwy nie stanowią problemu.
-
-
-</div>
 
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> zdefiniowanie kształtu gwintu jest skomplikowane.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> Użycie standardowej siatki z tak stworzonym gwintem generuje brzydkie oczka, co może prowadzić do problemów. Inne siatki są lepsze, na przykład Mefisto wydaje się dawać najlepsze rezultaty.
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:24px;"> duża ilość pamięci według [Techniki modelowania gwintu](http://forum.freecadweb.org/viewtopic.php?f=3&t=12593&start=10#p101197).
 
-
-<div class="mw-translate-fuzzy">
-
-## Metoda 5. Wyciąganie pomiędzy wytłaczanymi ścianami ślimakowymi 
-
-
-</div>
+## Metoda 6. Wyciąganie pomiędzy wytłaczanymi ścianami ślimakowymi 
 
 ### Informacje ogólne 
 

@@ -13,13 +13,7 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
 **Der Arbeitsbereich [Raytracing](Ray_Tracing_Workbench/de.md) wird abgelöst durch den neuen Arbeitsbereich [https://github.com/FreeCAD/FreeCAD-render Render Workbench], der als Ersatz geplant ist. Der Arbeitsbereich Render kann mit dem [Addon-Manager](Std_AddonMgr/de.md) installiert werden. Diese Information wird bereitgestellt, weil FreeCAD als Standardeinstellung (mit Stand 0.19-24276) weiterhin mit dem Arbeitsbereich Raytracing ausgeliefert wird und der neue Arbeitsbereich generell in der gleichen Weise arbeiten sollte**
-
-
-</div>
 
 
 

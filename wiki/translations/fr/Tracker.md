@@ -1,6 +1,9 @@
 # Tracker/fr
 {{TOCright}}
 
+
+**En février 2022, le suivi des bogues de FreeCAD a été transféré sur [https://github.com/FreeCAD/FreeCAD/issues GitHub Issues]. Le système de suivi des bogues Mantis décrit ci-dessous est maintenant en mode lecture seule.**
+
 ![](images/Mantis_logo_262x90.png )
 
 Le [traqueur de bogues FreeCAD](https://www.freecadweb.org/tracker) est un endroit pour rapporter des bogues, soumettre des demandes de fonctionnalités, de correctifs, ou encore faire une demande de fusion de votre branche si vous développez avec Git. Le traqueur est divisé en plusieurs sections de travail, donc s\'il vous plait soyez rigoureux et remplissez votre demande dans la catégorie appropriée. En cas de doutes, laissez le dans la section \"FreeCAD\".

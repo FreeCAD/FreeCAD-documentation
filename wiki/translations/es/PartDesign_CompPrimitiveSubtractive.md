@@ -16,6 +16,9 @@ Crea una Primitiva sustractiva en el Body (cuerpo) activo, sustrayendo su forma 
 
 ## Tipos de Primitivas 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Caja sustractiva](PartDesign_SubtractiveBox/es.md)
 -   <img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Cono sustractivo](PartDesign_SubtractiveCone/es.md)
 -   <img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:32px;"> [Cilindro sustractivo](PartDesign_SubtractiveCylinder/es.md)
@@ -24,6 +27,9 @@ Crea una Primitiva sustractiva en el Body (cuerpo) activo, sustrayendo su forma 
 -   <img alt="" src=images/PartDesign_SubtractiveSphere.svg  style="width:32px;"> [Esfera sustractiva](PartDesign_SubtractiveSphere/es.md)
 -   <img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:32px;"> [Toro sustractivo](PartDesign_SubtractiveTorus/es.md)
 -   <img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> [Cuña sustractiva](PartDesign_SubtractiveWedge/es.md)
+
+
+</div>
 
 
 

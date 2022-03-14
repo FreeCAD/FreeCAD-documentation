@@ -32,7 +32,8 @@ Jeśli chcesz dodać treść do tych stron, poproś o konto Wiki z uprawnieniami
 -   [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md): No cóż, podstawy.
 -   [Polecenia Gui](Gui_Command/pl.md): Dodawanie niestandardowych poleceń do GUI,
 -   Używanie mieszanych [jednostek](Units/pl.md) we FreeCAD.
--   [Tworzenie profili](Profiling/pl.md) kod Python.
+-   [Tworzenie profili](Profiling/pl.md) kod środowiska Python,
+-   [Debugowanie](Debugging/pl#Debugowanie_w_Python.md) kod środowiska Python.
 
 ### Moduły
 

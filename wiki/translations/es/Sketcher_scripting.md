@@ -28,20 +28,19 @@ It also adds three lines in the newly created Sketch.
 
 ## Creación de una restricción con Python 
 
-A geometric constraint <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> and the special <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [InternalAlignment](Sketcher_ConstrainInternalAlignment.md) constraints can be created from macros and from the python console by using the following command:
+A geometric constraint <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> and the special <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [InternalAlignment](Sketcher_ConstrainInternalAlignment.md) constraints can be created from macros and from the Python console by using the following command:
 
 
 ```pythonsketch.addConstraint(Sketcher.Constraint(ConstraintType, EdgeOrPartOfEdge…)) 
 ```
 
-A dimensional constraint <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;"> and the special constraint <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Snell\'s law](Sketcher_ConstrainSnellsLaw.md) can be created from macros and from the python console by using the following command:
+A dimensional constraint <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;"> and the special constraint <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Snell\'s law](Sketcher_ConstrainSnellsLaw.md) can be created from macros and from the Python console by using the following command:
 
 
 ```pythonsketch.addConstraint(Sketcher.Constraint(DimensionalConstraintType, EdgeOrPartOfEdge…, App.Units.Quantity("float_value unit"))) 
 ```
 
-
-:   e.g.
+e.g.
 
 
 ```pythonsketch.addConstraint(Sketcher.Constraint(DimensionalConstraintType, EdgeOrPartOfEdge…, App.Units.Quantity("123.0 mm"))) 
@@ -49,7 +48,7 @@ A dimensional constraint <img alt="" src=images/Sketcher_ConstrainLock.svg  styl
 
 The first argument `ConstraintType` is described below in [Constraint types](#Constraint_types.md).
 
-A constraint can take up to six arguments which are edges or indicate which sub-part of an edge is used by the constraint. See the documentation of individual constraints for details on what combinations of edges and sub-parts of edges can be passed as arguments. The main issue with this function is to identify correctly the line number and the vertex number of the lines you want to process. The sections below describe how to [identify the numbering of a line](#Identifying_the_numbering_of_a_line.md)) and how to [Identify the numbering of the sub-parts of a line](#Identifying_the_numbering_of_the_sub-parts_of_a_line.md)).
+A constraint can take up to six arguments which are edges or indicate which sub-part of an edge is used by the constraint. See the documentation of individual constraints for details on what combinations of edges and sub-parts of edges can be passed as arguments. The main issue with this function is to identify correctly the line number and the vertex number of the lines you want to process. The sections below describe how to [identify the numbering of a line](#Identifying_the_numbering_of_a_line.md), and how to [Identify the numbering of the sub-parts of a line](#Identifying_the_numbering_of_the_sub-parts_of_a_line.md).
 
 ## Tipos de restricciones 
 
@@ -211,7 +210,10 @@ If you read e.g. 4 and 5, it means that the vertex with the lower number (4 in t
 
 Let us take the previous example of the three lines. The subsequent figure indicates the numbering of each line and their vertices according to the convention for scripting.
 
-<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg  style="width:600px;"> 
+<img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg  style="width:600px;">
+
+
+
 *<b>blue text:</b> numbering of line, <b>black text:</b> numbering of vertices*
 
 The command `sketch.addConstraint(Sketcher.Constraint("Coincident", 1, 2, 2, 1))` yields following result:

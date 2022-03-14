@@ -248,7 +248,7 @@ elimină spațiul partajat de un număr par de obiecte (versiunea simetrică a [
 
 -   <img alt="" src=images/Part_Export.svg  style="width:32px;"> [Export](Part_Export.md): Exports to \*.IGES, \*.STEP, or \*.BREP files.
 
--   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [BoxSelection](Part_BoxSelection.md): Selects faces from a rectangular area.
+-   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Box selection](Part_BoxSelection.md): Selects faces from a rectangular area.
 
 -   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Shape from Mesh](Part_ShapeFromMesh.md): Creates a shape object from a mesh object.
 

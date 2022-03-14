@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Rebar Footing Reinforcement
-   MenuLocation:Arch → Rebar tools → Footing Reinforcement
+   MenuLocation:Arch → Rebar tools → Footing Reinforcement<br>3D/BIM → Reinforcement tools → Footing Reinforcement
    Workbenches:[Arch](Arch_Workbench.md)
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md)
 ---
@@ -502,7 +502,7 @@ footingReinforcementGroup = editFootingReinforcement(
 )
 ```
 
--    `footngReinforcementGroup`is a previously created `Footing Reinforcement` group object.
+-    `footingReinforcementGroup`is a previously created `Footing Reinforcement` group object.
 
 -   The other parameters are the same as required by the `makeFootingReinforcement()` function.
 

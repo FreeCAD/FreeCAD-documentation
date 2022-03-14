@@ -15,7 +15,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di oggetti [Sagoma di pannello](Arch_Panel_Cut/it.md), o qualsiasi altri oggetti 2D come quelli prodotti da [Draft](Draft_Workbench/it.md) e [Sketcher](Sketcher_Workbench/it.md). Il Foglio pannello consiste tipicamente in un tracciato di tagli che devono essere eseguiti da una macchina CNC. Questi fogli possono poi essere esportati in un file [DXF](Draft_DXF.md).
+
+
+</div>
 
 <img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
 
@@ -25,9 +31,15 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Facoltativamente, selezionare uno o più oggetti [Sagoma pannello](Arch_Panel_Cut/it.md) o qualsiasi altro oggetto 2D posizionato sul piano XY.
 2.  Premere il pulsante **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Foglio pannello](Arch_Panel_Sheet/it.md)**, o premere i tasti **P** e poi **S**.
 3.  Regolare le proprietà desiderate.
+
+
+</div>
 
 ## Opzioni
 
@@ -100,7 +112,13 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Foglio pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
 
 
 ```python

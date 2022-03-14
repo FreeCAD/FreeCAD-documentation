@@ -38,6 +38,29 @@ Si cette case est cochée, une vérification supplémentaire des opérations boo
 
 Si cette case est cochée, toutes les erreurs trouvées sont également enregistrées dans la [Vue rapport](Report_view/fr.md). {{Version/fr|0.19}}
 
+## Contenu des formes 
+
+En plus de détecter les erreurs potentielles de géométrie, cet outil affiche une série de propriétés concernant l\'objet sélectionné :
+
+-   Objet vérifié
+-   Type de forme
+-   Nombre d\'entités géométriques : sommets, arêtes, fils, faces, coques, solides, compsolides, composés, formes totales\...
+-   Propriétés géométriques et de masse :
+    -   Aire
+    -   Volume
+    -   Masse
+    -   Longueur
+    -   Centre de masse
+    -   Orientation
+    -   Axe de symétrie
+    -   Point de symétrie
+    -   Moments
+    -   Premier axe d\'inertie
+    -   Deuxième axe d\'inertie
+    -   Troisième axe d\'inertie
+    -   Rayon de giration
+    -   Placement global
+
 
 
 ---

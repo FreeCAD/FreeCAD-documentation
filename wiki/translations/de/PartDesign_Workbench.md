@@ -37,9 +37,21 @@ Diese Werkzeuge sind gar keine Bestandteile des Arbeitsbereichs PartDesign. Sie 
 
 in den [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md).
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Skizze bearbeiten](Sketcher_EditSketch/de.md): Bearbeiten der ausgewählten Skizze.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_MapSketch.png‎  style="width:32px;"> [Eine Skizze einer Fläche zuordnen](Sketcher_MapSketch/de.md): Ordnet eine Skizze einer zuvor ausgewählten Ebene oder einer Fläche des aktiven Körpers zu.
+
+
+</div>
 
 ### Modellierungswerkzeuge Part Design 
 
@@ -57,7 +69,13 @@ Erzeugt ein lokales Koordinatensystem, das an der Bezugsgeometrie im aktiven Kö
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Formbinder erstellen](PartDesign_ShapeBinder/de.md): Erzeugt einen Formbinder im aktiven Körper.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Unterobjekt FormBinder erstellen](PartDesign_SubShapeBinder/de.md): Erzeugt einen FormBinder zu einem Unterelement, wie eine Kante oder Fläche eines anderen Körpers, wobei die relative Position des Elements beibehalten wird. {{Version/de|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Klon erstellen](PartDesign_Clone/de.md): Erstellt einen Klon des ausgewählten Körpers.
 
@@ -79,17 +97,17 @@ Dies sind Werkzeuge zum Erstellen von Basisformelementen oder zum Hinzufügen vo
 
 :\*<img alt="" src=images/PartDesign_Additive_Box.svg  style="width:32px;"> [zu addierender Quader](PartDesign_AdditiveBox/de.md): Erstellt einen additiven Quader. {{Version/de|0.17}}
 
-:\*<img alt="" src=images/PartDesign_Additive_Cone.svg  style="width:32px;"> [zu addierender Kegel](PartDesign_AdditiveCone/de.md): Erstellt einen additiven Kegel. {{Version/de|0.17}}
-
 :\*<img alt="" src=images/PartDesign_Additive_Cylinder.svg  style="width:32px;"> [zu addierender Zylinder](PartDesign_AdditiveCylinder/de.md): Erstellt einen additiven Zylinder.
-
-:\*<img alt="" src=images/PartDesign_Additive_Ellipsoid.svg  style="width:32px;"> [zu addierendes Ellipsoid](PartDesign_AdditiveEllipsoid/de.md): Erstellt ein additives Ellipsoid.
-
-:\*<img alt="" src=images/PartDesign_Additive_Prism.svg  style="width:32px;"> [zu addierendes Prisma](PartDesign_AdditivePrism/de.md): Erstellt ein additives Prisma.
 
 :\*<img alt="" src=images/PartDesign_Additive_Sphere.svg  style="width:32px;"> [zu addierende Kugel](PartDesign_AdditiveSphere/de.md): Erstellt eine additive Kugel.
 
+:\*<img alt="" src=images/PartDesign_Additive_Cone.svg  style="width:32px;"> [zu addierender Kegel](PartDesign_AdditiveCone/de.md): Erstellt einen additiven Kegel. {{Version/de|0.17}}
+
+:\*<img alt="" src=images/PartDesign_Additive_Ellipsoid.svg  style="width:32px;"> [zu addierendes Ellipsoid](PartDesign_AdditiveEllipsoid/de.md): Erstellt ein additives Ellipsoid.
+
 :\*<img alt="" src=images/PartDesign_Additive_Torus.svg  style="width:32px;"> [zu addierender Torus](PartDesign_AdditiveTorus/de.md): Erstellt einen additiven Torus.
+
+:\*<img alt="" src=images/PartDesign_Additive_Prism.svg  style="width:32px;"> [zu addierendes Prisma](PartDesign_AdditivePrism/de.md): Erstellt ein additives Prisma.
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [zu addierender Keil](PartDesign_AdditiveWedge/de.md): Erstellt einen additiven Keil.
 
@@ -117,17 +135,17 @@ Erzeugt eine Volumenkörperform, indem eine oder mehrere Skizzen entlang eines o
 
 :\*<img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Abzugsquader](PartDesign_SubtractiveBox/de.md): fügt dem aktiven Körper eine subtraktiven Quader hinzu.
 
-:\*<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Abzuziehender Kegel](PartDesign_SubtractiveCone/de.md): fügt dem aktiven Körper einen subtraktiven Kegel hinzu.
-
 :\*<img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:32px;"> [Abzuziehender Zylinder](PartDesign_SubtractiveCylinder/de.md): fügt dem aktiven Körper einen subtraktiven Zylinder hinzu.
-
-:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Abzuziehendes Ellipsoid](PartDesign_SubtractiveEllipsoid/de.md): fügt dem aktiven Körper ein subtraktives Ellipsoid hinzu.
-
-:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Abzuziehendes Prisma](PartDesign_SubtractivePrism/de.md): fügt dem aktiven Körper ein subtraktives Prisma hinzu.
 
 :\*<img alt="" src=images/PartDesign_Subtractive_Sphere.svg  style="width:32px;"> [Abzuziehende Kugel](PartDesign_SubtractiveSphere/de.md): fügt dem aktiven Körper eine subtraktive Kugel hinzu.
 
+:\*<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Abzuziehender Kegel](PartDesign_SubtractiveCone/de.md): fügt dem aktiven Körper einen subtraktiven Kegel hinzu.
+
+:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Abzuziehendes Ellipsoid](PartDesign_SubtractiveEllipsoid/de.md): fügt dem aktiven Körper ein subtraktives Ellipsoid hinzu.
+
 :\*<img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:32px;"> [Abzuziehender Torus](PartDesign_SubtractiveTorus/de.md): fügt dem aktiven Körper einen subtraktiven Ring hinzu.
+
+:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Abzuziehendes Prisma](PartDesign_SubtractivePrism/de.md): fügt dem aktiven Körper ein subtraktives Prisma hinzu.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Abzuziehender Keil](PartDesign_SubtractiveWedge/de.md): fügt dem aktiven Körper einen subtraktiven Keil hinzu.
 
@@ -165,9 +183,9 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;">[Migrieren](PartDesign_Migrate/de.md): Migriert Dateien, die mit älteren FreeCAD Versionen erstellt wurden. Wenn die Datei rein PartDesign formelementbasiert ist, sollte die Migration erfolgreich sein. Wenn die Datei gemischte Part/Part Design/Entwurfsobjekte enthält, wird die Konvertierung höchstwahrscheinlich fehlschlagen.
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Assistent für Kettenraddesign](PartDesign_Sprocket/de.md): Erstellt ein Kettenradprofil, das aufgepolstert werden kann. {{Version/de|0.19}}
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Kettenrad](PartDesign_Sprocket/de.md): Erstellt ein Kettenradprofil, das extrudiert werden kann. {{Version/de|0.19}}
 
--   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Assistent zur Auslegung von Evolventengetrieben](PartDesign_InvoluteGear/de.md): erzeugt ein Evolventenverzahnungsprofil, das von einem Polster verwendet werden kann.
+-   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Evolventenverzahnung](PartDesign_InvoluteGear/de.md): erzeugt ein Evolventenverzahnradprofil, das extrudiert werden kann.
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Wellenauslegungsassistent](PartDesign_WizardShaft/de.md): Erzeugt eine Welle aus einer Wertetabelle und ermöglicht die Analyse von Kräften und Momenten. Die Welle wird mit einer umlaufenden Skizze erstellt, die bearbeitet werden kann.
 
@@ -202,9 +220,9 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
 
 
- {{PartDesign Tools navi}}
+ {{PartDesign_Tools_navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/de

@@ -21,23 +21,25 @@ Voir sur [Ateliers](Workbenches/fr#Ateliers_externes.md)/[Ateliers externes](Ext
 
 ## Types de renforcements 
 
--   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Armature droite](Arch_Rebar_Straight/fr.md) : Crée une barre de ferraillage droite dans un élément de structure sélectionné.
+-   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Armature droite](Arch_Rebar_Straight/fr.md) : Crée une barre de ferraillage droite dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> [Armature en U](Arch_Rebar_UShape/fr.md) : Crée une barre de ferraillage UShape dans un élément de structure sélectionné.
+-   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [Armature en U](Arch_Rebar_UShape/fr.md) : Crée une barre de ferraillage en forme de U dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> [Armature en L](Arch_Rebar_LShape/fr.md) : Crée une barre de ferraillage LShape dans un élément de structure sélectionné.
+-   <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [Armature en L](Arch_Rebar_LShape/fr.md) : Crée une barre de ferraillage en forme de L dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> [Armature cintrée](Arch_Rebar_BentShape/fr.md) : Crée une barre de renforcement de forme cintrée dans un élément de structure sélectionné.
+-   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Armature en étrier](Arch_Rebar_Stirrup/fr.md) : Crée une barre de renforcement d\'étrier dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width:32px;"> [Armature en étrier](Arch_Rebar_Stirrup/fr.md) : Crée une barre de renforcement d\'étrier dans un élément de structure sélectionné.
+-   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Armature cintrée](Arch_Rebar_BentShape/fr.md) : Crée une barre de renforcement de forme cintrée dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> [Armature hélicoïdale](Arch_Rebar_Helical/fr.md) : Crée une barre de ferraillage hélicoïdale dans un élément de structure sélectionné.
+-   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Armature hélicoïdale](Arch_Rebar_Helical/fr.md) : Crée une barre de ferraillage hélicoïdale dans un élément de structure sélectionné.
 
--   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md) : crée des barres d\'armature à l\'intérieur d\'un objet Column Arch Structure.
+-   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md) : Crée des barres de renforcement dans une colonne rectangulaire sélectionnée.
 
--   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armature 2 cadres 6 barres](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) : crée des barres d\'armature à l\'intérieur d\'un objet Colonne Arch Structure.
+-   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Poutre](Arch_Rebar_BeamReinforcement/fr.md) : Crée des barres de renforcement dans une poutre sélectionnée.
 
--   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Poutre](Arch_Rebar_BeamReinforcement/fr.md) : crée des barres d\'armature à l\'intérieur d\'une structure de type poutre.
+-   <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Renfort de dalle](Arch_Rebar_Slab_Reinforcement/fr.md) : Crée des barres de renforcement dans une dalle sélectionnée.
+
+-   <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Renfort de semelle](Arch_Rebar_Footing_Reinforcement/fr.md) : Crée des barres de renforcement à l\'intérieur d\'une semelle sélectionnée.
 
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Armature personnalisée](Arch_Rebar/fr.md) : Crée une barre de ferraillage personnalisée dans un élément de structure sélectionné à l\'aide d\'une esquisse.
 

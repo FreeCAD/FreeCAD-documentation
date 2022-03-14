@@ -17,17 +17,23 @@ Dieser Arbeitsbereich enthält Funktionen, um den CSG Funktionssbaum zu ändern 
 
 In FreeCAD 0.19 wurde das Ply (Python-Lex-Yacc) Modul, das zum Importieren von CSG Dateien verwendet wird, aus dem FreeCAD Quellcode entfernt, da es sich um eine nicht von FreeCAD entwickelte Drittanbieter Bibliothek handelt. Folglich musst du nun Ply installieren, bevor du den OpenSCAD Arbeitsbereich verwenden kannst. Wenn du eine vorkompilierte, stabile Version von FreeCAD verwendest, sollte diese Abhängigkeit auf allen Plattformen automatisch installiert werden; in anderen Fällen, z.B. wenn du [Kompilieren](Compiling/de.md) aus dem Quellcode verwendest, musst du es möglicherweise aus einem Online Repositorium installieren.
 
-In openSUSE wird vorgenommen dies durch: 
+In openSUSE wird vorgenommen dies durch:
+
+
 ```python
 sudo zypper install python3-ply
 ```
 
-In Debian/Ubuntu basierten Systemen wird dies wie nachfolgend gemacht. 
+In Debian/Ubuntu basierten Systemen wird dies wie nachfolgend gemacht.
+
+
 ```python
 sudo apt install python3-ply
 ```
 
-Die allgemeine Installation auf allen Plattformen kann über den Python Paketindex durchgeführt werden. 
+Die allgemeine Installation auf allen Plattformen kann über den Python Paketindex durchgeführt werden.
+
+
 ```python
 pip3 install --user ply
 ```
@@ -58,11 +64,25 @@ Die OpenSCAD Sprache erlaubt die Benutzung von Variablen und Schleifen. Sie erla
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Einstellungen](OpenSCAD_Preferences/de.md): verfügbare Einstellungen für die OpenSCAD Werkzeuge.
 
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Begrenzungen
 
 OpenSCAD erstellt CSG (constructive solid geometry) genauso wie es Netz-Körper importiert und 2D-Geometrie extrudiert (aus [DXF](DXF/de.md)-Dateien). FreeCAD erlaubt es, CSG auch mit Grundkörpern zu erstellen. Der Geometriekern von FreeCAD (OCCT) arbeitet mit einer Umgrenzungsdarstellung. Deshalb sollte die Umwandlung von CSG nach BREP in der Theorie möglich sein, während die Umwandlung von BREP nach CSG im Allgemeinen nicht funktionieren dürfte.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 OpenSCAD nutzt intern Netz-Körper. Manche Operationen, die bei Netz-Körpern nützlich sind, sind bei BREP-Körpern nicht sinnvoll und können daher nicht voll unterstützt werden. Unter diesen sind konvexe Hülle, Minkowski-Summe, glide und subdiv. Im Moment benutzen wir die OpenSCAD-Ausführungsdatei, um Hüllen und Minkowski-Operationen durchzuführen und die Ergebnisse zu importieren. Das bedeutet, das die beteiligte Geometrie trianguliert (temporär in Netz-Körper verwandelt) wird. In OpenSCAD wird nicht-einheitliches Skalieren oft benutzt, das keinerlei Probleme bei der Benutzung mit Netz-Köpern macht. In unserem Geometriekern werden geometrische Grundelemente (Linien, Kreissegmente) in BSplines konvertiert, bevor man solche Operationen durchführt. Diese BSplines sind bekannt dafür, dass Sie später in bool\'schen Operationen Fehler verursachen. Eine automatisierte Lösung ist im Moment nicht verfügbar. Bitte posten Sie im Fourm, wenn Sie solche Fehler entdecken. Oft können solche Problem dadurch vermieden werden, dass man kleine Teile des Modelles anders aufbaut. Ein Zylindersegment kann ersetzt werden durch ein extrudiertes Stück einer Ellipse.
+
+
+</div>
 
 ## Importing text 
 
@@ -93,9 +113,15 @@ Wenn FreeCAD beim Import von CSG abstürzt, wird dringend empfohlen, \"Modell au
 
 ## Verweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   OpenSCAD Quellcode Repositorium auf [GitHub](https://github.com/openscad/openscad)
 -   [Offene Tickets gekennzeichnet \"Openscad\" auf dem FreeCAD Fehlerverfolger](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
 -   [Dinge, die mit \"Openscad\" auf Thingiverse gekennzeichnet sind](http://www.thingiverse.com/tag:openscad)
+
+
+</div>
 
 
 

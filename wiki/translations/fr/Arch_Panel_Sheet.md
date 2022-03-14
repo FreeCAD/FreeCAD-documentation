@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Arch Panel Sheet
-   Name/fr:Arch Panneau de feuille
+   Name/fr:Arch Feuille de panneau
    MenuLocation:Arch → Outils pour panneaux → Panneau de feuille
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**P** **S**
@@ -12,7 +12,7 @@
 
 ## Description
 
-Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nombre d\'objets [Panneaux coupés](Arch_Panel_Cut/fr.md), ou tout autre objet 2D tel que ceux réalisés par le [l\'atelier Draft](Draft_Workbench/fr.md) et [atelier Sketcher](Sketcher_Workbench/fr.md). Le panneau est typiquement fait pour mettre en page des coupes destinées à être exécutées sur une machine à commande numérique par ordinateur. Ces feuilles peuvent ensuite être exportées vers un fichier [DXF](Draft_DXF/fr.md).
+Cet outil permet de construire une feuille 2D, comprenant un nombre quelconque d\'objets [Panneaux coupés](Arch_Panel_Cut/fr.md), ou tout autre objet 2D tel que ceux réalisés par l\'[atelier Draft](Draft_Workbench/fr.md) et l\'[atelier Sketcher](Sketcher_Workbench/fr.md). La feuille de panneau est généralement réalisée pour mettre en page les coupes à effectuer par une machine CNC. Ces feuilles peuvent ensuite être exportées vers un fichier [DXF](Draft_DXF/fr.md).
 
 <img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
 
@@ -22,10 +22,9 @@ Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nomb
 
 ## Comment l\'utiliser 
 
-1.  Optionnellement, selectionner un ou plusieurs objets [Arch Découpe de panneaux](Arch_Panel_Cut/fr.md) ou n\'importe quel autre objet construits dans le plan XY.
-2.  Pressez le bouton **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Panneau de feuille](Arch_Panel_Sheet/fr.md)
-** ou pressez les touches **P** et **S**
-3.  Réglez les propriétés désirées.
+1.  Sélectionnez un ou plusieurs objets [Arch Découpe de panneaux](Arch_Panel_Cut/fr.md) ou tout autre objet 2D qui se trouve sur le plan XY.
+2.  Appuyez sur le bouton **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Feuille de panneau](Arch_Panel_Sheet/fr.md)**, ou appuyez sur les touches **P** puis **S**.
+3.  Réglez les propriétés souhaitées.
 
 ## Options
 
@@ -39,33 +38,33 @@ Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nomb
 
 ### Données
 
--    {{PropertyData/fr|Height}}: La hauteur de la feuille
+-    **Height**: La hauteur de la feuille
 
--    {{PropertyData/fr|Width}}: La largeur de la feuille
+-    **Width**: La largeur de la feuille
 
--    {{PropertyData/fr|Fill Ratio}}: Le pourcentage de la surface de la feuille qui est remplie par des coupes (automatique)
+-    **Fill Ratio**: Le pourcentage de la surface de la feuille qui est remplie par des coupes (automatique)
 
--    {{PropertyData/fr|Tag Text}}: Le texte à afficher
+-    **Tag Text**: Le texte à afficher
 
--    {{PropertyData/fr|Tag Size}}: La taille du texte de l\'étiquette
+-    **Tag Size**: La taille du texte de l\'étiquette
 
--    {{PropertyData/fr|Tag Position}}: La position du texte de l\'étiquette. Conserver (0,0,0) pour la position centrale automatique
+-    **Tag Position**: La position du texte de l\'étiquette. Conserver (0,0,0) pour la position centrale automatique
 
--    {{PropertyData/fr|Tag Rotation}}: La rotation du texte de l\'étiquette
+-    **Tag Rotation**: La rotation du texte de l\'étiquette
 
--    {{PropertyData/fr|Font File}}: La police du texte de l\'étiquette
+-    **Font File**: La police du texte de l\'étiquette
 
--    {{PropertyData/fr|Make Face}}: Si face est réglé sur True, le panneau est une face de la pièce, sinon un fil (contour) de pièce
+-    **Make Face**: Si face est réglé sur True, le panneau est une face de la pièce, sinon un fil (contour) de pièce
 
--    {{PropertyData/fr|Grain Direction}}: Cela vous permet donner la direction principale de la fibre du panneau (dans le sens des aiguilles d\'une montre, 0° signifie le haut du panneau)
+-    **Grain Direction**: Cela vous permet donner la direction principale de la fibre du panneau (dans le sens des aiguilles d\'une montre, 0° signifie le haut du panneau)
 
 ### Vue
 
--    {{PropertyView/fr|Margin}}: affichage d\'une marge à l\'intérieur de la bordure du panneau.
+-    **Margin**: Affichage d\'une marge à l\'intérieur de la bordure du panneau.
 
--    {{PropertyView/fr|Show Margin}}: active/désactive l\'affichage de la marge.
+-    **Show Margin**: Active/désactive l\'affichage de la marge.
 
--    {{PropertyView/fr|Show Grain}}: affiche une texture de fibre (Make Face doit être défini à True).
+-    **Show Grain**: Affiche une texture de fibre (Make Face doit être défini à True).
 
 ## Script
 
@@ -74,7 +73,7 @@ Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nomb
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil panneau peut être utilisé dans une [macro](macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
+L\'outil Panneau peut être utilisé dans une [macro](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
 
 
 ```python

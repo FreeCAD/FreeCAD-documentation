@@ -20,9 +20,11 @@ Cet outil crée une courbe B-spline à partir de ses points de contrôle. (Voir 
 ## Utilisation
 
 1.  Appuyez sur le bouton **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Créer une B-spline](Sketcher_CreateBSpline/fr.md)**.
-2.  Créez une série de points en cliquant dans la vue 3D. Lorsque la commande est active, les points créés sont reliés par des lignes droites et un cercle de construction est créé au centre de chaque point.
-3.  Cliquez avec le bouton droit pour terminer la saisie et générer la courbe.
-4.  Selon les préférences, l\'outil peut rester actif pour tracer une nouvelle courbe. Cliquez à nouveau avec le bouton droit pour quitter la commande.
+2.  Créez une série de points en cliquant dans la [vue 3D](3D_view/fr.md). Lorsque la commande est active, les points créés sont reliés par des lignes droites et un cercle de construction est créé au centre de chaque point.
+3.  Vous pouvez appuyer sur **D** avant de terminer l\'entrée pour définir le degré du B-Spline. {{Version/fr|0.20}}
+4.  Vous pouvez appuyer sur **Retour arrière** avant de terminer l\'entrée pour supprimer le dernier point de contrôle créé. {{Version/fr|0.20}}
+5.  Cliquez avec le bouton droit pour terminer la saisie et générer la courbe.
+6.  Selon les préférences, l\'outil peut rester actif pour tracer une nouvelle courbe. Cliquez à nouveau avec le bouton droit pour quitter la commande.
 
 -   Il est possible de définir le poids des points de contrôle en modifiant les rayons des cercles. Les contraintes d\'égalité sur les cercles doivent d\'abord être supprimées. La valeur de la contrainte radiale est arbitraire, le poids des points de contrôle sera défini par les rayons relatifs des cercles. Son fonctionnement est similaire à celui de la gravité: plus un cercle est grand par rapport aux autres, plus la courbe sera attirée par le point de contrôle.
 -   La visibilité du polygone de contrôle, du peigne de courbure, du degré et de la multiplicité des nœuds peut être activée/désactivée à partir de la barre d'outils [Outils B-spline](Sketcher_Workbench/fr#Sketcher_B-spline_tools.md).

@@ -209,6 +209,11 @@ Das Basis Formelement ist vollkommen optional; es ist nur dann vorhanden, wenn e
 
 *Links: Bauteilkonstruktionskörper mit einem Basis Formelement, das von einem externen Festkörperobjekt übernommen wird, und viele nachfolgende [PartDesign Formelemente](PartDesign_Feature/de.md) obenauf. Rechts: Körper, der kein explizites Basis Formelement hat.*
 
+
+**Note:**
+
+If another PartDesign body is selected as a BaseFeature it must have a shape. If it is empty (no features, no BaseFeature, \...) this will result in error.
+
 ### Spitze
 
 Die Spitze ist das [PartDesign Formelement](PartDesign_Feature/de.md), das außerhalb des Körpers freiliegt; d.h. wenn ein anderes Werkzeug aus einem beliebigen Arbeitsbereich (z.B. **[<img src=images/Part_SimpleCopy.svg style="width:16px"> [Part EinfacheKopie](Part_SimpleCopy/de.md)** oder **[<img src=images/Part_Cut.svg style="width:16px"> [Part Schnitt](Part_Cut/de.md)**) die Form des Körpers verwenden muss, wird es die Form der Spitze verwenden. Anders ausgedrückt, die Spitze ist die endgültige Darstellung des Körpers, als ob die parametrische Historie nicht existieren würde.

@@ -11,21 +11,21 @@
 
 ## Description
 
-Cet outil vise à supprimer la forme cubique intérieure d\'un **<img src="images/Arch_Wall.svg" width=16px>[Arch Mmur](Arch_Wall/fr.md)** ou d\'une **<img src="images/Arch_Structure.svg" width=16px>[Arch Structure](Arch_Structure/fr.md)** et ajuste ses propriétés, la rendant totalement paramétriques. Cet outil ne fonctionne que si le shape sous-jacent est cubique (exactement 6 faces, tous les coins ont seulement des angles droits).
+Cet outil vise à supprimer la forme cubique intérieure d\'un **<img src="images/Arch_Wall.svg" width=16px>[Arch Mur](Arch_Wall/fr.md)** ou d\'une **<img src="images/Arch_Structure.svg" width=16px>[Arch Structure](Arch_Structure/fr.md)** et ajuste ses propriétés, la rendant totalement paramétriques. Cet outil ne fonctionne que si le shape sous-jacent est cubique (exactement 6 faces, tous les coins ont seulement des angles droits).
 
 ## Utilisation
 
-1.  Selectionnez un **<img src="images/Arch_Wall.svg" width=16px>[Mur Arch](Arch_Wall/fr.md)** ou une **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
-2.  Cliquez le bouton **<img src="images/Arch_RemoveShape.svg" width=16px> [Supprimer la forme](Arch_RemoveShape/fr.md)** ou par le menu **Arch** → **Utilities** → **<img src="images/Arch_RemoveShape.svg" width=16px> [Supprimer la forme](Arch_RemoveShape/fr.md)**.
+1.  Selectionnez un **<img src="images/Arch_Wall.svg" width=16px>[Arch Mur](Arch_Wall/fr.md)** ou une **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
+2.  Cliquez le bouton **<img src="images/Arch_RemoveShape.svg" width=16px> [Supprimer la forme](Arch_RemoveShape/fr.md)** ou par le menu **Arch** → **Utilitaires** → **<img src="images/Arch_RemoveShape.svg" width=16px> [Supprimer la forme](Arch_RemoveShape/fr.md)**.
 
 ## Script
 
 
 **Voir aussi:**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans une [macro](macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
+Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
 ```python
 removeShape(objs, mark=True)
 ```
@@ -53,6 +53,14 @@ FreeCAD.ActiveDocument.recompute()
 Arch.removeShape(Structure)
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

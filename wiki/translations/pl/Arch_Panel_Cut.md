@@ -4,6 +4,7 @@
    MenuLocation:Arch → Panel Tools → Panel Cut
    Workbenches:[Arch](Arch_Workbench.md), [Path](Path_Workbench.md)
    Shortcut:**P** **C**
+   Version:0.17
    SeeAlso:[Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md), [Arch Nest](Arch_Nest.md)
 ---
 

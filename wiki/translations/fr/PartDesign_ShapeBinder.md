@@ -112,7 +112,7 @@ Double-cliquez sur l\'étiquette de la Référence liée à une forme dans la [v
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_ navi
 
 }}
 

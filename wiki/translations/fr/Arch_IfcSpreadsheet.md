@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/fr
    Name:Arch_IfcSpreadsheet
-   Name/fr:Arch Tableur Ifc
-   MenuLocation:Arch → Utilitaires → Créer une feuille de calcul Ifc
+   Name/fr:Arch Tableur IFC
+   MenuLocation:Arch → Utilitaires → Créer une feuille de calcul IFC
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**I** **P**
-   SeeAlso:[Arch IFC](Arch_IFC/fr.md), [Arch Explorateur Ifc](Arch_IfcExplorer/fr.md)
+   SeeAlso:[Arch IFC](Arch_IFC/fr.md), [Arch Explorateur IFC](Arch_IfcExplorer/fr.md)
 ---
 
 # Arch IfcSpreadsheet/fr
@@ -27,9 +27,9 @@ Cet outil crée une feuille de calcul pour stocker les propriétés [IFC](Arch_I
 
 **Voir aussi:**
 
-[API](Arch_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans une [macro](macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
+Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
 ```python
 spreadsheet = makeIfcSpreadsheet(archobj=None)
 ```

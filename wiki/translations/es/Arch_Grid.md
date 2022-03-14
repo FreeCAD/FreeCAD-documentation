@@ -98,6 +98,8 @@ La grilla es un objeto 2D y, por lo tanto, puede utilizarse en cualquier lugar d
 
 -    {{PropertyData/es|Hidden Faces}}: los índices de caras para ocultar
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 

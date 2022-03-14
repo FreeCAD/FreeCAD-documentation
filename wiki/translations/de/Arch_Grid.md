@@ -57,12 +57,20 @@ Das Gitter ist ein 2D Objekt und kann daher überall dort verwendet werden, wo e
 
 -    **Ausgeblendete Flächen**: Die Indizes der ausgeblendeten Flächen
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skripten
 
 
 **Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

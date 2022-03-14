@@ -36,10 +36,16 @@
 -   Only objects that consist of a single solid are supported. Hence, [compounds](Glossary#Compound.md) like [Part container](Std_Part.md), [Part Compound](Part_Compound.md) or [Draft OrthoArray](Draft_OrthoArray.md) are not supported.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

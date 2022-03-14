@@ -17,6 +17,9 @@ Erzeugt durch Herausschneiden einen subtraktiven Grundkörper im aktiven Körper
 
 ## Grundelementtypen
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Abzuziehender Quader](PartDesign_SubtractiveBox/de.md)
 -   <img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:32px;"> [Abzuziehender Zylinder](PartDesign_SubtractiveCylinder/de.md)
 -   <img alt="" src=images/PartDesign_SubtractiveSphere.svg  style="width:32px;"> [Abzuziehende Kugel](PartDesign_SubtractiveSphere/de.md)
@@ -25,6 +28,9 @@ Erzeugt durch Herausschneiden einen subtraktiven Grundkörper im aktiven Körper
 -   <img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:32px;"> [Abzuziehender Torus](PartDesign_SubtractiveTorus/de.md)
 -   <img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Abzuziehendes Prisma](PartDesign_SubtractivePrism/de.md)
 -   <img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> [Abzuziehender Keil](PartDesign_SubtractiveWedge/de.md)
+
+
+</div>
 
 
 

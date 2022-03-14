@@ -2,19 +2,19 @@
 - GuiCommand:/fr
    Name:Arch Rebar UShape
    Name/fr:Arch Rebar Armature en U
-   MenuLocation:Arch → Rebar tools → Rebar UShape ou 3D/BIM → Reinforcement → Rebar UShape
+   MenuLocation:Arch → Rebar tools → U-Shape Rebar<br>3D/BIM → Reinforcement tools → U-Shape Rebar
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature en L](Arch_Rebar_LShape/fr.md)
    Version:0.17
+   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature en L](Arch_Rebar_LShape/fr.md)
 ---
 
 # Arch Rebar UShape/fr
 
 ## Description
 
-L\'outil [Armature en U](Arch_Rebar_UShape/fr.md) permet à l\'utilisateur de créer un ensemble de barres d\'armature en forme de U à l\'intérieur d\'un objet [Arch Structure](Arch_Structure/fr.md).
+L\'outil **<img src="images/Arch_Rebar_UShape.svg" width=16px> [Armature en U](Arch_Rebar_UShape/fr.md)** permet à l\'utilisateur de créer un ensemble de barres d\'armature en forme de U à l\'intérieur d\'un objet **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)**.
 
-L\'outil **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape/fr.md)** esy aussi intégré dans l\'[atelier BIM](BIM_Workbench.md).
+L\'outil **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape/fr.md)** est aussi intégré dans l\'[atelier BIM](BIM_Workbench.md).
 
 Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
@@ -23,9 +23,9 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Comment faire 
 
-1.  Sélectionnez n'importe quelle face d'un objet **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]** crée précedemment.
+1.  Sélectionnez n'importe quelle face d'un objet **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)** crée précedemment.
 
-2.  Ensuite, sélectionnez **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape.md)** dans les outils pour barres d\'armature.
+2.  Ensuite, sélectionnez **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape/fr.md)** dans les outils pour barres d\'armature.
 
 3.  Un [Panneau des tâches](Task_Panel/fr.md) apparaîtra sur le côté gauche de l\'écran, comme indiqué ci-dessous.
 
@@ -49,36 +49,36 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 
 
-*Panneau d'affichage des tâches de l'outil Armature en U Arch*
+*Panneau d'affichage des tâches de l'outil Arch Armature en U*
 
 ## Propriétés
 
--    {{PropertyData/fr|Orientation}}: Il définit l\'orientation de l\'armature (comme fond, haut, droite et gauche).
+-    **Orientation**: Il définit l\'orientation de l\'armature (comme fond, haut, droite et gauche).
 
--    {{PropertyData/fr|Front Cover}}: La distance entre l\'armature et la face sélectionnée.
+-    **Front Cover**: La distance entre l\'armature et la face sélectionnée.
 
--    {{PropertyData/fr|Right Cover}}: La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
+-    **Right Cover**: La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
 
--    {{PropertyData/fr|Left Cover}}: La distance entre l\'extrémité gauche de l\'armature à la face gauche de la structure.
+-    **Left Cover**: La distance entre l\'extrémité gauche de l\'armature à la face gauche de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'armature de la face inférieure de la structure.
+-    **Bottom Cover**: La distance entre l\'armature de la face inférieure de la structure.
 
--    {{PropertyData/fr|Top Cover}}: La distance entre l\'armature et la face supérieure de la structure.
+-    **Top Cover**: La distance entre l\'armature et la face supérieure de la structure.
 
--    {{PropertyData/fr|Rounding}}: Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre.
+-    **Rounding**: Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre.
 
--    {{PropertyData/fr|Amount}}: La quantité de barres d\'armature.
+-    **Amount**: La quantité de barres d\'armature.
 
--    {{PropertyData/fr|Spacing}}: La distance entre les axes de chaque barre.
+-    **Spacing**: La distance entre les axes de chaque barre.
 
 ## Script
 
 
 **Voir aussi :**
 
-[Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md), [Reinforcement API](Reinforcement_API/fr.md) et [FreeCAD Scripts de bases](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature en U peut être utilisé dans les [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante : 
+L\'outil Armature en U peut être utilisé dans les [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante : 
 ```python
 Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
@@ -119,9 +119,11 @@ Rebar2 = UShapeRebar.makeUShapeRebar(50, 50, 20, 20,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
 
-### Édition de la barre d'armement 
+### Modifier la barre de renfort 
 
-Vous pouvez changer les propriétés de la barre d'armement avec la fonction suivante. 
+Vous pouvez changer les propriétés de la barre d'armement avec la fonction suivante.
+
+
 ```python
 editUShapeRebar(Rebar, f_cover, b_cover, r_cover, l_cover,
                 diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation,

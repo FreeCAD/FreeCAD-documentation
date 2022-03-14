@@ -20,13 +20,22 @@ Understanding a little of the history of FreeCAD potentially help users comprehe
 
 The Part Design Workbench has many equivalent functions to SolidWorks, though may be called by different names. The image below identifies equivalent functions and their names on each platform, as well as noting similar functions and functions that are unique to each platform: ![](images/Features_and_Part_Design.png )
 
+## Terminology
+
+-   **Extrude** in FreeCAD terms is referred to as Padding (see **![](images/)_[Pad](PartDesign_Pad.md)**)
+
+-   **Collinear relation** in FreeCAD is called **![](images/)_[Tangent_constraint](Sketcher_ConstrainTangent.md)**
+
+-    **![](images/)_[Constrain_Point_on_Object](Sketcher_ConstrainPointOnObject.md)**
+    
+
 ## Tutorials
 
 List of helpful tutorials
 
-### Joko Engineering 
+### Joko Engineeringhelp 
 
-There are many video tutorials online. One of the most popular (at the time this was written) is by a Youtuber calling himself [**Joko Engineering**](https://www.youtube.com/channel/UC-CubOaooNwC-3RBKUoAOQQ/videos) (he also participates on the FreeCAD Forum as Celica\_Supra ([profile link](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=22176)).
+There are many video tutorials online. One of the most popular (at the time this was written) is by a Youtuber calling himself [**Joko Engineeringhelp**](https://www.youtube.com/channel/UC-CubOaooNwC-3RBKUoAOQQ/videos) (he also participates on the FreeCAD Forum as Celica\_Supra ([profile link](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=22176)). One of his tutorials is meant specifically for former SolidWorks users: <https://www.youtube.com/watch?v=7XXnulyKPNI> Some of the other videos are comparisons of SolidWorks and FreeCAD: <https://www.youtube.com/watch?v=RX8-3rMCbRw>
 
 ## Related
 

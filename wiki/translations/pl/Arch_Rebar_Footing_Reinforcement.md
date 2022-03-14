@@ -503,7 +503,7 @@ footingReinforcementGroup = editFootingReinforcement(
 )
 ```
 
--    `footngReinforcementGroup`to wcześniej utworzony obiekt grupy `Footing Reinforcement`.
+-    `footingReinforcementGroup`to wcześniej utworzony obiekt grupy `Footing Reinforcement`.
 
 -   Pozostałe parametry są takie same, jak wymagane przez funkcję `makeFootingReinforcement()`.
 

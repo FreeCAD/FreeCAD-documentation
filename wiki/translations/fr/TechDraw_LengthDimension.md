@@ -45,13 +45,13 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 ### Mise en forme 
 
--   **Nombre de décimales**: Comment la valeur de la dimension sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
+-   **Nombre de décimales** : Comment la valeur de la dimension sera formatée. Par défaut, le spécificateur est {{Value|%.xf}} où {{Value|x}} est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf). Il existe également un format supplémentaire {{Value|%w}} qui imprime le nombre de chiffres spécifié après le séparateur décimal et supprime les zéros de fin. Par exemple, {{Value|%.2w}} signifie qu\'au maximum 2 décimales seront imprimées et que les zéros de queue seront supprimés.
 
 -   **Texte arbitraire**: Si coché, la dimension est remplacée par le contenu du champ **Nombre de décimales**.
 
--   **Précision de la tolérance supérieure**: Comment la valeur de surtolérance sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
+-   **Précision de la tolérance supérieure**: Comment la valeur de surtolérance sera formatée. Par défaut, le spécificateur est {{Value|%.xf}} où {{Value|x}} est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
 
--   **Précision de la tolérance inférieure**: Comment la valeur de sous-tolérance sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
+-   **Précision de la tolérance inférieure**: Comment la valeur de sous-tolérance sera formatée. Par défaut, le spécificateur est {{Value|%.xf}} où {{Value|x}} est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
 
 -   **Tolérance du texte arbitraire**: Si coché, les tolérances sont remplacées par le contenu des champs **Précision de la tolérance supérieure** **Précision de la tolérance inférieure**.
 
@@ -63,7 +63,7 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 -   **Taille de la police**: La taille du texte de la cote.
 
--   **Style de représentation**: La norme (et son style) selon laquelle la cote est dessinée. Voir la propriété [**Standard And Style**](#Vue.md) pour plus de détails.
+-   **Style de représentation**: La norme (et son style) selon laquelle la cote est dessinée. Voir la propriété [**Norme et style**](#Vue.md) pour plus de détails.
 
 ### Lignes
 
@@ -152,7 +152,7 @@ La boîte de dialogue des dimensions propose les paramètres suivants :
 
 {{Properties_Title|Format}}
 
--    **Format Spec**: comment la valeur de dimension sera formatée. Par défaut, le spécificateur est *%.xf* où *x* est le nombre de décimales. Pour la syntaxe de formatage, voir [cette page Wikipedia](https://fr.wikipedia.org/wiki/Printf).
+-    **Format Spec**: comment la valeur de dimension sera formatée. Voir [Mise en forme](#Mise_en_forme.md).
 
 -    **Format Spec Over Tolerance**: comme **Format Spec**, mais pour les surtolérances.
 
@@ -287,7 +287,7 @@ dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)
 ```
 
-## Notes
+## Remarques
 
 -   **Sélection d\'un bord**. Les bords peuvent être difficiles à sélectionner. Vous pouvez ajuster la zone de sélection des arêtes à l'aide du paramètre \"/Mod/TechDraw/General/EdgeFuzz\" (voir l\'[Editeur de paramètres](Std_DlgParameter/fr.md)). C\'est un nombre sans dimension. La valeur par défaut est 10.0. Des valeurs dans la plage 20-30 faciliteront considérablement la sélection des arêtes. Un grand nombre entraînera des chevauchements avec d\'autres éléments de dessin.
 -   **Position des décimales**. Les cotes utilisent le paramètre de nombre total de décimales par défaut. Cela peut être changé via [préférences](TechDraw_Preferences/fr#Dimensions/fr.md) ou en modifiant la propriété FormatSpec.

@@ -2,15 +2,12 @@
 - GuiCommand:/de
    Name:TechDraw PageDefault
    Name/de:TechDraw StandardSeite
-   MenuLocation:TechDraw → Einfügen Standard Seite
+   MenuLocation:TechDraw → Neues Zeichnungsblatt aus der Standardvorlage erstellen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw SeitenVorlage einfügen](TechDraw_PageTemplate/de.md), [TechDraw Vorlagen](TechDraw_Templates/de.md)
+   SeeAlso:[TechDraw SeitenVorlage](TechDraw_PageTemplate/de.md), [TechDraw Vorlagen](TechDraw_Templates/de.md)
 ---
 
 # TechDraw PageDefault/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -33,14 +30,7 @@ Das Neue Standard Werkzeug erstellt ein neues Seitenobjekt unter Verwendung der 
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn die Standardvorlage nicht in der Konfigurationsdatei `user.cfg` angegeben ist, wird das Werkzeug versuchen die Vorlage A4-Querformat zu öffnen und folgenden Pfad verwenden.
-
-
-</div>
-
+Wenn die Standardvorlage nicht in der Konfigurationsdatei `user.cfg` angegeben ist, wird das Werkzeug folgendes versuchen:
 
 :   
     
@@ -51,14 +41,10 @@ Wenn die Standardvorlage nicht in der Konfigurationsdatei `user.cfg` angegeben i
     
 
 
-<div class="mw-translate-fuzzy">
-
-wobei `$INSTALL_DIR` das Verzeichnis ist, in welchem FreeCAD installiert wurde. Das kann z.B. so aussehen
 
 
-</div>
 
-
+:   wobei `$INSTALL_DIR` das Verzeichnis ist, in welchem FreeCAD installiert wurde. Das kann z.B. so aussehen:
 :   
     
 ```python
@@ -69,40 +55,36 @@ wobei `$INSTALL_DIR` das Verzeichnis ist, in welchem FreeCAD installiert wurde. 
 
 ## Eigenschaften
 
-### Data
+### Daten
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Basis}}
 
--    **Projection Type**: Default projection type (First or Third Angle) for this Page.
-
-
-{{TitleProperty|Page}}
+-    {{PropertyData/de|Projection Type}}: Standardprojektionsart (erster oder dritter Winkel) dieser Seite.
 
 
-<div class="mw-translate-fuzzy">
+{{TitleProperty|Page properties}}
 
--    **Projektionstyp**: Standard Projektionstyp (erster oder dritter Winkel) für diese Seite.
+-    {{PropertyData/de|Projektionstyp}}: Standard Projektionstyp (erster oder dritter Winkel) für diese Seite.
 
--    **Aktualisiert halten**: Falls false, wird die Seite nicht mit Änderungen am 3D Modell aktualisiert. Nützlich für komplizierte/langsame Zeichnungen. Siehe Anmerkungen.
+-    {{PropertyData/de|Aktualisiert halten}}: Falls false, wird die Seite nicht mit Änderungen am 3D Modell aktualisiert. Nützlich für komplizierte/langsame Zeichnungen. Siehe Anmerkungen.
 
--    **Vorlage**: Ein Verweis auf das [Vorlagen](TechDraw_Templates/de.md) Objekt dieser Seite.
+-    {{PropertyData/de|Vorlage}}: Ein Verweis auf das [Vorlagen](TechDraw_Templates/de.md)-Objekt dieser Seite.
 
--    **Ansichten**: Eine Liste von Verweisen auf die Ansichten auf dieser Seite.
+-    {{PropertyData/de|Ansichten}}: Eine Liste von Verweisen auf die Ansichten auf dieser Seite.
 
--    **Maßstab**: Standardmaßstab für Ansichten auf dieser Seite.
+-    {{PropertyData/de|Maßstab}}: Standardmaßstab für Ansichten auf dieser Seite.
 
+-    {{PropertyData/de|Next Balloon Index}}: Autonummerierung für Balloons.
 
-</div>
-
-### View
+### Ansicht
 
 
 {{TitleProperty|Grid}}
 
--    **Show Grid**: Show a grid over this Page. <small>(v0.20)</small> 
+-    {{PropertyView/de|Show Grid}}: Zeigt ein Raster über dieser Seite an. <small>(v0.20)</small> 
 
--    **Grid Spacing**: Distance between grid lines in mm. <small>(v0.20)</small> 
+-    {{PropertyView/de|Grid Spacing}}: Abstand zwischen den Rasterlinien in mm. <small>(v0.20)</small> 
 
 ## Skripten
 

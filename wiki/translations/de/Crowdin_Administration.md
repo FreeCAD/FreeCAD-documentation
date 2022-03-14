@@ -75,7 +75,7 @@ If you notice a string in the FreeCAD UI that is not translated do the following
 
 1.  If you are not sure to which workbench the string belongs, first locate it in the FreeCAD source code. On Linux you can use {{Incode|grep -r "English text" *}}.
 2.  For example, if the string is {{Incode|"Solver Calculix Standard"}} you will find this file: {{FileName|src/Mod/Fem/femcommands/commands.py}}, and you will know that the string belongs to the FEM workbench.
-3.  Now search for this string on Crowdin. If your language is French visit <https://crowdin.com/project/freecad/fr>, go to the FEM workbench, and check if is there and translated.
+3.  Now search for this string on Crowdin. If your language is French visit <https://crowdin.com/project/freecad/fr>, go to the FEM workbench, and check if it is there and translated.
 4.  There two possibilities:
     1.  The string is not on Crowdin because it has not been picked up by the script that gathers strings from the FreeCAD source code and packs them into {{FileName|.ts}} files. There can be two reasons for this:
         -   The string is not properly handled by {{Incode|translate()}} code (or {{Incode|QT_TRANSLATE_NOOP()}} code for special cases like command names), that means there is a problem that must be solved in the source code.

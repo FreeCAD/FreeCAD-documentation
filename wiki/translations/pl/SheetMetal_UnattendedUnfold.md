@@ -19,29 +19,17 @@ With the first use of the <img alt="" src=images/SheetMetal_Unfold.svg  style="w
 
 ## Usage
 
-1.  Select a flat face of a sheet metal part. **Note**: the face should be planar and with constant thickness
-2.  Activate the <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md) command using the:
-    -   
-        **<img src="images/_SheetMetal_UnattendedUnfold.svg_" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)
-**
-        
-        button
-
-    -   
-        **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)
-**
-        
-        drop down menu
-
-    -   keyboard shortcut: **U**
+1.  Select one planar face of a sheet metal part.
+2.  Activate the <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [UnattendedUnfold](SheetMetal_UnattendedUnfold.md) command using one of the following:
+    -   The **<img src="images/_SheetMetal_UnattendedUnfold.svg_" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)** button.
+    -   The **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)** menu option.
+    -   The keyboard shortcut: **U**
 
 ## Properties
 
 See also: [Property editor](Property_editor.md).
 
-This tool creates an Unfold object and has no representation of its own in the [Tree view](Tree_view.md) or elsewhere and so has no properties.
-
-The **Unfold** object, on the other hand, is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It has no additional properties, but its label has a default value:
+A SheetMetal Unfold object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It has no additional properties, but its label has a default value:
 
 ### Data
 

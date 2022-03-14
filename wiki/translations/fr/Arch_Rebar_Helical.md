@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Rebar Helical
    Name/fr:Arch Rebar Armature hélicoïdale
-   MenuLocation:Arch → Rebar tools → Helical Rebar ou 3D/BIM → Reinforcement → Helical Rebar
+   MenuLocation:Arch → Rebar tools → Helical Rebar<br>3D/BIM → Reinforcement tools → Helical Rebar
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Armature en étrier](Arch_Rebar_Stirrup/fr.md), [Arch Rebar Armature en colonnes](Arch_Rebar_ColumnReinforcement/fr.md)

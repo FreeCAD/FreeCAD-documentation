@@ -12,10 +12,23 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент **Продлить** произвольно продлевает ребро на эскизе, или до другого ребра.
 
-<img alt="" src=images/Sketcher_Extend_example_01.png  style="width:600px;"> 
+
+</div>
+
+<img alt="" src=images/Sketcher_Extend_example_01.png  style="width:600px;">
+
+
+<div class="mw-translate-fuzzy">
+
 *Слева показано (1), два элемента эскиза перед операцией; в середине (2), линия продлена до дуги; справа (3), конечный результат.*
+
+
+</div>
 
 ## Применение
 
@@ -31,9 +44,10 @@
 
 </div>
 
-## Ограничения
+## Notes
 
--   В настоящее время продлены могут быть только дуги и линии.
+-   Only arcs and lines can be extended at this time.
+-   The target edge or point object may be modified as well if it is not fully constrained.
 
 
 

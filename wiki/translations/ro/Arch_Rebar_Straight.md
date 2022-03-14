@@ -14,6 +14,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -80,6 +82,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    **Amount**: Cantitatea de armătură
 
 -    **Spacing**: Distnța dintre acele fiecărei bare.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

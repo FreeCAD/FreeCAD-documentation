@@ -106,27 +106,27 @@ Przycisk **Wybrane punkty** służy do wypełniania współrzędnych w polach ws
 
 Rozważmy najpierw prosty przypadek wybrania jednego punktu. W tym celu należy najpierw zaznaczyć żądany punkt, a następnie kliknąć przycisk **Wybrane punkty**. Współrzędne wybranego punktu zostaną użyte do wypełnienia pól obrotowych X, Y i Z w sekcji **Środek**. Teraz każdy obrót wykonywany na obiekcie będzie się odbywał wokół tego środka obrotu.
 
-Now consider the case of selecting 2 points. You would select the 2 desired points, and then click the **Selected points** button. The coordinates of the midpoint between the 2 selected points get placed into the X, Y, and Z spinboxes within the **Center** section. Now any rotation done on the object will be about this center of rotation. But in addition to setting up the **Center** section coordinates a custom (user-defined) axis is also added to the **Axis** element within the **Rotation** section. (Note: if you were in Euler rotation mode, the mode gets switched to Rotation with an axis mode and the new custom axis is selected as the current axis of rotation.) Now any rotation done using the new custom axis will be about this axis of rotation. As an added bonus, the distance is measured between the 2 selected points, and this information is given in the Report View. (Note: Hold down the Shift key while clicking the **Selected points** button to copy the distance measurement to the clipboard.) By entering this distance into the Axial spinbox in the **Translation** section and clicking the **Apply axial** button you can translate (move) the object so that the first selected point now occupies the coordinates occupied by the second selected point (at the time the **Selected points** button was clicked).
+Rozważmy teraz przypadek wybrania dwóch punktów. Wybieramy dwa żądane punkty, a następnie klikamy przycisk **Wybrane punkty**. Współrzędne punktu środkowego między dwoma wybranymi punktami zostaną umieszczone w polach X, Y i Z w sekcji **Środek**. Teraz każdy obrót wykonywany na obiekcie będzie się odbywał wokół tego środka obrotu. Jednak oprócz ustawienia współrzędnych sekcji **Środek** do elementu **Oś** w sekcji **Obrót** dodaje się również oś niestandardową *(zdefiniowaną przez użytkownika)*. *(Uwaga: jeśli byłeś w trybie obrotu Eulera, tryb ten zostanie przełączony na tryb obrotu z osią, a nowa oś niestandardowa zostanie wybrana jako bieżąca oś obrotu)*. Teraz każdy obrót wykonany przy użyciu nowej osi niestandardowej będzie się odbywał wokół tej osi obrotu. Dodatkową zaletą jest pomiar odległości między dwoma wybranymi punktami, a informacja ta jest podawana w widoku raportu. *(Uwaga: Przytrzymaj klawisz **Shift** podczas klikania przycisku **Wybrane punkty**, aby skopiować pomiar odległości do schowka)*. Wprowadzając tę odległość do pola wyboru Oś w sekcji **Przesunięcie** i klikając przycisk **Zastosuj osiowe**, można przesunąć obiekt tak, że pierwszy zaznaczony punkt zajmuje teraz współrzędne zajmowane przez drugi zaznaczony punkt *(w momencie kliknięcia przycisku **Wybrane punkty**)*.
 
-Now consider the case of selecting 3 points. You would select the 3 desired points, and then click the **Selected points** button. The coordinates of the first selected point (order of selection is very important here) get placed into the X, Y, and Z spinboxes within the **Center** section. Since 3 points define a plane FreeCAD is able to take advantage of that and use those 3 points to create a new custom (user-defined) axis of rotation that is normal (perpendicular) to that defined plane. As with 2 selected points, the distance between points is also shown in the Report View, but this time it is the distance between the 2nd and 3rd selected points. (Note: Hold down the Shift key while clicking **Selected points** button \-- Shift + Click \-- to copy the angle measurement to the clipboard.) Additionally, the angle between the 2nd and 3rd points is also measured and displayed in the Report View. By entering this angle into the **Angle** spinbox within the **Rotation** section we can very precisely rotate the object such that now the 2nd selected point is in alignment with the coordinates occupied by the 3rd selected point. (Note: you might want to increase the number of digits used within the Edit menu -\> Preferences -\> General -\> Units -\> Number of decimals spinbox if you desire more precision.)
+Rozważmy teraz przypadek wybrania trzech punktów. Wybieramy trzy żądane punkty, a następnie klikamy przycisk **Wybrane punkty**. Współrzędne pierwszego wybranego punktu *(kolejność wyboru jest tu bardzo ważna)* zostaną umieszczone w polach X, Y i Z w sekcji **Środek**. Ponieważ te trzy punkty definiują płaszczyznę, FreeCAD może to wykorzystać i użyć tych punktów do utworzenia nowej niestandardowej *(zdefiniowanej przez użytkownika)* osi obrotu, która jest normalną *(prostopadła)* do tej zdefiniowanej płaszczyzny. Podobnie jak w przypadku dwuch wybranych punktów, odległość między punktami jest również wyświetlana w widoku raportu, ale tym razem jest to odległość między drugim i trzecim wybranym punktem. *(Uwaga: Przytrzymaj klawisz **Shift** podczas klikania przycisku **Wybrane punkty** \-- Shift + Kliknij \-- aby skopiować miarę kąta do schowka)*. Dodatkowo, kąt między drugim i trzecim punktem jest również mierzony i wyświetlany w widoku raportu. Wprowadzając ten kąt do pola wyboru **Kąt** w sekcji **Obrót** możemy bardzo precyzyjnie obrócić obiekt tak, aby teraz drugi zaznaczony punkt był w jednej linii ze współrzędnymi trzeciego zaznaczonego punktu. *(Uwaga: jeśli chcesz uzyskać większą precyzję, możesz zwiększyć liczbę cyfr w menu Edycja → Preferencje → Ogólne → Jednostki → Liczba miejsc po przecinku)*.
 
 ## Przykłady
 
 Obroty wokół jednej osi:
 
-<img alt="Before Rotation" src=images/RotationAboutZBefore.png  style="width:600px;"> Before Rotation (top view) 
+<img alt="Przed obrotem" src=images/RotationAboutZBefore.png  style="width:600px;"> Przed obróceniem *(widok z góry)* 
 
-<img alt="After Rotation about Z" src=images/RotationAboutZAfter.png  style="width:600px;"> After Rotation about Z (top view) 
+<img alt="Po obrocie wokół osi Z" src=images/RotationAboutZAfter.png  style="width:600px;"> Po obróceniu wokół osi Z *(widok z góry)* 
 
-<img alt="After Rotation about y=x" src=images/RotationAboutYXAfter.png  style="width:600px;"> After Rotation about y=x (right view) 
+<img alt="Po obróceniu wokół y=x" src=images/RotationAboutYXAfter.png  style="width:600px;"> Po obróceniu wokół y=x (widok z prawej strony) 
 
-Rotation with offset centre point:
+Obrót z przesunięciem punktu środkowego:
 
-<img alt="Before Rotation" src=images/RotationOffsetBefore.png  style="width:600px;"> Before Rotation (top view) 
+<img alt="Przed obróceniem" src=images/RotationOffsetBefore._png  style="width:600px;"> Przed obrotem *(widok z góry)* 
 
-<img alt="After Rotation about Z" src=images/RotationOffsetAfter.png  style="width:600px;"> After Rotation about Z (top view) 
+<img alt="Po obrocie wokół Z" src=images/RotationOffsetAfter._png  style="width:600px;"> Po obrocie wokół Z *(widok z góry)* 
 
-Rotation using Euler angles:
+Obrót z użyciem kątów Eulera:
 
 <img alt="Before Rotation" src=images/RotationEulerBefore.png  style="width:600px;"> Before Rotation 
 

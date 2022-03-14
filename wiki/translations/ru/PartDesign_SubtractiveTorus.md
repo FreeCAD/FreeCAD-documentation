@@ -47,10 +47,16 @@ The Torus can be edited after its creation in two ways:
 -    **Angle3**: (labelled *U parameter* in the Primitive parameters) angle of rotation of the circular cross section (360° in a full torus).
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

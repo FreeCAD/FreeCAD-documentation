@@ -1,4 +1,12 @@
 # Arch JSON/de
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
 Der Hauptzweck dieses Exportformat ist es, FreeCAD-Modelldaten mit anderen Programmiersprachen zu verarbeiten. Das [JSON](http://json.org/)-Format ist wie folgt:
 
       {
@@ -18,6 +26,15 @@ Der Hauptzweck dieses Exportformat ist es, FreeCAD-Modelldaten mit anderen Progr
       }
 
 Beachte, dass Facetten Dreiecke bilden und ihre Integer-Werte sich auf Punkte im **vertices**-Feld (vertices array) beziehen. Facetten-\'Normale\' (normals) finden sich an der entsprechenden Position im **normals**-Feld (normals array). **description**, **color** und **wires** sind alle optional. Dieses Format kann leicht erweitert werden, um zusätzliche Modelldaten zu enthalten.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

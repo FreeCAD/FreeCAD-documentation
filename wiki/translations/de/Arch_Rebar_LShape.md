@@ -9,6 +9,9 @@
 
 # Arch Rebar LShape/de
 
+
+</div>
+
 ## Beschreibung
 
 Das [L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von L-förmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
@@ -134,6 +137,9 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{docnav/de
 |[U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)
 |[abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)
@@ -142,6 +148,9 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 |IconR=Arch_Rebar_BentShape.svg
 |IconC=Workbench_Arch.svg
 }}
+
+
+</div>
 
 
 

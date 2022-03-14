@@ -153,7 +153,7 @@ There is a workaround for multiple selection: If you select all the elements you
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_ navi
 
 }}
 

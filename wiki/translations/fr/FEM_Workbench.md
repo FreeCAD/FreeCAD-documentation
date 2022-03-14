@@ -70,7 +70,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Contrainte de rotation du plan](FEM_ConstraintPlaneRotation/fr.md) : Permet de définir une contrainte de rotation plane sur une face plane.
 
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Contrainte d\'empreinte de section](FEM_ConstraintSectionPrint/fr.md) : {{Version/fr|0.19}}
+-   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Contrainte d\'empreinte de section](FEM_ConstraintSectionPrint/fr.md) : Permet d\'imprimer les variables de sortie faciales prédéfinies (forces et moments) dans le fichier de données. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Contrainte de transformation](FEM_ConstraintTransform/fr.md) : Utilisé pour définir une contrainte de transformation sur une face.
 
@@ -120,9 +120,9 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 ## Menu : Maillage 
 
--   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Maillage MEF à partir d\'une forme avec Netgen](FEM_MeshNetgenFromShape/fr.md) :
+-   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Maillage MEF à partir d\'une forme avec Netgen](FEM_MeshNetgenFromShape/fr.md) : Génère un maillage d\'éléments finis pour un modèle en utilisant Netgen.
 
--   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [Maillage MEF à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md) :
+-   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [Maillage MEF à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr.md) : Génère un maillage d\'éléments finis pour un modèle en utilisant Gmsh.
 
 -   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> [Couche limite de maillage MEF](FEM_MeshBoundaryLayer/fr.md) : crée des maillages anisotropes pour des calculs précis près des frontières.
 
@@ -170,9 +170,9 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:32px;"> [Appliquer les modifications](FEM_PostApplyChanges/fr.md) :
 
--   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Post traitement affichage des résultats](FEM_PostPipelineFromResult/fr.md) :
+-   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Post traitement affichage des résultats](FEM_PostPipelineFromResult/fr.md) : Permet d\'ajouter une nouvelle représentation graphique des résultats d\'analyse FEM (échelle de couleurs et plus d\'options d\'affichage).
 
--   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Filtre de distorsion](FEM_PostFilterWarp/fr.md) :
+-   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Filtre de distorsion](FEM_PostFilterWarp/fr.md) : Utilisé pour visualiser la forme déformée à l\'échelle du modèle.
 
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Filtre découpe scalaire](FEM_PostFilterClipScalar/fr.md) :
 

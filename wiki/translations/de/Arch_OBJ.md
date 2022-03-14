@@ -1,9 +1,15 @@
 # Arch OBJ/de
+<div class="mw-translate-fuzzy">
+
+
 {{docnav/de
 |[DAE](Arch_DAE/de.md)
 |[JSON](Arch_JSON/de.md)
 |[Arch-Arbeitsbereich](Arch_Workbench/de.md)
 }}
+
+
+</div>
 
 ## Beschreibung
 
@@ -42,10 +48,21 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 -   [Convert STEP to Wavefront OBJ with colors of faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452)
 
+## Tutorials
+
+
+<div class="mw-translate-fuzzy">
+
 ## Übungen
 
 -   [Import von STL oder OBJ](Import_from_STL_or_OBJ/de.md)
 -   [Export nach STL oder OBJ](Export_to_STL_or_OBJ/de.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{docnav/de
@@ -53,6 +70,9 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 |[JSON](Arch_JSON/de.md)
 |[Arch-Arbeitsbereich](Arch_Workbench/de.md)
 }}
+
+
+</div>
 
 
 

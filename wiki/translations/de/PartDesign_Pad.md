@@ -19,16 +19,28 @@ Das Werkzeug **Aufpolsterung** extrudiert eine Skizze oder eine Fläche eines Vo
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Eine Skizze oder Fläche auswählen, die extrudiert werden soll. Ab <small>(v0.20)</small>  können wahlweise mehrere Skizzen oder Flächen ausgewählt werden.
 2.  Drücke die Schaltfläche **<img src="images/PartDesign_Pad.svg" width=16px> '''Aufpolsterung'''**.
 3.  Setze die Aufpolsterparameter, siehe [Optionen](#Options.md) unten.
 4.  Klicke **OK**.
 
+
+</div>
+
 Wenn eine einzelne Skizze ausgewählt wird, kann sie mehrere geschlossene Konturen innerhalb einer größeren enthalten, z.B. ein Rechteck mit zwei Kreisen darin. Die Konturen dürfen sich nur nicht überlappen. {{Version/de|0.20}}
 
 ## Optionen
 
+
+<div class="mw-translate-fuzzy">
+
 Währen des Extrudierens wird der Dialog **Parameter der Aufpolsterung** angezeigt. Er bietet folgende Einstellungen:
+
+
+</div>
 
 ![](images/pad_parameters_cropped.png )
 
@@ -80,7 +92,7 @@ Wenn angehakt, wird die Polster Richtung angezeigt. Falls die Aufpolsterung eine
 
 #### Länge entlang der Skizzennormalen 
 
-Wenn angehakt, wird die Polsterlänge entlang der Skizzen Normalen gemessen, sonst entlang der benutzerdefinierten Richtung. {{Version/de|0.20}}
+Wenn angehakt, wird die Länge der Aufpolsterung entlang der Skizzennormalen gemessen, sonst entlang der benutzerdefinierten Richtung. {{Version/de|0.20}}
 
 ### Symmetrisch zur Ebene 
 

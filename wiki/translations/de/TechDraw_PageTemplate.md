@@ -2,15 +2,12 @@
 - GuiCommand:/de
    Name:TechDraw PageTemplate
    Name/de:TechDraw SeitenVorlage
-   MenuLocation:TechDraw → Seite aus Vorlage einfügen
+   MenuLocation:TechDraw → Neues Zeichnungsblatt aus einer Vorlage erstellen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    SeeAlso:[TechDraw Standardseite](TechDraw_PageDefault/de.md), [TechDraw Vorlagen](TechDraw_Templates/de.md)
 ---
 
 # TechDraw PageTemplate/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -30,7 +27,7 @@ Das Startverzeichnis für das Dialogfenster kann in den [TechDraw Einstellungen]
 
 ## Eigenschaften
 
-See [TechDraw PageDefault](TechDraw_PageDefault#Properties.md).
+See [TechDraw Standardseite](TechDraw_PageDefault/de#Eigenschaften.md).
 
 ## Skripten
 

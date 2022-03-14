@@ -52,7 +52,7 @@ Les Pyramides tronquées peuvent être utilisées pour créer des pyramides en f
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

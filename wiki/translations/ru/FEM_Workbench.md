@@ -70,7 +70,13 @@
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Constraint plane rotation](FEM_ConstraintPlaneRotation/ru.md): Используется для определения ограничения плоского вращения на плоской поверхности.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Constraint sectionprint](FEM_ConstraintSectionPrint/ru.md): Creates a FEM constraint sectionprint {{Version/ru|0.19}}.
+
+
+</div>
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Constraint transform](FEM_ConstraintTransform/ru.md): Используется для назначения ограничения трансформации на грани.
 
@@ -120,9 +126,21 @@
 
 ## Меню: Сетка 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Cетка МКЭ из фигуры генерируемая построителем Netgen](FEM_MeshNetgenFromShape/ru.md): Create a FEM mesh from a solid or face shape by Netgen internal mesher.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [Сетка МКЭ из фигуры генерируемая построителем Gmsh](FEM_MeshGmshFromShape/ru.md): Создать сетку МКЭ из фигуры с помощью генератора сетки Gmsh.
+
+
+</div>
 
 -   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> [Граничный слой сетки МКЭ](FEM_MeshBoundaryLayer/ru.md): Создает граничный слой сетки МКЭ.
 
@@ -172,9 +190,21 @@ Translations:FEM Module/141/ru
 
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:32px;"> [Apply changes to pipeline](FEM_PostApplyChanges/ru.md): Apply changes to parameters directly and not on recompute only\....
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Post pipeline from result](FEM_PostPipelineFromResult/ru.md): Creates a post processing pipeline from a result object.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Warp filter](FEM_PostFilterWarp/ru.md): Warp the geometry along a vector field by a certain factor.
+
+
+</div>
 
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/ru.md):
 

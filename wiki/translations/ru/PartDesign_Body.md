@@ -196,6 +196,11 @@ The Base Feature is entirely optional; it is only present when including an obje
 
 *Left: PartDesign Body with a Base Feature that is taken from an external solid object, and many subsequent [PartDesign Features](PartDesign_Feature.md) on top. Right: Body which doesn't have an explicit Base Feature.*
 
+
+**Note:**
+
+If another PartDesign body is selected as a BaseFeature it must have a shape. If it is empty (no features, no BaseFeature, \...) this will result in error.
+
 ### Tip
 
 The Tip is the [PartDesign Feature](PartDesign_Feature.md) that is exposed outside the Body; that is, if another tool from any workbench (for example, **[<img src=images/Part_SimpleCopy.svg style="width:16px"> [Part SimpleCopy](Part_SimpleCopy.md)** or **[<img src=images/Part_Cut.svg style="width:16px"> [Part Cut](Part_Cut.md)**) needs to use the shape of the Body, it will use the shape of the Tip. Said in another way, the Tip is the final representation of the Body as if the parametric history didn\'t exist.

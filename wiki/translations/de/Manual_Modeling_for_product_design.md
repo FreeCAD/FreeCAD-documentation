@@ -69,6 +69,9 @@ Geben Sie eine Länge von 12,6 mm an, was eine Dicke von 1,8 mm für die Oberfl�
 
 ![](images/Exercise_lego_08.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Wir werden nun die acht Knöpfe auf der Oberseite erstellen. Da sie eine Wiederholung einer gleichen Eigenschaft sind, werden wir das praktische <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> [Lineares Muster](PartDesign_LinearPattern/de.md)-Werkzeug benutzen, das es erlaubt, einmalig zu modellieren und die Form zu wiederholen.
 -   Starten Sie durch Selektieren der Oberseite unseres Blocks.
 -   Erstellen Sie eine <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Neue Skizze](Sketcher_NewSketch/de.md).
@@ -76,6 +79,9 @@ Geben Sie eine Länge von 12,6 mm an, was eine Dicke von 1,8 mm für die Oberfl�
 -   Selektieren Sie jeden Kreis, und fügen Sie jeweils eine <img alt="" src=images/Constraint_Radius.svg  style="width:16px;"> [Radius Beschränkung](Sketcher_ConstrainRadius/de.md) von 3,6 mm hinzu.
 -   Importieren Sie die linke Kante der ursprünglichen Fläche mit dem <img alt="" src=images/Sketcher_External.svg  style="width:16px;"> [Externe Geometrie](Sketcher_External/de.md) Werkzeug.
 -   Legen Sie zwei vertikale und zwei horizontale Beschränkungen von 6 mm zwischen den Mittelpunkten und den Eckpunkten der importierten Kante an, so dass jeder Kreismittelpunkt 6 mm von den Grenzen der Fläche entfernt ist:
+
+
+</div>
 
 ![](images/Exercise_lego_09.jpg )
 

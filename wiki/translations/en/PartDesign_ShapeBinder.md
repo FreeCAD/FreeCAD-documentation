@@ -107,7 +107,7 @@ Double-click the ShapeBinder label in the [tree view](Tree_view.md) or right-cli
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_ navi
 
 }}
 

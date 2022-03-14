@@ -27,11 +27,11 @@ Cet outil est optimisé pour les objets à surfaces planes (pas de courbes). L\'
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi:**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans une [macro](macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
+Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
 ```python
 new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True)
 ```

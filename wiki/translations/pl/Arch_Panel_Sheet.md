@@ -4,6 +4,7 @@
    MenuLocation:Arch → Panel tools → Panel Sheet
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**P** **S**
+   Version:0.17
    SeeAlso:[Arch Panel](Arch_Panel.md), [Arch Panel Cut](Arch_Panel_Cut.md), [Arch Nest](Arch_Nest.md)
 ---
 
@@ -72,7 +73,7 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Panel sheet tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The Panel sheet tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python

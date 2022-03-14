@@ -294,11 +294,21 @@ VS Code Debugging →
 
 Prerequisiti:
 
+
+<div class="mw-translate-fuzzy">
+
 -   ptvsd il pacchetto deve essere installato
 
 
+</div>
+
+
 ```python
+# In a cmd window that has a path to you local Python 3:
 pip install ptvsd
+# Then if your Python is installed in C:\Users\<userid>\AppData\Local\Programs\Python\Python37
+# and your FreeCAD is installed in C:\freecad\bin
+xcopy "C:\Users\<userid>\AppData\Local\Programs\Python\Python37\Lib\site-packages\ptvsd" "C:\freecad\bin\Lib\site-packages\ptvsd"
 ```
 
 [pypi page](https://pypi.org/project/ptvsd/)
@@ -318,10 +328,13 @@ ptvsd.enable_attach(address=('localhost', 5678), redirect_output=True)
 ptvsd.wait_for_attach()
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 -   Aggiungi una configurazione di debug nel codice di Visual Studio **Debug → Aggiungi configurazioni ...**. Dovrebbe apparire così:
 
 
-
+</div>
 
         "configurations": [
             {
@@ -354,17 +367,104 @@ from sys import path
 sys.path.append('/path/to/site-packages')
 ```
 
-where the path is to the directory where ptvsd got installed
+Where the path is to the directory where ptvsd was installed.
 
 -   On the left bottom edge of VSCode you can choose the Python executable - it\'s best to make this the version packaged with FreeCAD.
 
-In the Mac package it is /Applications/FreeCAD.App/Contents/Resources/bin/python
+In the Mac package it is /Applications/FreeCAD.App/Contents/Resources/bin/python.
 
-You can locate it on your system by typing 
+You can locate it on your system by typing
+
+
 ```python
 import sys
 print(sys.executable)
-``` into FreeCAD\'s Python console.
+```
+
+into FreeCAD\'s Python console.
+
+
+</div>
+
+
+</div>
+
+### With LiClipse and AppImage 
+
+
+<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
+
+LiClipse Debugging →
+
+
+<div class="mw-collapsible-content">
+
+-   Extract AppImage.
+
+
+```python
+> ./your location/FreeCAD_xxx.AppImage --appimage-extract
+> cd squashfs-root/
+```
+
+-   The sqashfs-root location is where the debugger later on is hooked up to.
+
+-   Make sure you can start a FreeCAD session from within the squashfs-root location.
+
+
+```python
+squashfs-root> ./usr/bin/freecadcmd
+```
+
+-   Should start up a FreeCAD commandline session.
+
+-   Install [LiClipse](https://www.liclipse.com/).
+    -   Comes ready with pydev and has installers for all platforms.
+    -   For linux it is just to extract (to any location) and run.
+
+-   Configure liclipse for debugging.
+    -   Right-click pydev icon (upper right corner) and choose customize.
+        -   Activate \"PyDev Debug\" (through checkbox, or it might be needed to go to tab \"Action Set Availability\" and activate there first).
+        -   In the pydev menu you can now choose \"start debug server\".
+    -   Use menu window/open perspective/other \> debug.
+        -   Right-click debug icon (upper right corner) and choose customize.
+        -   Checking \"Debug\" brings the debugging navigation tools to the toolbar.
+    -   Open preferences through menu window/preferences.
+        -   In PyDev/Interpreters add \"new Interpreter by browsing\".
+        -   The added interpreter should be: `your loc/squashfs-root/usr/bin/python`.
+        -   If you are only using this for fc, you can add AddOn workbench folders as well, or do that in a pydev-project later on.
+
+-   Find path to `pydevd.py` in your liclipse installation.
+    -   Something along the lines of: `your location/liclipse/plugins/org.python.pydev.xx/pysrc`.
+-   Create a regular pydev-project in liclipse.
+    -   Import external sources, for example a macro that you want to debug, or an external workbench.
+    -   In that macro (or workbench .py file) add the code lines:
+
+:   
+    
+```python
+    import sys; sys.path.append("path ending with /pysrc")
+    import pydevd; pydevd.settrace()
+    
+```
+    
+
+:\* This is where the execution will halt when the macro is run.
+
+-   Start the liclipse debug server (menu pydev).
+
+-   Start FreeCAD.
+
+
+```python
+squashfs-root> ./usr/bin/freecad
+```
+
+-   Run the macro (or any other file with a `pydevd.settrace()` trigger) from within freecad, as you would normally do.
+
+-   Happy debugging.
+
+-   The use of LiClipse for remote debugging, and the steps described here related to liclipse, should work on any platform. The parts related to AppImage is for linux only.
 
 
 </div>

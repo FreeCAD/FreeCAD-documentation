@@ -126,11 +126,17 @@ Estas ferramentas realizam operações booleanas.
     -   <img alt="" src=images/Part_JoinEmbed.svg  style="width:32px;"> [Embutir](Part_JoinEmbed/pt-br.md): Incorpora um objeto murado dentro de outro objeto murado.
     -   <img alt="" src=images/Part_JoinCutout.svg  style="width:32px;"> [Corte](Part_JoinCutout/pt-br.md): Cria um corte em uma parede de um objeto para outro objeto murado.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_CompSplittingTools.png  style="width:48px;"> [Ferramentas de divisão](Part_CompSplittingTools/pt-br.md):Este é um ícone-menu na barra de ferramentas da bancada Part que contém os seguintes comandos:
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Fragmentos booleanos](Part_BooleanFragments/pt-br.md): Cria todas as peças que podem ser obtidas por meio das operações booleanas entre objetos. Divide os objetos onde eles se interceptam.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Fatiar uma peça](Part_SliceApart/pt-br.md): Ferramenta para dividir formas através da intersecção com outras formas.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Fatiar](Part_Slice/pt-br.md): Divide um objeto em pedaços através da interseção com outro objeto.
     -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR/pt-br.md): Remove o espaço compartilhado por um número par de objetos (versão simétrica da [Diferença](Part_Cut/pt-br.md)).
+
+
+</div>
 
 ### Medida
 
@@ -156,7 +162,13 @@ Estas ferramentas realizam operações booleanas.
 
 -   <img alt="" src=images/Part_Export.svg  style="width:32px;"> [Exportar](Part_Export/pt-br.md): Esta ferramenta te permite exportar um objeto como arquivo \*.IGES, \*.STEP ou \*.BREP.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [CaixaSeleção](Part_BoxSelection/pt-br.md): Seleciona faces a partir de uma área retangular.
+
+
+</div>
 
 -   <img alt="" src=images/Part_ShapeFromMesh.png  style="width:32px;"> [Forma a partir de uma malha](Part_ShapeFromMesh/pt-br.md): Cria uma forma a partir de um objeto de malha.
 

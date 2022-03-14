@@ -10,6 +10,9 @@
 
 # Arch Rebar ColumnReinforcement/de
 
+
+</div>
+
 ## Beschreibung
 
 Das [StützenVerstärkung](Arch_Rebar_ColumnReinforcement/de.md)-Werkzeug ermöglicht es dem Anwender, Bewehrungsstäbe innerhalb eines Stützen [Architektur Struktur](Arch_Structure/de.md)-Objektes zu erzeugen.
@@ -564,6 +567,15 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
     facename=None,
 )
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

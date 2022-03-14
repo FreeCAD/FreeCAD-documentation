@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Path Deburr
-   MenuLocation:Path → Engraving options → Deburr
+   MenuLocation:Menu: Path → Deburr <br>Toolbar: Path → Engraving options → Deburr
    Workbenches:[Path](Path_Workbench.md)
 ---
 

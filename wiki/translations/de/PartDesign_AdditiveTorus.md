@@ -62,10 +62,16 @@ Der Torus kann auf zwei verschiedene Weisen bearbeitet werden:
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

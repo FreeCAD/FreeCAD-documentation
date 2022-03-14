@@ -265,7 +265,13 @@ Door = Arch.makeWindowPreset("Simple door",
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{docnav/it|[Riferimento esterno](Arch_Reference/it.md)|[Piano di sezione](Arch_SectionPlane/it.md)|[Arch](Arch_Workbench/it.md)|IconL=Arch_Reference.svg |IconC=Workbench_Arch.svg |IconR=Arch_SectionPlane.svg}}
+
+
+</div>
 
 
 

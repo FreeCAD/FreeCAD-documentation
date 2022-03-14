@@ -24,10 +24,19 @@ Das Schnittebenen Werkzeug ermöglicht dir ein Arch Objekt entsprechend einer Eb
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle das zu beschneidende Objekt, dann die Fläche (die Fläche muss die letzte sein, die du ausgewählt hast, und muss in der [3D Ansicht](3D_view/de.md) ausgewählt werden).
 2.  Drücke die **<img src="images/Arch_CutPlane.svg" width=16px>[Schneide Ebene](Arch_CutPlane/de.md)**Schaltfläche.
 3.  Wähle , ob das Objekt **hinter**\' der normalen Fläche oder **\'vor**\' der normalen Fläche geschnitten wird.
 4.  Klicke die **OK** Taste
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -36,7 +45,23 @@ Das Schnittebenen Werkzeug ermöglicht dir ein Arch Objekt entsprechend einer Eb
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das SchneideEbene Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Das SchneideEbene Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
+
+
+</div>
+
+
 ```python
 cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 ```
@@ -95,6 +120,15 @@ cut_face2 = selection2.SubObjects[0]
 cutObj2 = Arch.cutComponentwithPlane(main_object2, cut_face2, 1)
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

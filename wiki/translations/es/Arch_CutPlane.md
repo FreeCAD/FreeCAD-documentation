@@ -63,6 +63,11 @@ La herramienta Plano de corte le permite cortar un objeto Arch de acuerdo a un p
 </div>
 
 
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
 <div class="mw-translate-fuzzy">
 
 La herramienta Plano de Corte se puede usar en [macros](macros/es.md) y desde la consola de Python mediante la siguiente función:

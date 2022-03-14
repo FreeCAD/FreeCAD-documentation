@@ -74,6 +74,9 @@
 
 ![](images/Exercise_lego_08.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Теперь мы займёмся 8 точками на верхней поверхности. Для этого, поскольку они имеют одну форму, мы используем удобный инструмент <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> [Linear pattern](PartDesign_LinearPattern/ru.md) верстака PartDesign, который позволяет делать повторы один раз смоделированной формы.
 -   Начните с выделения верхней поверхности нашего блока
 -   Нажмите <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Создать эскиз](Sketcher_NewSketch/ru.md).
@@ -81,6 +84,9 @@
 -   Для каждой окружности выделите её и задайте им <img alt="" src=images/Constraint_Radius.svg  style="width:16px;"> [Ограничение радиуса](Sketcher_ConstrainRadius/ru.md) в 3,6 мм каждой
 -   Импортируйте левое ребро базовой плоскости инструментом <img alt="" src=images/Sketcher_External.svg  style="width:16px;"> [Геометрия извне](Sketcher_External.md).
 -   Поместите два вертикальных и два горизонтальных ограничения в 6 мм между центральными точками каждой окружности и угловых точек импортированного ребра, так чтобы центр каждой из окружности был в 6 мм от края верхней грани:
+
+
+</div>
 
 ![](images/Exercise_lego_09.jpg )
 

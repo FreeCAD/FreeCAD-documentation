@@ -112,17 +112,11 @@ Bezugsobjekte, [Punkte](PartDesign_Point/de.md), [Linien](PartDesign_Line/de.md)
 
 ## Verweise
 
-
-<div class="mw-translate-fuzzy">
-
 -   [PartDesign Verrundung - Topologische Benennung](PartDesign_Fillet/de#Topological_naming.md)
 -   [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278) , eine mögliche Lösung, von realthunder.
--   [Topologisches Benennungsprojekt](Topological_Naming_Project/de.md): Idee um das Problem zu lösen, von ickby.
--   [Topologisches Datenskripten](Topological_data_scripting/de.md)
--   [Funktionsbearbeitung](Feature_editing/de.md): enthält alternative Hinweise für stabile Modellierungstechniken.
-
-
-</div>
+-   [Topological Naming Project](Topological_Naming_Project.md): Idee um das Problem zu lösen, von ickby.
+-   [Topologische Daten skripten](Topological_data_scripting/de.md)
+-   [Formelemente bearbeiten](Feature_editing/de.md): enthält alternative Hinweise für stabile Modellierungstechniken.
 
 ## Videos
 

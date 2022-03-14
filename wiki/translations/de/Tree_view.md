@@ -15,13 +15,7 @@ Diese Objekte müssen nicht unbedingt geometrische Formen sein, die in der [3D A
 
 ## Arbeiten mit der Baumansicht 
 
-
-<div class="mw-translate-fuzzy">
-
 Immer wenn ein neues Objekt erstellt wird, wird es standardmäßig am Ende der Liste in der Baumansicht hinzugefügt. Die Baumansicht erlaubt die Verwaltung der Objekte, um sie übersichtlich zu halten; sie erlaubt das Erstellen von [Gruppen](Std_Group/de.md), das Verschieben von Objekten innerhalb von Gruppen, das Verschieben von Gruppen innerhalb anderer Gruppen, das Umbenennen von Objekten, das Kopieren von Objekten, das Löschen von Objekten und andere Operationen im Kontextmenü (Rechtsklick), die vom aktuell ausgewählten Objekt und des aktuell aktiven Arbeitsbereichs abhängen.
-
-
-</div>
 
 Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhängig sind. In diesem Fall zeigt die Baumansicht diese Beziehung, indem sie das ältere Objekt innerhalb des neuen Objekts aufnimmt. Das Auf- und Zuklappen der Objekte in der Baumansicht zeigt die parametrische Historie dieses Objekts. Objekte, die tiefer in anderen sind, sind älter, während Objekte, die sich außerhalb befinden, neuer sind und von den älteren Objekten abgeleitet werden. Durch die Modifikation der inneren Objekte breiten sich die parametrischen Operationen bis nach oben aus und erzeugen ein neues Ergebnis.
 
@@ -35,36 +29,25 @@ Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhä
 
 ## Maßnahmen
 
+Da die Baumansicht Objekte auflistet, die in der [3D-Ansicht](3D_view/de.md) sichtbar sein können, sind viele der Aktionen identisch mit denen, die aus der [3D-Ansicht](3D_view/de.md) ausgeführt werden können.
 
-<div class="mw-translate-fuzzy">
+Wenn die Anwendung startet, der Standardarbeitsbereich [Start](Start_Workbench/de.md) aktiv ist, und kein Dokument erstellt wurde, zeigt ein Rechtsklick auf die [Baumansicht](Tree_view/de.md) ein Untermenü mit vier Befehlen:
 
-Da die Baumansicht Objekte auflistet, die in der [3D Ansicht](3D_view/de.md) sichtbar sein können, sind viele der Aktionen identisch mit denen, die aus der [3D Ansicht](3D_view/de.md) ausgeführt werden können.
+-    **Expression Aktionen**:
 
+    -   [Ausgewähltes kopieren](Std_Expressions/de.md),
+    -   [Aktives Dokument kopieren](Std_Expressions/de.md),
+    -   [Alle Dokumente kopieren](Std_Expressions/de.md),
+    -   [Einfügen](Std_Paste.md).
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Beim Start der Anwendung ist die Standardeinstellung [Start Arbeitsbereich](Start_Workbench/de.md) aktiv, und kein Dokument wurde erstellt, wenn Du mit der rechten Maustaste auf die Schaltfläche [Baumansicht](Tree_view/de.md) klickst, wird nur ein Befehl angezeigt:
-
--    **Expression Aktionen**: [Ausgewähltes kopieren](Std_Expressions.md), [Aktives Dokument kopieren](Std_Expressions.md), [Alle Dokumente kopieren](Std_Expressions.md), Einfügen. Diese ermöglichen das Arbeiten mit verschiedenen Dokumenten, sind aber deaktiviert, wenn kein Dokument vorhanden ist.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Diese ermöglichen das Arbeiten mit verschiedenen Dokumenten, sind aber deaktiviert, wenn kein Dokument vorhanden ist.
 
 Sobald ein neues Dokument erstellt wurde, wird folgendes aktiv:
 
--    **Expression actions**: [Aktives Dokument kopieren](Std_Expressions/de.md), [Alle Dokumente kopieren](Std_Expressions/de.md).
+-    **Expression Aktionen**:
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+    -   [Aktives Dokument kopieren](Std_Expressions/de.md),
+    -   [Alle Dokumente kopieren](Std_Expressions/de.md).
 
 Zusätzlich sind [Verweis](Std_LinkMake/de.md) Aktionen verfügbar.
 
@@ -75,23 +58,17 @@ Zusätzlich sind [Verweis](Std_LinkMake/de.md) Aktionen verfügbar.
         
         : [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Gruppe mit Verweisen](Std_LinkMakeGroup/de.md), [Gruppe mit Umwandlungsverweisen](Std_LinkMakeGroup/de.md).
 
-
-</div>
-
 ### Auswählen des Dokuments 
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn du das aktive Dokument auswählst und mit der rechten Maustaste klickst, musst du zusätzlich zum {{MenuCommand/de|Expression actions}} und {{MenuCommand/de|Link actions}}, werden die folgenden Befehle angezeigt:
+Wenn man das aktive Dokument auswählt und mit der rechten Maustaste klickt, erscheinen zusätzlich zu {{MenuCommand/de|Expression actions}} und {{MenuCommand/de|Link actions}} die folgenden Befehle:
 
 -    {{MenuCommand/de|Versteckte Elemente anzeigen}}: wenn aktiv, zeigt die Baumansicht versteckte Elemente an.
 
 -    {{MenuCommand/de|Search}}: zeigt ein Eingabefeld für die Suche nach Objekten innerhalb des ausgewählten Dokuments.
 
--    {{MenuCommand/de|Close document}}: schließt das ausgewählte Dokument, indem es die Anwendung aufruft. `closeDocument()` Methode.
+-    {{MenuCommand/de|Close document}}: schließt das ausgewählte Dokument.
 
--    {{MenuCommand/de|Skip recomputes}}: wenn aktiv, werden die Objekte des Dokuments nicht automatisch [Neuberechnen](Std_Refresh/de.md).
+-    {{MenuCommand/de|Skip recomputes}}: wenn aktiv, werden die Objekte des Dokuments nicht automatisch [Neuberechnet](Std_Refresh/de.md).
 
     -   
         {{MenuCommand/de|Allow partial recomputes}}
@@ -100,10 +77,7 @@ Wenn du das aktive Dokument auswählst und mit der rechten Maustaste klickst, mu
 
 -    {{MenuCommand/de|Markieren zum Neuberechnen}}: markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](Std_Refresh/de.md).
 
--    {{MenuCommand/de|[Create group](Std_Group/de.md)}}: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument, indem du die Dokumenten `addObject()` Methode.
-
-
-</div>
+-    {{MenuCommand/de|[Create group](Std_Group/de.md)}}: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument.
 
 ### Objekte auswählen 
 

@@ -27,12 +27,18 @@ Wenn du Inhalte zu diesen Seiten beitragen möchtest, beantrage ein Wiki Zugang 
 
 ### Allgemein
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Einführung in Python](Introduction_to_Python/de.md) - Siehe auch andere Python Tutorien am Ende dieser Seite.
 -   [Python Skriptsprache Tutorien](Python_scripting_tutorial/de.md) - Ein allgemeiner Blick auf Python Scriptsprache in FreeCAD
 -   [FreeCAD Grundlagen Scriptsprache](FreeCAD_Scripting_Basics/de.md): Nun, die Grundlagen\...
 -   [Gui Befehl](Gui_Command/de.md): Hinzufügen von benutzerdefinierten Befehlen zur GUI
 -   Verwendung von gemischten [Einheiten](Units/de.md) in FreeCAD
 -   [Profilerstellung](Profiling/de.md) des Python Code
+
+
+</div>
 
 ### Module
 

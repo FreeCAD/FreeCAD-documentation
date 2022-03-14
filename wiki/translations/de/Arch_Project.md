@@ -24,6 +24,15 @@ Beachte, dass zwar jedes andere BIM Objekt zu einem Projekt hinzugefügt werden 
 2.  Füge deinem Projekt ein beliebiges Objekt hinzu, indem du es per Ziehen & Ablegen auf das Projekt in der [Baumansicht](Tree_view/de.md) ziehst.
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Project/de

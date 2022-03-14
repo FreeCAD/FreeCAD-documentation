@@ -67,7 +67,7 @@ Sfera poate fi editată după crearea sa pe două căi:
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

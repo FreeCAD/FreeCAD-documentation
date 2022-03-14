@@ -23,9 +23,15 @@ Lo strumento Tratteggio da modello riempie una regione chiusa di una vista con u
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare una regione chiusa in una vista.
 2.  Premere il pulsante **<img src="images/TechDraw_Hatch.svg" width=16px> [Tratteggio da modello](TechDraw_Hatch/it.md)**.
 3.  Si apre una finestra di dialogo in cui è possibile selezionare il motivo, una scala per il motivo, uno spessore di linea e il colore.
+
+
+</div>
 
 ## Note
 

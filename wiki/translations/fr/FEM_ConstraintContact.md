@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM ConstraintContact
    Name/fr:FEM Contrainte de contact
-   MenuLocation:Model → Mechanical Constraints → Constraint contact
+   MenuLocation:Modèle → Contraintes mécaniques → Contrainte de contact
    Workbenches:[Atelier FEM](FEM_Workbench/fr.md)
    SeeAlso:[FEM Contrainte fixe](FEM_ConstraintFixed/fr.md)
 ---
@@ -16,8 +16,8 @@ Crée une contrainte FEM de contact entre deux surfaces.
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintContact.svg" width=16px> [Constraint Contact](FEM_ConstraintContact/fr.md)**.
-    -   Sélectionnez l\'option **Model → Contraintes mécaniques → <img src="images/FEM_ConstraintContact.svg" width=16px> Contrainte contact** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintContact.svg" width=16px> [Contrainte de contact](FEM_ConstraintContact/fr.md)**.
+    -   Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintContact.svg" width=16px> Contrainte de contact** dans le menu.
 2.  Sélectionnez la face principale.
 3.  Sélectionnez la face esclave.
 4.  Entrez une raideur de contact.
@@ -25,12 +25,13 @@ Crée une contrainte FEM de contact entre deux surfaces.
 
 ## Limitations
 
-1.  La contrainte de contact est seulement appliquée entre deux faces.
-2.  Développement pour plusieurs contacts à la fois: <https://forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=130#p303275>
+-   La contrainte de contact ne peut être appliquée qu\'à deux faces.
+-   Développement pour un contact multiple en même temps : <https://forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=130#p303275>
+-   Parce que les maillages multiples ne sont actuellement pas supportés, le contact doit être appliqué à des faces séparées par (au moins) une petite distance. Si les faces se touchaient (sans espace entre elles), le résultat d\'une opération d\'union booléenne ou de fragmentation booléenne (nécessaire pour éviter d\'avoir des maillages multiples, ce qui n\'est pas autorisé pour le moment) serait un maillage continu et donc plus besoin d\'utiliser le contact. Voir [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=62307).
 
-## Notes
+## Remarques
 
-### Quelques astuces pour modéliser 
+### Astuces pour modéliser 
 
 -   à partir de <https://forum.freecadweb.org/viewtopic.php?f=18&p=340874#p340494>
 -   mieux utiliser les éléments linéaires, sinon les calculs prennent beaucoup de temps

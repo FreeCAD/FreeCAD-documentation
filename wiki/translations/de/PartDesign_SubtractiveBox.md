@@ -54,10 +54,16 @@ Der Quader kann auf zwei verschieden Wege bearbeitet werden:
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

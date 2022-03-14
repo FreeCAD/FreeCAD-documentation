@@ -121,7 +121,7 @@ Theses lines will serve as reference to position the circles.
 <img alt="" src=images/TBHS-13.JPG  style="width:800px;">
 
 -   Click on a circle
--   Click on <img alt="" src=images/Constraint_Radius.png  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius.md) and set it at 1,5mm.
+-   Click on <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius.md) and set it at 1,5mm.
 
 <img alt="" src=images/TBHS-14.JPG  style="width:800px;">
 
@@ -310,7 +310,7 @@ You now have a floating slot of unspecified dimensions.
 <img alt="" src=images/TBHS2-15.JPG  style="width:800px;">
 
 -   Click on the blue circle of the hexagon
--   Click on <img alt="" src=images/Constraint_Radius.png  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius.md)
+-   Click on <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius.md)
 -   A dialog prompts you to set a dimension. Enter 8mm, click OK.
 
 <img alt="" src=images/TBHS2-16.JPG  style="width:800px;">
@@ -364,7 +364,7 @@ You now have a floating slot of unspecified dimensions.
 <img alt="" src=images/TBHS2-24.JPG  style="width:800px;">
 
 -   Click on the circle
--   Click on <img alt="" src=images/Constraint_Radius.png  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius.md)
+-   Click on <img alt="" src=images/Sketcher_ConstrainRadius.  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius.md)
 -   A dialog prompts you to set a dimension. Enter 3.5mm, click OK.
 
 <img alt="" src=images/TBHS2-25.JPG  style="width:800px;">

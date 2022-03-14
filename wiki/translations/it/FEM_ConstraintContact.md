@@ -33,8 +33,21 @@ Crea un vincolo FEM di contatto tra 2 superfici.
 
 ## Limitazioni
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Il vincolo contatto può essere applicato solo a due facce.
 2.  Sviluppo per più contatti contemporaneamente: <https://forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=130#p303275>
+
+
+</div>
+
+## Notes
+
+### Tips for modeling 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Note
 
@@ -47,7 +60,15 @@ Crea un vincolo FEM di contatto tra 2 superfici.
     -   Se le superfici hanno dimensioni simili, la superficie del corpo più rigido dovrebbe fungere da superficie principale.
     -   Se le superfici hanno dimensioni e rigidità simili, la superficie con la maglia più grossolana dovrebbe fungere da superficie principale.
 
+
+</div>
+
 ### CalculiX
+
+
+<div class="mw-translate-fuzzy">
+
+### CalculiX 
 
 1.  La rigidezza del contatto dovrebbe essere 10 volte il modulo di Young del materiale per avere un contatto forte. Più alto è il valore di rigidezza di contatto, più è forte il contatto tra le superfici.
 2.  La faccia secondaria è la faccia che penetra nella faccia principale, e subisce quindi una deformazione maggiore.
@@ -59,6 +80,9 @@ Crea un vincolo FEM di contatto tra 2 superfici.
     -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=20276>
     -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=21331>
     -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=15699> (initial contact topic)
+
+
+</div>
 
 -   Un esempio molto dettagliato di contatto CalculiX. ([link](http://dip28p.web.fc2.com/calculix/netgen2calculix/index.html))
 

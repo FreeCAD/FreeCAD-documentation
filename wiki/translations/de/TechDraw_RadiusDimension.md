@@ -1,84 +1,45 @@
 ---
 - GuiCommand:/de
-   Name/de:TechDraw Radiusbemaßung
-   MenuLocation:TechDraw → Bemaßungen → Radius bemaßen
+   Name/de:TechDraw MaßRadius
+   MenuLocation:TechDraw → Bemaßungen → Radienmaß einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Durchmesserbemaßung](TechDraw_DiameterDimension/de.md)
+   SeeAlso:[TechDraw Durchmessermaß einfügen](TechDraw_DiameterDimension/de.md)
 ---
 
 # TechDraw RadiusDimension/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug Radiusbemaßung fügt eine Radiusbemaßung einer Ansicht hinzu. Die Bemaßung kann auf jede Kante angewendet werden, die ein Kreis oder ein kreiförmiger Bogen ist. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), aber dieser kann unter Verwendung des **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Bemaßungen verknüpfen](TechDraw_LinkDimension/de.md)** Werkzeugs zum eigentlichen 3D Abstand geändert werden.
-
-
-</div>
+Das Werkzeug MaßRadius fügt einer Ansicht ein Radienmaß hinzu. Das Maß kann an jede Kante gesetzt werden, die ein Kreis oder ein Kreisbogen ist. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), kann aber unter Verwendung des Werkzeugs **<img src="images/TechDraw_LinkDimension.svg" width=16px> [MaßVerknüpfen](TechDraw_LinkDimension/de.md)** auf den eigentlichen 3D Abstand geändert werden.
 
 <img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width:130px;"> 
 *Messen eines Kreises, angeben des Radius*
 
 ## Anwendung
 
+1.  Einen Kreis oder Kreisbogen in der Zeichnung auswählen. (Hinweis: Einige Bögen, die kreisförmig aussehen, können tatsächlich Ellipsen oder BSplines sein. In diesen Fällen können keine Radienmaße erstellt werden)
+2.  Die Schaltfläche **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Radienmaß einfügen](TechDraw_RadiusDimension/de.md)** drücken.
+3.  Ein Maß wird der Ansicht hinzugefügt. Es kann anschließend an die gewünschte Position gezogen werden.
+4.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
 
-<div class="mw-translate-fuzzy">
+Um die Eigenschaften eines Dimension-Objekts zu ändern, doppelklickt man sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der [Bemaßungsdialog](TechDraw_LengthDimension/de#Bemaßungsdialog.md) geöffnet.
 
-1.  Wähle einen Kreis oder Kreisbogen in der Zeichnung. (Hinweis: Einige Bögen, die kreisförmig aussehen, können tatsächlich Ellipsen oder BSplines sein. In diesen Fällen können keine Durchmesserbemaßungen erstellt werden)
-2.  Drücke die **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Einen Radius der gewählten Ansicht bemaßen](TechDraw_RadiusDimension/de.md)** Schaltfläche.
-3.  Eine Bemaßung wird der Ansicht hinzugefügt. Sie kann anschließend an die gewünschte Position gezogen werden.
-4.  Falls erforderlich, füge Toleranzen hinzu, wie in [diese Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben.
+## Einschränkungen
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der [Bemaßungsdialog](TechDraw_LengthDimension/de#Bemaßung_Dialog.md) geöffnet.
-
-
-</div>
-
-## Begrenzungen
-
-
-<div class="mw-translate-fuzzy">
-
-Bemaßungsobjekte sind anfällig für \"topologsche Benennung\"sprobleme. Siehe die Information im [TechDraw Längenbemaßungs](TechDraw_LengthDimension/de.md) Werkzeug für weitere Informationen.
-
-
-</div>
+Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md) für weitere Informationen.
 
 ## Eigenschaften
 
+Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md).
 
-<div class="mw-translate-fuzzy">
-
-Dieses Objekt hat die gleichen Eigenschaften wie das [TechDraw Längenbemassungswerkzeug](TechDraw_LengthDimension/de.md). Siehe dieses Werkzeug für weitere Einzelheiten.
-
-
-</div>
-
-## Programmierung
+## Skripten
 
 
 **Siehe auch:**
 
-[TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+[TechDraw-API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug Radiusbemaßung kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden:
-
-
-</div>
+Das Werkzeug MaßRadius kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python
@@ -89,13 +50,7 @@ rc = page.addView(dim1)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

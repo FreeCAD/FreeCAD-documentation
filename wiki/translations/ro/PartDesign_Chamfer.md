@@ -149,6 +149,7 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 ## Notes
 
 -   PartDesign Chamfer should not be confused with [Part Chamfer](Part_Chamfer.md). Unless you know what you are doing, [Part Chamfer](Part_Chamfer.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
+-   Chamfers cannot completely consume the adjacent faces.
 
 ## Known issues 
 

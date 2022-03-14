@@ -12,7 +12,7 @@ Zarówno importer, jak i eksporter zależą od zewnętrznego oprogramowania open
 import ifcopenshell
 ```
 
-Jeśli nie pojawi się żaden komunikat o błędzie, wszystko jest w porządku, IfcOpenShell jest zainstalowany i możesz przystąpić do [importowania](Std_Import.md) plików IFC. W przeciwnym razie, będziesz musiał sam zainstalować IfcOpenShell. Przeczytaj stronę [IfcOpenShell](IfcOpenShell.md), aby dowiedzieć się więcej o tym procesie.
+Jeśli nie pojawi się żaden komunikat o błędzie, wszystko jest w porządku, IfcOpenShell jest zainstalowany i możesz przystąpić do [importowania](Std_Import/pl.md) plików IFC. W przeciwnym razie, będziesz musiał sam zainstalować IfcOpenShell. Przeczytaj stronę [IfcOpenShell](IfcOpenShell/pl.md), aby dowiedzieć się więcej o tym procesie.
 
 
 **Uwaga:**

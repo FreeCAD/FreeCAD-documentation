@@ -61,7 +61,7 @@ Utilizzare i modelli prodotti da altri utenti è semplice e fa risparmiare tempo
 
 </div>
 
-Using utilities and parts that other people have created is easy and saves time. See the [external workbenches](external_workbenches.md) page for information on external tools.
+Using utilities and parts that other people have created is easy and saves time. See the [external workbenches](External_workbenches.md) page for information on external tools.
 
 In particular, three resources are recommended that can be installed from the [Addon Manager](Std_AddonMgr.md):
 
@@ -152,7 +152,7 @@ L\'idea è piuttosto semplice: disegnare il profilo del filetto, e quindi esegui
 
 </div>
 
-### PartDesign
+### PartDesign Workbench 
 
 A true thread consists of a closed profile sweeping a solid along a helical path.
 
@@ -175,7 +175,7 @@ A true thread consists of a closed profile sweeping a solid along a helical path
 <img alt="" src=images/T13_12_Threads_Helical_thread_cylinder.png  style="width:" height="300px;"> <img alt="" src=images/T13_13_Threads_Helical_thread_finished.png  style="width:" height="300px;"> 
 *Left: helical coil fused to a central cylinder to form the body of the screw. Right: more features, a head and a tip, added to improve the shape of the screw.*
 
-### Part
+### Part Workbench 
 
 This process can also be done with the tools of the [Part Workbench](Part_Workbench.md).
 
@@ -213,7 +213,7 @@ Questo genera la spira del filetto, senza il supporto o il foro. Per effettuare 
 
 </div>
 
--    **Rule 1.**When the profile sweeps the helix, the resulting solid coil must not touch or self-intersect as it will be an invalid solid. This holds for the profile moving along the helix, as well as intersections in the center of the helix. Attempts to do boolean operations with it (fuse or cut) are very likely to fail. Check the quality of the coil with **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [[Part CheckGeometry]]**; if self-intersections are reported, you must increase the pitch of the helix.
+-    **Rule 1.**When the profile sweeps the helix, the resulting solid coil must not touch or self-intersect as it will be an invalid solid. This holds for the profile moving along the helix, as well as intersections in the center of the helix. Attempts to do boolean operations with it (fuse or cut) are very likely to fail. Check the quality of the coil with **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part CheckGeometry](Part_CheckGeometry.md)**; if self-intersections are reported, you must increase the pitch of the helix.
 
 <img alt="" src=images/T13_15_Threads_self_intersection.png  style="width:" height="300px;"> <img alt="" src=images/T13_16_Threads_no_self_intersections_OK.png  style="width:" height="300px;">
 
@@ -225,7 +225,7 @@ Regola 1. Lo sweep non deve auto-intersecarsi o toccarsi. Uno sweep auto-interse
 
 </div>
 
--    **Rule 2.**When a cylinder is added to a coil to form the main shaft of a screw, the cylinder must not be tangent to the coil profile. That is, the cylinder must not have the same radius as the inner radius of the thread, as this is very likely to fail a fuse operation. In general, avoid geometry coincident to elements of the sweep, such as tangent faces, or edges tangent to faces they are not connected to. In order to produce a good boolean union, the swept coil and the cylinder must intersect. Check the quality of the fusion with **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [[Part CheckGeometry]]**; if coplanar faces are reported increase the cylinder\'s radius by a small amount.
+-    **Rule 2.**When a cylinder is added to a coil to form the main shaft of a screw, the cylinder must not be tangent to the coil profile. That is, the cylinder must not have the same radius as the inner radius of the thread, as this is very likely to fail a fuse operation. In general, avoid geometry coincident to elements of the sweep, such as tangent faces, or edges tangent to faces they are not connected to. In order to produce a good boolean union, the swept coil and the cylinder must intersect. Check the quality of the fusion with **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part CheckGeometry](Part_CheckGeometry.md)**; if coplanar faces are reported increase the cylinder\'s radius by a small amount.
 
 -   If the coil and the cylinder are tangent, even if the first fusion succeeds, it may fail in subsequent boolean operations with a third solid.
 

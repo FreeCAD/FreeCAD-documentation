@@ -11,17 +11,20 @@
 
 ## Description
 
-L\'outil Hachures géométriques remplit une région fermée dans une vue avec un motif basé sur une spécification de hachures AutoDesk PAT. **Alternativement**, l\'outil [TechDraw Hachures par motif](TechDraw_Hatch/fr.md) utilise un fichier [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md) comme motif de hachures, voir [TechDraw Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
+L\'outil <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> **TechDraw Hachures géométriques** remplit une région fermée dans une vue avec un motif basé sur une spécification de hachures AutoDesk PAT. Vous pouvez également utiliser l\'outil [TechDraw Hachures par motif](TechDraw_Hatch/fr.md) utilise des motifs de hachures basés sur le SVG. Voir [TechDraw Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
 
 <img alt="" src=images/TechDraw_GeomHatch_example.png  style="width:300px;"> 
 *Motif de hachures géométriques sur une face*
 
 ## Utilisation
 
-1.  Sélectionnez une région fermée dans une vue. La région deviendra verte.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [Appliquer un motif de hachure géométrique à une face](TechDraw_GeometricHatch/fr.md)
-**
-3.  Une boîte de dialogue s\'ouvrira où vous pourrez sélectionner votre motif, l\'échelle, l\'épaisseur du trait et la couleur.
+1.  Sélectionner une région fermée dans une vue.
+2.  Il existe plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [Appliquer un motif de hachure géométrique à une face ](TechDraw_GeometricHatch/fr.md)**.
+    -   Sélectionnez la **TechDraw → <img src="images/TechDraw_GeometricHatch.svg" width=16px> Appliquer un motif de hachure géométrique à une face ** dans le menu.
+3.  Le panneau de tâches **Appliquer un motif de hachure géométrique à une face ** s\'ouvre.
+4.  Vous pouvez modifier **Fichier de motifs**, **Nom du motif**, **Echelle du motif**, **Poids du trait** et **Couleur du trait**.
+5.  Appuyez sur le bouton **OK**.
 
 ## Remarques
 

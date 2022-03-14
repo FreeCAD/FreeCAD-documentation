@@ -16,6 +16,9 @@
 
 ## Типы примитивов 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Субтрактивный куб (параллелепипед)](PartDesign_SubtractiveBox/ru.md)
 -   <img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Субтрактивный конус](PartDesign_SubtractiveCone/ru.md)
 -   <img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:32px;"> [Субтрактивный цилиндр](PartDesign_SubtractiveCylinder/ru.md)
@@ -24,6 +27,9 @@
 -   <img alt="" src=images/PartDesign_SubtractiveSphere.svg  style="width:32px;"> [Субтрактивная сфера](PartDesign_SubtractiveSphere/ru.md)
 -   <img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:32px;"> [Субтрактивный тор](PartDesign_SubtractiveTorus/ru.md)
 -   <img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> [Субтрактивный клин](PartDesign_SubtractiveWedge/ru.md)
+
+
+</div>
 
 
 

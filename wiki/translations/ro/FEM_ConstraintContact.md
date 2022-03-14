@@ -39,6 +39,10 @@ Creează o constrângere MEF pentru contactul între două suprafețe.
 
 </div>
 
+## Notes
+
+### Tips for modeling 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -48,6 +52,11 @@ Creează o constrângere MEF pentru contactul între două suprafețe.
 </div>
 
 ### CalculiX
+
+
+<div class="mw-translate-fuzzy">
+
+### CalculiX 
 
 1.  Rigiditatea contactului trebuie să fie de 10 ori mai moale (modulul Young) decât modulul de a avea un contact dur. Cu cât este mai mare valoarea rigidității de contact, cu atât este mai mare contactul dintre suprafețe.
 2.  Fața slave este fața care intră în fața principală și, prin urmare, are mai multe deformări.
@@ -64,6 +73,9 @@ Creează o constrângere MEF pentru contactul între două suprafețe.
 -   -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=21331>
 
 -   -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=15699> (initial contact topic)
+
+
+</div>
 
 -   A very detailed CalculiX contact example. ([link](http://dip28p.web.fc2.com/calculix/netgen2calculix/index.html))
 

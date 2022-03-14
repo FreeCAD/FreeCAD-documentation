@@ -67,7 +67,7 @@ Dopo la sua creazione la sfera può essere modificata in due modi:
 </div>
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

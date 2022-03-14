@@ -24,7 +24,7 @@ This tool splits a selected [Mesh](Mesh_Workbench.md) object into its separate c
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The SplitMesh tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The SplitMesh tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python
@@ -33,7 +33,7 @@ new_list = splitMesh(obj, mark=True)
 
 -   Splits the given mesh object (`obj`) into separated components.
 
--   If `mark` is `True` [non-manifold](http://en.wikipedia.org/wiki/Manifold) components will be painted red.
+-   If `mark` is `True` [non-manifold](https://en.wikipedia.org/wiki/Manifold) components will be painted red.
 
 -    `new_list`is a list of all the individual components that make the mesh.
 
@@ -65,6 +65,11 @@ new_list = Arch.splitMesh(mesh_obj)
 
 
 </div>
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

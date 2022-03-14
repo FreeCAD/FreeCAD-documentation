@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:PartDesign SubShapeBinder
    Workbenches:[PartDesign](PartDesign_Workbench.md)
-   MenuLocation:Part Design → Create a sub-object shape binder
+   MenuLocation:Part Design → Create a sub-object(s) shape binder
    Version:0.19
    SeeAlso:[PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign Clone](PartDesign_Clone.md)
 ---
@@ -17,10 +17,7 @@ Then the resulting binder object can be moved or be used to perform advanced ope
 
 It can also bind to objects that are nested inside [Std Parts](Std_Part.md), and it will track the relative placement of these features. This is useful in the context of creating [assemblies](Assembly.md), as often the user needs to reference [features](PartDesign_Feature.md) that are already correctly placed in another subassembly.
 
- <img alt="" src=images/PartDesign_SubShapeBinder_example_1.png  style="width:" height="300px;"> <img alt="" src=images/PartDesign_SubShapeBinder_example_2.png  style="width:" height="300px;"> 
-
-
-
+ <img alt="" src=images/PartDesign_SubShapeBinder_example_1.png  style="width:" height="300px;"> <img alt="" src=images/PartDesign_SubShapeBinder_example_2.png  style="width:" height="300px;">  
 *Left: two solids created in two separate [bodies](PartDesign_Body.md). Right: two SubShapeBinders extracted from the first body, imported into the second body, and moved to a different position.*
 
  <img alt="" src=images/PartDesign_SubShapeBinder_example_3.png  style="width:" height="300px;">  
@@ -38,6 +35,8 @@ It can also bind to objects that are nested inside [Std Parts](Std_Part.md), and
 
 SubShapebinders may be used to reference any other objects outside of a PD body, such as Sketches(in other bodies or outside of the active body),solids created in Part WB or wires/faces from Draft WB. They may also contain only parts of those objects such as points,edges or faces. Therefore selection for further operations needs to be explicit, and is dependent on the requirements of the subsequent operation. Other than Boolean operations, the appropriate selection should be made in the 3D view.(A Pad or Pocket operation would require a face to be selected in order to succeed, etc.)
 
+2D offsetting is supported for some shape types, included planar faces, edges, and wires. Note: offsetting is a difficult operation for the software and does not always succeed. <small>(v0.20)</small> 
+
 ## Properties
 
 The [SubShapeBinder](PartDesign_SubShapeBinder.md) is derived from [Part Feature](Part_Feature.md) (`Part::Feature` class). In addition to the properties listed in [Part Feature](Part_Feature.md), the following properties are available in the [property editor](property_editor.md).
@@ -47,7 +46,7 @@ The [SubShapeBinder](PartDesign_SubShapeBinder.md) is derived from [Part Feature
 
 {{TitleProperty|Base}}
 
--    **Support|XLinkSubList|hidden**: support for the geometry.
+-    **Support|XLinkSubList**: support for the geometry.
 
 -    **Fuse|Bool**: if it is `True` it will fuse the solid linked shapes.
 
@@ -63,18 +62,37 @@ The [SubShapeBinder](PartDesign_SubShapeBinder.md) is derived from [Part Feature
 
 -    **Context|XLink|hidden**: container object of this binder object.
 
--    **_Version|Integer|hidden**: version of this type of object.
+-    **Bind Copy On Change|Enumeration**
+    
 
--    **Shape|PartShape|hidden**: [Part TopoShape](Part_TopoShape.md) of this object.
+-    **Refine|Bool**: if `True` redundant edges will be removed (for example after a boolean operation). <small>(v0.20)</small> 
+
+-    **_ Version|Integer|hidden**: version of this type of object.
+
+-    **_ Copied Link|XLinkSub|hidden**
+    
 
 
 {{TitleProperty|Cache}}
 
 -    **Body|Matrix|hidden**: unity matrix of this object.
 
-### View
 
-See [Part Feature](Part_Feature.md).
+{{TitleProperty|Offsetting}}
+
+-    **Offset**: 2D offset to apply. If Offset = 0, then no offset is applied. If Offset \< 0, then the offset is applied inward. <small>(v0.20)</small> 
+
+-    **Offset Join Type**: Join method of offsetting non-tangent joints. The method can be {{Value|Arcs}}, {{Value|Tangent}} or {{Value|Intersection}}. <small>(v0.20)</small> 
+
+-    **Offset Fill|Bool**: If `True`, a face is made between the new wire and the original wire. See also the **Make Face** property. <small>(v0.20)</small> 
+
+-    **Offset Open Result|Bool**: Affects the way open wires are processed. If `False`, an open wire is made. If `True`, a closed wire is made
+
+from a double-sided offset, with rounds around open vertices. <small>(v0.20)</small> 
+
+-    **Offset Intersection|Bool**: Affects the way compounds are processed. If `False`, all children are processed independently. If `True`, and children
+
+are edges and wires, the children are offset in a collective manner. <small>(v0.20)</small> 
 
 ## Links
 

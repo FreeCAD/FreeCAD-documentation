@@ -9,6 +9,9 @@
 
 # Arch Remove/de
 
+
+</div>
+
 ## Beschreibung
 
 Das Entfernen Werkzeug erlaubt dir zwei Arten von Operationen:
@@ -67,6 +70,15 @@ Draft.move(Box, FreeCAD.Vector(1000, 700, 0))
 Arch.removeComponents(Box, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

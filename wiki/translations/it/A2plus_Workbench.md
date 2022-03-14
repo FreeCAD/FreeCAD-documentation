@@ -7,7 +7,13 @@
 
 A2plus è un [ambiente complementare](External_workbenches/it.md) per [assemblare](Assembly/it.md) varie parti in FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 Questa documentazione descrive la versione A2plus **0.4.47 o più recente**.
+
+
+</div>
 
 ## Installazione
 

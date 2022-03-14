@@ -10,18 +10,53 @@
 
 # Arch Rebar Straight/de
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Das [Arch Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von geraden Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Das [Arch Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
-<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
+
+</div>
+
+<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Zwei Sätze von geraden Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*
 
+
+</div>
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts.
 2.  Wähle dann **<img src="images/Arch_Rebar_Straight.svg" width=16px> [Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)** aus den Bewehrungsstab-Werkzeugen.
@@ -33,6 +68,9 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 8.  Wähle \'Pick selected face\' zur Überprüfung oder ändere die Fläche zur Verteilung der Bewehrungsstäbe.
 9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
 10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
+
+
+</div>
 
 <img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
 *Aufgaben-Ansicht für das Arch Bewehrungsstab gerade-Werkzeug*
@@ -60,11 +98,27 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 ## Scripting
 
 
+<div class="mw-translate-fuzzy">
+
+## Scripting 
+
+
 **Siehe auch:**
 
 [Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
-Das Gerader Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Das Gerader Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
+
+
+</div>
+
+
 ```python
 Rebar = makeStraightRebar(f_cover, coverAlong, rt_cover, lb_cover,
                           diameter, amount_spacing_check, amount_spacing_value, orientation="Horizontal",
@@ -200,6 +254,15 @@ StraightRebar.editStraightRebar(Rebar3, 50, ("Right Side", 20), 100, 100,
 StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
                                 24, True, 7, "Vertical")
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

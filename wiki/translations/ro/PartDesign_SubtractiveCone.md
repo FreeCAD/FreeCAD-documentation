@@ -69,7 +69,7 @@ Conul poate fi editat după crearea pe două căi:
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

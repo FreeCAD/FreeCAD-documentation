@@ -67,7 +67,7 @@ Prisma pote fi editată după crearea sa în două moduri:
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

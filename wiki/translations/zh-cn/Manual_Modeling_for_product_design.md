@@ -84,7 +84,7 @@ You will notice that only edges from the base face can be added by this tool. Wh
 -   Start by selecting the top face of our block
 -   Create a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [New sketch](Sketcher_NewSketch.md).
 -   Create two <img alt="" src=images/Sketcher_Circle.svg  style="width:16px;"> [circles](Sketcher_CreateCircle.md).
--   For each circle, select it and add a <img alt="" src=images/Constraint_Radius.png  style="width:16px;"> [Radius Constraint](Sketcher_ConstrainRadius.md) of 3.6mm to each of them
+-   For each circle, select it and add a <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:16px;"> [Radius Constraint](Sketcher_ConstrainRadius.md) of 3.6mm to each of them
 -   Import the left edge of the base face with the <img alt="" src=images/Sketcher_External.svg  style="width:16px;"> [External geometry](Sketcher_External.md) tool.
 -   Place two vertical constraints and two horizontal constraints of 6mm between the center point of each circle and the corner points of the imported edge, so each circle has its center at 6mm from the border of the face:
 

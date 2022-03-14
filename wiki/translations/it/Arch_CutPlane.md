@@ -26,10 +26,19 @@ Lo strumento Taglia con piano permette di tagliare un oggetto Arch secondo un pi
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare prima l\'oggetto da tagliare, quindi la faccia (la faccia deve essere l\'ultimo elemento selezionato, e deve essere selezionata nella [vista 3D](3D_view/it.md)).
 2.  Premere il pulsante **<img src="images/Arch_CutPlane.svg" width=24px> [Taglia con piano](Arch_CutPlane/it.md)**.
 3.  Scegliere se l\'oggetto deve essere tagliato dalla parte normale **posteriore** alla faccia oppure dalla parte normale **anteriore** della faccia
 4.  Cliccare sul pulsante **OK**.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -38,7 +47,23 @@ Lo strumento Taglia con piano permette di tagliare un oggetto Arch secondo un pi
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Taglia con Piano può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+**See also:**
+
+[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Taglia con Piano può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 ```

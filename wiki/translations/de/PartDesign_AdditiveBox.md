@@ -43,10 +43,16 @@ Der Quader kann auf zwei verschiedene Weisen bearbeitet werden:
 -    {{PropertyData/de|Height}}: Die Länge des Quaders in der Z-Richtung.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

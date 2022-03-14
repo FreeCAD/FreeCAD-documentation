@@ -10,6 +10,9 @@
 
 # Arch Rebar/de
 
+
+</div>
+
 ## Beschreibung
 
 Das [Architektur Bewehrung](Arch_Rebar/de.md) Werkzeug erlaubt es, [Bewehrungsstäbe](https://de.wikipedia.org/wiki/Bewehrungsstahl) in [Struktur](Arch_Structure/de.md) Objekten zu platzieren.
@@ -114,6 +117,15 @@ Rebar.OffsetStart = 100
 Rebar.OffsetEnd = 100
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

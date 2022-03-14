@@ -20,25 +20,18 @@ Avec la première utilisation de l\'outil <img alt="" src=images/SheetMetal_Unfo
 
 ## Utilisation
 
-1.  Sélectionnez une face plane d\'une pièce en tôle. **Remarque** : la face doit être plane et d\'épaisseur constante.
-2.  Activez le <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md) en utilisant la commande :
-    -   Le bouton **[16px](Image_:_SheetMetal_UnattendedUnfold.svg .md) [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md)**.
-
-    -   
-        **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md)
+1.  Sélectionnez une face plane d\'une pièce de tôle.
+2.  Activez la commande <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [UnattendedUnfold](SheetMetal_UnattendedUnfold/fr.md) en utilisant l\'une des commandes suivantes :
+    -   Le bouton **<img src="images/_SheetMetal_UnattendedUnfold.svg_" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md)
 **
-        
-        menu déroulant.
-
-    -   Raccourci clavier : **U**
+    -   Le bouton **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md)** du menu.
+    -   Le raccourci clavier : **U**
 
 ## Propriétés
 
 Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
-Cet outil crée un objet Unfold et n\'a pas de représentation propre dans la [Vue en arborescence](Tree_view/fr.md) ou ailleurs et n\'a donc pas de propriétés.
-
-L\'objet *Unfold*, quant à lui, est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il n\'a pas de propriétés supplémentaires mais son étiquette a une valeur par défaut :
+Un objet SheetMetal Unfold est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il n\'a pas de propriétés supplémentaires mais son étiquette a une valeur par défaut :
 
 ### Données
 

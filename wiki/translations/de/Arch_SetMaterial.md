@@ -10,6 +10,9 @@
 
 # Arch SetMaterial/de
 
+
+</div>
+
 ## Beschreibung
 
 
@@ -61,6 +64,15 @@ Die Material Werkzeuge erlauben dir [Materialien](Material.md) zum aktiven Dokum
 ## Bezug zu IFC 
 
 Dies entspricht in etwa [IfcMaterial](https://standards.buildingsmart.org/IFC/DEV/IFC4_2/FINAL/HTML/link/ifcmaterial.htm).
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

@@ -57,10 +57,16 @@ Tras su creación, la Esfera puede ser editada de dos maneras:
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

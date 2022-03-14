@@ -12,10 +12,22 @@
 
 ## Beschreibung
 
+Grouping of several pipe related tools.
+
 ## Typen von 
 
--   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Rohr](Arch_Pipe/de.md): Erzeugt ein Rohr <small>(v0.17)</small> 
--   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Rohrverbindungsstück](Arch_PipeConnector/de.md): Erzeugt eine Eck- oder T-Stück Verbindung zwischen 2 oder 3 ausgewählten Rohren <small>(v0.17)</small>
+-   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Pipe](Arch_Pipe.md): Creates a pipe.
+
+-   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connector](Arch_PipeConnector.md): Creates a corner or T-connection between 2 or 3 selected pipes.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

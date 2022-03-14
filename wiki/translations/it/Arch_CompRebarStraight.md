@@ -27,25 +27,81 @@ Torna alla pagina [Ambienti](Workbenches/it#Ambienti_aggiuntivi.md) o alla pagin
 
 ## Tipi di armature 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Armatura dritta](Arch_Rebar_Straight/it.md): Crea una barra di rinforzo diritta in un elemento strutturale selezionato.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> [Armatura ad U](Arch_Rebar_UShape/it.md): Crea una barra di rinforzo ad U in un elemento strutturale selezionato.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> [Armatura ad L](Arch_Rebar_LShape/it.md): Crea una barra di rinforzo a L in un elemento strutturale selezionato.
 
--   <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> [Armatura sagomata](Arch_Rebar_BentShape/it.md): Crea una barra di rinforzo sagomata in un elemento strutturale selezionato.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width:32px;"> [Staffe armatura](Arch_Rebar_Stirrup/it.md): Crea delle staffe di rinforzo in un elemento strutturale selezionato.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> [Armatura sagomata](Arch_Rebar_BentShape/it.md): Crea una barra di rinforzo sagomata in un elemento strutturale selezionato.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> [Armatura elicoidale](Arch_Rebar_Helical/it.md): Crea una barra di rinforzo elicoidale in un elemento strutturale selezionato.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armatura di colonna](Arch_Rebar_ColumnReinforcement/it.md): crea barre di rinforzo all\'interno di una Struttura colonna di Arch.
 
--   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armatura di pilastro con due staffe e sei barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md): crea barre di rinforzo all\'interno di una Struttura colonna di Arch.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Armatura di trave](Arch_Rebar_BeamReinforcement/it.md): crea barre di rinforzo all\'interno di una Struttura trave di Arch.
 
+
+</div>
+
+-   <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md): Creates reinforcement bars in a selected slab.
+
+-   <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md): Creates reinforcement bars inside a selected footing.
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Armatura personalizzata](Arch_Rebar/it.md): Crea una barra di rinforzo personalizzata in un elemento strutturale selezionato utilizzando uno schizzo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

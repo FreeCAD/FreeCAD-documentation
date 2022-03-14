@@ -97,44 +97,38 @@ klonen, umdrehen und vereinigen,
 -   Ein Weg der funktionieren kann ist die Verwendung eines Klones. Dieser kann zwar nicht gespiegelt werden, aber auf ihn kann Achsensymmetrie angewendet werden (Drehung um 180°).
 -   Ein anderer funktionierender Weg ist die Verwendung eines Link-Objekts.
 
-**Mirror using a clone:**
+**Spiegeln mit einem Klon:**
 
-1.  Select the body from the tree view.
-2.  Use the <img alt="" src=images/PartDesign_Clone.svg  style="width:16px;"> [PartDesign Clone](PartDesign_Clone.md) command. It adds a new body containing a clone object.
-    To apply a 180° turn set the **Angle** under the Placement property of either the body or the clone to 180°. (Z axis is default and should be fine if you started on the XZ plane as described).
-    <img alt="Cloned half" src=images/SheetMetal_Example-02b.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="Flipped cloned half" src=images/SheetMetal_Example-02l.png  style="width:200px;">
-3.  With the body still active, use the <img alt="" src=images/PartDesign_Boolean.svg  style="width:16px;"> [PartDesign Boolean operation](PartDesign_Boolean.md) command to add the body of the clone and fuse both halves.
-    <img alt="Fused halves" src=images/SheetMetal_Example-02c.png  style="width:200px;">
-4.  Activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) command to get an Unfold object.
-    <img alt="Clip and Unfold object" src=images/SheetMetal_Example-02m.png  style="width:200px;"> <img alt="Unfold object" src=images/SheetMetal_Example-02d.png  style="width:200px;">
-5.  Done!
+1.  Das Body-Objekt in der Baumansicht auswählen.
+2.  Den Befehl <img alt="" src=images/PartDesign_Clone.svg  style="width:16px;"> [PartDesign Klon](PartDesign_Clone/de.md) aktivieren. er fügt ein neues Body-Objekt hinzu, das ein Clone-Objekt enthält.
+    Für eine 180°-Drehung setzt man die {{PropertyData/de|Winkel}} unter der Eigenschaft Placement des Körpers oder des Klons auf 180°. (Die Z-Achse ist standardmäßig voreingestellt und sollte funktionieren, wenn man, wie beschieben, auf der XZ-Ebene gestartet ist).
+    <img alt="Geklonte Hälfte" src=images/SheetMetal_Example-02b.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="Gedrehte geklonte Hälfte" src=images/SheetMetal_Example-02l.png  style="width:200px;">
+3.  Mit dem immer noch aktiven Körper nutzt man den Befehl <img alt="" src=images/PartDesign_Boolean.svg  style="width:16px;"> [PartDesign BoolescheOperation](PartDesign_Boolean/de.md), um den Körper des Klons hinzuzufügen und beide Hälften zu vereinigen.
+    <img alt="Vereinigte Hälften" src=images/SheetMetal_Example-02c.png  style="width:200px;">
+4.  Mit dem Befehl <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Abwickeln](SheetMetal_Unfold/de.md) erstellt man ein Unfold-Objekt.
+    <img alt="Klammer und Abwicklung" src=images/SheetMetal_Example-02m.png  style="width:200px;"> <img alt="Abwicklung (Unfold-Objekt)" src=images/SheetMetal_Example-02d.png  style="width:200px;">
+5.  Fertig!
 
-**Mirror using a link object:**
+**Spiegeln mit einem Link-Objekt:**
 
-1.  Select the body from the tree view.
-2.  Use the <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> [Make link](Std_LinkMake.md) command. This adds a new link object.
-3.  Duplicate the link object by setting the property **Element Count** to 2.
-4.  To apply a 180° turn set the **Angle** under the Placement property of either of the sub-linked objects to 180°. (Z axis is default and should be fine if you started on the XZ plane as described).
-5.  Select both sub-linked objects in the tree view.
-6.  Activate the <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> [Part Fuse](Part_Fuse.md) command to fuse both halves.
-    <img alt="Fused halves" src=images/SheetMetal_Example-02c.png  style="width:200px;">
-7.  Activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) command to get an Unfold object.
-    <img alt="Clip and Unfold object" src=images/SheetMetal_Example-02m.png  style="width:200px;"> <img alt="Unfold object" src=images/SheetMetal_Example-02d.png  style="width:200px;">
-8.  Done!
-
-
-</div>
+1.  Das Body-Objekt in der Baumansicht auswählen.
+2.  Den Befehl <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> [Std VerknüpfungErstellen](Std_LinkMake/de.md) aktivieren. Er fügt ein neues Link-Objekt hinzu.
+3.  Das Link-Objekt dupliziert man durch setzen der {{PropertyData/de|Element Count}} auf 2.
+4.  Für eine 180°-Drehung setzt man die {{PropertyData/de|Winkel}} unter der Eigenschaft Placement eines der beiden unterverlinkten Objekte auf 180°. (Die Z-Achse ist standardmäßig voreingestellt und sollte funktionieren, wenn man, wie beschieben, auf der XZ-Ebene gestartet ist).
+5.  Beide unterverlinkten Objekte in der Baumansicht auswählen.
+6.  Den Befehl <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> [Part Vereinigung](Part_Fuse/de.md) aktivieren, um beide Hälften zu vereinigen.
+    <img alt="Vereinigte Hälften" src=images/SheetMetal_Example-02c.png  style="width:200px;">
+7.  Mit dem Befehl <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Abwickeln](SheetMetal_Unfold/de.md) erstellt man ein Unfold-Objekt.
+    <img alt="Klammer und Abwicklung" src=images/SheetMetal_Example-02m.png  style="width:200px;"> <img alt="Abwicklung (Unfold-Objekt)" src=images/SheetMetal_Example-02d.png  style="width:200px;">
+8.  Fertig!
 
 
 </div>
 
 
-<div class="mw-translate-fuzzy">
+</div>
 
 ## Schelle
-
-
-</div>
 
 <img alt="" src=images/SheetMetal_Example-03.png  style="width:400px;">
 <img alt="" src=images/SheetMetal_Example-03a.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-03b.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-03c.png  style="width:200px;"> 
@@ -145,13 +139,7 @@ klonen, umdrehen und vereinigen,
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Abwickeln](SheetMetal_Unfold/de.md)**.
 }}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Sechsseitige Schale 
-
-
-</div>
 
 <img alt="" src=images/SheetMetal_Example-04.png  style="width:400px;">
 <img alt="" src=images/SheetMetal_Example-04a.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-04b.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-04c.png  style="width:200px;"> 
@@ -166,13 +154,7 @@ klonen, umdrehen und vereinigen,
 
 Wenn eine Eckentlastung hinzugefügt wurde (rechte Seite), kann es nötig sein den wert der Eigenschaft **Size** anzupassen.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Bleistiftklipp
-
-
-</div>
 
 <img alt="" src=images/SheetMetal_Example-05.png  style="width:400px;">
 <img alt="" src=images/SheetMetal_Example-05a.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-05b.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-05c.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-05d.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-05e.png  style="width:200px;"> 
@@ -183,13 +165,7 @@ Wenn eine Eckentlastung hinzugefügt wurde (rechte Seite), kann es nötig sein d
 **<img src="images/SheetMetal_Unfold.svg" width=16px> [Abwickeln](SheetMetal_Unfold/de.md)**.
 }}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Beispiel zu Fläche erweitern 
-
-
-</div>
 
 <img alt="" src=images/SheetMetal_Example-06.png  style="width:400px;">
 <img alt="" src=images/SheetMetal_Example-06a.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-06b.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-06c.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-06.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Example-06d.png  style="width:200px;"> 

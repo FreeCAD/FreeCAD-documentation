@@ -12,8 +12,14 @@
 
 ## Tipi di vincoli per un arco o un cerchio 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainRadius.png  style="width:32px;"> [Vincolo raggio](Sketcher_ConstrainRadius/it.md) : Vincola il raggio di un cerchio o di un arco.
 -   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Vincolo diametro](Sketcher_ConstrainDiameter/it.md) : Vincola il diametro di un cerchio o di un arco.
+
+
+</div>
 
 
 {{Sketcher Tools navi

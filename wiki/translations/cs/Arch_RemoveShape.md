@@ -32,6 +32,8 @@ Tento nástroj se pokouší odebrat trojrozměrný tvar ze [zdi](Arch_Wall.md) n
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -86,6 +88,11 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

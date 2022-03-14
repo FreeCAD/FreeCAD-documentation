@@ -146,7 +146,7 @@ Bu araçlar, Model ağacını düzenlemek için kullanılan araçlardır.
 
 </div>
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object shape binder](PartDesign_SubShapeBinder.md): creates a shape binder to a subelement, like edge or face from another body, while retaining the relative position of that element. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Create a sub-object(s) shape binder](PartDesign_SubShapeBinder.md): creates a shape binder to a subelement, like edge or face from another body, while retaining the relative position of that element. <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -213,31 +213,7 @@ Bunlar, temel özellikler oluşturmak veya mevcut bir katı gövdeye malzeme ekl
 
 <div class="mw-translate-fuzzy">
 
-:\*<img alt="" src=images/PartDesign_AdditiveCone.png  style="width:32px;"> [Koni ekle](PartDesign_AdditiveCone/tr.md): Etkin gövdeye koni ekler.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 :\*<img alt="" src=images/PartDesign_AdditiveCylinder.png  style="width:32px;"> [Silindir ekle](PartDesign_AdditiveCylinder/tr.md): Etkin gövdeye silindir ekler.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.png  style="width:32px;"> [Elipsoit ekle](PartDesign_AdditiveEllipsoid/tr.md): Etkin gövdeye elipsoit ekler.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:\*<img alt="" src=images/PartDesign_AdditivePrism.png  style="width:32px;"> [Prizma ekle](PartDesign_AdditivePrism/tr.md): Etkin gövdeye prizma ekler.
 
 
 </div>
@@ -253,7 +229,31 @@ Bunlar, temel özellikler oluşturmak veya mevcut bir katı gövdeye malzeme ekl
 
 <div class="mw-translate-fuzzy">
 
+:\*<img alt="" src=images/PartDesign_AdditiveCone.png  style="width:32px;"> [Koni ekle](PartDesign_AdditiveCone/tr.md): Etkin gövdeye koni ekler.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.png  style="width:32px;"> [Elipsoit ekle](PartDesign_AdditiveEllipsoid/tr.md): Etkin gövdeye elipsoit ekler.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 :\*<img alt="" src=images/PartDesign_AdditiveTorus.png  style="width:32px;"> [Halka ekle](PartDesign_AdditiveTorus/tr.md): Halka ekler.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+:\*<img alt="" src=images/PartDesign_AdditivePrism.png  style="width:32px;"> [Prizma ekle](PartDesign_AdditivePrism/tr.md): Etkin gövdeye prizma ekler.
 
 
 </div>
@@ -331,31 +331,7 @@ Bunlar, mevcut bir gövdeden materyal çıkarmak için kullanılan araçlardır.
 
 <div class="mw-translate-fuzzy">
 
-:\*<img alt="" src=images/PartDesign_SubtractiveCone.png  style="width:32px;"> [Koni çıkar](PartDesign_SubtractiveCone/tr.md) Aktif gövdeye bir çıkarıcı koni ekler.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 :\*<img alt="" src=images/PartDesign_SubtractiveCylinder.png  style="width:32px;"> [Silindir çıkar](PartDesign_SubtractiveCylinder/tr.md):Aktif gövdeye bir çıkarıcı silindir ekler.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.png  style="width:32px;"> [Elipsoit çıkar](PartDesign_SubtractiveEllipsoid/tr.md):Aktif gövdeye bir çıkarıcı elipsoit ekler.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-:\*<img alt="" src=images/PartDesign_SubtractivePrism.png  style="width:32px;"> [Prizma çıkar](PartDesign_SubtractivePrism/tr.md):Aktif vücuda bir çıkarıcı prizma ekler.
 
 
 </div>
@@ -371,7 +347,31 @@ Bunlar, mevcut bir gövdeden materyal çıkarmak için kullanılan araçlardır.
 
 <div class="mw-translate-fuzzy">
 
+:\*<img alt="" src=images/PartDesign_SubtractiveCone.png  style="width:32px;"> [Koni çıkar](PartDesign_SubtractiveCone/tr.md) Aktif gövdeye bir çıkarıcı koni ekler.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.png  style="width:32px;"> [Elipsoit çıkar](PartDesign_SubtractiveEllipsoid/tr.md):Aktif gövdeye bir çıkarıcı elipsoit ekler.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 :\*<img alt="" src=images/PartDesign_SubtractiveTorus.png  style="width:32px;"> [Halka çıkar](PartDesign_SubtractiveTorus/tr.md): Aktif gövdeye bir çıkarıcı halka ekler.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+:\*<img alt="" src=images/PartDesign_SubtractivePrism.png  style="width:32px;"> [Prizma çıkar](PartDesign_SubtractivePrism/tr.md):Aktif vücuda bir çıkarıcı prizma ekler.
 
 
 </div>
@@ -478,7 +478,7 @@ Parça Tasarım menüsünde bulunan bazı ek işlevler:
 
 </div>
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket design wizard](PartDesign_Sprocket.md): creates a sprocket profile that can be padded. <small>(v0.19)</small> 
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Sprocket](PartDesign_Sprocket.md): creates a sprocket profile that can be padded. <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -565,9 +565,9 @@ Parça Tasarım menüsünde bulunan bazı ek işlevler:
 </div>
 
 
- {{PartDesign Tools navi}}
+ {{PartDesign_Tools_navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/tr

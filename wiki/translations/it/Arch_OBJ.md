@@ -50,10 +50,18 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 -   [Convert STEP to Wavefront OBJ with colors of faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452)
 
+## Tutorials
+
+
+<div class="mw-translate-fuzzy">
+
 ## Tutorial
 
 -   [Importare da STL o OBJ](Import_from_STL_or_OBJ/it.md)
 -   [Esportare in STL o OBJ](Export_to_STL_or_OBJ/it.md)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

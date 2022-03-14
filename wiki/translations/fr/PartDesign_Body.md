@@ -196,6 +196,11 @@ La fonction de base (Base Feature) est entièrement facultative. Elle n\'est pr�
 
 *A gauche:un PartDesign Corps avec une fonction de base issue d'un objet solide externe et de nombreuses [PartDesign Fonctions](PartDesign_Feature/fr.md) ultérieures en haut. A droite: un Corps qui n'a pas de fonction de base explicite (Base Feature).*
 
+
+**Remarque :**
+
+Si un autre PartDesign Corps est sélectionné comme BaseFeature, il doit avoir une forme. S\'il est vide (pas de caractéristiques, pas de BaseFeature, \...), il en résultera une erreur.
+
 ### Tip (fonction résultante) 
 
 Le Tip (fonction résultante) est une [PartDesign Fonctionnalité](PartDesign_Feature/fr.md) qui est exposée à l\'extérieur du Corps, c\'est-à-dire que si un autre outil de n\'importe quel atelier (par exemple, **[<img src=images/Part_SimpleCopy.svg style="width:16px"> [Part Copie simple](Part_SimpleCopy/fr.md)** ou **[<img src=images/Part_Cut.svg style="width:16px"> [Part Soustraction](Part_Cut/fr.md)**) doit utiliser la forme du Corps, il utilisera la forme du Tip. Autrement dit, le Tip est la représentation finale du Corps comme si l\'historique paramétrique n\'existait pas.

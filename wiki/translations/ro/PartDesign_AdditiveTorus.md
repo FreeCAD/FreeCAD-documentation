@@ -69,7 +69,7 @@ Torul poate fi definit după crearea sa în două moduri:
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

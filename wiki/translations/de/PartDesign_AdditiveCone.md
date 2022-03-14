@@ -54,10 +54,16 @@ Der Kegel kann auf zwei verschiedene Wege bearbeitet werden:
 -    **Angle**: Der Rotationswinkel des halben Querschnitts (360° ergeben einen vollen Kegel).
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

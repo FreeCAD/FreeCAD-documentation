@@ -33,6 +33,7 @@ Si vous souhaitez contribuer au contenu de ces pages, demandez un compte wiki av
 -   [Interface et commandes](Gui_Command/fr.md) : Ajouter des commandes personnalisées dans l\'interface de FreeCAD.
 -   Utiliser des [Unités](Units/fr.md) variées dans FreeCAD.
 -   [Profilage](Profiling/fr.md) du code Python.
+-   [Débogage](Debugging/fr#D.C3.A9bogage_Python.md) du code Python.
 
 ### Modules
 

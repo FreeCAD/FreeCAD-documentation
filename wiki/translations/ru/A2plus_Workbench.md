@@ -7,7 +7,13 @@
 
 Верстак A2plus - это [внешний верстак](External_workbenches/ru.md) для [создания сборок](Assembly/ru.md) деталей в FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 Эта документация описывает версию A2plus **0.4.47 или новее**.
+
+
+</div>
 
 ## Установка
 

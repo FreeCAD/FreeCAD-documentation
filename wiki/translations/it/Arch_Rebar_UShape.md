@@ -10,9 +10,18 @@
 
 # Arch Rebar UShape/it
 
+
+</div>
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento [Armatura ad U](Arch_Rebar_UShape/it.md) consente all\'utente di creare un set di barre d\'armatura a forma di U all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
+
+
+</div>
 
 The **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Rebar_UShape.md)** tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
@@ -24,10 +33,22 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 </div>
 
-<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Due serie di barre di rinforzo a forma di U all'interno di una [Struttura](Arch_Structure/it.md)*
 
+
+</div>
+
 ## Utilizzo
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare una qualsiasi faccia dell\'oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** creato in precedenza.
 
@@ -49,6 +70,10 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 9.  Cliccare **OK** o **Applica** per generare l\'armatura.
 
 10. Cliccare **Annulla** per uscire dal pannello delle azioni.
+
+
+</div>
+
 
 :   <img alt="" src=images/UShapeDialog.png  style="width:250px;">
 
@@ -79,16 +104,35 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 ## Scripting
 
 
+<div class="mw-translate-fuzzy">
+
+## Scripting 
+
+
 **Vedere anche:**
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Armatura a U può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Armatura a U può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
                         structure=None, facename=None)
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 -   Crea un oggetto `Rebar` dalla `structure` data, che è una [Struttura](Arch_Structure/it.md), e da una `facename`, che è una faccia di quella struttura.
     -   Se non è data nessuna `structure` e neppure una `facename`, prende come riferimento la faccia selezionata dall\'utente.
@@ -104,6 +148,9 @@ Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
 -    `amount_spacing_value`specifica il numero di barre di rinforzo o il valore della separazione tra di esse, secondo come sono indicate in `amount_spacing_check`.
 
 -    `orientation`specifica l\'orientamento della barra d\'armatura; può essere `"Bottom"`, `"Top"`, `"Right"`, o `"Left"`.
+
+
+</div>
 
 ### Esempio
 
@@ -124,9 +171,19 @@ Rebar2 = UShapeRebar.makeUShapeRebar(50, 50, 20, 20,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
 
+### Edition of the rebar 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Modifica delle barre 
 
-È possibile modificare le proprietà dell\'armatura con la seguente funzione: 
+È possibile modificare le proprietà dell\'armatura con la seguente funzione:
+
+
+</div>
+
+
 ```python
 editUShapeRebar(Rebar, f_cover, b_cover, r_cover, l_cover,
                 diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation,

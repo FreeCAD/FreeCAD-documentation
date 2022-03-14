@@ -105,10 +105,16 @@ Doppelklicke auf die FormBinder Beschriftung im [Modellbaum](Tree_view/de.md) od
     -   Verwende die Eigenschaft \"Nachverfolgungs Unterstützung\", um dieses Verhalten so zu ändern.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_ navi
 
 }}
 

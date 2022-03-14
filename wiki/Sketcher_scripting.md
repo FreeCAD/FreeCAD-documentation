@@ -3,15 +3,13 @@
 
 We create a SketchObject like this:
 
-
+ 
 ```python
 import FreeCAD as App
 import Part
 import Sketcher
 
-
 doc = App.newDocument()  
-
 
 sketch = doc.addObject("Sketcher::SketchObject", "Sketch")
 sketch.addGeometry(Part.LineSegment(App.Vector(1.2, 1.8, 0),
@@ -21,7 +19,6 @@ sketch.addGeometry(Part.LineSegment(App.Vector(6.5, 1.5, 0),
 sketch.addGeometry(Part.LineSegment(App.Vector(12.2, 1.0, 0),
                                     App.Vector(15.4, 5.0, 0)), False)
 
-
 doc.recompute()
 ```
 
@@ -29,33 +26,25 @@ It also adds three lines in the newly created Sketch.
 
 ## Creating a constraint using Python 
 
-A geometric constraint <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> and the special <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [InternalAlignment](Sketcher_ConstrainInternalAlignment.md) constraints can be created from macros and from the python console by using the following command:
+A geometric constraint <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:24px;"> and the special <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [InternalAlignment](Sketcher_ConstrainInternalAlignment.md) constraints can be created from macros and from the Python console by using the following command:
 
  
 
-A dimensional constraint <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;"> and the special constraint <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Snell\'s law](Sketcher_ConstrainSnellsLaw.md) can be created from macros and from the python console by using the following command:
+A dimensional constraint <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:24px;"> <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:24px;"> and the special constraint <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Snell\'s law](Sketcher_ConstrainSnellsLaw.md) can be created from macros and from the Python console by using the following command:
 
  
-```pythonsketch.addConstraint(Sketcher.Constraint(DimensionalConstraintType, EdgeOrPartOfEdge…, App.Units.Quantity("float_value unit"))) 
-```
 
-:   e.g.
+e.g.
 
-
-```pythonsketch.addConstraint(Sketcher.Constraint(DimensionalConstraintType, EdgeOrPartOfEdge…, App.Units.Quantity("123.0 mm"))) 
-```
-
-
+ 
 
 The first argument `ConstraintType` is described below in [Constraint types](#Constraint_types.md).
 
-A constraint can take up to six arguments which are edges or indicate which sub-part of an edge is used by the constraint. See the documentation of individual constraints for details on what combinations of edges and sub-parts of edges can be passed as arguments. The main issue with this function is to identify correctly the line number and the vertex number of the lines you want to process. The sections below describe how to [identify the numbering of a line](#Identifying_the_numbering_of_a_line.md)) and how to [Identify the numbering of the sub-parts of a line](#Identifying_the_numbering_of_the_sub-parts_of_a_line.md)).
+A constraint can take up to six arguments which are edges or indicate which sub-part of an edge is used by the constraint. See the documentation of individual constraints for details on what combinations of edges and sub-parts of edges can be passed as arguments. The main issue with this function is to identify correctly the line number and the vertex number of the lines you want to process. The sections below describe how to [identify the numbering of a line](#Identifying_the_numbering_of_a_line.md), and how to [Identify the numbering of the sub-parts of a line](#Identifying_the_numbering_of_the_sub-parts_of_a_line.md).
 
 ## Constraint types 
 
 For geometric constraints, the first argument is one of the following. See the corresponding feature page for the possible combinations of arguments allowed for each constraint.
-
-
 
 ++++
 | Code                       | Icon                                                                                       | Feature                                                       |
@@ -101,11 +90,7 @@ For geometric constraints, the first argument is one of the following. See the c
 |                         |                                                                                            |                                                               |
 ++++
 
-
-
 The <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:24px;"> [InternalAlignment](Sketcher_ConstrainInternalAlignment.md) constraints behave like geometric constraints for the purposes of scripting. Again, see the corresponding feature page for the possible combinations of arguments allowed for each constraint.
-
-
 
 ++++
 | Code                                                | Icon                                                                                               | Feature                                                             |
@@ -127,11 +112,7 @@ The <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width
 |                                                  |                                                                                                    |                                                                     |
 ++++
 
-
-
 For dimensional constraints, the first argument is one of the following. See the corresponding feature page for the possible combinations of arguments allowed for each constraint.
-
-
 
 ++++
 | Code                       | Icon                                                                               | Feature                                                       |
@@ -165,11 +146,7 @@ For dimensional constraints, the first argument is one of the following. See the
 |                         |                                                                                    |                                                               |
 ++++
 
-
-
 The <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;"> [Snell\'s law](Sketcher_ConstrainSnellsLaw.md) constraints behave like dimensional contraints for the purposes of scripting. Again, see the corresponding feature page for the possible combinations of arguments allowed for each constraint.
-
-
 
 ++++
 | Code                   | Icon                                                                               | Feature                                                |
@@ -178,8 +155,6 @@ The <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:24px;">
 | `"SnellsLaw"` |                                                                                    |                                                        |
 |                     |                                                                                    |                                                        |
 ++++
-
-
 
 The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Lock](Sketcher_ConstrainLock.md) constraint is a GUI command which creates a <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance](Sketcher_ConstrainDistanceX.md) and a <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertical distance](Sketcher_ConstrainDistanceY.md) constraint, it is not a constraint of its own.
 
@@ -227,16 +202,19 @@ If you read e.g. 4 and 5, it means that the vertex with the lower number (4 in t
 
 Let us take the previous example of the three lines. The subsequent figure indicates the numbering of each line and their vertices according to the convention for scripting.
 
- <img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg  style="width:600px;">  
+ <img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure3Bis.jpg  style="width:600px;"> 
+
+
+
 *<b>blue text:</b> numbering of line, <b>black text:</b> numbering of vertices*
 
 The command `sketch.addConstraint(Sketcher.Constraint("Coincident", 1, 2, 2, 1))` yields following result:
 
- <img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure4.jpg  style="width:600px;">
+ <img alt="" src=images/PartDesignConstraintPointOnPointScriptingFigure4.jpg  style="width:600px;"> 
 
 The full code to draw the three lines and add a Coincident constraint on two points from two lines is like this:
 
-
+ 
 ```python
 import FreeCAD as App
 import Part
@@ -255,8 +233,6 @@ sketch.addConstraint(Sketcher.Constraint("Coincident", 1, 2, 2, 1))
 
 doc.recompute()
 ```
-
-
 
  {{Sketcher Tools navi}}
 

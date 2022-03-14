@@ -7,7 +7,13 @@
 
 El ambiente de trabajo A2plus es un [Ambiente de trabajo externo](External_workbenches/es.md) para [ensamble](Assembly/es.md) diferentes piezas en FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 Esta documentación describe la versión de A2plus **0.4.47 o más reciente**.
+
+
+</div>
 
 ## Instalación
 

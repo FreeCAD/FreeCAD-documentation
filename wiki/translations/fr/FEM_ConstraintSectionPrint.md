@@ -12,17 +12,28 @@
 
 ## Description
 
+Imprime les variables de sortie faciales prédéfinies (forces et moments) dans le fichier de données.
+
 ## Utilisation
 
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> [Contrainte d'empreinte de section](FEM_ConstraintSectionPrint/fr.md)**.
+    -   Sélectionnez l\'option **Modèle → Contraintes géométriques → <img src="images/FEM_ConstraintSectionPrint.svg" width=16px> Contrainte d'empreinte de section** depuis le menu.
+2.  Appuyez sur le bouton **Ajouter** et sélectionnez la face pour laquelle la sortie sera imprimée.
+
+## Remarques
+
+-   La contrainte utilise la carte \*SECTION PRINT de CalculiX.
 
 
 
 
-{{FEM Tools navi
+
+{{FEM_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM ConstraintSectionPrint/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > FEM ConstraintSectionPrint/fr

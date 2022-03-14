@@ -25,7 +25,7 @@ The **Pad** tool extrudes a sketch or a face of a solid along a straight path.
 ## Usage
 
 1.  Select one sketch or face to be padded. <small>(v0.20)</small> : Alternatively you can select several sketches or faces.
-2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> '''Pad'''** button.
+2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> [Pad](PartDesign_Pad.md)** button.
 3.  Set the Pad parameters, see the [Options](#Options.md) below.
 4.  Click **OK**.
 
@@ -33,7 +33,7 @@ When selecting a single sketch, it can have multiple enclosed profiles inside a 
 
 ## Options
 
-When creating a pad, the the **Pad parameters** dialog will be shown. It offers the following settings:
+When creating a pad, the **Pad parameters** dialog will be shown. It offers the following settings:
 
 ![](images/pad_parameters_cropped.png )
 

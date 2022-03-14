@@ -13,6 +13,11 @@
 
 Создаёт аддитивный примитив в активном Body (теле), как первичный элемент(ы). Если Body не найдено в документе, оно будет автоматически создано.
 
+## Types of primitives 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Типы примитивов 
 
 -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Аддитивный параллелепипед](PartDesign_AdditiveBox.md)
@@ -25,10 +30,13 @@
 -   <img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Аддитивный клин](PartDesign_AdditiveWedge.md)
 
 
+</div>
 
 
 
-{{PartDesign Tools navi
+
+
+{{PartDesign_Tools_navi
 
 }}
 

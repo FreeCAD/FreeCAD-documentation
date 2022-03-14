@@ -11,16 +11,28 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das GeometrischeSchraffur Werkzeug füllt einen geschlossenen Bereich in einer Ansicht mit einem Muster, das auf einer AutoDesk PAT Schraffur Spezifikation basiert. *Alternativ* verwendet das [Schraffur](TechDraw_Hatch/de.md) Werkzeug eine [SVG](SVG/de.md) oder [Bitmap](bitmap/de.md) Datei als Schraffurmuster, siehe [Schraffierung](TechDraw_Hatching/de.md) für Einzelheiten.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_GeomHatch_example.png  style="width:300px;"> 
 *Geometrisches Schraffurmuster auf einer Fläche*
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle eine geschlossenen Bereich in einer Ansicht aus.
 2.  Drücke die Taste **<img src="images/TechDraw_GeometricHatch.svg" width=16px>[Geometrische Schraffur auf Fläche anwenden](TechDraw_GeometricHatch/de.md)** Schaltfläche
 3.  Ein Dialog öffnet sich , in dem du dein Muster, den Maßstab, Linienstärke und Farbe auswählen kannst.
+
+
+</div>
 
 ## Hinweise
 

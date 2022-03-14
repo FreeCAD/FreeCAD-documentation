@@ -224,7 +224,11 @@ v.distanceToPlane(v1, v2)
 
 The plane is defined by v1, any point on it, and v2, the direction of the normal to the plane. The method returns the shortest distance to the plane - positive if v is on the side of the plane pointed to by its normal v2, negative otherwise.
 
-### Placement
+### Vectors in 2D 
+
+FreeCAD has a subsystem for creating 2D objects in the Part.Geom2d module. It uses a two component vector class App.Base.Vector2d. 3D vectors are in App.Vector See [here](https://forum.freecadweb.org/viewtopic.php?style=3&p=567377#p567377) for some usage information of Part.Geom2d.
+
+## Placement
 
 A Placement combines rotation and translation into a single operator. Placement.Base is the translation vector. Placement.Rotation is the rotation. The combined operation translates the object, rotated about its origin, by the translation vector. (See [Rigid Transformation Math](Rigid_Transformation_Math.md) for the representation of placements as 4 x 4 matrices.) The placement relates the local coordinate system (LCS) of the object to that of its container coordinate system (CCS). The tooltip for App.Rotation shows the many options for its constructor. An example, rotating by 90 degrees about the x-axis and translating 20 in the z-direction, would be
 
@@ -251,7 +255,7 @@ def placements_same(pl1, pl2, tol = 1e-7):
 
 #### Compound placement 
 
-![Nested placements](images/Sample_Assembly_structure.png ) The document **macroplacement**, whose tree-view is illustrated above, contains two objects, **Body** and **Cube**. The **Part** container\'s location in the document\'s global coordinate system (GCS) is given by its Placement property. Likewise, **Part001**\'s location **Part**\'s LCS is given by its Placement. The global placements of the objects are determined by multiplying the chain of placements, starting from the root. Note that the features inside the Body container (Pad) have the placement of the Body.
+![Nested placements](images/Sample_Assembly_structure.png ) The document **macroplacement**, whose tree-view is illustrated above, contains two objects, **Body** and **Cube**. The **Part** container\'s location in the document\'s global coordinate system (GCS) is given by its Placement property. Likewise, **Part001**\'s location **Part**\'s LCS is given by its Placement. The global placements of the objects are determined by multiplying the chain of placements, starting from the root. Note that the features inside the Body container (Pad) have the placement of the Body. FCstd file is [here.](https://forum.freecadweb.org/download/file.php?id=172998)
 
 
 ```python
@@ -266,7 +270,7 @@ placements_same(gplBody, gplBody1) #  returns True
 
 #### Manipulating global Placement. 
 
-Changing any of the placements in the chain will change the global placements of the children.  Suppose we wish to change the global placement of **Body** by changing the placement of **Part001**. We express the desired change in global placement of **Body** as delta_global
+Changing any of the placements in the chain will change the global placements of the children. Suppose we wish to change the global placement of **Body** by changing the placement of **Part001**. We express the desired change in global placement of **Body** as delta_global
 
 
 ```python
@@ -282,6 +286,19 @@ doc.recompute()
 gplBodyNew1 = doc.getObject('Body').getGlobalPlacement()  # new placement
 placements_same(gplBodyNew, gplBodyNew1) #  returns True - it works!
 ```
+
+See also [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=64608) and [getting getGlobalPlacement for linked objects](https://forum.freecadweb.org/viewtopic.php?p=569083#p569083)
+
+#### Interpolating Placements. 
+
+Just as we can interpolate rotations using slerp, we can interpolate Placements using sclerp. The object takes a helical path between two placements, simultaneously rotating and translating.
+
+
+```python
+self.sclerp(placement2, t, shorten = True) #interpolate between self and placement2.
+```
+
+Interpolation is a continuous motion along a helical path, made of equal transforms if discretized. t = 0.0 - return self. t = 1.0 - return placement2. t can also be outside of 0..1 range, for extrapolation. If the quaternions of rotations of the two placements differ in sign, the interpolation will take a long path. If \'shorten\' is true, the signs are harmonized before interpolation, and the interpolation takes the shorter path.
 
 ### Vertex Coordinates 
 

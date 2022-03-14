@@ -69,7 +69,7 @@ Dopo la sua creazione il Prisma può essere modificato in due modi:
 </div>
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

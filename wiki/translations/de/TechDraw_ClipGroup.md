@@ -1,30 +1,24 @@
 ---
 - GuiCommand:/de
    Name:TechDraw ClipGroup
-   Name/de:TechDraw Ausschnittgruppe
-   MenuLocation:TechDraw → Einfügen Ausschnittgruppe
+   Name/de:TechDraw Ausschnittsgruppe
+   MenuLocation:TechDraw → Ausschnittsgruppe einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Ausschnittgruppe hinzufügen](TechDraw_ClipGroupAdd/de.md), [TechDraw Entferne Ansicht aus Ausschnittgruppe](TechDraw_ClipGroupRemove/de.md)
+   SeeAlso:[TechDraw AusschnittsgruppeHinzufügen](TechDraw_ClipGroupAdd/de.md), [TechDraw AusschnittsgruppeEntfernen](TechDraw_ClipGroupRemove/de.md)
 ---
 
 # TechDraw ClipGroup/de
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug erstellt ein Ausschnittfenster, das eine oder mehrere Ansichten enthalten kann.
-
-
-</div>
+Dieses Werkzeug erstellt ein Ausschnittfenster, das Ansichten enthalten kann.
 
 ![](images/TechDraw_Clipview.png ) 
-*Ansichtsfenster, das verschiedene vorhandene Ansichten beschneidet*
+*Ausschnittfenster, das verschiedene vorhandene Ansichten beschneidet*
 
 ## Verwendung
 
--   Drücke die **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Einfügen Ausschnittgruppe](TechDraw_ClipGroup/de.md)** Schaltfläche, um einen neuen Ausschnitt zu erstellen.
+-   Drücke die Schaltfläche **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Ausschnittsgruppe einfügen](TechDraw_ClipGroup/de.md)**, um einen neuen Ausschnitt zu erstellen.
 
 ## Eigenschaften
 
@@ -39,13 +33,7 @@ Dieses Werkzeug erstellt ein Ausschnittfenster, das eine oder mehrere Ansichten 
 -    {{PropertyData/de|Ansichten}}: Die im Ausschnittfenster enthaltenen Ansichten.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

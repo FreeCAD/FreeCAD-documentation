@@ -72,7 +72,13 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Drehung der Beschränkungsebene](FEM_ConstraintPlaneRotation/de.md): Wird verwendet, um eine Beschränkung der Ebenendrehung auf einer ebenen Fläche festzulegen.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Beschränkungsabschnitt drucken](FEM_ConstraintSectionPrint/de.md): {{Version/de|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Transformationsbeschränkung](FEM_ConstraintTransform/de.md): Verwendet, um eine Transformationsbeschränkung für eine Fläche festzulegen.
 
@@ -122,9 +128,21 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 ## Menü: Netz 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [FEM Netz aus Form durch Netgen](FEM_MeshNetgenFromShape/de.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM Netz aus Form durch GMSH](FEM_MeshGmshFromShape/de.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> [FEM Netz Grenzschicht](FEM_MeshBoundaryLayer/de.md): Erzeugt anisotrope Netze für genaue Berechnungen in der Nähe von Grenzen.
 
@@ -172,9 +190,21 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:32px;"> [Änderungen auf die Pipeline anwenden](FEM_PostApplyChanges/de.md):
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Pipeline aus Ergebnis buchen](FEM_PostPipelineFromResult/de.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Warp Filter](FEM_PostFilterWarp/de.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/de.md):
 

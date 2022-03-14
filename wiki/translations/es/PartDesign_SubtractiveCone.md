@@ -62,10 +62,16 @@ Tras su creación, el Cono puede ser editado de dos maneras:
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

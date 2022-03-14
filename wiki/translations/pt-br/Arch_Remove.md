@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Remove
-   MenuLocation:Arch → Remove
+   MenuLocation:Arch → Remove component
    Workbenches:[Arch](Arch_Workbench.md)
    SeeAlso:[Arch CutLine](Arch_CutLine.md), [Arch CutPlane](Arch_CutPlane.md), [Arch Add](Arch_Add.md)
 ---

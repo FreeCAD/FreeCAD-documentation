@@ -14,6 +14,11 @@
 
 Crea una primitiva aditiva en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s). Si no existe ningún cuerpo en el documento, se creará uno automáticamente.
 
+## Types of primitives 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Tipos de Primitivas 
 
 -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Cubo Aditivo](PartDesign_AdditiveBox/es.md)
@@ -26,10 +31,13 @@ Crea una primitiva aditiva en el Cuerpo activo como primera característica, o l
 -   <img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Cuña Aditiva](PartDesign_AdditiveWedge/es.md)
 
 
+</div>
 
 
 
-{{PartDesign Tools navi
+
+
+{{PartDesign_Tools_navi
 
 }}
 

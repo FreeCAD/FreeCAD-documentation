@@ -3,6 +3,7 @@
    Name:Arch Nest
    MenuLocation:Arch → Panel tools → Nest
    Workbenches:[Arch](Arch_Workbench.md)
+   Version:0.17
    SeeAlso:[Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md)
 ---
 

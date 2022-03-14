@@ -14,17 +14,29 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Tratteggio geometrico riempie una regione chiusa in una vista con un modello basato su una specifica di tratteggio PAT AutoDesk. **In alternativa**, lo strumento [Tratteggio da modello](TechDraw_Hatch/it.md) utilizza un file [SVG](SVG/it.md) o [bitmap](bitmap/it.md) come modello di tratteggio, vedere i [tipi di tratteggio](TechDraw_Hatching/it.md) per i dettagli.
+
+
+</div>
 
 <img alt="" src=images/TechDraw_GeomHatch_example.png  style="width:300px;"> 
 *Esempio di tratteggio geometrico su una faccia*
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare una regione chiusa in una vista.
 2.  Premere il pulsante **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md)
 **
 3.  Si apre una finestra di dialogo in cui è possibile selezionare il motivo, una scala per il motivo, uno spessore di linea e il colore.
+
+
+</div>
 
 ## Note
 

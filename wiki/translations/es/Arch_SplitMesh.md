@@ -39,6 +39,8 @@ Esta herramienta divide un objeto [Malla](Mesh_Workbench/es.md) seleccionado en 
 
 </div>
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 
@@ -88,6 +90,14 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 
 new_list = Arch.splitMesh(mesh_obj)
 ```
+
+
+
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

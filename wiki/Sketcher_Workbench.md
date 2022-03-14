@@ -55,7 +55,7 @@ The Sketcher Workbench tools are all located in the Sketch menu that appears whe
 
 ### General
 
--   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [New sketch](Sketcher_NewSketch.md): Creates‎ a new sketch on a selected face or plane. If no face is selected while this tool is executed the user is prompted to select a plane from a pop-up window.
+-   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Create sketch](Sketcher_NewSketch.md): Creates‎ a new sketch on a selected face or plane. If no face is selected while this tool is executed the user is prompted to select a plane from a pop-up window.
 
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edit sketch](Sketcher_EditSketch.md): Edit the selected Sketch. This will open the [Sketcher Dialog](Sketcher_Dialog.md).
 

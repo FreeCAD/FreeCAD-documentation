@@ -152,6 +152,8 @@ Pour créer des B-splines périodiques (B-splines qui forment une courbe fermée
 
 Les B-splines peuvent également être générées à partir de segments d\'esquisse existants. Pour ce faire, sélectionnez les éléments et appuyez sur le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Sketcher Convertir la géométrie en B-spline](Sketcher_BSplineApproximate/fr.md)**.
 
+Lors de la création d\'une courbe B-spline, son degré peut être spécifié en appuyant sur la touche **D**. Ceci permet d\'annuler l\'option par défaut qui consiste à créer une courbe B-spline cubique si possible. {{Version/fr|0.20}}
+
 ### Changer le degré 
 
 Pour modifier le degré, sélectionnez la plaine B et utilisez les boutons de la barre d\'outils **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> [Sketcher Augmenter le degré d'une B-spline](Sketcher_BSplineIncreaseDegree/fr.md)** ou **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> [Sketcher Diminuer le degré d'une B-spline](Sketcher_BSplineDecreaseDegree/fr.md)**.
@@ -183,6 +185,12 @@ Si aucune contrainte de rayon n\'est définie, vous pouvez également modifier l
 Dans l\'exemple du déplacement, vous voyez qu\'un poids élevé attire la courbe vers le point de contrôle, tandis qu\'un poids très faible modifie la courbe comme si le point de contrôle n\'existait presque pas.
 
 Lorsque vous consultez la [fonction de création](#B-splines_non-uniformes.md) pour les B-splines rationnelles non uniformes, vous constatez qu\'un poids de zéro entraînerait une division par zéro. Par conséquent, vous ne pouvez spécifier que des poids supérieurs à zéro.
+
+### Modification des nœuds 
+
+De nouveaux noeuds peuvent être ajoutés en utilisant le bouton **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [Insérer un nœud dans une B-spline](Sketcher_BSplineInsertKnot/fr.md)**. {{Version/fr|0.20}}
+
+La suppression des nœuds n\'est pas encore possible, voir la section [Limitations](#Limitations.md).
 
 ### Information sur l\'affichage 
 

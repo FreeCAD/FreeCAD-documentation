@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Rebar Stirrup
    Name/fr:Arch Rebar Armature en étrier
-   MenuLocation:Arch → Rebar tools → Stirrup ou 3D/BIM → Reinforcement → Stirrup
+   MenuLocation:Arch → Rebar tools → Stirrup<br>3D/BIM → Reinforcement tools → Stirrup
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature hélicoïdale](Arch_Rebar_Helical/fr.md)

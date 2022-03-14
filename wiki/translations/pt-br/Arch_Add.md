@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Add
-   MenuLocation:Arch → Add
+   MenuLocation:Arch → Add component
    Workbenches:[Arch](Arch_Workbench.md)
    SeeAlso:[Arch Remove](Arch_Remove.md)
 ---

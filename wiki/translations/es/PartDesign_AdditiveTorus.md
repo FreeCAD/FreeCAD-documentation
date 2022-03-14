@@ -59,10 +59,16 @@ Tras su creación, el Toro puede ser editado de dos maneras:
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

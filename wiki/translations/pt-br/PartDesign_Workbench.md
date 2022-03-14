@@ -47,9 +47,21 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Criar esboço](PartDesign_NewSketch/pt-br.md): cria um novo esboço em um rosto ou plano selecionado. Se nenhuma face for selecionada enquanto esta ferramenta é executada, o usuário é solicitado a selecionar um plano do painel Tarefas. A interface então muda para o [Bancada de trabalho Sketcher](Sketcher_Workbench/pt-br.md) em modo de edição de esboço.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Editar esboço](Sketcher_EditSketch/pt-br.md): Edite o Esboço selecionado.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [ Aplique um esboço de um lado](Sketcher_MapSketch/pt-br.md): Mapeia um esboço para um plano previamente selecionado ou para uma face do corpo ativo.
+
+
+</div>
 
 ### Ferramentas de modelagem de projeto de peças 
 
@@ -65,7 +77,13 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Criar um aglutinante de forma](PartDesign_ShapeBinder/pt-br.md): cria um aglutinante de forma no corpo ativo.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Criar um aglutinante em forma de subobjetos](PartDesign_SubShapeBinder/pt-br.md): cria um aglutinante de forma para um subelemento, como borda ou face de outro corpo, enquanto mantém a posição relativa desse elemento. <small>(v0.19)</small> 
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Criar um clone](PartDesign_Clone/pt-br.md): cria um clone do corpo selecionado.
 
@@ -87,17 +105,17 @@ Estas são ferramentas para criar características básicas ou adicionar materia
 
 :\*<img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Cubo aditivo](PartDesign_AdditiveBox/pt-br.md): cria um cubo aditivo.
 
-:\*<img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Cone aditivo](PartDesign_AdditiveCone/pt-br.md): cria um cone aditivo.
-
 :\*<img alt="" src=images/PartDesign_AdditiveCylinder.svg  style="width:32px;"> [Cilindro aditivo](PartDesign_AdditiveCylinder/pt-br.md): cria um cilindro aditivo.
-
-:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.svg  style="width:32px;"> [Elipsóide aditiva](PartDesign_AdditiveEllipsoid/pt-br.md): cria uma elipsóide aditiva.
-
-:\*<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Prisma aditivo](PartDesign_AdditivePrism/pt-br.md): cria um prisma aditivo.
 
 :\*<img alt="" src=images/PartDesign_AdditiveSphere.svg  style="width:32px;"> [Esfera aditiva](PartDesign_AdditiveSphere/pt-br.md): cria uma esfera aditiva.
 
+:\*<img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Cone aditivo](PartDesign_AdditiveCone/pt-br.md): cria um cone aditivo.
+
+:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.svg  style="width:32px;"> [Elipsóide aditiva](PartDesign_AdditiveEllipsoid/pt-br.md): cria uma elipsóide aditiva.
+
 :\*<img alt="" src=images/PartDesign_AdditiveTorus.svg  style="width:32px;"> [Toro aditivo](PartDesign_AdditiveTorus/pt-br.md): cria um toro aditivo.
+
+:\*<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Prisma aditivo](PartDesign_AdditivePrism/pt-br.md): cria um prisma aditivo.
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Cunha aditiva](PartDesign_AdditiveWedge/pt-br.md): cria uma cunha aditiva.
 
@@ -121,17 +139,17 @@ Estas são ferramentas para subtrair material de um corpo existente.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveBox.svg  style="width:32px;"> [Cubo subtrativa](PartDesign_SubtractiveBox/pt-br.md): adiciona um cubo subtrativa ao corpo ativo.
 
-:\*<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Cone subtrativo](PartDesign_SubtractiveCone/pt-br.md): adiciona um cone subtrativo ao corpo ativo.
-
 :\*<img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:32px;"> [Cilindro subtrativo](PartDesign_SubtractiveCylinder/pt-br.md): adiciona um cilindro subtrativo ao corpo ativo.
-
-:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Elipsóide subtrativa](PartDesign_SubtractiveEllipsoid/pt-br.md): adiciona uma elipsóide subtrativa ao corpo ativo.
-
-:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Prisma subtrativo](PartDesign_SubtractivePrism/pt-br.md): adiciona um prisma subtrativo ao corpo ativo.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveSphere.svg  style="width:32px;"> [Esfera subtrativa](PartDesign_SubtractiveSphere/pt-br.md): adiciona uma esfera subtrativa ao corpo ativo.
 
+:\*<img alt="" src=images/PartDesign_SubtractiveCone.svg  style="width:32px;"> [Cone subtrativo](PartDesign_SubtractiveCone/pt-br.md): adiciona um cone subtrativo ao corpo ativo.
+
+:\*<img alt="" src=images/PartDesign_SubtractiveEllipsoid.svg  style="width:32px;"> [Elipsóide subtrativa](PartDesign_SubtractiveEllipsoid/pt-br.md): adiciona uma elipsóide subtrativa ao corpo ativo.
+
 :\*<img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:32px;"> [Toro subtrativo](PartDesign_SubtractiveTorus/pt-br.md): adiciona um toro subtrativo ao corpo ativo.
+
+:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Prisma subtrativo](PartDesign_SubtractivePrism/pt-br.md): adiciona um prisma subtrativo ao corpo ativo.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Cunha subtrativa](PartDesign_SubtractiveWedge/pt-br.md): adiciona uma cunha subtrativa ao corpo ativo.
 
@@ -169,9 +187,21 @@ Algumas funcionalidades adicionais encontradas no menu Design da peça:
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Migrar](PartDesign_Migrate/pt-br.md): migra arquivos criados com versões mais antigas do FreeCAD. Se o arquivo for baseado exclusivamente no PartDesign, a migração deve ser bem sucedida. Se o arquivo contiver objetos mistos Part/Part Design/Draft, a conversão muito provavelmente falhará.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Assistente de projeto da roda dentada](PartDesign_Sprocket/pt-br.md): cria um perfil de empena que pode ser extrudido. <small>(v0.19)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Assistente de projeto de engrenagem envolvente](PartDesign_InvoluteGear/pt-br.md): cria um perfil de engrenagem involutivo que pode ser extrudado.
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Assistente de projeto do eixo](PartDesign_WizardShaft/pt-br.md): Gera um eixo a partir de uma tabela de valores e permite analisar forças e momentos. O eixo é feito com um esboço giratório que pode ser editado.
 
@@ -212,9 +242,9 @@ Algumas funcionalidades adicionais encontradas no menu Design da peça:
 
 
 
- {{PartDesign Tools navi}}
+ {{PartDesign_Tools_navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/pt-br

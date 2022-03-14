@@ -3,21 +3,18 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 TechDraw ha due strumenti per il tratteggio:
 
 -   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Tratteggio da modello](TechDraw_Hatch/it.md) (basato su tasselli)
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md) (basato su linee).
 
-## Utilizzo
 
-1.  Selezionare una faccia
+</div>
 
-    :   <img alt="" src=images/SelectFace.png  style="width:150px;">
-2.  A seconda dell\'esigenza, premere le icone <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Tratteggio da modello](TechDraw_Hatch/it.md) o <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md).
-
-**Risultato:** La faccia verrà tratteggiata inizialmente usando i valori predefiniti. **Nota**: modificare le proprietà del tratteggio per ottenere il tratteggio desiderato.
-
-### Hatch Face using Image File 
+## Image based hatch 
 
 
 <div class="mw-translate-fuzzy">
@@ -31,8 +28,6 @@ Il <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Tratteggio d
 
 Di solito le tessere SVG sono delle immagini di **64x64** pixel. Tutti i file di pattern forniti con FreeCAD sono disponibili su [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
-Come riempimento è possibile utilizzare qualsiasi file bitmap (png, jpeg, ecc\...). **Nota:** I risultati migliori si ottengono con molte piccole immagini ripetute piuttosto che poche immagini grandi.
-
 
 <div class="mw-translate-fuzzy">
 
@@ -41,7 +36,11 @@ I riempimenti di tratteggio predefiniti possono essere specificati nelle [Prefer
 
 </div>
 
-### Geometric Hatch 
+### Available patterns 
+
+Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General\_steel.svg\|general\_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
+
+## Geometric hatch 
 
 
 <div class="mw-translate-fuzzy">
@@ -100,7 +99,7 @@ Il file `FCPAT.pat` può essere trovato nel seguente percorso:
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 

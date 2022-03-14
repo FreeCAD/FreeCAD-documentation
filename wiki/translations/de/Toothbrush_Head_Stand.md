@@ -116,8 +116,14 @@ Diese Linien dienen als Referenz, um die Kreise zu positionieren.
 
 <img alt="" src=images/TBHS-13.JPG  style="width:800px;">
 
+
+<div class="mw-translate-fuzzy">
+
 -   Klicke auf einen Kreis
 -   Klicke auf <img alt="" src=images/Constraint_Radius.png  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius/de.md) und setze ihn auf 1,5 mm.
+
+
+</div>
 
 <img alt="" src=images/TBHS-14.JPG  style="width:800px;">
 
@@ -305,11 +311,17 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-15.JPG  style="width:800px;">
 
+
+<div class="mw-translate-fuzzy">
+
 -   Klicke auf den blauen Kreis des Sechsecks
 -   Klicke auf<img alt="" src=images/Constraint_Radius.png  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius/de.md)
 -   Ein Dialogfeld fordert dich auf, eine Abmessung festzulegen. Gib 8 mm ein, klicke auf OK.
 
 <img alt="" src=images/TBHS2-16.JPG  style="width:800px;">
+
+
+</div>
 
 -   Um die Skizze zu verlassen, klicke entweder auf die *Schließen* Schaltfläche auf der linken Seite oder das <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> Symbol in der Werkzeugleiste, oder drücke **ESC**.
 
@@ -359,11 +371,17 @@ Jetzt hast du eine schwebende Nut ohne festgelegte Abmessungen.
 
 <img alt="" src=images/TBHS2-23.JPG  style="width:800px;">
 
+
+<div class="mw-translate-fuzzy">
+
 -   Klicke auf den Kreis
 -   Klicke auf <img alt="" src=images/Constraint_Radius.png  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius/de.md)
 -   Ein Dialogfeld fordert dich auf, eine Abmessung festzulegen. Gib 3.5 mm ein, klicke auf OK.
 
 <img alt="" src=images/TBHS2-25.JPG  style="width:800px;">
+
+
+</div>
 
 -   Um die Skizze zu verlassen, klicke entweder auf die *Schließen* Schaltfläche zur Linken oder das <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> Symbol in der Werkzeugleiste, oder drücke **ESC**.
 

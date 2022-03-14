@@ -1,33 +1,30 @@
 # TechDraw Hatching
 ## Description
 
-The TechDraw workbench has two hatching tools:
+The TechDraw workbench includes two hatching tools:
 
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Hatch Face using Image File](TechDraw_Hatch.md) (tile based)
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md) (line based)
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [TechDraw Hatch](TechDraw_Hatch.md) (based on tiled SVG images)
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) (line based)
 
-## Usage
+## Image based hatch 
 
-1.  Select a Face
-
-    :   <img alt="" src=images/SelectFace.png  style="width:150px;">
-2.  Depending on the need, press either <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Hatch Face using Image File](TechDraw_Hatch.md) or <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md) icons.
-
-**Result:** The face will be hatched initially using default values. **Note**: Edit the hatch properties to get the desired pattern.
-
-### Hatch Face using Image File 
-
-<img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Hatch Face using Image File](TechDraw_Hatch.md) uses [SVG](SVG.md) or [bitmap](bitmap.md) based tiles to cover the selected Face.
+<img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> [TechDraw Hatch](TechDraw_Hatch.md) uses tiled [SVG](SVG.md) images to cover the selected Face.
 
 [SVG](SVG.md) tiles are typically **64x64** pixel images. All pattern files that come with FreeCAD are available on [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
-Any [bitmap](bitmap.md) file can be used (PNG, JPG, etc.) as a fill. **Note:** Results are best with many small repeated images rather than fewer larger images.
-
 The default hatch pattern file can be specified in the [TechDraw Preferences](TechDraw_Preferences.md).
 
-### Geometric Hatch 
+### Available patterns 
 
-<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md) forms a pattern of lines based on a specification read from a file. This file is generally **compatible with the widely used AutoDesk® PAT format**. A small selection of patterns is included in the FCPAT.pat file:
+
+
+Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General\_steel.svg\|general\_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
+
+
+
+## Geometric hatch 
+
+<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) forms a pattern of lines based on a specification read from a file. This file is generally **compatible with the widely used AutoDesk® PAT format**. A small selection of patterns is included in the FCPAT.pat file:
 
  
 ```python
@@ -69,7 +66,7 @@ The `FCPAT.pat` file can be found in the following location.
 
 
 
- {{TechDraw Tools navi}}
+ {{TechDraw_Tools_navi}}
 
 
 

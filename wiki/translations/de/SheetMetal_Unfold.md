@@ -16,23 +16,24 @@ Der Befehl <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **
 
 ## Anwendung
 
-Ein Blechteil abwickeln:
-
-1.  Zum Arbeitsbereich <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:22px;"> [SheetMetal](SheetMetal_Workbench.md) wechseln.
-2.  Auswahl einer ebenen Fläche des Blechteils. **Hinweis**: Die Fläche sollte eine Ebene und die Wandstärke kontant sein.
-3.  Die Schaltfläche <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **Unfold** anklicken, um ein Menü im Aufgabenbereich anzuzeigen, mit dem die Abwicklungseinstellungen verwaltet werden.
-4.  Auswahl der Darstellungsoptionen der Abwicklungsskizze.
-5.  Auswahl der Regeln für die Abwicklungsableitung mit [k-Faktor](https://github.com/shaise/FreeCAD_SheetMetal#terminology):
-    -   Verwendung eines [Material-Datenblatts](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet)
-    -   Oder Eingabe des [k-Faktors](https://github.com/shaise/FreeCAD_SheetMetal#terminology) von Hand und die Auswahl ob der Berechnung eine ANSI- oder DIN-Norm zugrunde liegt.
+1.  Eine ebene Fläche eines SheetMetal-Objekts auswählen.
+2.  Den Befehl <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Abwickeln](SheetMetal_UnattendedUnfold/de.md) aktivieren durch:
+    -   Die Schaltfläche **<img src="images/_SheetMetal_Unfold.svg_" width=16px> [Unfold](SheetMetal_Unfold/de.md)
+**
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold/de.md)
+**
+    -   Das Tastenkürzel: **U**
+3.  Einstellung der Abwicklungseinstellungen im [Aufgabenbereich](Task_panel/de.md) durch:
+    -   Auswahl der Darstellungsoptionen der Abwicklungsskizze.
+    -   Auswahl der Regeln für die Abwicklungsableitung mit [k-Faktor](https://github.com/shaise/FreeCAD_SheetMetal#terminology):
+        - Verwendung eines [Material-Datenblatts](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet).
+        - Eingabe des [k-Faktors](https://github.com/shaise/FreeCAD_SheetMetal#terminology) von Hand und die Auswahl ob der Berechnung eine ANSI- oder DIN-Norm zugrunde liegt.
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Dieses Werkzeug erstellt ein Unfold-Objekt und hat keinen eigenen Repräsentanten in der [Baumansicht](Tree_view/de.md) oder sonstwo und hat daher auch keine Eigenschaften.
-
-Das **Unfold**-Objekt, andererseits, wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Es hat keine zusätzlichen Eigenschaften, aber sein Label hat einen Standardwert:
+Das SheetMetal-**Unfold**-Objekt, wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Es hat keine zusätzlichen Eigenschaften, aber sein Label hat einen Standardwert:
 
 ### Daten
 

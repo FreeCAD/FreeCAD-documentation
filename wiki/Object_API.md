@@ -314,6 +314,12 @@ adjustRelativeLinks(parent,recursive=True) -- auto correct potential cyclic depe
 
 
 
+#### <img src="images/type_method.svg" style="width:16px;"> clearExpression
+
+Clear the expression for a property
+
+
+
 #### <img src="images/type_method.svg" style="width:16px;"> dumpContent
 
 Dumps the content of the object, both the XML representation as well as the additional datafiles  

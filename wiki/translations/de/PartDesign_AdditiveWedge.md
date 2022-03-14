@@ -56,10 +56,16 @@ Wenn die voreingestellte Platzierung verwendet wird, verhalten sich die aufgefü
 Wedges can be used to create pyramids by setting **X2 min/max** and **Z2 min/max** each so that min = max.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

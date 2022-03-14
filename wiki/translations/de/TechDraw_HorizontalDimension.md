@@ -1,86 +1,47 @@
 ---
 - GuiCommand:/de
    Name:TechDraw Dimension Horizontal
-   Name/de:TechDraw Horizontale Bemaßung
+   Name/de:TechDraw MaßHorizontal
    MenuLocation:TechDraw → Bemaßungen → Horizontales Maß einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:**Shift** + **H**
-   SeeAlso:[TechDraw Längenbemaßung](TechDraw_LengthDimension/de.md), [TechDraw Vertikale Bemaßung](TechDraw_VerticalDimension/de.md)
+   SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md)
 ---
 
 # TechDraw HorizontalDimension/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug »Horizontale Längenbemaßung« fügt ein horizontales Maß in einer Ansicht hinzu. Die Bemaßung kann zwischen zwei Ecken liegen, die Länge einer Kante oder der horizontale Abstand zwischen zwei Kanten sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), aber dieser kann unter Verwendung des **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Bemaßungen verlinken](TechDraw_LinkDimension/de.md)**-Werkzeugs zum eigentlichen 3D-Abstand geändert werden.
-
-
-</div>
+Das Werkzeug MaßHorizontal fügt einer Ansicht ein horizontales Maß hinzu. Das Maß kann zwischen zwei Eckpunkten liegen, die Länge einer Kante oder der horizontale Abstand zwischen zwei Kanten sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), kann aber unter Verwendung des Werkzeugs **<img src="images/TechDraw_LinkDimension.svg" width=16px> [MaßVerknüpfen](TechDraw_LinkDimension/de.md)** auf den eigentlichen 3D-Abstand geändert werden.
 
 <img alt="" src=images/TechDraw_Dimension_Horizontal_example.png  style="width:200px;"> 
 *Längenbemaßung zweier beliebiger Knoten der Ansicht, der Abstand wird in horizontaler Richtung gemessen*
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Punkte oder Kanten auswählen, die deine Messung festlegen.
-2.  Drücke die **<img src="images/TechDraw_HorizontalDimension.svg" width=16px> [Horizontale Bemaßung](TechDraw_HorizontalDimension/de.md)** Schaltfläche
-3.  Eine Bemaßung wird der Ansicht hinzugefügt. Die Bemaßung kann an die gewünschte Position gezogen werden.
-4.  Falls erforderlich, füge Toleranzen, wie in [diese Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzu.
+2.  Die Schaltfläche **<img src="images/TechDraw_HorizontalDimension.svg" width=16px> [Horizontales Maß einfügen](TechDraw_HorizontalDimension/de.md)** drücken.
+3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
+4.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
 
+Um die Eigenschaften eines Dimension-Objekts zu ändern, doppelklickt man sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der [Bemaßungsdialog](TechDraw_LengthDimension/de#Bemaßungsdialog.md) geöffnet.
 
-</div>
+## Einschränkungen
 
-
-<div class="mw-translate-fuzzy">
-
-Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der [Bemaßungsdialog](TechDraw_LengthDimension/de#Bemaßung_Dialog.md) geöffnet.
-
-
-</div>
-
-## Begrenzungen
-
-
-<div class="mw-translate-fuzzy">
-
-Bemaßungsobjekte sind anfällig für \"topologische Benennung\"sprobleme. Weitere Informationen gibt es unter dem Werkzeug [Längenbemaßung](TechDraw_LengthDimension/de.md).
-
-
-</div>
+Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md) für weitere Informationen.
 
 ## Eigenschaften
 
+Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md).
 
-<div class="mw-translate-fuzzy">
-
-Diese Funktion hat die gleichen Eigenschaften wie das [TechDraw Längenbemaßungswerkzeug](TechDraw_LengthDimension/de.md). Siehe dieses Werkzeug für weitere Einzelheiten.
-
-
-</div>
-
-## Programmierung
+## Skripten
 
 
 **Siehe auch:**
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug Horizontale Bemaßung kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md)-Konsole mit den folgenden Funktionen verwendet werden:
-
-
-</div>
+Das Werkzeug MaßHorizontal kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python
@@ -91,13 +52,7 @@ rc = page.addView(dim1)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

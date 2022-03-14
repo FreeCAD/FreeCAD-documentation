@@ -7,7 +7,13 @@
 
 Der A2plus Arbeitsbereich ist ein [externer Arbeitsbereich](External_workbenches/de.md), zum [Zusammenbau](Assembly/de.md) verschiedener Teile in FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 Diese Dokumentation beschreibt die A2plus Version **0.4.47 oder neuer**.
+
+
+</div>
 
 ## Einrichtung
 

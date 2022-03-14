@@ -53,13 +53,7 @@ Strona startowa pozwala na szybkie przejście do jednego z najchętniej używany
 
 ### Nawigacja w przestrzeni 3D 
 
-
-<div class="mw-translate-fuzzy">
-
 FreeCAD udostępnia kilka różnych [trybów nawigacji](Mouse_navigation/pl.md), które zmieniają sposób używania myszy do interakcji z obiektami w widoku 3D i samego widoku. Jedna z nich została stworzona specjalnie dla [touchpad](Mouse_navigation/pl#Touchpad.md), gdzie środkowy przycisk myszy nie jest używany. Domyślnym trybem nawigacji jest [CAD](Mouse_navigation#CAD.md). Możesz szybko zmienić aktualny tryb nawigacji za pomocą przycisku **[<img src=images/NavigationCAD_dark.svg style="width:24px">** na [Pasku statusu](Status_bar/pl.md) lub klikając prawym przyciskiem myszy pusty obszar okna [widoku 3D](3D_view/pl.md).
-
-
-</div>
 
 W menu Widok, na pasku narzędzi Widok oraz za pomocą skrótów klawiaturowych (**1**, **2** itp\...) dostępnych jest również kilka ustawień widoku *(widok z góry, widok z przodu itp.)*. Klikając obiekt prawym przyciskiem myszki lub pusty obszar widoku 3D, masz szybki dostęp do niektórych typowych operacji, takich jak ustawianie konkretnego widoku lub wyszukiwanie obiektu w widoku drzewa.
 

@@ -76,7 +76,13 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Vincolo piano di rotazione](FEM_ConstraintPlaneRotation/it.md): Serve per definire un vincolo piano di rotazione su una faccia piana.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Stampa sezione dei vincoli](FEM_ConstraintSectionPrint/it.md): <small>(v0.19)</small> 
+
+
+</div>
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Vincolo trasforma](FEM_ConstraintTransform/it.md): Utilizzato per definire un vincolo di trasformazione su una faccia.
 
@@ -126,9 +132,21 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 ## Menu Mesh 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Mesh FEM da forma con Netgen](FEM_MeshNetgenFromShape/it.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [Mesh FEM da forma con Gmsh](FEM_MeshGmshFromShape/it.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> [Strato limite di mesh FEM](FEM_MeshBoundaryLayer/it.md):Crea mesh anisotrope per calcoli accurati vicino ai confini.
 
@@ -176,9 +194,21 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_PostApplyChanges.png  style="width:32px;"> [Post Applica le modifiche](FEM_PostApplyChanges/it.md):
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-data.svg  style="width:32px;"> [Post Mappa i colori dal risultato](FEM_PostPipelineFromResult/it.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Warp filter](FEM_PostFilterWarp/it.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/it.md):
 

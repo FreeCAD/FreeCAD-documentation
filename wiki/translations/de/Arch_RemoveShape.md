@@ -15,9 +15,20 @@ Dieses Werkzeug versucht, beim entfernen der inneren kubische Form eines **<img 
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle eine **<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)
 ** oder ein **<img src="images/Arch_Structure.svg" width=16px>[Arch Struktur](Arch_Structure/de.md)**
 2.  Drücke die **<img src="images/Arch_RemoveShape.svg" width=16px>** Schaltfläche oder verwende **Arch** → **Dientsprogramme** → **<img src="images/Arch_RemoveShape.svg" width=16px> [Entferne Form](Arch_RemoveShape/de.md)** aus dem Hauptmenü.
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -26,7 +37,18 @@ Dieses Werkzeug versucht, beim entfernen der inneren kubische Form eines **<img 
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
+
+
+</div>
+
+
 ```python
 removeShape(objs, mark=True)
 ```
@@ -54,6 +76,20 @@ FreeCAD.ActiveDocument.recompute()
 Arch.removeShape(Structure)
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

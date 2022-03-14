@@ -62,13 +62,12 @@ Le corps commence par une balise d\'ouverture qui contient des informations sur 
 :   **xmlns=** \"<http://www.w3.org/2000/svg>\" : Lien externe vers l\'espace de noms xml pour rechercher les commandes xml standard
 :   **version=** \"1.1\" : La version de xml utilisée est 1.1
 :   **xmlns:freecad=** \"[Svg Namespace](https://wiki.freecadweb.org/Svg_Namespace/fr)\" : Lien externe vers l\'extension de l\'espace de nom de FreeCAD
-
-    :   pour rechercher des commandes spéciales qui ne sont utilisées que dans un environnement FreeCAD, par exemple pour les textes éditables.
+:   \"freecad :\" sera préfixé aux noms d\'attributs pour qu\'ils soient traités par lesdites commandes spéciales.
 :   **width=** \"420mm\" : Largeur de la zone de dessin
 :   **height=** \"297mm\" : Hauteur de la zone de dessin
 :   **viewBox=** \"0 0 420 297\" : Position du coin supérieur gauche (0;0) et du coin inférieur droit (420;297) dans l\'espace de construction svg (en unités svg).
-:   La largeur, la hauteur et viewBox dans cette combinaison définissent 1 unité svg à 1 mm pour l\'ensemble du document. Une unité dimensionnelle peut être omise à partir de maintenant.
-:   Dans ce cas, 420 et 297 donnent une page A3. Personnalisez ces valeurs pour générer d\'autres tailles de page
+:   Width, height et viewBox dans cette combinaison définissent 1 unité svg à 1 mm pour l\'ensemble du document. Une unité dimensionnelle peut être omise à partir de maintenant.
+:   Dans ce cas, 420 et 297 donnent une page A3. Personnalisez ces valeurs pour générer d\'autres tailles de page.
 
 Pour une page blanche de taille DIN A3 en orientation paysage, c\'est tout.
 

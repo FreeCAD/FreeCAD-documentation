@@ -35,9 +35,9 @@ Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. N
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Utwórz nowy szkic](PartDesign_NewSketch.md): tworzy nowy szkic na wybranej ścianie lub płaszczyźnie. Jeśli podczas uruchamiania tego narzędzia nie zostanie wybrana żadna twarz, użytkownik zostanie poproszony o wybranie płaszczyzny z panelu Zadania. Następnie interfejs przełącza się na Środowisko pracy [Sketcher](Sketcher_Workbench/pl.md) w trybie edycji szkicu.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edycja wybranego szkicu](Sketcher_EditSketch.md): Uruchamia edycje szkicu wybranego na drzewku modelu.
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edycja wybranego szkicu](Sketcher_EditSketch/pl.md): Uruchamia edycje szkicu wybranego na drzewku modelu.
 
--   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Mapuj szkic na powierzchnię](Sketcher_MapSketch/pl.md): Mapuje szkic do wcześniej wybranej płaszczyzny lub ściany aktywnej bryły.
+-   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Mapuj szkic na powierzchnię](Sketcher_MapSketch/pl.md): mapuje szkic do wcześniej wybranej płaszczyzny lub ściany aktywnej bryły.
 
 ### Narzędzia modelujące 
 
@@ -75,17 +75,17 @@ Są to narzędzia do tworzenia podstawowych właściwości lub dodawania materia
 
 :\*<img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:32px;"> [Addytywny sześcian](PartDesign_AdditiveBox.md): dodaje do aktywnej bryły dodatek w postaci kostki.
 
-:\*<img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Addytywny stożek](PartDesign_AdditiveCone.md): dodaje do aktywnej bryły dodatek w postaci stożka.
-
 :\*<img alt="" src=images/PartDesign_AdditiveCylinder.svg  style="width:32px;"> [Addytywny walec](PartDesign_AdditiveCylinder.md): dodaje do aktywnej bryły dodatek w postaci walca.
-
-:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.svg  style="width:32px;"> [Addytywna elipsoida](PartDesign_AdditiveEllipsoid.md): dodaje do aktywnej bryły dodatek w postaci elipsoidy obrotowej.
-
-:\*<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Addtytwny graniastosłup](PartDesign_AdditivePrism.md): dodaje do aktywnej bryły dodatek w postaci graniastosłupa.
 
 :\*<img alt="" src=images/PartDesign_AdditiveSphere.svg  style="width:32px;"> [Addytywna sfera](PartDesign_AdditiveSphere.md): dodaje do aktywnej bryły dodatek w postaci sfery.
 
+:\*<img alt="" src=images/PartDesign_AdditiveCone.svg  style="width:32px;"> [Addytywny stożek](PartDesign_AdditiveCone.md): dodaje do aktywnej bryły dodatek w postaci stożka.
+
+:\*<img alt="" src=images/PartDesign_AdditiveEllipsoid.svg  style="width:32px;"> [Addytywna elipsoida](PartDesign_AdditiveEllipsoid.md): dodaje do aktywnej bryły dodatek w postaci elipsoidy obrotowej.
+
 :\*<img alt="" src=images/PartDesign_AdditiveTorus.svg  style="width:32px;"> [Addytywny torus](PartDesign_AdditiveTorus.md): dodaje do aktywnej bryły dodatek w postaci torusa.
+
+:\*<img alt="" src=images/PartDesign_AdditivePrism.svg  style="width:32px;"> [Addtytwny graniastosłup](PartDesign_AdditivePrism.md): dodaje do aktywnej bryły dodatek w postaci graniastosłupa.
 
 :\*<img alt="" src=images/PartDesign_AdditiveWedge.svg  style="width:32px;"> [Addytywny klin](PartDesign_AdditiveWedge.md): dodaje do aktywnej bryły dodatek w postaci klina.
 
@@ -109,17 +109,17 @@ Są to narzędzia do odejmowania materiału z istniejącej bryły.
 
 :\*<img alt="" src=images/PartDesign_Subtractive_Box.svg  style="width:32px;"> [Subtraktywny sześcian](PartDesign_SubtractiveBox.md): dodaje do aktywnej bryły ubytek w kształcie kostki.
 
-:\*<img alt="" src=images/PartDesign_Subtractive_Cone.svg  style="width:32px;"> [Subtraktywny stożek](PartDesign_SubtractiveCone.md): dodaje do aktywnej bryły ubytek w kształcie stożka.
-
 :\*<img alt="" src=images/PartDesign_SubtractiveCylinder.svg  style="width:32px;"> [Subtraktywny walec](PartDesign_SubtractiveCylinder.md): dodaje do aktywnej bryły ubytek w kształcie walca.
-
-:\*<img alt="" src=images/PartDesign_Subtractive_Ellipsoid.svg  style="width:32px;"> [Subtraktywna ellipsoida](PartDesign_SubtractiveEllipsoid.md): dodaje do aktywnej bryły ubytek w kształcie elipsoidy.
-
-:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Subtraktywny graniastosłup](PartDesign_SubtractivePrism.md): dodaje do aktywnej bryły ubytek w kształcie graniastosłupa.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveSphere.svg  style="width:32px;"> [Subtraktywna sfera](PartDesign_SubtractiveSphere.md): dodaje do aktywnej bryły ubytek w kształcie sfery.
 
+:\*<img alt="" src=images/PartDesign_Subtractive_Cone.svg  style="width:32px;"> [Subtraktywny stożek](PartDesign_SubtractiveCone.md): dodaje do aktywnej bryły ubytek w kształcie stożka.
+
+:\*<img alt="" src=images/PartDesign_Subtractive_Ellipsoid.svg  style="width:32px;"> [Subtraktywna ellipsoida](PartDesign_SubtractiveEllipsoid.md): dodaje do aktywnej bryły ubytek w kształcie elipsoidy.
+
 :\*<img alt="" src=images/PartDesign_SubtractiveTorus.svg  style="width:32px;"> [Subtraktywny torus](PartDesign_SubtractiveTorus.md): dodaje do aktywnej bryły ubytek w kształcie torusa.
+
+:\*<img alt="" src=images/PartDesign_SubtractivePrism.svg  style="width:32px;"> [Subtraktywny graniastosłup](PartDesign_SubtractivePrism.md): dodaje do aktywnej bryły ubytek w kształcie graniastosłupa.
 
 :\*<img alt="" src=images/PartDesign_SubtractiveWedge.svg  style="width:32px;"> ‎[Subtraktywny klin](PartDesign_SubtractiveWedge.md): dodaje do aktywnej bryły ubytek w kształcie klina.
 
@@ -157,9 +157,9 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
 -   <img alt="" src=images/PartDesign_Migrate.svg  style="width:32px;"> [Przenieś](PartDesign_Migrate.md): migruje pliki utworzone w starszych wersjach FreeCAD. Jeśli plik jest oparty wyłącznie na funkcjach PartDesign, migracja powinna zakończyć się sukcesem. Jeśli plik zawiera mieszane obiekty Part/Part Design/Draft, konwersja najprawdopodobniej się nie powiedzie.
 
--   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Kreator projektowania kół łańcuchowych](PartDesign_Sprocket.md): tworzy profil koła zębatego, który może być użyty do wyciągnięcia. {{Version/pl|0.19}}
+-   <img alt="" src=images/PartDesign_Sprocket.svg  style="width:32px;"> [Kreator projektowania kół łańcuchowych](PartDesign_Sprocket/pl.md): tworzy profil koła zębatego, który może być użyty do wyciągnięcia. {{Version/pl|0.19}}
 
--   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Kreator projektowania przekładni ewolwentowych](PartDesign_InvoluteGear.md): tworzy profil koła zębatego, który może być użyty do wyciągnięcia.
+-   <img alt="" src=images/PartDesign_InternalExternalGear.svg  style="width:32px;"> [Kreator projektowania przekładni ewolwentowych](PartDesign_InvoluteGear/pl.md): tworzy profil koła zębatego, który może być użyty do wyciągnięcia.
 
 -   <img alt="" src=images/PartDesign_WizardShaft.svg  style="width:32px;"> [Twórca wałów](PartDesign_WizardShaft.md): tworzy wał z tabeli wartości i pozwala na analizę sił i momentów. Wał jest tworzony za pomocą szkicu obrotowego, który można edytować.
 
@@ -194,9 +194,9 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
 
 
- {{PartDesign Tools navi}}
+ {{PartDesign_Tools_navi}}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [PartDesign](Category_PartDesign.md) > PartDesign Workbench/pl
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/pl

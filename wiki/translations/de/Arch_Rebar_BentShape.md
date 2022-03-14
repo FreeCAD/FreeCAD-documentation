@@ -9,6 +9,9 @@
 
 # Arch Rebar BentShape/de
 
+
+</div>
+
 ## Beschreibung
 
 Das [Abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von abgewinkelten Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
@@ -140,6 +143,9 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{docnav/de
 |[L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)
 |[Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)
@@ -148,6 +154,9 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 |IconR=Arch_Rebar_Stirrup.svg
 |IconC=Workbench_Arch.svg
 }}
+
+
+</div>
 
 
 

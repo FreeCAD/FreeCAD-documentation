@@ -18,6 +18,8 @@
 
 Creează o primitivă geometrică aditivă în Corpul activ ca primă funcție(opnalitate), sau o fuzionează pe aceasta într-o funcție sau mai multe funcții exitente.Dacă în document nu se găsește niciun corp, acesta se va crea automat.
 
+## Types of primitives 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -39,7 +41,7 @@ Creează o primitivă geometrică aditivă în Corpul activ ca primă funcție(o
 
 
 
-{{PartDesign Tools navi
+{{PartDesign_Tools_navi
 
 }}
 

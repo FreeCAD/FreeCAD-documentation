@@ -20,7 +20,7 @@ Narzędzie **Wyciągnij** umożliwia wyciągnięcie szkicu lub powierzchni brył
 ## Użycie
 
 1.  Wybierz szkic lub ścianę do wyciągnięcia {{Version/pl|0.20}}. Alternatywnie można wybrać kilka szkiców lub kilka ścian.
-2.  Naciśnij przycisk **<img src="images/PartDesign_Pad.svg" width=24px> '''Wyciągnij przez obrót'''**.
+2.  Naciśnij przycisk **<img src="images/PartDesign_Pad.svg" width=24px> [Wyciągnij](PartDesign_Pad.md)**.
 3.  Ustaw wymagane parametry dla tej operacji *(opisane w następnym akapicie [Opcje](#Opcje.md))*.
 4.  Naciśnij przycisk **OK**.
 

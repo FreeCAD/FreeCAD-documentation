@@ -19,107 +19,143 @@ Gli sviluppatori di Draft, Arch e BIM collaborano anche con la più ampia [comun
 
 Strumenti per creare gli oggetti architettonici.
 
--   <img alt="" src=images/Arch_Wall.svg  style="width:32px;"> [Muro](Arch_Wall/it.md): crea un muro tramite uno schizzo o utilizzando come base un oggetto selezionato.
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Facciata continua](Arch_CurtainWall/it.md): crea una facciata continua da zero o utilizzando come base un oggetto selezionato. <small>(v0.19)</small> 
--   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Struttura](Arch_Structure/it.md): crea un elemento strutturale tramite uno schizzo o utilizzando come base un oggetto selezionato.
+-   <img alt="" src=images/Arch_Wall.svg  style="width:32px;"> [Wall](Arch_Wall.md): Creates a wall from scratch or using a selected object as a base.
 
--   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Armature](Arch_CompRebarStraight/it.md): l\'Addon Reinforcement incrementa le Strutture di Arch.
-    -   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Armatura dritta](Arch_Rebar_Straight/it.md): crea una armatura diritta in un elemento strutturale selezionato
-    -   <img alt="" src=images/UShapeRebar.png  style="width:32px;"> [Armatura a U](Arch_Rebar_UShape/it.md): crea una armatura piegata a U in un elemento strutturale selezionato
-    -   <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> [Armatura a L](Arch_Rebar_LShape/it.md): crea una armatura a forma di L in un elemento strutturale selezionato
-    -   <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> [Armatura sagomata](Arch_Rebar_BentShape/it.md): crea una armatura sagomata in un elemento strutturale selezionato
-    -   <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width:32px;"> [Staffe armatura](Arch_Rebar_Stirrup/it.md): crea le staffe di una armatura in un elemento strutturale selezionato
-    -   <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> [Armatura elicoidale](Arch_Rebar_Helical/it.md): crea una armatura elicoidale in un elemento strutturale selezionato
-    -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.png  style="width:32px;"> [Armatura di colonna](Arch_Rebar_ColumnReinforcement/it.md): crea barre di rinforzo all\'interno di una Struttura colonna di Arch.
-    -   <img alt="" src=images/Arch_Rebar_ColumnReinforcement.png  style="width:32px;"> [Armatura di pilastro con due staffe e sei barre](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md): crea barre di rinforzo con due staffe e sei barre all\'interno di una Struttura pilastro di Arch.
-    -   <img alt="" src=images/Arch_Rebar_BeamReinforcement.png  style="width:32px;"> [Armatura di trave](Arch_Rebar_BeamReinforcement/it.md): crea barre di rinforzo all\'interno di una Struttura trave di Arch.
-    -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Armatura personalizzata](Arch_Rebar/it.md): crea l\'armatura in un elemento strutturale estrudendo uno schizzo o utilizzando come base un oggetto selezionato
+-   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Structure](Arch_Structure.md): Creates a structural element from scratch or using a selected object as a base.
 
--   <img alt="" src=images/Arch_Floor.svg  style="width:32px;"> [Piano](Arch_Floor/it.md): Crea un piano che comprende gli oggetti selezionati
--   <img alt="" src=images/Arch_BuildingPart.png  style="width:32px;"> [Parte di edificio](Arch_BuildingPart/it.md): Crea una parte di edificio che include oggetti selezionati
--   <img alt="" src=images/Arch_Building.svg  style="width:32px;"> [Edificio](Arch_Building/it.md): Crea un edificio che comprende gli oggetti selezionati
--   <img alt="" src=images/Arch_Site.svg  style="width:32px;"> [Sito](Arch_Site/it.md): Crea un sito che comprende gli oggetti selezionati
--   <img alt="" src=images/Arch_Project.svg  style="width:32px;"> [Progetto](Arch_Project/it.md): Crea un progetto includendo gli oggetti selezionati
--   <img alt="" src=images/Arch_Reference.svg  style="width:32px;"> [Riferimento esterno](Arch_Reference/it.md): Collega oggetti di un altro file di FreeCAD in questo documento
--   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Finestra](Arch_Window/it.md): Crea una finestra utilizzando come base un oggetto selezionato
--   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Piano di sezione](Arch_SectionPlane/it.md): Aggiunge un oggetto *Piano di sezione* al documento
+-   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Rebar tools](Arch_CompRebarStraight.md): These tools are only available if the [Reinforcement Workbench](Reinforcement_Workbench.md) has been installed.
 
+:\* <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Straight Rebar](Arch_Rebar_Straight.md): Creates a straight reinforcement bar in a selected structural element.
 
-<div class="mw-translate-fuzzy">
+:\* <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [U-Shape Rebar](Arch_Rebar_UShape.md): Creates a U-shape reinforcement bar in a selected structural element.
 
--   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Assi](Arch_CompAxis/it.md): Lo strumento Assi consente di posizionare una serie di assi nel documento corrente.
-    -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Asse](Arch_Axis/it.md): Aggiunge al documento un sistema di assi in 1 direzione
-    -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Sistema di assi](Arch_AxisSystem/it.md): Aggiunge al documento un sistema di assi composto da più assi
-    -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Griglia](Arch_Grid/it.md): Inserisce un oggetto tipo griglia nel documento.
+:\* <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [L-Shape Rebar](Arch_Rebar_LShape.md): Creates an L-shape reinforcement bar in a selected structural element.
 
+:\* <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Stirrup](Arch_Rebar_Stirrup.md): Creates a stirrup reinforcement bar in a selected structural element.
 
-</div>
+:\* <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Bent-Shape Rebar](Arch_Rebar_BentShape.md): Creates a bent-shape reinforcement bar in a selected structural element.
 
--   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Tetto](Arch_Roof/it.md): Crea le falde del tetto partendo da una faccia selezionata
--   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Spazio](Arch_Space/it.md): Crea un oggetto spazio
--   <img alt="" src=images/Arch_Stairs.svg  style="width:32px;"> [Scala](Arch_Stairs/it.md): Crea un oggetto scala
+:\* <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Helical Rebar](Arch_Rebar_Helical.md): Creates a helical reinforcement bar in a selected structural element.
 
--   <img alt="" src=images/Arch_CompPanel.png  style="width:48px;"> [Strumenti pannello](Arch_CompPanel/it.md): Permette di costruire tutti i tipi di elementi simili a pannelli.
-    -   <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Pannello](Arch_Panel/it.md): Crea un oggetto pannello basato su un oggetto 2D selezionato
-    -   <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> [Sagoma pannello](Arch_Panel_Cut/it.md): Crea una vista in 2D di un pannello {{Version/it|0.17}}
-    -   <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Foglio pannello](Arch_Panel_Sheet/it.md): Creates a 2D cut sheet including panel cuts or other 2D objects {{Version/it|0.17}}
-    -   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Nido](Arch_Nest/it.md): Consente di nidificare diversi oggetti piatti all\'interno di una forma contenitore {{Version/it|0.17}}
+:\* <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md): Creates reinforcement bars in a selected rectangular column.
 
--   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Carpenteria](Arch_Frame/it.md): Crea un oggetto di carpenteria basato su uno schema selezionato.
--   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Recinzione](Arch_Fence/it.md): Crea un oggetto recinzione da una campata e un percorso selezionati. {{Version/it|0.19}}
--   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Travatura](Arch_Truss/it.md): Crea una travatura da una linea selezionata da zero. {{Version/it|0.19}}
--   <img alt="" src=images/Arch_Equipment.svg  style="width:32px;"> [Arredo](Arch_Equipment/it.md): Crea un oggetto di arredamento.
--   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profilo](Arch_Profile/it.md): Crea un profilo 2D parametrico. {{Version/it|0.19}}
+:\* <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md): Creates reinforcement bars in a selected beam.
 
--   <img alt="" src=images/Arch_CompPipe.png  style="width:48px;"> [Tubazioni](Arch_CompPipe/it.md) {{Version/it|0.17}}
-    -   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Tubo](Arch_Pipe/it.md): Crea un tubo {{Version/it|0.17}}
-    -   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Raccordo](Arch_PipeConnector/it.md): Crea una connessione a angolo o un tee (raccordo) tra 2 o 3 tubi selezionati {{Version/it|0.17}}
+:\* <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md): Creates reinforcement bars in a selected slab.
 
--   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Materiali](Arch_CompSetMaterial/it.md): Gli strumenti Materiale consentono di aggiungere materiali al documento attivo.
-    -   <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Materiale](Arch_SetMaterial/it.md): Crea un materiale e lo attribuisce agli oggetti selezionati
-    -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Materiale](Arch_MultiMaterial/it.md): Crea un materiale e lo attribuisce agli oggetti selezionati {{Version/it|0.17}}
--   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Scheda](Arch_Schedule/it.md): Crea diversi tipi di schede
+:\* <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md): Creates reinforcement bars inside a selected footing.
+
+:\* <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Custom Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch.
+
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): Creates a curtain wall from scratch or using a selected object as a base. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Building Part](Arch_BuildingPart.md): Creates a building part including selected objects.
+
+-   <img alt="" src=images/Arch_Project.svg  style="width:32px;"> [Project](Arch_Project.md): Creates a project including selected objects.
+
+-   <img alt="" src=images/Arch_Site.svg  style="width:32px;"> [Site](Arch_Site.md): Creates a site including selected objects.
+
+-   <img alt="" src=images/Arch_Building.svg  style="width:32px;"> [Building](Arch_Building.md): Creates a building including selected objects.
+
+-   <img alt="" src=images/Arch_Floor.svg  style="width:32px;"> [Level](Arch_Floor.md): Creates a floor including selected objects.
+
+-   <img alt="" src=images/Arch_Reference.svg  style="width:32px;"> [External reference](Arch_Reference.md): Links objects from another FreeCAD file into the current document.
+
+-   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Window](Arch_Window.md): Creates a window from scratch or using a selected object as a base.
+
+-   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Roof](Arch_Roof.md): Creates a sloped roof from a selected wire.
+
+-   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Axis tools](Arch_CompAxis.md)
+
+:\* <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Axis](Arch_Axis.md): Adds a 1-direction array of axes.
+
+:\* <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Axis System](Arch_AxisSystem.md): Adds an axis system composed of several axes.
+
+:\* <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Grid](Arch_Grid.md): Adds a grid-like object.
+
+-   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Section Plane](Arch_SectionPlane.md): Adds a section plane object.
+
+-   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Space](Arch_Space.md): Creates a space object.
+
+-   <img alt="" src=images/Arch_Stairs.svg  style="width:32px;"> [Stairs](Arch_Stairs.md): Creates a stairs object.
+
+-   <img alt="" src=images/Arch_CompPanel.png  style="width:48px;"> [Panel tools](Arch_CompPanel.md)
+
+:\* <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Panel](Arch_Panel.md): Creates a panel object from a selected 2D object.
+
+:\* <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> [Panel Cut](Arch_Panel_Cut.md): Creates a 2D cut view from a panel.
+
+:\* <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Panel Sheet](Arch_Panel_Sheet.md): Creates a 2D cut sheet including panel cuts or other 2D objects.
+
+:\* <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Nest](Arch_Nest.md): Allows to nest several flat objects inside a container shape.
+
+-   <img alt="" src=images/Arch_Equipment.svg  style="width:32px;"> [Equipment](Arch_Equipment.md): Creates an equipment or furniture object.
+
+-   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Frame](Arch_Frame.md): Creates a frame object from a selected layout.
+
+-   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Fence](Arch_Fence.md): Creates a fence object from a selected post and path. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Truss](Arch_Truss.md): Creates a truss from a selected line or from scratch. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profile](Arch_Profile.md): Creates a parametric 2D profile. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Material tools](Arch_CompSetMaterial.md)
+
+:\* <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Material](Arch_SetMaterial.md): Creates a material and attributes it to selected objects, if any.
+
+:\* <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Material](Arch_MultiMaterial.md): Creates a multi-material and attributes it to selected objects, if any.
+
+-   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Schedule](Arch_Schedule.md): Creates different types of schedules.
+
+-   <img alt="" src=images/Arch_CompPipe.png  style="width:48px;"> [Pipe tools](Arch_CompPipe.md)
+
+:\* <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Pipe](Arch_Pipe.md): Creates a pipe.
+
+:\* <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connector](Arch_PipeConnector.md): Creates a corner or T-connection between 2 or 3 selected pipes.
 
 ### Strumenti di modifica 
 
 Strumenti per modificare gli oggetti architettonici.
 
+-   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Taglia con una linea](Arch_CutLine/it.md): Taglia un oggetto secondo una linea. {{Version/it|0.19}}
--   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Taglia con un piano](Arch_CutPlane/it.md): Taglia un oggetto secondo un piano.
--   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Aggiungi componente](Arch_Add/it.md): Aggiunge oggetti ad un componente
--   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Rimuovi componente](Arch_Remove/it.md): Sottrae o rimuove oggetti da un componente
--   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Ispeziona](Arch_Survey/it.md): Entra o esce dalla modalità ispezione
+-   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
+-   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
 
-</div>
+-   <img alt="" src=images/Arch_Survey.svg  style="width:32px;"> [Survey](Arch_Survey.md): Enters or leaves surveying mode.
 
 ### Utilità
 
 Strumenti aggiuntivi di aiuto per operazioni specifiche.
 
+-   <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Component](Arch_Component.md): Creates a non-parametric Arch component.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> [Clone component](Arch_CloneComponent.md): Produces Arch Components that are clones of selected Arch objects (not to be confused with [Draft Clone](Draft_Clone.md)).
 
--   <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Componenti](Arch_Component/it.md): Crea un componente Arch non parametrico
--   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> [Clona componente](Arch_CloneComponent/it.md): Produce componenti Arch che sono cloni di oggetti Arch selezionati (da non confondere con [Clona di Draft](Draft_Clone/it.md))
--   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Dividi mesh](Arch_SplitMesh/it.md): Divide una maglia selezionata in componenti separati
--   <img alt="" src=images/Arch_MeshToShape.svg  style="width:32px;"> [Forma da Mesh](Arch_MeshToShape/it.md): Converte una maglia in una forma, unificando le facce complanari
--   <img alt="" src=images/Arch_SelectNonManifold.svg  style="width:32px;"> [Seleziona le mesh non-manifold](Arch_SelectNonSolidMeshes/it.md): Seleziona tutti gli oggetti maglia non-solidi della selezione corrente o del documento
--   <img alt="" src=images/Arch_RemoveShape.svg  style="width:32px;"> [Rimuovi forma](Arch_RemoveShape/it.md): Converte le forme basate su cubi in oggetti architettonici completamente parametrici
--   <img alt="" src=images/Arch_CloseHoles.svg  style="width:32px;"> [Chiudi aperture](Arch_CloseHoles/it.md): Chiude le aperture in un oggetto selezionato basato su forme
--   <img alt="" src=images/Arch_MergeWalls.svg  style="width:32px;"> [Unisci pareti](Arch_MergeWalls/it.md): Unisce due o più pareti
--   <img alt="" src=images/Arch_Check.svg  style="width:32px;"> [Verifica](Arch_Check/it.md): Controlla se gli oggetti selezionati sono solidi e non contengono difetti
--   <img alt="" src=images/IFC.svg  style="width:32px;"> [Ifc Explorer](Arch_IfcExplorer/it.md): Esplora il contenuto di un file [IFC](Arch_IFC/it.md)
--   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Attiva/Disattiva IFC Brep](Arch_ToggleIfcBrepFlag/it.md): Forza l\'esportazione [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm) di un oggetto selezionato.
--   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 Viste da mesh](Arch_3Views/it.md): Crea la vista superiore, frontale e laterale di un [mesh](Mesh_Workbench/it.md).
--   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Crea un foglio IFC\...](Arch_IfcSpreadsheet/it.md): Crea un foglio di calcolo per memorizzare le proprietà [IFC](Arch_IFC/it.md) di un oggetto
--   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Mostra/Nascondi sottocomponenti](Arch_ToggleSubs/it.md): Mostra o nasconde i sotto-componenti di un oggetto Arch.
+-   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Split Mesh](Arch_SplitMesh.md): Splits a selected mesh into separate components.
 
+-   <img alt="" src=images/Arch_MeshToShape.svg  style="width:32px;"> [Mesh to Shape](Arch_MeshToShape.md): Converts a mesh into a shape, unifying coplanar faces.
 
-</div>
+-   <img alt="" src=images/Arch_SelectNonSolidMeshes.svg  style="width:32px;"> [Select non-manifold meshes](Arch_SelectNonSolidMeshes.md): Selects all non-manifold meshes from the current selection or from the document.
+
+-   <img alt="" src=images/Arch_RemoveShape.svg  style="width:32px;"> [Remove Shape from Arch](Arch_RemoveShape.md): Turns cubic shape-based Arch object fully parametric.
+
+-   <img alt="" src=images/Arch_CloseHoles.svg  style="width:32px;"> [Close holes](Arch_CloseHoles.md): Closes holes in a selected shape-based object.
+
+-   <img alt="" src=images/Arch_MergeWalls.svg  style="width:32px;"> [Merge Walls](Arch_MergeWalls.md): Merge two or more walls.
+
+-   <img alt="" src=images/Arch_Check.svg  style="width:32px;"> [Check](Arch_Check.md): Check if the selected objects are solids and don\'t contain defects.
+
+-   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Toggle IFC Brep flag](Arch_ToggleIfcBrepFlag.md): Forces a selected object to be exported as an [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm).
+
+-   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 Views from mesh](Arch_3Views.md): Creates top, front and side views from a [mesh](Mesh_Workbench.md).
+
+-   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Create IFC spreadsheet\...](Arch_IfcSpreadsheet.md): Creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object.
+
+-   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
 
 ### Preferences
 
@@ -157,5 +193,13 @@ Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/i
 
 
 
+
+
+{{Arch_Tools_navi
+
+}}
+
+
+
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Arch](Category_Arch.md) > Arch Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/it

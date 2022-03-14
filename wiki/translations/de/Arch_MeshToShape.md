@@ -17,12 +17,23 @@ Dieses Werkzeug ist für Objekte mit flachen Flächen (keine Kurven) optimiert. 
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle ein Netzobjekt
 2.  Drücke den **<img src="images/Arch_MeshToShape.svg" width=16px> [Netz zu Form](Arch_MeshToShape/de.md)** Eintrag in {{MenuCommand/de|Arch → Dienstprogramme → Netz zu Form}}
+
+
+</div>
 
 ## Eigenschaften
 
 ## Begrenzungen
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -31,7 +42,18 @@ Dieses Werkzeug ist für Objekte mit flachen Flächen (keine Kurven) optimiert. 
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
+
+
+</div>
+
+
 ```python
 new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True)
 ```
@@ -60,6 +82,15 @@ FreeCAD.ActiveDocument.recompute()
 
 new_obj = Arch.meshToShape(Box)
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

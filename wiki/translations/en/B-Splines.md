@@ -152,6 +152,8 @@ To create periodic B-splines (B-splines that form a closed curve), use the toolb
 
 B-splines can also be generated out of existing sketch segments. To do this, select the elements and press the the toolbar button **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convert Geometry to B-spline](Sketcher_BSplineApproximate.md)**.
 
+While creating a B-spline, its degree can be specified by pressing the **D** key. With this, the default to create a cubic B-spline if possible, can be overridden. <small>(v0.20)</small> 
+
 ### Changing the Degree 
 
 To change the degree, select the B-spline and use either the toolbar button **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> [Increase B-spline degree](Sketcher_BSplineIncreaseDegree.md)** or **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> [Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md)**.
@@ -183,6 +185,12 @@ If no radius constraint is set, you can also change the radius by dragging:
 In the dragging example you see that a high weight attracts the curve to the control point while a very low weight changes the curve so as if the control point does almost not exist.
 
 When you look at the [creation function](#Non-uniform_B-splines.md) for non-uniform rational B-splines you see that a weight of zero would lead to a division by zero. Therefore you can only specify weights greater than zero.
+
+### Editing Knots 
+
+New knots can be added using the **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [B-spline insert knot](Sketcher_BSplineInsertKnot.md)** button. <small>(v0.20)</small> 
+
+Deleting knots is not yet possible, see section [Limitations](#Limitations.md).
 
 ### Display Information 
 

@@ -36,6 +36,7 @@ Dieses Werkzeug erstellt Verrundungen (Rundungen) an den ausgewählten Kanten ei
 ## Notes
 
 -   PartDesign Fillet should not be confused with [Part Fillet](Part_Fillet.md). Unless you know what you are doing, [Part Fillet](Part_Fillet.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
+-   Fillets cannot completely consume the adjacent faces.
 
 
 <div class="mw-translate-fuzzy">

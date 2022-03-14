@@ -38,6 +38,8 @@ This tool is optimized for objects with flat faces (no curves). The correspondin
 
 ## Limitations
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 

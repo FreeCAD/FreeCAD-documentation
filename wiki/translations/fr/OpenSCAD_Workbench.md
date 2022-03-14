@@ -17,20 +17,23 @@ Cet atelier contient des fonctions permettant de modifier l\'arborescence des é
 
 Dans FreeCAD 0.19, le module Ply (Python-Lex-Yacc), qui est utilisé pour importer des fichiers CSG, a été supprimé du code source de FreeCAD, car il s\'agit d\'une bibliothèque tierce non développée par FreeCAD. Par conséquent, vous devez maintenant installer Ply avant d\'utiliser OpenSCAD Workbench. Lorsque vous utilisez une version pré-packagée et stable de FreeCAD, cette dépendance doit être installée automatiquement sur toutes les plates-formes. Dans d\'autres cas, par exemple, lorsque vous voulez [compiler](Compiling/fr.md) à partir de la source, vous devrez peut-être l\'installer à partir d\'un référentiel en ligne.
 
-
-{{Userdocnavi/fr}}
+Dans openSUSE, ceci est fait par :
 
 
 ```python
 sudo zypper install python3-ply
 ```
 
-Sur les systèmes basés sur Debian/Ubuntu, cela se fait de la manière suivante : 
+Sur les systèmes basés sur Debian/Ubuntu, cela se fait de la manière suivante :
+
+
 ```python
 sudo apt install python3-ply
 ```
 
-L\'installation générale sur toutes les plates-formes peut être effectuée à partir de l\'index du package Python. 
+L\'installation générale sur toutes les plates-formes peut être effectuée à partir de l\'index du package Python.
+
+
 ```python
 pip3 install --user ply
 ```
@@ -61,9 +64,9 @@ Le langage [OpenSCAD](http://www.openscad.org/) permet l\'utilisation de variabl
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Préférences\...](OpenSCAD_Preferences/fr.md): préférences disponibles dans OpenSCAD Tools.
 
-## Limites
+## Limitations
 
-OpenSCAD permet la construction de formes géométriques solides, comme l\'importation de fichiers de maillage et d\'extrusion géométriques 2d à partir de fichiers [DXF](DXF/fr.md). FreeCAD permet ainsi de faire des [.CSG](OpenSCAD_CSG/fr.md) avec primitives. Le noyau géométrique de FreeCAD (OCCT) travaille sur une représentation des frontières. La conversion de [.CSG](OpenSCAD_CSG/fr.md) en [BREP](http://fr.wikipedia.org/wiki/B-Rep) doit donc être théoriquement possible, alors que la conversion de [BREP](http://fr.wikipedia.org/wiki/B-Rep) vers [.CSG](OpenSCAD_CSG/fr.md) ne l\'est généralement pas.
+OpenSCAD crée des géométries solides constructives, importe des fichiers de maillage et extrude des géométries 2D à partir de fichiers [DXF](DXF/fr.md). FreeCAD vous permet également de créer des CSG avec des primitives. Le noyau géométrique de FreeCAD (OCCT) fonctionne en utilisant une représentation des frontières. Par conséquent, la conversion de CSG en BREP devrait, en théorie, être possible alors que la conversion de BREP en CSG ne l\'est pas en général.
 
 OpenSCAD fonctionne en interne avec les maillages (mesh). Certaines opérations qui sont utiles sur les maillages ne sont pas significatives sur un modèle BREP et peuvent ne pas être entièrement supporté. Parmi celle-ci figurent le recouvrement convexe, la somme de Minkowski, glide et subdiv. Pour l'instant OpenSCAD est exécuté pour réaliser le recouvrement convexe et la somme de Minkowski et importer le résultat. Cela signifie que la géométrie impliquée sera triangulée. Avec OpenSCAD la mise à l'échelle non uniforme est souvent utilisée, ce qui ne pose pas de problèmes avec les maillages. Avec notre noyau géométrique, les formes primitives (lignes, sections circulaires, etc) sont converties en BSpline avant d'être déformées. Ces BSplines sont connues pour poser problèmes avec des opérations booléennes futures. Une solution automatique n'est pas disponible pour le moment. S'il vous plaît n'hésitez pas à poster sur le [forum](http://forum.freecadweb.org/) si vous rencontrez ce genre de problème. Souvent ce genre de problèmes peut être résolu en modélisant des parties plus petites. Une déformation d'un cylindre peut être remplacée par l'extrusion d'une ellipse.
 
@@ -96,9 +99,9 @@ Si FreeCAD se bloque lors de l\'importation de CSG, il est fortement recommandé
 
 ## Liens
 
--   Dépôt du code source d\'OpenSCAD [GitHub](https://github.com/openscad/openscad)
--   [Tickets ouverts étiquetés \"Openscad\" sur le bugtracker deFreeCAD](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
--   [Plus de renseignements au sujet d\'Openscad sur Thingiverse](http://www.thingiverse.com/tag:openscad)
+-   Le dépôt officiel du code source du projet OpenSCAD est hébergé sur [GitHub](https://github.com/openscad/openscad).
+-   Tickets ouverts étiquetés \"OpenSCAD\" sur le [FreeCAD Suivi des problèmes sur Github](https://github.com/FreeCAD/FreeCAD/labels/WB%20OpenSCAD). Il existe également des tickets sur le [gestionnaire de bogues mantis](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD), désormais archivé.
+-   Modèles étiquetés \"OpenSCAD\" sur [Thingiverse](http://www.thingiverse.com/tag:openscad).
 
 
 

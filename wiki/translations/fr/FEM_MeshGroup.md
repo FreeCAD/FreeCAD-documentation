@@ -41,11 +41,11 @@ Groupe de type maillage MEF permet donc à FreeCAD d\'être utilisé avec des so
 
 
 
-{{FEM Tools navi
+{{FEM_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [FEM](Category_FEM.md) > FEM MeshGroup/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > FEM MeshGroup/fr

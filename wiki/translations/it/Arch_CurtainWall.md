@@ -22,13 +22,25 @@ Questo strumento crea una [facciata continua](https://en.wikipedia.org/wiki/Curt
 
 Le facciate continue possono essere create da qualsiasi tipo di oggetto esistente, in questo caso tutte le facce dell\'oggetto saranno suddivise. Funziona quindi meglio se usato con un oggetto che ha solo una faccia. In genere, si crea prima una faccia, preferibilmente delimitata da 4 bordi, che rappresenta l\'area che si desidera riempire con una facciata continua, poi si applica lo strumento.
 
+
+<div class="mw-translate-fuzzy">
+
 Le facciate continue possono anche essere costruite da un oggetto lineare, come una linea, un arco o una polilinea, come con un normale [muro](Arch_Wall/it.md).
+
+
+</div>
 
 Anche le facce con doppia curvatura o le facce con più di 4 spigoli funzionano, ma il risultato è meno prevedibile.
 
 Le facce vengono divise in faccette quadrangolari. Se i 4 punti della faccetta sono complanari, viene creata una faccetta quadrata. In caso contrario, la faccetta viene divisa in due triangoli e viene aggiunto un montante diagonale.
 
+
+<div class="mw-translate-fuzzy">
+
 Nel caso in cui sia necessaria una suddivisione non regolare, è anche possibile creare il proprio oggetto suddiviso, ad esempio utilizzando una [Griglia](Arch_Grid/it.md) di Arch, e impostando le suddivisioni verticale e orizzontale della facciata continua su 1.
+
+
+</div>
 
 Si può anche usare lo strumento Facciata continua senza alcun oggetto selezionato, nel qual caso è possibile disegnare una linea di base, che verrà estrusa verticalmente per formare la faccia su cui sarà costruita la facciata continua.
 
@@ -64,14 +76,26 @@ Si può anche usare lo strumento Facciata continua senza alcun oggetto seleziona
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Le facciate continue condividono le proprietà e i comportamenti comuni di tutti i [Componenti di Arch](Arch_Component/it.md)
 -   I montanti per le facciate continue possono essere realizzati da un profilo quadrato automatico (impostare le proprietà **Dimensione del montante**) o da un profilo personalizzato (impostare la proprietà **Profilo del montante**). I montanti possono essere centrati su qualsiasi bordo o posizionati in relazione al punto (0,0,0) disattivando la proprietà **Profilo centrato**. Ad esempio, se si desidera posizionare un profilo leggermente dietro i pannelli, si deve disegnare il profilo leggermente spostato dal punto di origine (0,0,0)
 -   Le facciate continue supportano i [Multimaterial](Arch_MultiMaterial/it.md). All\'interno del multimateriale, per i montanti verrà utilizzato lo strato **Telaio** e lo strato **Pannello di vetro** per i pannelli, oppure **Pannello solido** se non è presente alcun pannello di vetro nel multi-materiale.
 -   Le facciate continue possono essere basate su un oggetto lineare come una linea, un arco o una polilinea. In tal caso, internamente, verrà costruita una superficie di base estrudendo l\'oggetto lineare lungo la direzione data dalla proprietà **Direzione verticale**, per la lunghezza data dalla proprietà **Altezza**.
 
+
+</div>
+
 ## Proprietà
 
+
+<div class="mw-translate-fuzzy">
+
 Gli oggetti di facciata continua ereditano le proprietà dei [Componenti](Arch_Component/it.md) e hanno anche le seguenti proprietà extra:
+
+
+</div>
 
 -    **Vertical Mullion Number**:Il numero di montanti verticali
 
@@ -129,7 +153,7 @@ The procedure described below creates a wall and a curtain wall based on a same 
 
 1.  Create a normal [Arch Wall](Arch_Wall.md), either by clicking two points of from an existing linear object
 2.  Select the base object of the newly created arch wall
-3.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [[Arch CurtainWall]]** button, or press the **C** then **W** keys to create a curtain wall from the same baseline as the wall
+3.  Press the **<img src="images/Arch_CurtainWall.svg" width=16px> [CurtainWall](Arch_CurtainWall.md)** button, or press the **C** then **W** keys to create a curtain wall from the same baseline as the wall
 4.  Make sure both the wall and curtain wall have the same **Height**
 5.  Set the number of **horizontal sections** of the curtain wall to zero if you wish only vertical frames
 6.  Set the desired **horizontal mullion width** and **horizontal mullion height** (or use a mullion profile)
@@ -138,6 +162,11 @@ The procedure described below creates a wall and a curtain wall based on a same 
 9.  Attribute the multi-material to the wall
 10. Set the **Host** property of the curtain wall to the wall we created in first point
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
@@ -145,7 +174,18 @@ The procedure described below creates a wall and a curtain wall based on a same 
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Facciata continua può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Facciata continua può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 MyCurtainWall = makeCurtainWall(baseobj)
 ```
@@ -167,6 +207,15 @@ curtainwall = Arch.makeCurtainWall(baseface)
 curtainWall.VerticalSections = 6
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

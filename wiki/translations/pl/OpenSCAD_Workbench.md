@@ -19,17 +19,23 @@ This workbench contains functions to modify the CSG feature tree and repair mode
 
 In FreeCAD 0.19, the Ply (Python-Lex-Yacc) module, which is used to import CSG files, was removed from the FreeCAD source code, as it is a third party library not developed by FreeCAD. As a result, you now need to install Ply before using the OpenSCAD Workbench. When using a pre-packaged, stable version of FreeCAD this dependency should be installed automatically in all platforms; in other cases, for example, when [compiling](Compiling.md) from source, you may have to install it from an online repository.
 
-W dystrybucjach opartych o openSUSE środowisko może zostać zainstalowane za pomocą: 
+W dystrybucjach opartych o openSUSE środowisko może zostać zainstalowane za pomocą:
+
+
 ```python
 sudo zypper install python3-ply
 ```
 
-W dystrybucjach opartych o Debian / Ubuntu środowisko może zostać zainstalowane za pomocą: 
+W dystrybucjach opartych o Debian / Ubuntu środowisko może zostać zainstalowane za pomocą:
+
+
 ```python
 sudo apt install python3-ply
 ```
 
-Ogólna instalacja na wszystkich platformach może być wykonana z indeksu pakietów Pythona. 
+Ogólna instalacja na wszystkich platformach może być wykonana z indeksu pakietów Pythona.
+
+
 ```python
 pip3 install --user ply
 ```
@@ -95,9 +101,9 @@ If FreeCAD crashes when importing CSG, it is strongly recommended that you enabl
 
 ## Odnośniki internetowe 
 
--   Kod źródłowy OpenSCAD na [GitHub](https://github.com/openscad/openscad)
--   [Zgłoszenia błędów w FreeCAD związane z OpenSCAD](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
--   [Rzeczy oznaczone tagiem \"OpenSCAD\" na serwisie Thingiverse](http://www.thingiverse.com/tag:openscad)
+-   Oficjalne repozytorium kodu źródłowego projektu OpenSCAD znajduje się na stronie [GitHub](https://github.com/openscad/openscad)
+-   \* Otwórz zgłoszenia oznaczone tagiem \"OpenSCAD\" na [FreeCAD Github issue tracker](https://github.com/FreeCAD/FreeCAD/labels/WB%20OpenSCAD). Istnieją również zgłoszenia na zarchiwizowanym już [mantis bugtracker](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD).
+-   \* Modele oznaczone tagiem \"OpenSCAD\" w serwisie [Thingiverse](http://www.thingiverse.com/tag:openscad)
 
 
 

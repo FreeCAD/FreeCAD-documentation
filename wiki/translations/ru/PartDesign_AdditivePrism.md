@@ -49,10 +49,16 @@ The Prism can be edited after its creation in two ways:
 -    **Second Angle**: angle in second direction. <small>(v0.19)</small> 
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_navi
 
 }}
 

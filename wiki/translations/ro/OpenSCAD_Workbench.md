@@ -19,17 +19,23 @@ Acest atelier de lucru conține funcții pentru modificarea arborescenței func�
 
 In FreeCAD 0.19, the Ply (Python-Lex-Yacc) module, which is used to import CSG files, was removed from the FreeCAD source code, as it is a third party library not developed by FreeCAD. As a result, you now need to install Ply before using the OpenSCAD Workbench. When using a pre-packaged, stable version of FreeCAD this dependency should be installed automatically in all platforms; in other cases, for example, when [compiling](Compiling.md) from source, you may have to install it from an online repository.
 
-In openSUSE this is done by: 
+In openSUSE this is done by:
+
+
 ```python
 sudo zypper install python3-ply
 ```
 
-In Debian/Ubuntu based systems this is done like the following: 
+In Debian/Ubuntu based systems this is done like the following:
+
+
 ```python
 sudo apt install python3-ply
 ```
 
-The general installation in all platforms can be done from the Python package index. 
+The general installation in all platforms can be done from the Python package index.
+
+
 ```python
 pip3 install --user ply
 ```
@@ -57,11 +63,25 @@ Limbajul OpenSCAD permite utilizarea variabilelor și a buclelor. Vă permite s�
 
 -   <img alt="" src=images/Std_DlgParameter.png  style="width:32px;"> [Preferences](OpenSCAD_Preferences.md): preferințe disponibile pentru instrumentele OpenSCAD.
 
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Limitări
 
 OpenSCAD creează geometrie solidă constructivă, precum și importarea fișierelor tip plasă și extrudarea elementelor geometrice 2d (din fișierele dxf). FreeCAD vă permite să creați CSG și cu primitive. Kernelul geometriei FreeCAD (OCCT) funcționează utilizând o reprezentare a limitei. Prin urmare, conversia de la CSG la BREP ar trebui, în teorie, să fie posibilă, în timp ce conversia de la BREP la CSG este, în general, nu.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 OpenSCAD funcționează intern pe ochiuri de plasă. Unele operațiuni care sunt utile pentru ochiurile de plasă nu sunt semnificative pentru un model BREP și nu pot fi acceptate pe deplin. Printre acestea se numără cocii convexe, suma minkowski, alunecarea și subdivizarea. În prezent, executăm binarul OpenSCAD pentru a efectua operațiuni de cocă și minkwoski și a importa rezultatul. Aceasta înseamnă că geometria implicată va fi triangulată. În OpenSCAD este adesea folosită o scalare neuniformă, ceea ce nu implică probleme la utilizarea plaselor. În geometria kernelului, primitivele geometrice (linii, secțiuni circulare etc.) sunt convertite în BSpline înainte de a efectua astfel de deformări. Aceste linii BS sunt cunoscute că provoacă probleme în operațiile booleene ulterioare. O soluție automată nu este disponibilă momentan. Vă rugăm să nu ezitați să postați pe forum dacă întâmpinați astfel de probleme. Adesea, astfel de probleme pot fi rezolvate prin remodelarea pieselor mici. O deformare a unui cilindru poate fi înlocuită de o extrudare a unei elipse.
+
+
+</div>
 
 ## Importing text 
 
@@ -96,10 +116,16 @@ Dacă FreeCAD se blochează atunci când importați CSG, este recomandat să act
 
 ## Links
 
+
+<div class="mw-translate-fuzzy">
+
 ## Legături
 
 -   [Open tickets tagged \"Openscad\" on the FreeCAD bugtracker](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
 -   [Things tagged with \"OpenSCAD\" on Thingiverse](http://www.thingiverse.com/tag:openscad)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

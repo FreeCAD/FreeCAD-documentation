@@ -24,8 +24,19 @@ Questo strumento tenta di eliminare una forma cubica (un parallelepipedo) incorp
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare un <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Muro](Arch_Wall/it.md) o una <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md).
 2.  Premere il pulsante **<img src="images/Arch_RemoveShape.svg" width=16px> [Rimuovi Forma](Arch_RemoveShape/it.md)** in **Arch → Utilità → Rimuovi Forma**.
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -34,7 +45,18 @@ Questo strumento tenta di eliminare una forma cubica (un parallelepipedo) incorp
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 removeShape(objs, mark=True)
 ```
@@ -73,6 +95,11 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
+
+
+{{Arch_Tools_navi
+
+}}
 
 
 

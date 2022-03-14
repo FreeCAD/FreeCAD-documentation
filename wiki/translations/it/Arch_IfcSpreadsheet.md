@@ -32,6 +32,11 @@ Questo strumento crea un foglio di calcolo per memorizzare le proprietà [IFC](A
 
 </div>
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
@@ -39,7 +44,18 @@ Questo strumento crea un foglio di calcolo per memorizzare le proprietà [IFC](A
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 spreadsheet = makeIfcSpreadsheet(archobj=None)
 ```

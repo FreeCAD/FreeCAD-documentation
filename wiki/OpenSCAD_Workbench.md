@@ -14,17 +14,23 @@ This workbench contains functions to modify the CSG feature tree and repair mode
 
 In FreeCAD 0.19, the Ply (Python-Lex-Yacc) module, which is used to import CSG files, was removed from the FreeCAD source code, as it is a third party library not developed by FreeCAD. As a result, you now need to install Ply before using the OpenSCAD Workbench. When using a pre-packaged, stable version of FreeCAD this dependency should be installed automatically in all platforms; in other cases, for example, when [compiling](Compiling.md) from source, you may have to install it from an online repository.
 
-In openSUSE this is done by:  
+In openSUSE this is done by:
+
+ 
 ```python
 sudo zypper install python3-ply
 ```
 
-In Debian/Ubuntu based systems this is done like the following:  
+In Debian/Ubuntu based systems this is done like the following:
+
+ 
 ```python
 sudo apt install python3-ply
 ```
 
-The general installation in all platforms can be done from the Python package index.  
+The general installation in all platforms can be done from the Python package index.
+
+ 
 ```python
 pip3 install --user ply
 ```
@@ -94,9 +100,9 @@ If FreeCAD crashes when importing CSG, it is strongly recommended that you enabl
 
 ## Links
 
--   OpenSCAD source code repository on [GitHub](https://github.com/openscad/openscad)
--   [Open tickets tagged \"Openscad\" on the FreeCAD bugtracker](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
--   [Things tagged with \"OpenSCAD\" on Thingiverse](http://www.thingiverse.com/tag:openscad)
+-   The official OpenSCAD project source code repository hosted on [GitHub](https://github.com/openscad/openscad)
+-   Open tickets tagged \"OpenSCAD\" on the [FreeCAD Github issue tracker](https://github.com/FreeCAD/FreeCAD/labels/WB%20OpenSCAD). There are also tickets on the now archived [mantis bugtracker](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD).
+-   Models tagged with \"OpenSCAD\" on [Thingiverse](http://www.thingiverse.com/tag:openscad)
 
 
 

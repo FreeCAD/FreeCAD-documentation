@@ -14,7 +14,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Esta herramienta permite construir una lámina 2D, incluyendo cualquier número de objetos [Arch Panel Cut](Arch_Panel_Cut/es.md), o cualquier otro objeto 2D como los realizados por [Draft Workbench](Draft_Workbench/es.md) y [Sketcher Workbench](Sketcher_Workbench/es.md). La lámina del panel se hace típicamente para cortes de layout que se realizarán por una máquina CNC. Estas hojas pueden luego exportarse a un archivo [DXF](Draft_DXF/es.md).
+
+
+</div>
 
 <img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
 

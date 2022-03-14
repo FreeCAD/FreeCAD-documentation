@@ -20,8 +20,8 @@ Wenn der Elternkörper einer ausgewählten ebenen Fläche schon zuvor von einer 
 
 ## Anwendung
 
-1.  Eine ebene Fläche eines SheetMetal-Objekts auswählen. **Hinweis**: Die Fläche sollte eben und mit konstanter Wandstärke sein.
-2.  Den Befehl <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md) aktivieren durch:
+1.  Eine ebene Fläche eines SheetMetal-Objekts auswählen.
+2.  Den Befehl <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold/de.md) aktivieren durch:
     -   Die Schaltfläche **<img src="images/_SheetMetal_UnattendedUnfold.svg_" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)
 **
     -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)
@@ -32,9 +32,7 @@ Wenn der Elternkörper einer ausgewählten ebenen Fläche schon zuvor von einer 
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Dieses Werkzeug erzeugt ein Unfold-Objekt und hat keine eigene Darstellung in der [Baumansicht](Tree_view/de.md) oder anderswo und hat daher auch keine Eigenschaften.
-
-Das **Unfold**-Objeckt, andererseits, wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Es hat keine zusätzlichen Eigenschaften, aber sein Label hat einen Standardwert:
+Das SheetMetal-**Unfold**-Objekt, wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Es hat keine zusätzlichen Eigenschaften, aber sein Label hat einen Standardwert:
 
 ### Daten
 

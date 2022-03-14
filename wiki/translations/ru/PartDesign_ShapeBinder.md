@@ -105,10 +105,16 @@ Double-click the ShapeBinder label in the [tree view](Tree_view.md) or right-cli
     -   Use the **Trace Support** property to change this behavior.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{PartDesign Tools navi
+
+
+</div>
+
+
+{{PartDesign_Tools_ navi
 
 }}
 

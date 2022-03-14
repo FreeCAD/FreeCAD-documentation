@@ -42,13 +42,13 @@ The dimension dialog offers the following settings:
 
 ### Formatting
 
--   **Format Specifier**: How the dimension value will be formatted. By default the specifier is *%.xf* whereby *x* is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string). There is also an additional *%w* format that prints the specified number of digits after the dot and removes trailing zeros. For example, *%.2w* means that at most 2 decimals will be printed after dot and any trailing zeros will be cut off.
+-   **Format Specifier**: How the dimension value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string). There is also an additional {{Value|%w}} format that prints the specified number of digits after the decimal separator and removes trailing zeros. For example, {{Value|%.2w}} means that at most 2 decimals will be printed and any trailing zeros will be cut off.
 
 -   **Arbitrary Text**: If checked, the dimension is replaced by the content of the **Format Specifier** field.
 
--   **OverTolerance Format Specifier**: How the overtolerance value will be formatted. By default the specifier is *%.xf* whereby *x* is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
+-   **OverTolerance Format Specifier**: How the overtolerance value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
 
--   **UnderTolerance Format Specifier**: How the undertolerance value will be formatted. By default the specifier is *%.xf* whereby *x* is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
+-   **UnderTolerance Format Specifier**: How the undertolerance value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string).
 
 -   **Arbitrary Tolerance Text**: If checked, the tolerances are replaced by the content of the **OverTolerance Format Specifier** **UnderTolerance Format Specifier** fields.
 
@@ -64,7 +64,7 @@ The dimension dialog offers the following settings:
 
 ### Lines
 
--   **Override Angles**: If checked, the usual angles for the dimension line and extension lines will be overriden by the specified values.
+-   **Override Angles**: If checked, the usual angles for the dimension line and extension lines will be overridden by the specified values.
 
 -   **Dimension line angle**: Override value for angle of dimension line with view X axis (in degrees).
 
@@ -147,7 +147,7 @@ The dimension dialog offers the following settings:
 
 {{Properties_Title|Format}}
 
--    **Format Spec**: How the dimension value will be formatted. By default the specifier is *%.xf* whereby *x* is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string). There is also an additional *%w* format that prints the specified number of digits after the dot and removes trailing zeros. For example, *%.2w* means that at most 2 decimals will be printed after dot and any trailing zeros will be cut off.
+-    **Format Spec**: How the dimension value will be formatted. See [Formatting](#Formatting.md).
 
 -    **Format Spec Over Tolerance**: Like **Format Spec**, but for overtolerances.
 

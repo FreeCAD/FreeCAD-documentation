@@ -196,6 +196,11 @@ Cecha Podstawa jest całkowicie opcjonalna; jest ona obecna tylko wtedy, gdy do�
 
 *Po lewej: Zawartość Projektu części z cechą bazową, która jest pobierana z zewnętrznego obiektu bryły, i wiele kolejnych [Cechy Projektu części](PartDesign_Feature/pl.md) na wierzchu.. </br> Po prawej: Zawartość, która nie posiada określonej cechy bazowej.*
 
+
+**Note:**
+
+If another PartDesign body is selected as a BaseFeature it must have a shape. If it is empty (no features, no BaseFeature, \...) this will result in error.
+
 ### Czubek
 
 Czubek jest [cechą Projektu części](PartDesign_Feature/pl.md), który jest wystawiony poza Zawartość. To znaczy, jeśli inne narzędzie z dowolnego środowiska pracy *(na przykład **[<img src=images/Part_SimpleCopy.svg style="width:16px"> [Część: Szybka kopia](Part_SimpleCopy/pl.md)** lub **[<img src=images/Part_Cut.svg style="width:16px"> [Część: Wytnij](Part_Cut/pl.md)**)* musi używać kształtu zawartości, użyje kształtu Czubka. Mówiąc inaczej, Czubek jest ostateczną reprezentacją bryły, tak jakby historia parametryczna nie istniała.

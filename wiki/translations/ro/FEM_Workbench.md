@@ -76,7 +76,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-constraint-planerotation.svg  style="width:32px;"> [Constraint plane rotation](FEM_ConstraintPlaneRotation/ro.md): Vă permite să definiți o constrângere de rotație a planului pe o fațetă plană
 
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Constraint section print](FEM_ConstraintSectionPrint.md): <small>(v0.19)</small> 
+-   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Constraint section print](FEM_ConstraintSectionPrint.md): Used to print the predefined facial output variables (forces and moments) to the dat file. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Fem-constraint-transform.svg  style="width:32px;"> [Constraint transform](FEM_ConstraintTransform.md):
 
@@ -126,9 +126,21 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 ## Meniu plase/Mesh 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-femmesh-netgen-from-shape.svg  style="width:32px;"> [FEM mesh from shape by Netgen](FEM_MeshNetgenFromShape.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-femmesh-gmsh-from-shape.svg  style="width:32px;"> [FEM mesh from shape by GMSH](FEM_MeshGmshFromShape.md):
+
+
+</div>
 
 -   <img alt="" src=images/Fem-femmesh-boundary-layer.svg  style="width:32px;"> [FEM mesh boundary layer](FEM_MeshBoundaryLayer.md):
 
@@ -176,9 +188,21 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/FEM_PostApplyChanges.png  style="width:32px;"> [Post Apply changes](FEM_PostApplyChanges.md):
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-data.svg  style="width:32px;"> [Post Pipeline from result](FEM_PostPipelineFromResult.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Warp filter](FEM_PostFilterWarp/ro.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/ro.md):
 

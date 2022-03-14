@@ -26,12 +26,23 @@ Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo st
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare un oggetto mesh.
 2.  Premere il pulsante **<img src="images/Arch_MeshToShape.svg" width=16px> [Da mesh a forma](Arch_MeshToShape/it.md)** in **Arch → Utilità → Da mesh a forma**.
+
+
+</div>
 
 ## Proprietà
 
 ## Limitazioni
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -40,7 +51,18 @@ Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo st
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
+
+
 ```python
 new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True)
 ```

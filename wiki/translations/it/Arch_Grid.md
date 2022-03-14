@@ -87,6 +87,8 @@ La Griglia è un oggetto 2D e quindi può essere utilizzato ovunque sia necessar
 
 -    {{PropertyData/it|Hidden Faces}}: Gli indici delle facce da nascondere
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 

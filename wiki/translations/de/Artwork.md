@@ -135,9 +135,9 @@ Siehe [Grafik Web](Artwork_Web/de.md).
 
 ## Externe Arbeitsbereiche und Erweiterungen 
 
-### From Mod/asm3/ 
+### Aus Mod/asm3/ 
 
-See [Artwork Assembly3](Artwork_Assembly3.md).
+Siehe [Grafik Assembly3](Artwork_Assembly3/de.md).
 
 ### Aus Mod/Plot/ 
 
@@ -147,9 +147,9 @@ Siehe [Grafik Plot](Artwork_Plot/de.md).
 
 Siehe [Artwork Bewehrung](Artwork_Reinforcement/de.md).
 
-### From Mod/Render/ 
+### Aus Mod/Render/ 
 
-See [Artwork Render](Artwork_Render.md).
+Siehe [Grafik Render](Artwork_Render/de.md).
 
 ### Aus /Mod/Ship/ 
 

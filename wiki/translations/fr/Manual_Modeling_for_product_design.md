@@ -69,7 +69,7 @@ Quittez le mode d\'édition et vous pouvez maintenant effectuer l\'opération de
 -   Commencez par sélectionner la face supérieure de notre bloc.
 -   Créez une nouvelle esquisse (<img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)).
 -   Créez deux cercles (<img alt="" src=images/Sketcher_Circle.png  style="width:16px;"> [Sketcher Cercles](Sketcher_CreateCircle/fr.md)).
--   Ajoutez une contrainte de rayon (<img alt="" src=images/Constraint_Radius.svg  style="width:16px;"> [Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md)) de 3,6 mm à chacun d\'eux.
+-   Pour chaque cercle, sélectionnez-le et ajoutez une <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:16px;"> [Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md) de 3,6 mm à chacun d\'eux.
 -   Importez l'arête gauche de la face de base avec l\'outil Géométrie Externe (<img alt="" src=images/Sketcher_External.svg  style="width:16px;"> [Sketcher Géométrie externe](Sketcher_External/fr.md)).
 -   Placez deux contraintes verticales et deux contraintes horizontales de 6 mm entre le centre de chaque cercle et les points d\'angle du bord importé, donc chaque cercle a son centre à 6mm de la bordure de la face :
 

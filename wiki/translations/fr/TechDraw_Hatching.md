@@ -3,33 +3,26 @@
 
 ## Description
 
-L\'atelier TechDraw dispose de deux outils de hachurage:
+L\'atelier TechDraw dispose de deux outils de hachurage :
 
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Hachures à partir de motifs](TechDraw_Hatch/fr.md) (basé sur les tuiles)
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Hachures par lignes géométriques](TechDraw_GeometricHatch/fr.md) (basé sur la ligne)
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [TechDraw Hachures par motif](TechDraw_Hatch/fr.md) (basé sur des images SVG en mosaïque)
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) (basé sur la ligne)
 
-## Utilisation
+## Hachure basée sur une image 
 
-1.  Sélectionnez une face
-
-    :   <img alt="" src=images/SelectFace.png  style="width:150px;">
-2.  En fonction des besoins, appuyez sur les icônes <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [TechDraw Hachures par motifs](TechDraw_Hatch/fr.md) ou <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md).
-
-**Résultat:** La surface sera hachurée initialement en utilisant les valeurs par défaut. **Remarque**: modifiez les propriétés des hachures pour obtenir le motif souhaité.
-
-### Hachures à l\'aide d\'un fichier image 
-
-<img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Hachures à l\'aide d\'un fichier image](TechDraw_Hatch/fr.md) utilise des tuiles de base [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md) pour couvrir la face sélectionnée.
+<img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> [TechDraw Hachures à l\'aide d\'un fichier image](TechDraw_Hatch/fr.md) utilise des images [SVG](SVG/fr.md) en mosaïque pour couvrir la face sélectionnée.
 
 Les tuiles [SVG](SVG/fr.md) sont typiquement des images de **64x64** pixels. Tous les fichiers de modèles fournis avec FreeCAD sont disponibles sur [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
-Tout fichier [bitmap](bitmap/fr.md) peut être utilisé (PNG, JPG, etc\...) comme remplissage. **Remarques:** les résultats sont meilleurs avec beaucoup de petites images répétées plutôt qu\'avec moins d\'images plus grandes.
-
 Le fichier de motif de hachures par défaut peut être spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
+
+### Motifs disponibles 
+
+Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General\_steel.svg\|general\_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
 
 ### Hachures géométriques 
 
-<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Hachures géométriques](TechDraw_GeometricHatch/fr.md) forme un motif de lignes basé sur une spécification lue dans un fichier. Ce fichier est généralement **compatible avec le format AutoDesk® PAT largement utilisé**. Une petite sélection de modèles est incluse dans le fichier FCPAT.pat:
+<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) forme un motif de lignes basé sur une spécification lue dans un fichier. Ce fichier est généralement **compatible avec le format AutoDesk® PAT largement utilisé**. Une petite sélection de modèles est incluse dans le fichier FCPAT.pat:
 
 
 ```python
@@ -72,7 +65,7 @@ Le fichier `FCPAT.pat` peut être trouvé à l\'emplacement suivant :
 
 
 
-{{TechDraw Tools navi
+{{TechDraw_Tools_navi
 
 }}
 
