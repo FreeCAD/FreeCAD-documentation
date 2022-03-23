@@ -3,6 +3,7 @@
    Name:Sketcher CreateOblong
    MenuLocation:Sketch → Sketcher geometries → Create rounded rectangle
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **O**
    Version:0.20
    SeeAlso:[Sketcher CreateRectangle](Sketcher_CreateRectangle.md)
 ---
@@ -24,7 +25,7 @@ This tool draws a rounded rectangle by picking two opposite points. When startin
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

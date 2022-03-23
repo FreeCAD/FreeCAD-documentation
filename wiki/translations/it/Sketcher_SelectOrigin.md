@@ -31,7 +31,7 @@ Seleziona l\'origine di uno schizzo.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

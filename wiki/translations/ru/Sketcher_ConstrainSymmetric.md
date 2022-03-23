@@ -10,6 +10,9 @@
 
 # Sketcher ConstrainSymmetric/ru
 
+
+</div>
+
 ## Описание
 
 **Ограничение симметричности** требует от двух выделенных точек быть симметричными относительно данной линии, то есть от обеих точек требуется лежать на нормали к линии через обе точки на одинаковом расстоянии от линии. Альтернативно, она может наложить ограничение на две точки быть симметричными относительно третьей.
@@ -64,10 +67,16 @@ A line and a symmetry point (In the GUI one can select a line and a point, but i
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Line1`, `Line2`, `LineS`, `Line`, `PointOfLine1`, `PointOfLine2` and `PointOfLineS`, and contains further examples on how to create constraints from Python scripts.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

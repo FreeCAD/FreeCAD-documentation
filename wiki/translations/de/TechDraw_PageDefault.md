@@ -22,13 +22,7 @@ Das Neue Standard Werkzeug erstellt ein neues Seitenobjekt unter Verwendung der 
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
--   Wenn in der Zeichnung die Eigenschaft »KeepUpdated« auf »False« gesetzt wird oder die TechDraw Einstellung »Seiten aktuell halten« deaktiviert ist, wird die Zeichnung bei einer 3D-Modelländerung nicht aktualisiert. Es kann dann vorkommen, dass Hinweise zu fehlenden Geometrien oder Bemaßungen usw. aufploppen. Sobald die Seite aktualisiert wird, sollten die Fehler behoben sein. Die Zeichnung wird mit diesem Symbol <img alt="" src=images/TechDraw_Tree_Page_Unsync.png  style="width:32px;"> im Baum anzeigen, wenn die Aktualisierung ausgesetzt ist. Diese Einstellung beeinflusst auch den Startprozess. Wenn die Seite als »Seiten nicht aktuell halten« markiert ist, wird sie nicht beim Programmstart gezeichnet.
-
-
-</div>
+-   Wenn die Seite mit »nicht aktuell halten« markiert ist, ob durch die Eigenschaft »KeepUpdated« oder durch den entsprechend gesetzten Wert unter Einstellungen, wird sie Änderungen des 3D-Modells ignorieren. Dies kann zu ungewöhnlichen Darstellungen führen (fehlende Geometrien, fehlende Maßzahlen usw.). Diese werden korrigiert, sobald die Seite mit dem Werkzeug [Seite neu zeichnen](TechDraw_RedrawPage/de.md) aktualisiert wird. Die Zeichnung wird mit diesem Symbol <img alt="" src=images/TechDraw_Tree_Page_Unsync.png  style="width:24px;"> im Baum angezeigt, solange die Aktualisierung ausgesetzt ist. Diese Einstellung beeinflusst auch den Startprozess. Wenn die Seite mit »nicht aktuell halten« markiert ist, wird sie beim Programmstart nicht dargestellt.
 
 Wenn die Standardvorlage nicht in der Konfigurationsdatei `user.cfg` angegeben ist, wird das Werkzeug folgendes versuchen:
 

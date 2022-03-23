@@ -4,7 +4,7 @@
    Name/fr:Sketcher Contrainte angulaire
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte angulaire
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**A**
+   Shortcut:**K** **A**
    SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md)
 ---
 
@@ -27,9 +27,9 @@ Pour appliquer une contrainte d\'angle, il faut suivre les étapes suivantes :
 
 1.  Sélectionnez une, deux ou trois entités dans l\'esquisse. Le mode sera choisi en fonction de la sélection.
 2.  Lancez la contrainte en utilisant plusieurs méthodes:
-    -   En appuyant sur le bouton **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Contraint angulaire](Sketcher_ConstrainAngle/fr.md)** dans la barre d\'outils.
-    -   Utilisation du raccourci clavier **A**. (**A** est pour **A**ngle)
-    -   L\'utilisation de **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Contraint angulaire** forme l\'entrée de menu supérieure
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Contraint angulaire](Sketcher_ConstrainAngle/fr.md)** dans la barre d\'outils.
+    -   Utilisez des raccourcis clavier **K** puis **A**.
+    -   Utilisez **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Contraint angulaire** du menu supérieure.
 3.  Une boîte de dialogue d\'édition apparaît.
 4.  Modifiez l\'angle si nécessaire. **Remarque :** l\'angle peut être entré comme une expression qui sera évaluée et le résultat sera stocké.
 5.  Cliquez sur **OK**
@@ -74,7 +74,7 @@ Pour que la contrainte fonctionne correctement, le point doit être sur les deux
 
 ## Script
 
-L\'Angle Contraint peut être créer depuis une [macros](Macros/fr.md) et depuis la console python en utilisant : 
+La Contrainte Angle peut être créée depuis une [macros](Macros/fr.md) et depuis la console Python en utilisant : 
 ```python
 # line slope angle
 Sketch.addConstraint(Sketcher.Constraint('Angle',iline,angle))
@@ -99,13 +99,13 @@ Sketch.addConstraint(Sketcher.Constraint('AngleViaPoint',icurve1,icurve2,geoidpo
 
 :\* `angle` est la valeur d\'angle en radians. L\'angle est compté entre vecteurs tangents dans le sens antihoraire. Les vecteurs tangents pointent du début à la fin pour les lignes (ou vice versa si le point final est fourni dans l\'angle entre le mode de lignes) et le long du sens anti-horaire pour les cercles, arcs et ellipses.La valeur est également acceptée comme un angle (par exemple `App.Units.Quantity('45 deg')`)
 
-La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` et `pointpos` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` et `pointpos` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

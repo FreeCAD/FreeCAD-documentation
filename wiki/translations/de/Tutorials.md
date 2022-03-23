@@ -71,12 +71,33 @@ Anleitung zum Erstellen einer Mittellinie und der Winkelbemaßung an schrägen B
 
 ## FEM
 
+
+<div class="mw-translate-fuzzy">
+
 FEM example01 pic00.jpg\|link=[FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md)\|[CalcculiX Cantilever FEM Analyse](FEM_CalculiX_Cantilever_3D.md) (v0.17)
 Dieses Beispiel ist in jeder Installation von FreeCAD enthalten und zeigt eine grundlegende Analyse mit dem CalculiX FE-Solver. Lösche das aktuelle Ergebnis, führe den Solver erneut aus und betrachte die Verschiebungen und Spannungen im verformten Netz im Ansichtsfenster. FEM tutorial result.png\|link=[FEM tutorial/de](FEM_tutorial/de.md)\|[Einfache FEM-Einführung](FEM_tutorial/de.md) (v0.17)
 Dies ist eine kurze Einführung in die Schritte, die erforderlich sind, um eine Analyse im FEM Arbeitsbereich durchzuführen: Modelliere Dein Objekt, erstelle ein Netz, füge Einschränkungen und Kräfte hinzu, füge ein Material hinzu, führe den Solver aus und visualisiere die Ergebnisse. Figure 11 Deformed Mesh.png\|link=[FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.md)\|[FEM-Scheranalyse eines Verbundblocks](FEM_Shear_of_a_Composite_Block.md) (v0.17)
 Studiere die Verformung eines Blocks aus einem harten Kern, der von einem weicheren Material umgeben ist: Erstelle Maschenbereiche, füge Materialien hinzu, richte Gleitbeschränkungen ein, addiere Scherlasten, führe den Solver aus und visualisiere die Ergebnisse mit einer Clip-Ebene. Femconcrete\_Wall\_3D\_rx\_PSS.png\|link=[Analysis\_of\_reinforced\_concrete\_with\_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analyse von Stahlbeton mit FEM](Analysis_of_reinforced_concrete_with_FEM.md) (v0.19)
 Schätze das erforderliche Bewehrungsniveau in einer Betonkonstruktion, um sprödes Versagen unter Zug oder Scherung zu verhindern. FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
 Dieses Tutorial erklärt die Basics, um Daten vom FEM-Arbeitsbereich nach Paraview zu transferieren und zeigt einige der Optionen und Einstellungen, um Daten darzustellen.
+
+
+</div>
+
+FEM tutorial result.png\|link=[FEM tutorial](FEM_tutorial.md)\|[Simple FEM introduction](FEM_tutorial.md) (v0.17)
+This is a short introduction to the steps required to perform an analysis in the FEM Workbench: model your object, create a mesh, add constraints and forces, add a material, run the solver, and visualize the results.
+
+Figure 11 Deformed Mesh.png\|link=[FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.md)\|[FEM shear analysis of a composite block](FEM_Shear_of_a_Composite_Block.md) (v0.17)
+Study the deformation of a block made of a hard nucleus surrounded by a softer material: create mesh regions, add materials, set up sliding constraints, add shear loads, run the solver, and visualize the results with a clip plane.
+
+Femconcrete\_Wall\_3D\_rx\_PSS.png\|link=[Analysis\_of\_reinforced\_concrete\_with\_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md) (v0.19)
+Estimate the level of reinforcement required in a concrete structure to prevent brittle failure under tension or shear.
+
+Two\_balls\_result\_2-cropped.png\|link=[FEM\_Example\_Capacitance\_Two\_Balls](FEM_Example_Capacitance_Two_Balls.md)\|[Electrostatic equation -- Capacitance of two balls](FEM_Example_Capacitance_Two_Balls.md) (v0.19)
+This example shows how to simulate a capacitance. It illustrates how to setup the example, study it\'s various parts, solve it using the [Elmer Solver](FEM_SolverElmer.md) and visualize the results using [Clip Filter](FEM_PostFilterClipRegion.md).
+
+FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
+This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.
 
 ## CNC & 3D Druck 
 

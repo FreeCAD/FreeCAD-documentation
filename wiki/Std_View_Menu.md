@@ -94,7 +94,7 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Clipping plane](Std_ToggleClipPlane.md): Temporarily clips objects.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut.md): Persistent cuts of objects and assemblies. <small>(v0.20)</small> 
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut.md): Creates persistent cuts of objects and assemblies. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Texture mapping\...](Std_TextureMapping.md): Temporarily maps a texture onto all objects.
 

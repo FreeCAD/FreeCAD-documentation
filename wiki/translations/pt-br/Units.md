@@ -139,10 +139,10 @@ Thanks to the definition of *unit system*, it is possible for the user to work w
 
 #### Base and derived unit symbols 
 
-According to [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf), the symbols to specify a units are officially approved. Two consequences can be highlighted from this.
+According to [The International System of Units (SI)](https://physics.nist.gov/cuu/Units/index.html), the symbols to specify a units are officially approved. Two consequences can be highlighted from this.
 
--   it is not easy for a computer program to work with unit symbols because some are greek letters for instance. Hence they can be a bit difficult to process by a program
--   while some units and their symbols can be used widely, they may be not approved officially, like for instance *tonne* unit (see p32 of [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf))
+-   it is not easy for a computer program to work with unit symbols because some are Greek letters for instance. Hence they can be a bit difficult to process by a program
+-   while some units and their symbols can be used widely, they may be not approved officially, like for instance *tonne* unit (see p55 of [Guide for the Use of the International System of Units (SI)](https://physics.nist.gov/cuu/pdf/sp811.pdf))
 
 To overcome these limitations and remain flexible, the proposed system favors the use of unit magnitudes instead of unit symbols, which remain nonetheless available for an ergonomy reason.
 

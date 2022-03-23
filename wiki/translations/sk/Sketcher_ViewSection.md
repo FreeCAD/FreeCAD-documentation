@@ -9,6 +9,9 @@
 
 # Sketcher ViewSection/sk
 
+
+</div>
+
 ## Opis
 
 Nástroj \"Zobrazenie rezu\" vytvorí reznú rovinu, ktorá dočasne skryje akýkoľvek materiál nachádzajúci sa pred reznou rovinou.
@@ -27,7 +30,7 @@ Tento príkaz môžete spustiť viacerými spôsobmi:
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

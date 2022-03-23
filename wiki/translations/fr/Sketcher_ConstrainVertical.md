@@ -19,8 +19,8 @@ Permet de créér une contrainte de verticalité sur les lignes ou segments de p
 1.  Sélectionnez les lignes ou les sommets à contraindre verticalement
 2.  Pour lancer la commande de contrainte verticale :
     -   Appuyez sur l\'icône **[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Contrainte verticale](Sketcher_ConstrainVertical/fr.md)**.
-    -   Utilisez le raccourci clavier **V**
-    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → Contraindre verticalement** dans le menu déroulant Sketch
+    -   Utilisez le raccourci clavier **V**.
+    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> Contrainte verticale** dans le menu déroulant de Sketch.
 3.  Alternativement, l\'outil peut être démarré sans sélection préalable et il attendra une sélection mais seules les lignes seront sélectionnables.
 4.  Faites un clic droit ou appuyez une fois sur **Echap** pour quitter l\'outil.
 
@@ -29,13 +29,13 @@ Permet de créér une contrainte de verticalité sur les lignes ou segments de p
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Vertical', Line))```
 
-La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Line` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Line` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

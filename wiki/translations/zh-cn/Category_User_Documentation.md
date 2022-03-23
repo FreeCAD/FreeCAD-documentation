@@ -39,11 +39,11 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Sketcher ViewSketch/zh-cn](wiki/Sketcher ViewSketch/zh-cn.md) | [Sketcher Workbench/zh-cn](wiki/Sketcher Workbench/zh-cn.md) | [Source documentation/zh-cn](wiki/Source documentation/zh-cn.md) |
 | [Spreadsheet Workbench/zh-cn](wiki/Spreadsheet Workbench/zh-cn.md) | [Start Workbench/zh-cn](wiki/Start Workbench/zh-cn.md) | [Surface Workbench/zh-cn](wiki/Surface Workbench/zh-cn.md) |
 | [TechDraw Workbench/zh-cn](wiki/TechDraw Workbench/zh-cn.md) | [Testing/zh-cn](wiki/Testing/zh-cn.md) | [Tracker/zh-cn](wiki/Tracker/zh-cn.md) |
-| [Template:TutorialInfo/zh-cn](wiki/Template_TutorialInfo/zh-cn.md) | [Tutorials/zh-cn](wiki/Tutorials/zh-cn.md) | [User hub/zh-cn](wiki/User hub/zh-cn.md) |
-| [Web Workbench/zh-cn](wiki/Web Workbench/zh-cn.md) | [WebTools Workbench/zh-cn](wiki/WebTools Workbench/zh-cn.md) | [Workbenches/zh-cn](wiki/Workbenches/zh-cn.md) |
-| [Screenshots/zh-cn](wiki/Screenshots/zh-cn.md) | [Category:Arch/zh-cn](wiki/Category_Arch/zh-cn.md) | [Category:BIM/zh-cn](wiki/Category_BIM/zh-cn.md) |
-| [Category:Draft/zh-cn](wiki/Category_Draft/zh-cn.md) | [Category:Inspection/zh-cn](wiki/Category_Inspection/zh-cn.md) | [Category:Macros/zh-cn](wiki/Category_Macros/zh-cn.md) |
-| [Category:Test Framework/zh-cn](wiki/Category_Test Framework/zh-cn.md) | [Category:Workbenches/zh-cn](wiki/Category_Workbenches/zh-cn.md) |
+| [Tutorials/zh-cn](wiki/Tutorials/zh-cn.md) | [User hub/zh-cn](wiki/User hub/zh-cn.md) | [Web Workbench/zh-cn](wiki/Web Workbench/zh-cn.md) |
+| [WebTools Workbench/zh-cn](wiki/WebTools Workbench/zh-cn.md) | [Workbenches/zh-cn](wiki/Workbenches/zh-cn.md) | [Screenshots/zh-cn](wiki/Screenshots/zh-cn.md) |
+| [Category:Arch/zh-cn](wiki/Category_Arch/zh-cn.md) | [Category:BIM/zh-cn](wiki/Category_BIM/zh-cn.md) | [Category:Draft/zh-cn](wiki/Category_Draft/zh-cn.md) |
+| [Category:Inspection/zh-cn](wiki/Category_Inspection/zh-cn.md) | [Category:Macros/zh-cn](wiki/Category_Macros/zh-cn.md) | [Category:Test Framework/zh-cn](wiki/Category_Test Framework/zh-cn.md) |
+| [Category:Tutorials/zh-cn](wiki/Category_Tutorials/zh-cn.md) | [Category:Workbenches/zh-cn](wiki/Category_Workbenches/zh-cn.md) |
 
 
 

@@ -23,9 +23,8 @@ Per visualizzare l\'elenco di
 | [Category:Documentation/it](wiki/Category_Documentation/it.md) | [Category:Help/it](wiki/Category_Help/it.md) | [Category:Hubs/it](wiki/Category_Hubs/it.md) |
 | [Category:Image/it](wiki/Category_Image/it.md) | [Category:Macros/it](wiki/Category_Macros/it.md) | [Category:News/it](wiki/Category_News/it.md) |
 | [Category:Poweruser Documentation/it](wiki/Category_Poweruser Documentation/it.md) | [Category:Python Code/it](wiki/Category_Python Code/it.md) | [Category:Repository/it](wiki/Category_Repository/it.md) |
-| [Category:Roadmap/it](wiki/Category_Roadmap/it.md) | [Category:Template/it](wiki/Category_Template/it.md) | [Category:Tutorials/it](wiki/Category_Tutorials/it.md) |
-| [Category:UnfinishedDocu/it](wiki/Category_UnfinishedDocu/it.md) | [Category:User Documentation/it](wiki/Category_User Documentation/it.md) | [Category:Wiki/it](wiki/Category_Wiki/it.md) |
-|
+| [Category:Roadmap/it](wiki/Category_Roadmap/it.md) | [Category:Template/it](wiki/Category_Template/it.md) | [Category:UnfinishedDocu/it](wiki/Category_UnfinishedDocu/it.md) |
+| [Category:User Documentation/it](wiki/Category_User Documentation/it.md) | [Category:Wiki/it](wiki/Category_Wiki/it.md) |
 
 
 

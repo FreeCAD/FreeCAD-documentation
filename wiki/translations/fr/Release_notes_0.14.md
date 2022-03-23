@@ -161,9 +161,9 @@ Le support des [ellipses](Draft_Ellipse/fr.md) a été ajouté, l\'atelier Draft
 
 De la même façon que les congés qui sont apparus dans la [version 013](Release_notes_0.13/fr.md), les rectangles, les filaires et les polygones ont gagné une propriété chanfrein qui chanfreine leurs sommets. Le chanfrein est appliqué avec le congé, et les deux propriétés peuvent être utilisées simultanément, vous permettant de convertir un filaire simple en un objet complexe fait de plusieurs sections.
 
-### Outils Mise à niveau et Rétrograder recodés 
+### Outils Agréger et Désagréger recodés 
 
-Les outils [Mise à niveau](Draft_Upgrade/fr.md) et [Rétrograder](Draft_Downgrade/fr.md) qui étaient auparavant des fragments hermétiques de magie dont vous ne pouviez jamais être sûr des résultats ont été recodés. Ils génèrent maintenant des messages beaucoup plus conviviaux, vous informant de ce qui a été produit et pourquoi. Ils sont maintenant accessibles par script python, pas seulement dans leur ensemble mais par leurs opérations internes ; vous pouvez donc précisément définir quel type de mise à niveau doit être effectué.
+Les outils [Agréger](Draft_Upgrade/fr.md) et [Désagréger](Draft_Downgrade/fr.md) qui étaient auparavant des fragments hermétiques de magie dont vous ne pouviez jamais être sûr des résultats ont été recodés. Ils génèrent maintenant des messages beaucoup plus conviviaux, vous informant de ce qui a été produit et pourquoi. Ils sont maintenant accessibles par script Python, pas seulement dans leur ensemble mais par leurs opérations internes ; vous pouvez donc précisément définir quel type de mise à niveau doit être effectué.
 
 ### Copie de face 
 

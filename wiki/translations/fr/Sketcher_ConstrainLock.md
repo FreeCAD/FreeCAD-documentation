@@ -4,6 +4,7 @@
    Name/fr:Sketcher Contrainte fixe
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte fixe
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**K** **L**
    SeeAlso:[Sketcher Contrainte de blocage](Sketcher_ConstrainBlock/fr.md)
 ---
 
@@ -29,7 +30,7 @@ La <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Cont
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -9,6 +9,9 @@
 
 # Sketcher CreateTriangle/de
 
+
+</div>
+
 ## Beschreibung
 
 Zeichnet ein gleichseitiges Dreieck, das in einen Konstruktionsgeometriekreis eingeschrieben ist. Beim Starten des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechsecksymbol. Die Koordinaten des Mauszeigers werden daneben in Echtzeit in blau angezeigt.
@@ -35,10 +38,16 @@ Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung d
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

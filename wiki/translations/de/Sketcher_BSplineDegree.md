@@ -46,7 +46,7 @@ Zeigt oder blendet die Anzeige des Grades einer B-Spline-Kurve ein oder aus (sie
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

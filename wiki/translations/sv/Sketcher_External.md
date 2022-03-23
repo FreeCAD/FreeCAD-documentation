@@ -15,7 +15,7 @@
 
 ## Description
 
-Use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** tool when you need to apply a constraint between sketch geometry and something outside of the sketch. It works by inserting a linked construction geometry into the sketch. The default colour of externally linked edges is magenta. As with standard non-linked construction geometry (blue), the externally linked geometry is only visible when the sketch is in edit mode and is not directly used in the subsequent result from use of the sketch in another tool. Both types of construction geometry may be used as a reference for constraints within the sketch.
+Use the **<img src="images/Sketcher_External.svg" width=16px> [External geometry](Sketcher_External.md)** tool when you need to apply a constraint between sketch geometry and something outside of the sketch. It works by inserting a linked construction geometry into the sketch. The default colour of externally linked edges is magenta. As with standard non-linked construction geometry (blue), the externally linked geometry is only visible when the sketch is in edit mode and is not directly used in the subsequent result from use of the sketch in another tool. Both types of construction geometry may be used as a reference for constraints within the sketch.
 
 A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
@@ -24,7 +24,7 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 ## Usage
 
 -   Create a new sketch, or open an existing sketch.
--   Press the **[<img src=images/Sketcher_External.svg style="width:16px"> [Sketcher External](Sketcher_External.md)** button.
+-   Press the **[<img src=images/Sketcher_External.svg style="width:16px"> [External geometry](Sketcher_External.md)** button.
 -   Select an edge or a vertex that you want to link to in the sketch.
 -   Press **Esc**, or select another tool to stop importing geometry into the sketch.
 
@@ -80,7 +80,7 @@ When the sketch edit mode is closed, external Geometry lines are not visible.
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

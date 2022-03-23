@@ -1,43 +1,44 @@
 ---
 - GuiCommand:
    Name:TechDraw ToggleFrame
-   MenuLocation:TechDraw → Turn View Frames On/Off
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw View](TechDraw_View.md), [TechDraw Projection Group](TechDraw_ProjectionGroup.md)
+   Name/pl:Rysunek Techniczny: Włącz / wyłącz wyświetlanie ramek
+   MenuLocation:Rysunek Techniczny → Włącz / wyłącz wyświetlanie ramek
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
+   SeeAlso:[Widok](TechDraw_View/pl.md), [Grupa rzutów](TechDraw_ProjectionGroup/pl.md)
 ---
 
 # TechDraw ToggleFrame/pl
 
-## Description
+## Opis
 
-The Toggle tool turns the display of View frames, labels and vertices on or off.
+Narzędzie **Włącz / wyłącz wyświetlanie ramek** włącza lub wyłącza wyświetlanie ramek w oknie widoku, etykiet oraz wierzchołków.
 
 <img alt="" src=images/TechDraw_ToggleFrame.png  style="width:400px;"> 
-*View of the solid projection with frames turned on and turned off*
+*Widok rzutu bryły z włączonymi i wyłączonymi ramkami.*
 
-## Usage
+## Użycie
 
-1.  If you have multiple drawing pages in your document, you will need to select the desired page in the tree.
-2.  Press the **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Turn View Frames On/Off](TechDraw_ToggleFrame.md)** button.
-3.  If View frames are currently visible, they will disappear. If View frames are not visible, they will appear.
-4.  It is possible for different Views to be in different states of frame display. If this happens, press the **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Turn View Frames On/Off](TechDraw_ToggleFrame.md)** button once or twice to resynchronize the Views.
+1.  Jeśli masz wiele stron rysunków w swoim dokumencie, będziesz musiał wybrać odpowiednią stronę w drzewie.
+2.  Naciśnij przycisk **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Włącz / wyłącz wyświetlanie ramek](TechDraw_ToggleFrame/pl.md)**.
+3.  Jeśli ramki widoku są aktualnie wyświetlane, znikną. Jeśli ramki widoku są ukryte, zostaną wyświetlone.
+4.  Możliwe jest, aby różne widoki były wyświetlane w różnych trybach. Jeśli tak się stanie, naciśnij przycisk **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Włącz / wyłącz wyświetlanie ramek](TechDraw_ToggleFrame/pl.md)** raz lub dwa razy, aby zsynchronizować widoki.
 
-## Background
+## Kontekst
 
-The dotted view frame and the vertex dots are just for reference, they aren\'t actually part of the drawing, so you won\'t see them once you export the page as PDF or SVG.
+Kropkowana ramka widoku i punkty wierzchołków służą jedynie do celów poglądowych, nie są w rzeczywistości częścią rysunku, więc nie będą widoczne po wyeksportowaniu strony do formatu PDF lub SVG.
 
-The suggested workflow is to use **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Turn View Frames On/Off](TechDraw_ToggleFrame.md)** to deactivate the frame surrounding the view, and also the additional dots. With the dots, use the measurement tools to select the correct edges to measure, then toggle the frame (and dots) off to see the final result. Not satisfied? Toggle the frame (and dots) on again, select other vertices and create new measurements, then toggle the frame off again.
+Sugerowany sposób działania to użycie narzędzia **<img src="images/TechDraw_ToggleFrame.svg" width=16px> [Włącz / wyłącz wyświetlanie ramek](TechDraw_ToggleFrame/pl.md)**, aby ukryć widoczność ramki otaczającej widok, a także dodatkowych punktów. Przy użyciu punktów, użyj narzędzi pomiarowych, aby wybrać odpowiednie krawędzie do pomiaru, a następnie wyłącz widoczność ramek *(i wierzchołków)*, aby zobaczyć efekt końcowy. Nie jesteś zadowolony? Ponownie włącz widoczność ramki *(i wierzchołków)*, wybierz inne wierzchołki i utwórz nowe pomiary, a następnie ponownie wyłącz widoczność ramki.
 
-You can adjust the size of the vertex dots in the [TechDraw Preferences/Scale tab](TechDraw_Preferences#Scale.md). Please do not set their size to zero, just small or big enough so it\'s comfortable for you to pick them up.
+Rozmiar punktów wierzchołków można dostosować w zakładce [skala](TechDraw_Preferences/pl#Skala.md). Nie należy ustawiać wartości ich rozmiaru na zero, a jedynie na tyle mały lub duży, aby wygodnie było je zaznaczać.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-The Toggle tool currently doesn\'t have a programming interface.
+Narzędzie te nie jest obecnie wyposażone w interfejs programistyczny.
 
 
 

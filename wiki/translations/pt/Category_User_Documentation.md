@@ -36,10 +36,10 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Sketcher Workbench/pt](wiki/Sketcher Workbench/pt.md) | [Spreadsheet Workbench/pt](wiki/Spreadsheet Workbench/pt.md) | [Standard Menu/pt](wiki/Standard Menu/pt.md) |
 | [Start Workbench/pt](wiki/Start Workbench/pt.md) | [Std AddonMgr/pt](wiki/Std AddonMgr/pt.md) | [Std Tools Menu/pt](wiki/Std Tools Menu/pt.md) |
 | [Std ViewScreenShot/pt](wiki/Std ViewScreenShot/pt.md) | [Surface Workbench/pt](wiki/Surface Workbench/pt.md) | [TechDraw Workbench/pt](wiki/TechDraw Workbench/pt.md) |
-| [Tracker/pt](wiki/Tracker/pt.md) | [Template:TutorialInfo/pt](wiki/Template_TutorialInfo/pt.md) | [User hub/pt](wiki/User hub/pt.md) |
-| [Video tutorials/pt](wiki/Video tutorials/pt.md) | [Web Workbench/pt](wiki/Web Workbench/pt.md) | [Workbenches/pt](wiki/Workbenches/pt.md) |
-| [Category:Arch/pt](wiki/Category_Arch/pt.md) | [Category:BIM/pt](wiki/Category_BIM/pt.md) | [Category:Draft/pt](wiki/Category_Draft/pt.md) |
-| [Category:Inspection/pt](wiki/Category_Inspection/pt.md) | [Category:Macros/pt](wiki/Category_Macros/pt.md) | [Category:Workbenches/pt](wiki/Category_Workbenches/pt.md) |
+| [Tracker/pt](wiki/Tracker/pt.md) | [User hub/pt](wiki/User hub/pt.md) | [Video tutorials/pt](wiki/Video tutorials/pt.md) |
+| [Web Workbench/pt](wiki/Web Workbench/pt.md) | [Workbenches/pt](wiki/Workbenches/pt.md) | [Category:Arch/pt](wiki/Category_Arch/pt.md) |
+| [Category:BIM/pt](wiki/Category_BIM/pt.md) | [Category:Draft/pt](wiki/Category_Draft/pt.md) | [Category:Inspection/pt](wiki/Category_Inspection/pt.md) |
+| [Category:Macros/pt](wiki/Category_Macros/pt.md) | [Category:Tutorials/pt](wiki/Category_Tutorials/pt.md) | [Category:Workbenches/pt](wiki/Category_Workbenches/pt.md) |
 |
 
 

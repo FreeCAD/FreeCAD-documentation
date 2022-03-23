@@ -50,7 +50,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red sl
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

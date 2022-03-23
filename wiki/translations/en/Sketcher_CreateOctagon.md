@@ -3,6 +3,7 @@
    Name:Sketcher CreateOctagon
    MenuLocation:Sketch → Sketcher geometries → Create octagon
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **P** **8**
    Version:0.15
 ---
 
@@ -27,7 +28,7 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

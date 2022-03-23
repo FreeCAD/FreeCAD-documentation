@@ -1,4 +1,13 @@
 # Sketcher Preferences/de
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 {{TOCright}}
 
 
@@ -247,10 +256,16 @@ In the *Colors* tab you can specify the following:
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-Colors-UPDATED.png )
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

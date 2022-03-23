@@ -3,7 +3,7 @@
    Name:Sketcher RestoreInternalAlignmentGeometry
    MenuLocation:Sketch → Sketcher tools → Show/hide internal geometry
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Ctrl**+**Shift**+**E**
+   Shortcut:**Z** **I**
    SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter.md), [Sketcher Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md)
 ---
 
@@ -46,7 +46,7 @@ Erstelle eine neue Ellipse. Neue Ellipsen sind immer vollgepackt. Du siehst eine
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -47,7 +47,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -4,8 +4,9 @@
    Name/fr:Sketcher Arc de parabole
    MenuLocation:Sketch → Géométries d'esquisse → Créer un arc de parabole
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **J**
    Version:0.17
-   SeeAlso:[Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md), [Sketcher Arc d'hyperbole](Sketcher_CreateArcOfHyperbola.md)
+   SeeAlso:[Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md), [Sketcher Arc d'hyperbole](Sketcher_CreateArcOfHyperbola/fr.md)
 ---
 
 # Sketcher CreateArcOfParabola/fr

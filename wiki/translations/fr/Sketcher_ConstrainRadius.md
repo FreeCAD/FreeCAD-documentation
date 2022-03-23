@@ -2,8 +2,9 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainRadius
    Name/fr:Sketcher Contrainte rayon
-   MenuLocation:Sketch → Contraintes Sketcher → Contrainte radiale
+   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte de rayon ou de poids
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**K** **R**
    SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance horizontale ](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
@@ -42,7 +43,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

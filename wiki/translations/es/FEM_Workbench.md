@@ -163,9 +163,15 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solucionador Elmer](FEM_SolverElmer/es.md): Crea el controlador del Solucionador para Elmer. Es independiente de otros objetos solucionadores.
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solucionador Z88](FEM_SolverZ88/es.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Ecuación de elasticidad](FEM_EquationElasticity/es.md):
 

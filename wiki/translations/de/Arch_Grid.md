@@ -57,11 +57,6 @@ Das Gitter ist ein 2D Objekt und kann daher überall dort verwendet werden, wo e
 
 -    **Ausgeblendete Flächen**: Die Indizes der ausgeblendeten Flächen
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Skripten
 
 
@@ -69,16 +64,7 @@ Das Gitter ist ein 2D Objekt und kann daher überall dort verwendet werden, wo e
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Gitter Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus durch folgende Funktion verwendet werden:
-
-
-</div>
+Das Werkzeug Gitter kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus durch folgende Funktion verwendet werden:
 
 
 ```python
@@ -105,15 +91,6 @@ Draft.move(Structure, FreeCAD.Vector(-100, 0, 0))
 Structure.Axis = Grid
 FreeCAD.ActiveDocument.recompute() 
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -95,6 +95,8 @@
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Плоскость сечения](Std_ToggleClipPlane/ru.md): Позволяет просмотреть объект в разрезе.
 
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut.md): Creates persistent cuts of objects and assemblies. <small>(v0.20)</small> 
+
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Текстурирование\...](Std_TextureMapping/ru.md): Временно накладывает текстуру поверх всех объектов.
 
 -   Видимость

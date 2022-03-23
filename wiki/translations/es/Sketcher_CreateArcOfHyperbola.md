@@ -10,6 +10,9 @@
 
 # Sketcher CreateArcOfHyperbola/es
 
+
+</div>
+
 ## Descripción
 
 Esta herramienta crea un arco de hipérbola por centro, radio mayor y puntos finales.
@@ -18,6 +21,9 @@ Esta herramienta crea un arco de hipérbola por centro, radio mayor y puntos fin
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Pulse el **[<img src=images/Sketcher_CreateArcOfHyperbola.svg style="width:16px"> [Arco de Hipérbola](Sketcher_CreateArcOfHyperbola/es.md)**.
 2.  Haz clic en la vista 3D para definir el centro del radio mayor (etiquetado como 1 en la imagen de arriba).
 3.  Haga clic en la vista 3D para definir la longitud del radio mayor, que es también la punta del arco de la hipérbola (etiquetado 2 en la imagen de arriba).
@@ -25,10 +31,13 @@ Esta herramienta crea un arco de hipérbola por centro, radio mayor y puntos fin
 5.  Haga clic una cuarta vez en la vista 3D para definir el otro punto final (etiquetado como 4 en la imagen de arriba).
 
 
+</div>
 
 
 
-{{Sketcher Tools navi
+
+
+{{Sketcher_Tools_navi
 
 }}
 

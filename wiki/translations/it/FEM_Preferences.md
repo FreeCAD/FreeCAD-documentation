@@ -19,10 +19,10 @@ Sono disponibili cinque schede, una per la configurazione generale dell\'ambient
 
 The current supported external solvers are:
 
--   CalculiX
--   Gmsh
--   Z88
--   Elmer
+-   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [CalculiX](FEM_SolverCalculixCxxtools.md)
+-   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer.md)
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran.md) <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Z88](FEM_SolverZ88.md)
 
 ## Generale
 

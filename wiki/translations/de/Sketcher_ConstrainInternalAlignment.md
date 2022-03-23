@@ -11,6 +11,9 @@
 
 # Sketcher ConstrainInternalAlignment/de
 
+
+</div>
+
 ## Beschreibung
 
 Die Beschränkung InnereAusrichtung richtet Linien und Punkte an bestimmten Stellen eines komplexen Sketcher Elements aus (es gibt bisher nur ein \"komplexes\" Element, die [Ellipse](Sketcher_CreateEllipseByCenter/de.md)).
@@ -21,11 +24,17 @@ Diese Beschränkung ist für erfahrene Benutzer gedacht, da ihre Verwendung nich
 
 ## Einsatz auf Ellipse 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle die auszurichtenden Elemente und eine Ellipse aus. Die Ellipse muss zuletzt ausgewählt werden. Akzeptiert werden bis zu zwei Linien und bis zu zwei Punkte.
 2.  Das Aufrufen der Beschränkung kann auf verschiedene Weise erfolgen:
     -   Drücken der **[<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> [Beschränke innere Ausrichtung](Sketcher_ConstrainInternalAlignment/de.md)** Schaltfläche in der Werkzeugleiste.
     -   Verwendung der **Strg** + **A** Tastaturkürzel.
     -   Verwendung des **Skizze → Skizziererbeschränkungen → Beschränke [<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Beschränke InnereAusrichtung** Eintrags aus dem oberen Menü.
+
+
+</div>
 
 Die erste ausgewählte Linie wird so ausgerichtet, dass sie zum Hauptdurchmesser der Ellipse wird (aber wenn sie nicht bereits durch eine andere Linie belegt ist, wird sie sonst zum Nebendurchmesser). Die zweite Linie wird so ausgerichtet, dass sie zu einem Nebenradius wird. Die Linien werden automatisch auf [Konstruktion](Sketcher_ToggleConstruction/de.md) umgeschaltet.
 
@@ -55,10 +64,16 @@ Anmerkungen:
 Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, die für `inde_of_line`, `inde_of_point` und `index_of_ellipse` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

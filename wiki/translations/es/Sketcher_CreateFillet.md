@@ -9,6 +9,9 @@
 
 # Sketcher CreateFillet/es
 
+
+</div>
+
 ## Descripción
 
 Esta herramienta crea un redondeo entre dos líneas unidas en un punto. Activa la herramienta, selecciona ambas líneas o pulsa sobre el punto de dicha esquina.
@@ -19,15 +22,27 @@ Al iniciar la herramienta, las selecciones se borran y el puntero del ratón cam
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Pulse el **[<img src=images/Sketcher_CreateFillet.svg style="width:16px"> [CrearRedondeo](Sketcher_CreateFillet/es.md)**.
 2.  Elige un vértice que conecte dos líneas; o haz clic en dos líneas conectadas, la distancia a la que hagas clic del vértice establecerá el radio del filete.
 3.  Pulsando **Esc** o haciendo clic con el botón derecho del ratón se cancela o finaliza la función.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

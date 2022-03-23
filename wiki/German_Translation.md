@@ -348,15 +348,15 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 #### Arbeitsbereich <img alt="" src=images/Workbench_Image.svg  style="width:16px;"> [Image](Image_Workbench/de.md) 
 
 
-<div class="mw-collapsible-content toccolours">
+<div class="mw-collapsible-content" style="background-color:#f0fff0; border: 2px solid #d0ffd0; border-radius: 1.0em; padding: 1.0em 0.0em 1.0em 1.0em;">
 
-  Englischer Ausdruck                                                                               Funktion         Deutscher Ausdruck        Anmerkung
+  Englischer Ausdruck                                                                                   Funktion         Deutscher Ausdruck            Anmerkung
      
-  <img alt="" src=images/Workbench_Image.svg  style="width:16px;">Image                               Workbench name   **Image**                 Arbeitsbereich, nicht übersetzen!
-                                                                                                    Menue header                               Menüspalte nicht vorhanden
-  <img alt="" src=images/Image_Open.svg  style="width:16px;"> Open\...                                     Command          **Öffnen**\...            
-  <img alt="" src=images/Image_CreateImagePlane.svg  style="width:16px;"> Create image plane   Command          Bildebene erstellen       \"Erstellen Sie eine Bildebene\" ändern (Crowdin approved)
-  <img alt="" src=images/Image_Scaling.svg  style="width:16px;"> Scale image plane                      Command          **Bildebene skalieren**   
+  <img alt="" src=images/Workbench_Image.svg  style="width:16px;">Image                                   Workbench name   **Image**                     Arbeitsbereich, nicht übersetzen!
+                                                                                                        Menue header                                   Menüspalte nicht vorhanden
+  <img alt="" src=images/Image_Open.svg  style="width:16px;"> Open\...                                         Command          **Öffnen**\...                
+  <img alt="" src=images/Image_CreateImagePlane.svg  style="width:16px;"> Create image plane\...   Command          **Bildebene erstellen**\...   
+  <img alt="" src=images/Image_Scaling.svg  style="width:16px;"> Scale image plane                          Command          **Bildebene skalieren**       
 
 
 </div>

@@ -167,15 +167,6 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Site/de

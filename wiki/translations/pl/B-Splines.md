@@ -117,19 +117,19 @@ W każdej pozycji splajnu $t$ suma wielomianów wynosi 1 (zaznaczona pomarańczo
 Własnością wielomianów Bernsteina jest to, że patrząc na różne części krzywej Béziera, długość ścieżki każdej części jest taka sama. *(Długość ścieżki jest często nazywana **czasem podróży**)*\'. Jak można sobie wyobrazić, użyteczne może być posiadanie krzywych B-spline, których części Béziera mają różne długości ścieżek. Można to osiągnąć poprzez ważenie różnych wielomianów:
 
 $\quad
-c(t)=\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k$
+c(t)=\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k$
 
 $w_k$ jest niniejszą wagą $k$ - tego punktu kontrolnego. Gdy wagi nie są równe, krzywa B-spline jest nazywana **niejednorodną**.
 
 Szczególnie w przypadku, gdy krzywe B-spline powinny być używane do modelowania 3D, konieczne jest stosowanie znormalizowanych, niejednolitych krzywych B-spline. Normalizacja odbywa się poprzez podział przez ważone funkcje bazowe. W ten sposób, gdy wszystkie $w_k$ są równe, otrzymujemy jednorodną krzywą B-spline, niezależną od samej wagi:
 
 $\quad
-c(t)=\cfrac{\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
+c(t)=\cfrac{\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
 
 Te niejednorodne i racjonalne *(z powodu podziału)* krzywe B-spline są często nazywane **NURBS**. Patrząc na ich wzór widzimy, że są one w rzeczywistości krzywymi B-spline o ważonej podstawie $R_{k, D}(t)$:
 
 $\quad
-c(t)=\sum_{k=0}^{N}d_{k}R_{k, D}(t)$
+c(t)=\sum_{k=0}^{N}p_{k}R_{k, D}(t)$
 
 mając na uwadze, że
 

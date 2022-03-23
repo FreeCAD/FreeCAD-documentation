@@ -32,7 +32,7 @@ Atunci când Sketch este în edit mode, sau
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

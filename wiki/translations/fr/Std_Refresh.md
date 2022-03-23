@@ -34,7 +34,7 @@ La commande **Std Rafraîchir** recalcule le document actif. La commande est dé
 
 **Voir aussi :**
 
-[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
+[FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Pour recalculer un document, utilisez la méthode `recompute` de l\'objet document.
 

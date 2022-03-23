@@ -5,7 +5,7 @@
    MenuLocation:Sketch → Outils d'esquisse B-spline → Afficher/masquer le degré d'une B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[Sketcher Créer une B-spline](Sketcher_CompCreateBSpline/fr.md)
+   SeeAlso:[Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
 ---
 
 # Sketcher BSplineDegree/fr
@@ -25,7 +25,7 @@ Montre ou masque l\'affichage du **degré** d\'une courbe B-spline (voir [cette 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

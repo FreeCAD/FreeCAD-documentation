@@ -8,6 +8,9 @@
 
 # Std ToggleClipPlane/ru
 
+
+</div>
+
 ## Описание
 
 The **Std ToggleClipPlane** command temporarily hides objects and parts of objects on one side of up to three virtual planes in the active [3D view](3D_view.md).
@@ -39,10 +42,16 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 -   To clearly distinguish the interior of partially clipped objects change their **Lighting** property to \'One side\'. The color of the interior side of their faces will then depend on the backlight settings: **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See [Preferences Editor](Preferences_Editor#3D_View.md).
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Std Base navi
+
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

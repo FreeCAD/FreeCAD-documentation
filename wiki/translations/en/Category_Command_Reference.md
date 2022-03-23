@@ -168,10 +168,10 @@ This category contains the help pages of each of FreeCAD [command/en](command/en
 | [Part Primitives/en](wiki/Part Primitives/en.md) | [Part Prism/en](wiki/Part Prism/en.md) | [Part ProjectionOnSurface/en](wiki/Part ProjectionOnSurface/en.md) |
 | [Part RefineShape/en](wiki/Part RefineShape/en.md) | [Part RegularPolygon/en](wiki/Part RegularPolygon/en.md) | [Part ReverseShapes/en](wiki/Part ReverseShapes/en.md) |
 | [Part Revolve/en](wiki/Part Revolve/en.md) | [Part RuledSurface/en](wiki/Part RuledSurface/en.md) | [Part Section/en](wiki/Part Section/en.md) |
-| [Part ShapeFromMesh/en](wiki/Part ShapeFromMesh/en.md) | [Part SimpleCopy/en](wiki/Part SimpleCopy/en.md) | [Part Slice/en](wiki/Part Slice/en.md) |
-| [Part SliceApart/en](wiki/Part SliceApart/en.md) | [Part Sphere/en](wiki/Part Sphere/en.md) | [Part Spiral/en](wiki/Part Spiral/en.md) |
-| [Part Sweep/en](wiki/Part Sweep/en.md) | [Part Thickness/en](wiki/Part Thickness/en.md) | [Part Torus/en](wiki/Part Torus/en.md) |
-| [Part TransformedCopy/en](wiki/Part TransformedCopy/en.md) | [Part Tube/en](wiki/Part Tube/en.md) |
+| [Part SectionCut/en](wiki/Part SectionCut/en.md) | [Part ShapeFromMesh/en](wiki/Part ShapeFromMesh/en.md) | [Part SimpleCopy/en](wiki/Part SimpleCopy/en.md) |
+| [Part Slice/en](wiki/Part Slice/en.md) | [Part SliceApart/en](wiki/Part SliceApart/en.md) | [Part Sphere/en](wiki/Part Sphere/en.md) |
+| [Part Spiral/en](wiki/Part Spiral/en.md) | [Part Sweep/en](wiki/Part Sweep/en.md) | [Part Thickness/en](wiki/Part Thickness/en.md) |
+| [Part Torus/en](wiki/Part Torus/en.md) | [Part TransformedCopy/en](wiki/Part TransformedCopy/en.md) |
 
 
 

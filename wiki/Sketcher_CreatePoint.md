@@ -3,6 +3,7 @@
    Name:Sketcher CreatePoint
    MenuLocation:Sketch → Sketcher geometries → Create point
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **Y**
 ---
 
 # Sketcher CreatePoint
@@ -27,7 +28,7 @@ The Point tool creates a point in the current sketch, which can be used for cons
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

@@ -43,7 +43,7 @@ Při spuštění nástroje se ukazatel myši změní na bílý křížek s červ
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

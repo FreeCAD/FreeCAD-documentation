@@ -88,7 +88,9 @@ xargs -I{} git rev-list --count {}
 
 The difference between HEAD and the snap edge revision numbers indicates the amount of revisions trailing behind upstream the snap development (edge) is.
 
-Taking it a step further, if you want a short summary of the commits between the current snap edge and HEAD:  {{Code|lang=bash|code=
+Taking it a step further, if you want a short summary of the commits between the current snap edge and HEAD:
+
+ {{Code|lang=bash|code=
 snap info freecad-ppd <nowiki>|</nowiki>\
 grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\

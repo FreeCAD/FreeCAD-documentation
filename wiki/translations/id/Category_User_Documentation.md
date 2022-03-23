@@ -19,10 +19,10 @@ Kategori ini berisi artikel tentang penggunaan FreeCAD. Hal ini juga daftar pusa
 | [Property editor/id](wiki/Property editor/id.md) | [Raytracing Workbench/id](wiki/Raytracing Workbench/id.md) | [Robot Workbench/id](wiki/Robot Workbench/id.md) |
 | [Screenshots/id](wiki/Screenshots/id.md) | [Ship Workbench/id](wiki/Ship Workbench/id.md) | [Sketcher Workbench/id](wiki/Sketcher Workbench/id.md) |
 | [Spreadsheet Workbench/id](wiki/Spreadsheet Workbench/id.md) | [Standard Menu/id](wiki/Standard Menu/id.md) | [Surface Workbench/id](wiki/Surface Workbench/id.md) |
-| [TechDraw Workbench/id](wiki/TechDraw Workbench/id.md) | [Template:TutorialInfo/id](wiki/Template_TutorialInfo/id.md) | [Tutorials/id](wiki/Tutorials/id.md) |
-| [User hub/id](wiki/User hub/id.md) | [Video tutorials/id](wiki/Video tutorials/id.md) | [Workbenches/id](wiki/Workbenches/id.md) |
-| [Category:Arch/id](wiki/Category_Arch/id.md) | [Category:BIM/id](wiki/Category_BIM/id.md) | [Category:Draft/id](wiki/Category_Draft/id.md) |
-| [Category:Macros/id](wiki/Category_Macros/id.md) | [Category:Plot/id](wiki/Category_Plot/id.md) | [Category:Workbenches/id](wiki/Category_Workbenches/id.md) |
+| [TechDraw Workbench/id](wiki/TechDraw Workbench/id.md) | [Tutorials/id](wiki/Tutorials/id.md) | [User hub/id](wiki/User hub/id.md) |
+| [Video tutorials/id](wiki/Video tutorials/id.md) | [Workbenches/id](wiki/Workbenches/id.md) | [Category:Arch/id](wiki/Category_Arch/id.md) |
+| [Category:BIM/id](wiki/Category_BIM/id.md) | [Category:Draft/id](wiki/Category_Draft/id.md) | [Category:Macros/id](wiki/Category_Macros/id.md) |
+| [Category:Plot/id](wiki/Category_Plot/id.md) | [Category:Tutorials/id](wiki/Category_Tutorials/id.md) | [Category:Workbenches/id](wiki/Category_Workbenches/id.md) |
 |
 
 

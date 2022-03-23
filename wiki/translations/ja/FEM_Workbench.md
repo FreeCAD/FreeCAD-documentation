@@ -147,9 +147,9 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md): Creates the solver controller for Elmer. It is independent from other solver objects.
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): <small>(v0.20)</small> 
 
--   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solver Z88](FEM_SolverZ88.md):
+-   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solver Z88](FEM_SolverZ88.md): Creates the solver controller for Z88. It is independent from other solver objects.
 
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Elasticity equation](FEM_EquationElasticity.md):
 

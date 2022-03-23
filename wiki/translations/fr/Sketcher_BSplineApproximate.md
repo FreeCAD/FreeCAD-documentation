@@ -5,7 +5,7 @@
    MenuLocation:Sketch → Outils d'esquisse B-spline → Convertir la géometrie en B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[Sketcher Créer une B-spline](Sketcher_CompCreateBSpline/fr.md)
+   SeeAlso:[Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
 ---
 
 # Sketcher BSplineApproximate/fr
@@ -30,7 +30,7 @@ Assurez-vous d\'avoir soit le [Degré d\'une BSpline](Sketcher_BSplineDegree/fr.
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

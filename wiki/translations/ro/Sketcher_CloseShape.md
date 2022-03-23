@@ -33,7 +33,7 @@ Instrumentul va conecta elementele în ordinea alegerii lor, deci asigurați-vă
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

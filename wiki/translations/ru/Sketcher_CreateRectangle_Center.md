@@ -10,6 +10,9 @@
 
 # Sketcher CreateRectangle Center/ru
 
+
+</div>
+
 ## Описание
 
 This tool draws a rectangle by first picking a point that will become the center point, then by picking an edge point. The result is a rectangle like with the [Rectangle](Sketcher_CreateRectangle.md) tool, only the definition points are different.

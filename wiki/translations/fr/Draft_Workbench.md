@@ -108,9 +108,9 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> [Scinder](Draft_Split/fr.md) : divise une [Draft Ligne](Draft_Line/fr.md) ou une [Draft Polyligne](Draft_Wire/fr.md) à un point ou un bord spécifié.
 
--   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Mettre à niveau](Draft_Upgrade/fr.md) : met à jour les objets sélectionnés.
+-   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Agréger](Draft_Upgrade/fr.md) : agrège les objets sélectionnés.
 
--   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Rétrograder](Draft_Downgrade/fr.md) : déclasse les objets sélectionnés.
+-   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Désagréger](Draft_Downgrade/fr.md) : déclasse les objets sélectionnés.
 
 -   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Filaire vers B-spline](Draft_WireToBSpline/fr.md) : convertit des [Draft Polylignes](Draft_Wire/fr.md) en [Draft BSplines](Draft_BSpline/fr.md) et vice versa.
 

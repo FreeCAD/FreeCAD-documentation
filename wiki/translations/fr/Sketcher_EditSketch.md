@@ -30,7 +30,7 @@ Il existe plusieurs façons d\'appeler la commande Modifier l\'esquisse:
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

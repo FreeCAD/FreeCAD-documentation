@@ -4,6 +4,7 @@
    Name/fr:Sketcher Création d'arc
    MenuLocation:Sketch → Géométries d'esquisse → Créer un arc à partir du centre
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **A**
    SeeAlso:[Sketcher Cercle](Sketcher_CompCreateCircle/fr.md)
 ---
 
@@ -26,7 +27,7 @@ Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanch
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -4,8 +4,8 @@
    Name/fr:Sketcher Rectangle
    MenuLocation:Sketch → Géométries d'esquisse→ Créer un rectangle
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**R**
-   SeeAlso:[Sketcher Rectangle arrondi](Sketcher_CreateOblong.md), [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
+   Shortcut:**G** **R**
+   SeeAlso:[Sketcher Rectangle arrondi](Sketcher_CreateOblong/fr.md), [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
 ---
 
 # Sketcher CreateRectangle/fr
@@ -27,7 +27,7 @@ Pour définir un rectangle à l\'aide d\'un point central et d\'un point du bord
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

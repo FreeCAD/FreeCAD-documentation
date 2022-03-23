@@ -96,10 +96,16 @@ App.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

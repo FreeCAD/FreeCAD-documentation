@@ -38,7 +38,7 @@ The polyline always starts with a straight line segment: click - move the mouse 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

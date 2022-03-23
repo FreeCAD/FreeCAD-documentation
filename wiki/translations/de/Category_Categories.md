@@ -16,8 +16,8 @@ This is the **top category** which contains the main categories of the FreeCAD w
 | [Category:Image/de](wiki/Category_Image/de.md) | [Category:Macros/de](wiki/Category_Macros/de.md) | [Category:News/de](wiki/Category_News/de.md) |
 | [Category:Pages to delete/de](wiki/Category_Pages to delete/de.md) | [Category:Poweruser Documentation/de](wiki/Category_Poweruser Documentation/de.md) | [Category:Python Code/de](wiki/Category_Python Code/de.md) |
 | [Category:Repository/de](wiki/Category_Repository/de.md) | [Category:Roadmap/de](wiki/Category_Roadmap/de.md) | [Category:Template/de](wiki/Category_Template/de.md) |
-| [Category:Tutorials/de](wiki/Category_Tutorials/de.md) | [Category:UnfinishedDocu/de](wiki/Category_UnfinishedDocu/de.md) | [Category:User Documentation/de](wiki/Category_User Documentation/de.md) |
-| [Category:Wiki/de](wiki/Category_Wiki/de.md) |
+| [Category:UnfinishedDocu/de](wiki/Category_UnfinishedDocu/de.md) | [Category:User Documentation/de](wiki/Category_User Documentation/de.md) | [Category:Wiki/de](wiki/Category_Wiki/de.md) |
+|
 
 
 

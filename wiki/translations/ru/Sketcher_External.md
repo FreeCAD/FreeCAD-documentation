@@ -10,9 +10,18 @@
 
 # Sketcher External/ru
 
+
+</div>
+
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Используйте инструмент **<img src="images/Sketcher_External.svg" width=16px> [Внешняя геометрия](Sketcher_External/ru.md)**, когда вам нужно применить ограничение между геометрией эскиза и чем-то вне эскиза. Это работает путем вставки связанной вспомогательной геометрии в эскиз. По умолчанию цвет связанной внешней геометрии пурпурный. Как и в случае стандартной несвязанной вспомогательной геометрии (синего цвета), связанная внешняя геометрия видна только тогда, когда эскиз находится в режиме редактирования, и напрямую не используется в последующих результатах использования эскиза другими инструментами. Оба типа вспомогательной геометрии могут использоваться в качестве ссылок для ограничений в эскизе.
+
+
+</div>
 
 A note of caution, using this tool to link to generated (solid) geometry can lead to unexpected results due to [Topological Naming Problem](Topological_naming_problem.md). Also see [Advice for stable models](Feature_editing#Advice_for_creating_stable_models.md).
 
@@ -98,10 +107,16 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 <FILE:Sketcher_ExternalEsempio3.png>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

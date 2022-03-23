@@ -142,9 +142,9 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solveur Elmer](FEM_SolverElmer/fr.md) : Crée le contrôleur de solveur pour Elmer. Il est indépendant des autres objets du solveur.
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solveur Mystran](FEM_SolverMystran/fr.md):
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solveur Mystran](FEM_SolverMystran/fr.md) : {{Version/fr|0.20}}
 
--   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solveur Z88](FEM_SolverZ88/fr.md) :
+-   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solveur Z88](FEM_SolverZ88/fr.md) : Crée le contrôleur de solveur pour Z88. Il est indépendant des autres objets du solveur.
 
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Équation d\'élasticité](FEM_EquationElasticity/fr.md) :
 

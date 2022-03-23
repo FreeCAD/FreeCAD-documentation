@@ -4,6 +4,7 @@
    Name/fr:Sketcher Contrainte de blocage
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte de blocage
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**K** **B**
    Version:0.17
    SeeAlso:[Sketcher Contrainte fixe](Sketcher_ConstrainLock/fr.md)
 ---
@@ -34,7 +35,7 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

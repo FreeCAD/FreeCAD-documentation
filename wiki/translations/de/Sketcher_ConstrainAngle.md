@@ -10,6 +10,9 @@
 
 # Sketcher ConstrainAngle/de
 
+
+</div>
+
 ## Beschreibung
 
 Die Winkelbeschränkung ist eine [Bezugsbeschränkung](Sketcher_Workbench/de#Skizzierer_Beschränkungen.md), die dazu dient, Winkel in der Skizze festzulegen. Sie ist in der Lage, die Neigungen einzelner Linien, Winkel zwischen den Linien, Winkel der Schnittpunkte von Kurven und Winkelbereiche von Kreisbögen festzulegen.
@@ -23,6 +26,9 @@ Es gibt vier verschiedene Möglichkeiten, wie die Beschränkung angewendet werde
 -   zu Schnittpunkten von Kurven
 -   zu Kreisbögen
 
+
+<div class="mw-translate-fuzzy">
+
 Um die Winkelbeschränkung anzuwenden, sollte man den Schritten folgen:
 
 1.  Wähle ein, zwei oder drei Elemente in der Skizze aus. Der Modus wird abhängig von der Auswahl gewählt.
@@ -33,6 +39,9 @@ Um die Winkelbeschränkung anzuwenden, sollte man den Schritten folgen:
 3.  Ein Bezugs Bezugsbearbeitungsdialogfeld klappt auf.
 4.  Ändere den Winkel, falls erforderlich. **Hinweis:** Der Winkel kann als Ausdruck eingegeben werden, der ausgewertet und als Ergebnis gespeichert wird.
 5.  Klicke **OK**
+
+
+</div>
 
 Wie bei jeder Bezugsbeschränkung ist es möglich, den Winkelwert später zu ändern, durch Doppelklick der Beschränkung in der Beschränkungsliste oder der 3D Ansicht. Die Eingabe eines negativen Wertes führt zum Umkippen der Winkelrichtung.
 
@@ -46,13 +55,7 @@ Wie bei jeder Bezugsbeschränkung ist es möglich, den Winkelwert später zu än
 
 Die Beschränkung legt den Polwinkel der Linienrichtung fest. Es ist der Winkel zwischen der Linie und der X Achse der Skizze.
 
-
-<div class="mw-translate-fuzzy">
-
-### Bogenspanne (v0.15) 
-
-
-</div>
+### Winkel eines Kreisbogens 
 
 **akzeptierte Auswahl:** Kreisbogen
 
@@ -68,13 +71,7 @@ In diesem Modus fixiert die Beschränkung die Winkelspannweite eines Kreisbogens
 
 In diesem Modus legt die Beschränkung den Winkel zwischen zwei Linien fest. Es ist nicht erforderlich, dass sich die Linien schneiden.
 
-
-<div class="mw-translate-fuzzy">
-
-### Zwischen Kurven am Schnittpunkt (Winkel-über-Punkt) (v0.15) 
-
-
-</div>
+### Zwischen Kurven am Schnittpunkt (Winkel-über-Punkt) 
 
 **Akzeptierte Auswahl:** jede Linie/Kurve + jede Linie/Kurve + jeder Punkt
 
@@ -114,10 +111,16 @@ Sketch.addConstraint(Sketcher.Constraint('AngleViaPoint',icurve1,icurve2,geoidpo
 Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, die für `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` und `pointpos` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

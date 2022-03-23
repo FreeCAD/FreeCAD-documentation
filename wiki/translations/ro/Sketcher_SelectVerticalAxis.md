@@ -31,7 +31,7 @@ Selects the vertical axis of a sketch.
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

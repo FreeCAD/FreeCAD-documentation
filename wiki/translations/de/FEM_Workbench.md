@@ -162,9 +162,21 @@ Der FEM Arbeitsbereich kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Löser Elmer](FEM_SolverElmer/de.md): Erstellt den Löser Steuerung für Elmer. Er ist unabhängig von anderen Löser Objekten.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Löser Mystran](FEM_SolverMystran/de.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Löser Z88](FEM_SolverZ88/de.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Elastizitätsgleichung](FEM_EquationElasticity/de.md):
 

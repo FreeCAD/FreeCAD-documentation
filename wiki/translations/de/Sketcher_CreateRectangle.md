@@ -10,6 +10,9 @@
 
 # Sketcher CreateRectangle/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet ein Rechteck, indem zwei gegenüberliegende Punkte gegriffen werden. Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Rechtecksymbol. Die Koordinaten des Mauszeigers werden daneben in Echtzeit blau angezeigt.
@@ -24,10 +27,16 @@ Um ein Rechteck über einen Mittelpunkt und einen Kantenpunkt zu definieren, ver
 -   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

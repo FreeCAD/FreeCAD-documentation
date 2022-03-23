@@ -39,7 +39,7 @@ Selectează constrângerile redundante dintr-o schiță.
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

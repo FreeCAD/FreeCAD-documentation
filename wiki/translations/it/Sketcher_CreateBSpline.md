@@ -73,7 +73,7 @@ Questo strumento traccia una curva B-spline aperta dai suoi punti di controllo.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

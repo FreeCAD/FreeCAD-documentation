@@ -41,8 +41,6 @@ Appone un punto su un altro oggetto, ad esempio, su una linea, un arco o un asse
 
 </div>
 
-**Nota:** l\'ordine di selezione della linea e del punto non è importante. Il punto viene sempre spostato sulla linea. La linea rimane fissa.
-
 ## Scripting
 
 

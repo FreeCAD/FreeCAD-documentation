@@ -3,6 +3,7 @@
    Name:Sketcher ConstrainLock
    MenuLocation:Sketch → Sketcher constraints → Constrain lock
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**K** **L**
    SeeAlso:[Sketcher Constrain Block](Sketcher_ConstrainBlock.md)
 ---
 
@@ -27,7 +28,7 @@ The <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Loc
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

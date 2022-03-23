@@ -24,10 +24,16 @@ The **Std TextureMapping** command temporarily maps a texture onto all objects i
 5.  Press the **Close** button to close the task panel and finish the command.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Std Base navi
+
+
+</div>
+
+
+{{Std_Base_navi
 
 }}
 

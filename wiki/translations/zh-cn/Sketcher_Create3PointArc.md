@@ -3,7 +3,7 @@
    Name:Sketcher Create3PointArc
    MenuLocation:Sketch → Sketcher geometries → Create Arc by three points
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:
+   Shortcut:**G** **3** **A**
    SeeAlso:
 ---
 
@@ -30,7 +30,7 @@
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

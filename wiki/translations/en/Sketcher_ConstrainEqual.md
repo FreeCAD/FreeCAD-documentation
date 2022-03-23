@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainEqual
    MenuLocation:Sketch → Sketcher constraints → Constrain equal
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:E
+   Shortcut:**E**
    SeeAlso:[Sketcher Constrain radius](Sketcher_ConstrainRadius.md)
 ---
 
@@ -62,7 +62,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

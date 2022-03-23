@@ -41,10 +41,16 @@
 -   Choosing [Leave Sketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

@@ -10,6 +10,9 @@
 
 # Sketcher External/cs
 
+
+</div>
+
 ## Popis
 
 
@@ -37,7 +40,7 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 </div>
 
 -   Create a new sketch, or open an existing sketch.
--   Press the **[<img src=images/Sketcher_External.svg style="width:16px"> [Sketcher External](Sketcher_External.md)** button.
+-   Press the **[<img src=images/Sketcher_External.svg style="width:16px"> [External geometry](Sketcher_External.md)** button.
 -   Select an edge or a vertex that you want to link to in the sketch.
 -   Press **Esc**, or select another tool to stop importing geometry into the sketch.
 
@@ -141,7 +144,7 @@ Při uzavření skicáře nejsou přetažené konstrukce viditelné.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

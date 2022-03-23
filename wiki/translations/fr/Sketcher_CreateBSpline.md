@@ -4,6 +4,7 @@
    Name/fr:Sketcher B-spline simple
    MenuLocation: Sketch → Géométries d'esquisse → Créer une B-spline
    Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **B** **B**
    Version:0.17
    SeeAlso:[Sketcher B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)
 ---
@@ -12,7 +13,7 @@
 
 ## Description
 
-Cet outil crée une courbe B-spline à partir de ses points de contrôle. (Voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
+Cet outil trace une courbe B-spline à partir de ses points de contrôle. (Voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
 
 ![](images/Sketcher_B-spline_example01.png ) 
 *Une courbe B-spline (en blanc) définie par 4 points de contrôle. On voit le polygone de contrôle en vert (les lignes droites reliant les points de contrôle) et les cercles de poids en jaune foncé. Le chiffre vert "3" au centre fait référence au [degré](Sketcher_BSplineIncreaseDegree/fr#Description.md) de la courbe B-spline et les chiffres "(4)" aux extrémités de la courbe B-spline font référence à leur [multiplicité du nœud](Sketcher_BSplineDecreaseKnotMultiplicity/fr#Description.md). Le chiffre rouge "3" indique le poids du point de contrôle qui est défini comme une contrainte de rayon par rapport au cercle du point de contrôle.*
@@ -40,7 +41,7 @@ Cet outil crée une courbe B-spline à partir de ses points de contrôle. (Voir 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

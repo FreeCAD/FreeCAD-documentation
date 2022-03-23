@@ -112,9 +112,21 @@ Die Werkzeuge des Sketch-Arbeitsbereich sind alle im Sketch-Menü zu finden, das
 
 ### Allgemein
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_NewSketch.png‎‎  style="width:32px;"> [Neue Skizze](Sketcher_NewSketch/de.md): Erstellt eine neue Skizze auf einer ausgewählten Fläche oder Ebene. Falls bei der Ausführung dieses Werkzeugs keine Fläche gewählt wurde, wird der Benutzer über ein Dialogfenster zur Auswahl einer Ebene aufgefordert.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Skizze bearbeiten](Sketcher_EditSketch/de.md): Editieren der gewählten Skizze. Dies öffnet den [Skizzierer Dialog](Sketcher_Dialog/de.md).
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> [Skizze verlassen](Sketcher_LeaveSketch/de.md): Beenden des Skizzierer Bearbeitungsmodus.
 
@@ -160,6 +172,9 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 :\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Kreis durch 3 Punkte](Sketcher_Create3PointCircle/de.md): Zeichnet einen Kreis aus drei Punkten auf dem Umfang.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Erstellen eines Kegels](Sketcher_CompCreateConic/de.md): Der Skizzierer stellt folgenden konische Abschnitte bereit. Im Gegensatz zu B-Splines können sie mit allen Arten von Beschränkungen wie z. B. [Tangenten](Sketcher_ConstrainTangent/de.md), [Punkt auf Objekt](Sketcher_ConstrainPointOnObject/de.md), oder [Orthogonal](Sketcher_ConstrainPerpendicular/de.md) verwendet werden.
     -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse durch Zentrum](Sketcher_CreateEllipseByCenter/de.md): Zeichnet eine Ellipse aus Mittelpunkt, Hauptradiuspunkt und Nebenradiuspunkt.
     -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Ellipse durch 3 Punkte](Sketcher_CreateEllipseBy3Points/de.md): Zeichnet eine Ellipse aus Hauptradius (2 Punkte) und kleinem Radiuspunkt
@@ -167,9 +182,18 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
     -   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:32px;"> [Hyperbelbogen](Sketcher_CreateArcOfHyperbola/de.md): Zeichnet einen Hyperbelbogen.
     -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Parabelbogen](Sketcher_CreateArcOfParabola/de.md): Zeichnet einen Parabelbogen.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [B-spline erstellen](Sketcher_CompCreateBSpline/de.md): Dies ist ein Symbolmenü in der Skizzierer Werkzeugleiste, das die folgenden Befehle enthält:
     -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline erstellen](Sketcher_CreateBSpline/de.md): Zeichnen einer B-spline Kurve (verkettete Linie) durch die Kontrollpunkte.
     -   <img alt="" src=images/Sketcher_Create_Periodic_BSpline.svg  style="width:32px;"> [Create periodic B-pline](Sketcher_CreatePeriodicBSpline/de.md): Zeichnet eine periodische (geschlossene) B-Spline Kurve anhand ihrer Kontrollpunkte.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -181,15 +205,39 @@ Zeichnet eine Linie aus mehreren Liniensegmenten. Drücken der M Taste während 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Rechtecke erstellen](Sketcher_CompCreateRectangles/de.md): Dies ist ein Symbolmenü in der Skizzierer Symbolleiste, das die folgenden Befehle enthält: {{Version/de|0.20}}
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rechteck](Sketcher_CreateRectangle/de.md): Zeichnet ein Rechteck aus zwei gegenüber liegenden Punkten.
 
+
+<div class="mw-translate-fuzzy">
+
 :\* <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Zentriertes Rechteck](Sketcher_CreateRectangle_Center/de.md): Zeichnet ein Rechteck aus einem zentralen Punkt und einem Randpunkt. {{Version/de|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 :\* <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Abgerundetes Rechteck](Sketcher_CreateOblong/de.md): Zeichnet ein abgerundetes Rechteck aus 2 gegenüberliegenden Punkten. {{Version/de|0.20}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateHexagon.png  style="width:32px;"> [Erstellen regelmäßiges Polygon](Sketcher_CompCreateRegularPolygon/de.md): Dies ist ein Symbolmenü in der Skizzierer Werkzeugleiste, das die folgenden Befehle enthält:
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Dreieck](Sketcher_CreateTriangle/de.md): Zeichnet ein regelmäßiges Dreieck, das einem Konstruktionsgeometriekreis einbeschrieben ist.
 
@@ -203,23 +251,53 @@ Zeichnet eine Linie aus mehreren Liniensegmenten. Drücken der M Taste während 
 
 -   <img alt="" src=images/Sketcher_CreateOctagon.png  style="width:32px;"> [Achteck](Sketcher_CreateOctagon/de.md): Zeichnen eines regelmäßigen Achtecks das einem Umkreis einbeschrieben ist.
 
+
+<div class="mw-translate-fuzzy">
+
 :\* <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Regelmäßiges Polygon erzeugen](Sketcher_CreateRegularPolygon/de.md) : Zeichnen eines regelmäßigen Polygons durch Auswahl der Anzahl der Seiten und Auswahl zweier Punkte: dem Zentrum und einer Ecke.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Langloch](Sketcher_CreateSlot/de.md): Zeichnet ein Oval, indem das Zentrum des einen Halbkreises und ein Endpunkt des anderen Halbkreises ausgewählt werden.
 
 -   <img alt="" src=images/Sketcher_CreateFillet.png  style="width:32px;"> [Verrundung](Sketcher_CreateFillet/de.md): Erstellt eine Verrundung zwischen zwei Linien, die an einem Punkt verbunden sind. Wähle beide Linien oder klicke auf den Eckpunkt und aktiviere dann das Werkzeug.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Trimming.png  style="width:32px;"> [Stutzen](Sketcher_Trimming/de.md): Stutzt eine Gerade, einen Kreis oder Kreisbogen mit Bezug zum angeklickten Punkt.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Dehnen](Sketcher_Extend/de.md): Dehnt eine Linie oder einen Kreisbogen zu einer Grenzlinie, einem Bogen, einer Ellipse, einem Ellipsenbogen oder einem Raumpunkt.
 
 -   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Teilen](Sketcher_Split/de.md): Teilt eine Linie oder einen Bogen in zwei, wandelt einen Kreis in einen Bogen um und behält dabei die meisten Beschränkungen bei. {{Version/de|0.20}}
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Externe Geometrie](Sketcher_External/de.md): Erstellt eine Kante verbunden mit einer externer Geometrie.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [Kopie](Sketcher_CarbonCopy/de.md): Kopiert die Geometrie einer anderen Skizze.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Konstruktionsmodus](Sketcher_ToggleConstruction/de.md): Schaltet die Skizzengeometrie vom/ zum Konstruktionsmodus um. Konstruktionsgeometrie wird in Blau angezeigt und außerhalb des Skizziermodus verworfen.
+
+
+</div>
 
 ### Skizzierbeschränkungen
 
@@ -241,9 +319,15 @@ Diese Beschränkungen sind nicht mit nummerischen Daten verknüpft.
 
 Befestigt einen Punkt auf (deckungsgleich mit) einem oder mehreren anderen Punkten.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Punkt auf Objekt](Sketcher_ConstrainPointOnObject/de.md):
 
 Fügt einen Punkt einem anderen Objekt hinzu, z. B. einer Linie, einem Kreisbogen oder einer Achse.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Vertikal](Sketcher_ConstrainVertical/de.md): Beschränkt die ausgewählten Linien oder Polylinienelemente auf eine echte vertikale Ausrichtung. Vor dem Anwenden dieser Beschränkung kann mehr als ein Objekt ausgewählt werden.
 
@@ -296,7 +380,13 @@ Beschränkt das ausgewählte Element, in dem vertikale und horizontale Abstände
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Snelliussches Gesetz](Sketcher_ConstrainSnellsLaw/de.md): Beschränkt zwei Linien so, dass sie einem Brechungsgesetz unterliegen, um das durch eine Grenzfläche gehende Licht zu simulieren.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Interne Ausrichtung](Sketcher_ConstrainInternalAlignment/de.md): Richtet ausgewählte Elemente an der ausgewählten Form aus (z. B. eine Linie, die zur Hauptachse einer Ellipse wird).
 
@@ -314,11 +404,23 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Umschalten Referenz/treibende Beschränkung](Sketcher_ToggleDrivingConstraint/de.md): Schaltet die Werkzeugleiste oder die ausgewählten Beschränkungen in/aus dem Referenzmodus um.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Umschalten aktive Beschränkung](Sketcher_ToggleActiveConstraint/de.md): Einschalten oder ausschalten einer bereits platzierten Beschränkung. {{Version/de|0.19}}
+
+
+</div>
 
 ### Skizzierer Werkzeuge 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Löser Freiheitsgrade auswählen](Sketcher_SelectElementsWithDoFs/de.md): Hebt in grün die Geometrie mit Freiheitsgraden (DOFs), d.h. nicht vollständig beschränkt, hervor.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -368,7 +470,13 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry/de.md): Stellt fehlende oder löscht nicht benötigte interne Geometrie einer ausgewählten Ellipse, eines Ellipsen-/ Hyperbel-/ Parabel- oder B-Spline-Bogens.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -436,9 +544,21 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Jede Geometrie löschen](Sketcher_DeleteAllGeometry/de.md): Löscht alle Geometrien aus der Skizze.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Alle Beschränkungen löschen](Sketcher_DeleteAllConstraints/de.md): Löscht alle Beschränkungen aus der Skizze.
+
+
+</div>
 
 ### Skizze B-spline Werkzeuge 
 
@@ -466,7 +586,13 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 ### Skizzierer virtueller Raum 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Virtuellen Raum wechseln](Sketcher_SwitchVirtualSpace/de.md): Ermöglicht dir alle Beschränkungen einer Skizze auszublenden und wieder sichtbar zu machen.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -514,11 +640,11 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite enthält Beispiele fü
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/de

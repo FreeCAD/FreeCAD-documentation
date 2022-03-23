@@ -125,20 +125,38 @@ En cada posición de la spline $t$ la suma de polinomios es 1 (indicado por la l
 
 Una propiedad de los polinomios de Bernstein es que cuando se observan las diferentes partes de la S-spline Bézier, la longitud del recorrido de cada parte es la misma. (La longitud de la trayectoria suele llamarse *tiempo de recorrido*). Como puedes imaginar, puede ser útil tener B-splines cuyas partes Bézier tengan diferentes longitudes de trayectoria. Esto puede lograrse ponderando los diferentes polinomios:
 
+
+<div class="mw-translate-fuzzy">
+
 $\quad
 c(t)=\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k$
+
+
+</div>
 
 $w_k$ es el peso del $k$-ésimo punto de control. Cuando los pesos no son iguales, la B-spline se llama **no-uniforme**.
 
 Especialmente cuando las B-splines deben utilizarse para el modelado en 3D, son necesarias las B-splines normalizadas y no uniformes. La normalización se realiza mediante una división por las funciones base ponderadas. Así, cuando todas las $w_k$ son iguales, obtenemos una B-spline uniforme, independiente del propio peso:
 
+
+<div class="mw-translate-fuzzy">
+
 $\quad
 c(t)=\cfrac{\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
 
+
+</div>
+
 Estas B-splines no-uniformes y racionales (por la división) suelen llamarse **NURBS**\'. Observando su fórmula, vemos que en realidad son una B-spline con una base ponderada $R_{k, D}(t)$:
+
+
+<div class="mw-translate-fuzzy">
 
 $\quad
 c(t)=\sum_{k=0}^{N}d_{k}R_{k, D}(t)$
+
+
+</div>
 
 mientras que
 

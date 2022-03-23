@@ -9,6 +9,9 @@
 
 # Sketcher CreateCircle/es
 
+
+</div>
+
 ## Descripción
 
 Esta herramienta dibuja una circunferencia indicando dos puntos: el centro, y un punto a lo largo del radio.
@@ -23,10 +26,16 @@ Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca 
 -   Presionando **Esc** o pulsando el botón derecho del ratón se cancela la función.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

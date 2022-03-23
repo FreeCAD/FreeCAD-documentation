@@ -19,7 +19,7 @@ The <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **Fasteners
     -   Select the **Fasteners → <img src="images/Fasteners_Shape.svg" width=16px> Simplify shape** option from the menu.
 3.  For each fastener a simplified copy is created.
 4.  The **Visibility** property of the original fasteners is set to `False`.
-5.  Optionally deleted the original fasteners.
+5.  Optionally delete the original fasteners.
 
 
 

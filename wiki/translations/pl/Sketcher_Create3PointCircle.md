@@ -4,7 +4,7 @@
    Name/pl:Szkicownik: Utwórz łuk przez 3 punkty na obwodzie
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz okrąg przez 3 punkty
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:
+   Shortcut:**G** **3** **C**
    SeeAlso:
 ---
 

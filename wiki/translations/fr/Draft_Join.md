@@ -26,8 +26,8 @@ La commande <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft 
 
 ## Remarques
 
--   Les [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md) peuvent aussi être jointes avec la commande [Draft Polyligne](Draft_Wire/fr.md) ou la commande [Draft Mettre à niveau](Draft_Upgrade/fr.md).
--   Pour réunir des objets qui ne sont pas [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md), vous pouvez essayer d\'utiliser [Draft Mettre à niveau](Draft_Upgrade/fr.md) et/ou [Draft Rétrograder](Draft_Downgrade/fr.md) sur eux une ou plusieurs fois d\'abord.
+-   Les [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md) peuvent aussi être jointes avec la commande [Draft Polyligne](Draft_Wire/fr.md) ou la commande [Draft Agréger](Draft_Upgrade/fr.md).
+-   Pour réunir des objets qui ne sont pas [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md), vous pouvez essayer d\'utiliser [Draft Agréger](Draft_Upgrade/fr.md) et/ou [Draft Désagréger](Draft_Downgrade/fr.md) sur eux une ou plusieurs fois d\'abord.
 
 ## Script
 

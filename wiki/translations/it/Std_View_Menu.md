@@ -112,6 +112,8 @@ In questo menu sono disponibili i seguenti strumenti:
 
 </div>
 
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut.md): Creates persistent cuts of objects and assemblies. <small>(v0.20)</small> 
+
 
 <div class="mw-translate-fuzzy">
 

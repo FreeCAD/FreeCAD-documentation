@@ -4,6 +4,7 @@
    Name/fr:Sketcher Arc d'ellipse
    MenuLocation:Sketch → Géométries d'esquisse → Créer un arc d'ellipse
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **E** **A**
    Version:0.15
    SeeAlso:[Sketcher Ellipse par son centre](Sketcher_CreateEllipseByCenter/fr.md), [Sketcher Arc](Sketcher_CompCreateArc/fr.md)
 ---
@@ -19,7 +20,7 @@ Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du 
 
 ## Utilisation
 
--   Cliquer sur le bouton **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)**.
+-   Cliquer sur le bouton **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Créer un arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)**.
 -   Le premier clic dans la vue 3D, définit le centre de l\'ellipse. Le deuxième clic définit le premier rayon et l\'orientation de l\'ellipse. Le troisième clic définit l\'autre rayon et le début de l\'arc. le quatrième clic définit le point final.
 -   Après le quatrième clic, l\'arc d\'ellipse est créée, ainsi que l\' ensemble de géométrie de construction (en traits bleu) aligné (diamètre principal, diamètre mineur, deux foyers). La géométrie de la construction peut être supprimée manuellement si elle n\'est pas nécessaire et recréée ultérieurement. Consulter [contrainte d\'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) et [Afficher/masquer la géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md).
 -   En appuyant sur **Echap** ou en cliquant sur le bouton droit de la souris, vous annulez la fonction.

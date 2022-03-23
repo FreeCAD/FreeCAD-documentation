@@ -4,7 +4,7 @@
    Name/pl:Wiązanie punktu na obiekcie
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie punktu na obiekcie
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Shift** + **O**
+   Shortcut:**O**
    SeeAlso:[Wiązanie spójności punktów](Sketcher_ConstrainCoincident/pl.md)
 ---
 
@@ -16,14 +16,11 @@ Przyłącza punkt do innego obiektu, takiego jak linia, łuk lub oś szkicu.
 
 ## Użycie
 
-1.  Wybierz punkt, który chcesz umieścić na linii / łuku / itd. *(*Rezultat:\'\' Po wybraniu punkt stanie się zielony)\'\'.
-2.  Wybierz linię, którą chcesz dołączyć do punktu, który właśnie wybrałeś *(*Wynik:\'\' Po wybraniu linia stanie się zielona)\'\'.
-3.  Wywołaj narzędzie **Ustaw punkt na obiekcie** używając kilku metod:
+1.  Wybierz punkt i krawędzi w dowolnej kolejności.
+2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Ustaw punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)** na pasku narzędzi.
-    -   Użyj kombinacji klawiszy **Shift** + **O**.
-    -   Użyj pozycji **Szkic → Wiązania szkicownika → Zwiąż punkt na obiekcie** w menu głównym.
-
-**Uwaga:** Kolejność, w jakiej wybierasz linię i punkt, nie ma znaczenia. Punkt zawsze będzie przesuwał się do linii. Innymi słowy, linia pozostaje nieruchoma.
+    -   Użyj klawisza **O**.
+    -   Użyj pozycji w menu głównym **Szkic → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> Zwiąż punkt na obiekcie**.
 
 ## Tworzenie skryptów 
 

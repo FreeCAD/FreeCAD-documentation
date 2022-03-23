@@ -3,6 +3,7 @@
    Name:Sketcher ToggleConstruction
    MenuLocation:Sketch → Sketcher geometries → Toggle construction geometry
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **N**
    SeeAlso:[Sketcher ToggleDrivingConstraint](Sketcher_ToggleDrivingConstraint.md)
 ---
 
@@ -25,11 +26,11 @@ Construction lines can be used as rotation axis by the **[<img src=images/PartDe
 There are two ways of using this tool:
 
 1.  Without having anything selected in the [3D view](3D_view.md):
-    -   Invoke construction mode by clicking on the **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction](Sketcher_ToggleConstruction.md)** or by using the **Sketch → Sketcher geometries → [<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> Toggle construction geometry** entry in the Sketcher menu.
+    -   Invoke construction mode by clicking on the **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** button or by using the **Sketch → Sketcher geometries → [<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> Toggle construction geometry** entry in the Sketcher menu.
     -   This will change the color for creating new geometric elements to blue.
     -   Newly created geometric elements will now be created in construction mode.
 2.  With one or more geometric elements selected in the [3D view](3D_view.md)
-    -   Invoke the Sketcher ToggleConstruction tool by clicking on the **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction](Sketcher_ToggleConstruction.md)** or by selecting it from the menu
+    -   Invoke the tool by clicking on the **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** button or by selecting it from the menu
     -   The selected elements will now be changed to construction mode.
     -   Afterwards newly created elements will again be normal geometry.
 
@@ -45,12 +46,12 @@ and once you **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [le
 
 ## Notes
 
--    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Create Point](Sketcher_CreatePoint.md)**will always create points in construction mode regardless of the toolbar toggle state, select the desired points in the [3D view](3D_view.md) after creation and click **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction](Sketcher_ToggleConstruction.md)** to change them to normal geometry. <small>(v0.19)</small> 
+-    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Create point](Sketcher_CreatePoint.md)**will always create points in construction mode regardless of the toolbar toggle state, select the desired points in the [3D view](3D_view.md) after creation and click **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction geometry](Sketcher_ToggleConstruction.md)** to change them to normal geometry. <small>(v0.19)</small> 
 
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

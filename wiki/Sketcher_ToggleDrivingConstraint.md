@@ -1,8 +1,9 @@
 ---
 - GuiCommand:
    Name:Sketcher ToggleDrivingConstraint
-   MenuLocation:Sketch → Sketcher constraints → Toggle reference/driving constraint
+   MenuLocation:Sketch → Sketcher constraints → Toggle driving/reference constraint
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**K** **X**
    Version:0.16
    SeeAlso:[Sketcher Toggle Construction](Sketcher_ToggleConstruction.md)
 ---
@@ -29,7 +30,7 @@ The **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> 
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

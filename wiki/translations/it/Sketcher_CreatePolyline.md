@@ -59,7 +59,7 @@ La Polilinea inizia sempre con un segmento di linea retta: fare clic - spostare 
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

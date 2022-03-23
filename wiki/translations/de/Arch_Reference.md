@@ -18,7 +18,7 @@ Das Referenz Werkzeug erlaubt es, im aktuellen Dokument ein Objekt zu platzieren
 
 ## Anwendung
 
-1.  Drücke die Schaltfläche **<img src="images/Arch_Reference.png" width=16px> Arch Referenz
+1.  Drücke die Schaltfläche **<img src="images/Arch_Reference.svg" width=16px> Arch Referenz
 **
 2.  Drücke die Schaltfläche **Wähle Datei...** und wähle eine vorhandene FreeCAD-Datei
 3.  Wähle eins der enthaltenen Part-basierten Objekte aus der Aufklappliste
@@ -54,22 +54,6 @@ Beispiel:
 import Arch
 Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/de
-|[Grundstück](Arch_Site/de.md)
-|[Fenster](Arch_Window/de.md)
-|[Arch](Arch_Workbench.md)
-|IconL=Arch_Site.svg
-|IconR=Arch_Window.svg
-|IconC=Workbench_Arch.svg
-}}
-
-
-</div>
 
 
 

@@ -4,7 +4,7 @@
    Name/fr:Sketcher Ligne
    MenuLocation:Sketch → Géométries d'esquisse → Créer une ligne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:L
+   Shortcut:**G** **L**
    SeeAlso:[Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
 ---
 

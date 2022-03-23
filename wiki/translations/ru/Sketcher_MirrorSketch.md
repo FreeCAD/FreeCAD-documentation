@@ -30,7 +30,13 @@ Notes:
 -   Multiple sketches can be selected before applying the operation.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

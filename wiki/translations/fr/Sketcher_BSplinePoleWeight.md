@@ -5,7 +5,7 @@
    MenuLocation:Sketch → Outils d'esquisse B-Spline → Poids des points de contrôle B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[Sketcher B-spline](Sketcher_CompCreateBSpline/fr.md)
+   SeeAlso:[Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
 ---
 
 # Sketcher BSplinePoleWeight/fr
@@ -59,7 +59,7 @@ La façon de modifier les poids est décrite dans [cette page Wiki](B-Splines#Ch
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

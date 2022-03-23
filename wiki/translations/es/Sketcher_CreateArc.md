@@ -9,6 +9,9 @@
 
 # Sketcher CreateArc/es
 
+
+</div>
+
 ## Descripción
 
 Esta herramienta dibuja arcos indicando tres puntos: el centro, el ángulo inicial a lo largo del radio, y el radio final.
@@ -23,10 +26,16 @@ Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca 
 -   Presionando **Esc** o pulsando el botón derecho del ratón se cancela la función.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

@@ -48,7 +48,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 ## Remarques
 
--   Les copies miroir des [Draft Lignes](Draft_Line/fr.md), [Draft Polylignes](Draft_Wire/fr.md), [Draft Arcs](Draft_Arc/fr.md) et [Draft Cercles](Draft_Circle/fr.md) peuvent être transformées en objets Draft éditables indépendants en utilisant [Draft Rétrograder](Draft_Downgrade/fr.md) et ensuite [Draft Mettre à niveau](Draft_Upgrade/fr.md).
+-   Les copies miroir des [Draft Lignes](Draft_Line/fr.md), [Draft Polylignes](Draft_Wire/fr.md), [Draft Arcs](Draft_Arc/fr.md) et [Draft Cercles](Draft_Circle/fr.md) peuvent être transformées en objets Draft éditables indépendants en utilisant [Draft Désagréger](Draft_Downgrade/fr.md) et ensuite [Draft Agréger](Draft_Upgrade/fr.md).
 -   La commande [Part Copie simple](Part_SimpleCopy/fr.md) peut être utilisée pour créer une copie d\'un objet miroir qui n\'est pas lié à son objet source.
 
 ## Préférences

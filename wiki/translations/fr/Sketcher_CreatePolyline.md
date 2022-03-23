@@ -4,6 +4,7 @@
    Name/fr:Sketcher Polyligne
    MenuLocation:Sketch → Géométries d'esquisse → Créer une polyligne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **M**
    SeeAlso:[Sketcher Ligne](Sketcher_CreateLine/fr.md)
 ---
 
@@ -42,7 +43,7 @@ L\'outil Polyligne commence toujours par un segment de droite: cliquez, déplace
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

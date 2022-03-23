@@ -115,11 +115,11 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
 
 
     StatElecSolve: Capacitance matrix computation performed (i,j,C_ij)
-    StatElecSolve:   1  1    5.08013E+00
-    StatElecSolve:   1  2    1.70071E+00
-    StatElecSolve:   2  2    5.07960E+00
+    StatElecSolve:   1  1    5.07315E+21
+    StatElecSolve:   1  2    1.69428E+21
+    StatElecSolve:   2  2    5.07500E+21
 
--   Ici, le résultat souhaité est C~12~ = 1.70071. Cette valeur est proche du `1.691` donné dans les [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). Nous pouvons obtenir une valeur encore plus proche en faisant une [FEM Région de maillage](FEM_MeshRegion/fr.md) plus fine mais cette activité est laissée à l\'utilisateur. Il est également conseillé à l\'utilisateur de jouer avec le [FEM Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md) pour obtenir un résultat visuel similaire à la première image de ce tutoriel.
+-   Ici, le résultat souhaité est C~12~ = 1.69428. Cette valeur est proche du `1.691` donné dans les [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). Nous pouvons obtenir une valeur encore plus proche en faisant une [FEM Région de maillage](FEM_MeshRegion/fr.md) plus fine mais cette activité est laissée à l\'utilisateur. Il est également conseillé à l\'utilisateur de jouer avec le [FEM Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md) pour obtenir un résultat visuel similaire à la première image de ce tutoriel.
 
 
  {{FEM Tools navi}}

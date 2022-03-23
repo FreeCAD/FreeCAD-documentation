@@ -57,7 +57,7 @@ Es gibt verschiedene Wege den Befehl Skizze bearbeiten aufzurufen:
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -36,7 +36,7 @@ La contrainte horizontale oblige une ligne sélectionnée ou des lignes dans l\'
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Horizontal', Line))```
 
-La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Line` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Line` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
 

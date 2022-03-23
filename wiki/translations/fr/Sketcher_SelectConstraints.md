@@ -10,11 +10,17 @@
 
 # Sketcher SelectConstraints/fr
 
+
+</div>
+
 ## Description
 
 Sélectionne les contraintes d\'un élément d\'esquisse.
 
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Sélectionnez l\'élément d\'esquisse dans le [Panneau des tâches](Task_panel/fr.md) ou dans la [vue 3D](3D_view/fr.md).
 2.  Lancez la commande Sélecteur de constraintes de plusieurs manières
@@ -23,15 +29,20 @@ Sélectionne les contraintes d\'un élément d\'esquisse.
     -   Utilisez le raccourci clavier **Ctrl**+**Maj**+**C**
 3.  Les contraintes associées seront mises en évidence dans le [Panneau des tâches](Task_panel/fr.md).
 
-## Remarques
 
--   Ne fonctionne pas avec les contraintes Point sur objet.
-
+</div>
 
 
+<div class="mw-translate-fuzzy">
 
 
-{{Sketcher Tools navi
+
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

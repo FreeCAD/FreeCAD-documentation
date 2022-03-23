@@ -38,7 +38,7 @@ Lo strumento **Vista sezione** crea un piano di sezione che nasconde temporaneam
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

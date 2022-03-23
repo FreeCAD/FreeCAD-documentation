@@ -15,14 +15,26 @@
 
 ## Типы окружностей 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Создать окружность](Sketcher_CreateCircle/ru.md) : Рисует окружность, по двум точкам: центру и радиусу.
 -   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Создать окружность по трём точкам](Sketcher_Create3PointCircle/ru.md) : Рисует окружность, по трём точкам касательным окружности.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

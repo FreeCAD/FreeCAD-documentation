@@ -4,7 +4,7 @@
    Name/fr:Sketcher Contrainte distance en X
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte distance horizontale
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Maj** + **H**
+   Shortcut:**L**
    SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
@@ -20,8 +20,8 @@ Fixe la distance verticale entre 2 points ou fin de lignes. Si un seul point est
 
 1.  Choisissez un ou deux points ou une ligne.
 2.  Appelez l\'outil de plusieurs manières:
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Fixer la distance horizontale...](Sketcher_ConstrainDistanceX/fr.md)** dans la barre d\'outils.
-    -   Utilisez le raccourci clavier **Maj** + **H**. (**H** est pour **H**orizontal)
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md)** dans la barre d\'outils.
+    -   Utilisez le raccourci clavier **L**
     -   Utilisez **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Contrainte distance horizontale** dans le menu supérieur.
 3.  Une boîte de dialogue contextuelle s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
 
@@ -50,7 +50,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -2,10 +2,10 @@
 - GuiCommand:/de
    Name:PartDesign CoordinateSystem
    Name/de:PartDesign Koordinatensystem
-   MenuLocation:PartDesign → Erstelle ein lokales Koordinatensystem
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   MenuLocation:PartDesign → Lokales Koordinatensystem erstellen
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.18
-   SeeAlso:[Datum point](PartDesign_Point.md), [PartDesign Datum line](PartDesign_Line.md), [Datum plane](PartDesign_Plane.md)
+   SeeAlso:[PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugslinie](PartDesign_Line/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
 ---
 
 # PartDesign CoordinateSystem/de
@@ -16,7 +16,7 @@ Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezu
 
 ## Anwendung
 
-1.  Drücken Sie die **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Erstelle lokales Koordinatensystem](PartDesign_CoordinateSystem.md)**.
+1.  Drücken Sie die **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Lokales Koordinatensystem erstellen](PartDesign_CoordinateSystem/de.md)**.
 2.  Definieren Sie die Parameter des Koordinatensystems. Wählen Sie in der 3D-Ansicht eine erste Referenz aus, um die verfügbaren Anhangsmodi zu filtern.
 3.  Abhängig von der ausgewählten Referenz stehen in der Liste möglicherweise ein oder mehrere Anhangsmodi zur Verfügung. Das wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text \'\' Mit Modus verbunden \'\' wird zusammen mit dem Namen des Anhangsmodus oben im Parameterfenster grün angezeigt.
 4.  Um eine weitere Referenz hinzuzufügen, drücken Sie die nächste Taste {{Button | Referenz}}. Nach dem Drücken ändert sich das Label in \'\' Auswählen \... \'\', bis eine Auswahl getroffen wird.
@@ -26,7 +26,7 @@ Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezu
 
 ## Optionen
 
-Mit einem Doppelklick auf (Lokales KS) **Locales\_CS** in der Baumstruktur oder durch einen Rechtsklick und Auswählen von **Bezug ändern** im Kontextmenü können die Werte geändert werden. Mehr Details zum Befestigungsmodus und dem Befestigungsversatz gibt es in [Part AnhangBearbeiten](Part_EditAttachment/de.md).
+Mit einem Doppelklick auf (Lokales KS) **Local\_CS** in der Baumstruktur oder durch einen Rechtsklick und Auswählen von **Bezug ändern** im Kontextmenü können die Werte geändert werden. Mehr Details zum Befestigungsmodus und dem Befestigungsversatz gibt es in [Part AnhangBearbeiten](Part_EditAttachment/de.md).
 
 ## Eigenschaften
 

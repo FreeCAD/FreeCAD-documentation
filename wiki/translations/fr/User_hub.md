@@ -26,7 +26,9 @@ Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il 
 
 #### Vous venez d\'un autre logiciel? 
 
--   [Migrer vers FreeCAD depuis Fusion360](Migrating_to_FreeCAD_from_Fusion360/fr.md)
+-   [Solutions de contournement](Workarounds/fr.md)
+-   [Migrer de Fusion360 vers FreeCAD](Migrating_to_FreeCAD_from_Fusion360/fr.md)
+-   [Migrer de SolidWorks vers FreeCAD](Migrating_to_FreeCAD_from_SolidWorks.md)
 -   [Guide de migration vers FreeCAD BIM](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide) en anglais
 -   [BIM Tableau de compatibilité des applications](BIM_application_compatibility_table/fr.md)
 

@@ -2,9 +2,9 @@
 - GuiCommand:/pl
    Name:Sketcher CreateRectangle
    Name/pl:Szkicownik: Utwórz prostokąt
-   MenuLocation:Sketch → Elementy geometryczne szkicownika → Tworzenie prostokąta
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz prostokąt
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**R**
+   Shortcut:**G** **R**
    SeeAlso:[Zaokrąglony prostokąt](Sketcher_CreateOblong/pl.md), [Linia łamana](Sketcher_CreatePolyline/pl.md)
 ---
 
@@ -27,7 +27,7 @@ Aby zdefiniować prostokąt za pomocą punktu środkowego i punktu na krawędzi,
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

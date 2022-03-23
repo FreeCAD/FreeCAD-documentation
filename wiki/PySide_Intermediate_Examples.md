@@ -1,8 +1,6 @@
 # PySide Intermediate Examples
 ## Introduction
 
- 
-
 This page covers medium level examples of the [PySide](PySide.md) GUI manager (accompanying pages cover aspects that are both less or more advanced, [Beginner PySide Examples](PySide_Beginner_Examples.md) and [Advanced PySide Examples](PySide_Advanced_Examples.md)). In this page an example program is used to cover the different PySide topics. The intention is to present some functional PySide code so anyone who needs to use PySide can copy out the relevant section, modify and adapt it to their own purposes.
 
 ### Notes
@@ -25,10 +23,14 @@ Most of the remainder of this section will describe the contents of the Class de
 
 ### Import Statement 
 
-The mandatory Import statement  
+The mandatory Import statement
+
+ 
 ```python
 from PySide import QtGui, QtCore
-``` This is best placed at the top of the Python file.
+```
+
+This is best placed at the top of the Python file.
 
 ### Class Definition 
 
@@ -40,14 +42,18 @@ class ExampleModalGuiClass(QtGui.QDialog):
         super(ExampleModalGuiClass, self).__init__()
         self.initUI()
     def initUI(self):
-``` This code is best copied out verbatim and altered. The gist of the code is that we are sub-classing the QDialog Class of PySide. In adapting this code you will want to change the class name \"ExampleModalGuiClass\" - make sure to change it in both locations (e.g. lines 1 & 4).
+```
+
+This code is best copied out verbatim and altered. The gist of the code is that we are sub-classing the QDialog Class of PySide. In adapting this code you will want to change the class name \"ExampleModalGuiClass\" - make sure to change it in both locations (e.g. lines 1 & 4).
 
 ### Window Return Status 
 
  
 ```python
 self.result = userCancelled
-``` This is not mandatory but rather a good programming practice, this sets a default return status for the window which will be there regardless of what the user does. Later in the code this may be changed by the Python code to indicate different options the user may have selected.
+```
+
+This is not mandatory but rather a good programming practice, this sets a default return status for the window which will be there regardless of what the user does. Later in the code this may be changed by the Python code to indicate different options the user may have selected.
 
 ### Window Creation 
 
@@ -58,7 +64,9 @@ self.result = userCancelled
 self.setGeometry(   250, 250, 400, 350)
 self.setWindowTitle("Our Example Program Window")
 self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
-``` Remembering that screen dimensions are measured from the upper-left corner, on the 3rd line the values refer to:
+```
+
+Remembering that screen dimensions are measured from the upper-left corner, on the 3rd line the values refer to:
 
 -   the number of pixels the upper-left corner will be to the right of the lefthand screen edge (250)
 -   the number of pixels the upper-left corner will be below the upper screen edge (250)
@@ -82,7 +90,9 @@ self.label3.setFont('Courier') # set to a non-proportional font
 self.label3.move(20, 120)
 self.label4 = QtGui.QLabel("can you see this?", self)
 self.label4.move(20, 170)
-``` In PySide labels serve two purposes, static labels (as the name implies) as well as read-only (i.e. display-only) text fields. So unchanging instructions to the user such as \"Don\'t push the red button\" as well as dynamic calculation results such as \"42\" can be communicated to the user. The 2nd line declares a Label and sets it\'s initial value (which is blank in this case). The 3rd line specifies the font, any font (on the system) can be specified, if not specified the default font is used. In this case the font is specified as a non-proportional one. The label is moved to it\'s location in the window - it\'s coordinates specify it\'s position with respect to the window (not the screen).
+```
+
+In PySide labels serve two purposes, static labels (as the name implies) as well as read-only (i.e. display-only) text fields. So unchanging instructions to the user such as \"Don\'t push the red button\" as well as dynamic calculation results such as \"42\" can be communicated to the user. The 2nd line declares a Label and sets it\'s initial value (which is blank in this case). The 3rd line specifies the font, any font (on the system) can be specified, if not specified the default font is used. In this case the font is specified as a non-proportional one. The label is moved to it\'s location in the window - it\'s coordinates specify it\'s position with respect to the window (not the screen).
 
 ### Checkbox Creation 
 
@@ -97,7 +107,9 @@ self.checkbox1.move(210,10)
 self.checkbox2 = QtGui.QCheckBox("Right side", self)
 self.checkbox2.clicked.connect(self.onCheckbox2)
 self.checkbox2.move(210,30)
-``` Checkboxes can be off and on in any combination (unlike radio buttons). Line 2 declares one and set\'s it initial Value. Line 3 specifies which method will be executed when the Checkbox is clicked (in this case the method \'onCheckBox1\'). If the 4th line did not have the Python comment character (\'\#\') as the first character, then it would be executed and it would mark the checkbox as checked. Finally the 5th line moves the Checkbox into position.
+```
+
+Checkboxes can be off and on in any combination (unlike radio buttons). Line 2 declares one and set\'s it initial Value. Line 3 specifies which method will be executed when the Checkbox is clicked (in this case the method \'onCheckBox1\'). If the 4th line did not have the Python comment character (\'\#\') as the first character, then it would be executed and it would mark the checkbox as checked. Finally the 5th line moves the Checkbox into position.
 
 ### Radio Button Creation 
 
@@ -111,7 +123,9 @@ self.radioButton1.move(210,60)
 self.radioButton2 = QtGui.QRadioButton("owt gnirts modnar",self)
 self.radioButton2.clicked.connect(self.onRadioButton2)
 self.radioButton2.move(210,80)
-``` The creation of the Radio Buttons is very similar to the Checkboxes. The only difference really is the behaviour of the Radio Buttons in that only one of them can be \'on\' at a time.
+```
+
+The creation of the Radio Buttons is very similar to the Checkboxes. The only difference really is the behaviour of the Radio Buttons in that only one of them can be \'on\' at a time.
 
 ### Pop-Up Menu Creation 
 
@@ -125,14 +139,20 @@ self.popup1.addItems(self.popupItems1)
 self.popup1.setCurrentIndex(self.popupItems1.index("candy"))
 self.popup1.activated[str].connect(self.onPopup1)
 self.popup1.move(210, 115)
-``` In line 2 a list is built up of what will be the user choices. An alternative is to build up a Dictionary but only use the Keys for the list of menu choices. Line 4 creates the pop-up menu (known as a ComboBox to PySide), the user options are added in line 5.
+```
 
-As a side note, if the Dictionary was used then the lines would appear as:  
+In line 2 a list is built up of what will be the user choices. An alternative is to build up a Dictionary but only use the Keys for the list of menu choices. Line 4 creates the pop-up menu (known as a ComboBox to PySide), the user options are added in line 5.
+
+As a side note, if the Dictionary was used then the lines would appear as:
+
+ 
 ```python
 self.popupItems1 = OrderedDict([("2","widget"),("pink","foobar"),("4","galopsis")])
 
 self.popup1.addItems(self.popupItems1.keys())
-``` Returning to the main code sample for this section, line 6 sets the default choice, this line may be omitted, also the value of the default choice could be loaded into the corresponding Label (once again if appropriate). And finally the move into position at line 8.
+```
+
+Returning to the main code sample for this section, line 6 sets the default choice, this line may be omitted, also the value of the default choice could be loaded into the corresponding Label (once again if appropriate). And finally the move into position at line 8.
 
 ### Button Creation Part 1 
 
@@ -143,7 +163,26 @@ pushButton1 = QtGui.QPushButton('Toggle visibility', self)
 pushButton1.clicked.connect(self.onPushButton1)
 pushButton1.setAutoDefault(False)
 pushButton1.move(210, 165)
-``` The button is created in line 2 with it\'s name, the handler for it\'s signal when clicked is specified in line 3. Line 4 is there to prevent the button from becoming the \'default button\' - the button that will be clicked if the user simply presses the **Return** key. And a move to position finished up the code segment.
+```
+
+The button is created in line 2 with it\'s name, the handler for it\'s signal when clicked is specified in line 3. Line 4 is there to prevent the button from becoming the \'default button\' - the button that will be clicked if the user simply presses the **Return** key. And a move to position finished up the code segment.
+
+### Button Creation Part 2 
+
+ 
+```python
+# cancel button
+cancelButton = QtGui.QPushButton('Cancel', self)
+cancelButton.clicked.connect(self.onCancel)
+cancelButton.setAutoDefault(True)
+cancelButton.move(150, 280)
+# OK button
+okButton = QtGui.QPushButton('OK', self)
+okButton.clicked.connect(self.onOk)
+okButton.move(260, 280)
+```
+
+Both buttons are created with a name (which will appear as their label), associated with a method which will execute when they are clicked, and moved into position. The one exception is line 4 which specifies the \'Cancel\' button as the default button - that means it will be \"clicked\" if the user preses the **Return** key.
 
 ### Text Input Creation 
 
@@ -154,7 +193,29 @@ self.textInput = QtGui.QLineEdit(self)
 self.textInput.setText("cats & dogs")
 self.textInput.setFixedWidth(190)
 self.textInput.move(20, 220)
-``` The QLineEdit widget is probably the most common for user textual input, in this example the code section after this one will set up a contextual menu to operate on it. This code section creates (line 2), sets an initial value (line 3), sets a width to the field (line 4) and moves the widget into place (line 5).
+```
+
+The QLineEdit widget is probably the most common for user textual input, in this example the code section after this one will set up a contextual menu to operate on it. This code section creates (line 2), sets an initial value (line 3), sets a width to the field (line 4) and moves the widget into place (line 5).
+
+### QuantitySpinBox Creation 
+
+ 
+```python
+# QuantitySpinBox
+from FreeCAD import Units
+ui = FreeCADGui.UiLoader()
+quantityInput = ui.createWidget("Gui::QuantitySpinBox")
+self.quantityInput.setProperty( 'minimum', 0.0)
+potential = 2.87
+unit = "V"
+# only set the value
+self.quantityInput.setProperty('rawValue', potential )
+# set quantity (value + unit)
+quantity = Units.Quantity("{} {}".format(potential , unit))
+self.quantityInput.setProperty('value', quantity)
+```
+
+The Gui::QuantitySpinBox widget is a FreeCAD-special, designed to display and handle values together with their [units](Expressions#Units.md). It is derived from Qt\'s [QAbstractSpinBox class](https://doc.qt.io/qt-5/qabstractspinbox.html). For all its properties see the list in the source code file [QuantitySpinBox.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/QuantitySpinBox.h#L42)
 
 ### Contextual Menu Creation 
 
@@ -183,7 +244,9 @@ self.textInput.addAction(popMenuAction1)
 self.textInput.addAction(popMenuAction2)
 self.textInput.addAction(popMenuDivider)
 self.textInput.addAction(popMenuAction3)
-``` This code has numerous repetitions as the same action is performed with different values - this is part of what makes GUI code so lengthy (no matter what the system). First a QAction is created - it is a pairing (or linkage) of the text that the user will see as their selectable option along with the method that will execute if they select that option. It is basically a pairing of a user choice with a piece of code. Line 3 creates it, line 4 defines the user option (as they will see it) and line 5 specifies which piece of Python code will execute.
+```
+
+This code has numerous repetitions as the same action is performed with different values - this is part of what makes GUI code so lengthy (no matter what the system). First a QAction is created - it is a pairing (or linkage) of the text that the user will see as their selectable option along with the method that will execute if they select that option. It is basically a pairing of a user choice with a piece of code. Line 3 creates it, line 4 defines the user option (as they will see it) and line 5 specifies which piece of Python code will execute.
 
 Skipping to line 19 (the line with \"self.textInput.setContextMenuPolicy\") a ActionsContextMenu is created which is holder for all the separate QAction linkages between user choice and code to execute. Each widget can only have a single Contextual Menu (i.e. the menu associated with the right-click) so line 19 defines that menu. The following 4 lines add the linkages created at the beginning of this code section. Order is significant here, the user will see the menu options in the order they are added. Notice that the 3rd menu option is really a bit of nothing, it\'s code is null but it serves to separate 2 groups of options on the Contextual Menu.
 
@@ -197,22 +260,9 @@ self.numericInput.setInputMask("999")
 self.numericInput.setText("000")
 self.numericInput.setFixedWidth(50)
 self.numericInput.move(250, 220)
-``` The creation of the field for numeric input really follows that for Text Input earlier. In fact the code is identical with exception of the 3rd and 4th lines. The 3rd line sets the Mask as defined by PySide, which in this case specifies up to 3 digits (which may include 0). A full list of the InputMask codes can be found at [QLineEdit InputMask](http://doc.qt.io/qt-5/qlineedit.html#inputMask-prop)
+```
 
-### Button Creation Part 2 
-
- 
-```python
-# cancel button
-cancelButton = QtGui.QPushButton('Cancel', self)
-cancelButton.clicked.connect(self.onCancel)
-cancelButton.setAutoDefault(True)
-cancelButton.move(150, 280)
-# OK button
-okButton = QtGui.QPushButton('OK', self)
-okButton.clicked.connect(self.onOk)
-okButton.move(260, 280)
-``` Both buttons are created with a name (which will appear as their label), associated with a method which will execute when they are clicked, and moved into position. The one exception is line 4 which specifies the \'Cancel\' button as the default button - that means it will be \"clicked\" if the user preses the **Return** key.
+The creation of the field for numeric input really follows that for Text Input earlier. In fact the code is identical with exception of the 3rd and 4th lines. The 3rd line sets the Mask as defined by PySide, which in this case specifies up to 3 digits (which may include 0). A full list of the InputMask codes can be found at [QLineEdit InputMask](http://doc.qt.io/qt-5/qlineedit.html#inputMask-prop)
 
 ### Window Display 
 
@@ -220,7 +270,9 @@ okButton.move(260, 280)
 ```python
 # now make the window visible
 self.show()
-``` There is only one line and it causes the GUI to be displayed after the setup.
+```
+
+There is only one line and it causes the GUI to be displayed after the setup.
 
 ## Code Based Discussion - Operative Portion 
 
@@ -233,7 +285,6 @@ There must be a one to one correspondance between the handlers specified in the 
 ### Generic Handler 
 
 In this code example, generic handlers handle the following events:
-
 -   onCheckbox1
 -   onCheckbox2
 -   onRadioButton1
@@ -246,19 +297,27 @@ In this code example, generic handlers handle the following events:
 -   onCancel
 -   onOk
 
-The general form for the handlers is:  
+
+
+The general form for the handlers is:
+
+ 
 ```python
 def handlerName(self):
     lineOfCode1
     lineOfCode2
-``` The first line has the keyword \"def\" followed by the handler name. The handler name must match the name from the earlier declarative section exactly. The parameter \"self\" is part of the standard syntax as are the enclosing parenthesis and the final colon character. Once the first line is finished then there are no requirements of the following code, it is purely application specific.
+```
+
+The first line has the keyword \"def\" followed by the handler name. The handler name must match the name from the earlier declarative section exactly. The parameter \"self\" is part of the standard syntax as are the enclosing parenthesis and the final colon character. Once the first line is finished then there are no requirements of the following code, it is purely application specific.
 
 ### Pop-Up Menu Handler 
 
  
 ```python
 def onPopup1(self, selectedText):
-``` The Pop-Up menu handler is the same as the generic handler with exception that a second parameter, the text selected by the user, is passed in. Remember that everything is text coming from the Pop-Up menu and even if the user has selected the number 3, it will be passed in as the string \"3\".
+```
+
+The Pop-Up menu handler is the same as the generic handler with exception that a second parameter, the text selected by the user, is passed in. Remember that everything is text coming from the Pop-Up menu and even if the user has selected the number 3, it will be passed in as the string \"3\".
 
 ### Mouse Event Handler 
 
@@ -273,7 +332,9 @@ def mousePressEvent(self, event):
         print("left mouse button")
     if self.label1.underMouse():
         print("over the text '"+self.label1.text()+"'")
-``` The Mouse Event handler is the same as the generic handler with exception that a second parameter, the mouse event (e.g. left-click, right-click) from the user is passed in. The name of the handler, \"mousePressEvent\", is reserved and if it is changed then the handler will no longer receive the event from the mouse presses.
+```
+
+The Mouse Event handler is the same as the generic handler with exception that a second parameter, the mouse event (e.g. left-click, right-click) from the user is passed in. The name of the handler, \"mousePressEvent\", is reserved and if it is changed then the handler will no longer receive the event from the mouse presses.
 
 The X and Y coordinates of the mouse press are given by the reference \"event.pos().x()\" and \"event.pos().y()\". The constants \"QtCore.Qt.LeftButton\" and \"QtCore.Qt.RightButton\" are used to determine which mouse button was pressed.
 
@@ -281,13 +342,19 @@ A reference to a widget can be made of the form \"self.widgetName.underMouse()\"
 
 ## Code Based Discussion - Main Routine 
 
-Most of the volume of code is in the GUI Class definition, there is not much in the main procedure.  
+Most of the volume of code is in the GUI Class definition, there is not much in the main procedure.
+
+ 
 ```python
 # Constant definitions
 global userCancelled, userOK
 userCancelled = "Cancelled"
 userOK = "OK"
-``` Lines 2,3 & 4 deal with coordinating the status of the user interaction with the GUI - e.g. Cancelled, OK, or any other application defined status. The handler routines On Cancel and OnOk earlier also set these statuses.  
+```
+
+Lines 2,3 & 4 deal with coordinating the status of the user interaction with the GUI - e.g. Cancelled, OK, or any other application defined status. The handler routines On Cancel and OnOk earlier also set these statuses.
+
+ 
 ```python
 form = ExampleGuiClass()
 form.exec_()
@@ -300,13 +367,17 @@ if form.result==userOK:
     localVariable2 = form.label2.text()
     localVariable3 = form.label3.text()
     localVariable4 = form.label4.text()
-``` Lines 1 and 2 show the method for invoking the GUI. There may be multiple GUI definitions for a program and also the GUI need not be invoked as the first thing in the Python file, it may be invoked at any point. The Name of the GUI Class is specified in line 1 (\"ExampleGuiClass\" in this case) but the rest of the 2 lines are to be copied verbatim.
+```
+
+Lines 1 and 2 show the method for invoking the GUI. There may be multiple GUI definitions for a program and also the GUI need not be invoked as the first thing in the Python file, it may be invoked at any point. The Name of the GUI Class is specified in line 1 (\"ExampleGuiClass\" in this case) but the rest of the 2 lines are to be copied verbatim.
 
 Lines 4 and 6 use the result field to determine the appropriate action. The last 4 lines simply show the copying of the data in the GUI object to variables local to the executing main procedure.
 
 ## Complete Modal Code Example 
 
-This is the complete code example (developed on FreeCAD v0.14):  
+This is the complete code example (developed on FreeCAD v0.14):
+
+ 
 ```python
 # import statements
 from PySide import QtGui, QtCore
@@ -509,7 +580,9 @@ if form.result==userOK:
 #SoQt version: 1.5.0
 #OCC version: 6.7.0
 #
-``` The best way to use this code is to copy it into an editor or FreeCAD macro file and play around with it.
+```
+
+The best way to use this code is to copy it into an editor or FreeCAD macro file and play around with it.
 
 ## Code Based Discussion - Nonmodal Code Example 
 
@@ -519,10 +592,14 @@ All of the widget specific from the previous modal example transfer to use in a 
 
 ### Import Statement 
 
-The mandatory Import statement  
+The mandatory Import statement
+
+ 
 ```python
 from PySide import QtGui, QtCore
-``` This is best placed at the top of the Python file.
+```
+
+This is best placed at the top of the Python file.
 
 ### Class Definition 
 
@@ -534,7 +611,9 @@ class ExampleNonmodalGuiClass(QtGui.QMainWindow):
         super(ExampleNonmodalGuiClass, self).__init__()
         self.initUI()
     def initUI(self):
-``` This code is best copied out verbatim and altered. The gist of the code is that we are sub-classing the QMainWindow Class of PySide. In adapting this code you will want to change the class name \"ExampleNonmodalGuiClass\" - make sure to change it in both locations (e.g. lines 1 & 4).
+```
+
+This code is best copied out verbatim and altered. The gist of the code is that we are sub-classing the QMainWindow Class of PySide. In adapting this code you will want to change the class name \"ExampleNonmodalGuiClass\" - make sure to change it in both locations (e.g. lines 1 & 4).
 
 ### Window Creation 
 
@@ -546,7 +625,9 @@ self.setGeometry(   250, 250, 400, 150)
 self.setWindowTitle("Our Example Nonmodal Program Window")
 self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
 self.setMouseTracking(True)
-``` Obviously our window dimensions and title are different. The main point to note is the last line which lets PySide know that it is to send out mouse position events as they happen. Note that these events will not be sent out when the mouse is over a widget like a button as the widget will capture the events.
+```
+
+Obviously our window dimensions and title are different. The main point to note is the last line which lets PySide know that it is to send out mouse position events as they happen. Note that these events will not be sent out when the mouse is over a widget like a button as the widget will capture the events.
 
 ### Mouse Move Event Handler 
 
@@ -554,14 +635,18 @@ self.setMouseTracking(True)
 ```python
 def mouseMoveEvent(self,event):
     self.label6.setText("X: "+str(event.x()) + " Y: "+str(event.y()))
-``` This handler receives the event of a Mouse Move and displays the formatted form of it. Test what happens when it is over widgets or outside of the window.
+```
+
+This handler receives the event of a Mouse Move and displays the formatted form of it. Test what happens when it is over widgets or outside of the window.
 
 ### Invoking the Window 
 
  
 ```python
 form = ExampleNonmodalGuiClass()
-``` Invoking the window is another area of difference from the previous example. This time only 1 line is needed for invoking the GUI.
+```
+
+Invoking the window is another area of difference from the previous example. This time only 1 line is needed for invoking the GUI.
 
 ## Complete Nonmodal Code Example 
 
@@ -669,7 +754,9 @@ screenHeight        = QtGui.QDesktopWidget().screenGeometry().height()
 # get dimensions for available space on screen
 availableWidth      = QtGui.QDesktopWidget().availableGeometry().width()
 availableHeight     = QtGui.QDesktopWidget().availableGeometry().height()
-``` Generally the \"availableHeight\" should be less than the \"screenHeight\" by the height of the menu bar. These 4 values are based on the hardware environment and will change from computer to computer. They are not dependent on any application window size.
+```
+
+Generally the \"availableHeight\" should be less than the \"screenHeight\" by the height of the menu bar. These 4 values are based on the hardware environment and will change from computer to computer. They are not dependent on any application window size.
 
 (Since Python 3.9 this warning appears when the above code is executed: **DeprecationWarning: QDesktopWidget.screenGeometry(int screen) const is deprecated**. A replacement seems to be needed from Python 3.10 onwards.)
 
@@ -701,7 +788,9 @@ mainWin.showMinimized() # FreeCAD will disappear from view after this command...
 mainWin.geometry()
 mainWin.frameSize()
 mainWin.frameGeometry()
-``` These same commands can be executed on a user generated window, the syntax does not change.
+```
+
+These same commands can be executed on a user generated window, the syntax does not change.
 
 
 

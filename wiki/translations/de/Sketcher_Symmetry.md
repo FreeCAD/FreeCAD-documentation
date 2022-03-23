@@ -10,6 +10,9 @@
 
 # Sketcher Symmetry/de
 
+
+</div>
+
 ## Beschreibung
 
 Spiegelt eine Skizzen Geometrie in Bezug zu einer ausgewählten Linie oder Skizzenachse.
@@ -23,10 +26,16 @@ Spiegelt eine Skizzen Geometrie in Bezug zu einer ausgewählten Linie oder Skizz
 Beachte, dass keine zusätzliche Symmetriebeschränkung hinzugefügt wird.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

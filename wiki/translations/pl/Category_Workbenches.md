@@ -19,9 +19,10 @@ This category lists workbenches included in FreeCAD.
 | [Category:FEM/pl](wiki/Category_FEM/pl.md) | [Category:Image/pl](wiki/Category_Image/pl.md) | [Category:Inspection/pl](wiki/Category_Inspection/pl.md) |
 | [Category:Mesh/pl](wiki/Category_Mesh/pl.md) | [Category:OpenSCAD/pl](wiki/Category_OpenSCAD/pl.md) | [Category:Part/pl](wiki/Category_Part/pl.md) |
 | [Category:Path/pl](wiki/Category_Path/pl.md) | [Category:Plot/pl](wiki/Category_Plot/pl.md) | [Category:Points/pl](wiki/Category_Points/pl.md) |
-| [Category:Raytracing/pl](wiki/Category_Raytracing/pl.md) | [Category:Robot/pl](wiki/Category_Robot/pl.md) | [Category:Ship/pl](wiki/Category_Ship/pl.md) |
-| [Category:Start/pl](wiki/Category_Start/pl.md) | [Category:Surface/pl](wiki/Category_Surface/pl.md) | [Category:TechDraw/pl](wiki/Category_TechDraw/pl.md) |
-| [Category:Test Framework/pl](wiki/Category_Test Framework/pl.md) |
+| [Category:Raytracing/pl](wiki/Category_Raytracing/pl.md) | [Category:Reverse Engineering/pl](wiki/Category_Reverse Engineering/pl.md) | [Category:Robot/pl](wiki/Category_Robot/pl.md) |
+| [Category:Ship/pl](wiki/Category_Ship/pl.md) | [Category:Spreadsheet/pl](wiki/Category_Spreadsheet/pl.md) | [Category:Start/pl](wiki/Category_Start/pl.md) |
+| [Category:Surface/pl](wiki/Category_Surface/pl.md) | [Category:TechDraw/pl](wiki/Category_TechDraw/pl.md) | [Category:Test Framework/pl](wiki/Category_Test Framework/pl.md) |
+|
 
 
 

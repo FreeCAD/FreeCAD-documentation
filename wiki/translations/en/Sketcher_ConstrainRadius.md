@@ -1,8 +1,9 @@
 ---
 - GuiCommand:
    Name:Sketcher ConstrainRadius
-   MenuLocation:Sketch → Sketcher constraints → Constrain radius
+   MenuLocation:Sketch → Sketcher constraints → Constrain radius or weight
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**K** **R**
    SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
 ---
 
@@ -45,7 +46,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -43,7 +43,7 @@ când pornește instrumentul, indicatorul mouse-ului se schimbă într-o cruce a
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -16,7 +16,13 @@
 
 <img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
 
+
+<div class="mw-translate-fuzzy">
+
 La herramienta Referencia permite colocar un objeto en el documento actual que copia su forma y colores de un objeto basado en [Part](Part_Workbench.md) (incluyendo [Arch BuildingPart](Arch_BuildingPart.md)) almacenado en otro archivo de FreeCAD. Si ese archivo de FreeCAD cambia, el objeto de referencia se marca para ser recargado.
+
+
+</div>
 
 ## Utilización
 

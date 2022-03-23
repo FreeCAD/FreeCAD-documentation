@@ -179,13 +179,29 @@ Il y a beaucoup de documentation répartie à différents endroits, à la fois s
 
 ### Je veux importer/exporter des données au format XYZ de/vers FreeCAD. Comment faire ? 
 
+
+<div class="mw-translate-fuzzy">
+
 Référez vous à la page [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md). Peut-être que vos questions y trouveront une réponse.
+
+
+</div>
+
+### Where can I find workarounds for features that FreeCAD currently does not support? 
+
+Please refer to the [Workarounds](Workarounds.md) page.
 
 ## Travailler avec la géométrie de Part 
 
 ### Comment puis-je extruder des formes dans des solides ? Je n\'ai pas le résultat attendu 
 
-En théorie, c\'est très simple : les lignes (ou les fils), une fois extrudés, forment des faces. Les faces une fois extrudées forment des solides. Si vous extrudez quelque chose et que le résultat n\'est pas un solide, alors ce quelque chose n\'était pas une face. Si vous avez des lignes et que vous voulez extruder un solide à partir de celles-ci, vous devez d\'abord sélectionner des lignes qui forment un périmètre fermé (sélectionnez plusieurs objets en appuyant sur **Ctrl**), les joindre en un fil ([Draft Mettre à niveau](Draft_Upgrade/fr.md)), puis faire une face à partir de ce fil (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> Outil Draft Mettre à niveau à nouveau). Et voilà, si tout s\'est bien passé, vous pouvez maintenant l\'extruder en un solide.
+
+<div class="mw-translate-fuzzy">
+
+En théorie, c\'est très simple : les lignes (ou les fils), une fois extrudés, forment des faces. Les faces une fois extrudées forment des solides. Si vous extrudez quelque chose et que le résultat n\'est pas un solide, alors ce quelque chose n\'était pas une face. Si vous avez des lignes et que vous voulez extruder un solide à partir de celles-ci, vous devez d\'abord sélectionner des lignes qui forment un périmètre fermé (sélectionnez plusieurs objets en appuyant sur **Ctrl**), les joindre en un fil ([Draft Agréger](Draft_Upgrade/fr.md)), puis faire une face à partir de ce fil (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> Outil Draft Agréger à nouveau). Et voilà, si tout s\'est bien passé, vous pouvez maintenant l\'extruder en un solide.
+
+
+</div>
 
 Maintenant, il peut y avoir de nombreux petits détails qui feront obtenir un mauvais résultat. La meilleure façon de faire, est de vérifier que tout ce qu\'il y a dans votre forme peut être extrudé. Le contenu des objets peut être facilement exploré grâce à des procédures en Python. En supposant par exemple que vous ayez un objet appelé \"Wire\", vous pouvez taper ceci dans la console Python:
 

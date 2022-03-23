@@ -87,6 +87,8 @@ Postoji još jedna tablica sadržaja za[FreeCAD Uputstva](Manual:Introduction/hr
 
 -   [FAQ](Frequently_asked_questions.md)
 
+-   [Workarounds](Workarounds.md)
+
 -   [Tutorials](Tutorials.md)
 
 

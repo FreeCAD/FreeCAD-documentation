@@ -112,7 +112,7 @@ Strona [skrypty szkicownika](Sketcher_scripting.md) wyjaśnia wartości, które 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

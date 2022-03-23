@@ -36,7 +36,7 @@ Jede auf ein [Arch Fenster](Arch_Window/de.md) zutreffende Information gilt auch
 4.  In der [3D Ansicht](3D_view/de.md), Bewege das Fenster an die Stelle, an der du es platzieren möchtest. Wenn du den Mauszeiger über eine [Arch Wand](Arch_Wall/de.md) bewegst, sollte sich der Umriss des Fensters an der Fläche dieses Objekts ausrichten.
 5.  Klick auf die [3D Ansicht](3D_view/de.md) mit der Maus oder drücke die **Eingabe** Taste dreimal, um die X, Y, Z Koordinaten der Platzierung zu bestätigen.
 
-#### Additional presets 
+#### Zusätzliche Voreinstellungen 
 
 
 <div class="mw-translate-fuzzy">
@@ -196,20 +196,12 @@ Du kannst einen beliebig anderen Arbeitsablauf verwenden, solange du folgende wi
 
 -    {{PropertyData/de|Symbol Elevation}}: Zeigt 2D-Symbole für \"zu öffnend\" in Seitenansichten
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Skripten
 
 
 **Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
 
 Das Fensterwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
 
@@ -258,15 +250,6 @@ Door = Arch.makeWindowPreset("Simple door",
                              h1=100, h2=100, h3=100, w1=200, w2=100, o1=0, o2=100,
                              placement=place)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

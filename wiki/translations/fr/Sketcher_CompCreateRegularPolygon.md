@@ -15,19 +15,19 @@
 
 ## Types de polygones réguliers 
 
--   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Créer un triangle équilateral](Sketcher_CreateTriangle.md) : Trace un triangle équilateral en cliquant deux points, le centre et un sommet.
--   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> [Créer un carré](Sketcher_CreateSquare.md) : Trace un carré équilateral en cliquant deux points, le centre et un sommet.
--   <img alt="" src=images/Sketcher_CreatePentagon.svg  style="width:32px;"> [Créer un pentagone](Sketcher_CreatePentagon.md) : Trace un pentagone en cliquant deux points, le centre et un sommet.
--   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:32px;"> [Créer un hexagone](Sketcher_CreateHexagon.md) : Trace un hexagone en cliquant deux points, le centre et un sommet.
--   <img alt="" src=images/Sketcher_CreateHeptagon.svg  style="width:32px;"> [Créer un heptagone](Sketcher_CreateHeptagon.md) : Trace un heptagone en cliquant deux points, le centre et un sommet.
--   <img alt="" src=images/Sketcher_CreateOctagon.png  style="width:32px;"> [Créer un octogone](Sketcher_CreateOctagon.md) : Trace un octogone en cliquant deux points, le centre et un sommet.
--   <img alt="" src=images/Sketcher_CreateRegularPolygon.png  style="width:32px;"> [Créer un polygone régulier](Sketcher_CreateRegularPolygon.md) : Trace un polygone régulier en définissant le nombre de côtés puis en cliquant deux points, le centre et un sommet.
+-   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Triangle](Sketcher_CreateTriangle/fr.md) : Trace un triangle équilateral en cliquant deux points, le centre et un sommet.
+-   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> [Carré](Sketcher_CreateSquare/fr.md) : Trace un carré équilateral en cliquant deux points, le centre et un sommet.
+-   <img alt="" src=images/Sketcher_CreatePentagon.svg  style="width:32px;"> [Pentagone](Sketcher_CreatePentagon/fr.md) : Trace un pentagone en cliquant deux points, le centre et un sommet.
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:32px;"> [Hexagone](Sketcher_CreateHexagon/fr.md) : Trace un hexagone en cliquant deux points, le centre et un sommet.
+-   <img alt="" src=images/Sketcher_CreateHeptagon.svg  style="width:32px;"> [Heptagone](Sketcher_CreateHeptagon/fr.md) : Trace un heptagone en cliquant deux points, le centre et un sommet.
+-   <img alt="" src=images/Sketcher_CreateOctagon.png  style="width:32px;"> [Octogone](Sketcher_CreateOctagon/fr.md) : Trace un octogone en cliquant deux points, le centre et un sommet.
+-   <img alt="" src=images/Sketcher_CreateRegularPolygon.png  style="width:32px;"> [Polygone régulier](Sketcher_CreateRegularPolygon/fr.md) : Trace un polygone régulier en définissant le nombre de côtés puis en cliquant deux points, le centre et un sommet.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

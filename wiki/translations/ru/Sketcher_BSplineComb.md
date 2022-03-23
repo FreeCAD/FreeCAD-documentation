@@ -21,14 +21,26 @@
 
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Выберите B-сплайн
 2.  Используйте кнопку панели инструментов **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Показать/скрыть гребень кривизны B-сплайна](Sketcher_BSplineComb/ru.md)**, либо выберите пункт меню **Sketch → B-сплйан инструменты эскиза → Показать/скрыть гребень кривизны B-сплайна**.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

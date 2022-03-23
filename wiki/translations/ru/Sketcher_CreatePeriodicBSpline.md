@@ -10,6 +10,9 @@
 
 # Sketcher CreatePeriodicBSpline/ru
 
+
+</div>
+
 ## Описание
 
 
@@ -54,10 +57,16 @@
 -   Форма кривой B-сплайна может быть отредактирована только путем перетаскивания одной из контрольных точек. Узлы, лежащие на кривой, не могут быть выбраны.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

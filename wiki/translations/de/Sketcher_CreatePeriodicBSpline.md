@@ -10,6 +10,9 @@
 
 # Sketcher CreatePeriodicBSpline/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine periodische (geschlossene) B-Spline-Kurve auf. (Siehe [diese Seite](B-Splines/de.md) für mehr Informationen über B-Splines).
@@ -44,10 +47,16 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine periodische (geschl
 -   Die Form einer B-Splinekurve kann nur durch Ziehen eines der Kontrollpunkte bearbeitet werden. Die auf der Kurve liegenden Knoten können nicht ausgewählt werden.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

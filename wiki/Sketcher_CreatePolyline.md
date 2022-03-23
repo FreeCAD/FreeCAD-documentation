@@ -3,6 +3,7 @@
    Name:Sketcher CreatePolyline
    MenuLocation:Sketch → Sketcher geometries → Create polyline
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **M**
    SeeAlso:[Sketcher Line](Sketcher_CreateLine.md)
 ---
 
@@ -40,7 +41,7 @@ The polyline always starts with a straight line segment: click - move the mouse 
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

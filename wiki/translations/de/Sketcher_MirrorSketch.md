@@ -24,7 +24,13 @@ Hinweise:
 -   Mehrere Skizzen können vor Anwenden der Operation ausgewählt werden.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

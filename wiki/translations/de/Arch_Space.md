@@ -141,22 +141,6 @@ Arch.removeSpaceBoundaries(Space, selection)
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/de
-|[Dach](Arch_Roof/de.md)
-|[Treppe](Arch_Stairs/de.md)
-|[Arch-Arbeitsbereich](Arch_Workbench/de.md)
-|IconL=Arch_Roof.svg
-|IconR=Arch_Stairs.svg
-|IconC=Workbench_Arch.svg
-}}
-
-
-</div>
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/de

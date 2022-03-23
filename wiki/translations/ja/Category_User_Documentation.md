@@ -25,10 +25,10 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Source documentation/ja](wiki/Source documentation/ja.md) | [Std About/ja](wiki/Std About/ja.md) | [Std New/ja](wiki/Std New/ja.md) |
 | [Std Open/ja](wiki/Std Open/ja.md) | [Std ViewScreenShot/ja](wiki/Std ViewScreenShot/ja.md) | [Surface Workbench/ja](wiki/Surface Workbench/ja.md) |
 | [TechDraw Workbench/ja](wiki/TechDraw Workbench/ja.md) | [Third Party Libraries/ja](wiki/Third Party Libraries/ja.md) | [Third Party Tools/ja](wiki/Third Party Tools/ja.md) |
-| [Tracker/ja](wiki/Tracker/ja.md) | [Template:TutorialInfo/ja](wiki/Template_TutorialInfo/ja.md) | [User hub/ja](wiki/User hub/ja.md) |
-| [Workbenches/ja](wiki/Workbenches/ja.md) | [Category:Arch/ja](wiki/Category_Arch/ja.md) | [Category:BIM/ja](wiki/Category_BIM/ja.md) |
-| [Category:Draft/ja](wiki/Category_Draft/ja.md) | [Category:Macros/ja](wiki/Category_Macros/ja.md) | [Category:Mesh/ja](wiki/Category_Mesh/ja.md) |
-| [Category:Points/ja](wiki/Category_Points/ja.md) | [Category:Workbenches/ja](wiki/Category_Workbenches/ja.md) |
+| [Tracker/ja](wiki/Tracker/ja.md) | [User hub/ja](wiki/User hub/ja.md) | [Workbenches/ja](wiki/Workbenches/ja.md) |
+| [Category:Arch/ja](wiki/Category_Arch/ja.md) | [Category:BIM/ja](wiki/Category_BIM/ja.md) | [Category:Draft/ja](wiki/Category_Draft/ja.md) |
+| [Category:Macros/ja](wiki/Category_Macros/ja.md) | [Category:Mesh/ja](wiki/Category_Mesh/ja.md) | [Category:Points/ja](wiki/Category_Points/ja.md) |
+| [Category:Tutorials/ja](wiki/Category_Tutorials/ja.md) | [Category:Workbenches/ja](wiki/Category_Workbenches/ja.md) |
 
 
 

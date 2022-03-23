@@ -4,7 +4,7 @@
    Name/pl:Szkicownik: Utwórz zaokrąglenie
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz zaokrąglenie
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**F**
+   Shortcut:**G** **F** **F**
 ---
 
 # Sketcher CreateFillet/pl
@@ -27,7 +27,7 @@ Po uruchomieniu narzędzia zaznaczenia są usuwane, a kursor myszki zmienia się
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

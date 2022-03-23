@@ -40,7 +40,7 @@ Acest instrument creează un arc de hiperbola definit prin centru, rază majoră
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -4,7 +4,7 @@
    Name/pl:Płaszczyzna przecinająca
    MenuLocation:Widok → Płaszczyzna tnąca‏‎
    Workbenches:wszystkie
-   SeeAlso:-
+   SeeAlso:[Wycinek przekroju](Part_SectionCut/pl.md)
 ---
 
 # Std ToggleClipPlane/pl
@@ -43,7 +43,7 @@ Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

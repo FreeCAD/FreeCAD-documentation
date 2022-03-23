@@ -17,7 +17,7 @@ Wstawia węzeł do istniejącej [krzywej złożonej](B-Splines/pl.md). Jeśli pr
 ## Użycie
 
 1.  Wybierz krzywą złożoną, a następnie albo:
-    -   Naciśnij przycisk **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [Wstaw węzeł krzywej zlożonej](Sketcher_BSplineInsertKnot/pl.md)**.
+    -   Naciśnij przycisk **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [Wstaw węzeł krzywej złożonej](Sketcher_BSplineInsertKnot/pl.md)**.
     -   Użyj menu **Szkic → Narzędzia szkicownika krzywej złożonej → [<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> Wstaw węzeł**.
 2.  Przesuń kursor do żądanego miejsca, w którym ma zostać utworzony nowy punkt węzła i kliknij, aby wstawić węzeł. Wartość parametryczna węzła jest wyświetlana jako odniesienie.
 3.  Opcjonalnie powtórz powyższy krok, aby utworzyć więcej węzłów.

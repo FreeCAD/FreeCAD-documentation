@@ -20,8 +20,14 @@ Dieses Werkzeug löscht die gesamte Geometrie aus der zu bearbeitenden Skizze.
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Gehe zum **Skizze → Skizziererwerkzeuge → [<img src=images/Sketcher_DeleteAllGeometry.svg style="width:16px"> Ganze Geometrie löschen** Menü.
 2.  Antworte **Ja** auf das Aufklapp Dialogfeld.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -33,7 +39,7 @@ Dieses Werkzeug löscht die gesamte Geometrie aus der zu bearbeitenden Skizze.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

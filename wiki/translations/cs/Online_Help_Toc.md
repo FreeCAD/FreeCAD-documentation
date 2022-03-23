@@ -89,6 +89,8 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
 
 -   [FAQ](Frequently_asked_questions.md)
 
+-   [Workarounds](Workarounds.md)
+
 -   [Tutorials](Tutorials.md)
 
 -   Customizing FreeCAD

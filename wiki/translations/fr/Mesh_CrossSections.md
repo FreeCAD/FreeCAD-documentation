@@ -42,7 +42,7 @@ La commande **Mesh Coupes** crée plusieurs coupes transversales sur les objets 
         : si coché, des coupes sont créées des deux côtés du plan de guidage.
 
     -   
-        **Count**
+        **Nombre**
         
         : le nombre de sections transversales.
 

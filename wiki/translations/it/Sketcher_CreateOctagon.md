@@ -50,7 +50,7 @@ Quando si edita lo schizzo il cerchio circoscritto è visibile, quando si chiude
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

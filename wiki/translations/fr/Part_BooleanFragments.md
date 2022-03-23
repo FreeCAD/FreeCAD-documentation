@@ -20,7 +20,7 @@ Outil permettant de calculer tous les fragments pouvant résulter de l\'applicat
 
 *Dans l'image ci-dessus, les pièces ont été déplacées manuellement après, pour révéler la fragmentation.*
 
-La forme de sortie est toujours un composé. Le contenu du composé dépend des types de forme et du mode opératoire. Cela signifie que vous n\'avez pas immédiatement accès aux éléments individuels du résultat - ceux-ci restent regroupés. Les pièces individuelles peuvent être extraites en faisant exploser le composé ([Draft Rétrograder](Draft_Downgrade/fr.md)).
+La forme de sortie est toujours un composé. Le contenu du composé dépend des types de forme et du mode opératoire. Cela signifie que vous n\'avez pas immédiatement accès aux éléments individuels du résultat - ceux-ci restent regroupés. Les pièces individuelles peuvent être extraites en faisant exploser le composé ([Draft Désagréger](Draft_Downgrade/fr.md)).
 
 L\'outil comporte trois modes : \"Standard\", \"Split\" (fractionné) et \"CompSolid\" (composé de solides).
 

@@ -2,7 +2,8 @@
 - GuiCommand:
    Name:Sketcher ViewSection
    MenuLocation:Sketch → View section
-   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md) 
+   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   Shortcut:**Q** **S**
    Version:0.18
 ---
 
@@ -26,7 +27,7 @@ Several ways to invoke this command:
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

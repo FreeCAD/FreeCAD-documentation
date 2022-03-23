@@ -5,10 +5,10 @@ Il y a plusieurs onglets dans les préférences de l\'atelier FEM, en commençan
 
 Les solveurs externes actuellement acceptés sont :
 
--   CalculiX
--   Gmsh
--   Z88
--   Elmer
+-   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [CalculiX](FEM_SolverCalculixCxxtools/fr.md)
+-   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer/fr.md)
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran/fr.md) {{Version/fr|0.20}}
+-   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Z88](FEM_SolverZ88/fr.md)
 
 ## Général
 

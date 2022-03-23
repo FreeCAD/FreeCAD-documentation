@@ -17,12 +17,24 @@
 
 Il vincolo **Fissa** blocca un elemento geometrico in posizione con un singolo vincolo.
 
+
+<div class="mw-translate-fuzzy">
+
 Il suo scopo principale è quello di lavorare con le <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:16px;"> [B-Splines](Sketcher_CreateBSpline/it.md) che altrimenti possono essere difficili da vincolare completamente.
+
+
+</div>
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare un elemento da vincolare.
 2.  Premere il pulsante **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> Fissa**.
+
+
+</div>
 
 Oppure premere prima il pulsante, quindi selezionare gli elementi.
 
@@ -43,7 +55,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

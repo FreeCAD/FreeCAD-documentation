@@ -10,6 +10,9 @@
 
 # Sketcher Symmetry/ru
 
+
+</div>
+
 ## Описание
 
 Mirrors sketcher geometry in reference to a chosen line or sketch axis.
@@ -23,10 +26,16 @@ Mirrors sketcher geometry in reference to a chosen line or sketch axis.
 Note that no extra symmetry constraint will be added.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

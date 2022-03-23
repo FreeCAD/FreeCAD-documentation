@@ -19,15 +19,27 @@ Wählt die horizontale Achse einer Skizze aus.
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Gehe in den Bearbeitungsmodus der Skizze.
 2.  Wähle **Skizze → Skizzierwerkzeuge → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px">  Wähle Horizontale Achse** aus dem oberen Menü.
 3.  Die horizontale Achse der Skizze wird ausgewählt.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

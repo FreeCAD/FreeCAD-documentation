@@ -25,7 +25,7 @@ Polecenie opuszczenia szkicu kończy tryb edycji szkicu i zamyka zakładkę [pan
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

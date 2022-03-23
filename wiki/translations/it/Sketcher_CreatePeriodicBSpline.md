@@ -73,7 +73,7 @@ Questo strumento traccia una curva B-spline periodica (chiusa) dai suoi punti di
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

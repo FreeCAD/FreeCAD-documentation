@@ -64,7 +64,7 @@ Lo strumento **Estendi bordo** estende un bordo fino ad una posizione arbitraria
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

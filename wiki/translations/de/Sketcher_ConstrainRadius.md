@@ -9,6 +9,9 @@
 
 # Sketcher ConstrainRadius/de
 
+
+</div>
+
 ## Beschreibung
 
 Diese Beschränkung beschränkt den Wert des Radius eines Kreises oder Bogens um einen bestimmten Wert zu haben. Wenn vor dem Start des Befehls mehr als ein Kreis oder Bogen ausgewählt wurde:
@@ -43,10 +46,16 @@ NB: B-Spline Pole können nicht mit anderen Objekttypen in der Auswahl gemischt 
 Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die für `ArcOrCircle` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

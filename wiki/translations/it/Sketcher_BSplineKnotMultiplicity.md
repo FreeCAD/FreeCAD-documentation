@@ -46,7 +46,7 @@ Mostra o nasconde la visualizzazione della molteplicità di nodi di una curva B-
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

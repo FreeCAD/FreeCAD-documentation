@@ -10,6 +10,9 @@
 
 # Sketcher ToggleDrivingConstraint/ru
 
+
+</div>
+
 ## Описание
 
 The **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Toggle driving constraint](Sketcher_ToggleDrivingConstraint.md)** tool turns dimensional constraints (Lock, Horizontal/Vertical distance, Length, Radius and Angle) into reference mode, and back. The icons in the toolbar turn blue, and rather than dimensional constraints, reference dimensions are created. Reference dimensions do not constrain the sketch. It can be useful to create reference dimensions in a sketch as a way to check on measurements; when given a name, they can also be used to drive constraints in another sketch through [expressions](Expressions.md).
@@ -28,10 +31,16 @@ The **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> 
 4.  To turn a dimensional constraint into a reference dimension, or the reverse, select it and press the Toggle Constraint button.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

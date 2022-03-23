@@ -54,7 +54,7 @@ where \"X\" is the number of degrees of freedom remaining in the sketch; you wil
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -10,6 +10,9 @@
 
 # Sketcher CreateLine/es
 
+
+</div>
+
 ## Descripción
 
 Esta herramienta dibuja una línea indicando dos puntos en la vista 3D. Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de línea rojo. Además se muestran las coordenadas en tiempo real.

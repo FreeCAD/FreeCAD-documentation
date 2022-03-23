@@ -31,7 +31,7 @@ Seleziona gli elementi dello schizzo che sono associati a determinati vincoli
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

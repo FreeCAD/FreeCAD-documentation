@@ -56,6 +56,8 @@ pq('sin(pi)')
 b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 ```
 
+## Supported units 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -80,21 +82,45 @@ En esta propuesta, se requiere en la sección [Tormenta de ideas](Units/es#Torme
 
 En la sección [Organización](Units/es#Organización.md), presentamos el modelo de datos retenido para lograr la gestión de unidades, basado en 3 objetos, la *unidad*, el *diccionario de unidades*, y el *sistema de unidades*. Finalmente, también se presenta una breve API de un cuarto objeto denominado *gestor de unidades*.
 
+## Outcome
+
+
+<div class="mw-translate-fuzzy">
+
 ## Resultado
 
 Gracias a esta extensión, una de las intenciones es hacer más sencillo el escalado de unidades que puede suceder entre diferentes tareas. Por ejemplo, los dibujos técnicos se pueden realizar en el sistema de unidades estándar, mientras que el modelado para elementos finitos se puede gestionar en un sistema de unidades que se ajuste mejor a él.
 
+
+</div>
+
 El intercambio de datos entre estos dos tipos de actividades se hace más sencilla con esta extensión.
+
+## Brainstorming
+
+
+<div class="mw-translate-fuzzy">
 
 ## Tormenta de ideas 
 
 En esta sección se destacan los contextos del uso del sistema de gestión de unidades. Desde estops contextos, podemos definir sus especificaciones técnicas.
 
+
+</div>
+
 Esencialmente se dan 2 contextos como ejemplo.
+
+### Context 1: opening a data file 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Contexto 1: Apertura de un archivo de datos 
 
 Este es posiblemente el caso más frecuente. Recibes un archivo que contiene por ejemplo un modelo geométrico, o describiendo un material con bastantes propiedades. El modelo geométrico se expresa en metros, o las propiedades del material de acuerdo al sistema internacional de unidades.
+
+
+</div>
 
 Que mal..
 
@@ -102,15 +128,33 @@ Esperabas un modelado para cálculo por elementos finitos, y trabajas en milimet
 
 En este contexto, la gestión de unidades se requiere para escalar los datos de un sistema de unidades inicial definido en el archivo de entrada a un sistema de unidades objetivo definido por el usuario.
 
+### Context 2: switching the unit system at runtime 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Contexto 2: Cambiando el sistema de unidades durante la ejecución 
 
 En este caso, puedes ser al mismo tiempo el que realiza el dibujo, y el que maneja el modelo para cálculo por elementos finitos. De modo similar al caso anterior, el sistema de unidades para estas dos tareas no es la misma, y necesitas cambiar el sistema de unidades inicial a tu preferido en tiempo de ejecución.
 
+
+</div>
+
 ## Organización
+
+### Logic of unit scaling 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Escalado lógico de unidades 
 
 En la sección [Tormenta de ideas](Units/es#Tormenta_de_ideas.md) se han presentado 2 contextos de utilización del escalado de unidades. Algunos aspectos deberían destacarse de estos dos contextos.
+
+
+</div>
+
+#### Unit coherence throughout the FreeCAD running instance 
 
 
 <div class="mw-translate-fuzzy">
@@ -122,6 +166,11 @@ El sistema propuesto está basado en una suposición fundamental: el usuario est
 
 </div>
 
+#### Unit system 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Sistema de unidades 
 
 Debido a la *hipótesis uno*, es posible y relevante definir un sistema de unidades. Un sistema de unidades se aplica a:
@@ -130,6 +179,9 @@ Debido a la *hipótesis uno*, es posible y relevante definir un sistema de unida
 -   o se puede aplicar globalmente al contexto de un archivo de entrada
 
 De acuerdo con la [Guía para el uso del Sistema Internacional de Unidades (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) de NIST, hay 7 unidades físicas base. Seleccionamos expresar un sistema de unidades en términos de dichas 7 unidades base.
+
+
+</div>
 
 Cuando se trabaja en una instancia de FreeCAD, el usuario de este modo tiene que definir primero el sistema de unidades de acuerdo al cual está trabajando antes de decidir cambiar a otro sistema de unidades, o antes de importar datos de un archivo de entrada.
 
@@ -146,11 +198,24 @@ Estos son algunos ejemplos de sistemas de unidades.
 -   milímetro, kilogramo, milisegundo, amperio, Kelvin, mol, candela
 -   \...
 
+#### Base and derived units 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Unidades base y derivadas 
 
 Las unidades derivadas son creadas por combinación de las unidades base. Por ejemplo, una velocidad (m/s) combina la longitud y el tiempo. Una interesante imagen presentando la relación entre las unidades base y las derivadas se puede ver [aquí](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf) también de NIST.
 
+
+</div>
+
 Gracias a la definición del *sistema de unidades*, es posible para el usuario trabajar con cualquier tipo de unidades derivadas, sin necesidad de que los desarrolladores de FreeCAD lo tengan previsto por anticipado.
+
+#### Base and derived unit symbols 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Símbolos de unidades base y derivadas 
 
@@ -159,17 +224,41 @@ De acuerdo al [Sistema internacional de unidades (SI)](http://physics.nist.gov/P
 -   No es sencillo para un programa informático trabajar con símbolos de unidades porque por ejemplo algunos utilizan letras griegas. De ahí que puedan ser algo difíciles de procesar por un programa
 -   Mientras que algunas unidades y sus símbolos se pueden utilizar ampliamente, pueden no estar aprobados oficialmente, como por ejemplo la unidad *tonelada* (mira la página 32 del [Sistema Internacional de unidades (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf))
 
+
+</div>
+
 Para superar estas limitaciones y permanecer flexible, el sistema propuesto está a favor del uso de unidades de magnitud en lugar de símbolos de unidades, el cual se mantiene no obstante por razones de ergonomía.
+
+### Data model 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Modelo de datos 
 
 Los tres objetos principales del sistema de gestión de unidades se han presentado, denominándose *unidad*, *diccionario de unidades* y *sistema de unidades*.
 
+
+</div>
+
+#### Unit
+
+
+<div class="mw-translate-fuzzy">
+
 #### Unidad
 
 As a foreword, it is important to highlight that a *unit* object in itself only indicates a **dimension** like length, mass, time\... It doesn\'t specify a **magnitude** like meter, millimeter, kilometer\... This last information is specified through the unit system.
 
+
+</div>
+
 ##### Dimension
+
+
+<div class="mw-translate-fuzzy">
+
+##### Dimension 
 
 Compulsory string indicating the *dimension* of the unit. The *dimension* of the 7 base units are indicated below (from [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)).
 
@@ -180,6 +269,9 @@ Compulsory string indicating the *dimension* of the unit. The *dimension* of the
 -   THERMODYNAMIC TEMPERATURE
 -   AMOUNT OF SUBSTANCE
 -   LUMINOUS INTENSITY
+
+
+</div>
 
 *Dimension* attribute allows identifying the unit. Two units cannot share the same *dimension*.
 

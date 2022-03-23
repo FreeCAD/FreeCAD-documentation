@@ -88,6 +88,8 @@
 
 -   [FAQ](Frequently_asked_questions.md)
 
+-   [Workarounds](Workarounds.md)
+
 -   [Tutorials](Tutorials.md)
 
 

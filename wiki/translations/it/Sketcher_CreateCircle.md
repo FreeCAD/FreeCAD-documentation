@@ -28,7 +28,7 @@ Quando lo strumento è attivo, il puntatore del mouse assume la forma di croce b
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

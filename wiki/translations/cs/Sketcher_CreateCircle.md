@@ -26,7 +26,7 @@ Tento nástroj nakreslí kružnici zadáním dvou bodů: střed a bod na polomě
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

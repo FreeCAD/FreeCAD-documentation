@@ -4,7 +4,7 @@
    Name/pl:Szkicownik: Utwórz łuk przez 3 punkty
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz łuk przez 3 punkty
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:
+   Shortcut:**G** **3** **A**
    SeeAlso:
 ---
 
@@ -25,7 +25,7 @@ Po uruchomieniu narzędzia kursor myszki zmienia się w biały krzyżyk z czerwo
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

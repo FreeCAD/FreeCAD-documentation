@@ -15,7 +15,7 @@ La commande **Mesh Solide régulier** crée un solide paramétrique, maillé ré
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Construire un solide régulier](Mesh_BuildRegularSolid/fr.md)
+    -   Appuyez sur le bouton **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Solide régulier...](Mesh_BuildRegularSolid/fr.md)
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Solide régulier...** dans le menu.
 2.  La boîte de dialogue **Solide régulier** s\'ouvre.

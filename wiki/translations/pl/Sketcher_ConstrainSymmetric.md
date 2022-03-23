@@ -4,7 +4,7 @@
    Name/pl:Szkicownik: Wiązanie symetrii
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie symetrii
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:S
+   Shortcut:**S**
    SeeAlso:[Wiązanie równoległości](Sketcher_ConstrainParallel/pl.md)
 ---
 
@@ -61,7 +61,7 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

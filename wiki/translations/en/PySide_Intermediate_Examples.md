@@ -1,8 +1,7 @@
 # PySide Intermediate Examples/en
-## Introduction
-
-
 {{TOCright}}
+
+## Introduction
 
 This page covers medium level examples of the [PySide](PySide.md) GUI manager (accompanying pages cover aspects that are both less or more advanced, [Beginner PySide Examples](PySide_Beginner_Examples.md) and [Advanced PySide Examples](PySide_Advanced_Examples.md)). In this page an example program is used to cover the different PySide topics. The intention is to present some functional PySide code so anyone who needs to use PySide can copy out the relevant section, modify and adapt it to their own purposes.
 
@@ -26,10 +25,14 @@ Most of the remainder of this section will describe the contents of the Class de
 
 ### Import Statement 
 
-The mandatory Import statement 
+The mandatory Import statement
+
+
 ```python
 from PySide import QtGui, QtCore
-``` This is best placed at the top of the Python file.
+```
+
+This is best placed at the top of the Python file.
 
 ### Class Definition 
 
@@ -142,12 +145,16 @@ self.popup1.move(210, 115)
 
 In line 2 a list is built up of what will be the user choices. An alternative is to build up a Dictionary but only use the Keys for the list of menu choices. Line 4 creates the pop-up menu (known as a ComboBox to PySide), the user options are added in line 5.
 
-As a side note, if the Dictionary was used then the lines would appear as: 
+As a side note, if the Dictionary was used then the lines would appear as:
+
+
 ```python
 self.popupItems1 = OrderedDict([("2","widget"),("pink","foobar"),("4","galopsis")])
 
 self.popup1.addItems(self.popupItems1.keys())
-``` Returning to the main code sample for this section, line 6 sets the default choice, this line may be omitted, also the value of the default choice could be loaded into the corresponding Label (once again if appropriate). And finally the move into position at line 8.
+```
+
+Returning to the main code sample for this section, line 6 sets the default choice, this line may be omitted, also the value of the default choice could be loaded into the corresponding Label (once again if appropriate). And finally the move into position at line 8.
 
 ### Button Creation Part 1 
 
@@ -162,6 +169,23 @@ pushButton1.move(210, 165)
 
 The button is created in line 2 with it\'s name, the handler for it\'s signal when clicked is specified in line 3. Line 4 is there to prevent the button from becoming the \'default button\' - the button that will be clicked if the user simply presses the **Return** key. And a move to position finished up the code segment.
 
+### Button Creation Part 2 
+
+
+```python
+# cancel button
+cancelButton = QtGui.QPushButton('Cancel', self)
+cancelButton.clicked.connect(self.onCancel)
+cancelButton.setAutoDefault(True)
+cancelButton.move(150, 280)
+# OK button
+okButton = QtGui.QPushButton('OK', self)
+okButton.clicked.connect(self.onOk)
+okButton.move(260, 280)
+```
+
+Both buttons are created with a name (which will appear as their label), associated with a method which will execute when they are clicked, and moved into position. The one exception is line 4 which specifies the \'Cancel\' button as the default button - that means it will be \"clicked\" if the user preses the **Return** key.
+
 ### Text Input Creation 
 
 
@@ -174,6 +198,26 @@ self.textInput.move(20, 220)
 ```
 
 The QLineEdit widget is probably the most common for user textual input, in this example the code section after this one will set up a contextual menu to operate on it. This code section creates (line 2), sets an initial value (line 3), sets a width to the field (line 4) and moves the widget into place (line 5).
+
+### QuantitySpinBox Creation 
+
+
+```python
+# QuantitySpinBox
+from FreeCAD import Units
+ui = FreeCADGui.UiLoader()
+quantityInput = ui.createWidget("Gui::QuantitySpinBox")
+self.quantityInput.setProperty( 'minimum', 0.0)
+potential = 2.87
+unit = "V"
+# only set the value
+self.quantityInput.setProperty('rawValue', potential )
+# set quantity (value + unit)
+quantity = Units.Quantity("{} {}".format(potential , unit))
+self.quantityInput.setProperty('value', quantity)
+```
+
+The Gui::QuantitySpinBox widget is a FreeCAD-special, designed to display and handle values together with their [units](Expressions#Units.md). It is derived from Qt\'s [QAbstractSpinBox class](https://doc.qt.io/qt-5/qabstractspinbox.html). For all its properties see the list in the source code file [QuantitySpinBox.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/QuantitySpinBox.h#L42)
 
 ### Contextual Menu Creation 
 
@@ -222,23 +266,6 @@ self.numericInput.move(250, 220)
 
 The creation of the field for numeric input really follows that for Text Input earlier. In fact the code is identical with exception of the 3rd and 4th lines. The 3rd line sets the Mask as defined by PySide, which in this case specifies up to 3 digits (which may include 0). A full list of the InputMask codes can be found at [QLineEdit InputMask](http://doc.qt.io/qt-5/qlineedit.html#inputMask-prop)
 
-### Button Creation Part 2 
-
-
-```python
-# cancel button
-cancelButton = QtGui.QPushButton('Cancel', self)
-cancelButton.clicked.connect(self.onCancel)
-cancelButton.setAutoDefault(True)
-cancelButton.move(150, 280)
-# OK button
-okButton = QtGui.QPushButton('OK', self)
-okButton.clicked.connect(self.onOk)
-okButton.move(260, 280)
-```
-
-Both buttons are created with a name (which will appear as their label), associated with a method which will execute when they are clicked, and moved into position. The one exception is line 4 which specifies the \'Cancel\' button as the default button - that means it will be \"clicked\" if the user preses the **Return** key.
-
 ### Window Display 
 
 
@@ -273,12 +300,16 @@ In this code example, generic handlers handle the following events:
 -   onCancel
 -   onOk
 
-The general form for the handlers is: 
+The general form for the handlers is:
+
+
 ```python
 def handlerName(self):
     lineOfCode1
     lineOfCode2
-``` The first line has the keyword \"def\" followed by the handler name. The handler name must match the name from the earlier declarative section exactly. The parameter \"self\" is part of the standard syntax as are the enclosing parenthesis and the final colon character. Once the first line is finished then there are no requirements of the following code, it is purely application specific.
+```
+
+The first line has the keyword \"def\" followed by the handler name. The handler name must match the name from the earlier declarative section exactly. The parameter \"self\" is part of the standard syntax as are the enclosing parenthesis and the final colon character. Once the first line is finished then there are no requirements of the following code, it is purely application specific.
 
 ### Pop-Up Menu Handler 
 
@@ -312,13 +343,19 @@ A reference to a widget can be made of the form \"self.widgetName.underMouse()\"
 
 ## Code Based Discussion - Main Routine 
 
-Most of the volume of code is in the GUI Class definition, there is not much in the main procedure. 
+Most of the volume of code is in the GUI Class definition, there is not much in the main procedure.
+
+
 ```python
 # Constant definitions
 global userCancelled, userOK
 userCancelled = "Cancelled"
 userOK = "OK"
-``` Lines 2,3 & 4 deal with coordinating the status of the user interaction with the GUI - e.g. Cancelled, OK, or any other application defined status. The handler routines On Cancel and OnOk earlier also set these statuses. 
+```
+
+Lines 2,3 & 4 deal with coordinating the status of the user interaction with the GUI - e.g. Cancelled, OK, or any other application defined status. The handler routines On Cancel and OnOk earlier also set these statuses.
+
+
 ```python
 form = ExampleGuiClass()
 form.exec_()
@@ -331,13 +368,17 @@ if form.result==userOK:
     localVariable2 = form.label2.text()
     localVariable3 = form.label3.text()
     localVariable4 = form.label4.text()
-``` Lines 1 and 2 show the method for invoking the GUI. There may be multiple GUI definitions for a program and also the GUI need not be invoked as the first thing in the Python file, it may be invoked at any point. The Name of the GUI Class is specified in line 1 (\"ExampleGuiClass\" in this case) but the rest of the 2 lines are to be copied verbatim.
+```
+
+Lines 1 and 2 show the method for invoking the GUI. There may be multiple GUI definitions for a program and also the GUI need not be invoked as the first thing in the Python file, it may be invoked at any point. The Name of the GUI Class is specified in line 1 (\"ExampleGuiClass\" in this case) but the rest of the 2 lines are to be copied verbatim.
 
 Lines 4 and 6 use the result field to determine the appropriate action. The last 4 lines simply show the copying of the data in the GUI object to variables local to the executing main procedure.
 
 ## Complete Modal Code Example 
 
-This is the complete code example (developed on FreeCAD v0.14): 
+This is the complete code example (developed on FreeCAD v0.14):
+
+
 ```python
 # import statements
 from PySide import QtGui, QtCore
@@ -540,7 +581,9 @@ if form.result==userOK:
 #SoQt version: 1.5.0
 #OCC version: 6.7.0
 #
-``` The best way to use this code is to copy it into an editor or FreeCAD macro file and play around with it.
+```
+
+The best way to use this code is to copy it into an editor or FreeCAD macro file and play around with it.
 
 ## Code Based Discussion - Nonmodal Code Example 
 
@@ -550,10 +593,14 @@ All of the widget specific from the previous modal example transfer to use in a 
 
 ### Import Statement 
 
-The mandatory Import statement 
+The mandatory Import statement
+
+
 ```python
 from PySide import QtGui, QtCore
-``` This is best placed at the top of the Python file.
+```
+
+This is best placed at the top of the Python file.
 
 ### Class Definition 
 

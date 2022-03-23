@@ -19,39 +19,39 @@ Twórcy Draft, Arch i BIM współpracują również z większą [Społeczności�
 
 Są to narzędzia służące do tworzenia obiektów architektonicznych.
 
--   <img alt="" src=images/Arch_Wall.svg  style="width:32px;"> [Wall](Arch_Wall.md): Creates a wall from scratch or using a selected object as a base.
+-   <img alt="" src=images/Arch_Wall.svg  style="width:32px;"> [Ściana](Arch_Wall/pl.md): Tworzy ścianę od podstaw lub używając wybranego obiektu jako podstawy.
 
--   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Structure](Arch_Structure.md): Creates a structural element from scratch or using a selected object as a base.
+-   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Konstrukcja](Arch_Structure/pl.md): Tworzy element konstrukcyjny od podstaw lub używając wybranego obiektu jako podstawy.
 
--   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Rebar tools](Arch_CompRebarStraight.md): These tools are only available if the [Reinforcement Workbench](Reinforcement_Workbench.md) has been installed.
+-   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Narzędzia zbrojenia](Arch_CompRebarStraight/pl.md): Narzędzia te są dostępne tylko wtedy, gdy zainstalowano środowisko pracy [Zbrojenie](Reinforcement_Workbench/pl.md).
 
-:\* <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Straight Rebar](Arch_Rebar_Straight.md): Creates a straight reinforcement bar in a selected structural element.
+:\*<img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Pręty zbrojeniowe proste](Arch_Rebar_Straight/pl.md): Tworzy prosty pręt zbrojeniowy w wybranym elemencie konstrukcyjnym.
 
-:\* <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [U-Shape Rebar](Arch_Rebar_UShape.md): Creates a U-shape reinforcement bar in a selected structural element.
+-   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [Pręty zbrojeniowe typu U](Arch_Rebar_UShape/pl.md): Tworzy pręt zbrojeniowy w kształcie litery U w wybranym elemencie konstrukcyjnym.
 
-:\* <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [L-Shape Rebar](Arch_Rebar_LShape.md): Creates an L-shape reinforcement bar in a selected structural element.
+:\* <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [Pręty zbrojeniowe typu L](Arch_Rebar_LShape/pl.md): Tworzy pręt zbrojeniowy w kształcie litery L w wybranym elemencie konstrukcyjnym.
 
-:\* <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Stirrup](Arch_Rebar_Stirrup.md): Creates a stirrup reinforcement bar in a selected structural element.
+:\* <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Strzemiona zbrojeniowe](Arch_Rebar_Stirrup/pl.md): Tworzy pręt zbrojeniowy strzemion w wybranym elemencie konstrukcyjnym.
 
-:\* <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Bent-Shape Rebar](Arch_Rebar_BentShape.md): Creates a bent-shape reinforcement bar in a selected structural element.
+:\* <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Pręty zbrojeniowe wygięte](Arch_Rebar_BentShape/pl.md): Tworzy pręt zbrojeniowy typu wygiętego w wybranym elemencie konstrukcyjnym.
 
-:\* <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Helical Rebar](Arch_Rebar_Helical.md): Creates a helical reinforcement bar in a selected structural element.
+:\* <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Pręty zbrojeniowe spiralne](Arch_Rebar_Helical/pl.md): Tworzy spiralny pręt zbrojeniowy w wybranym elemencie konstrukcyjnym.
 
-:\* <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md): Creates reinforcement bars in a selected rectangular column.
+:\* <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Pręty zbrojeniowe, zbrojenie słupów](Arch_Rebar_ColumnReinforcement/pl.md): Tworzy pręty zbrojeniowe w wybranym elemencie konstrukcyjnym słupa prostokątnego.
 
-:\* <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md): Creates reinforcement bars in a selected beam.
+:\* <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Pręty zbrojeniowe, zbrojenie belek](Arch_Rebar_BeamReinforcement/pl.md): Tworzy pręty zbrojeniowe w wybranym elemencie konstrukcyjnym belki.
 
-:\* <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md): Creates reinforcement bars in a selected slab.
+:\* <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Pręty zbrojeniowe, zbrojenie płyt stropowych](Arch_Rebar_Slab_Reinforcement/pl.md): Tworzy pręty zbrojeniowe w wybranym elemencie konstrukcyjnym płyty.
 
-:\* <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md): Creates reinforcement bars inside a selected footing.
+:\* <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Zbrojenie stóp fundamentowych](Arch_Rebar_Footing_Reinforcement/pl.md): Tworzy pręty zbrojeniowe wewnątrz obiektu konstrukcyjnego ławy fundamentowej.
 
-:\* <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Custom Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch.
+:\* <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Pręt zbrojeniowy](Arch_Rebar/pl.md): Tworzy niestandardowy pręt zbrojeniowy w wybranym elemencie konstrukcyjnym za pomocą szkicu.
 
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): Creates a curtain wall from scratch or using a selected object as a base. <small>(v0.19)</small> 
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Ściana kurtynowa](Arch_CurtainWall/pl.md): Tworzy ścianę kurtynową od podstaw lub używając wybranego obiektu jako bazy. {{Version/pl|0.19}}
 
--   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Building Part](Arch_BuildingPart.md): Creates a building part including selected objects.
+-   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Część budowli - piętro](Arch_BuildingPart/pl.md): Tworzy część budynku zawierającą wybrane obiekty.
 
--   <img alt="" src=images/Arch_Project.svg  style="width:32px;"> [Project](Arch_Project.md): Creates a project including selected objects.
+-   <img alt="" src=images/Arch_Project.svg  style="width:32px;"> [Projekt](Arch_Project/pl.md): Tworzy projekt zawierający wybrane obiekty.
 
 -   <img alt="" src=images/Arch_Site.svg  style="width:32px;"> [Site](Arch_Site.md): Creates a site including selected objects.
 

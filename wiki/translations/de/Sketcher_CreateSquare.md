@@ -9,6 +9,9 @@
 
 # Sketcher CreateSquare/de
 
+
+</div>
+
 ## Beschreibung
 
 Zeichnet ein Viereck, das in einem Kreis der Konstruktionsgeometrie eingeschrieben ist. Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechseck Symbol. Die Koordinaten des Zeigers werden daneben in Echtzeit blau dargestellt.

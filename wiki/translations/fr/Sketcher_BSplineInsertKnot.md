@@ -17,8 +17,8 @@ Insère un noeud dans une [B-spline](B-Splines/fr.md) existante. Si un nœud exi
 ## Utilisation
 
 1.  Sélectionnez une B-spline, puis soit :
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> [Insérer un nœud](Sketcher_BSplineInsertKnot/fr.md)**.
-    -   Utilisez le menu **Sketch → Outils d'esquisse B-spline → [<img src=images/Sketcher_BSplineInsertKnot.svg style="width:24px"> Insérer un nœud**.
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_BSplineInsertKnot.svg style="width:16px"> [Insérer un nœud](Sketcher_BSplineInsertKnot/fr.md)**.
+    -   Utilisez le menu **Sketch → Outils d'esquisse B-spline → [<img src=images/Sketcher_BSplineInsertKnot.svg style="width:16px"> Insérer un nœud**.
 2.  Déplacez le curseur à l\'emplacement souhaité où le nouveau point de nœud doit être créé, puis cliquez pour insérer le nœud. La valeur paramétrique du nœud est affichée pour référence.
 3.  Vous pouvez répéter l\'étape ci-dessus pour créer d\'autres nœuds.
 4.  Faites un clic droit ou appuyez sur **Echap** pour quitter le mode d\'insertion de nœuds.

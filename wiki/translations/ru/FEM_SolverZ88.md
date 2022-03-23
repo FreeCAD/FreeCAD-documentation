@@ -15,9 +15,29 @@
 
 ## Описание
 
-ToDo
+[SolverZ88](FEM_SolverZ88.md) enables usage of the [Z88](https://en.wikipedia.org/wiki/Z88_FEM_software) solver. It may be used for:
+
+1.  Setting analysis parameters
+2.  Selecting working directory
+3.  Running the Z88 solver
+
+## Installation
+
+To use the Z88 solver, the OpenSource version of Z88 (Z88OS) needs to be installed:
+
+1.  Download the ZIP file from the [Z88OS website](https://en.z88.de/download-z88os).
+2.  Extract the ZIP to a folder of your choice.
+3.  In the [FEM preferences](FEM_Preferences.md) go to the Z88 tab and there set the path to the **z88r** binary. If you are on Windows this would be the path to the file {{FileName|z88r.exe}} that is in the subfolder {{FileName|~\bin\win64}} of the folder where your extracted the ZIP.
 
 ## Использование
+
+1.  After the creation of an <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Analysis container](FEM_Analysis.md) use one of the following alternatives:
+    -   Select **Solve → <img src="images/FEM_SolverZ88.svg" width=x16px> Solver Z88** from the menu.
+    -   Press the **S** then **Z** shortcut keys.
+2.  Double click the <img alt="" src=images/FEM_SolverZ88.svg  style="width:" height="16px;"> SolverZ88 object.
+3.  Select the analysis type.
+4.  Click the **Write** button.
+5.  Click the **Run** button.
 
 
 <div class="mw-translate-fuzzy">

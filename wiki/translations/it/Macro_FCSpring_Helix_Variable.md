@@ -1,4 +1,7 @@
 # Macro FCSpring Helix Variable/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro FCSpring Helix Variable
 |Translate=Molla a spirale variabile
@@ -10,6 +13,9 @@
 |Download=Download the [https://forum.freecadweb.org/download/file.php?id=80844 the Icons] in .zip file 
 |FCVersion=0.19
 }}
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -25,7 +31,7 @@ Si possono creare diverse configurazioni di molle, secondo le proprie esigenze, 
 </div>
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/5906d5d10c1d9c2b20dc34aa2a28a2634f2a49ba/Macro_FCSpring_Helix_Variable.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/8b0b60336a62f22c0730e6fb88687ffd1b1dd502/Macro_FCSpring_Helix_Variable.FCMacro}}
 
 <img alt="" src=images/TruncateSpring00.png  style="width:400px;"> 
 *FCSpring Helix Variable*
@@ -299,6 +305,33 @@ ammorbidire i raccordi: fatto
 modificare il diametro di qualsiasi spira: fatto
 
 ## Versione
+
+2022/03/16 Version 0.18 : adding scrollBar, possibility docking Left or Right, restore the chrono *(time.time())*, memorise the last FilePath
+
+
+```python
+####chrono################
+import time
+global depart ; depart  = 0.0
+global arrivee; arrivee = 0.0
+def chrono(switch):    # 0=depart autre=stop
+#time.strftime('%X %x %Z')#'15:44:07 12/14/19 Paris, Madrid'
+    global depart
+    global arrivee
+    try:
+        if switch == 0:
+            depart = time.time()#time.clock()
+            App.Console.PrintMessage("Chrono begin   : "+str(time.strftime('%X'))+"\n")
+        else:
+            arrivee = time.time()#time.clock()
+            App.Console.PrintMessage("Chrono end     : "+str(time.strftime('%X'))+"\n")
+            parcouru = ((arrivee - depart)/60.0)
+            App.Console.PrintError("Time execution : "+str("%.3f" % parcouru)+" min"+"\n\n")
+        return parcouru
+        FreeCADGui.updateGui()    
+    except Exception: None
+####chrono################
+```
 
 2020/11/12 Version=01.17 : suppress the timer chrono !!
 

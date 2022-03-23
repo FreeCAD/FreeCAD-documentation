@@ -58,7 +58,7 @@ Un **piano di taglio** divide lo spazio dell\'oggetto in due metà. Tutte le par
 </div>
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

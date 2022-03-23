@@ -4,7 +4,7 @@
    Name/fr:Sketcher Congé
    MenuLocation:Sketch → Géométries d'esquisse → Créer un congé
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:F
+   Shortcut:**G** **F** **F**
 ---
 
 # Sketcher CreateFillet/fr
@@ -29,7 +29,7 @@ Au démarrage de l\'outil, les sélections sont effacées et le pointeur de la s
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

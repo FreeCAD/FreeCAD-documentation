@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher_MapSketch
-   Name/fr:Sketcher Appliquer une esquisse sur une face
+   Name/fr:Sketcher Esquisse sur une face
    MenuLocation:Part Design/Sketch → Appliquer une esquisse sur une face...
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
    SeeAlso:[Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md)

@@ -54,6 +54,8 @@ Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual:Introduction/p
 
 -   [FAQ](Frequently_asked_questions.md)
 
+-   [Workarounds](Workarounds.md)
+
 -   [Poradniki](Tutorials/pl.md)
 
 -   Dostosowywanie FreeCAD

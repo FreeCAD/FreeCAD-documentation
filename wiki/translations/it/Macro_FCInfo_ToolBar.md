@@ -2,10 +2,10 @@
 {{Macro
 |Name=Macro FCCInfo ToolBar
 |Icon=FCInfoToolBar.png
-|Description=Fornisce informazioni sulla forma selezionata e può visualizzare una conversione di raggio, diametro, lunghezza, area, volume ... in diverse unità (metriche e imperiali) in una barra degli strumenti. Le informazioni da visualizzare sono parametrizzabili nel parametro di FreeCAD.
+|Description=Fornisce informazioni sulla forma selezionata e può visualizzare una conversione di raggio, diametro, lunghezza, area, volume ... in diverse unità (metriche e imperiali) in una barra degli strumenti in real tempo. Le informazioni da visualizzare sono parametrizzabili nel parametro di FreeCAD.
 |Author=Mario52
-|Version=00.01
-|Date=2022/02/16
+|Version=00.02
+|Date=2022/03/14
 |FCVersion=0.18 and more
 |Download= [https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
 |SeeAlso = [Arch Survey](Arch_Survey/it.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo/it.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass/it.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
@@ -16,7 +16,7 @@
 Fornisce informazioni sulla forma selezionata e può visualizzare una conversione di raggio, diametro, lunghezza, area, volume \... in diverse unità (metriche e imperiali) in una barra degli strumenti. Le informazioni da visualizzare sono parametrizzabili nel parametro di FreeCAD.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/988f17e458a4160a6f3a772c1d6c8b6a948c8748/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/978cda5c913b6625f073e53baf5861ac61f468bc/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo\_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
@@ -52,6 +52,15 @@ Le opzioni si trovano nel parametro di FreeCAD
 -   ***seT\_User\_sizeIconY***
     -   imposta il valore Y dell\'icona
 
+-   ***seT\_User\_setFixed\_Tool\_Bar\_Width***
+    -   imposta la lungunese del ToolBar
+
+-   ***seT\_User\_setFixed\_Tool\_Bar\_Height***
+    -   imposta la altessa del ToolBar
+
+-   ***switch\_User\_Work\_With\_Preselection***
+    -   Lavora con la preselezione, i dati sono calcolate in tempo reale
+
 -   ***seT\_User\_StyleSheetColorToolBar***
     -   imposta il colore della barra degli strumenti in formato HTML esempio: **\#F8E6E0**\'.
     -   se il valore è **0**\' la barra degli strumenti prende il colore del sistema
@@ -62,50 +71,59 @@ Le opzioni si trovano nel parametro di FreeCAD
 -   ***seT\_User\_TextHeigthValue***
     -   dare l\'altezza del testo della barra degli strumenti
 
+-   ***switch\_User\_Display\_objectName***
+    -   visualizza il Nome ()
+
 -   ***switch\_User\_Display\_SubElementName***
-    -   visualizza il nome del sotto-elemento
+    -   visualizza il nome del sotto-elemento ()
 
 -   ***switch\_User\_Display\_ShapeType***
-    -   visualizzare il Shape type
+    -   visualizzare il Shape type (TyS:)
 
 -   ***switch\_User\_Display\_TypeId***
-    -   visualizzare il TypeId
+    -   visualizzare il TypeId (TyI:)
 
 -   ***switch\_User\_Display\_RadiusObject***
-    -   visualizzare il raggio e il diametro
+    -   visualizzare il raggio e il diametro (r:) \[D:\]
 
 -   ***switch\_User\_Display\_LengthObject***
     -   Visualizza la lunghezza del bordo selezionato o il perimetro della faccia selezionata
+        -   (L:) visualizza la lunghezza del filo, linea, bordo selezionato
+        -   (P:) visualizza il perimetro della fascia selezionata
 
 -   ***switch\_User\_Display\_NumberFacesMesh***
-    -   visualizza il numero di facce dell\'oggetto Mesh
+    -   visualizza il numero di facce dell\'oggetto Mesh (Nf:)
 
 -   ***switch\_User\_Display\_NumberPointsMeshPoints***
-    -   visualizza il numero di punti dell\'oggetto Mesh
+    -   visualizza il numero di punti dell\'oggetto Mesh (Np:)
 
 -   ***switch\_User\_Display\_NumberEdgesMesh***
-    -   visualizza il numero di bordi dell\'oggetto Mesh
+    -   visualizza il numero di bordi dell\'oggetto Mesh (Ne:)
 
 -   ***switch\_User\_Display\_AreaObject***
-    -   visualizza la superficie dell\'oggetto
+    -   visualizza la superficie dell\'oggetto (A:)
 
 -   ***switch\_User\_Display\_AreaSubObject***
-    -   visualizza la superficie della faccia selezionata
+    -   visualizza la superficie della faccia selezionata (Af:)
 
 -   ***switch\_User\_Display\_VolumeObject***
-    -   visualizza il volume dell\'oggetto
+    -   visualizza il volume dell\'oggetto (V:)
 
 -   ***switch\_User\_Display\_BsplineObject***
     -   visualizza il numero di nodi della Bspline selezionata
+        -   (BSpline) visualizza i nodi del BSpline
+        -   (BSrA) BSPline raggio approximativo del primo raggio del BSpline
+        -   (BSS) BSPline Points Shape numero di punti del BSPline (caso Shape)
+        -   (BSc) BSPline Points Sub Obbietto numero di punti del sub obbietto selezionato (case Edge)
 
 -   ***switch\_User\_Display\_CentreObject***
-    -   visualizza il centro del cerchio (se viene rilevato un cerchio) o dell\'oggetto selezionato
+    -   visualizza il centro del cerchio (se viene rilevato un cerchio) o dell\'oggetto selezionato (Ce:)
 
 -   ***switch\_User\_Display\_CentreBoundBoxObject***
-    -   visualizza il centro del boundingBox dell\'oggetto
+    -   visualizza il centro del boundingBox dell\'oggetto (BBCe:)
 
 -   ***switch\_User\_Display\_Position***
-    -   visualizza le coordinate del punto puntato dal mouse
+    -   visualizza le coordinate del punto puntato dal mouse (Pos:)
 
 -   ***switch\_User\_NotInfoOnBeginning***
     -   se è `False` l\'informazione (questa informazione) viene visualizzata
@@ -177,7 +195,11 @@ enjoy
 
 ## Collegamento
 
+Discussioni sul forum [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
+
 ## Versione
+
+version: 00.02 2022/03/14 : add calcul in real time (with preselection), dimension of toolBar, add info mesh and points
 
 version: 00.01 2022/02/16 :
 

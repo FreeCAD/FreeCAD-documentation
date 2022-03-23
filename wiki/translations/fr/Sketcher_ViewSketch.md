@@ -8,11 +8,17 @@
 
 # Sketcher ViewSketch/fr
 
+
+</div>
+
 ## Description
 
 Cet outil définit la vue de l\'objet perpendiculairement au plan de l\'esquisse. Il est utile, lorsque l\'utilisateur a modifié l\'orientation de la vue de l\'objet, pour examiner un autre aspect de l\'objet, et revenir à la vue normale de l\'esquisse.
 
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 En mode de modification d\'esquisse, soit
 
@@ -20,10 +26,13 @@ En mode de modification d\'esquisse, soit
 -   Allez dans le menu **Sketch → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Vue d'esquisse**.
 
 
+</div>
 
 
 
-{{Sketcher Tools navi
+
+
+{{Sketcher_Tools_navi
 
 }}
 

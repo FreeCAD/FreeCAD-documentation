@@ -26,19 +26,10 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 -   **Beschriftung Schrift**: Der Name der Standardschriftart für Beschriftungen. Die Schriftart wird auch für neue [Bemaßungen](TechDraw_Preferences/de#Bemaßungen.md) verwendet, sie zu ändern hat keinen Einfluss auf bestehende Bemaßungen
 -   **Beschriftung Größe**: Standardgröße für Beschriftungen.
 
-### Vereinbarungen
+### Vorgaben
 
-
-<div class="mw-translate-fuzzy">
-
--   **Projektionsgruppenwinkel** Ob [Projektionsgruppen](TechDraw_ProjectionGroup/de.md) entweder die Erst- oder die Drittwinkelprojektion verwenden. Siehe
-
-[Mehrfachansichtsprojektion](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews) für eine Erklärung.
-
--   **Verdeckter Linienstil**: Der Stil, der für verdeckte Linien zu verwenden ist.
-
-
-</div>
+-   **Projektionsmethode**: Ob eine [Ansichtengruppe](TechDraw_ProjectionGroup/de.md) entweder die europäische (first-angle) Projektion oder die amerikanische (third-angle) Projektion verwenden. Siehe [multiview projection](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews) (engl.) (oder [Projektionsmethoden](https://de.wikipedia.org/wiki/Normalprojektion#Ansichten)) für eine Erklärung.
+-   **Darstellung verdeckter Kanten**: Der Stil, der für verdeckte Linien zu verwenden ist.
 
 ### Dateien
 
@@ -50,18 +41,12 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 -   **PAT Datei**: Standard PAT Musterfestlegungsdatei für [Geometrische Schraffuren](TechDraw_GeometricHatch/de.md).
 -   **Mustername**: Name des Standard PAT Musters.
 
-### Grid
+### Raster
 
--   **Show Grid**: Default Show Grid setting for new pages. <small>(v0.20)</small> 
--   **Grid Spacing**: Default distance between grid lines for new pages. <small>(v0.20)</small> 
-
-
-<div class="mw-translate-fuzzy">
+-   **Show Grid**: Standardeinstellung der Rasteranzeige für neu erstellten Seiten. {{Version/de|0.20}}
+-   **Grid Spacing**: Standardabstand zwischen Rasterlinien auf neu erstellten Seiten. {{Version/de|0.20}}
 
 ## Maßstab
-
-
-</div>
 
 <img alt="Maßstabseinstellungen" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
 
@@ -141,27 +126,22 @@ Schnitt Schnittoberfläche\'\'\': Stil für Schnitt Schnittoberfläche. Die Opti
 
 Einstellung der Standardfarben für neue Seiten:
 
-
-<div class="mw-translate-fuzzy">
-
 -   **Normal**: Normale Linienfarbe.
 -   **Vorausgewählt**: Vorausgewählte Farbe. Die Farbe, die verwendet wird, um Objekte hervorzuheben, wenn mit der Maus darüber gefahren wird.
--   **Gewählt**: Farbe für ausgewählte Objekte.
+-   **Ausgewählt**: Farbe für ausgewählte Objekte.
 -   **Hintergrund**: Hintergrundfarbe um die Seiten herum.
--   **Bemaßung**: Farbe der Bemaßungslinien und des Textes.
+-   **Maße**: Farbe der Bemaßungslinien und des Textes.
 -   **Mittellinie**: Farbe für [Mittellinien](TechDraw_FaceCenterLine/de.md).
--   **Detail Hervorhebung**: Linienfarbe für die Umrissform von [Detailansichten](TechDraw_DetailView/de.md). <small>(v0.19)</small> 
+-   **Detailauswahl**: Linienfarbe für die Umrissform von [Detailansichten](TechDraw_DetailView/de.md). <small>(v0.19)</small> 
 -   **Transparente Flächen**: Wenn angehakt, sind die Objektflächen transparent. Andernfalls wird die eingestellte Farbe für Flächen verwendet. {{Version/de|0.19}}
--   **Verdeckte Linie**: Farbe der verdeckten Linie. Diese Farbe wird für alle Arten von [Verdeckte Linien](#HLR_Parameters/de.md) verwendet.
+-   **Verdeckte Kante**: Farbe der verdeckten Linie. Diese Farbe wird für alle Arten von [Verdeckte Linien](#HLR_Parameters/de.md) verwendet.
 -   **Schnittfläche**: Farbe der Schnittfläche [Schnittansicht](TechDraw_SectionView/de.md). Wird nur verwendet, wenn die Einstellung **Schnitt Schnittoberfläche** auf *Volltonfarbe* gesetzt ist.
 -   **Schnittlinie**: Farbe der [Schnittansicht](TechDraw_SectionView/de.md) Schnittlinie.
 -   **Schraffur**: [Schraffur](TechDraw_Hatch/de.md) Farbe der Schraffur.
 -   **Geometrische Schraffur**: [Geometrische Schraffur](TechDraw_GeometricHatch/de.md) Musterfarbe.
 -   **Knoten**: Farbe der wählbaren [Knoten](Glossary#V.md) in Ansichten.
--   **Führungslinie**: Farbe der neuen [Führungslinien](TechDraw_LeaderLine/de.md).
-
-
-</div>
+-   **Hinweislinie**: Farbe der neuen [Hinweislinien](TechDraw_LeaderLine/de.md).
+-   **Rasterfarbe**: Farbe für alle Seitenraster. {{Version/de|0.20}}
 
 ## HLR
 
@@ -180,24 +160,18 @@ HLR steht für *Entfernen verdeckter Linien* (engl.: hidden line removal).
 
 <img alt="Erweiterte Einstellungen" src=images/TechDraw_PreferencesAdvanced.png  style="width:350px;">
 
-
-<div class="mw-translate-fuzzy">
-
 -   **Flächen erkennen**: Wenn angehakt, versucht TechDraw, Flächen unter Verwendung der Liniensegmente zu erzeugen, die vom Algorithmus zur Entfernung verdeckter Linien zurückgegeben werden. Flächen müssen erkannt werden, um [Schraffierung](TechDraw_Hatching/de.md) verwenden zu können, aber bei komplexen Modellen kann es zu Leistungseinbußen kommen.
--   **Schnittkanten anzeigen**: Hebt den Rand des ausgeschnittenen Abschnitts in [Schnittansichten](TechDraw_SectionView/de.md) hervor.
+-   **Schnittkanten zeigen**: Hebt den Rand des ausgeschnittenen Abschnitts in [Schnittansichten](TechDraw_SectionView/de.md) hervor.
 -   **Fehlersuche und -bereinigung Schnittansicht**: Gibt Zwischenergebnisse während der Verarbeitung einer Sektionsansicht aus
 -   **Fehlersuche und -bereinigung Detailansicht**: Gibt Zwischenergebnisse während der Verarbeitung einer Detailansicht aus
--   **Unübliche Kanten zulassen**: Schließt Kanten mit unerwarteter Geometrie in die Ergebnisse ein, z.B. Nulllängen
+-   **Unübliche Kanten erlauben**: Schließt Kanten mit unerwarteter Geometrie in die Ergebnisse ein, z.B. Nulllängen
 -   **Verbinden vor Schnitterzeugung**: Führt eine Verschmelzungsoperation an der/den Eingangsform(en) vor der Verarbeitung der Schnittansicht
--   **Zeige lose 2D Geometrie**: Schließt 2D-Objekte in Projektionen ein, z. B. lose Skizzen
--   **Fangbereich für Mittelpunktsmarkierungen**: Größe des Auswahlbereichs um Kanten herum. Die Unschärfeeinheit ist ungefähr 0.1 mm, abhängig vom aktuellen Zoom.
--   **Maßzahlenformat**: Auswahlbereich um Mittenmarkierungen herum. Die Unschärfeeinheit ist ungefähr 0.1 mm, abhängig vom aktuellen Zoom.
--   **Form der Linienenden**: Einstellung der Form der Linienendkappe. Erläuterung der Optionen: <https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum>
--   **Max. SVG Schraffur-Felder**: Die Grenze von SVG-Kacheln mit einer Größe von 64x64 Pixeln, die zum Schraffieren einer einzelnen Fläche verwendet werden. Bei großen Skalierungen könnte man einen Fehler über zu viele SVG-Kacheln erhalten, dann muss man das Kachellimit erhöhen.
+-   **Zeige lose 2D-Geometrie**: Schließt 2D-Objekte in Projektionen ein, z. B. lose Skizzen
+-   **Auswahlbereich für Kanten**: Größe des Auswahlbereichs um Kanten herum. Die Unschärfeeinheit ist ungefähr 0.1 mm, abhängig vom aktuellen Zoom.
+-   **Fangbereich für Mittelpunktsmarkierungen**: Auswahlbereich um Mittenmarkierungen herum. Die Unschärfeeinheit ist ungefähr 0.1 mm, abhängig vom aktuellen Zoom.
+-   **Form der Linienenden**: Einstellung der Form der Linienendkappe. Erläuterung der Optionen: [pen cap styles](https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum)
+-   **Max. SVG-Schraffur-Felder**: Die Grenze von SVG-Kacheln mit einer Größe von 64x64 Pixeln, die zum Schraffieren einer einzelnen Fläche verwendet werden. Bei großen Skalierungen könnte man einen Fehler über zu viele SVG-Kacheln erhalten, dann muss man das Kachellimit erhöhen.
 -   **Max. PAT-Schraffur-Segmente**: Die maximalen Schraffursegmente, die beim Schraffieren einer Fläche mit einem PAT-Muster verwendet werden.
-
-
-</div>
 
 
 

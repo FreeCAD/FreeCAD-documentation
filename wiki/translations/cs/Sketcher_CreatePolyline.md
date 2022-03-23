@@ -50,7 +50,7 @@ Nástroj má vícenásobný mód, který může bý přepnut klávesou **M**. Na
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

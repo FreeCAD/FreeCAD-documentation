@@ -31,7 +31,7 @@ Seleziona i vincoli in conflitto di uno schizzo.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

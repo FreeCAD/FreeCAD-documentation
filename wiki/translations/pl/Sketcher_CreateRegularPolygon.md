@@ -3,6 +3,7 @@
    Name:Sketcher CreateRegularPolygon
    MenuLocation:Sketch → Sketcher geometries → Create regular polygon
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **P** **R**
 ---
 
 # Sketcher CreateRegularPolygon/pl

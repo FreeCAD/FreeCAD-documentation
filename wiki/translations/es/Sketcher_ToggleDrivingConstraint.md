@@ -26,7 +26,7 @@ The **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

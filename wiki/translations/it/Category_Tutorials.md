@@ -1,9 +1,7 @@
 # Category:Tutorials/it
-## Categoria : Guide 
+This is a complete list of pages under [:Category:Tutorials](:Category_Tutorials.md).
 
-Guide a FreeCAD . Contribuisci ad aggiungerne altre!
-
-[Tutorial in altri siti](Offsite_tutorials/it.md) e [Video guide per FreeCAD](Video_tutorials/it.md) (Offsite tutorials e Video tutorials) sono delle pagine speciali che contengono i collegamenti a esercitazioni ospitate su siti esterni. Altri video tutorial possono essere trovati usando la parola chiave **FreeCAD** in una ricerca su [YouTube](http://YouTube.com).
+See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 ### Contents
 
@@ -42,4 +40,4 @@ Guide a FreeCAD . Contribuisci ad aggiungerne altre!
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [User_Documentation](Category_User_Documentation.md) > Category:Tutorials/it

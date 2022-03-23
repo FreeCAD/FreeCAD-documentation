@@ -4,6 +4,7 @@
    Name/fr:Sketcher Ellipse par 3 points
    MenuLocation:Sketch → Géométries d'esquisse → Créer une ellipse via 3 points
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **3** **E**
    Version:0.15
    SeeAlso:[Sketcher Ellipse par son centre](Sketcher_CreateEllipseByCenter/fr.md), [Sketcher Cercle](Sketcher_CreateCircle/fr.md), [Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)
 ---
@@ -40,7 +41,7 @@ Lors du lancement de l\'outil, le pointeur de la souris change pour une croix bl
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

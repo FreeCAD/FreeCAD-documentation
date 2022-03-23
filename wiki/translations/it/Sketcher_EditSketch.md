@@ -53,7 +53,7 @@ Questo comando permette di modificare uno schizzo esistente. Apr la [Finestra di
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

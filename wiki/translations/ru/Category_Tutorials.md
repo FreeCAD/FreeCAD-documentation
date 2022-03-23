@@ -1,7 +1,7 @@
 # Category:Tutorials/ru
-Учебники по FreeCAD, переведённые (хотя бы частично) на русский язык. Пожалуйста, помогайте нам добавлять новые! Учебники на английском языке можно посмотреть [здесь](Tutorials.md).
+This is a complete list of pages under [:Category:Tutorials](:Category_Tutorials.md).
 
-Специальные страницы [Внешние уроки](Offsite_tutorials/ru.md) и [Видеоуроки](Video_tutorials/ru.md) содержат ссылки на учебники, расположенные на внешний сайтах. Хорошим источником видеоуроков, разумеется, может послужить поиск на [YouTube](http://YouTube.com) по ключевому слову *FreeCAD*.
+See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 ### Contents
 
@@ -40,4 +40,4 @@
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/ru
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [User_Documentation](Category_User_Documentation.md) > Category:Tutorials/ru

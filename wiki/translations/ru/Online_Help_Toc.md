@@ -53,6 +53,8 @@
 
 -   [Часто задаваемые вопросы](Frequently_asked_questions.md)
 
+-   [Workarounds](Workarounds.md)
+
 -   [Сборник руководств по обучению](Tutorials/ru.md)
 
 -   Настройка FreeCAD

@@ -39,7 +39,7 @@ Instrumentul **View section** creează un plan de secțiune care ascunde tempora
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

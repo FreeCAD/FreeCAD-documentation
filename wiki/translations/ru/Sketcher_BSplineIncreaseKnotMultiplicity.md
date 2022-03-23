@@ -35,14 +35,14 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 ## Применение
 
 1.  Select a B-spline knot, either:
-    -   Press the button **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> [B-spline increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md)**.
-    -   Use the menu **Sketch → Sketcher B-spline tools → [<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> Increase knot multiplicity**.
+    -   Press the button **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:16px"> [Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md)**.
+    -   Use the menu **Sketch → Sketcher B-spline tools → [<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:16px"> Increase knot multiplicity**.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -18,8 +18,14 @@
 
 ## Tipi di archi 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Arco da centro e punti finali](Sketcher_CreateArc/it.md) : disegna un arco selezionando tre punti: il centro, l\'angolo iniziale lungo il raggio e l\'angolo finale.
 -   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Arco da tre punti ](Sketcher_Create3PointArc/it.md) : Disegna un arco selezionando tre punti: il punto iniziale, il punto finale e un punto sull\'arco.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -31,7 +37,7 @@
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

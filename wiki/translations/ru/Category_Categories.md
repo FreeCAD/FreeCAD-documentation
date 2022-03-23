@@ -15,7 +15,7 @@ This is the **top category** which contains the main categories of the FreeCAD w
 | [Category:Documentation/ru](wiki/Category_Documentation/ru.md) | [Category:Help/ru](wiki/Category_Help/ru.md) | [Category:Hubs/ru](wiki/Category_Hubs/ru.md) |
 | [Category:Macros/ru](wiki/Category_Macros/ru.md) | [Category:News/ru](wiki/Category_News/ru.md) | [Category:Python Code/ru](wiki/Category_Python Code/ru.md) |
 | [Category:Repository/ru](wiki/Category_Repository/ru.md) | [Category:Roadmap/ru](wiki/Category_Roadmap/ru.md) | [Category:Template/ru](wiki/Category_Template/ru.md) |
-| [Category:Tutorials/ru](wiki/Category_Tutorials/ru.md) | [Category:Wiki/ru](wiki/Category_Wiki/ru.md) |
+| [Category:Wiki/ru](wiki/Category_Wiki/ru.md) |
 
 
 

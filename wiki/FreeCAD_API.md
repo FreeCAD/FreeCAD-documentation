@@ -377,7 +377,7 @@ checkAbort() -- check for user abort in length operation.
 This only works if there is an active sequencer (or ProgressIndicator in Python).
 There is an active sequencer during document restore and recomputation. User may
 abort the operation by pressing the ESC key. Once detected, this function will
-trigger a BaseExceptionFreeCADAbort exception.
+trigger a Base.FreeCADAbort exception.
 
 
 

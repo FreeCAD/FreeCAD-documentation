@@ -64,7 +64,7 @@ Iconița **Toggle Constraint** comută constrângerile dimensionale (bloc, dista
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -3,7 +3,8 @@
    Name:Constraint Radius
    Name/pl:Szkicownik: Wiązanie promienia
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie promienia
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md)
+   Shortcut:**K** **R**
    SeeAlso:[Szkicownik: Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Szkicownik: Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), [Szkicownik: Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
@@ -46,7 +47,7 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -57,7 +57,7 @@ Nu sunt adăugate extra constrâgeri pentru compartamentul clonei.
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

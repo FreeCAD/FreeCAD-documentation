@@ -37,21 +37,9 @@ Diese Werkzeuge sind gar keine Bestandteile des Arbeitsbereichs PartDesign. Sie 
 
 in den [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Skizze bearbeiten](Sketcher_EditSketch/de.md): Bearbeiten der ausgewählten Skizze.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_MapSketch.png‎  style="width:32px;"> [Eine Skizze einer Fläche zuordnen](Sketcher_MapSketch/de.md): Ordnet eine Skizze einer zuvor ausgewählten Ebene oder einer Fläche des aktiven Körpers zu.
-
-
-</div>
 
 ### Modellierungswerkzeuge Part Design 
 
@@ -69,13 +57,7 @@ Erzeugt ein lokales Koordinatensystem, das an der Bezugsgeometrie im aktiven Kö
 
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Formbinder erstellen](PartDesign_ShapeBinder/de.md): Erzeugt einen Formbinder im aktiven Körper.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Unterobjekt FormBinder erstellen](PartDesign_SubShapeBinder/de.md): Erzeugt einen FormBinder zu einem Unterelement, wie eine Kante oder Fläche eines anderen Körpers, wobei die relative Position des Elements beibehalten wird. {{Version/de|0.19}}
-
-
-</div>
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Klon erstellen](PartDesign_Clone/de.md): Erstellt einen Klon des ausgewählten Körpers.
 

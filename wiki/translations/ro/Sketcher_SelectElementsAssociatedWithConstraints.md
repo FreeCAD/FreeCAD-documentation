@@ -31,7 +31,7 @@ Selectați Elementele schiței asociate cu constrângerile.
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

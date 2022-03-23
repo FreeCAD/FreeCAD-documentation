@@ -88,8 +88,8 @@ Nous avons maintenant plusieurs objets dans la [Vue en arborescence](Tree_view/f
 6a. Notez que fusionner les objets en un seul objet créera un objet qui n\'est plus paramétrique, de sorte que leurs propriétés ne peuvent plus être modifiées.
 
 :   6a.1. Sélectionnez les quatre objets dans la [Vue en arborescence](Tree_view/fr.md) ou en maintenant **Ctrl** et en les sélectionnant dans la [Vue 3D](3D_view/fr.md).
-:   6a.2. Une fois ces objets sélectionnés, cliquez sur **[<img src=images/Draft_Upgrade.svg style="width:16px"> [Mettre à niveau](Draft_Upgrade/fr.md)**.
-:   6a.3. Cela mettra à niveau les quatre objets en un seul {{Value|Wire}}.
+:   6a.2. Une fois ces objets sélectionnés, cliquez sur **[<img src=images/Draft_Upgrade.svg style="width:16px"> [Agréger](Draft_Upgrade/fr.md)**.
+:   6a.3. Cela agrègera les quatre objets en un seul {{Value|Wire}}.
 
 6b. Si vous souhaitez conserver la nature paramétrique des objets, vous pouvez créer un composé à la place.
 
@@ -133,7 +133,7 @@ Les réseaux sont utilisés pour répliquer un objet plusieurs fois dans une dir
 
 10\. Nous allons créer un réseau polaire.
 
-:   10.1. Sélectionnez l\'objet {{Value|Wire}} qui a été précédemment créé avec l\'outil **[<img src=images/Draft_Upgrade.svg style="width:16px"> [Mettre à niveau](Draft_Upgrade/fr.md)** ou {{Value|Compound}} créé avec l\'outil **[<img src=images/Part_Compound.svg style="width:16px"> [Part Composé](Part_Compound/fr.md)**.
+:   10.1. Sélectionnez l\'objet {{Value|Wire}} qui a été précédemment créé avec l\'outil **[<img src=images/Draft_Upgrade.svg style="width:16px"> [Agréger](Draft_Upgrade/fr.md)** ou {{Value|Compound}} créé avec l\'outil **[<img src=images/Part_Compound.svg style="width:16px"> [Part Composé](Part_Compound/fr.md)**.
 :   10.2. Appuyez sur **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Réseau polaire](Draft_PolarArray/fr.md)**.
 :   10.3. Ajustez l\'angle polaire sur {{Value|360°}}.
 :   10.4. Définissez le nombre d\'éléments sur {{Value|4}}.

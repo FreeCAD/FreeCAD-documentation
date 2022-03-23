@@ -78,6 +78,8 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
 
 -   [FAQ](Frequently_asked_questions.md)
 
+-   [Workarounds](Workarounds.md)
+
 -   [Tutorials](Tutorials.md)
 
 

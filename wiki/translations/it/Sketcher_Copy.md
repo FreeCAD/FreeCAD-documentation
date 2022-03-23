@@ -47,7 +47,7 @@ Ala copia non vengono aggiunti vincoli specifici.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

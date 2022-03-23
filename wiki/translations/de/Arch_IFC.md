@@ -1,13 +1,4 @@
 # Arch IFC/de
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Beschreibung
@@ -21,13 +12,7 @@ Sowohl der Importer als auch der Exporter hängen von der [IfcOpenShell](IfcOpen
 import ifcopenshell
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 Wenn keine Fehlermeldung erscheint, ist IfcOpenShell installiert, und du kannst mit dem [Importieren](Std_Import/de.md) von IFC Dateien fortfahren. Andernfalls musst du IfcOpenShell selbst installieren; lies die [IfcOpenShell](IfcOpenShell/de.md) Seite, um mehr über diesen Vorgang zu erfahren.
-
-
-</div>
 
 
 **Note:**
@@ -79,15 +64,6 @@ Wenn die Form der exportierten Objekte auf einer Extrusion oder einer booleschen
 ## Weitere Informationen 
 
 -   [IfcOpenShell](IfcOpenShell/de.md), Weitere Informationen zum Installieren dieser Bibliothek.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -199,7 +199,7 @@ Cecha Podstawa jest całkowicie opcjonalna; jest ona obecna tylko wtedy, gdy do�
 
 **Note:**
 
-If another PartDesign body is selected as a BaseFeature it must have a shape. If it is empty (no features, no BaseFeature, \...) this will result in error.
+Jeżeli inna bryła środowiska Projekt Części jest wybrana jako Cecha bazowa, musi zawierać kształt. Jeśli jest pusta *(brak elementów, brak Cechy bazowej, \...)*, spowoduje to błąd.
 
 ### Czubek
 

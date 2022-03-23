@@ -4,7 +4,7 @@
    Name/fr:Sketcher Contrainte dimensionnelle
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte dimensionnelle
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Maj** + **D**
+   Shortcut:**K** **D**
    SeeAlso:[Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
@@ -20,9 +20,9 @@ La **contrainte dimensionnelle** spécifie par une valeur la longueur d\'une lig
 
 1.  Choisissez deux points ou une ligne ou un point et une ligne.
 2.  Appelez la commande de plusieurs manières :
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Contraindre dimensionnelle](Sketcher_ConstrainDistance/fr.md)**
-    -   Utilisez le raccourci clavier **Maj** + **D**. (**D** est pour **D**istance)
-    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contraindre dimensionnelle** dans le menu supérieur.
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md)**
+    -   Utilisez les raccourcis clavier **K** puis **D**
+    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contrainte dimensionnelle** dans le menu supérieur.
 3.  Une boîte de dialogue contextuelle s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
 
 **Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable. Pour définir la distance perpendiculaire entre un point et une droite, le point doit être sélectionné en premier. Par défaut, la commande sera en mode continu afin de créer de nouvelles contraintes; appuyez sur le bouton droit de la souris ou sur **ÉCHAP** pour quitter la commande.
@@ -53,13 +53,13 @@ Distance du point (`Edge, PointOfEdge`) au point le plus proche sur la ligne (`L
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, Line, App.Units.Quantity('123.0 mm')))```
 
-La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Edge1`, `Edge2`, `Edge`, ` PointOfEdge1`, ` PointOfEdge2`, `PointOfEdge` et `Line` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Edge1`, `Edge2`, `Edge`, `PointOfEdge1`, `PointOfEdge2`, `PointOfEdge` et `Line` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

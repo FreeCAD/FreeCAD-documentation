@@ -46,7 +46,7 @@ Zeigt oder Blendet die Anzeige des definierten Polygons einer B-Spline Kurve aus
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

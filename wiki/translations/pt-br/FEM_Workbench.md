@@ -164,9 +164,15 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solucionador Elmer](FEM_SolverElmer/pt-br.md): Cria o controlador solver para Elmer. Ele é independente de outros objetos solucionadores.
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solucionador Z88](FEM_SolverZ88/pt-br.md)
+
+
+</div>
 
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Equação de elasticidade](FEM_EquationElasticity/pt-br.md)
 

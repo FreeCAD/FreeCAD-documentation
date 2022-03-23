@@ -43,13 +43,13 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
 -   -   Pour obtenir les faces 2D, [Path Gravure en V](Path_Vcarve/fr.md) a besoin de:
         -   Pour les trajectoires sans trous:
             1.  Sélectionnez le chemin
-            2.  Choisissez **Modification → ![](images/)_[Mettre_à_niveau](Draft_Upgrade/fr.md)**
-            3.  Suivi de **Modification → ![](images/)_[Rétrograder](Draft_Downgrade/fr.md)**
+            2.  Choisissez **Modification → ![](images/)_[Agréger](Draft_Upgrade/fr.md)**
+            3.  Suivi de **Modification → ![](images/)_[Désagréger](Draft_Downgrade/fr.md)**
         -   Pour les trajectoires sans trous:
             1.  Sélectionnez la trajectoire extérieure puis la trajectoire intérieur
-            2.  Choisissez **Modification → ![](images/)_[Rétrograder](Draft_Downgrade/fr.md)** **deux fois**
+            2.  Choisissez **Modification → ![](images/)_[Désagréger](Draft_Downgrade/fr.md)** **deux fois**
 
-        :   Certaines trajectoires se comportent différemment, vous devrez donc peut-être jouer avec **<img src="images/Draft_Upgrade.svg" width=16px> Mettre à niveau** et **<img src="images/Draft_Downgrade.svg" width=16px> Rétrograder** jusqu\'à ce que vous obteniez quelque chose nommé: `Face<number>`
+        :   Certaines trajectoires se comportent différemment, vous devrez donc peut-être jouer avec **<img src="images/Draft_Upgrade.svg" width=16px> Agréger** et **<img src="images/Draft_Downgrade.svg" width=16px> Désagréger** jusqu\'à ce que vous obteniez quelque chose nommé: `Face<number>`
         :   Le résultat final devrait ressembler à ceci:
         :   ![](images/Svgfaces.png )
 

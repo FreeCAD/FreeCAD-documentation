@@ -39,7 +39,7 @@ Selectați elementele din vizualizarea 3D sau din caseta de listă din partea st
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

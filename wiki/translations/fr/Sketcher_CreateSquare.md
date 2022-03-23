@@ -2,8 +2,9 @@
 - GuiCommand:/fr
    Name:Sketcher CreateSquare
    Name/fr:Sketcher Carré
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    MenuLocation:Sketch → Géométries d'esquisse → Créer un carré
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **P** **4**
    Version:0.15
 ---
 
@@ -11,9 +12,7 @@
 
 ## Description
 
-Dessine un carré inscrit dans un cercle. Lors du démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec un icône Hexagone. Les coordonnées du pointeur sont affichées en temps réel et en bleu.
-
-Ne pas chercher à contraindre une tangence à un axe X ou Y , la carré peu s\'effondrer au centre des axes
+Dessine un carré inscrit dans un cercle de géométrie de construction. Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône hexagonale rouge. Les coordonnées du pointeur sont affichées à côté en bleu en temps réel.
 
 ![](images/SketcherCreateSquareExample.png‎ )
 

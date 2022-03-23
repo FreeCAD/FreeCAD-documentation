@@ -22,13 +22,19 @@ Shows or hides the display of the defininig Polygon of a B-spline (see [this pag
 
 ## Применение
 
-1.  Select a B-spline and use the toolbar button **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Show/Hide B-spline control polygon](Sketcher_BSplinePolygon.md)**.
+1.  Select a B-spline and use the toolbar button **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Show/hide B-spline control polygon](Sketcher_BSplinePolygon.md)**.
+
+
+<div class="mw-translate-fuzzy">
 
 
 
 
 
-{{Sketcher Tools navi
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

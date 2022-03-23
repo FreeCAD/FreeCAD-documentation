@@ -95,6 +95,8 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Płaszczyzna tnąca](Std_ToggleClipPlane.md): Tymczasowo przycina obiekty.
 
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Wycinek przekroju](Part_SectionCut/pl.md): Tworzenie trwałych wycinków obiektów i zespołów. {{Version/pl|0.20}}
+
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Odwzorowanie tekstury](Std_TextureMapping.md): Tymczasowo umieszcza teksturę na wszystkich obiektach.
 
 -   Widoczność

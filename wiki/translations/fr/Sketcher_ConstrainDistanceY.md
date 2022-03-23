@@ -4,7 +4,7 @@
    Name/fr:Sketcher Contrainte distance en Y
    MenuLocation:Sketch → Géométries d'esquisse → Contrainte distance verticale
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Maj** + **V**
+   Shortcut:**I**
    SeeAlso:[Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md)
 ---
 
@@ -20,8 +20,8 @@ Fixe la distance verticale entre 2 points ou extrémités de lignes. Si un seul 
 
 1.  Choisissez un ou deux points ou une ligne.
 2.  Appelez l\'outil de plusieurs manières:
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Fixer la distance verticale...](Sketcher_ConstrainDistanceY/fr.md)** dans la barre d\'outils.
-    -   Utilisez le raccourci clavier **Maj** + **V**. (**V** est pour **V**ertical)
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)** dans la barre d\'outils.
+    -   Utilisez le raccourci clavier **I**
     -   Utilisez **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> Contrainte distance verticale** dans le menu supérieur.
 3.  Une boîte de dialogue contextuelle s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
 
@@ -50,7 +50,7 @@ La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

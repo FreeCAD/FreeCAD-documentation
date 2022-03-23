@@ -10,6 +10,9 @@
 
 # Sketcher Create3PointArc/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet einen Kreisbogen durch setzen von drei Punkten: Den Startpunkt, den Endpunkt und einen Punkt auf dem Kreisbogen.
@@ -25,7 +28,7 @@ Beim Start des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit ei
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -1,4 +1,3 @@
-# Import text and geometry from Inkscape/de
 ---
 - TutorialInfo:/de
    Topic: Import von Text und Geometrie aus Inkscape
@@ -7,12 +6,37 @@
    Author:r-frank
    FCVersion:0.16.6704
    Files:
-}}
+---
+
+# Import text and geometry from Inkscape/de
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
+
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
 
 ## Einführung
 
 Dieses Tutorium soll zeigen, wie Text oder Geometrie, die mit InkScape im svg-Format erstellt wurden, in FreeCAD importiert werden können.
 Für diese Bearbeitungen werden Inkscape 0.91 und FreeCAD 0.16.6704 unter Windows verwendet.
+
+
+</div>
+
+## General tips for importing from inkscape 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Allgemeine Tips zum Importieren aus inkscape 
 
@@ -24,6 +48,14 @@ Für diese Bearbeitungen werden Inkscape 0.91 und FreeCAD 0.16.6704 unter Window
     -   verwende keine Werte unter \"0,01 %\", dies wird höchstwahrscheinlich FreeCAD zum Absturz bringen.
     -   in diesem Fall löst das Löschen von \"system.cfg\" und \"user.cfg\" in deinem FreeCAD Benutzer Verzeichnis dieses Problem
 
+
+</div>
+
+## Importing text from inkscape 
+
+
+<div class="mw-translate-fuzzy">
+
 -   In inkscape nach dem Einfügen von Text (und vielleicht nach dem Anwenden von Effekten wie Biegen oder etwas anderem) stelle sicher das
     -   wähle deinen Text aus und wähle ** Pfad** → ** Objekt zu Pfad**
     -   Gruppierung deiner Objekte aufheben
@@ -33,6 +65,14 @@ Für diese Bearbeitungen werden Inkscape 0.91 und FreeCAD 0.16.6704 unter Window
 -   verwende [Entwurf](Draft_Workbench/de.md) [upgrade Werkzeug](Draft_Upgrade/de.md) auf jedem Pfadobjekt, um Flächen zu erzeugen
 -   verwende Polster oder [Part](Part_Workbench/de.md) [Extrusionswerkzeug](Part_Extrude/de.md) auf den Flächen verwenden, um Volumenkörper zu erhalten
 -   Du kannst deine Objekte verschmelzen oder Verbund verwenden, je nachdem, was du für deine weitere Arbeit vorhast
+
+
+</div>
+
+## Importing geometry from inkscape 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Importieren von Geometrie aus InkScape 
 
@@ -45,13 +85,20 @@ Da inkscape und FreeCAD unterschiedliche Ansätze zur Anwendung von Bemaßungen 
 -   Öffne die Datei in FreeCAD und wähle die Option \"SVG als Geometrie (importSVG)\".
 -   die Abmessungen der Objekte in inkscape und in FreeCAD sollten jetzt identisch sein
 
+
+</div>
+
+## Credits
+
+
+<div class="mw-translate-fuzzy">
+
 ## Danksagungen
 
 Dank an die Benutzer \"freecad-heini-1\" und \"herbk\" für die Tests und die wertvolle Rückmeldung.
 
 
-{{clear
----
+</div>
 
 
 

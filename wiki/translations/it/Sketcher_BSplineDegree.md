@@ -46,7 +46,7 @@ Mostra o nasconde la visualizzazione del **grado** di una B-spline (vedere: [B-s
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

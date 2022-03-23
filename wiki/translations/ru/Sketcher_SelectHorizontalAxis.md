@@ -20,14 +20,20 @@ Selects the horizontal axis of a sketch.
 ## Применение
 
 1.  Enter edit mode of sketch.
-2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Select Horizontal Axis** from the top menu.
+2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Select horizontal axis** from the top menu.
 3.  The horizontal axis of the sketch will be selected.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

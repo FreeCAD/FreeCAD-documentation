@@ -42,7 +42,7 @@ Copiază un simetric la un element al schiței față de o linie aleasă .
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

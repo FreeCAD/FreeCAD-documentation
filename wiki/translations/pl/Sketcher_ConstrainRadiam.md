@@ -3,8 +3,9 @@
    Name:Sketcher ConstrainRadiam
    MenuLocation:Sketch → Sketcher constraints → Constrain auto radius/diameter
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
+   Shortcut:**K** **S**
    Version:0.20
+   SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
 ---
 
 # Sketcher ConstrainRadiam/pl
@@ -47,7 +48,7 @@ No specific scripting applies. See the [Sketcher scripting](Sketcher_scripting.m
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

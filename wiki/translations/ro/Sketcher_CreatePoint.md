@@ -49,7 +49,7 @@ Modul de alinierea la grilă poate fi definit în [Sketcher Preferences](Sketche
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

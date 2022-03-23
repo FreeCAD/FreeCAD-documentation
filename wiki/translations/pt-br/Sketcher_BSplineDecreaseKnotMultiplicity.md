@@ -36,16 +36,16 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 ## Usage
 
 1.  Select a B-spline knot, either:
-    -   Press the button **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> [B-spline decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)**.
-    -   Use the menu **Sketch → Sketcher B-spline tools → [<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> Decrease knot multiplicity**.
+    -   Press the button **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:16px"> [Decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)**.
+    -   Use the menu **Sketch → Sketcher B-spline tools → [<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:16px"> Decrease knot multiplicity**.
 
-**Note:** Decreasing the multiplicity from 1 to 0 will remove the knot since the result would be a curve with an \"edge\" at the knot position (*C*^0^ continuity) and this is not supported. (To create curves with an \"edges\", you can create two splines and connect them.)
-
-
+**Note:** Decreasing the multiplicity from 1 to 0 will remove the knot since the result would be a curve with an \"edge\" at the knot position (*C*^0^ continuity) and this is not supported. (To create curves with an \"edge\", you can create two splines and connect them.)
 
 
 
-{{Sketcher Tools navi
+
+
+{{Sketcher_Tools_navi
 
 }}
 

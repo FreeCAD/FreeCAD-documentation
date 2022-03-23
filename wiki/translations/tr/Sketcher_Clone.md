@@ -48,7 +48,7 @@ Bir klonun, klonunun bir Eskiz Kopyası haline geldiğine dikkat edin. Bağlant�
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

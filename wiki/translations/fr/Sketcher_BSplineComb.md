@@ -5,7 +5,7 @@
    MenuLocation:Sketch → Outils d'esquisse B-Spline → Afficher/masquer le peigne de courbure de la B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[Sketcher B-spline](Sketcher_CompCreateBSpline/fr.md)
+   SeeAlso:[Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
 ---
 
 # Sketcher BSplineComb/fr
@@ -22,13 +22,13 @@ Le peigne de courbure indique la courbure (valeur de la dérivée de second ordr
 ## Utilisation
 
 1.  Sélectionnez une B-spline
-2.  Soit utiliser le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Afficher/Masquer le peigne de courbure B-spline](Sketcher_BSplineComb/fr.md)** ou utiliser le menu **Sketch → Outil d'esquisse B-spline → Afficher/Masquer le peigne de courbure B-spline**.
+2.  Soit utiliser le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Afficher/Masquer le peigne de courbure B-spline](Sketcher_BSplineComb/fr.md)** ou utiliser le menu **Sketch → Outil d'esquisse B-spline → [<img src=images/Sketcher_BSplineComb.svg style="width:16px"> Afficher/Masquer le peigne de courbure B-spline**.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -1,9 +1,9 @@
 ---
 - GuiCommand:
    Name:Sketcher ConstrainInternalAlignment
-   MenuLocation:Sketch → Sketcher constraints → Constrain InternalAlignment
+   MenuLocation:Sketch → Sketcher constraints → Constrain internal alignment
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**Ctrl** + **A**
+   Shortcut:
    Version:0.15
    SeeAlso:[Sketcher Show/Hide Internal Geometry](Sketcher_RestoreInternalAlignmentGeometry.md), [Sketcher Ellipse by Center](Sketcher_CreateEllipseByCenter.md)
 ---
@@ -23,8 +23,7 @@ The constraint is for experienced users because its usage is not as straight for
 1.  Select elements to be aligned and an ellipse. The ellipse must be selected last. Accepted are up to two lines and up to two points.
 2.  Invoking the constraint can be done several ways:
     -   Pressing the **[<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> [Constrain internal alignment](Sketcher_ConstrainInternalAlignment.md)** button in the toolbar.
-    -   Using the **Ctrl** + **A** keyboard shortcut.
-    -   Using the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Constrain InternalAlignment** entry from the top menu.
+    -   Using the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Constrain internal alignment** entry from the top menu.
 
 The first line that was selected gets aligned to become ellipse\'s major diameter (but if it is not occupied already by another line, otherwise it will become minor diameter). The second line is aligned to become minor radius. The lines are automatically switched to [construction](Sketcher_ToggleConstruction.md).
 
@@ -54,7 +53,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

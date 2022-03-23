@@ -4,6 +4,7 @@
    Name/fr:Sketcher Rainure
    MenuLocation:Sketch → Géométries d'esquisse → Créer une rainure
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **S**
 ---
 
 # Sketcher CreateSlot/fr
@@ -30,7 +31,7 @@ Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix b
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

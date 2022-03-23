@@ -41,7 +41,7 @@ Când este activat acest instrument, indicatorul mouse-ului se transformă într
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

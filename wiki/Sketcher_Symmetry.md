@@ -3,6 +3,7 @@
    Name:Sketcher Symmetry
    MenuLocation:Sketch → Sketcher tools → Symmetry
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**Z** **S**
    Version:0.16
    SeeAlso:[Sketcher MirrorSketch](Sketcher_MirrorSketch.md)
 ---
@@ -24,7 +25,7 @@ Note that no extra symmetry constraint will be added.
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

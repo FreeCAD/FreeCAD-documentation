@@ -3,6 +3,7 @@
    Name:Sketcher CreatePeriodicBSpline
    MenuLocation: Sketch → Sketcher geometries → Create periodic B-spline
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **B** **P**
    Version:0.17
    SeeAlso:[Sketcher B-spline](Sketcher_CreateBSpline.md)
 ---
@@ -21,7 +22,7 @@ This tool traces a periodic (closed) B-spline curve from its control points. (Se
 
 ## Usage
 
-1.  Press the **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)** button.
+1.  Press the **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Create periodic B-spline](Sketcher_CreatePeriodicBSpline.md)** button.
 2.  Create a series of points by clicking in the [3D view](3D_view.md). While the command is active, the created points are connected with straight lines, and a construction circle is created centered on each point.
 3.  Optionally press **D** before terminating the input to define the degree of the B-Spline. <small>(v0.20)</small> 
 4.  Optionally press **Backspace** before terminating the input to delete the last created control point. <small>(v0.20)</small> 
@@ -42,7 +43,7 @@ This tool traces a periodic (closed) B-spline curve from its control points. (Se
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

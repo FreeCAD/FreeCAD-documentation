@@ -12,11 +12,12 @@ This category collects pages related to artwork existing in the program, like ic
 | [Artwork Mesh/pl](wiki/Artwork Mesh/pl.md) | [Artwork MeshPart/pl](wiki/Artwork MeshPart/pl.md) | [Artwork OpenSCAD/pl](wiki/Artwork OpenSCAD/pl.md) |
 | [Artwork Part/pl](wiki/Artwork Part/pl.md) | [Artwork PartDesign/pl](wiki/Artwork PartDesign/pl.md) | [Artwork Path/pl](wiki/Artwork Path/pl.md) |
 | [Artwork Plot/pl](wiki/Artwork Plot/pl.md) | [Artwork Points/pl](wiki/Artwork Points/pl.md) | [Artwork Raytracing/pl](wiki/Artwork Raytracing/pl.md) |
-| [Artwork Reinforcement/pl](wiki/Artwork Reinforcement/pl.md) | [Artwork ReverseEngineering/pl](wiki/Artwork ReverseEngineering/pl.md) | [Artwork Robot/pl](wiki/Artwork Robot/pl.md) |
-| [Artwork Ship/pl](wiki/Artwork Ship/pl.md) | [Artwork Sketcher/pl](wiki/Artwork Sketcher/pl.md) | [Artwork Splash screen/pl](wiki/Artwork Splash screen/pl.md) |
-| [Artwork Spreadsheet/pl](wiki/Artwork Spreadsheet/pl.md) | [Artwork Start/pl](wiki/Artwork Start/pl.md) | [Artwork Surface/pl](wiki/Artwork Surface/pl.md) |
-| [Artwork TechDraw/pl](wiki/Artwork TechDraw/pl.md) | [Artwork Test/pl](wiki/Artwork Test/pl.md) | [Artwork Tux/pl](wiki/Artwork Tux/pl.md) |
-| [Artwork Web/pl](wiki/Artwork Web/pl.md) | [Artwork/pl](wiki/Artwork/pl.md) |
+| [Artwork Reinforcement/pl](wiki/Artwork Reinforcement/pl.md) | [Artwork Render/pl](wiki/Artwork Render/pl.md) | [Artwork ReverseEngineering/pl](wiki/Artwork ReverseEngineering/pl.md) |
+| [Artwork Robot/pl](wiki/Artwork Robot/pl.md) | [Artwork Ship/pl](wiki/Artwork Ship/pl.md) | [Artwork Sketcher/pl](wiki/Artwork Sketcher/pl.md) |
+| [Artwork Splash screen/pl](wiki/Artwork Splash screen/pl.md) | [Artwork Spreadsheet/pl](wiki/Artwork Spreadsheet/pl.md) | [Artwork Start/pl](wiki/Artwork Start/pl.md) |
+| [Artwork Surface/pl](wiki/Artwork Surface/pl.md) | [Artwork TechDraw/pl](wiki/Artwork TechDraw/pl.md) | [Artwork Test/pl](wiki/Artwork Test/pl.md) |
+| [Artwork Tux/pl](wiki/Artwork Tux/pl.md) | [Artwork Web/pl](wiki/Artwork Web/pl.md) | [Artwork/pl](wiki/Artwork/pl.md) |
+|
 
 
 

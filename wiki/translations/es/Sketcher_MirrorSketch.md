@@ -24,7 +24,13 @@ Notas:
 -   Se pueden seleccionar varios croquis antes de aplicar la operación.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

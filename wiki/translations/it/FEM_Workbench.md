@@ -166,9 +166,15 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solutore Elmer](FEM_SolverElmer/it.md): Crea il controller del risolutore per Elmer. È indipendente da altri oggetti del risolutore.
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solutore Z88](FEM_SolverZ88/it.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Equation elasticity](FEM_EquationElasticity/it.md):
 

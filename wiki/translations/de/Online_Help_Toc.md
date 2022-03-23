@@ -53,6 +53,8 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual:Intro
 
 -   [Häufig gestellte Fragen (HGF)](Frequently_asked_questions/de.md)
 
+-   [Workarounds](Workarounds.md)
+
 -   [Tutorien](Tutorials/de.md)
 
 -   FreeCAD Anpassen

@@ -48,7 +48,7 @@ Notare che non viene aggiunto nessun vincolo di simmetria aggiuntivo.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

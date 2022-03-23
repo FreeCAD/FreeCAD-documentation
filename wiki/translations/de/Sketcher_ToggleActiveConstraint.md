@@ -10,6 +10,9 @@
 
 # Sketcher ToggleActiveConstraint/de
 
+
+</div>
+
 ## Beschreibung
 
 
@@ -59,10 +62,16 @@ sketch.toggleActive(3)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

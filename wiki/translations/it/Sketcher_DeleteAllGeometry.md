@@ -39,7 +39,7 @@ Questo strumento cancella tutta la geometria dallo schizzo che si sta modificand
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

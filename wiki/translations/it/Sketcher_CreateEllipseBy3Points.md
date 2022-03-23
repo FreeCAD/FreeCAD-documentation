@@ -81,7 +81,7 @@ Premere il pulsante **[<img src=images/Sketcher_CreateEllipse_3points.png style=
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

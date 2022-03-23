@@ -22,7 +22,10 @@ Jest to rozwiązanie podobne do naciśnięcia klawisza **Esc**.
 4.  Narzędzie jest dezaktywowane, a wskaźnik powraca do roli zwykłego wskaźnika.
 
 
-{{Sketcher Tools navi
+
+
+
+{{Sketcher_Tools_navi
 
 }}
 

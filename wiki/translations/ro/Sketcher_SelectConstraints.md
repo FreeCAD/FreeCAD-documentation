@@ -27,21 +27,11 @@ Selectați constrângerile unui element al schiței.
 
 </div>
 
-## Note
-
-
-<div class="mw-translate-fuzzy">
-
-Nu funcționează cu constrângeri Point-on-Object constraints. Disponibil începând cu FreeCAD v 0.15.
-
-
-</div>
 
 
 
 
-
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

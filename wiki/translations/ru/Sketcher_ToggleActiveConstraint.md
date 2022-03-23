@@ -2,9 +2,10 @@
 - GuiCommand:
    Name:Sketcher ToggleActiveConstraint
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   MenuLocation:Sketch → Sketcher constraints → Toggle activate/deactivate constraint
-   SeeAlso:[Sketcher Toggle driving constraints](Sketcher_ToggleDrivingConstraint.md)
+   MenuLocation:Sketch → Sketcher constraints → Activate/deactivate constraint
+   Shortcut:**K** **Z**
    Version:0.19
+   SeeAlso:[Sketcher Toggle driving constraints](Sketcher_ToggleDrivingConstraint.md)
 ---
 
 # Sketcher ToggleActiveConstraint/ru
@@ -58,10 +59,16 @@ sketch.toggleActive(3)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

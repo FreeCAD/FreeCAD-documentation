@@ -1,7 +1,7 @@
 # Category:Tutorials/en
-This is a complete list of pages under [:Category:Tutorials/en](:Category:Tutorials/en.md).
+This is a complete list of pages under [:Category:Tutorials](:Category_Tutorials.md).
 
-See also [Tutorials](Tutorials/en.md) and [video tutorials](video_tutorials/en.md)
+See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 ### Contents
 
@@ -44,4 +44,4 @@ See also [Tutorials](Tutorials/en.md) and [video tutorials](video_tutorials/en.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [User_Documentation](Category_User_Documentation.md) > Category:Tutorials/en

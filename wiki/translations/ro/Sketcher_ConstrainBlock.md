@@ -22,7 +22,7 @@
 
 </div>
 
-It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-Splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
+It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
 
 
 <div class="mw-translate-fuzzy">
@@ -56,7 +56,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

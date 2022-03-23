@@ -65,12 +65,11 @@ En bref, un événement de mise à l\'échelle d\'unités, est localisé avec pr
 
 Atteindre une telle flexibilité, est particulièrement nécessaire lorsque l\'on commence à traiter les propriétés des matériaux, qui peuvent avoir des unités très différentes, et difficiles à gérer manuellement.
 
-Le raisonnement proposé, permet la manutention des unités telles que décrites dans le [\"Guide for the Use of the International System of Units (SI)\"](http://physics.nist.gov/cuu/pdf/sp811.pdf) et [\"The International System of Units (SI)\"](http://physics.nist.gov/Pubs/SP330/sp330.pdf), tous les deux du [NIST](http://www.nist.gov/index.html).
+Le raisonnement proposé permet de manipuler les unités telles que décrites dans [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) et le [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf) du NIST.
 
-Dans cette proposition, on rappelle d'abord dans la section [ Réflexion](Units/fr#Réflexion.md) quels sont les contextes possibles pour lesquels la gestion des unités est requise.
+Dans cette proposition, on rappelle d'abord dans la section [Réflexions](#R.C3.A9flexions.md) quels sont les contextes possibles pour lesquels la gestion des unités est requise.
 
-Dans la section [ Organisation](Units/fr#Organisation.md), nous présentons le modèle de données retenu pour la gestion des unités basé sur 3 objets: l**\'unité**, une **base de données d\'unités**, et le **système d\'unité**.
-Enfin, une courte API d\'un 4ème objet appelée l**\'unit manager** est aussi présentée.
+Dans la section [Organisation](Units/fr#Organisation.md), nous présentons le modèle de données retenu pour la gestion des unités basé sur 3 objets: *unité*, *base de données d\'unités*, et *système d\'unité*. Enfin, une courte API d\'un 4ème objet appelée *unit manager* est aussi présentée.
 
 ## Résultat
 
@@ -78,9 +77,9 @@ Merci pour cette extension, nous visons à faciliter l\'échelle d\'unité qui p
 
 L\'échange de données, entre ces deux types d\'activités devient plus facile avec cette extension.
 
-## Réflexion
+## Réflexions
 
-Dans cette section, sont présents les contextes d\'utilisation d\'un tel système de gestion d\'unité. A partir de ces contextes, nous sommes alors en mesure de définir ses spécifications techniques.
+Dans cette section sont mis en évidence les contextes d\'utilisation d\'un tel système de gestion des unités. A partir de ces contextes, nous sommes alors en mesure de définir ses spécifications techniques.
 
 2 contextes, sont essentiellement donnés, à titre d\'exemple.
 
@@ -90,9 +89,9 @@ Ce cas est probablement le cas le plus fréquent. Vous recevez un fichier conten
 
 Dommage \...
 
-Vous êtes un expert en [FE modélisation](http://fr.wikipedia.org/wiki/Méthode_des_éléments_finis), et vous travaillerez généralement avec, des **millimètres** pour la longueur, **MegaPascal** pour la pression, **tonne** pour la masse \...
+Vous êtes un expert en modélisation par éléments finis, et vous travaillez habituellement avec le millimètre pour la longueur, le mégaPascal pour la contrainte, la tonne pour la masse\...
 
-Dans ce contexte, la gestion de l\'unité est nécessaire à l\'échelle des données, à partir d\'un système unitaire initialement défini dans le fichier d\'entrée, dans le système défini par l\'utilisateur de l\'unité cible.
+Dans ce contexte, la gestion des unités est nécessaire pour mettre à l\'échelle les données à partir d\'un système d\'unités initial défini dans le fichier d\'entrée vers un système d\'unités cible défini par l\'utilisateur.
 
 ### Contexte 2 : changement entre systèmes d\'unités pendant l\'exécution 
 
@@ -102,28 +101,28 @@ Dans ce cas, vous pouvez être en même temps celui qui réalise le dessin, et c
 
 ### Logique d\'échelle d\'une unité 
 
-Dans la section [Réflexion](Units/fr#Réflexion.md), deux contextes ont été présentés lors de l\'utilisation de la mise à l\'échelle d\'unités. Certains éléments doivent être souslignés dans ces deux contextes.
+Dans la section [Réflexions](Units/fr#Réflexions.md), deux contextes ont été présentés lors de l\'utilisation de la mise à l\'échelle d\'unités. Certains éléments doivent être souslignés dans ces deux contextes.
 
 #### Cohérence d\'unités tout au long de l\'instance, en cours d\'exécution 
 
-Le système proposé, est basé sur une hypothèse : l\'utilisateur, travaille dans un système d\'unité cohérent. Par exemple, cela signifie que si l\'utilisateur exprime la longueur en millimètres, nécessairement la surface sera exprimée en millimètres carrés, et non en mètres carrés. Il s\'agit d\'une **hypothèse**.
+Le système proposé repose sur une hypothèse de base : l\'utilisateur travaille dans un système d\'unités cohérent. Par exemple, cela signifie que si l\'utilisateur exprime la longueur en millimètres, nécessairement les aires seront exprimées en termes de millimètres carrés, et non de mètres carrés. C\'est **l\'hypothèse 1**.
 
 #### Système d\'unité 
 
-En raison d**\'une hypothèse** , il est pertinent de définir un système d\'unités. Un système d\'unité s\'applique à :
+Grâce à l*\'hypothèse 1*, il est possible et pertinent de définir un système d\'unités. Un système d\'unités s\'applique à :
 
--   une instance FreeCAD en cours d\'exécution, et, dans laquelle vous travaillez.
--   ou bien, peut également s\'appliquer globalement au contenu d\'un fichier ouvert.
+-   A une instance de FreeCAD en cours d\'exécution dans laquelle vous travaillez
+-   Ou il peut également s\'appliquer globalement au contenu d\'un fichier d\'entrée.
 
-Selon Guide [\"Guide for the Use of the International System of Units (SI)\"](http://physics.nist.gov/cuu/pdf/sp811.pdf) du [NIST](http://www.nist.gov/index.html), il y a 7 unités physiques de base. Nous avons choisi d\'exprimer un système d\'unités en fonction de ces 7 unités de base.
+Selon le [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) du NIST, il existe 7 unités physiques de base. Nous avons choisi d\'exprimer un système d\'unités en termes de ces 7 unités de base.
 
-Lorsque vous travaillez au sein d\'une instance **FreeCAD**, l\'utilisateur doit d\'abord définir le système d\'unités selon laquelle il/elle travaille, avant qu\'il/elle décide de passer à un autre système d\'unité, ou avant d\'importer des données à partir d\'un fichier.
+Lorsqu\'il travaille dans une instance de FreeCAD, l\'utilisateur doit donc d\'abord définir le système d\'unités selon lequel il travaille avant de décider de passer à un autre système d\'unités, ou avant d\'importer des données d\'un fichier d\'entrée.
 
-Ce système s\'appliquera, jusqu\'à ce que l\'utilisateur décide de changer l\'unité. S\'il/elle le fait, toutes les données de **Grandeur** seront réduites.
+Ce système d\'unités s\'appliquera jusqu\'à ce que l\'utilisateur décide de le changer. S\'il le fait, toutes les données avec des dimensions seront mises à l\'échelle.
 
-En considérant cette **seule hypothèse**, toutes les données que l\'utilisateur va entrer manuellement dans FreeCAD, sont supposées être cohérentes avec le système d\'unité choisi.
+En considérant l*\'hypothèse 1*, toutes les données que l\'utilisateur saisira manuellement dans FreeCAD sont supposées être cohérentes avec le système d\'unités choisi.
 
-C\'est l\'avantage, de travailler avec un **système d\'unités**, défini au niveau de l\'instance en cours d\'exécution de FreeCAD, ou, au niveau du fichier de données, (au lieu de l\'unité définie au niveau des données) c\'est alors, que la gestion de l\'unité est considérablement simplifiée.
+L\'avantage de travailler avec un *système d\'unités* défini au niveau d\'une instance d\'exécution de FreeCAD, ou au niveau d\'un fichier de données (au lieu des *unités* qui sont définies au niveau des données) est alors que la gestion des unités est considérablement simplifiée.
 
 Voici quelques exemples de systèmes d\'unités.
 
@@ -134,143 +133,131 @@ Voici quelques exemples de systèmes d\'unités.
 
 #### Unités de base et dérivées 
 
-les unités dérivées sont créées par la combinaison d\'unités de base. Par exemple, d\'une **accélération (m/s)**, combine à la fois la **longueur**, et, le **temps**. Une image intéressante présentant les relations entre les unités de base, et, les unités dérivées, peut être vu [ici](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf), aussi de [NIST](http://www.nist.gov/index.html).
+Les unités dérivées sont créées par la combinaison d\'unités de base. Par exemple, une accélération (m/s) combine en même temps la longueur et le temps. Une image intéressante présentant les relations entre les unités de base et les unités dérivées peut être consultée [ici](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf) également depuis NIST.
 
 Merci, à la définition d\'une unité centrale, il est possible que l\'utilisateur travaille avec n\'importe quel type d\'unités dérivées, sans la nécessité, que les développeurs de FreeCAD les prévoient à l\'avance.
 
-#### Symboles des unités de base dérivées 
+#### Symboles des unités de base et dérivées 
 
-Selon [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf), les symboles pour préciser les unités, sont officiellement approuvées. Deux conséquences peuvent être misent en évidence à partir de cela.
+Selon [Le système international d\'unités (SI)](https://physics.nist.gov/cuu/Units/index.html), les symboles pour spécifier une unité sont officiellement approuvés. Deux conséquences peuvent en être mises en évidence.
 
--   il n\'est pas facile pour un programme informatique de travailler avec les symboles d\'unités, parce que certains symboles, sont des [lettres grecques](http://fr.wikipedia.org/wiki/Alphabet_grec). Par conséquent, le traitement par un programme peut être difficile.
--   alors que certaines unités, et, leurs symboles peuvent être largement utilisés, ils peuvent, ne pas être approuvés officiellement, comme par exemple l\'unité, la **tonne** (voir p32 [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf)).
+-   Il n\'est pas facile pour un programme informatique de travailler avec les symboles d\'unités car certains sont des lettres grecques par exemple. Ils peuvent donc être un peu difficiles à traiter par un programme.
+-   Alors que certaines unités et leurs symboles sont largement utilisés, ils peuvent ne pas être approuvés officiellement, comme par exemple l\'unité \"tonne\" (voir la page 55 du [Guide d\'utilisation du Système international d\'unités (SI)](https://physics.nist.gov/cuu/pdf/sp811.pdf)).
 
-Pour surmonter ces limites, et, garder une bonne flexibilité, le système proposé favorise l\'utilisation des **grandeurs d\'unités** au lieu des **symboles d\'unité**, qui restent néanmoins disponibles pour une raison d\'ergonomie.
+Pour surmonter ces limitations et rester flexible, le système proposé privilégie l\'utilisation de magnitudes unitaires plutôt que de symboles unitaires, qui restent néanmoins disponibles pour une raison d\'ergonomie.
 
 ### Modèle de données 
 
-Les trois objets de base, du système de gestion de l\'unité sont présents, à savoir **l\'unité**, le **dictionnaire d\'unités** et le **système d\'unités**.
+Les trois objets de base, du système de gestion de l\'unité sont présents, à savoir *unité*, *dictionnaire d\'unités* et *système d\'unités*.
 
 #### Unité
 
-Comme avant-propos, il est important de souligner, que l\'objet unité en lui-même indique, une **grandeur** comme la longueur, la masse, le temps \... Il n\'en précise pas l\'ampleur, comme le mètre, millimètre, kilomètre \... Cette dernière information est spécifiée par le système d\'unité.
+En préambule, il est important de souligner qu\'un objet *unité* n\'indique en soi qu\'une **dimension** comme la longueur, la masse, le temps\... Il ne spécifie pas une **magnitude** comme le mètre, le millimètre, le kilomètre\... Cette dernière information est spécifiée par le système d\'unités.
 
-##### Grandeur
+#### Dimension
 
-Obligatoirement, une chaîne, indique la **Grandeur** de l\'unité. La **Grandeur** des 7 unités de base sont indiquées ci-dessous (à partir de [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)).
+Chaîne obligatoire indiquant la *dimension* de l\'unité. Les *dimensions* des 7 unités de base sont indiquées ci-dessous (extrait du [Guide d\'utilisation du système international d\'unités (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)).
 
-      **Grandeur**
-  --- 
-  1   LENGTH
-  2   MASS
-  3   TIME
-  4   ELECTRIC CURRENT
-  5   THERMODYNAMIC TEMPERATURE
-  6   AMOUNT OF SUBSTANCE
-  7   LUMINOUS INTENSITY
+-   LONGUEUR
+-   MASSE
+-   TEMPS
+-   COURANT ÉLECTRIQUE
+-   TEMPÉRATURE THERMODYNAMIQUE
+-   QUANTITÉ DE SUBSTANCE
+-   INTENSITÉ LUMINEUSE
 
-L\'attribut de **Grandeur** permet d\'identifier l\'unité. Deux unités ne peuvent pas partager la même **Grandeur**.
+L\'attribut *Dimension* permet d\'identifier l\'unité. Deux unités ne peuvent pas partager la même *dimension*.
 
 ##### Signature
 
-La signature, est dans tableau d\'INTEGER (entiers) de 7 cases, la signature doit obligatoirement avoir une taille de 7 (chiffres), la position du chiffre dans le tableau définit l\'unité.
+Tableau d\'entiers obligatoires de taille 7 (nombre d\'unités de base) qui définit ce qu\'est l\'unité. La signature des 7 unités de base sont :
 
-La signature des 7 unités de base sont les suivantes:
+-   LONGUEUR : \[1,0,0,0,0,0,0\]
+-   MASSE : \[0,1,0,0,0,0,0,0\].
+-   TEMPS : \[0,0,1,0,0,0,0\]
+-   COURANT ÉLECTRIQUE : \[0,0,0,1,0,0,0\]
+-   TEMPÉRATURE THERMODYNAMIQUE : \[0,0,0,0,0,1,0,0\].
+-   QUANTITÉ DE SUBSTANCE : \[0,0,0,0,0,0,1,0\]
+-   INTENSITÉ LUMINEUSE : \[0,0,0,0,0,0,0,1\]
 
-      **Grandeur**
-  --- 
-  1   LENGTH
-  2   MASS
-  3   TIME
-  4   ELECTRIC CURRENT
-  5   THERMODYNAMIC TEMPERATURE
-  6   AMOUNT OF SUBSTANCE
-  7   LUMINOUS INTENSITY
+À partir de ces 7 unités, nous sommes ensuite en mesure d\'exprimer toutes les unités dérivées définies dans le [Guide d\'utilisation du système international d\'unités (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) et d\'en créer de nouvelles selon les besoins, comme par exemple :
 
-À partir de ces 7 unités, nous sommes en mesure d\'exprimer toutes les unités dérivées, définies dans [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf), et, au besoin, d\'en créer de nouvelles, comme par exemple :
+-   DENSITÉ DE MASSE : \[-3,1,0,0,0,0,0\]
+-   SURFACE : \[0,2,0,0,0,0,0,0\]
 
-      **Grandeur**
-  --- 
-  1   MASS DENSITY
-  2   AREA
-
-La **signature**, est l\'attribut de mise à l\'échelle, qui peut être réalisée pour l\'unité, d\'une manière générique.
+*Signature* est l\'attribut grâce auquel la mise à l\'échelle des unités peut être réalisée de manière générique.
 
 ##### Symboles
 
-Un tableau de **\[real, string\]** (sens **\[grandeur** (magnitude), **symbol\]**) qui répertorie tous les symboles connus par FreeCAD. Merci pour ce tableau, de cette manière, l\'API de mise à l\'échelle d\'une unité devient plus ergonomique, car les symboles et grandeurs connexes sont liées.
+Tableau de \[real, string\] (signifiant \[*magnitude*, *symbol*\]) qui liste tous les *symbols* connus par FreeCAD. Grâce à ce tableau, l\'API de mise à l\'échelle des unités devient plus ergonomique car les *symboles* et les *magnitudes* associées sont liés.
 
 Ce tableau peut être étendu si nécessaire.
 
-Par exemple, la liste des **symboles** de l\'unité de longueur, et ses associés de **grandeurs** (magnitudes) est :
+Par exemple, la liste des *symboles* de l\'unité de LONGUEUR, et leurs *magnitudes* correspondantes est la suivante :
 
- [1e+12,"Tm"],[1e+09,"Gm"],[1e+06,"Mm"],
+[1e+12,"Tm"],[1e+09,"Gm"],[1e+06,"Mm"],
 [1e+03,"km"],[1e+02,"hm"],[1e+01,"dam"],
 [1e+00,"m"],[1e-01,"dm"],[1e-02,"cm"],
 [1e-03,"mm"],[1e-06,"µm"],[1e-09,"nm"],
 [1e-12,"pm"],[1e-15,"fm"]
 
-Les **symboles** standards peuvent être trouvés sur le site de [NIST](http://physics.nist.gov/cuu/Units/units.html) pages 23 à 26 et page 32 (**metric ton** ou **tonne** ) du [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf).
+Les *symboles* standards peuvent être trouvés sur le site de [NIST](http://physics.nist.gov/cuu/Units/units.html) pages 23 à 26 et page 32 (*metric ton* ou *tonne*) du [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf).
 
-#### Base de données d\'unités 
+#### Dictionnaire des unités 
 
-Toutes les unités disponibles dans FreeCAD, et les nouvelles créés par l\'utilisateur, doivent être stockées dans **unit dictionary** , qui est un fichier [.XML](http://fr.wikipedia.org/wiki/Extensible_Markup_Language) (fichier de configuration FreeCAD), de façon à être récupéré en cas de besoin, soit lors de la réalisation d\'échelle unité.
+Toutes les unités disponibles dans FreeCAD, et les nouvelles unités créées par l\'utilisateur, doivent être stockées dans le *dictionnaire des unités*, qui est un fichier XML (fichier de configuration de FreeCAD), afin d\'être récupérées en cas de besoin, c\'est à dire lors de la mise à l\'échelle des unités.
 
 ##### Unités
 
-Tableau d\'unités, contenu dans **unit dictionary** (le dictionnaire d\'unités).
+Tableau d\'unités, contenu dans *unit dictionary* (le dictionnaire d\'unités).
 
-#### Unit system 
+#### Système d\'unité 
 
-Un **système d\'unité** est l\'objet qui permet à l\'utilisateur de définir l\'unité actuelle (grandeur), de chacune des unités de base avec lesquelles il/elle travaille. Par exemple, sachant que l\'utilisateur travaille en **millimétres**, **tonnes**, et **secondes**, à l\'utilisation d\'un système d\'unités, FreeCAD peut savoir que l\'énergie est exprimée en termes de **millijoule**, la force en termes de **Newton**, et la pression en **mégapascal**. Ainsi, un système d\'unité est uniquement défini par un **nom** (par exemple **Standard unit system**), et une **table de grandeurs**, en spécifiant pour chacune des 7 unités de base son correspondant **grandeur**.
+Un *système d\'unités* est l\'objet qui permet à l\'utilisateur de définir l\'unité courante *magnitude* de chaque unité de base avec laquelle il travaille. Par exemple, sachant que l\'utilisateur travaille avec le millimètre, la tonne, et la seconde, grâce à l\'utilisation d\'un système d\'unités, FreeCAD peut savoir que l\'énergie est exprimée en termes de milliJoule, la force en termes de Newton, et la contrainte en termes de MegaPascal. Ainsi, un système d\'unités n\'est défini que par un *nom* (par exemple *Système d\'unités standard*) et un *tableau de magnitude* spécifiant pour chacune des 7 unités de base, quelle est sa *magnitude* correspondante.
 
 ##### Nom
 
 Chaîne permettant à l\'utilisateur d\'identifier quel est le système d\'unités.
 
-##### Grandeur (Magnitude) 
+##### Magnitudes
 
-En spécifiant la Grandeur de chacune des 7 unités de base, le système d\'unités est définie.
+En spécifiant la magnitude des 7 unités de base, on définit un système d\'unités.
 
-Par exemple **\[1e-03, 1e +03, 1, 1, 1, 1, 1\]**, ce qui signifie, millimètre, tonne, seconde, ampère, kelvin, mole, candela.
+Par exemple \[1e-03, 1e+03, 1, 1, 1, 1, 1\], signifiant millimètre, tonne, seconde, ampère, Kelvin, mole, candela.
 
 #### Gestion de l\'API des unités 
 
-Seule, la logique de certaines méthodes est présentée, afin de mettre en évidence certaines caractéristiques. Ces méthodes pourraient appartenir à un objet appelé, **Unit manager** (gestionnaire d\'Unités).
+Seule, la logique de certaines méthodes est présentée, afin de mettre en évidence certaines caractéristiques. Ces méthodes pourraient appartenir à un objet appelé, *Unit manager* (gestionnaire d\'unités).
 
 ##### Vérification du dictionnaire de unités 
 
 ###### isValid
 
-Le dictionnaire des unité peut être un fichier [.XML](http://fr.wikipedia.org/wiki/Extensible_Markup_Language) (fichier de configuration de FreeCAD). Il contient une liste d\'unités définies. Un tel dictionnaire, est nécessaire pour le système de gestion des unités proposées pour travailler.
+Le dictionnaire des unités peut être un fichier XML (fichier de configuration FreeCAD). Il contient une liste d\'unités définies. Un tel dictionnaire est nécessaire pour que le système de gestion des unités proposé fonctionne.
 
-Il faut remplir certaines conditions qui doivent être vérifiées avant d\'activer le système de gestion d\'unités.
+Il doit remplir certaines conditions qui doivent être vérifiées avant d\'activer le système de gestion de l\'unité. Ces conditions sont :
 
-Ces conditions sont les suivantes :
-
--   vérifier que toutes les unités de base sont définies.
--   vérifier que la grandeur n\'est pas définie deux fois dans les unités.
--   vérifier que le symbole n\'est pas défini deux fois dans tous les symboles existants.
--   vérifier que les signatures de toutes les unités ont toutes la même taille.
--   vérifier qu\'un symbole standard (avec la **grandeur** fixée sur 1) est défini pour l\'ensemble des unités
+-   vérifier que toutes les unités de base sont définies
+-   vérifier qu\'une \"dimension\" n\'est pas définie deux fois à travers les unités
+-   vérifier qu\'un *symbole* n\'est pas défini deux fois dans tous les symboles existants
+-   vérifier que les *signatures* de toutes les unités ont toutes la même taille
+-   vérifier qu\'un *symbole standard* (pour lequel la *magnitude* est 1) est défini pour toutes les unités
 
 ###### isCompatibleWithThisSignature
 
-Un dictionnaire d\'unités, définit un ensemble d\'unités, et, leurs grandeurs connues. Lors de la gestion d\'une unité, il est important de vérifier, que sa signature est compatible avec l\'ensemble des unités enregistrées dans le dictionnaire des unités, pour pouvoir les traiter.
+Un dictionnaire des unités définit un ensemble d\'unités et leurs grandeurs connues. Lors de la gestion d\'une unité, il est pertinent de vérifier que sa signature est compatible avec l\'ensemble des unités enregistrées dans le dictionnaire des unités, afin de pouvoir la traiter. Cette vérification comprend :
 
-Ce contrôle comprend :
-
--   Vérifiez que la longueur de la **signature**, est de la même taille que la **signature** de l\'unité dans le dictionnaire.
+-   vérifier que la longueur de la *signature* en entrée est de la même taille que les *signatures* des unités du dictionnaire des unités.
 
 ##### Echelle des unités 
 
 ###### scaleUnitFromSymbolToSymbol
 
-Connaissant la valeur initiale d\'une unité par son symbole, le symbole, de l\'unité cible, donne la valeur de l\'échelle.
+Connaissant une valeur, une unité initiale par son symbole, l\'unité cible par son symbole, mettre à l\'échelle la valeur.
 
 ###### scaleUnitFromSymbolToUnitSystem
 
-Connaissant la valeur initiale d\'une unité par son symbole, le système d\'unité cible, donne la valeur de l\'échelle.
+Connaissant une valeur, une unité initiale par son symbole, le système d\'unités cible, mettez la valeur à l\'échelle.
 
 ###### scaleUnitFromUnitSystemToSymbol
 
@@ -278,7 +265,7 @@ Connaissant une valeur initiale, d\'un système unitaire, le symbole, de l\'unit
 
 #### Les motivations pour une telle gestion : exemple d\'application 
 
-Supposons, que nous allons mettre en place un modèle d\'éléments finis. Pour construire notre modèle, nous avons besoin de mailles (mesh), de propriétés de matériaux, et de définir les paramètres numériques. Considérant qu\'il peut y avoir des dizaines de propriétés de matériaux à gérer, exprimées avec des unités différentes, parfois pas toujours très communes, il est intéressant pour l\'utilisateur de n\'avoir à spécifier, qu\'un système global d\'unité, sans trop de soucis.
+Supposons que nous allons mettre en place un modèle d\'éléments finis. Pour construire notre modèle, nous avons besoin du maillage, des propriétés des matériaux, et de définir les paramètres numériques. Considérant qu\'il peut y avoir des dizaines de propriétés matérielles à gérer, exprimées avec différentes unités, parfois pas toujours très communes, il est intéressant pour l\'utilisateur de n\'avoir qu\'à spécifier un système d\'unité global, sans se soucier de grand chose.
 
 FreeCAD, ferait alors tout simplement le travail.
 
@@ -290,9 +277,9 @@ Avec le projet d\'extension d\'échelle, il est facile de donner une de ces prop
 
 Pour chacune des propriétés, la mise à l\'échelle est obtenue en multipliant la valeur de la propriété initiale avec le facteur $\frac{GrandeurInitiale}{GrandeurCible}$.
 
-La **GrandeurCible** est alors simplement obtenue, avec l\'opération $\prod_{bu} targetMagnitude_{bu}^{signature_{bu}}$, ou **bu** est l**\'unité de base** permanente.
+La *magnitude cible* est alors simplement obtenue par l\'opération $\prod_{bu} targetMagnitude_{bu}^{signature_{bu}}$, *bu* signifiant *unité de base*.
 
-Il devient ainsi très facile, de gérer un grand nombre de propriétés avec n\'importe quels types d\'unités, et, avec très peu de code **Python**.
+Il devient ainsi très facile de gérer un nombre quelconque de propriétés avec n\'importe quel type d\'unités avec très peu de lignes de Python.
 
 ## Voir aussi 
 

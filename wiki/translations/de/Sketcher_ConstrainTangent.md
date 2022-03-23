@@ -120,10 +120,16 @@ Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoid
 Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, die für `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` und `pointpos` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python Skripten erstellt.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

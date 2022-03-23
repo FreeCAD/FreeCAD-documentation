@@ -32,14 +32,16 @@ To remove the cut object, uncheck all **Cutting** options.
 
 By unchecking all **Cutting** options, the button **Refresh view** becomes active. When pressed, it takes a kind of a screenshot of the currently visible Part objects. This will be used when you check the next time a **Cutting** option. The refreshing is necessary when you switched the document. It is furthermore useful for assemblies, where you might want to hide some parts or later want to add them to the cut. In this case the refreshing recalculates the min/max values of the sliders and cut positions according to the currently visible object dimensions.
 
-**Note:** For assemblies the sliders in the dialog are disabled.The reason is that a slider movement results in many cut operations is a short time. For assemblies this quickly consumes all CPU power and the sticky slider movement is then no longer helpful.
+If the option **Auto** in the color section is checked, the color of the cut objects will be taken. This only works if all cut objects have the same color or transparency.
+
+**Note:** For assemblies the sliders in the dialog are disabled (except the one for the transparency). The reason is that a slider movement results in many cut operations is a short time. For assemblies this quickly consumes all CPU power and the sticky slider movement is then no longer helpful.
 
 When you select a cut object in the tree view and then open the Section Cut dialog, the cut positions will be read into the dialog.
 
 ## Applications
 
 -   An important use case is that Section Cut creates real cuts, not hollow ones like the **[Clip Plane](Std_ToggleClipPlane.md)** feature.
--   Section Cut is useful for assemblies to visualize for example the working principle of a device. You thereby might want to color all or certain cut faces using the **[Face Colors](Part_FaceColors.md)** tool. To use the tool, switch to the Part or PartDesign workbench, right-click on the cut object in the tree view and select in the context menu **Set colors**.
+-   Section Cut is useful for assemblies to visualize for example the working principle of a device. You thereby might want to color certain cut faces using the **[Face Colors](Part_FaceColors.md)** tool. To use the tool, switch to the Part or PartDesign workbench, right-click on the cut object in the tree view and select in the context menu **Set colors**.
 -   The limitation that only parts can be cut that don\'t intersect each other, see below, can be used as collision test.
 -   The Section Cut feature can be used for technical drawings to highlight certain areas or to be able to draw in dimensions. The image below shows an example where the [TechDraw](TechDraw_Workbench.md) features [ActiveView](TechDraw_ActiveView.md) and [View](TechDraw_View.md) are used.
 
@@ -65,16 +67,16 @@ When you select a cut object in the tree view and then open the Section Cut dial
 <img alt="An assembly where two parts intersect each other and that are therefore not cut. Note the color artifacts at the cut face." src=images/Part_SectionCut_Color-artifact.png  style="width:200px;">
 
 -   **Important:** The Section Cut feature works poorly with [OpenCASCADE](OpenCASCADE.md) 7.4 and older due to bugs. It is therefore recommended to use OpenCASCADE 7.5 or newer (all builds of FreeCAD 0.20 assure this).
--   In assemblies parts that intersect each other cannot be cut. Normally intersecting objects will not be cut while the others will. However, sometimes the cutting can produce strange results which is a bug in the OpenCASCADE libraries.
+-   In assemblies parts that intersect each other cannot be cut. Normally intersecting objects will not be cut while the others will. However, sometimes the cutting can produce strange results which is a bug in the OpenCASCADE libraries. To get a cut view also for intersecting objects, you can use the the macro [Cross Section](Macro_cross_section.md).
 -   There can be color artifacts in the cut result. If and how depends on the OpenCASCADE library and also on the view position. In many cases the color artifacts disappear when the 3D view is slightly rotated.
--   It is technically not possible to apply automatically a certain color to all cut faces. This feature can first be implemented when the [Topological naming problem](Topological_naming_problem.md) is solved.
+-   When having cut objects with different colors, it is not possible to apply automatically their color to the corresponding cut faces. All cut faces will get the same color selected in the dialog.
 
 
 
 
 ## Background Info 
 
-**Section Cut** works technically this way:
+**Section Cut** is inspired by the macro [Cross Section](Macro_cross_section.md) and works technically this way:
 
 All visible objects are put into a [Part Compound](Part_Compound.md) container and then the compound is cut using a [Part Box](Part_Box.md) object. The box must be as large as necessary to cover the whole volume of all visible objects. To achieve this, the bounding box of the objects is acquired. When changing the view by adding/removing objects or changing the document, the bounding box must be updated. This is done when the button **Refresh view** is clicked.
 

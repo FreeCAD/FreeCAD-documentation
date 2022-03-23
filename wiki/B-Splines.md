@@ -115,19 +115,19 @@ At every spline position $t$ the sum of polynomials is 1 (indicated by the orang
 A property of the Bernstein polynomials is that when looking at the different S-spline Bézier parts, the path length of every part is the same. (The path length is often called the *travel time*). As you can imagine, it can be useful to have B-splines whose Bézier parts have different path lengths. This can be achieved by weighting the different polynomials:
 
 $\quad
-c(t)=\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k$
+c(t)=\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k$
 
 $w_k$ is hereby the weight of the $k$-th control point. When the weights are not equal, the B-spline is called **non-uniform**.
 
 Especially when B-splines should be used for 3D modelling, normalized, non-uniform B-splines are necessary. The normalization is done by a division by the weighted basis functions. Thus when all $w_k$ are equal, we get a uniform B-spline, independent on the weight itself:
 
 $\quad
-c(t)=\cfrac{\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
+c(t)=\cfrac{\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
 
 These non-uniform and rational (because of the division) B-splines are often called **NURBS**. Looking at their formula, we see that they are in fact a B-spline with a weighted basis $R_{k, D}(t)$:
 
 $\quad
-c(t)=\sum_{k=0}^{N}d_{k}R_{k, D}(t)$
+c(t)=\sum_{k=0}^{N}p_{k}R_{k, D}(t)$
 
 whereas
 

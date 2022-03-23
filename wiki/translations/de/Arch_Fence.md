@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/de
    Name:Arch Fence
-   Name/de:Architektur Zaun
-   MenuLocation:Architektur → Zaun
-   Workbenches:[Architektur](Arch_Workbench/de.md)
+   Name/de:Arch Zaun
+   MenuLocation:Arch → Zaun
+   Workbenches:[Arch](Arch_Workbench/de.md)
    Version:0.19
 ---
 
@@ -96,15 +96,6 @@ post = FreeCAD.ActiveDocument.Post
 
 Fence = Arch.buildFence(fence_section, post, sketch)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -4,6 +4,7 @@
    Name/pl:Szkicownik: Utwórz okrąg
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz okrąg
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut:**G** **C**
    SeeAlso:[Łuk](Sketcher_CompCreateArc/pl.md)
 ---
 
@@ -24,7 +25,7 @@ Narzędzie to rysuje okrąg, wybierając dwa punkty: środek i punkt wzdłuż pr
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

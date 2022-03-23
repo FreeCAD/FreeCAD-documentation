@@ -45,7 +45,7 @@ Nástroj Bod vytvoří bod v aktuálním listu \"**Skicáře**\".
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

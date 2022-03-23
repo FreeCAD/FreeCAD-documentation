@@ -8,11 +8,17 @@
 
 # Sketcher ViewSketch/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug setzt das Modell lotrecht zur Skizzenebene. Das ist sinnvoll, wenn der Benutzer die Ansicht auf das Modell geändert hat, um einen anderen Aspekt des Modells zu untersuchen und zu einer normalen Ansicht der Skizze zurückkehren will.
 
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 Wenn im Skizzenbearbeitungsmodus, entweder
 
@@ -20,10 +26,13 @@ Wenn im Skizzenbearbeitungsmodus, entweder
 -   Gehe zum **Skizze → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Skizze anzeigen** Menü.
 
 
+</div>
 
 
 
-{{Sketcher Tools navi
+
+
+{{Sketcher_Tools_navi
 
 }}
 

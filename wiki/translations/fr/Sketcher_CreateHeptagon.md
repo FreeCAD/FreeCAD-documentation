@@ -2,8 +2,9 @@
 - GuiCommand:/fr
    Name:Sketcher CreateHeptagon
    Name/fr:Sketcher Heptagone
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    MenuLocation:Sketch → Géométries d'esquisse → Créer un heptagone
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **P** **7**
    Version:0.15
 ---
 
@@ -11,9 +12,7 @@
 
 ## Description
 
-Dessine un heptagone inscrit dans un cercle. Lors du démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec un icône rectangle rouge. Les coordonnées du pointeur sont affichées en bleu et en temps réel.
-
-Ne pas chercher à contraindre sur un axe X ou Y, le polygone peu s\'effondrer sur le centre.
+Dessine un heptagone inscrit dans un cercle de géométrie de construction. Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône hexagonale rouge. Les coordonnées du pointeur sont affichées à côté en bleu en temps réel.
 
 ![](images/SketcherCreateHeptagonExample.png‎ )
 

@@ -5,7 +5,7 @@
    MenuLocation:Pièce → Composé → Éclater le composé
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.18
-   SeeAlso:[Part Composé](Part_Compound/fr.md), [Draft Rétrograder](Draft_Downgrade/fr.md)
+   SeeAlso:[Part Composé](Part_Compound/fr.md), [Draft Désagréger](Draft_Downgrade/fr.md)
 ---
 
 # Part ExplodeCompound/fr

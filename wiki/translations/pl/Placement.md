@@ -128,17 +128,17 @@ Obrót z przesunięciem punktu środkowego:
 
 Obrót z użyciem kątów Eulera:
 
-<img alt="Before Rotation" src=images/RotationEulerBefore.png  style="width:600px;"> Before Rotation 
+<img alt="Przed obrotem" src=images/RotationEulerBefore.png  style="width:600px;"> Przed obrotem 
 
-<img alt="After Rotation" src=images/RotationEulerAfter.png  style="width:600px;"> After Rotation 
+<img alt="Po obróceniu" src=images/RotationEulerAfter.png  style="width:600px;"> Po obróceniu 
 
-## Placement.Base vs Shape Definition 
+## Placement.Base a Definicja kształtu 
 
-Placement is not the only way to position a shape in space. Note the Python console in this image:
+Umiejscowienie nie jest jedynym sposobem pozycjonowania kształtu w przestrzeni. Zwróć uwagę na konsolę Python na tym obrazku:
 
-![2 Shapes with Same Placement](images/2Placements800.png )
+![Dwa kształty o tym samym umiejscowieniu](images/2Placements800.png )
 
-Both cubes have the same value for Placement, but are in different locations! This is because the 2 shapes are defined by different vertices (curves in more complex shapes). For the 2 shapes in the above illustration:
+Oba prostopadłościany mają taką samą wartość dla Umiejscowienia, ale różnią się lokalizacją! Dzieje się tak ponieważ te dwie figury są zdefiniowane przez różne wierzchołki *(krzywe w bardziej złożonych kształtach)*. Dla dwóch kształtów na powyższej ilustracji:
 
  >>> ev = App.ActiveDocument.Extrude.Shape.Vertexes
  >>> for v in ev: print v.X,",",v.Y,",",v.Z
@@ -152,7 +152,7 @@ Both cubes have the same value for Placement, but are in different locations! Th
  30.0,40.0,0.0
  30.0,40.0,10.0
  >>> e1v = App.ActiveDocument.Extrude001.Shape.Vertexes
- >>> for v in e1v: print v.X,",",v.Y,",",v.Z
+ >>> dla v w e1v: print v.X,",",v.Y,",",v.Z
  ... 
  0.0,10.0,0.0
  0.0,10.0,10.0
@@ -165,15 +165,15 @@ Both cubes have the same value for Placement, but are in different locations! Th
  >>> 
  
 
-The Vertices (or Vectors) that define the shape use the Placement.Base attribute as their origin. So if you want to move a shape 10 units along the **X** axis, you could add 10 to the **X** coordinates of all the Vertices or you could set Placement.Base to (10,0,0).
+Wierzchołki *(lub wektory)* definiujące kształt używają atrybutu Placement.Base jako ich punktu odniesienia położenia. Jeśli chcemy przesunąć kształt o 10 jednostek wzdłuż osi X, możemy dodać 10 do współrzędnych **X** wszystkich wierzchołków lub ustawić wartość atrybutu Placement.Base na (10,0,0).
 
-## Using \"Center\" to Control Axis of Rotation 
+## Używanie \"środka\" do kontroli osi obrotu 
 
-By default, the axis of rotation isn\'t really the x/y/z axis. It is a line parallel to the selected axis, but passing through the reference point (Placement.Base) of the object to be rotated. This can be changed by using the Center fields in the Placement dialog or, in scripts, by using the Center parameter of the FreeCAD.Placement constructor.
+Domyślnie oś obrotu nie jest w rzeczywistości osią x/y/z. Jest to linia równoległa do wybranej osi, ale przechodząca przez punkt odniesienia (Placement.Base) obiektu, który ma zostać obrócony. Można to zmienić za pomocą pól Środek w oknie dialogowym Umiejscowienie lub, w skryptach, za pomocą parametru Środek konstruktora FreeCAD.Placement. Naciśnij kombinację klawiszy **CTRL** + **ENTER**, aby zatwierdzić i przejść do następnego komunikatu, lub **ALT** + **SHIFT** + **D**, aby pominąć, lub **ALT** + **SHIFT** + **B**, aby podać opis zmian lub przytrzymaj klawisz **ALT**, aby zobaczyć inne skróty. Dodaj dokumentację
 
-For example, suppose we have a box (below) positioned at (20,20,10). ![Before Rotation](images/LocalZBefore2.png ) We wish to spin the box around it\'s own vertical centre line (ie local Z), while keeping it the same position. We can easily achieve this by specifying a Center value equal to the coordinates of the box\'s central point (25,25,15). ![After Rotation](images/LocalZAfter2.png )
+Na przykład, załóżmy, że mamy prostopadłościan *(jak poniżej)* umieszczony w punkcie (20,20,10). ![Przed obrotem](images/LocalZBefore2.png ) Chcemy obrócić prostopadłościan wokół jego pionowej linii środkowej *(tzn. lokalnego Z)*, zachowując tę samą pozycję. Możemy to łatwo osiągnąć, określając wartość Center równą współrzędnym punktu centralnego prostopadłościanu (25,25,15). ![Po obróceniu](images/LocalZAfter2.png )
 
-In a script, we would do: 
+W skrypcie zrobilibyśmy to następująco: 
 ```python
 import FreeCAD
 obj = App.ActiveDocument.Box                       # our box
@@ -184,7 +184,7 @@ centre = FreeCAD.Vector(25,25,15)                  # central point of box
 pos = obj.Placement.Base                           # position point of box
 newplace = FreeCAD.Placement(pos,rot,centre)       # make a new Placement object
 obj.Placement = newplace                           # spin the box
-``` Same script with the file example [RotateCoG2.fcstd](http://forum.freecadweb.org/download/file.php?id=1651) (discussion on the [forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3950#p31052)) 
+``` Ten sam skrypt w pliku przykładowym [RotateCoG2.fcstd](http://forum.freecadweb.org/download/file.php?id=1651) *(dyskusja na [forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=3950#p31052))*. 
 ```python
 import FreeCAD
 obj = App.ActiveDocument.Extrude                    # our box
@@ -197,9 +197,9 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
-## Using Placement in expressions 
+## Używanie umiejscowienia w wyrażeniach 
 
-In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\": 
+W wyrażeniach można używać składowych umiejscowienia. W wyrażeniach możliwe jest użycie składowych umiejscowienia, na przykład w celu uzyskania dostępu do składowej x obiektu oznaczonego jako \"Cube\": 
 ```python
 <<Cube>>.Placement.Base.x
 ```
@@ -216,29 +216,29 @@ Dostęp do osi obrotu można uzyskać za pomocą
 <<Cube>>.Placement.Rotation.Axis.z
 ``` gdzie często jedną z tych wartości jest {{Value|1}}, a pozostałe są równe {{Value|0}}.
 
-You can also use the whole Placement in a single expression: Right click on Placement property in the property editor, select \"show all\" then extra properties will show. If you then right click on Placement again the context menu will include Expression, select Expression then the Expression dialogue will open and whatever you type will go into the Placement property rather than its child properties.
+W jednym wyrażeniu można także użyć całego Umiejscowienia: Kliknij prawym przyciskiem myszy właściwość Umiejscowienie w edytorze właściwości, wybierz opcję \"pokaż wszystkie\", wtedy zostaną wyświetlone dodatkowe właściwości. Jeśli następnie ponownie klikniesz prawym przyciskiem myszy na Umiejscowienie, w menu kontekstowym pojawi się Wyrażenie, wybierz opcję Wyrażenie, a otworzy się okno dialogowe Wyrażenie, w którym wszystko, co wpiszesz, trafi do właściwości Umiejscowienia, a nie do jej właściwości podrzędnych.
 
-To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would enter in that way for Sketch the expression 
+Aby zrównać umiejscowienie \"Szkicu\" z umiejscowieniem \"Cylindra\", należałoby wprowadzić wyrażenie dla Szkicu w taki sposób 
 ```python
 <<Cube>>.Placement
-``` ![Setting the whole Placement in one expression](images/PlacementInExpression.png )
+``` ![Ustawienia całego Umiejscowienia w jednym wyrażeniu](images/PlacementInExpression.png )
 
-**NOTE:** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
+**UWAGA:** Możliwe jest również *tworzenie* obiektów Umiejscowienie w wyrażeniach. Zobacz stronę [Wyrażenia](Expressions/pl#Umiejscowienie.md), aby dowiedzieć się więcej.
 
 ## Uwagi
 
--   The Placement properties in the Data tab are disabled for objects which are attached to some other object. The Attachment Offset has to be edited instead.
--   Axis and Angle can also be expressed as a [quaternion](http://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation).
--   The reference point of an object varies depending on the object. Some examples for common objects:
+-   Właściwości Umiejscowienie w zakładce Dane są nieaktywne dla obiektów, które są dołączone do innego obiektu. Zamiast tego należy edytować Przesunięcie dołączenia.
+-   Oś i Kąt mogą być również wyrażone jako [kwaternion](http://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation).
+-   Punkt odniesienia obiektu różni się w zależności od obiektu. Kilka przykładów dla typowych obiektów:
 
-  Object                           Reference Point
+  Obiekt                        Punkt odniesienia
    
-  Part.Box                         left (minx), front (miny), bottom (minz) vertex
-  Part.Sphere                      center of the sphere (ie centre of bounding box)
-  Part.Cylinder                    center of the bottom face
-  Part.Cone                        center of bottom face (or apex if bottom radius is 0)
-  Part.Torus                       center of the torus
-  Features derived from Sketches   the Feature inherits the Position of the underlying Sketch. Sketches always start with Position = (0,0,0). This position corresponds to the origin in the sketch.
+  Part.Box                      lewy *(minx)*, przedni *(miny)*, dolny *(minz)* wierzchołek
+  Part.Sphere                   środek sfery *(tj. środek ramki otaczającej)*
+  Part.Cylinder                 środek dolnej ściany
+  Part.Cone                     środek powierzchni dolnej ściany *(lub wierzchołek, jeśli promień dolny wynosi 0)*
+  Part.Torus                    środek torusa
+  Obiekty pochodne od szkiców   obiekty dziedziczą pozycję bazowego szkicu. Szkice zawsze zaczynają się w pozycji = (0,0,0). Pozycja ta odpowiada punktowi położenia odniesienia w szkicu.
 
 ## Problemy
 

@@ -23,7 +23,7 @@ La commande **Quitter l\'esquisse** quitte le mode d\'édition d\'esquisse et li
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

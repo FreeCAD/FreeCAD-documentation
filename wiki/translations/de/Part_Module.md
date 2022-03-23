@@ -108,9 +108,9 @@ Diese Werkzeuge führen boolesche Operationen aus.
 
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut.md): Cuts (subtracts) one object from another.
 
--   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Fuse](Part_Fuse.md): Fuses (unions) two objects.
+-   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Vereinigung](Part_Fuse/de.md): Verbindet (vereinigt) zwei Objekte.
 
--   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Vereinigung](Part_Common/de.md): Entnimmt den gemeinsamen Teil (Vereinigungsmenge) von zwei Objekten.
+-   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Gemeinsam](Part_Common/de.md): Entnimmt den gemeinsamen Teil (Schnittmenge) von zwei Objekten.
 
 -   <img alt="" src=images/Part_CompJoinFeatures.png  style="width:48px;"> [Fügt Funktionen](Part_CompJoinFeatures/de.md):
     -   <img alt="" src=images/Part_JoinConnect.svg  style="width:32px;"> [Verbinden](Part_JoinConnect/de.md): Verbindet Innenräume von Hohlobjekten.

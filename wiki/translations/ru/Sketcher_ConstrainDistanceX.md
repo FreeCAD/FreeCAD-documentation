@@ -10,6 +10,9 @@
 
 # Sketcher ConstrainDistanceX/ru
 
+
+</div>
+
 ## Описание
 
 Fixes the horizontal distance between 2 points or line ends. If only one point is selected, the distance is set to the sketch origin.
@@ -21,7 +24,7 @@ Fixes the horizontal distance between 2 points or line ends. If only one point i
 1.  Pick one or two points or one line.
 2.  Invoke the tool several ways:
     -   Press the **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md)** button in the toolbar.
-    -   Use the **Shift** + **H** keyboard shortcut. (**H** is for **H**orizontal)
+    -   Use the **L** keyboard shortcut.
     -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Constrain horizontal distance** from the top menu.
 3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
 
@@ -47,10 +50,16 @@ Horizontal span of line (the GUI allows selecting the edge itself, but it is jus
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Edge1`, `Edge2`, `Edge`, ` PointOfEdge1`, ` PointOfEdge2`, `PointOfEdge` and `Line`, and contains further examples on how to create constraints from Python scripts.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

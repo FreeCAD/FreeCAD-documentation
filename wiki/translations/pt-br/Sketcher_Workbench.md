@@ -122,9 +122,21 @@ As ferramentas da bancada Sketcher estão todas localizadas no menu Sketch que a
 
 ### Gerais
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Criar um novo esboço](Sketcher_NewSketch/pt-br.md): Cria um novo esboço em uma face ou plano selecionado. Se nenhuma face estiver selecionada enquanto esta ferramenta é executada, o usuário é solicitado a selecionar um plano em uma janela pop-up.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Editar o esboço selecionado](Sketcher_EditSketch/pt-br.md): Abre a edição do esboço selecionado. Isso abrirá a [caixa de diálogo do Sketcher](Sketcher_Dialog/pt-br.md).
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Fechar a edição do esboço](Sketcher_LeaveSketch/pt-br.md): Sai do modo de edição do esboço.
 
@@ -170,6 +182,9 @@ Estas são ferramentas para criar objetos.
 
 :\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [3 pontos de borda](Sketcher_Create3PointCircle/pt-br.md): Desenha um círculo a partir de três pontos na circunferência.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Criar uma cônica no esboço](Sketcher_CompCreateConic/pt-br.md): O Sketcher fornece as seguintes seções cônicas que, ao contrário das B-splines, podem ser usadas com todos os tipos de restrições, como [Tangente](Sketcher_ConstrainTangent/pt-br.md), [Ponto sobre o objeto](Sketcher_ConstrainPointOnObject/pt-br.md), ou [Perpendicular](Sketcher_ConstrainPerpendicular/pt-br.md)..
     -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Elipse centro](Sketcher_CreateEllipseByCenter/pt-br.md): Desenha uma elipse pelo ponto central, ponto do raio maior e ponto do raio menor.
     -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Elipse 3 pontos](Sketcher_CreateEllipseBy3Points/pt-br.md): Desenha uma elipse pelo diâmetro maior (2 pontos) e ponto do raio menor.
@@ -177,9 +192,18 @@ Estas são ferramentas para criar objetos.
     -   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:32px;"> [Arco de hipérbole](Sketcher_CreateArcOfHyperbola/pt-br.md): Desenha um arco de hipérbole.
     -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arco de parábola](Sketcher_CreateArcOfParabola/pt-br.md): Desenha um arco de parábola.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Criar uma B-spline](Sketcher_CompCreateBSpline/pt-br.md): Este é um menu de ícones na barra de ferramentas do Sketcher, contendo os seguintes comandos:
     -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Criar B-spline](Sketcher_CreateBSpline/pt-br.md): Desenha uma curva B-spline por seus pontos de controle.
     -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Criar B-spline periódica](Sketcher_CreatePeriodicBSpline/pt-br.md): Desenha uma curva B-spline periódica (fechada) por seus pontos de controle.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -189,15 +213,39 @@ Estas são ferramentas para criar objetos.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Criar retângulos](Sketcher_CompCreateRectangles/pt-br.md): Este é um menu de ícones na barra de ferramentas Sketcher que contém os seguintes comandos: <small>(v0.20)</small> 
+
+
+</div>
 
 :\* <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rectângulo](Sketcher_CreateRectangle/pt-br.md): Desenha um retângulo a partir de dois vértices opostos.
 
+
+<div class="mw-translate-fuzzy">
+
 :\* <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Rectângulo Centrado](Sketcher_CreateRectangle_Center/pt-br.md): Desenha um retângulo a partir de um ponto central e de um ponto de borda. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 :\* <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rectângulo Arredondado](Sketcher_CreateOblong/pt-br.md): Traça um retângulo arredondado a partir de 2 pontos opostos. <small>(v0.20)</small> 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Criar polígonos regulares](Sketcher_CompCreateRegularPolygon/pt-br.md): Este é um menu de ícones na barra de ferramentas do Sketcher, contendo os seguintes comandos:
+
+
+</div>
 
 :\* <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Triangulo](Sketcher_CreateTriangle/pt-br.md): Desenha um triângulo regular inscrito em um círculo de geometria de construção.
 
@@ -211,23 +259,53 @@ Estas são ferramentas para criar objetos.
 
 :\* <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width:32px;"> [Octágono](Sketcher_CreateOctagon/pt-br.md): Desenha um octógono regular inscrito em um círculo de geometria de construção.
 
+
+<div class="mw-translate-fuzzy">
+
 :\* <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Criar Polígono Regular](Sketcher_CreateRegularPolygon/pt-br.md) : Desenha um polígono regular selecionando o número de lados e escolhendo dois pontos: o centro e um canto.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Oblongo](Sketcher_CreateSlot/pt-br.md): Desenha uma forma oval selecionando o centro de um semicírculo e a extremidade do outro semicírculo.
 
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Filete](Sketcher_CreateFillet/pt-br.md): Faz um filete entre duas linhas unidas em um ponto. Selecione as duas linhas ou clique no ponto de canto e ative a ferramenta.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Ajustar](Sketcher_Trimming/pt-br.md): Corta uma linha, círculo ou arco em relação ao ponto clicado.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Ampliar](Sketcher_Extend/pt-br.md): Estende uma linha ou um arco a uma linha limite, arco, elipse, arco de elipse ou um ponto no espaço.
 
 -   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Dividir](Sketcher_Split/pt-br.md): Divide uma linha ou um arco em dois, converte um círculo em um arco, mantendo a maior parte das restrições. <small>(v0.20)</small> 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Geometria externa](Sketcher_External/pt-br.md): Cria uma aresta vinculada à geometria externa.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [Cópia em carbono](Sketcher_CarbonCopy/pt-br.md): Copia a geometria de outro esboço.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Modo de construção](Sketcher_ToggleConstruction/pt-br.md): Alterna a geometria do esboço de/para o modo de construção. A geometria de construção é mostrada em azul e é descartada fora do modo de edição do esboço.
+
+
+</div>
 
 ### Restrições do Sketcher 
 
@@ -247,7 +325,13 @@ Tais restrições não estão associadas a dados numéricos.
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Coincidente](Sketcher_ConstrainCoincident/pt-br.md): Afixa um ponto em (coincidente com) um ou mais outros pontos.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Ponto sobre o objeto](Sketcher_ConstrainPointOnObject/pt-br.md): Afixa um ponto em outro objeto, como uma linha, arco ou eixo.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Vertical](Sketcher_ConstrainVertical/pt-br.md): Restringe as linhas selecionadas ou elementos de polilinha a uma orientação vertical verdadeira. Mais de um objeto pode ser selecionado antes de aplicar esta restrição.
 
@@ -298,7 +382,13 @@ Estas são restrições associadas a dados numéricos, para os quais você pode 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [A Lei de Snell](Sketcher_ConstrainSnellsLaw/pt-br.md): Restringe duas linhas à obediência a uma lei de refração, para simular a luz que passa por uma interface.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Alinhamento interno](Sketcher_ConstrainInternalAlignment/pt-br.md): Alinha os elementos selecionados com a forma selecionada (por exemplo, uma linha, para torná-la o eixo principal de uma elipse).
 
@@ -316,11 +406,23 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Alternar restrição de direção/referência](Sketcher_ToggleDrivingConstraint/pt-br.md): Alterna a barra de ferramentas ou as restrições selecionadas de/para o modo de referência.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Ativar/Desativar restrição](Sketcher_ToggleActiveConstraint/pt-br.md): Habilita ou desabilita uma restrição já colocada. <small>(v0.19)</small> 
+
+
+</div>
 
 ### Ferramentas do Sketcher 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [ Exibindo os graus de liberdade](Sketcher_SelectElementsWithDoFs/pt-br.md): Destaca em verde a geometria com graus de liberdade (GDLs), isto é, não toalmente restrita.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -370,7 +472,13 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Mostrar/ocultar geometria interna](Sketcher_RestoreInternalAlignmentGeometry/pt-br.md): Recria o que falta ou deleta geometria interna desnecessária em uma elipse, arco de elipse, hipérbole, parábola ou B-spline.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -438,9 +546,21 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Eliminar toda a geometria](Sketcher_DeleteAllGeometry/pt-br.md): Deleta todas as geometrias do esboço.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Eliminar todas as restrições](Sketcher_DeleteAllConstraints/pt-br.md): Deleta todas as restrições do esboço.
+
+
+</div>
 
 ### Ferramentas de B-spline do Sketcher 
 
@@ -468,7 +588,13 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 ### Espaço Virtual do Sketcher 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Trocar espaço virtual](Sketcher_SwitchVirtualSpace/pt-br.md): Permite esconder todas as restrições de um esboço e fazê-las visíveis novamente.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -516,11 +642,11 @@ A página [Sketcher scripting](Sketcher_scripting/pt-br.md) contém exemplos de 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/pt-br
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/pt-br

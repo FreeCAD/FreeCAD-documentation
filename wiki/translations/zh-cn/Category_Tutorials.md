@@ -1,7 +1,7 @@
 # Category:Tutorials/zh-cn
-This is a complete list of pages under [:Category:Tutorials/zh-cn](:Category:Tutorials/zh-cn.md).
+This is a complete list of pages under [:Category:Tutorials](:Category_Tutorials.md).
 
-See also [Tutorials](Tutorials/zh-cn.md) and [video tutorials](video_tutorials/zh-cn.md)
+See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 ### Contents
 
@@ -15,4 +15,4 @@ See also [Tutorials](Tutorials/zh-cn.md) and [video tutorials](video_tutorials/z
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [User_Documentation](Category_User_Documentation.md) > Category:Tutorials/zh-cn

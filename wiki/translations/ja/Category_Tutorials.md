@@ -1,7 +1,7 @@
 # Category:Tutorials/ja
-This is a complete list of pages under [:Category:Tutorials/ja](:Category:Tutorials/ja.md).
+This is a complete list of pages under [:Category:Tutorials](:Category_Tutorials.md).
 
-See also [Tutorials](Tutorials/ja.md) and [video tutorials](video_tutorials/ja.md)
+See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 ### Contents
 
@@ -12,4 +12,4 @@ See also [Tutorials](Tutorials/ja.md) and [video tutorials](video_tutorials/ja.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/ja
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [User_Documentation](Category_User_Documentation.md) > Category:Tutorials/ja

@@ -10,6 +10,9 @@
 
 # Sketcher CloseShape/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug kann verwendet werden, um im Skizzen Arbeitsbereich eine gewählte Kontur zu schließen, indem der Endpunkt eines Skizzenelements zur Überdeckung mit dem Endpunkt des nächsten gewählten Skizzenelements gebracht wird.
@@ -33,10 +36,16 @@ Dieses Werkzeug kann verwendet werden, um im Skizzen Arbeitsbereich eine gewähl
 Das Werkzeug wird die Elemente in der Reihenfolge ihrer Auswahl verbinden, so dass die Reihenfolge bei der Auswahl wichtig ist.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

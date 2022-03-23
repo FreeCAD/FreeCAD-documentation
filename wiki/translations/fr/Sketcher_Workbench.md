@@ -38,7 +38,7 @@ Il existe deux types de contraintes : géométriques et dimensionnelles. Elles s
 
 #### Ce pour quoi le Sketcher n\'est pas bon 
 
-Le **Sketcher** n\'est pas destiné à la réalisation de plans 2D. Une fois que le croquis a été utilisé pour générer un solide, il est automatiquement caché. Les contraintes sont uniquement visibles en mode édition.
+Sketcher n\'est pas destiné à la réalisation de plans 2D. Une fois que le croquis a été utilisé pour générer un solide, il est automatiquement caché. Les contraintes sont uniquement visibles en mode édition.
 
 Si vous devez uniquement créer des vues 2D pour l\'impression et ne souhaitez pas créer de modèles 3D, consultez l\'[atelier Draft](Draft_Workbench/fr.md). Contrairement aux éléments Sketcher, les objets Draft n\'utilisent pas de contraintes, ce sont des formes simples définies au moment de la création. Draft et Sketcher peuvent être utilisés pour le dessin de géométrie 2D et la création de solides 3D, bien que leur utilisation préférée soit différente. Sketcher est normalement utilisé avec [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md) pour créer des solides. Draft est normalement utilisé pour les dessins plans simples sur une grille, comme pour dessiner un plan d\'architecture ; dans cette situation, Draft est principalement utilisé avec l\'[atelier Arch](Arch_Workbench/fr.md). L\'outil [Draft2Sketch](Draft_Draft2Sketch/fr.md) convertit un objet Draft en un objet Sketch, et inversement. de nombreux outils qui requièrent un élément 2D comme travail de saisie avec l\'un ou l\'autre type d\'objet, car une conversion interne est effectuée automatiquement.
 
@@ -54,13 +54,25 @@ Une fois que l'esquisse est entièrement contrainte, les fonctions d'esquisse de
 
 ## Les outils 
 
-Les outils de l\'atelier Sketcher sont tous situés dans le menu **Sketch** qui s\'affiche lorsque vous chargez l\'atelier Sketcher.
+Les outils de l\'atelier Sketcher sont tous situés dans le menu Sketch qui s\'affiche lorsque vous chargez l\'atelier Sketcher.
 
 ### Généralités
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Nouvelle esquisse](Sketcher_NewSketch/fr.md) : crée une nouvelle esquisse sur un plan ou une face sélectionnée. Si rien n\'est sélectionné, un dialogue pop up invitera l\'utilisateur à sélectionner un plan.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Éditer l\'esquisse](Sketcher_EditSketch/fr.md) : édite l\'esquisse sélectionnée. Cela ouvrira la [boîte de dialogue Sketcher](Sketcher_Dialog/fr.md).
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md) : quitte le mode d\'édition de l\'esquisse actuelle.
 
@@ -68,7 +80,7 @@ Les outils de l\'atelier Sketcher sont tous situés dans le menu **Sketch** qui 
 
 -   <img alt="" src=images/Sketcher_ViewSection.svg  style="width:32px;"> [Vue sectionnée](Sketcher_ViewSection/fr.md): Crée un plan de coupe qui masque temporairement toute matière devant le plan d'esquisse.
 
--   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Appliquer une esquisse sur une face\...](Sketcher_MapSketch/fr.md) : applique une esquisse sur une face ou un solide sélectionné.
+-   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Esquisse sur une face](Sketcher_MapSketch/fr.md) : applique une esquisse sur une face ou un solide sélectionné.
 
 -   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Réorienter l\'esquisse](Sketcher_ReorientSketch/fr.md): permet d\'attacher l\'esquisse à l\'un des plans principaux.
 
@@ -88,40 +100,76 @@ Ces outils permettent de créer des objets.
 
 -   <img alt="" src=images/Sketcher_CreateLine.svg  style="width:32px;"> [Ligne](Sketcher_CreateLine/fr.md) : dessine une ligne entre 2 points. Les lignes sont considérées comme infinies par certaines contraintes.
 
--   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Créer un arc](Sketcher_CompCreateArc/fr.md) : Il s\'agit d\'un menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
+-   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Arcs](Sketcher_CompCreateArc/fr.md) : Il s\'agit d\'un menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
 
 :\* <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Arc](Sketcher_CreateArc/fr.md) : dessine un segment d\'arc à partir du centre, rayon, angle de départ et angle d\'arrivée.
 
 :\* <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Arc par 3 points](Sketcher_Create3PointArc/fr.md) : dessine un arc de cercle entre deux points d\'extrémité et un troisième point pour la circonférence.
 
--   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Créer un cercle](Sketcher_CompCreateCircle/fr.md) : Il s\'agit d\'un menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
+-   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Cercles](Sketcher_CompCreateCircle/fr.md) : Il s\'agit d\'un menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
 
 :\* <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Cercle](Sketcher_CreateCircle/fr.md) : dessine un cercle à partir de son centre et du rayon.
 
 :\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Cercle par 3 points](Sketcher_Create3PointCircle/fr.md) : dessine un cercle à partir de trois points sur la circonférence.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Sections coniques](Sketcher_CompCreateConic/fr.md) : Sketcher fournit les sections coniques suivantes. Contrairement aux B-splines, elles peuvent être utilisées avec toutes sortes de contraintes telles que les [tangentes](Sketcher_ConstrainTangent/fr.md), [points sur l'objet](Sketcher_ConstrainPointOnObject/fr.md) ou [orthogonales](Sketcher_ConstrainPerpendicular/fr.md).
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Coniques](Sketcher_CompCreateConic/fr.md) : Sketcher fournit les sections coniques suivantes. Contrairement aux B-splines, elles peuvent être utilisées avec toutes sortes de contraintes telles que les [tangentes](Sketcher_ConstrainTangent/fr.md), [points sur l'objet](Sketcher_ConstrainPointOnObject/fr.md) ou [orthogonales](Sketcher_ConstrainPerpendicular/fr.md).
     -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse](Sketcher_CreateEllipseByCenter/fr.md) : dessine une ellipse à partir du centre, d\'un point sur le grand rayon et d\'un point sur le petit rayon.
     -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Ellipse par 3 points](Sketcher_CreateEllipseBy3Points/fr.md) : dessine une ellipse à partir du grand diametre (2 points) et d\'un point sur le petit rayon.
     -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Arc d\'ellipse](Sketcher_CreateArcOfEllipse/fr.md) : dessine une ellipse à partir du centre, d\'un point sur le grand rayon, avec un point de départ et un point d\'arrivée.
     -   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:32px;"> [Arc d\'hyperbole](Sketcher_CreateArcOfHyperbola/fr.md) : dessine un arc d\'hyperbole.
     -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arc de parabole](Sketcher_CreateArcOfParabola/fr.md) : dessine un arc de parabole.
 
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Créer des B-splines](Sketcher_CompCreateBSpline/fr.md) : Il s\'agit d\'un menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [B-splines](Sketcher_CompCreateBSpline/fr.md) : Il s\'agit d\'un menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
     -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline simple](Sketcher_CreateBSpline/fr.md) : Dessine une courbe B-spline par ses points de contrôle.
     -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md) : Dessine une courbe B-spline périodique (fermée) par ses points de contrôle.
 
+
+</div>
+
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyligne](Sketcher_CreatePolyline/fr.md) : dessine une ligne composée de plusieurs segments connectés entre eux. Appuyer sur la touche **M** pendant que la commande est active bascule entre plusieurs modes de polylignes.
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Créer des rectangles](Sketcher_CompCreateRectangles/fr.md) : Il s\'agit d\'un menu d\'icônes dans la barre d\'outils de Sketcher qui contient les commandes suivantes : {{Version/fr|0.20}}
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Rectangles](Sketcher_CompCreateRectangles/fr.md) : Il s\'agit d\'un menu d\'icônes dans la barre d\'outils de Sketcher qui contient les commandes suivantes : {{Version/fr|0.20}}
+
+
+</div>
 
 :\* <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rectangle](Sketcher_CreateRectangle/fr.md) : dessine un rectangle à partir de 2 points opposés.
 
+
+<div class="mw-translate-fuzzy">
+
 :\* <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Rectangle centré](Sketcher_CreateRectangle_Center/fr.md) : dessine un rectangle à partir d\'un point central et d\'un point du bord. {{Version/fr|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 :\* <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rectangle arrondi](Sketcher_CreateOblong/fr.md) : dessine un rectangle arrondi à partir de 2 points opposés. {{Version/fr|0.20}}
 
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Créer un polygone régulier](Sketcher_CompCreateRegularPolygon/fr.md): Il s\'agit d\'un menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Polygones réguliers](Sketcher_CompCreateRegularPolygon/fr.md): Il s\'agit d\'un menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
+
+
+</div>
 
 :\* <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Triangle](Sketcher_CreateTriangle/fr.md) : dessine un triangle équilatéral inscrit dans un cercle.
 
@@ -135,23 +183,53 @@ Ces outils permettent de créer des objets.
 
 :\* <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width:32px;"> [Octogone](Sketcher_CreateOctagon/fr.md) : dessine un octogone régulier inscrit dans un cercle.
 
-:\* <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Créer un polygone régulier](Sketcher_CompCreateRegularPolygon/fr.md) : Dessine un polygone régulier en sélectionnant le nombre de côtés et en choisissant deux points: le centre et un coin.
+
+<div class="mw-translate-fuzzy">
+
+:\* <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Polygone régulier](Sketcher_CompCreateRegularPolygon/fr.md) : Dessine un polygone régulier en sélectionnant le nombre de côtés et en choisissant deux points: le centre et un coin.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Contour oblong](Sketcher_CreateSlot/fr.md) : dessine un contour oblong (ex : clavette de type A) en entrant le centre du demi-cercle, le centre d\'un rayon et le point final du deuxième demi-cercle.
 
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Congé](Sketcher_CreateFillet/fr.md) : crée un congé entre deux lignes connectées en un point. Sélectionnez les deux lignes, ou cliquez sur le sommet commun, puis activez l\'outil.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Ajuster](Sketcher_Trimming/fr.md) : ajuste une ligne, un cercle ou un arc par rapport à l\'emplacement du clic.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Prolonger](Sketcher_Extend/fr.md): prolonge une ligne ou un arc jusqu\'à une limite définie par un arc, une ellipse, un arc d\'ellipse ou un point dans l\'espace.
 
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Diviser une arête](Sketcher_Split/fr.md) : Divise une ligne ou un arc en deux, convertit un cercle en arc de cercle en gardant la plupart des contraintes. {{Version/fr|0.20}}
+-   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Diviser](Sketcher_Split/fr.md) : Divise une ligne ou un arc en deux, convertit un cercle en arc de cercle en gardant la plupart des contraintes. {{Version/fr|0.20}}
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Géométrie externe](Sketcher_External/fr.md) : crée une arête liée à une géométrie externe.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [Copie carbone](Sketcher_CarbonCopy/fr.md): copie la géométrie contenue dans une autre esquisse.
 
--   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Mode Construction](Sketcher_ToggleConstruction/fr.md) : bascule les éléments vers/depuis le mode Construction. Les géométries de construction sont représentées en bleu, et ne sont pas pris en compte en dehors du mode d\'édition d\'esquisse.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Géométrie de construction](Sketcher_ToggleConstruction/fr.md) : bascule les éléments vers/depuis le mode Construction. Les géométries de construction sont représentées en bleu, et ne sont pas prises en compte en dehors du mode d\'édition de l\'esquisse.
+
+
+</div>
 
 ### Contraintes d\'esquisse 
 
@@ -163,7 +241,13 @@ Ces contraintes ne sont pas associées à des données numériques.
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Coïncidence](Sketcher_ConstrainCoincident/fr.md) : crée une contrainte de coïncidence (point sur point) entre deux ou plusieurs points sélectionnés.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Point sur objet](Sketcher_ConstrainPointOnObject/fr.md) : fixe un point sur un autre objet tel qu\'une ligne, un arc ou un axe.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Vertical](Sketcher_ConstrainVertical/fr.md) : crée une contrainte de verticalité sur les lignes ou segments de polylignes sélectionnés. Il est possible de sélectionner plus d\'un objet avant d\'appliquer cette contrainte.
 
@@ -196,11 +280,17 @@ Ces contraintes sont associées à des données numériques, pour lesquelles vou
 -   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Rayon](Sketcher_ConstrainRadius/fr.md): définit le rayon d\'un arc ou d\'un cercle sélectionné en contraignant le rayon.
 -   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Diamètre](Sketcher_ConstrainDiameter/fr.md): définit le diamètre d\'un arc ou d\'un cercle sélectionné en contraignant le diamètre.
 -   <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Rayon automatique](Sketcher_ConstrainRadiam/fr.md) : définit automatiquement le rayon/diamètre d\'un arc ou d\'un cercle sélectionné (poids pour un pôle B-spline, diamètre pour un cercle complet, rayon pour un arc) {{Version/fr|0.20}}.
--   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle Interne](Sketcher_ConstrainAngle/fr.md): crée une contrainte d\'angle interne entre deux lignes sélectionnées.
+-   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle/fr.md): crée une contrainte d\'angle interne entre deux lignes sélectionnées.
 
 #### Contraintes spéciales 
 
--   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Loi de Snell](Sketcher_ConstrainSnellsLaw/fr.md) : contraint deux lignes à respecter une loi de réfraction simulant la trajectoire de la lumière à travers une interface.
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Contrainte de réfraction](Sketcher_ConstrainSnellsLaw/fr.md) : contraint deux lignes à respecter une loi de réfraction simulant la trajectoire de la lumière à travers une interface.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Alignement interne](Sketcher_ConstrainInternalAlignment/fr.md) : aligne les éléments selectionnés à la forme sélectionnée (par exemple, contraint une ligne à devenir le grand axe d\'une ellipse).
 
@@ -210,31 +300,103 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Basculement de contrainte](Sketcher_ToggleDrivingConstraint/fr.md) : bascule la barre d\'outils ou les contraintes sélectionnées vers/depuis le mode de référence.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Basculer la contrainte active](Sketcher_ToggleActiveConstraint/fr.md) : active ou désactive une contrainte déjà placée. {{Version/fr|0.19}}
+
+
+</div>
 
 ### Outils d\'esquisse 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Afficher les degrés de liberté](Sketcher_SelectElementsWithDoFs/fr.md): surligne en vert les éléments de l\'esquisse contenant des degrés de liberté, c\'est-à-dire non complètement contraints.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Fermer la forme](Sketcher_CloseShape/fr.md) : ferme une forme en appliquant des contraintes coïncidentes aux points d\'arrivée.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Connecter les côtés](Sketcher_ConnectLines/fr.md) : connecte les éléments de l\'esquisse en appliquant des contraintes de coïncidence aux points d\'arrivée.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Sélectionner les contraintes](Sketcher_SelectConstraints/fr.md) : sélectionne les contraintes d\'un élément de l\'esquisse.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Sélectionner les éléments associés aux contraintes](Sketcher_SelectElementsAssociatedWithConstraints/fr.md) : sélectionne les éléments associés aux contraintes.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Sélectionner les contraintes redondantes](Sketcher_SelectRedundantConstraints/fr.md) : sélectionne les contraintes redondantes de l\'esquisse.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Sélectionner les contraintes conflictuelles](Sketcher_SelectConflictingConstraints/fr.md) : sélectionne les contraintes conflictuelles de l\'esquisse.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Basculer une géometrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md) : recrée/supprime la géométrie interne de l\'élément sélectionné (ellipse, arc d\'ellipse/hyperbole/parabole, courbe B-spline).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Sélectionner l\'origine](Sketcher_SelectOrigin/fr.md) : sélectionne l\'origine de l\'esquisse.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Sélectionner l\'axe vertical](Sketcher_SelectVerticalAxis/fr.md) : sélectionne l\'axe vertical de l\'esquisse.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Sélectionner l\'axe horizontal](Sketcher_SelectHorizontalAxis/fr.md) : sélectionne l\'axe horizontal de l\'esquisse.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symétrie](Sketcher_Symmetry/fr.md) : crée une copie symétrique par rapport à une ligne donnée.
 
@@ -244,13 +406,37 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Déplacer](Sketcher_Move/fr.md): déplace la géométrie sélectionnée en prenant comme référence le dernier point sélectionné.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Réseau rectangulaire](Sketcher_RectangularArray/fr.md) : crée une réseau à partir des éléments sélectionnés.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Supprimer l\'alignement des axes](Sketcher_RemoveAxesAlignment/fr.md) : supprime l\'alignement des axes tout en essayant de préserver la relation de contrainte de la sélection. {{Version/fr|0.20}}.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Supprimer toute la géométrie](Sketcher_DeleteAllGeometry/fr.md): Supprime toute la géométrie de l\'esquisse.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Supprimer toutes les contraintes](Sketcher_DeleteAllConstraints/fr.md): Supprime toutes les contraintes de l\'esquisse.
+
+
+</div>
 
 ### Outils d\'esquisse B-spline 
 
@@ -278,7 +464,13 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 ### Espace virtuel de l\'esquisse 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Basculer l\'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md): Vous permet de \"masquer\" toutes les contraintes et de les rendre à nouveau visibles.
+
+
+</div>
 
 ## Préférences
 
@@ -320,11 +512,11 @@ La page [Sketcher : Ecrire des scripts](Sketcher_scripting/fr.md) contient des e
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/fr

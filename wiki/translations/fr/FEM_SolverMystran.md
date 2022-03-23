@@ -5,6 +5,7 @@
    MenuLocation:Solve → Solveur Mystran
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**S** **M**
+   Version:0.20
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
@@ -12,7 +13,11 @@
 
 ## Description
 
-A faire
+[Solveur Mystran](FEM_SolverMystran/fr.md) permet d\'utiliser le solveur [MYSTRAN](https://www.mystran.com). Il peut être utilisé pour :
+
+1.  Définir les paramètres d\'analyse
+2.  Sélectionner le répertoire de travail
+3.  Exécuter le solveur MYSTRAN
 
 ## Utilisation
 

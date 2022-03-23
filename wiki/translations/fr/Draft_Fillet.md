@@ -39,7 +39,7 @@ La commande <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draf
 
 -   Un Draft Congé ne peut pas être édité et n\'est pas lié aux lignes qui ont été utilisées pour le créer.
 -   Seules les Draft Lignes, c\'est-à-dire les [Draft Polylignes](Draft_Wire/fr.md) avec seulement deux points sont supportés pour le moment.
--   Une [Draft Polyligne](Draft_Wire/fr.md) qui a au moins trois points peut recevoir un congé ou être chanfreinée en modifiant respectivement sa {{PropertyData/fr|Fillet Radius}} ou {{PropertyData/fr|Chamfer Size}}. Le fait que les [Draft Lignes](Draft_Line.md) et [Draft Polylignes](Draft_Wire/fr.md) puissent être jointes avec les commandes [Draft Polylignes](Draft_Wire/fr.md), [Draft Joindre](Draft_Join/fr.md) ou [Draft Mettre à niveau](Draft_Upgrade/fr.md), nous avons ici une méthode alternative pour créer des filets et des chanfreins.
+-   Une [Draft Polyligne](Draft_Wire/fr.md) qui a au moins trois points peut recevoir un congé ou être chanfreinée en modifiant respectivement sa **Fillet Radius** ou **Chamfer Size**. Le fait que les [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md) puissent être jointes avec les commandes [Draft Polylignes](Draft_Wire/fr.md), [Draft Joindre](Draft_Join/fr.md) ou [Draft Agréger](Draft_Upgrade/fr.md), nous avons ici une méthode alternative pour créer des filets et des chanfreins.
 
 ## Propriétés
 

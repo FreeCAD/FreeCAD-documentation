@@ -26,7 +26,7 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

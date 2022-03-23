@@ -207,13 +207,17 @@ There is a lot of documentation spread in different places, both on and outside 
 
 ### Quiero importar/exportar datos en formato XYZ a/desde FreeCAD. ¿Cómo lo hago? 
 
-Please refer to the page [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md). Maybe your questions are already answered there.
+Please refer to the [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md) page. Maybe your questions are already answered there.
+
+### Where can I find workarounds for features that FreeCAD currently does not support? 
+
+Please refer to the [Workarounds](Workarounds.md) page.
 
 ## Trabajar con la geometría de la pieza 
 
 ### ¿Cómo puedo extrudir cosas en sólidos? No obtengo el resultado correcto 
 
-The theory is simple: Lines (or wires), when extruded, form faces. Faces, when extruded, form solids. If you extrude something and the result is not a solid, then the something was not a face. If you have lines and you want to extrude a solid from them, you must first select lines that form a closed perimeter (select several objects by pressing **Ctrl**), join them into a wire ([Draft Upgrade tool](Draft_Upgrade.md)), then make a face from that wire (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> Upgrade tool again). There you are, if all went well you can now extrude it to a solid.
+The theory is simple: Lines (or wires), when extruded, form faces. Faces, when extruded, form solids. If you extrude something and the result is not a solid, then the something was not a face. If you have lines and you want to extrude a solid from them, you must first select lines that form a closed perimeter (select several objects by pressing **Ctrl**), join them into a wire ([Draft Upgrade](Draft_Upgrade.md) tool), then make a face from that wire (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> [Draft Upgrade](Draft_Upgrade.md) tool again). There you are, if all went well you can now extrude it to a solid.
 
 Now, there can be many little twists that make you obtain the wrong result. The best way to make sure is to check what\'s inside the object you are extruding. Objects contents can be easily explored with python. Assuming for example you have an object called \"Wire\", you could type this into the Python console:
 

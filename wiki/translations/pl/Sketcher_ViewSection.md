@@ -3,7 +3,8 @@
    Name:Sketcher ViewSection
    Name/pl:Szkicownik: Widok przekroju
    MenuLocation:Szkic → Widok przekroju
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md) 
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
+   Shortcut:**Q** **S**
    Version:0.18
 ---
 
@@ -27,7 +28,7 @@ To polecenie można wywołać na kilka sposobów:
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

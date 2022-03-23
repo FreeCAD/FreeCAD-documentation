@@ -143,8 +143,8 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Intersection](Part_Common/fr.md) : Extrait la partie commune (intersection) de deux objets.
 -   <img alt="" src=images/Part_Compound.svg  style="width:32px;"> [Créer un composé](Part_Compound/fr.md) : Crée un composé à partir des objets sélectionnés.
 -   <img alt="" src=images/Part_SimpleCopy.svg  style="width:32px;"> [Créer une copie simple](Part_SimpleCopy/fr.md) : Crée une copie simple de l\'objet sélectionné.
--   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Mettre à niveau](Draft_Upgrade/fr.md) : Joint des objets en un objet de plus haut niveau.
--   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Rétrograder](Draft_Downgrade/fr.md) : Explose des objets en objets de niveau inférieur.
+-   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Agréger](Draft_Upgrade/fr.md) : Joint des objets en un objet de plus haut niveau.
+-   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Désagréger](Draft_Downgrade/fr.md) : Explose des objets en objets de niveau inférieur.
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Projection 2D](Draft_Shape2DView/fr.md) : Génère une projection 2D à partir d\'un objet 3D.
 -   <img alt="" src=images/Draft_Draft2Sketch.png  style="width:32px;"> [Draft vers Esquisse](Draft_Draft2Sketch/fr.md) : Convertit un objet Draft en esquisse (Sketcher) et vice versa.
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Coupe Plane](Arch_CutPlane/fr.md) : Coupe un objet selon un plan défini.

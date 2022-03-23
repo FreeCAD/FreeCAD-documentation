@@ -10,6 +10,9 @@
 
 # Sketcher CreateLine/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet eine Linie durch Aufnahme von zwei Punkten: den Start- und den Endpunkt.

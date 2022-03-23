@@ -3,56 +3,26 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
 Der Arbeitsbereich Techdraw verfügt über zwei Schraffierwerkzeuge:
 
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Fläche mit Muster aus einer Bilddatei schraffieren](TechDraw_Hatch/de.md) (kachelbasiert)
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [ Fläche mit einer geometrischen Schraffur versehen](TechDraw_GeometricHatch/de.md) (linienbasiert)
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [TechDraw Schraffur](TechDraw_Hatch/de.md) (basiert auf gekachelten SVG-Bildern)
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [TechDraw GeometrischeSchraffur](TechDraw_GeometricHatch/de.md) (linienbasiert)
 
+## Bildbasierte Schraffur 
 
-</div>
+<img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> [TechDraw Schraffur](TechDraw_Hatch/de.md) verwendet gekachelte [SVG](SVG/de.md)-Bilder, um die ausgewählte Fläche zu schraffieren.
 
-
-<div class="mw-translate-fuzzy">
-
-### Fläche mit Muster aus einer Bilddatei schraffieren 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Fläche mit Muster aus einer Bilddatei schraffieren](TechDraw_Hatch/de.md) verwendet [SVG-](SVG/de.md) oder [bitmap-](bitmap/de.md) basierte Kacheln, um die ausgewählte Fläche zu schraffieren.
-
-
-</div>
-
-[SVG](SVG/de.md)-Kacheln sind typischerweise **64x64** Pixel-Bilder. Alle Schraffurdateien, die mit FreeCAD ausgeliefert werden, sind verfügbar unter [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/Draft/Resources/patterns).
+[SVG](SVG/de.md)-Kacheln sind typischerweise Bilder (mit einer Größe) von **64x64** Pixeln. Alle Schraffurdateien, die mit FreeCAD ausgeliefert werden, sind verfügbar unter [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/Draft/Resources/patterns).
 
 Die Standard-Schraffurmusterdatei kann in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) festgelegt werden.
 
-### Available patterns 
+### Verfügbare Muster 
 
 Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General\_steel.svg\|general\_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
 
+## Geometrische Schraffur 
 
-<div class="mw-translate-fuzzy">
-
-### Fläche mit einer geometrischen Schraffur versehen 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Geometrische Schraffur auf eine Fläche anwenden](TechDraw_GeometricHatch/de.md) bildet ein Muster von Linien basierend auf einer aus einer Datei gelesenen Spezifikation. Diese Datei ist im Allgemeinen **kompatibel mit dem weit verbreiteten AutoDesk® PAT-Format**. Eine kleine Auswahl von Mustern ist in der Datei FCPAT.pat enthalten:
-
-
-</div>
+<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [TechDraw Geometrische Schraffur](TechDraw_GeometricHatch/de.md) bildet ein Muster von Linien basierend auf einer aus einer Datei gelesenen Spezifikation. Diese Datei ist im Allgemeinen **kompatibel mit dem weit verbreiteten AutoDesk® PAT-Format**. Eine kleine Auswahl von Mustern ist in der Datei FCPAT.pat enthalten:
 
 
 ```python

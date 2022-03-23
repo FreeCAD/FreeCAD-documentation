@@ -4,6 +4,7 @@
    Name/fr:Sketcher Créer un arc d'hyberbole
    MenuLocation:Sketch → Géométries d'esquisse → Créer un arc d'hyberbole
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **H**
    Version:0.17
    SeeAlso:[Sketcher Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md), [Sketcher Arc de parabole](Sketcher_CreateArcOfParabola/fr.md)
 ---
@@ -28,7 +29,7 @@ Cet outil créé un arc d\'hyperbole par son centre, son rayon majeur et les poi
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

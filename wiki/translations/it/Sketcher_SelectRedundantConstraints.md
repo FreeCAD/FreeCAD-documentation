@@ -39,7 +39,7 @@ Seleziona i vincoli ridondanti di uno schizzo.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

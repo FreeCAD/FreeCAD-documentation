@@ -1,4 +1,13 @@
 # Sketcher Preferences/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 {{TOCright}}
 
 The preferences for the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) can be found in the [Preferences Editor](Preferences_Editor.md). In the menu select **Edit → Preferences...** and then **Sketcher**.
@@ -235,10 +244,16 @@ In the *Colors* tab you can specify the following:
 ![](images/FreeCAD-v0.19-Sketcher-Preferences-Colors-UPDATED.png )
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

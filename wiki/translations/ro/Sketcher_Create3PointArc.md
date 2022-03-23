@@ -26,7 +26,7 @@ Când instrumentul este activat, indicatorul maouse-ului se schimbă într-o cur
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

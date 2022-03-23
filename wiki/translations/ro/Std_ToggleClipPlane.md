@@ -53,7 +53,7 @@ Un \'\'\'plan de secționare \'\'\' este un plan care împarte volumul obiectulu
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

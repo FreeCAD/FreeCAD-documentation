@@ -19,14 +19,26 @@ Dieses Werkzeug löscht alle Beschränkungen aus der zu bearbeitenden Skizze und
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Gehe zum **Skizze → Skizzierer Werkzeuge → [<img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Alle Beschränkungen löschen** Menü .
 2.  Antworte **Ja** auf das Aufklapp Dialogfeld.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

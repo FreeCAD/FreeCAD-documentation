@@ -11,13 +11,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Schraffurwerkzeug füllt einen geschlossenen Bereich in einer Ansicht mit einem Schraffurmuster einer [SVG-](SVG/de.md) oder [Bitmap-Datei](bitmap/de.md). Im Gegensatz dazu verwendet das Werkzeug <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [GeometrischeSchraffur](TechDraw_GeometricHatch/de.md) ein Schraffurmuster aus einern bestimmte PAT-Datei, siehe [Schraffieren](TechDraw_Hatching/de.md) für Einzelheiten.
-
-
-</div>
+Das Werkzeug <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechDraw Schraffur** füllt einen geschlossenen Bereich in einer Ansicht mit einem [SVG](SVG/de.md)-basierten Schraffurmuster. Alternativ dazu verwendet das Werkzeug <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [TechDraw GeometrischeSchraffur](TechDraw_GeometricHatch/de.md) ein PAT-basiertes Schraffurmuster. Siehe [Schraffieren](TechDraw_Hatching/de.md) für Einzelheiten.
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
@@ -27,15 +21,13 @@ Das Schraffurwerkzeug füllt einen geschlossenen Bereich in einer Ansicht mit ei
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wähle einen geschlossenen Bereich in einer Ansicht.
-2.  Drücke die Schaltfläche **<img src="images/TechDraw_Hatch.svg" width=16px> [Fläche mit Muster aus einer Bilddatei schraffieren](TechDraw_Hatch/de.md)**.
-3.  Ein Dialog wird geöffnet, in welchem man die Musterdatei, den Maßstab und die Farbe auswählen kann.
-
-
-</div>
+2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_Hatch.svg" width=16px> [Fläche mit Muster aus einer Bilddatei schraffieren](TechDraw_Hatch/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_Hatch.svg" width=16px> Fläche mit Muster aus einer Bilddatei schraffieren** auswählen.
+3.  Der Aufgabenbereich zu **Fläche mit Muster aus einer Bilddatei schraffieren** öffnet sich.
+4.  Optional können **Pattern File** (Schraffurdatei), **Pattern Scale** (Schraffurskalierung) und **Line Color** (Linienfarbe) verändert werden.
+5.  Schaltfläche **OK** drücken.
 
 ## Hinweise
 

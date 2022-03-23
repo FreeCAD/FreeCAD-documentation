@@ -32,6 +32,9 @@ Ci sono quattro modi diversi per applicare il vincolo:
 3.  a una intersezione di curve
 4.  a archi di circonferenze
 
+
+<div class="mw-translate-fuzzy">
+
 Per applicare il vincolo angolo, si dovrebbe il seguire la seguente procedura:
 
 1.  Selezionare una, due o tre entità nello schizzo. La modalità sarà scelta in funzione della selezione.
@@ -42,6 +45,9 @@ Per applicare il vincolo angolo, si dovrebbe il seguire la seguente procedura:
 3.  Si apre una finestra di dialogo di modifica del dato.
 4.  Se necessario, modificare il valore. **Nota:** L\'angolo può essere inserito anche come una espressione che viene valutata e di cui viene memorizzato il risultato.
 5.  Fare clic su **OK**.
+
+
+</div>
 
 Come per qualsiasi vincolo valore, è possibile modificare in seguito il valore dell\'angolo facendo doppio clic sul vincolo nella lista dei vincoli o nella vista 3D. Un valore negativo inverte la direzione dell\'angolo.
 
@@ -148,7 +154,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

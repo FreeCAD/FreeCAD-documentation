@@ -10,6 +10,9 @@
 
 # Sketcher ConstrainAngle/ru
 
+
+</div>
+
 ## Описание
 
 Angle constraint is a [datum constraint](Sketcher_Workbench#Sketcher_Constraints.md) intended to fix angles in sketch. It is capable of setting slopes of individual lines, angles between lines, angles of intersections of curves, and angle spans of circular arcs.
@@ -28,7 +31,7 @@ To apply angle constraint, one should the follow the steps:
 1.  Select one, two or three entities in the sketch. The mode will be chosen depending on the selection.
 2.  Invoke the constraint using several methods:
     -   Pressing the **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Constrain angle](Sketcher_ConstrainAngle.md)** button in the toolbar.
-    -   Using the **A** keyboard shortcut. (**A** is for **A**ngle)
+    -   Using the **K** then **A** keyboard shortcut.
     -   Using the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Constrain angle** form the top menu entry
 3.  A datum edit dialog box pops up.
 4.  Modify the angle if necessary. **Note:** The angle can be entered as an expression that will be evaluated and the result will be stored.
@@ -102,10 +105,16 @@ Sketch.addConstraint(Sketcher.Constraint('AngleViaPoint',icurve1,icurve2,geoidpo
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` and `pointpos` and contains further examples on how to create constraints from Python scripts.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

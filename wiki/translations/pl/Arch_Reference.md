@@ -12,7 +12,7 @@
 
 <img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
 
-The Reference tool allows you to place an object in the current document that copies its shape and colors from an [Part](Part_Workbench.md)-based object (including [Arch BuildingPart](Arch_BuildingPart.md)) stored in another FreeCAD file. If that FreeCAD file changes, the reference object is marked to be reloaded.
+The Reference tool allows you to place an object in the current document that copies its shape and colors from a [Part](Part_Workbench.md)-based object (including [Arch BuildingPart](Arch_BuildingPart.md)) stored in another FreeCAD file. If that FreeCAD file changes, the reference object is marked to be reloaded.
 
 ## Usage
 

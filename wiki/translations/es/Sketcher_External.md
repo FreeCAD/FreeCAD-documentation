@@ -10,9 +10,18 @@
 
 # Sketcher External/es
 
+
+</div>
+
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Usa la herramienta **<img src="images/Sketcher_External.svg" width=16px> [Geometría externa](Sketcher_External/es.md)** cuando necesites aplicar una restricción entre la geometría del croquis y algo fuera del mismo. Funciona insertando una geometría de construcción vinculada en el croquis. El color por defecto de los bordes vinculadas externamente es el magenta. Al igual que con la geometría de construcción no vinculada estándar (azul), la geometría vinculada externamente sólo es visible cuando el croquis está en modo de edición y no se utiliza directamente en el resultado posterior del uso del croquis en otra herramienta. Ambos tipos de geometría de construcción pueden utilizarse como referencia para las restricciones dentro del croquis.
+
+
+</div>
 
 Una nota de precaución, usar esta herramienta para enlazar con la geometría (sólida) generada puede llevar a resultados inesperados debido a [Problema de denominación topológica](Topological_naming_problem/es.md). Vea también [Consejo para modelos estables](Feature_editing/es#Consejo_para_modelos_estables.md).
 
@@ -80,10 +89,16 @@ When the sketch edit mode is closed, external Geometry lines are not visible.
 <FILE:Sketcher_ExternalEsempio3.png>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

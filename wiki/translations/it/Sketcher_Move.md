@@ -44,7 +44,7 @@ Sposta da un punto a un altro gli elementi dello schizzo selezionati, utilizzand
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

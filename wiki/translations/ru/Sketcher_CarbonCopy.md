@@ -9,6 +9,9 @@
 
 # Sketcher CarbonCopy/ru
 
+
+</div>
+
 ## Описание
 
 Инструмент **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Структурная Копия](Sketcher_CarbonCopy/ru.md)** копирует всю геометрию и ограничения из другого эскиза в активный эскиз.
@@ -17,11 +20,17 @@
 
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Убедитесь, что Вы в режиме редактирования текущего **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Эскиза](Sketcher_NewSketch/ru.md)**. Этот эскиз будет целью операции.
 2.  Нажмите кнопку **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Структурная Копия](Sketcher_CarbonCopy/ru.md)**.
 3.  Нажмите на ребро другого эскиза. Этот эскиз будет источником операции.
 4.  Элементы геометрии, а также ограничения cкопируются в активный эскиз.
 5.  Нажатие **ESC** или правой кнопки мыши заканчивает операцию.
+
+
+</div>
 
 ## Примечания
 
@@ -41,10 +50,16 @@
 -   Копируется весь эскиз, только часть выбрать невозможно. Однако можно удалить ненужные элементы скопированного эскиза после копирования.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

@@ -67,7 +67,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 -   Une Draft Polyligne peut être éditée avec la commande [Draft Éditer](Draft_Edit/fr.md).
 -   Une Draft Ligne peut être convertie en une [Draft B-spline](Draft_BSpline/fr.md) avec la commande [Draft Filaire vers B-spline](Draft_WireToBSpline/fr.md).
--   Les [Draft Lignes](Draft_Line/fr.md) et les Draft Polylignes peuvent également être jointes avec la commande [Draft Joindre](Draft_Join/fr.md) ou la commande [Draft Mettre à niveau](Draft_Upgrade/fr.md).
+-   Les [Draft Lignes](Draft_Line/fr.md) et les Draft Polylignes peuvent également être jointes avec la commande [Draft Joindre](Draft_Join/fr.md) ou la commande [Draft Agréger](Draft_Upgrade/fr.md).
 
 ## Préférences
 

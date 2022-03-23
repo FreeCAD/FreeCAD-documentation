@@ -10,11 +10,17 @@
 
 # Sketcher ConstrainPointOnObject/de
 
+
+</div>
+
 ## Beschreibung
 
 Bringt einen Punkt auf einem anderen Objekt an, z.B. einer Linien-, Bogen- oder Skizzenachse.
 
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle den Punkt aus, den du auf einer Linie/Bogen/etc. anbringen möchtest. (**Ergebnis:** Einmal ausgewählt, wird der Punkt grün).
 2.  Wähle die Linie, die du an dem soeben ausgewählten Punkt anbringen möchtest (**Ergebnis:** Einmal ausgewählt, wird die Linie grün).
@@ -23,17 +29,12 @@ Bringt einen Punkt auf einem anderen Objekt an, z.B. einer Linien-, Bogen- oder 
     -   Verwende die **Shift** + **O** Tastaturkürzel.
     -   Verwende den {{MenuCommand/de|Skizze → Skizzierer Beschränkungen → Punkt auf Objekt beschränken}} Eintrag im oberen Menü.
 
-**Hinweis:** Die Reihenfolge wie die Linie und der Punkt ausgewählt wird, spielt keine Rolle. Der Punkt wird sich immer zu der Linie bewegen. Die Linie bleibt fixiert.
+
+</div>
 
 ## Skripten
 
-
-<div class="mw-translate-fuzzy">
-
-Die Beschränkung kann von [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole durch den folgenden Befehl erzeugt werden:
-
-
-</div>
+Die Beschränkung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch den folgenden Befehl erzeugt werden:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

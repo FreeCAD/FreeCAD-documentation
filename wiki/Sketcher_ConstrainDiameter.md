@@ -3,8 +3,9 @@
    Name:Sketcher ConstrainDiameter
    MenuLocation:Sketch → Sketcher constraints → Constrain diameter
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
+   Shortcut:**K** **O**
    Version:0.18
+   SeeAlso:[Sketcher Constrain distance](Sketcher_ConstrainDistance.md), [Sketcher Constrain horizontal distance](Sketcher_ConstrainDistanceX.md), [Sketcher Constrain vertical distance](Sketcher_ConstrainDistanceY.md)
 ---
 
 # Sketcher ConstrainDiameter
@@ -42,7 +43,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

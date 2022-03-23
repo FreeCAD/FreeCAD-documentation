@@ -5,12 +5,10 @@
    MenuLocation:Part → Beseitigen der Funktionalität
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.18
+   SeeAlso:[Defeaturing](Defeaturing_Workbench/de.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing.md)
 ---
 
 # Part Defeaturing/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -36,14 +34,7 @@ Um verfügbar zu sein, muss FreeCAD auf Open Cascade 7.3.0 oder höher basieren.
 
 ## Verweise
 
-
-<div class="mw-translate-fuzzy">
-
 -   [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211), die offizielle Ankündigung auf dem Open Cascade Collaborative Development Portal.
--   <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [ Arbeitsbereich Merkmal aus einer Form entfernen](Defeaturing_Workbench/de.md)
-
-
-</div>
 
 
 

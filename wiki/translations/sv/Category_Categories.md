@@ -14,8 +14,7 @@ This is the **top category** which contains the main categories of the FreeCAD w
 | [Category:Categories/sv](wiki/Category_Categories/sv.md) | [Category:Command Reference/sv](wiki/Category_Command Reference/sv.md) | [Category:Developer/sv](wiki/Category_Developer/sv.md) |
 | [Category:Documentation/sv](wiki/Category_Documentation/sv.md) | [Category:Hubs/sv](wiki/Category_Hubs/sv.md) | [Category:Macros/sv](wiki/Category_Macros/sv.md) |
 | [Category:Python Code/sv](wiki/Category_Python Code/sv.md) | [Category:Repository/sv](wiki/Category_Repository/sv.md) | [Category:Roadmap/sv](wiki/Category_Roadmap/sv.md) |
-| [Category:Template/sv](wiki/Category_Template/sv.md) | [Category:Tutorials/sv](wiki/Category_Tutorials/sv.md) | [Category:UnfinishedDocu/sv](wiki/Category_UnfinishedDocu/sv.md) |
-|
+| [Category:Template/sv](wiki/Category_Template/sv.md) | [Category:UnfinishedDocu/sv](wiki/Category_UnfinishedDocu/sv.md) |
 
 
 

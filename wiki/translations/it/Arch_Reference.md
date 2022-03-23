@@ -17,7 +17,13 @@
 
 <img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Riferimento consente di posizionare nel documento corrente un oggetto che copia la sua forma e i suoi colori da un oggetto basato su [Part](Part_Workbench/it.md) (incluso [Parte di edificio](Arch_BuildingPart/it.md)) e memorizzato in un altro file di FreeCAD. Se il file di FreeCAD cambia, l\'oggetto di riferimento viene contrassegnato per essere ricaricato.
+
+
+</div>
 
 ## Utilizzo
 

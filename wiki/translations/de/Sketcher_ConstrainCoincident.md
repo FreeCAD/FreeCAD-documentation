@@ -20,6 +20,9 @@ In der Praxis ist dieses Beschränkungswerkzeug nützlich, wenn es z.B. zu einem
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 Wie oben erwähnt, benötigt dieses Werkzeug zwei Argumente - beides sind Punkte.
 
 1.  Zunächst ist es notwendig, zwei verschiedene Punkte zu markieren. (**Hinweis:** Dies funktioniert nicht, wenn du z. B. versuchst, den Start- und Endpunkt derselben Geraden zu markieren; das Markieren des Anfangs- und Endpunkts eines Bogens erzeugt einen geschlossenen Kreis oder eine Ellipse, zwingt aber die Lage der Naht auf diesen Punkt).
@@ -36,6 +39,9 @@ Wie oben erwähnt, benötigt dieses Werkzeug zwei Argumente - beides sind Punkte
 **Ergebnis:**
 
 Der Befehl bewirkt, dass die beiden Punkte *deckungsgleich* werden und durch einen einzigen Punkt ersetzt werden.
+
+
+</div>
 
 
 **Hinweis:**
@@ -78,10 +84,16 @@ Wie die Namen `LineFixed` und `LineMoving` andeuten, bleibt, wenn beide beschrä
 Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, die für `LineFixed`, `PointOfLineFixed`, `LineMoving` und `PointOfLineMoving` verwendet werden können, und enthält weitere Beispiele, wie man Beschränkungen aus Python Skripten erstellt.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

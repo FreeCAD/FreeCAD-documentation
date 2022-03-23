@@ -20,10 +20,16 @@
     -   Нажать кнопку **Close** наверху вкладки [Задачи](Task_panel/ru.md).
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

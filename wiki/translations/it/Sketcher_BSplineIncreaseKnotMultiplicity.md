@@ -64,7 +64,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

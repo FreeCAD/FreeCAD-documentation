@@ -23,7 +23,7 @@ Cet outil supprime tous les éléments de géométrie de l\'esquisse en cours d\
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

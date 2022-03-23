@@ -119,7 +119,7 @@ When the sketch edit mode is closed, External Geometry lines are not visible.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -4,7 +4,7 @@
    Name/pl:Szkicownik: Utwórz linię
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Tworzenie linii
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:L
+   Shortcut:**G** **L**
    SeeAlso:[Polilinia](Sketcher_CreatePolyline/pl.md)
 ---
 

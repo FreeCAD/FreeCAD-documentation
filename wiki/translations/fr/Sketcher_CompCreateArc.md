@@ -15,14 +15,14 @@
 
 ## Types d\'arcs 
 
--   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Arc](Sketcher_CreateArc/fr.md) : dessine un segment d\'arc à partir du centre, rayon, angle de départ et angle d\'arrivée.
--   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Arc par 3 points](Sketcher_Create3PointArc/fr.md) : dessine un arc de cercle sur deux points et un troisième point pour la circonférence.
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Arc](Sketcher_CreateArc/fr.md) : Dessine un arc en prenant trois points : le centre, l\'angle de départ le long du rayon et l\'angle d\'arrivée.
+-   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Arc par 3 points](Sketcher_Create3PointArc/fr.md) : Dessine un arc en prenant trois points : le point de départ, le point d\'arrivée et un point sur l\'arc.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

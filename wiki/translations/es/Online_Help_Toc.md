@@ -53,6 +53,8 @@ Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introducti
 
 -   [PREGUNTAS FRECUENTES](Frequently_asked_questions/es.md)
 
+-   [Workarounds](Workarounds.md)
+
 -   [Tutoriales](Tutorials/es.md)
 
 -   Personalizando FreeCAD

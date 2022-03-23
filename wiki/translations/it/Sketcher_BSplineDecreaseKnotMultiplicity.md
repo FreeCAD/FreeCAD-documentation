@@ -65,7 +65,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 
 </div>
 
-**Note:** Decreasing the multiplicity from 1 to 0 will remove the knot since the result would be a curve with an \"edge\" at the knot position (*C*^0^ continuity) and this is not supported. (To create curves with an \"edges\", you can create two splines and connect them.)
+**Note:** Decreasing the multiplicity from 1 to 0 will remove the knot since the result would be a curve with an \"edge\" at the knot position (*C*^0^ continuity) and this is not supported. (To create curves with an \"edge\", you can create two splines and connect them.)
 
 
 <div class="mw-translate-fuzzy">
@@ -77,7 +77,7 @@ One can see that the spline with knot multiplicity 1 is completely changed while
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

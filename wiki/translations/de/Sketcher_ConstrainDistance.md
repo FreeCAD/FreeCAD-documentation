@@ -10,6 +10,9 @@
 
 # Sketcher ConstrainDistance/de
 
+
+</div>
+
 ## Description
 
 
@@ -26,12 +29,18 @@ Die **Beschränke Abstand** beschränkt die Länge einer Linie, den senkrechten 
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle zwei Punkte oder eine Linie oder einen Punkt und eine Linie.
 2.  Aufrufen des Befehls auf verschiedene Weise:
     -   Drücke die **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Abstand beschränken](Sketcher_ConstrainDistance/de.md)** Schaltfläche in der Skizzierer Werkzeugleiste.
     -   Verwende die **Shift** + **D** Tastaturkürzel. (**D**\' steht für **D**istance; engl.: Abstand)
     -   Verwende den **Skizze → Skizziererbeschränkungen  → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Abstand beschränken** Eintrag aus dem oberen Menü.
 3.  Ein Einblenddialogfeld wird geöffnet, um den Wert zu bearbeiten oder zu bestätigen. Drücken **OK**, um den Wert zu bestätigen.
+
+
+</div>
 
 **Hinweis**: Das Beschränkungswerkzeug kann auch ohne vorherige Auswahl gestartet werden. Um den lotrechten Abstand zwischen einem Punkt und einer Linie zu setzen, muss der Punkt zuerst selektiert werden. Als Voreinstellung ist der Befehl im \"Continue Mode\", um neue Beschränkungen zu erstellen; drücke die rechte Maustaste oder **Esc** einmal zum Beenden des Befehls.
 
@@ -67,13 +76,25 @@ Distanz von Punkt (`Edge, PointOfEdge`) zum nächsten Punk auf Linie (`Line`):
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Edge, PointOfEdge, Line, App.Units.Quantity('123.0 mm')))```
 
+
+<div class="mw-translate-fuzzy">
+
 Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die für `Edge1`, `Edge2`, `Edge`, `PointOfEdge1`, `PointOfEdge2`, `PointOfEdge` und `Line` verwendet werden können, und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

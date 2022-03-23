@@ -4,6 +4,7 @@
    Name/fr:Sketcher Point
    MenuLocation:Sketch → Géométries d'esquisse → Créer un point
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **Y**
 ---
 
 # Sketcher CreatePoint/fr
@@ -29,7 +30,7 @@ L\'outil Point crée un point dans l\'esquisse en cours, qui peut être utilisé
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

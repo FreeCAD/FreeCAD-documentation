@@ -10,21 +10,36 @@
 
 # Sketcher SelectHorizontalAxis/fr
 
+
+</div>
+
 ## Description
 
 Sélectionne l\'axe horizontal d\'une esquisse.
 
 ## Utilisation
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Entrez le mode d\'édition d\'esquisse.
 2.  Choisir **Sketch → Outils d'esquisse → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Sélectionner l'axe horizontal** dans le menu principal.
 3.  L\'axe horizontal de l\'esquisse sera sélectionnée.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

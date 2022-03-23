@@ -3,6 +3,7 @@
    Name:Std ToggleClipPlane
    MenuLocation:View → Clipping plane
    Workbenches:All
+   SeeAlso:[Part SectionCut](Part_SectionCut.md)
 ---
 
 # Std ToggleClipPlane/en
@@ -41,7 +42,7 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

@@ -14,17 +14,8 @@
 
 Das Ausstattungwerkzeug bietet einen einfachen und bequemen Weg, nichttragende, einzelstehende Elemente wie Möbelstücke, Sanitärgegenstände oder elektrische Geräte zu Deinen Projekten hinzuzufügen. Ausstattungen basieren auf [Part Formen](Part_Workbench/de.md), die es erlauben, von der Solidität und den Möglichkeiten von BRep Geometrien zu profitieren und nette Ansichten von Drauf- und Schnittansichten zu erzeugen.
 
-![](images/Arch_equipment_example.jpg )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+![](images/Arch_equipment_example.jpg ) 
 *Möbelobjekte, die in einem  [Arch Ausstattung](Arch_Equipment.md) Objekt eingeschlossen sind. Die flachen Projektionen können mit dem [Entwurf Shape2DAnsicht](Draft_Shape2DView/de.md) Werkzeug erhalten werden.*
-
-
-</div>
 
 Seit v0.17 können Ausstattungsobjekte auch eine {{PropertyData/de|HiRes}}-Eigenschaft haben, woran ein [Netz](Mesh_Workbench/de.md)-Objekt angeheftet werden kann. Ausstattungsobjekte können dann veranlasst werden, dieses Netz anstatt ihrer Form in der 3D-Ansicht anzuzeigen, um so beliebige hochauflösende Netz-Objekte wie detaillierte Möbelstücke zu verwenden, die üblicherweile auf Web-Seiten zu finden sind.
 
@@ -50,9 +41,6 @@ Durch Nutzung des Arch OBJ Exporteurs können alle Ausstattungsobjekte im Netz A
 
 -    {{PropertyData/de|Mesh}}: Eine für diese Ausstattung zu verwendende [Netz](Mesh_Workbench/de.md)-Darstellung. Wenn gesetzt, wird der **Netz**-Anzeige-Modus verfügbar.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Skripten
 
 
@@ -60,23 +48,7 @@ Durch Nutzung des Arch OBJ Exporteurs können alle Ausstattungsobjekte im Netz A
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Das Ausstattungswerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole mit der folgenden Funktion verwendet werden:
-
-
-</div>
-
-
+Das Werkzeug Ausstattung kann in [Makros](macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden: 
 ```python
 Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 ```
@@ -97,15 +69,6 @@ Box.Height = 600
 Equip = Arch.makeEquipment(Box)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

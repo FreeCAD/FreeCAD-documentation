@@ -32,7 +32,7 @@ Když je náčrt v editačním módu, buď
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

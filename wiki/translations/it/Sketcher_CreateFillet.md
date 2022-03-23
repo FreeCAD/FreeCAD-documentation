@@ -45,7 +45,7 @@ Dopo l\'esecuzione di un raccordo, lo strumento rimane attivo e permette di eseg
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

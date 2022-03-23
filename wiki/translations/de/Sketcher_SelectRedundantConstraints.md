@@ -27,15 +27,27 @@ Wählt die redundanten Beschränkungen einer Skizze aus.
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Rufe den Bearbeitungsmodus der Skizze auf.
 2.  Wähle**Skizze → Skizzierer Werkzeuge → [<img src=images/Sketcher_SelectRedundantConstraints.svg style="width:16px"> Wähle Redundante Beschränkungen** aus dem oberen Menü.
 3.  Die redundanten Beschränkungen der Skizze werden ausgewählt.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

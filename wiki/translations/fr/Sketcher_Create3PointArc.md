@@ -4,7 +4,7 @@
    Name/fr:Sketcher Arc par 3 points
    MenuLocation:Sketch → Géometries d'esquisse → Arc par 3 points
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:
+   Shortcut:**G** **3** **A**
    SeeAlso:
 ---
 
@@ -25,7 +25,7 @@ Quand cet outil est activé, le pointeur de la souris change en une croix blanch
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

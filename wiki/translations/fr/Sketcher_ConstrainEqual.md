@@ -4,7 +4,7 @@
    Name/fr:Sketcher Contrainte d'égalité
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte d'égalité
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:E
+   Shortcut:**E**
    SeeAlso:[Sketcher Contrainte rayon](Sketcher_ConstrainRadius/fr.md)
 ---
 
@@ -63,7 +63,7 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui pe
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

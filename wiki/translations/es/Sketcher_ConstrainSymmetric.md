@@ -90,7 +90,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

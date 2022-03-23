@@ -10,6 +10,9 @@
 
 # Sketcher ConstrainParallel/de
 
+
+</div>
+
 ## Beschreibung
 
 Die Beschränke Parallel Beschränkung zwingt zwei gewählte gerade Linien oder Ecken zur Parallelität zueinander.
@@ -26,11 +29,17 @@ Die Skizze enthält zwei zufällig ausgerichtete Linien.
 
 <img alt="" src=images/ConstrainParallel2.png  style="width:500px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Wende die Beschränke Parallelbeschränkung entweder durch:
 
 -   Drücken der **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Parallel beschränken](Sketcher_ConstrainParallel.md)** Schaltfläche in der Skizzierer Beschränkungen Werkzeugleiste, durch Wahl des Beschränkung Parallel Menüelements im Skizzierer Beschränkungen Untermenü des Skizzierers (Skizzierer Arbeitsbereich ausgewählt) oder Part Design (Part Design Arbeitsbereich ausgewählt) Menüelements.
 -   Verwende das Tastaturkürzel **Umschalt** + **P**.
 -   Verwende den {{MenuCommand/de|Skizze → Skizzierer Beschränkungen → Parallel beschränken}} Eintrag aus dem oberen Menü.
+
+
+</div>
 
 <img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
 

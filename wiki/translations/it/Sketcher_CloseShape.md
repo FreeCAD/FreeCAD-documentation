@@ -10,6 +10,9 @@
 
 # Sketcher CloseShape/it
 
+
+</div>
+
 ## Descrizione
 
 Questo strumento può essere usato in Sketcher per chiudere un contorno selezionato impostando un punto finale di un elemento coincidente con il punto finale del successivo elemento selezionato.
@@ -42,7 +45,7 @@ Lo strumento collega gli elementi secondo l\'ordine di selezione, quindi cliccar
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

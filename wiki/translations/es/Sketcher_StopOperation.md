@@ -25,7 +25,10 @@ Esto es similar a pulsar la tecla **Esc**.
 4.  The tool is deactivated and the pointer returns to being a simple pointer.
 
 
-{{Sketcher Tools navi
+
+
+
+{{Sketcher_Tools_navi
 
 }}
 

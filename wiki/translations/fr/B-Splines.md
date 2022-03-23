@@ -117,19 +117,19 @@ Comme expliqué dans la vidéo, les polynômes de base sont des polynômes de Be
 Une propriété des polynômes de Bernstein est que lorsque l\'on regarde les différentes parties de Bézier S-spline, la longueur du chemin de chaque partie est la même. (La longueur du chemin est souvent appelée le *temps de parcours*). Comme vous pouvez l\'imaginer, il peut être utile d\'avoir des B-splines dont les parties de Bézier ont des longueurs de chemin différentes. Ceci peut être réalisé en pondérant les différents polynômes :
 
 $\quad
-c(t)=\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k$
+c(t)=\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k$
 
 $w_k$ est alors le poids du $k$-ème point de contrôle. Lorsque les poids ne sont pas égaux, la B-spline est dite **non-uniforme**.
 
 En particulier lorsque les B-splines doivent être utilisées pour la modélisation 3D, des B-splines normalisées et non uniformes sont nécessaires. La normalisation se fait par une division par les fonctions de base pondérées. Ainsi, lorsque touts les $w_k$ sont égaux, nous obtenons une B-spline uniforme, indépendante du poids lui-même :
 
 $\quad
-c(t)=\cfrac{\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
+c(t)=\cfrac{\sum_{k=0}^{N}p_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
 
 Ces B-splines non uniformes et rationnelles (à cause de la division) sont souvent appelées **NURBS**. En regardant leur formule, on voit qu\'elles sont en fait une B-spline avec une base pondérée $R_{k, D}(t)$ :
 
 $\quad
-c(t)=\sum_{k=0}^{N}d_{k}R_{k, D}(t)$
+c(t)=\sum_{k=0}^{N}p_{k}R_{k, D}(t)$
 
 alors que
 

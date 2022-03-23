@@ -4,6 +4,7 @@
    Name/pl:Szkicownik: Wiązanie prawo Snella
    MenuLocation:Szkicownik → Wiązania Szkicownika → Wiązanie refrakcji (prawo Snell'a)
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut:**K** **W**
    Version:0.15
 ---
 
@@ -95,7 +96,7 @@ App.ActiveDocument.recompute()
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

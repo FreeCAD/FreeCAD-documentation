@@ -4,7 +4,7 @@
    Name/fr:Draft Réparer
    MenuLocation:Utilitaires → Réparer
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Draft Mettre à niveau](Draft_Upgrade/fr.md), [Draft Rétrograder](Draft_Downgrade/fr.md)
+   SeeAlso:[Draft Agréger](Draft_Upgrade/fr.md), [Draft Désagréger](Draft_Downgrade/fr.md)
 ---
 
 # Draft Heal/fr

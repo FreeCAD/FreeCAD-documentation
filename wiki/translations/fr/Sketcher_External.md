@@ -4,7 +4,7 @@
    Name/fr:Sketcher Géométrie externe
    MenuLocation:Sketch → Géométries d'esquisse → Géométrie externe
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:X
+   Shortcut:**G** **X**
    SeeAlso:[Sketcher Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)
 ---
 
@@ -77,7 +77,7 @@ Lorsque l\'esquisse est fermée, les lignes de géométrie externe ne sont pas v
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

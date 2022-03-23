@@ -10,6 +10,9 @@
 
 # Sketcher CreateArcOfHyperbola/ru
 
+
+</div>
+
 ## Описание
 
 Этот инструмент рисует дугу по гиперболе используя центр, большой радиус и конечные точки.
@@ -34,7 +37,7 @@
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

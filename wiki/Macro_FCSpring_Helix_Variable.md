@@ -2,17 +2,17 @@
 {{Macro
 |Name=Macro FCSpring Helix Variable
 |Icon=FCSpring Helix Variable.png
-|Description=This macro creates a spring with customizable, any turn may change the spring configuration can be saved in a file with the extension '''.FCSpring'''.<br />Are detected: Surface (Face direction), Cylinder (Radius), Ellipse (MinorRadius), Sphere (Radius), Toroid (Radius1), Plane (Direction), Line (follow the Direction ), Point (XYZ vertex position)<br />If no object is detected (not selection) the spring is created at the point XYZ 0., 0., 0.<br/>See the [https://www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable#Examples examples]
+|Description=This macro creates a spring with customizable, any turn may change the spring configuration can be saved in a file with the extension '''.FCSpring''' or coordinates '''.FCSpringCoor'''.<br />Are detected: Surface (Face direction), Cylinder (Radius), Ellipse (MinorRadius), Sphere (Radius), Toroid (Radius1), Plane (Direction), Line (follow the Direction ), Point (XYZ vertex position)<br />If no object is detected (not selection) the spring is created at the point XYZ 0., 0., 0.<br/>See the [https://www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable#Examples examples]
 |Author=Mario52
-|Version=01.17
-|Date=2020/11/12
+|Version=01.18
+|Date=2022/03/16
 |Download=Download the [https://forum.freecadweb.org/download/file.php?id=80844 the Icons] in .zip file 
 |FCVersion=0.19
 }}
 
 ## Description
 
-This macro creates a spring highly customizable. Any modification changing the spring configuration can be saved in a file with the extension .FCSpring
+This macro creates a spring highly customizable. Any modification changing the spring configuration can be saved in a file with the extension .FCSpring or coordinates .FCSpringCoor
 Are detected: Surface (Face direction), Cylinder (Radius), Ellipse (MinorRadius), Sphere (Radius), Toroid (Radius1), Plane (Direction), Line (follow the Direction ), Point (XYZ vertex position)
 If no object is detected (not selection) the spring is created at the point XYZ 0., 0., 0.
 
@@ -290,6 +290,33 @@ soften fittings :done
 modify diameter to any coil :done
 
 ## Version
+
+2022/03/16 Version 0.18 : adding scrollBar, possibility docking Left or Right, restore the chrono *(time.time())*, memorise the last FilePath
+
+ 
+```python
+####chrono################
+import time
+global depart ; depart  = 0.0
+global arrivee; arrivee = 0.0
+def chrono(switch):    # 0=depart autre=stop
+#time.strftime('%X %x %Z')#'15:44:07 12/14/19 Paris, Madrid'
+    global depart
+    global arrivee
+    try:
+        if switch == 0:
+            depart = time.time()#time.clock()
+            App.Console.PrintMessage("Chrono begin   : "+str(time.strftime('%X'))+"\n")
+        else:
+            arrivee = time.time()#time.clock()
+            App.Console.PrintMessage("Chrono end     : "+str(time.strftime('%X'))+"\n")
+            parcouru = ((arrivee - depart)/60.0)
+            App.Console.PrintError("Time execution : "+str("%.3f" % parcouru)+" min"+"\n\n")
+        return parcouru
+        FreeCADGui.updateGui()    
+    except Exception: None
+####chrono################
+```
 
 2020/11/12 Version=01.17 : suppress the timer chrono !!
 

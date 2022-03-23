@@ -4,7 +4,8 @@
    Name/fr:Sketcher Cercle
    MenuLocation:Sketch → Géometries d'esquisse  → Créer un cercle
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   SeeAlso:[Sketcher Arc](Sketcher_CompCreateArc/fr.md)
+   Shortcut:**G** **C**
+   SeeAlso:[Sketcher Arcs](Sketcher_CompCreateArc/fr.md)
 ---
 
 # Sketcher CreateCircle/fr
@@ -26,7 +27,7 @@ Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanch
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

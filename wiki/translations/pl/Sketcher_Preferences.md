@@ -238,7 +238,7 @@ W zakładce *Kolory* można określić następujące elementy:
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -1,4 +1,3 @@
-# Import text and geometry from Inkscape/ro
 ---
 - TutorialInfo:/ro
    Topic: Importaţi text şi forme geometrice create cu InkScape
@@ -7,12 +6,37 @@
    Autor:r-frank
    FCVersion:0.16.6704
    Fişiere:
-}}
+---
+
+# Import text and geometry from Inkscape/ro
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
+
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
 
 ## Introducere
 
 Acest îndrumător a fost destinat să vă arate cum să importaţi text sau obiecte geometrice create cu InkScape în FreeCAD, prin intermediul formatului SVG.
 În acest scop, s-au utilizat Inkscape 0.91 şi FreeCAD 0.16.6704 sub Windows.
+
+
+</div>
+
+## General tips for importing from inkscape 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Sugestii pentru importul din InkScape 
 
@@ -23,6 +47,11 @@ Acest îndrumător a fost destinat să vă arate cum să importaţi text sau obi
     -   setting this to a lower value will increase smoothness of the model in the 3D view (and use more PC performance)
     -   don\'t use values lower than \"0,01 %\", this will most likely crash FreeCAD
     -   in that case deleting \"system.cfg\" and \"user.cfg\" in your FreeCAD-user-directory will solve this problem
+
+
+</div>
+
+## Importing text from inkscape 
 
 
 <div class="mw-translate-fuzzy">
@@ -42,6 +71,11 @@ Acest îndrumător a fost destinat să vă arate cum să importaţi text sau obi
 
 </div>
 
+## Importing geometry from inkscape 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Importul de forme geometrice din InkScape 
 
 Since inkscape and FreeCAD seem to have different approaches on how to apply dimensions on svg-object, the recommended workflow seems to be:
@@ -53,13 +87,20 @@ Since inkscape and FreeCAD seem to have different approaches on how to apply dim
 -   open the file in FreeCAD, choosing the option \"SVG as geometry (importSVG)\"
 -   the dimensions of the objects in inkscape and in FreeCAD should now be identical
 
+
+</div>
+
+## Credits
+
+
+<div class="mw-translate-fuzzy">
+
 ## Credite
 
 Le mulţumesc utilizatorilor \"freecad-heini-1\" şi \"herbk\" pentru testare şi pentru furnizarea unor impresii şi informaţii de un real folos.
 
 
-{{clear
----
+</div>
 
 
 

@@ -1,4 +1,3 @@
-# Import text and geometry from Inkscape/it
 ---
 - TutorialInfo:/it
    Topic: Importare testo e  geometria da Inkscape
@@ -7,12 +6,37 @@
    Author:r-frank
    FCVersion:0.16.6704
    Files:
-}}
+---
+
+# Import text and geometry from Inkscape/it
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+</div>
+
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
 
 ## Introduzione
 
 Questo tutorial si propone di mostrare come importare in FreeCAD testo o geometria creata con Inkscape nel formato svg.
 Per queste operazioni sono utilizzati Inkscape 0.91 e FreeCAD 0.16.6704 in Windows.
+
+
+</div>
+
+## General tips for importing from inkscape 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Consigli generali per importare da Inkscape 
 
@@ -23,6 +47,14 @@ Per queste operazioni sono utilizzati Inkscape 0.91 e FreeCAD 0.16.6704 in Windo
     -   impostando questo ad un valore inferiore si aumenta la levigatezza del modello nella vista 3D (e si usano più risorse del PC)
     -   non utilizzare valori inferiori a \"0,01 %\", questo molto probabilmente blocca FreeCAD
     -   in tal caso la cancellazione di \"system.cfg\" e \"user.cfg\" nella directory utente di FreeCAD risolve questo problema
+
+
+</div>
+
+## Importing text from inkscape 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Importare testo da Inkscape 
 
@@ -36,6 +68,14 @@ Per queste operazioni sono utilizzati Inkscape 0.91 e FreeCAD 0.16.6704 in Windo
 -   utilizzare gli strumenti pad o [estrusione](Part_Extrude/it.md) sulle facce per ottenere solidi
 -   si possono fondere gli oggetti o utilizzare dei loro composti, secondo le esigenze
 
+
+</div>
+
+## Importing geometry from inkscape 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Importare geometria da Inkscape 
 
 Dato che Inkscape e FreeCAD sembrano avere approcci diversi sul modo di applicare dimensioni a un oggetto svg, il flusso di lavoro consigliato sembra essere questo:
@@ -47,13 +87,20 @@ Dato che Inkscape e FreeCAD sembrano avere approcci diversi sul modo di applicar
 -   aprire il file in FreeCAD, e scegliere l\'opzione \"SVG as geometry (importSVG)\"
 -   in questo modo le dimensioni degli oggetti in Inkscape e in FreeCAD dovrebbero essere identiche
 
+
+</div>
+
+## Credits
+
+
+<div class="mw-translate-fuzzy">
+
 ## Crediti
 
 Grazie agli utenti \"freecad-heini-1\" e \"herbk\" per la verifica e per aver fornito un prezioso feedback.
 
 
-{{clear
----
+</div>
 
 
 

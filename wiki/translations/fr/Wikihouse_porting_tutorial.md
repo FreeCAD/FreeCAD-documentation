@@ -79,8 +79,8 @@ La [Macro Extract Wires from Mesh](Macro_Extract_Wires_from_Mesh/fr.md) échoue 
 1.  Sélectionner le composant, éventuellement cacher tout le reste pour mieux voir
 2.  [Draft Rétrogradez](Draft_Downgrade/fr.md) le. Il sera éclaté en une série d\'arêtes individuelles
 3.  Commencez à sélectionner les trous avec Ctrl ou en utilisant Shift + B pour faire une sélection par boîte.
-4.  Appuyez sur [Draft Mettre à niveau](Draft_Upgrade/fr.md) pour transformer chaque trou en un fil individuel.
-5.  Enfin, sélectionnez toutes les arêtes individuelles restantes dans l\'arbre, qui forment le contour, et [Draft Mettre à niveau](Draft_Upgrade/fr.md).
+4.  Appuyez sur [Draft Agréger](Draft_Upgrade/fr.md) pour transformer chaque trou en un fil individuel.
+5.  Enfin, sélectionnez toutes les arêtes individuelles restantes dans l\'arbre, qui forment le contour, et [Draft Agréger](Draft_Upgrade/fr.md).
 6.  Sélectionnez **Pièce → Créer un composé** pour réunir tous ces fils en un seul objet.
 7.  Sélectionnez le composé et appuyez sur le bouton [Arch Panneau](Arch_Panel/fr.md).
 
@@ -95,7 +95,7 @@ Il est également possible de faire cette partie plus tard, vous pourriez déjà
 1.  Créez une copie de votre objet filaire avec **Ctrl**+**C**, **Ctrl**+**V**. Ainsi, nous pouvons le modifier tout en le gardant à son emplacement correct.
 2.  Déplacez et faites-le pivoter pour qu\'il se trouve dans le plan XY, en utilisant [Draft Déplacer](Draft_Move/fr.md) et [Draft Pivoter](Draft_Rotate/fr.md). Ce n\'est pas indispensable, mais le point suivant échoue parfois autrement
 3.  Utilisez [Draft Draft vers Esquisse](Draft_Draft2Sketch/fr.md) pour transformer le fil en esquisse. Attention, cela peut échouer ou prendre beaucoup de temps pour les longues polylignes. Il est préférable de décomposer votre objet en lignes individuelles comme indiqué ci-dessus.
-4.  Si la commande ci-dessus échoue, utiliser [Draft Mettre à niveau](Draft_Upgrade/fr.md) deux fois sur un objet filaire, pour le convertir en Face puis en [Draft Polyligne](Draft_Wire/fr.md), avant d\'utiliser [Draft Draft vers Esquisse](Draft_Draft2Sketch/fr.md), fonctionne généralement mieux, car le Draft Wire garde une meilleure trace de l\'ordre des vertices dans un fil.
+4.  Si la commande ci-dessus échoue, utiliser [Draft Agréger](Draft_Upgrade/fr.md) deux fois sur un objet filaire, pour le convertir en Face puis en [Draft Polyligne](Draft_Wire/fr.md), avant d\'utiliser [Draft Draft vers Esquisse](Draft_Draft2Sketch/fr.md), fonctionne généralement mieux, car le Draft Wire garde une meilleure trace de l\'ordre des vertices dans un fil.
 5.  Les courbes sont constituées de plusieurs petits segments. Elles peuvent être laissées telles quelles, mais elles introduisent beaucoup de contraintes au niveau des extrémités. Il est préférable de les remplacer par des arcs. C\'est assez facile à faire, il suffit de supprimer les petits segments et de les remplacer par un arc. L\'arc peut ensuite être rendu tangentiel aux segments voisins, mais assurez-vous que la position de ces segments est verrouillée avant de le faire, car cette opération les fera bouger.
 6.  Si vous avez travaillé avec plusieurs esquisses, faites-en un [Part Composé](Part_Compound/fr.md).
 7.  Créez un [Arch Panneau](Arch_Panel/fr.md) à partir de celui-ci.

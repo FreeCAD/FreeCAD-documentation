@@ -15,8 +15,7 @@ Esta es la **categoría de nivel superior** que contiene las principales categor
 | [Category:Documentation/es](wiki/Category_Documentation/es.md) | [Category:Help/es](wiki/Category_Help/es.md) | [Category:Hubs/es](wiki/Category_Hubs/es.md) |
 | [Category:Image/es](wiki/Category_Image/es.md) | [Category:Macros/es](wiki/Category_Macros/es.md) | [Category:News/es](wiki/Category_News/es.md) |
 | [Category:Python Code/es](wiki/Category_Python Code/es.md) | [Category:Repository/es](wiki/Category_Repository/es.md) | [Category:Roadmap/es](wiki/Category_Roadmap/es.md) |
-| [Category:Template/es](wiki/Category_Template/es.md) | [Category:Tutorials/es](wiki/Category_Tutorials/es.md) | [Category:Wiki/es](wiki/Category_Wiki/es.md) |
-|
+| [Category:Template/es](wiki/Category_Template/es.md) | [Category:Wiki/es](wiki/Category_Wiki/es.md) |
 
 
 

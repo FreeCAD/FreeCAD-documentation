@@ -10,6 +10,9 @@
 
 # Sketcher Create3PointArc/ru
 
+
+</div>
+
 ## Описание
 
 Этот инструмент рисует дугу по трем точкам: начальной точке, конечной точке и точке на окружности.
@@ -25,7 +28,7 @@
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

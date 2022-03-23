@@ -33,6 +33,13 @@ Components created using the Rocket Workbench are essentially parts similar to w
 -   <img alt="" src=images/Rocket_Bulkhead.svg  style="width:32px;"> [Bulkhead](Rocket_Bulkhead.md): Create a bulkhead
 -   <img alt="" src=images/Rocket_CenteringRing.svg  style="width:32px;"> [Centering Ring](Rocket_CenteringRing.md): Create a centering ring
 -   <img alt="" src=images/Rocket_Fin.svg  style="width:32px;"> [Fin](Rocket_Fin.md): Create a fin
+-   <img alt="" src=images/Rocket_LaunchGuideComposite.png  style="width:32px;"> [Launch Guide](Rocket_CompLaunchGuide.md): Create a launch guide
+
+:\* <img alt="" src=images/Rocket_LaunchLug.svg  style="width:32px;"> [Launch Lug](Rocket_LaunchLug.md): Create a launch lug
+
+:\* <img alt="" src=images/Rocket_RailButton.svg  style="width:32px;"> [Rail Button](Rocket_RailButton.md): Create a rail button
+
+:\* <img alt="" src=images/Rocket_RailGuide.svg  style="width:32px;"> [Rail Guide](Rocket_RailGuide.md): Create a rail guide
 
 ## Calculators
 

@@ -51,7 +51,7 @@ Lo strumento <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

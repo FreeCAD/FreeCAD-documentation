@@ -2,8 +2,9 @@
 - GuiCommand:/pl
    Name:Sketcher ToggleConstruction
    Name/pl:Szkicownik: Przełącz geometrię konstrukcji
-   MenuLocation:Sketch → Elementy geometryczne szkicownika → Przełącz geometrię konstrukcji
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Przełącz geometrię konstrukcji
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut:**G** **N**
    SeeAlso:[Przełącz wiązanie kontrolujące](Sketcher_ToggleDrivingConstraint/pl.md)
 ---
 
@@ -30,7 +31,7 @@ Istnieją dwa sposoby użycia tego narzędzia:
     -   Spowoduje to zmianę koloru tworzenia nowych elementów geometrycznych na niebieski.
     -   Nowo utworzone elementy geometryczne będą teraz tworzone w trybie konstrukcyjnym.
 2.  Z jednym lub kilkoma elementami geometrycznymi zaznaczonymi w oknie [widoku 3D](3D_view/pl.md)
-    -   Wywołaj narzędzie Sketcher ToggleConstruction klikając na przycisk **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Przełącz geometrię konstrukcyjną](Sketcher_ToggleConstruction/pl.md)** lub wybierając je z menu.
+    -   Wywołaj narzędzie **Przełącz geometrię konstrukcyjną** klikając na przycisk **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Przełącz geometrię konstrukcyjną](Sketcher_ToggleConstruction/pl.md)** lub wybierając je z menu.
     -   Zaznaczone elementy zostaną teraz przełączone w tryb konstrukcji.
     -   Następnie nowo utworzone elementy będą znowu normalną geometrią.
 
@@ -46,13 +47,13 @@ i kiedy **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [opuści
 
 ## Uwagi
 
--   Narzędzie **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Utwórz punkt](Sketcher_CreatePoint/pl.md)** zawsze będzie tworzyć punkty w trybie konstrukcji niezależnie od stanu przełącznika na pasku narzędzi, wybierz żądane punkty w oknie [widoku 3D](3D_view/pl.md) po utworzeniu i kliknij w przycisk **[<img src=images/Sketcher_ToggleConstruction.svg style="width:24px"> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction.md)**, aby przekształcić je w normalną geometrię. {{Version/pl|0.19}}
+-   Narzędzie **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Utwórz punkt](Sketcher_CreatePoint/pl.md)** zawsze będzie tworzyć punkty w trybie konstrukcji niezależnie od stanu przełącznika na pasku narzędzi, wybierz żądane punkty w oknie [widoku 3D](3D_view/pl.md) po utworzeniu i kliknij w przycisk **[<img src=images/Sketcher_ToggleConstruction.svg style="width:24px"> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)**, aby przekształcić je w normalną geometrię. {{Version/pl|0.19}}
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

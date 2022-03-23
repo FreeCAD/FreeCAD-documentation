@@ -31,7 +31,7 @@ Seleziona l\'asse orizzontale di uno schizzo.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -1,7 +1,7 @@
 # Category:Tutorials/cs
-FreeCAD tutorials. Please help us adding more!
+This is a complete list of pages under [:Category:Tutorials](:Category_Tutorials.md).
 
-Special pages are [Offsite tutorials/cs](Offsite_tutorials/cs.md) and [Video tutorials/cs](Video_tutorials/cs.md) that hierarchically contain links to tutorials hosted on external sites. A useful source of video tutorials is of course also a *FreeCAD* keyword search on [YouTube](http://YouTube.com).
+See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 ### Contents
 
@@ -16,4 +16,4 @@ Special pages are [Offsite tutorials/cs](Offsite_tutorials/cs.md) and [Video tut
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/cs
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [User_Documentation](Category_User_Documentation.md) > Category:Tutorials/cs

@@ -113,7 +113,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, di
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

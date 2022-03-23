@@ -13,8 +13,7 @@ This is the **top category** which contains the main categories of the FreeCAD w
 | [Category:Addons/id](wiki/Category_Addons/id.md) | [Category:Administration/id](wiki/Category_Administration/id.md) | [Category:Categories/id](wiki/Category_Categories/id.md) |
 | [Category:Command Reference/id](wiki/Category_Command Reference/id.md) | [Category:Developer/id](wiki/Category_Developer/id.md) | [Category:Hubs/id](wiki/Category_Hubs/id.md) |
 | [Category:Macros/id](wiki/Category_Macros/id.md) | [Category:News/id](wiki/Category_News/id.md) | [Category:Python Code/id](wiki/Category_Python Code/id.md) |
-| [Category:Roadmap/id](wiki/Category_Roadmap/id.md) | [Category:Template/id](wiki/Category_Template/id.md) | [Category:Tutorials/id](wiki/Category_Tutorials/id.md) |
-|
+| [Category:Roadmap/id](wiki/Category_Roadmap/id.md) | [Category:Template/id](wiki/Category_Template/id.md) |
 
 
 

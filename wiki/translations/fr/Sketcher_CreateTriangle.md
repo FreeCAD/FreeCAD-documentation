@@ -1,9 +1,10 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher CreateTriangle
-   Name/fr:Sketcher Triangle équilatéral
+   Name/fr:Sketcher Triangle
    MenuLocation:Sketch → Géométries d'esquisse → Créer un triangle équilateral
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **P** **3**
    Version:0.15
 ---
 
@@ -11,9 +12,7 @@
 
 ## Description
 
-Dessine un triangle équilatéral inscrit dans un cercle.
-
-Lors de la sélection de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône de rectangle rouge. Les coordonnées du pointeur sont indiqués en bleu en temps réel.
+Dessine un triangle équilatéral inscrit dans un cercle. Lors de la sélection de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône de rectangle rouge. Les coordonnées du pointeur sont indiqués en bleu en temps réel.
 
 ![](images/SketcherCreateTriangleExample.png‎ )
 
@@ -32,7 +31,7 @@ Le cercle circonscrit est la géométrie de construction, qui n\'est visible que
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

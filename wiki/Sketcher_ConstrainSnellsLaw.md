@@ -3,6 +3,7 @@
    Name:Sketcher ConstrainSnellsLaw
    MenuLocation:Sketch → Sketcher constraints → Constrain refraction (Snell's law)
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**K** **W**
    Version:0.15
 ---
 
@@ -95,7 +96,7 @@ App.ActiveDocument.recompute()
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

@@ -9,6 +9,9 @@
 
 # Sketcher ConstrainSnellsLaw/de
 
+
+</div>
+
 ## Beschreibung
 
 Beschränkt zwei Linien, um dem Gesetz der Lichtbrechung zu folgen, wenn es durch eine Grenzfläche dringt, in der sich zwei Materialien mit unterschiedlichen Brechungsindizes treffen. Siehe [1](https://de.wikipedia.org/wiki/Snelliussches_Brechungsgesetz) auf Wikipedia für weitere Informationen.
@@ -97,10 +100,16 @@ App.ActiveDocument.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

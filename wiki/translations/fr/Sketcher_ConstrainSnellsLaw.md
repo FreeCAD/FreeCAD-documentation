@@ -4,6 +4,7 @@
    Name/fr:Sketcher Contrainte de réfraction
    MenuLocation:Sketch → Contraintes d'esquisse → Contraint la réfraction (Loi de Snell)
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**K** **W**
    Version:0.15
 ---
 
@@ -26,7 +27,7 @@ Contraint deux lignes à suivre la loi de la réfraction de la lumière qui pén
 
 -   Vous aurez besoin de deux lignes qui vont suivre un faisceau de lumière, et une courbe pour agir comme une interface. Les lignes doivent être sur des côtés différents de l\'interface.
 -   Sélectionnez l\'extrémité d\'une ligne, un point d\'extrémité d\'une autre ligne, et le bord de l\'interface. L\'interface peut être une [ligne](Sketcher_CreateLine/fr.md), un [arc](Sketcher_CompCreateArc/fr.md), un [cercle](Sketcher_CompCreateCircle/fr.md) ou un [conique](Sketcher_CompCreateConic/fr.md)
--   Appelez la contrainte. Une boîte de dialogue apparaît pour demander un rapport d\'indices de réfraction n2/n1. n2 correspond au milieu où la ligne du deuxième critère sélectionné réside, n1 est pour la première ligne.
+-   Lancez la contrainte. Une boîte de dialogue apparaît pour demander un rapport d\'indices de réfraction n2/n1. n2 correspond au milieu où la ligne du deuxième critère sélectionné réside, n1 est pour la première ligne.
 -   Les critères d\'évaluation seront mis en coïncidence (si nécessaire), contraint à l\'interface (si nécessaire), et la loi de Snell deviendront contraint.
 
 Notez que plusieurs [Sketcher Aides pour contraindre](Sketcher_helper_constraint/fr.md) seront ajoutées automatiquement (point sur objet, coïncidence). Elles peuvent être supprimées si elles créeent une redondance ou ajoutées manuellement si elles n\'ont pas été ajoutées automatiquement. Pour la contrainte de la loi de Snell, les extrémités des lignes doivent coïncider et reposer sur l\'interface, sinon le comportement n\'est pas défini.
@@ -97,7 +98,7 @@ App.ActiveDocument.recompute()
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -18,7 +18,7 @@ Shows or hides the display of the **weights** for the control points of a B-spli
 
 ## Usage
 
-1.  Select a B-spline and use the toolbar button **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Show/Hide B-spline control point weight](Sketcher_BSplinePoleWeight.md)**.
+1.  Select a B-spline and use the toolbar button **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md)**.
 
 ## Weight Explanation 
 
@@ -57,7 +57,7 @@ How to change weights is described in [ this Wiki page](B-Splines#Changing_the_W
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

@@ -10,6 +10,9 @@
 
 # Sketcher Split/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug erlaubt eine Kante in zwei identische Teile zu teilen, wobei die meisten Beschränkungen dupliziert werden, so dass beide Teile bis auf die Teilungspunktlage beschränkt bleiben. Im speziellen Fall eines Kreises wird dieser in einen Bogen mit losen Enden umgewandelt, wobei die bestehenden Kreisbeschränkungen auf den neuen Bogen übertragen werden.
@@ -18,10 +21,16 @@ Dieses Werkzeug erlaubt eine Kante in zwei identische Teile zu teilen, wobei die
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücke die **[<img src=images/Sketcher_Split.svg style="width:16px"> [Teilen](Sketcher_Split/de.md)** Taste. Der Mauszeiger verwandelt sich in ein weißes Kreuz mit einem roten Teilen Symbol.
 2.  Klicke auf die Kante an der Stelle, an der du sie teilen möchtest.
 3.  Aus den Linien- und Bogenkanten werden zwei neue erstellt, die an dem angeklickten Punkt verbunden werden. Ein Kreis wird in einen Bogen umgewandelt, der denselben Mittelpunkt und dieselben Beschränkungen wie der ursprüngliche Kreis hat.
 4.  Durch Drücken von **Esc** oder der rechten Maustaste wird die Funktion beendet.
+
+
+</div>
 
 ## Begrenzungen
 
@@ -42,10 +51,16 @@ Dieses Werkzeug erlaubt eine Kante in zwei identische Teile zu teilen, wobei die
 -   Die Winkelbeschränkung wird derzeit nicht übertragen.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

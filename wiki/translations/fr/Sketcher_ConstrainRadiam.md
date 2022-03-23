@@ -4,8 +4,9 @@
    Name/fr:Sketcher Contrainte automatique rayon/diamètre
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte automatique rayon/diamètre
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
+   Shortcut:**K** **S**
    Version:0.20
+   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
 # Sketcher ConstrainRadiam/fr
@@ -44,7 +45,7 @@ Aucun script spécifique ne s\'applique. Voir la page [Sketcher Scripts](Sketche
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

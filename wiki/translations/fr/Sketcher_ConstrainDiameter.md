@@ -4,8 +4,9 @@
    Name/fr:Sketcher Contrainte diamètre
    MenuLocation:Sketch → Contraintes d'esquisse → Contraindre le diamètre
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte de distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte de distance verticale](Sketcher_ConstrainDistanceY/fr.md)
+   Shortcut:**K** **O**
    Version:0.18
+   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte de distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte de distance verticale](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
 # Sketcher ConstrainDiameter/fr
@@ -35,13 +36,13 @@ NB : Les pôles B-spline ne peuvent pas être mélangés avec d\'autres types d\
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Diameter', ArcOrCircle, App.Units.Quantity('123.0 mm')))```
 
-La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `ArcOrCircle` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `ArcOrCircle` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

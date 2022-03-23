@@ -4,7 +4,7 @@
    Name/fr:Sketcher Contrainte parallèle
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte parallèle
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Maj** + **P**
+   Shortcut:**P**
    SeeAlso:[Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md), [Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)
 ---
 
@@ -28,9 +28,9 @@ L\'esquisse contient deux lignes, orientées de façon aléatoire.
 
 Appliquez la contrainte parallèle par :
 
--   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)** dans la barre d\'outils des contraintes de Sketcher en sélectionnant l\'élément de menu Constraint Parallel dans le sous-menu des contraintes de Sketcher du Sketcher (Atelier d\'esquisse sélectionné) ou élément de menu Part Design (Atelier de Part Design sélectionné).
--   Utilisez le raccourci clavier **Shift** + **P**.
--   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → Contrainte parallèle** dans le menu supérieur.
+-   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)** dans la barre d\'outils de Sketcher.
+-   Utilisez le raccourci clavier **P**.
+-   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> Contrainte parallèle** dans le menu supérieur.
 
 <img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
 

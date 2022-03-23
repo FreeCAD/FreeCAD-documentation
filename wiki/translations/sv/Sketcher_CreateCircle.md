@@ -20,7 +20,7 @@ This tool draws a circle by picking two points: the center, and a point along th
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

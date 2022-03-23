@@ -2,8 +2,8 @@
 - GuiCommand:/de
    Name:Sketcher ConstrainEqual
    Name/de:Skizze BeschränkeGleich
-   MenuLocation:Skizze → Skizzen Beschränkungen → Beschränke Gleich
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
+   MenuLocation:Sketch → Skizzen-Beschränkungen →Gleichheit festlegen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
    Shortcut:**E**
    SeeAlso:[Skizzierer Beschränke Radius](Sketcher_ConstrainRadius/de.md)
 ---
@@ -63,7 +63,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, di
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -29,7 +29,7 @@ There are several ways to invoke the Edit Sketch command:
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

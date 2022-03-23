@@ -1,7 +1,7 @@
 # Category:Tutorials/hr
-This is a complete list of pages under [:Category:Tutorials/hr](:Category:Tutorials/hr.md).
+This is a complete list of pages under [:Category:Tutorials](:Category_Tutorials.md).
 
-See also [Tutorials](Tutorials/hr.md) and [video tutorials](video_tutorials/hr.md)
+See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 ### Contents
 
@@ -16,4 +16,4 @@ See also [Tutorials](Tutorials/hr.md) and [video tutorials](video_tutorials/hr.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/hr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [User_Documentation](Category_User_Documentation.md) > Category:Tutorials/hr

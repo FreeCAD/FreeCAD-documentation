@@ -101,6 +101,8 @@ W tym przypadku, możesz być jednocześnie facetem, który sporządza rysunek, 
 
 ### Logika skalowania jednostek 
 
+W rozdziale [Burza mózgów](Units/pl#Burza_m.C3.B3zg.C3.B3w.md) przedstawiono dwa konteksty, w których stosuje się skalowanie jednostek. Należy zwrócić uwagę na niektóre elementy z tych dwóch kontekstów.
+
 #### Spójność jednostek w całej bieżącej instancji FreeCAD 
 
 Proponowany system oparty jest na podstawowym założeniu: użytkownik pracuje w jednolitym systemie jednostek. Na przykład, oznacza to, że jeśli użytkownik wyraża długość w milimetrach, to koniecznie powierzchnie będą wyrażone w milimetrach kwadratowych, a nie w metrach kwadratowych. To jest **hipoteza pierwsza**.
@@ -135,6 +137,8 @@ Jednostki pochodne są tworzone przez zestawienie jednostek bazowych. Na przykł
 
 Dzięki definicji \"systemu jednostek\", użytkownik może pracować z dowolnym rodzajem jednostek pochodnych, bez konieczności uprzedniego ich przewidywania przez programistów FreeCAD.
 
+#### Symbole jednostek podstawowych i pochodnych 
+
 Zgodnie z [Międzynarodowym Układem Jednostek Miar *(SI)*](http://physics.nist.gov/Pubs/SP330/sp330.pdf), symbole określające jednostki są oficjalnie zatwierdzone. Można z tego wyróżnić dwie konsekwencje.
 
 -   nie jest łatwo programowi komputerowemu pracować z symbolami jednostek, ponieważ niektóre z nich to na przykład greckie litery. Dlatego mogą być one nieco trudne do przetworzenia przez program.
@@ -152,7 +156,7 @@ Na wstępie należy podkreślić, że obiekt \" jednostki\" sam w sobie oznacza 
 
 ##### Wymiar
 
-Obowiązkowy ciąg znaków wskazujący „wymiar" urządzenia. „Wymiar" 7 jednostek podstawowych podano poniżej (według [Przewodnika korzystania z Międzynarodowego Układu Jednostek Miar *(SI)*](http://physics.nist.gov/cuu/pdf/sp811.pdf)).
+Obowiązkowy ciąg znaków wskazujący „wymiar" urządzenia. „Wymiar" 7 jednostek podstawowych podano poniżej *(według [Przewodnika korzystania z Międzynarodowego Układu Jednostek Miar *(SI)*](http://physics.nist.gov/cuu/pdf/sp811.pdf))*.
 
 -   DŁUGOŚĆ
 -   MASA

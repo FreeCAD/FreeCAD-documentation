@@ -3,6 +3,7 @@
    Name:Sketcher CreateTriangle
    MenuLocation:Sketch → Sketcher geometries → Create equilateral triangle
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **P** **3**
    Version:0.15
 ---
 
@@ -28,7 +29,7 @@ The circumscribed circle is construction geometry, which is only visible when ed
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

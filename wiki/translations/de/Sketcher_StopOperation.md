@@ -28,7 +28,10 @@ Dies ist ähnlich wie das Drücken der **Esc** Taste.
 2.  Das Werkzeug wird deaktiviert und der Zeiger wird wieder zu einem einfachen Zeiger.
 
 
-{{Sketcher Tools navi
+
+
+
+{{Sketcher_Tools_navi
 
 }}
 

@@ -47,7 +47,7 @@ Il comando elimina gli elementi di allineamento della geometria interna inutiliz
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

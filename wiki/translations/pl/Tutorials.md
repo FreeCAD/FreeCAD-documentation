@@ -70,12 +70,23 @@ Instrukcje dotyczące dodawania linii środkowych i kolejnych przedstawień kąt
 
 ## MES
 
-FEM example01 pic00.jpg\|link=[FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md)\|[CalculiX cantilever FEM analysis](FEM_CalculiX_Cantilever_3D.md) *(v0.17)*
-Jest to przykład dołączony do każdej instalacji FreeCAD; demonstruje on podstawową analizę za pomocą solwera CalculiX FE. Wyczyść bieżący wynik, uruchom ponownie solwer i obejrzyj przesunięcia i naprężenia w zdeformowanej siatce w rzutni. FEM tutorial result.png\|link=[FEM tutorial](FEM_tutorial.md)\|[Simple FEM introduction](FEM_tutorial.md) *(v0.17)*
-Jest to krótkie wprowadzenie do działań wymaganych do przeprowadzenia analizy w Środowisku pracy FEM : modelowanie obiektu, tworzenie siatki, dodawanie wiązań i sił, dodawanie materiału, uruchamianie solwera i wizualizacja wyników. Figure 11 Deformed Mesh.png\|link=[FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.md)\|[FEM shear analysis of a composite block](FEM_Shear_of_a_Composite_Block.md) *(v0.17)*
-Zbadaj deformację bloku wykonanego z twardego jądra otoczonego miękkim materiałem: utwórz obszary siatki, dodaj materiały, ustaw ograniczenia ślizgowe, dodaj obciążenia ścinające, uruchom solver i wizualizuj wyniki za pomocą płaszczyzny zaciskowej. Femconcrete\_Wall\_3D\_rx\_PSS.png\|link=[Analysis\_of\_reinforced\_concrete\_with\_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md) *(v0.19)*
-Oszacowanie poziomu zbrojenia wymaganego w konstrukcji betonowej w celu zapobieżenia kruchym uszkodzeniom pod wpływem naprężeń lub ścinania. FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Przetwarzanie wyników FEM za pomocą Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) *(v0.19)*
-Ten tutorial wyjaśnia podstawy przenoszenia danych z warsztatu FEM Workbench do Paraview i pokazuje niektóre z opcji i ustawień dotyczących wyświetlania danych.
+FEM example01 pic00.jpg\|link=[FEM\_CalculiX\_Cantilever\_3D](FEM_CalculiX_Cantilever_3D.md)\|[CalculiX cantilever FEM analysis](FEM_CalculiX_Cantilever_3D/pl.md) *(v0.17)*
+Jest to przykład dołączony do każdej instalacji FreeCAD; demonstruje on podstawową analizę za pomocą solvera CalculiX FE. Wyczyść bieżący wynik, uruchom ponownie solver i obejrzyj przesunięcia i naprężenia w zdeformowanej siatce w rzutni.
+
+FEM tutorial result.png\|link=[FEM\_tutorial](FEM_tutorial.md)\|[Simple FEM introduction](FEM_tutorial/pl.md) *(v0.17)*
+Jest to krótkie wprowadzenie do działań wymaganych do przeprowadzenia analizy w środowisku pracy MES : modelowanie obiektu, tworzenie siatki, dodawanie wiązań i sił, dodawanie materiału, uruchamianie solvera i wizualizacja wyników.
+
+Figure 11 Deformed Mesh.png\|link=[FEM\_Shear\_of\_a\_Composite\_Block](FEM_Shear_of_a_Composite_Block.md)\|[FEM shear analysis of a composite block](FEM_Shear_of_a_Composite_Block.md) *(v0.17)*
+Zbadaj deformację bloku wykonanego z twardego jądra otoczonego miękkim materiałem: utwórz obszary siatki, dodaj materiały, ustaw ograniczenia ślizgowe, dodaj obciążenia ścinające, uruchom solver i wizualizuj wyniki za pomocą płaszczyzny zaciskowej.
+
+Femconcrete\_Wall\_3D\_rx\_PSS.png\|link=[Analysis\_of\_reinforced\_concrete\_with\_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md) *(v0.19)*
+Oszacowanie poziomu zbrojenia wymaganego w konstrukcji betonowej w celu zapobieżenia kruchym uszkodzeniom pod wpływem naprężeń lub ścinania.
+
+Two\_balls\_result\_2-cropped.png\|link=[FEM\_Example\_Capacitance\_Two\_Balls](FEM_Example_Capacitance_Two_Balls.md)\|[MES: Przykład pojemność Dwóch kul](FEM_Example_Capacitance_Two_Balls/pl.md) (v0.19)
+Ten przykład pokazuje, jak symulować pojemność. Pokazano, jak skonfigurować przykład, zbadać jego poszczególne części, rozwiązać go za pomocą [Solvera Elmer](FEM_SolverElmer/pl.md) i wizualizować wyniki za pomocą [Filtra odcięcia obszaru](FEM_PostFilterClipRegion/pl.md).
+
+FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Przetwarzanie wyników MES za pomocą Paraview](Post-Processing_of_FEM_Results_with_Paraview/pl.md) *(v0.19)*
+Ten poradnik wyjaśnia podstawy przenoszenia danych z środowiska pracy MES do Paraview i pokazuje niektóre z opcji i ustawień dotyczących wyświetlania danych.
 
 ## CNC i druk 3D 
 

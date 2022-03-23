@@ -32,7 +32,7 @@ In modalità **Modifica schizzo** usare uno dei seguenti modi:
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

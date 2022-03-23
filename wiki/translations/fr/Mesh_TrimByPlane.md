@@ -22,7 +22,7 @@ La commande **Mesh Ajuster par plan** permet de découper les faces et parties d
 **
     -   Sélectionnez l\'option **Maillages → Cutting → <img src="images/Mesh_TrimByPlane.svg" width=16px> Ajuster le maillage avec un plan** dans le menu.
 
-3.  La boîte de dialogue **Découpr par un plan** s\'ouvre.
+3.  La boîte de dialogue **Découper par un plan** s\'ouvre.
 
 4.  
     **Sélectionner le côté que vous souhaitez garder**en appuyant sur l\'un des boutons:

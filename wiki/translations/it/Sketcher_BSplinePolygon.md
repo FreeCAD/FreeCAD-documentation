@@ -46,7 +46,7 @@ Mostra o nasconde la visualizzazione del poligono di definizione di una B-spline
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

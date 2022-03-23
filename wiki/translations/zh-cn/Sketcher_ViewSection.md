@@ -9,6 +9,9 @@
 
 # Sketcher ViewSection/zh-cn
 
+
+</div>
+
 ## 描述
 
 **视图截面（View section）**工具会创建一个截面，并暂时隐藏此草图平面前侧的所有内容。
@@ -42,7 +45,7 @@
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

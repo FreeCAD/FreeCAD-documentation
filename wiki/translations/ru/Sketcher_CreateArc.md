@@ -9,6 +9,9 @@
 
 # Sketcher CreateArc/ru
 
+
+</div>
+
 ## Описание
 
 Этот инструмент рисует дугу, по трем точкам: центральной, и углу между точками радиуса.
@@ -23,10 +26,16 @@
 -   Нажмите **Esc** или правую кнопку мыши для отмены функции.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

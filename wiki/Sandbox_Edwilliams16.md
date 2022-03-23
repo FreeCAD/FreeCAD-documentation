@@ -153,20 +153,21 @@ Yaw, pitch and roll through three *Euler* angles is a decomposition of a general
 
 ```python
 rot = Rotation(10, 20 ,30) # create rotation with yaw =10, pitch = 20 and roll = 30 degrees 
-ryaw = Rotation(Vector(0, 0, 1), 10) rpitch = Rotation(Vector(0, 1, 0), 20) 
-rroll = Rotation(Vector(0, 0, 1), 30) 
+ryaw = Rotation(Vector(0, 0, 1), 10) 
+rpitch = Rotation(Vector(0, 1, 0), 20) 
+rroll = Rotation(Vector(1, 0, 0), 30) 
 rypr = ryaw.multiply(rpitch.multiply(rroll)) #creating rotation by multiplying quaternions 
 rot.isSame(rypr, 1e-15) # True
 ```
 
-What is easily confused here is that in above case the successive rotations are about the *new* rotated axes. If instead, we make successive rotations about the fixed coordinate axes, *not* following the body, the multiplications are made in the opposite order!
+What is easily confused here is that in above case the successive rotations are about the *new* rotated axes, that is the axes are fixed in the body. If instead, we make successive rotations about the fixed coordinate axes, *not* following the body, the multiplications are made in the opposite order!
 
 
 ```python
-rz = Rotation(Vector(0, 0, 1), 90) 
-rx = Rotation(Vector(1, 0 ,0), 90) 
-rzx = Rotation(Vector(1, 1, 1), 120) #this is you what you should get if you do rz then rx 
-rzx1 = rz.multiply(rx)  # note the opposite order 
+rz = Rotation(Vector(0, 0, 1), 90)
+rx = Rotation(Vector(1, 0 ,0), 90)
+rzx = Rotation(Vector(1, -1, 1), 120) #this is you what you should get if you do rz followed by rx
+rzx1 = rx.multiply(rz)  # note the opposite order
 rzx.isSame(rzx1, 1e-15) # True  1e-15 is a tolerance that allows for finite precision error
 ```
 
@@ -180,9 +181,9 @@ After rz - 90 degrees around global z axis
 
 ![](images/Cube_Rzx.png )
 
-After rzx - 90 degrees around global z axis, followed by 90 degrees around global x-axis.
+After rzx - 90 degrees around global z axis, followed by 90 degrees around global x-axis. This configuration could have been reached by a single 120 degree rotation about the top front right corner (the (1,-1,1) axis.
 
-Note that since rotation axes are stored normalized, rxy.Axis returns Vector(0.57735026919, 0.57735026919, 0.57735026919)) This is likewise the case for thePlacement.Rotation.Axisproperty of a Placement. When you enter an axis into a placement rotation dialog, it need not be normalized. The code replaces your entry with the normalized version.
+Note that since rotation axes are stored normalized, rzx.Axis returns Vector(0.57735026919, -0.57735026919, 0.57735026919)), not Vector(1, -1, 1). This is likewise the case for thePlacement.Rotation.Axisproperty of a Placement. When you enter an axis into a placement rotation dialog, it need not be normalized. The code replaces your entry with the normalized version.
 
 Note that the rot1.isSame(rot2, tolerance) method tests True if rot1 and rot2 create the same result. For instance, Rotation(Vector(0, 0, 1), 90), Rotation(Vector(0, 0, 1), -270)and Rotation(Vector(0, 0, -1), 270) test True with isSameeven though their Axis and Angleproperties differ, and are stored as created.
 
@@ -200,6 +201,15 @@ rotbetween.Angle # pi/4 = 45 degrees = 30 + 0.3*(80 - 30)
 
 This example is simple because rot1 and rot2 happen to have the same axis. Slerp works in the general case. [](https://en.wikipedia.org/wiki/Slerp)
 
+#### sclerp (Interpolating Placements) 
+
+This function interpolates both rotation and displacement - again invaluable for animation. For example: 
+```python 
+p1 = App.Placement(App.Vector(0,0,0), App.Rotation(0, 0, 0))
+p2 = App.Placement(App.Vector(1,0,0), App.Rotation(0, 0, 90))
+p = p1.sclerp(p2, 0.3) # => Placement [Pos=(0.3,0,0), Yaw-Pitch-Roll=(0,0,27)]
+``` See [here](https://forum.freecadweb.org/viewtopic.php?f=9&t=40046) for related functions and use in expressions.
+
 #### Offset rotations 
 
 Rotation(axis angle) represents rotations about the direction axis through the origin. What if we wish to rotate a point P about an axis offset from the origin by the Vector C? We break our Vector P into the two parts C and P - C. The first part remains fixed, the second rotates, resulting in 
@@ -207,6 +217,8 @@ Rotation(axis angle) represents rotations about the direction axis through the o
 rot = Rotation(axis, angle)
 newP = C + Rotation.multVec(P -  C)
 ```
+
+Placements can do this with a third *center* Argument Placement(BaseVector, Rotation, Center) represents a *Rotation* about *Center* followed by a displacement of *BaseVector*.
 
 ### Some other Vector Methods 
 

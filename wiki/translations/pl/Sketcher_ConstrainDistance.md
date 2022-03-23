@@ -4,7 +4,7 @@
    Name/pl:Wiązanie odległości
    MenuLocation:Szkic → Wiązania szkicownika → Wiązanie odległości
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Shift** + **D**
+   Shortcut:**K** **D**
    SeeAlso:[Wiązanie odległości poziomej](Sketcher_ConstrainDistanceX/pl.md), [Wiązanie odległości pionowej](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
@@ -21,7 +21,7 @@ Wiązanie odległości wyznacza długość linii, czyli odległość prostopadł
 1.  Wybierz dwa punkty lub jeden punkt i jedną linię albo jedną linię.
 2.  Wywołaj komendę na kilka sposobów:
     -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md)** znajdujący się na pasku narzędzi Szkicownika.
-    -   Użyj kombinacji klawiszy **Shift** + **D**. (**D** odnosi się do **D**istance).
+    -   Użyj kombinacji klawiszy **K** kolejnie **D**. (**D** odnosi się do **D**istance).
     -   Użyj pozycji menu głównego **Szkic → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Wiązanie odległości**.
 3.  Otworzy się wyskakujące okno dialogowe do edycji z proponowaną wartością. Naciśnij **OK**, aby ją zatwierdzić.
 
@@ -59,7 +59,7 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

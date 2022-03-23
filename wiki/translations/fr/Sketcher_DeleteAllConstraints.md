@@ -23,7 +23,7 @@ Cet outil supprime toutes les contraintes de l\'esquisse en cours d\'édition, e
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

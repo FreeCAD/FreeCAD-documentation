@@ -35,7 +35,7 @@ Po spuštění nástroje se ukazatel myši změní na bílý křížek s červen
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

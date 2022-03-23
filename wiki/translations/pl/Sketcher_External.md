@@ -21,7 +21,7 @@ Ostrzeżenie: użycie tego narzędzia do łączenia z wygenerowaną geometrią *
 ## Użycie
 
 -   Utwórz nowy szkic lub otwórz istniejący szkic.
--   Kliknij przycisk **[<img src=images/Sketcher_External.svg style="width:16px"> [Geometria zewnętrzna](Sketcher_External.md)**.
+-   Kliknij przycisk **[<img src=images/Sketcher_External.svg style="width:16px"> [Geometria zewnętrzna](Sketcher_External/pl.md)**.
 -   Wybierz krawędź lub wierzchołek, do którego chcesz łączyć w szkicu.
 -   Naciśnij klawisz **Esc** lub wybierz inne narzędzie, aby zatrzymać importowanie geometrii do szkicu.
 
@@ -77,7 +77,7 @@ Gdy edycja szkicu jest zamknięta, zewnętrzne linie Geometrii nie są widoczne.
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -34,7 +34,7 @@ Elmer - это программное обеспечение для мульти
 
 Создание объекта SolverElmer в контейнере анализа в FreeCAD дает доступ к уравнениям Elmer для простого или мультифизического анализа.
 
-Since FreeCAD already has an extensive integration of <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:24px;"> [Calculix](FEM_SolverCalculiX.md) and <img alt="" src=images/FEM_SolverZ88.svg  style="width:24px;"> [Z88](FEM_SolverZ88.md) as solvers for mechanical and thermo-mechanical analysis, Elmer will be preferred for Computational Fluid Dynamics (CFD), Heat, Electrostatics, Magnetostatics and Electrical Forces. It can also be used for mechanical FEA through the Elasticity equation or any combination of the aforementioned equations.
+Since FreeCAD already has an extensive integration of <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:24px;"> [Calculix](FEM_SolverCalculixCxxtools.md) and <img alt="" src=images/FEM_SolverZ88.svg  style="width:24px;"> [Z88](FEM_SolverZ88.md) as solvers for mechanical and thermo-mechanical analysis, Elmer will be preferred for Computational Fluid Dynamics (CFD), Heat, Electrostatics, Magnetostatics and Electrical Forces. It can also be used for mechanical FEA through the Elasticity equation or any combination of the aforementioned equations.
 
 ## Установка
 
@@ -57,6 +57,11 @@ There are standalone programs for both of these applications but their installat
         
 
 You are ready to use Elmer in FreeCAD.
+
+
+{{VersionMinus|0.19}}
+
+: Now start FreeCAD and change the units scheme to *MKS* in the [preferences](Preferences_Editor#Units.md). See [Notes](#Notes.md).
 
 ## Использование
 
@@ -99,6 +104,7 @@ You are ready to use Elmer in FreeCAD.
 
 ## Notes
 
+-   **Important**: in order to get sensible results and to be able to exchange the Elmer input files (named *case.sif*) with others, all values in the input files must be in SI units. In FreeCAD version 0.19 and earlier this is only the case if you use the unit scheme MKS in the [preferences](Preferences_Editor#Units.md).
 -   Parameters for the Solver and for the Equations are independently set through the [Property editor](Property_editor.md) **Data** tab of their respective objects in the [tree view](Tree_view.md).
 -   Each equation will have a priority, for example, if trying see the effect of a convective flow of hot air, the equation for Flow should be solved with higher priority than Heat, otherwise the solver will first solve Heat through conduction and then Flow.
 -   2D vs 3D cases: Elmer can be used to solve both 2D and 3D cases. However, when defining a 2D case, the faces need to be mapped in the XY plane of FreeCAD, otherwise the solver will try to compute a 3D case on a face, and normal vectors will be under-defined. Further information can be found in the FreeCAD forums: <https://forum.freecadweb.org/viewtopic.php?f=18&t=48175>

@@ -19,10 +19,10 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Preferences Editor/zh](wiki/Preferences Editor/zh.md) | [Raytracing Workbench/zh](wiki/Raytracing Workbench/zh.md) | [Reverse Engineering Workbench/zh](wiki/Reverse Engineering Workbench/zh.md) |
 | [Robot Workbench/zh](wiki/Robot Workbench/zh.md) | [Ship Workbench/zh](wiki/Ship Workbench/zh.md) | [Sketcher Workbench/zh](wiki/Sketcher Workbench/zh.md) |
 | [Spreadsheet Workbench/zh](wiki/Spreadsheet Workbench/zh.md) | [Start Workbench/zh](wiki/Start Workbench/zh.md) | [Surface Workbench/zh](wiki/Surface Workbench/zh.md) |
-| [TechDraw Workbench/zh](wiki/TechDraw Workbench/zh.md) | [Tracker/zh](wiki/Tracker/zh.md) | [Template:TutorialInfo/zh](wiki/Template_TutorialInfo/zh.md) |
-| [Tutorials/zh](wiki/Tutorials/zh.md) | [User hub/zh](wiki/User hub/zh.md) | [Web Workbench/zh](wiki/Web Workbench/zh.md) |
-| [Workbenches/zh](wiki/Workbenches/zh.md) | [Category:Arch/zh](wiki/Category_Arch/zh.md) | [Category:BIM/zh](wiki/Category_BIM/zh.md) |
-| [Category:Draft/zh](wiki/Category_Draft/zh.md) | [Category:Inspection/zh](wiki/Category_Inspection/zh.md) | [Category:Workbenches/zh](wiki/Category_Workbenches/zh.md) |
+| [TechDraw Workbench/zh](wiki/TechDraw Workbench/zh.md) | [Tracker/zh](wiki/Tracker/zh.md) | [Tutorials/zh](wiki/Tutorials/zh.md) |
+| [User hub/zh](wiki/User hub/zh.md) | [Web Workbench/zh](wiki/Web Workbench/zh.md) | [Workbenches/zh](wiki/Workbenches/zh.md) |
+| [Category:Arch/zh](wiki/Category_Arch/zh.md) | [Category:BIM/zh](wiki/Category_BIM/zh.md) | [Category:Draft/zh](wiki/Category_Draft/zh.md) |
+| [Category:Inspection/zh](wiki/Category_Inspection/zh.md) | [Category:Tutorials/zh](wiki/Category_Tutorials/zh.md) | [Category:Workbenches/zh](wiki/Category_Workbenches/zh.md) |
 |
 
 

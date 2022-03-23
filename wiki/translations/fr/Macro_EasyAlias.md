@@ -4,15 +4,15 @@
 |Icon=easy-alias-icon.png
 |Description=Utilisez cette fonction pour créer rapidement et facilement des alias pour les cellules de vos feuilles de calcul. Elle prend les étiquettes de texte que vous avez déjà créées dans une colonne et les utilise comme alias dans la colonne suivante.
 |Author=TheMarkster
-|Version=2022.02.28.rev2
-|Date=2022-02-28
+|Version=2022.03.21
+|Date=2022-13-21
 |FCVersion=Tous
 |Download=[https://www.freecadweb.org/wiki/images/5/5e/Easy-alias-icon.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Utilisez cette fonction pour créer rapidement et facilement des alias pour les cellules de vos feuilles de calcul. Elle prend les étiquettes de texte que vous avez déjà créées dans une colonne et les utilise comme alias dans la colonne suivante. Par exemple, les étiquettes de texte de la colonne A peuvent être utilisées pour créer des alias pour les cellules de la colonne B.
+Utilisez cette fonction pour créer rapidement et facilement des alias pour les cellules de vos feuilles de calcul. Elle prend les étiquettes de texte que vous avez déjà créées dans une colonne et les utilise comme alias dans la colonne suivante. Par exemple, les étiquettes de texte de la colonne A peuvent être utilisées pour créer des alias pour les cellules de la colonne B. Depuis la version 2022.03.21, si vous incluez du texte entre parenthèses, seul ce texte sera l\'alias. Par exemple, \"Height of top end (topHeight)\" comme étiquette (sans les guillemets) fera l\'alias de topHeight dans la colonne suivante.
 
 ## Utilisation
 
@@ -81,8 +81,8 @@ __title__ = "EasyAlias"
 __author__ = "TheMarkster"
 __url__ = "https://wiki.freecadweb.org/Macro_EasyAlias"
 __Wiki__ = "https://wiki.freecadweb.org/Macro_EasyAlias"
-__date__ = "2022.02.28" #year.month.date
-__version__ = __date__+".rev2"
+__date__ = "2022.03.21" #year.month.date
+__version__ = __date__
 
 
 def getSelected(selected_sheet):
@@ -152,10 +152,18 @@ def cellIndexToAddress(cellIndex):
         raise StandardError('Columns beyond Z are not supported at this time.')
     address = chars[c]+str(r+1)
     return address
-    
+
+#thanks to Ouriço for this modification to allow parentheses to define the alias
+#within the substring
 def setAlias(sheet, cellIndex, alias):
     address = cellIndexToAddress(cellIndex)
-    sheet.setAlias(address,alias)
+    # extract any text between () and use that as the alias.
+    # If brackets not found then use the original alias.
+    firstidx  = alias.find('(')
+    secondidx = alias.find(')')
+    if (firstidx != -1) and (secondidx != -1) and (firstidx < secondidx):
+        alias = alias[firstidx + 1 : secondidx]
+    sheet.setAlias(address, alias)
 
 s = getSpreadsheet()
 if not s:

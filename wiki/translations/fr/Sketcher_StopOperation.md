@@ -25,7 +25,10 @@ Cela revient à appuyer sur la touche **Esc**.
 4.  L\'outil est désactivé et le pointeur redevient un simple pointeur.
 
 
-{{Sketcher Tools navi
+
+
+
+{{Sketcher_Tools_navi
 
 }}
 

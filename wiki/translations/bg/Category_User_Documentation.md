@@ -17,8 +17,8 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Spreadsheet Workbench/bg](wiki/Spreadsheet Workbench/bg.md) | [Surface Workbench/bg](wiki/Surface Workbench/bg.md) | [TechDraw Workbench/bg](wiki/TechDraw Workbench/bg.md) |
 | [Tutorials/bg](wiki/Tutorials/bg.md) | [User hub/bg](wiki/User hub/bg.md) | [Web Workbench/bg](wiki/Web Workbench/bg.md) |
 | [Workbenches/bg](wiki/Workbenches/bg.md) | [Category:Arch/bg](wiki/Category_Arch/bg.md) | [Category:BIM/bg](wiki/Category_BIM/bg.md) |
-| [Category:Draft/bg](wiki/Category_Draft/bg.md) | [Category:Macros/bg](wiki/Category_Macros/bg.md) | [Category:Web/bg](wiki/Category_Web/bg.md) |
-| [Category:Workbenches/bg](wiki/Category_Workbenches/bg.md) |
+| [Category:Draft/bg](wiki/Category_Draft/bg.md) | [Category:Macros/bg](wiki/Category_Macros/bg.md) | [Category:Tutorials/bg](wiki/Category_Tutorials/bg.md) |
+| [Category:Web/bg](wiki/Category_Web/bg.md) | [Category:Workbenches/bg](wiki/Category_Workbenches/bg.md) |
 
 
 

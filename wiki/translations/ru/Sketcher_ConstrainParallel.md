@@ -10,6 +10,9 @@
 
 # Sketcher ConstrainParallel/ru
 
+
+</div>
+
 ## Описание
 
 The Constrain Parallel constraint forces two selected straight lines or edges to be parallel to each other.
@@ -28,9 +31,9 @@ The sketch contains two randomly oriented lines.
 
 Apply the Constrain Parallel constraint by either:
 
--   Pressing the **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Constrain parallel](Sketcher_ConstrainParallel.md)** button from the Sketcher constraints toolbar by selecting the Constraint Parallel menu item from the Sketcher constraints sub menu of the Sketcher (Sketcher workbench selected) or Part Design (Part Design workbench selected) menu item.
--   Use the **Shift** + **P** keyboard shortcut.
--   Use the **Sketch → Sketcher constraints → Constrain parallel** entry from the top menu.
+-   Pressing the **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Constrain parallel](Sketcher_ConstrainParallel.md)** button from the Sketcher constraints toolbar.
+-   Use the **P** keyboard shortcut.
+-   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> Constrain parallel** entry from the top menu.
 
 <img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
 

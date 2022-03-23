@@ -56,7 +56,7 @@ The Sketcher Workbench tools are all located in the Sketch menu that appears whe
 
 ### General
 
--   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [New sketch](Sketcher_NewSketch.md): Creates‎ a new sketch on a selected face or plane. If no face is selected while this tool is executed the user is prompted to select a plane from a pop-up window.
+-   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Create sketch](Sketcher_NewSketch.md): Creates‎ a new sketch on a selected face or plane. If no face is selected while this tool is executed the user is prompted to select a plane from a pop-up window.
 
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edit sketch](Sketcher_EditSketch.md): Edit the selected Sketch. This will open the [Sketcher Dialog](Sketcher_Dialog.md).
 
@@ -99,27 +99,27 @@ These are tools for creating objects.
 :\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Circle by 3 points](Sketcher_Create3PointCircle.md): Draws a circle from three points on the circumference.
 
 -   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Create a conic](Sketcher_CompCreateConic.md): The sketcher provides the following conical sections. Unlike B-splines they can be used with all sorts of constraints such as [Tangent](Sketcher_ConstrainTangent.md), [Point On Object](Sketcher_ConstrainPointOnObject.md), or [Perpendicular](Sketcher_ConstrainPerpendicular.md).
-    -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md): Draws an ellipse by center point, major radius point and minor radius point.
+    -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse](Sketcher_CreateEllipseByCenter.md): Draws an ellipse by center point, major radius point and minor radius point.
     -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md): Draws an ellipse by major diameter (2 points) and minor radius point.
     -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md): Draws an arc of ellipse by center point, major radius point, starting point and ending point.
     -   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md): Draws an arc of hyperbola.
     -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md): Draws an arc of parabola.
 
 -   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Create a B-spline](Sketcher_CompCreateBSpline.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
-    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Create B-spline](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
-    -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Create periodic B-spline](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
+    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
+    -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyline (multiple-point line)](Sketcher_CreatePolyline.md): Draws a line made of multiple line segments. Pressing the **M** key while drawing a Polyline toggles between the different polyline modes.
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create rectangles](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create a rectangle](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
 
 :\* <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rectangle](Sketcher_CreateRectangle.md): Draws a rectangle from 2 opposite points.
 
-:\* <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Centered Rectangle](Sketcher_CreateRectangle_Center.md): Draws a rectangle from a central point and an edge point. <small>(v0.20)</small> 
+:\* <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Centered rectangle](Sketcher_CreateRectangle_Center.md): Draws a rectangle from a central point and an edge point. <small>(v0.20)</small> 
 
-:\* <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded Rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
+:\* <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Create regular polygon](Sketcher_CompCreateRegularPolygon.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
+-   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Create a regular polygon](Sketcher_CompCreateRegularPolygon.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
 
 :\* <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Triangle](Sketcher_CreateTriangle.md): Draws a regular triangle inscribed in a construction geometry circle.
 
@@ -133,23 +133,23 @@ These are tools for creating objects.
 
 :\* <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width:32px;"> [Octagon](Sketcher_CreateOctagon.md): Draws a regular octagon inscribed in a construction geometry circle.
 
-:\* <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Create Regular Polygon](Sketcher_CreateRegularPolygon.md) : Draws a regular polygon by selecting the number of sides and picking two points: the center and one corner.
+:\* <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Regular polygon](Sketcher_CreateRegularPolygon.md) : Draws a regular polygon by selecting the number of sides and picking two points: the center and one corner.
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Slot](Sketcher_CreateSlot.md): Draws an oval by selecting the center of one semicircle and an endpoint of the other semicircle.
 
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Fillet](Sketcher_CreateFillet.md): Makes a fillet between two lines joined at one point. Select both lines or click on the corner point, then activate the tool.
 
--   <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Trimming](Sketcher_Trimming.md): Trims a line, circle or arc with respect to the clicked point.
+-   <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Trim](Sketcher_Trimming.md): Trims a line, circle or arc with respect to the clicked point.
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Extend](Sketcher_Extend.md): Extends a line or an arc to a boundary line, arc, ellipse, arc of ellipse or a point in space.
 
 -   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits a line or an arc into two, converts a circle into an arc while keeping most of the constraints. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [External Geometry](Sketcher_External.md): Creates an edge linked to external geometry.
+-   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [External geometry](Sketcher_External.md): Creates an edge linked to external geometry.
 
--   <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [CarbonCopy](Sketcher_CarbonCopy.md): Copies the geometry of another sketch.
+-   <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [Carbon copy](Sketcher_CarbonCopy.md): Copies the geometry of another sketch.
 
--   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Construction Mode](Sketcher_ToggleConstruction.md): Toggles sketch geometry from/to construction mode. Construction geometry is shown in blue and is discarded outside of Sketch editing mode.
+-   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Toggle construction geometry](Sketcher_ToggleConstruction.md): Toggles sketch geometry from/to construction mode. Construction geometry is shown in blue and is discarded outside of Sketch editing mode.
 
 ### Sketcher constraints 
 
@@ -161,7 +161,7 @@ These constraints are not associated with numeric data.
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Coincident](Sketcher_ConstrainCoincident.md): Affixes a point onto (coincident with) one or more other points.
 
--   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Point On Object](Sketcher_ConstrainPointOnObject.md): Affixes a point onto another object such as a line, arc, or axis.
+-   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Point on object](Sketcher_ConstrainPointOnObject.md): Affixes a point onto another object such as a line, arc, or axis.
 
 -   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Vertical](Sketcher_ConstrainVertical.md): Constrains the selected lines or polyline elements to a true vertical orientation. More than one object can be selected before applying this constraint.
 
@@ -198,7 +198,7 @@ These are constraints associated with numeric data, for which you can use the [e
 
 #### Special constraints 
 
--   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Snell\'s Law](Sketcher_ConstrainSnellsLaw.md): Constrains two lines to obey a refraction law to simulate the light going through an interface.
+-   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Snell\'s law](Sketcher_ConstrainSnellsLaw.md): Constrains two lines to obey a refraction law to simulate the light going through an interface.
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Internal alignment](Sketcher_ConstrainInternalAlignment.md): Aligns selected elements to selected shape (e.g. a line to become major axis of an ellipse).
 
@@ -208,31 +208,31 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Toggle driving/reference constraint](Sketcher_ToggleDrivingConstraint.md): Toggles the toolbar or the selected constraints to/from reference mode.
 
--   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/Deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
+-   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
 
 ### Sketcher tools 
 
--   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select solver DOFs](Sketcher_SelectElementsWithDoFs.md): Highlights in green the geometry with degrees of freedom (DOFs), i.e. not fully constrained.
+-   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select unconstrained DoF](Sketcher_SelectElementsWithDoFs.md): Highlights in green the geometry with degrees of freedom (DOFs), i.e. not fully constrained.
 
--   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Close Shape](Sketcher_CloseShape.md): Creates a closed shape by applying coincident constraints to endpoints.
+-   <img alt="" src=images/Sketcher_CloseShape.svg  style="width:32px;"> [Close shape](Sketcher_CloseShape.md): Creates a closed shape by applying coincident constraints to endpoints.
 
--   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Connect Edges](Sketcher_ConnectLines.md): Connect sketcher elements by applying coincident constraints to endpoints.
+-   <img alt="" src=images/Sketcher_ConnectLines.svg  style="width:32px;"> [Connect edges](Sketcher_ConnectLines.md): Connect sketcher elements by applying coincident constraints to endpoints.
 
--   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Select Constraints](Sketcher_SelectConstraints.md): Selects the constraints of a sketcher element.
+-   <img alt="" src=images/Sketcher_SelectConstraints.svg  style="width:32px;"> [Select associated constraints](Sketcher_SelectConstraints.md): Selects the constraints of a sketcher element.
 
--   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Select Elements Associated with constraints](Sketcher_SelectElementsAssociatedWithConstraints.md): Select sketcher elements associated with constraints.
+-   <img alt="" src=images/Sketcher_SelectElementsAssociatedWithConstraints.svg  style="width:32px;"> [Select associated geometry](Sketcher_SelectElementsAssociatedWithConstraints.md): Select sketcher elements associated with constraints.
 
--   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Select Redundant Constraints](Sketcher_SelectRedundantConstraints.md): Selects redundant constraints of a sketch.
+-   <img alt="" src=images/Sketcher_SelectRedundantConstraints.svg  style="width:32px;"> [Select redundant constraints](Sketcher_SelectRedundantConstraints.md): Selects redundant constraints of a sketch.
 
--   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Select Conflicting Constraints](Sketcher_SelectConflictingConstraints.md): Selects conflicting constraints of a sketch.
+-   <img alt="" src=images/Sketcher_SelectConflictingConstraints.svg  style="width:32px;"> [Select conflicting constraints](Sketcher_SelectConflictingConstraints.md): Selects conflicting constraints of a sketch.
 
--   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md): Recreates missing/deletes unneeded internal geometry of a selected ellipse, arc of ellipse/hyperbola/parabola or B-spline.
+-   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Show/hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md): Recreates missing/deletes unneeded internal geometry of a selected ellipse, arc of ellipse/hyperbola/parabola or B-spline.
 
--   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Select Origin](Sketcher_SelectOrigin.md): Selects the origin of a sketch.
+-   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Select origin](Sketcher_SelectOrigin.md): Selects the origin of a sketch.
 
--   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Select Vertical Axis](Sketcher_SelectVerticalAxis.md): Selects the vertical axis of a sketch.
+-   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Select vertical axis](Sketcher_SelectVerticalAxis.md): Selects the vertical axis of a sketch.
 
--   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Select Horizontal Axis](Sketcher_SelectHorizontalAxis.md): Selects the horizontal axis of a sketch.
+-   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Select horizontal axis](Sketcher_SelectHorizontalAxis.md): Selects the horizontal axis of a sketch.
 
 -   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symmetry](Sketcher_Symmetry.md): Copies a sketcher element symmetrical to a chosen line.
 
@@ -242,13 +242,13 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Move](Sketcher_Move.md): Moves the selected geometry taking as reference the last selected point.
 
--   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Rectangular Array](Sketcher_RectangularArray.md): Creates an array of selected sketcher elements.
+-   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Rectangular array](Sketcher_RectangularArray.md): Creates an array of selected sketcher elements.
 
--   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove axes alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Delete All Geometry](Sketcher_DeleteAllGeometry.md): Deletes all geometry from the sketch.
+-   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Delete all geometry](Sketcher_DeleteAllGeometry.md): Deletes all geometry from the sketch.
 
--   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Delete All Constraints](Sketcher_DeleteAllConstraints.md): Deletes all constraints from the sketch.
+-   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Delete all constraints](Sketcher_DeleteAllConstraints.md): Deletes all constraints from the sketch.
 
 ### Sketcher B-spline tools 
 
@@ -276,7 +276,7 @@ The following tools can be used the change the effect of constraints:
 
 ### Sketcher virtual space 
 
--   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch Virtual Space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
+-   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch virtual space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
 
 ## Preferences
 
@@ -310,11 +310,11 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/en

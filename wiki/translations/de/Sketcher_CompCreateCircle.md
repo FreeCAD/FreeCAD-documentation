@@ -15,14 +15,26 @@
 
 ## Kreistypen
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Kreis durch Mittelpunkt und Randpunkt](Sketcher_CreateCircle/de.md) : Zeichnet einen Kreis durch Wahl zweier Punkte: den Mittelpunkt einen Punkt entlang des Radius.
 -   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Kreis durch 3 Randpunkte](Sketcher_Create3PointCircle/de.md) : Zeichnet einen Kreis durch Wahl dreier Punkte auf der Kreisumfangslinie.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

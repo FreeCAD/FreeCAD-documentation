@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher Create a B-spline
-   Name/fr:Sketcher Créer une B-spline
+   Name/fr:Sketcher B-splines
    Icon:Sketcher_CompCreateBSpline.png
    MenuLocation:Barre d'outils seulement
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
@@ -17,7 +17,7 @@
 ## Types de B-splines 
 
 -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline simple](Sketcher_CreateBSpline/fr.md) : Dessine une courbe B-spline par ses points de contrôle.
--   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [B-pline périodique](Sketcher_CreatePeriodicBSpline/fr.md) : Dessine une B-spline fermée périodique par ses points de contrôle.
+-   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md) : Dessine une B-spline fermée périodique par ses points de contrôle.
 
 
 

@@ -10,6 +10,9 @@
 
 # Sketcher ConstrainRadiam/ru
 
+
+</div>
+
 ## Описание
 
 This constraint automatically constrains the value of the radius/diameter of a circle or arc to have a specific value. Following rules are applied :
@@ -45,10 +48,16 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 No specific scripting applies. See the [Sketcher scripting](Sketcher_scripting.md) page that explains the values which can be used for `ArcOrCircle` and `Circle`, and contains further examples on how to create constraints from Python scripts.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

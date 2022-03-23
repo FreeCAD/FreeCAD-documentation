@@ -1,17 +1,11 @@
 # Crowdin Administration/de
 {{TOCright}}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Rollen
 
-
-</div>
-
--   Übersetzer
-    -   Fähigkeit, Übersetzungen in einer Sprache vorzuschlagen und zu erstellen.
-    -   Nach mehr Sinnzusammenhang/Klarheit zu fragen; Fehler in der zu übersetzenden Passage zu melden; über eine Übersetzung zu diskuteieren, etc\...
+-   Übersetzer/in
+    -   Kann Übersetzungen in einer Sprache vorschlagen und darüber abstimmen.
+    -   Kann Zusammenhänge/Verständlichkeit erfragen, Fehler in der zu übersetzenden Passage melden, einen aktuellen Übersetzungsbeitrag diskutieren, etc\...
 
 
 <div class="mw-translate-fuzzy">
@@ -25,41 +19,17 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-### Zeichenketten Filterung 
-
-
-</div>
+## Zeichenketten filtern 
 
 <img alt="" src=images/Crowdin_Filter_Strings.png  style="width:500px;">
 
+Das Filtern von Zeichenfolgen ist eine nützliche Eigenschaft von Korrekturlesern und Verwaltern. Sie bietet die Möglichkeit, viele Übersetzungszeichenfolgen effektiv zu sortieren, um z.B. nur Zeichenfolgen anzuzeigen, die als \"fehlende weitere Kontextinformationen\" oder \"falscher Quellzeichenfolge\" markiert wurden. Dieser Dienst, den die Übersetzer für FreeCAD erbringen, bietet eine zusätzliche Ebene von QA Tests. Viele Tippfehler, Grammatikprobleme und sogar Programmierfehler können durch die Prüfung von Übersetzungszeichenfolgen aufgedeckt werden. Und so markieren die Nutzer diese besagten problematischen Zeichenfolgen, damit wir darauf reagieren und sie schließlich \'beheben\' können.
 
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Crowdin_Filter_Strings.png  style="width:300px;"> Das Filtern von Zeichenfolgen ist eine nützliche Eigenschaft von Korrekturlesern und Verwaltern. Sie bietet die Möglichkeit, viele Übersetzungszeichenfolgen effektiv zu sortieren, um z.B. nur Zeichenfolgen anzuzeigen, die als \"fehlende weitere Kontextinformationen\" oder \"falscher Quellzeichenfolge\" markiert wurden. Dieser Dienst, den die Übersetzer für FreeCAD erbringen, bietet eine zusätzliche Ebene von QA Tests. Viele Tippfehler, Grammatikprobleme und sogar Programmierfehler können durch die Prüfung von Übersetzungszeichenfolgen aufgedeckt werden. Und so markieren die Nutzer diese besagten problematischen Zeichenfolgen, damit wir darauf reagieren und sie schließlich \'beheben\' können.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Tastaturkürzel
-
-
-</div>
+## Tastaturkürzel
 
 <img alt="" src=images/Crowdin_keyboard_shortcuts.png  style="width:300px;">
 
-
-<div class="mw-translate-fuzzy">
-
-![](images/Crowdin_keyboard_shortcuts.png ) Die Verwendung von Tastaturkürzeln ist ein wichtiger Beitrag zur Zeitersparnis und Effizienz. Es lohnt sich zu lernen, wenn du ein Übersetzer, Korrekturleser oder Verwalter bist. Es ist möglich, die Liste der Tastaturkürzel anzuzeigen, indem du auf das Tastatursymbol im oberen rechten Teil der Crowdin Benutzeroberfläche drückst.
-
-
-</div>
+Die Verwendung von Tastaturkürzeln ist ein wichtiger Beitrag zur Zeitersparnis und Effizienz. Es lohnt sich zu lernen, wenn du ein Übersetzer, Korrekturleser oder Verwalter bist. Es ist möglich, die Liste der Tastaturkürzel anzuzeigen, indem du auf das Tastatursymbol im oberen rechten Teil der Crowdin Benutzeroberfläche drückst.
 
 **Wichtiger Hinweis:** Bitte achte sorgfältig darauf, keine Fehler in Übersetzungszeichenfolgen einzuführen, die durch unsachgemäße Tastendrücke erzeugt wurden, die als Tastenkürzel gedacht waren.
 
@@ -87,23 +57,11 @@ If you notice a string in the FreeCAD UI that is not translated do the following
             2.  Verify that the context matches what is on Crowdin.
             3.  In case of {{Incode|QT_TRANSLATE_NOOP()}}, there are several particular cases. For commands, the context must be the exact command name, the same as used in {{Incode|FreeCADGui.runCommand()}}. For properties it must be {{Incode|"App::Property"}}. For the names of menus and toolbars it must be {{Incode|"Workbench"}}.
 
-
-<div class="mw-translate-fuzzy">
-
-### Entsprechende Seiten 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+## Verweise
 
 -   [Lokalisierung](Localisation/de.md)
 -   [Crowdin Skripte](Crowdin_Scripts/de.md)
 -   [Freigabeprozess](Release_process.md)
-
-
-</div>
 
 
 

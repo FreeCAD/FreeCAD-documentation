@@ -47,7 +47,7 @@ The **Std ToggleClipPlane** command temporarily hides objects and parts of objec
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

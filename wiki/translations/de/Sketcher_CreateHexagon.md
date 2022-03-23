@@ -9,6 +9,9 @@
 
 # Sketcher CreateHexagon/de
 
+
+</div>
+
 ## Beschreibung
 
 Zeichnet ein Sechseck, das in einem Kreis der Konstruktionsgeometrie eingeschrieben ist. Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechsecksymbol. Die Koordinaten des Zeigers werden daneben in Echtzeit blau dargestellt.

@@ -50,11 +50,11 @@ Nie zaleca się rekonstrukcji punktu styczności poprzez tworzenie punktu i wią
 
 <img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
 
-W tym trybie punkty końcowe są zbieżne, a połączenie jest styczne *(C1 - gładkie lub \"ostre\", w zależności od położenia krzywych przed nałożeniem wiązania)*. Tryb ten jest stosowany w przypadku wybrania dwóch punktów końcowych dla dwóch krzywych. Jeśli chcesz uzyskać ten rodzaj styczności, nie możesz używać zbieżności plus styczności między krzywymi/liniami. Solver nie może utworzyć stabilnych rozwiązań dla tej kombinacji i odpowiednio zastępuje ograniczenia.
+W tym trybie punkty końcowe są zbieżne, a połączenie jest styczne *(C1 - gładkie lub \"ostre\", w zależności od położenia krzywych przed nałożeniem wiązania)*. Tryb ten jest stosowany w przypadku wybrania dwóch punktów końcowych dla dwóch krzywych. Jeśli chcesz uzyskać ten rodzaj styczności, nie możesz używać zbieżności plus styczności między krzywymi / liniami. Solver nie może utworzyć stabilnych rozwiązań dla tej kombinacji i odpowiednio zastępuje ograniczenia.
 
 \"Zaakceptowany wybór:
 
--   punkt końcowy linii/łuku/łuku-ellipsy + punkt końcowy linii/łuku/łuku-ellipsy *(tj. dwa punkty końcowe dowolnych dwóch krzywych)*
+-   punkt końcowy linii / łuku / łuku-ellipsy + punkt końcowy linii / łuku/ łuku-ellipsy *(tj. dwa punkty końcowe dowolnych dwóch krzywych)*
 
 ### Pomiędzy krzywą a punktem końcowym (styczność punkt - krzywa) 
 
@@ -64,7 +64,7 @@ W tym trybie, punkt końcowy jednej krzywej jest związany z położeniem na dru
 
 **Zaakceptowany wybór:**
 
--   linia, okrąg, łuk, elipsa, łuk elipsy + punkt końcowy linii/łuku/łuku elipsy *(tzn. każda krzywa + punkt końcowy każdej krzywej)*.
+-   linia, okrąg, łuk, elipsa, łuk elipsy + punkt końcowy linii / łuku / łuku elipsy *(tzn. każda krzywa + punkt końcowy każdej krzywej)*.
 
 ### Między dwiema krzywymi w punkcie *(styczna do punktu) (v0.15)* 
 
@@ -74,11 +74,11 @@ W tym trybie dwie krzywe są styczne, a punkt styczności jest śledzony. Ten tr
 
 **Zaakceptowany wybór:**
 
--   każda linia/krzywizna + każda linia/krzywizna + każdy punkt
+-   każda linia / krzywizna + każda linia / krzywizna + każdy punkt
 
 \"Każdy punkt\" może być samotnym punktem, albo punktem jakiegoś obiektu, np. środkiem okręgu, punktem końcowym łuku, albo początkiem.
 
-Aby wiązanie działało prawidłowo, punkt musi znajdować się na obu krzywych. Tak więc, w miarę wywoływania wiązania, punkt będzie automatycznie związany z obiema krzywymi *([wiązanie pomocnicze](Sketcher_helper_constraint.md) zostanie dodane, jeśli jest to konieczne)*, a krzywe zostaną związane w punkcie styczności. Te [wiązania pomocnicze](Sketcher_helper_constraint.md) są zwykłymi regularnymi wiązaniami. Mogą być dodane ręcznie lub usunięte.
+Aby wiązanie działało prawidłowo, punkt musi znajdować się na obu krzywych. Tak więc, w miarę wywoływania wiązania, punkt będzie automatycznie związany z obiema krzywymi *([wiązanie pomocnicze](Sketcher_helper_constraint/pl.md) zostanie dodane, jeśli jest to konieczne)*, a krzywe zostaną związane w punkcie styczności. Te [wiązania pomocnicze](Sketcher_helper_constraint/pl.md) są zwykłymi regularnymi wiązaniami. Mogą być dodane ręcznie lub usunięte.
 
 W porównaniu z bezpośrednią stycznością, wiązanie to jest wolniejsze, ponieważ istnieje więcej stopni swobody, ale jeśli punkt styczności jest potrzebny, jest to tryb zalecany, ponieważ oferuje lepszą zbieżność w porównaniu z bezpośrednią stycznością + punkt na dwóch krzywych.
 
@@ -123,7 +123,7 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

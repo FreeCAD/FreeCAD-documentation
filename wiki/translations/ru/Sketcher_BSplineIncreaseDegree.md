@@ -44,10 +44,16 @@ You can see that now each segment has 2 control points and the knots are coincid
 1.  Select an edge from an existing B-spline, and press **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> '''Increase B-spline degree'''**.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

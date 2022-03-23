@@ -93,9 +93,11 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_AxisCross.svg  style="width:32px;"> [Achsenkreuz](Std_AxisCross/de.md): Aktiviert/deaktiviert das Achsenkreuz.
 
--   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Clipping plane](Std_ToggleClipPlane.md): Temporarily clips objects.
+-   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Clipping plane](Std_ToggleClipPlane/de.md): Beschneidet Objekte zeitweise.
 
--   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Texture mapping\...](Std_TextureMapping.md): Temporarily maps a texture onto all objects.
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut/de.md): Erzeugt dauerhafte Ausschnitte an objekten und Baugruppen. {{Version/de|0.20}}
+
+-   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Texture mapping\...](Std_TextureMapping/.md): Bildet Texturen zetweise auf allen Objekten ab.
 
 -   Sichtbarkeit
 
@@ -112,13 +114,13 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Sichtbarkeit umschalten](Std_ToggleVisibility/de.md) Schaltet die Sichtbarkeit der ausgewählten Objekte um.
 
--   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Toggle navigation/Edit mode](Std_ToggleNavigation.md): Toggles between navigation mode and edit mode.
+-   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Toggle navigation/Edit mode](Std_ToggleNavigation/de.md): Schaltet um zwischen Navigations- und Edit-Modus.
 
--   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance\...](Std_SetAppearance.md): Opens the Display properties task panel for objects.
+-   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance\...](Std_SetAppearance/de.md): Öffnet für Objekte das Feld Ansicht im Eigenschafteneditor.
 
--   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Random color](Std_RandomColor.md): Applies a random shape color to objects.
+-   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Random color](Std_RandomColor/de.md): Färbt Objekte mit einer zufälligen Farbe ein.
 
--   [Workbench](Std_Workbench.md) **-- Select a workbench from the submenu.**
+-   [Arbeitsbereich](Std_Workbench/de.md) **-- Einen Arbeitsbereich aus dem Untermenü auswählen.**
 
 -   Werkzeugleisten **-- Jede Werkzeugleiste kann im Untermenü ein- oder ausgeschaltet werden. Einige Arbeitsbereiche fügen ihre eigenen Werkzeugleisten hinzu.**
     -   Datei
@@ -127,26 +129,26 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
     -   Ansicht
     -   Struktur
 
--   Panels **-- Each panels can be switched on or off in the submenu.**
-    -   [Report view](Report_view.md)
-    -   [Tree view](Tree_view.md)
-    -   [Property view](Property_editor.md)
-    -   [Selection view](Selection_view.md)
-    -   [Combo view](Combo_view.md)
-    -   [Python console](Python_console.md)
-    -   [DAG view](DAG_view.md)
+-   Fensterbereiche **-- Jeder Bereich kann im Untermenü ein- oder ausgeschaltet werden.**
+    -   [Ausgabefenster](Report_view/de.md)
+    -   [Baumansicht](Tree_view/de.md)
+    -   [Eigenschafteneditor](Property_editor/de.md)
+    -   [Auswahlansicht](Selection_view/de.md)
+    -   [Combo-Ansicht](Combo_view/de.md)
+    -   [Python-Konsole](Python_console/de.md)
+    -   [DAG-Ansicht](DAG_view/de.md)
 
--   Tree view actions
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Record selection](Std_TreeRecordSelection.md): Toggles the Tree view RecordSelection mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Single document](Std_TreeSingleDocument.md): Switches the Tree view to SingleDocument mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi document](Std_TreeMultiDocument.md): Switches the Tree view to MultiDocument mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Collapse/Expand](Std_TreeCollapseDocument.md): Switches the Tree view to CollapseDocument mode. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag.md): Initiates a drag operation for selected objects in the Tree view. <small>(v0.19)</small> 
-    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection.md): Scrolls the Tree view to the first created object in a 3D view selection. <small>(v0.19)</small> 
+-   Aktionen in der Baumansicht
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView/de.md): Schaltet den SyncView-Modus der [Baumansicht](Tree_view/de.md) ein/aus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection/de.md): Schaltet den SyncSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement/de.md): Schaltet den SyncPlacement-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection/de.md): Schaltet den PreSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Record selection](Std_TreeRecordSelection/de.md): Schaltet den RecordSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Single document](Std_TreeSingleDocument/de.md): Schaltet die Baumansicht in den SingleDocument-Modus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi document](Std_TreeMultiDocument/de.md): Schaltet die Baumansicht in den MultiDocument-Modus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Collapse/Expand](Std_TreeCollapseDocument/de.md): Schaltet die Baumansicht in den CollapseDocument-Modus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag/de.md): Startet das Ziehen von ausgewählten Objekten in der Baumansicht. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection/de.md): Scrollt die Baumansicht auf das zuerst erstellte Objekt einer Auswahl in der 3D-Ansicht. {{Version/de|0.19}}
 
 -   [Statusleiste](Std_ViewStatusBar/de.md): Schaltet die Anzeige der [Statusleiste](Status_bar/de.md) um.
 

@@ -13,13 +13,12 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Branding/hr](wiki/Branding/hr.md) | [CadQuery Workbench/hr](wiki/CadQuery Workbench/hr.md) | [Cfd Workbench/hr](wiki/Cfd Workbench/hr.md) |
 | [Civil Engineering Workbench/hr](wiki/Civil Engineering Workbench/hr.md) | [Compile on MacOS/hr](wiki/Compile on MacOS/hr.md) | [Compile on Windows/hr](wiki/Compile on Windows/hr.md) |
 | [Compiling (Speeding up)/hr](wiki/Compiling (Speeding up)/hr.md) | [Compiling/hr](wiki/Compiling/hr.md) | [Complete Workbench/hr](wiki/Complete Workbench/hr.md) |
-| [Customize Toolbars/hr](wiki/Customize Toolbars/hr.md) | [Developer hub/hr](wiki/Developer hub/hr.md) | [Document structure/hr](wiki/Document structure/hr.md) |
-| [Download/hr](wiki/Download/hr.md) | [Draft Draft2Sketch/hr](wiki/Draft Draft2Sketch/hr.md) | [Draft Preferences/hr](wiki/Draft Preferences/hr.md) |
-| [Draft Workbench/hr](wiki/Draft Workbench/hr.md) | [Drawing Workbench/hr](wiki/Drawing Workbench/hr.md) | [Dxf Importer Install/hr](wiki/Dxf Importer Install/hr.md) |
-| [Feature editing/hr](wiki/Feature editing/hr.md) | [Feature list/hr](wiki/Feature list/hr.md) | [FEM Solver/hr](wiki/FEM Solver/hr.md) |
-| [FEM Workbench/hr](wiki/FEM Workbench/hr.md) | [Flamingo Workbench/hr](wiki/Flamingo Workbench/hr.md) | [FreeCAD and DXF Import/hr](wiki/FreeCAD and DXF Import/hr.md) |
-| [Frequently asked questions/hr](wiki/Frequently asked questions/hr.md) | [Getting started/hr](wiki/Getting started/hr.md) | [Glossary/hr](wiki/Glossary/hr.md) |
-| [Template:GuiCommand/hr](wiki/Template_GuiCommand/hr.md) | [Help FreeCAD/hr](wiki/Help FreeCAD/hr.md) | [How to install macros/hr](wiki/How to install macros/hr.md) |
+| [Developer hub/hr](wiki/Developer hub/hr.md) | [Document structure/hr](wiki/Document structure/hr.md) | [Download/hr](wiki/Download/hr.md) |
+| [Draft Draft2Sketch/hr](wiki/Draft Draft2Sketch/hr.md) | [Draft Preferences/hr](wiki/Draft Preferences/hr.md) | [Draft Workbench/hr](wiki/Draft Workbench/hr.md) |
+| [Drawing Workbench/hr](wiki/Drawing Workbench/hr.md) | [Feature editing/hr](wiki/Feature editing/hr.md) | [Feature list/hr](wiki/Feature list/hr.md) |
+| [FEM Solver/hr](wiki/FEM Solver/hr.md) | [FEM Workbench/hr](wiki/FEM Workbench/hr.md) | [Flamingo Workbench/hr](wiki/Flamingo Workbench/hr.md) |
+| [FreeCAD and DXF Import/hr](wiki/FreeCAD and DXF Import/hr.md) | [Frequently asked questions/hr](wiki/Frequently asked questions/hr.md) | [Getting started/hr](wiki/Getting started/hr.md) |
+| [Glossary/hr](wiki/Glossary/hr.md) | [Template:GuiCommand/hr](wiki/Template_GuiCommand/hr.md) | [Help FreeCAD/hr](wiki/Help FreeCAD/hr.md) |
 | [Image Workbench/hr](wiki/Image Workbench/hr.md) | [Import Export/hr](wiki/Import Export/hr.md) | [Inspection Workbench/hr](wiki/Inspection Workbench/hr.md) |
 | [Installing additional components/hr](wiki/Installing additional components/hr.md) | [Installing on Linux/hr](wiki/Installing on Linux/hr.md) | [Installing on Mac/hr](wiki/Installing on Mac/hr.md) |
 | [Installing on Windows/hr](wiki/Installing on Windows/hr.md) | [Interface Customization/hr](wiki/Interface Customization/hr.md) | [Interface/hr](wiki/Interface/hr.md) |
@@ -55,10 +54,10 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Surface GeomFillSurface/hr](wiki/Surface GeomFillSurface/hr.md) | [Surface Workbench/hr](wiki/Surface Workbench/hr.md) | [Symbols Library Workbench/hr](wiki/Symbols Library Workbench/hr.md) |
 | [TechDraw 3PtAngleDimension/hr](wiki/TechDraw 3PtAngleDimension/hr.md) | [TechDraw Preferences/hr](wiki/TechDraw Preferences/hr.md) | [TechDraw Templates/hr](wiki/TechDraw Templates/hr.md) |
 | [TechDraw Workbench/hr](wiki/TechDraw Workbench/hr.md) | [Timber Workbench/hr](wiki/Timber Workbench/hr.md) | [Tutorial for open windows/hr](wiki/Tutorial for open windows/hr.md) |
-| [Template:TutorialInfo/hr](wiki/Template_TutorialInfo/hr.md) | [Tutorials/hr](wiki/Tutorials/hr.md) | [User hub/hr](wiki/User hub/hr.md) |
-| [Video tutorials/hr](wiki/Video tutorials/hr.md) | [Workbenches/hr](wiki/Workbenches/hr.md) | [Workfeature Workbench/hr](wiki/Workfeature Workbench/hr.md) |
-| [Category:Arch/hr](wiki/Category_Arch/hr.md) | [Category:BIM/hr](wiki/Category_BIM/hr.md) | [Category:Draft/hr](wiki/Category_Draft/hr.md) |
-| [Category:Inspection/hr](wiki/Category_Inspection/hr.md) | [Category:Workbenches/hr](wiki/Category_Workbenches/hr.md) |
+| [Tutorials/hr](wiki/Tutorials/hr.md) | [User hub/hr](wiki/User hub/hr.md) | [Video tutorials/hr](wiki/Video tutorials/hr.md) |
+| [Workbenches/hr](wiki/Workbenches/hr.md) | [Workfeature Workbench/hr](wiki/Workfeature Workbench/hr.md) | [Category:Arch/hr](wiki/Category_Arch/hr.md) |
+| [Category:BIM/hr](wiki/Category_BIM/hr.md) | [Category:Draft/hr](wiki/Category_Draft/hr.md) | [Category:Inspection/hr](wiki/Category_Inspection/hr.md) |
+| [Category:Tutorials/hr](wiki/Category_Tutorials/hr.md) | [Category:Workbenches/hr](wiki/Category_Workbenches/hr.md) |
 
 
 

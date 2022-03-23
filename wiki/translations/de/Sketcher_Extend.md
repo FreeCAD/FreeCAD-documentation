@@ -10,6 +10,9 @@
 
 # Sketcher Extend/de
 
+
+</div>
+
 ## Beschreibung
 
 
@@ -51,10 +54,16 @@ Das Werkzeug \"Kante verlängern\" verlängert eine Kante an eine beliebige Stel
 -   The target edge or point object may be modified as well if it is not fully constrained.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

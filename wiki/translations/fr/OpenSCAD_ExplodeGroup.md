@@ -32,7 +32,7 @@ La fonctionnalité ne fonctionnera **PAS** sur
 
 ## Remarques
 
-Pour les réseaux de l\'atelier de Draft, utilisez l\'outil [Draft Rétrograder](Draft_Downgrade/fr.md) de l\'atelier Draft.
+Pour les réseaux de l\'atelier de Draft, utilisez l\'outil [Draft Désagréger](Draft_Downgrade/fr.md) de l\'atelier Draft.
 
 
 

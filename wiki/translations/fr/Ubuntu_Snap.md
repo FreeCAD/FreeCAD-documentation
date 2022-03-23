@@ -80,7 +80,8 @@ Pour trouver le dernier numéro de révision amont (également connu sous le nom
 
 
 {{Code|lang=bash|code=
-git rev-list --count HEAD
+git pull upstream master  # first make sure we have the most up-to-date commits
+git rev-list --count HEAD # 'HEAD' refers to the current commit you are viewing (tip of the master branch)
 }}
 
 Pour traduire la version de développement en cours en un numéro de révision (assurez-vous que vous êtes dans votre dépôt FreeCAD cloné comme mentionné ci-dessus) :
@@ -88,13 +89,28 @@ Pour traduire la version de développement en cours en un numéro de révision (
 
 {{Code|lang=bash|code=
 snap info freecad-ppd <nowiki>|</nowiki>\
-grep -e '^installed:' <nowiki>|</nowiki>\
+grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 cut -d'~' -f2 <nowiki>|</nowiki>\
 xargs -I{} git rev-list --count {}
 }}
 
-La différence entre les chiffres vous indiquera le nombre de révisions en retard du snap par rapport au développement (edge).
+**Remarque :** Le script bash 1 liner ci-dessus suppose que l\'utilisateur a installé \'edge\' (nightly).
+
+La différence entre les numéros de révision de HEAD et du snap edge indique le nombre de révisions en retard sur le développement du snap edge en amont.
+
+Pour aller plus loin, si vous voulez un bref résumé des commits entre le snap edge en cours et HEAD :
+
+
+{{Code|lang=bash|code=
+snap info freecad-ppd <nowiki>|</nowiki>\
+grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
+awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
+cut -d'~' -f2 <nowiki>|</nowiki>\
+xargs -I{} git log --oneline --ancestry-path {}..HEAD
+}}
+
+**Remarque :** La sortie indiquera les commits qui **ne sont pas** dans le \"edge\" en cours (mais qui le seront dans la prochaine mise à jour nightly).
 
 ## Liens
 

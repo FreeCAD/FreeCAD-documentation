@@ -121,11 +121,11 @@ This case presents the solution of the capacitance of perfectly conducting balls
 
 
     StatElecSolve: Capacitance matrix computation performed (i,j,C_ij)
-    StatElecSolve:   1  1    5.08013E+00
-    StatElecSolve:   1  2    1.70071E+00
-    StatElecSolve:   2  2    5.07960E+00
+    StatElecSolve:   1  1    5.07315E+21
+    StatElecSolve:   1  2    1.69428E+21
+    StatElecSolve:   2  2    5.07500E+21
 
--   Here, our desired result is C~12~ = 1.70071. This value is close to the `1.691` given in the [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). We can get an even closer value by making a finer [Mesh Region](FEM_MeshRegion.md) but this activity is left for the user. Also, the user is advised to play with the [Clip Filter](FEM_PostFilterClipRegion.md) to get a visual result similar to the first picture of this tutorial.
+-   Here, our desired result is C~12~ = 1.69428. This value is close to the `1.691` given in the [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). We can get an even closer value by making a finer [Mesh Region](FEM_MeshRegion.md) but this activity is left for the user. Also, the user is advised to play with the [Clip Filter](FEM_PostFilterClipRegion.md) to get a visual result similar to the first picture of this tutorial.
 
 
  {{FEM Tools navi}}

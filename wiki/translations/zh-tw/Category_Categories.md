@@ -12,8 +12,7 @@ This is the **top category** which contains the main categories of the FreeCAD w
 | --- | --- | --- |
 | [Category:Addons/zh-tw](wiki/Category_Addons/zh-tw.md) | [Category:Administration/zh-tw](wiki/Category_Administration/zh-tw.md) | [Category:Categories/zh-tw](wiki/Category_Categories/zh-tw.md) |
 | [Category:Command Reference/zh-tw](wiki/Category_Command Reference/zh-tw.md) | [Category:Developer/zh-tw](wiki/Category_Developer/zh-tw.md) | [Category:Documentation/zh-tw](wiki/Category_Documentation/zh-tw.md) |
-| [Category:Hubs/zh-tw](wiki/Category_Hubs/zh-tw.md) | [Category:Template/zh-tw](wiki/Category_Template/zh-tw.md) | [Category:Tutorials/zh-tw](wiki/Category_Tutorials/zh-tw.md) |
-|
+| [Category:Hubs/zh-tw](wiki/Category_Hubs/zh-tw.md) | [Category:Template/zh-tw](wiki/Category_Template/zh-tw.md) |
 
 
 

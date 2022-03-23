@@ -8,6 +8,9 @@
 
 # Sketcher CreatePoint/de
 
+
+</div>
+
 ## Beschreibung
 
 
@@ -43,10 +46,16 @@ Ein Modus zum Fangen an das Gitter kann unter [Skizzierer Einstellungen](Sketche
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

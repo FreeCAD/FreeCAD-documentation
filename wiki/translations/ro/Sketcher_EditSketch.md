@@ -48,7 +48,7 @@ Această comandă permite editarea unei schițe deja existente.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

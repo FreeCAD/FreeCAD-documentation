@@ -44,7 +44,7 @@ Der **Skizze verlassen** Befehl verlässt den Skizzenbearbeitungsmodus und gibt 
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

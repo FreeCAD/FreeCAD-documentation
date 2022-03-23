@@ -10,6 +10,9 @@
 
 # Sketcher ConstrainSymmetric/de
 
+
+</div>
+
 ## Beschreibung
 
 Die **symmetrische Beschränkung** zwingt zwei ausgewählte Punkte dazu, symmetrisch um eine gegebene Linie herum zu sein, d.h. beide ausgewählten Punkte müssen auf einer Normalen zu der durch beide Punkte verlaufenden Linie liegen und müssen gleich weit von der Linie entfernt sein. Alternativ können zwei Punkte so eingeschränkt werden, dass sie in Bezug auf einen dritten Punkt symmetrisch sind.
@@ -59,10 +62,16 @@ Eine Linie und ein Symmetriepunkt (In der GUI kann man eine Linie und einen Punk
 Die [Skizzierer Skripten](Sketcher_scripting.md) Seite erklärt die Werte, die für `Linie1`, `Linie2`, `LinieS`, `Linie`, `PunktVonLinie1`, `PunktVonLinie2` und `PunktVonLinieS` verwendet werden können, und enthält weitere Beispiele, wie man Beschränkungen aus Python Skripten erstellt.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

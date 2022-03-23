@@ -37,7 +37,7 @@ Il comando **Esci dallo schizzo** esce dalla modalità di modifica dello schizzo
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

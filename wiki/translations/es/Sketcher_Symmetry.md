@@ -34,7 +34,7 @@ Tenga en cuenta que no se añadirá ninguna restricción de simetría adicional.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -44,7 +44,7 @@ Când este definită schița obiectului geometric cercul circumscris este vizibi
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

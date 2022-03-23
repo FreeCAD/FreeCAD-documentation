@@ -19,18 +19,14 @@
 
 ## Usage
 
-1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) object is created automatically with creation of an **![](images/)_[Analysis_container](FEM_Analysis.md)**. Or use the following alternatives:
+1.  The <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> [CalculiXcxxTools](FEM_SolverCalculixCxxtools.md) solver object is created automatically with creation of an  To create it manually, use the following alternatives:
     -   Use **Solve → Solver CalculiX Standard**
     -   Press **S** then **X** shortcut keys
-
-
-
-
-1.  Optionally set data properties of the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
-2.  Double click on the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
-3.  Select type of the analysis
-4.  Click **Write .inp file**
-5.  Click **Run CalculiX**
+2.  Optionally set data properties of the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
+3.  Double click on the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
+4.  Select there the **Analysis type**
+5.  Click **Write .inp file**
+6.  Click **Run CalculiX**
 
 ## Options
 

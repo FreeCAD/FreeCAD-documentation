@@ -55,13 +55,7 @@ Die Startseite ermöglicht es dir, schnell zu einer der gebräuchlichsten Arbeit
 
 ## Navigieren im 3D Raum 
 
-
-<div class="mw-translate-fuzzy">
-
 FreeCAD bietet verschiedene [Navigationsmodi](Mouse_navigation/de.md), die sich durch die Art und Weise, mit Objekten in der 3D Ansicht und der 3D Ansicht selbst zu interagieren, unterscheiden. Einer dieser Modi ist speziell für [Touchpads](Mouse_navigation/de#Touchpad_Navigation.md) ausgelegt, bei dem die mittlere Maustaste nicht genutzt wird. Der Standard Navigationsmodus ist [CAD Navigation](Mouse_navigation/de#CAD_navigation.md). Mit der **[<img src=images/NavigationCAD_dark.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md) oder durch rechts klicken eines lehren Bereichst der [3D Ansicht](3D_view/de.md) kann schnell zwischen verschiedenen Moden gewechselt werden.
-
-
-</div>
 
 Es stehen mehrere Ansichtsvoreinstellungen (beispielsweise Draufsicht, Frontansicht, usw.) im Ansichtsmenü, auf der Ansichtssymbolleiste und über Tastenkürzel (**1**, **2**, usw.) zur Verfügung. Mit einem Rechtsklick auf ein Objekt oder den Leerbereich der Ansicht steht ein schneller Zugriff auf allgemeine Vorgänge zur Verfügung, beispielsweise um eine bestimmte Ansicht oder ein Objekt in der Baumansicht auszuwählen.
 

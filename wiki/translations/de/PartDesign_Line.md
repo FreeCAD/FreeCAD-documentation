@@ -2,16 +2,13 @@
 - GuiCommand:/de
    Name:PartDesign Line
    Name/de:PartDesign Bezugslinie erstellen
-   MenuLocation:Part Design → Bezugslinie erstellen
+   MenuLocation:PartDesign → Bezugselement erstellen → Bezugslinie erstellen
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
-   SeeAlso:[PartDesign Bezugspunkt](PartDesign_Point/de.md), [PartDesign Bezugsebene](PartDesign_Plane/de.md)
+   SeeAlso:[PartDesign Bezugspunkt erstellen](PartDesign_Point/de.md), [PartDesign Bezugsebene erstellen](PartDesign_Plane/de.md)
 ---
 
 # PartDesign Line/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -32,13 +29,7 @@ Erstellt eine **Bezugslinie** (DatumLine), die als Referenz für Skizzen, weiter
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
-Mittels Doppelklick auf den Eintrag DatumLine in der Baumstruktur oder einen Rechtsklick mit der Auswahl **Bezug ändern** können die Eigenschaften der Bezugslinie editiert werden. Mehr Details zum Befestigungsmodus und dem Befestigungsversatz gibt es in [Attachment](Part_EditAttachment/de.md).
-
-
-</div>
+Mittels Doppelklick auf den Eintrag DatumLine in der Baumstruktur oder einen Rechtsklick mit der Auswahl **Bezug ändern** können die Eigenschaften der Bezugslinie editiert werden. Mehr Details zum Befestigungsmodus und dem Befestigungsversatz gibt es in [AnhangBearbeiten](Part_EditAttachment/de.md).
 
 ## Eigenschaften
 

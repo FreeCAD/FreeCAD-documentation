@@ -64,6 +64,8 @@ C\'è un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
 
 -   [FAQ](Frequently_asked_questions.md)
 
+-   [Workarounds](Workarounds.md)
+
 -   [Tutorials](Tutorials.md)
 
 

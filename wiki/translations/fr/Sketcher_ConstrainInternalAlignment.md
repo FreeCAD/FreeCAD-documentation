@@ -4,7 +4,7 @@
    Name/fr:Sketcher Contrainte d'alignement interne
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte d'alignement interne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Ctrl** + **A**
+   Shortcut:
    Version:0.15
    SeeAlso:[Sketcher Basculer géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md), [Sketcher Ellipse](Sketcher_CreateEllipseByCenter/fr.md)
 ---
@@ -24,7 +24,6 @@ La contrainte s\'adresse aux utilisateurs expérimentés car son utilisation n\'
 1.  Sélectionnez les éléments à aligner et une ellipse. L\'ellipse doit être sélectionnée en dernier. Acceptés sont jusqu\'à deux lignes et jusqu\'à deux points.
 2.  L\'invocation de la contrainte peut se faire de plusieurs manières:
     -   En appuyant sur le bouton **[<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> [Contrainte d'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md)** dans la barre d\'outils.
-    -   Utilisation du raccourci clavier **Ctrl** + **A**.
     -   Utilisation de l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Contrainte d'alignement interne** dans le menu supérieur.
 
 La première ligne qui a été sélectionnée s\'aligne pour devenir le diamètre majeur de l\'ellipse (mais si ce n\'est pas déjà occupé par une autre ligne, sinon il deviendra le diamètre mineur). La deuxième ligne est aligné pour devenir le rayon mineur. Les lignes sont automatiquement passés en mode [construction](Sketcher_ToggleConstruction/fr.md).
@@ -58,7 +57,7 @@ La page [Sketcher : Ecrire un script](Sketcher_scripting/fr.md) explique les val
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

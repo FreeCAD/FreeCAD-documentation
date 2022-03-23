@@ -51,7 +51,7 @@ L\'aggancio alla griglia può essere impostato nelle [Preferenze di Sketcher](Sk
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

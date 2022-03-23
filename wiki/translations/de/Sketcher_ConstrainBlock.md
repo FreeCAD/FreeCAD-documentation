@@ -11,16 +11,31 @@ Beschränkung Schloss]]
 
 # Sketcher ConstrainBlock/de
 
+
+</div>
+
 ## Beschreibung
 
 **Beschränke Block** blockiert ein geometrisches Element an Ort und Stelle mit einer einzigen Beschränkung.
 
+
+<div class="mw-translate-fuzzy">
+
 Es ist hauptsächlich für die Verwendung mit **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-Splines](Sketcher_CreateBSpline/de.md)** vorgesehen, die sonst nur schwer vollständig beschränkt werden können.
+
+
+</div>
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle ein Element aus, das beschränkt werden soll.
 2.  Drücke die **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Beschränke Block](Sketcher_ConstrainBlock/de.md)** Taste.
+
+
+</div>
 
 Oder drücke zuerst die Taste , und wähle dann die Elemente aus.
 
@@ -35,7 +50,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, di
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

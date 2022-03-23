@@ -27,10 +27,16 @@ Hay varias formas de invocar el comando Editar croquis:
 -   Al elegir [Abandonar Croquizador](Sketcher_LeaveSketch/es.md) se terminará el modo de edición.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

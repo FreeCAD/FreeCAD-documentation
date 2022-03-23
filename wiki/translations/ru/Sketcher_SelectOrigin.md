@@ -10,6 +10,9 @@
 
 # Sketcher SelectOrigin/ru
 
+
+</div>
+
 ## Описание
 
 Selects the origin of a sketch.
@@ -21,10 +24,16 @@ Selects the origin of a sketch.
 3.  The origin of the sketch will be selected.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

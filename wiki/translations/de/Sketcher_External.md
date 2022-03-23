@@ -10,9 +10,18 @@
 
 # Sketcher External/de
 
+
+</div>
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Verwende das **<img src="images/Sketcher_External.svg" width=16px> [Externe Geometrie](Sketcher_External/de.md)** Werkzeug wenn Du eine Beschränkung zwischen der Skizzengeometrie und etwas außerhalb der Skizze anwenden möchtest. Es funktioniert, indem eine verknüpfte Konstruktionsgeometrie in die Skizze eingefügt wird. Die Standardfarbe der extern verbundenen Kanten ist Magenta. Wie bei der standardmäßigen unverknüpften Konstruktionsgeometrie (blau) ist die extern verknüpfte Geometrie nur sichtbar, wenn sich die Skizze im Bearbeitungsmodus befindet und nicht direkt im späteren Ergebnis aus der Verwendung der Skizze in einem anderen Werkzeug verwendet wird. Beide Arten von Konstruktionsgeometrien können als Referenz für Beschränkungen innerhalb der Skizze verwendet werden.
+
+
+</div>
 
 Ein Hinweis zur Vorsicht, die Verwendung dieses Werkzeugs zur Verknüpfung mit generierter (Volumen) Geometrie kann aufgrund des [Topologisches Benennungsproblem](Topological_naming_problem/de.md) zu unerwarteten Ergebnissen führen. Siehe auch [Ratschlag für stabile Modelle](https://wiki.freecadweb.org/Feature_editing/de#Ratschläge_zur_Erstellung_stabiler_Modelle.md).
 
@@ -20,10 +29,16 @@ Ein Hinweis zur Vorsicht, die Verwendung dieses Werkzeugs zur Verknüpfung mit g
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 -   Erstelle eine neue Skizze oder öffne eine bestehende Skizze.
 -   Klicke auf die Schaltfläche **[<img src=images/Sketcher_External.svg style="width:16px"> [Skizzierer Extern](Sketcher_External/de.md)**.
 -   Wähle eine Kante oder einen Scheitelpunkt aus, auf den in der Skizze verwiesen werden soll.
 -   Drücke die **Esc**-Taste oder wähle ein anderes Werkzeug, um den Import von Geometrien in die Skizze zu beenden.
+
+
+</div>
 
 ### Auswahlregeln
 
@@ -74,10 +89,16 @@ Wenn der Skizzenbearbeitungsmodus geschlossen ist, sind externe Geometrielinien 
 <FILE:Sketcher_ExternalEsempio3.png>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

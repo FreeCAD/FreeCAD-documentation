@@ -3,6 +3,7 @@
    Name:Sketcher CreateSlot
    MenuLocation:Sketch → Sketcher geometries → Create slot
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **S**
 ---
 
 # Sketcher CreateSlot/pl
@@ -29,7 +30,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red sl
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

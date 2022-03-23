@@ -3,7 +3,7 @@
    Name:Sketcher ConstrainSymmetric
    MenuLocation:Sketch → Sketcher constraints → Constrain symmetrical
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:S
+   Shortcut:**S**
    SeeAlso:[Sketcher Constraint Parallel](Sketcher_ConstrainParallel.md)
 ---
 
@@ -60,7 +60,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

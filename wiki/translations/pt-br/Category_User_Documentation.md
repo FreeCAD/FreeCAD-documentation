@@ -82,48 +82,47 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [FreeCAD Build Tool/pt-br](wiki/FreeCAD Build Tool/pt-br.md) | [FreeCAD used in production/pt-br](wiki/FreeCAD used in production/pt-br.md) | [Frequently asked questions/pt-br](wiki/Frequently asked questions/pt-br.md) |
 | [Getting started/pt-br](wiki/Getting started/pt-br.md) | [Glossary/pt-br](wiki/Glossary/pt-br.md) | [GuiCommand model/pt-br](wiki/GuiCommand model/pt-br.md) |
 | [Template:GuiCommand/pt-br](wiki/Template_GuiCommand/pt-br.md) | [Help FreeCAD/pt-br](wiki/Help FreeCAD/pt-br.md) | [How to install additional workbenches/pt-br](wiki/How to install additional workbenches/pt-br.md) |
-| [How to install macros/pt-br](wiki/How to install macros/pt-br.md) | [Image CreateImagePlane/pt-br](wiki/Image CreateImagePlane/pt-br.md) | [Image Open/pt-br](wiki/Image Open/pt-br.md) |
-| [Image Scaling/pt-br](wiki/Image Scaling/pt-br.md) | [Image Workbench/pt-br](wiki/Image Workbench/pt-br.md) | [Import Export Preferences/pt-br](wiki/Import Export Preferences/pt-br.md) |
-| [Import Export/pt-br](wiki/Import Export/pt-br.md) | [Import from STL or OBJ/pt-br](wiki/Import from STL or OBJ/pt-br.md) | [Inspection Workbench/pt-br](wiki/Inspection Workbench/pt-br.md) |
-| [Installing additional components/pt-br](wiki/Installing additional components/pt-br.md) | [Installing Helpfile/pt-br](wiki/Installing Helpfile/pt-br.md) | [Installing on Linux/pt-br](wiki/Installing on Linux/pt-br.md) |
-| [Installing on Mac/pt-br](wiki/Installing on Mac/pt-br.md) | [Installing on Windows/pt-br](wiki/Installing on Windows/pt-br.md) | [Interface Customization/pt-br](wiki/Interface Customization/pt-br.md) |
-| [Interface/pt-br](wiki/Interface/pt-br.md) | [Licence/pt-br](wiki/Licence/pt-br.md) | [Localisation/pt-br](wiki/Localisation/pt-br.md) |
-| [Macro Screen Wiki/pt-br](wiki/Macro Screen Wiki/pt-br.md) | [Macro Snip/pt-br](wiki/Macro Snip/pt-br.md) | [Main Page/pt-br](wiki/Main Page/pt-br.md) |
-| [Main view area/pt-br](wiki/Main view area/pt-br.md) | [Material editor/pt-br](wiki/Material editor/pt-br.md) | [Mesh FromPartShape/pt-br](wiki/Mesh FromPartShape/pt-br.md) |
-| [Mesh Workbench/pt-br](wiki/Mesh Workbench/pt-br.md) | [Migrating to FreeCAD from Fusion360/pt-br](wiki/Migrating to FreeCAD from Fusion360/pt-br.md) | [Mouse navigation/pt-br](wiki/Mouse navigation/pt-br.md) |
-| [Navigation Cube/pt-br](wiki/Navigation Cube/pt-br.md) | [Object name/pt-br](wiki/Object name/pt-br.md) | [Online Help Startpage/pt-br](wiki/Online Help Startpage/pt-br.md) |
-| [Online Help Toc/pt-br](wiki/Online Help Toc/pt-br.md) | [OpenCamLib/pt-br](wiki/OpenCamLib/pt-br.md) | [OpenSCAD Workbench/pt-br](wiki/OpenSCAD Workbench/pt-br.md) |
-| [Part and PartDesign/pt-br](wiki/Part and PartDesign/pt-br.md) | [Part Boolean/pt-br](wiki/Part Boolean/pt-br.md) | [Part BooleanFragments/pt-br](wiki/Part BooleanFragments/pt-br.md) |
-| [Part Box/pt-br](wiki/Part Box/pt-br.md) | [Part BoxSelection/pt-br](wiki/Part BoxSelection/pt-br.md) | [Part Builder/pt-br](wiki/Part Builder/pt-br.md) |
-| [Part Chamfer/pt-br](wiki/Part Chamfer/pt-br.md) | [Part CheckGeometry/pt-br](wiki/Part CheckGeometry/pt-br.md) | [Part Circle/pt-br](wiki/Part Circle/pt-br.md) |
-| [Part Common/pt-br](wiki/Part Common/pt-br.md) | [Part CompCompoundTools/pt-br](wiki/Part CompCompoundTools/pt-br.md) | [Part CompJoinFeatures/pt-br](wiki/Part CompJoinFeatures/pt-br.md) |
-| [Part CompOffsetTools/pt-br](wiki/Part CompOffsetTools/pt-br.md) | [Part Compound/pt-br](wiki/Part Compound/pt-br.md) | [Part CompoundFilter/pt-br](wiki/Part CompoundFilter/pt-br.md) |
-| [Part CompSplittingTools/pt-br](wiki/Part CompSplittingTools/pt-br.md) | [Part Cone/pt-br](wiki/Part Cone/pt-br.md) | [Part CrossSections/pt-br](wiki/Part CrossSections/pt-br.md) |
-| [Part Cut/pt-br](wiki/Part Cut/pt-br.md) | [Part Cylinder/pt-br](wiki/Part Cylinder/pt-br.md) | [Part Defeaturing/pt-br](wiki/Part Defeaturing/pt-br.md) |
-| [Part EditAttachment/pt-br](wiki/Part EditAttachment/pt-br.md) | [Part ElementCopy/pt-br](wiki/Part ElementCopy/pt-br.md) | [Part Ellipse/pt-br](wiki/Part Ellipse/pt-br.md) |
-| [Part Ellipsoid/pt-br](wiki/Part Ellipsoid/pt-br.md) | [Part ExplodeCompound/pt-br](wiki/Part ExplodeCompound/pt-br.md) | [Part Export/pt-br](wiki/Part Export/pt-br.md) |
-| [Part Extrude/pt-br](wiki/Part Extrude/pt-br.md) | [Part FaceColors/pt-br](wiki/Part FaceColors/pt-br.md) | [Part Feature/pt-br](wiki/Part Feature/pt-br.md) |
-| [Part Fillet/pt-br](wiki/Part Fillet/pt-br.md) | [Part Fuse/pt-br](wiki/Part Fuse/pt-br.md) | [Part Helix/pt-br](wiki/Part Helix/pt-br.md) |
-| [Part Import/pt-br](wiki/Part Import/pt-br.md) | [Part JoinConnect/pt-br](wiki/Part JoinConnect/pt-br.md) | [Part JoinCutout/pt-br](wiki/Part JoinCutout/pt-br.md) |
-| [Part JoinEmbed/pt-br](wiki/Part JoinEmbed/pt-br.md) | [Part Line/pt-br](wiki/Part Line/pt-br.md) | [Part Loft/pt-br](wiki/Part Loft/pt-br.md) |
-| [Part MakeFace/pt-br](wiki/Part MakeFace/pt-br.md) | [Part MakeSolid/pt-br](wiki/Part MakeSolid/pt-br.md) | [Part Measure Angular/pt-br](wiki/Part Measure Angular/pt-br.md) |
-| [Part Measure Clear All/pt-br](wiki/Part Measure Clear All/pt-br.md) | [Part Measure Linear/pt-br](wiki/Part Measure Linear/pt-br.md) | [Part Measure Menu/pt-br](wiki/Part Measure Menu/pt-br.md) |
-| [Part Measure Refresh/pt-br](wiki/Part Measure Refresh/pt-br.md) | [Part Measure Toggle 3d/pt-br](wiki/Part Measure Toggle 3d/pt-br.md) | [Part Measure Toggle All/pt-br](wiki/Part Measure Toggle All/pt-br.md) |
-| [Part Measure Toggle Delta/pt-br](wiki/Part Measure Toggle Delta/pt-br.md) | [Part Mirror/pt-br](wiki/Part Mirror/pt-br.md) | [Part Module/pt-br](wiki/Part Module/pt-br.md) |
-| [Part Offset/pt-br](wiki/Part Offset/pt-br.md) | [Part Offset2D/pt-br](wiki/Part Offset2D/pt-br.md) | [Part Part2DObject/pt-br](wiki/Part Part2DObject/pt-br.md) |
-| [Part Plane/pt-br](wiki/Part Plane/pt-br.md) | [Part Point/pt-br](wiki/Part Point/pt-br.md) | [Part PointsFromMesh/pt-br](wiki/Part PointsFromMesh/pt-br.md) |
-| [Part Primitives/pt-br](wiki/Part Primitives/pt-br.md) | [Part Prism/pt-br](wiki/Part Prism/pt-br.md) | [Part ProjectionOnSurface/pt-br](wiki/Part ProjectionOnSurface/pt-br.md) |
-| [Part RefineShape/pt-br](wiki/Part RefineShape/pt-br.md) | [Part RegularPolygon/pt-br](wiki/Part RegularPolygon/pt-br.md) | [Part ReverseShapes/pt-br](wiki/Part ReverseShapes/pt-br.md) |
-| [Part Revolve/pt-br](wiki/Part Revolve/pt-br.md) | [Part RuledSurface/pt-br](wiki/Part RuledSurface/pt-br.md) | [Part Section/pt-br](wiki/Part Section/pt-br.md) |
-| [Part ShapeFromMesh/pt-br](wiki/Part ShapeFromMesh/pt-br.md) | [Part SimpleCopy/pt-br](wiki/Part SimpleCopy/pt-br.md) | [Part Slice/pt-br](wiki/Part Slice/pt-br.md) |
-| [Part SliceApart/pt-br](wiki/Part SliceApart/pt-br.md) | [Part Sphere/pt-br](wiki/Part Sphere/pt-br.md) | [Part Spiral/pt-br](wiki/Part Spiral/pt-br.md) |
-| [Part Sweep/pt-br](wiki/Part Sweep/pt-br.md) | [Part Thickness/pt-br](wiki/Part Thickness/pt-br.md) | [Part Torus/pt-br](wiki/Part Torus/pt-br.md) |
-| [Part TransformedCopy/pt-br](wiki/Part TransformedCopy/pt-br.md) | [Part Tube/pt-br](wiki/Part Tube/pt-br.md) | [Part Wedge/pt-br](wiki/Part Wedge/pt-br.md) |
-| [Part XOR/pt-br](wiki/Part XOR/pt-br.md) | [PartDesign AdditiveBox/pt-br](wiki/PartDesign AdditiveBox/pt-br.md) | [PartDesign AdditiveCone/pt-br](wiki/PartDesign AdditiveCone/pt-br.md) |
-| [PartDesign AdditiveCylinder/pt-br](wiki/PartDesign AdditiveCylinder/pt-br.md) | [PartDesign AdditiveEllipsoid/pt-br](wiki/PartDesign AdditiveEllipsoid/pt-br.md) | [PartDesign AdditiveHelix/pt-br](wiki/PartDesign AdditiveHelix/pt-br.md) |
-| [PartDesign AdditiveLoft/pt-br](wiki/PartDesign AdditiveLoft/pt-br.md) | [PartDesign AdditivePipe/pt-br](wiki/PartDesign AdditivePipe/pt-br.md) | [PartDesign AdditivePrism/pt-br](wiki/PartDesign AdditivePrism/pt-br.md) |
-| [PartDesign AdditiveSphere/pt-br](wiki/PartDesign AdditiveSphere/pt-br.md) | [PartDesign AdditiveTorus/pt-br](wiki/PartDesign AdditiveTorus/pt-br.md) | [PartDesign AdditiveWedge/pt-br](wiki/PartDesign AdditiveWedge/pt-br.md) |
-| [PartDesign Bearingholder Tutorial I/pt-br](wiki/PartDesign Bearingholder Tutorial I/pt-br.md) | [PartDesign Bearingholder Tutorial II/pt-br](wiki/PartDesign Bearingholder Tutorial II/pt-br.md) | [PartDesign Body/pt-br](wiki/PartDesign Body/pt-br.md) |
+| [Image CreateImagePlane/pt-br](wiki/Image CreateImagePlane/pt-br.md) | [Image Open/pt-br](wiki/Image Open/pt-br.md) | [Image Scaling/pt-br](wiki/Image Scaling/pt-br.md) |
+| [Image Workbench/pt-br](wiki/Image Workbench/pt-br.md) | [Import Export Preferences/pt-br](wiki/Import Export Preferences/pt-br.md) | [Import Export/pt-br](wiki/Import Export/pt-br.md) |
+| [Import from STL or OBJ/pt-br](wiki/Import from STL or OBJ/pt-br.md) | [Inspection Workbench/pt-br](wiki/Inspection Workbench/pt-br.md) | [Installing additional components/pt-br](wiki/Installing additional components/pt-br.md) |
+| [Installing Helpfile/pt-br](wiki/Installing Helpfile/pt-br.md) | [Installing on Linux/pt-br](wiki/Installing on Linux/pt-br.md) | [Installing on Mac/pt-br](wiki/Installing on Mac/pt-br.md) |
+| [Installing on Windows/pt-br](wiki/Installing on Windows/pt-br.md) | [Interface Customization/pt-br](wiki/Interface Customization/pt-br.md) | [Interface/pt-br](wiki/Interface/pt-br.md) |
+| [Licence/pt-br](wiki/Licence/pt-br.md) | [Localisation/pt-br](wiki/Localisation/pt-br.md) | [Macro Screen Wiki/pt-br](wiki/Macro Screen Wiki/pt-br.md) |
+| [Macro Snip/pt-br](wiki/Macro Snip/pt-br.md) | [Main Page/pt-br](wiki/Main Page/pt-br.md) | [Main view area/pt-br](wiki/Main view area/pt-br.md) |
+| [Material editor/pt-br](wiki/Material editor/pt-br.md) | [Mesh FromPartShape/pt-br](wiki/Mesh FromPartShape/pt-br.md) | [Mesh Workbench/pt-br](wiki/Mesh Workbench/pt-br.md) |
+| [Migrating to FreeCAD from Fusion360/pt-br](wiki/Migrating to FreeCAD from Fusion360/pt-br.md) | [Mouse navigation/pt-br](wiki/Mouse navigation/pt-br.md) | [Navigation Cube/pt-br](wiki/Navigation Cube/pt-br.md) |
+| [Object name/pt-br](wiki/Object name/pt-br.md) | [Online Help Startpage/pt-br](wiki/Online Help Startpage/pt-br.md) | [Online Help Toc/pt-br](wiki/Online Help Toc/pt-br.md) |
+| [OpenCamLib/pt-br](wiki/OpenCamLib/pt-br.md) | [OpenSCAD Workbench/pt-br](wiki/OpenSCAD Workbench/pt-br.md) | [Part and PartDesign/pt-br](wiki/Part and PartDesign/pt-br.md) |
+| [Part Boolean/pt-br](wiki/Part Boolean/pt-br.md) | [Part BooleanFragments/pt-br](wiki/Part BooleanFragments/pt-br.md) | [Part Box/pt-br](wiki/Part Box/pt-br.md) |
+| [Part BoxSelection/pt-br](wiki/Part BoxSelection/pt-br.md) | [Part Builder/pt-br](wiki/Part Builder/pt-br.md) | [Part Chamfer/pt-br](wiki/Part Chamfer/pt-br.md) |
+| [Part CheckGeometry/pt-br](wiki/Part CheckGeometry/pt-br.md) | [Part Circle/pt-br](wiki/Part Circle/pt-br.md) | [Part Common/pt-br](wiki/Part Common/pt-br.md) |
+| [Part CompCompoundTools/pt-br](wiki/Part CompCompoundTools/pt-br.md) | [Part CompJoinFeatures/pt-br](wiki/Part CompJoinFeatures/pt-br.md) | [Part CompOffsetTools/pt-br](wiki/Part CompOffsetTools/pt-br.md) |
+| [Part Compound/pt-br](wiki/Part Compound/pt-br.md) | [Part CompoundFilter/pt-br](wiki/Part CompoundFilter/pt-br.md) | [Part CompSplittingTools/pt-br](wiki/Part CompSplittingTools/pt-br.md) |
+| [Part Cone/pt-br](wiki/Part Cone/pt-br.md) | [Part CrossSections/pt-br](wiki/Part CrossSections/pt-br.md) | [Part Cut/pt-br](wiki/Part Cut/pt-br.md) |
+| [Part Cylinder/pt-br](wiki/Part Cylinder/pt-br.md) | [Part Defeaturing/pt-br](wiki/Part Defeaturing/pt-br.md) | [Part EditAttachment/pt-br](wiki/Part EditAttachment/pt-br.md) |
+| [Part ElementCopy/pt-br](wiki/Part ElementCopy/pt-br.md) | [Part Ellipse/pt-br](wiki/Part Ellipse/pt-br.md) | [Part Ellipsoid/pt-br](wiki/Part Ellipsoid/pt-br.md) |
+| [Part ExplodeCompound/pt-br](wiki/Part ExplodeCompound/pt-br.md) | [Part Export/pt-br](wiki/Part Export/pt-br.md) | [Part Extrude/pt-br](wiki/Part Extrude/pt-br.md) |
+| [Part FaceColors/pt-br](wiki/Part FaceColors/pt-br.md) | [Part Feature/pt-br](wiki/Part Feature/pt-br.md) | [Part Fillet/pt-br](wiki/Part Fillet/pt-br.md) |
+| [Part Fuse/pt-br](wiki/Part Fuse/pt-br.md) | [Part Helix/pt-br](wiki/Part Helix/pt-br.md) | [Part Import/pt-br](wiki/Part Import/pt-br.md) |
+| [Part JoinConnect/pt-br](wiki/Part JoinConnect/pt-br.md) | [Part JoinCutout/pt-br](wiki/Part JoinCutout/pt-br.md) | [Part JoinEmbed/pt-br](wiki/Part JoinEmbed/pt-br.md) |
+| [Part Line/pt-br](wiki/Part Line/pt-br.md) | [Part Loft/pt-br](wiki/Part Loft/pt-br.md) | [Part MakeFace/pt-br](wiki/Part MakeFace/pt-br.md) |
+| [Part MakeSolid/pt-br](wiki/Part MakeSolid/pt-br.md) | [Part Measure Angular/pt-br](wiki/Part Measure Angular/pt-br.md) | [Part Measure Clear All/pt-br](wiki/Part Measure Clear All/pt-br.md) |
+| [Part Measure Linear/pt-br](wiki/Part Measure Linear/pt-br.md) | [Part Measure Menu/pt-br](wiki/Part Measure Menu/pt-br.md) | [Part Measure Refresh/pt-br](wiki/Part Measure Refresh/pt-br.md) |
+| [Part Measure Toggle 3d/pt-br](wiki/Part Measure Toggle 3d/pt-br.md) | [Part Measure Toggle All/pt-br](wiki/Part Measure Toggle All/pt-br.md) | [Part Measure Toggle Delta/pt-br](wiki/Part Measure Toggle Delta/pt-br.md) |
+| [Part Mirror/pt-br](wiki/Part Mirror/pt-br.md) | [Part Module/pt-br](wiki/Part Module/pt-br.md) | [Part Offset/pt-br](wiki/Part Offset/pt-br.md) |
+| [Part Offset2D/pt-br](wiki/Part Offset2D/pt-br.md) | [Part Part2DObject/pt-br](wiki/Part Part2DObject/pt-br.md) | [Part Plane/pt-br](wiki/Part Plane/pt-br.md) |
+| [Part Point/pt-br](wiki/Part Point/pt-br.md) | [Part PointsFromMesh/pt-br](wiki/Part PointsFromMesh/pt-br.md) | [Part Primitives/pt-br](wiki/Part Primitives/pt-br.md) |
+| [Part Prism/pt-br](wiki/Part Prism/pt-br.md) | [Part ProjectionOnSurface/pt-br](wiki/Part ProjectionOnSurface/pt-br.md) | [Part RefineShape/pt-br](wiki/Part RefineShape/pt-br.md) |
+| [Part RegularPolygon/pt-br](wiki/Part RegularPolygon/pt-br.md) | [Part ReverseShapes/pt-br](wiki/Part ReverseShapes/pt-br.md) | [Part Revolve/pt-br](wiki/Part Revolve/pt-br.md) |
+| [Part RuledSurface/pt-br](wiki/Part RuledSurface/pt-br.md) | [Part Section/pt-br](wiki/Part Section/pt-br.md) | [Part ShapeFromMesh/pt-br](wiki/Part ShapeFromMesh/pt-br.md) |
+| [Part SimpleCopy/pt-br](wiki/Part SimpleCopy/pt-br.md) | [Part Slice/pt-br](wiki/Part Slice/pt-br.md) | [Part SliceApart/pt-br](wiki/Part SliceApart/pt-br.md) |
+| [Part Sphere/pt-br](wiki/Part Sphere/pt-br.md) | [Part Spiral/pt-br](wiki/Part Spiral/pt-br.md) | [Part Sweep/pt-br](wiki/Part Sweep/pt-br.md) |
+| [Part Thickness/pt-br](wiki/Part Thickness/pt-br.md) | [Part Torus/pt-br](wiki/Part Torus/pt-br.md) | [Part TransformedCopy/pt-br](wiki/Part TransformedCopy/pt-br.md) |
+| [Part Tube/pt-br](wiki/Part Tube/pt-br.md) | [Part Wedge/pt-br](wiki/Part Wedge/pt-br.md) | [Part XOR/pt-br](wiki/Part XOR/pt-br.md) |
+| [PartDesign AdditiveBox/pt-br](wiki/PartDesign AdditiveBox/pt-br.md) | [PartDesign AdditiveCone/pt-br](wiki/PartDesign AdditiveCone/pt-br.md) | [PartDesign AdditiveCylinder/pt-br](wiki/PartDesign AdditiveCylinder/pt-br.md) |
+| [PartDesign AdditiveEllipsoid/pt-br](wiki/PartDesign AdditiveEllipsoid/pt-br.md) | [PartDesign AdditiveHelix/pt-br](wiki/PartDesign AdditiveHelix/pt-br.md) | [PartDesign AdditiveLoft/pt-br](wiki/PartDesign AdditiveLoft/pt-br.md) |
+| [PartDesign AdditivePipe/pt-br](wiki/PartDesign AdditivePipe/pt-br.md) | [PartDesign AdditivePrism/pt-br](wiki/PartDesign AdditivePrism/pt-br.md) | [PartDesign AdditiveSphere/pt-br](wiki/PartDesign AdditiveSphere/pt-br.md) |
+| [PartDesign AdditiveTorus/pt-br](wiki/PartDesign AdditiveTorus/pt-br.md) | [PartDesign AdditiveWedge/pt-br](wiki/PartDesign AdditiveWedge/pt-br.md) | [PartDesign Body/pt-br](wiki/PartDesign Body/pt-br.md) |
 | [PartDesign Boolean/pt-br](wiki/PartDesign Boolean/pt-br.md) | [PartDesign Chamfer/pt-br](wiki/PartDesign Chamfer/pt-br.md) | [PartDesign Clone/pt-br](wiki/PartDesign Clone/pt-br.md) |
 | [PartDesign CompPrimitiveAdditive/pt-br](wiki/PartDesign CompPrimitiveAdditive/pt-br.md) | [PartDesign CompPrimitiveSubtractive/pt-br](wiki/PartDesign CompPrimitiveSubtractive/pt-br.md) | [PartDesign CoordinateSystem/pt-br](wiki/PartDesign CoordinateSystem/pt-br.md) |
 | [PartDesign Draft/pt-br](wiki/PartDesign Draft/pt-br.md) | [PartDesign Fillet/pt-br](wiki/PartDesign Fillet/pt-br.md) | [PartDesign Groove/pt-br](wiki/PartDesign Groove/pt-br.md) |
@@ -171,7 +170,8 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Sketcher BSplineKnotMultiplicity/pt-br](wiki/Sketcher BSplineKnotMultiplicity/pt-br.md) | [Sketcher BSplinePoleWeight/pt-br](wiki/Sketcher BSplinePoleWeight/pt-br.md) | [Sketcher BSplinePolygon/pt-br](wiki/Sketcher BSplinePolygon/pt-br.md) |
 | [Sketcher CarbonCopy/pt-br](wiki/Sketcher CarbonCopy/pt-br.md) | [Sketcher Clone/pt-br](wiki/Sketcher Clone/pt-br.md) | [Sketcher CloseShape/pt-br](wiki/Sketcher CloseShape/pt-br.md) |
 | [Sketcher CompCreateArc/pt-br](wiki/Sketcher CompCreateArc/pt-br.md) | [Sketcher CompCreateBSpline/pt-br](wiki/Sketcher CompCreateBSpline/pt-br.md) | [Sketcher CompCreateCircle/pt-br](wiki/Sketcher CompCreateCircle/pt-br.md) |
-| [Sketcher CompCreateConic/pt-br](wiki/Sketcher CompCreateConic/pt-br.md) | [Sketcher CompCreateRectangles/pt-br](wiki/Sketcher CompCreateRectangles/pt-br.md) |
+| [Sketcher CompCreateConic/pt-br](wiki/Sketcher CompCreateConic/pt-br.md) | [Sketcher CompCreateRectangles/pt-br](wiki/Sketcher CompCreateRectangles/pt-br.md) | [Sketcher CompCreateRegularPolygon/pt-br](wiki/Sketcher CompCreateRegularPolygon/pt-br.md) |
+| [Sketcher ConnectLines/pt-br](wiki/Sketcher ConnectLines/pt-br.md) | [Sketcher ConstrainAngle/pt-br](wiki/Sketcher ConstrainAngle/pt-br.md) |
 
 
 

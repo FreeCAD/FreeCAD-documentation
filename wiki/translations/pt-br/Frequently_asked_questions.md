@@ -189,7 +189,17 @@ Há muita documentação espalhada em diferentes lugares, tanto dentro como fora
 
 ### Eu quero importar/exportar dados no formato XYZ para/de FreeCAD. Como posso fazer isso? 
 
+
+<div class="mw-translate-fuzzy">
+
 Favor consultar a página [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md). Talvez suas perguntas já tenham sido respondidas lá.
+
+
+</div>
+
+### Where can I find workarounds for features that FreeCAD currently does not support? 
+
+Please refer to the [Workarounds](Workarounds.md) page.
 
 ## Modelando peças a partir de geometrias simples 
 

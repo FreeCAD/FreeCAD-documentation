@@ -1,7 +1,7 @@
 # Category:Tutorials/bg
-This is a complete list of pages under [:Category:Tutorials/bg](:Category:Tutorials/bg.md).
+This is a complete list of pages under [:Category:Tutorials](:Category_Tutorials.md).
 
-See also [Tutorials](Tutorials/bg.md) and [video tutorials](video_tutorials/bg.md)
+See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 ### Contents
 
@@ -12,4 +12,4 @@ See also [Tutorials](Tutorials/bg.md) and [video tutorials](video_tutorials/bg.m
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Category:Tutorials/bg
+![](images/Right_arrow.png) [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [User_Documentation](Category_User_Documentation.md) > Category:Tutorials/bg

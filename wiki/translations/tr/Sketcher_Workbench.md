@@ -318,7 +318,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create rectangles](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create a rectangle](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -328,11 +328,17 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
-:\* <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Centered Rectangle](Sketcher_CreateRectangle_Center.md): Draws a rectangle from a central point and an edge point. <small>(v0.20)</small> 
+:\* <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Centered rectangle](Sketcher_CreateRectangle_Center.md): Draws a rectangle from a central point and an edge point. <small>(v0.20)</small> 
 
-:\* <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded Rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
+:\* <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Eşkenar çokgen](Sketcher_CompCreateRegularPolygon/tr.md): Bu, aşağıdaki komutları içeren Eskiz araç çubuğundaki bir simge menüsüdür:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -382,7 +388,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
-:\* <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Create Regular Polygon](Sketcher_CreateRegularPolygon.md) : Draws a regular polygon by selecting the number of sides and picking two points: the center and one corner.
+:\* <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Regular polygon](Sketcher_CreateRegularPolygon.md) : Draws a regular polygon by selecting the number of sides and picking two points: the center and one corner.
 
 
 <div class="mw-translate-fuzzy">
@@ -619,7 +625,7 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
--   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/Deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
+-   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
 
 ### Eskiz araçları 
 
@@ -753,7 +759,7 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 </div>
 
--   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove axes alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -904,11 +910,11 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/tr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/tr

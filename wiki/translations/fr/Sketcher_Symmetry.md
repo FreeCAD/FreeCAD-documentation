@@ -10,6 +10,9 @@
 
 # Sketcher Symmetry/fr
 
+
+</div>
+
 ## Description
 
 Symétrise la géométrie de l\'esquisse par rapport à une ligne ou à un axe d\'esquisse choisi.
@@ -23,10 +26,16 @@ Symétrise la géométrie de l\'esquisse par rapport à une ligne ou à un axe d
 Remarquez qu\'aucune contrainte de symétrie supplémentaire ne sera ajoutée.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

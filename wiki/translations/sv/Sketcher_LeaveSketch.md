@@ -22,7 +22,7 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

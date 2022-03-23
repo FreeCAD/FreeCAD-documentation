@@ -4,6 +4,7 @@
    Name/pl:Szkicownik: Utwórz punkt
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz punkt
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut:**G** **Y**
 ---
 
 # Sketcher CreatePoint/pl
@@ -30,7 +31,7 @@ Tryb przyciągania do siatki może być ustawiony w [Preferencje szkicownika](Sk
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

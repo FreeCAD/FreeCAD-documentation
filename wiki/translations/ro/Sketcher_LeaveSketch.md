@@ -34,7 +34,7 @@ Modificările sunt salvate
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

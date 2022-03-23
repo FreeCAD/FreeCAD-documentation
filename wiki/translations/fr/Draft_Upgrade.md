@@ -1,28 +1,28 @@
 ---
 - GuiCommand:/fr
    Name:Draft Upgrade
-   Name/fr:Draft Mettre à niveau
-   MenuLocation:Modification → Mettre à niveau
+   Name/fr:Draft Agréger
+   MenuLocation:Modification → Agréger
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**U** **P**
-   SeeAlso:[Draft Rétrograder](Draft_Downgrade/fr.md)
+   SeeAlso:[Draft Désagréger](Draft_Downgrade/fr.md)
 ---
 
 # Draft Upgrade/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Draft Mettre à niveau** met à niveau les objets sélectionnés. Le résultat dépend du nombre d\'objets sélectionnés et de leur type. La commande peut par exemple fusionner des éléments et créer des faces. Il vaut la peine d\'essayer d\'améliorer une sélection plusieurs fois pour voir si un meilleur résultat peut être obtenu. Voir l\'exemple dans l\'image. Notez que tous les objets ne peuvent pas être mis à jour. Cette commande est le pendant de la commande [Draft Rétrograder](Draft_Downgrade/fr.md).
+La commande <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Draft Agréger** assemble les objets sélectionnés. Le résultat dépend du nombre d\'objets sélectionnés et de leur type. La commande peut par exemple fusionner des éléments et créer des faces. Il vaut la peine d\'essayer d\'améliorer une sélection plusieurs fois pour voir si un meilleur résultat peut être obtenu. Voir l\'exemple dans l\'image. Notez que tous les objets ne peuvent pas être mis à jour. Cette commande est le pendant de la commande [Draft Désagréger](Draft_Downgrade/fr.md).
 
 <img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
-*Une polyligne ouverte non modifiable est transformée en polyligne fermée, puis en une face. Une polyligne carrée fermée non modifiable est également mise à niveau vers une face. Les deux faces sont ensuite mises à niveau pour créer un composé, qui est finalement mis à niveau vers une polyligne Draft modifiable.*
+*Une polyligne ouverte non modifiable est transformée en polyligne fermée, puis en une face. Une polyligne carrée fermée non modifiable est également promue vers une face. Les deux faces sont ensuite promues pour créer un composé, qui est finalement promu vers une polyligne Draft modifiable.*
 
 ## Utilisation
 
 1.  En option, sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Upgrade.svg" width=16px> [Met à niveau les objets sélectionnés...](Draft_Upgrade/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Upgrade.svg" width=16px> Mettre à niveau** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Draft_Upgrade.svg" width=16px> [Agréger](Draft_Upgrade/fr.md)**.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Upgrade.svg" width=16px> Agréger** dans le menu.
     -   Utilisez le raccourci clavier : **U** puis **P**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 

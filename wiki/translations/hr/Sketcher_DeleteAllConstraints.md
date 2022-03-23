@@ -21,14 +21,14 @@ This tool deletes all constraints from the sketch being edited, and leaves the g
 
 </div>
 
-1.  Go to the **Sketch → Sketcher tools → [<img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Delete All Constraints** menu.
+1.  Go to the **Sketch → Sketcher tools → [<img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Delete all constraints** menu.
 2.  Reply **Yes** to the dialog pop up.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

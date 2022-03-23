@@ -4,6 +4,7 @@
    Name/fr:Sketcher Copie carbone
    MenuLocation:Sketch → Géométries d'esquisse → Copie carbone
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **W**
    Version:0.17
 ---
 
@@ -38,7 +39,7 @@ Les contraintes dimensionnelles qui existaient avant la fonction de copie resten
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

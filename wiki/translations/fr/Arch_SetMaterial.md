@@ -12,7 +12,7 @@
 
 ## Description
 
-Cet outil permet d\'ajouter des [matériaux](Material.md) au document actif et d\'attribuer un matériau à un objet [Arch](Arch_Workbench/fr.md). Un matériau contient toutes les propriétés d\'un certain matériau et contrôle la couleur de l\'objet auquel il est attaché. Les matériaux sont stockés dans un dossier **Matériaux** dans le document actif.
+Cet outil permet d\'ajouter des [matériaux](Material.md) au document actif et d\'attribuer un matériau à un objet [Arch](Arch_Workbench/fr.md). Un matériau contient toutes les propriétés d\'un certain matériau et contrôle la couleur de l\'objet auquel il est attaché. Les matériaux sont stockés dans un dossier **Materials** dans le document actif.
 
 ![](images/Arch_materials_01.jpg )
 

@@ -1,8 +1,9 @@
 ---
 - GuiCommand:
    Name:Sketcher RemoveAxesAlignment
-   MenuLocation:Sketch → Sketcher tools → Remove axis alignment
+   MenuLocation:Sketch → Sketcher tools → Remove axes alignment
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**Z** **R**
    Version:0.20
 ---
 
@@ -10,12 +11,12 @@
 
 ## Description
 
-This tool removes axis alignments (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Horizontal](Sketcher_ConstrainHorizontal.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Vertical](Sketcher_ConstrainVertical.md) constraints) from the selected elements by trying to preserve the constraint relationship.
+This tool removes axes alignments (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Horizontal](Sketcher_ConstrainHorizontal.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Vertical](Sketcher_ConstrainVertical.md) constraints) from the selected elements by trying to preserve the constraint relationship.
 
 ## How to use 
 
-1.  Select geometry with axis alignments, for example a [rectangle](Sketcher_CreateRectangle.md).
-2.  Press the <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Remove Axes Alignment** toolbar button.
+1.  Select geometry with axes alignments, for example a [rectangle](Sketcher_CreateRectangle.md).
+2.  Press the <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Remove axes alignment** toolbar button.
 
 As result the (horizontal, vertical constraints) will be removed. In the example of a rectangle, it stays a rectangle but becomes rotatable.
 
@@ -28,7 +29,7 @@ As result the (horizontal, vertical constraints) will be removed. In the example
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

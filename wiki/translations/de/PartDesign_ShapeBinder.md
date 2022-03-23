@@ -2,8 +2,8 @@
 - GuiCommand:/de
    Name:PartDesign ShapeBinder
    Name/de:PartDesign FormBinder
-   MenuLocation:Part Design → Einen Formbinder erstellen
-   Workbenches:[PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)
+   MenuLocation:Part Design → Formbinder erstellen
+   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[PartDesign UnterFormBinder](PartDesign_SubShapeBinder/de.md),[PartDesign Klon](PartDesign_Clone/de.md)
 ---
@@ -22,7 +22,7 @@ Anwendungsbeispiele sind der Bau eines Gehäuses mit passendem Deckel in zwei ve
 ## Anwendung
 
 1.  [Aktiviere den Körper](PartDesign_Body/de#Active_status.md), der das Formbinderobjekt bekommen soll.
-2.  Klicke auf die **<img src="images/PartDesign_ShapeBinder.svg" width=16px> [Erzeuge einen Formbinder](PartDesign_ShapeBinder/de.md)** Schaltfläche.
+2.  Klicke auf die **<img src="images/PartDesign_ShapeBinder.svg" width=16px> [Formbinder erstellen](PartDesign_ShapeBinder/de.md)** Schaltfläche.
 3.  Klicke entweder auf die **Objekt**-Schaltfläche oder die **Geometrie hinzufügen**-Schaltfläche.
 4.  Wähle in der [3D Ansicht](3D_view/de.md) das zu kopierende Objekt oder die Geometrie aus. *Objekt* wählt den ganze Körper aus;*Geometrie hinzufügen* wählt das hervorgehobene, geometrische Element, z.B. Knoten, Kante oder Fläche aus.
 5.  Um eine Geometrie zu entfernen, klicke auf die **Geometrie entfernen**-Schaltfläche und wähle die Geometrie in der [3D Ansicht](3D_view/de.md) aus.
@@ -105,13 +105,7 @@ Doppelklicke auf die FormBinder Beschriftung im [Modellbaum](Tree_view/de.md) od
     -   Verwende die Eigenschaft \"Nachverfolgungs Unterstützung\", um dieses Verhalten so zu ändern.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{PartDesign_Tools_ navi

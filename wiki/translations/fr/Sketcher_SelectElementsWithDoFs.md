@@ -9,6 +9,9 @@
 
 # Sketcher SelectElementsWithDoFs/fr
 
+
+</div>
+
 ## Description
 
 Cet outil a pour but d\'aider à contraindre complètement une esquisse en mettant en surbrillance en vert les éléments d'esquisse avec des degrés de liberté restants (DoF, ou «degrees of freedom»).
@@ -31,10 +34,16 @@ où \"X\" est le nombre de degrés de liberté restant dans l\'esquiss. Plus d\'
 > Esquisse entièrement contrainte 
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

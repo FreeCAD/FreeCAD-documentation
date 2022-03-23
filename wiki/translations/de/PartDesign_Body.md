@@ -210,9 +210,9 @@ Das Basis Formelement ist vollkommen optional; es ist nur dann vorhanden, wenn e
 *Links: Bauteilkonstruktionskörper mit einem Basis Formelement, das von einem externen Festkörperobjekt übernommen wird, und viele nachfolgende [PartDesign Formelemente](PartDesign_Feature/de.md) obenauf. Rechts: Körper, der kein explizites Basis Formelement hat.*
 
 
-**Note:**
+**Hinweis:**
 
-If another PartDesign body is selected as a BaseFeature it must have a shape. If it is empty (no features, no BaseFeature, \...) this will result in error.
+Wenn ein anderer PartDesign-Körper als BaseFeature ausgewählt wird, muss er eine Gestalt haben. Wenn er leer ist (ohne Objekte, BaseFeature,\...), wird dies zu einem Fehler führen.
 
 ### Spitze
 

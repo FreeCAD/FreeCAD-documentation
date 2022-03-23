@@ -9,6 +9,9 @@
 
 # Sketcher CreateArcOfHyperbola/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug erstellt einen Hyperbelbogen mit Mittelpunkt, Hauptradius und Endpunkten.
@@ -17,6 +20,9 @@ Dieses Werkzeug erstellt einen Hyperbelbogen mit Mittelpunkt, Hauptradius und En
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücken die **[<img src=images/Sketcher_CreateArcOfHyperbola.svg style="width:16px"> [Hyperbelbogen](Sketcher_CreateArcOfHyperbola/de.md)** Schaltfläche.
 2.  Klicke in der 3D Ansicht, um den Mittelpunkt des Hauptradius zu definieren (in der Abbildung oben mit 1 gekennzeichnet).
 3.  Klicke in die 3D Ansicht, um die Länge des Hauptradius zu definieren, der gleichzeitig die Spitze des Hyperbelbogens ist (im Bild oben mit 2 gekennzeichnet).
@@ -24,10 +30,13 @@ Dieses Werkzeug erstellt einen Hyperbelbogen mit Mittelpunkt, Hauptradius und En
 5.  Klicke ein viertes Mal in der 3D Ansicht, um den anderen Endpunkt zu definieren (in der Abbildung oben mit 4 gekennzeichnet).
 
 
+</div>
 
 
 
-{{Sketcher Tools navi
+
+
+{{Sketcher_Tools_navi
 
 }}
 

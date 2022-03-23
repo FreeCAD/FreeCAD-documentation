@@ -3,6 +3,7 @@
    Name:Sketcher CreateArc
    MenuLocation:Sketch → Sketcher geometries → Create arc by center
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **A**
    SeeAlso:[Sketcher Circle](Sketcher_CompCreateCircle.md)
 ---
 
@@ -24,7 +25,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red ar
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

@@ -74,7 +74,7 @@ Remarquez qu\'après avoir modifié certaines préférences, vous devez redémar
 
 -   Lorsqu\'une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) nécessitant la saisie de points est active, la distance maximale à laquelle [Draft Aimantation Grille](Draft_Snap_Grid/fr.md) détecte les intersections des lignes de la grille peut être modifiée à la volée en appuyant sur **[** (touche d\'augmentation) ou **]** (touche de diminution). Ce réglage est enregistré : **Outils → Modifier les paramètres... → BaseApp → Preferences → Mod → Draft → snapRange**. Elle peut également être modifiée dans le panneau des tâches de la commande [Draft Plan de travail](Draft_SelectPlane/fr.md).
 -   Pour effectuer une aimantation uniquement lorsque la touche **Snap mod** est maintenue enfoncée :
-    -   Désélectionner : **Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Toujours aimanter (désactiver le mode d'aimantation)**.
+    -   Désélectionner : **Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Toujours aimanté (désactive le mode d'aimantation)**.
     -   La touche **Snap mod** par défaut, **Ctrl**, peut être modifiée : **Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Mode d'accrochage**.
 -   Pour afficher la barre d\'outils Aimantation de Draft uniquement lorsqu\'une commande est active :
     -   Sélectionnez : **Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Afficher la barre d'outils d'accrochage**.

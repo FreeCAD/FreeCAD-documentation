@@ -8,9 +8,18 @@
 
 # Sketcher CreateRegularPolygon/de
 
+
+</div>
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Zeichnet ein regelmäßiges Polygon, das in einen Kreis der Konstruktionsgeometrie eingeschrieben ist. Beim Starten des Werkzeugs erscheint ein Eingabefeld, in dem die Anzahl der Seiten des regulären Polygons abgefragt wird. Sobald die Taste **OK** gedrückt wird, verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechseck-Symbol. Die Koordinaten des Zeigers werden daneben in Echtzeit blau dargestellt.
+
+
+</div>
 
 ## Anwendung
 

@@ -16,6 +16,9 @@ Erstellt eine vertikale Beschränkung für die gewählten Linien oder Polylinien
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle die Linien oder Knoten, die vertikal beschränkt werden sollen
 2.  Um den Befehl für die vertikale Beschränkung aufzurufen:
     -   Drücke das**[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Constrain vertical](Sketcher_ConstrainVertical.md)**
@@ -23,6 +26,9 @@ Erstellt eine vertikale Beschränkung für die gewählten Linien oder Polylinien
     -   Verwende den {{MenuCommand/de|Skizze → Skizzierer Beschränkungen → Vertikal beschränken}} Eintrag im Skizze Auswahlmenü.
 3.  Alternativ kann das Werkzeug ohne vorherige Auswahl gestartet werden, und es erwartet eine Auswahl; aber nur Linien sind auswählbar.
 4.  Rechtsklicke oder drücke **Esc** einmal, um das Werkzeug zu beenden.
+
+
+</div>
 
 ## Skripten
 
@@ -32,10 +38,16 @@ Erstellt eine vertikale Beschränkung für die gewählten Linien oder Polylinien
 Die [Skizzierer Skripten](Sketcher_scripting.md) Seite erklärt die Werte, die für `Linie` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python Skripten erstellt.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

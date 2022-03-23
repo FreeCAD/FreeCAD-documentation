@@ -4,7 +4,7 @@
    Name/pl:Szkicownik: Zwiąż odległość pionową
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    MenuLocation:Szkic → Wiązania szkicownika → Zwiąż odległość pionową
-   Shortcut:**Shift** + **V**
+   Shortcut:**I**
    SeeAlso:[Wiązanie odległości poziomej](Sketcher_ConstrainDistanceX/pl.md), [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md)
 ---
 
@@ -21,7 +21,7 @@ Ustala poziomą odległość pomiędzy 2 punktami lub końcami linii. Jeśli wyb
 1.  Wybierz jeden lub dwa punkty albo jedną linię.
 2.  Uruchomić narzędzie na jeden z możliwych sposobów:
     -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Ustal pionową odległość ...](Sketcher_ConstrainDistanceY.md)** znajdujący się na pasku narzędzi Szkicownika.
-    -   Użyj kombinacji klawiszy **Shift** + **V**. *(**V** odnosi się do **V**ertical)*.
+    -   Użyj klawisza **I**.
     -   Użyj polecenia menu głównego **Sketch → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> Zwiąż odległość pionową**.
 3.  Otworzy się wyskakujące okno dialogowe do edycji z proponowaną wartością. Naciśnij **OK**, aby ją wartość.
 
@@ -50,7 +50,7 @@ Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

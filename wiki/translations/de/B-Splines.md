@@ -116,20 +116,38 @@ An jeder Spline Position $t$ ist die Summe der Polynome 1 (gekennzeichnet durch 
 
 Eine Eigenschaft der Bernstein Polynome ist, dass bei Betrachtung der verschiedenen S-Spline Bézier Teile die Pfadlänge jedes Teils gleich ist. (Die Pfadlänge wird oft als \"Laufzeit\" bezeichnet). Wie Sie sich vorstellen können, kann es nützlich sein, B-Splines zu haben, deren Bézier Teile unterschiedliche Pfadlängen haben. Dies kann durch Gewichtung der verschiedenen Polynome erreicht werden:
 
+
+<div class="mw-translate-fuzzy">
+
 $\quad
 c(t)=\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k$
+
+
+</div>
 
 $w_k$ ist dabei das Gewicht des $k$-ten Kontrollpunktes. Wenn die Gewichte nicht gleich sind, nennt man den B-Spline **nicht-uniform**.
 
 Vor allem wenn B-Splines für die 3D Modellierung verwendet werden sollen, sind normalisierte, nicht-uniforme B-Splines erforderlich. Die Normalisierung erfolgt durch eine Division durch die gewichteten Basisfunktionen. Wenn also alle $w_k$ gleich sind, erhält man einen einheitlichen B-Spline, unabhängig von der Gewichtung selbst:
 
+
+<div class="mw-translate-fuzzy">
+
 $\quad
 c(t)=\cfrac{\sum_{k=0}^{N}d_{k}B_{k, D}(t)w_k}{\sum_{k=0}^{N}B_{k, D}(t)w_k}$
 
+
+</div>
+
 Diese nicht-uniformen und rationalen (wegen der Division) B-Splines werden oft **NURBS** genannt. Ein Blick auf die Formel zeigt, dass es sich tatsächlich um einen B-Spline mit einer gewichteten Basis $R_{k, D}(t)$ handelt:
+
+
+<div class="mw-translate-fuzzy">
 
 $\quad
 c(t)=\sum_{k=0}^{N}d_{k}R_{k, D}(t)$
+
+
+</div>
 
 wohingegen
 

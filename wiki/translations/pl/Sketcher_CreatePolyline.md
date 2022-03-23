@@ -1,9 +1,10 @@
 ---
 - GuiCommand:/pl
    Name:Sketcher CreatePolyline
-   Name/pl:Sketcher: CreatePolyline
-   MenuLocation:Sketch → Elementy geometryczne szkicownika → Utwórz linię łamaną
+   Name/pl:Szkicownik: Utwórz linię łamaną
+   MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz linię łamaną
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut:**G** **M**
    SeeAlso:[Szkicownik: Linia](Sketcher_CreateLine/pl.md)
 ---
 
@@ -42,7 +43,7 @@ The polyline always starts with a straight line segment: click - move the mouse 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

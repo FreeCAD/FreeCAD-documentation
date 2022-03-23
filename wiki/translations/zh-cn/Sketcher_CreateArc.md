@@ -3,6 +3,7 @@
    Name:Sketcher CreateArc
    MenuLocation:Sketch → Sketcher geometries → Create arc by center
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **A**
    SeeAlso:[Sketcher Circle](Sketcher_CompCreateCircle.md)
 ---
 
@@ -31,7 +32,7 @@
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

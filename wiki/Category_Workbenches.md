@@ -21,11 +21,10 @@ This category lists workbenches included in FreeCAD.
 | [Category:Part](wiki/Category_Part.md) | [Category:PartDesign](wiki/Category_PartDesign.md) | [Category:Path](wiki/Category_Path.md) |
 | [Category:Plot](wiki/Category_Plot.md) | [Category:Points](wiki/Category_Points.md) | [Category:Raytracing](wiki/Category_Raytracing.md) |
 | [Category:Reinforcement](wiki/Category_Reinforcement.md) | [Category:Reinforcement/pl](wiki/Category_Reinforcement/pl.md) | [Category:Reverse Engineering](wiki/Category_Reverse Engineering.md) |
-| [Category:Reverse Engineering/pl](wiki/Category_Reverse Engineering/pl.md) | [Category:Robot](wiki/Category_Robot.md) | [Category:Ship](wiki/Category_Ship.md) |
-| [Category:Sketcher](wiki/Category_Sketcher.md) | [Category:Spreadsheet](wiki/Category_Spreadsheet.md) | [Category:Spreadsheet/pl](wiki/Category_Spreadsheet/pl.md) |
-| [Category:Start](wiki/Category_Start.md) | [Category:Surface](wiki/Category_Surface.md) | [Category:TechDraw](wiki/Category_TechDraw.md) |
-| [Category:Test Framework](wiki/Category_Test Framework.md) | [Category:Web](wiki/Category_Web.md) | [Category:Web/pl](wiki/Category_Web/pl.md) |
-|
+| [Category:Robot](wiki/Category_Robot.md) | [Category:Ship](wiki/Category_Ship.md) | [Category:Sketcher](wiki/Category_Sketcher.md) |
+| [Category:Spreadsheet](wiki/Category_Spreadsheet.md) | [Category:Start](wiki/Category_Start.md) | [Category:Surface](wiki/Category_Surface.md) |
+| [Category:TechDraw](wiki/Category_TechDraw.md) | [Category:Test Framework](wiki/Category_Test Framework.md) | [Category:Web](wiki/Category_Web.md) |
+| [Category:Web/pl](wiki/Category_Web/pl.md) |
 
 
 

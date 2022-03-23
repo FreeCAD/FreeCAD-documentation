@@ -127,9 +127,21 @@ Gli strumenti dell\'Ambiente Sketcher si trovano nel menu che appare quando si c
 
 ### Generale
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Nuovo schizzo](Sketcher_NewSketch/it.md): Crea un nuovo schizzo su una faccia selezionata o in un piano. Se non si esegue nessuna selezione, di default, viene utilizzato il piano XY.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Edita schizzo](Sketcher_EditSketch/it.md): Modifica lo schizzo selezionato. Apre la finestra [Dialogo di Sketcher](Sketcher_Dialog/it.md)
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg‎‎  style="width:32px;"> [Esci](Sketcher_LeaveSketch/it.md): Termina la modalità di modifica dello schizzo.
 
@@ -175,6 +187,9 @@ Gli strumenti per creare gli oggetti.
 
 :\*<img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Circonferenza da tre punti](Sketcher_Create3PointCircle/it.md) : Disegna un cerchio da tre punti sulla circonferenza.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Sezioni di coni](Sketcher_CompCreateConic/it.md): l\'ambiente Schizzo fornisce le seguenti sezioni coniche. A differenza delle B-spline, possono essere usate con tutti i tipi di vincoli come [tangenti](Sketcher_ConstrainTangent/it.md), [punti](Sketcher_ConstrainPointOnObject/it.md), o [perpendicolari](Sketcher_ConstrainPerpendicular/it.md).
 
 :\* <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellisse dal centro](Sketcher_CreateEllipseByCenter/it.md): disegna un\'ellisse dal centro, raggio maggiore e raggio minore.
@@ -187,11 +202,20 @@ Gli strumenti per creare gli oggetti.
 
 :\*<img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arco di parabola](Sketcher_CreateArcOfParabola/it.md): disegna un arco di parabola.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Crea una B-spline](Sketcher_CompCreateBSpline/it.md): Questo è un menu icona nella barra degli strumenti Sketcher che contiene i seguenti comandi:
 
 :\* <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline](Sketcher_CreateBSpline/it.md) : Disegna una curva B-spline dai suoi punti di controllo.
 
 :\* <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [B-pline periodica](Sketcher_CreatePeriodicBSpline/it.md) : Disegna una curva B-spline periodica (chiusa) dai suoi punti di controllo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -201,7 +225,7 @@ Gli strumenti per creare gli oggetti.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create rectangles](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create a rectangle](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -211,11 +235,17 @@ Gli strumenti per creare gli oggetti.
 
 </div>
 
-:\* <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Centered Rectangle](Sketcher_CreateRectangle_Center.md): Draws a rectangle from a central point and an edge point. <small>(v0.20)</small> 
+:\* <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Centered rectangle](Sketcher_CreateRectangle_Center.md): Draws a rectangle from a central point and an edge point. <small>(v0.20)</small> 
 
-:\* <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded Rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
+:\* <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Poligono regolare](Sketcher_CompCreateRegularPolygon/it.md): Questo è una icona menu nella barra degli strumenti Sketcher che contiene i seguenti comandi:
+
+
+</div>
 
 :\* <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Triangolo equilatero](Sketcher_CreateTriangle/it.md): Disegna un triangolo equilatero inscritto in una circonferenza di costruzione.
 
@@ -229,23 +259,53 @@ Gli strumenti per creare gli oggetti.
 
 :\* <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width:32px;"> [Ottagono](Sketcher_CreateOctagon/it.md): Disegna un ottagono inscritto in una circonferenza di costruzione.
 
+
+<div class="mw-translate-fuzzy">
+
 :\* <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Poligono regolare](Sketcher_CreateRegularPolygon/it.md) : Disegna un poligono regolare selezionando il numero di lati e selezionando due punti: il centro e un angolo.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Asola](Sketcher_CreateSlot/it.md): Disegna un rettangolo con due lati opposti raccordati con un semicerchio, un\'asola.
 
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Raccorda](Sketcher_CreateFillet/it.md): Raccorda due linee unite in un punto. Selezionare entrambe le linee o fare clic sul punto di angolo, poi attivare lo strumento.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Rifila](Sketcher_Trimming/it.md): Accorcia una linea, un cerchio o un arco fino al primo nodo, punto di intersezione.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Estendi](Sketcher_Extend/it.md): Estende una linea o un arco fino ad una linea di un bordo, arco, ellisse, arco di ellisse o un punto nello spazio.
 
 -   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Dividi](Sketcher_Split/it.md): Divide una linea o un arco in due, converte un cerchio in un arco mantenendo la maggior parte dei vincoli. <small>(v0.20)</small> 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Geometria esterna](Sketcher_External/it.md): Crea un segmento collegato a una geometria esterna.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [CopiaCarbone](Sketcher_CarbonCopy/it.md): Copia la geometria di un altro schizzo.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:32px;"> [Costruzione](Sketcher_ToggleConstruction.md): Attiva o disattiva la geometria dello schizzo dalla o nella modalità di costruzione. La geometria di costruzione è mostrata in blu e viene presa in considerazione solo nella modalità di modifica dello schizzo.
+
+
+</div>
 
 ### Vincoli dello Schizzo 
 
@@ -265,7 +325,13 @@ Questi vincoli non sono associati a valori numerici.
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Coincidente](Sketcher_ConstrainCoincident/it.md): Crea un vincolo di coincidenza (punto-con-punto) tra due punti selezionati.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md): Crea un vincolo (fissa) un punto-su-un-oggetto sull\'elemento selezionato.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Verticale](Sketcher_ConstrainVertical/it.md): Crea un vincolo verticale per le linee o le polilinee selezionate. Si può selezionare più oggetti.
 
@@ -323,7 +389,13 @@ Le icone blu di questi vincoli si riferiscono alle funzioni introdotte nella ver
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  style="width:32px;"> [Rifrazione](Sketcher_ConstrainSnellsLaw/it.md): Crea un vincolo di rifrazione tra due linee per simulare secondo la Legge di Snell un raggio di luce che attraversa un\'interfaccia.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainInternalAlignment.svg  style="width:32px;"> [Allineamento interno](Sketcher_ConstrainInternalAlignment/it.md): Allinea gli elementi selezionati alla forma selezionata, ad esempio una linea da convertire in asse maggiore di una ellisse.
 
@@ -341,11 +413,23 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Sketcher_ToggleDrivingConstraint.svg  style="width:32px;"> [Commuta vincoli](Sketcher_ToggleDrivingConstraint/it.md): Commuta una serie di vincoli, quelli associati a un valore numerico, da decisivi a indicatori e viceversa.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Attiva/disattiva il vincolo](Sketcher_ToggleActiveConstraint/it.md): Abilita o disabilita un vincolo già inserito. {{Version/it|0.19}}
+
+
+</div>
 
 ### Strumenti dello Sketcher 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Seleziona il risolutore DOFs](Sketcher_SelectElementsWithDoFs/it.md): Evidenzia in verde la geometria con gradi di libertà (DOFs), cioè non completamente vincolata.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -395,7 +479,13 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg‎  style="width:32px;"> [Mostra/Nascondi la geometria interna](Sketcher_RestoreInternalAlignmentGeometry/it.md): Ricrea la geometria interna mancante o eliminata non necessaria di un\'ellisse selezionata, o arco di ellisse o iperbole o parabola o B-spline.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -455,11 +545,23 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 </div>
 
--   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove axes alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Cancella tutta la geometria](Sketcher_DeleteAllGeometry/it.md): Elimina tutta la geometria dallo schizzo.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Elimina tutti i vincoli](Sketcher_DeleteAllConstraints/it.md): Elimina tutti i vincoli dallo schizzo.
+
+
+</div>
 
 ### Strumenti Sketcher B-spline 
 
@@ -487,7 +589,13 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 ### Spazio virtuale dello Sketcher 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg‎  style="width:32px;"> [Cambia spazio virtuale](Sketcher_SwitchVirtualSpace/it.md): Permette di nascondere i vincoli e renderli nuovamente visibili.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -541,11 +649,11 @@ La pagina [scripting](Sketcher_scripting/it.md) contiene esempi su come creare v
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/it
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/it

@@ -2,10 +2,10 @@
 {{Macro
 |Name=Macro FCCInfo ToolBar
 |Icon=FCInfoToolBar.png
-|Description=Gives information about the selected shape and can display a conversion of radius, diameter, length, area, volume ... in different units (metric and imperial) in a toolBar. The information to be displayed is parametrizable in the Parameter of FreeCAD.
+|Description=Gives information about the selected shape and can display a conversion of radius, diameter, length, area, volume ... in different units (metric and imperial) in a toolBar. The information to be displayed in real time is parametrizable in the Parameter of FreeCAD.
 |Author=Mario52
-|Version=00.01
-|Date=2022/02/16
+|Version=00.02
+|Date=2022/03/14
 |FCVersion=0.18 and more
 |Download= [https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
 |SeeAlso = [Arch Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
@@ -51,6 +51,15 @@ The options hare located in the Parameter of FreeCAD
 -   ***seT\_User\_sizeIconY***
     -   set the value Y of the Icon
 
+-   ***seT\_User\_setFixed\_Tool\_Bar\_Width***
+    -   set the Width of the ToolBar
+
+-   ***seT\_User\_setFixed\_Tool\_Bar\_Height***
+    -   set the Height of the ToolBar
+
+-   ***switch\_User\_Work\_With\_Preselection***
+    -   Work With the Preselectiond, update the data in real time
+
 -   ***seT\_User\_StyleSheetColorToolBar***
     -   set the color of the toolBar in HTML format example : **\#F8E6E0**
     -   if the value is **0** the toolBar take the system color
@@ -61,50 +70,60 @@ The options hare located in the Parameter of FreeCAD
 -   ***seT\_User\_TextHeigthValue***
     -   give the text height of the toolBar
 
+-   ***switch\_User\_Display\_objectName***
+    -   display the object Name ()
+
 -   ***switch\_User\_Display\_SubElementName***
-    -   display the SubElementName
+    -   display the SubElementName ()
 
 -   ***switch\_User\_Display\_ShapeType***
-    -   display the Shape type
+    -   display the Shape type (TyS:)
 
 -   ***switch\_User\_Display\_TypeId***
-    -   display the TypeId
+    -   display the TypeId (TyI:)
 
 -   ***switch\_User\_Display\_RadiusObject***
-    -   display the radius and the diameter
+    -   display the radius and the diameter (r:) \[D:\]
 
 -   ***switch\_User\_Display\_LengthObject***
-    -   display the Length of the edge selected or the perimeter of the face selected
+    -   display the Length of the edge selected or the Perimeter of the face selected
+        -   (L:) display the Length of the wire, edge, line selected
+        -   (P:) display the Perimeter if the face is selected
 
 -   ***switch\_User\_Display\_NumberFacesMesh***
-    -   display the number of Faces of the Mesh object
+    -   display the number of Faces of the Mesh object (Nf:)
 
 -   ***switch\_User\_Display\_NumberPointsMeshPoints***
-    -   display the number of points of the Mesh object
+    -   display the number of points of the Mesh object (Np:)
 
 -   ***switch\_User\_Display\_NumberEdgesMesh***
-    -   display the number of edges of the Mesh object
+    -   display the number of edges of the Mesh object (Ne:)
 
 -   ***switch\_User\_Display\_AreaObject***
-    -   display the area of the object
+    -   display the area of the object (A:)
 
 -   ***switch\_User\_Display\_AreaSubObject***
-    -   display the area of the face selected
+    -   display the area of the face selected (Af:)
 
 -   ***switch\_User\_Display\_VolumeObject***
-    -   display the volume of the object
+    -   display the volume of the object (V:)
 
 -   ***switch\_User\_Display\_BsplineObject***
     -   display the number of node of the Bspline selected
+        -   (BSpline) display the number of node of the BSpline
+        -   (BSrA) BSPline radius approximative first radius of the BSpline
+        -   (BSS) BSPline Points Shape number points of the Bspline (case Shape)
+        -   (BSc) BSPline Points Sub Object number points of sub object selected (case Edge)
 
 -   ***switch\_User\_Display\_CentreObject***
     -   display the center of the circle (if one circle is detected) or of the object selected
+        -   (Ce:) display the center of circle (if detected), face, edge \... BBoxCenter of face, edge \... Sub selection\" + \"\\n\\n\")
 
 -   ***switch\_User\_Display\_CentreBoundBoxObject***
-    -   display the boundingBox center of the object
+    -   display the boundingBox center of the object (BBCe:)
 
 -   ***switch\_User\_Display\_Position***
-    -   display the coordinates point mouse pointed
+    -   display the coordinates point mouse pointed (Pos:)
 
 -   ***switch\_User\_NotInfoOnBeginning***
     -   if it is `False` the info (this information) is displayed
@@ -176,7 +195,11 @@ enjoy
 
 ## Link
 
+The forum discussion [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
+
 ## Version
+
+version: 00.02 2022/03/14 : add calcul in real time (with preselection), dimension of toolBar, add info mesh and points
 
 version: 00.01 2022/02/16 :
 

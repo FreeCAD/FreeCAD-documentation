@@ -3,6 +3,7 @@
    Name:Sketcher CreatePentagon
    MenuLocation:Sketch → Sketcher geometries → Create pentagon
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **P** **5**
    Version:0.15
 ---
 

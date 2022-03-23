@@ -50,7 +50,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 ## Remarques
 
 -   Une Draft Ligne peut être éditée avec la commande [Draft Editer](Draft_Edit/fr.md).
--   Les Draft Lignes et les [Draft Polylignes](Draft_Wire/fr.md) peuvent être jointes avec la commande [Draft Polylignes](Draft_Wire/fr.md), la commande [Draft Joinde](Draft_Join/fr.md) ou la commande [Draft Mettre à niveau](Draft_Upgrade/fr.md).
+-   Les Draft Lignes et les [Draft Polylignes](Draft_Wire/fr.md) peuvent être jointes avec la commande [Draft Polylignes](Draft_Wire/fr.md), la commande [Draft Joinde](Draft_Join/fr.md) ou la commande [Draft Agréger](Draft_Upgrade/fr.md).
 
 ## Préférences
 

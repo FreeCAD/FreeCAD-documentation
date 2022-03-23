@@ -41,7 +41,7 @@ Nu sunt adăugate extra constrâgeri pentru comportamentul copiei.
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

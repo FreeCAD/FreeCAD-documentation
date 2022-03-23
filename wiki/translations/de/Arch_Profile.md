@@ -92,15 +92,6 @@ Arch.makeProfile([0,'REC','REC100x100','R',100,100])
 wobei das erste Element der Liste eine Bestellnummer (order number) ist, die bisher nicht verwendet wird.
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Profile/de

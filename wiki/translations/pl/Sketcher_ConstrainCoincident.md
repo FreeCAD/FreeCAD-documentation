@@ -30,7 +30,7 @@ Jak stwierdzono powyżej, narzędzie to przyjmuje dwa argumenty - oba są punkta
 6.  Po podświetleniu dwóch punktów, można wywołać komendę za pomocą kilku metod:
     -   Wciskając przycisk wiązania na pasku przyborów **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md)**.
     -   Użycie skrótu klawiszy **C** przy pomocy klawiatury.
-    -   Użycie polecenia w górnym menu **Szkicownik → Wiązania szkicownika → Wiązanie zbieżności**.
+    -   Użycie polecenia w górnym menu **Szkic → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Wiązanie zbieżności**.
 
 
 **Wynik:**
@@ -81,7 +81,7 @@ Strona [skrypty w środowiszku szkicownika](Sketcher_scripting.md) opisuje warto
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

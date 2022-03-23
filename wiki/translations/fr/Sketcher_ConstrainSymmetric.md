@@ -4,7 +4,7 @@
    Name/fr:Sketcher Contrainte symétrique
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte symétrique
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:S
+   Shortcut:**S**
    SeeAlso:[Sketcher Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)
 ---
 
@@ -55,13 +55,13 @@ Une ligne et un point de symétrie (dans l\'interface graphique, on peut sélect
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Symmetric', Line, 1, Line, 2, LineS, PointOfLineS))```
 
-La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Line1`, `Line2`, `LineS`, `Line`, `PointOfLine1`, `PointOfLine2` et `PointOfLineS` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `Line1`, `Line2`, `LineS`, `Line`, `PointOfLine1`, `PointOfLine2` et `PointOfLineS` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

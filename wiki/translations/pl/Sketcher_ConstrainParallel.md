@@ -4,7 +4,7 @@
    Name/pl:Szkicownik: Wiązanie równoległości
    MenuLocation:Sketch → Wiązania szkicownika → Wiązanie równoległości
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**Shift** + **P**
+   Shortcut:**P**
    SeeAlso:[Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md), [Wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md)
 ---
 
@@ -28,9 +28,9 @@ Szkic zawiera dwie linie o przypadkowej lokalizacji.
 
 Zastosuj wiązanie równoległości poprzez:
 
--   Naciśnięcie przycisku **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Utwórz wiązanie równoległości ...](Sketcher_ConstrainParallel/pl.md)** z paska narzędzi wiązania Szkicownika, wybierając pozycję menu Wiązanie równoległości z podmenu Wiązania Szkicownika w menu Szkic *(wybrane okno robocze Szkicownik)* lub Projekt części *(wybrane okno środowiska Projekt Części)*.
--   Używając klawiszy **Shift** + **P** skrót klawiszowy.
--   Używając pozycji **Szkic → Wiązania Szkicownika → Wiązanie równoległości** z menu głównego.
+-   Naciśnięcie przycisku **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Utwórz wiązanie równoległości ...](Sketcher_ConstrainParallel/pl.md)** z paska narzędzi wiązania Szkicownika.
+-   Używając klawiszy **P** skrót klawiszowy.
+-   Używając pozycji **Szkic → Wiązania Szkicownika → [<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> Wiązanie równoległości** z menu głównego.
 
 <img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
 

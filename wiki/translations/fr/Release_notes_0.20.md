@@ -88,6 +88,7 @@ Nous sommes heureux que le projet [KiCAD](https://www.kicad.org/), par le biais 
 
 ### Autres améliorations de l\'interface utilisateur 
 
+-   Il est maintenant possible d\'utiliser le séparateur décimal appartenant à la langue spécifiée pour l\'interface de FreeCAD. Par exemple, sur un Windows allemand, lorsque vous définissez la langue de l\'interface à **English** et que vous sélectionnez la nouvelle option **Use selected language number format**, le point sera utilisé comme séparateur décimal. Voir les [Préférences](Preferences_Editor/fr#G.C3.A9n.C3.A9ral.md). [Pull request \#6364](https://github.com/FreeCAD/FreeCAD/pull/6364)**Remarque** : Pour les simulations [FEM](FEM_Workbench/fr.md), l\'utilisation du point comme séparateur décimal est fortement recommandée pour obtenir des résultats corrects.
 -   Deux nouveaux modes de navigation à la souris ont été ajoutés. L\'un basé sur **[OpenSCAD](Mouse_navigation/fr#Mode_OpenSCAD.md)**, l\'autre sur **[TinkerCAD](Mouse_navigation/fr#Mode_TinkerCAD.md)**. [Discussion du forum OpenSCAD](https://forum.freecadweb.org/viewtopic.php?f=8&t=60975), [Discussion du forum TinkerCAD](https://forum.freecadweb.org/viewtopic.php?p=544639#p544376), [commit 1](https://github.com/FreeCAD/FreeCAD/commit/a1c9ab658c), [commit 2](https://github.com/FreeCAD/FreeCAD/commit/ef100d55e9d50), [commit 3](https://github.com/FreeCAD/FreeCAD/commit/549e5b5650).
 -   Il est maintenant possible de faire un panoramique de la vue du [Graphique de dépendance](Std_DependencyGraph/fr.md) avec la souris. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=34791), [pull request \#4638](https://github.com/FreeCAD/FreeCAD/pull/4638).
 -   Correction d\'un problème où l\'utilisation d\'un stylet de tablette (par exemple, une tablette Wacom) était lente au point d\'être complètement inutilisable. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=45046), [Pull request \#4687](https://github.com/FreeCAD/FreeCAD/pull/4687).
@@ -259,10 +260,12 @@ Nous sommes heureux que le projet [KiCAD](https://www.kicad.org/), par le biais 
 
 ### Autres améliorations de FEM 
 
--   Le support des analyses de flambage linéaire a été ajouté. [Pull request \#4379](https://github.com/FreeCAD/FreeCAD/pull/4379)
+-   Le support des analyses de flambage linéaire a été ajouté pour le solveur [Calculix](FEM_SolverCalculixCxxtools/fr.md). [Pull request \#4379](https://github.com/FreeCAD/FreeCAD/pull/4379)
 -   Une nouvelle contrainte a été ajoutée : **Modèle → Contraintes mécaniques → [<img src=images/FEM_ConstraintCentrif.svg style="width:16px"> [Constrainte centrifuge](FEM_ConstraintCentrif/fr.md)**. [Pull request \#4738](https://github.com/FreeCAD/FreeCAD/pull/4738)
 -   Un nouveau solveur a été ajouté : **Solveur → [<img src=images/FEM_SolverMystran.svg style="width:16px"> [Solveur Mystran](FEM_SolverMystran/fr.md)**. De nombreux commits.
 -   Une nouvelle contrainte a été ajoutée : **Modèle → Contraintes géométriques → [<img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Contrainte ressort](FEM_ConstraintSpring/fr.md)**. [Pull request \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982)
+-   Le maillage avec le solveur [Calculix](FEM_SolverCalculixCxxtools/fr.md) utilise désormais tous les cœurs du processeur. [Pull request \#6374](https://github.com/FreeCAD/FreeCAD/pull/6374)
+-   Le maillage avec [Gmsh](FEM_MeshGmshFromShape/fr.md) utilise désormais tous les cœurs du CPU. [Pull request \#6370](https://github.com/FreeCAD/FreeCAD/pull/6370)
 -   L\'ordre des éléments des maillages [Gmsh](FEM_MeshGmshFromShape/fr.md) peut être modifié via la boîte de dialogue de maillage. [Pull request \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660)
 -   Les cartes de matériaux peuvent désormais contenir des valeurs de conductivité électrique. [Pull request \#4647](https://github.com/FreeCAD/FreeCAD/pull/4647)
 -   Cartes de matériaux ajoutées pour l\'azote et l\'argon. [Pull request \#4649](https://github.com/FreeCAD/FreeCAD/pull/4649)
@@ -346,6 +349,8 @@ Il y a également une zone de texte pour le retour des erreurs d\'OpenSCAD.
 -   La fonction [Pignon](PartDesign_Sprocket/fr.md) permet désormais de créer également des pignons normalisés ISO. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525#p478369) [Pull request \#4478](https://github.com/FreeCAD/FreeCAD/pull/4478)
 -   Les fonctions [Lissage](PartDesign_AdditiveLoft/fr.md) et [Balayage](PartDesign_AdditivePipe/fr.md) permettent désormais d\'utiliser les faces du corps pour les sections. [Pull request \#5155](https://github.com/FreeCAD/FreeCAD/pull/5155)
 -   Il est désormais possible de sélectionner plusieurs faces avant d\'ouvrir la boîte de dialogue de [Protrusion](PartDesign_Pad/fr.md) ou [Cavité](PartDesign_Pocket/fr.md). Dans ce cas, la première face sélectionnée sera utilisée pour déterminer la direction par défaut de la protrusion/cavité. [commit d34a5616](https://github.com/FreeCAD/FreeCAD/commit/d34a5616a2b38c96ad05f9a0763ba7504dfb814d)
+-   Il est possible de décaler les [Sous formes liées](PartDesign_SubShapeBinder/fr.md) si elles sont basées sur des arêtes, des lignes ou des faces. [Pull request \#6338](https://github.com/FreeCAD/FreeCAD/pull/6338)
+-   Les [Sous formes liées](PartDesign_SubShapeBinder/fr.md) possède maintenant la propriété *Refine* comme tous les autres objets PartDesign. [Pull request \#6550](https://github.com/FreeCAD/FreeCAD/pull/6550)
 -   Dans les boîtes de dialogue de [Chanfrein](PartDesign_Chamfer/fr.md) et de [Congé](PartDesign_Fillet/fr.md), tous les bords d\'un corps peuvent être sélectionnés via le menu contextuel en mode Ajout. [Pull request \#5269](https://github.com/FreeCAD/FreeCAD/pull/5269)
     Lorsque vous avez sélectionné un objet 3D avant de cliquer sur l\'icône pour créer un congé ou un chanfrein, tous les bords de l\'objet seront automatiquement sélectionnés. [Pull request \#5328](https://github.com/FreeCAD/FreeCAD/pull/5328)
 -   Les boîtes de dialogue de [Chanfrein](PartDesign_Chamfer/fr.md) et [Congé](PartDesign_Fillet/fr.md) disposent désormais chacune d\'une nouvelle case à cocher *Utiliser tous les bords*, qui est liée à la propriété Use All Edges de ces objets. Lorsque la case est cochée, la propriété est définie à True. Lorsqu\'elle n\'est pas cochée, la propriété est définie à False. Lorsque Use All Edges est True, il y a une protection contre le [problème de dénomination topologique](Topological_naming_problem/fr.md) car alors tous les bords de l\'objet de base sont utilisés, quel que soit le nombre de bords. [Pull request \#5340](https://github.com/FreeCAD/FreeCAD/pull/5340)
@@ -421,11 +426,11 @@ Il y a également une zone de texte pour le retour des erreurs d\'OpenSCAD.
 
 -   Il est désormais possible de [Copier](TechDraw_ShareView/fr.md) et [Déplacer](TechDraw_MoveView/fr.md) des [Vues](TechDraw_Workbench/fr#Vues.md) entre de pages.
 -   Lorsqu\'il y a plusieurs [Pages](TechDraw_PageDefault/fr.md) et que l\'on veut ajouter une [Vue](TechDraw_View/fr.md), un [Groupe de projections](TechDraw_ProjectionGroup/fr.md) etc., il y a maintenant un dialogue pour demander à quelle page la vue doit être ajoutée. [Pull request \#5309](https://github.com/FreeCAD/FreeCAD/pull/5309).
-
 -   Un nouveau spécificateur de format *%w* a été ajouté pour afficher le nombre donné de chiffres après le point et supprimer les zéros de à la fin. [Pull request \#5401](https://github.com/FreeCAD/FreeCAD/pull/5401).
 -   Le nouveau spécificateur de format *%w* est maintenant la valeur par défaut. La préférence de spécification de format a été déplacée de l\'onglet Avancé à l\'onglet Dimension. [Pull request \#6504](https://github.com/FreeCAD/FreeCAD/pull/6504).
 -   Des hachures diagonales inversées ont été ajoutées pour l\'outil [Hachures géométriques](TechDraw_GeometricHatch/fr.md). [Pull request \#6429](https://github.com/FreeCAD/FreeCAD/pull/6429).
 -   Il existe une nouvelle option pour afficher une grille dans une [page](TechDraw_PageDefault/fr.md). Plusieurs [préférences](TechDraw_Preferences/fr#Grille.md) connexes ont été introduites. [Pull request \#6465](https://github.com/FreeCAD/FreeCAD/pull/6465).
+-   L\'affichage des unités dans les dimensions a été corrigé conformément aux normes. Le symbole du degré est toujours présent pour la valeur de la dimension et les tolérances, les autres unités n\'apparaissent que si ShowUnits est défini. L\'unité apparaît immédiatement après la valeur de la dimension sauf s\'il y a une tolérance, alors elle apparaît après la tolérance. [Pull request \#6581](https://github.com/FreeCAD/FreeCAD/pull/6581)
 
 ## Web
 

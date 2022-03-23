@@ -11,6 +11,9 @@
 
 # Sketcher ConstrainInternalAlignment/ru
 
+
+</div>
+
 ## Описание
 
 The InternalAlignment constraint aligns lines and points to particular places of a complex sketcher element (there is just one \"complex\" element so far, the [Ellipse](Sketcher_CreateEllipseByCenter.md)).
@@ -24,8 +27,7 @@ The constraint is for experienced users because its usage is not as straight for
 1.  Select elements to be aligned and an ellipse. The ellipse must be selected last. Accepted are up to two lines and up to two points.
 2.  Invoking the constraint can be done several ways:
     -   Pressing the **[<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> [Constrain internal alignment](Sketcher_ConstrainInternalAlignment.md)** button in the toolbar.
-    -   Using the **Ctrl** + **A** keyboard shortcut.
-    -   Using the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Constrain InternalAlignment** entry from the top menu.
+    -   Using the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Constrain internal alignment** entry from the top menu.
 
 The first line that was selected gets aligned to become ellipse\'s major diameter (but if it is not occupied already by another line, otherwise it will become minor diameter). The second line is aligned to become minor radius. The lines are automatically switched to [construction](Sketcher_ToggleConstruction.md).
 
@@ -55,10 +57,16 @@ Remarks:
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `index_of_line`, `index_of_point` and `index_of_ellipse` and contains further examples on how to create constraints from Python scripts.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

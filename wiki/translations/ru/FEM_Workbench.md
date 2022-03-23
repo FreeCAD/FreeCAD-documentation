@@ -162,9 +162,15 @@ Translations:FEM Module/141/ru
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer/ru.md): Создает контроллер решателя для Элмера. Он не зависит от других объектов решателя.
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Решатель Z88](FEM_SolverZ88/ru.md): Создает задачу для решателя МКЭ Z88 .
+
+
+</div>
 
 -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Уравнение гибкости](FEM_EquationElasticity/ru.md): Создает уравнение для расчета упругости МКЭ.
 

@@ -9,6 +9,9 @@
 
 # Sketcher ConstrainLock/de
 
+
+</div>
+
 ## Beschreibung
 
 **Beschränkung Schloss** wendet **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Horizontaler Abstand](Sketcher_ConstrainDistanceX/de.md)** und **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Vertikaler Abstand](Sketcher_ConstrainDistanceY/de.md)** Beschränkungen auf ausgewählte Knoten (Punkte) in der Skizze an. Wenn ein einzelner Knoten ausgewählt ist, beziehen sich die horizontalen und vertikalen Abstandsbeschränkungen auf den Skizzenursprungspunkt. Wenn zwei oder mehr Punkte ausgewählt sind, werden die horizontalen und vertikalen Abstandsbeschränkungen für jedes Punktpaar hinzugefügt. Es gibt keine automatische Aufforderung, die Werte der Beschränkungen zu bearbeiten, sie müssen manuell bearbeitet werden.
@@ -26,10 +29,16 @@
 Die <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [Schloss](Sketcher_ConstrainLock/de.md) Beschränkung ist ein GUI Befehl, der eine <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontaler Abstands](Sketcher_ConstrainDistanceX/de.md) und eine <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertikaler Abstands](Sketcher_ConstrainDistanceY/de.md) Beschränkung erzeugt, sie ist keine eigenständige Beschränkung. Siehe die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite für Details und Beispiele, wie diese Beschränkungen aus Python Skripten erstellt werden können.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

@@ -1,8 +1,7 @@
 # PySide Intermediate Examples/it
-## Introduzione
-
-
 {{TOCright}}
+
+## Introduzione
 
 
 <div class="mw-translate-fuzzy">
@@ -30,12 +29,24 @@ La definizione di classe e le poche righe di codice richiamate sono descritti ne
 
 La maggior parte del resto di questa sezione descrive il contenuto della Class definition che compare alla fine di questa sezione. Prima si descrivono gli elementi dichiarativi che definiscono il funzionamento delle cose e come viene assemblata la GUI, poi si descrivono le sezioni operative (cioè il codice che viene eseguito quando si verificano le interazioni degli utenti). Questa finestra è basata sulla classe QDialog e quindi è modale, questo significa che non si può fare nessuna attività al di fuori della finestra mentre essa è aperta.
 
+### Import Statement 
+
+
+<div class="mw-translate-fuzzy">
+
 ### La dichiarazione Import 
 
-La dichiarazione di importazione obbligatoria 
+La dichiarazione di importazione obbligatoria
+
+
+</div>
+
+
 ```python
 from PySide import QtGui, QtCore
-``` Questa riga è meglio posizionarla all\'inizio del file Python.
+```
+
+Questa riga è meglio posizionarla all\'inizio del file Python.
 
 ### La definizione della classe 
 
@@ -154,12 +165,16 @@ self.popup1.move(210, 115)
 
 Nella riga 2 è costruita la lista di quelle che saranno le scelte consentite agli utenti. Un\'alternativa è quella di costruire un dizionario, ma di utilizzare solo i tasti per l\'elenco del menu delle scelte. La riga 4 crea il menu pop-up (noto come un ComboBox in PySide), le opzioni utente sono aggiunte nella riga 5.
 
-Come nota a margine, se è stato utilizzato il dizionario le righe appaiono come queste: 
+Come nota a margine, se è stato utilizzato il dizionario le righe appaiono come queste:
+
+
 ```python
 self.popupItems1 = OrderedDict([("2","widget"),("pink","foobar"),("4","galopsis")])
 
 self.popup1.addItems(self.popupItems1.keys())
-``` Tornando al codice principale dell\'esempio per questa sezione, la riga 6 imposta la scelta predefinita, questa riga può essere omessa, il valore della scelta di default può anche essere caricato nell\'etichetta corrispondente. Infine la riga 8 stabilisce il posizionamento.
+```
+
+Tornando al codice principale dell\'esempio per questa sezione, la riga 6 imposta la scelta predefinita, questa riga può essere omessa, il valore della scelta di default può anche essere caricato nell\'etichetta corrispondente. Infine la riga 8 stabilisce il posizionamento.
 
 ### Creare i pulsanti - Parte 1 
 
@@ -174,6 +189,23 @@ pushButton1.move(210, 165)
 
 Il pulsante (button) e il suo nome sono creati nella riga 2. Il gestore del segnale per sapere quando questo pulsante viene cliccato è specificato nella riga 3. La riga 4 impedisce che il pulsante diventi il \'pulsante di default\' - il pulsante che viene cliccato se l\'utente preme semplicemente il tasto **Return**. Lo spostamento nella sua posizione conclude questo segmento di codice.
 
+### Creare i pulsanti - Parte 2 
+
+
+```python
+# cancel button
+cancelButton = QtGui.QPushButton('Cancel', self)
+cancelButton.clicked.connect(self.onCancel)
+cancelButton.setAutoDefault(True)
+cancelButton.move(150, 280)
+# OK button
+okButton = QtGui.QPushButton('OK', self)
+okButton.clicked.connect(self.onOk)
+okButton.move(260, 280)
+```
+
+Entrambi i pulsanti sono creati con un nome (che apparirà come loro etichetta), sono associati ad un metodo che viene eseguito quando sono cliccati, e sono posizionati. L\'unica eccezione è la riga 4, che definisce il tasto \'Cancella\' come il pulsante di default - che significa che sarà \"cliccato\" se l\'utente preme il tasto **Return**.
+
 ### Creare un campo per inserire dei testi 
 
 
@@ -186,6 +218,26 @@ self.textInput.move(20, 220)
 ```
 
 Il QLineEdit è probabilmente il widget più comune per consentire all\'utente di inserire dei testi. Questa sezione di codice crea il campo (riga 2), imposta un valore iniziale (riga 3), imposta la lunghezza del campo (riga 4) e posiziona l\'oggetto (riga 5). In questo esempio, la sezione di codice successiva crea un menù contestuale per operare su di esso.
+
+### QuantitySpinBox Creation 
+
+
+```python
+# QuantitySpinBox
+from FreeCAD import Units
+ui = FreeCADGui.UiLoader()
+quantityInput = ui.createWidget("Gui::QuantitySpinBox")
+self.quantityInput.setProperty( 'minimum', 0.0)
+potential = 2.87
+unit = "V"
+# only set the value
+self.quantityInput.setProperty('rawValue', potential )
+# set quantity (value + unit)
+quantity = Units.Quantity("{} {}".format(potential , unit))
+self.quantityInput.setProperty('value', quantity)
+```
+
+The Gui::QuantitySpinBox widget is a FreeCAD-special, designed to display and handle values together with their [units](Expressions#Units.md). It is derived from Qt\'s [QAbstractSpinBox class](https://doc.qt.io/qt-5/qabstractspinbox.html). For all its properties see the list in the source code file [QuantitySpinBox.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/QuantitySpinBox.h#L42)
 
 ### Creare un menu contestuale 
 
@@ -234,23 +286,6 @@ self.numericInput.move(250, 220)
 
 La creazione del campo di input numerico è simile a quella per l\'inserimento di testi vista in precedenza. Infatti il codice è identico ad eccezione delle righe 3 e 4. La riga 3 imposta la Mask (maschera) come definita da PySide, che in questo caso specifica fino a 3 cifre (che possono includere 0). Un elenco completo dei codici InputMask si trova in [QLineEdit InputMask](http://doc.qt.io/qt-5/qlineedit.html#inputMask-prop)
 
-### Creare i pulsanti - Parte 2 
-
-
-```python
-# cancel button
-cancelButton = QtGui.QPushButton('Cancel', self)
-cancelButton.clicked.connect(self.onCancel)
-cancelButton.setAutoDefault(True)
-cancelButton.move(150, 280)
-# OK button
-okButton = QtGui.QPushButton('OK', self)
-okButton.clicked.connect(self.onOk)
-okButton.move(260, 280)
-```
-
-Entrambi i pulsanti sono creati con un nome (che apparirà come loro etichetta), sono associati ad un metodo che viene eseguito quando sono cliccati, e sono posizionati. L\'unica eccezione è la riga 4, che definisce il tasto \'Cancella\' come il pulsante di default - che significa che sarà \"cliccato\" se l\'utente preme il tasto **Return**.
-
 ### Visualizzare la finestra 
 
 
@@ -285,12 +320,16 @@ In questo esempio di codice, dei gestori generici gestiscono i seguenti eventi:
 -   onCancel
 -   onOk
 
-La forma generale per i gestori è: 
+La forma generale per i gestori è:
+
+
 ```python
 def handlerName(self):
     lineOfCode1
     lineOfCode2
-``` La prima riga ha la parola chiave \"def\" seguita dal nome del gestore. Il nome del gestore deve corrispondere esattamente al nome dato nella sezione dichiarativa precedente. Il parametro \"self\", le parentesi tonde e i due punti finali sono fanno parte della sintassi standard. Once the first line is finished then there are no requirements of the following code, it is purely application specific.
+```
+
+La prima riga ha la parola chiave \"def\" seguita dal nome del gestore. Il nome del gestore deve corrispondere esattamente al nome dato nella sezione dichiarativa precedente. Il parametro \"self\", le parentesi tonde e i due punti finali sono fanno parte della sintassi standard. Once the first line is finished then there are no requirements of the following code, it is purely application specific.
 
 ### La gestione dei menu a discesa 
 
@@ -324,13 +363,19 @@ Si può creare un riferimento a un widget con \"self.widgetName.underMouse()\", 
 
 ## Discussione del codice - Parte principale 
 
-La maggior parte del codice si trova nella definizione della classe GUI, nella routine principale non ce nè molto. 
+La maggior parte del codice si trova nella definizione della classe GUI, nella routine principale non ce nè molto.
+
+
 ```python
 # Constant definitions
 global userCancelled, userOK
 userCancelled = "Cancelled"
 userOK = "OK"
-``` Le righe 2,3 e 4 sono quelle che coordinano lo stato della interazione dell\'utente con l\'interfaccia grafica - ad esempio Annulla, OK, o qualsiasi altra definizione di stato dell\'applicazione. Le routine del gestore On Cancel e OnOK precedenti imposta anche questi stati. 
+```
+
+Le righe 2,3 e 4 sono quelle che coordinano lo stato della interazione dell\'utente con l\'interfaccia grafica - ad esempio Annulla, OK, o qualsiasi altra definizione di stato dell\'applicazione. Le routine del gestore On Cancel e OnOK precedenti imposta anche questi stati.
+
+
 ```python
 form = ExampleGuiClass()
 form.exec_()
@@ -343,13 +388,17 @@ if form.result==userOK:
     localVariable2 = form.label2.text()
     localVariable3 = form.label3.text()
     localVariable4 = form.label4.text()
-``` Le righe 1 e 2 mostrano il metodo per invocare la GUI. Per un programma possono esserci più definizioni GUI e inoltre non è necessario che l\'interfaccia grafica sia invocata come prima cosa nel file Python, essa può essere richiamata in qualsiasi momento. Il nome della classe GUI è specificato nella riga 1 (in questo caso è \"ExampleGuiClass\"), ma il resto delle 2 righe deve essere copiato alla lettera.
+```
+
+Le righe 1 e 2 mostrano il metodo per invocare la GUI. Per un programma possono esserci più definizioni GUI e inoltre non è necessario che l\'interfaccia grafica sia invocata come prima cosa nel file Python, essa può essere richiamata in qualsiasi momento. Il nome della classe GUI è specificato nella riga 1 (in questo caso è \"ExampleGuiClass\"), ma il resto delle 2 righe deve essere copiato alla lettera.
 
 Le righe 4 e 6 utilizzano il campo del risultato per determinare l\'azione appropriata. Le ultime 4 righe mostrano semplicemente la copia dei dati nell\'oggetto GUI per le variabili locali alla procedura principale di esecuzione.
 
 ## Esempio completo di codice Modale 
 
-Questo è il codice di esempio completo (sviluppato su FreeCAD v0.14): 
+Questo è il codice di esempio completo (sviluppato su FreeCAD v0.14):
+
+
 ```python
 # import statements
 from PySide import QtGui, QtCore
@@ -552,7 +601,9 @@ if form.result==userOK:
 #SoQt version: 1.5.0
 #OCC version: 6.7.0
 #
-``` Il modo migliore di utilizzare questo codice è quello di copiarlo in un editor o in un file macro di FreeCAD e poi provarlo.
+```
+
+Il modo migliore di utilizzare questo codice è quello di copiarlo in un editor o in un file macro di FreeCAD e poi provarlo.
 
 ## Discussione del codice - Esempio di codice non modale 
 
@@ -560,12 +611,24 @@ Tutti i singoli widget dell\'esempio di finestra modale precedente possono esser
 
 ![](images/PySideScreenSnapshot4.jpg )
 
+### Import Statement 
+
+
+<div class="mw-translate-fuzzy">
+
 ### La dichiarazione Import 
 
-La dichiarazione di importazione obbligatoria 
+La dichiarazione di importazione obbligatoria
+
+
+</div>
+
+
 ```python
 from PySide import QtGui, QtCore
-``` Questa riga è meglio posizionarla all\'inizio del file Python.
+```
+
+Questa riga è meglio posizionarla all\'inizio del file Python.
 
 ### La definizione della classe 
 

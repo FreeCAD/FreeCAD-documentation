@@ -9,14 +9,23 @@
 
 # Sketcher RemoveAxesAlignment/ru
 
+
+</div>
+
 ## Описание
+
+
+<div class="mw-translate-fuzzy">
 
 Данный инструмент удаляет выравнивание осей <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [горизонтальное](Sketcher_ConstrainHorizontal/ru.md) и <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [вертикальное](Sketcher_ConstrainVertical/ru.md) из выбранного элемента, при этом пытается по возможности сохранить ограничения перпендикулярности и эквивалентности ребер.
 
+
+</div>
+
 ## How to use 
 
-1.  Select geometry with axis alignments, for example a [rectangle](Sketcher_CreateRectangle.md).
-2.  Press the <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Remove Axes Alignment** toolbar button.
+1.  Select geometry with axes alignments, for example a [rectangle](Sketcher_CreateRectangle.md).
+2.  Press the <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Remove axes alignment** toolbar button.
 
 As result the (horizontal, vertical constraints) will be removed. In the example of a rectangle, it stays a rectangle but becomes rotatable.
 
@@ -27,10 +36,16 @@ As result the (horizontal, vertical constraints) will be removed. In the example
 *The rectangle after the usage of Remove Axes Alignment.*
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

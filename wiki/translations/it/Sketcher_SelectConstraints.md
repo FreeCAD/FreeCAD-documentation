@@ -21,17 +21,6 @@ Seleziona i vincoli di un elemento dello schizzo.
 
 </div>
 
-## Note
-
-
-<div class="mw-translate-fuzzy">
-
--   Non funziona con il vincolo Punto su oggetto.
--   Disponibile da FreeCAD v 0.15.
-
-
-</div>
-
 
 <div class="mw-translate-fuzzy">
 
@@ -42,7 +31,7 @@ Seleziona i vincoli di un elemento dello schizzo.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

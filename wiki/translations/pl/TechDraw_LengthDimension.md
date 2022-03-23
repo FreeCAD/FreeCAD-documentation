@@ -8,14 +8,14 @@
 
 # TechDraw LengthDimension/pl
 
-## Description
+## Opis
 
 The Length Dimension tool adds a linear dimension to a View. The dimension may be between the distance between two vertices, the length of one edge or the distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Length dimension taken from two arbitrary nodes of the view*
 
-## Usage
+## Użycie
 
 1.  Select the points or edge which define your measurement.
 2.  Press the **<img src="images/TechDraw_LengthDimension.svg" width=20px> [Length Dimension](TechDraw_LengthDimension.md)** button.
@@ -24,13 +24,13 @@ The Length Dimension tool adds a linear dimension to a View. The dimension may b
 
 To change the properties of a dimension object either double-clicking it in the drawing or in the [Tree view](Tree_view.md). This will open the dimension dialog:
 
-## Dimension dialog 
+## Okno dialogowe 
 
 The dimension dialog offers the following settings:
 
 ![](images/TechDraw_DimensionDialog.png )
 
-### Tolerancing
+### Tolerancja
 
 -   **Theoretically Exact**: If checked, is specifies the dimension as theoretically exact dimension. As such, it shall not bear any tolerances. The dimension will be displayed by a frame around the value: <img alt="" src=images/TechDraw_theoretically_exact.png  style="width:100px;">
 
@@ -40,7 +40,7 @@ The dimension dialog offers the following settings:
 
 -   **Undertolerance**: The amount by which the dimension may be smaller.
 
-### Formatting
+### Formatowanie
 
 -   **Format Specifier**: How the dimension value will be formatted. By default the specifier is {{Value|%.xf}} whereby {{Value|x}} is the number of decimals. For the formatting syntax see [this Wikipedia page](https://en.wikipedia.org/wiki/Printf_format_string). There is also an additional {{Value|%w}} format that prints the specified number of digits after the decimal separator and removes trailing zeros. For example, {{Value|%.2w}} means that at most 2 decimals will be printed and any trailing zeros will be cut off.
 
@@ -80,10 +80,10 @@ The dimension dialog offers the following settings:
 
 ## Właściwości
 
-### Data
+### Dane
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|Podstawowe}}
 
 -    **X**: Horizontal position of the dimension text relative to the View.
 
@@ -190,10 +190,10 @@ The dimension dialog offers the following settings:
 
 -    **ExtensionAngle**: angle of extension line(s) with view X axis (in degrees).
 
-### View
+### Widok
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|Podstawowe}}
 
 -    **Visibility**: Sets whether the dimension is visible. `True` - visible, `False` - hidden.
 
@@ -265,14 +265,14 @@ If you want to keep a TechDraw view with dimensions that won\'t break, you need 
 
 See [Landmark Dimensions](TechDraw_LandmarkDimension.md) for another approach to circumventing the topological naming issue.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[API](TechDraw_API/pl.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-The Length Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+Narzędzie **Wymiar długości** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python
@@ -282,7 +282,7 @@ dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)
 ```
 
-## Notes
+## Uwagi
 
 -   **Edge selection**. Edges can be difficult to select. You can adjust the selection area for edges using the parameter \"/Mod/TechDraw/General/EdgeFuzz\" (see [Std\_DlgParameter](Std_DlgParameter.md)). This is a dimension-less number. The default is 10.0. Values in the 20-30 range will make it noticeably easier to select edges. Large numbers will cause overlaps with other drawing elements.
 -   **Decimal places**. Dimensions use the global decimal places setting by default. This can be changed via [preferences](TechDraw_Preferences#Dimensions.md) or by changing the FormatSpec property.

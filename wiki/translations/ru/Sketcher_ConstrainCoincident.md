@@ -30,7 +30,7 @@ As stated above, this tool takes two arguments - both are points.
 6.  Once you have two points highlighted, you can invoke the command using several methods:
     -   Pressing on the **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Coinstrain coincident](Sketcher_ConstrainCoincident.md)** constraint button in the toolbar.
     -   Using the **C** keyboard shortcut.
-    -   Using the **Sketch → Sketcher constraints → Constrain coincident** entry in the top menu.
+    -   Using the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Constrain coincident** entry in the top menu.
 
 
 **Result:**
@@ -78,10 +78,16 @@ As the names `LineFixed` and `LineMoving` indicate, if both constrained vertices
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `LineFixed`, `PointOfLineFixed`, `LineMoving` and `PointOfLineMoving`, and contains further examples on how to create constraints from Python scripts.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

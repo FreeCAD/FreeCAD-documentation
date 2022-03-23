@@ -53,9 +53,17 @@ pq('sin(pi)')
 b = Part.makeBox(pq('2in'), pq('2m')/100, 10)
 ```
 
+## Supported units 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Unterstützte Einheiten 
 
 Eine vollständige Liste aller unterstützten Einheiten kann [hier gefunden](Expressions/de#Einheiten.md) werden.
+
+
+</div>
 
 ## Ziele und Grundsätze: Vorschlag für eine Erweiterung des Einheitenverwaltungssystems 
 
@@ -71,21 +79,45 @@ In diesem Vorschlag wird im Abschnitt [Ideenfindung](Units/de#Brainstorming.md) 
 
 Im [Organisieren](Units/de#Organizing.md) Abschnitt stellen wir das Datenmodell vor, das zur Erreichung der Einheitenverwaltung beibehalten wurde, basierend auf 3 Objekten, der *Einheit*, dem *Einheitenwörterbuch* und dem *Einheitensystem*. Schließlich wird auch eine kurze API eines 4. Objekts namens *Einheitenverwalter* vorgestellt.
 
+## Outcome
+
+
+<div class="mw-translate-fuzzy">
+
 ## Ergebnis
 
 Dank dieser Erweiterung soll die Skalierung von Einheiten, die zwischen verschiedenen geschäftlichen Aufgaben auftreten können, erleichtert werden. Beispielsweise können technische Zeichnungen im Standard Einheitensystem erstellt werden, während die FE Modellierung in einem dafür besser geeigneten Einheitensystem verwaltet werden kann.
 
+
+</div>
+
 Der Datenaustausch zwischen diesen beiden Arten von Aktivitäten wird mit dieser Erweiterung einfacher.
+
+## Brainstorming
+
+
+<div class="mw-translate-fuzzy">
 
 ## Ideenfindung
 
 In diesem Abschnitt werden die Anwendungszusammenhänge eines solchen Einheitenverwaltungssystems hervorgehoben. Anhand dieser Zusammenhänge können wir dann seine technischen Spezifikationen festlegen.
 
+
+</div>
+
 Im Wesentlichen werden 2 Zusammenhänge als Beispiel angeführt.
+
+### Context 1: opening a data file 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Zusammenhang 1: Öffnen einer Datendatei 
 
 Dieser Fall ist wahrscheinlich der häufigste Fall. Du erhältst eine Datei, die zum Beispiel ein geometrisches Modell enthält oder ein Material mit ziemlich vielen Eigenschaften beschreibt. Das geometrische Modell wird in Metern oder die Materialeigenschaften nach dem internationalen Einheitensystem ausgedrückt.
+
+
+</div>
 
 Wie schade\...
 
@@ -93,19 +125,48 @@ Du bist ein Experte für FE Modellierung und arbeitest normalerweise mit Millime
 
 In diesem Zusammenhang ist das Einheitenmanagement erforderlich, um Daten von einem in der Eingabedatei definierten Anfangseinheitensystem auf ein benutzerdefiniertes Zieleinheitensystem zu skalieren.
 
+### Context 2: switching the unit system at runtime 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Zusammenhang 2: Umschalten des Einheitensystems während der Laufzeit 
 
 In diesem Fall kannst du gleichzeitig derjenige sein, der eine Zeichnung ausführt, und derjenige, der die FE Modellierung verwaltet. Ähnlich wie im vorigen Fall sind die Einheitensysteme für diese beiden Aufgaben nicht identisch, und du musst das anfängliche Einheitensystem während der Laufzeit auf dein Lieblingssystem umstellen.
 
+
+</div>
+
 ## Organisieren
+
+### Logic of unit scaling 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Logik der Einheitenskalierung 
 
 Im Abschnitt [Ideenfindung](Units/de#Ideenfindung.md) wurden 2 Zusammenhänge bei der Verwendung der Einheitenskalierung vorgestellt. Aus diesen beiden Zusammenhänge sollen einige Punkte hervorgehoben werden.
 
+
+</div>
+
+#### Unit coherence throughout the FreeCAD running instance 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Einheitenkohärenz in der gesamten laufenden FreeCAD Instanz 
 
 Das vorgeschlagene System basiert auf einer primären Annahme: Der Benutzer arbeitet in einem kohärenten Einheitensystem. Das bedeutet zum Beispiel, dass, wenn der Benutzer die Länge in Millimetern ausdrückt, die Bereiche notwendigerweise in Form von quadrierten Millimetern und nicht in quadrierten Metern ausgedrückt werden. Dies ist **Hypothese eins**.
+
+
+</div>
+
+#### Unit system 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Einheitensystem
 
@@ -115,6 +176,9 @@ Aufgrund der *Hypothese 1* ist es möglich und relevant, ein Einheitensystem zu 
 -   oder es kann auch global für den Inhalt einer Eingabedatei gelten
 
 Gemäß [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf) vom NIST sind es 7 physikalische Basiseinheiten. Wir haben uns dafür entschieden, ein Einheitensystem in Form dieser 7 Basiseinheiten auszudrücken.
+
+
+</div>
 
 When working within an instance of FreeCAD, the user has thus to define first the unit system according to which she/he is working before she/he decides to switch to another unit system, or before importing data from an input file.
 
@@ -131,24 +195,40 @@ Hier sind einige Beispiele für Einheitensysteme.
 -   Millimeter, Kilogramm, Millisekunde, Ampere, Kelvin, Mol, Candela
 -   \...
 
+#### Base and derived units 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Basis- und abgeleitete Einheiten 
 
 Abgeleitete Einheiten werden durch Kombination von Basiseinheiten gebildet. Zum Beispiel kombiniert eine Beschleunigung (m/s) gleichzeitig Länge und Zeit. Ein interessantes Bild, das die Beziehungen zwischen Basis- und abgeleiteten Einheiten darstellt, ist [hier](http://physics.nist.gov/cuu/pdf/SIDiagramColorAnnot.pdf) auch vom NIST zu sehen.
+
+
+</div>
 
 Dank der Definition des *Einheitensystems* ist es dem Anwender möglich, mit jeder Art von abgeleiteten Einheiten zu arbeiten, ohne dass die FreeCADbEntwickler diese im Voraus vorsehen müssen.
 
 #### Base and derived unit symbols 
 
-According to [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf), the symbols to specify a units are officially approved. Two consequences can be highlighted from this.
+According to [The International System of Units (SI)](https://physics.nist.gov/cuu/Units/index.html), the symbols to specify a units are officially approved. Two consequences can be highlighted from this.
 
--   it is not easy for a computer program to work with unit symbols because some are greek letters for instance. Hence they can be a bit difficult to process by a program
--   while some units and their symbols can be used widely, they may be not approved officially, like for instance *tonne* unit (see p32 of [The International System of Units (SI)](http://physics.nist.gov/Pubs/SP330/sp330.pdf))
+-   it is not easy for a computer program to work with unit symbols because some are Greek letters for instance. Hence they can be a bit difficult to process by a program
+-   while some units and their symbols can be used widely, they may be not approved officially, like for instance *tonne* unit (see p55 of [Guide for the Use of the International System of Units (SI)](https://physics.nist.gov/cuu/pdf/sp811.pdf))
 
 To overcome these limitations and remain flexible, the proposed system favors the use of unit magnitudes instead of unit symbols, which remain nonetheless available for an ergonomy reason.
+
+### Data model 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Datenmodell
 
 Es werden die drei Kernobjekte des Einheitenmanagementsystems vorgestellt, nämlich die *Einheiten*, das *Einheitenbeschreibungsverzeichnis* und das *Einheitensystem*.
+
+
+</div>
 
 #### Unit
 

@@ -15,10 +15,10 @@ La commande **Mesh Couper un maillage** coupe des faces entières à partir d\'o
 
 ## Utilisation
 
-1.  Pendant la commande, la [Vue 3D](3D_view.md) ne peut pas être modifiée. Il est conseillé d\'aligner correctement la vue 3D en premier.
+1.  Pendant la commande, la [Vue 3D](3D_view/fr.md) ne peut pas être modifiée. Il est conseillé d\'aligner correctement la vue 3D en premier.
 2.  Sélectionnez un ou plusieurs objets maillés.
 3.  Il existe plusieurs manières d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/Mesh_PolyCut.svg" width=16px> [Mesh Coupe un maillage à l'aide du polygone sélectionné](Mesh_PolyCut/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Mesh_PolyCut.svg" width=16px> [Couper le maillage](Mesh_PolyCut/fr.md)**.
     -   Sélectionnez l\'option **Maillages → Cutting → <img src="images/_Mesh_PolyCut.svg" width=16px> Couper la maillage** dans le menu.
 4.  Définissez un polygone en sélectionnant des points dans la vue 3D.
 5.  Sélectionnez une option dans le menu contextuel de la vue 3D:

@@ -50,7 +50,7 @@ The curvature comb indicates the curvature (value of the second-order derivative
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

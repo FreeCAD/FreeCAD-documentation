@@ -10,11 +10,17 @@
 
 # Sketcher SelectConstraints/de
 
+
+</div>
+
 ## Beschreibung
 
 Wählt die Beschränkungen eines Skizzierer Elements aus.
 
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 Wähle das Skizzenelement im [Aufgabenbereich](Task_panel/de.md) oder in der [3D Ansicht](3D_view/de.md).
 
@@ -32,15 +38,20 @@ Schaltfläche.
 
 1.  Die zugehörigen Beschränkungen werden im [Aufgabenpaneel](Task_panel/de.md) hervorgehoben.
 
-## Hinweise
 
--   Funktioniert nicht mit Punkt-auf-Objekt Beschränkungen.
-
+</div>
 
 
+<div class="mw-translate-fuzzy">
 
 
-{{Sketcher Tools navi
+
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

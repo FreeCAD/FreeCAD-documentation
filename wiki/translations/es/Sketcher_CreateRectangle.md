@@ -10,6 +10,9 @@
 
 # Sketcher CreateRectangle/es
 
+
+</div>
+
 ## Descripción
 
 
@@ -47,7 +50,7 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

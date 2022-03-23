@@ -4,6 +4,7 @@
    MenuLocation:Solve → Solver Mystran
    Workbenches:[FEM](FEM_Workbench.md)
    Shortcut:**S** **M**
+   Version:0.20
    SeeAlso:[FEM tutorial](FEM_tutorial.md)
 ---
 
@@ -11,7 +12,11 @@
 
 ## Description
 
-ToDo
+[SolverMystran](FEM_SolverMystran.md) enables usage of the [MYSTRAN](https://www.mystran.com) solver. It may be used for:
+
+1.  Setting analysis parameters
+2.  Selecting working directory
+3.  Running the MYSTRAN solver
 
 ## Usage
 

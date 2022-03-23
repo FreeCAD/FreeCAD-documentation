@@ -3,6 +3,7 @@
    Name:Sketcher Extend
    MenuLocation:Sketch → Sketcher geometries → Extend edge
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**G** **Q**
    Version:0.17
    SeeAlso:[Sketcher Trim edge](Sketcher_Trimming.md)
 ---
@@ -18,7 +19,7 @@ The **extend edge** tool extends an edge to an arbitrary location in the sketch,
 
 ## Usage
 
-1.  Press the **[<img src=images/Sketcher_Extend.svg style="width:16px"> [Extend](Sketcher_Extend.md)** button.
+1.  Press the **[<img src=images/Sketcher_Extend.svg style="width:16px"> [Extend edge](Sketcher_Extend.md)** button.
 2.  Select a line or an arc.
 3.  In the 3D view, move the mouse pointer toward the direction to extend.
 4.  Click on an arbitrary location in space, or
@@ -33,7 +34,7 @@ The **extend edge** tool extends an edge to an arbitrary location in the sketch,
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

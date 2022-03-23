@@ -27,7 +27,7 @@ La commande **Std Mappage de textures** applique temporairement une texture sur 
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

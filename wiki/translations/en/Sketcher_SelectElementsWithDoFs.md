@@ -1,8 +1,9 @@
 ---
 - GuiCommand:
    Name:Sketcher SelectElementsWithDoFs
-   MenuLocation:Sketch → Sketcher tools → Select solver DoFs
+   MenuLocation:Sketch → Sketcher tools → Select unconstrained DoF
    Workbenches:[Sketcher](Sketcher_Workbench.md)
+   Shortcut:**Z** **F**
    Version:0.18
 ---
 
@@ -33,7 +34,7 @@ where \"X\" is the number of degrees of freedom remaining in the sketch; you wil
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

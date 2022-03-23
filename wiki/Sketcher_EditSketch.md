@@ -25,9 +25,10 @@ There are several ways to invoke the Edit Sketch command:
 
 -   Choosing [Leave Sketch](Sketcher_LeaveSketch.md) will terminate the edit mode.
 
-  
 
- {{Sketcher Tools navi}}
+
+
+ {{Sketcher_Tools_navi}}
 
 
 

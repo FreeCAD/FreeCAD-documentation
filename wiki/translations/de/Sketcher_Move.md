@@ -11,6 +11,9 @@
 
 # Sketcher Move/de
 
+
+</div>
+
 ## Beschreibung
 
 Verschiebt die ausgewählten Skizzenelemente von einem Punkt zum anderen, wobei der zuletzt ausgewählte Punkt als Referenz verwendet wird.
@@ -19,6 +22,9 @@ Verschiebt die ausgewählten Skizzenelemente von einem Punkt zum anderen, wobei 
 *Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt. Wähle Element '''A''' aus; Du siehst eine Vektorlinie, die durch zwei rote Linien vom Drehpunkt '''A''' gekennzeichnet ist und auf die Mauspositionsnummer '''2''' zeigt. Bewege den Mauszeiger auf die Zielposition '''3''' und Du siehst das Element nun als '''B''' autobeschränkt auf Punkt '''3''''.*
 
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle die Skizzenelemente für den Verschiebevorgang aus.
 2.  Es gibt mehrere Wege zum Aufruf der Anweisung:
@@ -30,10 +36,19 @@ Verschiebt die ausgewählten Skizzenelemente von einem Punkt zum anderen, wobei 
 5.  Wenn Du ein Element lösen und frei bewegen möchtest, lösche seine Sperrbeschränkungen und ziehe mit der Maus.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

@@ -8,6 +8,9 @@
 
 # Sketcher CreatePoint/es
 
+
+</div>
+
 ## Descripción
 
 
@@ -43,10 +46,16 @@ El modo de ajuste a la rejilla se puede establecer en el [Preferencias del Croqu
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

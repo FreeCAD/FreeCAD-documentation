@@ -4,7 +4,7 @@
    Name/fr:Sketcher Basculer géométrie interne
    MenuLocation:Sketch → Outils d'esquisse → Afficher/masquer la géométrie interne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**Ctrl**+**Shift**+**E**
+   Shortcut:**Z** **I**
    SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter/fr.md), [Sketcher Contrainte d'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md)
 ---
 
@@ -34,7 +34,7 @@ S\'il existe des emplacements d\'alignement libres pour l\'élément sélectionn
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -11,28 +11,20 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das GeometrischeSchraffur Werkzeug füllt einen geschlossenen Bereich in einer Ansicht mit einem Muster, das auf einer AutoDesk PAT Schraffur Spezifikation basiert. *Alternativ* verwendet das [Schraffur](TechDraw_Hatch/de.md) Werkzeug eine [SVG](SVG/de.md) oder [Bitmap](bitmap/de.md) Datei als Schraffurmuster, siehe [Schraffierung](TechDraw_Hatching/de.md) für Einzelheiten.
-
-
-</div>
+Das Werkzeug <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> **TechDraw GeometrischeSchraffur** füllt einen geschlossenen Bereich in einer Ansicht mit einem Muster, das auf einer AutoDesk PAT Schraffur Spezifikation basiert. Alternativ dazu verwendet das Werkzeug <img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> [TechDraw Schraffur](TechDraw_Hatch.md) SVG-basierte Schraffurmuster. Siehe [Schraffieren](TechDraw_Hatching/de.md) für Einzelheiten.
 
 <img alt="" src=images/TechDraw_GeomHatch_example.png  style="width:300px;"> 
 *Geometrisches Schraffurmuster auf einer Fläche*
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wähle eine geschlossenen Bereich in einer Ansicht aus.
-2.  Drücke die Taste **<img src="images/TechDraw_GeometricHatch.svg" width=16px>[Geometrische Schraffur auf Fläche anwenden](TechDraw_GeometricHatch/de.md)** Schaltfläche
-3.  Ein Dialog öffnet sich , in dem du dein Muster, den Maßstab, Linienstärke und Farbe auswählen kannst.
-
-
-</div>
+2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
+    -   Die Schaltfläche**<img src="images/TechDraw_GeometricHatch.svg" width=16px>[Geometrische Schraffur auf Fläche anwenden](TechDraw_GeometricHatch/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_GeometricHatch.svg" width=16px> Geometrische Schraffur auf Fläche anwenden** auswählen.
+3.  Der Aufgabenbereich zu **Geometrische Schraffur auf Fläche anwenden** öffnet sich.
+4.  Optional können **Pattern File** (Schraffurdatei), **Pattern Name** (Schraffurname), **Pattern Scale** (Schraffurskalierung), **Line Weight** (Linienbreite) und **Line Color** (Linienfarbe) verändert werden.
+5.  Schaltfläche **OK** drücken.
 
 ## Hinweise
 

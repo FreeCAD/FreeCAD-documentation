@@ -33,8 +33,8 @@ La commande <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Draft
 
 ## Remarques
 
--   Si une ligne ouverte est divisée et que le point cliqué ne se trouve pas exactement sur l\'arête sélectionnée, le nouveau point ne sera pas colinéaire avec cette ancienne arête. Utilisez une option appropriée de [Draft Accrochage](Draft_Snap/fr.md) pour éviter cela.
--   Pour diviser des objets qui ne sont pas des [Draft Lignes](Draft_Line/fr.md) ou des [Draft Polylignes](Draft_Wire/fr.md), vous pouvez essayer d\'utiliser [Draft Mettre à niveau](Draft_Upgrade/fr.md) et/ou [Draft Rétrograder](Draft_Downgrade/fr.md) sur eux une ou plusieurs fois d\'abord.
+-   Si une ligne ouverte est divisée et que le point cliqué ne se trouve pas exactement sur l\'arête sélectionnée, le nouveau point ne sera pas colinéaire avec cette ancienne arête. Utilisez une option appropriée de [Draft Aimantation](Draft_Snap/fr.md) pour éviter cela.
+-   Pour diviser des objets qui ne sont pas des [Draft Lignes](Draft_Line/fr.md) ou des [Draft Polylignes](Draft_Wire/fr.md), vous pouvez essayer d\'utiliser [Draft Agréger](Draft_Upgrade/fr.md) et/ou [Draft Désagréger](Draft_Downgrade/fr.md) sur eux une ou plusieurs fois d\'abord.
 
 ## Script
 

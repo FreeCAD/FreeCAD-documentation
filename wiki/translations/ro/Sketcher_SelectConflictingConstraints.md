@@ -31,7 +31,7 @@ Selectează constrângerile conflictuale dintr-o schiță.
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

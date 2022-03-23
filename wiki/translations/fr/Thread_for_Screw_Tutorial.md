@@ -202,10 +202,10 @@ Déterminer le profil horizontal pour obtenir un certain profil vertical n\'est 
 2.  Faites une hélice1 avec une hauteur identique au pas et un pas identique au pas du filetage, et un rayon d\'hélice de 0.42\*diamètre nominal du filetage.
 3.  Balayez le profil de coupe le long de l\'hélice1. Définissez {{CheckBox|TRUE|Create solid}} et {{CheckBox|TRUE|Frenet}}.
 4.  Faire un cercle de rayon nominal du filetage dans le plan XY.
-5.  Créez une face à partir du cercle. Ceci peut être fait avec **[<img src=images/Part_Builder.svg style="width:16px"> [Part Générateur de formes](Part_Builder/fr.md)** ou **[<img src=images/Draft_Upgrade.svg style="width:16px"> [Draft Mettre à niveau](Draft_Upgrade/fr.md)**, puis réglez **MakeFace** sur `True`.
+5.  Créez une face à partir du cercle. Ceci peut être fait avec **[<img src=images/Part_Builder.svg style="width:16px"> [Part Générateur de formes](Part_Builder/fr.md)** ou **[<img src=images/Draft_Upgrade.svg style="width:16px"> [Draft Agréger](Draft_Upgrade/fr.md)**, puis réglez **MakeFace** sur `True`.
 6.  Découpez la face avec le profil de balayage.
 7.  Faites un **[<img src=images/Draft_Clone.svg style="width:16px"> [Draft Clone](Draft_Clone/fr.md)** à partir de la découpe.
-8.  Utilisez **[<img src=images/Draft_Downgrade.svg style="width:16px"> [Draft Rétrograder](Draft_Downgrade/fr.md)** sur le clone afin d\'obtenir un filetage. Ce filetage est le profil horizontal nécessaire pour cette méthode.
+8.  Utilisez **[<img src=images/Draft_Downgrade.svg style="width:16px"> [Draft Désagréger](Draft_Downgrade/fr.md)** sur le clone afin d\'obtenir un filetage. Ce filetage est le profil horizontal nécessaire pour cette méthode.
 9.  Faites une hélice dont le rayon est le rayon nominal du filetage et le pas du filetage et la hauteur du filetage nécessaire.
 10. Balayez le filetage le long de l\'hélice. Définissez {{CheckBox|TRUE|Create solid}} et {{CheckBox|TRUE|Frenet}}.
 11. Vous avez terminé.

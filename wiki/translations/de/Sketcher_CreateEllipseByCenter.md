@@ -2,8 +2,9 @@
 - GuiCommand:/de
    Name:Sketcher CreateEllipseByCenter
    Name/de:Skizzierer Ellipse durch Mittelpunkt erstellen
-   MenuLocation:Skizze → Skizzengeometrien → Ellipse durch Mittelpunkt erstellen
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
+   MenuLocation:Sketch → Skizzengeometrien → Ellipse um Mittelpunkt erstellen
+   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**G** **E** **E**
    Version:0.15
    SeeAlso:[Skizzierer Ellipse durch 3 Punkte](Sketcher_CreateEllipseBy3Points/de.md), [Skizzierer Kreis](Sketcher_CreateCircle/de.md), [[Sketcher_CreateArcOfEllipse/de|Skizzierer
 Ellipsenbogen]]

@@ -38,15 +38,15 @@ On peut voir que la spline de multiplicité de nœud 1 est complètement modifi�
 
 1.  Sélectionnez un nœud B-spline, soit:
     -   Par le bouton **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:16px"> [Diminuer la multiplicité des nœuds](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)**.
-    -   Par le menu **Sketch → Sketcher B-spline tools → [<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> Diminuer la multiplicité de nœud**.
+    -   Par le menu **Sketch → Sketcher B-spline tools → [<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:16px"> Diminuer la multiplicité de nœud**.
 
-**Remarque:** diminuer la multiplicité de 1 à 0 supprimera le nœud car le résultat serait une courbe avec un \"bord\" à la position du nœud (continuité *C*^0^) et cela n\'est pas pris en charge. (Pour créer des courbes avec des \"bords\", vous pouvez créer deux splines et les relier.)
-
-
+**Remarque:** diminuer la multiplicité de 1 à 0 supprimera le nœud car le résultat serait une courbe avec un \"bord\" à la position du nœud (continuité *C*^0^) et cela n\'est pas pris en charge. (Pour créer des courbes par un \"bord\", vous pouvez créer deux splines et les relier.)
 
 
 
-{{Sketcher Tools navi
+
+
+{{Sketcher_Tools_navi
 
 }}
 

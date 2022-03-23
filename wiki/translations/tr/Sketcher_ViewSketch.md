@@ -38,7 +38,7 @@ Eskiz düzenleme modundayken ya da
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

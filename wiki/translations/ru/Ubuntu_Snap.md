@@ -80,7 +80,8 @@ To find out the latest upstream revision number (also known as \'HEAD\'):
 
 
 {{Code|lang=bash|code=
-git rev-list --count HEAD
+git pull upstream master  # first make sure we have the most up-to-date commits
+git rev-list --count HEAD # 'HEAD' refers to the current commit you are viewing (tip of the master branch)
 }}
 
 To translate the current snap development version in to a revision number (make sure you\'re within your cloned FreeCAD repository as mentioned above):
@@ -88,13 +89,28 @@ To translate the current snap development version in to a revision number (make 
 
 {{Code|lang=bash|code=
 snap info freecad-ppd <nowiki>|</nowiki>\
-grep -e '^installed:' <nowiki>|</nowiki>\
+grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 cut -d'~' -f2 <nowiki>|</nowiki>\
 xargs -I{} git rev-list --count {}
 }}
 
-The difference between the numbers will tell you how many revisions behind upstream the snap development (edge) is.
+**Note:** the above bash script 1 liner assumes user has \'edge\' (nightly) installed
+
+The difference between HEAD and the snap edge revision numbers indicates the amount of revisions trailing behind upstream the snap development (edge) is.
+
+Taking it a step further, if you want a short summary of the commits between the current snap edge and HEAD:
+
+
+{{Code|lang=bash|code=
+snap info freecad-ppd <nowiki>|</nowiki>\
+grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
+awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
+cut -d'~' -f2 <nowiki>|</nowiki>\
+xargs -I{} git log --oneline --ancestry-path {}..HEAD
+}}
+
+**Note:** The output will indicate what commits **are not** in the current \'edge\' (but will be on the next nightly update).
 
 ## Ссылки
 

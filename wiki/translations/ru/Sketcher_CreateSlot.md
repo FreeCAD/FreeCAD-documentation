@@ -8,6 +8,9 @@
 
 # Sketcher CreateSlot/ru
 
+
+</div>
+
 ## Описание
 
 Рисует паз, по двум указанным центрам полуокружностей. (В более старых версиях FreeCAD, по центр полукруга и конечной точке другого полукруга.)
@@ -32,10 +35,16 @@
 -   A slot can also be constrained horizontally or vertically if the **Auto constraints** option is enabled. <small>(v0.20)</small> 
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

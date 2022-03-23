@@ -15,6 +15,9 @@
 
 ## Типы правильных многоугольников 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Нарисовать равносторонний треугольник](Sketcher_CreateTriangle/ru.md) : Рисует равносторонний треугольник по двум указанным точкам: центр и один угол.
 -   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> [Нарисовать квадрат](Sketcher_CreateSquare/ru.md) : Рисует квадрат по двум указанным точкам: центр и один угол.
 -   <img alt="" src=images/Sketcher_CreatePentagon.svg  style="width:32px;"> [Нарисовать пятиугольник](Sketcher_CreatePentagon/ru.md) : Рисует пятиугольник по двум указанным точкам: центр и один угол.
@@ -24,10 +27,13 @@
 -   <img alt="" src=images/Sketcher_CreateRegularPolygon.png  style="width:32px;"> [Нарисовать обычный многоугольник](Sketcher_CreateRegularPolygon/ru.md) : Рисует правильный многоугольник, выбирая количество сторон и указывая две точки: центр и один угол.
 
 
+</div>
 
 
 
-{{Sketcher Tools navi
+
+
+{{Sketcher_Tools_navi
 
 }}
 

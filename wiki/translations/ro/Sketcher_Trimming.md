@@ -48,15 +48,11 @@ Pentru a utiliza instrumentul, faceți:
 
 </div>
 
-## Limitations
-
--    {{VersionMinus|0.18}}Arcs of hyperbola, arcs of parabola and B-splines cannot be trimmed.
 
 
 
 
-
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

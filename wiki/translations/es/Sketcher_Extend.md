@@ -10,6 +10,9 @@
 
 # Sketcher Extend/es
 
+
+</div>
+
 ## Descripción
 
 
@@ -51,10 +54,16 @@ La herramienta **extender borde** extiende una borde a una ubicación arbitraria
 -   The target edge or point object may be modified as well if it is not fully constrained.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

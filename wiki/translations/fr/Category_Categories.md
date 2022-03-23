@@ -17,8 +17,8 @@ Utilisez les outils suivants pour travailler avec les :
 | [Category:Documentation/fr](wiki/Category_Documentation/fr.md) | [Category:Help/fr](wiki/Category_Help/fr.md) | [Category:Hubs/fr](wiki/Category_Hubs/fr.md) |
 | [Category:Image/fr](wiki/Category_Image/fr.md) | [Category:Macros/fr](wiki/Category_Macros/fr.md) | [Category:News/fr](wiki/Category_News/fr.md) |
 | [Category:Python Code/fr](wiki/Category_Python Code/fr.md) | [Category:Repository/fr](wiki/Category_Repository/fr.md) | [Category:Roadmap/fr](wiki/Category_Roadmap/fr.md) |
-| [Category:Sandbox/fr](wiki/Category_Sandbox/fr.md) | [Category:Template/fr](wiki/Category_Template/fr.md) | [Category:Tutorials/fr](wiki/Category_Tutorials/fr.md) |
-| [Category:UnfinishedDocu/fr](wiki/Category_UnfinishedDocu/fr.md) | [Category:Wiki/fr](wiki/Category_Wiki/fr.md) |
+| [Category:Sandbox/fr](wiki/Category_Sandbox/fr.md) | [Category:Template/fr](wiki/Category_Template/fr.md) | [Category:UnfinishedDocu/fr](wiki/Category_UnfinishedDocu/fr.md) |
+| [Category:Wiki/fr](wiki/Category_Wiki/fr.md) |
 
 
 

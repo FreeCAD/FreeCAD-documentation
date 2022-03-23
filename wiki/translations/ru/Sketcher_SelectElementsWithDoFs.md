@@ -9,6 +9,9 @@
 
 # Sketcher SelectElementsWithDoFs/ru
 
+
+</div>
+
 ## Описание
 
 This tool is meant to aid in fully constraining a sketch by highlighting in green the sketch elements with remaining degrees of freedom (DoF).
@@ -31,10 +34,16 @@ where \"X\" is the number of degrees of freedom remaining in the sketch; you wil
 > Fully constrained sketch 
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

@@ -4,6 +4,7 @@
    Name/fr:Std Basculer le plan de coupe
    MenuLocation:Affichage → Plan de coupe
    Workbenches:Tous
+   SeeAlso:[Part Coupe persistante](Part_SectionCut/fr.md)
 ---
 
 # Std ToggleClipPlane/fr
@@ -42,7 +43,7 @@ La commande **Std Basculer le plan de coupe** masque temporairement les objets e
 
 
 
-{{Std Base navi
+{{Std_Base_navi
 
 }}
 

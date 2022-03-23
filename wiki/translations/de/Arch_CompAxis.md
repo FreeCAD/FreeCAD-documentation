@@ -16,18 +16,11 @@ Achse erstellen.
 
 ## Achsentypen
 
--   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Achsen](Arch_Axis/de.md): Fügt dem Dokument eine Anordnung gleich ausgerichteter Achsen hinzu
--   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Achsensystem](Arch_AxisSystem/de.md): Fügt dem Dokument ein aus mehreren Achsen gebildetes Achsensystem hinzu
--   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Gitter](Arch_Grid/de.md): Fügt dem Dokument ein gitterartiges Objekt hinzu
+-   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Achse](Arch_Axis/de.md): Fügt eine eindimensionale Anordnung von Achsen hinzu.
 
+-   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [AchsenSystem](Arch_AxisSystem/de.md): Fügt ein Achsensystem, das aus mehreren Achsen besteht, hinzu.
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Gitter](Arch_Grid/de.md): Fügt ein gitterartiges Objekt hinzu.
 
 
 

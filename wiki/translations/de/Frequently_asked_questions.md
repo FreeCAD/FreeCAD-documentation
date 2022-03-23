@@ -177,13 +177,29 @@ Es gibt eine Menge Dokumentation, die an verschiedenen Stellen verteilt ist, sow
 
 ### Ich möchte Daten im XYZ Format nach/von FreeCAD im-/exportieren. Wie mache ich das? 
 
+
+<div class="mw-translate-fuzzy">
+
 Bitte beachte die Seite [FreeCAD Wie Importieren Exportieren](FreeCAD_Howto_Import_Export/de.md). Vielleicht sind deine Fragen dort bereits beantwortet.
+
+
+</div>
+
+### Where can I find workarounds for features that FreeCAD currently does not support? 
+
+Please refer to the [Workarounds](Workarounds.md) page.
 
 ## Arbeiten mit Part Geometrie 
 
 ### Wie extrudiere ich Sachen in Festkörper? Ich erhalte nicht das richtige Ergebnis 
 
+
+<div class="mw-translate-fuzzy">
+
 Die Theorie ist einfach: Linien (oder Drähte), wenn sie extrudiert werden, bilden Flächen. Flächen, wenn sie extrudiert werden, bilden Volumenkörper. Wenn du etwas extrudierst und das Ergebnis kein Festkörper ist, dann war das Etwas keine Fläche. Wenn du Linien hast und daraus einen Festkörper extrudieren willst, musst du zuerst Linien auswählen, die einen geschlossenen Umfang bilden (wähle mehrere Objekte durch Drücken von **Ctrl** aus), verbinden sie zu einem Draht ([Werkzeug Heraufstufen](Draft_Upgrade/de.md)) und mache dann aus diesem Draht eine Fläche (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> wieder Werkzeug Heraufstufen). So, wenn alles gut gegangen ist, kannst du jetzt zu einem Festkörper extrudieren.
+
+
+</div>
 
 Nun kann es viele kleine Verdrehungen geben, die dazu führen, dass du das falsche Ergebnis erhälst. Der beste Weg, um sicher zu gehen, ist zu überprüfen, was sich im Inneren des Objekts befindet, das du extrudierst. Der Inhalt von Objekten kann mit Python leicht erforscht werden. Angenommen, du hast ein Objekt mit dem Namen \"Wire\", dann könntest du dies in die Python Konsole eingeben:
 

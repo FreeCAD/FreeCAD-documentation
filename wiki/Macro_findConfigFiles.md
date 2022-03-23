@@ -4,8 +4,8 @@
 |Icon=Macro_findConfigFiles.png
 |Description=Use this macro to find your user setting configuration files, that is,<br/>'''system.cfg'''<br/>'''user.cfg'''<br/>These files can be renamed in order to reset FreeCAD's settings back to their original defaults. This can sometimes fix problems you are having with FreeCAD.<br/>You should exit FreeCAD before renaming the files, and then open FreeCAD again afterwards. If renaming the files did not solve the issue you were having you can delete the new files FreeCAD created and rename the original files back to their original names in order to restore your previous settings. You can also safely delete the renamed files once you are certain you no longer need or want them, but it is recommended to rename them instead of deleting until you are certain they are no longer needed.<br/>Note: The macro does not rename the files or make any changes to your settings. It merely finds the location of these files, copies that location to the clipboard, and (attempts to) open the folder containing these files on your computer using the default file browser. 
 |Author=TheMarkster
-|Version=2022.03.03
-|Date=2022-03-03
+|Version=2022.03.15
+|Date=2022-03-15
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/b/b5/Macro_findConfigFiles.png ToolBar Icon]
 }}
@@ -43,7 +43,7 @@ __title__ = "findConfigFiles"
 __author__ = "TheMarkster"
 __url__ = "https://www.freecadweb.org/wiki/Macro_findConfigFiles"
 __Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_findConfigFiles"
-__date__ = "2022.03.03" 
+__date__ = "2022.03.15" 
 __version__ = __date__
 
 
@@ -63,29 +63,36 @@ msgBox.addButton(QtGui.QMessageBox.Cancel)
 msgBox.addButton("Copy to Clipboard and Open",QtGui.QMessageBox.ApplyRole)
 
 #HTML tags are part of the source -- do not edit
-
+#thanks to user C4e for help with the paragraph formatting
 msg = """
- These files are located here on your system:<br/>
- <br/>
- <b><font color = 'blue'>"""+userFolder+"""</font></b><br/>
- <br/>
- This macro is to aid you in renaming your user app configuration <br/>
- files.  This can *sometimes* correct some issues you are having <br/>
- using FreeCAD.  If it doesn't work you can always go back and <br/>
- rename them back to their original names.<br/>
- <br/>
- To reset your configuration settings, exit FreeCAD and rename these 2 files:<br/>
- <br/>
- <b><font color='blue'>system.cfg</font></b> (rename to system.cfg.backup or something similar)<br/>
- <b><font color = 'blue'>user.cfg</font></b>   (rename to user.cfg.backup or something similar)<br/>
- <br/>
- When you press OK we will attempt to open the folder location for you, but <br/>
- you might need to open it manually if this doesn't work. <br/>
- <br/>
- Renaming these files will reset *all* of your FreeCAD settings back to default.<br/>
- <br/>
- (This macro does *not* make any changes to these files or to your user settings.)<br/>
+ These files are located here on your system:
+ <p>
+    <b><font color = 'blue'>""" + userFolder + """</font></b>
+ </p>
+ <p>
+ This macro was created to support you in renaming the configuration files of your user application. 
+ This can <i>sometimes</i> correct some issues you are having using FreeCAD.
+ If it doesn't work you can always go back and rename them back to their original names.
+ </p>
+ <p>
+ To reset your configuration settings, exit FreeCAD and rename these 2 files:
+ <ul>
+    <li><b><font color='blue'>system.cfg</font></b>
+    <li><b><font color = 'blue'>user.cfg</font></b>
+ </ul>
+ Rename them e.g. to user/system.cfg.backup or something similar.
+ </p>
+ <p>
+ When you press OK the macro will attempt to open the folder location for you, but 
+ you might need to open it manually if this doesn't work.
+ </p>
+ <p>
+ Renaming these files will reset <i>all</i> of your FreeCAD settings back to default.
+ </p>
+ <p>
+ (This macro does <i>not</i> make any changes to these files or to your user settings.)</p>
  """
+
 
 msgBox.setText(msg)
 ok = msgBox.exec_()

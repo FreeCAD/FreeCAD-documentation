@@ -27,15 +27,27 @@ Selecciona las restricciones redundantes de un croquis.
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Entre en el modo de edición del croquis.
 2.  Elige **Croquis → Croquizador Herramientas → [<img src=images/Sketcher_SelectRedundantConstraints.svg style="width:16px"> Seleccione Restricciones redundantes** en el menú superior.
 3.  Se seleccionarán las restricciones redundantes del croquis.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

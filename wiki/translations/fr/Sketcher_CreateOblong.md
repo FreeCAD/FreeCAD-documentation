@@ -4,6 +4,7 @@
    Name/fr:Sketcher Rectangle arrondi
    MenuLocation:Sketch → Géométries d'esquisse → Créer un rectangle arrondi
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **O**
    Version: 0.20
    SeeAlso:[Sketcher Rectangle](Sketcher_CreateRectangle/fr.md)
 ---
@@ -25,7 +26,7 @@ Cet outil dessine un rectangle arrondi en choisissant deux points opposés. Au d
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

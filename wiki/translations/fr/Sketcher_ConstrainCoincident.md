@@ -30,10 +30,10 @@ Comme indiqué ci-dessus, cet outil prend deux arguments - les deux, sont des po
 6.  Une fois que vous avez mis en évidence deux points, vous pouvez appeler la commande à l\'aide de plusieurs méthodes:
     -   En appuyant sur le bouton de contrainte **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Contrainte coïncidente](Sketcher_ConstrainCoincident/fr.md)** dans la barre d\'outils.
     -   Utilisation du raccourci clavier **C**.
-    -   Utilisation de l\'entrée **Sketch → Contraintes d'esquisse → Contrainte coïncidente** dans le menu supérieur.
+    -   Utilisation de l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Contrainte coïncidente** dans le menu supérieur.
 
 
-**Resultat:**
+**Résultat:**
 
 la commande fera que les deux points deviendront *coïncidents* et seront remplacés par un seul point.
 
@@ -81,7 +81,7 @@ La page [Sketcher : Écrire un script](Sketcher_scripting/fr.md) explique les va
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

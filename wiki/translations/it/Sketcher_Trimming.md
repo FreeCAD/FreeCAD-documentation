@@ -33,16 +33,6 @@ Questo strumento accorcia, rifila una linea fino al primo punto di intersezione,
 
 </div>
 
-## Limitazioni
-
-
-<div class="mw-translate-fuzzy">
-
--   Per il momento archi di iperbole, archi di parabola e B-splines non possono essere tagliati.
-
-
-</div>
-
 
 <div class="mw-translate-fuzzy">
 
@@ -53,7 +43,7 @@ Questo strumento accorcia, rifila una linea fino al primo punto di intersezione,
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

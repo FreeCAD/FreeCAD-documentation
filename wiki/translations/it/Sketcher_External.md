@@ -115,7 +115,7 @@ Quando lo schizzo viene chiuso le linee Geometria esterna non sono più visibili
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

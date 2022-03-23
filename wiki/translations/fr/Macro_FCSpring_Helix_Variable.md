@@ -4,20 +4,20 @@
 |Icon=FCSpring Helix Variable.png
 |Description=Cette macro crée un ressort avec personnalisable, tout tour peut changer la configuration du ressort peut être enregistré dans un fichier avec l'extension '''.FCSpring'''.<br/>Sont détectés: Surface (direction de la face), Cylindre (rayon), Ellipse (rayon mineur), Sphère (rayon), Tore (rayon1), Plan (direction), Ligne (suit la direction), point (Position XYZ du vertex) <br / > Si aucun objet n'est détecté (pas de sélection), le ressort est créé au point XYZ 0., 0., 0. <br/>Voir des [https://www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable/fr#Exemples exemples]
 |Author=Mario52
-|Version=01.17
-|Date=2020/11/12
+|Version=01.18
+|Date=2022/03/16
 |Download= du fichier .zip [https://forum.freecadweb.org/download/file.php?id=80844 des icônes]
 |FCVersion=0.19
 }}
 
 ## Description
 
-Cette macro crée un ressort hautement personnalisable. Toute modification modifiant la configuration du ressort peut être enregistrée dans un fichier avec l\'extension .FCSpring
+Cette macro crée un ressort hautement personnalisable. Toute modification modifiant la configuration du ressort peut être enregistrée dans un fichier avec l\'extension .FCSpring ou coordonnées .FCSpringCoor
 Sont détectées: Surface (Direction de la face), Cylindre (Rayon), Ellipse (MinorRadius), Sphère (Rayon), Toroid (Rayon1), Plan (direction), ligne (suivre la direction), point (position du sommet XYZ)
 Si aucun objet n\'est détecté (pas de sélection) le ressort est créé au point XYZ 0., 0., 0.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/5906d5d10c1d9c2b20dc34aa2a28a2634f2a49ba/Macro_FCSpring_Helix_Variable.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/8b0b60336a62f22c0730e6fb88687ffd1b1dd502/Macro_FCSpring_Helix_Variable.FCMacro}}
 
 <img alt="" src=images/TruncateSpring00.png  style="width:400px;"> 
 *FCSpring Helix Variable*
@@ -291,6 +291,33 @@ Lissage des spires aux changements des spires : fait
 Modification du diamètre à chaque spire au choix : fait
 
 ## Versions
+
+2022/03/16 Version 0.18 : ajout scrollBar, possibilité docking Gauche or Droite, restauration du chrono *(time.time())*, mémorise le dernier FilePath
+
+
+```python
+####chrono################
+import time
+global depart ; depart  = 0.0
+global arrivee; arrivee = 0.0
+def chrono(switch):    # 0=depart autre=stop
+#time.strftime('%X %x %Z')#'15:44:07 12/14/19 Paris, Madrid'
+    global depart
+    global arrivee
+    try:
+        if switch == 0:
+            depart = time.time()#time.clock()
+            App.Console.PrintMessage("Chrono begin   : "+str(time.strftime('%X'))+"\n")
+        else:
+            arrivee = time.time()#time.clock()
+            App.Console.PrintMessage("Chrono end     : "+str(time.strftime('%X'))+"\n")
+            parcouru = ((arrivee - depart)/60.0)
+            App.Console.PrintError("Time execution : "+str("%.3f" % parcouru)+" min"+"\n\n")
+        return parcouru
+        FreeCADGui.updateGui()    
+    except Exception: None
+####chrono################
+```
 
 2020/11/12 Version=01.17 : suppression du timer chrono !!
 

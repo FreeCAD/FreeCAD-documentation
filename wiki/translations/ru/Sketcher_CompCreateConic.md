@@ -15,6 +15,9 @@
 
 ## Типы конических сечений 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Эллипс по центральной точке](Sketcher_CreateEllipseByCenter/ru.md): Создать эллипс по центральной точке, точке большого радиуса и точке малого радиуса.
 -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Эллипс по 3 точкам](Sketcher_CreateEllipseBy3Points/ru.md): Создать эллипс по большому диаметру (2 точки) и малому радиусу.
 -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;">[Дуга по эллипсу](Sketcher_CreateArcOfEllipse/ru.md): Создать дугу эллипса по центральной точке, точке большого радиуса, начальной и конечной точкам.
@@ -22,10 +25,19 @@
 -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Дуга по параболе](Sketcher_CreateArcOfParabola/ru.md): Создать дугу по параболе.
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

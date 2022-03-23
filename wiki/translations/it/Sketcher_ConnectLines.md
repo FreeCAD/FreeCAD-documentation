@@ -43,7 +43,7 @@ Prima di utilizzare questo comando assicurarsi che agli elementi siano già appl
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -3,9 +3,11 @@
    Name:Sketcher ConstrainDiameter
    Name/pl:Szkicownik: Wiązanie średnicy
    MenuLocation:Sketch → Wiązania szkicownika → Wiązanie średnicy
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md), [Projekt części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), [Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md)
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md),
+[Projekt Części](PartDesign_Workbench/pl.md)
+   Shortcut:**K** **O**
    Version:0.18
+   SeeAlso:[Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), [Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md)
 ---
 
 # Sketcher ConstrainDiameter/pl
@@ -45,7 +47,7 @@ Strona [skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, któ
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

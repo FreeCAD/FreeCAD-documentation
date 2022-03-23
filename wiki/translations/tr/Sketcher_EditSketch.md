@@ -49,7 +49,7 @@ Bu komut, varolan bir eskizi düzenlemenizi sağlar.
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

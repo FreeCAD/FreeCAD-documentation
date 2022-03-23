@@ -101,20 +101,22 @@ Instructions pour ajouter des lignes médianes et des représentations angulaire
 
 ## MEF (FEM) 
 
-FEM example01 pic00.jpg\|link=[FEM CalculiX Cantilever 3D/fr](FEM_CalculiX_Cantilever_3D/fr.md)\|[Exemple d\'analyse FEM](FEM_CalculiX_Cantilever_3D/fr.md) (v0.17)
-Exemple inclus dans l\'installation de FreeCAD : il présente une analyse de base avec le solveur CalculiX FEM. Purgez le résultat actuel, relancez le solveur et visualisez les déplacements et les contraintes dans le maillage déformé de la fenêtre.
+FEM example01 pic00.jpg\|link=[FEM\_CalculiX\_Cantilever\_3D/fr](FEM_CalculiX_Cantilever_3D/fr.md)\|[FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) (v0.17)
+Il s\'agit d\'un exemple inclus dans chaque installation de FreeCAD ; il démontre une analyse de base avec le solveur FE de CalculiX. Purgez le résultat en cours, relancez le solveur et visualisez les déplacements et les contraintes dans le maillage déformé dans la fenêtre d\'affichage.
 
-FEM tutorial result.png\|link = [FEM tutorial/fr](FEM_tutorial/fr.md)\|[FEM tutoriel](FEM_tutorial/fr.md) (v0.17)
-Courte introduction aux étapes nécessaires pour effectuer une analyse dans FEM. Workbench: modélisez votre objet, créez un maillage, ajoutez des contraintes et des forces, ajoutez un matériau, exécutez le solveur et visualisez les résultats.
+FEM tutorial result.png\|link=[FEM\_tutorial/fr](FEM_tutorial/fr.md)\|[FEM Tutoriel](FEM_tutorial/fr.md) (v0.17) Il s\'agit d\'une courte introduction aux étapes nécessaires pour effectuer une analyse dans l\'atelier FEM : modéliser votre objet, créer un maillage, ajouter des contraintes et des forces, ajouter un matériau, exécuter le solveur, et visualiser les résultats.
 
-Figure 11 Deformed Mesh.png\|link=[FEM Shear of a Composite Block/fr](FEM_Shear_of_a_Composite_Block/fr.md)\|[FEM cisaillement d\'un bloc composite](FEM_Shear_of_a_Composite_Block/fr.md) (v0.17)
-Etude de la déformation d\'un bloc constitué d\'un noyau dur entouré d\'un matériau plus tendre: créer des régions de maillage, ajouter des matériaux, définir des contraintes de glissement, ajouter des charges de cisaillement, lancez le solveur et visualisez les résultats avec un plan de découpe.
+Figure 11 Deformed Mesh.png\|link=[FEM\_Shear\_of\_a\_Composite\_Block/fr](FEM_Shear_of_a_Composite_Block/fr.md)\|[FEM Cisaillement d\'un bloc composite](FEM_Shear_of_a_Composite_Block/fr.md) (v0.17)
+Étudie la déformation d\'un bloc constitué d\'un noyau dur entouré d\'un matériau plus mou : créez des régions maillées, ajoutez des matériaux, mettez en place des contraintes de glissement, ajoutez des charges de cisaillement, exécutez le solveur et visualisez les résultats à l\'aide d\'un plan de coupe.
 
-Femconcrete\_Wall\_3D\_rx\_PSS.png\|link=[Analysis\_of\_reinforced\_concrete\_with\_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analyse du béton armé avec FEM](Analysis_of_reinforced_concrete_with_FEM/fr.md) (v0.19)
-Estimation du niveau de renforcement requis dans une structure en béton pour éviter les ruptures fragiles sous tension ou cisaillement.
+Femconcrete\_Wall\_3D\_rx\_PSS.png\|link=[Analysis\_of\_reinforced\_concrete\_with\_FEM/fr](Analysis_of_reinforced_concrete_with_FEM/fr.md)\|[FEM Analyse du béton armé](Analysis_of_reinforced_concrete_with_FEM/fr.md) (v0.19)
+Estime le niveau d\'armature requis dans une structure en béton pour éviter une rupture en traction ou en cisaillement.
 
-FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing des résultats FEM avec Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
-Ce didacticiel explique les bases du transfert de données depuis l\'atelier FEM vers Paraview et affiche certaines des options et des paramètres d\'affichage des données.
+Two\_balls\_result\_2-cropped.png\|link=[FEM\_Example\_Capacitance\_Two\_Balls/fr](FEM_Example_Capacitance_Two_Balls/fr.md)\|[FEM Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md) (v0.19)
+Cet exemple montre comment simuler une capacité. Il illustre comment configurer l\'exemple, étudier ses différentes parties, le résoudre en utilisant le [solveur Elmer](FEM_SolverElmer/fr.md) et visualiser les résultats en utilisant un [Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md).
+
+FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview/fr](Post-Processing_of_FEM_Results_with_Paraview/fr.md)\|[Post-traitement des résultats FEM avec Paraview](Post-Processing_of_FEM_Results_with_Paraview/fr.md) (v0.19)
+Ce tutoriel explique les bases du transfert des données de l\'atelier FEM vers Paraview et montre certaines des options et paramètres d\'affichage des données.
 
 ## CNC & impression 3D 
 

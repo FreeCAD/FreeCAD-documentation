@@ -106,13 +106,13 @@ Sketch.addConstraint(Sketcher.Constraint('PerpendicularViaPoint',icurve1,icurve2
 
 :\* `point géoïde` et `pointpos` dans PerpendicularViaPoint sont les indices spécifiant le point de perpendicularité.
 
-La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `icurve1`, `icurve2`, `pointpos1`, `pointpos2` et `geoidpoint` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `icurve1`, `icurve2`, `pointpos1`, `pointpos2` et `geoidpoint` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

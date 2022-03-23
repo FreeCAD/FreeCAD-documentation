@@ -7,7 +7,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Disegna un poligono regolare inscritto in una circonferenza di costruzione. Quando si avvia lo strumento, appare una finestra che chiede il numero di lati del poligono regolare. Una volta premuto il pulsante **OK**, il puntatore del mouse diventa una croce bianca con un\'icona a forma di esagono rosso. Le coordinate del puntatore sono mostrate accanto in blu in tempo reale.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

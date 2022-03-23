@@ -20,10 +20,10 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Part Module/uk](wiki/Part Module/uk.md) | [PartDesign Workbench/uk](wiki/PartDesign Workbench/uk.md) | [Preferences Editor/uk](wiki/Preferences Editor/uk.md) |
 | [Property editor/uk](wiki/Property editor/uk.md) | [Raytracing Workbench/uk](wiki/Raytracing Workbench/uk.md) | [Robot Workbench/uk](wiki/Robot Workbench/uk.md) |
 | [Ship Workbench/uk](wiki/Ship Workbench/uk.md) | [Sketcher Workbench/uk](wiki/Sketcher Workbench/uk.md) | [Standard Menu/uk](wiki/Standard Menu/uk.md) |
-| [Surface Workbench/uk](wiki/Surface Workbench/uk.md) | [TechDraw Workbench/uk](wiki/TechDraw Workbench/uk.md) | [Template:TutorialInfo/uk](wiki/Template_TutorialInfo/uk.md) |
-| [Tutorials/uk](wiki/Tutorials/uk.md) | [User hub/uk](wiki/User hub/uk.md) | [Video tutorials/uk](wiki/Video tutorials/uk.md) |
-| [Workbenches/uk](wiki/Workbenches/uk.md) | [Category:Arch/uk](wiki/Category_Arch/uk.md) | [Category:BIM/uk](wiki/Category_BIM/uk.md) |
-| [Category:Draft/uk](wiki/Category_Draft/uk.md) | [Category:Workbenches/uk](wiki/Category_Workbenches/uk.md) |
+| [Surface Workbench/uk](wiki/Surface Workbench/uk.md) | [TechDraw Workbench/uk](wiki/TechDraw Workbench/uk.md) | [Tutorials/uk](wiki/Tutorials/uk.md) |
+| [User hub/uk](wiki/User hub/uk.md) | [Video tutorials/uk](wiki/Video tutorials/uk.md) | [Workbenches/uk](wiki/Workbenches/uk.md) |
+| [Category:Arch/uk](wiki/Category_Arch/uk.md) | [Category:BIM/uk](wiki/Category_BIM/uk.md) | [Category:Draft/uk](wiki/Category_Draft/uk.md) |
+| [Category:Tutorials/uk](wiki/Category_Tutorials/uk.md) | [Category:Workbenches/uk](wiki/Category_Workbenches/uk.md) |
 
 
 

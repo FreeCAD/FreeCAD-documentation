@@ -3,22 +3,19 @@
    Name:PartDesign Thickness
    Name/de:PartDesign Dicke
    Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   MenuLocation:Part Design → Apply a dress up feature (Verschönerung) → Dicke
+   MenuLocation:Part Design → Modifikationen → Dicke
    Version:0.17
    SeeAlso:[Part Dicke](Part_Thickness/de.md)
 ---
 
 # PartDesign Thickness/de
 
-
-</div>
-
 ## Beschreibung
 
 Das Werkzeug *Dicke* bearbeitet einen Festkörper und wandelt ihn in einen dickwandigen hohlen Gegenstand mit mindestens einer offenen Fläche um, der jeder seiner verbleibenden Flächen eine gleichmäßige Dicke verleiht. Bei einigen Volumenkörpern können Sie die Arbeit erheblich beschleunigen und vermeiden, dass Extrusionen und Taschen entstehen.
 
 <img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
-*The thickness tool applied to a face (B) of a solid (A), resulting in the hollow object (C).*
+*Das Werkzeug Dicke angewendet auf die Fläche (B) eines Volumenkörpers (A) ergibt das hohle Objekt (C).*
 
 ## Anwendung
 
@@ -74,15 +71,9 @@ Resultat: ![](images/Brga-spessore.png )
 
 ## Bekannte Probleme 
 
-
-<div class="mw-translate-fuzzy">
-
 -   BRep\_API: command not done (Befehl nicht ausgeführt)
--   BRep\_Tool:: no parameter on edge
+-   BRep\_Tool: no parameter on edge
 -   Fehlschlag ohne weitere Fehlermeldung
-
-
-</div>
 
 
 

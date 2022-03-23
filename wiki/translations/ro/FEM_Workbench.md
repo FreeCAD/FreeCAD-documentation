@@ -160,9 +160,15 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-elmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md):
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md):
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Fem-solver.svg  style="width:32px;"> [Solver Z88](FEM_SolverZ88.md):
+
+
+</div>
 
 -   <img alt="" src=images/Fem-equation-elasticity.svg  style="width:32px;"> [Equation elasticity](FEM_EquationElasticity.md):
 

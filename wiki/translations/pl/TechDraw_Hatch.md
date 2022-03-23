@@ -11,13 +11,7 @@
 
 ## Opis
 
-
-<div class="mw-translate-fuzzy">
-
-Narzędzie **Hatch** wypełnia zamknięty obszar w widoku wzorcem kreskowania, którym mogą być pliki [SVG](SVG.md) lub [bitmap](bitmap.md). W odróżnieniu od tego, narzędzie <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [kreskowanie geometryczne](TechDraw_GeometricHatch/pl.md) wykorzystuje konkretny plik wzoru PAT, szczegółowe informacje znajdują się na stronie [kreskowanie](TechDraw_Hatching/pl.md).
-
-
-</div>
+Narzędzie <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **Kreskowanie** środowiska Rysunek Techniczny wypełnia zamknięty obszar w widoku wzorcem kreskowania, którym mogą być pliki [SVG](SVG/pl.md) lub [bitmap](Bitmap/pl.md). W odróżnieniu od tego, narzędzie <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [kreskowanie geometryczne](TechDraw_GeometricHatch/pl.md) wykorzystuje konkretny plik wzoru PAT, szczegółowe informacje znajdują się na stronie [kreskowanie](TechDraw_Hatching/pl.md).
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
@@ -27,15 +21,20 @@ Narzędzie **Hatch** wypełnia zamknięty obszar w widoku wzorcem kreskowania, k
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wybierz zamknięty obszar w widoku.
-2.  Naciśnij przycisk **<img src="images/TechDraw_Hatch.svg" width=16px> [Kreskowanie powierzchni za pomocą pliku obrazu](TechDraw_Hatch.md)**.
+2.  Naciśnij przycisk **<img src="images/TechDraw_Hatch.svg" width=16px> [Kreskowanie powierzchni za pomocą pliku obrazu](TechDraw_Hatch/pl.md)**.
 3.  Otworzy się okno dialogowe, w którym można wybrać plik wzoru, skalę i kolor.
 
 
-</div>
+
+
+1.  Wybierz zamknięty obszar w oknie widoku 3D.
+2.  Istnieje kilka sposobów na wywołanie tego narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_Hatch.svg" width=16px> [Kreskowanie powierzchni za pomocą pliku obrazu](TechDraw_Hatch/pl.md)**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → <img src="images/TechDraw_Hatch.svg" width=16px> Kreskowanie powierzchni za pomocą pliku obrazu**.
+3.  Otworzy się panel zadań **Zastosuj kreskowanie na powierzchni**.
+4.  Opcjonalnie zmień **Plik z wzorem**, **Skala wzoru** i **Kolor linii**.
+5.  Naciśnij przycisk **OK**.
 
 ## Uwagi
 

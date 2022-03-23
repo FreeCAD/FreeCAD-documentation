@@ -4,6 +4,7 @@
    Name/pl:Szkicownik: Utwórz łuk
    MenuLocation:Szkic → Elementy geometryczne szkicownika → Utwórz łuk ze środka
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut:**G** **A**
    SeeAlso:[Komponent utwórz okrąg](Sketcher_CompCreateCircle/pl.md)
 ---
 
@@ -26,7 +27,7 @@ Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyżyk
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

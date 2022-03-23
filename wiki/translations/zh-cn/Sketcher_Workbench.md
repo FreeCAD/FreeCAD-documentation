@@ -130,9 +130,21 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 ### General
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [创建草图](Sketcher_NewSketch/zh-cn.md): 在所选的面或平面上创建新的草图。如果在执行此工具时未选择任何面, 则系统将提示用户从弹出窗口中选择一个平面。
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [编辑草绘](Sketcher_EditSketch/zh-cn.md): 编辑已选择的草图。这会开启[草图对话框](Sketcher_Dialog.md)。
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [离开草图](Sketcher_LeaveSketch/zh-cn.md): 离开草图编辑模式。
 
@@ -215,7 +227,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create rectangles](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create a rectangle](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -225,11 +237,17 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
-:\* <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Centered Rectangle](Sketcher_CreateRectangle_Center.md): Draws a rectangle from a central point and an edge point. <small>(v0.20)</small> 
+:\* <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:32px;"> [Centered rectangle](Sketcher_CreateRectangle_Center.md): Draws a rectangle from a central point and an edge point. <small>(v0.20)</small> 
 
-:\* <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded Rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
+:\* <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Create regular polygon](Sketcher_CompCreateRegularPolygon.md): 这是一个位于草图工具栏中的图标菜单，其中列有下列命令：
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CreateTriangle.png  style="width:32px;"> [Triangle](Sketcher_CreateTriangle.md): 在几何圆草图中绘制一个正三角形。
 
@@ -243,7 +261,13 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_CreateOctagon.png  style="width:32px;"> [Octagon](Sketcher_CreateOctagon.md): 在几何圆草图中绘制一个正八边形。
 
+
+<div class="mw-translate-fuzzy">
+
 :\* <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Create Regular Polygon](Sketcher_CreateRegularPolygon.md) : 根据指定的边数与拾取的两个点：中点与一个角点来绘制一个正多边形。
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Slot](Sketcher_CreateSlot.md): 通过选择一个半圆的中心和另一个半圆的终点绘制椭圆。
 
@@ -283,8 +307,14 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ToggleConstruction.png  style="width:32px;"> [Construction Mode](Sketcher_ToggleConstruction.md): 将元素切换 到/从 草图模式。对象草图不会在3D几何操作中使用，并且仅在编辑包含它的草图时可见。这是 v0.15 中使用的图标。直到FreeCAD v0.16，用户必须先在草图编辑器中创建常规（白色）几何对象，然后使用此工具将其更改为"几何草图"（蓝色）。
 -   <img alt="" src=images/Sketcher_ToggleConstruction.png  style="width:32px;"> [Construction Mode](Sketcher_ToggleConstruction.md): 在FreeCAD v0.16中，添加了在构造模式下直接创建几何的能力，因此图标已更改为该图形。选择现有的草图编辑器几何图形，然后单击此工具可以在常规和构造模式之间切换几何图形，就像以前的FreeCAD版本一样。从FreeCAD v0.16开始，当没有选择草图编辑器几何图形时，选择此工具会更改将要创建将来的对象的模式（常规与构造）。
+
+
+</div>
 
 ### 草图编辑器约束
 
@@ -455,11 +485,11 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
--   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/Deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
+-   <img alt="" src=images/Sketcher_ToggleActiveConstraint.svg  style="width:32px;"> [Activate/deactivate constraint](Sketcher_ToggleActiveConstraint.md): Enable or disable an already placed constraint. <small>(v0.19)</small> 
 
 ### 草图工具
 
--   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select solver DOFs](Sketcher_SelectElementsWithDoFs.md): Highlights in green the geometry with degrees of freedom (DOFs), i.e. not fully constrained.
+-   <img alt="" src=images/Sketcher_SelectElementsWithDoFs.svg  style="width:32px;"> [Select unconstrained DoF](Sketcher_SelectElementsWithDoFs.md): Highlights in green the geometry with degrees of freedom (DOFs), i.e. not fully constrained.
 
 
 <div class="mw-translate-fuzzy">
@@ -509,7 +539,7 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
--   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md): Recreates missing/deletes unneeded internal geometry of a selected ellipse, arc of ellipse/hyperbola/parabola or B-spline.
+-   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Show/hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md): Recreates missing/deletes unneeded internal geometry of a selected ellipse, arc of ellipse/hyperbola/parabola or B-spline.
 
 
 <div class="mw-translate-fuzzy">
@@ -543,13 +573,13 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Move](Sketcher_Move.md): Moves the selected geometry taking as reference the last selected point.
 
--   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Rectangular Array](Sketcher_RectangularArray.md): Creates an array of selected sketcher elements.
+-   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Rectangular array](Sketcher_RectangularArray.md): Creates an array of selected sketcher elements.
 
--   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove Axes Alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Remove axes alignment](Sketcher_RemoveAxesAlignment.md): Remove axes alignment while trying to preserve the constraint relationship of the selection. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Delete All Geometry](Sketcher_DeleteAllGeometry.md): Deletes all geometry from the sketch.
+-   <img alt="" src=images/Sketcher_DeleteAllGeometry.svg  style="width:32px;"> [Delete all geometry](Sketcher_DeleteAllGeometry.md): Deletes all geometry from the sketch.
 
--   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Delete All Constraints](Sketcher_DeleteAllConstraints.md): Deletes all constraints from the sketch.
+-   <img alt="" src=images/Sketcher_DeleteAllConstraints.svg  style="width:32px;"> [Delete all constraints](Sketcher_DeleteAllConstraints.md): Deletes all constraints from the sketch.
 
 ### Sketcher B-spline tools 
 
@@ -577,7 +607,7 @@ The following tools can be used the change the effect of constraints:
 
 ### Sketcher virtual space 
 
--   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch Virtual Space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
+-   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch virtual space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
 
 ## Preferences
 
@@ -633,7 +663,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }} 
 
@@ -642,4 +672,4 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Sketcher](Category_Sketcher.md) > Sketcher Workbench/zh-cn
+![](images/Right_arrow.png) [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/zh-cn

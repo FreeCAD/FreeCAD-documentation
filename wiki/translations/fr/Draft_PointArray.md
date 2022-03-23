@@ -34,7 +34,7 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 Un composé de points est un objet qui contient un ou plusieurs points. Voici les composés de points pris en charge et la façon dont ils peuvent être créés :
 
 -   [Part Composé](Part_Compound/fr.md) : créez un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Part Composé](Part_Compound/fr.md).
--   Draft Bloc : créez un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Draft Mettre à niveau](Draft_Upgrade/fr.md).
+-   Draft Bloc : créez un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Draft Agréger](Draft_Upgrade/fr.md).
 -   [Sketcher Esquisse](Sketcher_NewSketch/fr.md) : créez une [Esquisse](Sketcher_NewSketch/fr.md) et ajoutez un ou plusieurs [Sketcher Points](Sketcher_CreatePoint/fr.md) à l\'esquisse.
 
 ## Propriétés

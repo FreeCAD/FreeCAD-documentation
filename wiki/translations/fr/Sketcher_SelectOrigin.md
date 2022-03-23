@@ -10,6 +10,9 @@
 
 # Sketcher SelectOrigin/fr
 
+
+</div>
+
 ## Description
 
 Sélectionne l\'origine d\'une esquisse.
@@ -21,10 +24,16 @@ Sélectionne l\'origine d\'une esquisse.
 3.  L\'origine de l\'esquisse sera sélectionnée.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

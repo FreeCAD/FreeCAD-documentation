@@ -10,6 +10,9 @@
 
 # Sketcher ConstrainDiameter/ru
 
+
+</div>
+
 ## Описание
 
 This constraint constrains the value of the diameter of a circle or arc to have a specific value. If more than one circle or arc is selected before launching the command :
@@ -42,10 +45,16 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `ArcOrCircle`, and contains further examples on how to create constraints from Python scripts.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

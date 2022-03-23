@@ -117,13 +117,13 @@ Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoid
 
 :\* `geoidpoint` et `pointpos` dans `TangentViaPoint` sont les index précisant le point de tangence.
 
-La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` et `pointpos` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` et `pointpos` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

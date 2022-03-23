@@ -9,6 +9,9 @@
 
 # Sketcher ViewSection/de
 
+
+</div>
+
 ## Beschreibung
 
 Das **Schnittansicht** Werkzeug erzeugt eine Schnittebene, die vorübergehend jegliche Elemente vor der Skizzierebene verdeckt.
@@ -27,7 +30,7 @@ Es gibt mehrere Wege, diesen Befehl aufzurufen:
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

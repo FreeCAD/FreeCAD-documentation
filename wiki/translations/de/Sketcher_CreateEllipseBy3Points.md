@@ -10,6 +10,9 @@
 
 # Sketcher CreateEllipseBy3Points/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden: (1) die Periapsis (erste Kreuzung des längeren Durchmessers mit der Ellipse), (2) die Apoapsis (zweite Kreuzung des längeren Durchmessers mit der Ellipse), (3) ein Punkt auf einer Seite des längeren Durchmessers (a), der den kleineren Radius (b) definiert. (c) ist das resultierende Zentrum und (f) sind die Brennpunkte.
@@ -24,8 +27,14 @@ Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kre
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 -   Drücke die **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Ellipse durch 3 Punkte](Sketcher_CreateEllipseBy3Points/de.md)** Schaltfläche .
 -   Der erste Klick in der 3D Ansicht setzt einen Punkt, der den Schnittpunkt des Hauptdurchmessers mit der Ellipse (Periapsis) definiert. Der zweite Klick in der 3D Ansicht legt einen Punkt fest, der die Kreuzung des Hauptdurchmessers mit der Ellipse gegenüber dem Mittelpunkt (Apoapsis) definiert. Dritter Klick legt einen Punkt auf der Ellipse fest, der den Nebenradius definiert.
+
+
+</div>
 
 -   Nach dem dritten Klick wird die Ellipse zusammen mit einer darauf ausgerichteten Konstruktionsgeometrie erstellt (Hauptdurchmesser, kleiner Durchmesser, zwei Brennpunkte). Die Konstruktionsgeometrie kann, falls nicht benötigt, manuell gelöscht und später wieder erstellt werden. Siehe [Interne Ausrichtungsbeschränkung](Sketcher_ConstrainInternalAlignment/de.md) und [Sketcher Innengeometrie einblenden ausblenden](Sketcher_RestoreInternalAlignmentGeometry/de.md).
 -   Drücken von **ESC** oder Klicken der rechten Maustaste bricht die Funktion ab.
@@ -37,10 +46,16 @@ Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kre
 -   Das Verschieben der Ellipse durch die Kante ist dasselbe wie das Verschieben des Ellipsenmittelpunkts.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

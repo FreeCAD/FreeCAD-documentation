@@ -86,12 +86,33 @@ TDTut ProjGroup21.png\|link=[Basic TechDraw Tutorial/ru](Basic_TechDraw_Tutorial
 
 ## FEM (расчёт методом конечных элементов) 
 
+
+<div class="mw-translate-fuzzy">
+
 FEM example01 pic00.jpg\|link=[FEM CalculiX Cantilever 3D/ru](FEM_CalculiX_Cantilever_3D/ru.md)\|[CalculiX cantilever FEM analysis](FEM_CalculiX_Cantilever_3D/ru.md) (v0.17)
 Этот пример включён в любую установку FreeCAD; он показывает базовый анализ вычислителем CalculiX FE. Вычищаем текущий результат, перезапускаем вычислитель, и смотрим в окне смещения и нагрузки деформированной сетки. FEM tutorial result.png\|link=[FEM tutorial/ru](FEM_tutorial/ru.md)\|[Простое введение в МКЭ](FEM_tutorial/ru.md) (v0.17)
 Это краткое введение в шаги, необходимые для выполнения анализа в верстаке FEM: моделирование Вашего объекта, создание сетки, добавление ограничений и сил, добавление материала, запуск вычислителя и визуализация результатов. Figure 11 Deformed Mesh.png\|link=[FEM Shear of a Composite Block/ru](FEM_Shear_of_a_Composite_Block/ru.md)\|[Анализ композитного блока методом конечных элементов](FEM_Shear_of_a_Composite_Block/ru.md) (v0.17)
 Изучение деформаций блока, сделанного из твёрдых ядер, окружённых мягким материалом: создание сеточных регионов, добавление материалов, установка ограничений сдвига, добавление сдвиговых нагрузок, запуск вычислителя и визуализация результатов на клиповой плоскости. Femconcrete\_Wall\_3D\_rx\_PSS.png\|link=[Analysis\_of\_reinforced\_concrete\_with\_FEM/ru](Analysis_of_reinforced_concrete_with_FEM/ru.md)\|[Анализ железобетона методом конечных элементов](Analysis_of_reinforced_concrete_with_FEM/ru.md) (v0.19)
 Оценка уровня армирования железобетона для предотвращения растрескивания при растяжении или сдвиге. FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview/ru](Post-Processing_of_FEM_Results_with_Paraview/ru.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview/ru.md) (v0.19)
 Этот учебник объясняет основы передачи данных из верстка FEM в Paraview и показывает некоторые опции и установки для показа данных.
+
+
+</div>
+
+FEM tutorial result.png\|link=[FEM tutorial](FEM_tutorial.md)\|[Simple FEM introduction](FEM_tutorial.md) (v0.17)
+This is a short introduction to the steps required to perform an analysis in the FEM Workbench: model your object, create a mesh, add constraints and forces, add a material, run the solver, and visualize the results.
+
+Figure 11 Deformed Mesh.png\|link=[FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.md)\|[FEM shear analysis of a composite block](FEM_Shear_of_a_Composite_Block.md) (v0.17)
+Study the deformation of a block made of a hard nucleus surrounded by a softer material: create mesh regions, add materials, set up sliding constraints, add shear loads, run the solver, and visualize the results with a clip plane.
+
+Femconcrete\_Wall\_3D\_rx\_PSS.png\|link=[Analysis\_of\_reinforced\_concrete\_with\_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md) (v0.19)
+Estimate the level of reinforcement required in a concrete structure to prevent brittle failure under tension or shear.
+
+Two\_balls\_result\_2-cropped.png\|link=[FEM\_Example\_Capacitance\_Two\_Balls](FEM_Example_Capacitance_Two_Balls.md)\|[Electrostatic equation -- Capacitance of two balls](FEM_Example_Capacitance_Two_Balls.md) (v0.19)
+This example shows how to simulate a capacitance. It illustrates how to setup the example, study it\'s various parts, solve it using the [Elmer Solver](FEM_SolverElmer.md) and visualize the results using [Clip Filter](FEM_PostFilterClipRegion.md).
+
+FEM\_post-processing\_Paraview.png\|link=[Post-Processing\_of\_FEM\_Results\_with\_Paraview](Post-Processing_of_FEM_Results_with_Paraview.md)\|[Post-Processing of FEM results with Paraview](Post-Processing_of_FEM_Results_with_Paraview.md) (v0.19)
+This tutorial explains the basics of transferring data from the FEM Workbench to Paraview and shows some of the options and settings for displaying data.
 
 ## ЧПУ и печать в 3D 
 

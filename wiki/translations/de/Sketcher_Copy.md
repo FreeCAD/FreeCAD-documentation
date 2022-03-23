@@ -10,6 +10,9 @@
 
 # Sketcher Copy/de
 
+
+</div>
+
 ## Beschreibung
 
 Kopiert die ausgewählten Skizzenelemente von einem Punkt zu einem anderen mit dem letzten gewählten Punkt als Referenz. Wenn eine Kopie erstellt wird, wird keine Verbindung zwischen der Kopie und dem Original erstellt, siehe **[<img src=images/Sketcher_Clone.svg style="width:16px"> [Skizzierer Klonen](Sketcher_Clone/de.md)**.
@@ -32,7 +35,7 @@ Keine zusätzlichen Beschränkungen werden hinzugefügt.
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

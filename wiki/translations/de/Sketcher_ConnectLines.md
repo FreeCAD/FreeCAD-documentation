@@ -11,6 +11,9 @@
 
 # Sketcher ConnectLines/de
 
+
+</div>
+
 ## Beschreibung
 
 Wendet [Deckungsgleiche Beschränkung](Sketcher_ConstrainCoincident/de.md) auf Endpunkte mit den gleichen Koordinaten der ausgewählten Elemente an.
@@ -34,10 +37,16 @@ Wendet [Deckungsgleiche Beschränkung](Sketcher_ConstrainCoincident/de.md) auf E
 Vor Verwendung dieses Befehls ist sicherzustellen, dass offensichtliche Beschränkungen (horizontal, vertikal, tangential) bereits auf die Elemente angewendet werden. Die Auswahl der Elemente in einer gegen den Uhrzeigersinn gerichteten Reihenfolge scheint zu besseren Ergebnissen zu führen.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

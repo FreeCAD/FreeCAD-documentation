@@ -9,6 +9,9 @@
 
 # Sketcher CreateCircle/de
 
+
+</div>
+
 ## Beschreibung
 
 Dieses Werkzeug zeichnet einen Kreis durch Wahl zweier Punkte: der Mittelpunkt und ein Punkt entlang des Radius.
@@ -23,10 +26,16 @@ Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz m
 -   Drücken von **Esc** oder klicken der rechten Maustaste bricht die Funktion ab.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

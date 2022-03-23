@@ -44,7 +44,7 @@ Questo strumento crea un arco di iperbole da centro, raggio maggiore e punti fin
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

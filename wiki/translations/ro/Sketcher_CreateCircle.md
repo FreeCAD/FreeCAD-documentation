@@ -26,7 +26,7 @@ Acest instrument desenează un cerc prin selectarea a două puncte: centrul și 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

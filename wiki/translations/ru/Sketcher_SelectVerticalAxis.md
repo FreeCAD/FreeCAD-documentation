@@ -10,6 +10,9 @@
 
 # Sketcher SelectVerticalAxis/ru
 
+
+</div>
+
 ## Описание
 
 Selects the vertical axis of a sketch.
@@ -17,14 +20,20 @@ Selects the vertical axis of a sketch.
 ## Применение
 
 1.  Enter edit mode of sketch.
-2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectVerticalAxis.png style="width:16px"> Select Vertical Axis** from the top menu.
+2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectVerticalAxis.png style="width:16px"> Select vertical axis** from the top menu.
 3.  The vertical axis of the sketch will be selected.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

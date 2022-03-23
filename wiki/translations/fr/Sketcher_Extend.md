@@ -1,18 +1,19 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher Extend
-   Name/fr:Sketcher Prolonger l'arête
+   Name/fr:Sketcher Prolonger
    MenuLocation:Sketch → Géométries d'esquisse → Prolonger l'arête
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**G** **Q**
    Version:0.17
-   SeeAlso:[Sketcher Ajuster l'arête](Sketcher_Trimming/fr.md)
+   SeeAlso:[Sketcher Ajuster](Sketcher_Trimming/fr.md)
 ---
 
 # Sketcher Extend/fr
 
 ## Description
 
-L\'outil **Prolonger l\'arête** étend une arête vers une position arbitraire dans l\'esquisse, ou à une arête cible ou un objet Point.
+L\'outil **Prolonger** étend une arête vers une position arbitraire dans l\'esquisse, ou à une arête cible ou un objet Point.
 
 <img alt="" src=images/Sketcher_Extend_example_01.png  style="width:600px;"> 
 *Sur la gauche (1), les deux éléments d’esquisse avant l’opération ; au milieu (2), la ligne est prolongée jusqu'à l'arc ; à droite (3), le résultat final.*
@@ -35,7 +36,7 @@ L\'outil **Prolonger l\'arête** étend une arête vers une position arbitraire 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -95,6 +95,8 @@ Les outils suivants sont disponibles dans ce menu:
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Plan de coupe](Std_ToggleClipPlane/fr.md): masque temporairement les objets.
 
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Coupes persistantes](Part_SectionCut/fr.md) : crée des coupes persistantes d\'objets et d\'assemblages. {{Version/fr|0.20}}
+
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Mappage de texture\...](Std_TextureMapping/fr.md): fait correspondre temporairement une texture à tous les objets.
 
 -   Visibilité

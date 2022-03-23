@@ -9,6 +9,9 @@
 
 # Sketcher CreateOctagon/de
 
+
+</div>
+
 ## Beschreibung
 
 Zeichnet ein Achteck, das in einem Kreis der Konstruktionsgeometrie eingeschrieben ist. Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Sechsecksymbol. Die Koordinaten des Zeigers werden daneben in Echtzeit blau dargestellt.
@@ -33,10 +36,16 @@ Der umschriebene Kreis ist Konstruktionsgeometrie, die nur bei der Bearbeitung d
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

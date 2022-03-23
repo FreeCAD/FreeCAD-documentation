@@ -3,7 +3,7 @@
    Name:Sketcher CreateRectangle
    MenuLocation:Sketch → Sketcher geometries → Create rectangle
    Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**R**
+   Shortcut:**G** **R**
    SeeAlso:[Sketcher Rounded rectangle](Sketcher_CreateOblong.md), [Sketcher Polyline](Sketcher_CreatePolyline.md)
 ---
 
@@ -26,7 +26,7 @@ To define a rectangle via a center point and an edge point, use the [Centered re
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

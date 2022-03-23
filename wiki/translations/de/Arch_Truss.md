@@ -1,9 +1,9 @@
 ---
 - GuiCommand:/de
-   Name:Arch Fence
-   Name/de:Architektur Traverse
-   MenuLocation:Architektur → Zaun
-   Workbenches:[Architektur](Arch_Workbench/de.md)
+   Name:Arch Truss
+   Name/de:Arch Traverse
+   MenuLocation:Arch → Traverse
+   Workbenches:[Arch](Arch_Workbench/de.md)
    Version:0.19
 ---
 
@@ -91,15 +91,6 @@ truss.HeightStart = 200
 truss.HeightEnd = 400
 # adjust other needed properties
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

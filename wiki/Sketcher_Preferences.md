@@ -235,7 +235,7 @@ In the *Colors* tab you can specify the following:
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 
