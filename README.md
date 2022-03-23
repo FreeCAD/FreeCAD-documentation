@@ -15,12 +15,14 @@ This is the official documentation of [FreeCAD](http://www.freecadweb.org). Ther
 ## The hubs 
 
 #### <img alt="Crystal_Clear_app_display.png" src=wiki/images/Crystal_Clear_app_display.png  style="width:32px;"> [Users hub](wiki/User_hub.md)
-This page contains documentation useful for FreeCAD users in general: 
-[frequently asked questions](wiki/Frequently_asked_questions.md),
+
+This page contains documentation useful 
+for FreeCAD users in general: 
+[frequently](wiki/Frequently_asked_questions.md) [asked](wiki/Frequently_asked_questions.md) [questions](wiki/Frequently_asked_questions.md),
 a list of all the [workbenches](wiki/Workbenches.md),
 detailed instructions on how to [install](wiki/Installing.md)
 and use the FreeCAD application, [tutorials](wiki/Category_Tutorials.md),
-[commands reference](wiki/List_of_Commands.md),
+[commands](wiki/List_of_Commands.md) [reference](wiki/List_of_Commands.md),
 and all you need to get started.
 
 #### <img alt="" src=wiki/images/Crystal_Clear_app_terminal.png  style="width:32px;"> [Power users hub](wiki/Power_users_hub.md)
