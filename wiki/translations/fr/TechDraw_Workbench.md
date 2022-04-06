@@ -39,7 +39,7 @@ Ce sont les outils pour créer des objets Vues.
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Vue détaillée](TechDraw_DetailView/fr.md) : ajoute une vue détaillée d\'une partie d\'une vue existante.
 
--   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Vue d\'un objet Draft](TechDraw_DraftView/fr.md) : ajoute une vue d\'un objet [Draft](Draft_Workbench/fr.md).
+-   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [/fr\|Vue d\'un objet Draft](TechDraw_DraftView.md) : ajoute une vue d\'un objet [Draft](Draft_Workbench/fr.md).
 
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vue d\'un objet Arch](TechDraw_ArchView/fr.md): ajoute une vue d\'un objet [Arch Plan de section](Arch_SectionPlane/fr.md) de l\'[Atelier Arch](Arch_Workbench/fr.md).
 
@@ -111,7 +111,7 @@ Les outils d\'annotation permettent de \"marquer\" un dessin avec des informatio
 
 -   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Ligne de référence](TechDraw_LeaderLine/fr.md) : ajoute une ligne de référence à une vue. {{Version/fr|0.19}}
 
--   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Annotation texte enrichi](TechDraw_RichTextAnnotation/fr.md) : ajoute un bloc d'annotation en texte enrichi à une [Ligne de référence](TechDraw_LeaderLine/fr.md) ou à une vue. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Annotation texte enrichi](TechDraw_RichTextAnnotation/fr.md) : ajoute un bloc d'annotation en texte enrichi à une ligne de référence ou à une vue. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Point cosmétique](TechDraw_CosmeticVertex/fr.md) : ajoute un sommet qui ne fait pas partie de la géométrie principale. {{Version/fr|0.19}}
 

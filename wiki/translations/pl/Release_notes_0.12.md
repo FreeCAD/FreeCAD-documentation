@@ -1,7 +1,7 @@
 # Release notes 0.12/pl
-To jest podsumowanie najbardziej interesujących zmian, które nastąpiły we FreeCAD-zie w odniesieniu do poprzedniej wersji.Pełną listę zmian znajdziesz [tutaj](http://www.freecadweb.org/tracker/changelog_page.php).
+To jest podsumowanie najbardziej interesujących zmian, które miały miejsce w programie FreeCAD w odniesieniu do poprzedniej wersji. Pełną listę zmian znajdziesz na stronie [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php).
 
-Starsze wersje: [0.11](Release_notes_0.11.md)
+Starsze wersje: [0.11](Release_notes_0.11/pl.md)
 
 ### Witaj!
 
@@ -9,23 +9,23 @@ Starsze wersje: [0.11](Release_notes_0.11.md)
 
 ![](images/FreeCAD_start_center.jpg )
 
-### Sketcher i PartDesign 
+### Skzkicownik i Projekt Części 
 
 <img alt="" src=images/Rim_bling.png  style="width:800px;">
 
--   Warsztatowi [Szkicownika (Sketcher)](Sketcher_Workbench.md) poświęcono wiele pracy od czasu ostatniego wydania. Obecnie posiada on nowy solver zaprojektowany specjalnie do tego zadani. Szkicownik potrafi obecnie wykonać większość operacji rysunku 2D [modułu Draft](Draft_Workbench.md), wraz z szeroką gamą więzów dla elementów szkicu.
+-   Środowisku pracy [Szkicownika (Sketcher)](Sketcher_Workbench/pl.md) poświęcono wiele uwagi od czasu ostatniego wydania. Obecnie posiada on nowy solver zaprojektowany specjalnie do tego zadani. Szkicownik potrafi obecnie wykonać większość operacji rysunku 2D [modułu Draft](Draft_Workbench.md), wraz z szeroką gamą więzów dla elementów szkicu.
 
--   Dodatkowo, [ Warsztat PartDesign](PartDesign_Workbench.md) również znacznie ewoluował i obecnie posiada wiele popularnych (i w pełni parametrycznych) narzędzi do pracy na bazie szkiców jak wyciąganie (extrusion), przeciąganie (lofting) czy obracanie (revolution).
+-   Dodatkowo, środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md) również znacznie ewoluowało i obecnie posiada wiele popularnych *(i w pełni parametrycznych)* narzędzi do pracy na bazie szkiców jak wyciąganie *(extrusion)*, przeciąganie *(lofting)* czy obracanie *(revolution)*.
 
 ### Architektura
 
--   Nowy [moduł Architektury](Arch_Workbench.md) jest obecnie częścią FreeCAD-a. Jest on wciąż we wczesnej fazie budowy, ale już teraz posiada garść podręcznych obiektów pomocniczych jak ściany czy elementy struktury (słupy i belki). Mogą być one zbudowane na bazie istniejącej geometrii 2D, jak linie, przewody (wires) czy szkice, przez podanie szerokości i wysokości lub, dla elementów struktury, na bazie profili 2D. Mogą one także bazować na bryłąch lub nawet zawierać inne bryły jako dodanie lub odjęcie, pozwalając wirtualnie na dowolną geometrię.
+-   Nowy [moduł Architektury](Arch_Workbench/pl.md) jest obecnie częścią programu FreeCAD. Jest on wciąż we wczesnej fazie budowy, ale już teraz posiada garść podręcznych obiektów pomocniczych jak ściany czy elementy struktury (słupy i belki). Mogą być one zbudowane na bazie istniejącej geometrii 2D, jak linie, przewody (wires) czy szkice, przez podanie szerokości i wysokości lub, dla elementów struktury, na bazie profili 2D. Mogą one także bazować na bryłach lub nawet zawierać inne bryły jako dodanie lub odjęcie, pozwalając wirtualnie na dowolną geometrię.
 
 ![](images/Arch_screenshot.jpg )
 
--   Moduł Arch posiada także importer [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes), importer i exporter [DAE (collada)](http://en.wikipedia.org/wiki/Collada) i specjalny eksporter [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) bardziej dopasowany do modeli architektonicznych niż standardowy eksporter.
+-   Moduł Architektura posiada także importer [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes), importer i exporter [DAE *(collada)*](http://en.wikipedia.org/wiki/Collada) i specjalny eksporter [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) bardziej dopasowany do modeli architektonicznych niż standardowy eksporter.
 
--   W module Arch zawarto także rosnącą kolekcję narzędzi do łatwiejszej pracy z obiektami Siatki (Mesh) pobranymi z innego oprogramowania jak [Blender](http://www.blender.org). Siatki, jeśli są dobrze zamodelowane, mogą być łatwo i automatycznie zamienione w \"czyste\" kształty i potem w parametryczne obiekty Arch.
+-   W module Arch zawarto także rosnącą kolekcję narzędzi do łatwiejszej pracy z obiektami Siatki *(Mesh)* pobranymi z innego oprogramowania jak [Blender](http://www.blender.org). Siatki, jeśli są dobrze wymodelowane, mogą być łatwo i automatycznie zamienione w \"czyste\" kształty i potem w parametryczne obiekty Arch.
 
 ### 2D Drafting 
 
@@ -33,7 +33,7 @@ Starsze wersje: [0.11](Release_notes_0.11.md)
 
 -   Odzyskaj swoją przestrzeń roboczą! Moduł Draft posiada obecnie nowy tryb interfejsu użytkownika, który używa systemu FreeCAD Task, zbierającego całą interakcję w jedno miejcie, uwalniając cenne miejsce pożerane wcześniej przez pasek narzędzi Draft.
 
--   Narzędzie Draft Przytnij/Rozszerz (Trim/Extend) pozwala obecnie wyciągać pojedyncze ściany z istniejących obiektów.
+-   Narzędzie Draft Przytnij / Rozszerz *(Trim / Extend)* pozwala obecnie wyciągać pojedyncze ściany z istniejących obiektów.
 
 -   Zostało dodanych kilka nowych trybów przyciągania, pozwalając obecnie na na przyciąganie prostopadłe lub równoległe do istniejących linii i znajdowanie pozycji w których są wyrównanie do innych linii.
 

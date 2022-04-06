@@ -1,17 +1,15 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher ToggleActiveConstraint
-   Name/fr:Sketcher Basculer les contraintes
+   Name/fr:Sketcher Activation des contraintes
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    MenuLocation:Sketch → Contraintes d'esquisse → Activer/désactiver la contrainte
-   SeeAlso:[Sketcher Basculer en mode construction](Sketcher_ToggleConstruction/fr.md)
+   Shortcut:**K** **Z**
    Version:0.19
+   SeeAlso:[Sketcher Basculer en mode construction](Sketcher_ToggleConstruction/fr.md)
 ---
 
 # Sketcher ToggleActiveConstraint/fr
-
-
-</div>
 
 ## Description
 
@@ -62,13 +60,7 @@ sketch.toggleActive(3)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

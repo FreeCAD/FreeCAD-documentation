@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part JoinCutout
    Name/fr:Part Découpe
-   |MenuLocation:Pièce → Joindre → Découpe pour objet
+   |MenuLocation:Part → Joindre → Découpe pour objet
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.16
    SeeAlso:[Part Connecter](Part_JoinConnect/fr.md), [Part Intégrer](Part_JoinEmbed/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
@@ -22,7 +22,7 @@ L\'outil <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part 
     L\'ordre de sélection est important. Il suffit de sélectionner une sous-forme de chaque objet (par ex. des faces).
 2.  Appelez la commande Part Découpe de plusieurs manières :
     -   En appuyant sur le bouton <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part Découpe](Part_JoinCutout/fr.md) dans la barre d\'outils Part
-    -   Utilisation de l\'entrée **Pièce → Joindre → Découpe de l'objet** dans le menu Part
+    -   Utilisation de l\'entrée **Part → Joindre → Découpe de l'objet** dans le menu Part
 
 Un objet Part JoinFeature est créé avec le mode défini sur \'Cutout\' (Découpe). Les objets originaux sont masqués et le résultat de la découpe est affiché dans la [vue 3D](3D_view/fr.md).
 
@@ -31,13 +31,13 @@ Un objet Part JoinFeature est créé avec le mode défini sur \'Cutout\' (Décou
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Base}}: Référence à l\'objet de base (celui dans lequel on veut faire la découpe). L\'objet doit être un solide unique.
+-    **Base**: Référence à l\'objet de base (celui dans lequel on veut faire la découpe). L\'objet doit être un solide unique.
 
--    {{PropertyData/fr|Tool}}: Référence à l\'objet Empreinte (l\'objet à utiliser pour la découpe). L\'objet peut être un solide unique ou un [composé valide](Part_Compound/fr.md) de solides.
+-    **Tool**: Référence à l\'objet Empreinte (l\'objet à utiliser pour la découpe). L\'objet peut être un solide unique ou un [composé valide](Part_Compound/fr.md) de solides.
 
--    {{PropertyData/fr|Mode}}: Le mode de fonctionnement est égal à \'Cutout\' (Découpe) (Changement qui transformera l\'Empreinte en une autre Part\_JoinXXX). La valeur \'bypass\' peut être utilisée pour désactiver temporairement les calculs longs (un composé composé de Base et d\'Empreinte sera créé, ce qui est une opération rapide).
+-    **Mode**: Le mode de fonctionnement est égal à \'Cutout\' (Découpe) (Changement qui transformera l\'Empreinte en une autre Part\_JoinXXX). La valeur \'bypass\' peut être utilisée pour désactiver temporairement les calculs longs (un composé composé de Base et d\'Empreinte sera créé, ce qui est une opération rapide).
 
--    {{PropertyData/fr|Refine}}: définit s\'il faut appliquer l\'opération [Part Affiner](Part_RefineShape/fr.md) ou non, à la forme finale. La valeur par défaut est déterminée par la case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de PartDesign. Lorsque la propriété Mode est \'bypass\', affiner est ignoré (jamais appliqué).
+-    **Refine**: définit s\'il faut appliquer l\'opération [Part Affiner](Part_RefineShape/fr.md) ou non, à la forme finale. La valeur par défaut est déterminée par la case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de PartDesign. Lorsque la propriété Mode est \'bypass\', affiner est ignoré (jamais appliqué).
 
 ## Exemple
 

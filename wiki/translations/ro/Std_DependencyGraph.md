@@ -65,9 +65,9 @@ Puteți instala graphviz folosind [Homebrew](https://brew.sh/):
 </div>
 
 
-```python
+{{Code|lang=text|code=
 brew install graphviz
-```
+}}
 
 
 <div class="mw-translate-fuzzy">
@@ -78,31 +78,54 @@ Aceasta instalează binarele graphviz sub / usr / local / bin. Din păcate, nu p
 </div>
 
 
-```python
+{{Code|lang=text|code=
 /usr/local/bin
-```
+}}
+
+or
+
+
+{{Code|lang=text|code=
+/opt/homebrew/bin
+}}
 
 și confirmați câmpul de introducere și dialogul de selectare a fișierelor.
 
-În cazul în care fișierele binare Graphviz sunt instalate într-o locație nestandard, încercați să găsiți programul împreună cu comanda: 
-```python
+În cazul în care fișierele binare Graphviz sunt instalate într-o locație nestandard, încercați să găsiți programul împreună cu comanda:
+
+
+{{Code|lang=text|code=
 type dot
-``` Se va emite ceva de genul 
-```python
+}}
+
+Se va emite ceva de genul
+
+
+{{Code|lang=text|code=
 dot is /usr/local/bin/dot
-``` Și, prin urmare, puteți să îi spuneți lui FreeCAD să se uite în acel director.
+}}
+
+Și, prin urmare, puteți să îi spuneți lui FreeCAD să se uite în acel director.
 
 ### Linux
 
 ### Linux 
 
-Sub cele mai multe distribuții Linux (Debian / Ubuntu, Fedora, OpenSUSE), trebuie doar să instalați pachetul grafic din colecțiile de depozitare. Cu toate acestea, în mod similar cu MacOSX, în cazurile în care binarele Graphviz sunt instalate într-o locație nestandardă, încercați să găsiți programul cu comanda: 
-```python
+Sub cele mai multe distribuții Linux (Debian / Ubuntu, Fedora, OpenSUSE), trebuie doar să instalați pachetul grafic din colecțiile de depozitare. Cu toate acestea, în mod similar cu MacOSX, în cazurile în care binarele Graphviz sunt instalate într-o locație nestandardă, încercați să găsiți programul cu comanda:
+
+
+{{Code|lang=text|code=
 type dot
-``` Poate ieși ceva asemănător 
-```python
+}}
+
+Poate ieși ceva asemănător
+
+
+{{Code|lang=text|code=
 dot is /usr/local/bin/dot
-``` Și, prin urmare, puteți orienta FreeCAD să se uite în acel director.
+}}
+
+Și, prin urmare, puteți orienta FreeCAD să se uite în acel director.
 
 ## Usage
 

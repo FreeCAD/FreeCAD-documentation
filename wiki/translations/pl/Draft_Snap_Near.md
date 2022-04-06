@@ -34,6 +34,7 @@ Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąg
 ## Uwagi
 
 -   Nie jest dobrym pomysłem, aby opcja [Przyciągnij do najbliższego](Draft_Snap_Near/pl.md) była stale aktywna, ponieważ ma ona pierwszeństwo przed wieloma innymi opcjami przyciągania.
+-   Podczas przyciągania do krzywych, narzędzie [Draft Snap Near](Draft_Snap_Near/pl.md) przyciąga je do ich segmentów w oknie [widoku 3D](3D_view.md), co powoduje niedokładność. Aby uzyskać dokładny punkt na krzywej, w środowisku Rysunek Roboczy narysuj [linię](Draft_Line/pl.md) w poprzek krzywej, a następnie wytnij linię za pomocą narzędzia [przytnij](Draft_Trimex/pl.md), używając krzywej jako narzędzia tnącego.
 
 ## Ustawienia
 

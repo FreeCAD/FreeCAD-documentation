@@ -14,9 +14,6 @@ Der Befehl <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **Fa
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Ein oder mehrere Verbindungselemente auswählen.
 2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
     -   Drücken der Schaltfläche **<img src="images/Fasteners_Shape.svg" width=16px> [Simplify shape](Fasteners_Shape/de.md)**.
@@ -24,9 +21,6 @@ Der Befehl <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **Fa
 3.  Es wird für jedes Verbindungselement eine vereinfachte Kopie (Formteil/Platzhalter) erstellt.
 4.  Die {{PropertyView/de|Visibility}} des originalen Verbindungselements wird auf `False` gesetzt.
 5.  Optional können die originalen Verbindungselemente gelöscht werden.
-
-
-</div>
 
 
 

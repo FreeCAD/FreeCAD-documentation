@@ -1,10 +1,11 @@
 ---
-- TutorialInfo:   Topic:Attachment
-   Level:Intermediate/Advanced
+- TutorialInfo:/pl
+   Topic:Umocowanie
+   Level:Średniozaawansowany / zaawansowany
    Author:drmacro
-   Time:1 hour
-   FCVersion:0.19 or above
-   Files:[TBD]
+   Time:1 godzina
+   FCVersion:0.19 lub nowszy
+   Files:do ustalenia
 ---
 
 # Advanced Attachment OYX/pl
@@ -14,59 +15,59 @@
 
 
 <img alt="" src=images/AttOYX_Setup.png  style="width:800px;"> 
-*The objects in initial position*
+*Obiekt w pozycji początkowej*
 
-## Introduction
+## Wprowadzenie
 
-This demonstration addresses the use of the OYX attachment mode to adjust the position of the origin of a sketch as described in [Part:Attachment](Part_EditAttachment.md), it is not comprehensive, but hopefully will help users experiment.
+Ta demonstracja dotyczy użycia trybu umocowania OYX w celu dostosowania pozycji odniesienia położenia szkicu, jak opisano na stronie [Część: Edycja mocowania](Part_EditAttachment/pl.md), nie jest ona wyczerpująca, ale może pomóc użytkownikom w eksperymentowaniu.
 
-The image above shows the geometry used in this demonstration.
+Na powyższym rysunku zaprezentowano geometrię użytą w tej demonstracji.
 
-The lower right frame shows the top view of the scene. Note the scene includes a sketch containing a square and text indicating the vertical (Y), horizontal (X) axes of the sketch. The lower left corner of the square is located at 0,0,0 of the sketch (the origin of the sketch).
+Prawy dolny rysunek przedstawia widok sceny z góry. Zwróć uwagę, że scena przedstawia szkic zawierający kwadrat oraz tekst wskazujący osie pionowe *(Y)* i poziome *(X)* szkicu. Lewy dolny róg kwadratu znajduje się w punkcie 0,0,0 szkicu *(punkt położenia odniesienia)*.
 
-The origin of the sketch and the global origin (designated by the red, green and blue [axis cross](Std_AxisCross.md)) are the same. In the other frames of the image we can see that the square is at Z=0, so the sketch is in the XY plane.
+Odniesienie położenia szkicu i odniesienie położenia globalne *(oznaczone przez czerwony, zielony i niebieski [krzyż osi](Std_AxisCross/pl.md))* to ten sam punkt. Na pozostałych obrazkach widać, że kwadrat znajduje się w punkcie Z=0, a więc szkic znajduje się w płaszczyźnie XY.
 
-There are two other sketches which include geometry that will be used to re-position the sketch containing the square. One sketch contains an orange line that is oriented along the global Z axis in the XZ plane. The other sketch contains a yellow line in the XY plane.
+Kolejne dwa szkice zawierają geometrię, która zostanie użyta do zmiany położenia szkicu zawierającego kwadrat. Jeden szkic zawiera pomarańczową linię, która jest zorientowana wzdłuż globalnej osi Z w płaszczyźnie XZ. Drugi szkic zawiera żółtą linię na płaszczyźnie XY.
 
-## Discussion
+## Dyskusja
 
-Attachment mode Align O-Y-X is defined as follows in [Part:Attachment](Part_EditAttachment.md): *Matches object\'s origin with first referenced vertex and aligns its vertical and horizontal plane axes toward vertex/along line.*. It also notes there are several reference combinations.
+Sposób umocowania Wyrównaj O-Y-X jest zdefiniowany w następujący sposób w [Część: Edycja mocowania](Part_EditAttachment/pl.md): *Dopasowuje punkt odniesienia położenia obiektu do pierwszego wierzchołka odniesienia i wyrównuje jego osie płaszczyzny pionowej i poziomej do wierzchołka / wzdłuż linii*. Wskazuje również, że istnieje kilka kombinacji odniesienia.
 
-:; Reference combinations:
+:; Kombinacje odniesienia:
 
-:   Vertex, Vertex, Vertex
-:   Vertex, Vertex, Edge
-:   Vertex, Edge, Vertex
-:   Vertex, Edge, Edge
-:   Vertex, Vertex
-:   Vertex, Edge
+:   wierzchołek, wierzchołek, wierzchołek
+:   wierzchołek, wierzchołek, krawędź
+:   wierzchołek, krawędź, wierzchołek
+:   wierzchołek, krawędź, krawędź
+:   wierzchołek, wierzchołek
+:   wierzchołek, krawędź
 
-Lets start with *Vertex, Vertex, Vertex*.
+Zacznijmy od kombinacji \"wierzchołek, wierzchołek, wierzchołek\".
 
-If we match the definition to the reference:
+Jeśli dopasujemy definicję do odniesienia:
 
-The first vertex selected will position the origin of the sketch to the selected vertex.
+Pierwszy wybrany wierzchołek spowoduje ustawienie punktu odniesienia położenia szkicu na wybranym wierzchołku.
 
-The second vertex selected will align the vertical axis of the sketch (in the demo setup this axis is indicated with **Y**).
+Drugi wybrany wierzchołek dopasuje oś pionową szkicu *(w konfiguracji demonstracyjnej oś ta jest oznaczona jako **Y**)*.
 
-So, if we select the upper left/upper vertex of the yellow edge (as seen in the larger right frame) and the lower/right vertex of the yellow edge the sketch is positioned like this:
+Jeśli więc wybierzemy lewy/górny wierzchołek żółtej krawędzi *(widoczny na większym rysunku po prawej stronie)* oraz dolny / prawy wierzchołek żółtej krawędzi, szkic zostanie umieszczony w taki sposób:
 
 <img alt="" src=images/AttOYX_vv.png  style="width:800px;">
 
-:; Notes:
+:; Uwagi:
 
-:   The Align O-Y-X is selected in the Attachment dialogue.
-:   The sketch origin is now at the upper left/upper vertex of the yellow line.
-:   The Y axis of the sketch is now aligned with the yellow line.
-:   The Z axis of the sketch is perpendicular to the yellow line.
+:   Opcja Umocowania O-Y-X jest wybierana w oknie dialogowym Dołączanie.
+:   Punkt odniesienia położenia szkicu znajduje się teraz w lewym / górnym wierzchołku żółtej linii.
+:   Oś Y szkicu jest teraz wyrównana z żółtą linią.
+:   Oś Z szkicu jest prostopadła do żółtej linii.
 
-Now if we add a third reference by selecting the upper vertex of the orange edge the scene changes to:
+Jeśli teraz dodamy trzecie odniesienie, wybierając górny wierzchołek pomarańczowej krawędzi, otrzymamy nowy wygląd sceny:
 
 <img alt="" src=images/AttOYX_vvv.png  style="width:800px;">
 
-:; Notes:
+:; Uwagi:
 
-:   Now the X axis of the sketch is aligned in the direction of the selected vertex of the orange edge.
+:   Teraz oś X szkicu jest wyrównana w kierunku wybranego wierzchołka pomarańczowej krawędzi.
 
 
 

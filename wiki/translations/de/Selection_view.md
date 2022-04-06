@@ -4,23 +4,23 @@
 
 {{TOCright}}
 
-Die [Auswahlansicht](selection_view/de.md) ist eine Konsole in der [Oberfläche](interface/de.md), das sich standardmäßig unter der [Comboansicht](combo_view/de.md) befindet. Genau wie der [Eigenschaftseditor](property_editor/de.md) zeigt es weitere Informationen über die aktuell ausgewählten Objekte an.
+Die [Auswahlansicht](selection_view/de.md) ist ein Bereich der [Oberfläche](interface/de.md), der sich standardmäßig unter der [Combo-Ansicht](combo_view/de.md) befindet. Genau wie der [Eigenschafteneditor](property_editor/de.md) zeigt sie weitere Informationen über die aktuell ausgewählten Objekte an.
 
-Eine Auswahl kann durch aufnehmen eines Objekts in der [3D Ansicht](3D_view/de.md) oder in der [Baumansicht](tree_view/de.md) getroffen werden. Mehrere Körper können durch Halten von **Ctrl** ausgewählt werden.
+Eine Auswahl kann durch anklicken eines Objekts in der [3D-Ansicht](3D_view/de.md) oder in der [Baumansicht](tree_view/de.md) getroffen werden. Mehrere Körper können durch Halten von **Ctrl** ausgewählt werden.
 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
 
-*Auswahlansicht, gekennzeichnet durch die Zahl 5 in der Standard [Oberfläche](interface/de.md).*
+*Auswahlansicht, gekennzeichnet durch die Zahl 5 in der Standard-[Oberfläche](interface/de.md).*
 
 ## Objektauswahl
 
-Die Baumansicht dieses Beispiels hat zwei [PartDesign Körper](PartDesign_Body/de.md), mit jeweils mehreren Elementen, und einen einfachen [Part Kegel](Part_Cone/de.md). Der Baum sieht wie folgt aus.
+Die Baumansicht dieses Beispiels hat zwei [PartDesign-Körper](PartDesign_Body/de.md), mit jeweils mehreren Elementen, und einen einfachen [Part-Kegel](Part_Cone/de.md). Der Baum sieht wie folgt aus.
 
 ![](images/FreeCAD_Selection_Tree_view.png )
 
-Die Auswahlansicht ist leer, wenn in der [3D Ansicht](3D_view/de.md) oder in der [Baumansicht](tree_view/de.md) kein Objekt ausgewählt ist.
+Die Auswahlansicht ist leer, wenn in der [3D-Ansicht](3D_view/de.md) oder in der [Baumansicht](tree_view/de.md) kein Objekt ausgewählt ist.
 
 <img alt="" src=images/FreeCAD_Selection_view_empty.png  style="width:" height="286px;"> <img alt="" src=images/FreeCAD_Selection_view_empty_3D.png  style="width:" height="286px;">
 

@@ -20,7 +20,7 @@ L\'application la plus courante consiste à passer d\'un diamètre de corps à u
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_Transition.svg" width=16px> [Transition](Rocket_Transition/fr.md)**.
     -   Sélectionnez l\'option **Rocket  → <img src="images/Rocket_Transition.svg" width=16px> Transition** dans le menu.
-    -   Double-cliquez sur un objet Transition dans la vue du modèle.
+    -   Double-cliquez sur un objet Transition dans la [Vue en arborescence](Tree_view/fr.md).
 2.  Définissez les options et appuyez sur **OK**.
 
 ## Options
@@ -64,52 +64,52 @@ Il y a des problèmes connus avec le dessin des transitions sur lesquels on trav
 
 Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
 
--    {{PropertyData/fr|Manufacturer}}: Fabricant lorsqu\'il est connu
+-    **Description**: Description du composant
 
--    {{PropertyData/fr|Part Number}}: Numéro de pièce du fabricant
+-    **Manufacturer**: Fabricant lorsqu\'il est connu
 
--    {{PropertyData/fr|Description}}: Description du composant
+-    **Material**: Matériau lorsqu\'il est connu
 
--    {{PropertyData/fr|Material}}: Matériau lorsqu\'il est connu
+-    **Part Number**: Numéro de pièce du fabricant
 
 
 {{TitleProperty|Transition}}
 
--    {{PropertyData/fr|Transition Type}}: Définit la forme de la transition en utilisant le coefficient si nécessaire, voir [Options](#Options.md)
+-    **Aft Diameter**: Le diamètre de la base de la transition
 
--    {{PropertyData/fr|Transition Style}}: Définit le style de la transition, voir [Options](#Options.md)
+-    **Aft Shoulder**: Vrai lorsque la transition comprend un épaulement à la base.
 
--    {{PropertyData/fr|Clipped}}: Définit la forme de la transition en combinaison avec **Transition Type**, voir [Options](#Options.md)
+-    **Aft Shoulder Diameter**: Le diamètre de l\'épaulement. Il doit être inférieur au **Aft Diameter** de la transition.
 
--    {{PropertyData/fr|Length}}: La longueur de la transition sans les épaules
+-    **Aft Shoulder Length**: La longueur de l\'épaulement
 
--    {{PropertyData/fr|Aft Radius}}: Le rayon de la base de la transition
+-    **Aft Shoulder Thickness**: Lorsque le *Style de transition* est *Hollow* ou *Capped*, ceci détermine l\'épaisseur de la paroi de l\'épaulement.
 
--    {{PropertyData/fr|Fore Radius}}: Le rayon de l\'avant de la transition
+-    **Clipped**: Définit la forme de la transition en combinaison avec le **Transition Type**, voir [Options](#Options.md).
 
--    {{PropertyData/fr|Core Radius}}: Lorsque **Transition Type** est *Solid Core*, cela déterminera la taille du trou à travers la transition, voir [Options](#Options.md)
+-    **Coefficient**: Combiné avec **Transition Type**, ceci définit la forme de la transition, voir [Options](#Options.md).
 
--    {{PropertyData/fr|Thickness}}: Lorsque **Transition Type** est *Hollow* ou *Capped*, cela déterminera l\'épaisseur de la paroi de la transition
+-    **Core Diameter**: Lorsque **Transition Style** est *Solid Core*, ceci détermine la taille du trou à travers la transition, voir [Options](#Options.md).
 
--    {{PropertyData/fr|Coefficent}}: Combiné avec le **Transition Type**, cela définit la forme de la transition, voir [Options](#Options.md)
+-    **Fore Diameter**: Le diamètre de l\'avant de la transition
 
--    {{PropertyData/fr|Aft Shoulder}}: Vrai lorsque la transition comprend un épaulement à la base
+-    **Fore Shoulder**: Vrai lorsque la transition comprend une épaule à l\'extrémité avant.
 
--    {{PropertyData/fr|Aft Shoulder Length}}: La longueur de l\'épaulement
+-    **Fore Shoulder Diameter**: Le diamètre de l\'épaulement. Il doit être inférieur au *diamètre de l\'avant* de la transition.
 
--    {{PropertyData/fr|Aft Shoulder Radius}}: Le rayon de l\'épaule. Celui-ci doit être inférieur au **Fore Radius** de la transition
+-    **Fore Shoulder Length**: La longueur de l\'épaulement
 
--    {{PropertyData/fr|Aft Shoulder Thickness}}: Lorsque **Transition Type** est *Hollow* ou *Capped*, cela déterminera l\'épaisseur de la paroi de l\'épaulement
+-    **Fore Shoulder Thickness**: Lorsque le *Style de transition* est *Creux* ou *Recouvert*, ceci détermine l\'épaisseur de la paroi de l\'épaulement.
 
--    {{PropertyData/fr|Fore Shoulder}}: Vrai lorsque la transition inclut un épaulement à l\'extrémité avant
+-    **Length**: La longueur de la transition sans les épaulements.
 
--    {{PropertyData/fr|Fore Shoulder Length}}: La longueur de l\'épaulement
+-    **Resolution**: Utilisé en interne, ce paramètre définit le nombre de points de données à utiliser pour dessiner le contour du cône de la coiffe.
 
--    {{PropertyData/fr|Fore Shoulder Radius}}: Le rayon de l\'épaule. Cela doit être inférieur au **Fore Radius** de la transition
+-    **Thickness**: **Transition Type** est *Hollow* ou *Capped*, ce paramètre détermine l\'épaisseur de la paroi de la transition.
 
--    {{PropertyData/fr|Fore Shoulder Thickness}}: Lorsque **Transition Type** est *Hollow* ou *Capped*, cela déterminera l\'épaisseur de la paroi de l\'épaulement
+-    **Transition Style**: Définit le style de la transition, voir [Options](#Options.md).
 
--    {{PropertyData/fr|Resolution}}: Utilisé en interne, ce paramètre définit le nombre de points de données à utiliser lors du dessin du contour de la coiffe
+-    **Transition Type**: Définit la forme de la transition en utilisant le coefficient si nécessaire, voir [Options](#Options.md).
 
 ## Script
 

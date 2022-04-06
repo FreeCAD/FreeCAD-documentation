@@ -4,14 +4,14 @@
    Name/fr:Arch Couper selon un plan
    MenuLocation:Arch → Couper selon un plan
    Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Couper suivant une ligne](Arch_CutLine/fr.md), [Arch Soustraire](Arch_Remove/fr.md)
+   SeeAlso:[Arch Couper selon une ligne](Arch_CutLine/fr.md), [Arch Soustraire](Arch_Remove/fr.md)
 ---
 
 # Arch CutPlane/fr
 
 ## Description
 
-L\'outil Couper le plan vous permet de couper un objet Arch selon un plan:
+L\'outil Couper selon un plan vous permet de couper un objet Arch selon un plan:
 
 -   Vous pouvez couper un objet Arch avec la face sélectionnée, normale ou opposée au plan de la face.
 -   Cela ajoute un composant de soustraction CutVolume à l\'objet Arch
@@ -20,12 +20,12 @@ L\'outil Couper le plan vous permet de couper un objet Arch selon un plan:
 
 
 
-*A gauche: avant d'appliquer l'outil Couper suivant un plan. Milieu: mur résultant après la coupe. À droite: encore un autre résultat facultatif*
+*A gauche: avant d'appliquer l'outil Couper selon un plan. Milieu: mur résultant après la coupe. À droite: encore un autre résultat facultatif*
 
 ## Utilisation
 
 1.  Sélectionner l\'objet à couper, puis une face (la face doit être sélectionnée en dernier, et doit être sélectionnée sur la [vue 3D](3D_view/fr.md)).
-2.  Appuyer sur le bouton **<img src="images/Arch_CutPlane.svg" width=24px> [Couper un objet selon un plan](Arch_CutPlane/fr.md)**.
+2.  Appuyer sur le bouton **<img src="images/Arch_CutPlane.svg" width=24px> [Couper selon un plan](Arch_CutPlane/fr.md)**.
 3.  Choisissez si l\'objet est coupé **derrière** la face normale ou **devant** de la face normale.
 4.  Cliquer sur le bouton **OK**.
 

@@ -14,9 +14,6 @@ La commande <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **F
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Sélectionnez une ou plusieurs fixations.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Fasteners_Shape.svg" width=16px> [Fasteners Shape](Fasteners_Shape/fr.md)**.
@@ -24,9 +21,6 @@ La commande <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **F
 3.  Pour chaque fixation, une copie simplifiée est créée.
 4.  La propriété **Visibility** des fixations d\'origine est définie sur `False`.
 5.  Si vous le souhaitez, vous pouvez supprimer les fixations d\'origine.
-
-
-</div>
 
 
 

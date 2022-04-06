@@ -51,9 +51,9 @@ Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. N
 
 -   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Utwórz lokalny system współrzędnych](PartDesign_CoordinateSystem.md): tworzy lokalny układ odniesienia połączony z geometrią punktu odniesienia w aktywnej bryle.
 
--   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Utwórz spoiwo kształtu.](PartDesign_ShapeBinder.md): tworzy spoiwo kształtu w aktywnej bryle.
+-   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Utwórz spoiwo kształtu.](PartDesign_ShapeBinder/pl.md): tworzy spoiwo kształtu odwołujące się do geometrii z jednego obiektu nadrzędnego.
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Utwórz spoiwo do elementu podrzędnego](PartDesign_SubShapeBinder.md): tworzy spoiwo kształtowe do elementu podrzędnego, jak krawędź lub powierzchnia z innej bryły, przy zachowaniu względnej pozycji tego elementu. {{Version/pl|0.19}}
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Utwórz spoiwo do elementu podrzędnego](PartDesign_SubShapeBinder/pl.md): tworzy spoiwo kształtu odwołujące się do geometrii z jednego lub więcej obiektów nadrzędnych. {{Version/pl|0.19}}
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Stwórz nowego klona](PartDesign_Clone.md): tworzy klon wybranej bryły.
 

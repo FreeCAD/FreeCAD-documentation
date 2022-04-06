@@ -3,14 +3,12 @@
    Name:Sketcher ViewSection
    Name/fr:Sketcher Vue en section
    MenuLocation:Sketch → Vue section
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md) 
+   Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   Shortcut:**Q** **S**
    Version:0.18
 ---
 
 # Sketcher ViewSection/fr
-
-
-</div>
 
 ## Description
 

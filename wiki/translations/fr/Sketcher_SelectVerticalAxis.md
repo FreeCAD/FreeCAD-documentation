@@ -4,14 +4,11 @@
    Name/fr:Sketcher Sélection axe vertical
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    MenuLocation:Sketch → Outils d'esquisse → Sélectionner l'axe vertical
-   Shortcut:**Ctrl**+**Maj**+**V**
+   Shortcut:**Z** **V**
    Version:0.15
 ---
 
 # Sketcher SelectVerticalAxis/fr
-
-
-</div>
 
 ## Description
 
@@ -19,24 +16,12 @@ Sélectionne l\'axe vertical d\'une esquisse.
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Entrez le mode d\'édition de l\'esquisse.
 2.  Choisir **Sketch → Outils d'esquisse → [<img src=images/Sketcher_SelectVerticalAxis.png style="width:16px"> Sélectionner l'axe vertical** dans le menu principal.
 3.  L\'axe vertical de l\'esquisse sera sélectionnée.
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

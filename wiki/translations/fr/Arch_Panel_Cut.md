@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Panel Cut
    Name/fr:Arch Découpe de panneaux
-   MenuLocation:Arch → Outils pour panneaux → Panneau de coupe
+   MenuLocation:Arch → Outils pour les panneaux → Panneau de coupe
    Workbenches:[Arch](Arch_Workbench/fr.md), [Path](Path_Workbench/fr.md)
    Shortcut:**P** **C**
    Version:0.17
@@ -34,34 +34,34 @@ Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneaux](Ar
 
 ## Propriétés
 
-### Propriétés 
+### Données
 
--    {{PropertyData/fr|Source}}: L\'objet [Arch Panneaux](Arch_Panel/fr.md) affiche ses coupes.
+-    **Source**: L\'objet [Arch Panneaux](Arch_Panel/fr.md) montré par cette coupe.
 
--    {{PropertyData/fr|Tag Text}}: Le texte affiché. Vous pouvez l\'afficher par %tag%, %label% or %description% panneau label ou description.
+-    **Tag Text**: Le texte à afficher. Peut être %tag%, %label% ou %description% pour afficher la balise ou l\'étiquette du panneau.
 
--    {{PropertyData/fr|Tag Size}}: La taille du texte du label.
+-    **Tag Size**: La taille du texte de la balise
 
--    {{PropertyData/fr|Tag Position}}: La position du texte du lbel. Conserve automatiquement les points (0,0,0) pour la position centrale.
+-    **Tag Position**: La position du texte de la balise. Conservez (0,0,0) pour une position centrale automatique.
 
--    {{PropertyData/fr|Tag Rotation}}: La rotation du texte.
+-    **Tag Rotation**: La rotation du texte de la balise
 
--    {{PropertyData/fr|Font File}}: La police de caractère du label.
+-    **Font File**: La police du texte de la balise
 
--    {{PropertyData/fr|Make Face}}: Si Face est réglé sur True, la panneau est une face si non le panneau est un fil.
+-    **Make Face**: Si True, le panneau est un Part Face, sinon une Part Polyligne.
 
 ### Vue
 
--    {{PropertyView/fr|Margin}}: La marge à afficher hors du panneau coupé.
+-    **Margin**: La marge à afficher hors du panneau coupé.
 
--    {{PropertyView/fr|Show Margin}}: Tourne l\'affichage des marges oui/non.
+-    **Show Margin**: Tourne l\'affichage des marges oui/non.
 
 ## Script
 
 
 **Voir aussi:**
 
-[Arch API](Arch_API/fr.md) et [Sripts de base FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil panneau peut être utilisé dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant le code suivant: 
 ```python

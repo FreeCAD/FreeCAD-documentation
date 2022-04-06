@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Arch Floor
-   Name/fr:Arch Niveaux
+   Name/fr:Arch Niveau
    MenuLocation:Arch → Niveau
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**L** **V**
@@ -12,15 +12,15 @@
 
 ## Description
 
-[Niveaux](Arch_Floor/fr.md) est un type spécial d\'objet de groupe FreeCAD qui possède quelques propriétés supplémentaires particulièrement adaptées pour la construction de niveaux. En particulier, ils ont une propriété height (hauteur), que ses objets enfants ([Arch murs](Arch_Wall/fr.md) et [Arch structures](Arch_Structure/fr.md)) peuvent utiliser pour définir automatiquement leur propre hauteur. Ils sont principalement utilisés pour organiser votre modèle.
+[Arch Niveau](Arch_Floor/fr.md) est un type spécial d\'objet de groupe FreeCAD qui possède quelques propriétés supplémentaires particulièrement adaptées pour la construction de niveaux. En particulier, ils ont une propriété hauteur, que ses objets enfants ([Arch Murs](Arch_Wall/fr.md) et [Arch Structures](Arch_Structure/fr.md)) peuvent utiliser pour définir automatiquement leur propre hauteur. Ils sont principalement utilisés pour organiser votre modèle.
 
-À partir de {{VersionPlus/fr|0.18}}, l\'atelier Niveaux (Arch Floor) est entièrement dérivé de l\'objet [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) qui est un conteneur général permettant d\'organiser un modèle de construction ne se limitant pas aux niveaux ou aux étages. Les anciens objets Floor peuvent être convertis dans le nouveau type en cliquant dessus avec le bouton droit de la souris et en choisissant `Convert to BuildingPart`.
+À partir de {{VersionPlus/fr|0.18}}, l\'atelier Niveau est entièrement dérivé de l\'objet [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) qui est un conteneur général permettant d\'organiser un modèle de construction ne se limitant pas aux niveaux ou aux étages. Les anciens objets Floor peuvent être convertis dans le nouveau type en cliquant dessus avec le bouton droit de la souris et en choisissant `Convert to BuildingPart`.
 
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets que vous voulez inclure dans votre nouveau niveau.
 2.  Appelez la commande Arch Niveau de plusieurs manières:
-    -   En appuyant sur le bouton **<img src="images/Arch_Floor.svg" width=16px> [Crée un niveau, objet Part Construction...](Arch_Floor/fr.md)** dans la barre d\'outils.
+    -   En appuyant sur le bouton **<img src="images/Arch_Floor.svg" width=16px> [Niveau](Arch_Floor/fr.md)** dans la barre d\'outils.
     -   Utilisation des touches **L** puis **V**.
     -   Utilisation de l\'entrée **Arch → Niveau** dans le menu supérieur.
 
@@ -31,7 +31,7 @@
 
 ## Propriétés
 
-Un objet Niveau (Arch Floor) partage toutes les propriétés d\'un objet [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) avec **Ifc Type** défini sur `"Building Storey"`.
+Un objet Niveau partage toutes les propriétés d\'un objet [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) avec **Ifc Type** défini sur `"Building Storey"`.
 
 ## Script
 

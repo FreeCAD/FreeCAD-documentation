@@ -80,7 +80,6 @@ To translate the current snap development version in to a revision number (make 
 snap info freecad-ppd <nowiki>|</nowiki>\
 grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
-cut -d'~' -f2 <nowiki>|</nowiki>\
 xargs -I{} git rev-list --count {}
 }}
 
@@ -94,7 +93,6 @@ Taking it a step further, if you want a short summary of the commits between the
 snap info freecad-ppd <nowiki>|</nowiki>\
 grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
-cut -d'~' -f2 <nowiki>|</nowiki>\
 xargs -I{} git log --oneline --ancestry-path {}..HEAD
 }}
 

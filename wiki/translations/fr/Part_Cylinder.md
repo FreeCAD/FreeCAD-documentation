@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Cylinder
    Name/fr:Part Cylindre
-   MenuLocation:Pièce → Primitives → Cylindre
+   MenuLocation:Part → Primitives → Cylindre
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---

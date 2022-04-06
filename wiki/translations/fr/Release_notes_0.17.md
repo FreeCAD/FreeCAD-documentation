@@ -6,9 +6,7 @@
 
 </div>
 
-FreeCAD 0.17 a été publié le 6 avril 2018. Vous pouvez l\'obtenir depuis la page de [Téléchargements](Download/fr.md). Ceci est un résumé des changements les plus intéressants. La liste complète des changements peut être trouvée dans le [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73).
-
-Les anciennes notes de publication de FreeCAD peuvent être trouvées dans [Liste des fonctions](Feature_list/fr#Notes_de_versions.md)..
+FreeCAD 0.17 a été publié le 6 avril 2018. Vous pouvez l\'obtenir depuis la page de [GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.17). Ceci est un résumé des changements les plus intéressants. La liste complète des changements peut être trouvée dans le [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73). Les anciennes notes de publication de FreeCAD peuvent être trouvées dans [Liste des fonctions](Feature_list/fr#Notes_de_versions.md).
 
 <img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
 *Garden Railway Coach O & K (par l\'utilisateur de FreeCAD \"Garden Railway Coach O & K\", voir [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*

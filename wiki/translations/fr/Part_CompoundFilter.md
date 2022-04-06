@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Compound‏‎Filter
    Name/fr:Part Filtre de composé
-   MenuLocation:Pièce → Composé → Filtre composé
+   MenuLocation:Part → Composé → Filtre composé
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.17
 ---
@@ -22,7 +22,7 @@ S\'il n\'y a qu\'une seule forme enfant dans le résultat, la sortie est l\'enfa
 ## Utilisation
 
 1.  Sélectionnez l\'objet découpé
-2.  Appliquez **Pièce → Composé → Filtre composé**
+2.  Appliquez **Part → Composé → Filtre composé**
 3.  Sélectionnez l\'objet CompoundFilterObject dans l\'arborescence
 4.  Dans l\'onglet Propriétés, définissez \"Type de filtre\" sur \"éléments spécifiques\".
 5.  Définit les items sur les éléments à extraire
@@ -41,9 +41,9 @@ S\'il n\'y a qu\'une seule forme enfant dans le résultat, la sortie est l\'enfa
 
 ## Propriétés
 
--    {{PropertyData/fr|Base}}: Objet à filtrer.
+-    **Base**: Objet à filtrer.
 
--    {{PropertyData/fr|Type de filtre}}options sélectionnables:
+-    **Type de filtre**options sélectionnables:
 
     -   contourne; pas de filtre. Le composé d\'origine est sorti, inchangé.
     -   éléments spécifiques ; extraire les éléments listés dans la propriété \"items\"
@@ -53,21 +53,21 @@ S\'il n\'y a qu\'une seule forme enfant dans le résultat, la sortie est l\'enfa
     -   longueur de la fenêtre ; identique à window-volume où la longueur des bords détermine la sélection à la place du volume.
     -   distance de la fenêtre ; extraire les enfants dont la distance à la forme \'Stencil\' est dans la fenêtre de valeur, définie par les propriétés \"WindowFrom\", \"WindowTo\", \"OverrideMaxVal\".
 
--    {{PropertyData/fr|Invert}}: s\'il est défini sur true, la liste décrite ci-dessus est exclue au lieu d\'être incluse.
+-    **Invert**: s\'il est défini sur true, la liste décrite ci-dessus est exclue au lieu d\'être incluse.
 
--    {{PropertyData/fr|Override Max Val}}: la plage de la fenêtre de valeurs est définie en pourcentage de la valeur maximale. La valeur maximale est calculée en fonction des règles suivantes :
+-    **Override Max Val**: la plage de la fenêtre de valeurs est définie en pourcentage de la valeur maximale. La valeur maximale est calculée en fonction des règles suivantes :
 
     -   si \'OverrideMaxVal\' est différent de zéro, utilisez-le.
     -   sinon, si le lien \'Stencil\' est fourni - calcule la valeur correspondante de la forme du stencil (ne s\'applique pas à la distance de fenêtre \'FilterType\')
     -   sinon, prenez la valeur maximale pour les enfants du composé à filtrer.
 
--    {{PropertyData/fr|Stencil}}: Lien vers une forme de gabarit. Pour les types de filtres de type collision-pass et fenêtre-distance, le gabarit est l\'objet contre lequel tester la collision / la distance. Pour les autres types de filtres \"fenêtre - \*\*\*\", le gabarit sert à fournir une valeur de référence pour les pourcentages de fenêtre (remplacement de la valeur maximale). Dans tous les autres modes, « Stencil » est ignoré.
+-    **Stencil**: Lien vers une forme de gabarit. Pour les types de filtres de type collision-pass et fenêtre-distance, le gabarit est l\'objet contre lequel tester la collision / la distance. Pour les autres types de filtres \"fenêtre - \*\*\*\", le gabarit sert à fournir une valeur de référence pour les pourcentages de fenêtre (remplacement de la valeur maximale). Dans tous les autres modes, « Stencil » est ignoré.
 
--    {{PropertyData/fr|Window From}}: Pourcentage de seuil supérieur pour la sélection de pièces, 100% par rapport à la pièce la plus grande.
+-    **Window From**: Pourcentage de seuil supérieur pour la sélection de pièces, 100% par rapport à la pièce la plus grande.
 
--    {{PropertyData/fr|Window To}}: Pourcentage de seuil inférieur pour la sélection de pièces, 100% est relatif à la plus grande pièce.
+-    **Window To**: Pourcentage de seuil inférieur pour la sélection de pièces, 100% est relatif à la plus grande pièce.
 
--    {{PropertyData/fr|items}}: Liste ou plage d\'éléments à sélectionner si le type de filtre est \"éléments spécifiques\".
+-    **items**: Liste ou plage d\'éléments à sélectionner si le type de filtre est \"éléments spécifiques\".
 
 
 

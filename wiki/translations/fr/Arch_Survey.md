@@ -32,7 +32,7 @@ Lorsque les informations sont recueillies, trois choses se produisent :
 
 ## Utilisation
 
-1.  Cliquez sur le bouton **<img src="images/Arch_Survey.svg" width=16px> [Arch Prise de cotes](Arch_Survey/fr.md)
+1.  Cliquez sur le bouton **<img src="images/Arch_Survey.svg" width=16px> [Prise de cotes](Arch_Survey/fr.md)
 **
 2.  Cliquez sur un sommet, arête, face ou double-cliquez sur l\'élément pour sélectionner l\'objet entier.
 3.  Cliquez hors de toute géométrie (arrière-plan de la vue 3D) pour supprimer les étiquettes existantes, imprimer une ligne totale dans la boîte de dialogue Tâche et relancer le comptage des longueurs et des surfaces à partir de zéro.

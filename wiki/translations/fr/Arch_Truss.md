@@ -21,14 +21,14 @@ L\'outil [Arch Ferme](Arch_Truss/fr.md) crée un objet [Treillis](https://fr.wik
 
 1.  Utilisez un atelier de votre choix pour créer une seule ligne
 2.  Sélectionnez cette ligne
-3.  Appuyez sur le bouton **<img src="images/Arch_Truss.svg" width=16px> [Crée un objet ferme...](Arch_Truss/fr.md)
+3.  Appuyez sur le bouton **<img src="images/Arch_Truss.svg" width=16px> [Ferme](Arch_Truss/fr.md)
 **
 4.  Ajustez les propriétés de la ferme à votre convenance
 
 ### Création à partir de zéro 
 
 1.  Assurez-vous que rien n\'est sélectionné
-2.  Appuyez sur le bouton **<img src="images/Arch_Truss.svg" width=16px> [Crée un objet ferme...](Arch_Truss/fr.md)
+2.  Appuyez sur le bouton **<img src="images/Arch_Truss.svg" width=16px> [Ferme](Arch_Truss/fr.md)
 **
 3.  Cliquez dans la vue 3D pour définir un premier point ou entrez manuellement les coordonnées X, Y et Z
 4.  Cliquez dans la vue 3D pour définir un deuxième point ou entrez manuellement les coordonnées X, Y et Z
@@ -38,35 +38,35 @@ L\'outil [Arch Ferme](Arch_Truss/fr.md) crée un objet [Treillis](https://fr.wik
 
 ### Données
 
--    {{PropertyData/fr|TrussAngle}}: angle du treillis
+-    **TrussAngle**: angle du treillis
 
--    {{PropertyData/fr|SlantType}}: type oblique du treillis
+-    **SlantType**: type oblique du treillis
 
--    {{PropertyData/fr|Normal}}: direction normale du treillis
+-    **Normal**: direction normale du treillis
 
--    {{PropertyData/fr|HeightStart}}: hauteur du treillis à la position de départ
+-    **HeightStart**: hauteur du treillis à la position de départ
 
--    {{PropertyData/fr|HeightEnd}}: hauteur du treillis à la position finale
+-    **HeightEnd**: hauteur du treillis à la position finale
 
--    {{PropertyData/fr|StrutStartOffset}}: décalage de démarrage facultatif pour la jambe de force supérieure
+-    **StrutStartOffset**: décalage de démarrage facultatif pour la jambe de force supérieure
 
--    {{PropertyData/fr|StrutEndOffset}}: décalage de fin facultatif pour la jambe supérieure
+-    **StrutEndOffset**: décalage de fin facultatif pour la jambe supérieure
 
--    {{PropertyData/fr|StrutHeight}}: hauteur des principaux éléments supérieur et inférieur du treillis
+-    **StrutHeight**: hauteur des principaux éléments supérieur et inférieur du treillis
 
--    {{PropertyData/fr|StrutWidth}}: largeur des principaux éléments supérieur et inférieur du treillis
+-    **StrutWidth**: largeur des principaux éléments supérieur et inférieur du treillis
 
--    {{PropertyData/fr|RodType}}: type de l\'élément central du treillis
+-    **RodType**: type de l\'élément central du treillis
 
--    {{PropertyData/fr|RodDirection}}: direction des tiges
+-    **RodDirection**: direction des tiges
 
--    {{PropertyData/fr|RodSize}}: diamètre ou côté des tiges
+-    **RodSize**: diamètre ou côté des tiges
 
--    {{PropertyData/fr|RodSections}}: nombre de sectionss de tiges
+-    **RodSections**: nombre de sectionss de tiges
 
--    {{PropertyData/fr|RodEnd}}: si le treillis a une tige à son extrémité ou non
+-    **RodEnd**: si le treillis a une tige à son extrémité ou non
 
--    {{PropertyData/fr|RodMode}}: comment dessiner les tiges
+-    **RodMode**: comment dessiner les tiges
 
 ## Script
 

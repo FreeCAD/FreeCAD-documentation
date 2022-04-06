@@ -191,6 +191,9 @@ Modulul Arch poate fi folosit în scripturile [Python](Python.md) scripts și [m
 
 ## Tutoriale
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Architecture workflow](http://yorik.uncreated.net/guestblog.php?tag=freecad): An example of how FreeCAD can begin to have its preliminary place in an architecture workflow.
 -   [Arch tutorial](Arch_tutorial.md) (v. 0.14)
 -   [Quick arch overview on Yorik\'s blog](http://yorik.uncreated.net/guestblog.php?2012=180) (v. 0.13)
@@ -199,6 +202,9 @@ Modulul Arch poate fi folosit în scripturile [Python](Python.md) scripts și [m
 -   [BIM modeling chapter from the FreeCAD manual](Manual_BIM_modeling.md)
 -   [Import from STL or OBJ](Import_from_STL_or_OBJ.md)
 -   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
+
+
+</div>
 
 
 {{docnav/ro

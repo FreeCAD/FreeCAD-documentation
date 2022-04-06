@@ -4,13 +4,11 @@
    Name/de:Skizzierer BeschränkeSnelliusschesGesetz
    MenuLocation:Sketch → Skizzen-Beschränkungen → Lichtbrechung (nach Snellius-Gesetz) festlegen
    Workbenches:[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut:**K** **W**
    Version:0.15
 ---
 
 # Sketcher ConstrainSnellsLaw/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -100,13 +98,7 @@ App.ActiveDocument.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

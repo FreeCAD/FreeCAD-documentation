@@ -1,5 +1,5 @@
 # Frequently asked questions/pl
-This page attempts to answer the most common questions asked on the FreeCAD forums. If you have a problem or question regarding FreeCAD, check below first. Then, if you cannot find an answer for your specific question, head to the [FreeCAD forum](http://forum.freecadweb.org/viewforum.php?f=3)!
+Ta strona jest próbą odpowiedzi na najczęstsze pytania zadawane na forum FreeCAD. Jeśli masz problem lub pytanie dotyczące programu FreeCAD, sprawdź najpierw poniżej. Następnie, jeśli nie możesz znaleźć odpowiedzi na swoje konkretne pytanie, przejdź do [forum FreeCAD](http://forum.freecadweb.org/viewforum.php?f=3)!
 
 ## Instalacja
 
@@ -11,7 +11,7 @@ If you are on Windows or macOS, the simplest way is to head to the [Download](Do
 
 In contrast to most 3D CAD software, FreeCAD can run smoothly on the most modest computers - it\'s been known to run on Pentium IV and Intel Core2 Solo CPUs. If your computer is running a current operating system, chances are FreeCAD will run. The only prerequisite is that your graphics card or chipset must support [OpenGL](https://en.wikipedia.org/wiki/OpenGL), preferably no older than v2.0. In case of problems, refer to the [Troubleshooting](Frequently_asked_questions#Troubleshooting.md) section of this FAQ.
 
-#### Multithreading
+#### Wielowątkowość
 
 FreeCAD\'s underlying geometric modeling kernel, the [OpenCASCADE Technology](http://en.wikipedia.org/wiki/Open_Cascade_Technology) (OCCT) third-party library, [has only partial multi-threading support at this time](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&p=173095&hilit=Multithread#p173095). See the [multithreading](multithreading.md) page for more details.
 

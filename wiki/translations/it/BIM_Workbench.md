@@ -250,10 +250,16 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 
 ## Tutorial e apprendimento 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Tutorial Architettura e BIM in questo wiki](Tutorials/it#Architettura_e_BIM.md)
 -   [\"BIM with FreeCAD\" video series by Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD tutorials\" video series by Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" video series by Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
+
+
+</div>
 
 ## Ambienti aggiuntivi 
 

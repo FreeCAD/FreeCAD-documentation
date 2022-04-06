@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part CreatePrimitives
    Name/fr:Part Primitives
-   MenuLocation:Pièce → Créer des primitives...
+   MenuLocation:Part → Créer des primitives...
    Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
    SeeAlso:[Part Générateur de formes](Part_Builder/fr.md)
 ---

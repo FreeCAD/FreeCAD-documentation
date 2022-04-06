@@ -29,11 +29,24 @@ A définir
 Les composants créés à l\'aide de Rocket Workbench sont essentiellement des pièces similaires à ce que vous créeriez à l\'aide de l\'[atelier Part](Part_Workbench/fr.md). Ils peuvent être combinés avec d\'autres pièces ou modifiés à l\'aide de cet atelier. L\'avantage d\'utiliser Rocket Workbench est que les pièces peuvent être créées avec beaucoup moins d\'opérations.
 
 -   <img alt="" src=images/Rocket_NoseCone.svg  style="width:32px;"> [Coiffe](Rocket_NoseCone/fr.md): Créer une coiffe
+
 -   <img alt="" src=images/Rocket_Transition.svg  style="width:32px;"> [Transition](Rocket_Transition/fr.md): Créer une transition
+
 -   <img alt="" src=images/Rocket_BodyTube.svg  style="width:32px;"> [Tube du corps](Rocket_BodyTube/fr.md): Crée un tube de corps creux
--   <img alt="" src=images/Rocket_Bulkhead.svg  style="width:32px;"> [Cloison](Rocket_Bulkhead/fr.md): Créer une cloison
+
 -   <img alt="" src=images/Rocket_CenteringRing.svg  style="width:32px;"> [Anneau de centrage](Rocket_CenteringRing/fr.md): Créer une bague de centrage
+
+-   <img alt="" src=images/Rocket_Bulkhead.svg  style="width:32px;"> [Cloison](Rocket_Bulkhead/fr.md): Créer une cloison
+
 -   <img alt="" src=images/Rocket_Fin.svg  style="width:32px;"> [Aileron](Rocket_Fin/fr.md): Créer un aileron
+
+-   <img alt="" src=images/Rocket_LaunchGuideComposite.png  style="width:32px;"> [Guides de lancement](Rocket_CompLaunchGuide/fr.md): Créer un guide de lancement
+
+:\* <img alt="" src=images/Rocket_LaunchLug.svg  style="width:32px;"> [Rampe de lancement](Rocket_LaunchLug/fr.md) : Crée une rampe de lancement
+
+:\* <img alt="" src=images/Rocket_RailButton.svg  style="width:32px;"> [Bouton rail](Rocket_RailButton/fr.md) : Crée un bouton rail
+
+:\* <img alt="" src=images/Rocket_RailGuide.svg  style="width:32px;"> [Guide rail](Rocket_RailGuide/fr.md) : Crée un guide rail
 
 ## Calculateurs
 

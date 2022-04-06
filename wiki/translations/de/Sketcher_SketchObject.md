@@ -5,9 +5,9 @@
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
 
-A [Sketcher SketchObject](Sketcher_SketchObject.md), or formally a `Sketcher::SketchObject`, is the base element to create 2D objects with the [Sketcher Workbench](Sketcher_Workbench.md).
+Ein [Sketcher SketchObject](Sketcher_SketchObject/de.md), oder formal ein `Sketcher::SketchObject`, ist das Basiselement für die Erstellung von 2D-Objekten mit der Arbeitsumgebung [Sketcher](Sketcher_Workbench/de.md).
 
-The `Sketcher::SketchObject` is derived from the [Part Part2DObject](Part_Part2DObject.md), which means it is a [Part Feature](Part_Feature.md) object specialized for 2D geometry. Like the Part2DObject, the SketchObject can be attached to planes and faces. In addition, the SketchObject can handle geometrical constraints.
+Das `Sketcher::SketchObject` ist vom [Part Part2DObject](Part_Part2DObject/de.md) abgeleitet, d.h. es ist ein [Part Feature](Part_Feature/de.md)-Objekt spezialisiert auf 2D-Geometrie. Wie das Part2DObject, kann das SketchObject Ebenen und Flächen zugeordnet werden. Zusätzlich kann das SketchObject mit geometrischen Randbedingungen arbeiten.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -15,7 +15,7 @@ The `Sketcher::SketchObject` is derived from the [Part Part2DObject](Part_Part2D
 
 *Simplified diagram of the relationships between the core objects in FreeCAD*
 
-## Usage
+## Anwendung
 
 1.  Switch to the [Sketcher Workbench](Sketcher_Workbench.md).
 2.  Press **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**.
@@ -35,15 +35,15 @@ Although the SketchObject can be used by itself to draw on a plane, it is most c
 
 5.  Press **OK**.
 
-## Properties
+## Eigenschaften
 
-See [Property](Property.md) for all property types that scripted objects can have.
+Siehe [Eigenschaft](Property/de.md) für alle Eigenschaftstypen, die geskriptete Objekte haben können.
 
 The [Sketcher SketchObject](Sketcher_SketchObject.md) (`Sketcher::SketchObject` class) is derived from the [Part Part2DObject](Part_Part2DObject.md) (`Part::Part2DObject` class) and inherits all its properties.
 
 The Sketcher SketchObject also has the following additional properties in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
 
-### Data
+### Daten
 
 
 {{TitleProperty|Sketch}}
@@ -56,7 +56,7 @@ The Sketcher SketchObject also has the following additional properties in the [p
 
 -    **Fully Constrained|Bool|Hidden**: (read-only) if `True` the sketch is fully constrained.
 
-### View
+### Ansicht
 
 
 {{TitleProperty|Auto Constraints}}
@@ -103,7 +103,7 @@ The Sketcher SketchObject also has the following additional properties in the [p
 
 -    **Tempo Vis|PythonObject|Hidden**: a custom class associated with this object, that handles hiding and showing other objects when opening and closing the sketch.
 
-## Scripting
+## Skripten
 
 
 **See also:**

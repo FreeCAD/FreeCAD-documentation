@@ -18,7 +18,7 @@ Une cloison est une section solide de matériau utilisée pour fermer une sectio
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_Bulkhead.svg" width=16px> [Bulkhead](Rocket_Bulkhead/fr.md)**.
     -   Sélectionnez l\'option **Rocket  → <img src="images/Rocket_Bulkhead.svg" width=16px> Bulkhead** dans le menu.
-    -   Double-cliquez sur un objet Bulkhead dans la vue du modèle.
+    -   Double-cliquez sur un objet Bulkhead dans la [Vue en arborescence](Tree_view/fr.md).
 2.  Définissez les options et appuyez sur **OK**.
 
 ## Options
@@ -42,24 +42,19 @@ Une cloison peut nécessiter des trous pour diverses raisons, telles que la fixa
 ## Propriétés
 
 
-{{TitleProperty|Rocket Component}}
-
-Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
-
--    {{PropertyData/fr|Manufacturer}}: Fabricant lorsqu\'il est connu
-
--    {{PropertyData/fr|Part Number}}: Numéro de pièce du fabricant
-
--    {{PropertyData/fr|Description}}: Description du composant
-
--    {{PropertyData/fr|Material}}: Matériau lorsqu\'il est connu
-
-
 {{TitleProperty|Bulkhead}}
 
 -    {{PropertyData/fr|Diameter}}: Le diamètre extérieur de la cloison
 
--    {{PropertyData/fr|Thickness}}: L\'épaisseur, à l\'exclusion de toute marche, de la cloison
+-    {{PropertyData/fr|Hole Center}}: La distance entre le centre du trou et le centre de la cloison
+
+-    {{PropertyData/fr|Hole Count}}: Le nombre de trous appliqués dans un motif radial autour du centre de la cloison
+
+-    {{PropertyData/fr|Hole Diameter}}: Le diamètre du trou
+
+-    {{PropertyData/fr|Hole Offset}}: Décalage à partir de 0 degré du premier trou
+
+-    {{PropertyData/fr|Holes}}: Vrai lorsque la cloison comporte un ou plusieurs trous, voir [Options](#Options.md)
 
 -    {{PropertyData/fr|Step}}: Vrai lorsque la cloison comprend une marche, voir [Options](#Options.md)
 
@@ -67,15 +62,20 @@ Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la con
 
 -    {{PropertyData/fr|Step Thickness}}: L\'épaisseur, sans compter l\'épaisseur de la cloison, de la marche
 
--    {{PropertyData/fr|Holes}}: Vrai lorsque la cloison comporte un ou plusieurs trous, voir [Options](#Options.md)
+-    {{PropertyData/fr|Thickness}}: L\'épaisseur, à l\'exclusion de toute marche, de la cloison
 
--    {{PropertyData/fr|Hole Diameter}}: Le diamètre du trou
 
--    {{PropertyData/fr|Hole Center}}: La distance entre le centre du trou et le centre de la cloison
+{{TitleProperty|Rocket Component}}
 
--    {{PropertyData/fr|Hole Count}}: Le nombre de trous appliqués dans un motif radial autour du centre de la cloison
+Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
 
--    {{PropertyData/fr|Hole Offset}}: Décalage à partir de 0 degré du premier trou
+-    **Description**: Description du composant
+
+-    **Manufacturer**: Fabricant lorsqu\'il est connu
+
+-    **Material**: Matériau lorsqu\'il est connu
+
+-    **Part Number**: Numéro de pièce du fabricant
 
 ## Script
 

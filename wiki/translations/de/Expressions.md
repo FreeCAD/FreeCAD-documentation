@@ -3,13 +3,7 @@
 
 ## Übersicht
 
-
-<div class="mw-translate-fuzzy">
-
 Es ist möglich, Eigenschaften unter Verwendung von mathematischen Ausdrücken festzulegen. In der GUI enthalten Drehfelder oder Eingabefelder, die an Eigenschaften gebunden sind, ein blaues Symbol <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Klicken auf das Symbol oder Eingeben des Gleichheitszeichens **&#61;** ruft den Ausdruckseditor für diese bestimmte Eigenschaft auf.
-
-
-</div>
 
 Ein FreeCAD Ausdruck ist ein mathematischer Ausdruck, der der Schreibweise für die unten beschriebenen mathematischen Standardoperatoren und -funktionen folgt. Außerdem kann der Ausdruck auf andere Eigenschaften verweisen und auch Konditionale verwenden. Zahlen in einem Ausdruck können eine optionalen Einheit angehängt bekommen.
 
@@ -38,11 +32,6 @@ Für weitere Informationen über das Referenzieren von Objekten siehe [Referenz 
 
 ## Unterstützte Konstanten 
 
-The following constants are supported:
-
-
-<div class="mw-translate-fuzzy">
-
 Die folgenden Konstanten werden unterstützt:
 
   Konstante   Beschreibung
@@ -51,17 +40,9 @@ Die folgenden Konstanten werden unterstützt:
   **pi**      [Kreiszahl $\pi$](https://de.wikipedia.org/wiki/Kreiszahl)
 
 
-</div>
-
-
 {{Top}}
 
 ## Unterstützte Operatoren 
-
-The following operators are supported:
-
-
-<div class="mw-translate-fuzzy">
 
 Die folgenden Operatoren werden untertstützt:
 
@@ -75,26 +56,17 @@ Die folgenden Operatoren werden untertstützt:
   **\^**     [Potenz](https://de.wikipedia.org/wiki/Potenz_(Mathematik))
 
 
-</div>
-
-
 {{Top}}
 
 ## Unterstützte Funktionen 
 
 ### Allgemeine mathematische Funktionen 
 
-The following mathematical functions are supported:
+Die folgenden mathematischen Funktionen werden untertstützt:
 
-#### Trigonometric functions 
-
-[Trigonometric functions](https://en.wikipedia.org/wiki/Trigonometric_functions) use degree as their default unit. For radian measure, add first value in an expression. So e.g. `cos(45)` is the same as `cos(pi rad / 4)`. Expressions in degrees can use either `deg` or `°`, e.g. `360deg - atan2(3; 4)` or `360&deg; - atan2(3; 4)`. If an expression is without units and needs to be converted to degrees or radians for compatibility, multiply by `1&nbsp;deg`, `1&nbsp;°` or `1&nbsp;rad` as appropriate, e.g. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
-
-
-<div class="mw-translate-fuzzy">
+#### Trigonometrische Funktionen 
 
 [Trigonometrische Funktionen](https://de.wikipedia.org/wiki/Trigonometrische_Funktion) verwenden Grad als Standardeinheit. Für die Angabe im Bogenmaß wird ersten Wert in einem Ausdruck hinzugefügt. So ist z.B. `cos(45)` das gleiche, wie `cos(pi rad / 4)`. Ausdrücke in Grad können entweder `deg` oder `°` verwenden, z.B. `360deg - atan2(3; 4)` oder `360&deg; - atan2(3; 4)`. Ein Ausdruck, der ohne Einheiten angegeben ist und aus Kompatibilitätsgründen in Grad oder Bogenmaß umgewandelt werden muss, wird mit `1&nbsp;deg`, `1&nbsp;°` oder `1&nbsp;rad` multipliziert, gegebenenfalls, z.B. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
-Folgende Trigonometrische Funktionen werden unterstützt:
 
   Funktion      Beschreibung                                                                                                               Wertebereich
     
@@ -111,15 +83,7 @@ Folgende Trigonometrische Funktionen werden unterstützt:
   hypot(x; y)   [Pythagoreische Addition](https://de.wikipedia.org/wiki/Pythagoreische_Addition) (**Hypot**enuse), z.B. hypot(4; 3) = 5.   x und y \> 0
   cath(x; y)    Die gegebene Hypotenuse und eine Seite ergibt die andere Seite eines Dreiecks, z.B. cath(5; 3) = 4.                        x und y \> 0, x \>= y
 
-
-</div>
-
-#### Exponential and logarithmic functions 
-
-
-<div class="mw-translate-fuzzy">
-
-Diese Exponential- oder Logarithmusfunktionen werden unterstützt:
+#### Exponential- und Logarithmusfunktionen 
 
   Funktion    Beschreibung                                                                                        Wertebereich
     
@@ -129,15 +93,7 @@ Diese Exponential- oder Logarithmusfunktionen werden unterstützt:
   pow(x, y)   [Potenz (Mathematik)](https://de.wikipedia.org/wiki/Potenz_(Mathematik))                            alle
   sqrt(x)     [Quadratwurzel](https://de.wikipedia.org/wiki/Quadratwurzel)                                        x \>= 0
 
-
-</div>
-
-#### Rounding, truncation and remainder functions 
-
-
-<div class="mw-translate-fuzzy">
-
-Diese Funktionen für Rundung, Trunkierung und Modulo werden unterstützt:
+#### Rundung, Trunkierung und Modulo 
 
   Funktion    Beschreibung                                                                                                                                               Wertebereich
     
@@ -149,20 +105,12 @@ Diese Funktionen für Rundung, Trunkierung und Modulo werden unterstützt:
   trunc(x)    [Trunkierung](https://de.wikipedia.org/wiki/Trunkierung_(Mathematik)) auf die nächste Ganzzahl (Kürzen auf einer Reihe oder Zahl auf eine gewisse Länge)   alle
 
 
-</div>
-
-
 {{Top}}
 
 ### Statistische / Aggregatfunktionen 
 
 [Aggregatfunktion](https://de.wikipedia.org/wiki/Aggregatfunktion) verwenden ein oder mehrere Argumente.
 Einzelne Argumente für Aggregatfunktionen können aus Zellbereichen bestehen. Ein Zellbereich wird durch zwei Zellbezüge ausgedrückt, die durch einen Doppelpunkt {{Incode|:}} getrennt sind, zum Beispiel {{Incode|Durchschnitt(B1:B8)}} oder {{Incode|Summe(A1:A4; B1:B4)}}. Die Zellbezüge können auch Zell Aliase verwenden, zum Beispiel {{Incode|Durchschnitt(StartTemp:EndTemp)}}.
-
-The following aggregate functions are supported:
-
-
-<div class="mw-translate-fuzzy">
 
 Diese Aggregatfunktionen werden unterstützt:
 
@@ -176,16 +124,13 @@ Diese Aggregatfunktionen werden unterstützt:
   sum(a; b; c; \...)       [Summe](https://de.wikipedia.org/wiki/Summe) der Werte der Argumente; üblicherweise für Zellbereiche genutzt                                                    alle
 
 
-</div>
-
-
 {{Top}}
 
 ### Zeichenkettenhandhabung
 
 #### Zeichenkettenerkennung
 
-Zeichenketten werden in Ausdrücken erkannt, indem sie in öffnende/schließende Winkel eingeschlossen werden (denn sie sind Beschriftungen).
+Zeichenketten werden in Ausdrücken erkannt, indem sie in doppelte öffnende/schließende Winkel eingeschlossen werden (so wie Beschriftungen).
 
 Im folgenden Beispiel wird \"TEXT\" als eine Zeichenkette erkannt: {{Incode|<<TEXT>>}}
 
@@ -201,21 +146,9 @@ Zeichenkettenformatierung wird unterstützt durch die (alte) %-Form von Python.
 
 Alle %-Spezifizierer wie in der (engl.) [Python documentation](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting) definiert.
 
+Hat man bspw. einen mit den Vorgabewerten erstellten Würfel namens \'Box\' (FreeCAD-Standardbezeichnung) mit 10mm-Kantenlänge, wird der folgende Ausdruck `<<Würfellänge: %s>> % Box.Length` erweitert zu \"Würfellänge: 10.0 mm\"
 
-<div class="mw-translate-fuzzy">
-
-Du hast bspw. einen (wie in der Vorgabe) Würfel namens \'Box\' (\--FreeCAD-Standardbezeichnung\--) mit 10mm-Kantenlänge und der folgende Ausdruck `<<Würfellänge: %s>> % Box.Length` wird erweitert zu \"Würfellänge: 10.0 mm\"
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Eine Beschränkung ist, dass nur ein %-Spezifizierer in einer Zeichenkette ist, so dass du Zeichenketten verknüpfen musst, falls mehr als einer nötig ist. In der gleichen Situation wie oben wird der Ausdruck {{Incode|<<Würfellänge ist %s>> % Box.Length + << und Länge ist %s>> % Box.Width}} wird erweitert zu \"Würfellänge ist 10.0 mm und Breite ist 10.0 mm\".
-
-
-</div>
+Für mehr als einen %-Spezifizierer verwendet man folgende Syntax: `<<Würfellänge ist %s und Würfelbreite ist %s>> % tuple(Box.Length; Box.Width)`. Oder man verwendet die Verkettung: {{Incode|<<Würfellänge ist %s>> % Box.Length + << und Länge ist %s>> % Box.Width}}. Beide ergeben zusammen \"Würfellänge ist 10.0 mm und Breite ist 10.0 mm\".
 
 Eine FreeCAD-Beispieldatei, die Zeichenkettenformatierung zeigt, ist unter [im Forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657) verfügbar (engl.) {{Top}}
 
@@ -377,26 +310,13 @@ Wenn eine Variable mit dem Namen einer Einheit verwendet wird, muss die Variable
 
 Die folgenden Einheiten werden vom Analysator für Ausdrücke erkannt:
 
-### Amount of substance 
-
-
-<div class="mw-translate-fuzzy">
-
-Menge einer Substanz:
+### Stoffmenge
 
   Einheit   Beschreibung
    
   mol       [Mol](https://de.wikipedia.org/wiki/Mol)
 
-
-</div>
-
-### Angle
-
-
-<div class="mw-translate-fuzzy">
-
-Winkel:
+### Winkel
 
   Einheit   Beschreibung
    
@@ -409,15 +329,7 @@ Winkel:
   M         [Winkelminute](https://de.wikipedia.org/wiki/Winkelminute); Alternative zur Einheit \'
   ′         [Winkelminute](https://de.wikipedia.org/wiki/Winkelminute); Alternative zur Einheit M
 
-
-</div>
-
-### Current
-
-
-<div class="mw-translate-fuzzy">
-
-Strom:
+### Strom
 
   Einheit   Beschreibung
    
@@ -426,15 +338,7 @@ Strom:
   kA        Kilo[ampere](https://de.wikipedia.org/wiki/Ampere)
   MA        Mega[ampere](https://de.wikipedia.org/wiki/Ampere)
 
-
-</div>
-
-### Energy/work
-
-
-<div class="mw-translate-fuzzy">
-
-Energie / Arbeit:
+### Energie/Arbeit
 
   Einheit   Beschreibung
    
@@ -443,15 +347,7 @@ Energie / Arbeit:
   VAs       [Voltamperesekunde](https://de.wikipedia.org/wiki/Joule); Alternative zur Einheit Joule
   CV        [Coulombvolt](https://de.wikipedia.org/wiki/Joule); Alternative zur Einheit Joule
 
-
-</div>
-
-### Force
-
-
-<div class="mw-translate-fuzzy">
-
-Kraft:
+### Kraft
 
   Einheit   Beschreibung
    
@@ -461,15 +357,7 @@ Kraft:
   MN        Mega[newton](https://de.wikipedia.org/wiki/Newton_(Einheit))
   lbf       [Pound-force](https://de.wikipedia.org/wiki/Pound-force)
 
-
-</div>
-
-### Length
-
-
-<div class="mw-translate-fuzzy">
-
-Länge:
+### Länge
 
   Einheit   Beschreibung
    
@@ -490,29 +378,13 @@ Länge:
   yd        [Yard](https://de.wikipedia.org/wiki/Yard)
   mi        [Meile](https://de.wikipedia.org/wiki/Meile)
 
-
-</div>
-
-### Luminous intensity 
-
-
-<div class="mw-translate-fuzzy">
-
-Lichtstärke:
+### Lichtstärke
 
   Einheit   Beschreibung
    
   cd        [Candela](https://de.wikipedia.org/wiki/Candela)
 
-
-</div>
-
-### Mass
-
-
-<div class="mw-translate-fuzzy">
-
-Masse:
+### Masse
 
   Einheit   Beschreibung
    
@@ -528,30 +400,14 @@ Masse:
   st        [Stone (Einheit)](https://de.wikipedia.org/wiki/Stone_(Einheit))
   cwt       [Hundredweight](https://de.wikipedia.org/wiki/Hundredweight)
 
-
-</div>
-
-### Power
-
-
-<div class="mw-translate-fuzzy">
-
-Energie:
+### Leistung
 
   Einheit   Beschreibung
    
   W         [Watt(Einheit)](https://de.wikipedia.org/wiki/Watt_(Einheit))
   VA        [Voltampere](https://de.wikipedia.org/wiki/Voltampere)
 
-
-</div>
-
-### Pressure
-
-
-<div class="mw-translate-fuzzy">
-
-Druck:
+### Druck
 
   Einheit   Beschreibung
    
@@ -566,15 +422,7 @@ Druck:
   psi       [Pound-force per square inch](https://de.wikipedia.org/wiki/Pound-force_per_square_inch); 1 psi = 6.895 kPa
   ksi       Kilo-[Pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch)
 
-
-</div>
-
-### Temperature
-
-
-<div class="mw-translate-fuzzy">
-
-Temperatur:
+### Temperatur
 
   Einheit   Beschreibung
    
@@ -583,15 +431,7 @@ Temperatur:
   mK        Milli[kelvin](https://de.wikipedia.org/wiki/Kelvin)
   K         [Kelvin](https://de.wikipedia.org/wiki/Kelvin)
 
-
-</div>
-
-### Time
-
-
-<div class="mw-translate-fuzzy">
-
-Zeit:
+### Zeit
 
   Einheit   Beschreibung
    
@@ -599,31 +439,15 @@ Zeit:
   min       [Minute](https://de.wikipedia.org/wiki/Minute)
   h         [Stunde](https://de.wikipedia.org/wiki/Stunde)
 
-
-</div>
-
-### Volume
-
-
-<div class="mw-translate-fuzzy">
-
-Volumen:
+### Volumen
 
   Einheit   Beschreibung
    
   l         [Liter](https://de.wikipedia.org/wiki/Liter)
 
+### Nicht unterstützte Einheiten 
 
-</div>
-
-### Unsupported units 
-
-The following commonly used units are not yet supported, for some an alternative is provided:
-
-
-<div class="mw-translate-fuzzy">
-
-Die folgenden häufig verwendeten Einheiten werden noch nicht unterstützt:
+Die folgenden häufig verwendeten Einheiten werden noch nicht unterstützt, für einige gibt es aber Alternativen:
 
   Einheit   Beschreibung                                                                                                          Alternative
     
@@ -635,9 +459,6 @@ Die folgenden häufig verwendeten Einheiten werden noch nicht unterstützt:
   lm        [Lumen (Einheit)](https://de.wikipedia.org/wiki/Lumen_(Einheit))                                                      nicht direkt
   lx        [Lux (Einheit)](https://de.wikipedia.org/wiki/Lux_(Einheit))                                                          nicht direkt
   px        [Pixel](https://de.wikipedia.org/wiki/Pixel)                                                                          nicht direkt
-
-
-</div>
 
 
 {{Top}}

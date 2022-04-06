@@ -45,15 +45,15 @@ CalculiXccxTools abilita l\'uso del solutore [Calculix](https://en.wikipedia.org
 
 </div>
 
-1.  Optionally set data properties of the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
-2.  Double click on the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
-3.  Select type of the analysis
-4.  Click **Write .inp file**
-5.  Click **Run CalculiX**
-
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 Usando **Edit .inp file** è possibile visualizzare e modificare manualmente il file di input CalculiX prima di eseguire l\'analisi. In questo caso può essere utile usare il parametro \"Split Input Writer = true\".
+
+
+</div>
 
 ## Proprietà
 

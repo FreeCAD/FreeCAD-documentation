@@ -56,7 +56,7 @@ Il existe une autre table des matières pour le [Manuel : Introduction à FreeCA
 
 -   [Foire Aux Questions](Frequently_asked_questions/fr.md)
 
--   [Workarounds](Workarounds.md)
+-   [Solutions de contournement](Workarounds/fr.md)
 
 -   [Tutoriels](Tutorials/fr.md)
 

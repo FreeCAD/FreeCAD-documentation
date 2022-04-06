@@ -13,7 +13,7 @@
 
 **Part EditAttachment** is a utility to attach an object to another one. The attached object is linked to the other object, which means that if the latter\'s placement is changed afterwards, the attached object will update to its new position.
 
-## Usage
+## Użycie
 
 1.  Select the object to be attached.
 2.  Go to the **Part → Attachment\...** menu.

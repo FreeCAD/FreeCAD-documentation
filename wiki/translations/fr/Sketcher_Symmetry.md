@@ -4,14 +4,12 @@
    Name/fr:Sketcher Symétrie
    MenuLocation:Sketch → Outils d'esquisse → Symétrie
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**Z** **S**
    Version:0.16
    SeeAlso:[Sketcher Esquisse miroir](Sketcher_MirrorSketch/fr.md)
 ---
 
 # Sketcher Symmetry/fr
-
-
-</div>
 
 ## Description
 
@@ -26,13 +24,7 @@ Symétrise la géométrie de l\'esquisse par rapport à une ligne ou à un axe d
 Remarquez qu\'aucune contrainte de symétrie supplémentaire ne sera ajoutée.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

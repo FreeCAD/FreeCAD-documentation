@@ -17,7 +17,7 @@ L\'outil Référence vous permet de placer dans le document actuel un objet qui 
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/Arch_Reference.svg" width=16px> '''Crééer un objet de référence externe'''**,
+1.  Appuyez sur le bouton **<img src="images/Arch_Reference.svg" width=16px> '''Référence externe'''**,
 2.  Appuyez sur le bouton \"Choisir un fichier\...\" et sélectionnez un fichier FreeCAD existant,
 3.  Sélectionnez l\'un des objets à base de pièce inclus dans la liste déroulante,
 4.  Appuyer sur **OK**.
@@ -32,11 +32,11 @@ L\'outil Référence vous permet de placer dans le document actuel un objet qui 
 
 ## Propriétés
 
--    {{PropertyData/fr|File}}: fichier de base sur lequel ce composant est construit
+-    **File**: Fichier de base sur lequel ce composant est construit
 
--    {{PropertyData/fr|Part}}: la partie à utiliser à partir du fichier de base.
+-    **Part**: La partie à utiliser à partir du fichier de base.
 
--    {{PropertyView/fr|Update Colors}}: Si la valeur est true, les couleurs du fichier lié seront mises à jour.
+-    **Update Colors**: Si la valeur est true, les couleurs du fichier lié seront mises à jour.
 
 ## Script
 

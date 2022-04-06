@@ -1,5 +1,5 @@
 # Category:Std Base/pl
-This category list pages related to the [Std Base](Std_Base/pl.md), which collects commands from the base system which do not belong to any of the workbenches.
+Ta kategoria zawiera listę stron związanych z [Std Base](Std_Base/pl.md), która zbiera polecenia z systemu bazowego, niezwiązane z żadną z grup roboczych.
 
 ### Contents
 

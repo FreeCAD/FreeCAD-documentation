@@ -182,6 +182,9 @@ Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/i
 
 ## Tutorial
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Architecture workflow](http://yorik.uncreated.net/guestblog.php?tag=freecad): Un esempio di flusso di lavoro di FreeCAD in architettura.
 -   [Tutorial di Arch](Arch_tutorial/it.md) (v0.14)
 -   [Breve panoramica su Arch nel blog di Yorik](http://yorik.uncreated.net/guestblog.php?2012=180) (v0.13)
@@ -190,6 +193,9 @@ Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/i
 -   [Il capitolo sulla modellazione BIM nel manuale di FreeCAD](Manual:BIM_modeling/it.md)
 -   [Importare da STL o OBJ](Import_from_STL_or_OBJ/it.md)
 -   [Esportare in STL o OBJ](Export_to_STL_or_OBJ/it.md)
+
+
+</div>
 
 
 

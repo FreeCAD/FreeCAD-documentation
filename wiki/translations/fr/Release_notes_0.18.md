@@ -1,7 +1,5 @@
 # Release notes 0.18/fr
-FreeCAD 0.18 est sorti le 12 mars 2019, à télécharger sur la page [Téléchargements](Download/fr.md). Ceci est un résumé des changements les plus intéressants. La liste complète des modifications est disponible sur [MantisBT bugtracker FC 0.18 - Liste des changements](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78).
-
-Les notes de versions de FreeCAD sont disponibles dans la [liste des fonctionnalités](Feature_list/fr#Notes_de_versions.md).
+FreeCAD 0.18 est sorti le 12 mars 2019, à télécharger sur la page [GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.4). Ceci est un résumé des changements les plus intéressants. La liste complète des modifications est disponible sur [MantisBT bugtracker FC 0.18 - Liste des changements](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78). Les notes de versions de FreeCAD sont disponibles dans la [liste des fonctionnalités](Feature_list/fr#Notes_de_versions.md).
 
 ## Points forts 
 

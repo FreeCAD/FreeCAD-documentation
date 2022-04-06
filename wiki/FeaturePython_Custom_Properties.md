@@ -197,6 +197,24 @@ obj.ThePropertyName = "Quux"                 // choose single item
 obj.ThePropertyName // returns "Quux"
 ```
 
+As of FreeCAD 0.20, you can also group enumerations, which are displayed in the GUI using a submenu interface. To group, use the \"\|\" (vertical pipe) as a separator, e.g. 
+```python
+obj.ThePropertyName = [
+  "Group 1 <nowiki>|</nowiki> Item A", 
+  "Group 1 <nowiki>|</nowiki> Item B", 
+  "Group 2 <nowiki>|</nowiki> Another item", 
+  "Group 2 <nowiki>|</nowiki> Last item",
+]  # set allowed items
+obj.ThePropertyName = "Group 1 <nowiki>|</nowiki> Item A" # choose single item
+``` The GUI will display this as a menu structure:
+
+-   Group 1
+    -   Item A
+    -   Item B
+-   Group 2
+    -   Another item
+    -   Last item
+
 ## App::PropertyExpressionEngine
 
  A 

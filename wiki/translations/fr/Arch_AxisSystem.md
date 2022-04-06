@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch AxisSystem
    Name/fr:Arch Système d'axes
-   MenuLocation:Arch → Outils des axes → Système d'axe
+   MenuLocation:Arch → Outils pour les axes → Système d'axes
    Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Axes](Arch_Axis/fr.md), [Arch Grille](Arch_Grid/fr.md)
 ---
@@ -11,12 +11,12 @@
 
 ## Description
 
-L\'outil [Système d\'Axes](Arch_AxisSystem/fr.md) vous permet de combiner 2 ou 3 objets [Axes](Arch_Axis/fr.md).
+L\'outil [Système d\'axes](Arch_AxisSystem/fr.md) vous permet de combiner 2 ou 3 objets [Arch Axes](Arch_Axis/fr.md).
 
 Ceci est utile pour définir les points d\'intersection entre les différents axes. Les objets Arch peuvent ensuite utiliser ce système pour dupliquer leur forme sur les différents points d\'intersection.
 
 <img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;"> 
-*Trois objets [Axes](Arch_Axis/fr.md) combinés en un [Système d'Axes](Arch_AxisSystem/fr.md). Un objet [Structure](Arch_Structure/fr.md) utilise ce système comme propriété **Axis* pour que sa forme soit dupliquée à chaque point d'intersection.**
+*Trois objets [Arch Axes](Arch_Axis/fr.md) combinés en un [Système d'axes](Arch_AxisSystem/fr.md). Un objet [Arch Structure](Arch_Structure/fr.md) utilise ce système comme propriété **Axis* pour que sa forme soit dupliquée à chaque point d'intersection.**
 
 ## Utilisation
 

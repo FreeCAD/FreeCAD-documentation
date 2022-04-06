@@ -63,7 +63,13 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 
 -   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Sistema di coordinate locali](PartDesign_CoordinateSystem/it.md): crea nel corpo attivo un sistema di coordinate locale collegato alla geometria di riferimento.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Crea un Forma legata](PartDesign_ShapeBinder/it.md): crea un raccoglitore di forme nel corpo attivo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

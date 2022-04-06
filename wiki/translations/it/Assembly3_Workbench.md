@@ -514,16 +514,40 @@ Anche se possono avere strumenti simili, Assembly3 non è compatibile con [A2plu
 
 [Torna all\'inizio](#top.md)
 
+
+<div class="mw-translate-fuzzy">
+
 ## Test
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Il [Assembly3 Workbench](Assembly3_Workbench.md) è in fase di sviluppo e non è ancora disponibile (aprile 2020) tramite lo [Addon Manager](Std_AddonMgr.md), ma si prevede che ciò avverrà prima o poi.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Si può provare in due modi:
 
 -   Uno speciale fork di FreeCAD realizzata da realthunder; vedi [FreeCAD\_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Questo fork si basa su un particolare commit del ramo master di FreeCAD, ma ha anche caratteristiche aggiuntive attualmente non presenti nel ramo master. Dato che questo fork è basato su un particolare snapshot di sviluppo, non ha le ultime caratteristiche unite quotidianamente al ramo master.
 -   Lo sviluppo [AppImage](AppImage.md); questo si basa sul ramo master corrente, e include le dipendenze necessarie per lavorare con Assembly3 come il solutore SolveSpace.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Dato che l\'AppImage funziona solo per Linux, per gli utenti Windows al momento l\'unica opzione per testare Assembly3 è la prima opzione (realthunder\'s fork).
+
+
+</div>
 
 [Torna all\'inizio](#top.md)
 

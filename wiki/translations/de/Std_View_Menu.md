@@ -5,7 +5,7 @@
 
 ## Einführung
 
-Das **Std Ansichtsmenü** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md):
+Das **Std Menü Ansicht** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md):
 
 
 {{StdMenu
@@ -114,11 +114,11 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Sichtbarkeit umschalten](Std_ToggleVisibility/de.md) Schaltet die Sichtbarkeit der ausgewählten Objekte um.
 
--   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Toggle navigation/Edit mode](Std_ToggleNavigation/de.md): Schaltet um zwischen Navigations- und Edit-Modus.
+-   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Navigations-/Editier-Modus](Std_ToggleNavigation/de.md): Schaltet zwischen Navigations- und Editier-Modus um.
 
--   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Appearance\...](Std_SetAppearance/de.md): Öffnet für Objekte das Feld Ansicht im Eigenschafteneditor.
+-   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Darstellung\...](Std_SetAppearance/de.md): Öffnet den Aufgabenbereich Anzeigeeigenschaften für Objekte.
 
--   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Random color](Std_RandomColor/de.md): Färbt Objekte mit einer zufälligen Farbe ein.
+-   <img alt="" src=images/Std_RandomColor.svg  style="width:32px;"> [Zufällige Farbe](Std_RandomColor/de.md): Färbt Objekte mit einer zufällig gewählten Farbe ein.
 
 -   [Arbeitsbereich](Std_Workbench/de.md) **-- Einen Arbeitsbereich aus dem Untermenü auswählen.**
 
@@ -139,18 +139,18 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
     -   [DAG-Ansicht](DAG_view/de.md)
 
 -   Aktionen in der Baumansicht
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView/de.md): Schaltet den SyncView-Modus der [Baumansicht](Tree_view/de.md) ein/aus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection/de.md): Schaltet den SyncSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement/de.md): Schaltet den SyncPlacement-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection/de.md): Schaltet den PreSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Record selection](Std_TreeRecordSelection/de.md): Schaltet den RecordSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Single document](Std_TreeSingleDocument/de.md): Schaltet die Baumansicht in den SingleDocument-Modus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Multi document](Std_TreeMultiDocument/de.md): Schaltet die Baumansicht in den MultiDocument-Modus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Collapse/Expand](Std_TreeCollapseDocument/de.md): Schaltet die Baumansicht in den CollapseDocument-Modus. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag/de.md): Startet das Ziehen von ausgewählten Objekten in der Baumansicht. {{Version/de|0.19}}
-    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection/de.md): Scrollt die Baumansicht auf das zuerst erstellte Objekt einer Auswahl in der 3D-Ansicht. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync-Ansicht](Std_TreeSyncView/de.md): Schaltet den SyncView-Modus der [Baumansicht](Tree_view/de.md) ein/aus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync-Auswahl](Std_TreeSyncSelection/de.md): Schaltet den SyncSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync-Platzierung](Std_TreeSyncPlacement/de.md): Schaltet den SyncPlacement-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Vorauswahl](Std_TreePreSelection/de.md): Schaltet den PreSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeRecordSelection.svg  style="width:32px;"> [Auswahl aufzeichnen](Std_TreeRecordSelection/de.md): Schaltet den RecordSelection-Modus der Baumansicht ein/aus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeSingleDocument.svg  style="width:32px;"> [Einzeldokment](Std_TreeSingleDocument/de.md): Schaltet die Baumansicht in den SingleDocument-Modus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeMultiDocument.svg  style="width:32px;"> [Mehrfachdokument](Std_TreeMultiDocument/de.md): Schaltet die Baumansicht in den MultiDocument-Modus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Reduzieren/Erweitern](Std_TreeCollapseDocument/de.md): Schaltet die Baumansicht in den CollapseDocument-Modus. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Ziehen initiieren](Std_TreeDrag/de.md): Startet das Ziehen von ausgewählten Objekten in der Baumansicht. {{Version/de|0.19}}
+    -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Gehe zu Selektion](Std_TreeSelection/de.md): Scrollt die Baumansicht auf das zuerst erstellte Objekt einer Auswahl in der 3D-Ansicht. {{Version/de|0.19}}
 
--   [Statusleiste](Std_ViewStatusBar/de.md): Schaltet die Anzeige der [Statusleiste](Status_bar/de.md) um.
+-   [Statusleiste](Std_ViewStatusBar/de.md): Schaltet die Anzeige der [Statusleiste](Status_bar/de.md) ein/aus.
 
 
 

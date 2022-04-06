@@ -1,18 +1,19 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw ExtensionThreadHoleBottom
+   Name/de:TechDraw ErgänzungInnengewindeAxial
    MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Hole Bottom View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md)
+   SeeAlso:[TechDraw ErgänzungAußengewindeAxial](TechDraw_ExtensionThreadBoltBottom/de.md)
 ---
 
 # TechDraw ExtensionThreadHoleBottom/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:24px;"> **TechDraw ExtensionThreadHoleBottom** Werkzeug fügt ein symbolisches Gewinde in eine von oben oder unten gesehene Bohrung ein.
+Das <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:24px;"> **TechDraw ExtensionThreadHoleBottom** Werkzeug fügt ein symbolisches Gewinde (Gewindelinie) in eine von oben oder unten gesehene Bohrung ein.
 
 <img alt="" src=images/TechDraw_ExtensionThreadHoleBottomExample.png  style="width:200px;"> 
 *Rechts eine Bohrung mit symbolischem Gewinde*

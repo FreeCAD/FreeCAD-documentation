@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part BooleanFragments
    Name/fr:Part Fragments booléens
-   MenuLocation:Pièce → Scinder → Fragments booléens
+   MenuLocation:Part → Scinder → Fragments booléens
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Part Scinder](Part_Slice/fr.md), [Part OU exclusif](Part_XOR/fr.md), [Part Joindre](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
@@ -36,7 +36,7 @@ En mode \"CompSolid\" (composé de solides), les solides sont combinés en un co
     L\'ordre de sélection n\'est pas important, puisque l\'action de l\'outil est symétrique. Il suffit de sélectionner une sous-forme de chaque objet (par exemple, les faces). Vous pouvez également sélectionner un composé contenant toutes les formes à connecter, par exemple [Draft Réseau orthogonal](Draft_OrthoArray/fr.md).
 2.  Lancez la commande Part Fragments booléens de plusieurs façons :
     -   En appuyant sur le bouton <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> de la barre d\'outils.
-    -   En utilisant l\'entrée **Pièce → Scinder → Fragments booléens** dans le menu Pièce.
+    -   En utilisant l\'entrée **Part → Scinder → Fragments booléens** dans le menu Pièce.
 
 Un objet paramétrique Fragments Booléens est créé. Les objets d\'origine sont cachés et le résultat de l\'intersection est affiché dans la [vue 3D](3D_view/fr.md)
 

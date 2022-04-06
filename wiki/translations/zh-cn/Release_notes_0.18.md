@@ -1,7 +1,12 @@
 # Release notes 0.18/zh-cn
+<div class="mw-translate-fuzzy">
+
 FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Download.md)。本文为此版本中最有趣的一些变化的总结。而完整的变更列表可从[MantisBT bug追踪程序记录的FC 0.18版变更日志](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78)处找到。
 
 旧版FreeCAD的发布说明可从[特性列表处找到](Feature_list#Release_notes.md)。
+
+
+</div>
 
 ## 亮点
 

@@ -12,7 +12,7 @@
 
 ## Description
 
-Créer des axes.
+Crée des axes.
 
 ## Types d\'axes 
 

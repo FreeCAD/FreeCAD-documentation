@@ -4,8 +4,8 @@
 |Icon=FCInfoToolBar.png
 |Description=Fornisce informazioni sulla forma selezionata e può visualizzare una conversione di raggio, diametro, lunghezza, area, volume ... in diverse unità (metriche e imperiali) in una barra degli strumenti in real tempo. Le informazioni da visualizzare sono parametrizzabili nel parametro di FreeCAD.
 |Author=Mario52
-|Version=00.02
-|Date=2022/03/14
+|Version=00.03
+|Date=2022/03/29
 |FCVersion=0.18 and more
 |Download= [https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
 |SeeAlso = [Arch Survey](Arch_Survey/it.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo/it.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass/it.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
@@ -16,7 +16,7 @@
 Fornisce informazioni sulla forma selezionata e può visualizzare una conversione di raggio, diametro, lunghezza, area, volume \... in diverse unità (metriche e imperiali) in una barra degli strumenti. Le informazioni da visualizzare sono parametrizzabili nel parametro di FreeCAD.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/978cda5c913b6625f073e53baf5861ac61f468bc/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/45da6835214d570588244705d2c0f37f97320874/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo\_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
@@ -90,6 +90,9 @@ Le opzioni si trovano nel parametro di FreeCAD
     -   Visualizza la lunghezza del bordo selezionato o il perimetro della faccia selezionata
         -   (L:) visualizza la lunghezza del filo, linea, bordo selezionato
         -   (P:) visualizza il perimetro della fascia selezionata
+
+-   ***switch\_User\_Display\_SommeAllEdgesObject***
+    -   visualizza la lunghezza totale dei bordi (edges) di l\'obietto selezionato (Se:)
 
 -   ***switch\_User\_Display\_NumberFacesMesh***
     -   visualizza il numero di facce dell\'oggetto Mesh (Nf:)
@@ -198,6 +201,8 @@ enjoy
 Discussioni sul forum [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
 
 ## Versione
+
+version: (00.02 +) 00.03 2022/03/22 : add somme all edges
 
 version: 00.02 2022/03/14 : add calcul in real time (with preselection), dimension of toolBar, add info mesh and points
 

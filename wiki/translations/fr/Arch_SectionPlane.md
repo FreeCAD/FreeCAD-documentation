@@ -12,7 +12,7 @@
 
 ## Description
 
-Cet outil place dans le document courant une \"chose\" qui définit un plan de section ou de vue. La \"chose\" est placée en fonction du [Draft plan de travail](Draft_SelectPlane/fr.md) en cours et peut être déplacée et réorientée en la déplaçant et en la faisant tourner, jusqu\'à ce qu\'elle décrive la vue 2D que vous souhaitez obtenir. L\'objet Plan de section ne tiendra compte que d\'un certain ensemble d\'objets. Les objets sélectionnés lorsque vous créez un plan de coupe seront automatiquement ajoutés à cet ensemble. D\'autres objets peuvent être ajoutés ou retirés ultérieurement d\'un objet Plan de coupe à l\'aide des outils [Arch Ajouter](Arch_Add.md) et [Arch Soustraire](Arch_Remove.md) ou en double-cliquant sur le Plan de coupe dans l\'arborescence.
+Cet outil place dans le document courant une \"chose\" qui définit un plan de section ou de vue. La \"chose\" est placée en fonction du [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours et peut être déplacée et réorientée en la déplaçant et en la faisant tourner, jusqu\'à ce qu\'elle décrive la vue 2D que vous souhaitez obtenir. L\'objet Plan de section ne tiendra compte que d\'un certain ensemble d\'objets. Les objets sélectionnés lorsque vous créez un plan de coupe seront automatiquement ajoutés à cet ensemble. D\'autres objets peuvent être ajoutés ou retirés ultérieurement d\'un objet Plan de coupe à l\'aide des outils [Arch Ajouter](Arch_Add/fr.md) et [Arch Soustraire](Arch_Remove/fr.md) ou en double-cliquant sur le Plan de coupe dans l\'arborescence.
 
 Le Plan de section seul ne permet pas de créer une vue de son ensemble d\'objets. Pour cela, vous devez créer une [TechDraw Vue Arch](TechDraw_ArchView/fr.md) pour créer une vue dans une [page TechDraw](TechDraw_Workbench/fr.md).
 
@@ -22,7 +22,7 @@ Le Plan de section seul ne permet pas de créer une vue de son ensemble d\'objet
 
 1.  Optionnellement activez [Draft Plan de travail](Draft_SelectPlane/fr.md) pour représenter le plan que vous voulez placer dans Section Plane.
 2.  Sélectionnez l\'objet ou les objets à inclure dans le plan.
-3.  Appuyez sur le bouton **<img src="images/Arch_SectionPlane.svg" width=16px> [Arch Crée un plan de coupe...](Arch_SectionPlane/fr.md)** ou pressez les touches **S** puis **P**.
+3.  Appuyez sur le bouton **<img src="images/Arch_SectionPlane.svg" width=16px> [Plan de section](Arch_SectionPlane/fr.md)** ou pressez les touches **S** puis **P**.
 4.  Utilisez les touches [Draft Déplacez](Draft_Move/fr.md)/[Draft Pivotez](Draft_Rotate/fr.md) pour placer le plan dans sa position correcte.
 5.  Sélectionnez le plan s\'il n\'est pas sélectionné.
 6.  Utilisez les fonctions [Drawing DraftView](Draft_Drawing/fr.md), [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) ou [TechDraw Vue Arch](TechDraw_ArchView/fr.md) pour créer une vue.
@@ -39,23 +39,23 @@ Le Plan de section seul ne permet pas de créer une vue de son ensemble d\'objet
 
 <img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
 
--   Le plan de coupe peut également être utilisé pour afficher toute la vue 3D coupée par un plan infini. Ceci est seulement visuel, et n\'affectera pas la géométrie des objets coupés.
+-   Le Plan de section peut également être utilisé pour afficher toute la vue 3D coupée par un plan infini. Ceci est seulement visuel, et n\'affectera pas la géométrie des objets coupés.
 
 <img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
 
 ## Propriétés
 
--    {{PropertyData/fr|Only Solids}}: S\'il est activé, les objets non solides comppris dans l\'ensemble ne seront pas pris en charge
+-    **Only Solids**: S\'il est activé, les objets non solides comppris dans l\'ensemble ne seront pas pris en charge
 
--    {{PropertyView/fr|Display Length}}: Donne la longueur du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
+-    **Display Length**: Donne la longueur du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
 
--    {{PropertyView/fr|Display Height}}: Donne hauteur du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
+-    **Display Height**: Donne hauteur du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
 
--    {{PropertyView/fr|Arrow Size}}: Donne la dimension des flèches du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
+-    **Arrow Size**: Donne la dimension des flèches du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
 
--    {{PropertyView/fr|Cut View}}: S\'il est activé `True`, toute la vue 3D sera coupée à l\'emplacement du Section Plane.
+-    **Cut View**: Si `True`, toute la vue 3D sera coupée à l\'emplacement du Section Plane.
 
--    {{PropertyView/fr|Clip view}}: S\'il est activé `True`, il coupera la vue à la hauteur et à la longueur de l\'affichage du plan de coupe. Cela transforme effectivement le plan de coupe en une caméra orthographique, limitant le champ de vision.{{version/fr|0.19}}
+-    **Clip view**: Si `True`, il coupera la vue à la hauteur et à la longueur de l\'affichage du plan de coupe. Cela transforme effectivement le plan de coupe en une caméra orthographique, limitant le champ de vision.{{version/fr|0.19}}
 
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 

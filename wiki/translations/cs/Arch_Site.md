@@ -114,6 +114,8 @@ If [Ladybug](https://www.ladybug.tools/ladybug.html) is installed on your system
 
 ![](images/Freecad-solar-diagram.jpg )
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 

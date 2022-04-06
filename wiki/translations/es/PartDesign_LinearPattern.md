@@ -46,7 +46,13 @@ Para añadir o borrar operaciones de un patrón existente:
 
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 ![Parámetros de PatrónLineal en la versión v0.16 y anteriores.](images/Linearpattern_parameters.png ) ![Parámetros de PatrónLineal en la versión v0.17 y posteriores.](images/Linearpattern_parameters_v017.png )
+
+
+</div>
 
 ### Dirección
 
@@ -63,13 +69,25 @@ Usa el eje vertical del boceto como dirección.
 #### Eje normal del croquis 
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{VersionPlus/es|0.17}}
 
 Usa el eje normal del croquis como dirección.
 
+
+</div>
+
 #### Seleccione referencia\... 
 
+
+<div class="mw-translate-fuzzy">
+
 Permite al usuario seleccionar una Línea de referencia o una arista de un objeto, o una línea de un boceto para usarla como dirección.
+
+
+</div>
 
 #### Eje del croquis personalizado 
 
@@ -78,9 +96,15 @@ Si el boceto que define la operación a copiar contiene también una línea o l�
 #### Eje base (X/Y/Z) 
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{VersionPlus/es|0.17}}
 
 Seleccionar uno de los ejes estándar de Origen del Body (cuerpo) (X, Y o Z) como dirección.
+
+
+</div>
 
 ## Limitations
 

@@ -9,7 +9,7 @@
 
 Instrumentul pentru cote tip distanță adaugă o cotă distanță unei imagini. Cota poate fi între două vârfuri, lungimea unei muchii sau distanța dintre două margini. Distanța va fi inițial distanța proiectată(adică așa cum este reprezentată în desen), dar această distanță poate fi înlocuită prin distanța 3D reală utilizând instrumentul Link Dimension <img alt="" src=images/LinkDimension.png  style="width:24px;">. <img alt="" src=images/LengthSample.png  style="width:200px;">
 
-The Length Dimension tool adds a linear dimension to a View. The dimension may be between the distance between two vertices, the length of one edge or the distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
+The <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> **TechDraw LengthDimension** tool adds a linear dimension to a View. The dimension may be between the distance between two vertices, the length of one edge or the distance between 2 edges. The distance will initially be the projected distance (ie as shown on the drawing), but this may be changed to the actual 3D distance using the **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw LinkDimension](TechDraw_LinkDimension.md)** tool.
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Length dimension taken from two arbitrary nodes of the view*
@@ -17,7 +17,9 @@ The Length Dimension tool adds a linear dimension to a View. The dimension may b
 ## Cum se folosește 
 
 1.  Select the points or edge which define your measurement.
-2.  Press the **<img src="images/TechDraw_LengthDimension.svg" width=20px> [Length Dimension](TechDraw_LengthDimension.md)** button.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insert Length Dimension](TechDraw_LengthDimension.md)** button.
+    -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_LengthDimension.svg" width=16px> Insert Length Dimension** option from the menu.
 3.  A dimension will be added to the View. The dimension may be dragged to the desired position.
 4.  If needed, add tolerances as described in [this page](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md).
 

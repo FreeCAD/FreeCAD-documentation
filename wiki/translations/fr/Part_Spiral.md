@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Spiral
    Name/fr:Part Spirale
-   MenuLocation:Pièce → [Créer des primitives...](Part_Primitives/fr.md) → Spirale
+   MenuLocation:Part → [Créer des primitives...](Part_Primitives/fr.md) → Spirale
    Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
    Version:0.14
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)

@@ -28,7 +28,7 @@ La contrepartie de cet outil est l\'outil **<img src="images/Arch_Remove.svg" wi
 ## Utilisation
 
 1.  Sélectionnez les objets à ajouter ensemble. Le dernier objet sélectionné sera l\'objet Arch de l\'hôte.
-2.  Cliquez sur le bouton **<img src="images/Arch_Add.png" width=16px> [Ajoute les composants...](Arch_Add/fr.md)** ou utilisez **Arch** → **<img src="images/Arch_Add.svg" width=16px> [Ajouter un composant ](Arch_Add/fr.md)** du menu principal.
+2.  Cliquez sur le bouton **<img src="images/Arch_Add.png" width=16px> [Ajouter un composant](Arch_Add/fr.md)** ou utilisez **Arch** → **<img src="images/Arch_Add.svg" width=16px> [Ajouter un composant](Arch_Add/fr.md)** du menu principal.
 
 ## Script
 
@@ -51,7 +51,7 @@ L\'outil Ajouter peut être utilisé dans une [macro](Macros/fr.md) ou dans la c
 
 
 
-:   L\'extrait de code ci-dessus ajoute les objets donnés dans `objectsList` comme des composants de l\'objet `hôte` donné. S\'utilise par exemple pour ajouter des fenêtres à un mur, ou un murs sur un niveau.
+:   L\'extrait de code ci-dessus ajoute les objets donnés dans `objectsList` à l\'objet `host` donné.
 :   **Note:** `objectsList` peut être un objet unique ou une liste d\'objets.
 
 Exemple:

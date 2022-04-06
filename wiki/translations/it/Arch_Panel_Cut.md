@@ -48,6 +48,8 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 
 ## Proprietà
 
+### Data
+
 
 <div class="mw-translate-fuzzy">
 
@@ -70,11 +72,21 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 
 </div>
 
+### View
+
+
+<div class="mw-translate-fuzzy">
+
 ### Vista
 
 -    {{PropertyView/it|Margin}}: Un margine che può essere visualizzato all\'esterno della sagoma del pannello
 
 -    {{PropertyView/it|Show Margin}}: Attiva o disattiva la visualizzazione del margine
+
+
+</div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

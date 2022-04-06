@@ -26,17 +26,13 @@ A jeśli interesuje cię historia programu FreeCAD, odwiedź stronę [Historia]
 
 #### Migracja z innego oprogramowania? 
 
-
-<div class="mw-translate-fuzzy">
-
-Zobacz równiez:
-
--   [Migracja do FreeCAD z Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Rozwiązania](Workarounds.md)
+-   [Migracja do FreeCAD z Fusion360](Migrating_to_FreeCAD_from_Fusion360/pl.md)
+-   [Migracja do FreeCAD z OnShape](Migrating_to_FreeCAD_from_OnShape/pl.md)
+-   [Migracja do FreeCAD z SolidWorks](Migrating_to_FreeCAD_from_SolidWorks/pl.md)
+-   [Migracja do FreeCAD z Revit](Migrating_to_FreeCAD_from_Revit/pl.md)
 -   [FreeCAD BIM poradnik migracji](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
 -   [Tabela kompatybilności aplikacji BIM](BIM_application_compatibility_table/pl.md)
-
-
-</div>
 
 ### Informacje podstawowe 
 

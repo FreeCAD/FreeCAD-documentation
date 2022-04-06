@@ -50,15 +50,9 @@ In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuh
 
 Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gibt zwei Arten, Bemaßungen zu einem Modell hinzuzufügen: Eine ist, die Bemaßungen mit dem <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Abmessung](Draft_Dimension/de.md) Werkzeug des [Entwurf Arbeitsbereich](Draft_Workbench/de.md) im 3D-Modell zu platzieren und dann mit dem <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [Entwurfsansicht](TechDraw_DraftView/de.md)-Werkzeug (das mit einer Bemaßung oder einer Gruppe, die Bemaßungen enthält, benutzt werden kann) eine Ansicht dieser Bemaßungen auf unsererem Blatt zu platzieren, oder wir können mit dem [Zeichnungsbemaßungs Arbeitsbereich](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), der aus den [FreeCAD Erweiterungen](https://github.com/FreeCAD/FreeCAD-addons) installierbar ist, Dinge direkt auf dem Zeichenblatt tun. Wir werden hier die letztere Methode benutzen.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Drücke die <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Umschalttaste zum Einschalten der Knoten.
 -   Verwende **Strg** + Linker Mausklick, um die beiden Knoten auszuwählen, zwischen denen du den Abstand messen möchtest.
--   Drücke die <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [Abmessungslänge](TechDraw_LengthDimension.md)-Schaltfläche.
-
-
-</div>
+-   Drücke die Schaltfläche <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [Längenmaß](TechDraw_LengthDimension/de.md).
 
 ![](images/Exercise_TechDraw_05.png )
 

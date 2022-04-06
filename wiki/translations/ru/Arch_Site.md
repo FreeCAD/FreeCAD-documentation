@@ -104,7 +104,7 @@ If [Ladybug](https://www.ladybug.tools/ladybug.html) is installed on your system
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Site tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The Site tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
 
 ```python

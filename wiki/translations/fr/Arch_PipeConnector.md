@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Arch PipeConnector
-   Name/fr:Arch Connecteur tuyau
-   MenuLocation:Arch → Outils pour la tuyauterie → Connecteur
+   Name/fr:Arch Raccord
+   MenuLocation:Arch → Outils pour la tuyauterie → Raccord
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**P** **C**
    Version:0.17
@@ -13,18 +13,18 @@
 
 ## Description
 
-Cet outil vous permet de créer des raccords entre deux ou plusieurs [Tuyaux](Arch_Pipe/fr.md) sélectionnés.
+Cet outil vous permet de créer des raccords entre deux ou plusieurs [Arch Tuyaux](Arch_Pipe/fr.md) sélectionnés.
 
 ## Utilisation
 
 1.  Sélectionnez 2 or 3 [Arch Tuyaux](Arch_Pipe/fr.md). Si vous avez sélectionné trois tubes, deux doivent être parfaitement alignés.
-2.  Cliquez le bouton **<img src="images/Arch_PipeConnector.svg" width=16px> [Connecteur](Arch_PipeConnector/fr.md)** ou pressez la touche **P** puis **C**.
+2.  Cliquez le bouton **<img src="images/Arch_PipeConnector.svg" width=16px> [Raccord](Arch_PipeConnector/fr.md)** ou pressez la touche **P** puis **C**.
 
 ## Propriétés
 
--    {{PropertyData/fr|Radius}}: Le rayon de la courbe de la connexion
+-    **Radius**: Le rayon de la courbe de la connexion
 
-## Travail typique 
+## Processus de travail typique 
 
 Reportez-vous aux informations de [Tuyaux](Arch_Pipe/fr.md) pour en savoir plus sur l\'utilisation des tuyaux et la création de connecteurs.
 
@@ -41,7 +41,7 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```
 
 -   Crée un objet `Connector` à partir du `pipes` donné qui est une liste de [Arch Tuyaux](Arch_Pipe/fr.md) et éventuellement un rayon `radius` de courbure.
-    -   Les objets de base ([Dradft Polylignes](Draft_Wire/fr.md)) des [Arch Tuyaux](Arch_Pipe/fr.md) devraient partager un point d\'extrémité afin de créer un connecteur correct et lisse.
+    -   Les objets de base ([Draft Polylignes](Draft_Wire/fr.md)) des [Arch Tuyaux](Arch_Pipe/fr.md) devraient partager un point d\'extrémité afin de créer un connecteur correct et lisse.
 
 Exemple: 
 ```python

@@ -35,6 +35,11 @@ El Arquitectura Ubicación es un objeto especial que combina propiedades de un o
 
 ## Propiedades
 
+### Data
+
+
+<div class="mw-translate-fuzzy">
+
 ### Datos
 
 -    **Address**: la calle y el número de este sitio
@@ -67,6 +72,9 @@ El Arquitectura Ubicación es un objeto especial que combina propiedades de un o
 
 -    **Fichero EPW**: Permite adjuntar un archivo EPW de la [Ladybug EPW data website](https://www.ladybug.tools/epwmap/) a este sitio. Esto es necesario para mostrar los diagramas de rosa de los vientos {{version/es|0.19}}
 
+
+</div>
+
 ### View
 
 -    **Solar Diagram**: Shows or hides the solar diagram
@@ -95,11 +103,22 @@ La geometría del sitio se volverá a calcular y se volverán a calcular las ár
 
 ## Diagramas solares y eólicos 
 
+
+<div class="mw-translate-fuzzy">
+
 Si [Ladybug](https://www.ladybug.tools/ladybug.html) está instalado en su sistema, [Arch Sites](Arch_Site/es.md) puede mostrar un diagrama solar y/o una rosa de los vientos. Para ello, **Longitud**, **Latitud** y **Declinación** (antes **Desviación Norte**) deben estar correctamente configurados, y **Diagrama Solar** o **Rosa de Viento** configurados a `True`. Respectivamente {{Version/es|0.17}} y {{Version/es|0.19}}
+
+
+</div>
 
 **Note**: If you don\'t have Ladybug, [pysolar](http://pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required; this version only works with Python 3. If you require this feature with Python 2, you should have Pysolar 0.6 as this is the last version that works with Python 2. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https://github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Guión
 
@@ -108,7 +127,16 @@ Si [Ladybug](https://www.ladybug.tools/ladybug.html) está instalado en su siste
 
 [Borrador API](Arch_API/es.md) y [Fundamentos de Guión FreeCAD](FreeCAD_Scripting_Basics/es.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 La herramienta Ubicación se puede utilizar en [macros](macros/es.md) y desde la consola de [Python](Python/es.md) utilizando la siguiente función:
+
+
+</div>
 
 
 ```python

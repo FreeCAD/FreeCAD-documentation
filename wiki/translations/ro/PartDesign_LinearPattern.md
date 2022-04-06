@@ -55,7 +55,13 @@ To add or remove features from an existing pattern:
 
 ## Opţiuni
 
+
+<div class="mw-translate-fuzzy">
+
 ![LinearPattern parameters in v0.16 and below.](images/Linearpattern_parameters.png ) ![LinearPattern parameters in v0.17 and above.](images/Linearpattern_parameters_v017.png )
+
+
+</div>
 
 ### Direcția
 
@@ -83,7 +89,13 @@ v0.17 and above Uses the normal axis of the sketch for direction.
 
 #### Selectare referințe\... 
 
+
+<div class="mw-translate-fuzzy">
+
 Vă permite să selectați fie o linie de referință, fie o margine a unui obiect, sau o linie din schiță care să fie utilizată pentru direcție.
+
+
+</div>
 
 #### Schiță Axă Personalizată 
 

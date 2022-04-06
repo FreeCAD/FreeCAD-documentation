@@ -7,11 +7,11 @@ Diese Seite zeigt die verschiedene Wege FreeCAD zu starten und die wichtigsten K
 
 ## FreeCAD von der Kommandozeile starten 
 
-FreeCAD kann ganz normal durch einen Doppelklick auf das Desktop Symbol oder durch Auswahl aus dem Startmenü gestartet werden, aber es kann auch direkt über die Befehlszeile gestartet werden. Dies erlaubt dir einige der Standard Startoptionen zu ändern.
+FreeCAD kann ganz normal durch einen Doppelklick auf das Desktop-Symbol oder durch Auswahl aus dem Startmenü gestartet werden, aber es kann auch direkt über die Befehlszeile gestartet werden. Dies erlaubt dir einige der Standard-Startoptionen zu ändern.
 
 ### Nutzen von Kommandozeilen-Optionen ohne eine Kommandozeilen-Shell 
 
--   Unter Ubuntu kannst du ein Desktop Symbol erstellen und dessen Eigenschaften bearbeiten. Füge die Kommandozeilenoptionen durch Leerzeichen getrennt hinter dem Programmnamen in das Feld \"Befehl\" ein.
+-   Unter Ubuntu kannst du ein Desktop-Symbol erstellen und dessen Eigenschaften bearbeiten. Füge die Kommandozeilenoptionen durch Leerzeichen getrennt hinter dem Programmnamen in das Feld \"Befehl\" ein.
 -   Unter Windows erstelle einen Tastenkürzel und bearbeite die Eigenschaften. Füge die Befehlszeilenoptionen durch Leerzeichen getrennt in das Feld \"Ziel\" ein.
 
 ### Befehlszeilen-Optionen 
@@ -204,13 +204,7 @@ Einige Bibliotheken müssen Systemumgebungsvariablen aufrufen. Manchmal, wenn es
 
 ## Konfigurationssatz
 
-
-<div class="mw-translate-fuzzy">
-
-Bei jedem Start prüft FreeCAD seine Umgebung und die Kommandozeilenparameter. Es baut einen **Konfigurationssatz** auf, der das Wesentliche der Laufzeitinformationen enthält. Diese Informationen werden später verwendet, um den Ort zu bestimmen, an dem Benutzerdaten oder Protokolldateien gespeichert werden sollen. Sie sind auch für Postmortem Analysen sehr wichtig. Deshalb wird sie in der Protokolldatei gespeichert.
-
-
-</div>
+Bei jedem Start prüft FreeCAD seine Umgebung und die Kommandozeilenparameter. Es baut einen **Konfigurationssatz** auf, der das Wesentliche der Laufzeitinformationen enthält. Diese Informationen werden später verwendet, um den Ort zu bestimmen, an dem Benutzerdaten oder Protokolldateien gespeichert werden sollen. Sie sind auch für Postmortem-Analysen sehr wichtig. Deshalb wird sie in der Protokolldatei gespeichert.
 
 ### Benutzerbezogene Informationen 
 
@@ -351,47 +345,29 @@ Wird der Name nicht gefunden, wird eine leere Zeichenkette zurückgeliefert.
 
 **Von der Befehlszeile**
 
+Benutze die `--get-config <config-var-name>`-Option, um einen einzelnen Namen abzufragen. Nicht alle Namen werden unterstützt. Beispiel:
 
-<div class="mw-translate-fuzzy">
-
-Benutze die `--get-config <config-var-name>`-Option, um einen einzelnen Name abzufragen. Nicht alle Namen werden unterstützt. Beispiel:
-
- FreeCAD_0.19 --get-config ExeVersion
-
-
-</div>
+ FreeCAD --get-config ExeVersion
 
 Benutze die `--dump-config`-Option, um eine Liste von Namen und ihren Werten zu erhalten. Nicht alle Namen werden unterstützt.
 
 **Aus der FreeCAD Konsole**
 
-
-<div class="mw-translate-fuzzy">
-
 Starte FreeCAD im Konsolenmodus mit `--console` und verwende Python-Code zur Abfrage. Beispiel:
 
- $ FreeCAD_0.19 --console
+ $ FreeCAD --console
  [FreeCAD Console mode <Use Ctrl-D (i.e. EOF) to exit.>]
  >>> FreeCAD.ConfigGet("ExeVersion")
  '0.19'
  >>> exit()
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Bei Linux (bash shell) kannst du die folgenden Befehlszeile an deine Bedürfnisse anpassen:
 
- $ FreeCAD_0.19 --console <<EOF
+ $ FreeCAD --console <<EOF
  print( "FREECAD_USER_HOME: " + ( "not set" if ( os.environ.get('FREECAD_USER_HOME') is None ) else os.environ.get('FREECAD_USER_HOME') ) )
  print( "UserHomePath: " + FreeCAD.ConfigGet("UserHomePath") )
  exit()
  EOF
-
-
-</div>
 
 ## FreeCAD vom Schreibtisch aus starten 
 

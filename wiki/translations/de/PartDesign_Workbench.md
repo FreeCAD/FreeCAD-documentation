@@ -55,9 +55,21 @@ in den [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md).
 
 Erzeugt ein lokales Koordinatensystem, das an der Bezugsgeometrie im aktiven Körper angelegt ist.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Formbinder erstellen](PartDesign_ShapeBinder/de.md): Erzeugt einen Formbinder im aktiven Körper.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Unterobjekt FormBinder erstellen](PartDesign_SubShapeBinder/de.md): Erzeugt einen FormBinder zu einem Unterelement, wie eine Kante oder Fläche eines anderen Körpers, wobei die relative Position des Elements beibehalten wird. {{Version/de|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Klon erstellen](PartDesign_Clone/de.md): Erstellt einen Klon des ausgewählten Körpers.
 

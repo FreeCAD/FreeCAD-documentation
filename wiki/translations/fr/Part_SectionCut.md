@@ -33,9 +33,9 @@ Pour supprimer l\'objet coupé, décochez toutes les options **Cutting**.
 
 En décochant toutes les options **Cutting**, le bouton **Rafraîchir la vue** devient actif. Lorsqu\'il est pressé, il prend une sorte de capture d\'écran des objets Part visibles. Celle-ci sera utilisée la prochaine fois que vous vérifierez une option **Cutting**. Le rafraîchissement est nécessaire lorsque vous changez de document. Il est en outre utile pour les assemblages, où vous pouvez vouloir cacher certaines pièces ou les ajouter ultérieurement à la découpe. Dans ce cas, le rafraîchissement recalcule les valeurs min/max des curseurs et des positions de découpe en fonction des dimensions de l\'objet actuellement visible.
 
-Si l\'option **Auto** de la section couleur est cochée, la couleur des objets découpés sera prise en compte. Cela ne fonctionne que si tous les objets coupés ont la même couleur ou la même transparence.
+Si l\'option **Auto** dans la section face coupée est cochée, la couleur et la transparence des objets coupés seront prises pour la face coupée. Cela ne fonctionne que si tous les objets coupés ont la même couleur ou la même transparence.
 
-**Remarque :** Pour les assemblages, les curseurs de la boîte de dialogue sont désactivés (sauf celui de la transparence). La raison en est qu\'un mouvement de curseur entraîne de nombreuses opérations de coupe dans un court laps de temps. Pour les assemblages, cela consomme rapidement toute la puissance du CPU et le mouvement du curseur n\'est alors plus utile.
+**Remarque :** Pour les assemblages, les curseurs de la boîte de dialogue sont désactivés (sauf celui de la transparence). La raison en est qu\'un mouvement de curseur entraîne de nombreuses opérations de coupe dans un court laps de temps. Pour les assemblages, cela consomme rapidement toute la puissance de l\'unité centrale et un mouvement du curseur n\'est pas utile.
 
 Lorsque vous sélectionnez un objet coupé dans l\'arborescence et que vous ouvrez ensuite la boîte de dialogue Coupe persistante, les positions de la coupe seront lues dans la boîte de dialogue.
 
@@ -69,8 +69,10 @@ Lorsque vous sélectionnez un objet coupé dans l\'arborescence et que vous ouvr
 
 -   **Important:** La fonction Coupe persistante fonctionne mal avec [OpenCASCADE](OpenCASCADE/fr.md) 7.4 et plus anciens en raison de bogues. Il est donc recommandé d\'utiliser OpenCASCADE 7.5 ou plus récent (toutes les versions de FreeCAD 0.20 l\'assurent).
 -   Dans les assemblages, les pièces qui se croisent ne peuvent pas être coupées. Normalement les objets qui se croisent ne seront pas découpés alors que les autres le seront. Cependant, parfois la découpe peut produire des résultats étranges, ce qui est un bug dans les bibliothèques OpenCASCADE.Pour obtenir une vue en coupe également pour les objets qui se croisent, vous pouvez utiliser la macro [Cross Section](Macro_cross_section/fr.md).
+-   En particulier lorsque vous utilisez l\'[atelier A2plus](A2plus_Workbench/fr.md), certaines pièces assemblées peuvent se chevaucher d\'un micron seulement en raison d\'erreurs d\'arrondi internes. Pour résoudre ce problème, ajoutez un micron comme espace dans les paramètres des contraintes.
 -   Il peut y avoir des artefacts de couleur dans le résultat de la découpe. Si et comment cela dépend de la bibliothèque OpenCASCADE et aussi de la position de la vue. Dans de nombreux cas, les artefacts de couleur disparaissent lorsque la vue 3D est légèrement tournée.
--   Lorsque vous avez des objets coupés de couleurs différentes, il n\'est pas possible d\'appliquer automatiquement leur couleur aux faces coupées correspondantes. Toutes les faces découpées auront la même couleur que celle sélectionnée dans la boîte de dialogue.
+-   Lorsque vous avez des objets coupés avec des couleurs différentes, il n\'est pas possible d\'appliquer automatiquement leur couleur aux faces coupées correspondantes. Toutes les faces découpées auront la même couleur que celle sélectionnée dans la boîte de dialogue.
+-   Lorsque vous utilisez l\'[atelier A2plus](A2plus_Workbench/fr.md), il n\'est pas possible d\'appliquer automatiquement la couleur des pièces assemblées aux faces de coupe correspondantes. Toutes les faces découpées auront la même couleur que celle sélectionnée dans la boîte de dialogue. La raison est que A2plus ne saisit pas les pièces [comme lien](App_Link/fr.md) mais les charge comme fichier.
 
 
 

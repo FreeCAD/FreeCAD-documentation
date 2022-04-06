@@ -414,16 +414,40 @@ Obwohl sie möglicherweise ähnliche Werkzeuge haben, ist Assembly3 nicht kompat
 
 [Zum Anfang](#top.md)
 
+
+<div class="mw-translate-fuzzy">
+
 ## Testen
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Der [Assembly3 Arbeitsbereich](Assembly3_Workbench.md) befindet sich in der Entwicklung und ist noch nicht (April 2020) über den [Addon Manager](Std_AddonMgr.md) verfügbar, aber es ist zu erwarten, dass dies irgendwann geschieht.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Assembly3 kann auf zwei Arten getest werden:
 
 -   Eine spezielle Abspaltung von FreeCAD von realthunder; siehe [FreeCAD\_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Dieser Fork basiert auf einem bestimmten Commit des Master-Zweiges von FreeCAD, hat aber auch zusätzliche Funktionen, die derzeit im Master-Zweig nicht vorhanden sind. Da dieser Fork auf einem bestimmten Entwicklungs-Snapshot basiert, verfügt er nicht über die neuesten Funktionen, die täglich in den Master-Zweig eingebunden werden.
 -   Die Entwicklung [AppImage](AppImage.md); diese basiert auf dem aktuellen Master-Zweig und beinhaltet die Abhängigkeiten, die für die Arbeit mit Assembly3 benötigt werden, wie z.B. den SolveSpace Solver.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Da das AppImage nur unter Linux funktioniert, ist für Windows-Benutzer im Moment die erste Option (realthunder\'s fork) die einzige Möglichkeit, Assembly3 zu testen.
+
+
+</div>
 
 [Zum Anfang](#top.md)
 

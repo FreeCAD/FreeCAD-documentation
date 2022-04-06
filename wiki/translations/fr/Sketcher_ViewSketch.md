@@ -4,12 +4,10 @@
    Name/fr:Sketcher Vue de l'esquisse
    MenuLocation:Sketch → Vue de l'esquisse
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
+   Shortcut:**Q** **P**
 ---
 
 # Sketcher ViewSketch/fr
-
-
-</div>
 
 ## Description
 
@@ -17,16 +15,10 @@ Cet outil définit la vue de l\'objet perpendiculairement au plan de l\'esquisse
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 En mode de modification d\'esquisse, soit
 
 -   Cliquez sur l\'icône **[<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Vue de l'esquisse](Sketcher_ViewSketch/fr.md)** dans la barre d\'outils Sketcher ou Part Design, soit
 -   Allez dans le menu **Sketch → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Vue d'esquisse**.
-
-
-</div>
 
 
 

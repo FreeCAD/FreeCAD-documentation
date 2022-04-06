@@ -3,6 +3,10 @@
 
 Queste sono le schermate iniziali che sono state utilizzate per ogni versione del programma.
 
+## FreeCAD 0.20 
+
+![](images/Freecadsplash020.png )
+
 ## FreeCAD 0.19 
 
 ![](images/Freecadsplash019.png )

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part JoinConnect
    Name/fr:Part Connecter des objets
-   MenuLocation:Pièce → Joindre → Connecter des objets
+   MenuLocation:Part → Joindre → Connecter des objets
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.16
    SeeAlso:[Part Intégrer des objets](Part_JoinEmbed/fr.md), [Part Découpe](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
@@ -22,7 +22,7 @@ Outil de connexion pour joindre deux objets creux (par exemple deux tuyaux). Peu
     L\'ordre de sélection n\'est pas important car l\'action de l\'outil est symétrique. Il suffit de sélectionner un élément de chaque objet (par ex. leurs faces). Vous pouvez également sélectionner un composé contenant toutes les formes à connecter, par ex. [Draft Réseau orthogonal](Draft_OrthoArray/fr.md).
 2.  Lancez la commande Part Connecter des objets de plusieurs manières:
     -   Appuyez sur le bouton <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Connecter des objets](Part_JoinConnect/fr.md) dans la barre d\'outils Part
-    -   Utilisez l\'entrée **Pièce → Joindre → Connecter des objets** dans le menu Part
+    -   Utilisez l\'entrée **Part → Joindre → Connecter des objets** dans le menu Part
 
 Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et le résultat de l\'intersection est affiché dans la [vue 3D](3D_view/fr.md).
 
@@ -31,11 +31,11 @@ Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et
 
 {{TitleProperty|Connect}}
 
--    {{PropertyData/fr|Objects}}: Liste les objets a connecter. En général deux objets suffisent, un compound d\'objets fonctionne (Depuis V0.17, cette propriété n\'est pas affichée dans l\'[éditeur de propriétés](Property_editor/fr.md) mais seulement disponible via [Python](#Script.md)).
+-    **Objects**: Liste les objets a connecter. En général deux objets suffisent, un compound d\'objets fonctionne (Depuis V0.17, cette propriété n\'est pas affichée dans l\'[éditeur de propriétés](Property_editor/fr.md) mais seulement disponible via [Python](#Script.md)).
 
--    {{PropertyData/fr|Refine}}: choisir d\'appliquer ou non un [Affinage de forme](Part_RefineShape/fr.md) sur la forme finale. Par défaut cette valeur est déterminée par la case *Affiner les modèles automatiquement après une opération booléenne* dans les [PartDesign préférences](PartDesign_Preferences/fr.md).
+-    **Refine**: choisir d\'appliquer ou non un [Affinage de forme](Part_RefineShape/fr.md) sur la forme finale. Par défaut cette valeur est déterminée par la case *Affiner les modèles automatiquement après une opération booléenne* dans les [PartDesign préférences](PartDesign_Preferences/fr.md).
 
--    {{PropertyData/fr|Tolerance}}: Valeur de \"flou\". Il s\'agit d\'une tolérance supplémentaire à appliquer lors de la recherche d\'intersections, en plus des tolérances stockées dans les formes d\'entrée.
+-    **Tolerance**: Valeur de \"flou\". Il s\'agit d\'une tolérance supplémentaire à appliquer lors de la recherche d\'intersections, en plus des tolérances stockées dans les formes d\'entrée.
 
 ## Exemple
 

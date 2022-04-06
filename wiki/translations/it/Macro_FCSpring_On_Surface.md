@@ -1,4 +1,7 @@
 # Macro FCSpring On Surface/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro FCSpring On Surface
 |Icon=FCSpring_On_Surface.png
@@ -11,9 +14,18 @@
 |SeeAlso=[Macro FCSpring Helix Variable](Macro_FCSpring_Helix_Variable/it.md) [<img src=images/FCSpring_Helix_Variable.png style="width:24px">
 }}
 
+
+</div>
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questa macro crea un\'elica attorno a un oggetto solido qualunque sia la sua forma, l\'elica segue l\'intera superficie dell\'oggetto. (Python2 è richiesto)
+
+
+</div>
 
 <img alt="" src=images/FCSpring_On_Surface_00.png  style="width:480px;">
 
@@ -27,7 +39,13 @@ Questa macro crea un\'elica attorno a un oggetto solido qualunque sia la sua for
 
 Seleziona l\'oggetto (solido), la macro calcola per valore predefinito:
 
+
+<div class="mw-translate-fuzzy">
+
 -   Il valore di altezza del BoundBox dell\'oggetto l\'asse X BounBox il valore Y dell\'asse BoundBox Z il valore la più bassa dell\'oggetto.
+
+
+</div>
 
 ![](images/FCSpring_On_Surface_02.png )
 
@@ -39,9 +57,15 @@ Seleziona l\'oggetto (solido), la macro calcola per valore predefinito:
 
 **Coordinate Begin:**
 
+
+<div class="mw-translate-fuzzy">
+
 -   **X :** Il valore X. Se l\'oggetto è sfalsato, il valore dell\'asse centrale X BoundBox viene rilevato e utilizzato per difetto.
 -   **Y :** The value Y. Se l\'oggetto è sfalsato, il valore dell\'asse centrale Y BoundBox viene rilevato e utilizzato per difetto.
 -   **Z :** The value Z. Se l\'oggetto è sfalsato, il valore del punto più basso dell\'asso Z del BoundBox viene rilevato e utilizzato per difetto.
+
+
+</div>
 
 **Options:**
 
@@ -59,7 +83,7 @@ Seleziona l\'oggetto (solido), la macro calcola per valore predefinito:
 
 ## Script
 
-![](images/FCSpring_On_Surface.png ) ToolBar icon\]
+ToolBar icon ![](images/FCSpring_On_Surface.png )
 
 **Macro\_FCSpring\_On\_Surface.FCMacro**
 

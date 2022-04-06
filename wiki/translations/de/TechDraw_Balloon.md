@@ -11,35 +11,29 @@
 
 ## Beschreibung
 
-Das Werkzeug Stücklistensymbol kann Stücklistensymbole mit Führungslinie einer Zeichnung hinzufügen.
+Das Werkzeug Ballon kann einer Zeichnung Hinweisfelder mit zugehöriger Hinweislinie hinzufügen. (Voreingestellt ist ein kreisförmiges Hinweisfeld, das u.a. zur Kennzeichnung der Elemente einer Stückliste dienen kann)
 
 <img alt="" src=images/Techdraw_balloon.png  style="width:600px;">
 
 ## Anwendung
 
+1.  Eins der folgenden auswählen:
+    -   Eine Ansicht (auf dem Blatt oder in der [Baumansicht](Tree_view.md)).
+    -   Einen Knoten in einer Ansicht. {{Version/de|0.20}}
+    -   Eine Kante in einer Ansicht. {{Version/de|0.20}}
+    -   Einen abgeschlossenen Bereich in einer Ansicht. {{Version/de|0.20}}
+2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
+    -   Drücken der Schaltfläche **<img src="images/TechDraw_Balloon.svg" width=16px> [TechDraw Ballon-Anmerkung einfügen](TechDraw_Balloon/de.md)**.
+    -   Auswahl des Menüeintrags **TechDraw → Anmerkungen → <img src="images/TechDraw_Balloon.svg" width=16px> Ballon-Anmerkung einfügen**.
+3.  Wenn eine Ansicht oder ein Bereich ausgewählt wurde:
+    1.  Der Mauszeiger wird als Balloon-Symbols angezeigt.
+    2.  Einen Punkt auf dem Blatt anklicken, um den Ursprung des Hinweisfeldes zu setzen.
 
-<div class="mw-translate-fuzzy">
+Um ein Hinweisfeld zu verschieben, positioniert man den Mauszeiger über seiner Mitte, drückt und hält die linke Maustaste und zieht die Maus.
 
-1.  Wähle die Ansicht, an die das Stücklistensymbol angefügt werden soll.
-2.  Drücke die **<img src="images/TechDraw_Balloon.svg" width=16px> [Stücklistensymbol](TechDraw_Balloon/de.md)** Taste.
-3.  Der Mauszeiger wird nun als Blasensymbol angezeigt. Klicke auf die Seite, um den Blasenursprung an die gewünschte Position zu setzen.
-4.  Das Stücklistensymbol kann an die gewünschte Position gezogen werden. Verwende **Strg**+Ziehen, um die Blase und den Pfeil zu bewegen.
-5.  Um die Eigenschaften der Blase zu ändern, doppelklicke entweder in der Zeichnung darauf oder doppelklicke im Modellbaum auf das Blasenobjekt. Dadurch wird der Stücklistensymboldialog geöffnet.
+Um die Eigenschaften eines Hinweisfeldes zu ändern, wählt man es per Doppelklick auf dem Blatt oder in der Baumansicht aus. Dies Öffnet den Aufgabenbereich des Hinweisfeldes.
 
-
-</div>
-
-To move the bubble of a Balloon, press and hold the left mouse button on its center and drag the mouse.
-
-To change the properties of a Balloon double-click it on the page or in the [Tree view](Tree_view.md). This will open the Balloon task panel.
-
-
-<div class="mw-translate-fuzzy">
-
-*Hinweis:*\' Die Position des Ballons ist relativ zur Ansicht und verwendet den gleichen Maßstabsfaktor wie die Ansicht.
-
-
-</div>
+*Hinweis:*\' Die Position eines Hinweisfeldes ist relativ zu seiner Ursprungsansicht und verwendet den gleichen Maßstabsfaktor.
 
 ## Verwendung von Trennzeichen 
 
@@ -49,61 +43,45 @@ Bei Verwendung einer Rechteckform können Trennzeichen mit \"\|\" im Text hinzug
 
 ## Eigenschaften
 
-### Data
-
-
-<div class="mw-translate-fuzzy">
-
 ### Daten
 
--    **Text**: angezeigter Text
+-    {{PropertyData/de|Text}}: anzuzeigender Text
 
--    **Source View**: Gewählte Ansicht in der Zeichnung
+-    {{PropertyData/de|Source View}}: Ursprungsansicht des Hinweisfeldes.
 
--    **Origin X**: Blasenursprung in X-Richtung relativ zur Ansicht.
+-    {{PropertyData/de|Origin X}}: X-Lage des Ursprungs des Hinweisfeldes relativ zur Ansicht.
 
--    **Origin Y**: Blasenursprung in Y-Richtung relativ zur Ansicht.
+-    {{PropertyData/de|Origin Y}}: Y-Lage des Ursprungs des Hinweisfeldes relativ zur Ansicht.
 
--    **End Type**: Symbol am Ende der Führungslinie
+-    {{PropertyData/de|End Type}}: Symbol am Ende der Hinweislinie
 
 Optionen: <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Pfeil, gefüllt <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Pfeil, offen <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Strich, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Punkt, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Kreis, offen, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Haken, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Dreieck, gefüllt, <img alt="" src=images/Arrownone.svg  style="width:20px;"> Ohne
 
--    **Shape**: Aussehen des Stücklistensymbols.
+-    **Shape**: Form des Hinweisfeldes.
 
-Optionen: <img alt="" src=images/Circular.svg  style="width:20px;"> Kreis, Ohne, <img alt="" src=images/Triangle.svg  style="width:20px;"> Dreieck, <img alt="" src=images/Inspection.svg  style="width:20px;"> Oval, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Hexagon, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Quadrat, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rechteck
+Optionen: <img alt="" src=images/Circular.svg  style="width:20px;"> Kreisförmig, Kein, <img alt="" src=images/Triangle.svg  style="width:20px;"> Dreieck, <img alt="" src=images/Inspection.svg  style="width:20px;"> Prüfmaß, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Sechseck, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Quadrat, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rechteck (, Linie)
 
--    **Shape Scale**: Vergrößerungsfaktor für das **Stücklistensymbol** in beide Richtungen.
+-    {{PropertyData/de|Shape Scale}}: Vergrößerungsfaktor für die **Form** (des Hinweisfeldes).
 
--    **Text Wrap**: Länge des Stücklistensymbols; -1 meint, daß die Größe der Einhüllung zum Text passt. +1 usw. vergrößern das Stücklistensymbol in X Richtung
+-    {{PropertyData/de|Text Wrap}}: Länge für Textumbuch; -1 heißt, daß der Text nicht umbrochen wird und dass das Ergebnis in jedem Falle eine einzige Zeile ist.
 
--    **Kink Length**: Länge der horizontalen Linie vom **Stücklistensymbol** zur Führungslinie.
+-    {{PropertyData/de|Kink Length}}: Abstand vom **Hinweisfeld** zum Knick der Hinweislinie.
 
--    **X**: Verschiebung des Stücklistensymbols in X Richtung.
+-    {{PropertyData/de|X}}: Horizontale Lage des Hinweisfeldes relativ zur Ansicht.
 
--    **Y**: Verschiebung des Stücklistensymbols in Y Richtung.
-
-
-</div>
-
-### View
-
-
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Y}}: Vertikale Lage des Hinweisfeldes relativ zur Ansicht.
 
 ### Ansicht
 
--    **Farbe**: Farbe des Stücklistensymboltextes.
+-    {{PropertyView/de|Color}}: Farbe des Textes im Hinweisfeld.
 
--    **Schriftart**: Der Name der Schriftart, die für die Stücklistensymbolblase verwendet werden soll.
+-    {{PropertyView/de|Font}}: Der Name der Schriftart, die für das Hinweisfeld verwendet werden soll.
 
--    **Schriftgröße**: Größe des Textes in mm.
+-    {{PropertyView/de|Fontsize}}: Texthöhe in mm.
 
--    **Linie Sichtbar**: Ob die Ballonlinie sichtbar ist.
+-    {{PropertyView/de|Line Visible}}: Ob die Linie des Hinweisfeldes sichtbar ist.
 
--    **Linienbreite**: Strichstärke des Stücklistensymbols
-
-
-</div>
+-    {{PropertyView/de|Line Width}}: Strichstärke der Linie des Hinweisfeldes
 
 ## Skripten
 
@@ -121,13 +99,7 @@ rc = page.addView(bal1)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

@@ -16,7 +16,7 @@ La commande **Std Rafraîchir** recalcule le document actif. La commande est dé
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande Rafraîchir :
-    -   Appuyez sur le bouton **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** dans la barre d\'outils
+    -   Appuyez sur le bouton **<img src="images/Std_Refresh.svg" width=16px> [Rafraîchir](Std_Refresh/fr.md)** dans la barre d\'outils
     -   Sélectionnez l\'option **Edition → <img src="images/_Std_Refresh.svg" width=16px> Rafraîchir** dans le menu.
     -   Appuyer sur le raccourci clavier **F5**
 

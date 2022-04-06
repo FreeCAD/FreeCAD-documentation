@@ -1,32 +1,33 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:FEM ConstraintPlaneRotation
-   MenuLocation:Model → Geometrical Constraints → Constraint plane rotation
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM Constraint transform](FEM_ConstraintTransform.md)
+   Name/pl:MES: Zdefiniuj obrót w płaszczyźnie
+   MenuLocation:Model → Wiązania geometryczne → Zdefiniuj obrót w płaszczyźnie
+   Workbenches:[środowisko pracy MES](FEM_Workbench/pl.md)
+   SeeAlso:[Zdefiniuj odkształcenia](FEM_ConstraintTransform/pl.md)
 ---
 
 # FEM ConstraintPlaneRotation/pl
 
-## Description
+## Opis
 
-Creates a FEM constraint for keeping the nodes in a planar surface in the same plane.
+Tworzy wiązanie metodą elementów skończonych, aby węzły na powierzchni płaskiej znajdowały się w tej samej płaszczyźnie.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> [FEM ConstraintPlaneRotation](FEM_ConstraintPlaneRotation.md)** button.
-    -   Select the **Model → Geometrical Constraints → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Constraint plane rotation** option from the menu.
-2.  In the [3D view](3D_view.md) select the object the constraint should be applied to, which can be a face.
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> [Zdefiniuj obrót w płaszczyźnie](FEM_ConstraintPlaneRotation/pl.md)** na pasku narzędzi.
+    -   Wybierz opcję z menu **Model → Wiązania geometryczne → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Zdefiniuj obrót w płaszczyźnie**.
+2.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być zastosowane wiązanie, może to być ściana.
 
 ## Ograniczenia
 
-1.  Plane rotation constraint can only be applied to a single planar face.
-2.  When a plane rotation constraint is applied to the same face as a displacement/fixed constraint, the displacement/fixed constraint takes preference.
+1.  Wiązanie obrotu w płaszczyźnie może być zastosowane tylko do jednej ściany płaskiej.
+2.  Jeśli wiązanie obrotu w płaszczyźnie zostanie zastosowane do tej samej ściany co wiązanie przemieszczenia / stałości, pierwszeństwo ma wiązanie przemieszczenia /stałości.
 
 ## Uwagi
 
-1.  The constraint uses the \*MPC card in CalculiX. The card is explained in detail at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
+1.  Wiązanie to wykorzystuje kartę \*MPC w programie CalculiX. Karta ta jest szczegółowo opisana na stronie <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
 
 
 

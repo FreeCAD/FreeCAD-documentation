@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Fence
    Name/fr:Arch Clôture
-   MenuLocation:Arch → Barrière
+   MenuLocation:Arch → Clôture
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Version:0.19
 ---
@@ -23,7 +23,7 @@ L\'outil [Arch Clôture](Arch_Fence/fr.md) est un objet qui construit une clôtu
 2.  Créez le chemin que la clôture doit suivre à l\'aide de l\'[atelier Sketcher](Sketcher_Workbench/fr.md) ou de l\'[atelier Draft](Draft_Workbench/fr.md).
 3.  Revenez à l\'[atelier Arch](Arch_Workbench/fr.md).
 4.  Sélectionnez la section, la publication et le chemin dans exactement cet ordre.
-5.  Appuyez sur le bouton **<img src="images/Arch_Fence.svg" width=16px>[Créer un objet clôture...](Arch_Fence/fr.md)**.
+5.  Appuyez sur le bouton **<img src="images/Arch_Fence.svg" width=16px>[Clôture](Arch_Fence/fr.md)**.
 
 ## Options
 
@@ -36,24 +36,24 @@ Pour l\'instant, l\'outil suppose ce qui suit
 
 ### Données
 
--    {{PropertyData/fr|Path}}: chemin d\'accès que doit suivre la clôture
+-    **Path**: Chemin d\'accès que doit suivre la clôture
 
--    {{PropertyData/fr|Post}}: Un post de clôture unique à répéter
+-    **Post**: Un seul piquet de clôture à répéter
 
--    {{PropertyData/fr|Section}}: Une seule section à répéter
+-    **Section**: Une seule section à répéter
 
--    {{PropertyData/fr|Number Of Posts}}: nombre total de messages utilisés pour construire la clôture. Ceci est calculé automatiquement.
+-    **Number Of Posts**: Nombre total de messages utilisés pour construire la clôture. Ceci est calculé automatiquement.
 
--    {{PropertyData/fr|Number Of Sections}}: nombre total de sections utilisées pour construire la clôture. Ceci est calculé automatiquement.
+-    **Number Of Sections**: Nombre total de sections utilisées pour construire la clôture. Ceci est calculé automatiquement.
 
 ### Vue
 
--    {{PropertyView/fr|Use Original Colors}}: Lorsque l\'option est définie sur `True`, la clôture utilisera les couleurs de la section d\'origine. Sinon, la définition de ShapeColor de la clôture sera utilisée pour coloriser la clôture.
+-    **Use Original Colors**: Lorsque l\'option est définie sur `True`, la clôture utilisera les couleurs de la section d\'origine. Sinon, la définition de ShapeColor de la clôture sera utilisée pour coloriser la clôture.
 
 ## Remarques
 
--   Arch Fence a été introduit dans FC v0.19 par l\'utilisateur furti.
--   [Sujet du forum](https://forum.freecadweb.org/viewtopic.php?t=36149) discutant de la fonctionnalité Arch Fence.
+-   Arch Clôture a été introduit dans FC v0.19 par l\'utilisateur furti.
+-   [Sujet du forum](https://forum.freecadweb.org/viewtopic.php?t=36149) discutant de la fonctionnalité Arch Clôture.
 
 ## Script
 

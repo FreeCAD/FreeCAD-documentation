@@ -51,9 +51,9 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 
 -   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Système de coordonnées local](PartDesign_CoordinateSystem/fr.md) : crée un système de coordonnées local attaché à la géométrie de référence dans le corps actif.
 
--   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Forme liée](PartDesign_ShapeBinder/fr.md) : crée une forme liée dans le corps actif.
+-   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Forme liée](PartDesign_ShapeBinder/fr.md) : crée une forme liée référençant la géométrie d\'un seul objet parent.
 
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Sous forme liée](PartDesign_SubShapeBinder/fr.md) : crée une forme liée à un sous-élément, comme le bord ou la face d\'un autre corps, tout en conservant la position relative de cet élément. {{Version/fr|0.19}}
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Sous forme liée](PartDesign_SubShapeBinder/fr.md) : crée une forme liée référençant la géométrie d\'un ou plusieurs objets parents. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Clone](PartDesign_Clone/fr.md) : crée un clone dans le corps actif.
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Fuse
    Name/fr:Part Union
-   MenuLocation:Pièce → Opération booléenne → Union
+   MenuLocation:Part → Opération booléenne → Union
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Opération booléenne](Part_Boolean/fr.md), [Part Soustraction](Part_Cut/fr.md), [Part Intersection](Part_Common/fr.md), 
 ---
@@ -19,8 +19,8 @@ L\'outil **![](images/)_[Union](Part_Fuse/fr.md)** fusionne les objets Part sé
 
 1.  Sélectionnez deux formes
 2.  Plusieurs manières pour lancer cette commande :
-    -   Appuyez sur le bouton **![](images/) Exécuter l'union de plusieurs formes** de la barre d**\'outils Part**
-    -   Utilisez l\'entrée **Pièce → Opération booléenne → Union** depuis le menu Part
+    -   Appuyez sur le bouton **![](images/) Union** de la barre d**\'outils Part**
+    -   Utilisez l\'entrée **Part → Opération booléenne → Union** depuis le menu Part
 
 ## Entrées prises en charge 
 

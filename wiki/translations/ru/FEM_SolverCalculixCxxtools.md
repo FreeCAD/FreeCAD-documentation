@@ -23,22 +23,19 @@
 
 ## Использование
 
-1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) object is created automatically with creation of an **![](images/)_[Analysis_container](FEM_Analysis.md)**. Or use the following alternatives:
-    -   Use **Solve → Solver CalculiX Standard**
-    -   Press **S** then **X** shortcut keys
-
-
-
-
-1.  Optionally set data properties of the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
-2.  Double click on the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
-3.  Select type of the analysis
-4.  Click **Write .inp file**
-5.  Click **Run CalculiX**
+1.  A <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools solver object is created automatically with the creation of an <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Analysis container](FEM_Analysis.md).
+    To create it manually, use one of the following alternatives:
+    -   Select **Solve → <img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> Solver CalculiX Standard** from the menu.
+    -   Press the **S** then **X** shortcut keys.
+2.  Optionally change the properties of the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools solver object in the [Property editor](Property_editor.md).
+3.  Double click the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools solver object.
+4.  Select the **Analysis type**.
+5.  Click the **Write .inp file** button.
+6.  Click the **Run CalculiX** button.
 
 ## Опции
 
-By using **Edit .inp file** you can display and edit CalculiX input file manually before running analysis. In this case it might be useful to use parameter \"Split Input Writer = true\".
+Click the **Edit .inp file** button to display and edit the CalculiX input file manually before running the analysis. In that case it can be useful to set the **Split Input Writer** property to {{True}}.
 
 ## Свойства
 
@@ -95,7 +92,7 @@ Default values can be set in the menu **Edit → Preferences → FEM → Calculi
 -    **Matrix Solver Type**: type of the solver to solve equation system inside FE analysis. It may significantly affect calculation speed and memory demands. Suitability depends on your FE model and available hardware
 
     -   default - automatically selects matrix solver depending on available solvers (probably it will be Spooles)
-    -   spooles - direct solver with support of multiple CPUs. Number of CPUs need to be set in **Edit → Preferences → FEM → CalculiX → Solver defaults → Number of CPU's to use**.
+    -   spooles - direct solver with support of multiple CPUs. Number of CPUs need to be set in the [preferences](FEM_Preferences#CalculiX.md) at *Solver defaults → Number of CPU\'s to use*.
     -   iterativescaling - iterative solver with least memory demands, suitable if model contains mostly 3D elements
     -   iterativecholesky - iterative solver with preconditioning with and with low memory demands, suitable if model contains mostly 3D elements
 

@@ -165,6 +165,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 
 ## Tutorials and Learning 
 
+-   [Migrating to FreeCAD from Revit](Migrating_to_FreeCAD_from_Revit.md)
 -   [Arch & BIM tutorials on this wiki](Tutorials#Architecture_and_BIM.md)
 -   [\"BIM with FreeCAD\" video series by Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD tutorials\" video series by Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)

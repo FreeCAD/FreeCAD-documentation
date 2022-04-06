@@ -17,56 +17,62 @@ A rail guide is a component attached to the side of the rocket that allows the r
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_RailGuide.svg" width=16px> [Rail Guide](Rocket_RailGuide.md)** button.
     -   Select the **Rocket → Launch Guides→ <img src="images/Rocket_RailGuide.svg" width=16px> Rail Guide** option from the menu.
-    -   Double click on a Rail Guide object in the model view.
+    -   Double click on a Rail Guide object in the [Tree view](Tree_view.md).
 2.  Set options and press **OK**.
 
 ## Properties
+
+
+{{TitleProperty|Rail Guide}}
+
+-    **Aft Sweep**:
+
+-    **Aft Sweep Angle**:
+
+-    **Auto Diameter**:
+
+-    **Base Thickness**:
+
+-    **Base Width**:
+
+-    **Diameter**:
+
+-    **Forward Sweep**:
+
+-    **Forward Sweep Angle**:
+
+-    **Length**:
+
+-    **Middle Width**:
+
+-    **Notch**:
+
+-    **Notch Depth**:
+
+-    **Notch Width**:
+
+-    **Rail Guide Base Type**:
+
+-    **Thickness**:
+
+-    **Top Thickness**:
+
+-    **Top Width**:
+
+-    **VAngle**:
 
 
 {{TitleProperty|Rocket Component}}
 
 These parameters are provided for information and have no effect on the design of the component.
 
--    **Manufacturer**: Manufacturer when known
-
--    **Part Number**: Manufacturer part number
-
 -    **Description**: Description of the component
+
+-    **Manufacturer**: Manufacturer when known
 
 -    **Material**: Material when known
 
-
-{{TitleProperty|Rail Guide}}
-
--    **Rail Guide Base**:
-
--    **Top Width**:
-
--    **Middle Width**:
-
--    **Base Width**:
-
--    **Top Thickness**:
-
--    **Base Thickness**:
-
--    **Total Thickness**:
-
--    **Length**:
-
--    **Forward Sweep**:
-
-:\* **Sweep Angle**:
-
--    **Aft Sweep**:
-
-:\* **Sweep Angle**:
-
--    **Notch**:
-
-:\* **Width**:
-
-:\* **Depth**:
+-    **Part Number**: Manufacturer part number
 
 
 

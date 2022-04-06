@@ -2,8 +2,8 @@
 - GuiCommand:/fr
    Name:Part Box
    Name/fr:Part Cube
-   MenuLocation:Pièce → Primitives → Cube
-   Workbenches:[Atelier Part](Part_Workbench/fr.md)
+   MenuLocation:Part → Primitives → Cube
+   Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---
 

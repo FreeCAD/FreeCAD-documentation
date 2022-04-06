@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw ExtensionLockUnlockView
+   Name/de:ErgänzungAnsichtSperrenEntsperren
    MenuLocation:TechDraw → Extensions: Attributes/Modifications → Lock/Unlock View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20
    SeeAlso:
@@ -12,7 +13,7 @@
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:24px;"> **TechDraw ExtensionLockUnlockView** Werkzeug sperrt oder öffnet die Position einer Ansicht durch Umschalten seiner **Lock Position** Eigenschaft. Eine gesperrte Ansicht hat eine feste Position relativ zur Seite oder Gruppe zu der sie gehört.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:24px;"> **TechDraw ErgänzungAnsichtSperrenEntsperren** sperrt oder öffnet die Position einer Ansicht durch Umschalten seiner {{PropertyData/de|Lock Position}}. Eine gesperrte Ansicht hat eine feste Position relativ zur Seite oder Gruppe zu der sie gehört.
 
 ## Verwendung
 

@@ -1,18 +1,19 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw ExtensionThreadBoltBottom
+   Name/de:TechDraw ErgänzungAußengewindeAxial
    MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Bolt Bottom View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md)
+   SeeAlso:[TechDraw ErgänzungInnengewindeAxial](TechDraw_ExtensionThreadHoleBottom/de.md)
 ---
 
 # TechDraw ExtensionThreadBoltBottom/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:24px;"> **TechDraw ExtensionThreadBoltBottom** Werkzeug fügt ein symbolisches Gewinde bei einem von oben oder unten gesehenen Bolzen/Schraube/Stange ein.
+Das <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:24px;"> **TechDraw ExtensionThreadBoltBottom** Werkzeug fügt ein symbolisches Gewinde (Gewindelinie) bei einem von oben oder unten gesehenen Bolzen/Schraube/Stange ein.
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltBottomExample.png  style="width:200px;"> 
 *Rechts eine Stange mit symbolischem Gewinde*

@@ -11,16 +11,16 @@
 
 ## Beschreibung
 
-Der **Std Direkthilfe**-Befehl öffnet die Hilfedokumentation für einen angegebenen Befehl.
+Der Befehl **Std Direkthilfe** öffnet die Hilfedokumentation für einen angegebenen Befehl.
 
 ## Anwendung
 
 1.  Es gibt verschiedene Wege, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Std_WhatsThis.svg" width=16px> [Std Direkthilfe](Std_WhatsThis/de.md)**-Schaltfläche.
-    -   Wähle die **Hilfe → <img src="images/Std_WhatsThis.svg" width=16px> Direkthilfe?**-Option aus dem Menü.
+    -   Drücke die **<img src="images/Std_WhatsThis.svg" width=16px> [Direkthilfe](Std_WhatsThis/de.md)**-Schaltfläche.
+    -   Wähle die **Hilfe → <img src="images/Std_WhatsThis.svg" width=16px> Direkthilfe**-Option aus dem Menü.
     -   Benutze den Tastaturkurzbefehl: **Shift**+**F1**.
 2.  Klicke auf eine Werkzeugleistenschaltfläche oder einen Menüeintrag.
-3.  Die Hilfedokumentation für den ausgewählten Befehl öffnet in einem neuen Fenster.
+3.  Die Hilfedokumentation für den ausgewählten Befehl öffnet sich in einem neuen Fenster.
 
 ## Hinweise
 

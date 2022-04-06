@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part_Revolve
    Name/fr:Part Révolution
-   MenuLocation:Pièce → Révolution...
+   MenuLocation:Part → Révolution...
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 

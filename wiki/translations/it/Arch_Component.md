@@ -38,7 +38,13 @@ Crea un componente [Arch](Arch_Workbench/it.md) non parametrico basato su un ogg
 
 ## Proprietà comuni dei componenti Arch 
 
+
+<div class="mw-translate-fuzzy">
+
 L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri oggetti Arch (<img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Muro](Arch_Wall/it.md), <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md), ecc). Pertanto alcune delle sue proprietà e comportamenti sono comuni a tutti gli oggetti Arch (tranne gli strumenti che non producono oggetti solidi, come <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Piano di sezione](Arch_SectionPlane/it.md) o <img alt="" src=images/Arch_Axis.svg  style="width:16px;"> [Assi](Arch_Axis/it.md)):
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -74,11 +80,23 @@ L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri ogg
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Role**: Ogni componente Arch, oltre alla funzione definita dal tipo (muro, finestra, ecc.), Ha anche una proprietà Ruolo, che può definire ulteriormente quale tipo di funzione svolge. Ad esempio, una <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md) può avere un ruolo di trave o di colonna. I componenti generici di Arch (come sonp prodotti da questo comando) possono avere qualsiasi ruolo disponibile nell\'intero ambiente Arch. Il ruolo è ciò che viene utilizzato per definire il tipo di oggetto IFC da esportare quando viene [esportato in IFC](Arch_IFC/it.md).
+
+
+</div>
 
 -   **Clone Of**: Qualsiasi componente Arch può essere un clone di un altro componente Arch dello stesso tipo (un muro può essere solo un clone di un altro muro, ecc.). L\'unica eccezione è il componente Arch generico (come quello prodotto da questo comando), che può essere clone di qualsiasi altro tipo (muro, struttura, finestra, ecc.). Ciò consente di utilizzare un componente Arch generico per sovrascrivere il tipo di un altro.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Description**: Tutti i componenti Arch hanno un campo Descrizione, che può contenere qualsiasi testo. Esso è usato quando si [esporta in IFC](Arch_IFC/it.md).
+
+
+</div>
 
 -   **Tag**: La proprietà Tag è un altro campo di testo, che può essere utilizzato per fornire un\'ulteriore identità personalizzata agli oggetti.
 

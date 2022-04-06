@@ -106,7 +106,13 @@ El objeto del Arch componente es tambi√©n una base compartida por todos los dem√
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Description**: All Arch Components have a Description field, that can contain any text. This is used when [exporting to IFC](Arch_IFC.md).
+
+
+</div>
 
 -   **Etiqueta**: la propiedad Etiqueta es otro campo de texto, que se puede usar para dar una identidad personalizada adicional a los objetos.
 

@@ -1,5 +1,5 @@
 # Release notes 0.15/pl
-FreeCAD 0.15 was released on April 8, 2015. This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
+FreeCAD 0.15 został wydany 8 kwietnia 2015 roku. Poniżej znajduje się podsumowanie najciekawszych zmian. Pełną listę zmian można znaleźć w [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Starsze wersje są dostępne na stronie: [0.14](Release_notes_0.14/pl.md) - [0.13](Release_notes_0.13/pl.md) - [0.12](Release_notes_0.12/pl.md) - [0.11](Release_notes_0.11/pl.md) [0.11](Release_notes_0.11/pl.md)
 
 <img alt="" src=images/Spark-Plug-Plane.jpg  style="width:1024px;">
 

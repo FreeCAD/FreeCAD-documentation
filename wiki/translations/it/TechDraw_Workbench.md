@@ -25,11 +25,29 @@ FreeCAD è principalmente un\'applicazione di modellazione 3D, e quindi non ha m
 
 Questi sono gli strumenti per crere gli oggetti Pagine.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Nuovo disegno standard](TechDraw_PageDefault/it.md): aggiunge una nuova pagina utilizzando il [modello](TechDraw_Templates/it.md) predefinito.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Nuovo disegno da modello](TechDraw_PageTemplate/it.md): aggiunge una nuova pagina utilizzando un [modello](TechDraw_Templates/it.md) selezionato.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Ridisegna la pagina](TechDraw_RedrawPage/it.md): forza un aggiornamento della pagina selezionata. {{Version/it|0.19}}
+
+
+</div>
 
 ## Viste
 
@@ -39,17 +57,53 @@ Questi sono gli strumenti per crere gli oggetti Viste.
 
 -   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Vista attiva](TechDraw_ActiveView/it.md): inserisce una vista della vista 3D attiva. {{Version/it|0.19}}
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md): richiama una finestra di dialogo per creare molte viste di un oggetto da più direzioni.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width:32px;"> [Vista di sezione](TechDraw_SectionView/it.md): aggiunge una vista in sezione trasversale di una vista esistente.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Dettaglio](TechDraw_DetailView/it.md): aggiunge una vista di dettaglio di una porzione di una vista esistente.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Vista di Draft](TechDraw_DraftView/it.md): aggiunge una vista di [Draft](Draft_Workbench/it.md) di un oggetto.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vista di Arch](TechDraw_ArchView/it.md): aggiunge una vista di un oggetto [Piano di sezione](Arch_SectionPlane/it.md) di [Arch](Arch_Workbench/it.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Vista di foglio di calcolo](TechDraw_SpreadsheetView/it.md): inserisce in un disegno una vista di un [foglio di calcolo](Spreadsheet_Workbench/it.md) selezionato.
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_MoveView.svg  style="width:32px;"> [Move View](TechDraw_MoveView.md): Moves a view and its dependents to a different page. <small>(v0.20)</small> 
 
@@ -59,25 +113,73 @@ Questi sono gli strumenti per crere gli oggetti Viste.
 
 Questi sono strumenti per creare e gestire gli oggetti Clip (ritagli di viste).
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ClipGroup.svg  style="width:32px;"> [Gruppo di clip](TechDraw_ClipGroup/it.md): inserisce un gruppo di clip in una pagina.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [Aggiungi una vista al gruppo clip](TechDraw_ClipGroupAdd/it.md): aggiunge una vista esistente a un gruppo di clip.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Rimuovi la vista dal gruppo clip](TechDraw_ClipGroupRemove/it.md): rimuove una vista da un gruppo di clip.
+
+
+</div>
 
 ## Aspetto
 
 Si tratta di strumenti per modificare l\'aspetto delle pagine e della vista.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Tratteggio da modello](TechDraw_Hatch/it.md): applica a una faccia un modello di tratteggio preso da un file.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md): tratteggia una faccia usando uno specifico Autodesk PAT.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Simbolo SVG](TechDraw_Symbol/it.md): inserisce un simbolo [SVG](SVG/it.md) in una pagina.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Immagine bitmap](TechDraw_Image/it.md): inserisce un\'immagine [bitmap](bitmap/it.md) PNG o JPG in una pagina.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Attiva o disattiva la cornice](TechDraw_ToggleFrame/it.md): mostra o nasconde le cornici e le etichette che circondano una vista.
+
+
+</div>
 
 ## Dimensioni
 
@@ -191,19 +293,61 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 Gli strumenti di annotazione servono per \"commentare\" un disegno con informazioni aggiuntive.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Annotazione](TechDraw_Annotation/it.md): aggiunge un blocco di testo normale da utilizzare come annotazione.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:24px;"> [Linea guida](TechDraw_LeaderLine/it.md): aggiunge una linea di annotazione a una vista. {{Version/it|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:24px;"> [Blocco di testo](TechDraw_RichTextAnnotation/it.md): aggiunge un blocco di annotazione rich text a una [Linea guida](TechDraw_LeaderLine/it.md) o una vista. {{Version/it|0.19}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:24px;"> [Vertice cosmetico](TechDraw_CosmeticVertex/it.md): Lo strumento Vertice cosmetico aggiunge un vertice che non fa parte della geometria originale. {{Version/it|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Midpoints.svg  style="width:24px;"> [Punti mediani](TechDraw_Midpoints/it.md): Lo strumento Punti mediani aggiunge dei Vertici cosmetici nei punti medi di uno o più bordi. {{Version/it|0.19}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> [Quadrante](TechDraw_Quadrants/it.md): Lo strumento Quadrante aggiunge dei Vertici cosmetici nei punti quarti di uno o più bordi circolari. {{Version/it|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:24px;"> [Linea a centro faccia](TechDraw_FaceCenterLine/it.md): Lo strumento Linea a centro faccia aggiunge una linea centrale alle facce selezionate. {{Version/it|0.19}}
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> [Linea centrale a 2 linee](TechDraw_2LineCenterLine/it.md): Lo strumento Linea a centro linee aggiunge una linea centrale tra 2 bordi. {{Version/it|0.19}}
 
@@ -217,13 +361,37 @@ Gli strumenti di annotazione servono per \"commentare\" un disegno con informazi
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:24px;"> [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md): Lo strumento Rimuovi oggetto cosmetico rimuove gli oggetti cosmetici da una pagina. {{Version/it|0.19}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:24px;"> [Aspetto delle linee](TechDraw_DecorateLine/it.md): Lo strumento DecorateLine modifica l\'aspetto dei bordi. {{Version/it|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:24px;"> [Mostra/nascondi i bordi invisibili](TechDraw_ShowAll/it.md): Lo strumento mostra o nasconde i bordi impostati invisibili in una vista. {{Version/it|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:24px;"> [Informazioni di saldatura](TechDraw_WeldSymbol/it.md): Lo strumento Informazioni di saldatura aggiunge le specifiche di saldatura a una linea guida esistente. {{Version/it|0.19}}
+
+
+</div>
 
 ## Extensions
 
@@ -325,9 +493,21 @@ These are tools to improve your TechDraw drawings.
 
 Questi sono gli strumenti per esportare le pagine in altre applicazioni.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Esporta pagina in SVG](TechDraw_ExportPageSVG/it.md): salva una pagina come file [SVG](SVG/it.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Export Page as DXF](TechDraw_ExportPageDXF/it.md): salva la pagina corrente come file [DXF](DXF.md).
+
+
+</div>
 
 ## Ulteriori funzioni 
 

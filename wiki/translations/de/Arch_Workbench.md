@@ -179,6 +179,9 @@ Der Arbeitsbereich Arch kann mit den Funktionen der [Arch Python API](http://www
 
 ## Übungen
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Architektur Arbeitsablauf](http://yorik.uncreated.net/guestblog.php?tag=freecad): Ein Beispiel, wie FreeCAD anfangen kann, einen vorbereitenden Platz in einem Architektur Arbeitsablauf einzunehmen.
 -   [Arch Tutorium](Arch_tutorial/de.md)(v0.14)
 -   [Schnelle Arch Übersicht auf Yorik\'s Blog](http://yorik.uncreated.net/guestblog.php?2012=180)(v0.13)
@@ -187,6 +190,9 @@ Der Arbeitsbereich Arch kann mit den Funktionen der [Arch Python API](http://www
 -   [BIM Modellierungskapitel aus dem FreeCAD Handbuch](Manual:BIM_modeling/de.md)
 -   [Import von STL oder OBJ](Import_from_STL_or_OBJ/de.md)
 -   [Export nach STL oder OBJ](Export_to_STL_or_OBJ/de.md)
+
+
+</div>
 
 
 

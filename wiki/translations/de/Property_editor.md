@@ -3,9 +3,9 @@
 
 ## Einführung
 
-Der [Eigenschafteneditor](property_editor/de.md) erscheint wenn der **Modell** reiter der [Combo Ansicht](combo_view/de.md) aktiv auf der [Oberfläche](interface/de.md) ist; es ermöglicht die Verwaltung der öffentlich zugänglichen Eigenschaften der Objekte im Dokument.
+Der [Eigenschafteneditor](property_editor/de.md) erscheint wenn der Reiter **Modell** der [Combo-Ansicht](combo_view/de.md) auf der [Oberfläche](interface/de.md) aktiv ist; er ermöglicht die Verwaltung der öffentlich zugänglichen Eigenschaften der Objekte im Dokument.
 
-Generell ist der Eigenschafteneditor dazu gedacht, ein Objekt zu einer Zeit zu behandeln. Die im Eigenschafteneditor angezeigten Werte gehören zum aktiven Objekt des aktiven Dokuments (Vorsicht ist geboten, welches Dokument gerade aktiv ist, wenn mit mehreren Dokumenten gearbeitet wird). Wenn kein Element ausgewählt wurde (oder es keine gibt), bleibt der Eigenschafteneditor leer.
+Generell ist der Eigenschafteneditor dazu gedacht, nur ein Objekt zur Zeit zu behandeln. Die im Eigenschafteneditor angezeigten Werte gehören zum ausgewählten Objekt des aktiven Dokuments. Es gibt jedoch einige Eigenschaften, wie Farben, die für viele ausgewählte Objekte gleichzeitig gesetzt werden können. Wenn kein Element ausgewählt wurde, bleibt der Eigenschafteneditor leer.
 
 Nicht alle Eigenschaften können immer geändert werden; je nach dem spezifischen Status der Eigenschaft sind einige von ihnen unsichtbar (nicht aufgeführt) oder schreibgeschützt (nicht bearbeitbar). {{TOCright}}
 
@@ -13,13 +13,13 @@ Nicht alle Eigenschaften können immer geändert werden; je nach dem spezifische
 
 
 
-*Leerer Eigenschaftseditor, wenn kein Objekt ausgewählt ist.*
+*Leerer Eigenschafteneditor, wenn kein Objekt ausgewählt ist.*
 
 ## Eigenschaftentypen
 
-Eine Eigenschaft ist eine Information wie eine Zahl oder eine Textzeichenfolge, die an ein FreeCAD Dokument oder ein Objekt im Dokument angehängt ist.
+Eine Eigenschaft ist eine Information wie eine Zahl oder eine Textzeichenfolge, die an ein FreeCAD-Dokument oder ein Objekt im Dokument angehängt ist.
 
-Benutzerdefinierte [Gescriptete Objekte](Scripted_objects/de.md) können jeden der im Basissystem definierten Eigenschaftstypen verwenden. Die vollständige Liste finden Sie in [Eigenschaft](Property/de.md).
+Benutzerdefinierte [skriptgenerierte Objekte](Scripted_objects/de.md) können jeden der im Basissystem definierten Eigenschaftstypen verwenden. Die vollständige Liste findet man unter [Objekteigenschaften](Property/de.md).
 
 Einige der am häufigsten verwendeten Eigenschaftstypen sind: 
 ```python
@@ -34,7 +34,7 @@ App::PropertyVector
 App::PropertyPlacement
 ```
 
-Verschiedene Objekte können unterschiedliche Typen von Eigenschaften haben. Viele Objekte haben jedoch die gleichen Typen, weil sie von der gleichen internen Klasse abgeleitet sind. Zum Beispiel haben die meisten Objekte, die geometrische Formen beschreiben (Linien, Kreise, Rechtecke, Volumenkörper, importierte Teile usw.), die Eigenschaft \"Platzierung\", die ihre Position in der [3D Ansicht](3D_view/de.md) definiert.
+Verschiedene Objekte können unterschiedliche Typen von Eigenschaften haben. Viele Objekte haben jedoch die gleichen Typen, weil sie von der gleichen internen Klasse abgeleitet sind. Zum Beispiel haben die meisten Objekte, die geometrische Formen beschreiben (Linien, Kreise, Rechtecke, Volumenkörper, importierte Teile usw.), die Eigenschaft \"Platzierung\", die ihre Position in der [3D-Ansicht](3D_view/de.md) definiert.
 
 ## Ansichts und Dateneigenschaften 
 
@@ -76,12 +76,7 @@ For 2D geometry, most objects are derived from `Part::Part2DObject` (itself deri
 ## Maßnahmen
 
 
-<div class="mw-translate-fuzzy">
-
-Aktionen in der Eigenschaftsansicht wurden in 0.19 implementiert.
-
-
-</div>
+{{Version/de|0.19}}
 
 Right clicking in an empty space of the view, or with a property selected, shows only one command:
 
@@ -112,7 +107,7 @@ When the **Show all** option is active, and one property is selected, more actio
 
 -    **EvalOnRestore**: if active, it is evaluated when the document is restored.
 
-## Beispiel für die Eigenschaften eines PartDesign Objekts 
+## Beispiel für die Eigenschaften eines PartDesign-Objekts 
 
 In this section we show some common properties that are visible for a [PartDesign Body](PartDesign_Body.md), and one [PartDesign Feature](PartDesign_Feature.md). The specific properties of an object can found in the specific documentation page of that object.
 

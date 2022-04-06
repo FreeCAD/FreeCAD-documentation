@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Grid
    Name/fr:Arch Grille
-   MenuLocation:Arch → Outils de l'axe → Grille
+   MenuLocation:Arch → Outils pour les axes → Grille
    Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Axes](Arch_Axis/fr.md), [Arch Système d'axes](Arch_AxisSystem/fr.md)
 ---
@@ -20,7 +20,7 @@ La grille est un objet 2D et peut donc être utilisée partout où une forme 2D,
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/Arch_Grid.svg" width=16px> [Crée une grille](Arch_Grid/fr.md)**.
+1.  Appuyez sur le bouton **<img src="images/Arch_Grid.svg" width=16px> [Grille](Arch_Grid/fr.md)**.
 2.  Définissez les **Largeur** et **Hauteur** de la grille dans les propriétés.
 3.  Entrez en mode d\'édition en double-cliquant sur l\'objet de grille dans l\'arborescence.
 4.  Ajouter des lignes et des colonnes.
@@ -35,29 +35,29 @@ La grille est un objet 2D et peut donc être utilisée partout où une forme 2D,
 
 ## Propriétés
 
--    {{PropertyData/fr|Lignes}}: Le nombre de lignes
+-    **Lignes**: Le nombre de lignes
 
--    {{PropertyData/fr|Colonnes}}: Le nombre de colonnes
+-    **Colonnes**: Le nombre de colonnes
 
--    {{PropertyData/fr|Taille des Lignes}}: Les tailles pour les lignes
+-    **Taille des Lignes**: Les tailles pour les lignes
 
--    {{PropertyData/fr|Taille des Colonnes}}: Les tailles des colonnes
+-    **Taille des Colonnes**: Les tailles des colonnes
 
--    {{PropertyData/fr|Points de sortie}}: Le type de points 3D produits par cet objet de grille
+-    **Points de sortie**: Le type de points 3D produits par cet objet de grille
 
--    {{PropertyData/fr|Largeur}}: La largeur totale de cette grille
+-    **Largeur**: La largeur totale de cette grille
 
--    {{PropertyData/fr|Hauteur}}: La hauteur totale de cette grille
+-    **Hauteur**: La hauteur totale de cette grille
 
--    {{PropertyData/fr|Largeur Auto}}: Crée des divisions de colonnes automatiques (définies sur 0 pour désactiver)
+-    **Largeur Auto**: Crée des divisions de colonnes automatiques (définies sur 0 pour désactiver)
 
--    {{PropertyData/fr|Hauteur Auto}}: Crée des divisions de ligne automatiques (définie sur 0 pour désactiver)
+-    **Hauteur Auto**: Crée des divisions de ligne automatiques (définie sur 0 pour désactiver)
 
--    {{PropertyData/fr|Reorient}}: En mode point central, si la grille doit réorienter ses doublures le long de la normales des bords ou non
+-    **Reorient**: En mode point central, si la grille doit réorienter ses doublures le long de la normales des bords ou non
 
 En mode Point centre d\'arête, si la grille doit réorienter ses doublures le long des normales aux arêtes ou non
 
--    {{PropertyData/fr|Hidden Faces}}: Les indices des faces à cacher
+-    **Hidden Faces**: Les indices des faces à cacher
 
 ## Script
 

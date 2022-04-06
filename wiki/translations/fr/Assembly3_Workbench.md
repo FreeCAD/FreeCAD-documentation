@@ -424,16 +424,18 @@ Bien qu\'ils puissent avoir des outils similaires, Assembly3 n\'est pas compatib
 
 [En haut](#top.md)
 
-## Test
+## Installation
 
-[Atelier Assembly3](Assembly3_Workbench/fr.md) est en cours de développement et n\'est pas encore disponible (avril 2020) via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Il est prévu que cela se produise à un moment donné.
+L\'[Atelier Assembly3](Assembly3_Workbench/fr.md) est disponible (à partir de mars 2022) via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Toutes les dépendances d\'Assembly3 devraient être gérées automatiquement par le gestionnaire d\'addons.
 
-Vous pouvez le tester de deux manières :
+#### Installations alternatives 
+
+Il existe deux autres façons d\'installer Assembly3 :
 
 -   Un fork spécial de FreeCAD faite par realthunder ; voir [FreeCAD\_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Ce fork est basé sur un commit particulier de la branche master de FreeCAD, mais il a également des fonctionnalités supplémentaires qui ne sont actuellement pas présentes dans la branche master. Étant donné que ce fork est basé sur un instantané de développement particulier, il n\'a pas les dernières fonctionnalités fusionnées quotidiennement à la branche principale.
--   Le développement [AppImage](AppImage/fr.md) est basé sur la branche principale actuelle et inclut les dépendances nécessaires pour travailler avec Assembly3, comme le solveur SolveSpace.
+-   Le développement [AppImage](AppImage/fr.md) est basé sur la branche principale en cours et inclut les dépendances nécessaires pour travailler avec Assembly3, comme le solveur SolveSpace.
 
-Étant donné que l\'AppImage ne fonctionne que pour Linux, pour les utilisateurs de Windows pour le moment, la seule option pour tester Assembly3 est la première option (le fork de realthunder).
+Comme l\'AppImage ne fonctionne que pour Linux, pour les utilisateurs de Windows (qui veulent une installation alternative d\'Assembly3) l\'option pour tester Assembly3 est la première option (fork de realthunder).
 
 [En haut](#top.md)
 

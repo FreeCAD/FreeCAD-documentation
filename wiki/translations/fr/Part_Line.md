@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Line
    Name/fr:Part Ligne
-   MenuLocation:Pièce → [Créer des primitives](Part_Primitives/fr.md) → Ligne
+   MenuLocation:Part → [Créer des primitives](Part_Primitives/fr.md) → Ligne
    Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---

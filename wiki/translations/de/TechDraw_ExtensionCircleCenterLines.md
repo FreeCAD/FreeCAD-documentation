@@ -1,18 +1,19 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw ExtensionCircleCenterLines
+   Name/de:TechDraw ErgänzungKreismittellinien
    MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Circle Centerlines
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionHoleCircle](TechDraw_ExtensionHoleCircle.md)
+   SeeAlso:[TechDraw ErgänzungLochkreis](TechDraw_ExtensionHoleCircle/de.md)
 ---
 
 # TechDraw ExtensionCircleCenterLines/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:24px;"> **TechDraw ExtensionCircleCenterLines** Werkzeug fügt Mittellinien zu Kreisen und Kreisbögen hinzu.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:24px;"> **TechDraw ErgänzungKreismittellinien** fügt Mittellinien zu Kreisen und Kreisbögen hinzu.
 
 <img alt="" src=images/TechDraw_ExtensionCircleCenterLinesExample.png  style="width:200px;"> 
 *Rechts ein Kreis mit Mittellinien*
@@ -27,13 +28,7 @@ Das <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width
 4.  Bei jedem Kreis und Kreisbogen werden Mittellinien hinzugefügt.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw_Tools_navi

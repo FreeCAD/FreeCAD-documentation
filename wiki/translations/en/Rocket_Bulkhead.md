@@ -17,7 +17,7 @@ A bulkhead is a solid section of material used to close off a section of body tu
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_Bulkhead.svg" width=16px> [Bulkhead](Rocket_Bulkhead.md)** button.
     -   Select the **Rocket → <img src="images/Rocket_Bulkhead.svg" width=16px> Bulkhead** option from the menu.
-    -   Double click on a Bulkhead object in the model view.
+    -   Double click on a Bulkhead object in the [Tree view](Tree_view.md).
 2.  Set options and press **OK**.
 
 ## Options
@@ -41,24 +41,19 @@ A bulkhead may require holes for a variety of reasons, such as for attaching an 
 ## Properties
 
 
-{{TitleProperty|Rocket Component}}
-
-These parameters are provided for information and have no effect on the design of the component.
-
--    **Manufacturer**: Manufacturer when known
-
--    **Part Number**: Manufacturer part number
-
--    **Description**: Description of the component
-
--    **Material**: Material when known
-
-
 {{TitleProperty|Bulkhead}}
 
 -    **Diameter**: The outer diameter of the bulkhead
 
--    **Thickness**: The thickness, not including any step, of the bulkhead
+-    **Hole Center**: The distance from the center of the hole to the center of the bulkhead
+
+-    **Hole Count**: The number of holes applied in a radial pattern around the center of the bulkhead
+
+-    **Hole Diameter**: The diameter of the hole
+
+-    **Hole Offset**: Offset from 0 degrees of the first hole
+
+-    **Holes**: True when the the bulkhead has one or more holes, see [Options](#Options.md)
 
 -    **Step**: True when the bulkhead includes a step, see [Options](#Options.md)
 
@@ -66,15 +61,20 @@ These parameters are provided for information and have no effect on the design o
 
 -    **Step Thickness**: The thickness, not including the bulkhead thickness, of the step
 
--    **Holes**: True when the the bulkhead has one or more holes, see [Options](#Options.md)
+-    **Thickness**: The thickness, not including any step, of the bulkhead
 
--    **Hole Diameter**: The diameter of the hole
 
--    **Hole Center**: The distance from the center of the hole to the center of the bulkhead
+{{TitleProperty|Rocket Component}}
 
--    **Hole Count**: The number of holes applied in a radial pattern around the center of the bulkhead
+These parameters are provided for information and have no effect on the design of the component.
 
--    **Hole Offset**: Offset from 0 degrees of the first hole
+-    **Description**: Description of the component
+
+-    **Manufacturer**: Manufacturer when known
+
+-    **Material**: Material when known
+
+-    **Part Number**: Manufacturer part number
 
 ## Scripting
 

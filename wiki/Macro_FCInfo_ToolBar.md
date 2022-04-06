@@ -4,8 +4,8 @@
 |Icon=FCInfoToolBar.png
 |Description=Gives information about the selected shape and can display a conversion of radius, diameter, length, area, volume ... in different units (metric and imperial) in a toolBar. The information to be displayed in real time is parametrizable in the Parameter of FreeCAD.
 |Author=Mario52
-|Version=00.02
-|Date=2022/03/14
+|Version=00.03
+|Date=2022/03/29
 |FCVersion=0.18 and more
 |Download= [https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
 |SeeAlso = [Arch Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
@@ -89,6 +89,9 @@ The options hare located in the Parameter of FreeCAD
     -   display the Length of the edge selected or the Perimeter of the face selected
         -   (L:) display the Length of the wire, edge, line selected
         -   (P:) display the Perimeter if the face is selected
+
+-   ***switch\_User\_Display\_SommeAllEdgesObject***
+    -   display the somme of the all edge of the object selected (Se:)
 
 -   ***switch\_User\_Display\_NumberFacesMesh***
     -   display the number of Faces of the Mesh object (Nf:)
@@ -198,6 +201,8 @@ enjoy
 The forum discussion [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
 
 ## Version
+
+version: (00.02 +) 00.03 2022/03/22 : add somme all edges
 
 version: 00.02 2022/03/14 : add calcul in real time (with preselection), dimension of toolBar, add info mesh and points
 

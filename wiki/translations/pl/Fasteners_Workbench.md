@@ -8,29 +8,26 @@
 Środowisko pracy <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Elementów złącznych](Fasteners_Workbench.md) należy do [zewnętrznych środowisk pracy](External_workbenches/pl.md). Jest ono przeznaczone do łatwego, szybkiego i wygodnego dodawania różnych elementów złącznych z częściami.
 
 ![](images/Fasteners_toolbars.png ) 
-*Domyślny układ dwóch pasków narzędzi stołu warsztatowego.<br>
+*Opcjonalny układ pojedynczego paska narzędzi w środowisku pracy.<br>
 Elementy złączne o wymiarach metrycznych mają pomarańczowe ikonki.<br>
 Elementy złączne o wymiarach calowych mają zielone ikonki.*
 
 ## Instalacja
 
 1.  Zainstaluj środowisko Elementów Złącznych poprzez <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md). Informacje na temat instalacji ręcznej znajdują się na stronie [Instalacja większej ilości środowisk pracy](Installing_more_workbenches/pl.md).
-2.  Utwórz nowy dokument.
-3.  Wybierz środowisko <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Elementów Złącznych](Fasteners_Workbench/pl.md) z [listy menu rozwijanego](Std_Workbench/pl.md).
-4.  Wyświetlony zostanie domyślny układ dwóch pasków narzędzi.
-5.  Pasek narzędzi **Śruby FS** w tym układzie zawiera wiele elementów złącznych. Aby zobaczyć wszystkie dostępne pozycje, użyj przycisku **&gt;&gt;**, aby go rozwinąć.
-6.  Opcjonalnie zmień układ paska narzędzi i menu:
+2.  Wybierz środowisko <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Elementów Złącznych](Fasteners_Workbench/pl.md) z [listy menu rozwijanego](Std_Workbench/pl.md).
+3.  Opcjonalnie zmień układ paska narzędzi i menu:
     1.  Przejdź do: **Ediycja → Preferenceje ... → Elementy złączne → Ustawienia ogólne → Grupowanie ikon śrub na pasku narzędzi**.
     2.  Wybierz jedną z dostępnych opcji:
         -   
             **Brak**
             
-            : Wszystkie elementy złączne pojawiają się w jednym pasku narzędzi. Jest to układ domyślny.
+            : Wszystkie elementy złączne są wyświetlane na jednym pasku narzędzi. Aby zobaczyć wszystkie dostępne przybory, użyj przycisku **&gt;&gt;**, aby rozwinąć ten pasek.
 
         -   
             **Paski narzędzi oddzielnie**
             
-            : Elementy złączne są zgrupowane w kilku paskach narzędzi.
+            : Elementy złączne są zgrupowane w kilku paskach narzędzi. Jest to układ domyślny.
 
         -   
             **Przyciski rozwijane**

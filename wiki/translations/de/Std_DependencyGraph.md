@@ -1,7 +1,8 @@
 ---
 - GuiCommand:/de
-   Name/de:Std AbhängigkeitsDiagramm
-   MenuLocation:Werkzeuge → AbhängigkeitsDiagramm...
+   Name:Std DependencyGraph
+   Name/de:Std Abhängigkeitsgraph
+   MenuLocation:Werkzeuge → Abhängigkeitsgraph...
    Workbenches:Alle
 ---
 
@@ -9,11 +10,11 @@
 
 ## Beschreibung
 
-Der **Std AbhängigkeitsDiagramm** Befehl zeigt die Abhängigkeiten zwischen Objekten im aktiven Dokument in einem \'Abhängigkeitsdiagramm\' an. Im Gegensatz zur [Baumansicht](Tree_view/de.md) werden die Objekte in umgekehrter chronologischer Reihenfolge aufgelistet, wobei das erste erstellte Objekt unten steht.
+Der Befehl **Std Abhängigkeitsgraph** zeigt die Abhängigkeiten zwischen Objekten im aktiven Dokument in einem \'Abhängigkeitsdiagramm\' an. Im Gegensatz zur [Baumansicht](Tree_view/de.md) werden die Objekte in umgekehrter chronologischer Reihenfolge aufgelistet, wobei das erste erstellte Objekt unten steht.
 
-Es kann bei der Analyse eines FreeCAD Dokuments und beim Auffinden von Verzweigungen in einem Baum nützlich sein. Das Layout des Abhängigkeitsdiagramms hängt davon ab, welcher Arbeitsbereich verwendet wurde, um die Objekte im Dokument zu erstellen. Beispielsweise kann ein Modell, das ausschließlich im Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) erstellt wurde, ein lineares Abhängigkeitsdiagramm mit einem einzigen vertikalen Zweig anzeigen. Ein Modell, das mit [Part](Part_Workbench/de.md) Arbeitsgängen erstellt wurde, hat viele Zweige, aber für ein einzelnes Teil schließen sie sich nach [Booleschen](Part_Boolean/de.md) Vorgängen oben an. Wenn dies nicht der Fall ist, bedeutet dies, dass sie separate Objekte sind.
+Es kann bei der Analyse eines FreeCAD-Dokuments und beim Auffinden von Verzweigungen in einem Baum nützlich sein. Das Layout des Abhängigkeitsdiagramms hängt davon ab, welcher Arbeitsbereich verwendet wurde, um die Objekte im Dokument zu erstellen. Beispielsweise kann ein Modell, das ausschließlich im Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) erstellt wurde, ein lineares Abhängigkeitsdiagramm mit einem einzigen vertikalen Zweig anzeigen. Ein Modell, das mit [Part](Part_Workbench/de.md)-Arbeitsgängen erstellt wurde, hat viele Zweige, aber für ein einzelnes Teil schließen sie sich nach [Booleschen](Part_Boolean/de.md) Verknüpfungen oben an. Wenn dies nicht der Fall ist, bedeutet dies, dass sie separate Objekte sind.
 
-Das Abhängigkeitsdiagramm ist ein reines Visualisierungswerkzeug, daher kann er nicht bearbeitet werden. Er wird automatisch aktualisiert, wenn Änderungen am Modell vorgenommen werden.
+Der Abhängigkeitsgraph ist ein reines Visualisierungswerkzeug, daher kann er nicht bearbeitet werden. Er wird automatisch aktualisiert, wenn Änderungen am Modell vorgenommen werden.
 
 <img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;"> 
 *Beispiel eines Abhängigkeitsdiagramms mit einem PartDesign Körper auf der linken Seite und einem mit Teiloperationen erzeugten Objekt auf der rechten Seite*
@@ -30,31 +31,68 @@ Lade das **graphviz-2.xx** Installationsprogramm von der [Graphviz Download Seit
 
 ### Mac/OSX
 
-Du kannst graphviz mit [Homebrew](https://brew.sh/) installieren. (Werde bei der Installation von Homebrew nicht nervös, wenn MacOS dich auffordert, Updates zu installieren, z.B. für die Xcode Kommandozeilenprogramme. Diese Updates werden später durch den Installationsprozess durchgeführt). 
-```python
-brew install graphviz
-``` Dadurch werden die Graphviz Binärdateien unter /usr/local/bin installiert. FreeCAD wird dort ganz von selbst suchen. Wenn das Programm dort nicht gefunden wird, wirst du aufgefordert, den Pfad einzugeben. Leider können wir vom Dateidialog aus, der aus **Werkzeuge → Abhängigkeitsdiagramm...** aufgerufen wird, nicht direkt dorthin navigieren. Wenn du den Dateiauswahldialog erhälst, hast du zwei Möglichkeiten: Du kannst die Tastenkombination Cmd+Shift+. verwenden, die dir alle ausgeblendeten Elemente anzeigt. Oder du verwendest die Tastenkombination Cmd+Shift+G, um ein Eingabefeld für den Pfad zu erhalten. Eingabe von 
-```python
-/usr/local/bin
-``` und bestätige das Eingabefeld und den Dateiauswahldialog.
+Du kannst graphviz mit [Homebrew](https://brew.sh/) installieren. (Werde bei der Installation von Homebrew nicht nervös, wenn MacOS dich auffordert, Updates zu installieren, z.B. für die Xcode Kommandozeilenprogramme. Diese Updates werden später durch den Installationsprozess durchgeführt).
 
-Falls die Graphviz Binärdateien an einem nicht-standardmäßigen Ort installiert sind, versuche, das Programm mit dem Befehl zu finden 
-```python
+
+{{Code|lang=text|code=
+brew install graphviz
+}}
+
+
+<div class="mw-translate-fuzzy">
+
+Dadurch werden die Graphviz Binärdateien unter /usr/local/bin installiert. FreeCAD wird dort ganz von selbst suchen. Wenn das Programm dort nicht gefunden wird, wirst du aufgefordert, den Pfad einzugeben. Leider können wir vom Dateidialog aus, der aus **Werkzeuge → Abhängigkeitsdiagramm...** aufgerufen wird, nicht direkt dorthin navigieren. Wenn du den Dateiauswahldialog erhälst, hast du zwei Möglichkeiten: Du kannst die Tastenkombination Cmd+Shift+. verwenden, die dir alle ausgeblendeten Elemente anzeigt. Oder du verwendest die Tastenkombination Cmd+Shift+G, um ein Eingabefeld für den Pfad zu erhalten. Eingabe von
+
+
+</div>
+
+
+{{Code|lang=text|code=
+/usr/local/bin
+}}
+
+or
+
+
+{{Code|lang=text|code=
+/opt/homebrew/bin
+}}
+
+und bestätige das Eingabefeld und den Dateiauswahldialog.
+
+Falls die Graphviz Binärdateien an einem nicht-standardmäßigen Ort installiert sind, versuche, das Programm mit dem Befehl zu finden
+
+
+{{Code|lang=text|code=
 type dot
-``` Sie wird etwas ausgeben wie 
-```python
+}}
+
+Sie wird etwas ausgeben wie
+
+
+{{Code|lang=text|code=
 dot is /usr/local/bin/dot
-``` Und deshalb kannst du FreeCAD anweisen, in diesem Verzeichnis zu suchen.
+}}
+
+Und deshalb kannst du FreeCAD anweisen, in diesem Verzeichnis zu suchen.
 
 ### Linux
 
-Auf den meisten Linux Distributionen (Debian/Ubuntu, Fedora, OpenSUSE) musst du nur das Paket graphviz aus den Repositorien installieren. Ähnlich wie bei Mac/OSX versuche jedoch, in Fällen, in denen die Graphviz Binärdateien an einem nicht standardmäßigen Ort installiert sind, das Programm mit dem Befehl zu finden: 
-```python
+Auf den meisten Linux Distributionen (Debian/Ubuntu, Fedora, OpenSUSE) musst du nur das Paket graphviz aus den Repositorien installieren. Ähnlich wie bei Mac/OSX versuche jedoch, in Fällen, in denen die Graphviz Binärdateien an einem nicht standardmäßigen Ort installiert sind, das Programm mit dem Befehl zu finden:
+
+
+{{Code|lang=text|code=
 type dot
-``` Sie wird etwas ausgeben wie 
-```python
+}}
+
+Sie wird etwas ausgeben wie
+
+
+{{Code|lang=text|code=
 dot is /usr/local/bin/dot
-``` Und deshalb kannst du FreeCAD darauf hinweisen, in diesem Verzeichnis zu suchen.
+}}
+
+Und deshalb kannst du FreeCAD darauf hinweisen, in diesem Verzeichnis zu suchen.
 
 ## Anwendung
 

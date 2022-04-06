@@ -215,6 +215,8 @@ self.quantityInput.setProperty('rawValue', potential )
 # set quantity (value + unit)
 quantity = Units.Quantity("{} {}".format(potential , unit))
 self.quantityInput.setProperty('value', quantity)
+# read value from the spinbox
+quantity = self.quantityInput.property('value')
 ```
 
 Le widget Gui::QuantitySpinBox est un spécial FreeCAD, conçu pour afficher et manipuler des valeurs avec leurs [unités](Expressions/fr#Unit.C3.A9s.md). Il est dérivé de la classe [QAbstractSpinBox](https://doc.qt.io/qt-5/qabstractspinbox.html) de Qt. Pour toutes ses propriétés, voir la liste dans le fichier de code source [QuantitySpinBox.h](https://github.com/FreeCAD/FreeCAD/blob/master/src/Gui/QuantitySpinBox.h#L42).

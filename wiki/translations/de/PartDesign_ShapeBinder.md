@@ -12,14 +12,34 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Erzeugt einen **Formbinder**-Bezug innerhalb des aktiven Körpers. Ein Formbinder ist ein Bezugsobjekt, das mit Kanten oder Flächen eines anderen Körpers verknüpft ist. Es kann auch verwendet werden, um eine Skizze von einem Körper zu einem anderen Körper zu verknüpfen. Das Formbinderobjekt wird in der 3D Ansicht als durchscheinendes Gelb in der [3D-Ansicht](3D_view/de.md) dargestellt.
 
-Anwendungsbeispiele sind der Bau eines Gehäuses mit passendem Deckel in zwei verschiedenen Körpern oder die Fertigung von Löchern, die zwischen verschiedenen Körpern ausgerichtet sind.
 
-<img alt="" src=images/Shapebinder_tree.png ) ![](images/Shapebinder_flow.png  style="width:600px;"> 
+</div>
+
+A ShapeBinder will track the relative placement of the referenced geometry, which is useful in the context of creating [assemblies](Assembly.md), if its **Trace Support** property is set to {{True}}. See the [Example](#Example.md) below to understand how this works.
+
+The referenced geometry can either be a single object (for example a [Part Box](Part_Box.md), a [PartDesign Body](PartDesign_Body.md), or a [sketch](PartDesign_NewSketch.md) or [Feature](PartDesign_Feature.md) inside a Body), or one or more subelements (faces, edges or vertices) belonging to the same parent object. Which geometry should be selected depends on the intended purpose of the ShapeBinder. For a Boolean operation you would need to select a solid. For a Pad operation a face or a sketch can be used. And for the external geometry in a sketch, or to attach a sketch, any combination of subelements may be appropriate. The referenced geometry can also belong to the Body the ShapeBinder is nested in.
+
+<img alt="" src=images/Shapebinder_flow.png  style="width:600px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Zwei Formen aus Body.Pad004 werden ausgewählt und ihre Bezugsobjekte sind nun in Body001.Sketch005 als Außengeometrie über Body001.ShapeBinder verfügbar.*
 
+
+</div>
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  [Aktiviere den Körper](PartDesign_Body/de#Active_status.md), der das Formbinderobjekt bekommen soll.
 2.  Klicke auf die **<img src="images/PartDesign_ShapeBinder.svg" width=16px> [Formbinder erstellen](PartDesign_ShapeBinder/de.md)** Schaltfläche.
@@ -31,18 +51,68 @@ Anwendungsbeispiele sind der Bau eines Gehäuses mit passendem Deckel in zwei ve
 
 Um die Durchführung, die mit einem Klick auf eine Schaltfläche gestartet wurde zu stoppen, muss noch einmal auf die Schaltfläche geklickt werden.
 
+
+</div>
+
+## Optionen
+
+
+<div class="mw-translate-fuzzy">
+
+Doppelklicke auf die FormBinder Beschriftung im [Modellbaum](Tree_view/de.md) oder rechtsklicke und wähle **FormBinder bearbeiten** im Kontextmenü, um die Parameter zu bearbeiten.
+
+
+</div>
+
+## Notes
+
+-   A ShapeBinder can be dragged out of the Body it is nested in, and dropped onto the <img alt="" src=images/Document.svg  style="width:16px;"> document node in the [Tree view](Tree_view.md). Such an unnested ShapeBinder can be used as the [Base Feature](PartDesign_Body#Base_Feature.md) for a new Body.
+-   A ShapeBinder created from a sketch can have an opposite \"tool direction\". For example a [Pad](PartDesign_Pad.md) created from the sketch may extend in the +Y direction, while a [Pad](PartDesign_Pad.md), with the same properties, created from the ShapeBinder extends in the -Y direction. Toggling the **Reversed** property (or checkbox) will solve this.
+
+## PartDesign SubShapeBinder vs. PartDesign ShapeBinder 
+
+See [PartDesign SubShapeBinder](PartDesign_SubShapeBinder#PartDesign_SubShapeBinder_vs._PartDesign_ShapeBinder.md).
+
+## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
+
+-    {{PropertyData/de|Label}}: Name, der dem Objekt gegeben wurde, dieser Name kann nach Belieben geändert werden.
+
+-    {{PropertyData/de|Trace Support}}: Der vorgegebene Wert ist false. Wenn diese Option auf true gesetzt ist, überwacht der Formbinder die relative Positionierung der Teile und Körper durch Änderung der Werte seiner {{PropertyData/de|Placement}}-Eigenschaften. Siehe das obige Beispiel, wie dies verwendet wird und funktioniert.
+
+
+</div>
+
+## Example
+
+
+<div class="mw-translate-fuzzy">
+
 **Beispiel**
 
 :   Das Beispiel verwendet die FormBinder Funktion, um ein Loch (mit oder ohne Gewinde) durch mehr als einen Körper zu bohren. Normalerweise ist die Lochfunktion des Arbeitsbereichs Part Design auf einen einzigen Körper beschränkt. Das Beispiel verwendet zwei Würfel, die sich gegenüberliegen, aber willkürlich versetzt ausgerichtet sind. Die Löcher werden mit Skizzen erstellt, die für jedes Loch einen Kreis enthalten. Der Durchmesser wird von der Lochfunktion ignoriert. Wenn du die Skizze in den anderen Würfel kopierst, befindet sie sich an der gleichen Position im lokalen Würfelkoordinatensystem. Im Bild ist dies durch den weißen Kreis auf dem rückwärtigen Würfel dargestellt. Das ist nicht das, was wir wollen, denn das Loch an dieser Stelle würde nicht auf das Loch im vorderen Würfel ausgerichtet sein.
 
 
+</div>
 
+![](images/ShapeBinderThroughHole.png )
+
+
+<div class="mw-translate-fuzzy">
 
 
 :   
 
     :   ![](images/ShapeBinderThroughHole.png )
     :   *Beispiel Aufbau für die Darstellung von wie man Löcher durch verschiedene Körper erstellt. Der weiße Kreis zeigt, dass das Kopieren von Skizzen nicht ausreicht*.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 So nutzt Du die Formbinder Funktion, um dies zu erreichen:
 
@@ -72,37 +142,8 @@ So nutzt Du die Formbinder Funktion, um dies zu erreichen:
 14. Erstelle einen neuen Kreis und setze ihn in den Mittelpunkt des Formbinderkreises. Der Radius ist nicht wichtig. Die Funktion [Bohrung](PartDesign_Hole/de.md) verwendet nur die Mittelpunkte der Kreise (Hinweis: Einzelpunkte werden von der Bohrungsfunktion ignoriert, wir müssen Kreise verwenden).
 15. Schließe die Skizze und klicke auf [Bohrung](PartDesign_Hole/de.md). Stelle den Dialog auf die gleichen Werte wie bei der ersten Bohrung und drücke OK.
 
-**Erledigt.**
 
-:   Jetzt hast du zwei verbundene Bohrungen in zwei verschiedenen Körpern. Wenn Du die Geometrie oder die Positionen der Bohrungen änderst, werden beide Bohrungen angepasst. Nur wenn Du eine neue Bohrung hinzufügst, musst Du die Skizze im zweiten Würfel für die zweite Bohrung aktualisieren.
-
-
-
-
-
-:   Anmerkungen
-:   dass es eine andere Möglichkeit gibt, einen FormBinder zu erstellen: mit aktiviertem hinteren Würfel klicke auf die Vorderseite des vorderen Würfels und erstelle eine neue Skizze. Ein Dialog wird aufklappen, in dem du \"Abhängige Skizze\" auswählst. Dadurch entsteht tatsächlich ein Formbinder. Du kannst den Parameter von *\'Nachverfolgungsunterstützung* im Eigenschaftsfenster sehen. Es ist ein paar Klicks weniger als unser Verfahren.
-:   Beachte auch, dass die Arbeit mit FormBinder mit Skizzen nur eine Teilmenge seiner Möglichkeiten ist. Es ist auch möglich, Teile der 3D Geometrie zu verwenden, wie im obigen Beispiel gezeigt.
-
-## Optionen
-
-Doppelklicke auf die FormBinder Beschriftung im [Modellbaum](Tree_view/de.md) oder rechtsklicke und wähle **FormBinder bearbeiten** im Kontextmenü, um die Parameter zu bearbeiten.
-
-## Eigenschaften
-
--    {{PropertyData/de|Label}}: Name, der dem Objekt gegeben wurde, dieser Name kann nach Belieben geändert werden.
-
--    {{PropertyData/de|Trace Support}}: Der vorgegebene Wert ist false. Wenn diese Option auf true gesetzt ist, überwacht der Formbinder die relative Positionierung der Teile und Körper durch Änderung der Werte seiner {{PropertyData/de|Placement}}-Eigenschaften. Siehe das obige Beispiel, wie dies verwendet wird und funktioniert.
-
-## Begrenzungen
-
--   Eine Mehrfachauswahl wird nicht unterstützt. Die \'Geometrie hinzufügen\' und \'Geometrie entfernen\'-Schaltflächen müssen für jede einzelne Auswahl gedrückt werden.
-    -   Es gibt eine Übergangslösung für die Mehrfachauswahl: Wenn du alle Elemente auswählst, die du *vor* dem Erstellen des Formbinders haben möchtest, erscheinen sie in der Startliste.
--   Ein Formbinder kann nicht als Basismerkmal dienen.
--   Ausgewählte Geometrie auf einem Körper muss zusammenhängend sein.
--   Wenn vor dem Start der Anweisung zuerst der zu kopierende Körper ausgewählt wird oder wenn die Schaltfläche **Object** verwendet wird, ist es nicht mehr möglich, nur bestimmte Geometrieelemente auszuwählen.
--   Die relative Postionierung des Zielkörpers und des Referenzkörpers wird nicht berücksichtigt. Der Formbinder übernimmt die gleichen internen Koordinaten wie der Referenzkörper.
-    -   Verwende die Eigenschaft \"Nachverfolgungs Unterstützung\", um dieses Verhalten so zu ändern.
+</div>
 
 
 

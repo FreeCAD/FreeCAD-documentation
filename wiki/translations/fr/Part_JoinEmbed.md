@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part JoinEmbed
    Name/fr:Part Intégrer un objet
-   MenuLocation:Pièce → Joindre → Intégrer un objet
+   MenuLocation:Part → Joindre → Intégrer un objet
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.16
    SeeAlso:[Part Connecter un objet](Part_JoinConnect/fr.md), [Part Découpe](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
@@ -28,13 +28,13 @@ Un objet Part Intégrer est créé, avec le mode défini sur \'Embed\' (Intégr�
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Base}}: Référence à l\'objet de base (celui dans lequel l\'autre objet doit être incorporé). L\'objet doit être un seul solide.
+-    **Base**: Référence à l\'objet de base (celui dans lequel l\'autre objet doit être incorporé). L\'objet doit être un seul solide.
 
--    {{PropertyData/fr|Tool}}: Référence à l\'objet Insert (l\'objet à incorporer). L\'objet peut être un solide unique ou un [composé valide](Part_Compound/fr.md) de solides.
+-    **Tool**: Référence à l\'objet Insert (l\'objet à incorporer). L\'objet peut être un solide unique ou un [composé valide](Part_Compound/fr.md) de solides.
 
--    {{PropertyData/fr|Mode}}: Le mode opératoire est égal à \'Intégrer\' (Changer ce qui transformera l\'Insert en une autre Part\_JoinXXX). La valeur \'bypass\' peut être utilisée pour désactiver temporairement les calculs longs (un composé de Base et Insert sera créé, ce qui est une opération rapide).
+-    **Mode**: Le mode opératoire est égal à \'Intégrer\' (Changer ce qui transformera l\'Insert en une autre Part\_JoinXXX). La valeur \'bypass\' peut être utilisée pour désactiver temporairement les calculs longs (un composé de Base et Insert sera créé, ce qui est une opération rapide).
 
--    {{PropertyData/fr|Refine}}: Définit si l\'opération [Affiner](Part_RefineShape/fr.md) doit être appliquée ou non à la forme finale. La valeur par défaut est déterminée par une case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de PartDesign. Lorsque la propriété Mode est réglée sur \"bypass\", Affiner est ignoré (jamais appliqué).
+-    **Refine**: Définit si l\'opération [Affiner](Part_RefineShape/fr.md) doit être appliquée ou non à la forme finale. La valeur par défaut est déterminée par une case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de PartDesign. Lorsque la propriété Mode est réglée sur \"bypass\", Affiner est ignoré (jamais appliqué).
 
 ## Exemple
 

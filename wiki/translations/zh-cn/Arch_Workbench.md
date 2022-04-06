@@ -181,6 +181,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 ## 教程
 
+-   [Migrating to FreeCAD from Revit](Migrating_to_FreeCAD_from_Revit.md)
 -   [Architecture workflow](http://yorik.uncreated.net/guestblog.php?tag=freecad): An example of how FreeCAD can begin to have its preliminary place in an architecture workflow.
 -   [Arch tutorial](Arch_tutorial.md) (v0.14)
 -   [Quick arch overview on Yorik\'s blog](http://yorik.uncreated.net/guestblog.php?2012=180) (v0.13)

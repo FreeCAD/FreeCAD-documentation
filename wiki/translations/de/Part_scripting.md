@@ -3,29 +3,11 @@
 
 ## Einführung
 
+Die im Modul Part verwendete Hauptdatenstruktur ist der Datentyp [BRep](http://en.wikipedia.org/wiki/Boundary_representation) von [OpenCASCADE](OpenCASCADE/de.md). Fast alle Inhalte und Objekttypen des Part Moduls stehen dem [Python](Python/de.md)-Skripten zur Verfügung. Dazu gehören geometrische Primitive wie Linien, Kreise, Bögen und die gesamte Palette der TopoFormen, wie Knoten, Kanten, Drähte, Flächen, Volumenkörper und Verbünde. Für jedes dieser Objekte gibt es mehrere Erstellungsmethoden, und für einige von ihnen, insbesondere die TopoFormen, sind auch fortgeschrittene Operationen wie Boolesche Vereinigung/Differenz/Überschneidung verfügbar. Entdecke den Inhalt des Moduls Part, wie auf der Seite [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) beschrieben, um mehr zu erfahren.
 
-<div class="mw-translate-fuzzy">
+Das grundlegendste Objekt, das erstellt werden kann, ist ein [Part Formelement](Part_Feature/de.md), das eine einfache {{PropertyData/de|Placement}} und Grundeigenschaften hat, um seine Farbe und sein Aussehen zu definieren.
 
-Die im Modul Part verwendete Hauptdatenstruktur ist der Datentyp [BRep](http://en.wikipedia.org/wiki/Boundary_representation) von OpenCascade. Fast alle Inhalte und Objekttypen des Part Moduls sind per [Python](Python/de.md) Skripten verfügbar. Dazu gehören geometrische Primitive wie Linie und Kreis (oder Bogen) und die gesamte Palette der TopoFormen, wie Knoten, Kanten, Drähte, Flächen, Festkörper und Verbünde. Für jedes dieser Objekte gibt es mehrere Erstellungsmethoden, und für einige von ihnen, insbesondere die TopoFormen, sind auch fortgeschrittene Operationen wie Bool\'sche Vereinigung/Differenz/Überschneidung verfügbar. Entdecke den Inhalt des Part Moduls, wie auf der Seite [FreeCAD Grundlagen SKripten](FreeCAD_Scripting_Basics/de.md) beschrieben, um mehr zu erfahren.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das grundlegendste Objekt, das erstellt werden kann, ist ein [Part Formelement](Part_Feature/de.md), das eine einfache {{PropertyData/de|Platzierungs}} Eigenschaft und Grundeigenschaften hat, um seine Farbe und sein Aussehen zu definieren.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Ein weiteres einfaches Objekt, das in geometrischen 2D Objekten verwendet wird, ist [Part Part2DObjekt](Part_Part2DObject/de.md), das die Basis von [Skizzierer SkizzeObjekt](Sketcher_SketchObject/de.md) ist. ([Skizzierer](Sketcher_Workbench/de.md)), und die meisten [Entwurfselemente](Draft_Workbench/de.md).
-
-
-</div>
+Ein weiteres einfaches Objekt, das in geometrischen 2D-Objekten verwendet wird, ist das [Part Part2DObjekt](Part_Part2DObject/de.md), das die Basis des [Sketcher SketchObjects](Sketcher_SketchObject/de.md) und der meisten [Draft](Draft_Workbench/de.md)-Elemente ist.
 
 ### Siehe auch 
 
@@ -51,15 +33,9 @@ $INSTALL_DIR/Mod/Part/parttests/part_test_objects.py
 
 ## Beispiele
 
-### Line
+### Linie
 
-
-<div class="mw-translate-fuzzy">
-
-Zum erstellen eines Linienelements schalte um zur Python Konsole und gib ein:
-
-
-</div>
+Zum erstellen eines Linienelements schalte um zur [Python-Konsole](Python_console/de.md) und gib ein:
 
 
 ```python
@@ -173,9 +149,9 @@ def my_create_line(pt1, pt2, obj_name):
 line = my_create_line((0, 0, 0), (0, 10, 0), "LineName")
 ```
 
-### Circle
+### Kreis
 
-Ein Kreis kann in ähnlicher Weise erstellt werden:
+Ein Kreis kann auf ähnliche Weise erstellt werden:
 
 
 ```python
@@ -276,7 +252,7 @@ Hier nehmen wir die Form unseres Objekts f, dann nehmen wir die Liste der Kanten
 
 </div>
 
-### Arc
+### Bogen
 
 An arc can be created like this:
 

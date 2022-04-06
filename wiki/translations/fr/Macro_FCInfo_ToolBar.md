@@ -1,14 +1,14 @@
 # Macro FCInfo ToolBar/fr
-{{Macro
+{{Macro/fr
 |Name=Macro FCCInfo ToolBar
 |Icon=FCInfoToolBar.png
 |Description=Donne des informations en temps réel sur la forme sélectionnée et peut afficher une conversion de rayon, diamètre, longueur, surface, volume ... dans différentes unités (métriques et impériales) dans une barre d'outils. Les informations à afficher sont paramétrables dans le Paramètre de FreeCAD.
 |Author=Mario52
-|Version=00.02
-|Date=2022/03/14
-|FCVersion=0.18 and more
+|Version=00.03
+|Date=2022/03/29
+|FCVersion=0.18 et plus
 |Download= [https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
-|SeeAlso = [Arch Survey](Arch_Survey/fr.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo/fr.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass/fr.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
+|SeeAlso = [Arch Prise de cotes](Arch_Survey/fr.md), [Macro FCInfo](Macro_FCInfo/fr.md), [Macro FCInfoGlass](Macro_FCInfoGlass/fr.md)
 }}
 
 ## Description
@@ -16,7 +16,7 @@
 Donne des informations sur la forme sélectionnée et peut afficher une conversion de rayon, diamètre, longueur, surface, volume \... dans différentes unités (métriques et impériales) dans une barre d\'outils. Les informations à afficher sont paramétrables dans le Paramètre de FreeCAD.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/978cda5c913b6625f073e53baf5861ac61f468bc/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/45da6835214d570588244705d2c0f37f97320874/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo\_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
@@ -33,8 +33,8 @@ Utilisez le bouton de réinitialisation après avoir modifié une option dans la
 
 L\'unité de longueur peut être sélectionnée : km, hm, dam, m, dm, cm, mm, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
-![FCInfo\_ToolBar the info toolTip](images/Macro_FCInfo_ToolBar_01.png ) 
-*FCInfo_ToolBar the info toolTip*
+![L\'info toolTip de FCInfo\_ToolBar](images/Macro_FCInfo_ToolBar_01.png ) 
+*L'info toolTip de FCInfo_ToolBar*
 
 ## Options
 
@@ -91,6 +91,9 @@ Les options sont situées dans les paramètres de FreeCAD.
         -   (L:) affiche la longueur du bord ou du périmètre de la sélection
         -   (P:) affiche le périmètre si une face est sélectionnée
 
+-   ***switch\_User\_Display\_SommeAllEdgesObject***
+    -   affiche la somme de tous les bords (edges) de l\'objet sélectionné (Se:)
+
 -   ***switch\_User\_Display\_NumberFacesMesh***
     -   affiche le nombre de faces de l\'objet Mesh (Nf:)
 
@@ -117,7 +120,8 @@ Les options sont situées dans les paramètres de FreeCAD.
         -   (BSc) nombre de Points du Sub Object sélectionné (cas Edge)
 
 -   ***switch\_User\_Display\_CentreObject***
-    -   affiche le centre du cercle (si un cercle est détecté) (Ce:)
+    -   affiche le centre du cercle (si un cercle est détecté) ou de l\'objet sélectionné
+        -   (Ce :) affiche le centre du cercle (si un cercle est détecté), de la face, du bord \... BBoxCentre de la face, du bord \... Sous sélection\" + \"\\n\\n\")
 
 -   ***switch\_User\_Display\_CentreBoundBoxObject***
     -   affiche le center du boundingBox de l\'objet (BBCe:)
@@ -140,9 +144,9 @@ Les options sont situées dans les paramètres de FreeCAD.
 
 ## Démarrage automatique 
 
-#### avec ligne de commande 
+#### Par lignes de commande 
 
-Dans votre raccourci *vérifiez votre droit chemin*.
+Dans votre raccourci *verify your right path*
 
 \"Chemin\_complet\_de\_FreeCAD\" \"Chemin\_complet\_de\_la\_macro.FCMacro\"
 
@@ -196,6 +200,8 @@ if switch_User_NotRunAuto == False:
 La discussion sur le Forum [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
 
 ## Version
+
+version: (00.02 +) 00.03 2022/03/22 : ajout de \"somme de tous les bords (edges)
 
 version: 00.02 2022/03/14 : ajout calcul en temps réel sur une présélection, dimension du toolBar, ajout info mesh et points
 

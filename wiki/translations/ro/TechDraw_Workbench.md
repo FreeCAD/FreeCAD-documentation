@@ -25,9 +25,21 @@ FreeCAD este în primul rând o aplicație de modelare 3D și, prin urmare, nu a
 
 Acestea sunt instrumente pentru crearea obiectelor de pagină.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Insert Default Page](TechDraw_PageDefault.md): adaugă o nouă pagină utilizând [template](TechDraw_Templates.md) implicit.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Insert Page using Template](TechDraw_PageTemplate.md): Adaugă o nouă pagină utilizând o selecție [template](TechDraw_Templates.md).
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Redraw Page](TechDraw_RedrawPage.md): forces an update of the selected page. <small>(v0.19)</small> 
 
@@ -39,17 +51,53 @@ Acestea sunt instrumente pentru crearea de Vizualizare obiecte.
 
 -   <img alt="" src=images/TechDraw_ActiveView.svg  style="width:32px;"> [Insert Active View](TechDraw_ActiveView.md): inserts a view of the active 3D view. <small>(v0.19)</small> 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Insert Projection Group](TechDraw_ProjectionGroup.md): învocă un dialog pentru crearea vederilor multiple din mai multe direcții.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_SectionView.svg  style="width:32px;"> [Insert Section View](TechDraw_SectionView.md): adaugă o vedere în secțiune transversală într-o vizualizarea existentă deja.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Insert Detail View](TechDraw_DetailView.md): adaugă un detaliu vizualizarea unei porțiuni dintr-o vizualizare existentă.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Insert Draft Workbench Object](TechDraw_DraftView.md): adaugă o vizualizare la un Obiect din Atelierul [Draft Workbench](Draft_Workbench.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Insert Arch Workbench Object](TechDraw_ArchView.md): adaugă o vizualizare la un obiect din Atelierul Arhitectură adaugă o vizualizare a [Arch Workbench](Arch_Workbench.md) [SectionPlane](Arch_SectionPlane.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Insert Spreadsheet View](TechDraw_SpreadsheetView.md): inserează o vizualizare a unei foi de calcul [Spreadsheet Workbench](Spreadsheet_Workbench.md) sheet.
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_MoveView.svg  style="width:32px;"> [Move View](TechDraw_MoveView.md): Moves a view and its dependents to a different page. <small>(v0.20)</small> 
 
@@ -59,25 +107,73 @@ Acestea sunt instrumente pentru crearea de Vizualizare obiecte.
 
 Acestea sunt instrumente pentru a crea și a gestiona vederile mascate Clip objects
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ClipGroup.svg  style="width:32px;"> [Insert Clip Group](TechDraw_ClipGroup.md): inserează un grup de vederi mascate în secțiune într-o pagină.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [ClipPlus](TechDraw_ClipGroupAdd/ro.md): Adaugă o vedere existentă la un grup mască.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [ClipMinus](ClipGroupRemove/ro.md): Extrage o vedere dintr-un grup mascat.
+
+
+</div>
 
 ## Decorațiune
 
 Acestea sunt instrumente pentru modificarea aspectului paginilor și al vizualizărilor.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/techdraw-hatch.png  style="width:32px;"> [Hatch Area](TechDraw_Hatch.md): aplică un model de hașurare dintr-un fișier, unei fațete
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md): aplică un model de trasură la o față folosind o specificație Autodesk PAT.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [New Symbol](TechDraw_Symbol.md): inserază un simbol cartezian [SVG](SVG.md) în pagină.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Techdraw-image.png  style="width:32px;"> [New Image](TechDraw_Image.md): Inserează o imagine PNG or JPG [bitmap](bitmap.md) în pagină.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Turn View Frames On/Off](TechDraw_ToggleFrame.md): Comuntă on/off cadrele și etichete care înconjoară o pagină.
+
+
+</div>
 
 ## Cotare
 
@@ -161,7 +257,13 @@ Cotele liniare pot fi bazate pe două puncte, o linie sau două linii.
 
 The annotation tools are for \"marking up\" a drawing with additional information.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Insert Annotation](TechDraw_Annotation.md): adaugă un bloc de text care servește ca adnotare
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Add Leaderline to View](TechDraw_LeaderLine.md): adds a leaderline to a view. <small>(v0.19)</small> 
 
@@ -289,7 +391,13 @@ These are tools to improve your TechDraw drawings.
 
 These are tools for exporting pages to other applications.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Export Page as SVG](TechDraw_ExportPageSVG.md): Salvează o pagină ca fișier [SVG](SVG.md).
+
+
+</div>
 
 -   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Export Page as DXF](TechDraw_ExportPageDXF.md): saves the current page as [DXF](DXF.md) file.
 

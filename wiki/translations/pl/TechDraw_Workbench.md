@@ -41,7 +41,7 @@ Są to narzędzia do tworzenia obiektów widoku.
 
 -   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Wstaw widok obiektu Rysunek Roboczy](TechDraw_DraftView/pl.md): dodaje do widoku strony obiekt ze środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md).
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Wstaw widok sekcji z planu Arch](TechDraw_ArchView/pl.md): dodaje widok obiektu [SectionPlane](Arch_SectionPlane/pl.md) ze środowiska pracy [Architektura](Arch_Workbench.md).
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Wstaw widok sekcji z planu Arch](TechDraw_ArchView/pl.md): dodaje widok obiektu [SectionPlane](Arch_SectionPlane/pl.md) ze środowiska pracy [Architektura](Arch_Workbench/pl.md).
 
 -   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Wstawia widok wybranego Arkusza](TechDraw_SpreadsheetView/pl.md): wstawia widok ze Środowiska pracy [Arkusz kalkulacyjny](Spreadsheet_Workbench/pl.md).
 

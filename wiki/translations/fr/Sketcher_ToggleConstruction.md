@@ -47,13 +47,7 @@ puis une fois que vous quittez le **[<img src=images/Sketcher_LeaveSketch.svg st
 
 ## Remarques
 
-
-<div class="mw-translate-fuzzy">
-
--    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Création d'un point](Sketcher_CreatePoint/fr.md)**créera toujours des points en mode construction, quel que soit l\'état du basculement de la barre d\'outils. Sélectionnez les points souhaités dans la [Vue 3D](3D_view/fr.md) après la création et cliquez sur **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)** pour les transformer en géométrie normale. {{Version/fr|0.19}}
-
-
-</div>
+-    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Point](Sketcher_CreatePoint/fr.md)**créera toujours des points en mode construction, quel que soit l\'état du basculement de la barre d\'outils. Sélectionnez les points souhaités dans la [Vue 3D](3D_view/fr.md) après la création et cliquez sur **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)** pour les transformer en géométrie normale. {{Version/fr|0.19}}
 
 
 

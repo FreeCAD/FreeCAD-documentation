@@ -19,7 +19,7 @@ A Centering Ring is a solid object used to hold one or more body tubes inside an
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_CenteringRing.svg" width=16px> [Centering Ring](Rocket_CenteringRing.md)** button.
     -   Select the **Rocket → <img src="images/Rocket_CenteringRing.svg" width=16px> Centering Ring** option from the menu.
-    -   Double click on a Centering Ring object in the model view.
+    -   Double click on a Centering Ring object in the [Tree view](Tree_view.md).
 2.  Set options and press **OK**.
 
 ## Options
@@ -27,23 +27,11 @@ A Centering Ring is a solid object used to hold one or more body tubes inside an
 ### Notch
 
 Centering rings, especially those used for low power rocketry, often need a notch to accommodate an engine hook. The **Centering Ring** tool can generate those for you.
+
  ![](images/Notched_CR.png )  
 *Centering ring with an engine hook notch*
 
 ## Properties
-
-
-{{TitleProperty|Rocket Component}}
-
-These parameters are provided for information and have no effect on the design of the component.
-
--    **Manufacturer**: Manufacturer when known
-
--    **Part Number**: Manufacturer part number
-
--    **Description**: Description of the component
-
--    **Material**: Material when known
 
 
 {{TitleProperty|Bulkhead}}
@@ -52,7 +40,15 @@ These properties are inherited from the **Bulkhead**, see [Bulkhead](Rocket_Bulk
 
 -    **Diameter**: The outer diameter of the bulkhead
 
--    **Thickness**: The thickness, not including any step, of the bulkhead
+-    **Hole Center**: The distance from the center of the hole to the center of the bulkhead
+
+-    **Hole Count**: The number of holes applied in a radial pattern around the center of the bulkhead
+
+-    **Hole Diameter**: The diameter of the hole
+
+-    **Hole Offset**: Offset from 0 degrees of the first hole
+
+-    **Holes**: True when the the bulkhead has one or more holes, see [Bulkhead Options](Rocket_Bulkhead#Options.md)
 
 -    **Step**: True when the bulkhead includes a step, see [Bulkhead Options](Rocket_Bulkhead#Options.md)
 
@@ -60,26 +56,31 @@ These properties are inherited from the **Bulkhead**, see [Bulkhead](Rocket_Bulk
 
 -    **Step Thickness**: The thickness, not including the bulkhead thickness, of the step
 
--    **Holes**: True when the the bulkhead has one or more holes, see [Bulkhead Options](Rocket_Bulkhead#Options.md)
-
--    **Hole Diameter**: The diameter of the hole
-
--    **Hole Center**: The distance from the center of the hole to the center of the bulkhead
-
--    **Hole Count**: The number of holes applied in a radial pattern around the center of the bulkhead
-
--    **Hole Offset**: Offset from 0 degrees of the first hole
+-    **Thickness**: The thickness, not including any step, of the bulkhead
 
 
 {{TitleProperty|Centering Ring}}
 
 -    **Center Diameter**: The diameter of the inner hole
 
--    **Notched**: True when the center hole includes a notch, see [Options](#Options.md)
-
 -    **Notch Height**: The notch height
 
 -    **Notch Width**: The notch width
+
+-    **Notched**: True when the center hole includes a notch, see [Options](#Options.md)
+
+
+{{TitleProperty|Rocket Component}}
+
+These parameters are provided for information and have no effect on the design of the component.
+
+-    **Description**: Description of the component
+
+-    **Manufacturer**: Manufacturer when known
+
+-    **Material**: Material when known
+
+-    **Part Number**: Manufacturer part number
 
 ## Scripting
 

@@ -169,10 +169,16 @@ Anmerkungen sind visuelle Hilfsobjekte, die in deinem Modell platziert werden k√
 
 ## Tutorien und Lernen 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Arch & BIM Tutorien in diesem Wiki](Tutorials#Architecture_and_BIM/de.md)
 -   [\"BIM mit FreeCAD\" Videoserie von Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD Tutorien\" Videoserie von Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" Videoserie von Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
+
+
+</div>
 
 ## Externe Arbeitsbereiche 
 

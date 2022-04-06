@@ -125,6 +125,11 @@ Los objetos de muro heredan las propiedades de los objetos [Pieza](Part_Workbenc
 
 -    {{PropertyData/es|Count Broken}}: La cantidad de bloques rotos (solo lectura)
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Guión
 
 
@@ -132,7 +137,18 @@ Los objetos de muro heredan las propiedades de los objetos [Pieza](Part_Workbenc
 
 [Borrador API](Arch_API/es.md) y [Fundamentos de Guión FreeCAD](FreeCAD_Scripting_Basics/es.md).
 
-La herramienta Wall se puede utilizar en [macros](macros/es.md) y desde la consola de [Python](Python/es.md) utilizando la siguiente función: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+La herramienta Wall se puede utilizar en [macros](macros/es.md) y desde la consola de [Python](Python/es.md) utilizando la siguiente función:
+
+
+</div>
+
+
 ```python
 Wall = makeWall(baseobj=None, length=None, width=None, height=None, align="Center", face=None, name="Wall")
 ```

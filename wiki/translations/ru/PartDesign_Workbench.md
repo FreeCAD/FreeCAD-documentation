@@ -63,7 +63,13 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 -   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Создать локальную систему координат](PartDesign_CoordinateSystem/ru.md): создает локальную систему координат прикрепленную к опорной геометрии в активном теле.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Создать связующую форму](PartDesign_ShapeBinder/ru.md): создает связующую форму в активном теле.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Cone
    Name/fr:Part Cône
-   MenuLocation:Pièce → Primitives → Cône
+   MenuLocation:Part → Primitives → Cône
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---

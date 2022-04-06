@@ -2,10 +2,10 @@
 - GuiCommand:/fr
    Name:PartDesign Thickness
    Name/fr:PartDesign Épaisseur
-   MenuLocation:Conception de pièces → Appliquer une fonction d'habillage → Épaisseur
+   MenuLocation:PartDesign → Appliquer une fonction d'habillage → Épaisseur
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[Part Épaisseur](Part_Thickness/fr.md)
+   SeeAlso:[Part Évidement](Part_Thickness/fr.md)
 ---
 
 # PartDesign Thickness/fr

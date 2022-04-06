@@ -8,7 +8,7 @@
 The <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners Workbench](Fasteners_Workbench.md) is an [external workbench](External_workbenches.md) that can add various fasteners to parts.
 
 ![](images/Fasteners_toolbars.png ) 
-*The default two toolbar layout of the workbench.<br>
+*The optional single toolbar layout of the workbench.<br>
 Fasteners with metric dimensions have orange icons.<br>
 Fasteners with inch dimensions have green icons.*
 
@@ -16,22 +16,19 @@ Fasteners with inch dimensions have green icons.*
 
 1.  Install the Fasteners Workbench via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 2.  Restart FreeCAD.
-3.  Create a new document.
-4.  Select the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners Workbench](Fasteners_Workbench.md) from the [Workbench dropdown list](Std_Workbench.md).
-5.  The default two toolbar layout will display.
-6.  The **FS Screws** toolbar in this layout contains many fasteners. To see all available buttons use the **&gt;&gt;** button to expand it.
-7.  Optionally change the toolbar and menu layout:
+3.  Select the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners Workbench](Fasteners_Workbench.md) from the [Workbench dropdown list](Std_Workbench.md).
+4.  Optionally change the toolbar and menu layout:
     1.  Go to: **Edit → Preferences... → Fasteners → General settings → Toolbar screw icons grouping**.
     2.  Select one of the available options:
         -   
             **None**
             
-            : All fasteners appear in a single toolbar. This is the default layout.
+            : All fasteners appear in a single toolbar. To see all available buttons use the **&gt;&gt;** button to expand it.
 
         -   
             **Separate toolbars**
             
-            : Fasteners are grouped in several toolbars.
+            : Fasteners are grouped in several toolbars. This is the default layout.
 
         -   
             **Dropdown buttons**

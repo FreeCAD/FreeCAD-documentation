@@ -182,6 +182,9 @@ El Módulo de arquitectura puede usarse en scripts de [Python](Python/es.md) y e
 
 ## Tutoriales
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Architecture workflow](http://yorik.uncreated.net/guestblog.php?tag=freecad): Un ejemplo de cómo FreeCAD puede empezar a tener su lugar preliminar en un flujo de trabajo de arquitectura.
 -   [Tutorial de Arch](Arch_tutorial/es.md) (v0.14)
 -   [Descripción rápida de Arch en el blog de Yorik](http://yorik.uncreated.net/guestblog.php?2012=180) (v0.13)
@@ -190,6 +193,9 @@ El Módulo de arquitectura puede usarse en scripts de [Python](Python/es.md) y e
 -   [capítulo de modelado BIM del manual de FreeCAD](Manual:BIM_modeling/es.md)
 -   [Importar desde STL u OBJ](Import_from_STL_or_OBJ/es.md)
 -   [Exportar a STL u OBJ](Export_to_STL_or_OBJ/es.md)
+
+
+</div>
 
 
 

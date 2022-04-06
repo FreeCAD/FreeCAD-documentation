@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Extrude
    Name/fr:Part Extrusion
-   MenuLocation:Pièce → Extrusion...
+   MenuLocation:Part → Extrusion...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Draft Ajuster ou prolonger](Draft_Trimex/fr.md), [PartDesign Protrusion](PartDesign_Pad/fr.md)
 ---
@@ -29,7 +29,7 @@ Dans les scénarios les plus courants, la liste suivante détaille les formes r�
 ## Utilisation
 
 1.  Sélectionner une ou des formes dans la [vue 3D](3D_view/fr.md) ou dans le modèle de la [vue en arborescence](Tree_view/fr.md).
-2.  Cliquer sur le bouton **<img src="images/Part_Extrude.svg" width=16px> [Part Extrusion](Part_Extrude/fr.md)
+2.  Cliquer sur le bouton **<img src="images/Part_Extrude.svg" width=16px> [Extrusion](Part_Extrude/fr.md)
 ** dans la barre d\'outils ou aller dans le menu **Part → Extrusion**
 3.  Définir la direction et la longueur, et optionnellement d\'autres paramètres (voir la section suivante [Paramètres](#Param.C3.A8tres.md) pour plus de détails).
 4.  Cliquer sur **OK**.

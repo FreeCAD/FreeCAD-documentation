@@ -169,6 +169,7 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 
 ## Tutoriels et apprentissage 
 
+-   [Migrer de Revit vers FreeCAD](Migrating_to_FreeCAD_from_Revit/fr.md)
 -   [Tutoriels sur ce wiki Arch & BIM](Tutorials/fr#Architecture_et_BIM.md)
 -   [\"BIM with FreeCAD\" série de vidéos de Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD tutorials\" série de vidéos de Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)

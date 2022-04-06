@@ -2,8 +2,8 @@
 - GuiCommand:/de
    Name:Spreadsheet Import
    Name/de:Kalkulationstabelle Importieren
-   MenuLocation:Tabellenkalkulation → Importiere Kalkulationstabelle
-   Workbenches:[Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md)
+   MenuLocation:Tabellenkalkulation → Kalkulationstabelle importieren
+   Workbenches:[Spreadsheet](Spreadsheet_Workbench/de.md)
    Version:0.17
    SeeAlso:[Kalkulationstabelle Exportieren](Spreadsheet_Export/de.md)
 ---
@@ -12,17 +12,11 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Kalkulationstabelle Import](Spreadsheet_Import/de.md)** Werkzeug ermöglcht dir eine Komma-getrennte Werte Datei (frei als CSV bezeichnet) (engl.: Comma Separated Values) in eine Kalkulationstabelle zu importieren, so dass sie geändert und mit [Ausdrücken](expressions/de.md) verwendet werden kann.
-
-
-</div>
+Das Werkzeug **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadsheet Importieren](Spreadsheet_Import/de.md)** erlaubt es, eine CSV-Datei (engl.: Comma Separated Values) in eine Kalkulationstabelle zu importieren, so dass sie geändert und mit [Ausdrücken](expressions/de.md) verwendet werden kann. Man beachte, dass das {{Value|Tab}}-Zeichen und nicht das {{Value|Komma}} der voreingestellte Feldtrenner ist. Aber dies kann in den [Spreadsheet Voreinstellungen](Spreadsheet_Preferences/de.md) geändert werden ({{Version/de|0.20}}).
 
 ## Anwendung
 
-1.  Drücke die **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Kalkulationstabelle Import](Spreadsheet_Import/de.md)** Taste.
+1.  Drücke die Schaltfläche **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Kalkulationstabelle importieren](Spreadsheet_Import/de.md)**.
 2.  Wähle die richtige CSV Datei.
 
 ## Hinweise

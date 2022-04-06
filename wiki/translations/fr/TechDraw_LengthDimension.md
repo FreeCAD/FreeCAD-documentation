@@ -11,8 +11,8 @@
 
 ## Description
 
-L\'outil Cote de longueur ajoute une dimension linéaire à une vue. La dimension peut être la distance entre deux sommets, la longueur d\'un bord ou la distance entre deux arêtes. La dimension sera initialement la distance projetée (c.-à-d. comme indiqué sur le dessin), mais elle peut être remplacée par la distance 3D réelle en utilisant l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)
-**
+L\'outil <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:24px;"> 
+**TechDraw Cote de longueur** ajoute une dimension linéaire à une vue. La dimension peut être la distance entre deux sommets, la longueur d\'un bord ou la distance entre deux arêtes. La dimension sera initialement la distance projetée (c.-à-d. comme indiqué sur le dessin), mais elle peut être remplacée par la distance 3D réelle en utilisant l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)**
 
 <img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
 *Dimension de longueur prise à partir de deux nœuds arbitraires de la vue*
@@ -20,8 +20,9 @@ L\'outil Cote de longueur ajoute une dimension linéaire à une vue. La dimensio
 ## Utilisation
 
 1.  Sélectionnez les points ou les arêtes qui définissent votre mesure.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_LengthDimension.svg" width=20px> [Insérer une cote de longueur](TechDraw_LengthDimension/fr.md)
-**
+2.  Il existe plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insérer une cote de longueur](TechDraw_LengthDimension/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Dimensions → <img src="images/TechDraw_LengthDimension.svg" width=16px> Insérer une cote de longueur** dans le menu.
 3.  Une dimension sera ajoutée à la vue. La dimension peut être déplacée à la position désirée.
 4.  Si nécessaire, ajoutez des tolérances comme décrit dans [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tol.C3.A9rances.md).
 

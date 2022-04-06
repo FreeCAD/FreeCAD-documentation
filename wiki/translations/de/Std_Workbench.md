@@ -12,16 +12,16 @@
 
 ## Beschreibung
 
-Der **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbetsbereich](Workbenches/de.md) einschließlich ihrer grafischen Benutzeroberfläche (GUI).
+Der Befehl **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbeitsbereich](Workbenches/de.md) einschließlich seiner grafischen Benutzeroberfläche (GUI).
 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:800px;"> 
-*Die Arbeitsbereich Auswahlliste ist im Standard mit der Nummer 10 gekennzeichnet [Oberfläche](interface/de.md)*
+*Die Auswahlliste der Arbeitsbereiche auf der Standard-[Oberfläche](interface/de.md) ist mit der Nummer 10 gekennzeichnet.*
 
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Wähle einen Arbeitsbereich aus der **Arbeitsbereichs Auswahlliste** in der Arbeitsbereich Werkzeugleiste. Diese Option ist nicht verfügbar, wenn der aktuelle Arbeitsbereich ist `<none>` (kein Arbeitsbereich).
-    -   Wähle einen Arbeitsbereich aus dem **Ansicht → Arbeitsbereich** Untermenü.
+    -   Auswahl eines Arbeitsbereiches aus der **Auswahlliste** in der Symbolleiste **Arbeitsbereich**. Diese Option ist nicht verfügbar, wenn der aktuelle Arbeitsbereich `<none>` (kein Arbeitsbereich) ist.
+    -   Auswahl eines Arbeitsbereiches aus dem Untermenü **Ansicht → Arbeitsbereich**.
 
 ## Hinweise
 
@@ -29,7 +29,7 @@ Der **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbetsbereich](Workben
 
 ## Einstellungen
 
--   Der Startarbeitsbereich kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Allgemein → Allgemein → Hochfahren**. Siehe [Einstellungseditor](Preferences_Editor/de#General.md).
+-   Der Startarbeitsbereich kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Allgemein → Allgemein → Hochfahren**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Allgemeines.md).
 
 ## Skripten
 
@@ -38,7 +38,7 @@ Der **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbetsbereich](Workben
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Um den Arbeitsbereich zu ändern, verwende die `aktiviereArbeitsbereich` Methode des FreeCADGui Moduls. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
+Um den Arbeitsbereich zu ändern, verwende die Methode `activateWorkbench` des FreeCADGui-Moduls. Diese Methode ist nicht verfügbar, wenn sich FreeCAD im Konsolenmodus befindet.
 
 
 ```python

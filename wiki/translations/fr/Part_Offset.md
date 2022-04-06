@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Offset
    Name/fr:Part Décalage 3D
-   MenuLocation:Pièce → Décalage 3D...
+   MenuLocation:Part → Décalage 3D...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Évidement](Part_Thickness/fr.md), [Part Décalage 2D](Part_Offset2D/fr.md)
 ---
@@ -24,11 +24,11 @@ L\'outil Décalage 3D de la pièce crée des copies parallèles d\'une forme sé
 
 ## Propriétés
 
--    {{PropertyData/fr|Offset}}: distance pour décaler les faces de la forme
+-    **Offset**: distance pour décaler les faces de la forme
 
--    {{PropertyData/fr|Mode}}: mode de création. Skin crée une nouvelle forme autour de la forme source. Tuyau (à faire). RectoVerso (à faire)
+-    **Mode**: mode de création. Skin crée une nouvelle forme autour de la forme source. Tuyau (à faire). RectoVerso (à faire)
 
--    {{PropertyData/fr|Join type}}: Comment les nouveaux coins sont construits. L\'intersection donne des angles vifs par extension linéaire des arêtes. Arc et Tangent donnent des angles arrondis.
+-    **Join type**: Comment les nouveaux coins sont construits. L\'intersection donne des angles vifs par extension linéaire des arêtes. Arc et Tangent donnent des angles arrondis.
 
 1.  Optionː intersection: permet aux décalages dirigés vers l\'intérieur de «déborder» de l\'interstice en croisant la forme obtenue jusqu\'à ce que les faces opposées soient atteintes.
 2.  Optionː auto intersection (à faire).
@@ -40,7 +40,7 @@ Objet avec petits coins décalés et arrondis (arc).
 
 <img alt="" src=images/PartOffset0.png  style="width:400" height="200px;"> → <img alt="" src=images/PartOffset1.png  style="width:400" height="200px;"> 
 
-L même objet avec des angles vifs (intersection).
+Le même objet avec des angles vifs (intersection).
 
 <img alt="" src=images/PartOffset3.png  style="width:400" height="200px;"> 
 

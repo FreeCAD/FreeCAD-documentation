@@ -37,31 +37,68 @@ Descarga el instalador **graphviz-2.xx** de la página [Graphviz Download page](
 
 ### Mac/OSX
 
-Puedes instalar graphviz usando [Homebrew](https://brew.sh/). (Mientras instalas Homebrew, no te pongas nervioso, si MacOS te pide que instales actualizaciones, por ejemplo, para las herramientas de línea de comandos de Xcode. Estas actualizaciones se realizan posteriormente por el proceso de instalación). 
-```python
-brew install graphviz
-``` Esto instala los binarios de graphviz en /usr/local/bin. FreeCAD buscará allí por sí mismo. Si el programa no se encuentra allí se le pide que introduzca la ruta. Desgraciadamente no podemos navegar directamente hasta allí desde el diálogo de archivos que aparece desde **Herramientas → Gráfico dependencia...**. Cuando te sale el diálogo de selección de archivos tienes dos posibilidades: Puedes utilizar la combinación de teclas Cmd+Shift+. que te mostrará todos los elementos ocultos. O bien utilizar las teclas Cmd+Shift+G para obtener un campo de entrada para la ruta. Entrar 
-```python
-/usr/local/bin
-``` y confirmar el campo de entrada y el diálogo de selección de archivos.
+Puedes instalar graphviz usando [Homebrew](https://brew.sh/). (Mientras instalas Homebrew, no te pongas nervioso, si MacOS te pide que instales actualizaciones, por ejemplo, para las herramientas de línea de comandos de Xcode. Estas actualizaciones se realizan posteriormente por el proceso de instalación).
 
-En caso de que los binarios de Graphviz estén instalados en una ubicación no estándar, intente encontrar el programa con el comando 
-```python
+
+{{Code|lang=text|code=
+brew install graphviz
+}}
+
+
+<div class="mw-translate-fuzzy">
+
+Esto instala los binarios de graphviz en /usr/local/bin. FreeCAD buscará allí por sí mismo. Si el programa no se encuentra allí se le pide que introduzca la ruta. Desgraciadamente no podemos navegar directamente hasta allí desde el diálogo de archivos que aparece desde **Herramientas → Gráfico dependencia...**. Cuando te sale el diálogo de selección de archivos tienes dos posibilidades: Puedes utilizar la combinación de teclas Cmd+Shift+. que te mostrará todos los elementos ocultos. O bien utilizar las teclas Cmd+Shift+G para obtener un campo de entrada para la ruta. Entrar
+
+
+</div>
+
+
+{{Code|lang=text|code=
+/usr/local/bin
+}}
+
+or
+
+
+{{Code|lang=text|code=
+/opt/homebrew/bin
+}}
+
+y confirmar el campo de entrada y el diálogo de selección de archivos.
+
+En caso de que los binarios de Graphviz estén instalados en una ubicación no estándar, intente encontrar el programa con el comando
+
+
+{{Code|lang=text|code=
 type dot
-``` El resultado será algo así como 
-```python
+}}
+
+El resultado será algo así como
+
+
+{{Code|lang=text|code=
 dot is /usr/local/bin/dot
-``` Y por lo tanto puedes decirle a FreeCAD que busque en ese directorio.
+}}
+
+Y por lo tanto puedes decirle a FreeCAD que busque en ese directorio.
 
 ### Linux
 
-En la mayoría de las distribuciones de Linux (Debian/Ubuntu, Fedora, OpenSUSE), basta con instalar el paquete Graphviz desde los repositorios. Sin embargo, al igual que en Mac/OSX, en los casos en los que los binarios de Graphviz están instalados en una ubicación no estándar, intente encontrar el programa con el comando: 
-```python
+En la mayoría de las distribuciones de Linux (Debian/Ubuntu, Fedora, OpenSUSE), basta con instalar el paquete Graphviz desde los repositorios. Sin embargo, al igual que en Mac/OSX, en los casos en los que los binarios de Graphviz están instalados en una ubicación no estándar, intente encontrar el programa con el comando:
+
+
+{{Code|lang=text|code=
 type dot
-``` El resultado puede ser algo así como 
-```python
+}}
+
+El resultado puede ser algo así como
+
+
+{{Code|lang=text|code=
 dot is /usr/local/bin/dot
-``` Y por tanto puedes indicar a FreeCAD que busque en ese directorio.
+}}
+
+Y por tanto puedes indicar a FreeCAD que busque en ese directorio.
 
 ## Utilización
 

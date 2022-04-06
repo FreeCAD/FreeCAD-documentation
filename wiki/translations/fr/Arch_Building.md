@@ -12,22 +12,22 @@
 
 ## Description
 
-Arch Building (Bâtiment) est un type spécial d\'objet de groupe FreeCAD particulièrement adapté pour représenter une unité de construction entière. Ils sont principalement utilisés pour organiser votre modèle, en contenant des objets [Arch Niveaux](Arch_Floor/fr.md).
+Arch Bâtiment est un type spécial d\'objet de groupe FreeCAD particulièrement adapté pour représenter une unité de construction entière. Ils sont principalement utilisés pour organiser votre modèle, en contenant des objets [Arch Niveaux](Arch_Floor/fr.md).
 
 ## Utilisation
 
 1.  Optionnellement, sélectionnez un ou plusieurs objets que vous voulez inclure dans votre nouveau bâtiment
-2.  Pressez le bouton **<img src="images/Arch_Building.svg" width=16px> [Crée un objet bâtiment...](Arch_Building/fr.md)** ou appuyez sur les touches **B** puis **U**.
+2.  Pressez le bouton **<img src="images/Arch_Building.svg" width=16px> [Bâtiment](Arch_Building/fr.md)** ou appuyez sur les touches **B** puis **U**.
 
 ## Options
 
--   À partir de FreeCAD version 0.18, l\'objet Building est en réalité une [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) (BuildingPart) avec sa propriété {{PropertyData/fr|IFC Type}} définie sur \"Building\". Vous pouvez convertir n\'importe quelle BuildingPart en un bâtiment simplement en modifiant son Type IFC.
+-   À partir de FreeCAD version 0.18, l\'objet Building est en réalité une [Arch Partie de bâtiment](Arch_BuildingPart/fr.md) (BuildingPart) avec sa propriété **IFC Type** définie sur \"Building\". Vous pouvez convertir n\'importe quelle BuildingPart en un bâtiment simplement en modifiant son Type IFC.
 -   Après la création du bâtiment, vous pouvez ajouter un ou plusieurs objets que vous pouvez copier/coller dans la vue arborescente ou utilisez l\'outil **<img src="images/Arch_Add.svg" width=16px> [Arch Ajouter](Arch_Add/fr.md)**.
 -   Vous pouvez effacer le bâtiment que vous avez copier/coller dans la vue arborescente ou utiliser l\'outil **<img src="images/Arch_Remove.svg" width=16px> [Arch Soustraire](Arch_Remove/fr.md)**.
 
 ## Propriétés
 
--    {{PropertyData/fr|Building Type}}: Le type de ce bâtiment, à choisir dans une liste.
+-    **Building Type**: Le type de ce bâtiment, à choisir dans une liste.
 
 ## Script
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM SolverZ88
    Name/fr:FEM Solveur Z88
-   MenuLocation:Solve → Solveur Z88
+   MenuLocation:Solveur → Solveur Z88
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**S** **Z**
    SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
@@ -12,7 +12,7 @@
 
 ## Description
 
-[Solveur Z88](FEM_SolverZ88/fr.md) permet d\'utiliser le solveur [Z88](https://en.wikipedia.org/wiki/Z88_FEM_software). Il peut être utilisé pour :
+Le [Solveur Z88](FEM_SolverZ88/fr.md) permet d\'utiliser le solveur [Z88](https://en.wikipedia.org/wiki/Z88_FEM_software). Il peut être utilisé pour :
 
 1.  Définir les paramètres d\'analyse
 2.  Sélectionner le répertoire de travail
@@ -32,9 +32,15 @@ Pour utiliser le solveur Z88, la version OpenSource de Z88 (Z88OS) doit être in
     -   Sélectionnez **Solveur → <img src="images/FEM_SolverZ88.svg" width=x16px> Solveur Z88** dans le menu.
     -   Appuyez sur les touches de raccourci **S** puis **Z**.
 2.  Double-cliquez sur l\'objet <img alt="" src=images/FEM_SolverZ88.svg  style="width:" height="16px;"> SolverZ88.
-3.  Sélectionnez le type d\'analyse.
+3.  Sélectionnez **Type d'analyse**.
 4.  Cliquez sur le bouton **Écrire**.
 5.  Cliquez sur le bouton **Exécuter**.
+
+Pour résultat, vous obtenez un objet appelé *Z88\_xxx\_results* (selon la simulation exécutée) dans la [Vue en arborescence](Tree_view/fr.md). C\'est le même type d\'objet de résultat que l\'on obtient en exécutant le [solveur CalculiX](FEM_SolverCalculixCxxtools/fr.md). À partir de là, vous pouvez visualiser les résultats en utilisant [Post pipeline des résultats](FEM_PostPipelineFromResult/fr.md) et les [Filtres](FEM_Workbench/fr#Menu_:_R.C3.A9sultats.md).
+
+## Préférences
+
+Voir les [préférences de Z88](FEM_Preferences/fr#Z88.md) pour les paramètres possibles du solveur comme la méthode de solveur utilisée.
 
 
 

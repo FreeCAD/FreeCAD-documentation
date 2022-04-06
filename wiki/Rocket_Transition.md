@@ -19,7 +19,7 @@ The most common application is to change from one body diameter to another, such
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_Transition.svg" width=16px> [Transition](Rocket_Transition.md)** button.
     -   Select the **Rocket → <img src="images/Rocket_Transition.svg" width=16px> Transition** option from the menu.
-    -   Double click on a Transition object in the model view.
+    -   Double click on a Transition object in the [Tree view](Tree_view.md).
 2.  Set options and press **OK**.
 
 ## Options
@@ -63,52 +63,52 @@ There are some known issues with the drawing of transitions that are currently b
 
 These parameters are provided for information and have no effect on the design of the component.
 
--    **Manufacturer**: Manufacturer when known
-
--    **Part Number**: Manufacturer part number
-
 -    **Description**: Description of the component
 
+-    **Manufacturer**: Manufacturer when known
+
 -    **Material**: Material when known
+
+-    **Part Number**: Manufacturer part number
 
 
 {{TitleProperty|Transition}}
 
--    **Transition Type**: Defines the shape of the transition using the coefficient when required, see [Options](#Options.md)
-
--    **Transition Style**: Defines the style of the transition, see [Options](#Options.md)
-
--    **Clipped**: Defines the shape of the transition in combination with the **Transition Type**, see [Options](#Options.md)
-
--    **Length**: The length of the transition without the shoulders
-
--    **Aft Radius**: The radius of the base of the transition
-
--    **Fore Radius**: The radius of the front of the transition
-
--    **Core Radius**: When the **Transition Style** is *Solid Core*, this will determine the size of the hole through the transition, see [Options](#Options.md)
-
--    **Thickness**: When the **Transition Style** is *Hollow* or *Capped*, this will determine the wall thickness of the transition
-
--    **Coefficent**: Combined with the **Transition Type**, this defines the shape of the transition, see [Options](#Options.md)
+-    **Aft Diameter**: The diameter of the base of the transition
 
 -    **Aft Shoulder**: True when the transition includes a shoulder at the base
 
--    **Aft Shoulder Length**: The length of the shoulder
+-    **Aft Shoulder Diameter**: The diameter of the shoulder. This must be less than the **Aft Diameter** of the transition
 
--    **Aft Shoulder Radius**: The radius of the shoulder. This must be less than the **Aft Radius** of the transition
+-    **Aft Shoulder Length**: The length of the shoulder
 
 -    **Aft Shoulder Thickness**: When the **Transition Style** is *Hollow* or *Capped*, this will determine the wall thickness of the shoulder
 
+-    **Clipped**: Defines the shape of the transition in combination with the **Transition Type**, see [Options](#Options.md)
+
+-    **Coefficient**: Combined with the **Transition Type**, this defines the shape of the transition, see [Options](#Options.md)
+
+-    **Core Diameter**: When the **Transition Style** is *Solid Core*, this will determine the size of the hole through the transition, see [Options](#Options.md)
+
+-    **Fore Diameter**: The diameter of the front of the transition
+
 -    **Fore Shoulder**: True when the transition includes a shoulder at the forward end
+
+-    **Fore Shoulder Diameter**: The diameter of the shoulder. This must be less than the **Fore Radius** of the transition
 
 -    **Fore Shoulder Length**: The length of the shoulder
 
--    **Fore Shoulder Radius**: The radius of the shoulder. This must be less than the **Fore Radius** of the transition
-
 -    **Fore Shoulder Thickness**: When the **Transition Style** is *Hollow* or *Capped*, this will determine the wall thickness of the shoulder
 
+-    **Length**: The length of the transition without the shoulders
+
 -    **Resolution**: Used internally, this parameter defines the number of data points to use when drawing the outline of the nose cone
+
+-    **Thickness**: When the **Transition Style** is *Hollow* or *Capped*, this will determine the wall thickness of the transition
+
+-    **Transition Style**: Defines the style of the transition, see [Options](#Options.md)
+
+-    **Transition Type**: Defines the shape of the transition using the coefficient when required, see [Options](#Options.md)
 
 ## Scripting
 

@@ -32,9 +32,9 @@ To remove the cut object, uncheck all **Cutting** options.
 
 By unchecking all **Cutting** options, the button **Refresh view** becomes active. When pressed, it takes a kind of a screenshot of the currently visible Part objects. This will be used when you check the next time a **Cutting** option. The refreshing is necessary when you switched the document. It is furthermore useful for assemblies, where you might want to hide some parts or later want to add them to the cut. In this case the refreshing recalculates the min/max values of the sliders and cut positions according to the currently visible object dimensions.
 
-If the option **Auto** in the color section is checked, the color of the cut objects will be taken. This only works if all cut objects have the same color or transparency.
+If the option **Auto** in the cut face section is checked, the color and transparency of the cut objects will be taken for the cut face. This only works if all cut objects have the same color or transparency.
 
-**Note:** For assemblies the sliders in the dialog are disabled (except the one for the transparency). The reason is that a slider movement results in many cut operations is a short time. For assemblies this quickly consumes all CPU power and the sticky slider movement is then no longer helpful.
+**Note:** For assemblies the sliders in the dialog are disabled (except the one for the transparency). The reason is that a slider movement results in many cut operations is a short time. For assemblies this quickly consumes all CPU power and a sticky slider movement is not helpful.
 
 When you select a cut object in the tree view and then open the Section Cut dialog, the cut positions will be read into the dialog.
 
@@ -68,8 +68,10 @@ When you select a cut object in the tree view and then open the Section Cut dial
 
 -   **Important:** The Section Cut feature works poorly with [OpenCASCADE](OpenCASCADE.md) 7.4 and older due to bugs. It is therefore recommended to use OpenCASCADE 7.5 or newer (all builds of FreeCAD 0.20 assure this).
 -   In assemblies parts that intersect each other cannot be cut. Normally intersecting objects will not be cut while the others will. However, sometimes the cutting can produce strange results which is a bug in the OpenCASCADE libraries. To get a cut view also for intersecting objects, you can use the the macro [Cross Section](Macro_cross_section.md).
+-   Especially when using the [A2plus workbench](A2plus_Workbench.md), some the assembled parts can overlap each other by just a micron due to internal rounding errors. To fix this, add a micron as space in the constraint settings.
 -   There can be color artifacts in the cut result. If and how depends on the OpenCASCADE library and also on the view position. In many cases the color artifacts disappear when the 3D view is slightly rotated.
 -   When having cut objects with different colors, it is not possible to apply automatically their color to the corresponding cut faces. All cut faces will get the same color selected in the dialog.
+-   When using the [A2plus workbench](A2plus_Workbench.md), it is not possible to apply automatically the color of the assembled parts to the corresponding cut faces. All cut faces will get the same color selected in the dialog. The reason is that A2plus does not input the parts [as link](App_Link.md) but loads them as file.
 
 
 

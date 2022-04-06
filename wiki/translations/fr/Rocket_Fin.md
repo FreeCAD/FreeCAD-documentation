@@ -21,7 +21,7 @@ Les ailerons sont utilisés pour contrôler aérodynamiquement la direction du v
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_Fin.svg" width=16px> [Fin](Rocket_Fin/fr.md)**.
     -   Sélectionnez l\'option **Rocket  → <img src="images/Rocket_Fin.svg" width=16px> Fin** dans le menu.
-    -   Double-cliquez sur un objet Fin dans la vue du modèle.
+    -   Double-cliquez sur un objet Fin dans la [Vue en arborescence](Tree_view/fr.md).
 2.  Définissez les options et appuyez sur **OK**.
 
 ## Options
@@ -42,12 +42,12 @@ La forme en coupe d\'un aileron peut grandement affecter ses performances à dif
 -   Rond. Les bords d\'attaque et de fuite sont arrondis.
 
 <img alt="" src=images/CS_Round.png  style="width:128px;"> 
-*Coupe transversale ronde *
+*Coupe transversale ronde*
 
 -   Profil aérodynamique. Utilise la forme aérodynamique symétrique du [Profil NACA](https://fr.wikipedia.org/wiki/Profil_NACA) avec une épaisseur maximale à 30% de la membrure.
 
 <img alt="" src=images/CS_Airfoil.png  style="width:128px;"> 
-*Coupe transversale de profil aérodynamique *
+*Coupe transversale de profil aérodynamique*
 
 -   Cale. Le bord de fuite de l\'aileron est carré, convergeant vers un point du bord d\'attaque.
 
@@ -57,88 +57,91 @@ La forme en coupe d\'un aileron peut grandement affecter ses performances à dif
 -   Diamant. La forme du losange commence à partir d\'un point sur le bord d\'attaque, directement jusqu\'à l\'épaisseur maximale en un point déterminé par **Length 1** et retourne à un point sur le bord de fuite.
 
 <img alt="" src=images/CS_Diamond.png  style="width:128px;"> 
-*Section transversale en diamant *
+*Section transversale en diamant*
 
--   Cône du bord d\'attaque (LE). Le bord d\'attaque est effilé jusqu\'à un point déterminé par **Length 1**
+-   Cône du bord d\'attaque (LE). Le bord d\'attaque est effilé jusqu\'à un point déterminé par **Length 1**.
 
 <img alt="" src=images/LE_Taper.png  style="width:128px;"> 
 *Coupe transversale conique du bord avant*
 
--   Cône du bord de fuite (TE). Le bord de fuite est effilé jusqu\'à un point déterminé par **Length 1**
+-   Cône du bord de fuite (TE). Le bord de fuite est effilé jusqu\'à un point déterminé par **Length 1**.
 
 <img alt="" src=images/TE_Taper.png  style="width:128px;"> 
 *Coupe transversale effilée du bord arrière*
 
--   Biseau. Le bord avant est effilé jusqu\'à un point déterminé par **Length 1** et le bord arrière est effilé jusqu\'à un point déterminé par **Length 2**
+-   Biseau. Le bord avant est effilé jusqu\'à un point déterminé par **Length 1** et le bord arrière est effilé jusqu\'à un point déterminé par **Length 2**.
 
 <img alt="" src=images/CS_Taper.png  style="width:128px;"> 
 *Section transversale biseautée*
 
-### Attaches à travers le mur (TTW) 
+### Attaches à travers la paroi 
 
-À travers la paroi, les ailerons ajoutent une résistance structurelle en s\'étendant à travers le tube du corps externe jusqu\'à un tube du corps interne tel qu\'un support de moteur. Au lieu de se fixer uniquement à l\'extérieur du tube du corps extérieur, il peut être fixé en plusieurs points. En tant que telle, la hauteur de l\'attache serait la distance entre le diamètre extérieur du tube de corps interne et le diamètre externe du tube de corps externe. Les autres paramètres varient en fonction des besoins.
+Les ailerons à travers la paroi (**Through the Wall = TTW**) ajoutent une résistance structurelle en s\'étendant à travers le tube du corps externe jusqu\'à un tube du corps interne tel qu\'un support de moteur. Au lieu de se fixer uniquement à l\'extérieur du tube du corps extérieur, il peut être fixé en plusieurs points. En tant que telle, la hauteur de l\'attache serait la distance entre le diamètre extérieur du tube de corps interne et le diamètre externe du tube de corps externe. Les autres paramètres varient en fonction des besoins.
+
 ![](images/TTWx4.png ) 
 *4 ailerons TTW fixées à un support du moteur central à l'intérieur du tube du corps externe*
 
 ## Propriétés
 
 
+{{TitleProperty|Fin}}
+
+-    **Fin Type**: Définit la forme de l\'aileron. Pour l\'instant, seuls les ailerons trapézoïdaux sont pris en charge.
+
+-    **Height**: La hauteur de l\'aileron.
+
+-    **Profile**:
+
+-    **Root Chord**: La distance entre le bord d\'attaque et le bord de fuite de l\'aileron à la racine.
+
+-    **Root Cross Section**: La forme de la section transversale de l\'aileron à l\'emplanture, voir [Options](#Options.md).
+
+-    **Root Length 1**: L\'utilisation dépend de **Fin Root Cross Section** et s\'appliquera à une longueur conique ou similaire, voir [Options](#Options.md).
+
+-    **Root Length 2**: L\'utilisation dépend de **Fin Root Cross Section** et s\'appliquera à une longueur conique ou similaire lorsque plusieurs valeurs sont requises, voir [Options](#Options.md).
+
+-    **Root Per Cent**: Exprime les propriétés **Fin Root Length 1** et **Fin Root Length 2** en pourcentage de la **Fin Root Chord**.
+
+-    **Root Thickness**: Epaisseur maximale à la base de l\'aileron
+
+-    **Sweep Angle**: L\'angle de l\'avant de l\'aileron, un avant vertical étant égal à 0 degré. Cette valeur peut être négative. Le réglage de cette valeur entraînera l\'ajustement de **Sweep Length**.
+
+-    **Sweep Length**: La distance entre l\'avant de l\'emplanture de l\'aileron et l\'avant de l\'extrémité de l\'aileron le long de l\'axe x. Cette valeur peut être négative. Cette valeur peut être négative. Si vous définissez cette valeur, **Sweep Angle** sera ajusté.
+
+-    **Tip Chord**: La distance entre le bord d\'attaque et le bord de fuite de l\'aileron à l\'extrémité.
+
+-    **Tip Cross Section**: La forme de la section transversale de l\'aileron à l\'extrémité, voir [Options](#Options.md).
+
+-    **Tip Length 1**: L\'utilisation dépend de la **Fin Tip Cross Section** et s\'applique à une longueur conique ou similaire, voir [Options](#Options.md).
+
+-    **Tip Length 2**: L\'utilisation dépend de la **Fin Tip Cross Section** et s\'appliquera à une longueur conique ou similaire lorsque plusieurs valeurs sont requises, voir [Options](#Options.md).
+
+-    **Tip Per Cent**: Exprime les propriétés **Fin Tip Length 1** et **Fin Tip Length 2** en pourcentage de la **Fin Tip Chord**.
+
+-    **Tip Thickness**: Epaisseur maximale à l\'extrémité de l\'aileron
+
+-    **Ttw**: Vrai lorsqu\'une attache pour les ailerons Through the Wall est requis, voir [Options](#Options.md).
+
+-    **Ttw Height**: Hauteur de l\'attache TTW
+
+-    **Ttw Length**: Longueur de l\'attache TTW
+
+-    **Ttw Offset**: Distance entre l\'avant de l\'aileron et l\'avant de l\'attache TTW.
+
+-    **Ttw Thickness**: Epaisseur de l\'attache TTW
+
+
 {{TitleProperty|Rocket Component}}
 
 Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
 
--    {{PropertyData/fr|Manufacturer}}: Fabricant lorsqu\'il est connu
+-    **Description**: Description du composant
 
--    {{PropertyData/fr|Part Number}}: Numéro de pièce du fabricant
+-    **Manufacturer**: Fabricant lorsqu\'il est connu
 
--    {{PropertyData/fr|Description}}: Description du composant
+-    **Material**: Matériau lorsqu\'il est connu
 
--    {{PropertyData/fr|Material}}: Matériau lorsqu\'il est connu
-
-
-{{TitleProperty|Coiffe}}
-
--    {{PropertyData/fr|Fin Type}}: Définit la forme de l\'aileron. Pour le moment, seules les aileron trapézoïdales sont pris en charge.
-
--    {{PropertyData/fr|Height}}: La hauteur de l\'aileron.
-
--    {{PropertyData/fr|Sweep Length}}: La distance entre l\'avant de la base de l\'aileron et l\'avant de la pointe de l\'aileron le long de l\'axe des x. Cela peut être négatif. Le réglage de cette valeur entraînera l\'ajustement de **Sweep Angle** .
-
--    {{PropertyData/fr|Sweep Angle}}: L\'angle de l\'avant de l\'aileron, avec un front vertical de 0 degré. Cela peut être négatif. Le réglage de cette valeur entraînera l\'ajustement de la **Sweep Length**.
-
--    {{PropertyData/fr|Fin Root Cross Section}}: La forme de la section transversale de l\'aileron à la base, voir [Options](#Options.md)
-
--    {{PropertyData/fr|Fin Root Chord}}: La distance entre les bords d\'attaque et de fuite des ailerons à la base
-
--    {{PropertyData/fr|Fin Root Thickness}}: Épaisseur maximale à la base de l\'aileron
-
--    {{PropertyData/fr|Fin Root Use Percentage}}: Exprime les propriétés **Fin Root Length 1** et **Fin Root Length 2** sous forme de pourcentage de **Fin Root Chord**
-
--    {{PropertyData/fr|Fin Root Length 1}}: L\'utilisation dépend de la **Fin Root Cross Section** et s\'appliquera à une longueur du biseau ou similaire, voir [Options](#Options.md)
-
--    {{PropertyData/fr|Fin Root Length 2}}: L\'utilisation dépend de la **Fin Root Cross Section** et s\'appliquera à une longueur du biseau ou similaire lorsque plusieurs valeurs sont requises, voir [Options](#Options.md)
-
--    {{PropertyData/fr|Fin Tip Cross Section}}: La forme de la section transversale de l\'aileron à l\'extrémité, voir [Options](#Options.md)
-
--    {{PropertyData/fr|Fin Tip Chord}}: La distance entre les bords d\'attaque et de fuite des ailerons à l\'extrémité
-
--    {{PropertyData/fr|Fin Tip Thickness}}: Épaisseur maximale à l\'extrémité de l\'aileron
-
--    {{PropertyData/fr|Fin Tip Use Percentage}}: Exprime les propriétés **Fin Tip Length 1** et **Fin Tip Length 2** sous forme de pourcentage de la **Fin Tip Chord**
-
--    {{PropertyData/fr|Fin Tip Length 1}}: L\'utilisation dépend de la **Fin Tip Cross Section** et s\'appliquera à une longueur du biseau ou similaire, voir [Options](#Options.md)
-
--    {{PropertyData/fr|Fin Tip Length 2}}: L\'utilisation dépend de la **Fin Tip Cross Section** et s\'appliquera à une longueur du biseau ou similaire lorsque plusieurs valeurs sont requises, voir [Options](#Options.md)
-
--    {{PropertyData/fr|TTW Tab}}: Vrai lorsqu\'une attache pour les ailettes à travers la paroi est requise, voir [Options](#Options.md)
-
--    {{PropertyData/fr|TTW Offset}}: Distance entre l\'avant de l\'aileron et l\'avant de l\'attache TTW
-
--    {{PropertyData/fr|TTW Length}}: Longueur de l\'attache TTW
-
--    {{PropertyData/fr|TTW Height}}: Hauteur de l\'attache TTW
-
--    {{PropertyData/fr|TTW Thickness}}: Epaisseur de l\'attache TTW
+-    **Part Number**: Numéro de pièce du fabricant
 
 ## Script
 

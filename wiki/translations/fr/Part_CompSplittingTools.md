@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part CompSplittingTools
    Name/fr:Part Outils de division de formes
-   MenuLocation:Pièce → Scinder
+   MenuLocation:Part → Scinder
    Workbenches:[Part](Part_Workbench/fr.md)
 ---
 

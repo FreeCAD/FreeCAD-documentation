@@ -25,9 +25,9 @@ Der Befehl <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **
     -   Das Tastenkürzel: **U**
 3.  Einstellung der Abwicklungseinstellungen im [Aufgabenbereich](Task_panel/de.md) durch:
     -   Auswahl der Darstellungsoptionen der Abwicklungsskizze.
-    -   Auswahl der Regeln für die Abwicklungsableitung mit [k-Faktor](https://github.com/shaise/FreeCAD_SheetMetal#terminology):
+    -   Auswahl der Regeln für die Abwicklungsableitung mit k-Faktor:
         - Verwendung eines [Material-Datenblatts](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet).
-        - Eingabe des [k-Faktors](https://github.com/shaise/FreeCAD_SheetMetal#terminology) von Hand und die Auswahl ob der Berechnung eine ANSI- oder DIN-Norm zugrunde liegt.
+        - Eingabe des [k-Faktors](https://github.com/shaise/FreeCAD_SheetMetal#terminology) von Hand und die Auswahl ob der Berechnung eine [ANSI- oder DIN-Norm](https://de.wikipedia.org/wiki/Biegeverkürzung#Korrektur_durch_den_sog._k-Faktor) zugrunde liegt.
 
 ## Eigenschaften
 

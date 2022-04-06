@@ -107,6 +107,11 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 
 -    **Count Broken**: The number of broken blocks (read-only)
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Программирование
 
 
@@ -114,7 +119,18 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 
 [Arch API](Arch_API/ru.md) и [Основы написания скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-Инструмент «Стена» может использоваться в [макросах](Macros/ru.md) и на консоли [Python](Python.md) с помощью следующей функции: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Инструмент «Стена» может использоваться в [макросах](Macros/ru.md) и на консоли [Python](Python.md) с помощью следующей функции:
+
+
+</div>
+
+
 ```python
 Wall = makeWall(baseobj=None, length=None, width=None, height=None, align="Center", face=None, name="Wall")
 ```

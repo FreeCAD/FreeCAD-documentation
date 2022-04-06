@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign ShapeBinder
    Name/fr:PartDesign Forme liée
-   MenuLocation:Conception de pièces → Créer une forme liée
+   MenuLocation:Part Design → Créer une forme liée
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md), [PartDesign Clone](PartDesign_Clone/fr.md)
@@ -12,101 +12,89 @@
 
 ## Description
 
-Crée un datum **Forme liée** à l\'intérieur du corps actif. Une Forme liée est un objet de référence lié à des arêtes ou des faces provenant d\'un autre corps. Elle peut également être utilisée pour relier une esquisse d\'un corps à un autre corps. L\'objet shape binder s\'affiche en jaune translucide dans la [vue 3D](3D_view/fr.md).
+L\'outil **PartDesign Forme liée** crée une forme liante référençant la géométrie d\'un seul objet parent. Une Forme liée est utilisée à l\'intérieur d\'un [PartDesign Corps](PartDesign_Body/fr.md) pour référencer une géométrie extérieure au corps. L\'utilisation d\'une géométrie externe directement dans un corps n\'est pas autorisée et entraînera des erreurs hors champ.
 
-Des exemples d\'utilisation seraient de construire une boîte avec un couvercle dans deux corps différents ou de faire des trous alignés entre différents corps.
+Une Forme liée suivra le placement relatif de la géométrie référencée, ce qui est utile dans le contexte de la création d\'[assemblages](Assembly/fr.md), si sa propriété **Trace Support** est mise à {{True}}. Consultez l\'[Exemple](#Exemple.md) ci-dessous pour comprendre comment cela fonctionne.
 
-<img alt="" src=images/Shapebinder_tree.png ) ![](images/Shapebinder_flow.png  style="width:600px;"> 
-*Deux formes de Body.Pad004 sont sélectionnées et leurs objets de référence (datum) sont désormais disponibles dans Body001.Sketch005 en tant que géométrie externe via Body001.ShapeBinder.*
+La géométrie référencée peut être soit un objet unique (par exemple un [Part Cube](Part_Box/fr.md), un [PartDesign Corps](PartDesign_Body/fr.md), ou une [PartDesign Esquisse](PartDesign_NewSketch/fr.md) ou une [PartDesign Fonction](PartDesign_Feature/fr.md) à l\'intérieur d\'un corps), soit un ou plusieurs sous-éléments (faces, arêtes ou sommets) appartenant au même objet parent. Le choix de la géométrie à sélectionner dépend de l\'utilisation prévue de la Forme liée. Pour une opération booléenne, vous devrez sélectionner un solide. Pour une opération de protrusion, une face ou une esquisse peut être utilisée. Et pour la géométrie externe dans une esquisse, ou pour attacher une esquisse, toute combinaison de sous-éléments peut être appropriée. La géométrie référencée peut également appartenir au corps dans lequelle la Forme liée est imbriquée.
+
+<img alt="" src=images/Shapebinder_flow.png  style="width:600px;"> 
+*À partir de deux faces sélectionnées, une Forme liée est créée dans un corps encore vide. La géométrie de la Forme liée peut ensuite être utilisée comme géométrie externe dans une esquisse de ce corps.*
 
 ## Utilisation
 
-1.  [Activer le corps](PartDesign_Body/fr#Statut_actif.md), qui doit recevoir l\'objet Forme liée (shape binder).
-2.  Appuyez sur le bouton **<img src="images/PartDesign_ShapeBinder.svg" width=16px> [Créer une forme liée](PartDesign_ShapeBinder/fr.md)**.
-3.  Appuyez sur le bouton **Objet** ou sur le bouton **Ajouter une géométrie**.
-4.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet ou la géométrie à copier. L\'option *Objet* sélectionne la forme entière ; l\'option *Ajouter une géométrie* sélectionne l\'élément géométrique en surbrillance (par exemple, un sommet, une arête ou une face).
-5.  Pour supprimer la géométrie, appuyez sur le bouton **Supprimer la géométrie**, puis sélectionnez la géométrie dans la [vue 3D](3D_view/fr.md).
-6.  Vous pouvez également sélectionner des éléments géométriques dans la [vue 3D](3D_view/fr.md) avant de lancer l\'outil.
-7.  Appuyez sur **OK**.
-
-Pour annuler une action qui a été lancée à l\'aide d\'un bouton, appuyez à nouveau sur le même bouton.
-
-**Exemple**
-
-:   L\'exemple utilise la fonctionnalité ShapeBinder pour créer un trou (avec ou sans filetage) à travers plusieurs corps. Normalement, la fonction Trou de l'atelier Part Design est limitée à un seul corps. L\'exemple utilise deux cubes qui se font face mais désalignés de manière arbitraire. Les trous sont créés avec des esquisses contenant un cercle pour chaque trou (le diamètre est ignoré par la fonction trou). Lorsque vous copiez l\'esquisse sur l\'autre cube, celle-ci se trouve à la même position dans le système de coordonnées du cube local. Sur l\'image, ceci est indiqué par le cercle blanc sur le cube arrière. Ce n\'est pas ce que nous voulons, car le trou situé à cette position ne serait pas aligné sur le trou du cube avant.
-
-
-
-
-
-:   
-
-    :   ![](images/ShapeBinderThroughHole.png )
-    :   *Exemple de configuration pour montrer comment faire des trous à travers différents corps. Le cercle blanc montre que copier des esquisses ne suffit pas.*
-
-Voici comment vous utilisez la fonctionnalité ShapeBinder pour y parvenir:
-
-1.  Concevez un objet selon l\'image ci-dessus. Si vous utilisez les cubes de l\'[Atelier Part](Part_Workbench/fr.md), rappelez-vous que vous devez les placer dans un conteneur \"body\". Chacun dans un conteneur de corps unique, sinon les fonctions de l\'[Atelier PartDesign](PartDesign_Workbench/fr.md) ne fonctionneraient pas. Si vous les construisez à partir d\'esquisses, le système doit créer des conteneurs de corps par défaut.
-
-
-
-
-1.  Sélectionnez l\'onglet de la boîte de dialogue Propriétés puis Données pour déplacer le deuxième cube afin qu\'il touche le premier cube grâce à un déplacement latéral.
-2.  Sélectionnez l\'atelier PartDesign
-3.  Créez une esquisse sur la face avant du premier cube et placez un cercle n\'importe où, puis fermez l\'esquisse.
-4.  Sélectionnez l\'esquisse dans l\'arborescence et appuyez sur la touche de fonction [PartDesign Perçage](PartDesign_Hole/fr.md). Auparavant, assurez-vous que le premier corps est le [corps actif](PartDesign_Body/fr#Statut_actif.md) (double-clic).
-5.  Sélectionnez un trou de taille appropriée. L\'image ci-dessus avait également sélectionné un contre-alésage. Fermez la fonction [Perçage](PartDesign_Hole/fr.md).
-
-    :   L\'image doit maintenant ressembler à celle ci-dessus. Lorsque vous masquez le premier cube (sélectionnez et appuyez sur espace), vous constatez que le trou n'atteint pas le deuxième cube. Ce ne sera pas le cas, même si vous sélectionnez \"A travers tout\" ou ou lorsque vous entrez une très grande valeur pour la distance dans la boîte de dialogue [PartDesign Perçage](PartDesign_Hole/fr.md). Le dialogue de trou est toujours limité à un seul corps.
-    :   Voici où notre ShapeBinder entre en jeu.
-6.  Sélectionnez d\'abord le cube arrière. C\'est la cible où le ShapeBinder sera ajouté. Il doit être [activé](PartDesign_Body/fr#Statut_actif.md) auparavant, donc assurez-vous qu\'il a été double-cliqué.
-7.  Dans l\'arborescence, sélectionnez l\'esquisse que nous avons utilisée pour le trou. Il est important de ne pas activer le premier corps.
-8.  Sélectionnez la fonction shapeBinder.
-
-    :   Un dialogue devrait s\'ouvrir. Dans la ligne \"Objet\", le nom de notre esquisse doit être visible. Si vous avez sélectionné la fonction sans sélectionner l\'esquisse, vous pouvez appuyer sur \"Objet\" puis sélectionner l\'esquisse dans la liste. Il est recommandé de le sélectionner d\'abord pour obtenir le bon choix, surtout si vous avez plusieurs skeches avec les noms générés automatiquement Sketch001, .. \"Ajouter une géométrie\" ne nous est pas utile, car nous voulons sélectionner l\'esquisse entière. \"AddGeometry\" n\'est utilisé que si seules les pièces doivent être sélectionnées.
-9.  Appuyez sur **OK** pour fermer le dialogue et vérifier qu\'un nouvel élément a été ajouté à l\'arborescence du deuxième cube.
-
-    :   Lorsque vous basculez la visibilité du ShapeBinder, celle-ci est affichée en jaune dans la [vue 3D](3D_view/fr.md). Cependant, sa position est incorrecte, tout comme le cercle blanc dans l\'image est en haut. Cela est dû au paramètre par défaut du paramètre Trace.
-10. Dans PropertyView de ShapeBinder sous l\'onglet Données, définissez le paramètre **Trace Support** sur true. La valeur par défaut était false.
-
-    :   Avec **Trace Support**, le ShapeBinder n\'est pas affecté par les transformations locales du corps cible, par exemple nos déplacements. La forme reste exactement la même que celle de l'objet original. Essayez de déplacer l\'objet avant et vous pouvez voir que ShapeBinder suit toujours à la nouvelle position.
-    :   Malheureusement, nous ne pouvons pas sélectionner ShapeBinder pour un [PartDesign Perçage](PartDesign_Hole/fr.md). Par conséquent, nous créons une esquisse locale et l'utilisons pour notre trou dans le deuxième cube.
-11. Sélectionnez la face avant du cube arrière et créez une nouvelle esquisse (cliquez sur OK pour la suggestion dans la boîte de dialogue).
-12. Rendre toute la géométrie invisible et le ShapeBinder visible. Vous pouvez maintenant utiliser la fonction de géométrie externe et sélectionner le cercle dans le classeur de formes. Nous devons centrer le point de ce cercle.
-13. Crée un nouveau cercle et place-le au centre du cercle ShapeBinders. Le rayon n\'est pas important. La fonction [Perçage](PartDesign_Hole/fr.md) utilise uniquement les points centraux des cercles (remarque: les points simples sont ignorés par la fonction Perçage, nous devons utiliser des cercles)
-14. Fermez l\'esquisse et cliquez sur [PartDesign Perçage](PartDesign_Hole/fr.md). Définissez la boîte de dialogue sur les mêmes valeurs que la mise en attente initiale et appuyez sur **OK**.
-
-**Terminé.**
-
-:   Maintenant, vous avez deux trous liés dans deux corps différents. Si vous modifiez la géométrie ou la position des trous, les deux trous s\'adapteront. Ce n\'est que lorsque vous ajouterez un nouveau trou que vous devez mettre à jour l\'esquisse dans le deuxième cube pour le deuxième trou.
-
-
-
-
-
-:   Remarques:
-:   il existe un autre moyen de créer un ShapeBinder: lorsque le cube arrière est activé, cliquez sur la face avant du cube devant et créez une nouvelle esquisse. Une boîte de dialogue apparaît dans laquelle vous sélectionnez \"Dependent sketch\". Cela va réellement créer une forme liée. Vous pouvez voir le paramètre **Trace Support** dans la fenêtre de propriété. C\'est quelques clics de moins que notre procédure.
-:   notez également que l\'utilisation de ShapeBinder avec Sketches ne représente qu\'un sous-ensemble de ses fonctionnalités. Il est également possible d\'utiliser des parties de la géométrie 3D, comme dans l\'exemple ci-dessus.
+1.  [Activer le corps](PartDesign_Body/fr#Statut_actif.md), la Forme liée doit être imbriquée dedans.
+2.  Sélectionnez éventuellement un seul objet, ou un ou plusieurs sous-éléments appartenant au même objet parent. Les sous-éléments ne peuvent être sélectionnés que dans la [Vue 3D](3D_view/fr.md).
+3.  Il existe plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/PartDesign_ShapeBinder.svg" width=16px> [Créer une forme liée ](PartDesign_ShapeBinder/fr.md)**.
+    -   Sélectionnez l\'option **Part Design → <img src="images/PartDesign_ShapeBinder.svg" width=16px> Créer une forme liée ** dans le menu.
+4.  Le panneau de tâches **Paramètres de la forme liée** s\'ouvre.
+5.  Sélectionnez éventuellement un objet, ce n\'est pas nécessaire si vous voulez sélectionner des sous-éléments :
+    1.  Appuyez sur le bouton **Objet**.
+    2.  Sélectionnez un objet dans la [Vue en arborescence](Tree_view/fr.md) ou la [Vue 3D](3D_view/fr.md).
+    3.  Tous les sous-éléments précédemment sélectionnés seront supprimés.
+    4.  Si un corps est sélectionné ici, il sera impossible de sélectionner des sous-éléments car ils appartiennent à un objet différent, à savoir le [Tip (fonction résultante)](PartDesign_Body/fr#Tip_.28fonction_r.C3.A9sultante.29.md) du corps.
+6.  Vous pouvez sélectionner des sous-éléments :
+    1.  Appuyez sur le bouton **Ajouter une géométrie**.
+    2.  Sélectionnez un sous-élément dans la [Vue 3D](3D_view/fr.md).
+    3.  Vous devez appuyer sur le bouton **Ajouter une géométrie** pour chaque sous-élément que vous souhaitez ajouter.
+    4.  Seuls les sous-éléments appartenant au même objet parent peuvent être sélectionnés. Si nécessaire, utilisez le bouton **Objet** pour sélectionner un autre objet parent.
+7.  En option, vous pouvez supprimer des sous-éléments :
+    1.  Appuyez sur le bouton **Supprimer une géométrie**.
+    2.  Sélectionnez un sous-élément dans la [Vue 3D](3D_view/fr.md).
+    3.  Vous devez appuyer sur le bouton **Supprimer une géométrie** pour chaque sous-élément que vous souhaitez supprimer.
+    4.  Appuyez sur le bouton **OK**.
 
 ## Options
 
-Double-cliquez sur l\'étiquette de la Référence liée à une forme dans la [vue en arborescence](Tree_view/fr.md) du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour éditer ses paramètres.
+Pour modifier un classeur de formes, double-cliquez dessus dans l\'arborescence, ou cliquez dessus avec le bouton droit de la souris et sélectionnez **Modifier la forme liée** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md)
+
+## Remarques
+
+-   Une Forme liée peut être retirée du corps dans lequel elle est imbriquée et déposée sur le nœud de document <img alt="" src=images/Document.svg  style="width:16px;"> dans l\'arborescence. Une telle Forme liée non imbriquée peut être utilisée comme une [fonction de base](PartDesign_Body/fr#Base_Feature.md) pour un nouveau corps.
+-   Une Forme liée créée à partir d\'une esquisse peut avoir une \"direction d\'outil\" opposée. Par exemple, une [Protrusion](PartDesign_Pad/fr.md) créée à partir de l\'esquisse peut s\'étendre dans la direction +Y, tandis qu\'une [Protrusion](PartDesign_Pad/fr.md), ayant les mêmes propriétés, créé à partir d\'une Forme liée s\'étend dans la direction -Y. L\'activation de la propriété (ou de la case à cocher) **Reversed** résoudra ce problème.
+
+## PartDesign Sous forme liée vs. PartDesign Forme liée 
+
+Voir [PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr#PartDesign_Sous_forme_li.C3.A9e_vs._PartDesign_Forme_li.C3.A9e.md).
 
 ## Propriétés
 
--    **Label**: nom donné à l\'objet, ce nom peut être changé à la convenance.
+-    **Support|LinkSubListGlobal**: support pour la géométrie.
 
--    **Trace Support**: valeur par défaut est false. Lorsqu\'elle est à vrai, la Forme liée (Shapebinder) respecte les placements relatifs des pièces et des corps (en manipulant les valeurs de sa propriété cachée **Placement**). Voir l\'exemple ci-dessus pour savoir comment cela est utilisé et fonctionne.
+-    **Trace Support|Bool**: valeur par défaut est {{False}}. Lorsque {{True}}, la forme liée respecte les placements relatifs des pièces et des corps (en manipulant les valeurs de sa propriété cachée **Placement**).
 
-## Limitations
+## Exemple
 
--   La sélection multiple n\'est pas supportée. Les boutons Ajouter une géométrie et Supprimer une géométrie doivent être activés pour chaque sélection.
-    -   Il y a une solution de contournement pour effectuer une sélection multiple : si vous sélectionnez tous les éléments désirés *avant* de créer la forme liée, ils apparaissent dans la liste initiale.
--   Une forme liée ne peut pas servir de fonction de base.
--   La géométrie sélectionnée sur un corps doit être contiguë.
--   Si le corps à copier est sélectionné avant de lancer la commande, ou si le bouton **Objet** est utilisé, il n\'est plus possible de sélectionner uniquement des éléments de géométrie spécifiques.
--   Le placement relatif du corps cible et du corps référencé n\'est pas pris en compte. L\'élément lié à la forme adoptera les mêmes coordonnées internes que le corps référencé.
-    -   Utilisez la propriété **Trace Support** pour modifier ce comportement.
+Cet exemple utilise la fonction Forme liée pour réaliser un trou (avec ou sans filetage) à travers plusieurs corps. Normalement, la fonction Trou de l\'atelier Part Design est limitée à un seul corps. L\'exemple utilise deux cubes se faisant face mais désalignés de manière arbitraire. Les trous sont créés à l\'aide d\'esquisses contenant un cercle pour chaque trou (le diamètre est ignoré par la fonction de trou). Lorsque vous copiez l\'esquisse sur l\'autre cube, elle sera à la même position dans le système de coordonnées local du cube. Dans l\'image, cela est illustré par le cercle blanc sur le cube arrière. Ce n\'est pas ce que nous voulons, car le trou à cette position ne serait pas aligné avec le trou du cube avant.
+
+![](images/ShapeBinderThroughHole.png ) 
+*Exemple de montage pour montrer comment faire des trous à travers différents corps. Le cercle blanc montre qu'il ne suffit pas de copier les esquisses*
+
+Voici comment utiliser la fonction Forme liée pour y parvenir :
+
+1.  Préparez un montage comme dans l\'image ci-dessus. Si vous utilisez les cubes de l\'[atelier Part](Part_Workbench/fr.md), n\'oubliez pas que vous devez les placer dans un conteneur de corps. Chacun d\'entre eux doit être placé dans un seul conteneur de corps. Sinon, les fonctions de [PartDesign](PartDesign_Workbench/fr.md) ne fonctionneraient pas. Si vous les construisez à partir d\'esquisses, le système devrait créer des conteneurs de corps par défaut.
+2.  Dans l\'[Éditeur de propriétés](Property_editor/fr.md), modifiez le placement du deuxième cube de sorte qu\'il touche le premier cube avec un déplacement latéral.
+3.  Sélectionnez l\'atelier PartDesign
+4.  Créez une esquisse sur la face avant du premier cube, placez un cercle n\'importe où et fermez l\'esquisse.
+5.  Sélectionnez l\'esquisse dans l\'arbre et appuyez sur le bouton **<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign Perçage](PartDesign_Hole/fr.md)** bouton. Avant de s\'assurer que le premier corps est le [corps actif](PartDesign_Body/fr#Statut_actif.md). (double-cliquez).
+6.  Sélectionnez un trou de taille appropriée. Dans l\'image ci-dessus, le contre-trou a également été sélectionné. Fermez la fonction [Perçage](PartDesign_Hole/fr.md).
+
+    :   L\'image devrait maintenant ressembler à celle ci-dessus. Lorsque vous masquez le premier cube (sélectionnez et appuyez sur espace), vous pouvez voir que le trou n\'atteint pas le deuxième cube. Il ne le fera pas, même si vous sélectionnez **A travers tout**, ou si vous entrez une distance vraiment importante dans le panneau de tâches de [Perçage](PartDesign_Hole/fr.md). Le trou est toujours limité à un seul corps.
+    :   C\'est ici que notre Forme liée entre en jeu.
+7.  Tout d\'abord, sélectionnez le cube arrière. C\'est la cible où la Forme liée sera ajoutée. Elle doit être [activée](PartDesign_Body/fr#Statut_actif.md) avant, donc assurez-vous qu\'elle a été double-cliquée.
+8.  Dans l\'arborescence, sélectionnez l\'esquisse que nous avons utilisée pour le trou. Il est important de ne pas activer le premier corps.
+9.  Sélectionnez la fonction Forme liée.
+
+    :   Un panneau de tâches devrait s\'ouvrir. Dans la ligne **Objet**, le nom de notre esquisse devrait être visible. Si vous aviez sélectionné la fonction sans sélectionner l\'esquisse, vous pourriez appuyer sur **Objet** et sélectionner ensuite l\'esquisse dans la liste. Il est recommandé de la sélectionner en premier afin d\'obtenir la bonne, surtout si vous avez plusieurs esquisses avec des noms générés automatiquement Sketch001,\... La fonction **Ajouter une géométrie** n\'est pas utile pour nous, car nous voulons sélectionner toute l\'esquisse. L\'option **Ajouter une géométrie** est utilisée si seules certaines parties doivent être sélectionnées.
+10. Appuyez sur **OK** pour fermer le panneau des tâches et vérifier qu\'un nouvel élément a été ajouté à l\'arbre du second cube.
+
+    :   Lorsque vous basculez la visibilité de la Forme liée, elle apparaît en jaune dans la [Vue 3D](3D_view/fr.md). Cependant, elle est sur la mauvaise position, tout comme le cercle blanc dans l\'image ci-dessus. Cela est dû au réglage par défaut du paramètre Trace.
+11. Dans la PropertyView de la Forme liée, dans l\'onglet Data, réglez le paramètre **Trace Support** sur true. La valeur par défaut était false.
+
+    :   Avec **Trace Support** vrai, la Forme liée n\'est pas affectée par les transformations locales du corps cible, par exemple nos translations. La forme reste exactement à l\'endroit où se trouvait la forme originale de l\'objet frontal. Essayez de déplacer l\'objet frontal et vous pourrez constater que la Forme liée suit toujours la nouvelle position.
+12. Sélectionnez la Forme liée dans l\'arborescence et appuyez sur le bouton **<img src="images/PartDesign_Hole.svg" width=16px> [PartDesign Perçage](PartDesign_Hole/fr.md)**. Si vous entrez les mêmes valeurs que pour le trou initial, vous remarquerez qu\'aucun trou n\'est créé dans le deuxième cube. Cela est dû au fait que, dans certains cas, la Forme liée a une \" direction d\'outil \" opposée à celle de l\'esquisse référencée. Pour résoudre ce problème, cochez la case Inverser. Appuyez sur **OK** pour terminer.
+13. Vous avez maintenant des trous liés dans deux corps différents. Si vous modifiez la position du cercle dans l\'esquisse, les deux trous s\'adapteront. Vous pouvez même ajouter de nouveaux cercles dans l\'esquisse pour créer d\'autres trous liés.
 
 
 

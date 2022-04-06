@@ -91,7 +91,6 @@ Pour traduire la version de développement en cours en un numéro de révision (
 snap info freecad-ppd <nowiki>|</nowiki>\
 grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
-cut -d'~' -f2 <nowiki>|</nowiki>\
 xargs -I{} git rev-list --count {}
 }}
 
@@ -106,7 +105,6 @@ Pour aller plus loin, si vous voulez un bref résumé des commits entre le snap 
 snap info freecad-ppd <nowiki>|</nowiki>\
 grep -e '^\s\+latest/edge' <nowiki>|</nowiki>\
 awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
-cut -d'~' -f2 <nowiki>|</nowiki>\
 xargs -I{} git log --oneline --ancestry-path {}..HEAD
 }}
 

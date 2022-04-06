@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Torus
    Name/fr:Part Tore
-   MenuLocation:Pièce → Primitives → Tore
+   MenuLocation:Part → Primitives → Tore
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---

@@ -56,9 +56,9 @@ Scaricare l\'installatore **graphviz-2.xx.msi** dalla pagina [Graphviz Download]
 </div>
 
 
-```python
+{{Code|lang=text|code=
 brew install graphviz
-```
+}}
 
 
 <div class="mw-translate-fuzzy">
@@ -71,29 +71,52 @@ Quando si ottiene la finestra di selezione dei file utilizzare i tasti Cmd+Shift
 </div>
 
 
-```python
+{{Code|lang=text|code=
 /usr/local/bin
-```
+}}
+
+or
+
+
+{{Code|lang=text|code=
+/opt/homebrew/bin
+}}
 
 poi confermare il campo di immissione e la finestra di dialogo di selezione dei file.
 
-Nel caso in cui i binari di Graphviz non siano installati nella posizione standard, cercare di trovare il programma con il comando 
-```python
+Nel caso in cui i binari di Graphviz non siano installati nella posizione standard, cercare di trovare il programma con il comando
+
+
+{{Code|lang=text|code=
 type dot
-``` Uscirà qualcosa di simile 
-```python
+}}
+
+Uscirà qualcosa di simile
+
+
+{{Code|lang=text|code=
 dot is /usr/local/bin/dot
-``` Quindi si può dire a FreeCAD di cercare in quella directory.
+}}
+
+Quindi si può dire a FreeCAD di cercare in quella directory.
 
 ### Linux
 
-Sulla maggior parte delle distribuzioni Linux (Debian/Ubuntu, Fedora, OpenSUSE), è sufficiente installare il pacchetto graphviz dai repository. Nel caso in cui i binari di Graphviz non siano installati nella posizione standard, cercare di trovare il programma con il comando: 
-```python
+Sulla maggior parte delle distribuzioni Linux (Debian/Ubuntu, Fedora, OpenSUSE), è sufficiente installare il pacchetto graphviz dai repository. Nel caso in cui i binari di Graphviz non siano installati nella posizione standard, cercare di trovare il programma con il comando:
+
+
+{{Code|lang=text|code=
 type dot
-``` Può produrre qualcosa di simile 
-```python
+}}
+
+Può produrre qualcosa di simile
+
+
+{{Code|lang=text|code=
 dot is /usr/local/bin/dot
-``` Quindi si può dire a FreeCAD di cercare in quella directory.
+}}
+
+Quindi si può dire a FreeCAD di cercare in quella directory.
 
 ## Utilizzo
 

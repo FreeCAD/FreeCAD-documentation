@@ -6,9 +6,15 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD 0.17 was released on 06 April, 2018, get it from the [Download](Download.md) page. This is a summary of the most interesting changes. The complete list of changes can be found in the [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73).
 
 Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_notes.md).
+
+
+</div>
 
 <img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
 *Garden Railway Coach O&K (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*

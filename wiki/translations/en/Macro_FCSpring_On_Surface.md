@@ -2,18 +2,18 @@
 {{Macro
 |Name=Macro FCSpring On Surface
 |Icon=FCSpring_On_Surface.png
-|Description=This macro creates a helix (or spring) around a solid object whatever its shape, the helix follows the entire surface of the object (Python2 is request)<br />Download the [https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png toolBar icon]
+|Description=This macro creates a helix (or spring) around a solid object whatever its shape, the helix follows the entire surface of the object (Python2 is required)<br>Download the [https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png toolBar icon]
 |Author=Mario52
 |Version=00.00
 |Date=2019/12/20
-|Download=ToolBar icon [https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png the Icons]
+|Download=[https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png ToolBar icon]
 |FCVersion=0.18 and above
 |SeeAlso=[Macro FCSpring Helix Variable](Macro_FCSpring_Helix_Variable.md) [<img src=images/FCSpring_Helix_Variable.png style="width:24px">
 }}
 
 ## Description
 
-This macro creates a helix around a solid object whatever its shape, the helix follows the entire surface of the object. (Python2 is request)
+This macro creates a helix around a solid object whatever its shape, the helix follows the entire surface of the object. (Python2 is required).
 
 <img alt="" src=images/FCSpring_On_Surface_00.png  style="width:480px;">
 
@@ -21,7 +21,7 @@ This macro creates a helix around a solid object whatever its shape, the helix f
 
 Select the object (solid), the macro calculate by default value:
 
--   The height value of the BoundBox of the object the X BounBox axis the Y value of the BoundBox axis Z the base of the object.
+-   The value of the height of the BoundBox of the object, the X value of the center of the BoundBox, the Y value of the center of the BoundBox, and the Z value of the base of the BoundBox.
 
 ![](images/FCSpring_On_Surface_02.png )
 
@@ -35,7 +35,7 @@ Select the object (solid), the macro calculate by default value:
 
 -   **X :** The value X. If the object is offset, the X BoundBox center axis value is detected and used by default.
 -   **Y :** The value Y. If the object is offset, the Y BoundBox center axis value is detected and used by default.
--   **Z :** The value Z. If the object is offset, the Y BoundBox center axis value is detected and used by default.
+-   **Z :** The value Z. The Z of the base of the BoundBox is detected and used by default.
 
 **Options:**
 
@@ -53,7 +53,7 @@ Select the object (solid), the macro calculate by default value:
 
 ## Script
 
-![](images/FCSpring_On_Surface.png ) ToolBar icon\]
+ToolBar icon ![](images/FCSpring_On_Surface.png )
 
 **Macro\_FCSpring\_On\_Surface.FCMacro**
 

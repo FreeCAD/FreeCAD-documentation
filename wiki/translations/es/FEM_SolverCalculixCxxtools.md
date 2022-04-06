@@ -56,15 +56,15 @@ CalculiXccxTools permite usar el solucionador [CalculiX](http://dhondt.de/). Pue
 
 </div>
 
-1.  Optionally set data properties of the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
-2.  Double click on the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
-3.  Select type of the analysis
-4.  Click **Write .inp file**
-5.  Click **Run CalculiX**
-
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 Al usar **Edit.inp file** puede mostrar y editar el archivo de entrada de CalculiX manualmente antes de ejecutar el análisis. En este caso, puede ser útil usar el parámetro \"Split Input Writer = true\".
+
+
+</div>
 
 ## Propiedades
 

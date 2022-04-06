@@ -40,7 +40,7 @@
 
 </div>
 
-The **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearPattern'''** tool creates evenly spaced copies of a feature in a linear direction.
+The **LinearPattern** tool creates evenly spaced copies of a feature along a straight line or edge.
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -70,7 +70,7 @@ To add or remove features from an existing pattern:
 
 ## Options
 
-![LinearPattern parameters in v0.16 and below.](images/Linearpattern_parameters.png ) ![LinearPattern parameters in v0.17 and above.](images/Linearpattern_parameters_v017.png )
+![LinearPattern parameters](images/Linearpattern_parameters_v017.png )
 
 ### Direction
 
@@ -86,14 +86,11 @@ Uses the vertical axis of the sketch for direction.
 
 #### Normal sketch axis 
 
-
-<small>(v0.17)</small> 
-
 Uses the normal axis of the sketch for direction.
 
 #### Select reference\... 
 
-Allows you to select either a DatumLine or an edge of an object or a line of a sketch to use for direction.
+Allows you to select a DatumLine, a straight edge from an object or a line from a sketch to use for direction.
 
 #### Custom Sketch Axis 
 
@@ -101,10 +98,7 @@ If the sketch which defines the feature to be patterned also contains a construc
 
 #### Base (X/Y/Z) axis 
 
-
-<small>(v0.17)</small> 
-
-Select one of the Body Origin\'s standard axis (X, Y or Z) as direction. 
+Select one of the Body Origin\'s standard axis (X, Y or Z) as direction.
 
 ## Limitations
 

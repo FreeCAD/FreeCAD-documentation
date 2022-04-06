@@ -10,7 +10,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearesMuster'''** Werkzeug erzeugt gleichmäßig verteilte Kopien eines Formelements in einer linearen Richtung.
+
+
+</div>
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -40,7 +46,13 @@ Zum Hinzufügen oder Entfernen von Formelementen zu einem bestehenden Muster:
 
 ## Optionen
 
+
+<div class="mw-translate-fuzzy">
+
 ![Lineares Muster Parameters in v0.16 und davor.](images/Linearpattern_parameters.png ) ![Lineares Muster Parameter in v0.17 und höher.](images/Linearpattern_parameters_v017.png )
+
+
+</div>
 
 ### Richtung
 
@@ -57,13 +69,25 @@ Verwendet die vertikale Skizzenachse für die Richtung.
 #### Flächennormale Skizzenachse 
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{VersionPlus/de|0.17}}
 
 Verwendet die Flächennormale Skizzenachse für die Richtung.
 
+
+</div>
+
 #### Referenz auswählen\... 
 
+
+<div class="mw-translate-fuzzy">
+
 Ermöglicht entweder eine Bezugslinie (DatumLine) oder eine Kante eines Objekts oder eine Linie einer Skizze als Richtungsangabe zu verwenden.
+
+
+</div>
 
 #### Angepasste Skizzenachse 
 
@@ -72,9 +96,15 @@ Wenn die Skizze für das zu wiederholende Muster Konstruktionslinien besitzen, w
 #### Basis (X/Y/Z) Achse 
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{VersionPlus/de|0.17}}
 
 Wähle eine der Standardachsen des Körperursprungs (X, Y oder Z) als Richtung. 
+
+
+</div>
 
 ## Einschränkungen
 

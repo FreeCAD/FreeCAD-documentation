@@ -7,10 +7,22 @@
 
 Der <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Arbeitsbereich Verbindungselemente](Fasteners_Workbench/de.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md), der Bauteilen bzw. Baugruppen unterschiedliche Verbindungselemente hinzufügen kann.
 
-![](images/Fasteners_toolbars.png ) 
+![](images/Fasteners_toolbars.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Das Standardlayout des Arbeitsbereichs mit zwei Werkzeugleisten.<br> Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole.<br> Verbindungselemente mit Zollmaßen haben türkisfarbene Symbole.*
 
+
+</div>
+
 ## Einrichtung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Arbeitsbereich Verbindungselemente über den [Addon-Manager](Std_AddonMgr/de.md) installieren. Zur manuellen Installation siehe: [Weitere Arbeitsbereiche installieren](Installing_more_workbenches/de.md).
 2.  FreeCAD neu starten.
@@ -42,37 +54,40 @@ Der <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [A
 
     3.  FreeCAD neu starten.
 
+
+</div>
+
 ## Anwendung
 
-Fasteners can be attached or unattached. Attached fasteners have a **base Object**, a circular edge, and their **Placement** is dynamically linked to that object. The <img alt="" src=images/Fasteners_Move.svg  style="width:16px;"> [Fasteners Move](Fasteners_Move.md) command can be used to attach or detach a fastener.
+Verbindungselemente können zugeordnet oder lose sein. Zugeordnete Verbindungselemente haben ein {{PropertyData/de|base Object}}, eine kreisförmige Kante, und ihre {{PropertyData/de|Placement}} ist dynamisch mit dem Objekt verknüpft. Der Befehl <img alt="" src=images/Fasteners_Move.svg  style="width:16px;"> [Fasteners Bewegen](Fasteners_Move/de.md) kann dazu benutzt werden, ein Verbindungselement zuzuordnen oder zu lösen.
 
-### Unattached fasteners 
+### Lose Verbindungselemente 
 
-1.  Select the desired fastener by clicking its button or by picking it from the menu.
-2.  A fastener is created at the origin.
-3.  Optionally change the dimensions and other properties of the fastener:
-    1.  Select the fastener.
-    2.  Go to the **Data** tab of the [Property editor](Property_editor.md).
-    3.  Change the required properties.
+1.  Das gewünschte Verbindungselement auswählen, durch anklicken seiner Schaltfläche oder durch Auswahl aus dem Menü.
+2.  Ein Verbindungselement wird im Ursprung erstellt.
+3.  Optional können die Abmessungen und andere Eigenschaften der Verbindungselemente verändert werden:
+    1.  Verbindungselement auswählen.
+    2.  Den Reiter {{MenuCommand/de|Data}} des [Eigenschafteneditors](Property_editor/de.md) aktivieren.
+    3.  Die erforderlichen Eigenschaften ändern.
 
-### Attached fasteners 
+### Zugeordnete Verbindungselemente 
 
 <img alt="" src=images/Fasteners_Attached_Selected.png  style="width:200px;"> <img alt="" src=images/Fasteners_Attached_Created.png  style="width:200px;"> 
-*On the left two selected circular edges. On the right the attached fasteners.*
+*Links: Zwei ausgewählte kreisförmige Kanten. Rechts: Die (ihnen) zugeordneten Verbindungselemente.*
 
-1.  Specify if the selected holes are tap holes or pass holes by selecting <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:16px;"> [Fasteners MatchTypeInner](Fasteners_MatchTypeInner.md) or <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:16px;"> [Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter.md) respectively (not used for countersunk screws).
-2.  Select one or more circular edges and/or faces with circular edges. For countersunk screws the top edge of the [chamfered hole](Fasteners_ChamferHole.md) must be selected.
-3.  Select the desired fastener by clicking its button or by picking it from the menu.
-4.  A fastener is attached to each of the selected circular edges.
-5.  The default dimensions of each fastener depend on the radius of the circular edge it is attached to. Countersunk screws are matched by their head diameter, other fasteners are matched by their shaft diameter.
-6.  Optionally change the dimensions and other properties of the fasteners. See above.
-7.  Fasteners that appear upside-down can be inverted with the <img alt="" src=images/Fasteners_Flip.svg  style="width:16px;"> [Fasteners Flip](Fasteners_Flip.md) command or by changing their **invert** property.
-8.  Optionally change the **offset** property to create space between the fasteners and the edges they are attached to.
+1.  Festlegen, ob die ausgewählten Löcher Kernlöcher oder Durchgangslöcher sind, durch Auswahl von <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:16px;"> [AuswahlNachInnenmaß](Fasteners_MatchTypeInner/de.md) oder <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:16px;"> [AuswahlNachAußenmaß](Fasteners_MatchTypeOuter/de.md) (wird für Senkschrauben nicht verwendet).
+2.  Auswahl einer oder mehrerer kreisförmiger Kanten und/oder Flächen mit kreisförmigen Kanten. Für Senkschrauben muss die obere Kante der [Lochsenkung](Fasteners_ChamferHole/de.md) ausgewählt werden.
+3.  Das gewünschte Verbindungselement auswählen, durch anklicken seiner Schaltfläche oder durch Auswahl aus dem Menü.
+4.  Jeder kreisförmigen Kante wird ein Verbindungselement zugeordnet.
+5.  Die vorgegebenen Abmessungen jedes einzelnen Verbindungselements sind von dem Radius der jeweiligen kreisförmigen Kante abhängig, der es zugeordnet wurde. Senkschrauben werden nach Kopfdurchmesser ausgewählt, andere Verbindungselemente nach ihrem Schaftdurchmesser.
+6.  Optional können die Abmessungen und andere Eigenschaften der Verbindungselemente verändert werden. Siehe oben.
+7.  Verbindungselemente, die verkehrt herum erscheinen, können mit dem Befehl <img alt="" src=images/Fasteners_Flip.svg  style="width:16px;"> [Fasteners Umdrehen](Fasteners_Flip/de.md) umgedreht werden oder durch Ändern ihrer {{PropertyData/de|invert}}.
+8.  Optional kann die {{PropertyData/de|offset}} geändert werden, um einen Abstand zwischen den Verbindungselementen und den Kanten, denen sie zugeordnet sind, herzustellen.
 
 ## Hinweise
 
--   To generate threads, the **thread** property of a fastener must be changed to `True`. Generating threads is costly. Recomputes take much longer if there are many fasteners with threads in a document.
--   The **invert** property and the **offset** property are ignored for unattached fasteners.
+-   Um Gewinde zu erzeugen, muss die {{PropertyData/de|thread}} eines Verbindungselements auf `True` geändert werden. Gewinde zu erzeugen ist aufwändig. Eine Neuberechnung dauert viel länger, wenn ein Dokument viele Verbindungselemente mit Gewinden enthält.
+-   Die {{PropertyData/de|invert}} und die {{PropertyData/de|offset}} werden für nicht zugeordnete Verbindungselemente ignoriert.
 
 ## Befehle
 

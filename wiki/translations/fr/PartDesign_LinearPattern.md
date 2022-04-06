@@ -10,7 +10,7 @@
 
 ## Description
 
-L\'outil **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Répétition linéaire'''** créé des copies d\'une fonction espacées également le long d\'une droite.
+L\'outil **Répétition linéaire** crée des copies uniformément espacées d\'un élément le long d\'une ligne ou d\'un bord droit.
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -40,7 +40,7 @@ Pour ajouter ou supprimer des fonctions à partir d\'un modèle existant :
 
 ## Options
 
-![Paramètres de répétition linéaire sous la v0.16 et antérieures.](images/Linearpattern_parameters.png ) ![Paramètres de répétition linéaire sous la v0.17 et ultérieures.](images/Linearpattern_parameters_v017.png )
+![Paramètres de Répétition linéaire](images/Linearpattern_parameters_v017.png )
 
 ### Direction
 
@@ -56,14 +56,11 @@ Utilise l\'axe vertical de l\'esquisse comme direction.
 
 #### Axe normal à l\'esquisse 
 
-
-{{VersionPlus/fr|0.17}}
-
 Utilise l\'axe normal à l\'esquisse comme direction.
 
 #### Sélectionnez une référence\... 
 
-Vous permet de sélectionner une ligne de référence, l\'arête d\'un objet ou une ligne d\'une esquisse comme direction.
+Permet de sélectionner une ligne de référence, une arête droite d\'un objet ou une ligne d\'une esquisse à utiliser comme direction.
 
 #### Axe d\'esquisse personnalisé 
 
@@ -71,10 +68,7 @@ Si l\'esquisse qui définit la fonction à répéter contient également une ou 
 
 #### Axe (X/Y/Z) 
 
-
-{{VersionPlus/fr|0.17}}
-
-Sélectionnez l\'un des axes standard de l\'origine du corps (X, Y ou Z) comme direction. 
+Sélectionnez l\'un des axes standard de l\'origine du corps (X, Y ou Z) comme direction.
 
 ## Limitations
 

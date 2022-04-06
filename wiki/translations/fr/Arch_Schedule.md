@@ -18,12 +18,12 @@ L\'outil Planificateur vous permet de créer et de remplir automatiquement une [
 
 : Cet outil a été complètement réécrit dans la version 0.17 de FreeCAD et est différent des versions précédentes.
 
-Pour une solution plus générale, consultez le [Reporting Workbench](https://github.com/furti/FreeCAD-Reporting/tree/master) dans la liste des [ateliers externes](External_workbenches/fr.md). Cet atelier utilise la syntaxe SQL pour extraire des informations du document.
+Pour une solution plus générale, consultez l\'[atelier Reporting](https://github.com/furti/FreeCAD-Reporting/tree/master) dans la liste des [ateliers externes](External_workbenches/fr.md). Cet atelier utilise la syntaxe SQL pour extraire des informations du document.
 
 ## Utilisation
 
 1.  Ouvrir ou créer un document FreeCAD qui contient plusieurs objets.
-2.  Cliquer sur le bouton **<img src="images/Arch_Schedule.svg" width=16px> [Crée une planification](Arch_Schedule/fr.md)**.
+2.  Cliquer sur le bouton **<img src="images/Arch_Schedule.svg" width=16px> [Planification](Arch_Schedule/fr.md)**.
 3.  Ajuster les options désirées.
 4.  Cliquer **OK**.
 
@@ -33,7 +33,7 @@ D\'abord, vous devez avoir un modèle. Par exemple, voici un document avec plusi
 
 ![](images/Arch_schedule_example01.jpg )
 
-Vous appuyez sur le bouton **<img src="images/Arch_Schedule.svg" width=16px> [Arch Crée une planification](Arch_Schedule/fr.md)**. Vous obtenez un panneau de tâches comme celui-ci. Il est assez large, vous devrez donc élargir le panneau des tâches pour travailler confortablement.
+Vous appuyez sur le bouton **<img src="images/Arch_Schedule.svg" width=16px> [Planification](Arch_Schedule/fr.md)**. Vous obtenez un panneau de tâches comme celui-ci. Il est assez large, vous devrez donc élargir le panneau des tâches pour travailler confortablement.
 
 ![](images/Arch_schedule_example02.jpg )
 
@@ -43,41 +43,41 @@ Ensuite, vous pouvez remplir le classeur ligne par ligne. Chaque ligne est une \
 -   **Value**: Il s\'agit de la requête réelle que vous souhaitez effectuer sur tous les objets sélectionnés par la requête. Il peut s\'agir de deux choses: soit le mot `count`, soit une propriété d\'objet:
     -   Si vous entrez `count` (ou `Count` ou `COUNT`, il est insensible à la casse), les objets sélectionnés seront simplement comptés.
     -   Si vous entrez une propriété d\'objet, la valeur de cette propriété pour chacun des objets sélectionnés sera extraite et résumée. Les objets qui ne possèdent pas la propriété seront ignorés. Utilisez la notation par points pour récupérer les propriétés des propriétés: `PropertyOfObject.PropertyOfProperty1.PropertyOfProperty2`. Si la propriété avant le premier point commence par une lettre minuscule, elle sera considérée comme une référence à l\'objet lui-même et sera ignorée. Saisir par exemple `object.Shape.Volume` équivaut à saisir `Shape.Volume`.
--   **Unit**: Une unité optionnelle pour exprimer les résultats. C\'est à vous de donner une unité qui correspond à la requête que vous faites, par exemple, si vous récupérez des volumes, vous devez utiliser une unité de volume, telle que `m^3`. Si vous utilisez une mauvaise unité, par ex.cm, vous obtiendrez de mauvais résultats.
--   **Objects**: Vous pouvez laisser ce champs vide, alors tous les objets du document seront considérés par cette requête, ou donner une liste séparée par des points-virgules (;) des noms d\'objets (pas d\'étiquettes). Si l\'un des objets de cette liste est un groupe, ses enfants seront également sélectionnés. La manière la plus simple d\'utiliser cette fonctionnalité est donc de regrouper vos objets de manière significative dans le document, et de donner ici simplement un nom de groupe. Vous pouvez également utiliser le bouton **Selection** pour ajouter des objets actuellement sélectionnés dans le document.
--   **Filter**: Ici vous pouvez ajouter un point-virgule `;` - liste de filtres séparés. Chaque filtre est écrit sous la forme: `property:value`. Vous ne pouvez utiliser que des propriétés contenant une valeur de chaîne. La propriété et la valeur ne sont pas sensibles à la casse. `value` peut être omis mais pas `:`. Pour gérer correctement les planifications créées avec les versions précédentes d\'Arch Schedule, la propriété `type` sera traduite en propriété `ifctype`. Il est conseillé de ne pas utiliser `type` dans les nouveaux horaires.
+-   **Unité**: Une unité optionnelle pour exprimer les résultats. C\'est à vous de donner une unité qui correspond à la requête que vous faites, par exemple, si vous récupérez des volumes, vous devez utiliser une unité de volume, telle que `m^3`. Si vous utilisez une mauvaise unité, par ex.cm, vous obtiendrez de mauvais résultats.
+-   **Objets**: Vous pouvez laisser ce champs vide, alors tous les objets du document seront considérés par cette requête, ou donner une liste séparée par des points-virgules (;) des noms d\'objets (pas d\'étiquettes). Si l\'un des objets de cette liste est un groupe, ses enfants seront également sélectionnés. La manière la plus simple d\'utiliser cette fonctionnalité est donc de regrouper vos objets de manière significative dans le document, et de donner ici simplement un nom de groupe. Vous pouvez également utiliser le bouton **Selection** pour ajouter des objets actuellement sélectionnés dans le document.
+-   **Filtre**: Ici vous pouvez ajouter un point-virgule `;` - liste de filtres séparés. Chaque filtre est écrit sous la forme: `property:value`. Vous ne pouvez utiliser que des propriétés contenant une valeur de chaîne. La propriété et la valeur ne sont pas sensibles à la casse. `value` peut être omis mais pas `:`. Pour gérer correctement les planifications créées avec les versions précédentes d\'Arch Schedule, la propriété `type` sera traduite en propriété `ifctype`. Il est conseillé de ne pas utiliser `type` dans les nouveaux horaires.
 
 :   Par exemple:
 
     :   
         `label:floor1;ifctype:window`
         
-        ne conservera que les objets qui ont \"floor1\" dans leur {{PropertyData/fr|Label}} et \"window\" dans leur {{PropertyData/fr|IFC Type}}. Une fenêtre avec {{PropertyData/fr|Label}} \"Floor1-AA\" et **IFC Type** \"Window Standard Case\" sera inclus.
+        ne conservera que les objets qui ont \"floor1\" dans leur **Label** et \"window\" dans leur **IFC Type**. Une fenêtre avec **Label** \"Floor1-AA\" et **IFC Type** \"Window Standard Case\" sera inclus.
 
     :   
         `label:door`
         
-        Ne conservera que les objets qui ont \"door\" dans leur {{PropertyData/fr|Label}}.
+        Ne conservera que les objets qui ont \"door\" dans leur **Label**.
 
     :   
         `!label:door`
         
-        Ne conservera que les objets qui n\'ont pas de \"door\" dans leur {{PropertyData/fr|Label}}.
+        Ne conservera que les objets qui n\'ont pas de \"door\" dans leur **Label**.
 
     :   
         `ifctype:structural`
         
-        Ne conservera que les objets qui ont \"structural\" dans leur {{PropertyData/fr|IFC Type}}.
+        Ne conservera que les objets qui ont \"structural\" dans leur **IFC Type**.
 
     :   
         `!ifctype:something`
         
-        Ne conservera que les objets qui n\'ont pas de \"structural\" dans leur {{PropertyData/fr|IFC Type}} ou qui n\'ont pas la propriété {{PropertyData/fr|IFC Type}}.
+        Ne conservera que les objets qui n\'ont pas de \"structural\" dans leur **IFC Type** ou qui n\'ont pas la propriété **IFC Type**.
 
     :   
         `!ifctype:`
         
-        Ne conservera que les objets qui n\'ont pas la propriété {{PropertyData/fr|IFC Type}}.
+        Ne conservera que les objets qui n\'ont pas la propriété **IFC Type**.
 
 Le bouton **Import** vous permet de construire cette liste dans une autre application avec tableur, et de l\'importer ici en tant que fichier csv.
 

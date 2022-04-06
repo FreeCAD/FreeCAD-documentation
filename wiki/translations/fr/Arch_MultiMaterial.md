@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch MultiMaterial
    Name/fr:Arch Matériaux multiples
-   MenuLocation:Arch → Outils matériaux → Matériaux multiples
+   MenuLocation:Arch → Outils pour les matériaux → Matériaux multiples
    Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Arch Matériau](Arch_SetMaterial/fr.md), [Arch Outils matériaux](Arch_CompSetMaterial/fr.md)
@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil Matériaux multiples définit une liste de [materials](Material.md) avec, pour chaque matériau, un nom et une valeur d\'épaisseur. Cette liste multi-matériaux peut ensuite être ajoutée à un objet [Arch](Arch_Workbench/fr.md) à la place d\'un seul [Arch Matériau](Arch_SetMaterial/fr.md).
+L\'outil Matériaux multiples définit une liste de [materiaux](Material/fr.md) avec, pour chaque matériau, un nom et une valeur d\'épaisseur. Cette liste multi-matériaux peut ensuite être ajoutée à un objet [Arch](Arch_Workbench/fr.md) à la place d\'un seul [Arch Matériau](Arch_SetMaterial/fr.md).
 
 ![](images/Arch_multimaterial_example.png )
 

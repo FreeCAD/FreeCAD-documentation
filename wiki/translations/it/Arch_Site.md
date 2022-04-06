@@ -33,6 +33,11 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 
 ## Proprietà
 
+### Data
+
+
+<div class="mw-translate-fuzzy">
+
 ### Dati
 
 -    {{PropertyData/it|Terrain}}: Il terreno di base del sito
@@ -67,6 +72,14 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 
 -    **EPW File**: Consente di allegare un file EPW dal [sito web di dati EPW Ladybug](https://www.ladybug.tools/epwmap/) a questo sito. Ciò è necessario per visualizzare i diagrammi della rosa dei venti {{version/it|0.19}}
 
+
+</div>
+
+### View
+
+
+<div class="mw-translate-fuzzy">
+
 ### Vista
 
 -    **Solar Diagram**: Mostra o nasconde il diagramma solare
@@ -78,6 +91,9 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 -    **Solar Diagram Scale**: La scala del diagramma solare
 
 -    **Wind Rose**: Mostra o nasconde il diagramma della rosa dei venti (richiede che la proprietà dati **File EPW** sia riempita e il modulo Ladybug Python sia installato (vedere sotto)
+
+
+</div>
 
 ## Tipico flusso di lavoro 
 
@@ -95,11 +111,22 @@ La geometria sito sarà ricalcolata e le proprietà aree, il perimetro e i volum
 
 ## Diagrammi solari e del vento 
 
+
+<div class="mw-translate-fuzzy">
+
 Se nel proprio sistema è installato [Ladybug](https://www.ladybug.tools/ladybug.html), i [Siti](Arch_Site/it.md) di Arch possono visualizzare un diagramma solare o del vento. Per questo, le proprietà **Longitude**, **Latitude** e **Declination** (precedentemente era **North Deviation**) devono essere impostate correttamente, e la proprietà **Solar Diagram** o **Wind Rose** impostata su `True`. {{Version/it|0.17}} e {{Version/it|0.19}}
+
+
+</div>
 
 **Nota**: Se non avete Ladybug, [pysolar](http://pysolar.org/) è ancora supportato per generare diagrammi solari, ma non rose dei venti. E\' richiesto Pysolar 0.7 o superiore; questa versione funziona solo con Python 3. Se serve questa funzione con Python 2, si deve avere Pysolar 0.6 in quanto questa è l\'ultima versione che funziona con Python 2. Tuttavia, Ladybug è uno strumento molto più potente che probabilmente verrà utilizzato di più in futuro, quindi si consiglia di utilizzarlo al posto di pysolar. Ladybug può essere installato semplicemente tramite [pip](https://github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -108,7 +135,16 @@ Se nel proprio sistema è installato [Ladybug](https://www.ladybug.tools/ladybug
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Sito può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+
+
+</div>
 
 
 ```python

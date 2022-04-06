@@ -35,9 +35,15 @@ To use the Z88 solver, the OpenSource version of Z88 (Z88OS) needs to be install
     -   Select **Solve → <img src="images/FEM_SolverZ88.svg" width=x16px> Solver Z88** from the menu.
     -   Press the **S** then **Z** shortcut keys.
 2.  Double click the <img alt="" src=images/FEM_SolverZ88.svg  style="width:" height="16px;"> SolverZ88 object.
-3.  Select the analysis type.
+3.  Select the **Analysis type**.
 4.  Click the **Write** button.
 5.  Click the **Run** button.
+
+As a result you get an object called *Z88\_xxx\_results* (depending on the run simulation) in the [Tree view](Tree_view.md). This is the same kind of result object one gets when running the [CalculiX solver](FEM_SolverCalculixCxxtools.md). Starting from this, you can visualize the results using [Post Pipeline](FEM_PostPipelineFromResult.md) and [Clip Filters](FEM_Workbench#Menu__Results.md).
+
+## Preferences
+
+See the [Z88 preferences](FEM_Preferences#Z88.md) for the possible solver settings like the used solver method.
 
 
 <div class="mw-translate-fuzzy">

@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw ExtensionVertexAtIntersection
+   Name/de:TechDraw ErgänzungKnotenAnSchnittstelle
    MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Intersection Vertex(es)
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20
    SeeAlso:
@@ -19,7 +20,7 @@ Das <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="wi
 
 ## Verwendung
 
-1.  Wähle zwei Kanten. Gerade werden als unendlich lange Linie, Kreisbögen als Kreise angesehen.
+1.  Wähle zwei Kanten. Geraden werden als unendlich lange Linien, Kreisbögen als Kreise angesehen.
 2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
     -   Drücke die **<img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> [TechDraw ExtensionVertexAtIntersection](TechDraw_ExtensionVertexAtIntersection.md)** Schaltfläche.
     -   Wähle die **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> Add Cosmetic Intersection Vertex(es)** Option aus dem Menü.

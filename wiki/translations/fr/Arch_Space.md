@@ -22,66 +22,66 @@ L\'outil Espace vous permet de définir un volume vide, soit en le basant sur un
 
 1.  Sélectionnez un objet solide existant ou des faces sur des objets de contour.
 2.  Lancez la commande Arch Espace en utilisant plusieurs méthodes:
-    -   En appuyant sur le bouton **<img src="images/Arch_Space.svg" width=16px> [Crée un objet dans l'espace...](Arch_Space/fr.md)** dans la barre d\'outils.
+    -   En appuyant sur le bouton **<img src="images/Arch_Space.svg" width=16px> [Espace](Arch_Space/fr.md)** dans la barre d\'outils.
     -   En utilisant les touches **S** puis **P**
     -   En utilisant l\'entrée **Arch → Espace** dans le menu supérieur
 
-### Limites
+### Limitations
 
--   Les propriétés \"Limites\" ne sont pour le moment pas éditables via la GUI.
+-   Les propriétés des bords ne sont actuellement pas modifiables via l\'interface graphique.
 -   Voir sur le forum [forum announcement](http://forum.freecadweb.org/viewtopic.php?f=9&t=4275).
 
 ## Propriétés
 
--    {{PropertyData/fr|Base}}: l\'objet de base, le cas échéant (doit être un solide)
+-    **Base**: l\'objet de base, le cas échéant (doit être un solide)
 
--    {{PropertyData/fr|Boundaries}}: liste d\'éléments de limite facultatifs.
+-    **Boundaries**: liste d\'éléments de limite facultatifs.
 
--    {{PropertyData/fr|Area}}: la surface de plancher calculée de cet espace.
+-    **Area**: la surface de plancher calculée de cet espace.
 
--    {{PropertyData/fr|FinishFloor}}: la finition du sol de cet espace.
+-    **FinishFloor**: la finition du sol de cet espace.
 
--    {{PropertyData/fr|FinishWalls}}: la finition des murs de cet espace.
+-    **FinishWalls**: la finition des murs de cet espace.
 
--    {{PropertyData/fr|FinishCeiling}}: la finition du plafond de cet espace.
+-    **FinishCeiling**: la finition du plafond de cet espace.
 
--    {{PropertyData/fr|Group}}: objets inclus dans cet espace, tels que des meubles.
+-    **Group**: objets inclus dans cet espace, tels que des meubles.
 
--    {{PropertyData/fr|SpaceType}}: le type de cet espace.
+-    **SpaceType**: le type de cet espace.
 
--    {{PropertyData/fr|FloorThickness}}: l\'épaisseur de la finition du sol.
+-    **FloorThickness**: l\'épaisseur de la finition du sol.
 
--    {{PropertyData/fr|NumberOfPeople}}: le nombre de personnes qui occupent généralement cet espace.
+-    **NumberOfPeople**: le nombre de personnes qui occupent généralement cet espace.
 
--    {{PropertyData/fr|LightingPower}}: la puissance électrique nécessaire pour éclairer cet espace en watts.
+-    **LightingPower**: la puissance électrique nécessaire pour éclairer cet espace en watts.
 
--    {{PropertyData/fr|EquipmentPower}}: la puissance électrique nécessaire à l\'équipement de cet espace en watts.
+-    **EquipmentPower**: la puissance électrique nécessaire à l\'équipement de cet espace en watts.
 
--    {{PropertyData/fr|AutoPower}}: si la valeur est True, la puissance de l\'équipement sera automatiquement renseignée par l\'équipement inclus dans cet espace.
+-    **AutoPower**: si True, la puissance de l\'équipement sera automatiquement renseignée par l\'équipement inclus dans cet espace.
 
--    {{PropertyData/fr|Conditioning}}: type de climatisation de cet espace.
+-    **Conditioning**: type de climatisation de cet espace.
 
--    {{PropertyData/fr|Internal}}: spécifie si cet espace est interne ou externe.
+-    **Internal**: spécifie si cet espace est interne ou externe.
 
--    {{PropertyView/fr|Text}}: le texte à afficher. Utilisez \$area, \$label, \$tag, \$floor, \$walls, \$ceiling pour insérer les données respectives.
+-    **Text**: le texte à afficher. Utilisez \$area, \$label, \$tag, \$floor, \$walls, \$ceiling pour insérer les données respectives.
 
--    {{PropertyView/fr|FontName}}: le nom de la police.
+-    **FontName**: le nom de la police.
 
--    {{PropertyView/fr|TextColor}}: la couleur du texte.
+-    **TextColor**: la couleur du texte.
 
--    {{PropertyView/fr|FontSize}}: la taille du texte.
+-    **FontSize**: la taille du texte.
 
--    {{PropertyView/fr|FirstLine}}: la taille de la première ligne de texte (multiplie la taille de la police. 1 = même taille, 2 = double taille, etc\...)
+-    **FirstLine**: la taille de la première ligne de texte (multiplie la taille de la police. 1 = même taille, 2 = double taille, etc\...)
 
--    {{PropertyView/fr|LineSpacing}}: l\'espace entre les lignes de texte.
+-    **LineSpacing**: l\'espace entre les lignes de texte.
 
--    {{PropertyView/fr|TextPosition}}: La position du texte. Laisser (0,0,0) pour la position automatique.
+-    **TextPosition**: La position du texte. Laisser (0,0,0) pour la position automatique.
 
--    {{PropertyView/fr|TextAlign}}: la justification du texte.
+-    **TextAlign**: la justification du texte.
 
--    {{PropertyView/fr|Decimals}}: nombre de décimales à utiliser pour les textes calculés.
+-    **Decimals**: nombre de décimales à utiliser pour les textes calculés.
 
--    {{PropertyView/fr|ShowUnit}}: affiche le suffixe de l\'unité ou non.
+-    **ShowUnit**: affiche le suffixe de l\'unité ou non.
 
 ## Options
 

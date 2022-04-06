@@ -5,7 +5,7 @@
 
 ## Einführung
 
-Das**Std Dateimenü** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md):
+Das**Std Menü Datei** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md):
 
 
 {{StdMenu
@@ -25,7 +25,7 @@ Das**Std Dateimenü** ist eines der 7 Untermenüs im [Standardmenü](Standard_Me
 [Hilfe](Std_Help_Menu/de.md)
 }}
 
-Das Dateimenü bietet Werkzeuge für die Ein- und Ausgabe von Dateien.
+Das Menü Datei bietet Werkzeuge für die Ein- und Ausgabe von Dateien.
 
 ## Werkzeuge
 

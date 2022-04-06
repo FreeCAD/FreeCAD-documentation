@@ -6,38 +6,38 @@
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**P** **I**
    Version:0.17
-   SeeAlso:[Arch Connecteur](Arch_PipeConnector/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
+   SeeAlso:[Arch Raccord](Arch_PipeConnector/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
 ---
 
 # Arch Pipe/fr
 
 ## Description
 
-Cet outil vous permet de créer un tube à partir de zéro ou à partir d\'objets basés sur (Draft, Sketch, etc..) sélectionnés et contenant un fil et un seul fil ouvert.
+Cet outil vous permet de créer un tube à partir de zéro ou à partir d\'objets basés sur (Draft, Sketch, etc..) sélectionnés et contenant une et une seule polyligne ouverte.
 
 ## Utilisation
 
-1.  Sélectionnez une forme linéaire [Part](Part_Workbench/fr.md) telle qu\'une [Draft Ligne](Draft_Line/fr.md), un [Draft Fil](Draft_Wire.md) ou une [Esquisse](Sketcher_NewSketch/fr.md) ouverte.
+1.  Sélectionnez une forme linéaire [Part](Part_Workbench/fr.md) telle qu\'une [Draft Ligne](Draft_Line/fr.md), un [Draft Polyligne](Draft_Wire.md) ou une [Esquisse](Sketcher_NewSketch/fr.md) ouverte.
 2.  Appelez cette commande en utilisant plusieurs méthodes:
     -   En appuyant sur le bouton **<img src="images/Arch_Pipe.svg" width=16px> [Tuyau](Arch_Pipe/fr.md)** dans la barre d\'outils.
     -   En appuyant sur le raccourci clavier **P** puis **I**.
-    -   Depuis **Arch → Outils tuyauterie → Tuyau** dans le menu supérieur.
+    -   Depuis **Arch → Outils pour la tuyauterie → Tuyau** dans le menu supérieur.
 
 ## Options
 
--   Pipes partage les propriétés et comportements communs à tous les composants [Arch Composant](Arch_Component/fr.md)
+-   Tuyau partage les propriétés et comportements communs à tous les composants [Arch Composant](Arch_Component/fr.md)
 
 ## Propriétés
 
--    {{PropertyData/fr|Length}}: Donne une longueur au tube, s\'il n\'est pas basé sur un fil (wire).
+-    **Length**: Donne une longueur au tube, s\'il n\'est pas basé sur un fil (wire).
 
--    {{PropertyData/fr|Diameter}}: Le diamètre du tube, s\'il n\'est pas basé sur un profil
+-    **Diameter**: Le diamètre du tube, s\'il n\'est pas basé sur un profil
 
--    {{PropertyData/fr|Base}}: Le fil est basé seulement sur le tube
+-    **Base**: Le fil est basé seulement sur le tube
 
--    {{PropertyData/fr|Profile}}: Le tube est basé sur le profil. S\'il n\'y a pas de profil, le tube est cylindrique.
+-    **Profile**: Le tube est basé sur le profil. S\'il n\'y a pas de profil, le tube est cylindrique.
 
-## Travail typique 
+## Processus de travail typique 
 
 -   Commencez le placement des sanitaires hydrauliques (le fichier exemple ci dessous est un fichier step importé). Sélectionnez l\'objet et activez l\'Arch Equipments en cliquant sur le bouton [Arch Equipement](Arch_Equipment/fr.md).
 
@@ -49,11 +49,11 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_02.jpg )
 
--   Avec [Draft Accrochage Spécial](Draft_Snap_Special/fr.md), vous pouvez maintenant vous accrocher sur tous ces points:
+-   Avec [Draft Aimantation Spécial](Draft_Snap_Special/fr.md), vous pouvez maintenant vous accrocher sur tous ces points:
 
 ![](images/Arch_pipe_example_03.jpg )
 
--   Maintenant vous pouvez créer vos tubes en utilisant les fonctions Draft Lignes, Draft Files ou Esquisses. La meilleure solution est d\'utiliser uniquement Draft Lignes:
+-   Maintenant vous pouvez créer vos tubes en utilisant les fonctions Draft Lignes, Draft Polylignes ou Esquisses. La meilleure solution est d\'utiliser uniquement Draft Lignes:
 
 ![](images/Arch_pipe_example_04.jpg )
 
@@ -65,7 +65,7 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_06.jpg )
 
--   Vous pouvez maintenant créer des connexions avec deux ou trois tubes coïncidents en cliquant sur le bouton [Arch Connecteur](Arch_PipeConnector/fr.md). Si vous sélectionnez trois tubes, deux tubes doivent être alignés pour créer un élément de départ:
+-   Vous pouvez maintenant créer des connexions avec deux ou trois tubes coïncidents en cliquant sur le bouton [Arch Raccord](Arch_PipeConnector/fr.md). Si vous sélectionnez trois tubes, deux tubes doivent être alignés pour créer un élément de départ:
 
 ![](images/Arch_pipe_example_07.jpg )
 

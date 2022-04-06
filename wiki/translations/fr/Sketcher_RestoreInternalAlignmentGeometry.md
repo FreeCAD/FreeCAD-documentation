@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher RestoreInternalAlignmentGeometry
-   Name/fr:Sketcher Basculer géométrie interne
+   Name/fr:Sketcher Basculer la géométrie interne
    MenuLocation:Sketch → Outils d'esquisse → Afficher/masquer la géométrie interne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **I**

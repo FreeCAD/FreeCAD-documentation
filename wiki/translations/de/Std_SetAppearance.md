@@ -1,46 +1,29 @@
 ---
 - GuiCommand:/de
-   Name:Std SetzeErscheinungsbild
-   Icon:Std Tool1.svg
-   MenuLocation:[Ansicht](Std_View_Menu/de.md) → Erscheinungsbild…
+   Name:Std SetAppearance
+   Name/de:Std Darstellung
+   MenuLocation:Ansicht → Darstellung…
    Workbenches:Alle
    Shortcut:Ctrl + D
-   SeeAlso:[Setze Farben](Std_SetColors/de.md)
+   SeeAlso:[Part FlächenFarben](Part_FaceColors/de.md)
 ---
 
 # Std SetAppearance/de
 
-
-</div>
-
 ## Beschreibung
 
+Das Werkzeug **Darstellung** zeigt im [Aufgabenbereich](Task_panel.md) die Anzeigeeigenschaften der ausgewählten Objekte an.
 
-<div class="mw-translate-fuzzy">
+## Anwendung
 
-Dieses Werkzeug ermöglicht es, das Erscheinungsbild (Ansichtsmodus, Material und Darstellung) der ausgewählten Objekte zu definieren.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Kurzanleitung
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle mindestens ein Objekt aus.
-2.  Klicke im Modellbaum oder in der 3D Ansicht mit der rechten Maustaste und wähle {{MenuCommand/de|[<img src=images/Std_Tool1.svg style="width:16px"> Erscheinungsbild}} im Kontextmenü.
-3.  Definiere Eigenschaften; siehe [Optionen](#Options/de.md).
-4.  Drücke {{button|Close}}.
-
-
-</div>
+1.  Ein oder mehrere Objekt(e) auswählen.
+2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
+    -   Den Menüeintrag **Ansicht → <img src="images/Std_SetAppearance.svg" width=16px> Darstellung...** im Hauptmenü auswählen.
+    -   Den Menüeintrag **<img src="images/Std_SetAppearance.svg" width=16px> Darstellung...** im Kontextmenü der [Baumansicht](Tree_view.md) (siehe Screenshot) oder im Kontextmenü der [3D-Ansicht](3D_view.md) auswählen.
+    -   Das Tastaturkürzel **Ctrl**+**D**.
+3.  Eine oder mehrere Anzeigeeigenschaften ändern. Siehe [Optionen](#Optionen.md). Die Objekte werden sofort aktualisiert.
+4.  Optional können weitere Objekte ausgewählt werden, deren Anzeigeeigenschaften geändert werden sollen.
+5.  Schaltfläche **Schließen** drücken, um den Aufgabenbereich zu schließen und den Befehl abzuschließen.
 
 ## Optionen
 
@@ -86,9 +69,9 @@ Legt den Zeichenstil fest. Das Aufklappmenü bietet 4 Wahlmöglichkeiten:
 
 </div>
 
-## Notes
+## Hinweise
 
--   The mentioned view properties can also be changed in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Die genannten Anzeigeeigenschaften können auch im [Eigenschafteneditor](Property_editor/de.md) oder in der [Combo-Ansicht](Combo_view/de.md) geändert werden.
 
 
 

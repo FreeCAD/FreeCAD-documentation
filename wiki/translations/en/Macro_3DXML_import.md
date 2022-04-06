@@ -40,7 +40,7 @@ v0.1 2021-10-03 : first release
 # -*- coding: utf-8 -*-
 
 # ***************************************************************************
-# *   Copyright (c) 2021 heda <heda @ freecad forum>                                      *
+# *   Copyright (c) 2021 heda <heda @ freecad forum>                        *
 # *                                                                         *
 # *   This file is part of the FreeCAD CAx development system.              *
 # *                                                                         *

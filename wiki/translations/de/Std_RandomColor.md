@@ -1,7 +1,8 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Std RandomColor
-   MenuLocation:View → Random color
+   Name/de:Std ZufälligeFarbe
+   MenuLocation:Ansicht → Zufällige Farbe
    Workbenches:All
 ---
 
@@ -9,18 +10,18 @@
 
 ## Beschreibung
 
-The **Std RandomColor** command applies a random **Shape Color** to selected objects.
+Der Befehl **Std ZufälligeFarbe** ordnet ausgewählten Objekten eine zufällige Farbe ({{PropertyView/de|Shape Color}}) zu.
 
 ## Anwendung
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Select the **View → <img src="images/Std_RandomColor.svg" width=16px> Random color** option from the menu.
-    -   Select the **<img src="images/Std_RandomColor.svg" width=16px> Random color** option from the [Tree view](Tree_view.md) context menu (see screenshot) or [3D view](3D_view.md) context menu.
+1.  Ein oder mehrere Objekt(e) auswählen.
+2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
+    -   Den Menüeintrag **Ansicht → <img src="images/Std_RandomColor.svg" width=16px> Zufällige Farbe** im Hauptmenü auswählen.
+    -   Den Menüeintrag **<img src="images/Std_RandomColor.svg" width=16px> Zufällige Farbe** im Kontextmenü der [Baumansicht](Tree_view.md) (siehe Screenshot) oder im Kontextmenü der [3D-Ansicht](3D_view.md) auswählen.
 
 ## Hinweise
 
--   The **Shape Color** property can also be changed in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
+-   Die {{PropertyView/de|Shape Color}} kann auch im [Eigenschafteneditor](Property_editor/de.md) oder in der [Combo-Ansicht](Combo_view/de.md) geändert werden.
 
 
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part_Cut
    Name/fr:Part Soustraction
-   MenuLocation:Pièce → Opération booléenne → Soustraction
+   MenuLocation:Part → Opération booléenne → Soustraction
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Opération booléenne](Part_Boolean/fr.md), [Part Union](Part_Fuse/fr.md), [Part Intersection](Part_Common/fr.md), 
 ---
@@ -21,8 +21,8 @@ Coupe (soustrait) un objet à un autre, le dernier sélectionné étant soustrai
 
 1.  Sélectionnez deux formes
 2.  Lancez la commande Part Soustraction de plusieurs manières :
-    -   Appuyez sur le bouton **![](images/) '''Executer une soustraction sur deux formes'''** dans la barre d\'outils Part
-    -   Utilisez l\'entrée **Pièce → Opération booléenne → Soustraction** depuis le menu Part
+    -   Appuyez sur le bouton **![](images/) '''Soustraction'''** dans la barre d\'outils Part
+    -   Utilisez l\'entrée **Part → Opération booléenne → Soustraction** depuis le menu Part
 
 ## Entrées supportées 
 

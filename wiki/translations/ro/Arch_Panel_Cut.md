@@ -47,6 +47,8 @@ Acest instrument creează, în documentul 3D, o vizualizare plană 2D a unui pan
 
 ## Proprietăți
 
+### Data
+
 
 <div class="mw-translate-fuzzy">
 
@@ -76,6 +78,8 @@ Acest instrument creează, în documentul 3D, o vizualizare plană 2D a unui pan
 -    **Margin**: A margin that can be displayed outside the panel cut shape
 
 -    **Show Margin**: Turns the display of the margin on/off
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

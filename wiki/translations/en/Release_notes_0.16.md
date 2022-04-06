@@ -1,5 +1,5 @@
 # Release notes 0.16/en
-FreeCAD 0.16 was released on 18. April, 2016, get it from [Github](https://github.com/FreeCAD/FreeCAD/releases). This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.15](Release_notes_0.15.md) - [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
+FreeCAD 0.16 was released on 18. April, 2016, get it from [GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.16). This is a summary of the most interesting changes. The complete list of changes can be found in the [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Older versions at: [0.15](Release_notes_0.15.md) - [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
 <img alt="" src=images/Satnogs_Rotator_FreeCAD.jpg  style="width:1024px;">
 
 

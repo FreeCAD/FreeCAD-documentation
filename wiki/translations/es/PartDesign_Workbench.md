@@ -63,7 +63,13 @@ Estas herramientas no son de hecho parte de l\'Ambiente de Trabajo de diseño de
 
 -   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Crear un sistema de coordenadas local](PartDesign_CoordinateSystem/es.md): crea un sistema de coordenadas local unido a la geometría datum en el cuerpo activo.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Crear un conector de forma o forma unida](PartDesign_ShapeBinder/es.md): crea un conector de forma o forma unida en el cuerpo activo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

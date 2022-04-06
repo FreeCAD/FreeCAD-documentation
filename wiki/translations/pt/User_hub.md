@@ -63,7 +63,9 @@ Se tiver alguma informação que gostaria que aparecesse aqui, porque não contr
 
 -   [Workarounds](Workarounds.md)
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Migrating to FreeCAD from OnShape](Migrating_to_FreeCAD_from_OnShape.md)
 -   [Migrating to FreeCAD from SolidWorks](Migrating_to_FreeCAD_from_SolidWorks.md)
+-   [Migrating to FreeCAD from Revit](Migrating_to_FreeCAD_from_Revit.md)
 -   [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
 -   [BIM applications compatibility table](BIM_application_compatibility_table.md)
 

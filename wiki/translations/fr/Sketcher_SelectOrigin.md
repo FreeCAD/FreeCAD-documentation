@@ -4,14 +4,11 @@
    Name/fr:Sketcher Sélectionner l'origine
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    MenuLocation:Sketch → Outils d'esquisse → Selectionner l'origine
-   Shortcut:**Ctrl**+**Maj**+**O**
+   Shortcut:**Z** **O**
    Version:0.15
 ---
 
 # Sketcher SelectOrigin/fr
-
-
-</div>
 
 ## Description
 
@@ -24,13 +21,7 @@ Sélectionne l\'origine d\'une esquisse.
 3.  L\'origine de l\'esquisse sera sélectionnée.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

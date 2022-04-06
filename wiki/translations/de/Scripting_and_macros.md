@@ -1,12 +1,4 @@
 # Scripting and macros/de
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
 ## Übersicht über Python Skriptseiten 
 
 -   Python bezogene Seiten im Handbuch:
@@ -66,18 +58,12 @@
     -   [Dialogerstellung Bild und animiertes GIF](Dialog_creation_image_and_animated_GIF/de.md)
     -   [Qt Beispiel](Qt_Example/de.md)
 
-
-<div class="mw-translate-fuzzy">
-
 -   Schnipsel und Beispiele:
     -   [Definiere eines Befehls](Command/de.md)
     -   [Arbeitsbereichserstellung](Workbench_creation/de.md)
-    -   [Code Schnipsel](Code_snippets/de.md)
+    -   [Kode-Schnipsel](Code_snippets/de.md)
     -   [Makrorezepte](Macros_recipes/de.md)
     -   [Linienzeichnungsfunktion](Line_drawing_function/de.md)
-
-
-</div>
 
 -   Verschiedenes:
     -   [Fehlersuche](Debugging/de.md)
@@ -94,15 +80,6 @@
     -   [Python Entwicklungsumgebung](Python_Development_Environment/de.md)
     -   [Häufigkeit](Quantity/de.md)
     -   [Svg Namensraum](Svg_Namespace/de.md)
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

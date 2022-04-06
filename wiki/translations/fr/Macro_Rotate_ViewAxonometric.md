@@ -1,11 +1,11 @@
 # Macro Rotate ViewAxonometric/fr
-{{Macro
+{{Macro/fr
 |Name=Macro Rotate ViewAxonometric
 |Icon=Macro_Rotate_View_with_Y_pointing_upwards_.png
 |Description=Cette macro pivote la vue dans la position axonométrique (2 posibilités, Y et Z).
 |Author=Yorik
 |Version=01.00
-|FCVersion=All
+|FCVersion=Toutes
 |Download= [https://www.freecadweb.org/wiki/images/2/2e/Macro_Rotate_View_with_Y_pointing_upwards_.png Macro_Rotate_View_with_Y_pointing_upwards_]<br />[https://www.freecadweb.org/wiki/images/a/a2/Macro_Rotate_View_with_Z_pointing_upwards_.png Macro_Rotate_View_with_Z_pointing_upwards_]
 |Date=2010-11-17
 |SeeAlso=[Macro Rotate View](Macro_Rotate_View/fr.md) [<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width:24px">

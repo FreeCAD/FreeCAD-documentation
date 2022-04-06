@@ -11,26 +11,26 @@
 
 ## Opis
 
-Transforms the coordinate system of a face to a particular coordinate system - rectangular or cylindrical.
+Przekształca układ współrzędnych powierzchni na określony układ współrzędnych --- prostokątny lub cylindryczny.
 
 ## Użycie
 
-1.  Apply the [Constraint displacement](FEM_ConstraintDisplacement.md) to a face first.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintTransform.svg" width=16px> [FEM ConstraintTransform](FEM_ConstraintTransform.md)** button.
-    -   Select the **Model → Geometrical Constraints → <img src="images/FEM_ConstraintTransform.svg" width=16px> Constraint transform** option from the menu.
-3.  Select rectangular or cylindrical transform. The former can be applied to any face, the latter is available only for the cylindrical faces.
-4.  Select a face to which the displacement constraint was previously applied. Press the **Add** button.
-5.  For rectangular transform, specify a rotation about each of the three axes.
+1.  Najpierw [zdefiniuj przemieszczenie](FEM_ConstraintDisplacement/pl.md) do powierzchni.
+2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+    -   Naciśnij przycisk **<img src="images/FEM_ConstraintTransform.svg" width=16px> [Zdefiniuj odkształcenie](FEM_ConstraintTransform/pl.md)**.
+    -   Wybierz opcję z menu **Model → Wiązania geometryczne → <img src="images/FEM_ConstraintTransform.svg" width=16px> Wiązanie przekształcenia**.
+3.  Wybierz przekształcenie prostokątne lub cylindryczne. Pierwsza opcja może być zastosowana do każdej powierzchni, druga jest dostępna tylko dla powierzchni cylindrycznych.
+4.  Wybierz powierzchnię, do której wcześniej zastosowano wiązanie przekształcenia. Naciśnij przycisk **Dodaj**.
+5.  W przypadku transformacji prostokątnej należy określić obrót wokół każdej z trzech osi.
 
-## Limitations
+## Ograniczenia
 
--   Cylindrical transform can be applied only to cylindrical faces.
+-   Transformacja cylindryczna może być stosowana tylko do powierzchni cylindrycznych.
 
-## Notes
+## Uwagi
 
--   This constraint can be used to simulate torsion but only for cylindrical bars or parts containing such bars used to transmit torque.
--   The constraint uses the \*TRANSFORM card in CalculiX.
+-   To wiązanie może być stosowane do symulacji skręcania, ale tylko w przypadku prętów walcowych lub części zawierających takie pręty, używanych do przenoszenia momentu obrotowego.
+-   To wiązanie wykorzystuje kartę \*TRANSFORM w programie CalculiX.
 
 
 

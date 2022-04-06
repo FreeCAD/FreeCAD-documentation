@@ -6,8 +6,8 @@
 |Author=yorik
 |Version=1.0
 |Date=2011-10-13
-|Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_Texture_Objects.png Icon Toolbar]
-|FCVersion= 0.18 et en dessous
+|Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_Texture_Objects.png Icône de la barre d'outils]
+|FCVersion=0.18 et en dessous
 }}
 
 ## Description

@@ -78,53 +78,47 @@ Für das DAE Format kannst du folgendes festlegen:
 
 ### DWG
 
+DWG (von Zeichnung) ist ein proprietäres, quellgeschlossenes, binäres Dateiformat, das zum Speichern von 2D- und 3D-Konstruktionsdaten sowie Metadaten verwendet wird. FreeCAD benötigt externe Konverter, um DWG-Dateien zu verarbeiten.
 
-<div class="mw-translate-fuzzy">
+**Hinweis:** Alle Einstellungen für das DXF-Dateiformat gelten auch für DWG.
 
-DWG (von Zeichnung) ist ein proprietäres, quellgeschlossenes, binäres Dateiformat, das zum Speichern von zwei- und drei-dimensionalen Konstruktionsdaten und Metadaten verwendet wird. FreeCAD benötigt den [externer ODA Dateikonverter](FreeCAD_and_DWG_Import/de.md), um DWG Dateien zu verarbeiten.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Für das DWG Format kannst du nur den Pfad zu ODA festlegen. **Hinweis:** Alle Einstellungen für das DXF Dateiformat gelten auch für DWG.
-
-
-</div>
-
-For the DWG format you can specify the following:
-
-
-<div class="mw-translate-fuzzy">
+Für das DWG-Format kann man folgendes festlegen:
 
 +++
-| Name                                        | Beschreibung                               |
-+=============================================+============================================+
-|                              | Legt den Pfad zum ODA Dateikonverter fest. |
-| **Pfad zum ODA Dateikonverter** |                                            |
-|                                          |                                            |
+| Name                                    | Beschreibung                                                                                                                                                                                                                                                                                                                    |
++=========================================+=================================================================================================================================================================================================================================================================================================================================+
+|                          | Auswahl des zu verwendenden DWG-Konverters:                                                                                                                                                                                                                                                                                     |
+| **Umwandlungsmethode**      |                                                                                                                                                                                                                                                                                                                                 |
+|                                      | -   **Automatic**: FreeCAD wird versuchen automatisch einen Konverter zu finden und folgt dafür der Reihenfolge der restlichen Liste.                                                                                                                                                                                           |
+|                                         | -   **LibreDWG**: [LibreDWG](https://www.gnu.org/software/libredwg/) ist eine Open-Source-Bibliothek zum Lesen und Schreiben von DWG-Daten. Sie unterstützt einige DWG-Datentypen nicht und liefert nicht immer zuverlässige Ergebnisse.                                                                                        |
+|                                         | -   **ODA Converter**: Der [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) ist ein freies Dienstprogramm, das von der Open Design Alliance zur Verfügung gestellt wird. Es liefert sehr gute und zuverlässige Ergebnisse.                                                                        |
+|                                         | -   **QCAD pro**: [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) ist die kostenpflichtige Version der DXF-basierten 2D-CAD-Umgebung des quelloffenen QCAD. Ihr DWG-Konverter verwendet die Teigha-Bibliotheken der Open Design Alliance und liefert daher die gleichen guten Ergebnisse wie der ODA-Converter. |
+|                                         |                                                                                                                                                                                                                                                                                                                                 |
+|                                         |                                                                                                                                                                                                                                                                                                                  |
+|                                         | {{Version/de|0.20}}                                                                                                                                                                                                                                                                                                             |
+|                                         |                                                                                                                                                                                                                                                                                                                              |
 +++
-
-
-</div>
-
-
-<small>(v0.20)</small> 
-
-\|- \| **Path to file converter** \| FreeCAD will try to find the path to the ODA Converter automatically on Linux and Windows. If it is unable to find it, or if you are using the macOS or a different DWG converter, you need to specify the path to the executable here:
-
--    {{FileName|dwg2dxf.exe}}(LibreDWG)
-
--    {{FileName|ODAFileConverter.exe}}(ODA File Converter)
-
--    {{FileName|dwg2dwg.exe}}(QCAD pro).
-
-
-<small>(v0.20)</small> 
-
-\|}
+|                          | FreeCAD wird unter Linux und Windows versuchen den Pfad zum ODA Converter automatisch zubinden. Wenn es ihn nicht finden kann, macOS verwendet wird oder ein anderer Konverter eingesetzt wird, muss der Pfad zur ausführbaren Datei hier angegeben werden:                                                                     |
+| **Pfad zum Dateiumwandler** |                                                                                                                                                                                                                                                                                                                                 |
+|                                      | -                                                                                                                                                                                                                                                                                                                |
+|                                         |     {{FileName|dwg2dxf.exe}}                                                                                                                                                                                                                                                                                                    |
+|                                         |                                                                                                                                                                                                                                                                                                                              |
+|                                         |     (LibreDWG)                                                                                                                                                                                                                                                                                                                  |
+|                                         |                                                                                                                                                                                                                                                                                                                                 |
+|                                         | -                                                                                                                                                                                                                                                                                                                |
+|                                         |     {{FileName|ODAFileConverter.exe}}                                                                                                                                                                                                                                                                                           |
+|                                         |                                                                                                                                                                                                                                                                                                                              |
+|                                         |     (ODA File Converter)                                                                                                                                                                                                                                                                                                        |
+|                                         |                                                                                                                                                                                                                                                                                                                                 |
+|                                         | -                                                                                                                                                                                                                                                                                                                |
+|                                         |     {{FileName|dwg2dwg.exe}}                                                                                                                                                                                                                                                                                                    |
+|                                         |                                                                                                                                                                                                                                                                                                                              |
+|                                         |     (QCAD pro).                                                                                                                                                                                                                                                                                                                 |
+|                                         |                                                                                                                                                                                                                                                                                                                                 |
+|                                         |                                                                                                                                                                                                                                                                                                                  |
+|                                         | {{Version/de|0.20}}                                                                                                                                                                                                                                                                                                             |
+|                                         |                                                                                                                                                                                                                                                                                                                              |
++++
 
 ![](images/Preferences_Import_Export_Tab_DWG.png )
 

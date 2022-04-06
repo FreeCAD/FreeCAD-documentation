@@ -109,7 +109,9 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Wall tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Wall tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Wall = makeWall(baseobj=None, length=None, width=None, height=None, align="Center", face=None, name="Wall")
 ```

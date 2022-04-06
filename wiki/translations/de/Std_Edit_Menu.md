@@ -5,7 +5,7 @@
 
 ## Einführung
 
-Das **Std Bearbeitungsmenü** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md):
+Das **Std Menü Bearbeiten** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md):
 
 
 {{StdMenu

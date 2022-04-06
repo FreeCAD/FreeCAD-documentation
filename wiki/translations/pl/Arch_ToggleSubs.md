@@ -9,9 +9,9 @@
 
 # Arch ToggleSubs/pl
 
-## Description
+## Opis
 
-This tools toggles the visibility of all the subtractions of an [Arch](Arch_Workbench.md) object between visible and hidden.
+To narzędzie przełącza widoczność wszystkich obiektów będącymi wynikami odejmowania obiektu [Architektury](Arch_Workbench/pl.md) między widocznym a ukrytym.
 
 Normally, if an Arch object, like an [Arch Wall](Arch_Wall.md), is selected and you press **Space** only the external wall will be hidden or made visible, but not the internal objects.
 

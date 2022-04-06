@@ -1,19 +1,19 @@
 # Release notes 0.17/pl
 <div id="itsfree" style="text-align:left;color:black;background:#f6f6f6;margin:1em 7em;padding:0.5em 2em;border:2px solid #a7d7f9;">
 
-*This release of FreeCAD is dedicated to our friend Roland Frank [who left us in 2017](https://forum.freecadweb.org/viewtopic.php?f=8&t=25673). He was an active and well-appreciated member of the FreeCAD forum, and his video tutorials on the [Learn FreeCAD](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) and [BPLFRE](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) Youtube channels helped many people get started with FreeCAD.*
+**To wydanie FreeCAD jest dedykowane naszemu przyjacielowi Rolandowi Frankowi \[<https://forum.freecadweb.org/viewtopic.php?f=8&t=25673>, który opuścił nas w 2017 roku\]. Był on aktywnym i docenianym członkiem forum FreeCAD, a jego poradniki wideo na kanałach Youtube [Learn FreeCAD](https://www.youtube.com/watch?v=_HEvhclR4-o&list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) i [BPLFRE](https://www.youtube.com/watch?v=m49z0weonog&list=PLsrwVwvqYb8G4Ri0iz1JIebsOXkgoytAY) pomogły wielu osobom rozpocząć przygodę z programem FreeCAD.**
 
 
 </div>
 
-FreeCAD 0.17 was released on 06 April, 2018, get it from the [Download](Download.md) page. This is a summary of the most interesting changes. The complete list of changes can be found in the [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73).
+FreeCAD 0.17 został wydany 06 kwietnia, 2018, pobierz go z [GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.17). To jest podsumowanie najciekawszych zmian. Pełną listę zmian można znaleźć w [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73).
 
-Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_notes.md).
+Starsze notatki dotyczące wydania FreeCAD można znaleźć w [informacjach o wydaniu](Feature_list/pl#Informacje_o_wydaniu.md).
 
 <img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
 *Garden Railway Coach O&K (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
 
-## Highlights
+## Najważniejsze informacje 
 
 It\'s been 2 years since the previous 0.16 release, but the FreeCAD team didn\'t stay idle during that time. More than 6,800 revisions were added to FreeCAD\'s source code. For comparison, this is more than three times the work done between v0.16 and 0.15! Most existing workbenches benefited from improvements, and two completely new workbenches were added. New additional modules were also developed by the community. Some of the highlights:
 

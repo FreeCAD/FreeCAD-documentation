@@ -24,7 +24,7 @@ L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Toiture](Arch_Roof/fr.md
 1.  Créez un fil dans le sens antihoraire et sélectionnez le.
     -   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
 
-2.  Cliquez sur le bouton **<img src="images/Arch_Roof.svg" width=16px> [Crée un objet Toiture...](Arch_Roof/fr.md)** ou appuyez sur les touches **R** puis **F**.
+2.  Cliquez sur le bouton **<img src="images/Arch_Roof.svg" width=16px> [Toiture](Arch_Roof/fr.md)** ou appuyez sur les touches **R** puis **F**.
 
 3.  L\'objet Toit par défaut a l\'air étrange car l\'outil manque certaines informations nécessaires.
 
@@ -53,17 +53,17 @@ L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Toiture](Arch_Roof/fr.md
 
 ## Propriétés
 
--    {{PropertyData/fr|Angles}}: Liste les angles des pans de la toiture (un angle pour chaque pan) de la pente.
+-    **Angles**: Liste les angles des pans de la toiture (un angle pour chaque pan) de la pente.
 
--    {{PropertyData/fr|Runs}}: Liste de la largeur du pan de la toiture (une pour chaque bord).
+-    **Runs**: Liste de la largeur du pan de la toiture (une pour chaque bord).
 
--    {{PropertyData/fr|IdRel}}: Liste des relations Id de l\'angle de pente du toit.
+-    **IdRel**: Liste des relations Id de l\'angle de pente du toit.
 
--    {{PropertyData/fr|Thickness}}: Liste de l\'épaisseur du pan de la toiture. (Une épaisseur pour chaque bord).
+-    **Thickness**: Liste de l\'épaisseur du pan de la toiture. (Une épaisseur pour chaque bord).
 
--    {{PropertyData/fr|Overhang}}: Liste de la saillie du pan de la toiture (un surplomb pour chaque bord).
+-    **Overhang**: Liste de la saillie du pan de la toiture (un surplomb pour chaque bord).
 
--    {{PropertyData/fr|Face}}: Indice de la face de l\'objet de base utilisée (Pas vraiment utilisé).
+-    **Face**: Indice de la face de l\'objet de base utilisée (Pas vraiment utilisé).
 
 ## Script
 

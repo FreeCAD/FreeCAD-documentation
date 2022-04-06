@@ -17,47 +17,47 @@
 
 
 
-*On the left: active body (A) with tool bodies (B) and (C); result on the right after a Boolean Cut.*
+*Po lewej: aktywna zawartość ''(A)'' z bryłami narzędziowymi ''(B)'' i ''(C)''. Po prawej: wynik po wykonaniu operacji przecięcia.*
 
 ## Użycie
 
-1.  [Activate the Body](PartDesign_Body#Active_status.md) which is to receive the Boolean feature. ***Note**: It is important that neither the active Body nor any of the features it contains be selected!*
-2.  Press the **<img src="images/PartDesign_Boolean.svg" width=16px> [PartDesign Boolean](PartDesign_Boolean.md)** button.
-3.  In **Boolean Parameters**, click on the **Add body** button. The active body temporarily disappears from the [3D view](3D_view.md) to facilitate tool body selection.
-4.  In the 3D view, select the Body to use in the Boolean feature. Repeat to add more Bodies.
-5.  Select the type of Boolean operation in the drop down menu (Fuse, Cut or Common)
-6.  Click **OK**.
+1.  [Aktywuj zawartość](PartDesign_Body/pl#Pojedyncza_ci.C4.85g.C5.82a_bry.C5.82a.md), która ma otrzymać cechę operacji logicznej. \'\'*\' Uwaga*: Ważne jest, aby ani aktywna zawartość, ani żadna z zawartych w niej cech nie były wybrane!\'\'
+2.  Naciśnij przycisk **<img src="images/PartDesign_Boolean.svg" width=16px> [Operacja logiczna](PartDesign_Boolean/pl.md)**.
+3.  W **Parametrach logicznych** kliknij przycisk **Dodaj zawartość**. Aktywna bryła tymczasowo znika z okna [widoku 3D](3D_view/pl.md), co ułatwia wybór zawartości dla narzędzia.
+4.  W w oknie widoku 3D wybierz zawartość, którą chcesz wykorzystać w funkcji logicznej. Powtórz czynność, aby dodać więcej zawartości.
+5.  Wybierz typ operacji logicznej w menu rozwijanym *(Scalenie, Wytnij lub Część wspólna)*.
+6.  Kliknij przycisk **OK**.
 
-Alternatively, one or more Bodies can be selected prior to pressing the Boolean button; they will be automatically added.
+Alternatywnie można wybrać jedną lub więcej brył przed użyciem przycisku Operacji logicznej, zostaną one dodane automatycznie.
 
 ## Opcje
 
--   **Fuse:** merges the tool body or bodies to the active body.
--   **Cut:** subtracts the tool body or bodies from the active body.
--   **Common:** extracts the intersection from the selected body or bodies with the active body
--   Press the **Remove body** button to remove a body, by selecting it in the [3D view](3D_view.md).
+-   **Scalenie:** łączy bryłę lub bryły narzędzia z bryłą aktywną.
+-   **Wytnij:** odejmuje bryłę lub bryły narzędzia od bryły aktywnej.
+-   **Część wspólna:** wycina obszar wspólny z wybranej zawartości, lub kilku zawartości z aktywną zawartością
+-   Naciśnij przycisk **Usuń zawartość**, aby usunąć zawartość, zaznaczając ją w oknie [widoku 3D](3D_view/pl.md).
 
 ## Właściwości
 
--    **Type**: sets the Boolean operation (Fuse, Cut, Common)
+-    **Typ**: ustawia operację logiczną *(Scalenie, Wytnij, Część wspólna)*
 
--    **Label**: name given to the operation, this name can be changed at convenience.
+-    **Etykieta**: nazwa nadana operacji, nazwę tę można dowolnie zmieniać.
 
--    **Group**: lists the tool bodies.
+-    **Grupa**: lista zawartości będących narzędziami.
 
--    **Display**: sets the display between 2 modes:
+-    **Wyświetlanie**: ustawia wyświetlanie pomiędzy dwoma trybami:
 
-    -   Result (default): displays the result of the Boolean feature. In this mode, the tool Bodies cannot be displayed in their original state, even when their visibility is toggled on.
-    -   Tools: displays the tool Bodies in their original state. This mode is useful when tool Bodies need to be edited, or used in later operations.
+    -   Wynik *(domyślnie)*: wyświetla wynik działania funkcji logicznej. W tym trybie Zawartości narzędzi nie mogą być wyświetlane w stanie oryginalnym, nawet jeśli ich widoczność jest włączona.
+    -   Narzędzia: wyświetla Zawartości narzędzi w ich oryginalnym stanie. Tryb ten jest przydatny, gdy Zawartości narzędzi muszą być edytowane lub używane w późniejszych operacjach.
 
--    **Selectable**: true or false. If set to false, the feature cannot be selected in the 3D view.
+-    **Wybieralne**: możliwe wartości {{true/pl}} lub {{false/pl}}. Jeśli ustawiono wartość false, element nie może być wybrany w oknie widoku 3D.
 
--    **Visibility**: true or false. Toggles the feature\'s visibility in the 3D view.
+-    **Widoczność**: możliwe wartości {{true/pl}} lub {{false/pl}}. Przełącza widoczność elementu w oknie widoku 3D.
 
 ## Ograniczenia
 
--   For Common to work with more than one tool body, they must all intersect each other along with the active Body.
--   Tool bodies adopt the local origin of the active Body. If the active Body is not located at (0,0,0) in the global coordinate system, the tool bodies\' placement need to be relative to the active Body. It may be easier to leave the active Body\'s placement at the origin before applying the Boolean feature, than to change its placement.
+-   Aby narzędzie Część wspólna mogło pracować z więcej niż jedną Zawartością jako narzędzia, muszą one przecinać się nawzajem wraz z aktywnym korpusem.
+-   Zawartości będące narzędziami przyjmują jako lokalny początek położenia aktywną zawartość. Jeśli aktywna zawartość nie znajduje się w punkcie *(0,0,0)* w globalnym układzie współrzędnych, umieszczenie zawartości narzędzi musi być względne w stosunku do aktywnej bryły. Łatwiejsze może być pozostawienie położenia aktywnej zawartości na początku przed zastosowaniem cechy logicznej niż zmiana jej położenia.
 
 
 

@@ -102,6 +102,11 @@ Wand-Objekte erben die Eigenschaften von [Part](Part_Workbench/de.md)-Objekten u
 
 -    {{PropertyData/de|Count Broken}}: Die Anzahl von geschnittenen (broken) Bausteinen (read-only)
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skripten
 
 
@@ -109,7 +114,18 @@ Wand-Objekte erben die Eigenschaften von [Part](Part_Workbench/de.md)-Objekten u
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Wand-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Das Wand-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
+
+
+</div>
+
+
 ```python
 Wall = makeWall(baseobj=None, length=None, width=None, height=None, align="Center", face=None, name="Wall")
 ```

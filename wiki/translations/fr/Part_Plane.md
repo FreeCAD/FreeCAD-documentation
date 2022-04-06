@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Plane
    Name/fr:Part Plan
-   MenuLocation:Pièce → [Créer des primitives](Part_Primitives/fr.md) → Plan
+   MenuLocation:Part → [Créer des primitives](Part_Primitives/fr.md) → Plan
    Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)
 ---

@@ -267,19 +267,23 @@ We are happy that the project [KiCAD](https://www.kicad.org/), through the [KiCA
 ## FEM Workbench 
 
    
+  <img alt="" src=images/FEM_Z88-settings_relnotes_0.20.png  style="width:384px;">The new Z88 settings and their default values                                                                               The [Z88 solver](FEM_SolverZ88.md) is now fully usable. You can now specify the solver method and change the memory settings. The new default values allow you to also perform complex simulations directly. [commit d035bbc1ca and following](https://github.com/FreeCAD/FreeCAD/commit/d035bbc1ca)
   <img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature_relnotes_0.20.png  style="width:384px;">Effect of *Mesh Size From Curvature*; left: set to 12, right: deactivated                       There is a new property for the [Gmsh](FEM_MeshGmshFromShape.md) mesher. The number of mesh elements per $2\pi$ times the radius of the curvature can be specified. The default is 12 and to get a finer mesh at small corners or holes, this value can be increased for better results. This feature requires Gmsh 4.8 or newer. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=56401), [Pull request \#4596](https://github.com/FreeCAD/FreeCAD/pull/4596)
   <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width:384px;">Effect of the rcombination algorithm; left: using *Simple*, right: using *Simple full-quad*   FreeCAD allows now to select an algorithm as well as 3D mesh recombination for the [Gmsh](FEM_MeshGmshFromShape.md) mesher. For more details about the mesh element recombination see [FEM MeshGmshFromShape](FEM_MeshGmshFromShape#Element_Recombination.md). [Pull request \#4706](https://github.com/FreeCAD/FreeCAD/pull/4706)
    
 
 ### Further FEM improvements 
 
+-   **Important:** Starting from this release, FreeCAD will use SI units (m, kg, s, K, A, mol, cd) to write the [Elmer solver](FEM_SolverElmer.md) input files (*case.sif* and *mesh.nodes*). This is independent of the used FreeCAD [unit system](Preferences_Editor#Units.md).
+-   **Important:** Starting from this release, the scale of [result pipelines](FEM_PostPipelineFromResult.md) and their filters will use SI units (m, kg, s, K, A, mol, cd). So the displacement is given in meter, the stress in Pascal. This applies for all SI-derived FreeCAD [unit systems](Preferences_Editor#Units.md).
 -   Support for linear buckling analyses was added for the [Calculix](FEM_SolverCalculixCxxtools.md) solver. [Pull request \#4379](https://github.com/FreeCAD/FreeCAD/pull/4379)
+-   Solving with the [Calculix](FEM_SolverCalculixCxxtools.md) solver now uses all CPU cores. [Pull request \#6374](https://github.com/FreeCAD/FreeCAD/pull/6374)
+-   Meshing with [Gmsh](FEM_MeshGmshFromShape.md) now uses all CPU cores. [Pull request \#6370](https://github.com/FreeCAD/FreeCAD/pull/6370)
+-   The element order of [Gmsh](FEM_MeshGmshFromShape.md) meshes can be changed via the mesh dialog. [Pull request \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660)
 -   A new constraint was added: **Model → Mechanical Constraints → [<img src=images/FEM_ConstraintCentrif.svg style="width:16px"> [Constraint Centrif](FEM_ConstraintCentrif.md)**. [Pull request \#4738](https://github.com/FreeCAD/FreeCAD/pull/4738)
 -   A new solver was added: **Solve → [<img src=images/FEM_SolverMystran.svg style="width:16px"> [Solver Mystran](FEM_SolverMystran.md)**. Multiple commits.
 -   A new constraint was added: **Model → Mechanical Constraints → [<img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Constraint Spring](FEM_ConstraintSpring.md)**. [Pull request \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982)
--   Meshing with the [Calculix](FEM_SolverCalculixCxxtools.md) solver now uses all CPU cores. [Pull request \#6374](https://github.com/FreeCAD/FreeCAD/pull/6374)
--   Meshing with [Gmsh](FEM_MeshGmshFromShape.md) now uses all CPU cores. [Pull request \#6370](https://github.com/FreeCAD/FreeCAD/pull/6370)
--   The element order of [Gmsh](FEM_MeshGmshFromShape.md) meshes can be changed via the mesh dialog. [Pull request \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660)
+-   It is now possible to have [result pipelines](FEM_PostPipelineFromResult.md) with several filters, where some take other filters as input, some take the results directly from the pipeline. [commit 708a300b](https://github.com/FreeCAD/FreeCAD/commit/708a300b)
 -   Material cards can now contain values for the electrical conductivity. [Pull request \#4647](https://github.com/FreeCAD/FreeCAD/pull/4647)
 -   Material cards added for Nitrogen and Argon. [Pull request \#4649](https://github.com/FreeCAD/FreeCAD/pull/4649)
 -   Support for the [Gmsh](FEM_MeshGmshFromShape.md) mesh algorithms \"HXT\" (3D) and \"Packing Parallelograms\" (2D) added. [Pull request \#4654](https://github.com/FreeCAD/FreeCAD/pull/4654)
@@ -289,8 +293,6 @@ We are happy that the project [KiCAD](https://www.kicad.org/), through the [KiCA
 -   Most FEM constraint dialogs now behave uniformly and provide the same 3D object selection features. [Pull request \#5391](https://github.com/FreeCAD/FreeCAD/pull/5391)
 
 ## Import
-
-## Material handling 
 
 ## Mesh
 
@@ -400,13 +402,13 @@ There is also a text box for feedback of OpenSCAD errors.
 -   The behavior of the <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> [Slot](Sketcher_CreateSlot.md) tool has changed. Slots can now be created by defining the center of both semicircles. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4843) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
 -   Visibility automation allows to open Sketcher in [Section mode](Sketcher_ViewSection.md) when entering edit mode. [Pull request \#4742](https://github.com/FreeCAD/FreeCAD/pull/4742) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=57056)
 -   Visibility automation allows to force camera in [Orthographic mode](Std_OrthographicCamera.md) when entering edit mode. [Pull request \#4778](https://github.com/FreeCAD/FreeCAD/pull/4778) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=44747)
--   Option to display the dimensional constraint name and use a custom format for it. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4966) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?t=61153)
+-   Option to display the dimensional constraint name and use a custom format for it. [Pull request \#4966](https://github.com/FreeCAD/FreeCAD/pull/4966) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?t=61153)
 -   When sketching a [3-point arc](Sketcher_Create3PointArc.md) with Autoconstraint enabled, [tangent constraint](Sketcher_ConstrainTangent.md) is proposed for all 3 points when hovering a line/curve. [Pull request \#4945](https://github.com/FreeCAD/FreeCAD/pull/4945) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=60596&p=520217#p520209)
 -   Radius/diameter constraints are displayed using an angular rotation to ease visualization. Angle and optional randomness are user settable through parameters documented in [Fine-tuning](Fine-tuning.md). [Pull request \#4934](https://github.com/FreeCAD/FreeCAD/pull/4934) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=60370)
 -   It is now possible to fix the angle of the direction when using the [Rectangular array](Sketcher_RectangularArray.md) tool. [commitc9eaa239](https://github.com/FreeCAD/FreeCAD/commit/c9eaa239) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?p=535691#p535691)
 -   It is now possible to fix the angle of the direction when using the tools [Clone](Sketcher_Clone.md), [Copy](Sketcher_Copy.md) and [Move](Sketcher_Move.md). [commit](https://github.com/FreeCAD/FreeCAD/commit/6e4a09f569cf) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=62799)
 -   By right-clicking a sketch in the Tree view you will now get a context menu entry \"Attachment editor\" that opens the [Attachment dialog](Part_EditAttachment.md) to modify the attachment. [commit c3511ba2f0](https://github.com/FreeCAD/FreeCAD/commit/c3511ba2f0)
--   Constraint selection is disabled when using a geometry or constraint tool. It can also be disabled manually at any time by pressing Shift key. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/5398) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=65465)
+-   Constraint selection is disabled when using a geometry or constraint tool. It can also be disabled manually at any time by pressing **Shift** key. [Pull request \#5398](https://github.com/FreeCAD/FreeCAD/pull/5398) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=65465)
 -   A versatile view filter has been added in the Sketcher task panel to ease constraints visibility management [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=60569)
 -   It is now possible to set the degree of a B-Spline ([Pull request \#6463](https://github.com/FreeCAD/FreeCAD/pull/6463)) and undo the last defined control point ([Pull request \#6476](https://github.com/FreeCAD/FreeCAD/pull/6476)) at creation time.
 

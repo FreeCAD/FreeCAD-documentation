@@ -9,11 +9,11 @@
 
 # Arch IfcSpreadsheet/pl
 
-## Description
+## Opis
 
-This tool creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object.
+To narzędzie tworzy arkusz kalkulacyjny do przechowywania właściwości [IFC](Arch_IFC/pl.md) obiektu.
 
-## Usage
+## Użycie
 
 1.  Select an object.
 2.  Invoke the command using several methods:

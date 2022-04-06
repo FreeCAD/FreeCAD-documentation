@@ -75,7 +75,13 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 -   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Criar um sistema de coordenadas local](PartDesign_CoordinateSystem/pt-br.md): cria um sistema de coordenadas local anexado à geometria do datum no corpo ativo.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Criar um aglutinante de forma](PartDesign_ShapeBinder/pt-br.md): cria um aglutinante de forma no corpo ativo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

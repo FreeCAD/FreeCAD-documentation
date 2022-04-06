@@ -20,15 +20,7 @@ rob = Robot6Axis()
 print rob
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-accéder à l\'axe et au TCP. Les axes vont de 1 à 6 et sont en degrés :
-
-
-</div>
-
-
+accéder à l\'axe et au TCP. Les axes vont de 1 à 6 et sont en degrés : 
 ```python
 Start = rob.Tcp
 print Start
@@ -40,15 +32,7 @@ déplacer le premier axe du robot :
 rob.Axis1 = 5.0
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-le TCP a changé (cinématique avant)
-
-
-</div>
-
-
+le TCP a changé (cinématique avant) 
 ```python
 print rob.Tcp
 ```
@@ -116,15 +100,7 @@ App.activeDocument().Robot.Axis2 = -90
 App.activeDocument().Robot.Axis3 = 90
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-récupère la position TCP
-
-
-</div>
-
-
+récupère la position TCP 
 ```python
 pos = FreeCAD.getDocument("Unnamed").getObject("Robot").Tcp
 ```

@@ -254,19 +254,23 @@ Nous sommes heureux que le projet [KiCAD](https://www.kicad.org/), par le biais 
 ## Atelier FEM 
 
    
+  <img alt="" src=images/FEM_Z88-settings_relnotes_0.20.png  style="width:384px;">Les nouveaux paramètres Z88 et leurs valeurs par défaut                                                                                               Le [solveur Z88](FEM_SolverZ88/fr.md) est maintenant entièrement utilisable. Vous pouvez maintenant spécifier la méthode de solveur et modifier les paramètres de mémoire. Les nouvelles valeurs par défaut vous permettent également d\'effectuer directement des simulations complexes. [commit d035bbc1ca et suivants](https://github.com/FreeCAD/FreeCAD/commit/d035bbc1ca)
   <img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature_relnotes_0.20.png  style="width:384px;">Effet de \"la taille du maillage à partir de la courbure\". À gauche : réglé sur 12, à droite : désactivé                 Il existe une nouvelle propriété pour le mailleur [Gmsh](FEM_MeshGmshFromShape/fr.md). Le nombre d\'éléments de maillage par $2\pi$ fois le rayon de la courbure peut être spécifié. La valeur par défaut est 12 et pour obtenir un maillage plus fin aux petits coins ou trous, cette valeur peut être augmentée pour de meilleurs résultats. Cette fonctionnalité nécessite Gmsh 4.8 ou plus récent. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=56401), [Pull request \#4596](https://github.com/FreeCAD/FreeCAD/pull/4596)
   <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width:384px;">Effet de l\'algorithme de recombinaison. À gauche : en utilisant *Simple*, à droite : en utilisant *Simple full-quad*   FreeCAD permet maintenant de sélectionner un algorithme ainsi que la recombinaison de maillage 3D pour le mailleur [Gmsh](FEM_MeshGmshFromShape/fr.md). Pour plus de détails sur la recombinaison des éléments de maillage, [FEM Maillage MEF à partir d\'une forme avec Gmsh](FEM_MeshGmshFromShape/fr#Recombinaison_d.27.C3.A9l.C3.A9ments.md). [Pull request \#4706](https://github.com/FreeCAD/FreeCAD/pull/4706)
    
 
 ### Autres améliorations de FEM 
 
+-   **Important:** A partir de cette version, FreeCAD utilisera les unités SI (m, kg, s, K, A, mol, cd) pour écrire les fichiers d\'entrée du [solveur Elmer](FEM_SolverElmer/fr.md) (*case.sif* et *mesh.nodes*). Ceci est indépendant du [système d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) utilisé par FreeCAD.
+-   **Important:** A partir de cette version, l\'échelle des [résultats](FEM_PostPipelineFromResult/fr.md) et de leurs filtres utilisera les unités SI (m, kg, s, K, A, mol, cd). Ainsi, le déplacement est donné en mètre, la contrainte en Pascal. Ceci s\'applique à tous les [systèmes d\'unités](Preferences_Editor/fr#Unit.C3.A9s.md) dérivés du SI de FreeCAD .
 -   Le support des analyses de flambage linéaire a été ajouté pour le solveur [Calculix](FEM_SolverCalculixCxxtools/fr.md). [Pull request \#4379](https://github.com/FreeCAD/FreeCAD/pull/4379)
--   Une nouvelle contrainte a été ajoutée : **Modèle → Contraintes mécaniques → [<img src=images/FEM_ConstraintCentrif.svg style="width:16px"> [Constrainte centrifuge](FEM_ConstraintCentrif/fr.md)**. [Pull request \#4738](https://github.com/FreeCAD/FreeCAD/pull/4738)
--   Un nouveau solveur a été ajouté : **Solveur → [<img src=images/FEM_SolverMystran.svg style="width:16px"> [Solveur Mystran](FEM_SolverMystran/fr.md)**. De nombreux commits.
--   Une nouvelle contrainte a été ajoutée : **Modèle → Contraintes géométriques → [<img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Contrainte ressort](FEM_ConstraintSpring/fr.md)**. [Pull request \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982)
 -   Le maillage avec le solveur [Calculix](FEM_SolverCalculixCxxtools/fr.md) utilise désormais tous les cœurs du processeur. [Pull request \#6374](https://github.com/FreeCAD/FreeCAD/pull/6374)
 -   Le maillage avec [Gmsh](FEM_MeshGmshFromShape/fr.md) utilise désormais tous les cœurs du CPU. [Pull request \#6370](https://github.com/FreeCAD/FreeCAD/pull/6370)
 -   L\'ordre des éléments des maillages [Gmsh](FEM_MeshGmshFromShape/fr.md) peut être modifié via la boîte de dialogue de maillage. [Pull request \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660)
+-   Une nouvelle contrainte a été ajoutée : **Modèle → Contraintes mécaniques → [<img src=images/FEM_ConstraintCentrif.svg style="width:16px"> [Constrainte centrifuge](FEM_ConstraintCentrif/fr.md)**. [Pull request \#4738](https://github.com/FreeCAD/FreeCAD/pull/4738)
+-   Un nouveau solveur a été ajouté : **Solveur → [<img src=images/FEM_SolverMystran.svg style="width:16px"> [Solveur Mystran](FEM_SolverMystran/fr.md)**. De nombreux commits.
+-   Une nouvelle contrainte a été ajoutée : **Modèle → Contraintes géométriques → [<img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Contrainte ressort](FEM_ConstraintSpring/fr.md)**. [Pull request \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982)
+-   Il est maintenant possible d\'avoir des [pipelines de résultats](FEM_PostPipelineFromResult/fr.md) avec plusieurs filtres, où certains prennent d\'autres filtres en entrée, d\'autres prennent les résultats directement du pipeline. [commit 708a300b](https://github.com/FreeCAD/FreeCAD/commit/708a300b)
 -   Les cartes de matériaux peuvent désormais contenir des valeurs de conductivité électrique. [Pull request \#4647](https://github.com/FreeCAD/FreeCAD/pull/4647)
 -   Cartes de matériaux ajoutées pour l\'azote et l\'argon. [Pull request \#4649](https://github.com/FreeCAD/FreeCAD/pull/4649)
 -   Ajout de la prise en charge des algorithmes de maillage \"HXT\" (3D) et \"Packing Parallelograms\" (2D) de [Gmsh](FEM_MeshGmshFromShape/fr.md). [Pull request \#4654](https://github.com/FreeCAD/FreeCAD/pull/4654)
@@ -276,8 +280,6 @@ Nous sommes heureux que le projet [KiCAD](https://www.kicad.org/), par le biais 
 -   La plupart des dialogues de contraintes FEM se comportent désormais de manière uniforme et offrent les mêmes fonctionnalités de sélection des objets 3D. [Pull request \#5391](https://github.com/FreeCAD/FreeCAD/pull/5391)
 
 ## Importation
-
-## Prise en main des matériaux 
 
 ## Atelier Mesh 
 
@@ -393,7 +395,7 @@ Il y a également une zone de texte pour le retour des erreurs d\'OpenSCAD.
 -   Il est maintenant possible de fixer l\'angle de la direction lors de l\'utilisation de l\'outil [Réseau rectangulaire](Sketcher_RectangularArray/fr.md). [commitc9eaa239](https://github.com/FreeCAD/FreeCAD/commit/c9eaa239) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?p=535691#p535691)
 -   Il est maintenant possible de fixer l\'angle de la direction lors de l\'utilisation des outils [Clone](Sketcher_Clone/fr.md), [Copier](Sketcher_Copy/fr.md) et [Déplacer](Sketcher_Move/fr.md). [commit](https://github.com/FreeCAD/FreeCAD/commit/6e4a09f569cf) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=62799)
 -   En cliquant avec le bouton droit de la souris sur une esquisse dans l\'arborescence, vous obtiendrez désormais une entrée de menu contextuel \"Éditeur de pièce jointe\" qui ouvre la [boîte de dialogue d\'Ancrage](Part_EditAttachment/fr.md) pour modifier la pièce jointe. [commit c3511ba2f0](https://github.com/FreeCAD/FreeCAD/commit/c3511ba2f0)
--   La sélection des contraintes est désactivée lors de l\'utilisation d\'un outil de géométrie ou de contrainte. Elle peut également être désactivée manuellement à tout moment en appuyant sur la touche Maj. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/5398) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=65465)
+-   La sélection des contraintes est désactivée lors de l\'utilisation d\'un outil de géométrie ou de contrainte. Elle peut également être désactivée manuellement à tout moment en appuyant sur la touche **Maj**. [Pull request \#5398](https://github.com/FreeCAD/FreeCAD/pull/5398) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=65465)
 -   Un filtre d\'affichage polyvalent a été ajouté dans le panneau de tâches de Sketcher pour faciliter la gestion de la visibilité des contraintes [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=60569).
 -   Il est désormais possible de définir le degré d\'une B-Spline ([Pull request \#6463](https://github.com/FreeCAD/FreeCAD/pull/6463)) et d\'annuler le dernier point de contrôle défini ([Pull request \#6476](https://github.com/FreeCAD/FreeCAD/pull/6476)) au moment de la création.
 

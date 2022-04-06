@@ -13,16 +13,16 @@
 
 ## Description
 
-L\'outil [Arch Escaliers](Arch_Stairs/fr.md) vous permet de construire automatiquement plusieurs types d\'escaliers. À l\'heure actuelle, seuls les escaliers droits (avec ou sans palier central) sont pris en charge. Les escaliers peuvent être construits à partir de zéro, ou d\'une ligne droite [Draft Ligne](Draft_Line/fr.md), auquel cas les escaliers suivent la ligne. Si la ligne n\'est pas horizontale mais a une inclinaison verticale, les escaliers suivront également sa pente.
+L\'outil [Arch Escalier](Arch_Stairs/fr.md) vous permet de construire automatiquement plusieurs types d\'escaliers. À l\'heure actuelle, seuls les escaliers droits (avec ou sans palier central) sont pris en charge. Les escaliers peuvent être construits à partir de zéro, ou d\'une ligne droite [Draft Ligne](Draft_Line/fr.md), auquel cas les escaliers suivent la ligne. Si la ligne n\'est pas horizontale mais a une inclinaison verticale, les escaliers suivront également sa pente.
 
-Voir : [Terminologie Escalier](https://fr.wikipedia.org/wiki/Escalier#Terminologie) pour une définition des différents termes utilisés pour décrire les parties d\'un escaliers.
+Voir la [Terminologie des escaliers](https://fr.wikipedia.org/wiki/Escalier#Terminologie) pour une définition des différents termes utilisés pour décrire les parties d\'un escaliers.
 
 <img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;"> 
 *Deux escaliers ont été créés: l'un avec une structure massive et un palier et un autre avec un seul limon.*
 
 ## Options
 
--   L\'outil stairs (escalier) partage les propriétés communes et les comportements de tous [Arch Composants](Arch_Component/fr.md)
+-   L\'outil Escalier partage les propriétés communes et les comportements de tous [Arch Composants](Arch_Component/fr.md)
 
 ## Utilisation
 

@@ -21,11 +21,11 @@ La commande <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> *
     -   Le bouton **<img src="images/_SheetMetal_Unfold.svg_" width=16px> [Unfold](SheetMetal_Unfold/fr.md)**.
     -   Le bouton **SheetMetal → <img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold/fr.md)** du menu.
     -   Le raccourci clavier : **U**.
-3.  Ajuster les options de dépliage dans le [Panneau des tâches](Task_panel/fr.md) par :
-    -   sélectionnant les options de projection de l\'esquisse de dépliage.
-    -   Sélectionnant la méthode de déduction du pliage avec [facteur K](https://github.com/shaise/FreeCAD_SheetMetal#terminology) :
+3.  Ajuster les options de dépliage dans le [Panneau des tâches](Task_panel/fr.md) en :
+    -   Sélectionnant les options de projection de l\'esquisse de dépliage.
+    -   Sélectionnant la méthode de déduction du pliage avec [Material Definition Sheet](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet) :
         - Utilisez une [fiche de définition du matériau](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet).
-        - Sélectionnez un [K-factor](https://github.com/shaise/FreeCAD_SheetMetal#terminology) manuel puis la norme ANSI ou DIN à appliquer.
+        - Sélectionnez un [K-factor](https://github.com/shaise/FreeCAD_SheetMetal#terminology) manuel puis la norme [ANSI ou DIN](https://de.wikipedia.org/wiki/Biegeverkürzung#Korrektur_durch_den_sog._k-Faktor) à appliquer.
 
 ## Propriétés
 

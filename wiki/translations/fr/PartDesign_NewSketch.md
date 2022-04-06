@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/fr
    Name:PartDesign NewSketch
-   Name/fr:PartDesign Nouvelle esquisse
+   Name/fr:PartDesign Esquisse
    MenuLocation:Esquisse → Créer une esquisse
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)
+   SeeAlso:[Sketcher Esquisse](Sketcher_NewSketch/fr.md)
 ---
 
 # PartDesign NewSketch/fr

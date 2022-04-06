@@ -106,7 +106,13 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Description**: All Arch Components have a Description field, that can contain any text. This is used when [exporting to IFC](Arch_IFC.md).
+
+
+</div>
 
 -   **Tag**: The Tag property is another text field, which can be used to give an additional custom identity to objects.
 

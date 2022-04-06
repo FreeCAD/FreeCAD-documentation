@@ -1,17 +1,18 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:FEM ConstantVacuumPermittivity
-   MenuLocation:Model → Overwrite Constraints → Constant vacuum permittivity
-   Workbenches:[FEM](FEM_Workbench.md)
+   Name/pl:MES: Przenikalność elektryczna próżni
+   MenuLocation:Model → Nadpisz stałe → Przenikalność elektryczna próżni
+   Workbenches:[MES](FEM_Workbench/pl.md)
    Version:0.19
    SeeAlso:
 ---
 
 # FEM ConstantVacuumPermittivity/pl
 
-## Description
+## Opis
 
-## Usage
+## Użycie
 
 
 

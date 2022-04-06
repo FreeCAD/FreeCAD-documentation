@@ -182,6 +182,9 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 ## Учебники
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Архитектурный рабочий процесс](http://yorik.uncreated.net/guestblog.php?tag=freecad): Пример начального использования FreeCAD в архитектурном процессе.
 -   [Учебник по архитектурному модулю](Arch_tutorial/ru.md) (v. 0.14)
 -   [Быстрый архитектурный обзор в блоге Yorik\'а](http://yorik.uncreated.net/guestblog.php?2012=180) (v. 0.13)
@@ -190,6 +193,9 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 -   [Глава моделирования BIM из руководства FreeCAD](Manual:BIM_modeling/ru.md)
 -   [Импорт из STL или OBJ](Import_from_STL_or_OBJ/ru.md)
 -   [Экспорт в STL или OBJ](Export_to_STL_or_OBJ/ru.md)
+
+
+</div>
 
 
 

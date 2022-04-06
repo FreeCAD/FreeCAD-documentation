@@ -33,6 +33,11 @@ Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platt
 
 ## Eigenschaften
 
+### Data
+
+
+<div class="mw-translate-fuzzy">
+
 ### Daten
 
 -    **Source**: Das von diesem Schnitt gezeigte [Arch Platte](Arch_Panel/de.md)-Objekt
@@ -49,11 +54,27 @@ Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platt
 
 -    **Make Face**: Falls {{Incode|True}} ist die Platte eine Fläche, anderenfalls ein Linienzug
 
+
+</div>
+
+### View
+
+
+<div class="mw-translate-fuzzy">
+
 ### Ansicht
 
 -    **Margin**: Ein Rand kann außerhalb der Tafelschnittform betrachtet werden
 
 -    **Show Margin**: Schaltet die Anzeige des Rands ein/aus
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -61,6 +82,9 @@ Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platt
 **Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+
+
+</div>
 
 Das Tafelschnittwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden: 
 ```python

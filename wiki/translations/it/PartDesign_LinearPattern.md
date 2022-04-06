@@ -55,7 +55,13 @@ To add or remove features from an existing pattern:
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 ![Parametri LinearPattern in v0.16 e precedenti.](images/Linearpattern_parameters.png ) ![Parametri LinearPattern in v0.17 e successive.](images/Linearpattern_parameters_v017.png )
+
+
+</div>
 
 ### Direzione
 
@@ -71,11 +77,23 @@ Usa l\'asse verticale dello schizzo per la direzione.
 
 #### Asse normale allo schizzo 
 
+
+<div class="mw-translate-fuzzy">
+
 v0.17 e superiori Usa l\'asse normale dello schizzo per la direzione.
+
+
+</div>
 
 #### Seleziona riferimento\... 
 
+
+<div class="mw-translate-fuzzy">
+
 Consente di selezionare una linea di riferimento, DatumLine, o un bordo di un oggetto o una linea di uno schizzo da utilizzare per la direzione.
+
+
+</div>
 
 #### Asse di schizzo personalizzato 
 
@@ -83,7 +101,13 @@ Se lo schizzo che definisce la funzione da modellare contiene anche una linea di
 
 #### Asse Base (X/Y/Z) 
 
+
+<div class="mw-translate-fuzzy">
+
 v0.17 e superiore Seleziona uno degli assi standard di Origine del Corpo (X, Y o Z) come direzione. 
+
+
+</div>
 
 ## Limitations
 

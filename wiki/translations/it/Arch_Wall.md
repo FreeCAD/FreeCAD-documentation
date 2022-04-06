@@ -129,6 +129,11 @@ Gli oggetti Muro ereditano le proprietà degli oggetti [Part](Part_Workbench/it.
 
 -    {{PropertyData/it|Count Broken}}: Il numero di blocchi interrotti (sola lettura)
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 
@@ -136,7 +141,18 @@ Gli oggetti Muro ereditano le proprietà degli oggetti [Part](Part_Workbench/it.
 
 [API Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Muro può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Muro può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+
+
+</div>
+
+
 ```python
 Wall = makeWall(baseobj=None, length=None, width=None, height=None, align="Center", face=None, name="Wall")
 ```

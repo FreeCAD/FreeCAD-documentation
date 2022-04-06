@@ -19,32 +19,32 @@ The body tube tool can be used to create many components other than body tubes, 
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Rocket_BodyTube.svg" width=16px> [Body Tube](Rocket_BodyTube.md)** button.
     -   Select the **Rocket → <img src="images/Rocket_BodyTube.svg" width=16px> Body Tube** option from the menu.
-    -   Double click on a Body Tube object in the model view.
+    -   Double click on a Body Tube object in the [Tree view](Tree_view.md).
 2.  Set options and press **OK**.
 
 ## Properties
+
+
+{{TitleProperty|Body Tube}}
+
+-    **Inner Diameter**: The diameter of the inside of the body tube
+
+-    **Length**: The length of the body tube
+
+-    **Outer Diameter**: The diameter of the outside of the body tube
 
 
 {{TitleProperty|Rocket Component}}
 
 These parameters are provided for information and have no effect on the design of the component.
 
--    **Manufacturer**: Manufacturer when known
-
--    **Part Number**: Manufacturer part number
-
 -    **Description**: Description of the component
+
+-    **Manufacturer**: Manufacturer when known
 
 -    **Material**: Material when known
 
-
-{{TitleProperty|Body Tube}}
-
--    **Length**: The length of the body tube
-
--    **Inner Diameter**: The diameter of the inside of the body tube
-
--    **Outer Diameter**: The diameter of the outside of the body tube
+-    **Part Number**: Manufacturer part number
 
 ## Scripting
 

@@ -6,7 +6,7 @@
 
 </div>
 
-FreeCAD 0.17 was released on 06 April, 2018, get it from the [Download](Download.md) page. This is a summary of the most interesting changes. The complete list of changes can be found in the [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73).
+FreeCAD 0.17 was released on 06 April, 2018, get it from [GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.17). This is a summary of the most interesting changes. The complete list of changes can be found in the [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73).
 
 Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_notes.md).
 

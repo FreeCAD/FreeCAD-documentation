@@ -1,46 +1,47 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std Placement
-   MenuLocation:Edit → Placement...
-   Workbenches:All
-   SeeAlso:[Std Alignment](Std_Alignment.md), [Placement](Placement.md)
+   Name/pl:Std: Umiejscowienie
+   MenuLocation:Edycja → Umiejscowienie ...
+   Workbenches:wszystkie
+   SeeAlso:[Wyrównanie](Std_Alignment/pl.md), [Umiejscowienie](Placement/pl.md)
 ---
 
 # Std Placement/pl
 
-## Description
+## Opis
 
-The **Std Placement** command displays the Placement [task panel](Task_panel.md) for a selected object.
+Polecenie **Std: Umiejscowienie** wyświetla [panel zadań](Task_panel/pl.md) Umiejscowienia dla wybranego obiektu.
 
 ![](images/Std_Placement_taskpanel.png ) 
-*The Placement task panel*
+*Panel zadań funkcji umiejscowienie*
 
-## Usage
+## Użycie
 
-1.  Select a single object that has a **Placement** property in the [property editor](Property_editor.md).
-2.  Select the **Edit → Placement...** option from the menu.
-3.  Change one or more of the translation and rotation parameters.
-4.  Do one of the following:
-    -   Press the **OK** button to apply the changes and close the task panel.
-    -   Press the **Apply** button to apply the changes, but keep the task panel open for further changes.
-5.  Press **Esc** or the **Cancel** button to abort the operation. This will undo any changes that have not been applied.
+1.  Zaznacz pojedynczy obiekt, który ma właściwość **Umiejscowienie** w [edytorze właściwości](Property_editor/pl.md).
+2.  Wybierz z menu opcję **Edycja → Umiejscowienie ...**.
+3.  Zmień jeden lub więcej parametrów przesunięcia i obrotu.
+4.  Wykonaj jedną z następujących czynności:
+    -   Naciśnij przycisk **OK**, aby zastosować zmiany i zamknąć panel zadań.
+    -   Naciśnij przycisk **Zastosuj**, aby zastosować zmiany, ale zachować panel zadań otwarty dla dalszych zmian.
+5.  Naciśnij klawisz **Esc** lub przycisk **Anuluj**, aby przerwać operację. Spowoduje to cofnięcie wszystkich zmian, które nie zostały zastosowane.
 
-The dialog can also be launched by clicking on the ellipsis button **...** that appears in the [property editor](Property_editor.md) when you click on the **Placement** property.
+Okno dialogowe można również uruchomić, klikając przycisk z wielokropkiem **...**, który pojawia się w [edytorze właściwości](Property_editor/pl.md) po kliknięciu właściwości **Umiejscowienie**.
 
-## Notes
+## Uwagi
 
--   For more information about the placement parameters see the [Placement](Placement.md) page, and the [Aeroplane](Aeroplane.md) tutorial.
+-   Więcej informacji na temat parametrów rozmieszczenia można znaleźć na stronie [Umiejscowienie](Placement/pl.md) oraz w poradniku [Samolot](Aeroplane/pl.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-See the [Python scripting tutorial](Python_scripting_tutorial#Vectors_and_placements.md).
+Zobacz również stronę [Tworzenie skryptów Python](Python_scripting_tutorial/pl#Wektory_i_umiejscowienia.md).
 
-A placement is internally defined by a matrix; in many cases it is simpler to represent it by means of two components, a `Base` point (vector), and a `Rotation` value. The `Rotation` itself has different representations; it can be entirely defined by the value of a \"[quaternion](https://en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, but it can also be described by a rotation `Axis` (unit vector) and a rotation `Angle` (radians).
+Umiejscowienie jest wewnętrznie zdefiniowane przez macierz. W wielu przypadkach prościej jest przedstawić je za pomocą dwóch składników, punktu *(wektora)* `Baza` i wartości `Obrót`. Sam `Obrót` ma różne reprezentacje. Może być całkowicie zdefiniowany przez wartość \"[quaternion](https://en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)`, ale może być również opisana przez rotację `Oś` *(wektor jednostkowy)* oraz rotację `Kąt` *(radiany)*.
 
 
 ```python
@@ -64,7 +65,7 @@ print(obj.Placement.Rotation.Q)
 # (0.0, 0.0, 0.0, 1.0)
 ```
 
-Move the base point of the object, then rotate the object 45 degrees around the X axis. 
+Przesuń punkt bazowy obiektu, a następnie obróć obiekt o 45° wokół osi X. 
 ```python
 import math
 

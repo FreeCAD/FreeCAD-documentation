@@ -136,6 +136,8 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 
 -    **Count Broken**: The number of broken blocks (read-only)
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 

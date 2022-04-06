@@ -3,6 +3,10 @@
 
 Są to ekrany powitalne, które zostały użyte w poszczególnych wersjach programu.
 
+## FreeCAD 0.20 
+
+![](images/Freecadsplash020.png )
+
 ## FreeCAD 0.19 
 
 ![](images/Freecadsplash019.png )

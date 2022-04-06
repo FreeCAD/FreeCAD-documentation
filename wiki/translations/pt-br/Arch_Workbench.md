@@ -182,6 +182,9 @@ A bancada (módulo) Arch pode ser usado em scripts [Python](Python/pt-br.md) e [
 
 ## Tutoriais
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Architecture workflow](http://yorik.uncreated.net/guestblog.php?tag=freecad): Um exemplo de como o FreeCAD pode começar a ter seu lugar preliminar em um fluxo de trabalho de arquitetura.
 -   [Tutorial Arch](Arch_tutorial/pt-br.md) (v0.14)
 -   [Visão geral rápida da Arch no blog de Yorik](http://yorik.uncreated.net/guestblog.php?2012=180) (v0.13)
@@ -190,6 +193,9 @@ A bancada (módulo) Arch pode ser usado em scripts [Python](Python/pt-br.md) e [
 -   [Capítulo de modelagem BIM do manual do FreeCAD](Manual:BIM_modeling/pt-br.md)
 -   [Importação de STL ou OBJ](Import_from_STL_or_OBJ/pt-br.md)
 -   [Exportação para STL ou OBJ](Export_to_STL_or_OBJ/pt-br.md)
+
+
+</div>
 
 
 

@@ -102,6 +102,37 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible mw-collapsed">
 
+#### FreeCAD-Benutzerschnittstelle ([Oberfläche](Interface/de#Einleitung.md)) 
+
+
+<div class="mw-collapsible-content toccolours">
+
+  Englischer Ausdruck   Funktion      Deutscher Ausdruck                                                              Anmerkung
+     
+  Interface                           **Oberfläche**, (Benutzer-)Schnittstelle                                        FreeCADs Hauptfenster
+  Main view area        Window area   **Hauptansichtsbereich**                                                        
+  3D view               Window area   **3D-Ansicht**                                                                  
+  Combo view            Window area   **Combo-Ansicht**                                                               
+  Tree view             Window area   **Baumansicht**                                                                 
+  Task panel            Window area   Aufgabenleiste, **Aufgabenbereich**, Taskleiste, Aufgabenfeld, Arbeitspaneele   Durcheinander bei Crowdin. Favorit: Aufgabenbereich
+  Property editor       Window area   **Eigenschafteneditor**, Eigenschaften-Editor                                   
+  Selection view        Window area   **Auswahlansicht**                                                              
+  Report view           Window area   **Ausgabefenster**                                                              Oft auch Berichtsansicht\...
+  Python console        Window area   **Python-Konsole**                                                              
+  Status bar            Window area   **Statusleiste**                                                                
+  Toolbar area          Window area   **Symbolleistenbereich**, Werkzeugleistenbereich                                Toolbar -\> Symbolleiste
+  Workbench selector    Window area   Auswahlliste der Arbeitsbereiche                                                
+  Standard menu         Window area   **Standardmenü**                                                                
+
+
+</div>
+
+
+</div>
+
+
+<div class="mw-collapsible mw-collapsed">
+
 #### Wiki-Bereich <img alt="" src=images/Freecad.svg  style="width:16px;"> [Std Base](Std_Base.md) 
 
 :   Sammlung der für alle Arbeitsbereiche verfügbaren Funktionen und Werkzeuge
@@ -939,16 +970,109 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible-content toccolours">
 
-  Englischer Ausdruck                                                                                            Funktion         Deutscher Ausdruck                                     Anmerkung
+  Englischer Ausdruck                                                                                                                                                       Funktion         Deutscher Ausdruck                                            Anmerkung
      
-  <img alt="" src=images/Workbench_TechDraw.svg  style="width:16px;"> TechDraw                                  Workbench name   **TechDraw** *(Techn. Zeichnen)*                       Arbeitsbereich, nicht übersetzen!
-  TechDraw                                                                                                       Menue header     Technisches Zeichnen                                   Menü-Überschrift (übersetzen?)
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Dimensions                                                 Generic term     Bemaßungen                                             Bemaßung oder Maße
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Extensions: Centerlines/Threading                          Generic term     Extensions: Centerlines/Threading                      
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Annotations                                                Generic term     Anmerkungen                                            
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Add Lines                                                  Generic term     Linien hinzufügen                                      
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Add Vertices                                              Generic term     Knoten hinzufügen                                      
-  <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:16px;"> Add Welding Information to Leaderline   Command          Hinzufügen von Schweißinformationen zur Hinweislinie   Schweißsymbole zur Hinweislinie hinzufügen?
+  <img alt="" src=images/Workbench_TechDraw.svg  style="width:16px;"> TechDraw                                                                                             Workbench name   **TechDraw** *(Techn. Zeichnen)*                              Arbeitsbereich, nicht übersetzen!
+  TechDraw                                                                                                                                                                  Menue header     **TechDraw**                                                  
+  <img alt="" src=images/TechDraw_PageDefault.svg  style="width:16px;"> Insert Default Page                                                                              Command          **Neues Zeichnungsblatt aus der Standardvorlage erstellen**   
+  <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:16px;"> Insert Page using Template                                                                     Command          **Neues Zeichnungsblatt aus einer Vorlage erstellen**         
+  <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:16px;"> Redraw Page                                                                                        Command          **Seite neu zeichnen**                                        
+  <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> Insert View                                                                                                    Command          **Ansicht einfügen**                                          
+  <img alt="" src=images/TechDraw_ActiveView.svg  style="width:16px;"> Insert Active View (3D View)                                                                       Command          **Aktive (3D-)Ansicht einfügen**                              
+  <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> Insert Projection Group                                                                  Command          **Ansichtengruppe einfügen**                                  
+  <img alt="" src=images/TechDraw_SectionView.svg  style="width:16px;"> Insert Section View                                                                              Command          **Schnittansicht einfügen**                                   
+  <img alt="" src=images/TechDraw_DetailView.svg  style="width:16px;"> Insert Detail View                                                                                 Command          **Detailansicht einfügen**                                    
+  <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> Insert Draft Workbench Object                                                                        Command          **Objekt des Draft-Arbeitsbereiches einfügen**                
+  <img alt="" src=images/TechDraw_ArchView.svg  style="width:16px;"> Insert Arch Workbench Object                                                                           Command          **Objekt des Arch-Arbeitsbereiches einfügen**                 
+  <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:16px;"> Insert Spreadsheet View                                                                  Command          **Tabellenansicht einfügen**                                  
+  <img alt="" src=images/TechDraw_ClipGroup.svg  style="width:16px;"> Insert Clip Group                                                                                    Command          Ausschnittsgruppe einfügen                                    (Ausschnittgruppe?)
+  <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:16px;"> Add View to Clip Group                                                                         Command          Ansicht zu Ausschnittsgruppe hinzufügen                       
+  <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:16px;"> Remove View from Clip Group                                                              Command          Ansicht aus Ausschnittsgruppe entfernen                       
+  <img alt="" src=images/TechDraw_MoveView.svg  style="width:16px;"> Move View                                                                                              Command          **Ansicht verschieben**                                       
+  <img alt="" src=images/TechDraw_ShareView.svg  style="width:16px;"> Share View                                                                                           Command          **Ansicht teilen**                                            
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Dimensions                                                                                                            Generic term     Bemaßungen                                                    Bemaßung oder Maße
+  <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> Insert Length Dimension                                                                  Command          **Längenmaß einfügen**                                        
+  <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> Insert Horizontal Dimension                                                      Command          **Horizontales Maß einfügen**                                 
+  <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> Insert Vertical Dimension                                                            Command          **Vertikales Maß einfügen**                                   
+  <img alt="" src=images/TechDraw_RadiusDimension.svg  style="width:16px;"> Insert Radius Dimension                                                                  Command          **Radienmaß einfügen**                                        
+  <img alt="" src=images/TechDraw_DiameterDimension.svg  style="width:16px;"> Insert Diameter Dimension                                                            Command          **Durchmessermaß einfügen**                                   
+  <img alt="" src=images/TechDraw_AngleDimension.svg  style="width:16px;"> Insert Angle Dimension                                                                     Command          **Winkelmaß einfügen**                                        
+  <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:16px;"> Insert 3-Point Angle Dimension                                                       Command          **Winkelmaß über 3 Punkte einfügen**                          Nicht im Menü\...
+  <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:16px;"> Insert Horizontal Extent Dimension                                   Command          **Maß für die horizontale Ausdehnung einfügen**               
+  <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:16px;"> Insert Vertical Extent Dimension                                         Command          **Maß für die vertikale Ausdehnung einfügen**                 
+  <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> Link Dimension to 3D Geometry                                                                Command          **Maß mit 3D-Geometrie verknüpfen**                           
+  <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:16px;"> Insert Landmark Dimension - EXPERIMENTAL                                             Command          Leitmaß einfügen - EXPERIMENTELL                              Wer findet einen sinnvolleren Begriff?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Extensions: Attrubutes/Modifications                                                                                  Generic term     Ergänzungen: Eigenschaften/Änderungen                         
+  <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> Select Line Attributes, Cascade Spacing and Delta Distance   Command          Select Line Attributes, Cascade Spacing and Delta Distance    
+  <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width:16px;"> Change Line Attributes                                       Command          Change Line Attributes                                        
+  <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:16px;"> Extend Line                                                                      Command          Linie verlängern                                              
+  <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:16px;"> Shorten Line                                                                   Command          Linie kürzen                                                  
+  <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:16px;"> Lock/Unlock View                                                         Command          Ansicht fixieren/lösen                                        
+  <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:16px;"> Position Section View                                          Command          Schnitt ausrichten                                            
+  <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:16px;"> Position Horizontal Chain Dimensions                     Command          Horizontale Kettenmaße anordnen                               
+  <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  style="width:16px;"> Position Vertical Chain Dimensions                         Command          Vertikale Kettenmaße anordnen                                 
+  <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style="width:16px;"> Position Oblique Chain Dimensions                    Command          Schräge Kettenmaße anordnen                                   
+  <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:16px;"> Cascade Horizontal Coordinate Dimensions                   Command          Horizontale Maße anordnen                                     
+  <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  style="width:16px;"> Cascade Vertical Coordinate Dimensions                       Command          Vertikale Maße anordnen                                       
+  <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:16px;"> Cascade Oblique Coordinate Dimensions                  Command          Schräge Maße anordnen                                         
+  <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:16px;"> Calculate the area of selected faces                                     Command          Flächenangabe berechnen                                       
+  <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:16px;"> Customize Format Label                                                 Command          Formatierung anpassen                                         
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Extensions: Centerlines/Threading                                                                                     Generic term     Ergänzungen: Mittellinien/Gewinde                             
+  <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:16px;"> Add Circle Centerlines                                             Command          Kreismittellinien hinzufügen                                  
+  <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:16px;"> Add Hole Circle Centerlines                                                      Command          Lochkreismittellinien hinzufügen                              
+  <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:16px;"> Add Cosmetic Thread Hole Side View                                       Command          Hilfslinien für Innengewinnde in Seitenansicht hinzufügen     
+  <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:16px;"> Add Cosmetic Thread Hole Bottom View                                 Command          Hilfslinien für Innengewinnde in Achsansicht hinzufügen       
+  <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:16px;"> Add Cosmetic Thread Bolt Side View                                       Command          Hilfslinien für Außengewinnde in Seitenansicht hinzufügen     
+  <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:16px;"> Add Cosmetic Thread Bolt Bottom View                                 Command          Hilfslinien für Außengewinnde in Achsansicht hinzufügen       
+  <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:16px;"> Add Cosmetic Intersection Vertex(es)                         Command          Hilfsschnittpunkte hinzufügen                                 
+  <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:16px;"> Add Cosmetic Circle                                                      Command          Hilfskreis hinzufügen                                         
+  <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="width:16px;"> Add Cosmetic Arc                                                               Command          Hilfsbogen hinzufügen                                         
+  <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle3Points.svg  style="width:16px;"> Add Cosmetic Circle 3 Points                               Command          Hilfskreis durch 3 Punkte hinzufügen                          
+  <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:16px;"> Add Cosmetic Parallel Line                                                   Command          Parallele Hilfslinie hinzufügen                               
+  <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:16px;"> Add Cosmetic Perpendicular Line                                    Command          Senkrechte Hilfslinie hinzufügen                              
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Extensions: Dimensions                                                                                                Generic term     Ergänzungen: Maße                                             
+  <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width:16px;"> Create Horizontal Chain Dimension                  Command          Horizontale Maßketten erstellen                               
+  <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style="width:16px;"> Create Vertical Chain Dimension                      Command          Vertikale Maßketten erstellen                                 
+  <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.svg  style="width:16px;"> Create Oblique Chain Dimension                 Command          Schräge Maßketten erstellen                                   
+  <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width:16px;"> Create Horizontal Coordinate Dimension             Command          Horizontale Koordinatenmaße erstellen                         
+  <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style="width:16px;"> Create Vertical Coordinate Dimension                 Command          Vertikale Koordinatenmaße erstellen                           
+  <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width:16px;"> Create Oblique Coordinate Dimension            Command          Schräge Koordinatenmaße erstellen                             
+  <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:16px;"> Create Horizontal Chamfer Dimension            Command          Horizontales Maß an Fase erstellen                            
+  <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width:16px;"> Create Vertical Chamfer Dimension                Command          Vertikales Maß an Fase erstellen                              
+  <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:16px;"> Create Arc Length Dimension                                            Command          Maß für Bogenlänge erstellen                                  
+  <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:16px;"> Insert \'⌀\' Prefix                                                      Command          ⌀-Symbol einfügen                                             
+  <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width:16px;"> Insert \'〼\' Prefix                                                         Command          〼-Symbol einfügen                                            
+  <img alt="" src=images/TechDraw_ExtensionRemovePrefixChar.svg  style="width:16px;"> Remove Prefix                                                        Command          ⌀/〼-Symbol entfernen                                         
+  <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width:16px;"> Increase Decimal Places                                                Command          Dezimalstellenanzahl erhöhen                                  
+  <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:16px;"> Decrease Decimal Places                                                Command          Dezimalstellenanzahl verringern                               
+                                                                                                                                                                                                                                                           
+  <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:16px;"> Export Page as SVG                                                                           Command          **Seite als SVG-Datei exportieren**                           
+  <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:16px;"> Export Page as DXF                                                                           Command          **Seite als DXF-Datei exportieren**                           
+  <img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> Hatch a Face using Image File                                                                                Command          **Fläche mit Muster aus einer Bilddatei schraffieren**        
+  <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> Apply Geometric Hatch to Face                                                              Command          **Fläche mit einer geometrischen Schraffur versehen**         
+  <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> Insert SVG Symbol                                                                                          Command          **SVG-Zeichnungselement einfügen**                            
+  <img alt="" src=images/TechDraw_Image.svg  style="width:16px;"> Insert Bitmap Image                                                                                          Command          **Bitmap-Grafik einfügen**                                    
+  <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Turn View Frames On/Off                                                                          Command          **Ansichtsrahmen ein- oder ausschalten**                      
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Annotations                                                                                                           Generic term     Anmerkungen                                                   
+  <img alt="" src=images/TechDraw_Annotation.svg  style="width:16px;"> Insert Annotation                                                                                  Command          Anmerkung einfügen                                            Hinweisfeld einfügen?
+  <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:16px;"> Insert Rich Text Annotation                                                        Command          Rich-Text-Anmerkung einfügen                                  Rich-Text-Feld einfügen?
+  <img alt="" src=images/TechDraw_Balloon.svg  style="width:16px;"> Insert Balloon Annotation                                                                                Command          Ballon-Anmerkung einfügen                                     Hinweisfeld einfügen?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;">Add Lines                                                                                                             Generic term     Linien hinzufügen                                             
+  <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:16px;"> Add Leaderline to View                                                                             Command          **Hinweislinie zur Ansicht hinzufügen**                       
+  <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:16px;"> Add Centerline to Faces                                                                    Command          **Mittellinie zu Fläche(n) hinzufügen**                       
+  <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:16px;"> Add Centerline between 2 Lines                                                           Command          **Mittellinie zwischen 2 Linien hinzufügen**                  
+  <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:16px;"> Add Centerline between 2 Points                                                        Command          **Mittellinie zwischen 2 Punkten hinzufügen**                 
+  <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:16px;"> Add Cosmetic Line Through 2 Points                                                 Command          **Hilfslinie durch 2 Punkte hinzufügen**                      
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Add Vertices                                                                                                         Generic term     Knoten hinzufügen                                             
+  <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:16px;"> Add Cosmetic Vertex                                                                        Command          **Hilfspunkt hinzufügen**                                     
+  <img alt="" src=images/TechDraw_Midpoints.svg  style="width:16px;"> Add Midpoint Vertices                                                                                Command          **Kantenmittelpunkte hinzufügen**                             
+  <img alt="" src=images/TechDraw_Quadrants.svg  style="width:16px;"> Add Quadrant Vertices                                                                                Command          Quadrantengrenzpunkte hinzufügen                              
+                                                                                                                                                                                                                                                           
+  <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> Remove Cosmetic Object                                                                     Command          **Hilfsobjekt entfernen**                                     
+  <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> Change Appearance of Lines                                                                     Command          **Liniendarstellung ändern**                                  
+  <img alt="" src=images/TechDraw_ShowAll.svg  style="width:16px;"> Show/hide Invisible Edges                                                                                Command          **Verdeckte Kanten ein-/ausblenden**                          
+  <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:16px;"> Add Welding Information to Leaderline                                                              Command          Hinzufügen von Schweißinformationen zur Hinweislinie          Schweißsymbole zur Hinweislinie hinzufügen?
+  Project shape\...                                                                                                                                                         Command          Form projizieren\...                                          
 
 
 </div>

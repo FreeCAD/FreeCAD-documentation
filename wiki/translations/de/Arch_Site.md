@@ -29,6 +29,11 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 
 ## Eigenschaften
 
+### Data
+
+
+<div class="mw-translate-fuzzy">
+
 ### Daten
 
 -    **Gelände**: Das Basisgelände dieses Baustelle
@@ -63,6 +68,14 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 
 -    **EPW Datei**: Erlaube das Anhängen einer EPW Datei von der [Ladybug EPW Daten Webseite](https://www.ladybug.tools/epwmap/) an diese Baustelle. Dies wird benötigt, um Windrosendiagramme anzuzeigen. <small>(v0.19)</small> 
 
+
+</div>
+
+### View
+
+
+<div class="mw-translate-fuzzy">
+
 ### Ansicht
 
 -    **Solardiagram**: Zeigt das Solardiagramm an oder blendet es aus
@@ -74,6 +87,9 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 -    **Solardiagram Maßstab**: Der Maßstab des Solardiagramms.
 
 -    **Windrose**: Zeigt das Windrosendiagramm an oder blendet es aus (erfordert die **EPW Datei** Dateneigenschaft ausgefüllt und das Ladybug Python Modul installiert (siehe unten)
+
+
+</div>
 
 ## Typischer Arbeitsablauf 
 
@@ -91,11 +107,22 @@ Die Baustellengeometrie wird neu berechnet und die Flächen, der Umfang und die 
 
 ## Solar- und Winddiagramme 
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn [Ladybug](https://www.ladybug.tools/ladybug.html) auf deinem System installiert ist, kann [Arch Standort](Arch_Site/de.md) ein Solardiagramm und/oder eine Windrose anzeigen. Dazu werden **Längengrad**, **Breitengrad** und **Deklination** (previously **Nordabweichung**) müssen korrekt eingestellt und **Solardiagramm** oder **Windrose** auf `True` gesetzt sein. Betrifft <small>(v0.17)</small>  und <small>(v0.19)</small> 
+
+
+</div>
 
 **Hinweis**: Wenn du keinen Ladybug hast, wird [pysolar](http://pysolar.org/) immer noch unterstützt, um Solardiagramme zu erstellen, aber keine Windrosen. Pysolar 0.7 oder höher ist erforderlich; diese Version funktioniert nur mit Python 3. Wenn du diese Funktion mit Python 2 benötigst, solltest du Pysolar 0.6 haben, da dies die letzte Version ist, die mit Python 2 funktioniert. Allerdings ist Ladybug ein weitaus leistungsfähigeres Werkzeug, das in Zukunft wahrscheinlich häufiger verwendet werden wird, so dass wir empfehlen, es anstelle von Pysolar zu verwenden. Ladybug kann einfach über [pip](https://github.com/ladybug-tools/ladybug) installiert werden.
 
 ![](images/Freecad-solar-diagram.jpg )
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -104,7 +131,16 @@ Wenn [Ladybug](https://www.ladybug.tools/ladybug.html) auf deinem System install
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Das Baustellenwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
+
+
+</div>
 
 
 ```python

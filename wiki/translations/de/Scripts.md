@@ -19,23 +19,11 @@
 
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
 Unter Skripten verstehen wir die Erstellung topologischer Objekte mit dem Python Interpreter von FreeCAD. FreeCAD könnte ein \"sehr guter\" Ersatz für OpenSCAD sein, vor allem, weil es einen echten Python Interpreter hat, das heißt, es hat eine echte Programmiersprache an Bord, fast alles, was man mit der GUI machen kann, ist mit einem Python Skript machbar.
-
-
-</div>
 
 Bedauerlicherweise sind die Informationen über das Skripten in der Dokumentation und sogar in diesem Wiki verstreut und es mangelt an Einheitlichkeit beim \"Schreiben\", und die meisten von ihnen werden zu technisch erklärt.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Zum Appetitanregen 
-
-
-</div>
 
 Das erste Hindernis auf einem einfachen Weg zur Skripterstellung ist, dass es keine direkte Möglichkeit gibt, den FreeCAD internen Python Editor über einen Menüeintrag oder ein Symbol im Werkzeugleistenbereich aufzurufen, aber wenn man weiß, dass FreeCAD eine Datei mit der Erweiterung `.py` im internen Python Editor öffnet, ist der einfachste Trick, sie in Ihrem bevorzugten Texteditor zu erstellen und sie dann mit dem üblichen Befehl **Datei → Öffnen** zu öffnen.
 
@@ -129,13 +117,7 @@ Du wirst einige magische Dinge sehen, ein neues Dokument mit dem Namen \"Pippo\"
 
 ## Etwas mehr\... 
 
-
-<div class="mw-translate-fuzzy">
-
-Nicht allzu erstaunlich? Ja, aber irgendwo müssen wir anfangen, wir können das Gleiche mit einem [Zylinder](Part_Cylinder/de.md) tun, diese Codezeilen nach der `cubo(` Methode und vor der Zeile `# objects definition` hinzufügen.
-
-
-</div>
+Nicht allzu erstaunlich? Ja, aber irgendwo müssen wir anfangen, wir können das Gleiche mit einem [Zylinder](Part_Cylinder/de.md) tun, diese Kodezeilen nach der `cubo()` Methode und vor der Zeile `# objects definition` hinzufügen.
 
 
 ```python
@@ -208,9 +190,6 @@ FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0)
 
 Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich der geometrische **Referenzpunkt**, also der Punkt, von dem aus das Objekt von FreeCAD modelliert wird, wie in dieser Tabelle beschrieben, kopiert von [Platzierung](Placement/de.md):
 
-
-<div class="mw-translate-fuzzy">
-
   Objekt                                Referenzpunkt
    
   Part.Box                              links (minx), vorne (miny), unten (minz) Knoten
@@ -218,10 +197,7 @@ Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich d
   Part.Cylinder                         Mitte der Unterseite
   Part.Cone                             Mittelpunkt der Unterseite (oder Scheitelpunkt, wenn der Unterseitenradius 0 ist)
   Part.Torus                            Mittelpunkt des Torus
-  Formelemente abgeleitet aus Skizzen   das Formelement erbt die Position der zugrunde liegenden Skizze. Skizzen beginnen immer mit Position = (0,0,0). Diese Position entspricht dem Ursprung in der Skizze.
-
-
-</div>
+  Formelemente abgeleitet aus Skizzen   das Formelement erbt die Position der zugrunde liegenden Skizze. Skizzen beginnen immer mit Position = (0, 0, 0). Diese Position entspricht dem Ursprung in der Skizze.
 
 Diese Informationen müssen wir vor allem dann im Auge behalten, wenn wir eine Rotation anwenden müssen.
 
@@ -282,16 +258,10 @@ setview()
 
 Lasse uns etwas im Code erklären:
 
-
-<div class="mw-translate-fuzzy">
-
 -   Wir haben eine Methode verwendet, um eine Kugel zu definieren, wobei wir die einfachste Definition verwendet haben und nur den Radius verwendet haben.
 -   Wir haben eine zweite Schreibweise für die **Vereingung** oder **Verschmelzung** eingeführt, die mehrere Objekte verwendet, nicht weiter entfernt von dem üblichen **Part::Fuse** es verwendet **Part:Multifuse**. Wir verwenden nur eine Eigenschaft `Formen`. Wir haben ein **Tupel** als Argumente übergeben, aber es akzeptiert auch eine **Liste**.
 -   Wir haben ein komplexes Objekt **aeroplano**\' definiert. (italienisches Wort für Flugzeug), aber wir haben es auf eine **\"parametrische\"** Art und Weise getan, indem wir einige Parameter definiert und andere Parameter durch einige Berechnungen auf der Grundlage der Hauptparameter abgeleitet haben.
--   Wir haben einige Platzierungs `Platzierung` Eigenschaften in der Methode verwendet, und bevor wir die endgültigen Geometrien zurückgeben, haben wir eine `Rotation` Eigenschaft mit der *Gieren-Stampfen-Rollen* Schreibweise verwendet. Beachte die letzten `Vector(0,0, pos_ali)`, die ein **Rotationszentrum** der gesamten Geometrie definieren.
-
-
-</div>
+-   Wir haben einige Platzierungs `Platzierung` Eigenschaften in der Methode verwendet, und bevor wir die endgültigen Geometrien zurückgeben, haben wir eine `Rotation` Eigenschaft mit der *Gieren-Stampfen-Rollen* Schreibweise verwendet. Beachte die letzten `Vector(0, 0, pos_ali)`, die ein **Rotationszentrum** der gesamten Geometrie definieren.
 
     
   ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
@@ -299,13 +269,7 @@ Lasse uns etwas im Code erklären:
 
 Man kann leicht feststellen, dass **aeroplano** Geometrie um sein \"Baryzentrum\" oder seinen \"Schwerpunkt\" rotiert, den ich in der Flügelmitte festgelegt habe, ein Ort, der relativ \"natürlich\" ist, aber wo immer man will, platziert werden könnte.
 
-
-<div class="mw-translate-fuzzy">
-
-Der erste `Vector(0,0,0)` ist der Übersetzungsvektor, der hier nicht verwendet wird, aber wenn du `aeroplano()` durch diese Zeilen ersetzt:
-
-
-</div>
+Der erste `Vector(0, 0, 0)` ist der Übersetzungsvektor, der hier nicht verwendet wird, aber wenn du `aeroplano()` durch diese Zeilen ersetzt:
 
 
 ```python
@@ -323,13 +287,7 @@ Placement [Pos=(0, -21, 21), Yaw-Pitch-Roll=(0, 0, -90)]
 
 Was ist geschehen?
 
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD hat die `Vector(0,0,0), FreeCAD.Rotation(0,0,-90), Vector(0,0,pos_ali)` mit anderen Worten unsere `Placement` Definition übersetzt, die drei Komponenten, **Translation**, **Rotation** und *Rotationszentrum*\' in den \"internen\" Werten von nur zwei Komponenten, **Translation** und **Rotation**, spezifiziert.
-
-
-</div>
+FreeCAD hat die `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali)` mit anderen Worten unsere `Placement` Definition übersetzt, die drei Komponenten, **Translation**, **Rotation** und *Rotationszentrum*\' in den \"internen\" Werten von nur zwei Komponenten, **Translation** und **Rotation**, spezifiziert.
 
 du kannst leicht den Wert von `pos_ali` mit einer print Anweisung in der `aeroplano(...` Methode visualisieren und sehen das es ist:
 
@@ -338,13 +296,7 @@ du kannst leicht den Wert von `pos_ali` mit einer print Anweisung in der `aeropl
 pos ali =  21.0
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-mit anderen Worten, das **Rotationszentrum** der Geometrie liegt bei `Vector(0,0,21)`, aber dieses Rotationszentrum wird in der GUI nicht angezeigt, es könnte als `Placement` Wert eingegeben werden, es könnte nicht leicht abgerufen werden.
-
-
-</div>
+mit anderen Worten, das **Rotationszentrum** der Geometrie liegt bei `Vector(0, 0, 21)`, aber dieses Rotationszentrum wird in der GUI nicht angezeigt, es könnte als `Placement` Wert eingegeben werden, es könnte nicht leicht abgerufen werden.
 
 Dies ist die Bedeutung des Wortes \"umständlich\", das ich zur Definition der `Placement` Eigenschaft verwendet habe.
 

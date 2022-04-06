@@ -39,7 +39,9 @@ Ako želite znati kako je FreeCAD započeo prije nekoliko godina, posjetite stra
 
 -   [Workarounds](Workarounds.md)
 -   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Migrating to FreeCAD from OnShape](Migrating_to_FreeCAD_from_OnShape.md)
 -   [Migrating to FreeCAD from SolidWorks](Migrating_to_FreeCAD_from_SolidWorks.md)
+-   [Migrating to FreeCAD from Revit](Migrating_to_FreeCAD_from_Revit.md)
 -   [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
 -   [BIM applications compatibility table](BIM_application_compatibility_table.md)
 

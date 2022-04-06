@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Compound‏‎
    Name/fr:Part Composé
-   MenuLocation:Pièce → Composé → Créer un composé
+   MenuLocation:Part → Composé → Créer un composé
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.14
    SeeAlso:[Part Union](Part_Fuse/fr.md), [Part Filtre composé](Part_CompoundFilter/fr.md), [Part Éclater le composé](Part_ExplodeCompound/fr.md)
@@ -19,7 +19,7 @@ Un compound est un ensemble de formes groupées dans un seul objet.
 ## Utilisation
 
 1.  Sélectionnez les formes dans la [vue en arborescence](Tree_view/fr.md) qui seront ajoutées au composé
-2.  Faites **Pièces → Composé → Créer un composé** dans le menu Pièce ou cliquez sur le bouton <img alt="" src=images/Part_Compound.svg  style="width:24px;">.
+2.  Faites **Part → Composé → Créer un composé** dans le menu Pièce ou cliquez sur le bouton <img alt="" src=images/Part_Compound.svg  style="width:24px;">.
 
 ## Remarques
 

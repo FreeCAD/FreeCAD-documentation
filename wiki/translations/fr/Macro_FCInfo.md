@@ -8,7 +8,7 @@
 |Version=1.25d
 |Date=2021/12/13
 |FCVersion=Toutes
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Prise de cotes](Arch_Survey/fr.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/fr.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px">, [Macro SimpleProperties](Macro_SimpleProperties/fr.md)
 }}
 
 ## Description
@@ -23,7 +23,7 @@ Donne des informations sur la forme sélectionnée et peut afficher une conversi
 
 ## Utilisation
 
-Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une série de renseignements s\'affichent. Les calculs sont basés sur l\'unité de FreeCAD, qui est le **mm** à chaque nouvelle sélection, l\'unité de longueur revient toujours sur **mm** et angle sur **degrés décimal**. <img alt="fenêtre supérieure" src=images/Macro_FCInfo_06.png  style="width:200px;"><img alt="fenêtre inférieure" src=images/Macro_FCInfo_07.png  style="width:200px;">
+Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une série de renseignements s\'affichent. Les calculs sont basés sur l\'unité de FreeCAD, qui est le **mm** à chaque nouvelle sélection, l\'unité de longueur revient toujours sur **mm** et angle sur **degrés décimal**. <img alt="Fenêtre supérieure" src=images/Macro_FCInfo_06.png  style="width:200px;"><img alt="Fenêtre inférieure" src=images/Macro_FCInfo_07.png  style="width:200px;">
 
 
 
@@ -211,7 +211,7 @@ Copiez le contenu de la macro dans un fichier nommé \"FCInfo.FCMacro\"
 
 Ou, directement dans l\'interface de FreeCAD.
 Les icônes doivent se trouver dans le même répertoire que la macro.
-Télécharger les images en vous positionnant sur les icônes <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> puis faites clic droit de la souris \"Enregistrer l\'image sous\"(ne pas modifier le nom)
+Télécharger les images en vous positionnant sur les icônes <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> puis faites clic droit de la souris \"Enregistrer l\'image sous\" (ne pas modifier le nom)
 **PS: le code est trop long pour être contenu dans la page du wiki (pour le moment les pages du wiki n\'acceptent que 64 KB). Le code de la macro a été placé dans le forum**
 
 
@@ -247,7 +247,7 @@ Téléchargez le fichier des icônes de FCInfo [Macro\_FCInfo\_Icon](https://for
 Téléchargez le fichier FCInfo **docké à droite**
 
 
-{{CodeDownload|https://gist.github.com/mario52a/6afc64081c4eb8be3b93|Dernière version de Macro_FCInfo (les icônes sont à la fin de la page)}}
+{{CodeDownload|https://gist.github.com/mario52a/6afc64081c4eb8be3b93|Dernière version de Macro_FCInfo<br /> (les icônes sont à la fin de la page)}}
 
 (Ou **[sur le forum.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)** )
 **PS:** Cette macro utilise la fonction **getSelection()** et la liste des objets commence à 1 ex: pour un cube **Edge1 à Edge12** (arêtes) et le code qui liste les arêtes dans la console Python commence à 0 ex: pour un cube **Edge\[0\] à Edge\[11\]**

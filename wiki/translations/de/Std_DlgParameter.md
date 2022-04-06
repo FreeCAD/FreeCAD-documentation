@@ -11,36 +11,23 @@
 
 </div>
 
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Der **Parameter-Editor** erlaubt den Zugang zu und die Änderung von Parametern/Einstellungen der verschiedenen Funktionen und Arbeitsbereiche.
+Der Befehl **Std DlgParameter** öffnet den Parametereditor. Im Parametereditor können die Parameter eingesehen und bei Bedarf gelöscht, hinzugefügt und geändert werden, die das Verhalten von FreeCAD und seinen Arbeitsbereichen steuern. Die Parameter werden in einer Datei namens {{FileName|user.cfg}} gespeichert, deren Speicherort vom benutzten Betriebssystem abhängt.
 
-
-</div>
-
-Working with the Parameter Editor requires some experience. For the most common parameters you can also use the more convenient [Preferences Editor](Preferences_Editor.md).
+Mit dem Parametereditor zu arbeiten erfordert etwas Erfahrung. Für die üblichen Parameter kann man auch den benutzerfreundlicheren [Voreinstellungseditor](Preferences_Editor/de.md) verwenden.
 
 ![](images/Std_DlgParameter_dialog.png ) 
 *The Parameter Editor dialog box*
 
-## Usage
-
-
-<div class="mw-translate-fuzzy">
-
 ## Anwendung
 
-Wähle **Werkzeuge** → **Parameter bearbeiten...** aus der Menüleiste.
+1.  Auswahl des Menüeintrags **Werkzeuge → <img src="images/Std_DlgParameter.svg" width=16px> Parameter bearbeiten...**.
+2.  Das Dialogfeld des Parametereditors öffnet sich. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Optional drückt man die Schaltfläche **Speichern**, um die Datei {{FileName|user.cfg}} sofort zu aktualisieren. Dies ist nicht zwingend erforderlich, da FreeCAD die Datei automatisch aktualisiert, wenn die Anwendung geschlossen wird.
+4.  Schaltfläche **Schließen** drücken um den Parametereditor zu schließen.
 
-
-</div>
-
-## Options
+## Optionen
 
 ### Left panel 
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Structure
    Name/fr:Arch Structure
-   MenuLocation:Arch → Structure tools → Structure
+   MenuLocation:Arch → Outils pour les strutures → Structure
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**S** **T**
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
@@ -22,7 +22,7 @@ Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour 
 ## Utilisation
 
 -   Sélectionnez une forme 2D (objet Draft, une face ou une esquisse) (en option).
--   Appuyez sur le bouton **<img src="images/Arch_Structure.svg" width=16px> [Créer un objet de structure...](Arch_Structure/fr.md)** ou appuyez sur les touches **S** puis **T**.
+-   Appuyez sur le bouton **<img src="images/Arch_Structure.svg" width=16px> [Structure](Arch_Structure/fr.md)** ou appuyez sur les touches **S** puis **T**.
 -   Réglez les propriétés désirées.
 
 ## Options
@@ -56,9 +56,9 @@ Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour 
 
 ### Vues
 
--    {{PropertyView/fr|Nodes Type}}: Le type de nœuds structurels de cet objet, linéaire ou zone.
+-    **Nodes Type**: Le type de nœuds structurels de cet objet, linéaire ou zone.
 
--    {{PropertyView/fr|Show Nodes}}: Affiche ou masque les nœuds structurels.
+-    **Show Nodes**: Affiche ou masque les nœuds structurels.
 
 ## Prérequis
 

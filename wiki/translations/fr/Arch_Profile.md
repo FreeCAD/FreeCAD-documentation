@@ -19,7 +19,7 @@ L\'outil Profilé est également intégré à l\'outil [Arch Structure](Arch_Str
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/Arch_Profile.svg" width=16px> [Arch Créer un objet profilé](Arch_Profile/fr.md)
+1.  Appuyez sur le bouton **<img src="images/Arch_Profile.svg" width=16px> [Profilé](Arch_Profile/fr.md)
 **
 2.  Sélectionnez un préréglage dans le panneau des tâches de l\'outil
 3.  Cliquez sur un point de la vue 3D pour placer le profilé
@@ -28,17 +28,17 @@ L\'outil Profilé est également intégré à l\'outil [Arch Structure](Arch_Str
 
 ### Données
 
--    {{PropertyData/fr|Height}}: hauteur globale du profilé
+-    **Height**: hauteur globale du profilé
 
--    {{PropertyData/fr|Width}}: largeur globale du profilé
+-    **Width**: largeur globale du profilé
 
--    {{PropertyData/fr|Diameter}}: diamètre du profilé (profils circulaires uniquement)
+-    **Diameter**: diamètre du profilé (profils circulaires uniquement)
 
--    {{PropertyData/fr|Thickness}}: épaisseur de la paroi du tube (profilés creux circulaires et rectangulaires uniquement)
+-    **Thickness**: épaisseur de la paroi du tube (profilés creux circulaires et rectangulaires uniquement)
 
--    {{PropertyData/fr|Web Thickness}}: épaisseur de l\'âme du profilé (profilés H et I uniquement)
+-    **Web Thickness**: épaisseur de l\'âme du profilé (profilés H et I uniquement)
 
--    {{PropertyData/fr|Flange Thickness}}: épaisseur de la semelle du profilé (profilés H et I uniquement)
+-    **Flange Thickness**: épaisseur de la semelle du profilé (profilés H et I uniquement)
 
 ## Ajouter des profilés personnalisés 
 
@@ -69,7 +69,7 @@ Toutes les mesures doivent être en millimètres. Les classes possibles de profi
 -   RH: creux rectangulaire
 -   U: profil en U
 
-Des types de profilé supplémentaires peuvent être créés mais une classe correspondante doit d\'abord être définie dans [ArchProfile.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py)
+Des types de profils supplémentaires peuvent être créés, mais une classe correspondante doit d\'abord être définie dans [ArchProfile.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
 
 ## Script
 

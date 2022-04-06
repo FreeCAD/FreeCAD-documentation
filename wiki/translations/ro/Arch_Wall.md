@@ -167,6 +167,8 @@ Obiectele de pe perete moștenesc proprietățile obiectelor [ Part](Part_Workbe
 
 -    **Count Broken**: The number of broken blocks (read-only)
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 

@@ -3,105 +3,51 @@
 
 {{TOCright}}
 
-## Introduction
+## Einführung
 
-The **Std Help Menu** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md):
+Das**Std Menü Hilfe** ist eines der 7 Untermenüs im [Standardmenü](Standard_Menu/de.md):
 
 
 {{StdMenu
 |
-[File](Std_File_Menu.md)
+[Datei](Std_File_Menu/de.md)
 &nbsp;&nbsp;&nbsp;
-[Edit](Std_Edit_Menu.md)
+[Bearbeiten](Std_Edit_Menu/de.md)
 &nbsp;&nbsp;&nbsp;
-[View](Std_View_Menu.md)
+[Ansicht](Std_View_Menu/de.md)
 &nbsp;&nbsp;&nbsp;
-[Tools](Std_Tools_Menu.md)
+[Werkzeuge](Std_Tools_Menu/de.md)
 &nbsp;&nbsp;&nbsp;
-[Macro](Std_Macro_Menu.md)
+[Makro](Std_Macro_Menu/de.md)
 &nbsp;&nbsp;&nbsp;
-[Windows](Std_Windows_Menu.md)
+[Fenster](Std_Windows_Menu/de.md)
 &nbsp;&nbsp;&nbsp;
-[Help](Std_Help_Menu.md)
+[Hilfe](Std_Help_Menu/de.md)
 }}
 
-The Help menu provides access to the help system and links to the FreeCAD website and forum.
+Das Menü Hilfe bietet den Zugang zum Hilfesystem sowie Verknüpfungen mit der FreeCAD-Webseite und dem Forum.
 
-## Tools
+## Werkzeuge
 
-The following tools are available in this menu:
+Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
+-   <img alt="" src=images/Std_OnlineHelp.svg  style="width:32px;"> [Online-Hilfe](Std_OnlineHelp/de.md). Öffnet die Hilfe-Dokumentation.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Std_FreeCADWebsite.svg  style="width:32px;"> [FreeCAD Webseite](Std_FreeCADWebsite/de.md). Öffnet die Haupt-Webseite des FreeCAD-Projekts.
 
-<img alt="" src=images/Std_Help.png  style="width:32px;">[Hilfe](Std_Help/de.md)
+-   <img alt="" src=images/Std_FreeCADUserHub.svg  style="width:32px;"> [Benutzerdokumentation](Std_FreeCADUserHub/de.md). Öffnet die Wiki-Seite der FreeCAD-Benutzerdokumentation.
 
+-   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width:32px;"> [Python scripting documentation](Std_FreeCADPowerUserHub/de.md). Öffnet die Wiki-Seite Hauptanwenderzentrum.
 
-</div>
+-   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Automatische Python-Modul-Dokumentation](Std_PythonHelp/de.md). Öffnet \"python: index of modules\" im voreingestellten Internet-Browser.
 
+-   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [FreeCAD-Forum](Std_FreeCADForum/de.md): Öffnet das FreeCAD-Forum.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Std_FreeCADFAQ.svg  style="width:32px;"> [FreeCAD FAQ](Std_FreeCADFAQ/de.md). Öffnet die Wiki-Seite \"Häufig gestellte Fragen\".
 
-<img alt="" src=images/Std_OnlineHelp.png  style="width:32px;">[FreeCAD Website](Std_FreeCADWebsite/de.md)
+-   <img alt="" src=images/Std_About.svg  style="width:32px;"> [Über FreeCAD](Std_About/de.md). Öffnet ein Dialogfenster mit informationen über FreeCAD.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Std_OnlineHelp.png  style="width:32px;"> [Benutzerdokumentation](User_hub/de.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Std_OnlineHelp.png  style="width:32px;"> [Python scripting Dokumentation](Power_users_hub/de.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Std_OnlineHelp.png  style="width:32px;"> [Automatische Python Modul Dokumentation](http://localhost:7465/)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Std_OnlineHelp.png  style="width:32px;"> [FreeCAD Forum](http://forum.freecadweb.org)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Std_OnlineHelp.png  style="width:32px;"> [FreeCAD-FAQ](FAQ/de.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Std_About.png  style="width:32px;"> [Über FreeCAD](Std_About/de.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Std_WhatsThis.png  style="width:32px;"> [Direkthilfe](Std_WhatsThis/de.md)
-
-
-</div>
+-   <img alt="" src=images/Std_WhatsThis.svg  style="width:32px;"> [Direkthilfe](Std_WhatsThis/de.md). Öffnet die Hilfedokumentation für einen Befehl.
 
 
 

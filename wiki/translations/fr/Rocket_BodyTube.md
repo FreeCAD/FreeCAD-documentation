@@ -20,32 +20,32 @@ L\'outil body tube peut être utilisé pour créer de nombreux composants autres
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_BodyTube.svg" width=16px> [Body Tube](Rocket_BodyTube/fr.md)**.
     -   Sélectionnez l\'option **Rocket  → <img src="images/Rocket_BodyTube.svg" width=16px> Body Tube** dans le menu.
-    -   Double-cliquez sur un objet Body Tube dans la vue du modèle.
+    -   Double-cliquez sur un objet Body Tube dans la [Vue en arborescence](Tree_view/fr.md).
 2.  Définissez les options et appuyez sur **OK**.
 
 ## Propriétés
+
+
+{{TitleProperty|Body Tube}}
+
+-    {{PropertyData/fr|Inner Diameter}}: Le diamètre de l\'intérieur du tube du corps
+
+-    {{PropertyData/fr|Length}}: La longueur du tube du corps
+
+-    {{PropertyData/fr|Outer Diameter}}: Le diamètre de l\'extérieur du tube du corps
 
 
 {{TitleProperty|Rocket Component}}
 
 Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
 
--    {{PropertyData/fr|Manufacturer}}: Fabricant lorsqu\'il est connu
-
--    {{PropertyData/fr|Part Number}}: Numéro de pièce du fabricant
-
 -    {{PropertyData/fr|Description}}: Description du composant
+
+-    {{PropertyData/fr|Manufacturer}}: Fabricant lorsqu\'il est connu
 
 -    {{PropertyData/fr|Material}}: Matériau lorsqu\'il est connu
 
-
-{{TitleProperty|Body Tube}}
-
--    {{PropertyData/fr|Length}}: La longueur du tube du corps
-
--    {{PropertyData/fr|Inner Diameter}}: Le diamètre de l\'intérieur du tube du corps
-
--    {{PropertyData/fr|Outer Diameter}}: Le diamètre de l\'extérieur du tube du corps
+-    {{PropertyData/fr|Part Number}}: Numéro de pièce du fabricant
 
 ## Script
 

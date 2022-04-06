@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Remove
    Name/fr:Arch Soustraire
-   MenuLocation:Arch → Enlever une composante
+   MenuLocation:Arch → Enlever un composant
    Workbenches:[Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Couper selon une ligne](Arch_CutLine.md), [Arch Couper selon un plan](Arch_CutPlane.md), [Arch Ajouter](Arch_Add/fr.md)
 ---
@@ -25,12 +25,12 @@ La contrepartie de cet outil est l\'outil **<img src="images/Arch_Add.svg" width
 ## Utilisation
 
 1.  Sélectionnez un sous-composant dans un objet Arch.
-2.  Appuyez sur le bouton **<img src="images/Arch_Remove.svg" width=16px>** ou **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Enlever une composante](Arch_Remove/fr.md)** dans le menu supérieur.
+2.  Appuyez sur le bouton **<img src="images/Arch_Remove.svg" width=16px>** ou **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Enlever un composant](Arch_Remove/fr.md)** dans le menu supérieur.
 
 Ou
 
 1.  Sélectionnez les objets à soustraire, le dernier objet sélectionné doit être l'objet Arch auquel les autres objets seront soustraits.
-2.  Appuyez sur le bouton **<img src="images/Arch_Remove.svg" width=16px>** ou **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Enlever une composante](Arch_Remove/fr.md)** dans le menu supérieur.
+2.  Appuyez sur le bouton **<img src="images/Arch_Remove.svg" width=16px>** ou **Arch** → **<img src="images/Arch_Remove.svg" width=16px> [Enlever un composant](Arch_Remove/fr.md)** dans le menu supérieur.
 
 ## Script
 

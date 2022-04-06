@@ -7,7 +7,7 @@
 |Version=0.14c
 |Date=2021/01/16
 |FCVersion=0.18 et ultérieur
-|Download=[https://www.freecadweb.org/wiki/images/9/90/FCTexture.png ToolBar Icon], [https://www.freecadweb.org/wiki/Macro_Loft Macro Loft] [16px|FCCreaLoft](File:FCCreaLoft.png.md)
+|Download=[https://www.freecadweb.org/wiki/images/9/90/FCTexture.png Icône de la barre d'outils], [https://www.freecadweb.org/wiki/Macro_Loft Macro Loft] [16px|FCCreaLoft](File:FCCreaLoft.png.md)
 |SeeAlso=[32px|FCCreaLoft](File:FCCreaLoft.png.md) [Macro Loft](Macro_Loft/fr.md)
 }}
 
@@ -117,12 +117,13 @@ La valeur de début de l\'opération s\'adapte automatiquement à la fonction ch
 
 -    **Help**:
 
-    -   Pour modifier le paramètre disponible: allez dans **Outils → Editeur de paramètres\...**
+    -   Affichez la page Wiki dans le navigateur FreeCAD
+    -   Pour modifier le paramètre disponible : allez dans **Outils → Editeur de paramètres\...**
     -   \_\_L\'étape globale de la fenêtre de saisie:\_\_
-    -   Paramètre utilisateur: **BaseApp/Preferences/Macros/FCMmacros/FCTexture → SingleStep**
+    -   Paramètre utilisateur : **BaseApp/Preferences/Macros/FCMmacros/FCTexture → SingleStep**
     -   Ajustez la valeur souhaitée (1.0 par défaut)
     -   \_\_Pour la recherche si la macro est mise à jour:\_\_
-    -   Paramètre utilisateur: **BaseApp/Preferences/Macros/FCMmacros/FCTexture → switchVesionMacroSearch**
+    -   Paramètre utilisateur : **BaseApp/Preferences/Macros/FCMmacros/FCTexture → switchVesionMacroSearch**
     -   Réglez switchVesionMacroSearch sur `True` (`False` par défaut)
 
 -    **Quit**: sort de la fonction.

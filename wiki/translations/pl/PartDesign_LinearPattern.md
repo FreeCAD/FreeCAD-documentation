@@ -12,7 +12,7 @@
 
 ## Opis
 
-Narzędzie **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Szyk liniowy'''** tworzy równomiernie rozmieszczone kopie obiektu w układzie liniowym.
+Narzędzie **Szyk liniowy** tworzy równomiernie rozmieszczone kopie elementu wzdłuż linii lub prostej krawędzi.
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -42,7 +42,7 @@ Aby dodać lub usunąć elementy z istniejącego wzorca:
 
 ## Opcje
 
-![Parametry Szyku liniowego w v0.16 i poniżej.](images/Linearpattern_parameters.png ) ![Parametry Szyku liniowego w v0.17 i powyżej.](images/Linearpattern_parameters_v017.png )
+![Parametry Szyku liniowego](images/Linearpattern_parameters_v017.png )
 
 ### Kierunek
 
@@ -58,14 +58,11 @@ Używa pionowej osi szkicu jako kierunku dla wzorca.
 
 #### Oś normalna szkicu 
 
-
-{{VersionPlus/pl|0.17}}
-
 Używa normalnej osi szkicu jako kierunku.
 
 #### Wybierz odniesienie\... 
 
-Umożliwia wybranie linii odniesienia lub krawędzi obiektu lub linii szkicu do użycia jako kierunku dla wzorca.
+Umożliwia wybranie linii odniesienia, krawędzi prostej z obiektu lub linii ze szkicu, która ma być użyta jako kierunek.
 
 #### Niestandardowa oś szkicu 
 
@@ -73,10 +70,7 @@ Jeżeli szkic definiujący element, który ma być użyty jako wzór, zawiera r�
 
 #### Oś bazowa *(X / Y / Z)* 
 
-
-{{VersionPlus/pl|0.17}}
-
-Wybierz jedną ze standardowych osi odniesienia bryły *(X, Y lub Z)* jako kierunek dla wzorca. 
+Wybierz jedną ze standardowych osi odniesienia bryły *(X, Y lub Z)* jako kierunek dla wzorca.
 
 ## Ograniczenia
 

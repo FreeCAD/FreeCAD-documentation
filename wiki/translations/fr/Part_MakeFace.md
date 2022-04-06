@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part MakeFace‏‎
    Name/fr:Part Créer une face
-   MenuLocation:Pièce → Créer une face à partir de fils
+   MenuLocation:Part → Créer une face à partir de fils
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Part Créer une surface réglée](Part_RuledSurface/fr.md)

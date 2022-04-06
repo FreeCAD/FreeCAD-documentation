@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw ExtensionPositionSectionView
+   Name/de:TechDraw ErgänzungSchnittAusrichten
    MenuLocation:TechDraw → Extensions: Attributes/Modifications → Position Section View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20
    SeeAlso:
@@ -12,10 +13,10 @@
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:24px;"> **TechDraw ExtensionPositionSectionView** Werkzeug hängt eine Schnittansicht rechtwinkelig an seine Quellansicht.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:24px;"> **TechDraw ErgänzungSchnittAusrichten** hängt eine Schnittansicht rechtwinkelig an seine Quellansicht.
 
 <img alt="" src=images/TechDraw_ExtensionPositionSectionViewExample.png  style="width:400px;"> 
-*Rechts eine angehängte Schnittansicht*
+*Rechts eine ausgerichtete Schnittansicht*
 
 ## Verwendung
 

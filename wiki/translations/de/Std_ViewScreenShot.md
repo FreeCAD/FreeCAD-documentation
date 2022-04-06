@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name:Std ViewScreenShot
-   Name/de:Std AnsichtBildschirmFoto
+   Name/de:Std AnsichtAufnehmen
    MenuLocation:Werkzeuge → Bildinhalt speichern...
    Workbenches:Alle
    SeeAlso:[Std Drucken](Std_Print/de.md), [Std PDF exportieren](Std_PrintPdf/de.md), [Makro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Makro Screen Wiki](Macro_Screen_Wiki/de.md), [Makro Snip](Macro_Snip/de.md)
@@ -11,10 +11,10 @@
 
 ## Beschreibung
 
-Der **Std AnsichtBildschirmFoto** Befehl öffnet ein Dialogfeld, um eine Bilddatei, einen Bildschirmfoto, von der aktiven [3D Ansicht](3D_view/de.md) zu erstellen.
+Der **Std AnsichtAufnehmen** Befehl öffnet ein Dialogfeld, um eine Bilddatei, einen Bildschirmfoto, von der aktiven [3D-Ansicht](3D_view/de.md) zu erstellen.
 
 <img alt="" src=images/Save_picture.png  style="width:800px;"> 
-*Das Bild speichern  Dialogfeld nach Drücken der Erweiterten Schaltfläche*
+*Das Dialogfeld Bildinhalt speichern nach Drücken der Schaltfläche Erweitert*
 
 ## Anwendung
 
@@ -27,10 +27,10 @@ Der **Std AnsichtBildschirmFoto** Befehl öffnet ein Dialogfeld, um eine Bilddat
 
 ## Optionen
 
-#### Bild Abmessungen 
+#### Bildabmessungen
 
-1.  Wähle eine Standardgröße aus der **Standardgrößen** Auswahlliste . Oder gib die **Breite** und **Höhe** für eine benutzerdefinierte Größe an.
-2.  Klicke optional auf die **Seitenverhältnis** Schaltfläche , um das Verhältnis von Breite zu Höhe des Bildes festzulegen. Wenn das Eingabefeld **Breite** den Fokus hat, ändert sich die Höhe des Bildes und umgekehrt.
+1.  Wähle eine Standardgröße aus der Auswahlliste **Standardauflösungen**. Oder gib **Breite** und **Höhe** für eine benutzerdefinierte Größe an.
+2.  Klicke optional auf eine **Seitenverhältnis**-Schaltfläche , um das Verhältnis von Breite zu Höhe des Bildes festzulegen. Wenn das Eingabefeld **Breite** den Fokus hat, ändert sich die Höhe des Bildes und umgekehrt.
 
 ### Bildeigenschaften
 
@@ -42,7 +42,7 @@ Der **Std AnsichtBildschirmFoto** Befehl öffnet ein Dialogfeld, um eine Bilddat
 
 \#\* {{Value|Schwarz}}
 
-\#\* {{Value|Transparent}} Nicht alle Bildformate unterstützen Transparenz.
+\#\* {{Value|Durchsichtig}} Nicht alle Bildformate unterstützen Transparenz.
 
 1.  Wähle eine Option aus der **Erstellungsmethode** Aufklappliste:
     -   
@@ -56,30 +56,30 @@ Der **Std AnsichtBildschirmFoto** Befehl öffnet ein Dialogfeld, um eine Bilddat
         Diese Methode funktioniert auf vielen modernen Linux Systemen nicht, da sie sich auf den Grafiktreiber verlässt. Diese Methode unterstützt kein Anti-Aliasing. *Technische Informationen: Dies ist eine echte Offscreen Rendering Methode, die nur Funktionen aus der Coin3d Bibliothek verwendet.*
 
     -   
-        {{Value|Framebuffer (custom)}}
+        {{Value|Bildpuffer (benutzerdefiniert)}}
         
-        Diese Methode unterstützt Anti-Aliasing. *Technische Informationen: Wenn Anti-Aliasing ausgeschaltet ist, liest diese Methode das Bild direkt aus dem Grafik Renderer, ansonsten rendert sie in einen Framebuffer und holt sich das Bild von dort. Der Schlüsselteil dieser Methode ist Qt\'s QOpenGLFramebufferObject Klasse.*
+        Diese Methode unterstützt Anti-Aliasing. *Technische Informationen: Wenn Anti-Aliasing ausgeschaltet ist, liest diese Methode das Bild direkt aus dem Grafik Renderer, ansonsten rendert sie in einen Bildpuffer und holt sich das Bild von dort. Der Schlüsselteil dieser Methode ist Qt\'s QOpenGLFramebufferObject Klasse.*
 
     -   
-        {{Value|Framebuffer (as is)}}
+        {{Value|Bildpuffer (wie bestehend)}}
         
-        Diese Methode verwendet die gleichen Techniken wie **Framebuffer (custom)**. Sie unterstützt auch Anti-Aliasing, hat aber einige Einschränkungen in Bezug auf benutzerdefinierte Größen und verwendet immer den aktuellen Hintergrund der 3D Ansicht.
+        Diese Methode verwendet die gleichen Techniken wie **Bildpuffer (benutzerdefiniert)**. Sie unterstützt auch Anti-Aliasing, hat aber einige Einschränkungen in Bezug auf benutzerdefinierte Größen und verwendet immer den aktuellen Hintergrund der 3D Ansicht.
 
-### Bildkommentar
+### Kommentar zum Bild 
 
-1.  Wähle die {{RadioButton|TRUE|MIBA einfügen}} Option, um [MIBA](MIBA.md) Informationen in die Datei einzufügen. Nicht alle Bildformate unterstützen dies.
-2.  Oder wähle die {{RadioButton|TRUE|Kommentar einfügen}} Option und gib einen Kommentar in das Textfeld ein, um einen Kommentar in die Datei einzubetten. Dies wird nicht von allen Bildformaten unterstützt.
-3.  Aktiviere das {{CheckBox|TRUE|Wasserzeichen einfügen}} Kontrollkästchen, um ein Wasserzeichen hinzuzufügen. Das Wasserzeichen wird in der unteren linken Ecke des Bildes platziert und besteht aus dem FreeCAD Logo und dem Namen über der FreeCAD Haupt URL: [www.freecadweb.org](http://www.freecadweb.org).
+1.  Wähle die Option {{RadioButton|TRUE|MIBA Informationen einfügen}}, um [MIBA](MIBA.md)-Informationen in die Datei einzufügen. Nicht alle Bildformate unterstützen dies.
+2.  Oder wähle die Option {{RadioButton|TRUE|Kommentar einfügen}} und gib einen Kommentar in das Textfeld ein, um einen Kommentar in die Datei einzubetten. Dies wird nicht von allen Bildformaten unterstützt.
+3.  Aktiviere das Kontrollkästchen {{CheckBox|TRUE|Wasserzeichen einfügen}}, um ein Wasserzeichen hinzuzufügen. Das Wasserzeichen wird in der unteren linken Ecke des Bildes platziert und besteht aus dem FreeCAD-Logo und dem Namen über der FreeCAD-Haupt-URL: [www.freecadweb.org](http://www.freecadweb.org).
 
 ## Hinweise
 
 -   Die Anzahl der verfügbaren Bilddateiformate kann je nach Betriebssystem variieren.
--   Einige OpenGL Treiber lassen keine Renderings über einer bestimmten Maximalgröße zu.
+-   Einige OpenGL-Treiber lassen keine Renderings über einer bestimmten Maximalgröße zu.
 
 ## Einstellungen
 
--   Der Hintergrund der 3D Ansicht kann in den Voreinstellungen geändert werden: **Bearbeiten → Voreinstellungen... → Anzeige → Farben → Hintergrundfarbe**. Siehe [Einstellungseditor](Preferences_Editor/de#Farben.md).
--   Um das Anti Aliasing der 3D Ansicht zu ändern: **Bearbeiten → Voreinstellungen... → Anzeige → 3D Ansicht → Rendering → Anti-Aliasing**. Siehe [Einstellungseditor](Preferences_Editor/de#3D_View.md).
+-   Der Hintergrund der 3D-Ansicht kann in den Voreinstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → Farben → Hintergrundfarbe**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Farben.md).
+-   Um das Anti Aliasing der 3D-Ansicht zu ändern: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Rendern → Kantenglättung**. Siehe [Voreinstellungseditor](Preferences_Editor/de#3D-Ansicht.md).
 
 ## Skripten
 

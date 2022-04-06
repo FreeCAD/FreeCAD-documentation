@@ -65,7 +65,7 @@ Ces outils permettent la création d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Toit](Arch_Roof/fr.md) : Crée un toit incliné à partir d\'une polyligne sélectionnée.
 
--   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Outils pour axes](Arch_CompAxis/fr.md)
+-   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Outils pour les axes](Arch_CompAxis/fr.md)
 
 -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Axes](Arch_Axis/fr.md) : Ajoute un réseau d\'axes à 1 direction.
 
@@ -79,7 +79,7 @@ Ces outils permettent la création d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_Stairs.svg  style="width:32px;"> [Escalier](Arch_Stairs/fr.md) : Crée un objet escalier.
 
--   <img alt="" src=images/Arch_CompPanel.png  style="width:48px;"> [Outils pour panneaux](Arch_CompPanel/fr.md)
+-   <img alt="" src=images/Arch_CompPanel.png  style="width:48px;"> [Outils pour les panneaux](Arch_CompPanel/fr.md)
 
 -   <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Panneaux](Arch_Panel/fr.md) : Crée un objet panneau à partir d\'un objet 2D sélectionné.
 
@@ -99,7 +99,7 @@ Ces outils permettent la création d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profilé](Arch_Profile/fr.md) : Crée un profilé 2D paramétrique. {{Version/fr|0.19}}
 
--   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Outils matériaux](Arch_CompSetMaterial/fr.md)
+-   <img alt="" src=images/Arch_CompSetMaterial.png  style="width:48px;"> [Outils pour les matériaux](Arch_CompSetMaterial/fr.md)
 
 -   <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Matériau](Arch_SetMaterial/fr.md) : Crée un matériau et l\'attribue aux objets sélectionnés, le cas échéant.
 
@@ -176,6 +176,7 @@ L\'atelier Arch peut être utilisé dans des scripts [Python](Python/fr.md) et d
 
 ## Tutoriels
 
+-   [Migrer de Revit vers FreeCAD](Migrating_to_FreeCAD_from_Revit/fr.md)
 -   [Architecture workflow](http://yorik.uncreated.net/guestblog.php?tag=freecad) : Un exemple de la manière dont FreeCAD peut commencer à avoir sa place préliminaire dans un flux de travail d'architecture.
 -   [Tutoriel Arch](Arch_tutorial/fr.md)(v0.14)
 -   [Tutoriel Arch sur le blog de Yorik](http://yorik.uncreated.net/guestblog.php?2012=180)(v0.13)

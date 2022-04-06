@@ -423,16 +423,18 @@ Mimo, że mogą mieć podobne narzędzia, środowisko Złożenie 3 nie jest zgod
 
 {{top}}
 
-## Testowanie
+## Instalacja
 
-Środowisko pracy [Złożenie 3](Assembly3_Workbench/pl.md) jest w trakcie rozwoju i nie jest jeszcze dostępne *(kwiecień 2020)* poprzez [Menadżer dodatków](Std_AddonMgr/pl.md), ale oczekuje się, że to nastąpi wkrótce.
+Środowisko pracy [Złożenie 3](Assembly3_Workbench/pl.md) jest dostępne *(od marca 2022)* poprzez [Menadżer dodatków](Std_AddonMgr/pl.md). Wszelkie zależności Złożenie 3 od stron trzecich powinny być zarządzane automatycznie przez menedżera dodatków.
 
-Możesz go przetestować na dwa sposoby:
+#### Instalacje alternatywne 
+
+Istnieją dwa alternatywne sposoby instalacji środowiska pracy Złożenie 3:
 
 -   Specjalny fork programu FreeCAD wykonany przez użytkownika realthunder; zobacz [FreeCAD\_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Ten fork jest oparty o konkretnym commit z głównej gałęzi FreeCAD, ale posiada również dodatkowe funkcje, które obecnie nie są obecne w głównej gałęzi. Ze względu na to, że to rozwidlenie jest oparte na konkretnym zrzucie rozwojowym, nie posiada najnowszych funkcji scalanych codziennie do gałęzi głównej.
 -   Rozwojowy [AppImage](AppImage/pl.md), jest oparty na aktualnej gałęzi głównej i zawiera zależności potrzebne do pracy ze środowiskiem Złożenie 3, takie jak solver SolveSpace.
 
-Ponieważ AppImage działa tylko dla Linuksa, dla użytkowników Windows w tej chwili jedyną możliwością przetestowania Złożenie 3 jest pierwsza opcja *(fork realthunder-a)*.
+Ponieważ AppImage działa tylko dla Linuksa, dla użytkowników Windows *(którzy chcą alternatywnie zainstalować to środowisko pracy)* jedyną możliwością przetestowania Złożenie 3 jest pierwsza opcja *(fork realthunder-a)*.
 
 
 {{top}}

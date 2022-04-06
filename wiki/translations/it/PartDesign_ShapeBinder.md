@@ -13,12 +13,29 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Crea un riferimento **shape binder** (forma legata) all\'interno del corpo attivo. Una forma legata è un oggetto di riferimento che si collega a bordi o alle facce di un altro corpo. Può anche essere usato per collegare uno schizzo da un corpo a un altro corpo. L\'oggetto forma legata viene visualizzato in giallo traslucido nella [Vista 3D](3D_view/it.md).
 
-Un esempio di utilizzo potrebbe essere la costruzione di una scatola con copertura adatta a due corpi diversi o la realizzazione di fori allineati tra corpi diversi.
 
-<img alt="" src=images/Shapebinder_tree.png ) ![](images/Shapebinder_flow.png  style="width:600px;"> 
+</div>
+
+A ShapeBinder will track the relative placement of the referenced geometry, which is useful in the context of creating [assemblies](Assembly.md), if its **Trace Support** property is set to {{True}}. See the [Example](#Example.md) below to understand how this works.
+
+The referenced geometry can either be a single object (for example a [Part Box](Part_Box.md), a [PartDesign Body](PartDesign_Body.md), or a [sketch](PartDesign_NewSketch.md) or [Feature](PartDesign_Feature.md) inside a Body), or one or more subelements (faces, edges or vertices) belonging to the same parent object. Which geometry should be selected depends on the intended purpose of the ShapeBinder. For a Boolean operation you would need to select a solid. For a Pad operation a face or a sketch can be used. And for the external geometry in a sketch, or to attach a sketch, any combination of subelements may be appropriate. The referenced geometry can also belong to the Body the ShapeBinder is nested in.
+
+<img alt="" src=images/Shapebinder_flow.png  style="width:600px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Sono selezionate due forme da Body.Pad004 e i relativi oggetti di riferimento sono ora disponibili in Body001.Sketch005 come geometria esterna tramite Body001.ShapeBinder.*
+
+
+</div>
 
 ## Utilizzo
 
@@ -38,18 +55,62 @@ Uso generale:
 
 </div>
 
+## Opzioni
+
+
+<div class="mw-translate-fuzzy">
+
+Fare doppio clic sull\'etichetta ShapeBinder nell\'albero del modello o fare clic con il tasto destro e selezionare **Modifica forma legata** nel menu contestuale per modificarne i parametri.
+
+
+</div>
+
+## Notes
+
+-   A ShapeBinder can be dragged out of the Body it is nested in, and dropped onto the <img alt="" src=images/Document.svg  style="width:16px;"> document node in the [Tree view](Tree_view.md). Such an unnested ShapeBinder can be used as the [Base Feature](PartDesign_Body#Base_Feature.md) for a new Body.
+-   A ShapeBinder created from a sketch can have an opposite \"tool direction\". For example a [Pad](PartDesign_Pad.md) created from the sketch may extend in the +Y direction, while a [Pad](PartDesign_Pad.md), with the same properties, created from the ShapeBinder extends in the -Y direction. Toggling the **Reversed** property (or checkbox) will solve this.
+
+## PartDesign SubShapeBinder vs. PartDesign ShapeBinder 
+
+See [PartDesign SubShapeBinder](PartDesign_SubShapeBinder#PartDesign_SubShapeBinder_vs._PartDesign_ShapeBinder.md).
+
+## Proprietà
+
+
+<div class="mw-translate-fuzzy">
+
+-    {{PropertyData/it|Label}}: nome dato all\'oggetto, questo nome può essere cambiato a piacere.
+
+-    **Trace Support**: Impostando questa opzione su true, Shapebinder osserva i posizionamenti relativi delle parti e dei corpi. L\'impostazione predefinita è false. Vedere l\'esempio sopra per come funziona. {{Version/it|0.18}}
+
+
+</div>
+
+## Example
+
+
+<div class="mw-translate-fuzzy">
+
 **Esempio**
 
 :   L\'esempio utilizza la funzione ShapeBinder per praticare un foro (con o senza filettatura) attraverso più di un corpo. Normalmente la funzione Foro di Part Design è limitata a un singolo corpo. L\'esempio usa due cubi uno di fronte all\'altro ma disallineati in modo arbitrario. I fori vengono creati con schizzi contenenti un cerchio per ogni foro (il diametro viene ignorato dalla funzione foro). Quando si copia lo schizzo sull\'altro cubo, sarà nella stessa posizione nel sistema di coordinate del cubo locale. Nell\'immagine questo è mostrato dal cerchio bianco sul cubo posteriore. Questo non è ciò che vogliamo, perché il foro in quella posizione non sarebbe allineato al foro nel cubo anteriore.
 
 
+</div>
 
+![](images/ShapeBinderThroughHole.png )
+
+
+<div class="mw-translate-fuzzy">
 
 
 :   
 
     :   ![](images/ShapeBinderThroughHole.png )
     :   *Esempio di configurazione per mostrare come eseguire fori attraverso corpi diversi. Il cerchio bianco mostra che copiare gli schizzi non è sufficiente*
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -81,60 +142,6 @@ Ecco come utilizzare la funzione ShapeBinder per ottenerlo:
 13. Rendere invisibile tutta la geometria e visibile ShapeBinder. Ora si può utilizzare la funzione geometria esterna e selezionare il cerchio nel raccoglitore forma. Serve il punto centrale di quel cerchio.
 14. Creare un nuovo cerchio e posizionarlo nel punto centrale del cerchio di ShapeBinder. Il raggio non è importante. La funzione [Foro](PartDesign_Hole/it.md) utilizza solo i punti centrali dei cerchi (nota: i singoli punti vengono ignorati dalla funzione Hole, bisogna usare i cerchi)
 15. Chiudere lo schizzo e fare clic su [Foro](PartDesign_Hole/it.md). Impostare la finestra di dialogo sugli stessi valori del foro iniziale e premere OK.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Fatto.
-
-:   Ora i due fori sono collegati in due corpi diversi. Se si modifica la geometria o le posizioni dei fori, entrambi i fori si adatteranno. Solo quando si aggiunge un nuovo foro, bisogna aggiornare lo schizzo nel secondo cubo per il secondo foro.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-:   Notare
-:   che esiste un altro modo per creare uno ShapeBinder: con il cubo posteriore attivato, fare clic sulla faccia anteriore del cubo anteriore e creare un nuovo schizzo. Appare una finestra di dialogo in cui si seleziona \"Schizzo dipendente\". Ciò crea effettivamente un raccoglitore di forme. È possibile visualizzare il parametro **Supporto traccia** nella finestra delle proprietà. Sono pochi clic in meno rispetto alla nostra procedura.
-:   Notare inoltre che usare ShapeBinder con gli schizzi è solo un sottoinsieme delle sue capacità. È anche possibile utilizzare parti della geometria 3D come mostrato nell\'esempio sopra.
-
-
-</div>
-
-## Opzioni
-
-Fare doppio clic sull\'etichetta ShapeBinder nell\'albero del modello o fare clic con il tasto destro e selezionare **Modifica forma legata** nel menu contestuale per modificarne i parametri.
-
-## Proprietà
-
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/it|Label}}: nome dato all\'oggetto, questo nome può essere cambiato a piacere.
-
--    **Trace Support**: Impostando questa opzione su true, Shapebinder osserva i posizionamenti relativi delle parti e dei corpi. L\'impostazione predefinita è false. Vedere l\'esempio sopra per come funziona. {{Version/it|0.18}}
-
-
-</div>
-
-## Limitazioni
-
-
-<div class="mw-translate-fuzzy">
-
--   La selezione multipla non è supportata. Per ogni singola selezione devono essere premuti i pulsanti Aggiungi geometria e Rimuovi geometria.
-
-C\'è una soluzione alternativa per la selezione multipla: selezionando tutti gli elementi che si vogliono ottenere prima di creare lo ShapeBinder, questi vengono visualizzati nell\'elenco iniziale.
-
--   Una forma legata non può fungere da base per una funzione.
--   La geometria selezionata su un corpo deve essere contigua.
--   Se il corpo da copiare viene selezionato prima di avviare il comando, o se viene utilizzato il pulsante **Object**, non è più possibile selezionare solo specifici elementi di geometria.
--   La posizione relativa del corpo destinatario e del corpo copiato non viene presa in considerazione. forma legata adotta le stesse coordinate interne del corpo copiato. Dalla versione 0.18 ha una nuova proprietà \"Trace Support\", che permette di cambiare questo comportamento e prendere in considerazione i posizionamenti relativi.
 
 
 </div>

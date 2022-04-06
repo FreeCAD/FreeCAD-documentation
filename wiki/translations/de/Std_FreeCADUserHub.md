@@ -1,41 +1,23 @@
 ---
 - GuiCommand:/de
-   Name/de:Std FreeCADUserHub
-   MenuLocation:[Hilfe](Std_Help_Menu/de.md) → Benutzerdokumentation
-   Workbenches:Alle
-   SeeAlso:[Hilfe](Std_OnlineHelp/de.md)
+   Name:Std FreeCADUserHub
+   Name/de:Std Benutzerdokumentation
+   MenuLocation:Hilfe → Benutzerdokumentation
+   Workbenches:All
+   SeeAlso:[Std FreeCADWebseite](Std_FreeCADWebsite/de.md), [Std DokumentationSkripterstellungMitPython](Std_FreeCADPowerUserHub/de.md), [Std FreeCADForum](Std_FreeCADForum/de.md), [Std FreeCADFAQ](Std_FreeCADFAQ/de.md)
 ---
 
 # Std FreeCADUserHub/de
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Öffnet die FreeCAD [Users documentation](https://www.freecadweb.org/wiki/User_hub)-Seite im Standard-Browser des Betriebssystems (erfordert eine Internet-Verbindung). Dort können verschiedene Landessprachen ausgewählt werden.
+Der Befehl **Std Benutzerdokumentation** öffnet die (engl.) Seite \"User hub\" im voreingestellten Internet-Browser (Dort können verschiedene Landessprachen ausgewählt werden). Der Befehl erfordert eine funktionierende Internetverbindung.
 
-
-</div>
-
-The **Std FreeCADUserHub** command opens the FreeCAD Users documentation page in the system\'s default Internet browser. The command requires a working Internet connection.
-
-Currently the command points to [<https://www.freecadweb.org/wiki/User_hub>](https://www.freecadweb.org/wiki/User_hub).
-
-
-<div class="mw-translate-fuzzy">
+Aktuell verweist dieser Befehl auf die Seite [<https://www.freecadweb.org/wiki/User_hub>](https://www.freecadweb.org/wiki/User_hub).
 
 ## Anwendung
 
--   Öffnet das **Hilfe → Benutzerdokumentation**-Menü.
-
-
-</div>
-
-1.  Select the **Help → <img src="images/Std_FreeCADUserHub.svg" width=16px> Users documentation** option from the menu.
+1.  Auswahl des Menüeintrags **Hilfe → <img src="images/Std_FreeCADUserHub.svg" width=16px> Benutzerdokumentation**.
 
 
 

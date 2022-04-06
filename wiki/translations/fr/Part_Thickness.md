@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Thickness
    Name/fr:Part Évidement
-   MenuLocation:Pièce → Évidement...
+   MenuLocation:Part → Évidement...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Décalage](Part_Offset/fr.md)
 ---
@@ -53,14 +53,14 @@ Un bon exemple sur la façon d\'utiliser cet outil sur le forum: [Re: Help desig
 
 **Cylindre creux**
 
-1.  Créer un **<img src="images/Part_Cylinder.svg" width=16px> [Cylindre](Part_Cylinder/fr.md)** avec un rayon de 10 mm et une hauteur de 20 mm
+1.  Créer un **<img src="images/Part_Cylinder.svg" width=16px> [Part Cylindre](Part_Cylinder/fr.md)** avec un rayon de 10 mm et une hauteur de 20 mm
 2.  Sélectionnez la surface supérieure et inférieure du cylindre
 3.  Cliquez sur le bouton **<img src="images/_Part_Thickness.svg" width=16px> Évidement...
 ** (pas besoin de modifier les paramètres par défaut) et appuyez sur **OK**
 
 Remarques:
 
--   Pour cette forme, pensez à utiliser **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube/fr.md)** à la place {{Version/fr|0.19}}
+-   Pour cette forme, pensez à utiliser **<img src="images/Part_Tube.svg" width=16px> [Part Tube](Part_Tube/fr.md)** à la place {{Version/fr|0.19}}
 -   Sélectionnez la surface supérieure du cylindre uniquement pour créer un réceptacle
 
 ![](images/ThicknessEsempio1.png )

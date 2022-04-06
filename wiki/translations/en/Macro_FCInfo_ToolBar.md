@@ -4,8 +4,8 @@
 |Icon=FCInfoToolBar.png
 |Description=Gives information about the selected shape and can display a conversion of radius, diameter, length, area, volume ... in different units (metric and imperial) in a toolBar. The information to be displayed in real time is parametrizable in the Parameter of FreeCAD.
 |Author=Mario52
-|Version=00.02
-|Date=2022/03/14
+|Version=00.03
+|Date=2022/03/29
 |FCVersion=0.18 and more
 |Download= [https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
 |SeeAlso = [Arch Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
@@ -16,7 +16,7 @@
 Gives information about the selected shape and can display a conversion of radius, diameter, length, area, volume \... in different units (metric and imperial) in a toolBar. The information to be displayed is parametrizable in the Parameter of FreeCAD.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/978cda5c913b6625f073e53baf5861ac61f468bc/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/45da6835214d570588244705d2c0f37f97320874/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo\_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
@@ -91,6 +91,9 @@ The options hare located in the Parameter of FreeCAD
         -   (L:) display the Length of the wire, edge, line selected
         -   (P:) display the Perimeter if the face is selected
 
+-   ***switch\_User\_Display\_SommeAllEdgesObject***
+    -   display the somme of the all edge of the object selected (Se:)
+
 -   ***switch\_User\_Display\_NumberFacesMesh***
     -   display the number of Faces of the Mesh object (Nf:)
 
@@ -116,15 +119,9 @@ The options hare located in the Parameter of FreeCAD
         -   (BSS) BSPline Points Shape number points of the Bspline (case Shape)
         -   (BSc) BSPline Points Sub Object number points of sub object selected (case Edge)
 
-
-<div class="mw-translate-fuzzy">
-
 -   ***switch\_User\_Display\_CentreObject***
     -   display the center of the circle (if one circle is detected) or of the object selected
         -   (Ce:) display the center of circle (if detected), face, edge \... BBoxCenter of face, edge \... Sub selection\" + \"\\n\\n\")
-
-
-</div>
 
 -   ***switch\_User\_Display\_CentreBoundBoxObject***
     -   display the boundingBox center of the object (BBCe:)
@@ -205,6 +202,8 @@ enjoy
 The forum discussion [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
 
 ## Version
+
+version: (00.02 +) 00.03 2022/03/22 : add somme all edges
 
 version: 00.02 2022/03/14 : add calcul in real time (with preselection), dimension of toolBar, add info mesh and points
 

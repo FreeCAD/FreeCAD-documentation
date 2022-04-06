@@ -1,7 +1,7 @@
 # Macro Spreadsheet2html
 {{Macro
 |Name=Spreadsheet2html
-|Description=Exports a fc spreadsheet as html. Install through addon manager broken, please see macro wiki page for instruction.
+|Description=Exports a fc spreadsheet as html.
 |Author=heda
 |Version=0.1
 |Date=2021-08-09
@@ -18,11 +18,15 @@ Select a SpreadSheet and run macro.
 
 ## Install
 
-Visible in Addon manager, but install is broken. For now only option is to manually install, but you have to take the code from \"view source\" from this wiki. The full code is there, but it does not render on the wiki.
+Through Addon manager.
 
 ## Link
 
 Forum: No dedicated thread at time of writing.
+
+## Version
+
+v0.1 2021-08-09 : first release
 
 ## Code
 
@@ -405,10 +409,6 @@ Forum: No dedicated thread at time of writing.
     print('Exported spreadsheet as html.')
 
     # end
-
-## Version
-
-v0.1 2021-08-09 : first release
 
 
 

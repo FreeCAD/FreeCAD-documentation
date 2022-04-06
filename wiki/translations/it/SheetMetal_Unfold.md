@@ -27,9 +27,9 @@ The <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **SheetMe
     -   The keyboard shortcut: **U**.
 3.  Adjust unfolding options in the [task panel](Task_panel.md) by:
     -   Selecting the projection options of the unfold sketch.
-    -   Selecting the method of bend deduction with [K-factor](https://github.com/shaise/FreeCAD_SheetMetal#terminology):
+    -   Selecting the method of bend deduction with K-factor:
         - Use a [Material Definition Sheet](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet).
-        - Select a manual [K-factor](https://github.com/shaise/FreeCAD_SheetMetal#terminology) then the ANSI or DIN standard to apply
+        - Select a manual [K-factor](https://github.com/shaise/FreeCAD_SheetMetal#terminology) then the [ANSI or DIN](https://de.wikipedia.org/wiki/Biegeverkürzung#Korrektur_durch_den_sog._k-Faktor) standard to apply
 
 ## Properties
 

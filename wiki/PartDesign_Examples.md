@@ -7,13 +7,13 @@
 
 Sometimes you need a hint how powerful a tool is, without too much explanation.
 
-This is a collection of examples what can be achieved with certain tools. For detailed explanations see the tool descriptions and search the web for tutorials.
+This is a collection of examples that can be achieved with certain tools. For detailed explanations see the tool descriptions and search the web for tutorials.
 
 ## Pad
 
 <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Pad](PartDesign_Pad.md) is a tool to create Pad objects, which are prismatic objects such as extrusion objects, cylinders, cones, cubes, wedges, spheres\...
 
-Each object is based on one outline (yellow), to define the cross-section shape (Preferably made with the Sketcher).
+Each object is based on an outline (yellow), that defines the cross-section shape (preferably made with the [Sketcher Workbench](Sketcher_Workbench.md)).
 
 The outline is dragged along a direction (extruded) to provide the object with a thickness or a length.
 By default it is the normal direction of the plane containing the outline (sketch plane). Optionally the direction can be altered by editing parameters in the properties panel or by selecting a separate straight line (white).
@@ -53,12 +53,12 @@ By default it is the normal direction of the plane containing the outline (sketc
 
 <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:24px;"> [PartDesign Additive pipe](PartDesign_AdditivePipe.md) is a tool to create AdditivePipe objects such as sweep objects, extrusion objects, rotation objects, cylinders, cones, cubes, pyramids, spheres\...
 
-Each object is based on at least of two lines (Preferably made with the Sketcher):
+Each object is based on at least two lines (preferably made with the [Sketcher Workbench](Sketcher_Workbench.md)):
 
 -   One outline (yellow), to define the cross-section shape.
 -   One path (white), to sweep along.
 
-It is not hard to realise that some objects can be created by other tools, too, but would you have guessed how versatile this tool is without those examples?
+It is not hard to realize that some objects can be created with other tools too, but would you have guessed how versatile this tool is without these examples?
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -112,7 +112,7 @@ Straight Sweep Objects
 | **Wedge**         | <img alt="Wedge" src=images/PartDesign_ExamplePrism-04.png  style="width:200px;">                         | -   Outline: **triangle**.                                |
 |                   |                                                                                       | -   Path: straight **line**.                              |
 ++++
-| Regular **Prism** | <img alt="Cylinder" src=images/PartDesign_ExamplePrism-05.png  style="width:200px;">                   | -   Outline: regular **hexagon**.                         |
+| Regular **Prism** | <img alt="Regular Prism" src=images/PartDesign_ExamplePrism-05.png  style="width:200px;">         | -   Outline: regular **hexagon**.                         |
 |                   |                                                                                       | -   Path: straight **line**.                              |
 ++++
 | Star-shaped Prism | <img alt="Star-shaped Prism" src=images/PartDesign_ExamplePrism-06.png  style="width:200px;"> | -   Outline: regular **star-shape**.                      |

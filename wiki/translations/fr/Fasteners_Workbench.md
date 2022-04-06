@@ -8,7 +8,7 @@
 L\'<img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [atelier Fasteners](Fasteners_Workbench/fr.md) est un [atelier externe](External_workbenches/fr.md) qui permet d\'ajouter diverses fixations aux pièces.
 
 ![](images/Fasteners_toolbars.png ) 
-*La disposition par défaut des deux barres d'outils de l'atelier.<br>
+*La barre d'outils unique optionnelle de l'atelier.<br>
 Les fixations à dimensions métriques ont des icônes orange.<br>
 Les fixations dont les dimensions sont en pouces ont des icônes vertes.*
 
@@ -18,20 +18,18 @@ Les fixations dont les dimensions sont en pouces ont des icônes vertes.*
 2.  Redémarrez FreeCAD.
 3.  Créez un nouveau document.
 4.  Sélectionnez l\'<img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [atelier Fasteners](Fasteners_Workbench/fr.md) dans la [liste déroulante des ateliers](Std_Workbench/fr.md).
-5.  La disposition par défaut des deux barres d\'outils s\'affiche.
-6.  La barre d\'outils **FS Screws** de cette disposition contient de nombreuses fixations. Pour voir tous les boutons disponibles, utilisez le bouton **&gt;&gt;** pour la développer.
-7.  En option, vous pouvez modifier la barre d\'outils et la disposition du menu :
+5.  En option, vous pouvez modifier la barre d\'outils et la disposition du menu :
     1.  Allez à : **Edit → Preferences... → Fasteners → General settings → Toolbar screw icons grouping**..
     2.  Sélectionnez l\'une des options disponibles :
         -   
             **None**
             
-            : Toutes les fixations apparaissent dans une seule barre d\'outils. Il s\'agit de la disposition par défaut.
+            : Toutes les fixations apparaissent dans une seule barre d\'outils. Pour voir tous les boutons disponibles, utilisez le bouton **&gt;&gt;** pour la développer.
 
         -   
             **Separate toolbars**
             
-            : Les fixations sont regroupées dans plusieurs barres d\'outils.
+            : Les fixations sont regroupées dans plusieurs barres d\'outils. Il s\'agit de la disposition par défaut.
 
         -   
             **Dropdown buttons**

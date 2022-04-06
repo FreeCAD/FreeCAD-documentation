@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Panel
    Name/fr:Arch Panneau
-   MenuLocation:Arch → Outils pour panneaux → Panneau
+   MenuLocation:Arch → Outils pour les  panneaux → Panneau
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**P** **A**
    Version:0.15
@@ -45,25 +45,25 @@ Depuis la version {{VersionPlus/fr|0.17}}, Arch Panneau peut également être ut
 
 ## Propriétés
 
--    {{PropertyData/fr|Length}}: La longueur du panneau
+-    **Length**: La longueur du panneau
 
--    {{PropertyData/fr|Width}}: La largeur du panneau
+-    **Width**: La largeur du panneau
 
--    {{PropertyData/fr|Thickness}}: L\'épaisseur du panneau
+-    **Thickness**: L\'épaisseur du panneau
 
--    {{PropertyData/fr|Area}}: La surface du panneau
+-    **Area**: La surface du panneau (automatique)
 
--    {{PropertyData/fr|Sheets}}: Le nombre de feuilles de matériaux qui constituent le panneau
+-    **Sheets**: Le nombre de feuilles de matériau dont est composé le panneau.
 
--    {{PropertyData/fr|Wave Length}}: La longueur de l\'ondulé du panneau
+-    **Wave Length**: La longueur de l\'ondulation pour les panneaux ondulés.
 
--    {{PropertyData/fr|Wave Height}}: La hauteur de l\'ondulé du panneau
+-    **Wave Height**: La hauteur de l\'ondulation pour les panneaux ondulés.
 
--    {{PropertyData/fr|Wave Type}}: Le type d\'ondulation du panneau, courbe, trapézoïdal ou pointu
+-    **Wave Type**: Le type de l\'ondulation pour les panneaux ondulés, courbe, trapézoïdale ou en pointe.
 
--    {{PropertyData/fr|Wave Direction}}: l\'orientation de l\'ondulé
+-    **Wave Direction**: L\'orientation des ondulations pour les panneaux ondulés.
 
--    {{PropertyData/fr|Bottom Wave}}: Si l\'ondulation du fond du panneau est plate ou non
+-    **Bottom Wave**: Si l\'ondulation du fond du panneau est plate ou non.
 
 ## Script
 

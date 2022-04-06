@@ -47,7 +47,13 @@ Zu allgemeinen Informationen zum Fangen siehe [Draft Fang](Draft_Snap/de.md).
 
 ## Hinweise
 
+
+<div class="mw-translate-fuzzy">
+
 Es ist keine gute Idee, permanent [Draft Fang Nächste](Draft_Snap_Near/de.md) aktiviert zu haben, denn die Option hat Vorrang vor vielen anderen Fang-Optionen.
+
+
+</div>
 
 ## Einstellungen
 

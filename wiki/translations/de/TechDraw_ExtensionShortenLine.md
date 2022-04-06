@@ -1,18 +1,19 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw ExtensionShortenLine
+   Name/de:TechDraw ErgänzungLinieKürzen
    MenuLocation:TechDraw → Extensions: Attributes/Modifications → Shorten Line
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionExtendLine](TechDraw_ExtensionExtendLine.md)
+   SeeAlso:[TechDraw ErgänzungLinieVerlängern](TechDraw_ExtensionExtendLine/de.md)
 ---
 
 # TechDraw ExtensionShortenLine/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:24px;"> **TechDraw ExtensionShortenLine** Werkzeug verkürzt eine Hilfslinie oder Mittellinie an beiden Enden.
+Das <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:24px;"> **TechDraw ErgänzungLinieKürzen** Werkzeug verkürzt eine Hilfslinie oder Mittellinie an beiden Enden.
 
 <img alt="" src=images/TechDraw_ExtensionShortenLineExample.png  style="width:300px;"> 
 *Rechte eine an beiden Enden verkürzte Mittelline*

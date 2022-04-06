@@ -6,9 +6,15 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD 0.17 wurde am 6. April 2018 veröffentlicht, man kann es auf der [Download](Download/de.md)-Seite herunterladen. Dies ist eine Zusammenfassung der interessantesten Änderungen. Die komplette Liste der Änderungen kann unter [MantisBT bugtracker FC 0.17 changelog](https://www.freecadweb.org/tracker/changelog_page.php?version_id=73) auf Englisch nachgelesen werden.
 
 Ältere Veröffentlichungsnotizen von FreeCAD sind unter [Feature list](Feature_list#Release_notes/de.md) zu finden.
+
+
+</div>
 
 <img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
 *Garten-Eisenbahnwagen Orenstein&Koppel (by FreeCAD-User \"Garden Railway Coach O&K\", see [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*

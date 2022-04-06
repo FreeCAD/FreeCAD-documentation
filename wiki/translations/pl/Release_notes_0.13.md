@@ -1,7 +1,7 @@
 # Release notes 0.13/pl
-This is a summary of the most interesting changes occured in FreeCAD since latest version. See [the Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php) on SourceForge for the complete list of changes.
+To jest podsumowanie najciekawszych zmian, które zaszły w FreeCAD od ostatniej wersji. Zobacz [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php) na SourceForge, aby uzyskać pełną listę zmian.
 
-Older versions: [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
+Starsze wersje: [0.12](Release_notes_0.12/pl.md) - [0.11](Release_notes_0.11/pl.md)
 
 ![800px](images/FreeCAD013.jpg)
 

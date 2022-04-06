@@ -54,6 +54,8 @@ Esta herramienta crea, en el documento 3D, una vista 2D plana de un [Arch Panel]
 
 ## Propiedades
 
+### Data
+
 
 <div class="mw-translate-fuzzy">
 
@@ -83,6 +85,8 @@ Esta herramienta crea, en el documento 3D, una vista 2D plana de un [Arch Panel]
 -    **Margin**: A margin that can be displayed outside the panel cut shape
 
 -    **Show Margin**: Turns the display of the margin on/off
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

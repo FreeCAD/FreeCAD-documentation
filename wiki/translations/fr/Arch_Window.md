@@ -30,7 +30,7 @@ Toutes les informations applicables à une [fenêtre](Arch_Window.md) s\'appliqu
 
 ### Utilisation des préréglages 
 
-1.  Appuyez sur le bouton **<img src="images/Arch_Window.svg" width=16px> [Crée une fenêtre...](Arch_Window/fr.md)** ou appuyez sur les touches **W** puis **I**.
+1.  Appuyez sur le bouton **<img src="images/Arch_Window.svg" width=16px> [Fenêtre](Arch_Window/fr.md)** ou appuyez sur les touches **W** puis **I**.
 2.  Sélectionnez un des préréglages dans la liste.
 3.  Remplissez les paramètres souhaités.
 4.  Dans la [Vue 3D](3D_view/fr.md), déplacez la fenêtre à l\'emplacement où vous souhaitez la placer. Si vous déplacez le pointeur sur un [Arch Mur](Arch_Wall/fr.md), le contour de la fenêtre doit s'aligner sur la face de cet objet.
@@ -81,14 +81,13 @@ Image:ParametersDoorGlass.svg\|Porte de verre Image:ParametersDoorSimple.svg\|Si
 
 ## Création de composants 
 
-Arch Windows peut inclure trois types de composants : panneaux, cadres et grilles. Les panneaux et grilles sont constitués d\'un fil fermé, obtenu par extrusion, tandis que les armatures sont faites de 2 fils fermés ou plus, où chacune est extrudée, puis les plus petites sont soustraites des plus grandes. Vous pouvez accéder, créer, modifier et supprimer des composants d\'une fenêtre en mode d\'édition (double-cliquez sur la fenêtre dans la vue 3D). Les composants ont les propriétés suivantes :
+Arch Fenêtre peut inclure trois types de composants : panneaux, cadres et grilles. Les panneaux et grilles sont constitués d\'un fil fermé, obtenu par extrusion, tandis que les armatures sont faites de 2 fils fermés ou plus, où chacune est extrudée, puis les plus petites sont soustraites des plus grandes. Vous pouvez accéder, créer, modifier et supprimer des composants d\'une fenêtre en mode d\'édition (double-cliquez sur la fenêtre dans la vue 3D). Les composants ont les propriétés suivantes :
 
 -   **Name**: Le nom du composant
 -   **Type**: Le type de composant The type of component. Peut être, \"un panneau de verre\", \"panneau solide\" ou \"une persienne\"
 -   **Wires**: Liste de fils séparés par une virgule
 -   **Thickness** : l\'épaisseur de l\'extrusion du composant.
 -   **Z Offset** : la distance entre le composant, et, sa ligne de base 2D.
-
 -   **Hinge**: Ceci vous permet de sélectionner un bord de l\'objet 2D de base, puis de définir ce bord comme une charnière pour ce composant et ceux qui sont dans la liste
 -   **Opening mode**: Si vous avez défini une charnière dans ce composant ou un autre dans la liste, le réglage du mode d\'ouverture permettra à la fenêtre d\'apparaître ouverte ou d\'afficher les symboles 2D d\'ouverture en plan ou en élévation.
 
@@ -98,10 +97,10 @@ Arch Windows peut inclure trois types de composants : panneaux, cadres et grille
 
 -   L\'objet Windows partage les propriétés communes et le comportement de tous les objet [Arch Composants](Arch_Component/fr.md)
 -   Si la case \'\' Auto-include \'\' est cochée , la fenêtre ne sera pas insérée dans l\'objet hôte.
--   Ajoutez une fenêtre sélectionnée sur un [mur](Arch_Wall/fr.md), pressez sur le bouton **<img src="images/Arch_Add.svg" width=16px> [ajouter](Arch_Add/fr.md)**.
--   Supprimez la fenêtre sélectionnée du [mur](Arch_Wall/fr.md), pressez sur le bouton **<img src="images/Arch_Remove.svg" width=16px> [effacer](Arch_Remove/fr.md)**.
--   Lors de l\'utilisation des préréglages, il est souvent commode de transformer le \"Near\" [Draft Accrochage](Draft_Snap/fr.md), donc vous pouvez coller votre fenêtre sur une face existante.
--   L\'emplacement créé par une fenêtre sur objet hôte est déterminé par deux propriétés: {{PropertyData/fr|Hole Depth}} (Profondeur de l\'emplacement) et {{PropertyData/fr|Hole Wire}} (Lignes de l\'emplacement) ({{Version/fr|0.17}}). Le numéro d\'emplacement de la ligne peut être sélectionné dans la vue 3D ou dans le panneau de tâches de la fenêtre en double-cliquant sur la fenêtre dans l\'arborescence de la Vue combinée
+-   Ajoutez une fenêtre sélectionnée sur un [mur](Arch_Wall/fr.md), pressez sur le bouton **<img src="images/Arch_Add.svg" width=16px> [Ajouter](Arch_Add/fr.md)**.
+-   Supprimez la fenêtre sélectionnée du [mur](Arch_Wall/fr.md), pressez sur le bouton **<img src="images/Arch_Remove.svg" width=16px> [Effacer](Arch_Remove/fr.md)**.
+-   Lors de l\'utilisation des préréglages, il est souvent commode de transformer le \"Plus proche\" de [Draft Aimantation](Draft_Snap/fr.md), donc vous pouvez coller votre fenêtre sur une face existante.
+-   L\'emplacement créé par une fenêtre sur objet hôte est déterminé par deux propriétés: {{PropertyData/fr|Hole Depth}} (Profondeur de l\'emplacement) et **Hole Wire** (Lignes de l\'emplacement) ({{Version/fr|0.17}}). Le numéro d\'emplacement de la ligne peut être sélectionné dans la vue 3D ou dans le panneau de tâches de la fenêtre en double-cliquant sur la fenêtre dans l\'arborescence de la Vue combinée
 -   L\'outil Windows peut utiliser la fonction [Arch Matériaux multiples](Arch_MultiMaterial/fr.md). La fenêtre cherchera dans Multi-Material les couches de matériaux avec le même nom pour chacun des composants de la fenêtre et l\'utiliser si le composant est trouvé. Par exemple, un composant appelé \"OuterFrame\" cherchera dans le Multi-Material attaché, une couche de matériau appelée \"OuterFrame\". Si une telle couche de matériau est trouvée, son matériau sera attribué au composant OuterFrame. La valeur de l\'épaisseur de la couche de matériau n\'est pas prise en compte.
 
 ## Ouvertures
@@ -111,7 +110,7 @@ Arch Windows peut inclure trois types de composants : panneaux, cadres et grille
 
 [Tutoriel pour les fenêtres ouvertes](Tutorial_for_open_windows/fr.md)
 
-Les portes et fenêtres peuvent apparaître partiellement ou entièrement ouvertes dans le modèle 3D ou peuvent afficher des symboles d\'ouverture en plan et/ou en élévation. Par conséquent, elles apparaîtront également dans les vues 2D extraites générées par une [Draft Projection 2D d\'une forme](Draft_Shape2DView/fr.md) ou l\'[atelier TechDraw](TechDraw_Workbench/fr.md) ou l\'[atelier Drawing](Drawing_Workbench/fr.md). Pour obtenir ceci, au moins un des composants de la fenêtre doit avoir une charnière et un mode d\'ouverture défini (voir la section [Composants de construction](#Cr.C3.A9ation_de_composants.md) ci-dessus). Ensuite, en utilisant les propriétés {{PropertyData/fr|Opening}}, {{PropertyData/fr|Symbol Plan}} ou {{PropertyData/fr|Symbol Elevation}}, vous pouvez configurer l\'apparence de la fenêtre:
+Les portes et fenêtres peuvent apparaître partiellement ou entièrement ouvertes dans le modèle 3D ou peuvent afficher des symboles d\'ouverture en plan et/ou en élévation. Par conséquent, elles apparaîtront également dans les vues 2D extraites générées par une [Draft Projection 2D d\'une forme](Draft_Shape2DView/fr.md) ou l\'[atelier TechDraw](TechDraw_Workbench/fr.md) ou l\'[atelier Drawing](Drawing_Workbench/fr.md). Pour obtenir ceci, au moins un des composants de la fenêtre doit avoir une charnière et un mode d\'ouverture défini (voir la section [Composants de construction](#Cr.C3.A9ation_de_composants.md) ci-dessus). Ensuite, en utilisant les propriétés **Opening**, **Symbol Plan** ou **Symbol Elevation**, vous pouvez configurer l\'apparence de la fenêtre:
 
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
 *Porte indiquant le plan des symboles, leur élévation et les propriétés d'ouverture au travail*
@@ -155,25 +154,25 @@ Vous pouvez utiliser tout autre type de workflow que celui décrit ci-dessus, le
 
 ## Propriétés
 
--    {{PropertyData/fr|Window Parts}}: une liste chaîne (5 chaînes par composant, réglez les options des composants ci-dessus)
+-    **Window Parts**: une liste chaîne (5 chaînes par composant, réglez les options des composants ci-dessus)
 
--    {{PropertyData/fr|Louvre Width}}: Si un des composants est réglé sur \"Louvres\", cette propriété définit la taille des éléments de la persienne
+-    **Louvre Width**: Si un des composants est réglé sur \"Louvres\", cette propriété définit la taille des éléments de la persienne
 
--    {{PropertyData/fr|Louvre Spacing}}: Si un des composants est réglé sur \"Louvres\", cette propriété défini l\'espacement entre les éléments de la persienne
+-    **Louvre Spacing**: Si un des composants est réglé sur \"Louvres\", cette propriété défini l\'espacement entre les éléments de la persienne
 
--    {{PropertyData/fr|Hole Wire}}: Le nombre de lignes pour l\'objet de base est utilisé pour créer l\'emplacement dans l\'objet hôte de cette fenêtre. Cette valeur peut être graphiquement en double cliquant sur la fenêtre dans la vue 3D. Si vous donner la valeur 0 la fenêtre sera automatiquement construite sur la plus grande valeur de la ligne de l\'emplacement.
+-    **Hole Wire**: Le nombre de lignes pour l\'objet de base est utilisé pour créer l\'emplacement dans l\'objet hôte de cette fenêtre. Cette valeur peut être graphiquement en double cliquant sur la fenêtre dans la vue 3D. Si vous donner la valeur 0 la fenêtre sera automatiquement construite sur la plus grande valeur de la ligne de l\'emplacement.
 
--    {{PropertyData/fr|Window Parts}}: Une liste d\'éléments (5 éléments par composant, définissant les options de composant ci-dessus)
+-    **Window Parts**: Une liste d\'éléments (5 éléments par composant, définissant les options de composant ci-dessus)
 
--    {{PropertyData/fr|Louvre Width}}: Si un des composants est réglé sur \"Louvres\", cette propriété définit la taille des éléments du louvre
+-    **Louvre Width**: Si un des composants est réglé sur \"Louvres\", cette propriété définit la taille des éléments du louvre
 
--    {{PropertyData/fr|Louvre Spacing}}: Si un des composants est réglé sur \"Louvres\", cette propriété définit l\'espace entre les éléments du louvre
+-    **Louvre Spacing**: Si un des composants est réglé sur \"Louvres\", cette propriété définit l\'espace entre les éléments du louvre
 
--    {{PropertyData/fr|Opening}}: Tous les composants dont le mode d\'ouverture est défini, et à condition qu\'une charnière soit définie dans ceux-ci ou dans un composant antérieur de la liste, apparaissent ouverts par un pourcentage défini par cette valeur
+-    **Opening**: Tous les composants dont le mode d\'ouverture est défini, et à condition qu\'une charnière soit définie dans ceux-ci ou dans un composant antérieur de la liste, apparaissent ouverts par un pourcentage défini par cette valeur
 
--    {{PropertyData/fr|Symbol Plan}}: Affiche le symbole d\'ouverture dans le plan 2D
+-    **Symbol Plan**: Affiche le symbole d\'ouverture dans le plan 2D
 
--    {{PropertyData/fr|Symbol Elevation}}: Affiche le symbole d\'ouverture en élévation dans le plan 2D
+-    **Symbol Elevation**: Affiche le symbole d\'ouverture en élévation dans le plan 2D
 
 ## Script
 
@@ -189,7 +188,7 @@ L\'outil Fenêtre peut être utilisé à l\'intérieur d\'une [macro](macros/fr.
 Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Window")
 ```
 
--   Créer un objet `Window` basé sur `baseobj`, qui devrait être un [fil](Draft_Wire/fr.md) fermé ou une [esquisse](Sketcher_Sketch/fr.md)
+-   Créer un objet `Window` basé sur `baseobj`, qui devrait être une [Draft Polyligne](Draft_Wire/fr.md) fermée ou une [Sketcher Esquisse](Sketcher_Sketch/fr.md)
 -   Si disponible, définir la largeur `width`, hauteur `height` et le nom `name` (label) de la fenêtre.
 -   Si `baseobj` n\'est pas une forme fermée, l\'outil ne pourra pas créer une figure solide correcte.
 

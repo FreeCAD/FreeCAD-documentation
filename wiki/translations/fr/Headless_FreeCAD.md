@@ -3,13 +3,13 @@
 
 ## Introduction
 
-Cette page wiki documente les différents aspects de l\'exécution de FreeCAD dans la console sans activer l\'interface utilisateur graphique (GUI) ou ce qui est appelé \'headless\'.
+Cette page wiki documente les différents aspects de l\'exécution de FreeCAD dans la console sans activer l\'interface utilisateur graphique (GUI) ou aussi appelé \"headless\".
 
-## Représentation par le graphe de scène 
+## Représentation du graphe de scène 
 
-Comme il n\'est pas possible de créer ou d\'accéder au [fournisseur de vues](Viewprovider/fr.md) en mode sans GUI (ou headless). Ce qui est possible, c\'est de charger `FreeCADGui` en mode headless mais il n\'y a aucun moyen d\'accéder au document GUI car il ne sera pas créé et, par conséquent, il n\'existe aucun fournisseur de vues.
+Comme il n\'est pas possible de créer ou d\'accéder au [fournisseur de vues](Viewprovider/fr.md) en mode headless, ce qui est possible, c\'est de charger `FreeCADGui` en mode headless, mais il n\'y a aucun moyen d\'accéder au document GUI car il ne sera pas créé et, par conséquent, il n\'existe aucun fournisseur de vues.
 
-Cependant, il est possible de créer une représentation [Graphe de scène](Scenegraph/fr.md) d\'un objet :
+Cependant, il est possible de créer une représentation du [Graphe de scène](Scenegraph/fr.md) d\'un objet :
 
 
 {{Code|lang=python|code=

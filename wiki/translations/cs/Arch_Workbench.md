@@ -182,8 +182,14 @@ Modul Architektura může být použit v pythonovských skriptech a [makrech](ma
 
 ## Výukový program 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Výukový program architektura](Arch_tutorial/cs.md)
 -   [Architektonický výukový program v Yorikově blogu](http://yorik.uncreated.net/guestblog.php?2012=180)
+
+
+</div>
 
 
 {{docnav/cs|[Workbenches/cs](Workbenches/cs.md)|[Draft Workbench/cs](Draft_Workbench/cs.md)|IconL=|IconR=Workbench_Draft.svg}}

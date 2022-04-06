@@ -1,18 +1,19 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:TechDraw ExtensionThreadBoltSide
+   Name/de:TechDraw ErgänzungAußengewindeSeitlich
    MenuLocation:TechDraw → Extensions: Centerlines/Threading → Add Cosmetic Thread Bolt Side View
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md)
+   SeeAlso:[TechDraw ErgänzungInnengewindeSeitlich](TechDraw_ExtensionThreadHoleSide/de.md)
 ---
 
 # TechDraw ExtensionThreadBoltSide/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw ExtensionThreadBoltSide** Werkzeug fügt ein symbolisches Gewinde an einem von der Seite gesehenen Bolzen ein.
+Das <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw ExtensionThreadBoltSide** Werkzeug fügt ein symbolisches Gewinde (Gewindelinien) an einem von der Seite gesehenen Bolzen ein.
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:300px;"> 
 *Rechts ein Bolzen mit symbolischem Gewinde*

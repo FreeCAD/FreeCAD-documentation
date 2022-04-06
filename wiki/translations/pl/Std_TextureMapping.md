@@ -1,26 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std TextureMapping
-   MenuLocation:View → Texture Mapping...
-   Workbenches:All
+   Name/pl:Std: Odwzorowanie tekstury
+   MenuLocation:Widok → Odwzorowanie tekstury ...
+   Workbenches:wszystkie
 ---
 
 # Std TextureMapping/pl
 
-## Description
+## Opis
 
-The **Std TextureMapping** command temporarily maps a texture onto all objects in a [3D view](3D_view.md).
+Polecenie **Odwzorowanie tekstury \...** tymczasowo mapuje teksturę na wszystkie obiekty w oknie [widoku 3D](3D_view/pl.md).
 
 ![](images/Std_TextureMapping_example.png ) 
-*Two objects mapped with a 120 by 120 pixel image of a checker pattern*
+*Dwa obiekty poddane odwzorowaniu z obrazem szachownicy o wymiarach 120 na 120 pikseli*
 
-## Usage
+## Użycie
 
-1.  Select the **View → <img src="images/Std_TextureMapping.svg" width=16px> Texture Mapping...** option from the menu.
-2.  In the Texture task panel optionally check the {{CheckBox|TRUE|Environment}} checkbox.
-3.  Press the **...** button.
-4.  Select an image file in the dialog box.
-5.  Press the **Close** button to close the task panel and finish the command.
+1.  Wybierz z menu opcję **Widok → <img src="images/Std_TextureMapping.svg" width=16px> Odwzorowanie tekstury ...**.
+2.  W panelu zadań tekstury opcjonalnie zaznacz pole wyboru {{CheckBox|TRUE|Wszystkie bryły}}.
+3.  Naciśnij przycisk **...**.
+4.  Wybierz plik obrazu w oknie dialogowym.
+5.  Naciśnij przycisk **Zamknij**, aby zamknąć panel zadań i zakończyć wykonywanie polecenia.
 
 
 

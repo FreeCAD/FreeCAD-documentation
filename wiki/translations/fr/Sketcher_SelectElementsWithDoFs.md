@@ -1,20 +1,18 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher SelectElementsWithDoFs
-   Name/fr:Sketcher Afficher les degrés de liberté
-   MenuLocation:Sketch → Géométries d'esquisse → Afficher les degrés de liberté
+   Name/fr:Sketcher Sélecteur des degrés de liberté non contraints
+   MenuLocation:Sketch → Outils d'esquisse → Sélectionner les degrés de liberté non contraints
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut:**Z** **F**
    Version:0.18
 ---
 
 # Sketcher SelectElementsWithDoFs/fr
 
-
-</div>
-
 ## Description
 
-Cet outil a pour but d\'aider à contraindre complètement une esquisse en mettant en surbrillance en vert les éléments d'esquisse avec des degrés de liberté restants (DoF, ou «degrees of freedom»).
+Cet outil a pour but d\'aider à contraindre complètement une esquisse en mettant en surbrillance verte les éléments d'esquisse avec des degrés de liberté restants (DoF, ou «degrees of freedom»).
 
 ## Utilisation
 
@@ -34,13 +32,7 @@ où \"X\" est le nombre de degrés de liberté restant dans l\'esquiss. Plus d\'
 > Esquisse entièrement contrainte 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

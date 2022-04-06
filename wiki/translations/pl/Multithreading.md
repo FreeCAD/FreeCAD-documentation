@@ -1,16 +1,16 @@
 # Multithreading/pl
-**This is a stub that needs expanding.**
+**Jest to temat, który wymaga rozwinięcia..**
 
-## Multithreading in FreeCAD 
+## Wielowątkowość i FreeCAD 
 
--   Some 3rd party libraries do some multi-threading like the CAD kernel OCC for boolean operations or the tessellation to create a display mesh from the model.
--   The Eigen3 library which is heavily used for the Sketcher also supports multi-threading. ([source](https://forum.freecadweb.org/viewtopic.php?f=3&t=37327&p=317539#p317535))
+-   Niektóre biblioteki zewnętrzne obsługują wielowątkowość, np. jądro CAD OCC do operacji logicznych lub teselacji do tworzenia siatki wyświetlanej z modelu.
+-   Biblioteka Eigen3, która jest często używana w środowisku Szkicownik, również obsługuje wielowątkowość. ([źródło](https://forum.freecadweb.org/viewtopic.php?f=3&t=37327&p=317539#p317535))
 
-### Related links 
+## Powiązane strony 
 
--   [FreeCAD thread](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&p=173095) discussion on how there is partial mulitithreading support.
+-   [wątek FreeCAD](https://forum.freecadweb.org/viewtopic.php?f=4&t=17501&p=173095) dyskusja na temat częściowej obsługi wielowątkowości.
 -   <https://forum.freecadweb.org/viewtopic.php?f=3&t=37327&p=317539#p317535>
--   [FreeCAD and multicores - multithreads](https://forum.freecadweb.org/viewtopic.php?f=8&t=37398) a forum thread on multicores - multithreads support.
+-   [FreeCAD i wielordzeniowość - wielowątkowość](https://forum.freecadweb.org/viewtopic.php?f=8&t=37398) wątek na forum dotyczący wielordzeniowości - obsługi wielowątkowości.
 
 
 

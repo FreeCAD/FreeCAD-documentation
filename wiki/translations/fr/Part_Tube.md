@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Tube
    Name/fr:Part Tube
-   MenuLocation:Pièce → Primitives → Créer un tube
+   MenuLocation:Part → Primitives → Créer un tube
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Part Primitives](Part_Primitives/fr.md)

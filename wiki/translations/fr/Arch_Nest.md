@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Nest
    Name/fr:Arch Calepinage
-   MenuLocation:Arch → Outils pour panneaux → Calepinage
+   MenuLocation:Arch → Outils pour les panneaux → Calepinage
    Workbenches:[Atelier Arch](Arch_Workbench/fr.md)
    SeeAlso:[Arch Panneau](Arch_Panel/fr.md), [Arch Feuille de panneau](Arch_Panel_Sheet/fr.md)
 ---
@@ -23,7 +23,7 @@ L\'algorithme qui gère l\'outil Nest est en constante évolution et n\'est actu
 
 1.  Cliquer le bouton **<img src="images/Arch_Nest.svg" width=16px> [Calepinage](Arch_Nest/fr.md)**.
 2.  Sélectionner un objet pour devenir le conteneur. Cet objet doit être plat et, pour l\'instant, rectangulaire.
-3.  Cliquez sur le bouton **Pick container** pour utiliser l\'objet sélectionné comme conteneur.
+3.  Cliquez sur le bouton **Choix sélectionné** pour utiliser l\'objet sélectionné comme conteneur.
 4.  Sélectionner une série d\'autres objets plats que vous souhaitez placer à l\'intérieur du conteneur. Ces objets doivent tous être plats et dans le même plan que le conteneur.
 5.  Ajuster les options souhaitées.
 6.  Démarrer le processus de calcul.

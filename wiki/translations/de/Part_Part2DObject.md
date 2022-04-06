@@ -5,33 +5,15 @@
 
 <img alt="" src=images/Tree_Part2D.svg  style="width:32px;">
 
+Ein [Part Part2DObject](Part_Part2DObject/de.md), oder formal ein `Part::Part2DObject`, ist ein einfaches Element mit einer [topologischen Form](Part_TopoShape/de.md), das in der [3D-Ansicht](3D_view/de.md) angezeigt werden kann.
 
-<div class="mw-translate-fuzzy">
-
-Ein [Part Teil2DObjekt](Part_Part2DObject/de.md), oder formal ein `Part::Part2DObject`, ist ein einfaches Element mit einer [topologische Form](Part_TopoShape/de.md), das in der [3D Ansicht](3D_view/de.md) angezeigt werden kann.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das `Part::Part2DObject` ist von einem [Part Formelement](Part_Feature/de.md) abgeleitet, ist aber auf 2D Geometrie spezialisiert, da seine Form auf einer Ebene liegen wird. Diese Ebene wird durch die {{PropertyData/de|Platzierung}} Eigenschaft definiert (Position, Normale und Rotation). Die Ebene kann aber auch durch unterstützende geometrische Elemente definiert werden, wie z.B. die Ebene, die durch drei beliebige Knoten erzeugt wird, oder eine Fläche eines Volumenkörpers.
-
-
-</div>
+Das `Part::Part2DObject` ist von dem [Part Formelement](Part_Feature/de.md) abgeleitet, ist aber auf 2D-Geometrie spezialisiert, da seine Form auf einer Ebene liegen wird. Diese Ebene wird durch die {{PropertyData/de|Placement}} definiert (Position, Normale und Rotation). Die Ebene kann aber auch durch unterstützende geometrische Elemente definiert werden, wie z.B. die Ebene, die durch drei beliebige Knoten erzeugt wird, oder eine Fläche eines Volumenkörpers.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die Klasse `Part::Part2DObject* ist auf 2D Formen spezialisiert, so dass sie die Basisklasse für planare Objekte ist, die mit den Werkbänken Draft und Sketcher erstellt werden. Sie enthält eine Erweiterung, mit der sie an Flächen und Ebenen angehängt werden kann.`
-
-
-</div>
+*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten in FreeCAD*
 
 ## Anwendung
 

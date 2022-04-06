@@ -7,7 +7,7 @@
 
 {{TOCright}}
 
-## Description
+## Opis
 
 This page describes the ToolBit architecture used in the [Path Workbench](Path_Workbench.md) which became the default for FreeCAD v 0.19. For the older \'Legacy\' tool system see [Path ToolLibraryEdit](Path_ToolLibraryEdit.md). Tools in the Path workbench are handled differently than in other CAM packages.
 

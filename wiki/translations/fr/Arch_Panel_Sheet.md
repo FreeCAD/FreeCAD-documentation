@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Panel Sheet
    Name/fr:Arch Feuille de panneau
-   MenuLocation:Arch → Outils pour panneaux → Panneau de feuille
+   MenuLocation:Arch → Outils pour les panneaux → Panneau de feuille
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**P** **S**
    SeeAlso:[Arch Panneau](Arch_Panel/fr.md), [Arch Découpe de panneaux](Arch_Panel_Cut/fr.md), [Arch Calepinage](Arch_Nest/fr.md)

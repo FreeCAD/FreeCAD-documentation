@@ -2,13 +2,13 @@
 {{Macro/fr
 |Name=Macro FCSpring On Surface
 |Icon=FCSpring_On_Surface.png
-|Description=Cette macro crée une hélice (ou ressort) autour d'un objet solide quelle que soit sa forme, l'hélice suit toute la surface de l'objet (Python2 est demandé)<br />Téléchargez l'[https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png icone pour votre barre d'outils]
+|Description=Cette macro crée une hélice (ou ressort) autour d'un objet solide quelle que soit sa forme, l'hélice suit toute la surface de l'objet (Python2 est nécessaire).<br />Téléchargez l'[https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png Icône de la barre d'outils]
 |Author=Mario52
 |Version=00.00
 |Date=2019/12/20
-|Download=ToolBar icon [https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png the Icons]
-|FCVersion=0.18 and above
-|SeeAlso=[Macro FCSpring Helix Variable](Macro_FCSpring_Helix_Variable/fr.md) [<img src=images/FCSpring_Helix_Variable.png style="width:24px">
+|Download=[https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png Icône de la barre d'outils]
+|FCVersion=0.18 et après
+|SeeAlso=[Macro FCSpring Helix Variable](Macro_FCSpring_Helix_Variable/fr.md)
 }}
 
 ## Description
@@ -21,21 +21,21 @@ Cette macro crée une hélice autour d\'un objet solide quelle que soit sa forme
 
 Sélectionnez l\'objet (solide), la macro calcule les valeurs par défaut:
 
--   La valeur de la hauteur du BoundBox de l\'objet, la valeur X du centre du BounBox la valeur Y du centre du BoundBox et la valeur de la base de l\'objet (bounBox le plus bas).
+-   La valeur de la hauteur de la BoundBox de l\'objet, la valeur X du centre de la BoundBox, la valeur Y du centre de la BoundBox, et la valeur Z de la base de la BoundBox.
 
 ![](images/FCSpring_On_Surface_02.png )
 
 **Configuration:**
 
--   **Pas :** Le pas de l\'hélice (Defaut: 1)
--   **Height :** La hauteur de l\'hélice. Par défaut la hauteur est la hauteur du boundBox de l\'objet.
--   **Precision :** Nombre de points par tours de l\'objet, maximum 360 (Défaut: 36)
+-   **Pas :** Le pas de l\'hélice (Défaut: 1)
+-   **Height :** La hauteur de l\'hélice. Par défaut la hauteur est la hauteur de la boîte de délimitation de l\'objet.
+-   **Precision :** Nombre de points par tour de l\'objet, maximum 360 (Défaut: 36)
 
 **Coordinate Begin:**
 
--   **X :** La valeur X. Si l\'objet est décalé, la valeur de l\'axe central X BoundBox est détectée et utilisée par défaut.
--   **Y :** La valeur Y. Si l\'objet est décalé, la valeur de l\'axe central Y BoundBox est détectée et utilisée par défaut.
--   **Z :** La valeur Z. Si l\'objet est décalé, la valeur de la hauteur du BoundBox est détectée et utilisée par défaut.
+-   **X :** La valeur X. Si l\'objet est décalé, la valeur de l\'axe central X de la boîte de délimitation est détectée et utilisée par défaut.
+-   **Y :** La valeur Y. Si l\'objet est décalé, la valeur de l\'axe central Y de la boîte de délimitation est détectée et utilisée par défaut.
+-   **Z :** La valeur Z. Le Z de la base de la BoundBox est détecté et utilisé par défaut.
 
 **Options:**
 
@@ -49,11 +49,11 @@ Sélectionnez l\'objet (solide), la macro calcule les valeurs par défaut:
 
 -    **Quit**: Quitte FCSpring\_On\_Surface.
 
--    **Ok**: lance la création.
+-    **Ok**: Lance la création.
 
 ## Script
 
-![](images/FCSpring_On_Surface.png ) ToolBar icon\]
+Icône de la barre d\'outils ![](images/FCSpring_On_Surface.png )
 
 **Macro\_FCSpring\_On\_Surface.FCMacro**
 

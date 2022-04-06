@@ -20,23 +20,19 @@
 
 ## Utilisation
 
-1.  L\'objet <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> [FEM Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md) est créé automatiquement lors de la création d\'un **![](images/)_[Conteneur_d'analyse](FEM_Analysis/fr.md)**, ou utilisez les alternatives suivantes :
-    -   Utilisez **Solve → Solveur CalculiX Standard**.
+1.  Un <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> solveur CalculiXcxxTools est créé automatiquement lors de la création d\'un <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Conteneur d\'analyse](FEM_Analysis/fr.md).
+    Pour le créer manuellement, utilisez l\'une des alternatives suivantes :
+    -   Sélectionnez **Solveur → <img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> Solveur standard CalculiX** dans le menu.
     -   Appuyez sur les touches de raccourci **S** puis **X**.
-
-
-
-
-1.  Définissez de manière complémentaire les propriétés des données de l\'objet **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools**.
-2.  Double-cliquez sur l\'objet **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools
-**
-3.  Sélectionnez le type d\'analyse
-4.  Cliquez sur **Write .inp file**.
-5.  Cliquez sur **Run CalculiX**.
+2.  Vous pouvez modifier les propriétés de <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+3.  Double-cliquez sur l\'<img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> objet solveur CalculiXcxxTools.
+4.  Sélectionnez **Analysis type**.
+5.  Cliquez sur le bouton **Écrire un fichier .inp**.
+6.  Cliquez sur le bouton **Lancer CalculiX**.
 
 ## Options
 
-En utilisant **Edit.inp file**, vous pouvez afficher et éditer le fichier d\'entrée CalculiX manuellement avant de lancer l\'analyse. Dans ce cas, il peut être utile d\'utiliser le paramètre \"Split Input Writer = true\".
+Cliquez sur le bouton **Editer le fichier .inp** pour afficher et éditer manuellement le fichier d\'entrée de CalculiX avant d\'exécuter l\'analyse. Dans ce cas, il peut être utile de définir la propriété **Split Input Writer** à {{True}}.
 
 ## Propriétés
 
@@ -91,12 +87,12 @@ Les valeurs par défaut peuvent être définies dans le menu **Edition → Préf
     -   non linéaire - les propriétés des matériaux non linéaires seront utilisées à partir de l\'oblet **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=24px> '''[FEM Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md)'''
 **
 
--    {{PropertyData/fr|Type de solveur matriciel}}: type du solveur permettant de résoudre le système d\'équation dans l\'analyse FE. Cela peut affecter de manière significative la vitesse de calcul et la mémoire requise. La pertinence dépend du modèle de votre FE et du matériel disponible.
+-    **Matrix Solver Type**: type de solveur pour résoudre le système d\'équations dans l\'analyse FE. Il peut affecter de manière significative la vitesse de calcul et les besoins en mémoire. L\'adéquation dépend de votre modèle FE et du matériel disponible.
 
-    -   défaut - sélectionne automatiquement le solveur matriciel en fonction des solveurs disponibles (il s\'agira probablement de Spooles)
-    -   spooles - résolveur direct avec prise en charge de plusieurs processeurs. Le nombre de processeurs doit être défini dans **Edition → Préférences → FEM → CalculiX → Solver defaults → Number of CPU's to use**.
-    -   iterativescaling - solutionneur itératif nécessitant peu de mémoire, approprié si le modèle contient principalement des éléments 3D
-    -   iterativecholesky - solutionneur itératif avec préconditionnement avec et avec de faibles besoins en mémoire, approprié si le modèle contient principalement des éléments 3D
+    -   default - sélectionne automatiquement le solveur matriciel en fonction des solveurs disponibles (il s\'agira probablement de Spooles)
+    -   spooles - solveur direct avec prise en charge de plusieurs processeurs. Le nombre de processeurs doit être défini dans les [préférences](FEM_Preferences/fr#CalculiX.md) à la rubrique *Défauts du solveur → Nombre de processeurs à utiliser*.
+    -   iterativescaling - solveur itératif avec des demandes de mémoire minimales, approprié si le modèle contient principalement des éléments 3D
+    -   iterativecholesky - solveur itératif avec préconditionnement et faible demande de mémoire, adapté si le modèle contient principalement des éléments 3D
 
 -    {{PropertyData/fr|Split Input Writer}}:
 

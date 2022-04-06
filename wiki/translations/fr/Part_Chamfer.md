@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part_Chamfer
    Name/fr:Part Chanfrein
-   MenuLocation:Pièce → Chanfrein
+   MenuLocation:Part → Chanfrein
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Congé](Part_Fillet/fr.md)
 ---
@@ -19,7 +19,7 @@ Chanfreine le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vo
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Part_Chamfer.svg" width=16px> Chanfreiner les arêtes...**.
-    -   Sélectionnez l\'option **Pièce → Chanfrein** dans le menu.
+    -   Sélectionnez l\'option **Part → Chanfrein** dans le menu.
 2.  Sélectionnez la forme à chanfreiner dans la boîte de dialogue.
 3.  Sélectionnez les arêtes à chanfreiner en cochant la case correspondante dans la boîte de dialogue de chanfreinage ou en les sélectionnant directement sur le modèle.
 4.  Modifiez les paramètres du chanfrein.
@@ -41,11 +41,11 @@ Chanfreine le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vo
 
 {{Properties_Title|Base}}
 
--    {{PropertyData/fr|Base}}:La forme sur laquelle le chanfrein doit être appliqué.
+-    **Base**: La forme sur laquelle le chanfrein doit être appliqué.
 
--    {{PropertyData/fr|Placement}}:Spécifie l\'orientation et la position de la forme dans l\'espace 3D.
+-    **Placement**: Spécifie l\'orientation et la position de la forme dans l\'espace 3D.
 
--    {{PropertyData/fr|Label}}: Label donné à l\'objet. Changer en fonction de vos besoins.
+-    **Label**: Etiquette donnée à l\'objet. Changer en fonction de vos besoins.
 
 
 

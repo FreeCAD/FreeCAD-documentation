@@ -182,8 +182,14 @@ O módulo Arch (Arquitetura) pode ser usado em scripts python e [ macros](macros
 
 ## Tutoriais
 
+
+<div class="mw-translate-fuzzy">
+
 -   [ Tuturiais de Arquitetura](Arch_tutorial.md)
 -   [Tutoriais de Arquitetura no blog do Yorik](http://yorik.uncreated.net/guestblog.php?2012=180)
+
+
+</div>
 
 
 {{docnav/pt|[Workbenches/pt](Workbenches/pt.md)|[Draft_Workbench/pt](Draft_Workbench/pt.md)|IconL=|IconR=Workbench_Draft.svg}}

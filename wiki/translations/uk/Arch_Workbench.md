@@ -189,8 +189,14 @@ These are additional tools to help you in specific tasks.
 
 ## Посібники
 
+
+<div class="mw-translate-fuzzy">
+
 -   [ Посібник Arch](Arch_tutorial/uk.md)
 -   [Посібники Arch на блозі Yorik\'а](http://yorik.uncreated.net/guestblog.php?2012=180)
+
+
+</div>
 
 
 {{docnav/uk|[Workbenches/uk](Workbenches/uk.md)|[Draft Workbench/uk](Draft_Workbench/uk.md)|IconL=|IconR=Workbench_Draft.svg}}

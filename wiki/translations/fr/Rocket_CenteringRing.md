@@ -20,7 +20,7 @@ Un anneau de centrage est un objet solide utilisé pour maintenir un ou plusieur
 1.  Il existe plusieurs façons d\'appeler la commande:
     -   Appuyez sur le bouton **<img src="images/Rocket_CenteringRing.svg" width=16px> [Centering Ring](Rocket_CenteringRing/fr.md)**.
     -   Sélectionnez l\'option **Rocket  → <img src="images/Rocket_CenteringRing.svg" width=16px> Centering Ring** dans le menu.
-    -   Double-cliquez sur un objet Centering Ring dans la vue du modèle.
+    -   Double-cliquez sur un objet Centering Ring dans la [Vue en arborescence](Tree_view/fr.md).
 2.  Définissez les options et appuyez sur **OK**.
 
 ## Options
@@ -28,59 +28,60 @@ Un anneau de centrage est un objet solide utilisé pour maintenir un ou plusieur
 ### Encoche
 
 Les anneaux de centrage, en particulier ceux utilisés pour les fusées de faible puissance, ont souvent besoin d\'une encoche pour accueillir un crochet de moteur. L\'outil **Centering Ring** peut les générer pour vous.
+
 ![](images/Notched_CR.png ) 
 *Anneau de centrage avec une encoche de crochet moteur*
 
 ## Propriétés
 
 
-{{TitleProperty|Rocket Component}}
-
-Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
-
--    {{PropertyData/fr|Manufacturer}}: Fabricant lorsqu\'il est connu
-
--    {{PropertyData/fr|Part Number}}: Numéro de pièce du fabricant
-
--    {{PropertyData/fr|Description}}: Description du composant
-
--    {{PropertyData/fr|Material}}: Matériau lorsqu\'il est connu
-
-
 {{TitleProperty|Bulkhead}}
 
 Ces propriétés sont héritées de **Bulkhead**, voir [Cloison](Rocket_Bulkhead/fr.md) pour plus d\'informations
 
--    {{PropertyData/fr|Diameter}}: Le diamètre extérieur de la cloison
+-    **Diameter**: Le diamètre extérieur de la cloison
 
--    {{PropertyData/fr|Thickness}}: L\'épaisseur, à l\'exclusion de toute marche, de la cloison
+-    **Hole Center**: La distance entre le centre du trou et le centre de la cloison
 
--    {{PropertyData/fr|Step}}: Vrai lorsque la cloison comprend une étape, voir [Options de Cloison](Rocket_Bulkhead/fr#Options.md)
+-    **Hole Count**: Le nombre de trous appliqués dans un motif radial autour du centre de la cloison
 
--    {{PropertyData/fr|Step Diameter}}: Le diamètre extérieur de la marche
+-    **Hole Diameter**: Le diamètre du trou
 
--    {{PropertyData/fr|Step Thickness}}: L\'épaisseur, sans compter l\'épaisseur de la cloison, de la marche
+-    **Hole Offset**: Décalage à partir de 0 degré du premier trou
 
--    {{PropertyData/fr|Holes}}: Vrai lorsque la cloison comporte un ou plusieurs trous, voir [Options de Cloison](Rocket_Bulkhead/fr#Options.md)
+-    **Holes**: Vrai lorsque la cloison comporte un ou plusieurs trous, voir [Options de Cloison](Rocket_Bulkhead/fr#Options.md)
 
--    {{PropertyData/fr|Hole Diameter}}: Le diamètre du trou
+-    **Step**: Vrai lorsque la cloison comprend une étape, voir [Options de Cloison](Rocket_Bulkhead/fr#Options.md)
 
--    {{PropertyData/fr|Hole Center}}: La distance entre le centre du trou et le centre de la cloison
+-    **Step Diameter**: Le diamètre extérieur de la marche
 
--    {{PropertyData/fr|Hole Count}}: Le nombre de trous appliqués dans un motif radial autour du centre de la cloison
+-    **Step Thickness**: L\'épaisseur, sans compter l\'épaisseur de la cloison, de la marche
 
--    {{PropertyData/fr|Hole Offset}}: Décalage à partir de 0 degré du premier trou
+-    **Thickness**: L\'épaisseur, à l\'exclusion de toute marche, de la cloison
 
 
 {{TitleProperty|Centering Ring}}
 
--    {{PropertyData/fr|Center Diameter}}: Le diamètre du trou intérieur
+-    **Center Diameter**: Le diamètre du trou intérieur
 
--    {{PropertyData/fr|Notched}}: Vrai lorsque le trou central comprend une encoche, voir [Options](#Options.md)
+-    **Notch Height**: La hauteur de l\'encoche
 
--    {{PropertyData/fr|Notch Height}}: La hauteur de l\'encoche
+-    **Notch Width**: La largeur de l\'encoche
 
--    {{PropertyData/fr|Notch Width}}: La largeur de l\'encoche
+-    **Notched**: Vrai lorsque le trou central comprend une encoche, voir [Options](#Options.md)
+
+
+{{TitleProperty|Rocket Component}}
+
+Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
+
+-    **Description**: Description du composant
+
+-    **Manufacturer**: Fabricant lorsqu\'il est connu
+
+-    **Material**: Matériau lorsqu\'il est connu
+
+-    **Part Number**: Numéro de pièce du fabricant
 
 ## Script
 

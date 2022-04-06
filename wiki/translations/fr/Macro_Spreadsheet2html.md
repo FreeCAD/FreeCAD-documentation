@@ -1,7 +1,7 @@
 # Macro Spreadsheet2html/fr
-{{Macro
+{{Macro/fr
 |Name=Spreadsheet2html
-|Description=Exporte une feuille de calcul fc au format html. Installation par le gestionnaire d'addons ne fonctionne pas, voir la page wiki macro pour les instructions.
+|Description=Exporte une feuille de calcul fc au format html.
 |Author=heda
 |Version=0.1
 |Date=2021-08-09
@@ -18,11 +18,15 @@ Sélectionnez une feuille de calcul et exécutez la macro.
 
 ## Installation
 
-Visible dans le gestionnaire d\'addons, mais l\'installation ne fonctionne pas. Pour le moment, la seule option est d\'installer manuellement, mais vous devez prendre le code de \"view source\" de ce wiki. Le code complet est là, mais il ne s\'affiche pas sur le wiki.
+Avec le gesionnaire d\'Addon.
 
 ## Liens
 
 Forum : pas de fil au moment de la rédaction.
+
+## Version
+
+v0.1 2021-08-09 : première version
 
 ## Code
 
@@ -405,10 +409,6 @@ Forum : pas de fil au moment de la rédaction.
     print('Exported spreadsheet as html.')
 
     # end
-
-## Version
-
-v0.1 2021-08-09 : first release
 
 
 

@@ -49,15 +49,15 @@ Acest obiect este creat automat cu crearea cotainerului **<img src="images/_FEM_
 
 </div>
 
-1.  Optionally set data properties of the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
-2.  Double click on the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** object
-3.  Select type of the analysis
-4.  Click **Write .inp file**
-5.  Click **Run CalculiX**
-
 ## Opţiuni
 
+
+<div class="mw-translate-fuzzy">
+
 Folosind {{KEY | Edit .inp file}}, puteți afișa și edita manual fișierul de intrare CalculiX înainte de a rula analiza. În acest caz ar putea fi util să utilizați parametrul \"Split Input Writer = true\".
+
+
+</div>
 
 ## Proprietăți
 

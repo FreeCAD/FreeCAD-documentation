@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part CompJoinFeatures
    Name/fr:Part Jointure
-   MenuLocation:Pièce → Joindre
+   MenuLocation:Part → Joindre
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.16
    SeeAlso:[Part Connecter des objets](Part_JoinConnect/fr.md), [Part Intégrer un objet](Part_JoinEmbed/fr.md), [Part Découpe](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)

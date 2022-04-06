@@ -28,7 +28,9 @@ La herramienta Dimensión Longitud añade una dimensión lineal a una Vista. La 
 ## Utilización
 
 1.  Select the points or edge which define your measurement.
-2.  Press the **<img src="images/TechDraw_LengthDimension.svg" width=20px> [Length Dimension](TechDraw_LengthDimension.md)** button.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insert Length Dimension](TechDraw_LengthDimension.md)** button.
+    -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_LengthDimension.svg" width=16px> Insert Length Dimension** option from the menu.
 3.  A dimension will be added to the View. The dimension may be dragged to the desired position.
 4.  If needed, add tolerances as described in [this page](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md).
 

@@ -7,36 +7,36 @@
 
 # Path Area Workplane/pl
 
-## Description
+## Opis
 
 Empty
 
-## Usage
+## Użycie
 
 Empty
 
-## Options
+## Opcje
 
 Empty
 
-## Properties
+## Właściwości
 
-### Data
-
-Empty
-
-### View
+### Dane
 
 Empty
 
-## Scripting
+### Widok
+
+Empty
+
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-Example:
+Przykład:
 
 
 ```python

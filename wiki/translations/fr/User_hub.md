@@ -28,8 +28,10 @@ Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il 
 
 -   [Solutions de contournement](Workarounds/fr.md)
 -   [Migrer de Fusion360 vers FreeCAD](Migrating_to_FreeCAD_from_Fusion360/fr.md)
--   [Migrer de SolidWorks vers FreeCAD](Migrating_to_FreeCAD_from_SolidWorks.md)
--   [Guide de migration vers FreeCAD BIM](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide) en anglais
+-   [Migrer de OnShape vers FreeCAD](Migrating_to_FreeCAD_from_OnShape/fr.md)
+-   [Migrer de SolidWorks vers FreeCAD](Migrating_to_FreeCAD_from_SolidWorks/fr.md)
+-   [Migrer de Revit vers FreeCAD](Migrating_to_FreeCAD_from_Revit/fr.md)
+-   [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
 -   [BIM Tableau de compatibilité des applications](BIM_application_compatibility_table/fr.md)
 
 ### Concepts de base de l\'application 

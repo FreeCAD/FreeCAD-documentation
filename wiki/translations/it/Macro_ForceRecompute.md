@@ -27,6 +27,8 @@ A volte in FreeCAD l\'utente applica delle modifiche al modello, ma FreeCAD semb
 
 </div>
 
+Sometimes when a user applies changes to the model, FreeCAD does not seem to recognize/integrate them. In addition to that, the blue **<img src="images/Std_Refresh.svg" width=24px> [Refresh/Recompute](Std_Refresh.md)** button remains greyed out. Hence this small macro was designed to force a manual recompute of the model.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -44,6 +46,8 @@ Avviare la macro quando serve.
 
 
 </div>
+
+Run the macro when necessary.
 
 ## Script
 
