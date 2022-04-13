@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part TransformedCopy
    Name/fr:Part Copie transformée
-   MenuLocation:Pièce → Créer une copie → Créer une copie modifiée
+   MenuLocation:Part → Créer une copie → Créer une copie modifiée
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Part Copie simple](Part_SimpleCopy/fr.md), [Part Copie élément](Part_ElementCopy/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
@@ -19,17 +19,17 @@ Pour produire d'autres copies non paramétriques, utilisez **<img src="images/Pa
 ## Utilisation
 
 1.  Sélectionnez un objet que vous souhaitez copier.
-2.  Aller au menu **Pièce → Créer une copie → [<img src=images/Part_TransformedCopy.svg style="width:16px"> [Create transformed copy](Part_TransformedCopy/fr.md)**.
+2.  Aller au menu **Part → Créer une copie → [<img src=images/Part_TransformedCopy.svg style="width:16px"> [Create transformed copy](Part_TransformedCopy/fr.md)**.
 
 ## Propriétés
 
 ### Données
 
-La copie a une simple propriété {{PropertyData/fr|Placement}} comme n\'importe quel autre [Part Feature](Part_Feature/fr.md).
+La copie a une seule propriété **Placement** comme n\'importe quelle autre [Part Fonction](Part_Feature/fr.md).
 
 ### Vue
 
-La copie a des propriétés de vue simples comme toutes les autres [Part Feature](Part_Feature/fr.md).
+La copie a des propriétés de vue simples comme toutes les autres [Part Fonctions](Part_Feature/fr.md).
 
 
 

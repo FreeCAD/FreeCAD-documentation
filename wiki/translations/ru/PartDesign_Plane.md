@@ -10,6 +10,9 @@
 
 # PartDesign Plane/ru
 
+
+</div>
+
 ## Описание
 
 Creates a **datum plane** which can be used as reference for sketches or other datum geometry. Sketches can be attached to datum planes. ![](images/Datum_plane.png ) *Datum Plane crossing 3 corners of the Cube with a Cylinder sketched on it using the Datum Plane as its X-Y Plane.*

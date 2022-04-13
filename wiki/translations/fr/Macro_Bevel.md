@@ -4,8 +4,8 @@
 |Icon=Bevel.svg
 |Description=Biseautage des sommets sélectionnés des objets solides, paramétrique, compatible avec Part Design
 |Author=TheMarkster
-|Version=0.2022.01.19
-|Date=2022-01-19
+|Version=0.2022.04.06b
+|Date=2022-04-06
 |FCVersion=Versions en Python 3
 |Download=[https://wiki.freecadweb.org/File:bevel.svg Icône de la barre d'outils]
 |Links=[https://github.com/mwganson/Bevel Documentation complète sur Github]
@@ -25,7 +25,7 @@ La documentation complète se trouve sur github : [Bevel](https://github.com/mwg
 ## Légende
 
 
-{{Codeextralink|https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d/raw/7b728b8821e2012546ab77bd9da8c31ee198ad1e/Bevel.FCMacro|Bevel.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d/raw/db5e9ecdba031bc743a9bd1e3a39e257ee523abc/Bevel.FCMacro|Bevel.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Bevel.svg )
 

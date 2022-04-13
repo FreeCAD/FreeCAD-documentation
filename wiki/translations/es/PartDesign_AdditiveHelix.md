@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveHelix/es
 
+
+</div>
+
 ## Descripción
 
 La herramienta **Hélice aditiva** crea un sólido realizando un barrido de un boceto seleccionado o de un objeto 2D a lo largo de la trayectoria de una hélice.

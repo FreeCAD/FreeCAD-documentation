@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign_PolarPattern
    Name/fr:PartDesign Répétition circulaire
-   MenuLocation:Conception de pièces → Appliquer un modèle → Répétition circulaire
+   MenuLocation:Part Design → Appliquer un modèle → Répétition circulaire
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 

@@ -20,8 +20,10 @@ This categorizes all **external** workbench commands separate from the internal 
 | [FCGear CrownGear/it](wiki/FCGear CrownGear/it.md) | [FCGear CycloideGear/it](wiki/FCGear CycloideGear/it.md) | [FCGear InvoluteGear/it](wiki/FCGear InvoluteGear/it.md) |
 | [FCGear InvoluteRack/it](wiki/FCGear InvoluteRack/it.md) | [FCGear LanternGear/it](wiki/FCGear LanternGear/it.md) | [FCGear TimingGear/it](wiki/FCGear TimingGear/it.md) |
 | [FCGear WormGear/it](wiki/FCGear WormGear/it.md) | [Lattice2 AttachablePlacement/it](wiki/Lattice2 AttachablePlacement/it.md) | [Reinforcement Bar Bending Schedule/it](wiki/Reinforcement Bar Bending Schedule/it.md) |
-| [Reinforcement Bar Shape Cut List/it](wiki/Reinforcement Bar Shape Cut List/it.md) | [SheetMetal AddJunction/it](wiki/SheetMetal AddJunction/it.md) | [SheetMetal AddRelief/it](wiki/SheetMetal AddRelief/it.md) |
-| [SheetMetal AddWall/it](wiki/SheetMetal AddWall/it.md) | [SheetMetal Extrude/it](wiki/SheetMetal Extrude/it.md) | [SheetMetal Unfold/it](wiki/SheetMetal Unfold/it.md) |
+| [Reinforcement Bar Shape Cut List/it](wiki/Reinforcement Bar Shape Cut List/it.md) | [SheetMetal AddBase/it](wiki/SheetMetal AddBase/it.md) | [SheetMetal AddBend/it](wiki/SheetMetal AddBend/it.md) |
+| [SheetMetal AddCornerRelief/it](wiki/SheetMetal AddCornerRelief/it.md) | [SheetMetal AddFoldWall/it](wiki/SheetMetal AddFoldWall/it.md) | [SheetMetal AddJunction/it](wiki/SheetMetal AddJunction/it.md) |
+| [SheetMetal AddRelief/it](wiki/SheetMetal AddRelief/it.md) | [SheetMetal AddWall/it](wiki/SheetMetal AddWall/it.md) | [SheetMetal Extrude/it](wiki/SheetMetal Extrude/it.md) |
+| [SheetMetal Forming/it](wiki/SheetMetal Forming/it.md) | [SheetMetal SketchOnSheet/it](wiki/SheetMetal SketchOnSheet/it.md) | [SheetMetal Unfold/it](wiki/SheetMetal Unfold/it.md) |
 | [SheetMetal Workbench/it](wiki/SheetMetal Workbench/it.md) |
 
 

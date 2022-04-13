@@ -4,7 +4,7 @@
 |Icon=Parametric_Curve_FP.svg
 |Description=Mise à jour de Macro 3D Parametric Curve mais avec de nouvelles fonctionnalités. Crée un objet Feature Python, offre l'intégration de feuilles de calcul et de JSON, des paramètres étendus. <br/>Prend en charge les mêmes paramètres a, b, c, mais peut également avoir autant de paramètres d sous la forme de d1, d2, d3, d4, etc. que vous le souhaitez.<br/>Prend également en charge l'enregistrement des formules dans un fichier texte au format JSON et la prise en charge de l'intégration dans une feuille de calcul de la formule en cours.<br/>La documentation complète peut être trouvée [https://github.com/mwganson/Parametric_Curve_FP Documentation complète sur Github Parametric_Curve_FP] sur github.  
 |Author=TheMarkster
-|Version=2022.04.04
+|Version=2022.04.04.rev2
 |Date=2022-04-04
 |FCVersion=Toutes en Python 3
 |Download=[https://wiki.freecadweb.org/images/5/59/Parametric_Curve_FP.svg Icône de la barre d'outils]
@@ -24,7 +24,7 @@ Il prend également en charge l\'enregistrement des formules dans un fichier tex
 ### Légende
 
 
-{{Codeextralink|https://gist.github.com/mwganson/473920ad317fb2dc3e37638112874e2a/raw/d4ea811c4ce663554e08add5a30af5f88eee038b/Parametric_Curve_FP.FCMacro|Parametric_Curve_FP.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/473920ad317fb2dc3e37638112874e2a/raw/fcec92070f436bfb064ab9f54df0cb864d1fc43f/Parametric_Curve_FP.FCMacro|Parametric_Curve_FP.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Parametric_Curve_FP.svg )
 

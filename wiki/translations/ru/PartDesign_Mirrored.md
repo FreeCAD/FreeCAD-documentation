@@ -35,7 +35,7 @@ To add or remove features from an existing mirroring:
 
 1.  Press **Add feature** to add a feature to be mirrored. The feature must be visible in the [3D view](3D_view.md):
     1.  Switch to the Model tree;
-    2.  Select in the tree the feature to be added and press **spacebar** to make it visible in the [3D view](3D_view.md);
+    2.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
     3.  Switch back to the Tasks panel;
     4.  Select the feature in the 3D view; it will be added to the list.
     5.  Repeat to add other features.

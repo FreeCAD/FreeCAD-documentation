@@ -5,8 +5,10 @@ This page collects the documentation pages for the [SheetMetal Workbench/it](She
 
 |     |     |     |
 | --- | --- | --- |
-| [SheetMetal AddJunction/it](wiki/SheetMetal AddJunction/it.md) | [SheetMetal AddRelief/it](wiki/SheetMetal AddRelief/it.md) | [SheetMetal AddWall/it](wiki/SheetMetal AddWall/it.md) |
-| [SheetMetal Extrude/it](wiki/SheetMetal Extrude/it.md) | [SheetMetal Unfold/it](wiki/SheetMetal Unfold/it.md) | [SheetMetal Workbench/it](wiki/SheetMetal Workbench/it.md) |
+| [SheetMetal AddBase/it](wiki/SheetMetal AddBase/it.md) | [SheetMetal AddBend/it](wiki/SheetMetal AddBend/it.md) | [SheetMetal AddCornerRelief/it](wiki/SheetMetal AddCornerRelief/it.md) |
+| [SheetMetal AddFoldWall/it](wiki/SheetMetal AddFoldWall/it.md) | [SheetMetal AddJunction/it](wiki/SheetMetal AddJunction/it.md) | [SheetMetal AddRelief/it](wiki/SheetMetal AddRelief/it.md) |
+| [SheetMetal AddWall/it](wiki/SheetMetal AddWall/it.md) | [SheetMetal Extrude/it](wiki/SheetMetal Extrude/it.md) | [SheetMetal Forming/it](wiki/SheetMetal Forming/it.md) |
+| [SheetMetal SketchOnSheet/it](wiki/SheetMetal SketchOnSheet/it.md) | [SheetMetal Unfold/it](wiki/SheetMetal Unfold/it.md) | [SheetMetal Workbench/it](wiki/SheetMetal Workbench/it.md) |
 |
 
 

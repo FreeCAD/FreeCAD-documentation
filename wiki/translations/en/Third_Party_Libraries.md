@@ -42,7 +42,7 @@ If you are compiling using Windows, consider using the [LibPack](#LibPack.md) in
 ++++
 | PyCXX               | \>= XXX                 | XXX                                                                           |
 ++++
-| KDL                 | \>= XXX                 | XXX                                                                           |
+| KDL                 | \>= XXX                 | <https://orocos.org/wiki/orocos/kdl-wiki.html>                                |
 ++++
 | Point Cloud Library | \>= XXX                 | XXX                                                                           |
 ++++

@@ -11,6 +11,9 @@ Si está compilando con Windows, considere usar el [LibPack](#LibPack.md) en lug
 
 ## Enlaces
 
+
+<div class="mw-translate-fuzzy">
+
 ++++
 | Nombre biblioteca   | Versión necesaria       | Enlace para obtenerla                                                         |
 +=====================+=========================+===============================================================================+
@@ -64,6 +67,9 @@ Si está compilando con Windows, considere usar el [LibPack](#LibPack.md) en lug
 ++++
 |                     |                         |                                                                               |
 ++++
+
+
+</div>
 
 ## Detalles
 

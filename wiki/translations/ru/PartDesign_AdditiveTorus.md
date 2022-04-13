@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveTorus/ru
 
+
+</div>
+
 ## Описание
 
 Inserts a primitive torus in the active Body as the first feature, or fuses it to the existing feature(s).

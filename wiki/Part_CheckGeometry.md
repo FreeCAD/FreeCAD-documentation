@@ -23,6 +23,8 @@ Results will be reported in the [Task panel](Task_panel.md). If the check produc
 
 **Note:** FreeCAD has no automatic repair methods for solids, so you need to look at the steps involved to model this specific geometry and try to fix the error on your own.
 
+[App Link](App_Link.md) objects linked to the proper object types and [App Part](App_Part.md) containers with the proper visible objects inside may also be checked using this tool. For App::Links, the shape of the linked object is checked. For App::Part containers the visible objects within are checked as compounds. <small>(v0.20)</small> 
+
 ## Options
 
 ### Skip settings page 

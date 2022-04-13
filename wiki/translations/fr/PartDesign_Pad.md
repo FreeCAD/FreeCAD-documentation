@@ -2,16 +2,16 @@
 - GuiCommand:/fr
    Name:PartDesign Pad
    Name/fr:PartDesign Protrusion 
-   MenuLocation:Conception de pièces → Créer une fonction additive → Protrusion
+   MenuLocation:Part Design → Créer une fonction additive → Protrusion
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Cavité](PartDesign_Pocket/fr.md), [Part Extrusion](Part_Extrude/fr.md)
+   SeeAlso:[PartDesign Cavité](PartDesign_Pocket/fr.md)
 ---
 
 # PartDesign Pad/fr
 
 ## Description
 
-L\'outil *Protrusion* extrude une esquisse ou une face d\'un solide le long d\'une trajectoire droite.
+L\'outil **Protrusion** extrude une esquisse ou une face d\'un solide le long d\'une trajectoire droite.
 
 ![](images/PartDesign_Pad_example.svg )
 

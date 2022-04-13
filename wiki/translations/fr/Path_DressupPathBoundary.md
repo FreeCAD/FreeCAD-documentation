@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path DressupPathBoundary
    Name/fr:Path Limitation de zones
-   MenuLocation:Parcours → Optimization de trajectoire → Limitation de la zone de travail
+   MenuLocation:Path → Trajectoires additionelles → Limitation de la zone de travail
    Workbenches:[Path](Path_Workbench/fr.md)
    SeeAlso:[Path Languettes de maintien](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md)
 ---
@@ -11,12 +11,12 @@
 
 ## Description
 
-La limitation de zones permet de restreindre l\'étendue d\'un chemin à une plus petite partie de l\'objet. Par exemple, restreindre un tracé de profil à une seule face ou partie du modèle.
+La limitation de zones permet de restreindre l\'étendue d\'une trajectoire à une plus petite partie de l\'objet. Par exemple, restreindre un tracé de profil à une seule face ou partie du modèle.
 
 ## Utilisation
 
-1.  Sélectionnez un chemin tel que contour, profil ou opération de poche
-2.  cliquez sur l\'icône du menu <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:16px;"> [Habillage de la limite](Path_DressupPathBoundary/fr.md)
+1.  Sélectionnez une trajectoire tel qu\'un contour, profil ou une opération de poche
+2.  cliquez sur l\'icône du menu <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:16px;"> [Limitation de la zone de travail](Path_DressupPathBoundary/fr.md)
 
 ## Options
 

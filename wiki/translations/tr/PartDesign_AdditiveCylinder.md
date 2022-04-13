@@ -4,7 +4,7 @@
    MenuLocation:Part Design → Create an additive primitive → Additive Cylinder
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
-   SeeAlso:[Create an additive primitive](PartDesign_CompPrimitiveAdditive.md), [Subtractive Cylinder](PartDesign_SubtractiveCylinder.md)
+   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveCylinder](PartDesign_SubtractiveCylinder.md)
 ---
 
 # PartDesign AdditiveCylinder/tr
@@ -24,7 +24,7 @@ Inserts a primitive cylinder in the active Body as the first feature, or fuses i
 
 ## Options
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.20)</small> 
+It is possible to create skewed cylinders by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.20)</small> 
 
 The Cylinder can be edited after its creation in two ways:
 

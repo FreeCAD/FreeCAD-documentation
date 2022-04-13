@@ -5,9 +5,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Inserisce una vista di una parte in un progetto raytracing.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

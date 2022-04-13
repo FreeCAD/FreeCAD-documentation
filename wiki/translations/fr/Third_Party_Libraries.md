@@ -12,7 +12,7 @@ Si voulez compiler en utilisant Windows, pensez à utiliser le [LibPack](#LibPac
 ## Liens
 
 ++++
-| Nom de la librairie | Version needed        | Link to get it                                                                |
+| Nom de la librairie | Version requise       | Lien pour l\'obtenir                                                          |
 +=====================+=======================+===============================================================================+
 | Python              | \>= 3.6               | <http://www.python.org/>                                                      |
 ++++
@@ -42,7 +42,7 @@ Si voulez compiler en utilisant Windows, pensez à utiliser le [LibPack](#LibPac
 ++++
 | PyCXX               | \>= XXX               | XXX                                                                           |
 ++++
-| KDL                 | \>= XXX               | XXX                                                                           |
+| KDL                 | \>= XXX               | <https://orocos.org/wiki/orocos/kdl-wiki.html>                                |
 ++++
 | Point Cloud Library | \>= XXX               | XXX                                                                           |
 ++++

@@ -17,13 +17,14 @@ This category shows documentation articles dealing with python scripting, which 
 | [FreeCAD vector math library/pl](wiki/FreeCAD vector math library/pl.md) | [FreeCADGui API/pl](wiki/FreeCADGui API/pl.md) | [Gui Command/pl](wiki/Gui Command/pl.md) |
 | [Headless FreeCAD/pl](wiki/Headless FreeCAD/pl.md) | [How to install additional workbenches/pl](wiki/How to install additional workbenches/pl.md) | [How to install macros/pl](wiki/How to install macros/pl.md) |
 | [Installing more workbenches/pl](wiki/Installing more workbenches/pl.md) | [Interface creation/pl](wiki/Interface creation/pl.md) | [Introduction to Python/pl](wiki/Introduction to Python/pl.md) |
-| [Line drawing function/pl](wiki/Line drawing function/pl.md) | [Macro at Startup/pl](wiki/Macro at Startup/pl.md) | [Macros/pl](wiki/Macros/pl.md) |
-| [Manual:A gentle introduction/pl](wiki/Manual_A gentle introduction/pl.md) | [Manual:Creating and manipulating geometry/pl](wiki/Manual_Creating and manipulating geometry/pl.md) | [Manual:Creating interface tools/pl](wiki/Manual_Creating interface tools/pl.md) |
-| [Manual:Creating parametric objects/pl](wiki/Manual_Creating parametric objects/pl.md) | [Manual:Import and export to other filetypes/pl](wiki/Manual_Import and export to other filetypes/pl.md) | [Manual:Installing/pl](wiki/Manual_Installing/pl.md) |
-| [Manual:Parametric objects/pl](wiki/Manual_Parametric objects/pl.md) | [Matrix API/pl](wiki/Matrix API/pl.md) | [Mesh API/pl](wiki/Mesh API/pl.md) |
-| [Mesh Scripting/pl](wiki/Mesh Scripting/pl.md) | [Mesh to Part/pl](wiki/Mesh to Part/pl.md) | [Multithreading/pl](wiki/Multithreading/pl.md) |
-| [Object API/pl](wiki/Object API/pl.md) | [OpenCASCADE/pl](wiki/OpenCASCADE/pl.md) | [Package Metadata/pl](wiki/Package Metadata/pl.md) |
-| [Part API/pl](wiki/Part API/pl.md) | [Part scripting/pl](wiki/Part scripting/pl.md) | [Path scripting/pl](wiki/Path scripting/pl.md) |
+| [Line drawing function/pl](wiki/Line drawing function/pl.md) | [LinkSub/pl](wiki/LinkSub/pl.md) | [LinkSubList/pl](wiki/LinkSubList/pl.md) |
+| [Macro at Startup/pl](wiki/Macro at Startup/pl.md) | [Macros/pl](wiki/Macros/pl.md) | [Manual:A gentle introduction/pl](wiki/Manual_A gentle introduction/pl.md) |
+| [Manual:Creating and manipulating geometry/pl](wiki/Manual_Creating and manipulating geometry/pl.md) | [Manual:Creating interface tools/pl](wiki/Manual_Creating interface tools/pl.md) | [Manual:Creating parametric objects/pl](wiki/Manual_Creating parametric objects/pl.md) |
+| [Manual:Import and export to other filetypes/pl](wiki/Manual_Import and export to other filetypes/pl.md) | [Manual:Installing/pl](wiki/Manual_Installing/pl.md) | [Manual:Parametric objects/pl](wiki/Manual_Parametric objects/pl.md) |
+| [Matrix API/pl](wiki/Matrix API/pl.md) | [Mesh API/pl](wiki/Mesh API/pl.md) | [Mesh Scripting/pl](wiki/Mesh Scripting/pl.md) |
+| [Mesh to Part/pl](wiki/Mesh to Part/pl.md) | [Multithreading/pl](wiki/Multithreading/pl.md) | [Object API/pl](wiki/Object API/pl.md) |
+| [OpenCASCADE/pl](wiki/OpenCASCADE/pl.md) | [Package Metadata/pl](wiki/Package Metadata/pl.md) | [Part API/pl](wiki/Part API/pl.md) |
+| [Part scripting/pl](wiki/Part scripting/pl.md) | [Path experimental/pl](wiki/Path experimental/pl.md) | [Path scripting/pl](wiki/Path scripting/pl.md) |
 | [Pivy/pl](wiki/Pivy/pl.md) | [Placement API/pl](wiki/Placement API/pl.md) | [Power users hub/pl](wiki/Power users hub/pl.md) |
 | [Profiling/pl](wiki/Profiling/pl.md) | [Property/pl](wiki/Property/pl.md) | [PySide Advanced Examples/pl](wiki/PySide Advanced Examples/pl.md) |
 | [PySide Beginner Examples/pl](wiki/PySide Beginner Examples/pl.md) | [PySide Intermediate Examples/pl](wiki/PySide Intermediate Examples/pl.md) | [PySide usage snippets/pl](wiki/PySide usage snippets/pl.md) |

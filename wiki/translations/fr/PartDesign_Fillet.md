@@ -2,9 +2,9 @@
 - GuiCommand:/fr
    Name:PartDesign Fillet
    Name/fr:PartDesign Congé 
-   MenuLocation:Conception de pièces → Appliquer une fonction d'habillage → Congé
+   MenuLocation:Part Design → Appliquer une fonction d'habillage → Congé
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Chanfrein](PartDesign_Chamfer/fr.md), [Part Congé](Part_Fillet/fr.md)
+   SeeAlso:[PartDesign Chanfrein](PartDesign_Chamfer/fr.md)
 ---
 
 # PartDesign Fillet/fr

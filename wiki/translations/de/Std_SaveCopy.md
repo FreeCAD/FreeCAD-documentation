@@ -1,48 +1,41 @@
 ---
 - GuiCommand:/de
    Name:Std SaveCopy
-   Name/de:Std SaveCopy
+   Name/de:Std KopieSpeichern
    MenuLocation:Datei → Speichern einer Kopie...
    Workbenches:Alle
    Shortcut:**C**
-   SeeAlso:[Speichern](Std_Save/de.md), [Speichern unter...](Std_SaveAs/de.md)
+   SeeAlso:[Std Speichern](Std_Save/de.md), [Std SpeichernUnter](Std_SaveAs/de.md)
 ---
 
 # Std SaveCopy/de
 
-
-</div>
-
 ## Beschreibung
 
-Speichern eine Kopie des aktuellen Dokuments unter einem neuen Namen.
-
-The **Std SaveCopy** command saves a copy of the active document under a new file name.
+Der Befehl **Std KopieSpeichern** speichert eine Kopie des aktiven Dokuments unter einem neuen Dateinamen.
 
 ## Anwendung
 
-Wähle **Datei** → **Speichern einer Kopie...** aus der Menüleiste.
+1.  Menüeintrag **Datei → <img src="images/Std_SaveCopy.svg" width=16px> Speichern einer Kopie...** auswählen.
+2.  Einen Dateinamen im Dialogfeld eingeben.
+3.  Schaltfläche **Speichern** drücken.
 
-1.  Select the **File → <img src="images/Std_SaveCopy.svg" width=16px> Save a Copy...** option from the menu.
-2.  Enter a filename in the dialog box.
-3.  Press the **Save** button.
+## Optionen
 
-## Options
+-    **Esc**oder Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
 
--   Press **Esc** or the **Cancel** button to abort the command.
+## Einstellungen
 
-## Preferences
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
-
-## Scripting
+## Skripten
 
 
-**See also:**
+**Siehe auch:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-To save a copy of a document use the `saveCopy` method of the document object.
+Um eine Kopie eines Dokuments zu speichern, kann man die Methode `saveCopy` des Document-Objekts verwenden.
 
 
 ```python

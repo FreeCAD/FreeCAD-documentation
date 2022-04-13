@@ -9,6 +9,9 @@
    Version:0.17
    Siehe auch:[Erzeugen eines zusätzlichen geometrischen Körpers](PartDesign_CompPrimitiveAdditive/de.md)---
 
+
+</div>
+
 ## Beschreibung
 
 Fügt den Grundkörper Kugel in den aktiven Körper (Body) als Basisformelement ein oder vereinigt ihn mit den bereits bestehenden Formelementen.

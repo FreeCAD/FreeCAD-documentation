@@ -19,6 +19,9 @@ Erstellt eine **Bezugslinie** (DatumLine), die als Referenz für Skizzen, weiter
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Klicke die Schaltfläche **<img src="images/PartDesign_Line.svg" width=24px> '''Bezugslinie erstellen'''**.
 2.  Definiere die Parameter der Bezugslinie. Wähle eine erste Referenz in der 3D-Ansicht, um die verfügbaren Zuordunungsmodi einzugrenzen.
 3.  Abhängig von dem ausgewählten Bezugselement können eine oder mehrere Befestigungsmodi in der Liste zur Verfügung stehen. Der am wahrscheinlichsten scheinende Modus wird automatisch ausgewählt und erscheint fettgedruckt in der Liste. Der Text *Angehängt im Modus:* zusammen mit dem Befestigungsmodus erscheint in grüner Schrift im oberen Bereich des Parameterdialogs.
@@ -26,6 +29,9 @@ Erstellt eine **Bezugslinie** (DatumLine), die als Referenz für Skizzen, weiter
 5.  Aus der Liste wird der gewünschte Befestigungsmodus ausgewählt.
 6.  Zusätzlich können Befestigungsversätze eingetragen werden.
 7.  Klicke **OK**.
+
+
+</div>
 
 ## Optionen
 

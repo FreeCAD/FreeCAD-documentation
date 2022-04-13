@@ -19,12 +19,18 @@ Erstellt einen Bezugspunkt. Dieser kann innerhalb des aktuellen Körpers referen
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Klicke auf das **<img src="images/PartDesign_Point.svg" width=24px> '''Erstellen eines neuen Bezugspunkts'''** Icon.
 2.  Definiere die Parameter des Punkts. Wähle erst einen Referenzpunkt und dann einen der möglichen Modi
 3.  Je nach Referenz gibt es verschiedene Aufhängemodi. Der wahrscheinlichste ist vorselektiert (Fettschrift ) . Der gewählte Modus erscheint als Hinweis in der Ziel über der Referenzauswahl.
 4.  Um weitere Referenzen zu wählen, auf das nächste **Reference** Icon klicken und ein Objekt auswählen.
 5.  Falls nötig wiederum einen Modus wählen und einen Offset eingeben.
 6.  Mit **OK** abschliessen.
+
+
+</div>
 
 ## Optionen
 

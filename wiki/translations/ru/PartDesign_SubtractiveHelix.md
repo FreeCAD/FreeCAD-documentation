@@ -10,6 +10,9 @@
 
 # PartDesign SubtractiveHelix/ru
 
+
+</div>
+
 ## Описание
 
 The **SubtractiveHelix** tool modifies a solid by sweeping a selected sketch or 2D object along a helix path cutting away the material.

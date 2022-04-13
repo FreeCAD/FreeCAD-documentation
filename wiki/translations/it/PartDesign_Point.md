@@ -22,6 +22,9 @@ Crea un **punto di riferimento** che può essere utilizzato come riferimento per
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Premere il pulsante **<img src="images/PartDesign_Point.svg" width=24px> '''Punto di riferimento'''**.
 2.  Definire i parametri del punto. Selezionare un primo riferimento nella vista 3D per filtrare le modalità di associazione disponibili.
 3.  A seconda del riferimento selezionato, nell\'elenco sono disponibili una o più modalità di associazione. La più probabile è selezionata automaticamente e mostrata in grassetto nella lista. Il testo *Associata con modalità* insieme al nome della modalità di associazione appare in verde nella parte superiore del pannello Parametri.
@@ -29,6 +32,9 @@ Crea un **punto di riferimento** che può essere utilizzato come riferimento per
 5.  Selezionare una modalità di associazione nell\'elenco.
 6.  Definire i valori di offset dell\'associazione.
 7.  Premere **OK**.
+
+
+</div>
 
 ## Opzioni
 

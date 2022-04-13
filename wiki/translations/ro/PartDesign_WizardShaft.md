@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -33,7 +35,15 @@ Acest instrument vă permite să creați un arbore dintr-o tabelă de valori și
 
 Partea superioară a ferestrei este preluată din tabel. Este organizată în coloane numerotate care corespund segmentelor arborelui. Un segment de ax este caracterizat prin faptul că are o anumită lungime și un diametru. Fereastra principală prezintă două tab-uri. Una este piesa în sine (o funcție de revoluție), prezentată în imaginea de mai sus. Al doilea tab arată graficele forțelor de forfecare și momentelor create de sarcinile definite în tabel.
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/shaftwizard1.jpg  style="width:1024px;"> 
+
+
+</div>
+
+## Prerequisites
 
 
 <div class="mw-translate-fuzzy">
@@ -75,13 +85,34 @@ For each shaft segment, the following parameters can be defined
 
 (Other rows and load types exist but no functionality has been implemented yet)
 
+## Menus
+
+
+<div class="mw-translate-fuzzy">
+
 ## Meniuri
 
 Pentru a adăuga un nou segment de arbore, faceți clic dreapta în spațiul gol din partea dreaptă a tabelului și alegeți \"Add column\".
 
+
+</div>
+
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Limitări
 
 -   Nu este posibil să aveți segmente adiacente ale arborelui cu același diametru.
+
+
+</div>
+
+## Planned functionality 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Funcționalitate Planificată 
 
@@ -92,6 +123,9 @@ Pentru a adăuga un nou segment de arbore, faceți clic dreapta în spațiul gol
 -   Definirea încărcărilor ca obiect Document (poate folosi aceeași funcționalitate ca și pentru modulul FEM)
 -   Baza de date material
 -   Permite încărcări cu forțe pe direcția Z și în direcția Y (necesită definirea încărcărilor ca Document Object, altfel tabelul va deveni foarte lung)
+
+
+</div>
 
 
 

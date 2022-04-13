@@ -35,7 +35,13 @@ Fügt einen einfachen Zylinder in den aktiven Körper (Body) als Basisformelemen
 ## Optionen
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{PartDesign Tools navi/de}}
+
+
+</div>
 
 Der Zylinder kann auf zwei verschieden Wege bearbeitet werden:
 

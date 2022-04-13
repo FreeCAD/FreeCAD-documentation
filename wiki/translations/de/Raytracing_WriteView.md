@@ -12,9 +12,21 @@
 
 </div>
 
+
+{{Raytracing_Tools_navi/de}}
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Exportiert die aktuellen Ansicht Eigenschaften in eine pov-Datei für die Verwendung in einem Raytracingprojekt.
+
+
+</div>
+
+
+{{Userdocnavi/de}}
 
 
 <div class="mw-translate-fuzzy">

@@ -2,10 +2,10 @@
 - GuiCommand:/fr
    Name:PartDesign SubtractiveCone
    Name/fr:PartDesign Cône soustractif
-   MenuLocation:Conception de pièces → Créer une primitive soustractive → Cône soustractif
+   MenuLocation:Part Design → Créer une primitive soustractive → Cône soustractif
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Cône additif](PartDesign_AdditiveCone.md)
+   SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Cône additif](PartDesign_AdditiveCone/fr.md)
 ---
 
 # PartDesign SubtractiveCone/fr
@@ -34,17 +34,17 @@ Le Cône peut être édité après sa création de deux façons :
 
 ## Propriétés
 
--    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
+-    **Attachment**: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
--    {{PropertyData/fr|Label}}: donne le nom du cône, changer si nécessaire.
+-    **Label**: donne le nom du cône, changer si nécessaire.
 
--    {{PropertyData/fr|Radius1}}: valeur du rayon de la base du cône.
+-    **Radius1**: valeur du rayon de la base du cône.
 
--    {{PropertyData/fr|Radius2}}: valeur du rayon du sommet du cône tronqué. Une valeur non nulle crée un cône tronqué.
+-    **Radius2**: valeur du rayon du sommet du cône tronqué. Une valeur non nulle crée un cône tronqué.
 
--    {{PropertyData/fr|Height}}: hauteur du cône le long de son axe.
+-    **Height**: hauteur du cône le long de son axe.
 
--    {{PropertyData/fr|Angle}}: angle de rotation de la section transversale (360° pour un cône complet).
+-    **Angle**: angle de rotation de la section transversale (360° pour un cône complet).
 
 
 

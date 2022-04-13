@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign_WizardShaft
    Name/fr:PartDesign Conception d'arbre
-   MenuLocation:Conception de pièces → Shaft design wizard...
+   MenuLocation:Part Design → Assistant de conception d'arbre...
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 
@@ -10,15 +10,15 @@
 
 ## Description
 
-Cet outil vous permet de créer un arbre à partir d\'un tableau de valeurs et d\'analyser les forces et les moments. Vous pouvez démarrer l\'assistant par la commande **Conception de pièces → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Shaft design wizard...**.
+Cet outil vous permet de créer un arbre à partir d\'un tableau de valeurs et d\'analyser les forces et les moments. Vous pouvez démarrer l\'assistant par la commande **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Assistant de conception d'arbre...**.
 
 L\'assistant démarre et affiche un tableau par défaut, la partie d\'arbre correspondante et les graphiques de force/moment.
 
-<img alt="" src=images/WizardShaft_Part.jpg  style="width:780px;"> 
+<img alt="" src=images/WizardShaft_Part.jpg  style="width:780px;">
 
 La partie supérieure de la fenêtre est occupée par le tableau. Elle est organisée en colonnes numérotées qui correspondent aux segments de l\'arbre. Un segment d\'arbre est caractérisé par une certaine longueur et un certain diamètre. La fenêtre principale présente deux onglets. L\'un est la partie de l\'arbre elle-même (une fonction de révolution), voir l\'image ci-dessus. Le second onglet montre les graphiques des forces de cisaillement et des moments créés par les charges définies dans le tableau.
 
-<img alt="" src=images/shaftwizard1.jpg  style="width:1024px;"> 
+<img alt="" src=images/shaftwizard1.jpg  style="width:1024px;">
 
 ## Prérequis
 
@@ -39,7 +39,7 @@ Pour chaque segment de l\'arbre, les paramètres suivants peuvent être définis
 
 (D\'autres lignes et types de charges existent mais aucune fonctionnalité n\'a encore été appliquée)
 
-## Menu
+## Menus
 
 Pour ajouter un nouveau segment d\'arbre, cliquez avec le bouton droit de la souris dans l\'espace vide à droite du tableau et choisissez \"Add column\".
 

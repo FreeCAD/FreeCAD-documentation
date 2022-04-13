@@ -66,12 +66,18 @@ Come nelle seguenti immagini:
 
 ![](images/Braga-secondo_Pad.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Poi
 
 1.  Selezionare una faccia circolare
 2.  Selezionare **<img src="images/PartDesign_Thickness.svg" width=24px> Spessore
 **
 3.  Aggiungere le altre facce circolari alla selezione
+
+
+</div>
 
 Risultato: ![](images/Brga-spessore.png )
 

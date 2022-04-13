@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign Sprocket
    Name/fr:PartDesign Pignon
-   MenuLocation:Conception de pièces → Pignon...
+   MenuLocation:Part Design → Pignon...
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.19
 ---

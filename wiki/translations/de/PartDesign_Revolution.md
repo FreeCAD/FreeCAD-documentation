@@ -8,6 +8,9 @@
 
 # PartDesign Revolution/de
 
+
+</div>
+
 ## Beschreibung
 
 Das **Rotation**swerkzeug erstellt einen Festkörper aus der Rotation einer Skizze oder eines 2D Objekts um eine gegebene Achse.
@@ -17,10 +20,16 @@ Das **Rotation**swerkzeug erstellt einen Festkörper aus der Rotation einer Skiz
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wählen die Skizze aus, die gedreht werden soll.  v0.17 und höher  Alternativ kann eine Fläche des vorhandenen Festkörpers verwendet werden.
 2.  Drücken die **<img src="images/_PartDesign_Revolution.svg" width=24px> '''Drehung'''** Taste.
 3.  Lege die Drehungsparameter fest (siehe nächster Abschnitt).
 4.  Drücke {{KEY | OK}}.
+
+
+</div>
 
 ## Optionen
 

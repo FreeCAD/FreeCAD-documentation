@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Adaptive
    Name/fr:Path Adaptatif
-   MenuLocation:Parcours → Adaptatif
+   MenuLocation:Path → Adaptatif
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -25,7 +25,7 @@ Les instructions d\'utilisation pour l\'opération [Adaptation](Path_Adaptive/fr
 5.  Configurez les paramètres dans l\'onglet Opérations:
     1.  (**Voir la section Propriétés -\> Adaptative ci-dessous.**)
     2.  Définissez la valeur de dépassement en tant que pourcentage du diamètre de l\'outil.
-6.  Si vous souhaitez prévisualiser le résultat avant d\'accepter les paramètres, cliquez sur **Apply**.
+6.  Si vous souhaitez prévisualiser le résultat avant d\'accepter les paramètres, cliquez sur **Appliquer**.
 7.  Cliquez sur le bouton **OK** pour confirmer et générer les chemins.
 
 ##### Remarques préliminaires sur la compensation adaptative 

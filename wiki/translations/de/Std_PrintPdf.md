@@ -1,33 +1,37 @@
-# Std PrintPdf/de
 ---
-- GuiCommand:/de   Name/de:Std PrintPdf   Workbenches:Alle   MenuLocation:[Shortcut:-   SeeAlso:Datei [[Std_Export/de|Export](Std_File_Menu/de___Datei]]_→_PrintPdf_.md)---
+- GuiCommand:/de
+   Name:Std PrintPdf
+   Name/de:Std DruckZuPDF
+   MenuLocation:Datei → PDF exportieren...
+   Workbenches:All
+   SeeAlso:[Std Drucken](Std_Print/de.md), [Std Export](Std_Export/de.md), [Std AnsichtAufnehmen](Std_ViewScreenShot/de.md)
+---
 
+# Std PrintPdf/de
 
-</div>
+## Beschreibung
 
-## Description
+Der Befehl **Std DruckZuPDF** ist in erster Linie zum Erstellen von [PDF](PDF/de.md)-Dateien aus Zeichnungsblättern des Arbeitsbereichs [TechDraw](TechDraw_Workbench/de.md) gedacht, kann aber auch verwendet werden, um ein PDF-Dokument vom aktuell sichtbaren Inhalt der [3D-Ansicht](3D_view/de.md) zu erstellen.
 
-The **Std PrintPdf** command is primarily intended to create [PDF](PDF.md) files from [TechDraw Workbench](TechDraw_Workbench.md) pages, but can also be used to create a PDF from what is currently visible in the [3D view](3D_View.md).
+## Anwendung
 
-## Usage
+1.  Wenn erforderlich, das richtige TechDraw-Zeichnungsblatt aktivieren oder die 3D-Ansicht wie gewünscht einstellen.
+2.  Den Menüeintrag **Datei → <img src="images/Std_PrintPdf.svg" width=16px> PDF exportieren...** auswählen.
+3.  Einen Dateinamen im Dialogfeld eintragen.
+4.  Die Schaltfläche **Speichern** drücken.
 
-1.  If required activate the correct TechDraw page or change the 3D view to your liking.
-2.  Select the **File → <img src="images/Std_PrintPdf.svg" width=16px> Export PDF...** option from the menu.
-3.  Enter a filename in the dialog box.
-4.  Press the **Save** button.
+## Optionen
 
-## Options
+-    **Esc**oder Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
 
--   Press **Esc** or the **Cancel** button to abort the command.
+## Hinweise
 
-## Notes
+-   Um ein PDF-Dokument von einem TechDraw-Zeichnungsblatt zu erstellen, kann man auch den Menüeintrag **Datei → Exportieren... → Technical Drawing (*.svg *.dxf *.pdf)** verwenden. Oder man setzt einen Rechtsklick auf das TechDraw-Zeichnungsblatt im [Hauptansichtsbereich](Main_view_area/de.md) und wählt {{MenuCommand/de|PDF exportieren}} aus dem Kontextmenü.
+-   Eine von der [3D-Ansicht](3D_view.md) erstellte PDF-Datei enthält eine Bitmap-Grafik, einen Screenshot.
 
--   To create a PDF from a TechDraw page you can also use the **File → Export → Technical Drawing (*.svg *.dxf *.pdf)** menu option. Or you can right-click the TechDraw page in the [Main view area](Main_view_area.md) and select **Export PDF** from the context menu.
--   A PDF file created from the [3D view](3D_view.md) will contain a bitmap image, a screenshot.
+## Einstellungen
 
-## Preferences
-
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 
 

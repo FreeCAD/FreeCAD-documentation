@@ -3,7 +3,7 @@
    Name:PartDesign Chamfer
    MenuLocation:Part Design → Apply a dress-up feature → Chamfer
    Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Fillet](PartDesign_Fillet.md), [Part Chamfer](Part_Chamfer.md)
+   SeeAlso:[PartDesign Fillet](PartDesign_Fillet.md)
 ---
 
 # PartDesign Chamfer

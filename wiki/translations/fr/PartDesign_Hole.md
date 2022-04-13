@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign Hole
    Name/fr:PartDesign Perçage
-   MenuLocation:Conception de pièces → Créer une fonction soustractive → Perçage
+   MenuLocation:Part Design → Créer une fonction soustractive → Perçage
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Cavité](PartDesign_Pocket/fr.md)
@@ -68,9 +68,9 @@ Selon la sélection effectuée, certains champs seront activés ou resteront dé
 
 La plupart des propriétés des Données sont les mêmes que celles indiquées dans [Options](#Options.md).
 
--    {{PropertyData/fr|Label}}: nom donné à l\'objet, ce nom peut être changé à la convenance.
+-    **Label**: nom donné à l\'objet, ce nom peut être changé à la convenance.
 
--    {{PropertyData/fr|Refine}}: vrai ou faux. Si la valeur est \"true\" (vraie), nettoie le solide des bords résiduels laissés par les fonctions. Voir **<img src="images/Part_RefineShape.svg" width=16px> [Part Affiner la forme](Part_RefineShape/fr.md)** pour plus de détails.
+-    **Refine**: vrai ou faux. Si la valeur est \"true\" (vraie), nettoie le solide des bords résiduels laissés par les fonctions. Voir **<img src="images/Part_RefineShape.svg" width=16px> [Part Affiner la forme](Part_RefineShape/fr.md)** pour plus de détails.
 
 ## Limitations
 

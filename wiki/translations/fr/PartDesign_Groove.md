@@ -2,8 +2,9 @@
 - GuiCommand:/fr
    Name:PartDesign_Groove
    Name/fr:PartDesign Rainure
-   MenuLocation:Conception de pièces → Créer une fonction soustractive → Rainure
+   MenuLocation:Part Design → Créer une fonction soustractive → Rainure
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso:[PartDesign Révolution](PartDesign_Revolution/fr.md)
 ---
 
 # PartDesign Groove/fr
@@ -24,7 +25,7 @@ L\'outil **Rainure** fait pivoter une esquisse ou un profil sélectionné autour
 
     :   Une face sur le solide existant peut également être utilisée. {{VersionPlus/fr|0.17}}
     :   L\'esquisse doit être mappée sur la face plane d\'un solide existant ou d\'une fonction de conception de pièce, sinon un message d\'erreur apparaîtra. {{VersionMinus/fr|0.16}}
-2.  Appuyez sur le bouton **<img src="images/PartDesign_Groove.svg" width=24px> '''Faire une rainure...'''**.
+2.  Appuyez sur le bouton **<img src="images/PartDesign_Groove.svg" width=24px> '''Rainure'''**.
 3.  Définir les paramètres de la révolution (voir la section suivante).
 4.  Appuyer sur le bouton **OK**.
 
@@ -61,15 +62,15 @@ Lors de la création de la révolution, les **Paramètres de la rainure** permet
 
 Ci-dessous les propriétés qui peuvent être modifiées après la création de la fonction. Les propriétés sous l\'onglet Données *Base* et *Axis* ne sont pas modifiables.
 
--    {{PropertyData/fr|Angle}}: angle de rotation. Voir [Angle](#Angle.md).
+-    **Angle**: angle de rotation. Voir [Angle](#Angle.md).
 
--    {{PropertyData/fr|Label}}: étiquette donnée à l\'opération; peut être changée selon votre convenance.
+-    **Label**: étiquette donnée à l\'opération; peut être changée selon votre convenance.
 
--    {{PropertyData/fr|Midplane}}: true (vrai) ou false (faux). Voir [Symétrique au plan](#Symétrique_au_plan.md).
+-    **Midplane**: true (vrai) ou false (faux). Voir [Symétrique au plan](#Sym.C3.A9trique_au_plan.md).
 
--    {{PropertyData/fr|Reversed}}: true (vrai) ou false (faux). Voir [Inversé](#Inversé.md).
+-    **Reversed**: true (vrai) ou false (faux). Voir [Inversé](#Inversé.md).
 
--    {{PropertyData/fr|Refine}}: true (vrai) ou false (faux). Si la valeur est true, nettoie le solide des arêtes résiduelles laissées par les fonctions. Voir [Affiner la forme](Part_RefineShape/fr.md) pour plus de détails. {{VersionPlus/fr|0.17}}
+-    **Refine**: true (vrai) ou false (faux). Si la valeur est true, nettoie le solide des arêtes résiduelles laissées par les fonctions. Voir [Affiner la forme](Part_RefineShape/fr.md) pour plus de détails. {{VersionPlus/fr|0.17}}
 
 
 

@@ -4,7 +4,7 @@
    MenuLocation:Part Design → Create a subtractive primitive → Subtractive box
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md)
+   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditiveBox](PartDesign_AdditiveBox.md)
 ---
 
 # PartDesign SubtractiveBox/pl

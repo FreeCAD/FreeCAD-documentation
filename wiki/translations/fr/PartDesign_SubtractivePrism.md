@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign SubtractivePrism
    Name/fr:PartDesign Prisme soustractif
-   MenuLocation:Conception de pièces → Créer une primitive soustractive → Prisme soustractif
+   MenuLocation:Part Design → Créer une primitive soustractive → Prisme soustractif
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Prisme additif](PartDesign_AdditivePrism/fr.md)
@@ -12,7 +12,7 @@
 
 ## Description
 
-Insérer un Prisme Primitif Soustractif dans le Corps actif. Sa forme est soustraite du solide existant.
+Insère un Prisme soustractif dans le corps actif. Sa forme est soustraite du solide existant.
 
 ![](images/PartDesign_SubtractivePrism_example.svg )
 
@@ -20,9 +20,9 @@ Insérer un Prisme Primitif Soustractif dans le Corps actif. Sa forme est soustr
 
 ## Utilisation
 
-1.  Presser le bouton **<img src="images/PartDesign_SubtractivePrism.svg" width=24px> '''Prisme soustractif'''**. **Remarque** : Le Prisme soustractif fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le cube soustractif est affiché par défaut dans la barre d\'outils. Pour obtenir le Prisme soustractif, cliquer sur la flèche vers le bas et choisissez <img alt="" src=images/PartDesign_SubtractivePrism.png  style="width:24px;"> Prisme soustractif dans le menu.
+1.  Pressez le bouton **<img src="images/PartDesign_SubtractivePrism.svg" width=24px> '''Prisme soustractif'''**. **Remarque** : Le Prisme soustractif fait partie du menu d\'icônes appelé *Créer une primitive soustractive*. Après le lancement de FreeCAD, le cube soustractif est affiché par défaut dans la barre d\'outils. Pour obtenir le Prisme soustractif, cliquez sur la flèche vers le bas et choisissez Prisme soustractif dans le menu.
 2.  Définir les paramètres primitifs et de l\'[ancrage](Part_EditAttachment/fr.md).
-3.  Cliquer sur **OK**.
+3.  Cliquez sur **OK**.
 4.  Un prisme apparaît dans le corps actif.
 
 ## Options
@@ -36,19 +36,19 @@ Le Prisme peut être éditée après sa création de deux façons :
 
 ## Propriétés
 
--    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
+-    **Attachment**: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
--    {{PropertyData/fr|Label}}: donne le nom du Prisme, changer si nécessaire.
+-    **Label**: donne le nom du Prisme, changez le si nécessaire.
 
--    {{PropertyData/fr|Polygon}}: nombre de cotés de la section du polygone.
+-    **Polygon**: nombre de cotés de la section du polygone.
 
--    {{PropertyData/fr|Circumradius}}: [rayon circonscrit](https://fr.wikipedia.org/wiki/Cercle_circonscrit) du polygone de la section du prisme.
+-    **Circumradius**: [rayon circonscrit](https://fr.wikipedia.org/wiki/Cercle_circonscrit) du polygone de la section du prisme.
 
--    {{PropertyData/fr|Height}}: hauteur du prisme.
+-    **Height**: hauteur du prisme.
 
--    {{PropertyData/fr|First Angle}}: angle dans la première direction. {{Version/fr|0.19}}
+-    **First Angle**: angle dans la première direction. {{Version/fr|0.19}}
 
--    {{PropertyData/fr|Second Angle}}: angle dans la deuxième direction. {{Version/fr|0.19}}
+-    **Second Angle**: angle dans la deuxième direction. {{Version/fr|0.19}}
 
 
 

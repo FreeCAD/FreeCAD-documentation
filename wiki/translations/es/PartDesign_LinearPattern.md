@@ -8,6 +8,9 @@
 
 # PartDesign LinearPattern/es
 
+
+</div>
+
 ## Descripción
 
 
@@ -24,6 +27,9 @@ La herramienta **[<img src=images/PartDesign_LinearPattern.svg style="width:24px
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 Para crear un patrón de repetición:
 
 1.  Seleccionar la operación (u operaciones {{Version/es|0.19}}) que se han de repetir.
@@ -34,6 +40,12 @@ Para crear un patrón de repetición:
 6.  Si hay varias operaciones en el patrón, su orden puede ser importante, ver por ejemplo la imagen de [PolarPattern feature](PartDesign_PolarPattern#Usage.md). {{Version/es|0.19}} Se puede cambiar el orden arrastrando la forma deseada en la lista e inmediatamente se puede apreciar el resultado como vista previa.
 7.  Aceptar con **OK**.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Para añadir o borrar operaciones de un patrón existente:
 
 1.  Pulsar el botón **Añadir una operación** para añadir una operación a repetir, la cual debe ser visible en la [vista 3D](3D_view/es.md).
@@ -43,6 +55,9 @@ Para añadir o borrar operaciones de un patrón existente:
     4.  Seleccionar la operación en la vista 3D; será añadida a la lista.
     5.  Repetir para añadir más operaciones.
 2.  Pulsar el botón **Eliminar operación** para quitar una operación de la lista, o pinchar con botón derecho del ratón sobre la operación en la lista y seleccionar *Eliminar*.
+
+
+</div>
 
 ## Opciones
 

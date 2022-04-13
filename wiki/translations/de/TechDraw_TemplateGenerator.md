@@ -43,7 +43,7 @@ Der Kopf besteht aus nur einer Zeile zur Angabe der Version der XML-Sprache, die
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 }}
 
-## Körper
+### Körper
 
 Der Körper startet mit einem öffnenden Tag, der Informationen über Namensräume, über die Größe der Vorlage und darüber, wo sie platziert wird enthält. Und er hört mit einem schließenden Tag auf.
 

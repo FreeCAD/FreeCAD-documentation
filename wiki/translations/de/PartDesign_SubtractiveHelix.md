@@ -10,6 +10,9 @@
 
 # PartDesign SubtractiveHelix/de
 
+
+</div>
+
 ## Beschreibung
 
 Das Werkzeug **Subtractive helix** erstellt einen Körper,der durch Führen einer Skizze oder eines 2D-Objekts entlang eines Helix-Pfades Material entfernt.

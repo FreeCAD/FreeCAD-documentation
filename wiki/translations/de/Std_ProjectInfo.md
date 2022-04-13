@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Die **Std Projektinformationen**-Anweisung zeigt einen Dialog mit Projektinformationen zum aktiven Dokument. Einige der Informationen können bearbeitet werden.
+Der Befehl **Std Projektinformationen** öffnet ein Dialogfeld mit Projektinformationen zum aktiven Dokument. Einige der Informationen können bearbeitet werden.
 
 ## Anwendung
 
@@ -37,7 +37,7 @@ Die **Std Projektinformationen**-Anweisung zeigt einen Dialog mit Projektinforma
 
 ## Einstellungen
 
--   Die Werte für den Namen des Autors, den Firmennamen und Lizenzinformationen können im [Voreinstellungseditor / Dokument](Preferences_Editor/de#Dokument.md) sein.
+-   Die Angaben für den Namen des Autors, den Firmennamen und Lizenzinformationen können bereits im [Voreinstellungseditor](Preferences_Editor/de#Dokument.md) eingetragen sein.
 
 
 

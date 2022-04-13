@@ -20,6 +20,9 @@ Das **Polarmuster**-Werkzeug nimmt ein ausgewähltes Formelement und erstellt ei
 
 #### Ein Muster erstellen 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle (optional) das Formelement (oder {{Version/de|0.19}} mehrere Formelemente), die gemustert werden sollen.
 2.  Drücke die **<img src="images/PartDesign_PolarPattern.svg" width=16px> '''PolarPattern'''** Schaltfläche.
     -   Falls du kein Element ausgewählt haben solltest, kannst du ein *einziges* Grundelement auswählen.
@@ -28,6 +31,9 @@ Das **Polarmuster**-Werkzeug nimmt ein ausgewähltes Formelement und erstellt ei
 5.  Lege die Anzahl der **Häufigkeiten** fest.
 6.  Wenn du mehrere Formelemente im Muster hast, kann deren Reihenfolge wichtig sein, siehe Abbildung unten.
 7.  Drücke **OK**.
+
+
+</div>
 
 #### Formelemente ordnen 
 
@@ -43,12 +49,18 @@ Du kannst durch Ziehen des Formelements in der Liste die Reihenfolge ändern, un
 
 ###### v0.18
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücke **Formelement hinzufügen**, um ein Formelement hinzuzufügen, das gemustert werden soll. Das Formelement muss in der [3D Ansicht](3D_view/de.md) sichtbar sein:
     1.  Wechsle in den Baumansicht;
     2.  Wähle in der Baumansicht das hinzuzufügende Formelement aus und drücke die **Leertaste**, um es in der [3D Ansicht](3D_view/de.md) sichtbar zu machen.
     3.  Wechsle zurück in die Aufgabenansicht;
     4.  Wähle das Formelement in der 3D Ansicht; es wird der Liste hinzugefügt.
     5.  Wiederhole dies um weitere Formelemente hinzuzufügen.
+
+
+</div>
 
 ###### v0.19
 
@@ -65,12 +77,18 @@ oder
 
 ###### v0.18 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücke **Formelement entfernen** um ein Formelement aus der Liste zu entfernen. Das Formelement muss in der [3D Ansicht](3D_view/de.md) sichtbar sein:
     1.  Wechsle in die Baumansicht.
     2.  Wähle in der Baumansicht das zu entfernende Formelement aus und drücke die **Leertaste**, um es in der [3D Ansicht](3D_view/de.md) sichtbar zu machen;
     3.  Wechsle zurück zum Aufgabenansicht.
     4.  Wähle das Formelement in der 3D Ansicht; es sollte aus der Liste entfernt worden sein.
     5.  Wiederhole dies um weitere Formelemente zu entfernen.
+
+
+</div>
 
 ###### v0.19 
 

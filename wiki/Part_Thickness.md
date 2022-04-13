@@ -21,6 +21,8 @@ The <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Thickness](
 5.  Click **OK** to confirm, create the operation and exit the function
 6.  In the Properties table adjust the parameters if necessary
 
+**Note:** [App Link](App_Link.md) objects linked to the proper object types may also be used as source objects for creating the Thickness object. <small>(v0.20)</small> 
+
 ## Options
 
 -   Thickness: Wall thickness of the resulting object, set the desired value

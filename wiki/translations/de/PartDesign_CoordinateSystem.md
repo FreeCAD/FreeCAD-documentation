@@ -10,11 +10,17 @@
 
 # PartDesign CoordinateSystem/de
 
+
+</div>
+
 ## Beschreibung
 
 Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezugsgeometrie verwendet werden kann. Es hilft auch, die Orientierung der referenzierten Bezugsgeometrie im 3D Raum zu ermitteln. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) {{Caption | Lokales Koordinatensystem, das aus dem Ursprung einer Bezugsebene entspring.}}
 
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Drücken Sie die **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Lokales Koordinatensystem erstellen](PartDesign_CoordinateSystem/de.md)**.
 2.  Definieren Sie die Parameter des Koordinatensystems. Wählen Sie in der 3D-Ansicht eine erste Referenz aus, um die verfügbaren Anhangsmodi zu filtern.
@@ -23,6 +29,9 @@ Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezu
 5.  Wählen Sie in der Liste einen Anhangmodus aus.
 6.  Anhängeoffsetwerte definieren.
 7.  Drücken Sie {{Button | OK}}.
+
+
+</div>
 
 ## Optionen
 

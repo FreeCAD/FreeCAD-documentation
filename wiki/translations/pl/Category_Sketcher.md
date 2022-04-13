@@ -33,21 +33,21 @@ This category includes FreeCAD pages related to Sketcher
 | [Sketcher CreateRegularPolygon/pl](wiki/Sketcher CreateRegularPolygon/pl.md) | [Sketcher CreateSlot/pl](wiki/Sketcher CreateSlot/pl.md) | [Sketcher CreateSquare/pl](wiki/Sketcher CreateSquare/pl.md) |
 | [Sketcher CreateTriangle/pl](wiki/Sketcher CreateTriangle/pl.md) | [Sketcher DeleteAllConstraints/pl](wiki/Sketcher DeleteAllConstraints/pl.md) | [Sketcher DeleteAllGeometry/pl](wiki/Sketcher DeleteAllGeometry/pl.md) |
 | [Sketcher Dialog/pl](wiki/Sketcher Dialog/pl.md) | [Sketcher EditSketch/pl](wiki/Sketcher EditSketch/pl.md) | [Sketcher Extend/pl](wiki/Sketcher Extend/pl.md) |
-| [Sketcher External/pl](wiki/Sketcher External/pl.md) | [Sketcher LeaveSketch/pl](wiki/Sketcher LeaveSketch/pl.md) | [Sketcher MapSketch/pl](wiki/Sketcher MapSketch/pl.md) |
-| [Sketcher MergeSketches/pl](wiki/Sketcher MergeSketches/pl.md) | [Sketcher Micro Tutorial - Constraint Practices/pl](wiki/Sketcher Micro Tutorial - Constraint Practices/pl.md) | [Sketcher MirrorSketch/pl](wiki/Sketcher MirrorSketch/pl.md) |
-| [Sketcher Move/pl](wiki/Sketcher Move/pl.md) | [Sketcher NewSketch/pl](wiki/Sketcher NewSketch/pl.md) | [Sketcher Preferences/pl](wiki/Sketcher Preferences/pl.md) |
-| [Sketcher RectangularArray/pl](wiki/Sketcher RectangularArray/pl.md) | [Sketcher reference/pl](wiki/Sketcher reference/pl.md) | [Sketcher RemoveAxesAlignment/pl](wiki/Sketcher RemoveAxesAlignment/pl.md) |
-| [Sketcher ReorientSketch/pl](wiki/Sketcher ReorientSketch/pl.md) | [Sketcher requirement for a sketch/pl](wiki/Sketcher requirement for a sketch/pl.md) | [Sketcher RestoreInternalAlignmentGeometry/pl](wiki/Sketcher RestoreInternalAlignmentGeometry/pl.md) |
-| [Sketcher scripting/pl](wiki/Sketcher scripting/pl.md) | [Sketcher SelectConflictingConstraints/pl](wiki/Sketcher SelectConflictingConstraints/pl.md) | [Sketcher SelectConstraints/pl](wiki/Sketcher SelectConstraints/pl.md) |
-| [Sketcher SelectElementsAssociatedWithConstraints/pl](wiki/Sketcher SelectElementsAssociatedWithConstraints/pl.md) | [Sketcher SelectElementsWithDoFs/pl](wiki/Sketcher SelectElementsWithDoFs/pl.md) | [Sketcher SelectHorizontalAxis/pl](wiki/Sketcher SelectHorizontalAxis/pl.md) |
-| [Sketcher SelectOrigin/pl](wiki/Sketcher SelectOrigin/pl.md) | [Sketcher SelectRedundantConstraints/pl](wiki/Sketcher SelectRedundantConstraints/pl.md) | [Sketcher SelectVerticalAxis/pl](wiki/Sketcher SelectVerticalAxis/pl.md) |
-| [Sketcher Sketch/pl](wiki/Sketcher Sketch/pl.md) | [Sketcher SketchObject/pl](wiki/Sketcher SketchObject/pl.md) | [Sketcher Split/pl](wiki/Sketcher Split/pl.md) |
-| [Sketcher StopOperation/pl](wiki/Sketcher StopOperation/pl.md) | [Sketcher SwitchVirtualSpace/pl](wiki/Sketcher SwitchVirtualSpace/pl.md) | [Sketcher Symmetry/pl](wiki/Sketcher Symmetry/pl.md) |
-| [Sketcher ToggleActiveConstraint/pl](wiki/Sketcher ToggleActiveConstraint/pl.md) | [Sketcher ToggleConstruction/pl](wiki/Sketcher ToggleConstruction/pl.md) | [Sketcher ToggleDrivingConstraint/pl](wiki/Sketcher ToggleDrivingConstraint/pl.md) |
-| [Template:Sketcher Tools navi/pl](wiki/Template_Sketcher Tools navi/pl.md) | [Sketcher Trimming/pl](wiki/Sketcher Trimming/pl.md) | [Sketcher Tutorial/pl](wiki/Sketcher Tutorial/pl.md) |
-| [Sketcher ValidateSketch/pl](wiki/Sketcher ValidateSketch/pl.md) | [Sketcher ViewSection/pl](wiki/Sketcher ViewSection/pl.md) | [Sketcher ViewSketch/pl](wiki/Sketcher ViewSketch/pl.md) |
-| [Sketcher Workbench/pl](wiki/Sketcher Workbench/pl.md) | [Thread for Screw Tutorial/pl](wiki/Thread for Screw Tutorial/pl.md) | [Toothbrush Head Stand/pl](wiki/Toothbrush Head Stand/pl.md) |
-| [Tutorial custom placing of windows and doors/pl](wiki/Tutorial custom placing of windows and doors/pl.md) |
+| [Sketcher External/pl](wiki/Sketcher External/pl.md) | [Sketcher helper constraint/pl](wiki/Sketcher helper constraint/pl.md) | [Sketcher LeaveSketch/pl](wiki/Sketcher LeaveSketch/pl.md) |
+| [Sketcher MapSketch/pl](wiki/Sketcher MapSketch/pl.md) | [Sketcher MergeSketches/pl](wiki/Sketcher MergeSketches/pl.md) | [Sketcher Micro Tutorial - Constraint Practices/pl](wiki/Sketcher Micro Tutorial - Constraint Practices/pl.md) |
+| [Sketcher MirrorSketch/pl](wiki/Sketcher MirrorSketch/pl.md) | [Sketcher Move/pl](wiki/Sketcher Move/pl.md) | [Sketcher NewSketch/pl](wiki/Sketcher NewSketch/pl.md) |
+| [Sketcher Preferences/pl](wiki/Sketcher Preferences/pl.md) | [Sketcher RectangularArray/pl](wiki/Sketcher RectangularArray/pl.md) | [Sketcher reference/pl](wiki/Sketcher reference/pl.md) |
+| [Sketcher RemoveAxesAlignment/pl](wiki/Sketcher RemoveAxesAlignment/pl.md) | [Sketcher ReorientSketch/pl](wiki/Sketcher ReorientSketch/pl.md) | [Sketcher requirement for a sketch/pl](wiki/Sketcher requirement for a sketch/pl.md) |
+| [Sketcher RestoreInternalAlignmentGeometry/pl](wiki/Sketcher RestoreInternalAlignmentGeometry/pl.md) | [Sketcher scripting/pl](wiki/Sketcher scripting/pl.md) | [Sketcher SelectConflictingConstraints/pl](wiki/Sketcher SelectConflictingConstraints/pl.md) |
+| [Sketcher SelectConstraints/pl](wiki/Sketcher SelectConstraints/pl.md) | [Sketcher SelectElementsAssociatedWithConstraints/pl](wiki/Sketcher SelectElementsAssociatedWithConstraints/pl.md) | [Sketcher SelectElementsWithDoFs/pl](wiki/Sketcher SelectElementsWithDoFs/pl.md) |
+| [Sketcher SelectHorizontalAxis/pl](wiki/Sketcher SelectHorizontalAxis/pl.md) | [Sketcher SelectOrigin/pl](wiki/Sketcher SelectOrigin/pl.md) | [Sketcher SelectRedundantConstraints/pl](wiki/Sketcher SelectRedundantConstraints/pl.md) |
+| [Sketcher SelectVerticalAxis/pl](wiki/Sketcher SelectVerticalAxis/pl.md) | [Sketcher Sketch/pl](wiki/Sketcher Sketch/pl.md) | [Sketcher SketchObject/pl](wiki/Sketcher SketchObject/pl.md) |
+| [Sketcher Split/pl](wiki/Sketcher Split/pl.md) | [Sketcher StopOperation/pl](wiki/Sketcher StopOperation/pl.md) | [Sketcher SwitchVirtualSpace/pl](wiki/Sketcher SwitchVirtualSpace/pl.md) |
+| [Sketcher Symmetry/pl](wiki/Sketcher Symmetry/pl.md) | [Sketcher ToggleActiveConstraint/pl](wiki/Sketcher ToggleActiveConstraint/pl.md) | [Sketcher ToggleConstruction/pl](wiki/Sketcher ToggleConstruction/pl.md) |
+| [Sketcher ToggleDrivingConstraint/pl](wiki/Sketcher ToggleDrivingConstraint/pl.md) | [Template:Sketcher Tools navi/pl](wiki/Template_Sketcher Tools navi/pl.md) | [Sketcher Trimming/pl](wiki/Sketcher Trimming/pl.md) |
+| [Sketcher Tutorial/pl](wiki/Sketcher Tutorial/pl.md) | [Sketcher ValidateSketch/pl](wiki/Sketcher ValidateSketch/pl.md) | [Sketcher ViewSection/pl](wiki/Sketcher ViewSection/pl.md) |
+| [Sketcher ViewSketch/pl](wiki/Sketcher ViewSketch/pl.md) | [Sketcher Workbench/pl](wiki/Sketcher Workbench/pl.md) | [Thread for Screw Tutorial/pl](wiki/Thread for Screw Tutorial/pl.md) |
+| [Toothbrush Head Stand/pl](wiki/Toothbrush Head Stand/pl.md) | [Tutorial custom placing of windows and doors/pl](wiki/Tutorial custom placing of windows and doors/pl.md) |
 
 
 

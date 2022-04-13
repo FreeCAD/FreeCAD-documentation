@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign_LinearPattern
    Name/fr:PartDesign Répétition linéaire
-   MenuLocation:Conception de pièces → Appliquer un modèle → Répétition linéaire
+   MenuLocation:Part Design → Appliquer un modèle → Répétition linéaire
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 

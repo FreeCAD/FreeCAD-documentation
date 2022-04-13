@@ -13,9 +13,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Renderizza il progetto raytracing selezionato utilizzando un renderer esterno.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -28,9 +38,17 @@ Renderizza il progetto raytracing selezionato utilizzando un renderer esterno.
 
 </div>
 
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Limitazioni
 
 Attualmente sono supportati solo POV-Ray e LuxRender.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

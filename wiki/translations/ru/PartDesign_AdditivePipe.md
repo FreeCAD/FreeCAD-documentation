@@ -10,6 +10,9 @@
 
 # PartDesign AdditivePipe/ru
 
+
+</div>
+
 ## Описание
 
 **Additive Pipe** creates a solid in the active Body by sweeping one or more sketches (also referred to as cross-sections) along an open or closed path. If the Body already contains features, the additive pipe will be merged to them.

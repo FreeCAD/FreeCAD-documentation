@@ -11,6 +11,9 @@ Wenn du unter Windows kompilierst, ziehe es in Betracht, die [LibPack](#LibPack/
 
 ## Verweise
 
+
+<div class="mw-translate-fuzzy">
+
 ++++
 | Name der Bibliothek | Notwendige Version      | Verweis für den Bezug                                                         |
 +=====================+=========================+===============================================================================+
@@ -62,6 +65,9 @@ Wenn du unter Windows kompilierst, ziehe es in Betracht, die [LibPack](#LibPack/
 ++++
 |                     |                         |                                                                               |
 ++++
+
+
+</div>
 
 ## Details
 

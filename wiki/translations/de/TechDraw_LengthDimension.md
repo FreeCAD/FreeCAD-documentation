@@ -18,16 +18,12 @@ Das Werkzeug <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:2
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Die Punkte oder die Kante auswählen, die die Messung definieren.
-2.  Die Schaltfläche **<img src="images/TechDraw_LengthDimension.svg" width=20px> [Längenmaß einfügen](TechDraw_LengthDimension/de.md)** drücken.
+2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
+    -   Drücken der Schaltfläche **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Längenmaß einfügen](TechDraw_LengthDimension/de.md)**.
+    -   Auswahl des Menüeintrags **TechDraw → <img src="images/TechDraw_LengthDimension.svg" width=16px> Längenmaß einfügen**.
 3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
 4.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
-
-
-</div>
 
 Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der Bemaßungsdialog geöffnet.
 

@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveSphere/es
 
+
+</div>
+
 ## Descripción
 
 Inserta una Esfera primitiva en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s).

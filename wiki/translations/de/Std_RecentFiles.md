@@ -1,49 +1,32 @@
-# Std RecentFiles/de
 ---
-- GuiCommand:/de   Name:Std RecentFiles   Name/de:Std Letzte Dateien   MenuLocation:[|Workbenches:Alle   Shortcut:-   SeeAlso:[[Std Open/de|Öffnen](Std_File_Menu/de___Datei]]_→_Letzte_Dateien_.md), [Import](Std_Import/de.md)---
+- GuiCommand:/de
+   Name:Std RecentFiles
+   Name/de:Std LetzteDateien
+   Empty:1
+   MenuLocation:Datei → Letzte Dateien
+   Workbenches:Alle
+   SeeAlso:[Std Öffnen](Std_Open/de.md), [Std Import](Std_Import/de.md)
+---
 
-
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
+# Std RecentFiles/de
 
 ## Beschreibung
 
-Wird der Mauszeiger über diesen Text bewegt, wird eine Liste der zuletzt verwendeten Dokumente angezeigt, inklusive der gespeicherten.
-
-
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
+Der Menüeintrag **Std LetzteDateien** zeigt eine Liste der zuletzt gespeicherten Dateien, die geöffnet werden können.
 
 ## Anwendung
 
--   Wähle ein Dokument aus der Liste
+1.  Menüeintrag **Datei → Letzte Dateien** auswählen, um die Liste der zuletzt gespeicherten Dateien anzuzeigen.
+2.  Eine Datei in der Liste auswählen, um sie zuöffnen.
 
-Das Dokument wird geöffnet und in das Projekt eingefügt.
+## Optionen
 
+-   Zwei mal **Esc** drücken oder außerhalb des Menüs klicken, um es zu schließen.
 
-</div>
+## Einstellungen
 
-## Options
-
--   Press **Esc** twice or click outside the menu to close it.
-
-## Preferences
-
-
-<div class="mw-translate-fuzzy">
-
-Die Anzahl der in der Liste anzuzeigenden Einträge kann im Menü **Bearbeiten** → **Einstellungen** → **Allgemein** → **Allgemein** → **Hauptfenster** verändert werden.
-
-
-</div>
+-   Die maximale Anzahl von Dateien in der Liste der zuletzt gespeicherten Dateien ist unter **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → RecentFiles → RecentFiles** festgelegt. Diese Einstellung kann auch im [Voreinstellungseditor](Preferences_Editor/de#Allgemeines.md) geändert werden.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 
 

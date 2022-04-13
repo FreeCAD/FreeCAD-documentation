@@ -8,6 +8,9 @@
 
 # PartDesign LinearPattern/de
 
+
+</div>
+
 ## Beschreibung
 
 
@@ -24,6 +27,9 @@ Das **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Linea
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 Um ein Muster zu erstellen:
 
 1.  Wähle das Formelement ({{Version/de|0.19}} oder mehrere Formelemente), die gemustert werden sollen.
@@ -34,6 +40,12 @@ Um ein Muster zu erstellen:
 6.  Wenn du mehrere Formelemente im Muster hast, kann deren Reihenfolge wichtig sein, siehe z.B. das Bild im Abschnitt [PolarMuster Formelement](PartDesign_PolarPattern#Usage/de.md). {{Version/de|0.19}} Du kannst die Reihenfolge ändern, indem du das Formelement in die Liste ziehst, und du siehst das Ergebnis sofort als Vorschau.
 7.  Drücke **OK**.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Zum Hinzufügen oder Entfernen von Formelementen zu einem bestehenden Muster:
 
 1.  Drücke **Formelement hinzufügen**, um ein Formelement hinzuzufügen, das gemustert werden soll. Das Formelement muss in der [3D Ansicht](3D_view/de.md) sichtbar sein:
@@ -43,6 +55,9 @@ Zum Hinzufügen oder Entfernen von Formelementen zu einem bestehenden Muster:
     4.  Wähle das Formelement in der 3D Ansicht; es wird der Liste hinzugefügt.
     5.  Wiederhole diesen Vorgang, um weitere Formelemente hinzuzufügen.
     6.  Drücke **Formelement entfernen**, um ein Formelement aus der Liste zu entfernen, oder klicke mit der rechten Maustaste auf das Formelement in der Liste und wähle **Entfernen**.
+
+
+</div>
 
 ## Optionen
 

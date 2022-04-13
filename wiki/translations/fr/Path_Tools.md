@@ -99,7 +99,7 @@ Une fois que la forme de l\'outil (profil) souhaitée existe, vous devez créer 
 ### Sauvegarder le nouvel outil coupant 
 
 1.  Localisez et sélectionnez le nouvel outil dans l\'arbre des objets de la fenêtre principale de FreeCAD.
-2.  Dans la barre de menu de l\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md), sélectionnez **Parcours → Save Tool as...**.
+2.  Dans la barre de menu de l\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md), sélectionnez **Path → Save Tool as...**.
 3.  Une fenêtre contextuelle s\'affiche.
 4.  Allez jusqu\'au dossier dans lequel vous souhaitez enregistrer le nouveau fichier de l\'outil coupant.
 5.  Saisissez un nom de fichier pour l\'outil coupant.
@@ -107,7 +107,7 @@ Une fois que la forme de l\'outil (profil) souhaitée existe, vous devez créer 
 
 ### Enregistrement de l\'outil coupant dans une bibliothèque d\'outils 
 
-1.  Dans l\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md), faites **Parcours → Gestionnaire des outils coupants**.
+1.  Dans l\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md), faites **Path → Gestionnaire des outils coupants**.
 2.  La fenêtre [Gestionnaire d\'outils](Path_ToolBitLibraryOpen/fr.md) s\'ouvre.
 3.  En haut de cette fenêtre, vérifiez ou définissez le chemin d\'accès au dossier contenant vos bibliothèques d\'outils existantes, ou l\'emplacement où vous souhaitez stocker vos bibliothèques d\'outils.
 4.  Sous le chemin d\'accès, à gauche, se trouve la zone de liste des bibliothèques d\'outils. Cliquez sur une bibliothèque d\'outils existante que vous souhaitez utiliser comme destination pour votre nouvel outil coupant ou cliquez sur l\'icône verte plus pour créer une nouvelle bibliothèque d\'outils dans le dossier identifié ci-dessus.

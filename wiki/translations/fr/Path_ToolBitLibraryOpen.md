@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path ToolBitLibraryOpen
    Name/fr:Path Gestionnaire des outils coupants
-   MenuLocation:Parcours → Gestionnaire des outils coupants
+   MenuLocation:Path → Gestionnaire des outils coupants
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Path Sélecteur d'outils coupants](Path_ToolBitDock/fr.md), [Path Outils](Path_Tools/fr.md), [Path Outil coupant](Path_ToolBit/fr.md)
@@ -27,7 +27,7 @@ A partir de là, l\'utilisateur peut effectuer toutes les tâches liées à la g
 -   Sauvegarder une bibliothèque sous un nouveau nom.
 -   Exporter une bibliothèque au format de table d\'outils LinuxCNC (.tbl).
 
-Seule la création de nouvelles formes d\'outils ne peut être effectuée à partir du gestionnaire de bibliothèque des outils coupants. Il s\'agit d\'un sujet avancé. (voir [Path Création de formes d\'outils](Path_ToolShape/fr.md))
+Seule la création de nouvelles formes d\'outils ne peut être effectuée à partir du gestionnaire de bibliothèque des outils coupants. Il s\'agit d\'un sujet avancé. (voir [Path Forme d\'outil](Path_ToolShape/fr.md))
 
 Le volet à gauche (1) affiche une liste de toutes les bibliothèques du répertoire de travail en cours. La bibliothèque en cours est mise en évidence.
 
@@ -48,7 +48,7 @@ Le bouton de fermeture (7) en bas à droite permet de quitter le gestionnaire de
 ### Gestion des outils coupants 
 
 1.  Il existe plusieurs façons d\'ouvrir le gestionnaire de bibliothèque des outils coupants :
-    -   Sélectionnez l\'option **Parcours → <img src="images/Path_ToolBitLibraryOpen.svg" width=16px> Gestionnaire des outils coupants ** dans le menu.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_ToolBitLibraryOpen.svg" width=16px> Gestionnaire des outils coupants ** dans le menu.
     -   Ouvrez le dock des outils coupants comme décrit ci-dessus et appuyez sur le bouton **<img src="images/Path_ToolBitLibraryOpen.svg" width=16px>** pour ouvrir le gestionnaire de bibliothèque.
 2.  Sélectionnez une bibliothèque dans la liste.
 3.  Créez/Ajoutez/Supprimez des outils coupants de la bibliothèque.

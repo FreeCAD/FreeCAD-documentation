@@ -11,13 +11,13 @@
 
 ## Description
 
-L\'outil **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Fusionner les cellules sélectionnées](Spreadsheet_MergeCells/fr.md)** fusionne au moins deux cellules sélectionnées dans une feuille de calcul existante dans le document actif.
+L\'outil **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Fusionner des cellules](Spreadsheet_MergeCells/fr.md)** fusionne au moins deux cellules sélectionnées dans une feuille de calcul existante dans le document actif.
 
 ## Utilisation
 
 1.  Assurez-vous qu\'il y a une **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md)** ouverte pour que le bouton soit activé.
 2.  Sélectionnez au moins deux cellules contiguës.
-3.  Appuyez sur le bouton **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Fusionner les cellules sélectionnées](Spreadsheet_MergeCells/fr.md)**.
+3.  Appuyez sur le bouton **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Fusionner des cellules](Spreadsheet_MergeCells/fr.md)**.
 
 
 

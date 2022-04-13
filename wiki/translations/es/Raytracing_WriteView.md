@@ -14,7 +14,17 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
+## Description 
+
 Exports the current view properties to a pov-file for use in a POV-Ray project.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveWedge/ru
 
+
+</div>
+
 ## Описание
 
 Inserts a primitive wedge in the active Body as the first feature, or fuses it to the existing feature(s).

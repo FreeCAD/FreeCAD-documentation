@@ -13,9 +13,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Exportă piesa selectată către un fișier tip pov pentru a fi utilizat într-un proiect POV-Ray.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

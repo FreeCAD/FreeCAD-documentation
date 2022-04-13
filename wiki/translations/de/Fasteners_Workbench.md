@@ -7,32 +7,17 @@
 
 Der <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Arbeitsbereich Verbindungselemente](Fasteners_Workbench/de.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md), der Bauteilen bzw. Baugruppen unterschiedliche Verbindungselemente hinzufügen kann.
 
-![](images/Fasteners_toolbars.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Das Standardlayout des Arbeitsbereichs mit zwei Werkzeugleisten.<br> Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole.<br> Verbindungselemente mit Zollmaßen haben türkisfarbene Symbole.*
-
-
-</div>
+![](images/Fasteners_toolbars.png ) 
+*Das optionale Layout des Arbeitsbereichs mit einer Symbolleiste.<br> Verbindungselemente mit metrischen Abmessungen haben orangefarbene Symbole.<br> Verbindungselemente mit Abmessungen in Zoll haben türkisfarbene Symbole.*
 
 ## Einrichtung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Arbeitsbereich Verbindungselemente über den [Addon-Manager](Std_AddonMgr/de.md) installieren. Zur manuellen Installation siehe: [Weitere Arbeitsbereiche installieren](Installing_more_workbenches/de.md).
 2.  FreeCAD neu starten.
-3.  Ein neues Dokument erstellen.
-4.  Den Arbeitsbereich <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners](Fasteners_Workbench/de.md) (Verbindungselemente) aus der Auswahlliste [Arbeitsbereich](Std_Workbench/de.md) auswählen.
-5.  Die voreingestellte Anordnung mit zwei Werkzeugleisten wird angezeigt.
-6.  Die Werkzeugleiste **FS Screws** in dieser Anordnung enthält viele Verbindungselemente. Um sie zu erweitern und alle vorhandenen Knöpfe zu sehen, benutzt man die Schaltfläche **&gt;&gt;**.
-7.  Bei Bedarf kann die Werkzeugleiste und die Menüanordnung geändert werden:
+3.  Den Arbeitsbereich <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners](Fasteners_Workbench/de.md) (Verbindungselemente) aus der Auswahlliste [Arbeitsbereich](Std_Workbench/de.md) auswählen.
+4.  Bei Bedarf kann die Symbolleiste und die Menüanordnung geändert werden:
     1.  
-        **Edit → Einstellungen... → Fasteners → General settings → Toolbar screw icons grouping**
+        **Bearbeiten → Einstellungen... → Fasteners → General settings → Toolbar screw icons grouping**
         
         .
 
@@ -40,22 +25,19 @@ Der <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [A
         -   
             **Keine**
             
-            : Alle Verbindungselemente befinden sich in einer einzigen Werkzeugleiste. Dies ist die voreingestellte Anordnung.
+            : Alle Verbindungselemente befinden sich in einer einzigen Symbolleiste. Um sie zu erweitern und alle vorhandenen Schaltflächen zu sehen, benutzt man die Schaltfläche **&gt;&gt;**.
 
         -   
             **Separate toolbars**
             
-            : Die Verbindungselemente werden in mehreren Werkzeugleisten gruppiert.
+            : Die Verbindungselemente werden in mehreren Symbolleisten gruppiert. Dies ist das Standardlayout.
 
         -   
             **Dropdown buttons**
             
-            : Die Verbindungselemente werden in einer Werkzeugleiste mit Ausklappmenüs gruppiert.
+            : Die Verbindungselemente werden in einer Symbolleiste mit Ausklappmenüs gruppiert.
 
     3.  FreeCAD neu starten.
-
-
-</div>
 
 ## Anwendung
 
@@ -93,123 +75,39 @@ Verbindungselemente können zugeordnet oder lose sein. Zugeordnete Verbindungsel
 
 -   <img alt="" src=images/Fasteners_Flip.svg  style="width:32px;"> [Verbindungselement Umdrehen](Fasteners_Flip/de.md): Ausrichtung der ausgewählten Verbindungselemente umkehren.
 
+-   <img alt="" src=images/Fasteners_Move.svg  style="width:32px;"> [Verbindungselement Bewegen](Fasteners_Move/de.md): Ein Verbindungselement auf eine kreisförmige Kante bewegen und mit dieser zu verbinden. Kann auch zum Lösen der Verbindung verwendet werden.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Fasteners_Shape.svg  style="width:32px;"> [Form vereinfachen](Fasteners_Shape/de.md): Erstellt nichtparametrische Kopien der ausgewählten Verbindungselemente.
 
--   <img alt="" src=images/Fasteners_Move.svg  style="width:32px;"> [Verbindungselement Bewegen](Fasteners_Move/de.md): Verbindungselement an einen neuen Platz bewegen.
+-   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:32px;"> [Match screws by inner thread diameter (Tap hole)](Fasteners_MatchTypeInner/de.md): Kreisförmige Kanten werden als Gewindebohrungen angesehen, wenn neue Verbindungselemente mit ihnen verbunden werden.
 
+-   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:32px;"> [Match screws by outer thread diameter (Pass hole)](Fasteners_MatchTypeOuter/de.md): Kreisförmige Kanten werden als Durchgangslöcher angesehen, wenn neue Verbindungselemente mit ihnen verbunden werden.
 
-</div>
+-   <img alt="" src=images/Fasteners_BOM.svg  style="width:32px;"> [Stückliste generieren](Fasteners_BOM/de.md): Erstellt eine Tabelle mit einer Stückliste für die im Dokument verwendeten Verbindungselemente.
 
+-   <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:32px;"> [Schraubenberechner](Fasteners_ScrewCalculator/de.md): Zeigt einen Rechner zum Ermitteln des Kernlochdurchmessers einer Gewindebohrung an.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:32px;"> [Senkungen vornehmen](Fasteners_ChamferHole/de.md): Erstellt eine Senkung an einem Loch für Senkschrauben.
 
--   <img alt="" src=images/Fasteners_Shape.svg  style="width:32px;"> [Form vereinfachen](Fasteners_Shape/de.md): Objekt in einfache nichtparametrische Form ändern.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:32px;"> [Schrauben nach Innengewindedurchmesser (Gewindebohrung) anpassen](Fasteners_MatchTypeInner/de.md): Schrauben nach Innengewindedurchmesser (Gewindebohrung) anpassen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:32px;"> [Schrauben nach äußerem Gewindedurchmesser zuordnen (Passbohrung)](Fasteners_MatchTypeOuter/de.md): Schrauben nach äußerem Gewindedurchmesser zuordnen (Passbohrung).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_BOM.svg  style="width:32px;"> [Stückliste generieren](Fasteners_BOM/de.md): Stücklisten für Verbindungselemente erstellen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:32px;"> [Schraubenberechner](Fasteners_ScrewCalculator/de.md): zeigt einen Schraubenloch Berechner an.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:32px;"> [Senkungen vornehmen](Fasteners_ChamferHole/de.md): Löcher für Senkkopfschrauben anschrägen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Parameter der Verbindungselemente ändern](Fasteners_ChangeParameters/de.md): Parameter der ausgewählten Verbindungselemente ändern.
-
-
-</div>
+-   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Parameter der Verbindungselemente ändern](Fasteners_ChangeParameters/de.md): Ändert die Parameter der ausgewählten Verbindungselemente.
 
 ## Verbindungselemente
 
 Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigungselemente mit Zollmaßen haben türkisfarbene Symbole.
 
+### Einpresselemente und Verbindungselemente für Leiterplatten 
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> Einpressmutter.
 
-#### Einpresselemente und Verbindungselemente für Leiterplatten 
+-   <img alt="" src=images/Fasteners_PEMTHStandoff.svg  style="width:32px;"> Einpressbuchse mit Gewinde.
 
+-   <img alt="" src=images/Fasteners_PEMStud.svg  style="width:32px;"> Einpressbolzen.
 
-</div>
+-   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> Abstandshalter für Leiterplatten mit Außen- und Innengewinde.
 
+-   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> Abstandshalter für Leiterplatten, Innengewinde beidseitig.
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> Einpressmutter metrisch.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_PEMTHStandoff.svg  style="width:32px;"> Einpressbuchse mit Gewinde metrisch.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_PEMStud.svg  style="width:32px;"> Einpressgewindebolzen metrisch.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> **Leiterplatten** Abstandshalter Außen/Innen Metrisch.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **Leiterplatten** Abstandshalter Innen/Innen Metrisch.
-
-
-</div>
-
--   <img alt="" src=images/Fasteners_IUTHeatInsert.svg  style="width:32px;"> Heat staked insert.
+-   <img alt="" src=images/Fasteners_IUTHeatInsert.svg  style="width:32px;"> Einsätze zum Warmeinbetten.
 
 ### Sechskantschrauben und -Bolzen 
 
@@ -309,7 +207,7 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_ASMEB18.6.3.1A.svg  style="width:32px;"> **ASME B18.6.3.1A** UNC Senkkopfschraube mit Schlitz.
 
-### H cross head screws 
+### Kreuzschlitzschrauben
 
 
 <div class="mw-translate-fuzzy">
@@ -364,7 +262,7 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 -   <img alt="" src=images/Fasteners_ASMEB18.5.2.svg  style="width:32px;"> **ASME B18.5** UNC Round head square neck bolt.
 
-### Washers
+### Scheiben
 
 -   <img alt="" src=images/Fasteners_ISO7089.svg  style="width:32px;"> 
 **ISO 7089** Scheiben, Form A. *Produktklasse A.*
@@ -474,7 +372,7 @@ Verbindungselemente mit metrischen Maßen haben orangefarbene Symbole. Befestigu
 
 </div>
 
-## Links
+## Verweise
 
 
 <div class="mw-translate-fuzzy">

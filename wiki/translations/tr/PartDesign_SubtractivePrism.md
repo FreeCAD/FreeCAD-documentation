@@ -4,7 +4,7 @@
    MenuLocation:Part Design → Create a subtractive primitive → Subtractive Prism
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
-   SeeAlso:[PartDesign Create a subtractive primitive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign Additive Prism](PartDesign_AdditivePrism.md)
+   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign AdditivePrism](PartDesign_AdditivePrism.md)
 ---
 
 # PartDesign SubtractivePrism/tr

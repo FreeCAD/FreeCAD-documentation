@@ -10,6 +10,9 @@
 
 # PartDesign SubtractiveWedge/ru
 
+
+</div>
+
 ## Описание
 
 Inserts a subtractive wedge in the active Body. Its shape is subtracted from the existing solid.

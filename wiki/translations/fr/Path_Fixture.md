@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Fixture
    Name/fr:Path Point de fixation
-   MenuLocation:Parcours → Commandes additionnelles → Point de fixation
+   MenuLocation:Path → Commandes additionnelles → Point de fixation
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -16,7 +16,7 @@ Les coordonnées de décalage du travail cible incluent généralement: les code
 
 -   G53 → Système de coordonnées absolues de la machine.
 -   G54 → Système de coordonnées de l\'Origine Pièce.
--   G55 à G59.9 → Dispositifs de coordonnées permettant d\'effectuer des décalages de travail (plusieurs pièces identiques à usiner, décalées sur la table de la machine), par rapport aux capteurs de position d\'origine situés sur la machine CNC, à utiliser.
+-   G55 à G59.9 → Dispositifs de coordonnées permettant d\'effectuer des décalages de travail, par rapport aux capteurs de position d\'origine situés sur la machine CNC, à utiliser.
 
 Le code G59 est utilisé pour étendre les capacités disponibles (nombre de points de fixation de pièces). Le degré d\'expansion mis en œuvre est spécifique à la machine CNC, et cette commande permet G59.1 à G59.9.
 

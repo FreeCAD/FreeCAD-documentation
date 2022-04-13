@@ -29,10 +29,16 @@ Lo strumento **Rivoluzione** crea un solido ruotando uno schizzo selezionato o u
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Seleziona lo schizzo da rivoluzionare. v0.17 e superiore In alternativa, è possibile utilizzare una faccia di un solido esistente.
 2.  Premere il pulsante **<img src="images/PartDesign_Revolution.svg" width=24px> '''Rivoluzione'''**.
 3.  Impostare i parametri Rivoluzione (vedere la sezione successiva).
 4.  Premere **OK**.
+
+
+</div>
 
 ## Options
 

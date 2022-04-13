@@ -23,31 +23,31 @@ Funkcja **Wycinek przekroju** jest dostępna dla wszystkich środowisk pracy, ch
 
 Okno dialogowe **Wycinek przekroju** jest otwierane za pomocą menu **Widok → <img src="images/Part_SectionCut.svg" width=16px> Trwałe przycięcie przekroju**. Jest ono niezależne od bieżącego obszaru roboczego i aktualnie otwartego dokumentu. Można je odłączyć od pozycji wyjściowej, naciskając przycisk w prawym górnym rogu okna dialogowego.
 
-The **Section Cut** feature takes all currently visible Part objects in the active document into account. Therefore you can control what will be cut, by making a part visible or not. By checking one of the **Cutting** options in the dialog the feature is activated. You can then either enter a position (in coordinates of the document) or use the sliders to set the cut position. It is also possible to combine cuts, for example to cut in X and Z direction. The buttons **Flip** flip the side that is cut.
+Funkcja **Wycinek przekroju** uwzględnia wszystkie aktualnie widoczne obiekty części w aktywnym dokumencie. Dzięki temu można kontrolować, co zostanie wycięte, poprzez uwidocznienie lub nie danej części. Zaznaczenie jednej z opcji **Cięcie** w oknie dialogowym powoduje uaktywnienie funkcji. Następnie można wprowadzić pozycję *(we współrzędnych dokumentu)* lub ustawić pozycję cięcia za pomocą suwaków. Możliwe jest także łączenie cięć, np. cięcie w kierunku X i Z. Przyciski **Odwróć** odwracają stronę, która ma zostać przecięta.
 
-As soon as a **Cutting** option is checked in the dialog, you get a cut object in the [tree view](Tree_view.md). Its name is e.g. *SectionCutY* when it is a cut in Y direction.
+Gdy tylko w oknie dialogowym zostanie zaznaczona opcja **Cięcie**\', w oknie [widok drzewa](Tree_view/pl.md) pojawi się obiekt cięcia. Jego nazwa to np. *SekcjaCięcieY*, gdy jest to cięcie w kierunku Y.
 
-The dialog option **Keep only cuts visible when closing** hides everything in the tree view except of the cut object when the button **Close** is clicked to close the dialog.
+Opcja okna dialogowego **Cięcia będą widoczne tylko przy zamykaniu** ukrywa wszystko w widoku drzewa z wyjątkiem obiektu cięcia, gdy zostanie kliknięty przycisk **Zamknij** w celu zamknięcia okna dialogowego.
 
-To remove the cut object, uncheck all **Cutting** options.
+Aby usunąć wycięty obiekt, należy odznaczyć wszystkie opcje **Wycinania**.
 
-By unchecking all **Cutting** options, the button **Refresh view** becomes active. When pressed, it takes a kind of a screenshot of the currently visible Part objects. This will be used when you check the next time a **Cutting** option. The refreshing is necessary when you switched the document. It is furthermore useful for assemblies, where you might want to hide some parts or later want to add them to the cut. In this case the refreshing recalculates the min/max values of the sliders and cut positions according to the currently visible object dimensions.
+Po usunięciu zaznaczenia wszystkich opcji **Wycinania** uaktywnia się przycisk **Odśwież widok**. Jego naciśnięcie powoduje wykonanie zrzutu ekranu z aktualnie widocznymi obiektami części. Zostanie on wykorzystany podczas kolejnego sprawdzania opcji **Wycinania**. Odświeżenie jest konieczne po przełączeniu dokumentu. Jest ono ponadto przydatne w przypadku złożeń, w których można ukryć niektóre części, a później dodać je do rozkroju. W takim przypadku odświeżanie przelicza wartości min/max suwaków i pozycji cięcia zgodnie z aktualnie widocznymi wymiarami obiektu.
 
-If the option **Auto** in the cut face section is checked, the color and transparency of the cut objects will be taken for the cut face. This only works if all cut objects have the same color or transparency.
+Jeśli zaznaczona jest opcja **Auto** w sekcji powierzchni cięcia, dla powierzchni cięcia zostanie przyjęty kolor i przezroczystość wyciętych obiektów. Działa to tylko wtedy, gdy wszystkie wycięte obiekty mają taką samą wartość parametru barwy lub przezroczystości.
 
-**Note:** For assemblies the sliders in the dialog are disabled (except the one for the transparency). The reason is that a slider movement results in many cut operations is a short time. For assemblies this quickly consumes all CPU power and a sticky slider movement is not helpful.
+**Uwaga:** W przypadku złożeń suwaki w oknie dialogowym są wyłączone *(z wyjątkiem suwaka przezroczystości)*. Powodem tego jest fakt, że przesunięcie suwaka powoduje wykonanie wielu operacji cięcia w krótkim czasie. W przypadku złożeń szybko zużywa to całą moc procesora, a ciągłe przesuwanie suwaka nie jest użyteczne.
 
-When you select a cut object in the tree view and then open the Section Cut dialog, the cut positions will be read into the dialog.
+Po wybraniu obiektu przekroju w widoku drzewa, a następnie otwarciu okna dialogowego Wycinek przekroju, pozycje przekroju zostaną wczytane do okna dialogowego.
 
-## Applications
+## Zastosowanie
 
--   An important use case is that Section Cut creates real cuts, not hollow ones like the **[Clip Plane](Std_ToggleClipPlane.md)** feature.
--   Section Cut is useful for assemblies to visualize for example the working principle of a device. You thereby might want to color certain cut faces using the **[Face Colors](Part_FaceColors.md)** tool. To use the tool, switch to the Part or PartDesign workbench, right-click on the cut object in the tree view and select in the context menu **Set colors**.
--   The limitation that only parts can be cut that don\'t intersect each other, see below, can be used as collision test.
--   The Section Cut feature can be used for technical drawings to highlight certain areas or to be able to draw in dimensions. The image below shows an example where the [TechDraw](TechDraw_Workbench.md) features [ActiveView](TechDraw_ActiveView.md) and [View](TechDraw_View.md) are used.
+-   Ważnym przypadkiem zastosowania jest to, że funkcja Wycinek przekroju tworzy rzeczywiste przekroje, a nie puste w środku, jak funkcja **[Przełącz płaszczyznę tnącą](Std_ToggleClipPlane/pl.md)**.
+-   Funkcja Wycinek przekroju jest przydatna dla złożeń w celu wizualizacji, na przykład, zasady działania urządzenia. Można też pokolorować niektóre wycięte powierzchnie, używając narzędzia **[Kolor powierzchni](Part_FaceColors/pl.md)**. Aby użyć tego narzędzia, należy przejść do środowiska pracy Część lub Projekt Części, kliknąć prawym przyciskiem myszy na wycięty obiekt w widoku drzewa i wybrać z menu kontekstowego **Ustaw kolory**.
+-   Ograniczenie polegające na tym, że można wycinać tylko te części, które nie przecinają się wzajemnie (patrz poniżej), można użyć jako testu kolizji.
+-   Funkcja Wycinek przekroju może być używana w rysunkach technicznych w celu wyróżnienia pewnych obszarów lub umożliwienia narysowania wymiarów. Poniższy obrazek pokazuje przykład, w którym użyto funkcji środowiska pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) takich jak [Aktywny widok](TechDraw_ActiveView/pl.md) i [Widok](TechDraw_View/pl.md).
 
 <img alt="" src=images/Part_SectionCut_TD-example.png  style="width:400px;"> 
-*A technical drawing where a Section Cut result is used. (Click on the image for full size.)*
+*Rysunek techniczny, na którym zaprezentowano wynik działania funkcji. ''(Kliknij obrazek, aby uzyskać pełny rozmiar)''.*
 
 ## Specjalne pozycje cięcia 
 

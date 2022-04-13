@@ -2,9 +2,9 @@
 - GuiCommand:/fr
    Name:Path DressupTag
    Name/fr:Path Languettes de maintien
-   MenuLocation:Path → Path Dressup → Languettes de maintien
+   MenuLocation:Path → Trajectoires additionelles → Languettes de maintien
    Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md) , [Path Habillage pour lame rotative](Path_DressupDragKnife/fr.md)
+   SeeAlso:[Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md) , [Path Lame rotative](Path_DressupDragKnife/fr.md)
 ---
 
 # Path DressupTag/fr
@@ -18,7 +18,7 @@ Une explication vidéo de cette fonctionnalité est donnée à: <https://www.you
 ## Utilisation
 
 1.  Sélectionnez un objet contour ou profil [Path](Path_Workbench/fr.md)
-2.  Cliquez sur l\'élément de menu <img alt="" src=images/Path_Dressup.svg  style="width:16px;"> [Tag Dress-up](Path_DressupTag/fr.md)
+2.  Cliquez sur l\'élément de menu <img alt="" src=images/Path_Dressup.svg  style="width:16px;"> [Languettes de maintien](Path_DressupTag/fr.md)
 
 ## Options
 

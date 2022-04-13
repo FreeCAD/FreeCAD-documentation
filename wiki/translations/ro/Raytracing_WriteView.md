@@ -12,9 +12,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Exportă proprietățile de vizualizare curente într-un fișier pov pentru utilizarea într-un proiect POV-Ray.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

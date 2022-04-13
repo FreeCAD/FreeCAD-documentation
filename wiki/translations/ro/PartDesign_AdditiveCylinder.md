@@ -32,7 +32,7 @@ Primitiva geometrică tip Cilindru se introduc în corpul activ drept prima func
 
 ## Opţiuni
 
-It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.20)</small> 
+It is possible to create skewed cylinders by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">

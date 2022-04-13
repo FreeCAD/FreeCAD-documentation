@@ -7,21 +7,54 @@
 
 # PartDesign WizardShaft/es
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descripción
 
 Esta herramienta permite crear un árbol a partir de una tabla de valores y analizar las fuerzas y los momentos. Puede iniciar el asistente desde el menú Diseño de la pieza **DiseñoPieza → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Asistente Diseño Ejes...**.
 
+
+</div>
+
 El asistente se iniciará y mostrará una tabla por defecto, la parte eje correspondiente y los gráficos de fuerza/momento.
+
+
+<div class="mw-translate-fuzzy">
 
 <img alt="" src=images/WizardShaft_Part.jpg  style="width:780px;"> 
 
+
+</div>
+
 La parte superior de la ventana está ocupada por la tabloa. Está organizada en en columnas numeradas que se corresponden a segmentos del eje. Un segmento del eje se caracteriza por tener una longitud y diámetro determinados. La ventana principal muestra dos pestañas. Una es la ventana del archivo de pieza del eje (una operación de revolución), mostrada en la imagen superior. La segunda pestaña muestra un gráfico de las fuerzas de corte y los momentos creados por las cargas definidas en la tabla.
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/shaftwizard1.jpg  style="width:1024px;"> 
+
+
+</div>
+
+## Prerequisites
+
+
+<div class="mw-translate-fuzzy">
 
 ## Prerrequisitos
 
 El asistente diseño ejes depende de la biblioteca [matplotlib](http://matplotlib.org/) para crear y mostrar los gráficos de fuerza cortante y momento flector. En los sistemas basados en Debian/Ubuntu, está disponible a través del paquete python-matplotlib.
+
+
+</div>
+
+## Parameters
+
+
+<div class="mw-translate-fuzzy">
 
 ## Parámetros
 
@@ -38,13 +71,37 @@ Para cada segmento de eje, se pueden definir los siguientes parámetros
 
 (Existen otras filas y tipos de cargas pero aún no se ha implantado dicha funcionalidad)
 
+
+</div>
+
+## Menus
+
+
+<div class="mw-translate-fuzzy">
+
 ## Menús
 
 Para añadir un nuevo segmento de eje, pulsa con el botón derecho en un espacio en blanco a la derecha de la tabla, y selecciona \"Añadir columna\".
 
+
+</div>
+
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Limitaciones
 
 -   No es posible tener segmentos adyacentes del eje con el mismo diámetro.
+
+
+</div>
+
+## Planned functionality 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Funcionalidad planeada 
 
@@ -55,6 +112,9 @@ Para añadir un nuevo segmento de eje, pulsa con el botón derecho en un espacio
 -   Definición de cargas como un Objeto de Documento (puede utilizar la misma funcionalidad que en el módulo de CAE)
 -   Base de datos de materiales
 -   Permitir cargas en la dirección Z así como en la dirección Y (requiere la definición de cargas como Objeto de Documento, en otro caso la tabla sería demasiado larga)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

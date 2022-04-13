@@ -1,8 +1,9 @@
 ---
 - GuiCommand:
    Name:PartDesign Groove
-   MenuLocation:PartDesign → Create a substractive feature → Groove
+   MenuLocation:Part Design → Create a substractive feature → Groove
    Workbenches:[PartDesign](PartDesign_Workbench.md)
+   SeeAlso:[PartDesign Revolution](PartDesign_Revolution.md)
 ---
 
 # PartDesign Groove/tr

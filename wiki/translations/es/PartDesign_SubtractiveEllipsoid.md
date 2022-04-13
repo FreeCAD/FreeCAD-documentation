@@ -10,6 +10,9 @@
 
 # PartDesign SubtractiveEllipsoid/es
 
+
+</div>
+
 ## Descripción
 
 Inserta un Elipsoide sustractivo en el Body (cuerpo) activo. Su forma es sustraída del sólido existente.

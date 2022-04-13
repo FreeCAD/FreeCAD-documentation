@@ -183,9 +183,9 @@ git remote show upstream
 
 ### Odgałęzienia
 
-Instead of working on the master version of the code, best practices with Git recommend creating a new branch whenever you want to work on a new feature. Branches are inexpensive, they don\'t copy the entire source tree, but merely create a point in time on top of which you will write code; thus branches help keep work in progress separate from the main code.
+Zamiast pracować na głównej wersji kodu, najlepsze praktyki Git zalecają tworzenie nowej gałęzi za każdym razem, gdy chcesz pracować nad nową funkcjonalnością. Gałęzie są niedrogie, nie kopiują całego drzewa źródłowego, a jedynie tworzą punkt w czasie, na którym będziesz pisał kod. W ten sposób gałęzie pomagają oddzielić prace w toku od głównego kodu.
 
-Using a new branch is done in two steps, first your create the branch, and then you switch to it:
+Korzystanie z nowej gałęzi odbywa się w dwóch etapach: najpierw należy utworzyć gałąź, a następnie przejść do niej:
 
 
 {{Code|lang=text|code=
@@ -193,14 +193,14 @@ git branch myNewBranch
 git checkout myNewBranch
 }}
 
-Alternatively, perform both steps with a single instruction:
+Alternatywnie można wykonać obie czynności za pomocą jednej instrukcji:
 
 
 {{Code|lang=text|code=
 git checkout -b myNewBranch
 }}
 
-Now you can change branches with `checkout` whenever you need to work on them. To see the branches in your project and the current branch, use the `branch` operation alone, or add `-v` or `-vv` for more information:
+Teraz możesz zmieniać gałęzie za pomocą `checkout`, kiedy tylko chcesz nad nimi pracować. Aby zobaczyć gałęzie w projekcie i bieżącą gałąź, użyj samej operacji `branch` lub dodaj `-v` lub `-vv`, aby uzyskać więcej informacji:
 
 
 {{Code|lang=text|code=
@@ -208,7 +208,7 @@ git branch
 git branch -vv
 }}
 
-After you\'ve made changes and committed those changes use the `log` operation with the following options to visualize the branches
+Po wprowadzeniu zmian i ich zatwierdzeniu użyj operacji `log` z następującymi opcjami, aby wyświetlić gałęzie
 
 
 {{Code|lang=text|code=
@@ -217,7 +217,7 @@ git log --oneline --decorate --graph --all
 
 ### Committing
 
-Once you are inside a new branch, edit the source files that you want with a text editor. To see which files were modified use the `status` and `diff` operations; when you are satisfied with the modifications, save the changes with the `commit` operation:
+Gdy już znajdziesz się w nowej gałęzi, edytuj wybrane pliki źródłowe za pomocą edytora tekstu. Aby sprawdzić, które pliki zostały zmodyfikowane, użyj operacji `status` i `diff`. Kiedy będziesz zadowolony z wprowadzonych zmian, zapisz je za pomocą operacji `commit`:
 
 
 {{Code|lang=text|code=
@@ -226,16 +226,16 @@ git diff
 git commit -a
 }}
 
-Unlike SVN, you need to specifically tell which files to commit; use the `-a` option to save changes in all files that were altered. Your text editor, for example, `nano` or `vim`, will open to allow you to write a commit message.
+W przeciwieństwie do SVN, musisz wskazać, które pliki mają być commitowane. Użyj opcji `-a`, aby zapisać zmiany we wszystkich plikach, które zostały zmienione. Otworzy się edytor tekstu, na przykład `nano` lub `vim`, aby umożliwić napisanie wiadomości do zgłoszenia commit.
 
-Alternatively add the message in the commit itself:
+Ewentualnie dodaj wiadomość w samym zgłoszeniu commit:
 
 
 {{Code|lang=text|code=
 git commit -a -m "Fix the bug in the clone function."
 }}
 
-If you create new files or directories, you must use the `add` operation first to add them to the local repository before committing the changes.
+Jeśli tworzysz nowe pliki lub katalogi, musisz najpierw użyć operacji `add`, aby dodać je do lokalnego repozytorium przed zatwierdzeniem zmian.
 
 
 {{Code|lang=text|code=
@@ -243,49 +243,50 @@ git add path
 git commit -a
 }}
 
-Where `path` can be any directory or file.
+Gdzie `path` może być dowolnym katalogiem lub plikiem.
 
-### Writing good commit messages 
+### Pisanie dobrych komunikatów zgłoszeń commit 
 
-You should try to work in small steps, that is, commit often, after a small addition in your code. If you cannot summarize your changes in one sentence, then it has probably been too long since you made a commit.
+Powinieneś starać się pracować małymi krokami, czyli często zatwierdzać zmiany po wprowadzeniu niewielkiego dodatku do swojego kodu. Jeśli nie potrafisz streścić swoich zmian w jednym zdaniu, to prawdopodobnie minęło zbyt dużo czasu od wykonania zgłoszenia commit.
 
-For big changes, it is important that you have helpful and useful descriptions of your work. FreeCAD has adopted a format mentioned in the [Pro Git](https://git-scm.com/book/en/v2) book, which consists of a short message, and then a larger descriptive paragraph.
+W przypadku dużych zmian ważne jest, abyś miał pomocne i przydatne opisy swojej pracy. FreeCAD przyjął format wspomniany w książce [Pro Git](https://git-scm.com/book/en/v2), który składa się z krótkiej wiadomości, a następnie większego akapitu opisowego.
 
 
 {{Code|lang=text|code=
-Short (50 chars or less) summary of changes
+Krótkie (nie więcej niż 50 znaków) podsumowanie zmian
  
- More detailed explanatory text, if necessary.  Wrap it to about 72
- characters or so.  In some contexts, the first line is treated as the
- subject of an email and the rest of the text as the body.  The blank
- line separating the summary from the body is critical (unless you omit
- the body entirely); tools like rebase can get confused if you run the
- two together.
+ W razie potrzeby bardziej szczegółowy tekst objaśniający. Należy go zawinąć do około 72
+ znaków lub więcej. W niektórych kontekstach pierwszy wiersz jest traktowany jako
+ temat wiadomości e-mail, a pozostały tekst jako treść.  Pusta
+ pusta linia oddzielająca podsumowanie od treści ma kluczowe znaczenie (chyba że pominiesz
+ ciała); narzędzia takie jak rebase mogą się pomylić, jeśli uruchomisz
+ te dwa elementy razem.
  
- Further paragraphs come after blank lines. 
+ Kolejne akapity znajdują się po pustych liniach. 
  
-  - Bullet points are okay, too
+  - Punkty kuliste też są w porządku
  
-  - Typically a hyphen or asterisk is used for the bullet, preceded by a
-    single space, with blank lines in between, but conventions vary here
+  - Zazwyczaj w wypunktowaniu stosuje się myślnik lub gwiazdkę, poprzedzone
+    pojedynczą spacją, a pomiędzy nimi znajdują się puste linie, ale konwencje są tu różne
+
 }}
 
-If you are doing a lot of related work in a branch, you should make many small commits (see a [forum post](https://forum.freecadweb.org/viewtopic.php?f=10&t=2062&p=14887#p14886)). When you want to merge those changes into the master branch, you should issue
+Jeśli wykonujesz wiele powiązanych prac w gałęzi, powinieneś wykonać wiele małych commitów *(zobacz post na forum [1](https://forum.freecadweb.org/viewtopic.php?f=10&t=2062&p=14887#p14886))*. Gdy chcesz scalić te zmiany w gałęzi głównej, powinieneś wydać polecenie:
 
 
 {{Code|lang=text|code=
 git log master..myNewBranch
 }}
 
-to see the individual commit messages. Then you can write a high quality message when performing a merge.
+aby zobaczyć poszczególne komunikaty zgłoszeń commit. Dzięki temu można napisać wysokiej jakości komunikat podczas wykonywania scalania.
 
-When you merge to master use the `--squash` option and commit with your quality commit message. This will allow you to be very liberal with your commits and help to provide a good level of detail in commit messages without so many distinct descriptions.
+Kiedy łączysz się z wersją master, użyj opcji `--squash` i wykonaj commit z wysokiej jakości komunikatem commit. To pozwoli ci być bardzo liberalnym w swoich zgłoszeniach commit i pomoże zapewnić dobry poziom szczegółowości w komunikatach commit bez tak wielu odrębnych opisów.
 
 ### Squashing commits 
 
-Squashing refers to the process of combining various consecutive commits into one. This may be desirable if you made many small commits that you want to present as a single commit, for example, when changing a single variable, correcting spelling mistakes, and adjusting the spacing of the code. You should squash only small commits to a single file; big changes to the code across multiple files should contain the full commit history.
+Squashing odnosi się do procesu łączenia różnych kolejnych commitów w jeden. Może to być pożądane, jeśli wykonałeś wiele małych commitów, które chcesz przedstawić jako jeden commit, na przykład przy zmianie pojedynczej zmiennej, poprawianiu błędów ortograficznych i poprawianiu odstępów w kodzie. Powinieneś zgnieść tylko małe commit\'y do pojedynczego pliku. Duże zmiany w kodzie w wielu plikach powinny zawierać pełną historię commit\'ów.
 
-With `git log --oneline` you can see many commits in sequence, with the newest commit on top. In this example, starting from \"feature A\" many commits are made to implement \"feature B\"; we would like to squash all commits belonging to \"feature B\" into one.
+Dzięki `git log --oneline` możesz zobaczyć wiele commitów po kolei, z najnowszym na górze. W tym przykładzie, zaczynając od \"cechy A\", powstało wiele commitów implementujących \"cechę B\"; chcielibyśmy zebrać wszystkie commity należące do \"cechy B\" w jeden.
 
 
 {{Code|lang=text|code=
@@ -299,16 +300,16 @@ d94e78 Prepare the module for feature B
 6394da Feature A
 }}
 
-Use the `rebase` operation with the `--interactive` or `-i` option to select various commits and squash them. Use the hash of the commit just before the first one that you want to squash, in this case the one corresponding to \"feature A\".
+Użyj operacji `rebase` z opcją `--interactive` lub `-i`, aby wybrać różne commity i je usunąć. Użyj hash commitu znajdującego się tuż przed pierwszym, który chcesz usunąć, w tym przypadku tego odpowiadającego \"cechom A\".
 
 
 {{Code|lang=text|code=
 git rebase -i 6394da
 }}
 
-(TIP: If you know how many commits you want to edit, you can use `git rebase -i HEAD~n` to work on the last `n` commits)
+*(WSKAZÓWKA: Jeśli wiesz, ile commitów chcesz edytować, możesz użyć `git rebase -i HEAD~n`, aby pracować na ostatnich `n` commitach)*.
 
-The command line editor, like `nano` or `vim`, will open to show you the commits again, now with the older commit on top. Before each commit, the word `pick` will be shown. Delete the word `pick`, and write the word `squash` or just the letter `s` instead, with the exception of the first entry; this commit is the oldest one, so all future commits will be squashed into it.
+Edytor wiersza poleceń, taki jak `nano` lub `vim`, otworzy się, aby ponownie wyświetlić listę commitów, teraz ze starszym commitem na górze. Przed każdym commitem pojawi się słowo `pick`. Usuń słowo `pick` i wpisz w jego miejsce słowo `squash` lub po prostu literę `s`, z wyjątkiem pierwszego wpisu; ten commit jest najstarszy, więc wszystkie następne zostaną w nim zebrane.
 
 
 {{Code|lang=text|code=
@@ -321,11 +322,11 @@ s 1c3317 Whoops, it is not ready yet...
 s 871adb OK, feature B is fully implemented
 }}
 
-Save the file and close the editor.
+Zapisz plik i zamknij edytor.
 
-The editor will open up again. Now you can add a longer message that describes all changes as if they were a single commit. Save the file and close the editor once more. This will finish combining those commits into one, with the new commit message that you wrote.
+Edytor zostanie ponownie otwarty. Teraz możesz dodać dłuższy komunikat opisujący wszystkie zmiany, tak jakby były pojedynczym commitem. Zapisz plik i ponownie zamknij edytor. W ten sposób zakończysz łączenie tych commitów w jeden, z nowym komunikatem commit, który napisałeś.
 
-You can use `git log --oneline` again to observe the new commit history. In this case only a single commit for \"feature B\" will appear, on top of the unmodified commit for \"feature A\".
+Możesz użyć `git log --oneline` ponownie, aby zaobserwować historię nowych zgłoszeń commit. W tym przypadku pojawi się tylko pojedynczy commit dla \"cechy B\", na wierzchu niezmodyfikowanego commitu dla \"cechy A\".
 
 
 {{Code|lang=text|code=
@@ -333,7 +334,7 @@ c83d67 OK, feature B is fully implemented now, with proper module setup, and cle
 6394da Feature A
 }}
 
-When coding for FreeCAD, we ask that you begin each commit message with the module that it affects. For example, a commit message for a change to sketcher might be:
+Podczas kodowania dla FreeCAD prosimy, abyś rozpoczynał każdą wiadomość commit od modułu, którego dotyczy. Na przykład wiadomość commit dla zmiany w Szkicowniku może wyglądać następująco:
 
     Sketcher: make straight lines curve a bit
 
@@ -342,20 +343,20 @@ When coding for FreeCAD, we ask that you begin each commit message with the modu
 
     Fixes bug #1234.
 
-Your PR will be easier to review, and faster to be merged, if you are careful to use rebase to structure and describe your commits before submitting.
+Twój PR będzie ułatwiał przeglądanie i szybciej zostanie scalony, jeśli będziesz uważał, aby używać rebase do strukturyzacji i opisywania swoich zgłoszeń commit przed wysłaniem.
 
-### Pushing your work to your GitHub repository 
+### Przesłanie pracy do repozytorium GitHub 
 
-The local branches in your computer aren\'t automatically synchronized with the remote servers that you have specified as `origin` or `upstream` (see [Remote repositories](#Remote_repositories.md)); you have to explicitly push the branches to the remote servers, for which you must have write access. Once you do this, the branches become public, and available for review by other developers.
+Gałęzie lokalne na Twoim komputerze nie są automatycznie synchronizowane ze zdalnymi serwerami, które określiłeś jako `origin` lub `upstream` ( patrz [Remote repositories](#Remote_repositories.md)). Musisz jawnie wysłać gałęzie na zdalne serwery, do których wymagany jest dostęp z prawem zapisu. Gdy to zrobisz, gałęzie staną się publiczne i dostępne do wglądu dla innych programistów.
 
-For FreeCAD, you should push your local branch to the `origin` remote repository, that is, {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}. You need to enter your username and password every time you push, unless you have set up [Credential caching](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage#_credential_caching). Please read [Pushing commits to a remote repository](https://help.github.com/articles/pushing-to-a-remote/) for more information.
+W przypadku programu FreeCAD powinieneś przesłać swoją lokalną gałąź do zdalnego repozytorium `origin`, czyli do {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}. Musisz podać swoją nazwę użytkownika i hasło za każdym razem, gdy wykonujesz push, chyba że ustawiłeś [Buforowanie poświadczeń](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage#_credential_caching). Przeczytaj [Pushing commit do zdalnego repozytorium](https://help.github.com/articles/pushing-to-a-remote/), aby uzyskać więcej informacji.
 
 
 {{Code|lang=text|code=
 git push origin myNewBranch
 }}
 
-When you work with a single branch, you may need to interactively rebase, squash, and fix commits many times. In this case, your branch history will not be simple, and you will not be able to push it to the remote repository. You may get a message like the following, saying that it is not possible to do a \"fast-forward\" push.
+Podczas pracy z pojedynczą gałęzią może zajść potrzeba wielokrotnego, interaktywnego przekształcania, usuwania i poprawiania zgłoszeń commit. W takim przypadku historia oddziału *(branch)* nie będzie prosta i nie będzie można jej przesłać do zdalnego repozytorium. Może pojawić się komunikat taki jak poniżej, mówiący, że nie jest możliwe wykonanie pchnięcia \"fast-forward\".
 
 
 {{Code|lang=text|code=
@@ -366,24 +367,24 @@ hint: (e.g. 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 }}
 
-In order to finally push your branch to the remote repository you need to \"force push\" it. This will completely overwrite your remote branch with the actual branch that you have offline.
+Aby ostatecznie przepchnąć swoją gałąź do zdalnego repozytorium, musisz wykonać \"force push\". Spowoduje to całkowite nadpisanie zdalnej gałęzi aktualną gałęzią, którą mamy w trybie offline.
 
 
 {{Code|lang=text|code=
 git push -f origin myNewBranch
 }}
 
-The regular developer doesn\'t have write access to the `upstream` repository {{URL|https://github.com/FreeCAD/FreeCAD}}, therefore, you should never push code to this remote server.
+Zwykły programista nie ma dostępu do zapisu w repozytorium `upstream` {{URL|https://github.com/FreeCAD/FreeCAD}}, dlatego nigdy nie należy umieszczać kodu na tym zdalnym serwerze.
 
 ### Rebasing from upstream 
 
-While you work on your own branch, the official FreeCAD code keeps \"moving forward\" with commits from other developers, and thus starts diverging from the code that you have in your personal fork.
+Podczas gdy Ty pracujesz nad swoją własną gałęzią, oficjalny kod programu FreeCAD \"idzie do przodu\" dzięki zgłoszeniom commit innych deweloperów i w ten sposób zaczyna odbiegać od kodu, który masz w swoim osobistym forku.
 
           .A origin/myNewBranch
          / 
     oZ FreeCAD upstream/master
 
-Therefore, when you are ready to merge your branch to the main FreeCAD repository, you must \"rebase\" your own copy of the repository, so that it is as close as possible to the official repository. See [Git Branching - Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for more information.
+Dlatego, gdy jesteś gotowy do połączenia swojego oddziału z głównym repozytorium FreeCAD, musisz \"przebudować\" swoją kopię repozytorium, tak aby była jak najbardziej zbliżona do oficjalnego repozytorium. Zapoznaj się z treścią [Git Branching - Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing), aby uzyskać więcej informacji.
 
 
 {{Code|lang=text|code=
@@ -391,13 +392,13 @@ git checkout myNewBranch
 git pull --rebase upstream master
 }}
 
-This will download the code from the `master` branch of the `upstream` repository (the official FreeCAD source), and will merge it with your current branch (`myNewBranch`), so that your changes will appear on top of the latest official code. If nobody modified the same files that you did, then the merge will succeed without problems. If some files were changed at the same time by different people, there may be a conflict that needs to be resolved.
+Spowoduje to pobranie kodu z gałęzi `master` repozytorium `upstream` (oficjalne źródło programu FreeCAD) i scalenie go z Twoją bieżącą gałęzią (`myNewBranch`), tak aby Twoje zmiany znalazły się na wierzchu najnowszego oficjalnego kodu. Jeśli nikt nie zmodyfikował tych samych plików, co Ty, to scalenie przebiegnie bez problemów. Jeśli niektóre pliki zostały zmienione w tym samym czasie przez różne osoby, może istnieć konflikt, który należy rozwiązać.
 
                       .A' origin/myNewBranch
                      /
     oZ FreeCAD upstream/master
 
-To summarize, you need to be in the appropriate branch, rebase the upstream code, and then proceed with the push.
+Podsumowując, trzeba być w odpowiedniej gałęzi, przebudować kod do wykonania upstreamu, a następnie wykonać push.
 
 
 {{Code|lang=text|code=
@@ -406,7 +407,7 @@ git pull --rebase upstream master
 git push origin myNewBranch
 }}
 
-The `pull` operation is equivalent to a `fetch` followed by a `merge`. When the `--rebase` option is used, instead of doing a simple `merge`, it runs the `rebase` operation.
+Operacja `pull` jest równoważna operacji `fetch`, po której następuje `merge`. Gdy użyta jest opcja `--rebase`, zamiast prostego `merge` wykonywana jest operacja `rebase`.
 
 
 {{Code|lang=text|code=
@@ -424,21 +425,21 @@ git fetch upstream
 git rebase master
 }}
 
-### Merging the branch (pull request) 
+### Scalanie gałęzi (pull request) 
 
-Once you have committed your changes locally, rebased your branch from the upstream repository, and pushed your branch online, you can initiate a \"pull request\". A [pull request](https://help.github.com/articles/about-pull-requests/) tells the administrators of the official FreeCAD repository that you want to merge the new code in your branch with the official code.
+Po lokalnym wprowadzeniu zmian, przebudowaniu swojej gałęzi z repozytorium upstream i umieszczeniu swojej gałęzi online, możesz zainicjować \"pull request\". Prośba [pull request](https://help.github.com/articles/about-pull-requests/) mówi administratorom oficjalnego repozytorium FreeCADa, że chcesz połączyć nowy kod w swojej gałęzi z oficjalnym kodem.
 
-To recap, the development process looks like this:
+Podsumowując, proces rozwoju wygląda następująco:
 
-1.  Fork FreeCAD and get a local copy of that fork.
-2.  Create a branch on your fork and change to that branch.
-3.  Code! Commit and much or as little as you like, writing good commit messages to keep track of what you are doing.
-4.  When you are satisfied with your work, use `git rebase -i HEAD~n` (where n is the total number of commits you\'ve made) to collapse your commits into a logical set with good commit messages (each message should begin with the name of the module it affects, e.g. \"Sketcher: make straight lines curve a bit\").
-5.  Use GitHub to submit your code as a \"Pull Request (PR)\" as described below.
+1.  Utwórz fork programu FreeCAD i uzyskaj lokalną kopię tego forka.
+2.  Utwórz gałąź na swoim rozwidleniu i zmień na tę gałąź.
+3.  Koduj! Udostępniaj tyle lub tak mało, jak chcesz, pisząc dobre komunikaty commit, aby śledzić, co robisz.
+4.  Gdy będziesz zadowolony ze swojej pracy, użyj `git rebase -i HEAD~n` *(gdzie n jest całkowitą liczbą zgłoszeń commit, które wykonałeś)*, aby zebrać swoje commity w logiczny zestaw z dobrymi komunikatami do zgłoszeń commit *(każdy komunikat powinien zaczynać się od nazwy modułu, którego dotyczy, np. \"Sketcher: make straight lines curve bit\")*.
+5.  Użyj GitHuba, aby przesłać swój kod jako \"Pull Request (PR)\", jak opisano poniżej.
 
-As soon as you push the code to your `origin` repository {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}, GitHub will give you the option of comparing and creating a pull request against the `upstream` repository. By pressing **Compare & pull request** you will open an interface that will allow you to pick which repository is the \"base\", target of the merge, and which is the \"head\", your additional code. A quick check will be done by the system telling you if there are no conflicts with the files that you modified; if you worked on files that nobody has touched, your branch will be able to merge cleanly.
+Gdy tylko umieścisz kod w swoim repozytorium `origin` {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}, GitHub da Ci możliwość porównania i utworzenia pull requestu do repozytorium `upstream`. Po naciśnięciu przycisku **Compare & pull request** otworzysz interfejs, który pozwoli Ci wybrać, które repozytorium jest \"bazą\", czyli celem scalania, a które \"głową\", czyli Twoim dodatkowym kodem. System szybko sprawdzi, czy nie ma konfliktów z plikami, które zmodyfikowałeś. Jeśli pracowałeś nad plikami, których nikt nie dotykał, twoja gałąź będzie mogła zostać scalona bez problemów.
 
-GitHub will show you a text editor so you can write a message documenting your changes: this editor will be pre-filled with a welcome message (that you can delete), a checklist (that you should go through), and a reminder to document your change on the wiki when it\'s accepted. To use the checklist, go through each item in turn and change the `[ ]` to `[X]` to indicate that you\'ve done that step. GitHub will also display the number of commits in your branch, the number of files that were modified, and a view showing you the differences between the \"base\" and the \"head\" so that everybody can immediately see your intended modifications. Double-check these for things like stray blank lines you didn\'t mean to add, or huge formatting changes that your IDE decided to make behind your back.
+GitHub wyświetli edytor tekstu, w którym można napisać wiadomość dokumentującą zmiany: edytor ten będzie wstępnie wypełniony wiadomością powitalną (którą można usunąć), listą kontrolną (którą należy przejrzeć) oraz przypomnieniem o konieczności udokumentowania zmiany na wiki, gdy zostanie zaakceptowana. Aby skorzystać z listy kontrolnej, przejdź przez każdy element po kolei i zmień `[ ]` na `[X]`, aby zaznaczyć, że wykonałeś dany krok. GitHub wyświetli także liczbę commitów w Twojej gałęzi, liczbę plików, które zostały zmodyfikowane, oraz widok pokazujący różnice między \"bazą\" a \"głową\", aby każdy mógł natychmiast zobaczyć, jakie są Twoje zamierzone modyfikacje. Sprawdź dwukrotnie, czy nie ma tam takich rzeczy, jak zabłąkane puste linie, których nie chciałeś dodać, lub ogromne zmiany formatowania, które IDE postanowiło wprowadzić za Twoimi plecami.
 
 
 {{Code|lang=text|code=
@@ -447,21 +448,21 @@ base repository: FreeCAD/FreeCAD    base: master  <  head repository: GITHUB_USE
 Able to merge. These branches can be automatically merged.
 }}
 
-Click **Create pull request** to proceed. A message will appear indicating that some checks need to be done on the code. This is a system that compiles FreeCAD automatically and runs the unit tests. If the tests pass, the pull request will have a better chance of being merged into the main code, otherwise a report will be made indicating the errors encountered. See [FreeCAD pull requests](https://travis-ci.org/FreeCAD/FreeCAD/pull_requests).
+Kliknij **Create pull request**, aby kontynuować. Pojawi się komunikat informujący, że kod musi zostać sprawdzony. Jest to system, który automatycznie kompiluje program FreeCAD i uruchamia testy jednostkowe. Jeśli testy przejdą pomyślnie, pull request będzie miał większe szanse na połączenie z głównym kodem, w przeciwnym razie zostanie sporządzony raport wskazujący napotkane błędy. Zobacz [FreeCAD pull requests](https://travis-ci.org/FreeCAD/FreeCAD/pull_requests).
 
     Some checks haven’t completed yet
 
     * continuous-integration/travis-ci/pr Pending — The Travis CI build is in progress  |Required|
 
-If the tests succeed, you will see a message such as the following
+Jeśli testy zakończą się powodzeniem, pojawi się komunikat taki jak poniżej:
 
 All checks have passed
 
     * continuous-integration/travis-ci/pr — The Travis CI build passed  |Required|
 
-This branch has no conflicts with the base branch Only those with write access to this repository can merge pull requests.
+Ta gałąź nie ma konfliktów z gałęzią podstawową Tylko osoby z prawem zapisu do tego repozytorium mogą łączyć zgłoszenia pull request.
 
-Now you must wait for the administrators to merge your branch; you will be notified when this happens.
+Teraz musisz poczekać, aż administratorzy połączą Twoją gałąź. Zostaniesz o tym poinformowany.
 
 
 {{Code|lang=text|code=
@@ -471,7 +472,7 @@ You’re all set — the GITHUB_USERNAME:myNewBranch branch can be safely delete
 If you wish, you can also delete your fork of FreeCAD/FreeCAD.
 }}
 
-If you wish, you may delete the branch that was just merged, or even your entire FreeCAD fork, as your own code is already included at the end of the master branch.
+Jeśli chcesz, możesz usunąć gałąź, która została właśnie scalona, a nawet cały swój fork programu FreeCAD, ponieważ Twój własny kod jest już dołączony na końcu gałęzi głównej.
 
 
 {{Code|lang=text|code=
@@ -479,11 +480,13 @@ oZA' FreeCAD upstream/master
 }}
 
 
-**Note:**
+**Uwaga:**
 
-you may continue working (`git commit -a`) on the same branch while you wait for merge approval; if you `git push` again, a second merge commit will be queued in the same pull request, and another automated test will be done. That is, while your merges aren\'t yet approved by the administrators, you may keep pushing changes to your `origin` repository, and this will queue those commits in the same pull request to the `upstream` repository. Using a single pull request to queue many individual commits is often desirable for small changes. For big additions to the source code, you should create another branch, develop your features there, and then submit a separate pull request for this branch.
+możesz kontynuować pracę (`git commit -a`) na tej samej gałęzi, czekając na zatwierdzenie scalenia. Jeśli ponownie wykonasz `git push`, drugi commit scalenia zostanie umieszczony w kolejce w tym samym żądaniu ściągnięcia, a kolejny automatyczny test zostanie wykonany. Oznacza to, że podczas gdy twoje scalenia nie są jeszcze zatwierdzone przez administratorów, możesz nadal wysyłać zmiany do swojego repozytorium `origin`, a to spowoduje umieszczenie tych zgłoszeń commit w kolejce tego samego żądania wyciągnięcia do repozytorium `upstream`. Używanie pojedynczego żądania pull do kolejkowania wielu pojedynczych zgłoszeń commit jest często pożądane w przypadku małych zmian. W przypadku dużych zmian w kodzie źródłowym, należy utworzyć inną gałąź, rozwijać w niej swoje funkcje, a następnie wysłać osobne żądanie pull request dla tej gałęzi.
 
-The pull request interface can be used whenever you want to submit code from your own repositories to another repository in GitHub. You can use it to merge code in the opposite direction as well, from other people\'s branches to your own, or even between your own branches. In the last case, since you own the branches, the merges can be approved by yourself immediately.
+Przetłumaczono z www.DeepL.com/Translator (wersja darmowa)
+
+Interfejs pull request może być używany za każdym razem, gdy chcesz przesłać kod z własnego repozytorium do innego repozytorium w GitHubie. Można go również używać do scalania kodu w odwrotnym kierunku, z gałęzi innych osób do własnej, a nawet pomiędzy własnymi gałęziami. W tym ostatnim przypadku, ponieważ jesteś właścicielem gałęzi, możesz od razu zatwierdzić scalanie.
 
 
 {{Code|lang=text|code=
@@ -492,32 +495,32 @@ base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repositor
 base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repository: GITHUB_USERNAME/FreeCAD        compare: fix-many-bugs-branch
 }}
 
-### Keeping the GitHub repository up to date 
+### Utrzymywanie aktualnego repozytorium GitHub 
 
-Once you\'ve forked FreeCAD, your personal repository exists independently from the original. When the original repository has new commits, GitHub will inform you that your personal repository is behind in number of commits:
+Po rozwidleniu FreeCAD, Twoje osobiste repozytorium istnieje niezależnie od oryginalnego. Kiedy oryginalne repozytorium będzie miało nowe zgłoszenia commit, GitHub poinformuje Cię, że Twoje osobiste repozytorium jest opóźnione pod względem liczby zgłoszeń commit:
 
 
 {{Code|lang=text|code=
 This branch is 5 commits behind FreeCAD:master.
 }}
 
-In similar way, if you created a development branch with new code, GitHub will inform you that this branch is ahead in number of commits; that is, this branch has changes that haven\'t been merged into the official FreeCAD repository:
+W podobny sposób, jeśli utworzyłeś gałąź rozwojową z nowym kodem, GitHub poinformuje Cię, że ta gałąź wyprzedza Cię w liczbie zgłoszeń commit. To znaczy, że ta gałąź zawiera zmiany, które nie zostały jeszcze scalone z oficjalnym repozytorium FreeCAD:
 
 
 {{Code|lang=text|code=
 This branch is 3 commits ahead of FreeCAD:master.
 }}
 
-While developing, both cases are possible, as your own branch may lack commits made by other developers, but include new commits by you:
+Podczas rozwijania możliwe są oba przypadki, ponieważ Twoja własna gałąź może nie zawierać zgłoszeń commit innych deweloperów, ale zawierać nowe, napisane przez Ciebie:
 
 
 {{Code|lang=text|code=
 This branch is 2 commits ahead, 14 commits behind FreeCAD:master. 
 }}
 
-When developing code it is recommended that you rebase the branch in which you are currently working, as that will put your branch always ahead of the FreeCAD master code.
+Podczas tworzenia kodu zaleca się, abyś zmienił bazę gałęzi, w której aktualnie pracujesz, ponieważ dzięki temu Twoja gałąź będzie zawsze wyprzedzać kod główny FreeCAD.
 
-As for your original `master` branch, it will never be automatically updated by GitHub; this is something that you must do yourself. Switch to the `master` branch, then `pull` from `upstream` (which performs a `fetch` and `merge`), and then push this updated `master` branch to your remote `origin` repository.
+Jeśli chodzi o twoją oryginalną gałąź `master`, to nigdy nie będzie ona automatycznie aktualizowana przez GitHub. Musisz o to zadbać samodzielnie. Przełącz się na gałąź `master`, a następnie `pull` z `upstream` *(co spowoduje pobranie `fetch` i `merge`)*, a następnie przepchnij zaktualizowaną gałąź `master` do swojego zdalnego repozytorium `origin`.
 
 
 {{Code|lang=text|code=
@@ -526,14 +529,14 @@ git pull upstream master
 git push origin master
 }}
 
-After this is done, GitHub will let you know that your are synchronized with the `upstream` repository.
+Po wykonaniu tych czynności GitHub poinformuje Cię, że jesteś zsynchronizowany z repozytorium `upstream`.
 
 
 {{Code|lang=text|code=
 This branch is even with FreeCAD:master. 
 }}
 
-Now that your `master` is up to date, you may decide to switch to it, and delete the other branch that you used previously to develop a feature.
+Teraz, gdy twój `master` jest aktualny, możesz zdecydować się na przejście do niego i usunąć inną gałąź, której używałeś wcześniej do rozwijania funkcji.
 
 
 {{Code|lang=text|code=
@@ -541,21 +544,21 @@ git checkout master
 git branch -d myNewBranch
 }}
 
-To delete the branch in the `origin` remote repository, you can use the `push` operation. Normally, you push a local branch; this creates a remote branch with the same name as your local branch.
+Aby usunąć gałąź w zdalnym repozytorium `origin`, można użyć operacji `push`. Zwykle pcha się lokalną gałąź. Spowoduje to utworzenie zdalnej gałęzi o tej samej nazwie co lokalna.
 
 
 {{Code|lang=text|code=
 git push origin myNewBranch
 }}
 
-However, if you use the notation `local_name:remote_name`, the local branch is created in the remote repository under a different name:
+Jeśli jednak użyjesz zapisu `local_name:remote_name`, lokalna gałąź zostanie utworzona w zdalnym repozytorium pod inną nazwą:
 
 
 {{Code|lang=text|code=
 git push origin myNewBranch:someRemoteBranch
 }}
 
-Therefore, you can delete the remote branch by pushing an empty local branch:
+Dlatego można usunąć zdalną gałąź, przesuwając pustą gałąź lokalną:
 
 
 {{Code|lang=text|code=
@@ -563,7 +566,7 @@ git push origin :myNewBranch
 git push origin :someRemoteBranch
 }}
 
-Now that you only have an up-to-date `master`, you can create a new branch, and repeat the steps of changing files, committing, pushing, submitting a pull request, merging, and updating.
+Teraz, gdy masz już tylko aktualny `master`, możesz utworzyć nową gałąź i powtórzyć kroki zmiany plików, zgłoszenia commit, push, wysłania pull request, scalenia i aktualizacji.
 
 
 {{Code|lang=text|code=
@@ -571,7 +574,7 @@ git checkout master
 git checkout -b anotherBranch
 }}
 
-If you don\'t want to delete your already custom branch, you may force updating it to be equal to the updated `master`; then you can do whatever you want with it, including adding more commits and pushing it to the remote `origin` repository.
+Jeśli nie chcesz usuwać swojej już niestandardowej gałęzi, możesz wymusić jej aktualizację tak, aby była równa zaktualizowanej gałęzi `master`; następnie możesz zrobić z nią, co tylko chcesz, włączając w to dodawanie kolejnych zgłoszeń commit i wypychanie jej do zdalnego repozytorium `origin`.
 
 
 {{Code|lang=text|code=
@@ -580,37 +583,37 @@ git reset --hard master
 git push -f origin myNewBranch
 }}
 
-Hard resetting a branch like this is usually not needed. In most cases, you want to follow the sequence of creating a new branch, committing changes, pushing those changes, merging the branch, and then deleting the branch.
+Takie twarde resetowanie gałęzi zwykle nie jest potrzebne. W większości przypadków należy wykonać następujące czynności: utworzenie nowej gałęzi, wprowadzenie zmian, przepchnięcie tych zmian, scalenie gałęzi, a następnie usunięcie gałęzi.
 
-## Advanced Git operations 
+## Zaawansowane operacje Git 
 
-### Searching
+### Wyszukiwanie
 
-Some handy tools to help you find what you\'re looking for:
+Oto kilka przydatnych narzędzi, które pomogą Ci znaleźć to, czego szukasz:
 
-#### Search filenames 
+#### Wyszukiwanie plików według nazw 
 
-Use `git ls-files` to search the repository for file that contains a certain string in a filename. The example below will return all instances of the files that contain the \'dxf\' in their filenames.
+Użyj `git ls-files`, aby przeszukać repozytorium w poszukiwaniu plików, które zawierają w nazwie określony ciąg znaków. Poniższy przykład zwróci wszystkie przypadki plików, które zawierają w nazwie ciąg \'dxf\'.
 
 
 {{Code|lang=text|code=
 git ls-files *dxf*
 }}
 
-#### Search for a string 
+#### Wyszukiwanie ciągu znaków 
 
-Use `git grep` to search the repository for file that contains a certain string with the files themselves. The example below will return all instances of the files that contain the \'dxf\' within each and every file.
+Użyj `git grep`, aby przeszukać repozytorium w poszukiwaniu plików, które zawierają określony ciąg znaków w samych plikach. Poniższy przykład zwróci wszystkie wystąpienia plików, które zawierają \"dxf\" w każdym z nich.
 
 
 {{Code|lang=text|code=
 git grep dxf
 }}
 
-### Resolving merge conflicts 
+### Rozwiązywanie konfliktów scalania 
 
-Merging branches with `git merge`, or rebasing your branch with `git rebase`, will occasionally present conflicts, as files may have been modified by another author at the same time. If this happens you should see the changes of both sides, the other author\'s, and your own, and then make a decision on how to include both sets of changes in the best way possible. This is normally a manual process that cannot be automated; the programmer must understand the code, and decide what code to move, re-write, or drop to solve the conflict.
+Łączenie gałęzi za pomocą `git merge`, lub zmiana lokalizacji gałęzi za pomocą `git rebase`, może czasami powodować konflikty, ponieważ pliki mogły być modyfikowane przez innego autora w tym samym czasie. Jeśli tak się stanie, powinieneś zobaczyć zmiany obu stron, autora i swoje własne, a następnie podjąć decyzję, jak uwzględnić oba zestawy zmian w najlepszy możliwy sposób. Jest to zwykle proces ręczny, którego nie da się zautomatyzować; programista musi zrozumieć kod i zdecydować, jaki kod przenieść, przerobić lub usunąć, aby rozwiązać konflikt.
 
-Once a conflict occurs, a message like this may appear.
+Po wystąpieniu konfliktu może zostać wyświetlony komunikat podobny do tego.
 
 
 {{Code|lang=text|code=
@@ -619,14 +622,14 @@ error: Failed to merge in the changes.
 Patch failed at 1234 Some commit message when editing source_code.py
 }}
 
-If a specialized diff tool is installed and configured for Git, for example, Gnome\'s [Meld](https://wiki.gnome.org/Apps/Meld), the conflict can be examined and solved by using the `mergetool` operation.
+Jeśli dla projektu Git jest zainstalowane i skonfigurowane specjalistyczne narzędzie diff, na przykład program [Meld](https://wiki.gnome.org/Apps/Meld) firmy Gnome, konflikt można zbadać i rozwiązać za pomocą operacji `mergetool`.
 
 
 {{Code|lang=text|code=
 git mergetool
 }}
 
-The Meld tool normally displays three columns; the two columns on the sides display the two conflicting files, while the column on the middle displays the new code that will be saved and committed finally. Therefore, this central column should be edited in a way that it integrates the code of both side columns. Once the conflict is solved and the new source code (the central column) is saved, the Meld tool can be closed. Then the `merge` or `rebase` operation can continue.
+Narzędzie Scalanie zwykle wyświetla trzy kolumny; dwie kolumny po bokach wyświetlają dwa sprzeczne pliki, natomiast kolumna pośrodku wyświetla nowy kod, który zostanie zapisany i ostatecznie zatwierdzony. Dlatego też środkowa kolumna powinna być edytowana w taki sposób, aby scalała kod z obu kolumn bocznych. Po rozwiązaniu konfliktu i zapisaniu nowego kodu źródłowego (kolumna środkowa) można zamknąć narzędzie Meld. Następnie można kontynuować operację `merge` lub `rebase`.
 
 
 {{Code|lang=text|code=
@@ -634,27 +637,27 @@ git merge --continue
 git rebase --continue
 }}
 
-For more information on merging and solving conflicts see:
+Więcej informacji o scalaniu i rozwiązywaniu konfliktów można znaleźć na stronach:
 
--   [How merge conflicts are presented](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented) with `git merge`.
--   [Basic merge conflicts](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merge_conflicts) and [Git Tools - Advanced Merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging).
--   [Resolving a merge conflict using the command line](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
--   [External merge and diff tools](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_external_merge_tools) to use when you encounter a Git conflict.
+-   [Jak są przedstawiane konflikty scalania](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented) z `git merge`.
+-   [Podstawowe konflikty scalania](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merge_conflicts) i [Narzędzia Git - Zaawansowane scalanie](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging).
+-   [Rozwiązywanie konfliktu scalania za pomocą wiersza poleceń](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
+-   [Zewnętrzne narzędzia do scalania i dyfuzji](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_external_merge_tools), których można użyć po napotkaniu konfliktu w programie Git.
 
-### Inspect changes 
+### Sprawdzanie zmian 
 
-Inspect the history of a single file through various commits with the `log` operation:
+Sprawdź historię pojedynczego pliku dla różnych zgłoszeń commit za pomocą operacji `log`:
 
 
 {{Code|lang=text|code=
 git log --patch path
 }}
 
-Where `path` can be any directory or file. Instead of `--patch`, also the shorthands `-p` or `-u` can be used.
+Gdzie `path` może być dowolnym katalogiem lub plikiem. Zamiast `--patch` można również użyć skrótów `-p` lub `-u`.
 
-### Inspect changes between two branches 
+### Sprawdzanie zmian między dwoma gałęziami 
 
-Inspect the changes between two branches with the `log` and `diff` operations with the names of the branches:
+Sprawdź zmiany między dwiema gałęziami za pomocą operacji `log` i `diff` z podaniem nazw gałęzi:
 
 
 {{Code|lang=text|code=
@@ -662,13 +665,13 @@ git log master..myBranch
 git diff master..myBranch
 }}
 
-The `log` operation shows the commits, while `diff` shows the actual changes in the files.
+Operacja `log` pokazuje zgłoszenia commit, natomiast `diff` pokazuje rzeczywiste zmiany w plikach.
 
-### Reset files and directories 
+### Resetowanie plików i katalogów 
 
-If you accidentally made modifications to a file or directory, you may want to completely revert these changes, to get the previous state of the source code.
+Jeśli przypadkowo wprowadzono modyfikacje w pliku lub katalogu, może być konieczne całkowite odwrócenie tych zmian, aby uzyskać poprzedni stan kodu źródłowego.
 
-This can be done quickly using the `checkout` operation:
+Można to szybko wykonać za pomocą operacji `checkout`:
 
 
 {{Code|lang=text|code=
@@ -676,18 +679,18 @@ git checkout path
 git checkout .
 }}
 
-This will restore the `path` (a file or a directory) to the state it is at the tip of the branch, discarding changes that haven\'t been committed. If `path` is the single dot `.`, it will restore all files in the current directory.
+Spowoduje to przywrócenie `path` *(plików lub katalogów)* do stanu z początku gałęzi, odrzucając zmiany, które nie zostały zatwierdzone. Jeśli `path` jest pojedynczą kropką `.`, to przywróci wszystkie pliki w bieżącym katalogu.
 
-If you have accidentally added files and directories you can use the `clean` operation:
+Jeśli przez przypadek dodano pliki i katalogi, można użyć operacji `clean`:
 
 
 {{Code|lang=text|code=
 git clean -df
 }}
 
-This will forcefully delete all files and directories (`-df`) that are not being tracked by the repository, that is, those that have not been included previously with the `add` operation.
+Spowoduje to wymuszone usunięcie wszystkich plików i katalogów (`-df`), które nie są śledzone przez repozytorium, czyli takich, które nie zostały wcześniej dołączone za pomocą operacji `add`.
 
-To completely reset the repository, losing all uncommitted modifications, use the `reset` operation:
+Aby całkowicie zresetować repozytorium, tracąc wszystkie niezaangażowane modyfikacje, należy użyć operacji `reset`:
 
 
 {{Code|lang=text|code=
@@ -695,13 +698,13 @@ git fetch
 git reset --hard FETCH_HEAD
 }}
 
-Where `FETCH_HEAD` is the the tip of the `upstream` repository. Another commit can also be used.
+Gdzie `FETCH_HEAD` jest wierzchołkiem repozytorium `upstream`. Można też użyć innego zgłoszenia commit.
 
-The `revert` operation also reverts changes. However, this command does this by adding another commit to the history; in many cases this is not desired.
+Operacja `revert` również odwraca zmiany. Jednak to polecenie robi to przez dodanie kolejnego zgłoszenia commit do historii. W wielu przypadkach nie jest to pożądane.
 
-### Pruning old branches 
+### Obcinanie starych gałęzi 
 
-If you have committed many branches to the `upstream` repository, you may wish to remove these branches from your local system as they have already been merged. The branch in the `origin` repository online can be deleted immediately after merging. Then you can remove the local references to that branch, using the `--prune` or `prune` options to the `fetch` and `remote` operations.
+Jeśli wysłałeś wiele gałęzi do repozytorium `upstream`, możesz chcieć usunąć te gałęzie ze swojego lokalnego systemu, ponieważ zostały już scalone. Gałąź w repozytorium `origin` online może zostać usunięta natychmiast po scaleniu. Następnie można usunąć lokalne odwołania do tej gałęzi, używając opcji `--prune` lub `prune` w operacjach `fetch` i `remote`.
 
 
 {{Code|lang=text|code=
@@ -709,27 +712,27 @@ git fetch --prune origin
 git remote prune origin
 }}
 
-Finally you can delete the branches locally
+Na koniec można usunąć gałęzie lokalnie:
 
 
 {{Code|lang=text|code=
 git branch -D myBranch
 }}
 
-It is also a good practice to do garbage collection after a while, by using the `gc` operation. This will cleanup unnecessary files, and compress local file revisions, in order to optimize local disk usage of the repository.
+Dobrą praktyką jest również odśmiecanie repozytorium po pewnym czasie za pomocą operacji `gc`. Spowoduje to wyczyszczenie niepotrzebnych plików i skompresowanie lokalnych rewizji plików, aby zoptymalizować wykorzystanie lokalnego dysku w repozytorium.
 
 
 {{Code|lang=text|code=
 git gc
 }}
 
-### Working with patches 
+### Praca z łatkami 
 
-Although Git allows you to merge different branches of code with `git merge` (in your computer) or a pull request (remote repository), there are times when it may be desirable to create a traditional \"patch\", which can be sent as an attachment through email. The following workflow explains how to do this.
+Chociaż Git pozwala na łączenie różnych gałęzi kodu za pomocą `git merge` *(na swoim komputerze)* lub pull request *(w zdalnym repozytorium)*, to jednak zdarzają się sytuacje, w których pożądane może być utworzenie tradycyjnej \"łatki\" *(patch)*, którą można wysłać jako załącznik przez e-mail. Poniższy przepływ pracy wyjaśnia, jak to zrobić.
 
-#### Creating patches 
+#### Tworzenie łatek 
 
--   You should be developing your new code in a secondary branch of your repository, and not in the master branch. So the first step is to make sure you are in the correct branch.
+-   Nowy kod powinien być rozwijany w gałęzi dodatkowej repozytorium, a nie w gałęzi głównej. Dlatego pierwszym krokiem jest upewnienie się, że znajdujesz się we właściwej gałęzi.
 
 
 {{Code|lang=text|code=
@@ -737,14 +740,14 @@ git branch -v
 git checkout myBranch
 }}
 
--   Now use `git format-patch` against the master branch, and use the `--stdout` option to redirect the result to standard output; then redirect the standard output to a file, which for convenience is created above the source code directory.
+-   Teraz użyj `git format-patch` względem gałęzi master i użyj opcji `--stdout`, aby przekierować wynik na standardowe wyjście. Następnie przekieruj standardowe wyjście do pliku, który dla wygody jest tworzony powyżej katalogu z kodem źródłowym.
 
 
 {{Code|lang=text|code=
 git format-patch master --stdout > ../myCode.patch
 }}
 
--   Another method is
+-   Inną metodą jest
 
 
 {{Code|lang=text|code=
@@ -752,39 +755,39 @@ git format-patch HEAD^
 git format-patch HEAD~1
 }}
 
-The number of circumflex carets `^` or the number `1` indicate the number of commits that should be considered, that is, `^^^` or `~3` will create three patches for three commits.
+Liczba znaków nawigacyjnych `^` lub liczba `1` wskazują liczbę zgłoszeń commit, które należy wziąć pod uwagę, czyli `^^` lub `~3` utworzą trzy poprawki dla trzech zgłoszeń commit.
 
 
 {{Code|lang=text|code=
 git format-patch HEAD^
 }}
 
-This will create a patch or series of patches with the following naming convention
+Spowoduje to utworzenie łaty lub serii łat zgodnie z następującą konwencją nazewniczą
 
 
 {{Code|lang=text|code=
 XXXX-commit-message.patch
 }}
 
-where `XXXX` is a number from `0000` to `9999`, and the commit message forms the majority of the file name, for example,
+gdzie `XXXX` jest liczbą od `0000` do `9999`, a komunikat commit stanowi większą część nazwy pliku, np,
 
 
 {{Code|lang=text|code=
 0001-fix-ViewProjMatrix-getProjectionMatrix.patch
 }}
 
-#### Applying patches 
+#### Stosowanie łatek 
 
-Git can merge patches or diffs. To know more about this process read [Applying patches with Git](https://www.drupal.org/node/1399218).
+Git może scalać poprawki lub różnice. Aby dowiedzieć się więcej o tym procesie, przeczytaj stronę [Stosowanie poprawek za pomocą Git](https://www.drupal.org/node/1399218).
 
-If you already have the patch file in your system, just apply it.
+Jeśli plik z poprawką znajduje się już w systemie, wystarczy go zastosować.
 
 
 {{Code|lang=text|code=
 git apply myCode.patch
 }}
 
-You can use `curl` to download a patch from a website, and then apply it through `git`.
+Można użyć `curl`, aby pobrać łatę z witryny internetowej, a następnie zastosować ją za pomocą `git`.
 
 
 {{Code|lang=text|code=
@@ -792,90 +795,90 @@ curl -O https://some.website.org/code/myCode.patch
 git apply myCode.patch
 }}
 
-Add `.diff` or `.patch` at the end of the URL of a GitHub commit, pull request, or compare view so that the website shows you the plain text view of that page.
+Dodaj `.diff` lub `.patch` na końcu adresu URL zgłoszenia commit, pull requestu lub widoku porównania na GitHubie, aby na stronie był wyświetlany zwykły widok tekstowy.
 
--   Regular commit page: {{URL|https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621}}
--   Diff page: {{URL|https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.diff}}
--   Patch page: {{URL|https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.patch}}
+-   Zwykła strona zgłoszenia commit: {{URL|https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621}}
+-   Strona porównania: {{URL|https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.diff}}
+-   Strona poprawki: {{URL|https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.patch}}
 
-You can point `curl` to a particular commit patch in the repository, and pipe it directly to `git` to apply the patch.
+Możesz wskazać `curl` na konkretne zgłoszenie commit poprawki w repozytorium i przesłać go bezpośrednio do `git`, aby zastosować poprawkę.
 
     curl https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.patch | git apply -
 
-#### Reversing a patch 
+#### Cofanie poprawki 
 
-When you apply a patch you modify some files. However, these modifications aren\'t permanent until you commit the changes. Therefore, if you want to revert a patch use the following instructions.
+Podczas stosowania poprawki modyfikuje się niektóre pliki. Modyfikacje te nie są jednak trwałe, dopóki nie zatwierdzisz zmian. Dlatego jeśli chcesz cofnąć poprawkę, skorzystaj z poniższych instrukcji.
 
-This will revert the changes applied, if you still have access to the original patch file.
+Spowoduje to cofnięcie wprowadzonych zmian, jeśli nadal masz dostęp do oryginalnego pliku poprawki.
 
 
 {{Code|lang=text|code=
 git apply -R myCode.patch
 }}
 
-Alternatively, this will remove non-committed changes to the branch.
+Alternatywnie, spowoduje to usunięcie niezaakceptowanych zmian w gałęzi.
 
 
 {{Code|lang=text|code=
 git checkout -f
 }}
 
-### Stashing git commits 
+### Przechowywanie zgłoszeń commit git 
 
-Say that you\'re working on a branch and you find yourself making some modifications to the source that are out of the scope of your current branch; in other words, those changes would be better in another branch instead of the current one. The `git stash` command can be used to temporarily store those uncommitted local changes.
+Powiedzmy, że pracujesz nad gałęzią i okazuje się, że dokonujesz pewnych modyfikacji w źródle, które wykraczają poza zakres bieżącej gałęzi. Innymi słowy, te zmiany byłyby lepsze w innej gałęzi, a nie w bieżącej. Polecenie `git stash` może być użyte do tymczasowego przechowywania tych niezaangażowanych zmian lokalnych.
 
 
 {{Code|lang=text|code=
 git stash
 }}
 
-If in the future you want to use those commits, you can \"pop\" the commits out of the stash, and into your working branch.
+Jeśli w przyszłości będziesz chciał użyć tych zgłoszeń commit, możesz je \"wyciągnąć\" ze schowka i umieścić w swojej gałęzi roboczej.
 
 
 {{Code|lang=text|code=
 git stash pop
 }}
 
-Or if you decide that you don\'t like those saved commits anymore, you may drop the commits from the stash entirely.
+Jeśli zdecydujesz, że nie lubisz już tych zapisanych zgłoszeń commit, możesz całkowicie usunąć je ze schowka.
 
 
 {{Code|lang=text|code=
 git stash drop
 }}
 
-You can list multiple stash commits with
+Można wyświetlić listę wielu schowków dla zgłoszeń commit za pomocą:
 
 
 {{Code|lang=text|code=
 git stash list
 }}
 
-To learn more, read [Useful tricks you might not know about Git stash](https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a).
+Aby dowiedzieć się więcej, przeczytaj [Przydatne sztuczki, których możesz nie wiedzieć o schowkach Git](https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a).
 
-### Check out GitHub requests locally 
+### Sprawdź lokalnie żądania z GitHub 
 
 [Checkout GitHub pull requests locally](https://gist.github.com/piscisaureus/3342247)
 
-### Blaming
+### Obciążanie winą 
 
 
-**Section TBD**
+**Sekcja do ustalenia**
 
-Add content from <https://forum.freecadweb.org/viewtopic.php?f=23&t=55943&p=481483#p481287>
+Dodaj zawartość z witryny <https://forum.freecadweb.org/viewtopic.php?f=23&t=55943&p=481483#p481287>
 
 ### Bisect
 
 
-`git bisect`
+`Git bisect`
 
-is a method to find the specific commit that introduced a bug.
+Jest to metoda umożliwiająca znalezienie konkretnego zgłoszenia commit, które wprowadziło błąd.
 
-You need to find 2 commits:
+Musisz znaleźć dwa zgłoszenia commit:
 
--   A good commit (for example `abcd`) before the system broke.
--   A bad commit (for example `efgh`) after the system broke.
+-   Prawidłowy commit *(na przykład `abcd`)* przed uszkodzeniem systemu.
+-   Nieprawidłowy commit *(na przykład `efgh`)* po uszkodzeniu systemu.
 
-Then enter this from the terminal:
+Potem w terminalu wprowadź następujące dane:
 
 
 {{Code|lang=text|code=
@@ -884,49 +887,49 @@ git bisect good abcd
 git bisect bad efgh
 }}
 
-Result: `git` will check out the mid point between the two commits.
+Wynik: Polecenie `git` sprawdzi spójność między dwoma zgłoszeniami commit.
 
-The next step is to build and test the code. If the system works, continue the process by typing:
+Następnym krokiem jest zbudowanie i przetestowanie kodu. Jeśli system działa, kontynuuj proces, wpisując:
 
 
 {{Code|lang=text|code=
 git bisect good
 }}
 
-Repeat the previous step of building the code and testing it.
+Powtórz poprzedni etap budowania kodu i jego testowania.
 
-If the system is broken, type:
+Jeśli system jest uszkodzony, wpisz:
 
 
 {{Code|lang=text|code=
 git bisect bad
 }}
 
-Repeat the previous steps applying `good` or `bad` depending on the outcome of your tests.
+Powtórz poprzednie kroki, stosując `good` lub `bad` w zależności od wyników testów.
 
-Eventually, `git` will tell you that `wxyz` is the first bad commit.
+W końcu `git` powie ci, że `wxyz` jest pierwszym błędnym commitem.
 
-Finally, to exit the bisect process, type:
+Na koniec, aby zakończyć proces bisect, wpisz:
 
 
 {{Code|lang=text|code=
 git bisect reset
 }}
 
-Note: `git bisect` takes a long time if good and bad are far apart.
+Uwaga: `git bisect` zajmuje dużo czasu, jeśli obszary poprawne i błędne są odległe od siebie.
 
-## FreeCAD revision number 
+## Numer rewizji FreeCAD 
 
-In contrast to subversion, which uses a consecutive number for its revisions, Git produces [SHA-1 hash values](https://en.wikipedia.org/wiki/SHA-1) with every commit. A hash value is a long alphanumeric string that looks like this
+W przeciwieństwie do subversion, które używa kolejnych numerów dla swoich rewizji, Git tworzy [SHA-1 hash values](https://en.wikipedia.org/wiki/SHA-1) z każdym zgłoszeniem commit. Wartość skrótu to długi alfanumeryczny ciąg znaków, który wygląda następująco
 
 
 {{Code|lang=text|code=
 9b3ffef570596e184006287434fba54a4b03ccc3
 }}
 
-### Latest revision number 
+### Numer ostatniej wersji 
 
-To find the latest revision number of a particular branch use the `rev-list` operation with the `--count` option. Give the name of the branch, remote repository, tag, or a special pointer like `HEAD`, to indicate the last commit in that particular object.
+Aby znaleźć numer ostatniej rewizji w konkretnym oddziale, należy użyć operacji `rev-list` z opcją `--count`. Podaj nazwę gałęzi, zdalnego repozytorium, znacznika lub specjalny wskaźnik, taki jak `HEAD`, aby wskazać ostatni commit w tym konkretnym obiekcie.
 
 
 {{Code|lang=text|code=
@@ -935,11 +938,11 @@ git rev-list --count HEAD
 git rev-list --count origin
 }}
 
-Or browse [the repository on GitHub](https://github.com/FreeCAD/FreeCAD), and read the amount of commits reported in the particular branch.
+Można też przejrzeć [repozytorium na GitHubie](https://github.com/FreeCAD/FreeCAD) i zapoznać się z liczbą zgłoszeń commit zgłoszonych w danej gałęzi.
 
-### Revision number of a specific commit hash 
+### Numer wersji określonego hasha zatwierdzenia commit 
 
-Since the hash is an alphanumeric string it is not very useful to decide if a certain commit is older or newer than another hash. To find the revision number of a particular hash, again use the `rev-list` operation; the input can be the full hash, or a partial hash that is unique, usually the first 7 digits are enough.
+Ponieważ hash jest łańcuchem alfanumerycznym, nie jest zbyt użyteczne określanie, czy dany commit jest starszy czy nowszy od innego hasha. Aby znaleźć numer rewizji określonego hasha, ponownie użyj operacji `rev-list`; dane wejściowe mogą być pełnym hashem lub częściowym hashem, który jest unikalny, zwykle wystarczy pierwsze 7 cyfr.
 
 
 {{Code|lang=text|code=
@@ -947,9 +950,9 @@ git rev-list --count ab1520b872821414c6ce4a15fb85d471ac2a2b03
 git rev-list --count 9948ee4
 }}
 
-### Revision hash of a specific commit number 
+### Hash wersji określonego numeru zatwierdzenia commit 
 
-If we have the commit number, say, 15000, and we want to find the corresponding hash, we need to calculate the number of commits since this point until the last commit (`HEAD`). First, get the latest commit number.
+Jeśli mamy numer commit, powiedzmy 15000, i chcemy znaleźć odpowiadający mu hash, musimy obliczyć liczbę zgłoszdeń commit od tego momentu do ostatniego commitu (`HEAD`). Najpierw należy uzyskać numer ostatniego zgłoszenia commit.
 
 
 {{Code|lang=text|code=
@@ -957,14 +960,14 @@ git rev-list --count HEAD
 17465
 }}
 
-Then subtract the commit that we want.
+Następnie należy odjąć numer zgłoszenia commit
 
 
 {{Code|lang=text|code=
 17465 - 15000 = 2465
 }}
 
-Then use the `log` operation to show all commits and hashes. The `--skip` option jumps the difference in commits that we calculated so that we go directly to the hash that we are looking for.
+Następnie użyj operacji `log`, aby wyświetlić wszystkie zatwierdzenia i hashes. Opcja `--skip` przeskakuje różnicę w zatwierdzeniach, które obliczyliśmy, dzięki czemu przechodzimy bezpośrednio do hasza, którego szukamy.
 
 
 {{Code|lang=text|code=

@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveBox/de
 
+
+</div>
+
 ## Beschreibung
 
 Fügt einen einfachen Quader in den aktiven Körper (body) als Basisformelement ein oder vereinigt ihn mit den bereits bestehenden Formelementen.
@@ -18,10 +21,16 @@ Fügt einen einfachen Quader in den aktiven Körper (body) als Basisformelement 
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücke die **<img src="images/PartDesign_AdditiveBox.svg" width=24px> '''Additiver Quader'''** Schaltfläche. **Hinweis**: Der Additive Quader ist Teil eines Symbolmenüs mit der Bezeichnung *Erstellen eines additiven Grundelements*. Nach dem Start von FreeCAD wird der Additive Quader in der Werkzeugleiste angezeigt. Wenn ein anderes Grundelement angezeigt wird, klicke auf den Abwärtspfeil neben dem Symbol und wähle Additiver Quader im Menü.
 2.  Lege die Parameter für Grundelemente und [Anhang](Part_EditAttachment/de.md).
 3.  Klicke **OK**.
 4.  Unter dem aktiven Körper erscheint eine Quaderfunktion.
+
+
+</div>
 
 ## Optionen
 

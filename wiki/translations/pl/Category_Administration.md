@@ -15,9 +15,9 @@ Ta kategoria zawiera artykuły i kategorie dotyczące tematów administracyjnych
 | [Template:PropertyView/pl](wiki/Template_PropertyView/pl.md) | [Template:Raytracing Tools navi/pl](wiki/Template_Raytracing Tools navi/pl.md) | [Template:Robot Tools navi/pl](wiki/Template_Robot Tools navi/pl.md) |
 | [Template:Ship Tools navi/pl](wiki/Template_Ship Tools navi/pl.md) | [Template:Sketcher Tools navi/pl](wiki/Template_Sketcher Tools navi/pl.md) | [Template:Start Tools navi/pl](wiki/Template_Start Tools navi/pl.md) |
 | [Template:Std Base navi/pl](wiki/Template_Std Base navi/pl.md) | [Template:Surface Tools navi/pl](wiki/Template_Surface Tools navi/pl.md) | [Template:TechDraw Tools navi/pl](wiki/Template_TechDraw Tools navi/pl.md) |
-| [Tracker/pl](wiki/Tracker/pl.md) | [Template:Tutorials navi/pl](wiki/Template_Tutorials navi/pl.md) | [WikiPages/pl](wiki/WikiPages/pl.md) |
-| [WikiRobots/pl](wiki/WikiRobots/pl.md) | [Category:UnfinishedDocu/pl](wiki/Category_UnfinishedDocu/pl.md) | [Category:Wiki/pl](wiki/Category_Wiki/pl.md) |
-|
+| [Tracker/pl](wiki/Tracker/pl.md) | [Template:Tutorials navi/pl](wiki/Template_Tutorials navi/pl.md) | [Template:UnfinishedDocu/pl](wiki/Template_UnfinishedDocu/pl.md) |
+| [WikiPages/pl](wiki/WikiPages/pl.md) | [WikiRobots/pl](wiki/WikiRobots/pl.md) | [Category:UnfinishedDocu/pl](wiki/Category_UnfinishedDocu/pl.md) |
+| [Category:Wiki/pl](wiki/Category_Wiki/pl.md) |
 
 
 

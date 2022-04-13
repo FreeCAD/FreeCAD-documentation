@@ -2,10 +2,10 @@
 - GuiCommand:/fr
    Name:PartDesign AdditiveBox
    Name/fr:PartDesign Cube additif
-   MenuLocation:Conception de pièces → Créer une primitive additive → Cube additif
+   MenuLocation:Part Design → Créer une primitive additive → Cube additif
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md)
+   SeeAlso:[PartDesign Primitives additives](PartDesign_CompPrimitiveAdditive/fr.md), [PartDesign Primitives Cube soustractif](PartDesign_SubtractiveBox/fr.md)
 ---
 
 # PartDesign AdditiveBox/fr
@@ -18,7 +18,7 @@ Insère un Cube primitif dans un corps actif (body) comme première fonction, ou
 
 ## Utilisation
 
-1.  Presser le bouton **<img src="images/PartDesign_AdditiveBox.svg" width=24px> '''Cube additif'''**. **Remarque**: Le Cube additif fait partie d\'un menu d\'icônes appelé *Créer une primitive additive*. Après le démarrage de FreeCAD, le cube additif est celui affiché dans la barre d\'outils. Si une autre primitive est affichée, cliquer sur la flèche vers le bas et choisissez <img alt="" src=images/PartDesign_AdditiveBox.png  style="width:24px;"> Cube additif.
+1.  Presser le bouton **<img src="images/PartDesign_AdditiveBox.svg" width=24px> '''Cube additif'''**. **Remarque**: Le Cube additif fait partie d\'un menu d\'icônes appelé *Créer une primitive additive*. Après le démarrage de FreeCAD, le cube additif est celui affiché dans la barre d\'outils. Si une autre primitive est affichée, cliquer sur la flèche vers le bas et choisissez Cube additif.
 2.  Définir les paramètres primitifs et de l\'[ancrage](Part_EditAttachment/fr.md).
 3.  Cliquer sur **OK**.
 4.  Un cube apparaît dans le Corps actif.
@@ -32,15 +32,15 @@ Le Cube peut être édité après sa création de deux façons:
 
 ## Propriétés
 
--    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
+-    **Attachment**: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
--    {{PropertyData/fr|Label}}: Donne le nom du cube, changer si nécessaire.
+-    **Label**: Donne le nom du cube, changer si nécessaire.
 
--    {{PropertyData/fr|Length}}: Longueur du cube sur l\'axe X.
+-    **Length**: Longueur du cube sur l\'axe X.
 
--    {{PropertyData/fr|Width}}: Largeur du cube sur l\'axe Y.
+-    **Width**: Largeur du cube sur l\'axe Y.
 
--    {{PropertyData/fr|Height}}: Hauteur du cube sur l\'axe Z.
+-    **Height**: Hauteur du cube sur l\'axe Z.
 
 
 

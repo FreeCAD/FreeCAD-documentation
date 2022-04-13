@@ -5,9 +5,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Exportă proiectul raytracing selectat într-un fișier.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

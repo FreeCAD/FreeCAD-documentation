@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Simulator
    Name/fr:Path Simulateur d'usinage
-   MenuLocation:Parcours → Simulateur FAO
+   MenuLocation:Path → Simulateur FAO
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **M**
    SeeAlso:[Path Inspecteur de G-code](Path_Inspect/fr.md)
@@ -20,7 +20,7 @@ Cet outil permet de simuler la tâche Path en balayant les modèles 3D des outil
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_Simulator.svg" width=16px> [Simulateur FAO](Path_Simulator/fr.md)**.
-    -   Sélectionnez l\'option **Parcours → <img src="images/Path_Simulator.svg" width=16px> Simulateur FAO** dans le menu.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Simulator.svg" width=16px> Simulateur FAO** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **M**.
 2.  Désélectionnez toutes les **Opérations** qui ne doivent pas être simulées.
 3.  Réglez les paramètres de **Vitesse** et **Précision**.
@@ -35,13 +35,13 @@ Cet outil permet de simuler la tâche Path en balayant les modèles 3D des outil
 
 ## Propriétés
 
--    {{PropertyData/fr|Playback Speed}}: La vitesse de lecture de la simulation, en lignes G-code/seconde
+-    **Playback Speed**: La vitesse de lecture de la simulation, en lignes G-code/seconde
 
--    {{PropertyData/fr|Accuracy}}: La précision de la simulation exprimée en pourcentage indiquant l\'écart des simulations par rapport à la taĉhe. Pour la simulation interactive, réduire la précision à 0.3 fonctionne beaucoup plus rapidement.
+-    **Accuracy**: La précision de la simulation exprimée en pourcentage indiquant l\'écart des simulations par rapport à la taĉhe. Pour la simulation interactive, réduire la précision à 0.3 fonctionne beaucoup plus rapidement.
 
--    {{PropertyData/fr|Job}}: La taĉhe utilisé comme base de la simulation.
+-    **Job**: La taĉhe utilisé comme base de la simulation.
 
--    {{PropertyData/fr|Operation List}}: La liste des opérations sélectionnées à inclure dans la simulation.
+-    **Operation List**: La liste des opérations sélectionnées à inclure dans la simulation.
 
 
 

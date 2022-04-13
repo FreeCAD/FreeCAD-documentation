@@ -1,22 +1,25 @@
-# Std Revert/de
 ---
-- GuiCommand:/de   Name/de:Std Revert   MenuLocation:[[Std_File_Menu/de   Datei]] → Rückgängig|Workbenches:Alle   Shortcut:-   SeeAlso:---
+- GuiCommand:/de
+   Name:Std Revert
+   Name/de:Std Rückgängig
+   MenuLocation:Datei → Rückgängig
+   Workbenches:Alle
+---
 
+# Std Revert/de
 
-</div>
+## Beschreibung
 
-## Description
+Der Befehl **Std Rückgängig** schließt das aktive Dokument und öffnet die zuletzt gespeicherte Version dieses Dokuments erneut.
 
-The **Std Revert** command closes the active document and reopens the last saved version of the document.
+## Anwendung
 
-## Usage
+1.  Menüeintrag **File → <img src="images/Std_Revert.svg" width=16px> Rückgängig** auswählen.
+2.  Schaltfläche **Ja** im Dialogfeld drücken, um zu bestätigen, dass man alle Änderungen seit dem letzten Speichern verwerfen möchte.
 
-1.  Select the **File → <img src="images/Std_Revert.svg" width=16px> Revert** option from the menu.
-2.  Press the **Yes** button in the dialog box to confirm you want to lose all changes since the last file save.
+## Optionen
 
-## Options
-
--   Press **Esc** or the **No** button to abort the command.
+-    **Esc**oder Schaltfläche **Nein** drücken, um den Befehl abzubrechen.
 
 
 

@@ -30,7 +30,7 @@ L\'outil Vue active insère une copie d\'une fenêtre 3D dans une page de dessin
 ## Remarques
 
 -   Les vues actives sont statiques une fois générées, elles ne sont jamais mises à jour avec les modifications apportées au modèle 3D.
--   Vue active est en coulisses un <img alt="" src=images/TechDraw_Symbol.svg  style="width:24px;">[Symbole](TechDraw_Symbol/fr.md). Sa {{PropertyData/fr|Scale Type}} est donc toujours initialisé comme *Personnalisé*.
+-   Vue active est en réalité un <img alt="" src=images/TechDraw_Symbol.svg  style="width:24px;">[Symbole](TechDraw_Symbol/fr.md). Sa **Scale Type** est donc toujours initialisée comme *Personnalisé*.
 -   Cet outil est encore quelque peu **Expérimental**.
 
 ## Propriétés
@@ -39,19 +39,19 @@ Voir <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [TechDrawS
 
 ### Champs de dialogue 
 
--    {{PropertyData/fr|Width}}: La largeur de la vue générée.
+-    **Width**: La largeur de la vue générée.
 
--    {{PropertyData/fr|Height}}: hauteur de la vue générée.
+-    **Height**: hauteur de la vue générée.
 
--    {{PropertyData/fr|Border}}: La quantité d\'espace vide à laisser autour de la vue (mais dans la largeur x la hauteur).
+-    **Border**: La quantité d\'espace vide à laisser autour de la vue (mais dans la largeur x la hauteur).
 
--    {{PropertyData/fr|Background}}: affiche ou masque un arrière-plan.
+-    **Background**: affiche ou masque un arrière-plan.
 
--    {{PropertyData/fr|Background Color}}: Couleur pour peindre le fond, le cas échéant.
+-    **Background Color**: Couleur pour peindre le fond, le cas échéant.
 
--    {{PropertyData/fr|Line Width}}: Épaisseur des lignes individuelles dans la vue.
+-    **Line Width**: Épaisseur des lignes individuelles dans la vue.
 
--    {{PropertyData/fr|Render Mode}}: Le [mode de rendu](https://grey.colorado.edu/coin3d/classSoRenderManager.html#a4b8d99cff0fd91e31bc2c5d33610f6eb) de la bibliothèque [Coin3d](https://en.wikipedia.org/wiki/Coin3D). Les modes possibles sont:
+-    **Render Mode**: Le [mode de rendu](https://grey.colorado.edu/coin3d/classSoRenderManager.html#a4b8d99cff0fd91e31bc2c5d33610f6eb) de la bibliothèque [Coin3d](https://en.wikipedia.org/wiki/Coin3D). Les modes possibles sont:
 
     -   **AS\_IS** rendu des primitives telles qu\'elles sont
     -   **WIREFRAME** rendu des polygones en filaire

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign_Mirrored
    Name/fr:PartDesign Symétrie
-   MenuLocation:Conception de pièces → Appliquer un modèle → Symétrie
+   MenuLocation:Part Design → Appliquer un modèle → Symétrie
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 

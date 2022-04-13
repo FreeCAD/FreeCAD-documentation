@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Export‏‎
    Name/fr:Part Exportation
-   MenuLocation:Pièce → Exportation CAO...
+   MenuLocation:Part → Exportation CAO...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Importation](Part_Import/fr.md), [Std Exporter](Std_Export/fr.md), [Import Export](Import_Export/fr.md)
 ---
@@ -17,7 +17,7 @@ l\'outil **<img src="images/Part_Export.svg" width=16px> [Part Exportation](Part
 
 1.  Configurez les [Préférences d\'Import Export](Import_Export_Preferences/fr.md) dans l\'[Éditeur de préférences](Preferences_Editor/fr.md).
 2.  Selectionnez une forme dans la [Vue en arborescence](Tree_view/fr.md) ou dans la [Vue 3D](3D_view/fr.md).
-3.  Aller dans le menu **Pièce →  [<img src=images/Part_Export.svg style="width:16px"> Exportation CAO...**.
+3.  Aller dans le menu **Part →  [<img src=images/Part_Export.svg style="width:16px"> Exportation CAO...**.
 4.  Sélectionnez le format de fichier et le répertoire de sortie.
 
 

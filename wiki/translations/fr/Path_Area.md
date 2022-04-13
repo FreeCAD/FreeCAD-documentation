@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path-Area
    Name/fr:Path Zone d'usinage
-   MenuLocation:Parcours → Surface
+   MenuLocation:Path → Surface
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 

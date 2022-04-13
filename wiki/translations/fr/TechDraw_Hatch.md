@@ -25,11 +25,11 @@ L\'outil <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechD
 2.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_Hatch.svg" width=16px> [Hachurer une face en utilisant un fichier image ](TechDraw_Hatch/fr.md)**.
     -   Sélectionnez le **TechDraw → <img src="images/TechDraw_Hatch.svg" width=16px> Hachurer une face en utilisant un fichier image ** dans le menu.
-3.  Le panneau de tâches **Appliquer le hachurage au visage** s\'ouvre.
-4.  Vous pouvez modifier **Fichier de motifs**, **Echelle des motifs** et **Couleur des lignes**.
+3.  Le panneau de tâches **Appliquer des hachures à la face** s\'ouvre.
+4.  Vous pouvez modifier **Fichier de motif**, **Echelle du motif** et **Couleur de trait**.
 5.  Appuyez sur le bouton **OK**.
 
-## Notes
+## Remarques
 
 -   Les objets hachurés sont vulnérables au \"[problème de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations. Il est recommandé que le hachurage soit l\'une des dernières étapes de votre processus de dessin.
 -   Des exemples de modèles [SVG](SVG/fr.md) sont disponibles localement dans:

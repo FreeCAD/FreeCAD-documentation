@@ -4,7 +4,7 @@
    MenuLocation:Part Design → Create a substractive feature → Subtractive pipe
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
-   SeeAlso:[PartDesign Additive pipe](PartDesign_AdditivePipe.md), [PartDesign Subtractive loft](PartDesign_SubtractiveLoft.md)
+   SeeAlso:[PartDesign AdditivePipe](PartDesign_AdditivePipe.md), [PartDesign SubtractiveLoft](PartDesign_SubtractiveLoft.md)
 ---
 
 # PartDesign SubtractivePipe/pl

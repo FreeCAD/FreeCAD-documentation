@@ -4,7 +4,7 @@
    MenuLocation:Part Design → Create an additive primitive → Additive Sphere
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
-   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md)
+   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveSphere](PartDesign_SubtractiveSphere.md)
 ---
 
 # PartDesign AdditiveSphere/pt-br

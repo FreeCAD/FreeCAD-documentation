@@ -17,7 +17,7 @@ L\'outil souligné.
 
 1.  Assurez-vous qu\'il y a une **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md)** ouverte pour que le bouton soit activé.
 2.  Sélectionnez une cellule.
-3.  Appuyez sur le bouton **[<img src=images/Spreadsheet_StyleUnderline.svg style="width:16px"> [Spreadsheet Souligner le texte...](Spreadsheet_StyleUnderline/fr.md)**.
+3.  Appuyez sur le bouton **[<img src=images/Spreadsheet_StyleUnderline.svg style="width:16px"> [Texte souligné](Spreadsheet_StyleUnderline/fr.md)**.
 
 
 

@@ -8,6 +8,9 @@
 
 # PartDesign Groove/de
 
+
+</div>
+
 ## Beschreibung
 
 Das **Nut** Werkzeug dreht eine ausgewählte Skizze oder ein gegebenes Profil um eine bestimmte Achse und schneidet Material aus dem Untergrund.
@@ -20,6 +23,9 @@ Das **Nut** Werkzeug dreht eine ausgewählte Skizze oder ein gegebenes Profil um
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle die Skizze, die gedreht werden soll.
 
     :    v0.17 und höher  Alternativ kann auch eine Fläche auf dem vorhandenen Festkörper verwendet werden.
@@ -27,6 +33,9 @@ Das **Nut** Werkzeug dreht eine ausgewählte Skizze oder ein gegebenes Profil um
 2.  Drücke **<img src="images/_PartDesign_Groove.svg" width=24px> '''Nut'''** Schaltfläche.
 3.  Lege die Nut Parameter fest (siehe nächster Abschnitt).
 4.  Drücke **OK**.
+
+
+</div>
 
 ## Optionen
 

@@ -56,7 +56,13 @@ und Auswahl von Kanten in der 3D Ansicht ausgew채hlt werden. Beachte, dass du f�
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittsskizze wie oben beschrieben. Stelle dann unter **Abschnittstransformation** den Transformationsmodus auf *Mehrfachabschnitt*; dr체cke **Abschnitt hinzuf체gen** und w채hle dann eine Skizze in der [3D Ansicht](3D_view/de.md). Wiederhole diesen Vorgang f체r jeden zus채tzlichen Querschnitt.
+
+
+</div>
 
 ## Options
 

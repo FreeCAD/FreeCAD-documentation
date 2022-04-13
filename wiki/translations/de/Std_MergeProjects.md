@@ -1,18 +1,16 @@
 ---
 - GuiCommand:/de
    Name:Std MergeProjects
-   Name/de:Std Projekte zusammenführen
-   Workbenches:Alle
-   MenuLocation:[Datei](Std_File_Menu/de.md) → Projekt zusammenführen
-   Shortcut:
-   SeeAlso:
+   Name/de:Std ProjekteZusammenführen
+   MenuLocation:Datei → Projekte zusammenführen...
+   Workbenches:All
 ---
 
 # Std MergeProjects/de
 
 ## Beschreibung
 
-Die **Std Projekt zusammenführen** fügt den Inhalt einer FreeCAD-Datei dem aktiven Dokument bei.
+Der Befehl **Std ProjekteZusammenführen** fügt den Inhalt einer FreeCAD-Datei in das aktive Dokument ein.
 
 ## Anwendung
 

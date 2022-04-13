@@ -8,6 +8,9 @@
 
 # PartDesign Mirrored/de
 
+
+</div>
+
 ## Beschreibung
 
 Das **Gespiegelt** Werkzeug spiegelt Formelemente auf einer Ebene.
@@ -20,6 +23,9 @@ Das **Gespiegelt** Werkzeug spiegelt Formelemente auf einer Ebene.
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 Um eine Spiegelung zu erstellen:
 
 1.  Wähle das eine oder mehrere Formelement(e), das gespiegelt werden soll.
@@ -30,6 +36,12 @@ Definiere die Spiegel **Ebene**. Siehe [Optionen](#Optionen.md).
 
 1.  Drücke **OK**.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Hinzufügen oder Entfernen von Formelementen aus einer bestehenden Spiegelung:
 
 1.  Drücke **Formelement hinzufügen**, um ein Formelement hinzuzufügen, das gespiegelt werden soll. Das Formelement muss in der [3D Ansicht](3D_view/de.md) sichtbar sein:
@@ -39,6 +51,9 @@ Hinzufügen oder Entfernen von Formelementen aus einer bestehenden Spiegelung:
     4.  Wähle das Formelement in der 3D Ansicht; es wird der Liste hinzugefügt.
     5.  Wiederhole diesen Vorgang, um weitere Formelemente hinzuzufügen.
     6.  Drücke **Formelement entfernen**, um ein Formelement aus der Liste zu entfernen, oder rechtsklicke auf das Formelement in der Liste und wähle *Entfernen*.
+
+
+</div>
 
 ## Optionen
 

@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveHelix/de
 
+
+</div>
+
 ## Beschreibung
 
 Das Werkzeug **AdditiveHelix** erstellt einen Körper durch das Führen einer Skizze entlang eines Helix-Pfades.

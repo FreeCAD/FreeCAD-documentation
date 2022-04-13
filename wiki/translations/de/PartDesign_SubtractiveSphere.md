@@ -10,6 +10,9 @@
 
 # PartDesign SubtractiveSphere/de
 
+
+</div>
+
 ## Beschreibung
 
 Fügt eine abzuziehende Kugel in den aktiven Körper (Body) ein. Die Form wird von dem existierenden Volumenkörper abgezogen.

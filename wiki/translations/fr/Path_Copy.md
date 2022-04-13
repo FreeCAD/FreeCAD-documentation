@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Copy
    Name/fr:Path Copie d'opération
-   MenuLocation:Parcours → Modification du parcours → Copier cette opération dans la tâche
+   MenuLocation:Path → Modification du parcours → Copier cette opération dans la tâche
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -18,7 +18,7 @@ Cet outil crée une copie du parcours sélectionné.
 2.  Lancez la commande Path Copie opération de plusieurs manières:
     -   Appuyez sur le bouton **<img src="images/Path_Copy.svg" width=24px> [Copier cette opération dans la tâche](Path_Copy/fr.md)** dans la barre d\'outils Path
     -   Utilisez le raccourci clavier **P** puis **Y**
-    -   Utilisez l\'entrée **Parcours → Modification du parcours → Copier cette opération dans la tâche** dans le menu Path
+    -   Utilisez l\'entrée **Path → Modification du parcours → Copier cette opération dans la tâche** depuis le menu Path
 
 ## Propriétés
 

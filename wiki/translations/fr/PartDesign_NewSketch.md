@@ -18,7 +18,7 @@ Lors de la création de modèles à l\'aide de l\'[atelier PartDesign](PartDesig
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Créer une nouvelle esquisse](PartDesign_NewSketch/fr.md)** de la barre d\'outils PartDesign.
+1.  Appuyez sur le bouton **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Créer une esquisse](PartDesign_NewSketch/fr.md)** de la barre d\'outils PartDesign.
 2.  Dans le panneau Tâches, la boîte de dialogue **Sélectionner une fonction** s\'ouvre. Sélectionnez l\'un des plans dans la liste ou depuis la vue 3D, qui peut être réorientée pour une meilleure visibilité.
 3.  Appuyez sur **OK**.
 4.  L\'interface bascule automatiquement vers l\'atelier Sketcher et l\'esquisse peut être modifiée. Une fois l\'esquisse terminée, l\'interface retourne dans l\'atelier PartDesign et la vue 3D est restaurée selon l\'orientation de la vue avant la création de l\'esquisse.
@@ -52,9 +52,9 @@ Pour référencer des éléments dans l\'[atelier Sketcher](Sketcher_Workbench/f
 
 ## Propriétés
 
--    {{PropertyData/fr|Map Mode}}: mode de liaison de l\'esquisse à un autre objet, généralement un plan ou une face, mais pouvant être constitué d\'autres types d\'objets. Cliquez une fois dans le champ pour afficher un bouton **...** et appuyez sur le bouton pour ouvrir la boîte de dialogue [Ancrage](Part_EditAttachment/fr.md). Si défini sur Ddésactivé, la propriété Placement est activée.
+-    **Map Mode**: mode de liaison de l\'esquisse à un autre objet, généralement un plan ou une face, mais pouvant être constitué d\'autres types d\'objets. Cliquez une fois dans le champ pour afficher un bouton **...** et appuyez sur le bouton pour ouvrir la boîte de dialogue [Ancrage](Part_EditAttachment/fr.md). Si défini sur Ddésactivé, la propriété Placement est activée.
 
--    {{PropertyData/fr|Placement}}: contrôle l\'orientation de l\'esquisse dans l\'espace 3D; voir [placement](Std_Placement/fr.md). Désactivé si l\'esquisse est liée via la propriété Map Mode.
+-    **Placement**: contrôle l\'orientation de l\'esquisse dans l\'espace 3D; voir [placement](Std_Placement/fr.md). Désactivé si l\'esquisse est liée via la propriété Map Mode.
 
 
 

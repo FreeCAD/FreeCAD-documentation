@@ -12,9 +12,21 @@
 
 </div>
 
+
+{{Raytracing_Tools_navi/de}}
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Exportiert das ausgewählte Teil in eine pov-Datei zur Verwendung in einem POV-Ray Projekt.
+
+
+</div>
+
+
+{{Userdocnavi/de}}
 
 
 <div class="mw-translate-fuzzy">

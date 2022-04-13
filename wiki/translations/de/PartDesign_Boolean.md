@@ -21,6 +21,9 @@
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  [Aktiviere den Körper](PartDesign_Body#Active_status.md), der die Boolesche Eigenschaft erhalten soll. ***Hinweis**:: Es ist wichtig, dass weder der aktive Körper noch eines der darin enthaltenen Merkmale ausgewählt wird!*
 2.  Drücke die **<img src="images/PartDesign_Boolean.svg" width=24px> '''Boolesche Operation'''** Schaltfläche.
 3.  In **Boolesche Parameter**, klicke auf die **Körper hinzufügen** Schaltfläche. Der aktive Körper verschwindet vorübergehend aus der [3D Ansicht](3D_view/de.md) um die Auswahl des Werkzeugkörpers zu erleichtern.
@@ -30,12 +33,21 @@
 
 Alternativ können ein oder mehrere Körper vor dem Klicken der Booleschen Schaltfläche ausgewählt werden; sie werden dann automatisch hinzugefügt.
 
+
+</div>
+
 ## Optionen
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Verschmelzung** führt den/die Werkzeugkörper zum aktiven Körper hinzu.
 -   **Schneiden:** subtrahiert den/die Werkzeugkörper vom aktiven Körper.
 -   **Schnittmenge** extrahiert die Überschneidung aus dem gewählten Körper oder den Körpern mit dem aktiven Körper
 -   Drücke die **Körper entfernen** Schaltfläche, um einen Körper durch Auswahl in der [3D Ansicht](3D_view/de.md) zu entfernen.
+
+
+</div>
 
 ## Eigenschaften
 

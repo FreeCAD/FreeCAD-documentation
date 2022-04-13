@@ -27,7 +27,13 @@ Inserisce un cilindro primitivo nel corpo attivo come prima caratteristica o lo 
 ## Opzioni
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{PartDesign Tools navi/it}}
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

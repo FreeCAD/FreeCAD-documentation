@@ -15,7 +15,15 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
+## Description 
+
 Exports the current camera properties to a pov-file for use in a POV-Ray project.
+
+
+</div>
 
 ## Use
 

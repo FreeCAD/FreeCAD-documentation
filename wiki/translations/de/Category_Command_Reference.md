@@ -91,8 +91,9 @@ Diese Kategorie enthält die Hilfeseiten jedes FreeCAD-Befehls.
 | [Drawing Annotation/de](wiki/Drawing Annotation/de.md) | [Drawing Clip/de](wiki/Drawing Clip/de.md) | [Drawing Landscape A3/de](wiki/Drawing Landscape A3/de.md) |
 | [Drawing Open SVG/de](wiki/Drawing Open SVG/de.md) | [Drawing Openbrowser/de](wiki/Drawing Openbrowser/de.md) | [Drawing Orthoviews/de](wiki/Drawing Orthoviews/de.md) |
 | [Drawing ProjectShape/de](wiki/Drawing ProjectShape/de.md) | [Drawing View/de](wiki/Drawing View/de.md) | [Fasteners BOM/de](wiki/Fasteners BOM/de.md) |
-| [Fasteners Flip/de](wiki/Fasteners Flip/de.md) | [Fasteners MatchTypeInner/de](wiki/Fasteners MatchTypeInner/de.md) | [Fasteners MatchTypeOuter/de](wiki/Fasteners MatchTypeOuter/de.md) |
-| [Fasteners Move/de](wiki/Fasteners Move/de.md) | [Fasteners Shape/de](wiki/Fasteners Shape/de.md) | [FCGear BevelGear/de](wiki/FCGear BevelGear/de.md) |
+| [Fasteners ChamferHole/de](wiki/Fasteners ChamferHole/de.md) | [Fasteners ChangeParameters/de](wiki/Fasteners ChangeParameters/de.md) | [Fasteners Flip/de](wiki/Fasteners Flip/de.md) |
+| [Fasteners MatchTypeInner/de](wiki/Fasteners MatchTypeInner/de.md) | [Fasteners MatchTypeOuter/de](wiki/Fasteners MatchTypeOuter/de.md) | [Fasteners Move/de](wiki/Fasteners Move/de.md) |
+| [Fasteners ScrewCalculator/de](wiki/Fasteners ScrewCalculator/de.md) | [Fasteners Shape/de](wiki/Fasteners Shape/de.md) | [FCGear BevelGear/de](wiki/FCGear BevelGear/de.md) |
 | [FCGear CrownGear/de](wiki/FCGear CrownGear/de.md) | [FCGear CycloideGear/de](wiki/FCGear CycloideGear/de.md) | [FCGear InvoluteGear/de](wiki/FCGear InvoluteGear/de.md) |
 | [FCGear InvoluteRack/de](wiki/FCGear InvoluteRack/de.md) | [FCGear LanternGear/de](wiki/FCGear LanternGear/de.md) | [FCGear WormGear/de](wiki/FCGear WormGear/de.md) |
 | [FEM Analysis/de](wiki/FEM Analysis/de.md) | [FEM ConstraintBodyHeatSource/de](wiki/FEM ConstraintBodyHeatSource/de.md) | [FEM ConstraintFixed/de](wiki/FEM ConstraintFixed/de.md) |
@@ -173,8 +174,7 @@ Diese Kategorie enthält die Hilfeseiten jedes FreeCAD-Befehls.
 | [Robot Export/de](wiki/Robot Export/de.md) | [Robot InsertWaypoint/de](wiki/Robot InsertWaypoint/de.md) | [Robot InsertWaypointPre/de](wiki/Robot InsertWaypointPre/de.md) |
 | [Robot RestoreHomePos/de](wiki/Robot RestoreHomePos/de.md) | [Robot SetDefaultValues/de](wiki/Robot SetDefaultValues/de.md) | [Robot SetHomePos/de](wiki/Robot SetHomePos/de.md) |
 | [Robot Simulate/de](wiki/Robot Simulate/de.md) | [Robot TrajectoryCompound/de](wiki/Robot TrajectoryCompound/de.md) | [Robot TrajectoryDressUp/de](wiki/Robot TrajectoryDressUp/de.md) |
-| [SheetMetal AddBase/de](wiki/SheetMetal AddBase/de.md) | [SheetMetal AddBend/de](wiki/SheetMetal AddBend/de.md) | [SheetMetal AddCornerRelief/de](wiki/SheetMetal AddCornerRelief/de.md) |
-| [SheetMetal AddFoldWall/de](wiki/SheetMetal AddFoldWall/de.md) | [SheetMetal AddJunction/de](wiki/SheetMetal AddJunction/de.md) |
+| [SheetMetal AddBase/de](wiki/SheetMetal AddBase/de.md) | [SheetMetal AddBend/de](wiki/SheetMetal AddBend/de.md) |
 
 
 

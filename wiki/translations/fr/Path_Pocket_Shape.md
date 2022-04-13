@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Pocket Shape
    Name/fr:Path Poche
-   MenuLocation:Parcours → Poche
+   MenuLocation:Path → Poche
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -12,7 +12,7 @@
 
 Cet outil crée une opération de poche à partir des faces inférieures ou des parois sélectionnées d\'une ou de plusieurs poches de l\'objet.
 
-L\'objet forme de poche ou Path Pocket Shape est fait pour travailler avec <img alt="" src=images/Path_Job.svg  style="width:24px;"> [Path Tâche](Path_Job/fr.md).
+L\'objet Path Forme de poche est fait pour travailler avec une <img alt="" src=images/Path_Job.svg  style="width:24px;"> [Path Tâche](Path_Job/fr.md).
 
 <img alt="" src=images/Path_Pocket_Shape_example.png  style="width:600px;">
 
@@ -21,7 +21,7 @@ L\'objet forme de poche ou Path Pocket Shape est fait pour travailler avec <img 
 1.  Sélectionnez le fond ou une face(s) d\'une poche. Alors qu\'il est généralement plus facile de sélectionner le fond, les faces doivent être sélectionnées lorsqu\'une poche est traversante.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_Pocket_Shape.svg" width=16px> [Poche](Path_Pocket_Shape/fr.md)**.
-    -   Sélectionnez l\'option **Parcours → <img src="images/Path_Pocket_Shape.svg" width=16px> Poche** dans le menu.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Pocket_Shape.svg" width=16px> Poche** dans le menu.
 3.  Ajustez les propriétés souhaitées.
 
 ## Propriétés

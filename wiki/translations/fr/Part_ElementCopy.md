@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part ElementCopy
    Name/fr:Part Copie d'un élément
-   MenuLocation:Pièce → Créer une copie → Create shape element copy
+   MenuLocation:Part → Créer une copie → Créer une copie d'élément forme
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.19
    SeeAlso:[Part Copie simple](Part_SimpleCopy/fr.md), [Part Copie transformée](Part_TransformedCopy/fr.md), [Part Affiner la forme](Part_RefineShape/fr.md)
@@ -20,17 +20,17 @@ Pour produire des copies non paramétriques complètes des objets, utilisez **<i
 ## Utilisation
 
 1.  Sélectionnez un sommet, une arête ou une face d\'un objet pour lequel vous souhaitez effectuer une copie.
-2.  Allez au menu **Pièce → Create a copy → [<img src=images/Part_ElementCopy.svg style="width:16px"> [Create shape element copy](Part_ElementCopy/fr.md)**.
+2.  Allez au menu **Part → Créer une copie → [<img src=images/Part_ElementCopy.svg style="width:16px"> [Créer une copie d'élément forme](Part_ElementCopy/fr.md)**.
 
 ## Propriétés
 
 ### Données
 
-La copie a une simple propriété {{PropertyData/fr|Placement}} comme n\'importe quel autre [Part Feature](Part_Feature/fr.md).
+La copie a une seule propriété **Placement** comme n\'importe quelle autre [Part Fonction](Part_Feature/fr.md).
 
 ### Vue
 
-La copie a des propriétés de vue comme toutes les autres [Part Features](Part_Feature/fr.md).
+La copie a des propriétés de vue simples comme toutes les autres [Part Fonctions](Part_Feature/fr.md).
 
 
 

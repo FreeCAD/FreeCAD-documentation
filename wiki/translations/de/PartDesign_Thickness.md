@@ -10,6 +10,9 @@
 
 # PartDesign Thickness/de
 
+
+</div>
+
 ## Beschreibung
 
 Das Werkzeug *Dicke* bearbeitet einen Festkörper und wandelt ihn in einen dickwandigen hohlen Gegenstand mit mindestens einer offenen Fläche um, der jeder seiner verbleibenden Flächen eine gleichmäßige Dicke verleiht. Bei einigen Volumenkörpern können Sie die Arbeit erheblich beschleunigen und vermeiden, dass Extrusionen und Taschen entstehen.
@@ -19,12 +22,18 @@ Das Werkzeug *Dicke* bearbeitet einen Festkörper und wandelt ihn in einen dickw
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wählen Sie eine oder Flächen auf dem aktiven Körper aus.
 2.  Drücke die **<img src="images/PartDesign_Thickness.png" width=24px> ''Dicke''**.
 3.  Definiere die **Dicke(Thickness) Parameter** (siehe [Optionen](#Optionen.md)).
 4.  Um weitere Flächen zum Öffnen hinzuzufügen, drücke **Fläche hinzufügen** und wähle eine oder mehrere Flächen in der 3D-Ansicht.
 5.  Um eine zuvor ausgewählte Fläche zu entfernen, drücke {{KEY | Fläche entfernen}} und wähle eine Fläche in der 3D-Ansicht, oder klicke mit der rechten Maustaste auf die Fläche in der Liste und wähle *Entfernen*.
 6.  Drücke **OK**.
+
+
+</div>
 
 ## Optionen
 
@@ -60,12 +69,18 @@ Wie in den folgenden Bildern:
 
 ![](images/Braga-secondo_Pad.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Dann
 
 1.  Wählen Sie eine kreisförmige Fläche
 2.  Wählen Sie **<img src="images/_PartDesign_Thickness.png" width=24px>Dicke
 **
 3.  Fügen Sie der Auswahl die anderen kreisförmigen Flächen hinzu
+
+
+</div>
 
 Resultat: ![](images/Brga-spessore.png )
 

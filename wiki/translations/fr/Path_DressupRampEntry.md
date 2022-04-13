@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path DressupRampEntry
    Name/fr:Path Rampe d'entrée
-   MenuLocation:Path → Path Dressup → Rampe d'entrée
+   MenuLocation:Path → Trajectoires additionelles → Rampe d'entrée
    Workbenches:[Path](Path_Workbench/fr.md)
    SeeAlso:[Path Languettes de maintien](Path_DressupTag/fr.md), [Path Dégagement d'angles](Path_DressupDogbone/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
 ---

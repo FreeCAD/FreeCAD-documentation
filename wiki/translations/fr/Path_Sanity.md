@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Sanity
    Name/fr:Path Rechercher des erreurs
-   MenuLocation:Parcours → Vérifier le travail path pour les erreurs courantes
+   MenuLocation:Path → Vérifier la tâche d'usinage pour les erreurs courantes
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **S**
    Version:0.19
@@ -20,7 +20,7 @@ Un problème qui se pose dans un atelier CNC professionnel est qu\'il existe de 
 
 Les ateliers commerciaux créent souvent un \'manuel d\'installation\' qui documente toutes ces hypothèses et donne aux opérateurs ce dont ils ont besoin pour configurer la machine et produire une pièce.
 
-[Path Rechercher des erreurs](Path_Sanity/fr.md) est l\'outil de l\'atelier Path pour générer ce type d\'informations. La sortie de la commande Path Sanity est un fichier .html autonome avec des images intégrées. <img alt="Ci-dessus: exemple de rapport généré par Path Rechercher des erreurs" src=images/Sanity.jpg  style="width:400" height="600px;">
+[Path Vérifier la tâche d\'usinage pour les erreurs courantes](Path_Sanity/fr.md) est l\'outil de l\'atelier Path pour générer ce type d\'informations. La sortie de la commande Path Vérifier la tâche d\'usinage pour les erreurs courantes est un fichier .html autonome avec des images intégrées. <img alt="Ci-dessus: exemple de rapport généré par Path Rechercher des erreurs" src=images/Sanity.jpg  style="width:400" height="600px;">
 
 ## À propos du rapport 
 
@@ -56,14 +56,14 @@ Affiche les pièces dans le contexte de l\'enveloppe du stock et montre égaleme
 
 ### Squawks
 
-Avertissements et erreurs détectés par [Path Rechercher des erreurs](Path_Sanity/fr.md). Ceux-ci peuvent ou non être des problèmes, mais ils sont notés pour une attention supplémentaire. Par exemple, si le même numéro d\'outil est utilisé pour différents outils, il s\'affichera comme une erreur. Si un contrôleur d\'outil n\'a pas d\'avance / vitesse configurée, il apparaîtra comme un avertissement. Il détectera également et avertira les contrôleurs d\'outils inutilisés. Path bénéficierait ici de la possibilité d\'ajouter des notes ou des avertissements arbitraires.
+Avertissements et erreurs détectés par [Path Vérifier la tâche d\'usinage pour les erreurs courantes](Path_Sanity/fr.md). Ceux-ci peuvent ou non être des problèmes, mais ils sont notés pour une attention supplémentaire. Par exemple, si le même numéro d\'outil est utilisé pour différents outils, il s\'affichera comme une erreur. Si un contrôleur d\'outil n\'a pas d\'avance / vitesse configurée, il apparaîtra comme un avertissement. Il détectera également et avertira les contrôleurs d\'outils inutilisés. Path bénéficierait ici de la possibilité d\'ajouter des notes ou des avertissements arbitraires.
 
 ## Utilisation
 
 1.  Sélectionnez un <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Tâche](Path_Job/fr.md) dans la [Vue en arborescence](Tree_view/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Path_Sanity.svg" width=16px> [Vérifier le travail path pour les erreurs courantes](Path_Sanity/fr.md)**.
-    -   Sélectionnez **Parcours → <img src="images/Path_Sanity.svg" width=16px> Vérifier le travail path pour les erreurs courantes** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Path_Sanity.svg" width=16px> [Vérifier la tâche d'usinage pour les erreurs courantes](Path_Sanity/fr.md)**.
+    -   Sélectionnez **Path → <img src="images/Path_Sanity.svg" width=16px> Vérifier la tâche d'usinage pour les erreurs courantes** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **S**.
 3.  Les informations pertinentes sont rassemblées dans un dictionnaire Python puis formatées au format asciidoc.
 4.  Le fichier asciidoc est écrit sur le disque au même endroit que le fichier qui sera post-traité.
@@ -74,7 +74,7 @@ Avertissements et erreurs détectés par [Path Rechercher des erreurs](Path_Sani
 
 Asciidoc est un format de balisage léger pour la création de notes, d\'articles, de livres, etc. Il est lisible par l\'homme et facilement traduit dans d\'autres formats.
 
-Asciidoctor est un processeur de texte open-source rapide pour la conversion d\'asciidoc en HTML, PDF ou d\'autres formats. Il est disponible pour Linux, Windows et MacOS. Asciidoctor n\'est pas installé avec FreeCAD. Si vous utilisez Path Sanity sans installer Asciidoctor, le fichier source asciidoc sera généré mais le HTML résultant ne sera pas produit. [Site Asciidoctor](https://asciidoctor.org/)
+Asciidoctor est un processeur de texte open-source rapide pour la conversion d\'asciidoc en HTML, PDF ou d\'autres formats. Il est disponible pour Linux, Windows et MacOS. Asciidoctor n\'est pas installé avec FreeCAD. Si vous utilisez Path Vérifier la tâche d\'usinage pour les erreurs courantes sans installer Asciidoctor, le fichier source asciidoc sera généré mais le HTML résultant ne sera pas produit. [Site Asciidoctor](https://asciidoctor.org/)
 
 
 

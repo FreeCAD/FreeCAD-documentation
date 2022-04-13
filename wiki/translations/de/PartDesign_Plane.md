@@ -10,6 +10,9 @@
 
 # PartDesign Plane/de
 
+
+</div>
+
 ## Beschreibung
 
 Erstelle eine **Bezugsebene** (DatumPlane) die als Referenz für Skizzen oder andere Bezugselemente genutzt werden kann. Skizzen können auf einer Bezugsebene erstellt werden. ![](images/Datum_plane.png ) *Eine Bezugsebene, die drei Ecken eines Quaders schneidet mit einem Zylinder der aus einer Skizze auf dieser Bezugsebene erzeugt wurde.*
@@ -20,6 +23,9 @@ In FreeCAD 0.18 kann eine Bezugsebene nur innerhalb eines <img alt="" src=images
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Auf die Schaltfläche **<img src="images/PartDesign_Plane.svg" width=16px> [Bezugsebene erstellen](PartDesign_Plane/de.md)** klicken.
 2.  Die Parameter der Bezugsebene einstellen. Wähle einen ersten Bezug in der 3D-Ansicht, um die [Part Anhang - Modi](Part_EditAttachment/de.md) einzugrenzen.
 3.  Abhängig vom ausgewählten Bezugselement können eine oder mehrere Modi zum Anhängen in der Liste zur Verfügung stehen. Der am wahrscheinlichsten scheinende Modus wird automatisch ausgewählt und erscheint fettgedruckt in der Liste. Der Text *Angehängt im Modus:* zusammen mit dem Namen des Anhängemodus erscheint in grüner Schrift im oberen Bereich des Parameterdialogs.
@@ -28,6 +34,9 @@ In FreeCAD 0.18 kann eine Bezugsebene nur innerhalb eines <img alt="" src=images
 6.  **Versatz:** zur Festlegung von Werten für den Versatz beim Anhängen oder Referenzieren. **Hinweis**, dass der x, y und z - Versatz sich auf das lokale Koordinatensystem der Bezugsebene bezieht und nicht auf das globale. Deshalb ist der z-Versatz immer ein Versatz entlang des Normalenvektors zur Bezugsebene.
 7.  **Drehen:** Das Ändern des Wertes \"Around x-axis\" läßt die Ebene um ihre lokale X-Achse drehen. Das Ändern des Wertes \"Around y-axis\" läßt die Ebene um die lokale Y-Achse drehen. Das Ändern des Wertes \"Around z-axis\" läßt die Ebene um die lokale Z-Achse drehen.
 8.  Klicke **OK**.
+
+
+</div>
 
 ## Optionen
 

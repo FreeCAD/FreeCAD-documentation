@@ -10,6 +10,9 @@
 
 # PartDesign AdditivePrism/de
 
+
+</div>
+
 ## Beschreibung
 
 Fügt ein Prisma in den aktiven Körper (Body) als Basisformelement ein oder vereinigt ihn mit den bereits bestehenden Formelementen.

@@ -17,6 +17,9 @@ Questo strumento rivoluziona uno schizzo selezionato o un oggetto 2D attorno ad 
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare lo schizzo da ruotare.
 
     :   È possibile utilizzare una faccia di un solido esistente. {{VersionPlus/it|0.17}}
@@ -24,6 +27,9 @@ Questo strumento rivoluziona uno schizzo selezionato o un oggetto 2D attorno ad 
 2.  Premere il pulsante **<img src="images/PartDesign_Groove.svg" width=24px> '''Scanalatura'''**.
 3.  Impostare i parametri della scanalatura (vedere la prossima sezione).
 4.  Premere **OK**.
+
+
+</div>
 
 ## Opzioni
 

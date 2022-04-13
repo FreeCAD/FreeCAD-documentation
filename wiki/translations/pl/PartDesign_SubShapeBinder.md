@@ -1,19 +1,20 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:PartDesign SubShapeBinder
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
-   MenuLocation:Part Design → Create a sub-object(s) shape binder
+   Name/pl:Projekt Części: Łącznik kształtów podrzędnych
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
+   MenuLocation:Projekt Części → Utwórz łącznik kształtu obiektu podrzędnego
    Version:0.19
-   SeeAlso:[PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign Clone](PartDesign_Clone.md)
+   SeeAlso:[Łącznik kształtu](PartDesign_ShapeBinder/pl.md), [Utwórz klon](PartDesign_Clone/pl.md)
 ---
 
 # PartDesign SubShapeBinder/pl
 
 ## Opis
 
-The **PartDesign SubShapeBinder** tool creates a shape binder referencing geometry from one or more parent objects. A SubShapeBinder is typically used inside a [PartDesign Body](PartDesign_Body.md) to reference geometry outside the Body. Using external geometry directly in a Body is not allowed and will lead to out of scope errors. But a SubShapeBinder can also be used without being nested in a Body.
+Narzędzie **Łącznik kształtów podrzędnych** tworzy spoiwo kształtu odwołujące się do geometrii z jednego lub więcej obiektów nadrzędnych. Narzędzie Łącznik kształtów podrzędnych jest zazwyczaj używane wewnątrz [zawartości](PartDesign_Body/pl.md) do odwoływania się do geometrii spoza Zawartości. Używanie zewnętrznej geometrii bezpośrednio w bryle jest niedozwolone i prowadzi do błędów wykraczających poza zakres. Jednak Łącznik kształtów podrzędnych może być również używany bez zagnieżdżania w Zawartości.
 
-A SubShapeBinder will track the relative placement of the referenced geometry, which is useful in the context of creating [assemblies](Assembly.md), but on top of that also has its own placement.
+Łącznik kształtów podrzędnych śledzi względne rozmieszczenie geometrii, do której się odwołuje, co jest przydatne w kontekście tworzenia [złożeń](Assembly/pl.md), ale oprócz tego ma również własne umiejscowienie.
 
 The referenced geometry can consist of one or multiple elements. Each element can be an individual object (for example a [PartDesign Body](PartDesign_Body.md)), a subobject (for example a [Part Box](Part_Box.md) inside a [Std Part](Std_Part.md), or a [sketch](PartDesign_NewSketch.md) or [Feature](PartDesign_Feature.md) inside a Body), or a subelement (a face, edge or vertex). Which geometry should be selected depends on the intended purpose of the SubShapeBinder. For a Boolean operation you would need to select a solid. For a [Pad operation](PartDesign_Pad.md) a face, a sketch or a planar wire can be used. And for the [external geometry](Sketcher_External.md) in a sketch, or to attach a sketch, any combination of subelements may be appropriate. Elements can belong to different parent objects, and can even belong to the Body the SubShapeBinder is nested in. Because a SubShapeBinder is [Link-based](Std_LinkMake.md) the referenced geometry can also belong to an external document.
 
@@ -53,7 +54,7 @@ On the right two SubShapeBinders referencing geometry from the first Body, neste
 5.  Optionally add more geometry in the same manner.
 6.  To replace already referenced geometry hold down **Ctrl** during the drag and drop operation.
 
-## Notes
+## Uwagi
 
 -   2D offsetting is supported for some shape types, included planar faces, edges and wires. Because offsetting is a difficult operation for the software it does not always succeed. <small>(v0.20)</small> 
 -   A SubShapeBinder that is not nested in a Body can be used as the [Base Feature](PartDesign_Body#Base_Feature.md) for a new Body.
@@ -72,14 +73,14 @@ The main differences are:
 -   A PartDesign SubShapeBinder always tracks the relative placement of the referenced geometry. For a PartDesign ShapeBinder this behavior is optional through its **Trace Support** property.
 -   Only PartDesign SubShapeBinders support 2D offsetting.
 
-## Properties
+## Właściwości
 
 A PartDesign SubShapeBinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
 ### Data
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Podstawowe}}
 
 -    **Support|XLinkSubList**: support for the geometry.
 
@@ -127,7 +128,7 @@ A PartDesign SubShapeBinder object is derived from a [Part Feature](Part_Feature
 
 ## Odnośniki internetowe 
 
--   [New Sublink Link Feature](https://forum.freecadweb.org/viewtopic.php?t=41450), usage explanation with video.
+-   [Nowa funkcja łącza kształtu podrzędnego](https://forum.freecadweb.org/viewtopic.php?t=41450), wyjaśnienie użycia z filmem.
 
 
 

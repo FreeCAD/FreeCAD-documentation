@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveCylinder/es
 
+
+</div>
+
 ## Descripción
 
 Inserta un Cilindro primitivo en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s).
@@ -31,7 +34,13 @@ Inserta un Cilindro primitivo en el Cuerpo activo como primera característica, 
 
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 Es posible crear prismas torcidos especificando ángulos con respecto al vector normal del adjunto seleccionado. {{Version/es|0.20}}
+
+
+</div>
 
 Tras su creación, el Cilindro puede ser editado de dos maneras:
 

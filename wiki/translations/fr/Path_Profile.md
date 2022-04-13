@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Profile
    Name/fr:Path Profil
-   MenuLocation:Parcours → Profil
+   MenuLocation:Path → Profil
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---
@@ -35,7 +35,7 @@ Une opération **Profile Edges** crée un tracé de contour simple à partir des
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_Profile.svg" width=16px> [Profil](Path_Profile/fr.md)**.
-    -   Sélectionnez l\'option **Parcours → <img src="images/Path_Profile.svg" width=16px> Profil** dans le menu.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Profile.svg" width=16px> Profil** dans le menu.
 2.  Activez la section Géométrie de base en cliquant sur son onglet, et sélectionnez les caractéristiques du modèle de travail.
     -   Si aucune caractéristique n\'est sélectionnée, la commande passe par défaut à une opération **Contour**, contournant le modèle entier.
     -   Si des faces sont sélectionnées, le résultat est une opération **Profile Face**.
@@ -70,54 +70,54 @@ Apportez des ajustements supplémentaires à l\'opération en modifiant les prop
 
 Remarque: il est conseillé de ne pas modifier la propriété Placement des opérations de chemin. Déplacez ou faites pivoter le modèle de tâche de chemin selon vos besoins.
 
--    {{PropertyData/fr|Placement}}: emplacement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
+-    **Placement**: emplacement global \[position et rotation\] de l\'objet - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
     -   
-        {{PropertyData/fr|Angle}}
+        **Angle**
         
         : angle en degrés appliqué à la rotation de l\'objet autour de la valeur de la propriété Axis.
 
     -   
-        {{PropertyData/fr|Axis}}
+        **Axis**
         
         : axe (un ou plusieurs) autour duquel faire pivoter l\'objet, défini dans les sous-propriétés: x, y, z.
 
         -   
-            {{PropertyData/fr|X}}
+            **X**
             
             : valeur de l\'axe x.
 
         -   
-            {{PropertyData/fr|Y}}
+            **Y**
             
             : valeur de l\'axe y.
 
         -   
-            {{PropertyData/fr|Z}}
+            **Z**
             
             : valeur de l\'axe z.
 
     -   
-        {{PropertyData/fr|Position}}
+        **Position**
         
         : position de l\'objet, définie dans les sous-propriétés: x, y, z - par rapport à l\'origine (ou à l\'origine du conteneur de l\'objet parent).
 
         -   
-            {{PropertyData/fr|X}}
+            **X**
             
             : valeur de distance x.
 
         -   
-            {{PropertyData/fr|Y}}
+            **Y**
             
             : valeur de distance y.
 
         -   
-            {{PropertyData/fr|Z}}
+            **Z**
             
             : valeur de distance z.
 
--    {{PropertyData/fr|Label}}: nom de l\'objet fourni par l\'utilisateur (UTF-8).
+-    **Label**: nom de l\'objet fourni par l\'utilisateur (UTF-8).
 
 
 {{TitleProperty|Depth}}

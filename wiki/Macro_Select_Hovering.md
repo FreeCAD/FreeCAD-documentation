@@ -10,29 +10,29 @@
 |Download=[https://www.freecadweb.org/wiki/images/d/d8/Macro_Select_Hovering.png ToolBar Icon]
 }}
 
- ![Macro Select Hovering](images/Select_Hovering00.gif ) 
-
-![Macro Select Hovering](images/Macro_Select_Hovering_00.png )
-
 ## Description
 
 this macro select a choice Face, Edge, Vertex hovering by the mouse.
 
-PS: For unselected one face (or other) click the  
+ ![Macro Select Hovering](images/Select_Hovering00.gif ) 
+
+![Macro Select Hovering](images/Macro_Select_Hovering_00.png )
+
+PS: For unselected one face (or other) click the **Pause grab** and use the standard procedure : CTRL + Click
 
 ## How To Use 
 
-  Hovering element by the mouse.  
+Hovering element by the mouse.
 
 ### Icons
 
-  The icon must be copied into the same directory as the macro  
+The icon must be copied into the same directory as the macro
 
 ## Script
 
-  The icon ToolBar ![Macro Select Hovering](images/Macro_Select_Hovering.png ) 
+The icon ToolBar ![Macro Select Hovering](images/Macro_Select_Hovering.png )
 
-**Macro\_Select\_Hovering.FCMacro**
+ **Macro\_Select\_Hovering.FCMacro**
 
 
 {{MacroCode|code=
@@ -400,13 +400,13 @@ MainWindow.show()
 
 ## Version
 
-  ver 00.03b (28/10/2020) : add print**()** for Python 3
+ver 00.03b (28/10/2020) : add print**()** for Python 3
 
 ver 00.03 (26/12/2017) : replace test with (FreeCAD.ActiveDocument.getObject(obj), sub) == False)
 
-ver 00.02 (26/12/2017) : 
+ver 00.02 (26/12/2017) :
 
- ver 00.01 (25/12/2017) :
+ver 00.01 (25/12/2017) :
 
 ## Link
 

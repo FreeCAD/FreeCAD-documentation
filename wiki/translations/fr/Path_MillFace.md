@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Face
    Name/fr:Path Surfaçage
-   MenuLocation:Parcours → Face
+   MenuLocation:Path → Face
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -25,7 +25,7 @@ Cette opération contient une propriété **BoundaryShape** qui permet de modifi
 1.  Sélectionnez une ou plusieurs faces à surfacer. **Remarque:** Si les faces sélectionnées ont des hauteurs différentes, elles seront toutes fraisées à la profondeur finale.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_MillFace.svg" width=16px> [Face](Path_MillFace/fr.md)**.
-    -   Sélectionnez l\'option **Parcours → <img src="images/Path_MillFace.svg" width=16px> Face** dans le menu.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_MillFace.svg" width=16px> Face** dans le menu.
 3.  Sélectionnez le bon paramètre **BoundaryShape** pour modifier la zone de fraisage en fonction de la ou des faces sélectionnées comme **Base Geometry**.
 4.  Ajustez les autres propriétés selon vos besoins. Elles sont énumérées ci-dessous.
 

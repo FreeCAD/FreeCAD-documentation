@@ -20,7 +20,13 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 L\'ambiente FEM supporta già un sacco di vincoli diversi e alcuni solutori. Nonostante ciò spesso si ha bisogno di vincoli non ancora supportati da FreeCAD. Questa pagina è il punto di partenza per una serie di esercitazioni e di altre risorse che descrivono come estendere l\'ambiente FEM utilizzando la struttura esistente. Anche se questa serie può rivelarsi utile per gli sviluppatori di software, l\'idea è di permettere agli utenti di FEM che hanno un po\' di interesse per la codifica in Python di aggiungere le cose di cui hanno bisogno.
+
+
+</div>
 
 Aggiungere nuovi vincoli, equazioni o solutori è per lo più un lavoro di routine. Ma farlo per la prima volta non è così facile come potrebbe sembrare. È utile conoscere i seguenti argomenti:
 

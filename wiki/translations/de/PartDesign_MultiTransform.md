@@ -8,6 +8,9 @@
 
 # PartDesign MultiTransform/de
 
+
+</div>
+
 ## Beschreibung
 
 \'Ein Muster aus Kombinationen von Umwandlungen herstellen\' - Die **![](images/)_[Mehrfach-Transformation](PartDesign_MultiTransform.md)** nimmt eine (oder einen Satz von) Part \'Formelementen\' als seine Eingabe und ermöglicht es dem Anwender, mehrfache Transformationen auf dieses Formelement (oder diesen Satz von Formelementen) zunehmend, der Reihe nach - eine gemeinsame oder zusammengesetzte Transformation zu erzeugen.

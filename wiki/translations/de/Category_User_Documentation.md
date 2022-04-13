@@ -119,8 +119,9 @@ Diese Kategorie enthält Artikel über die Benutzung von FreeCAD. Es ist auch di
 | [Drawing tutorial/de](wiki/Drawing tutorial/de.md) | [Drawing View/de](wiki/Drawing View/de.md) | [Drawing Workbench/de](wiki/Drawing Workbench/de.md) |
 | [Drawing/de](wiki/Drawing/de.md) | [DXF/de](wiki/DXF/de.md) | [Export to STL or OBJ/de](wiki/Export to STL or OBJ/de.md) |
 | [External workbenches/de](wiki/External workbenches/de.md) | [Extra python modules/de](wiki/Extra python modules/de.md) | [Fasteners BOM/de](wiki/Fasteners BOM/de.md) |
-| [Fasteners Flip/de](wiki/Fasteners Flip/de.md) | [Fasteners MatchTypeInner/de](wiki/Fasteners MatchTypeInner/de.md) | [Fasteners MatchTypeOuter/de](wiki/Fasteners MatchTypeOuter/de.md) |
-| [Fasteners Move/de](wiki/Fasteners Move/de.md) | [Fasteners Shape/de](wiki/Fasteners Shape/de.md) | [Fasteners Workbench/de](wiki/Fasteners Workbench/de.md) |
+| [Fasteners ChamferHole/de](wiki/Fasteners ChamferHole/de.md) | [Fasteners ChangeParameters/de](wiki/Fasteners ChangeParameters/de.md) | [Fasteners Flip/de](wiki/Fasteners Flip/de.md) |
+| [Fasteners MatchTypeInner/de](wiki/Fasteners MatchTypeInner/de.md) | [Fasteners MatchTypeOuter/de](wiki/Fasteners MatchTypeOuter/de.md) | [Fasteners Move/de](wiki/Fasteners Move/de.md) |
+| [Fasteners ScrewCalculator/de](wiki/Fasteners ScrewCalculator/de.md) | [Fasteners Shape/de](wiki/Fasteners Shape/de.md) | [Fasteners Workbench/de](wiki/Fasteners Workbench/de.md) |
 | [FCGear BevelGear/de](wiki/FCGear BevelGear/de.md) | [FCGear CrownGear/de](wiki/FCGear CrownGear/de.md) | [FCGear CycloideGear/de](wiki/FCGear CycloideGear/de.md) |
 | [FCGear InvoluteGear/de](wiki/FCGear InvoluteGear/de.md) | [FCGear InvoluteRack/de](wiki/FCGear InvoluteRack/de.md) | [FCGear LanternGear/de](wiki/FCGear LanternGear/de.md) |
 | [FCGear Workbench/de](wiki/FCGear Workbench/de.md) | [FCGear WormGear/de](wiki/FCGear WormGear/de.md) | [Feature editing/de](wiki/Feature editing/de.md) |
@@ -170,8 +171,7 @@ Diese Kategorie enthält Artikel über die Benutzung von FreeCAD. Es ist auch di
 | [Macro SuperWire/de](wiki/Macro SuperWire/de.md) | [Macro Texture Objects/de](wiki/Macro Texture Objects/de.md) | [Macro Texture/de](wiki/Macro Texture/de.md) |
 | [Macro Unfold Box/de](wiki/Macro Unfold Box/de.md) | [Macro Unroll Ruled Surface/de](wiki/Macro Unroll Ruled Surface/de.md) | [Macro View Rotation/de](wiki/Macro View Rotation/de.md) |
 | [Macro WorkFeatures/de](wiki/Macro WorkFeatures/de.md) | [Template:Macro/de](wiki/Template_Macro/de.md) | [Main Page/de](wiki/Main Page/de.md) |
-| [Main view area/de](wiki/Main view area/de.md) | [Manual:Creating renderings/de](wiki/Manual_Creating renderings/de.md) | [Matrix API/de](wiki/Matrix API/de.md) |
-| [Measurement Of Angles On Holes/de](wiki/Measurement Of Angles On Holes/de.md) | [Mesh AddFacet/de](wiki/Mesh AddFacet/de.md) |
+| [Main view area/de](wiki/Main view area/de.md) | [Manual:Creating renderings/de](wiki/Manual_Creating renderings/de.md) |
 
 
 

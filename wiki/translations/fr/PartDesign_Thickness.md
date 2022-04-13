@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign Thickness
    Name/fr:PartDesign Épaisseur
-   MenuLocation:PartDesign → Appliquer une fonction d'habillage → Épaisseur
+   MenuLocation:Part Design → Appliquer une fonction d'habillage → Épaisseur
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Part Évidement](Part_Thickness/fr.md)
@@ -20,7 +20,7 @@ L\'outil **Épaisseur** s\'applique sur un corps solide et le transforme en un o
 ## Utilisation
 
 1.  Sélectionner un ou plusieurs face(s) sur le corps actif.
-2.  Appuyez sur le bouton **<img src="images/PartDesign_Thickness.svg" width=24px> '''Epaisseur'''**.
+2.  Appuyez sur le bouton **<img src="images/PartDesign_Thickness.svg" width=24px> '''Épaisseur'''**.
 3.  Définir les **Paramètres d\'épaisseur** (voir [Options](#Options.md)).
 4.  Pour ajouter d\'autres faces à ouvrir, appuyer sur le bouton **Ajouter une face** et sélectionner une face dans la [vue 3D](3D_view/fr.md).
 5.  Pour supprimer une face précédemment sélectionnée, appuyez sur le bouton **Supprimer la face** et sélectionner une face dans la vue 3D, ou faites un clic droit sur l\'étiquette Face dans la liste et sélectionner *Supprimer*.

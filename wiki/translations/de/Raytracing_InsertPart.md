@@ -14,9 +14,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Einfügen einer Ansicht eines Teils in ein Raytracing Projekt.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

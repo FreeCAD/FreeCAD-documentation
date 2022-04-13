@@ -13,7 +13,7 @@
 
 
 
-L\'atelier FEM prend en charge déjà beaucoup de contraintes différentes et quelques solveurs. Malgré cela, les gens ont souvent besoin de contraintes non prises en charge par FreeCAD. Cette page est le point de départ d\'une série de tutoriels et autres ressources décrivant comment étendre l\'atelier FEM à l\'aide du cadre existant. Bien que cette série puisse également s'avérer utile pour les développeurs de logiciels, l'idée est de permettre aux utilisateurs de FEM interéssés par la programmation en Python d'ajouter ce qu\'ils ont besoin.  
+L\'atelier FEM prend en charge déjà un grand nombre de contraintes différentes et plusieurs solveurs. Malgré cela, les utilisateurs ont souvent besoin de contraintes qui ne sont pas encore supportées par FreeCAD. Cette page est le point de départ d\'une série de tutoriels et d\'autres ressources décrivant comment étendre l\'atelier FEM en utilisant le cadre existant. Bien que cette série puisse s\'avérer utile pour les développeurs de logiciels aussi, l\'idée est de permettre aux utilisateurs de FEM interéssés par la programmation en Python d'ajouter ce qu\'ils ont besoin.  
 
 Ajouter de nouvelles contraintes, équations ou solveurs est généralement un travail de routine. Le faire pour la première fois n\'est pas aussi facile qu\'il puisse paraître. Une compréhension des sujets suivants sera utile:
 

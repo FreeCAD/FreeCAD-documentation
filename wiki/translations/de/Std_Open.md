@@ -1,45 +1,38 @@
 ---
-- GuiCommand:/de   Name/de:Std Open
-   MenuLocation:[Datei](Std_File_Menu/de.md) → Öffnen...
+- GuiCommand:/de
+   Name:Std Open
+   Name/de:Std Öffnen
+   MenuLocation:Datei → Öffnen...
    Workbenches:Alle
    Shortcut:**Strg**+**O**
-   SeeAlso:[Speichern](Std_Save/de.md), [Importieren...](Std_Import/de.md)
+   SeeAlso:[Std Import](Std_Import/de.md), [Std Neu](Std_New/de.md)
 ---
 
 # Std Open/de
 
+## Beschreibung
 
-</div>
+Der Befehl **Std Öffnen** öffnet eine Datei. Wenn die Datei keine native FreeCAD-Datei (\*.FCStd) ist, wird die enthaltene Geometrie in ein neues Dokument importiert. Siehe [Std Import](Std_Import/de.md) für weitere Informationen.
 
+## Anwendung
 
-<div class="mw-translate-fuzzy">
+1.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_Open.svg" width=16px> [Öffnen...](Std_Open/de.md)** drücken.
+    -   Den Menüeintrag **Datei → <img src="images/Std_Open.svg" width=16px> Öffnen...** auswählen.
+    -   Das Tastaturkürzel **Ctrl**+**O**.
+2.  Optional kann das richtige Dateiformat im Dialogfeld ausgewählt werden.
+3.  Eine Datei auswählen.
+4.  Die Schaltfläche **Öffnen** drücken.
 
-Öffnet und lädt Projektdateien in den Arbeitsplatz und abhängig von den installierten Erweiterungsmodulen werden weitere Dateitypen unterstützt wie [\*.IGES](https://de.wikipedia.org/wiki/IES), [\*.STEP](https://de.wikipedia.org/wiki/Standard_for_the_exchange_of_product_model_data), [\*.BREP](https://de.wikipedia.org/wiki/Boundary_Representation), [\*.STL](https://de.wikipedia.org/wiki/STL-Schnittstelle), [\*.OBJ](https://de.wikipedia.org/wiki/Wavefront_OBJ), [\*.PLY](https://de.wikipedia.org/wiki/Polygon_File_Format), etc.
+## Optionen
 
+-    **Esc**oder Schaltfläche **Cancel** drücken, um den Befehl abzubrechen.
 
-</div>
-
-The **Std Open** command opens a file. If the file is not a native FreeCAD file (\*.FCStd) its geometry will be imported into a new document. See [Std Import](Std_Import.md) for more information.
-
-## Usage
-
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Open.svg" width=16px> [Std Open](Std_Open.md)** button.
-    -   Select the **File → <img src="images/Std_Open.svg" width=16px> Open...** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**O**.
-2.  Optionally select the correct file format in the dialog box.
-3.  Select a file.
-4.  Press the **Open** button.
-
-## Options
-
--   Press **Esc** or the **Cancel** button to abort the command.
-
-## Preferences
+## Einstellungen
 
 -   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
 
-## Scripting
+## Skripten
 
 
 **See also:**

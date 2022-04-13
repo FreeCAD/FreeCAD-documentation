@@ -10,13 +10,13 @@
 |Download=[https://www.freecadweb.org/wiki/images/d/d8/Macro_Select_Hovering.png ToolBar Icon]
 }}
 
-![Macro Select Hovering](images/Select_Hovering00.gif )
-
-![Macro Select Hovering](images/Macro_Select_Hovering_00.png )
-
 ## Description
 
 cette macro sélectionne un choix Face, Edge, Vertex se trouvant sous la souris.
+
+![Macro Select Hovering](images/Select_Hovering00.gif )
+
+![Macro Select Hovering](images/Macro_Select_Hovering_00.png )
 
 PS: Pour désélectionner une face (ou autre) cliquez sur le bouton **Pause grab** et utiliser la procédure standard : CTRL + Click
 

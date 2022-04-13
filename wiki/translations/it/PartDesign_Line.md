@@ -22,6 +22,9 @@ Crea una **linea di riferimento** che può essere utilizzata come riferimento pe
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Premere il pulsante **<img src="images/PartDesign_Line.svg" width=24px> '''Linea di riferimento'''**.
 2.  Definire i parametri della linea. Selezionare un primo riferimento nella vista 3D per filtrare le modalità di associazione disponibili.
 3.  A seconda del riferimento selezionato, nell\'elenco sono disponibili una o più modalità di associazione. La più probabile è selezionata automaticamente e mostrata in grassetto nella lista. Il testo *Associata con modalità* insieme al nome della modalità di associazione appare in verde nella parte superiore del pannello Parametri.
@@ -29,6 +32,9 @@ Crea una **linea di riferimento** che può essere utilizzata come riferimento pe
 5.  Selezionare una modalità di associazione nell\'elenco.
 6.  Definire i valori di offset dell\'associazione.
 7.  Premere **OK**.
+
+
+</div>
 
 ## Opzioni
 

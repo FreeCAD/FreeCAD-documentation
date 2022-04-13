@@ -10,6 +10,9 @@
 
 # PartDesign SubtractiveSphere/es
 
+
+</div>
+
 ## Descripción
 
 Inserta una Esfera sustractiva en el Body (cuerpo) activo. Su forma es sustraída del sólido existente.

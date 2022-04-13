@@ -8,6 +8,9 @@
 
 # PartDesign Revolution/ru
 
+
+</div>
+
 ## Description
 
 The **Revolution** tool creates a solid by revolving a selected sketch or 2D object about a given axis.

@@ -10,6 +10,9 @@
 
 # PartDesign Thickness/es
 
+
+</div>
+
 ## Descripción
 
 La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un objeto hueco con una pared de un grosor determinado, con al menos una cara abierta, dando a cada una de sus caras restantes un espesor uniforme. Con algunos sólidos permite un ahorro significativo de trabajo, evitando hacer extrusiones y vaciados innecesarios.
@@ -19,12 +22,18 @@ La herramienta **Espesor** trabaja sobre un cuerpo sólido y lo transforma en un
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Seleccionar una o más caras del Body (cuerpo) activo.
 2.  Presionar el botón **<img src="images/PartDesign_Thickness.svg" width=24px> '''Espesor'''**.
 3.  Definir los **Parámetros de espesor** (Ver [Opciones](#Options/es.md)).
 4.  Para añadir más caras a abrir, presionar el botón **Añadir cara** y seleccionarla(s) en [3D view](3D_view/es.md).
 5.  Para eliminar una cara seleccionada previamente, presionar el botón **Eliminar cara** y seleccionar una nueva cara en la vista 3D, o pulsar con el botón derecho en la etiqueta del nombre de la cara de la lista y seleccionar *Remove*.
 6.  Confirmar con **OK**.
+
+
+</div>
 
 ## Opciones
 
@@ -59,12 +68,18 @@ Como en las siguientes imágenes:
 
 ![](images/Braga-secondo_Pad.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Seguidamente:
 
 1.  Seleccionar una cara circular.
 2.  Pulsar el botón **<img src="images/PartDesign_Thickness.svg" width=24px> Espesor
 **
 3.  Añadir las otras caras circulares a la selección.
+
+
+</div>
 
 Resultado: ![](images/Brga-spessore.png )
 

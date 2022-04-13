@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Drilling
    Name/fr:Path Perçage
-   MenuLocation:Parcours → Perçage
+   MenuLocation:Path → Perçage
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -19,7 +19,7 @@ La commande Perçage génère une opération de perçage durant l\'opération.
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le Button **<img src="images/Path_Drilling.svg" width=16px> [Perçage](Path_Drilling/fr.md)**.
-    -   Sélectionnez l\'option **Parcours → <img src="images/Path_Drilling.svg" width=16px> Perçage** dans le menu.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Drilling.svg" width=16px> Perçage** dans le menu.
 2.  Dans la section **Opération** :
     -   Sélectionnez un **Contrôleur d'outil**.
     -   Sélectionnez un **Mode de refroidissement**.

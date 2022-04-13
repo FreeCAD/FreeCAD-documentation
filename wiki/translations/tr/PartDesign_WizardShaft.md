@@ -7,6 +7,8 @@
 
 # PartDesign WizardShaft/tr
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -17,11 +19,11 @@
 
 The wizard will start and show a default table, the corresponding shaft part and force/moment graphs.
 
-<img alt="" src=images/WizardShaft_Part.jpg  style="width:780px;"> 
+<img alt="" src=images/WizardShaft_Part.jpg  style="width:780px;">
 
 The top of the window is taken up by the table. It is organized into numbered columns which correspond to segments of the shaft. A shaft segment is characterized by having certain length and diameter. The main window shows two tabs. One is the shaft part itself (a revolution feature), shown in the image above. The second tab shows graphs of the shear forces and moments created by the loads defined in the table.
 
-<img alt="" src=images/shaftwizard1.jpg  style="width:1024px;"> 
+<img alt="" src=images/shaftwizard1.jpg  style="width:1024px;">
 
 ## Prerequisites
 

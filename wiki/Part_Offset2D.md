@@ -24,6 +24,8 @@ The wire/face must be planar. There can be multiple wires in one object, not nec
 3.  Set up the offset in the [Task Panel](Task_panel.md).
 4.  Press **OK**.
 
+-   Note: [App Link](App_Link.md) objects linked to the proper object types and [App Part](App_Part.md) containers with the proper visible objects inside may also be used as source objects for offsetting. <small>(v0.20)</small> 
+
 A 2D Offset parametric object is created. Original objects are switched to wireframe display mode.
 
 ## Properties

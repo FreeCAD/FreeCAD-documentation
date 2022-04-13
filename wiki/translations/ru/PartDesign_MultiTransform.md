@@ -8,6 +8,9 @@
 
 # PartDesign MultiTransform/ru
 
+
+</div>
+
 ## Описание
 
 \'Make a pattern from combinations of transformations\' - The **![](images/)_[MultiTransform](PartDesign_MultiTransform.md)** tool takes one (or a set of) part \'features\' as its input, and allows the user to apply multiple transformations to that feature (or set of features) progressively, in sequence - creating a combined or compound transformation.

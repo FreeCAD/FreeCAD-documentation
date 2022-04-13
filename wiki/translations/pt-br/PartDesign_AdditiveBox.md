@@ -4,7 +4,7 @@
    MenuLocation:Part Design → Create an additive primitive → Additive Box
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
-   SeeAlso:[PartDesign Primitive additive](PartDesign_CompPrimitiveAdditive.md)
+   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveBox](PartDesign_SubtractiveBox.md)
 ---
 
 # PartDesign AdditiveBox/pt-br

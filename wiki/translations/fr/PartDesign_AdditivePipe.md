@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign AdditivePipe
    Name/fr:PartDesign Balayage additif
-   MenuLocation:Conception de pièces → Créer une fonction additive → Balayage additif
+   MenuLocation:Part Design → Créer une fonction additive → Balayage additif
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md), [PartDesign Balayage soustractif](PartDesign_SubtractivePipe/fr.md)
@@ -12,7 +12,7 @@
 
 ## Description
 
-Insère un **Balayage additif** dans un Corps actif par balayage d\'une ou plusieurs esquisses (également appelées sections transversales) le long d\'un chemin ouvert ou fermé. Si le Corps contient déjà un solide, le balayage additif sera fusionné avec lui.
+**Balayage additif** crée un solide dans le corps actif en balayant une ou plusieurs esquisses (également appelées sections transversales) le long d\'un chemin ouvert ou fermé. Si le corps contient déjà des éléments, le tuyau additif sera fusionné avec eux.
 
 ![](images/PartDesign_AdditivePipe_example.svg ) 
 *À gauche les sections (A) et (B) seront balayées le long du chemin (C), le résultat est visible à droite.*
@@ -51,7 +51,7 @@ Pour utiliser plusieurs sections, commencez par la section comme décrit ci-dess
 -   Fixé
     -   Orientation définie par le premier profil et constante tout au long. Cela désactive l\'alignement sur le vecteur normal de trajectoire. Cela signifie que la forme de la section transversale ne tournera pas avec le chemin. Balayez le long d\'un cercle pour voir l\'effet.
 -   Frenet
-    -   Crée le minimum de torsion possible du profil. Pour plus d\'informations, voir [Frenet-Serret](https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet#Formules_de_Frenet)
+    -   Crée le minimum de torsion possible du profil. Pour plus d\'informations, voir les [formules de Frenet-Serret](https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet#Formules_de_Frenet)
 -   Auxiliaire
     -   Spécifie le chemin secondaire pour guider le balayage.
     -   Pour chaque point **P** le long du chemin de balayage, il y aura un point correspondant **Q** sur le chemin auxiliaire.

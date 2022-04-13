@@ -3,7 +3,7 @@
    Name:PartDesign Pad
    MenuLocation:Part Design → Create an additive feature → Pad
    Workbenches:[PartDesign](PartDesign_Workbench.md)
-   SeeAlso:[PartDesign Pocket](PartDesign_Pocket.md), [Part Extrude](Part_Extrude.md)
+   SeeAlso:[PartDesign Pocket](PartDesign_Pocket.md)
 ---
 
 # PartDesign Pad/tr

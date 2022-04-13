@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Shape
    Name/fr:Path Parcours à partir de formes
-   MenuLocation:Parcours → Commandes additionnelles → À partir de la forme
+   MenuLocation:Path → Commandes additionnelles → À partir de la forme
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -10,7 +10,7 @@
 
 ## Description
 
-Path Parcours à partir de formes ne correspond pas avec le développement actuel de Path. Pour cette raison, il est déplacé vers les fonctionnalités expérimentales.
+Path Parcours à partir de formes ne correspond pas au processus actuel de Path. Pour cette raison, il est déplacé vers les fonctionnalités expérimentales.
 
 Cet outil génère des parcours d\'outils à partir des bords d\'un objet Path.
 

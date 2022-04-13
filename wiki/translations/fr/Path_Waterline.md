@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Waterline
    Name/fr:Path Lignes de niveau
-   MenuLocation:Parcours → Waterline
+   MenuLocation:Path → Waterline
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Vcarve
    Name/fr:Path Gravure en V
-   MenuLocation:Parcours → Gravure en V
+   MenuLocation:Path → Gravure en V
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---
@@ -58,7 +58,7 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
 -   Passez à l\'**[<img src=images/Workbench_Path.svg style="width:16px"> [atelier Path](Path_Workbench/fr.md)** depuis le [menu déroulant des ateliers](Std_Workbench/fr.md)
 -   Ajoutez un travail, utilisez les objets nommés `Face<number>` (ou le ShapeString) comme base, ajoutez un contrôleur d\'outil v-bit, définissez les flux, les vitesses, etc.
 -   L\'opération ne prend en charge qu\'un seul objet (soit un seul objet Face, soit un ShapeString), donc pour chaque objet:
-    -   Sélectionnez **Parcours → <img src="images/Path_Vcarve.svg" width=24px> Gravure en V** dans le menu supérieur. Cela ouvre le panneau de configuration.
+    -   Sélectionnez **Path → <img src="images/Path_Vcarve.svg" width=24px> Gravure en V** dans le menu supérieur. Cela ouvre le panneau de configuration.
     -   Ouvrez l\'onglet **Base Geometry** et ajoutez toutes les faces du ShapeString, ou la face d\'un seul objet Face obtenu ci-dessus
     -   Appuyez sur **Appliquer** et inspectez le chemin généré; si nécessaire, ajustez les paramètres de fonctionnement (le seuil peut être réglé plus haut dans la plupart des situations)
     -   Appuyez sur **OK** pour terminer

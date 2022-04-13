@@ -28,7 +28,7 @@ Aby utworzyć wzorzec:
 4.  Zdefiniuj **Długość** *(odległość)* między ostatnim skopiowanym wystąpieniem a oryginalnym elementem.
 5.  Ustaw liczbę **Wystąpień**.
 6.  Jeśli masz kilka elementów we wzorcu, ich kolejność może być ważna, zobacz obrazek z funkcją [Szyk kołowy](PartDesign_PolarPattern/pl#Użycie.md). {{Version/pl|0.19}} Możesz zmienić kolejność, przeciągając element na liście, a wynik pojawi się natychmiast jako podgląd.
-7.  Naciśnij przycisk OK.
+7.  Naciśnij **OK**.
 
 Aby dodać lub usunąć elementy z istniejącego wzorca:
 
@@ -38,7 +38,7 @@ Aby dodać lub usunąć elementy z istniejącego wzorca:
     3.  Przejdź z powrotem do panelu zadań,
     4.  Wybierz element w oknie [widoku 3D](3D_view.md), zostanie on dodany do listy,
     5.  Powtórz czynność, aby dodać inne elementy.
-2.  Naciśnij przycisk **Usuń element**, aby usunąć element z listy, lub kliknij prawym przyciskiem myszy na elemencie z listy i wybierz *Usuń*.
+2.  Naciśnij przycisk **Usuń element**, aby usunąć element z listy, lub kliknij prawym przyciskiem myszy na elemencie z listy i wybierz **Usuń**.
 
 ## Opcje
 

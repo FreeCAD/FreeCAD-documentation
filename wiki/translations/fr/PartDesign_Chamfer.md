@@ -2,9 +2,9 @@
 - GuiCommand:/fr
    Name:PartDesign Chamfer
    Name/fr:PartDesign Chanfrein
-   MenuLocation:Conception de pièces → Appliquer une fonction d'habillage → Chanfrein
+   MenuLocation:Part Design → Appliquer une fonction d'habillage → Chanfrein
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
-   SeeAlso:[PartDesign Congé](PartDesign_Fillet/fr.md), [Part Chanfrein](Part_Chamfer/fr.md)
+   SeeAlso:[PartDesign Congé](PartDesign_Fillet/fr.md)
 ---
 
 # PartDesign Chamfer/fr
@@ -15,7 +15,7 @@ Cet outil crée des chanfreins sur les arêtes sélectionnées d\'un objet. Une 
 
 ## Utilisation
 
--   Sélectionnez une seule arête, plusieurs arêtes ou une face sur un objet, puis lancez l\'outil en cliquant sur le **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chanfrein'''** ou par le menu **Conception de pièces → Appliquer une fonction d'habillage → Chanfrein**. Si vous avez sélectionné une face ou un objet 3D ({{Version/fr|0.20}}), toutes ses arêtes sont prises en compte pour le chanfreinage.
+-   Sélectionnez une seule arête, plusieurs arêtes ou une face sur un objet, puis lancez l\'outil en cliquant sur le **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chanfrein'''** ou par le menu **Part Design → Appliquer une fonction d'habillage → Chanfrein**. Si vous avez sélectionné une face ou un objet 3D ({{Version/fr|0.20}}), toutes ses arêtes sont prises en compte pour le chanfreinage.
 -   Dans le [Panneau des tâches](Task_Panel/fr.md) qui apparaît, vous pouvez définir le chanfrein de 3 manières :
     -   
         **Cote égale**

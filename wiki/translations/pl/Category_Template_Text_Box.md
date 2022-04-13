@@ -7,7 +7,7 @@ These templates produce small pieces of text that are suitable for transclusion.
 
 |     |     |     |
 | --- | --- | --- |
-|
+| [Template:UnfinishedDocu/pl](wiki/Template_UnfinishedDocu/pl.md) |
 
 
 

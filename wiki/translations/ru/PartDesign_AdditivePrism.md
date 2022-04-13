@@ -10,6 +10,9 @@
 
 # PartDesign AdditivePrism/ru
 
+
+</div>
+
 ## Описание
 
 Inserts a primitive prism in the active Body as the first feature, or fuses it to the existing feature(s).

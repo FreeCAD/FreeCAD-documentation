@@ -13,9 +13,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Fügt ein neues LuxRender Projekt in das Dokument ein.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

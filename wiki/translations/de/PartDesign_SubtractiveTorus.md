@@ -8,6 +8,9 @@
    Shortcut:None
    SeeAlso:[Erzeuge einen abzuziehenden Grundkörper](PartDesign_CompPrimitiveSubtractive/de.md)---
 
+
+</div>
+
 ## Beschreibung
 
 Fügt einen abzuziehenden Torus in den aktiven Körper (Body) ein. Die Form wird von dem existierenden Volumenkörper abgezogen.

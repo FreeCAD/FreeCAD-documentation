@@ -9,6 +9,9 @@
 
 # PartDesign Chamfer/ru
 
+
+</div>
+
 ## Описание
 
 This tool creates chamfers on the selected edges of an object. A new separate Chamfer entry (followed by a consecutive number if there are already existing chamfers in the document) is created in the Project tree.

@@ -10,6 +10,9 @@
 
 # PartDesign SubtractiveBox/es
 
+
+</div>
+
 ## Descripción
 
 Inserta una Caja sustractiva en el Body (cuerpo) activo. Su forma es sustraída del sólido existente.

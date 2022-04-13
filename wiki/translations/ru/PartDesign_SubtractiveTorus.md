@@ -10,6 +10,9 @@
 
 # PartDesign SubtractiveTorus/ru
 
+
+</div>
+
 ## Описание
 
 Inserts a subtractive torus in the active Body. Its shape is subtracted from the existing solid.

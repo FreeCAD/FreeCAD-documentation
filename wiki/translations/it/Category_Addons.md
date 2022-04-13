@@ -22,8 +22,10 @@ Questa pagina elenca i componenti aggiuntivi esterni che hanno una pagina in que
 | [Plot Grid/it](wiki/Plot Grid/it.md) | [Plot Labels/it](wiki/Plot Labels/it.md) | [Plot Legend/it](wiki/Plot Legend/it.md) |
 | [Plot MultiAxes tutorial/it](wiki/Plot MultiAxes tutorial/it.md) | [Plot Positions/it](wiki/Plot Positions/it.md) | [Plot Save/it](wiki/Plot Save/it.md) |
 | [Plot Series/it](wiki/Plot Series/it.md) | [Plot Workbench/it](wiki/Plot Workbench/it.md) | [Pyramids and polyhedrons Workbench/it](wiki/Pyramids and polyhedrons Workbench/it.md) |
-| [Pyrate Workbench/it](wiki/Pyrate Workbench/it.md) | [Reinforcement Workbench/it](wiki/Reinforcement Workbench/it.md) | [SheetMetal AddJunction/it](wiki/SheetMetal AddJunction/it.md) |
-| [SheetMetal AddRelief/it](wiki/SheetMetal AddRelief/it.md) | [SheetMetal AddWall/it](wiki/SheetMetal AddWall/it.md) | [SheetMetal Extrude/it](wiki/SheetMetal Extrude/it.md) |
+| [Pyrate Workbench/it](wiki/Pyrate Workbench/it.md) | [Reinforcement Workbench/it](wiki/Reinforcement Workbench/it.md) | [SheetMetal AddBase/it](wiki/SheetMetal AddBase/it.md) |
+| [SheetMetal AddBend/it](wiki/SheetMetal AddBend/it.md) | [SheetMetal AddCornerRelief/it](wiki/SheetMetal AddCornerRelief/it.md) | [SheetMetal AddFoldWall/it](wiki/SheetMetal AddFoldWall/it.md) |
+| [SheetMetal AddJunction/it](wiki/SheetMetal AddJunction/it.md) | [SheetMetal AddRelief/it](wiki/SheetMetal AddRelief/it.md) | [SheetMetal AddWall/it](wiki/SheetMetal AddWall/it.md) |
+| [SheetMetal Extrude/it](wiki/SheetMetal Extrude/it.md) | [SheetMetal Forming/it](wiki/SheetMetal Forming/it.md) | [SheetMetal SketchOnSheet/it](wiki/SheetMetal SketchOnSheet/it.md) |
 | [SheetMetal Unfold/it](wiki/SheetMetal Unfold/it.md) | [SheetMetal Workbench/it](wiki/SheetMetal Workbench/it.md) | [Ship Workbench/it](wiki/Ship Workbench/it.md) |
 | [Silk Workbench/it](wiki/Silk Workbench/it.md) | [Symbols Library Workbench/it](wiki/Symbols Library Workbench/it.md) | [ThreadProfile Workbench/it](wiki/ThreadProfile Workbench/it.md) |
 | [Timber Workbench/it](wiki/Timber Workbench/it.md) | [WebTools Workbench/it](wiki/WebTools Workbench/it.md) | [Workfeature Workbench/it](wiki/Workfeature Workbench/it.md) |

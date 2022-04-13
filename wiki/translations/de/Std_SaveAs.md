@@ -1,57 +1,44 @@
-# Std SaveAs/de
 ---
-- GuiCommand:/de   Name:Std SaveAs   Name/de:Std Speichern als   MenuLocation:[Workbenches:Alle   Shortcut:**Shift**+**Strg**+**S**   SeeAlso:[[Std_Save/de|Speichern](Std_File_Menu/de___Datei]]_→_Speichern_als....md)---
+- GuiCommand:/de
+   Name:Std SaveAs
+   Name/de:Std SpeichernUnter
+   MenuLocation:Datei → Speichern unter...
+   Workbenches:Alle
+   SeeAlso:[Std KopieSpeichern](Std_SaveCopy/de.md), [Std Speichern](Std_Save/de.md)
+---
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+# Std SaveAs/de
 
 ## Beschreibung
 
-Speichert das aktive Dokument unter einem neuen Namen.
-
-
-</div>
-
-The **Std SaveAs** command saves the active document under a new file name.
-
-
-<div class="mw-translate-fuzzy">
+Der Befehl **Std SpeichernUnter** speichert das aktive Dokument unter einem neuen Dateinamen.
 
 ## Anwendung
 
-Wähle **Datei** → **<img src="images/Std_SaveAs.png" width=32px> Speichern unter...
-**
+1.  Menüeintrag **Datei → <img src="images/Std_SaveAs.svg" width=16px> Speichern unter...** auswählen.
+2.  Einen Dateinamen im Dialogfeld eingeben.
+3.  Schaltfläche **Speichern** drücken.
+
+## Optionen
+
+-    **Esc**oder Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
+
+## Hinweise
+
+-   Dieser Befehl kann auch zum Speichern von Abhängigkeitsgraphen verwendet werden. Siehe [Std Abhängigkeitsgraph](Std_DependencyGraph/de.md).
+
+## Einstellungen
+
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
+
+## Skripten
 
 
-</div>
+**Siehe auch:**
 
-1.  Select the **File → <img src="images/Std_SaveAs.svg" width=16px> Save As...** option from the menu.
-2.  Enter a filename in the dialog box.
-3.  Press the **Save** button.
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-## Options
-
--   Press **Esc** or the **Cancel** button to abort the command.
-
-## Notes
-
--   This command can also be used to save dependency graphs. See [Std DependencyGraph](Std_DependencyGraph.md).
-
-## Preferences
-
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
-
-## Scripting
-
-
-**See also:**
-
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-To save a document under a new name use the `saveAs` method of the document object. For a scripting example see [Std New](Std_New.md).
+Um ein Dokument unter einem neuen Namen zu speichern, verwendet man die Methode `saveAs` des Document-Objekts. Für ein Beispielskript siehe [Std Neu](Std_New/de.md).
 
 
 

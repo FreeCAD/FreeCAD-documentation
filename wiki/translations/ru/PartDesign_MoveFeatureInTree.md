@@ -11,13 +11,16 @@
 
 # PartDesign MoveFeatureInTree/ru
 
+
+</div>
+
 ## Описание
 
 <img alt="" src=images/PartDesign_MoveFeatureInTree.svg  style="width:24px;"> [Переместить объект за другой объект](PartDesign_MoveFeatureInTree/ru.md), при выделении этой команды в контекстном меню, позволяет переупорядочивать объекты в Body. Поддерживаются эскизы, базовая геометрия и элементы.
 
 ## Применение
 
-1.  In the Model tree, select the object(s) to be moved then right-click to open the contextual menu.
+1.  In the Model tree, select the object(s) to be moved then right-click to open the context menu.
 2.  Select **Move object after other object**.
 3.  In the **Select feature** dialog, select the object under which to move the object(s).
 4.  Press **OK**.

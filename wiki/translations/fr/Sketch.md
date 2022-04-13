@@ -15,13 +15,13 @@ Il existe deux manières courantes de créer une esquisse: directement dans l\'[
 ### Atelier Sketcher 
 
 1.  Passez dans l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;">[atelier Sketcher](Sketcher_Workbench/fr.md).
-2.  Cliquez sur le bouton **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Nouvelle esquisse](Sketcher_NewSketch/fr.md)**.
+2.  Cliquez sur le bouton **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Créer une esquisse](Sketcher_NewSketch/fr.md)**.
 
 ### Atelier PartDesign 
 
 1.  Passez dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [Atelier PartDesign](PartDesign_Workbench.md).
 2.  Cliquez sur le bouton **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**.
-3.  Cliquez sur le bouton **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)**.
+3.  Cliquez sur le bouton **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Créer une esquisse](PartDesign_NewSketch/fr.md)**.
 
 Une fois l\'édition de l\'esquisse terminée, fermez-la pour quitter le mode d\'édition. Double-cliquez dessus pour entrer à nouveau en mode édition.
 

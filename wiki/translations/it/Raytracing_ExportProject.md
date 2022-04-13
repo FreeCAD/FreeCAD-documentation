@@ -5,9 +5,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Esporta il progetto raytracing selezionato in un file.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

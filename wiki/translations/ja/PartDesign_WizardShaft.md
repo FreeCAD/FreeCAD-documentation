@@ -10,6 +10,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -42,9 +44,17 @@ FreeCADのPythonコンソールに
 
 ウィンドウの上部にはテーブルが表示されます。テーブルはシャフトの区分と対応する数値の振られた列で構成されます。シャフトの区分は長さと直径によって特徴づけられています。メインウィンドウには二つのタブが表示されます。一つにはシャフト部品そのもの（回転形状）が上記の画像のように表示されます。もう一つのタブにはテーブルで定義された負荷に対するせん断応力とモーメントのグラフが表示されます。
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/shaftwizard1.jpg  style="width:800px;"> 
 
 
+
+
+</div>
+
+## Prerequisites
 
 
 <div class="mw-translate-fuzzy">
@@ -86,13 +96,34 @@ For each shaft segment, the following parameters can be defined
 
 (Other rows and load types exist but no functionality has been implemented yet)
 
+## Menus
+
+
+<div class="mw-translate-fuzzy">
+
 ## メニュー
 
 新しいシャフトの区分を追加するにはテーブルの右側の何もない領域で右クリックして\"Add column\"を選択します。
 
+
+</div>
+
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## 制限事項
 
 -   同じ直径のシャフト区分を隣接して配置することはできません。
+
+
+</div>
+
+## Planned functionality 
+
+
+<div class="mw-translate-fuzzy">
 
 ## 計画中の機能
 
@@ -106,6 +137,9 @@ For each shaft segment, the following parameters can be defined
 
 
 
+
+
+</div>
 
 
 

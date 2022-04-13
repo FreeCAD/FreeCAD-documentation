@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign_MultiTransform
    Name/fr:PartDesign Transformation multiple
-   MenuLocation:Conception de pièces → Appliquer un modèle → Créer une transformation multiple
+   MenuLocation:Part Design → Appliquer un modèle → Transformation multiple
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 

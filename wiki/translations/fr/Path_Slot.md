@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Slot
    Name/fr:Path Rainure
-   MenuLocation:Parcours → Rainure
+   MenuLocation:Path → Rainure
    Workbenches:[Path](Path_Workbench/fr.md)
    Version:0.19
 ---
@@ -28,7 +28,7 @@ L\'objet Path Rainure est conçu pour faire partie d\'une <img alt="" src=images
 2.  Lancez la commande Rainure en utilisant plusieurs méthodes :
     -   En appuyant sur la touche **<img src="images/Path_Slot.svg" width=24px> [Rainure](Path_Slot/fr.md)** dans la barre d\'outils.
 
-\#\* En utilisant **P** → **<img src="images/Path_Slot.svg" width=24px> [Rainure](Path_Slot/fr.md)** dans le menu supérieur.
+\#\* En utilisant **Path** → **<img src="images/Path_Slot.svg" width=24px> [Rainure](Path_Slot/fr.md)** dans le menu supérieur.
 
 1.  Ajustez les propriétés souhaitées. Les descriptions des propriétés disponibles se trouvent ci-dessous.
 

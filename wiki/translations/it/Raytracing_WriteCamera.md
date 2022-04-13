@@ -13,9 +13,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Esporta le proprietà correnti della fotocamera in un file POV da usare in un progetto POV-Ray.
+
+
+</div>
 
 ## Uso
 

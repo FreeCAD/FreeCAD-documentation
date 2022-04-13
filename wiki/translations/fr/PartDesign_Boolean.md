@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign Boolean
    Name/fr:PartDesign Opérations booléennes
-   MenuLocation:Conception de pièces → Opération booléenne
+   MenuLocation:Part Design → Opération booléenne
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
 ---
@@ -11,7 +11,7 @@
 
 ## Description
 
-L**\'Opération booléenne** importe un ou plusieurs [PartDesign Corps](PartDesign_Body/fr.md) ou [PartDesign Clones](PartDesign_Clone/fr.md) (désignés comme \"outils Corps\") dans un PartDesign Corps actif et applique une opération booléenne (fusion, soustraction ou intersection).
+L**\'Opération booléenne** importe un ou plusieurs [PartDesign Corps](PartDesign_Body/fr.md) ou [PartDesign Clones](PartDesign_Clone/fr.md) (désignés comme \"corps d\'outils\") dans un PartDesign Corps actif et applique une opération booléenne (fusion, soustraction ou intersection).
 
 ![](images/PartDesign_Boolean_example.png )
 

@@ -1,40 +1,45 @@
-# Std Save/de
 ---
-- GuiCommand:/de   Name/de:Std Save   MenuLocation:[Workbenches:Alle   Shortcut:**Strg**+**S**   SeeAlso:[[Std_SaveAs/de|Speichern unter...](Std_File_Menu/de___Datei]]_→_Speichern.md)---
+- GuiCommand:/de
+   Name:Std Save
+   Name/de:Std Speichern
+   MenuLocation:Datei → Speichern
+   Workbenches:Alle
+   Shortcut:**Ctrl**+**S**
+   SeeAlso:[Std SpeichernUnter](Std_SaveAs/de.md), [Std KopieSpeichern](Std_SaveCopy/de.md), [Std AllesSpeichern](Std_SaveAll/de.md)
+---
 
+# Std Save/de
 
-</div>
+## Beschreibung
 
-## Description
+Der Befehl **Std Speichern** speichert das aktive Dokument.
 
-The **Std Save** command saves the active document.
+## Anwendung
 
-## Usage
+1.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_Save.svg" width=16px> [Speichern](Std_Save/de.md)** drücken.
+    -   Den Menüeintrag **Datei → <img src="images/Std_Save.svg" width=16px> Speichern** auswählen.
+    -   Das Tastaturkürzel **Ctrl**+**S**.
+2.  Für neue Dokumente: Einen Dateinamen im Dialogfeld eintragen und die Schaltfläche **Speichern** drücken.
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Save.svg" width=16px> [Std Save](Std_Save.md)** button.
-    -   Select the **File → <img src="images/Std_Save.svg" width=16px> Save** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**S**.
-2.  For new documents: enter a filename in the dialog box and press the **Save** button.
+## Optionen
 
-## Options
+-   Für neue Dokumente: **Esc** oder Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
 
--   For new documents: press **Esc** or the **Cancel** button to abort the command.
-
-## Notes
+## Hinweise
 
 -   This command can also be used to save dependency graphs. See [Std DependencyGraph](Std_DependencyGraph.md).
 
-## Preferences
+## Einstellungen
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
-## Scripting
+## Skripten
 
 
-**See also:**
+**Siehe auch:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 To save a document use the `save` method of the document object. A new document must first be saved with the `saveAs` method of the document object. For a scripting example see [Std New](Std_New.md).
 

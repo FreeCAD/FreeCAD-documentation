@@ -5,9 +5,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Inserați o vizualizarea a unei Piese într-un proiect de randarea raytracing .
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

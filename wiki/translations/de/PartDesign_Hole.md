@@ -28,6 +28,9 @@ Die Funktion **Bohrung** erzeugt eine oder mehrere Bohrungen aus den Kreisen ein
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücke die **<img src="images/PartDesign_Hole.svg" width=16px> '''Bohrung'''
 **
 
@@ -36,6 +39,9 @@ Schaltfläche.
 1.  Wird eine vorhandene unbenutzte Skizze gefunden, wird diese automatisch verwendet. Wenn mehr als eine Skizze gefunden wird, erscheint ein Fenster \"Formelement auswählen\", um eine Auswahl zu treffen. Alternativ kann eine Skizze ausgewählt werden, bevor der Befehl Bohrung ausgeführt wird.
 2.  Definiere die Bohrungsparameter, die im Abschnitt [Optionen](#Options/de.md) beschrieben sind.
 3.  Drücke **OK**.
+
+
+</div>
 
 ## Optionen
 

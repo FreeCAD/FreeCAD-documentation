@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:TechDraw PageTemplate
    Name/fr:TechDraw Page à partir d'un modèle
-   MenuLocation:TechDraw → Insérer une nouvelle page à partir d'un modèle
+   MenuLocation:TechDraw → Insérer une page à partir d'un modèle
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Page par défaut](TechDraw_PageDefault/fr.md), [TechDraw Modèles](TechDraw_Templates/fr.md)
 ---
@@ -23,7 +23,7 @@ Le répertoire de départ de la boîte de dialogue peut être spécifié dans le
 
 ## Utilisation
 
--   Appuyez sur le bouton **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Insérer une nouvelle page à partir d'un modèle](TechDraw_PageTemplate/fr.md)**.
+-   Appuyez sur le bouton **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Insérer une page à partir d'un modèle](TechDraw_PageTemplate/fr.md)**.
 
 ## Propriétés
 
@@ -57,7 +57,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 
 [TechDraw Modèles](TechDraw_Templates/fr.md) pour plus d\'informations sur la création de modèles.
 
-Voir les informations dans [TechDraw Nouvelle page par défaut](TechDraw_PageDefault/fr.md) pour modifier manuellement les champs de texte modifiables dans le code de la feuille.
+Voir les informations dans [TechDraw Page par défaut](TechDraw_PageDefault/fr.md) pour modifier manuellement les champs de texte modifiables dans le code de la feuille.
 
 
 

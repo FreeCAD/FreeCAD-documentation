@@ -1,24 +1,22 @@
 ---
 - GuiCommand:/de
-   Name:Std DlgParameter   Name/de:Std DlgParameter
-   MenuLocation:[Werkzeuge](Std_Tools_Menu.md) → Parameter bearbeiten
-   Workbenches:Alle
-   Icon:Std DlgParameter.svg
+   Name:Std DlgParameter
+   Name/de:Std ParameterDialog
+   MenuLocation:Werkzeuge → Parameter bearbeiten...
+   Workbenches:All
+   SeeAlso:[Voreinstellungseditor](Preferences_Editor/de.md)
 ---
 
 # Std DlgParameter/de
 
-
-</div>
-
 ## Beschreibung
 
-Der Befehl **Std DlgParameter** öffnet den Parametereditor. Im Parametereditor können die Parameter eingesehen und bei Bedarf gelöscht, hinzugefügt und geändert werden, die das Verhalten von FreeCAD und seinen Arbeitsbereichen steuern. Die Parameter werden in einer Datei namens {{FileName|user.cfg}} gespeichert, deren Speicherort vom benutzten Betriebssystem abhängt.
+Der Befehl **Std ParameterDialog** öffnet den Parametereditor. Im Parametereditor können die Parameter eingesehen und bei Bedarf gelöscht, hinzugefügt und geändert werden, die das Verhalten von FreeCAD und seinen Arbeitsbereichen steuern. Die Parameter werden in einer Datei namens {{FileName|user.cfg}} gespeichert, deren Speicherort vom benutzten Betriebssystem abhängt.
 
 Mit dem Parametereditor zu arbeiten erfordert etwas Erfahrung. Für die üblichen Parameter kann man auch den benutzerfreundlicheren [Voreinstellungseditor](Preferences_Editor/de.md) verwenden.
 
 ![](images/Std_DlgParameter_dialog.png ) 
-*The Parameter Editor dialog box*
+*Das Dialogfenster des Parametereditors*
 
 ## Anwendung
 

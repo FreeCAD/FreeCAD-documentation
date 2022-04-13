@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part Defeaturing
    Name/fr:Part Supprimer la fonctionnalité
-   MenuLocation:Pièce → Supprimer la fonctionnalité
+   MenuLocation:Part → Supprimer la fonctionnalité
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.18
    SeeAlso:[Atelier Defeaturing](Defeaturing_Workbench/fr.md), [Macro Parametric Defeaturing](Macro_Parametric_Defeaturing/fr.md)
@@ -29,7 +29,7 @@ Pour être disponible, cet outil nécessite que FreeCAD soit basé sur Open Casc
 ## Utilisation
 
 1.  Sélectionnez la ou les faces de l\'objet à supprimer.
-2.  Appuyez sur le bouton **<img src="images/Part_Defeaturing.svg" width=16px> [Supprimer la fonction d'une forme](Part_Defeaturing/fr.md)**.
+2.  Appuyez sur le bouton **<img src="images/Part_Defeaturing.svg" width=16px> [Supprimer la fonctionnalité](Part_Defeaturing/fr.md)**.
 3.  Un nouvel objet est créé et intitulé \'Defeatured\' dans la [vue en arborescence](Tree_view/fr.md) du modèle et l\'objet original est caché de la vue.
 
 ## Liens

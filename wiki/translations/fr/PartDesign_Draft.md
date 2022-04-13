@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign_Draft
    Name/fr:PartDesign Dépouille
-   MenuLocation:Conception de pièces → Appliquer une fonction d'habillage → Dépouille
+   MenuLocation:Part Design → Appliquer une fonction d'habillage → Dépouille
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
 ---
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign Point
    Name/fr:PartDesign Point de référence
-   MenuLocation:Conception de pièces → Créez une référence → Créer un point de référence
+   MenuLocation:Part Design → Créez une référence → Créer un point de référence
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Droite de référence](PartDesign_Line/fr.md), [PartDesign Plan de référence](PartDesign_Plane/fr.md)
@@ -19,7 +19,7 @@ Crée un **point de référence** qui peut être utilisé comme référence pour
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/PartDesign_Point.svg" width=24px> '''Créer un nouveau point de référence'''** .
+1.  Appuyez sur le bouton **<img src="images/PartDesign_Point.svg" width=24px> '''Créer un point de référence'''** .
 2.  Définissez les paramètres du point. Sélectionnez une première référence dans la vue 3D pour filtrer les modes d\'ancrage disponibles.
 3.  Selon la référence sélectionnée, il peut y avoir un ou plusieurs modes d\'ancrage disponibles dans la liste. Le plus probable sera automatiquement sélectionné et affiché en gras dans la liste. Le texte *Mode d\'ancrage* ainsi que le nom du mode d\'ancrage apparaissent en vert en haut du panneau Paramètres.
 4.  Pour ajouter une référence supplémentaire, appuyez sur le bouton suivant **Référence**. Une fois le bouton appuyé, son étiquette devient *Sélection\...* jusqu\'à ce qu\'une sélection soit faite.
@@ -33,11 +33,11 @@ Double-cliquez sur l\'étiquette Point de référence dans l\'arborescence du mo
 
 ## Propriétés
 
--    {{PropertyData/fr|MapMode}}: répertorie le mode d\'ancrage utilisé.
+-    **MapMode**: répertorie le mode d\'ancrage utilisé.
 
--    {{PropertyData/fr|Attachment Offset}}: applique une transformation (translation et rotation) en référence au placement de l\'ancrage.
+-    **Attachment Offset**: applique une transformation (translation et rotation) en référence au placement de l\'ancrage.
 
--    {{PropertyData/fr|Label}}: nom donné à l\'objet, ce nom peut être changé à la convenance.
+-    **Label**: nom donné à l\'objet, ce nom peut être changé à la convenance.
 
 ## Limitations
 

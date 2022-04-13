@@ -10,6 +10,9 @@
 
 # PartDesign SubtractiveTorus/es
 
+
+</div>
+
 ## Descripción
 
 Inserta un Toro sustractivo en el Body (cuerpo) activo. Su forma es sustraída del sólido existente.

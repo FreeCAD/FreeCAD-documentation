@@ -1,7 +1,7 @@
 ---
 - TutorialInfo:/fr
-   Topic: Esquisse
-   Level: Débutant
+   Topic:Sketcher
+   Level:Débutant
    Time:60 minutes
    Author:[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] et vocx
    FCVersion:0.19
@@ -16,7 +16,7 @@
 
 ## Introduction
 
-Ce didacticiel vise à présenter au lecteur le flux de travail de base de l\'[Atelier Esquisse](Sketcher_Workbench/fr.md).
+Ce tutoriel vise à présenter au lecteur le flux de travail de base de l\'[Atelier Sketcher](Sketcher_Workbench/fr.md).
 
 L\'[atelier Sketcher](Sketcher_Workbench/fr.md) existe en tant qu \'atelier autonome, il peut donc être utilisé pour dessiner des objets 2D (planaires) génériques. Cependant, il est principalement utilisé en conjonction avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md). Une esquisse fermée est normalement utilisée pour créer une surface ou un profil à extruder dans un solide [PartDesign Corps](PartDesign_Body/fr.md) avec une opération telle que **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
 
@@ -47,7 +47,7 @@ Quelques actions à retenir:
 
 ## Création d\'une esquisse 
 
-2\. Cliquez sur **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [Créer une nouvelle esquisse](Sketcher_NewSketch/fr.md)**.
+2\. Cliquez sur **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [Créer une esquisse](Sketcher_NewSketch/fr.md)**.
 
 :   2.1. Choisissez l\'orientation de l\'esquisse, c\'est-à-dire l\'un des plans de base XY, XZ ou YZ. Choisissez également si vous souhaitez une orientation inversée et un décalage par rapport au plan de base.
 :   2.2. Nous utiliserons le plan et les options par défaut.
@@ -160,7 +160,7 @@ Il existe deux principaux types de contraintes:
 7\. Contraignez géométriquement les lignes et les arcs.
 
 :   7.1. Sélectionnez les cinq lignes de construction. Vous n\'avez qu\'à cliquer une fois pour sélectionner un élément.
-:   7.2. Appuyez sur **[<img src=images/Constraint_EqualLength.svg style="width:16px"> [Sketcher Créeer une contrainte d'égalité...](Sketcher_ConstrainEqual/fr.md)**.
+:   7.2. Appuyez sur **[<img src=images/Constraint_EqualLength.svg style="width:16px"> [Sketcher Créer une contrainte d'égalité...](Sketcher_ConstrainEqual/fr.md)**.
 :   
     **Remarque:**cela ne crée que quatre contraintes. Les contraintes sont enchaînées, la première ligne a la même longueur que la seconde, qui a la même longueur que la troisième, qui a encore la même longueur que la quatrième, qui a la même longueur que la cinquième. Donc dans ce cas, la première et la cinquième longueur ont la même longueur.
 
@@ -169,7 +169,7 @@ Il existe deux principaux types de contraintes:
 
 
 :   7.3. Sélectionnez les cinq O-arcs, ceux centrés sur l\'extrémité d\'une ligne de construction.
-:   7.4. Appuyez sur **[<img src=images/Constraint_EqualLength.svg style="width:16px"> [Sketcher Créeer une contrainte d'égalité...](Sketcher_ConstrainEqual/fr.md)**.
+:   7.4. Appuyez sur **[<img src=images/Constraint_EqualLength.svg style="width:16px"> [Sketcher Créer une contrainte d'égalité...](Sketcher_ConstrainEqual/fr.md)**.
 :   7.5. Répétez avec tous les I-arcs, ceux entre les O-arcs.
 :   
     **Remarque:**encore une fois les contraintes sont enchaînées. Par conséquent, tous les arcs en O auront le même rayon et tous les arcs en I auront le même rayon. A ce moment, la valeur spécifique de ces longueurs n\'est pas fixe. Vous pouvez utiliser le pointeur pour faire glisser un point et voir comment l\'esquisse est mise à jour tout en respectant les contraintes en place.

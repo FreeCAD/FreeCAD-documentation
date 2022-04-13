@@ -12,6 +12,8 @@
 
 The **Cross-sections** utility creates one or more cross-sections through the selected shape.
 
+[App Link](App_Link.md) objects linked to the proper object types and [App Part](App_Part.md) containers with the proper visible objects inside may also be used as source objects for the cross-ssections. <small>(v0.20)</small> 
+
 ## Usage
 
 1.  Select a shape.

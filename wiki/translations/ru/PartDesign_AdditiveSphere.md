@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveSphere/ru
 
+
+</div>
+
 ## Описание
 
 Inserts a primitive sphere in the active Body as the first feature, or fuses it to the existing feature(s).

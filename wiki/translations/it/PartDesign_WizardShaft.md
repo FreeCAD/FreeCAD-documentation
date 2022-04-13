@@ -8,21 +8,54 @@
 
 # PartDesign WizardShaft/it
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questo strumento permette di creare un albero da una tabella di valori, e di analizzare forze e momenti. Si può avviare la procedura guidata dal menu Part Design **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Procedura guidata per alberi...**.
 
+
+</div>
+
 L\'assistente si avvierà e mostrerà una tabella predefinita, la parte d\'albero corrispondente e i grafici forza/momento.
+
+
+<div class="mw-translate-fuzzy">
 
 <img alt="" src=images/WizardShaft_Part.jpg  style="width:780px;"> 
 
+
+</div>
+
 La parte superiore della finestra è occupata dalla tabella. È organizzata in colonne numerate che corrispondono ai segmenti dell\'albero. Un segmento d\'albero è caratterizzato da una certa lunghezza e diametro. La finestra principale mostra due schede. Una è la parte dell\'albero stesso (una caratteristica di rivoluzione), mostrata nell\'immagine sopra. La seconda scheda mostra i grafici delle forze di taglio e dei momenti creati dai carichi definiti nella tabella.
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/shaftwizard1.jpg  style="width:1024px;"> 
+
+
+</div>
+
+## Prerequisites
+
+
+<div class="mw-translate-fuzzy">
 
 ## Prerequisiti
 
 L\'assistente di creazione dell\'albero dipende dalla [matplotlib](http://matplotlib.org/) libreria per creare e visualizzare i grafici della forza di taglio e del momento di flessione. Per i sistemi basati su Debian/Ubuntu, è disponibile tramite il pacchetto python-matplotlib.
+
+
+</div>
+
+## Parameters
+
+
+<div class="mw-translate-fuzzy">
 
 ## Parametri
 
@@ -39,13 +72,37 @@ Per ogni segmento dell\'albero, possono essere definiti i seguenti parametri:
 
 (La funzionalità per altre linee e tipi di carico non è stata ancora implementata)
 
+
+</div>
+
+## Menus
+
+
+<div class="mw-translate-fuzzy">
+
 ## Menu
 
 Per aggiungere un nuovo segmento all\'albero, fare clic con il tasto destro nello spazio vuoto a destra della tabella, quindi fare clic su **Aggiungi colonna**.
 
+
+</div>
+
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Limitazioni
 
 -   Non è possibile avere segmenti d\'albero adiacenti con lo stesso diametro.
+
+
+</div>
+
+## Planned functionality 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Funzionalità pianificate 
 
@@ -56,6 +113,9 @@ Per aggiungere un nuovo segmento all\'albero, fare clic con il tasto destro nell
 -   Definizione dei carichi come un oggetto documento (può usare la stessa funzionalità del modulo FEM)
 -   Database dei materiali
 -   Permettere carichi in direzione Z e in direzione Y (richiede la definizione dei carichi come un oggetto documento, altrimenti la tabella diventerà molto lunga)
+
+
+</div>
 
 
 

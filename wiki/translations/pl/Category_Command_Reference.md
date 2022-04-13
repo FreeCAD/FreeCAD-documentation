@@ -58,10 +58,14 @@ This category contains the help pages of each of FreeCAD command.
 | [BIM IfcElements/pl](wiki/BIM IfcElements/pl.md) | [BIM IfcProperties/pl](wiki/BIM IfcProperties/pl.md) | [BIM IfcQuantities/pl](wiki/BIM IfcQuantities/pl.md) |
 | [BIM Layers/pl](wiki/BIM Layers/pl.md) | [BIM Library/pl](wiki/BIM Library/pl.md) | [BIM Preflight/pl](wiki/BIM Preflight/pl.md) |
 | [BIM Project/pl](wiki/BIM Project/pl.md) | [BIM Setup/pl](wiki/BIM Setup/pl.md) | [BIM Views/pl](wiki/BIM Views/pl.md) |
-| [BIM Windows/pl](wiki/BIM Windows/pl.md) | [CurvedShapes CurvedArray/pl](wiki/CurvedShapes CurvedArray/pl.md) | [Curves GordonSurface/pl](wiki/Curves GordonSurface/pl.md) |
-| [Curves IsoCurve/pl](wiki/Curves IsoCurve/pl.md) | [Curves JoinCurve/pl](wiki/Curves JoinCurve/pl.md) | [Curves ParametricComb/pl](wiki/Curves ParametricComb/pl.md) |
-| [Curves ParametricSolid/pl](wiki/Curves ParametricSolid/pl.md) | [Curves Pipeshell/pl](wiki/Curves Pipeshell/pl.md) | [Curves PipeshellProfile/pl](wiki/Curves PipeshellProfile/pl.md) |
-| [Curves ProfileSupport/pl](wiki/Curves ProfileSupport/pl.md) | [Curves SketchOnSurface/pl](wiki/Curves SketchOnSurface/pl.md) | [Curves ZebraTool/pl](wiki/Curves ZebraTool/pl.md) |
+| [BIM Windows/pl](wiki/BIM Windows/pl.md) | [CurvedShapes CurvedArray/pl](wiki/CurvedShapes CurvedArray/pl.md) | [Curves CompressionSpring/pl](wiki/Curves CompressionSpring/pl.md) |
+| [Curves Discretize/pl](wiki/Curves Discretize/pl.md) | [Curves EditableSpline/pl](wiki/Curves EditableSpline/pl.md) | [Curves ExtendCurve/pl](wiki/Curves ExtendCurve/pl.md) |
+| [Curves GordonSurface/pl](wiki/Curves GordonSurface/pl.md) | [Curves Interpolate/pl](wiki/Curves Interpolate/pl.md) | [Curves IsoCurve/pl](wiki/Curves IsoCurve/pl.md) |
+| [Curves JoinCurve/pl](wiki/Curves JoinCurve/pl.md) | [Curves Line/pl](wiki/Curves Line/pl.md) | [Curves MultiLoft/pl](wiki/Curves MultiLoft/pl.md) |
+| [Curves ParametricComb/pl](wiki/Curves ParametricComb/pl.md) | [Curves ParametricSolid/pl](wiki/Curves ParametricSolid/pl.md) | [Curves PasteSVG/pl](wiki/Curves PasteSVG/pl.md) |
+| [Curves Pipeshell/pl](wiki/Curves Pipeshell/pl.md) | [Curves PipeshellProfile/pl](wiki/Curves PipeshellProfile/pl.md) | [Curves ProfileSupport/pl](wiki/Curves ProfileSupport/pl.md) |
+| [Curves ReflectLines/pl](wiki/Curves ReflectLines/pl.md) | [Curves SegmentSurface/pl](wiki/Curves SegmentSurface/pl.md) | [Curves SketchOnSurface/pl](wiki/Curves SketchOnSurface/pl.md) |
+| [Curves SplitCurve/pl](wiki/Curves SplitCurve/pl.md) | [Curves ToConsole/pl](wiki/Curves ToConsole/pl.md) | [Curves ZebraTool/pl](wiki/Curves ZebraTool/pl.md) |
 | [Draft AddConstruction/pl](wiki/Draft AddConstruction/pl.md) | [Draft AddNamedGroup/pl](wiki/Draft AddNamedGroup/pl.md) | [Draft AddToGroup/pl](wiki/Draft AddToGroup/pl.md) |
 | [Draft AnnotationStyleEditor/pl](wiki/Draft AnnotationStyleEditor/pl.md) | [Draft ApplyStyle/pl](wiki/Draft ApplyStyle/pl.md) | [Draft Arc 3Points/pl](wiki/Draft Arc 3Points/pl.md) |
 | [Draft Arc/pl](wiki/Draft Arc/pl.md) | [Draft Array/pl](wiki/Draft Array/pl.md) | [Draft AutoGroup/pl](wiki/Draft AutoGroup/pl.md) |
@@ -103,29 +107,30 @@ This category contains the help pages of each of FreeCAD command.
 | [FCGear LanternGear/pl](wiki/FCGear LanternGear/pl.md) | [FCGear TimingGear/pl](wiki/FCGear TimingGear/pl.md) | [FCGear WormGear/pl](wiki/FCGear WormGear/pl.md) |
 | [FEM Analysis/pl](wiki/FEM Analysis/pl.md) | [FEM ClippingPlaneAdd/pl](wiki/FEM ClippingPlaneAdd/pl.md) | [FEM ClippingPlaneRemoveAll/pl](wiki/FEM ClippingPlaneRemoveAll/pl.md) |
 | [FEM ConstantVacuumPermittivity/pl](wiki/FEM ConstantVacuumPermittivity/pl.md) | [FEM ConstraintBearing/pl](wiki/FEM ConstraintBearing/pl.md) | [FEM ConstraintBodyHeatSource/pl](wiki/FEM ConstraintBodyHeatSource/pl.md) |
-| [FEM ConstraintContact/pl](wiki/FEM ConstraintContact/pl.md) | [FEM ConstraintDisplacement/pl](wiki/FEM ConstraintDisplacement/pl.md) | [FEM ConstraintElectrostaticPotential/pl](wiki/FEM ConstraintElectrostaticPotential/pl.md) |
-| [FEM ConstraintFixed/pl](wiki/FEM ConstraintFixed/pl.md) | [FEM ConstraintFlowVelocity/pl](wiki/FEM ConstraintFlowVelocity/pl.md) | [FEM ConstraintFluidBoundary/pl](wiki/FEM ConstraintFluidBoundary/pl.md) |
-| [FEM ConstraintForce/pl](wiki/FEM ConstraintForce/pl.md) | [FEM ConstraintGear/pl](wiki/FEM ConstraintGear/pl.md) | [FEM ConstraintHeatflux/pl](wiki/FEM ConstraintHeatflux/pl.md) |
-| [FEM ConstraintInitialFlowVelocity/pl](wiki/FEM ConstraintInitialFlowVelocity/pl.md) | [FEM ConstraintInitialTemperature/pl](wiki/FEM ConstraintInitialTemperature/pl.md) | [FEM ConstraintPlaneRotation/pl](wiki/FEM ConstraintPlaneRotation/pl.md) |
-| [FEM ConstraintPressure/pl](wiki/FEM ConstraintPressure/pl.md) | [FEM ConstraintPulley/pl](wiki/FEM ConstraintPulley/pl.md) | [FEM ConstraintSectionPrint/pl](wiki/FEM ConstraintSectionPrint/pl.md) |
-| [FEM ConstraintSelfWeight/pl](wiki/FEM ConstraintSelfWeight/pl.md) | [FEM ConstraintSpring/pl](wiki/FEM ConstraintSpring/pl.md) | [FEM ConstraintTemperature/pl](wiki/FEM ConstraintTemperature/pl.md) |
-| [FEM ConstraintTie/pl](wiki/FEM ConstraintTie/pl.md) | [FEM ConstraintTransform/pl](wiki/FEM ConstraintTransform/pl.md) | [FEM CreateNodesSet/pl](wiki/FEM CreateNodesSet/pl.md) |
-| [FEM ElementFluid1D/pl](wiki/FEM ElementFluid1D/pl.md) | [FEM ElementGeometry1D/pl](wiki/FEM ElementGeometry1D/pl.md) | [FEM ElementGeometry2D/pl](wiki/FEM ElementGeometry2D/pl.md) |
-| [FEM ElementRotation1D/pl](wiki/FEM ElementRotation1D/pl.md) | [FEM EquationElasticity/pl](wiki/FEM EquationElasticity/pl.md) | [FEM EquationElectricforce/pl](wiki/FEM EquationElectricforce/pl.md) |
-| [FEM EquationElectrostatic/pl](wiki/FEM EquationElectrostatic/pl.md) | [FEM EquationFlow/pl](wiki/FEM EquationFlow/pl.md) | [FEM EquationFlux/pl](wiki/FEM EquationFlux/pl.md) |
-| [FEM EquationHeat/pl](wiki/FEM EquationHeat/pl.md) | [FEM FemMesh2Mesh/pl](wiki/FEM FemMesh2Mesh/pl.md) | [FEM MaterialFluid/pl](wiki/FEM MaterialFluid/pl.md) |
-| [FEM MaterialMechanicalNonlinear/pl](wiki/FEM MaterialMechanicalNonlinear/pl.md) | [FEM MaterialReinforced/pl](wiki/FEM MaterialReinforced/pl.md) | [FEM MaterialSolid/pl](wiki/FEM MaterialSolid/pl.md) |
-| [FEM MeshBoundaryLayer/pl](wiki/FEM MeshBoundaryLayer/pl.md) | [FEM MeshClear/pl](wiki/FEM MeshClear/pl.md) | [FEM MeshDisplayInfo/pl](wiki/FEM MeshDisplayInfo/pl.md) |
-| [FEM MeshGmshFromShape/pl](wiki/FEM MeshGmshFromShape/pl.md) | [FEM MeshGroup/pl](wiki/FEM MeshGroup/pl.md) | [FEM MeshNetgenFromShape/pl](wiki/FEM MeshNetgenFromShape/pl.md) |
-| [FEM MeshRegion/pl](wiki/FEM MeshRegion/pl.md) | [FEM PostApplyChanges/pl](wiki/FEM PostApplyChanges/pl.md) | [FEM PostCreateFunctions/pl](wiki/FEM PostCreateFunctions/pl.md) |
-| [FEM PostFilterClipRegion/pl](wiki/FEM PostFilterClipRegion/pl.md) | [FEM PostFilterClipScalar/pl](wiki/FEM PostFilterClipScalar/pl.md) | [FEM PostFilterCutFunction/pl](wiki/FEM PostFilterCutFunction/pl.md) |
-| [FEM PostFilterDataAlongLine/pl](wiki/FEM PostFilterDataAlongLine/pl.md) | [FEM PostFilterDataAtPoint/pl](wiki/FEM PostFilterDataAtPoint/pl.md) | [FEM PostFilterLinearizedStresses/pl](wiki/FEM PostFilterLinearizedStresses/pl.md) |
-| [FEM PostFilterWarp/pl](wiki/FEM PostFilterWarp/pl.md) | [FEM PostPipelineFromResult/pl](wiki/FEM PostPipelineFromResult/pl.md) | [FEM ResultShow/pl](wiki/FEM ResultShow/pl.md) |
-| [FEM ResultsPurge/pl](wiki/FEM ResultsPurge/pl.md) | [FEM SolverCalculiX/pl](wiki/FEM SolverCalculiX/pl.md) | [FEM SolverCalculixCxxtools/pl](wiki/FEM SolverCalculixCxxtools/pl.md) |
-| [FEM SolverControl/pl](wiki/FEM SolverControl/pl.md) | [FEM SolverElmer/pl](wiki/FEM SolverElmer/pl.md) | [FEM SolverMystran/pl](wiki/FEM SolverMystran/pl.md) |
-| [FEM SolverRun/pl](wiki/FEM SolverRun/pl.md) | [FEM SolverZ88/pl](wiki/FEM SolverZ88/pl.md) | [GuiCommand model/pl](wiki/GuiCommand model/pl.md) |
-| [Template:GuiCommand/pl](wiki/Template_GuiCommand/pl.md) | [Template:GuiCommandAddon/pl](wiki/Template_GuiCommandAddon/pl.md) | [Image CreateImagePlane/pl](wiki/Image CreateImagePlane/pl.md) |
-| [Image Open/pl](wiki/Image Open/pl.md) | [Image Scaling/pl](wiki/Image Scaling/pl.md) | [Material editor/pl](wiki/Material editor/pl.md) |
+| [FEM ConstraintCentrif/pl](wiki/FEM ConstraintCentrif/pl.md) | [FEM ConstraintContact/pl](wiki/FEM ConstraintContact/pl.md) | [FEM ConstraintDisplacement/pl](wiki/FEM ConstraintDisplacement/pl.md) |
+| [FEM ConstraintElectrostaticPotential/pl](wiki/FEM ConstraintElectrostaticPotential/pl.md) | [FEM ConstraintFixed/pl](wiki/FEM ConstraintFixed/pl.md) | [FEM ConstraintFlowVelocity/pl](wiki/FEM ConstraintFlowVelocity/pl.md) |
+| [FEM ConstraintFluidBoundary/pl](wiki/FEM ConstraintFluidBoundary/pl.md) | [FEM ConstraintForce/pl](wiki/FEM ConstraintForce/pl.md) | [FEM ConstraintGear/pl](wiki/FEM ConstraintGear/pl.md) |
+| [FEM ConstraintHeatflux/pl](wiki/FEM ConstraintHeatflux/pl.md) | [FEM ConstraintInitialFlowVelocity/pl](wiki/FEM ConstraintInitialFlowVelocity/pl.md) | [FEM ConstraintInitialTemperature/pl](wiki/FEM ConstraintInitialTemperature/pl.md) |
+| [FEM ConstraintPlaneRotation/pl](wiki/FEM ConstraintPlaneRotation/pl.md) | [FEM ConstraintPressure/pl](wiki/FEM ConstraintPressure/pl.md) | [FEM ConstraintPulley/pl](wiki/FEM ConstraintPulley/pl.md) |
+| [FEM ConstraintSectionPrint/pl](wiki/FEM ConstraintSectionPrint/pl.md) | [FEM ConstraintSelfWeight/pl](wiki/FEM ConstraintSelfWeight/pl.md) | [FEM ConstraintSpring/pl](wiki/FEM ConstraintSpring/pl.md) |
+| [FEM ConstraintTemperature/pl](wiki/FEM ConstraintTemperature/pl.md) | [FEM ConstraintTie/pl](wiki/FEM ConstraintTie/pl.md) | [FEM ConstraintTransform/pl](wiki/FEM ConstraintTransform/pl.md) |
+| [FEM CreateNodesSet/pl](wiki/FEM CreateNodesSet/pl.md) | [FEM ElementFluid1D/pl](wiki/FEM ElementFluid1D/pl.md) | [FEM ElementGeometry1D/pl](wiki/FEM ElementGeometry1D/pl.md) |
+| [FEM ElementGeometry2D/pl](wiki/FEM ElementGeometry2D/pl.md) | [FEM ElementRotation1D/pl](wiki/FEM ElementRotation1D/pl.md) | [FEM EquationElasticity/pl](wiki/FEM EquationElasticity/pl.md) |
+| [FEM EquationElectricforce/pl](wiki/FEM EquationElectricforce/pl.md) | [FEM EquationElectrostatic/pl](wiki/FEM EquationElectrostatic/pl.md) | [FEM EquationFlow/pl](wiki/FEM EquationFlow/pl.md) |
+| [FEM EquationFlux/pl](wiki/FEM EquationFlux/pl.md) | [FEM EquationHeat/pl](wiki/FEM EquationHeat/pl.md) | [FEM Examples/pl](wiki/FEM Examples/pl.md) |
+| [FEM FemMesh2Mesh/pl](wiki/FEM FemMesh2Mesh/pl.md) | [FEM MaterialFluid/pl](wiki/FEM MaterialFluid/pl.md) | [FEM MaterialMechanicalNonlinear/pl](wiki/FEM MaterialMechanicalNonlinear/pl.md) |
+| [FEM MaterialReinforced/pl](wiki/FEM MaterialReinforced/pl.md) | [FEM MaterialSolid/pl](wiki/FEM MaterialSolid/pl.md) | [FEM MeshBoundaryLayer/pl](wiki/FEM MeshBoundaryLayer/pl.md) |
+| [FEM MeshClear/pl](wiki/FEM MeshClear/pl.md) | [FEM MeshDisplayInfo/pl](wiki/FEM MeshDisplayInfo/pl.md) | [FEM MeshGmshFromShape/pl](wiki/FEM MeshGmshFromShape/pl.md) |
+| [FEM MeshGroup/pl](wiki/FEM MeshGroup/pl.md) | [FEM MeshNetgenFromShape/pl](wiki/FEM MeshNetgenFromShape/pl.md) | [FEM MeshRegion/pl](wiki/FEM MeshRegion/pl.md) |
+| [FEM PostApplyChanges/pl](wiki/FEM PostApplyChanges/pl.md) | [FEM PostCreateFunctions/pl](wiki/FEM PostCreateFunctions/pl.md) | [FEM PostFilterClipRegion/pl](wiki/FEM PostFilterClipRegion/pl.md) |
+| [FEM PostFilterClipScalar/pl](wiki/FEM PostFilterClipScalar/pl.md) | [FEM PostFilterCutFunction/pl](wiki/FEM PostFilterCutFunction/pl.md) | [FEM PostFilterDataAlongLine/pl](wiki/FEM PostFilterDataAlongLine/pl.md) |
+| [FEM PostFilterDataAtPoint/pl](wiki/FEM PostFilterDataAtPoint/pl.md) | [FEM PostFilterLinearizedStresses/pl](wiki/FEM PostFilterLinearizedStresses/pl.md) | [FEM PostFilterWarp/pl](wiki/FEM PostFilterWarp/pl.md) |
+| [FEM PostPipelineFromResult/pl](wiki/FEM PostPipelineFromResult/pl.md) | [FEM ResultShow/pl](wiki/FEM ResultShow/pl.md) | [FEM ResultsPurge/pl](wiki/FEM ResultsPurge/pl.md) |
+| [FEM SolverCalculiX/pl](wiki/FEM SolverCalculiX/pl.md) | [FEM SolverCalculixCxxtools/pl](wiki/FEM SolverCalculixCxxtools/pl.md) | [FEM SolverControl/pl](wiki/FEM SolverControl/pl.md) |
+| [FEM SolverElmer/pl](wiki/FEM SolverElmer/pl.md) | [FEM SolverMystran/pl](wiki/FEM SolverMystran/pl.md) | [FEM SolverRun/pl](wiki/FEM SolverRun/pl.md) |
+| [FEM SolverZ88/pl](wiki/FEM SolverZ88/pl.md) | [GuiCommand model/pl](wiki/GuiCommand model/pl.md) | [Template:GuiCommand/pl](wiki/Template_GuiCommand/pl.md) |
+| [Template:GuiCommandAddon/pl](wiki/Template_GuiCommandAddon/pl.md) | [Image CreateImagePlane/pl](wiki/Image CreateImagePlane/pl.md) | [Image Open/pl](wiki/Image Open/pl.md) |
+| [Image Scaling/pl](wiki/Image Scaling/pl.md) | [Lattice2 AttachablePlacement/pl](wiki/Lattice2 AttachablePlacement/pl.md) | [Material editor/pl](wiki/Material editor/pl.md) |
 | [Mesh AddFacet/pl](wiki/Mesh AddFacet/pl.md) | [Mesh BoundingBox/pl](wiki/Mesh BoundingBox/pl.md) | [Mesh BuildRegularSolid/pl](wiki/Mesh BuildRegularSolid/pl.md) |
 | [Mesh CrossSections/pl](wiki/Mesh CrossSections/pl.md) | [Mesh CurvatureInfo/pl](wiki/Mesh CurvatureInfo/pl.md) | [Mesh Decimating/pl](wiki/Mesh Decimating/pl.md) |
 | [Mesh Difference/pl](wiki/Mesh Difference/pl.md) | [Mesh EvaluateFacet/pl](wiki/Mesh EvaluateFacet/pl.md) | [Mesh EvaluateSolid/pl](wiki/Mesh EvaluateSolid/pl.md) |
@@ -140,8 +145,9 @@ This category contains the help pages of each of FreeCAD command.
 | [MeshPart CreateFlatFace/pl](wiki/MeshPart CreateFlatFace/pl.md) | [MeshPart CreateFlatMesh/pl](wiki/MeshPart CreateFlatMesh/pl.md) | [OpenSCAD AddOpenSCADElement/pl](wiki/OpenSCAD AddOpenSCADElement/pl.md) |
 | [OpenSCAD ColorCodeShape/pl](wiki/OpenSCAD ColorCodeShape/pl.md) | [OpenSCAD Edgestofaces/pl](wiki/OpenSCAD Edgestofaces/pl.md) | [OpenSCAD ExpandPlacements/pl](wiki/OpenSCAD ExpandPlacements/pl.md) |
 | [OpenSCAD ExplodeGroup/pl](wiki/OpenSCAD ExplodeGroup/pl.md) | [OpenSCAD Hull/pl](wiki/OpenSCAD Hull/pl.md) | [OpenSCAD IncreaseToleranceFeature/pl](wiki/OpenSCAD IncreaseToleranceFeature/pl.md) |
-| [OpenSCAD MeshBoolean/pl](wiki/OpenSCAD MeshBoolean/pl.md) | [OpenSCAD Minkowski/pl](wiki/OpenSCAD Minkowski/pl.md) | [OpenSCAD RefineShapeFeature/pl](wiki/OpenSCAD RefineShapeFeature/pl.md) |
-| [OpenSCAD RemoveSubtree/pl](wiki/OpenSCAD RemoveSubtree/pl.md) | [OpenSCAD ReplaceObject/pl](wiki/OpenSCAD ReplaceObject/pl.md) | [Part Boolean/pl](wiki/Part Boolean/pl.md) |
+| [OpenSCAD MeshBoolean/pl](wiki/OpenSCAD MeshBoolean/pl.md) | [OpenSCAD Minkowski/pl](wiki/OpenSCAD Minkowski/pl.md) | [OpenSCAD MirrorMeshFeature/pl](wiki/OpenSCAD MirrorMeshFeature/pl.md) |
+| [OpenSCAD RefineShapeFeature/pl](wiki/OpenSCAD RefineShapeFeature/pl.md) | [OpenSCAD RemoveSubtree/pl](wiki/OpenSCAD RemoveSubtree/pl.md) | [OpenSCAD ReplaceObject/pl](wiki/OpenSCAD ReplaceObject/pl.md) |
+| [OpenSCAD ResizeMeshFeature/pl](wiki/OpenSCAD ResizeMeshFeature/pl.md) | [OpenSCAD ScaleMeshFeature/pl](wiki/OpenSCAD ScaleMeshFeature/pl.md) | [Part Boolean/pl](wiki/Part Boolean/pl.md) |
 | [Part BooleanFragments/pl](wiki/Part BooleanFragments/pl.md) | [Part Box/pl](wiki/Part Box/pl.md) | [Part BoxSelection/pl](wiki/Part BoxSelection/pl.md) |
 | [Part Builder/pl](wiki/Part Builder/pl.md) | [Part Chamfer/pl](wiki/Part Chamfer/pl.md) | [Part CheckGeometry/pl](wiki/Part CheckGeometry/pl.md) |
 | [Part Circle/pl](wiki/Part Circle/pl.md) | [Part Common/pl](wiki/Part Common/pl.md) | [Part CompCompoundTools/pl](wiki/Part CompCompoundTools/pl.md) |
@@ -165,13 +171,7 @@ This category contains the help pages of each of FreeCAD command.
 | [Part Section/pl](wiki/Part Section/pl.md) | [Part SectionCut/pl](wiki/Part SectionCut/pl.md) | [Part ShapeFromMesh/pl](wiki/Part ShapeFromMesh/pl.md) |
 | [Part SimpleCopy/pl](wiki/Part SimpleCopy/pl.md) | [Part Slice/pl](wiki/Part Slice/pl.md) | [Part SliceApart/pl](wiki/Part SliceApart/pl.md) |
 | [Part Sphere/pl](wiki/Part Sphere/pl.md) | [Part Spiral/pl](wiki/Part Spiral/pl.md) | [Part Sweep/pl](wiki/Part Sweep/pl.md) |
-| [Part Thickness/pl](wiki/Part Thickness/pl.md) | [Part Torus/pl](wiki/Part Torus/pl.md) | [Part TransformedCopy/pl](wiki/Part TransformedCopy/pl.md) |
-| [Part Tube/pl](wiki/Part Tube/pl.md) | [Part Wedge/pl](wiki/Part Wedge/pl.md) | [Part XOR/pl](wiki/Part XOR/pl.md) |
-| [PartDesign AdditiveBox/pl](wiki/PartDesign AdditiveBox/pl.md) | [PartDesign AdditiveCone/pl](wiki/PartDesign AdditiveCone/pl.md) | [PartDesign AdditiveCylinder/pl](wiki/PartDesign AdditiveCylinder/pl.md) |
-| [PartDesign AdditiveEllipsoid/pl](wiki/PartDesign AdditiveEllipsoid/pl.md) | [PartDesign AdditiveHelix/pl](wiki/PartDesign AdditiveHelix/pl.md) | [PartDesign AdditiveLoft/pl](wiki/PartDesign AdditiveLoft/pl.md) |
-| [PartDesign AdditivePipe/pl](wiki/PartDesign AdditivePipe/pl.md) | [PartDesign AdditivePrism/pl](wiki/PartDesign AdditivePrism/pl.md) | [PartDesign AdditiveSphere/pl](wiki/PartDesign AdditiveSphere/pl.md) |
-| [PartDesign AdditiveTorus/pl](wiki/PartDesign AdditiveTorus/pl.md) | [PartDesign AdditiveWedge/pl](wiki/PartDesign AdditiveWedge/pl.md) | [PartDesign Body/pl](wiki/PartDesign Body/pl.md) |
-| [PartDesign Boolean/pl](wiki/PartDesign Boolean/pl.md) | [PartDesign Chamfer/pl](wiki/PartDesign Chamfer/pl.md) |
+| [Part Thickness/pl](wiki/Part Thickness/pl.md) | [Part Torus/pl](wiki/Part Torus/pl.md) |
 
 
 

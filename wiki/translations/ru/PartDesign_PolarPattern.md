@@ -48,7 +48,7 @@ You can change the order by dragging the feature in the list and you will see th
 
 1.  Press **Add feature** to add a feature to be patterned. The feature must be visible in the [3D view](3D_view.md):
 2.  Switch to the Model tree;
-3.  Select in the tree the feature to be added and press **Spacebar** to make it visible in the [3D view](3D_view.md);
+3.  Select in the tree the feature to be added and press **Space** to make it visible in the [3D view](3D_view.md);
 4.  Switch back to the Tasks panel;
 5.  Select the feature in the 3D view; it will be added to the list.
 6.  Repeat to add other features.
@@ -70,7 +70,7 @@ or
 
 1.  Press **Remove feature** to remove a feature from the list. The feature must be visible in the [3D view](3D_view.md):
 2.  Switch to the Model tree;
-3.  Select in the tree the feature to be removed and press **Spacebar** to make it visible in the [3D view](3D_view.md);
+3.  Select in the tree the feature to be removed and press **Space** to make it visible in the [3D view](3D_view.md);
 4.  Switch back to the Tasks panel;
 5.  Select the feature in the 3D view; it will have been removed from the list.
 6.  Repeat to remove other features.

@@ -5,14 +5,14 @@
    MenuLocation:Datei → Schließen
    Workbenches:Alle
    Shortcut:**Strg**+**F4**
-   SeeAlso:[Alles schließen](Std_CloseAllWindows/de.md)
+   SeeAlso:[Std AllesSchließen](Std_CloseAllWindows/de.md)
 ---
 
 # Std CloseActiveWindow/de
 
-Schließt das aktuelle Dokument
+## Beschreibung
 
-Der **Std Schließen**-Befehl schließt das aktive Fenster. Um ein Dokument zu schließen, müssen alle seine Fenster geschlossen werden.
+Der Befehl **Std Schließen** schließt das aktive Fenster. Um ein Dokument zu schließen, müssen alle seine Fenster geschlossen werden.
 
 ## Anwendung
 

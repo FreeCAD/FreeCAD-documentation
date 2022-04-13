@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:TechDraw PageDefault
    Name/fr:TechDraw Page par défaut
-   MenuLocation:TechDraw → Insérer une nouvelle page par défaut
+   MenuLocation:TechDraw → Insérer une page par défaut
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Page à partir d'un modèle](TechDraw_PageTemplate/fr.md), [TechDraw Modèles](TechDraw_Templates/fr.md)
 ---
@@ -11,14 +11,14 @@
 
 ## Description
 
-L\'outil Nouvelle Page par défaut crée un nouvel objet Page à l\'aide du fichier de modèle spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
+L\'outil Page par défaut crée un nouvel objet Page à l\'aide du fichier de modèle spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
 <img alt="" src=images/A4_LandscapeTD.svg  style="width:400px;"> 
-*Modèle par défaut fourni avec TechDraw : page A4 paysage avec champs de texte modifiables*
+*Modèle par défaut fourni avec TechDraw : page A4 paysage avec des champs de texte modifiables*
 
 ## Utilisation
 
--   Appuyez sur le bouton **<img src="images/TechDraw_PageDefault.svg" width=16px> [Insérer une nouvelle page par défaut](TechDraw_PageDefault/fr.md)**. (Un document actif doit exister.)
+-   Appuyez sur le bouton **<img src="images/TechDraw_PageDefault.svg" width=16px> [Insérer une page par défaut](TechDraw_PageDefault/fr.md)**. (Un document actif doit exister.)
 
 ## Remarques
 

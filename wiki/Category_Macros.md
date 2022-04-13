@@ -26,34 +26,35 @@ This category contains macros to extend your FreeCAD installation with new funct
 | [Macro Draft Circle 3 Points 3D](wiki/Macro Draft Circle 3 Points 3D.md) | [Macro Draw 2D Function](wiki/Macro Draw 2D Function.md) | [Macro Draw Parametric 2D Function](wiki/Macro Draw Parametric 2D Function.md) |
 | [Macro Dump Objects](wiki/Macro Dump Objects.md) | [Macro Duplicate Selection](wiki/Macro Duplicate Selection.md) | [Macro DXF to Face and Sketch](wiki/Macro DXF to Face and Sketch.md) |
 | [Macro Dxf To Shape](wiki/Macro Dxf To Shape.md) | [Macro Easy cutouts for Enclosure Design](wiki/Macro Easy cutouts for Enclosure Design.md) | [Macro EasyAlias](wiki/Macro EasyAlias.md) |
-| [Macro EdgesToArc](wiki/Macro EdgesToArc.md) | [Macro Ellipse-Center+2Points](wiki/Macro Ellipse-Center+2Points.md) | [Macro ExpandTreeItem](wiki/Macro ExpandTreeItem.md) |
-| [Macro export transient FEM results](wiki/Macro export transient FEM results.md) | [Macro Extract Wires from Mesh](wiki/Macro Extract Wires from Mesh.md) | [Macro FaceToSketch](wiki/Macro FaceToSketch.md) |
-| [Macro FC Convert Lines](wiki/Macro FC Convert Lines.md) | [Macro FC element selector](wiki/Macro FC element selector.md) | [Macro FCBmpImport](wiki/Macro FCBmpImport.md) |
-| [Macro FCCamera](wiki/Macro FCCamera.md) | [Macro FCCamGroover](wiki/Macro FCCamGroover.md) | [Macro FCCircularText](wiki/Macro FCCircularText.md) |
-| [Macro FCGear](wiki/Macro FCGear.md) | [Macro FCHoneycombMaker](wiki/Macro FCHoneycombMaker.md) | [Macro FCInfo](wiki/Macro FCInfo.md) |
-| [Macro FCInfo Alternate Linux](wiki/Macro FCInfo Alternate Linux.md) | [Macro FCInfo ToolBar](wiki/Macro FCInfo ToolBar.md) | [Macro FCInfoGlass](wiki/Macro FCInfoGlass.md) |
-| [Macro FCInfoToMouse](wiki/Macro FCInfoToMouse.md) | [Macro FCSpreadSheet Extract](wiki/Macro FCSpreadSheet Extract.md) | [Macro FCSpring Helix Variable](wiki/Macro FCSpring Helix Variable.md) |
-| [Macro FCSpring On Surface](wiki/Macro FCSpring On Surface.md) | [Macro FCTreeView](wiki/Macro FCTreeView.md) | [Macro FCWire To Volume](wiki/Macro FCWire To Volume.md) |
-| [Macro findConfigFiles](wiki/Macro findConfigFiles.md) | [Macro FlattenWire](wiki/Macro FlattenWire.md) | [Macro FlattenWire3Points](wiki/Macro FlattenWire3Points.md) |
-| [Macro Fonts Win10 PYMP](wiki/Macro Fonts Win10 PYMP.md) | [Macro ForceRecompute](wiki/Macro ForceRecompute.md) | [Macro FreeCAD to Kerkythea](wiki/Macro FreeCAD to Kerkythea.md) |
-| [Macro GenerateDrawing](wiki/Macro GenerateDrawing.md) | [Macro GenerateViews](wiki/Macro GenerateViews.md) | [Macro Geneva Wheel](wiki/Macro Geneva Wheel.md) |
-| [Macro Geneva Wheel GUI](wiki/Macro Geneva Wheel GUI.md) | [Macro Geodesic Dome](wiki/Macro Geodesic Dome.md) | [Macro Global Variable Watcher](wiki/Macro Global Variable Watcher.md) |
-| [Macro GMSH](wiki/Macro GMSH.md) | [Macro GuiResetToolbars](wiki/Macro GuiResetToolbars.md) | [Macro Guitar fretboard](wiki/Macro Guitar fretboard.md) |
-| [Macro Guitar Nut](wiki/Macro Guitar Nut.md) | [Macro Half turn stairs](wiki/Macro Half turn stairs.md) | [Macro Half-Hull Model](wiki/Macro Half-Hull Model.md) |
-| [Macro HealArcs](wiki/Macro HealArcs.md) | [Macro HiddenAlls](wiki/Macro HiddenAlls.md) | [Macro HighlightCommon](wiki/Macro HighlightCommon.md) |
-| [Macro HighlightDifference](wiki/Macro HighlightDifference.md) | [Macro HilbertCurve](wiki/Macro HilbertCurve.md) | [Macro hinge](wiki/Macro hinge.md) |
-| [Macro Honeycomb](wiki/Macro Honeycomb.md) | [Macro If Selected Stay If Not Then Delete](wiki/Macro If Selected Stay If Not Then Delete.md) | [Macro Image Scaling](wiki/Macro Image Scaling.md) |
-| [Macro ImperialScales](wiki/Macro ImperialScales.md) | [Macro ImportAirfoil](wiki/Macro ImportAirfoil.md) | [Macro Intersection](wiki/Macro Intersection.md) |
-| [Macro Joint](wiki/Macro Joint.md) | [Macro JointWire](wiki/Macro JointWire.md) | [Macro Kerkythea](wiki/Macro Kerkythea.md) |
-| [Macro Line Length](wiki/Macro Line Length.md) | [Macro Loft](wiki/Macro Loft.md) | [Macro MacroMenu](wiki/Macro MacroMenu.md) |
-| [Macro Make Arc 3 Points](wiki/Macro Make Arc 3 Points.md) | [Macro Make Circle 3 Points](wiki/Macro Make Circle 3 Points.md) | [Macro Make Cube](wiki/Macro Make Cube.md) |
-| [Macro Manage Navigational Style](wiki/Macro Manage Navigational Style.md) | [Macro Manage Navigational Style2](wiki/Macro Manage Navigational Style2.md) | [Macro MatrixTransform](wiki/Macro MatrixTransform.md) |
-| [Macro MeasureCircle](wiki/Macro MeasureCircle.md) | [Macro Megaminx](wiki/Macro Megaminx.md) | [Macro merge duplicate materials](wiki/Macro merge duplicate materials.md) |
-| [Macro MeshToPart](wiki/Macro MeshToPart.md) | [Macro MessageBox](wiki/Macro MessageBox.md) | [Macro Mouse Cross](wiki/Macro Mouse Cross.md) |
-| [Macro Mouse over cb](wiki/Macro Mouse over cb.md) | [Macro MoveToOrigin](wiki/Macro MoveToOrigin.md) | [Macro MultiCopy](wiki/Macro MultiCopy.md) |
-| [Macro Normal Vector](wiki/Macro Normal Vector.md) | [Macro ObjectInfo](wiki/Macro ObjectInfo.md) | [Macro Overlap](wiki/Macro Overlap.md) |
-| [Macro Parametric Curve FP](wiki/Macro Parametric Curve FP.md) | [Macro Parametric Defeaturing](wiki/Macro Parametric Defeaturing.md) | [Macro PartsLibrary](wiki/Macro PartsLibrary.md) |
-| [Macro PartToVRML](wiki/Macro PartToVRML.md) | [Macro PDWrapper](wiki/Macro PDWrapper.md) | [Macro Perpendicular To Wire](wiki/Macro Perpendicular To Wire.md) |
+| [Macro EdgesToArc](wiki/Macro EdgesToArc.md) | [Macro Editor Assistant](wiki/Macro Editor Assistant.md) | [Macro Ellipse-Center+2Points](wiki/Macro Ellipse-Center+2Points.md) |
+| [Macro ExpandTreeItem](wiki/Macro ExpandTreeItem.md) | [Macro export transient FEM results](wiki/Macro export transient FEM results.md) | [Macro Extract Wires from Mesh](wiki/Macro Extract Wires from Mesh.md) |
+| [Macro FaceToSketch](wiki/Macro FaceToSketch.md) | [Macro FC Convert Lines](wiki/Macro FC Convert Lines.md) | [Macro FC element selector](wiki/Macro FC element selector.md) |
+| [Macro FCBmpImport](wiki/Macro FCBmpImport.md) | [Macro FCCamera](wiki/Macro FCCamera.md) | [Macro FCCamGroover](wiki/Macro FCCamGroover.md) |
+| [Macro FCCircularText](wiki/Macro FCCircularText.md) | [Macro FCGear](wiki/Macro FCGear.md) | [Macro FCHoneycombMaker](wiki/Macro FCHoneycombMaker.md) |
+| [Macro FCInfo](wiki/Macro FCInfo.md) | [Macro FCInfo Alternate Linux](wiki/Macro FCInfo Alternate Linux.md) | [Macro FCInfo ToolBar](wiki/Macro FCInfo ToolBar.md) |
+| [Macro FCInfoGlass](wiki/Macro FCInfoGlass.md) | [Macro FCInfoToMouse](wiki/Macro FCInfoToMouse.md) | [Macro FCSpreadSheet Extract](wiki/Macro FCSpreadSheet Extract.md) |
+| [Macro FCSpring Helix Variable](wiki/Macro FCSpring Helix Variable.md) | [Macro FCSpring On Surface](wiki/Macro FCSpring On Surface.md) | [Macro FCTreeView](wiki/Macro FCTreeView.md) |
+| [Macro FCWire To Volume](wiki/Macro FCWire To Volume.md) | [Macro findConfigFiles](wiki/Macro findConfigFiles.md) | [Macro FlattenWire](wiki/Macro FlattenWire.md) |
+| [Macro FlattenWire3Points](wiki/Macro FlattenWire3Points.md) | [Macro Fonts Win10 PYMP](wiki/Macro Fonts Win10 PYMP.md) | [Macro ForceRecompute](wiki/Macro ForceRecompute.md) |
+| [Macro FreeCAD to Kerkythea](wiki/Macro FreeCAD to Kerkythea.md) | [Macro GenerateDrawing](wiki/Macro GenerateDrawing.md) | [Macro GenerateViews](wiki/Macro GenerateViews.md) |
+| [Macro Geneva Wheel](wiki/Macro Geneva Wheel.md) | [Macro Geneva Wheel GUI](wiki/Macro Geneva Wheel GUI.md) | [Macro Geodesic Dome](wiki/Macro Geodesic Dome.md) |
+| [Macro Global Variable Watcher](wiki/Macro Global Variable Watcher.md) | [Macro GMSH](wiki/Macro GMSH.md) | [Macro GuiResetToolbars](wiki/Macro GuiResetToolbars.md) |
+| [Macro Guitar fretboard](wiki/Macro Guitar fretboard.md) | [Macro Guitar Nut](wiki/Macro Guitar Nut.md) | [Macro Half turn stairs](wiki/Macro Half turn stairs.md) |
+| [Macro Half-Hull Model](wiki/Macro Half-Hull Model.md) | [Macro HealArcs](wiki/Macro HealArcs.md) | [Macro HiddenAlls](wiki/Macro HiddenAlls.md) |
+| [Macro HighlightCommon](wiki/Macro HighlightCommon.md) | [Macro HighlightDifference](wiki/Macro HighlightDifference.md) | [Macro HilbertCurve](wiki/Macro HilbertCurve.md) |
+| [Macro hinge](wiki/Macro hinge.md) | [Macro Honeycomb](wiki/Macro Honeycomb.md) | [Macro If Selected Stay If Not Then Delete](wiki/Macro If Selected Stay If Not Then Delete.md) |
+| [Macro Iges PyImporter](wiki/Macro Iges PyImporter.md) | [Macro Image Scaling](wiki/Macro Image Scaling.md) | [Macro ImperialScales](wiki/Macro ImperialScales.md) |
+| [Macro ImportAirfoil](wiki/Macro ImportAirfoil.md) | [Macro Intersection](wiki/Macro Intersection.md) | [Macro Joint](wiki/Macro Joint.md) |
+| [Macro JointWire](wiki/Macro JointWire.md) | [Macro Kerkythea](wiki/Macro Kerkythea.md) | [Macro Line Length](wiki/Macro Line Length.md) |
+| [Macro Loft](wiki/Macro Loft.md) | [Macro MacroMenu](wiki/Macro MacroMenu.md) | [Macro Make Arc 3 Points](wiki/Macro Make Arc 3 Points.md) |
+| [Macro Make Circle 3 Points](wiki/Macro Make Circle 3 Points.md) | [Macro Make Cube](wiki/Macro Make Cube.md) | [Macro Manage Navigational Style](wiki/Macro Manage Navigational Style.md) |
+| [Macro Manage Navigational Style2](wiki/Macro Manage Navigational Style2.md) | [Macro MatrixTransform](wiki/Macro MatrixTransform.md) | [Macro MeasureCircle](wiki/Macro MeasureCircle.md) |
+| [Macro Megaminx](wiki/Macro Megaminx.md) | [Macro merge duplicate materials](wiki/Macro merge duplicate materials.md) | [Macro MeshToPart](wiki/Macro MeshToPart.md) |
+| [Macro MessageBox](wiki/Macro MessageBox.md) | [Macro Mouse Cross](wiki/Macro Mouse Cross.md) | [Macro Mouse over cb](wiki/Macro Mouse over cb.md) |
+| [Macro MoveToOrigin](wiki/Macro MoveToOrigin.md) | [Macro MultiCopy](wiki/Macro MultiCopy.md) | [Macro Normal Vector](wiki/Macro Normal Vector.md) |
+| [Macro ObjectInfo](wiki/Macro ObjectInfo.md) | [Macro Overlap](wiki/Macro Overlap.md) | [Macro Parametric Curve FP](wiki/Macro Parametric Curve FP.md) |
+| [Macro Parametric Defeaturing](wiki/Macro Parametric Defeaturing.md) | [Macro PartsLibrary](wiki/Macro PartsLibrary.md) | [Macro PartToVRML](wiki/Macro PartToVRML.md) |
+| [Macro PDWrapper](wiki/Macro PDWrapper.md) | [Macro Perpendicular To Wire](wiki/Macro Perpendicular To Wire.md) | [Macro Pinger](wiki/Macro Pinger.md) |
 | [Macro PlacementAbsolufy](wiki/Macro PlacementAbsolufy.md) | [Macro Polyhedrons](wiki/Macro Polyhedrons.md) | [Macro Print SceneGraph](wiki/Macro Print SceneGraph.md) |
 | [Macro PropertyMemo](wiki/Macro PropertyMemo.md) | [Macro Pyramid](wiki/Macro Pyramid.md) | [Macro Python Assistant Window](wiki/Macro Python Assistant Window.md) |
 | [Macro Recompute Profiler](wiki/Macro Recompute Profiler.md) | [Macro Rectellipse](wiki/Macro Rectellipse.md) | [Macro Remove parametric history](wiki/Macro Remove parametric history.md) |

@@ -2,17 +2,17 @@
 - GuiCommand:/fr
    Name:PartDesign SubtractiveTorus
    Name/fr:PartDesign Tore soustractif
-   MenuLocation:Conception de pièces → Créer une  primitive soustractive → Tore soustractif
+   MenuLocation:Part Design → Créer une  primitive soustractive → Tore soustractif
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md)
+   SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Tore additif](PartDesign_AdditiveTorus/fr.md)
 ---
 
 # PartDesign SubtractiveTorus/fr
 
 ## Description
 
-Insère un Tore primitif soustractif dans le Corps actif. Sa forme est soustraite du solide existant.
+Insère un Tore primitif soustractif dans le corps actif. Sa forme est soustraite du solide existant.
 
 ![](images/PartDesign_SubtractiveTorus_example.svg ) *À gauche, le corps actif (A) en gris et le tore soustractif (B) en rouge transparent ; le résultat final est à droite.*
 
@@ -32,19 +32,19 @@ Le Tore peut être éditée après sa création de deux façons :
 
 ## Propriétés
 
--    {{PropertyData/fr|Attachment}}: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
+-    **Attachment**: définit les modes d\'ancrage ainsi que le décalage d\'ancrage. Voir [Part Ancrage](Part_EditAttachment/fr.md).
 
--    {{PropertyData/fr|Label}}: donne le nom du tore, changer si nécessaire.
+-    **Label**: donne le nom du tore, changer si nécessaire.
 
--    {{PropertyData/fr|Radius1}}: rayon imaginaire de l\'orbite autour de laquelle la section circulaire tourne. (La distance entre le centre du tore et le centre de la section transversale tournante)
+-    **Radius1**: rayon imaginaire de l\'orbite autour de laquelle la section circulaire tourne. (La distance entre le centre du tore et le centre de la section transversale tournante)
 
--    {{PropertyData/fr|Radius2}}: rayon de la section circulaire du tore.
+-    **Radius2**: rayon de la section circulaire du tore.
 
--    {{PropertyData/fr|Angle1}}: (Nommé *V parameter* dans les paramètres primitifs) troncature inférieure du tore, parallèle à la section circulaire (-180° dans un tore complet). Un bogue dans les sources entraîne des résultats inattendus lors du changement d\'Angle1.
+-    **Angle1**: (Nommé *Paramètre V* dans les paramètres de la primitive) troncature inférieure du tore, parallèle à la section circulaire (-180° dans un tore complet). Un bogue dans les sources entraîne des résultats inattendus lors du changement d\'Angle1.
 
--    {{PropertyData/fr|Angle2}}: (sans nom dans les paramètres de la primitive) troncature supérieure de l\'ellipsoïde, parallèle à la section circulaire (180° dans un tore complet). Un bogue dans les sources entraîne des résultats inattendus lors du changement d\'Angle2.
+-    **Angle2**: (sans nom dans les paramètres de la primitive) troncature supérieure de l\'ellipsoïde, parallèle à la section circulaire (180° dans un tore complet). Un bogue dans les sources entraîne des résultats inattendus lors du changement d\'Angle2.
 
--    {{PropertyData/fr|Angle3}}: (nommé *U parameter* dans les paramètres primitifs) angle de rotation de la section circulaire (360° dans un tore complet).
+-    **Angle3**: (nommé *Paramètre U* dans les paramètres de la primitive) angle de rotation de la section circulaire (360° dans un tore complet).
 
 
 

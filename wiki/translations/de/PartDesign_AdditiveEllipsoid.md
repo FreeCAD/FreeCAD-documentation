@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveEllipsoid/de
 
+
+</div>
+
 ## Beschreibung
 
 Fügt den Grundkörper Ellipsoid in den aktiven Körper (Body) als Basisformelement ein oder vereinigt ihn mit den bereits bestehenden Formelementen.

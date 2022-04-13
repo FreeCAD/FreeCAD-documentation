@@ -4,7 +4,7 @@
    Name/pl:Projekt Części: Wyciągnij
    MenuLocation:Projekt Części → Utwórz cechę przez dodanie → Wyciągnij
    Workbenches:[Środowisko pracy Projekt Części](PartDesign_Workbench/pl.md)
-   SeeAlso:[Kieszeń](PartDesign_Pocket/pl.md), [Część: Wyciągnij](Part_Extrude/pl.md)
+   SeeAlso:[Kieszeń](PartDesign_Pocket/pl.md)
 ---
 
 # PartDesign Pad/pl

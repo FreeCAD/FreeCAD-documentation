@@ -9,6 +9,9 @@
 
 # PartDesign SubtractiveBox/de
 
+
+</div>
+
 ## Beschreibung
 
 Fügt einen abzuziehenden Quader in den aktiven Körper (Body) ein. Die Form wird von dem existierenden Volumenkörper abgezogen.

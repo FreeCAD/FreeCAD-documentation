@@ -4,7 +4,7 @@
    MenuLocation:Part Design → Create a subtractive primitive → Subtractive Cylinder
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
-   SeeAlso:[Create a subtractive primitive](PartDesign_CompPrimitiveSubtractive.md), [Additive Cylinder](PartDesign_AdditiveCylinder.md)
+   SeeAlso:[PartDesign CompPrimitiveSubtractive](PartDesign_CompPrimitiveSubtractive.md), [PartDesign_AdditiveCylinder](PartDesign_AdditiveCylinder.md)
 ---
 
 # PartDesign SubtractiveCylinder/ru

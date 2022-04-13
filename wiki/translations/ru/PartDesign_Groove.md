@@ -8,6 +8,9 @@
 
 # PartDesign Groove/ru
 
+
+</div>
+
 ## Описание
 
 The **Groove** tool revolves a selected sketch or profile about a given axis, cutting out material from the support .

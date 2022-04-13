@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign SubtractiveWedge
    Name/fr:PartDesign Pyramide tronquée soustractive
-   MenuLocation:Conception de pièces → Créer une primitive soustractive → Pyramide tronquée soustractive
+   MenuLocation:Part Design → Créer une primitive soustractive → Pyramide tronquée soustractive
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Primitives soustractives](PartDesign_CompPrimitiveSubtractive/fr.md), [PartDesign Pyramide tronquée additive](PartDesign_AdditiveWedge/fr.md)
@@ -34,19 +34,19 @@ La pyramide tronquée peut être éditée après sa création de deux façons :
 
 En utilisant le placement par défaut, les entrées ci-dessous sont :
 
--    {{PropertyData/fr|X min/max}}: Dimension de la base selon l\'axe X
+-    **X min/max**: Dimension de la base selon l\'axe X
 
--    {{PropertyData/fr|Y min/max}}: Hauteur de la pyramide tronquée
+-    **Y min/max**: Hauteur de la pyramide tronquée
 
--    {{PropertyData/fr|Z min/max}}: Dimension de la base selon l\'axe Z
+-    **Z min/max**: Dimension de la base selon l\'axe Z
 
--    {{PropertyData/fr|X2 min/max}}: Dimension de la face du dessus selon l\'axe X
+-    **X2 min/max**: Dimension de la face du dessus selon l\'axe X
 
--    {{PropertyData/fr|Z2 min/max}}: Dimension de la face du dessus selon l\'axe Z
+-    **Z2 min/max**: Dimension de la face du dessus selon l\'axe Z
 
 ## Pyramides
 
-Les Pyramides tronquées peuvent être utilisées pour créer des pyramides en fixant {{PropertyData/fr|X2 min/max}} et {{PropertyData/fr|Z2 min/max}} en sorte que min = max.
+Les Pyramides tronquées peuvent être utilisées pour créer des pyramides en fixant **X2 min/max** et **Z2 min/max** en sorte que min = max.
 
 
 

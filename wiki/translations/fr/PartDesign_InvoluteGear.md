@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign InvoluteGear
    Name/fr:PartDesign Engrenage droit à développante
-   MenuLocation:Conception de pièces → Engrenage à développante...
+   MenuLocation:Part Design → Engrenage à développante...
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    SeeAlso:[Atelier FCGear](FCGear_Workbench/fr.md)
 ---
@@ -22,7 +22,7 @@ Pour des informations plus détaillées, voir également [Engrenage](https://fr.
 ### Créer le profil 
 
 1.  Activez le bon corps.
-2.  Allez dans le menu **Conception de pièces → [<img src=images/PartDesign_InternalExternalGear.svg style="width:16px"> Engrenage à développante...**.
+2.  Allez dans le menu **Part Design → [<img src=images/PartDesign_InternalExternalGear.svg style="width:16px"> Engrenage à développante...**.
 3.  Définissez les paramètres de l\'engrenage à développante.
 4.  Cliquez sur **OK**.
 5.  S\'il n\'y avait pas de corps actif : faites glisser et déposez l\'engrenage dans un corps pour appliquer d\'autres fonctions comme une protrusion.

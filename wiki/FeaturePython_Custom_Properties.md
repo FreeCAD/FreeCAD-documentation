@@ -1,30 +1,35 @@
 # FeaturePython Custom Properties
 ## Introduction
 
-Properties are the true building stones of FeaturePython objects. Through them, the user will be able to interact and modify your object. After creating a new FeaturePython object in your document ( obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), you can get a list of the available properties by issuing:
+Properties are the true building blocks of FeaturePython objects. Through them, the user will be able to interact and modify your object. After creating a new FeaturePython object in your document:
+
+ 
+```python
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "Box")
+```
+
+You can get a list of the available properties by issuing:
 
  
 ```python
 obj.supportedProperties()
 ```
 
-You will get a list of available properties.
-
 ##  Creating a FeaturePython object and adding a property to it 
 
-This code will create an object with internal name `InternalObjectName` (automatically renamed to `InternalObjectName001` and so on, if an object named `InternalObjectName` already exists) and give it the user-friendly label `User-friendly label`. This label will be displayed in the [Tree view](Tree_view.md) and [Combo view](Combo_view.md). [Expressions](Expressions.md) can refer to this object by its label using `<<User-friendly label>>`.
+This code will create an object with internal name `InternalObjectName` (automatically renamed to `InternalObjectName001` and so on, if an object named `InternalObjectName` already exists) and give it the user-friendly label `User-friendly label`. This label will be displayed in the [Tree view](Tree_view.md). [Expressions](Expressions.md) can refer to this object by its label using `<<User-friendly label>>`.
 
  
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 ```
 
-To add a property to this object, use the long form of 
+To add a property to this object, use the long form of `addProperty` as shown below. FreeCAD will automatically split `ThePropertyName` and display it with spaces (`The Property Name`) in the [Data tab of the Property editor](Property_editor#View_and_Data_properties.md).
 
-
+ 
 ```python
-obj.addProperty('App::PropertyBool', 'ThePropertyName', 'Subsection', "Description for tooltip")
+obj.addProperty("App::PropertyBool", "ThePropertyName", "Subsection", "Description for tooltip")
 ```
 
 
@@ -32,31 +37,30 @@ obj.addProperty('App::PropertyBool', 'ThePropertyName', 'Subsection', "Descripti
 
 is the type of the property. The different types are described in more detail below.
 
- You can also use the short form which omits the last two arguments. The subsection defaults to 
+You can also use the short form which omits the last two arguments. The subsection defaults to `Base`, and the tooltip is not displayed with this form.
 
-
+ 
 ```python
-obj.addProperty('App::PropertyBool', 'ThePropertyName')
+obj.addProperty("App::PropertyBool", "ThePropertyName")
 ```
 
- To get or set the property, use 
+To get or set the property, use `obj.ThePropertyName`:
 
-
+ 
 ```python
-// set
+# set
 obj.ThePropertyName = True
-
-// get
+# get
 thePropertyValue = obj.ThePropertyName
 ```
 
- If the type of the property is [App::PropertyEnumeration](#App:_PropertyEnumeration.md), the setter has a special behaviour: setting a list of strings defines the cases allowed by the enumeration, setting a string selects one of these cases. To set the list of possible cases and set the current one, use: 
+If the type of the property is [App::PropertyEnumeration](#App:_PropertyEnumeration.md), the setter has a special behavior: setting a list of strings defines the cases allowed by the enumeration, setting a string selects one of these cases. To set the list of possible cases and set the current one, use:
 
-
+ 
 ```python
-// possible/allowed cases
+# allowed cases
 obj.ThePropertyName = ["aaa", "bbb", "ccc"]
-// set
+# set
 obj.ThePropertyName = "bbb"
 ```
 
@@ -66,11 +70,11 @@ obj.ThePropertyName = "bbb"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyAcceleration', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyAcceleration", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyAngle
@@ -79,12 +83,12 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyAngle', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyAngle", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = 180
-obj.ThePropertyName // returns 180.0 deg
-obj.ThePropertyName.Value // returns 180.0
+obj.ThePropertyName # returns 180.0 deg
+obj.ThePropertyName.Value # returns 180.0
 ```
 
 ## App::PropertyArea
@@ -93,11 +97,11 @@ obj.ThePropertyName.Value // returns 180.0
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyArea', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyArea", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyBool
@@ -106,12 +110,12 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyBool', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyBool", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = True
 obj.ThePropertyName = False
-obj.ThePropertyName // returns False
+obj.ThePropertyName # returns False
 ```
 
 ## App::PropertyBoolList
@@ -120,12 +124,12 @@ obj.ThePropertyName // returns False
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyBoolList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyBoolList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = [True, False, True]
-obj.ThePropertyName    // returns [True, False, True]
-obj.ThePropertyName[1] // returns False
+obj.ThePropertyName    # returns [True, False, True]
+obj.ThePropertyName[1] # returns False
 ```
 
 ## App::PropertyColor
@@ -134,11 +138,11 @@ obj.ThePropertyName[1] // returns False
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyColor', 'ThePropertyName', 'Subsection', 'Description for tooltip')
-obj.ThePropertyName = (0.0, 1.0, 0.5, 0.8) // (Red, Green, Blue, Transparency)
-obj.ThePropertyName // returns (0.0, 1.0, 0.5, 0.8)
+obj.addProperty("App::PropertyColor", "ThePropertyName", "Subsection", "Description for tooltip")
+obj.ThePropertyName = (0.0, 1.0, 0.5, 0.8) # (Red, Green, Blue, Transparency)
+obj.ThePropertyName # returns (0.0, 1.0, 0.5, 0.8)
 ```
 
 ## App::PropertyColorList
@@ -147,11 +151,11 @@ obj.ThePropertyName // returns (0.0, 1.0, 0.5, 0.8)
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyColorList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyColorList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyDirection
@@ -160,11 +164,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyDirection', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyDirection", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyDistance
@@ -173,12 +177,12 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyDistance', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyDistance", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = 500
-obj.ThePropertyName // returns 500.0 mm
-obj.ThePropertyName.Value // returns 500.0
+obj.ThePropertyName # returns 500.0 mm
+obj.ThePropertyName.Value # returns 500.0
 ```
 
 ## App::PropertyEnumeration
@@ -187,26 +191,30 @@ obj.ThePropertyName.Value // returns 500.0
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyEnumeration', 'ThePropertyName', 'Subsection', 'Description for tooltip')
-obj.ThePropertyName = ["Foo", "Bar", "Baz"]  // set allowed items
-obj.ThePropertyName = "Foo"                  // choose single item
-obj.ThePropertyName = ["Foo", "Bar", "Quux"] // change allowed items
-obj.ThePropertyName = "Quux"                 // choose single item
-obj.ThePropertyName // returns "Quux"
+obj.addProperty("App::PropertyEnumeration", "ThePropertyName", "Subsection", "Description for tooltip")
+obj.ThePropertyName = ["Foo", "Bar", "Baz"]  # set allowed items
+obj.ThePropertyName = "Foo"                  # choose single item
+obj.ThePropertyName = ["Foo", "Bar", "Quux"] # change allowed items
+obj.ThePropertyName = "Quux"                 # choose single item
+obj.ThePropertyName # returns "Quux"
 ```
 
-As of FreeCAD 0.20, you can also group enumerations, which are displayed in the GUI using a submenu interface. To group, use the \"\|\" (vertical pipe) as a separator, e.g. 
+ As of FreeCAD 0.20, you can also group enumerations, which are displayed in the GUI using a submenu interface. To group, use the 
+
+
 ```python
 obj.ThePropertyName = [
-  "Group 1 <nowiki>|</nowiki> Item A", 
-  "Group 1 <nowiki>|</nowiki> Item B", 
-  "Group 2 <nowiki>|</nowiki> Another item", 
-  "Group 2 <nowiki>|</nowiki> Last item",
-]  # set allowed items
+    "Group 1 <nowiki>|</nowiki> Item A", 
+    "Group 1 <nowiki>|</nowiki> Item B", 
+    "Group 2 <nowiki>|</nowiki> Another item", 
+    "Group 2 <nowiki>|</nowiki> Last item"
+] # set allowed items
 obj.ThePropertyName = "Group 1 <nowiki>|</nowiki> Item A" # choose single item
-``` The GUI will display this as a menu structure:
+```
+
+ The GUI will display this as a menu structure:
 
 -   Group 1
     -   Item A
@@ -215,17 +223,19 @@ obj.ThePropertyName = "Group 1 <nowiki>|</nowiki> Item A" # choose single item
     -   Another item
     -   Last item
 
+
+
 ## App::PropertyExpressionEngine
 
  A 
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyExpressionEngine', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyExpressionEngine", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyFile
@@ -234,11 +244,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyFile', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyFile", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyFileIncluded
@@ -247,11 +257,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyFileIncluded', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyFileIncluded", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyFloat
@@ -260,11 +270,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyFloat', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyFloat", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = 15.7
-obj.ThePropertyName // returns 15.7
+obj.ThePropertyName # returns 15.7
 ```
 
 ## App::PropertyFloatConstraint
@@ -273,11 +283,11 @@ obj.ThePropertyName // returns 15.7
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyFloatConstraint', 'ThePropertyName', 'Subsection', 'Description for tooltip')
-obj.ThePropertyName = (50.0, 0.0, 100.0, 1.0) // (Default, Start, Finish, Step)
-obj.ThePropertyName // returns 50.0
+obj.addProperty("App::PropertyFloatConstraint", "ThePropertyName", "Subsection", "Description for tooltip")
+obj.ThePropertyName = (50.0, 0.0, 100.0, 1.0) # (Default, Start, Finish, Step)
+obj.ThePropertyName # returns 50.0
 ```
 
 ## App::PropertyFloatList
@@ -286,11 +296,11 @@ obj.ThePropertyName // returns 50.0
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyFloatList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
-obj.ThePropertyName = [12.7, 5.8, 28.6, 17.22] // Also it can be an empty list.
-obj.ThePropertyName // returns [12.7, 5.8, 28.6, 17.22]
+obj.addProperty("App::PropertyFloatList", "ThePropertyName", "Subsection", "Description for tooltip")
+obj.ThePropertyName = [12.7, 5.8, 28.6, 17.22] # It can also be an empty list.
+obj.ThePropertyName # returns [12.7, 5.8, 28.6, 17.22]
 ```
 
 ## App::PropertyFont
@@ -299,11 +309,11 @@ obj.ThePropertyName // returns [12.7, 5.8, 28.6, 17.22]
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyFont', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyFont", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyForce
@@ -312,11 +322,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyForce', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyForce", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyFrequency
@@ -325,11 +335,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyFrequency', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyFrequency", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyInteger
@@ -338,11 +348,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyInteger', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyInteger", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = 25
-obj.ThePropertyName // returns 25
+obj.ThePropertyName # returns 25
 ```
 
 ## App::PropertyIntegerConstraint
@@ -351,11 +361,11 @@ obj.ThePropertyName // returns 25
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyIntegerConstraint', 'ThePropertyName', 'Subsection', 'Description for tooltip')
-obj.ThePropertyName = (50, 0, 100, 1) // (Default, Start, Finish, Step)
-obj.ThePropertyName // returns 50
+obj.addProperty("App::PropertyIntegerConstraint", "ThePropertyName", "Subsection", "Description for tooltip")
+obj.ThePropertyName = (50, 0, 100, 1) # (Default, Start, Finish, Step)
+obj.ThePropertyName # returns 50
 ```
 
 ## App::PropertyIntegerList
@@ -364,11 +374,11 @@ obj.ThePropertyName // returns 50
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyIntegerList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
-obj.ThePropertyName = [12, 5, 28, 17] // Also it can be an empty list.
-obj.ThePropertyName // returns [12, 5, 28, 17]
+obj.addProperty("App::PropertyIntegerList", "ThePropertyName", "Subsection", "Description for tooltip")
+obj.ThePropertyName = [12, 5, 28, 17] # It can also be an empty list.
+obj.ThePropertyName # returns [12, 5, 28, 17]
 ```
 
 ## App::PropertyIntegerSet
@@ -377,11 +387,11 @@ obj.ThePropertyName // returns [12, 5, 28, 17]
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyIntegerSet', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyIntegerSet", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLength
@@ -390,12 +400,12 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLength', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLength", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = 500
-obj.ThePropertyName // returns 500 mm
-obj.ThePropertyName.Value // returns 500
+obj.ThePropertyName # returns 500 mm
+obj.ThePropertyName.Value # returns 500
 ```
 
 ## App::PropertyLink
@@ -405,11 +415,11 @@ obj.ThePropertyName.Value // returns 500
 
 ```python
 link_obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName")
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLink', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLink", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = link_obj
-obj.ThePropertyName // returns link_obj
+obj.ThePropertyName # returns link_obj
 ```
 
 ## App::PropertyLinkChild
@@ -418,11 +428,11 @@ obj.ThePropertyName // returns link_obj
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkChild', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkChild", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkGlobal
@@ -431,11 +441,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkGlobal', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkGlobal", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkHidden
@@ -444,11 +454,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkHidden', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkHidden", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkList
@@ -461,11 +471,11 @@ link_obj0=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName0
 link_obj1=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName1")
 link_obj2=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName2")
 
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = [link_obj0, link_obj1, link_obj2]
-obj.ThePropertyName // returns [link_obj0, link_obj1, link_obj2]
+obj.ThePropertyName # returns [link_obj0, link_obj1, link_obj2]
 ```
 
 ## App::PropertyLinkListChild
@@ -474,11 +484,11 @@ obj.ThePropertyName // returns [link_obj0, link_obj1, link_obj2]
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkListChild', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkListChild", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkListGlobal
@@ -487,11 +497,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkListGlobal', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkListGlobal", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkListHidden
@@ -500,11 +510,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkListHidden', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkListHidden", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkSub
@@ -513,11 +523,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkSub', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkSub", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkSubChild
@@ -526,11 +536,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkSubChild', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkSubChild", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkSubGlobal
@@ -539,11 +549,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkSubGlobal', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkSubGlobal", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkSubHidden
@@ -552,11 +562,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkSubHidden', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkSubHidden", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkSubList
@@ -565,11 +575,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkSubList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkSubList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkSubListChild
@@ -578,11 +588,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkSubListChild', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkSubListChild", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkSubListGlobal
@@ -591,11 +601,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkSubListGlobal', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkSubListGlobal", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyLinkSubListHidden
@@ -604,11 +614,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyLinkSubListHidden', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyLinkSubListHidden", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyMap
@@ -617,11 +627,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyMap', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyMap", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyMaterial
@@ -633,11 +643,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 import FreeCAD
 material=FreeCAD.Material()
 
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyMaterial', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyMaterial", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = material
-obj.ThePropertyName // returns material
+obj.ThePropertyName # returns material
 ```
 
 ## App::PropertyMaterialList
@@ -653,9 +663,9 @@ material2 = FreeCAD.Material()
 
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyMaterialList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
-obj.ThePropertyName = [material0, material1, material2] // Also it can be an empty list.
-obj.ThePropertyName // returns [material0, material1, material2]
+obj.addProperty("App::PropertyMaterialList", "ThePropertyName", "Subsection", "Description for tooltip")
+obj.ThePropertyName = [material0, material1, material2] # It can also be an empty list.
+obj.ThePropertyName # returns [material0, material1, material2]
 ```
 
 ## App::PropertyMatrix
@@ -664,11 +674,11 @@ obj.ThePropertyName // returns [material0, material1, material2]
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyMatrix', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyMatrix", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyPath
@@ -677,11 +687,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyPath', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyPath", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyPercent
@@ -690,11 +700,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyPercent', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyPercent", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyPersistentObject
@@ -703,11 +713,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyPersistentObject', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyPersistentObject", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyPlacement
@@ -720,9 +730,9 @@ import FreeCAD
 placement = FreeCAD.Placement()
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyPlacement', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyPlacement", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = placement
-obj.ThePropertyName // returns placement
+obj.ThePropertyName # returns placement
 ```
 
 ## App::PropertyPlacementLink
@@ -731,11 +741,11 @@ obj.ThePropertyName // returns placement
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyPlacementLink', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyPlacementLink", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyPlacementList
@@ -751,9 +761,9 @@ placement2 = FreeCAD.Placement()
 
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyPlacementList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyPlacementList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = [placement0, placement1, placement2]
-obj.ThePropertyName // returns [placement0, placement1, placement2]
+obj.ThePropertyName # returns [placement0, placement1, placement2]
 ```
 
 ## App::PropertyPosition
@@ -762,11 +772,11 @@ obj.ThePropertyName // returns [placement0, placement1, placement2]
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyPosition', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyPosition", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyPrecision
@@ -775,11 +785,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyPrecision', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyPrecision", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyPressure
@@ -788,11 +798,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyPressure', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyPressure", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyPythonObject
@@ -801,11 +811,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyPythonObject', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyPythonObject", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyQuantity
@@ -814,11 +824,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyQuantity', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyQuantity", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyQuantityConstraint
@@ -827,11 +837,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyQuantityConstraint', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyQuantityConstraint", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertySpeed
@@ -840,11 +850,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertySpeed', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertySpeed", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyString
@@ -853,11 +863,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyString', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyString", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyStringList
@@ -866,11 +876,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyStringList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyStringList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyUUID
@@ -879,11 +889,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyUUID', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyUUID", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyVacuumPermittivity
@@ -892,11 +902,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyVacuumPermittivity', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyVacuumPermittivity", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyVector
@@ -908,11 +918,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 import FreeCAD
 vector = FreeCAD.Vector(0, -2, 5)
 
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyVector', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyVector", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = vector
-obj.ThePropertyName // returns Vector(0, -2, 5)
+obj.ThePropertyName # returns Vector(0, -2, 5)
 ```
 
 ## App::PropertyVectorDistance
@@ -921,11 +931,11 @@ obj.ThePropertyName // returns Vector(0, -2, 5)
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyVectorDistance', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyVectorDistance", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyVectorList
@@ -942,9 +952,9 @@ v3 = FreeCAD.Vector(0, -10, 0)
 
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyVectorList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyVectorList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = [v0, v1, v2, v3]
-obj.ThePropertyName // returns [Vector(0, 10, 0), Vector(0, 10, 0), Vector(30, -10, 0), Vector(0, -10, 0)]
+obj.ThePropertyName # returns [Vector(0, 10, 0), Vector(0, 10, 0), Vector(30, -10, 0), Vector(0, -10, 0)]
 ```
 
 ## App::PropertyVolume
@@ -953,11 +963,11 @@ obj.ThePropertyName // returns [Vector(0, 10, 0), Vector(0, 10, 0), Vector(30, -
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyVolume', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyVolume", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyXLink
@@ -966,11 +976,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyXLink', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyXLink", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyXLinkList
@@ -979,11 +989,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyXLinkList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyXLinkList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyXLinkSub
@@ -992,11 +1002,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyXLinkSub', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyXLinkSub", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## App::PropertyXLinkSubList
@@ -1005,11 +1015,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('App::PropertyXLinkSubList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("App::PropertyXLinkSubList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Mesh::PropertyCurvatureList
@@ -1018,11 +1028,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Mesh::PropertyCurvatureList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Mesh::PropertyCurvatureList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Mesh::PropertyMeshKernel
@@ -1034,11 +1044,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 import Mesh
 mesh = Mesh.Mesh()
 
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Mesh::PropertyMeshKernel', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Mesh::PropertyMeshKernel", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = mesh
-obj.ThePropertyName // returns mesh
+obj.ThePropertyName # returns mesh
 ```
 
 ## Mesh::PropertyNormalList
@@ -1047,11 +1057,11 @@ obj.ThePropertyName // returns mesh
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Mesh::PropertyNormalList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Mesh::PropertyNormalList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Part::PropertyFilletEdges
@@ -1060,11 +1070,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Part::PropertyFilletEdges', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Part::PropertyFilletEdges", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Part::PropertyGeometryList
@@ -1073,11 +1083,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Part::PropertyGeometryList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Part::PropertyGeometryList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Part::PropertyPartShape
@@ -1089,11 +1099,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 import Part
 part = Part.Shape()
 
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Part::PropertyPartShape', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Part::PropertyPartShape", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = part
-obj.ThePropertyName // returns part
+obj.ThePropertyName # returns part
 ```
 
 ## Part::PropertyShapeHistory
@@ -1102,11 +1112,11 @@ obj.ThePropertyName // returns part
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Part::PropertyShapeHistory', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Part::PropertyShapeHistory", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Path::PropertyPath
@@ -1115,11 +1125,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Path::PropertyPath', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Path::PropertyPath", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Path::PropertyTool
@@ -1128,11 +1138,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Path::PropertyTool', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Path::PropertyTool", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Path::PropertyTooltable
@@ -1141,11 +1151,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Path::PropertyTooltable', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Path::PropertyTooltable", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Sketcher::PropertyConstraintList
@@ -1154,11 +1164,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Sketcher::PropertyConstraintList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Sketcher::PropertyConstraintList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Spreadsheet::PropertyColumnWidths
@@ -1167,11 +1177,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Spreadsheet::PropertyColumnWidths', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Spreadsheet::PropertyColumnWidths", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Spreadsheet::PropertyRowHeights
@@ -1180,11 +1190,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Spreadsheet::PropertyRowHeights', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Spreadsheet::PropertyRowHeights", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Spreadsheet::PropertySheet
@@ -1193,11 +1203,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Spreadsheet::PropertySheet', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Spreadsheet::PropertySheet", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## Spreadsheet::PropertySpreadsheetQuantity
@@ -1206,11 +1216,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('Spreadsheet::PropertySpreadsheetQuantity', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("Spreadsheet::PropertySpreadsheetQuantity", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## TechDraw::PropertyCenterLineList
@@ -1219,11 +1229,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('TechDraw::PropertyCenterLineList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("TechDraw::PropertyCenterLineList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## TechDraw::PropertyCosmeticEdgeList
@@ -1232,11 +1242,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('TechDraw::PropertyCosmeticEdgeList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("TechDraw::PropertyCosmeticEdgeList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## TechDraw::PropertyCosmeticVertexList
@@ -1245,11 +1255,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('TechDraw::PropertyCosmeticVertexList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("TechDraw::PropertyCosmeticVertexList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 ## TechDraw::PropertyGeomFormatList
@@ -1258,11 +1268,11 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 ```python
-obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
+obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
-obj.addProperty('TechDraw::PropertyGeomFormatList', 'ThePropertyName', 'Subsection', 'Description for tooltip')
+obj.addProperty("TechDraw::PropertyGeomFormatList", "ThePropertyName", "Subsection", "Description for tooltip")
 obj.ThePropertyName = {{TODO```"example value for setter"
-obj.ThePropertyName // returns {{TODO}}"example value for getter"
+obj.ThePropertyName # returns {{TODO}}"example value for getter"
 }}
 
 

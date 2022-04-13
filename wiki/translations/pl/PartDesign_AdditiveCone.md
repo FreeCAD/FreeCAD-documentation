@@ -4,7 +4,7 @@
    MenuLocation:Part Design → Create an additive primitive → Additive Cone
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
-   SeeAlso:[PartDesign Create an additive primitive](PartDesign_CompPrimitiveAdditive.md), [PartDesign Subtractive Cone](PartDesign_SubtractiveCone.md)
+   SeeAlso:[PartDesign CompPrimitiveAdditive](PartDesign_CompPrimitiveAdditive.md), [PartDesign SubtractiveCone](PartDesign_SubtractiveCone.md)
 ---
 
 # PartDesign AdditiveCone/pl

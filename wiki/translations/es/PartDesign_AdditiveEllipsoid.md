@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveEllipsoid/es
 
+
+</div>
+
 ## Descripción
 
 Inserta un Elipsoide primitiva en el Cuerpo activo como primera característica, o lo fusiona con la(s) característica(s) existente(s).

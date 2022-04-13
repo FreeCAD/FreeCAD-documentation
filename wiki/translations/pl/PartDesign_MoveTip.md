@@ -3,7 +3,7 @@
    Name:PartDesign MoveTip
    Name/pl:Projekt Części: Ustaw czubek
    MenuLocation:Menu kontekstowe → Ustaw czubek
-   Workbenches:[Projekt części](PartDesign_Workbench.md)
+   Workbenches:[Projekt Części](PartDesign_Workbench/pl.md)
    Version:0.17
    SeeAlso:[Przenieś cechę](PartDesign_MoveFeature/pl.md), [Przenieś cechę w drzewie](PartDesign_MoveFeatureInTree/pl.md)
 ---

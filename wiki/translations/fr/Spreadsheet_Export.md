@@ -17,7 +17,7 @@ L\'outil **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsh
 ## Utilisation
 
 1.  Assurez-vous qu\'il y a une **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md)** ouverte pour que le bouton soit activé.
-2.  Appuyez sur le bouton **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Exporter la feuille de calcul...](Spreadsheet_Export/fr.md)**.
+2.  Appuyez sur le bouton **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Exporter la feuille de calcul](Spreadsheet_Export/fr.md)**.
 
 
 

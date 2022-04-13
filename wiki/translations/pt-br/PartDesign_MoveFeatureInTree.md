@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:PartDesign MoveFeatureInTree
-   MenuLocation:Contextual menu → Move object after other object
+   MenuLocation:Context menu → Move object after other object
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
    SeeAlso:[PartDesign Set tip](PartDesign_MoveTip.md), [PartDesign Move object to other body](PartDesign_MoveFeature.md)
@@ -15,7 +15,7 @@
 
 ## Usage
 
-1.  In the Model tree, select the object(s) to be moved then right-click to open the contextual menu.
+1.  In the Model tree, select the object(s) to be moved then right-click to open the context menu.
 2.  Select **Move object after other object**.
 3.  In the **Select feature** dialog, select the object under which to move the object(s).
 4.  Press **OK**.

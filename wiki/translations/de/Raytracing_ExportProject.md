@@ -13,9 +13,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Exportiert das ausgewählte Raytracing Projekt in eine Datei.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">

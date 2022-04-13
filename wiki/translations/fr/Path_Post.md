@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path PostProcess
    Name/fr:Path Post-traitement
-   MenuLocation:Parcours → Post-traitement
+   MenuLocation:Path → Post-traitement
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **P**
 ---
@@ -64,7 +64,7 @@ Si une seule machine CNC est utilisée ou si toutes les machines CNC partagent u
 1.  Sélectionnez une <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Path Tâche](Path_Job/fr.md) dans la [Vue en arborescence](Tree_view/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_Post.svg" width=16px> [Post-traitement](Path_Post/fr.md)**.
-    -   Sélectionnez l\'option **Parcours → <img src="images/Path_Post.svg" width=16px> Post-traitement ** dans le menu.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Post.svg" width=16px> Post-traitement ** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **P**.
 3.  Confirmez le nom et le répertoire de **Output File**.
 

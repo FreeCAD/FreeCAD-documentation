@@ -16,7 +16,7 @@ L\'outil **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadsh
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Importer un fichier CSV...](Spreadsheet_Import/fr.md)**.
+1.  Appuyez sur le bouton **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Importer une feuille de calcul](Spreadsheet_Import/fr.md)**.
 2.  Choisissez le bon fichier CSV.
 
 ## Remarques

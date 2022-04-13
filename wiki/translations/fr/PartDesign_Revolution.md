@@ -2,8 +2,9 @@
 - GuiCommand:/fr
    Name:PartDesign_Revolution
    Name/fr:PartDesign Révolution
-   MenuLocation:Conception de pièces → Créer une fonction additive → Révolution
+   MenuLocation:Part Design → Créer une fonction additive → Révolution
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
+   SeeAlso:[PartDesign Rainure](PartDesign_Groove/fr.md)
 ---
 
 # PartDesign Revolution/fr
@@ -18,7 +19,7 @@ L\'outil **Révolution** produit un solide par révolution d\'une esquisse ou d\
 ## Utilisation
 
 1.  Sélectionner l\'esquisse à révolutionner. v0.17 et ultérieures Une face du solide peut également être utilisée.
-2.  Appuyer sur le bouton **<img src="images/PartDesign_Revolution.svg" width=24px> '''Révolution d'une esquisse sélectionnée'''**.
+2.  Appuyer sur le bouton **<img src="images/PartDesign_Revolution.svg" width=24px> '''Révolution'''**.
 3.  Définir les paramètres de la révolution (voir la section suivante).
 4.  Appuyer sur le bouton **OK**.
 
@@ -55,15 +56,15 @@ Lors de la création de la révolution, les **Paramètres de la révolution** pe
 
 Ci-dessous les propriétés qui peuvent être modifiées après la création de la fonction. Les propriétés sous l\'onglet Données *Base* et *Axis* ne sont pas modifiables.
 
--    {{PropertyData/fr|Angle}}: angle de rotation. Voir [Angle](#Angle.md).
+-    **Angle**: angle de rotation. Voir [Angle](#Angle.md).
 
--    {{PropertyData/fr|Label}}: étiquette donnée à l\'opération; peut être changée selon votre convenance.
+-    **Label**: étiquette donnée à l\'opération; peut être changée selon votre convenance.
 
--    {{PropertyData/fr|Midplane}}: true (vrai) ou false (faux). Voir [Symétrique au plan](#Symétrique_au_plan.md).
+-    **Midplane**: true (vrai) ou false (faux). Voir [Symétrique au plan](#Symétrique_au_plan.md).
 
--    {{PropertyData/fr|Reversed}}: true (vrai) ou false (faux). Voir [Inversé](#Inversé.md).
+-    **Reversed**: true (vrai) ou false (faux). Voir [Inversé](#Inversé.md).
 
--    {{PropertyData/fr|Refine}}: v0.17 et ultérieures true (vrai) ou false (faux). Si la valeur est true, nettoie le solide des arêtes résiduelles laissées par les fonctions. Voir [Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
+-    **Refine**: v0.17 et ultérieures true (vrai) ou false (faux). Si la valeur est true, nettoie le solide des arêtes résiduelles laissées par les fonctions. Voir [Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
 
 ## Exemples
 

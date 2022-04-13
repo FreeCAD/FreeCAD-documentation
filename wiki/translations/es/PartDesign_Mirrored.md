@@ -8,6 +8,9 @@
 
 # PartDesign Mirrored/es
 
+
+</div>
+
 ## Descripción
 
 
@@ -40,6 +43,9 @@ Para crear una simetría:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Para añadir o borrar operaciones de una simetría existente:
 
 1.  Pulsar el botón **Añadir una operación** para añadir una operación a la simetría, la cual debe ser visible en la [vista 3D](3D_view/es.md):
@@ -49,6 +55,9 @@ Para añadir o borrar operaciones de una simetría existente:
     4.  Seleccionar la operación en la vista 3D; será añadida a la lista.
     5.  Repetir si se desea añadir más operaciones.
 2.  Pulsar el botón **Eliminar operación** para quitar una operación de la lista, o pinchar con botón derecho del ratón sobre la operación en la lista y seleccionar *Eliminar*.
+
+
+</div>
 
 ## Opciones
 

@@ -24,9 +24,9 @@ The Macro supports user parameters, which are used for the added users list. It 
 
 ## Script
 
-ToolBar icon ![](images/Pinger_Icon.svg )
+ToolBar icon  ![](images/Pinger_Icon.svg )
 
- **Macro\_Snip.FCMacro**
+**Macro\_Snip.FCMacro**
 
 
 {{MacroCode|code=

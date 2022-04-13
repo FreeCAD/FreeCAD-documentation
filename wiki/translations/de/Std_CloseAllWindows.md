@@ -1,23 +1,19 @@
 ---
 - GuiCommand:/de
    Name:Std_CloseAllWindows
-   Name/de:Std Alles schließen
+   Name/de:Std AllesSchließen
    MenuLocation:Datei → Alles schließen
    Workbenches:Alle
-   SeeAlso:[Schließen](Std_CloseActiveWindow/de.md)
+   SeeAlso:[Std Schließen](Std_CloseActiveWindow/de.md)
 ---
 
 # Std CloseAllWindows/de
 
 ## Beschreibung
 
-Schließt alle geöffneten Dokumente.
-
-Der **Std Alles schließen**-Befehl schließt alle Fenster und dadurch alle Dokumente.
+Der Befehl **Std AllesSchließen** schließt alle Fenster und dadurch alle Dokumente.
 
 ## Anwendung
-
-Wähle **Datei** → **Alles schließen** aus der Menüleiste.
 
 1.  Wähle die **Datei → <img src="images/Std_CloseAllWindows.svg" width=16px> Alles Schließen**-Option aus dem Menü.
 2.  Falls es nicht gesicherte Dokumente gibt, öffnet sich eine Dialog-Box, die zum Sichern auffordert:

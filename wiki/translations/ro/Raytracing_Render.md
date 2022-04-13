@@ -5,9 +5,19 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Randează proiectul selectat folosind un renderer extern.
+
+
+</div>
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -20,9 +30,17 @@ Randează proiectul selectat folosind un renderer extern.
 
 </div>
 
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Limitări
 
 În mod curent numai POV-Ray și Luxrender sun suportate.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

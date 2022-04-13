@@ -76,6 +76,10 @@ Depending on the selected object and its selected subshapes, if any, the followi
 ## Notes
 
 -   All previously created variables are deleted each time the command is run.
+-   If the object is type App::Link and the linked object is derived from Part::Feature, the shp variable will be the shape of the Part::Feature. If the App::Link has been transformed or scaled and you want to access the scaled/transformed shape, you can do so with this code:
+
+
+```pythonshape = Part.getShape(lnk)```
 
 
 

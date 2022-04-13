@@ -10,6 +10,9 @@
 
 # PartDesign SubtractiveCylinder/es
 
+
+</div>
+
 ## Descripción
 
 Inserta un Cilindro sustractivo en el Body (cuerpo) activo. Su forma es sustraída del sólido existente.

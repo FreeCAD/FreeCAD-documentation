@@ -32,6 +32,8 @@ The Part Sweep tool is similar to <img alt="" src=images/Part_Loft.svg  style="w
 
 -   **Path**: can be a line (Edge) or series of connecting lines, wire or various Part Workbench primitives, Draft Workbench features or a Sketch. The path is often selected directly from the main model window, however it can also be selected from the [Tree view](Tree_view.md) (Model Tab of [Combo View](Combo_View.md)). The path can either be an entire appropriate shape or an appropriate sub-component of a more advance shape (for example, an edge of a <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Box](Part_Box.md) could be selected as the path). The path may be either open or closed and will thus create either an open or closed Sweep. A closed path such as a Part Circle will result in a closed Sweep. For example a Sweep of a smaller circle around a path of a larger circle will create a torus.
 
+-   [App Link](App_Link.md) objects linked to the proper object types and [App Part](App_Part.md) containers with the proper visible objects inside may also be used as profiles and paths. <small>(v0.20)</small> 
+
 ## Properties
 
 ### Solid

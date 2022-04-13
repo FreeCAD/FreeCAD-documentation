@@ -13,9 +13,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Exportă proprietățile curente ale camerei într-un fișier pov pentru a fi utilizat într-un proiect POV-Ray.
+
+
+</div>
 
 ## Utilizare
 

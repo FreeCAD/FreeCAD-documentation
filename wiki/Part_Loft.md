@@ -13,6 +13,8 @@
 
 The Loft tool is used to create a face, shell or a solid shape from two or more profiles. The profiles can be a point (vertex), line (Edge), wire or face. Edges and wires may be either open or closed. There are various [Limitations and complications](Part_Loft#Limitations_and_complications.md), see below, however the profiles may come from the Part Workbench primitives, Draft Workbench features and a Sketch.
 
+[App Link](App_Link.md) objects linked to the proper object types and [App Part](App_Part.md) containers with the proper visible objects inside may also be used as profiles and paths. <small>(v0.20)</small> 
+
 The Loft has three parameters, \"Ruled surface\",\"Create solid\" and \"Closed\" each with a value of either \"true\" or \"false\".
 
 If \"Create solid\" is \"true\" FreeCAD creates a solid if the profiles are of closed geometry, if \"false\" FreeCAD creates a face or (if more than one face) a shell for either open or closed profiles.

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Array
    Name/fr:Path Réseau
-   MenuLocation:Parcours → Modification du parcours → Réseau
+   MenuLocation:Path → Modification du parcours → Réseau
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 
@@ -17,7 +17,7 @@ Cet outil crée un nouveau parcours en duplicant un autre parcours plusieurs foi
 1.  Sélectionnez l\'opération que vous souhaitez répéter
 2.  Pressez le bouton **<img src="images/Path_Array.svg" width=24px> [Réseau](Path_Array/fr.md)
 **
-3.  Pressez **Applique**
+3.  Pressez **Appliquer**
 4.  Ajustez les propriétés souhaitées dans la boîte de dialogue des données
 
 ## Propriétés

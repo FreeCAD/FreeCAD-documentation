@@ -11,6 +11,8 @@
 
 \'Mirror Object\' - This tool creates a new object (image) which is a reflection of the original object (source). The image object is created behind a mirror plane. The mirror plane may be standard plane (**XY**, **YZ**, or **XZ**), or any plane parallel to a standard plane.
 
+[App Link](App_Link.md) objects linked to the proper object types and [App Part](App_Part.md) containers with the proper visible objects inside may also be used as sources for mirroring. <small>(v0.20)</small> 
+
 An example:
 
 ![Before](images/PARTMirrorBeforev11.png )

@@ -11,7 +11,7 @@
 
 FreeCAD utilise comme représentation interne pour les trajectoires générées, ce que l\'on appelle des G-codes. Ils peuvent décrire des choses telles que : la vitesse et l\'avance, l\'arrêt du moteur etc\... Mais la chose la plus importante est les mouvements qu\'ils décrivent. Ces mouvements sont assez simples : Il peut s\'agir de lignes droites ou d\'arcs de cercle. Des courbes plus sophistiquées comme les B-splines sont déjà approximées par l\'<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [atelier Path](Path_Workbench/fr.md) de FreeCAD.
 
-## Ce que le postprocesseur peut faire pour vous 
+## Ce que le post-processeur peut faire pour vous 
 
 De nombreuses fraiseuses utilisent également des G-codes pour contrôler le processus de fraisage. Ils peuvent ressembler presque aux codes internes mais il peut y avoir quelques différences:
 
@@ -30,7 +30,7 @@ En outre, il existe d\'autres langues pour contrôler une fraiseuse comme le HPG
 
 Le postprocesseur est un programme qui traduit les codes internes en un fichier complet qui peut être téléchargé sur votre machine.
 
-## Préparation pour écrire votre propre postprocesseur 
+## Préparation pour écrire votre propre post-processeur 
 
 Vous pouvez commencer avec un modèle très simple montrant comment votre machine lit les lignes droites et les arcs. Préparez-le avec n\'importe quel programme adapté à votre machine.
 
@@ -50,11 +50,11 @@ Pour un format de fichier {{FileName|<filename>}}, le postprocesseur doit obteni
 
 Si vous testez, placez-le dans votre répertoire de macros. S\'il fonctionne bien, veuillez envisager de le fournir pour que d\'autres en profitent (postez-le sur le forum Path de FreeCAD) afin qu\'il puisse être inclus dans la distribution de FreeCAD à l\'avenir.
 
-## Autres postprocesseurs existants 
+## Autres post-processeurs existants 
 
 A titre de comparaison, vous pouvez regarder les post-processeurs qui sont fournis avec votre installation de FreeCAD. Ils sont situés dans le répertoire /Mod/Path/PathScripts/post. Les postprocesseurs [linuxcnc](http://linuxcnc.org/) et [grbl](https://github.com/grbl/grbl) sont très utilisés. L\'étude de leur code peut donner des indications utiles.
 
-## Programmation de votre propre postprocesseur 
+## Programmation de votre propre post-processeur 
 
 Cet article traite de certains éléments internes des postprocesseurs linuxcnc. La même structure est également utilisée dans d\'autres postprocesseurs.
 

@@ -13,9 +13,21 @@
 
 </div>
 
+
+{{Raytracing Tools navi/it}}
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Esporta le proprietà della vista corrente in un file POV da usare in un progetto POV-Ray.
+
+
+</div>
+
+
+{{Userdocnavi/it}}
 
 
 <div class="mw-translate-fuzzy">

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Stop
    Name/fr:Path Stop
-   MenuLocation:Parcours → Commandes additionnelles → Arrêter
+   MenuLocation:Path → Commandes additionnelles → Arrêter
    Workbenches:[Path](Path_Workbench/fr.md)
 ---
 

@@ -102,6 +102,8 @@ The Extrude shape is defined by the following parameters, which can be edited af
 
 -   Extrusion with taper angle does not support holes. It also may give bogus results if the number of segments in the profile changes as a result of taper.
 
+-   [App Link](App_Link.md) objects linked to the proper object types and [App Part](App_Part.md) containers with the proper visible objects inside may also be used as profiles and Dir Links. <small>(v0.20)</small> 
+
 ## Comparison with PartDesign Pad 
 
 [PartDesign Pad](PartDesign_Pad.md) is also an extrusion feature, but there are important differences:

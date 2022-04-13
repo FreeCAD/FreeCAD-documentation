@@ -13,9 +13,17 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Описание
 
 Вставить вид на деталь в текущий проект визуализации
+
+
+</div>
 
 ## Usage
 

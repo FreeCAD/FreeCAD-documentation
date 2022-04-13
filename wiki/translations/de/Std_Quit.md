@@ -1,31 +1,42 @@
-# Std Quit/de
 ---
-- GuiCommand:/de   Name:Std Quit   Name/de:Std Beenden   MenuLocation:[Workbenches:Alle   Shortcut:**Alt**+**F4**   SeeAlso:[[Std Open/de|Std Open](Std_File_Menu/de___Datei]]_→_Beenden.md),[Std Import](Std_Import/de.md)---
+- GuiCommand:/de
+   Name:Std Quit
+   Name/de:Std Beenden
+   MenuLocation:Datei → Beenden
+   Workbenches:All
+   Shortcut:**Alt**+**F4**
+   SeeAlso:[Std Schließen](Std_CloseActiveWindow/de.md)
+---
 
-
-</div>
+# Std Quit/de
 
 ## Beschreibung
 
-The **Std Quit** command closes the FreeCAD application and optionally saves unsaved documents.
+Der Befehl **Std Beenden** schließt das Programm FreeCAD und speichert bei Bedarf ungespeicherte Dokumente.
 
 ## Anwendung
 
-1.  There are several ways to invoke the command:
-    -   Select the **File → <img src="images/Std_Quit.svg" width=16px> Exit** option from the menu.
-    -   Use the keyboard shortcut: **Alt**+**F4**.
-2.  If there are unsaved documents a dialog box will prompt you to save them:
-    -   Press the **Save** button to save the active document. If required enter a filename first.
-    -   Press the **Discard** button to discard the active document and lose all changes.
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Menüeintrag **Datei → <img src="images/Std_Quit.svg" width=16px> Exit** auswählen.
+    -   Das Tastaturkürzel **Alt**+**F4**.
+2.  Wenn ungesicherte Dokumente vorhanden sind erscheint ein Dialogfeld mit der Aufforderung sie zu speichern:
+    -   Die Schaltfläche **Speichern** drücken, um das aktive Dokument zu speichern. Wenn nötig, vorher einen Dateinamen eingeben.
+    -   Die Schaltfläche **Nicht speichern** drücken, um das aktive Dokument zu schließen und alle Änderungen zu verlieren.
 
-## Options
+## Optionen
 
--   If there are multiple unsaved documents: check the {{CheckBox|TRUE|Apply answer to all}} checkbox to avoid being prompted for each unsaved document separately.
--   If there are unsaved documents: press **Esc** or the **Cancel** button to abort the command.
+-   Wenn noch mehrere ungespeicherte Dokumente vorhanden sind: Haken bei der Checkbox
 
-## Preferences
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+{{CheckBox|TRUE|Apply answer to all}}
+
+setzen, um Nachfragen zu jeder einzelnen Datei zu vermeiden.
+
+-   Wenn noch ungespeicherte Dokumente vorhanden sind: **Esc** oder die Schaltfläche **Abbrechen** drücken, um den Befehl abzubrechen.
+
+## Einstellungen
+
+-   Der zuletzt verwendete Dateispeicherort wird gespeichert: **Werkzeuge → Parameter bearbeiten... → BaseApp (BasisAnwendung) → Preferences (Einstellungen) → General (Allgemein) → FileOpenSavePath**.
 
 
 

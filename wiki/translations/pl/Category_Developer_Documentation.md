@@ -41,11 +41,11 @@ This category gathers documentation article mostly aimed at programmers
 | [Scripted objects saving attributes/pl](wiki/Scripted objects saving attributes/pl.md) | [Scripted objects with attachment/pl](wiki/Scripted objects with attachment/pl.md) | [Scripted objects/pl](wiki/Scripted objects/pl.md) |
 | [Scripted Parts: Ball Bearing - Part 1/pl](wiki/Scripted Parts_ Ball Bearing - Part 1/pl.md) | [Scripted Parts: Ball Bearing - Part 2/pl](wiki/Scripted Parts_ Ball Bearing - Part 2/pl.md) | [Scripting and macros/pl](wiki/Scripting and macros/pl.md) |
 | [Scripts/pl](wiki/Scripts/pl.md) | [Source code management/pl](wiki/Source code management/pl.md) | [Source documentation/pl](wiki/Source documentation/pl.md) |
-| [Start up and Configuration/pl](wiki/Start up and Configuration/pl.md) | [Testing/pl](wiki/Testing/pl.md) | [The FreeCAD source code/pl](wiki/The FreeCAD source code/pl.md) |
-| [Third Party Libraries/pl](wiki/Third Party Libraries/pl.md) | [Third Party Tools/pl](wiki/Third Party Tools/pl.md) | [Topological data scripting/pl](wiki/Topological data scripting/pl.md) |
-| [Tracker/pl](wiki/Tracker/pl.md) | [Translating an external workbench/pl](wiki/Translating an external workbench/pl.md) | [Viewprovider/pl](wiki/Viewprovider/pl.md) |
-| [Workbench creation/pl](wiki/Workbench creation/pl.md) | [Wrapping a Cplusplus class in Python/pl](wiki/Wrapping a Cplusplus class in Python/pl.md) | [Category:Artwork/pl](wiki/Category_Artwork/pl.md) |
-| [Category:Document object/pl](wiki/Category_Document object/pl.md) |
+| [Sphinx/pl](wiki/Sphinx/pl.md) | [Start up and Configuration/pl](wiki/Start up and Configuration/pl.md) | [Testing/pl](wiki/Testing/pl.md) |
+| [The FreeCAD source code/pl](wiki/The FreeCAD source code/pl.md) | [Third Party Libraries/pl](wiki/Third Party Libraries/pl.md) | [Third Party Tools/pl](wiki/Third Party Tools/pl.md) |
+| [Topological data scripting/pl](wiki/Topological data scripting/pl.md) | [Tracker/pl](wiki/Tracker/pl.md) | [Translating an external workbench/pl](wiki/Translating an external workbench/pl.md) |
+| [Viewprovider/pl](wiki/Viewprovider/pl.md) | [Workbench creation/pl](wiki/Workbench creation/pl.md) | [Wrapping a Cplusplus class in Python/pl](wiki/Wrapping a Cplusplus class in Python/pl.md) |
+| [Category:Artwork/pl](wiki/Category_Artwork/pl.md) | [Category:Document object/pl](wiki/Category_Document object/pl.md) |
 
 
 

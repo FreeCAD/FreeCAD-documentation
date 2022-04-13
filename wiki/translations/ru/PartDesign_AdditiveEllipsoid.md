@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveEllipsoid/ru
 
+
+</div>
+
 ## Описание
 
 Inserts a primitive ellipsoid in the active Body as the first feature, or fuses it to the existing feature(s).

@@ -132,13 +132,13 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 ### Habillage de parcours 
 
--   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Habillage des limites](Path_DressupPathBoundary/fr.md) : Ajoute une modification d\'habillage des limites à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Limitation de zones](Path_DressupPathBoundary/fr.md) : Ajoute une modification d\'habillage des limites à un parcours d\'usinage sélectionné.
 
 -   <img alt="" src=images/Path_DressupDogbone.svg  style="width:32px;"> [Dégagement des angles](Path_DressupDogbone/fr.md) : Ajoute une modification pour l\'usinage des coins à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [Habillage pour lame rotative](Path_DressupDragKnife/fr.md) : Ajoute une habillage pour lame rotative à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [Lame rotative](Path_DressupDragKnife/fr.md) : Ajoute un habillage pour lame rotative à un parcours d\'usinage sélectionné.
 
--   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [Point d\'entrée\_sortie](Path_DressupLeadInOut/fr.md) : Ajoute un point d\'entrée et/ou de sortie à un parcours d\'usinage sélectionné.
+-   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [Trajectoire entrée/sortie](Path_DressupLeadInOut/fr.md) : Ajoute un point d\'entrée et/ou de sortie à un parcours d\'usinage sélectionné.
 
 -   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [Rampe d\'entrée](Path_DressupRampEntry/fr.md) : Ajoute une rampe d\'entrée d\'usinage à un parcours d\'usinage sélectionné.
 
@@ -168,7 +168,7 @@ Certaines commandes sont expérimentales et ne sont pas disponibles par défaut.
 
 -   <img alt="" src=images/Path_Area.svg  style="width:32px;"> [Zone d\'usinage](Path_Area/fr.md) : Crée une zone d\'usinage à partir d\'objets sélectionnés. [**Fonctions expérimentales**](Path_experimental/fr.md).
 
--   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Zone de travail plane](Path_Area_Workplane/fr.md) : Crée une zone d\'usinage plane. [**Fonctions expérimentales**](Path_experimental/fr.md).
+-   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Plan de travail](Path_Area_Workplane/fr.md) : Crée une zone d\'usinage plane. [**Fonctions expérimentales**](Path_experimental/fr.md).
 
 ### Obsolète
 

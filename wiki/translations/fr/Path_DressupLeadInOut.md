@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/fr
    Name:Path DressupLeadInOut
-   Name/fr:Path Point d'entrée_sortie
-   MenuLocation:Path → Path Dressup → LeadInOut
+   Name/fr:Path Trajectoire entrée/sortie
+   MenuLocation:Path → Trajectoires additionelles → Trajectoire d'entrée et de sortie
    Workbenches:[Path](Path_Workbench/fr.md)
-   SeeAlso:[Path Dégagement d'angles](Path_DressupDogbone/fr.md), [Path Languettes de maintien](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Habillage pour lame rotative](Path_DressupDragKnife/fr.md)
+   SeeAlso:[Path Dégagement d'angles](Path_DressupDogbone/fr.md), [Path Languettes de maintien](Path_DressupTag/fr.md), [Path Rampe d'entrée](Path_DressupRampEntry/fr.md), [Path Lame rotative](Path_DressupDragKnife/fr.md)
 ---
 
 # Path DressupLeadInOut/fr
@@ -14,7 +14,7 @@
 ## Utilisation
 
 1.  
-    **Path → Path Dressup → LeadInOut**
+    **Path → Trajectoires additionelles → Trajectoire d'entrée et de sortie**
     
 
 ## Options

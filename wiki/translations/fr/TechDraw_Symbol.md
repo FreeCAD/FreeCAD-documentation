@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:TechDraw Symbol
    Name/fr:TechDraw Symbole SVG
-   MenuLocation:TechDraw → Insérer symbole SVG
+   MenuLocation:TechDraw → Insérer un symbole SVG
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Modèles](TechDraw_Templates/fr.md), [Draft SVG](Draft_SVG/fr.md)
 ---
@@ -18,7 +18,7 @@ L\'outil Symbole insère un fichier [SVG](SVG/fr.md) dans la page. Ce symbole pe
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/TechDraw_Symbol.svg" width=16px> [Insérer symbole SVG](TechDraw_Symbol/fr.md)
+1.  Appuyez sur le bouton **<img src="images/TechDraw_Symbol.svg" width=16px> [Insérer un symbole SVG](TechDraw_Symbol/fr.md)
 **
 2.  Une boîte de dialogue s\'ouvre.
 3.  Sélectionnez un emplacement et un nom de fichier.
@@ -28,7 +28,7 @@ Si le symbole semble plus grand que prévu, utilisez la propriété scale (éche
 
 ## Remarques
 
--    {{PropertyData/fr|Scale Type}}pour les symboles est toujours défini sur *Personnalisé* lors de la création. C\'est pour plus de commodité, car les symboles sont presque toujours mis à l\'échelle différemment du reste des objets de la page.
+-    **Scale Type**pour les symboles est toujours défini sur *Personnalisé* lors de la création. C\'est pour plus de commodité, car les symboles sont presque toujours mis à l\'échelle différemment du reste des objets de la page.
 
 ## Script
 

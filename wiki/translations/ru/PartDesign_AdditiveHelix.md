@@ -10,6 +10,9 @@
 
 # PartDesign AdditiveHelix/ru
 
+
+</div>
+
 ## Описание
 
 The **AdditiveHelix** tool creates a solid by sweeping a selected sketch or 2D object along a helix path.

@@ -20,7 +20,7 @@
 
 </div>
 
-The FEM workbench already supports a lot of different constraints and a handful of solver. Despite that people often need constraints not jet supported by FreeCAD. This page is the starting point to a series of tutorials and other resources describing how to extend the FEM workbench using the existing framework. While this series can prove helpful to software developers too the idea is to allow FEM users with a bit of interest into python coding to add the stuff they need themselves.
+The FEM workbench already supports a lot of different constraints and several solvers. Despite that users often need constraints not yet supported by FreeCAD. This page is the starting point to a series of tutorials and other resources describing how to extend the FEM workbench using the existing framework. While this series can prove helpful to software developers too the idea is to allow FEM users with a bit of interest into python coding to add the stuff they need themselves.
 
 Adding new constraints, equations or solver is mostly routine work. But doing it for the first time will not be as easy as it might seem. An understanding of the following topics will prove helpful:
 

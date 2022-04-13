@@ -10,6 +10,9 @@
 
 # PartDesign CoordinateSystem/ru
 
+
+</div>
+
 ## Описание
 
 Creates a **local coordinate system** which can be used as reference for other datum geometry. It also helps identify the orientation of the referenced datum geometry in 3D space. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Path Job
    Name/fr:Path Tâche
-   MenuLocation:Parcours → Tâche
+   MenuLocation:Path → Tâche
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **J**
    SeeAlso:[Path Post-traitement](Path_Post/fr.md), [Path Personnalisation du post-processeur](Path_Postprocessor_Customization/fr.md)
@@ -25,7 +25,7 @@ L\'outil Tâche crée un nouvel objet Tâche dans le document actif. L\'objet T�
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_Job.svg" width=16px> [Tâche](Path_Job/fr.md)**.
-    -   Sélectionnez l\'option **Parcours → <img src="images/Path_Job.svg" width=16px> Tâche** dans le menu.
+    -   Sélectionnez l\'option **Path → <img src="images/Path_Job.svg" width=16px> Tâche** dans le menu.
     -   Utilisez le raccourci clavier : **P** puis **J**.
 
 La boîte de dialogue GUI de la Tâche comporte cinq onglets alignés horizontalement: **Général**, **Sortie**, **Installation**, **Outils** et **Plan de travail**. L\'utilisateur peut à tout moment utiliser les options **OK** ou **Annuler** dans la boîte de dialogue.

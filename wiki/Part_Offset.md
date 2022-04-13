@@ -20,6 +20,8 @@ The Part 3D Offset tool creates parallel copies of a selected shape at a certain
 2.  Press the **<img src="images/Part_Offset.svg" width=16px> '''3D Offset'''** button
 3.  Adjust distance and parameters depending on the original object and the resulting objects validity.
 
+-   Note: [App Link](App_Link.md) objects linked to the proper object types and [App Part](App_Part.md) containers with the proper visible objects inside may also be used as source objects for offsetting. <small>(v0.20)</small> 
+
 ## Properties
 
 -    **Offset**: Distance to offset the faces of the shape

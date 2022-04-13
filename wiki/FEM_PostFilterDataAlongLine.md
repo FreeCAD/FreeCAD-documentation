@@ -10,9 +10,19 @@
 
 ## Description
 
-ToDo
+Plots the values of a field along a specified line.
 
 ## Usage
+
+1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md).
+2.  Invoke the command in one of the several ways:
+    -   Press the **<img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> [Line clip filter](FEM_PostFilterDataAlongLine.md)** button.
+    -   Select the **Results → <img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> Line clip filter** option from the menu.
+3.  Specify the coordinates of two points defining the line along which the results are to be evaluated. Optionally, press the **Select Points** button and pick the points manually on the surface of the mesh.
+4.  Optionally, specify the **Resolution**.
+5.  Select a field that will be evaluated.
+6.  Press the **Create Plot** button. XY plot of a field value vs line length will be created in a separate window.
+7.  Click the **OK** button to close the tool\'s menu.
 
 
 

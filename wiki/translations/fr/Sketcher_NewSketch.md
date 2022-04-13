@@ -4,7 +4,7 @@
    Name/fr:Sketcher Nouvelle esquisse
    MenuLocation:Sketch → Créer une esquisse
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   SeeAlso:[PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md), [Sketcher Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md), [Sketcher Réorienter l'esquisse](Sketcher_ReorientSketch/fr.md)
+   SeeAlso:[PartDesign Esquisse](PartDesign_NewSketch/fr.md), [Sketcher Esquisse sur une face](Sketcher_MapSketch/fr.md), [Sketcher Réorienter l'esquisse](Sketcher_ReorientSketch/fr.md)
 ---
 
 # Sketcher NewSketch/fr
@@ -29,7 +29,7 @@ En cliquant sur l\'icône avec une face présélectionnée, l\'esquisse sera map
 
 ## Remarque
 
-L\'esquisse peut être remappée sur une autre face existante à l\'aide de la commande [Sketcher Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md).
+L\'esquisse peut être remappée sur une autre face existante à l\'aide de la commande [Sketcher Esquisse sur une face](Sketcher_MapSketch/fr.md).
 
 L\'esquisse peut être déplacée dans la [vue 3D](3D_view/fr.md) en utilisant [Placement](Placement/fr.md).
 

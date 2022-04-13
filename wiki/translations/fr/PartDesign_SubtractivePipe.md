@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:PartDesign SubtractivePipe
    Name/fr:PartDesign Balayage soustractif
-   MenuLocation:Conception de pièces → Créer une fonction soustractive → Enlèvement de matière par balayage
+   MenuLocation:Part Design → Créer une fonction soustractive → Enlèvement de matière par balayage
    Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.17
    SeeAlso:[PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md), [PartDesign Lissage soustractif](PartDesign_SubtractiveLoft/fr.md)
