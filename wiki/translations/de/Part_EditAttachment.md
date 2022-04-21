@@ -1,24 +1,24 @@
 ---
 - GuiCommand:/de
    Name:Part Attachment
-   Name/de:Part Anhang
-   MenuLocation:Part → Anhang...
+   Name/de:Part Befestigen
+   MenuLocation:Formteil → Attachment...
    Workbenches:[Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
    SeeAlso:[Positionierung](Placement/de.md),
-[Basic Attachment Tutorial](Basic_Attachment_Tutorial/de.md) [Part Teil2DObject](Part_Part2DObject/de.md)
+[Basic Attachment Tutorial](Basic_Attachment_Tutorial.md) [Part Part2DObject](Part_Part2DObject/de.md)
 ---
 
 # Part EditAttachment/de
 
 ## Beschreibung
 
-**Teil AnhangBearbeiten** ist ein Hilfsmittel, um ein Objekt an ein anderes anzuhängen. Das angehängte Objekt ist mit dem anderen Objekt verknüpft, d.h. wenn die Platzierung des letzteren nachträglich geändert wird, wird das angehängte Objekt auf seine neue Position aktualisiert.
+**Part Befestigen** ist ein Hilfsmittel, um ein Objekt an ein anderes anzuhängen. Das angehängte Objekt ist an dem anderen Objekt befestigt, d.h. wenn die Platzierung des letzteren nachträglich geändert wird, wird das angehängte Objekt auf seine neue Position aktualisiert.
 
 ## Anwendung
 
 1.  Wähle das Objekt aus, das angehängt werden soll.
-2.  Gehe in das Menü **Teil → Anhang\...**.
+2.  Gehe in das Menü **Formteil → Attachment\...**.
 3.  **Hinweis**: Wenn in [PartDesign](PartDesign_Workbench/de.md) gearbeitet wird und Skizzen, Bezugsgeometrien oder Grundkörper erstellt werden, sind die Schritte 1 und 2 überflüssig: der Anhang Dialog wird automatisch aufgerufen.
 4.  Unter \'\'\'Anhang \'\'\' Parameter kann *Nicht angehängt* gelesen werden. Die erste Schaltfläche unten ist mit **Auswahl...** beschriftet, um anzuzeigen, dass sie eine Auswahl in der 3D Ansicht erwartet.
 5.  Wähle ein Topologieelement auf dem Objekt, an das angehängt werden soll: Knoten, Kante oder Fläche/Ebene. Bezugsgeometrien aus [Part Behältern](Std_Part/de.md) sind ebenfalls wählbar.

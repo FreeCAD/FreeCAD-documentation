@@ -69,12 +69,12 @@ See the [Preferences](#Preferences.md) paragraph below for the location of the m
 
 ## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md), [Draft Preferences](Draft_Preferences.md) and [Std DlgParameter](Std_DlgParameter.md).
 
--   The default font file can be changed in the [Draft preferences](Draft_Preferences#Texts_and_dimensions.md) in the tab *Texts and dimensions* via **Default ShapeString font file**.
+-   The default font file can be changed in the preferences: **Edit → Preferences... → Draft → Texts and dimensions → Default ShapeString font file**.
 -   For Windows users:
-    -   Set in the [Parameter settings](Std_DlgParameter.md) the entry **BaseApp → Preferences → Dialog → DontUseNativeFontDialog** to {{True}} to use the non-native file dialog when selecting a font file from the task panel of this command.
-    -   Alternatively, set in the [Parameter settings](Std_DlgParameter.md) the entry **BaseApp → Preferences → Dialog → DontUseNativeDialog** to {{True}} to always use the non-native file dialog.
+    -   Set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeFontDialog** to {{True}} to use the non-native file dialog when selecting a font file from the task panel of this command.
+    -   Set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeDialog** to {{True}} to always use the non-native file dialog.
 
 ## Properties
 

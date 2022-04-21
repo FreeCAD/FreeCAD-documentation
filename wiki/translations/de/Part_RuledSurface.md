@@ -1,20 +1,17 @@
 ---
 - GuiCommand:/de
    Name:Part RuledSurface
-   Name/de:Part GeregelteOberfläche
-   MenuLocation:Part → RuledSurface
+   Name/de:Part Regelfläche
+   MenuLocation:Formteil → Regelfläche erzeugen
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:
+   SeeAlso:[Part FlächeAusLinienzügen](Part_MakeFace/de.md)
 ---
 
 # Part RuledSurface/de
 
-
-</div>
-
 ## Beschreibung
 
-Erstelle Geregelte Oberfläche
+Erstellt eine Regelfläche
 
 ![links](images/PartRuledSurface_it.png ) 
 
@@ -23,15 +20,6 @@ Erstelle Geregelte Oberfläche
 1.  Rufe den Befehl \"Geregelte Oberfläche\" auf mehrere Arten aufː
     -   Drücke die <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Part RuledSurface](Part_RuledSurface.md) Schaltfläche
     -   Verwende den **Part → Geregelte Oberfläche** Eintrag im Part Menü
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

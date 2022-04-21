@@ -1,79 +1,42 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Std Refresh
-   MenuLocation:[Bearbeiten](Std_Edit_Menu/de.md) → Aktualisieren
-   Workbenches:All
-   Shortcut:**F5** or **Ctrl+R**
+   Name/de:Std Aktualisieren
+   MenuLocation:Bearbeiten → Aktualisieren
+   Workbenches:Alle
+   Shortcut:**F5**
 ---
 
 # Std Refresh/de
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Wenn verwendet, berechnet dieser Befehl alle geänderten Komponenten auf dem Bildschirm neu und aktualisiert die Anzeige .
-
-
-</div>
-
-The **Std Refresh** command recomputes the active document. The command is disabled if the document does not require a recompute.
-
-
-<div class="mw-translate-fuzzy">
+Der Befehl **Std Aktualisieren** berechnet das aktuelle Dokument neu. Der Befehl ist deaktiviert, solange das Dokument keine Neuberechnung benötigt.
 
 ## Anwendung
 
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_Refresh.svg" width=16px> [Std Aktualisieren](Std_Refresh/de.md)** drücken.
+    -   Den Menüeintrag **Bearbeiten → <img src="images/Std_Refresh.svg" width=16px> Aktualisieren** auswählen.
+    -   Das Tastaturkürzel **F5**.
 
-</div>
+## Optionen
 
+-   Um eine Neuberechnung zu erzwingen, wählt man das Dokument oder ein bzw. mehrere Objekte in der [Baumansicht](Tree_view/de.md) aus, markiert den Menüeintrags **<img src="images/Std_MarkToRecompute.svg" width=16px> Markieren, um neu zu berechnen** im Kontextmenü, und ruft den Befehl auf.
+-   Für Objekte, aber nicht für Dokumente, kann man auch **Objekt neu berechnen** aus demselben Kontextmenü auswähen ({{Version/de|0.19}}).
 
-<div class="mw-translate-fuzzy">
+## Hinweise
 
-Drücke **F5** oder **Ctrl**+**R** oder klicke auf das Symbol **[<img src=images/Std_Refresh.svg style="width:16px"> [Refresh](Std_Refresh.md)**.
-
-
-</div>
-
-## Options
-
--   To force a recompute select the document or one or more objects in the [Tree view](Tree_view.md), choose the **<img src="images/Std_MarkToRecompute.svg" width=16px> Mark to recompute** option from the context menu, and invoke the command.
--   For objects, but not for documents, you can also choose **Recompute object** from the same context menu (<small>(v0.19)</small> ).
-
-## Notes
-
--   For a macro that will recompute the active document see: [Macro ForceRecompute](Macro_ForceRecompute.md).
-
-
-<div class="mw-translate-fuzzy">
+-   Für ein Makro, das das aktive Dokument neu berechnet, siehe: [Makro Neuberechnung Erzwingen](Macro_ForceRecompute/de.md).
 
 ## Skripten
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
 **Siehe auch:**
 
-[FreeCAD Grundlagen Skripten ](FreeCAD_Scripting_Basics/de.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Die Neuberechnung des Modells kann in der [Makros](macros.md) und von der [Python](Python.md) Konsole aus mit Hilfe der `recompute` Methode des aktuell aktiven Dokuments durchgeführt werden.
-
-
-</div>
+Um ein Dokument neu zu berechnen, verwendet man die Methode `recompute` des Document-Objekts.
 
 
 ```python
@@ -84,13 +47,7 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Std Base navi

@@ -30,6 +30,39 @@ Si le symbole semble plus grand que prévu, utilisez la propriété scale (éche
 
 -    **Scale Type**pour les symboles est toujours défini sur *Personnalisé* lors de la création. C\'est pour plus de commodité, car les symboles sont presque toujours mis à l\'échelle différemment du reste des objets de la page.
 
+## Propriétés
+
+
+{{TitleProperty|Base}}
+
+Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
+
+-    **X**
+    
+
+-    **Y**
+    
+
+-    **Lock Position**
+    
+
+-    **Rotation**
+    
+
+-    **Scale Type**
+    
+
+-    **Scale**
+    
+
+-    **Caption**
+    
+
+
+{{TitleProperty|Drawing view}}
+
+-    **Editable Texts**: Liste des textes modifiables, le cas échéant.
+
 ## Script
 
 

@@ -1,9 +1,9 @@
 ---
-- TutorialInfo:   Topic:Modeling
-   Level:Experienced User
+- TutorialInfo:/de
+   Topic:Modellierung
+   Level:Erfahrene Anwender
    Author:NormandC
-   Time:
-   FCVersion:0.19.23300 or higher
+   FCVersion:0.19.23300 oder höher
    Files:
 ---
 
@@ -21,17 +21,11 @@ Bitte beachte, dass sich diese Version von FreeCAD noch in einem frühen Entwick
 
 ![Lagergehäuse Tutorium - Fertiges Lagergehäuse (oben)\|thumb\|right\|400px](images/HolderTop2-19.jpg )
 
+~~Wie der Warnhinweis oben auf der Seite bereits andeutet, funktioniert dieses **Tutorium NICHT, es sei denn, du kompilierst einen speziellen, sehr experimentellen Zweig aus dem FreeCAD Quellcode** und ist ein einführendes Tutorium zur Modellierung mit dem PartDesign Arbeitsbereich in FreeCAD **unter Verwendung von Datumsebenen, die in den meisten FreeCAD Versionen noch nicht vorhanden sind**.~~
 
-<div class="mw-translate-fuzzy">
+## Kurze Zweckbestimmung 
 
-Wie der Warnhinweis oben auf der Seite bereits andeutet, funktioniert dieses **Tutorial NICHT, es sei denn, du kompilierst einen speziellen, sehr experimentellen Zweig aus dem FreeCAD Quellcode** und ist ein einführendes Tutorial zur Modellierung mit dem PartDesign Arbeitsbereich in FreeCAD **unter Verwendung von Datumsebenen, die in den meisten FreeCAD Versionen noch nicht vorhanden sind**. Der Zweck des Tutoriums ist es, dich in zwei verschiedene Arbeitsabläufe zur Erstellung eines Gussteils mit Entwürfen und Verrundungen einzuführen. Je nachdem, welche anderen CAD Programme du bisher verwendet hast, könnte dir das eine oder das andere vertraut sein. Als Arbeitsbeispiel werden wir ein einfaches Lagergehäuse modellieren.
-
-
-</div>
-
-## Purpose in Brief 
-
-The purpose of the tutorial is to introduce you to two different work flows for creating a cast part with drafts and fillets. Depending on what other CAD programs you have been using, one or the other might be familiar to you. As a working example we will be modeling a simple bearing holder.
+Der Zweck des Tutoriums ist es, dich in zwei verschiedene Arbeitsabläufe zur Erstellung eines Gussteils mit Entwürfen und Verrundungen einzuführen. Je nachdem, welche anderen CAD-Programme du bisher verwendet hast, könnte dir das eine oder das andere vertraut sein. Als Arbeitsbeispiel werden wir ein einfaches Lagergehäuse modellieren.
 
 Dies ist der zweite Teil des Tutoriums. Es wird der so genannte \"Multikörper\" Arbeitsablauf verwendet, wobei der (einfachere) obere Teil des Gehäuses als Beispiel dient.
 

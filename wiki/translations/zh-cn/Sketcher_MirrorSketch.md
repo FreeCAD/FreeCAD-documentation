@@ -30,7 +30,7 @@
 
 </div>
 
-Notes:
+## Notes
 
 -   Multiple sketches can be selected before applying the operation.
 

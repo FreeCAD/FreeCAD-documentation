@@ -1,10 +1,4 @@
 # Path ToolShape/pl
-}
-
-
-
-
-
 {{TOCright}}
 
 ## Opis
@@ -16,8 +10,8 @@ Początkowo Profile narzędzi są po prostu dokumentami FreeCAD z jednym korpuse
 Tworzenie nowych profili narzędzi jest tematem zaawansowanym. Najczęściej potrzebne kształty już istnieją i są dostarczane wraz z instalacją programu FreeCAD:
 
 -   W systemie Linux jest to zazwyczaj folder `/usr/lib64/FreeCAD/Mod/Path/Tools/Shape`.
+-   Na macOS jest to zazwyczaj folder `/Applications/FreeCAD/Mod/Path/Tools/Shape`.
 -   W systemie Windows jest to zazwyczaj folder `C:\Program Files\FreeCAD\Mod\Path\Tools\Shape`.
--   Na macOS jest to zazwyczaj folder `/Applications/FreeCAD/Mod/Path/Tools/Shape`. {{ColoredText||Red|--> musi zostać poprawione}}
 
 Są to:
 
@@ -59,6 +53,9 @@ Można je znaleźć w podkatalogu {{FileName|/Mod/Path/Tools/Shape/}}, w którym
 
 ## Użycie
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Utwórz nowy dokument FreeCAD.
 2.  Otwórz środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Część](PartDesign_Workbench/pl.md).
 3.  Utwórz zawartość i nadaj jej nazwę, która będzie wyświetlana przy wyborze końcówki.
@@ -75,17 +72,21 @@ Można je znaleźć w podkatalogu {{FileName|/Mod/Path/Tools/Shape/}}, w którym
 7.  Wykonaj wyciągnięcie szkicu przez obrót wokół osi z.
 8.  Zapisz dokument jako nowy plik w katalogu `Shape`.
 
+
+</div>
+
+-   Uwaga 1. Jeśli w systemie Windows odmówiono Ci dostępu do folderu, uruchom program FreeCAD w trybie ADMINISTRATOR.
+-   Uwaga 2. Zawartość Zestawu narzędzi musi być pierwszym obiektem w oknie [widoku drzewa](Tree_view/pl.md). Te instrukcje zapewniają, że tak właśnie jest.
+
 ## Miniaturki narzędzi 
 
-Końcówki narzędzi będą miały małą ikonę narzędzia w drzewie, jeśli obraz zostanie zapisany z aktywnymi miniaturami.
+Końcówki narzędzi będą miały małą ikonę narzędzia w oknie [widoku drzewa](Tree_view/pl.md), jeśli obraz zostanie zapisany z aktywnymi miniaturami.
 
 Ważne uwagi:
 
 -   Przed zapisaniem dokumentu upewnij się, że w preferencjach programu FreeCAD zaznaczona jest opcja Zapisz miniaturę, a opcja Dodaj logo programu jest nieaktywna.
 -   Upewnij się także, że przełączasz się na Widok z przodu i Dopasuj element do ekranu
 -   Cokolwiek zobaczysz podczas zapisywania dokumentu, będzie to wizualna reprezentacja szablonu.
-
-## Opcje
 
 
 

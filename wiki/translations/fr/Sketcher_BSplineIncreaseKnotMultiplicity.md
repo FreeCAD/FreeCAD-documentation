@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher BSplineIncreaseKnotMultiplicity
    Name/fr:Sketcher Plus de nœuds d'une B-spline
-   MenuLocation:Sketch → Outils d'esquisse B-Spline → Augmenter la multiplicité de noeuds
+   MenuLocation:Esquisse → Outils d'esquisse B-Spline → Augmenter la multiplicité de noeuds
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Sketcher Multiplicité des nœuds d'une B-spline](Sketcher_BSplineKnotMultiplicity/fr.md), [Sketcher Moins de nœuds d'une B-spline](Sketcher_BSplineDecreaseKnotMultiplicity/fr.md)
@@ -36,7 +36,7 @@ On peut voir que la spline de multiplicité de nœud 1 est complètement modifi�
 
 1.  Sélectionnez un nœud B-spline, soit:
     -   par le bouton **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:16px"> [Augmenter la multiplicité des nœuds](Sketcher_BSplineIncreaseKnotMultiplicity/fr.md)**.
-    -   par le menu **Sketch → Sketcher B-spline tools → [<img src=images/_Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:16px"> Augmenter la multiplicité des nœuds**.
+    -   par le menu **Esquisse → Outils d'esquisse B-Spline → [<img src=images/_Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:16px"> Augmenter la multiplicité des nœuds**.
 
 
 

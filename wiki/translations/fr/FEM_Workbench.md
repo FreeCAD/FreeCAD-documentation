@@ -54,11 +54,11 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Epaisseur d\'une coque](FEM_ElementGeometry2D/fr.md) : Utilisé pour définir l\'épaisseur de l\'élément de structure.
 
--   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Section fluide pour flux 1D](FEM_ElementFluid1D/fr.md) : crée un élément de section fluide FEM pour les réseaux pneumatiques et hydrauliques.
+-   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Section fluide pour flux 1D](FEM_ElementFluid1D/fr.md) : Utilisé pour créer un élément de section fluide pour les réseaux pneumatiques et hydrauliques.
 
 ### Contraintes électrostatiques 
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Contrainte électrostatique potentielle](FEM_ConstraintElectrostaticPotential/fr.md) :
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Contrainte potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) : Utilisé pour définir le potentiel électrostatique.
 
 ### Contraintes de fluides 
 
@@ -106,7 +106,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 ### Contraintes sans solveur 
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condition aux limites du fluide](FEM_ConstraintFluidBoundary/fr.md) :
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condition aux limites du fluide](FEM_ConstraintFluidBoundary/fr.md) : Utilisé pour définir une condition limite de fluide.
 
 -   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Contrainte de roulement](FEM_ConstraintBearing/fr.md) : Utilisé pour définir une contrainte de roulement.
 
@@ -170,21 +170,21 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:32px;"> [Appliquer les modifications](FEM_PostApplyChanges/fr.md) :
 
--   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Post traitement affichage des résultats](FEM_PostPipelineFromResult/fr.md) : Permet d\'ajouter une nouvelle représentation graphique des résultats d\'analyse FEM (échelle de couleurs et plus d\'options d\'affichage).
+-   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Pipeline à partir du résultat](FEM_PostPipelineFromResult/fr.md) : Permet d\'ajouter une nouvelle représentation graphique des résultats d\'analyse FEM (échelle de couleurs et plus d\'options d\'affichage).
 
--   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Filtre de distorsion](FEM_PostFilterWarp/fr.md) : Utilisé pour visualiser la forme déformée à l\'échelle du modèle.
+-   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Filtre de visualisation des déformations](FEM_PostFilterWarp/fr.md) : Utilisé pour visualiser la forme déformée à l\'échelle du modèle.
 
--   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Filtre découpe scalaire](FEM_PostFilterClipScalar/fr.md) :
+-   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Filtre d\'écrêtage scalaire](FEM_PostFilterClipScalar/fr.md) : Utilisé pour écrêter un champ avec une valeur scalaire spécifiée.
 
--   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Filtre de fonction coupe](FEM_PostFilterCutFunction/fr.md) :
+-   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Filtre de fonction coupe](FEM_PostFilterCutFunction/fr.md) : Permet d\'afficher les résultats sur une sphère ou un plan traversant le modèle.
 
--   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md) :
+-   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Filtre d\'écrêtage d\'une région](FEM_PostFilterClipRegion/fr.md) : Utilisé pour écrêter un champ avec une sphère ou un plan traversant le modèle.
 
--   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Filtre de données le long d\'une ligne](FEM_PostFilterDataAlongLine/fr.md) :
+-   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Filtre d\'écrêtage selon une ligne](FEM_PostFilterDataAlongLine/fr.md) : Utilisé pour tracer les valeurs d\'un champ le long d\'une ligne spécifiée.
 
--   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Filtre de contraintes linéarisées](FEM_PostFilterLinearizedStresses/fr.md) :
+-   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Graphique de linéarisation des contraintes](FEM_PostFilterLinearizedStresses/fr.md) : Crée un graphique de linéarisation des contraintes.
 
--   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Filtre de données au point](FEM_PostFilterDataAtPoint/fr.md) :
+-   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Données du filtre d\'écrêtage d\'un point](FEM_PostFilterDataAtPoint/fr.md) : Permet d\'afficher la valeur d\'un champ sélectionné à un point donné.
 
 -   [Fonctions filtres](FEM_PostCreateFunctions/fr.md) :
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;">

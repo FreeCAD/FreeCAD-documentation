@@ -1,10 +1,10 @@
 # Command/pl
-## Introduction
+## Wprowadzenie
 
 
 {{TOCright}}
 
-A [command](Command.md) is what is being executed when you press a toolbar button or type a keyboard shortcut. It can be a very simple action, like changing the zoom level of the [3D view](3D_view.md) or rotating the point of view, or a complex system that will open dialog boxes and wait for the user to perform specific tasks.
+**Polecenie** to czynność wykonywana po naciśnięciu przycisku na pasku narzędzi lub wpisaniu skrótu klawiaturowego. Może to być bardzo prosta czynność, jak zmiana stopnia powiększenia [widoku 3D](3D_view/pl.md) lub obrót punktu widzenia, albo złożony system, który będzie otwierał okna dialogowe i czekał na wykonanie przez użytkownika określonych zadań.
 
 Each FreeCAD command has a unique name, that appears in the [:Category:Command Reference](:Category_Command_Reference.md) page. Commands can be launched by a toolbar button, a menu item, or from a [python](Python.md) script or the [Python console](Python_console.md), by running:
 
@@ -81,7 +81,7 @@ class MyCommand:
         """Run the following code when the command is activated (button press)."""
         print("Activated")
 
-    def isActive(self):
+    def IsActive(self):
         """Return True when the command should be active or False when it should be disabled (greyed)."""
         return True
 

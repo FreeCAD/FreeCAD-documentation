@@ -40,7 +40,7 @@ Die Verteilung des Drucks auf die Fläche ist immer gleichmäßig und immer senk
 
 </div>
 
--   Pressure on faces: <https://tracker.freecadweb.org/view.php?id=3050>
+-   Pressure on faces: <https://github.com/FreeCAD/FreeCAD/issues/5699>
 
 
 <div class="mw-translate-fuzzy">

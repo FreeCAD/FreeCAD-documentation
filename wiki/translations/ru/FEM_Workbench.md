@@ -54,11 +54,23 @@
 
 -   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Толщины листа кровельного материала](FEM_ElementGeometry2D/ru.md): Создает Условие толщины пластины кровельного материала для расчета МКЭ.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Fluid section for 1D flow](FEM_ElementFluid1D/ru.md): Создает элемент жидкостной секции МКЭ для пневматических и гидравлических сетей.
+
+
+</div>
 
 ### Электростатические ограничения 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Создать электростатический потенциал](FEM_ConstraintElectrostaticPotential/ru.md): Создает граничное условие МКЭ для электростатического потенциала.
+
+
+</div>
 
 ### Жидкостные ограничения 
 
@@ -112,7 +124,13 @@
 
 ### Ограничения без решателя 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary/ru.md): Create fluid boundary condition on face entity for Computional Fluid Dynamics.
+
+
+</div>
 
 -   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing/ru.md): Используется для определения подшипниковых ограничений.
 
@@ -212,17 +230,53 @@ Translations:FEM Module/141/ru
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/ru.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Function cut filter](FEM_PostFilterCutFunction/ru.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Region clip filter](FEM_PostFilterClipRegion/ru.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Line clip filter](FEM_PostFilterDataAlongLine/ru.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Stress linearization plot](FEM_PostFilterLinearizedStresses/ru.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint/ru.md):
+
+
+</div>
 
 -   [Filter functions](FEM_PostCreateFunctions/ru.md):
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;">

@@ -22,14 +22,14 @@ Pour une solution plus générale, consultez l\'[atelier Reporting](https://gith
 
 ## Utilisation
 
-1.  Ouvrir ou créer un document FreeCAD qui contient plusieurs objets.
+1.  Ouvrez ou créez un document FreeCAD qui contient plusieurs objets.
 2.  Cliquer sur le bouton **<img src="images/Arch_Schedule.svg" width=16px> [Planification](Arch_Schedule/fr.md)**.
-3.  Ajuster les options désirées.
-4.  Cliquer **OK**.
+3.  Ajustez les options désirées.
+4.  Cliquez **OK**.
 
 ## Déroulement des tâches 
 
-D\'abord, vous devez avoir un modèle. Par exemple, voici un document avec plusieurs objets. Ici ce sont des objets Arch, mais ça n\'est pas obligatoire, ça peut être n\'importe quel objet.
+Tout d\'abord, vous devez disposer d\'un modèle. Par exemple, voici un document avec quelques objets. Ici ce sont des objets Arch, mais ce n\'est pas obligé que ce soit des Arch, cela peut être n\'importe quoi.
 
 ![](images/Arch_schedule_example01.jpg )
 

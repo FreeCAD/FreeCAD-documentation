@@ -19,8 +19,14 @@ Esta herramienta <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 -   Elegir puntos en un área vacía de la vista 3D, o en un objeto existente (las restricciones automáticas deben estar activas en TaskView).
 -   Pulsando **Esc** o haciendo clic con el botón derecho del ratón se cancela la función.
+
+
+</div>
 
 
 

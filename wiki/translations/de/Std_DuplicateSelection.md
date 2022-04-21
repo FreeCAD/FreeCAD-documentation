@@ -1,50 +1,31 @@
-# Std DuplicateSelection/de
 ---
-- GuiCommand:/de   Name:Std DuplicateSelection   Name/de:Std Auswahl duplizieren   MenuLocation:Bearbeiten → Auswahl duplizieren   Shortcut:    Workbenches:Alle   SeeAlso:[Kopieren](Std_Copy/de.md), [Einfügen](Std_Paste/de.md)---
+- GuiCommand:/de
+   Name:Std DuplicateSelection
+   Name/de:Std AuswahlDuplizieren
+   MenuLocation:Bearbeiten → Auswahl duplizieren
+   Workbenches:Alle
+   SeeAlso:[Std Ausschneiden](Std_Cut/de.md), [Std Kopieren](Std_Copy/de.md), [Std Einfügen](Std_Paste/de.md)
+---
 
-
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
+# Std DuplicateSelection/de
 
 ## Beschreibung
 
-Der Auswahl duplizieren-Befehl ist eine \'Verkürzung\' von Kopieren + Einfügen (Copy + Paste). Er erstellt Kopien der aktuell ausgewählten Objekte in das aktuelle Dokument.
-
-
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
+Der Befehl **Std AuswahlDuplizieren** dupliziert Objekte innerhalb des aktiven Dokuments.
 
 ## Anwendung
 
-1.  Wähle die zu duplizierenden Objekte.
-2.  Benutze aus der Menüleiste **Bearbeiten** → **Auswahl** duplizieren.
+1.  Ein oder mehrere Objekte auswählen.
+2.  Menüeintrag **Bearbeiten → Auswahl duplizieren** auswählen.
+3.  Wenn die Objekte Abhängigkeiten besitzen, die nicht ausgewählt wurden, wird ein Dialogfeld zur Angabe der zu berücksichtigenden Abhängigkeiten auffordern.
 
+## Hinweise
 
-</div>
+-   FreeCAD wird automatisch die internen Namen und, abhängig von den Einstellungen, die Label der Objekte ändern, um Namenskonflikte zu vermeiden.
 
-## Notes
+## Einstellungen
 
-
-<div class="mw-translate-fuzzy">
-
-## Mehr
-
-Mehr Einzelheiten zum Replizieren von Objekten gibt es auf der [Objekte kopieren](Copying_Objects/de.md)-Seite.
-
-
-</div>
-
-## Preferences
-
--   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Duplizierte Label sind erlaubt, wenn **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Document → DuplicateLabels** auf `True` gesetzt ist. Diese Einstellung kann auch im [Voreinstellungseditor](Preferences_Editor/de#Dokument.md) geändert werden.
 
 
 

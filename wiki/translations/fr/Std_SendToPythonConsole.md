@@ -77,6 +77,13 @@ Les variables suivantes sont créées en fonction de l\'objet sélectionné et d
 
 -   Toutes les variables précédemment créées sont supprimées à chaque fois que la commande est exécutée.
 
+-   Si l\'objet sélectionné est un Lien ({{Incode|App::Link}}) et que l\'objet lié est dérivé de la classe {{Incode|Part::Feature}}, la variable {{Incode|shp}} sera la forme de l\'objet lié. Si le lien a été transformé ou redimensionné et que vous souhaitez accéder à la forme redimensionnée/transformée, vous pouvez le faire avec ce code :
+
+:   
+    
+```pythonlnk_shp = Part.getShape(lnk)```
+    
+
 
 
 

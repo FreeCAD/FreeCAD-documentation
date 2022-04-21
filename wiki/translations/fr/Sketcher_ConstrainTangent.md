@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainTangent
    Name/fr:Sketcher Contrainte tangente
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte tangente
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte tangente
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**T**
    SeeAlso:[Sketcher Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)
@@ -14,7 +14,7 @@
 
 La Contrainte tangente fait se toucher deux courbes (devant être tangente). Les lignes sont traitées comme infinie, et les arcs sont traités comme des cercles pleins/ellipses. La contrainte est également capable de connecter deux courbes, les forçant à tangenter au niveau du joint, ce qui rend le joint lisse et continu.
 
-La contrainte de tangente peut également être utilisée avec deux lignes pour les rendre colinéaires.
+La Contrainte tangente peut également être utilisée avec deux lignes pour les rendre colinéaires.
 
 ## Utilisation
 
@@ -74,9 +74,9 @@ Dans ce mode, deux courbes sont rendues tangentes et le point de tangence est id
 
 **Sélection acceptée :**
 
--   ligne/courbe + ligne/courbe
+-   toute ligne/courbe + toute ligne/courbe + tout point
 
-\"Tout point\" peut être un point isolé ou un point d\'un élément, par exemple, le centre d\'un cercle, un point d\'extrémité d\'un arc ou l\'origine.
+\"Un point quelconque\" peut être un point isolé ou un point de quelque chose, par exemple le centre d\'un cercle, l\'extrémité d\'un arc ou l\'origine.
 
 Pour que la contrainte fonctionne correctement, le point doit être sur les deux courbes. Donc, comme la contrainte est invoquée, le point sera automatiquement contraint sur les deux courbes (une [Sketcher contrainte auxiliaire](Sketcher_helper_constraint/fr.md) sera ajoutée si nécessaire) et les courbes seront forcées à tangenter en ce point. Ces [Sketcher contraintes auxiliaires](Sketcher_helper_constraint/fr.md) sont des contraintes ordinaires simples. Elles peuvent être ajoutées manuellement ou supprimées.
 

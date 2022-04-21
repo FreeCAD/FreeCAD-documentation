@@ -140,6 +140,13 @@ Zeichenketten können durch das \'+\'-Zeichen aneinandergehängt werden.
 
 Das folgende Beispiel {{Incode|<<MY>>+<<TEXT>>}} wird verbunden zu \"MYTEXT\".
 
+#### String conversion 
+
+Numerical values can be converted to strings with the `str` function:
+
+
+`str(Box.Length.Value)`
+
 #### Zeichenkettenformatierung
 
 Zeichenkettenformatierung wird unterstützt durch die (alte) %-Form von Python.

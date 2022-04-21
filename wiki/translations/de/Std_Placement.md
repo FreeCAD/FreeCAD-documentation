@@ -2,35 +2,40 @@
 - GuiCommand:/de
    Name:Std Placement
    Name/de : Std Positionierung
-   MenuLocation:Bearbeiten → Platzierung...
+   MenuLocation:Bearbeiten → Placement...
    Workbenches:Alle
-   SeeAlso:[Std Ausrichtung](Std_Alignment/de.md), [Platzierung](Placement/de.md)
+   SeeAlso:[Std Ausrichtung](Std_Alignment/de.md), [Positionierung](Placement/de.md)
 ---
 
 # Std Placement/de
 
 ## Beschreibung
 
-Der **Std Platzierung** Befehl zeigt die Platzierung [ Aufgabenkonsole](Task_panel/de.md) für ein ausgewähltes Objekt an.
+Der Befehl **Std Positionierung** zeigt den [ Aufgabenbereich](Task_panel/de.md) Placement für ein ausgewähltes Objekt an.
 
 ![](images/Std_Placement_taskpanel.png ) 
-*Die Positionierungsaufgabenkonsole*
+*Der Aufgabenbereich Placement*
 
 ## Verwendung
 
-1.  Wähle ein einzelnes Objekt aus, das eine **Platzierung**seigenschaft im [Eigenschaftseditor](Property_editor/de.md) hat.
-2.  Wähle die **Bearbeiten → Platzierung...** Option aus dem Menü.
-3.  Ändere einen oder mehrere der Translations- und Rotationsparameter.
-4.  Mache eins der folgenden:
-    -   Drücke die **OK** Schaltfläche, um die Änderungen zu übernehmen und die Aufgabenkonsole zu schließen.
-    -   Drücke die **Apply** Schaltfläche, um die Änderungen zu übernehmen, aber lasse die Aufgabenkonsole für weitere Änderungen offen.
-5.  Drücke die **esc** oder die **Abbruch** Taste um die Aufgabe abzubrechen. Dies wird alle Änderungen, die nicht übernommen wurden, zurücksetzen.
+1.  Ein einzelnes Objekt, das eine {{PropertyData/de|Placement}} besitzt im [Eigenschafteneditor](Property_editor/de.md) auswählen.
 
-Der Dialog kann auch durch Klicken auf die Ellipsentaste **...** gestartet werden, die im [Eigenschafteneditor](Property_editor/de.md) erscheint, wenn man auf die **Platzierung** Eigenschaft klickt.
+2.  Die Menüoption **Bearbeiten → Placement...** auswählen.
+
+3.  Einen oder mehrere der Translations- und Rotationsparameter ändern.
+
+4.  Mache eins der folgenden:
+    -   Die Schaltfläche **OK** drücken, um die Änderungen zu übernehmen und den Aufgabenbereich zu schließen.
+    -   Die Schaltfläche **Anwenden** drücken, um die Änderungen zu übernehmen, aber den Aufgabenbereich für weitere Änderungen offen zu lassen.
+
+5.  
+    **esc**oder die Schaltfläche **Abbruch** drücken, um die Ausführung abzubrechen. Dies verwirft alle Änderungen, die nicht übernommen wurden.
+
+Der Dialog kann auch durch Klicken auf die Ellipsentaste **...** gestartet werden, die im [Eigenschafteneditor](Property_editor/de.md) erscheint, wenn man auf die {{PropertyData/de|Placement}} klickt.
 
 ## Hinweise
 
--   Für weitere Informationen zu den Positionierungsparametern siehe die [Platzierungs](Placement/de.md) Seite und und das [Flugzeug](Aeroplane/de.md) Tutorium.
+-   Für weitere Informationen zu den Positionierungsparametern siehe die Seite [Positionierung](Placement/de.md) und und das Tutorium [Flugzeug](Aeroplane/de.md).
 
 ## Skripten
 

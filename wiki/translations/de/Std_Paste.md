@@ -1,49 +1,37 @@
-# Std Paste/de
 ---
-- GuiCommand:/de   Name/de:Std_Paste   MenuLocation:Bearbeiten → Einfügen   Shortcut:**Strg**+**V**   Workbenches:Alle   SeeAlso:[Kopieren](Std_Copy/de.md), [Auswahl duplizieren](Std_DuplicateSelection/de.md)---
+- GuiCommand:/de
+   Name:Std Paste
+   Name/de:Std Einfügen
+   MenuLocation:Bearbeiten → Einfügen
+   Workbenches:Alle
+   Shortcut:** Strg**+**V**
+   SeeAlso:[Std Ausschneiden](Std_Cut/de.md), [Std Kopieren](Std_Copy/de.md), [Std AuswahlDuplizieren](Std_DuplicateSelection/de.md)
+---
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+# Std Paste/de
 
 ## Beschreibung
 
-Der Einfügen-Befehl wird bei der Replizierung von Objekten des aktuellen [Dokuments](Document_structure/de.md) verwendet. Er platziert die Objekte aus der *Zwischenablage* im aktuellen Dokument. Objekte können zwischen geöffneten Dokumenten kopiert werden.
-
-
-</div>
-
-The **Std Paste** command pastes objects from the Clipboard into the active document.
-
-
-<div class="mw-translate-fuzzy">
+Der Befehl **Std Einfügen** fügt Objekte aus der Zwischenablage in das aktuelle Dokument ein.
 
 ## Anwendung
 
-1.  Aktiviere das Zieldokument durch Anklicken im Projekt-Reiter oder dem Dokumenten-Fenster.
-2.  Drücke das **[16px|Einfügen](File:Std_Paste.png.md)**-Piktogramm, die **Strg** + **V**-Tasten oder benutze aus der Menüleiste **Bearbeiten** → **Einfügen**.
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Std_Paste.svg" width=16px> [Std Einfügen](Std_Paste/de.md)** drücken.
+    -   Den Menüeintrag {{MenuCommand/de|Bearbeiten → <img src="images/Std_Paste.svg" width=16px> Einfügen}} im Hauptmenü auswählen.
+    -   Den Menüeintrag **<img src="images/Std_Paste.svg" width=16px> Einfügen** im Kontextmenü der [Baumansicht](Tree_view/de.md) auswählen. Diese option steht nur dann zur Verfügung, wenn ein vorhandendes Objekt ausgewählt wurde.
+    -   Das Tastaturkürzel **Strg**+**V**.
 
+## Hinweise
 
-</div>
+-   FreeCAD ändert die internen Namen automatisch und, abhängig von den Einstellungen, auch die Label der Objekte, um Namenskonflikte zu vermeiden.
+-   Ein Zellen-Alias einer Kalkulationstabelle, der schon in der Tabelle existiert, wird nicht eingefügt.
+-   Wenn man in FreeCAD in einem Textfenster, einem Eingabefeld, oder einer Kalkulationstabelle arbeitet, ruft das Tastaturkürzel **Strg**+**V** in fast allen Fällen nicht den Befehl **Std Einfügen** auf, sondern verwendet stattdessen die Funktion Einfügen des Betriebssystems.
+-   Es ist nicht möglich mit FreeCAD erzeugte Objekte durch Kopieren und Einfügen zwischen FreeCAD und anderen Anwendungen auszutauschen.
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Paste.svg" width=16px> [Std Paste](Std_Paste.md)** button.
-    -   Select the **Edit → <img src="images/Std_Paste.svg" width=16px> Paste** option from the menu.
-    -   Select the **<img src="images/Std_Paste.svg" width=16px> Paste** option from the [Tree view](Tree_view.md) context menu. Note that this option is only available when an exiting object has been selected.
-    -   Use the keyboard shortcut: **Ctrl**+**V**.
+## Einstellungen
 
-## Notes
-
--   FreeCAD will automatically change the internal names and, depending on the preferences, labels of objects to avoid name conflicts.
--   A spreadsheet cell alias that already exists in the spreadsheet will not be pasted.
--   When you are working in a FreeCAD text window, an input box or a spreadsheet, the standard keyboard shortcut **Ctrl**+**V**, in almost all cases, does not call the **Std Paste** command but uses the Paste function from the OS instead.
--   It is not possible to copy-paste native objects between FreeCAD and other applications.
-
-## Preferences
-
--   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Duplizierte Label sind erlaubt, wenn **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Document → DuplicateLabels** auf `True` gesetzt ist. Diese Einstellung kann auch im [Voreinstellungseditor](Preferences_Editor/de#Dokument.md) geändert werden.
 
 
 

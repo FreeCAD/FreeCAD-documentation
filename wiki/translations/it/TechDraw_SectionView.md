@@ -21,11 +21,17 @@ Lo strumento Vista di sezione crea una vista in sezione trasversale basata sulla
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare una vista di una parte nella finestra o nella struttura 3D.
 2.  Se nel documento sono presenti più pagine di disegno, è necessario selezionare anche la pagina desiderata nella struttura.
 3.  Premere il pulsante **<img src="images/TechDraw_SectionView.svg" width=16px> [Vista di sezione](TechDraw_SectionView/it.md)**.
 4.  Si apre una finestra di dialogo che aiuta a calcolare le varie proprietà della sezione. La finestra di dialogo calcola ragionevoli punti di partenza per SectionNormal e Direzione della vista, ma per esigenze speciali questi possono essere modificati dopo la creazione.
 5.  Se si commette un errore o si cambia idea durante l\'impostazione dei parametri della sezione, premere il pulsante **Reset** e si può ricominciare da capo.
+
+
+</div>
 
 ![](images/TechDraw_Section_Taskview.png ) 
 *La scheda Azioni per definire il taglio in sezione di una vista*

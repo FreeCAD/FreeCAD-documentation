@@ -2,8 +2,8 @@
 - GuiCommand:/de
    Name:Part Chamfer
    Name/de:Part Fase
-   MenuLocation:Part → Fase...
-   Workbenches:[Part Arbeitsbereich](Part_Workbench/de.md)
+   MenuLocation:Formteil → Fase...
+   Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Verrundung](Part_Fillet/de.md)
 ---
 
@@ -158,15 +158,6 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 -   Berechnet alle geänderten Komponenten auf dem Bildschirm neu und aktualisiert die Anzeige.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

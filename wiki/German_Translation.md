@@ -202,7 +202,7 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
                                                                                                                                                                                         
   <img alt="" src=images/Std_AxisCross.svg  style="width:16px;"> Toggle axis cross                                                      Command           Achsenkreuz ein/ausschalten       ein-?
   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:16px;"> Clipping plane                                             Command           Schnittebene                      
-  \--Icon\-- Persistent section cut                                                                                                 Command           Persistent section cut            Übersetzen!
+  <img alt="" src=images/Part_SectionCut.svg  style="width:16px;"> Persistent section cut                                             Command           Persistent section cut            Übersetzen!
   <img alt="" src=images/Std_TextureMapping.svg  style="width:16px;"> Texture mapping\...                                          Command           Texturabbildung\...               
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Visibility                                                                   Generic term      **Sichtbarkeit**                  
   <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Workbench                                                                    Generic term      **Arbeitsbereich**                

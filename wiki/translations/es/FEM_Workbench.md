@@ -55,11 +55,23 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Espesor de caja de placa](FEM_ElementGeometry2D/es.md):
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Sección de fluido para flujo 1D](FEM_ElementFluid1D/es.md): Crea un elemento de sección de fluido FEM para redes neumáticas e hidráulicas.
+
+
+</div>
 
 ### Restricciones electrostáticas 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Restricción Potencial electrostático](FEM_ConstraintElectrostaticPotential/es.md):
+
+
+</div>
 
 ### Restricciones Fluido 
 
@@ -113,7 +125,13 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 ### Restricciones sin solucionador 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condición límite del fluido](FEM_ConstraintFluidBoundary/es.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Restricción de rodamiento](FEM_ConstraintBearing/es.md): Utilizado para definir una restricción de rodamiento.
 
@@ -213,17 +231,53 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Filtro de clip Escalar](FEM_PostFilterClipScalar/es.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Función Filtro de corte](FEM_PostFilterCutFunction/es.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Filtro de clip de región](FEM_PostFilterClipRegion/es.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Filtro clip de línea](FEM_PostFilterDataAlongLine/es.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Gráfico de linealización de tensiones](FEM_PostFilterLinearizedStresses/es.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Datos en el filtro de clip de punto](FEM_PostFilterDataAtPoint/es.md):
+
+
+</div>
 
 -   [Funciones del filtro](FEM_PostCreateFunctions/es.md):
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;">

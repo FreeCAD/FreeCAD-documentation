@@ -3,7 +3,7 @@
 
 Cette page décrit comment utiliser les B-splines dans FreeCAD. Elle donne également des informations de base sur ce que sont les B-splines et pour quelles applications elles sont utiles.
 
-## Motivation
+## Objectif
 
 Si vous connaissez déjà les B-splines et leur application, vous pouvez aller directement à la section [B-splines dans FreeCAD](#B-splines_dans_FreeCAD.md).
 

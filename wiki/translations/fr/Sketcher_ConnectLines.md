@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConnectLines
    Name/fr:Sketcher Raccorder des arêtes
-   MenuLocation:Sketch → Outils d'esquisse → Raccorder les arêtes
+   MenuLocation:Esquisse → Outils d'esquisse → Raccorder les arêtes
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **J**
    Version:0.15
@@ -21,7 +21,7 @@ Applique des [Contraintes de coïncidence](Sketcher_ConstrainCoincident/fr.md) a
 2.  Lancez la commande de plusieurs manières:
     -   Appuyez sur le bouton **[<img src=images/Sketcher_ConnectLines.svg style="width:16px"> [Raccorder les arêtes ](Sketcher_ConnectLines/fr.md)** dans la barre d\'outils.
     -   Utilisez les raccourcis clavier **Z** puis **J**.
-    -   Utilisez l\'entrée **Sketch → Outils d'esquisse → [<img src=images/Sketcher_ConnectLines.svg style="width:16px"> Raccorder les arêtes** dans le menu supérieur.
+    -   Utilisez l\'entrée **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_ConnectLines.svg style="width:16px"> Raccorder les arêtes** dans le menu supérieur.
 
 ## Remarques
 

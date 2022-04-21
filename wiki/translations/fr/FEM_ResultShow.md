@@ -5,7 +5,7 @@
    MenuLocation:Results → Afficher le résultat
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**R** **S**
-   SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
+   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ResultShow/fr

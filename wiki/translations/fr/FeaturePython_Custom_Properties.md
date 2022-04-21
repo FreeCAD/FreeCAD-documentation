@@ -414,7 +414,7 @@ Une propriété de lien. Elle peut contenir un lien vers un objet. Lorsque vous 
 
 
 ```python
-link_obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName")
+link_obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "LinkObjectName")
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyLink", "ThePropertyName", "Subsection", "Description for tooltip")
@@ -467,9 +467,9 @@ Une propriété de liste de liens. Elle peut contenir une liste d\'objets liés.
 
 
 ```python
-link_obj0=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName0")
-link_obj1=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName1")
-link_obj2=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName2")
+link_obj0 = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "LinkObjectName0")
+link_obj1 = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "LinkObjectName1")
+link_obj2 = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "LinkObjectName2")
 
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"

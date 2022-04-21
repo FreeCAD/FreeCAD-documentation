@@ -136,6 +136,12 @@ Strings can be concatenated using the \'+\' sign.
 
 Following example `<<MY>> + <<TEXT>>` will be concatenated to \"MYTEXT\".
 
+#### String conversion 
+
+Numerical values can be converted to strings with the `str` function:
+
+ 
+
 #### String formatting 
 
 String formatting is supported using the (old) %-style Python way.
@@ -169,8 +175,7 @@ When `create` is passed `<<vector>>` as the 1st argument, the next 3 arguments a
 
 Example:
 
-
-`create(<<vector>>; 2; 1; 2)`
+ 
 
 #### Matrix
 
@@ -178,8 +183,7 @@ When `create` is passed `<<matrix>>` as the 1st argument, the next 16 arguments 
 
 Example:
 
-
-`create(<<matrix>>; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16)`
+ 
 
 #### Rotation
 
@@ -189,15 +193,13 @@ When `create` is passed `<<rotation>>` as the 1st argument, there are two ways t
 
 Example:
 
-
-`create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45)`
+ 
 
 2\. Specify 3 rotations about the X, Y, and Z axes as Euler angles.
 
 Example:
 
-
-`create(<<rotation>>; 30; 30; 30)`
+ 
 
 #### Placement
 
@@ -231,8 +233,7 @@ These possible combinations are documented in the below table and are based on t
 
 The following example shows the syntax for creating a `Placement` from a `Base` (vector) and a `Rotation`:
 
-
-`create(<<placement>>; create(<<vector>>; 2; 1; 2); create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45))`
+ 
 
 For readability, you can define vectors and rotations in separate cells, and then reference the cells in your expression.
 
@@ -244,18 +245,18 @@ For readability, you can define vectors and rotations in separate cells, and the
 
 Scale a `Matrix` with a given `Vector`.
 
-
-`mscale(Matrix; Vector)`
+ `mscale(Matrix; Vector)`
 
 
 `mscale(Matrix; x; y; z)`
+
+
 
 #### minvert
 
 Invert the given `Matrix`, `Rotation`, or `Placement`.
 
-
-`minvert(Matrix)`
+ `minvert(Matrix)`
 
 
 `minvert(Rotation)`
@@ -265,15 +266,18 @@ Invert the given `Matrix`, `Rotation`, or `Placement`.
 
 
 
+
+
 ### Tuple & list 
 
 You can create Python `tuple` or `list` objects via their respective functions.
 
-
-`tuple(2; 1; 2)`
+ `tuple(2; 1; 2)`
 
 
 `list(2; 1; 2)`
+
+
 
 
 
@@ -565,7 +569,7 @@ A document\'s name is used to reference it from other documents. When saving a d
 
 Once the master document with the spreadsheet is created and saved (named), it is safe to create dependent documents. For example, assuming you name the master document `master`, the spreadsheet `modelConstants`, and give a cell an alias-name `Length`, you can then access the value as:
 
-`master#modelConstants.Length`
+ 
 
 **Note:** that the master document must be loaded for the values in the master to be available to the dependent document.
 

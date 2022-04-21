@@ -18,7 +18,7 @@ Narzędzie to rysuje okrąg, wybierając dwa punkty: środek i punkt wzdłuż pr
 
 ## Jak używać 
 
--   Zaznacz punkty na pustym obszarze w oknie widoku 3D lub na istniejącym obiekcie *(automatyczne wiązania muszą być aktywne w widoku zadań)*.
+-   Zaznacz punkty na pustym obszarze w oknie widoku 3D lub na istniejącym obiekcie *(automatyczne wiązania muszą być aktywne w [widoku zadań](Task_panel/pl.md))*.
 -   Wciśnięcie klawisza **Esc** lub kliknięcie prawym klawiszem myszy dezaktywuje tę funkcję.
 
 

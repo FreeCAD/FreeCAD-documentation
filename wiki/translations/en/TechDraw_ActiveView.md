@@ -13,30 +13,25 @@
 
 The ActiveView tool inserts a copy of a 3D window into a drawing page.
 
-![](images/TechDraw_ActiveView_example.png )
-
-
-
+![](images/TechDraw_ActiveView_example.png ) 
 *A simple view from the 3D model that doesn't perform any complex calculation.*
 
 ## Usage
 
-1.  Navigate to the 3D window you wish to copy.
-2.  If you have multiple drawing pages in your document, you will also need to select the desired page in the tree.
-3.  Press the **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insert Active View](TechDraw_ActiveView.md)** button
-4.  A dialog will open to allow you to specify the size, border and background color of the copy.
+1.  Navigate to the correct [3D view](3D_view.md).
+2.  If there are multiple drawing pages in the document: optionally select the desired page in the [Tree view](Tree_view.md). This is not optional for {{VersionMinus|0.19}}.
+3.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insert Active View (3D View)](TechDraw_ActiveView.md)** button.
+    -   Select the **TechDraw → <img src="images/TechDraw_ActiveView.svg" width=16px> Insert Active View (3D View)** option from the menu.
+4.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+    1.  Select the desired page.
+    2.  Press the **OK** button.
+5.  The **ActiveView to TD View** task panel opens. See [Options](#Options.md) for more information.
+6.  Press the **OK** button.
 
-## Notes
+## Options
 
--   Active views are static once generated, they are never updated with changes to the 3D model.
--   ActiveView behind the scenes is a <img alt="" src=images/TechDraw_Symbol.svg  style="width:24px;"> [Symbol View](TechDraw_Symbol.md). Its **Scale Type** is therefore always initialized as *Custom*.
--   This tool is still somewhat **Experimental**.
-
-## Properties
-
-See <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Symbol](TechDraw_Symbol.md)
-
-### Dialog Fields 
+The following can be specified:
 
 -    **Width**: The width of the generated view.
 
@@ -44,20 +39,51 @@ See <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Symbol](Te
 
 -    **Border**: The amount of empty space to be left around the view (but within Width x Height).
 
--    **Background**: Show or hide a background.
+-    **Background**: If checked a background with the specified color is added.
 
--    **Background Color**: Color to paint the background, if applicable.
+-    **Line Width**: The thickness of the lines in the view.
 
--    **Line Width**: Thickness of individual lines in the view.
+-    **Render Mode**: The available modes are:
 
--    **Render Mode**: The [render mode](https://grey.colorado.edu/coin3d/classSoRenderManager.html#a4b8d99cff0fd91e31bc2c5d33610f6eb) of the library [Coin3d](https://en.wikipedia.org/wiki/Coin3D). The possible modes are
+    -   
+        {{Value|As is}}
+        
+        : Render primitives as they are.
 
-    -   **AS\_IS** Render primitives as they are
-    -   **WIREFRAME** Render polygons as wireframe
-    -   **POINTS** Render only the vertices of the polygons and lines
-    -   **WIREFRAME\_OVERLAY** Render a wireframe overlay in addition to the **AS\_IS** mode
-    -   **HIDDEN\_LINE** As **WIREFRAME**, but culls lines which would otherwise not be shown due to geometric culling
-    -   **BOUNDING\_BOX** Only show the bounding box of each object
+    -   
+        {{Value|Wireframe}}
+        
+        : Render polygons as wireframe.
+
+    -   
+        {{Value|Points}}
+        
+        : Render only the vertices of the polygons and lines.
+
+    -   
+        {{Value|Wireframe overlay}}
+        
+        : Render a wireframe overlay in addition to the {{Value|As is}} mode.
+
+    -   
+        {{Value|Hidden Line}}
+        
+        : As {{Value|Wireframe}}, but culls lines which would otherwise not be shown due to geometric culling.
+
+    -   
+        {{Value|Bounding box}}
+        
+        : Only show the bounding box of each object.
+
+## Notes
+
+-   ActiveViews are static once generated, they are never updated with changes to the 3D model.
+-   An ActiveView behind the scenes is a [Symbol](TechDraw_Symbol.md). Its **Scale Type** is therefore always initialized as {{Value|Custom}}.
+-   This tool is still somewhat **Experimental**.
+
+## Properties
+
+See [TechDraw Symbol](TechDraw_Symbol.md).
 
 ## Scripting
 

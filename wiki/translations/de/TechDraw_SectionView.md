@@ -18,11 +18,17 @@ Das Abschnitt Werkzeug erstellt eine Querschnittdarstellung aus einer bereits be
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle eine Teilansicht im 3D Fenster oder Baum.
 2.  Wenn du mehrere Zeichnungsseiten in deinem Dokument hast, musst du auch die gewünschte Seite im Baum auswählen.
 3.  Drücke die **<img src="images/TechDraw_SectionView.svg" width=16px> [Schnittansicht einfügen](TechDraw_SectionView.md)** Schaltfläche
 4.  Ein Dialogfeld wird geöffnet, das bei der Berechnung der verschiedenen Querschnittseigenschaften hilft. Das Dialogfeld berechnet sinnvolle Startpunkte für SchnittNormal und Ansichtsrichtung, die jedoch nach der Erstellung für spezielle Anforderungen geändert werden können.
 5.  Wenn du beim Einrichten der Abschnittsparameter einen Fehler machst oder deine Meinung änderst, drücke die **Reset** Taste und du kannst von vorn beginnen.
+
+
+</div>
 
 ![](images/TechDraw_Section_Taskview.png ) 
 *Aufgabenansicht zum Definieren des Schnitts einer Ansicht*

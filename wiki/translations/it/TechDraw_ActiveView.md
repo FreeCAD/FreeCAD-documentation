@@ -18,10 +18,7 @@
 
 Lo strumento Vista attiva inserisce una copia di una finestra 3D in una pagina di disegno.
 
-![](images/TechDraw_ActiveView_example.png )
-
-
-
+![](images/TechDraw_ActiveView_example.png ) 
 *Una vista semplice dal modello 3D.*
 
 ## Utilizzo
@@ -37,11 +34,63 @@ Lo strumento Vista attiva inserisce una copia di una finestra 3D in una pagina d
 
 </div>
 
+## Options
+
+The following can be specified:
+
+-    **Width**: The width of the generated view.
+
+-    **Height**: The height of the generated view.
+
+-    **Border**: The amount of empty space to be left around the view (but within Width x Height).
+
+-    **Background**: If checked a background with the specified color is added.
+
+-    **Line Width**: The thickness of the lines in the view.
+
+-    **Render Mode**: The available modes are:
+
+    -   
+        {{Value|As is}}
+        
+        : Render primitives as they are.
+
+    -   
+        {{Value|Wireframe}}
+        
+        : Render polygons as wireframe.
+
+    -   
+        {{Value|Points}}
+        
+        : Render only the vertices of the polygons and lines.
+
+    -   
+        {{Value|Wireframe overlay}}
+        
+        : Render a wireframe overlay in addition to the {{Value|As is}} mode.
+
+    -   
+        {{Value|Hidden Line}}
+        
+        : As {{Value|Wireframe}}, but culls lines which would otherwise not be shown due to geometric culling.
+
+    -   
+        {{Value|Bounding box}}
+        
+        : Only show the bounding box of each object.
+
 ## Note
+
+
+<div class="mw-translate-fuzzy">
 
 -   Le viste attive sono statiche, una volta generate non vengono mai aggiornate con le modifiche al modello 3D.
 -   Vista attiva in realtà è un <img alt="" src=images/TechDraw_Symbol.svg  style="width:24px;"> [Simbolo](TechDraw_Symbol/it.md). La sua proprietà **Scale Type** viene quindi sempre inizializzata come *Personalizzata*.
 -   Questo strumento è ancora in qualche modo **sperimentale**.
+
+
+</div>
 
 ## Proprietà
 
@@ -52,29 +101,6 @@ Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Simbolo
 
 
 </div>
-
-### Campi di dialogo 
-
--    **Width**: la larghezza della vista generata.
-
--    **Height**: l\'altezza della vista generata.
-
--    **Border**: la quantità di spazio vuoto da lasciare intorno alla vista, ma all\'interno di Larghezza x Altezza.
-
--    **Background**: mostra o nasconde lo sfondo.
-
--    **Background Color**: colore dello sfondo, se applicabile.
-
--    **Line Width**: spessore delle singole linee nella vista.
-
--    **Render Mode**: il [render mode](https://grey.colorado.edu/coin3d/classSoRenderManager.html#a4b8d99cff0fd91e31bc2c5d33610f6eb) della libreria [Coin3d](https://en.wikipedia.org/wiki/Coin3D). Le modalità possibili sono:
-
-    -   **AS\_IS** rende le primitive come sono
-    -   **WIREFRAME** rende i poligoni come polilinee
-    -   **POINTS** rende solo i vertici dei poligoni e delle linee
-    -   **WIREFRAME\_OVERLAY** rende una polilinea sovrapposta alla modalità AS\_IS
-    -   **HIDDEN\_LINE** come **WIREFRAME**, ma elimina le linee che altrimenti non verrebbero mostrate a causa dell\'abbattimento geometrico
-    -   **BOUNDING\_BOX** mostra solo il parallelepipedo di contenimento di ciascun oggetto
 
 ## Script
 

@@ -28,7 +28,7 @@ Riflette uno schizzo lungo l\'asse x, l\'asse Y o l\'origine. Questo comando vie
 
 </div>
 
-Notes:
+## Notes
 
 -   Multiple sketches can be selected before applying the operation.
 

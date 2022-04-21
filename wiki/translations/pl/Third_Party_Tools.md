@@ -1,68 +1,68 @@
 # Third Party Tools/pl
 {{TOCright}}
 
-## Tool Page 
+## Strona z narzędziami 
 
-For every serious software development you need tools. Here is a list of tools we use to develop FreeCAD:
+Do tworzenia każdego poważnego oprogramowania potrzebne są narzędzia. Oto lista narzędzi, których używamy do rozwijania programu FreeCAD:
 
-### Platform independent tools 
+### Narzędzia niezależne od platformy 
 
 #### Qt-Toolkit 
 
-The Qt-toolkit is a state of the art, platform independent user interface design tool. It is contained in the [LibPack](Third_Party_Libraries.md) of FreeCAD, but can also be downloaded at [Qt project](http://qt-project.org/downloads).
+Pakiet narzędziowy Qt jest najnowocześniejszym, niezależnym od platformy narzędziem do projektowania interfejsów użytkownika. Jest on zawarty w pakiecie [LibPack](Third_Party_Libraries#LibPack.md) programu FreeCAD, ale można go również pobrać ze strony [Qt project](http://qt-project.org/downloads).
 
 #### Inkscape
 
-This is a great vector drawing program. It adheres to the SVG standard and is used to draw Icons and Pictures. Inkscape is Free and Open Source Software licensed under the GPL. Get it at [www.inkscape.org](http://www.inkscape.org).
+Jest to świetny program do rysowania wektorowego. Jest zgodny ze standardem SVG i służy do rysowania ikon i obrazów. Inkscape jest wolnym i otwartym oprogramowaniem na licencji GPL. Można go pobrać pod adresem [www.inkscape.org](http://www.inkscape.org).
 
 #### Doxygen
 
-A very good and stable tool to generate source documentation from the .h and .cpp files.
+Bardzo dobre i stabilne narzędzie do generowania dokumentacji źródłowej z plików .h i .cpp.
 
 #### Gimp
 
-Not much to say about the **GNU Image Manipulation Program**. It can manipulate .xpm files which is a very convenient way to handle Icons in QT programs. XPM is basically C-Code which can be compiled into a program. Gimp supports the free .png file format used in the wiki.
+**GNU Image Manipulation Program** *(GIMP)* to darmowa aplikacja, którą z powodzeniem można wykorzystywać zarówno do zaawansowanej obróbki fotografii jak i do tworzenia grafik na różne potrzeby. Potrafi on manipulować plikami .xpm, co jest bardzo wygodnym sposobem na obsługę ikon w programach QT. XPM to w zasadzie kod C, który można skompilować do programu. Gimp obsługuje wolny format plików .png używany w Wiki.
 
-Get the GIMP here: [www.gimp.org](http://www.gimp.org/)
+Pobierz program GIMP tutaj: [www.gimp.org](http://www.gimp.org/)
 
-#### Gitkraken
+#### GitKraken
 
-This is a proprietary git GUI that is very helpful to learn how git works if you\'re interested in wanting to contribute to FreeCAD. Relevant pages to research:
+Jest to własnościowe GUI dla Git, które jest bardzo pomocne w nauczeniu się, jak działa git, jeśli jesteś zainteresowany współtworzeniem FreeCAD. Odpowiednie strony do zbadania:
 
--   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md)
--   [Source code management](Source_code_management.md)
+-   [Rozwój FreeCAD z GitKraken](Developing_FreeCAD_with_GitKraken/pl.md)
+-   [Zarządzanie kodem źródłowym](Source_code_management/pl.md)
 
 #### OBS Studio 
 
-Free and open source software for video recording and live streaming. More details on official website: [obsproject.com](https://obsproject.com/)
+Wolne i otwarte oprogramowanie do nagrywania wideo i przesyłania strumieniowego na żywo. Więcej szczegółów na oficjalnej stronie: [obsproject.com](https://obsproject.com/).
 
-#### OpenCamLib
+#### OpenCAMLib
 
-[OpenCamLib](OpenCamLib.md) (OCL) is an open source library aiming to provide computer aided manufacturing (CAM) algorithms. FreeCAD uses OCL in the experimental 3D surface path operations and other experimental features.
+[OpenCamLib](OpenCamLib/pl.md) *(OCL)* to biblioteka open source mająca na celu dostarczenie algorytmów komputerowego wspomagania wytwarzania (CAM). FreeCAD używa OCL w eksperymentalnych operacjach ścieżek powierzchni 3D i innych eksperymentalnych funkcjach.
 
 #### StarUML
 
-A full featured but proprietary UML program. It has a lot of major features, including reverse engineering C++ source code.
+W pełni funkcjonalny, ale własnościowy program UML. Posiada wiele ważnych funkcji, w tym inżynierię odwrotną kodu źródłowego C++.
 
-Download here: [staruml.io](http://staruml.io)
+Do pobrania tutaj: [staruml.io](http://staruml.io).
 
-### Tools on Windows 
+### Narzędzia dla Windows 
 
 #### Visual Studio Community 
 
-Visual Studio Community is free for open source projects and small structures. Installation is modular. You can add support for a large number of languages including C++ and Python.
+Visual Studio Community jest bezpłatne dla projektów open source i małych struktur. Instalacja jest modułowa. Można dodać obsługę dużej liczby języków, w tym C++ i Python.
 
-It can be downloaded at [Visual Studio Community](https://visualstudio.microsoft.com/fr/vs/community).
+Można go pobrać z witryny [Visual Studio Community](https://visualstudio.microsoft.com/fr/vs/community).
 
 #### CamStudio
 
-Is an Open Source tool to record Screen-casts (Webcasts). It is a very good tool to create tutorials by recording them. Its far not so boring as writing documentation.
+Jest narzędziem typu Open Source do nagrywania Screen-castów *(Webcastów)*. Jest to bardzo dobre narzędzie do tworzenia tutoriali poprzez ich nagrywanie. Nie jest tak nudne jak pisanie dokumentacji.
 
-See [camstudio.org](http://camstudio.org/) for details.
+Szczegółowe informacje można znaleźć na stronie [camstudio.org](http://camstudio.org/).
 
-### Tools on Linux 
+### Narzędzia dla Linux 
 
-TODO
+do zrobienia
 
 
 

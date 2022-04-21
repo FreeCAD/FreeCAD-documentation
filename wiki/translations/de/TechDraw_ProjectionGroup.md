@@ -20,14 +20,27 @@ Wenn du nur eine einzige Ansicht erzeugen möchtest, ist es nicht von Vorteil, P
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle ein oder mehrere *Körper* und/oder *Part* Objekte im 3D Fenster oder Baum. Wenn du mehrere Zeichnungsseiten in deinem Dokument hast, musst du auch die gewünschte Seite in der Baumstruktur auswählen.
 2.  Drücke die **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md)** Schaltfläche
 3.  Ein Dialogfeld wird geöffnet, in dem du auswählen kannst, welche Ansichten in der Gruppe erscheinen sollen, den Maßstab der Gruppe und andere Parameter:
 
-![](images/TaskProjGroup.png ) 
+
+</div>
+
+![](images/TaskProjGroup.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Projektionsgruppe [Aufgabenkonsole](Task_panel/de.md). Das zentrale Feld zeigt die aktuelle Blickrichtung mit Prozentsätzen der x, y und z-Achse an.*
 
-Nachdem du die Projektionsgruppe erstellt hast, kannst du die Gruppe als Ganzes durch Ziehen der zentralen Ansicht verschieben. Du kannst die Projektionsansichten auch durch Ziehen verschieben.
+
+</div>
 
 ## Eigenschaften
 

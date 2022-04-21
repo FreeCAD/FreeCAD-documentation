@@ -383,6 +383,10 @@ There is also a text box for feedback of OpenSCAD errors.
 -   The stability of engraving on sketches was improved. [Pull request \#6394](https://github.com/FreeCAD/FreeCAD/pull/6394)
 -   The visibility of path objects was made more natural. [Pull request \#4911](https://github.com/FreeCAD/FreeCAD/pull/4911)
 
+## Plot module 
+
+-   FreeCAD now provides the Plot module by default, so any other module/workbench may create plots without requiring external tools [Pull request \#4971](https://github.com/FreeCAD/FreeCAD/pull/4971).
+
 ## Render Workbench 
 
 ## Sketcher Workbench 
@@ -450,6 +454,8 @@ There is also a text box for feedback of OpenSCAD errors.
 
 ## Web
 
+Qt WebEngine is now considered the default option instead of Qt WebKit.
+
 ## External workbenches 
 
 
@@ -489,6 +495,17 @@ The [FCGear Workbench](FCGear_Workbench.md) received a couple of improvements
 ### MOOC Workbench 
 
 ### NodeEditor (PyFlow) 
+
+### Plot
+
+-   The Plot module has been stripped from the workbench since it is now provided by FreeCAD.
+
+### Ship
+
+The [Ship Workbench](Ship_Workbench.md) is back to life!
+
+-   A new tool to compute the [static sink and trim](https://github.com/FreeCAD/freecad.ship#static-sink-and-trim) has been added.
+-   A new tool to compute the [response amplitude operators](https://github.com/FreeCAD/freecad.ship#raos) has been added on top of [capytaine](https://github.com/mancellin/capytaine).
 
 ### Trails, PyTrails, Turns, pivy\_trackers, and Geomatics
 

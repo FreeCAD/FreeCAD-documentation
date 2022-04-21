@@ -59,11 +59,11 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 -   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Shell plate thickness](FEM_ElementGeometry2D.md): Used to define shell element thickness.
 
--   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Fluid section for 1D flow](FEM_ElementFluid1D.md): Creates a FEM fluid section element for pneumatic and hydraulic networks.
+-   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Fluid section for 1D flow](FEM_ElementFluid1D.md): Used to create fluid section element for pneumatic and hydraulic networks.
 
 ### Electrostatic Constraints 
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Constraint electrostatic potential](FEM_ConstraintElectrostaticPotential.md):
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Constraint electrostatic potential](FEM_ConstraintElectrostaticPotential.md): Used to define electrostatic potential.
 
 ### 流体の制約
 
@@ -111,7 +111,7 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 ### Constraints without solver 
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary.md):
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary.md): Used to define a fluid boundary condition.
 
 -   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing.md): Used to define a bearing constraint.
 
@@ -179,17 +179,17 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 
 -   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Warp filter](FEM_PostFilterWarp.md): Used to visualize the scaled deformed shape of the model.
 
--   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar.md):
+-   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar.md): Used to clip a field with a specified scalar value.
 
--   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Function cut filter](FEM_PostFilterCutFunction.md):
+-   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Function cut filter](FEM_PostFilterCutFunction.md): Used to display the results on a sphere or a plane cutting through the model.
 
--   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Region clip filter](FEM_PostFilterClipRegion.md):
+-   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Region clip filter](FEM_PostFilterClipRegion.md): Used to clip a field with a sphere or a plane cutting through the model.
 
--   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Line clip filter](FEM_PostFilterDataAlongLine.md):
+-   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Line clip filter](FEM_PostFilterDataAlongLine.md): Used to plot the values of a field along a specified line.
 
--   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Stress linearization plot](FEM_PostFilterLinearizedStresses.md):
+-   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Stress linearization plot](FEM_PostFilterLinearizedStresses.md): Creates a stress linearization plot.
 
--   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint.md):
+-   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint.md): Used to display value of a selected field at a given point.
 
 -   [Filter functions](FEM_PostCreateFunctions.md):
     -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;">

@@ -8,6 +8,9 @@
 
 # Sketcher StopOperation/ru
 
+
+</div>
+
 ## Описание
 
 

@@ -15,14 +15,14 @@ Voyez la [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md)
 
 ## Fonctionnement
 
-Activez la sortie de la console dans le menu **Edition → Préférences → Général → Macro → Montrer les commandes du script dans la console Python**. Vous verrez que dans FreeCAD, chaque action que vous effectuez, comme appuyer sur un bouton, génère une commande Python. Ces commandes sont ce qui peut être enregistré dans une macro. L\'outil principal pour créer des macros est la barre d\'outils des macros : ![](images/Macros_toolbar.jpg ). Vous y avez 4 boutons : Enregistrer, arrêter l\'enregistrement, éditer et lire la macro actuelle.
+Activez la sortie de la console dans le menu **Edition → Préférences → Général → Macro → Montrer les commandes du script dans la console Python**. Vous verrez que dans FreeCAD, chaque action que vous effectuez, comme appuyer sur un bouton, génère une commande Python. Ces commandes sont ce qui peut être enregistré dans une macro. L\'outil principal pour créer des macros est la barre d\'outils des macros : ![](images/Macros_toolbar.jpg ). Vous y avez 4 boutons : Enregistrer, arrêter l\'enregistrement, éditer et lire la macro en cours.
 
 C\'est très simple à utiliser : appuyez sur le bouton d\'enregistrement, il vous sera demandé de donner un nom à votre macro, puis effectuez quelques actions. Lorsque vous avez terminé, cliquez sur le bouton Arrêter l\'enregistrement et vos actions seront enregistrées. Vous pouvez maintenant accéder à la boîte de dialogue de macro avec le bouton d\'édition.
 
 ![](images/Macros.png ) 
 *Interface listant les macros disponibles dans le système*
 
-Vous pouvez y gérer vos macros, les supprimer, les modifier, les dupliquer, les installer ou en créer de nouvelles à partir de zéro. Si vous modifiez une macro, elle sera ouverte dans une fenêtre d\'éditeur où vous pourrez apporter des modifications à son code. De nouvelles macros peuvent être installées en utilisant le bouton {{button|Addons...}}, qui relie le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+Vous pouvez y gérer vos macros, les supprimer, les modifier, les dupliquer, les installer ou en créer de nouvelles à partir de zéro. Si vous modifiez une macro, elle sera ouverte dans une fenêtre d\'éditeur où vous pourrez apporter des modifications à son code. De nouvelles macros peuvent être installées en utilisant le bouton {{button|Addons...}}, qui relie le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 ## Exemple
 
@@ -42,9 +42,9 @@ Allez sur [Personnaliser la barre d\'outils](Customize_Toolbars/fr.md) pour une 
 
 Vous pouvez également copier / coller directement du code python dans une macro, sans enregistrer d\'action au niveau de l\'interface utilisateur (GUI). Créez simplement une nouvelle macro, modifiez-la et collez votre code. Vous pouvez ensuite enregistrer votre macro de la même manière que vous enregistrez un document FreeCAD. La prochaine fois que vous lancerez FreeCAD, la macro apparaîtra avec l\'intitulé \"Macros installées\" du menu Macro.
 
-Allez sur [Comment installer des Macros](How_to_install_macros/fr.md) pour une description plus détaillée.
+Allez sur [Comment installer des macros](How_to_install_macros/fr.md) pour une description plus détaillée.
 
-## Les dépôts de Macros 
+## Les dépôts des macros 
 
 Il existe deux emplacements principaux pour les macros. Le premier est le dépôts des macros officielles évalués par des pairs sur [GitHub](https://github.com/FreeCAD/FreeCAD-macros). La deuxième est la page [Liste des macros](Macros_recipes/fr.md) à partir de laquelle vous pouvez choisir des macros utiles à ajouter à votre installation FreeCAD. Les macros des deux référentiels peuvent être installées via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) directement depuis FreeCAD.
 
@@ -57,7 +57,7 @@ Il existe deux emplacements principaux pour les macros. Le premier est le dépô
 
 Vous pouvez installer manuellement des extensions, cependant, il est beaucoup plus facile d\'utiliser simplement le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
--   [Comment installer des Macros](How_to_install_macros/fr.md)
+-   [Comment installer des macros](How_to_install_macros/fr.md)
 -   [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md)
 
 

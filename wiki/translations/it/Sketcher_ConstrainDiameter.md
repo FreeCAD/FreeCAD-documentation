@@ -21,7 +21,13 @@ Questo vincolo forza il valore del diametro di un cerchio o di un arco a un valo
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## Utilizzo
+
+
+</div>
 
 1.  Selezionare uno o più cerchi o archi.
 2.  Premere il pulsante **[<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> Diametro**.

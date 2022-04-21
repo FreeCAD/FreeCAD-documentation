@@ -83,7 +83,15 @@ Damit die Beschränkung korrekt funktioniert, muss der Punkt auf beiden Kurven l
 
 ## Skripten
 
-Winkelbeschränkung kann aus [Makros](Macros/de.md) und aus der Python Konsole wie folgt erstellt werden: 
+
+<div class="mw-translate-fuzzy">
+
+Winkelbeschränkung kann aus [Makros](Macros/de.md) und aus der Python Konsole wie folgt erstellt werden:
+
+
+</div>
+
+
 ```python
 # line slope angle
 Sketch.addConstraint(Sketcher.Constraint('Angle',iline,angle))
@@ -96,7 +104,9 @@ Sketch.addConstraint(Sketcher.Constraint('Angle',iline1,pointpos1,iline2,pointpo
 
 # angle-via-point (no helper constraints are added automatically when from python)
 Sketch.addConstraint(Sketcher.Constraint('AngleViaPoint',icurve1,icurve2,geoidpoint,pointpos,angle))
-``` wobei:
+```
+
+wobei:
 
 :\* `Sketch` ein Skizzenobjekt ist
 

@@ -2,15 +2,12 @@
 - GuiCommand:/de
    Name:Part Sweep
    Name/de:Part Austragung
-   MenuLocation:Formteil → Austragen...
+   MenuLocation:Formteil → Sweep...
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Ausformung](Part_Loft/de.md)
 ---
 
 # Part Sweep/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -32,72 +29,27 @@ Das Teil Austragungswerkzeug ähnelt dem <img alt="" src=images/Part_Loft.svg  s
 
 ### Anerkannte Geometrie 
 
+-   **Profile**: können ein Punkt (Knoten), eine Linie (Kante), ein Draht oder eine Fläche sein. Kanten und Drähte können entweder offen oder geschlossen sein. Es gibt verschiedene [Profileinschränkungen und Komplikationen](Part_Sweep/de#Profileinschränkungen_und_Komplikationen.md), siehe unten, die Profile können auch aus Grundelementen (primitives) des Arbeitsbereiches Part, und aus Objekten und Skizzen des Arbeitsbereiches Draft stammen.
 
-<div class="mw-translate-fuzzy">
-
-### Akzeptierte Geometrie 
-
--   **Profile**: kann ein Punkt (Knoten), eine Linie (Kante), ein Draht oder eine Fläche sein. Kanten und Drähte können entweder offen oder geschlossen sein. Es gibt verschiedene [Profile Einschränkungen und Komplikationen](Part_Sweep#Profile_limitations_and_complications/de.md), siehe unten, jedoch können die Profile aus den Grundkörpern (primitives) der Arbeitsbereich Part, den Arbeitsbereich Draft Funktionen und Skizzen stammen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Pfad**: kann eine Linie (Kante) oder eine Reihe von Verbindungslinien, Draht oder verschiedene Part Arbeitsbereich Grundelementen, Entwurf Arbeitsbereich Formelemente oder eine Skizze sein. Der Pfad wird oft direkt aus dem Hauptmodellfenster ausgewählt, kann aber auch in der [Baumansicht](Tree_view/de.md) ausgewählt werden. (Reiter Modell von [Comboansicht](Combo_View.md)). Der Pfad kann entweder eine ganze geeignete Form oder eine geeignete Unterkomponente einer weiter fortgeschrittenen Form sein (z. B. eine Kante einer <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Würfel](Part_Box/de.md) ausgewählt werden als Pfad). Der Pfad kann entweder offen oder geschlossen sein und erzeugt somit entweder eine offene oder geschlossene Austragung. Ein geschlossener Pfad, wie z.B. ein Teilkreis, führt zu einer geschlossenen Austragung. Beispielsweise erzeugt die Austragung eines kleineren Kreises um eine Bahn mit einem größeren Kreis einen Torus.
-
-
-</div>
+-   **Pfad**: kann eine Linie (Kante) oder eine Reihe von Verbindungslinien, Draht oder verschiedene Grundelemente des Arbeitsbereiches Part, Formelemente des Arbeitsbereiches Draft oder eine Skizze sein. Der Pfad wird oft direkt aus dem Hauptmodellfenster ausgewählt, kann aber auch in der [Baumansicht](Tree_view/de.md) ausgewählt werden. (Reiter Modell der [Combo-Ansicht](Combo_View.md)). Der Pfad kann entweder eine ganze geeignete Form oder eine geeignete Unterkomponente einer weiter fortgeschrittenen Form sein (z. B. eine Kante einer <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Würfel](Part_Box/de.md) ausgewählt werden als Pfad). Der Pfad kann entweder offen oder geschlossen sein und erzeugt somit entweder eine offene oder geschlossene Austragung. Ein geschlossener Pfad, wie z.B. ein Teilkreis, führt zu einer geschlossenen Austragung. Beispielsweise erzeugt die Austragung eines kleineren Kreises um eine Bahn mit einem größeren Kreis einen Torus.
 
 ## Eigenschaften
 
 ### Volumenkörper
 
-
-<div class="mw-translate-fuzzy">
-
-## Eigenschaften 
-
-### Volumenkörper 
-
 Wenn \" Volumenkörper \" auf \" wahr \" gesetzt ist, erstellt FreeCAD einen Volumenkörper, vorausgesetzt, die Profile haben eine geschlossene Geometrie; wenn sie auf \" falsch \" gesetzt sind, erzeugt FreeCAD eine Fläche oder (wenn mehr als eine Fläche vorhanden ist) eine Hülle für offene oder geschlossene Profile.
-
-
-</div>
 
 ### Frenet
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;">
 
-
-<div class="mw-translate-fuzzy">
-
-### Frenet 
-
-<img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;"> Die Eigenschaft \"Frenet\" steuert, wie sich die Profilausrichtung ändert, wenn sie entlang des Suchpfades folgt. Wenn \"Frenet\" \"falsch\" ist, wird die Ausrichtung des Profils von Punkt zu Punkt konsistent gehalten. Die resultierende Form weist eine minimale Verdrehung auf. Wenn ein Profil entlang einer Spirale gefegt wird, führt dies unwillkürlich dazu, dass das Profil langsam kriecht (rotiert), während es der Spirale folgt. Wenn Du \"Frenet\" auf true setzst, wird ein solches Kriechen verhindert.
-
-
-</div>
+Die Eigenschaft \"Frenet\" steuert, wie sich die Profilausrichtung ändert, wenn sie entlang des Suchpfades folgt. Wenn \"Frenet\" \"falsch\" ist, wird die Ausrichtung des Profils von Punkt zu Punkt konsistent gehalten. Die resultierende Form weist eine minimale Verdrehung auf. Wenn ein Profil entlang einer Spirale gefegt wird, führt dies unwillkürlich dazu, dass das Profil langsam kriecht (rotiert), während es der Spirale folgt. Wenn Du \"Frenet\" auf true setzst, wird ein solches Kriechen verhindert.
 
 Wenn \"Frenet\" \"wahr\" ist, wird die Ausrichtung des Profils basierend auf lokalen Krümmungs- und Tangentialvektoren des Pfades berechnet. Dadurch bleibt die Ausrichtung des Profils beim Austragen entlang einer Helix konstant (da der Krümmungsvektor einer geraden Helix immer auf ihre Achse zeigt). Wenn der Weg jedoch keine Helix ist, kann die resultierende Form manchmal seltsam aussehende Verdrehungen aufweisen. Weitere Informationen findest Du unter[Frenet Serret Formeln](http://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
 
 ### Übergang
 
-
-<div class="mw-translate-fuzzy">
-
-### Übergang 
-
 \"Übergang\" setzt den Übergangsstil der Austragung an einer Verbindung im Pfad, wenn der Pfad den Eckübergang nicht definiert (z.B. wenn der Pfad ein Draht ist). Die Eigenschaft wird im [Aufgabenpaneel](Task_panel/de.md) nicht angezeigt und befindet sich nach der Erstellung der Austragung in den Eigenschaften.
-
-
-</div>
-
-## Profile limitations and complications 
-
-
-<div class="mw-translate-fuzzy">
 
 ## Profileinschränkungen und Komplikationen 
 
@@ -128,29 +80,9 @@ Wenn \"Frenet\" \"wahr\" ist, wird die Ausrichtung des Profils basierend auf lok
             -   Regelmäßiges Polygon
             -   Ebene (Fläche)
 
-
-</div>
-
 ## Verweise
 
-
-<div class="mw-translate-fuzzy">
-
-## Verweise 
-
 -   Da Austragung häufig zum Erstellen von Gewinden für Schrauben verwendet wird, solltest Du [Gewinde für Schrauben Tutorium](Thread_for_Screw_Tutorial/de.md) anschauen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

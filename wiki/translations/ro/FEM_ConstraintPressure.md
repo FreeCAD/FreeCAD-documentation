@@ -38,7 +38,7 @@ Distribuția presiunii este întotdeauna uniformă și întotdeauna perpendicula
 
 </div>
 
--   Pressure on faces: <https://tracker.freecadweb.org/view.php?id=3050>
+-   Pressure on faces: <https://github.com/FreeCAD/FreeCAD/issues/5699>
 
 
 

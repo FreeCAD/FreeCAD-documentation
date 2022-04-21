@@ -2,15 +2,12 @@
 - GuiCommand:/de
    Name:Part Thickness
    Name/de:Part Dicke
-   MenuLocation:Formteil → Dicke
+   MenuLocation:Formteil → Dicke...
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Versatz](Part_Offset/de.md)
 ---
 
 # Part Thickness/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -74,15 +71,6 @@ Notes:
 ![](images/ThicknessEsempio3.png )
 
 ![](images/ThicknessEsempio4.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

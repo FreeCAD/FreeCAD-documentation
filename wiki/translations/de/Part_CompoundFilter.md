@@ -1,16 +1,13 @@
 ---
 - GuiCommand:/de
    Name:Part Compound‏‎Filter
-   Name/de:Part VerbundFilter
-   MenuLocation:Part → Verbund Filter
+   Name/de:Part VerbundFiltern
+   MenuLocation:Formteil → Verbund → Verbundfilter
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.17
 ---
 
 # Part CompoundFilter/de
-
-
-</div>
 
 ![](images/CompoundFilter.png )
 

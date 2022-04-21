@@ -13,10 +13,10 @@
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw ExtensionThreadBoltSide** Werkzeug fügt ein symbolisches Gewinde (Gewindelinien) an einem von der Seite gesehenen Bolzen ein.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw ErgänzungAußengewindeSeitlich** ergänzt ein von der Seite gesehenes Außengewinde (Schraube, Bolzen, Gewindestange) mit 2 Gewindelinien (Hilfslinien - Cosmetic lines).
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:300px;"> 
-*Rechts ein Bolzen mit symbolischem Gewinde*
+*Rechts ein Bolzen mit Gewindedarstellung*
 
 ## Verwendung
 

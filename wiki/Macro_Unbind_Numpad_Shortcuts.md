@@ -4,9 +4,9 @@
 |Icon=Macro_Unbind_Numpad_Shortcuts.png
 |Description=When entering numbers, and the number input box is not properly focused, FreeCAD will react to digits by switching standard views. This macro is a quick way to re-bind the shortcuts to Ctrl+number. Doesn't help very much with entering numbers, but at least the view won't spin like crazy.
 |Author=DeepSOIC
-|Version=1.0
-|Date=2018-04-22
-|FCVersion=All
+|Version=2.0
+|Date=2022-04-13
+|FCVersion=0.20
 |Download=[https://www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png ToolBar Icon]
 }}
 
@@ -26,16 +26,14 @@ See forum thread [How to turn off (disable) Numpad navigation?](https://forum.fr
 
 ## Script
 
-
-
 ToolBar Icon ![](images/Macro_Unbind_Numpad_Shortcuts.png )
 
-**Macro\_Unbind\_Numpad\_Shortcuts.FCMacro**
+ **Macro\_Unbind\_Numpad\_Shortcuts.FCMacro**
 
 
 {{MacroCode|code=
 preset = [
-    ("Std_ViewAxo"   , "Ctrl+0"),
+    ("Std_ViewIsometric"   , "Ctrl+0"),
     ("Std_ViewFront" , "Ctrl+1"),
     ("Std_ViewTop"   , "Ctrl+2"),
     ("Std_ViewRight" , "Ctrl+3"),

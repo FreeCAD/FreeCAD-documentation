@@ -19,10 +19,10 @@ Clips a field using a specified scalar value.
     -   Press the **<img src="images/FEM_PostFilterClipScalar.svg" width=16px> [Scalar clip filter](FEM_PostFilterClipScalar.md)** button.
     -   Select the **Results → <img src="images/FEM_PostFilterClipScalar.svg" width=16px> Scalar clip filter** option from the menu.
 3.  Adjust the **Result display options** like for the [result pipeline](FEM_PostPipelineFromResult.md). Hide that pipeline to see the effect of a Scalar Clip Filter.
-4.  Select the scalar type from the expandable list.
-5.  Specify the value of the scalar for clipping directly or use the slider.
-6.  By default, all the regions with field values below the specified one will be hidden. Press the **Clip inside out** button to invert the display and hide the regions with values above the specified one.
-7.  Click **OK** button to close the tool\'s menu.
+4.  Select the **Scalar** type from the expandable list.
+5.  Specify the **Clip scalar** value directly or use the slider.
+6.  By default, all the regions with field values below the specified one will be hidden. Select the **Clip inside out** option to invert the display and hide the regions with values above the specified one.
+7.  Click **OK** button to finish the command.
 
 
 

@@ -1,41 +1,24 @@
 ---
 - GuiCommand:/de
-   Name/de:Part ErstelleGrundelemente
-   MenuLocation:Part → ErstelleGrundelemente...
-   Workbenches:[Part](Part_Workbench/de.md)
+   Name:Part Primitives
+   Name/de:Part Grundelemente
+   MenuLocation:Formteil → Grundkörper erstellen...
+   Workbenches:[Part](Part_Workbench/de.md), [OpenSCAD](OpenSCAD_Workbench/de.md)
    SeeAlso:[Part Formgenerator](Part_Builder/de.md)
 ---
 
 # Part Primitives/de
 
-
-</div>
-
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **Part Grundelemente** öffnet ein Dialogfeld zum Erstellen eines oder mehrerer parametrischer Grundelemente. 16 verschiedene Grundelemente (Körper und Linienelemente) stehen zur Verfügung.
 
-<div class="mw-translate-fuzzy">
-
-[Part Grundelemente](Part_Primitives/de.md) öffnet ein Dialogfeld zum Erstellen irgendeines der parametrischen geometrischen Grundelemente, die im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) definiert sind.
-
-
-</div>
-
-<img alt="" src=images/Part_Primitives_example.png  style="width:600px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Grundelementformen, die mit der [Part Arbeitsbereich](Part_Workbench/de.md) erstellt werden können.*
-
-
-</div>
+<img alt="" src=images/Part_Primitives_example.png  style="width:600px;"> 
+*Die Grundelemente, die mit dem Befehl erstellt werden können.*
 
 ## Anwendung
 
-### Create
+### Erstellung
 
 
 <div class="mw-translate-fuzzy">
@@ -51,7 +34,7 @@ Um ein Grundelement zu erstellen, entweder
 
 </div>
 
-### Edit
+### Bearbeiten
 
 
 <div class="mw-translate-fuzzy">
@@ -94,7 +77,7 @@ Einige der verfügbaren (parametrischen) geometrischen Grundelemente, die mögli
 
 </div>
 
-## Notes
+## Hinweise
 
 -   The Part Primitives command cannot create a <img alt="" src=images/Part_Tube.svg  style="width:16px;"> [Part Tube](Part_Tube.md).
 

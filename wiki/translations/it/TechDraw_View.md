@@ -106,13 +106,15 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 </div>
 
+\(1\) queste proprietà sono comuni a tutti i tipi di Viste.
+
 
 {{TitleProperty|Cosmetics}}
 
 
 {{TitleProperty|HLR Parameters}}
 
--    **CoarseView**: If true, TechDraw will use a polygon approximation to calculate drawing geometry. If false, TechDraw will use a precision algorithm. CoarseView can be much faster for complex models. The quality of the drawing is reduced, since every curve is approximated as a series of short line segments. Vertices are not displayed in CoarseView since each short segment would result in two new Vertices and the display becomes cluttered. Linear Dimensions can be added to a CoarseView, but are unlikely to be useful.
+-    **Coarse View**: If true, TechDraw will use a polygon approximation to calculate drawing geometry. If false, TechDraw will use a precision algorithm. CoarseView can be much faster for complex models. The quality of the drawing is reduced, since every curve is approximated as a series of short line segments. Vertices are not displayed in CoarseView since each short segment would result in two new Vertices and the display becomes cluttered. Linear Dimensions can be added to a CoarseView, but are unlikely to be useful.
 
 -    **Smooth Visible**: Visible Smooth lines on/off.
 
@@ -137,15 +139,13 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 -    **XSource**: Links to the drawable objects in an external file. <small>(v0.19)</small> 
 
--    **Direction**: this vector controls the direction from which you are viewing the object. +X is right, -X is left, +Y is rear, -Y is front (looking into the screen), +Z is up and -Z is down. So a Front view is (0,-1,0) and an isometric view is (1,-1,1). (1)
+-    **Direction**: this vector controls the direction from which you are viewing the object. +X is right, -X is left, +Y is rear, -Y is front (looking into the screen), +Z is up and -Z is down. So a Front view is (0,-1,0) and an isometric view is (1,-1,1).
 
--    **XDirection**: this vector controls the rotation of the view around the Direction. <small>(v0.19)</small> . (1)
+-    **XDirection**: this vector controls the rotation of the view around the Direction. <small>(v0.19)</small> .
 
 -    **Perspective**: True for perspective projection, false for orthogonal projection.
 
 -    **Focus**: Distance from camera to projection plane for perspective projections. Needs to be adjusted to fit the object. Too far and the perspective is lost, too close and the object is distorted.
-
-\(1\) queste proprietà sono comuni a tutti i tipi di Viste.
 
 ### View
 

@@ -26,7 +26,7 @@ Applique une contrainte de pression sur une face.
 
 -   La répartition de la pression sur la face est toujours uniforme et perpendiculaire à la face.
 
--   Pression sur les faces: <https://tracker.freecadweb.org/view.php?id=3050>
+-   Pression sur les faces: <https://github.com/FreeCAD/FreeCAD/issues/5699>
 
 
 

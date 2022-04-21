@@ -15,7 +15,7 @@ L\'<img alt="" src=images/Workbench_Raytracing.svg  style="width:24px;"> [atelie
 
 L\'atelier Raytracing fonctionne avec des [modèles](Raytracing_templates/fr.md), qui sont des fichiers de projet définissant une scène pour votre modèle 3D. Vous pouvez placer des lumières et des géométries telles que des plans de sol. Il contient également des espaces réservés pour la position de la caméra et pour les informations sur les matériaux des objets de la scène. Le projet peut ensuite être exporté dans un fichier prêt à être restitué, ou directement dans FreeCAD.
 
-Actuellement, deux moteurs de rendu sont pris en charge : [POV-Ray](POV-Ray/fr.md) et [LuxRender](LuxRender/fr.md). Pour être en mesure d\'interpréter directement à partir de FreeCAD, au moins un de ces moteurs de rendu doit être installé sur votre système, et son chemin doit être configuré dans les préférences FreeCAD Raytracing. Cependant, sans aucun moteur de rendu installé, vous êtes toujours en mesure d\'exporter un fichier de scène qui peut être utilisé plus tard, dans n\'importe quel moteur de rendu, ou sur une autre machine.
+Actuellement, deux moteurs de rendu sont pris en charge : [POV-Ray](POV-Ray/fr.md) et [LuxRender](LuxRender/fr.md). Pour être en mesure d\'effectuer un rendu à partir de FreeCAD, au moins un de ces programmes doit être installé et configuré dans votre système. Cependant, si aucun programme de rendu n\'est installé, vous pourrez toujours exporter un fichier de projet pour le rendre à un autre moment.
 
 L\'atelier Raytracing est quasiment obsolète. De nouveaux développements sont en cours avec l\'[atelier Render](https://github.com/FreeCAD/FreeCAD-render), qui est destiné à le remplacer. Cet atelier est entièrement programmé en Python et il est donc beaucoup plus facile de le faire évoluer que l\'actuel qui est programmé en C ++. Néanmoins, les informations de cette page sont généralement utiles pour le nouvel atelier car les deux modules fonctionnent essentiellement de la même manière.
 
@@ -42,18 +42,18 @@ Ce sont les principaux outils d'exportation de votre travail 3D vers des rendus 
 
 -   <img alt="" src=images/Raytracing_New.svg  style="width:32px;"> [Nouveau projet PovRay](Raytracing_New/fr.md): Insérer un nouveau projet PovRay dans le document
 -   <img alt="" src=images/Raytracing_Lux.svg  style="width:32px;"> [Nouveau projet LuxRender](Raytracing_Lux/fr.md): Insérer un nouveau projet LuxRender dans le document
--   <img alt="" src=images/Raytracing_InsertPart.svg  style="width:32px;"> [Insérer une vue](Raytracing_InsertPart/fr.md): Insérer une vue d\'une pièce dans un projet de lancer de rayons
--   <img alt="" src=images/Raytracing_ResetCamera.svg  style="width:32px;"> [Reset caméra](Raytracing_ResetCamera/fr.md): Fait correspondre la position de la caméra d\'un projet de lancer de rayons à la vue actuelle
--   <img alt="" src=images/Raytracing_ExportProject.svg  style="width:32px;"> [Exporte un projet](Raytracing_ExportProject/fr.md): Exporte un projet de lancer de rayons dans un fichier de scène pour le rendu dans un rendu externe
--   <img alt="" src=images/Raytracing_Render.svg  style="width:32px;"> [Lancer de rayons](Raytracing_Render/fr.md): Rend un projet de lancer de rayons avec un moteur de rendu externe
+-   <img alt="" src=images/Raytracing_InsertPart.svg  style="width:32px;"> [Insérer une pièce](Raytracing_InsertPart/fr.md): Insérer une vue d\'une pièce dans un projet de lancer de rayons
+-   <img alt="" src=images/Raytracing_ResetCamera.svg  style="width:32px;"> [Réinitialiser la caméra](Raytracing_ResetCamera/fr.md): Fait correspondre la position de la caméra d\'un projet de lancer de rayons à la vue actuelle
+-   <img alt="" src=images/Raytracing_ExportProject.svg  style="width:32px;"> [Exporter un projet](Raytracing_ExportProject/fr.md): Exporte un projet de lancer de rayons dans un fichier de scène pour le rendu dans un rendu externe
+-   <img alt="" src=images/Raytracing_Render.svg  style="width:32px;"> [Rendu](Raytracing_Render/fr.md): Rend un projet de lancer de rayons avec un moteur de rendu externe
 
 ### Utilitaires
 
 Ce sont des outils auxiliaires pour effectuer manuellement des tâches spécifiques.
 
--   <img alt="" src=images/Raytracing_WriteView.svg  style="width:32px;"> [Exporte la vue 3D](Raytracing_WriteView/fr.md): Exporte la vue 3D active avec la caméra et tout son contenu dans un fichier povray.
--   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width:32px;"> [Export camera to povray](Raytracing_WriteCamera/fr.md): Exporte la position de la caméra de la vue 3D active au format POV-Ray dans un fichier.
--   <img alt="" src=images/Raytracing_WritePart.svg  style="width:32px;"> [Exporte l\'objet sélectionnée](Raytracing_WritePart/fr.md): Exporte la partie sélectionnée (objet) en tant que fichier povray.
+-   <img alt="" src=images/Raytracing_WriteView.svg  style="width:32px;"> [Exporter la vue vers Pov-Ray](Raytracing_WriteView/fr.md): Exporte la vue 3D active avec la caméra et tout son contenu dans un fichier povray.
+-   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width:32px;"> [Exporter la caméra vers Pov-Ray](Raytracing_WriteCamera/fr.md): Exporte la position de la caméra de la vue 3D active au format POV-Ray dans un fichier.
+-   <img alt="" src=images/Raytracing_WritePart.svg  style="width:32px;"> [Export de la pièce vers Pov-Ray](Raytracing_WritePart/fr.md): Exporte la partie sélectionnée (objet) en tant que fichier povray.
 
 ## Préférences
 
@@ -61,12 +61,12 @@ Ce sont des outils auxiliaires pour effectuer manuellement des tâches spécifiq
 
 ## Tutorials
 
--   [Tutoriel de base Lancer de rayon](Raytracing_tutorial/fr.md)
--   [Tutoriel intermédiaire de base Lancer de rayon](Tutorial_FreeCAD_POV_ray/fr.md)
+-   [Tutoriel basique Raytracing](Raytracing_tutorial/fr.md)
+-   [Tutoriel intermédiaire Raytracing](Tutorial_FreeCAD_POV_ray/fr.md)
 
 ## Création manuelle d\'un fichier povray 
 
-Les outils utilitaires décrits ci-dessus vous permettent d\'exporter l\'affichage 3D actuel et tout son contenu dans un fichier [Povray](http://www.povray.org/). Tout d\'abord, vous devez charger ou créer vos données CAO et positionner l\'orientation de la vue 3D que vous le souhaitez. Puis choisissez \"Utilities → Export View\...\" dans le menu de raytracing.
+Les outils utilitaires décrits ci-dessus vous permettent d\'exporter l\'affichage 3D actuel et tout son contenu dans un fichier [Povray](http://www.povray.org/). Tout d\'abord, vous devez charger ou créer vos données CAO et positionner l\'orientation de la vue 3D que vous le souhaitez. Puis choisissez \"Utilitaires → Exporter la vue\...\" dans le menu de raytracing.
 
 ![](images/FreeCAD_Raytracing.jpg )
 
@@ -92,7 +92,7 @@ Voir [Raytracing API exemples](Raytracing_API_example/fr.md) pour plus d\'inform
 -   [LuxRender](LuxRender/fr.md)
 -   <http://www.luxrender.net/>
 
-Autres moteurs de rendu libres (pour implémentation à venir) :
+### Futurs moteurs de rendu possibles à mettre en œuvre 
 
 -   <http://www.yafaray.org/>
 -   <http://www.mitsuba-renderer.org/>

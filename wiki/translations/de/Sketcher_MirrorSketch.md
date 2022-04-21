@@ -19,9 +19,17 @@ Spiegelt eine Skizze entlang der X Achse, der Y Achse oder dem Ursprung. Dieser 
 2.  Klick auf **[<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [ Skizze spiegeln](Sketcher_MirrorSketch/de.md)** oder wähle **Skizze → [<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Skizze spiegeln](Sketcher_MirrorSketch/de.md)** aus dem oberen Menü.
 3.  Die resultierende Skizze wird als separates neues Objekt erstellt.
 
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
 Hinweise:
 
 -   Mehrere Skizzen können vor Anwenden der Operation ausgewählt werden.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

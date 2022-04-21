@@ -28,6 +28,39 @@ If the symbol appears larger than expected, use the scale property to adjust its
 
 -    **Scale Type**for Symbols is always set to *Custom* at creation. This is for convenience, since symbols are almost always scaled differently from the rest of the objects on the page.
 
+## Properties
+
+
+{{TitleProperty|Base}}
+
+See [TechDraw View](TechDraw_View#Properties.md)
+
+-    **X**
+    
+
+-    **Y**
+    
+
+-    **Lock Position**
+    
+
+-    **Rotation**
+    
+
+-    **Scale Type**
+    
+
+-    **Scale**
+    
+
+-    **Caption**
+    
+
+
+{{TitleProperty|Drawing view}}
+
+-    **Editable Texts**: List of editable texts, if any.
+
 ## Scripting
 
 

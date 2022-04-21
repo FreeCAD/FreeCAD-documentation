@@ -357,30 +357,30 @@ Le concepteur utilise des contraintes pour obtenir le résultat souhaité pour l
 
 Les contraintes Assembly3 définissent les restrictions de position ou d\'orientation entre deux [Elements](#Elements.md). Certaines contraintes fonctionnent même avec plus de deux [Elements](#Elements.md). Un [Element](#Elements.md) peut être une face, une ligne ou une arête ou un point d\'une pièce. En général, les contraintes sont définies en sélectionnant les [Elements](#Elements.md) souhaités puis en sélectionnant la contrainte depuis la [barre d\'outils](#Barres_d.27outils.md) des Contraintes.
 
--   Corrige 6 DOF, laisse 0 DOF :
-    -   **Lock** : la contrainte de verrouillage corrige tous les DOF ​​pour une face. Elle doit être utilisée pour une pièce de base dans chaque assemblage. Vous pouvez également activer la fonction \"MoveLock\" (dans la barre d\'outils) afin que la pièce ne puisse pas être déplacée accidentellement. Normalement, peu importe la face/ligne/point que vous utilisez pour fixer une pièce. Notez également que le verrou n\'est valide que pour l\'assemblage direct, c\'est-à-dire que dans le cas d\'un sous-assemblage, l\'assemblage parent nécessiterait toujours une pièce verrouillée seule.
+-   Bloque 6 DOF, laisse 0 DOF :
+    -   **Lock** : la contrainte de verrouillage bloque tous les DOF ​​pour une face. Elle doit être utilisée pour une pièce de base dans chaque assemblage. Vous pouvez également activer la fonction \"MoveLock\" (dans la barre d\'outils) afin que la pièce ne puisse pas être déplacée accidentellement. Normalement, peu importe la face/ligne/point que vous utilisez pour fixer une pièce. Notez également que le verrou n\'est valide que pour l\'assemblage direct, c\'est-à-dire que dans le cas d\'un sous-assemblage, l\'assemblage parent nécessiterait toujours une pièce verrouillée seule.
     -   **Attachment** : rend les systèmes de coordonnées des deux éléments égaux pour tous les axes. C\'est la fonction la moins coûteuse en termes de calcul et elle doit être utilisée dans la mesure du possible. Notez que vous pouvez utiliser les propriétés des éléments pour compenser les décalages et les angles si les deux [Elements](#Elements.md) ne sont pas parfaitement alignés.
--   Corrige 5 DOF, laisse 1 DOF :
-    -   **Plane Coincident** : corrige Tx, Ty, Tz, Rx, Ry. Seul Rz est libre. Il reste la rotation autour de la normale passant par le «centre du plan».
--   Corrige 4 DOF, laisse 2 DOF :
-    -   **Axial Alignment** : corrige Tx, Ty, Rx, Ry. Seuls Tz, Rz sont libres. Reste la rotation autour de l\'axe de la forme et la translation le long de ce même axe. Deux contraintes «PointOnLine» (si les deux points sont différents) donnent le même résultat. La contrainte «Colinear» aussi.
+-   Bloque 5 DOF, laisse 1 DOF :
+    -   **Plane Coincident** : bloque Tx, Ty, Tz, Rx, Ry. Seul Rz est libre. Il reste la rotation autour de la normale passant par le «centre du plan».
+-   Bloque 4 DOF, laisse 2 DOF :
+    -   **Axial Alignment** : bloque Tx, Ty, Rx, Ry. Seuls Tz, Rz sont libres. Reste la rotation autour de l\'axe de la forme et la translation le long de ce même axe. Deux contraintes «PointOnLine» (si les deux points sont différents) donnent le même résultat. La contrainte «Colinear» aussi.
     -   **PointOnLine** : Ceci élimine la translation et la rotation le long des normales à la ligne de référence. Seules la translation et la rotation le long de l\'axe de la ligne sont autorisées.
--   Corrige 3 DOF, laisse 3 DOF:
-    -   **Same Orientation** : corrige Rx, Rz, Rz. Tous les T restent libres
-    -   **Points Coincident** : corrige Tx, Ty, Tz. Tous les R restent libres
+-   Bloque 3 DOF, laisse 3 DOF:
+    -   **Same Orientation** : bloque Rx, Rz, Rz. Tous les T restent libres
+    -   **Points Coincident** : bloque Tx, Ty, Tz. Tous les R restent libres
     -   **PointOnPoint** élimine les 3 translations.
-    -   **Plane Alignment** : corrige Tz, Rx, Ry. En mouvement d\'avion et Rz. Cela élimine la translation le long de la normale au plan de référence et les deux rotations autour des axes de ce plan.
--   Corrige 2 DOF, laisse 4 DOF :
-    -   **Multi Parallel** : corrige Rx, Ry. tous les T et Rz restent. Cela élimine les deux rotations autour des axes du plan de référence
--   Corrige 1 DOF, laisse 5 DOF :
-    -   **Points in Plane** : corrige Tz. Cela élimine la translation le long de la normale au plan de référence.
+    -   **Plane Alignment** : bloque Tz, Rx, Ry (mouvement plan). Cela élimine la translation le long de la normale au plan de référence et les deux rotations autour des axes de ce plan.
+-   Bloque 2 DOF, laisse 4 DOF :
+    -   **Multi Parallel** : bloque Rx, Ry. Tous les T et Rz restent. Cela élimine les deux rotations autour des axes du plan de référence
+-   Bloque 1 DOF, laisse 5 DOF :
+    -   **Points in Plane** : bloque Tz. Cela élimine la translation le long de la normale au plan de référence.
     -   **Points Distance** : fixe la distance entre les origines des éléments.
 
         :   Cela vous donne plus de liberté que *Points in Plane*
 
 Autre
 
--   **Points on Circle**: corrige Tz et partiellement Tx, Ty. Gèle la translation de points (ou plusieurs points) sur un cercle ou une zone de disque. Vous devez choisir le cercle en second. Cela laisse toutes les rotations libres et donne une translation limitée dans le plan de référence du cercle.
+-   **Points on Circle**: bloque Tz et partiellement Tx, Ty. Imposela translation de points (ou plusieurs points) sur un cercle ou une zone de disque. Vous devez choisir le cercle en second. Cela laisse toutes les rotations libres et donne une translation limitée dans le plan de référence du cercle.
 
 *:Remarque : dans la liste suivante, Tx, Ty, Tz et Rx, Ry, Rz sont utilisés pour décrire les translations et les rotations concernant les systèmes de coordonnées de référence des éléments impliqués. Ce n\'est pas toujours exact ou entièrement défini, par ex., lorsqu\'il s\'agit d\'une ligne, elle n\'est pas définie si elle s\'étend en X, Y ou tout angle entre les deux. Le système est utilisé pour la convivialité et la comparaison facile en faveur d\'une définition correcte mais plus complexe. Donc Z est généralement la direction normale de toutes les faces impliquées. N\'hésitez pas à modifier cela avec une meilleure approche avec une meilleure lisibilité.*
 
@@ -394,14 +394,14 @@ Il est utile de penser à un Element comme un mot général pour un \'élément 
 
 Regardons un exemple
 
-:   Créez un nouveau fichier et ajoutez à partir de l\'atelier Part un cube et un cylindre. Nous empilerons le cylindre sur le tube. Nous fixons d\'abord la partie de base, en aucun cas le cube. Sélectionnez la face inférieure du cube et sélectionnez les contraintes \"Verrouillées\" (première icône dans la [barre d\'outils](#Barres_d.27outils.md) des Contraintes). Sélectionnez la face supérieure du cylindre et la face supérieure du cube. Sélectionnez ensuite la contrainte \"Plan coïncident\". Maintenant, le cylindre est déplacé dans le cube et dans l\'arbre une nouvelle feuille avec deux nœuds enfants a été ajoutée sous «Contraintes». De plus, les deux mêmes nœuds enfants ont été ajoutés sous «Éléments». Si votre cylindre est à l\'intérieur du cube au-dessus du cube, corrigez d\'abord cela: sélectionnez le nœud enfant sous \'Constraints\' qui montre la face du cylindre et avec un clic droit dans le menu contextuel sélectionnez \'Retourner la pièce\'. Maintenant, le cylindre est empilé sur la boîte.
+:   Créez un nouveau fichier et ajoutez à partir de l\'atelier Part un cube et un cylindre. Nous empilerons le cylindre sur le cube. Nous fixons d\'abord la partie de base, en aucun cas le cube. Sélectionnez la face inférieure du cube et sélectionnez la contrainte \"Verrouillage\" (première icône dans la [barre d\'outils](#Barres_d.27outils.md) des Contraintes). Sélectionnez la face supérieure du cylindre et la face supérieure du cube. Sélectionnez ensuite la contrainte \"Plan coïncident\". Maintenant, le cylindre est déplacé dans le cube et dans l\'arbre une nouvelle feuille avec deux nœuds enfants a été ajoutée sous «Contraintes». De plus, les deux mêmes nœuds enfants ont été ajoutés sous «Éléments». Si votre cylindre est à l\'intérieur du cube au-dessus du cube, corrigez d\'abord cela: sélectionnez le nœud enfant sous \'Constraints\' qui montre la face du cylindre et avec un clic droit dans le menu contextuel sélectionnez \'Retourner la pièce\'. Maintenant, le cylindre est empilé sur la boîte.
 
 Il est important de comprendre que la contrainte s\'applique aux liens vers les Elements de la liste du dossier \'Elements\' de l\'arborescence. Cela permet de garder la structure de la contrainte intacte tout en changeant les parties. C\'est très difficile à voir sans un exemple.
 
 Revenons à l\'exemple ci-dessus
 
-:   Remarque : assurez-vous que vous avez ajouté la contrainte \"Lock\" au cube ou cela semblera déroutant
-:   Dans la fenêtre CAD, sélectionnez une autre face du cube. Désormais, nous ne travaillons que dans l\'arborescence. Allez avec votre souris dans l\'arborescence où le cube doit être sélectionné. Glissez-déposez le cube dans le dossier \'Elements\'. Déposez-le sur le nom «Elements», pas n\'importe où ailleurs dans le dossier - nous verrons pourquoi plus tard. Vous devriez voir qu\'un autre élément est ajouté à la liste \'ELements\'. Sélectionnez maintenant dans le dossier \'Contraintes\', le nœud enfant de la face de cube dans la contrainte \"Plane Coincident\" et supprimez-le. La contrainte affichera un point d\'exclamation car il manque un élément. Notez qu\'en supprimant l\'élément dans la contrainte, nous ne l\'avons «pas» supprimé de la liste. C\'est parce que dans la contrainte était seulement un lien vers l\'élément dans la liste. Maintenant, prenez l\'élément nouvellement ajouté dans la liste des \'Elements\' et faites-le glisser sur la contrainte \"Plane Coincident\". Maintenant, le cylindre se déplace vers l\'autre face que nous avons sélectionnée. Nous devrons peut-être sélectionner à nouveau \'context menu/flip part\' (menu contextuel/retourner la pièce) si le cylindre est à nouveau à l\'intérieur du cube.
+:   Remarque : assurez-vous que vous avez ajouté la contrainte \"Locked\" au cube ou cela semblera déroutant
+:   Dans la fenêtre CAD, sélectionnez une autre face du cube. Désormais, nous ne travaillons que dans l\'arborescence. Allez avec votre souris dans l\'arborescence où le cube doit être sélectionné. Glissez-déposez le cube dans le dossier \'Elements\'. Déposez-le sur le nom «Elements», pas n\'importe où ailleurs dans le dossier - nous verrons pourquoi plus tard. Vous devriez voir qu\'un autre élément est ajouté à la liste \'ELements\'. Sélectionnez maintenant dans le dossier \'Contraintes\', le nœud enfant de la face de cube dans la contrainte \"Plane Coincident\" et supprimez-le. La contrainte affichera un point d\'exclamation car il manque un élément. Notez qu\'en supprimant l\'élément dans la contrainte, nous ne l\'avons «pas» supprimé de la liste. C\'est parce que dans la contrainte était seulement un lien vers l\'élément de la liste. Maintenant, prenez l\'élément nouvellement ajouté dans la liste des \'Elements\' et faites-le glisser sur la contrainte \"Plane Coincident\". Maintenant, le cylindre se déplace vers l\'autre face que nous avons sélectionnée. Nous devrons peut-être sélectionner à nouveau \'context menu/flip part\' (menu contextuel/retourner la pièce) si le cylindre est à nouveau à l\'intérieur du cube.
 
 L\'exemple a montré que sans supprimer la contrainte, nous pouvons changer les Elements utilisés pour la contrainte. De la même manière, nous pouvons déplacer le cylindre vers une pièce totalement différente. Après avoir joué un peu plus avec cet exemple, vous noterez quelques éléments supplémentaires comme
 
@@ -432,7 +432,7 @@ L\'[Atelier Assembly3](Assembly3_Workbench/fr.md) est disponible (à partir de m
 
 Il existe deux autres façons d\'installer Assembly3 :
 
--   Un fork spécial de FreeCAD faite par realthunder ; voir [FreeCAD\_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Ce fork est basé sur un commit particulier de la branche master de FreeCAD, mais il a également des fonctionnalités supplémentaires qui ne sont actuellement pas présentes dans la branche master. Étant donné que ce fork est basé sur un instantané de développement particulier, il n\'a pas les dernières fonctionnalités fusionnées quotidiennement à la branche principale.
+-   Un fork spécial de FreeCAD fait par realthunder ; voir [FreeCAD\_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Ce fork est basé sur un commit particulier de la branche master de FreeCAD, mais il a également des fonctionnalités supplémentaires qui ne sont actuellement pas présentes dans la branche master. Étant donné que ce fork est basé sur un instantané de développement particulier, il n\'a pas les dernières fonctionnalités fusionnées quotidiennement à la branche principale.
 -   Le développement [AppImage](AppImage/fr.md) est basé sur la branche principale en cours et inclut les dépendances nécessaires pour travailler avec Assembly3, comme le solveur SolveSpace.
 
 Comme l\'AppImage ne fonctionne que pour Linux, pour les utilisateurs de Windows (qui veulent une installation alternative d\'Assembly3) l\'option pour tester Assembly3 est la première option (fork de realthunder).

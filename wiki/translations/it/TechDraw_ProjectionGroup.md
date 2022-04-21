@@ -37,9 +37,15 @@ Se si desidera produrre una sola vista, non conviene utilizzare Gruppo di proiez
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare uno o più oggetti, \"Corpo\" o \"Parte\", nella finestra 3D o nella vista ad albero. Se nel documento ci sono più pagine di disegno, è anche necessario selezionare la pagina desiderata nella struttura.
 2.  Premere il pulsante **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Gruppo di proiezioni](TechDraw_ProjectionGroup/it.md)**.
 3.  Si apre una finestra in cui è possibile selezionare quali viste devono apparire, la scala del gruppo e altri parametri:
+
+
+</div>
 
 ![](images/TaskProjGroup.png )
 
@@ -52,8 +58,6 @@ Se si desidera produrre una sola vista, non conviene utilizzare Gruppo di proiez
 
 
 </div>
-
-Dopo aver creato un gruppo di proiezioni è possibile spostare il gruppo nel suo complesso trascinando la vista centrale. È inoltre possibile spostare le singole viste mediante trascinamento.
 
 ## Proprietà
 

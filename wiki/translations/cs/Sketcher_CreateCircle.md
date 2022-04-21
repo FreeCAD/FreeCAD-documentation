@@ -19,8 +19,14 @@ Tento nástroj nakreslí kružnici zadáním dvou bodů: střed a bod na polomě
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Zadejte body na prázdné ploše ve 3D pohledu nebo na existujícím objektu (v okně Úkolů musí být aktivní automatická vazba (auto constraint)).
 -   Stisknutím klávesy **Esc** nebo kliknutím na pravé tlačítko myši se funkce přeruší.
+
+
+</div>
 
 
 

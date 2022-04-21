@@ -29,7 +29,7 @@ Applies a pressure constraint to a face.
 
 -   Distribution of pressure on face is always uniform and always perpendicular to face.
 
--   Pressure on faces: <https://tracker.freecadweb.org/view.php?id=3050>
+-   Pressure on faces: <https://github.com/FreeCAD/FreeCAD/issues/5699>
 
 
 <div class="mw-translate-fuzzy">

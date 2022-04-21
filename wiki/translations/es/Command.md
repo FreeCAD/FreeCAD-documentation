@@ -93,7 +93,7 @@ class MyCommand:
         """Run the following code when the command is activated (button press)."""
         print("Activated")
 
-    def isActive(self):
+    def IsActive(self):
         """Return True when the command should be active or False when it should be disabled (greyed)."""
         return True
 

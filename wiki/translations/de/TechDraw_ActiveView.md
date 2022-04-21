@@ -14,52 +14,90 @@
 
 Das Werkzeug AktiveAnsicht fügt eine Kopie eines 3D Fensters in eine Zeichnungsseite ein.
 
-![](images/TechDraw_ActiveView_example.png )
-
-
-
+![](images/TechDraw_ActiveView_example.png ) 
 *Eine einfache Ansicht aus dem 3D Modell, die keine komplexen Berechnungen ausführt.*
 
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Gehe zu dem 3D Fenster, das du kopieren möchtest.
 2.  Wenn du mehrere Zeichnungsseiten in deinem Dokument hast, musst du auch die gewünschte Seite im Baum auswählen.
 3.  Drücke die **<img src="images/TechDraw_ActiveView.svg" width=16px> [Aktive Ansicht einfügen](TechDraw_ActiveView/de.md)** Schaltfläche
 4.  Ein Dialogfeld wird geöffnet, in dem du die Größe, den Rahmen und die Hintergrundfarbe der Kopie festlegen kannst.
 
+
+</div>
+
+## Options
+
+The following can be specified:
+
+-    **Width**: The width of the generated view.
+
+-    **Height**: The height of the generated view.
+
+-    **Border**: The amount of empty space to be left around the view (but within Width x Height).
+
+-    **Background**: If checked a background with the specified color is added.
+
+-    **Line Width**: The thickness of the lines in the view.
+
+-    **Render Mode**: The available modes are:
+
+    -   
+        {{Value|As is}}
+        
+        : Render primitives as they are.
+
+    -   
+        {{Value|Wireframe}}
+        
+        : Render polygons as wireframe.
+
+    -   
+        {{Value|Points}}
+        
+        : Render only the vertices of the polygons and lines.
+
+    -   
+        {{Value|Wireframe overlay}}
+        
+        : Render a wireframe overlay in addition to the {{Value|As is}} mode.
+
+    -   
+        {{Value|Hidden Line}}
+        
+        : As {{Value|Wireframe}}, but culls lines which would otherwise not be shown due to geometric culling.
+
+    -   
+        {{Value|Bounding box}}
+        
+        : Only show the bounding box of each object.
+
 ## Hinweise
+
+
+<div class="mw-translate-fuzzy">
 
 -   Aktive Ansichten sind nach der Erzeugung statisch, sie werden nie mit Änderungen am 3D Modell aktualisiert.
 -   AktiveAnsicht hinter den Kulissen ist ein <img alt="" src=images/TechDraw_Symbol.svg  style="width:24px;"> [Symbolansicht](TechDraw_Symbol/de.md). Sein **Maßstabstyp** wird daher immer als *Angepasst* gekennzeichnet.
 
 * Dieses Werkzeug ist noch etwas **experimentell**.
 
+
+</div>
+
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 See <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Symbol](TechDraw_Symbol/de.md)
 
-### Dialog Felder 
 
--    {{PropertyData/de|Breite}}: Die Breite der Ansicht.
-
--    **Höhe**: Die Höhe der Ansicht.
-
--    **Grenze**: Der Wert von leerem Raum am linken Rand, der dann auch umlaufend angezeigt wird (aber innerhalb der Werte von Breite x Höhe).
-
--    {{PropertyData/de|Hintergrund}}: Zeigt oder verbirgt den Hintergrund.
-
--    **Hintergrundfarbe**: Hintergrundfarbe, wenn Hintergrund angezeigt werden soll.
-
--    {{PropertyData/de|Linienbreite}}: Strichstärke individueller Linien in der Ansicht.
-
--    {{PropertyData/de|Render Modus}}: Für das Rendering / Wiedergabe [render mode](https://grey.colorado.edu/coin3d/classSoRenderManager.html#a4b8d99cff0fd91e31bc2c5d33610f6eb) wird die Bibliothek verwendet [Coin3d](https://en.wikipedia.org/wiki/Coin3D). Mögliche einstellbare Modi sind:
-
-    -   **AS\_IS** = Rendering / Wiedergabe so einfach wie möglich.
-    -   **WIREFRAME** = Rendering / Wiedergabe als vieleckiges Drahtgestell
-    -   **POINTS** = Rendering / Wiedergabe nur der Punkte auf dem Drahtgestell
-    -   **WIREFRAME\_OVERLAY** = Rendering / Wiedergabe der Drahtansicht in Verbindung mit dem Modus **AS\_IS**.
-    -   **HIDDEN\_LINE / verdeckte Linien** als **WIREFRAME / Drahtgestell**, zeigt Linien, die sonst nicht angezeigt würden.
-    -   **BOUNDING\_BOX** Zeigt den Begrenzungsrahmen jedes Objekts.
+</div>
 
 ## Skripten
 

@@ -1,8 +1,9 @@
 ---
 - GuiCommand:/fr
    Name:Ship Outline
-   Name/fr:Ship Outline   MenuLocation:Ship design → Outline draw
+   Name/fr:Ship Outline
    Icon:Ship_OutlineDraw.svg
+   MenuLocation:Ship design → Outline draw
    Workbenches:[Ship](Ship_Workbench/fr.md)
    Shortcut:
    SeeAlso:
@@ -11,18 +12,15 @@
 # Ship Outline/fr
 
 
-</div>
-
-
-**Warning. This tool is outdated and will be removed from the module. You can instead consider the [Cross-sections](Part_CrossSections.md) tool to compute the intersections, and the [Drawing workbench](Drawing_Workbench.md) to plot them**
+**Avertissement. Cet outil est obsolète et sera supprimé du module. Vous pouvez utiliser l'outil [Part Coupes](Part_CrossSections/fr.md) pour calculer les intersections, et l'[atelier Drawing](Drawing_Workbench/fr.md) pour les tracer.**
 
 ## Description
 
-Plots the ship hull outline draw
+Trace le contour de la coque du bateau.
 
-## Lines drawing 
+## Plan de lignes 
 
-Ship provides a tool that makes it easy to obtain a Lines Plan from the ship lines drawing
+Ship fournit un outil qui permet d\'obtenir facilement un plan de lignes à partir du plan de lignes du bateau.
 
 ![Outline draw tool.](images/Ship_OutlineDraw.svg )
 

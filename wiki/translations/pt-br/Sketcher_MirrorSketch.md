@@ -18,7 +18,7 @@ Mirror a sketch along the x-axis, the y-axis, or the origin. This command is inv
 2.  Click on **[<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Mirror sketch](Sketcher_MirrorSketch.md)** or choose **Sketch → [<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Mirror sketch](Sketcher_MirrorSketch.md)** from the top menu.
 3.  The resulting sketch is created as a separate new object.
 
-Notes:
+## Notes
 
 -   Multiple sketches can be selected before applying the operation.
 

@@ -11,7 +11,7 @@
 
 ## Description
 
-Select sketcher Elements associated with constraints.
+Select Sketcher Elements associated with constraints.
 
 ## Usage
 

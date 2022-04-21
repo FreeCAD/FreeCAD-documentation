@@ -7,7 +7,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Wählt Sketcher-Elemente aus, die mit Beschränkungen versehen sind.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

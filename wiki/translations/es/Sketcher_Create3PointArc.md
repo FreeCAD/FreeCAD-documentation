@@ -19,10 +19,16 @@ Esta herramienta dibuja un arco eligiendo tres puntos: el punto inicial, el punt
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de arco rojo. Las coordenadas del puntero se muestran al lado en azul en tiempo real.
 
 -   Elegir puntos en un área vacía de la vista 3D, o en un objeto existente (las restricciones automáticas deben estar activas en TaskView).
 -   Pulsar **Esc** o hacer clic con el botón derecho del ratón cancela la función.
+
+
+</div>
 
 
 

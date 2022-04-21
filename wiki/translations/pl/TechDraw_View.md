@@ -26,7 +26,7 @@ Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Mo�
 4.  Istnieje kilka sposobów na wywołanie narzędzia:
     -   Naciśnij przycisk **<img src="images/TechDraw_View.svg" width=16px> [Wstaw widok](TechDraw_View/pl.md)**.
     -   Wybierz opcję **Rysunek Techniczny → <img src="images/TechDraw_View.svg" width=16px> Wstaw widok** z menu.
-
+5.  Jeśli w dokumencie jest wiele stron rysunków i nie została jeszcze wybrana żadna strona, zostanie otwarte okno dialogowe **Wybór strony**: {{Version/pl|0.20}}
     1.  Wybierz żądaną stronę.
     2.  Naciśnij przycisk **OK**.
 
@@ -50,6 +50,8 @@ Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Mo�
 -    {{PropertyData/pl|Skala}}: Widok zostanie wyrenderowany na stronie w stosunku Skala:1 w odniesieniu do źródła. *(1)*
 
 -    {{PropertyData/pl|Podpis}}: Opcjonalny krótki podpis.
+
+*(1)* właściwości te są wspólne dla wszystkich typów widoku.
 
 
 {{Properties_Title/pl|Kosmetyczne}}
@@ -82,15 +84,13 @@ Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Mo�
 
 -    {{PropertyData/pl|XPochodzenie}}: Odnośniki do obiektów rysunkowych w pliku zewnętrznym. {{Version/pl|0.19}}
 
--    {{PropertyData/pl|Kierunek}}: Wektor ten kontroluje kierunek, z którego patrzysz na obiekt. +X to prawo, -X to lewo, +Y to tył, -Y to przód *(patrząc w ekran)*, +Z to góra, a -Z to dół. Zatem widok z przodu to *(0,-1,0)*, a widok izometryczny to *(1,-1,1)*. *(1)*
+-    {{PropertyData/pl|Kierunek}}: Wektor ten kontroluje kierunek, z którego patrzysz na obiekt. +X to prawo, -X to lewo, +Y to tył, -Y to przód *(patrząc w ekran)*, +Z to góra, a -Z to dół. Zatem widok z przodu to *(0,-1,0)*, a widok izometryczny to *(1,-1,1)*.
 
--    {{PropertyData/pl|XKierunek}}: ten wektor kontroluje obrót widoku, według wartości Kierunek.{{Version/pl|0.19}}. *(1)*
+-    {{PropertyData/pl|XKierunek}}: ten wektor kontroluje obrót widoku, według wartości Kierunek.{{Version/pl|0.19}}.
 
 -    {{PropertyData/pl|Perspektywa}}: Przyjmuje wartość {{True}} dla projekcji perspektywicznej, {{False}} dla projekcji ortogonalnej.
 
 -    {{PropertyData/pl|Skupienie}}: Odległość od kamery do płaszczyzny projekcji dla rzutów perspektywicznych. Musi być dostosowana do obiektu. Odległość zbyt duża powoduje utratę perspektywy, odległość zbyt mała powoduje zniekształcenie obiektu.
-
-*(1)* właściwości te są wspólne dla wszystkich typów widoku.
 
 ### Widok
 

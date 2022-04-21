@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreatePentagon
    Name/fr:Sketcher Pentagone
-   MenuLocation:Sketch → Géométries d'esquisse → Créer un pentagone
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer un pentagone
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **P** **5**
    Version:0.15

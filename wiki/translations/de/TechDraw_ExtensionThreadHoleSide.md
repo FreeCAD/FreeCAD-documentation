@@ -13,10 +13,10 @@
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:24px;"> **TechDraw ExtensionThreadHoleSide** Werkzeug fügt ein symbolisches Gewinde (Gewindelinien) in eine von der Seite gesehene Bohrung ein.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:24px;"> **TechDraw ErgänzungInnengewindeSeitlich** ergänzt eine von der Seite gesehene Bohrung mit 2 Gewindelinien (Hilfslinien - Cosmetic lines).
 
 <img alt="" src=images/TechDraw_ExtensionThreadHoleSideExample.png  style="width:200px;"> 
-*Rechts eine Bohrung mit symbolischem Gewinde*
+*Rechts eine Bohrung mit Gewindedarstellung*
 
 ## Verwendung
 

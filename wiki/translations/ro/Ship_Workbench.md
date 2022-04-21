@@ -56,7 +56,7 @@ The <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Ship Workbe
 
 ## History
 
-The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.19. As of v0.19 it also now designated an [external workbench](External_workbenches.md), so it is no longer included in the base system. Instead it\'s available via the [Addon Manager](Std_AddonMgr.md).
+The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.19. As of v0.19 it is also designated an [external workbench](External_workbenches.md), so it is no longer included in the base system. Instead it\'s available via the [Addon Manager](Std_AddonMgr.md).
 
 ## References
 

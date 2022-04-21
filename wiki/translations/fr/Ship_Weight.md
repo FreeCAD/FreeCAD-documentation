@@ -1,72 +1,71 @@
-# Ship Weight/fr
 ---
-- GuiCommand:/fr   Name:Ship Weight   Name/fr:Ship Weight   MenuLocation:Weights → Create a new ship weight   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:/fr
+   Name:Ship Weight
+   Name/fr:Ship Poids
+   MenuLocation:Weights → Create a new ship weight
+   Workbenches:[Ship](Ship_Workbench/fr.md)
+   Shortcut:
+   SeeAlso:
+---
 
-
-</div>
+# Ship Weight/fr
 
 ## Description
 
-Add a weight to the ship instance.
+Ajoute un poids à l\'instance du bateau.
 
-Until this point, all the tools in Ship workbench are based on a **Ship instance** (see [Ships creation](Ship_New.md)), which only holds information regarding the ship shape. Following the progressive data introduction system, at this point the user might define load conditions, which involves creating weights with this tool, creating tanks (see [Tank creation](Ship_TankNew.md)) and assembling them in load conditions (see [Load conditions](Ship_Loading.md)). With that information the center of gravity of the ship can be defined, enabling further computations.
+Jusqu\'à ce stade, tous les outils de Ship workbench sont basés sur une **instance de bateau** (voir [Créer une coque](Ship_New/fr.md)), qui ne contient que des informations sur la forme du bateau. Suivant le système d\'introduction progressive des données, l\'utilisateur peut à ce stade définir des conditions de charge, ce qui implique de créer des poids avec cet outil, de créer des réservoirs (voir [Création de réservoirs](Ship_TankNew/fr.md)) et de les assembler dans des conditions de charge (voir [Conditions de charge](Ship_Loading/fr.md)). Avec ces informations, le centre de gravité du bateau peut être défini, permettant ainsi d\'autres calculs.
 
-## Usage
+## Utilisation
 
-In order to create a weight, select the weight geometry (see below) and invoke **Weights → Create a new ship weight**.
+Pour créer un poids, sélectionnez la géométrie du poids (voir ci-dessous) et invoquez **Weights → Create a new ship weight**.
 
-The task panel is shown, where you must select the **Ship instance** (see [Ships creation](Ship_New.md)) in which the weight shall be added, as well as the density/mass.
+Le panneau des tâches s\'affiche, où vous devez sélectionner l\'instance du bateau (voir [Créer une coque](Ship_New/fr.md)) dans laquelle le poids doit être ajouté, ainsi que la densité/masse.
 
-When the **Accept** button is pressed, a new weight entity is created inside the chosen **Ship instance**.
+Lorsque vous appuyez sur le bouton **Accept**, une nouvelle instance de réservoir est créée dans l**\'instance de bateau** choisie.
 
-## Levels of abstraction 
+## Niveaux d\'abstraction 
 
-As already discussed, the weights can be defined on top of different kind of geometries, allowing different levels of abstraction. If several of those entities are simultaneously selected, the lower possible level of abstraction is selected.
+Comme nous l\'avons déjà vu, les poids peuvent être définis sur différents types de géométries, ce qui permet différents niveaux d\'abstraction. Si plusieurs de ces entités sont sélectionnées simultanément, le niveau d\'abstraction le plus bas possible est sélectionné.
 
-### Solid/volumetric weights 
+### Poids solides/volumétriques 
 
-This is the lower level of abstraction, where the solid shape of the weight is provided, requiring a detailed knowledge of the element. In case solids are found in the selected geometry, this is the abstraction type that will be applied, discarding any other type of geometry.
+Il s\'agit du niveau inférieur d\'abstraction, où la forme solide du poids est fournie, ce qui nécessite une connaissance détaillée de l\'élément. Si des solides sont trouvés dans la géométrie sélectionnée, c\'est ce type d\'abstraction qui sera appliqué, en écartant tout autre type de géométrie.
 
-Solid/volumetric weights are featured by its material density (in kg/m^3^, or any other compatible unit).
+Les poids solides/volumétriques sont caractérisés par la densité du matériau (en kg/m^3^, ou toute autre unité compatible).
 
-### Surface/area weights 
+### Poids surfaces/aires 
 
-The next level of abstraction are the surface-based weights. This level of abstraction can be considered for plates, or in general for any surface element with a small width.
+Le niveau d\'abstraction suivant est celui des poids basés sur la surface. Ce niveau d\'abstraction peut être considéré pour les assiettes, ou en général pour tout élément de surface ayant une petite largeur.
 
 <img alt="" src=images/Thin_Plate.png  style="width:200px;"> 
-*Schematic view of a thin plate*
+*Vue schématique d'une plaque mince*
 
-In case no solids can be found in the selected geometry but surfaces, this is the abstraction type that will be applied, discarding the lines and vertices.
+Si la géométrie sélectionnée ne contient pas de solides mais des surfaces, c\'est ce type d\'abstraction qui sera appliqué, en éliminant les lignes et les sommets.
 
-Surface/area weights are featured by its area density (in kg/m^2^, or any other compatible unit), i.e. the material density multiplied by the width of the element.
+Les poids des surfaces sont caractérisés par leur densité surfacique (en kg/m^2^, ou toute autre unité compatible), c\'est-à-dire la densité du matériau multipliée par la largeur de l\'élément.
 
-### Linear weights 
+### Poids linéaires 
 
-The next level of abstraction are the line-based weights. This level of abstraction can be considered for beams, or in general for any element with small cross-sectional area compared with the longitudinal dimension.
+Le niveau d\'abstraction suivant est celui des poids basés sur les lignes. Ce niveau d\'abstraction peut être envisagé pour les poutres, ou en général pour tout élément dont la section transversale est petite par rapport à la dimension longitudinale.
 
 <img alt="" src=images/Thin_Beam.png  style="width:200px;"> 
-*Schematic view of a thin beam*
+*Vue schématique d'une poutre mince*
 
-In case neither solids nor surfaces can be found in the selected geometry, but edges/lines are indeed present, this is the abstraction type that will be applied. The vertices are indeed discarded.
+Si aucun solide ou surface ne peut être trouvé dans la géométrie sélectionnée, mais que des arêtes/lignes sont bien présentes, c\'est ce type d\'abstraction qui sera appliqué. Les sommets sont en effet éliminés.
 
-Linear weights are featured by its linear density (in kg/m, or any other compatible unit), i.e. the material density multiplied by the cross-sectional area.
+Les poids linéaires sont caractérisés par leur densité linéaire (en kg/m, ou toute autre unité compatible), c\'est-à-dire la densité du matériau multipliée par la surface de la section transversale.
 
-### Punctual weights 
+### Poids ponctuels 
 
-This is the highest level of abstraction, in which the whole weight is represented by a single point (if several points are provided the final application point will be averaged). In case just vertices can be found in the selected geometry, this is the abstraction type that will be applied.
+Il s\'agit du plus haut niveau d\'abstraction, dans lequel l\'ensemble du poids est représenté par un seul point (si plusieurs points sont fournis, la moyenne du point d\'application final sera calculée). Dans le cas où seuls des sommets peuvent être trouvés dans la géométrie sélectionnée, c\'est le type d\'abstraction qui sera appliqué.
 
-Punctual weights are featured by its mass (in kg, or any other compatible unit).
+Les poids ponctuels sont caractérisés par leur masse (en kg, ou toute autre unité compatible).
 
-## Tutorials
+## Tutoriels
 
-
-<div class="mw-translate-fuzzy">
-
--   [FreeCAD-Ship s60 tutorial ](FreeCAD-Ship_s60_tutorial/fr.md)
--   [FreeCAD-Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
-
-
-</div>
+-   [Tutoriel Construction navale S60](FreeCAD-Ship_s60_tutorial/fr.md)
+-   [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
 
 
 

@@ -24,14 +24,8 @@ Per iniziare è necessario scaricare ed [installare](Installing/it.md) FreeCAD. 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*Interfaccia standard di FreeCAD nella versione 0.19.*
-
-
-</div>
+*Interfaccia standard di FreeCAD*
 
 
 **Vedere la spiegazione completa in [Interfaccia](Interface/it.md).**
@@ -51,35 +45,15 @@ Per iniziare è necessario scaricare ed [installare](Installing/it.md) FreeCAD. 
 
 Il concetto principale è che, dietro la sua interfaccia, FreeCAD è suddiviso in [ambienti di lavoro](workbenches/it.md). Ogni ambiente raggruppa gli strumenti idonei a svolgere un compito specifico, come ad esempio lavorare con gli oggetti [mesh](Mesh_Workbench/it.md), oppure disegnare [oggetti 2D](Draft_Workbench/it.md) o [schizzi vincolati](Sketcher_Workbench/it.md). È possibile cambiare l\'ambiente corrente con il [selettore degli ambienti](Std_Workbench/it.md). Si può [personalizzare](Interface_Customization/it.md) il set di strumenti inclusi in ogni ambiente, aggiungere degli strumenti da altri ambienti o anche aggiungere strumenti di propria creazione, che chiamiamo [macro](macros/it.md). Punti di partenza ampiamente utilizzati sono [PartDesign](PartDesign_Workbench/it.md) e [Part](Part_Workbench/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Al primo avvio di FreeCAD viene visualizzato lo start center. Ecco come appare nella versione 0.18:
-
-
-</div>
+Al primo avvio di FreeCAD viene visualizzato la pagina iniziale. Ecco come appare nella versione 0.18:
 
 <img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Lo Start Center permette di passare rapidamente a uno degli ambienti di lavoro più comuni, di aprire uno dei file recenti, oppure di vedere le ultime novità dal mondo di FreeCAD. Nelle [preferenze](Preferences_Editor/it.md) è possibile modificare l\'ambiente di lavoro predefinito.
-
-
-</div>
+La Pagina Iniziale permette di passare rapidamente a uno degli ambienti di lavoro più comuni, di aprire uno dei file recenti, oppure di vedere le ultime novità dal mondo di FreeCAD. Nelle [preferenze](Preferences_Editor/it.md) è possibile modificare l\'ambiente di lavoro predefinito.
 
 ## Navigare nello spazio 3D 
 
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD permette di interagire con lo spazio 3D in diverse [modalità di navigazione](Mouse_navigation/it.md) selezionabili nel dialogo delle preferenze oppure cliccando con il tasto destro nella vista 3D. Uno di essi è specifico per la [Navigazione Touchpad](Mouse_navigation/it#Touchpad_Navigation.md), dove non si usa il tasto centrale del mouse.
-
-Per la modalità di default, la \"Navigazione CAD\", i comandi sono i seguenti:
-
-
-</div>
+FreeCAD ha diverse [modalità di navigazione](Mouse_navigation/it.md), che modificano il modo con cui usi il tuo mouse, per interagire con gli oggetti nella vista 3D e con la vista stessa. Uno di questi è specifico per la [navigazione touchpad](Mouse_navigation/it#Navigazione_Touchpad.md), dove il bottone centrale non è utilizzato. La modalità di navigazione di default è [navigazione CAD](Mouse_navigation/it#CAD_navigation.md). Puoi rapidamente cambiare la modalità di navigazione utilizzando il bottone **[<img src=images/NavigationCAD_dark.svg style="width:16px">** nella [barra di stato](Status_bar/it.md) o cliccando col tasto destro in un area vuota della [vista 3D](3D_view/it.md).
 
 Inoltre, sono disponibili alcune viste preconfigurate (dall\'alto, laterale, frontale, ecc) accessibili dal menu Visualizza⁫ → Viste standard oppure tramite i pratici comandi veloci dei tasti numerici ( {{KEY/it|1}}, {{KEY/it|2}}, {{KEY/it|3}} etc\...). Facendo clic con il pulsante destro su un oggetto o un\'area vuota della vista 3D, si ha accesso rapido ad alcune operazioni comuni, come l\'impostazione di una vista particolare, o l\'individuazione di un oggetto nella vista ad albero.
 
@@ -141,13 +115,7 @@ Maggiori informazioni si trovano nella sezione [Tutorial](Tutorials/it.md).
 
 ## Addon, Macro e Ambienti complementari 
 
-
-<div class="mw-translate-fuzzy">
-
 FreeCAD, come software open source, offre la possibilità di integrare i propri ambienti di lavoro con componenti aggiuntivi.
-
-
-</div>
 
 Il principio degli [Addon](Addon/it.md) si basa sullo sviluppo di un complemento dell\'ambiente di lavoro. Qualsiasi utente può sviluppare una funzione che ritiene mancare per i propri bisogni o, in definitiva, per la comunità. Con il forum, l\'utente può richiedere un parere o un aiuto sul forum. Può condividere o meno l\'oggetto del suo sviluppo secondo le regole del copyright da definire. Gratuito per tutti. Per lo sviluppo, l\'utente ha a disposizione le funzioni di [script](scripting/it.md).
 

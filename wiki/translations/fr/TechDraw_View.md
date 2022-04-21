@@ -41,15 +41,17 @@ La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouv
 
 -    **Y**: La position verticale de la vue sur la page. (1)
 
--    **LockPosition**: Empêche les vues d\'être glissées dans le Gui quand la valeur est True. La vue peut toujours être déplacée en changeant les propriétés X, Y. (1)
+-    **Lock Position**: Empêche les vues d\'être glissées dans le Gui quand la valeur est True. La vue peut toujours être déplacée en changeant les propriétés X, Y. (1)
 
 -    **Rotation**: Rotation antihoraire de la vue sur la page en degrés. (1)
 
--    **ScaleType**: \"Document\": utilise le paramètre d\'échelle de la page. \"Custom\": utilise une échelle unique pour cette vue. \"Automatic\": ajuste la vue à la page. (1)
+-    **Scale Type**: \"Document\": utilise le paramètre d\'échelle de la page. \"Custom\": utilise une échelle unique pour cette vue. \"Automatic\": ajuste la vue à la page. (1)
 
 -    **Scale**: Une vue sera rendue sur la page à l\'Échelle: 1 par rapport à la Source. (1)
 
 -    **Caption**: Légende de texte court facultative.
+
+\(1\) ces propriétés sont communes à tous les types de vues.
 
 
 {{TitleProperty|Cosmetics}}
@@ -57,7 +59,7 @@ La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouv
 
 {{TitleProperty|HLR Parameters}}
 
--    **CoarseView**: Si Vrai, TechDraw utilisera une approximation de polygone pour calculer la géométrie de dessin. Si faux, TechDraw utilisera un algorithme de précision. CoarseView peut être beaucoup plus rapide pour les modèles complexes. La qualité du dessin est réduite car chaque courbe est approximée par une série de segments courts. Les sommets ne sont pas affichés dans CoarseView, car chaque segment court donnerait deux nouveaux sommets et l\'affichage deviendrait encombré. Des dimensions linéaires peuvent être ajoutées à un CoarseView, mais ne seront probablement pas utilisables.
+-    **Coarse View**: Si Vrai, TechDraw utilisera une approximation de polygone pour calculer la géométrie de dessin. Si faux, TechDraw utilisera un algorithme de précision. CoarseView peut être beaucoup plus rapide pour les modèles complexes. La qualité du dessin est réduite car chaque courbe est approximée par une série de segments courts. Les sommets ne sont pas affichés dans CoarseView, car chaque segment court donnerait deux nouveaux sommets et l\'affichage deviendrait encombré. Des dimensions linéaires peuvent être ajoutées à un CoarseView, mais ne seront probablement pas utilisables.
 
 -    **Smooth Visible**: Les lignes lisses visibles sont activées/désactivées.
 
@@ -80,15 +82,13 @@ La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouv
 
 -    **Source**: Liens vers les objets projetables à représenter
 
--    **Direction**: Ce vecteur contrôle la direction à partir de laquelle vous visualisez l\'objet. +X est à droite, -X est à gauche, +Y est à l\'arrière, -Y est à l\'avant (regardant dans l\'écran), +Z est en haut et -Z est en bas. Donc, une vue de face est (0,-1,0) et une vue isométrique est (1,-1,1). (1)
+-    **Direction**: Ce vecteur contrôle la direction à partir de laquelle vous visualisez l\'objet. +X est à droite, -X est à gauche, +Y est à l\'arrière, -Y est à l\'avant (regardant dans l\'écran), +Z est en haut et -Z est en bas. Donc, une vue de face est (0,-1,0) et une vue isométrique est (1,-1,1).
 
--    **XDirection**: ce vecteur contrôle la rotation de la vue autour de la direction. {{Version/fr|0.19}}. (1)
+-    **XDirection**: Ce vecteur contrôle la rotation de la vue autour de la direction. {{Version/fr|0.19}}.
 
 -    **Perspective**: Vrai pour la projection en perspective, faux pour la projection orthogonale.
 
 -    **Focus**: Distance de la caméra au plan de projection pour les projections en perspective. Doit être ajusté pour s\'adapter à l\'objet. Trop loin et la perspective est perdue, trop proche et l\'objet est déformé.
-
-\(1\) ces propriétés sont communes à tous les types de vues.
 
 ### Vue
 

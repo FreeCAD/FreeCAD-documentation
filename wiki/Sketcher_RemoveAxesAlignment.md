@@ -13,7 +13,7 @@
 
 This tool removes axes alignments (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> [Horizontal](Sketcher_ConstrainHorizontal.md), <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:16px;"> [Vertical](Sketcher_ConstrainVertical.md) constraints) from the selected elements by trying to preserve the constraint relationship.
 
-## How to use 
+## Usage
 
 1.  Select geometry with axes alignments, for example a [rectangle](Sketcher_CreateRectangle.md).
 2.  Press the <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Remove axes alignment** toolbar button.

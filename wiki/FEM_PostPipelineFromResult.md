@@ -15,9 +15,10 @@ Pipeline is a result object, which creates a new graphical representation of FEM
 
 ## Usage
 
-1.  Select a result object
-2.  Click <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> button, or click on menu **Results → Post Pipeline from result**. A new object called \"Pipeline\" will be added to your analysis.
-3.  Double-click the new Pipeline object in the [tree view](tree_view.md) and select a display mode and the result field. For example for the mode *Surface* and the field *Von Mises stress* the pipeline will look like this:
+1.  Select a result object.
+2.  Click the **<img src="images/FEM_PostPipelineFromResult.svg" width=16px>** button, or select the **Results → <img src="images/FEM_PostPipelineFromResult.svg" width=16px> Post pipeline from result** option from the menu.
+3.  A new object called \"Pipeline\" is added to your analysis.
+4.  Double-click the new Pipeline object in the [Tree view](Tree_view.md) and select a display mode and the result field. For example for the mode {{Value|Surface}} and the field {{Value|Von Mises stress}} the pipeline will look like this:
 
 <img alt="" src=images/Pipeline.PNG  style="width:500px;">
 
@@ -27,9 +28,9 @@ If you use a [SI](https://en.wikipedia.org/wiki/International_System_of_Units)-d
 
 ## Properties
 
-### Dialog
+### Dialog box 
 
-This pipeline dialog has the following settings:
+This pipeline dialog box has the following settings:
 
 -   **Mode**: How to draw the results. The possible modes are
     -   **Outline**: The outline of the result mesh. In fact is displays no results but only the borders of the mesh
@@ -41,7 +42,7 @@ This pipeline dialog has the following settings:
 
 ### Scale
 
-If you double-click on the scale, you get this settings dialog:
+If you double-click on the scale, you get this settings dialog box:
 
 ![](images/SIMTUT_05.PNG )
 
@@ -54,7 +55,7 @@ and can modify these properties:
 
 ### Property Editor 
 
-In the [property editor](property_editor.md) you can set in the *View* tab the settings from the dialog. In the *Data* tab you can additionally set this:
+In the [property editor](property_editor.md) you can set in the *View* tab the settings from the dialog box. In the *Data* tab you can additionally set this:
 
 -    **Mode**: How the filters used in the pipeline will be treated. These modes are possible:
 

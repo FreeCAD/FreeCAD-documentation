@@ -428,7 +428,7 @@ A link property. It can contain link to an object. When you call this property, 
 
 
 ```python
-link_obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName")
+link_obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "LinkObjectName")
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"
 obj.addProperty("App::PropertyLink", "ThePropertyName", "Subsection", "Description for tooltip")
@@ -481,9 +481,9 @@ A link list property. It can contain list of linked objects. For more details, s
 
 
 ```python
-link_obj0=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName0")
-link_obj1=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName1")
-link_obj2=FreeCAD.ActiveDocument.addObject("App::FeaturePython","LinkObjectName2")
+link_obj0 = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "LinkObjectName0")
+link_obj1 = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "LinkObjectName1")
+link_obj2 = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "LinkObjectName2")
 
 obj = FreeCAD.ActiveDocument.addObject("App::FeaturePython", "InternalObjectName")
 obj.Label = "User-friendly label"

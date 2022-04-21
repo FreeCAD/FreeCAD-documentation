@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/de
    Name:Std TransformManip
-   Name/de:Std TransformManip
-   MenuLocation:Rechtsklick auf ein Objekt in der Baumansicht → Transform
+   Name/de:Std Bewegen
+   MenuLocation:Rechtsklick auf ein Objekt in der Baumansicht → Transformieren
 Bearbeiten → Transformieren
    Workbenches:Alle
    SeeAlso:[Std Basis](Std_Base/de.md)
@@ -12,7 +12,7 @@ Bearbeiten → Transformieren
 
 ## Beschreibung
 
-Mit dieser Funktion können Maße zur Rotation und/oder zur Verschiebung von Objekten inkrementell verändert werden.
+Mit diesem Werkzeug können Rotations- und/oder Verschiebungswerte von Objekten inkrementell verändert werden.
 
 ![](images/Manipulators.png )
 

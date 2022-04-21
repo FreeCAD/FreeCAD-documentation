@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher_MapSketch
    Name/fr:Sketcher Esquisse sur une face
-   MenuLocation:Part Design/Sketch → Appliquer une esquisse sur une face...
+   MenuLocation:Part Design/Esquisse → Appliquer une esquisse sur une face...
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
    SeeAlso:[Sketcher Créer une esquisse](Sketcher_NewSketch/fr.md)
 ---
@@ -24,7 +24,7 @@ Veuillez noter que cet outil n\'est pas utilisé pour créer de nouvelles esquis
 ## Utilisation
 
 -   Sélectionnez la face d\'une fonction PartDesign ou d\'un solide.
--   Cliquez sur l\'icône **<img src="images/Sketcher_MapSketch.svg" width=16px> [Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md)** de la barre d\'outils (ou encore depuis le menu PartDesign ou Sketch, selon l\'atelier actif)
+-   Cliquez sur l\'icône **<img src="images/Sketcher_MapSketch.svg" width=16px> [Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md)** de la barre d\'outils (ou encore depuis le menu PartDesign ou Esquisse, selon l\'atelier actif)
 -   Dans la fenêtre de dialogue **Sélection de l\'esquisse** s\'ouvre, sélectionnez l\'esquisse à appliquer depuis la liste puis cliquez sur OK.
 -   Vous êtes amené sur le mode d\'édition de l\'esquisse.
 

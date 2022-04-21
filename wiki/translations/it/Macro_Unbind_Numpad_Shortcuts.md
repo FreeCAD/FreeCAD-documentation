@@ -1,4 +1,7 @@
 # Macro Unbind Numpad Shortcuts/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Unbind Numpad Shortcuts
 |Translate=Annulla collegamenti al tastierino numerico
@@ -11,9 +14,20 @@
 |Download=[https://www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png ToolBar Icon]
 }}
 
+
+</div>
+
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
+## Description 
+
 Quando si immettono i numeri e la casella di immissione del numero non è correttamente focalizzata, FreeCAD reagisce alle cifre cambiando le viste standard. Questa macro è un modo rapido per reindirizzare le scorciatoie a Ctrl + numero. Non aiuta molto con l\'inserimento dei numeri, ma almeno la vista non cambia.
+
+
+</div>
 
 Vedere nel forum la discussione [Come disattivare (disabilitare) la navigazione dal tastierino numerico?](https://forum.freecadweb.org/viewtopic.php?f=3&t=26667)
 
@@ -34,7 +48,7 @@ ToolBar Icon ![](images/Macro_Unbind_Numpad_Shortcuts.png )
 
 {{MacroCode|code=
 preset = [
-    ("Std_ViewAxo"   , "Ctrl+0"),
+    ("Std_ViewIsometric"   , "Ctrl+0"),
     ("Std_ViewFront" , "Ctrl+1"),
     ("Std_ViewTop"   , "Ctrl+2"),
     ("Std_ViewRight" , "Ctrl+3"),

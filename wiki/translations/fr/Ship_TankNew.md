@@ -1,34 +1,33 @@
-# Ship TankNew/fr
 ---
-- GuiCommand:/fr   Name:Ship TankNew   Name/fr:Ship TankNew   MenuLocation:Weights → Create a new tank   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:/fr
+   Name:Ship TankNew
+   Name/fr:Ship Réservoir
+   MenuLocation:Weights → Create a new tank
+   Workbenches:[Ship](Ship_Workbench/fr.md)
+   Shortcut:
+   SeeAlso:
+---
 
-
-</div>
+# Ship TankNew/fr
 
 ## Description
 
-Create a new tank instance in a ship instance.
+Créer une nouvelle instance de réservoir dans une instance de bateau.
 
-Tank instances are so far similar to **Weight instances** (see [Weights definition](Ship_Weight.md)), i.e. they act as weights that shall be considered for the center of gravity and displacement computation. However, they have small differences in the inputs required to setup a tank instance, as well as in the way its contribution to the ship weight is computed. Along this line tanks can only be created on top of solid/volumetric geometries, and the density is not queried until they are added to a **load condition** (see [Load conditions](Ship_Loading.md)). Afterwards, their contribution to the ship weight and center of gravity will depend on the filling level (to be defined in the **load condition**) and the ship roll and trim angle, as long as the fluid inside reshapes, effectively affecting the gravity center position (the so-called free-surface effect).
+Les instances de réservoir sont jusqu\'à présent similaires aux **instances de poids** (voir [Définition des poids](Ship_Weight/fr.md)), c\'est-à-dire qu\'elles agissent comme des poids qui seront pris en compte pour le calcul du centre de gravité et du déplacement. Cependant, ils ont de petites différences dans les entrées requises pour configurer une instance de réservoir, ainsi que dans la façon dont sa contribution au poids du bateau est calculée. Dans cette optique, les réservoirs ne peuvent être créés que sur des géométries solides/volumétriques, et la densité n\'est pas demandée avant qu\'ils ne soient ajoutés à une *condition de charge* (voir [Conditions de charge](Ship_Loading/fr.md)). Ensuite, leur contribution au poids et au centre de gravité du bateau dépendra du niveau de remplissage (à définir dans la **condition de charge**) et de l\'angle de roulis et d\'assiette du bateau, tant que le fluide à l\'intérieur se remodèle, affectant effectivement la position du centre de gravité (l\'effet dit de surface libre).
 
-## Usage
+## Utilisation
 
-In order to create a weight, select the tank solid geometry (the interior of the tank that will be eventually filled with fluids) and invoke **Weights → Create a new tank**.
+Afin de créer un poids, sélectionnez la géométrie solide du réservoir (l\'intérieur du réservoir qui sera éventuellement rempli de fluides) et lancez **Weights → Create a new tank**.
 
-The task panel is shown, where you must select the **Ship instance** (see [Ships creation](Ship_New.md)) in which the tank shall be added.
+Le panneau des tâches s\'affiche, dans lequel vous devez sélectionner l\'instance de navire (voir [Créer une coque](Ship_New/fr.md)) dans laquelle le réservoir doit être ajouté.
 
-When the **Accept** button is pressed, a new tank instance is created inside the chosen **Ship instance**.
+Lorsque vous appuyez sur le bouton **Accept**, une nouvelle instance de réservoir est créée dans l**\'instance de bateau** choisie.
 
-## Tutorials
+## Tutoriels
 
-
-<div class="mw-translate-fuzzy">
-
--   [FreeCAD-Ship s60 tutorial ](FreeCAD-Ship_s60_tutorial/fr.md)
--   [FreeCAD-Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
-
-
-</div>
+-   [Tutoriel Construction navale S60](FreeCAD-Ship_s60_tutorial/fr.md)
+-   [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
 
 
 

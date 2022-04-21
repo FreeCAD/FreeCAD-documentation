@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainParallel
    Name/fr:Sketcher Contrainte parallèle
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte parallèle
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte parallèle
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**P**
    SeeAlso:[Sketcher Contrainte verticale](Sketcher_ConstrainVertical/fr.md), [Sketcher Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)
@@ -12,7 +12,7 @@
 
 ## Description
 
-La **Contrainte parallèle** force deux éléments sélectionnés, lignes droites ou arêtes à devenir parallèles.
+La Contrainte parallèle force deux éléments sélectionnés, lignes droites ou arêtes à devenir parallèles.
 
 ## Opérations
 
@@ -30,7 +30,7 @@ Appliquez la contrainte parallèle par :
 
 -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)** dans la barre d\'outils de Sketcher.
 -   Utilisez le raccourci clavier **P**.
--   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> Contrainte parallèle** dans le menu supérieur.
+-   Utilisez l\'entrée **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> Contrainte parallèle** dans le menu supérieur.
 
 <img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
 

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreatePolyline
    Name/fr:Sketcher Polyligne
-   MenuLocation:Sketch → Géométries d'esquisse → Créer une polyligne
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer une polyligne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **M**
    SeeAlso:[Sketcher Ligne](Sketcher_CreateLine/fr.md)

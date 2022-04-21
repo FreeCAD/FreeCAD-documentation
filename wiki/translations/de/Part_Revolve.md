@@ -8,17 +8,9 @@
 
 # Part Revolve/de
 
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Dreht das ausgewählte Objekt um eine gegebene Achse. Die folgenden Formtypen sind erlaubt und führen zu den angegebenen Ausgabeformen ([Siehe Hinweise für Ausnahmen](#Notes.md)):
-
-
-</div>
+Dreht das ausgewählte Objekt um eine gegebene Achse. Die folgenden Formtypen sind erlaubt und führen zu den angegebenen Ausgabeformen:
 
   Eingabeform   Ausgabeform
    
@@ -42,7 +34,7 @@ Das Winkelargument gibt an, wie weit das Objekt gedreht werden soll. Die Koordin
 
 Wenn Du eine benutzerdefinierte Achse wählst, definieren die Zahlen die Richtung der Rotationsachse mit Bezug zum Koordinatensystem. Wenn die Z-Achse Null ist und die X- und Y-Koordinate nicht-Null sind, dann liegt die Achse in der X/Y-Ebene. Der Tangens des Winkels ist das Verhältnis der angegebenen X- und Y-Koordinaten.
 
-## Notes
+## Hinweise
 
 
 <div class="mw-translate-fuzzy">

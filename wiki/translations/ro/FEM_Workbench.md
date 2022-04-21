@@ -60,11 +60,23 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-shell-thickness.svg  style="width:32px;"> [Shell plate thickness](FEM_ElementGeometry2D.md):
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-fluid-section.svg  style="width:32px;"> [Fluid section for 1D flow](FEM_ElementFluid1D.md):
+
+
+</div>
 
 ### Constrângeri Electrostatice 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/fem-constraint-electrostatic-potential.svg  style="width:32px;"> [Constraint electrostatic potential](FEM_ConstraintElectrostaticPotential.md):
+
+
+</div>
 
 ### Fluid constraints 
 
@@ -112,7 +124,13 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 ### Constraints without solver 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-constraint-fluid-boundary.svg  style="width:32px;"> [Constraint fluid boundary](FEM_ConstraintFluidBoundary.md):
+
+
+</div>
 
 -   <img alt="" src=images/Fem-constraint-bearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing/ro.md): Utilizat pentru a defini o constrângere de rulment.
 
@@ -210,17 +228,53 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/ro.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Function cut filter](FEM_PostFilterCutFunction/ro.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Region clip filter](FEM_PostFilterClipRegion/ro.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Line clip filter](FEM_PostFilterDataAlongLine/ro.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Stress linearization plot](FEM_PostFilterLinearizedStresses/ro.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint/ro.md):
+
+
+</div>
 
 -   <img alt="" src=images/Fem-sphere.svg  style="width:32px;"> [Post Create functions](FEM_PostCreateFunctions.md):
 

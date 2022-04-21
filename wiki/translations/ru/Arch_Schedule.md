@@ -32,7 +32,7 @@ For a more general solution, see the [Reporting Workbench](https://github.com/fu
 
 ## Workflow
 
-First you need to have a model. For example, here is a document with a couple of objects. I did Arch stuff here, but it doesn\'t need to be Arch, it can be anything.
+First you need to have a model. For example, here is a document with a couple of Arch objects, but other objects are also supported.
 
 ![](images/Arch_schedule_example01.jpg )
 

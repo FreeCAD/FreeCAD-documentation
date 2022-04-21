@@ -32,7 +32,7 @@
 
 ## Historia
 
-Środowisko pracy statków nie było utrzymywane od wersji 0.17, ale zostało wskrzeszone w wersji 0.19. Od v0.19 jest ono teraz oznaczone jako [zewnętrzne środowisko pracy](External_workbenches/pl.md), więc nie jest już zawarte w podstawowym systemie. Zamiast tego jest dostępny poprzez [Menadżer dodatków](Std_AddonMgr/pl.md).
+Środowisko pracy Statek nie było utrzymywane od wersji 0.17, ale zostało wskrzeszone w wersji 0.19. Od v0.19 jest ono teraz oznaczone jako [zewnętrzne środowisko pracy](External_workbenches/pl.md), więc nie jest już zawarte w podstawowym systemie. Teraz jest dostępne poprzez [Menadżer dodatków](Std_AddonMgr/pl.md).
 
 ## Bibliografia
 

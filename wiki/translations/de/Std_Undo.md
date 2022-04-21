@@ -12,13 +12,13 @@
 
 ## Beschreibung
 
-Der **Std Rückgängig**-Befehl macht die letzte Aktion rückgängig.
+Der Befehl **Std Rückgängig** macht die letzte Aktion rückgängig.
 
 ## Anwendung
 
 1.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Std_Undo.svg" width=16px> [Std Rückgängig](Std_Undo/de.md)**-Schaltfläche.
-2.  Wähle die **Bearbeiten → <img src="images/Std_Undo.svg" width=16px> Rückgängig**-Option aus dem Menü
+    -   Wähle die **Bearbeiten → <img src="images/Std_Undo.svg" width=16px> Rückgängig**-Option aus dem Menü
     -   Benutze das Tastaturkürzel: **Strg**+**Z**.
 
 ## Optionen

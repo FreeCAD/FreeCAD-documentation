@@ -20,15 +20,23 @@ Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Groupe de projec
 
 ## Utilisation
 
-1.  Sélectionnez un ou plusieurs objets \"Corps\" et/ou \"Part\" dans la fenêtre 3D ou dans l\'arborescence .
-2.  Si vous avez plusieurs pages de dessin dans votre document, vous devrez également sélectionner la page désirée dans l\'arborescence.
-3.  Appuyez sur le bouton **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Insérer un groupe de projections](TechDraw_ProjectionGroup/fr.md)**.
-4.  Une boîte de dialogue s\'ouvre dans laquelle vous pouvez sélectionner les vues qui doivent apparaître dans le groupe, l\'échelle du groupe et d\'autres paramètres.
+1.  Vous pouvez faire pivoter la [Vue 3D](3D_view/fr.md). La direction de la caméra dans la [Vue 3D](3D_view/fr.md) détermine la valeur initiale de la **Direction primaire** du groupe de projection (la propriété **Direction** de la vue centrale).
+2.  Sélectionnez un ou plusieurs objets dans la [Vue 3D](3D_view/fr.md) ou de la [Vue en arborescence](Tree_view/fr.md).
+3.  S\'il y a plusieurs pages de dessin dans le document : ajoutez éventuellement la page souhaitée à la sélection en la sélectionnant dans la [Vue en arborescence](Tree_view/fr.md). Ceci n\'est pas optionnel pour {{VersionMinus/fr|0.19}}.
+4.  Il existe plusieurs façons d\'invoquer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Insérer un groupe de projections ](TechDraw_ProjectionGroup/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Insérer un groupe de projections ** dans le menu.
+5.  Si le document comporte plusieurs pages de dessin et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page souhaitée.
+    2.  Appuyez sur le bouton **OK**.
+6.  Le panneau de tâches **Groupe de projection** s\'ouvre.
+7.  Sélectionnez les vues qui doivent apparaître dans le groupe de projection, ainsi que l\'échelle et les autres paramètres du groupe de projection.
+8.  Appuyez sur le bouton **OK**.
+9.  Vous pouvez déplacer le Groupe de Projection en faisant glisser sa vue centrale.
+10. Vous pouvez également déplacer les autres vues du groupe de projection par rapport à la vue centrale en les faisant glisser individuellement.
 
 ![](images/TaskProjGroup.png ) 
-*[Panneau des tâches](Task_Panel/fr.md) de Groupe de projections pour choisir les options du groupe de projection. Le champ central indique la direction de la vue en cours avec les pourcentages des axes x, y et z.*
-
-Après avoir créé le Groupe de projections, vous pouvez déplacer le groupe dans son ensemble en faisant glisser la vue centrale. Vous pouvez également déplacer les vues de projection en les faisant glisser.
+*Le [Panneau des tâches](Task_Panel/fr.md) Groupe de projections. Le champ Direction primaire indique la direction en cours de la vue.*
 
 ## Propriétés
 

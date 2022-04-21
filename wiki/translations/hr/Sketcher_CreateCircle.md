@@ -17,7 +17,7 @@ This tool draws a circle by picking two points: the center, and a point along th
 
 ## Usage
 
--   Pick points on an empty area of the 3D view, or on an existing object (auto constraints must be active in TaskView).
+-   Pick points on an empty area of the 3D view, or on an existing object (auto constraints must be active in the [Task panel](Task_panel.md)).
 -   Pressing **Esc** or clicking the right mouse button cancels the function.
 
 

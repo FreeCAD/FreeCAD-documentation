@@ -1,17 +1,14 @@
 ---
 - GuiCommand:/de
    Name:Part ExplodeCompound
-   Name/de:Part SprengeVerbund
-   MenuLocation:Part → Verbund → Sprenge Verbund
+   Name/de:Part VerbundSprengen
+   MenuLocation:Formteil → Verbund → Verbundteile extrahieren
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.18
-   SeeAlso:[Part Verbund](Part_Compound/de.md), [Entwurf Herabstufen](Draft_Downgrade/de.md)
+   SeeAlso:[Part Verbund](Part_Compound/de.md), [Draft Herabstufen](Draft_Downgrade/de.md)
 ---
 
 # Part ExplodeCompound/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -27,7 +24,7 @@ Das Werkzeug wird auch nicht verbundene Formen in ihre untergeordneten Bestandte
 
 1.  Rufe das Formteil SprengeVerbund Werkzeug auf verschiedene Weise auf:
     -   Drücke auf die <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> Schaltfläche in der Part Werkzeugleiste.
-    -   Verwendung des {{MenuCommand/de|Part → Verbund → Sprenge Verbund}} Eintrags im Part Menü
+    -   Verwendung des {{MenuCommand/de|Formteil → Verbund → Verbundteile extrahieren}} Eintrags im Part Menü
 
 ## Anwendungsfälle
 
@@ -35,15 +32,6 @@ Das Werkzeug wird auch nicht verbundene Formen in ihre untergeordneten Bestandte
 -   Erhalten von geteilten Stücken aus dem Ergebnis von <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Scheibe](Part_Slice/de.md) und <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Part Schneiden](Part_Cut/de.md)
 -   Erhalten individueller Konturen aus Mehrfachkonturskizzen und Flächen
 -   Erhalten eines reinen Festkörpers aus einem Festkörper-in-Verbund zur Verwendung in <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Arbeitsbereich](FEM_Workbench/de.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

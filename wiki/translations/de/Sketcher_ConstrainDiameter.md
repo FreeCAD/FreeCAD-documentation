@@ -28,7 +28,13 @@ Diese Beschränkung beschränkt den Wert des Radius eines Kreises oder Bogens um
 
 NB: B-Spline Pole können nicht mit anderen Objekttypen in der Auswahl gemischt werden.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Anwendung
+
+
+</div>
 
 1.  Wähle einen oder mehrere Kreise oder Bögen.
 2.  Drücke die **[<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> [Durchmesser beschränken](Sketcher_ConstrainDiameter.md)** Taste.

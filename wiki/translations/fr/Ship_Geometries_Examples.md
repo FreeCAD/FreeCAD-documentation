@@ -10,53 +10,44 @@
 
 # Ship Geometries Examples/fr
 
-
-</div>
-
 ## Description
 
-This tool loads example geometries.
+Cet outil charge des géométries d\'exemple.
 
-Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids. The following criteria must be taken into account:
+Ship travaille sur des **entités de bateau**, qui doivent être créées au-dessus de la géométrie fournie. La géométrie doit être un solide, ou un ensemble de solides. Les critères suivants doivent être pris en compte :
 
--   All hull geometry must be provided (including symmetric bodies).
--   Starboard geometry must be included at negatives *y* domain.
--   Origin (0,0,0) point is the **Midship section** (Midpoint between after and forward perpendicular) and **base line** intersection.
+-   Toute la géométrie de la coque doit être fournie (y compris les corps symétriques).
+-   La géométrie tribord doit être incluse dans le domaine négatif *y*.
+-   Le point d\'origine (0,0,0) est l\'intersection de la **section médiane** (point médian entre les perpendiculaires arrière et avant) et de la **ligne de base**.
 
 ![](images/FreeCAD-Ship-SignCriteria.jpg ) 
-*Ship sign criteria*
+*Critères d'identification des bateaux*
 
-## Usage
+## Utilisation
 
-In order to help new users, Ship includes a geometries examples loader, with the following to choose from:
+Afin d\'aider les nouveaux utilisateurs, FreeCAD-Ship comprend un chargeur d\'exemples de géométries, avec le choix suivant:
 
--   Series 60 from Iowa University
+-   Série 60 de l\'Université d\'Iowa
 -   Wigley Canonical Ship
--   Series 60 Catamaran
+-   Série 60 Catamaran
 -   Wigley Catamaran
 
-You can load one of those examples following the next steps:
+Vous pouvez charger un de ces exemples en suivant les étapes suivantes :
 
-1.  Invoke the Ship Geometries Example Loader by either
-    -   pressing on the <img alt="" src=images/Ship_Load.svg  style="width:24px;"> icon in the toolbar
-    -   select the **Ship design → Load‏‎ an example ship geometry** from the drop down menu
-2.  A task dialog will display, prompting to choose one of the example ship geometries.
-3.  Select the example you want to load and press **Accept**
-4.  Result: The tool loads a new document with the selected geometry.
-
-
-**Warning, before editing anything! You are now working with the original example file. To preserve the original unedited example, you must first save it as a new file before editing anything.**
-
-## Tutorials
+1.  Appelez le chargeur d\'exemples de géométries de bateaux soit en
+    -   appuyant sur l\'icône <img alt="" src=images/Ship_Load.svg  style="width:24px;"> dans la barre d\'outils
+    -   sélectionner la commande **Ship design → Load‏‎ an example ship geometry** dans le menu déroulant.
+2.  Un dialogue de tâche s\'affiche, vous invitant à choisir l\'une des géométries de bateau d\'exemple.
+3.  Sélectionnez l\'exemple que vous souhaitez charger et appuyez sur **Accept**.
+4.  Résultat : L\'outil charge un nouveau document avec la géométrie sélectionnée.
 
 
-<div class="mw-translate-fuzzy">
+**Attention, avant de modifier quoi que ce soit ! Vous travaillez maintenant avec le fichier d'exemple original. Pour préserver l'exemple original non modifié, vous devez d'abord l'enregistrer dans un nouveau fichier avant de modifier quoi que ce soit.**
 
--   [FreeCAD-Ship s60 tutorial ](FreeCAD-Ship_s60_tutorial/fr.md)
--   [FreeCAD-Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
+## Tutoriels
 
-
-</div>
+-   [Tutoriel Construction navale S60](FreeCAD-Ship_s60_tutorial/fr.md)
+-   [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
 
 
 

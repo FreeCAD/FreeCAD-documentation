@@ -19,10 +19,9 @@ The Section tool creates a cross section view based on an existing part view.
 ## Применение
 
 1.  Select a part view in the 3D window or tree.
-2.  If you have multiple drawing pages in your document, you will also need to select the desired page in the tree.
-3.  Press the **<img src="images/TechDraw_SectionView.svg" width=16px> [Insert Section View](TechDraw_SectionView.md)** button
-4.  A dialog will open which will help calculate the various Section properties. The dialog calculates reasonable starting points for SectionNormal and view Direction, but these may be changed after creation for special needs.
-5.  If you make a mistake, or change your mind while setting up the Section parameters, press the **Reset** button, and you can start over.
+2.  Press the **<img src="images/TechDraw_SectionView.svg" width=16px> [Insert Section View](TechDraw_SectionView.md)** button
+3.  A dialog will open which will help calculate the various Section properties. The dialog calculates reasonable starting points for SectionNormal and view Direction, but these may be changed after creation for special needs.
+4.  If you make a mistake, or change your mind while setting up the Section parameters, press the **Reset** button, and you can start over.
 
 ![](images/TechDraw_Section_Taskview.png ) 
 *Taskview to define the sectional cut of a view*

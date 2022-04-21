@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainInternalAlignment
    Name/fr:Sketcher Contrainte d'alignement interne
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte d'alignement interne
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte d'alignement interne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:
    Version:0.15
@@ -13,7 +13,7 @@
 
 ## Description
 
-Cette **Contrainte d\'alignement interne** aligne les lignes et les points à des endroits particuliers d\'un élément complexe d\'esquisse (il y a juste un élément \"complexe\" jusqu\'à présent, l\'[Ellipse](Sketcher_CreateEllipseByCenter/fr.md)).
+Cette Contrainte d\'alignement interne aligne les lignes et les points à des endroits particuliers d\'un élément complexe d\'esquisse (il y a juste un élément \"complexe\" jusqu\'à présent, l\'[Ellipse](Sketcher_CreateEllipseByCenter/fr.md)).
 
 Pour l\'**[<img src=images/Sketcher_CreateEllipseByCenter.svg style="width:16px"> [Ellipse](Sketcher_CreateEllipseByCenter/fr.md)** et l\'**[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Arc d'ellipse](Sketcher_CreateArcOfEllipse/fr.md)**, l\'outil prend en charge les lignes contraignantes pour devenir des diamètres majeurs et mineurs et contraint les **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [points](Sketcher_CreatePoint/fr.md)** aux positions des foyers de l\'ellipse.
 
@@ -24,7 +24,7 @@ La contrainte s\'adresse aux utilisateurs expérimentés car son utilisation n\'
 1.  Sélectionnez les éléments à aligner et une ellipse. L\'ellipse doit être sélectionnée en dernier. Acceptés sont jusqu\'à deux lignes et jusqu\'à deux points.
 2.  L\'invocation de la contrainte peut se faire de plusieurs manières:
     -   En appuyant sur le bouton **[<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> [Contrainte d'alignement interne](Sketcher_ConstrainInternalAlignment/fr.md)** dans la barre d\'outils.
-    -   Utilisation de l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Contrainte d'alignement interne** dans le menu supérieur.
+    -   Utilisation de l\'entrée **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainInternalAlignment.svg style="width:16px"> Contrainte d'alignement interne** dans le menu supérieur.
 
 La première ligne qui a été sélectionnée s\'aligne pour devenir le diamètre majeur de l\'ellipse (mais si ce n\'est pas déjà occupé par une autre ligne, sinon il deviendra le diamètre mineur). La deuxième ligne est aligné pour devenir le rayon mineur. Les lignes sont automatiquement passés en mode [construction](Sketcher_ToggleConstruction/fr.md).
 
@@ -51,7 +51,7 @@ Remarques:
 
 :   L\'argument `index_of_point` doit être un point, il ne peut pas être utilisé pour indiquer par exemple l\'extrémité d\'un bord.
 
-La page [Sketcher : Ecrire un script](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `index_of_line`, `index_of_point` et `index_of_ellipse` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `index_of_line`, `index_of_point` et `index_of_ellipse` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
 

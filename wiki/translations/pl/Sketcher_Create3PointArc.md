@@ -18,7 +18,7 @@ To narzędzie rysuje łuk przez wybranie trzech punktów: punktu początkowego, 
 
 Po uruchomieniu narzędzia kursor myszki zmienia się w biały krzyżyk z czerwoną ikoną łuku. Współrzędne kursora są wyświetlane obok niego w czasie rzeczywistym, w kolorze niebieskim.
 
--   Wybierz punkty na pustym obszarze okienka widoku 3D lub na istniejącym obiekcie *(w panelu Widok zadań muszą być aktywne automatyczne wiązania)*.
+-   Wybierz punkty na pustym obszarze okienka widoku 3D lub na istniejącym obiekcie *(w panelu [Widok zadań](Task_panel/pl.md) muszą być aktywne automatyczne wiązania)*.
 -   Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszki anuluje funkcję.
 
 

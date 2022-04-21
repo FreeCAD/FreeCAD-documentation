@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainDiameter
    Name/fr:Sketcher Contrainte diamètre
-   MenuLocation:Sketch → Contraintes d'esquisse → Contraindre le diamètre
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contraindre le diamètre
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **O**
    Version:0.18
@@ -20,9 +20,9 @@ Cette contrainte contraint la valeur du diamètre d\'un cercle ou d\'un arc à a
     -   Une contrainte de référence est appliquée séparément sur chaque objet qui est une géométrie externe.
     -   Des **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contraintes d'égalité](Sketcher_ConstrainEqual/fr.md)** sont appliquées séquentiellement entre tous les objets de géométrie réelle/construction et une contrainte dimensionnelle est appliquée au premier objet sélectionné selon les règles ci-dessus.
 
-NB : Les pôles B-spline ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
+NB : Les pôles des B-splines ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
 
-## Comment l\'utiliser 
+## Utilisation
 
 1.  Choisissez un ou plusieurs cercles ou arcs.
 2.  Appuyez sur la touche **[<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> [Contraindre le diamètre](Sketcher_ConstrainDiameter/fr.md)**

@@ -19,8 +19,14 @@ Dieses Werkzeug <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="w
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 -   Wähle einen Punkt in einen leeren Bereich der 3D Ansicht, oder auf einem bestehenden Objekt (Auto Beschränkungen müssen in der AufgabenAnsicht aktiviert sein)
 -   Drücken von **Esc** oder klicken der rechten Maustaste bricht die Funktion ab.
+
+
+</div>
 
 
 

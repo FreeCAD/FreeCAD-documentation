@@ -275,6 +275,13 @@ Strings can be concatenated using the \'+\' sign.
 
 Following example `<<MY>> + <<TEXT>>` will be concatenated to \"MYTEXT\".
 
+#### String conversion 
+
+Numerical values can be converted to strings with the `str` function:
+
+
+`str(Box.Length.Value)`
+
 #### String formatting 
 
 String formatting is supported using the (old) %-style Python way.
@@ -908,13 +915,7 @@ Una volta creato e salvato (e denominato) il documento master con il foglio di c
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
-
-```pythonmaster#modelConstants.Length```
-
-
-</div>
+`master#modelConstants.Length`
 
 **Notare** che il documento master deve sempre essere caricato affinché i valori del master siano disponibili per il documento dipendente.
 

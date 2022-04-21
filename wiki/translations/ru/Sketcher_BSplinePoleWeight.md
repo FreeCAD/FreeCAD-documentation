@@ -56,7 +56,7 @@ A weight of zero would be a singularity in the equation to calculate the rationa
 
 ## Changing Weights 
 
-How to change weights is described in [ this Wiki page](B-Splines#Changing_the_Weight.md).
+How to change weights is described in [this Wiki page](B-Splines#Changing_the_Weight.md).
 
 
 <div class="mw-translate-fuzzy">

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher BSplinePoleWeight
    Name/fr:Sketcher Poids des points de contrôle B-spline
-   MenuLocation:Sketch → Outils d'esquisse B-Spline → Poids des points de contrôle B-spline
+   MenuLocation:Esquisse → Outils d'esquisse B-Spline → Poids des points de contrôle B-spline
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Version:0.17
    SeeAlso:[Sketcher B-splines](Sketcher_CompCreateBSpline/fr.md)
@@ -19,9 +19,9 @@ Affiche ou masque l\'affichage des **poids** pour les points de contrôle d\'une
 
 ## Utilisation
 
-1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Afficher/masquer le poids du point de contrôle de la spline B](Sketcher_BSplinePoleWeight/fr.md)**.
+1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Poids des points de contrôle B-spline](Sketcher_BSplinePoleWeight/fr.md)**.
 
-## Explication de poids 
+## Explication des poids 
 
 Les B-splines sont essentiellement une combinaison de [courbes de Bézier](B-Splines/fr#Courbes_de_B.C3.A9zier.md) (bien expliqué dans ces vidéos [ici](https://www.youtube.com/watch?v=bE1MrrqBAl8) et [ici](https://www.youtube.com/watch?v=xXJylM2S72s)).
 
@@ -51,7 +51,7 @@ Un poids de zéro serait une singularité dans l\'équation pour calculer les co
 <img alt="" src=images/sketcher_BSplineWeightZero.png  style="width:468px;"> 
 *Même B-spline avec un point de contrôle de poids presque nul*
 
-## Changer de poids 
+## Changer des poids 
 
 La façon de modifier les poids est décrite dans [cette page Wiki](B-Splines#Changing_the_Weight.md).
 

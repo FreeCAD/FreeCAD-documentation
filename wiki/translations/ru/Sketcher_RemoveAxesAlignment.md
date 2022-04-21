@@ -22,7 +22,7 @@
 
 </div>
 
-## How to use 
+## Usage
 
 1.  Select geometry with axes alignments, for example a [rectangle](Sketcher_CreateRectangle.md).
 2.  Press the <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Remove axes alignment** toolbar button.

@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainSnellsLaw
    Name/fr:Sketcher Contrainte de réfraction
-   MenuLocation:Sketch → Contraintes d'esquisse → Contraint la réfraction (Loi de Snell)
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contraint la réfraction (Loi de Snell)
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **W**
    Version:0.15
@@ -32,7 +32,7 @@ Contraint deux lignes à suivre la loi de la réfraction de la lumière qui pén
 
 Notez que plusieurs [Sketcher Aides pour contraindre](Sketcher_helper_constraint/fr.md) seront ajoutées automatiquement (point sur objet, coïncidence). Elles peuvent être supprimées si elles créeent une redondance ou ajoutées manuellement si elles n\'ont pas été ajoutées automatiquement. Pour la contrainte de la loi de Snell, les extrémités des lignes doivent coïncider et reposer sur l\'interface, sinon le comportement n\'est pas défini.
 
-En utilisant l\'outil **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Sketcher Polyligne d'esquisse](Sketcher_CreatePolyline/fr.md)**, il est possible d\'accélérer le tracé des rayons de lumière. Dans ce cas, il est possible de sélectionner deux extrémités coïncidentes par sélection de boîte.
+En utilisant l\'outil **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)**, il est possible d\'accélérer le tracé des rayons de lumière. Dans ce cas, il est possible de sélectionner deux extrémités coïncidentes par sélection de boîte.
 
 ## Remarques
 

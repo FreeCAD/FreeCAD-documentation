@@ -1,37 +1,25 @@
 ---
 - GuiCommand:/de
    Name:Std ToggleVisibility
-   Name/de:Std Sichtbarkeit umschalten
-   Empty:1
-   MenuLocation:[Ansicht](Std_View_Menu/de.md) → Sichtbarkeit → Einblenden/Ausblenden
+   Name/de:Std SichtbarkeitUmschalten
+   MenuLocation:Ansicht → Ein/Ausblenden
    Workbenches:Alle
-   Shortcut:**Leertaste**
-   SeeAlso:
+   Shortcut:**Space**
+   SeeAlso:[Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection/de.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
 ---
 
 # Std ToggleVisibility/de
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Schaltet die Sichtbarkeit von Objekten um (ein/aus).
+Der Befehl **Std SichtbarkeitUmschalten** schaltet die Sichtbarkeit von ausgewählten Objekten in der [3D-Ansicht](3D_view/de.md) ein/aus.
 
-
-</div>
-
-The **Std ToggleVisibility** command toggles the visibility of selected objects in [3D views](3D_view.md).
-
-## Usage
+## Anwendung
 
 
 <div class="mw-translate-fuzzy">
 
-## Anwendung
+## Anwendung 
 
 1.  Wähle ein oder mehrere Objekte in der Baumansicht.
 2.  Rechtsklicke auf ein Objekt und benutze \"Sichtbarkeit umschalten\" (wähle **Ansicht** → **Sichtbarkeit** → **Sichtbarkeit umschalten** aus der Menüleiste).
@@ -40,7 +28,7 @@ The **Std ToggleVisibility** command toggles the visibility of selected objects 
 
 </div>
 
-## Notes
+## Hinweise
 
 -   Invisible objects are displayed with a greyed out label and a greyed out icon in the [Tree view](Tree_view.md).
 -   Objects nested in a [Std Part](Std_Part.md), or a [Std Link](Std_LinkMake.md) to a [Std Group](Std_Group.md), or a LinkGroup, and [features](PartDesign_Feature.md) of a [PartDesign Body](PartDesign_Body.md) will only be visible in [3D views](3D_view.md) if their parent is visible as well. This means that a feature in a PartDesign Body that is nested in a Std Part will only be visible in 3D views if the feature itself, the PartDesign Body, and the Std Part are all visible. And if the Std Part is in turn nested in another Std Part, then that last object must also be visible.
@@ -48,12 +36,12 @@ The **Std ToggleVisibility** command toggles the visibility of selected objects 
 -   The action of this command cannot be undone with [Std Undo](Std_Undo.md).
 -   The visibility of an object can also be changed through its related **Visibility** property in the [Property editor](Property_editor.md) or the [Combo view](Combo_view.md).
 
-## Scripting
+## Skripten
 
 
-**See also:**
+**Siehe auch:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Use the `show` and `hide` methods of an object to change its visibility.
 

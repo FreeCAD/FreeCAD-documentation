@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:FEM ElementGeometry1D
    Name/fr:FEM Élément de géométries 1D
-   MenuLocation:Modèle → Géométrie de l'élement → Coupe transersale de poutre
+   MenuLocation:Modèle → Géométrie de l'élement → Coupe tranversale de poutre
    Workbenches:[FEM](FEM_Workbench/fr.md)
    Shortcut:**C** **B**
    SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
@@ -17,7 +17,7 @@ Elément de géométries 1D est utilisé pour définir les coupes transversales 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [Coupe transersale de poutre](FEM_ElementGeometry1D/fr.md)** bouton.
+    -   Appuyez sur le bouton **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [Coupe tranversale de poutre](FEM_ElementGeometry1D/fr.md)** bouton.
     -   Sélectionnez l\'option **Modèle → Géométrie de l'élément → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Coupe transversale de poutre** dans le menu.
 2.  Choisissez le type de section transversale et spécifiez les dimensions nécessaires :
     -   Rectangulaire : largeur et hauteur,

@@ -1,4 +1,7 @@
 # Macro Unbind Numpad Shortcuts/hr
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/hr
 |Name=Macro Unbind Numpad Shortcuts
 |Translate=Makro Razdvoji Numpad prečace
@@ -11,9 +14,20 @@
 |Download=[https://www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png ToolBar Icon]
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Opis
 
 Kada unosite brojeve, a okvir za unos broja nije pravilno fokusiran, FreeCAD će reagirati na znamenke prebacivanjem standardnih prikaza. Ova je makronaredba brz način ponovnog vezanja prečaca do Ctrl+broja. Ne pomaže mnogo s unosom brojeva, ali barem pogled neće zavrtjeti kao lud.
+
+
+</div>
 
 Pogledajte nit na forumu [How to turn off (disable) Numpad navigation?](https://forum.freecadweb.org/viewtopic.php?f=3&t=26667)
 
@@ -34,7 +48,7 @@ ToolBar Icon ![](images/Macro_Unbind_Numpad_Shortcuts.png )
 
 {{MacroCode|code=
 preset = [
-    ("Std_ViewAxo"   , "Ctrl+0"),
+    ("Std_ViewIsometric"   , "Ctrl+0"),
     ("Std_ViewFront" , "Ctrl+1"),
     ("Std_ViewTop"   , "Ctrl+2"),
     ("Std_ViewRight" , "Ctrl+3"),

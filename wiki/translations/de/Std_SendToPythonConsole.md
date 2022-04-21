@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/de
    Name:Std SendToPythonConsole
-   Name/de:Std SendeAnPythonKonsole
-   MenuLocation:Bearbeiten → Sende an Python Konsole
+   Name/de:Std AnPythonKonsoleSenden
+   MenuLocation:Bearbeiten →  An Python-Konsole senden
    Workbenches:Alle
    Shortcut:**Ctrl**+**Shift**+**P**
    Version:0.19
@@ -12,15 +12,9 @@
 
 ## Beschreibung
 
+Der Befehl **Std AnPythonKonsoleSenden** erstellt Variablen in der [Python-Konsole](Python_console/de.md), die auf ein ausgewähltes Objekt und auf seine ausgewählten Teilformen verweisen, zusammen mit ein paar nützlichen anderen Referenzen. Die Variablen und der dazugehörige Kode können zur Entwicklung von Python-Skripten verwendet werden.
 
-<div class="mw-translate-fuzzy">
-
-Der **Std SendeAnPythonKonsole** Befehl erstellt eine Variable in der [Python Konsole](Python_console/de.md), die auf ein ausgewähltes Objekt verweist. Wenn eine Unterform des Objekts ausgewählt wird, werden zwei zusätzliche Variablen erstellt, von denen eine auf die Form des Objekts und die andere auf die Unterform selbst verweist. Die Variablen und der damit verbundene Code können zur Entwicklung von Python Code verwendet werden.
-
-
-</div>
-
-Depending on the selected object and its selected subshapes, if any, the following variables are created:
+Abhängig von dem ausgewählten Objekt und seiner ausgewählten Teilformen, falls vorhanden, werden die folgenden Variablen erstellt:
 
 +++
 | Variable name   | Referenced object(s)                                                                                                                                    |
@@ -66,32 +60,29 @@ Depending on the selected object and its selected subshapes, if any, the followi
 >>> ### End command Std_SendToPythonConsole
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*Beispielausgabe: eine Kante eines [Part Quaders](Part_Box/de.md) wurde ausgewählt*
-
-
-</div>
+*Beispielausgabe: eine Kante, eine Fläche und ein Eckpunkt eines [Part Würfels](Part_Box/de.md) wurden ausgewählt*
 
 ## Verwendung
 
+1.  Ein einzelnes Objekt oder eine bzw. mehrere Teilformen, die zu einem einzelnen Objekt gehören, auswählen.
+2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+    -   Den Menüeintrag **Bearbeiten → <img src="images/Std_SendToPythonConsole.svg" width=16px> An Python-Konsole senden** auswählen.
+    -   Den Menüeintrag **<img src="images/Std_SendToPythonConsole.svg" width=16px> An Python-Konsole senden** aus dem Kontextmenü der [Baumansicht](Tree_view/de.md) oder dem Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen.
+    -   Das Tastaturkürzel **Strg**+**Shift**+**P**.
+3.  Falls erforderlich öffnet sich die [Python-Konsole](Python_console/de.md).
+4.  Die [Python-Konsole](Python_console/de.md) erhält den Fokus der Tastatur.
 
-<div class="mw-translate-fuzzy">
+## Hinweise
 
-1.  Wähle ein einzelnes Objekt aus.
-2.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Wähle die **Bearbeiten → <img src="images/Std_SendToPythonConsole.svg" width=16px> Sende an Python Konsole** Option aus dem Menü.
-    -   Wähle die Option {{MenuCommand/de|<img src="images/Std_SendToPythonConsole.svg" width=16px> Sende an Python Konsole}} Option aus dem [Baumansicht](Tree_view/de.md) Kontextmenü oder [3D Ansicht](3D_view/de.md) Kontextmenü.
-    -   Verwende die Tastaturkürzel: **Strg**+**Shift**+**P**.
+-   Jedes Mal, wenn der Befehl ausgeführt wird, werden alle vorher erzeugten Variablen gelöscht.
 
+-   If the selected object is a Link ({{Incode|App::Link}}) and the Linked object is derived from the {{Incode|Part::Feature}} class, the {{Incode|shp}} variable will be the shape of the Linked object. If the Link has been transformed or scaled and you want to access the scaled/transformed shape, you can do so with this code:
 
-</div>
-
-## Notes
-
--   All previously created variables are deleted each time the command is run.
+:   
+    
+```pythonlnk_shp = Part.getShape(lnk)```
+    
 
 
 

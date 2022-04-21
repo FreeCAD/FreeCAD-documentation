@@ -93,6 +93,13 @@ Depending on the selected object and its selected subshapes, if any, the followi
 
 -   All previously created variables are deleted each time the command is run.
 
+-   If the selected object is a Link ({{Incode|App::Link}}) and the Linked object is derived from the {{Incode|Part::Feature}} class, the {{Incode|shp}} variable will be the shape of the Linked object. If the Link has been transformed or scaled and you want to access the scaled/transformed shape, you can do so with this code:
+
+:   
+    
+```pythonlnk_shp = Part.getShape(lnk)```
+    
+
 
 <div class="mw-translate-fuzzy">
 

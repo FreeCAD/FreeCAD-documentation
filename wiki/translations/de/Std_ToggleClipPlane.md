@@ -1,53 +1,43 @@
 ---
 - GuiCommand:/de
    Name:Std ToggleClipPlane
-   Name/de:Std ToggleClipPlane
+   Name/de:Std Schnittebene
    MenuLocation:Ansicht → Schnittebene
    Workbenches:Alle
-   Shortcut:
-   SeeAlso:
+   SeeAlso:[Part Ausschnitt](Part_SectionCut/de.md)
 ---
 
 # Std ToggleClipPlane/de
 
+## Beschreibung
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
-Eine **Schnittebene** ist eine Ebene, die den Objektraum in zwei Halbräume teilt. Alle Objektteile in einem Halbraum sind sichtbar, Teile des anderen Halbraums sind unsichtbar. Die Objekte sehen aufgeschnitten aus und interne Details werden sichtbar. Die Schnittebene wird durch das [Ansicht](Std_View_Menu/de.md) → **Schnittebene**-Menü aktiviert.
-
-
-</div>
+Der Befehl **Std Schnittebene** blendet Objekte und Teile von Objekten aus, die sich auf jeweils einer Seite von bis zu drei virtuellen Ebenen in der [3D-Ansicht](3D_view/de.md) befinden.
 
 ![](images/Std_ToggleClipPlane_example.png ) 
-*A clipped hollow object*
+*Ein beschnittenes, hohles Objekt*
 
 ![](images/Std_ToggleClipPlane_taskpanel.png ) 
-*The Clipping task panel*
+*Der Aufgabenbereich Clipping*
 
-## Usage
+## Anwendung
 
-1.  Select the **View → <img src="images/Std_ToggleClipPlane.svg" width=16px> Clipping plane** option from the menu.
-2.  In the Clipping task panel do one of the following:
-    -   Check one or more of the {{CheckBox|TRUE|Clipping X}} to {{CheckBox|TRUE|Clipping Z}} checkboxes.
-        -   Optionally change the offset distance(s).
-        -   Optionally press the **Flip** button(s) to change the side of the clipping plane objects are hidden on.
-    -   Check the {{CheckBox|TRUE|Clipping custom direction}} checkbox.
-        -   Optionally change the offset distance.
-        -   Do one of the following:
-            -   Press the **View** button to use the direction of the current view.
-            -   Check the {{CheckBox|TRUE|Adjust to view direction}} checkbox for a direction that dynamically adepts to view changes.
-            -   Specify the direction by entering the X, Y and Z coordinates of a normal vector.
-3.  Optionally change the view to inspect the model.
-4.  Press the **Close** button to close the task panel and finish the command.
+1.  Menüeintrag **Ansicht → <img src="images/Std_ToggleClipPlane.svg" width=16px> Schnittebene** auswählen.
+2.  Im Aufgabenbereich Clipping hat man folgende Möglichkeiten:
+    -   Eine oder mehrere der Checkboxen {{CheckBox|TRUE|Abschneiden in X}} bis {{CheckBox|TRUE| Abschneiden in Z}} aktivieren.
+        -   Bei Bedarf die Abstandswerte ändern.
+        -   Bei Bedarf die jeweilige Schaltfläche **Flip** drücken, um die Seite zu Wählen, auf der die Objekte ausgeblendet werden.
+    -   Checkbox {{CheckBox|TRUE|Abschneiden in benutzerdefinierterRichtung}} aktivieren.
+        -   Bei Bedarf die Abstandswert ändern.
+        -   Nun hat man diese Möglichkeiten:
+            -   Schaltfläche **Ansicht** drücken, um die Richtung der aktuellen Ansicht zu verwenden.
+            -   Checkbox {{CheckBox|TRUE|An Blickrichtung anpassen}} aktivieren, damit sich die Richtung dynamisch an Änderungen der Ansicht anpassen.
+            -   Angabe einer Richtung durch Eingabe der X-, Y- und Z-Koordinaten eines Normalenvektors.
+3.  Bei Bedarf ändert man die Ansicht zum Überprüfen des Modells.
+4.  Die Schaltfläche **Schließen** drücken, um den Aufgabenbereich zu schließen und den Befehl zu beenden.
 
-## Notes
+## Hinweise
 
--   To clearly distinguish the interior of partially clipped objects change their **Lighting** property to \'One side\'. The color of the interior side of their faces will then depend on the backlight settings: **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See [Preferences Editor](Preferences_Editor#3D_View.md).
+-   Zur deutlichen Unterscheidung des Inneren der teilweise geschnittenen Objekte kann deren {{PropertyView/de|Lighting}} auf \'One side\' geändert werden. Die Farbe der Innenseite ihrer Flächen hängt dann von den Backlight-Einstellungen ab: **Bearbeiten → Einstellungen... → Display → 3D View → Backlight color - Intensity**. Siehe [Voreinstellungseditor](Preferences_Editor/de#3D-Ansicht.md).
 
 
 

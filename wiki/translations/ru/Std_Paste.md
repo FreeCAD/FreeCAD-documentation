@@ -16,11 +16,17 @@
 
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Существует несколько способов для вызова данной команды:
     -   Нажатием кнопки **<img src="images/Std_Paste.svg" width=16px> [Вставить](Std_Paste/ru.md)**.
     -   Выбрав пункт основного меню **Правка → <img src="images/Std_Paste.svg" width=16px> Вставить**.
     -   Выбрав пункт **<img src="images/Std_Paste.svg" width=16px> Вставить** в контекстном меню [Древовидной панели](Tree_view/ru.md).
     -   Используя сочетания клавиш: **Ctrl**+**V**.
+
+
+</div>
 
 ## Примечания
 

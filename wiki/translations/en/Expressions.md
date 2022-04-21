@@ -140,6 +140,13 @@ Strings can be concatenated using the \'+\' sign.
 
 Following example `<<MY>> + <<TEXT>>` will be concatenated to \"MYTEXT\".
 
+#### String conversion 
+
+Numerical values can be converted to strings with the `str` function:
+
+
+`str(Box.Length.Value)`
+
 #### String formatting 
 
 String formatting is supported using the (old) %-style Python way.
@@ -565,6 +572,7 @@ It is possible (with limitations) to define a Property of an object in your curr
 A document\'s name is used to reference it from other documents. When saving a document the first time, you choose a file name; this is usually different from the initial default \"Unnamed1\" (or its translated equivalent). To prevent links being lost when the master document is renamed upon saving, it is recommended that you first create the master document, create a spreadsheet inside it, and save it. Subsequently, you can still make changes to the file and its spreadsheet but you should not rename it.
 
 Once the master document with the spreadsheet is created and saved (named), it is safe to create dependent documents. For example, assuming you name the master document `master`, the spreadsheet `modelConstants`, and give a cell an alias-name `Length`, you can then access the value as:
+
 
 `master#modelConstants.Length`
 

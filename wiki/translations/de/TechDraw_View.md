@@ -66,6 +66,8 @@ Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kanns
 
 </div>
 
+\(1\) Diese Eigenschaften sind allen Ansichtstypen gemeinsam.
+
 
 {{TitleProperty|Kosmetik}}
 
@@ -125,8 +127,6 @@ Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kanns
 
 
 </div>
-
-\(1\) Diese Eigenschaften sind allen Ansichtstypen gemeinsam.
 
 ### View
 

@@ -1,29 +1,19 @@
 ---
 - GuiCommand:/de
+   Name:Part Extrude
    Name/de:Part Extrudieren
-   MenuLocation:Part → Extrudieren
+   MenuLocation:Formteil → Extrudieren...
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Trimex](Draft_Trimex/de.md)
+   SeeAlso:[Draft Trimex](Draft_Trimex/de.md), [PartDesign Pad](PartDesign_Pad/de.md)
 ---
 
 # Part Extrude/de
 
-
-</div>
-
 ![600px](images/Part_Extrude_demo.png)
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-**Part Extrudieren** erweitert eine Form durch einen bestimmten Abstand in einer bestimmten Richtung. Der Typ der Ausgabeform ändert sich abhängig vom Type der Eingabeform und der gewählten Optionen.
-
-
-</div>
+**Part Extrudieren** erweitert eine Form durch einen bestimmten Abstand in einer bestimmten Richtung. Der Typ der Ausgabeform ändert sich abhängig vom Typ der Eingabeform und der gewählten Optionen.
 
 In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformtyp aus einem gegebenen Eingabeformtyp aufgelistet,
 
@@ -36,12 +26,12 @@ In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformty
 -   extrudieren eines **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Entwurf Form Zeichenfolge](Draft_ShapeString.md)** wird einen Verbund von Festkörpern (die Zeichenfolge ist ein Verbund der Buchstaben, die ebenfalls Festkörper sind) erzeugen
 -   extrudieren einer Hülle von Flächen wird ein Verbundfestkörper erzeugt
 
-## Usage
+## Anwendung
 
 
 <div class="mw-translate-fuzzy">
 
-## Anwendung
+## Anwendung 
 
 1.  Wähle die Form(en) in der 3D Ansicht oder im Modell [Baumansicht](tree_view/de.md)
 2.  Klicke auf das **<img src="images/Part_Extrude.svg" width=16px> '''Extrudieren'''** Symbol in der Werkzeugleiste oder gehe zum {{MenuCommand/de|Part → Extrudieren}} Menü
@@ -163,7 +153,7 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 -   Formliste: Hier werden die zu extrudierenden Formen ausgewählt. Bei der Auswahl von mehreren Objekte werden mehrere Extrusionsobjekte erstellt.
 
-## Notes
+## Hinweise
 
 
 <div class="mw-translate-fuzzy">
@@ -213,13 +203,7 @@ PartDesign Polster ist ebenfalls ein Extrusionsmerkmal, aber es gibt wichtige Un
 -   Part Extrude can extrude individual faces of other objects. PartDesign Pad will only accept either Sketch or faces of PartDesign objects as a profile.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Part_Tools_navi

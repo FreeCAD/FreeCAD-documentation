@@ -1,22 +1,23 @@
 ---
 - GuiCommand:/de
    Name:Std BoxElementSelection
+   Name/de:Std RechteckElementAuswahl
    MenuLocation:Edit → Box element selection
    Workbenches:Alle
    Shortcut:**Shift**+**E**
-   SeeAlso:[Std BoxSelection](Std_BoxSelection/de.md), [Std SelectAll](Std_SelectAll/de.md)
+   SeeAlso:[Std Rechteckauswahl](Std_BoxSelection/de.md), [Std AllesAuswählen](Std_SelectAll/de.md)
 ---
 
 # Std BoxElementSelection/de
 
 ## Beschreibung
 
-Der **Std BoxElementAuswahl**-Befehl ermöglicht es, in der 3D-Ansicht Flächen aus einem benutzerdefinierten rechteckigen Bereich, einem Quader, auszuwählen.
+Der Befehl **Std RechteckElementAuswahl** wählt Flächen innerhalb eines benutzerdefinierten Bereichs (Auswahlrechteck, engl. Box) in der [3D-Ansicht](3D_view/de.md) aus.
 
 ## Anwendung
 
 1.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Wähle die {{MenuCommand/de|Bearbeiten → <img src="images/Std_BoxElementSelection.svg" width=16px> Rechteck Auswahl}}-Option aus dem Menü.
+    -   Wähle die {{MenuCommand/de|Bearbeiten → <img src="images/Std_BoxElementSelection.svg" width=16px> Box-Element Auswahl}}-Option aus dem Menü.
     -   Benutze den Tastaturkurzbefehl: **Shift**+**E**.
 2.  Tue eins der folgenden Dinge:
 3.  Ziehe ein Rechteck von links nach rechts, um Flächen auszuwählen, deren geometrische Mittelpunkte im Rechteck liegen.
@@ -24,7 +25,7 @@ Der **Std BoxElementAuswahl**-Befehl ermöglicht es, in der 3D-Ansicht Flächen 
 
 ## Hinweise
 
--   Benutze den [Std RechteckElementAuswahl](Std_BoxSelection/de.md)-Befehl, um anstatt von Flächen mehrere Objekte zusammenzupacken.
+-   Benutze den [Std Rechteckauswahl](Std_BoxSelection/de.md)-Befehl, um Objekte statt Flächen mit dem Auswahlrechteck auszuwählen.
 
 
 

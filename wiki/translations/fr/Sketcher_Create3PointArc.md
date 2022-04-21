@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher Create3PointArc
    Name/fr:Sketcher Arc par 3 points
-   MenuLocation:Sketch → Géometries d'esquisse → Arc par 3 points
+   MenuLocation:Esquisse → Géometries d'esquisse → Arc par 3 points
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **3** **A**
    SeeAlso:
@@ -16,10 +16,10 @@ Cet outil créé un arc par trois : le point de départ, le point de fin et un p
 
 ## Utilisation
 
-Quand cet outil est activé, le pointeur de la souris change en une croix blanche
+Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix blanche avec une icône d\'arc rouge. Les coordonnées du pointeur sont affichées à côté en bleu et en temps réel.
 
--   Pointer les points dans une zone libre ou sur un objet existant en appliquant une contrainte
--   Presser**Esc** ou sur le bouton droit de la souris pour quiter la fonction
+-   Choisissez des points sur une zone vide de la vue 3D, ou sur un objet existant (les contraintes automatiques doivent être actives dans le [Panneau des tâches](Task_panel/fr.md)).
+-   Appuyer sur **Echap** ou cliquer sur le bouton droit de la souris annule la fonction.
 
 
 

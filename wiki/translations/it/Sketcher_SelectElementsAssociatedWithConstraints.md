@@ -7,7 +7,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Seleziona gli elementi dello schizzo che sono associati a determinati vincoli
+
+
+</div>
 
 ## Utilizzo
 

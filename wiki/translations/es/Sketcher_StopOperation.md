@@ -8,6 +8,9 @@
 
 # Sketcher StopOperation/es
 
+
+</div>
+
 ## Descripción
 
 

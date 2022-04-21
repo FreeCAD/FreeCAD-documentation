@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ValidateSketch
    Name/fr:Sketcher Valider l'esquisse
-   MenuLocation:Sketch → Valider l'esquisse...
+   MenuLocation:Esquisse → Valider l'esquisse...
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md), [PartDesign](PartDesign_Workbench/fr.md)
    SeeAlso:[Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md), [Problème de dénomination topologique](Topological_naming_problem/fr.md)
 ---
@@ -24,7 +24,7 @@ L\'utilitaire **Valider l\'esquisse** permet d\'analyser et de réparer une esqu
     -   Utilisez le raccourci clavier: **Echap** (si activé dans [Sketcher Préférences](Sketcher_Preferences/fr#G.C3.A9n.C3.A9ral.md)).
 2.  Sélectionnez l\'esquisse à valider dans la [Vue en arborescence](Tree_view/fr.md) ou en cliquant sur l\'une de ses arêtes dans la [Vue 3D](3D_view/fr.md).
 3.  Pour ouvrir l\'utilitaire de validation d\'esquisse, effectuez l\'une des opérations suivantes:
-    -   Sélectionnez l\'option **Sketch → Valider l'esquisse...** dans le menu.
+    -   Sélectionnez l\'option **Esquisse → Valider l'esquisse...** dans le menu.
     -   Appuyez sur le bouton **[<img src=images/Sketcher_ValidateSketch.svg style="width:16px"> [Valider l'esquisse](Sketcher_ValidateSketch/fr.md)** (non disponible dans l\'[atelier PartDesign](PartDesign_Workbench/fr.md)).
 4.  Voir [Options](#Options.md) ci-dessous pour les opérations disponibles.
 5.  Appuyez sur le bouton **Fermer** lorsque vous avez terminé.

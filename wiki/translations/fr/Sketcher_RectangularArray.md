@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher RectangularArray
    Name/fr:Sketcher Réseau rectangulaire
-   MenuLocation:Sketch → Outils d'esquisse → Réseau rectangulaire
+   MenuLocation:Esquisse → Outils d'esquisse → Réseau rectangulaire
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Z** **A**
    Version:0.16
@@ -19,7 +19,7 @@ Crée un réseau à partir d\'éléments de sketcher .
 1.  Sélectionnez les éléments de l\'esquisse dans le [Panneau des tâches](Task_panel/fr.md) ou dans la [Vue 3D](3D_view/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **[<img src=images/Sketcher_RectangularArray.svg style="width:16px"> [Réseau rectangulaire](Sketcher_RectangularArray/fr.md)**.
-    -   Sélectionnez l\'option **Sketch → Outils d'esquisse → [<img src=images/Sketcher_RectangularArray.svg style="width:16px"> Réseau rectangulaire** dans le menu.
+    -   Sélectionnez l\'option **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_RectangularArray.svg style="width:16px"> Réseau rectangulaire** dans le menu.
 3.  Spécifiez les options du tableau dans la boîte de dialogue qui s\'ouvre.
 4.  Appuyez sur le bouton **OK**.
 5.  Déplacez la souris dans la dans la [Vue 3D](3D_view/fr.md) vers le point de référence souhaité.En maintenant **Maj** enfoncée, l\'angle par rapport au point de référence peut être fixé par pas de 5°. {{Version/fr|0.20}}

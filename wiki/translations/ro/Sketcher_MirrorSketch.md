@@ -36,7 +36,7 @@ Construiți o schiță simetrică(o reflexie în oglindă) cu prima față de ax
 
 </div>
 
-Notes:
+## Notes
 
 -   Multiple sketches can be selected before applying the operation.
 

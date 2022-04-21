@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ToggleDrivingConstraint
    Name/fr:Sketcher Basculer les contraintes pilotes
-   MenuLocation:Sketch → Contraintes d'esquisse → Basculer entre contrainte pilotante/référence
+   MenuLocation:Esquisse → Contraintes d'esquisse → Basculer entre contrainte pilotante/référence
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **X**
    Version:0.16
@@ -19,7 +19,7 @@ L\'icône **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:1
 *La barre d'outils Contrainte de Sketcher avec les contraintes dimensionnelles en mode cote de référence (bleu).*
 
 ![](images/Sketcher_ToggleConstraint_example.png ) 
-*Une contrainte de distance horizontale (50 mm), une contrainte verticale (30 mm) et une contrainte d'angle (75 °) ont été définies pour définir le profil; une cote de référence a été ajoutée sur le segment de ligne incliné pour connaître sa longueur (31,0583 mm). *
+*Une contrainte de distance horizontale (50 mm), une contrainte verticale (30 mm) et une contrainte d'angle (75°) ont été définies pour définir le profil; une cote de référence a été ajoutée sur le segment de ligne incliné pour connaître sa longueur (31,0583 mm). *
 
 ## Utilisation
 

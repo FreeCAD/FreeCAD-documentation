@@ -60,11 +60,23 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Spessore di una lastra](FEM_ElementGeometry2D/it.md):
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Sezione del fluido per flusso 1D](FEM_ElementFluid1D/it.md): Crea un elemento sezione del fluido FEM per reti pneumatiche e idrauliche.
+
+
+</div>
 
 ### Vincoli elettrostatici 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Potenziale elettrostatico di vincolo](FEM_ConstraintElectrostaticPotential/it.md):
+
+
+</div>
 
 ### Vincoli dei fluidi 
 
@@ -118,7 +130,13 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 ### Vincoli senza solutore 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condizione limite del fluido](FEM_ConstraintFluidBoundary/it.md):
+
+
+</div>
 
 -   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Vincolo cuscinetto](FEM_ConstraintBearing/it.md): Per definire un vincolo cuscinetto.
 
@@ -216,17 +234,53 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/it.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Function cut filter](FEM_PostFilterCutFunction/it.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Post Crea clip filter](FEM_PostFilterClipRegion/it.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Post Crea data along line filter](FEM_PostFilterDataAlongLine/it.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Stress linearization plot](FEM_PostFilterLinearizedStresses/it.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint/it.md):
+
+
+</div>
 
 -   <img alt="" src=images/Fem_CompPostCreateFunctions.png  style="width:48px;"> [Post Crea funzioni](FEM_PostCreateFunctions/it.md):
     -   <img alt="" src=images/Fem-sphere.svg  style="width:32px;"> :

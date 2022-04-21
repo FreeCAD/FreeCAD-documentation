@@ -3,7 +3,7 @@
    Name:Sketcher Circles
    Name/fr:Sketcher Cercles
    Icon:Sketcher_CompCreateCircle.png
-   MenuLocation:barre d'outils seulement
+   MenuLocation:Barre d'outils seulement
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
 ---
 

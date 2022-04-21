@@ -73,7 +73,7 @@ For the constraint to work correctly, the point must be on both curves. So, as t
 
 ## Scripting
 
-Angle Constraint can be created from [macros](Macros.md) and from the python console by using the following:  
+Angle Constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following:  
 ```python
 # line slope angle
 Sketch.addConstraint(Sketcher.Constraint('Angle',iline,angle))

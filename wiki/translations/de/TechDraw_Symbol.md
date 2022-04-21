@@ -28,6 +28,39 @@ Wenn das Symbol größer als erwartet dargestellt wird, kann die Skalierungseige
 
 -    **Scale Type**für Symbole wird bei der Erstellung immer auf *Angepasst* gesetzt. Dies dient der Bequemlichkeit, da Symbole fast immer anders skaliert werden als der Rest der Objekte auf der Seite.
 
+## Properties
+
+
+{{TitleProperty|Base}}
+
+See [TechDraw View](TechDraw_View#Properties.md)
+
+-    **X**
+    
+
+-    **Y**
+    
+
+-    **Lock Position**
+    
+
+-    **Rotation**
+    
+
+-    **Scale Type**
+    
+
+-    **Scale**
+    
+
+-    **Caption**
+    
+
+
+{{TitleProperty|Drawing view}}
+
+-    **Editable Texts**: List of editable texts, if any.
+
 ## Scripting
 
 

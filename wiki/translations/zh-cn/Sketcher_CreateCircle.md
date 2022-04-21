@@ -26,8 +26,14 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   在3D视图中的空白区域或从一个已存在的对象上（一定要激活TaskView中的自动约束（auto constraints）。译注：0.18版中自动约束设置位于底图的首选项中）拾取对应点。
 -   按**Esc**键或点击鼠标右键来退出此功能。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

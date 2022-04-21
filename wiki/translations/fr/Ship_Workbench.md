@@ -23,7 +23,7 @@ L\'<img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [atelier Ship
 -   <img alt="Tank creation tool" src=images/FreeCAD-Ship-TankIco.png  style="width:32px;"> [Réservoir](Ship_TankNew/fr.md)
 -   <img alt="Tank capacity curve tool" src=images/Ship_TankCapacity.png  style="width:32px;"> [Courbe de capacité du réservoir](Ship_TankCapacity/fr.md)
 -   <img alt="Load conditions" src=images/Ship_Loading.png  style="width:32px;"> [Conditions de charge](Ship_Loading/fr.md)
--   <img alt="Plot GZ curve" src=images/Ship_PlotGZ.png  style="width:32px;"> [Tracer la courbe GZ](Ship_PlotGZ/fr.md)
+-   <img alt="Plot GZ curve" src=images/Ship_PlotGZ.png  style="width:32px;"> [Courbe GZ](Ship_PlotGZ/fr.md)
 
 ## Tutoriels
 
@@ -32,7 +32,7 @@ L\'<img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [atelier Ship
 
 ## Histoire
 
-L\'atelier Ship n\'était plus maintenu depuis la v0.17 mais a été ressuscité en v0.19. Depuis la v0.19, il est également considéré comme un [atelier externe](External_workbenches.md), il n\'est donc plus inclus dans le système de base. A la place, il est disponible via le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+L\'atelier Ship n\'était plus maintenu depuis la v0.17 mais a été ressuscité en v0.19. Depuis la v0.19, il est également considéré comme un [atelier externe](External_workbenches/fr.md), il n\'est donc plus inclus dans le système de base. A la place, il est disponible via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 ## Références
 

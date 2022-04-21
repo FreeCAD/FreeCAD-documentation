@@ -19,11 +19,10 @@ L\'outil Vue en coupe crée une vue en coupe en fonction d\'une vue existante d\
 ## Utilisation
 
 1.  Sélectionnez une vue de pièce dans la fenêtre ou l\'arborescence 3D.
-2.  Si vous avez plusieurs pages de dessin dans votre document, vous devrez également sélectionner la page souhaitée dans l\'arborescence.
-3.  Appuyez sur le bouton **<img src="images/TechDraw_SectionView.svg" width=16px> [Insérer une vue en coupe](TechDraw_SectionView/fr.md)
+2.  Appuyez sur le bouton **<img src="images/TechDraw_SectionView.svg" width=16px> [Insérer une vue en coupe](TechDraw_SectionView/fr.md)
 **
-4.  Une boîte de dialogue s\'ouvrira qui vous aidera à calculer les différentes propriétés de la section. La boîte de dialogue calcule des points de départ raisonnables pour SectionNormal et la direction de la vue mais ceux-ci peuvent être modifiés après la création pour des besoins spéciaux.
-5.  Si vous faites une erreur ou changez d\'avis lors de la configuration des paramètres de la section, appuyez sur le bouton **Réinitialiser** et vous pouvez recommencer.
+3.  Une boîte de dialogue s\'ouvrira qui vous aidera à calculer les différentes propriétés de la section. La boîte de dialogue calcule des points de départ raisonnables pour SectionNormal et la direction de la vue mais ceux-ci peuvent être modifiés après la création pour des besoins spéciaux.
+4.  Si vous faites une erreur ou changez d\'avis lors de la configuration des paramètres de la section, appuyez sur le bouton **Réinitialiser** et vous pouvez recommencer.
 
 ![](images/TechDraw_Section_Taskview.png ) 
 *Boîte de dialogue pour définir la zone de la vue en coupe*

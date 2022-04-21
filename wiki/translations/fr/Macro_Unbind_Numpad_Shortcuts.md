@@ -2,12 +2,12 @@
 {{Macro/fr
 |Name=Macro Unbind Numpad Shortcuts
 |Icon=Macro_Unbind_Numpad_Shortcuts.png
-|Description=redéfinit les commandes de vue standard des touches numériques à Ctrl + chiffre, afin qu'elles ne fassent pas tourner la vue par accident lors de la saisie de nombres.
+|Description=Lorsque vous saisissez des chiffres et que la zone de saisie n'est pas correctement mise au point, FreeCAD réagit aux chiffres en changeant de vue standard. Cette macro est un moyen rapide de relier les raccourcis à Ctrl+numéro. Cela n'aide pas beaucoup à la saisie de chiffres, mais au moins la vue ne tournera pas comme une folle.
 |Author=DeepSOIC
-|Version=1.0
-|Date=2018-04-22
-|FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png ToolBar Icon]
+|Version=2.0
+|Date=2022-04-13
+|FCVersion=0.20
+|Download=[https://www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png Icône de la barre d'outils]
 }}
 
 ## Description
@@ -26,14 +26,14 @@ Voir le thread sur forum [How to turn off (disable) Numpad navigation?](https://
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Unbind_Numpad_Shortcuts.png )
+Icône de la barre d\'outils ![](images/Macro_Unbind_Numpad_Shortcuts.png )
 
 **Macro\_Unbind\_Numpad\_Shortcuts.FCMacro**
 
 
 {{MacroCode|code=
 preset = [
-    ("Std_ViewAxo"   , "Ctrl+0"),
+    ("Std_ViewIsometric"   , "Ctrl+0"),
     ("Std_ViewFront" , "Ctrl+1"),
     ("Std_ViewTop"   , "Ctrl+2"),
     ("Std_ViewRight" , "Ctrl+3"),

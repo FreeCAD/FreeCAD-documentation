@@ -4,7 +4,7 @@
    Name/de:Std AllesAuswählen
    MenuLocation:Bearbeiten → Alles auswählen
    Workbenches:Alle
-   SeeAlso:[Std RechteckAuswahl](Std_BoxSelection/de.md), [Std RechteckElementAuswahl](Std_BoxElementSelection/de.md), [Std RechteckElementAuswahl](Part_BoxSelection/de.md)
+   SeeAlso:[Std Rechteckauswahl](Std_BoxSelection/de.md), [Std RechteckElementAuswahl](Std_BoxElementSelection/de.md), [Part RechteckAuswahl](Part_BoxSelection/de.md)
 ---
 
 # Std SelectAll/de

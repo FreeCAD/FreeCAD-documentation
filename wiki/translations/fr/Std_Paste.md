@@ -16,10 +16,10 @@ La commande **Std Coller** colle les objets du Presse-papiers dans le document a
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/Std_Paste.svg" width=16px> [Opération de collage](Std_Paste/fr.md)**.
+1.  Il existe plusieurs façons de lancer la commande:
+    -   Appuyez sur le bouton **<img src="images/Std_Paste.svg" width=16px> [Coller](Std_Paste/fr.md)**.
     -   Sélectionnez l\'option **Edition → <img src="images/Std_Paste.svg" width=16px> Coller** dans le menu.
-    -   Sélectionnez l\'option **<img src="images/Std_Paste.svg" width=16px> Coller** dans le menu contextuel de la [vue en arborescence](tree_view/fr.md). Notez que cette option n\'est disponible que lorsqu\'un objet sortant a été sélectionné.
+    -   Sélectionnez l\'option **<img src="images/Std_Paste.svg" width=16px> Coller** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md). Notez que cette option n\'est disponible que lorsqu\'un objet sortant a été sélectionné.
     -   Utilisez le raccourci clavier: **Ctrl**+**V**.
 
 ## Remarques

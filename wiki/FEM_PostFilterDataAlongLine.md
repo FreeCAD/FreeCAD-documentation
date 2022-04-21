@@ -20,9 +20,9 @@ Plots the values of a field along a specified line.
     -   Select the **Results → <img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> Line clip filter** option from the menu.
 3.  Specify the coordinates of two points defining the line along which the results are to be evaluated. Optionally, press the **Select Points** button and pick the points manually on the surface of the mesh.
 4.  Optionally, specify the **Resolution**.
-5.  Select a field that will be evaluated.
-6.  Press the **Create Plot** button. XY plot of a field value vs line length will be created in a separate window.
-7.  Click the **OK** button to close the tool\'s menu.
+5.  Select a **Field** from the expandable list.
+6.  Press the **Create Plot** button. An XY plot of the field value vs the line length will be created in a separate window.
+7.  Click the **OK** button to finish the command.
 
 
 

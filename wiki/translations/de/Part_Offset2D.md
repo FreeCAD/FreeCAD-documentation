@@ -1,44 +1,29 @@
 ---
 - GuiCommand:/de
+   Name:Part Offset2D
    Name/de:Part 2DVersatz
-   MenuLocation:Part → 2D Versatz
-   Workbenches:[Arbeitsbereich Part](Part_Workbench/de.md)
+   MenuLocation:Formteil → 2D-Versatz
+   Workbenches:[Part](Part_Workbench/de.md)
    Version:0.17
-   SeeAlso:[Part 3D Versatz](Part_Offset/de.md), [Part Thickness](Part_Thickness/de.md), [Entwurf Versatz](Draft_Offset/de.md)
+   SeeAlso:[Part Versatz](Part_Offset/de.md), [Part Dicke](Part_Thickness/de.md), [Draft Versatz](Draft_Offset/de.md)
 ---
 
 # Part Offset2D/de
 
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Teil 2D Versatz konstruiert einen Draht, parallel zum ursprünglichen Draht, in einem bestimmten Abstand von diesem. Oder vergrößert/schrumpft gleichzeitig eine ebene Fläche.
-
-
-</div>
+Part 2D-Versatz konstruiert einen Draht, parallel zum ursprünglichen Draht, in einem bestimmten Abstand von diesem. Oder vergrößert/schrumpft entsprechend eine ebene Fläche.
 
 Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben, nicht unbedingt koplanar.
 
 ![600px](images/Part_Offset2D_Demo.png)
 
-## Usage
-
-
-<div class="mw-translate-fuzzy">
-
 ## Anwendung
 
-1.  Wähle ein Objekt zum versetzen aus.
-2.  Drücke die **[<img src=images/Part_Offset2D.svg style="width:24px">** **Offset2D** Taste.
-3.  Richte den Versatz im [Aufgabenpaneel](Task_Panel/de.md) ein.
+1.  Wähle ein Objekt zum Versetzen aus.
+2.  Drücke die **[<img src=images/Part_Offset2D.svg style="width:24px">** **2D-Versatz**-Taste.
+3.  Richte den Versatz im [Aufgabenbereich](Task_Panel/de.md) ein.
 4.  Drücke **OK**.
-
-
-</div>
 
 Ein parametrisches 2D Offset Objekt wird erstellt. Originalobjekte werden in den Drahtmodell Anzeigemodus geschaltet.
 
@@ -46,13 +31,7 @@ Ein parametrisches 2D Offset Objekt wird erstellt. Originalobjekte werden in den
 
 -    {{PropertyData/de|Quelle}}: Verbindung zur Originalform
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/de|Wert}}Der Abstand, um den Draht/Fläche zu vergrößern um. Im negativen Fall wird stattdessen die Draht/Fläche geschrumpft.
-
-
-</div>
+-    {{PropertyData/de|Wert}}: Der Abstand, um den einen Draht versetzt / eine Fläche vergrößert wird. Falls negativ, wird stattdessen der Draht in die Gegenrichtung versetzt / die Fläche geschrumpft.
 
 -    {{PropertyData/de|Modus}}(\"Pipe\" oder \"Skin\"): Legt fest, wie nicht geschlosseneDrähte verarbeitet werden. Bei \"Pipe\" wird der Draht so umrissen, als wäre er eine extrem dünne, geschlossene Kontur. Wenn \"Skin\", wird ein offener Draht erzeugt.
 
@@ -96,21 +75,9 @@ Ein parametrisches 2D Offset Objekt wird erstellt. Originalobjekte werden in den
 
 -   Vergrößern von Flächen mit kreisförmigen Löchern um einen Betrag, der groß genug ist, um das Schließen der Löcher zu bewirken, tritt ein Crash auf (OCC 7.0.0.0). Das Problem scheint kreisförmig zu sein; andere Formen scheinen sich richtig zu schließen.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Beim Versetzen von Kreisen, die eine Platzierung ungleich Null haben, wird das Ergebnis falsch platziert. (OCC 7.0.0.0)
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   Beim Versatz von Kreisen werden diese manchmal in eine unerwartete Richtung versetzt (z.B. nach innen statt nach außen). (OCC 7.0.0.0)
-
-
-</div>
 
 -   Fill=\"true\" funktioniert nicht, wenn offene Drähte im \"Skin\"-Modus gemeinsam versetzt werden.
 
@@ -120,16 +87,7 @@ Ein parametrisches 2D Offset Objekt wird erstellt. Originalobjekte werden in den
 
 ## Skripten
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden:
-
-
-</div>
-
-
-{{code|code=
+Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden: {{code|code=
 f = App.ActiveDocument.addObject("Part::Offset2D", "Offset2D")
 f.Source =  #some object
 f.Value = 10.0

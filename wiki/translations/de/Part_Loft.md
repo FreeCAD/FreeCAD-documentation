@@ -1,16 +1,14 @@
 ---
 - GuiCommand:/de
-   Name/de:Part Ausformung
-   MenuLocation:Part → Ausformen...
-   Workbenches:[Part Arbeitsbereich](Part_Workbench/de.md)
+   Name:Part Loft
+   Name:Part Ausformung
+   MenuLocation:Formteil → Ausformung...
+   Workbenches:[Part](Part_Workbench/de.md)
    Version:0.13
    SeeAlso:[Part Austragung](Part_Sweep/de.md)
 ---
 
 # Part Loft/de
-
-
-</div>
 
 ## Überblick
 
@@ -154,15 +152,6 @@ Bei offenen Polylinien ist die Vorgehensweise die gleiche wie oben beschrieben.
 Wenn du die Auswahl der Abschnitte nach der Erstellung der Ausformung ändern möchtest, kannst du das Feld Abschnitte auf der Registerkarte Daten markieren und auf die erscheinende Schaltfläche Ellipse klicken. Die Liste aller auswählbaren Abschnitte erscheint, die aktuelle Auswahl wird hervorgehoben. Du kannst zusätzliche Abschnitte entfernen oder hinzufügen.
 
 Die Reihenfolge der Abschnitte hängt von der Reihenfolge der Klicks in der Liste ab. Wenn Du wesentliche Änderungen vornehmen möchtest, empfiehlt es sich, zuerst alle zu deselektieren und dann die Auswahl in der richtigen Reihenfolge zu starten.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

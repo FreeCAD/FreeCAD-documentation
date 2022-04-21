@@ -35,6 +35,39 @@ Lo strumento Simbolo inserisce un file [SVG](SVG/it.md) nella pagina. Questo sim
 
 -    **Scale Type**per i simboli è sempre impostata su *Personalizzato* al momento della creazione. Questo è per comodità, poiché i simboli sono quasi sempre ridimensionati in modo diverso dal resto degli oggetti nella pagina.
 
+## Properties
+
+
+{{TitleProperty|Base}}
+
+See [TechDraw View](TechDraw_View#Properties.md)
+
+-    **X**
+    
+
+-    **Y**
+    
+
+-    **Lock Position**
+    
+
+-    **Rotation**
+    
+
+-    **Scale Type**
+    
+
+-    **Scale**
+    
+
+-    **Caption**
+    
+
+
+{{TitleProperty|Drawing view}}
+
+-    **Editable Texts**: List of editable texts, if any.
+
 ## Script
 
 

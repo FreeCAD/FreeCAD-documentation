@@ -3,7 +3,7 @@
    Name:Sketcher Regular Polygons
    Name/fr:Sketcher Polygones réguliers
    Icon:Sketcher_CompCreateRegularPolygon.png
-   MenuLocation:barre d'outils seulement
+   MenuLocation:Barre d'outils seulement
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
 ---
 

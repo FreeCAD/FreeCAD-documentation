@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreateTriangle
    Name/fr:Sketcher Triangle
-   MenuLocation:Sketch → Géométries d'esquisse → Créer un triangle équilateral
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer un triangle équilateral
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **P** **3**
    Version:0.15

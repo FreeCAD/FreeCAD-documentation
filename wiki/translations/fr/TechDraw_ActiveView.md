@@ -14,51 +14,77 @@
 
 L\'outil Vue active insère une copie d\'une fenêtre 3D dans une page de dessin.
 
-![](images/TechDraw_ActiveView_example.png )
-
-
-
+![](images/TechDraw_ActiveView_example.png ) 
 *Une vue simple du modèle 3D qui n'effectue aucun calcul complexe.*
 
 ## utilisation
 
-1.  Naviguez jusqu\'à la fenêtre 3D que vous souhaitez copier.
-2.  Si votre document contient plusieurs pages de dessin, vous devez également sélectionner la page souhaitée dans l\'arborescence.
-3.  Appuyez sur le bouton **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insérer la vue active (dans la vue 3D)](TechDraw_ActiveView/fr.md)**.
-4.  Une boîte de dialogue s\'ouvre pour vous permettre de spécifier la taille, la bordure et la couleur d\'arrière-plan de la copie.
+1.  Aller à la bonne [Vue 3D](3D_view/fr.md).
+2.  S\'il y a plusieurs pages de dessin dans le document : sélectionnez éventuellement la page souhaitée dans la [Vue en arborescence](Tree_view/fr.md). Ceci n\'est pas optionnel pour {{VersionMinus/fr|0.19}}.
+3.  Il existe plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ActiveView.svg" width=16px> [Insérer la vue active (vue 3D)](TechDraw_ActiveView/fr.md)**.
+    -   Sélectionnez le bouton **TechDraw → <img src="images/TechDraw_ActiveView.svg" width=16px> Insérer la vue active (vue 3D)** dans le menu.
+4.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page souhaitée.
+    2.  Appuyez sur le bouton **OK**.
+5.  Le panneau de tâches **De vue active à vue TD** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+6.  Appuyez sur le bouton **OK**.
+
+## Options
+
+Les éléments suivants peuvent être spécifiés :
+
+-    **Width**: La largeur de la vue générée.
+
+-    **Height**: La hauteur de la vue générée.
+
+-    **Border**: La quantité d\'espace vide à laisser autour de la vue (mais dans les limites de la largeur x de la hauteur).
+
+-    **Background**: Si la case est cochée, un arrière-plan de la couleur spécifiée est ajouté.
+
+-    **Line Width**: L\'épaisseur des lignes dans la vue.
+
+-    **Render Mode**: Les modes disponibles sont :
+
+    -   
+        {{Value|As is}}
+        
+        : Rendu des primitives telles qu\'elles sont.
+
+    -   
+        {{Value|Wireframe}}
+        
+        : Rendu des polygones sous forme filaire.
+
+    -   
+        {{Value|Points}}
+        
+        : Rendu uniquement des sommets des polygones et des lignes.
+
+    -   
+        {{Value|Wireframe overlay}}
+        
+        : Rendu d\'une superposition filaire en plus du mode {{Value|As is}}.
+
+    -   
+        {{Value|Hidden Line}}
+        
+        : Comme {{Value|Wireframe}}, mais élimine les lignes qui ne seraient pas affichées autrement en raison de l\'élimination géométrique.
+
+    -   
+        {{Value|Bounding box}}
+        
+        : Affiche uniquement la boîte englobante de chaque objet.
 
 ## Remarques
 
 -   Les vues actives sont statiques une fois générées, elles ne sont jamais mises à jour avec les modifications apportées au modèle 3D.
--   Vue active est en réalité un <img alt="" src=images/TechDraw_Symbol.svg  style="width:24px;">[Symbole](TechDraw_Symbol/fr.md). Sa **Scale Type** est donc toujours initialisée comme *Personnalisé*.
+-   Une Vue active est en réalité un [Symbole](TechDraw_Symbol/fr.md). Sa **Scale Type** est donc toujours initialisée à {{Value|Custom}}.
 -   Cet outil est encore quelque peu **Expérimental**.
 
 ## Propriétés
 
-Voir <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [TechDrawSymbol](TechDraw_Symbol/fr.md)
-
-### Champs de dialogue 
-
--    **Width**: La largeur de la vue générée.
-
--    **Height**: hauteur de la vue générée.
-
--    **Border**: La quantité d\'espace vide à laisser autour de la vue (mais dans la largeur x la hauteur).
-
--    **Background**: affiche ou masque un arrière-plan.
-
--    **Background Color**: Couleur pour peindre le fond, le cas échéant.
-
--    **Line Width**: Épaisseur des lignes individuelles dans la vue.
-
--    **Render Mode**: Le [mode de rendu](https://grey.colorado.edu/coin3d/classSoRenderManager.html#a4b8d99cff0fd91e31bc2c5d33610f6eb) de la bibliothèque [Coin3d](https://en.wikipedia.org/wiki/Coin3D). Les modes possibles sont:
-
-    -   **AS\_IS** rendu des primitives telles qu\'elles sont
-    -   **WIREFRAME** rendu des polygones en filaire
-    -   **POINTS** rendu uniquement des sommets des polygones et des lignes
-    -   **WIREFRAME\_OVERLAY** rendu d\'une superposition filaire en plus du mode **AS\_IS**
-    -   **HIDDEN\_LINE** comme **WIREFRAME** mais élimine les lignes qui autrement ne seraient pas affichées en raison de l\'abattage géométrique
-    -   **BOUNDING\_BOX** n\'affiche que la boîte englobante de chaque objet
+Voir [TechDraw Symbole SVG](TechDraw_Symbol/fr.md).
 
 ## Script
 

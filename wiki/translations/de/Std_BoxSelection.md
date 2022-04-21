@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
    Name:Std BoxSelection
+   Name/de:Std Rechteckauswahl
    MenuLocation:Bearbeiten → Rechteckauswahl
    Workbenches:Alle
    Shortcut:**Shift** + **B**
@@ -11,7 +12,7 @@
 
 ## Beschreibung
 
-Der **Std Rechteckauswahl**-Befehl ermöglicht es, in der 3D-Ansicht Flächen aus einem benutzerdefinierten rechteckigen Bereich auszuwählen.
+Der Befehl **Std Rechteckauswahl** wählt die Objekte innerhalb eines benutzerdefinierten Bereichs (Auswahlrechteck, engl. Box) in der [3D-Ansicht](3D_view/de.md) aus.
 
 ## Anwendung
 
@@ -24,7 +25,7 @@ Der **Std Rechteckauswahl**-Befehl ermöglicht es, in der 3D-Ansicht Flächen au
 
 ## Hinweise
 
--   Benutze den [Std RechteckElementAuswahl](Std_BoxElementSelection/de.md)-Befehl, um anstatt von Objekten ausgewählte Flächen zusammenzupacken (to box).
+-   Benutze den [Std RechteckElementAuswahl](Std_BoxElementSelection/de.md)-Befehl, um Flächen statt Objekten mit dem Auswahlrechteck auszuwählen.
 -   Dieser Befehl kann nicht genutzt werden, um Elemente in einer [Skizze ](sketch/de.md) auszuwählen. Zur \'RechteckAuswahl\' bei geöffnetem [Sketcher Dialog](Sketcher_Dialog/de.md):
     1.  Stelle sicher, dass kein Befehl aktiv ist.
     2.  Tue eines der folgenden Dinge:

@@ -140,6 +140,13 @@ Les chaînes de caractères peuvent être concaténées à l\'aide du signe \'+\
 
 L\'exemple suivant `<<MY>> + <<TEXT>>` sera concaténé en \"MYTEXT\".
 
+#### Conversion de chaînes de caractères 
+
+Les valeurs numériques peuvent être converties en chaînes de caractères avec la fonction `str` :
+
+
+`str(Box.Length.Value)`
+
 #### Formatage des chaînes de caractères 
 
 Le formatage des chaînes de caractères est pris en charge en utilisant le (vieux) style % de Python.

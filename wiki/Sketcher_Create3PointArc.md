@@ -17,7 +17,7 @@ This tool draws an arc by picking three points: the start point, the end point a
 
 When starting the tool, the mouse pointer changes to a white cross with a red arc icon. The coordinates of the pointer are shown beside it in blue in real time.
 
--   Pick points on an empty area of the 3D view, or on an existing object (auto constraints must be active in TaskView).
+-   Pick points on an empty area of the 3D view, or on an existing object (auto constraints must be active in the [Task panel](Task_panel.md)).
 -   Pressing **Esc** or clicking the right mouse button cancels the function.
 
 

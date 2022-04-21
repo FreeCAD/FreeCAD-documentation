@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreateSlot
    Name/fr:Sketcher Rainure
-   MenuLocation:Sketch → Géométries d'esquisse → Créer une rainure
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer une rainure
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **S**
 ---

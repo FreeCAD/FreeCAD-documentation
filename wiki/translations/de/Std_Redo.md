@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Der **Std Rückgängig**-Befehl nimmt die Aktion des [Wiederherstellen](Std_Undo/de.md)-Befehl zurück.
+Der Befehl **Std Rückgängig** nimmt die Aktion des Befehls [Wiederherstellen](Std_Undo/de.md) zurück.
 
 ## Anwendung
 

@@ -2,10 +2,10 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainRadius
    Name/fr:Sketcher Contrainte rayon
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte de rayon ou de poids
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte de rayon ou de poids
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **R**
-   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance horizontale ](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
+   SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte distance horizontale](Sketcher_ConstrainDistanceX/fr.md), [Sketcher Contrainte distance verticale](Sketcher_ConstrainDistanceY/fr.md)
 ---
 
 # Sketcher ConstrainRadius/fr
@@ -19,7 +19,7 @@ Cette contrainte contraint la valeur du rayon d\'un cercle ou d\'un arc à avoir
     -   Une contrainte de référence est appliquée séparément sur chaque objet qui est une géométrie externe.
     -   des **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contraintes d'égalités](Sketcher_ConstrainEqual/fr.md)** sont appliquées séquentiellement entre tous les objets de géométrie réelle/construction et une contrainte dimensionnelle est appliquée au premier objet sélectionné selon les règles ci-dessus.
 
-NB : Les pôles B-spline ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
+NB : Les pôles des B-splines ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
 
 ![](images/Sketcher_ConstrainRadius_example.png )
 
@@ -37,7 +37,7 @@ NB : Les pôles B-spline ne peuvent pas être mélangés avec d\'autres types d\
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Radius', ArcOrCircle, App.Units.Quantity('123.0 mm')))```
 
-La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `ArcOrCircle` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique les valeurs qui peuvent être utilisées pour `ArcOrCircle` et contient d\'autres exemples sur la façon de créer des contraintes à partir de scripts Python.
 
 
 

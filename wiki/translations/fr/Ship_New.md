@@ -1,7 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Ship New
-‏‎   Name/fr:Ship New
+‏‎   Name/fr:Ship Créer une coque
+   Icon:Ship_Instance.svg
    MenuLocation:Ship design → Create a new ship
    Workbenches:[Ship](Ship_Workbench/fr.md)
    Shortcut:
@@ -10,54 +11,51 @@
 
 # Ship New/fr
 
-
-</div>
-
 ## Description
 
-Create a New Ship or new Ship Instance.
+Créer un nouveau bateau ou une nouvelle instance de bateau.
 
-Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids.The following criteria must be taken into account:
+Ship travaille sur des **entités de bateau**, qui doivent être créées au-dessus de la géométrie fournie. La géométrie doit être un solide, ou un ensemble de solides. Les critères suivants doivent être pris en compte :
 
--   All hull geometry must be provided (including symmetric bodies).
--   Starboard geometry must be included at negatives *y* domain.
--   Origin (0,0,0) point is the **Midship section** (Midpoint between after and forward perpendicular) and **base line** intersection.
+-   Toute la géométrie de la coque doit être fournie (y compris les corps symétriques).
+-   La géométrie tribord doit être incluse dans le domaine négatif *y*.
+-   Le point d\'origine (0,0,0) est l\'intersection de la **section médiane** (point médian entre les perpendiculaires arrière et avant) et de la **ligne de base**.
 
 ![](images/FreeCAD-Ship-SignCriteria.jpg ) 
-*Ship sign criteria*
+*Critères d'identification des bateaux*
 
-## Usage
+## Utilisation
 
-In order to create a **Ship instance** (in other words, a New Ship), select the hull solid geometry and invoke **Ship design → Create a new ship**.
+Pour créer une **instance de bateau** (en d\'autres termes, un nouveau bateau), sélectionnez la géométrie solide de la coque et invoquez **Ship design → Create a new ship**.
 
-The task panel and a free-surface annotation in the [3D view](3D_view.md) are shown. The annotation is temporary and will be removed when you close the tool, so don\'t worry about that.
+Le panneau des tâches et une annotation de surface libre dans la [Vue 3D](3D_view/fr.md) sont affichés. L\'annotation est temporaire et sera supprimée lorsque vous fermerez l\'outil, ne vous inquiétez donc pas à ce sujet.
 
-Most relevant ship data must be introduced (Ship uses a progressive data introduction system, so basic operations can be performed knowing only basic ship data, more information is needed as the operations become more complex).
+Les données les plus pertinentes du bateau doivent être introduites (le bateau utilise un système d\'introduction progressive des données, de sorte que les opérations de base peuvent être effectuées en ne connaissant que les données de base du bateau, des informations supplémentaires étant nécessaires lorsque les opérations deviennent plus complexes).
 
-## Ship data 
+## Données du bateau 
 
-Main dimensions must be introduced here:
+Les principales dimensions doivent être présentées ici :
 
--   Length: Length between perpendiculars.
--   Beam: Total ship beam.
--   Draft: Design draft.
+-   Length : Longueur entre les perpendiculaires.
+-   Beam : Largeur totale du bateau.
+-   Draft : Tirant d\'eau nominal.
 
 ![](images/FreeCAD-Ship-S60ShipCreationFront.png ) 
-*Length annotations*
+*Annotations de longueur*
 
-Usually the Length between perpendiculars depends on design draft, so if you don\'t know what is the length of your ship you can set draft, and fit length in order to get bow and draft intersection.
+Couramment, la longueur entre perpendiculaires dépend du tirant d\'eau. Si vous ne connaissez pas la longueur du navire vous pouvez saisir le tirant d\'eau et ajuster la longueur.
 
 ![](images/FreeCAD-Ship-S60ShipCreationSide.png ) 
-*Beam annotations*
+*Annotations des largeurs*
 
-Same process is valid for Beam fit. Note that the requested value is the total beam, but just the annotation on starboard side is shown.
+Le même processus est valable pour l\'ajustement de la largeur. Notez que la valeur demandée est la largeur totale, mais que seule l\'annotation sur le côté tribord est montrée.
 
-When you press **Accept** button, a new Ship instance named **Ship** is created at *Tags & Attributes* dialog. The geometry is not needed anymore, so feel free to hide or remove it.
+Lorsque vous appuyez sur le bouton **Accept**, une nouvelle instance de bateau nommée *Ship* est créée dans le dialogue *Tags & Attributs*. La géométrie n\'est plus nécessaire, alors n\'hésitez pas à la cacher ou à la supprimer.
 
-## Tutorials
+## Tutoriels
 
--   [FreeCAD-Ship s60 tutorial ](FreeCAD-Ship_s60_tutorial.md)
--   [FreeCAD-Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md)
+-   [Tutoriel Construction navale S60](FreeCAD-Ship_s60_tutorial/fr.md)
+-   [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
 
 
 

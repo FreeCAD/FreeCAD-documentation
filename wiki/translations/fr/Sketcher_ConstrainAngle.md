@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher ConstrainAngle
    Name/fr:Sketcher Contrainte angulaire
-   MenuLocation:Sketch → Contraintes d'esquisse → Contrainte angulaire
+   MenuLocation:Esquisse → Contraintes d'esquisse → Contrainte angulaire
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**K** **A**
    SeeAlso:[Sketcher Contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md), [Sketcher Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md)
@@ -29,7 +29,7 @@ Pour appliquer une contrainte d\'angle, il faut suivre les étapes suivantes :
 2.  Lancez la contrainte en utilisant plusieurs méthodes:
     -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Contraint angulaire](Sketcher_ConstrainAngle/fr.md)** dans la barre d\'outils.
     -   Utilisez des raccourcis clavier **K** puis **A**.
-    -   Utilisez **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Contraint angulaire** du menu supérieure.
+    -   Utilisez **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Contraint angulaire** du menu supérieure.
 3.  Une boîte de dialogue d\'édition apparaît.
 4.  Modifiez l\'angle si nécessaire. **Remarque :** l\'angle peut être entré comme une expression qui sera évaluée et le résultat sera stocké.
 5.  Cliquez sur **OK**
@@ -64,7 +64,7 @@ Dans ce mode, la contrainte fixe l\'angle entre deux lignes. Il n\' est pas obli
 
 ### Entre les courbes à l\'intersection (angle par point) 
 
-\"\'Sélection acceptée :\'\" toute ligne/courbe + toute ligne/courbe + tout point
+**Sélection acceptée :** toute ligne/courbe + toute ligne/courbe + tout point
 
 <img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:600px;">
 
@@ -74,7 +74,7 @@ Pour que la contrainte fonctionne correctement, le point doit être sur les deux
 
 ## Script
 
-La Contrainte Angle peut être créée depuis une [macros](Macros/fr.md) et depuis la console Python en utilisant : 
+La Contrainte angle peut être créée depuis une [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant : 
 ```python
 # line slope angle
 Sketch.addConstraint(Sketcher.Constraint('Angle',iline,angle))

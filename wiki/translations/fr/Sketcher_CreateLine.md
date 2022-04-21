@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Sketcher CreateLine
    Name/fr:Sketcher Ligne
-   MenuLocation:Sketch → Géométries d'esquisse → Créer une ligne
+   MenuLocation:Esquisse → Géométries d'esquisse → Créer une ligne
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**G** **L**
    SeeAlso:[Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
@@ -23,7 +23,7 @@ L\'objet ligne créé commence et se termine aux points donnés, mais la ligne e
 ## Utilisation
 
 -   Cliquer des points dans un espace libre de la vue 3D, ou sur un élément existant (les contraintes auto doivent être activées dans le panneau Tâches).
--   Appuyer sur **ÉCHAP** ou faire un clic droit avec la souris annule l\'opération.
+-   Appuyer sur **Echap** ou faire un clic droit avec la souris annule l\'opération.
 
 
 

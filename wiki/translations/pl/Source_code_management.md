@@ -975,7 +975,7 @@ git log --skip=2465
 commit 44c2f19e380e76b567d114a6360519d66f7a9e24
 }}
 
-Since the log may show you two close commits, confirm it\'s the right commit number. If it\'s off by one, just pick the next commit in the sequence (before or after) and check again.
+Ponieważ log może pokazywać dwa zbliżone do siebie żądania commit, sprawdź, czy numer jest właściwy. Jeśli jest on przesunięty o jeden, wybierz kolejne żądanie w sekwencji *(przed lub po)* i sprawdź ponownie.
 
 
 {{Code|lang=text|code=
@@ -983,20 +983,20 @@ git rev-list --count 44c2f19e38
 15000
 }}
 
--   [Show the commits](https://forum.freecadweb.org/viewtopic.php?f=10&t=26673) immediately before a particular commit in GitHub: in the address bar of the browser, change the word `commit` to `commits` to show a list.
--   [Finding the revision number of the commit](https://forum.freecadweb.org/viewtopic.php?t=5308)
--   [Finding the revision number of the commit](https://forum.freecadweb.org/viewtopic.php?f=18&t=12883&p=103207#p103203)
--   [Finding the corresponding hash value to a particular commit number](https://forum.freecadweb.org/viewtopic.php?f=10&t=31118)
+-   [Pokaż żądania commits](https://forum.freecadweb.org/viewtopic.php?f=10&t=26673) bezpośrednio przed konkretnym żądaniem w GitHubie: w pasku adresu przeglądarki zmień słowo `commit` na `commits`, aby wyświetlić listę,
+-   [Znajdowanie numeru żądania commit](https://forum.freecadweb.org/viewtopic.php?t=5308),
+-   [Znajdowanie numeru rewizji żądania commit](https://forum.freecadweb.org/viewtopic.php?f=18&t=12883&p=103207#p103203),
+-   [Znajdowanie wartości hash odpowiadającej danemu numerowi żądania commit](https://forum.freecadweb.org/viewtopic.php?f=10&t=31118).
 
-### Revision number in FreeCAD\'s interface 
+### Numer wydania w interfejsie programu FreeCAD 
 
-The version number that appears with the [Std About](Std_About.md) tool is defined in `src/Build/Version.h`, which is created at compile time when the `cmake` tool is run. Read [Extract version number from git source](https://forum.freecadweb.org/viewtopic.php?f=4&t=3025) for more information.
+Numer wersji, który pojawia się w okienku dialogowym [Informacje o FreeCAD](Std_About/pl.md) jest zdefiniowany w pliku `src/Build/Version.h`, który jest tworzony w czasie kompilacji, gdy uruchamiane jest narzędzie `cmake`. Przeczytaj stronę [Wyodrębnij numer wersji ze źródła git](https://forum.freecadweb.org/viewtopic.php?f=4&t=3025), aby uzyskać więcej informacji.
 
-## Adding other repositories (remotes) 
+## Dodawanie innych repozytoriów *(zdalnych)* 
 
-Several collaborators of the FreeCAD project have their own Git repositories where they build up their work or where they experiment new ideas before they are ready to be included in the official source code. You may want to get their sources in order to test their code yourself when they make a pull request.
+Kilku współpracowników projektu FreeCAD ma swoje własne repozytoria Git, gdzie gromadzą swoją pracę lub gdzie eksperymentują z nowymi pomysłami, zanim będą one gotowe do włączenia do oficjalnego kodu źródłowego. Być może będziesz chciał uzyskać ich źródła, aby przetestować ich kod, gdy złożą pull request.
 
-Use the `git remote` command to add these other repositories so that you can `fetch` and `pull` their code.
+Użyj polecenia `git remote`, aby dodać te inne repozytoria, dzięki czemu będziesz mógł wykonywać operacje `fetch` i `pull` z ich kodem.
 
 
 {{Code|lang=text|code=
@@ -1006,67 +1006,67 @@ git fetch OTHER_USER
 git checkout -b OTHER_BRANCH OTHER_USER/OTHER_BRANCH
 }}
 
-For example, lets add Bernd\'s remote repository:
+Na przykład dodajmy zdalne repozytorium Bernd-a:
 
 
 {{Code|lang=text|code=
 git remote add bernd http://github.com/berndhahnebach/FreeCAD_bhb
 }}
 
-The `git fetch` command downloads the references from that remote repository.
+Polecenie `git fetch` pobiera referencje z tego zdalnego repozytorium.
 
 
 {{Code|lang=text|code=
 git fetch bernd
 }}
 
-List all branches in your own repository, and those from your added remotes. Bernd\'s branches will display as `remotes/bernd/<branchname>`.
+Wyświetla wszystkie gałęzie w Twoim repozytorium oraz te z dodanych przez Ciebie repozytoriów zdalnych. Gałęzie Bernd=a będą wyświetlane jako `remotes/bernd/<branchname>`.
 
 
 {{Code|lang=text|code=
 git branch -a
 }}
 
-Now, lets view a summarized list of the last 10 commits of bernd\'s `femdev` branch.
+Teraz przejrzyjmy listę ostatnich 10 żądań commit w gałęzi `femdev` Bernd=a.
 
 
 {{Code|lang=text|code=
 git log -10 --oneline remotes/bernd/femdev
 }}
 
-Now we can checkout the desired branch to inspect.
+Teraz możemy sprawdzić wybraną gałąź.
 
 
 {{Code|lang=text|code=
 git checkout remotes/bernd/femdev
 }}
 
-Then we can create a local branch that is based on the remote branch. This local branch we can modify, and add our own code to it.
+Następnie możemy utworzyć lokalną gałąź, która będzie bazować na gałęzi zdalnej. Tę lokalną gałąź możemy modyfikować i dodawać do niej własny kod.
 
 
 {{Code|lang=text|code=
 git checkout -b local_branch_name /remotes/bernd/femdev
 }}
 
-You may wish to `git rebase` the newly obtained branch onto the `upstream/master` branch to make sure it is using the latest code. If there are conflicts, they will have to be solved at this point.
+Możesz też chcieć wykonać operację `git rebase` przeniesienia nowo utworzonej gałęzi na gałąź `upstream/master`, aby upewnić się, że używa ona najnowszego kodu. Jeśli istnieją konflikty, będą musiały być rozwiązane w tym momencie.
 
 
 {{Code|lang=text|code=
 git pull --rebase upstream master
 }}
 
-The new branch is ready to be modified and compiled as described in [Compiling](Compiling.md).
+Nowa gałąź jest gotowa do modyfikacji i kompilacji, jak opisano na stronie [Kompilacja](Compiling/pl.md).
 
-Head to the development section of the [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=6) to discuss more about development.
+Przejdź do sekcji rozwoju na [forum FreeCAD](https://forum.freecadweb.org/viewforum.php?f=6), aby porozmawiać o rozwoju.
 
-## Further reading 
+## Dodatkowe informacje 
 
--   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md), a guide to use a graphical interface with Git.
--   [Git for the lazy](https://wiki.spheredev.org/index.php/Git_for_the_lazy), a very concise guide to the principal commands of `git`.
--   The [Pro Git book](https://git-scm.com/book), an open source book teaching you about Git; it is available in electronic and print versions.
--   The [Visual Git guide](https://marklodato.github.io/visual-git-guide), a reference with diagrams explaining the most common operations with Git.
--   [Git Tutorial for Beginners: Command-Line Fundamentals](https://www.youtube.com/watch?v=HVsySz-h9r4), video by Corey Schafer.
--   [Introduction to Git - Core Concepts](https://www.youtube.com/watch?v=uR6G2v_WsRA), video by David Mahler.
+-   [Rozwój FreeCAD z GitKraken](Developing_FreeCAD_with_GitKraken/pl.md), przewodnik używania interfejsu graficznego z Gitem.
+-   [Git dla leniwych](https://wiki.spheredev.org/index.php/Git_for_the_lazy), bardzo zwięzły przewodnik po głównych poleceniach `git`.
+-   [Pro Git book](https://git-scm.com/book), książka open source ucząca o środowisku Git; jest dostępna w wersji elektronicznej i drukowanej.
+-   [Visual Git guide](https://marklodato.github.io/visual-git-guide), podręcznik z diagramami objaśniającymi najczęściej wykonywane operacje w środowisku Git.
+-   [Git Tutorial for Beginners: Command-Line Fundamentals](https://www.youtube.com/watch?v=HVsySz-h9r4), film wideo autorstwa Coreya Schafera.
+-   [Wprowadzenie do Git - podstawowe pojęcia](https://www.youtube.com/watch?v=uR6G2v_WsRA), wideo autorstwa Davida Mahlera.
 
 
 

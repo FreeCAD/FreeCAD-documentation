@@ -24,14 +24,23 @@ If you only want to produce a single view, there is no advantage in using Projec
 
 ## Usage
 
-1.  Select one or more *Body* and/or *Part* objects in the 3D window or tree. If you have multiple drawing pages in your document, you will also need to select the desired page in the tree.
-2.  Press the **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Insert Projection Group](TechDraw_ProjectionGroup.md)** button.
-3.  A dialog will open in which you can select which views should appear in the group, the group\'s scale and other parameters:
+1.  Optionally rotate the [3D view](3D_view.md). The camera direction in the [3D view](3D_view.md) determines the initial value of the **Primary Direction** of the Projection Group (the **Direction** property of the central view).
+2.  Select one or more objects in the [3D view](3D_view.md) or [Tree view](Tree_view.md).
+3.  If there are multiple drawing pages in the document: optionally add the desired page to the selection by selecting it in the [Tree view](Tree_view.md). This is not optional for {{VersionMinus|0.19}}.
+4.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Insert Projection Group](TechDraw_ProjectionGroup.md)** button.
+    -   Select the **TechDraw → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Insert Projection Group** option from the menu.
+5.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+    1.  Select the desired page.
+    2.  Press the **OK** button.
+6.  The **Projection Group** task panel opens.
+7.  Select which views should appear in the Projection Group, and the Projection Group\'s scale and other parameters.
+8.  Press the **OK** button.
+9.  Optionally move the Projection Group by dragging its central view.
+10. Optionally move the Projection Group\'s other views relative to the central view by dragging them individually.
 
 ![](images/TaskProjGroup.png ) 
-*Projection Group [task panel](Task_panel.md). The central field indicates the current view direction with percentages of the x, y and z-axes.*
-
-After you created the Projection Group you can move the group as a whole by dragging the central view. You can also move the projection views by dragging.
+*Projection Group [task panel](Task_panel.md). The Primary Direction field indicates the current view direction.*
 
 ## Properties
 

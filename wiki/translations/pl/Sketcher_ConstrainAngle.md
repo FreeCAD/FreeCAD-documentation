@@ -74,7 +74,7 @@ Aby wiązanie działało prawidłowo, punkt musi znajdować się na obu krzywych
 
 ## Tworzenie skryptów 
 
-Ograniczenie kąta może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli Pyton za pomocą następujących narzędzi: 
+Ograniczenie kąta może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli [Pyton](Python/pl.md) za pomocą następujących narzędzi: 
 ```python
 # line slope angle
 Sketch.addConstraint(Sketcher.Constraint('Angle',iline,angle))

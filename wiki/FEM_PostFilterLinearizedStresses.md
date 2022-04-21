@@ -18,7 +18,7 @@ Creates a stress linearization plot.
 2.  Invoke the command in one of the several ways:
     -   Press the **<img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> [Stress linearization plot](FEM_PostFilterLinearizedStresses.md)** button.
     -   Select the **Results → <img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> Stress linearization plot** option from the menu.
-3.  XY plot with linearized stress values (membrane, membrane+bending and total) along the line will be created in a separate window.
+3.  An XY plot with linearized stress values (membrane, membrane+bending and total) along the line will be created in a separate window.
 
 
 

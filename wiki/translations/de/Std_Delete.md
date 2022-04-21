@@ -1,5 +1,6 @@
 ---
 - GuiCommand:/de
+   Name:Std Delete
    Name/de:Std Löschen
    MenuLocation:Bearbeiten → Löschen
    Workbenches:Alle

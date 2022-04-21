@@ -13,10 +13,10 @@
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:24px;"> **TechDraw ExtensionThreadBoltBottom** Werkzeug fügt ein symbolisches Gewinde (Gewindelinie) bei einem von oben oder unten gesehenen Bolzen/Schraube/Stange ein.
+Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:24px;"> **TechDraw ErgänzungAußengewindeAxial** ergänzt ein von oben oder unten gesehenes Außengewinde (Schraube, Bolzen, Gewindestange) mit einer Gewindelinie (Hilfslinie - Cosmetic line).
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltBottomExample.png  style="width:200px;"> 
-*Rechts eine Stange mit symbolischem Gewinde*
+*Rechts eine Stange mit Gewindedarstellung*
 
 ## Verwendung
 

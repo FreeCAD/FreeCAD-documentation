@@ -3,8 +3,8 @@
    Name:Ship Hydrostatics
    MenuLocation:Ship design → Hydrostatics
    Workbenches:[Ship](Ship_Workbench.md)
-   Shortcut:|
-SeeAlso=
+   Shortcut:
+   SeeAlso:
 ---
 
 # Ship Hydrostatics

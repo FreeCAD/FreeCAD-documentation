@@ -2,8 +2,8 @@
 - GuiCommand:/fr
    Name:Sketcher SelectOrigin
    Name/fr:Sketcher Sélectionner l'origine
+   MenuLocation:Esquisse → Outils d'esquisse → Selectionner l'origine
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   MenuLocation:Sketch → Outils d'esquisse → Selectionner l'origine
    Shortcut:**Z** **O**
    Version:0.15
 ---
@@ -16,8 +16,8 @@ Sélectionne l\'origine d\'une esquisse.
 
 ## Utilisation
 
-1.  Entrez le mode d\'édition de l\'esquisse.
-2.  Choisir **Sketch → Outils d'esquisse → [<img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Sélectionnez l'origine** dans le menu principal.
+1.  Entrez dans le mode d\'édition de l\'esquisse.
+2.  Choisissez **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Sélectionnez l'origine** dans le menu principal.
 3.  L\'origine de l\'esquisse sera sélectionnée.
 
 

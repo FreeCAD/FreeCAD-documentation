@@ -1,6 +1,13 @@
-# Ship TankCapacity
 ---
-- GuiCommand:   Name:Ship TankCapacity   MenuLocation:Weights → Tank capacity curve   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:
+   Name:Ship TankCapacity
+   MenuLocation:Weights → Tank capacity curve
+   Workbenches:[Ship](Ship_Workbench.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Ship TankCapacity
 
 ## Introduction
 

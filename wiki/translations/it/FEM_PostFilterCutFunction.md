@@ -15,11 +15,23 @@
 
 {{FEM Tools navi/it}}
 
+
+<div class="mw-translate-fuzzy">
+
 Da fare
+
+
+</div>
 
 
 {{Userdocnavi/it}}
 
+
+<div class="mw-translate-fuzzy">
+
+
+
+</div>
 
 
 

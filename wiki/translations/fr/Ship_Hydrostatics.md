@@ -1,93 +1,92 @@
-# Ship Hydrostatics/fr
 ---
-- GuiCommand:/fr   Name:Ship Hydrostatics   Name/fr:Ship Hydrostatics   MenuLocation:Ship design → Hydrostatics   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:/fr
+   Name:Ship Hydrostatics
+   Name/fr:Ship Hydrostatiques
+   MenuLocation:Ship design → Hydrostatics
+   Workbenches:[Ship](Ship_Workbench/fr.md)
+   Shortcut:
+   SeeAlso:
+---
 
-
-</div>
+# Ship Hydrostatics/fr
 
 ## Description
 
-Plot the ship hydrostatics.
+Trace l\'hydrostatique du bateau.
 
 <img alt="" src=images/FreeCAD-Ship-HydrostaticsCurves.png  style="width:800px;"> 
-*Hydrostatics curves example*
+*Exemple de courbes hydrostatiques*
 
-Hydrostatics computation is a critical stage of a ship\'s design, it provides an understanding to the underlying principal stability hull parameters.
+Le calcul hydrostatique est une étape critique de la conception d\'un bateau, il permet de comprendre les principaux paramètres de stabilité sous-jacents de la coque.
 
-It is indeed mandatory data in order to get the ship certified by classification societies. Combined with the information of load conditions provides the most basic information about ship stability.
+Il s\'agit en effet de données obligatoires pour que le bateau soit certifié par les sociétés de classification. Combinées aux informations sur les conditions de charge, elles fournissent les informations les plus fondamentales sur la stabilité du bateau.
 
-The Ship workbench plot the hydrostatics in 3 main groups. In all of them the Δ(T) curve (displacement-draft ratio) is depicted. Although many other hydrostatics can be eventually considered, they can be actually derived from the already provided ones, which are documented below.
+L\'atelier Ship trace l\'hydrostatique en 3 groupes principaux. Dans tous ces groupes, la courbe Δ(T) (rapport entre le déplacement et le tirant d\'eau) est représentée. Bien que de nombreuses autres hydrostatiques puissent être envisagées, elles peuvent être dérivées de celles déjà fournies, qui sont documentées ci-dessous.
 
-### Volume based hydrostatics 
+### Hydrostatique basée sur le volume 
 
-There are 3 hydrostatics (despite Δ(T)) included within this category:
+Il y a 3 hydrostatiques (malgré Δ(T)) inclus dans cette catégorie :
 
--   Wetted area (WSA).
--   Moment to trim the ship 1 cm (MCT).
--   Longitudinal position of the bouyance center (XCB).
+-   Surface mouillée (WSA).
+-   Moment d\'inclinaison du bateau de 1 cm (MCT).
+-   Position longitudinale du centre de bouyance (XCB).
 
-As the amount of surface in contact with the water, WSA is heavily related with the ship dynamics, including both ship resistance and seakeeping. Moreover, WSA is part of the renormalization factor for many of the non-dimensional ship coefficients, like the drag coefficient:
+En tant que quantité de surface en contact avec l\'eau, la WSA est fortement liée à la dynamique du bateau, y compris la résistance du bateau et la tenue à la mer. De plus, la WSA fait partie du facteur de renormalisation de nombreux coefficients non dimensionnels du bateau, comme le coefficient de traînée :
 
 $c_\mathrm d = \dfrac{F_\mathrm d}{\dfrac{1}{2} \rho u^2 S},$
 
-with $F_\mathrm d$ the drag force, $\rho$ the water density, $u$ the ship velocity and $S$ the WSA.
+avec $F_\mathrm d$ la force de traînée, $\rho$ la densité de l\'eau, $u$ la vitesse du bateau et $S$ le WSA.
 
-The MCT plays a mayor role in the load condition planning, since it gives information about the effect of displacing any load along the ship. The actual MCT is computed according the transversal gravity center to metacenter distance, GML, obviously requiring the gravity center position. However, as it is a common practice in naval architecture, the distance of such metacenter to the buoyancy center, BML, is considered similar to such GML ($GML / BML \simeq 1$). Please note that is only valid for the longitudinal direction ($GMT / BMT \neq 1$).
+Le MCT joue un rôle majeur dans la planification des conditions de charge, car il donne des informations sur l\'effet du déplacement de toute charge le long du bateau. Le MCT réel est calculé en fonction de la distance transversale entre le centre de gravité et le métacentre, GML, ce qui nécessite évidemment la position du centre de gravité. Toutefois, comme il s\'agit d\'une pratique courante en architecture navale, la distance entre ce métacentre et le centre de flottabilité, BML, est considérée comme similaire à cette GML ($GML / BML \simeq 1$). Veuillez noter que cela n\'est valable que pour la direction longitudinale ($GMT / BMT \neq 1$).
 
-Some times the BML is prefered to the MCT. If it is your case, you just need to apply
+Parfois, le BML est préféré au MCT. Si c\'est votre cas, il vous suffit de faire une demande.
 
 $BML = \dfrac{100 \,\, L \,\, MCT}{\Delta},$
 
-with $L$ the length in meters and $\Delta$ the displacement.
+avec $L$ la longueur en mètres et $\Delta$ le déplacement.
 
-The XCB is obviously indicating the trim angle that is expected to get the ship depending on the weight distribution.
+Le XCB indique de toute évidence l\'angle d\'inclinaison qui devrait permettre au bateau d\'avancer en fonction de la répartition du poids.
 
-### Stability hydrostatics 
+### Hydrostatique de la stabilité 
 
-These hydrostatics are more related with the ship transversal stability. The following hydrostatics are provided by the Ship workbench:
+Ces hydrostatiques sont davantage liées à la stabilité transversale du bateau. Les hydrostatiques suivantes sont fournies par l\'atelier des bateaux :
 
--   Floating Area/Waterplane Area (WP).
--   Distance between the keel and buoyance center (KB).
--   Distance between the bouyance center and the metacenter (BMT)
+-   Surface de flottaison/aire de flottaison (WP).
+-   Distance entre la quille et le centre de bouée (KB).
+-   Distance entre le centre de bouée et le métacentre (BMT)
 
-The floating area is widely connected with the so-called hydrostatic stiffness, or in other words the resistance presented by the ship to any perturbation.
+La surface de flottaison est largement liée à ce que l\'on appelle la rigidité hydrostatique, ou en d\'autres termes la résistance présentée par le bateau à toute perturbation.
 
-On the other hand, the KB and BMT are critical parameters to determine the transversal stability of the ship for small angles. Indeed when the gravity center is defined (it can be done with the [Weight definition tool](Ship_Weight.md), [Tank creation](Ship_TankNew.md) and [Load condition definition](Ship_Loading.md) tools) the main stability parameter for small angles can be easily computed,
+D\'autre part, le KB et le BMT sont des paramètres critiques pour déterminer la stabilité transversale du bateau pour les petits angles. En effet, lorsque le centre de gravité est défini (cela peut être fait avec les outils [Définition du poids](Ship_Weight/fr.md), [Création du réservoir](Ship_TankNew/fr.md) et [Définition des conditions de charge](Ship_Loading/fr.md)), le principal paramètre de stabilité pour les petits angles peut être facilement calculé,
 
 $GMT = KB + BMT - KG.$
 
-That parameter is indeed required to have a minimum value which depends on the ship type and size, and will be consequently queried by the classification societies.
+Ce paramètre doit en effet avoir une valeur minimale qui dépend du type et de la taille du bateau, et sera donc interrogé par les sociétés de classification.
 
 ### Coefficients
 
-There are some coefficients that are usually considered at the first stages of a ship design to assess the quality of the ship surface, or in other words, its hydrodynamic behavior.
+Certains coefficients sont généralement pris en compte dès les premières étapes de la conception d\'un bateau pour évaluer la qualité de la surface du bateau, ou en d\'autres termes, son comportement hydrodynamique.
 
--   Block coefficient (Cb).
--   Floating Coefficient (Cf).
--   Main frame Coefficient (Cm).
+-   Coefficient de blocage (Cb).
+-   Coefficient de flottement (Cf).
+-   Coefficient de trame principale (Cm).
 
-Cb is the ration between the volume within the submerged part of the ship and the volume of its bound box, i.e. the smallest box which might hold the ship inside. Cm and Cf are its 2D counterpart, becoming the Cm ratio between the area of the main ship frame and its bounding box, and Cf the ratio between the waterplane area and its bounding box.
+Cb est le rapport entre le volume de la partie immergée du bateau et le volume de sa boîte englobante, c\'est-à-dire la plus petite boîte pouvant contenir le bateau. Cm et Cf sont ses équivalents en 2D, devenant le rapport Cm entre la surface de la structure principale du bateau et sa boîte de délimitation, et Cf le rapport entre la surface du plan d\'eau et sa boîte de délimitation.
 
-While large Cb values will inexorably result in inefficient ships, with more moderate Cb values it is required to combine the information with Cm and Cf. Larger Cf values indicates a large footprint in the water surface, which usually indicates a large ship resistance due to waves generation. On the contrary, the larger Cm is the larger volume of the ship body is concentrated on the center part, and thus thin shapes can be expected at the bow and stern, which is usually good for hydrodynamic purposes.
+Alors que de grandes valeurs de Cb entraîneront inexorablement des bateaux inefficaces, avec des valeurs de Cb plus modérées, il est nécessaire de combiner les informations avec Cm et Cf. De grandes valeurs de Cf indiquent une grande empreinte à la surface de l\'eau, ce qui indique généralement une grande résistance du bateau due à la génération de vagues. Au contraire, plus Cm est grand, plus le volume du corps du bateau est concentré sur la partie centrale, et donc des formes fines peuvent être attendues à l\'avant et à l\'arrière, ce qui est généralement bon pour l\'hydrodynamique.
 
-## Usage
+## Utilisation
 
-In order to compute the transversal areas curve, select a **Ship instance** (see [Ships creation](Ship_New.md)), and invoke **Ship design → Hydrostatics**.
+Pour calculer la courbe des aires transversales, sélectionnez une **instance de bateau** (voir [Création de bateaux](Ship_New/fr.md)), et invoquez **Ship design → Hydrostatics**.
 
-The task panel is shown. You must select the trim angle as well as the range of drafts to be considered. You can also select the number of samples to be taken between the minimum and maximum draft. The larger the number of samples the longer will take the computation.
+Le panneau des tâches s\'affiche. Vous devez sélectionner l\'angle d\'assiette ainsi que la plage de tirants d\'eau à prendre en compte. Vous pouvez également sélectionner le nombre d\'échantillons à prélever entre le tirant d\'eau minimum et maximum. Plus le nombre d\'échantillons est important, plus le calcul sera long.
 
-Press the **Accept** button when you are ready, so the Ship module will start the computation. During the computation FreeCAD will become almost irresponsive. It is however plotting the information in runtime, as well as a progress bar of the process. You can switch to a different plot tab, or stop the computation pressing the **Cancel** button. Just please be patient since those actions will be executed just after the next draft sample computation is finished.
+Appuyez sur le bouton **Accept** lorsque vous êtes prêt, afin que le module bateau commence le calcul. Pendant le calcul, FreeCAD devient presque sans réponse. Il trace cependant les informations en temps réel, ainsi qu\'une barre de progression du processus. Vous pouvez passer à un autre onglet de tracé, ou arrêter le calcul en appuyant sur le bouton **Cancel**. Soyez patient car ces actions seront exécutées juste après la fin du calcul de l\'échantillon suivant.
 
-## Tutorials
+## Tutoriels
 
-
-<div class="mw-translate-fuzzy">
-
--   [FreeCAD-Ship s60 tutorial ](FreeCAD-Ship_s60_tutorial/fr.md)
--   [FreeCAD-Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
-
-
-</div>
+-   [Tutoriel Construction navale S60](FreeCAD-Ship_s60_tutorial/fr.md)
+-   [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md)
 
 
 

@@ -52,7 +52,7 @@ Pour les utilisateurs de Windows : veuillez d\'abord lire le paragraphe [Sélect
 
 ## Sélection des fichiers de police sous Windows 
 
-Sous Windows, l\'accès au dossier des polices par défaut est restreint. Cela affecte la sélection du fichier de police pour les ShapeStrings. Il y a trois cas dans FreeCAD où un fichier de police pour les ShapeStrings peut être spécifié : dans le panneau des tâches de cette commande, lors de la modification de la propriété **Font File** d\'un ShapeString et lors de la spécification du fichier de police par défaut dans les [Réglages des préférences](Preferences_Editor/fr.md).
+Sous Windows, l\'accès au dossier des polices par défaut est restreint. Cela affecte la sélection du fichier de police pour les ShapeStrings. Il y a trois cas dans FreeCAD où un fichier de police pour les ShapeStrings peut être spécifié : dans le panneau des tâches de cette commande, lors de la modification de la propriété **Font File** d\'un ShapeString et lors de la spécification du fichier de police par défaut dans les [Réglages des préférences de Draft](Draft_Preferences/fr#Textes_et_cotes.md).
 
 Il n\'est pas possible d\'appuyer sur le bouton **...** puis de sélectionner un fichier dans le dossier de polices par défaut de Windows lorsque vous utilisez la boîte de dialogue de fichier native. Il existe un certain nombre de solutions de contournement :
 
@@ -70,7 +70,7 @@ Voir le paragraphe [Préférences](#Pr.C3.A9f.C3.A9rences.md) ci-dessous pour l\
 
 ## Préférences
 
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md), [Draft Préférences](Draft_Preferences/fr.md) et [Std Éditeur des paramètres](Std_DlgParameter/fr.md).
 
 -   Le fichier de police par défaut peut être modifié dans les préférences : **Édition → Préférences... → Draft → Textes et cotes → Fichier de police par défaut de Forme de texte**.
 -   Pour les utilisateurs de Windows :

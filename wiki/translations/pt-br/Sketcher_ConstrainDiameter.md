@@ -25,7 +25,7 @@ This constraint constrains the value of the diameter of a circle or arc to have 
 
 NB : B-spline poles can\'t be mixed with other object type in the selection
 
-## How to use 
+## Usage
 
 1.  Pick one or more circles or arcs.
 2.  Press the **[<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> [Constrain diameter](Sketcher_ConstrainDiameter.md)** button.

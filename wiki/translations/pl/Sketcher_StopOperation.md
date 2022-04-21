@@ -2,8 +2,8 @@
 - GuiCommand:/pl
    Name:Sketcher StopOperation
    Name/pl:Szkicownik: Przerwij operację
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    MenuLocation:Szkic → Przerwij operację
+   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
 ---
 
 # Sketcher StopOperation/pl

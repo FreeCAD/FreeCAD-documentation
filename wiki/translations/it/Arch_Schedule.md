@@ -31,7 +31,13 @@ Per una soluzione più generale, consultare il [Reporting Workbench](https://git
 
 ## Flusso di lavoro 
 
+
+<div class="mw-translate-fuzzy">
+
 In primo luogo è necessario disporre di un modello. Ad esempio, qui c\'è un documento con una coppia di oggetti. Non è necessario che siano oggetti Arch, possono essere di qualsiasi tipo.
+
+
+</div>
 
 ![](images/Arch_schedule_example01.jpg )
 
