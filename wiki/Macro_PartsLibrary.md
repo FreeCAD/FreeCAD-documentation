@@ -24,9 +24,7 @@ This macro, which is also included in the library, will show a browser panel ins
 
 ## Script
 
-
-
-ToolBar Icon ![](images/FreeCAD_Doc.png )
+ToolBar Icon ![](images/FreeCAD_Doc.png ) 
 
 [PartsLibrary.FCMacro](http://github.com/yorikvanhavre/FreeCAD-library/blob/master/PartsLibrary.FCMacro)
 

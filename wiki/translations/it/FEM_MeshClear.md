@@ -11,8 +11,8 @@ Enables the user to reiniitialize the mesh from the FreeCAD FEM mesh object. The
 
 ## Utilizzo
 
-1.  Right click on the mesh object in the Model Tree <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md).
-2.  Select the <img alt="" src=images/FEM_MeshClear.svg  style="width:32px;"> Clear FEM mesh.
+1.  Right-click a <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:16px;"> [Netgen](FEM_MeshNetgenFromShape.md) or <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:16px;"> [Gmsh](FEM_MeshGmshFromShape.md) FEM mesh object in the [Tree view](Tree_view.md).
+2.  Select the **<img src="images/FEM_MeshClear.svg" width=16px> Clear FEM mesh** option from the context menu.
 
 ## Notes
 

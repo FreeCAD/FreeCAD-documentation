@@ -498,7 +498,7 @@ Les [Noms](Object_name/fr#Name_.28Nom.29.md) d\'objets tels que des dimensions, 
   Caractères / Séquences de caractères                                                                                                             Description
    
   **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**                     Caractères qui sont des opérateurs mathématiques ou qui font partie de constructions mathématiques
-  **A**, **kA**, **mA**, **MA**, **C**, **G**, **F**, **uF**, **µF**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°** et bien d\'autres!   Caractères et séquences de caractères qui sont des [unités](Expressions/fr#Unit.C3.A9s.md)
+  **A**, **kA**, **mA**, **MA**, **C**, **G**, **F**, **uF**, **µF**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°** et bien d\'autres!   Caractères et séquences de caractères qui sont des unités (voir le paragraphe [unités](Unit.C3.A9s.md))
   **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **:**, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, and many more!                            Caractères utilisés comme espace réservé ou pour déclencher des opérations spéciales
   **pi**, **e**                                                                                                                                    Constantes mathématiques
   **´**, **\**, \'\'\' \' \'\'\', **\"**                                                                                                          Caractères utilisés pour les accents
@@ -510,7 +510,7 @@ Par exemple, le nom suivant est valide: `<<Sketch>>.Constraints.T2üßµ@`, alor
 
 ### Alias de cellules 
 
-Pour les [alias de cellule de feuille de calcul](Spreadsheet_SetAlias/fr.md), seuls les caractères alphanumériques et les traits de soulignement (`A` à `Z`, `a` à `z`, `0` à `9` et `_`) sont autorisés. {{Top}}
+Voir [Spreadsheet Alias](Spreadsheet_SetAlias/fr#Utilisation.md). {{Top}}
 
 ## Référence aux données CAO 
 

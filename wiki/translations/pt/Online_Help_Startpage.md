@@ -13,32 +13,14 @@ Este documento foi criado automaticamente a partir dos conteúdos do wiki da doc
 
 ### Como usar 
 
-
-<div class="mw-translate-fuzzy">
-
-Este documento está dividido em várias secções: introdução, utilização, *scripting* e desenvolvimento; os últimos três enfocam-se nas três categoris genéricas de utilizadores do FreeCAD: utilizadores finais, que querem simplesmente usar o programa, utilizadores experientes, que estão interessados nas capacidades de *scripting* do FreeCAD e gostariam de modificar alguns dos seus aspetos, e programadores, que consideram o FreeCAD como uma base para desenvolver os seus programas. Se é recém chegado ao FreeCAD, sugerimos que comece simplesmente pela introdução.
-
-
-</div>
+Este documento está dividido em várias secções: introdução, utilização, e *scripting* e desenvolvimento; as últimas três focam-se nos três grupos genéricos de utilizadores do FreeCAD: utilizadores finais, que querem simplesmente usar o programa, utilizadores experientes, que estão interessados nas capacidades de *scripting* do FreeCAD e pretendem modificar alguns dos seus aspetos, e programadores, que consideram o FreeCAD como uma base para desenvolver os seus próprios programas. Se é recém chegado ao FreeCAD, sugerimos que comece simplesmente pela introdução.
 
 ### Contribuir
 
-
-<div class="mw-translate-fuzzy">
-
-Como já deve ter reparado, os programadores são muito maus a escrever documentação. Para eles é tudo muito claro porque eles é que fizeram o programa. Por isso é fundamental que utilizadores experientes nos ajudem a escrever e a rever a documentação. Sim, estamos a falar de si! Como? vá ao wiki em <http://www.freecadweb.org/wiki/index.php> na secção dos utilizadores. Vai precisar de uma [conta no souceforge](http://sourceforge.net/) para entrar e depois pedir no forum ou no canal de irc permição de escrita (o wiki está protegido contra escrita para evitar *spamming*). Depois pode começar a escrever! Veja também a página em [Help\_FreeCAD](Help_FreeCAD.md) (em inglês) para outras maneiras de ajudar.
+Como já deve ter reparado, os programadores são muito maus a escrever documentação. Para eles é tudo muito claro porque eles é que fizeram o programa. Por isso é fundamental que utilizadores experientes nos ajudem a escrever e a rever a documentação. Sim, estamos a falar de si! E como? vá ao wiki em <http://www.freecadweb.org/wiki/index.php> na secção dos utilizadores. Vai precisar de uma [conta no souceforge](http://sourceforge.net/) para entrar e depois pedir no forum ou no canal de irc permição de escrita (o wiki está protegido contra escrita para evitar *spamming*). Depois pode começar a escrever! Veja também a página em [Help\_FreeCAD](Help_FreeCAD.md) (em inglês) para outras maneiras de ajudar.
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/pt|Online Help Toc/pt|About FreeCAD/pt}}
-
-
-</div>
+{{docnav/pt|About_FreeCAD/pt|Acerca do FreeCAD}}
 
 
 

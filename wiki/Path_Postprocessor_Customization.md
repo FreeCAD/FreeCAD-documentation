@@ -40,6 +40,13 @@ You can then have a look at the file and compare it to the output of existing po
 
 For a file format {{FileName|<filename>}} the postprocessor should get the name {{FileName|<filename>_post.py}}. Please note that the postfix and extension, {{FileName|_post.py}}, have to be lower case.
 
+The new name should be reflected at the head of the parser arguments list in the {{FileName|<filename>_post.py}} file, e.g.:
+
+
+{{Code|lang=text|code=
+parser = argparse.ArgumentParser(prog="grbl", add_help=False)
+}}
+
 If you are testing, place it in your macro directory. If it functions well, please consider providing it for others to benefit (post it to the FreeCAD Path forum) so that it can be included in the FreeCAD distribution going forward.
 
 ## Other existing postprocessors 
@@ -60,7 +67,9 @@ def export(objectslist, filename, argstring):
     gcode = ""
     ...
     ...
-``` it collects step by step in the variable \"gcode\" the processed G-codes and handles the overall exporting of post-processable objects (operations, tools, jobs ,etc). Export handles the high level stuff like comments and coolant but any objects that have multiple path commands (tool changes and operations) it delegates to the parse function (as of 0.19.20514 its at line 288).
+```
+
+it collects step by step in the variable \"gcode\" the processed G-codes and handles the overall exporting of post-processable objects (operations, tools, jobs ,etc). Export handles the high level stuff like comments and coolant but any objects that have multiple path commands (tool changes and operations) it delegates to the parse function (as of 0.19.20514 its at line 288).
 
  
 ```python
@@ -70,14 +79,18 @@ def parse(pathobj):
     lastcommand = None
     ...
     ...
-``` Similarly to the \"export\" function collects parse the G-codes in the variable \"out\". In the variable \"command\" the commands as seen in the Path workbench\'s \"inspect G-code\" function are stored and can be investigated for further processing.
+```
+
+Similarly to the \"export\" function collects parse the G-codes in the variable \"out\". In the variable \"command\" the commands as seen in the Path workbench\'s \"inspect G-code\" function are stored and can be investigated for further processing.
 
  
 ```python
         for c in pathobj.Path.Commands:
 
             command = c.Name
-``` It recognizes the different G, M, F, S, and other G-codes. By remembering the last command in the variable \"lastcommand\" it can suppress subsequent repetitions of modal commands.
+```
+
+It recognizes the different G, M, F, S, and other G-codes. By remembering the last command in the variable \"lastcommand\" it can suppress subsequent repetitions of modal commands.
 
 Both parse and export are just formatting strings and concatenating them together into what will be the final output.
 

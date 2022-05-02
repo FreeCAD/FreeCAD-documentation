@@ -44,7 +44,7 @@ This category contains all Unfinished Documents
 | [SheetMetal AddRelief/de](wiki/SheetMetal AddRelief/de.md) | [SheetMetal AddWall/de](wiki/SheetMetal AddWall/de.md) | [SheetMetal Examples/de](wiki/SheetMetal Examples/de.md) |
 | [SheetMetal Extrude/de](wiki/SheetMetal Extrude/de.md) | [SheetMetal Forming/de](wiki/SheetMetal Forming/de.md) | [SheetMetal SketchOnSheet/de](wiki/SheetMetal SketchOnSheet/de.md) |
 | [SheetMetal UnattendedUnfold/de](wiki/SheetMetal UnattendedUnfold/de.md) | [SheetMetal Unfold/de](wiki/SheetMetal Unfold/de.md) | [SheetMetal Workbench/de](wiki/SheetMetal Workbench/de.md) |
-| [Ship Loading/de](wiki/Ship Loading/de.md) | [Ship PlotGZ/de](wiki/Ship PlotGZ/de.md) | [Ship TankCapacity/de](wiki/Ship TankCapacity/de.md) |
+| [Ship Capacity/de](wiki/Ship Capacity/de.md) | [Ship GZ/de](wiki/Ship GZ/de.md) | [Ship LoadCondition/de](wiki/Ship LoadCondition/de.md) |
 | [Sketcher ConstrainHorizontal/de](wiki/Sketcher ConstrainHorizontal/de.md) | [Sketcher SelectElementsWithDoFs/de](wiki/Sketcher SelectElementsWithDoFs/de.md) | [Std MacroAttachDebugger/de](wiki/Std MacroAttachDebugger/de.md) |
 | [TechDraw LinkDimension/de](wiki/TechDraw LinkDimension/de.md) | [Transient FEM analysis/de](wiki/Transient FEM analysis/de.md) | [WikiPages/de](wiki/WikiPages/de.md) |
 | [Windows packaging/de](wiki/Windows packaging/de.md) |

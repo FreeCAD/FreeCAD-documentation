@@ -5,7 +5,7 @@ This category lists pages that relate to the [Web Workbench/de](Web_Workbench/de
 
 |     |     |     |
 | --- | --- | --- |
-| [Web Workbench/de](wiki/Web Workbench/de.md) |
+| [Artwork Web/de](wiki/Artwork Web/de.md) | [Web Workbench/de](wiki/Web Workbench/de.md) |
 
 
 

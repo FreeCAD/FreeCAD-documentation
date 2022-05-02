@@ -365,7 +365,7 @@ Assembly3 Constraints define restrictions in the position or orientation between
     -   **Same Orientation**: fixes Rx,Rz,Rz. All T\'s remain free.
     -   **Points Coincident**: fixes Tx,Ty,Tz. All R\'s remain free.
     -   **PointOnPoint** constraint eliminates the 3 translations.
-    -   **Plane Alignment**: fixes Tz, Rx,Ry. In plane motion and Rz. This eliminates the translation along the normal to the reference plane and the two rotations around the axes of this plane.
+    -   **Plane Alignment**: fixes Tz, Rx,Ry (plane motion). This eliminates the translation along the normal to the reference plane and the two rotations around the axes of this plane.
 -   Fixes 2 DOF, leaves 4 DOF:
     -   **Multi Parallel**: fixes Rx,Ry. all T\'s and Rz remain. This eliminates the two rotations around the axes of the reference plane.
 -   Fixes 1 DOF, leaves 5 DOF:
@@ -390,13 +390,13 @@ It is helpul to think of an Element as a general word for a \'selectable item\' 
 
 Lets look at an example
 
-:   Create a new file and add from the Part workbench a cube and a cylinder. We will stack the cylinder onto the tube. First we fix the base part, in out case the cube. Select the bottom face of the cube and select the \"Locked\" constraints (first icon in the Constraints [toolbar](#Toolbars.md)). Select the top face of the cylinder and the top face of the cube. Then select the \"Plane Coincident\" constraint. Now the cylinder is moved into the cube and in the tree a new leaf with two childe nodes was added under \'Constraints\'. Additionally the same two child nodes were added under \'Elements\'. If you cylinder is inside the cube instread of on top of the cube, lets correct that first: select the child node under \'Constraints\' that shows the cylinder face and with a right click in the context menu select \'Flip Part\'. Now the cylinder is stacked onto the box.
+:   Create a new file and add from the Part workbench a cube and a cylinder. We will stack the cylinder onto the cube. First we fix the base part, in out case the cube. Select the bottom face of the cube and select the \"Locked\" constraints (first icon in the Constraints [toolbar](#Toolbars.md)). Select the top face of the cylinder and the top face of the cube. Then select the \"Plane Coincident\" constraint. Now the cylinder is moved into the cube and in the tree a new leaf with two childe nodes was added under \'Constraints\'. Additionally the same two child nodes were added under \'Elements\'. If you cylinder is inside the cube instread of on top of the cube, lets correct that first: select the child node under \'Constraints\' that shows the cylinder face and with a right click in the context menu select \'Flip Part\'. Now the cylinder is stacked onto the box.
 
 The key think to understand is that the constraint operates on links to Elements in the list in the \'Elements\' tree folder. This allows to keep the constraint structure intact while changing the parts. This is very difficult to see without an example.
 
 Lets get back to the example above
 
-:   Note: make sure you added the \"Lock\" constraint to the cube or this will look confusing
+:   Note: make sure you added the \"Locked\" constraint to the cube or this will look confusing
 :   In the CAD window select another face of the cube. Now we only work in the tree view. Go with your mouse in the tree where the cube should be selected. Drag&Drop the cube to the \'Elements\' folder. Drop it on the \'Elements\' name, not anywhere else in the folder - why we see later. You should see that another Element is added to the \'ELements\' list. Now select in the \'Constraints\' folder the child node of the cube face in out \"Plane Coincident\" constraint and delete it. The Constraint will show an exclamation mark since its missing one Element. Note that by deleting the Element in the Constraint we did *not* delete it in the list. That is because in the constraint was only a link to the Element in the list. Now take the newly added Element in the \'Elements\' list and drag&drop it onto the \"Plane Coincident\" constraint. Now the cylider moves to the other face we selected. We might need to select \'context menu/flip part\' again if the cylinder is again inside the cube.
 
 The example showed that without removing the constraint we can change the Elements that are used for the constraint. The same way we can move the cylinder to a totally different part. After playing around with this example a bit more, you will note some additional things as

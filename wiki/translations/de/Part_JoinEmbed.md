@@ -1,32 +1,29 @@
 ---
 - GuiCommand:/de
-   Name/de:Part VerbindeEinbetten
-   MenuLocation:Part → Verbinden → Objekt einbinden
+   Name:Part JoinEmbed
+   Name/de:Part Einbetten
+   MenuLocation:Formteil → Verbinden → Objekt einbinden
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.16
-   SeeAlso:[Part VerbindeEinbetten](Part_JoinEmbed/de.md), [Part FügeAusschnitt](Part_JoinCutout.md), [Part Bool'sche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
+   SeeAlso:[Part Verbinden](Part_JoinConnect/de.md), [Part Ausschneiden](Part_JoinCutout/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
 # Part JoinEmbed/de
 
-
-</div>
-
 ## Beschreibung
 
-Embed tool embeds a walled object (e.g., a pipe) into another walled object.
+Das Werkzeug Einbetten Bettet einen Hohlkörper (z.B. ein Rohr) in einen anderen Hohlkörper ein.
 
 ![600px](images/JoinFeatures_Embed.png)
 
 ## Anwendung
 
-1.  Wähle zuerst das Basisobjekt, dann das Objekt, um den Ausschnitt zu definieren.
-    Die Reihenfolge der Auswahl ist wichtig. Es reicht aus, nur eine Teilform jedes Objekts (z.B. Flächen) auszuwählen.
-2.  Führe den Part-Objekt einbinden-Befehl aus.
+1.  Zuerst das Basisobjekt auswählen, dann das Objekt zum Einbetten. Die Reihenfolge der Auswahl ist wichtig. Es reicht aus, nur eine Teilform jedes Objekts (z.B. Flächen) auszuwählen.
+2.  Den Befehl **Part Einbetten** ausführen.
 
 A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objects are hidden, and the result of embedding is shown in 3D view.
 
-## Properties
+## Eigenschaften
 
 
 {{TitleProperty|Base}}
@@ -39,11 +36,6 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 
 -    **Refine**: Sets whether to apply [Refine](Part_RefineShape.md) operation or not, to the final shape. The default value is determined by a \'Automatically refine shape after boolean operation\' checkbox in PartDesign preferences. When Mode property is \'bypass\', Refine is ignored (never applied).
 
-## Example
-
-
-<div class="mw-translate-fuzzy">
-
 ## Beispiel
 
 1.  Erstelle ein Rohr durch anwenden einer [Dicke](Part_Thickness/de.md) auf einen [Zylinder](Part_Cylinder/de.md):
@@ -55,20 +47,9 @@ A Part JoinFeature object is created, with Mode set to \'Embed\'. Original objec
 4.  Benutze ein Querschnitt-Werkzeug ([Std Schnittebene](Std_ToggleClipPlane/de.md), [Arch Schnittebene](Arch_SectionPlane/de.md), [Arch SchneideEbene](Arch_CutPlane/de.md)), um Schnitte darzustellen. Auf dem folgenden Bild wurde Arch Schnittebene benutzt.
     ![320px](images/JoinFeatures_Example_step4_Embed.png)
 
-
-</div>
-
-## Algorithm
-
-
-<div class="mw-translate-fuzzy">
-
 ## Algorithmus
 
 Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es ist wichtig, sie zu verstehen, um die Werkzeuge richtig einzusetzen.
-
-
-</div>
 
 1\. Basisobjekt ist [boolesches Schneiden](Part_Cut/de.md) mit einem Tool-Objekt. Die entstandene Form ist ein Satz ([Verbund](Part_Compound/de.md)) von nicht überschneidenden Volumenkörpern (typischerweise zwei).
 
@@ -79,11 +60,6 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 3\. Falls **Refine** den Wert `True` hat, ist die entstandene Form [verfeinert](Part_RefineShape/de.md).
 ![800px](images/JoinFeatures-Algo-Embed.png)
 
-### Notes
-
-
-<div class="mw-translate-fuzzy">
-
 ### Hinweise
 
 -   Falls das Objekt nach Schritt 1 ein Stück bliebt, ist das Ergebnis des Ausschnitts äquivalent zu [booleschem Schneiden](Part_Cut/de.md) der Basis mit dem Werkzeug.
@@ -91,9 +67,6 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 -   Weil das größte Objekt durch Volumenvergleich der Teile festgelegt wird, kann das Werkzeug nur mit Volumenkörpern arbeiten. Da
 
 Because the largest piece is determined by comparing volumes of pieces, the tool can only work with solids. Dies könnte sich in der Zukunft ändern.
-
-
-</div>
 
 ## Skripten
 
@@ -116,15 +89,6 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
 Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/JoinFeatures.py}} ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

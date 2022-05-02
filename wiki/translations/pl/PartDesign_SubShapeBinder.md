@@ -16,94 +16,96 @@ Narzędzie **Łącznik kształtów podrzędnych** tworzy spoiwo kształtu odwoł
 
 Łącznik kształtów podrzędnych śledzi względne rozmieszczenie geometrii, do której się odwołuje, co jest przydatne w kontekście tworzenia [złożeń](Assembly/pl.md), ale oprócz tego ma również własne umiejscowienie.
 
-The referenced geometry can consist of one or multiple elements. Each element can be an individual object (for example a [PartDesign Body](PartDesign_Body.md)), a subobject (for example a [Part Box](Part_Box.md) inside a [Std Part](Std_Part.md), or a [sketch](PartDesign_NewSketch.md) or [Feature](PartDesign_Feature.md) inside a Body), or a subelement (a face, edge or vertex). Which geometry should be selected depends on the intended purpose of the SubShapeBinder. For a Boolean operation you would need to select a solid. For a [Pad operation](PartDesign_Pad.md) a face, a sketch or a planar wire can be used. And for the [external geometry](Sketcher_External.md) in a sketch, or to attach a sketch, any combination of subelements may be appropriate. Elements can belong to different parent objects, and can even belong to the Body the SubShapeBinder is nested in. Because a SubShapeBinder is [Link-based](Std_LinkMake.md) the referenced geometry can also belong to an external document.
+Geometria odniesienia może składać się z jednego lub wielu elementów. Każdy element może być pojedynczym obiektem *(na przykład [Zawartością](PartDesign_Body/pl.md))*, obiektem podrzędnym *(na przykład [prostopadłościanem](Part_Box/pl.md) wewnątrz obiektu [Części](Std_Part/pl.md) lub [szkicem](PartDesign_NewSketch/pl.md) lub [cechą](PartDesign_Feature/pl.md) wewnątrz bryły)* lub elementem podrzędnym *(ściana, krawędź lub wierzchołek)*. To, jaką geometrię należy wybrać, zależy od przeznaczenia Łącznika kształtów podrzędnych. W przypadku operacji typu logicznego należy wybrać bryłę. W przypadku operacji [wyciągnięcia](PartDesign_Pad/pl.md) można użyć ściany, szkicu lub polilinii planarnej. W przypadku [geometrii zewnętrznej](Sketcher_External/pl.md) w szkicu lub w celu dołączenia szkicu można użyć dowolnej kombinacji elementów podrzędnych. Elementy mogą należeć do różnych obiektów nadrzędnych, a nawet mogą należeć do bryły, w której zagnieżdżony jest Łącznik kształtów podrzędnych. Ponieważ Łącznik kształtów podrzędnych jest obiektem [bazującym na łączu](Std_LinkMake/pl.md), geometria, do której się odwołuje, może również należeć do zewnętrznego dokumentu.
 
 <img alt="" src=images/PartDesign_SubShapeBinder_example_1.png  style="width:" height="300px;"> <img alt="" src=images/PartDesign_SubShapeBinder_example_2.png  style="width:" height="300px;"> 
-*On the left two solids created in two separate [Bodies](PartDesign_Body.md).<br>
-On the right two SubShapeBinders referencing geometry from the first Body, nested in the second Body, and moved to a different position.*
+*Z lewej strony dwie bryły utworzone w dwóch oddzielnych [Zawartościach](PartDesign_Body/pl.md).<br>
+Z prawej strony dwie bryły Łącznika kształtów podrzędnych odwołujące się do geometrii z pierwszej bryły, zagnieżdżone w drugiej bryle i przesunięte w inne położenie.*
 
 <img alt="" src=images/PartDesign_SubShapeBinder_example_3.png  style="width:" height="300px;"> 
-*The two SubShapeBinders are used to create a [Boolean cut](PartDesign_Boolean.md) and a [Pad](PartDesign_Pad.md) in the second Body.*
+*Dwa obiekty Łącznik kształtu podrzędnego są używane do utworzenia obiektu [przecięcia logicznego](PartDesign_Boolean/pl.md) i [wyciągnięcia](PartDesign_Pad/pl.md) w drugim korpusie.*
 
 ## Użycie
 
-### Same document 
+### W tym samym dokumencie 
 
-1.  If there are multiple Bodies in the document: optionally [activate the Body](PartDesign_Body#Active_status.md) the SubShapeBinder should be nested in.
-2.  Select the required geometry. Subelements can only be selected in the [3D view](3D_view.md).
-3.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/PartDesign_SubShapeBinder.svg" width=16px> [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md)** button.
-    -   Select the **Part Design → <img src="images/PartDesign_SubShapeBinder.svg" width=16px> Create a sub-object(s) shape binder** option from the menu.
-4.  The SubShapeBinder is created.
-5.  If there is only one Body in the document the SubShapeBinder is automatically added to it and the Body is activated. If this is the case and the SubShapeBinder should not be nested, it can be dragged out of the Body and dropped onto the <img alt="" src=images/Document.svg  style="width:16px;"> document node in the [Tree view](Tree_view.md).
+1.  Jeśli w dokumencie jest wiele brył: opcjonalnie [aktywuj bryłę](PartDesign_Body/pl#Pojedyncza_ci.C4.85g.C5.82a_bry.C5.82a.md), w której ma być zagnieżdżony Łącznik kształtów podrzędnych.
+2.  Wybierz wymaganą geometrię. Elementy podrzędne można wybierać tylko w oknie [widoku 3D](3D_view/pl.md).
+3.  Narzędzie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/PartDesign_SubShapeBinder.svg" width=16px> [Łącznik kształtów podrzędnych](PartDesign_SubShapeBinder/pl.md)**.
 
-### External document 
+\#\* Wybierz z menu opcję **Projekt Części → <img src="images/PartDesign_SubShapeBinder.svg" width=16px> Utwórz łącznik kształtu obiektu podrzędnego**.
 
-1.  If required open the source document (the external document) and the target document. Both documents must have been saved at least once.
-2.  If there are multiple Bodies in the target document: optionally activate the Body the SubShapeBinder should be nested in.
-3.  Select the required geometry in the source document. Subelements can only be selected in the [3D view](3D_view.md).
-4.  Switch to the target document by clicking its tab in the [Main view area](Main_view_area.md).
-5.  Invoke the tool as described above.
+1.  Zostanie utworzony Łącznik kształtów podrzędnych.
+2.  Jeśli w dokumencie jest tylko jeden obiekt Zawartość, obiekt Łącznik kształtów podrzędnych jest do niego automatycznie dodawany, a Zawartość zostaje automatycznie aktywowana. Jeśli tak jest, a Łącznik kształtów podrzędnych nie powinien być zagnieżdżony, można go przeciągnąć z Zawartości i upuścić na węzeł dokumentu <img alt="" src=images/Document.svg  style="width:16px;"> w oknie [widoku drzewa](Tree_view/pl.md).
 
-### Start with empty SubShapeBinder 
+### W dokumencie zewnętrznym 
 
-1.  Follow the instructions described under [Same document](#Same_document.md) above but without selecting geometry.
-2.  An empty SubShapeBinder is created.
-3.  Select the required geometry. Subelements can only be selected in the [3D view](3D_view.md).
-4.  In the [Tree view](Tree_view.md) drag and drop the selection onto the SubShapeBinder. If you have selected subelements their parent objects are highlighted in the [Tree view](Tree_view.md), indicating the objects to be dragged.
-5.  Optionally add more geometry in the same manner.
-6.  To replace already referenced geometry hold down **Ctrl** during the drag and drop operation.
+1.  W razie potrzeby otwórz dokument źródłowy *(dokument zewnętrzny)* i dokument docelowy. Oba dokumenty muszą być zapisane co najmniej raz.
+2.  Jeśli w dokumencie docelowym jest wiele brył: opcjonalnie aktywuj bryłę, w której ma być zagnieżdżony Łącznik kształtów podrzędnych.
+3.  Wybierz żądaną geometrię w dokumencie źródłowym. Elementy podrzędne można wybrać tylko w oknie [widoku 3D](3D_view/pl.md).
+4.  Przełącz się do dokumentu docelowego, klikając jego kartę w [Głównym obszarze widoku](Main_view_area/pl.md).
+5.  Wywołaj narzędzie w sposób opisany powyżej.
+
+### Zacznij od pustego Łącznika kształtów podrzędnych 
+
+1.  Wykonaj instrukcje opisane w sekcji [W tym samym dokumencie](#W_tym_samym_dokumencie.md) powyżej, ale bez wybierania geometrii.
+2.  Zostanie utworzony pusty Łącznik kształtów podrzędnych.
+3.  Wybierz wymaganą geometrię. Elementy podrzędne można wybierać tylko w oknie [widoku 3D](3D_view/pl.md).
+4.  W oknie [widoku drzewa](Tree_view/pl.md) przeciągnij i upuść zaznaczenie do segregatora Łącznika kształtów podrzędnych. Jeśli zaznaczyłeś elementy podrzędne, ich obiekty nadrzędne są podświetlone w oknie [widoku drzewa](Tree_view/pl.md), wskazując obiekty, które należy przeciągnąć.
+5.  Opcjonalnie dodaj więcej geometrii w ten sam sposób.
+6.  Aby zastąpić już istniejącą geometrię, przytrzymaj klawisz **Ctrl** podczas operacji przeciągania i upuszczania.
 
 ## Uwagi
 
--   2D offsetting is supported for some shape types, included planar faces, edges and wires. Because offsetting is a difficult operation for the software it does not always succeed. <small>(v0.20)</small> 
--   A SubShapeBinder that is not nested in a Body can be used as the [Base Feature](PartDesign_Body#Base_Feature.md) for a new Body.
--   The **Support** property contains the links to the referenced geometry. The property is read only by default, but can be changed by following the instructions described under [Start with empty SubShapeBinder](#Start_with_empty_SubShapeBinder.md).
--   A SubShapeBinder created from a sketch can have an opposite \"tool direction\". For example a [Pad](PartDesign_Pad.md) created from the sketch may extend in the +Y direction, while a [Pad](PartDesign_Pad.md), with the same properties, created from the SubShapeBinder extends in the -Y direction. Toggling the **Reversed** property (or checkbox) will solve this.
+-   Odsunięcie 2D jest obsługiwane dla niektórych typów kształtów, w tym powierzchni płaskich, krawędzi i polilinii. Ponieważ odsunięcie jest trudną operacją dla programu, nie zawsze się udaje. {{Version/pl|0.20}}
+-   Łącznik kształtów podrzędnych, który nie jest zagnieżdżony w bryle, może zostać użyty jako [cecha podstawowa](PartDesign_Body/pl#W.C5.82a.C5.9Bciwo.C5.9B.C4.87_podstawowa.md) dla nowej Zawartości.
+-   Właściwość **Podparcie** zawiera odnośniki do geometrii, do której się odwołujemy. Domyślnie właściwość ta jest tylko do odczytu, ale można ją zmodyfikować, postępując zgodnie z instrukcjami opisanymi w sekcji [Zacznij od pustego Łącznika kształtów podrzędnych](#Zacznij_od_pustego_.C5.81.C4.85cznika_kszta.C5.82t.C3.B3w_podrz.C4.99dnych.md).
+-   Łącznik kształtów podrzędnych utworzony ze szkicu może mieć przeciwny \"kierunek narzędzia\". Na przykład [wyciągnięcie](PartDesign_Pad/pl.md) utworzone ze szkicu może rozciągać się w kierunku +Y, podczas gdy [wyciągnięcie](PartDesign_Pad/pl.md) o tych samych właściwościach utworzone z Łącznika kształtów podrzędnych rozciąga się w kierunku -Y. Przełączenie właściwości **Odwrócony** *(lub pola wyboru)* rozwiąże ten problem.
 
 ## Łącznik kształtu obiektu podrzędnego kontra łącznik kształtu 
 
-The PartDesign SubShapeBinder tool and the [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) tool are quite similar. Their names are somewhat confusing as both can reference whole objects and subelements.
+Narzędzie Łącznik kształtów podrzędnych środowiska pracy Projekt Części i narzędzie [Łącznik kształtu](PartDesign_ShapeBinder/pl.md) są dość podobne. Ich nazwy są nieco mylące, ponieważ oba mogą odwoływać się do całych obiektów i elementów podrzędnych.
 
-The main differences are:
+Główne różnice to:
 
--   Editing a PartDesign ShapeBinder is easier. Double-clicking the object in the [Tree view](Tree_view.md) will open a task panel.
--   A PartDesign ShapeBinder can either reference a single whole object, or subelements belong to a single parent object. A PartDesign SubShapeBinder does not have these restrictions.
--   Only PartDesign SubShapeBinders can reference geometry from an external file.
--   A PartDesign SubShapeBinder always tracks the relative placement of the referenced geometry. For a PartDesign ShapeBinder this behavior is optional through its **Trace Support** property.
--   Only PartDesign SubShapeBinders support 2D offsetting.
+-   Edycja obiektu Łącznik kształtu jest łatwiejsza. Dwukrotne kliknięcie na obiekt w oknie [Widok drzewa](Tree_view/pl.md) spowoduje otwarcie panelu zadań.
+-   Łącznik kształtu środowiska pracy Projekt Części może odwoływać się do pojedynczego całego obiektu lub elementów podrzędnych należących do pojedynczego obiektu nadrzędnego. Łącznik kształtów podrzędnych środowiska pracy Projekt Części nie ma tych ograniczeń.
+-   Tylko obiekty Łącznik kształtów podrzędnych środowiska pracy Projekt Części mogą odwoływać się do geometrii z pliku zewnętrznego.
+-   Łącznik kształtów podrzędnych środowiska pracy Projekt Części zawsze śledzi względne umiejscowienie geometrii, do której się odwołuje. Dla Łącznika kształtu to zachowanie jest opcjonalne poprzez jego właściwość **Śledź podparcie**.
+-   Tylko narzędzie Łącznik kształtów podrzędnych obsługuje odsunięcie 2D.
 
 ## Właściwości
 
-A PartDesign SubShapeBinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+Obiekt Łącznik kształtów podrzędnych środowiska Projekt Części wywodzi się z obiektu [Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada również następujące dodatkowe właściwości:
 
-### Data
+### Dane
 
 
 {{TitleProperty|Podstawowe}}
 
--    **Support|XLinkSubList**: support for the geometry.
+-    **Support|XLinkSubList**: podparcie geometrii.
 
--    **Fuse|Bool**: if it is `True` it will fuse the solid linked shapes.
+-    **Fuse|Bool**: jeśli parametr ma wartość {{TRUE/pl}}, to łączone kształty brył zostaną scalone.
 
--    **Make Face|Bool**: if it is `True` it will created a face for the linked wires.
+-    **Make Face|Bool**: jeśli parametr ma wartość {{TRUE/pl}}, to zostanie utworzona powierzchnia dla połączonych linii.
 
--    **Claim Children|PropertyBool**: if it is `True` it will claim the linked objects as children in the [tree view](Tree_view.md).
+-    **Claim Children|PropertyBool**: jeśli parametr ten ma wartość {{TRUE/pl}}, spowoduje, że połączone obiekty będą traktowane jako elementy podrzędne w oknie [widoku drzewa](Tree_view/pl.md).
 
--    **Relative|Bool**: if it is `True` it will enable relative sub-object linking.
+-    **Relative|Bool**: jeśli parametr będzie miał wartość {{TRUE/pl}}, to włączy względne łączenie elementów podrzędnych.
 
--    **Bind Mode|Enumeration**: binding mode, {{value|Synchronized}}, {{Value|Frozen}}, {{Value|Detached}}.
+-    **Bind Mode|Enumeration**: tryb wiązania, {{value|Synchronized}}, {{Value|Frozen}}, {{Value|Detached}}.
 
--    **Partial Load|Bool**: if it is `True` it will enable partial loading of the objects.
+-    **Partial Load|Bool**: jeśli parametr przyjmie wartość {{TRUE/pl}}, umożliwi to częściowe ładowanie obiektów.
 
--    **Context|XLink|hidden**: container object of this binder object.
+-    **Context|XLink|hidden**: obiekt kontenerowy tego obiektu wiążącego.
 
 -    **Bind Copy On Change|Enumeration**
     
 
--    **Refine|Bool**: if `True` redundant edges will be removed (for example after a boolean operation). <small>(v0.20)</small> 
+-    **Refine|Bool**: jeśli parametr przyjmie wartość {{TRUE/pl}}, to nadmiarowe krawędzie zostaną usunięte *(na przykład po operacji logicznej)*. {{Version/pl|0.20}}
 
--    **_ Version|Integer|hidden**: version of this type of object.
+-    **_ Version|Integer|hidden**: wersja obiektu tego typu.
 
 -    **_ Copied Link|XLinkSub|hidden**
     
@@ -111,20 +113,20 @@ A PartDesign SubShapeBinder object is derived from a [Part Feature](Part_Feature
 
 {{TitleProperty|Cache}}
 
--    **Body|Matrix|hidden**: unity matrix of this object.
+-    **Body|Matrix|ukryte**: macierz jednorodności tego obiektu.
 
 
-{{TitleProperty|Offsetting}}
+{{TitleProperty|Wyrównanie}}
 
--    **Offset**: 2D offset to apply. If Offset = 0, then no offset is applied. If Offset \< 0, then the offset is applied inward. <small>(v0.20)</small> 
+-    **Offset**: Odsunięcie 2D, które ma być zastosowane. Jeśli wartość odsunięcia = 0, nie zostanie zastosowane żadne odsunięcie. Jeśli wartość odsunięcia \< 0, wówczas odsunięcie jest stosowane do wewnątrz. {{Version/pl|0.20}}
 
--    **Offset Join Type**: Join method of offsetting non-tangent joints. The method can be {{Value|Arcs}}, {{Value|Tangent}} or {{Value|Intersection}}. <small>(v0.20)</small> 
+-    **Offset Join Type**: Metoda dołączania dotycząca odsunięcia połączeń niestycznych. Metodą może być {{Value|Arcs}}, {{Value|Tangent}} lub {{Value|Intersection}}. {{Version/pl|0.20}}
 
--    **Offset Fill|Bool**: If `True`, a face is made between the new wire and the original wire. See also the **Make Face** property. <small>(v0.20)</small> 
+-    **Offset Fill|Bool**: Jeśli parametr ten zostanie ustawiony na wartość `True`, pomiędzy nową i oryginalną linią zostanie utworzona ściana. Zobacz także właściwość **Make Face**. {{Version/pl|0.20}}
 
--    **Offset Open Result|Bool**: Affects the way open wires are processed. If `False`, an open wire is made. If `True`, a closed wire is made from a double-sided offset, with rounds around open vertices. <small>(v0.20)</small> 
+-    **Offset Open Result|Bool**: Wpływa na sposób przetwarzania otwartych polilinii. Jeśli parametr zostanie ustawiony na wartość `False`, zostanie utworzona otwarta polilinia. Jeśli {{TRUE/pl}}, powstanie zamknięta polilinia z dwustronnego odsunięcia, z zaokrągleniami wokół otwartych wierzchołków. {{Version/pl|0.20}}
 
--    **Offset Intersection|Bool**: Affects the way compounds are processed. If `False`, all children are processed independently. If `True`, and children are edges and wires, the children are offset in a collective manner. <small>(v0.20)</small> 
+-    **Offset Intersection|Bool**: Wpływa na sposób przetwarzania złożeń. Jeśli parametr ten zostanie ustawiony na wartość {{FALSE/pl}}, wszystkie elementy potomne są przetwarzane niezależnie. Jeśli {{TRUE/pl}}, a elementami potomnymi są krawędzie i polilinie, są one odsuwane w sposób zbiorczy. {{Version/pl|0.20}}
 
 ## Odnośniki internetowe 
 

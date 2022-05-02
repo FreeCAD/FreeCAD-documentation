@@ -1,33 +1,34 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Path Area Workplane
-   MenuLocation:Path → Area workplane
-   Workbenches:[Path](Path_Workbench.md)
+   Name/pl:Path: Obszar płaszczyzny roboczej
+   MenuLocation:Path → Obszar płaszczyzny roboczej
+   Workbenches:[Path](Path_Workbench/pl.md)
 ---
 
 # Path Area Workplane/pl
 
 ## Opis
 
-Empty
+Pusto
 
 ## Użycie
 
-Empty
+Pusto
 
 ## Opcje
 
-Empty
+Pusto
 
 ## Właściwości
 
 ### Dane
 
-Empty
+Pusto
 
 ### Widok
 
-Empty
+Pusto
 
 ## Tworzenie skryptów 
 

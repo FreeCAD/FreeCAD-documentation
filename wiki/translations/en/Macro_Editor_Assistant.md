@@ -4,8 +4,8 @@
 |Icon=Editor_Assistant_Icon.svg
 |Description=Extend functionality of FreeCAD's integrated Python editor
 |Author=TheMarkster
-|Version=1.90b
-|Date=2022-04-11
+|Version=1.91
+|Date=2022-04-19
 |FCVersion=Python 3 versions
 |Download=[https://wiki.freecadweb.org/File:Editor_Assistant_Icon.svg ToolBar Icon]
 |SeeAlso=
@@ -30,7 +30,7 @@ Full documentation can be found on GitHub: [Editor Assistant](https://github.com
 ## Legend
 
 
-{{Codeextralink|https://gist.github.com/mwganson/20475dad57d9b659190f082d20e3bde6/raw/75de2c656e8dd8ef71e17c9eb738bafdeaf7aca8/Editor_Assistant.FCMacro|Editor_Assistant.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/20475dad57d9b659190f082d20e3bde6/raw/36b9e890ef920b5c8b81bde825d4dc48a32e704c/Editor_Assistant.FCMacro|Editor_Assistant.FCMacro}}
 
 ToolBar Icon ![](images/Editor_Assistant_Icon.svg )
 

@@ -5,8 +5,8 @@ This category lists templates that create navigation elements.
 
 |     |     |     |
 | --- | --- | --- |
-| [Template:Document objects navi/it](wiki/Template_Document objects navi/it.md) | [Template:EM Tools navi/it](wiki/Template_EM Tools navi/it.md) | [Template:Ship Tools navi/it](wiki/Template_Ship Tools navi/it.md) |
-| [Template:TechDraw Tools navi/it](wiki/Template_TechDraw Tools navi/it.md) |
+| [Template:Document objects navi/it](wiki/Template_Document objects navi/it.md) | [Template:EM Tools navi/it](wiki/Template_EM Tools navi/it.md) | [Template:TechDraw Tools navi/it](wiki/Template_TechDraw Tools navi/it.md) |
+|
 
 
 

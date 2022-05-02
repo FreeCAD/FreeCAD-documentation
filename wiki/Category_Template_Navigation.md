@@ -11,11 +11,10 @@ This category lists templates that create navigation elements.
 | [Template:Mesh Tools navi](wiki/Template_Mesh Tools navi.md) | [Template:Navigation menu 2](wiki/Template_Navigation menu 2.md) | [Template:OpenSCAD Tools navi](wiki/Template_OpenSCAD Tools navi.md) |
 | [Template:Part Tools navi](wiki/Template_Part Tools navi.md) | [Template:PartDesign Tools navi](wiki/Template_PartDesign Tools navi.md) | [Template:Path Tools navi](wiki/Template_Path Tools navi.md) |
 | [Template:Plot Tools navi](wiki/Template_Plot Tools navi.md) | [Template:Points Tools navi](wiki/Template_Points Tools navi.md) | [Template:Powerdocnavi](wiki/Template_Powerdocnavi.md) |
-| [Template:Raytracing Tools navi](wiki/Template_Raytracing Tools navi.md) | [Template:Robot Tools navi](wiki/Template_Robot Tools navi.md) | [Template:Ship Tools navi](wiki/Template_Ship Tools navi.md) |
-| [Template:Sketcher Tools navi](wiki/Template_Sketcher Tools navi.md) | [Template:Spreadsheet Tools navi](wiki/Template_Spreadsheet Tools navi.md) | [Template:Start Tools navi](wiki/Template_Start Tools navi.md) |
-| [Template:Std Base navi](wiki/Template_Std Base navi.md) | [Template:Surface Tools navi](wiki/Template_Surface Tools navi.md) | [Template:TechDraw Tools navi](wiki/Template_TechDraw Tools navi.md) |
-| [Template:Top](wiki/Template_Top.md) | [Template:Tutorials navi](wiki/Template_Tutorials navi.md) | [Template:Userdocnavi](wiki/Template_Userdocnavi.md) |
-|
+| [Template:Raytracing Tools navi](wiki/Template_Raytracing Tools navi.md) | [Template:Robot Tools navi](wiki/Template_Robot Tools navi.md) | [Template:Sketcher Tools navi](wiki/Template_Sketcher Tools navi.md) |
+| [Template:Spreadsheet Tools navi](wiki/Template_Spreadsheet Tools navi.md) | [Template:Start Tools navi](wiki/Template_Start Tools navi.md) | [Template:Std Base navi](wiki/Template_Std Base navi.md) |
+| [Template:Surface Tools navi](wiki/Template_Surface Tools navi.md) | [Template:TechDraw Tools navi](wiki/Template_TechDraw Tools navi.md) | [Template:Top](wiki/Template_Top.md) |
+| [Template:Tutorials navi](wiki/Template_Tutorials navi.md) | [Template:Userdocnavi](wiki/Template_Userdocnavi.md) |
 
 
 

@@ -24,18 +24,18 @@ This category contains articles and categories about wiki administrative subject
 | [Template:Points Tools navi](wiki/Template_Points Tools navi.md) | [Template:Powerdocnavi](wiki/Template_Powerdocnavi.md) | [Template:Properties Title](wiki/Template_Properties Title.md) |
 | [Template:Properties Title/pl](wiki/Template_Properties Title/pl.md) | [Template:PropertyData](wiki/Template_PropertyData.md) | [Template:PropertyTasks](wiki/Template_PropertyTasks.md) |
 | [Template:PropertyView](wiki/Template_PropertyView.md) | [Template:Raytracing Tools navi](wiki/Template_Raytracing Tools navi.md) | [Release process](wiki/Release process.md) |
-| [Template:Robot Tools navi](wiki/Template_Robot Tools navi.md) | [Template:Ship Tools navi](wiki/Template_Ship Tools navi.md) | [Template:Sketcher Tools navi](wiki/Template_Sketcher Tools navi.md) |
-| [Template:Spreadsheet Tools navi](wiki/Template_Spreadsheet Tools navi.md) | [Template:Start Tools navi](wiki/Template_Start Tools navi.md) | [Template:Std Base navi](wiki/Template_Std Base navi.md) |
-| [Template:StdMenu](wiki/Template_StdMenu.md) | [Template:Surface Tools navi](wiki/Template_Surface Tools navi.md) | [Template:SystemInput](wiki/Template_SystemInput.md) |
-| [Template:SystemOutput](wiki/Template_SystemOutput.md) | [Template:TasksTag](wiki/Template_TasksTag.md) | [Template:TechDraw Tools navi](wiki/Template_TechDraw Tools navi.md) |
-| [Template:TitleTasks](wiki/Template_TitleTasks.md) | [Template:Top](wiki/Template_Top.md) | [Tracker](wiki/Tracker.md) |
-| [Template:TRUE](wiki/Template_TRUE.md) | [Template:True](wiki/Template_True.md) | [Template:TRUE/pl](wiki/Template_TRUE/pl.md) |
-| [Template:True/pl](wiki/Template_True/pl.md) | [Template:Tutorials navi](wiki/Template_Tutorials navi.md) | [Template:UnfinishedDocu](wiki/Template_UnfinishedDocu.md) |
-| [Template:URL](wiki/Template_URL.md) | [Template:URLn](wiki/Template_URLn.md) | [Template:Userdocnavi](wiki/Template_Userdocnavi.md) |
-| [Template:Value](wiki/Template_Value.md) | [Template:Variable](wiki/Template_Variable.md) | [Template:VeryImportantMessage](wiki/Template_VeryImportantMessage.md) |
-| [WikiPages](wiki/WikiPages.md) | [WikiRobots](wiki/WikiRobots.md) | [Category:Disambiguation](wiki/Category_Disambiguation.md) |
-| [Category:HouseKeeping](wiki/Category_HouseKeeping.md) | [Category:Pages to delete](wiki/Category_Pages to delete.md) | [Category:UnfinishedDocu](wiki/Category_UnfinishedDocu.md) |
-| [Category:Wiki](wiki/Category_Wiki.md) | [Category:Work in progress](wiki/Category_Work in progress.md) |
+| [Template:Robot Tools navi](wiki/Template_Robot Tools navi.md) | [Template:Sketcher Tools navi](wiki/Template_Sketcher Tools navi.md) | [Template:Spreadsheet Tools navi](wiki/Template_Spreadsheet Tools navi.md) |
+| [Template:Start Tools navi](wiki/Template_Start Tools navi.md) | [Template:Std Base navi](wiki/Template_Std Base navi.md) | [Template:StdMenu](wiki/Template_StdMenu.md) |
+| [Template:Surface Tools navi](wiki/Template_Surface Tools navi.md) | [Template:SystemInput](wiki/Template_SystemInput.md) | [Template:SystemOutput](wiki/Template_SystemOutput.md) |
+| [Template:TasksTag](wiki/Template_TasksTag.md) | [Template:TechDraw Tools navi](wiki/Template_TechDraw Tools navi.md) | [Template:TitleTasks](wiki/Template_TitleTasks.md) |
+| [Template:Top](wiki/Template_Top.md) | [Tracker](wiki/Tracker.md) | [Template:TRUE](wiki/Template_TRUE.md) |
+| [Template:True](wiki/Template_True.md) | [Template:TRUE/pl](wiki/Template_TRUE/pl.md) | [Template:True/pl](wiki/Template_True/pl.md) |
+| [Template:Tutorials navi](wiki/Template_Tutorials navi.md) | [Template:UnfinishedDocu](wiki/Template_UnfinishedDocu.md) | [Template:URL](wiki/Template_URL.md) |
+| [Template:URLn](wiki/Template_URLn.md) | [Template:Userdocnavi](wiki/Template_Userdocnavi.md) | [Template:Value](wiki/Template_Value.md) |
+| [Template:Variable](wiki/Template_Variable.md) | [Template:VeryImportantMessage](wiki/Template_VeryImportantMessage.md) | [WikiPages](wiki/WikiPages.md) |
+| [WikiRobots](wiki/WikiRobots.md) | [Category:Disambiguation](wiki/Category_Disambiguation.md) | [Category:HouseKeeping](wiki/Category_HouseKeeping.md) |
+| [Category:Pages to delete](wiki/Category_Pages to delete.md) | [Category:UnfinishedDocu](wiki/Category_UnfinishedDocu.md) | [Category:Wiki](wiki/Category_Wiki.md) |
+| [Category:Work in progress](wiki/Category_Work in progress.md) |
 
 
 

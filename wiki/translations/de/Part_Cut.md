@@ -1,17 +1,17 @@
 ---
 - GuiCommand:/de
    Name:Part Cut
-   Name/de:Part Schnitt
-   MenuLocation:Formteil → Boolesche Operationen → Schneiden
+   Name/de:Part Differenz
+   MenuLocation:Formteil → Boolesche Operationen → Differenz
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Boolesche Operation](Part_Boolean/de.md), [Part Verschmelzung](Part_Fuse/de.md), [Part Schnittmenge](Part_Common/de.md)
+   SeeAlso:[Part Boolesche Operation](Part_Boolean/de.md), [Part Vereinigung](Part_Fuse/de.md), [Part Schnitt](Part_Common/de.md)
 ---
 
 # Part Cut/de
 
 ## Beschreibung
 
-Schneidet (subtrahiert) ausgewählte Teileobjekte, wobei das letzte vom ersten subtrahiert wird. Diese Operation ist voll parametrisch und die Komponenten können modifiziert und das Ergebnis neu berechnet werden.
+Beschneidet ausgewählte Part-Objekte, wobei das letzte vom ersten abgezogen (subtrahiert) wird. Diese Operation ist voll parametrisch und die Komponenten können modifiziert und das Ergebnis neu berechnet werden.
 
 **Hinweis:** Dieser Befehl ist eine automatisierte Form des <img alt="" src=images/Part_Booleans.svg  style="width:24px;"> [Boolesche Operation](Part_Boolean/de.md).
 

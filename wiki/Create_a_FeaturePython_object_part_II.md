@@ -168,12 +168,6 @@ class ViewProviderBox:
         Called during document restore.
         """
         return None
-
-    def claimChildren(self):
-        """
-        Return a list of objects which will appear as children in the tree view.
-        """
-        return None
 ```
 
 In the code above, we define an XMP icon for this object. Icon design is beyond the scope of this tutorial, but basic design can be managed using open source tools like [GIMP](https://www.gimp.org), [Krita](https://krita.org/en/), and [Inkscape](https://inkscape.org/). The `getIcon()` method is optional, FreeCAD will use a default icon if this method is not provided.

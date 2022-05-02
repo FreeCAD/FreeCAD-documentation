@@ -48,24 +48,18 @@ Se tiver alguma informação que gostaria que aparecesse aqui, porque não contr
 
 ### Introdução
 
-
-<div class="mw-translate-fuzzy">
-
--   [Acerca do FreeCAD](About_FreeCAD/pt.md): Uma visão global do FreeCAD
+-   [Acerca do FreeCAD](About_FreeCAD/pt.md): Uma visão geral do FreeCAD
 -   [Instalação do FreeCAD](Installing/pt.md): Como instalar o FreeCAD no [Instalação em Windows\|Windows](Install_on_Windows/pt.md) e no [Instalação em Linux\|Linux](Install_on_Unix/pt.md)
 -   [Primeiros passos](Getting_started/pt.md): Uma visão geral das ferramentas disponíveis
 -   [FAQ](Frequently_asked_questions/pt.md): Perguntas frequentes
 
+#### Migrando de outro software? 
 
-</div>
-
-#### Migrating from other software? 
-
--   [Workarounds](Workarounds.md)
--   [Migrating to FreeCAD from Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
--   [Migrating to FreeCAD from OnShape](Migrating_to_FreeCAD_from_OnShape.md)
--   [Migrating to FreeCAD from SolidWorks](Migrating_to_FreeCAD_from_SolidWorks.md)
--   [Migrating to FreeCAD from Revit](Migrating_to_FreeCAD_from_Revit.md)
+-   [Funções alternativas](Workarounds.md)
+-   [Migrar para o FreeCAD do Fusion360](Migrating_to_FreeCAD_from_Fusion360.md)
+-   [Migrar para o FreeCAD do OnShape](Migrating_to_FreeCAD_from_OnShape.md)
+-   [Migrar para o FreeCAD do SolidWorks](Migrating_to_FreeCAD_from_SolidWorks.md)
+-   [Migrar para o FreeCAD do Revit](Migrating_to_FreeCAD_from_Revit.md)
 -   [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)
 -   [BIM applications compatibility table](BIM_application_compatibility_table.md)
 

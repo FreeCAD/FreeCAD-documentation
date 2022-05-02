@@ -200,11 +200,6 @@ D\'autre part, le bateau dans cette mauvaise condition a des valeurs positives *
 Bien entendu, cet exemple n'est pas réel (d'abord, tous les réservoirs de carburant ne peuvent pas être placés dans la structure à double fond ni dans le côté de la coque), mais constituent un bon exemple pour apprendre à utiliser l\'[atelier Ship](Ship_Workbench/fr.md) .
 
 
-{{Ship Tools navi
-
-}}
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/fr

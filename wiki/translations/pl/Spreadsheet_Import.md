@@ -1,26 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Spreadsheet Import
-   MenuLocation:Spreadsheet → Import spreadsheet
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
+   Name/pl:Arkusz Kalkulacyjny: Importuj
+   MenuLocation:Arkusz Kalkulacyjny → Importuj
+   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Spreadsheet Export](Spreadsheet_Export.md)
+   SeeAlso:[Eksportuj](Spreadsheet_Export/pl.md)
 ---
 
 # Spreadsheet Import/pl
 
-## Description
+## Opis
 
-The **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadsheet Import](Spreadsheet_Import.md)** tool allows you to import a CSV file into a spreadsheet so that it can be modified and used with [expressions](expressions.md). Note that the {{Value|tab}} character, and not the {{Value|comma}}, is the default field delimiter. But this can be changed in the [Spreadsheet Preferences](Spreadsheet_Preferences.md) (<small>(v0.20)</small> ).
+Narzędzie **[<img src=images/Spreadsheet_Import.svg style="width:16px">  [Importuj](Spreadsheet_Import/pl.md)** pozwala zaimportować plik CSV do arkusza kalkulacyjnego, aby można go było modyfikować i używać [wyrażeń](Expressions/pl.md). Zwróć uwagę, że domyślnym separatorem pól jest znak {{Incode|tabulacji}}, a nie {{Incode|przecinek}}. Można to jednak zmienić w [ustawieniach](Spreadsheet_Preferences/pl.md). *({{Version/pl|0.20}})*
 
-## Usage
+## Użycie
 
-1.  Press the **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Spreadsheet Import](Spreadsheet_Import.md)** button.
-2.  Choose the right CSV file.
+1.  Naciśnij przycisk na **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Impotruj](Spreadsheet_Import/pl.md)** pasku narzędzi.
+2.  Wybierz prawidłowy plik w formacie **CSV**.
 
-## Notes
+## Uwagi
 
--   Use the [Std Import](Std_Import.md) command to import Excel {{FileName|*.xlsx}} files.
+Aby wykonac import pliku Excel {{FileName|*.xlsx}} należy posłużyć się poleceniem [Importuj](Std_Import/pl.md).
 
 
 

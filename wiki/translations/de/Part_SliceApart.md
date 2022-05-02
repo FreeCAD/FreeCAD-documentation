@@ -1,17 +1,14 @@
 ---
 - GuiCommand:/de
    Name:Part SliceApart
-   Name/de:Part AuseinanderSchneiden
-   MenuLocation:Formteil → Teilen → Auseinander Kappen
+   Name/de:Part Auseinanderschneiden
+   MenuLocation:Formteil → Teilen → Auseinanderschneiden
    Version:0.18.15506
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Kappen zu Verbund](Part_Slice/de.md), [Part Verbund Sprengen](Part_ExplodeCompound/de.md)
+   SeeAlso:[Part Teilen zu einem Verbund](Part_Slice/de.md), [Part Verbund Sprengen](Part_ExplodeCompound/de.md)
 ---
 
 # Part SliceApart/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -21,15 +18,15 @@ Werkzeug zum zerteilen von Formen durch Überschneiden mit anderen Formen. Beisp
 
 *Oben: Die Stücke wurden anschließend manuell auseinandergeschoben, um das Zerschneiden sichtbar zu machen.*
 
-[Auseinander Schneiden](Part_SliceApart/de.md) ist dasselbe wie <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Formteil zerschneiden](Part_Slice/de.md), gefolgt von <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Formteil Sprenge Verbund](Part_ExplodeCompound/de.md). Während \"Zerschneiden zu Verbund\" vollparametrisch ist und keine Probleme verursacht, wenn sich die Anzahl der Teile ändern, \"Auseinander Schneiden\" aktualisiert nicht die Anzahl der Objekte, wenn sich die Anzahl der Stücke ändert. Beide erzeugen ein parametrisches Scheiben Formelement, das die geschnittenen Teile in einen Verbund bringt, aber \"Auseinander Schneiden\" sprengt den resultierenden Verbund in separate Objekte.
+[Auseinanderschneiden](Part_SliceApart/de.md) ist dasselbe wie <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Zerschneiden](Part_Slice/de.md), gefolgt von <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Verbund sprengen](Part_ExplodeCompound/de.md). Während \"Zerschneiden\" vollparametrisch ist und keine Probleme verursacht, wenn sich die Anzahl der Teile ändert, aktualisiert \"Auseinanderschneiden\" die Anzahl der Objekte nicht, wenn sich die Anzahl der Teile ändert. Beide erzeugen ein parametrisches Scheiben Formelement, das die geschnittenen Teile in einen Verbund bringt, aber \"Auseinander Schneiden\" sprengt den resultierenden Verbund in separate Objekte.
 
 Die Ausgabeform nimmt den gleichen Platz ein wie das Original. Sie wird jedoch dort wo andere Formen überschnitten werden, zerteilt. Die zerteilten Teile sind einzelne Stücke.
 
 Bitte besuche die [Formteil Zerschneiden](Part_Slice/de.md) Seite für weitere Informationen.
 
-### Baumstruktur von Auseinander Schneiden 
+### Baumstruktur von Auseinanderschneiden 
 
-Der Befehl Auseinander Schneiden erzeugt mehr als nur das geschnittene Objekt. Im folgenden Beispiel wird ein Würfel durch eine Fläche geschnitten.
+Der Befehl Auseinanderschneiden erzeugt mehr als nur das geschnittene Objekt. Im folgenden Beispiel wird ein Würfel durch eine Fläche geschnitten.
 
 Die Scheibe wird erstellt und für jedes Stück davon wird ein [Part VerbundFilter](Part_CompoundFilter/de.md) erstellt, so dass dieselbe Scheibe mehrfach unter jedem VerbundFilter auftritt. Alle diese VerbundFilter sind in einem Verbund zusammengefasst.
 
@@ -64,22 +61,13 @@ Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/BOPT
 
 ## Hinweise
 
-Auseinander Schneiden wurde in FreeCAD v0.18.15506 eingeführt. FreeCAD muss mit OCC 6.9.0 oder später kompiliert werden. Andernfalls ist das Werkzeug nicht verfügbar.
+Auseinanderschneiden wurde in FreeCAD v0.18.15506 eingeführt. FreeCAD muss mit OCC 6.9.0 oder später kompiliert werden. Andernfalls ist das Werkzeug nicht verfügbar.
 
 ## Videotutorien
 
 -   <https://www.youtube.com/watch?v=tzHkQaHgrfQ> : FreeCad 0.18 PART WB using SLICE and SLICE APART (Englisch), Autor: Ha Gei
 
 -   <https://www.youtube.com/watch?v=JJAL5JmqqKQ> : FreeCAD Slice und Slice Apart und andere Tricks (Deutsch), Autor: Ha Gei
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

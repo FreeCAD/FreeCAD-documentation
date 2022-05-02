@@ -48,6 +48,13 @@ Vous pouvez ensuite consulter le fichier et le comparer à la sortie des postpro
 
 Pour un format de fichier {{FileName|<filename>}}, le postprocesseur doit obtenir le nom {{FileName|<filename>_post.py}}. Veuillez noter que le postfix et l\'extension, {{FileName|_post.py}}, doivent être en minuscules.
 
+The new name should be reflected at the head of the parser arguments list in the {{FileName|<filename>_post.py}} file, e.g.:
+
+
+{{Code|lang=text|code=
+parser = argparse.ArgumentParser(prog="grbl", add_help=False)
+}}
+
 Si vous testez, placez-le dans votre répertoire de macros. S\'il fonctionne bien, veuillez envisager de le fournir pour que d\'autres en profitent (postez-le sur le forum Path de FreeCAD) afin qu\'il puisse être inclus dans la distribution de FreeCAD à l\'avenir.
 
 ## Autres post-processeurs existants 

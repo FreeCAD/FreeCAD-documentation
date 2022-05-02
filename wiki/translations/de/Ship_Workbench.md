@@ -17,11 +17,17 @@ Der FreeCAD <img alt="" src=images/Workbench_Ship.svg  style="width:32px;">[Arbe
 
 ### Schiffskonstruktion
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="Schiffsgeometriebeispiele Lader" src=images/Ship_Load.svg  style="width:32px;"> [ Beispielschiffsgeometrien Lader](Ship_Geometries_Examples/de.md)
 -   <img alt="Schiffsinstanz Erstellungswekzeug" src=images/Ship_Logo.svg  style="width:32px;"> [Schiffsinstanz Erstellung](Ship_New/de.md)
 -   <img alt="Schiffslinien Zeichnungswerkzeug" src=images/Ship_OutlineDraw.svg  style="width:32px;"> [Linienzeichnung](Ship_Outline/de.md)
 -   <img alt="Querschnittsflächenkurven Werkzeug" src=images/FreeCAD-Ship-AreaCurveIco.png  style="width:32px;"> [Flächenkurve](Ship_Area/de.md)
 -   <img alt="Hydrostatik Werkzeugsymbol" src=images/Ship_Hydrostatics.png  style="width:32px;"> [Hydrostatik](Ship_Hydrostatics/de.md)
+
+
+</div>
 
 ### Gewichte
 
@@ -59,11 +65,6 @@ Der Arbeitsbereich Schiff wurde seit v0.17 nicht mehr gewartet, ist aber in v0.1
 -   Diskussion: <https://forum.freecadweb.org/viewtopic.php?f=8&t=60885>
 
 
-{{Ship Tools navi
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Ship](Category_Ship.md) > Ship Workbench/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Ship](Category_Ship.md) > Ship Workbench/de

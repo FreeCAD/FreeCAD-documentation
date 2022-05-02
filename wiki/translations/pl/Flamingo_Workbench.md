@@ -1,50 +1,48 @@
 # Flamingo Workbench/pl
-**Flamingo Workbench (Python2/Qt4) has been superseded by the Dodo Workbench (Python3/Qt5). This wiki page will highlight the differences between these two workbenches. Currently [Dodo Workbench](Dodo_Workbench.md) links here.**
+**Środowisko pracy Flamingo (Python2/Qt4) zostało zastąpione przez środowisko pracy Dodo (Python3/Qt5). Ta strona wiki przedstawia różnice między tymi dwoma środowiskami. Obecnie [środowisko pracy Dodo](Dodo_Workbench/pl.md) odnosi się do tej strony.**
 
 ## Wprowadzenie
 
-This is a set of customized FreeCAD commands and objects that help to speed-up the drawing of frames and pipelines, mainly.
+Jest to zestaw dostosowanych poleceń i obiektów programu FreeCAD, które pomagają przyspieszyć rysowanie ram i rurociągów.
 
 
 
-:   \"*Flamingo*\" workbench is dedicated for versions using Python \>2.7 syntax and Qt4 toolkit.
+:   \"**Flamingo** jest przeznaczony dla wersji używających środowiska Python \> 2.7 i zestawu narzędzi Qt4.
 
 
 
 
 
-:   \"*Dodo*\" workbench is for Python \>3.6 and Qt5.
+:   \"**Dodo** jest przeznaczony dla wersji używających środowiska Python \> 3.6 i zestawu narzędzi Qt5.
 
 
 
-For convenience Flamingo/Dodo tools are grouped in three toolbars/menus + one utility set.
+Dla wygody narzędzia Flamingo / Dodo są pogrupowane w trzy paski narzędziowe/menu + jeden zestaw narzędzi.
 
 ![](images/flamingoBlob.png )
 
 ![](images/dodoBlob.png )
 
-:\* **Frame tools**: that is aimed to arrange frames, trusses and similar in FreeCAD using the Structure objects of Arch module. \.../flamingo/tutorials/tutorialFrame.pdf
+-   **Narzędzia ram**: służą do rozmieszczania ram, kratownic i podobnych elementów w programie FreeCAD przy użyciu obiektów Konstrukcji modułu Arch. \.../flamingo/tutorial/tutorialFrame.pdf
+-   **Narzędzia rur**: to logiczna kontynuacja narzędzia ram, ponieważ zajmuje się tworzeniem rurociągów i konstrukcji rurowych. Posiada również własne klasy Python do tworzenia obiektów rurociągów, takich jak rury, kolanka, kołnierze itp. \.../flamingo/tutorials/tutorialPype2.pdf
+-   **Narzędzia Eagle**: to w zasadzie dodatek i skrót do bardzo profesjonalnego programu [FreeCAD-PCB](https://github.com/marmni/FreeCAD-PCB) *(dostępnego także w repozytorium dodatków programu FreeCAD)* do importowania pozycji obiektów z pliku .brd programu Eagle na płytce drukowanej narysowanej w programie FreeCAD za pomocą programu a.m., odnoszący się tylko do ich nazw. Jest to także początek, a właściwie nazwa całego środowiska pracy. \.../flamingo/tutorial/tutorialEagle.pdf
 
-:\* **Pype tools**: that\'s the logical continuation of frame tool since it deals with creating pipelines and tubular structures. It also features its own Python classes to create the piping objects, such as tubes, elbows, flanges etc. \.../flamingo/tutorials/tutorialPype2.pdf
+:\* Pasek narzędzi **Przybory** umożliwia wyszukiwanie obiektów w modelu i ich odległości, przesuwanie / obracanie płaszczyzny roboczej oraz mały hack okna dialogowego [Linia łamana](Draft_Wire/pl.md) środowiska Rysunek Roboczy, który pozwala na zmianę położenia płaszczyzny roboczej w locie.
 
-:\* **Eagle tools**: that\'s basically an addition, and shortcut, to the very professional [FreeCAD-PCB](https://github.com/marmni/FreeCAD-PCB) workbench (also available in the FreeCAD\'s add-on repository) to import position of objects from a .brd Eagle\'s file on a PCB drawn in FreeCAD with the a.m. workbench relating only on their names. It\'s also the origin, by extension, of the name of the entire workbench. \.../flamingo/tutorials/tutorialEagle.pdf
+## Bibliografia
 
-:\* **Utils** toolbar provides some functionality to query the objects in the model and their distance, to move/rotate the work plane and a little hack of the [Draft Wire](Draft_Wire.md) creation dialog, which allow to change the work plane position on-the-fly.
-
-## References
-
--   Author: oddtopus
--   Source code on github:
+-   Autor: oddtopus
+-   Kod źródłowy na platformie GitHub:
 
 <https://github.com/oddtopus/flamingo>
 
 <https://github.com/oddtopus/dodo>
 
-## Installation
+## Instalacja
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
+To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md). Aby zainstalować je samodzielnie zobacz stronę [Instalacja zewnętrznych środowisk pracy](Installing_more_workbenches/pl.md).
 
-## Frame Tools 
+## Narzędzia do ram 
 
 
 <div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
@@ -55,66 +53,66 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For m
 </div>
 
 
-:   1\) Place one-beam over one-edge (class frameIt)
+:   1\) Umieść jedną belkę na jednej krawędzi *(klasa frameIt)*
 
-Given a beam object and an edge in the model, this tool lay down the beam over the edge by selecting them one after the other until ESC is pressed.
+W przypadku obiektu belki i krawędzi w modelu narzędzie to nakłada belkę na krawędź, zaznaczając je kolejno aż do naciśnięcia klawisza **ESC**.
 
-:   2\) Fill the frame (class fillFrame)
+:   2\) Wypełnij ramę *(klasa fillFrame)*
 
-Dialog to create over multiple edges selected in the viewport the beams of the type of that previously chosen among those present in the model.
+Okno dialogowe służące do tworzenia na wielu krawędziach zaznaczonych w rzucie belek o typie wybranym wcześniej, spośród tych występujących w modelu.
 
-With the button **Select** it\'s possible to change the type of beam.
-
-
-**Dodo: this function has been replaced within the "Insert framebranch" dialog with the "Add single" pushbutton**
+Za pomocą przycisku **Wybierz** można zmienić typ belki.
 
 
-:   3\) Insert a path (class insertPath)
-
-Tool to create a continuous DWire over the path defined by the edges selected in the viewport, even if these are not touching or are intersecting in the middle or belongs to different objects. The only constraint is that exists the intersection between two subsequent edges, in the order that they were selected. Also the DWire is given the view-properties of a center-line, i.e. orange and dash-dotted.
-
-:   4\) Insert Std. Sections (class insertSection)
-
-Dialog to create the set of profiles to be used in the model for object FrameLine.
-
--   **Section** list: it includes all the sections defined in the .csv file corresponding to the selected section type.
--   **Section types** list: the types of profiles defined with the .csv files included in the folder /tables
--   **Insert** button: creates the group \"Profiles\_set\", if not already existing, and adds to it the object of the selected profile.
-
-Other profiles tables can be created by adding the relevant .csv file in the /tables folder. The rules to create or customize such tables are similar to those for pipe-lines.
-
-Other profiles can be drafted in the model and dragged inside the group \"Profiles\_set\".
-
-The orientation of the DWires may influence the rendering of beams.
+**Dodo: ta funkcja została zastąpiona w oknie dialogowym "Wstaw rozgałęzienie ramy" przyciskiem **Dodaj pojedynczy**.**
 
 
-**Dodo: changed the scope of this function.
-In dodo this opens a dialog from which it's possible to create 10 shapes for beam's section with customized dimensions:
-* hollow and full square
-* hollow and full circle
-* T, I, C, L, Z
-* omega
-It's also possible to change the position of center or edit an existing section.**
+:   3\) Wstaw ścieżkę *(klasa insertPath)*.
+
+Narzędzie do tworzenia ciągłego obrysu na ścieżce zdefiniowanej przez krawędzie zaznaczone w rzutni, nawet jeśli nie stykają się one ze sobą, przecinają się w środku lub należą do różnych obiektów. Jedynym ograniczeniem jest istnienie przecięcia dwóch kolejnych krawędzi w kolejności, w jakiej zostały one wybrane. Również linia środkowa otrzymuje właściwości widoku linii środkowej, tj. pomarańczowy kolor i kreskowanie.
+
+:   4\) Wstaw przekrój *(klasa insertSection)*.
+
+Okno dialogowe do tworzenia zestawu profili, które będą używane w modelu dla obiektu FrameLine.
+
+-   Lista **Przekroje**: zawiera wszystkie przekroje zdefiniowane w pliku .csv odpowiadającym wybranemu typowi przekroju.
+-   Lista **Typy przekrojów**: typy przekrojów zdefiniowane za pomocą plików .csv znajdujących się w folderze /tables
+-   Przycisk **Wstaw**: tworzy grupę \"Profile\_zestaw\", jeśli jeszcze nie istnieje, i dodaje do niej obiekt wybranego profilu.
+
+Inne tabele profili można tworzyć poprzez dodanie odpowiedniego pliku .csv w folderze /tables. Zasady tworzenia i dostosowywania takich tabel są podobne do tych, które obowiązują w przypadku linii rurowych.
+
+Inne profile można szkicować w modelu i przeciągać do grupy \"Profile\_zestaw\".
+
+Orientacja dwuteowników może mieć wpływ na odwzorowanie belek.
 
 
-:   5\) FrameLine manager (class FrameLineManager)
+**Dodo: zmieniono zakres działania tej funkcji.
+W dodo otwiera okno dialogowe, w którym można utworzyć 10 kształtów przekroju belki o niestandardowych wymiarach:
+* kwadrat wydrążony i pełny,
+* okrąg wydrążony i pełny,
+* T, I, C, L, Z,
+* Ω ''(omega)''.
+Możliwa jest także zmiana położenia środka lub edycja istniejącego przekroju..**
 
-Same as for \"pype-line\" objects, this is a dialog to create and change properties of \"frame-line\" objects.
 
-Also similarly to what seen above, the frame-lines are objects that collects properties common to a set of beams (namely the beam\'s section) which are included in a common group in the tree of the model. They also have an optional property \".Base\", by default set to None, which is the centerline of the beams of the frame. After a path, alias .Base, is defined (a DWire or a Sketch) other beams can be added to the frame-line but they will be deleted when **Redraw** is invoked. The dialog provides the following features:
+:   5\) Menedżer linii ram *(klasa FrameLineManager)*.
 
--   a list of beams\' profiles previously included in the model by \"Insert Std. Sections\" dialog (read further);
--   a combo-box to select the active FrameLine among those already created or  to create a new one;
--   a text-box where to write the name of the FrameLine that is going to be created; if nothing or \"\", the FrameLined will be named as default \"Telaio00n\";
--   **Insert** button: creates a new FrameLine object or adds new members to the one selected in the combo-box if edges are selected in the active viewport.
--   **Redraw** button: creates new beams and places them over the selected path. New beams will be collected inside the group of the FrameLine. Does not create or update beams added to the FrameLine outside its defined path.
--   **Clear** button: deletes all beams in the FrameLine group. It applies also to beams added to the FrameLine outside its defined path.
--   **Get Path** button: assigns the Dwire selected to the attribute Path of the FrameLine object.
--   **Get Profile** button: changes the Profile attribute of the FrameLine object to the one of the beam selected in the viewport or the one selected in the list.
--   **Copy profile** checkbox: if checked generates a new profile object for each beam in order to avoid multiple references in the model.
--   **Move to origin** checkbox: if checked, moves the center-of-mass of the profile to the origin of coordinates system: that makes the centerline of the beam coincide with the c.o.m. of the profile.
+Podobnie jak w przypadku obiektów \"linii rur\", jest to okno dialogowe do tworzenia i zmiany właściwości obiektów \"linii ram\".
 
-If the name of a FrameLine object is modified, also the name of the relevant group will change automatically but not viceversa
+Podobnie jak powyżej, linie ramy są obiektami, które gromadzą właściwości wspólne dla zestawu belek *(mianowicie przekrój belki)*, które są włączone do wspólnej grupy w drzewie modelu. Posiadają one również opcjonalną właściwość `.Base`, domyślnie ustawioną na wartość `None`, która jest linią środkową belek ramy. Po zdefiniowaniu ścieżki o aliasie .Base *(DWire lub Szkic)* można dodawać inne belki do linii ramy, ale zostaną one usunięte po wywołaniu polecenia **Przerysuj**. W oknie dialogowym dostępne są następujące funkcje:
+
+-   lista profili belek włączonych wcześniej do modelu przez okno dialogowe \"Wstaw przekroje standardowe\" *(czytaj dalej)*,
+-   pole wyboru, aby wybrać aktywną linię ramy spośród już utworzonych lub wartość `nowa`, aby utworzyć nową,
+-   pole tekstowe, w którym należy wpisać nazwę tworzonej linii szkieletowej. Jeśli nie zostanie wpisana żadna nazwa lub zostanie wpisane słowo `name`, linia szkieletowa zostanie nazwana domyślnie `Telaio00n`,
+-   przycisk **Wstaw**: tworzy nowy obiekt FrameLine lub dodaje nowe elementy do tego, który został wybrany w polu wyboru, jeśli w aktywnej rzutni zaznaczone są krawędzie,
+-   przycisk **Przerysuj**: tworzy nowe belki i umieszcza je nad wybraną ścieżką. Nowe belki zostaną zebrane wewnątrz grupy FrameLine. Opcja nie tworzy ani nie aktualizuje belek dodanych do linii FrameLine poza zdefiniowaną ścieżką,
+-   przycisk **Wyczyść**: usuwa wszystkie belki w grupie FrameLine. Dotyczy to również belek dodanych do linii FrameLine poza jej zdefiniowaną ścieżką,
+-   przycisk **Pobierz ścieżkę**: przypisuje wybrany dwuteownik do atrybutu Ścieżka obiektu FrameLine,
+-   przycisk **Pobierz profil**: zmienia atrybut Profil obiektu FrameLine na taki, jaki posiada belka wybrana w rzutni lub wybrany z listy,
+-   pole wyboru {{CheckBox|TRUE|Kopiuj profil}}: zaznaczenie tego pola powoduje wygenerowanie nowego obiektu profilu dla każdej belki, aby uniknąć wielokrotnych odniesień w modelu,
+-   pole wyboru {{CheckBox|Przesuń do początku}}: jeśli jest zaznaczone, przesuwa środek masy profilu do początku układu współrzędnych: dzięki temu linia środkowa belki pokrywa się z punktem środkowym profilu.
+
+Jeśli nazwa obiektu FrameLine zostanie zmieniona, automatycznie zmieni się także nazwa odpowiedniej grupy, ale nie odwrotnie.
 
 :   6\) FrameBranch manager
 
@@ -144,7 +142,7 @@ Tool to spin one object around the \"X\" axis of its shape by 180 degrees. Notes
 
 :   9\) Shift the beam (class shiftBeam)
 
-Dialog to translate and copy objects.
+Okno dialogowe do przesuwania i kopiowania obiektów.
 
 **X**, **Y** and **Z** textboxes for direct input the amount of translation in each direction.
 
@@ -208,7 +206,7 @@ If entities are preselected before calling this command, the first entity is aut
 
 Tool to adjust the beams at square angles of frames. To understand at best how it works, refer to the previous tutorial.
 
-## Pype Tools 
+## Narzędzia do rur 
 
 
 <div class="center" style="width: auto; margin-left: auto; margin-right: auto;">
@@ -219,7 +217,7 @@ Tool to adjust the beams at square angles of frames. To understand at best how i
 </div>
 
 
-:   1\) Insert a tube
+:   1\) Wstaw rurę.
 
 Opens a dialog to insert tubes.
 
@@ -479,7 +477,7 @@ To move quickly any part, to access the underlying objects for instance, this to
 
 Opens one dialog to calculate the pressure losses across the pype-parts selected in the viewport or across one PypeBranch. The friction coefficient is calculated for each straight tube and elbow. For other objects the concentrated pressure loss is calculated through the flow factor, provided that the attribute Kv is available and set to a positive value.
 
-## Links
+## Odnośniki internetowe 
 
 -   Forum: [New workbench for metal structures](http://forum.freecadweb.org/viewtopic.php?f=8&t=17035) (announcement)
 -   Forum: [Flamingo & Dodo workbench(s) discussion thread](https://forum.freecadweb.org/viewtopic.php?t=22711)
@@ -502,13 +500,13 @@ Opens one dialog to calculate the pressure losses across the pype-parts selected
 -   [Macros recipes](Macros_recipes.md)
 -   [OSE-Piping-Workbench: to create extra pipe fittings](https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench)
 
-## External workbenches 
+## Zewnętrzne środowiska pracy 
 
-FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
+Środowiska pracy FreeCAD są łatwe do zaprogramowania w środowisku [Python](Python/pl.md). Dlatego też, wiele osób opracowuje dodatkowe \"przestrzenie robocze\" wykraczające poza główny obszar rozwoju programu FreeCAD.
 
-The [external workbenches](external_workbenches.md) page has some information and tutorials on some of them, and the [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) project aims at gathering them and making them easily installable from within FreeCAD.
+Strona [Zewnętrzne środowiska pracy](External_workbenches/pl.md) zawiera informacje i poradniki na temat niektórych z nich, a projekt [Dodatki FreeCAD](https://github.com/FreeCAD/FreeCAD-addons) ma na celu zebranie ich i uczynienie łatwymi do zainstalowania z poziomu programu FreeCAD.
 
-New workbenches are in development, stay tuned!
+Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 
 

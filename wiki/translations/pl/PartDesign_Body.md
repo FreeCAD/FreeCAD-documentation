@@ -33,7 +33,7 @@ Jeśli wybrano obiekt bryły:
 
 1.  Naciśnij przycisk **<img src="images/PartDesign_Body.svg" width=16px> [zawartość](PartDesign_Body/pl.md)**. Tworzone jest nowa zawartość z pojedynczym elementem **właściwości podstawowej**. Ten element Właściwości podstawowej jest prostym odwołaniem do innego obiektu utworzonego wcześniej lub zaimportowanego do dokumentu. Zobacz akapit [właściwość podstawowa](PartDesign_Body/pl#W.C5.82a.C5.9Bciwo.C5.9B.C4.87_podstawowa.md), aby uzyskać więcej informacji. Istniejąca bryła lub [właściwość](PartDesign_Feature/pl.md) nie może być wybrana po naciśnięciu przycisku **<img src="images/PartDesign_Body.svg" width=16px> [zawartość](PartDesign_Body/pl.md)**.
 
-## Uwagi
+### Uwagi
 
 -   Jeśli nie ma obecnie żadnej zawartości, gdy przycisk **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nowy szkic](PartDesign_NewSketch/pl.md)** zostanie wciśnięty, automatycznie zostanie utworzona nowa zawartość. Jeśli zawartość już istnieje, musi zostać uaktywniona przed użyciem funkcji **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nowy szkic](PartDesign_NewSketch/pl.md)**.
 -   Kliknij dwukrotnie zawartość w widoku [widoku drzewa](Tree_view/pl.md) lub otwórz menu kontekstowe *(kliknij prawym przyciskiem myszy)* i wybierz **Przełącz aktywną zawartość**, aby aktywować lub dezaktywować zawartość. Jeśli inna zawartość jest aktywna, zostanie ona wyłączona. Zobacz [stan aktywny](PartDesign_Body/pl#Aktywny_status.md), aby uzyskać więcej informacji.

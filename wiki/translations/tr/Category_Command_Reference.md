@@ -50,7 +50,7 @@ This category contains the help pages of each of FreeCAD command.
 | [Plot Series/tr](wiki/Plot Series/tr.md) | [Robot CreateRobot/tr](wiki/Robot CreateRobot/tr.md) | [Robot CreateTrajectory/tr](wiki/Robot CreateTrajectory/tr.md) |
 | [Robot Export/tr](wiki/Robot Export/tr.md) | [Robot RestoreHomePos/tr](wiki/Robot RestoreHomePos/tr.md) | [Robot SetDefaultOrientation/tr](wiki/Robot SetDefaultOrientation/tr.md) |
 | [Robot SetDefaultValues/tr](wiki/Robot SetDefaultValues/tr.md) | [Robot SetHomePos/tr](wiki/Robot SetHomePos/tr.md) | [Robot Simulate/tr](wiki/Robot Simulate/tr.md) |
-| [Ship Area/tr](wiki/Ship Area/tr.md) | [Sketcher Clone/tr](wiki/Sketcher Clone/tr.md) | [Sketcher EditSketch/tr](wiki/Sketcher EditSketch/tr.md) |
+| [Ship AreasCurve/tr](wiki/Ship AreasCurve/tr.md) | [Sketcher Clone/tr](wiki/Sketcher Clone/tr.md) | [Sketcher EditSketch/tr](wiki/Sketcher EditSketch/tr.md) |
 | [Sketcher LeaveSketch/tr](wiki/Sketcher LeaveSketch/tr.md) | [Sketcher MapSketch/tr](wiki/Sketcher MapSketch/tr.md) | [Sketcher NewSketch/tr](wiki/Sketcher NewSketch/tr.md) |
 | [Sketcher ReorientSketch/tr](wiki/Sketcher ReorientSketch/tr.md) | [Sketcher ViewSketch/tr](wiki/Sketcher ViewSketch/tr.md) | [Std AddonMgr/tr](wiki/Std AddonMgr/tr.md) |
 | [Std Group/tr](wiki/Std Group/tr.md) | [Std Part/tr](wiki/Std Part/tr.md) |

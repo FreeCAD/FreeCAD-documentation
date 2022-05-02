@@ -311,11 +311,6 @@ Curvas hidrostáticas.
 El [Tutorial de FreeCAD-Nave s60 (II)](FreeCAD-Ship_s60_tutorial_(II)/es.md) es el segundo capítulo de la serie 60 de la nave universitaria de Iowa.
 
 
-{{Ship Tools navi
-
-}}
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial/es

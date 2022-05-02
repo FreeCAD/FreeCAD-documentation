@@ -1,26 +1,26 @@
 ---
 - GuiCommand:/de
    Name:Part Fuse
-   Name/de:Part Verschmelzung
-   MenuLocation:Part → Boolesche Operation → Vereinigung
+   Name/de:Part Vereinigung
+   MenuLocation:Formteil → Boolesche Operation → Vereinigung
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Boolsche Operationen](Part_Boolean/de.md), [Part Schneiden](Part_Cut/de.md), [Part Gemeinsam](Part_Common/de.md), 
+   SeeAlso:[Part Boolesche Operationen](Part_Boolean/de.md), [Part Differenz](Part_Cut/de.md), [Part Schnitt](Part_Common/de.md), 
 ---
 
 # Part Fuse/de
 
 ## Beschreibung
 
-Das **![](images/)_[Part_verschmelzen](Part_Fuse/de.md)** Werkzeug verschmilzt (vereint) ausgewählte Part Objekte zu einem. Diese Operation ist voll parametrisch und die Komponenten können geändert und das Ergebnis erneut berechnet werden.
+Das Werkzeug **![](images/)_[Part_Vereinigung](Part_Fuse/de.md)** vereinigt ausgewählte Part-Objekte zu einem. Diese Operation ist voll parametrisch und die Komponenten können geändert und das Ergebnis erneut berechnet werden.
 
-**Hinweis:** Dieser Befehl ist eine automatisierte Form der <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Booleschen Operation](Part_Boolean/de.md).
+**Hinweis:** Dieser Befehl ist eine automatisierte Form von <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Boolesche Operationen](Part_Boolean/de.md).
 
 ## Anwendung
 
 1.  Wähle zwei oder mehr Formen
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **![](images/) Part Verschmelzung** Schaltfläche in der **Part Werkzeuge** Werkzeugleiste
-    -   Verwende den **Part → Boolesche  Operation → Vereinigen** Eintrag im Part Menü
+    -   Drücke die **![](images/) Part Vereinigung** Schaltfläche in der **Part Werkzeuge** Werkzeugleiste
+    -   Verwende den **Formteil → Boolesche  Operation → Vereinigung** Eintrag im Part Menü
 
 ## Unterstützte Eingaben 
 

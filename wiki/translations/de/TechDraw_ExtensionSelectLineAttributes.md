@@ -13,7 +13,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:24px;"> **TechDraw ErgänzungLinienmerkmaleAuswählen** öffnet ein Dialogfenster, in welchem du die Eigenschaften (Linienart, Linienbreite und Farbe) für neue Hilfslinien und Mittellinien, den Abstand der Maßlinien, und die Verlängerung einstellen kannst. Die Eigenschaften werden auch in den [TechDraw ErgänzungLinienmerkmaleÄndern](TechDraw_ExtensionChangeLineAttributes.md) Werkzeugen verwendet.
+
+
+</div>
 
 ![](images/TechDraw_ExtensionSelectLineAttributes_Taskpanel.png ) 
 *Der Aufgabenbereich zu Select line attributes*

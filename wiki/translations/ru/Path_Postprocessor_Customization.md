@@ -54,6 +54,13 @@ You can then have a look at the file and compare it to the output of existing po
 
 For a file format {{FileName|<filename>}} the postprocessor should get the name {{FileName|<filename>_post.py}}. Please note that the postfix and extension, {{FileName|_post.py}}, have to be lower case.
 
+The new name should be reflected at the head of the parser arguments list in the {{FileName|<filename>_post.py}} file, e.g.:
+
+
+{{Code|lang=text|code=
+parser = argparse.ArgumentParser(prog="grbl", add_help=False)
+}}
+
 If you are testing, place it in your macro directory. If it functions well, please consider providing it for others to benefit (post it to the FreeCAD Path forum) so that it can be included in the FreeCAD distribution going forward.
 
 ## Other existing postprocessors 

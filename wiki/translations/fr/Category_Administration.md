@@ -15,11 +15,10 @@ Cette catégorie contient les articles, et, les catégories sur le wiki, de tous
 | [PartDesign Chamfer/ro](wiki/PartDesign Chamfer/ro.md) | [Template:PartDesign Tools navi/fr](wiki/Template_PartDesign Tools navi/fr.md) | [Template:PartOngletVue 2/fr](wiki/Template_PartOngletVue 2/fr.md) |
 | [Template:PartOngletVue/fr](wiki/Template_PartOngletVue/fr.md) | [Template:PropertyData/fr](wiki/Template_PropertyData/fr.md) | [Template:PropertyView/fr](wiki/Template_PropertyView/fr.md) |
 | [Template:ProprieteDonnees](wiki/Template_ProprieteDonnees.md) | [Template:ProprieteVue](wiki/Template_ProprieteVue.md) | [Template:Raytracing Tools navi/fr](wiki/Template_Raytracing Tools navi/fr.md) |
-| [Template:Robot Tools navi/fr](wiki/Template_Robot Tools navi/fr.md) | [Template:Ship Tools navi/fr](wiki/Template_Ship Tools navi/fr.md) | [Template:Sketcher Tools navi/fr](wiki/Template_Sketcher Tools navi/fr.md) |
-| [Template:Start Tools navi/fr](wiki/Template_Start Tools navi/fr.md) | [Template:StdMenu/fr](wiki/Template_StdMenu/fr.md) | [Template:TechDraw Tools navi/fr](wiki/Template_TechDraw Tools navi/fr.md) |
-| [Tracker/fr](wiki/Tracker/fr.md) | [Template:Tutorials navi/fr](wiki/Template_Tutorials navi/fr.md) | [WikiPages/fr](wiki/WikiPages/fr.md) |
-| [WikiRobots/fr](wiki/WikiRobots/fr.md) | [Category:UnfinishedDocu/fr](wiki/Category_UnfinishedDocu/fr.md) | [Category:Wiki/fr](wiki/Category_Wiki/fr.md) |
-|
+| [Template:Robot Tools navi/fr](wiki/Template_Robot Tools navi/fr.md) | [Template:Sketcher Tools navi/fr](wiki/Template_Sketcher Tools navi/fr.md) | [Template:Start Tools navi/fr](wiki/Template_Start Tools navi/fr.md) |
+| [Template:StdMenu/fr](wiki/Template_StdMenu/fr.md) | [Template:TechDraw Tools navi/fr](wiki/Template_TechDraw Tools navi/fr.md) | [Tracker/fr](wiki/Tracker/fr.md) |
+| [Template:Tutorials navi/fr](wiki/Template_Tutorials navi/fr.md) | [WikiPages/fr](wiki/WikiPages/fr.md) | [WikiRobots/fr](wiki/WikiRobots/fr.md) |
+| [Category:UnfinishedDocu/fr](wiki/Category_UnfinishedDocu/fr.md) | [Category:Wiki/fr](wiki/Category_Wiki/fr.md) |
 
 
 

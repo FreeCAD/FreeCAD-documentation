@@ -13,11 +13,11 @@ Ta kategoria zawiera artykuły i kategorie dotyczące tematów administracyjnych
 | [Template:Part Tools navi/pl](wiki/Template_Part Tools navi/pl.md) | [Template:PartDesign Tools navi/pl](wiki/Template_PartDesign Tools navi/pl.md) | [Template:Path Tools navi/pl](wiki/Template_Path Tools navi/pl.md) |
 | [Template:Plot Tools navi/pl](wiki/Template_Plot Tools navi/pl.md) | [Template:Powerdocnavi/pl](wiki/Template_Powerdocnavi/pl.md) | [Template:PropertyData/pl](wiki/Template_PropertyData/pl.md) |
 | [Template:PropertyView/pl](wiki/Template_PropertyView/pl.md) | [Template:Raytracing Tools navi/pl](wiki/Template_Raytracing Tools navi/pl.md) | [Template:Robot Tools navi/pl](wiki/Template_Robot Tools navi/pl.md) |
-| [Template:Ship Tools navi/pl](wiki/Template_Ship Tools navi/pl.md) | [Template:Sketcher Tools navi/pl](wiki/Template_Sketcher Tools navi/pl.md) | [Template:Start Tools navi/pl](wiki/Template_Start Tools navi/pl.md) |
-| [Template:Std Base navi/pl](wiki/Template_Std Base navi/pl.md) | [Template:Surface Tools navi/pl](wiki/Template_Surface Tools navi/pl.md) | [Template:TechDraw Tools navi/pl](wiki/Template_TechDraw Tools navi/pl.md) |
-| [Tracker/pl](wiki/Tracker/pl.md) | [Template:Tutorials navi/pl](wiki/Template_Tutorials navi/pl.md) | [Template:UnfinishedDocu/pl](wiki/Template_UnfinishedDocu/pl.md) |
-| [WikiPages/pl](wiki/WikiPages/pl.md) | [WikiRobots/pl](wiki/WikiRobots/pl.md) | [Category:UnfinishedDocu/pl](wiki/Category_UnfinishedDocu/pl.md) |
-| [Category:Wiki/pl](wiki/Category_Wiki/pl.md) |
+| [Template:Sketcher Tools navi/pl](wiki/Template_Sketcher Tools navi/pl.md) | [Template:Start Tools navi/pl](wiki/Template_Start Tools navi/pl.md) | [Template:Std Base navi/pl](wiki/Template_Std Base navi/pl.md) |
+| [Template:Surface Tools navi/pl](wiki/Template_Surface Tools navi/pl.md) | [Template:TechDraw Tools navi/pl](wiki/Template_TechDraw Tools navi/pl.md) | [Tracker/pl](wiki/Tracker/pl.md) |
+| [Template:Tutorials navi/pl](wiki/Template_Tutorials navi/pl.md) | [Template:UnfinishedDocu/pl](wiki/Template_UnfinishedDocu/pl.md) | [WikiPages/pl](wiki/WikiPages/pl.md) |
+| [WikiRobots/pl](wiki/WikiRobots/pl.md) | [Category:UnfinishedDocu/pl](wiki/Category_UnfinishedDocu/pl.md) | [Category:Wiki/pl](wiki/Category_Wiki/pl.md) |
+|
 
 
 

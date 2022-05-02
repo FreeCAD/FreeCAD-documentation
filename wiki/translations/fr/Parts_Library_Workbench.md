@@ -22,7 +22,7 @@ Sélecteur de la bibliothèque de pièces
 
 ## Installation
 
-### Installation Automatique 
+### Installation automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 

@@ -1,30 +1,28 @@
 ---
 - GuiCommand:/de
-   Name/de:Part FügeAusschnitt
-   MenuLocation:Part → Verbinden → Ausschnitt für Objekt
+   Name:Part JoinCutout
+   Name/de:Part Ausschneiden
+   MenuLocation:Formteil → Verbinden → Ausschnitt für Objekt
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.16
-   SeeAlso:[Part Objekt verbinden](Part_JoinConnect/de.md), [Part Objekt einbinden](Part_JoinEmbed/de.md), [Part Bool'sche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
+   SeeAlso:[Part Verbinden](Part_JoinConnect/de.md), [Part Einbetten](Part_JoinEmbed/de.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
 # Part JoinCutout/de
 
-
-</div>
-
 ## Beschreibung
 
-Das <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part Ausschnitt für Objekt](Part_JoinCutout/de.md)-Werkzeug erstellt einen Ausschnitt in einem ummauerten/dünnwandigen Object (z.B. einem Rohr), um ein anderes ummauerten/dünwandiges Objekt einzupassen.
+Das Werkzeug <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part Ausschneiden](Part_JoinCutout/de.md) erstellt einen Ausschnitt in einem Hohlkörper (z.B. einem Rohr), in den ein anderer Hohlkörper passt.
 
 ![600px](images/JoinFeatures_Cutout.png)
 
 ## Anwendung
 
-1.  Wähle zuerst das Basisobjekt, dann das Objekt, um den Ausschnitt zu definieren.
+1.  Zuerst das Basisobjekt auswählen, dann das Objekt, das den Ausschnitt definiert.
     Die Reihenfolge der Auswahl ist wichtig. Es reicht aus, nur eine Teilform jedes Objekts (z.B. Flächen) auszuwählen.
-2.  Der Part-Ausschnitt für Objekt-Befehl kann auf mehrere Arten aufgerufen werden:
-    -   Drücken der <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part Ausschnitt für Objekt](Part_JoinCutout/de.md)-Schaltfläche in der Part-Werkzeugleiste
-    -   Benutzen des **Part → Verbinden → Ausschnitt für Objekt**-Eintrag im Part-Menü
+2.  Der Befehl Part **Ausschnitt für Objekt** kann auf mehrere Arten aufgerufen werden:
+    -   Drücken der Schaltfläche <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Ausschnitt für Objekt](Part_JoinCutout/de.md) in der Part-Werkzeugleiste
+    -   Auswahl des Eintrags **Formteil → Verbinden → Ausschnitt für Objekt** im Part-Menü
 
 A Part JoinFeature object is created, with Mode set to \'Cutout\'. Original objects are hidden, and the result of cutting is shown in [3D view](3D_view.md).
 
@@ -87,15 +85,6 @@ j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
 Das Werkzeug selbst ist in Python implementiert, siehe {{FileName|/Mod/Part/JoinFeatures.py}} ([GitHub link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) innerhalb des FreeCAD-Installationsverzeichnisses.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

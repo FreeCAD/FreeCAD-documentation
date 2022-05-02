@@ -200,11 +200,6 @@ At the other hand, the ship in this bad condition has positive *GZ* values up to
 Of course this example is not real (first for all fuel tanks cannot be placed in the double bottom structure, or using hull side as structure), but is a good example in order to learn to use [Ship Workbench](Ship_Workbench.md).
 
 
-{{Ship Tools navi
-
-}}
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/ru

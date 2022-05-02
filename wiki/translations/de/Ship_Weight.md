@@ -18,13 +18,13 @@
 
 Add a weight to the ship instance.
 
-Until this point, all the tools in Ship workbench are based on a **Ship instance** (see [Ships creation](Ship_New.md)), which only holds information regarding the ship shape. Following the progressive data introduction system, at this point the user might define load conditions, which involves creating weights with this tool, creating tanks (see [Tank creation](Ship_TankNew.md)) and assembling them in load conditions (see [Load conditions](Ship_Loading.md)). With that information the center of gravity of the ship can be defined, enabling further computations.
+Until this point, all the tools in Ship workbench are based on a **Ship instance** (see [Ship CreateShip](Ship_CreateShip.md)), which only holds information regarding the ship shape. Following the progressive data introduction system, at this point the user might define load conditions, which involves creating weights with this tool, creating tanks (see [Ship Tank](Ship_Tank.md)) and assembling them in load conditions (see [Ship LoadCondition](Ship_LoadCondition.md)). With that information the center of gravity of the ship can be defined, enabling further computations.
 
 ## Usage
 
-In order to create a weight, select the weight geometry (see below) and invoke **Weights → Create a new ship weight**.
+In order to create a weight, select the weight geometry (see below) and invoke **Weights → <img src="images/Ship_Weight.svg" width=16px> Create a new ship weight**.
 
-The task panel is shown, where you must select the **Ship instance** (see [Ships creation](Ship_New.md)) in which the weight shall be added, as well as the density/mass.
+The task panel is shown, where you must select the **Ship instance** (see [Ship CreateShip](Ship_CreateShip.md)) in which the weight shall be added, as well as the density/mass.
 
 When the **Accept** button is pressed, a new weight entity is created inside the chosen **Ship instance**.
 
@@ -79,13 +79,5 @@ Punctual weights are featured by its mass (in kg, or any other compatible unit).
 
 
 
-
-
-{{Ship_Tools_navi
-
-}}
-
-
-
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Ship Weight/de
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Weight/de

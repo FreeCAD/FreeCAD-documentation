@@ -3,8 +3,8 @@
    Name:Ship Hydrostatics
    MenuLocation:Ship design → Hydrostatics
    Workbenches:[Ship](Ship_Workbench.md)
-   Shortcut:|
-SeeAlso=
+   Shortcut:
+   SeeAlso:
 ---
 
 # Ship Hydrostatics/en
@@ -56,7 +56,7 @@ These hydrostatics are more related with the ship transversal stability. The fol
 
 The floating area is widely connected with the so-called hydrostatic stiffness, or in other words the resistance presented by the ship to any perturbation.
 
-On the other hand, the KB and BMT are critical parameters to determine the transversal stability of the ship for small angles. Indeed when the gravity center is defined (it can be done with the [Weight definition tool](Ship_Weight.md), [Tank creation](Ship_TankNew.md) and [Load condition definition](Ship_Loading.md) tools) the main stability parameter for small angles can be easily computed,
+On the other hand, the KB and BMT are critical parameters to determine the transversal stability of the ship for small angles. Indeed when the gravity center is defined (it can be done with the [Ship Weight](Ship_Weight.md), [Ship Tank](Ship_Tank.md) and [Ship LoadCondition](Ship_LoadCondition.md) tools) the main stability parameter for small angles can be easily computed,
 
 $GMT = KB + BMT - KG.$
 
@@ -76,7 +76,7 @@ While large Cb values will inexorably result in inefficient ships, with more mod
 
 ## Usage
 
-In order to compute the transversal areas curve, select a **Ship instance** (see [Ships creation](Ship_New.md)), and invoke **Ship design → Hydrostatics**.
+In order to compute the transversal areas curve, select a **Ship instance** (see [Ship CreateShip](Ship_CreateShip.md)), and invoke **Ship design → <img src="images/Ship_Hydrostatics.svg" width=16px> Hydrostatics**.
 
 The task panel is shown. You must select the trim angle as well as the range of drafts to be considered. You can also select the number of samples to be taken between the minimum and maximum draft. The larger the number of samples the longer will take the computation.
 
@@ -89,13 +89,5 @@ Press the **Accept** button when you are ready, so the Ship module will start th
 
 
 
-
-
-{{Ship_Tools_navi
-
-}}
-
-
-
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Ship Hydrostatics/en
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Hydrostatics/en

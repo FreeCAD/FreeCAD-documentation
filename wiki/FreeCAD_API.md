@@ -451,6 +451,12 @@ Get the name of the module that can import the filetype
 
 
 
+#### <img src="images/type_method.svg" style="width:16px;"> getLibraryDir
+
+Get the directory of all extension modules
+
+
+
 #### <img src="images/type_method.svg" style="width:16px;"> getLinksTo
 
 getLinksTo(obj,options=0,maxCount=0) -- return the objects linked to 'obj'

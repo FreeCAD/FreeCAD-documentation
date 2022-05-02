@@ -57,7 +57,7 @@ Ces hydrostatiques sont davantage liées à la stabilité transversale du bateau
 
 La surface de flottaison est largement liée à ce que l\'on appelle la rigidité hydrostatique, ou en d\'autres termes la résistance présentée par le bateau à toute perturbation.
 
-D\'autre part, le KB et le BMT sont des paramètres critiques pour déterminer la stabilité transversale du bateau pour les petits angles. En effet, lorsque le centre de gravité est défini (cela peut être fait avec les outils [Définition du poids](Ship_Weight/fr.md), [Création du réservoir](Ship_TankNew/fr.md) et [Définition des conditions de charge](Ship_Loading/fr.md)), le principal paramètre de stabilité pour les petits angles peut être facilement calculé,
+D\'autre part, le KB et le BMT sont des paramètres critiques pour déterminer la stabilité transversale du bateau pour les petits angles. En effet, lorsque le centre de gravité est défini (cela peut être fait avec les outils [Ship Poids](Ship_Weight/fr.md), [Ship Réservoir](Ship_Tank/fr.md) et [Ship Charge](Ship_LoadCondition/fr.md)), le principal paramètre de stabilité pour les petits angles peut être facilement calculé,
 
 $GMT = KB + BMT - KG.$
 
@@ -77,7 +77,7 @@ Alors que de grandes valeurs de Cb entraîneront inexorablement des bateaux inef
 
 ## Utilisation
 
-Pour calculer la courbe des aires transversales, sélectionnez une **instance de bateau** (voir [Création de bateaux](Ship_New/fr.md)), et invoquez **Ship design → Hydrostatics**.
+Pour calculer la courbe des aires transversales, sélectionnez une **instance de bateau** (voir [Ship CreateShip](Ship_CreateShip/fr.md)), et lancez **Ship design → <img src="images/Ship_Hydrostatics.svg" width=16px> Hydrostatics**.
 
 Le panneau des tâches s\'affiche. Vous devez sélectionner l\'angle d\'assiette ainsi que la plage de tirants d\'eau à prendre en compte. Vous pouvez également sélectionner le nombre d\'échantillons à prélever entre le tirant d\'eau minimum et maximum. Plus le nombre d\'échantillons est important, plus le calcul sera long.
 
@@ -90,13 +90,5 @@ Appuyez sur le bouton **Accept** lorsque vous êtes prêt, afin que le module ba
 
 
 
-
-
-{{Ship_Tools_navi
-
-}}
-
-
-
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Ship Hydrostatics/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Hydrostatics/fr

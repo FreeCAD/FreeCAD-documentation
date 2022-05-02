@@ -6,37 +6,40 @@ Here is a rough roadmap of areas to be addressed in the future (in no particular
 
 ### Current Activity 
 
--   TBD
+-   v0.20 release preparation - linux display problems [6698](https://github.com/FreeCAD/FreeCAD/issues/6698)
 
 ### Upcoming
 
--   TBD
+These items have working code in the development environment and will be implemented early in the v0.21 development cycle.
 
-### Recent Changes 
+-   Navigation modes
+-   New face detection algorithm
+-   PrintAll function
+-   Bitmap hatching [6582](https://github.com/FreeCAD/FreeCAD/issues/6582)
+-   Extension line gaps [6774](https://github.com/FreeCAD/FreeCAD/issues/6774)
+-   Section dialog live/deferred update option
+-   Convert all templates to \"plain svg\"
+-   View stacking order [6012](https://github.com/FreeCAD/FreeCAD/issues/6012)
 
--   TBD
+These items have semi-working code or are well defined and will be implemented at some point in the v0.21 cycle.
 
-## Futures
+-   Projection group dialog upgrade including live/deferred update option
+-   Expanded dimension dialog that includes ability to update 2d and 3d references. Possible retirement of current \"Link Dimension\" function.
+-   Ability to specify file preferences as relative paths [6707](https://github.com/FreeCAD/FreeCAD/issues/6707)
 
-### Navigation Models 
+These items are expected to be in v0.21, but have not been analyzed in detail.
 
-TechDraw does not support the various navigation model used in the rest of FreeCAD (CAD, Blender, etc).
+-   ability to specify units by dimension or page instead of system wide.
+-   weld symbol upgrades including ISO/AWS symbology and help text [6313](https://github.com/FreeCAD/FreeCAD/issues/6313)
 
-### HLR vs Face Occlusion 
+These items are candidates for v0.21, but require investigation
 
-TechDraw PartViews use the OCC Hidden Line Removal algorithms to project the Shape. HLR is computation intensive, and some (many? most?) views do not require hidden lines to be displayed. A new method of generating views is required. This may require getting the image directly from the 3D display.
+-   ordinate dimensions [6587](https://github.com/FreeCAD/FreeCAD/issues/6587)
+-   broken view [5694](https://github.com/FreeCAD/FreeCAD/issues/5694)
+-   improved handling of Draft/Arch objects
+-   include sketcher points in drawings
 
-### Draft/Arch coexistence 
-
-There are inconsistencies between the way the Draft/Arch and TechDraw modules represent shapes. This limits the suitability of TechDraw for Draft/Arch users. One notable short-coming is that TechDraw is unable to apply Dimensions to the Svg images it receives from Draft/Arch.
-
-### Templates
-
-Making a template with editable text fields requires significant expertise with [SVG](SVG.md) and an SVG editor like Inkscape. Making the template creation process simpler will be a priority in the v0.18 development cycle.
-
-### Bug Fixes/Feature Requests 
-
-See the bug tracker for up to date information.
+There are a number of smaller feature requests that will probably be implemented in v0.21, possibly as macros.
 
 
 {{TechDraw Tools navi

@@ -39,8 +39,9 @@ La liste ci-dessous répertorie les paramètres qui ne sont pas accessibles via 
 -   **Mod/Sketcher/RadiusDiameterConstraintDisplayAngleRandomness** (flottant) : Définit un angle aléatoire sur la valeur ci-dessus. La valeur est la plage de l\'angle aléatoire, centrée sur l\'angle de base. La valeur par défaut est 0 degré \-- désactivé \-- (si aucune valeur n\'est définie).
 -   **PropertyView/AutoTransactionView** (booléen) : Défini à `True` pour que les modifications des propriétés de l\'onglet View soient ajoutées à la pile d\'annulation (et donc annulables). La valeur par défaut est `False`.
 -   **Selection/AutoShowSelectionView** (booléen) : Défini à `True` pour que le volet de la vue de sélection s\'affiche automatiquement lorsque vous sélectionnez quelque chose. La valeur par défaut est `False`.
--   **Selection/singleClickFeatureSelect** (boolean) : (booléen) : Défini à `False` pour désactiver la sélection en un seul clic d\'une fonction dans PartDesign. La valeur par défaut est `True`.
--   **View/NavigationDebug** (booléen) : active la sortie de débogage des styles de navigation (à partir de la v0.19, seul le style de navigation Gesture a quelque chose à dire).
+-   **Selection/singleClickFeatureSelect** (booléen) : Défini à `False` pour désactiver la sélection en un seul clic d\'une fonction dans PartDesign. La valeur par défaut est `True`.
+-   **TreeView/TreeViewStretchDescription** (booléen) : Défini à `True` pour étirer la colonne \'Description\' dans la [Vue en arborescence](Tree_view/fr.md) vers le bord droit du volet. La valeur par défaut est `False`.
+-   **View/NavigationDebug** (booléen) : Active la sortie de débogage des styles de navigation (à partir de la v0.19, seul le style de navigation Gesture a quelque chose à dire).
 -   **View/SavePicture** (chaîne) : Défini à **FramebufferObject**, **PixelBuffer** ou **CoinOffscreenRenderer** pour différentes méthodes de production d\'images à partir de la vue 3D.
 
 ### Exportation du nom de fichier par défaut 

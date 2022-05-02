@@ -117,151 +117,153 @@ W celu zapewnienia wydajności i elastyczności, Boost szeroko korzysta z szablo
 
 OpenCASCADE Technology *(OCCT)* to w pełni funkcjonalne jądro CAD klasy profesjonalnej. Zostało ono opracowane w 1993 roku i pierwotnie nazwane CAS.CADE przez firmę Matra Datavision we Francji dla aplikacji Strim *(Styler)* i Euclid Quantum. W 1999 roku zostało udostępnione jako oprogramowanie open source i od tego czasu nosi nazwę OpenCASCADE.
 
-OCCT is a big and complex set of C++ libraries that provide functionality required by a CAD application:
+OCCT to duży i złożony zestaw bibliotek C++, które zapewniają funkcjonalność wymaganą przez aplikacje CAD:
 
--   A complete STEP compliant geometry kernel.
--   A topological data model and needed functions to work with shapes (cut, fuse, extrude, and many others).
--   Standard import and export processors for files like STEP, IGES, VRML.
--   A 2D and 3D viewer with selection support.
--   A document and project data structure with support for save and restore, external linking of documents, recalculation of design history (parametric modeling) and a facility to load new data types as an extension package dynamically.
+-   Kompletne jądro geometrii zgodne ze standardem STEP.
+-   Topologiczny model danych oraz funkcje niezbędne do pracy z kształtami *(wycinanie, łączenie, wyciskanie i wiele innych)*.
+-   Standardowe procesory importu i eksportu dla plików takich jak STEP, IGES, VRML.
+-   Przeglądarka 2D i 3D z obsługą selekcji.
+-   Struktura danych dokumentu i projektu z obsługą zapisywania i przywracania, zewnętrznego łączenia dokumentów, przeliczania historii projektu (modelowanie parametryczne) oraz możliwość dynamicznego wczytywania nowych typów danych jako pakietów rozszerzeń.
 
-There are two main versions of OpenCASCADE in existence in different Linux distributions. One is distributed by the original developers; it is known as OCCT, and is packaged under the names `occ` or `occt`. The other version is the \"community edition\", abbreviated OCE, and is normally found with the `oce` name. FreeCAD can compile against either version, however, since 2016 FreeCAD recommends compiling against the official OCCT libraries rather than the OCE ones. The reason is that the community edition lacks important bug fixes and functions that make using FreeCAD better.
+Przetłumaczono z www.DeepL.com/Translator (wersja darmowa)
 
-To learn more visit the [OpenCASCADE website](http://www.opencascade.org).
+Istnieją dwie główne wersje OpenCASCADE w różnych dystrybucjach Linuksa. Jedna z nich jest dystrybuowana przez oryginalnych twórców; znana jest jako OCCT i występuje pod nazwami `occ` lub `occt`. Druga wersja to \"community edition\", w skrócie OCE, i zwykle występuje pod nazwą `oce`. FreeCAD może kompilować się z każdą z tych wersji, jednak od 2016 roku FreeCAD zaleca kompilację z oficjalnymi bibliotekami OCCT, a nie z bibliotekami OCE. Powodem jest to, że w edycji społecznościowej brakuje ważnych poprawek błędów i funkcji, które sprawiają, że korzystanie z programu FreeCAD jest lepsze.
+
+Aby dowiedzieć się więcej, odwiedź stronę [OpenCASCADE](http://www.opencascade.org).
 
 ### Qt
 
-**Version:** 4.1 or higher
+**Wersja:** 4.1 lub nowsza
 
-**License:** GPL v2.0/v3.0 or Commercial; from version 4.5 on also LPGL v2.1.
+**Licencja:** GPL v2.0/v3.0 lub komercyjna, od wersji 4.5 także LPGL v2.1.
 
-Qt is one of the most popular graphical user interface (GUI) toolkits available in the open source world. FreeCAD uses this toolkit to draw the interface of the program. For this, the Qt Designer application is very useful as it allows developers to quickly draw the dialogs and windows, export them as XML resource files, and then load these interfaces at runtime.
+Qt jest jednym z najpopularniejszych zestawów narzędzi graficznego interfejsu użytkownika *(GUI)* dostępnych w świecie open source. FreeCAD używa tego zestawu narzędzi do rysowania interfejsu programu. Do tego celu bardzo przydatna jest aplikacja Qt Designer, która pozwala programistom szybko rysować okna dialogowe i okna, eksportować je jako pliki zasobów XML, a następnie wczytywać te interfejsy w czasie pracy.
 
-Further information about Qt libraries and their programming documentation are available at [Qt Documentation](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
+Więcej informacji o bibliotekach Qt i ich dokumentacji programistycznej można znaleźć na stronie [Qt Documentation](https://doc.qt.io/?hsCtaTracking=f641fd1a-772b-4957-964b-dad954b8d702%7C46c97dac-f1f6-49b3-ae46-8070fc35ea13).
 
-#### Shiboken2 and Pyside2 
+#### Shiboken2 i Pyside2 
 
-Shiboken is the Python binding generator that Qt for Python uses to create the PySide module, in other words, it is the system that is used to expose the Qt C++ API to the Python language.
+Shiboken jest generatorem wiązań Python, którego Qt dla Python używa do tworzenia modułu PySide, innymi słowy, jest to system używany do eksponowania API Qt C++ na język Python.
 
-The original Shiboken and PySide packages were meant to be used with Python 2 and Qt4; since these two versions are considered obsolete in 2019, please use Shiboken2 and PySide2, which work with Python 3 and Qt5. New development of FreeCAD is done with Python 3 and Qt5, so compatibility with Python 2 and Qt4 is not guaranteed after FreeCAD 0.18.
+Oryginalne pakiety Shiboken i PySide były przeznaczone do użycia ze środowiskiem Python 2 i Qt4. Ponieważ te dwie wersje są uważane za przestarzałe w 2019 roku, proszę użyć Shiboken2 i PySide2, które działają ze środowiskiem Python 3 i Qt5. Nowe wersje FreeCAD są tworzone w środowisku Python 3 i Qt5, więc kompatybilność z Python 2 i Qt4 nie jest gwarantowana po wydaniu FreeCAD 0.18.
 
-Read more about Shiboken and Pyside on [Qt for Python](https://wiki.qt.io/Qt_for_Python/Shiboken).
+Więcej o Shiboken i Pyside można przeczytać na stronie [Qt for Python](https://wiki.qt.io/Qt_for_Python/Shiboken).
 
 ### Coin3D
 
-**Version:** 3.0 or higher
+**Wersja:** 3.0 lub nowsza
 
-**License:** BSD 3-clause license
+**Licencja:** 3-klauzulowa licencja BSD
 
-Coin3D is a high-level 3D graphics library with a C++ application programming interface. It uses scenegraph data structures to render real-time graphics suitable for all kinds of scientific and engineering visualization applications.
+Coin3D jest wysokopoziomową biblioteką grafiki 3D z interfejsem programowania aplikacji w języku C++. Wykorzystuje struktury danych scenegrafu do renderowania grafiki w czasie rzeczywistym, odpowiedniej dla wszelkiego rodzaju zastosowań naukowych i inżynieryjnych.
 
-Coin3D is built on the industry-standard OpenGL immediate mode rendering library, and adds abstractions for higher-level primitives, provides 3D interactivity, and contains many complex optimization features for fast rendering that are transparent for the application programmer.
+Coin3D jest zbudowany na standardowej bibliotece renderingu trybu natychmiastowego OpenGL i dodaje abstrakcje dla prymitywów wyższego poziomu, zapewnia interaktywność 3D i zawiera wiele złożonych funkcji optymalizacyjnych dla szybkiego renderingu, które są przezroczyste dla programisty aplikacji.
 
-Coin3D is compatible with SGI\'s Open Inventor 2.1 API. This API has become the de facto standard graphics interface for 3D visualization in the scientific and engineering community. It has proved its worth since the year 2000 as a major building block in thousands of engineering applications around the world.
+Coin3D jest kompatybilny z Open Inventor 2.1 API firmy SGI. API to stało się de facto standardowym interfejsem graficznym dla wizualizacji 3D w środowisku naukowym i inżynieryjnym. Od 2000 roku udowodnił swoją wartość jako główny element tysięcy aplikacji inżynierskich na całym świecie.
 
-Coin3D (Open Inventor) is used as the 3D viewer in FreeCAD because the OpenCASCADE viewer (AIS and Graphics3D) has limitations and performance bottlenecks, especially with large-scale engineering rendering; other things like textures or volumetric rendering are not entirely supported by the OpenCASCADE viewer.
+Coin3D *(Open Inventor)* jest używany jako przeglądarka 3D w FreeCAD, ponieważ przeglądarka OpenCASCADE *(AIS i Graphics3D)* ma ograniczenia i wąskie gardła wydajności, zwłaszcza w przypadku renderowania inżynierskiego na dużą skalę. Inne rzeczy, takie jak tekstury czy renderowanie objętościowe, nie są w pełni obsługiwane przez przeglądarkę OpenCASCADE.
 
-Coin3D is portable over a wide range of platforms: UNIX, Linux, BSD, MacOS X, and Microsoft Windows operating systems. To read more about this library visit [Coin3D homepage](https://github.com/coin3d/coin).
+Coin3D jest przenośny na szeroką gamę platform: UNIX, Linux, BSD, MacOS X oraz systemy operacyjne Microsoft Windows. Aby dowiedzieć się więcej o tej bibliotece, odwiedź stronę [domową Coin3D](https://github.com/coin3d/coin).
 
-#### SoQt (deprecated) 
+#### SoQt *(obecnie przestarzałe)* 
 
-**Version:** 1.2.0 or higher
+**Wersja:** 1.2.0 lub nowsza
 
-**License:** BSD 3-clause license
+**Licencja:** 3-klauzulowa licencja BSD
 
-SoQt is the Coin3D (Open Inventor) binding to the Qt GUI toolkit.
+SoQt jest powiązaniem Coin3D *(Open Inventor)* z zestawem narzędzi GUI Qt.
 
-SoQt is no longer used in FreeCAD, it was replaced by Quarter which is a more recent Qt binding.
+SoQt nie jest już używany w programie FreeCAD, został zastąpiony przez Quarter, który jest nowszą oprawą Qt.
 
 #### Quarter
 
-**Version:** 1.0 or higher
+**Wersja:** 1.0 lub nowsza
 
-**License:** BSD 3-clause license
+**Licencja:** 3-klauzulowa licencja BSD
 
-Quarter is a newer Coin3D binding to the Qt toolkit. A version of it is included in the source code of FreeCAD so it is compiled together with it.
+Quarter to nowsze powiązanie Coin3D z zestawem narzędzi Qt. Jego wersja jest zawarta w kodzie źródłowym FreeCAD, więc jest kompilowana razem z nim.
 
 #### Pivy
 
-**Version:** 0.6.3 or higher
+**Wersja:** 0.6.3 lub nowsza
 
-**License:** BSD 3-clause license
+**Licencja:** 3-klauzulowa licencja BSD
 
-[Pivy](Pivy.md) is a library that wraps the Coin3d library for use in [Python](Python.md). It is not needed to build FreeCAD or to start it, but it is needed as a runtime dependency by the [Draft Workbench](Draft_Workbench.md), and by other workbenches that use it internally, like [Arch](Arch_Workbench.md) and [BIM](BIM_Workbench.md).
+[Pivy](Pivy/pl.md) jest biblioteką, która opakowuje bibliotekę Coin3d do użytku w środowisku [Python](Python/pl.md). Nie jest potrzebna do zbudowania programu FreeCAD ani do jego uruchomienia, ale jest wymagana jako zależność runtime przez [Rysunek Roboczy](Draft_Workbench/pl.md) i przez inne środowiska pracy, które używają jej wewnętrznie, jak [Architektura](Arch_Workbench/pl.md) i [BIM](BIM_Workbench/pl.md).
 
-If you are not going to use these workbenches, you won\'t need Pivy.
+Jeśli nie zamierzasz korzystać z tych środowisk pracy, nie potrzebujesz Pivy.
 
 ### Ply
 
-**Version:** 3.11 or higher
+**Wersja:** 3.11 lub nowsza
 
-**License:** BSD 3-clause license
+**Licencja:** 3-klauzulowa licencja BSD
 
-Ply is the Python-Lex-Yacc parser. It is used as a runtime dependency by the [OpenSCAD Workbench](OpenSCAD_Workbench.md). If you don\'t use this workbench, you may not need this package.
+Ply jest parserem Python-Lex-Yacc. Jest on używany jako zależność runtime przez środowisko [OpenSCAD](OpenSCAD_Workbench/pl.md). Jeśli nie używasz tego środowiska pracy, możesz nie potrzebować tego pakietu.
 
-For more information see [Ply homepage](https://www.dabeaz.com/ply/)
+Więcej informacji można znaleźć na stronie [domowej Ply](https://www.dabeaz.com/ply/).
 
 ### Xerces-C++ 
 
-**Version:** 3.0 or higher
+**Wersja:** 3.0 lub nowsza
 
-**License:** Apache Software License Version 2.0
+**Licencja:** Licencja oprogramowania Apache wersja 2.0
 
-Xerces-C++ is a validating XML parser written in a portable subset of C++. Xerces-C++ makes it easy to give your application the ability to read and write XML data. A shared library is provided for parsing, generating, manipulating, and validating XML documents. Xerces-C++ is faithful to the XML 1.0 recommendation and associated standards.
+Xerces-C++ jest sprawdzającym poprawność parserem XML napisanym w przenośnym podzbiorze języka C++. Xerces-C++ ułatwia nadanie aplikacji możliwości odczytu i zapisu danych XML. Udostępnia bibliotekę współdzieloną do parsowania, generowania, manipulowania i sprawdzania poprawności dokumentów XML. Xerces-C++ jest wierny zaleceniu XML 1.0 i związanym z nim standardom.
 
-The parser is used for saving and restoring parameters in FreeCAD. For more information see [Xerces-C++ homepage](https://xerces.apache.org/xerces-c/).
+Parser jest używany do zapisywania i przywracania parametrów w programie FreeCAD. Więcej informacji można znaleźć na stronie [domowej Xerces-C++](https://xerces.apache.org/xerces-c/).
 
 ### Eigen3
 
-**Version:** 3.0 or higher
+**Wersja:** 3.0 lub nowsza
 
-**License:** Starting from the 3.1.1 version, it is licensed under the [Mozilla Public License 2.0](http://www.mozilla.org/MPL/2.0). Earlier versions were licensed under the [GNU Lesser General Public License 3](https://www.gnu.org/licenses/lgpl-3.0.en.html).
+**Licencja:** Począwszy od wersji 3.1.1, program jest objęty licencją [Mozilla Public License 2.0](http://www.mozilla.org/MPL/2.0). Wcześniejsze wersje były licencjonowane na podstawie [GNU Lesser General Public License 3](https://www.gnu.org/licenses/lgpl-3.0.en.html).
 
-Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+Eigen jest biblioteką szablonów C++ dla algebry liniowej: macierzy, wektorów, rozwiązań numerycznych i związanych z nimi algorytmów.
 
-If you just want to use Eigen, you can use the header files right away. There is no binary library to link to, and no configured header file. Eigen is a pure template library defined in the headers.
+Jeśli użytkownik chce tylko używać programu Eigen, może od razu korzystać z plików nagłówkowych. Nie ma biblioteki binarnej, z którą trzeba by się łączyć, ani skonfigurowanego pliku nagłówkowego. Eigen jest czystą biblioteką szablonową zdefiniowaną w nagłówkach.
 
-Eigen is used in FreeCAD for many vector operations in 3D space. To learn more, visit [Eigen homepage](http://eigen.tuxfamily.org/index.php?title=Main_Page).
+Program Eigen jest używany w programie FreeCAD do wielu operacji na wektorach w przestrzeni 3D. Aby dowiedzieć się więcej, odwiedź stronę [domową Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page).
 
 ### Zipios++
 
-**Version:** 0.1.5 or higher
+**Wersja:** 0.1.5 lub nowsza
 
-**License:** GNU Lesser General Public License 2.1
+**Licencja:** GNU Lesser General Public License 2.1
 
-Zipios++ is a C++ library for reading and writing `.zip` files. Access to individual entries is provided through standard C++ iostreams. A simple read-only virtual file system that mounts regular directories and `.zip` files is also provided. The structure and public interface of Zipios++ are loosely based on the `java.util.zip` package of Java.
+Zipios++ jest biblioteką C++ służącą do odczytywania i zapisywania plików `.zip`. Dostęp do poszczególnych wpisów jest zapewniony przez standardowe strumienie iostream w C++. Udostępniono także prosty wirtualny system plików tylko do odczytu, który montuje zwykłe katalogi i pliki `.zip`. Struktura i interfejs publiczny programu Zipios++ są luźno oparte na pakiecie `java.util.zip` języka Java.
 
-FreeCAD\'s native file format `.FCstd` is in reality a `.zip` file that stores and compresses other types of data within it, such as BREP and XML files. Therefore, Zipios++ is used to save and open compressed archives, including FreeCAD files.
+Rodzimy format plików FreeCAD `.FCstd` jest w rzeczywistości plikiem `.zip`, który przechowuje i kompresuje inne typy danych, takie jak pliki BREP i XML. Dlatego program Zipios++ służy do zapisywania i otwierania skompresowanych archiwów, w tym plików FreeCAD.
 
-A copy of Zipios++ is included in the source code of FreeCAD so it is compiled together with it. If you want to use an external Zipios++ library, provided by your operating system, you may set -DFREECAD_USE_EXTERNAL_ZIPIOS=ON with `cmake`.
+Kopia Zipios++ jest zawarta w kodzie źródłowym FreeCAD, więc jest kompilowana razem z nim. Jeśli chcesz użyć zewnętrznej biblioteki Zipios++, dostarczanej przez system operacyjny, możesz ustawić parametr -DFREECAD_USE_EXTERNAL_ZIPIOS=ON za pomocą `cmake`.
 
-Zipios++ uses the Zlib library to perform the actual decompression of files.
+Do dekompresji plików Zipios++ używa biblioteki Zlib.
 
 #### Zlib
 
-**Version:** 1.0 or higher
+**Wersja:** 1.0 lub nowsza
 
-**License:** zlib license
+**Licencja:** licencja zlib
 
-Zlib is designed to be a free, general-purpose, lossless data-compression library for use on any computer hardware and operating system. It implements the `DEFLATE` compression algorithm commonly used in `.zip` and `.gzip` files.
+Zlib został zaprojektowany jako bezpłatna biblioteka ogólnego przeznaczenia do bezstratnej kompresji danych, przeznaczona do użytku na dowolnym sprzęcie komputerowym i w dowolnym systemie operacyjnym. Implementuje ona algorytm kompresji `DEFLATE` powszechnie stosowany w plikach `.zip` i `.gzip`.
 
-A copy of this library is included in the source code of FreeCAD so it is compiled together with it.
+Kopia tej biblioteki jest dołączona do kodu źródłowego programu FreeCAD, więc jest z nim kompilowana.
 
 ### libarea
 
-**Version:** 0.0.20140514-1 or higher
+**Wersja:** 0.0.20140514-1 lub nowsza
 
-**License:** BSD 3-clause license
+**Licencja:** 3-klauzulowa licencja BSD
 
-Libarea is a software library to compute profile and pocket operations which are used in computer aided manufacturing (CAM) software. It was created by Dan Heeks for his HeeksCNC project.
+Libarea to biblioteka oprogramowania do obliczania profili i operacji kieszeni, które są używane w oprogramowaniu do komputerowego wspomagania wytwarzania *(CAM)*. Została ona stworzona przez Dana Heeksa dla jego projektu HeeksCNC.
 
-A copy of the library is included with the source code of the [Path Workbench](Path_Workbench.md), so it is compiled together with it.
+Kopia biblioteki jest dołączona do kodu źródłowego środowiska pracy [Path](Path_Workbench/pl.md), więc jest kompilowana razem z nim.
 
 ## LibPack
 
 LibPack jest wygodnym pakietem z zebranymi razem zależnościami kompilacji programu FreeCAD. Jest on potrzebny tylko wtedy, gdy kompilujesz program FreeCAD w systemie Windows za pomocą Visual Studio 2015 lub nowszego. Najnowszy LibPack można znaleźć na stronie [releases page](https://github.com/FreeCAD/FreeCAD/releases).
 
-If you\'re working under Linux, you don\'t need the LibPack, as you can get the dependencies from your distribution\'s repositories as mentioned in the [compile on Linux](Compile_on_Linux.md) page.
+Jeśli pracujesz pod Linuksem, nie potrzebujesz LibPacka, ponieważ możesz pobrać zależności z repozytoriów swojej dystrybucji, jak wspomniano na stronie [Kompilacja w systemie Linux](Compile_on_Linux/pl.md).
 
 ### FreeCAD 12.1.2 
 

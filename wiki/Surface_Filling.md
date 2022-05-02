@@ -25,9 +25,14 @@ The surface can be modified by adding constraint edges and vertices which the su
 
 ## Usage
 
-1.  Make sure you have at least three edges or curves in space forming a closed contour. For example, these can be created with tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) or the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md). Using three edges would create a triangular surface; four edges a quadrilateral surface.
+1.  Make sure you have at least three edges or curves in space forming a closed contour. For example, these can be created with tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:20px;"> [Draft](Draft_Workbench.md) or the <img alt="" src=images/Workbench_Sketcher.svg  style="width:20px;"> [Sketcher](Sketcher_Workbench.md) workbenches. Using three edges would create a triangular surface; four edges a quadrilateral surface.
     -   Optionally, curves can be drawn inside the closed contour, not necessarily touching the edges. These curves can be used to control the curvature of the resulting surface.
     -   Likewise, a number of vertices can be used with the same purpose to indicate where the surface must go through.
+    -   *Support surface* can be used to set an initial surface. If not set it will be computed automatically. The filled surface is computed by deformation of the support surface in order to satisfy the given constraints. *Support surface* can also be an additional constraint for the final surface. To get an idea of what it\'s doing you can try this simple example:
+        1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:16px;">[Part](Part_Workbench.md) workbench create a <img alt="" src=images/Part_Cylinder.svg  style="width:16px;">[cylinder](Part_Cylinder.md) and set its **Angle** to {{Value|180°}}.
+        2.  Switch to the <img alt="" src=images/Workbench_Surface.svg  style="width:16px;">[Surface](Surface_Workbench.md) workbench and press the **[<img src=images/Surface_Filling.svg style="width:16px"> [Surface filling](Surface_Filling.md)** button.
+        3.  Select the two half-circles and the two lines that connect them
+        4.  You will see that the resulting shape matches with the four boundary curves but the inner is quite different to the cylindrical face
 2.  Press the **[<img src=images/Surface_Filling.svg style="width:16px"> [Surface filling](Surface_Filling.md)** button.
 3.  Inside the **Boundary** section, press **Add edge**.
 4.  Use the pointer to pick the desired edges in the [3D view](3D_view.md); a preview of the final shape will be shown after selecting valid edges that form a closed contour.

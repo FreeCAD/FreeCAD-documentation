@@ -20,10 +20,10 @@ This category is for pages that are under construction and should not be touched
 | [PartDesign Bearingholder Tutorial II/it](wiki/PartDesign Bearingholder Tutorial II/it.md) | [PartDesign Bearingholder Tutorial II/pl](wiki/PartDesign Bearingholder Tutorial II/pl.md) | [PartDesign Bearingholder Tutorial II/pt-br](wiki/PartDesign Bearingholder Tutorial II/pt-br.md) |
 | [PartDesign Bearingholder Tutorial II/ro](wiki/PartDesign Bearingholder Tutorial II/ro.md) | [PartDesign Bearingholder Tutorial II/ru](wiki/PartDesign Bearingholder Tutorial II/ru.md) | [PartDesign Bearingholder Tutorial II/tr](wiki/PartDesign Bearingholder Tutorial II/tr.md) |
 | [Sandbox:Add FEM Solver Tutorial](wiki/Sandbox_Add FEM Solver Tutorial.md) | [Sandbox:Hollow Cylinder Tutorial](wiki/Sandbox_Hollow Cylinder Tutorial.md) | [Sandbox:TechDraw template creation tutorial](wiki/Sandbox_TechDraw template creation tutorial.md) |
-| [Sandbox:TechDraw template creation tutorial/en](wiki/Sandbox_TechDraw template creation tutorial/en.md) | [WikiPages](wiki/WikiPages.md) | [WikiPages/de](wiki/WikiPages/de.md) |
-| [WikiPages/en](wiki/WikiPages/en.md) | [WikiPages/es](wiki/WikiPages/es.md) | [WikiPages/fr](wiki/WikiPages/fr.md) |
-| [WikiPages/pl](wiki/WikiPages/pl.md) | [WikiPages/pt-br](wiki/WikiPages/pt-br.md) | [WikiPages/ru](wiki/WikiPages/ru.md) |
-| [Template:Work in progress](wiki/Template_Work in progress.md) |
+| [Sandbox:TechDraw template creation tutorial/en](wiki/Sandbox_TechDraw template creation tutorial/en.md) | [Tutorial KinematicController](wiki/Tutorial KinematicController.md) | [WikiPages](wiki/WikiPages.md) |
+| [WikiPages/de](wiki/WikiPages/de.md) | [WikiPages/en](wiki/WikiPages/en.md) | [WikiPages/es](wiki/WikiPages/es.md) |
+| [WikiPages/fr](wiki/WikiPages/fr.md) | [WikiPages/pl](wiki/WikiPages/pl.md) | [WikiPages/pt-br](wiki/WikiPages/pt-br.md) |
+| [WikiPages/ru](wiki/WikiPages/ru.md) | [Template:Work in progress](wiki/Template_Work in progress.md) |
 
 
 

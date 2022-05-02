@@ -65,11 +65,6 @@ The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.1
 -   Discussion: <https://forum.freecadweb.org/viewtopic.php?f=8&t=60885>
 
 
-{{Ship Tools navi
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Ship](Category_Ship.md) > Ship Workbench/ro
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Ship](Category_Ship.md) > Ship Workbench/ro

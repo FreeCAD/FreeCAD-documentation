@@ -80,7 +80,13 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 ### Proprietà delle celle 
 
+
+<div class="mw-translate-fuzzy">
+
 Le proprietà di una cella del foglio possono essere modificate con un clic destro su una cella. Si apre la seguente finestra:
+
+
+</div>
 
 ![](images/SpreadsheetCellPropDialog.png )
 
@@ -96,7 +102,13 @@ Come indicato dalle schede, è possibile modificare le seguenti proprietà:
 
 Una cella del foglio di calcolo può contenere un testo arbitrario o un\'espressione. Tecnicamente, le espressioni devono iniziare con un segno \"=\" uguale. Tuttavia, il foglio elettronico tenta di essere intelligente; se si inserisce qualcosa che sembra un\'espressione senza il segno \'=\', lo aggiunge automaticamente.
 
+
+<div class="mw-translate-fuzzy">
+
 Le espressioni inserite nelle celle possono contenere numeri, funzioni, riferimenti ad altre celle e riferimenti alle proprietà del modello (Ma vedere sotto le [ Limitazioni attuali](#Limitazioni_attuali.md)). Le celle sono referenziate dalla loro colonna (lettera maiuscola) e riga (numero). Una cella può anche essere referenziata dal suo [ alias](#Riferimento_ai_dati_CAD.md) (sottostante). Esempio: B4 + A6
+
+
+</div>
 
 Le espressioni inserite nelle celle sono trattate da FreeCAD come codice di programmazione. Pertanto, quando modifichi una cella il contenuto che vedi non segue le tue impostazioni di visualizzazione:
 
@@ -144,7 +156,16 @@ La tabella seguente mostra alcuni esempi assumendo che il modello abbia una figu
 
 ### Dati dei fogli di calcolo nelle espressioni 
 
+
+<div class="mw-translate-fuzzy">
+
 Per utilizzare i dati del foglio di calcolo in altre parti di FreeCAD, di solito creerai un [ Espressione](Expressions/it#Espressioni.md) che si riferisce al foglio di calcolo e alla cella che contiene i dati che desideri utilizzare. Puoi identificare i fogli di calcolo per nome o per etichetta e puoi identificare le celle per posizione o per alias. Il completamento automatico è disponibile per tutti i tipi di riferimento.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ++++
 |                     | Foglio di calcolo per nome                          | Foglio di calcolo per etichetta                        |
@@ -157,6 +178,9 @@ Per utilizzare i dati del foglio di calcolo in altre parti di FreeCAD, di solito
 |                     | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
 |                     |                                                  |                                                     |
 ++++
+
+
+</div>
 
 
 <div class = "mw-collapsible mw-collapsed">

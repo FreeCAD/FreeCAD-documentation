@@ -80,7 +80,13 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 ### Свойства ячейки 
 
+
+<div class="mw-translate-fuzzy">
+
 Свойства ячейки электронной таблицы можно редактировать, щелкнув ячейку правой кнопкой мыши. Появится следующий диалог:
+
+
+</div>
 
 ![](images/SpreadsheetCellPropDialog.png )
 
@@ -96,7 +102,13 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 Ячейка таблицы может содержать любой текст или выражение. Технически, выражение должно начинаться со знака равенства \'=\'. Однако, таблица пытается быть умной, и если Вы введёте нечто, похожее на выражение, но без начального знака \'=\', он будет добавлен автоматически.
 
+
+<div class="mw-translate-fuzzy">
+
 Выражения ячеек могут содержать числа, функции, ссылки на другие ячейки и ссылки на свойства модели. (Но смотрите [текущие ограничения](#Текущие_ограничения.md) ниже). Ссылки на ячейки по их столбцам (ЗАГЛАВНЫЕ буквы) и строкам (числа). На ячейки можно так же ссылаться по их [псевдонимам](#alias_name.md) (см. ниже). Пример: B4 + A6
+
+
+</div>
 
 **Примечание:** Выражения в ячейках обрабатываются FreeCAD как программный код. Поэтому при редактировании ячеек видимое содержимое не следует настройкам дисплея:
 
@@ -150,18 +162,18 @@ FreeCAD проверяет на циклические зависимости. �
 
 ### Данные таблицы в выражениях 
 
-In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by position or by alias. Autocompletion is available for all forms of referencing.
+In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by address or by alias. Autocompletion is available for all forms of referencing.
 
 ++++
-|                  | Spreadsheet by Name                                 | Spreadsheet by Label                                   |
-+==================+=====================================================+========================================================+
-| Cell by Position |                                      |                                         |
-|                  | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
-|                  |                                                  |                                                     |
+|                 | Spreadsheet by Name                                 | Spreadsheet by Label                                   |
++=================+=====================================================+========================================================+
+| Cell by Address |                                      |                                         |
+|                 | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
+|                 |                                                  |                                                     |
 ++++
-| Cell by Alias    |                                      |                                         |
-|                  | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
-|                  |                                                  |                                                     |
+| Cell by Alias   |                                      |                                         |
+|                 | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
+|                 |                                                  |                                                     |
 ++++
 
 

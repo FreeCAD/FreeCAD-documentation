@@ -254,11 +254,6 @@ Por supuesto este ejemplo no es real, entre otras cosas porque no se pueden llev
 </div>
 
 
-{{Ship Tools navi
-
-}}
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/es

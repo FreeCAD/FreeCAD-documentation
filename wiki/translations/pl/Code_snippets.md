@@ -1,11 +1,11 @@
 # Code snippets/pl
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
 This page contains examples, pieces, chunks of FreeCAD python code collected from users experiences and discussions on the [forums](https://forum.freecadweb.org/viewforum.php?f=22). Read and use it as a start for your own scripts\...
 
-## Snippets
+## Wycinki
 
 ### A typical InitGui.py file 
 

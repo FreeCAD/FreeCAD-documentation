@@ -2,12 +2,12 @@
 {{Macro/fr
 |Name=Macro FCBmpImport
 |Icon=FCBmpImportLogo.svg
-|Description=Importez des images BMP monochromes et en niveaux de gris dans FreeCAD sous forme d'esquisses, de solides, de fils, de faces ou de lithophane.
+|Description=Importe des images BMP monochromes et en niveaux de gris dans FreeCAD sous forme d'esquisses, de solides, de fils, de faces ou de lithophane.
 |Author=TheMarkster
 |Version=0.2021.09.23
 |Date=2021-09-23
-|FCVersion=0.18 or later
-|Download=[https://wiki.freecadweb.org/File:FCBmpImportScreenshot.png ToolBar Icon]
+|FCVersion=0.18 ou après
+|Download=[https://wiki.freecadweb.org/File:FCBmpImportScreenshot.png Icône de la barre d'outils]
 |SeeAlso=
 |Links=[https://github.com/mwganson/fcbmpimport Documentation complète sur Github]
 }}

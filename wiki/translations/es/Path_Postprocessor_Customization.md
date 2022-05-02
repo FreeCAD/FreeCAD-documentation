@@ -72,6 +72,13 @@ Para un formato de archivo {{FileName|<filename>}} el postprocesador debe obtene
 
 </div>
 
+The new name should be reflected at the head of the parser arguments list in the {{FileName|<filename>_post.py}} file, e.g.:
+
+
+{{Code|lang=text|code=
+parser = argparse.ArgumentParser(prog="grbl", add_help=False)
+}}
+
 Si estás probando, colócalo en tu directorio de macros. Si funciona bien, por favor, considera proporcionarla para que otros se beneficien (publícala en el FreeCAD Path foro) para que pueda ser incluida en la distribución de FreeCAD en el futuro.
 
 ## Otros postprocesadores existentes 

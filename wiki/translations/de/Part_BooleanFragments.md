@@ -1,10 +1,11 @@
 ---
 - GuiCommand:/de
-   Name/de:Part Boolesche Fragmente
-   MenuLocation:Part → Teilen → Boolesche Fragmente
-   Workbenches:[Arbeitsbereich Part](Part_Workbench/de.md)
-   Version:0.17.8053
-   SeeAlso:[Part Scheibe](Part_Slice/de.md), [Part XOR](Part_XOR/de.md), [Part Fügefunktionen](Part_CompJoinFeatures/de.md), [Part Boolesche](Part_Boolean/de.md)
+   Name:Part BooleanFragments
+   Name/de:Part BoolescheFragmente
+   MenuLocation:Formteil → Teilen → Boolesche Fragmente
+   Workbenches:[Part](Part_Workbench/de.md)
+   Version:0.17
+   SeeAlso:[Part Auseinanderschneiden](Part_Slice/de.md), [Part XOR](Part_XOR/de.md), [Part AuswahlVerbindungsmethoden](Part_CompJoinFeatures/de.md), [Part Boolesche Operationen](Part_Boolean/de.md)
 ---
 
 # Part BooleanFragments/de
@@ -51,8 +52,6 @@ Ein Boolesches Fragmentparametrisches Objekt wird erstellt. Originalobjekte werd
 -    {{PropertyData/de|Toleranz}}: \"Unschärfe\" Wert. Dies ist eine zusätzliche Toleranz, die bei der Suche nach Schnittmengen zusätzlich zu den in den Eingabeformen gespeicherten Toleranzen angewendet wird.
 
 ## Implementierungsdetails
-
-## Implementationsdetails
 
 Das Werkzeug Boolesche Fragmente im \"Standardmodus\" ist der Allgemeine Verschmelzungs Operator (engl.: General Fuse Operator (GFA)) von OpenCascade. Es akzeptiert eine Kombination von wahrscheinlich allen Formtypen, und die Logik der Ausgabe ist ziemlich kompliziert. Siehe [OpenCascade Benutzerhandbuch: Boolesche Operationen](https://www.opencascade.com/doc/occt-7.0.0/overview/html/occt_user_guides__boolean_operations.html).
 

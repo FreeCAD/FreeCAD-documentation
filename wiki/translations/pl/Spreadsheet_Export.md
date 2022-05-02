@@ -1,22 +1,23 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Spreadsheet Export
-   MenuLocation:Spreadsheet → Export spreadsheet
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
+   Name/pl:Arkusz Kalkulacyjny: Eksportuj
+   MenuLocation:Arkusz Kalkulacyjny → Eksportuj
+   Workbenches:[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
    Version:0.17
-   SeeAlso:[Spreadsheet Import](Spreadsheet_Import.md)
+   SeeAlso:[Importuj](Spreadsheet_Import/pl.md)
 ---
 
 # Spreadsheet Export/pl
 
-## Description
+## Opis
 
-The **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet Export](Spreadsheet_Export.md)** tool allows you to export a spreadsheet as a CSV file, which can subsequently be opened and used in other applications. Note that the {{Value|tab}} character, and not the {{Value|comma}}, is the default field delimiter. But this can be changed in the [Spreadsheet Preferences](Spreadsheet_Preferences.md) (<small>(v0.20)</small> ).
+Narzędzie **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Eksportuj](Spreadsheet_Export/pl.md)** pozwala wyeksportować dane arkusza kalkulacyjnego do pliku w formacie CSV, które można następnie otworzyć i wykorzystać w innych aplikacjach. Zwróć uwagę, że domyślnym separatorem pól jest znak {{Incode|tabulacji}}, a nie {{Incode|przecinek}}. Można to jednak zmienić w [ustawieniach](Spreadsheet_Preferences/pl.md). *({{Version/pl|0.20}})*
 
-## Usage
+## Użycie
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Press the **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet Export](Spreadsheet_Export.md)** button.
+1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
+2.  Naciśnij przycisk **[<img src=images/Spreadsheet_Export.svg style="width:16px"> [eksportuj](Spreadsheet_Export/pl.md)**.
 
 
 

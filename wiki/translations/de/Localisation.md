@@ -34,15 +34,15 @@ Details zur Verwendung von Crowdin findest du auf der Seite [Crowdin Verwaltung]
 
 -   Besuche [Übersetzen eines externen Arbeitsbereichs](Translating_an_external_workbench/de.md)
 
-## FreeCAD Preferences for Translators 
+## FreeCAD-Voreinstellungen für Übersetzer 
 
-Starting with FreeCAD 0.20, the following variables can be manually added to the BaseApp/Preferences/General section of the user.cfg file to assist with the development of new translations:
+Seit der FreeCAD 0.20 können folgende Variablen manuell in den Abschnitt BaseApp/Preferences/General der Datei user.cfg hinzugefügt werden, um die Erarbeitung neuer Übersetzungen zu unterstützen:
 
-**AdditionalLanguageDomainEntries** - to add entirely new languages to FreeCAD that are not currently supported by the source code, you can use this user preference to add to the list of available languages. The format of the languages is \"Language Name\"=\"code\"; for example:
+**AdditionalLanguageDomainEntries** - zum Hinzufügen völlig neuer Sprachen zu FreeCAD, die bisher nicht durch den Quellkode unterstützt werden. Diese Benutzereinstellung kann man verwenden, um die Liste der verfügbaren Sprachen zu erweitern. Das Format für die Sprachen ist \"Language Name\"=\"code\"; zum Beispiel:
 
     <FCText Name="AdditionalLanguageDomainEntries">"Esperanto"="eo";"French"="fr";</FCText>
 
-**AdditionalTranslationsDirectory** - add an additional directory for FreeCAD to search for \*.qm files. This location will take precedence over \$userAppDataDir/translations and \$resourceDir/translations. For example:
+**AdditionalTranslationsDirectory** - Hinzufügen eines zusätzlichen Verzeichnisses, in dem FreeCAD nach \*.qm-Dateien suchen kann. Dieser Speicherort bekommt den Vorzug vor \$userAppDataDir/translations und \$resourceDir/translations. Zum Beispiel:
 
     <FCText Name="AdditionalTranslationsDirectory">C:/Users/FreeCADUser/TestTranslations</FCText>
 
@@ -168,56 +168,56 @@ Derzeit verwenden FreeCAD Betreuer die Crowdin API über [Crowdin Skripte](Crowd
 -   [Crowdin Verwaltung](Crowdin_Administration/de.md)
 -   [Crowdin Skripte](Crowdin_Scripts/de.md)
 
-## Scripting
+## Skripten
 
 
-**See also:**
+**Siehe auch:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-To get a dictionary with the languages the FreeCAD interface supports, use the `supportedLocales` method of the `FreeCADGui` module.
+Um eine Übersetzungsliste einer Sprache, die die FreeCAD-Schnittstelle unterstützt, zu erhalten, benutzt man die Methode `supportedLocales` des Moduls `FreeCADGui`.
 
 
 ```python
 locales = FreeCADGui.supportedLocales()
 ```
 
-After execution `locales` will contain:
+Nach der Ausführung enthält `locales`:
 
 
 ```python
 {'English': 'en', 'Afrikaans': 'af', 'Arabic': 'ar', 'Basque': 'eu', 'Catalan': 'ca', 'Chinese Simplified': 'zh-CN', 'Chinese Traditional': 'zh-TW', 'Croatian': 'hr', 'Czech': 'cs', 'Dutch': 'nl', 'Filipino': 'fil', 'Finnish': 'fi', 'French': 'fr', 'Galician': 'gl', 'German': 'de', 'Hungarian': 'hu', 'Indonesian': 'id', 'Italian': 'it', 'Japanese': 'ja', 'Kabyle': 'kab', 'Korean': 'ko', 'Lithuanian': 'lt', 'Norwegian': 'no', 'Polish': 'pl', 'Portuguese': 'pt-PT', 'Portuguese, Brazilian': 'pt-BR', 'Romanian': 'ro', 'Russian': 'ru', 'Slovak': 'sk', 'Slovenian': 'sl', 'Spanish': 'es-ES', 'Swedish': 'sv-SE', 'Turkish': 'tr', 'Ukrainian': 'uk', 'Valencian': 'val-ES', 'Vietnamese': 'vi'}
 ```
 
-To get the current interface language use the `getLocale` method of the same module:
+Um die aktuelle Schnittstellensprache herauszufinden, benutzt man die Methode `getLocale` desselben Moduls:
 
 
 ```python
 locale = FreeCADGui.getLocale()
 ```
 
-If the current language is English `locale` will contain:
+Ist die aktuelle Sprache Englisch, enthält `locale`:
 
 
 ```python
 'English'
 ```
 
-To get the corresponding [language code](https://support.crowdin.com/api/language-codes/) you can use use:
+Um das dazugehörige [Sprachkürzel](https://support.crowdin.com/api/language-codes/) zu erhalten, verwendet man:
 
 
 ```python
 locale = FreeCADGui.supportedLocales()[Gui.getLocale()]
 ```
 
-If the current language is English the result will be:
+Wenn die aktuelle Sprache Englisch ist, ist das Ergebnis:
 
 
 ```python
 'en'
 ```
 
-To set the current interface language use the `setLocale` method of the same module. You can specify the language or the language code:
+Um die aktuelle Sprache der Benutzerschnittstelle zu ändern, verwendet man die Methode `setLocale` desselben Moduls. Man kann hier die Sprache oder das Sprachkürzel angeben:
 
 
 ```python

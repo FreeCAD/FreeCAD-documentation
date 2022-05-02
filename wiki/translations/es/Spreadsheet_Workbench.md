@@ -80,7 +80,13 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 ## Propiedades de la celda 
 
+
+<div class="mw-translate-fuzzy">
+
 Las propiedades de una celda de la hoja de cálculo pueden editarse haciendo clic con el botón derecho del ratón en una celda. Aparece el siguiente cuadro de diálogo:
+
+
+</div>
 
 ![](images/SpreadsheetCellPropDialog.png )
 
@@ -96,7 +102,13 @@ Como se indica en las pestañas, se pueden modificar las siguientes propiedades:
 
 Una celda de la hoja de cálculo puede contener un texto arbitrario o una expresión. Técnicamente, las expresiones deben comenzar con un signo igual \'=\'. Sin embargo, la hoja de cálculo intenta ser inteligente; si se introduce lo que parece una expresión sin el \'=\' inicial, se añadirá uno automáticamente.
 
+
+<div class="mw-translate-fuzzy">
+
 Las expresiones de celdas pueden contener números, funciones, referencias a otras celdas y referencias a propiedades del modelo (Pero vea [Limitaciones actuales](#Limitaciones_actuales.md) más abajo). Las celdas se referencian por su columna (letra MAYÚSCULA) y fila (número). Una celda también puede ser referenciada por su [nombre\_alias](#nombre_alias.md) (más abajo). Ejemplo: B4 + A6
+
+
+</div>
 
 **Nota:** Las expresiones de celda son tratadas por FreeCAD como código de programación. Por lo tanto, cuando editas una celda el contenido ves que no sigue su configuración de visualización:
 
@@ -144,18 +156,18 @@ The following table shows some examples assuming the model has a feature named \
 
 ### Datos de la hoja de cálculo en expresiones 
 
-In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by position or by alias. Autocompletion is available for all forms of referencing.
+In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by address or by alias. Autocompletion is available for all forms of referencing.
 
 ++++
-|                  | Spreadsheet by Name                                 | Spreadsheet by Label                                   |
-+==================+=====================================================+========================================================+
-| Cell by Position |                                      |                                         |
-|                  | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
-|                  |                                                  |                                                     |
+|                 | Spreadsheet by Name                                 | Spreadsheet by Label                                   |
++=================+=====================================================+========================================================+
+| Cell by Address |                                      |                                         |
+|                 | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
+|                 |                                                  |                                                     |
 ++++
-| Cell by Alias    |                                      |                                         |
-|                  | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
-|                  |                                                  |                                                     |
+| Cell by Alias   |                                      |                                         |
+|                 | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
+|                 |                                                  |                                                     |
 ++++
 
 

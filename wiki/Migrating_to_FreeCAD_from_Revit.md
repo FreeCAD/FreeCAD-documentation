@@ -19,7 +19,7 @@ Although you will be able to perform the same tasks and obtain a similar result 
 
 -   Objects created with one BIM tool can have all supported BIM types. You only need to change their **IFC Type** property. So, for example, you can create a beam using the wall tool, just by changing its IFC type to \"Beam\" afterwards.
 
--   BIM tools follow the [Draft Workbench](Draft_Workbench.md) philosophy: They can be created anywhere and anyhow in the 3D space. You just need to set your [working plane](Draft_WorkingPlane.md) correctly, then next BIM objects will be created on that plane.
+-   BIM tools follow the [Draft Workbench](Draft_Workbench.md) philosophy: They can be created anywhere and anyhow in the 3D space. You just need to set your [working plane](Draft_Snap_WorkingPlane.md) correctly, then next BIM objects will be created on that plane.
 
 -   There is no mandatory building structure (floors in Revit) in FreeCAD. You can group your objects using [groups](Std_Group.md), or [Building parts](Arch_BuildingPart.md) (which are commonly used to make levels, but can actually be used for any kind of grouping) to work the same way as in Revit, but you are the one who chooses the most appropriate way for your project.
 

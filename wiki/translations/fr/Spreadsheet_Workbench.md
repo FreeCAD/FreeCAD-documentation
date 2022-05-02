@@ -68,7 +68,7 @@ Dans la version 0.19 de FreeCAD et antérieures, il y a un bug qui peut provoque
 
 ## Propriétés d\'une cellule 
 
-Les propriétés d\'une cellule de feuille de calcul peuvent être éditées avec un clic-droit sur la cellule. La boîte de dialogue suivante apparaît :
+Les propriétés d\'une cellule de feuille de calcul peuvent être modifiées en cliquant droit sur la cellule et en sélectionnant **Properties...** dans le menu contextuel. La boîte de dialogue suivante s\'affiche :
 
 ![](images/SpreadsheetCellPropDialog.png )
 
@@ -84,7 +84,7 @@ Comme mentionné dans les onglets, les propriétés suivantes peuvent être chan
 
 Une cellule de feuille de calcul peut contenir du texte arbitraire ou une expression. Techniquement, les expressions doivent commencer par un signe égal \'=\'. Cependant, le tableur tente d'être intelligent ; si vous entrez ce qui ressemble à une expression sans le signe \'=\', celui-ci sera ajouté automatiquement.
 
-Les expressions cellulaires peuvent contenir des nombres, des fonctions, des références à d\'autres cellules et des références à des propriétés du modèle (voir toutefois les [limitations courantes](#Limitations_Courantes.md) ci-dessous). Les cellules sont référencées par leur colonne (lettre CAPITALE) et leur rangée (nombre). Une cellule peut également être référencée par son [alias](#alias_name.md) (voir ci-dessous). Exemple: B4 + A6
+Les expressions cellulaires peuvent contenir des nombres, des fonctions, des références à d\'autres cellules et des références à des propriétés du modèle (voir toutefois les [limitations courantes](#Limitations_Courantes.md) ci-dessous). Les cellules sont référencées par leur colonne (lettre CAPITALE) et leur rangée (nombre). Une cellule peut également être référencée par son [alias](#alias_name.md). Exemple: B4 + A6
 
 **Remarque:** Les expressions de cellule sont traitées par FreeCAD comme du code de programmation. Par conséquent, lorsque vous modifiez une cellule, vous voyez que le contenu ne suit pas vos paramètres d\'affichage:
 
@@ -132,18 +132,18 @@ Le tableau suivant montre quelques exemples en supposant que le modèle a une fo
 
 ### Données de la feuille de calcul dans les expressions 
 
-Pour utiliser les données de la feuille de calcul dans d\'autres parties de FreeCAD, vous allez généralement créer une [Expression](Expressions/fr.md) qui fait référence à la feuille de calcul et à la cellule contenant les données que vous souhaitez utiliser. Vous pouvez identifier les feuilles de calcul par le nom ou par l\'étiquette, et vous pouvez identifier les cellules par leur position ou par leur alias. L\'autocomplétion est disponible pour toutes les formes de référencement.
+Pour utiliser les données de la feuille de calcul dans d\'autres parties de FreeCAD, vous allez généralement créer une [Expression](Expressions/fr.md) qui fait référence à la feuille de calcul et à la cellule contenant les données que vous souhaitez utiliser. Vous pouvez identifier les feuilles de calcul par le nom ou par l\'étiquette, et vous pouvez identifier les cellules par adresse ou par alias. L\'autocomplétion est disponible pour toutes les formes de référencement.
 
 ++++
-|                         | Feuille de calcul par le nom                        | Feuille de calcul par l\'étiquette                     |
-+=========================+=====================================================+========================================================+
-| Cellule par la position |                                      |                                         |
-|                         | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
-|                         |                                                  |                                                     |
+|                      | Feuille de calcul par le nom                        | Feuille de calcul par l\'étiquette                     |
++======================+=====================================================+========================================================+
+| Cellule par adresse  |                                      |                                         |
+|                      | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
+|                      |                                                  |                                                     |
 ++++
-| Cellule par l\'alias    |                                      |                                         |
-|                         | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
-|                         |                                                  |                                                     |
+| Cellule par l\'alias |                                      |                                         |
+|                      | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
+|                      |                                                  |                                                     |
 ++++
 
 

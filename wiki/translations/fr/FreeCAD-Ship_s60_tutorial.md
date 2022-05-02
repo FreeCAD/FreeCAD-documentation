@@ -309,11 +309,6 @@ Courbes Hydrostatiques.
 Le [Tutoriel Construction navale S60 (II)](FreeCAD-Ship_s60_tutorial_(II)/fr.md) est le deuxième chapitre de la série 60 du bateau universitaire de l\'Iowa.
 
 
-{{Ship Tools navi
-
-}}
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial/fr

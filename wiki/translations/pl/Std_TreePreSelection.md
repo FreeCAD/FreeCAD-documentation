@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
-   Name:Std TreePreSelection
-   MenuLocation:View → TreeView actions → Pre-selection
-   Workbenches:All
+- GuiCommand:/pl
+   Name:Std TreeSelection
+   Name/pl:Std: Wybór wstępny w widoku drzewa
+   MenuLocation:Widok → Akcje widoku drzewa → Wybór wstępny
+   Workbenches:Wszystkie
    Shortcut:**T** **4**
    Version:0.19
 ---
@@ -11,18 +12,18 @@
 
 ## Opis
 
-The **Std TreePreSelection** command toggles the [Tree view](Tree_view.md) PreSelection mode. If this mode is on, an object that the mouse is over in the Tree view will be pre-selectected (temporarily highlighted) in all [3D views](3D_view.md) belonging to that object\'s document.
+Polecenie **Wybór wstępny w widoku drzewa** przełącza Tryb wstępnego zaznaczania w oknie [widok drzewa](Tree_view/pl.md). Jeśli ten tryb jest włączony, obiekt, nad którym znajduje się kursor myszki w widoku drzewa, zostanie wstępnie zaznaczony *(tymczasowo podświetlony)* we wszystkich [widokach 3D](3D_view/pl.md) danego obiektu w dokumencie.
 
 ## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Pre-selection** option from the flyout. Note: the button image will change depending on the selected option.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeSyncView.svg" width=16px> Pre-selection** option from the menu.
-    -   Use the keyboard shortcut: **T** then **4**.
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz opcję **Wybór wstępny** z menu podręcznego. Uwaga: obraz przycisku będzie się zmieniał w zależności od wybranej opcji.
+    -   Wybierz opcję z menu **Widok → Akcje widoku drzewa → <img src="images/Std_TreeSyncView.svg" width=16px> Wybór wstępny**.
+    -   Użyj skrótu klawiaturowego: **T**, a następnie **4**.
 
 ## Ustawienia
 
-The Tree view PreSelection mode can also be set in the [Preferences editor](Preferences_Editor#Selection.md): **Edit→ Preferences → General → Selection**.
+Tryb Wybór wstępny w widoku drzewa można również ustawić w [Edytorze preferencji](Preferences_Editor/pl#Zaznaczenie.md): **Edycja → Preferencje ...→ Ogólne → zakładka Zaznaczanie**.
 
 
 

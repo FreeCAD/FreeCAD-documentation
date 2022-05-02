@@ -495,6 +495,9 @@ Zum Beispiel muss der Bezeichner `Skizze\002` als `<<Skizze\002>>` referenziert 
 
 [Namen](Object_name/de#Name.md) von Objekten wie Dimensionen, Skizzen, usw. dürfen folgende Zeichen oder Zeichenfolgen nicht enthalten. Anderenfalls ist der Namen ungültig.
 
+
+<div class="mw-translate-fuzzy">
+
   Zeichen / Zeichenfolgen                                                                                                                          Beschreibung
    
   **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**                     Zeichen die mathematische Operatoren oder mathematische Konstruktionen sind.
@@ -504,13 +507,16 @@ Zum Beispiel muss der Bezeichner `Skizze\002` als `<<Skizze\002>>` referenziert 
   **´**, **\**, \'\'\' \' \'\'\', **\"**                                                                                                          Akzente
   Leerzeichen (Space)                                                                                                                              Ein Leerzeichen definiert das Ende eines Namens und kann daher nicht verwendet werden.
 
+
+</div>
+
 Beispielsweise ist folgender Name gültig: \>.Constraints.mol** (mol ist eine Einheit).
 
 Da kürzere Namen (vor allem, wenn sie nur ein oder zwei Zeichen haben) leicht zu ungültigen Namen führen können, sollte die Verwendung längerer Namen in Betracht gezogen und/oder eine geeignete Namenskonvention festgelegt werden.
 
 ### Zell Aliase 
 
-Für [Kalkulationstabelle SetzeAlias](Spreadsheet_SetAlias/de.md) sind nur alphanumerische Zeichen und Unterstriche erlaubt (`A` bis `Z`, `a` bis `z`, `0` bis `9` und `_`). {{Top}}
+See [Spreadsheet SetAlias](Spreadsheet_SetAlias#Usage.md). {{Top}}
 
 ## Referenzen auf CAD Daten 
 

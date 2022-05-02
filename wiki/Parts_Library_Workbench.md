@@ -29,12 +29,12 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
 
 How to [here](https://github.com/FreeCAD/FreeCAD-library)
 
-The library is a simple container for FreeCAD (.fcstd) and STEP (.stp) files. You can download it anywhere and import its files in your FreeCAD projects. Inside the library, there is also a FreeCAD macro (PartsLibrary.FCMacro) that you can place in your FreeCAD macros folder. That macro creates a browser window inside FreeCAD, from which you can easily add the parts by double-clicking them.
+The library is a simple container for FreeCAD (.fcstd) and STEP (.stp) files. You can download it anywhere and import its files in your FreeCAD projects. Inside the library, there is also a FreeCAD [Macro PartsLibrary](Macro_PartsLibrary.md) that you can place in your FreeCAD macros folder. That macro creates a browser window inside FreeCAD, from which you can easily add the parts by double-clicking them.
 
 ## Links to PartsLibrary workbench 
 
 -   Workbench Wiki:
--   FreeCAD Wiki: [Macro PartsLibrary](http://www.freecadweb.org/wiki/index.php?title=Macro_PartsLibrary)
+-   FreeCAD Wiki: [Macro PartsLibrary](Macro_PartsLibrary.md)
 -   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?f=10&t=1378>
 -   Tutorials:
 -   Videos:
@@ -44,8 +44,8 @@ The library is a simple container for FreeCAD (.fcstd) and STEP (.stp) files. Yo
 
 ## Other useful links 
 
--   [BOLTS WB](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts)
--   [Fasteners WB](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners)
+-   [Macro BOLTS](Macro_BOLTS.md)
+-   [Fasteners Workbench](Fasteners_Workbench.md)
 -   [External workbenches](External_workbenches.md)
 -   [Macros recipes](Macros_recipes.md)
 -   [FreeCAD Download](Download.md)

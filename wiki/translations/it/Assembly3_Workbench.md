@@ -449,6 +449,9 @@ Il progettista utilizza i vincoli per ottenere il risultato desiderato nella rel
 
 Assembly3 I vincoli definiscono le restrizioni nella posizione o nell\'orientamento tra due [Elementi](#Elements.md). Alcuni vincoli funzionano anche con più di due [Elementi](#Elements.md). Un [Elemento](#Elements.md) può essere una faccia, una linea o un bordo o un punto di una parte. Generalmente i vincoli sono definiti selezionando gli [Elementi](#Elements.md) e poi selezionare il vincolo dai Vincoli [toolbar](#Toolbars.md).
 
+
+<div class="mw-translate-fuzzy">
+
 -   Fissa 6 DOF, lascia 0 DOF:
     -   **Lock**: Il blocco del vincolo fissa tutti i DOF per una faccia. Dovrebbe essere usato per una parte di base in ogni assemblaggio. Si può anche attivare la funzione \"MoveLock\" (nella barra degli strumenti) in modo che il pezzo non possa essere spostato accidentalmente. Normalmente non importa quale faccia/linea/punto si usa per fissare un pezzo. Si noti inoltre che il blocco è valido solo per l\'assemblaggio diretto, cioè nel caso di un sottoinsieme l\'assemblaggio principale richiederebbe comunque una parte bloccata.
     -   **Attachment**: Rende i sistemi di coordinate di entrambi gli elementi uguali per tutti gli assi. Questa è la funzione più comoda per il calcolo e dovrebbe essere usata dove possibile. Si noti che si potrebbero usare le proprietà degli elementi per compensare gli offset e gli angoli se i due [elementi](#Elements.md) non sono perfettamente allineati.
@@ -474,6 +477,9 @@ Altro
 
 -   **Points on Circle**: fissa Tz e parzialmente Tx,Ty. Congela la traslazione del punto (o più punti) su un cerchio o su un\'area del disco. Devi scegliere il cerchio per secondo. Questo lascia tutte le rotazioni libere e dà una traslazione limitata nel piano di riferimento del cerchio.
 
+
+</div>
+
 \'\': Nota: Nella seguente lista Tx,Ty,Tz e Rx,Ry,Rz sono usati per descrivere le traslazioni e le rotazioni dei sistemi di coordinate di riferimento dell\'elemento interessato. Questo non è sempre esatto o completamente definito, ad esempio quando è coinvolta una linea non è definito se corre in X, Y o qualsiasi altro angolo in mezzo. Il sistema è usato per un breve e facile comparazione a favore di una definizione corretta ma più complessa. Quindi Z è generalmente la direzione normale di tutte le facce coinvolte. Sentitevi liberi di modificarla con un approccio migliore con una migliore leggibilità\".
 
 [Torna all\'inizio](#top.md)
@@ -482,16 +488,28 @@ Elements è un termine specifico usato nel banco di lavoro Assembly3 ed è impor
 
 È utile pensare a un elemento come parola generale per un \"elemento selezionabile\" di una parte, cioè una faccia, un bordo, un cerchio o un angolo o un altro punto. Gli elementi che si selezionano per vincolarli, sono quegli elementi. Nell\'albero una cartella Assembly ha tre sottocartelle. Accanto a \'Parts\' e \'Constraints\' c\'è una cartella chiamata \'Elements\', che è vuota finché non vengono aggiunti vincoli. Quando si aggiunge un vincolo il vincolo stesso ottiene due (o più) linee, questi sono gli \'Elementi\' selezionati. Anche questi vengono aggiunti nella cartella \'Elements\' che è solo un elenco di tutti gli elementi utilizzati nell\'assieme. E\' una buona idea cambiare i loro nomi (con il tasto F2), specialmente negli assemblaggi più grandi.
 
+
+<div class="mw-translate-fuzzy">
+
 Vediamo un esempio
 
 :   Creare un nuovo file e aggiungere dal banco di lavoro Part un cubo e un cilindro.Impileremo il cilindro sul cubo. Prima fissiamo la parte base, nel nostro caso il cubo. Selezioniamo la faccia inferiore del cubo e selezioniamo i vincoli \"Bloccato\" (prima icona nei Vincoli [barra degli strumenti](#Toolbars.md)). Selezionare la faccia superiore del cilindro e la faccia superiore del cubo. Quindi selezionare il vincolo \"Plane Coincident\". Ora il cilindro viene spostato nel cubo e nell\'albero è stata aggiunta una nuova foglia con due nodi figli sotto \"Constraints\". Inoltre gli stessi due nodi figli sono stati aggiunti sotto \"Elements\". Se il cilindro si trova all\'interno del cubo invece che sopra il cubo, correggiamo prima questo: sotto \'Constraints\' selezionate il nodo figlio che mostra la faccia del cilindro e con un clic destro del mouse nel menu contestuale selezionate \'Flip Part\'. Ora il cilindro è impilato sul cubo.
 
+
+</div>
+
 La chiave per capire è che il vincolo opera sui collegamenti agli elementi nella lista della cartella ad albero \'Elements\'. Questo permette di mantenere intatta la struttura del vincolo mentre si cambiano le parti. Questo è molto difficile da comprendere senza un esempio.
+
+
+<div class="mw-translate-fuzzy">
 
 Torniamo all\'esempio precedente
 
 :   Nota: assicurarsi di aver aggiunto il vincolo \"Lock\" al cubo o questo sembrerà disorientante
 :   Nella finestra CAD selezionare un\'altra faccia del cubo. Ora lavoriamo solo nella vista ad albero. Andate con il mouse nell\'albero dove il cubo deve apparire selezionato. Trascinare il cubo nella cartella \"Elements\". Trascinatelo sul nome \'Elements\', in nessun altro punto della cartella vedremo in seguito il motivo. Dovreste vedere che un altro Elemento viene aggiunto alla lista degli \'Elementi\'. Ora selezionate nella cartella \'Constraints\' il nodo figlio della faccia del cubo nel vincolo \"Plane Coincident\" e cancellatelo. Il Vincolo mostrerà un punto esclamativo poiché manca un elemento. Si noti che cancellando l\'elemento in Constraint non lo abbiamo cancellato dalla lista. Questo perché nel vincolo c\'era solo un link all\'Elemento. Ora prendiamo l\'Elemento appena aggiunto nella lista \'Elements\' e lo trasciniamo sul vincolo \"Plane Coincident\". Ora il cilidro si sposta sull\'altra faccia che abbiamo selezionato. Potremmo aver bisogno di selezionare di nuovo \'Flip Part nel menu contestuale\' se il cilindro è di nuovo all\'interno del cubo.
+
+
+</div>
 
 L\'esempio ha mostrato che senza rimuovere il vincolo possiamo cambiare gli Elementi che vengono utilizzati per il vincolo. Allo stesso modo possiamo spostare il cilindro in una parte totalmente diversa. Dopo aver giocato un po\' di più con questo esempio, si noteranno alcune cose aggiuntive come
 

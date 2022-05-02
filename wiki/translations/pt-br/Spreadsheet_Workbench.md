@@ -80,7 +80,13 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 ## Propriedades celulares 
 
+
+<div class="mw-translate-fuzzy">
+
 As propriedades de uma célula de planilha podem ser editadas com um clique com o botão direito do mouse sobre uma célula. As seguintes propriedades o diálogo aparece:
+
+
+</div>
 
 ![](images/SpreadsheetCellPropDialog.png )
 
@@ -96,7 +102,13 @@ Conforme indicado pelas abas, as seguintes propriedades podem ser alteradas:
 
 Uma célula de planilha pode conter um texto ou uma expressão arbitrária. Tecnicamente, as expressões devem começar com um sinal igual a \'=\'. Entretanto, a planilha tenta ser inteligente; se você digitar o que parece ser uma expressão sem o sinal \'=\' principal, uma será adicionada automaticamente.
 
+
+<div class="mw-translate-fuzzy">
+
 As expressões celulares podem conter números, funções, referências a outras células e referências a propriedades do modelo (Mas veja [Limitações atuais](#Limitações_atuais.md) abaixo). As células são referenciadas por sua coluna (letra CAPITULAR) e linha (número). Uma célula também pode ser referenciada por sua [pseudônimo](#alias_name.md)(abaixo).Exemplo: B4 + A6
+
+
+</div>
 
 Nota: As expressões celulares são tratadas pelo FreeCAD como código de programação. Portanto, quando você edita uma célula, o conteúdo que você vê não está seguindo suas configurações de visualização:
 
@@ -144,7 +156,16 @@ A tabela a seguir mostra alguns exemplos assumindo que o modelo tem uma caracter
 
 ### Dados da planilha em expressões 
 
+
+<div class="mw-translate-fuzzy">
+
 Para usar os dados da planilha em outras partes do FreeCAD, você geralmente criará uma [Expressão](Expressions.md) que se refere à planilha e à célula que contém os dados que você deseja usar. Você pode identificar as planilhas por nome ou por etiqueta, e pode identificar as células por posição ou por pseudônimo. O auto-completamento está disponível para todas as formas de referência.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ++++
 |                       | Planilha por nome                                   | Planilha por Rótulo                                    |
@@ -157,6 +178,9 @@ Para usar os dados da planilha em outras partes do FreeCAD, você geralmente cri
 |                       | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
 |                       |                                                  |                                                     |
 ++++
+
+
+</div>
 
 
 <div class="mw-collapsible mw-collapsed">

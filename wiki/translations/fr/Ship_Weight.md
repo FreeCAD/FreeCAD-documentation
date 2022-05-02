@@ -14,13 +14,13 @@
 
 Ajoute un poids à l\'instance du bateau.
 
-Jusqu\'à ce stade, tous les outils de Ship workbench sont basés sur une **instance de bateau** (voir [Créer une coque](Ship_New/fr.md)), qui ne contient que des informations sur la forme du bateau. Suivant le système d\'introduction progressive des données, l\'utilisateur peut à ce stade définir des conditions de charge, ce qui implique de créer des poids avec cet outil, de créer des réservoirs (voir [Création de réservoirs](Ship_TankNew/fr.md)) et de les assembler dans des conditions de charge (voir [Conditions de charge](Ship_Loading/fr.md)). Avec ces informations, le centre de gravité du bateau peut être défini, permettant ainsi d\'autres calculs.
+Jusqu\'à ce stade, tous les outils de Ship workbench sont basés sur une **instance de bateau** (voir [Ship Créer une coque](Ship_CreateShip/fr.md)), qui ne contient que des informations sur la forme du bateau. Suivant le système d\'introduction progressive des données, l\'utilisateur peut à ce stade définir des conditions de charge, ce qui implique de créer des poids avec cet outil, de créer des réservoirs (voir [Ship Création de réservoirs](Ship_Tank/fr.md)) et de les assembler dans des conditions de charge (voir [Ship Charge](Ship_LoadCondition/fr.md)). Avec ces informations, le centre de gravité du bateau peut être défini, permettant ainsi d\'autres calculs.
 
 ## Utilisation
 
-Pour créer un poids, sélectionnez la géométrie du poids (voir ci-dessous) et invoquez **Weights → Create a new ship weight**.
+Pour créer un poids, sélectionnez la géométrie du poids (voir ci-dessous) et lancez **Weights → <img src="images/Ship_Weight.svg" width=16px> Create a new ship weight**.
 
-Le panneau des tâches s\'affiche, où vous devez sélectionner l\'instance du bateau (voir [Créer une coque](Ship_New/fr.md)) dans laquelle le poids doit être ajouté, ainsi que la densité/masse.
+Le panneau des tâches s\'affiche, où vous devez sélectionner l**\'instance du bateau** (voir [Ship Créer une coque](Ship_CreateShip/fr.md)) dans laquelle le poids doit être ajouté, ainsi que la densité/masse.
 
 Lorsque vous appuyez sur le bouton **Accept**, une nouvelle instance de réservoir est créée dans l**\'instance de bateau** choisie.
 
@@ -69,13 +69,5 @@ Les poids ponctuels sont caractérisés par leur masse (en kg, ou toute autre un
 
 
 
-
-
-{{Ship_Tools_navi
-
-}}
-
-
-
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > Ship Weight/fr
+![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > Ship Weight/fr

@@ -781,13 +781,21 @@ If you have done an out-of-source build before and get stuck on a dependency tha
 
 ### Compiling against GNU libc 2.34 and later 
 
-GNU libc 2.34 introduces a change to the library that can cause builds on some Linux systems to fail with an error like: {{Code|lang=bash|code=
+GNU libc 2.34 introduces a change to the library that can cause builds on some Linux systems to fail with an error like:
+
+
+{{Code|lang=bash|code=
 No rule to make target '/usr/lib/x86_64-linux-gnu/libdl.so
 }}
 
-To resolve this, a symbolic link must be manually created from the (now empty) system-installed libdl.so.\* to the location your compiler says it is looking for the file. For example, {{Code|lang=bash|code=
+To resolve this, a symbolic link must be manually created from the (now empty) system-installed libdl.so.\* to the location your compiler says it is looking for the file. For example (if the actual installed copy of libdl.so on your system is /usr/lib/x86\_64-linux-gnu/libdl.so.2):
+
+
+{{Code|lang=bash|code=
 sudo ln -s /usr/lib/x86_64-linux-gnu/libdl.so.2 /usr/lib/x86_64-linux-gnu/libdl.so
-}} (if the actual installed copy of libdl.so on your system is /usr/lib/x86\_64-linux-gnu/libdl.so.2). Adapt the command for the structure of your system by searching for libdl.so\* and linking it to the appropriate location.
+}}
+
+Adapt the command for the structure of your system by searching for libdl.so\* and linking it to the appropriate location.
 
 ### In-source building 
 

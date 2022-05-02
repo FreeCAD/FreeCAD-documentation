@@ -1,30 +1,30 @@
 # Spreadsheet Preferences/pl
 {{TOCright}}
 
-The preferences for the <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Spreadsheet Workbench](Spreadsheet_Workbench.md) (<small>(v0.20)</small> ) can be found in the [Preferences Editor](Preferences_Editor.md). In the menu select **Edit → Preferences...** and then **Spreadsheet**. This section is only available after opening a document containing a spreadsheet object, after visiting the workbench or after loading the workbench via the *Available Workbenches* tab in the **Workbenches** section.
+Preferencje dla środowiska pracy <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md) *({{Version/pl|0.20}})* można znaleźć w [Edytorze preferencji](Preferences_Editor/pl.md). W menu wybierz **Edycja → Preferencje ...**, a następnie **Arkusz Kalkulacyjny**. Sekcja ta jest dostępna tylko po otwarciu dokumentu zawierającego obiekt arkusza kalkulacyjnego, po odwiedzeniu środowiska pracy lub po załadowaniu środowiska pracy za pomocą karty *Dostępne środowiska pracy* w sekcji **Środowiska pracy**.
 
-There is only one tab: *Spreadsheet* in the **Spreadsheet** section. On this tab you can specify the following:
+Istnieje tylko jedna karta: *Arkusz kalkulacyjny* w zakładce **Arkusz Kalkulacyjny**. Na tej karcie można zdefiniować następujące elementy:
 
 +++
-| Name                                | Description                                                              |
-+=====================================+==========================================================================+
-|                      | The character used as field delimiter.                                   |
-| **Delimiter Character** |                                                                          |
-|                                  |                                                                          |
+| Nazwa                           | Opis                                                            |
++=================================+=================================================================+
+|                  | Znak używany jako ogranicznik pola.                             |
+| **Znak separatora** |                                                                 |
+|                              |                                                                 |
 +++
-|                      | The character used to delimit strings.                                   |
-| **Quote Character**     |                                                                          |
-|                                  |                                                                          |
+|                  | Znak używany do określania ciągów znaków.                       |
+| **Znak cytatu**     |                                                                 |
+|                              |                                                                 |
 +++
-|                      | The character used to prevent the following character from being parsed. |
-| **Escape Character**    |                                                                          |
-|                                  |                                                                          |
+|                  | Znak używany do zapobiegania przetwarzaniu następującego znaku. |
+| **Znak Escape**     |                                                                 |
+|                              |                                                                 |
 +++
-|                                     |                                                                          |
+|                                 |                                                                 |
 +++
 
 ![](images/Spreadsheet-Preferences-Spreadsheet.png ) 
-*The Spreadsheet tab*
+*Zakładka Arkusz Kalkulacyjny*
 
 
 

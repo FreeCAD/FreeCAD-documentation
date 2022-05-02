@@ -5,10 +5,10 @@ This category lists pages related to the [Ship Workbench/ro](Ship_Workbench/ro.m
 
 |     |     |     |
 | --- | --- | --- |
-| [FreeCAD-Ship s60 tutorial (II)/ro](wiki/FreeCAD-Ship s60 tutorial (II)/ro.md) | [FreeCAD-Ship s60 tutorial/ro](wiki/FreeCAD-Ship s60 tutorial/ro.md) | [Ship Area/ro](wiki/Ship Area/ro.md) |
-| [Ship Geometries Examples/ro](wiki/Ship Geometries Examples/ro.md) | [Ship Hydrostatics/ro](wiki/Ship Hydrostatics/ro.md) | [Ship New/ro](wiki/Ship New/ro.md) |
-| [Ship Outline/ro](wiki/Ship Outline/ro.md) | [Ship PlotGZ/ro](wiki/Ship PlotGZ/ro.md) | [Ship TankCapacity/ro](wiki/Ship TankCapacity/ro.md) |
-| [Ship TankNew/ro](wiki/Ship TankNew/ro.md) | [Ship Workbench/ro](wiki/Ship Workbench/ro.md) |
+| [FreeCAD-Ship s60 tutorial (II)/ro](wiki/FreeCAD-Ship s60 tutorial (II)/ro.md) | [FreeCAD-Ship s60 tutorial/ro](wiki/FreeCAD-Ship s60 tutorial/ro.md) | [Ship AreasCurve/ro](wiki/Ship AreasCurve/ro.md) |
+| [Ship Capacity/ro](wiki/Ship Capacity/ro.md) | [Ship CreateShip/ro](wiki/Ship CreateShip/ro.md) | [Ship GZ/ro](wiki/Ship GZ/ro.md) |
+| [Ship Hydrostatics/ro](wiki/Ship Hydrostatics/ro.md) | [Ship LoadCondition/ro](wiki/Ship LoadCondition/ro.md) | [Ship LoadExample/ro](wiki/Ship LoadExample/ro.md) |
+| [Ship Tank/ro](wiki/Ship Tank/ro.md) | [Ship Workbench/ro](wiki/Ship Workbench/ro.md) |
 
 
 

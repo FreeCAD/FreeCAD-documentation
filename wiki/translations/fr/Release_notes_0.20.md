@@ -317,6 +317,7 @@ Il y a également une zone de texte pour le retour des erreurs d\'OpenSCAD.
 ### Autres améliorations de Part 
 
 -   La boîte de dialogue pour éditer des [Cylindres](Part_Cylinder/fr.md) permet maintenant de spécifier un angle relatif à la normale du plan d\'attache choisi. De cette façon, on peut créer des cylindres obliques. [Pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
+-   Davantage de commandes supportent maintenant App::Links : [Lissage](Part_Loft/fr.md), [Balayage](Part_Sweep/fr.md), [Extrusion](Part_Extrude/fr.md), [Révolution](Part_Revolve/fr.md), [Miroir](Part_Mirror/fr.md), [Décalage 2D](Part_Offset2D/fr.md), [Décalage 3D](Part_Offset/fr.md), [Vérifier la géométrie](Part_CheckGeometry/fr.md), [Surface réglée](Part_RuledSurface/fr.md), [Coupes](Part_CrossSections/fr.md), et [Évidement](Part_Thickness/fr.md). [Pull request \#6478](https://github.com/FreeCAD/FreeCAD/pull/6478)
 
 ## Atelier PartDesign 
 
@@ -368,6 +369,10 @@ Il y a également une zone de texte pour le retour des erreurs d\'OpenSCAD.
 -   Les filets externes ont été ajoutés à l\'opération de fraisage de filets. [Pull request \#6485](https://github.com/FreeCAD/FreeCAD/pull/6485)
 -   La stabilité de la gravure sur les esquisses a été améliorée. [Pull request \#6394](https://github.com/FreeCAD/FreeCAD/pull/6394)
 -   La visibilité des objets Parcours a été rendue plus naturelle. [Pull request \#4911](https://github.com/FreeCAD/FreeCAD/pull/4911)
+
+## Module Plot 
+
+-   FreeCAD fournit maintenant le module Plot par défaut, de sorte que tout autre module/atelier peut créer des tracés sans nécessiter d\'outils externes [Pull request \#4971](https://github.com/FreeCAD/FreeCAD/pull/4971).
 
 ## Atelier Render 
 
@@ -436,6 +441,8 @@ Il y a également une zone de texte pour le retour des erreurs d\'OpenSCAD.
 
 ## Web
 
+Qt WebEngine est maintenant considéré comme l\'option par défaut au lieu de Qt WebKit.
+
 ## Ateliers externes 
 
 
@@ -475,6 +482,17 @@ L\'[atelier FCGear](FCGear_Workbench/fr.md) a reçu quelques améliorations :
 ### Atelier MOOC 
 
 ### NodeEditor (PyFlow) 
+
+### Plot
+
+-   Le module Plot a été supprimé de l\'atelier car il est désormais fourni par FreeCAD.
+
+### Ship
+
+L\'[Atelier Ship](Ship_Workbench/fr.md) est de nouveau opérationnel !
+
+-   Un nouvel outil pour calculer le [tirant d\'eau et l\'angle d\'assiette](https://github.com/FreeCAD/freecad.ship#static-sink-and-trim) a été ajouté.
+-   Un nouvel outil pour calculer les [opérateurs d\'amplitude de réponse](https://github.com/FreeCAD/freecad.ship#raos) a été ajouté en plus de [capytaine](https://github.com/mancellin/capytaine).
 
 ### Trails, PyTrails, Turns, pivy\_trackers et Geomatics
 

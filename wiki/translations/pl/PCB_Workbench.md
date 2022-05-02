@@ -4,9 +4,9 @@
 
 {{TOCright}}
 
-[Obwody drukowane](https://en.wikipedia.org/wiki/Printed_circuit_board) środowisko pracy dla FreeCAD *(PCB)*
+Środowisko pracy [Obwody drukowane](https://en.wikipedia.org/wiki/Printed_circuit_board) *(PCB)* dla FreeCAD.
 
-Środowisko pracy dla elastycznych obwodów drukowanych dla FreeCAD *(FPCB)*
+Środowisko pracy dla elastycznych obwodów drukowanych *(FPCB)* dla FreeCAD.
 
 Moduł pozwala na importowanie/tworzenie płytek PCB w programie FreeCAD. Zakres modułu:
 
@@ -39,13 +39,13 @@ Menu rozwijane
 
 Można je zainstalować z [Menadżera dodatków](Std_AddonMgr/pl.md).
 
-### Z GitHub\'a 
+### Z repozytorium GitHub 
 
 **Wymagania wstępne**
 
 FreeCAD-PCB wymaga programu FreeCAD w wersji 0.18 lub wyższej oraz środowiska Python w wersji 2.7 lub wyższej.
 
-**Instrukcja instalacji systemu Linux** *(z GitHub)*
+**Instrukcja instalacji dla systemu Linux** *(z GitHub)*
 
 Rozpakuj pobrany plik zip i skopiuj wypakowany folder do katalogu, w którym zainstalowany jest FreeCAD *(folder podrzędny Mod)*.
 
@@ -69,7 +69,7 @@ Przykład:
 
 chmod 777 -R PCB
 
-**Instrukcja instalacji systemu Windows** *(z GitHub)*
+**Instrukcja instalacji dla systemu Windows** *(z GitHub)*
 
 Rozpakuj pobrany plik zip i skopiuj wypakowany folder do katalogu, w którym zainstalowany jest FreeCAD *(folder podrzędny Mod)*.
 
@@ -87,7 +87,7 @@ C:/Program Files/FreeCAD-0.18/Mod
 
 Zabezpieczenia → Edytuj → Użytkownicy i zaznacz wszystkie pola wyboru w opcji \'Zezwalaj\'.
 
-**Instrukcja instalacji systemu MacOS** *(z GitHub)*
+**Instrukcja instalacji dla systemu MacOS** *(z GitHub)*
 
 ## Odnośniki do środowiska pracy FreeCAD-PCB 
 
@@ -104,7 +104,7 @@ Zabezpieczenia → Edytuj → Użytkownicy i zaznacz wszystkie pola wyboru w opc
 -   [EaglePCB na sourceforge](https://sourceforge.net/projects/eaglepcb2freecad/)
 -   [Przepisy na makropolecenia](Macros_recipes/pl.md)
 -   [Pobieranie programu FreeCAD](Download/pl.md)
--   [Portal społeczności FreeCADl](FreeCAD_Community_Portal.md)
+-   [Portale społeczności FreeCAD](FreeCAD_Community_Portal/pl.md)
 
 
 

@@ -5,7 +5,8 @@ Category:Help/fr
 
 |     |     |     |
 | --- | --- | --- |
-| [Help:Editing/fr](wiki/Help_Editing/fr.md) | [Help/fr](wiki/Help/fr.md) |
+| [Help:Editing/fr](wiki/Help_Editing/fr.md) | [Help/fr](wiki/Help/fr.md) | [Key ASCII/fr](wiki/Key ASCII/fr.md) |
+|
 
 
 

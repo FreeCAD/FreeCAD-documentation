@@ -353,6 +353,7 @@ There is also a text box for feedback of OpenSCAD errors.
 ### Weitere Formteil Verbesserungen 
 
 -   The dialog to edit [Cylinders](Part_Cylinder.md) now allows to specify an angle relative to the normal of the chosen attachment plane. This way one can create skew cylinders. [Pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
+-   Many more commands now support App::Links: [Loft](Part_Loft.md), [Sweep](Part_Sweep.md), [Extrude](Part_Extrude.md), [Revolve](Part_Revolve.md), [Mirror](Part_Mirror.md), [Offset2D](Part_Offset2D.md), [Offset3D](Part_Offset.md), [Check Geometry](Part_CheckGeometry.md), [Ruled Surface](Part_RuledSurface.md), [Cross-sections](Part_CrossSections.md), and [Thickness](Part_Thickness.md). [Pull request \#6478](https://github.com/FreeCAD/FreeCAD/pull/6478)
 
 ## Arbeitsbereich PartDesign 
 
@@ -404,6 +405,10 @@ There is also a text box for feedback of OpenSCAD errors.
 -   External threads were added to the thread milling operation. [Pull request \#6485](https://github.com/FreeCAD/FreeCAD/pull/6485)
 -   The stability of engraving on sketches was improved. [Pull request \#6394](https://github.com/FreeCAD/FreeCAD/pull/6394)
 -   The visibility of path objects was made more natural. [Pull request \#4911](https://github.com/FreeCAD/FreeCAD/pull/4911)
+
+## Plot module 
+
+-   FreeCAD now provides the Plot module by default, so any other module/workbench may create plots without requiring external tools [Pull request \#4971](https://github.com/FreeCAD/FreeCAD/pull/4971).
 
 ## Arbeitsbereich Rendern 
 
@@ -476,6 +481,8 @@ There is also a text box for feedback of OpenSCAD errors.
 
 ## Internet
 
+Qt WebEngine is now considered the default option instead of Qt WebKit.
+
 ## Externe Arbeitsbereiche 
 
 
@@ -515,6 +522,17 @@ The [FCGear Workbench](FCGear_Workbench.md) received a couple of improvements
 ### MOOC Arbeitsbereich 
 
 ### KnotenEditor (PyFlow) 
+
+### Plot
+
+-   The Plot module has been stripped from the workbench since it is now provided by FreeCAD.
+
+### Ship
+
+The [Ship Workbench](Ship_Workbench.md) is back to life!
+
+-   A new tool to compute the [static sink and trim](https://github.com/FreeCAD/freecad.ship#static-sink-and-trim) has been added.
+-   A new tool to compute the [response amplitude operators](https://github.com/FreeCAD/freecad.ship#raos) has been added on top of [capytaine](https://github.com/mancellin/capytaine).
 
 ### Wege, PyTrails, Abbieger, pivy\_trackers, und Geomatik
 

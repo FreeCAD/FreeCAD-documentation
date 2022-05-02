@@ -6,10 +6,10 @@ This category lists pages related to the [Ship Workbench/ru](Ship_Workbench/ru.m
 |     |     |     |
 | --- | --- | --- |
 | [Artwork Ship/ru](wiki/Artwork Ship/ru.md) | [FreeCAD-Ship s60 tutorial (II)/ru](wiki/FreeCAD-Ship s60 tutorial (II)/ru.md) | [FreeCAD-Ship s60 tutorial/ru](wiki/FreeCAD-Ship s60 tutorial/ru.md) |
-| [Ship Area/ru](wiki/Ship Area/ru.md) | [Ship Geometries Examples/ru](wiki/Ship Geometries Examples/ru.md) | [Ship Hydrostatics/ru](wiki/Ship Hydrostatics/ru.md) |
-| [Ship Loading/ru](wiki/Ship Loading/ru.md) | [Ship New/ru](wiki/Ship New/ru.md) | [Ship Outline/ru](wiki/Ship Outline/ru.md) |
-| [Ship PlotGZ/ru](wiki/Ship PlotGZ/ru.md) | [Ship TankCapacity/ru](wiki/Ship TankCapacity/ru.md) | [Ship TankNew/ru](wiki/Ship TankNew/ru.md) |
-| [Ship Weight/ru](wiki/Ship Weight/ru.md) | [Ship Workbench/ru](wiki/Ship Workbench/ru.md) |
+| [Ship AreasCurve/ru](wiki/Ship AreasCurve/ru.md) | [Ship Capacity/ru](wiki/Ship Capacity/ru.md) | [Ship CreateShip/ru](wiki/Ship CreateShip/ru.md) |
+| [Ship GZ/ru](wiki/Ship GZ/ru.md) | [Ship Hydrostatics/ru](wiki/Ship Hydrostatics/ru.md) | [Ship LoadCondition/ru](wiki/Ship LoadCondition/ru.md) |
+| [Ship LoadExample/ru](wiki/Ship LoadExample/ru.md) | [Ship Tank/ru](wiki/Ship Tank/ru.md) | [Ship Weight/ru](wiki/Ship Weight/ru.md) |
+| [Ship Workbench/ru](wiki/Ship Workbench/ru.md) |
 
 
 

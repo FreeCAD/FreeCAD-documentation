@@ -1,122 +1,122 @@
-# <img alt="Spreadsheet workbench icon" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/pl
+# <img alt="Ikonka FreeCAD dla Środowiska pracy Arkusz Kalkulacyjny" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/pl
 
-## Introduction
+## Wprowadzenie
 
-The <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Spreadsheet Workbench](Spreadsheet_Workbench.md) allows you to create and edit spreadsheets, use data from the spreadsheet as parameters in a model, fill the spreadsheet with data retrieved from a model, perform calculations, and export the data to other spreadsheet applications such as LibreOffice or Microsoft Excel.
+Środowisko pracy <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> **Arkusz Kalkulacyjny** pozwala tworzyć i edytować arkusze kalkulacyjne, używać danych z arkusza kalkulacyjnego jako parametrów w modelu, wypełniać arkusz kalkulacyjny danymi pobranymi z modelu, wykonywać obliczenia i eksportować dane do innych aplikacji arkuszy kalkulacyjnych, takich jak LibreOffice czy Microsoft Excel.
 
 
 {{TOCright}}
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
-*A spreadsheet with certain cells filled with text and quantities*
+*Arkusz kalkulacyjny z komórkami wypełnionymi tekstem i ilościami*
 
-## Tools
+## Przybory
 
--   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Create sheet](Spreadsheet_CreateSheet.md): create a new spreadsheet.
+-   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Utwórz arkusz](Spreadsheet_CreateSheet/pl.md): tworzy nowy arkusz kalkulacyjny.
 
--   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Import](Spreadsheet_Import.md): import a CSV file into a spreadsheet.
+-   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Importuj arkusz](Spreadsheet_Import/pl.md): wczytuje plik CSV do arkusza kalkulacyjnego.
 
--   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Export](Spreadsheet_Export.md): export a CSV file from a spreadsheet.
+-   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Eksportuj arkusz](Spreadsheet_Export/pl.md): zapisuje pliku CSV na podstawie arkusza kalkulacyjnego.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Merge cells](Spreadsheet_MergeCells.md): merge selected cells.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Scal komórki](Spreadsheet_MergeCells/pl.md): łączy wybrane komórki.
 
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Split cell](Spreadsheet_SplitCell.md): split previously merged cells.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Podziel komórkę](Spreadsheet_SplitCell/pl.md): rozdziela poprzednio scalone komórki.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Align left](Spreadsheet_AlignLeft.md): align the contents of selected cells to the left.
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Wyrównaj do lewej](Spreadsheet_AlignLeft/pl.md): wyrównuje treść wybranych komórek do lewej.
 
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Align center](Spreadsheet_AlignCenter.md): align the contents of selected cells to the center horizontally.
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Wyśrodkuj w poziomie](Spreadsheet_AlignCenter/pl.md): wyrównuje treść wybranych komórek do środka w poziomie.
 
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Align right](Spreadsheet_AlignRight.md): align the contents of selected cells to the right.
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Wyrównaj do prawej](Spreadsheet_AlignRight/pl.md): wyrównuje treść wybranych komórek do prawej.
 
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Align top](Spreadsheet_AlignTop.md): align the contents of selected cells to the top.
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Wyrównaj do góry](Spreadsheet_AlignTop/pl.md): wyrównanie zawartości wybranych komórek w górę.
 
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Align vertical center](Spreadsheet_AlignVCenter.md): align the contents of selected cells to the center vertically.
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Wyśrodkuj w pionie](Spreadsheet_AlignVCenter/pl.md): wyrównuje treść wybranych komórek do środka w pionie.
 
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Align bottom](Spreadsheet_AlignBottom.md): top align the contents of selected cells to the bottom.
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Wyrównaj w dół](Spreadsheet_AlignBottom/pl.md): wyrównuje treść wybranych komórek do dołu.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Style bold](Spreadsheet_StyleBold.md): set the contents of selected cells to bold.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Pogrubienie](Spreadsheet_StyleBold/pl.md): ustawia pogrubienie treści wybranych komórek.
 
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Style italic](Spreadsheet_StyleItalic.md): set the contents of selected cells to italic.
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Kursywa](Spreadsheet_StyleItalic/pl.md): ustawia treść wybranych komórek na kursywę.
 
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Style underline](Spreadsheet_StyleUnderline.md): set the contents of selected cells to underlined.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Podkreślenia](Spreadsheet_StyleUnderline/pl.md): ustawia treść wybranych komórek jako podkreśloną.
 
--   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Set alias](Spreadsheet_SetAlias.md): set the alias for a selected cell.
+-   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Ustaw alias](Spreadsheet_SetAlias/pl.md): ustawia alias dla wybranej komórki.
 
--    **Black**and **White** set the foreground and the background colors of selected cells.
+-   Przyciski **Czarny** oraz **Biały** ustawia kolory czcionki i tła dla wybranych komórek.
 
-## Preferences
+## Ustawienia
 
--   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Preferences](Spreadsheet_Preferences.md): the preferences for the Spreadsheet Workbench. <small>(v0.20)</small> 
+-   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Ustawienia](Spreadsheet_Preferences/pl.md): preferencje dla środowiska pracy Arkusz Kalkulacyjny. {{Version/pl|0.20}}
 
-## Insert and remove rows and columns 
+## Wstawianie i usuwanie wierszy i kolumn 
 
-Rows and columns can be inserted or removed by right-clicking a row or column header and selecting the appropriate option from the contex menu. It is possible to select multiple rows or columns first. Either by holding down the **Ctrl** key while selecting the headers, or by holding down the left mouse button and dragging.
+Wiersze i kolumny można wstawiać i usuwać, klikając prawym przyciskiem myszy nagłówek wiersza lub kolumny i wybierając odpowiednią opcję z menu podręcznego. Możliwe jest zaznaczenie najpierw wielu wierszy lub kolumn. Można to zrobić, przytrzymując klawisz **Ctrl** podczas zaznaczania nagłówków lub przytrzymując lewy przycisk myszy i przeciągając.
 
-In FreeCAD version 0.19 and earlier rows are inserted above the selected rows, and colomns on the left of the selected columns. In FreeCAD version 0.20 you can specify the insertion side.
+W programie FreeCAD w wersji 0.19 i wcześniejszych wiersze są wstawiane nad zaznaczonymi wierszami, a kolumny po lewej stronie zaznaczonych kolumn. W programie FreeCAD w wersji 0.20 można określić kierunek wstawiania.
 
-Note that removing rows or columns with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+Należy pamiętać, że usunięcie wierszy lub kolumn z danymi może spowodować zepsucie arkusza kalkulacyjnego i Twojego modelu, jeśli opiera się on na arkuszu. W takim przypadku użytkownik nie jest ostrzegany.
 
-## Cut and copy-paste cells 
+## Wycinanie i kopiowanie-wklejanie komórek 
 
-Cut and copy-paste operations can be used on cells in FreeCAD spreadsheets. You can use the normal shortcuts for these operations: **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
+W komórkach arkuszy kalkulacyjnych programu FreeCAD można wykonywać operacje wycinania i kopiowania-wklejania. Do tych operacji można używać standardowych skrótów klawiszowych: **Ctrl** + **X**, **Ctrl** + **C** i **Ctrl** + **V**. Aby zaznaczyć wiele komórek, przytrzymaj klawisz **Ctrl** podczas zaznaczania lub przytrzymaj lewy przycisk myszy i przeciągnij, aby zaznaczyć prostokątny zakres komórek.
 
-The cut and copy operations store the contents and properties of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly.
+Operacje wycinania i kopiowania zapisują zawartość i właściwości komórek w Schowku. Operacja wklejania powoduje zapisanie danych w taki sposób, że zawartość lewej górnej komórki zapisanych danych jest umieszczana w aktywnej komórce. Pozostała przechowywana zawartość jest umieszczana względem tej komórki. Formuły są odpowiednio aktualizowane.
 
-Note that removing cells with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+Należy pamiętać, że usunięcie komurek z danymi może spowodować zepsucie arkusza kalkulacyjnego i Twojego modelu, jeśli opiera się on na arkuszu. W takim przypadku użytkownik nie jest ostrzegany.
 
-In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to hang if a non-rectangular cell range is pasted. It is advisable to save your work before performing any paste operations.
+W programie FreeCAD w wersji 0.19 i wcześniejszych występuje błąd, który może powodować zawieszanie się programu FreeCAD, jeśli wklejany jest zakres komórek inny niż prostokątny. Zaleca się zapisanie pracy przed wykonaniem jakichkolwiek operacji wklejania.
 
-## Cell properties 
+## Właściwości komórek 
 
-The properties of a spreadsheet cell can be edited with a right-click on a cell. The following dialog pops up:
+Właściwości komórki arkusza kalkulacyjnego można edytować, klikając komórkę prawym przyciskiem myszy i wybierając z menu podręcznego polecenie **Właściwości ...**. Zostanie wyświetlone następujące okno dialogowe:
 
 ![](images/SpreadsheetCellPropDialog.png )
 
-As indicated by the tabs, the following properties can be changed:
+Zgodnie z informacjami na kartach można zmieniać następujące właściwości:
 
--   Color: Text color and background color
--   Alignment: Text horizontal and vertical alignment
--   Style: Text style: bold, italic, underline
--   Units: Display units for this cell. Please read the [Units](#Units.md) section below.
--   Alias: Define an [alias](Spreadsheet_SetAlias.md) for this cell. This alias can be used in cell formulas and also in general [expressions](Expressions.md); see section [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) for more information.
+-   Kolor: kolor tekstu i kolor tła
+-   Wyrównanie: wyrównanie tekstu w poziomie i w pionie
+-   Styl: styl tekstu: pogrubienie, kursywa, podkreślenie
+-   Jednostki: Wyświetl jednostki dla tej komórki. Proszę przeczytać sekcję [Jednostki](#Jednostki.md) poniżej.
+-   Alias: Definiuje [alias](Spreadsheet_SetAlias/pl.md) dla tej komórki. Można go używać w formułach komórek, a także w ogólnych [wyrażeniach](Expressions/pl.md). Więcej informacji na ten temat znajduje się w sekcji [Dane arkusza kalkulacyjnego w wyrażeniach](#Dane_arkusza_kalkulacyjnego_w_wyra.C5.BCeniach.md).
 
-## Cell expressions 
+## Wyrażenia w komórkach 
 
-A spreadsheet cell may contain arbitrary text or an expression. Technically, expressions must start with an equals \'=\' sign. However, the spreadsheet attempts to be intelligent; if you enter what looks like an expression without the leading \'=\', one will be added automatically.
+Komórka arkusza kalkulacyjnego może zawierać dowolny tekst lub wyrażenie. Technicznie rzecz biorąc, wyrażenia muszą zaczynać się od znaku równości \"=\". Jednak arkusz kalkulacyjny stara się być inteligentny. Jeśli wpiszesz coś, co wygląda jak wyrażenie bez znaku \"=\", zostanie on dodany automatycznie.
 
-Cell expressions may contain numbers, functions, references to other cells, and references to properties of the model (But see [Current limitations](#Current_limitations.md) below). Cells are referenced by their column (CAPITAL letter) and row (number). A cell may also be referenced by its [alias-name](#alias_name.md) (below). Example: B4 + A6
+Wyrażenia komórek mogą zawierać liczby, funkcje, odwołania do innych komórek i odwołania do właściwości modelu *(ale przeczytaj akapit [Obecne ograniczenia](#Obecne_ograniczenia.md) poniżej)*. Do komórek odwołujemy się za pomocą ich adresu utworzonego z indeksu kolumny *(wielka litera)* i wiersza *(liczba)*. Do komórki można się też odwoływać za pomocą jej [nazwy alias](#alias_name.md). Przykład: B4 + A6
 
-**Note:** Cell expressions are treated by FreeCAD as programming code. Therefore, when you edit a cell the content you see that it is not following your display settings:
+**Uwaga:** Wyrażenia komórek są traktowane przez FreeCAD jak kod programowania. Dlatego podczas edycji zawartości komórki można zauważyć, że nie jest ona zgodna z ustawieniami wyświetlania:
 
--   the decimal separator is always a dot
--   the number of displayed decimals can differ from your [preferences settings](Preferences_Editor#Units.md)
+-   separatorem miejsc dziesiętnych jest zawsze kropka
+-   liczba wyświetlanych miejsc po przecinku może się różnić od Twoich [ustawień w preferencjach](Preferences_Editor#Jednostki.md).
 
-References to objects in the model are explained under [References to CAD-data](#References_to_CAD-data.md) below. Using spreadsheet cell values to define model properties are explained under [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) below. For more information on expressions and the available functions, see [Expressions](Expressions.md).
+Odwołania do obiektów w modelu wyjaśniono w sekcji [Odniesienia do danych CAD](#Odniesienia_do_danych_CAD.md) poniżej. Używanie wartości komórek arkusza kalkulacyjnego do definiowania właściwości modelu wyjaśniono w sekcji [Dane arkusza kalkulacyjnego w wyrażeniach](#Dane_arkusza_kalkulacyjnego_w_wyra.C5.BCeniach.md) poniżej. Więcej informacji na temat wyrażeń i dostępnych funkcji można znaleźć na stronie [Wyrażenia](Expressions/pl.md).
 
-## Interaction between spreadsheets and the CAD model 
+## Interakcja między arkuszami kalkulacyjnymi a modelem CAD 
 
-Data in the cells of a spreadsheet may be used in CAD model parameter expressions. Thus, a spreadsheet may be used as the source for parameter values used throughout a model, effectively gathering the values in one place. When values are changed in the spreadsheet, they are propagated throughout the model.
+Dane znajdujące się w komórkach arkusza kalkulacyjnego mogą być wykorzystywane w wyrażeniach parametrów modelu CAD. W ten sposób arkusz kalkulacyjny może być używany jako źródło wartości parametrów używanych w całym modelu, efektywnie gromadząc wartości w jednym miejscu. Gdy wartości są zmieniane w arkuszu kalkulacyjnym, zostają one przekazane do całego modelu.
 
-Similarly, properties from CAD model objects may be used in expressions in spreadsheet cells. This allows use of object properties like volume or area in the spreadsheet. If the name of an object in the CAD model is changed, the change will automatically be propagated to any references in spreadsheet expressions using the name which was changed.
+Podobnie, właściwości obiektów modelu CAD mogą być używane w wyrażeniach w komórkach arkusza kalkulacyjnego. Pozwala to na wykorzystanie w arkuszu kalkulacyjnym właściwości obiektu, takich jak objętość czy powierzchnia. Jeśli nazwa obiektu w modelu CAD zostanie zmieniona, zmiana ta zostanie automatycznie przeniesiona do wszystkich odwołań w wyrażeniach arkusza kalkulacyjnego używających zmienionej nazwy.
 
-More than one spreadsheet may be used in a document. A spreadsheet can be identified using either its name or its label.
+W dokumencie może być używany więcej niż jeden arkusz kalkulacyjny. Arkusz kalkulacyjny można zidentyfikować, używając jego nazwy lub etykiety.
 
-FreeCAD will automatically assign a unique name to a spreadsheet when it is created. These names follow the pattern `Spreadsheet`, `Spreadsheet001`, `Spreadsheet002` and so on. The name can not be changed manually, and it is not visible in the properties of the spreadsheet. It can be used to refer to the spreadsheet in an [Expression](Expressions.md) (see [Spreadsheet data in expressions](#Spreadsheet_data_in_expressions.md) below.)
+FreeCAD automatycznie przypisuje unikalną nazwę do arkusza kalkulacyjnego podczas jego tworzenia. Nazwy te są zgodne z wzorcem `Arkusz kalkulacyjny`, `Arkusz kalkulacyjny001`, `Arkusz kalkulacyjny002` i tak dalej. Nazwy tej nie można zmienić ręcznie i nie jest ona widoczna we właściwościach arkusza kalkulacyjnego. Można jej użyć do odwołania się do arkusza kalkulacyjnego w [wyrażeniach](Expressions/pl.md) *(zobacz sekcję [Dane arkusza kalkulacyjnego w wyrażeniach](#Dane_arkusza_kalkulacyjnego_w_wyra.C5.BCeniach.md) poniżej)*.
 
-The label of a spreadsheet is automatically set to the name of the spreadsheet upon creation. Unlike the name, the label can be changed, for example in the properties panel or using the context menu action Rename. Note that the label of a spreadsheet within a document has to be unique; if you try to change the label to a label already used by another spreadsheet, FreeCAD will not accept the new label.
+Etykieta arkusza kalkulacyjnego jest automatycznie ustawiana na nazwę arkusza podczas jego tworzenia. W przeciwieństwie do nazwy, etykietę można zmienić, np. w panelu właściwości lub za pomocą polecenia **Zmień nazwę** w menu podręcznym. Należy pamiętać, że etykieta arkusza kalkulacyjnego w dokumencie musi być unikalna. Jeśli spróbujesz zmienić etykietę na etykietę używaną już przez inny arkusz kalkulacyjny, FreeCAD nie zaakceptuje nowej etykiety.
 
-FreeCAD checks for cyclic dependencies. See [Current limitations](Spreadsheet_Workbench#Current_limitations.md).
+FreeCAD sprawdza, czy nie występują zależności cykliczne. Zobacz sekcję [obecne ograniczenia](#Obecne_ograniczenia.md).
 
-### References to CAD-data 
+### Odniesienia do danych CAD 
 
-As indicated above, one can reference data from the CAD model in spreadsheet expressions.
+Jak wskazano powyżej, w wyrażeniach arkusza kalkulacyjnego można odwoływać się do danych z modelu CAD.
 
-Computed expressions in spreadsheet cells start with an equals (\'=\') sign. However, the spreadsheet entry mechanism attempts to be smart. An expression may be entered without the leading \'=\'; if the string entered is a valid expression, an \'=\' is automatically added when the final **Enter** is typed. If the string entered is not a valid expression (often the result of entering something with the wrong case, e.g. \"MyCube.length\" instead of \"MyCube.Length\"), no leading \'=\' is added and it is treated as simply a text string.
+Wyrażenia obliczeniowe w komórkach arkusza kalkulacyjnego zaczynają się od znaku równości {{ASCII|61|24}}. Jednak mechanizm wprowadzania danych w arkuszu kalkulacyjnym stara się być inteligentny. Wyrażenie może być wpisane bez znaku {{ASCII|61|24}}. Jeśli wpisany ciąg znaków jest poprawnym wyrażeniem, znak {{ASCII|61|24}} jest automatycznie dodawany po ostatnim naciśnięciu klawisza **Enter**. Jeśli wpisany ciąg nie jest poprawnym wyrażeniem *(często jest to wynik wpisania czegoś z niewłaściwą literą, np. \"MyCube.length\" zamiast \"MyCube.Length\")*, nie jest dodawany znak {{ASCII|61|24}} i jest on traktowany jako zwykły ciąg tekstowy.
 
-**Note:** The above behavior (auto insert of \'=\') has some unpleasant ramifications:
+**Uwaga:** Powyższe zachowanie *(automatyczne wstawianie {{ASCII|61|24}})* ma kilka nieprzyjemnych konsekwencji:
 
--   If you want to keep a column of names corresponding to the [alias-names](#alias_name.md) in an adjacent column of values, you must enter the name in the label column *before* giving the cell in the value column its alias-name. Otherwise, when you enter the alias-name in the label column the spreadsheet will assume it is an expression and change it to \"=\"; and the displayed text will be the value from the  cell.
--   If you make an error when entering the name in the label column and wish to correct it, you cannot simply change it to the alias-name. Instead, you must first change the alias-name to something else, then fix the text name in the label column, then change the alias-name in the value column back to its original.
+-   Jeśli chcesz zachować kolumnę nazw odpowiadającą [nazwie alias](#alias_name.md) w sąsiedniej kolumnie wartości, musisz wprowadzić nazwę w kolumnie etykiety \"przed\" podaniem komórki w wartości kolumna jego alias-name. W przeciwnym razie, gdy wprowadzisz nazwę aliasu w kolumnie etykiety, arkusz kalkulacyjny przyjmie, że jest to wyrażenie i zmieni go na „=". Wyświetlany tekst będzie wtedy wartością z komórki .
+-   Jeśli popełnisz błąd podczas wpisywania nazwy w kolumnie etykiety i chcesz go poprawić, nie możesz po prostu zmienić go na nazwę aliasu. Zamiast tego musisz najpierw zmienić nazwę aliasu na inną, następnie poprawić nazwę tekstową w kolumnie etykiety, a kolejnie zmienić nazwę aliasu w kolumnie wartości z powrotem na oryginalną.
 
 One way to side-step these issues is to prefix text labels corresponding to alias-names with a fixed string, thereby making them different. Note that \"\_\" will not work, as it is converted to \"=\". However, a blank, while invisible, will work.
 
@@ -130,20 +130,20 @@ The following table shows some examples assuming the model has a feature named \
   Label of the Cube                            =MyCube.Label                  String: MyCube
   x-coordinate of center of mass of the Cube   =MyCube.Shape.CenterOfMass.x   x-coordinate in mm without units
 
-### Spreadsheet data in expressions 
+### Dane arkusza kalkulacyjnego w wyrażeniach 
 
-In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by position or by alias. Autocompletion is available for all forms of referencing.
+In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by address or by alias. Autocompletion is available for all forms of referencing.
 
 ++++
-|                  | Spreadsheet by Name                                 | Spreadsheet by Label                                   |
-+==================+=====================================================+========================================================+
-| Cell by Position |                                      |                                         |
-|                  | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
-|                  |                                                  |                                                     |
+|                 | Spreadsheet by Name                                 | Spreadsheet by Label                                   |
++=================+=====================================================+========================================================+
+| Cell by Address |                                      |                                         |
+|                 | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
+|                 |                                                  |                                                     |
 ++++
-| Cell by Alias    |                                      |                                         |
-|                  | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
-|                  |                                                  |                                                     |
+| Cell by Alias   |                                      |                                         |
+|                 | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
+|                 |                                                  |                                                     |
 ++++
 
 
@@ -186,7 +186,7 @@ There are three solutions to deal with this:
     -   The disadvantage is that the model won\'t automatically recompute after changes to the spreadsheet.
     -   In the scenario where you first open the \'spreadsheet\' file, change one or more values and then open the \'model\' file, there won\'t be any indication that the model needs to be recomputed. But if both files are open the [Std Refresh](Std_Refresh.md) icon will update correctly for the \'model\' file after changes to the \'spreadsheet\' file.
 
-## Units
+## Jednostki
 
 The Spreadsheet has a notion of dimension (units) associated with cell values. A number entered without an associated unit has no dimension. The unit should be entered immediately following the number value, with no intervening space. If a number has an associated unit, that unit will be used in all calculations. For example, the multiplication of two lengths with the unit mm gives an area with the unit mm².
 
@@ -198,31 +198,31 @@ A dimensionless number cannot be changed to a number with a unit by the cell pro
 
 Occasionally it may be desirable to get rid of a dimension in an expression. This can be done by multiplying by 1 with a reciprocal unit.
 
-## Importing and exporting 
+## Importowanie i eksportowanie 
 
-### CSV format 
+### Format CSV 
 
-FreeCAD spreadsheets can be imported and exported to the [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format which can also be read and written by most other spreadsheet applications such as Microsoft Excel or LibreOffice Calc. See [Spreadsheet Import](Spreadsheet_Import.md) and [Spreadsheet Export](Spreadsheet_Export.md) for more information.
+Arkusze kalkulacyjne FreeCAD mogą być importowane i eksportowane do formatu [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), który może być również odczytywany i zapisywany przez większość innych aplikacji arkuszy kalkulacyjnych, takich jak Microsoft Excel czy LibreOffice Calc. Więcej informacji na ten temat można znaleźć na stronach [Import](Spreadsheet_Import/pl.md) i [Eksport](Spreadsheet_Export/pl.md).
 
-### XLSX format 
+### Format XLSX 
 
-Spreadsheets in the Excel-format XLSX can be imported with the [Std Import](Std_Import.md) command or the [Std Open](Std_Open.md) command. The following features are supported:
+Arkusze kalkulacyjne w formacie Excel XLSX można importować za pomocą polecenia [Importuj](Std_Import/pl.md) lub polecenia [Otwórz](Std_Open/pl.md). Obsługiwane są następujące funkcje:
 
--   All functions that are also available in the FreeCAD spreadsheet. Other functions give an error in the corresponding cell after import.
--   Alias names for cells.
--   More than one sheet in the Excel-spreadsheet. In this case one FreeCAD spreadsheet is created for each Excel sheet.
+-   Wszystkie funkcje, które są dostępne także w arkuszu kalkulacyjnym FreeCAD. Inne funkcje powodują wystąpienie błędu w odpowiedniej komórce po zaimportowaniu.
+-   Nazwy aliasów dla komórek.
+-   Więcej niż jeden arkusz w arkuszu kalkulacyjnym Excel. W takim przypadku dla każdego arkusza Excela tworzony jest jeden arkusz kalkulacyjny FreeCAD.
 
-Other functionality is not imported into the FreeCAD spreadsheet.
+Inne funkcje nie są importowane do arkusza kalkulacyjnego FreeCAD.
 
-## Printing
+## Wydruki
 
-To handle the page setup necessary for printing, FreeCAD spreadsheets are printed by inserting them into a [TechDraw Spreadsheet View](TechDraw_SpreadsheetView.md).
+Aby zachować ustawienia strony niezbędne do drukowania, arkusze kalkulacyjne FreeCAD można drukować, wstawiając je do obiektu [widok Arkusza Kalkulacyjnego](TechDraw_SpreadsheetView/pl.md).
 
-## Current limitations 
+## Obecne ograniczenia 
 
-FreeCAD checks for cyclic dependencies. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets: one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
+FreeCAD sprawdza, czy istnieją zależności cykliczne. Z założenia sprawdzanie to zatrzymuje się na poziomie obiektu arkusza kalkulacyjnego. W konsekwencji nie powinieneś mieć arkusza kalkulacyjnego zawierającego zarówno komórki, których wartości są używane do określania parametrów modelu, jak i komórki, których wartości wykorzystują dane wyjściowe z modelu. Na przykład nie można mieć komórek określających długość, szerokość i wysokość obiektu, a inna komórka odwołuje się do całkowitej objętości wynikowego kształtu. Ograniczenie to można obejść, mając dwa arkusze kalkulacyjne: jeden używany jako źródło danych dla parametrów wejściowych do modelu, a drugi używany do obliczeń opartych na danych wynikowych geometrii.
 
-## Scripting basics 
+## Podstawy pisania skryptów 
 
 
 ```python

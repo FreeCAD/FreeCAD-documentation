@@ -719,6 +719,24 @@ If you have done an out-of-source build before and get stuck on a dependency tha
 
 -   If cmake complains about missing a specific file, use a tool such as \"apt-file search\", or its equivalent in other package systems, to discover what package that file belongs to and install it. Bear in mind that you are likely to need the -dev version of the package that carries header or config files files required for FreeCAD to use the package.
 
+### Compiling against GNU libc 2.34 and later 
+
+GNU libc 2.34 introduces a change to the library that can cause builds on some Linux systems to fail with an error like:
+
+
+{{Code|lang=bash|code=
+No rule to make target '/usr/lib/x86_64-linux-gnu/libdl.so
+}}
+
+To resolve this, a symbolic link must be manually created from the (now empty) system-installed libdl.so.\* to the location your compiler says it is looking for the file. For example (if the actual installed copy of libdl.so on your system is /usr/lib/x86\_64-linux-gnu/libdl.so.2):
+
+
+{{Code|lang=bash|code=
+sudo ln -s /usr/lib/x86_64-linux-gnu/libdl.so.2 /usr/lib/x86_64-linux-gnu/libdl.so
+}}
+
+Adapt the command for the structure of your system by searching for libdl.so\* and linking it to the appropriate location.
+
 ### Сборка в папке исходников 
 
 Сборки с исходным кодом подходят, если вы хотите быстро скомпилировать версию FreeCAD и не собираетесь часто обновлять исходный код. В этом случае вы можете удалить скомпилированную программу и исходный код, только удалив одну папку.

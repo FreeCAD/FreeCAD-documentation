@@ -40,6 +40,7 @@ The list below shows parameters that are not accessible via the preferences edit
 -   **PropertyView/AutoTransactionView** (boolean): Set to `True` so changes of View tab properties are added to the undo stack (hence are undoable). Defaults to `False`.
 -   **Selection/AutoShowSelectionView** (boolean): Set to `True` to make the Selection View pane show automatically when selecting something. Defaults to `False`.
 -   **Selection/singleClickFeatureSelect** (boolean): Set to `False` to disable single click selection of a feature in PartDesign. Defaults to `True`.
+-   **TreeView/TreeViewStretchDescription** (boolean): Set to `True` to stretch the \'Description\' column in the [Tree view](Tree_view.md) to the right edge of the pane. Defaults to `False`.
 -   **View/NavigationDebug** (boolean): enables debug output of navigation styles (as of v0.19, only Gesture navigation style has something to say).
 -   **View/SavePicture** (string): Set to **FramebufferObject**, **PixelBuffer** or **CoinOffscreenRenderer** for different methods to produce images from the 3D view.
 

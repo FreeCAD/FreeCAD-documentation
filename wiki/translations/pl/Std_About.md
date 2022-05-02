@@ -51,9 +51,9 @@ Coin version: 4.0.0a
 OCC version: 7.3.0
 Locale: English/UnitedStates (en_US)
 
-### Credits
+### Zasłużeni
 
-The Credits tab shows a list of contributors to the FreeCAD project. To get your name on this list you can contribute in many different ways, including programming, bug triaging, packaging the software, writing user documentation and tutorials, translating the software and documentation, working on icons, artwork and graphical interfaces, and helping out in the forum. See [Help FreeCAD](Help_FreeCAD.md) for more information.
+Zakładka Zasłużeni pokazuje listę osób, które przyczyniły się do powstania projektu FreeCAD. Aby znaleźć się na tej liście, możesz wnieść swój wkład na wiele różnych sposobów, w tym programując, usuwając błędy, pakując oprogramowanie, pisząc dokumentację użytkownika i samouczki, tłumacząc oprogramowanie i dokumentację, pracując nad ikonami, grafiką i interfejsami graficznymi oraz pomagając na forum. Więcej informacji można znaleźć w dziale [Pomóż w rozwoju FreeCAD](Help_FreeCAD/pl.md).
 
 ### Licencja
 

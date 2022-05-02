@@ -153,25 +153,25 @@
 | [Robot InsertWaypoint/ro](wiki/Robot InsertWaypoint/ro.md) | [Robot InsertWaypointPre/ro](wiki/Robot InsertWaypointPre/ro.md) | [Robot RestoreHomePos/ro](wiki/Robot RestoreHomePos/ro.md) |
 | [Robot SetDefaultOrientation/ro](wiki/Robot SetDefaultOrientation/ro.md) | [Robot SetDefaultValues/ro](wiki/Robot SetDefaultValues/ro.md) | [Robot SetHomePos/ro](wiki/Robot SetHomePos/ro.md) |
 | [Robot Simulate/ro](wiki/Robot Simulate/ro.md) | [Robot TrajectoryCompound/ro](wiki/Robot TrajectoryCompound/ro.md) | [Robot TrajectoryDressUp/ro](wiki/Robot TrajectoryDressUp/ro.md) |
-| [Robot tutorial/ro](wiki/Robot tutorial/ro.md) | [Robot Workbench/ro](wiki/Robot Workbench/ro.md) | [Ship Area/ro](wiki/Ship Area/ro.md) |
-| [Ship Geometries Examples/ro](wiki/Ship Geometries Examples/ro.md) | [Ship Hydrostatics/ro](wiki/Ship Hydrostatics/ro.md) | [Ship Loading/ro](wiki/Ship Loading/ro.md) |
-| [Ship New/ro](wiki/Ship New/ro.md) | [Ship Outline/ro](wiki/Ship Outline/ro.md) | [Ship PlotGZ/ro](wiki/Ship PlotGZ/ro.md) |
-| [Ship TankCapacity/ro](wiki/Ship TankCapacity/ro.md) | [Ship TankNew/ro](wiki/Ship TankNew/ro.md) | [Ship Workbench/ro](wiki/Ship Workbench/ro.md) |
-| [Sketcher CarbonCopy/ro](wiki/Sketcher CarbonCopy/ro.md) | [Sketcher Clone/ro](wiki/Sketcher Clone/ro.md) | [Sketcher CloseShape/ro](wiki/Sketcher CloseShape/ro.md) |
-| [Sketcher CompCreateArc/ro](wiki/Sketcher CompCreateArc/ro.md) | [Sketcher CompCreateConic/ro](wiki/Sketcher CompCreateConic/ro.md) | [Sketcher ConnectLines/ro](wiki/Sketcher ConnectLines/ro.md) |
-| [Sketcher ConstrainAngle/ro](wiki/Sketcher ConstrainAngle/ro.md) | [Sketcher ConstrainBlock/ro](wiki/Sketcher ConstrainBlock/ro.md) | [Sketcher ConstrainCoincident/ro](wiki/Sketcher ConstrainCoincident/ro.md) |
-| [Sketcher ConstrainDistance/ro](wiki/Sketcher ConstrainDistance/ro.md) | [Sketcher ConstrainDistanceX/ro](wiki/Sketcher ConstrainDistanceX/ro.md) | [Sketcher ConstrainDistanceY/ro](wiki/Sketcher ConstrainDistanceY/ro.md) |
-| [Sketcher ConstrainEqual/ro](wiki/Sketcher ConstrainEqual/ro.md) | [Sketcher ConstrainHorizontal/ro](wiki/Sketcher ConstrainHorizontal/ro.md) | [Sketcher ConstrainInternalAlignment/ro](wiki/Sketcher ConstrainInternalAlignment/ro.md) |
-| [Sketcher ConstrainLock/ro](wiki/Sketcher ConstrainLock/ro.md) | [Sketcher ConstrainParallel/ro](wiki/Sketcher ConstrainParallel/ro.md) | [Sketcher ConstrainPointOnObject/ro](wiki/Sketcher ConstrainPointOnObject/ro.md) |
-| [Sketcher ConstrainRadius/ro](wiki/Sketcher ConstrainRadius/ro.md) | [Sketcher ConstrainSymmetric/ro](wiki/Sketcher ConstrainSymmetric/ro.md) | [Sketcher ConstrainTangent/ro](wiki/Sketcher ConstrainTangent/ro.md) |
-| [Sketcher ConstrainVertical/ro](wiki/Sketcher ConstrainVertical/ro.md) | [Sketcher Copy/ro](wiki/Sketcher Copy/ro.md) | [Sketcher Create3PointArc/ro](wiki/Sketcher Create3PointArc/ro.md) |
-| [Sketcher Create3PointCircle/ro](wiki/Sketcher Create3PointCircle/ro.md) | [Sketcher CreateArc/ro](wiki/Sketcher CreateArc/ro.md) | [Sketcher CreateArcOfEllipse/ro](wiki/Sketcher CreateArcOfEllipse/ro.md) |
-| [Sketcher CreateArcOfHyperbola/ro](wiki/Sketcher CreateArcOfHyperbola/ro.md) | [Sketcher CreateArcOfParabola/ro](wiki/Sketcher CreateArcOfParabola/ro.md) | [Sketcher CreateCircle/ro](wiki/Sketcher CreateCircle/ro.md) |
-| [Sketcher CreateEllipseBy3Points/ro](wiki/Sketcher CreateEllipseBy3Points/ro.md) | [Sketcher CreateEllipseByCenter/ro](wiki/Sketcher CreateEllipseByCenter/ro.md) | [Sketcher CreateFillet/ro](wiki/Sketcher CreateFillet/ro.md) |
-| [Sketcher CreateHeptagon/ro](wiki/Sketcher CreateHeptagon/ro.md) | [Sketcher CreateHexagon/ro](wiki/Sketcher CreateHexagon/ro.md) | [Sketcher CreateOctagon/ro](wiki/Sketcher CreateOctagon/ro.md) |
-| [Sketcher CreatePentagon/ro](wiki/Sketcher CreatePentagon/ro.md) | [Sketcher CreatePoint/ro](wiki/Sketcher CreatePoint/ro.md) | [Sketcher CreatePolyline/ro](wiki/Sketcher CreatePolyline/ro.md) |
-| [Sketcher CreateRectangle/ro](wiki/Sketcher CreateRectangle/ro.md) | [Sketcher CreateSlot/ro](wiki/Sketcher CreateSlot/ro.md) | [Sketcher CreateSquare/ro](wiki/Sketcher CreateSquare/ro.md) |
-| [Sketcher CreateTriangle/ro](wiki/Sketcher CreateTriangle/ro.md) | [Sketcher EditSketch/ro](wiki/Sketcher EditSketch/ro.md) |
+| [Robot tutorial/ro](wiki/Robot tutorial/ro.md) | [Robot Workbench/ro](wiki/Robot Workbench/ro.md) | [Ship AreasCurve/ro](wiki/Ship AreasCurve/ro.md) |
+| [Ship Capacity/ro](wiki/Ship Capacity/ro.md) | [Ship CreateShip/ro](wiki/Ship CreateShip/ro.md) | [Ship GZ/ro](wiki/Ship GZ/ro.md) |
+| [Ship Hydrostatics/ro](wiki/Ship Hydrostatics/ro.md) | [Ship LoadCondition/ro](wiki/Ship LoadCondition/ro.md) | [Ship LoadExample/ro](wiki/Ship LoadExample/ro.md) |
+| [Ship Tank/ro](wiki/Ship Tank/ro.md) | [Ship Workbench/ro](wiki/Ship Workbench/ro.md) | [Sketcher CarbonCopy/ro](wiki/Sketcher CarbonCopy/ro.md) |
+| [Sketcher Clone/ro](wiki/Sketcher Clone/ro.md) | [Sketcher CloseShape/ro](wiki/Sketcher CloseShape/ro.md) | [Sketcher CompCreateArc/ro](wiki/Sketcher CompCreateArc/ro.md) |
+| [Sketcher CompCreateConic/ro](wiki/Sketcher CompCreateConic/ro.md) | [Sketcher ConnectLines/ro](wiki/Sketcher ConnectLines/ro.md) | [Sketcher ConstrainAngle/ro](wiki/Sketcher ConstrainAngle/ro.md) |
+| [Sketcher ConstrainBlock/ro](wiki/Sketcher ConstrainBlock/ro.md) | [Sketcher ConstrainCoincident/ro](wiki/Sketcher ConstrainCoincident/ro.md) | [Sketcher ConstrainDistance/ro](wiki/Sketcher ConstrainDistance/ro.md) |
+| [Sketcher ConstrainDistanceX/ro](wiki/Sketcher ConstrainDistanceX/ro.md) | [Sketcher ConstrainDistanceY/ro](wiki/Sketcher ConstrainDistanceY/ro.md) | [Sketcher ConstrainEqual/ro](wiki/Sketcher ConstrainEqual/ro.md) |
+| [Sketcher ConstrainHorizontal/ro](wiki/Sketcher ConstrainHorizontal/ro.md) | [Sketcher ConstrainInternalAlignment/ro](wiki/Sketcher ConstrainInternalAlignment/ro.md) | [Sketcher ConstrainLock/ro](wiki/Sketcher ConstrainLock/ro.md) |
+| [Sketcher ConstrainParallel/ro](wiki/Sketcher ConstrainParallel/ro.md) | [Sketcher ConstrainPointOnObject/ro](wiki/Sketcher ConstrainPointOnObject/ro.md) | [Sketcher ConstrainRadius/ro](wiki/Sketcher ConstrainRadius/ro.md) |
+| [Sketcher ConstrainSymmetric/ro](wiki/Sketcher ConstrainSymmetric/ro.md) | [Sketcher ConstrainTangent/ro](wiki/Sketcher ConstrainTangent/ro.md) | [Sketcher ConstrainVertical/ro](wiki/Sketcher ConstrainVertical/ro.md) |
+| [Sketcher Copy/ro](wiki/Sketcher Copy/ro.md) | [Sketcher Create3PointArc/ro](wiki/Sketcher Create3PointArc/ro.md) | [Sketcher Create3PointCircle/ro](wiki/Sketcher Create3PointCircle/ro.md) |
+| [Sketcher CreateArc/ro](wiki/Sketcher CreateArc/ro.md) | [Sketcher CreateArcOfEllipse/ro](wiki/Sketcher CreateArcOfEllipse/ro.md) | [Sketcher CreateArcOfHyperbola/ro](wiki/Sketcher CreateArcOfHyperbola/ro.md) |
+| [Sketcher CreateArcOfParabola/ro](wiki/Sketcher CreateArcOfParabola/ro.md) | [Sketcher CreateCircle/ro](wiki/Sketcher CreateCircle/ro.md) | [Sketcher CreateEllipseBy3Points/ro](wiki/Sketcher CreateEllipseBy3Points/ro.md) |
+| [Sketcher CreateEllipseByCenter/ro](wiki/Sketcher CreateEllipseByCenter/ro.md) | [Sketcher CreateFillet/ro](wiki/Sketcher CreateFillet/ro.md) | [Sketcher CreateHeptagon/ro](wiki/Sketcher CreateHeptagon/ro.md) |
+| [Sketcher CreateHexagon/ro](wiki/Sketcher CreateHexagon/ro.md) | [Sketcher CreateOctagon/ro](wiki/Sketcher CreateOctagon/ro.md) | [Sketcher CreatePentagon/ro](wiki/Sketcher CreatePentagon/ro.md) |
+| [Sketcher CreatePoint/ro](wiki/Sketcher CreatePoint/ro.md) | [Sketcher CreatePolyline/ro](wiki/Sketcher CreatePolyline/ro.md) | [Sketcher CreateRectangle/ro](wiki/Sketcher CreateRectangle/ro.md) |
+| [Sketcher CreateSlot/ro](wiki/Sketcher CreateSlot/ro.md) | [Sketcher CreateSquare/ro](wiki/Sketcher CreateSquare/ro.md) | [Sketcher CreateTriangle/ro](wiki/Sketcher CreateTriangle/ro.md) |
+| [Sketcher EditSketch/ro](wiki/Sketcher EditSketch/ro.md) | [Sketcher Extend/ro](wiki/Sketcher Extend/ro.md) |
 
 
 

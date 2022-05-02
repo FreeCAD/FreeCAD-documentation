@@ -1,25 +1,19 @@
 # Macro Unfold Box/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro Unfold Box
 |Icon=Macro_Unfold_Box.png
 |Translate=Sviluppa solido
-|Description=Crea lo sviluppo di un solido con facce piane.<BR/>{{ColoredText|#ff0000|#ffff00|This macro must be upgraded cause error indentation and space mixed with tabulation}}
+|Description=Crea lo sviluppo di un solido con facce piane.<BR/>
 |Author=Hervé B.
-|Version=1.0
-|Date=2013-09-20
+|Version=1.0.1
+|Date=2020-03-10
 |FCVersion=
 |Download=[https://www.freecadweb.org/wiki/images/e/e4/Macro_Unfold_Box.png ToolBar Icon]
 }}
 
-
-</div>
-
 ## Descrizione
 
-Questa macro permette di creare lo sviluppo delle superfici di un solido con facce piane, di disegnare le facce in una pagina, e di inserire il disegno in un foglio A3 o A4.
+Questa macro permette di creare lo sviluppo delle superfici di un solido con facce piane, di disegnare le facce in una pagina e di inserire il disegno in un foglio A3 o A4.
 
 <img alt="" src=images/Macro_unfoldBox1.png  style="width:480px;"> 
 *Macro_unfoldBox*

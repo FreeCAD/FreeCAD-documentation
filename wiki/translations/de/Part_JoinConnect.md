@@ -1,18 +1,18 @@
 ---
-- GuiCommand:
+- GuiCommand:/de
    Name:Part JoinConnect
-   Name/de:Part FügeVerbinden
-   MenuLocation:Part → Join → Connect objects
+   Name/de:Part Verbinden
+   MenuLocation:Formteil → Verbinden → Objekte verbinden
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.16
-   SeeAlso:[Part FügeEinbetten](Part_JoinEmbed/de.md), [Part FügeAusschnitt](Part_JoinCutout.md), [Part Bool'sche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
+   SeeAlso:[Part Einbetten](Part_JoinEmbed/de.md), [Part Ausschneiden](Part_JoinCutout.md), [Part Boolesche Operationen](Part_Boolean/de.md), [Part Dicke](Part_Thickness/de.md)
 ---
 
 # Part JoinConnect/de
 
 ## Beschreibung
 
-Das Verbinden Werkzeug verbindet die Innenbereiche von zwei Hohlobjekten (z.B. Rohre). Es kann auch Schalen und Drähte verbinden.
+Das Werkzeug Verbinden verbindet die Innenbereiche von zwei Hohlkörpern (z.B. Rohre). Es kann auch Schalenobjekte und Drähte verbinden.
 
 ![600px](images/JoinFeatures_Connect.png)
 
@@ -50,7 +50,7 @@ Ein parametrisches Verbindungsobjekt wird erstellt. Originalobjekte werden ausge
 
 ## Algorithmus
 
-== Die Algorithmen hinter den Fügewerkzeugen sind recht einfach, und es ist wichtig, sie zu verstehen, um die Werkzeuge richtig zu verwenden. Insbesondere der Algorithmus von Verbinden ist etwas komplexer als andere, aber es genügt im Allgemeinen, ihn als symmetrische Variante von [Algorithmus einbetten](Part_JoinEmbed#Algorithm/de.md) zu betrachten.
+Die Algorithmen hinter den Fügewerkzeugen sind recht einfach, und es ist wichtig, sie zu verstehen, um die Werkzeuge richtig zu verwenden. Insbesondere der Algorithmus von Verbinden ist etwas komplexer als andere, aber es genügt im Allgemeinen, ihn als symmetrische Variante von [Algorithmus einbetten](Part_JoinEmbed#Algorithm/de.md) zu betrachten.
 
 1\. Jedes Objekt wird durch Überschneidungen mit anderen Objekten in Stücke zerlegt. (siehe [Part Boolsche Fragmente](Part_BooleanFragments.md))
 

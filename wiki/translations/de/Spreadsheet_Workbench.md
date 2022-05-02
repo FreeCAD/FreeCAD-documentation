@@ -68,7 +68,13 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 ## Zelleigenschaften
 
+
+<div class="mw-translate-fuzzy">
+
 Die Eigenschaften der Kalkulationstabellenzelle können mit einem Rechtsklick auf einer Zelle geändert werden. Der folgende Dialog klappt auf:
+
+
+</div>
 
 ![](images/SpreadsheetCellPropDialog.png )
 
@@ -84,7 +90,13 @@ Wie in den Reitern angezeigt können die folgenden Eigenschaften geändert werde
 
 Eine Tabellenzelle kann beliebigen Text oder einen Ausdruck enthalten. Technisch gesehen müssen Ausdrücke mit einem Gleichheitszeichen \'=\' beginnen. Die Tabellenkalkulation versucht jedoch, intelligent zu sein; wenn du etwas eingibst, das wie ein Ausdruck aussieht, ohne das führende \'=\', wird automatisch eines hinzugefügt.
 
+
+<div class="mw-translate-fuzzy">
+
 Zellausdrücke können Zahlen, Funktionen, Verweise auf andere Zellen und Verweise auf Eigenschaften des Modells enthalten (Siehe aber [Aktuelle Begrenzungen](#Current_Limitations/de.md) unten). Zellen werden durch ihre Spalte (GROSSBUCHSTABEN) und Zeile (Zahl) referenziert. Eine Zelle kann auch durch ihren [Aliasnamen](#alias_name/de.md) (siehe unten) referenziert werden. Beispiel: B4 + A6
+
+
+</div>
 
 **Anmerkung:** Zellausdrücke werden von FreeCAD als Programmiercode behandelt. Wenn Sie also den Inhalt einer Zelle bearbeiten, sehen Sie, dass der Inhalt nicht Ihren Anzeigeeinstellungen folgt:
 
@@ -132,7 +144,16 @@ Die folgende Tabelle zeigt einige Beispiele unter der Annahme, dass das Modell �
 
 ### Kalkulationstabellendaten in Ausdrücken 
 
+
+<div class="mw-translate-fuzzy">
+
 Um Kalkulationstabellendaten in anderen Teilen von FreeCAD zu verwenden, wirst du normalerweise einen [Ausdruck](Expressions/de.md) erstellen, der sich auf die Kalkulationstabelle und die Zelle bezieht, die die Daten enthält, die du verwenden möchtest. Du kannst Kalkulationstabellen über den Namen oder die Beschriftung identifizieren, und du kannst die Zellen über die Position oder über einen Alias identifizieren. Die Autovervollständigung ist für alle Formen des Verweises verfügbar.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ++++
 |                     | Kalkulationstabelle nach Name                       | Kalkulationstabelle nach Beschriftung                  |
@@ -145,6 +166,9 @@ Um Kalkulationstabellendaten in anderen Teilen von FreeCAD zu verwenden, wirst d
 |                     | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
 |                     |                                                  |                                                     |
 ++++
+
+
+</div>
 
 
 <div class="mw-collapsible mw-collapsed">

@@ -347,6 +347,9 @@ Hinweis: Wenn der Gleichungslöser auf eine Kombination trifft, die nicht gelös
 
 Assembly3-Bedingungen definieren, wie die Möglichkeiten der Positionierung oder Orientierung zwischen zwei [Elementen](#Elemente.md) reduziert werden. Einige Bedingungen arbeiten sogar mit mehr als zwei Elementen. Ein Element kann eine Fläche, eine Linie oder Kante oder ein Punkt eines Teils sein. Im Allgemeinen werden Bedingungen definiert, indem man erst die gewünschten Elemente und dann die Bedingung aus einer der [Werkzeugleisten](#Werkzeugleisten.md) für Bedingungen auswählt.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Fixiert 6 Freiheitsgrade, 0 bleiben unbestimmt:
     -   **Fixierung (Schloss)**: Die Fixiereinschränkung legt alle Freiheitsgrade einer Fläche. Sie sollte in jedem Zusammenbau zur Festlegung eines Basisteils genutzt werden. Es ist sinnvoll auch gleich die \"Bewegung ausschließen für fixierte Teile\"-Funktion (in der Werkzeugleiste) zu aktivieren, um damit ein unbeabsichtigtes Verschieben zu verhindern. In der Regel ist es egal welche Fläche, Linie oder Punkt benutzt wird um ein Teil zu fixieren. Man beachte, dass die Fixierung nur auf den aktuellen Zusammenbau wirkt, d.h. im Falle einer Unterbaugruppe braucht der übergeordnete Zusammenbau noch ein eigenes fixiertes Teil.
     -   **Anhang**: Legt die Koordinatensysteme der ausgewählten Elemente (zweier oder mehrerer Teile) deckungsgleich aufeinander. Dies ist die für die Berechnung günstigste Funktion und sollte, wo immer möglich, benutzt werden. Man beachte, dass man die Eigenschaften der Elemente nutzen kann, um Abstände und Winkel einzustellen, wenn die [Elemente](#Elements.md) nicht optimal zueinander ausgerichtet sind.
@@ -372,6 +375,9 @@ Other
 
 -   **Points on Circle**: fixes Tz and partially Tx,Ty. Freezes the point translation (or several points) on a circle or disk area. You must pick the circle second. This leaves all rotations free and gives limited translation in the circle reference plane.
 
+
+</div>
+
 \'\': Hinweis: In der folgenden Liste werden Tx,Ty,Tz und Rx,Ry,Rz benutzt, um Translations- (Verschiebe-) und Rotations- (Dreh-) Bewegungen bezogen auf die Koordinatenachsen des betreffenden Elements zu beschreiben. Dies ist nicht immer exakt oder vollständig beschrieben, wie z.B. wenn es eine Linie betrifft, ist es nicht definiert, ob sie in X-Richtung, Y-Richtung oder einem beliebigen Winkel dazwischen verläuft. Das System sorgt eher für Kürze und einfache Vergleichbarkeit, als für eine korrekte aber komplexere Definition. So ist Z normalerweise die Richtung der Flächennormalen der betroffenen Flächen.
 
 [Zum Anfang](#top.md)
@@ -382,16 +388,28 @@ Elemente wird in der Assembly3-Arbeitsumgebung als besonderer Begriff benutzt, u
 
 Es ist hilfreich ein Element als einen generellen Begriff für \'auswählbarer Bestandteil\' eines Teiles zu sehen wie z.B. eine Fläche , eine Kante, ein Kreis, eine Ecke oder ein Punkt. Dies sind die Elemente, die ausgewählt werden, um Teile zueinander in Beziehung zu setzen. Im Baum hat ein \'Assembly\'-Ordner drei Unterordner. Neben \'Parts\' und \'Constraints\' gibt es einen Ordner namens \'Elements\', der leer bleibt, solange keine Einschränkungen hinzugefügt werden. Wenn eine Einschränkungen hinzugefügt wird, erhält sie selbst zwei (oder mehr) Blätter, dies sind die ausgewählten Elemente. Auch werden diese Elemente dem \'Elements\'-Ordner hinzugefügt, der eine Liste aller im Zusammenbau benutzten Elemente darstellt. Es ist eine gute Idee, ihre Namen zu ändern (mit der F2-Taste), besonders in größeren Zusammenbauten.
 
+
+<div class="mw-translate-fuzzy">
+
 Sehen wir uns ein Beispiel an
 
 :   Es wird eine neue Datei erstellt und mit der Part-Arbeitsumgebung ein Würfel und ein Zylinder hinzugefügt. Es soll der Zylinder auf den Würfel gestellt werden. Zuerst wird das Basisteil fixiert, in diesem Fall der Würfel. Dazu wird die Unterseite des Würfels und danach die Fixiereinschränkung (das erste Symbol in der [Werkzeugleiste](#Toolbars.md) der Haupteinschränkungen) ausgewählt. Es werden die Oberseite des Würfels und die Oberseite des Zylinders ausgewählt. Danach wird die \'Plane Coincident\'-Einschränkung ausgewählt. Nun hat sich der Zylinder in den Würfel hinein bewegt und im Baum wurde ein neues Blatt mit zwei Kindknoten unter \'Constraints\' hinzugefügt. Zusätzlich wurden die selben zwei Kindknoten unter \'Elements\' hinzugefügt. Falls der Zylinder im Inneren des Würfels liegt, anstatt auf seiner Oberseite wird dies als nächstes korrigiert: Den Kindknoten unter \'Constraints\' auswählen, zu dem die Zylinderfläche gehört, und mit einem Rechtsklick im Kontextmenü \'Flip Part\' auswählen. Nun wurde der Zylinder auf die Würfeloberseite gestapelt.
 
+
+</div>
+
 Der wichtigste Gedanke, den es zu verstehen gilt, ist dass die Beschränkung auf Verknüpfungen zu Elementen in der Liste im \"Elements\"-Baumabschnitt wirkt. Dies erlaubt, die Bindungsstruktur intakt zu halten, während die Teile geändert werden. Dies ist ohne ein Beispiel sehr schwer zu erkennen.
+
+
+<div class="mw-translate-fuzzy">
 
 Zurück zum obigen Beispiel
 
 :   Achtung: Es sollte darauf geachtet werden, dass die Fixiereinschränkung zum Würfel hinzugefügt wurde, andernfalls wird es verwirrend aussehen.
 :   Im CAD-Fenster wird eine weitere Fläche des Würfels ausgewählt. Ab jetzt wird nur noch in der Baumansicht gearbeitet. Im Baum wird die Maus über dem auszuwählenden Würfel platziert. Der Würfel wird per \'Drag&Drop\' auf den \'Elements\'-Ordner gezogen und abgelegt. Das Ablegen sollte auf dem Namen des \'Elements\' erfolgen, nicht anderswo im Ordner - warum, sehen wir später. Es sollte erkennbar sein, das ein weiteres Element zur \'Elements\'-Liste hinzugefügt wurde. Nun wird im \'Constraints\'-Ordner der Kindknoten der Würfelfläche in der \'Plane Coincident\'-Einschränkung ausgewählt und aus der Liste entfernt. Die Einschränkung ist nun mit einem Ausrufezeichen gekennzeichnet, da ihr ein Element fehlt. Hierbei ist zu beachten, dass ein Element, das aus der Einschränkung entfernt wurde, *nicht* auch aus der (Element-)Liste gelöscht wurde. Der Grund dafür ist, dass in der Einschränkung nur ein Verweis zum Element in der Liste abgelegt wird. Nun kann das neu zur \'Elements\'-Liste hinzugefügte Element per \'drag&drop\' auf die \'Plane Coincident\'-Einschränkung gezogen und abgelegt. Damit bewegt sich der Zylinder zu der anderen Fläche des Würfels, die vorher ausgewählt wurde. Wenn der Zylinder im Inneren des Würfels liegt, muss nochmals im Kontextmenü \'flip part\' ausgewählt werden.
+
+
+</div>
 
 Das Beispiel zeigt, dass man die zur Einschränkung gehörenden Elemente austauschen kann, ohne die Einschränkung zu Löschen. Auf dieselbe Weise kann der Zylinder auch zu einem ganz anderen Teil bewegt werden. Nachdem man etwas mit diesem Beispiel herumgespielt hat, wird man noch zusätzliche Möglichkeiten entdecken, wie z.B.
 

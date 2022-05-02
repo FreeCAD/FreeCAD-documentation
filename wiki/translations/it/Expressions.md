@@ -804,14 +804,14 @@ For example, the label `Sketch\002` must be referenced as `<<Sketch\\002>>`.
 
 [Names](Object_name#Name.md) of objects like dimensions, sketches, etc. may not have the characters or character sequences listed below, otherwise the name is invalid:
 
-  Characters / Character sequences                                                                                                              Description
+  Characters / Character sequences                                                                                               Description
    
-  **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**                  Characters that are math operators or part of mathematical constructs
-  **A**, **kA**, **mA**, **MA**, **C**, **G**, **F**, **uF**, **µF**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°**, and many more!   Characters and character sequences that are [units](Expressions#Units.md)
-  **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **:**, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, and many more!                         Characters used as placeholder or to trigger special operations
-  **pi**, **e**                                                                                                                                 Mathematical constants
-  **´**, **\**, \'\'\' \' \'\'\', **\"**                                                                                                       Characters used for accents
-  space                                                                                                                                         A space defines the end of a name and can therefore not be used
+  **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**   Characters that are math operators or part of mathematical constructs
+  **A**, **kA**, **mA**, **MA**, **J**, **K**, \'\'\' \' \'\'\', \'\'\' ft \'\'\', **°**, and many more!                         Characters and character sequences that are units (see the [Units](#Units.md) paragraph)
+  **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **:**, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, and many more!          Characters used as placeholder or to trigger special operations
+  **pi**, **e**                                                                                                                  Mathematical constants
+  **´**, **\**, \'\'\' \' \'\'\', **\"**                                                                                        Characters used for accents
+  space                                                                                                                          A space defines the end of a name and can therefore not be used
 
 For example, the following name is valid: `<<Sketch>>.Constraints.T2üßµ@`. While these are invalid names: `<<Sketch>>.Constraints.test\result_2` (\\r means \"carriage return\") or `<<Sketch>>.Constraints.mol` (mol is a unit).
 
@@ -819,7 +819,7 @@ Since shorter names (especially if they have only one or two characters) can eas
 
 ### Cell aliases 
 
-For [spreadsheet cell aliases](Spreadsheet_SetAlias.md) only alphanumeric characters and underscores (`A` to `Z`, `a` to `z`, `0` to `9` and `_`) are allowed. {{Top}}
+See [Spreadsheet SetAlias](Spreadsheet_SetAlias#Usage.md). {{Top}}
 
 
 <div class="mw-translate-fuzzy">

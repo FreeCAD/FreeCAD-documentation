@@ -79,9 +79,9 @@ Dodatkowe
 
 ### Instalacja automatyczna 
 
-To środowisko pracy można zainstalować z [Menadżera dodatków](Std_AddonMgr/pl.md).
+To środowisko pracy można zainstalować za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
 
-### Z GitHub\'a 
+### Z repozytorium GitHub 
 
 Aby użyć tego środowiska pracy sklonuj to repozytorium git pod swoim katalogiem FreeCAD Mod i zainstaluj biblioteki python pyside i numpy. W systemie Linux opartym na Debianie, takim jak Ubuntu, instalacja może być wykonana przez BASH w następujący sposób:
 

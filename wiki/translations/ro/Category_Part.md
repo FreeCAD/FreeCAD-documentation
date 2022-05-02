@@ -25,8 +25,8 @@ This category lists pages related to the [Part Workbench/ro](Part_Workbench/ro.m
 | [Part Section/ro](wiki/Part Section/ro.md) | [Part ShapeFromMesh/ro](wiki/Part ShapeFromMesh/ro.md) | [Part SimpleCopy/ro](wiki/Part SimpleCopy/ro.md) |
 | [Part Slice/ro](wiki/Part Slice/ro.md) | [Part Sphere/ro](wiki/Part Sphere/ro.md) | [Part Spiral/ro](wiki/Part Spiral/ro.md) |
 | [Part Sweep/ro](wiki/Part Sweep/ro.md) | [Part Thickness/ro](wiki/Part Thickness/ro.md) | [Part Torus/ro](wiki/Part Torus/ro.md) |
-| [Part Wedge/ro](wiki/Part Wedge/ro.md) | [Ship Loading/ro](wiki/Ship Loading/ro.md) | [Thread for Screw Tutorial/ro](wiki/Thread for Screw Tutorial/ro.md) |
-| [Whiffle Ball tutorial/ro](wiki/Whiffle Ball tutorial/ro.md) |
+| [Part Wedge/ro](wiki/Part Wedge/ro.md) | [Thread for Screw Tutorial/ro](wiki/Thread for Screw Tutorial/ro.md) | [Whiffle Ball tutorial/ro](wiki/Whiffle Ball tutorial/ro.md) |
+|
 
 
 

@@ -6,49 +6,49 @@
 
 ## Informacje ogólne 
 
-On recent linux distributions, FreeCAD is generally easy to build, since all dependencies are usually provided by the package manager. It basically involves 3 steps:
+W ostatnich dystrybucjach Linuksa FreeCAD jest ogólnie łatwy do zbudowania, ponieważ wszystkie zależności są zwykle dostarczane przez menedżera pakietów. Zasadniczo obejmuje 3 kroki:
 
-1.  Getting the FreeCAD source code
-2.  Getting the dependencies or packages that FreeCAD depends on
-3.  Configure with `cmake` and compile with `make`
+1.  Pobierz kod źródłowy FreeCAD.
+2.  Pobierz zależności lub pakiety, od których zależy FreeCAD.
+3.  Skonfiguruj za pomocą `cmake` i skompiluj za pomocą `make`.
 
-Below, you\'ll find detailed explanations of the whole process, some [build scripts](#Automatic_build_scripts.md), and particularities you might encounter. If you find anything wrong or out of date in the text below (Linux distributions change often), or if you use a distribution which is not listed, discuss the issue in the [forum](https://forum.freecadweb.org/index.php), and help us correct it.
+Poniżej znajdziesz szczegółowe wyjaśnienia całego procesu, niektóre [skrypty do kompilacji](#Skrypty_automatycznej_kompilacji.md) oraz szczegóły, które możesz napotkać. Jeśli znajdziesz w poniższym tekście coś błędnego lub nieaktualnego *(dystrybucje Linuksa często się zmieniają)*, lub jeśli używasz dystrybucji, której nie ma na liście, przedyskutuj ten problem na [forum](https://forum.freecadweb.org/index.php) i pomóż nam go poprawić.
 
 <img alt="" src=images/FreeCAD_source_compilation_workflow.svg  style="width:800px;">
 
 
 
-*General workflow to compile FreeCAD from source. The third party dependencies must be in the system, as well as the FreeCAD source code itself. CMake configures the system so that with a single make instruction the entire project is compiled.*
+*Ogólny proces kompilacji programu FreeCAD z kodu źródłowego. Zależności stron trzecich muszą znajdować się w systemie, podobnie jak sam kod źródłowy FreeCAD. CMake konfiguruje system tak, aby za pomocą jednej instrukcji make cały projekt został skompilowany.*
 
-## Getting the source 
+## Pobieranie kodu źródłowego 
 
 ### Git
 
-The best way to get the code is to clone the read-only [Git repository](https://github.com/FreeCAD/FreeCAD). For this you need the `git` program which can be easily installed in most Linux distributions. It can also be obtained from the [official website](http://git-scm.com/).
+Najlepszym sposobem uzyskania kodu jest sklonowanie repozytorium tylko do odczytu [Git](https://github.com/FreeCAD/FreeCAD). Do tego celu potrzebny jest program `git`, który można łatwo zainstalować w większości dystrybucji Linuksa. Można go również uzyskać z [oficjalnej strony](http://git-scm.com/).
 
-Git can be installed via the following command:
+Program Git można zainstalować za pomocą następującego polecenia:
 
 
 {{Code|lang=bash|code=
 sudo apt install git
 }}
 
-The following command will place a copy of the latest version of the FreeCAD source code in a new directory called `freecad-source`.
+Poniższe polecenie umieści kopię najnowszej wersji kodu źródłowego programu FreeCAD w nowym katalogu o nazwie `freecad-source`.
 
 
 {{Code|lang=bash|code=
 git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
 }}
 
-For more information on using Git and contributing code to the project, see [Source code management](Source_code_management.md).
+Więcej informacji na temat używania środowiska Git i wnoszenia kodu do projektu można znaleźć na stronie [Zarządzanie kodem źródłowym](Source_code_management/pl.md).
 
-### Source archive 
+### Archiwum źródeł 
 
-Alternatively you can download the source as an [archive](https://github.com/FreeCAD/FreeCAD/releases/latest), a `.zip` or `.tar.gz` file, and unpack it in the desired directory.
+Alternatywnie można pobrać źródło w postaci [archiwów](https://github.com/FreeCAD/FreeCAD/releases/latest), pliku `.zip` lub `.tar.gz`, a następnie rozpakować je w wybranym katalogu.
 
-## Getting the dependencies 
+## Pobranie zależności 
 
-To compile FreeCAD you have to install the requisite dependencies mentioned in [Third Party Libraries](Third_Party_Libraries.md); the packages that contain these dependencies are listed below for different Linux distributions. Please note that the names and availability of the libraries will depend on your particular distribution; if your distribution is old, some packages may be unavailable of have a different name. In this case, look in the [older and non-conventional distributions](#Older_and_non-conventional_distributions.md) section below.
+Aby skompilować FreeCAD musisz zainstalować wymagane zależności wymienione w dokumencie [biblioteki zewnętrzne](Third_Party_Libraries/pl.md). Pakiety, które zawierają te zależności są wymienione poniżej dla różnych dystrybucji Linuksa. Proszę zauważyć, że nazwy i dostępność bibliotek zależą od konkretnej dystrybucji; jeśli dystrybucja jest stara, niektóre pakiety mogą być niedostępne lub mieć inną nazwę. W takim przypadku należy zajrzeć do sekcji [starsze i niekonwencjonalne dystrybucje](l#Dystrybucje_starsze_i_niekonwencjonalne.md) poniżej.
 
 Once you have all the dependencies installed, proceed to [compile FreeCAD](#Compile_FreeCAD.md).
 
@@ -57,7 +57,7 @@ Please note that FreeCAD\'s source code is around 500 MB in size; it may be thre
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Debian and Ubuntu 
+### Debian oraz Ubuntu 
 
 
 <div class="mw-collapsible-content">
@@ -642,7 +642,7 @@ sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp lib
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Older and non-conventional distributions 
+### Dystrybucje starsze i niekonwencjonalne 
 
 
 <div class="mw-collapsible-content">
@@ -712,6 +712,24 @@ If you have done an out-of-source build before and get stuck on a dependency tha
 -   Delete the contents of the build directory before running cmake again. FreeCAD is a rapidly moving target, you may be tripping over cached cmake information that points at an older version than the new repository head can use. Clearing the cache may allow cmake to recover and recognize the version you actually need.
 
 -   If cmake complains about missing a specific file, use a tool such as \"apt-file search\", or its equivalent in other package systems, to discover what package that file belongs to and install it. Bear in mind that you are likely to need the -dev version of the package that carries header or config files files required for FreeCAD to use the package.
+
+### Compiling against GNU libc 2.34 and later 
+
+GNU libc 2.34 introduces a change to the library that can cause builds on some Linux systems to fail with an error like:
+
+
+{{Code|lang=bash|code=
+No rule to make target '/usr/lib/x86_64-linux-gnu/libdl.so
+}}
+
+To resolve this, a symbolic link must be manually created from the (now empty) system-installed libdl.so.\* to the location your compiler says it is looking for the file. For example (if the actual installed copy of libdl.so on your system is /usr/lib/x86\_64-linux-gnu/libdl.so.2):
+
+
+{{Code|lang=bash|code=
+sudo ln -s /usr/lib/x86_64-linux-gnu/libdl.so.2 /usr/lib/x86_64-linux-gnu/libdl.so
+}}
+
+Adapt the command for the structure of your system by searching for libdl.so\* and linking it to the appropriate location.
 
 ### In-source building 
 
@@ -984,7 +1002,7 @@ When building FreeCAD for 64-bit there is a known issue with the OpenCASCADE (OC
 
 For Debian based systems this option is not needed when using the pre-built OpenCASCADE packages because these ones set the proper `CXXFLAGS` internally.
 
-## Automatic build scripts 
+## Skrypty automatycznej kompilacji 
 
 Here is all what you need for a complete build of FreeCAD. It\'s a one-script-approach and works on a freshly installed Linux distribution. The commands will ask for the root password for installation of packages and new online repositories. These scripts should run on 32 and 64 bit versions. They are written for different versions, but are also likely to run on a later version with or without major changes.
 

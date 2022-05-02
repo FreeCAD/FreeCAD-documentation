@@ -68,7 +68,7 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 ## Cell properties 
 
-The properties of a spreadsheet cell can be edited with a right-click on a cell. The following dialog pops up:
+The properties of a spreadsheet cell can be edited by right-clicking the cell and selecting **Properties...** from the context menu. The following dialog pops up:
 
 ![](images/SpreadsheetCellPropDialog.png )
 
@@ -84,7 +84,7 @@ As indicated by the tabs, the following properties can be changed:
 
 A spreadsheet cell may contain arbitrary text or an expression. Technically, expressions must start with an equals \'=\' sign. However, the spreadsheet attempts to be intelligent; if you enter what looks like an expression without the leading \'=\', one will be added automatically.
 
-Cell expressions may contain numbers, functions, references to other cells, and references to properties of the model (But see [Current limitations](#Current_limitations.md) below). Cells are referenced by their column (CAPITAL letter) and row (number). A cell may also be referenced by its [alias-name](#alias_name.md) (below). Example: B4 + A6
+Cell expressions may contain numbers, functions, references to other cells, and references to properties of the model (But see [Current limitations](#Current_limitations.md) below). Cells are referenced by their column (CAPITAL letter) and row (number). A cell may also be referenced by its [alias-name](#alias_name.md). Example: B4 + A6
 
 **Note:** Cell expressions are treated by FreeCAD as programming code. Therefore, when you edit a cell the content you see that it is not following your display settings:
 
@@ -132,18 +132,18 @@ The following table shows some examples assuming the model has a feature named \
 
 ### Spreadsheet data in expressions 
 
-In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by position or by alias. Autocompletion is available for all forms of referencing.
+In order to use spreadsheet data in other parts of FreeCAD, you will usually create an [Expression](Expressions.md) that refers to the spreadsheet and the cell that contains the data you want to use. You can identify spreadsheets by name or by label, and you can identify the cells by address or by alias. Autocompletion is available for all forms of referencing.
 
 ++++
-|                  | Spreadsheet by Name                                 | Spreadsheet by Label                                   |
-+==================+=====================================================+========================================================+
-| Cell by Position |                                      |                                         |
-|                  | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
-|                  |                                                  |                                                     |
+|                 | Spreadsheet by Name                                 | Spreadsheet by Label                                   |
++=================+=====================================================+========================================================+
+| Cell by Address |                                      |                                         |
+|                 | `<nowiki>=Spreadsheet042.B5</nowiki>`      | `<nowiki>=<<MySpreadsheet>>.B5</nowiki>`      |
+|                 |                                                  |                                                     |
 ++++
-| Cell by Alias    |                                      |                                         |
-|                  | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
-|                  |                                                  |                                                     |
+| Cell by Alias   |                                      |                                         |
+|                 | `<nowiki>=Spreadsheet042.MyAlias</nowiki>` | `<nowiki>=<<MySpreadsheet>>.MyAlias</nowiki>` |
+|                 |                                                  |                                                     |
 ++++
 
 

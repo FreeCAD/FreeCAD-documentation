@@ -18,7 +18,7 @@ Understanding a little of the history of FreeCAD potentially help users comprehe
 
 ## Tips
 
-The Part Design Workbench has many equivalent functions to SolidWorks, though may be called by different names. The image below identifies equivalent functions and their names on each platform, as well as noting similar functions and functions that are unique to each platform: ![](images/Features_and_Part_Design.png )
+The Part Design Workbench has many equivalent functions to SolidWorks, though may be called by different names. The image below identifies equivalent functions and their names on each platform, as well as noting similar functions and functions that are unique to each platform: <img alt="A comparison between FreeCAD and SW. Click this image for higher resolution. Credit goes to \..." src=images/Features_and_Part_Design.png  style="width:600px;">
 
 ## Terminology
 

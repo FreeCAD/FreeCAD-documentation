@@ -713,6 +713,24 @@ Si vous avez déjà effectué une construction hors source et que vous êtes blo
 
 -   Si cmake se plaint qu\'il manque un fichier spécifique, utilisez un outil tel que \"apt-file search\" ou son équivalent dans d\'autres systèmes de paquets, pour découvrir à quel paquetage appartient ce fichier et l\'installer. Gardez à l\'esprit que vous aurez probablement besoin de la version -dev du paquetage qui contient les fichiers d\'en-tête ou de configuration nécessaires à FreeCAD pour utiliser le paquetage.
 
+### Compiling against GNU libc 2.34 and later 
+
+GNU libc 2.34 introduces a change to the library that can cause builds on some Linux systems to fail with an error like:
+
+
+{{Code|lang=bash|code=
+No rule to make target '/usr/lib/x86_64-linux-gnu/libdl.so
+}}
+
+To resolve this, a symbolic link must be manually created from the (now empty) system-installed libdl.so.\* to the location your compiler says it is looking for the file. For example (if the actual installed copy of libdl.so on your system is /usr/lib/x86\_64-linux-gnu/libdl.so.2):
+
+
+{{Code|lang=bash|code=
+sudo ln -s /usr/lib/x86_64-linux-gnu/libdl.so.2 /usr/lib/x86_64-linux-gnu/libdl.so
+}}
+
+Adapt the command for the structure of your system by searching for libdl.so\* and linking it to the appropriate location.
+
 ### Compilation in-source 
 
 Les compilations in-source conviennent si vous voulez compiler rapidement une version de FreeCAD et que vous n'avez pas l'intention de mettre à jour souvent le code source. Dans ce cas, vous pouvez supprimer le programme compilé et la source en supprimant simplement un seul dossier.

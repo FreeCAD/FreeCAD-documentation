@@ -15,10 +15,16 @@ Das **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Kalkulation
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Stelle sicher, dass eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
 2.  Wähle eine Zelle.
 3.  Drücke die **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Kalkulationstabelle SetzeAlias](Spreadsheet_SetAlias/de.md)** Schaltfläche.
 4.  Gib einen Alias ein. Nur alphanumerische Zeichen und Unterstriche (`[A]` bis `Z`, `a` bis `z`, `0` bis `9` und `_`) sind erlaubt.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

@@ -296,11 +296,6 @@ Desigur, acest exemplu nu este real (mai întâi pentru toate cisternele de comb
 </div>
 
 
-{{Ship Tools navi
-
-}}
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/ro

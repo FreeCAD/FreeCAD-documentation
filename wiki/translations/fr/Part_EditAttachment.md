@@ -24,10 +24,11 @@
 4.  Sélectionnez un élément de topologie sur l\'objet auquel ancrer: sommet, arête ou face/plan. La géométrie de référence à partir de [Part Conteneurs](Std_Part/fr.md) est également sélectionnable.
 5.  L\'étiquette du premier bouton adopte maintenant le type de topologie sélectionné. Dans le champ blanc à sa droite, l\'objet référencé et son élément sont ajoutés. Par exemple, si une face sur un cube primitif est sélectionnée, le champ affiche Box:Face6.
 6.  Sélectionnez un [Mode d\'ancrage](#Mode_d.27ancrage.md) dans la liste. Les modes disponibles sont filtrés par les références sélectionnées. *Ancré avec le mode * sera affiché sous l\'en-tête **Mode d\'ancrage**.
-7.  : Pour des informations en direct sur les modes d\'ancrage, passez la souris sur l\'un des modes de la liste pour qu\'une info-bulle apparaisse.
-8.  Éventuellement, ajoutez jusqu\'à 3 autres références en appuyant sur les boutons **Réference2**, **Réference3** et **Réference4** et en répétant l\'étape 4.
-9.  Définir facultativement un [Décalage de la pièce ancrée](#D.C3.A9calage_de_l.27ancrage.md).
-10. Appuyez sur **OK**.
+
+    :   Pour des informations en direct sur les modes d\'ancrage, passez la souris sur l\'un des modes de la liste pour qu\'une info-bulle apparaisse.
+7.  Éventuellement, ajoutez jusqu\'à 3 autres références en appuyant sur les boutons **Référence2**, **Référence3** et **Référence4** et en répétant l\'étape 4.
+8.  Définir facultativement un [Décalage de la pièce ancrée](#D.C3.A9calage_de_l.27ancrage.md).
+9.  Appuyez sur **OK**.
 
 ## Options
 

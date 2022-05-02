@@ -309,11 +309,6 @@ Hydrostatik Kurven.
 Das [FreeCAD Schiff s60 Tutorium (II)](FreeCAD-Ship_s60_tutorial_(II)/de.md) ist das zweite Kapitel der Series 60 von der Iowa Universität Schiff.
 
 
-{{Ship Tools navi
-
-}}
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial/de

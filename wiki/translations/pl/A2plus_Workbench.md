@@ -5,33 +5,33 @@
 
 {{TOCright}}
 
-The A2plus workbench is an [external workbench](External_workbenches.md) to [assemble](Assembly.md) different parts in FreeCAD.
+Środowisko pracy A2plus to [zewnętrzne środowisko](External_workbenches/pl.md) do wykonywania [złożeń](Assembly/pl.md) różnych części w programie FreeCAD.
 
-This documentation describes A2plus version **0.4.54b or newer**.
+Niniejsza dokumentacja opisuje wersję A2plus **0.4.54b lub nowszą**.
 
-## Installing
+## Instalacja
 
-The A2plus workbench is an addon to FreeCAD. It can easily be installed via the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) from the **Tools → Addon Manager** menu. A2plus is under active development and will get new features frequently. Therefore you should update it regularly using also the menu **Tools → [Addon Manager](Std_AddonMgr.md)**. The A2plus code is hosted and developed [on GitHub](https://github.com/kbwbe/A2plus) and can also be installed manually by copying it into FreeCAD\'s {{FileName|Mod}} directory.
+Środowisko pracy A2plus jest dodatkiem do programu FreeCAD. Można je łatwo zainstalować za pomocą <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) z menu **Przybory → Menadżer dodatków**. A2plus jest w trakcie aktywnego rozwoju i będzie często wzbogacany o nowe funkcje. Dlatego warto go regularnie aktualizować, również za pomocą narzędzia w menu **Przybory → Menadżer dodatków**. Kod A2plus jest przechowywany i rozwijany [na GitHub](https://github.com/kbwbe/A2plus) i może być również zainstalowany ręcznie poprzez skopiowanie go do katalogu {{FileName|Mod}} programu FreeCAD.
 
-## Getting Started 
+## Rozpoczęcie pracy 
 
-At first switch to the A2plus toolbar in FreeCAD. To create an assembly create a new file in FreeCAD. At first this file needs to be saved. It is recommended (but not necessary) to save it in the same folder of the parts you want to assemble.
+Na początku przejdź do paska narzędzi A2plus w programie FreeCAD. Aby utworzyć złożenie, utwórz nowy plik w programie FreeCAD. Na początku plik ten musi zostać zapisany. Zaleca się *(ale nie jest to konieczne)*, aby zapisać go w tym samym folderze, w którym znajdują się części, z których ma zostać wykonany montaż.
 
-Now parts can be added to the assembly by using the toolbar button <img alt="" src=images/A2p_ImportPart.svg  style="width:24px;"> or <img alt="" src=images/A2p_ShapeReference.svg  style="width:24px;">. The button <img alt="" src=images/A2p_ImportPart.svg  style="width:24px;"> adds all bodies in the selected file as a single part. When using the button <img alt="" src=images/A2p_ShapeReference.svg  style="width:24px;"> you can choose what part from a file should be imported as part. This way one can for example only import a sketch to assemble further parts using the sketch to determine the part positions.
+Teraz części można dodawać do złożenia za pomocą przycisku na pasku narzędzi <img alt="" src=images/A2p_ImportPart.svg  style="width:24px;"> lub <img alt="" src=images/A2p_ShapeReference.svg  style="width:24px;">. Przycisk <img alt="" src=images/A2p_ImportPart.svg  style="width:24px;"> dodaje wszystkie bryły w wybranym pliku jako jedną część. Używając przycisku <img alt="" src=images/A2p_ShapeReference.svg  style="width:24px;"> możesz wybrać, jaki element z pliku ma zostać zaimportowany jako część. W ten sposób można na przykład zaimportować tylko szkic, a następnie złożyć kolejne części, używając szkicu do określenia pozycji części.
 
-The first added part gets a fixed position by default. (You can change this later via the part property **fixed Position**.)
+Pierwsza dodana część otrzymuje domyślnie stałą pozycję. *(Można to zmienić później za pomocą właściwości części **fixed Position**)*.
 
-Parts that are already in the assembly can be cloned with the toolbar button <img alt="" src=images/A2p_DuplicatePart.svg  style="width:24px;">.
+Części, które już znajdują się w złożeniu, można klonować za pomocą przycisku z paska narzędzi <img alt="" src=images/A2p_DuplicatePart.svg  style="width:24px;">.
 
-To edit a part from the assembly, select it in the model tree and use the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">. This will open the part into a new tab in FreeCAD or switch to its tab if the file is already opened.
+Aby edytować część ze złożenia, zaznacz ją w drzewie modelu i użyj przycisku na pasku narzędzi <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">. Spowoduje to otwarcie części w nowej zakładce w programie FreeCAD lub przełączenie do jej zakładki, jeśli plik jest już otwarty.
 
-To update changed parts in assemblies click on the toolbar button <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">. The toolbar button <img alt="" src=images/A2p_RecursiveUpdate.svg  style="width:24px;"> imports parts too but recursively over possible [subassemblies](#Subassemblies.md). If you select one or some parts in FreeCAD\'s the tree view, A2plus will ask you to only update the selected parts.
+Aby zaktualizować części zmodyfikowane w złożeniach kliknij na przycisk na pasku narzędzi <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">. Przycisk paska narzędzi <img alt="" src=images/A2p_RecursiveUpdate.svg  style="width:24px;"> również importuje części, ale rekurencyjnie przez możliwe [montaż podzespołów](#Monta.C5.BC_podzespo.C5.82.C3.B3w.md). Jeśli zaznaczysz jedną lub kilka części w widoku drzewa programu FreeCAD, A2plus poprosi Cię o aktualizację tylko wybranych części.
 
 Imported parts will keep their external dependencies and can be edited. For well-defined parts like screws it is however useful that their shape cannot be edited. This can be achieved with the toolbar button <img alt="" src=images/A2p_ConvertPart.svg  style="width:24px;"> that converts the selected part to a static copy of the original part.
 
 To save the assembly and close it afterwards, the toolbar button <img alt="" src=images/A2p_Save_and_exit.svg  style="width:24px;"> can be used.
 
-## Assembling
+## Montaż
 
 Assembling parts is done by adding constraints between parts. After a constraint A2plus will move the parts according to the constraint if possible.
 
@@ -39,7 +39,7 @@ To create a constraint between parts, keep the **Ctrl** key pressed and select e
 
 For complex constraints between parts A2plus might fail to solve the constraints. Therefore also have a look at section [Troubleshooting](#Troubleshooting.md) for strategies to resolve such cases.
 
-### Keeping track 
+### Bieżące monitorowanie 
 
 The more parts you add, the more important it is to keep track. A2plus therefore offers these tools to move and view parts:
 
@@ -49,7 +49,7 @@ The more parts you add, the more important it is to keep track. A2plus therefore
 -   To toggle the transparency view of the whole assembly you can use the toolbar button <img alt="" src=images/A2p_ToggleTransparency.svg  style="width:24px;">.
 -   Every part can be made transparent using the normal FreeCAD editing. However sometimes the transparency setting for parts is lost when reopening the assembly due to a bug in FreeCAD. As workaround you can use the toolbar button <img alt="" src=images/A2p_Restore_Transparency.svg  style="width:24px;"> to restore the transparency settings.
 
-### Constraints
+### Wiązania
 
 When creating a constraint such a dialog will be displayed after you pressed a constraint toolbar button:
 
@@ -62,15 +62,15 @@ Constraints can be disabled by changing its [visibility](Std_ToggleVisibility.md
 
 A2plus provides the following constraints:
 
-#### Point on Point 
+#### Punkt w punkcie 
 
 Select either a [vertex](Glossary#Vertex.md) (point), circle or sphere on each part. If a circle or sphere was selected, its center point will be used for the constraint. The toolbar button <img alt="" src=images/A2p_PointIdentity.svg  style="width:24px;"> adds the constraint {{Variable|pointIdentity}} that make the vertices coincident.
 
-#### Point on Line 
+#### Punkt na linii 
 
 Select a [vertex](Glossary#Vertex.md) (point), or circular [edge](Glossary#Edge.md) (will select its center point), or a spherical [face](Glossary#Face.md) (will also select its center point) on one part and an [edge](Glossary#Edge.md) on the other part. The toolbar button <img alt="" src=images/A2p_PointOnLineConstraint.svg  style="width:24px;"> adds the constraint {{Variable|pointOnLine}}. It will put the vertex on the edge.
 
-#### Point on Plane 
+#### Punkt na płaszczyźnie 
 
 Select a [vertex](Glossary#Vertex.md) (point), or circular [edge](Glossary#Edge.md) (will select its center point), or a spherical [face](Glossary#Face.md) (will also select its center point) on one part and a plane on the other part. The toolbar button <img alt="" src=images/A2p_PointOnPlaneConstraint.svg  style="width:24px;"> adds the constraint {{Variable|pointOnPlane}}. The constraint dialog allows you to specify an offset between the point and the plane. This offset can also be flipped between both sides of the plane. If the offset is zero, the constraint will put the vertex on the plane.
 
@@ -118,7 +118,7 @@ Select a plane on both parts. The toolbar button <img alt="" src=images/A2p_Angl
 
 Select either a closed [edge](Glossary#Edge.md) or a plane on both parts. The toolbar button <img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;"> adds the constraint {{Variable|centerOfMass}}. The constraint dialog allows you to specify an offset between the edges or planes. This offset can also be flipped. You can furthermore set the constraint direction and lock the rotation of the parts. If the offset is zero, the constraint will put the edges or planes into the same plane.
 
-### Subassemblies
+### Montaż podzespołów 
 
 An assembly can contain other assemblies. They are added like parts by pressing the toolbar button <img alt="" src=images/A2p_ImportPart.svg  style="width:24px;"> and selecting a {{FileName|*.FCStd}} file containing an assembly. Such subassemblies can also be edited like parts using the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">. Please make sure for higher assembly stages that you update the assembly recursively via the toolbar button <img alt="" src=images/A2p_RecursiveUpdate.svg  style="width:24px;"> when there were changes.
 

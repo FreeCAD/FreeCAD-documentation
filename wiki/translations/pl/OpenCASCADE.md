@@ -1,29 +1,29 @@
 # OpenCASCADE/pl
 {{TOCright}}
 
-## Description
+## Opis
 
-[OpenCASCADE Technology](OpenCASCADE.md), **OCC** or **OCCT** for short, is a collection of C++ libraries that together constitute a professional computer aided design (CAD) kernel for modelling 2D and 3D objects, and building specialized tools for manufacturing, simulation, or visualization. OpenCASCADE is the heart of the geometrical capabilities of FreeCAD.
+**OpenCASCADE Technology**, w skrócie **OCC** lub **OCCT**, jest zbiorem bibliotek C++, które razem tworzą profesjonalne jądro komputerowego wspomagania projektowania *(CAD)* do modelowania obiektów 2D i 3D oraz budowania specjalistycznych narzędzi do produkcji, symulacji lub wizualizacji. OpenCASCADE jest sercem geometrycznych możliwości programu FreeCAD.
 
-The geometrical classes of OCCT are mostly implemented and made available in FreeCAD through the [Part](Part_Workbench.md) module, on which most other [workbenches](Workbenches.md) depend. It also provides internal functions to read and write different file formats like STEP and IGES, and to perform 2D projections, which can be used to create technical drawings in [TechDraw](TechDraw_Workbench.md).
+Klasy geometryczne OCCT są w większości zaimplementowane i udostępnione w programie FreeCAD za pośrednictwem środowiska pracy [Część](Part_Workbench/pl.md), od którego zależy większość innych [środowisk pracy](Workbenches/pl.md). Udostępnia on także wewnętrzne funkcje odczytu i zapisu różnych formatów plików, takich jak STEP i IGES, oraz wykonywania rzutów 2D, które mogą być używane do tworzenia rysunków technicznych w środowisku pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md).
 
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
 
-*OpenCASCADE provides the basic geometrical classes and drawing functions to the [Part](Part_Workbench.md) module, which are then used by all workbenches in FreeCAD.*
+*OpenCASCADE dostarcza podstawowe klasy geometryczne i funkcje rysunkowe do środowiska pracy [Część](Part_Workbench/pl.md), które są następnie wykorzystywane przez wszystkie grupy robocze w programie FreeCAD.*
 
-OpenCASCADE should not be confused with [OpenSCAD](https://www.openscad.org/), which is a different open source project to build 3D models, and which is accessible through the [OpenSCAD Workbench](OpenSCAD_Workbench.md).
+OpenCASCADE nie powinien być mylony z [OpenSCAD](https://www.openscad.org/), który jest innym projektem open source do budowy modeli 3D, dostępnym poprzez środowisko pracy [OpenSCAD](OpenSCAD_Workbench/pl.md).
 
-OpenCASCADE is free software governed by the terms of the GNU Lesser General Public License (LGPL) version 2.1 with an additional exception.
+OpenCASCADE jest wolnym oprogramowaniem podlegającym warunkom licencji GNU Lesser General Public License *(LGPL)* w wersji 2.1 z dodatkowym wyjątkiem.
 
-## Installation
+## Instalacja
 
 OpenCASCADE is a core component of FreeCAD, so if you get FreeCAD from one of the links in the [Download](Download.md) page, you will have it installed, and no further installation is necessary.
 
 However, if you would like to develop applications that use OCCT, or would like to contribute C++ code to FreeCAD, then you need to install the development files of OCCT. In this case, the procedure is explained in [Compiling](Compiling.md) for each of the main systems, Linux, Windows, and MacOS.
 
-## Community edition 
+## Edycja społecznościowa 
 
 A \"community edition\" of OpenCASCADE, abbreviated OCE, was released in 2011, based on the official OpenCASCADE sources (OCCT) of version 6.5. In theory the community edition OCE should be compatible with the main version OCCT in most aspects, while having some additional code contributed by the community.
 
@@ -31,13 +31,13 @@ However, this alternative distribution stopped active development around 2017, a
 
 In some older Linux distributions, FreeCAD is compiled against OCE 0.18, equivalent to OCCT 6.9.x, causing various issues that have been solved already in the main OCCT 7.x releases. If this is the case, try removing OCE, and installing OCCT instead. If this is not possible, use the [AppImage](AppImage.md) to get a modern FreeCAD with an updated OCCT version.
 
-## History
+## Historia
 
 The Cas.CADE geometric kernel was originally closed source, but it became open source under its current name around the year 2000. Shortly after, the FreeCAD project was started, with the oldest files being dated to January 2001. Read more in [History](History.md).
 
 OpenCASCADE version 6.6 and earlier were governed by its own \"OCCT public license\", which made it not entirely \"free software\". This was solved with the release of OCCT 6.7 (2013), when it adopted the LGPL2 license.
 
-## OCCT geometric concepts 
+## Koncepcje geometryczne OCCT 
 
 In OpenCascade terminology, we distinguish between geometric primitives and topological shapes. A geometric primitive can be a point, a line, a circle, a plane, etc. or even some more complex types like a B-Spline curve or a surface. A shape can be a vertex, an edge, a wire, a face, a solid or a compound of other shapes. The geometric primitives are not made to be directly displayed on the 3D scene, but rather to be used as building geometry for shapes. For example, an edge can be constructed from a line or from a portion of a circle.
 
@@ -70,7 +70,7 @@ Thus, out of shapes you can build very complex parts or, the other way round, ex
 
 *The `Part::TopoShape* class is the geometrical object that is seen on screen. Essentially all workbenches use these [TopoShapes](Part_TopoShape.md) internally to build and display edges, faces, and solids.`
 
-## Related
+## Powiązane
 
 -   OpenCASCADE Technology (OCCT) [main website](http://www.opencascade.com)
 -   OCCT [development portal](https://dev.opencascade.org/)

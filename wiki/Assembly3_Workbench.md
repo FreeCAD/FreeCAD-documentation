@@ -412,7 +412,7 @@ The key think to understand is that the constraint operates on links to Elements
 
 Lets get back to the example above
 
-:   Note: make sure you added the \"Lock\" constraint to the cube or this will look confusing
+:   Note: make sure you added the \"Locked\" constraint to the cube or this will look confusing
 :   In the CAD window select another face of the cube. Now we only work in the tree view. Go with your mouse in the tree where the cube should be selected. Drag&Drop the cube to the \'Elements\' folder. Drop it on the \'Elements\' name, not anywhere else in the folder - why we see later. You should see that another Element is added to the \'ELements\' list. Now select in the \'Constraints\' folder the child node of the cube face in out \"Plane Coincident\" constraint and delete it. The Constraint will show an exclamation mark since its missing one Element. Note that by deleting the Element in the Constraint we did *not* delete it in the list. That is because in the constraint was only a link to the Element in the list. Now take the newly added Element in the \'Elements\' list and drag&drop it onto the \"Plane Coincident\" constraint. Now the cylider moves to the other face we selected. We might need to select \'context menu/flip part\' again if the cylinder is again inside the cube.
 
 The example showed that without removing the constraint we can change the Elements that are used for the constraint. The same way we can move the cylinder to a totally different part. After playing around with this example a bit more, you will note some additional things as

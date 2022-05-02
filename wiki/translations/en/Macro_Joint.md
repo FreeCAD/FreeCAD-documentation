@@ -4,8 +4,8 @@
 |Icon=Macro_Joint_Icon.svg
 |Description=Make joints of various types, including mortise/tenon, box joints, dovetail joints, and various snap joints
 |Author=TheMarkster
-|Version=0.2022.02.01
-|Date=2022-02-01
+|Version=0.2022.04.28
+|Date=2022-04-28
 |FCVersion=Python 3 versions
 |Download=[https://wiki.freecadweb.org/File:Macro_Joint_Icon.svg ToolBar Icon]
 |SeeAlso=
@@ -36,7 +36,7 @@ Full documentation can be found on github: [Joint](https://github.com/mwganson/j
 ## Legend
 
 
-{{Codeextralink|https://gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9/raw/6c5fa9ceb67109de1cc2c271086fbdc5b5739746/Joint.FCMacro|Joint.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9/raw/3e80ecbfe6215338f09e142764f7f060f771a4b2/Joint.FCMacro|Joint.FCMacro}}
 
 ToolBar Icon ![](images/Macro_Joint_Icon.svg )
 

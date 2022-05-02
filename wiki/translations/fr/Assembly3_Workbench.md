@@ -380,7 +380,7 @@ Les contraintes Assembly3 définissent les restrictions de position ou d\'orient
 
 Autre
 
--   **Points on Circle**: bloque Tz et partiellement Tx, Ty. Imposela translation de points (ou plusieurs points) sur un cercle ou une zone de disque. Vous devez choisir le cercle en second. Cela laisse toutes les rotations libres et donne une translation limitée dans le plan de référence du cercle.
+-   **Points on Circle**: bloque Tz et partiellement Tx, Ty. Impose la translation de points (ou plusieurs points) sur un cercle ou une zone de disque. Vous devez choisir le cercle en second. Cela laisse toutes les rotations libres et donne une translation limitée dans le plan de référence du cercle.
 
 *:Remarque : dans la liste suivante, Tx, Ty, Tz et Rx, Ry, Rz sont utilisés pour décrire les translations et les rotations concernant les systèmes de coordonnées de référence des éléments impliqués. Ce n\'est pas toujours exact ou entièrement défini, par ex., lorsqu\'il s\'agit d\'une ligne, elle n\'est pas définie si elle s\'étend en X, Y ou tout angle entre les deux. Le système est utilisé pour la convivialité et la comparaison facile en faveur d\'une définition correcte mais plus complexe. Donc Z est généralement la direction normale de toutes les faces impliquées. N\'hésitez pas à modifier cela avec une meilleure approche avec une meilleure lisibilité.*
 

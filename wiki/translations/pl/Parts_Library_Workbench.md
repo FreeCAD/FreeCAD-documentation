@@ -1,56 +1,56 @@
 # Parts Library Workbench/pl
-## Introduction
+## Wprowadzenie
 
 
 {{TOCright}}
 
-This repository contains a library of Parts to be used in FreeCAD. It is maintained by the community of users of FreeCAD and is not part of the FreeCAD project, although it is made with the aim to be used as a repository of parts by FreeCAD in the future.
+To repozytorium zawiera bibliotekę części, które mogą być używane w programie FreeCAD. Jest ono utrzymywane przez społeczność użytkowników programu FreeCAD i nie jest częścią projektu FreeCAD, choć zostało stworzone z myślą o wykorzystaniu go w przyszłości jako repozytorium części w programie FreeCAD.
 
-## References
+## Bibliografia
 
--   Author: Initial commit yorikvanhavre + FreeCAD community
--   Home page: [FreeCAD library](https://github.com/FreeCAD/FreeCAD-library)
--   Source code on github: <https://github.com/FreeCAD/FreeCAD-library>
+-   Autor: Początkowy commit yorikvanhavre + Społeczność \"FreeCAD
+-   Strona główna: [Biblioteka FreeCAD](https://github.com/FreeCAD/FreeCAD-library)
+-   Kod źródłowy na Github: <https://github.com/FreeCAD/FreeCAD-library>
 
-## Tools
+## Przybory
 
-Detailed description [here](http://www.bolts-library.org/en/docs/0.3/freecad/usage.html)
+Szczegółowy opis [tutaj](http://www.bolts-library.org/en/docs/0.3/freecad/usage.html)
 
-Parts Library Selector
+Wybór biblioteki części
 
 ![](images/PatsLibrary-selector.png )
 
-## Installation
+## Instalacja
 
-### Automatic installation 
+### Instalacja automatyczna 
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
+To środowisko pracy można zainstalować za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
 
-### From GitHub 
+### Z repozytorium GitHub 
 
-How to [here](https://github.com/FreeCAD/FreeCAD-library)
+Opis instalacji przygotowano na stronie [FreeCAD-library](https://github.com/FreeCAD/FreeCAD-library) serwisu GitHub.
 
-The library is a simple container for FreeCAD (.fcstd) and STEP (.stp) files. You can download it anywhere and import its files in your FreeCAD projects. Inside the library, there is also a FreeCAD macro (PartsLibrary.FCMacro) that you can place in your FreeCAD macros folder. That macro creates a browser window inside FreeCAD, from which you can easily add the parts by double-clicking them.
+Biblioteka ta jest prostym zasobnikiem dla plików FreeCAD *(.fcstd)* i STEP *(.stp)*. Możesz ją pobrać niezależnie od miejsca i importować jej pliki w swoich projektach FreeCAD. Wewnątrz biblioteki znajduje się również makrodefinicja FreeCAD *(PartsLibrary.FCMacro)*, którą można umieścić w folderze makr FreeCAD. Makro to tworzy okno przeglądarki w programie FreeCAD, z którego można łatwo dodawać części, klikając na nich dwukrotnie.
 
-## Links to PartsLibrary workbench 
+## Odnośniki do środowisk pracy Biblioteki części 
 
--   Workbench Wiki:
+-   Biblioteczka Wiki:
 -   FreeCAD Wiki: [Macro PartsLibrary](http://www.freecadweb.org/wiki/index.php?title=Macro_PartsLibrary)
--   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?f=10&t=1378>
--   Tutorials:
--   Videos:
--   Files:
--   Parts list, Author and Standardisation bodies: [sharing your models from the macro](https://github.com/FreeCAD/FreeCAD-library#sharing-your-models-from-the-macro)
--   Report bugs: Please report bugs at <https://github.com/FreeCAD/FreeCAD-library/issues>
+-   Forum FreeCAD: <http://forum.freecadweb.org/viewtopic.php?f=10&t=1378>
+-   Poradniki:
+-   Materiały wideo:
+-   Pliki:
+-   Lista części, Autor i instytucje normalizacyjne: [udostępnianie swoich modeli z makrodefinicji](https://github.com/FreeCAD/FreeCAD-library#sharing-your-models-from-the-macro)
+-   Zgłaszanie błędów: Błędy należy zgłaszać na stronie <https://github.com/FreeCAD/FreeCAD-library/issues>
 
-## Other useful links 
+## Inne użyteczne odnośniki 
 
--   [BOLTS WB](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Bolts)
--   [Fasteners WB](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners)
--   [External workbenches](External_workbenches.md)
--   [Macros recipes](Macros_recipes.md)
--   [FreeCAD Download](Download.md)
--   [FreeCAD Community Portal](FreeCAD_Community_Portal.md)
+-   [Środowisko pracy BOLTSFC](BOLTSFC_Workbench/pl.md)
+-   [Środowisko pracy Elementy złączne](Fasteners_Workbench/pl.md)
+-   [Zewnętrzne środowiska pracy](Zewnętrzne_stoły_warsztatowe.md)
+-   [Przepisy na makropolecenia](Macros_recipes/pl.md)
+-   [Pobieranie programu](Download/pl.md)
+-   [Portale społeczności FreeCAD](FreeCAD_Community_Portal/pl.md)
 
 
 

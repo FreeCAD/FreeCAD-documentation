@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std TreeSyncSelection
-   MenuLocation:View → TreeView actions → Sync selection
-   Workbenches:All
+   Name/pl:Sdt: Synchronizuj wybrane w widoku drzewa
+   MenuLocation:Widok → TreeView actions → Synchronizuj wybrane
+   Workbenches:wszystkie
    Shortcut:**T** **2**
    Version:0.19
 ---
@@ -11,18 +12,18 @@
 
 ## Opis
 
-The **Std TreeSyncSelection** command toggles the [Tree view](Tree_view.md) SyncSelection mode. If this mode is on, selecting an object in a [3D view](3D_view.md) will automatically expand the Tree view to show that object.
+Polecenie **Synchronizuj wybrane w widoku drzewa** przełącza [widok drzewa](Tree_view/pl.md) w Tryb synchronizacji wyboru. Jeśli ten tryb jest włączony, wybranie obiektu w oknie [widoku 3D](3D_view/pl.md) spowoduje automatyczne rozwinięcie widoku drzewa, aby ukazać ten obiekt.
 
 ## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **Sync selection** option from the flyout. Note: the button image will change depending on the selected option.
-    -   Select the **View → TreeView actions → <img src="images/Std_TreeSyncSelection.svg" width=16px> Sync selection** option from the menu.
-    -   Use the keyboard shortcut: **T** then **2**.
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Kliknij na czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz opcję **Synchronizuj widok** z menu podręcznego. Uwaga: obraz przycisku będzie się zmieniał w zależności od wybranej opcji.
+    -   Wybierz opcję z menu **Widok → Akcje widoku drzewa → <img src="images/Std_TreeSyncSelection.svg" width=16px> Synchronizuj wybrane**.
+    -   Użyj skrótu klawiaturowego: **T**, a następnie **2**.
 
 ## Ustawienia
 
-The Tree view SyncSelection mode can also be set in the [Preferences editor](Preferences_Editor#Selection.md): **Edit→ Preferences → General → Selection**.
+Tryb Synchronizacja widoku drzewa można również ustawić w [Edytorze preferencji](Preferences_Editor/pl#Zaznaczenie.md): **Edycja → Preferencje ...→ Ogólne → zakładka Zaznaczanie**.
 
 
 

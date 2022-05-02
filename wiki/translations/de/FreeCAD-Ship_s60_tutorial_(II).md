@@ -200,11 +200,6 @@ Andererseits hat das Schiff in diesem schlechten Zustand positive *GZ* Werte bis
 Natürlich ist dieses Beispiel nicht real (erstens können die Treibstofftanks nicht in der Doppelbodenstruktur oder unter Verwendung der Rumpfseite als Struktur platziert werden), aber es ist ein gutes Beispiel, um den Umgang mit [Schiff Arbeitsbereich](Ship_Workbench/de.md) zu erlernen.
 
 
-{{Ship Tools navi
-
-}}
-
-
 
 ---
 ![](images/Right_arrow.png) [documentation index](../README.md) > [Ship](Category_Ship.md) > FreeCAD-Ship s60 tutorial (II)/de

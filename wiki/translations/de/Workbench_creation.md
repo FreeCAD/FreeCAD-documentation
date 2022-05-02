@@ -48,7 +48,13 @@ Weitere Informationen zu dem Thema findest du unter [Verwandtes](Workbench_creat
 
 ### C++ Arbeitsbereichsstruktur 
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn du deinen Arbeitsbereich in Python programmieren willst, brauchst du keine besondere Vorsicht walten zu lassen und kannst einfach deine anderen Python Dateien zusammen mit deinen Init.py und InitGui.py Dateien unterbringen. Wenn du jedoch mit C++ arbeitest, solltest du größere Sorgfalt walten lassen und damit beginnen, eine grundlegende Regel von FreeCAD zu beachten: Die Trennung deines Arbeitsbereichs zwischen einem Anwendungsteil (der im Konsolenmodus laufen kann, ohne jedes GUI Element) und einem Gui Teil, der nur geladen wird, wenn FreeCAD mit seiner vollständigen GUI Umgebung läuft. Wenn du also einen C++ Arbeitsbereich verwendest, wirst du höchstwahrscheinlich zwei Module verwenden, eine Anwendung und eine Gui. Diese beiden Module müssen natürlich von Python aus aufrufbar sein. Jedes FreeCAD Modul (Anwendung oder Gui) besteht mindestens aus einer Modul Init Datei. Dies ist eine typische AppMyModuleGui.cpp Datei:
+
+
+</div>
 
 
 ```python

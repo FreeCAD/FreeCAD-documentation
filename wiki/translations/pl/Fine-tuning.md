@@ -35,9 +35,11 @@ Poniższa lista przedstawia parametry, które nie są dostępne za pośrednictwe
 -   **Mod/PartDesign/SubtractiveHelixPreview** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby upewnić się, że helisa odejmowana, która nie przecina ciała, jest widoczna w podglądzie. Wartością domyślną jest {{TRUE/pl}}.
 -   **Mod/PartDesign/SwitchToTask** *(boolean)*: Ustaw wartość opcji na {{FALSE/pl}}, aby uniemożliwić przełączenie na panel zadań podczas uruchamiania Środowiska pracy [Projekt części](PartDesign_Workbench/pl.md). Wartością domyślną jest {{TRUE/pl}}, jeśli wartość nie jest dostępna.
 -   **Mod/PartDesign/SwitchToWB** *(boolean)*: Ustaw wartość opcji na {{FALSE/pl}}, aby zapobiec automatycznemu wywołaniu Środowiska pracy [Projekt części](PartDesign_Workbench/pl.md), gdy aktywowana jest opcja [zawartość](PartDesign_Body/pl.md). Wartością domyślną jest {{TRUE/pl}}, jeśli wartość nie jest dostępna.
--   **PropertyView/AutoTransactionView** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} więc zmiany właściwości zakładki Widok są dodawane do stosu Cofnij *(stąd są cofane)*. Domyślną wartością jest {{FALSE/pl}}.
+-   **PropertyView/AutoTransactionView** *(boolean)*: Ustawienie wartość opcji na {{TRUE/pl}} powoduje, że zmiany właściwości karty Widok są dodawane do stosu cofania *(a więc można je cofnąć)*. Domyślną wartością jest {{FALSE/pl}}.
 -   **Selection/AutoShowSelectionView** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby panel Widok zaznaczenia wyświetlał się automatycznie po wybraniu obiektu. Domyślnie {{FALSE/pl}}.
 -   **Selection/singleClickFeatureSelect** *(boolean)*: Ustaw opcję na wartość {{FALSE/pl}}, aby wyłączyć możliwość wyboru elementu jednym kliknięciem w środowisku Projekt Części. Domyślnie {{TRUE/pl}}.
+
+-   **TreeView/TreeViewStretchDescription** (boolean): Ustaw opcję na wartość {{FALSE/pl}}, aby rozciągnąć kolumnę \"Opis\" w oknie [widoku drzewa](Tree_view/pl.md) do prawej krawędzi panelu. Wartość domyślna to {{FALSE/pl}}.
 -   **View/NavigationDebug** *(boolean)*: Włącza debugowanie stylów nawigacji *(od wersji v0.19 tylko styl nawigacji Gesture ma coś do powiedzenia)*.
 -   **View/NavigationDebug** *(boolean)*: Udostępnia możliwość debugowania stylów nawigacji *(od v0.19, tylko styl nawigacji Gesture znajduje zastosowanie)*.
 -   **View/SavePicture** *(string)*: Ustaw wartość opcji na **FramebufferObject**, **PixelBuffer** lub **CoinOffscreenRenderer** dla różnych metod tworzenia obrazów w oknie widoku 3D.

@@ -17,11 +17,17 @@ El <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> de FreeCAD [A
 
 ### Diseño Náutico 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="Cargador de ejemplos de geometrias de naves" src=images/Ship_Load.svg  style="width:32px;"> [Cargador de ejemplos de geometrias de naves](Ship_Geometries_Examples/es.md)
 -   <img alt="Herramienta de Creación de casos de naves" src=images/Ship_Logo.svg  style="width:32px;"> [Creación de casos de naves](Ship_New/es.md)
 -   <img alt="Herramienta de dibujo de líneas de naves" src=images/Ship_OutlineDraw.svg  style="width:32px;"> [Dibujo de líneas](Ship_Outline/es.md)
 -   <img alt="Herramienta de curva de área seccional" src=images/FreeCAD-Ship-AreaCurveIco.png  style="width:32px;"> [Curva de área](Ship_Area/es.md)
 -   <img alt="Icono de la herramienta hidrostática" src=images/Ship_Hydrostatics.png  style="width:32px;"> [Hidrostática](Ship_Hydrostatics/es.md)
+
+
+</div>
 
 ### Cargas
 
@@ -59,11 +65,6 @@ El Ambiente de Trabajo Nave no se mantenía desde la v0.17 pero ha sido resucita
 -   Discusión: <https://forum.freecadweb.org/viewtopic.php?f=8&t=60885>
 
 
-{{Ship Tools navi
-
-}}
-
-
 
 ---
-![](images/Right_arrow.png) [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > [Addons](Category_Addons.md) > [Ship](Category_Ship.md) > Ship Workbench/es
+![](images/Right_arrow.png) [documentation index](../README.md) > [Addons](Category_Addons.md) > [External Workbenches](Category_External Workbenches.md) > [Ship](Category_Ship.md) > Ship Workbench/es

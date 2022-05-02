@@ -12,13 +12,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-## Kurzanleitung
-
-
-</div>
+## Anwendung
 
 ## Eigenschaften
 

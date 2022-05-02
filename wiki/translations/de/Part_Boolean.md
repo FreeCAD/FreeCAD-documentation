@@ -2,9 +2,9 @@
 - GuiCommand:/de
    Name:Part Boolean
    Name/de:Part Boolesche Operationen
-   MenuLocation:Formteil → Bool'sche Operationen → Boolesche Operation...
+   MenuLocation:Formteil → Boolesche Operation → Boolesche Operation...
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Schneiden](Part_Cut/de.md), [Part Verschmelzen](Part_Fuse/de.md), [Part Schnittmenge](Part_Common/de.md), und [Part Abschnitt](Part_Section/de.md)
+   SeeAlso:[Part Differenz](Part_Cut/de.md), [Part Vereinigung](Part_Fuse/de.md), [Part Schnitt](Part_Common/de.md), und [Part Schnittkurve](Part_Section/de.md)
 ---
 
 # Part Boolean/de
@@ -12,7 +12,7 @@
 ## Beschreibung
 
 
-**[<img src=images/Part_Boolean.svg style="width:16px"> [Part Bool'sche Operationen](Part_Boolean/de.md)**
+**[<img src=images/Part_Boolean.svg style="width:16px"> [Part Boolesche Operation](Part_Boolean/de.md)**
 
 ist ein generisches boolesches Multifunktionswerkzeug. Es erlaubt dir die Objekte und die durchzuführende Operation in einem einzigen Dialog anzugeben.
 

@@ -60,9 +60,9 @@ Te narzędzia można dodać do niestandardowego paska narzędzi. Zobacz stronę 
 
 ### Instalacja automatyczna 
 
-To środowisko pracy można zainstalować z [Menadżera dodatków](Std_AddonMgr/pl.md).
+To środowisko pracy można zainstalować za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
 
-### Z GitHub\'a 
+### Z repozytorium GitHub 
 
 Używanie git na Ubuntu i Mint:
 

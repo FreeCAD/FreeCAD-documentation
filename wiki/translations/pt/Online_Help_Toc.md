@@ -1,5 +1,5 @@
 # Online Help Toc/pt
-Este é a tabela de conteúdos usada para a construção automática do sistema *\'Ajuda Online* do FreeCAD. Uma versão para impressão deste manual está também disponível na página [releases page](https://github.com/FreeCAD/FreeCAD/releases). Se tiver alguma questão ou precisar de ajuda com o FreeCAD, consulte a página [ajuda](Help/pt.md), incluindo os fóruns e grupos de conversação.
+Este é o índice utilizado para a construção do sistema automático da *\'Ajuda Online* do FreeCAD. Uma versão para impressão deste manual está também disponível na página [releases page](https://github.com/FreeCAD/FreeCAD/releases). Se tiver alguma questão ou precisar de ajuda com o FreeCAD, consulte a página [ajuda](Help/pt.md), incluindo os fóruns e grupos de conversação.
 
 Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
 
@@ -11,11 +11,8 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 -   Introdução
--   [Boasvindas](Online_Help_Startpage/pt.md)
+-   [Bem vindo](Online_Help_Startpage/pt.md)
     -   [Acerca do FreeCAD](About_FreeCAD/pt.md)
     -   [Funcionalidades](Feature_list/pt.md)
     -   [Instalação em Windows](Install_on_Windows/pt.md)
@@ -23,23 +20,13 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
     -   [Instalação em Mac](Install_on_Mac/pt.md)
     -   [Instalar conteúdo adicional](Installing.md)
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   Trabalhar com FreeCAD
     -   [Por onde começar](Getting_started/pt.md)
-    -   [Modelo do rato](Mouse_Model/pt.md)
-    -   [Uso do cubo de navegação](Navigation_Cube/pt.md)
+    -   [Navegação com o rato](Mouse_navigation/pt.md)
+    -   [Métodos de selecção](Selection_methods/pt.md)
+    -   [O cubo de navegação](Navigation_Cube/pt.md)
     -   [Estrutura do documento FreeCAD](Document_structure/pt.md)
     -   [Editor de propriedades](Property_editor/pt.md)
-    -   [Trabalhar com bancadas de trabalho](Workbenches/pt.md)
-    -   [Importar e exportar para outros tipos de ficheiro](Import_Export/pt.md)
-
-
-</div>
 
 -   As [bancadas de trabalho](Workbenches/pt.md)
     -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;">[Bancada de trabalho Arch (Arquitetura)](Arch_Workbench/pt.md)
@@ -65,33 +52,21 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
     -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [Bancada de trabalho da Web](Web_Workbench/pt.md)
     -   [Bancadas de trabalho externas](External_workbenches/pt.md)
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Lista de todos os comandos do FreeCAD](List_of_Commands/pt.md)
+
+-   [Lista de formatos de ficheiro (importação-exportação)](Import_Export/pt.md)
+
+-   [Perguntas frequentes](Frequently_asked_questions/pt.md)
+
+-   [Caminhos alternativos](Workarounds/pt.md)
+
 -   [Tutoriais](Tutorials/pt.md)
-
-
-</div>
-
--   [List of file formats (import-export)](Import_Export.md)
-
--   [FAQ](Frequently_asked_questions.md)
-
--   [Workarounds](Workarounds.md)
-
--   [Tutorials](Tutorials.md)
-
-
-<div class="mw-translate-fuzzy">
 
 -   Personalizar o FreeCAD
     -   [Personalização da interface](Interface_Customization/pt.md)
     -   [Definir preferências do utilizador](Preferences_Editor/pt.md)
     -   [Definir preferências de importação-exportação](Import_Export_Preferences/pt.md)
-
-
-</div>
+    -   [Configurações de Início](Start_up_and_Configuration/pt.md)
 
 -   [Python scripting](Scripting_and_macros/pt.md)
     -   [Working with macros](Macros/pt.md)
@@ -140,14 +115,9 @@ Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
 </div>
 
 -   Créditos
-    -   [Contribuidores](Contributors/pt.md)
+    -   [Contributos](Contributors/pt.md)
 
--   [Definições](Glossary/pt.md)
-
-
-
-
-[Documentação](Category:Documentation/pt.md)
+-   [Glossário](Glossary/pt.md)
 
 
 

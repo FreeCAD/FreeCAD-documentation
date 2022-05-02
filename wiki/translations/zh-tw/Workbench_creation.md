@@ -47,7 +47,13 @@ The structure and file content for a workbench described here is the classic way
 
 ### C++ workbench 架構 
 
+
+<div class="mw-translate-fuzzy">
+
 如果你打算要用Python來寫你的workbench程式碼，你只需要將其他Python檔案跟Init.py 和InitGui.py放在一起就好了，而不用再去煩惱其他事情。不過當你是使用C++來撰寫workbench的時候，你必須特別留意並且遵守FreeCAD的一個基本規則：你必須將你的workbench分成App(可以在命令列介面下執行而不需要任何圖形使用者介面)和Gui(只有在FreeCAD在圖形使用者介面下執行時才會被載入)兩個部份。 所以用C++撰寫workbench你幾乎就像是在開發兩個modules，也就是App和Gui這兩個。這兩個模組當然必須能被Python呼叫。任何 FreeCAD module(App或Gui)至少都包含一個module的init 檔。這是典型AppMyModuleGui.cpp檔 ：
+
+
+</div>
 
 
 ```python

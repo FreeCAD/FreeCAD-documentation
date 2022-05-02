@@ -662,7 +662,7 @@ Die Forumsdiskussion [Posting a new macro](http://forum.freecadweb.org/viewtopic
 
 ## Version
 
-ver 00.10 19/12/2020 : upgrade by Chris\_G fix to exclude App.Part from input objects, see [cross section macro does not work on bodies within a part container](https://forum.freecadweb.org/viewtopic.php?f=22&t=53423)
+ver 00.10 19/12/2020 : Upgrade durch Fix von Chris\_G, der App.Parts von den Eingabeobjekten ausschließt, siehe [cross section macro does not work on bodies within a part container](https://forum.freecadweb.org/viewtopic.php?f=22&t=53423)
 
 ver 00.09 31/08/2019 : upgrade by g.becu adding line 334 \#[Sezione Dinamica](https://forum.freecadweb.org/viewtopic.php?f=28&t=15084&start=20#p330351)
 

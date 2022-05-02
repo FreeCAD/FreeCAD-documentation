@@ -151,27 +151,27 @@
 | [Robot Edge2Trac/ru](wiki/Robot Edge2Trac/ru.md) | [Robot Export/ru](wiki/Robot Export/ru.md) | [Robot InsertWaypoint/ru](wiki/Robot InsertWaypoint/ru.md) |
 | [Robot InsertWaypointPre/ru](wiki/Robot InsertWaypointPre/ru.md) | [Robot RestoreHomePos/ru](wiki/Robot RestoreHomePos/ru.md) | [Robot SetDefaultOrientation/ru](wiki/Robot SetDefaultOrientation/ru.md) |
 | [Robot SetDefaultValues/ru](wiki/Robot SetDefaultValues/ru.md) | [Robot SetHomePos/ru](wiki/Robot SetHomePos/ru.md) | [Robot Simulate/ru](wiki/Robot Simulate/ru.md) |
-| [Robot TrajectoryCompound/ru](wiki/Robot TrajectoryCompound/ru.md) | [Robot TrajectoryDressUp/ru](wiki/Robot TrajectoryDressUp/ru.md) | [Ship Area/ru](wiki/Ship Area/ru.md) |
-| [Ship Geometries Examples/ru](wiki/Ship Geometries Examples/ru.md) | [Ship Hydrostatics/ru](wiki/Ship Hydrostatics/ru.md) | [Ship Loading/ru](wiki/Ship Loading/ru.md) |
-| [Ship New/ru](wiki/Ship New/ru.md) | [Ship Outline/ru](wiki/Ship Outline/ru.md) | [Ship PlotGZ/ru](wiki/Ship PlotGZ/ru.md) |
-| [Ship TankCapacity/ru](wiki/Ship TankCapacity/ru.md) | [Ship TankNew/ru](wiki/Ship TankNew/ru.md) | [Ship Weight/ru](wiki/Ship Weight/ru.md) |
-| [Sketcher BSplineApproximate/ru](wiki/Sketcher BSplineApproximate/ru.md) | [Sketcher BSplineComb/ru](wiki/Sketcher BSplineComb/ru.md) | [Sketcher BSplineDecreaseDegree/ru](wiki/Sketcher BSplineDecreaseDegree/ru.md) |
-| [Sketcher BSplineDecreaseKnotMultiplicity/ru](wiki/Sketcher BSplineDecreaseKnotMultiplicity/ru.md) | [Sketcher BSplineDegree/ru](wiki/Sketcher BSplineDegree/ru.md) | [Sketcher BSplineIncreaseDegree/ru](wiki/Sketcher BSplineIncreaseDegree/ru.md) |
-| [Sketcher BSplineIncreaseKnotMultiplicity/ru](wiki/Sketcher BSplineIncreaseKnotMultiplicity/ru.md) | [Sketcher BSplineKnotMultiplicity/ru](wiki/Sketcher BSplineKnotMultiplicity/ru.md) | [Sketcher BSplinePoleWeight/ru](wiki/Sketcher BSplinePoleWeight/ru.md) |
-| [Sketcher BSplinePolygon/ru](wiki/Sketcher BSplinePolygon/ru.md) | [Sketcher CarbonCopy/ru](wiki/Sketcher CarbonCopy/ru.md) | [Sketcher Clone/ru](wiki/Sketcher Clone/ru.md) |
-| [Sketcher CloseShape/ru](wiki/Sketcher CloseShape/ru.md) | [Sketcher CompCreateArc/ru](wiki/Sketcher CompCreateArc/ru.md) | [Sketcher CompCreateBSpline/ru](wiki/Sketcher CompCreateBSpline/ru.md) |
-| [Sketcher CompCreateCircle/ru](wiki/Sketcher CompCreateCircle/ru.md) | [Sketcher CompCreateConic/ru](wiki/Sketcher CompCreateConic/ru.md) | [Sketcher CompCreateRectangles/ru](wiki/Sketcher CompCreateRectangles/ru.md) |
-| [Sketcher CompCreateRegularPolygon/ru](wiki/Sketcher CompCreateRegularPolygon/ru.md) | [Sketcher ConnectLines/ru](wiki/Sketcher ConnectLines/ru.md) | [Sketcher ConstrainAngle/ru](wiki/Sketcher ConstrainAngle/ru.md) |
-| [Sketcher ConstrainBlock/ru](wiki/Sketcher ConstrainBlock/ru.md) | [Sketcher ConstrainCoincident/ru](wiki/Sketcher ConstrainCoincident/ru.md) | [Sketcher ConstrainDiameter/ru](wiki/Sketcher ConstrainDiameter/ru.md) |
-| [Sketcher ConstrainDistance/ru](wiki/Sketcher ConstrainDistance/ru.md) | [Sketcher ConstrainDistanceX/ru](wiki/Sketcher ConstrainDistanceX/ru.md) | [Sketcher ConstrainDistanceY/ru](wiki/Sketcher ConstrainDistanceY/ru.md) |
-| [Sketcher ConstrainEqual/ru](wiki/Sketcher ConstrainEqual/ru.md) | [Sketcher ConstrainHorizontal/ru](wiki/Sketcher ConstrainHorizontal/ru.md) | [Sketcher ConstrainInternalAlignment/ru](wiki/Sketcher ConstrainInternalAlignment/ru.md) |
-| [Sketcher ConstrainLock/ru](wiki/Sketcher ConstrainLock/ru.md) | [Sketcher ConstrainParallel/ru](wiki/Sketcher ConstrainParallel/ru.md) | [Sketcher ConstrainPerpendicular/ru](wiki/Sketcher ConstrainPerpendicular/ru.md) |
-| [Sketcher ConstrainPointOnObject/ru](wiki/Sketcher ConstrainPointOnObject/ru.md) | [Sketcher ConstrainRadiam/ru](wiki/Sketcher ConstrainRadiam/ru.md) | [Sketcher ConstrainRadius/ru](wiki/Sketcher ConstrainRadius/ru.md) |
-| [Sketcher ConstrainSnellsLaw/ru](wiki/Sketcher ConstrainSnellsLaw/ru.md) | [Sketcher ConstrainSymmetric/ru](wiki/Sketcher ConstrainSymmetric/ru.md) | [Sketcher ConstrainTangent/ru](wiki/Sketcher ConstrainTangent/ru.md) |
-| [Sketcher ConstrainVertical/ru](wiki/Sketcher ConstrainVertical/ru.md) | [Sketcher Copy/ru](wiki/Sketcher Copy/ru.md) | [Sketcher Create3PointArc/ru](wiki/Sketcher Create3PointArc/ru.md) |
-| [Sketcher Create3PointCircle/ru](wiki/Sketcher Create3PointCircle/ru.md) | [Sketcher CreateArc/ru](wiki/Sketcher CreateArc/ru.md) | [Sketcher CreateArcOfEllipse/ru](wiki/Sketcher CreateArcOfEllipse/ru.md) |
-| [Sketcher CreateArcOfHyperbola/ru](wiki/Sketcher CreateArcOfHyperbola/ru.md) | [Sketcher CreateArcOfParabola/ru](wiki/Sketcher CreateArcOfParabola/ru.md) | [Sketcher CreateBSpline/ru](wiki/Sketcher CreateBSpline/ru.md) |
-| [Sketcher CreateCircle/ru](wiki/Sketcher CreateCircle/ru.md) | [Sketcher CreateEllipseBy3Points/ru](wiki/Sketcher CreateEllipseBy3Points/ru.md) |
+| [Robot TrajectoryCompound/ru](wiki/Robot TrajectoryCompound/ru.md) | [Robot TrajectoryDressUp/ru](wiki/Robot TrajectoryDressUp/ru.md) | [Ship AreasCurve/ru](wiki/Ship AreasCurve/ru.md) |
+| [Ship Capacity/ru](wiki/Ship Capacity/ru.md) | [Ship CreateShip/ru](wiki/Ship CreateShip/ru.md) | [Ship GZ/ru](wiki/Ship GZ/ru.md) |
+| [Ship Hydrostatics/ru](wiki/Ship Hydrostatics/ru.md) | [Ship LoadCondition/ru](wiki/Ship LoadCondition/ru.md) | [Ship LoadExample/ru](wiki/Ship LoadExample/ru.md) |
+| [Ship Tank/ru](wiki/Ship Tank/ru.md) | [Ship Weight/ru](wiki/Ship Weight/ru.md) | [Sketcher BSplineApproximate/ru](wiki/Sketcher BSplineApproximate/ru.md) |
+| [Sketcher BSplineComb/ru](wiki/Sketcher BSplineComb/ru.md) | [Sketcher BSplineDecreaseDegree/ru](wiki/Sketcher BSplineDecreaseDegree/ru.md) | [Sketcher BSplineDecreaseKnotMultiplicity/ru](wiki/Sketcher BSplineDecreaseKnotMultiplicity/ru.md) |
+| [Sketcher BSplineDegree/ru](wiki/Sketcher BSplineDegree/ru.md) | [Sketcher BSplineIncreaseDegree/ru](wiki/Sketcher BSplineIncreaseDegree/ru.md) | [Sketcher BSplineIncreaseKnotMultiplicity/ru](wiki/Sketcher BSplineIncreaseKnotMultiplicity/ru.md) |
+| [Sketcher BSplineKnotMultiplicity/ru](wiki/Sketcher BSplineKnotMultiplicity/ru.md) | [Sketcher BSplinePoleWeight/ru](wiki/Sketcher BSplinePoleWeight/ru.md) | [Sketcher BSplinePolygon/ru](wiki/Sketcher BSplinePolygon/ru.md) |
+| [Sketcher CarbonCopy/ru](wiki/Sketcher CarbonCopy/ru.md) | [Sketcher Clone/ru](wiki/Sketcher Clone/ru.md) | [Sketcher CloseShape/ru](wiki/Sketcher CloseShape/ru.md) |
+| [Sketcher CompCreateArc/ru](wiki/Sketcher CompCreateArc/ru.md) | [Sketcher CompCreateBSpline/ru](wiki/Sketcher CompCreateBSpline/ru.md) | [Sketcher CompCreateCircle/ru](wiki/Sketcher CompCreateCircle/ru.md) |
+| [Sketcher CompCreateConic/ru](wiki/Sketcher CompCreateConic/ru.md) | [Sketcher CompCreateRectangles/ru](wiki/Sketcher CompCreateRectangles/ru.md) | [Sketcher CompCreateRegularPolygon/ru](wiki/Sketcher CompCreateRegularPolygon/ru.md) |
+| [Sketcher ConnectLines/ru](wiki/Sketcher ConnectLines/ru.md) | [Sketcher ConstrainAngle/ru](wiki/Sketcher ConstrainAngle/ru.md) | [Sketcher ConstrainBlock/ru](wiki/Sketcher ConstrainBlock/ru.md) |
+| [Sketcher ConstrainCoincident/ru](wiki/Sketcher ConstrainCoincident/ru.md) | [Sketcher ConstrainDiameter/ru](wiki/Sketcher ConstrainDiameter/ru.md) | [Sketcher ConstrainDistance/ru](wiki/Sketcher ConstrainDistance/ru.md) |
+| [Sketcher ConstrainDistanceX/ru](wiki/Sketcher ConstrainDistanceX/ru.md) | [Sketcher ConstrainDistanceY/ru](wiki/Sketcher ConstrainDistanceY/ru.md) | [Sketcher ConstrainEqual/ru](wiki/Sketcher ConstrainEqual/ru.md) |
+| [Sketcher ConstrainHorizontal/ru](wiki/Sketcher ConstrainHorizontal/ru.md) | [Sketcher ConstrainInternalAlignment/ru](wiki/Sketcher ConstrainInternalAlignment/ru.md) | [Sketcher ConstrainLock/ru](wiki/Sketcher ConstrainLock/ru.md) |
+| [Sketcher ConstrainParallel/ru](wiki/Sketcher ConstrainParallel/ru.md) | [Sketcher ConstrainPerpendicular/ru](wiki/Sketcher ConstrainPerpendicular/ru.md) | [Sketcher ConstrainPointOnObject/ru](wiki/Sketcher ConstrainPointOnObject/ru.md) |
+| [Sketcher ConstrainRadiam/ru](wiki/Sketcher ConstrainRadiam/ru.md) | [Sketcher ConstrainRadius/ru](wiki/Sketcher ConstrainRadius/ru.md) | [Sketcher ConstrainSnellsLaw/ru](wiki/Sketcher ConstrainSnellsLaw/ru.md) |
+| [Sketcher ConstrainSymmetric/ru](wiki/Sketcher ConstrainSymmetric/ru.md) | [Sketcher ConstrainTangent/ru](wiki/Sketcher ConstrainTangent/ru.md) | [Sketcher ConstrainVertical/ru](wiki/Sketcher ConstrainVertical/ru.md) |
+| [Sketcher Copy/ru](wiki/Sketcher Copy/ru.md) | [Sketcher Create3PointArc/ru](wiki/Sketcher Create3PointArc/ru.md) | [Sketcher Create3PointCircle/ru](wiki/Sketcher Create3PointCircle/ru.md) |
+| [Sketcher CreateArc/ru](wiki/Sketcher CreateArc/ru.md) | [Sketcher CreateArcOfEllipse/ru](wiki/Sketcher CreateArcOfEllipse/ru.md) | [Sketcher CreateArcOfHyperbola/ru](wiki/Sketcher CreateArcOfHyperbola/ru.md) |
+| [Sketcher CreateArcOfParabola/ru](wiki/Sketcher CreateArcOfParabola/ru.md) | [Sketcher CreateBSpline/ru](wiki/Sketcher CreateBSpline/ru.md) | [Sketcher CreateCircle/ru](wiki/Sketcher CreateCircle/ru.md) |
+| [Sketcher CreateEllipseBy3Points/ru](wiki/Sketcher CreateEllipseBy3Points/ru.md) | [Sketcher CreateEllipseByCenter/ru](wiki/Sketcher CreateEllipseByCenter/ru.md) |
 
 
 

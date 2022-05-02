@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Draft ShapeString
    Name/fr:Draft Formes à partir texte
-   MenuLocation:Drafting → Formes à partir de texte
+   MenuLocation:Planche à dessin → Formes à partir de texte
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:
    Version/fr:0.14
@@ -43,6 +43,7 @@ Pour les utilisateurs de Windows : veuillez d\'abord lire le paragraphe [Sélect
 
 ## Remarques
 
+-   Une Draft Forme à partir de texte peut être éditée en double-cliquant dessus dans la [Vue en arborescence](Tree_view/fr.md). {{Version/fr|0.20}}
 -   Les polices prises en charge sont TrueType ({{FileName|.ttf}}), OpenType ({{FileName|.otf}}) et Type 1 ({{FileName|.pfb}}).
 -   La commande est limitée au texte LTR (left-to-right (de gauche-à-droite)). Par conséquent, pour le moment, le texte RTL (right-to-left + top-to-bottom (de droite-à-gauche + haut-vers-bas)) n\'est pas supporté.
 -   De très petites hauteurs de texte peuvent entraîner des formes de caractères déformées en raison de la perte de détails lors de la mise à l\'échelle.
@@ -52,14 +53,13 @@ Pour les utilisateurs de Windows : veuillez d\'abord lire le paragraphe [Sélect
 
 ## Sélection des fichiers de police sous Windows 
 
-Sous Windows, l\'accès au dossier des polices par défaut est restreint. Cela affecte la sélection du fichier de police pour les ShapeStrings. Il y a trois cas dans FreeCAD où un fichier de police pour les ShapeStrings peut être spécifié : dans le panneau des tâches de cette commande, lors de la modification de la propriété **Font File** d\'un ShapeString et lors de la spécification du fichier de police par défaut dans les [Réglages des préférences de Draft](Draft_Preferences/fr#Textes_et_cotes.md).
+Sous Windows, l\'accès au dossier des polices par défaut est restreint. Cela affecte la sélection du fichier de police pour les ShapeStrings. Il y a trois cas dans FreeCAD où un fichier de police pour les ShapeStrings peut être spécifié : dans le panneau des tâches de Forme à partir de texte, lors de la modification de la propriété **Font File** d\'un ShapeString et lors de la spécification du fichier de police par défaut dans les [Réglages des préférences de Draft](Draft_Preferences/fr#Textes_et_cotes.md).
 
 Il n\'est pas possible d\'appuyer sur le bouton **...** puis de sélectionner un fichier dans le dossier de polices par défaut de Windows lorsque vous utilisez la boîte de dialogue de fichier native. Il existe un certain nombre de solutions de contournement :
 
--   Assurez-vous que la valeur **DontUseNativeFontDialog** est définie sur {{True}}, qui est la valeur par défaut de cette préférence. Cela n\'appellera un dialogue de fichier différent, non natif, que si vous appuyez sur le **...** dans le panneau de tâches de cette commande. Cette boîte de dialogue de fichier permet d\'accéder au dossier de polices par défaut de Windows.
+-   Assurez-vous que la valeur **DontUseNativeFontDialog** est définie sur {{True}}, qui est la valeur par défaut de cette préférence. Cela n\'appellera un dialogue de fichier différent, non natif, que si vous appuyez sur le bouton **...** dans le panneau de tâches de Forme à partir de texte. Cette boîte de dialogue de fichier permet d\'accéder au dossier de polices par défaut de Windows.
 -   Changez **DontUseNativeDialog** en {{True}}. Ceci indique à FreeCAD de toujours utiliser le dialogue de fichier non-natif.
--   Spécifiez le fichier de police dans le champ de saisie. Vous pouvez bien sûr taper le chemin complet ou copier-coller le chemin depuis l\'explorateur de fichiers de Windows. Mais il existe aussi une autre façon de saisir le chemin. Si vous saisissez {{Value|C:\}}, une liste déroulante s\'affiche. Sélectionnez {{Value|Windows}} dans cette liste et ajoutez {{Value|\F}}. Sélectionnez {{Value|Fonts}} dans la nouvelle liste déroulante. Enfin, ajoutez {{Value|\}} et la première lettre du fichier de police, puis sélectionnez-le dans la liste déroulante.
--   Créez un dossier personnalisé pour vos fichiers de polices.
+-   Spécifiez le fichier de police dans le champ de saisie. Vous pouvez bien sûr taper le chemin complet ou copier-coller le chemin depuis l\'explorateur de fichiers de Windows. Mais il existe aussi une autre façon de saisir le chemin. Si vous saisissez {{Value|C:\}}, une liste déroulante s\'affiche. Sélectionnez {{Value|Windows}} dans cette liste et ajoutez {{Value|\F}}. Sélectionnez {{Value|Fonts}} dans la nouvelle liste déroulante. Enfin, ajoutez {{Value|\}} et la ou les premières lettres du fichier de police, puis sélectionnez-le dans la liste déroulante.
 
 Voir le paragraphe [Préférences](#Pr.C3.A9f.C3.A9rences.md) ci-dessous pour l\'emplacement des préférences mentionnées.
 
@@ -74,8 +74,8 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md), [Draft Pré
 
 -   Le fichier de police par défaut peut être modifié dans les préférences : **Édition → Préférences... → Draft → Textes et cotes → Fichier de police par défaut de Forme de texte**.
 -   Pour les utilisateurs de Windows :
-    -   Définissez **Outils → Editer les paramètres... → BaseApp → Preferences → Dialog → DontUseNativeFontDialog** à {{True}} pour utiliser le dialogue de fichier non natif lors de la sélection d\'un fichier de police dans le panneau des tâches de cette commande.
-    -   Définissez **Outils → Modifier les paramètres... → BaseApp → Preferences → Dialog → DontUseNativeDialog** à {{True}} pour toujours utiliser le dialogue de fichier non natif.
+    -   Définissez **Outils → Editer les paramètres... → BaseApp → Preferences → Dialog → DontUseNativeFontDialog** à {{True}} pour utiliser le dialogue de fichier non natif lors de la sélection d\'un fichier de police dans le panneau des tâches de Formes à partir de texte.
+    -   Autre possibilité, définissez **Outils → Modifier les paramètres... → BaseApp → Preferences → Dialog → DontUseNativeDialog** à {{True}} pour toujours utiliser le dialogue de fichier non natif.
 
 ## Propriétés
 

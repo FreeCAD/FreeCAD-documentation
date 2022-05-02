@@ -719,6 +719,24 @@ Wenn du schon einmal einen Aus-der-Quelle Bau durchgeführt hast und an einer Ab
 
 -   Wenn sich cmake darüber beschwert, dass eine bestimmte Datei fehlt, verwende ein Werkzeug wie \"apt-file search\" oder ein entsprechendes Werkzeug in anderen Paketsystemen, um herauszufinden, zu welchem Paket diese Datei gehört und installiere sie. Denke daran, dass du wahrscheinlich die -dev-Version des Pakets benötigst, die Kopf- oder Konfigurationsdateien enthält, die FreeCAD benötigt, um das Paket zu verwenden.
 
+### Compiling against GNU libc 2.34 and later 
+
+GNU libc 2.34 introduces a change to the library that can cause builds on some Linux systems to fail with an error like:
+
+
+{{Code|lang=bash|code=
+No rule to make target '/usr/lib/x86_64-linux-gnu/libdl.so
+}}
+
+To resolve this, a symbolic link must be manually created from the (now empty) system-installed libdl.so.\* to the location your compiler says it is looking for the file. For example (if the actual installed copy of libdl.so on your system is /usr/lib/x86\_64-linux-gnu/libdl.so.2):
+
+
+{{Code|lang=bash|code=
+sudo ln -s /usr/lib/x86_64-linux-gnu/libdl.so.2 /usr/lib/x86_64-linux-gnu/libdl.so
+}}
+
+Adapt the command for the structure of your system by searching for libdl.so\* and linking it to the appropriate location.
+
 ### Im Quellcode Bau 
 
 In-source builds sind in Ordnung, wenn du eine Version von FreeCAD schnell kompilieren möchtest und nicht vorhast, den Quellcode häufig zu aktualisieren. In diesem Fall kannst Du das kompilierte Programm und die Quelle einfach durch Löschen eines einzelnen Ordners entfernen.
