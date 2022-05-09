@@ -86,7 +86,8 @@ PART_API_PAGES = ["Vertex","Edge","Wire","Face","Shell","Solid","CompSolid","Com
                   "BezierCurve","Cylinder","Point","Sphere","Shape"]
 # templates that are safe to remove entirely
 UNUSED_TEMPLATES = ["Userdocnavi","Powerdocnavi","Arch Tools navi","\\#translation:","clear",
-                   "Part Tools navi","Draft Tools navi","UnfinishedDocu","Tutorials navi"]
+                   "Part Tools navi","Draft Tools navi","UnfinishedDocu","Tutorials navi",
+                   "Arch_Tools_navi"]
 
 
 class MediaWiki:
@@ -765,8 +766,8 @@ class MediaWiki:
         Imagepath indicates the location of images relative to this page
         (default = "images"). debug (default = 0) is used to control the
         level of cleaning done. 0 means disabled (all cleaning is perfomed),
-        1 = first cleaning step, 2 = 2 first cleaning steps, etc.
-        Current maximum is 13"""
+        1 = first cleaning step, 2 = 2 first cleaning steps, etc. Check the code
+        to see what each step does."""
 
         global unhandledTemplates
 
@@ -806,6 +807,8 @@ class MediaWiki:
             result = re.sub("{{PropertyView\|(.*?)}}",r"**\1**",result,flags=flags)
             result = re.sub("{{Emphasis\|(.*?)}}",r"**\1**",result,flags=flags)
             result = re.sub("{{VeryImportantMessage\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub("{{FileName\|(.*?)}}",r"**\1**",result,flags=flags)
+
 
         if debug >= 5:
             # templates that get turned into <small> text
@@ -888,6 +891,7 @@ class MediaWiki:
             # removing other leftovers
             result = re.sub("\\\_\\\_NOTOC\\\_\\\_","",result,flags=flags) # removing __NOTOC__ entries
             result = re.sub("\{\#.*?\}","",result,flags=flags) # removing {#...} tags
+            result = re.sub("\:\\\*","   *",result) # fix second-level bullets
 
         if debug >= 13:
             # removing all remaining templates
@@ -1232,6 +1236,7 @@ def update():
     print("All done!\n")
     if errors:
         print("page with write errors: ",errors)
+    push()
 
 
 def test(page=None,clean=True):
