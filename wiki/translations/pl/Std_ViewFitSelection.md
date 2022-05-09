@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/pl
-   Name:Std ViewFitSelection
-   Name/pl:Std: Widok dopasowany do wyboru
-   MenuLocation:Widok → Widoki standardowe → Dopasuj do wyboru
-   Workbenches:wszystkie
-   Shortcut:**V** **S**
-   SeeAlso:[Dopasuj wszystko](Std_ViewFitAll/pl.md)
+- GuiCommand   */pl
+   Name   *Std ViewFitSelection
+   Name/pl   *Std   * Widok dopasowany do wyboru
+   MenuLocation   *Widok → Widoki standardowe → Dopasuj do wyboru
+   Workbenches   *wszystkie
+   Shortcut   ***V** **S**
+   SeeAlso   *[Dopasuj wszystko](Std_ViewFitAll/pl.md)
 ---
 
 # Std ViewFitSelection/pl
@@ -17,18 +17,18 @@ Polecenie **Dopasuj do wyboru** powiększa i przesuwa ujęcie widoku tak, że ws
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów.
-2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
     -   Naciśnij przycisk **<img src="images/Std_ViewFitSelection.svg" width=16px> [Dopasuj do wyboru](Std_ViewFitSelection/pl.md)**.
     -   Wybierz z menu opcję **Widok → Widoki standardowe → <img src="images/Std_ViewFitSelection.svg" width=24px>Dopasuj do wyboru**.
     -   Wybierz z menu opcję **<img src="images/Std_ViewFitSelection.svg" width=24px> Dopasuj do wyboru** z menu kontekstowego w oknie [widoku 3D](3D_view/pl.md).
-    -   Użyj skrótu klawiaturowego: **V**, a następnie **S**.
+    -   Użyj skrótu klawiaturowego   * **V**, a następnie **S**.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również:**
+**Zobacz również   ***
 
-[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
 Aby zmienić widok na *dopasowany do wyboru* można użyć metody `SendMsgToActiveView` obiektu FreeCADGui. Metoda ta nie jest dostępna, jeśli FreeCAD jest w trybie konsoli.
 

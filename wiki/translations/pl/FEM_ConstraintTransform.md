@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pl
-   Name:FEM ConstraintTransform
-   Name/pl:MES: Zdefiniuj odkształcenie
-   MenuLocation:Model → Wiązania Geometryczne → Zdefiniuj odkształcenie
-   Workbenches:[MES](FEM_Workbench/pl.md)
-   SeeAlso:[Zdefiniuj obrót w płaszczyźnie](FEM_ConstraintPlaneRotation/pl.md)
+- GuiCommand   */pl
+   Name   *FEM ConstraintTransform
+   Name/pl   *MES   * Zdefiniuj odkształcenie
+   MenuLocation   *Model → Wiązania Geometryczne → Zdefiniuj odkształcenie
+   Workbenches   *[MES](FEM_Workbench/pl.md)
+   SeeAlso   *[Zdefiniuj obrót w płaszczyźnie](FEM_ConstraintPlaneRotation/pl.md)
 ---
 
 # FEM ConstraintTransform/pl
@@ -16,7 +16,7 @@ Przekształca układ współrzędnych powierzchni na określony układ współrz
 ## Użycie
 
 1.  Najpierw [zdefiniuj przemieszczenie](FEM_ConstraintDisplacement/pl.md) do powierzchni.
-2.  Istnieje kilka sposobów na wywołanie tego polecenia:
+2.  Istnieje kilka sposobów na wywołanie tego polecenia   *
     -   Naciśnij przycisk **<img src="images/FEM_ConstraintTransform.svg" width=16px> [Zdefiniuj odkształcenie](FEM_ConstraintTransform/pl.md)**.
     -   Wybierz opcję z menu **Model → Wiązania geometryczne → <img src="images/FEM_ConstraintTransform.svg" width=16px> Wiązanie przekształcenia**.
 3.  Wybierz przekształcenie prostokątne lub cylindryczne. Pierwsza opcja może być zastosowana do każdej powierzchni, druga jest dostępna tylko dla powierzchni cylindrycznych.

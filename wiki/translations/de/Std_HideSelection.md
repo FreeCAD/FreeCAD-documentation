@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Std HideSelection
-   Name/de:Std AuswahlAusblenden
-   MenuLocation:Ansicht → Sichtbarkeit → Auswahl ausblenden
-   Workbenches:Alle
-   SeeAlso:[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
+- GuiCommand   */de
+   Name   *Std HideSelection
+   Name/de   *Std AuswahlAusblenden
+   MenuLocation   *Ansicht → Sichtbarkeit → Auswahl ausblenden
+   Workbenches   *Alle
+   SeeAlso   *[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
 ---
 
 # Std HideSelection/de
@@ -16,7 +16,7 @@ Der Befehl **Std AuswahlAusblenden** blendet ausgewählte Objekte in der [3D-Ans
 ## Anwendung
 
 1.  Select one or more objects.
-2.  There are several ways to invoke the command:
+2.  There are several ways to invoke the command   *
     -   Select the **View → Visibility → <img src="images/Std_HideSelection.svg" width=16px> Hide selection** option from the menu.
     -   Select the **<img src="images/Std_HideSelection.svg" width=16px> Hide selection** option from the [Tree view](Tree_view.md) context menu. This option is not available in the [PartDesign Workbench](PartDesign_Workbench.md).
 
@@ -31,7 +31,7 @@ Der Befehl **Std AuswahlAusblenden** blendet ausgewählte Objekte in der [3D-Ans
 ## Skripten
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

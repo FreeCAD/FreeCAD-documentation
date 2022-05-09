@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/fr
-   Name:FEM ConstraintCentrif
-   Name/fr:FEM Contrainte centrifuge
-   MenuLocation:Modèle → Contraintes mécaniques→ Contrainte centrifuge
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+- GuiCommand   */fr
+   Name   *FEM ConstraintCentrif
+   Name/fr   *FEM Contrainte centrifuge
+   MenuLocation   *Modèle → Contraintes mécaniques→ Contrainte centrifuge
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   Shortcut   *
+   Version   *0.20
+   SeeAlso   *
 ---
 
 # FEM ConstraintCentrif/fr
@@ -17,7 +17,7 @@ Définit une charge centrifuge sur le corps.
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande :
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintCentrif.svg" width=16px> [Contrainte centrifuge](FEM_ConstraintCentrif/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintCentrif.svg" width=16px> Contrainte centrifuge** dans le menu.
 2.  Spécifiez la fréquence de rotation en Hz.

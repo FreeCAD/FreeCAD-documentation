@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Std ShowObjects
-   Name/de:Std ShowObjects
-   MenuLocation:View → Visibility → Show all objects
-   Workbenches:All
-   SeeAlso:[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
+- GuiCommand   */de
+   Name   *Std ShowObjects
+   Name/de   *Std ShowObjects
+   MenuLocation   *View → Visibility → Show all objects
+   Workbenches   *All
+   SeeAlso   *[Std SichtbarkeitUmschalten](Std_ToggleVisibility/de.md), [Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
 ---
 
 # Std ShowObjects/de
@@ -25,7 +25,7 @@ Der Befehl **Std ObjekteEinblenden** zeigt alle Objekte, die zum aktiven Dokumen
 ## Skripten
 
 
-**See also:**
+**See also   ***
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

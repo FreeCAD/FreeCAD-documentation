@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:FEM ConstraintTie
-   MenuLocation:Model → Mechanical Constraints → Constraint tie
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.19
-   SeeAlso:[FEM Constraint pressure](FEM_ConstraintPressure.md)
+- GuiCommand   *
+   Name   *FEM ConstraintTie
+   MenuLocation   *Model → Mechanical Constraints → Constraint tie
+   Workbenches   *[FEM](FEM_Workbench.md)
+   Version   *0.19
+   SeeAlso   *[FEM Constraint pressure](FEM_ConstraintPressure.md)
 ---
 
 # FEM ConstraintTie/pl
@@ -15,7 +15,7 @@ Defines a tie constraint that connects the two selected surfaces in such a way t
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ConstraintTie.svg" width=16px> [FEM ConstraintTie](FEM_ConstraintTie.md)** button.
     -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintTie.svg" width=16px> Constraint tie** option from the menu.
 2.  Press the **Add** button in the task panel and then click on the face you want to add to tie constraint definition. Exactly two faces have to be added, one after the other.

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Arch CutLine
-   MenuLocation:Arch → Cut with line
-   Workbenches:[Arch](Arch_Workbench.md)
-   Version:0.19
-   SeeAlso:[Arch CutPlane](Arch_CutPlane.md)
+- GuiCommand   *
+   Name   *Arch CutLine
+   MenuLocation   *Arch → Cut with line
+   Workbenches   *[Arch](Arch_Workbench.md)
+   Version   *0.19
+   SeeAlso   *[Arch CutPlane](Arch_CutPlane.md)
 ---
 
 # Arch CutLine
@@ -13,11 +13,11 @@
 
 The [Arch CutLine](Arch_CutLine.md) tool allows you to cut a solid Arch object like an [Arch Wall](Arch_Wall.md) or [Arch Structure](Arch_Structure.md) using a line that is crossing the object.
 
- <img alt="" src=images/Arch_CutLine_example_1.png  style="width:" height="300px;"> <img alt="" src=images/Arch_CutLine_example_2.png  style="width:" height="300px;"> 
+ <img alt="" src=images/Arch_CutLine_example_1.png  style="width   *" height="300px;"> <img alt="" src=images/Arch_CutLine_example_2.png  style="width   *" height="300px;"> 
 
 
 
-*[Arch Wall](Arch_Wall.md) cut by a line. Left: subtractive box that appears when using the tool. Right: resulting wall after the cut is done.*
+*[Arch Wall](Arch_Wall.md) cut by a line. Left   * subtractive box that appears when using the tool. Right   * resulting wall after the cut is done.*
 
 ## Usage
 
@@ -30,7 +30,7 @@ The [Arch CutLine](Arch_CutLine.md) tool allows you to cut a solid Arch object l
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 

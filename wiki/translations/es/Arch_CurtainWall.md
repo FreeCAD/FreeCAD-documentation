@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/es
-   Name:Arch CurtainWall
-   Name/es:Arquitectura  Muro Cortina
-   MenuLocation:Arquitectura → MuroCortina
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**C** **W**
-   Version:0.19
-   SeeAlso:[Arquitectura Muro](Arch_Wall/es.md), [Arquitecturah Rejilla](Arch_Grid/es.md)
+- GuiCommand   */es
+   Name   *Arch CurtainWall
+   Name/es   *Arquitectura  Muro Cortina
+   MenuLocation   *Arquitectura → MuroCortina
+   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
+   Shortcut   ***C** **W**
+   Version   *0.19
+   SeeAlso   *[Arquitectura Muro](Arch_Wall/es.md), [Arquitecturah Rejilla](Arch_Grid/es.md)
 ---
 
 # Arch CurtainWall/es
@@ -16,9 +16,9 @@
 
 ## Descripción
 
-Esta herramienta crea un [Muro cortina](https://es.wikipedia.org/wiki/Muro_cortina) subdividiendo una cara base en caras cuadrangulares, creando luego parteluces verticales en los bordes verticales, parteluces horizontales en los bordes horizontales y rellenando los espacios entre parteluces con paneles.
+Esta herramienta crea un [Muro cortina](https   *//es.wikipedia.org/wiki/Muro_cortina) subdividiendo una cara base en caras cuadrangulares, creando luego parteluces verticales en los bordes verticales, parteluces horizontales en los bordes horizontales y rellenando los espacios entre parteluces con paneles.
 
-<img alt="" src=images/Arch_CurtainWall_example.png  style="width:780px;">
+<img alt="" src=images/Arch_CurtainWall_example.png  style="width   *780px;">
 
 Los Muros Cortina pueden ser creados a partir de cualquier tipo de objeto existente, en cuyo caso todas las caras del objeto serán subdivididas. Por lo tanto, funciona mejor si se utiliza con un objeto que sólo tiene una cara. Por lo general, primero debe crear una cara, preferiblemente delimitada por exactamente 4 aristas, que represente el área que desea rellenar con un muro cortina, y luego aplicar la herramienta.
 
@@ -69,61 +69,61 @@ También puede utilizar la herramienta de muro cortina sin ningún objeto selecc
 
 ## Propiedades
 
-Curtain wall objects inherit the properties of [Arch Components](Arch_Component.md) objects, and also have the following extra properties:
+Curtain wall objects inherit the properties of [Arch Components](Arch_Component.md) objects, and also have the following extra properties   *
 
--    **Vertical Mullion Number**:The number of vertical mullions
+-    **Vertical Mullion Number**   *The number of vertical mullions
 
--    **Vertical Mullion Alignment**: If the profile of the vertical mullions get aligned with the surface or not
+-    **Vertical Mullion Alignment**   * If the profile of the vertical mullions get aligned with the surface or not
 
--    **Vertical Sections**: The number of vertical sections of this curtain wall
+-    **Vertical Sections**   * The number of vertical sections of this curtain wall
 
--    **Vertical Mullion Height**: The height of the vertical mullions profile, if no profile is used
+-    **Vertical Mullion Height**   * The height of the vertical mullions profile, if no profile is used
 
--    **Vertical Mullion Width**: The width of the vertical mullions profile, if no profile is used
+-    **Vertical Mullion Width**   * The width of the vertical mullions profile, if no profile is used
 
--    **Vertical Mullion Profile**: A profile for vertical mullions (disables vertical mullion size)
+-    **Vertical Mullion Profile**   * A profile for vertical mullions (disables vertical mullion size)
 
--    **Horizontal Mullion Number**: The number of horizontal mullions
+-    **Horizontal Mullion Number**   * The number of horizontal mullions
 
--    **Horizontal Mullion Alignment**: If the profile of the horizontal mullions gets aligned with the surface or not
+-    **Horizontal Mullion Alignment**   * If the profile of the horizontal mullions gets aligned with the surface or not
 
--    **Horizontal Sections**: The number of horizontal sections of this curtain wall
+-    **Horizontal Sections**   * The number of horizontal sections of this curtain wall
 
--    **Horizontal Mullion Height**: The height of the horizontal mullions profile, if no profile is used
+-    **Horizontal Mullion Height**   * The height of the horizontal mullions profile, if no profile is used
 
--    **Horizontal Mullion Width**: The width of the horizontal mullions profile, if no profile is used
+-    **Horizontal Mullion Width**   * The width of the horizontal mullions profile, if no profile is used
 
--    **Horizontal Mullion Profile**: A profile for horizontal mullions (disables horizontal mullion size)
+-    **Horizontal Mullion Profile**   * A profile for horizontal mullions (disables horizontal mullion size)
 
--    **Diagonal Mullion Number**: The number of diagonal mullions
+-    **Diagonal Mullion Number**   * The number of diagonal mullions
 
--    **Diagonal Mullion Size**: The size of the diagonal mullions, if any, if no profile is used
+-    **Diagonal Mullion Size**   * The size of the diagonal mullions, if any, if no profile is used
 
--    **Diagonal Mullion Profile**: A profile for diagonal mullions, if any (disables horizontal mullion size)
+-    **Diagonal Mullion Profile**   * A profile for diagonal mullions, if any (disables horizontal mullion size)
 
--    **Panel Number**: The number of panels
+-    **Panel Number**   * The number of panels
 
--    **Panel Thickness**: The thickness of the panels
+-    **Panel Thickness**   * The thickness of the panels
 
--    **Swap Horizontal Vertical**: Swaps horizontal and vertical lines
+-    **Swap Horizontal Vertical**   * Swaps horizontal and vertical lines
 
--    **Refine**: Perform subtractions between components so none overlap
+-    **Refine**   * Perform subtractions between components so none overlap
 
--    **Center Profiles**: Centers the profile over the edges or not
+-    **Center Profiles**   * Centers the profile over the edges or not
 
--    **Vertical Direction**: The vertical direction reference to be used by this object to deduce vertical/horizontal directions. Keep it close to the actual vertical direction of your curtain wall
+-    **Vertical Direction**   * The vertical direction reference to be used by this object to deduce vertical/horizontal directions. Keep it close to the actual vertical direction of your curtain wall
 
--    **Height**: The height of this curtain wall, in case it is based on a linear object
+-    **Height**   * The height of this curtain wall, in case it is based on a linear object
 
--    **Host**: The host of this curtain wall. The curtain wall will appear embedded in its host object in the tree view (no other action is performed)
+-    **Host**   * The host of this curtain wall. The curtain wall will appear embedded in its host object in the tree view (no other action is performed)
 
 ## Hacer paredes con marco 
 
 Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete or brick).
 
-<img alt="" src=images/Frame_wall_example.png  style="width:780px;">
+<img alt="" src=images/Frame_wall_example.png  style="width   *780px;">
 
-The procedure described below creates a wall and a curtain wall based on a same baseline, then gives the wall a multi-material which leaves an empty space, where the curtain wall is placed:
+The procedure described below creates a wall and a curtain wall based on a same baseline, then gives the wall a multi-material which leaves an empty space, where the curtain wall is placed   *
 
 1.  Create a normal [Arch Wall](Arch_Wall.md), either by clicking two points of from an existing linear object
 2.  Select the base object of the newly created arch wall
@@ -139,16 +139,16 @@ The procedure described below creates a wall and a curtain wall based on a same 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Curtain wall tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The Curtain wall tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 MyCurtainWall = makeCurtainWall(baseobj)
 ```
 
-Ejemplo:
+Ejemplo   *
 
 
 ```python
@@ -157,7 +157,7 @@ import FreeCAD, Draft, Arch
 p1 = FreeCAD.Vector(0, 0, 0)
 p2 = FreeCAD.Vector(2000, 0, 0)
 baseline = Draft.makeLine(p1, p2)
-baseface = Free.ActiveDocument.addObject('Part::Extrusion','Extrusion')
+baseface = Free.ActiveDocument.addObject('Part   *   *Extrusion','Extrusion')
 baseface.Base = baseline
 baseface.DirMode = "Normal"
 baseface.LengthFwd = 2000

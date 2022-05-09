@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/tr
-   Name:Arch Add
-   Name/tr:Mimari Ekle
-   MenuLocation:Mimari → Ekle
-   Workbenches:[Mimari](Arch_Workbench/tr.md)
-   SeeAlso:[Mimari Kaldır](Arch_Remove/tr.md)
+- GuiCommand   */tr
+   Name   *Arch Add
+   Name/tr   *Mimari Ekle
+   MenuLocation   *Mimari → Ekle
+   Workbenches   *[Mimari](Arch_Workbench/tr.md)
+   SeeAlso   *[Mimari Kaldır](Arch_Remove/tr.md)
 ---
 
 # Arch Add/tr
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Ekle aracı 4 tür işlem yapmanıza olanak sağlar:
+Ekle aracı 4 tür işlem yapmanıza olanak sağlar   *
 
 -   [Parça Şekil](Part_Workbench/tr.md) tabanlı nesneler [Duvar](Arch_Wall/tr.md) veya [Yapı](Arch_Structure/tr.md) gibi bir Mimari bileşen ekleyin. Bu nesneler daha sonra Mimari bileşenin bir parçasını oluşturur ve şeklini değiştirmenize izin verir ancak genişlik ve yükseklik gibi temel özelliklerini korur
 -   [ Kat](Arch_Floor/tr.md) gibi bir grup tabanlı Mimari nesneye [ Duvar](Arch_Wall/tr.md) veya [ Yapı](Arch_Structure/tr.md) gibi Mimari bileşenleri ekleyin
@@ -35,7 +35,7 @@ Bu aracın karşılığı [Mimari Kaldır](Arch_Remove/tr.md) aracıdır.
 
 </div>
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> {{Caption | Bir duvara bileşen olarak eklenen bir kutu.}}
+<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;"> {{Caption | Bir duvara bileşen olarak eklenen bir kutu.}}
 
 
 <div class="mw-translate-fuzzy">
@@ -62,7 +62,7 @@ Bu aracın karşılığı [Mimari Kaldır](Arch_Remove/tr.md) aracıdır.
 ## Betik
 
 
-**Ayrıca bkz.:**
+**Ayrıca bkz.   ***
 
 [Taslak API](Arch_API/tr.md) ve [FreeCAD Betik esasları](FreeCAD_Scripting_Basics/tr.md).
 
@@ -72,13 +72,13 @@ Bu aracın karşılığı [Mimari Kaldır](Arch_Remove/tr.md) aracıdır.
 
 <div class="mw-translate-fuzzy">
 
-Ekle aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir:
+Ekle aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python](Python/tr.md) konsolundan kullanılabilir   *
 
 
 </div>
 
 
-:   
+   *   
     
 ```python
     addComponents(objectsList, host)
@@ -99,7 +99,7 @@ Ekle aracı, aşağıdaki işlevi kullanarak [makrolar](macros/tr.md) ve [Python
 
 </div>
 
-Örnek:
+Örnek   *
 
 
 ```python

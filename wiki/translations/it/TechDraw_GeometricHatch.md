@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw GeometricHatch
-   Name/it:Tratteggio geometrico
-   MenuLocation:TechDraw → Tratteggio geometrico
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Tratteggio da modello](TechDraw_Hatch/it.md), [Tipi di tratteggio](TechDraw_Hatching/it.md)
+- GuiCommand   */it
+   Name   *TechDraw GeometricHatch
+   Name/it   *Tratteggio geometrico
+   MenuLocation   *TechDraw → Tratteggio geometrico
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Tratteggio da modello](TechDraw_Hatch/it.md), [Tipi di tratteggio](TechDraw_Hatching/it.md)
 ---
 
 # TechDraw GeometricHatch/it
@@ -22,7 +22,7 @@ Lo strumento Tratteggio geometrico riempie una regione chiusa in una vista con u
 
 </div>
 
-<img alt="" src=images/TechDraw_GeomHatch_example.png  style="width:300px;"> 
+<img alt="" src=images/TechDraw_GeomHatch_example.png  style="width   *300px;"> 
 *Esempio di tratteggio geometrico su una faccia*
 
 ## Utilizzo
@@ -48,7 +48,7 @@ Lo strumento Tratteggio geometrico riempie una regione chiusa in una vista con u
 
 </div>
 
-Una piccola serie di modelli di tratteggio sono disponibili in:
+Una piccola serie di modelli di tratteggio sono disponibili in   *
 
 
 ```python
@@ -64,17 +64,17 @@ dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 ## Proprietà
 
--    **Source**: La vista e la faccia che devono ricevere il modello di tratteggio.
+-    **Source**   * La vista e la faccia che devono ricevere il modello di tratteggio.
 
--    **File Pattern**: La posizione del file PAT da utilizzare.
+-    **File Pattern**   * La posizione del file PAT da utilizzare.
 
--    **Name Pattern**: Il nome dello specifico PAT all\'interno di File Pattern.
+-    **Name Pattern**   * Il nome dello specifico PAT all\'interno di File Pattern.
 
--    **Scale Pattern**: La scala da applicare al modello (deve essere \> 0.0).
+-    **Scale Pattern**   * La scala da applicare al modello (deve essere \> 0.0).
 
--    **Weight Pattern**: Lo spessore delle linee del modello.
+-    **Weight Pattern**   * Lo spessore delle linee del modello.
 
--    **Color Pattern**: Il colore delle linee del modello.
+-    **Color Pattern**   * Il colore delle linee del modello.
 
 ## Script
 
@@ -82,7 +82,7 @@ dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -92,21 +92,21 @@ dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento GeometricHatch può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+Lo strumento GeometricHatch può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
 
 
 </div>
 
 
 ```python
-hatch = FreeCAD.ActiveDocument.addObject('TechDraw::DrawGeomHatch','GeomHatch')
+hatch = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawGeomHatch','GeomHatch')
 hatch.Source = (view1,["Face0"])
 hatch.FilePattern = "path/to/myPATfile.pat"
 hatch.NamePattern = "Diamond"
 rc = page.addView(hatch)
 ```
 
-It is also possible to use TechDraw\'s geometric hatch engine to produce a compound object in the 3D space. One must take care that the base face lies on the XY plane, as the algorithm is not tailored yet for other cases:
+It is also possible to use TechDraw\'s geometric hatch engine to produce a compound object in the 3D space. One must take care that the base face lies on the XY plane, as the algorithm is not tailored yet for other cases   *
 
 
 ```python

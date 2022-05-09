@@ -6,25 +6,25 @@
 |Author=Yorik
 |Version=01.00
 |FCVersion=Toutes
-|Download= [https://www.freecadweb.org/wiki/images/2/2e/Macro_Rotate_View_with_Y_pointing_upwards_.png Macro_Rotate_View_with_Y_pointing_upwards_]<br />[https://www.freecadweb.org/wiki/images/a/a2/Macro_Rotate_View_with_Z_pointing_upwards_.png Macro_Rotate_View_with_Z_pointing_upwards_]
+|Download= [https   *//www.freecadweb.org/wiki/images/2/2e/Macro_Rotate_View_with_Y_pointing_upwards_.png Macro_Rotate_View_with_Y_pointing_upwards_]<br />[https   *//www.freecadweb.org/wiki/images/a/a2/Macro_Rotate_View_with_Z_pointing_upwards_.png Macro_Rotate_View_with_Z_pointing_upwards_]
 |Date=2010-11-17
-|SeeAlso=[Macro Rotate View](Macro_Rotate_View/fr.md) [<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width:24px">
+|SeeAlso=[Macro Rotate View](Macro_Rotate_View/fr.md) [<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width   *24px">
 }}
 
 ## Description
 
-Cette macro pivote la vue dans la position axonométrique (tel quel: Y).
+Cette macro pivote la vue dans la position axonométrique (tel quel   * Y).
 
-Vous avez deux options:
+Vous avez deux options   *
 
--   mode 1 : axonometric vue Y ![axonometric view with Y pointing upwards](images/Macro_Rotate_View_with_Y_pointing_upwards_.png ) mode 1
--   mode 2 : axonometric vue Z ![axonometric view with Z pointing upwards](images/Macro_Rotate_View_with_Z_pointing_upwards_.png ) mode 2 (dé-commenter pour utiliser)
+-   mode 1    * axonometric vue Y ![axonometric view with Y pointing upwards](images/Macro_Rotate_View_with_Y_pointing_upwards_.png ) mode 1
+-   mode 2    * axonometric vue Z ![axonometric view with Z pointing upwards](images/Macro_Rotate_View_with_Z_pointing_upwards_.png ) mode 2 (dé-commenter pour utiliser)
 
 ## Utilisation
 
 Pour utiliser les deux macros, copiez la première macro et nommez-la \"**Macro\_Rotate\_ViewAxonometric\_Y**\" (mode 1) sans changer le code et utilisez cette icône ![axonometric view with Y pointing upwards](images/Macro_Rotate_View_with_Y_pointing_upwards_.png ).
 
-Copiez la seconde macro et namez la \"**Macro\_Rotate\_ViewAxonometric\_Z**\" (mode 2) and:
+Copiez la seconde macro et namez la \"**Macro\_Rotate\_ViewAxonometric\_Z**\" (mode 2) and   *
 
 commentez la ligne
 
@@ -40,8 +40,8 @@ and use this icon ![axonometric view with Z pointing upwards](images/Macro_Rotat
 
 ## Script
 
--   mode 1 : ToolBar Icon ![](images/Macro_Rotate_View_with_Y_pointing_upwards_.png )
--   mode 2 : ToolBar Icon ![](images/Macro_Rotate_View_with_Z_pointing_upwards_.png ) (uncomment for use)
+-   mode 1    * ToolBar Icon ![](images/Macro_Rotate_View_with_Y_pointing_upwards_.png )
+-   mode 2    * ToolBar Icon ![](images/Macro_Rotate_View_with_Z_pointing_upwards_.png ) (uncomment for use)
 
 **Macro\_Rotate\_ViewAxonometric.FCMacro**
 

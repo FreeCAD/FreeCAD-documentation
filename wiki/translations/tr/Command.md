@@ -15,7 +15,7 @@ Bir FreeCAD komutu, bir araç çubuğu düğmesine bastığınızda veya bir kla
 
 <div class="mw-translate-fuzzy">
 
-Her FreeCAD komutunun [Komut Referansı](:Category:Command_Reference/tr.md) sayfasında görünen benzersiz bir adı vardır. Komutlar aşağıdakileri çalıştırarak, bir araç çubuğu düğmesi, bir menü öğesi veya bir python betiğinden veya python konsolundan başlatılabilir:
+Her FreeCAD komutunun [Komut Referansı](   *Category   *Command_Reference/tr.md) sayfasında görünen benzersiz bir adı vardır. Komutlar aşağıdakileri çalıştırarak, bir araç çubuğu düğmesi, bir menü öğesi veya bir python betiğinden veya python konsolundan başlatılabilir   *
 
 
 </div>
@@ -50,7 +50,7 @@ Komutlar, C ++ veya Python\'da tanımlanabilir.
 
 <div class="mw-translate-fuzzy">
 
-C ++ komut tanımı örneği (genellikle /Mod/ModuleName/Gui/Command.cpp içinde tanımlanır):
+C ++ komut tanımı örneği (genellikle /Mod/ModuleName/Gui/Command.cpp içinde tanımlanır)   *
 
 
 </div>
@@ -59,8 +59,8 @@ C ++ komut tanımı örneği (genellikle /Mod/ModuleName/Gui/Command.cpp içinde
 {{Code|lang=cpp|code=
 DEF_STD_CMD_A(StdCmdMyCommand);
 
-StdCmdMyCommand::StdCmdMyCommand()
-  : Command("Std_My_Command")
+StdCmdMyCommand   *   *StdCmdMyCommand()
+     * Command("Std_My_Command")
 {
     sGroup        = QT_TR_NOOP("File");
     sMenuText     = QT_TR_NOOP("My Command");
@@ -71,18 +71,18 @@ StdCmdMyCommand::StdCmdMyCommand()
     sAccel        = "Ctrl+A";
 }
 
-void StdCmdExport::activated(int iMsg)
+void StdCmdExport   *   *activated(int iMsg)
 {
     // place here the code to be executed when the command is ran
 }
 
-bool StdCmdMyCommand::isActive(void)
+bool StdCmdMyCommand   *   *isActive(void)
 {
     // here you have a chance to return true or false depending if your command must be shown as active or inactive (greyed).
 }
 
 // the command must be "registered" in FreeCAD's command system
-CommandManager &rcCmdMgr = Application::Instance->commandManager();
+CommandManager &rcCmdMgr = Application   *   *Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
@@ -101,25 +101,25 @@ ve python\'da benzer bir komut (yapılması gereken yer için kural yoktur, her 
 from PySide.QtCore import QT_TRANSLATE_NOOP
 
 
-class MyCommand:
+class MyCommand   *
     """Explanation of the command."""
 
-    def __init__(self):
+    def __init__(self)   *
         """Initialize variables for the command that must exist at all times."""
         pass
 
-    def GetResources(self):
+    def GetResources(self)   *
         """Return a dictionary with data that will be used by the button or menu item."""
-        return {'Pixmap': 'MyCommand.svg',
-                'Accel': "Ctrl+A",
-                'MenuText': QT_TRANSLATE_NOOP("My_Command", "My Command"),
-                'ToolTip': QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
+        return {'Pixmap'   * 'MyCommand.svg',
+                'Accel'   * "Ctrl+A",
+                'MenuText'   * QT_TRANSLATE_NOOP("My_Command", "My Command"),
+                'ToolTip'   * QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
 
-    def Activated(self):
+    def Activated(self)   *
         """Run the following code when the command is activated (button press)."""
         print("Activated")
 
-    def IsActive(self):
+    def IsActive(self)   *
         """Return True when the command should be active or False when it should be disabled (greyed)."""
         return True
 
@@ -130,6 +130,11 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 ## Examples
 
 See [Line drawing function](Line_drawing_function.md).
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Glossary](Category_Glossary.md)
 
 
 

@@ -24,11 +24,11 @@ Through Addon manager.
 
 ## Link
 
-Forum: No dedicated thread, but sprung out of [forum post](https://forum.freecadweb.org/viewtopic.php?f=8&t=28199).
+Forum   * No dedicated thread, but sprung out of [forum post](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=28199).
 
 ## Version
 
-v0.1 2021-10-03 : first release
+v0.1 2021-10-03    * first release
 
 ## Code
 
@@ -37,7 +37,7 @@ v0.1 2021-10-03 : first release
 
 {{MacroCode|code=
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 
 # ***************************************************************************
 # *   Copyright (c) 2021 heda <heda @ freecad forum>                        *
@@ -70,7 +70,7 @@ __Version__ = '0.1'
 __Date__ = '2021-10-03'
 __License__ = 'LGPL-2.0-or-later'
 __Web__ = ''
-__Wiki__ = 'https://wiki.freecadweb.org/Macro_3DXML_import'
+__Wiki__ = 'https   *//wiki.freecadweb.org/Macro_3DXML_import'
 __Icon__ = ''
 __Help__ = 'Launch macro and select file.'
 __Status__ = 'Stable'
@@ -109,10 +109,10 @@ IMPORT_MESHES, MERGE_MESHES = True, True
 
 filename, filt = QtGui.QFileDialog.getOpenFileName(filter='*.3DRep')
 
-if not filename:
+if not filename   *
     raise UserWarning('Need to select a 3DRep file.')
 
-print('Importing: {}'.format(filename))
+print('Importing   * {}'.format(filename))
 doc = App.ActiveDocument
 
 tree = ET.parse(filename)
@@ -121,91 +121,91 @@ root = tree.getroot()
 # get namespaces from xml
 ns = dict([node for _, node in
            ET.iterparse(filename, events=['start-ns'])])
-if ns.get('') != 'http://www.3ds.com/xsd/3DXML':
+if ns.get('') != 'http   *//www.3ds.com/xsd/3DXML'   *
     raise UserWarning('did not find expected namespace, file malformed?')
-ns.update({'3dx':ns.get('')})
+ns.update({'3dx'   *ns.get('')})
 
 
-def parse_verts(vertbuffer):
-    def floatify(xyz):
+def parse_verts(vertbuffer)   *
+    def floatify(xyz)   *
         return tuple((float(i) for i in xyz.split()))
     return [floatify(v) for v in vertbuffer.split(',')]
 
-def parse_strips(strips):
+def parse_strips(strips)   *
     return (tuple(int(i) for i in strip.split())
             for strip in strips.split(','))
 
-def make_mesh(element):
+def make_mesh(element)   *
     Faces, VertexBuffer, SurfaceAttributes = list(element)
-    Color = Faces.find('.//3dx:Color', ns)
-    RGBA = tuple((float(i) for i in tuple(Color.attrib.values())[1:]))
-    Face = Faces.find('.//3dx:Face', ns)
+    Color = Faces.find('.//3dx   *Color', ns)
+    RGBA = tuple((float(i) for i in tuple(Color.attrib.values())[1   *]))
+    Face = Faces.find('.//3dx   *Face', ns)
     strips = Face.get('strips')
     facets = list()
-    if strips:
+    if strips   *
         Positions, Normals = list(VertexBuffer)
         facetverts = fv = parse_verts(Positions.text)
-        for strip in parse_strips(strips):
-            facetidx = zip(strip, strip[1:], strip[2:])
+        for strip in parse_strips(strips)   *
+            facetidx = zip(strip, strip[1   *], strip[2   *])
             facets += [tuple(fv[i] for i in pidx) for pidx in facetidx]
-    else:
+    else   *
         print('face type undefined')
     return Mesh.Mesh(facets), RGBA
 
 
-for BagRepType in root.findall('3dx:Root/3dx:Rep', ns):
+for BagRepType in root.findall('3dx   *Root/3dx   *Rep', ns)   *
     edges, meshes = list(), list()
-    for PolygonalRepType in BagRepType:
-        if PolygonalRepType.find('./3dx:Edges', ns):
-            if not IMPORT_EDGES:
+    for PolygonalRepType in BagRepType   *
+        if PolygonalRepType.find('./3dx   *Edges', ns)   *
+            if not IMPORT_EDGES   *
                 continue
-            Edges = PolygonalRepType.find('./3dx:Edges', ns)
-            for polyline in Edges.findall('./3dx:Polyline', ns):
+            Edges = PolygonalRepType.find('./3dx   *Edges', ns)
+            for polyline in Edges.findall('./3dx   *Polyline', ns)   *
                 verts = parse_verts(polyline.get('vertices'))
                 edges.append(Part.makePolygon(verts))
                 
-        elif PolygonalRepType.find('./3dx:Faces', ns):
+        elif PolygonalRepType.find('./3dx   *Faces', ns)   *
             print('  found face element')
-            if not IMPORT_MESHES:
+            if not IMPORT_MESHES   *
                 continue
             mesh = make_mesh(PolygonalRepType)
             meshes.append(mesh)
 
-    if edges:
+    if edges   *
         print('  creating edges')
-        edgegroup = doc.addObject('App::DocumentObjectGroup','Edges')
+        edgegroup = doc.addObject('App   *   *DocumentObjectGroup','Edges')
         wires = list()
-        if MERGE_EDGES:
+        if MERGE_EDGES   *
             _edges = list()
-            for _edge in edges:
+            for _edge in edges   *
                 _edges += _edge.Edges
-            for swire in Part.sortEdges(_edges):
+            for swire in Part.sortEdges(_edges)   *
                 wire = Part.Wire(swire)
-                obj = doc.addObject('Part::Feature', 'Edge')
+                obj = doc.addObject('Part   *   *Feature', 'Edge')
                 obj.Shape = wire
                 wires.append(obj)
-        else:
-            for edge in edges:
-                obj = doc.addObject('Part::Feature', 'Edge')
+        else   *
+            for edge in edges   *
+                obj = doc.addObject('Part   *   *Feature', 'Edge')
                 obj.Shape = edge
                 wires.append(obj)
         edgegroup.addObjects(wires)
 
-    if meshes:
+    if meshes   *
         print('  creating meshes')
-        meshgroup = doc.addObject('App::DocumentObjectGroup','Meshes')
+        meshgroup = doc.addObject('App   *   *DocumentObjectGroup','Meshes')
         meshobjs = list()
-        if MERGE_MESHES:
+        if MERGE_MESHES   *
             mesh_assembled = Mesh.Mesh()
-            for mesh, RGBA in meshes:
+            for mesh, RGBA in meshes   *
                 mesh_assembled.addMesh(mesh)
-            obj = doc.addObject('Mesh::Feature', 'Mesh')
+            obj = doc.addObject('Mesh   *   *Feature', 'Mesh')
             obj.Mesh = mesh_assembled
             obj.ViewObject.ShapeColor = RGBA
             meshobjs.append(obj)
-        else:
-            for mesh, RGBA in meshes:
-                obj = doc.addObject('Mesh::Feature', 'Mesh')
+        else   *
+            for mesh, RGBA in meshes   *
+                obj = doc.addObject('Mesh   *   *Feature', 'Mesh')
                 obj.Mesh = mesh
                 obj.ViewObject.ShapeColor = RGBA
                 meshobjs.append(obj)
@@ -216,6 +216,8 @@ print('... completed import')
 
 # end
 }}
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

@@ -1,22 +1,23 @@
 ---
-- GuiCommand:
-   Name:Spreadsheet AlignTop
-   MenuLocation:Spreadsheet → Alignment → Align top
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+- GuiCommand   */pl
+   Name   *Spreadsheet AlignTop
+   Name/pl   *Arkusz Kalkulacyjny   * Wyrównaj w górę
+   MenuLocation   *Arkusz kalkulacyjny → Wyrównanie → Wyrównaj w górę
+   Workbenches   *[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version   *0.17
 ---
 
 # Spreadsheet AlignTop/pl
 
-## Description
+## Opis
 
-The **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Spreadsheet AlignTop](Spreadsheet_AlignTop.md)** tool makes the text inside the cell align to the top of the cell.
+Narzędzie **[<img src=images/Spreadsheet_AlignTop.svg style="width   *16px"> [Wyrównaj w górę](Spreadsheet_AlignTop/pl.md)** sprawia, że tekst wewnątrz komórki jest wyrównywany do jej górnej krawędzi.
 
-## Usage
+## Użycie
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select a cell.
-3.  Press the **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Spreadsheet AlignTop](Spreadsheet_AlignTop.md)** button.
+1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
+2.  Wybierz komórkę.
+3.  Naciśnij przycisk **[<img src=images/Spreadsheet_AlignTop.svg style="width   *16px"> [Wyrównaj w górę](Spreadsheet_AlignTop/pl.md)**.
 
 
 

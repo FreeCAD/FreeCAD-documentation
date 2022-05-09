@@ -1,9 +1,11 @@
 # Part Loft/it
 ---
-- GuiCommand:/it   Name:Part Loft   Name/it:Loft   MenuLocation:Part → Loft...   |Workbenches:[Version:0.13   SeeAlso:[[Part Sweep/it|Sweep](Part_Workbench/it___Part]].md)---
+- GuiCommand   */it   Name   *Part Loft   Name/it   *Loft   MenuLocation   *Part → Loft...   |Workbenches   *[Version   *0.13   SeeAlso   *[[Part Sweep/it|Sweep](Part_Workbench/it___Part]].md)---
 
 
 </div>
+
+## Overview
 
 
 <div class="mw-translate-fuzzy">
@@ -34,7 +36,7 @@ Se \"Solid\" è \"true\" FreeCAD crea un solido se i profili sono una geometria 
 
 <div class="mw-translate-fuzzy">
 
-Se \"Ruled\" è \"true\" FreeCAD crea una faccia, oppure delle facce o un solido dalle superfici rigate. Vedere la pagina [Ruled surface in Wikipedia.](http://en.wikipedia.org/wiki/Ruled_surface)
+Se \"Ruled\" è \"true\" FreeCAD crea una faccia, oppure delle facce o un solido dalle superfici rigate. Vedere la pagina [Ruled surface in Wikipedia.](http   *//en.wikipedia.org/wiki/Ruled_surface)
 
 
 </div>
@@ -56,6 +58,12 @@ Per ulteriori informazioni su come sono uniti i profili, fare riferimento alla p
 
 
 </div>
+
+## Notes
+
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
+
+## Limitations and complications 
 
 
 <div class="mw-translate-fuzzy">
@@ -102,16 +110,24 @@ Per ulteriori informazioni su come sono uniti i profili, fare riferimento alla p
 
 </div>
 
+## An example Loft 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Un esempio di Loft 
 
 Lo strumento Loft si trova nell\'ambiente Parte, menu Parte -\> Loft \... o tramite l\'icona nella barra degli strumenti.
+
+
+</div>
 
 ![](images/Part_Loft_Ikon_Ballon_Hilfe.png )
 
 
 <div class="mw-translate-fuzzy">
 
-Nella sezione \"Azioni\" della \"Vista Combinata\" ci sono due liste: \"Vertice/Spigolo/Wire/Faccia\" e \"Loft\".
+Nella sezione \"Azioni\" della \"Vista Combinata\" ci sono due liste   * \"Vertice/Spigolo/Wire/Faccia\" e \"Loft\".
 
 
 </div>
@@ -145,20 +161,36 @@ Gli elementi selezionati devono essere dello stesso tipo, come nella figura.
 
 <div class="mw-translate-fuzzy">
 
-Suggerimento: le voci attive o selezionate nell\'elenco vengono visualizzati nell\'area 3D come attive o selezionate.
+Suggerimento   * le voci attive o selezionate nell\'elenco vengono visualizzati nell\'area 3D come attive o selezionate.
 
 
 </div>
+
+### Command complete 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Completare il comando 
 
 Se sono state selezionate entrambe le sezioni, il comando può essere completato cliccando su \"OK\".
 
+
+</div>
+
 ![](images/Loft_it_5.png )
+
+### Result
+
+
+<div class="mw-translate-fuzzy">
 
 ## Risultato
 
 Dalle linee chiuse sono sorte delle superfici che al primo sguardo potrebbero essere considerate superfici di solidi.
+
+
+</div>
 
 ![](images/Loft_it_6.png )
 
@@ -172,9 +204,17 @@ Se invece si vuole effettivamente creare un solido, questo si può fare utilizza
 
 La procedura è analoga a quella descritta per le polilinee aperte.
 
+### Changing the selection of sections 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Modifica della selezione delle sezioni 
 
 Se si desidera modificare la selezione delle sezioni dopo la creazione del loft, è possibile selezionare il campo Sezioni nella scheda Dati e fare clic sul pulsante con i puntini di sospensione. Appare l\'elenco di tutte le sezioni selezionabili, e la selezione corrente viene evidenziata. Si può rimuovere o aggiungere ulteriori sezioni.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Check
-   Name/fr:Arch Vérifier
-   MenuLocation:Arch → Utilitaires → Vérifier
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Fermer les trous](Arch_CloseHoles/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Check
+   Name/fr   *Arch Vérifier
+   MenuLocation   *Arch → Utilitaires → Vérifier
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[Arch Fermer les trous](Arch_CloseHoles/fr.md)
 ---
 
 # Arch Check/fr
@@ -20,21 +20,21 @@ Cet outil vérifie le document actif ou les objets sélectionnés pour vérifier
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante : 
+Cet outil peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante    * 
 ```python
 list_bad = check(objectslist, includehidden=False)
 ```
 
 -   Vérifie si les objets donnés dans `objectslist` ne contiennent que des solides.
 -   Si `includehidden` est `True`, il inclura tous les objets cachés, sinon il les omettra de la recherche.
--   Retourne `list_bad`, une liste avec les objets qui ne sont pas dérivés d\'une `Part::Feature`, ou des composants qui ne sont pas fermés, non valides, ne contiennent pas de solides ou qui contiennent des faces qui ne font partie d\'aucun solide. Ceci est utilisé pour détecter des [arc](Arch_Workbench.md) ou des [dépouilles](Draft_Workbench.md) et des profils qui ne sont pas des solides.
+-   Retourne `list_bad`, une liste avec les objets qui ne sont pas dérivés d\'une `Part   *   *Feature`, ou des composants qui ne sont pas fermés, non valides, ne contiennent pas de solides ou qui contiennent des faces qui ne font partie d\'aucun solide. Ceci est utilisé pour détecter des [arc](Arch_Workbench.md) ou des [dépouilles](Draft_Workbench.md) et des profils qui ne sont pas des solides.
     -   Chaque élément de `list_bad` est une autre liste `[object, message]`, où `object` est l\'élément non solide détecté, et `message` indique la raison pour laquelle il a été inclus dans cette liste.
 
-Exemple :
+Exemple    *
 
 
 ```python

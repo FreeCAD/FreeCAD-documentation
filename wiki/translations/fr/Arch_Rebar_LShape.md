@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Rebar LShape
-   Name/fr:Arch Rebar Armature en L
-   MenuLocation:Arch → Rebar tools → LShape Rebar<br>3D/BIM → Reinforcement tools → L-Shape Rebar
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature cintrée](Arch_Rebar_BentShape/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Rebar LShape
+   Name/fr   *Arch Rebar Armature en L
+   MenuLocation   *Arch → Rebar tools → LShape Rebar<br>3D/BIM → Reinforcement tools → L-Shape Rebar
+   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version   *0.17
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature cintrée](Arch_Rebar_BentShape/fr.md)
 ---
 
 # Arch Rebar LShape/fr
@@ -16,9 +16,9 @@ L\'outil [LShape Rebar](Arch_Rebar_LShape.md) permet à l\'utilisateur de créer
 
 L\'outil [LShape Rebar](Arch_Rebar_LShape/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_LShape_example.png  style="width   *400px;"> 
 *Quatre jeux de barres de renforcement en forme de L à l’intérieur d’une [Arch Structure](Arch_Structure/fr.md)*
 
 ## Comment faire 
@@ -43,7 +43,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 9.  Cliquez sur **Cancel** pour quitter le panneau des tâches
 
-:   <img alt="" src=images/LShapeDialog.png  style="width:250px;">
+   *   <img alt="" src=images/LShapeDialog.png  style="width   *250px;">
 
 
 
@@ -51,36 +51,36 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
--    {{PropertyData/fr|Orientation}}: Il définit l\'orientation de l\'armature (comme fond, haut, droite et gauche).
+-    {{PropertyData/fr|Orientation}}   * Il définit l\'orientation de l\'armature (comme fond, haut, droite et gauche).
 
--    {{PropertyData/fr|Front Cover}}: La distance entre l\'armature et la face sélectionnée.
+-    {{PropertyData/fr|Front Cover}}   * La distance entre l\'armature et la face sélectionnée.
 
--    {{PropertyData/fr|Right Cover}}: La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
+-    {{PropertyData/fr|Right Cover}}   * La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
 
--    {{PropertyData/fr|Left Cover}}: La distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
+-    {{PropertyData/fr|Left Cover}}   * La distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'armature et la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Cover}}   * La distance entre l\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Top Cover}}: La distance entre l\'armature et la face supérieure de la structure.
+-    {{PropertyData/fr|Top Cover}}   * La distance entre l\'armature et la face supérieure de la structure.
 
--    {{PropertyData/fr|Rounding}}: Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre.
+-    {{PropertyData/fr|Rounding}}   * Valeur d\'arrondi à appliquer aux coins des barres, exprimée en fois le diamètre.
 
--    {{PropertyData/fr|Amount}}: La quantité de barres d\'armature.
+-    {{PropertyData/fr|Amount}}   * La quantité de barres d\'armature.
 
--    {{PropertyData/fr|Spacing}}: La distance entre les axes de chaque barre.
+-    {{PropertyData/fr|Spacing}}   * La distance entre les axes de chaque barre.
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature en L peut être utilisé dans les [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante : 
+L\'outil Armature en L peut être utilisé dans les [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante    * 
 ```python
 Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom Left",
-                        structure=None, facename=None):
+                        structure=None, facename=None)   *
 ```
 
 -   Crée un objet `Rebar` à partir de la `structure` donnée, qui est une [Arch Structure](Arch_Structure/fr.md) et `facename` qui est une face de cette structure.
@@ -147,6 +147,14 @@ LShapeRebar.editLShapeRebar(Rebar, 50, 50, 20, 20,
 LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
                             12, 70, 6, True, 5, "Top Right")
 ```
+
+
+
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

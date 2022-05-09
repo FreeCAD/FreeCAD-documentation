@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Frame
-   Name/fr:Arch Ossature
-   MenuLocation:Arch → Ossature
-   Workbenches:[Atelier Arch](Arch_Workbench/fr.md)
-   Shortcut:**F** **R**
-   SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Structure](Arch_Structure/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Frame
+   Name/fr   *Arch Ossature
+   MenuLocation   *Arch → Ossature
+   Workbenches   *[Atelier Arch](Arch_Workbench/fr.md)
+   Shortcut   ***F** **R**
+   SeeAlso   *[Arch Mur](Arch_Wall/fr.md), [Arch Structure](Arch_Structure/fr.md)
 ---
 
 # Arch Frame/fr
@@ -14,7 +14,7 @@
 
 L\'outil **<img src="images/Arch_Frame.svg" width=16px> [Arch Ossature](Arch_Frame/fr.md)** sert à construire toutes sortes d\'objets structurels basés sur un profil et un schéma d\'agencement. Le profil est extrudé sur les bords du modèle, qui peut être n\'importe quel objet 2D comme une [esquisse](Sketcher_Workbench/fr.md) ou un [objet Draft](Draft_Workbench/fr.md). Il est particulièrement utile pour créer des rampes ou des murs. Les objets Ossature peuvent alors facilement être transformés en [murs](Arch_Wall/fr.md) ou en objets [structurels](Arch_Structure/fr.md).
 
-<img alt="" src=images/Arch_Frame_example.jpg  style="width:640px;"> 
+<img alt="" src=images/Arch_Frame_example.jpg  style="width   *640px;"> 
 *Ici l'objet Frame (structure) est créé à partir d'un [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) d'une [Draft Ligne](Draft_Line/fr.md) en utilisant un [Draft Cercle](Draft_Circle/fr.md) comme profil.*
 
 ## Utilisation
@@ -31,24 +31,24 @@ L\'outil **<img src="images/Arch_Frame.svg" width=16px> [Arch Ossature](Arch_Fra
 
 ## Propriétés
 
--    **Base**: Le modèle ou motif sur lequel cette structure est basée.
+-    **Base**   * Le modèle ou motif sur lequel cette structure est basée.
 
--    **Profile**: Le profil sur lequel cette structure est basée.
+-    **Profile**   * Le profil sur lequel cette structure est basée.
 
--    **Align**: Spécifie si le profil doit être tourné pour que son axe normal soit aligné avec chaque arête.
+-    **Align**   * Spécifie si le profil doit être tourné pour que son axe normal soit aligné avec chaque arête.
 
--    **Offset**: Une option de distance entre l\'objet layout (modèle ou motif) et l\'objet frame (structure).
+-    **Offset**   * Une option de distance entre l\'objet layout (modèle ou motif) et l\'objet frame (structure).
 
--    **Rotation**: La rotation du profil autour de son axe d\'extrusion.
+-    **Rotation**   * La rotation du profil autour de son axe d\'extrusion.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Frame peut être utilisé dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante : 
+L\'outil Frame peut être utilisé dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante    * 
 ```python
 Frame = makeFrame(baseobj, profile)
 ```
@@ -64,7 +64,7 @@ Frame = makeFrame(baseobj, profile)
         
         est un objet 2D extrudable contenant des faces et des fils fermés.
 
-Exemple : 
+Exemple    * 
 ```python
 import Draft, Arch
 

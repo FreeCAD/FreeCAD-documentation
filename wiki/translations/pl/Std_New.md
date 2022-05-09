@@ -1,83 +1,84 @@
 ---
-- GuiCommand:
-   Name:Std New
-   MenuLocation:File → New
-   Workbenches:All
-   Shortcut:**Ctrl**+**N**
-   SeeAlso:[Std Open](Std_Open.md), [Std Import](Std_Import.md)
+- GuiCommand   *
+   Name   *Std New
+   Name/pl   *Std   * Nowy
+   MenuLocation   *Plik → Nowy
+   Workbenches   *Wszystkie
+   Shortcut   ***Ctrl**+**N**
+   SeeAlso   *[Otwórz](Std_Open/pl.md), [Importuj](Std_Import/pl.md)
 ---
 
 # Std New/pl
 
-## Description
+## Opis
 
-The **Std New** command creates a new empty document and makes it the active document.
+Polecenie **Std Nowy** tworzy nowy pusty dokument i ustawia go jako dokument aktywny.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_New.svg" width=16px> [Std New](Std_New.md)** button.
-    -   Select the **File → <img src="images/Std_New.svg" width=16px> New** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**N**.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_New.svg" width=16px> [Nowy](Std_New/pl.md)**.
+    -   Wybierz z menu opcję **Plik → <img src="images/Std_New.svg" width=16px> Nowy**.
+    -   Użyj skrótu klawiaturowego   * **Ctrl**+**N**.
 
-## Preferences
+## Ustawienia
 
--   FreeCAD will create a new document at start up if **Tools → Edit parameters... → BaseApp → Preferences → Document → CreateNewDoc** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
--   Some document properties: author names, company name and license information, can be preset in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Program FreeCAD będzie tworzył nowy dokument przy uruchamianiu, jeśli parametr **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Dokument → CreateNewDoc** jest ustawiony na wartość {{TRUE/pl}}. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
+-   Niektóre właściwości dokumentu   * nazwiska autorów, nazwę firmy i informacje o licencji, można wstępnie ustawić w programie przez [Edytor ustawień](Preferences_Editor/pl#Dokument.md).
 
-## Properties
+## Właściwości
 
-Most properties can also be changed in the dialog box of the [Std ProjectInfo](Std_ProjectInfo.md) command.
+Większość właściwości można również zmienić w oknie dialogowym polecenia [Informacja o projekcie](Std_ProjectInfo/pl.md).
 
--    **Comment**: Any comment that may apply.
+-    **Komentarz**   * Wszelkie uwagi, które mogą mieć zastosowanie.
 
--    **Company**: Company name. **Can be preset**.
+-    **Firma**   * Nazwa firmy. **Możliwość wstępnego ustawienia**.
 
--    **Created By**: Author name. **Can be preset**.
+-    **Utworzony przez**   * Imię i nazwisko autora. **Możliwość wstępnego ustawienia**.
 
--    **Creation Date**: Automatic date stamp. **Not editable**.
+-    **Data utworzenia**   * Automatyczny datownik. **Nie można edytować**.
 
--    **File Name**: The full path of the file. Blank if the document has not been saved. **Not editable**.
+-    **Nazwa pliku**   * Pełna ścieżka dostępu do pliku. Jeżeli dokument nie został zapisany, wartość jest pusta.. **Nie można edytować**.
 
--    **Id**: Not implemented yet.
+-    **Id**   * Jeszcze nie wdrożono.
 
--    **Label**: The name that will appear in the [Tree view](Tree_view.md). By default the name of the document.
+-    **Etykieta**   * Nazwa, która będzie wyświetlana w oknie [Widoku drzewa](Tree_view/pl.md). Domyślnie jest to nazwa dokumentu.
 
--    **Last Modified By**: Author name. **Can be preset**.
+-    **Ostatnio zmodyfikowany przez**   * Imię i nazwisko autora. **Możliwość wstępnego ustawienia**.
 
--    **Last Modified Date**: Automatic date stamp. **Not editable**.
+-    **Data ostatniej modyfikacji**   * Automatyczny datownik. **Nie można edytować**.
 
--    **License**: License type. **Can be preset**.
+-    **Licencja**   * Rodzaj licencji projektu. **Możliwość wstępnego ustawienia**.
 
--    **License URL**: License URL. **Can be preset**.
+-    **URL licencji**   * Adres URL licencji. **Możliwość wstępnego ustawienia**.
 
--    **Show Hidden**: If true, items that have been hidden in the [Tree view](Tree_view.md) will be displayed anyway. Hiding items in the tree can be useful when working on larger models.
+-    **Pokaż ukryte**   * Jeśli parametr ma wartość prawda, elementy, które zostały ukryte w oknie [Widoku drzewa](Tree_view/pl.md), zostaną wyświetlone. Ukrywanie elementów w drzewie może być przydatne podczas pracy nad większymi modelami.
 
--    **Tip**: Not implemented yet.
+-    **Czubek**   * Jeszcze nie wdrożono.
 
--    **Tip Name**: Not implemented yet.
+-    **Nazwa czubka**   * Jeszcze nie wdrożono.
 
--    **Transient Dir**: The transient directory used for recovery data. **Not editable**.
+-    **Katalog przejściowy**   * Katalog tymczasowy używany do odzyskiwania danych. **Nie można edytować**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To create a new document use the `newDocument([name], [hidden<nowiki>=</nowiki>False])` method of the FreeCAD application. The document name must be unique, which is checked automatically. If no name is supplied, the document will be named \"Untitled\". If `hidden<nowiki>=</nowiki>True` is used, the new document won\'t be displayed in the GUI and no tab will appear for it.
+Aby utworzyć nowy dokument, należy użyć metody `newDocument([nazwa], [hidden<nowiki>=</nowiki>False])` aplikacji FreeCAD. Nazwa dokumentu musi być unikalna, co jest sprawdzane automatycznie. Jeśli nie zostanie podana żadna nazwa, dokument zostanie nazwany \"Bez tytułu\". Jeśli użyto metody `hidden<nowiki>=</nowiki>True`, nowy dokument nie będzie wyświetlany w GUI i nie pojawi się dla niego żadna zakładka.
 
 
 ```python
 import FreeCAD
 from pathlib import Path
 
-# The folder and filename we will use:
-fld = 'D:/testfiles/'
+# The folder and filename we will use   *
+fld = 'D   */testfiles/'
 fnm = fld + 'test.FCStd'
 
-# Make sure fld exists:
+# Make sure fld exists   *
 Path(fld).mkdir(parents=True, exist_ok=True)
 
 doc = FreeCAD.newDocument()

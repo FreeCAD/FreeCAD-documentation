@@ -1,35 +1,36 @@
 ---
-- GuiCommand:
-   Name:Std MergeProjects
-   MenuLocation:File → Merge project...
-   Workbenches:All
+- GuiCommand   */pl
+   Name   *Std MergeProjects
+   Name/pl   *Std   * Scal projekt
+   MenuLocation   *Plik → Scal projekt ...
+   Workbenches   *wszystkie
 ---
 
 # Std MergeProjects/pl
 
-## Description
+## Opis
 
-The **Std MergeProjects** command adds the contents of a FreeCAD file into the active document.
+Polecenie **Scal projekt** dodaje zawartość pliku FreeCAD do aktywnego dokumentu.
 
-## Usage
+## Użycie
 
-1.  Select the **File → <img src="images/Std_MergeProjects.svg" width=16px> Merge project...** option from the menu.
-2.  Select a FreeCAD file in the dialog box.
-3.  Press the **Open** button.
+1.  Wybierz z menu opcję **Plik → <img src="images/Std_MergeProjects.svg" width=16px> Scal projekt ...**.
+2.  Wprowadź nazwę pliku w oknie dialogowym.
+3.  Naciśnij przycisk **Otwórz**.
 
-## Options
+## Opcje
 
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
-## Notes
+## Uwagi
 
--   A project cannot be merged with itself, selecting the current file is not allowed.
--   FreeCAD will automatically change the internal names and, depending on the preferences, labels of objects to avoid name conflicts.
+-   Projekt nie może być łączony z samym sobą, wybieranie bieżącego pliku jest niedozwolone.
+-   FreeCAD automatycznie zmieni wewnętrzne nazwy oraz, w zależności od preferencji, etykiety obiektów, aby uniknąć konfliktów nazw.
 
-## Preferences
+## Ustawienia
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
--   Duplicate labels are allowed if **Tools → Edit parameters... → BaseApp → Preferences → Document → DuplicateLabels** is set to `True`. This setting can also be changed in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Ogólne → FileOpenSavePath**.
+-   Duplikaty etykiet są dozwolone, jeśli parametr **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Dokument → DuplicateLabels** jest ustawiony na wartość {{TRUE/pl}}. To ustawienie można również zmienić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
 
 
 

@@ -1,6 +1,6 @@
 # TechDraw Symbol/it
 ---
-- GuiCommand:/it   Name:TechDraw_Symbol   Name/it:Simbolo SVG   Workbenches:[MenuLocation:TechDraw → Simbolo SVG   Shortcut:   SeeAlso:[[TechDraw Templates/it|Modelli di squadrature](TechDraw_Workbench/it___TechDraw]].md), [SVG di Draft](Draft_SVG/it.md)---
+- GuiCommand   */it   Name   *TechDraw_Symbol   Name/it   *Simbolo SVG   Workbenches   *[MenuLocation   *TechDraw → Simbolo SVG   Shortcut   *   SeeAlso   *[[TechDraw Templates/it|Modelli di squadrature](TechDraw_Workbench/it___TechDraw]].md), [SVG di Draft](Draft_SVG/it.md)---
 
 
 </div>
@@ -9,7 +9,7 @@
 
 Lo strumento Simbolo inserisce un file [SVG](SVG/it.md) nella pagina. Questo simbolo può essere qualsiasi cosa che aiuti ad annotare il disegno, e che non ha bisogno di essere ulteriormente modificato.
 
-<img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width:250px;">
+<img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width   *250px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -66,7 +66,7 @@ See [TechDraw View](TechDraw_View#Properties.md)
 
 {{TitleProperty|Drawing view}}
 
--    **Editable Texts**: List of editable texts, if any.
+-    **Editable Texts**   * List of editable texts, if any.
 
 ## Script
 
@@ -74,7 +74,7 @@ See [TechDraw View](TechDraw_View#Properties.md)
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -84,14 +84,14 @@ See [TechDraw View](TechDraw_View#Properties.md)
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Simbolo SVG può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+Lo strumento Simbolo SVG può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
 
 
 </div>
 
 
 ```python
-sym = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewSymbol','TestSymbol')
+sym = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewSymbol','TestSymbol')
 rc = page.addView(anno)
 f = open(unicode(symbolFileSpec,'utf-8'),'r')
 svg = f.read()

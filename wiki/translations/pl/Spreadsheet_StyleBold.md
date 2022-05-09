@@ -1,22 +1,23 @@
 ---
-- GuiCommand:
-   Name:Spreadsheet StyleBold
-   MenuLocation:Spreadsheet → Styles → Bold text
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+- GuiCommand   */pl
+   Name   *Spreadsheet StyleBold
+   Name/pl   *Arkusz Kalkulacyjny   * Pogrubienie
+   MenuLocation   *Arkusz kalkulacyjny → Style → Pogrubienie
+   Workbenches   *[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version   *0.17
 ---
 
 # Spreadsheet StyleBold/pl
 
-## Description
+## Opis
 
-The **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Spreadsheet StyleBold](Spreadsheet_StyleBold.md)** tool makes the text inside the cell adopt **bold** style.
+Narzędzie **[<img src=images/Spreadsheet_StyleBold.svg style="width   *16px"> [Pogrubienie](Spreadsheet_StyleBold/pl.md)** sprawia, że tekst wewnątrz komórki przyjmuje styl **pogrubiony**.
 
-## Usage
+## Użycie
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select a cell.
-3.  Press the **[<img src=images/Spreadsheet_StyleBold.svg style="width:16px"> [Spreadsheet StyleBold](Spreadsheet_StyleBold.md)** button.
+1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
+2.  Wybierz komórkę.
+3.  Naciśnij przycisk **[<img src=images/Spreadsheet_StyleBold.svg style="width   *16px"> [Pogrubienie](Spreadsheet_StyleBold/pl.md)**.
 
 
 

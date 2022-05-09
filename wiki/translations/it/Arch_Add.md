@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Arch Add
-   Name/it:Aggiungi
-   Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch → Aggiungi
-   SeeAlso:[Rimuovi](Arch_Remove/it.md)
+- GuiCommand   */it
+   Name   *Arch Add
+   Name/it   *Aggiungi
+   Workbenches   *[Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Arch → Aggiungi
+   SeeAlso   *[Rimuovi](Arch_Remove/it.md)
 ---
 
 # Arch Add/it
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Aggiungi permette di eseguire 4 diversi tipi di operazioni:
+Lo strumento Aggiungi permette di eseguire 4 diversi tipi di operazioni   *
 
 -   Aggiungere a un componente di Architettura degli oggetti basati su [forme](Part_Workbench/it.md), ad esempio un **<img src="images/Arch_Wall.svg" width=16px> [muro](Arch_Wall/it.md)** o una **<img src="images/Arch_Structure.svg" width=16px> [struttura](Arch_Structure/it.md)**. Questi oggetti vengono inseriti nell\'elemento Architettura, ed è possibile modificare la loro forma, ma mantenendo le loro caratteristiche di base come la larghezza e l\'altezza.
 -   Aggiungere componenti di Architettura, quali **<img src="images/Arch_Wall.svg" width=16px> [muri](Arch_Wall/it.md)** o **<img src="images/Arch_Structure.svg" width=16px> [Strutture](Arch_Structure/it.md)**, a un oggetto costituito da un gruppo base come il **<img src="images/Arch_Floor.svg" width=16px> [Piano](Arch_Floor/it.md)**.
@@ -29,7 +29,7 @@ Lo strumento Aggiungi permette di eseguire 4 diversi tipi di operazioni:
 
 La controparte di questo strumento è lo strumento **<img src="images/Arch_Remove.svg" width=16px> [Rimuovi componente](Arch_Remove/it.md)**.
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> 
+<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;"> 
 *Un box aggiunto a un muro come componente.*
 
 ## Utilizzo
@@ -43,7 +43,7 @@ La controparte di questo strumento è lo strumento **<img src="images/Arch_Remov
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -53,13 +53,13 @@ La controparte di questo strumento è lo strumento **<img src="images/Arch_Remov
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Aggiungi può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
+Lo strumento Aggiungi può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   *
 
 
 </div>
 
 
-:   
+   *   
     
 ```python
     addComponents(objectsList, host)
@@ -71,10 +71,10 @@ Lo strumento Aggiungi può essere utilizzato nelle [macro](macros/it.md) e dalla
 
 
 
-:   Il frammento di codice riportato sopra aggiunge gli oggetti dati in `objectsList` all\'oggetto `host` specificato.
-:   **Nota:** `objectsList` può essere un singolo oggetto o un elenco di oggetti.
+   *   Il frammento di codice riportato sopra aggiunge gli oggetti dati in `objectsList` all\'oggetto `host` specificato.
+   *   **Nota   *** `objectsList` può essere un singolo oggetto o un elenco di oggetti.
 
-Esempio:
+Esempio   *
 
 
 ```python

@@ -3,9 +3,9 @@
 
 ## Einführung
 
-<img alt="" src=images/Px.svg  style="width:32px;">
+<img alt="" src=images/Px.svg  style="width   *32px;">
 
-Ein [Anwendung DokumentObjekt](App_DocumentObject/de.md) Objekt oder formal ein `App::DocumentObject` ist die Basisklasse aller im Dokument behandelten Objektklassen.
+Ein [Anwendung DokumentObjekt](App_DocumentObject/de.md) Objekt oder formal ein `App   *   *DocumentObject` ist die Basisklasse aller im Dokument behandelten Objektklassen.
 
 
 <div class="mw-translate-fuzzy">
@@ -19,16 +19,16 @@ Allgemein ausgedrückt ist ein \"Dokumentobjekt\" jedes \"Ding\", das in der [Ba
 
 
 
-*Baumansicht, die verschiedene Objekte im Dokument anzeigt. Jedes von ihnen ist ein "Dokumentobjekt", das letztlich von der Basisklasse `App::DocumentObject* abgeleitet ist.`
+*Baumansicht, die verschiedene Objekte im Dokument anzeigt. Jedes von ihnen ist ein "Dokumentobjekt", das letztlich von der Basisklasse `App   *   *DocumentObject* abgeleitet ist.`
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
 
 
-*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `App::DocumentObject* Klasse ist die Basisklasse von im Wesentlichen allen Objekten in der Software.`
+*Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `App   *   *DocumentObject* Klasse ist die Basisklasse von im Wesentlichen allen Objekten in der Software.`
 
 
 </div>
@@ -46,7 +46,7 @@ Das [Anwendung DokumentObjekt](App_DocumentObject/de.md) ist eine interne Klasse
 
 <div class="mw-translate-fuzzy">
 
-Einige der wichtigsten DocumentObjects sind die folgenden:
+Einige der wichtigsten DocumentObjects sind die folgenden   *
 
 -   Die Klasse [App FeaturePython](App_FeaturePython/de.md), ein leeres Objekt, das je nach den hinzugefügten Eigenschaften für verschiedene Zwecke verwendet werden kann.
 -   Die Klasse [App GeoFeature](App_GeoFeature/de.md), das Basisobjekt aller geometrischen Objekte, d.h. von Objekten, die eine Eigenschaft [Platzierung](Placement/de.md) haben, die ihre Position in der [3D Ansicht](3D_view/de.md) definiert.
@@ -65,13 +65,13 @@ Dies sind die grundlegenden Eigenschaften, die im Wesentlichen alle Objekte habe
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/de|Expression Engine|ExpressionEngine}}: eine Liste von Ausdrücken.
+-    {{PropertyData/de|Expression Engine|ExpressionEngine}}   * eine Liste von Ausdrücken.
 
--    {{PropertyData/de|Label|String}}: der vom Benutzer editierbare Name dieses Objekts, es ist ein beliebiger UTF8-String. Standardmäßig ist es derselbe wie der `Name`.
+-    {{PropertyData/de|Label|String}}   * der vom Benutzer editierbare Name dieses Objekts, es ist ein beliebiger UTF8-String. Standardmäßig ist es derselbe wie der `Name`.
 
--    {{PropertyData/de|Label2|String}}: eine längere, vom Benutzer editierbare Beschreibung dieses Objekts, es ist eine beliebige UTF8-Zeichenfolge, der Zeilenumbrüche enthalten kann. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
+-    {{PropertyData/de|Label2|String}}   * eine längere, vom Benutzer editierbare Beschreibung dieses Objekts, es ist eine beliebige UTF8-Zeichenfolge, der Zeilenumbrüche enthalten kann. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
 
--    {{PropertyData/de|Visibility|Bool}}: whether to display the object or not.
+-    {{PropertyData/de|Visibility|Bool}}   * whether to display the object or not.
 
 
 </div>
@@ -84,7 +84,7 @@ Für abgeleitete Objekte wird standardmäßig nur {{PropertyData/de|Label}} im [
 <div class="mw-translate-fuzzy">
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md), und [geskriptete Objekte](scripted_objects/de.md).
 
@@ -106,7 +106,7 @@ Ein DokumentObjekt wird mit der `addObject()` Methode des Dokuments erstellt. Im
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::DocumentObject", "Name")
+obj = App.ActiveDocument.addObject("App   *   *DocumentObject", "Name")
 obj.Label = "Custom label"
 ```
 

@@ -1,7 +1,7 @@
 # Package Metadata
 ## Introduction
 
-Beginning in FreeCAD version 0.20, external add-ons (workbenches, macros, and preference packs) may be distributed with a metadata file describing the contents of the package. If the file \"package.xml\" is present it is read by FreeCAD and its contents used in various parts of the user interface. It is currently optional for workbenches and macros, and required for preference packs. This page documents the format of that metadata file. The format (and the contents of this Wiki page) are based on [REP 149](https://ros.org/reps/rep-0149.html).
+Beginning in FreeCAD version 0.20, external add-ons (workbenches, macros, and preference packs) may be distributed with a metadata file describing the contents of the package. If the file \"package.xml\" is present it is read by FreeCAD and its contents used in various parts of the user interface. It is currently optional for workbenches and macros, and required for preference packs. This page documents the format of that metadata file. The format (and the contents of this Wiki page) are based on [REP 149](https   *//ros.org/reps/rep-0149.html).
 
 ## Overall file format 
 
@@ -9,7 +9,7 @@ This document currently describes file format version 1.
 
 The metadata file must be a valid, well-formed XML 1.0 document. It must be called \"package.xml\", and must exist in the base directory of the software package. All understood XML tags are in lowercase, but unrecognized tags are **not** an error. Most tags are optional, and some only apply to certain types of package contents (for example, only Workbenches currently provide a \"classname\" element). Unneeded or unrecognized elements are ignored.
 
-Any file path specified in package.xml must use the slash (\"/\") as the directory separator: on systems that expect a different separator during execution (e.g. Windows) FreeCAD will automatically convert to the correct separator.
+Any file path specified in package.xml must use the slash (\"/\") as the directory separator   * on systems that expect a different separator during execution (e.g. Windows) FreeCAD will automatically convert to the correct separator.
 
 ## Content elements 
 
@@ -19,7 +19,7 @@ The only top-level element allowed is , and the file may only contain one  eleme
 
 
 
-    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+    <package format="1" xmlns="https   *//wiki.freecad.org/Package_Metadata">
 
 
 
@@ -27,12 +27,12 @@ The  tag is the unique top-level tag in a package.xml file. All other tags are n
 
 #### Attributes
 
--   format=\"NUMBER\": Specifying the package.xml format being used. For this interface, you must specify format=\"1\".
--   xmlns=\"NAMESPACE\": Specifies the XML namespace for this package, and must be included exactly as shown above, as a link to <https://wiki.freecad.org/Package_Metadata>.
+-   format=\"NUMBER\"   * Specifying the package.xml format being used. For this interface, you must specify format=\"1\".
+-   xmlns=\"NAMESPACE\"   * Specifies the XML namespace for this package, and must be included exactly as shown above, as a link to <https   *//wiki.freecad.org/Package_Metadata>.
 
 #### Required child tags 
 
-The top-level  element must contain at least the following tags:
+The top-level  element must contain at least the following tags   *
 
 -   [](#.3Cname.3E.md)
 -   [](#.3Cversion.3E.md)
@@ -58,13 +58,13 @@ The top-level  element must contain at least the following tags:
 
 REQUIRED
 
-The name of this package. Must only contain characters that are valid for filenames (disallowed characters are /\\?%\*:\|\"\<\> ).
+The name of this package. Must only contain characters that are valid for filenames (disallowed characters are /\\?%\*   *|\"\<\> ).
 
 ###  
 
 REQUIRED
 
-A version number that follows either the [semantic versioning 2.0 standard](https://semver.org) (e.g. 1.0.2-beta) or the [CalVer style](https://calver.org/) (e.g. 2021.12.08). Note that you cannot include both types, and switching between types is not supported. Internally the code has no concept of which type is chosen, when comparing versions it performs a simple numerical comparison between each successive numeric component regardless of type.
+A version number that follows either the [semantic versioning 2.0 standard](https   *//semver.org) (e.g. 1.0.2-beta) or the [CalVer style](https   *//calver.org/) (e.g. 2021.12.08). Note that you cannot include both types, and switching between types is not supported. Internally the code has no concept of which type is chosen, when comparing versions it performs a simple numerical comparison between each successive numeric component regardless of type.
 
 ###  
 
@@ -86,9 +86,9 @@ The name of the person maintaining the package. All packages require a maintaine
 
 #### Attributes 
 
--   email=\"name\@domain.tld\" (required): Email address of the maintainer.
+-   email=\"name\@domain.tld\" (required)   * Email address of the maintainer.
 
-An orphaned package is one with no current maintainer. Orphaned packages should use the following maintainer information:
+An orphaned package is one with no current maintainer. Orphaned packages should use the following maintainer information   *
 
 
 
@@ -102,9 +102,9 @@ AT LEAST ONE REQUIRED (multiple allowed)
 
 Name of license for this package, e.g. BSD, GPL, LGPL. In order to assist machine readability, only include the license name in this tag. For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag.
 
-Most common open-source licenses are described on the [OSI website](https://opensource.org/licenses/alphabetical).
+Most common open-source licenses are described on the [OSI website](https   *//opensource.org/licenses/alphabetical).
 
-Commonly-used license strings:
+Commonly-used license strings   *
 
 -    `"Apache-2.0"`
     
@@ -137,13 +137,13 @@ Commonly-used license strings:
 
 #### Attributes 
 
--    `file<nowiki>=</nowiki>"FILE"`(optional): A path relative to the `package.xml` file containing the full license text. Many licenses require including the license text when redistributing the software. E.g. the Apache License, Version 2.0 states in paragraph 4.1: \"You must give any other recipients of the Work or Derivative Works a copy of this License\"
+-    `file<nowiki>=</nowiki>"FILE"`(optional)   * A path relative to the `package.xml` file containing the full license text. Many licenses require including the license text when redistributing the software. E.g. the Apache License, Version 2.0 states in paragraph 4.1   * \"You must give any other recipients of the Work or Derivative Works a copy of this License\"
 
 ###  
 
 REQUIRED
 
-The  tag describes the actual contents of the package. It has no attributes, and contains any number of children. Those children can have arbitrary tag names, only some of which may be recognized by FreeCAD. FreeCAD currently supports \"workbench\", \"macro\", and \"preferencepack\" elements. Each child is then defined recursively by this standard, containing any or all of the elements allowed for the root  node. For example:
+The  tag describes the actual contents of the package. It has no attributes, and contains any number of children. Those children can have arbitrary tag names, only some of which may be recognized by FreeCAD. FreeCAD currently supports \"workbench\", \"macro\", and \"preferencepack\" elements. Each child is then defined recursively by this standard, containing any or all of the elements allowed for the root  node. For example   *
 
 
 
@@ -151,14 +151,14 @@ The  tag describes the actual contents of the package. It has no attributes, and
       <preferencepack>
         <name>Unicorn Sparkles Theme</name>
         <version>1.0.0</version>
-        <url type="readme">https://github.com/chennes/FreeCAD-themes/blob/main/Unicorn%20Sparkles%20Theme/Readme.md</url>
+        <url type="readme">https   *//github.com/chennes/FreeCAD-themes/blob/main/Unicorn%20Sparkles%20Theme/Readme.md</url>
         <icon>sparkles.svg</icon>
       </preferencepack>
     </content>
 
 
 
-The existence of  items implies a set of subfolders, one for each content item, named exactly as the given name of the item. So for the example above, the package\'s folder structure is:
+The existence of  items implies a set of subfolders, one for each content item, named exactly as the given name of the item. So for the example above, the package\'s folder structure is   *
 
 
 
@@ -173,7 +173,7 @@ The existence of  items implies a set of subfolders, one for each content item, 
 
 In addition to the other elements of , content items can optionally provide information in , , and  tags (technically these can be provided to the root  tag as well, but they are generally unused there).
 
-**Backwards-compatibility note**: to avoid having to restructure packages that pre-date this metadata standard, the optional [](#.3Csubdirectory.3E.md) tag is allowed to specify \"./\" as the subdirectory for a content item, in which case no subdirectory is required. This matches the pre-standard system where a single workbench was located at the top of the directory structure.
+**Backwards-compatibility note**   * to avoid having to restructure packages that pre-date this metadata standard, the optional [](#.3Csubdirectory.3E.md) tag is allowed to specify \"./\" as the subdirectory for a content item, in which case no subdirectory is required. This matches the pre-standard system where a single workbench was located at the top of the directory structure.
 
 ####  
 
@@ -201,18 +201,18 @@ Provided for convenience to other tools, any number of other files may be listed
 
 ###  
 
-Multiple allowed: \"repository\" is required, and \"readme\"-type is highly recommended.
+Multiple allowed   * \"repository\" is required, and \"readme\"-type is highly recommended.
 
 A Uniform Resource Locator for the package\'s website, bug tracker, source repository, zip download link, readme file, or documentation (as specified by the \"type\" attribute \-- see below).
 
-When specifying the \"readme\" type, a direct link to a rendered version of the README should be provided. For example, on GitHub, this is a \"blob\"-type link such as \"<https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md>\", or on a GitLab instance, \"<https://gitlab.com/opensimproject/cfdof/-/blob/master/README.md>\" (note the slightly different URL format between the two).
+When specifying the \"readme\" type, a direct link to a rendered version of the README should be provided. For example, on GitHub, this is a \"blob\"-type link such as \"<https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/README.md>\", or on a GitLab instance, \"<https   *//gitlab.com/opensimproject/cfdof/-/blob/master/README.md>\" (note the slightly different URL format between the two).
 
 It is a good idea to include  tags pointing users to your package\'s online resources. The website is commonly a wiki page on wiki.freecad.org where users can find and update information about the package, for example. The Addon Manager lists these URLs and provides clickable links to them in the package description.
 
 #### Attributes 
 
--   type=\"TYPE\" (required): The type should be one of the following identifiers \-- \"website\", \"bugtracker\", \"repository\", \"readme\", or \"documentation\".
--   branch=\"BRANCH\" (required for type=\"repository\"): The name of the branch to check out to obtain this package. Typically the name of your main development branch. May also specify any other type of git reference, e.g. a tag or specific commit.
+-   type=\"TYPE\" (required)   * The type should be one of the following identifiers \-- \"website\", \"bugtracker\", \"repository\", \"readme\", or \"documentation\".
+-   branch=\"BRANCH\" (required for type=\"repository\")   * The name of the branch to check out to obtain this package. Typically the name of your main development branch. May also specify any other type of git reference, e.g. a tag or specific commit.
 
 ###  
 
@@ -222,7 +222,7 @@ The name of a person who is an author of the package, as acknowledgement of thei
 
 #### Attributes 
 
--   email=\"name\@domain.tld\" (optional): Email address of author.
+-   email=\"name\@domain.tld\" (optional)   * Email address of author.
 
 ###  
 
@@ -234,12 +234,12 @@ Declares a dependency on another FreeCAD Addon or internal workbench, or Python 
 
 All dependencies and relationships may restrict their applicability to particular versions. For each comparison operator an attribute can be used. Two of these attributes can be used together to describe a version range.
 
--   version\_lt=\"VERSION\" (optional): The dependency to the package is restricted to versions less than the stated version number.
--   version\_lte=\"VERSION\" (optional): The dependency to the package is restricted to versions less or equal than the stated version number.
--   version\_eq=\"VERSION\" (optional): The dependency to the package is restricted to a version equal than the stated version number.
--   version\_gte=\"VERSION\" (optional): The dependency to the package is restricted to versions greater or equal than the stated version number.
--   version\_gt=\"VERSION\" (optional): The dependency to the package is restricted to versions greater than the stated version number.
--   condition=\"CONDITION\_EXPRESSION\": Every dependency can be conditional on a condition expression. If the condition expression evaluates to \"true\" the dependency is used and considered as if it doesn\'t have a condition attribute. If the condition expression evaluates to \"false\" the dependency is ignored and considered as if it doesn\'t exist. The expression must be a valid FreeCAD Expression (i.e. Python syntax), and may refer to the variables \"\$BuildVersionMajor\", \"\$BuildVersionMinor\", and \"\$BuildRevision\" representing the version of FreeCAD currently running.
+-   version\_lt=\"VERSION\" (optional)   * The dependency to the package is restricted to versions less than the stated version number.
+-   version\_lte=\"VERSION\" (optional)   * The dependency to the package is restricted to versions less or equal than the stated version number.
+-   version\_eq=\"VERSION\" (optional)   * The dependency to the package is restricted to a version equal than the stated version number.
+-   version\_gte=\"VERSION\" (optional)   * The dependency to the package is restricted to versions greater or equal than the stated version number.
+-   version\_gt=\"VERSION\" (optional)   * The dependency to the package is restricted to versions greater than the stated version number.
+-   condition=\"CONDITION\_EXPRESSION\"   * Every dependency can be conditional on a condition expression. If the condition expression evaluates to \"true\" the dependency is used and considered as if it doesn\'t have a condition attribute. If the condition expression evaluates to \"false\" the dependency is ignored and considered as if it doesn\'t exist. The expression must be a valid FreeCAD Expression (i.e. Python syntax), and may refer to the variables \"\$BuildVersionMajor\", \"\$BuildVersionMinor\", and \"\$BuildRevision\" representing the version of FreeCAD currently running.
 
 ###  
 
@@ -275,19 +275,19 @@ The maximum version of FreeCAD required to use package/element, as a semantic ve
 
 ## Examples
 
-A simple workbench-only package (for example, to add a metadata file to a package that predates this metadata format):
+A simple workbench-only package (for example, to add a metadata file to a package that predates this metadata format)   *
 
 
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+    <package format="1" xmlns="https   *//wiki.freecad.org/Package_Metadata">
       <name>Legacy Workbench</name>
       <description>A package.xml file to add to a workbench that predates the metadata standard.</description>
       <version>1.0.1</version>
       <date>2022-01-07</date>
       <maintainer email="your_address@null.com">Your Name</maintainer>
       <license file="LICENSE">LGPLv2.1</license>
-      <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
+      <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
       <icon>Resources/icons/PackageIcon.svg</icon> 
 
       <content>
@@ -301,19 +301,19 @@ A simple workbench-only package (for example, to add a metadata file to a packag
 
 
 
-A complex, multi-component package:
+A complex, multi-component package   *
 
 
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+    <package format="1" xmlns="https   *//wiki.freecad.org/Package_Metadata">
       <name>Example Package Format</name>
       <description>An example of the package.xml file format</description>
       <version>2022.01</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
       <license file="LICENSE">GPLv3</license>
-      <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
+      <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 
       <content>
@@ -345,19 +345,19 @@ A complex, multi-component package:
 
 
 
-A package with dependencies:
+A package with dependencies   *
 
 
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+    <package format="1" xmlns="https   *//wiki.freecad.org/Package_Metadata">
       <name>Example with Dependencies</name>
       <description>An example of the package.xml file format</description>
       <version>1.0.1-beta3</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
       <license file="LICENSE">GPLv3</license>
-      <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
+      <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 
       <content>
@@ -386,6 +386,11 @@ A package with dependencies:
       </content>
 
     </package>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

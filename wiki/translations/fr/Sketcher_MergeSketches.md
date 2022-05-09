@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Sketcher MergeSketches
-   Name/fr:Sketcher Fusionner les esquisses
-   MenuLocation:Esquisse → Fusionner les esquisses
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.15
+- GuiCommand   */fr
+   Name   *Sketcher MergeSketches
+   Name/fr   *Sketcher Fusionner les esquisses
+   MenuLocation   *Esquisse → Fusionner les esquisses
+   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
+   Version   *0.15
 ---
 
 # Sketcher MergeSketches/fr

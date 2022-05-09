@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ja
-   Name:Std_Edit
-   Name/ja:Std_Edit
-   MenuLocation:Edit -> Toggle Editmode
-   Workbenches:All
-   SeeAlso:
+- GuiCommand   */ja
+   Name   *Std_Edit
+   Name/ja   *Std_Edit
+   MenuLocation   *Edit -> Toggle Editmode
+   Workbenches   *All
+   SeeAlso   *
 ---
 
 # Arch Building/ja
@@ -42,7 +42,7 @@
 
 ## プロパティ
 
--    **Building Type**: The type of this building, to choose from a list
+-    **Building Type**   * The type of this building, to choose from a list
 
 
 <div class="mw-translate-fuzzy">
@@ -73,7 +73,7 @@ Building = makeBuilding(objectslist=None, baseobj=None, name="Building")
 
 -   Creates a `Building` object from `objectslist`, which is a list of objects, or `baseobj`, which is a `Shape`.
 
-Example:
+Example   *
 
 
 ```python

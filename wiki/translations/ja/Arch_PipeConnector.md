@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ja
-   Name:Arch PipeConnector   Name/ja:Arch PipeConnector
-   MenuLocation:Arch → Pipe Tools → Pipe Connector
-   Workbenches:[Arch](Arch_Workbench/ja.md)
-   Shortcut:**P** **C**
-   SeeAlso:[[Arch Pipe/ja]], [[Arch Equipment/ja]]
-   Version:0.17
+- GuiCommand   */ja
+   Name   *Arch PipeConnector   Name/ja   *Arch PipeConnector
+   MenuLocation   *Arch → Pipe Tools → Pipe Connector
+   Workbenches   *[Arch](Arch_Workbench/ja.md)
+   Shortcut   ***P** **C**
+   SeeAlso   *[[Arch Pipe/ja]], [[Arch Equipment/ja]]
+   Version   *0.17
 ---
 
 # Arch PipeConnector/ja
@@ -38,7 +38,7 @@
 
 ## プロパティ
 
--    **Radius**: このコネクタの曲率半径
+-    **Radius**   * このコネクタの曲率半径
 
 ## 典型的なワークフロー
 
@@ -76,7 +76,7 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
     -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft, Arch
 

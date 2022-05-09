@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:TechDraw ClipGroup
-   Name/fr:TechDraw Fenêtre de rognage
-   MenuLocation:TechDraw → Insérer une fenêtre de rognage
-   Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Ajout vue dans une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md), [TechDraw Suppression vue d'une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)
+- GuiCommand   */fr
+   Name   *TechDraw ClipGroup
+   Name/fr   *TechDraw Fenêtre de rognage
+   MenuLocation   *TechDraw → Insérer une fenêtre de rognage
+   Workbenches   *[TechDraw](TechDraw_Workbench/fr.md)
+   SeeAlso   *[TechDraw Ajout vue dans une fenêtre de rognage](TechDraw_ClipGroupAdd/fr.md), [TechDraw Suppression vue d'une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)
 ---
 
 # TechDraw ClipGroup/fr
@@ -22,15 +22,15 @@ Cet outil crée une fenêtre de rognage qui peut contenir des vues.
 
 ## Propriétés
 
--    {{PropertyData/fr|Width}}: La largeur de la fenêtre de rognage en unités
+-    {{PropertyData/fr|Width}}   * La largeur de la fenêtre de rognage en unités
 
--    {{PropertyData/fr|Height}}: La hauteur de la fenêtre de rognage en unités
+-    {{PropertyData/fr|Height}}   * La hauteur de la fenêtre de rognage en unités
 
--    {{PropertyData/fr|ShowFrame}}: Si vrai, affiche un cadre autour de la fenêtre de rognage
+-    {{PropertyData/fr|ShowFrame}}   * Si vrai, affiche un cadre autour de la fenêtre de rognage
 
--    {{PropertyData/fr|ShowLabels}}: Si vrai, affiche les étiquettes des vues dans la fenêtre de rognage. **Remarque:** retiré dans la version 0.19.
+-    {{PropertyData/fr|ShowLabels}}   * Si vrai, affiche les étiquettes des vues dans la fenêtre de rognage. **Remarque   *** retiré dans la version 0.19.
 
--    {{PropertyData/fr|Views}}: Les vues contenues dans la fenêtre de rognage
+-    {{PropertyData/fr|Views}}   * Les vues contenues dans la fenêtre de rognage
 
 
 

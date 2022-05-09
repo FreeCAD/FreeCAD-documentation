@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FEM ConstraintSpring
-   Name/fr:FEM Contrainte de ressort
-   MenuLocation:Modèle → Contraintes mécaniques→ Contrainte de ressort
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   Version:0.20
+- GuiCommand   */fr
+   Name   *FEM ConstraintSpring
+   Name/fr   *FEM Contrainte de ressort
+   MenuLocation   *Modèle → Contraintes mécaniques→ Contrainte de ressort
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   Version   *0.20
 ---
 
 # FEM ConstraintSpring/fr

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
-   Name:FEM ConstraintCentrif
-   MenuLocation:Model → Mechanical Constraints → Constraint centrif
-   Workbenches:[FEM](FEM_Workbench.md)
-   Shortcut:
-   Version:0.20
-   SeeAlso:
+- GuiCommand   *
+   Name   *FEM ConstraintCentrif
+   MenuLocation   *Model → Mechanical Constraints → Constraint centrif
+   Workbenches   *[FEM](FEM_Workbench.md)
+   Shortcut   *
+   Version   *0.20
+   SeeAlso   *
 ---
 
 # FEM ConstraintCentrif/pl
@@ -16,7 +16,7 @@ Defines a centrifugal body load.
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ConstraintCentrif.svg" width=16px> [FEM ConstraintCentrif](FEM_ConstraintCentrif.md)** button.
     -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintCentrif.svg" width=16px> Constraint centrif** option from the menu.
 2.  Specify the rotation frequency in Hz.

@@ -1,11 +1,11 @@
 ---
-- TutorialInfo:/de
-   Topic:Skripten
-   Level:Basis
-   Time:
-   Author:onekk Carlo
-   FCVersion:0.19
-   Files:
+- TutorialInfo   */de
+   Topic   *Skripten
+   Level   *Basis
+   Time   *
+   Author   *onekk Carlo
+   FCVersion   *0.19
+   Files   *
 ---
 
 # Scripts/de
@@ -27,7 +27,7 @@ Bedauerlicherweise sind die Informationen über das Skripten in der Dokumentatio
 
 Das erste Hindernis auf einem einfachen Weg zur Skripterstellung ist, dass es keine direkte Möglichkeit gibt, den FreeCAD internen Python Editor über einen Menüeintrag oder ein Symbol im Werkzeugleistenbereich aufzurufen, aber wenn man weiß, dass FreeCAD eine Datei mit der Erweiterung `.py` im internen Python Editor öffnet, ist der einfachste Trick, sie in Ihrem bevorzugten Texteditor zu erstellen und sie dann mit dem üblichen Befehl **Datei → Öffnen** zu öffnen.
 
-Um die Dinge in einer höflichen Art und Weise zu machen, muss die Datei mit einer gewissen Ordnung geschrieben werden, FreeCAD Python Editor haben eine gute \"Syntax Hervorhebung\", die in vielen einfachen Editoren wie Windows Notepad oder einige grundlegende Linux Editoren fehlt, so ist es ausreichend, diese wenigen Zeilen zu schreiben:
+Um die Dinge in einer höflichen Art und Weise zu machen, muss die Datei mit einer gewissen Ordnung geschrieben werden, FreeCAD Python Editor haben eine gute \"Syntax Hervorhebung\", die in vielen einfachen Editoren wie Windows Notepad oder einige grundlegende Linux Editoren fehlt, so ist es ausreichend, diese wenigen Zeilen zu schreiben   *
 
 
 ```python
@@ -40,7 +40,7 @@ Um die Dinge in einer höflichen Art und Weise zu machen, muss die Datei mit ein
 
 Speichere sie mit einem aussagekräftigen Namen mit der Erweiterung `.py` und lade die resultierende Datei in FreeCAD, mit dem besagten **Datei - Öffnen** Befehl.
 
-Ein Minimalbeispiel dafür, was in einem Skript enthalten sein muss, wird in diesem Teil des Codes gezeigt, den du als Vorlage für fast jedes zukünftige Skript verwenden könntest:
+Ein Minimalbeispiel dafür, was in einem Skript enthalten sein muss, wird in diesem Teil des Codes gezeigt, den du als Vorlage für fast jedes zukünftige Skript verwenden könntest   *
 
 
 ```python
@@ -58,23 +58,23 @@ from math import pi, sin, cos
 DOC = FreeCAD.activeDocument()
 DOC_NAME = "Pippo"
 
-def clear_doc():
+def clear_doc()   *
     """
     Clear the active document deleting all the objects
     """
-    for obj in DOC.Objects:
+    for obj in DOC.Objects   *
         DOC.removeObject(obj.Name)
 
-def setview():
+def setview()   *
     """Rearrange View"""
     FreeCAD.Gui.SendMsgToActiveView("ViewFit")
     FreeCAD.Gui.activeDocument().activeView().viewAxometric()
 
-if DOC is None:
+if DOC is None   *
     FreeCAD.newDocument(DOC_NAME)
     FreeCAD.setActiveDocument(DOC_NAME)
     DOC = FreeCAD.activeDocument()
-else:
+else   *
     clear_doc()
 
 # EPS= tolerance to use to cut the parts
@@ -82,7 +82,7 @@ EPS = 0.10
 EPS_C = EPS * -0.5
 ```
 
-Der obige Code enthält einige Tricks:
+Der obige Code enthält einige Tricks   *
 
 -    `import FreeCAD`Diese Zeile importiert FreeCAD in den FreeCAD Python Interpreter, es mag überflüssig erscheinen, ist es aber nicht.
 
@@ -92,8 +92,8 @@ Lasse uns mit einem kleinen Skript anfangen, das eine sehr kleine Arbeit leistet
 
 
 ```python
-def cubo(nome, lung, larg, alt):
-    obj_b = DOC.addObject("Part::Box", nome)
+def cubo(nome, lung, larg, alt)   *
+    obj_b = DOC.addObject("Part   *   *Box", nome)
     obj_b.Length = lung
     obj_b.Width = larg
     obj_b.Height = alt
@@ -121,8 +121,8 @@ Nicht allzu erstaunlich? Ja, aber irgendwo müssen wir anfangen, wir können das
 
 
 ```python
-def base_cyl(nome, ang, rad, alt ):
-    obj = DOC.addObject("Part::Cylinder", nome)
+def base_cyl(nome, ang, rad, alt )   *
+    obj = DOC.addObject("Part   *   *Cylinder", nome)
     obj.Angle = ang
     obj.Radius = rad
     obj.Height = altDOC.recompute()
@@ -131,7 +131,7 @@ def base_cyl(nome, ang, rad, alt ):
 
 ```
 
-Auch hier nichts allzu Aufregendes. Aber bitte beachte einige Besonderheiten:
+Auch hier nichts allzu Aufregendes. Aber bitte beachte einige Besonderheiten   *
 
 -   Das Fehlen des üblichen Verweises auf die `App.`, die in vielen Dokumentations Codeschnipseln vorhanden ist, ist beabsichtigt, dieser Code könnte sogar beim Aufruf von FreeCAD als Modul in einem externen Python Interpreter verwendet werden, die Sache ist mit einem AppImage nicht einfach zu bewerkstelligen, aber mit etwas Vorsicht wäre es machbar. Und in dem Standard Motto von Python, dass \"besser explizit als implizit\" `App.` in einer sehr \" dürftigen\" Weise erklärt, woher die Dinge kommen.
 -   Beachte die Verwendung des dem aktiven Dokument zugewiesenen \"konstanten\" Namens in `DOC` = `FreeCAD. activeDocument()`; activeDocument ist keine \"Konstante\" im strengen Sinne, aber in einer \"semantischen\" Weise ist unser \"aktives Dokument\", das für unseren Gebrauch eine richtige \"Konstante\" ist, so dass die Python Konvention, den \"ALL CAPS\" Namen für \"Konstanten\" zu verwenden, ganz zu schweigen davon, dass `DOC` viel kürzer ist als `FreeCAD.activeDocument()`.
@@ -140,12 +140,12 @@ Auch hier nichts allzu Aufregendes. Aber bitte beachte einige Besonderheiten:
 
 Was ist nun mit diesen Geometrien zu tun?
 
-Lasse uns boolesche Operationen einführen. Als Einstiegsbeispiel setze diese Zeilen nach `base_cyl(...`, dies erzeugt eine Methode für eine **Verschmelzung**, auch als **Vereinigung** Operation bekannt:
+Lasse uns boolesche Operationen einführen. Als Einstiegsbeispiel setze diese Zeilen nach `base_cyl(...`, dies erzeugt eine Methode für eine **Verschmelzung**, auch als **Vereinigung** Operation bekannt   *
 
 
 ```python
-def fuse_obj(nome, obj_0, obj_1):
-    obj = DOC.addObject("Part::Fuse", nome)
+def fuse_obj(nome, obj_0, obj_1)   *
+    obj = DOC.addObject("Part   *   *Fuse", nome)
     obj.Base = obj_0
     obj.Tool = obj_1
     obj.Refine = True
@@ -156,7 +156,7 @@ def fuse_obj(nome, obj_0, obj_1):
 
 Nichts Außergewöhnliches auch hier, beachte jedoch die Einheitlichkeit in der Methodencodierung; Dieser Ansatz ist linearer als derjenige, den man in anderen Tutorien zur Skripterstellung sieht, diese \"Linearität\" hilft sehr bei der Lesbarkeit und auch bei Ausschneiden-Kopieren-Einfügen Operationen.
 
-Verwenden wir die Geometrien, löschen wir Zeilen unterhalb des Codeabschnitts, die mit `# objects definition` beginnen, und fügen wir die folgenden Zeilen ein:
+Verwenden wir die Geometrien, löschen wir Zeilen unterhalb des Codeabschnitts, die mit `# objects definition` beginnen, und fügen wir die folgenden Zeilen ein   *
 
 
 ```python
@@ -171,7 +171,7 @@ fuse_obj("Fusione", obj, obj1)
 setview()
 ```
 
-Starte das Skript mit dem grünen Pfeil und wir sehen in der 3D Ansicht so etwas wie:
+Starte das Skript mit dem grünen Pfeil und wir sehen in der 3D Ansicht so etwas wie   *
 
 ![cube and cylinder](images/Cucil.png )
 
@@ -188,7 +188,7 @@ FreeCAD bietet eine große Auswahl an Möglichkeiten, diese Eigenschaft zu setze
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 ```
 
-Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich der geometrische **Referenzpunkt**, also der Punkt, von dem aus das Objekt von FreeCAD modelliert wird, wie in dieser Tabelle beschrieben, kopiert von [Platzierung](Placement/de.md):
+Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich der geometrische **Referenzpunkt**, also der Punkt, von dem aus das Objekt von FreeCAD modelliert wird, wie in dieser Tabelle beschrieben, kopiert von [Platzierung](Placement/de.md)   *
 
   Objekt                                Referenzpunkt
    
@@ -201,25 +201,25 @@ Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich d
 
 Diese Informationen müssen wir vor allem dann im Auge behalten, wenn wir eine Rotation anwenden müssen.
 
-Einige Beispiele mögen helfen, lösche die gesamte Zeile nach der `base_cyl` Methode und füge den Teil des Codes darunter ein:
+Einige Beispiele mögen helfen, lösche die gesamte Zeile nach der `base_cyl` Methode und füge den Teil des Codes darunter ein   *
 
 
 ```python
-def sfera(nome, rad):
-    obj = DOC.addObject("Part::Sphere", nome)
+def sfera(nome, rad)   *
+    obj = DOC.addObject("Part   *   *Sphere", nome)
     obj.Radius = radDOC.recompute()
 
     return obj   
 
-def mfuse_obj(nome, objs):
-    obj = DOC.addObject("Part::MultiFuse", nome)
+def mfuse_obj(nome, objs)   *
+    obj = DOC.addObject("Part   *   *MultiFuse", nome)
     obj.Shapes = objs
     obj.Refine = True
     DOC.recompute()
 
     return obj
 
-def aeroplano():
+def aeroplano()   *
 
     lung_fus = 30
     diam_fus = 5
@@ -256,10 +256,10 @@ aeroplano()
 setview()
 ```
 
-Lasse uns etwas im Code erklären:
+Lasse uns etwas im Code erklären   *
 
 -   Wir haben eine Methode verwendet, um eine Kugel zu definieren, wobei wir die einfachste Definition verwendet haben und nur den Radius verwendet haben.
--   Wir haben eine zweite Schreibweise für die **Vereingung** oder **Verschmelzung** eingeführt, die mehrere Objekte verwendet, nicht weiter entfernt von dem üblichen **Part::Fuse** es verwendet **Part:Multifuse**. Wir verwenden nur eine Eigenschaft `Formen`. Wir haben ein **Tupel** als Argumente übergeben, aber es akzeptiert auch eine **Liste**.
+-   Wir haben eine zweite Schreibweise für die **Vereingung** oder **Verschmelzung** eingeführt, die mehrere Objekte verwendet, nicht weiter entfernt von dem üblichen **Part   *   *Fuse** es verwendet **Part   *Multifuse**. Wir verwenden nur eine Eigenschaft `Formen`. Wir haben ein **Tupel** als Argumente übergeben, aber es akzeptiert auch eine **Liste**.
 -   Wir haben ein komplexes Objekt **aeroplano**\' definiert. (italienisches Wort für Flugzeug), aber wir haben es auf eine **\"parametrische\"** Art und Weise getan, indem wir einige Parameter definiert und andere Parameter durch einige Berechnungen auf der Grundlage der Hauptparameter abgeleitet haben.
 -   Wir haben einige Platzierungs `Platzierung` Eigenschaften in der Methode verwendet, und bevor wir die endgültigen Geometrien zurückgeben, haben wir eine `Rotation` Eigenschaft mit der *Gieren-Stampfen-Rollen* Schreibweise verwendet. Beachte die letzten `Vector(0, 0, pos_ali)`, die ein **Rotationszentrum** der gesamten Geometrie definieren.
 
@@ -269,7 +269,7 @@ Lasse uns etwas im Code erklären:
 
 Man kann leicht feststellen, dass **aeroplano** Geometrie um sein \"Baryzentrum\" oder seinen \"Schwerpunkt\" rotiert, den ich in der Flügelmitte festgelegt habe, ein Ort, der relativ \"natürlich\" ist, aber wo immer man will, platziert werden könnte.
 
-Der erste `Vector(0, 0, 0)` ist der Übersetzungsvektor, der hier nicht verwendet wird, aber wenn du `aeroplano()` durch diese Zeilen ersetzt:
+Der erste `Vector(0, 0, 0)` ist der Übersetzungsvektor, der hier nicht verwendet wird, aber wenn du `aeroplano()` durch diese Zeilen ersetzt   *
 
 
 ```python
@@ -278,7 +278,7 @@ obj_f = aeroplano()
 print(obj_F.Placement)
 ```
 
-Du wirst diesen Text im Berichtsfenster sehen:
+Du wirst diesen Text im Berichtsfenster sehen   *
 
 
 ```python
@@ -289,7 +289,7 @@ Was ist geschehen?
 
 FreeCAD hat die `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali)` mit anderen Worten unsere `Placement` Definition übersetzt, die drei Komponenten, **Translation**, **Rotation** und *Rotationszentrum*\' in den \"internen\" Werten von nur zwei Komponenten, **Translation** und **Rotation**, spezifiziert.
 
-du kannst leicht den Wert von `pos_ali` mit einer print Anweisung in der `aeroplano(...` Methode visualisieren und sehen das es ist:
+du kannst leicht den Wert von `pos_ali` mit einer print Anweisung in der `aeroplano(...` Methode visualisieren und sehen das es ist   *
 
 
 ```python
@@ -299,6 +299,14 @@ pos ali =  21.0
 mit anderen Worten, das **Rotationszentrum** der Geometrie liegt bei `Vector(0, 0, 21)`, aber dieses Rotationszentrum wird in der GUI nicht angezeigt, es könnte als `Placement` Wert eingegeben werden, es könnte nicht leicht abgerufen werden.
 
 Dies ist die Bedeutung des Wortes \"umständlich\", das ich zur Definition der `Placement` Eigenschaft verwendet habe.
+
+
+
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

@@ -1,8 +1,8 @@
-# <img alt="OpenSCAD Arbeitsbereichssymbol" src=images/Workbench_OpenSCAD.svg  style="width:64px;"> OpenSCAD Workbench/de
+# <img alt="OpenSCAD Arbeitsbereichssymbol" src=images/Workbench_OpenSCAD.svg  style="width   *64px;"> OpenSCAD Workbench/de
 
 ## Einführung
 
-Der <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) soll Interoperabilität mit der Open Source Software [OpenSCAD](http://www.openscad.org/) bieten. Dieses Programm wird nicht als Bestandteil von FreeCAD verteilt, sollte aber installiert werden, um diesen Arbeitsbereich voll nutzen zu können. OpenSCAD sollte nicht mit [OpenCASCADE](OpenCASCADE/de.md) verwechselt werden, welches der geometrische Kernel ist, den FreeCAD zur Erstellung von Geometrie auf dem Bildschirm verwendet. Die OpenCASCADE Bibliotheken werden immer benötigt, um FreeCAD zu verwenden, während die ausführbare OpenSCAD Datei vollkommen optional ist.
+Der <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *24px;"> [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) soll Interoperabilität mit der Open Source Software [OpenSCAD](http   *//www.openscad.org/) bieten. Dieses Programm wird nicht als Bestandteil von FreeCAD verteilt, sollte aber installiert werden, um diesen Arbeitsbereich voll nutzen zu können. OpenSCAD sollte nicht mit [OpenCASCADE](OpenCASCADE/de.md) verwechselt werden, welches der geometrische Kernel ist, den FreeCAD zur Erstellung von Geometrie auf dem Bildschirm verwendet. Die OpenCASCADE Bibliotheken werden immer benötigt, um FreeCAD zu verwenden, während die ausführbare OpenSCAD Datei vollkommen optional ist.
 
 Sie enthält einen [CSG](OpenSCAD_CSG/de.md) Importeur zum Öffnen der CSG Dateien aus OpenSCAD und einen Exporteur zur Ausgabe eines CSG basierten Baums. Geometrie, die nicht auf CSG Operationen basiert, wird als Netz exportiert.
 
@@ -17,7 +17,7 @@ Dieser Arbeitsbereich enthält Funktionen, um den CSG Funktionssbaum zu ändern 
 
 In FreeCAD 0.19 wurde das Ply (Python-Lex-Yacc) Modul, das zum Importieren von CSG Dateien verwendet wird, aus dem FreeCAD Quellcode entfernt, da es sich um eine nicht von FreeCAD entwickelte Drittanbieter Bibliothek handelt. Folglich musst du nun Ply installieren, bevor du den OpenSCAD Arbeitsbereich verwenden kannst. Wenn du eine vorkompilierte, stabile Version von FreeCAD verwendest, sollte diese Abhängigkeit auf allen Plattformen automatisch installiert werden; in anderen Fällen, z.B. wenn du [Kompilieren](Compiling/de.md) aus dem Quellcode verwendest, musst du es möglicherweise aus einem Online Repositorium installieren.
 
-In openSUSE wird vorgenommen dies durch:
+In openSUSE wird vorgenommen dies durch   *
 
 
 ```python
@@ -44,25 +44,25 @@ Die OpenSCAD Sprache erlaubt die Benutzung von Variablen und Schleifen. Sie erla
 
 ## Werkzeuge
 
--   <img alt="" src=images/OpenSCAD_ColorCodeShape.svg  style="width:32px;"> [Farbcodeform](OpenSCAD_ColorCodeShape/de.md): Ändert die Farbe von ausgewählten oder allen Formen basierend auf ihrer Gültigkeit
--   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width:32px;"> [Objekt ersetzen](OpenSCAD_ReplaceObject/de.md): Ersetzt ein Objekt in der Baumstruktur. Bitte wähle altes, neues und Elternobjekt
--   <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width:32px;"> [Unterbaum entfernen](OpenSCAD_RemoveSubtree/de.md): Entfernt die ausgewählten Objekts und alle Kinder, die nicht von anderen Objekten referenziert werden.
--   <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:32px;"> [Formmerkmale verfeinern](OpenSCAD_RefineShapeFeature/de.md): Verfeinert Formmerkmale.
--   <img alt="" src=images/OpenSCAD_MirrorMeshFeature.svg  style="width:32px;"> [Spiegeln Netz Merkmale](OpenSCAD_MirrorMeshFeature/de.md): Erstelle Spiegel Netz Merkmal.
--   <img alt="" src=images/OpenSCAD_ScaleMeshFeature.svg  style="width:32px;"> [Skaliere Netz Merkmal](OpenSCAD_ScaleMeshFeature/de.md): Skalieren eines Netzmerkmals.
--   <img alt="" src=images/OpenSCAD_ResizeMeshFeature.svg  style="width:32px;"> [Größe des Netzmerkmals ändern](OpenSCAD_ResizeMeshFeature/de.md): Ändern der Größe eines Netzmerkmals.
--   <img alt="" src=images/OpenSCAD_IncreaseToleranceFeature.svg  style="width:32px;"> [Toleranzmerkmal erhöhen](OpenSCAD_IncreaseToleranceFeature/de.md): Erhöht die Toleranz von Kanten/Flächen/Knoten von ausgewählten Objekten.
--   <img alt="" src=images/OpenSCAD_Edgestofaces.svg  style="width:32px;"> [Kanten in Flächen umwandeln](OpenSCAD_Edgestofaces/de.md): Wandelt Kanten in Flächen um. Nützlich zur Vorbereitung von importierter DXF Geometrie zur Extrusion.
--   <img alt="" src=images/OpenSCAD_ExpandPlacements.svg  style="width:32px;"> [Positionierungen erweitern](OpenSCAD_ExpandPlacements/de.md): Erweitert alle Platzierungen im Feature-Baum abwärts.
--   <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width:32px;"> [Explodiere Gruppe](OpenSCAD_ExplodeGroup/de.md): Löst eine Bindung oder einen Teilverbund in die einzelnen Teile auf.
--   <img alt="" src=images/OpenSCAD_AddOpenSCADElement.svg  style="width:32px;"> [Hinzufügen OpenSCAD Element](OpenSCAD_AddOpenSCADElement/de.md): Fügt durch Eingabe von OpenSCAD-Code in das Aufgabenpaneel ein OpenSCAD Element hinzu.
--   <img alt="" src=images/OpenSCAD_MeshBoolean.svg  style="width:32px;"> [Polygonnetz Boolean](OpenSCAD_MeshBoolean/de.md): Erzeugt ein neues Netzobjekt durch eine boolesche Operation aus Formen.
--   <img alt="" src=images/OpenSCAD_Hull.svg  style="width:32px;"> [Hülle](OpenSCAD_Hull/de.md): Wendet eine Hülle auf selektierte Formen an.
--   <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width:32px;"> [Minkowski](OpenSCAD_Minkowski/de.md): Wendet eine Minkowski-Summe auf selektierte Formen an.
+-   <img alt="" src=images/OpenSCAD_ColorCodeShape.svg  style="width   *32px;"> [Farbcodeform](OpenSCAD_ColorCodeShape/de.md)   * Ändert die Farbe von ausgewählten oder allen Formen basierend auf ihrer Gültigkeit
+-   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width   *32px;"> [Objekt ersetzen](OpenSCAD_ReplaceObject/de.md)   * Ersetzt ein Objekt in der Baumstruktur. Bitte wähle altes, neues und Elternobjekt
+-   <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width   *32px;"> [Unterbaum entfernen](OpenSCAD_RemoveSubtree/de.md)   * Entfernt die ausgewählten Objekts und alle Kinder, die nicht von anderen Objekten referenziert werden.
+-   <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width   *32px;"> [Formmerkmale verfeinern](OpenSCAD_RefineShapeFeature/de.md)   * Verfeinert Formmerkmale.
+-   <img alt="" src=images/OpenSCAD_MirrorMeshFeature.svg  style="width   *32px;"> [Spiegeln Netz Merkmale](OpenSCAD_MirrorMeshFeature/de.md)   * Erstelle Spiegel Netz Merkmal.
+-   <img alt="" src=images/OpenSCAD_ScaleMeshFeature.svg  style="width   *32px;"> [Skaliere Netz Merkmal](OpenSCAD_ScaleMeshFeature/de.md)   * Skalieren eines Netzmerkmals.
+-   <img alt="" src=images/OpenSCAD_ResizeMeshFeature.svg  style="width   *32px;"> [Größe des Netzmerkmals ändern](OpenSCAD_ResizeMeshFeature/de.md)   * Ändern der Größe eines Netzmerkmals.
+-   <img alt="" src=images/OpenSCAD_IncreaseToleranceFeature.svg  style="width   *32px;"> [Toleranzmerkmal erhöhen](OpenSCAD_IncreaseToleranceFeature/de.md)   * Erhöht die Toleranz von Kanten/Flächen/Knoten von ausgewählten Objekten.
+-   <img alt="" src=images/OpenSCAD_Edgestofaces.svg  style="width   *32px;"> [Kanten in Flächen umwandeln](OpenSCAD_Edgestofaces/de.md)   * Wandelt Kanten in Flächen um. Nützlich zur Vorbereitung von importierter DXF Geometrie zur Extrusion.
+-   <img alt="" src=images/OpenSCAD_ExpandPlacements.svg  style="width   *32px;"> [Positionierungen erweitern](OpenSCAD_ExpandPlacements/de.md)   * Erweitert alle Platzierungen im Feature-Baum abwärts.
+-   <img alt="" src=images/OpenSCAD_ExplodeGroup.svg  style="width   *32px;"> [Explodiere Gruppe](OpenSCAD_ExplodeGroup/de.md)   * Löst eine Bindung oder einen Teilverbund in die einzelnen Teile auf.
+-   <img alt="" src=images/OpenSCAD_AddOpenSCADElement.svg  style="width   *32px;"> [Hinzufügen OpenSCAD Element](OpenSCAD_AddOpenSCADElement/de.md)   * Fügt durch Eingabe von OpenSCAD-Code in das Aufgabenpaneel ein OpenSCAD Element hinzu.
+-   <img alt="" src=images/OpenSCAD_MeshBoolean.svg  style="width   *32px;"> [Polygonnetz Boolean](OpenSCAD_MeshBoolean/de.md)   * Erzeugt ein neues Netzobjekt durch eine boolesche Operation aus Formen.
+-   <img alt="" src=images/OpenSCAD_Hull.svg  style="width   *32px;"> [Hülle](OpenSCAD_Hull/de.md)   * Wendet eine Hülle auf selektierte Formen an.
+-   <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width   *32px;"> [Minkowski](OpenSCAD_Minkowski/de.md)   * Wendet eine Minkowski-Summe auf selektierte Formen an.
 
 ## Einstellungen
 
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Einstellungen](OpenSCAD_Preferences/de.md): verfügbare Einstellungen für die OpenSCAD Werkzeuge.
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width   *32px;"> [Einstellungen](OpenSCAD_Preferences/de.md)   * verfügbare Einstellungen für die OpenSCAD Werkzeuge.
 
 ## Limitations
 
@@ -90,7 +90,7 @@ Importing OpenSCAD code with texts requires that the fonts that are used are pro
 
 Importing texts is relatively slow. Behind the scenes FreeCAD uses a DXF file created by OpenSCAD. The more contours there are the slower the import.
 
-It can be a good idea to first import a simple test case (replace {{Incode|NameOfFont}} with the correct font name):
+It can be a good idea to first import a simple test case (replace {{Incode|NameOfFont}} with the correct font name)   *
 
     TESTFONT="NameOfFont";
     linear_extrude(0.001) {
@@ -116,9 +116,9 @@ Wenn FreeCAD beim Import von CSG abstürzt, wird dringend empfohlen, \"Modell au
 
 <div class="mw-translate-fuzzy">
 
--   OpenSCAD Quellcode Repositorium auf [GitHub](https://github.com/openscad/openscad)
--   [Offene Tickets gekennzeichnet \"Openscad\" auf dem FreeCAD Fehlerverfolger](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
--   [Dinge, die mit \"Openscad\" auf Thingiverse gekennzeichnet sind](http://www.thingiverse.com/tag:openscad)
+-   OpenSCAD Quellcode Repositorium auf [GitHub](https   *//github.com/openscad/openscad)
+-   [Offene Tickets gekennzeichnet \"Openscad\" auf dem FreeCAD Fehlerverfolger](https   *//freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
+-   [Dinge, die mit \"Openscad\" auf Thingiverse gekennzeichnet sind](http   *//www.thingiverse.com/tag   *openscad)
 
 
 </div>
@@ -129,7 +129,9 @@ Wenn FreeCAD beim Import von CSG abstürzt, wird dringend empfohlen, \"Modell au
 
 {{OpenSCAD Tools navi
 
-}}
+}} 
+
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 

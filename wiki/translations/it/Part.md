@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-In FreeCAD il termine \"[Parte](Part/it.md)\" è in genere usato per riferirsi ad una [Parte](Std_Part/it.md) (classe `App::Part`), un tipo di oggetto contenitore che è definito dal sistema base. Questa Parte è usata per gestire la posizione di forme tridimensionali allo scopo di creare assemblaggi meccanici.
+In FreeCAD il termine \"[Parte](Part/it.md)\" è in genere usato per riferirsi ad una [Parte](Std_Part/it.md) (classe `App   *   *Part`), un tipo di oggetto contenitore che è definito dal sistema base. Questa Parte è usata per gestire la posizione di forme tridimensionali allo scopo di creare assemblaggi meccanici.
 
 
 </div>
@@ -24,7 +24,7 @@ Si veda [Parte](Std_Part/it.md) per maggiori informazioni riguardo questo tipo d
 
 Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si ritrova nella **barra degli strumenti struttura**, che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md).
 
-1.  Premere il pulsante **[<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)**. Una Parte vuota viene creata e diventa automaticamente *[attiva](Std_Part/it#Stato_attivo.md)*.
+1.  Premere il pulsante **[<img src=images/Std_Part.svg style="width   *16px"> [Parte](Std_Part/it.md)**. Una Parte vuota viene creata e diventa automaticamente *[attiva](Std_Part/it#Stato_attivo.md)*.
 
 ## Note
 
@@ -47,7 +47,9 @@ Tuttavia, quando è richiesta maggiore precisione, vanno fatte le dovute distinz
 
 {{Std Base navi
 
-}} {{Document objects navi}}
+}} {{Document objects navi}} 
+
+[Category   *Glossary](Category_Glossary.md)
 
 
 

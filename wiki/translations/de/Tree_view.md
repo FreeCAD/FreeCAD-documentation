@@ -19,9 +19,9 @@ Immer wenn ein neues Objekt erstellt wird, wird es standardmäßig am Ende der L
 
 Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhängig sind. In diesem Fall zeigt die Baumansicht diese Beziehung, indem sie das ältere Objekt innerhalb des neuen Objekts aufnimmt. Das Auf- und Zuklappen der Objekte in der Baumansicht zeigt die parametrische Historie dieses Objekts. Objekte, die tiefer in anderen sind, sind älter, während Objekte, die sich außerhalb befinden, neuer sind und von den älteren Objekten abgeleitet werden. Durch die Modifikation der inneren Objekte breiten sich die parametrischen Operationen bis nach oben aus und erzeugen ein neues Ergebnis.
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
+<img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width   *" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width   *" height="304px;">
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+<img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width   *" height="304px;">
 
 
 
@@ -31,9 +31,9 @@ Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhä
 
 Da die Baumansicht Objekte auflistet, die in der [3D-Ansicht](3D_view/de.md) sichtbar sein können, sind viele der Aktionen identisch mit denen, die aus der [3D-Ansicht](3D_view/de.md) ausgeführt werden können.
 
-Wenn die Anwendung startet, der Standardarbeitsbereich [Start](Start_Workbench/de.md) aktiv ist, und kein Dokument erstellt wurde, zeigt ein Rechtsklick auf die [Baumansicht](Tree_view/de.md) ein Untermenü mit vier Befehlen:
+Wenn die Anwendung startet, der Standardarbeitsbereich [Start](Start_Workbench/de.md) aktiv ist, und kein Dokument erstellt wurde, zeigt ein Rechtsklick auf die [Baumansicht](Tree_view/de.md) ein Untermenü mit vier Befehlen   *
 
--    **Expression Aktionen**:
+-    **Expression Aktionen**   *
 
     -   [Ausgewähltes kopieren](Std_Expressions/de.md),
     -   [Aktives Dokument kopieren](Std_Expressions/de.md),
@@ -42,42 +42,42 @@ Wenn die Anwendung startet, der Standardarbeitsbereich [Start](Start_Workbench/d
 
 Diese ermöglichen das Arbeiten mit verschiedenen Dokumenten, sind aber deaktiviert, wenn kein Dokument vorhanden ist.
 
-Sobald ein neues Dokument erstellt wurde, wird folgendes aktiv:
+Sobald ein neues Dokument erstellt wurde, wird folgendes aktiv   *
 
--    **Expression Aktionen**:
+-    **Expression Aktionen**   *
 
     -   [Aktives Dokument kopieren](Std_Expressions/de.md),
     -   [Alle Dokumente kopieren](Std_Expressions/de.md).
 
 Zusätzlich sind [Verweis](Std_LinkMake/de.md) Aktionen verfügbar.
 
--    **Verknüpfungsvorgänge**: [Verweis herstellen](Std_LinkMake/de.md).
+-    **Verknüpfungsvorgänge**   * [Verweis herstellen](Std_LinkMake/de.md).
 
     -   
         **Verweisgruppe herstellen**
         
-        : [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Gruppe mit Verweisen](Std_LinkMakeGroup/de.md), [Gruppe mit Umwandlungsverweisen](Std_LinkMakeGroup/de.md).
+           * [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Gruppe mit Verweisen](Std_LinkMakeGroup/de.md), [Gruppe mit Umwandlungsverweisen](Std_LinkMakeGroup/de.md).
 
 ### Auswählen des Dokuments 
 
-Wenn man das aktive Dokument auswählt und mit der rechten Maustaste klickt, erscheinen zusätzlich zu {{MenuCommand/de|Expression actions}} und {{MenuCommand/de|Link actions}} die folgenden Befehle:
+Wenn man das aktive Dokument auswählt und mit der rechten Maustaste klickt, erscheinen zusätzlich zu {{MenuCommand/de|Expression actions}} und {{MenuCommand/de|Link actions}} die folgenden Befehle   *
 
--    {{MenuCommand/de|Versteckte Elemente anzeigen}}: wenn aktiv, zeigt die Baumansicht versteckte Elemente an.
+-    {{MenuCommand/de|Versteckte Elemente anzeigen}}   * wenn aktiv, zeigt die Baumansicht versteckte Elemente an.
 
--    {{MenuCommand/de|Search}}: zeigt ein Eingabefeld für die Suche nach Objekten innerhalb des ausgewählten Dokuments.
+-    {{MenuCommand/de|Search}}   * zeigt ein Eingabefeld für die Suche nach Objekten innerhalb des ausgewählten Dokuments.
 
--    {{MenuCommand/de|Close document}}: schließt das ausgewählte Dokument.
+-    {{MenuCommand/de|Close document}}   * schließt das ausgewählte Dokument.
 
--    {{MenuCommand/de|Skip recomputes}}: wenn aktiv, werden die Objekte des Dokuments nicht automatisch [Neuberechnet](Std_Refresh/de.md).
+-    {{MenuCommand/de|Skip recomputes}}   * wenn aktiv, werden die Objekte des Dokuments nicht automatisch [Neuberechnet](Std_Refresh/de.md).
 
     -   
         {{MenuCommand/de|Allow partial recomputes}}
         
-        : wenn aktiv, erlaubt das Dokument [Neuberechnen](Std_Refresh/de.md) nur für einige Objekte.
+           * wenn aktiv, erlaubt das Dokument [Neuberechnen](Std_Refresh/de.md) nur für einige Objekte.
 
--    {{MenuCommand/de|Markieren zum Neuberechnen}}: markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](Std_Refresh/de.md).
+-    {{MenuCommand/de|Markieren zum Neuberechnen}}   * markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](Std_Refresh/de.md).
 
--    {{MenuCommand/de|[Create group](Std_Group/de.md)}}: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument.
+-    {{MenuCommand/de|[Create group](Std_Group/de.md)}}   * Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument.
 
 ### Objekte auswählen 
 
@@ -92,51 +92,51 @@ Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf einen
 
 <div class="mw-translate-fuzzy">
 
-Wenn ein Objekt ausgewählt wird, z.B. eine [ Entwurfslinie](Draft_Line/de.md), und ein Rechtsklick auf das gleiche Objekt ausgeführt wird, können zusätzliche Befehle verfügbar sein:
+Wenn ein Objekt ausgewählt wird, z.B. eine [ Entwurfslinie](Draft_Line/de.md), und ein Rechtsklick auf das gleiche Objekt ausgeführt wird, können zusätzliche Befehle verfügbar sein   *
 
--    **Transformation**: startet das Transformations Widget, um das Objekt zu verschieben oder zu drehen.
+-    **Transformation**   * startet das Transformations Widget, um das Objekt zu verschieben oder zu drehen.
 
--    **Set colors**: setzt die Farben des Objekts.
+-    **Set colors**   * setzt die Farben des Objekts.
 
--    **Draht Abflachen**: **(Draft)** Spezifischer Befehl für eine [Entwurfslinie](Draft_Line/de.md).
+-    **Draht Abflachen**   * **(Draft)** Spezifischer Befehl für eine [Entwurfslinie](Draft_Line/de.md).
 
--    **Eintrag ausblenden**: Wenn aktiv, wird das ausgewählte Objekt als ausgeblendet gesetzt.
+-    **Eintrag ausblenden**   * Wenn aktiv, wird das ausgewählte Objekt als ausgeblendet gesetzt.
 
--    {{MenuCommand/de|Markieren zum Neuberechnen}}: markiert das ausgewählte Objekt als berührt und bereit für [Neuberechnung](Std_Refresh/de.md).
+-    {{MenuCommand/de|Markieren zum Neuberechnen}}   * markiert das ausgewählte Objekt als berührt und bereit für [Neuberechnung](Std_Refresh/de.md).
 
--    **Neuberechnung**: Berechnet das ausgewählte Objekt neu.
+-    **Neuberechnung**   * Berechnet das ausgewählte Objekt neu.
 
--    **Umbenennen**:beginnt mit der Bearbeitung des Namens des ausgewählten Objekts. Dies ermöglicht es, das Attribut `Label` zu ändern, nicht aber das Attribut `Name`, da letzteres schreibgeschützt ist.
+-    **Umbenennen**   *beginnt mit der Bearbeitung des Namens des ausgewählten Objekts. Dies ermöglicht es, das Attribut `Label` zu ändern, nicht aber das Attribut `Name`, da letzteres schreibgeschützt ist.
 
 
 </div>
 
 ### Keyboard actions 
 
-The following keyboard actions are available when the focus is on the Tree view:
+The following keyboard actions are available when the focus is on the Tree view   *
 
--    **Ctrl**\+**F**: opens a search box at the bottom of the tree, allowing to search and reach objects using their names or labels.
+-    **Ctrl**\+**F**   * opens a search box at the bottom of the tree, allowing to search and reach objects using their names or labels.
 
--   Expand and collapse actions using **Alt**+**Arrow** combinations: <small>(v0.20)</small> 
+-   Expand and collapse actions using **Alt**+**Arrow** combinations   * <small>(v0.20)</small> 
     -   
         **Alt**
         
-        \+**Left**: collapses selected item(s).
-
-    -   
-        **Alt**
-        
-        \+**Right**: expands selected item(s).
+        \+**Left**   * collapses selected item(s).
 
     -   
         **Alt**
         
-        \+**Up**: expands selected item(s) with all their tier-1 children collapsed (deeper children remain unchanged).
+        \+**Right**   * expands selected item(s).
 
     -   
         **Alt**
         
-        \+**Down**: expands selected item(s) with all their tier-1 children expanded as well (deeper children remain unchanged).
+        \+**Up**   * expands selected item(s) with all their tier-1 children collapsed (deeper children remain unchanged).
+
+    -   
+        **Alt**
+        
+        \+**Down**   * expands selected item(s) with all their tier-1 children expanded as well (deeper children remain unchanged).
 
 ## Überlagerungssymbole
 
@@ -162,7 +162,7 @@ Dies wird nur für [Skizzen](Sketch/de.md) verwendet und zeigt an, dass die Skiz
 
 ### ![](images/FreeCAD_Tree_view_error.png ) Weißes Ausrufezeichen auf rotem Hintergrund 
 
-Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach der Neuberechnung des gesamten Dokuments wird eine Werkzeugspitze angezeigt, der den Fehler beschreibt, wenn Sie mit der Maus über das Objekt in der Strukturansicht fahren. Hinweis: Alle anderen Objekte, die von einem Objekt in einem solchen Fehlerzustand abhängen, werden nicht korrekt neu berechnet, so dass sie möglicherweise noch einen alten Zustand aufweisen.
+Dies zeigt an, dass das Objekt einen Fehler hat, der behoben werden muss. Nach der Neuberechnung des gesamten Dokuments wird eine Werkzeugspitze angezeigt, der den Fehler beschreibt, wenn Sie mit der Maus über das Objekt in der Strukturansicht fahren. Hinweis   * Alle anderen Objekte, die von einem Objekt in einem solchen Fehlerzustand abhängen, werden nicht korrekt neu berechnet, so dass sie möglicherweise noch einen alten Zustand aufweisen.
 
 
 {{Interface navi

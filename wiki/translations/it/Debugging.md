@@ -16,12 +16,12 @@ Prima di provare il debug usare la [La struttura di Test](Testing/it.md) (test f
 
 ## Riga di comando 
 
-Il debug di FreeCAD è supportato da alcuni meccanismi interni. La versione a riga di comando di FreeCAD fornisce delle opzioni di supporto del debug:
+Il debug di FreeCAD è supportato da alcuni meccanismi interni. La versione a riga di comando di FreeCAD fornisce delle opzioni di supporto del debug   *
 
 
 <div class="mw-translate-fuzzy">
 
-Queste sono le opzioni attualmente riconosciute in FreeCAD 0.15:
+Queste sono le opzioni attualmente riconosciute in FreeCAD 0.15   *
 
 
 </div>
@@ -29,7 +29,7 @@ Queste sono le opzioni attualmente riconosciute in FreeCAD 0.15:
 
 <div class="mw-translate-fuzzy">
 
-Opzioni generiche:
+Opzioni generiche   *
 
  -v [ --version ]      Stampa una stringa della versione
  -h [ --help ]         Stampa un messaggio di aiuto
@@ -42,9 +42,9 @@ Opzioni generiche:
 
 <div class="mw-translate-fuzzy">
 
-Configurazione:
+Configurazione   *
 
- -l [ --write-log ]       Scrive un file di log file in: $HOME/.FreeCAD/FreeCAD.log
+ -l [ --write-log ]       Scrive un file di log file in   * $HOME/.FreeCAD/FreeCAD.log
  --log-file arg           A differenza di --write-log permette di scrivere il file di log in un file arbitrario
  -u [ --user-cfg ] arg    File per caricare/salvare le impostazioni dell'utente
  -s [ --system-cfg ] arg  File per caricare/salvare le impostazioni di sistema
@@ -62,14 +62,14 @@ Se si esegue una versione sperimentale di FreeCAD ancora in fase sviluppo, essa 
 ### Per Linux 
 
 
-<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
+<div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
 
 Linux Debugging →
 
 
 <div class="mw-collapsible-content">
 
-Prerequisiti:
+Prerequisiti   *
 
 
 <div class="mw-translate-fuzzy">
@@ -81,22 +81,22 @@ Prerequisiti:
 
 </div>
 
-Passaggi:
+Passaggi   *
 
-Immettere quanto segue nella finestra del terminale:
+Immettere quanto segue nella finestra del terminale   *
 
-Find FreeCAD binary on your system:
+Find FreeCAD binary on your system   *
 
 
 ```python
 $ whereis freecad
-freecad: /usr/local/freecad <--- for example
+freecad   * /usr/local/freecad <--- for example
 
 $ cd /usr/local/freecad/bin
 $ gdb FreeCAD
 ```
 
-LLDB produrrà alcune informazioni di inizializzazione. Il (lldb) mostra che il debugger è in esecuzione nel terminale, ora inserisci::
+LLDB produrrà alcune informazioni di inizializzazione. Il (lldb) mostra che il debugger è in esecuzione nel terminale, ora inserisci   *   *
 
 
 ```python
@@ -135,7 +135,7 @@ Stampa anche i valori delle variabili locali. Questo può essere combinato con u
 </div>
 
 
-<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
+<div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -148,15 +148,15 @@ MacOSX Debugging →
 
 <div class="mw-collapsible-content">
 
-Prerequisiti:
+Prerequisiti   *
 
 -   pacchetto software lldb installato
 -   un debug build di FreeCAD
 -   un modello di FreeCAD che causa un crash
 
-Passaggi:
+Passaggi   *
 
-Immettere quanto segue nella finestra del terminale:
+Immettere quanto segue nella finestra del terminale   *
 
 
 ```python
@@ -164,7 +164,7 @@ $ cd FreeCAD/bin
 $ lldb FreeCAD
 ```
 
-LLDB produrrà alcune informazioni di inizializzazione. Il (lldb) mostra che il debugger è in esecuzione nel terminale, ora inserisci:
+LLDB produrrà alcune informazioni di inizializzazione. Il (lldb) mostra che il debugger è in esecuzione nel terminale, ora inserisci   *
 
 
 ```python
@@ -190,17 +190,17 @@ Questo genera una lunga lista che descrive esattamente ciò che il programma sta
 
 (Applicable to Linux and macOS)
 
-Sometimes it\'s helpful to understand what libraries FreeCAD is loading, specifically if there are multiple libraries being loaded of the same name but different versions (version collision). In order to see which libraries are loaded by FreeCAD when it crashes you should open a terminal and run it in the debugger. In a second terminal window, find out the process id of FreeCAD:
+Sometimes it\'s helpful to understand what libraries FreeCAD is loading, specifically if there are multiple libraries being loaded of the same name but different versions (version collision). In order to see which libraries are loaded by FreeCAD when it crashes you should open a terminal and run it in the debugger. In a second terminal window, find out the process id of FreeCAD   *
 
 
 `ps -A &#124; grep FreeCAD`
 
-Use the returned id and pass it to `lsof`:
+Use the returned id and pass it to `lsof`   *
 
 
 ` lsof -p process_id`
 
-This prints a long list of loaded resources. So for example, if trying to ascertain if more than one Coin3d library versions is loaded, scroll through the list or search directly for Coin in the output:
+This prints a long list of loaded resources. So for example, if trying to ascertain if more than one Coin3d library versions is loaded, scroll through the list or search directly for Coin in the output   *
 
 
 `lsof -p process_id &#124; grep Coin`
@@ -209,26 +209,26 @@ This prints a long list of loaded resources. So for example, if trying to ascert
 
 Per un approccio più moderno al debug di Python, almeno su Windows, vedere questo
 
--   \[<https://forum.freecadweb.org/viewtopic.php?f=22&t=28901&hilit=2017>\| post nel Forum\].
--   [Python workbenches debugging](https://forum.freecadweb.org/viewtopic.php?f=10&t=35383)
--   [python3.dll, Qt5Windgets.dll, Qt5Gui.dll and Qt5Core.dll not found](https://forum.freecadweb.org/viewtopic.php?f=4&t=40251)
+-   \[<https   *//forum.freecadweb.org/viewtopic.php?f=22&t=28901&hilit=2017>\| post nel Forum\].
+-   [Python workbenches debugging](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=35383)
+-   [python3.dll, Qt5Windgets.dll, Qt5Gui.dll and Qt5Core.dll not found](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=40251)
 
 ### winpdb
 
 
-<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
+<div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
 
 winpdb Debugging →
 
 
 <div class="mw-collapsible-content">
 
-Ecco un esempio dell\'uso di \"Winpdb\" all\'interno di FreeCAD:
+Ecco un esempio dell\'uso di \"Winpdb\" all\'interno di FreeCAD   *
 
 
 <div class="mw-translate-fuzzy">
 
-Abbiamo bisogno del debugger di Python: \"Winpdb\". Se non lo hai installato, su Ubuntu/Debian installalo con:
+Abbiamo bisogno del debugger di Python   * \"Winpdb\". Se non lo hai installato, su Ubuntu/Debian installalo con   *
 
 
 </div>
@@ -241,7 +241,7 @@ sudo apt-get install winpdb
 Ora consente di impostare il debugger.
 
 1.  Start *Winpdb*.
-2.  Imposta la password del debugger su \"test\": vai al menu \"File\" → \"Password\" e imposta la password.
+2.  Imposta la password del debugger su \"test\"   * vai al menu \"File\" → \"Password\" e imposta la password.
 
 
 <div class="mw-translate-fuzzy">
@@ -285,14 +285,14 @@ Draft.makeWire(points,closed=False,face=False,support=None)
 ### Visual Studio Code (VS Code) 
 
 
-<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
+<div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
 
 VS Code Debugging →
 
 
 <div class="mw-collapsible-content">
 
-Prerequisiti:
+Prerequisiti   *
 
 
 <div class="mw-translate-fuzzy">
@@ -304,18 +304,18 @@ Prerequisiti:
 
 
 ```python
-# In a cmd window that has a path to you local Python 3:
+# In a cmd window that has a path to you local Python 3   *
 pip install ptvsd
-# Then if your Python is installed in C:\Users\<userid>\AppData\Local\Programs\Python\Python37
-# and your FreeCAD is installed in C:\freecad\bin
-xcopy "C:\Users\<userid>\AppData\Local\Programs\Python\Python37\Lib\site-packages\ptvsd" "C:\freecad\bin\Lib\site-packages\ptvsd"
+# Then if your Python is installed in C   *Users\<userid>\AppData\Local\Programs\Python\Python37
+# and your FreeCAD is installed in C   *freecad\bin
+xcopy "C   *Users\<userid>\AppData\Local\Programs\Python\Python37\Lib\site-packages\ptvsd" "C   *freecad\bin\Lib\site-packages\ptvsd"
 ```
 
-[pypi page](https://pypi.org/project/ptvsd/)
+[pypi page](https   *//pypi.org/project/ptvsd/)
 
-[Documentazione di Visual Studio Code per il debug remoto](https://code.visualstudio.com/docs/python/debugging#_remote-debugging)
+[Documentazione di Visual Studio Code per il debug remoto](https   *//code.visualstudio.com/docs/python/debugging#_remote-debugging)
 
-Passi:
+Passi   *
 
 -   Aggiungi il seguente codice all\'inizio del tuo script
 
@@ -331,22 +331,22 @@ ptvsd.wait_for_attach()
 
 <div class="mw-translate-fuzzy">
 
--   Aggiungi una configurazione di debug nel codice di Visual Studio **Debug → Aggiungi configurazioni ...**. Dovrebbe apparire così:
+-   Aggiungi una configurazione di debug nel codice di Visual Studio **Debug → Aggiungi configurazioni ...**. Dovrebbe apparire così   *
 
 
 </div>
 
-        "configurations": [
+        "configurations"   * [
             {
-                "name": "Python: Attacher",
-                "type": "python",
-                "request": "attach",
-                "port": 5678,
-                "host": "localhost",
-                "pathMappings": [
+                "name"   * "Python   * Attacher",
+                "type"   * "python",
+                "request"   * "attach",
+                "port"   * 5678,
+                "host"   * "localhost",
+                "pathMappings"   * [
                     {
-                        "localRoot": "${workspaceFolder}",
-                        "remoteRoot": "."
+                        "localRoot"   * "${workspaceFolder}",
+                        "remoteRoot"   * "."
                     }
                 ]
             },
@@ -392,7 +392,7 @@ into FreeCAD\'s Python console.
 ### With LiClipse and AppImage 
 
 
-<div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">
+<div class="toccolours mw-collapsible mw-collapsed" style="width   *800px;">
 
 LiClipse Debugging →
 
@@ -418,7 +418,7 @@ squashfs-root> ./usr/bin/freecadcmd
 
 -   Should start up a FreeCAD commandline session.
 
--   Install [LiClipse](https://www.liclipse.com/).
+-   Install [LiClipse](https   *//www.liclipse.com/).
     -   Comes ready with pydev and has installers for all platforms.
     -   For linux it is just to extract (to any location) and run.
 
@@ -431,16 +431,16 @@ squashfs-root> ./usr/bin/freecadcmd
         -   Checking \"Debug\" brings the debugging navigation tools to the toolbar.
     -   Open preferences through menu window/preferences.
         -   In PyDev/Interpreters add \"new Interpreter by browsing\".
-        -   The added interpreter should be: `your loc/squashfs-root/usr/bin/python`.
+        -   The added interpreter should be   * `your loc/squashfs-root/usr/bin/python`.
         -   If you are only using this for fc, you can add AddOn workbench folders as well, or do that in a pydev-project later on.
 
 -   Find path to `pydevd.py` in your liclipse installation.
-    -   Something along the lines of: `your location/liclipse/plugins/org.python.pydev.xx/pysrc`.
+    -   Something along the lines of   * `your location/liclipse/plugins/org.python.pydev.xx/pysrc`.
 -   Create a regular pydev-project in liclipse.
     -   Import external sources, for example a macro that you want to debug, or an external workbench.
-    -   In that macro (or workbench .py file) add the code lines:
+    -   In that macro (or workbench .py file) add the code lines   *
 
-:   
+   *   
     
 ```python
     import sys; sys.path.append("path ending with /pysrc")
@@ -449,7 +449,7 @@ squashfs-root> ./usr/bin/freecadcmd
 ```
     
 
-:\* This is where the execution will halt when the macro is run.
+   ** This is where the execution will halt when the macro is run.
 
 -   Start the liclipse debug server (menu pydev).
 
@@ -474,7 +474,7 @@ squashfs-root> ./usr/bin/freecad
 
 ## Debugging OpenCasCade 
 
-For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdullah has created a [thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=47017) orientation discussing how to do so.
+For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdullah has created a [thread](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=47017) orientation discussing how to do so.
 
 
 <div class="mw-translate-fuzzy">
@@ -484,6 +484,11 @@ For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdull
 
 
 </div>
+
+
+ 
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md)
 
 
 

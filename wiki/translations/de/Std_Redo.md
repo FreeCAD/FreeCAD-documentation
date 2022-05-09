@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std Redo
-   Name/de:Std Wiederherstellen
-   MenuLocation:Bearbeiten → Wiederherstellen‎
-   Workbenches:Alle
-   Shortcut:**Strg**+**Y**
-   SeeAlso:[Rückgängig](Std_Undo/de.md)
+- GuiCommand   */de
+   Name   *Std Redo
+   Name/de   *Std Wiederherstellen
+   MenuLocation   *Bearbeiten → Wiederherstellen‎
+   Workbenches   *Alle
+   Shortcut   ***Strg**+**Y**
+   SeeAlso   *[Rückgängig](Std_Undo/de.md)
 ---
 
 # Std Redo/de
@@ -16,7 +16,7 @@ Der Befehl **Std Rückgängig** nimmt die Aktion des Befehls [Wiederherstellen](
 
 ## Anwendung
 
-1.  Es gibt mehrere Wege, um den Befehl aufzurufen:
+1.  Es gibt mehrere Wege, um den Befehl aufzurufen   *
     -   Drücke die **<img src="images/Std_Redo.svg" width=16px> [Std Wiederherstellen](Std_Redo/de.md)**-Schaltfläche.
     -   Wähle die **Bearbeiten → <img src="images/Std_Redo.svg" width=16px> Wiederherstellen**-Option aus dem Menü.
     -   Benutze das Tastaturkürzel **Strg**+**Y**.
@@ -33,7 +33,7 @@ Der Befehl **Std Rückgängig** nimmt die Aktion des Befehls [Wiederherstellen](
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 

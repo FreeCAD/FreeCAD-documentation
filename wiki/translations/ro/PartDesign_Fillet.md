@@ -1,6 +1,6 @@
 # PartDesign Fillet/ro
 ---
-- GuiCommand:   Name:PartDesign Fillet   Workbenches:[MenuLocation:PartDesign → Fillet   SeeAlso:[[Part Fillet|Part Fillet](PartDesign_Workbench___PartDesign]],_Complete.md)---
+- GuiCommand   *   Name   *PartDesign Fillet   Workbenches   *[MenuLocation   *PartDesign → Fillet   SeeAlso   *[[Part Fillet|Part Fillet](PartDesign_Workbench___PartDesign]],_Complete.md)---
 
 
 </div>
@@ -58,15 +58,15 @@ Acest instrument creează racordări/rotunjiri pe muchiile selectate al unui obi
 
 <div class="mw-translate-fuzzy">
 
-If run from the terminal, FreeCAD may output a log like this one after the crash: {{code|code=
-#1  0x7fff63d660ba in BRep_Tool::Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
-#2  0x7fff63d69546 in BRep_Tool::Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
-#3  0x7fff71f4fef5 in ChFi3d_Builder::PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
-#4  0x7fff71f58307 in ChFi3d_Builder::PerformOneCorner(int, bool) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x1097
-#5  0x7fff71ef6218 in ChFi3d_Builder::PerformFilletOnVertex(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x4e8
-#6  0x7fff71ef71d1 in ChFi3d_Builder::Compute() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0xe31
-#7  0x7fff720ad7c3 in BRepFilletAPI_MakeChamfer::Build() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x33
-#8  0x7fff723be48e in PartDesign::Chamfer::execute() from /usr/lib/freecad-daily/lib/_PartDesign.so+0x60e
+If run from the terminal, FreeCAD may output a log like this one after the crash   * {{code|code=
+#1  0x7fff63d660ba in BRep_Tool   *   *Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
+#2  0x7fff63d69546 in BRep_Tool   *   *Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
+#3  0x7fff71f4fef5 in ChFi3d_Builder   *   *PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
+#4  0x7fff71f58307 in ChFi3d_Builder   *   *PerformOneCorner(int, bool) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x1097
+#5  0x7fff71ef6218 in ChFi3d_Builder   *   *PerformFilletOnVertex(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x4e8
+#6  0x7fff71ef71d1 in ChFi3d_Builder   *   *Compute() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0xe31
+#7  0x7fff720ad7c3 in BRepFilletAPI_MakeChamfer   *   *Build() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x33
+#8  0x7fff723be48e in PartDesign   *   *Chamfer   *   *execute() from /usr/lib/freecad-daily/lib/_PartDesign.so+0x60e
 ...
 }}
 
@@ -75,14 +75,14 @@ If run from the terminal, FreeCAD may output a log like this one after the crash
 
 
 {{code|code=
-#1  0x7fff63d660ba in BRep_Tool::Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
-#2  0x7fff63d69546 in BRep_Tool::Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
-#3  0x7fff71f4fef5 in ChFi3d_Builder::PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
-#4  0x7fff71f58307 in ChFi3d_Builder::PerformOneCorner(int, bool) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x1097
-#5  0x7fff71ef6218 in ChFi3d_Builder::PerformFilletOnVertex(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x4e8
-#6  0x7fff71ef71d1 in ChFi3d_Builder::Compute() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0xe31
-#7  0x7fff720ad7c3 in BRepFilletAPI_MakeChamfer::Build() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x33
-#8  0x7fff723be48e in PartDesign::Chamfer::execute() from /usr/lib/freecad-daily/lib/_PartDesign.so+0x60e
+#1  0x7fff63d660ba in BRep_Tool   *   *Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
+#2  0x7fff63d69546 in BRep_Tool   *   *Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
+#3  0x7fff71f4fef5 in ChFi3d_Builder   *   *PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
+#4  0x7fff71f58307 in ChFi3d_Builder   *   *PerformOneCorner(int, bool) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x1097
+#5  0x7fff71ef6218 in ChFi3d_Builder   *   *PerformFilletOnVertex(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x4e8
+#6  0x7fff71ef71d1 in ChFi3d_Builder   *   *Compute() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0xe31
+#7  0x7fff720ad7c3 in BRepFilletAPI_MakeChamfer   *   *Build() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x33
+#8  0x7fff723be48e in PartDesign   *   *Chamfer   *   *execute() from /usr/lib/freecad-daily/lib/_PartDesign.so+0x60e
 ...
 }}
 
@@ -97,10 +97,10 @@ This output references functions located in `libTKBRep.so`, `libTKFillet.so`, et
 
 <div class="mw-translate-fuzzy">
 
-See the forum threads for more information:
+See the forum threads for more information   *
 
--   [Bug Chamfer bigger than 2mm crashes freecad](https://forum.freecadweb.org/viewtopic.php?p=263818#p263818)
--   [Segfault when using part desgin fillet](https://forum.freecadweb.org/viewtopic.php?p=264827#p264827)
+-   [Bug Chamfer bigger than 2mm crashes freecad](https   *//forum.freecadweb.org/viewtopic.php?p=263818#p263818)
+-   [Segfault when using part desgin fillet](https   *//forum.freecadweb.org/viewtopic.php?p=264827#p264827)
 
 
 </div>
@@ -126,7 +126,7 @@ Read more in [topological naming problem](Topological_naming_problem.md).
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.png.md) [Fillet](_PartDesign_Fillet.md)** poate fi utilizat într-o macrocomandă, și, din consola Pythonutilizând următaorea funcție :
+Instrumentul **[16px|text-top=Fillet|link=PartDesign_Fillet](File   *PartDesign_Fillet.png.md) [Fillet](_PartDesign_Fillet.md)** poate fi utilizat într-o macrocomandă, și, din consola Pythonutilizând următaorea funcție    *
 
 
 </div>
@@ -143,7 +143,7 @@ Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # 
 
 <div class="mw-translate-fuzzy">
 
-Exemple :
+Exemple    *
 
 
 </div>

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Part Loft
-   Name/fr:Part Lissage
-   MenuLocation:Part → Lissage...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.13
-   SeeAlso:[Part Balayage](Part_Sweep/fr.md)
+- GuiCommand   */fr
+   Name   *Part Loft
+   Name/fr   *Part Lissage
+   MenuLocation   *Part → Lissage...
+   Workbenches   *[Part](Part_Workbench/fr.md)
+   Version   *0.13
+   SeeAlso   *[Part Balayage](Part_Sweep/fr.md)
 ---
 
 # Part Loft/fr
@@ -18,7 +18,7 @@ Le Lissage a trois paramètres, \"Surface réglée\", \"Créer le solide\" et \"
 
 Si \"Créer le solide\" est à \"true\", FreeCAD crée un solide si les profils sont une géométrie fermée; si \"false\", FreeCAD crée une face ou (si plus d\'une face) une coque pour les profils ouverts ou fermés.
 
-Si \"Surface réglée\" est à \"true\", FreeCAD crée une face, des faces ou un solide depuis les surfaces réglées. [Page de Wikipedia sur Surface réglée.](https://fr.wikipedia.org/wiki/Surface_r%C3%A9gl%C3%A9e)
+Si \"Surface réglée\" est à \"true\", FreeCAD crée une face, des faces ou un solide depuis les surfaces réglées. [Page de Wikipedia sur Surface réglée.](https   *//fr.wikipedia.org/wiki/Surface_r%C3%A9gl%C3%A9e)
 
 Si \"Fermé\" est à\"true\", FreeCAD essaye de lisser le dernier profil vers le premier profil pour créer une figure fermée.
 
@@ -26,16 +26,20 @@ Pour plus d\'informations sur la façon dont les profils sont réunis, consultez
 
 ![centre\|Part\_Loft. À partir de trois profils qui sont deux Part Cercles et une Part Ellipse. Les paramètres sont Solide \"True\" et Surface réglée \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
 
+## Remarques
+
+-   Les objets [App Link](App_Link/fr.md) liés aux types d\'objets appropriés et les conteneurs [App Part](App_Part/fr.md) contenant les objets visibles appropriés peuvent également être utilisés comme profils et trajectoires. {{Version/fr|0.20}}
+
 ## Limitations et complications 
 
 -   Un sommet ou un point
     -   Un sommet ou un point ne peuvent être utilisés que dans le premier et/ou le dernier profil dans la liste des profils.
-        -   Par exemple :
+        -   Par exemple    *
             -   vous ne pouvez pas lisser d\'un cercle à un point, à une ellipse.
             -   Cependant vous pourriez Lisser d\'un point à un cercle à une ellipse à un autre point.
 -   Les profils de géométrie ouvert ou fermé ne peuvent pas être mélangés dans un seul Lissage.
     -   Dans un Lissage, tous les profils (lignes, fils etc.) doivent être soit ouverts ou fermé.
-        -   Par exemple :
+        -   Par exemple    *
             -   FreeCAD ne peut pas Lisser entre un Cercle et une Ligne.
 -   Fonctionnalités de l\'Atelier Draft
     -   Les Fonctionnalités de l\'Atelier Draft peuvent être directement utilisées comme un profil dans FreeCAD 0,14 ou plus tard.
@@ -61,11 +65,11 @@ Pour plus d\'informations sur la façon dont les profils sont réunis, consultez
 
 ## Un exemple de Lissage 
 
-L\'outil Lissage est dans le l\'Atelier Part, menu Pièce -\> Lissage\... ou via l\'icône dans la barre d\'outils.
+L\'outil Lissage est dans le l\'Atelier Part, menu Part -\> Lissage\... ou via l\'icône dans la barre d\'outils.
 
 ![](images/Part_Loft_Ikon_Ballon_Hilfe.png )
 
-Dans les \"Tâches\", il y aura deux listes : \"Profils disponibles\" et \"Profils sélectionnés\".
+Dans les \"Tâches\", il y aura deux listes    * \"Profils disponibles\" et \"Profils sélectionnés\".
 
 ![](images/Part_Loft_Liste3.png )
 
@@ -81,15 +85,15 @@ Par la suite, la flèche bleue indique quel élément est ajouté à la liste de
 
 Les éléments sélectionnés doivent être du même type.
 
-Astuce : les éléments actif/sélectionnés dans la liste sont affichés dans la zone 3D comme actif/sélectionné.
+Astuce    * les éléments actif/sélectionnés dans la liste sont affichés dans la zone 3D comme actif/sélectionné.
 
-### Appliquer la commande 
+### Commande complète 
 
 Si les deux sections sont sélectionnés, la commande peut être appliquée avec le bouton \"OK\".
 
 ![](images/Part_Loft_Liste_Auswahl_3d.png )
 
-## Résultat
+### Résultat
 
 À partir de lignes fermées, nous obtenons des surfaces qui pourraient être considérées comme un aspect superficiel de solides.
 

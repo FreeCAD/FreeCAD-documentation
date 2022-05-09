@@ -6,10 +6,10 @@
 
 <div class="mw-translate-fuzzy">
 
-TechDraw ha due strumenti per il tratteggio:
+TechDraw ha due strumenti per il tratteggio   *
 
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Tratteggio da modello](TechDraw_Hatch/it.md) (basato su tasselli)
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md) (basato su linee).
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width   *32px;"> [Tratteggio da modello](TechDraw_Hatch/it.md) (basato su tasselli)
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *32px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md) (basato su linee).
 
 
 </div>
@@ -21,12 +21,12 @@ TechDraw ha due strumenti per il tratteggio:
 
 ### Tratteggio da modello 
 
-Il <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Tratteggio da modello](TechDraw_Hatch/it.md) utilizza delle tessere di base [SVG](SVG/it.md) o [bitmap](bitmap/it.md) per coprire la faccia selezionata.
+Il <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> [Tratteggio da modello](TechDraw_Hatch/it.md) utilizza delle tessere di base [SVG](SVG/it.md) o [bitmap](bitmap/it.md) per coprire la faccia selezionata.
 
 
 </div>
 
-Di solito le tessere SVG sono delle immagini di **64x64** pixel. Tutti i file di pattern forniti con FreeCAD sono disponibili su [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+Di solito le tessere SVG sono delle immagini di **64x64** pixel. Tutti i file di pattern forniti con FreeCAD sono disponibili su [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
 
 <div class="mw-translate-fuzzy">
@@ -38,7 +38,7 @@ I riempimenti di tratteggio predefiniti possono essere specificati nelle [Prefer
 
 ### Available patterns 
 
-Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General\_steel.svg\|general\_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
+Image   *Aluminium.svg\|aluminium Image   *Brick01.svg\|brick01 Image   *Concrete.svg\|concrete Image   *Cross.svg\|cross Image   *Cuprous.svg\|cuprous Image   *Diagonal1.svg\|diagonal1 Image   *Diagonal2.svg\|diagonal2 Image   *Earth.svg\|earth Image   *General\_steel.svg\|general\_steel Image   *Glass.svg\|glass Image   *Hatch45L.svg\|hatch45L Image   *Hatch45R.svg\|hatch45R Image   *Hbone.svg\|hbone Image   *Line.svg\|line Image   *Plastic.svg\|plastic Image   *Plus.svg\|plus Image   *Simple.svg\|simple Image   *Solid.svg\|solid Image   *Square.svg\|square Image   *Steel.svg\|steel Image   *Titanium.svg\|titanium Image   *Wood.svg\|wood Image   *Woodgrain.svg\|woodgrain Image   *Zinc.svg\|zinc
 
 ## Geometric hatch 
 
@@ -47,7 +47,7 @@ Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|co
 
 ### Tratteggio geometrico 
 
-Il <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md) genera un modello di linee basato su una specifica letta da un file. Questo file è generalmente **compatibile con il formato PAT di AutoDesk® ampiamente utilizzato**. Una piccola selezione di modelli è inclusa nel file FCPAT.pat:
+Il <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *24px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md) genera un modello di linee basato su una specifica letta da un file. Questo file è generalmente **compatibile con il formato PAT di AutoDesk® ampiamente utilizzato**. Una piccola selezione di modelli è inclusa nel file FCPAT.pat   *
 
 
 </div>
@@ -88,12 +88,12 @@ Se si dispone dell\'autorizzazione alla scrittura è possibile aggiungere i prop
 
 ### Percorso del file PAT 
 
-Il file `FCPAT.pat` può essere trovato nel seguente percorso:
+Il file `FCPAT.pat` può essere trovato nel seguente percorso   *
 
--   **Windows**: `C:\Program Files\FreeCAD\data\Mod\TechDraw\PAT\`
--   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/PAT/`
--   **Linux**: `/usr/share/freecad/Mod/TechDraw/PAT/`
-    -   *freecad-daily PPA*: `/usr/share/freecad-daily/Mod/TechDraw/PAT/`
+-   **Windows**   * `C   *Program Files\FreeCAD\data\Mod\TechDraw\PAT\`
+-   **Mac**   * `/Applications/FreeCAD.app/Contents/Mod/TechDraw/PAT/`
+-   **Linux**   * `/usr/share/freecad/Mod/TechDraw/PAT/`
+    -   *freecad-daily PPA*   * `/usr/share/freecad-daily/Mod/TechDraw/PAT/`
 
 
 

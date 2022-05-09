@@ -3,26 +3,26 @@
 
 ## Description
 
-L\'atelier TechDraw dispose de deux outils de hachurage :
+L\'atelier TechDraw dispose de deux outils de hachurage    *
 
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [TechDraw Hachures par motif](TechDraw_Hatch/fr.md) (basé sur des images SVG en mosaïque)
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) (basé sur la ligne)
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width   *32px;"> [TechDraw Hachures par motif](TechDraw_Hatch/fr.md) (basé sur des images SVG en mosaïque)
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *32px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) (basé sur la ligne)
 
 ## Hachure basée sur une image 
 
-<img alt="" src=images/TechDraw_Hatch.svg  style="width:16px;"> [TechDraw Hachures à l\'aide d\'un fichier image](TechDraw_Hatch/fr.md) utilise des images [SVG](SVG/fr.md) en mosaïque pour couvrir la face sélectionnée.
+<img alt="" src=images/TechDraw_Hatch.svg  style="width   *16px;"> [TechDraw Hachures à l\'aide d\'un fichier image](TechDraw_Hatch/fr.md) utilise des images [SVG](SVG/fr.md) en mosaïque pour couvrir la face sélectionnée.
 
-Les tuiles [SVG](SVG/fr.md) sont typiquement des images de **64x64** pixels. Tous les fichiers de modèles fournis avec FreeCAD sont disponibles sur [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+Les tuiles [SVG](SVG/fr.md) sont typiquement des images de **64x64** pixels. Tous les fichiers de modèles fournis avec FreeCAD sont disponibles sur [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
 Le fichier de motif de hachures par défaut peut être spécifié dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
 ### Motifs disponibles 
 
-Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General\_steel.svg\|general\_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
+Image   *Aluminium.svg\|aluminium Image   *Brick01.svg\|brick01 Image   *Concrete.svg\|concrete Image   *Cross.svg\|cross Image   *Cuprous.svg\|cuprous Image   *Diagonal1.svg\|diagonal1 Image   *Diagonal2.svg\|diagonal2 Image   *Earth.svg\|earth Image   *General\_steel.svg\|general\_steel Image   *Glass.svg\|glass Image   *Hatch45L.svg\|hatch45L Image   *Hatch45R.svg\|hatch45R Image   *Hbone.svg\|hbone Image   *Line.svg\|line Image   *Plastic.svg\|plastic Image   *Plus.svg\|plus Image   *Simple.svg\|simple Image   *Solid.svg\|solid Image   *Square.svg\|square Image   *Steel.svg\|steel Image   *Titanium.svg\|titanium Image   *Wood.svg\|wood Image   *Woodgrain.svg\|woodgrain Image   *Zinc.svg\|zinc
 
 ### Hachures géométriques 
 
-<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) forme un motif de lignes basé sur une spécification lue dans un fichier. Ce fichier est généralement **compatible avec le format AutoDesk® PAT largement utilisé**. Une petite sélection de modèles est incluse dans le fichier FCPAT.pat:
+<img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *16px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md) forme un motif de lignes basé sur une spécification lue dans un fichier. Ce fichier est généralement **compatible avec le format AutoDesk® PAT largement utilisé**. Une petite sélection de modèles est incluse dans le fichier FCPAT.pat   *
 
 
 ```python
@@ -54,12 +54,12 @@ Vous pouvez ajouter vos propres modèles si vous avez l\'autorisation d\'écritu
 
 ### Chemin du fichier PAT 
 
-Le fichier `FCPAT.pat` peut être trouvé à l\'emplacement suivant :
+Le fichier `FCPAT.pat` peut être trouvé à l\'emplacement suivant    *
 
--   **Windows** : `C:\Program Files\FreeCAD\data\Mod\TechDraw\PAT\`
--   **Mac** : `/Applications/FreeCAD.app/Contents/Mod/TechDraw/PAT/`
--   **Linux** : `/usr/share/freecad/Mod/TechDraw/PAT/`
-    -   *freecad-daily PPA* : `/usr/share/freecad-daily/Mod/TechDraw/PAT/`
+-   **Windows**    * `C   *Program Files\FreeCAD\data\Mod\TechDraw\PAT\`
+-   **Mac**    * `/Applications/FreeCAD.app/Contents/Mod/TechDraw/PAT/`
+-   **Linux**    * `/usr/share/freecad/Mod/TechDraw/PAT/`
+    -   *freecad-daily PPA*    * `/usr/share/freecad-daily/Mod/TechDraw/PAT/`
 
 
 

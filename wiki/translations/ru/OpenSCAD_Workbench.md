@@ -7,11 +7,11 @@
 
 </div>
 
-<img alt="Логотип верстака OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width:128px;">
+<img alt="Логотип верстака OpenSCAD" src=images/Workbench_OpenSCAD.svg  style="width   *128px;">
 
 ## Введение
 
-The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) is intended to offer interoperability with the open source software [OpenSCAD](http://www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](OpenCASCADE.md), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
+The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) is intended to offer interoperability with the open source software [OpenSCAD](http   *//www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](OpenCASCADE.md), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
 
 It contains a [CSG](OpenSCAD_CSG.md) importer to open the CSG files from OpenSCAD, and an exporter to output a CSG based tree. Geometry which is not based on CSG operations will be exported as a mesh.
 
@@ -26,14 +26,14 @@ This workbench contains functions to modify the CSG feature tree and repair mode
 
 In FreeCAD 0.19, the Ply (Python-Lex-Yacc) module, which is used to import CSG files, was removed from the FreeCAD source code, as it is a third party library not developed by FreeCAD. As a result, you now need to install Ply before using the OpenSCAD Workbench. When using a pre-packaged, stable version of FreeCAD this dependency should be installed automatically in all platforms; in other cases, for example, when [compiling](Compiling.md) from source, you may have to install it from an online repository.
 
-In openSUSE this is done by:
+In openSUSE this is done by   *
 
 
 ```python
 sudo zypper install python3-ply
 ```
 
-In Debian/Ubuntu based systems this is done like the following:
+In Debian/Ubuntu based systems this is done like the following   *
 
 
 ```python
@@ -53,22 +53,22 @@ The OpenSCAD language allows the use of variables and loops. It allows you to sp
 
 ## Инструменты
 
--   <img alt="" src=images/OpenSCAD_ColorCodeShape.svg  style="width:32px;"> [Color Code Shape](OpenSCAD_ColorCodeShape/ru.md): Изменить цвет всех или выбранных поверхностей относительно их годности.
--   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width:32px;"> [Заменить объект](OpenSCAD_ReplaceObject/ru.md): Заменить объект в древе компонентов.
--   <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width:32px;"> [Удалить объекты вместе с их потомками](OpenSCAD_RemoveSubtree/ru.md): Удаляет выбранные объекты и их потомки, на которые не ссылаются друге объекты.
--   <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width:32px;"> [Улучшить свойство фигуры](OpenSCAD_RefineShapeFeature/ru.md): Создаёт объект, очищенный от лишних линий.
--   <img alt="" src=images/OpenSCAD_IncreaseToleranceFeature.svg  style="width:32px;"> [Increase Tolerance Feature](OpenSCAD_IncreaseTolerance/ru.md): Увеличивает допуски для ребер/граней/вершины выбранного объекта (ов).
--   <img alt="" src=images/OpenSCAD_Edgestofaces.png  style="width:32px;"> [Преобразовать грани в поверхности](OpenSCAD_Edgestofaces/ru.md): Преобразование краёв в грани. Полезно при подготовке к выдавливанию геометрии, импортированной из DXF.
--   <img alt="" src=images/OpenSCAD_ExpandPlacements.png  style="width:32px;"> [Развернуть](OpenSCAD_ExpandPlacements/ru.md): Раскрывает все расположения вниз по древу.
--   <img alt="" src=images/OpenSCAD_ExplodeGroup.png  style="width:32px;"> [Расчленить Группу](OpenSCAD_ExplodeGroup/ru.md): Разрывает объединённые примитивы на составляющие.
--   <img alt="" src=images/OpenSCAD_AddOpenSCADElement.png  style="width:32px;"> [Add OpenSCAD Element](OpenSCAD_AddOpenSCADElement/ru.md): Добавляет элемент OpenSCAD внедрением кода OpenSCAD в панель задач (требует установленного OpenSCAD).
--   <img alt="" src=images/OpenSCAD_MeshBoolean.png  style="width:32px;"> [Mesh Boolean](OpenSCAD_MeshBoolean/ru.md): Создаёт новый полигональный объект бинарными операциями из форм.
--   <img alt="" src=images/OpenSCAD_Hull.svg  style="width:32px;"> [Hull](OpenSCAD_Hull/ru.md): Применяет операцию Convex Hull (создание выпуклой оболочки) к выбранным формам.
--   <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width:32px;"> [Minkowski](OpenSCAD_Minkowski/ru.md): Применяет суммы Минковского к выбранным формам.
+-   <img alt="" src=images/OpenSCAD_ColorCodeShape.svg  style="width   *32px;"> [Color Code Shape](OpenSCAD_ColorCodeShape/ru.md)   * Изменить цвет всех или выбранных поверхностей относительно их годности.
+-   <img alt="" src=images/OpenSCAD_ReplaceObject.svg  style="width   *32px;"> [Заменить объект](OpenSCAD_ReplaceObject/ru.md)   * Заменить объект в древе компонентов.
+-   <img alt="" src=images/OpenSCAD_RemoveSubtree.svg  style="width   *32px;"> [Удалить объекты вместе с их потомками](OpenSCAD_RemoveSubtree/ru.md)   * Удаляет выбранные объекты и их потомки, на которые не ссылаются друге объекты.
+-   <img alt="" src=images/OpenSCAD_RefineShapeFeature.svg  style="width   *32px;"> [Улучшить свойство фигуры](OpenSCAD_RefineShapeFeature/ru.md)   * Создаёт объект, очищенный от лишних линий.
+-   <img alt="" src=images/OpenSCAD_IncreaseToleranceFeature.svg  style="width   *32px;"> [Increase Tolerance Feature](OpenSCAD_IncreaseTolerance/ru.md)   * Увеличивает допуски для ребер/граней/вершины выбранного объекта (ов).
+-   <img alt="" src=images/OpenSCAD_Edgestofaces.png  style="width   *32px;"> [Преобразовать грани в поверхности](OpenSCAD_Edgestofaces/ru.md)   * Преобразование краёв в грани. Полезно при подготовке к выдавливанию геометрии, импортированной из DXF.
+-   <img alt="" src=images/OpenSCAD_ExpandPlacements.png  style="width   *32px;"> [Развернуть](OpenSCAD_ExpandPlacements/ru.md)   * Раскрывает все расположения вниз по древу.
+-   <img alt="" src=images/OpenSCAD_ExplodeGroup.png  style="width   *32px;"> [Расчленить Группу](OpenSCAD_ExplodeGroup/ru.md)   * Разрывает объединённые примитивы на составляющие.
+-   <img alt="" src=images/OpenSCAD_AddOpenSCADElement.png  style="width   *32px;"> [Add OpenSCAD Element](OpenSCAD_AddOpenSCADElement/ru.md)   * Добавляет элемент OpenSCAD внедрением кода OpenSCAD в панель задач (требует установленного OpenSCAD).
+-   <img alt="" src=images/OpenSCAD_MeshBoolean.png  style="width   *32px;"> [Mesh Boolean](OpenSCAD_MeshBoolean/ru.md)   * Создаёт новый полигональный объект бинарными операциями из форм.
+-   <img alt="" src=images/OpenSCAD_Hull.svg  style="width   *32px;"> [Hull](OpenSCAD_Hull/ru.md)   * Применяет операцию Convex Hull (создание выпуклой оболочки) к выбранным формам.
+-   <img alt="" src=images/OpenSCAD_Minkowski.svg  style="width   *32px;"> [Minkowski](OpenSCAD_Minkowski/ru.md)   * Применяет суммы Минковского к выбранным формам.
 
 ## Настройки
 
--   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Preferences](OpenSCAD_Preferences/ru.md): настройки, доступные для инструментов OpenSCAD.
+-   <img alt="" src=images/Std_DlgParameter.svg  style="width   *32px;"> [Preferences](OpenSCAD_Preferences/ru.md)   * настройки, доступные для инструментов OpenSCAD.
 
 ## Limitations
 
@@ -82,7 +82,7 @@ Importing OpenSCAD code with texts requires that the fonts that are used are pro
 
 Importing texts is relatively slow. Behind the scenes FreeCAD uses a DXF file created by OpenSCAD. The more contours there are the slower the import.
 
-It can be a good idea to first import a simple test case (replace {{Incode|NameOfFont}} with the correct font name):
+It can be a good idea to first import a simple test case (replace {{Incode|NameOfFont}} with the correct font name)   *
 
     TESTFONT="NameOfFont";
     linear_extrude(0.001) {
@@ -107,9 +107,9 @@ If FreeCAD crashes when importing CSG, it is strongly recommended that you enabl
 
 ## Links
 
--   The official OpenSCAD project source code repository hosted on [GitHub](https://github.com/openscad/openscad)
--   Open tickets tagged \"OpenSCAD\" on the [FreeCAD Github issue tracker](https://github.com/FreeCAD/FreeCAD/labels/WB%20OpenSCAD). There are also tickets on the now archived [mantis bugtracker](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD).
--   Models tagged with \"OpenSCAD\" on [Thingiverse](http://www.thingiverse.com/tag:openscad)
+-   The official OpenSCAD project source code repository hosted on [GitHub](https   *//github.com/openscad/openscad)
+-   Open tickets tagged \"OpenSCAD\" on the [FreeCAD Github issue tracker](https   *//github.com/FreeCAD/FreeCAD/labels/WB%20OpenSCAD). There are also tickets on the now archived [mantis bugtracker](https   *//freecadweb.org/tracker/search.php?tag_string=OpenSCAD).
+-   Models tagged with \"OpenSCAD\" on [Thingiverse](http   *//www.thingiverse.com/tag   *openscad)
 
 
 <div class="mw-translate-fuzzy">
@@ -123,7 +123,9 @@ If FreeCAD crashes when importing CSG, it is strongly recommended that you enabl
 
 {{OpenSCAD Tools navi
 
-}}
+}} 
+
+[Category   *Workbenches](Category_Workbenches.md)
 
 
 

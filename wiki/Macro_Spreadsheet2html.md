@@ -22,18 +22,18 @@ Through Addon manager.
 
 ## Link
 
-Forum: No dedicated thread at time of writing.
+Forum   * No dedicated thread at time of writing.
 
 ## Version
 
-v0.1 2021-08-09 : first release
+v0.1 2021-08-09    * first release
 
 ## Code
 
  **Macro\_Spreadsheet2html.FCMacro**
 
     #!/usr/bin/env python3
-    # -*- coding: utf-8 -*-
+    # -*- coding   * utf-8 -*-
 
     # ***************************************************************************
     # *   Copyright (c) 2021 heda <@fc-forum>                                   *
@@ -60,7 +60,7 @@ v0.1 2021-08-09 : first release
 
 
     __Name__ = 'Spreadsheet2html'
-    __Comment__ = 'Exports a fc spreadsheet as html. NOTE: wiki caps code so follow instruction on wiki for install.'
+    __Comment__ = 'Exports a fc spreadsheet as html. NOTE   * wiki caps code so follow instruction on wiki for install.'
     __Author__ = 'heda @ fc-forum'
     __Version__ = '0.1'
     __Date__ = '2021-08-09'
@@ -81,14 +81,14 @@ v0.1 2021-08-09 : first release
     File is saved in user Documents with similar name as the fc-file.
     All cells with content are included in the exported range.
 
-    To use with LO-Writer:
+    To use with LO-Writer   *
       - open the html-file directly with LO-Writer
 
-    To use with LO-Calc:
+    To use with LO-Calc   *
       - create new LO-Calc doc
-      - menu: "Sheet/Link to External Data" and select the generated html file
+      - menu   * "Sheet/Link to External Data" and select the generated html file
 
-    There are 5 options for the generated html:
+    There are 5 options for the generated html   *
       - values without any formatting or comments
       - values with formatting & comments (default)
       - formulas with formatting & comments
@@ -102,7 +102,7 @@ v0.1 2021-08-09 : first release
     Same goes for merged cells.
     Neither Writer nor Calc parses the comments, hence the option for extra table.
 
-    Alias:
+    Alias   *
       The extra table helps in recreating alias in Calc, to redefine the
       name within Calc (look in LO-Calc docs if you want to know how).
 
@@ -114,7 +114,7 @@ v0.1 2021-08-09 : first release
       select the cell with the formula and click the "equal sign" in
       the formula bar of Calc user interface.
 
-    Comments contains the following as per availability:
+    Comments contains the following as per availability   *
       - unit strings when defined on cells in fc
       - name of alias when defined on cells in fc
       - formulas if the option to evaluate expressions to values is True (default)
@@ -153,8 +153,8 @@ v0.1 2021-08-09 : first release
     root = ET.fromstring(sp_content)
 
     cells = dict()
-    for el in root:
-        if not 'Cell' in el.tag: continue
+    for el in root   *
+        if not 'Cell' in el.tag   * continue
         address = el.attrib.pop('address')
         cells[address] = el.attrib
 
@@ -167,36 +167,36 @@ v0.1 2021-08-09 : first release
     char = re.compile(r'\d+')
     num = re.compile(r'\D+')
 
-    def split_address(address):
+    def split_address(address)   *
         C, _, _, R = char.split(address) + num.split(address)
         return C, int(R)
 
     tmp = dict(split_address(address) for address in cells)
     Rmax = max(tmp.values())
     ## need to separate one and two chars comparison
-    if any(map(lambda s: len(s) == 2, tmp)):
-        Cmax = max(filter(lambda s: len(s) == 2, tmp))
-    else:
+    if any(map(lambda s   * len(s) == 2, tmp))   *
+        Cmax = max(filter(lambda s   * len(s) == 2, tmp))
+    else   *
         Cmax = max(tmp)
 
     ### prepare column and row iterable for actual range
     column_iter = list(ascii_uppercase)
     column_extension = 10 # assume that col-span on last col is limited to 9...
     cart = product(ascii_uppercase, repeat=2)
-    if Cmax in column_iter:
+    if Cmax in column_iter   *
         cut_idx = column_iter.index(Cmax) + 1
         length = range(column_extension)
         column_iter += [''.join(c) for _, c in zip(length, cart)]
 
-        column_extension = column_iter[cut_idx:cut_idx + column_extension]
-        column_iter = column_iter[:cut_idx]
-    else:
+        column_extension = column_iter[cut_idx   *cut_idx + column_extension]
+        column_iter = column_iter[   *cut_idx]
+    else   *
         a, b = (ord(c)-65 for c in Cmax)
         length = range(a * len(ascii_uppercase) + b + 1 + column_extension)
         column_iter += [''.join(c) for _, c in zip(length, cart)]
                     
-        column_extension = column_iter[-column_extension:]
-        column_iter = column_iter[:-len(column_extension)]
+        column_extension = column_iter[-column_extension   *]
+        column_iter = column_iter[   *-len(column_extension)]
 
     ## extend range where needed
     hitcells = (cell for cell in cells if str(Rmax) in cell)
@@ -204,10 +204,10 @@ v0.1 2021-08-09 : first release
     Rmax += int(extend) - 1
 
     extend = 1
-    for address in (cell for cell in cells if str(Cmax) in cell):
+    for address in (cell for cell in cells if str(Cmax) in cell)   *
         v = int(cells.get(address).get('colSpan', 1))
         extend = v if v > extend else extend
-    column_iter += column_extension[:int(extend) - 1]
+    column_iter += column_extension[   *int(extend) - 1]
     column_iter = tuple(column_iter)
     Cmax = column_iter[-1]
 
@@ -227,9 +227,9 @@ v0.1 2021-08-09 : first release
         <meta name="created" content=""/>
         
         <style type="text/css">
-            a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
-            a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
-            comment { display:none;  } 
+            a.comment-indicator   *hover + comment { background   *#ffd; position   *absolute; display   *block; border   *1px solid black; padding   *0.5em;  } 
+            a.comment-indicator { background   *red; display   *inline-block; border   *1px solid black; width   *0.5em; height   *0.5em;  } 
+            comment { display   *none;  } 
         </style>
         
     </head>
@@ -247,14 +247,14 @@ v0.1 2021-08-09 : first release
     title = doc.find('./head/title')
     title.text += ' ' + sp_name
     created = doc.find("./head/meta[@name='created']")
-    created.set('content', dt.now().strftime('%Y-%m-%d %H:%M:%S'))
+    created.set('content', dt.now().strftime('%Y-%m-%d %H   *%M   *%S'))
 
     table = doc.find('./body/table')
     table.set('border', str(int(options.get('TableBorder'))))
         
-    for width in (spreadsheet.getColumnWidth(c) for c in column_iter):
+    for width in (spreadsheet.getColumnWidth(c) for c in column_iter)   *
         ET.SubElement(table, 'colgroup',
-                      dict(width='{:.0f}'.format(width/ColumnWidthFactor)))
+                      dict(width='{   *.0f}'.format(width/ColumnWidthFactor)))
 
     align_table = dict(left=('align', 'left'), center=('align', 'center'),
                        right=('align', 'right'),
@@ -263,10 +263,10 @@ v0.1 2021-08-09 : first release
     style_table = dict(bold='b', italic='i', underline='u')
 
     skip_list = list()
-    for r in range(1, Rmax+1):
+    for r in range(1, Rmax+1)   *
         rowheight = spreadsheet.getRowHeight(str(r)) / RowHeightFactor
-        tr = ET.Element('tr', dict(height='{:.0f}'.format(rowheight)))
-        for c in column_iter:
+        tr = ET.Element('tr', dict(height='{   *.0f}'.format(rowheight)))
+        for c in column_iter   *
             address = f'{c}{r}'
             cell = cells.get(address, dict())
             new_attrib = dict()
@@ -275,77 +275,77 @@ v0.1 2021-08-09 : first release
             # avoid overflow, implies look ahead
             colspan = int(cell.get('colSpan', 0))
             rowspan = int(cell.get('rowSpan', 0))
-            if colspan > 0:
+            if colspan > 0   *
                 idx = column_iter.index(c) + 1
-                gen = (f'{ci}{r}' for ci in column_iter[idx:idx + colspan - 1])
+                gen = (f'{ci}{r}' for ci in column_iter[idx   *idx + colspan - 1])
                 skip_list.extend(gen)
                 new_attrib.update(dict(colspan=str(colspan)))
-            if rowspan > 0:
+            if rowspan > 0   *
                 gen = (f'{c}{ri}' for ri in range(r + 1, r + rowspan))
                 skip_list.extend(gen)
                 new_attrib.update(dict(rowspan=str(rowspan)))
                 
-            if address in skip_list:
+            if address in skip_list   *
                 continue
             
             tr.append(td)
             
             # styling and attributes
             subel, comment = list(), list()
-            for k in sorted(cell):
+            for k in sorted(cell)   *
                 v = cell.get(k)
-                if k == 'alias':
-                    comment.append('alias: {}'.format(v))
-                elif k == 'alignment':
-                    for which in v.split('|'):
+                if k == 'alias'   *
+                    comment.append('alias   * {}'.format(v))
+                elif k == 'alignment'   *
+                    for which in v.split('|')   *
                         kva = align_table.get(which)
-                        if kva:
+                        if kva   *
                             new_attrib.update(dict((kva,)))
-                elif k == 'backgroundColor':
-                    new_attrib.update(dict(bgcolor=v[:-2]))
-                elif k == 'displayUnit':
-                    comment.append('unit: {}'.format(v))
-                elif k == 'foregroundColor': # will always be first
-                    font = ET.Element('font', dict(color=v[:-2]))
+                elif k == 'backgroundColor'   *
+                    new_attrib.update(dict(bgcolor=v[   *-2]))
+                elif k == 'displayUnit'   *
+                    comment.append('unit   * {}'.format(v))
+                elif k == 'foregroundColor'   * # will always be first
+                    font = ET.Element('font', dict(color=v[   *-2]))
                     subel.append(font)
-                elif k == 'style':
-                    for which in v.split(chr(124)):
+                elif k == 'style'   *
+                    for which in v.split(chr(124))   *
                         sty = ET.Element(style_table.get(which))
                         subel.insert(0, sty)
             
             # formula options
-            if isinstance(td.text, str) and td.text.startswith('='):
-                if options.get('PasteSpecial_values'):
+            if isinstance(td.text, str) and td.text.startswith('=')   *
+                if options.get('PasteSpecial_values')   *
                     td.text = str(spreadsheet.get(address)) # returns casted type
-                elif options.get('PasteSpecial_values_and_format'):
+                elif options.get('PasteSpecial_values_and_format')   *
                     formula = td.text
                     td.text = str(spreadsheet.get(address))
-                    comment.append('formula: {}'.format(formula))
-                elif options.get('PasteSpecial_formulas_and_format'):
+                    comment.append('formula   * {}'.format(formula))
+                elif options.get('PasteSpecial_formulas_and_format')   *
                     value = spreadsheet.get(address)
-                    comment.append('value: {}'.format(value))
+                    comment.append('value   * {}'.format(value))
 
-            if options.get('PasteSpecial_values'):
+            if options.get('PasteSpecial_values')   *
                 subel, comment = list(), list()
-                for k in tuple(new_attrib):
-                    if not 'span' in k:
+                for k in tuple(new_attrib)   *
+                    if not 'span' in k   *
                         _ = new_attrib.pop(k)
 
             # sanitize for html
-            if td.text:
+            if td.text   *
                 td.text = htmllib.escape(td.text)
 
-            if comment:
-                ET.SubElement(td, 'a', {'class': 'comment-indicator'})
+            if comment   *
+                ET.SubElement(td, 'a', {'class'   * 'comment-indicator'})
                 popup = ET.Element('comment')
                 popup.text = '  |  '.join((htmllib.escape(cm) for cm in comment))
                 td.append(popup)
                             
             td.attrib = new_attrib
 
-            if subel:
+            if subel   *
                 parent = td
-                for child in subel:
+                for child in subel   *
                     child.text = parent.text
                     parent.text = None
                     parent.append(child)
@@ -354,7 +354,7 @@ v0.1 2021-08-09 : first release
         table.append(tr)
 
     ### extra table
-    if options.get('CommentTable'):
+    if options.get('CommentTable')   *
 
         template_extra = """
         <table cellspacing="0" cellpadding="3" border="1">
@@ -375,22 +375,22 @@ v0.1 2021-08-09 : first release
         body = doc.find('./body')
         body.extend((ET.Element('p'), table_extra))
         
-        for address, attrib in cells.items():
+        for address, attrib in cells.items()   *
             row = [address, f'={address}', None,
                    attrib.get('displayUnit'), None, attrib.get('alias')]
 
             content = attrib.get('content')
-            if not content:
+            if not content   *
                 continue
 
             row[2] = content
-            if content.startswith('='):
+            if content.startswith('=')   *
                 value = spreadsheet.get(address)
                 row[2] = value
                 row[4] = chr(39) + content
         
             tr = ET.Element('tr')
-            for r in row:
+            for r in row   *
                 td = ET.Element('td')
                 td.text = r
                 tr.append(td)

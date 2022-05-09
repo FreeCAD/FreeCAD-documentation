@@ -1,17 +1,17 @@
 ---
-- GuiCommand:/ru
-   Name:Arch_Reference
-   Name/ru:Ссылка
-   MenuLocation:Arch → Ссылка
-   Workbenches:[Архитектурный верстак "Arch"](Arch_Workbench/ru.md)
-   SeeAlso:[Строительная деталь](Arch_BuildingPart/ru.md)
+- GuiCommand   */ru
+   Name   *Arch_Reference
+   Name/ru   *Ссылка
+   MenuLocation   *Arch → Ссылка
+   Workbenches   *[Архитектурный верстак "Arch"](Arch_Workbench/ru.md)
+   SeeAlso   *[Строительная деталь](Arch_BuildingPart/ru.md)
 ---
 
 # Arch Reference/ru
 
 ## Описание
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+<img alt="" src=images/Arch_reference_screenshot.png  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -45,22 +45,22 @@
 
 ## Свойства
 
--    **File**: The base file this component is built upon
+-    **File**   * The base file this component is built upon
 
--    **Part**: The part to use from the base file
+-    **Part**   * The part to use from the base file
 
--    **Update Colors**: If true, the colors from the linked file will be kept updated
+-    **Update Colors**   * If true, the colors from the linked file will be kept updated
 
 ## Программирование
 
-The Reference tool can by used in [macros](macros.md) and from the python console by using the following function: 
+The Reference tool can by used in [macros](macros.md) and from the python console by using the following function   * 
 ```python
 makeReference ([file_path,object_name])
 ```
 
 creates a Reference object from the given object in the given file.
 
-Пример: 
+Пример   * 
 ```python
 import Arch
 Arch.makeReference("/path/to/some/file.FSCtd","myPart")

@@ -1,22 +1,23 @@
 ---
-- GuiCommand:
-   Name:Spreadsheet StyleUnderline
-   MenuLocation:Spreadsheet → Styles → Underline text
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+- GuiCommand   */pl
+   Name   *Spreadsheet StyleUnderline
+   Name/pl   *Arkusz Kalkulacyjny   * Podkreślenie
+   MenuLocation   *Arkusz kalkulacyjny → Style → Podkreślenie
+   Workbenches   *[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version   *0.17
 ---
 
 # Spreadsheet StyleUnderline/pl
 
-## Description
+## Opis
 
-The underline style.
+Narzędzie podkreślenia.
 
-## Usage
+## Użycie
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select a cell.
-3.  Press the **[<img src=images/Spreadsheet_StyleUnderline.svg style="width:16px"> [Spreadsheet StyleUnderline](Spreadsheet_StyleUnderline.md)** button.
+1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
+2.  Wybierz komórkę.
+3.  Naciśnij przycisk **[<img src=images/Spreadsheet_StyleUnderline.svg style="width   *16px"> [Podkreślenie](Spreadsheet_StyleUnderline/pl.md)**.
 
 
 

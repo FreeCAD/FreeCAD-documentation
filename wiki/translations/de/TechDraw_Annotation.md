@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw Annotation
-   Name/de:TechDraw Anmerkung
-   MenuLocation:TechDraw → Anmerkungen → Anmerkung einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[Entwurf Text](Draft_Text/de.md), [Draft FormZeichenkette](Draft_ShapeString/de.md)
+- GuiCommand   */de
+   Name   *TechDraw Annotation
+   Name/de   *TechDraw Anmerkung
+   MenuLocation   *TechDraw → Anmerkungen → Anmerkung einfügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso   *[Entwurf Text](Draft_Text/de.md), [Draft FormZeichenkette](Draft_ShapeString/de.md)
 ---
 
 # TechDraw Annotation/de
@@ -13,7 +13,7 @@
 
 Das Anmerkungswerkzeug fügt einen Textblock zu einem Zeichnungsblatt hinzu.
 
-<img alt="" src=images/AnnotationSample.png  style="width:250px;"> 
+<img alt="" src=images/AnnotationSample.png  style="width   *250px;"> 
 *Anmerkung in einer Zeichnungsseite*
 
 ## Anwendung
@@ -27,40 +27,40 @@ Das Anmerkungswerkzeug fügt einen Textblock zu einem Zeichnungsblatt hinzu.
 *Ändern der Anmerkung über den Eigenschaftseditor*
 
 
-**Hinweis:**
+**Hinweis   ***
 
-Einige Zeichen stören die interne Darstellung des Anmerkungstextes. Im Einzelnen sind dies die doppelten Anführungszeichen `"`, weniger als `<` und mehr als `>` Symbole; diese müssen durch HTML Escape Zeichen, `&amp;quot;`, `&amp;lt;` und `&amp;gt;` ersetzt werden. Siehe [Zeichenkodierungen in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references) für Einzelheiten.
+Einige Zeichen stören die interne Darstellung des Anmerkungstextes. Im Einzelnen sind dies die doppelten Anführungszeichen `"`, weniger als `<` und mehr als `>` Symbole; diese müssen durch HTML Escape Zeichen, `&amp;quot;`, `&amp;lt;` und `&amp;gt;` ersetzt werden. Siehe [Zeichenkodierungen in HTML](https   *//en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references) für Einzelheiten.
 
 ## Eigenschaften
 
 Die Anmerkung übernimmt alle anwendbaren grundlegenden Ansichtseigenschaften außer **Maßstab**. Verwende stattdessen die **TextGröße** Eigenschaft.
 
--    **Text**: Der anzuzeigende Text.
+-    **Text**   * Der anzuzeigende Text.
 
--    **Font**: Der Name der zu verwendenden Schriftart. Für Anmerkungen wird die beste Übereinstimmung der installierten Schriftarten verwenden.
+-    **Font**   * Der Name der zu verwendenden Schriftart. Für Anmerkungen wird die beste Übereinstimmung der installierten Schriftarten verwenden.
 
--    **TextColor**: Die Farbe des Textes.
+-    **TextColor**   * Die Farbe des Textes.
 
--    **TextSize**: Die Größe des Textes.
+-    **TextSize**   * Die Größe des Textes.
 
--    **MaxWidth**: Die maximale Breite des Anmerkungsblocks. -1 gibt keine maximale Breite an.
+-    **MaxWidth**   * Die maximale Breite des Anmerkungsblocks. -1 gibt keine maximale Breite an.
 
--    **LineSpace**: Einstellung des Zeilenabstands (%).
+-    **LineSpace**   * Einstellung des Zeilenabstands (%).
 
--    **TextStyle**: \"Normal\", \"Fett\", \"Kursiv\", \"Fett-Kursiv\"
+-    **TextStyle**   * \"Normal\", \"Fett\", \"Kursiv\", \"Fett-Kursiv\"
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw Anwendungsschnittstelle](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Neue Anmerkungswerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden:
+Das Neue Anmerkungswerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen verwendet werden   *
 
 
 ```python
-anno = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewAnnotation','TestAnno')
+anno = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewAnnotation','TestAnno')
 anno.Text = ['Different Text']
 anno.TextStyle = 'Bold'
 rc = page.addView(anno)

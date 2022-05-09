@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch_Rebar_UShape
-   Name/it:Armatura ad U
-   MenuLocation:Arch → Strumenti armatura → Armatura ad U o BIM → 3D/BIM → Reinforcement → Rebar UShape
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Armatura a L](Arch_Rebar_LShape/it.md), [Armature](Arch_Rebar/it.md)
-   Version:0.17
+- GuiCommand   */it
+   Name   *Arch_Rebar_UShape
+   Name/it   *Armatura ad U
+   MenuLocation   *Arch → Strumenti armatura → Armatura ad U o BIM → 3D/BIM → Reinforcement → Rebar UShape
+   Workbenches   *[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso   *[Armatura a L](Arch_Rebar_LShape/it.md), [Armature](Arch_Rebar/it.md)
+   Version   *0.17
 ---
 
 # Arch Rebar UShape/it
@@ -28,12 +28,12 @@ The **<img src="images/Arch_Rebar_UShape.svg" width=16px> [UShape Rebar](Arch_Re
 
 <div class="mw-translate-fuzzy">
 
-Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 
 </div>
 
-<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;">
+<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -75,7 +75,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 </div>
 
 
-:   <img alt="" src=images/UShapeDialog.png  style="width:250px;">
+   *   <img alt="" src=images/UShapeDialog.png  style="width   *250px;">
 
 
 
@@ -83,23 +83,23 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 ## Proprietà
 
--    {{PropertyData/it|Orientation}}: Decide l\'orientamento dell\'armatura (es. verso il basso, verso l\'alto, a destra o a sinistra).
+-    {{PropertyData/it|Orientation}}   * Decide l\'orientamento dell\'armatura (es. verso il basso, verso l\'alto, a destra o a sinistra).
 
--    {{PropertyData/it|Front Cover}}: La distanza tra l\'armatura e la faccia selezionata. Copriferro anteriore
+-    {{PropertyData/it|Front Cover}}   * La distanza tra l\'armatura e la faccia selezionata. Copriferro anteriore
 
--    {{PropertyData/it|Right Cover}}: La distanza tra l\'estremità destra della barra di destra e la faccia destra della struttura. Copriferro destro
+-    {{PropertyData/it|Right Cover}}   * La distanza tra l\'estremità destra della barra di destra e la faccia destra della struttura. Copriferro destro
 
--    {{PropertyData/it|Left Cover}}: La distanza tra l\'estremità sinistra della barra di sinistra e la faccia sinistra della struttura. Copriferro sinistro
+-    {{PropertyData/it|Left Cover}}   * La distanza tra l\'estremità sinistra della barra di sinistra e la faccia sinistra della struttura. Copriferro sinistro
 
--    {{PropertyData/it|Bottom Cover}}: La distanza tra l\'armatura e la parte inferiore della struttura. Copriferro inferiore
+-    {{PropertyData/it|Bottom Cover}}   * La distanza tra l\'armatura e la parte inferiore della struttura. Copriferro inferiore
 
--    {{PropertyData/it|Top Cover}}: La distanza tra l\'armatura e la parte superiore della struttura. Copriferro superiore
+-    {{PropertyData/it|Top Cover}}   * La distanza tra l\'armatura e la parte superiore della struttura. Copriferro superiore
 
--    {{PropertyData/it|Rounding}}: Il raggio di curvatura da applicare agli angoli delle barre, espresso quantità di diametro delle barre.
+-    {{PropertyData/it|Rounding}}   * Il raggio di curvatura da applicare agli angoli delle barre, espresso quantità di diametro delle barre.
 
--    {{PropertyData/it|Amount}}: La quantità di barre.
+-    {{PropertyData/it|Amount}}   * La quantità di barre.
 
--    {{PropertyData/it|Spacing}}: La distanza tra gli assi di ogni barra.
+-    {{PropertyData/it|Spacing}}   * La distanza tra gli assi di ogni barra.
 
 ## Scripting
 
@@ -109,7 +109,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 ## Scripting 
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -119,7 +119,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Armatura a U può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Armatura a U può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -178,7 +178,7 @@ Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 
 ### Modifica delle barre 
 
-È possibile modificare le proprietà dell\'armatura con la seguente funzione:
+È possibile modificare le proprietà dell\'armatura con la seguente funzione   *
 
 
 </div>
@@ -215,6 +215,11 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

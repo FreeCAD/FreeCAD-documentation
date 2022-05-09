@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Arch Rebar LShape
-   Name/ru:Arch Rebar LShape
-   MenuLocation:Arch → Rebar tools
-   Workbenches:[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
-   SeeAlso:[Bent Rebar](Arch_Rebar_BentShape/ru.md), [Rebar](Arch_Rebar/ru.md)
-   Version:0.17
+- GuiCommand   */ru
+   Name   *Arch Rebar LShape
+   Name/ru   *Arch Rebar LShape
+   MenuLocation   *Arch → Rebar tools
+   Workbenches   *[Arch](Arch_Workbench/ru.md), [BIM](BIM_Workbench/ru.md)
+   SeeAlso   *[Bent Rebar](Arch_Rebar_BentShape/ru.md), [Rebar](Arch_Rebar/ru.md)
+   Version   *0.17
 ---
 
 # Arch Rebar LShape/ru
@@ -25,14 +25,14 @@
 
 The [LShape Rebar](Arch_Rebar_LShape.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;">
+<img alt="" src=images/Arch_Rebar_LShape_example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/LShapeRebarNew.png  style="width:800px;">
+<img alt="" src=images/LShapeRebarNew.png  style="width   *800px;">
 
 
 </div>
@@ -59,7 +59,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 9.  Click **Cancel** to exit the task panel.
 
-:   <img alt="" src=images/LShapeDialog.png  style="width:250px;">
+   *   <img alt="" src=images/LShapeDialog.png  style="width   *250px;">
 
 
 
@@ -67,36 +67,36 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Свойства
 
--    **Orientation**: It decides the orientation of the rebar (like a bottom, top, right and left).
+-    **Orientation**   * It decides the orientation of the rebar (like a bottom, top, right and left).
 
--    **Front Cover**: The distance between rebar and selected face.
+-    **Front Cover**   * The distance between rebar and selected face.
 
--    **Right Cover**: The distance between the right end of the rebar to right face of the structure.
+-    **Right Cover**   * The distance between the right end of the rebar to right face of the structure.
 
--    **Left Cover**: The distance between the left end of the rebar to the left face of the structure.
+-    **Left Cover**   * The distance between the left end of the rebar to the left face of the structure.
 
--    **Bottom Cover**: The distance between rebar from the bottom face of the structure.
+-    **Bottom Cover**   * The distance between rebar from the bottom face of the structure.
 
--    **Top Cover**: The distance between rebar from the top face of the structure.
+-    **Top Cover**   * The distance between rebar from the top face of the structure.
 
--    **Rounding**: A rounding value to be applied to the corners of the bars, expressed in times the diameter.
+-    **Rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the diameter.
 
--    **Amount**: The amount of rebars.
+-    **Amount**   * The amount of rebars.
 
--    **Spacing**: The distance between the axes of each bar.
+-    **Spacing**   * The distance between the axes of each bar.
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The LShape Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The LShape Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom Left",
-                        structure=None, facename=None):
+                        structure=None, facename=None)   *
 ```
 
 -   Creates a `Rebar` object from the given `structure`, which is an [Arch Structure](Arch_Structure.md), and `facename`, which is a face of that structure.
@@ -167,6 +167,11 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

@@ -1,21 +1,21 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw ProjectionGroup
-   Name/de:TechDraw ProjektionsGruppe
-   MenuLocation:TechDraw → Projektionsgruppe einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Schnitt Ansicht einfügen](TechDraw_SectionView/de.md)
+- GuiCommand   */de
+   Name   *TechDraw ProjectionGroup
+   Name/de   *TechDraw ProjektionsGruppe
+   MenuLocation   *TechDraw → Projektionsgruppe einfügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso   *[TechDraw Ansicht einfügen](TechDraw_View/de.md), [TechDraw Schnitt Ansicht einfügen](TechDraw_SectionView/de.md)
 ---
 
 # TechDraw ProjectionGroup/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [ProjektionsGruppe](TechDraw_ProjectionGroup/de.md) Werkzeug erstellt eine [Mehrfachansichtsprojektion](https://en.wikipedia.org/wiki/Multiview_projection) einer oder mehrerer 3D Objekte. Die isometrischen Ansichten der vier Frontecken können ebenfalls eingeschlossen werden.
+Das <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width   *24px;"> [ProjektionsGruppe](TechDraw_ProjectionGroup/de.md) Werkzeug erstellt eine [Mehrfachansichtsprojektion](https   *//en.wikipedia.org/wiki/Multiview_projection) einer oder mehrerer 3D Objekte. Die isometrischen Ansichten der vier Frontecken können ebenfalls eingeschlossen werden.
 
-Wenn du nur eine einzige Ansicht erzeugen möchtest, ist es nicht von Vorteil, ProjektionsGruppe zu verwenden; nutze statt dessen [Ansicht einfügen](TechDraw_View/de.md). Wenn du nicht die herkömmliche [first-](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) / [1](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection) verwenden möchtest, solltest du mehrere *Ansichten* ([Ansichten einfügen](TechDraw_View/de.md)) anstelle von *ProjektionsGruppe* verwenden.
+Wenn du nur eine einzige Ansicht erzeugen möchtest, ist es nicht von Vorteil, ProjektionsGruppe zu verwenden; nutze statt dessen [Ansicht einfügen](TechDraw_View/de.md). Wenn du nicht die herkömmliche [first-](https   *//en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) / [1](https   *//en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection) verwenden möchtest, solltest du mehrere *Ansichten* ([Ansichten einfügen](TechDraw_View/de.md)) anstelle von *ProjektionsGruppe* verwenden.
 
-<img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
+<img alt="" src=images/TechDraw_ProjGroup_example.png  style="width   *400px;"> 
 *Drei orthogonale Ansichten und eine isometrische Ansicht eines Festkörperobjekts*
 
 ## Anwendung
@@ -25,7 +25,7 @@ Wenn du nur eine einzige Ansicht erzeugen möchtest, ist es nicht von Vorteil, P
 
 1.  Wähle ein oder mehrere *Körper* und/oder *Part* Objekte im 3D Fenster oder Baum. Wenn du mehrere Zeichnungsseiten in deinem Dokument hast, musst du auch die gewünschte Seite in der Baumstruktur auswählen.
 2.  Drücke die **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md)** Schaltfläche
-3.  Ein Dialogfeld wird geöffnet, in dem du auswählen kannst, welche Ansichten in der Gruppe erscheinen sollen, den Maßstab der Gruppe und andere Parameter:
+3.  Ein Dialogfeld wird geöffnet, in dem du auswählen kannst, welche Ansichten in der Gruppe erscheinen sollen, den Maßstab der Gruppe und andere Parameter   *
 
 
 </div>
@@ -44,15 +44,15 @@ Wenn du nur eine einzige Ansicht erzeugen möchtest, ist es nicht von Vorteil, P
 
 ## Eigenschaften
 
--    {{PropertyData/de|Anker}}: Die zentrale Ansicht in der Projektionsgruppe. Normalerweise die Vorderansicht.
+-    {{PropertyData/de|Anker}}   * Die zentrale Ansicht in der Projektionsgruppe. Normalerweise die Vorderansicht.
 
--    {{PropertyData/de|ProjektionsTyp}}: \"Erster Winkel\" oder \"Dritter Winkel\".
+-    {{PropertyData/de|ProjektionsTyp}}   * \"Erster Winkel\" oder \"Dritter Winkel\".
 
--    {{PropertyData/de|AutoVerteilung}}: Wenn true, werden einzelne Ansichten automatisch ausgeblendet. Verwende false zur manuellen Positionierung.
+-    {{PropertyData/de|AutoVerteilung}}   * Wenn true, werden einzelne Ansichten automatisch ausgeblendet. Verwende false zur manuellen Positionierung.
 
--    {{PropertyData/de|AbstandX}}: Horizontaler Abstand zwischen den Ansichten bei automatischer Positionierung. Beachte, dass auch der Maßstab und die Größe der anderen Ansichten in der Gruppe den Abstand beeinflussen.
+-    {{PropertyData/de|AbstandX}}   * Horizontaler Abstand zwischen den Ansichten bei automatischer Positionierung. Beachte, dass auch der Maßstab und die Größe der anderen Ansichten in der Gruppe den Abstand beeinflussen.
 
--    {{PropertyData/de|AbstandY}}: Vertikaler Abstand zwischen den Ansichten bei automatischer Anordnung.
+-    {{PropertyData/de|AbstandY}}   * Vertikaler Abstand zwischen den Ansichten bei automatischer Anordnung.
 
 Die Projektionsgruppe als Ganzes erbt X, Y, MaßstabsTyp, Maßstab und Drehung aus der Basisansicht.
 
@@ -65,7 +65,7 @@ Beachte, dass der mittlere Kasten die aktuelle Projektionsrichtung der primären
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -75,13 +75,13 @@ Das NeueProjGruppe Werkzeug kann in [Makros](Macros/de.md) und von der [Python](
 ```python
     #make a page
     print("making a page")
-    page = FreeCAD.ActiveDocument.addObject('TechDraw::DrawPage','Page')
-    FreeCAD.ActiveDocument.addObject('TechDraw::DrawSVGTemplate','Template')
+    page = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawPage','Page')
+    FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawSVGTemplate','Template')
     FreeCAD.ActiveDocument.Template.Template = templateFileSpec
     FreeCAD.ActiveDocument.Page.Template = FreeCAD.ActiveDocument.Template
 
     #make projection group
-    group = FreeCAD.ActiveDocument.addObject('TechDraw::DrawProjGroup','ProjGroup')
+    group = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawProjGroup','ProjGroup')
     rc = page.addView(group)
     group.Source = [fusion]
 
@@ -104,7 +104,7 @@ Das NeueProjGruppe Werkzeug kann in [Makros](Macros/de.md) und von der [Python](
 
 ```
 
-Programmierhinweis: Die Projektionsgruppe sollte immer zur Seite hinzugefügt werden (z.B. page.addView(group), bevor Projektionen zur Gruppe hinzugefügt werden. Dies ermöglicht es der Projektionsgruppe, von der übergeordneten Seite abgeleitete Standardparameterwerte zu verwenden.
+Programmierhinweis   * Die Projektionsgruppe sollte immer zur Seite hinzugefügt werden (z.B. page.addView(group), bevor Projektionen zur Gruppe hinzugefügt werden. Dies ermöglicht es der Projektionsgruppe, von der übergeordneten Seite abgeleitete Standardparameterwerte zu verwenden.
 
 
 

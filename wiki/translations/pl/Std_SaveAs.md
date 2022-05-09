@@ -1,43 +1,44 @@
 ---
-- GuiCommand:
-   Name:Std SaveAs
-   MenuLocation:File → Save As...
-   Workbenches:All
-   SeeAlso:[Std SaveCopy](Std_SaveCopy.md), [Std Save](Std_Save.md)
+- GuiCommand   *
+   Name   *Std SaveAs
+   Name/pl   *Std   * Zapisz jako
+   MenuLocation   *Plik → Zapisz jako ...
+   Workbenches   *wszystkie
+   SeeAlso   *[Zapisz jako kopię](Std_SaveCopy/pl.md), [Zapisz](Std_Save/pl.md)
 ---
 
 # Std SaveAs/pl
 
-## Description
+## Opis
 
-The **Std SaveAs** command saves the active document under a new file name.
+Polecenie **Zapisz jako** zapisuje aktywny dokument w pliku pod nową nazwą.
 
-## Usage
+## Użycie
 
-1.  Select the **File → <img src="images/Std_SaveAs.svg" width=16px> Save As...** option from the menu.
-2.  Enter a filename in the dialog box.
-3.  Press the **Save** button.
+1.  Wybierz z menu opcję **Plik → <img src="images/Std_SaveAs.svg" width=16px> Zapisz jako ...**.
+2.  Wprowadź nazwę pliku w oknie dialogowym.
+3.  Naciśnij przycisk **Zapisz**.
 
-## Options
+## Opcje
 
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
-## Notes
+## Uwagi
 
--   This command can also be used to save dependency graphs. See [Std DependencyGraph](Std_DependencyGraph.md).
+-   Tego polecenia można również użyć do zapisania grafów zależności. Zobacz informacje na stronie [Graf zależności](Std_DependencyGraph/pl.md).
 
-## Preferences
+## Ustawienia
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To save a document under a new name use the `saveAs` method of the document object. For a scripting example see [Std New](Std_New.md).
+Aby zapisać dokument pod nową nazwą, należy użyć metody `saveAs` obiektu *document*. Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/pl#Tworzenie_skrypt.C3.B3w.md).
 
 
 

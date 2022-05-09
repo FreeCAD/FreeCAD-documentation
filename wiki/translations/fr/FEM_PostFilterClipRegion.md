@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FEM PostFilterClipRegion
-   Name/fr:FEM Filtre d'écrêtage d'une région
-   MenuLocation:Résultats → Filtre d'écrêtage de la région
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
+- GuiCommand   */fr
+   Name   *FEM PostFilterClipRegion
+   Name/fr   *FEM Filtre d'écrêtage d'une région
+   MenuLocation   *Résultats → Filtre d'écrêtage de la région
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterClipRegion/fr
@@ -16,7 +16,7 @@ Filtre un champ à l\'aide d\'une sphère ou d\'un plan coupant le modèle.
 ## Utilisation
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé.
-2.  Lancez la commande de l\'une des façons suivantes :
+2.  Lancez la commande de l\'une des façons suivantes    *
     -   Appuyez sur le bouton **<img src="images/FEM_PostFilterClipRegion.svg" width=16px> [Filtre d'écrêtage de la région](FEM_PostFilterClipRegion/fr.md)**.
     -   Sélectionnez l\'option **Résultats → <img src="images/FEM_PostFilterClipRegion.svg" width=16px> Filtre d'écrêtage de la région** dans le menu.
 3.  Ajustez les **Options d'affichage des résultats** comme pour le pipeline [pipeline de résultats](FEM_PostPipelineFromResult/fr.md). Cachez ce pipeline pour voir l\'effet d\'un filtre d\'écrêtage de la région.

@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/ro
-   Name:Arch Stairs
-   Name/ro:Arch Stairs
-   MenuLocation:Arch → Stairs
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:**S** **R**
-   SeeAlso:[[Arch Structure/ro]], [[Arch Equipment/ro]]
-   Version:0.14
+- GuiCommand   */ro
+   Name   *Arch Stairs
+   Name/ro   *Arch Stairs
+   MenuLocation   *Arch → Stairs
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   Shortcut   ***S** **R**
+   SeeAlso   *[[Arch Structure/ro]], [[Arch Equipment/ro]]
+   Version   *0.14
 ---
 
 # Arch Stairs/ro
@@ -29,12 +29,12 @@ Instrumentul Scara vă permite să construiți automat mai multe tipuri de scăr
 
 <div class="mw-translate-fuzzy">
 
-A se vedea [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) pentru o definiție a diferitor termeni utilizați pentru a descrie piese/părți ale scărilor. (pentru liMba română avem <https://www.spatiulconstruit.ro/ghid-de-constructii/scari-notiuni-generale-clasificari/9> )
+A se vedea [Stairs entry in wikipedia](http   *//en.wikipedia.org/wiki/Stairs) pentru o definiție a diferitor termeni utilizați pentru a descrie piese/părți ale scărilor. (pentru liMba română avem <https   *//www.spatiulconstruit.ro/ghid-de-constructii/scari-notiuni-generale-clasificari/9> )
 
 
 </div>
 
-<img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Stairs_example.jpg  style="width   *640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -75,29 +75,29 @@ A se vedea [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) pent
 
 {{TitleProperty|Segment and Parts}}
 
--    **Abs Top|Vector**: (read-only) The absolute top level the stairs lead to.
+-    **Abs Top|Vector**   * (read-only) The absolute top level the stairs lead to.
 
--    **Last Segment|Link**: Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
+-    **Last Segment|Link**   * Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
 
--    **Outline Left|VectorList**: The left outline of the stairs.
+-    **Outline Left|VectorList**   * The left outline of the stairs.
 
--    **Outline Left All|VectorList**: The left outline of all segments of the stairs.
+-    **Outline Left All|VectorList**   * The left outline of all segments of the stairs.
 
--    **Outline Right|VectorList**: The right outline of the stairs.
+-    **Outline Right|VectorList**   * The right outline of the stairs.
 
--    **Outline Right All|VectorList**: The right outline of all segments of the stairs.
+-    **Outline Right All|VectorList**   * The right outline of all segments of the stairs.
 
--    **Railing Height Left|Length**: Height of the left railing of the stairs or landing.
+-    **Railing Height Left|Length**   * Height of the left railing of the stairs or landing.
 
--    **Railing Height Right|Length**: Height of the right railing of the stairs or landing.
+-    **Railing Height Right|Length**   * Height of the right railing of the stairs or landing.
 
--    **Railing Left|String**: Name of the left railing object.
+-    **Railing Left|String**   * Name of the left railing object.
 
--    **Railing Offset Left|Length**: Offset of the left railing from the edge of the stairs or landing.
+-    **Railing Offset Left|Length**   * Offset of the left railing from the edge of the stairs or landing.
 
--    **Railing Offset Right|Length**: Offset of the right railing from the edge of the stairs or landing.
+-    **Railing Offset Right|Length**   * Offset of the right railing from the edge of the stairs or landing.
 
--    **Railing Right|String**: Name of the right railing object.
+-    **Railing Right|String**   * Name of the right railing object.
 
 
 {{TitleProperty|Stairs}}
@@ -105,15 +105,15 @@ A se vedea [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) pent
 
 <div class="mw-translate-fuzzy">
 
--    **Align**: Alinerea acestor scări cu linia de bază, dacă se poate aplica.
+-    **Align**   * Alinerea acestor scări cu linia de bază, dacă se poate aplica.
 
--    **Base**: The baseline of these stairs, if any.
+-    **Base**   * The baseline of these stairs, if any.
 
--    **Height**: The total height of these stairs, if not based on a baseline, or the baseline is horizontal.
+-    **Height**   * The total height of these stairs, if not based on a baseline, or the baseline is horizontal.
 
--    **Length**: The total length of these stairs if no baseline is defined.
+-    **Length**   * The total length of these stairs if no baseline is defined.
 
--    **Width**: Lățimea acestor scări.
+-    **Width**   * Lățimea acestor scări.
 
 
 </div>
@@ -129,15 +129,15 @@ Steps
 
 <div class="mw-translate-fuzzy">
 
--    **Nosing**: Mărimea proeminenței treptei (nasul).
+-    **Nosing**   * Mărimea proeminenței treptei (nasul).
 
--    **Number of Steps**: Numărul de trepte a scării.
+-    **Number of Steps**   * Numărul de trepte a scării.
 
--    **Riser Height**: Înălțimea contratreptei.
+-    **Riser Height**   * Înălțimea contratreptei.
 
--    **Tread Depth**: Adâncimea treptei.
+-    **Tread Depth**   * Adâncimea treptei.
 
--    **Tread Thickness**: Grosimea treptelor.
+-    **Tread Thickness**   * Grosimea treptelor.
 
 
 </div>
@@ -153,17 +153,17 @@ Structure
 
 <div class="mw-translate-fuzzy">
 
--    **Landings**: Tipul odihnelor/palierelor.
+-    **Landings**   * Tipul odihnelor/palierelor.
 
--    **Stringer Offset**: The offset between the border of the stairs and the structure.
+-    **Stringer Offset**   * The offset between the border of the stairs and the structure.
 
--    **Stringer Width**: Lățimea vangurilor/lonjeroanelor.
+-    **Stringer Width**   * Lățimea vangurilor/lonjeroanelor.
 
--    **Structure**: Tipul și structura acestor scări.
+-    **Structure**   * Tipul și structura acestor scări.
 
--    **Structure Thickness**: Grosimea structurii.
+-    **Structure Thickness**   * Grosimea structurii.
 
--    **Winders**: Tipul treptelor de schimbare a direcției (mai înguste pe o latură).
+-    **Winders**   * Tipul treptelor de schimbare a direcției (mai înguste pe o latură).
 
 
 </div>
@@ -177,8 +177,8 @@ Structure
 
 -   Instrumetnul este disponibil de la versiunea FreeCAD 0.14 sau una mai recentă
 -   Momentan sunt disponibile doar scări drepte
--   Consultați intrarea forumului [forum entry](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534) pentru scări circulare.
--   A se vedea [forum announcement](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564)..
+-   Consultați intrarea forumului [forum entry](http   *//forum.freecadweb.org/viewtopic.php?f=23&t=6534) pentru scări circulare.
+-   A se vedea [forum announcement](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=4564)..
 
 
 </div>
@@ -196,7 +196,7 @@ Structure
 
 <div class="mw-translate-fuzzy">
 
-Stairs pot fi creat din scripturi Python și [macros](macros.md) utilizând urmăotarea funcție:
+Stairs pot fi creat din scripturi Python și [macros](macros.md) utilizând urmăotarea funcție   *
 
 
 </div>

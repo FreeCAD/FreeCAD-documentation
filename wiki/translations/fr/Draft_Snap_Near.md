@@ -1,16 +1,16 @@
 ---
-- GuiCommand:/fr
-   Name:Draft Snap Near
-   Name/fr:Draft Aimantation Le plus proche
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Draft Aimantation](Draft_Snap/fr.md), [Draft Aimantation Verrouiller](Draft_Snap_Lock/fr.md)
+- GuiCommand   */fr
+   Name   *Draft Snap Near
+   Name/fr   *Draft Aimantation Le plus proche
+   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[Draft Aimantation](Draft_Snap/fr.md), [Draft Verrouillage de l'aimantation](Draft_Snap_Lock/fr.md)
 ---
 
 # Draft Snap Near/fr
 
 ## Description
 
-L\'option <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Draft Aimantation Le plus proche** permet de s\'aimanter au point le plus proche sur les faces ou les arêtes. Les faces et les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
+L\'option <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width   *24px;"> **Draft Aimantation Le plus proche** permet de s\'aimanter au point le plus proche sur les faces ou les arêtes. Les faces et les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
 
 ![](images/Draft_Snap_Near_example.png ) 
 *Aimantation du deuxième point d'une ligne au point le plus proche d'une arête*
@@ -19,10 +19,10 @@ L\'option <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> *
 
 Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Draft_Snap/fr.md).
 
-1.  Assurez-vous que l\'aimantation est activé. Voir <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;">. [Draft Aimantation Verrouiller](Draft_Snap_Lock/fr.md).
-2.  Si **Draft Aimantation Le plus proche** n\'est pas actif, faites l\'une des choses suivantes :
+1.  Assurez-vous que l\'aimantation est activé. Voir <img alt="" src=images/Draft_Snap_Lock.svg  style="width   *16px;">. [Draft Verrouillage de l\'aimantation](Draft_Snap_Lock/fr.md).
+2.  Si **Draft Aimantation Le plus proche** n\'est pas actif, faites l\'une des choses suivantes    *
     -   Appuyez sur le bouton **<img src="images/Draft_Snap_Near.svg" width=16px>** de la barre d\'outils Draft Aimantation.
-    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu, sélectionnez l\'option **<img src="images/Draft_Snap_Near.svg" width=16px> Aimantation le plus proche**.
+    -   Appuyez sur le bouton **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu, sélectionnez l\'option **<img src="images/Draft_Snap_Near.svg" width=16px> Aimanter au plus proche (OFF)**.
 3.  Choisissez une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
 4.  Notez que vous pouvez également modifier les options d\'aimantation lorsqu\'une commande est active.
 5.  Déplacez le curseur sur une face ou une arête.

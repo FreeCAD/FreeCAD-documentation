@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Rebar Stirrup
-   Name/fr:Arch Rebar Armature en étrier
-   MenuLocation:Arch → Rebar tools → Stirrup<br>3D/BIM → Reinforcement tools → Stirrup
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature hélicoïdale](Arch_Rebar_Helical/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Rebar Stirrup
+   Name/fr   *Arch Rebar Armature en étrier
+   MenuLocation   *Arch → Rebar tools → Stirrup<br>3D/BIM → Reinforcement tools → Stirrup
+   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version   *0.17
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature hélicoïdale](Arch_Rebar_Helical/fr.md)
 ---
 
 # Arch Rebar Stirrup/fr
@@ -16,9 +16,9 @@ L\'outil [Stirrup Rebar](Arch_Rebar_Stirrup/fr.md) permet à l\'utilisateur de c
 
 L\'outil [Stirrup Rebar](Arch_Rebar_Stirrup/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width   *400px;"> 
 *Un jeu de barres de renfort en étrié à l'intérieur d'une [Arch Structure](Arch_Structure/fr.md)*
 
 ## Utilisation
@@ -43,7 +43,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 9.  Cliquez sur **Cancel** pour quitter le panneau de tâches.
 
-:   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
+   *   <img alt="" src=images/StirrupDialog.png  style="width   *250px;">
 
 
 
@@ -51,32 +51,32 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
--    {{PropertyData/fr|Front Cover}}: La distance entre l\'armature et la face sélectionnée.
+-    {{PropertyData/fr|Front Cover}}   * La distance entre l\'armature et la face sélectionnée.
 
--    {{PropertyData/fr|Right Cover}}: La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
+-    {{PropertyData/fr|Right Cover}}   * La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
 
--    {{PropertyData/fr|Left Cover}}: La distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
+-    {{PropertyData/fr|Left Cover}}   * La distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'armature et la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Cover}}   * La distance entre l\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Top Cover}}: La distance entre l\'armature et la face supérieure de la structure.
+-    {{PropertyData/fr|Top Cover}}   * La distance entre l\'armature et la face supérieure de la structure.
 
--    {{PropertyData/fr|Bent Angle}}: L\'angle de pliage définit l\'angle aux extrémités d\'un étrier.
+-    {{PropertyData/fr|Bent Angle}}   * L\'angle de pliage définit l\'angle aux extrémités d\'un étrier.
 
--    {{PropertyData/fr|Bent Factor}}: Définit la longueur de l\'extrémité de l\'étrier.
+-    {{PropertyData/fr|Bent Factor}}   * Définit la longueur de l\'extrémité de l\'étrier.
 
--    {{PropertyData/fr|Amount}}: La quantité de barres d\'armature.
+-    {{PropertyData/fr|Amount}}   * La quantité de barres d\'armature.
 
--    {{PropertyData/fr|Spacing}}: La distance entre les axes de chaque barre.
+-    {{PropertyData/fr|Spacing}}   * La distance entre les axes de chaque barre.
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature en étrier peut être utilisé dans une [macro](macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante : 
+L\'outil Armature en étrier peut être utilisé dans une [macro](macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante    * 
 ```python
 Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
                     bentAngle, bentFactor, diameter, rounding, amount_spacing_check, amount_spacing_value,
@@ -138,6 +138,14 @@ import Stirrup
 Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
                     100, 4, 14, 8, True, 8)
 ```
+
+
+
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

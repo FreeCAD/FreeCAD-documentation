@@ -1,6 +1,6 @@
 # Part Mirror/ro
 ---
-- GuiCommand:   Name:Part Mirror   MenuLocation:Part -> Mirror   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso:
+- GuiCommand   *   Name   *Part Mirror   MenuLocation   *Part -> Mirror   Workbenches   *[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso   *
 
 
 </div>
@@ -17,7 +17,7 @@
 
 </div>
 
-Un exemplu:
+Un exemplu   *
 
 ![Before](images/PARTMirrorBeforev11.png )
 
@@ -73,6 +73,8 @@ Casetele **Base point** pot fi utilizate pentru a mișca planul oglinzii paralel
   **XZ**           **X**, **Z**     No effect.
   **YZ**           **X**            Move mirror plane along **X** axis.
   **YZ**           **Y**, **Z**     No effect.
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

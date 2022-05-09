@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Part Defeaturing
-   Name/ru:Part Defeaturing
-   MenuLocation:Деталь → Удаление элемента
-   Workbenches:[Part](Part_Workbench/ru.md)
-   Version:0.18
+- GuiCommand   */ru
+   Name   *Part Defeaturing
+   Name/ru   *Part Defeaturing
+   MenuLocation   *Деталь → Удаление элемента
+   Workbenches   *[Part](Part_Workbench/ru.md)
+   Version   *0.18
 ---
 
 # Part Defeaturing/ru
@@ -16,7 +16,7 @@
 
 The **Defeaturing** tool is intended for removal of selected features from the model. In this context, features are meant as holes, protrusions, gaps, chamfers, fillets etc. found on the model.
 
-The defeaturing tool can be very useful in different contexts:
+The defeaturing tool can be very useful in different contexts   *
 
 -   To edit an imported solid where no history of operations is available.
 -   Fixing defects in the model, e.g. filling gaps, holes etc.
@@ -36,7 +36,7 @@ To be available, this tool requires FreeCAD to be based on Open Cascade 7.3.0 or
 
 ## Ссылки
 
--   [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211), the official announcement on the Open Cascade collaborative development portal.
+-   [3D Model Defeaturing](https   *//dev.opencascade.org/index.php?q=node/1211), the official announcement on the Open Cascade collaborative development portal.
 
 
 <div class="mw-translate-fuzzy">

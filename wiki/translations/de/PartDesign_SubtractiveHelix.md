@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign SubtractiveHelix
-   Name/de:PartDesign Subtraktive Helix
-   MenuLocation:PartDesign → Create a subtractive feature → Subtraktive Helix
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[PartDesign Additive Helix](PartDesign_AdditiveHelix/de.md)
+- GuiCommand   */de
+   Name   *PartDesign SubtractiveHelix
+   Name/de   *PartDesign Subtraktive Helix
+   MenuLocation   *PartDesign → Create a subtractive feature → Subtraktive Helix
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[PartDesign Additive Helix](PartDesign_AdditiveHelix/de.md)
 ---
 
 # PartDesign SubtractiveHelix/de
@@ -42,11 +42,11 @@ Der Dialog **Helix parameters** bietet verschiedene Parameter an, wie die Zeichn
 
 Diese Option legt die Achse fest, um die die Skizze geführt werden soll.
 
--   **Vertical sketch axis**: wählt die vertikale Skizzen-Achse.
--   **Horizontal sketch axis**: wählt die horizontale Skizzen-Achse.
--   **Construction line**: wählt eine eine Konstruktionslinie der Skizze, die für die Helix genutzt wird. In der Drop-Down-Liste ist jede Konstruktionslinie vorhanden.Die erste in der Skizze erstellte Konsruktionslinie hat die Bezeichnung *Construction line 1*.
--   **Base (X/Y/Z) axis**: wählt die X, Y or Z Achse des Ursprungs des Körpers.
--   **Select reference\...**: erlaubt in der 3D-Ansicht die Auswahl einer Kante auf dem Körper oder eine [Datum Linie](PartDesign_Line.md).
+-   **Vertical sketch axis**   * wählt die vertikale Skizzen-Achse.
+-   **Horizontal sketch axis**   * wählt die horizontale Skizzen-Achse.
+-   **Construction line**   * wählt eine eine Konstruktionslinie der Skizze, die für die Helix genutzt wird. In der Drop-Down-Liste ist jede Konstruktionslinie vorhanden.Die erste in der Skizze erstellte Konsruktionslinie hat die Bezeichnung *Construction line 1*.
+-   **Base (X/Y/Z) axis**   * wählt die X, Y or Z Achse des Ursprungs des Körpers.
+-   **Select reference\...**   * erlaubt in der 3D-Ansicht die Auswahl einer Kante auf dem Körper oder eine [Datum Linie](PartDesign_Line.md).
 
 
 </div>
@@ -56,7 +56,7 @@ Diese Option legt die Achse fest, um die die Skizze geführt werden soll.
 
 <div class="mw-translate-fuzzy">
 
-Dieser Parameter definiert die Art der Helix. Zulässige Auswahlen sind: Pitch-Height (Steigung), Pitch-Turns (Umdrehungen) und Height-Turns (Umdrehungshöhe).
+Dieser Parameter definiert die Art der Helix. Zulässige Auswahlen sind   * Pitch-Height (Steigung), Pitch-Turns (Umdrehungen) und Height-Turns (Umdrehungshöhe).
 
 
 </div>
@@ -78,7 +78,7 @@ Die Anzahl der Umdrehungen der Helix. Ergibt sich aus Höhe/Abstand zwischen den
 
 <div class="mw-translate-fuzzy">
 
-Der Winkel mit dem der Radius der Helix zu- oder abnimmt. Zulässige Werte: \[-89°, +89°\].
+Der Winkel mit dem der Radius der Helix zu- oder abnimmt. Zulässige Werte   * \[-89°, +89°\].
 
 
 </div>
@@ -108,35 +108,35 @@ Eine subtraktive Helix, die sich nicht selbst überschneidet ist sichtbar, wenn 
 
 <div class="mw-translate-fuzzy">
 
--    **Pitch**: Der axiale Abstand zwischen zwei Umdrehungen.
+-    **Pitch**   * Der axiale Abstand zwischen zwei Umdrehungen.
 
--    **Height**: Die Gesamtlänge der Helix (ohne Berücksichtigung des Umfangs des Profils)
+-    **Height**   * Die Gesamtlänge der Helix (ohne Berücksichtigung des Umfangs des Profils)
 
--    **Turns**: Die Anzahl der Umdrehungen (muss keine Ganzzahl sein).
+-    **Turns**   * Die Anzahl der Umdrehungen (muss keine Ganzzahl sein).
 
--    **Left Handed**: links drehend, gegen den Uhrzeigersinn
+-    **Left Handed**   * links drehend, gegen den Uhrzeigersinn
 
--    **Reversed**: true oder false. Siehe [Reversed](#Reversed.md).
+-    **Reversed**   * true oder false. Siehe [Reversed](#Reversed.md).
 
--    **Angle**: Der Winkel mit dem der Radius der Helix zu- oder abnimmt. Zulässige Werte: \[-89°, +89°\].
+-    **Angle**   * Der Winkel mit dem der Radius der Helix zu- oder abnimmt. Zulässige Werte   * \[-89°, +89°\].
 
--    **Reference axis**: Die Helix Achse.
+-    **Reference axis**   * Die Helix Achse.
 
--    **Mode**: Die Helix Eingabeart: (pitch-height, pitch-turns, turns-height)
+-    **Mode**   * Die Helix Eingabeart   * (pitch-height, pitch-turns, turns-height)
 
--    **Outside**: Wenn \"true\", ist das Ergebnis der Schnitt des überstrichenen Profils und des bereits vorhandenen Körpers.
+-    **Outside**   * Wenn \"true\", ist das Ergebnis der Schnitt des überstrichenen Profils und des bereits vorhandenen Körpers.
 
--    **Has Been Edited**: Wenn \"false\", wird ein Initialwert aufgrund der \"profile bounding box\"vorgeschlagen so dass die Selbstüberschneidung vermieden wird.
+-    **Has Been Edited**   * Wenn \"false\", wird ein Initialwert aufgrund der \"profile bounding box\"vorgeschlagen so dass die Selbstüberschneidung vermieden wird.
 
--    **Refine**: true oder false. Wenn diese Option auf \"true\" gesetzt ist, wird der Volumenkörper von den verbleibenden Kanten befreit, die von Features hinterlassen wurden. Siehe [Part RefineShape](Part_RefineShape/de.md) für weitere Details.
+-    **Refine**   * true oder false. Wenn diese Option auf \"true\" gesetzt ist, wird der Volumenkörper von den verbleibenden Kanten befreit, die von Features hinterlassen wurden. Siehe [Part RefineShape](Part_RefineShape/de.md) für weitere Details.
 
--    **Profile**: Entweder eine Skizze mit einer geschlossenen Kontur oder eine Fläche.
+-    **Profile**   * Entweder eine Skizze mit einer geschlossenen Kontur oder eine Fläche.
 
--    **Midplane**: Nicht genutzt.
+-    **Midplane**   * Nicht genutzt.
 
--    **Up to face**: Nicht genutzt.
+-    **Up to face**   * Nicht genutzt.
 
--    **Allow multiple face**: Nicht genutzt.
+-    **Allow multiple face**   * Nicht genutzt.
 
 
 </div>

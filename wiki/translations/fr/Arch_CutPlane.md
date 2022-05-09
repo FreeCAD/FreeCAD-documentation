@@ -1,26 +1,26 @@
 ---
-- GuiCommand:/fr
-   Name:Arch CutPlane
-   Name/fr:Arch Couper selon un plan
-   MenuLocation:Arch → Couper selon un plan
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Couper selon une ligne](Arch_CutLine/fr.md), [Arch Soustraire](Arch_Remove/fr.md)
+- GuiCommand   */fr
+   Name   *Arch CutPlane
+   Name/fr   *Arch Couper selon un plan
+   MenuLocation   *Arch → Couper selon un plan
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[Arch Couper selon une ligne](Arch_CutLine/fr.md), [Arch Soustraire](Arch_Remove/fr.md)
 ---
 
 # Arch CutPlane/fr
 
 ## Description
 
-L\'outil Couper selon un plan vous permet de couper un objet Arch selon un plan:
+L\'outil Couper selon un plan vous permet de couper un objet Arch selon un plan   *
 
 -   Vous pouvez couper un objet Arch avec la face sélectionnée, normale ou opposée au plan de la face.
 -   Cela ajoute un composant de soustraction CutVolume à l\'objet Arch
 
-<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_CutPlane_example.jpg  style="width   *640px;">
 
 
 
-*A gauche: avant d'appliquer l'outil Couper selon un plan. Milieu: mur résultant après la coupe. À droite: encore un autre résultat facultatif*
+*A gauche   * avant d'appliquer l'outil Couper selon un plan. Milieu   * mur résultant après la coupe. À droite   * encore un autre résultat facultatif*
 
 ## Utilisation
 
@@ -32,11 +32,11 @@ L\'outil Couper selon un plan vous permet de couper un objet Arch selon un plan:
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Couper selon un plan peut être utilisé dans une [macro](Macros/fr.md), et, à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : 
+L\'outil Couper selon un plan peut être utilisé dans une [macro](Macros/fr.md), et, à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante    * 
 ```python
 cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 ```
@@ -54,7 +54,7 @@ cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 
 -    `sideFace`indique de quel côté de `FaceObject` un volume sera créé; ce volume sera ensuite utilisé pour être soustrait de `archObject`. Si `sideFace` vaut `0`, cela créera un volume à l\'arrière de la face, sinon il le créera devant la face.
 
-Exemple: 
+Exemple   * 
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 

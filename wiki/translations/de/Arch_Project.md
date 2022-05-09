@@ -1,18 +1,18 @@
 ---
-- GuiCommand:/de
-   Name:Arch Project
-   Name/de:Architektur Projekt
-   MenuLocation:Architektur → Projekt
-   Workbenches:[Arch-Arbeitsbereich](Arch_Workbench.md)
-   Shortcut:**P** **O**/de
-   SeeAlso:[Architektur Grundstück](Arch_Site/de.md), [Architektur Gebäude](Arch_Building/de.md)
+- GuiCommand   */de
+   Name   *Arch Project
+   Name/de   *Architektur Projekt
+   MenuLocation   *Architektur → Projekt
+   Workbenches   *[Arch-Arbeitsbereich](Arch_Workbench.md)
+   Shortcut   ***P** **O**/de
+   SeeAlso   *[Architektur Grundstück](Arch_Site/de.md), [Architektur Gebäude](Arch_Building/de.md)
 ---
 
 # Arch Project/de
 
 ## Beschreibung
 
-Das Arch Projekt ist ein spezielles Objekt, das geeignet ist, eine bessere Kompatibilität mit [IFC](Arch_IFC/de.md) Dateien hinzuzufügen. Jede IFC Datei muss eine [IfcProject](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm) Einheit enthalten. Das IfcProjekt wird meist verwendet, um allgemeine Projekteinstellungen wie Projektionssysteme, für GIS Kompatibilität oder Einheitensysteme zu definieren.
+Das Arch Projekt ist ein spezielles Objekt, das geeignet ist, eine bessere Kompatibilität mit [IFC](Arch_IFC/de.md) Dateien hinzuzufügen. Jede IFC Datei muss eine [IfcProject](https   *//standards.buildingsmart.org/IFC/RELEASE/IFC4_1/FINAL/HTML/schema/ifckernel/lexical/ifcproject.htm) Einheit enthalten. Das IfcProjekt wird meist verwendet, um allgemeine Projekteinstellungen wie Projektionssysteme, für GIS Kompatibilität oder Einheitensysteme zu definieren.
 
 Wenn ein FreeCAD Modell in das IFC Dateiformat exportiert wird und dein Modell kein Projekt Objekt enthält, wird automatisch ein Standardobjekt erstellt, was in den meisten Fällen ausreichend ist. Möglicherweise möchtest du jedoch in der Lage sein, die Projekteinstellungen fein abzustimmen, in diesem Fall kann das Hinzufügen eines Projekt Objektes nützlich sein. Wenn eine IFC Datei importiert wird, wird immer ein Projekt Objekt erstellt. Wenn es jedoch nicht ausdrücklich verwendet wird, kannst du es nach dem Import einfach löschen.
 

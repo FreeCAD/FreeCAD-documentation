@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Arch 3Views
-   Name/fr:Arch 3 Vues depuis un maillage
-   MenuLocation: Arch → Utilitaires → 3 vues depuis un maillage
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
+- GuiCommand   */fr
+   Name   *Arch 3Views
+   Name/fr   *Arch 3 Vues depuis un maillage
+   MenuLocation   * Arch → Utilitaires → 3 vues depuis un maillage
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
 ---
 
 # Arch 3Views/fr
@@ -24,11 +24,11 @@ Elle servira à générer des vues planes, basées sur des formes, à partir d\'
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md) et [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante: 
+Cet outil peut être utilisé dans des [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante   * 
 ```python
 shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False, largestonly=False)
 ```
@@ -39,7 +39,7 @@ shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False,
 
 Utilisez `Part.show()` pour afficher la forme plane résultante.
 
-Exemple: 
+Exemple   * 
 ```python
 import FreeCAD, Draft, Arch, Mesh, MeshPart
 
@@ -50,7 +50,7 @@ FreeCAD.ActiveDocument.recompute()
 Shape = Wall.Shape.copy(False)
 Shape.Placement = Wall.getGlobalPlacement()
 
-mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
+mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
 mesh_obj.Mesh = MeshPart.meshFromShape(Shape=Shape, MaxLength=520)
 mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 FreeCAD.ActiveDocument.recompute()

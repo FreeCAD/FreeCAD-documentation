@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Arch Rebar UShape   Name/de:Arch Bewehrungsstab U-förmig
-   MenuLocation:Arch → Rebar tools → Straight Rebar oder 3D/BIM → Reinforcement tools → Gerade Bewehrung
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   SeeAlso:[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md),[L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)
-   Version:0.17
+- GuiCommand   */de
+   Name   *Arch Rebar UShape   Name/de   *Arch Bewehrungsstab U-förmig
+   MenuLocation   *Arch → Rebar tools → Straight Rebar oder 3D/BIM → Reinforcement tools → Gerade Bewehrung
+   Workbenches   *[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   SeeAlso   *[Verstärkung](Reinforcement_Workbench/de.md), [Bewehrungsstab](Arch_Rebar/de.md),[L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)
+   Version   *0.17
 ---
 
 # Arch Rebar UShape/de
@@ -30,9 +30,9 @@ Das **<img src="images/Arch_Rebar_UShape.svg" width=16px>[Bewehrungsstab U-förm
 
 </div>
 
-Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
-<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;">
+<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -64,7 +64,7 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 </div>
 
 
-:   <img alt="" src=images/UShapeDialog.png  style="width:250px;">
+   *   <img alt="" src=images/UShapeDialog.png  style="width   *250px;">
 
 
 
@@ -72,23 +72,23 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 ## Eigenschaften
 
--    **Orientation**: Legt die Ausrichtung der Bewehrungsstäbe fest (\"Bottom Right\", \"Bottom Left\", \"Top Right\" und \"Top Left\").
+-    **Orientation**   * Legt die Ausrichtung der Bewehrungsstäbe fest (\"Bottom Right\", \"Bottom Left\", \"Top Right\" und \"Top Left\").
 
--    **Front Cover**: Der Abstand zwischen Bewehrungsstab und gewählter Fläche.
+-    **Front Cover**   * Der Abstand zwischen Bewehrungsstab und gewählter Fläche.
 
--    **Right Cover**: Der Abstand zwischen dem rechten Ende des Bewehrungsstabs bis zur rechten Fläche der Struktur.
+-    **Right Cover**   * Der Abstand zwischen dem rechten Ende des Bewehrungsstabs bis zur rechten Fläche der Struktur.
 
--    **Left Cover**: Der Abstand zwischen dem linken Ende des Bewehrungsstabs bis zur linken Fläche der Struktur.
+-    **Left Cover**   * Der Abstand zwischen dem linken Ende des Bewehrungsstabs bis zur linken Fläche der Struktur.
 
--    **Bottom Cover**: Der Abstand zwischen Bewehrungsstab bis zur unteren Fläche der Struktur.
+-    **Bottom Cover**   * Der Abstand zwischen Bewehrungsstab bis zur unteren Fläche der Struktur.
 
--    **Top Cover**: Der Abstand zwischen dem Bewehrungsstab bis zur oberen Fläche der Struktur.
+-    **Top Cover**   * Der Abstand zwischen dem Bewehrungsstab bis zur oberen Fläche der Struktur.
 
--    **Rounding**: A rounding value to be applied to the corners of the bars, expressed in times the diameter.
+-    **Rounding**   * A rounding value to be applied to the corners of the bars, expressed in times the diameter.
 
--    **Amount**: Die Anzahl der Bewehrungsstäbe.
+-    **Amount**   * Die Anzahl der Bewehrungsstäbe.
 
--    **Spacing**: Der Abstand zwischen den Achsen der Bewehrungsstäbe.
+-    **Spacing**   * Der Abstand zwischen den Achsen der Bewehrungsstäbe.
 
 ## Scripting
 
@@ -98,7 +98,7 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 ## Scripting 
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
@@ -108,7 +108,7 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 <div class="mw-translate-fuzzy">
 
-Das U-förmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
+Das U-förmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden   *
 
 
 </div>
@@ -211,6 +211,11 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

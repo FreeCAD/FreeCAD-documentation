@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Part ReverseShapes‏‎
-   Name/fr:Part Inverser les formes
-   MenuLocation:Part → Inverser les formes
-   Workbenches:[Part](Part_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Part ReverseShapes‏‎
+   Name/fr   *Part Inverser les formes
+   MenuLocation   *Part → Inverser les formes
+   Workbenches   *[Part](Part_Workbench/fr.md)
 ---
 
 # Part ReverseShapes/fr
@@ -20,14 +20,8 @@ Inverse les normales de toutes les faces de l\'objet sélectionné.
 
 ## Remarques
 
-En exécutant cette commande, FreeCAD renverse les normales de toutes les faces de la forme/du solide.
-
-Vous pouvez le vérifier en
-
-1.  Rendant invisible tous les autres objets sauf la forme inversée.
-2.  Sélectionnez la forme inversée.
-3.  Modifiez **Lighting** de \"Two side\" en \"One side\".
-4.  La forme deviendra noire, ce qui signifie que vous regardez maintenant l\'arrière des faces.
+-   Les objets [App Link](App_Link/fr.md) liés aux types d\'objets appropriés et les conteneurs [App Part](App_Part/fr.md) contenant les objets visibles appropriés peuvent également être utilisés comme objets sources. {{Version/fr|0.20}}
+-   Pour voir l\'effet de la commande, changez la propriété **Lighting** de la forme inversée en {{Value|On side}} et, si nécessaire, modifiez **Edition → Préférences... → Affichage → Rendu → Couleur du rétroéclairage**.
 
 ## Propriétés
 

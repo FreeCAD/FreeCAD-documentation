@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Arch Remove
-   Name/es:Sustraer
-   MenuLocation:Arquitectura → Sustraer
-   Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Añadir](Arch_Add/es.md)
+- GuiCommand   */es
+   Name   *Arch Remove
+   Name/es   *Sustraer
+   MenuLocation   *Arquitectura → Sustraer
+   Workbenches   *[Entorno de Arquitectura](Arch_Workbench/es.md)
+   SeeAlso   *[Añadir](Arch_Add/es.md)
 ---
 
 # Arch Remove/es
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Sustraer te permite hacer dos tipos de operaciones:
+La herramienta Sustraer te permite hacer dos tipos de operaciones   *
 
 -   Eliminar un subcomponente de un objeto de Arquitectura, por ejemplo eliminar un cubo que se ha añadido a un muro, como en el ejemplo de [Añadir](Arch_Add/es.md)
 -   Restar un objeto basado en [formas](Part_Workbench/es.md) de un objeto de Arquitectura como un [muro](Arch_Wall/es.md) o [estructura](Arch_Structure/es.md)
@@ -27,7 +27,7 @@ La herramienta Sustraer te permite hacer dos tipos de operaciones:
 
 The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 
-<img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Remove_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -48,9 +48,9 @@ The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px>
 
 <div class="mw-translate-fuzzy">
 
-1.  Selecciona un subcomponente de un objeto de Arquitectura, **o**:
+1.  Selecciona un subcomponente de un objeto de Arquitectura, **o**   *
 2.  Selecciona objeto(s) a ser sustraídos, y luego el componente de Arquitectura del cual se desean sustraer (el componente de Arquitectura debe ser el último que selecciones)
-3.  Presiona el botón <img alt="" src=images/Arch_Remove.png  style="width:16px;"> 
+3.  Presiona el botón <img alt="" src=images/Arch_Remove.png  style="width   *16px;"> 
 **Sustraer**
 
 
@@ -72,7 +72,7 @@ Or
 
 <div class="mw-translate-fuzzy">
 
-La herramientas Eliminar se puede utilizar en [macros](macros/es.md) y desde la consola de Python mediante la utilización de las siguientes funciones:
+La herramientas Eliminar se puede utilizar en [macros](macros/es.md) y desde la consola de Python mediante la utilización de las siguientes funciones   *
 
 
 </div>
@@ -90,14 +90,14 @@ Elimina los componentes dados de sus padres. Si se especifica un objeto huésped
 
 </div>
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft, Arch
 
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

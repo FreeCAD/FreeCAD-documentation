@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Rocket RailButton
-   MenuLocation:Rocket → Launch Guides → Rail Button
-   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
-   Version:0.19
+- GuiCommand   *
+   Name   *Rocket RailButton
+   MenuLocation   *Rocket → Launch Guides → Rail Button
+   Workbenches   *[Rocket Workbench](Rocket_Workbench.md)
+   Version   *0.19
 ---
 
 # Rocket RailButton/en
@@ -14,7 +14,7 @@ A rail button is a small button attached to the side of the rocket that allows t
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Rocket_RailGuide.svg" width=16px> [Rail Button](Rocket_RailButton.md)** button.
     -   Select the **Rocket → Launch Guides→ <img src="images/Rocket_RailButton.svg" width=16px> Rail Button** option from the menu.
     -   Double click on a Rail Button object in the [Tree view](Tree_view.md).
@@ -24,18 +24,18 @@ A rail button is a small button attached to the side of the rocket that allows t
 
 ### Rail Button Shapes 
 
-Rail buttons have two general shapes:
+Rail buttons have two general shapes   *
 
 -   Round.
 
-<img alt="" src=images/Rocket_RailButtonRound.png  style="width:240px;"> 
+<img alt="" src=images/Rocket_RailButtonRound.png  style="width   *240px;"> 
 *Round Rail Button*
 
 The round shape is the most common and is the simplest to manufacture in bulk. As the name implies, the button is round, with a groove that allows it to fit onto the launch rail. It may be glued to the main body, but is more typically fastened with a screw.
 
 -   Airfoil.
 
-<img alt="" src=images/Rocket_RailButtonAirfoil.png  style="width:240px;"> 
+<img alt="" src=images/Rocket_RailButtonAirfoil.png  style="width   *240px;"> 
 *Airfoiled Rail Button*
 
 The airfoil shape improved on the basic round button by giving it a more streamlined shape. Similar to the round button, it has a groove that allows it to fit on the launch rail. Adding a fillet on the top edges has been shown to further improve aerodynamic performance.
@@ -45,44 +45,52 @@ The airfoil shape improved on the basic round button by giving it a more streaml
 
 {{TitleProperty|Rail Button}}
 
--    **Base Thickness**:
+-    **Base Thickness**   *
 
--    **Countersink Angle**:
+-    **Countersink Angle**   *
 
--    **Fastener**:
+-    **Fastener**   *
 
--    **Fillet Radius**:
+-    **Fillet Radius**   *
 
--    **Filleted Top**:
+-    **Filleted Top**   *
 
--    **Head Diameter**:
+-    **Head Diameter**   *
 
--    **Inner Diameter**:
+-    **Inner Diameter**   *
 
--    **Length**:
+-    **Length**   *
 
--    **Outer Diameter**:
+-    **Outer Diameter**   *
 
--    **Rail Button Type**:
+-    **Rail Button Type**   *
 
--    **Shank Diameter**:
+-    **Shank Diameter**   *
 
--    **Thickness**:
+-    **Thickness**   *
 
--    **Top Thickness**:
+-    **Top Thickness**   *
 
 
 {{TitleProperty|Rocket Component}}
 
 These parameters are provided for information and have no effect on the design of the component.
 
--    **Description**: Description of the component
+-    **Description**   * Description of the component
 
--    **Manufacturer**: Manufacturer when known
+-    **Manufacturer**   * Manufacturer when known
 
--    **Material**: Material when known
+-    **Material**   * Material when known
 
--    **Part Number**: Manufacturer part number
+-    **Part Number**   * Manufacturer part number
+
+
+
+
+
+
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

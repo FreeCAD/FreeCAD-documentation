@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Constraint InternalAngle
-   Name/es:Constraint InternalAngle
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
-   Shortcut:A
-   MenuLocation:Croquizador → Restricciones del Croquizador → Restricción angular
-   SeeAlso:[Restricción distancia](Sketcher_ConstrainDistance/es.md), [Restricción perpendicular](Sketcher_ConstrainPerpendicular/es.md)
+- GuiCommand   */es
+   Name   *Constraint InternalAngle
+   Name/es   *Constraint InternalAngle
+   Workbenches   *[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
+   Shortcut   *A
+   MenuLocation   *Croquizador → Restricciones del Croquizador → Restricción angular
+   SeeAlso   *[Restricción distancia](Sketcher_ConstrainDistance/es.md), [Restricción perpendicular](Sketcher_ConstrainPerpendicular/es.md)
 ---
 
 # Sketcher ConstrainAngle/es
@@ -19,22 +19,22 @@ Angle constraint is a [datum constraint](Sketcher_Workbench#Sketcher_Constraints
 
 ## Usage
 
-There are four different ways the constraint can be applied:
+There are four different ways the constraint can be applied   *
 
 -   to individual lines
 -   between lines
 -   to intersections of curves
 -   to arcs of circles
 
-To apply angle constraint, one should the follow the steps:
+To apply angle constraint, one should the follow the steps   *
 
 1.  Select one, two or three entities in the sketch. The mode will be chosen depending on the selection.
-2.  Invoke the constraint using several methods:
-    -   Pressing the **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Constrain angle](Sketcher_ConstrainAngle.md)** button in the toolbar.
+2.  Invoke the constraint using several methods   *
+    -   Pressing the **[<img src=images/Sketcher_ConstrainAngle.svg style="width   *16px"> [Constrain angle](Sketcher_ConstrainAngle.md)** button in the toolbar.
     -   Using the **K** then **A** keyboard shortcut.
-    -   Using the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Constrain angle** form the top menu entry
+    -   Using the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainAngle.svg style="width   *16px"> Constrain angle** form the top menu entry
 3.  A datum edit dialog box pops up.
-4.  Modify the angle if necessary. **Note:** The angle can be entered as an expression that will be evaluated and the result will be stored.
+4.  Modify the angle if necessary. **Note   *** The angle can be entered as an expression that will be evaluated and the result will be stored.
 5.  Click **OK**
 
 As with any datum constraint, it is possible to change the angle value later by double-clicking the constraint in constraint list or 3d view. Entering a negative value will cause the angle direction to flip.
@@ -43,33 +43,33 @@ As with any datum constraint, it is possible to change the angle value later by 
 
 ### Line slope angle 
 
-**Accepted selection:** line
+**Accepted selection   *** line
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width   *600px;">
 
 The constraint sets the polar angle of line\'s direction. It is the angle between the line and X axis of the sketch.
 
 ### Span of a circular arc 
 
-**Accepted selection:** arc of circle
+**Accepted selection   *** arc of circle
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width   *600px;">
 
 In this mode, the constraint fixes angular span of a circular arc.
 
 ### Between lines 
 
-**Accepted selection:** line + line
+**Accepted selection   *** line + line
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width   *600px;">
 
 In this mode, the constraint sets the angle between two lines. It is not required that the lines intersect.
 
 ### Between curves at intersection (angle-via-point) 
 
-**Accepted selection:** any line/curve + any line/curve + any point
+**Accepted selection   *** any line/curve + any line/curve + any point
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width   *600px;">
 
 In this mode, angle between two curves is constrained at the point of their intersection. The intersection point can be on curves\' extensions. The point should be specified explicitly, since curves typically intersect in more than one point.
 
@@ -77,7 +77,7 @@ For the constraint to work correctly, the point must be on both curves. So, as t
 
 ## Scripting
 
-Angle Constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following: 
+Angle Constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following   * 
 ```python
 # line slope angle
 Sketch.addConstraint(Sketcher.Constraint('Angle',iline,angle))
@@ -90,17 +90,17 @@ Sketch.addConstraint(Sketcher.Constraint('Angle',iline1,pointpos1,iline2,pointpo
 
 # angle-via-point (no helper constraints are added automatically when from python)
 Sketch.addConstraint(Sketcher.Constraint('AngleViaPoint',icurve1,icurve2,geoidpoint,pointpos,angle))
-``` where:
+``` where   *
 
-:\* `Sketch` is a sketch object
+   ** `Sketch` is a sketch object
 
-:\* `iline, iline1, iline2` are integers specifying the lines by their ordinal numbers in `Sketch`.
+   ** `iline, iline1, iline2` are integers specifying the lines by their ordinal numbers in `Sketch`.
 
-:\* `pointpos1, pointpos2` should be 1 for start point and 2 for end point. The choice of endpoints allows to set internal angle (or external), and it affects how the constraint is drawn on the screen.
+   ** `pointpos1, pointpos2` should be 1 for start point and 2 for end point. The choice of endpoints allows to set internal angle (or external), and it affects how the constraint is drawn on the screen.
 
-:\* `geoidpoint` and `pointpos` in `AngleViaPoint` are the indexes specifying the point of intersection.
+   ** `geoidpoint` and `pointpos` in `AngleViaPoint` are the indexes specifying the point of intersection.
 
-:\* `angle` is the angle value in radians. The angle is counted between tangent vectors in counterclockwise direction. Tangent vectors are pointing from start to end for the lines (or vice versa if ending point is supplied in angle between lines mode), and along counterclockwise direction for circles, arcs and ellipses. Quantity is also accepted as an angle (e.g. `App.Units.Quantity('45 deg')`)
+   ** `angle` is the angle value in radians. The angle is counted between tangent vectors in counterclockwise direction. Tangent vectors are pointing from start to end for the lines (or vice versa if ending point is supplied in angle between lines mode), and along counterclockwise direction for circles, arcs and ellipses. Quantity is also accepted as an angle (e.g. `App.Units.Quantity('45 deg')`)
 
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` and `pointpos` and contains further examples on how to create constraints from Python scripts.
 

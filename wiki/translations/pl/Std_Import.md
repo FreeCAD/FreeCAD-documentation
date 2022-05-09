@@ -1,42 +1,43 @@
 ---
-- GuiCommand:
-   Name:Std Import
-   MenuLocation:File → Import...
-   Workbenches:All
-   Shortcut:**Ctrl**+**I**
-   SeeAlso:[Std Open](Std_Open.md), [Import Export](Import_Export.md), [Import Export Preferences](Import_Export_Preferences.md)
+- GuiCommand   */pl
+   Name   *Std Import
+   Name/pl   *Std   * Importuj
+   MenuLocation   *Plik → Importuj ...
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl** + **I**
+   SeeAlso   *[Otwórz](Std_Open/pl.md), [Import Export](Import_Export/pl.md), [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md)
 ---
 
 # Std Import/pl
 
-## Description
+## Opis
 
-The **Std Import** command imports geometry from a different file format into the active document. Many file formats are supported and for some formats multiple import options exist. See [Import Export](Import_Export.md) for more information.
+Polecenie **Importuj** importuje geometrię z innego formatu pliku do aktywnego dokumentu. Obsługiwanych jest wiele formatów plików, a dla niektórych formatów istnieje wiele opcji importu. Zobacz stronę [Import eksport](Import_Export/pl.md), aby uzyskać więcej informacji.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Select the **File → <img src="images/Std_Import.svg" width=16px> Import...** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**I**.
-2.  Optionally select the correct file format in the dialog box.
-3.  Select a file.
-4.  Press the **Open** button.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Wybierz z menu opcję **Plik → <img src="images/Std_Import.svg" width=16px> Importuj ...**.
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **I**.
+2.  Opcjonalnie wybierz odpowiedni format pliku w oknie dialogowym.
+3.  Wybierz plik.
+4.  Naciśnij przycisk **Otwórz**.
 
-## Options
+## Opcje
 
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
-## Notes
+## Uwagi
 
--   To convert an imported [mesh object](Mesh_Workbench.md) into a solid see the [Import from STL or OBJ](Import_from_STL_or_OBJ.md) tutorial.
--   To import into a new document you can use the [Std Open](Std_Open.md) command.
--   Some workbenches have additional import commands. See: [Import Export](Import_Export.md).
+-   Aby przekształcić zaimportowany obiekt [siatki](Mesh_Workbench.md) w bryłę, zobacz poradnik [Importowanie plików STL lub OBJ](Import_from_STL_or_OBJ/pl.md).
+-   Aby zaimportować obiekt do nowego dokumentu można użyć polecenia [Otwórz](Std_Open/pl.md).
+-   Niektóre środowiska pracy mają dodatkowe polecenia importu. Zobacz stronę   * [Import Export](Import_Export/pl.md).
 
-## Preferences
+## Ustawienia
 
--   See: [Import Export Preferences](Import_Export_Preferences.md).
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
--   The last used import filter is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileImportFilter**.
+-   Zobacz stronę   * [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md).
+-   Zapamiętana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Zapamiętany jest ostatni używany filtr eksportu   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileExportFilter**.
 
 
 
@@ -44,7 +45,9 @@ The **Std Import** command imports geometry from a different file format into th
 
 {{Std Base navi
 
-}}
+}}  
+
+[Category   *File\_Formats](Category_File_Formats.md)
 
 
 

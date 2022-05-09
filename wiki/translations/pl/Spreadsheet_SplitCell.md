@@ -1,22 +1,23 @@
 ---
-- GuiCommand:
-   Name:Spreadsheet SplitCell
-   MenuLocation:Spreadsheet → Split cells
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+- GuiCommand   */pl
+   Name   *Spreadsheet SplitCell
+   Name/pl   *Arkusz Kalkulacyjny   * Podziel komórkę
+   MenuLocation   *Arkusz kalkulacyjny → Podziel komórkę
+   Workbenches   *[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version   *0.17
 ---
 
 # Spreadsheet SplitCell/pl
 
-## Description
+## Opis
 
-The **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Spreadsheet SplitCell](Spreadsheet_SplitCell.md)** tool splits apart a cell that was merged into one in an existing spreadsheet in the active document.
+Narzędzie **[<img src=images/Spreadsheet_SplitCell.svg style="width   *16px"> [Podziel komórkę](Spreadsheet_SplitCell/pl.md)** rozdziela komórkę, która została połączona w jedną w istniejącym arkuszu kalkulacyjnym aktywnego dokumentu.
 
-## Usage
+## Użycie
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select a cell that was previously **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Merged](Spreadsheet_MergeCells.md)**.
-3.  Press the **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Spreadsheet SplitCell](Spreadsheet_SplitCell.md)** button.
+1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
+2.  Wybierz komórkę, która została wcześniej **[<img src=images/Spreadsheet_MergeCells.svg style="width   *16px"> [scalona](Spreadsheet_MergeCells/pl.md)**.
+3.  Naciśnij przycisk **[<img src=images/Spreadsheet_SplitCell.svg style="width   *16px"> [Podziel komórkę](Spreadsheet_SplitCell/pl.md)**.
 
 
 

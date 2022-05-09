@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Building
-   Name/fr:Arch Bâtiment
-   MenuLocation:Arch → Bâtiment
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**B** **U**
-   SeeAlso:[Arch Partie de bâtiment](Arch_BuildingPart/fr.md), [Arch Site](Arch_Site/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Building
+   Name/fr   *Arch Bâtiment
+   MenuLocation   *Arch → Bâtiment
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   Shortcut   ***B** **U**
+   SeeAlso   *[Arch Partie de bâtiment](Arch_BuildingPart/fr.md), [Arch Site](Arch_Site/fr.md)
 ---
 
 # Arch Building/fr
@@ -27,23 +27,23 @@ Arch Bâtiment est un type spécial d\'objet de groupe FreeCAD particulièrement
 
 ## Propriétés
 
--    **Building Type**: Le type de ce bâtiment, à choisir dans une liste.
+-    **Building Type**   * Le type de ce bâtiment, à choisir dans une liste.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Bâtiment peut être utilisé à l\'intérieur d\'une [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante: 
+L\'outil Bâtiment peut être utilisé à l\'intérieur d\'une [macros](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante   * 
 ```python
 Building = makeBuilding(objectslist=None, baseobj=None, name="Building")
 ```
 
 -   Crée un objet `Building` à partir de `objectlist` qui est une liste d\'objets ou de `baseobj` qui est un `Shape`.
 
-Exemple:
+Exemple   *
 
 
 ```python

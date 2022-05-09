@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ko
-   Name:Std SendToPythonConsole
-   Name/ko:표준 파이썬 콘솔로 보내기
-   MenuLocation:편집 → 파이썬 콘솔로 보내기
-   Workbenches:모두
-   Shortcut:**Ctrl**+**Shift**+**P**
-   Version:0.19
+- GuiCommand   */ko
+   Name   *Std SendToPythonConsole
+   Name/ko   *표준 파이썬 콘솔로 보내기
+   MenuLocation   *편집 → 파이썬 콘솔로 보내기
+   Workbenches   *모두
+   Shortcut   ***Ctrl**+**Shift**+**P**
+   Version   *0.19
 ---
 
 # Std SendToPythonConsole/ko
@@ -20,7 +20,7 @@
 
 </div>
 
-Depending on the selected object and its selected subshapes, if any, the following variables are created:
+Depending on the selected object and its selected subshapes, if any, the following variables are created   *
 
 +++
 | Variable name   | Referenced object(s)                                                                                                                                    |
@@ -33,12 +33,12 @@ Depending on the selected object and its selected subshapes, if any, the followi
 | {{Incode|lnk}}  |                                                                                                                                                         |
 |              |                                                                                                                                                         |
 +++
-|  | Depending on the selected object:                                                                                                                       |
+|  | Depending on the selected object   *                                                                                                                       |
 | {{Incode|obj}}  | The selected object itself (if the selected object is not a Link)                                                                                       |
 |              | The Linked object (if the selected object is a Link)                                                                                                    |
 +++
-|  | Depending on the type of {{Incode|obj}}:                                                                                                  |
-| {{Incode|shp}}  | The {{Incode|Shape}} property of {{Incode|obj}} (for objects derived from the {{Incode|Part::Feature}} class) |
+|  | Depending on the type of {{Incode|obj}}   *                                                                                                  |
+| {{Incode|shp}}  | The {{Incode|Shape}} property of {{Incode|obj}} (for objects derived from the {{Incode|Part   *   *Feature}} class) |
 |              | The {{Incode|Mesh}} property of {{Incode|obj}} (for Mesh objects)                                                           |
 |                 | The {{Incode|Points}} property of {{Incode|obj}} (for Points objects)                                                       |
 +++
@@ -52,9 +52,9 @@ Depending on the selected object and its selected subshapes, if any, the followi
 +++
 
 >>> ### Begin command Std_SendToPythonConsole
->>> try:
+>>> try   *
 >>>     del(doc,lnk,obj,shp,sub,subs)
->>> except Exception:
+>>> except Exception   *
 >>>     pass
 >>> 
 >>> doc = App.getDocument("Unnamed")
@@ -70,7 +70,7 @@ Depending on the selected object and its selected subshapes, if any, the followi
 
 
 
-*출력 예시: [부품 상자](Part_Box/ko.md)의 모서리가 선택된 경우*
+*출력 예시   * [부품 상자](Part_Box/ko.md)의 모서리가 선택된 경우*
 
 
 </div>
@@ -81,10 +81,10 @@ Depending on the selected object and its selected subshapes, if any, the followi
 <div class="mw-translate-fuzzy">
 
 1.  단일 개체를 선택합니다.
-2.  이 명령을 실행하는 방법은 여러 가지입니다:
+2.  이 명령을 실행하는 방법은 여러 가지입니다   *
     -   메뉴에서 **편집 → <img src="images/Std_SendToPythonConsole.svg" width=16px> 파이썬 콘솔로 보내기** 옵션을 선택합니다.
     -   [트리 보기의](Tree_view/ko.md) 상황에 맞는 메뉴 혹은 [3D 보기의](3D_view/ko.md) 상황에 맞는 메뉴에서 **<img src="images/Std_SendToPythonConsole.svg" width=16px> 파이썬 콘솔로 보내기** 옵션을 선택합니다.
-    -   단축키를 사용합니다: **Ctrl**+**Shift**+**P**.
+    -   단축키를 사용합니다   * **Ctrl**+**Shift**+**P**.
 
 
 </div>
@@ -93,9 +93,9 @@ Depending on the selected object and its selected subshapes, if any, the followi
 
 -   All previously created variables are deleted each time the command is run.
 
--   If the selected object is a Link ({{Incode|App::Link}}) and the Linked object is derived from the {{Incode|Part::Feature}} class, the {{Incode|shp}} variable will be the shape of the Linked object. If the Link has been transformed or scaled and you want to access the scaled/transformed shape, you can do so with this code:
+-   If the selected object is a Link ({{Incode|App   *   *Link}}) and the Linked object is derived from the {{Incode|Part   *   *Feature}} class, the {{Incode|shp}} variable will be the shape of the Linked object. If the Link has been transformed or scaled and you want to access the scaled/transformed shape, you can do so with this code   *
 
-:   
+   *   
     
 ```pythonlnk_shp = Part.getShape(lnk)```
     

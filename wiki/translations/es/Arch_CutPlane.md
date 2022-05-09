@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Arch CutPlane
-   Name/es:Arch CutPlane
-   MenuLocation:Arch → Cut Plane
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   SeeAlso:[Arch Remove](Arch_Remove/es.md)
+- GuiCommand   */es
+   Name   *Arch CutPlane
+   Name/es   *Arch CutPlane
+   MenuLocation   *Arch → Cut Plane
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   SeeAlso   *[Arch Remove](Arch_Remove/es.md)
 ---
 
 # Arch CutPlane/es
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Plano de corte le permite cortar un objeto Arch de acuerdo a un plano:
+La herramienta Plano de corte le permite cortar un objeto Arch de acuerdo a un plano   *
 
 -   Puede cortar un objeto Arch con la cara seleccionada, normal u opuesta al plano frontal.
 -   Esto agrega un componente de sustracción CutVolume al objeto Arch
@@ -25,7 +25,7 @@ La herramienta Plano de corte le permite cortar un objeto Arch de acuerdo a un p
 
 </div>
 
-<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_CutPlane_example.jpg  style="width   *640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -63,14 +63,14 @@ La herramienta Plano de corte le permite cortar un objeto Arch de acuerdo a un p
 </div>
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Plano de Corte se puede usar en [macros](macros/es.md) y desde la consola de Python mediante la siguiente función:
+La herramienta Plano de Corte se puede usar en [macros](macros/es.md) y desde la consola de Python mediante la siguiente función   *
 
 
 </div>
@@ -90,7 +90,7 @@ cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 
 </div>
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 

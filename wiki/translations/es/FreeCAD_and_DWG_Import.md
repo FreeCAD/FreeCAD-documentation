@@ -33,8 +33,8 @@ El formato **DWG es un formato de archivo binario de código cerrado** que no es
 
 <div class="mw-translate-fuzzy">
 
--   página web: <https://www.gnu.org/software/libredwg/>
--   licencia: GPLv2-o posterior
+-   página web   * <https   *//www.gnu.org/software/libredwg/>
+-   licencia   * GPLv2-o posterior
 -   opcional, se utiliza para permitir la importación y exportación de archivos DWG
 
 
@@ -55,7 +55,7 @@ A partir de la versión 0.19, FreeCAD ya no necesita el convertidor ODA y puede 
 
 ### Windows
 
-LibreDWG puede ser configurado para trabajar en Windows descargando y descomprimiendo el apropiado [binario precompilado para Windows](https://github.com/LibreDWG/libredwg/releases) y [añadiendo la carpeta a la ruta de su sistema de versiones de Windows](https://duckduckgo.com/?t=ffab&q=how+para+añadir+una+carpeta+a+su+ruta+de+sistema+de+Windows).
+LibreDWG puede ser configurado para trabajar en Windows descargando y descomprimiendo el apropiado [binario precompilado para Windows](https   *//github.com/LibreDWG/libredwg/releases) y [añadiendo la carpeta a la ruta de su sistema de versiones de Windows](https   *//duckduckgo.com/?t=ffab&q=how+para+añadir+una+carpeta+a+su+ruta+de+sistema+de+Windows).
 
 
 </div>
@@ -67,7 +67,7 @@ LibreDWG puede ser configurado para trabajar en Windows descargando y descomprim
 
 ### Linux/Unix systemas 
 
-git clone [https://git.savannah.gnu.org/git/libredwg.git](https://git.savannah.gnu.org/git/libredwg.git)
+git clone [https   *//git.savannah.gnu.org/git/libredwg.git](https   *//git.savannah.gnu.org/git/libredwg.git)
 cd libredwg
 mkdir build
 cd build
@@ -96,7 +96,7 @@ Para evitar problemas de ejecución del programa debe utilizar el paquete LibreD
 
 </div>
 
-El usuario más experimentado obtiene primero una visión general de los posibles paquetes proporcionados. **Nota:** openSUSE tiene varias opciones para elegir al descargar LibreDWG. Para ver estas opciones, visite [Survey of provided LibreDWG packages on openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=libredwg).
+El usuario más experimentado obtiene primero una visión general de los posibles paquetes proporcionados. **Nota   *** openSUSE tiene varias opciones para elegir al descargar LibreDWG. Para ver estas opciones, visite [Survey of provided LibreDWG packages on openSUSE](https   *//software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=libredwg).
 
 
 <div class="mw-translate-fuzzy">
@@ -108,7 +108,7 @@ Para, por ejemplo, ordenadores de sobremesa, portátiles y servidores de 64 bits
 
 Se recomienda obtener los paquetes binarios directamente. A continuación, seleccione la distribución correcta para su sistema operativo openSUSE instalado.
 
-En cualquier terminal/consola (se requieren derechos de root) la instalación se realizará con:
+En cualquier terminal/consola (se requieren derechos de root) la instalación se realizará con   *
 
 
 ```python
@@ -125,8 +125,8 @@ You need to set the path to the executable manually. See [Import Export Preferen
 
 </div>
 
--   página web: <https://www.opendesign.com/guestfiles/oda_file_converter>
--   licencia: freeware
+-   página web   * <https   *//www.opendesign.com/guestfiles/oda_file_converter>
+-   licencia   * freeware
 -   opcional, utilizado para permitir la importación y exportación de archivos DWG
 
 
@@ -142,7 +142,7 @@ El ODA Conversor es una pequeña utilidad de libre acceso que permite convertir 
 
 <div class="mw-translate-fuzzy">
 
-En todas las plataformas, sólo instalando el paquete apropiado de <https://www.opendesign.com/guestfiles/oda_file_converter> . Después de la instalación, si la utilidad no es encontrada automáticamente por FreeCAD, puede que sea necesario establecer la ruta del ejecutable del convertidor manualmente. abrir Editar → Preferencias → Importación-Exportación → DWG y llenar \"Camino al convertidor de archivos de Teigha\" apropiadamente.
+En todas las plataformas, sólo instalando el paquete apropiado de <https   *//www.opendesign.com/guestfiles/oda_file_converter> . Después de la instalación, si la utilidad no es encontrada automáticamente por FreeCAD, puede que sea necesario establecer la ruta del ejecutable del convertidor manualmente. abrir Editar → Preferencias → Importación-Exportación → DWG y llenar \"Camino al convertidor de archivos de Teigha\" apropiadamente.
 
 
 </div>
@@ -152,8 +152,8 @@ En todas las plataformas, sólo instalando el paquete apropiado de <https://www.
 
 <small>(v0.20)</small> 
 
--   homepage: <https://qcad.org/en/qcad-command-line-tools#dwg2dwg>
--   license: commercial
+-   homepage   * <https   *//qcad.org/en/qcad-command-line-tools#dwg2dwg>
+-   license   * commercial
 -   optional, used to enable import and export of DWG files
 
 QCAD is a well-known open-source DXF-based 2D CAD platform. It also offers a paid pro version, which is basically the open-source version plus support for the DWG format. When buying the pro version, QCAD also includes a DWG to DXF conversion utility that can be used by FreeCAD.
@@ -164,7 +164,7 @@ You need to set the path to the executable manually. See [Import Export Preferen
 
 ### CADExchanger Ambiente de trabajo 
 
-La instalación de CADExchanger Workbench permite trabajar con archivos DWG a través de la integración con el producto comercial de pago de conversión de archivos [CADExchanger](https://cadexchanger.com/). Sólo tienes que seguir las instrucciones en el [repositorio GitHub](https://github.com/yorikvanhavre/CADExchanger). Puedes discutir este ambiente de trabajo en [su hilo del foro](https://forum.freecadweb.org/viewtopic.php?f=9&t=22227&p=462421).
+La instalación de CADExchanger Workbench permite trabajar con archivos DWG a través de la integración con el producto comercial de pago de conversión de archivos [CADExchanger](https   *//cadexchanger.com/). Sólo tienes que seguir las instrucciones en el [repositorio GitHub](https   *//github.com/yorikvanhavre/CADExchanger). Puedes discutir este ambiente de trabajo en [su hilo del foro](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=22227&p=462421).
 
 Por el momento, el modo CADExchanger es el único que permite trabajar con archivos DWG 3D, convirtiéndolos a otros formatos 3D.
 
@@ -178,11 +178,11 @@ Por el momento, el modo CADExchanger es el único que permite trabajar con archi
 
 ### DoubleCAD XT 
 
-También existe DoubleCAD XT (https://www.turbocad.com/content/doublecad-xt-v5). El programa es gratuito para uso personal y comercial. Requiere un registro gratuito para recibir un código de activación por correo electrónico. Este programa es sólo para Windows. Nota: no parece haber sido actualizado desde hace años.
+También existe DoubleCAD XT (https   *//www.turbocad.com/content/doublecad-xt-v5). El programa es gratuito para uso personal y comercial. Requiere un registro gratuito para recibir un código de activación por correo electrónico. Este programa es sólo para Windows. Nota   * no parece haber sido actualizado desde hace años.
 
 ### NanoCAD 5.0 
 
-También existe nanoCAD 5.0 (https://nanocad.com/products/nanoCAD/download/). El programa es gratuito para uso personal y comercial. Requiere un registro gratuito para recibir un código de activación por correo electrónico. Este programa es sólo para Windows.
+También existe nanoCAD 5.0 (https   *//nanocad.com/products/nanoCAD/download/). El programa es gratuito para uso personal y comercial. Requiere un registro gratuito para recibir un código de activación por correo electrónico. Este programa es sólo para Windows.
 
 
 <div class="mw-translate-fuzzy">
@@ -217,6 +217,11 @@ En pocas palabras, deje de aceptar trabajos realizados en formato DWG. En la pr�
 ### Utilizar la biblioteca LibreDWG y presentar informes de errores 
 
 En la versión de desarrollo, como se mencionó anteriormente, se puede cambiar del convertidor propietario ODA a la biblioteca de software libre LibreDWG para archivos DWG (y DXF). Por favor, hazlo e informa de cualquier problema que encuentres.
+
+
+ 
+
+[Category   *File\_Formats](Category_File_Formats.md) [Category   *Common Questions](Category_Common_Questions.md)
 
 
 

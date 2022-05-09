@@ -1,22 +1,23 @@
 ---
-- GuiCommand:
-   Name:Spreadsheet MergeCells
-   MenuLocation:Spreadsheet → Merge cells
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+- GuiCommand   */pl
+   Name   *Spreadsheet MergeCells
+   Name/pl   *Arkusz Kalkulacyjny   * Połącz komórki
+   MenuLocation   *Arkusz kalkulacyjny → Połącz komórki
+   Workbenches   *[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version   *0.17
 ---
 
 # Spreadsheet MergeCells/pl
 
-## Description
+## Opis
 
-The **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Spreadsheet MergeCells](Spreadsheet_MergeCells.md)** tool merges at least two selected cells in an existing spreadsheet in the active document.
+Narzędzie **[<img src=images/Spreadsheet_MergeCells.svg style="width   *16px"> [Połącz komórki](Spreadsheet_MergeCells/pl.md)** łączy co najmniej dwie wybrane komórki w istniejącym arkuszu kalkulacyjnym aktywnego dokumentu.
 
-## Usage
+## Użycie
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select at least two contiguous cells.
-3.  Press the **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Spreadsheet MergeCells](Spreadsheet_MergeCells.md)** button.
+1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
+2.  Wybierz co najmniej dwie sąsiadujące ze sobą komórki.
+3.  Naciśnij przycisk **[<img src=images/Spreadsheet_MergeCells.svg style="width   *16px"> [Połącz komórki](Spreadsheet_MergeCells/pl.md)**.
 
 
 

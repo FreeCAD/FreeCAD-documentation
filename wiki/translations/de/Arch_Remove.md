@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Arch Remove
-   Name/de:Arch Entfernen
-   MenuLocation:Architektur → Entfernen
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch SchneideLinie](Arch_CutLine/de.md), [Arch SchneideEbene](Arch_CutPlane/de.md), [Arch Hinzufügen](Arch_Add/de.md)
+- GuiCommand   */de
+   Name   *Arch Remove
+   Name/de   *Arch Entfernen
+   MenuLocation   *Architektur → Entfernen
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   SeeAlso   *[Arch SchneideLinie](Arch_CutLine/de.md), [Arch SchneideEbene](Arch_CutPlane/de.md), [Arch Hinzufügen](Arch_Add/de.md)
 ---
 
 # Arch Remove/de
@@ -14,7 +14,7 @@
 
 ## Beschreibung
 
-Das Entfernen Werkzeug erlaubt dir zwei Arten von Operationen:
+Das Entfernen Werkzeug erlaubt dir zwei Arten von Operationen   *
 
 -   Entfernen einer Unterkomponente aus einem Architekturobjekt, zum Beispiel einen Kasten entfernen, der an einer Wand angebracht wurde, wie in dem **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add/de.md)** Beispiel.
 -   Subtrahieren eines [Form](Part_Workbench/de.md)-basierten Objektes aus einer Architekturkomponente wie z.B. einer **<img src="images/Arch_Wall.svg" width=16px> [Arch Mauer](Arch_Wall/de.md)
@@ -22,7 +22,7 @@ Das Entfernen Werkzeug erlaubt dir zwei Arten von Operationen:
 
 Das Gegenstück dieses Werkzeugs ist das **<img src="images/Arch_Add.svg" width=16px> [Arch Hinzufügen](Arch_Add/de.md)** Werkzeug.
 
-<img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;"> 
+<img alt="" src=images/Arch_Remove_example.jpg  style="width   *600px;"> 
 *Ein Quader wird von einer Wand subtrahiert und hinterlässt in ihr eine Aussparung.*
 
 ## Anwendung
@@ -38,11 +38,11 @@ Oder
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Entfernen Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole mit der folgenden Funktion verwendet werden: 
+Das Entfernen Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole mit der folgenden Funktion verwendet werden   * 
 ```python
 removeComponents(objectsList, host=None)
 ```
@@ -51,14 +51,14 @@ removeComponents(objectsList, host=None)
 
 1.  Ist ein `Host`-Objekt angegeben, wird stattdessen versucht, die in `objectsList` angegebenen Objekte als Aussparungen zum `host` hinzuzufügen.
 
-Beispiel: 
+Beispiel   * 
 ```python
 import FreeCAD, Draft, Arch
 
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

@@ -2,11 +2,11 @@
 {{TOCright}}
 
 
-**En février 2022, le suivi des bogues de FreeCAD a été transféré sur [https://github.com/FreeCAD/FreeCAD/issues GitHub Issues]. Le système de suivi des bogues Mantis décrit ci-dessous est maintenant en mode lecture seule.**
+**En février 2022, le suivi des bogues de FreeCAD a été transféré sur [https   *//github.com/FreeCAD/FreeCAD/issues GitHub Issues]. Le système de suivi des bogues Mantis décrit ci-dessous est maintenant en mode lecture seule.**
 
 ![](images/Mantis_logo_262x90.png )
 
-Le [traqueur de bogues FreeCAD](https://www.freecadweb.org/tracker) est un endroit pour rapporter des bogues, soumettre des demandes de fonctionnalités, de correctifs, ou encore faire une demande de fusion de votre branche si vous développez avec Git. Le traqueur est divisé en plusieurs sections de travail, donc s\'il vous plait soyez rigoureux et remplissez votre demande dans la catégorie appropriée. En cas de doutes, laissez le dans la section \"FreeCAD\".
+Le [traqueur de bogues FreeCAD](https   *//www.freecadweb.org/tracker) est un endroit pour rapporter des bogues, soumettre des demandes de fonctionnalités, de correctifs, ou encore faire une demande de fusion de votre branche si vous développez avec Git. Le traqueur est divisé en plusieurs sections de travail, donc s\'il vous plait soyez rigoureux et remplissez votre demande dans la catégorie appropriée. En cas de doutes, laissez le dans la section \"FreeCAD\".
 
 ## Flux de travail recommandé 
 
@@ -18,13 +18,13 @@ Comme vous pouvez le voir dans l\'organigramme présenté ci-dessus, avant de cr
 
 Si vous pensez que vous pourriez avoir trouvé un bogue (dysfonctionnement ou erreur), vous êtes invité de le signaler si vous avez suivi nos instructions pas à pas.
 
--   Assurez-vous que vous utilisez la version la plus récente de FreeCAD. **REMARQUE :** votre bug peut être corrigé dans la version de développement (instable). L\'utilisateur lambda exécute la version stable de FC.
+-   Assurez-vous que vous utilisez la version la plus récente de FreeCAD. **REMARQUE    *** votre bug peut être corrigé dans la version de développement (instable). L\'utilisateur lambda exécute la version stable de FC.
 -   Assurez-vous que votre bug est vraiment un bug, c'est-à-dire quelque chose qui devrait fonctionner mais ne l'est pas. **Assurez-vous que le même bug n\'a pas été signalé auparavant en effectuant d\'abord une recherche dans le bugtracker et le forum**.
-    -   N\'oubliez pas que si vous n\'êtes pas sûr, n\'hésitez pas à expliquer votre problème/bug dans le [forum d\'aide](http://forum.freecadweb.org/viewforum.php?f=3) et à demander ce qu\'il faut faire.
-    -   **Remarque**ː avant de poster sur le forum, veuillez lire les [Instructions du forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264).
+    -   N\'oubliez pas que si vous n\'êtes pas sûr, n\'hésitez pas à expliquer votre problème/bug dans le [forum d\'aide](http   *//forum.freecadweb.org/viewforum.php?f=3) et à demander ce qu\'il faut faire.
+    -   **Remarque**ː avant de poster sur le forum, veuillez lire les [Instructions du forum](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=2264).
 -   Décrivez aussi clairement que possible le problème et comment il peut être reproduit. Si nous ne pouvons pas vérifier le bug, nous ne pourrons peut-être pas le résoudre.
     -   Cela signifie **rendre compte de manière claire, bien formatée et étape par étape** afin que même un utilisateur amateur puisse le reproduire.
-    -   Recommandéː **Les captures d\'écran** du bug sont également très utiles à inclure. Utilisateurs Windows : veuillez ne pas joindre de captures d\'écran au format Word ou PDF. Utilisez l'outil Capture de Windows pour enregistrer votre capture en tant qu'image PNG.
+    -   Recommandéː **Les captures d\'écran** du bug sont également très utiles à inclure. Utilisateurs Windows    * veuillez ne pas joindre de captures d\'écran au format Word ou PDF. Utilisez l'outil Capture de Windows pour enregistrer votre capture en tant qu'image PNG.
     -   Recommandéː encore mieux, un **Animation gif ou Screencast** augmenterait également la probabilité de reproduire le problème.
 -   **Ajouter un exemple de fichier FreeCAD** (fichier .FCStd) afin que developpeurs/testeurs puissent reproduire rapidement le bug.
     -   Veuillez ne pas compresser votre fichier \*.FCStd, il est déjà compressé.
@@ -38,7 +38,7 @@ Si vous pensez que vous pourriez avoir trouvé un bogue (dysfonctionnement ou er
 Si vous souhaitez que quelque chose apparaisse dans FreeCAD qui ne soit pas encore implémenté,  ce n\'est pas un bug mais une demande de fonctionnalité.
 
 1.  **IMPORTANT ː** Avant de demander une éventuelle demande de fonctionnalité **assurez-vous d\'être le premier à le faire en effectuant une recherche dans les forums et dans le bugtracker**. Si vous avez conclu qu\'il n\'y a pas de tickets/discussions préexistants, la prochaine étape consiste à...
-2.  Démarrer un fil de discussion pour discuter de votre demande de fonctionnalité avec la communauté via le [Open Discussion forum](http://forum.freecadweb.org/viewforum.php?f=8).
+2.  Démarrer un fil de discussion pour discuter de votre demande de fonctionnalité avec la communauté via le [Open Discussion forum](http   *//forum.freecadweb.org/viewforum.php?f=8).
 3.  Une fois que la communauté accepte que cette fonctionnalité est valide, vous pouvez ensuite ouvrir un ticket sur le suivi (enregistrez-la sous *feature request* au lieu de \"bug\").
 
 -   **REMARQUE \#1** Pour que tout reste organisé, rappelez-vous de lier l\'URL du fil de discussion au ticket et le numéro du ticket (sous forme de lien) au fil de discussion.
@@ -48,10 +48,10 @@ Si vous souhaitez que quelque chose apparaisse dans FreeCAD qui ne soit pas enco
 
 ## Soumettre un correctif (*patch*) 
 
-Si vous avez programmé une correction de bogue, une extension ou quelque chose d\'autre qui peut être d\'utilité publique dans FreeCAD, soumettez votre patch comme une \"Pull Request\" sur [GitHub](https://github.com/FreeCAD/FreeCAD).
+Si vous avez programmé une correction de bogue, une extension ou quelque chose d\'autre qui peut être d\'utilité publique dans FreeCAD, soumettez votre patch comme une \"Pull Request\" sur [GitHub](https   *//github.com/FreeCAD/FreeCAD).
 
-1.  Pour une contribution importante, complexe ou modifiant le comportement, ouvrez un fil de discussion sur le forum [Developer subforum](https://forum.freecadweb.org/viewforum.php?f=10) pour annoncer et discuter de votre correctif. Ce n\'est pas nécessaire pour les petites corrections de bogues.
-2.  Soumettez votre Pull Request (PR) sur la [repo GitHub de FreeCAD](http://github.com/FreeCAD/FreeCAD). Le message de soumission de la PR sera pré-rempli avec une liste de contrôle que vous devrez suivre pour vous assurer que votre soumission a les meilleures chances d\'être acceptée rapidement. Si vous n\'avez jamais travaillé avec `git` auparavant ou si vous n\'êtes pas familier avec la soumission d\'un PR sur github, veuillez lire notre page wiki d\'introduction [github](Source_code_management/fr.md).
+1.  Pour une contribution importante, complexe ou modifiant le comportement, ouvrez un fil de discussion sur le forum [Developer subforum](https   *//forum.freecadweb.org/viewforum.php?f=10) pour annoncer et discuter de votre correctif. Ce n\'est pas nécessaire pour les petites corrections de bogues.
+2.  Soumettez votre Pull Request (PR) sur la [repo GitHub de FreeCAD](http   *//github.com/FreeCAD/FreeCAD). Le message de soumission de la PR sera pré-rempli avec une liste de contrôle que vous devrez suivre pour vous assurer que votre soumission a les meilleures chances d\'être acceptée rapidement. Si vous n\'avez jamais travaillé avec `git` auparavant ou si vous n\'êtes pas familier avec la soumission d\'un PR sur github, veuillez lire notre page wiki d\'introduction [github](Source_code_management/fr.md).
 3.  Soyez présent lors de la discussion, à la fois sur le forum et dans la pull request GitHub afin que votre code puisse potentiellement être fusionné plus rapidement.
 
 ## Demande de fusion 
@@ -68,29 +68,29 @@ MantisBT (Mantis Bug Tracker) a son propre balisage.
 
 -   **@**mention - fonctionne comme sur GitHub où si vous ajoutez le nom d\'utilisateur \'@\' au nom d\'utilisateur de celui-ci, celui-ci recevra un e-mail indiquant qu\'il a été \'mentionné\' dans un fil de ticket
 
-<img alt="" src=images/mantisbt-mention-example.jpg  style="width:600px;">
+<img alt="" src=images/mantisbt-mention-example.jpg  style="width   *600px;">
 
 -   **\#**1234 - en ajoutant une balise de hachage devant un numéro, un raccourci pour créer un lien vers un autre ticket dans MantisBT sera présenté.
 
-    :   **Remarque** : si vous survolez un ticket, il vous montrera le récapitulatif + si le ticket est fermé, il sera barré ainsi \#1234.
+       *   **Remarque**    * si vous survolez un ticket, il vous montrera le récapitulatif + si le ticket est fermé, il sera barré ainsi \#1234.
 
-<img alt="" src=images/mantisbt-ticket-shortcut-example.jpg  style="width:600px;">
+<img alt="" src=images/mantisbt-ticket-shortcut-example.jpg  style="width   *600px;">
 
--   **\~**5678 - raccourci qui relie à une note de bug dans un ticket. Cela peut être utilisé pour référencer la réponse de quelqu\'un dans le fil. Chaque personne qui publie affiche un numéro \~\#\#\#\# unique à côté de son nom d\'utilisateur. Si vous regardez l\'image dans l\'exemple, vous voyez que le raccourci fait référence au *ticket number:comment number* de ce ticket.
+-   **\~**5678 - raccourci qui relie à une note de bug dans un ticket. Cela peut être utilisé pour référencer la réponse de quelqu\'un dans le fil. Chaque personne qui publie affiche un numéro \~\#\#\#\# unique à côté de son nom d\'utilisateur. Si vous regardez l\'image dans l\'exemple, vous voyez que le raccourci fait référence au *ticket number   *comment number* de ce ticket.
 
-<img alt="" src=images/mantisbt-comment-shortcut-example.jpg  style="width:600px;">
+<img alt="" src=images/mantisbt-comment-shortcut-example.jpg  style="width   *600px;">
 
 -   **\<del\>\</del\>** - l\'utilisation de ces balises aura pour effet de barrer le texte strikeout text.
 
-<img alt="" src=images/mantisbt-strikeout-text-example.jpg  style="width:600px;">
+<img alt="" src=images/mantisbt-strikeout-text-example.jpg  style="width   *600px;">
 
 -   **\<code\>\</code\>** - pour présenter une ligne ou un bloc de code, utilisez cette balise qui la colorisera et le différenciera.
 
-<img alt="" src=images/mantisbt-colorized-code-example.jpg  style="width:600px;">
+<img alt="" src=images/mantisbt-colorized-code-example.jpg  style="width   *600px;">
 
 ### Le BBCode de MantisBT 
 
-En plus du [balisage de MantisBT](Tracker/fr#Le_balisage_de_MantisBT.md) ci-dessus, il est également possible d\'utiliser le format BBCode. Pour une liste complète, voir [BBCode plus plugin page](https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags). Voici une liste des tags BBCode supportés ː 
+En plus du [balisage de MantisBT](Tracker/fr#Le_balisage_de_MantisBT.md) ci-dessus, il est également possible d\'utiliser le format BBCode. Pour une liste complète, voir [BBCode plus plugin page](https   *//github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags). Voici une liste des tags BBCode supportés ː 
 [img][/img] - Images
 [url][/url] - Liens
 [email][/email] - Adresses E-mail
@@ -124,21 +124,21 @@ En plus du [balisage de MantisBT](Tracker/fr#Le_balisage_de_MantisBT.md) ci-dess
 
 === MantisBT \<=\> GitHub Markup === Vous trouverez ci-dessous des mots-clés spéciaux du plug-in MantisBT Source-Integration qui renverront au référentiel FreeCAD GitHub. Voir [GitHub et MantisBT](Tracker/fr#GitHub_et_MantisBT.md).
 
--   **c:FreeCAD:git commit hash:** - **c** signifie \'commit\'. FreeCAD est un raccourci pour répértoire FreeCAD GitHub. \'git commit hash\' est le hachage spécifique de git commit à référencer. Remarque: les deux points sont nécessaires. Exempleː cːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː
--   **d:FreeCAD:git commit hash:** - de manière similaire à ce qui précède, **d** signifie \'diff\' qui fournira une vue Diff du commit. dːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː
--   **p:FreeCAD:pullrequest:** - enfin **p** signifie Pull Request. Exempleː pːFreeCADː498ː
+-   **c   *FreeCAD   *git commit hash   *** - **c** signifie \'commit\'. FreeCAD est un raccourci pour répértoire FreeCAD GitHub. \'git commit hash\' est le hachage spécifique de git commit à référencer. Remarque   * les deux points sont nécessaires. Exempleː cːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː
+-   **d   *FreeCAD   *git commit hash   *** - de manière similaire à ce qui précède, **d** signifie \'diff\' qui fournira une vue Diff du commit. dːFreeCADː709d2f325db0490016807b8fa6f49d1c867b6bd8ː
+-   **p   *FreeCAD   *pullrequest   *** - enfin **p** signifie Pull Request. Exempleː pːFreeCADː498ː
 
-<img alt="" src=images/mantisbt-source-integration-markup.jpg  style="width:600px;"> 
+<img alt="" src=images/mantisbt-source-integration-markup.jpg  style="width   *600px;"> 
 
 ## GitHub et MantisBT 
 
-Le bugtracker de FreeCAD a un plug-in appelé [Source Integration](https://github.com/mantisbt-plugins/source-integration) qui lie essentiellement le référentiel FreeCAD GitHub à notre traqueur MantisBT. Cela facilite le suivi et l'association des commits git avec leurs tickets MantisBT respectifs. **Le plug-in Source Integration recherche dans les messages de git commit des mots-clés spécifiques afin d\'exécuter les actions suivantes :**
+Le bugtracker de FreeCAD a un plug-in appelé [Source Integration](https   *//github.com/mantisbt-plugins/source-integration) qui lie essentiellement le référentiel FreeCAD GitHub à notre traqueur MantisBT. Cela facilite le suivi et l'association des commits git avec leurs tickets MantisBT respectifs. **Le plug-in Source Integration recherche dans les messages de git commit des mots-clés spécifiques afin d\'exécuter les actions suivantes    ***
 
-\'\'\'Remarque : \'\'\'les mots-clés ci-dessous doivent être ajoutés au git commit message et non au sujet du PR.
+\'\'\'Remarque    * \'\'\'les mots-clés ci-dessous doivent être ajoutés au git commit message et non au sujet du PR.
 
 ### Référencement à distance d\'un ticket 
 
-L\'utilisation de ce modèle associera automatiquement un commit git à un ticket (**Remarque:** cela ne fermera pas le ticket.) Le format MantisBT reconnaîtra:
+L\'utilisation de ce modèle associera automatiquement un commit git à un ticket (**Remarque   *** cela ne fermera pas le ticket.) Le format MantisBT reconnaîtra   *
 
 -   bug \#1234
 -   bugs \#1234, \#5678
@@ -147,12 +147,12 @@ L\'utilisation de ce modèle associera automatiquement un commit git à un ticke
 -   report \#1234
 -   reports \#1234, \#5678
 
-Pour les curieux, voici le regex que MantisBT utilise pour cette opération:
+Pour les curieux, voici le regex que MantisBT utilise pour cette opération   *
 
 
 ### Résolution à distance d\'un ticket 
 
-Le format que MantisBT reconnaîtra :
+Le format que MantisBT reconnaîtra    *
 
 -   fix \#1234
 -   fixed \#1234
@@ -165,13 +165,21 @@ Le format que MantisBT reconnaîtra :
 -   resolved \#1234, \#5678
 -   resolves \#1234, \#5678
 
-Pour les curieux, voici le regex que MantisBT utilise pour cette opération:
+Pour les curieux, voici le regex que MantisBT utilise pour cette opération   *
 
 
 ## En relation 
 
 -   [Tri des bogues](Bug_Triage/fr.md)
 -   [Source Code Management](Source_code_management/fr.md)
+
+
+
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Administration](Category_Administration.md)
 
 
 

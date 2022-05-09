@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:FEM ConstraintSectionPrint
-   MenuLocation: Model → Geometrical Constraints → Constraint section print
-   Workbenches:[FEM](FEM_Workbench.md)
-   Version:0.19
-   SeeAlso:
+- GuiCommand   *
+   Name   *FEM ConstraintSectionPrint
+   MenuLocation   * Model → Geometrical Constraints → Constraint section print
+   Workbenches   *[FEM](FEM_Workbench.md)
+   Version   *0.19
+   SeeAlso   *
 ---
 
 # FEM ConstraintSectionPrint
@@ -15,7 +15,7 @@ Prints the predefined facial output variables (forces and moments) to the dat fi
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> [FEM ConstraintSectionPrint](FEM_ConstraintSectionPrint.md)** button.
     -   Select the **Model → Geometrical Constraints → <img src="images/FEM_ConstraintSectionPrint.svg" width=16px> Constraint sectionprint** option from the menu.
 2.  Press the **Add** button and select the face for which the output will be printed.

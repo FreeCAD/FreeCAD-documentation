@@ -1,6 +1,6 @@
 # TechDraw Hatch/ro
 ---
-- GuiCommand:   Name:TechDraw Hatch   Workbenches:[MenuLocation:TechDraw → Hatch   Shortcut:   SeeAlso:[[TechDraw_Hatching|TechDraw Hatching](TechDraw_Workbench___TechDraw]].md)---
+- GuiCommand   *   Name   *TechDraw Hatch   Workbenches   *[MenuLocation   *TechDraw → Hatch   Shortcut   *   SeeAlso   *[[TechDraw_Hatching|TechDraw Hatching](TechDraw_Workbench___TechDraw]].md)---
 
 
 </div>
@@ -15,9 +15,9 @@ Instrumentul de hașurarea/Hatch umple o regiune închisă în View cu un model 
 
 </div>
 
-The <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechDraw Hatch** tool fills a closed region in a View with an [SVG](SVG.md) based hatch pattern. Alternatively the <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:16px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) tool uses PAT based hatch patterns. See [Hatching](TechDraw_Hatching.md) for details.
+The <img alt="" src=images/TechDraw_Hatch.svg  style="width   *24px;"> **TechDraw Hatch** tool fills a closed region in a View with an [SVG](SVG.md) based hatch pattern. Alternatively the <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width   *16px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch.md) tool uses PAT based hatch patterns. See [Hatching](TechDraw_Hatching.md) for details.
 
-<img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
+<img alt="" src=images/TechDraw_Hatch_example.png  style="width   *300px;">
 
 
 
@@ -29,14 +29,14 @@ The <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> **TechDraw H
 ## Cum se folosește 
 
 1.  Select an closed region in a View. The region will turn green.
-2.  Press the <img alt="" src=images/TechDraw_Hatch.png  style="width:16px;"> **Hatch** button
-3.  You may need to press recompute <img alt="" src=images/View-rotate-right.png  style="width:16px;">.
+2.  Press the <img alt="" src=images/TechDraw_Hatch.png  style="width   *16px;"> **Hatch** button
+3.  You may need to press recompute <img alt="" src=images/View-rotate-right.png  style="width   *16px;">.
 
 
 </div>
 
 1.  Select a closed region in a View.
-2.  There are several ways to invoke the tool:
+2.  There are several ways to invoke the tool   *
     -   Press the **<img src="images/TechDraw_Hatch.svg" width=16px> [TechDraw Hatch](TechDraw_Hatch.md)** button.
     -   Select the **TechDraw → <img src="images/TechDraw_Hatch.svg" width=16px> Hatch a Face using Image File** option from the menu.
 3.  The **Apply Hatch to Face** task panel opens.
@@ -65,31 +65,31 @@ $INSTALL_DIR/data/Mod/TechDraw/Patterns
 where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example 
 ```python
 /usr/share/freecad/data/Mod/TechDraw/Patterns
-``` and also on [GitHub](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
+``` and also on [GitHub](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/Patterns).
 
 
 <div class="mw-translate-fuzzy">
 
 ## Proprietăți
 
--    **Source**: Vederea și Fațeta care va prim modelul de hașură.
+-    **Source**   * Vederea și Fațeta care va prim modelul de hașură.
 
--    **Hatch Pattern**: Calea de acces completă și numele fișierului spre un nume de fișier cu model SVG .
+-    **Hatch Pattern**   * Calea de acces completă și numele fișierului spre un nume de fișier cu model SVG .
 
--    **Hatch Color**: Modelul de hașurare va fi afișat în această culaore.
+-    **Hatch Color**   * Modelul de hașurare va fi afișat în această culaore.
 
--    **Hatch Scale**: Modificator de dimensiune a modelului de hașurae.
+-    **Hatch Scale**   * Modificator de dimensiune a modelului de hașurae.
 
 
 </div>
 
--    **Source**: The View and Face to receive the hatch pattern.
+-    **Source**   * The View and Face to receive the hatch pattern.
 
--    **Hatch Pattern**: Full path and filename to an SVG pattern file.
+-    **Hatch Pattern**   * Full path and filename to an SVG pattern file.
 
--    **Hatch Color**: Hatch pattern will be displayed in this color.
+-    **Hatch Color**   * Hatch pattern will be displayed in this color.
 
--    **Hatch Scale**: Hatch pattern size modifier.
+-    **Hatch Scale**   * Hatch pattern size modifier.
 
 
 <div class="mw-translate-fuzzy">
@@ -102,15 +102,15 @@ Hașurarea poate fi adăugată la zonele din Views folosind Python.
 </div>
 
 
-**See also:**
+**See also   ***
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Hatch tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The Hatch tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-hatch = FreeCAD.ActiveDocument.addObject('TechDraw::DrawHatch','Hatch')
+hatch = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawHatch','Hatch')
 hatch.Source = (view1,["Face0"])
 hatch.HatchPattern = hatchFileSpec
 rc = page.addView(hatch)

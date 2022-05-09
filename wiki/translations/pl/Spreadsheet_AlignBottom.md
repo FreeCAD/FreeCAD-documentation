@@ -1,22 +1,23 @@
 ---
-- GuiCommand:
-   Name:Spreadsheet AlignBottom
-   MenuLocation:Spreadsheet → Alignment → Align bottom
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+- GuiCommand   */pl
+   Name   *Spreadsheet AlignBottom
+   Name/pl   *Arkusz Kalkulacyjny   * Wyrównaj w dół
+   MenuLocation   *Arkusz kalkulacyjny → Wyrównanie → Wyrównaj w dół
+   Workbenches   *[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version   *0.17
 ---
 
 # Spreadsheet AlignBottom/pl
 
-## Description
+## Opis
 
-The **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Spreadsheet AlignBottom](Spreadsheet_AlignBottom.md)** tool makes the text inside the cell align to the bottom of the cell.
+Narzędzie **[<img src=images/Spreadsheet_AlignBottom.svg style="width   *16px"> [Wyrównaj w dół](Spreadsheet_AlignBottom/pl.md)** sprawia, że tekst wewnątrz komórki jest wyrównywany do jej dolnej krawędzi.
 
-## Usage
+## Użycie
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select a cell.
-3.  Press the **[<img src=images/Spreadsheet_AlignBottom.svg style="width:16px"> [Spreadsheet AlignBottom](Spreadsheet_AlignBottom.md)** button.
+1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
+2.  Wybierz komórkę.
+3.  Naciśnij przycisk **[<img src=images/Spreadsheet_AlignBottom.svg style="width   *16px"> [Wyrównaj w dół](Spreadsheet_AlignBottom/pl.md)**.
 
 
 

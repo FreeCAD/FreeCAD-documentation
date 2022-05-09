@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Arch_Rebar_BentShape   Name/de:Arch Bewehrungsstab abgewinkelt
-   MenuLocation:Arch → Rebar tools → Gebogene Bewehrung oder 3D/BIM → Verstärkung → gebogene Bewehrung 
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)
+- GuiCommand   */de
+   Name   *Arch_Rebar_BentShape   Name/de   *Arch Bewehrungsstab abgewinkelt
+   MenuLocation   *Arch → Rebar tools → Gebogene Bewehrung oder 3D/BIM → Verstärkung → gebogene Bewehrung 
+   Workbenches   *[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)
 ---
 
 # Arch Rebar BentShape/de
@@ -20,7 +20,7 @@ Das [Arch Abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)-Werkzeug ist
 
 Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), der mit dem ![](images/Std_AddonMgr.svg ) [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
-<img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width   *400px;"> 
 *Zwei Sätze von abgewinkelten Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*
 
 ## Anwendung
@@ -36,7 +36,7 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
 10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
 
-:   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
+   *   <img alt="" src=images/BentShapeDialog.png  style="width   *250px;">
 
 
 
@@ -44,34 +44,34 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 ## Eigenschaften
 
--    {{PropertyData/de|Orientation}}: Legt die Ausrichtung des Bewehrungsstabs fest (wie unten, oben, recht und links).
+-    {{PropertyData/de|Orientation}}   * Legt die Ausrichtung des Bewehrungsstabs fest (wie unten, oben, recht und links).
 
--    {{PropertyData/de|Front Cover}}: Der Abstand zwischen Bewehrungsstab und ausgewählter Fläche.
+-    {{PropertyData/de|Front Cover}}   * Der Abstand zwischen Bewehrungsstab und ausgewählter Fläche.
 
--    {{PropertyData/de|Left Cover}}: Der Abstand zwischen dem linken Ende des Bewehrungsstabs und der linken Fläche der Struktur.
+-    {{PropertyData/de|Left Cover}}   * Der Abstand zwischen dem linken Ende des Bewehrungsstabs und der linken Fläche der Struktur.
 
--    {{PropertyData/de|Right Cover}}: Der Abstand zwischen dem rechten Ende des Bewehrungsstabs und der rechten Fläche der Struktur.
+-    {{PropertyData/de|Right Cover}}   * Der Abstand zwischen dem rechten Ende des Bewehrungsstabs und der rechten Fläche der Struktur.
 
--    {{PropertyData/de|Bottom Cover}}: Der Abstand zwischen dem Bewehrungsstab und der unteren Fläche der Struktur.
+-    {{PropertyData/de|Bottom Cover}}   * Der Abstand zwischen dem Bewehrungsstab und der unteren Fläche der Struktur.
 
--    {{PropertyData/de|Top Cover}}: Der Abstand zwischen dem Bewehrungsstab und der oberen Fläche der Struktur.
+-    {{PropertyData/de|Top Cover}}   * Der Abstand zwischen dem Bewehrungsstab und der oberen Fläche der Struktur.
 
--    {{PropertyData/de|Anchor Length}}: Die \"Armlänge\" des abgewinkelten Bewehrungsstabs.
+-    {{PropertyData/de|Anchor Length}}   * Die \"Armlänge\" des abgewinkelten Bewehrungsstabs.
 
--    {{PropertyData/de|Bent Angle}}: Definiert den Winkel zwischen den Enden eines Bügels.
+-    {{PropertyData/de|Bent Angle}}   * Definiert den Winkel zwischen den Enden eines Bügels.
 
--    {{PropertyData/de|Amount}}: Die Anzahl von Bewehrungsstäben.
+-    {{PropertyData/de|Amount}}   * Die Anzahl von Bewehrungsstäben.
 
--    {{PropertyData/de|Spacing}}: Der Abstand zwischen den Achsen jedes Bewehrungsstabs.
+-    {{PropertyData/de|Spacing}}   * Der Abstand zwischen den Achsen jedes Bewehrungsstabs.
 
 ## Scripting
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
-Das Abgewinkelter Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden: 
+Das Abgewinkelter Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden   * 
 ```python
 Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
                            diameter, t_cover, bentLength, bentAngle, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
@@ -157,6 +157,11 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Arch Check
-   Name/it:Controlla
-   Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch → Utilità → Controlla
-   SeeAlso:[ Chiudi fori](Arch_CloseHoles/it.md)
+- GuiCommand   */it
+   Name   *Arch Check
+   Name/it   *Controlla
+   Workbenches   *[Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Arch → Utilità → Controlla
+   SeeAlso   *[ Chiudi fori](Arch_CloseHoles/it.md)
 ---
 
 # Arch Check/it
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento controlla il documento corrente o gli oggetti selezionati alla ricerca di oggetti <img alt="" src=images/_Workbench_Part.svg  style="width:16px;"> [Parte](Part_Workbench/it.md) o <img alt="" src=images/_Workbench_Arch.svg  style="width:16px;"> [Architettura](Arch_Workbench/it.md) non-solidi, che potrebbero dare problemi, poiché la maggior parte delle operazioni del modulo Architettura richiedono oggetti solidi.
+Questo strumento controlla il documento corrente o gli oggetti selezionati alla ricerca di oggetti <img alt="" src=images/_Workbench_Part.svg  style="width   *16px;"> [Parte](Part_Workbench/it.md) o <img alt="" src=images/_Workbench_Arch.svg  style="width   *16px;"> [Architettura](Arch_Workbench/it.md) non-solidi, che potrebbero dare problemi, poiché la maggior parte delle operazioni del modulo Architettura richiedono oggetti solidi.
 
 
 </div>
@@ -29,21 +29,21 @@ Questo strumento controlla il documento corrente o gli oggetti selezionati alla 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   * 
 ```python
 list_bad = check(objectslist, includehidden=False)
 ```
 
 -   Controlla se gli oggetti dati in `objectslist` contengono solo solidi.
 -   Se `includehidden` è `True` include tutti gli oggetti nascosti, altrimenti li esclude dalla ricerca.
--   Restituisce una `list_bad`, una lista con gli oggetti che non sono derivati da una `Part::Feature`, o componenti che non sono chiusi, non validi, non contengono solidi o che contengono facce che non fanno parte di alcun solido. Questo è usato per rilevare contorni e profili di [Arch](Arch_Workbench/it.md) o [Draft](Draft_Workbench/it.md) che non sono solidi.
+-   Restituisce una `list_bad`, una lista con gli oggetti che non sono derivati da una `Part   *   *Feature`, o componenti che non sono chiusi, non validi, non contengono solidi o che contengono facce che non fanno parte di alcun solido. Questo è usato per rilevare contorni e profili di [Arch](Arch_Workbench/it.md) o [Draft](Draft_Workbench/it.md) che non sono solidi.
     -   Ogni elemento in `list_bad` è un\'altra lista `[object, message]`, dove `object` è l\'oggetto rilevato non solido, e `message` indica il motivo per cui è stato incluso in questo elenco.
 
-Esempio:
+Esempio   *
 
 
 ```python

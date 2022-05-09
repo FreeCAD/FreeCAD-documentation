@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Arch Check
-   Name/es:Arch Check
-   MenuLocation:Arquitectura → Utilidades → Comprobar
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Tapar agujeros](Arch_CloseHoles/es.md)
+- GuiCommand   */es
+   Name   *Arch Check
+   Name/es   *Arch Check
+   MenuLocation   *Arquitectura → Utilidades → Comprobar
+   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
+   SeeAlso   *[Tapar agujeros](Arch_CloseHoles/es.md)
 ---
 
 # Arch Check/es
@@ -49,7 +49,7 @@ Esta herramienta comprueba el documento actual o los objetos no sólidos selecci
 
 <div class="mw-translate-fuzzy">
 
-Esta herramienta se puede utilizar en [macros](macros/es.md) y desde la consola de Python por medio de las siguientes funciones:
+Esta herramienta se puede utilizar en [macros](macros/es.md) y desde la consola de Python por medio de las siguientes funciones   *
 
 
 </div>
@@ -63,12 +63,12 @@ list_bad = check(objectslist, includehidden=False)
 <div class="mw-translate-fuzzy">
 
 
-:   comprueba si los objetos dados contienen sólo sólidos
+   *   comprueba si los objetos dados contienen sólo sólidos
 
 
 </div>
 
-Example:
+Example   *
 
 
 ```python

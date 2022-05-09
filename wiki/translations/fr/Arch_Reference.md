@@ -1,17 +1,17 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Reference
-   Name/fr:Arch Référence externe
-   MenuLocation:Arch → Référence externe
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Partie de bâtiment](Arch_BuildingPart/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Reference
+   Name/fr   *Arch Référence externe
+   MenuLocation   *Arch → Référence externe
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[Arch Partie de bâtiment](Arch_BuildingPart/fr.md)
 ---
 
 # Arch Reference/fr
 
 ## Description
 
-<img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
+<img alt="" src=images/Arch_reference_screenshot.png  style="width   *800px;">
 
 L\'outil Référence vous permet de placer dans le document actuel un objet qui copie sa forme et ses couleurs à partir d\'un objet basé sur l\'[Atelier Part](Part_Workbench/fr.md) (y compris [Arch Partie de bâtiment](Arch_BuildingPart/fr.md)) stocké dans un autre fichier FreeCAD. Si ce fichier FreeCAD change, l\'objet de référence est marqué pour être rechargé.
 
@@ -32,22 +32,22 @@ L\'outil Référence vous permet de placer dans le document actuel un objet qui 
 
 ## Propriétés
 
--    **File**: Fichier de base sur lequel ce composant est construit
+-    **File**   * Fichier de base sur lequel ce composant est construit
 
--    **Part**: La partie à utiliser à partir du fichier de base.
+-    **Part**   * La partie à utiliser à partir du fichier de base.
 
--    **Update Colors**: Si la valeur est true, les couleurs du fichier lié seront mises à jour.
+-    **Update Colors**   * Si la valeur est true, les couleurs du fichier lié seront mises à jour.
 
 ## Script
 
-L\'outil Reference peut être utilisé à l\'intérieur d\'une [macro](macros/fr.md), et à partir de la console Python, en utilisant la fonction suivante : 
+L\'outil Reference peut être utilisé à l\'intérieur d\'une [macro](macros/fr.md), et à partir de la console Python, en utilisant la fonction suivante    * 
 ```python
 makeReference ([file_path,object_name])
 ```
 
 crée un objet de référence à partir de l\'objet donné dans le fichier donné.
 
-Exemple: 
+Exemple   * 
 ```python
 import Arch
 Arch.makeReference("/path/to/some/file.FSCtd","myPart")

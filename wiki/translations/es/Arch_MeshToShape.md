@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/es
-   Name:Arch MeshToShape   Name/es:Arch Malla a forma
-   MenuLocation:Arquitectura → Utilidades → Malla a forma
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Arch SplitMesh/es](Arch_SplitMesh/es.md), [Eliminar forma](Arch_RemoveShape/es.md)
+- GuiCommand   */es
+   Name   *Arch MeshToShape   Name/es   *Arch Malla a forma
+   MenuLocation   *Arquitectura → Utilidades → Malla a forma
+   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
+   SeeAlso   *[Arch SplitMesh/es](Arch_SplitMesh/es.md), [Eliminar forma](Arch_RemoveShape/es.md)
 ---
 
 # Arch MeshToShape/es
@@ -21,7 +21,7 @@ Esta herramienta convierte un objeto [Malla](Mesh_Workbench/es.md) seleccionado 
 
 </div>
 
-This tool is optimized for objects with flat faces (no curves). The corresponding tool **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
+This tool is optimized for objects with flat faces (no curves). The corresponding tool **[<img src=images/Part_ShapeFromMesh.svg style="width   *16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
 
 ## Utilización
 
@@ -51,7 +51,7 @@ This tool is optimized for objects with flat faces (no curves). The correspondin
 
 <div class="mw-translate-fuzzy">
 
-Esta herramienta se puede utilizar en [macros](macros/es.md) y desde la consola de Python por medio de las siguientes funciones:
+Esta herramienta se puede utilizar en [macros](macros/es.md) y desde la consola de Python por medio de las siguientes funciones   *
 
 
 </div>
@@ -65,16 +65,16 @@ new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True
 <div class="mw-translate-fuzzy">
 
 
-:   Covierte una malla en una forma, juntando las caras coplanares.
+   *   Covierte una malla en una forma, juntando las caras coplanares.
 
 
 </div>
 
-Example: 
+Example   * 
 ```python
 import Arch, Mesh, BuildRegularGeoms
 
-Box = FreeCAD.ActiveDocument.addObject("Mesh::Cube", "Cube")
+Box = FreeCAD.ActiveDocument.addObject("Mesh   *   *Cube", "Cube")
 Box.Length = 1000
 Box.Width = 2000
 Box.Height = 1000

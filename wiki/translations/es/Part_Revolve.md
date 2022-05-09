@@ -1,6 +1,6 @@
 # Part Revolve/es
 ---
-- GuiCommand:/es   Name:Part_Revolve   MenuLocation:Part → Revolve   Workbenches:[[Part_Workbench/es   Pieza]], Completo|SeeAlso:---
+- GuiCommand   */es   Name   *Part_Revolve   MenuLocation   *Part → Revolve   Workbenches   *[[Part_Workbench/es   Pieza]], Completo|SeeAlso   *---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Revoluciona los objetos seleccionados alrededor de un eje dado. Los siguientes tipos de formas están permitidos, y crean las formas de salida indicadas:
+Revoluciona los objetos seleccionados alrededor de un eje dado. Los siguientes tipos de formas están permitidos, y crean las formas de salida indicadas   *
 
 
 </div>
@@ -56,13 +56,14 @@ El argumento ángulo especifica lo lejos que se girará el objeto. Las coordenad
 
 <div class="mw-translate-fuzzy">
 
-Si seleccionas un eje definido por el usuario, los números definen la dirección del eje de revolución con respecto al sistema de coordenadas: Si la coordenada Z es 0 y las X e Y no son cero, entonces el eje estará en el plano XY. Su ángulo es tal que su tangente es el ratio de las coordenadas X e Y.
+Si seleccionas un eje definido por el usuario, los números definen la dirección del eje de revolución con respecto al sistema de coordenadas   * Si la coordenada Z es 0 y las X e Y no son cero, entonces el eje estará en el plano XY. Su ángulo es tal que su tangente es el ratio de las coordenadas X e Y.
 
 
 </div>
 
 ## Notes
 
+-   [App Link](App_Link.md) objects linked to the appropriate object types can also be used as shapes and to specify the axis. <small>(v0.20)</small> 
 -   If the object to revolve intersects the rotation axis the operation will fail in most cases.
 
 

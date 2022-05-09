@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/pl
-   Icon:Constraint Horizontal.svg
-   Name:Sketcher ConstrainHorizontal
-   Name/pl:Wiązanie poziome
-   MenuLocation:Szkic → Wiązania szkicownika → Zwiąż w poziomie
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**H**
-   SeeAlso:[Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md)
+- GuiCommand   */pl
+   Icon   *Constraint Horizontal.svg
+   Name   *Sketcher ConstrainHorizontal
+   Name/pl   *Wiązanie poziome
+   MenuLocation   *Szkic → Wiązania szkicownika → Zwiąż w poziomie
+   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut   ***H**
+   SeeAlso   *[Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md)
 ---
 
 # Sketcher ConstrainHorizontal/pl
@@ -17,19 +17,19 @@ Wiązanie poziome wymusza, aby wybrana linia lub linie na szkicu były równoleg
 
 ## Użycie
 
-<img alt="" src=images/HorizontalConstraint1.png  style="width:500px;"> 
+<img alt="" src=images/HorizontalConstraint1.png  style="width   *500px;"> 
 *Wybierz linię na szkicu, klikając na nią.*
 
-<img alt="" src=images/HorizontalConstraint2.png  style="width:500px;"> 
+<img alt="" src=images/HorizontalConstraint2.png  style="width   *500px;"> 
 *Linia staje się ciemnozielona.*
 
-<img alt="" src=images/HorizontalConstraint3.png  style="width:500px;"> 
-*Zastosuj Wiązanie poziome klikając na ikonę **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Utwórz wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md)* na pasku narzędzi '''Wiązania szkicownika''' lub wybierając pozycję menu '''Wiązanie poziome''' w podmenu '''Wiązania szkicownika''' w pozycji menu Szkic w środowisku pracy Szkicownik ''(lub w pozycji menu Projekt Części w środowisku pracy Projekt Części)''. Wybrana linia jest związana z osią poziomą szkicu, która powinna być równoległa do osi poziomej.**
+<img alt="" src=images/HorizontalConstraint3.png  style="width   *500px;"> 
+*Zastosuj Wiązanie poziome klikając na ikonę **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width   *16px"> [Utwórz wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md)* na pasku narzędzi '''Wiązania szkicownika''' lub wybierając pozycję menu '''Wiązanie poziome''' w podmenu '''Wiązania szkicownika''' w pozycji menu Szkic w środowisku pracy Szkicownik ''(lub w pozycji menu Projekt Części w środowisku pracy Projekt Części)''. Wybrana linia jest związana z osią poziomą szkicu, która powinna być równoległa do osi poziomej.**
 
-<img alt="" src=images/HorizontalConstraint4.png  style="width:500px;"> 
+<img alt="" src=images/HorizontalConstraint4.png  style="width   *500px;"> 
 *Można wybrać wiele linii.*
 
-<img alt="" src=images/HorizontalConstraint5.png  style="width:500px;"> 
+<img alt="" src=images/HorizontalConstraint5.png  style="width   *500px;"> 
 *a następnie stosując opisane powyżej wiązanie, są one powiązane równolegle do osi poziomej szkicu.*
 
 ## Tworzenie skryptów 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Arch Nest
-   Name/de:Arch Verschachteln
-   MenuLocation:Arch → Tafelwerkzeuge → Verschachteln
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch Tafel](Arch_Panel/de.md), [Arch Tafelplatte](Arch_Panel_Sheet/de.md)
+- GuiCommand   */de
+   Name   *Arch Nest
+   Name/de   *Arch Verschachteln
+   MenuLocation   *Arch → Tafelwerkzeuge → Verschachteln
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   SeeAlso   *[Arch Tafel](Arch_Panel/de.md), [Arch Tafelplatte](Arch_Panel_Sheet/de.md)
 ---
 
 # Arch Nest/de
@@ -18,7 +18,7 @@ Das **<img src="images/Arch_Nest.svg" width=16px> [Arch Verschachteln](Arch_Nest
 
 Der Algorithmus hinter dem Verschachtelungswerkzeug befindet sich in ständiger Entwicklung und ist derzeit noch nicht vollständig optimiert. In der Zukunft sollte die Leistung dieses Werkzeugs viel besser werden.
 
-<img alt="" src=images/Arch_Nest_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Nest_example.jpg  style="width   *600px;">
 
 *Das obige Bild zeigt eine Reihe von Formen vor und nach dem Verschachtelungsvorgang.*
 
@@ -33,7 +33,7 @@ Der Algorithmus hinter dem Verschachtelungswerkzeug befindet sich in ständiger 
 7.  Klicke am Ende der Berechnung auf die **Vorschau** Schaltfläche, um eine temporäre Ergebnisvorschau zu erhalten.
 8.  Wenn du das Ergebnis anwenden möchtest (Verschiebe und Drehe die tatsächlichen Formen an ihren Platz), klicke auf **OK**.
 
-<img alt="" src=images/Arch_Nest_panel.jpg  style="width:800px;"> 
+<img alt="" src=images/Arch_Nest_panel.jpg  style="width   *800px;"> 
 *Aufgabenansichtspaneel für das [Arch Verschachteln](Arch_Nest/de.md) Werkzeug*
 
 ## Hinweise

@@ -1,38 +1,39 @@
 ---
-- GuiCommand:
-   Name:Std SaveAll
-   MenuLocation:File → Save All
-   Workbenches:All
-   SeeAlso:[Std Save](Std_Save.md)
+- GuiCommand   */pl
+   Name   *Std SaveAll
+   Name/pl   *Std   * Zapisz wszystkie
+   MenuLocation   *Plik → Zapisz wszystkie
+   Workbenches   *wszystkie
+   SeeAlso   *[Zapisz](Std_Save/pl.md)
 ---
 
 # Std SaveAll/pl
 
-## Description
+## Opis
 
-The **Std SaveAll** command saves all open documents.
+Polecenie **Zapisz wszystkie** powoduje zapisanie wszystkich otwartych dokumentów.
 
-## Usage
+## Użycie
 
-1.  Select the **File → <img src="images/Std_SaveAll.svg" width=16px> Save All** option from the menu.
-2.  For new documents: enter a filename in the dialog box and press the **Save** button.
+1.  Wybierz z menu opcję **Plik → <img src="images/Std_SaveAll.svg" width=16px> Zapisz wszystkie**.
+2.  W przypadku nowych dokumentów   * wprowadź nazwę pliku w oknie dialogowym i naciśnij przycisk **Zapisz**.
 
-## Options
+## Opcje
 
--   For new documents: press **Esc** or the **Cancel** button to abort the command.
+-   W przypadku zapisywania nowego dokumentu   * naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
-## Preferences
+## Ustawienia
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To save a document use the `save` method of the document object. A new document must first be saved with the `saveAs` method of the document object. For a scripting example see [Std New](Std_New.md).
+Aby zapisać dokument, należy użyć metody `save` obiektu *document*. Nowy dokument musi być najpierw zapisany za pomocą metody `saveAs` obiektu *document*. Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/pl#Tworzenie_skrypt.C3.B3w.md).
 
 
 

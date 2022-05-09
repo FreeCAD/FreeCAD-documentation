@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch Panel Sheet
-   Name/it:Foglio di pannello
-   MenuLocation:Arch → Strumenti pannello → Foglio pannello
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:**P** **S**
-   SeeAlso:[Pannello](Arch_Panel/it.md), [Sagoma pannello](Arch_Panel_Cut/it.md), [Nido](Arch_Nest/it.md)
+- GuiCommand   */it
+   Name   *Arch Panel Sheet
+   Name/it   *Foglio di pannello
+   MenuLocation   *Arch → Strumenti pannello → Foglio pannello
+   Workbenches   *[Arch](Arch_Workbench/it.md)
+   Shortcut   ***P** **S**
+   SeeAlso   *[Pannello](Arch_Panel/it.md), [Sagoma pannello](Arch_Panel_Cut/it.md), [Nido](Arch_Nest/it.md)
 ---
 
 # Arch Panel Sheet/it
@@ -23,9 +23,9 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 
 </div>
 
-<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width   *1024px;">
 
-<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width   *1024px;">
 
 *L\'immagine sopra mostra come appaiono i Fogli pannello quando sono esportati in DXF.*
 
@@ -58,25 +58,25 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 
 ### Dati
 
--    {{PropertyData/it|Height}}: L\'altezza del foglio
+-    {{PropertyData/it|Height}}   * L\'altezza del foglio
 
--    {{PropertyData/it|Width}}: La larghezza del foglio
+-    {{PropertyData/it|Width}}   * La larghezza del foglio
 
--    {{PropertyData/it|Fill Ratio}}: La percentuale della superficie foglio che viene riempito dalle sagome (automatica)
+-    {{PropertyData/it|Fill Ratio}}   * La percentuale della superficie foglio che viene riempito dalle sagome (automatica)
 
--    {{PropertyData/it|Tag Text}}: Il testo da visualizzare
+-    {{PropertyData/it|Tag Text}}   * Il testo da visualizzare
 
--    {{PropertyData/it|Tag Size}}: La dimensione del testo tag
+-    {{PropertyData/it|Tag Size}}   * La dimensione del testo tag
 
--    {{PropertyData/it|Tag Position}}: La posizione del testo tag. Tenere (0,0,0) per la posizionarlo automaticamente nel centro
+-    {{PropertyData/it|Tag Position}}   * La posizione del testo tag. Tenere (0,0,0) per la posizionarlo automaticamente nel centro
 
--    {{PropertyData/it|Tag Rotation}}: La rotazione del testo tag
+-    {{PropertyData/it|Tag Rotation}}   * La rotazione del testo tag
 
--    {{PropertyData/it|Font File}}: Il carattere del testo tag
+-    {{PropertyData/it|Font File}}   * Il carattere del testo tag
 
--    {{PropertyData/it|Make Face}}: Se è True, il pannello è una Part Face, altrimenti è una Part Wire
+-    {{PropertyData/it|Make Face}}   * Se è True, il pannello è una Part Face, altrimenti è una Part Wire
 
--    {{PropertyData/it|Grain Direction}}: Ciò consente di sapere la direzione principale della fibra del pannello (senso orario, 0 ° significa in alto)
+-    {{PropertyData/it|Grain Direction}}   * Ciò consente di sapere la direzione principale della fibra del pannello (senso orario, 0 ° significa in alto)
 
 
 </div>
@@ -88,11 +88,11 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 
 ### Vista
 
--    {{PropertyView/it|Margin}}: Un margine che può essere visualizzato all\'interno del bordo del pannello
+-    {{PropertyView/it|Margin}}   * Un margine che può essere visualizzato all\'interno del bordo del pannello
 
--    {{PropertyView/it|Show Margin}}: Attiva o disattiva la visualizzazione del margine
+-    {{PropertyView/it|Show Margin}}   * Attiva o disattiva la visualizzazione del margine
 
--    {{PropertyView/it|Show Grain}}: Mostra la struttura della fibra (Make Face deve essere impostata su True)
+-    {{PropertyView/it|Show Grain}}   * Mostra la struttura della fibra (Make Face deve essere impostata su True)
 
 
 </div>
@@ -105,7 +105,7 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -115,7 +115,7 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Foglio pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Foglio pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -127,7 +127,7 @@ Sheet = makePanelSheet(panels=[], name="PanelSheet")
 
 -   Crea un oggetto `Sheet` dai `panels`, che sono una lista di oggetti [Pannello](Arch_Panel/it.md).
 
-Esempio:
+Esempio   *
 
 
 ```python

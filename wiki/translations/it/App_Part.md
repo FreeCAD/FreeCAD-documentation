@@ -3,20 +3,20 @@
 
 ## Introduzione
 
-<img alt="" src=images/Geofeaturegroup.svg  style="width:32px;">
+<img alt="" src=images/Geofeaturegroup.svg  style="width   *32px;">
 
-Un oggetto [App Part](App_Part/it.md), o formalmente un `App::Part`, è un elemento che consente di raggruppare degli oggetti nello spazio 3D.
+Un oggetto [App Part](App_Part/it.md), o formalmente un `App   *   *Part`, è un elemento che consente di raggruppare degli oggetti nello spazio 3D.
 
 È stato sviluppato per essere utilizzato negli assiemi, in quanto ha una **Origin** che funge da riferimento posizionale per gli oggetti raggruppati.
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
 
 
-*Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::Part* è un semplice contenitore che ha una posizione nello spazio 3D e ha un'origine per controllare il posizionamento degli oggetti raggruppati sotto di essa.`
+*Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App   *   *Part* è un semplice contenitore che ha una posizione nello spazio 3D e ha un'origine per controllare il posizionamento degli oggetti raggruppati sotto di essa.`
 
 
 </div>

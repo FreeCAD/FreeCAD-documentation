@@ -1,110 +1,103 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw SectionView
-   Name/de:TechDraw SchnittAnsicht
-   MenuLocation:TechDraw → Schnittansicht einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Ansicht einfügen](TechDraw_View/de.md),[TechDraw Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md)
+- GuiCommand   */de
+   Name   *TechDraw SectionView
+   Name/de   *TechDraw SchnittAnsicht
+   MenuLocation   *TechDraw → Schnittansicht einfügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso   *[TechDraw Ansicht einfügen](TechDraw_View/de.md),[TechDraw Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md)
 ---
 
 # TechDraw SectionView/de
 
 ## Beschreibung
 
-Das Abschnitt Werkzeug erstellt eine Querschnittdarstellung aus einer bereits bestehenden Teilansicht.
+Das Werkzeug Schnittansicht erstellt eine Schnittdarstellung (kurz   * einen Schnitt) aus einer bereits bestehenden Bauteilansicht.
 
-<img alt="" src=images/TechDraw_Section_example.png  style="width:250px;"> 
-*Schnittdarstellung einer bereits platzierten Ansicht, die die Innenbohrungen und eine schattierte Schnittfläche zeigt*
+<img alt="" src=images/TechDraw_Section_example.png  style="width   *250px;"> 
+*Schnitt (Schnittdarstellung) einer bereits platzierten Ansicht, der die innenliegenden Bohrungen und eine schattierte Schnittfläche zeigt*
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle eine Teilansicht im 3D Fenster oder Baum.
-2.  Wenn du mehrere Zeichnungsseiten in deinem Dokument hast, musst du auch die gewünschte Seite im Baum auswählen.
-3.  Drücke die **<img src="images/TechDraw_SectionView.svg" width=16px> [Schnittansicht einfügen](TechDraw_SectionView.md)** Schaltfläche
-4.  Ein Dialogfeld wird geöffnet, das bei der Berechnung der verschiedenen Querschnittseigenschaften hilft. Das Dialogfeld berechnet sinnvolle Startpunkte für SchnittNormal und Ansichtsrichtung, die jedoch nach der Erstellung für spezielle Anforderungen geändert werden können.
-5.  Wenn du beim Einrichten der Abschnittsparameter einen Fehler machst oder deine Meinung änderst, drücke die **Reset** Taste und du kannst von vorn beginnen.
-
-
-</div>
+1.  Eine Bauteilansicht in der 3D-Ansicht oder in der Baumansicht auswählen.
+2.  Die Schaltfläche **<img src="images/TechDraw_SectionView.svg" width=16px> [Schnittansicht einfügen](TechDraw_SectionView/de.md)** drücken.
+3.  Ein Dialogfeld wird geöffnet, das bei der Berechnung der verschiedenen Schnitteigenschaften hilft. Das Dialogfeld berechnet sinnvolle Ausgangspunkte für die Schnittnormale (Section Normal) und Ausrichtung der Ansicht, die jedoch nach der Erstellung für spezielle Anforderungen angepasst werden können.
+4.  Tritt beim Einrichten der Schnittparameter ein Fehler auf, oder entscheidet man sich während der Einstellung um, kann man die Teste **Reset** drücken und von vorne beginnen.
 
 ![](images/TechDraw_Section_Taskview.png ) 
-*Aufgabenansicht zum Definieren des Schnitts einer Ansicht*
+*Aufgabenbereich zum Definieren des Schnitts einer Ansicht*
 
 ## Eigenschaften
 
 ### Daten
 
-#### Abschnitt
+#### Section
 
--    **Grundansicht**: Die Ansicht, auf der dieser Schnitt basiert.
+-    {{PropertyData/de|Base View}}   * Die Ansicht, auf der dieser Schnitt basiert.
 
--    **Abschnitt Normal**: Ein Vektor, der die Richtung senkrecht zur Schnittebene beschreibt.
+-    {{PropertyData/de|Section Normal}}   * Ein Vektor, der die Richtung normal (senkrecht) zur Schnittebene beschreibt.
 
--    **Abschnitt Ursprung**: Ein Vektor, der einen Punkt auf der Schnittebene beschreibt. Typischerweise der Schwerpunkt des Originalteils.
+-    {{PropertyData/de|Section Origin}}   * Ein Vektor, der einen Punkt auf der Schnittebene beschreibt. Typischerweise der Schwerpunkt des Originalteils.
 
--    **Verschmelzen vor dem Schneiden**: Verschmelze die Ausgangsformen, bevor du den Abschnittsschnitt durchführst.
+-    {{PropertyData/de|Fuse Before Cut}}   * Vereinigt die Ausgangsformen, bevor der Schnitt erzeugt wird.
 
-#### Schneide Oberflächenformat 
+#### Cut Surface Format 
 
--    {{PropertyData/de|Oberflächenanzeige schneiden}}: Erscheinungsbild der Schnittoberfläche. Optionen:
+-    {{PropertyData/de|Cut Surface Display}}   * Darstellung der Schnittfläche. Optionen   *
 
-    -   *Ausblenden* Verbirgt die Schnittfläche, nur der Umriss wird angezeigt.
-    -   *Farbe*: Färbt die Schnittfläche mit der Einstellung **Schnittoberflächenfarbe** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
-    -   *SvgSchraffur*: Schraffiert den Abschnitt, der mit einer [Schraffur](TechDraw_Hatch/de.md) geschnitten wurde.
-    -   *PatSchraffur*: Schraffiert den Schnitt des Abschnitts mit einer [geometrischenSchraffur](TechDraw_GeometricHatch/de.md)
+    -   *Hide*   * Verbirgt die Schnittfläche, nur der Umriss wird angezeigt.
+    -   *Color*   * Färbt die Schnittfläche entsprechend der Einstellung **Farbe für Schnittflächen** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
+    -   *SvgHatch*   * Schraffiert den Schnitt, mit einer [Schraffur](TechDraw_Hatch/de.md).
+    -   *PatHatch*   * Schraffiert den Schnitt mit einer [geometrischen Schraffur](TechDraw_GeometricHatch/de.md).
 
--    {{PropertyData/de|Datei Schraffurmuster}}: Vollständiger Pfad zur SVG Schraffurmusterdatei.
+-    {{PropertyData/de|File Hatch Pattern}}   * Vollständiger Pfad zur SVG-Schraffurmusterdatei.
 
--    {{PropertyData/de|Datei Geomuster}}: Vollständiger Pfad zur PAT-Musterdatei.
+-    {{PropertyData/de|File Geom Pattern}}   * Vollständiger Pfad zur PAT-Musterdatei.
 
--    {{PropertyData/de|Svg eingeschlossen}}: Vollständiger Pfad zur enthaltenen SVG-Schraffurmusterdatei.
+-    {{PropertyData/de|Svg Included}}   * Vollständiger Pfad zur enthaltenen SVG-Schraffurmusterdatei.
 
--    {{PropertyData/de|Pat eingeschlossen}}: Vollständiger Pfad zur enthaltenen PAT Musterdatei.
+-    {{PropertyData/de|Pat Included}}   * Vollständiger Pfad zur enthaltenen PAT-Musterdatei.
 
--    {{PropertyData/de|Name Geomuster}}: Name des zu verwendenden PAT Musters (wird bei der *SvgSchraffur* Einstellung von **Schneide Oberflächen Anzeige** ignoriert).
+-    {{PropertyData/de|Name Geom Pattern}}   * Name des zu verwendenden PAT-Musters (wird bei der Einstellung *SvgHatch* von **Cut Surface Display** ignoriert).
 
 ### Ansicht
 
 #### Cut Surface 
 
--    **Schneide Oberflächen Farbe**: Einfarbig für Oberflächenhervorhebung. Wird verwendet, wenn **Schnittoberflächenanzeige** auf *Farbe* eingestellt ist.
+-    {{PropertyView/de|Cut Surface Color}}   * Farbton für Flächenhervorhebung. Wird verwendet, wenn **Cut Surface Display** auf *Color* eingestellt ist.
 
-#### Oberflächen Schraffur 
+#### Surface Hatch 
 
--    **Schraffurfarbe**: Farbe für Oberflächenschraffurlinien.
+-    {{PropertyView/de|Hatch Color}}   * Farbe für Oberflächenschraffurlinien.
 
--    **Weight Pattern**: Linienstärke für Oberflächenschraffurlinien.
+-    {{PropertyView/de|Weight Pattern}}   * Linienstärke für Oberflächenschraffurlinien.
 
 ### Grundansicht
 
-Eine Schnittansicht erbt alle anwendbaren Eigenschaften der Ansicht, die als {**BaseView**} angegeben ist. In den Eigenschaften der Ansicht kannst du das Aussehen der Schnittlinie ändern:
+Eine Schnittansicht erbt alle anwendbaren Eigenschaften der Ansicht, die in der {{{PropertyData/de|BaseView}}} angegeben ist. In den Eigenschaften der Ansicht kann die Darstellung der Schnittlinie geändert werden   *
 
--    **Schnitt Linienfarbe**: Farbe der Schnittlinie.
+-    {{PropertyView/de|Section Line Color}}   * Farbe der Schnittlinie.
 
--    **Schnitt Linienstil**: Stil der Schnittlinie.
+-    {{PropertyView/de|Section Line Style}}   * Linienart der Schnittlinie.
 
-Die Standardeinstellungen für diese Parameter werden über die Einstellungen **Schnittlinie** und **Schnittlinienstil** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) eingestellt.
+Die Standardeinstellungen für diese Parameter werden über die Einstellungen **Section Line** und **Section Line Style** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md) eingestellt.
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Neue Abschnittswerkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden:
+Das Neue Abschnittswerkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden   *
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewPart','View')
+view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart','View')
 rc = page.addView(view)
 view.Source = box
 view.Direction = (0.0,0.0,1.0)
 
-section = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewSection','Section')
+section = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewSection','Section')
 rc = page.addView(section)
 section.Source = box
 section.BaseView = view
@@ -115,9 +108,9 @@ section.SectionOrigin = (5.0,5.0,5.0)
 
 ## Hinweise
 
--   **Schnittlinienformat**: sowohl das herkömmliche Schnittlinienformat (wie oben abgebildet) als auch die \"Referenzpfeil Methode\" werden unterstützt. Diese Option wird durch die Voreinstellung \"Mod/TechDraw/Format/SectionFormat\" gesteuert (siehe [Std\_DlgParameter](Std_DlgParameter/de.md)). 0 für die herkömmliche Linienmethode, 1 für die Referenzpfeilmethode.
--   **SchneideOberflächeAnzeige**: die Schnittfläche kann ausgeblendet, in einer Volltonfarbe gemalt, mit einem Svg Muster (Standard) schraffiert oder mit einem PAT Muster schraffiert werden. Siehe [Schraffur](TechDraw_Hatching/de.md).
--   **VerschmelzenVorSchneiden**: Die Querschnittsoperation kann manchmal die Ausgangsformen nicht schneiden. Wenn VerschmelzenVorSchneiden wahr ist, werden die Ausgangsformen zu einer einzigen Form zusammengeführt, bevor die Schnittoperation versucht wird. Wenn du Probleme mit der Abschnittsoperation hast, versuche, diesen Wert umzudrehen.
+-   **Schnittlinienformat**   * sowohl das herkömmliche Schnittlinienformat (wie oben abgebildet) als auch die \"Referenzpfeil Methode\" werden unterstützt. Diese Option wird durch die Voreinstellung \"Mod/TechDraw/Format/SectionFormat\" gesteuert (siehe [Std\_DlgParameter](Std_DlgParameter/de.md)). 0 für die herkömmliche Linienmethode, 1 für die Referenzpfeilmethode.
+-   **SchneideOberflächeAnzeige**   * die Schnittfläche kann ausgeblendet, in einer Volltonfarbe gemalt, mit einem Svg Muster (Standard) schraffiert oder mit einem PAT Muster schraffiert werden. Siehe [Schraffur](TechDraw_Hatching/de.md).
+-   **VerschmelzenVorSchneiden**   * Die Querschnittsoperation kann manchmal die Ausgangsformen nicht schneiden. Wenn VerschmelzenVorSchneiden wahr ist, werden die Ausgangsformen zu einer einzigen Form zusammengeführt, bevor die Schnittoperation versucht wird. Wenn du Probleme mit der Abschnittsoperation hast, versuche, diesen Wert umzudrehen.
 
 
 

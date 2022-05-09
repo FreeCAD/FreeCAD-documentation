@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Std_Paste
-   Name/it:Incolla
-   MenuLocation:Modifica → Incolla
-   Shortcut:**Ctrl**+**V**
-   Workbenches:Tutti
-   SeeAlso:[Taglia](Std_Cut/it.md), [Copia](Std_Copy/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
+- GuiCommand   */it
+   Name   *Std_Paste
+   Name/it   *Incolla
+   MenuLocation   *Modifica → Incolla
+   Shortcut   ***Ctrl**+**V**
+   Workbenches   *Tutti
+   SeeAlso   *[Taglia](Std_Cut/it.md), [Copia](Std_Copy/it.md), [Duplica la selezione](Std_DuplicateSelection/it.md)
 ---
 
 # Std Paste/it
@@ -19,11 +19,11 @@ Il comando **Incolla** incolla gli oggetti dagli Appunti nel documento attivo.
 
 <div class="mw-translate-fuzzy">
 
-1.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando   *
     -   Premere il pulsante **<img src="images/Std_Paste.svg" width=16px> Incolla**.
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_Paste.svg" width=16px> Incolla** dal menu.
     -   Selezionare l\'opzione **<img src="images/Std_Paste.svg" width=16px> Incolla** dal menu contestuale della [vista ad albero](Tree_view/it.md). Questa opzione è disponibile solo quando è stato selezionato un oggetto esistente.
-    -   Usare la scorciatoia da tastiera: **Ctrl**+**V**.
+    -   Usare la scorciatoia da tastiera   * **Ctrl**+**V**.
 
 
 </div>

@@ -7,16 +7,16 @@
 |Version=2.0
 |Date=2022-04-13
 |FCVersion=0.20
-|Download=[https://www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png ToolBar Icon]
 }}
 
 ## Description
 
 When entering numbers, and the number input box is not properly focused, FreeCAD will react to digits by switching standard views. This macro is a quick way to re-bind the shortcuts to Ctrl+number. Doesn\'t help very much with entering numbers, but at least the view won\'t spin like crazy.
 
-See forum thread [How to turn off (disable) Numpad navigation?](https://forum.freecadweb.org/viewtopic.php?f=3&t=26667)
+See forum thread [How to turn off (disable) Numpad navigation?](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=26667)
 
-## How to use: 
+## How to use   * 
 
 1\. Copy-paste macro code to Py console of FreeCAD.
 
@@ -41,8 +41,8 @@ preset = [
     ("Std_ViewBottom", "Ctrl+5"),
     ("Std_ViewLeft"  , "Ctrl+6"),
 ]
-for (cmd, shortcut) in preset:
-    App.ParamGet("User parameter:BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
+for (cmd, shortcut) in preset   *
+    App.ParamGet("User parameter   *BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
 }}
 
 

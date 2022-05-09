@@ -1,6 +1,6 @@
 # PartDesign Chamfer/cs
 ---
-- GuiCommand:/cs   Name:PartDesign Chamfer   Name/cs:PartDesign Chamfer   Workbenches:[MenuLocation:Part Design → Chamfer   SeeAlso:[[Part Chamfer/cs|Chamfer Part](PartDesign_Workbench/cs___PartDesign]],_Complete.md)---
+- GuiCommand   */cs   Name   *PartDesign Chamfer   Name/cs   *PartDesign Chamfer   Workbenches   *[MenuLocation   *Part Design → Chamfer   SeeAlso   *[[Part Chamfer/cs|Chamfer Part](PartDesign_Workbench/cs___PartDesign]],_Complete.md)---
 
 
 </div>
@@ -36,25 +36,25 @@ This tool creates chamfers on the selected edges of an object. A new separate Ch
 </div>
 
 -   Select a single edge, multiple edges or a face on an object, then start the tool either by clicking the button **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chamfer'''** or using the menu **PartDesign → Apply a dress-up feature → Chamfer**. In case you selected a face or a 3D object (<small>(v0.20)</small> ) all its edges are respected for chamfering.
--   In the appearing [Task panel](Task_panel.md) you can define the chamfer in 3 ways:
+-   In the appearing [Task panel](Task_panel.md) you can define the chamfer in 3 ways   *
     -   
         **Equal distance**
         
-        : The chamfer edges are equally distanced from the body edge.
+           * The chamfer edges are equally distanced from the body edge.
 
     -   
         **Two distances**
         
-        : The distances of the chamfer edge to the body edge are specified. The distance direction can be flipped. <small>(v0.19)</small> 
+           * The distances of the chamfer edge to the body edge are specified. The distance direction can be flipped. <small>(v0.19)</small> 
 
     -   
         **Distance and angle**
         
-        : One distances of the chamfer edge to the body edge is specified. The second chamfer edge is defined by the angle of the chamfer. The distance direction can be flipped. <small>(v0.19)</small> 
+           * One distances of the chamfer edge to the body edge is specified. The second chamfer edge is defined by the angle of the chamfer. The distance direction can be flipped. <small>(v0.19)</small> 
 -   If you want to add more edges or faces click the **Add** button and select edges and/or the faces.
 -   After clicking the **Add** button you can add all edges of the object by right-clicking and selecting **Add all edges** from the context menu. <small>(v0.20)</small> 
 -   If you want to remove edges or faces
-    -   either select the edge/face in the list of the dialog and press the **DEL** key. *Note*: Since there must be at least one edge for the feature, the last remaining edge or face in the list cannot be removed.
+    -   either select the edge/face in the list of the dialog and press the **DEL** key. *Note*   * Since there must be at least one edge for the feature, the last remaining edge or face in the list cannot be removed.
     -   or click the **Remove** button. All edges and faces being previously selected are highlighted in purple. Select the edge or the face to be removed.
     -   Ensure the **Use all edges** checkbox is unchecked or else some widgets in the dialog will be disabled. <small>(v0.20)</small> 
 -   Click **OK** to validate.

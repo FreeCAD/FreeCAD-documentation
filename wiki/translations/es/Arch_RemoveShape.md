@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Arch RemoveShape
-   Name/es:Arch RemoveShape
-   MenuLocation:Arch → Utilities → Remove Shape
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   SeeAlso:[Arch MeshToShape](Arch_MeshToShape/es.md)
+- GuiCommand   */es
+   Name   *Arch RemoveShape
+   Name/es   *Arch RemoveShape
+   MenuLocation   *Arch → Utilities → Remove Shape
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   SeeAlso   *[Arch MeshToShape](Arch_MeshToShape/es.md)
 ---
 
 # Arch RemoveShape/es
@@ -46,7 +46,7 @@ Esta herramienta intenta eliminar la forma cúbica interna de una [Arch Wall](Ar
 
 <div class="mw-translate-fuzzy">
 
-Esta herramienta se puede utilizar en [macros](macros/es.md) y desde la consola de Python por medio de las siguientes funciones:
+Esta herramienta se puede utilizar en [macros](macros/es.md) y desde la consola de Python por medio de las siguientes funciones   *
 
 
 </div>
@@ -68,7 +68,7 @@ toma un objeto Arch (pared o estructura) construido en una forma cúbica, y elim
 ```python
 import FreeCAD, Draft, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 1000
 Box.Width = 2000
 Box.Height = 1000
@@ -89,11 +89,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
-
-
-{{Arch_Tools_navi
-
-}}
 
 
 

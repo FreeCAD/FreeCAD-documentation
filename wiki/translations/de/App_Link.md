@@ -3,11 +3,11 @@
 
 ## Einführung
 
-<img alt="" src=images/Link.svg  style="width:32px;">
+<img alt="" src=images/Link.svg  style="width   *32px;">
 
-Eine [Anwendungsverknüpfung](App_Link/de.md) oder formal ein `App::Link`, ist ein Objekttyp, der auf ein anderes Objekt im selben Dokument oder in einem anderen Dokument verweist oder auf ein anderes Objekt verknüpft. Es wurde speziell entwickelt, um ein einzelnes Objekt effizient mehrfach zu duplizieren, was bei der Erstellung komplexer [Baugruppen](assembly/de.md) aus kleineren Unterbaugruppen und aus mehreren wiederverwendbaren Komponenten wie Schrauben, Muttern und ähnlichen Verbindungselementen hilfreich ist.
+Eine [Anwendungsverknüpfung](App_Link/de.md) oder formal ein `App   *   *Link`, ist ein Objekttyp, der auf ein anderes Objekt im selben Dokument oder in einem anderen Dokument verweist oder auf ein anderes Objekt verknüpft. Es wurde speziell entwickelt, um ein einzelnes Objekt effizient mehrfach zu duplizieren, was bei der Erstellung komplexer [Baugruppen](assembly/de.md) aus kleineren Unterbaugruppen und aus mehreren wiederverwendbaren Komponenten wie Schrauben, Muttern und ähnlichen Verbindungselementen hilfreich ist.
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
 
 
 

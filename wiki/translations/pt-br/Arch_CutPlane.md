@@ -1,25 +1,25 @@
 ---
-- GuiCommand:
-   Name:Arch CutPlane
-   MenuLocation:Arch → Cut Plane
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Arch CutLine](Arch_CutLine.md), [Arch Remove](Arch_Remove.md)
+- GuiCommand   *
+   Name   *Arch CutPlane
+   MenuLocation   *Arch → Cut Plane
+   Workbenches   *[Arch](Arch_Workbench.md)
+   SeeAlso   *[Arch CutLine](Arch_CutLine.md), [Arch Remove](Arch_Remove.md)
 ---
 
 # Arch CutPlane/pt-br
 
 ## Descrição
 
-The Cut Plane tool allows you to cut an Arch object according to a plane:
+The Cut Plane tool allows you to cut an Arch object according to a plane   *
 
 -   You can cut an Arch object with the selected face, normal or opposite of the face plane.
 -   This add a subtraction component CutVolume to the Arch object
 
-<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_CutPlane_example.jpg  style="width   *640px;">
 
 
 
-*Left: Before applying the CutPlane tool. Middle: resulting wall after the cut is done. Right: yet another optional result*
+*Left   * Before applying the CutPlane tool. Middle   * resulting wall after the cut is done. Right   * yet another optional result*
 
 ## Utilização
 
@@ -31,11 +31,11 @@ The Cut Plane tool allows you to cut an Arch object according to a plane:
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The CutPlane tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The CutPlane tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 ```
@@ -53,7 +53,7 @@ cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 
 -    `sideFace`specifies on which side of the `FaceObject` a volume will be created; this volume will then be used to subtract from the `archObject`. If `sideFace` is `0` it will create a volume in the rear of the face, otherwise it create it in front of the face.
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Rocket LaunchGuide
-   Name/fr:Rocket Guides de lancement
-   MenuLocation:Rocket → Launch Guides
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+- GuiCommand   */fr
+   Name   *Rocket LaunchGuide
+   Name/fr   *Rocket Guides de lancement
+   MenuLocation   *Rocket → Launch Guides
+   Workbenches   *[Rocket](Rocket_Workbench/fr.md)
+   Version   *0.19
 ---
 
 # Rocket CompLaunchGuide/fr
@@ -15,9 +15,17 @@ Crée un guide de lancement utilisé pour assurer un vol droit avant que la fus�
 
 ## Types de guides de lancement 
 
--   <img alt="" src=images/Rocket_LaunchLug.svg  style="width:32px;"> [Rampe de lancement](Rocket_LaunchLug/fr.md) : Crée une rampe de lancement
--   <img alt="" src=images/Rocket_RailButton.svg  style="width:32px;"> [Bouton rail](Rocket_RailButton/fr.md) : Crée un bouton rail
--   <img alt="" src=images/Rocket_RailGuide.svg  style="width:32px;"> [Guide rail](Rocket_RailGuide/fr.md) : Crée un guide rail
+-   <img alt="" src=images/Rocket_LaunchLug.svg  style="width   *32px;"> [Rampe de lancement](Rocket_LaunchLug/fr.md)    * Crée une rampe de lancement
+-   <img alt="" src=images/Rocket_RailButton.svg  style="width   *32px;"> [Bouton rail](Rocket_RailButton/fr.md)    * Crée un bouton rail
+-   <img alt="" src=images/Rocket_RailGuide.svg  style="width   *32px;"> [Guide rail](Rocket_RailGuide/fr.md)    * Crée un guide rail
+
+
+
+
+
+
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

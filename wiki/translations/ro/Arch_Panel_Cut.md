@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name:Arch Panel Cut   Name/ro:Arch Panel Cut
-   MenuLocation:Arch → Panel Tools → Panel Cut
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:**P** **C**
-   SeeAlso:[[Arch Panel/ro]], [[Arch Panel Sheet/ro]], [[Arch Nest/ro]], [[Path Workbench/ro]]
+- GuiCommand   */ro
+   Name   *Arch Panel Cut   Name/ro   *Arch Panel Cut
+   MenuLocation   *Arch → Panel Tools → Panel Cut
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   Shortcut   ***P** **C**
+   SeeAlso   *[[Arch Panel/ro]], [[Arch Panel Sheet/ro]], [[Arch Nest/ro]], [[Path Workbench/ro]]
 ---
 
 # Arch Panel Cut/ro
@@ -22,7 +22,7 @@ Acest instrument creează, în documentul 3D, o vizualizare plană 2D a unui pan
 
 </div>
 
-<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width   *1024px;">
 
 ## Cum se folosește 
 
@@ -52,32 +52,32 @@ Acest instrument creează, în documentul 3D, o vizualizare plană 2D a unui pan
 
 <div class="mw-translate-fuzzy">
 
--    **Source**: Obiectul [Arch Panel](Arch_Panel.md) afișat de Cut sa
+-    **Source**   * Obiectul [Arch Panel](Arch_Panel.md) afișat de Cut sa
 
--    **Tag Text**: The text to display. Can be %tag%, %label% or %description% to display the panel tag or label
+-    **Tag Text**   * The text to display. Can be %tag%, %label% or %description% to display the panel tag or label
 
--    **Tag Size**: The size of the tag text
+-    **Tag Size**   * The size of the tag text
 
--    **Tag Position**: The position of the tag text. Keep (0,0,0) for automatic center position
+-    **Tag Position**   * The position of the tag text. Keep (0,0,0) for automatic center position
 
--    **Tag Rotation**: The rotation of the tag text
+-    **Tag Rotation**   * The rotation of the tag text
 
--    **Font File**: The font of the tag text
+-    **Font File**   * The font of the tag text
 
--    **Margin**: A margin that can be displayed outside the panel cut shape
+-    **Margin**   * A margin that can be displayed outside the panel cut shape
 
--    **Show Margin**: Turns the display of the margin on/off
+-    **Show Margin**   * Turns the display of the margin on/off
 
--    **Make Face**: Dacă este True, panelul este o Part Face, altfel este o Part Wire
+-    **Make Face**   * Dacă este True, panelul este o Part Face, altfel este o Part Wire
 
 
 </div>
 
 ### View
 
--    **Margin**: A margin that can be displayed outside the panel cut shape
+-    **Margin**   * A margin that can be displayed outside the panel cut shape
 
--    **Show Margin**: Turns the display of the margin on/off
+-    **Show Margin**   * Turns the display of the margin on/off
 
 ## Scripting
 
@@ -92,7 +92,7 @@ Acest instrument creează, în documentul 3D, o vizualizare plană 2D a unui pan
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Panel poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții:
+Instrumentul Panel poate fi utilizat în [macros](macros.md) și de la consola python utilizând următoarele funcții   *
 
 
 </div>

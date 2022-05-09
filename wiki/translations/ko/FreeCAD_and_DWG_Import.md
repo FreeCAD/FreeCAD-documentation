@@ -26,19 +26,19 @@ The DWG format is a closed source binary file format that is not directly suppor
 
 ### LibreDWG
 
--   homepage: <https://www.gnu.org/software/libredwg/>
--   license: [GPLv3-or-later](https://savannah.gnu.org/projects/libredwg/)
+-   homepage   * <https   *//www.gnu.org/software/libredwg/>
+-   license   * [GPLv3-or-later](https   *//savannah.gnu.org/projects/libredwg/)
 -   optional, used to enable import and export of DWG files
 
 GNU LibreDWG is a free C library to handle DWG files. It aims to be a free replacement for the Open Design Alliance Drawings SDK libraries. Be aware that, since libreDWG is a work-in-progress, it lacks support for some DWG entities.
 
 #### Installation Windows 
 
-Downloading and unzip the appropriate [pre-compiled Windows binary](https://github.com/LibreDWG/libredwg/releases) and then set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
+Downloading and unzip the appropriate [pre-compiled Windows binary](https   *//github.com/LibreDWG/libredwg/releases) and then set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 #### Installation Linux/Unix systems 
 
-git clone [https://git.savannah.gnu.org/git/libredwg.git](https://git.savannah.gnu.org/git/libredwg.git)
+git clone [https   *//git.savannah.gnu.org/git/libredwg.git](https   *//git.savannah.gnu.org/git/libredwg.git)
 cd libredwg
 mkdir build
 cd build
@@ -52,13 +52,13 @@ You need to set the path to the executable manually. See [Import Export Preferen
 
 To prevent problems you must use LibreDWG package compiled for the installed openSUSE OS distribution. LibreDWG is typically installed with **YAST** (abbr. Yet another Setup Tool), the Linux operating system\'s setup and configuration tool.
 
-The more experienced user first gets an overview of possible packages provided. **Note:** openSUSE has several options to choose from when downloading LibreDWG. To view these options, visit [Survey of provided LibreDWG packages on openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=libredwg).
+The more experienced user first gets an overview of possible packages provided. **Note   *** openSUSE has several options to choose from when downloading LibreDWG. To view these options, visit [Survey of provided LibreDWG packages on openSUSE](https   *//software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=libredwg).
 
 For e.g. Intel or AMD 64-bit desktops, laptops, and servers the (x86\_64) release is the one to select. So **libredwg0** and **libredwg-tools** are of the right choice to install.
 
 It is recommended to grab the binary packages directly. Then select the correct distribution for your installed openSUSE OS.
 
-In any terminal/console (root rights required) the installation will be carried out with:
+In any terminal/console (root rights required) the installation will be carried out with   *
 
 
 ```python
@@ -72,15 +72,15 @@ You need to set the path to the executable manually. See [Import Export Preferen
 
 ### ODA Converter (formerly Teigha Converter) 
 
--   홈페이지: <https://www.opendesign.com/guestfiles/oda_file_converter>
--   라이선스: freeware
+-   홈페이지   * <https   *//www.opendesign.com/guestfiles/oda_file_converter>
+-   라이선스   * freeware
 -   optional, used to enable import and export of DWG files
 
 
 </div>
 
--   homepage: <https://www.opendesign.com/guestfiles/oda_file_converter>
--   license: freeware
+-   homepage   * <https   *//www.opendesign.com/guestfiles/oda_file_converter>
+-   license   * freeware
 -   optional, used to enable import and export of DWG files
 
 The ODA File Converter is a small freely available utility that allows to convert between several versions of DWG and DXF files. FreeCAD can use it to offer DWG import and export, by converting DWG files to the DXF format under the hood, then using its standard DXF importer to import the file contents. The restrictions of the [DXF importer](Draft_DXF.md) apply.
@@ -90,7 +90,7 @@ The ODA File Converter is a small freely available utility that allows to conver
 
 #### 설치
 
-On all platforms, only by installing the appropriate package from <https://www.opendesign.com/guestfiles/oda_file_converter>. After installation, if the utility is not found automatically by FreeCAD, you might need to set the path to the converter executable manually. open Edit → Preferences → Import-Export → DWG and fill \"Path to Teigha File Converter\" appropriately.
+On all platforms, only by installing the appropriate package from <https   *//www.opendesign.com/guestfiles/oda_file_converter>. After installation, if the utility is not found automatically by FreeCAD, you might need to set the path to the converter executable manually. open Edit → Preferences → Import-Export → DWG and fill \"Path to Teigha File Converter\" appropriately.
 
 
 </div>
@@ -102,8 +102,8 @@ If the utility is not found automatically by FreeCAD after installation, you nee
 
 <small>(v0.20)</small> 
 
--   homepage: <https://qcad.org/en/qcad-command-line-tools#dwg2dwg>
--   license: commercial
+-   homepage   * <https   *//qcad.org/en/qcad-command-line-tools#dwg2dwg>
+-   license   * commercial
 -   optional, used to enable import and export of DWG files
 
 QCAD is a well-known open-source DXF-based 2D CAD platform. It also offers a paid pro version, which is basically the open-source version plus support for the DWG format. When buying the pro version, QCAD also includes a DWG to DXF conversion utility that can be used by FreeCAD.
@@ -114,7 +114,7 @@ You need to set the path to the executable manually. See [Import Export Preferen
 
 ### CADExchanger Workbench 
 
-Installing the CADExchanger Workbench allows for working with DWG files through integration with the paid commercial file converter product [CADExchanger](https://cadexchanger.com/). Just follow the instructions in the [GitHub repository](https://github.com/yorikvanhavre/CADExchanger). You can discuss this workbench on [its forum thread](https://forum.freecadweb.org/viewtopic.php?f=9&t=22227&p=462421).
+Installing the CADExchanger Workbench allows for working with DWG files through integration with the paid commercial file converter product [CADExchanger](https   *//cadexchanger.com/). Just follow the instructions in the [GitHub repository](https   *//github.com/yorikvanhavre/CADExchanger). You can discuss this workbench on [its forum thread](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=22227&p=462421).
 
 At the moment, the CADExchanger way is the only one that allows to work with 3D DWG files, by converting them to other 3D formats.
 
@@ -128,11 +128,11 @@ At the moment, the CADExchanger way is the only one that allows to work with 3D 
 
 ### DoubleCAD XT 
 
-There is also DoubleCAD XT (https://www.turbocad.com/content/doublecad-xt-v5). The program is free for personal and commercial use. It requires a free sign-up to receive an activation code via E-Mail. This Program is windows-only. Note: it does not seem to have been updated for years.
+There is also DoubleCAD XT (https   *//www.turbocad.com/content/doublecad-xt-v5). The program is free for personal and commercial use. It requires a free sign-up to receive an activation code via E-Mail. This Program is windows-only. Note   * it does not seem to have been updated for years.
 
 ### NanoCAD 5.0 
 
-There is also nanoCAD 5.0 (https://nanocad.com/products/nanoCAD/download/). The program is free for personal and commercial use. It requires a free sign-up to receive an activation code via E-Mail. This Program is windows-only.
+There is also nanoCAD 5.0 (https   *//nanocad.com/products/nanoCAD/download/). The program is free for personal and commercial use. It requires a free sign-up to receive an activation code via E-Mail. This Program is windows-only.
 
 
 <div class="mw-translate-fuzzy">
@@ -171,6 +171,11 @@ Simply put, stop accepting work done in DWG format. In practice, this is often e
 ### Use the LibreDWG library and file bug reports 
 
 In development version as mentioned above you can switch from the proprietary ODA Converter to the free software LibreDWG library for DWG (and DXF) files. Please do this and report any problems you encounter.
+
+
+ 
+
+[Category   *File\_Formats](Category_File_Formats.md) [Category   *Common Questions](Category_Common_Questions.md)
 
 
 

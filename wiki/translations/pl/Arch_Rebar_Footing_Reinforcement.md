@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/pl
-   Name:Arch Rebar Footing Reinforcement
-   Name/pl:Architektura: Zbrojenie stóp fundamentowych
-   MenuLocation:Architektura → Narzędzia zbrojenia → Zbrojenie stóp fundamentowych
-   Workbenches:[Architektura](Arch_Workbench/pl.md)
-   SeeAlso:[Zbrojenie](Reinforcement_Workbench/pl.md), [Pręt zbrojeniowy](Arch_Rebar/pl.md)
+- GuiCommand   */pl
+   Name   *Arch Rebar Footing Reinforcement
+   Name/pl   *Architektura   * Zbrojenie stóp fundamentowych
+   MenuLocation   *Architektura → Narzędzia zbrojenia → Zbrojenie stóp fundamentowych
+   Workbenches   *[Architektura](Arch_Workbench/pl.md)
+   SeeAlso   *[Zbrojenie](Reinforcement_Workbench/pl.md), [Pręt zbrojeniowy](Arch_Rebar/pl.md)
 ---
 
 # Arch Rebar Footing Reinforcement/pl
@@ -13,7 +13,7 @@
 
 Narzędzie [Zbrojenie stóp fundamentowych](Arch_Rebar_Footing_Reinforcement/pl.md) pozwala użytkownikowi na tworzenie prętów zbrojeniowych wewnątrz obiektu [konstrukcji](Arch_Structure/pl.md) Stopy.
 
-To polecenie jest częścią [zewnętrznego środowiska pracy](External_workbenches/pl.md) [Zbrojenie](Reinforcement_Workbench/pl.md), które można zainstalować za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr.md) poprzez menu **Przybory → Menadżera dodatków → Reinforcement**.
+To polecenie jest częścią [zewnętrznego środowiska pracy](External_workbenches/pl.md) [Zbrojenie](Reinforcement_Workbench/pl.md), które można zainstalować za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Menadżera dodatków](Std_AddonMgr.md) poprzez menu **Przybory → Menadżera dodatków → Reinforcement**.
 
 ![](images/Isometric_view_of_Columns_footing.png ) 
 *Przykład zbrojenia ławy fundamentowej w [konstrukcji](Arch_Structure/pl.md) stopy*
@@ -60,7 +60,7 @@ To polecenie jest częścią [zewnętrznego środowiska pracy](External_workbenc
 ![](images/Main_Rebar_input_fields_for_column_footing.png ) 
 *Okno dialogowe dla pól wprowadzania danych dotyczących zbrojenia głównego w kolumnach zbrojenia ławy fundamentowej*
 
-Uwaga: kroki 9 i 10 są wymagane tylko wtedy, gdy w kroku 6 włączona jest kontrola pomocniczych prętów zbrojeniowych.
+Uwaga   * kroki 9 i 10 są wymagane tylko wtedy, gdy w kroku 6 włączona jest kontrola pomocniczych prętów zbrojeniowych.
 
 9\. Kliknij Dalej lub kliknij na XDir Pręty zbrojeniowe pomocnicze w widoku listy i wpisz żądane dane dla prętów zbrojeniowych pomocniczych w kierunku X w kolumnie w zbrojeniu ławy fundamentowej.
 
@@ -77,141 +77,141 @@ Uwaga: kroki 9 i 10 są wymagane tylko wtedy, gdy w kroku 6 włączona jest kont
 
 ## Właściwości
 
-### **Właściwości prętów zbrojeniowych w kierunku równoległym do wybranej ściany w zbrojeniu stopy fundamentowej:** 
+### **Właściwości prętów zbrojeniowych w kierunku równoległym do wybranej ściany w zbrojeniu stopy fundamentowej   *** 
 
--   {{ PropertyData/pl\|Wzdłużne pokrycie siatką}}: Reprezentuje wyrównanie siatki zbrojeniowej wzdłuż górnej i / lub dolnej powierzchni konstrukcji. Może mieć trzy wartości \"Góra\", \"Dół\" i \"Obie\".
--   {{ PropertyData/pl\|Typ zbrojenia}}: Typ prętów zbrojeniowych dla równoległych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
--   {{ PropertyData/pl\|Pokrycie od przodu}}: Odległość równoległego pręta zbrojeniowego od wybranej powierzchni.
--   {{ PropertyData/pl\|Pokrycie z lewej}}: Odległość lewego końca równoległego pręta zbrojeniowego do lewego boku konstrukcji.
--   {{ PropertyData/pl\|Pokrycie z prawej}}: Odległość prawego końca równoległego pręta zbrojeniowego do prawego boku konstrukcji.
--   {{ PropertyData/pl\|Pokrycie od dołu}}: Odległość równoległych prętów zbrojeniowych od dolnej powierzchni konstrukcji.
--   {{ PropertyData/pl\|Pokrycie od góry}}: Odległość równoległych prętów zbrojeniowych od górnej powierzchni konstrukcji.
--   {{ PropertyData/pl\|Pokrycie od tyłu}}: Pokrycie zbrojeniem tyłu stopy fundamentowej z równolegle ułożonych prętów zbrojeniowych.
--   {{ PropertyData/pl\|Zaokrąglanie}}: Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy równoległych prętów zbrojeniowych.
--   {{ PropertyData/pl\|Średnica}}: Średnica równoległych prętów zbrojeniowych.
--   {{ PropertyData/pl\|Ilość}}: Zawiera liczbę równoległych prętów zbrojeniowych.
--   {{ PropertyData/pl\|Rozstawienie}}: Zawiera odstępy między równoległymi prętami zbrojeniowymi.
+-   {{ PropertyData/pl\|Wzdłużne pokrycie siatką}}   * Reprezentuje wyrównanie siatki zbrojeniowej wzdłuż górnej i / lub dolnej powierzchni konstrukcji. Może mieć trzy wartości \"Góra\", \"Dół\" i \"Obie\".
+-   {{ PropertyData/pl\|Typ zbrojenia}}   * Typ prętów zbrojeniowych dla równoległych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości   * \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
+-   {{ PropertyData/pl\|Pokrycie od przodu}}   * Odległość równoległego pręta zbrojeniowego od wybranej powierzchni.
+-   {{ PropertyData/pl\|Pokrycie z lewej}}   * Odległość lewego końca równoległego pręta zbrojeniowego do lewego boku konstrukcji.
+-   {{ PropertyData/pl\|Pokrycie z prawej}}   * Odległość prawego końca równoległego pręta zbrojeniowego do prawego boku konstrukcji.
+-   {{ PropertyData/pl\|Pokrycie od dołu}}   * Odległość równoległych prętów zbrojeniowych od dolnej powierzchni konstrukcji.
+-   {{ PropertyData/pl\|Pokrycie od góry}}   * Odległość równoległych prętów zbrojeniowych od górnej powierzchni konstrukcji.
+-   {{ PropertyData/pl\|Pokrycie od tyłu}}   * Pokrycie zbrojeniem tyłu stopy fundamentowej z równolegle ułożonych prętów zbrojeniowych.
+-   {{ PropertyData/pl\|Zaokrąglanie}}   * Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy równoległych prętów zbrojeniowych.
+-   {{ PropertyData/pl\|Średnica}}   * Średnica równoległych prętów zbrojeniowych.
+-   {{ PropertyData/pl\|Ilość}}   * Zawiera liczbę równoległych prętów zbrojeniowych.
+-   {{ PropertyData/pl\|Rozstawienie}}   * Zawiera odstępy między równoległymi prętami zbrojeniowymi.
 
-### **Właściwości prętów zbrojeniowych w kierunku poprzecznym do wybranej ściany w zbrojeniu stopy fundamentowej:** 
+### **Właściwości prętów zbrojeniowych w kierunku poprzecznym do wybranej ściany w zbrojeniu stopy fundamentowej   *** 
 
--    {{PropertyData/pl|Typ zbrojenia}}: Typ prętów zbrojeniowych dla poprzecznych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
+-    {{PropertyData/pl|Typ zbrojenia}}   * Typ prętów zbrojeniowych dla poprzecznych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości   * \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
 
--    {{PropertyData/pl|Pokrycie od przodu}}: Odległość poprzecznego pręta zbrojeniowego do powierzchni poprzecznej \"cross\_face\" *(powierzchnia prostopadła do wybranej powierzchni)*.
+-    {{PropertyData/pl|Pokrycie od przodu}}   * Odległość poprzecznego pręta zbrojeniowego do powierzchni poprzecznej \"cross\_face\" *(powierzchnia prostopadła do wybranej powierzchni)*.
 
--    {{PropertyData/pl|Pokrycie z lewej}}: Odległość lewego końca poprzecznego pręta zbrojeniowego do lewego boku konstrukcji.
+-    {{PropertyData/pl|Pokrycie z lewej}}   * Odległość lewego końca poprzecznego pręta zbrojeniowego do lewego boku konstrukcji.
 
--    {{PropertyData/pl|Pokrycie z prawej}}: Odległość prawego końca poprzecznego pręta zbrojeniowego do prawego boku konstrukcji.
+-    {{PropertyData/pl|Pokrycie z prawej}}   * Odległość prawego końca poprzecznego pręta zbrojeniowego do prawego boku konstrukcji.
 
--    {{PropertyData/pl|Pokrycie od dołu}}: Odległość poprzecznego prętów zbrojeniowych od dolnej powierzchni konstrukcji.
+-    {{PropertyData/pl|Pokrycie od dołu}}   * Odległość poprzecznego prętów zbrojeniowych od dolnej powierzchni konstrukcji.
 
--    {{PropertyData/pl|Pokrycie od góry}}: Odległość poprzecznego prętów zbrojeniowych od górnej powierzchni konstrukcji.
+-    {{PropertyData/pl|Pokrycie od góry}}   * Odległość poprzecznego prętów zbrojeniowych od górnej powierzchni konstrukcji.
 
--    {{PropertyData/pl|Pokrycie od tyłu}}: Pokrycie zbrojeniem tyłu stopy fundamentowej z poprzecznie ułożonych prętów zbrojeniowych.
+-    {{PropertyData/pl|Pokrycie od tyłu}}   * Pokrycie zbrojeniem tyłu stopy fundamentowej z poprzecznie ułożonych prętów zbrojeniowych.
 
--    {{PropertyData/pl|Zaokrąglanie}}: Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy równoległych prętów zbrojeniowych.
+-    {{PropertyData/pl|Zaokrąglanie}}   * Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy równoległych prętów zbrojeniowych.
 
--    {{PropertyData/pl|Średnica}}: Średnica równoległych prętów zbrojeniowych.
+-    {{PropertyData/pl|Średnica}}   * Średnica równoległych prętów zbrojeniowych.
 
--    {{PropertyData/pl|Ilość}}: Zawiera liczbę równoległych prętów zbrojeniowych.
+-    {{PropertyData/pl|Ilość}}   * Zawiera liczbę równoległych prętów zbrojeniowych.
 
--    {{PropertyData/pl|Rozstawienie}}: Zawiera odstępy między równoległymi prętami zbrojeniowymi.
+-    {{PropertyData/pl|Rozstawienie}}   * Zawiera odstępy między równoległymi prętami zbrojeniowymi.
 
-### **Właściwości zbrojenia słupów w stopie fundamentowej:** 
+### **Właściwości zbrojenia słupów w stopie fundamentowej   *** 
 
--   {{ PropertyData/pl\|Pokrycie od przodu}}: Odległość między wybraną ścianą a słupem.
+-   {{ PropertyData/pl\|Pokrycie od przodu}}   * Odległość między wybraną ścianą a słupem.
 
--   {{ PropertyData/pl\|Pokrycie z lewej}}: Odległość między lewą ścianą a słupem.
+-   {{ PropertyData/pl\|Pokrycie z lewej}}   * Odległość między lewą ścianą a słupem.
 
--    {{PropertyData/pl|Pokrycie od prawej}}: Odległość między prawą stroną a słupem.
+-    {{PropertyData/pl|Pokrycie od prawej}}   * Odległość między prawą stroną a słupem.
 
--    {{PropertyData/pl|Pokrycie od tyłu}}: Odległość między tylną ścianą a słupem.
+-    {{PropertyData/pl|Pokrycie od tyłu}}   * Odległość między tylną ścianą a słupem.
 
--    {{PropertyData/pl|Szerokość słupa}}: Szerokość dla słupa.
+-    {{PropertyData/pl|Szerokość słupa}}   * Szerokość dla słupa.
 
--    {{PropertyData/pl|Długość słupa}}: Długość słupa.
+-    {{PropertyData/pl|Długość słupa}}   * Długość słupa.
 
--    {{PropertyData/pl|Ilość słupów w kierunku X}}: Zawiera liczbę słupów w kierunku X. Jeśli opcja Ilość w kierunku X jest włączona.
+-    {{PropertyData/pl|Ilość słupów w kierunku X}}   * Zawiera liczbę słupów w kierunku X. Jeśli opcja Ilość w kierunku X jest włączona.
 
--    {{PropertyData/pl|Odstępy między słupami w kierunku X}}: Zawiera odstępy między słupami w kierunku X. Jeśli opcja ta jest włączona.
+-    {{PropertyData/pl|Odstępy między słupami w kierunku X}}   * Zawiera odstępy między słupami w kierunku X. Jeśli opcja ta jest włączona.
 
--    {{PropertyData/pl|Ilość kolumn w kierunku Y}}: Zawiera ilość słupów w kierunku Y. Jeśli opcja Ilość w kierunku Y jest włączona.
+-    {{PropertyData/pl|Ilość kolumn w kierunku Y}}   * Zawiera ilość słupów w kierunku Y. Jeśli opcja Ilość w kierunku Y jest włączona.
 
--    {{PropertyData/pl|Odstępy między słupami w kierunku Y}}: Zawiera odstępy między słupami w kierunku Y. Jeśli opcja ta jest włączona.
+-    {{PropertyData/pl|Odstępy między słupami w kierunku Y}}   * Zawiera odstępy między słupami w kierunku Y. Jeśli opcja ta jest włączona.
 
--    {{PropertyData/pl|Dodaj pomocnicze pręty zbrojeniowe}}: Jeżeli opcja jest zaznaczona, dodaje pomocnicze pręty zbrojeniowe w słupach w kierunku X i Y.
+-    {{PropertyData/pl|Dodaj pomocnicze pręty zbrojeniowe}}   * Jeżeli opcja jest zaznaczona, dodaje pomocnicze pręty zbrojeniowe w słupach w kierunku X i Y.
 
-### **Właściwości zbrojenia prętami cienkimi słupów w stopach fundamentowych:** 
+### **Właściwości zbrojenia prętami cienkimi słupów w stopach fundamentowych   *** 
 
--    {{PropertyData/pl|Pokrycie od góry}}: Wierzchnie pokrycie prętami cienkimi na zewnątrz ławy fundamentowej od strony głównych prętów zbrojeniowych.
+-    {{PropertyData/pl|Pokrycie od góry}}   * Wierzchnie pokrycie prętami cienkimi na zewnątrz ławy fundamentowej od strony głównych prętów zbrojeniowych.
 
--    {{PropertyData/pl|Pokrycie od dołu}}: Dolne pokrycie prętami cienkimi, od spodu głównych prętów zbrojeniowych w ławie fundamentowej w pobliżu siatki.
+-    {{PropertyData/pl|Pokrycie od dołu}}   * Dolne pokrycie prętami cienkimi, od spodu głównych prętów zbrojeniowych w ławie fundamentowej w pobliżu siatki.
 
--    {{PropertyData/pl|Średnica}}: Średnica prętów.
+-    {{PropertyData/pl|Średnica}}   * Średnica prętów.
 
--    {{PropertyData/pl|Kąt gięcia}}: Kąt wygięcia dla prętów.
+-    {{PropertyData/pl|Kąt gięcia}}   * Kąt wygięcia dla prętów.
 
--    {{PropertyData/pl|Współczynnik wydłużenia}}: Współczynnik wydłużenia dla przedłużonej krawędzi pręta.
+-    {{PropertyData/pl|Współczynnik wydłużenia}}   * Współczynnik wydłużenia dla przedłużonej krawędzi pręta.
 
--    {{PropertyData/pl|Liczba prętów}}: Zawiera liczbę prętów zbrojeniowych lub odstępy między prętami, jeśli opcja Ilość jest włączona.
+-    {{PropertyData/pl|Liczba prętów}}   * Zawiera liczbę prętów zbrojeniowych lub odstępy między prętami, jeśli opcja Ilość jest włączona.
 
--    {{PropertyData/pl|Rozstaw prętów}}: Zawiera odstępy między prętami, jeśli opcja Odstępy jest włączona.
+-    {{PropertyData/pl|Rozstaw prętów}}   * Zawiera odstępy między prętami, jeśli opcja Odstępy jest włączona.
 
-### **Właściwości zbrojenia prętami głównymi słupów w stopach fundamentowych:** 
+### **Właściwości zbrojenia prętami głównymi słupów w stopach fundamentowych   *** 
 
--    {{PropertyData/pl|Typ zbrojenia}}: Typ prętów zbrojeniowych dla głównych prętów zbrojeniowych słupa. Pobiera on dwa typy danych wejściowych: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*.
+-    {{PropertyData/pl|Typ zbrojenia}}   * Typ prętów zbrojeniowych dla głównych prętów zbrojeniowych słupa. Pobiera on dwa typy danych wejściowych   * \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*.
 
--    {{PropertyData/pl|Orientacja haka}}: Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
+-    {{PropertyData/pl|Orientacja haka}}   * Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
 
--    {{PropertyData/pl|Przedłużenie haka wzdłuż}}: Kierunek głównego haka pręta zbrojeniowego *(LShapeRebar)*. posiada dwie opcje \"x-axis\" i \"y-axis\".
+-    {{PropertyData/pl|Przedłużenie haka wzdłuż}}   * Kierunek głównego haka pręta zbrojeniowego *(LShapeRebar)*. posiada dwie opcje \"x-axis\" i \"y-axis\".
 
--    {{PropertyData/pl|Przedłużenie haka}}: Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
+-    {{PropertyData/pl|Przedłużenie haka}}   * Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
 
--    {{PropertyData/pl|Zaokrąglanie prętów zbrojeniowych}}: Wartość zaokrąglenia, która ma być zastosowana do narożników prętów, wyrażona w krotności średnicy głównego pręta zbrojeniowego.
+-    {{PropertyData/pl|Zaokrąglanie prętów zbrojeniowych}}   * Wartość zaokrąglenia, która ma być zastosowana do narożników prętów, wyrażona w krotności średnicy głównego pręta zbrojeniowego.
 
--    {{PropertyData/pl|Przesunięcie w górę}}: Górne odsunięcie głównych prętów zbrojeniowych w słupie poza górną powierzchnią stopy.
+-    {{PropertyData/pl|Przesunięcie w górę}}   * Górne odsunięcie głównych prętów zbrojeniowych w słupie poza górną powierzchnią stopy.
 
--    {{PropertyData/pl|Średnica}}: Średnica głównych prętów zbrojeniowych w słupach.
+-    {{PropertyData/pl|Średnica}}   * Średnica głównych prętów zbrojeniowych w słupach.
 
-### **Właściwości zbrojenia o kierunku X w słupach stóp fundamentowych:** 
+### **Właściwości zbrojenia o kierunku X w słupach stóp fundamentowych   *** 
 
 Pręty zbrojeniowe wzdłuż kierunku osi X z wyjątkiem głównych prętów zbrojeniowych
 
--    {{PropertyData/pl|Typ zbrojenia}}: Typ prętów zbrojeniowych w kierunku X. Ma dwie wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*.
+-    {{PropertyData/pl|Typ zbrojenia}}   * Typ prętów zbrojeniowych w kierunku X. Ma dwie wartości   * \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*.
 
--    {{PropertyData/pl|Orientacja haka}}: Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
+-    {{PropertyData/pl|Orientacja haka}}   * Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
 
--    {{PropertyData/pl|Przedłużenie haka}}: Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
+-    {{PropertyData/pl|Przedłużenie haka}}   * Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
 
--    {{PropertyData/pl|Zaokrąglanie}}: Wartość zaokrąglenia, która ma być zastosowana do narożników prętów, wyrażona w krotności średnicy głównego pręta zbrojeniowego.
+-    {{PropertyData/pl|Zaokrąglanie}}   * Wartość zaokrąglenia, która ma być zastosowana do narożników prętów, wyrażona w krotności średnicy głównego pręta zbrojeniowego.
 
--    {{PropertyData/pl|Przesunięcie w górę}}: Odległość pomiędzy prętami zbrojeniowymi od górnej powierzchni konstrukcji.
+-    {{PropertyData/pl|Przesunięcie w górę}}   * Odległość pomiędzy prętami zbrojeniowymi od górnej powierzchni konstrukcji.
 
--    {{PropertyData/pl|Ilość#Średnica}}: Liczba\#Średnica zestawu prętów zbrojeniowych w kierunku X.
+-    {{PropertyData/pl|Ilość#Średnica}}   * Liczba\#Średnica zestawu prętów zbrojeniowych w kierunku X.
 
-### **Właściwości zbrojenia o kierunku Y w słupach stóp fundamentowych:** 
+### **Właściwości zbrojenia o kierunku Y w słupach stóp fundamentowych   *** 
 
 Pręty zbrojeniowe wzdłuż kierunku osi Y z wyjątkiem głównych prętów zbrojeniowych
 
--    {{PropertyData/pl|Typ zbrojenia}}: Typ prętów zbrojeniowych w kierunku Y. Ma dwie wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*.
+-    {{PropertyData/pl|Typ zbrojenia}}   * Typ prętów zbrojeniowych w kierunku Y. Ma dwie wartości   * \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*.
 
--    {{PropertyData/pl|Orientacja haka}}: Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
+-    {{PropertyData/pl|Orientacja haka}}   * Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
 
--    {{PropertyData/pl|Przedłużenie haka}}: Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
+-    {{PropertyData/pl|Przedłużenie haka}}   * Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
 
--    {{PropertyData/pl|Zaokrąglanie}}: Wartość zaokrąglenia, która ma być zastosowana do narożników prętów, wyrażona w krotności średnicy głównego pręta zbrojeniowego.
+-    {{PropertyData/pl|Zaokrąglanie}}   * Wartość zaokrąglenia, która ma być zastosowana do narożników prętów, wyrażona w krotności średnicy głównego pręta zbrojeniowego.
 
--    {{PropertyData/pl|Przesunięcie w górę}}: Odległość pomiędzy prętami zbrojeniowymi od górnej powierzchni konstrukcji.
+-    {{PropertyData/pl|Przesunięcie w górę}}   * Odległość pomiędzy prętami zbrojeniowymi od górnej powierzchni konstrukcji.
 
--    {{PropertyData/pl|Ilość#Średnica}}: Liczba\#Średnica zestawu prętów zbrojeniowych w kierunku Y.
+-    {{PropertyData/pl|Ilość#Średnica}}   * Liczba\#Średnica zestawu prętów zbrojeniowych w kierunku Y.
 
 ## Tworzenie skryptów 
 
 
-**Zobacz również:**
+**Zobacz również   ***
 
 [Skrypty Architektury](Arch_API/pl.md), [Skrypty Zbrojenia](Reinforcement_API/pl.md) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-Narzędzie zbrojenie stóp fundamentowych może być używane z konsoli środowiska [Python](Python/pl.md) za pomocą następującej funkcji:
+Narzędzie zbrojenie stóp fundamentowych może być używane z konsoli środowiska [Python](Python/pl.md) za pomocą następującej funkcji   *
 
 ### Wykonanie zbrojenia stopy 
 
@@ -293,115 +293,115 @@ footingReinforcementGroup = makeFootingReinforcement(
 -   Tworzy obiekt `footingReinforcementGroup` z podanej `struktury`, która jest stopą [konstrukcyjną architektury](Arch_Structure/pl.md) i `nazwy ściany`, która jest ścianą tej konstrukcji.
     -   Jeśli nie podano ani jako parametr `struktury` ani `nazwy ściany`, program przyjmie jako dane wejściowe ścianę wybraną przez użytkownika.
 
-**Właściwości prętów zbrojeniowych w kierunku równoległym do wybranej ściany:**.
+**Właściwości prętów zbrojeniowych w kierunku równoległym do wybranej ściany   ***.
 
--    `parallel_rebar_type`: Typ prętów zbrojeniowych dla równoległych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
+-    `parallel_rebar_type`   * Typ prętów zbrojeniowych dla równoległych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości   * \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
 
--    `parallel_front_cover`: Odległość równoległego pręta zbrojeniowego od wybranej powierzchni.
+-    `parallel_front_cover`   * Odległość równoległego pręta zbrojeniowego od wybranej powierzchni.
 
--    `parallel_rear_cover`: Pokrycie zbrojeniem tyłu stopy fundamentowej z równolegle ułożonych prętów zbrojeniowych.
+-    `parallel_rear_cover`   * Pokrycie zbrojeniem tyłu stopy fundamentowej z równolegle ułożonych prętów zbrojeniowych.
 
--    `parallel_left_cover`: Odległość lewego końca równoległego pręta zbrojeniowego do lewego boku konstrukcji.
+-    `parallel_left_cover`   * Odległość lewego końca równoległego pręta zbrojeniowego do lewego boku konstrukcji.
 
--    `parallel_right_cover`: Odległość prawego końca równoległego pręta zbrojeniowego do prawego boku konstrukcji.
+-    `parallel_right_cover`   * Odległość prawego końca równoległego pręta zbrojeniowego do prawego boku konstrukcji.
 
--    `parallel_top_cover`: Odległość równoległych prętów zbrojeniowych od górnej powierzchni konstrukcji.
+-    `parallel_top_cover`   * Odległość równoległych prętów zbrojeniowych od górnej powierzchni konstrukcji.
 
--    `parallel_bottom_cover`: Odległość równoległych prętów zbrojeniowych od dolnej powierzchni konstrukcji.
+-    `parallel_bottom_cover`   * Odległość równoległych prętów zbrojeniowych od dolnej powierzchni konstrukcji.
 
--    `parallel_diameter`: Średnica równoległych prętów zbrojeniowych.
+-    `parallel_diameter`   * Średnica równoległych prętów zbrojeniowych.
 
--    `parallel_amount_spacing_check`: Jeśli wartość jest ustawiona na {{True/pl}}, to parametr parallel\_amount\_spacing\_value jest używany jako liczba prętów zbrojeniowych, w przeciwnym razie wartość parallel\_amount\_spacing\_value jest używana jako odstęp między prętami równoległymi.
+-    `parallel_amount_spacing_check`   * Jeśli wartość jest ustawiona na {{True/pl}}, to parametr parallel\_amount\_spacing\_value jest używany jako liczba prętów zbrojeniowych, w przeciwnym razie wartość parallel\_amount\_spacing\_value jest używana jako odstęp między prętami równoległymi.
 
--    `parallel_amount_spacing_value`: Zawiera liczbę prętów zbrojeniowych lub odstępy między równoległymi prętami zbrojeniowymi w oparciu o parametr amount\_spacing\_check.
+-    `parallel_amount_spacing_value`   * Zawiera liczbę prętów zbrojeniowych lub odstępy między równoległymi prętami zbrojeniowymi w oparciu o parametr amount\_spacing\_check.
 
--    `parallel_rounding`: Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy równoległych prętów zbrojeniowych.
+-    `parallel_rounding`   * Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy równoległych prętów zbrojeniowych.
 
--    `parallel_l_shape_hook_orintation`: Przedstawia orientację haka równoległego pręta zbrojeniowego typu L-Shape, jeżeli parametr parallel\_rebar\_type to LShapeRebar. Może mieć trzy wartości \"Lewy\", \"Prawy\", \"Alternatywny\".
+-    `parallel_l_shape_hook_orintation`   * Przedstawia orientację haka równoległego pręta zbrojeniowego typu L-Shape, jeżeli parametr parallel\_rebar\_type to LShapeRebar. Może mieć trzy wartości \"Lewy\", \"Prawy\", \"Alternatywny\".
 
-**Właściwości prętów zbrojeniowych w kierunku poprzecznym do wybranej ściany:**
+**Właściwości prętów zbrojeniowych w kierunku poprzecznym do wybranej ściany   ***
 
--    `parallel_rebar_type`: Typ prętów zbrojeniowych dla poprzecznych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
+-    `parallel_rebar_type`   * Typ prętów zbrojeniowych dla poprzecznych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości   * \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
 
--    `parallel_front_cover`: Odległość pomiędzy poprzecznym prętem zbrojeniowym a cross\_face *(ściana prostopadła do wybranej powierzchni)*.
+-    `parallel_front_cover`   * Odległość pomiędzy poprzecznym prętem zbrojeniowym a cross\_face *(ściana prostopadła do wybranej powierzchni)*.
 
--    `parallel_rear_cover`: Pokrycie zbrojeniem tyłu stopy fundamentowej z prostopadle ułożonych prętów zbrojeniowych.
+-    `parallel_rear_cover`   * Pokrycie zbrojeniem tyłu stopy fundamentowej z prostopadle ułożonych prętów zbrojeniowych.
 
--    `parallel_left_cover`: Odległość między lewym końcem poprzecznego pręta zbrojeniowego a lewą powierzchnią konstrukcji.
+-    `parallel_left_cover`   * Odległość między lewym końcem poprzecznego pręta zbrojeniowego a lewą powierzchnią konstrukcji.
 
--    `parallel_right_cover`: Odległość prawego końca pręta zbrojeniowego od prawego lica konstrukcji odniesiona do powierzchni cross\_face.
+-    `parallel_right_cover`   * Odległość prawego końca pręta zbrojeniowego od prawego lica konstrukcji odniesiona do powierzchni cross\_face.
 
--    `parallel_top_cover`: Odległość poprzecznych prętów zbrojeniowych od górnej powierzchni konstrukcji.
+-    `parallel_top_cover`   * Odległość poprzecznych prętów zbrojeniowych od górnej powierzchni konstrukcji.
 
--    `parallel_bottom_cover`: Odległość poprzecznych prętów zbrojeniowych od dolnej powierzchni konstrukcji.
+-    `parallel_bottom_cover`   * Odległość poprzecznych prętów zbrojeniowych od dolnej powierzchni konstrukcji.
 
--    `parallel_diameter`: Średnica oprzecznych prętów zbrojeniowych.
+-    `parallel_diameter`   * Średnica oprzecznych prętów zbrojeniowych.
 
--    `parallel_amount_spacing_check`: Jeśli wartość jest ustawiona na {{True/pl}}, to parametr parallel\_amount\_spacing\_value jest używany jako liczba prętów zbrojeniowych, w przeciwnym razie wartość parallel\_amount\_spacing\_value jest używana jako odstęp między prętami równoległymi.
+-    `parallel_amount_spacing_check`   * Jeśli wartość jest ustawiona na {{True/pl}}, to parametr parallel\_amount\_spacing\_value jest używany jako liczba prętów zbrojeniowych, w przeciwnym razie wartość parallel\_amount\_spacing\_value jest używana jako odstęp między prętami równoległymi.
 
--    `parallel_amount_spacing_value`: Zawiera liczbę prętów zbrojeniowych lub odstępy między równoległymi prętami zbrojeniowymi w oparciu o parametr amount\_spacing\_check.
+-    `parallel_amount_spacing_value`   * Zawiera liczbę prętów zbrojeniowych lub odstępy między równoległymi prętami zbrojeniowymi w oparciu o parametr amount\_spacing\_check.
 
--    `parallel_rounding`: Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy poprzecznych prętów zbrojeniowych.
+-    `parallel_rounding`   * Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy poprzecznych prętów zbrojeniowych.
 
--    `parallel_l_shape_hook_orintation`: Przedstawia orientację haka poprzecznego pręta zbrojeniowego typu L-Shape, jeżeli parametr cross\_rebar\_type to LShapeRebar. Może mieć trzy wartości \"Lewy\", \"Prawy\", \"Alternatywny\".
+-    `parallel_l_shape_hook_orintation`   * Przedstawia orientację haka poprzecznego pręta zbrojeniowego typu L-Shape, jeżeli parametr cross\_rebar\_type to LShapeRebar. Może mieć trzy wartości \"Lewy\", \"Prawy\", \"Alternatywny\".
 
-**Właściwości zbrojenia słupów w stopie fundamentowej:**
+**Właściwości zbrojenia słupów w stopie fundamentowej   ***
 
--    `column_front_cover`: Odległość między wybraną ścianą a słupem.
+-    `column_front_cover`   * Odległość między wybraną ścianą a słupem.
 
--    `column_left_cover`: Odległość między wybraną ścianą a słupem.
+-    `column_left_cover`   * Odległość między wybraną ścianą a słupem.
 
--    `column_right_cover`: Odległość między prawą ścianą przednią a słupem
+-    `column_right_cover`   * Odległość między prawą ścianą przednią a słupem
 
--    `column_rear_cover`: Odległość między tylną ścianą a tylnymi kolumnami.
+-    `column_rear_cover`   * Odległość między tylną ścianą a tylnymi kolumnami.
 
--    `column_width`: Szerokość dla słupa.
+-    `column_width`   * Szerokość dla słupa.
 
--    `column_length`: Długość słupa.
+-    `column_length`   * Długość słupa.
 
--    `xdir_column_amount_spacing_check`: Jeśli wartość jest ustawiona na {{True/pl}}, to parametr xdir\_column\_amount\_spacing\_value jest używany jako liczba kolumn, w przeciwnym razie wartość xdir\_column\_amount\_spacing\_value jest używana jako odstęp między kolumnami w kierunku X.
+-    `xdir_column_amount_spacing_check`   * Jeśli wartość jest ustawiona na {{True/pl}}, to parametr xdir\_column\_amount\_spacing\_value jest używany jako liczba kolumn, w przeciwnym razie wartość xdir\_column\_amount\_spacing\_value jest używana jako odstęp między kolumnami w kierunku X.
 
--    `xdir_column_amount_spacing_value`: Zawiera liczbę kolumn lub rozstaw kolumn w kierunku X na podstawie wartości xdir\_column\_amount\_spacing\_check.
+-    `xdir_column_amount_spacing_value`   * Zawiera liczbę kolumn lub rozstaw kolumn w kierunku X na podstawie wartości xdir\_column\_amount\_spacing\_check.
 
--    `ydir_column_amount_spacing_check`: Jeśli wartość jest ustawiona na {{True/pl}}, to parametr ydir\_column\_amount\_spacing\_value jest używany jako liczba kolumn, w przeciwnym razie wartość ydir\_column\_amount\_spacing\_valuejest używana jako odstęp między kolumnami w kierunku Y.
+-    `ydir_column_amount_spacing_check`   * Jeśli wartość jest ustawiona na {{True/pl}}, to parametr ydir\_column\_amount\_spacing\_value jest używany jako liczba kolumn, w przeciwnym razie wartość ydir\_column\_amount\_spacing\_valuejest używana jako odstęp między kolumnami w kierunku Y.
 
--    `ydir_column_amount_spacing_value`: Zawiera liczbę kolumn lub rozstaw kolumn w kierunku Y na podstawie wartości ydir\_column\_amount\_spacing\_check.
+-    `ydir_column_amount_spacing_value`   * Zawiera liczbę kolumn lub rozstaw kolumn w kierunku Y na podstawie wartości ydir\_column\_amount\_spacing\_check.
 
--    `column_sec_rebar_check`: Jeśli wartość tego parametru to {{True/pl}}, dodaj dodatkowe pręty zbrojeniowe w kierunku X i Y w słupach.
+-    `column_sec_rebar_check`   * Jeśli wartość tego parametru to {{True/pl}}, dodaj dodatkowe pręty zbrojeniowe w kierunku X i Y w słupach.
 
-**Właściwości zbrojenia prętami cienkimi słupów w stopach fundamentowych:**
+**Właściwości zbrojenia prętami cienkimi słupów w stopach fundamentowych   ***
 
--    `tie_top_cover`: Wierzchnie pokrycie prętami cienkimi na zewnątrz ławy fundamentowej od strony głównych prętów zbrojeniowych.
+-    `tie_top_cover`   * Wierzchnie pokrycie prętami cienkimi na zewnątrz ławy fundamentowej od strony głównych prętów zbrojeniowych.
 
--    `tie_bottom_cover`: Dolne pokrycie prętami cienkimi od spodu prętów zbrojeniowych w ławie fundamentowej w pobliżu siatki.
+-    `tie_bottom_cover`   * Dolne pokrycie prętami cienkimi od spodu prętów zbrojeniowych w ławie fundamentowej w pobliżu siatki.
 
--    `tie_bent_angle`: Kąt wygięcia dla prętów.
+-    `tie_bent_angle`   * Kąt wygięcia dla prętów.
 
--    `tie_extension_factor`: Współczynnik wydłużenia dla przedłużonej krawędzi pręta.
+-    `tie_extension_factor`   * Współczynnik wydłużenia dla przedłużonej krawędzi pręta.
 
--    `tie_diameter`: Średnica prętów.
+-    `tie_diameter`   * Średnica prętów.
 
--    `tie_number_spacing_check`: Jeśli wartość ta jest ustawiona na {{True/pl}}, to parametr tie\_number\_spacing\_value jest używany jako liczba cienkich prętów, w przeciwnym razie wartość tie\_number\_spacing\_value jest używana jako odstęp pomiędzy prętami.
+-    `tie_number_spacing_check`   * Jeśli wartość ta jest ustawiona na {{True/pl}}, to parametr tie\_number\_spacing\_value jest używany jako liczba cienkich prętów, w przeciwnym razie wartość tie\_number\_spacing\_value jest używana jako odstęp pomiędzy prętami.
 
--    `tie_number_spacing_value`:Zawiera liczbę cienkich prętów lub odstępów między nimi na podstawie wartości tie\_number\_spacing\_check.
+-    `tie_number_spacing_value`   *Zawiera liczbę cienkich prętów lub odstępów między nimi na podstawie wartości tie\_number\_spacing\_check.
 
-**Właściwości zbrojenia prętami głównymi słupów w stopach fundamentowych:**
+**Właściwości zbrojenia prętami głównymi słupów w stopach fundamentowych   ***
 
--    `column_main_rebar_diameter`: Średnica głównych prętów zbrojeniowych w słupach.
+-    `column_main_rebar_diameter`   * Średnica głównych prętów zbrojeniowych w słupach.
 
--    `column_main_rebars_t_offset`: Górne odsunięcie głównych prętów zbrojeniowych w słupie poza górną powierzchnią stopy.
+-    `column_main_rebars_t_offset`   * Górne odsunięcie głównych prętów zbrojeniowych w słupie poza górną powierzchnią stopy.
 
--    `column_main_hook_extend_along`: Kierunek głównego haka pręta zbrojeniowego *(LShapeRebar)*. posiada dwie opcje \"x-axis\" i \"y-axis\".
+-    `column_main_hook_extend_along`   * Kierunek głównego haka pręta zbrojeniowego *(LShapeRebar)*. posiada dwie opcje \"x-axis\" i \"y-axis\".
 
--    `column_l_main_rebar_rounding`: Wartość zaokrąglenia, która ma być zastosowana dla naroży prętów, wyrażona jako krotność średnicy column\_main\_rebar\_diameter.
+-    `column_l_main_rebar_rounding`   * Wartość zaokrąglenia, która ma być zastosowana dla naroży prętów, wyrażona jako krotność średnicy column\_main\_rebar\_diameter.
 
--    `column_main_hook_extension`: Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
+-    `column_main_hook_extension`   * Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
 
--    `column_main_rebars_type`: Typ prętów zbrojeniowych dla głównych prętów zbrojeniowych słupa. Pobiera on dwa typy danych wejściowych: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*. Wartość domyślna to StraightRebar.
+-    `column_main_rebars_type`   * Typ prętów zbrojeniowych dla głównych prętów zbrojeniowych słupa. Pobiera on dwa typy danych wejściowych   * \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*. Wartość domyślna to StraightRebar.
 
--    `column_main_hook_orientation`: Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
+-    `column_main_hook_orientation`   * Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
 
-**Właściwości dla drugiego kierunku X i Y prętów zbrojeniowych słupów w stopie fundamentowej:**
+**Właściwości dla drugiego kierunku X i Y prętów zbrojeniowych słupów w stopie fundamentowej   ***
 
 -    `column_sec_rebars_t_offset`oraz `sec_rebars_b_offset` to tuple *(xdir\_rebars\_t\_offset, ydir\_rebars\_t\_offset)* które określają odległości przesunięcia *(lub wysokość)* dla pomocniczych prętów zbrojeniowych w kierunku x i y odpowiednio w stosunku do górnych powierzchni konstrukcji.
 
@@ -415,13 +415,13 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 -    `column_sec_hook_extension`to tuple *(xdir\_hook\_extension, ydir\_hook\_extension)* określające długość haka pomocniczych prętów zbrojeniowych typu LShaped w kierunku X i Y.
 
-**Wspólne właściwości zbrojenia stóp fundamentowych:**
+**Wspólne właściwości zbrojenia stóp fundamentowych   ***
 
--    `mesh_cover_along`: Może mieć trzy wartości \" Góra\", \"Dół\" i \"Oba\". Reprezentuje wyrównanie siatki zbrojeniowej wzdłuż górnej i/lub dolnej powierzchni konstrukcji.
+-    `mesh_cover_along`   * Może mieć trzy wartości \" Góra\", \"Dół\" i \"Oba\". Reprezentuje wyrównanie siatki zbrojeniowej wzdłuż górnej i/lub dolnej powierzchni konstrukcji.
 
--    `structure`: Obiekt konstrukcji Architektury. Domyślnie przyjmuje wartość Brak.
+-    `structure`   * Obiekt konstrukcji Architektury. Domyślnie przyjmuje wartość Brak.
 
--    `facename`: wybrana ściana konstrukcji. Domyślnie przyjmuje wartość Brak.
+-    `facename`   * wybrana ściana konstrukcji. Domyślnie przyjmuje wartość Brak.
 
 ### Edycja zbrojenia stopy 
 
@@ -506,6 +506,14 @@ footingReinforcementGroup = editFootingReinforcement(
 -    `footingReinforcementGroup`to wcześniej utworzony obiekt grupy `Footing Reinforcement`.
 
 -   Pozostałe parametry są takie same, jak wymagane przez funkcję `makeFootingReinforcement()`.
+
+
+
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

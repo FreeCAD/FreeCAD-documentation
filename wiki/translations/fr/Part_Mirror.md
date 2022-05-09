@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Part_Mirror
-   Name/fr:Part Miroir
-   MenuLocation:Part → Mise en miroir...
-   Workbenches:[Part](Part_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Part_Mirror
+   Name/fr   *Part Miroir
+   MenuLocation   *Part → Mise en miroir...
+   Workbenches   *[Part](Part_Workbench/fr.md)
 ---
 
 # Part Mirror/fr
@@ -12,7 +12,7 @@
 
 \'Miroir\' - Cet outil crée un nouvel objet (image) qui est la réflexion de l\'objet source sélectionné par rapport à un plan miroir. Le plan miroir peut être un plan standard (**XY**, **YZ**, ou **XZ**) ou n\'importe quel plan parallèle à un plan standard.
 
-Un exemple :
+Un exemple    *
 
 ![Avant](images/PARTMirrorBeforev11.png )
 
@@ -42,8 +42,9 @@ Les cases **Point de base** peuvent être utilisées pour déplacer le miroir pl
   **YZ**        **X**           Déplace le plan de symmétrie le long de l\'axe **X**.
   **YZ**        **Y**, **Z**    Pas d\'effet.
 
-## Limitations
+## Remarques
 
+-   Les objets [App Link](App_Link/fr.md) liés aux types d\'objets appropriés et les conteneurs [App Part](App_Part/fr.md) contenant les objets visibles appropriés peuvent également être utilisés comme objets sources. {{Version/fr|0.20}}
 -   Les plans de miroir arbitraires (c\'est-à-dire non parallèles à un plan standard) ne sont pas pris en charge.
 
 

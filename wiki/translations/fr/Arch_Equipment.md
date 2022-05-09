@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Equipment
-   Name/fr:Arch Équipement
-   MenuLocation:Arch → Équipement
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**E** **Q**
-   SeeAlso:[Arch 3 vues depuis maillage](Arch_3Views/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Equipment
+   Name/fr   *Arch Équipement
+   MenuLocation   *Arch → Équipement
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   Shortcut   ***E** **Q**
+   SeeAlso   *[Arch 3 vues depuis maillage](Arch_3Views/fr.md)
 ---
 
 # Arch Equipment/fr
@@ -35,20 +35,20 @@ Lors de l\'utilisation de l\'exportateur Arch OBJ, tous les équipements en mode
 
 ## Propriétés
 
--    **Model**: Une description du modèle de cet équipement.
+-    **Model**   * Une description du modèle de cet équipement.
 
--    **Url**: Une URL de la page du produit, où plus d\'informations sur cet équipement peut être trouvée.
+-    **Url**   * Une URL de la page du produit, où plus d\'informations sur cet équipement peut être trouvée.
 
--    **Mesh**: Représentation de cet équipement en objet [Mesh](Mesh_Workbench.md). Lorsqu\'il est défini, le mode d\'affichage **Maillage** devient disponible.
+-    **Mesh**   * Représentation de cet équipement en objet [Mesh](Mesh_Workbench.md). Lorsqu\'il est défini, le mode d\'affichage **Maillage** devient disponible.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Équipement peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante : 
+L\'outil Équipement peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante    * 
 ```python
 Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 ```
@@ -57,11 +57,11 @@ Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 -   Si `placement` est donné, il sera utilisé.
 -   Retourne `None` si l\'opération échoue.
 
-Exemple : 
+Exemple    * 
 ```python
 import FreeCAD, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 500
 Box.Width = 2000
 Box.Height = 600

@@ -1,22 +1,23 @@
 ---
-- GuiCommand:
-   Name:Spreadsheet AlignCenter
-   MenuLocation:Spreadsheet → Alignment → Align center
-   Workbenches:[Spreadsheet](Spreadsheet_Workbench.md)
-   Version:0.17
+- GuiCommand   */pl
+   Name   *Spreadsheet AlignCenter
+   Name/pl   *Arkusz Kalkulacyjny   * Wyśrodkuj w poziomie
+   MenuLocation   *Arkusz kalkulacyjny → Wyrównanie → Wyśrodkuj w poziomie
+   Workbenches   *[Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+   Version   *0.17
 ---
 
 # Spreadsheet AlignCenter/pl
 
-## Description
+## Opis
 
-The **[<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Spreadsheet AlignCenter](Spreadsheet_AlignCenter.md)** tool makes the text inside the cell align to the center.
+Narzędzie **[<img src=images/Spreadsheet_AlignCenter.svg style="width   *16px"> [Wyśrodkuj w poziomie](Spreadsheet_AlignCenter/pl.md)** sprawia, że tekst wewnątrz komórki jest automatycznie wyśrodkowany w poziomie.
 
-## Usage
+## Użycie
 
-1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
-2.  Select a cell.
-3.  Press the **[<img src=images/Spreadsheet_AlignCenter.svg style="width:16px"> [Spreadsheet AlignCenter](Spreadsheet_AlignCenter.md)** button.
+1.  Upewnij się, że jest aktywny jest otwarty **[<img src=images/Spreadsheet_CreateSheet.svg style="width   *16px"> [arkusz kalkulacyjny](Spreadsheet_CreateSheet/pl.md)**, aby przycisk był dostępny.
+2.  Wybierz komórkę.
+3.  Naciśnij przycisk **[<img src=images/Spreadsheet_AlignCenter.svg style="width   *16px"> [Wyśrodkuj w poziomie](Spreadsheet_AlignCenter/pl.md)**.
 
 
 

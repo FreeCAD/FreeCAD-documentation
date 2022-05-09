@@ -1,6 +1,6 @@
 # Arch CloseHoles/cs
 ---
-- GuiCommand:/cs   Name:Arch CloseHoles   Name/cs:Arch CloseHoles   Workbenches:[MenuLocation:Arch → Utilities → Close Holes   SeeAlso:[[Arch Check](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand   */cs   Name   *Arch CloseHoles   Name/cs   *Arch CloseHoles   Workbenches   *[MenuLocation   *Arch → Utilities → Close Holes   SeeAlso   *[[Arch Check](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -43,7 +43,7 @@ Tento nástroj identifikuje mezery (kruhovité sekvence s otevřenými okraji) v
 
 <div class="mw-translate-fuzzy">
 
-Tento nástroj může být použit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
+Tento nástroj může být použit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -61,14 +61,14 @@ uzavře mezery v otevřeném tvaru
 
 </div>
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft, Arch
 
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

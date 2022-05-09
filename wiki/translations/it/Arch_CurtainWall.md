@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:Arch CurtainWall
-   Name/it:Facciata continua
-   MenuLocation:Arch → Facciata continua
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   Shortcut:**C** **W**
-   Version:0.19
-   SeeAlso:[Muro](Arch_Wall/it.md), [Griglia](Arch_Grid/it.md)
+- GuiCommand   */it
+   Name   *Arch CurtainWall
+   Name/it   *Facciata continua
+   MenuLocation   *Arch → Facciata continua
+   Workbenches   *[Arch](Arch_Workbench/it.md)
+   Shortcut   ***C** **W**
+   Version   *0.19
+   SeeAlso   *[Muro](Arch_Wall/it.md), [Griglia](Arch_Grid/it.md)
 ---
 
 # Arch CurtainWall/it
@@ -16,9 +16,9 @@
 
 ## Descrizione
 
-Questo strumento crea una [facciata continua](https://en.wikipedia.org/wiki/Curtain_wall_(architecture)) suddividendo una faccia di base in facce quadrangolari, quindi creando montanti verticali sui bordi verticali, montanti orizzontali sui bordi orizzontali e riempiendo gli spazi tra i montanti con dei pannelli.
+Questo strumento crea una [facciata continua](https   *//en.wikipedia.org/wiki/Curtain_wall_(architecture)) suddividendo una faccia di base in facce quadrangolari, quindi creando montanti verticali sui bordi verticali, montanti orizzontali sui bordi orizzontali e riempiendo gli spazi tra i montanti con dei pannelli.
 
-<img alt="" src=images/Arch_CurtainWall_example.png  style="width:780px;">
+<img alt="" src=images/Arch_CurtainWall_example.png  style="width   *780px;">
 
 Le facciate continue possono essere create da qualsiasi tipo di oggetto esistente, in questo caso tutte le facce dell\'oggetto saranno suddivise. Funziona quindi meglio se usato con un oggetto che ha solo una faccia. In genere, si crea prima una faccia, preferibilmente delimitata da 4 bordi, che rappresenta l\'area che si desidera riempire con una facciata continua, poi si applica lo strumento.
 
@@ -92,64 +92,64 @@ Si può anche usare lo strumento Facciata continua senza alcun oggetto seleziona
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti di facciata continua ereditano le proprietà dei [Componenti](Arch_Component/it.md) e hanno anche le seguenti proprietà extra:
+Gli oggetti di facciata continua ereditano le proprietà dei [Componenti](Arch_Component/it.md) e hanno anche le seguenti proprietà extra   *
 
 
 </div>
 
--    **Vertical Mullion Number**:Il numero di montanti verticali
+-    **Vertical Mullion Number**   *Il numero di montanti verticali
 
--    **Vertical Mullion Alignment**: Se il profilo dei montanti verticali viene allineato o no alla superficie
+-    **Vertical Mullion Alignment**   * Se il profilo dei montanti verticali viene allineato o no alla superficie
 
--    **Vertical Sections**: Il numero di sezioni verticali di questa facciata continua
+-    **Vertical Sections**   * Il numero di sezioni verticali di questa facciata continua
 
--    **Vertical Mullion Height**: L\'altezza del profilo dei montanti verticali, se non viene utilizzato alcun profilo
+-    **Vertical Mullion Height**   * L\'altezza del profilo dei montanti verticali, se non viene utilizzato alcun profilo
 
--    **Vertical Mullion Width**: La larghezza del profilo dei montanti verticali, se non viene utilizzato alcun profilo
+-    **Vertical Mullion Width**   * La larghezza del profilo dei montanti verticali, se non viene utilizzato alcun profilo
 
--    **Vertical Mullion Profile**: Un profilo per i montanti verticali (disabilita le dimensioni dei montanti verticali)
+-    **Vertical Mullion Profile**   * Un profilo per i montanti verticali (disabilita le dimensioni dei montanti verticali)
 
--    **Horizontal Mullion Number**: Il numero di montanti orizzontali
+-    **Horizontal Mullion Number**   * Il numero di montanti orizzontali
 
--    **Horizontal Mullion Alignment**: Se il profilo dei montanti orizzontali viene allineato o meno alla superficie
+-    **Horizontal Mullion Alignment**   * Se il profilo dei montanti orizzontali viene allineato o meno alla superficie
 
--    **Horizontal Sections**: Il numero di sezioni orizzontali di questa facciata continua
+-    **Horizontal Sections**   * Il numero di sezioni orizzontali di questa facciata continua
 
--    **Horizontal Mullion Height**: L\'altezza del profilo dei montanti orizzontali, se non viene utilizzato alcun profilo
+-    **Horizontal Mullion Height**   * L\'altezza del profilo dei montanti orizzontali, se non viene utilizzato alcun profilo
 
--    **Horizontal Mullion Width**: La larghezza del profilo dei montanti orizzontali, se non viene utilizzato alcun profilo
+-    **Horizontal Mullion Width**   * La larghezza del profilo dei montanti orizzontali, se non viene utilizzato alcun profilo
 
--    **Horizontal Mullion Profile**: Un profilo per i montanti orizzontali (disabilita la dimensione dei montanti orizzontali)
+-    **Horizontal Mullion Profile**   * Un profilo per i montanti orizzontali (disabilita la dimensione dei montanti orizzontali)
 
--    **Diagonal Mullion Number**: Il numero di montanti diagonali
+-    **Diagonal Mullion Number**   * Il numero di montanti diagonali
 
--    **Diagonal Mullion Size**: La dimensione dei montanti diagonali, se presente, se non viene utilizzato alcun profilo
+-    **Diagonal Mullion Size**   * La dimensione dei montanti diagonali, se presente, se non viene utilizzato alcun profilo
 
--    **Diagonal Mullion Profile**: Un profilo per i montanti diagonali, se presente (disabilita la dimensione dei montanti diagonali)
+-    **Diagonal Mullion Profile**   * Un profilo per i montanti diagonali, se presente (disabilita la dimensione dei montanti diagonali)
 
--    **Panel Number**: Il numero di pannelli
+-    **Panel Number**   * Il numero di pannelli
 
--    **Panel Thickness**: Lo spessore dei pannelli
+-    **Panel Thickness**   * Lo spessore dei pannelli
 
--    **Swap Horizontal Vertical**: Scambia linee orizzontali e verticali
+-    **Swap Horizontal Vertical**   * Scambia linee orizzontali e verticali
 
--    **Refine**: Esegue sottrazioni tra i componenti in modo che non ci siano sovrapposizioni
+-    **Refine**   * Esegue sottrazioni tra i componenti in modo che non ci siano sovrapposizioni
 
--    **Center Profiles**: Centra il profilo sui bordi o no
+-    **Center Profiles**   * Centra il profilo sui bordi o no
 
--    **Vertical Direction**: Il riferimento alla direzione verticale che verrà utilizzato da questo oggetto per dedurre le direzioni verticale / orizzontale. Tenerlo vicino alla direzione verticale effettiva della facciata continua
+-    **Vertical Direction**   * Il riferimento alla direzione verticale che verrà utilizzato da questo oggetto per dedurre le direzioni verticale / orizzontale. Tenerlo vicino alla direzione verticale effettiva della facciata continua
 
--    **Height**: L\'altezza di questa facciata continua, nel caso in cui sia basata su un oggetto lineare
+-    **Height**   * L\'altezza di questa facciata continua, nel caso in cui sia basata su un oggetto lineare
 
--    **Host**: L\'ospite di questa facciata continua. La facciata continua apparirà incorporata nel suo oggetto host nella vista ad albero (non viene eseguita nessun\'altra azione)
+-    **Host**   * L\'ospite di questa facciata continua. La facciata continua apparirà incorporata nel suo oggetto host nella vista ad albero (non viene eseguita nessun\'altra azione)
 
 ## Making frame walls 
 
 Curtain walls are convenient to use in conjunction with [walls](Arch_Wall.md) to create frame walls (walls where an inner, structural layer is made of frames, usually wooden or metal, instead of an homogeneous material such as concrete or brick).
 
-<img alt="" src=images/Frame_wall_example.png  style="width:780px;">
+<img alt="" src=images/Frame_wall_example.png  style="width   *780px;">
 
-The procedure described below creates a wall and a curtain wall based on a same baseline, then gives the wall a multi-material which leaves an empty space, where the curtain wall is placed:
+The procedure described below creates a wall and a curtain wall based on a same baseline, then gives the wall a multi-material which leaves an empty space, where the curtain wall is placed   *
 
 1.  Create a normal [Arch Wall](Arch_Wall.md), either by clicking two points of from an existing linear object
 2.  Select the base object of the newly created arch wall
@@ -170,7 +170,7 @@ The procedure described below creates a wall and a curtain wall based on a same 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -180,7 +180,7 @@ The procedure described below creates a wall and a curtain wall based on a same 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Facciata continua può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Facciata continua può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -190,7 +190,7 @@ Lo strumento Facciata continua può essere utilizzato nelle [macro](macros/it.md
 MyCurtainWall = makeCurtainWall(baseobj)
 ```
 
-Esempio:
+Esempio   *
 
 
 ```python
@@ -199,7 +199,7 @@ import FreeCAD, Draft, Arch
 p1 = FreeCAD.Vector(0, 0, 0)
 p2 = FreeCAD.Vector(2000, 0, 0)
 baseline = Draft.makeLine(p1, p2)
-baseface = Free.ActiveDocument.addObject('Part::Extrusion','Extrusion')
+baseface = Free.ActiveDocument.addObject('Part   *   *Extrusion','Extrusion')
 baseface.Base = baseline
 baseface.DirMode = "Normal"
 baseface.LengthFwd = 2000

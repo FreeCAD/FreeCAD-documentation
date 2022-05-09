@@ -1,21 +1,21 @@
 ---
-- GuiCommand:/de
-   Name:Part Cylinder
-   Name/de:Part Zylinder
-   MenuLocation:Formteil → Grundkörper → Zylinder
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
+- GuiCommand   */de
+   Name   *Part Cylinder
+   Name/de   *Part Zylinder
+   MenuLocation   *Formteil → Grundkörper → Zylinder
+   Workbenches   *[Part](Part_Workbench/de.md)
+   SeeAlso   *[Part Grundelemente](Part_Primitives/de.md)
 ---
 
 # Part Cylinder/de
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> **Part Zylinder** erstellt einen parametrischen Volumenkörper, einen Zylinder. Er ist das Ergebnis der Extrusion eines Kreises entlang eines geraden Pfades. Im Koordinatensystem durch seine {{PropertyData/de|Placement}} festgelegt, liegt die Unterseite des Zylinders auf der XY-Ebene und ihre Mitte im Ursprung.
+Der Befehl <img alt="" src=images/Part_Cylinder.svg  style="width   *24px;"> **Part Zylinder** erstellt einen parametrischen Volumenkörper, einen Zylinder. Er ist das Ergebnis der Extrusion eines Kreises entlang eines geraden Pfades. Im Koordinatensystem durch seine {{PropertyData/de|Placement}} festgelegt, liegt die Unterseite des Zylinders auf der XY-Ebene und ihre Mitte im Ursprung.
 
 Ein Part-Zylinder kann in ein Zylindersegment gewandelt werden durch ändern seiner {{PropertyData/de|Winkel}}.
 
-<img alt="" src=images/Part_Cylinder_Example.png  style="width:400px;">
+<img alt="" src=images/Part_Cylinder_Example.png  style="width   *400px;">
 
 ## Anwendung
 
@@ -23,7 +23,7 @@ Ein Part-Zylinder kann in ein Zylindersegment gewandelt werden durch ändern sei
 <div class="mw-translate-fuzzy">
 
 1.  Öffne den **<img src="images/Workbench_Part.svg" width=16px> [Part](Part_Workbench.md)** Arbeitsbereich.
-2.  Rufe den Befehl Part Zylinder auf verschiedene Weise auf:
+2.  Rufe den Befehl Part Zylinder auf verschiedene Weise auf   *
     -   Drücke die **<img src="images/Part_Cylinder.svg" width=24px>** Schaltfläche
     -   Verwende den {{MenuCommand/de|Formteil → Grundkörper → Zylinder}} Eintrag aus dem oberen Menü
 
@@ -38,13 +38,13 @@ Ein Part-Zylinder-Objekt, das mit dem [Skriptbeispiel](#Skripten.md) weiter unte
 
 ## Hinweise
 
--   A Part Cylinder can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+-   A Part Cylinder can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width   *16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
 
 ## Eigenschaften
 
-Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+Siehe auch   * [Eigenschafteneditor](Property_editor/de.md).
 
-Ein Part-Zylinder-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+Ein Part-Zylinder-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
 
 ### Daten
 
@@ -56,34 +56,34 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 {{TitleProperty|Cylinder}}
 
--    **Radius|Length**: The radius of the circular arc that defines the cylinder. The default is {{Value|2mm}}.
+-    **Radius|Length**   * The radius of the circular arc that defines the cylinder. The default is {{Value|2mm}}.
 
--    **Height|Length**: The height of the cylinder. The default is {{Value|10mm}}.
+-    **Height|Length**   * The height of the cylinder. The default is {{Value|10mm}}.
 
--    **Angle|Angle**: The angle of the circular arc that defines the cylinder. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a cylinder.
+-    **Angle|Angle**   * The angle of the circular arc that defines the cylinder. Valid range   * {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a cylinder.
 
 
 {{TitleProperty|Prism}}
 
--    **First Angle|Angle**: The angle between the extrusion direction of the cylinder and its positive Z axis, measured around its Y axis. The angle is positive towards its positive X axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.20)</small> 
+-    **First Angle|Angle**   * The angle between the extrusion direction of the cylinder and its positive Z axis, measured around its Y axis. The angle is positive towards its positive X axis. Valid range   * {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.20)</small> 
 
--    **Second Angle|Angle**: The angle between the extrusion direction of the cylinder and its positive Z axis, measured around its X axis. The angle is positive towards its positive Y axis. Valid range: {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.20)</small> 
+-    **Second Angle|Angle**   * The angle between the extrusion direction of the cylinder and its positive Z axis, measured around its X axis. The angle is positive towards its positive Y axis. Valid range   * {{Value|0° &lt;&#61; value &lt; 90°}}. The default is {{Value|0°}}. <small>(v0.20)</small> 
 
 ## Skripten
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Cylinder can be created with the {{Incode|addObject()}} method of the document:
+A Part Cylinder can be created with the {{Incode|addObject()}} method of the document   *
 
 
 ```python
-cylinder = FreeCAD.ActiveDocument.addObject("Part::Cylinder", "myCylinder")
+cylinder = FreeCAD.ActiveDocument.addObject("Part   *   *Cylinder", "myCylinder")
 ```
 
 -   Where {{Incode|"myCylinder"}} is the name for the object.
 -   The function returns the newly created object.
 
-Beispiel:
+Beispiel   *
 
 
 ```python
@@ -91,7 +91,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-cylinder = doc.addObject("Part::Cylinder", "myCylinder")
+cylinder = doc.addObject("Part   *   *Cylinder", "myCylinder")
 cylinder.Radius = 10
 cylinder.Height = 50
 cylinder.Placement = App.Placement(App.Vector(5, 10, 15), App.Rotation(75, 60, 30))

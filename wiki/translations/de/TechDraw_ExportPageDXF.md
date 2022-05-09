@@ -1,46 +1,40 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw ExportPageDXF
-   Name/de:TechDraw ExportSeiteDXF
-   MenuLocation:TechDraw → Exportiere Seite als DXF
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.18
-   SeeAlso:[TechDraw Exportiere Seite als SVG](TechDraw_ExportPageSVG/de.md), [Entwurf DXF](Draft_DXF/de.md)
+- GuiCommand   */de
+   Name   *TechDraw ExportPageDXF
+   Name/de   *TechDraw SeiteExportierenDXF
+   MenuLocation   *TechDraw → Seite als DXF-Datei exportieren 
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   Version   *0.18
+   SeeAlso   *[TechDraw SeiteExportierenSVG](TechDraw_ExportPageSVG/de.md), [Draft DXF](Draft_DXF/de.md)
 ---
 
 # TechDraw ExportPageDXF/de
 
 ## Beschreibung
 
-Das ExportSeiteDXF Werkzeug speichert eine Zeichnungsseite als [DXF](DXF/de.md) Datei.
+Das Werkzeug SeiteExportierenDXF speichert ein Zeichnungsblatt als [DXF](DXF/de.md)-Datei.
 
 ## Anwendung
 
-1.  Wähle eine Seite in der Baumansicht, wenn das Dokument mehrere Seiten enthält.
-2.  Drücke die **<img src="images/TechDraw_ExportPageDXF.svg" width=16px> [Exportiere Seite als DXF](TechDraw_ExportPageDXF/de.md)** Schaltfläche.
-3.  Wähle einen Speicherort und einen Dateinamen.
+1.  Eine Seite in der Baumansicht auswählen, wenn das Dokument mehrere Seiten enthält.
+2.  Die Schaltfläche **<img src="images/TechDraw_ExportPageDXF.svg" width=16px> [Seite als DXF-Datei exportieren](TechDraw_ExportPageDXF/de.md)** drücken.
+3.  Einen Speicherort und einen Dateinamen auswählen.
 
 ### Begrenzungen
 
-
-<div class="mw-translate-fuzzy">
-
--   Radien und Durchmesserbemaßungen werden nur dann korrekt exportiert, wenn sie \"innerhalb\" des Bogens liegen.
+-   Radien- und Durchmessermaße werden nur dann korrekt exportiert, wenn sie \"innerhalb\" des Bogens liegen.
 -   Skalierung wird nicht unterstützt. Das DXF wird in der tatsächlichen Größe der TechDraw Seite gezeichnet.
 -   Einheiten werden nicht unterstützt. Das DXF wird in Millimetern (mm) gezeichnet. Bemaßungstext wird genau wie in TechDraw angezeigt.
--   TechDraw kann keine [Einfügen eines Entwurf Arbeitsbereichsobjekts ](TechDraw_DraftView/de.md) oder ein [Einfügen eines Arch Arbeitsbereichsobjekt](TechDraw_ArchView.md) zu DXF exportieren. Diese Ansichten sind [SVG](SVG/de.md) Elemente, die intern vom [Entwurf Arbeitsbereich](Draft_Workbench/de.md) generiert werden, so dass es keine geometrische Form zum Exportieren gibt. Um eine Ansicht als DXF zu exportieren, muss sie mit [Ansicht einfügen](TechDraw_View/de.md) oder [Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md) erstellt worden sein. Wähle z. B. eine [Arch SchnittEbene](Arch_SectionPlane/de.md), dann verwende [Entwurf Form2DAnsicht](Draft_Shape2DView/de.md) um eine flache Projektionsform zu erstellen, und verwende dann [Ansicht einfügen](TechDraw_View/de.md) für dieses Objekt. Alternativ wähle die Objekte in der Baumansicht oder im 3D Ansichtsfenster aus und exportiere sie mit **Datei → [Export](Std_Export/de.md)**.
--   Der Titelblock einer Seite ist ebenfalls eine [SVG](SVG/de.md) Vorlage, daher wird er auch nicht nach DXF exportiert.
--   Im Allgemeinen kann TechDraw nur die Elemente nach DXF exportieren, die von der `Import::ImpExpDxfWrite` Klasse des [Import Moduls](Draft_DXF/de.md).
-
-
-</div>
+-   TechDraw kann keine [Draft-Ansicht](TechDraw_DraftView/de.md) oder [Arch-Ansicht](TechDraw_ArchView/de.md) nach DXF exportieren. Diese Ansichten sind [SVG](SVG/de.md)-Elemente, die intern vom Arbeitsbereich [Draft](Draft_Workbench/de.md) generiert werden, sodass es keine geometrische Form zum Exportieren gibt. Um eine Ansicht als DXF zu exportieren, muss sie mit [Ansicht](TechDraw_View/de.md) oder [Ansichtengruppe](TechDraw_ProjectionGroup/de.md) erstellt worden sein. Man wählt z. B. eine [Arch SchnittEbene](Arch_SectionPlane/de.md), danach verwendet man [Draft FormIn2DAnsicht](Draft_Shape2DView/de.md) um eine ebene Projektion zu erstellen, und wendet dann [Ansicht](TechDraw_View/de.md) auf dieses Objekt an. Alternativ wählt man die Objekte in der Baumansicht oder in der 3D-Ansicht aus und exportiert sie mit **Datei → [Exportieren...](Std_Export/de.md)**.
+-   Das Schriftfeld einer Seite ist ebenfalls eine [SVG](SVG/de.md)-Vorlage, daher wird es auch nicht nach DXF exportiert.
+-   Im Allgemeinen kann TechDraw nur die Elemente nach DXF exportieren, die von der Klasse `Import   *   *ImpExpDxfWrite` des [Draft DXF](Draft_DXF/de.md)-Moduls unterstützt werden.
 
 ## Hinweise
 
 -   Diese Funktion exportiert die Versionen R12 (AC1009) und R14 (AC1014) von [DXF](DXF/de.md).
     -   R12 ist eine ältere, einfachere Version des Standards, sollte aber für die meisten anderen Programme lesbar sein.
     -   R14 ist die Standardversion. Sie enthält unter anderem Unterstützung für Splines und Ellipsen.
--   Diese Parameter beeinflussen die Ausgabe:
+-   Diese Parameter beeinflussen die Ausgabe   *
     -   
         **Werkzeuge → Parameter Berabeiten → BasisApp/Einstellungen/Mod/Import → DxfVersionOut**
         
@@ -59,11 +53,11 @@ Das ExportSeiteDXF Werkzeug speichert eine Zeichnungsseite als [DXF](DXF/de.md) 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDrawGui API](TechDrawGui_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das SpeichereDXF Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen benutzt werden:
+Das Werkzeug SeiteExportierenDXF kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen benutzt werden   *
 
 
 ```python
@@ -71,13 +65,7 @@ TechDraw.writeDXFPage(page,filename)
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

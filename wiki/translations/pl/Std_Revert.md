@@ -1,24 +1,25 @@
 ---
-- GuiCommand:
-   Name:Std Revert
-   MenuLocation:File → Revert
-   Workbenches:All
+- GuiCommand   */pl
+   Name   *Std Revert
+   Name/pl   *Std   * Przywróć
+   MenuLocation   *Plik → Przywróć
+   Workbenches   *wszystkie
 ---
 
 # Std Revert/pl
 
-## Description
+## Opis
 
-The **Std Revert** command closes the active document and reopens the last saved version of the document.
+Polecenie **Przywróć** powoduje zamknięcie aktywnego dokumentu i ponowne otwarcie ostatnio zapisanej wersji dokumentu.
 
-## Usage
+## Użycie
 
-1.  Select the **File → <img src="images/Std_Revert.svg" width=16px> Revert** option from the menu.
-2.  Press the **Yes** button in the dialog box to confirm you want to lose all changes since the last file save.
+1.  Wybierz z menu opcję **Plik → <img src="images/Std_Revert.svg" width=16px> Przywróć**.
+2.  Naciśnij przycisk **Tak** w oknie dialogowym, aby potwierdzić, że chcesz utracić wszystkie zmiany od czasu wykonania ostatniego zapisu.
 
-## Options
+## Opcje
 
--   Press **Esc** or the **No** button to abort the command.
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
 
 

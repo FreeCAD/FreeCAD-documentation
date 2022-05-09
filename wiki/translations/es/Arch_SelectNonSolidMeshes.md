@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Arch SelectNonSolidMeshes
-   Name/es:Arch SelectNonSolidMeshes
-   MenuLocation:Arch → Utilities → Select non solid
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   SeeAlso:[Arch MeshToShape](Arch_MeshToShape/es.md)
+- GuiCommand   */es
+   Name   *Arch SelectNonSolidMeshes
+   Name/es   *Arch SelectNonSolidMeshes
+   MenuLocation   *Arch → Utilities → Select non solid
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   SeeAlso   *[Arch MeshToShape](Arch_MeshToShape/es.md)
 ---
 
 # Arch SelectNonSolidMeshes/es
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Esta herramienta identifica y selecciona las mallas no sólidas (no [manifold](http://en.wikipedia.org/wiki/Manifold)) en un grupo seleccionado de objetos [Mallas](Mesh_Workbench/es.md) seleccionadas.
+Esta herramienta identifica y selecciona las mallas no sólidas (no [manifold](http   *//en.wikipedia.org/wiki/Manifold)) en un grupo seleccionado de objetos [Mallas](Mesh_Workbench/es.md) seleccionadas.
 
 
 </div>

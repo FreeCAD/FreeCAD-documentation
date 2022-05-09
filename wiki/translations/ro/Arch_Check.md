@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ro
-   Name:Arch Check
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   MenuLocation:Arch → Utilities → Check
-   SeeAlso:[Arch CloseHoles](Arch_CloseHoles.md)
+- GuiCommand   */ro
+   Name   *Arch Check
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   MenuLocation   *Arch → Utilities → Check
+   SeeAlso   *[Arch CloseHoles](Arch_CloseHoles.md)
 ---
 
 # Arch Check/ro
@@ -48,7 +48,7 @@ Acest instrument verifică documentul curent sau obiectele selectate pentru obie
 
 <div class="mw-translate-fuzzy">
 
-Acest instrument poate fi utilizat în [macros](macros.md) și din consola Python utilizând următoarea funcție:
+Acest instrument poate fi utilizat în [macros](macros.md) și din consola Python utilizând următoarea funcție   *
 
 
 </div>
@@ -66,7 +66,7 @@ verifică dacă obiectele date conțin numai solide
 
 </div>
 
-Example:
+Example   *
 
 
 ```python

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Arch Profile
-   MenuLocation:Arch → Profile
-   Workbenches:[Arch](Arch_Workbench.md)
-   Version:0.19
+- GuiCommand   *
+   Name   *Arch Profile
+   MenuLocation   *Arch → Profile
+   Workbenches   *[Arch](Arch_Workbench.md)
+   Version   *0.19
 ---
 
 # Arch Profile/en
@@ -12,7 +12,7 @@
 
 The Profile tool builds a parametric 2D profile object. This object can then be used as a base in different other tools that perform extrusions, such as [Arch Frame](Arch_Frame.md), [Arch CurtainWall](Arch_CurtainWall.md) or [Part Extrude](Part_Extrude.md).
 
-See the [list of available presets](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv).
+See the [list of available presets](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv).
 
 The profile tool is also integrated to the [Arch Structure](Arch_Structure.md) tool, all preset profiles are also available there.
 
@@ -26,17 +26,17 @@ The profile tool is also integrated to the [Arch Structure](Arch_Structure.md) t
 
 ### Data
 
--    **Height**: The overall height of the profile
+-    **Height**   * The overall height of the profile
 
--    **Width**: The overall width of the profile
+-    **Width**   * The overall width of the profile
 
--    **Diameter**: The diameter of the profile (circular profiles only)
+-    **Diameter**   * The diameter of the profile (circular profiles only)
 
--    **Thickness**: The thickness of the tube wall (circular and rectangular hollow profiles only)
+-    **Thickness**   * The thickness of the tube wall (circular and rectangular hollow profiles only)
 
--    **Web Thickness**: The thickness of the profile web (H and I profiles only)
+-    **Web Thickness**   * The thickness of the profile web (H and I profiles only)
 
--    **Flange Thickness**: The thickness of the profile flange (H and I profiles only)
+-    **Flange Thickness**   * The thickness of the profile flange (H and I profiles only)
 
 ## Adding custom profiles 
 
@@ -45,33 +45,33 @@ An additional CSV file can be created by the user, containing custom profile def
 $FREECAD_USER_DIR/Arch/
 ```
 
-The `$FREECAD_USER_DIR` can be obtained from the [Python console](Python_console.md): 
+The `$FREECAD_USER_DIR` can be obtained from the [Python console](Python_console.md)   * 
 ```python
 FreeCAD.getUserAppDataDir()
 ```
 
-The contents of your custom `profiles.csv` file must be modeled upon the same rules as the [profiles.csv](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv) in the source code.
+The contents of your custom `profiles.csv` file must be modeled upon the same rules as the [profiles.csv](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/profiles.csv) in the source code.
 
-The CSV file must contain one line per available profile, formatted as follows:
+The CSV file must contain one line per available profile, formatted as follows   *
 
--   For C profiles: Category, Name, Class, Diameter, Thickness
--   For H and U profiles: Category, Name, Class, Width, Height, Web thickness, Flange thickness
--   For R profiles: Category, Name, Class, Width, Height
--   For RH profiles: Category, Name, Class, Width, Height, Thickness
+-   For C profiles   * Category, Name, Class, Diameter, Thickness
+-   For H and U profiles   * Category, Name, Class, Width, Height, Web thickness, Flange thickness
+-   For R profiles   * Category, Name, Class, Width, Height
+-   For RH profiles   * Category, Name, Class, Width, Height, Thickness
 
-All measures must be in millimeters. Possible profile classes are:
+All measures must be in millimeters. Possible profile classes are   *
 
--   C: Circular tube
--   H: H- or I-profile
--   R: Rectangular
--   RH: Rectangular hollow
--   U: U-profile
+-   C   * Circular tube
+-   H   * H- or I-profile
+-   R   * Rectangular
+-   RH   * Rectangular hollow
+-   U   * U-profile
 
-Additional profile types can be created, but a corresponding class must first be defined in [ArchProfile.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
+Additional profile types can be created, but a corresponding class must first be defined in [ArchProfile.py](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
 
 ## Scripting
 
-The Profile tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The Profile tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   *
 
 
 ```python
@@ -80,7 +80,7 @@ profile = makeProfile(profile_list)
 
 Where profile\_list contains the different elements of a list in the CSV file.
 
-Example:
+Example   *
 
 
 ```python

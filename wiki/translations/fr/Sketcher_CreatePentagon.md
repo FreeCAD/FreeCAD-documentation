@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Sketcher CreatePentagon
-   Name/fr:Sketcher Pentagone
-   MenuLocation:Esquisse → Géométries d'esquisse → Créer un pentagone
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **P** **5**
-   Version:0.15
+- GuiCommand   */fr
+   Name   *Sketcher CreatePentagon
+   Name/fr   *Sketcher Pentagone
+   MenuLocation   *Esquisse → Géométries d'esquisse → Créer un pentagone
+   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut   ***G** **P** **5**
+   Version   *0.15
 ---
 
 # Sketcher CreatePentagon/fr
@@ -18,7 +18,7 @@ Dessine un pentagone inscrit dans un cercle de géométrie de construction. Au d
 
 ## Utilisation
 
--   Après avoir cliqué sur le bouton **[<img src=images/Sketcher_CreatePentagon.svg style="width:16px"> [Créer un pentagone](Sketcher_CreatePentagon/fr.md)**, cliquez le centre, et déplacez la souris puis cliquez votre deuxième point qui sera le sommet du pentagone.
+-   Après avoir cliqué sur le bouton **[<img src=images/Sketcher_CreatePentagon.svg style="width   *16px"> [Créer un pentagone](Sketcher_CreatePentagon/fr.md)**, cliquez le centre, et déplacez la souris puis cliquez votre deuxième point qui sera le sommet du pentagone.
 -   Appuyez sur **Echap** ou cliquez sur le bouton droit de la souris pour quitter la fonction.
 
 ## Remarques

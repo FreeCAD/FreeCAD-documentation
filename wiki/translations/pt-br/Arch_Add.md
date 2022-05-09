@@ -1,16 +1,16 @@
 ---
-- GuiCommand:
-   Name:Arch Add
-   MenuLocation:Arch → Add component
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Arch Remove](Arch_Remove.md)
+- GuiCommand   *
+   Name   *Arch Add
+   MenuLocation   *Arch → Add component
+   Workbenches   *[Arch](Arch_Workbench.md)
+   SeeAlso   *[Arch Remove](Arch_Remove.md)
 ---
 
 # Arch Add/pt-br
 
 ## Descrição
 
-The Add tool allows you to do 4 kinds of operations:
+The Add tool allows you to do 4 kinds of operations   *
 
 -   Add [shape](Part_Workbench.md)-based objects to an Arch component, such as a **<img src="images/Arch_Wall.svg" width=16px> [wall](Arch_Wall.md)** or **<img src="images/Arch_Structure.svg" width=16px> [structure](Arch_Structure.md)**. These objects make then part of the Arch component, and allow you to modify its shape but keeping its base properties such as width and height
 -   Add Arch components, such as a **<img src="images/Arch_Wall.svg" width=16px> [Arch Walls](Arch_Wall.md)** or **<img src="images/Arch_Structure.svg" width=16px> [Arch Structures](Arch_Structure.md)**, to a group-based arch object such as **<img src="images/Arch_Floor.svg" width=16px> [Arch Floors](Arch_Floor.md)**.
@@ -21,7 +21,7 @@ The Add tool allows you to do 4 kinds of operations:
 
 The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> 
+<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;"> 
 *A box added to a wall as a component.*
 
 ## Utilização
@@ -32,13 +32,13 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
 
-:   
+   *   
     
 ```python
     addComponents(objectsList, host)
@@ -50,10 +50,10 @@ The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md)
 
 
 
-:   The above code snippet adds the given objects in `objectsList` to the given `host` object.
-:   **Note:** `objectsList` can be a single object or a list of objects.
+   *   The above code snippet adds the given objects in `objectsList` to the given `host` object.
+   *   **Note   *** `objectsList` can be a single object or a list of objects.
 
-Example:
+Example   *
 
 
 ```python

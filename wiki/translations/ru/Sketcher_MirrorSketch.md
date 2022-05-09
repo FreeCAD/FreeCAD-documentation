@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Sketcher MirrorSketch
-   Name/ru:Отразить эскиз
-   MenuLocation:Sketch → Отразить эскиз
-   Workbenches:[Sketcher](Sketcher_Workbench/ru.md)
-   Version:0.16
+- GuiCommand   */ru
+   Name   *Sketcher MirrorSketch
+   Name/ru   *Отразить эскиз
+   MenuLocation   *Sketch → Отразить эскиз
+   Workbenches   *[Sketcher](Sketcher_Workbench/ru.md)
+   Version   *0.16
 ---
 
 # Sketcher MirrorSketch/ru
@@ -19,7 +19,7 @@
 <div class="mw-translate-fuzzy">
 
 1.  Выберите эскиз для зеркального отражения.
-2.  Нажмите на кнопку <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> или выберите ** Sketch** → **<img src="images/Sketcher_MirrorSketch.svg" width=32px> Отразить эскиз** в верхнем меню.
+2.  Нажмите на кнопку <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width   *32px;"> или выберите ** Sketch** → **<img src="images/Sketcher_MirrorSketch.svg" width=32px> Отразить эскиз** в верхнем меню.
 3.  Полученный эскиз будет создан как отдельный новый объект.
 
 

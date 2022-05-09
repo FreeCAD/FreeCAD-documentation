@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw Symbol   Name/de:TechDraw Symbol
-   MenuLocation:TechDraw → SVG Symbol einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md), [Entwurf SVG](Draft_SVG/de.md)
+- GuiCommand   */de
+   Name   *TechDraw Symbol   Name/de   *TechDraw Symbol
+   MenuLocation   *TechDraw → SVG Symbol einfügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso   *[TechDraw Vorlagen](TechDraw_Templates/de.md), [Entwurf SVG](Draft_SVG/de.md)
 ---
 
 # TechDraw Symbol/de
@@ -12,7 +12,7 @@
 
 Das Symbolwerkzeug fügt eine [SVG](SVG/de.md)-Datei als Ansicht in die Zeichnungsseite ein. Dieses Symbol kann alles sein, was als Notiz zur Zeichnung beiträgt und nicht weiter verändert werden muss.
 
-<img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width:250px;"> 
+<img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width   *250px;"> 
 *Kompassrose zur Zeichnungsseite hinzugefügt; dieses Symbol ist verfügbar durch Installation der Symbol Bibliothek Erweiterung mit dem [Erweiterungsverwalter](Std_AddonMgr/de.md)*
 
 ## Anwendung
@@ -59,20 +59,20 @@ See [TechDraw View](TechDraw_View#Properties.md)
 
 {{TitleProperty|Drawing view}}
 
--    **Editable Texts**: List of editable texts, if any.
+-    **Editable Texts**   * List of editable texts, if any.
 
 ## Scripting
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
-Das Symbol Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden:
+Das Symbol Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit den folgenden Funktionen verwendet werden   *
 
 
 ```python
-sym = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewSymbol','TestSymbol')
+sym = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewSymbol','TestSymbol')
 rc = page.addView(anno)
 f = open(unicode(symbolFileSpec,'utf-8'),'r')
 svg = f.read()

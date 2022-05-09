@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Rocket RailGuide
-   MenuLocation:Rocket → Launch Guides → Rail Guide
-   Workbenches:[Rocket Workbench](Rocket_Workbench.md)
-   Version:0.19
+- GuiCommand   *
+   Name   *Rocket RailGuide
+   MenuLocation   *Rocket → Launch Guides → Rail Guide
+   Workbenches   *[Rocket Workbench](Rocket_Workbench.md)
+   Version   *0.19
 ---
 
 # Rocket RailGuide/pl
@@ -14,7 +14,7 @@ A rail guide is a component attached to the side of the rocket that allows the r
 
 ## Usage
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Rocket_RailGuide.svg" width=16px> [Rail Guide](Rocket_RailGuide.md)** button.
     -   Select the **Rocket → Launch Guides→ <img src="images/Rocket_RailGuide.svg" width=16px> Rail Guide** option from the menu.
     -   Double click on a Rail Guide object in the [Tree view](Tree_view.md).
@@ -25,54 +25,62 @@ A rail guide is a component attached to the side of the rocket that allows the r
 
 {{TitleProperty|Rail Guide}}
 
--    **Aft Sweep**:
+-    **Aft Sweep**   *
 
--    **Aft Sweep Angle**:
+-    **Aft Sweep Angle**   *
 
--    **Auto Diameter**:
+-    **Auto Diameter**   *
 
--    **Base Thickness**:
+-    **Base Thickness**   *
 
--    **Base Width**:
+-    **Base Width**   *
 
--    **Diameter**:
+-    **Diameter**   *
 
--    **Forward Sweep**:
+-    **Forward Sweep**   *
 
--    **Forward Sweep Angle**:
+-    **Forward Sweep Angle**   *
 
--    **Length**:
+-    **Length**   *
 
--    **Middle Width**:
+-    **Middle Width**   *
 
--    **Notch**:
+-    **Notch**   *
 
--    **Notch Depth**:
+-    **Notch Depth**   *
 
--    **Notch Width**:
+-    **Notch Width**   *
 
--    **Rail Guide Base Type**:
+-    **Rail Guide Base Type**   *
 
--    **Thickness**:
+-    **Thickness**   *
 
--    **Top Thickness**:
+-    **Top Thickness**   *
 
--    **Top Width**:
+-    **Top Width**   *
 
--    **VAngle**:
+-    **VAngle**   *
 
 
 {{TitleProperty|Rocket Component}}
 
 These parameters are provided for information and have no effect on the design of the component.
 
--    **Description**: Description of the component
+-    **Description**   * Description of the component
 
--    **Manufacturer**: Manufacturer when known
+-    **Manufacturer**   * Manufacturer when known
 
--    **Material**: Material when known
+-    **Material**   * Material when known
 
--    **Part Number**: Manufacturer part number
+-    **Part Number**   * Manufacturer part number
+
+
+
+
+
+
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

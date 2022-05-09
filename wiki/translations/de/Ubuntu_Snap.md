@@ -14,7 +14,7 @@ Ein [Ubuntu Snap](Ubuntu_Snap/de.md) Paket oder einfach nur [Snap](Ubuntu_Snap/d
 
 <div class="mw-translate-fuzzy">
 
-Ein Snap Paket hat zwei Hauptmerkmale:
+Ein Snap Paket hat zwei Hauptmerkmale   *
 
 -   Programme sind in einem Sandkasten untergebracht, so dass sie den Rest Ihres Betriebssystems nicht stören.
 -   Programme werden automatisch im Hintergrund aktualisiert, um die neueste Version der Anwendung zu erhalten.
@@ -44,7 +44,7 @@ In allen Systemen, in denen Snaps installiert werden sollen, muss zuerst der Sna
 
 ### Debian/Ubuntu
 
-Für Debian/Ubuntu und ähnliche Systeme, die den APT Verwalter verwenden, wird der Daemon wie folgt installiert:
+Für Debian/Ubuntu und ähnliche Systeme, die den APT Verwalter verwenden, wird der Daemon wie folgt installiert   *
 
 
 {{Code|lang=bash|code=
@@ -58,7 +58,7 @@ Um die stabile Version des Snap zu installieren, verwende
 sudo snap install freecad
 }}
 
-Um die Entwicklungsversion des Snap zu installieren, verwende:
+Um die Entwicklungsversion des Snap zu installieren, verwende   *
 
 
 {{Code|lang=bash|code=
@@ -67,14 +67,14 @@ sudo snap install --edge freecad-ppd
 
 ### Manjaro
 
-To install the stable version of the Snap use:
+To install the stable version of the Snap use   *
 
 
 {{Code|lang=bash|code=
 snap install freecad
 }}
 
-To install the development version of the Snap use:
+To install the development version of the Snap use   *
 
 
 {{Code|lang=bash|code=
@@ -83,7 +83,7 @@ snap install --edge freecad-ppd
 
 ## Notes
 
-To figure out which development version is installed type the following in the Command-line interface:
+To figure out which development version is installed type the following in the Command-line interface   *
 
 
 {{Code|lang=bash|code=
@@ -96,11 +96,11 @@ The following commands are geared towards users that are familiar with git and h
 
 
 {{Code|lang=bash|code=
-git clone https://github.com/FreeCAD/FreeCAD
+git clone https   *//github.com/FreeCAD/FreeCAD
 cd FreeCAD/
 }}
 
-To find out the latest upstream revision number (also known as \'HEAD\'):
+To find out the latest upstream revision number (also known as \'HEAD\')   *
 
 
 {{Code|lang=bash|code=
@@ -108,7 +108,7 @@ git pull upstream master  # first make sure we have the most up-to-date commits
 git rev-list --count HEAD # 'HEAD' refers to the current commit you are viewing (tip of the master branch)
 }}
 
-To translate the current snap development version in to a revision number (make sure you\'re within your cloned FreeCAD repository as mentioned above):
+To translate the current snap development version in to a revision number (make sure you\'re within your cloned FreeCAD repository as mentioned above)   *
 
 
 {{Code|lang=bash|code=
@@ -118,11 +118,11 @@ awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 xargs -I{} git rev-list --count {}
 }}
 
-**Note:** the above bash script 1 liner assumes user has \'edge\' (nightly) installed
+**Note   *** the above bash script 1 liner assumes user has \'edge\' (nightly) installed
 
 The difference between HEAD and the snap edge revision numbers indicates the amount of revisions trailing behind upstream the snap development (edge) is.
 
-Taking it a step further, if you want a short summary of the commits between the current snap edge and HEAD:
+Taking it a step further, if you want a short summary of the commits between the current snap edge and HEAD   *
 
 
 {{Code|lang=bash|code=
@@ -132,7 +132,7 @@ awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 xargs -I{} git log --oneline --ancestry-path {}..HEAD
 }}
 
-**Note:** The output will indicate what commits **are not** in the current \'edge\' (but will be on the next nightly update).
+**Note   *** The output will indicate what commits **are not** in the current \'edge\' (but will be on the next nightly update).
 
 ## Verweise
 
@@ -141,8 +141,8 @@ xargs -I{} git log --oneline --ancestry-path {}..HEAD
 
 Weitere Informationen über die aktuellen Bemühungen, mit Snaps umzugehen.
 
--   [0.19 Snap Vorschau benötigt \"Tester\"](https://forum.freecadweb.org/viewtopic.php?f=4&t=46044), ältere Snap von **vejmarie**
--   [Diskussion: Zustand des Snap (Snap Pakete)](https://forum.freecadweb.org/viewtopic.php?f=42&t=46853), neuere Version des Snap von **ppd**
+-   [0.19 Snap Vorschau benötigt \"Tester\"](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=46044), ältere Snap von **vejmarie**
+-   [Diskussion   * Zustand des Snap (Snap Pakete)](https   *//forum.freecadweb.org/viewtopic.php?f=42&t=46853), neuere Version des Snap von **ppd**
 
 
 </div>

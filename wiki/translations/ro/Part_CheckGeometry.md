@@ -1,6 +1,6 @@
 # Part CheckGeometry/ro
 ---
-- GuiCommand:   Name:Part CheckGeometry‏‎   MenuLocation:Part → Check geometry   Workbenches:[[Part Workbench   Part]]|SeeAlso:---
+- GuiCommand   *   Name   *Part CheckGeometry‏‎   MenuLocation   *Part → Check geometry   Workbenches   *[[Part Workbench   Part]]|SeeAlso   *---
 
 
 </div>
@@ -27,9 +27,7 @@ Instrumentul este disponibil în bara de lucru Part din meniul Part sau cu buton
 
 </div>
 
-Results will be reported in the [Task panel](Task_panel.md). If the check produced errors: click in the report on a specific error message and the corresponding geometric object (edge, face, etc.) will be highlighted in the [3D view](3D_view.md).
-
-**Note:** FreeCAD has no automatic repair methods for solids, so you need to look at the steps involved to model this specific geometry and try to fix the error on your own.
+Results will be reported in the [Task panel](Task_panel.md). If the check produced errors   * click in the report on a specific error message and the corresponding geometric object (edge, face, etc.) will be highlighted in the [3D view](3D_view.md).
 
 ## Options
 
@@ -42,7 +40,7 @@ If ticked, subsequent invocations of the tool skip showing the **Settings** task
 
 <div class="mw-translate-fuzzy">
 
-Dacă doriți să activați verificările extra BOP (BOP = Operații booleene), apoi urmați acești pași: Tools menu \> Edit Parameters \> Preferences \> Mod \> Part \> CheckGeometry apoi, în panoul din dreapta, faceți dublu clic sub valoarea pentru parametrul RunBOPCheck și setați la true, apoi faceți clic pe Save on disk, închideți și reporniți. Vedeți captura de ecran de mai jos.
+Dacă doriți să activați verificările extra BOP (BOP = Operații booleene), apoi urmați acești pași   * Tools menu \> Edit Parameters \> Preferences \> Mod \> Part \> CheckGeometry apoi, în panoul din dreapta, faceți dublu clic sub valoarea pentru parametrul RunBOPCheck și setați la true, apoi faceți clic pe Save on disk, închideți și reporniți. Vedeți captura de ecran de mai jos.
 
 
 </div>
@@ -53,12 +51,12 @@ If ticked, any errors found are also logged in the [report view](Report_view.md)
 
 ## Shape Content 
 
-In addition to detecting potential geometry errors, this tool shows a range of properties regarding the selected object:
+In addition to detecting potential geometry errors, this tool shows a range of properties regarding the selected object   *
 
 -   Checked object
 -   Shape type
--   Number of geometric entities: vertices, edges, wires, faces, shells, solids, compsolids, compounds, total shapes
--   Geometric and mass properties:
+-   Number of geometric entities   * vertices, edges, wires, faces, shells, solids, compsolids, compounds, total shapes
+-   Geometric and mass properties   *
     -   Area
     -   Volume
     -   Mass
@@ -73,6 +71,11 @@ In addition to detecting potential geometry errors, this tool shows a range of p
     -   Third axis of inertia
     -   Radius of gyration
     -   Global placement
+
+## Notes
+
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be checked using this tool. For [App Links](App_Link.md) the shape of the linked object is checked. For [App Part](App_Part.md) containers the visible objects within are checked as compounds. <small>(v0.20)</small> 
+-   FreeCAD has no methods to automatically repair geometry. If faults are detected the steps involved to create the model need to be examined and fixed manually.
 
 
 

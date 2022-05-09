@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/es
-   Name:Arch Rebar UShape
-   Name/es: Arch Barra de Refuerzo en Forma de U
-   MenuLocation:Arch → Rebar tools
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   Shortcut:None
-   SeeAlso:[LShape Rebar](Arch_Rebar_LShape/es.md)
-   Addon:Reinforcement
+- GuiCommand   */es
+   Name   *Arch Rebar UShape
+   Name/es   * Arch Barra de Refuerzo en Forma de U
+   MenuLocation   *Arch → Rebar tools
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   Shortcut   *None
+   SeeAlso   *[LShape Rebar](Arch_Rebar_LShape/es.md)
+   Addon   *Reinforcement
 ---
 
 # Arch Rebar Straight/es
@@ -28,14 +28,14 @@ La herramienta {{KEY | <img src="images/_Arch_Rebar_Straight.png_" width= 16px> 
 
 The [Arch Straight Rebar](Arch_Rebar_Straight.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;">
+<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/StraightRebar.png  style="width:800px;">
+<img alt="" src=images/StraightRebar.png  style="width   *800px;">
 
 
 </div>
@@ -60,28 +60,28 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
-<img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
+<img alt="" src=images/StraightRebarDialog.png  style="width   *250px;"> 
 *Taskview panel for the Arch Rebar Straight tool*
 
 ## Propiedades
 
--    {{PropertyData/es | Orientation}}: Decide la orientación de la barra de refuerzo (como una parte inferior, superior, derecha e izquierda).
+-    {{PropertyData/es | Orientation}}   * Decide la orientación de la barra de refuerzo (como una parte inferior, superior, derecha e izquierda).
 
--    {{PropertyData/es | Front Cover}}: la distancia entre la barra de refuerzo y la cara seleccionada.
+-    {{PropertyData/es | Front Cover}}   * la distancia entre la barra de refuerzo y la cara seleccionada.
 
--    {{PropertyData/es | Right Cover}}: la distancia entre el extremo derecho de la barra de refuerzo a la derecha de la estructura.
+-    {{PropertyData/es | Right Cover}}   * la distancia entre el extremo derecho de la barra de refuerzo a la derecha de la estructura.
 
--    {{PropertyData/es | Left Cover}}: la distancia entre el extremo izquierdo de la barra de refuerzo a la cara izquierda de la estructura.
+-    {{PropertyData/es | Left Cover}}   * la distancia entre el extremo izquierdo de la barra de refuerzo a la cara izquierda de la estructura.
 
--    {{PropertyData/es | Cover along}}: estas propiedades le permiten al usuario especificar la tapa superior o inferior.
+-    {{PropertyData/es | Cover along}}   * estas propiedades le permiten al usuario especificar la tapa superior o inferior.
 
--    {{PropertyData/es | Bottom Cover}}: la distancia entre las barras de refuerzo desde la cara inferior de la estructura.
+-    {{PropertyData/es | Bottom Cover}}   * la distancia entre las barras de refuerzo desde la cara inferior de la estructura.
 
--    {{PropertyData/es | Top Cover}}: la distancia entre barras de refuerzo desde la cara superior de la estructura.
+-    {{PropertyData/es | Top Cover}}   * la distancia entre barras de refuerzo desde la cara superior de la estructura.
 
--    {{PropertyData/es | Amount}}: la cantidad de barras de refuerzo.
+-    {{PropertyData/es | Amount}}   * la cantidad de barras de refuerzo.
 
--    {{PropertyData/es | Spacing}}: la distancia entre los ejes de cada barra.
+-    {{PropertyData/es | Spacing}}   * la distancia entre los ejes de cada barra.
 
 ## Scripting
 
@@ -96,7 +96,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-La herramienta {{KEY | <img src="images/_Arch_Rebar_Straight.png_" width= 16px> Straight Rebar}} puede usarse en [macros/es](macros/es.md) y desde la consola de python utilizando la siguiente función:
+La herramienta {{KEY | <img src="images/_Arch_Rebar_Straight.png_" width= 16px> Straight Rebar}} puede usarse en [macros/es](macros/es.md) y desde la consola de python utilizando la siguiente función   *
 
 
 </div>
@@ -227,7 +227,7 @@ editStraightRebar(Rebar, f_cover, coverAlong, rt_cover, lb_cover,
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
 
-Example: 
+Example   * 
 ```python
 import StraightRebar
 
@@ -252,6 +252,11 @@ StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

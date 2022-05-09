@@ -2,29 +2,29 @@
 {{Macro
 |Name=Macro Parametric_Curve_FP
 |Icon=Parametric_Curve_FP.svg
-|Description=Update of Macro 3D Parametric Curve, but with new features. Creates a Feature Python object, offers spreadsheet and JSON integration, expanded parameters.<br/>It has support for the same a, b, c parameters, but also can have as many d parameters in the form of d1, d2, d3, d4, etc. as you like.<br/>It also supports saving formulas to a text file in JSON format and support for Spreadsheet integration of the current formula.<br/>Full documentation can be found [https://github.com/mwganson/Parametric_Curve_FP Full Documentation on Github Parametric_Curve_FP] on github. 
+|Description=Update of Macro 3D Parametric Curve, but with new features. Creates a Feature Python object, offers spreadsheet and JSON integration, expanded parameters.<br/>It has support for the same a, b, c parameters, but also can have as many d parameters in the form of d1, d2, d3, d4, etc. as you like.<br/>It also supports saving formulas to a text file in JSON format and support for Spreadsheet integration of the current formula.<br/>Full documentation can be found [https   *//github.com/mwganson/Parametric_Curve_FP Full Documentation on Github Parametric_Curve_FP] on github. 
 |Author=TheMarkster
-|Version=2022.04.04.rev2
-|Date=2022-04-04
+|Version=2022.05.04
+|Date=2022-05-04
 |FCVersion=All Python 3
-|Download=[https://wiki.freecadweb.org/images/5/59/Parametric_Curve_FP.svg ToolBar Icon]
+|Download=[https   *//wiki.freecadweb.org/images/5/59/Parametric_Curve_FP.svg ToolBar Icon]
 |SeeAlso=[Macro 3D Parametric Curve](Macro_3D_Parametric_Curve.md) <img src="images/Macro_3D_Parametric_Curve.png" width=24px>
-|Links=[https://github.com/mwganson/Parametric_Curve_FP Full Documentation on Github]
+|Links=[https   *//github.com/mwganson/Parametric_Curve_FP Full Documentation on Github]
 }}
 
 ## Description
 
 This macro is an update to the [Macro\_3D\_Parametric\_Curve](Macro_3D_Parametric_Curve.md) by Gomez Lucio and later Modified by Laurent Despeyroux on 9th feb 2015. The macro has been updated to a parametric Feature Python object. It has support for the same a, b, c parameters, but also can have as many d parameters in the form of d1, d2, d3, d4, etc. as you like.
 
-It also supports saving formulas to a text file in JSON format and support for Spreadsheet integration of the current formula. Full documentation can be found [Parametric\_Curve\_FP](https://github.com/mwganson/Parametric_Curve_FP) on github.
+It also supports saving formulas to a text file in JSON format and support for Spreadsheet integration of the current formula. Full documentation can be found [Parametric\_Curve\_FP](https   *//github.com/mwganson/Parametric_Curve_FP) on github.
 
- <img alt="" src=images/Parametric_Curve_FP_SCR.png  style="width:600px;">  
+ <img alt="" src=images/Parametric_Curve_FP_SCR.png  style="width   *600px;">  
 *Parametric_Curve_FP screenshot‎*
 
 ### Legend
 
 
-{{Codeextralink|https://gist.github.com/mwganson/473920ad317fb2dc3e37638112874e2a/raw/fcec92070f436bfb064ab9f54df0cb864d1fc43f/Parametric_Curve_FP.FCMacro|Parametric_Curve_FP.FCMacro}}
+{{Codeextralink|https   *//gist.github.com/mwganson/473920ad317fb2dc3e37638112874e2a/raw/c4cb8736e9f62a85f2e49adb642342dfc5461d4b/Parametric_Curve_FP.FCMacro|Parametric_Curve_FP.FCMacro}}
 
 ToolBar Icon  ![](images/Parametric_Curve_FP.svg )
 
@@ -33,7 +33,7 @@ ToolBar Icon  ![](images/Parametric_Curve_FP.svg )
 **Macro Parametric\_Curve\_FP.FCMacro**
 
 
-{{CodeDownload|https://gist.github.com/mwganson/473920ad317fb2dc3e37638112874e2a|Parametric_Curve_FP.FCMacro}}
+{{CodeDownload|https   *//gist.github.com/mwganson/473920ad317fb2dc3e37638112874e2a|Parametric_Curve_FP.FCMacro}}
 
 
 

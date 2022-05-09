@@ -4,55 +4,55 @@
 
 {{TOCright}}
 
-Das [topologische Benennungsproblem](topological_naming_problem/de.md) in FreeCAD bezieht sich auf die Frage, ob eine Form ihren internen Namen nach einer Modellierungsoperation (Polstern, Schnitt, Vereinigung, Fase, Verrundung, usw.) ändert. Dies führt dazu, dass andere parametrische Merkmale, die von dieser Form abhängen, brechen oder falsch berechnet werden. Dieser Sachverhalt betrifft alle Objekte in FreeCAD, ist aber besonders bemerkenswert, wenn Volumenkörper mit der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) erstellt und diese mit der <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) dimensioniert werden.
+Das [topologische Benennungsproblem](topological_naming_problem/de.md) in FreeCAD bezieht sich auf die Frage, ob eine Form ihren internen Namen nach einer Modellierungsoperation (Polstern, Schnitt, Vereinigung, Fase, Verrundung, usw.) ändert. Dies führt dazu, dass andere parametrische Merkmale, die von dieser Form abhängen, brechen oder falsch berechnet werden. Dieser Sachverhalt betrifft alle Objekte in FreeCAD, ist aber besonders bemerkenswert, wenn Volumenkörper mit der <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) erstellt und diese mit der <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) dimensioniert werden.
 
--   Wenn in <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) ein Merkmal auf einer Fläche (oder Kante oder Scheitelpunkt) unterstützt wird, kann das Merkmal brechen, wenn der zugrunde liegende Volumenkörper seine Größe oder Ausrichtung ändert, da die ursprüngliche Fläche (oder Kante oder Scheitelpunkt) intern umbenannt werden kann.
--   Wenn in <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/de.md) eine Dimension die Länge einer projizierten Kante misst, kann die Dimension brechen, wenn das 3D-Modell geändert wird, da die Knoten umbenannt werden können, wodurch die gemessene Kante geändert wird.
+-   Wenn in <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign](PartDesign_Workbench/de.md) ein Merkmal auf einer Fläche (oder Kante oder Scheitelpunkt) unterstützt wird, kann das Merkmal brechen, wenn der zugrunde liegende Volumenkörper seine Größe oder Ausrichtung ändert, da die ursprüngliche Fläche (oder Kante oder Scheitelpunkt) intern umbenannt werden kann.
+-   Wenn in <img alt="" src=images/Workbench_TechDraw.svg  style="width   *24px;"> [TechDraw](TechDraw_Workbench/de.md) eine Dimension die Länge einer projizierten Kante misst, kann die Dimension brechen, wenn das 3D-Modell geändert wird, da die Knoten umbenannt werden können, wodurch die gemessene Kante geändert wird.
 
 Der Sachverhalt der topologischen Benennung ist ein komplexes Problem bei der CAD Modellierung, das daraus herrührt, wie die internen FreeCAD Routinen Aktualisierungen der mit dem [OCCT Kernel](OpenCASCADE/de.md) erstellten geometrischen Formen handhaben. Ab FreeCAD 0.19 gibt es kontinuierliche Bemühungen, die Kernverarbeitung von Formen zu verbessern, um solche Probleme zu reduzieren oder zu beseitigen.
 
--   Forumsbeitrag: [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278)
+-   Forumsbeitrag   * [Topological Naming, My Take](https   *//forum.freecadweb.org/viewtopic.php?t=27278)
 
 Das Problem der topologischen Benennung betrifft und verwirrt neue Anwender von FreeCAD am häufigsten. In PartDesign wird dem Anwender empfohlen, die auf der Seite [Funktionsbearbeitung](feature_editing/de.md) beschriebenen optimalen Vorgehensweisen zu befolgen. Die Verwendung von unterstützenden Bezugsobjekten wie [Ebenen](PartDesign_Plane/de.md) und [local coordinate systems](PartDesign_CoordinateSystem/de.md) wird dringend empfohlen, Modelle zu erstellen, die nicht leicht solchen topologischen Fehlern ausgesetzt sind. In TechDraw wird dem Anwender empfohlen, Bemaßungen nur dann hinzuzufügen, wenn das 3D-Modell vollständig ist und nicht mehr geändert wird.
 
 ## Beispiel
 
-1\. Erstelle in der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) einen <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Körper](PartDesign_Body/de.md), verwende dann <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [PartDesign Neue Skizze](PartDesign_NewSketch/de.md) und wählen die XY-Ebene, um die Basisskizze zu zeichnen; führe dann ein <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Polster](PartDesign_Pad/de.md) aus, um einen ersten Volumenkörper zu erstellen.
+1\. Erstelle in der <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) einen <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [PartDesign Körper](PartDesign_Body/de.md), verwende dann <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [PartDesign Neue Skizze](PartDesign_NewSketch/de.md) und wählen die XY-Ebene, um die Basisskizze zu zeichnen; führe dann ein <img alt="" src=images/PartDesign_Pad.svg  style="width   *24px;"> [PartDesign Polster](PartDesign_Pad/de.md) aus, um einen ersten Volumenkörper zu erstellen.
 
-<img alt="" src=images/FreeCAD_topological_problem_01_solid.png  style="width:" height="400px;">
+<img alt="" src=images/FreeCAD_topological_problem_01_solid.png  style="width   *" height="400px;">
 
-2\. Wählen Sie die Oberseite des vorherigen Volumenkörpers aus und verwende dann <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [PartDesign NewSketch](PartDesign_NewSketch/de.md), um eine weitere Skizze zu zeichnen; führe dann ein zweites Polster aus.
+2\. Wählen Sie die Oberseite des vorherigen Volumenkörpers aus und verwende dann <img alt="" src=images/PartDesign_NewSketch.svg  style="width   *24px;"> [PartDesign NewSketch](PartDesign_NewSketch/de.md), um eine weitere Skizze zu zeichnen; führe dann ein zweites Polster aus.
 
    
-  <img alt="" src=images/FreeCAD_topological_problem_02_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_03_solid_2.png  style="width:" height="400px;">
+  <img alt="" src=images/FreeCAD_topological_problem_02_solid_sketch_2.png  style="width   *" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_03_solid_2.png  style="width   *" height="400px;">
    
 
 3\. Wähle die Oberseite der vorherigen Extrusion aus und erstelle erneut eine Skizze und ein Polster.
 
-<img alt="" src=images/FreeCAD_topological_problem_04_solid_3.png  style="width:" height="400px;">
+<img alt="" src=images/FreeCAD_topological_problem_04_solid_3.png  style="width   *" height="400px;">
 
 4\. Doppelklicke nun auf die zweite Skizze und ändere sie so, dass ihre Länge entlang der X-Richtung liegt; dadurch wird das zweite Pad neu erstellt. Die dritte Skizze und das Polster bleiben an der gleichen Stelle.
 
    
-  <img alt="" src=images/FreeCAD_topological_problem_05_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_06_solid_2.png  style="width:" height="400px;">
+  <img alt="" src=images/FreeCAD_topological_problem_05_solid_sketch_2.png  style="width   *" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_06_solid_2.png  style="width   *" height="400px;">
    
 
-<img alt="" src=images/FreeCAD_topological_problem_07_solid_3.png  style="width:" height="400px;">
+<img alt="" src=images/FreeCAD_topological_problem_07_solid_3.png  style="width   *" height="400px;">
 
 5\. Doppelklicke nun erneut auf die zweite Skizze und passe Deine Punkte so an, dass ein Teil davon außerhalb der durch das erste Pad definierten Grenzen liegt. Dadurch wird das zweite Pad korrekt neu berechnet, aber beim Betrachten der [Baumansicht](tree_view/de.md) wird im dritten Pad ein Fehler angezeigt.
 
    
-  <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width:" height="400px;">
+  <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width   *" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width   *" height="400px;">
    
 
 ![](images/FreeCAD_topological_problem_12_broken_tree.png )
 
-6\. Indem man die dritte Skizze und das Polster sichtbar macht, wird deutlich, dass die Berechnung des neuen Solids nicht korrekt durchgeführt wurde. Die dritte Skizze, anstatt von der Oberseite des zweiten Pads getragen zu werden, erscheint an einer seltsamen Stelle, mit ihrer Normalen, die in X Richtung ausgerichtet ist. Dies führt zu einem ungültigen Polster, da dieses Polster vom Rest des <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Körper](PartDesign_Body/de.md) getrennt wird, was nicht erlaubt ist.
+6\. Indem man die dritte Skizze und das Polster sichtbar macht, wird deutlich, dass die Berechnung des neuen Solids nicht korrekt durchgeführt wurde. Die dritte Skizze, anstatt von der Oberseite des zweiten Pads getragen zu werden, erscheint an einer seltsamen Stelle, mit ihrer Normalen, die in X Richtung ausgerichtet ist. Dies führt zu einem ungültigen Polster, da dieses Polster vom Rest des <img alt="" src=images/PartDesign_Body.svg  style="width   *24px;"> [PartDesign Körper](PartDesign_Body/de.md) getrennt wird, was nicht erlaubt ist.
 
 Das Problem scheint darin zu bestehen, dass bei der Änderung der zweiten Skizze die Oberseite des zweiten Polsters von `Face13` in `Face14` umbenannt wurde. Die dritte Skizze ist wie ursprünglich an `Face13` angehängt, aber da sich diese Fläche nun auf der Seite befindet (nicht oben), folgt die Skizze ihrer Ausrichtung und ist nun falsch positioniert.
 
    
-  <img alt="" src=images/FreeCAD_topological_problem_10_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_11_solid_2_faces.png  style="width:" height="400px;">
+  <img alt="" src=images/FreeCAD_topological_problem_10_solid_2_sketch_3.png  style="width   *" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_11_solid_2_faces.png  style="width   *" height="400px;">
    
 
 7\. Um das Problem zu beheben, sollte die dritte Skizze wieder auf die Oberseite abgebildet werden. Wähle die Skizze aus, klicke auf die Ellipse (drei Punkte) neben der Eigenschaft {{PropertyData/de|Map Mode}}, und wähle erneut die Oberseite des zweiten Polsters. Dann geht die Skizze an die Spitze des vorhandenen Volumenkörpers, und das dritte Pad wird ohne Probleme erzeugt.
@@ -60,7 +60,7 @@ Das Problem scheint darin zu bestehen, dass bei der Änderung der zweiten Skizze
 ![](images/FreeCAD_topological_problem_13_remap_sketch_2.png )
 
    
-  <img alt="" src=images/FreeCAD_topological_problem_14_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_15_solid_3.png  style="width:" height="400px;">
+  <img alt="" src=images/FreeCAD_topological_problem_14_solid_2_sketch_3.png  style="width   *" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_15_solid_3.png  style="width   *" height="400px;">
    
 
 Die Umschlüsselung einer Skizze auf diese Weise kann bei jedem topologischen Benennungsfehler erfolgen, dies kann jedoch mühsam sein, wenn das Modell kompliziert ist und es viele solcher Skizzen gibt, die angepasst werden müssen.
@@ -81,7 +81,7 @@ Wie auf der Seite [\|Merkmals Bearbeitung](feature_editing/de.md) erläutert, be
 
 
    
-  <img alt="" src=images/FreeCAD_topological_problem_17_datum_plane_1.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_18_datum_plane_2.png  style="width:" height="400px;">
+  <img alt="" src=images/FreeCAD_topological_problem_17_datum_plane_1.png  style="width   *" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_18_datum_plane_2.png  style="width   *" height="400px;">
    
 
 3\. Wähle die zweite Skizze aus, klicke auf die Ellipse nahe der {{PropertyData/de|Map Mode}} Eigenschaft und wähle dann die erste Bezugsebene. Die Bezugsebene ist bereits von der XY-Ebene des Körpers versetzt, so dass für die Skizze kein weiterer Z-Versatz erforderlich ist.
@@ -94,11 +94,11 @@ Wie auf der Seite [\|Merkmals Bearbeitung](feature_editing/de.md) erläutert, be
 
 6\. Doppelklicke auf die zweite Skizze und ändere die Form. Das zweite Polster sollte sofort aktualisiert werden, ohne topologische Probleme mit der dritten Skizze und dem dritten Polster zu verursachen.
 
-<img alt="" src=images/FreeCAD_topological_problem_20_independent_solid_2.png  style="width:" height="400px;">
+<img alt="" src=images/FreeCAD_topological_problem_20_independent_solid_2.png  style="width   *" height="400px;">
 
 7\. Tatsächlich kann jede Skizze geändert werden, ohne die Polster der anderen zu beeinträchtigen. Solange die Polster eine ausreichende Extrusionslänge haben, so dass sie sich berühren und einen zusammenhängenden Körper bilden, ist der gesamte Körper gültig.
 
-<img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width:" height="400px;">
+<img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width   *" height="400px;">
 
 ## Schlussbemerkungen
 
@@ -113,18 +113,20 @@ Bezugsobjekte, [Punkte](PartDesign_Point/de.md), [Linien](PartDesign_Line/de.md)
 ## Verweise
 
 -   [PartDesign Verrundung - Topologische Benennung](PartDesign_Fillet/de#Topological_naming.md)
--   [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278) , eine mögliche Lösung, von realthunder.
--   [Topological Naming Project](Topological_Naming_Project.md): Idee um das Problem zu lösen, von ickby.
+-   [Topological Naming, My Take](https   *//forum.freecadweb.org/viewtopic.php?t=27278) , eine mögliche Lösung, von realthunder.
+-   [Topological Naming Project](Topological_Naming_Project.md)   * Idee um das Problem zu lösen, von ickby.
 -   [Topologische Daten skripten](Topological_data_scripting/de.md)
--   [Formelemente bearbeiten](Feature_editing/de.md): enthält alternative Hinweise für stabile Modellierungstechniken.
+-   [Formelemente bearbeiten](Feature_editing/de.md)   * enthält alternative Hinweise für stabile Modellierungstechniken.
 
 ## Videos
 
--   [Warum brechen meine FreeCAD Modelle? - \"Topologisches Benennungsproblem\"](https://youtu.be/6p2vqEEmWq4): Eine Videoerklärung der zugrunde liegenden Probleme des [Topologisches Benennungsproblem](Topological_naming_problem/de.md)
--   [FreeCAD Is Fundamentally Broken! - Now what\... Help Me Decide\...](https://www.youtube.com/watch?v=QSsVFu929jo): A Maker Tales Video
+-   [Warum brechen meine FreeCAD Modelle? - \"Topologisches Benennungsproblem\"](https   *//youtu.be/6p2vqEEmWq4)   * Eine Videoerklärung der zugrunde liegenden Probleme des [Topologisches Benennungsproblem](Topological_naming_problem/de.md)
+-   [FreeCAD Is Fundamentally Broken! - Now what\... Help Me Decide\...](https   *//www.youtube.com/watch?v=QSsVFu929jo)   * A Maker Tales Video
 
 
- {{TechDraw Tools navi}} {{PartDesign Tools navi}}
+ {{TechDraw Tools navi}} {{PartDesign Tools navi}} 
+
+[Category   *Common Questions](Category_Common_Questions.md)
 
 
 

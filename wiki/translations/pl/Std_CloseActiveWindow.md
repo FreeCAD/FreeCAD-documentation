@@ -1,49 +1,50 @@
 ---
-- GuiCommand:
-   Name:Std CloseActiveWindow
-   MenuLocation:File → Close
-   Workbenches:All
-   Shortcut:**Ctrl**+**F4**
-   SeeAlso:[Std CloseAllWindows](Std_CloseAllWindows.md)
+- GuiCommand   */pl
+   Name   *Std CloseActiveWindow
+   Name/pl   *Std   * Zamknij aktywne okno
+   MenuLocation   *Plik → Zamknij
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl**+**F4**
+   SeeAlso   *[Zamknij wszystkie okna](Std_CloseAllWindows/pl.md)
 ---
 
 # Std CloseActiveWindow/pl
 
-## Description
+## Opis
 
-The **Std CloseActiveWindow** command closes the active window. To close a document all its windows must be closed.
+Polecenie **Zamknij aktywne okno** zamyka aktywne okno. Aby zamknąć dokument, wszystkie jego okna muszą być zamknięte.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Select the **File → <img src="images/Std_CloseActiveWindow.svg" width=16px> Close** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**F4**.
-2.  To close a document: repeat this for all windows belonging to it.
-3.  When closing the last window of a document that has not been saved, a dialog box will prompt you to save it:
-    -   Press the **Save** button to save the document. If required enter a filename first.
-    -   Press the **Discard** button to discard the document and lose all changes.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Wybierz z menu opcję **Plik → <img src="images/Std_CloseActiveWindow.svg" width=16px> Zamknij**.
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **F4**.
+2.  Aby zamknąć dokument   * powtórz tę czynność dla wszystkich należących do niego okien.
+3.  Podczas zamykania ostatniego okna dokumentu, który nie został zapisany, zostanie wyświetlone okno dialogowe z prośbą o jego zapisanie   *
+    -   Naciśnij przycisk **Zapisz**, aby zapisać dokument. W razie potrzeby wprowadź najpierw nazwę pliku.
+    -   Naciśnij przycisk **Porzuć zmiany**, aby odrzucić dokument i utracić wszystkie zmiany.
 
-## Options
+## Opcje
 
--   When the dialog box is displayed: press **Esc** or the **Cancel** button to abort the command.
+-   Po wyświetleniu okna dialogowego   * naciśnij przycisk **Esc** lub **Anuluj**, aby przerwać wykonywanie polecenia.
 
-## Notes
+## Uwagi
 
--   The command can only close [docked](Std_ViewDockUndockFullscreen.md) windows.
--   A document can also be closed by right-clicking it in the [Tree view](Tree_view.md) and selecting **Close document** from the context menu.
+-   Polecenie to może zamknąć tylko okna [zadokowane](Std_ViewDockUndockFullscreen/pl.md).
+-   Dokument można również zamknąć, klikając go prawym przyciskiem myszy w oknie [widoku drzewa](Tree_view/pl.md) i wybierając opcję **Zamknij dokument** z menu podręcznego.
 
-## Preferences
+## Ustawienia
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To close a document use the `closeDocument` method of the FreeCAD application. For a scripting example see [Std New](Std_New.md).
+Aby zamknąć dokument, należy użyć metody `closeDocument` aplikacji FreeCAD. Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/pl#Tworzenie_skrypt.C3.B3w.md).
 
 
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Arch Panel Sheet
-   Name/de:Arch Tafel Blech
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   MenuLocation:Arch → Panel tools → Tafel Blatt
-   Shortcut:**P** **S**
-   SeeAlso:[Arch Tafel](Arch_Panel/de.md), [Arch Tafelschnitt](Arch_Panel_Cut/de.md), [Arch Verschachteln](Arch_Nest/de.md)
+- GuiCommand   */de
+   Name   *Arch Panel Sheet
+   Name/de   *Arch Tafel Blech
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   MenuLocation   *Arch → Panel tools → Tafel Blatt
+   Shortcut   ***P** **S**
+   SeeAlso   *[Arch Tafel](Arch_Panel/de.md), [Arch Tafelschnitt](Arch_Panel_Cut/de.md), [Arch Verschachteln](Arch_Nest/de.md)
 ---
 
 # Arch Panel Sheet/de
@@ -23,9 +23,9 @@ Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich eine
 
 </div>
 
-<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width   *1024px;">
 
-<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width   *1024px;">
 
 *Das obige Bild zeigt, wie Tafelplatten beim Export nach DXF erscheinen.*
 
@@ -57,31 +57,31 @@ Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich eine
 
 ### Daten
 
--    {{PropertyData/de|Height}}: Die Höhe des Blattes
+-    {{PropertyData/de|Height}}   * Die Höhe des Blattes
 
--    {{PropertyData/de|Width}}: Die Breite des Blattes
+-    {{PropertyData/de|Width}}   * Die Breite des Blattes
 
--    {{PropertyData/de|Fill Ratio}}(v0.??): Der Prozentsatz des Blechs, der von Schnitten belegt wird (automatisch)
+-    {{PropertyData/de|Fill Ratio}}(v0.??)   * Der Prozentsatz des Blechs, der von Schnitten belegt wird (automatisch)
 
--    {{PropertyData/de|Tag Text}}: Der anzuzeigende Kennzeichnungstext
+-    {{PropertyData/de|Tag Text}}   * Der anzuzeigende Kennzeichnungstext
 
--    {{PropertyData/de|Tag Size}}: Die Größe des Kennzeichnungstextes
+-    {{PropertyData/de|Tag Size}}   * Die Größe des Kennzeichnungstextes
 
--    {{PropertyData/de|Tag Position}}: Die Position des Kennzeichnungstextes. Automatische Mittenposition bei (0,0,0)
+-    {{PropertyData/de|Tag Position}}   * Die Position des Kennzeichnungstextes. Automatische Mittenposition bei (0,0,0)
 
--    {{PropertyData/de|Tag Rotation}}: Die Drehung des Kennzeichnungstextes
+-    {{PropertyData/de|Tag Rotation}}   * Die Drehung des Kennzeichnungstextes
 
--    {{PropertyData/de|Font File}}: Die Schriftart des Kennzeichnungstextes
+-    {{PropertyData/de|Font File}}   * Die Schriftart des Kennzeichnungstextes
 
--    {{PropertyData/de|Make Face}}: Falls True, ist das Blech eine Part Fläche, anderenfalls ein Part Linienzug
+-    {{PropertyData/de|Make Face}}   * Falls True, ist das Blech eine Part Fläche, anderenfalls ein Part Linienzug
 
--    {{PropertyData/de|Grain Direction}}: Gibt einen Winkel für die (Holz)-Maserung an (im Uhrzeigersinn, 0° bedeutet oben)
+-    {{PropertyData/de|Grain Direction}}   * Gibt einen Winkel für die (Holz)-Maserung an (im Uhrzeigersinn, 0° bedeutet oben)
 
--    {{PropertyData/de|Group}}(v0.??): Die verknüpften Paneel-Schnitte
+-    {{PropertyData/de|Group}}(v0.??)   * Die verknüpften Paneel-Schnitte
 
--    {{PropertyData/de|Rotations}}(v0.??): Eine Liste möglicher Rotationen für den Satz
+-    {{PropertyData/de|Rotations}}(v0.??)   * Eine Liste möglicher Rotationen für den Satz
 
--    {{PropertyData/de|Scale}}(v0.??): Gibt die Skalierung an, die auf jede Panelansicht angewandt wird
+-    {{PropertyData/de|Scale}}(v0.??)   * Gibt die Skalierung an, die auf jede Panelansicht angewandt wird
 
 
 </div>
@@ -93,11 +93,11 @@ Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich eine
 
 ### Ansicht
 
--    {{PropertyView/de|Margin}}: Ein Rand, der innerhalb der Grenze angezeigt werden kann
+-    {{PropertyView/de|Margin}}   * Ein Rand, der innerhalb der Grenze angezeigt werden kann
 
--    {{PropertyView/de|Show Margin}}: Schaltet die Anzeige des Randes ein/aus
+-    {{PropertyView/de|Show Margin}}   * Schaltet die Anzeige des Randes ein/aus
 
--    {{PropertyView/de|Show Grain}}: Schaltet die Anzeige der (Holz)-Maserung ein/aus (Make Face muss auf \'true\' gesetzt sein)
+-    {{PropertyView/de|Show Grain}}   * Schaltet die Anzeige der (Holz)-Maserung ein/aus (Make Face muss auf \'true\' gesetzt sein)
 
 
 </div>
@@ -110,7 +110,7 @@ Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich eine
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -120,7 +120,7 @@ Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich eine
 
 <div class="mw-translate-fuzzy">
 
-Das Tafelblechwerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
+Das Tafelblechwerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden   *
 
 
 </div>
@@ -132,7 +132,7 @@ Sheet = makePanelSheet(panels=[], name="PanelSheet")
 
 -   Erstellt ein `sheet`-Objekt aus `panels`, welches eine Liste von [Arch Panel](Arch_Panel.md)-Objekten ist.
 
-Beispiel:
+Beispiel   *
 
 
 ```python

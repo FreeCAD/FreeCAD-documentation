@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Arch CloseHoles
-   Name/fr:Arch Fermer les trous
-   MenuLocation:Arch → Utilitaires → Fermer les trous
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Vérification](Arch_Check/fr.md)
+- GuiCommand   */fr
+   Name   *Arch CloseHoles
+   Name/fr   *Arch Fermer les trous
+   MenuLocation   *Arch → Utilitaires → Fermer les trous
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[Arch Vérification](Arch_Check/fr.md)
 ---
 
 # Arch CloseHoles/fr
@@ -21,25 +21,25 @@ Cet outil identifie les trous (séquence circulaire d\'arêtes ouvertes (edges))
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans une [macro](macros/fr.md), et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
+Cet outil peut être utilisé dans une [macro](macros/fr.md), et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction    * 
 ```python
 solid = closeHole(shape)
 ```
 
 -   Ferme un trou dans une `shape` qui est un `Part.Shape` et renvoie le nouvel objet `solid`.
 
-Exemple: 
+Exemple   * 
 ```python
 import FreeCAD, Draft, Arch
 
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

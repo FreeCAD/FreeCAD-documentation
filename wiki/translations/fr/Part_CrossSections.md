@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Part CrossSections
-   Name/fr:Part Coupes
-   Icon:Part_CrossSections.svg
-   MenuLocation:Pièce → Coupes...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Section](Part_Section/fr.md)
+- GuiCommand   */fr
+   Name   *Part CrossSections
+   Name/fr   *Part Coupes
+   Icon   *Part_CrossSections.svg
+   MenuLocation   *Pièce → Coupes...
+   Workbenches   *[Part](Part_Workbench/fr.md)
+   SeeAlso   *[Part Section](Part_Section/fr.md)
 ---
 
 # Part CrossSections/fr
@@ -17,16 +17,18 @@ L\'outil **Coupes** créé une ou plusieurs coupes à travers la forme sélectio
 ## Utilisation
 
 1.  Sélectionner une forme.
-2.  Cliquer sur le bouton **[24px|link=Part_CrossSections](File:Part_CrossSections.svg.md) '''Coupes...'''**.
+2.  Cliquer sur le bouton **[24px|link=Part_CrossSections](File   *Part_CrossSections.svg.md) '''Coupes...'''**.
 3.  Définir le plan guide.
 4.  Définir la position (distance de la coupe par rapport au plan guide).
-5.  Optionnellement, cocher **Sections** pour créer plus d\'une coupe :
+5.  Optionnellement, cocher **Sections** pour créer plus d\'une coupe    *
     -   Cocher *Des deux côtés* pour centrer les coupes de chaque côté du plan guide.
     -   Définir le nombre de coupes.
 6.  Cliquer sur **OK**.
 
-## Limitations
 
+{{Part Tools navi/fr}}
+
+-   Les objets [App Link](App_Link/fr.md) liés aux types d\'objets appropriés et les conteneurs [App Part](App_Part/fr.md) contenant les objets visibles appropriés peuvent également être utilisés comme objets sources. {{Version/fr|0.20}}
 -   L\'objet résultant n\'est pas paramétrique, c\'est-à-dire qu\'il n\'est pas lié à la forme originale.
 -   Un seul objet est créé, même pour plusieurs coupes.
 

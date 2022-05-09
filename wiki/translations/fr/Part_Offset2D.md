@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Part Offset2D
-   Name/fr:Part Décalage 2D
-   MenuLocation:Part → Décalage 2D...
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Part Décalage 3D](Part_Offset/fr.md), [Part Évidement](Part_Thickness/fr.md), [Draft Décalage](Draft_Offset/fr.md)
+- GuiCommand   */fr
+   Name   *Part Offset2D
+   Name/fr   *Part Décalage 2D
+   MenuLocation   *Part → Décalage 2D...
+   Workbenches   *[Part](Part_Workbench/fr.md)
+   Version   *0.17
+   SeeAlso   *[Part Décalage 3D](Part_Offset/fr.md), [Part Évidement](Part_Thickness/fr.md), [Draft Décalage](Draft_Offset/fr.md)
 ---
 
 # Part Offset2D/fr
@@ -21,51 +21,14 @@ La polyligne/face doit être plan. Il peut y avoir plusieurs polylignes dans un 
 ## Utilisation
 
 1.  Sélectionner un objet à décaler
-2.  Appuyer sur le bouton **[<img src=images/Part_Offset2D.svg style="width:24px">** **Décalage 2D**.
+2.  Appuyer sur le bouton **[<img src=images/Part_Offset2D.svg style="width   *24px">** **Décalage 2D**.
 3.  Définir la valeur de décalage dans le [Panneau des tâches](Task_panel/fr.md) puis valider.
 4.  Appuyer sur **OK**.
+5.  Un objet paramétrique Décalage 2D est créé. Les objets originaux passent en mode d\'affichage filaire.
 
-Un objet paramétrique Décalage 2D est créé. Les objets originaux passent en mode d\'affichage filaire.
+## Remarques
 
-## Propriétés
-
--    **Source**: Lien vers la forme d\'origine
-
--    **Value**: Valeur d\'agrandissement de la polyligne/face. Si négative, la dimension de la face ou de la polyligne est rétrécie à la place.
-
--    **Mode**(\"Pipe\" ou \"Skin\") : Définit le traitement des polylignes non fermées. Si \"Pipe\" est selectionné, la polyligne est décalée comme un contour fermé extrêmement petit. Si \"Skin\" est sélectionné, une polyligne ouverte est créée.
-
-:   ![600px](images/Part_Offset2D_Mode.png)
-
--    **Join**(\"Arc\", \"Tangent\", \"Intersection\") : Définit le traitement des coins. Avec \"Arc\", les segments décalés sont joints par des arcs de cercle dont le centre est le sommet d\'origine. \"Tangent\" n\'est pas supporté pour OCC7.0.0. \"Intersection\" : les segments décalés sont prolongés jusqu\'à ce qu\'ils se croisent.
-
-:   ![600px](images/Part_Offset2D_Join.png)
-
--    **Intersection**(\"false\", \"true\") : Définit si les polylignes multiples sont traitées collectivement ou indépendamment. Avec \"false\", les polylignes sont traitées indépendamment les unes des autres, les intersections entre les polylignes résultantes sont ignorées. Avec \"true\", les polylignes sont gérées de façon collective.
-
-:   ![600px](images/Part_Offset2D_Intersection.png)
-
-
-
-
-
-:   Seuls les polylignes dans un composé sont couplées. Par exemple, si la structure est compound(wire1, wire2, compound (wire3, wire4)), wire1 et wire2 seront traités collectivement, mais indépendamment de wire3 et wire4. De même, wire3 et wire4 sont traités collectivement, mais indépendamment de wire1 + wire2.
-
-
-
-
-
-:   De même, en mode groupé, les directions des polylignes sont importantes et influencent la direction du décalage. Ceci est étroitement lié à la façon dont les trous dans les faces sont traités.
-
-
-
-
-
-:   Les polylignes traitées collectivement doivent être coplanaires. Les polylignes devant être décalées indépendamment n\'ont pas besoin d\'être coplanaires.
-
--    **Fill**(\"false\", \"true\") : Si \"true\", l\'espace entre la polyligne/face d\'origine et le décalage forme une face.
-
-:   ![600px](images/Part_Offset2D_Fill.png)
+-   Les objets [App Link](App_Link/fr.md) liés aux types d\'objets appropriés et les conteneurs [App Part](App_Part/fr.md) contenant les objets visibles appropriés peuvent également être utilisés comme objets sources. {{Version/fr|0.20}}
 
 ## Problèmes connus 
 
@@ -85,15 +48,55 @@ Un objet paramétrique Décalage 2D est créé. Les objets originaux passent en 
 
 -   Le décalage des polylignes constituées d\'un seul segment de ligne n\'est pas pris en charge (car le segment de ligne ne définit pas un plan). Les segments de ligne simples ne peuvent pas non plus participer à un décalage groupé.
 
+## Propriétés
+
+-    **Source**   * Lien vers la forme d\'origine
+
+-    **Value**   * Valeur d\'agrandissement de la polyligne/face. Si négative, la dimension de la face ou de la polyligne est rétrécie à la place.
+
+-    **Mode**(\"Pipe\" ou \"Skin\")    * Définit le traitement des polylignes non fermées. Si \"Pipe\" est selectionné, la polyligne est décalée comme un contour fermé extrêmement petit. Si \"Skin\" est sélectionné, une polyligne ouverte est créée.
+
+   *   ![600px](images/Part_Offset2D_Mode.png)
+
+-    **Join**(\"Arc\", \"Tangent\", \"Intersection\")    * Définit le traitement des coins. Avec \"Arc\", les segments décalés sont joints par des arcs de cercle dont le centre est le sommet d\'origine. \"Tangent\" n\'est pas supporté pour OCC7.0.0. \"Intersection\"    * les segments décalés sont prolongés jusqu\'à ce qu\'ils se croisent.
+
+   *   ![600px](images/Part_Offset2D_Join.png)
+
+-    **Intersection**(\"false\", \"true\")    * Définit si les polylignes multiples sont traitées collectivement ou indépendamment. Avec \"false\", les polylignes sont traitées indépendamment les unes des autres, les intersections entre les polylignes résultantes sont ignorées. Avec \"true\", les polylignes sont gérées de façon collective.
+
+   *   ![600px](images/Part_Offset2D_Intersection.png)
+
+
+
+
+
+   *   Seuls les polylignes dans un composé sont couplées. Par exemple, si la structure est compound(wire1, wire2, compound (wire3, wire4)), wire1 et wire2 seront traités collectivement, mais indépendamment de wire3 et wire4. De même, wire3 et wire4 sont traités collectivement, mais indépendamment de wire1 + wire2.
+
+
+
+
+
+   *   De même, en mode groupé, les directions des polylignes sont importantes et influencent la direction du décalage. Ceci est étroitement lié à la façon dont les trous dans les faces sont traités.
+
+
+
+
+
+   *   Les polylignes traitées collectivement doivent être coplanaires. Les polylignes devant être décalées indépendamment n\'ont pas besoin d\'être coplanaires.
+
+-    **Fill**(\"false\", \"true\")    * Si \"true\", l\'espace entre la polyligne/face d\'origine et le décalage forme une face.
+
+   *   ![600px](images/Part_Offset2D_Fill.png)
+
 ## Script
 
-L\'outil peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : {{code|code=
-f = App.ActiveDocument.addObject("Part::Offset2D", "Offset2D")
+L\'outil peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante    * {{code|code=
+f = App.ActiveDocument.addObject("Part   *   *Offset2D", "Offset2D")
 f.Source =  #some object
 f.Value = 10.0
 }}
 
-Décalage 2D est également disponible comme méthode de Part.Shape. Exemple: {{code|code=
+Décalage 2D est également disponible comme méthode de Part.Shape. Exemple   * {{code|code=
 import Part
 circle = Part.Circle().toShape()
 enlarged_circle = circle.makeOffset2D(10.0)
@@ -101,19 +104,19 @@ Part.show(circle)
 Part.show(enlarged_circle)
 # makeOffset2D(offset, join = 0, fill = False, openResult = false, intersection = false)
 # 
-# * offset: distance to expand the shape by. 
+# * offset   * distance to expand the shape by. 
 # 
-# * join: method of offsetting non-tangent joints. 0 = arcs, 1 = tangent, 2 =
+# * join   * method of offsetting non-tangent joints. 0 = arcs, 1 = tangent, 2 =
 # intersection
 # 
-# * fill: if true, the output is a face filling the space covered by offset. If
+# * fill   * if true, the output is a face filling the space covered by offset. If
 # false, the output is a wire/face.
 # 
-# * openResult: True for "Skin" mode; False for Pipe mode. 
+# * openResult   * True for "Skin" mode; False for Pipe mode. 
 # 
-# * intersection: collective offset
+# * intersection   * collective offset
 # 
-# Returns: result of offsetting (wire or face or compound of those). Compounding
+# Returns   * result of offsetting (wire or face or compound of those). Compounding
 # structure follows that of source shape.
 }}
 

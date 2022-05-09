@@ -1,11 +1,11 @@
 # Arch Remove/ja
 ---
-- GuiCommand:/ja
-   Name:Arch Remove
-   Name/ja:Removeツール
-   MenuLocation:Arch -> Remove
-   Workbenches:[建築](Arch_Workbench/ja.md)
-   SeeAlso:[Arch Add](Arch_Add/ja.md)---
+- GuiCommand   */ja
+   Name   *Arch Remove
+   Name/ja   *Removeツール
+   MenuLocation   *Arch -> Remove
+   Workbenches   *[建築](Arch_Workbench/ja.md)
+   SeeAlso   *[Arch Add](Arch_Add/ja.md)---
 
 
 </div>
@@ -25,7 +25,7 @@ Removeツールは2種類の操作を提供します：
 
 The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 
-<img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Remove_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -48,7 +48,7 @@ The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px>
 
 -   Archオブジェクト内のサブコンポーネントを選択してください。**あるいは**
 -   減算されるオブジェクト（複数可）を選択してからそれらを減算するArchコンポーネントを選択してください（Archコンポーネントは最後に選択しなければなりません）
--   <img alt="" src=images/Arch_Remove.png  style="width:16px;"> **Remove**ボタンを押してください
+-   <img alt="" src=images/Arch_Remove.png  style="width   *16px;"> **Remove**ボタンを押してください
 
 
 </div>
@@ -66,7 +66,7 @@ Or
 
 </div>
 
-The Remove tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The Remove tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 removeComponents(objectsList, host=None)
 ```
@@ -74,14 +74,14 @@ removeComponents(objectsList, host=None)
 -   Removes the given objects in `objectsList` from their parents.
 -   If a `host` object is specified, this function will try adding the objects in `objectsList` as holes to the `host`.
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft, Arch
 
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

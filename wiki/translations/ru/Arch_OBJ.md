@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-В дополнение к стандартному экспортировщику файлов [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) FreeCAD, [модуль Arch](Arch_Workbench/ru.md) содержит альтернативный экспортёр, который экспортирует сопланарные поверхности как полные поверхности OBJ, вместо триангуляции объектов [Shape](Part_Workbench/ru.md), как делает стандартный экспортёр.
+В дополнение к стандартному экспортировщику файлов [OBJ](http   *//en.wikipedia.org/wiki/Wavefront_.obj_file) FreeCAD, [модуль Arch](Arch_Workbench/ru.md) содержит альтернативный экспортёр, который экспортирует сопланарные поверхности как полные поверхности OBJ, вместо триангуляции объектов [Shape](Part_Workbench/ru.md), как делает стандартный экспортёр.
 
 
 </div>
@@ -37,10 +37,10 @@ mesh = MeshPart.meshFromShape(Shape=shape, LinearDeflection=0.1, Segments=True)
 
 face_colors = [(0, 0, 0)] * mesh.CountFacets
 
-for i in range(mesh.countSegments()):
+for i in range(mesh.countSegments())   *
     color = shape_colors[i]
     segm = mesh.getSegment(i)
-    for j in segm:
+    for j in segm   *
         face_colors[j] = color
 
 mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
@@ -48,7 +48,7 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 ## More information 
 
--   [Convert STEP to Wavefront OBJ with colors of faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452)
+-   [Convert STEP to Wavefront OBJ with colors of faces](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=37452)
 
 ## Tutorials
 
@@ -71,6 +71,11 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 
 </div>
+
+
+ 
+
+[Category   *File Formats](Category_File_Formats.md)
 
 
 

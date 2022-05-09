@@ -1,6 +1,6 @@
 # FEM ConstraintSelfWeight/ro
 ---
-- GuiCommand:/ro   Name:FEM ConstraintSelfWeight   Name/ro:FEM ConstraintSelfWeight   MenuLocation:Model → Mechanical Constraints → Constraint self weight   |Workbenches:[Shortcut:C,W   SeeAlso:[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
+- GuiCommand   */ro   Name   *FEM ConstraintSelfWeight   Name/ro   *FEM ConstraintSelfWeight   MenuLocation   *Model → Mechanical Constraints → Constraint self weight   |Workbenches   *[Shortcut   *C,W   SeeAlso   *[[FEM_tutorial/ro|FEM tutorial](FEM_Workbench/ro___FEM]].md)---
 
 
 </div>
@@ -20,7 +20,7 @@ Constrângerea greutății proprii este definită de către accelerația gravita
 
 <div class="mw-translate-fuzzy">
 
-1.  Click pe <img alt="" src=images/FEM_ConstraintSelfWeight.png  style="width:32px;"> sau alegeți **Model** → **Mechanical Constraints** → **<img src="images/FEM_ConstraintSelfWeight.png" width=32px> Constraint self weight** din meniul de sus sau apăsați tastele **C** apoi **W**.
+1.  Click pe <img alt="" src=images/FEM_ConstraintSelfWeight.png  style="width   *32px;"> sau alegeți **Model** → **Mechanical Constraints** → **<img src="images/FEM_ConstraintSelfWeight.png" width=32px> Constraint self weight** din meniul de sus sau apăsați tastele **C** apoi **W**.
 2.  Puteți modifica direcția gravitației schimbând coordonatele sale vectoriale în bara de proprietăți a obiectului nou creat ConstraintSelfWeight.
 
 
@@ -58,7 +58,7 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [(obje
 
 <div class="mw-translate-fuzzy">
 
--   examplu:
+-   examplu   *
 
 
 </div>
@@ -102,7 +102,7 @@ Accelerarea constantă poate fi modificată prin modificarea manuală după gene
 
 <div class="mw-translate-fuzzy">
 
-Example of lines in .inp file: 
+Example of lines in .inp file   * 
 ```python
 *DLOAD
 Eall,GRAV,9810,0.0,0.0,-1.0

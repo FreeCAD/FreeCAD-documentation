@@ -1,17 +1,19 @@
 ---
-- GuiCommand:/ro
-   Name:Part Loft
-   Name/ro:Part Loft
-   MenuLocation:Part → Loft...
+- GuiCommand   */ro
+   Name   *Part Loft
+   Name/ro   *Part Loft
+   MenuLocation   *Part → Loft...
 |
-   Workbenches:[Part](Part_Workbench/ro.md)
-   SeeAlso:[Part Sweep](Part_Sweep/ro.md)
+   Workbenches   *[Part](Part_Workbench/ro.md)
+   SeeAlso   *[Part Sweep](Part_Sweep/ro.md)
 ---
 
 # Part Loft/ro
 
 
 </div>
+
+## Overview
 
 
 <div class="mw-translate-fuzzy">
@@ -42,7 +44,7 @@ Dacă \"Solid\" are valoarea \"true\" FreeCAD creează un solid dacă profilele 
 
 <div class="mw-translate-fuzzy">
 
-Dacă este true\" , \"Ruled\" FreeCAD creează o fațetă, fațetele sau solidele din suprafețele riglate. [Ruled surface page on Wikipedia.](http://en.wikipedia.org/wiki/Ruled_surface)
+Dacă este true\" , \"Ruled\" FreeCAD creează o fațetă, fațetele sau solidele din suprafețele riglate. [Ruled surface page on Wikipedia.](http   *//en.wikipedia.org/wiki/Ruled_surface)
 
 
 </div>
@@ -64,6 +66,12 @@ Pentru mai multe informații supra modului cum profilele sunt legate împreună 
 
 
 </div>
+
+## Notes
+
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
+
+## Limitations and complications 
 
 
 <div class="mw-translate-fuzzy">
@@ -110,16 +118,24 @@ Pentru mai multe informații supra modului cum profilele sunt legate împreună 
 
 </div>
 
+## An example Loft 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Un exemplu de Loft 
 
 Instrumentul Loft este în Atelierul Part Workbench, meniul Part -\> Loft\... sau via iconița din bara de instrumente.
+
+
+</div>
 
 ![](images/Part_Loft_Ikon_Ballon_Hilfe.png )
 
 
 <div class="mw-translate-fuzzy">
 
-In the \"Tasks\" will be two lists: \"node / wire\" and \"free form\".
+In the \"Tasks\" will be two lists   * \"node / wire\" and \"free form\".
 
 
 </div>
@@ -153,10 +169,12 @@ The selected items must be of the same type.
 
 <div class="mw-translate-fuzzy">
 
-Tip: the active / selected items in the list are displayed in the 3D area as active / selected.
+Tip   * the active / selected items in the list are displayed in the 3D area as active / selected.
 
 
 </div>
+
+### Command complete 
 
 
 <div class="mw-translate-fuzzy">
@@ -170,9 +188,17 @@ Dacă sunt selectate ambele elemente, comanda poate fi completată cu \"OK\".
 
 ![](images/Part_Loft_Liste_Auswahl_3d.png )
 
+### Result
+
+
+<div class="mw-translate-fuzzy">
+
 ## Rezultat
 
 Din liniile închise obținem suprafețe care ar putea fi luate ca un aspect superficial pentru solide.
+
+
+</div>
 
 ![](images/Part_Loft_geschlossen.png )
 

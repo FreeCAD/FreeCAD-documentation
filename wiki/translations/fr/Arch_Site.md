@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Site
-   Name/fr:Arch Site
-   MenuLocation:Arch → Site
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**S** **I**
-   SeeAlso:[Arch Niveaux](Arch_Floor/fr.md), [Arch Bâtiment](Arch_Building/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Site
+   Name/fr   *Arch Site
+   MenuLocation   *Arch → Site
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   Shortcut   ***S** **I**
+   SeeAlso   *[Arch Niveaux](Arch_Floor/fr.md), [Arch Bâtiment](Arch_Building/fr.md)
 ---
 
 # Arch Site/fr
@@ -31,53 +31,53 @@
 
 ### Données
 
--    **Terrain**: Le terrain de base du site
+-    **Terrain**   * Le terrain de base du site
 
--    **Address**: L\'adresse du site (rue numéro)
+-    **Address**   * L\'adresse du site (rue numéro)
 
--    **Postal Code**: Le code postal
+-    **Postal Code**   * Le code postal
 
--    **City**: La ville du site
+-    **City**   * La ville du site
 
--    **Country**: Le pays du site
+-    **Country**   * Le pays du site
 
--    **Latitude**: La latitude du site
+-    **Latitude**   * La latitude du site
 
--    **Longitude**: La longitude du site
+-    **Longitude**   * La longitude du site
 
--    **Url**: L\'adresse URL du site sur une carte web
+-    **Url**   * L\'adresse URL du site sur une carte web
 
--    **Projected Area**: La surface de projection de l'objet dans le plan XY
+-    **Projected Area**   * La surface de projection de l'objet dans le plan XY
 
--    **Perimeter**: La longueur du périmètre du terrain
+-    **Perimeter**   * La longueur du périmètre du terrain
 
--    **Addition Volume**: Le volume de terre a ajouter dans le terrain
+-    **Addition Volume**   * Le volume de terre a ajouter dans le terrain
 
--    **Subtraction Volume**: Le volume de terre a soustraire du terrain
+-    **Subtraction Volume**   * Le volume de terre a soustraire du terrain
 
--    **Extrusion Vector**: Le vecteur d\'extrusion a utiliser pour une opéraion booléenne
+-    **Extrusion Vector**   * Le vecteur d\'extrusion a utiliser pour une opéraion booléenne
 
--    **Remove Splitter**: Efface le splitter de la forme résultante
+-    **Remove Splitter**   * Efface le splitter de la forme résultante
 
--    **Declination**: L'angle entre le nord vrai et le nord dans ce document, c'est-à-dire l'axe des Y. {{version/fr|0.18}} Cela signifie que par défaut (déclinaison de 0 degré) le Nord pointe vers l'axe Y et est vers l'est dans l\'Axe X; l\'angle est incrémenté dans les sens contraire des aiguilles d\'une montre. Cette propriété était connue auparavant comme une **North Deviation**.
+-    **Declination**   * L'angle entre le nord vrai et le nord dans ce document, c'est-à-dire l'axe des Y. {{version/fr|0.18}} Cela signifie que par défaut (déclinaison de 0 degré) le Nord pointe vers l'axe Y et est vers l'est dans l\'Axe X; l\'angle est incrémenté dans les sens contraire des aiguilles d\'une montre. Cette propriété était connue auparavant comme une **North Deviation**.
 
--    **EPW File**: Permet de joindre à ce site un fichier EPW provenant du [site Ladybug données EPW](https://www.ladybug.tools/epwmap/). Ceci est nécessaire pour afficher les diagrammes de la rose des vents. {{version/fr|0.19}}
+-    **EPW File**   * Permet de joindre à ce site un fichier EPW provenant du [site Ladybug données EPW](https   *//www.ladybug.tools/epwmap/). Ceci est nécessaire pour afficher les diagrammes de la rose des vents. {{version/fr|0.19}}
 
 ### Vue
 
--    **Solar Diagram**: Affiche ou cache le diagramme du soleil
+-    **Solar Diagram**   * Affiche ou cache le diagramme du soleil
 
--    **Solar Diagram Color**: La couleur du diagramme du soleil
+-    **Solar Diagram Color**   * La couleur du diagramme du soleil
 
--    **Solar Diagram Position**: La position du diagramme du soleil
+-    **Solar Diagram Position**   * La position du diagramme du soleil
 
--    **Solar Diagram Scale**: L\'échelle du diagramme du soleil
+-    **Solar Diagram Scale**   * L\'échelle du diagramme du soleil
 
--    **Wind Rose**: Affiche ou masque le diagramme de la rose des vents (nécessite que la propriété de données **EPW File** soit remplie et que le module Python de Ladybug soit installé (voir ci-dessous)
+-    **Wind Rose**   * Affiche ou masque le diagramme de la rose des vents (nécessite que la propriété de données **EPW File** soit remplie et que le module Python de Ladybug soit installé (voir ci-dessous)
 
 ## Travail typique 
 
-Commencez par créer un objet qui représente votre terrain. Ce doit être une surface ouverte pas un solide. Par exemple, il est facile d\'importer des données de maillage, qui peuvent être transformées en une forme de pièce à partir du menu **Part → Créer une forme à partir d'un maillage**. Créez ensuite un objet Site et définissez sa propriété **Terrain** sur la pièce que nous venons de créer:
+Commencez par créer un objet qui représente votre terrain. Ce doit être une surface ouverte pas un solide. Par exemple, il est facile d\'importer des données de maillage, qui peuvent être transformées en une forme de pièce à partir du menu **Part → Créer une forme à partir d'un maillage**. Créez ensuite un objet Site et définissez sa propriété **Terrain** sur la pièce que nous venons de créer   *
 
 ![](images/Arch_site_example_01.jpg )
 
@@ -91,20 +91,20 @@ La géométrie du site est alors calculée, les surfaces les périmètres et vol
 
 ## Diagrammes solaires et éoliens 
 
-Si [Ladybug](https://www.ladybug.tools/ladybug.html) est installé, [Arch Site](Arch_Site/fr.md) peut afficher un diagramme solaire et/ou une rose des vents. Pour cela, les propriétés **Longitude**, **Latitude** et **NorthDeviation** doivent être correctement définies et {{PropertyView/fr|SolarDiagram}} ou {{PropertyView/fr|Wind Rose}} activée `True`. Respectivement {{Version/fr|0.17}} et {{Version/fr|0.19}}
+Si [Ladybug](https   *//www.ladybug.tools/ladybug.html) est installé, [Arch Site](Arch_Site/fr.md) peut afficher un diagramme solaire et/ou une rose des vents. Pour cela, les propriétés **Longitude**, **Latitude** et **NorthDeviation** doivent être correctement définies et {{PropertyView/fr|SolarDiagram}} ou {{PropertyView/fr|Wind Rose}} activée `True`. Respectivement {{Version/fr|0.17}} et {{Version/fr|0.19}}
 
-**Remarque**: Si vous n\'avez pas Ladybug, [pysolar](http://pysolar.org/) est toujours pris en charge pour générer des diagrammes solaires mais pas les roses des vents. Pysolar 0.7 ou supérieur est requis. Cette version ne fonctionne qu\'avec Python 3. Si vous avez besoin de cette fonctionnalité avec Python 2, vous devriez avoir Pysolar 0.6 car c\'est la dernière version qui fonctionne avec Python 2. Cependant, Ladybug est un outil beaucoup plus puissant qui sera probablement plus utilisé dans l\'avenir. Nous vous recommandons donc de l\'utiliser au lieu de pysolar. Ladybug peut être installé simplement via [pip](https://github.com/ladybug-tools/ladybug).
+**Remarque**   * Si vous n\'avez pas Ladybug, [pysolar](http   *//pysolar.org/) est toujours pris en charge pour générer des diagrammes solaires mais pas les roses des vents. Pysolar 0.7 ou supérieur est requis. Cette version ne fonctionne qu\'avec Python 3. Si vous avez besoin de cette fonctionnalité avec Python 2, vous devriez avoir Pysolar 0.6 car c\'est la dernière version qui fonctionne avec Python 2. Cependant, Ladybug est un outil beaucoup plus puissant qui sera probablement plus utilisé dans l\'avenir. Nous vous recommandons donc de l\'utiliser au lieu de pysolar. Ladybug peut être installé simplement via [pip](https   *//github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Site est utilisable dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
+L\'outil Site est utilisable dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante    *
 
 
 ```python
@@ -113,7 +113,7 @@ Site = makeSite(objectslist=None, baseobj=None, name="Site")
 
 -   Crée un objet `Site` à partir de `objectlist` qui est une liste d\'objets ou `baseobj` qui est un `Shape` ou `Terrain`.
 
-Exemple: 
+Exemple   * 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -156,7 +156,7 @@ Node = makeSolarDiagram(longitude, latitude, scale=1, complete=False)
 ```
 
 -   Crée un diagramme solaire en tant que nœud Pivy en utilisant `longitude` et `latitude` avec `scale` facultatif.
--   Si `complete` est mis à `True`, les 12 mois sont montrés ce qui affiche l\'[Analemme](https://fr.wikipedia.org/wiki/Analemme).
+-   Si `complete` est mis à `True`, les 12 mois sont montrés ce qui affiche l\'[Analemme](https   *//fr.wikipedia.org/wiki/Analemme).
 
 
 ```python

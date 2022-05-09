@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw Dimension Horizontal
-   Name/de:TechDraw MaßHorizontal
-   MenuLocation:TechDraw → Bemaßungen → Horizontales Maß einfügen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Shortcut:**Shift** + **H**
-   SeeAlso:[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md)
+- GuiCommand   */de
+   Name   *TechDraw Dimension Horizontal
+   Name/de   *TechDraw MaßHorizontal
+   MenuLocation   *TechDraw → Bemaßungen → Horizontales Maß einfügen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   Shortcut   ***Shift** + **H**
+   SeeAlso   *[TechDraw Längenmaß](TechDraw_LengthDimension/de.md), [TechDraw MaßVertikal](TechDraw_VerticalDimension/de.md)
 ---
 
 # TechDraw HorizontalDimension/de
@@ -14,7 +14,7 @@
 
 Das Werkzeug MaßHorizontal fügt einer Ansicht ein horizontales Maß hinzu. Das Maß kann zwischen zwei Eckpunkten liegen, die Länge einer Kante oder der horizontale Abstand zwischen zwei Kanten sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), kann aber unter Verwendung des Werkzeugs **<img src="images/TechDraw_LinkDimension.svg" width=16px> [MaßVerknüpfen](TechDraw_LinkDimension/de.md)** auf den eigentlichen 3D-Abstand geändert werden.
 
-<img alt="" src=images/TechDraw_Dimension_Horizontal_example.png  style="width:200px;"> 
+<img alt="" src=images/TechDraw_Dimension_Horizontal_example.png  style="width   *200px;"> 
 *Längenbemaßung zweier beliebiger Knoten der Ansicht, der Abstand wird in horizontaler Richtung gemessen*
 
 ## Anwendung
@@ -37,15 +37,15 @@ Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md).
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug MaßHorizontal kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
+Das Werkzeug MaßHorizontal kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden   *
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewDimension','Dimension')
 dim1.Type = "DistanceX"
 dim1.References2D=[(view1, 'Edge1')]
 rc = page.addView(dim1)

@@ -1,17 +1,17 @@
 ---
-- GuiCommand:
-   Name:Sketcher Create3PointArc
-   MenuLocation:Sketch → Sketcher geometries → Create Arc by three points
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Shortcut:**G** **3** **A**
-   SeeAlso:
+- GuiCommand   *
+   Name   *Sketcher Create3PointArc
+   MenuLocation   *Sketch → Sketcher geometries → Create Arc by three points
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+   Shortcut   ***G** **3** **A**
+   SeeAlso   *
 ---
 
 # Sketcher Create3PointArc
 
 ## Description
 
-This tool draws an arc by picking three points: the start point, the end point and a point on the arc.
+This tool draws an arc by picking three points   * the start point, the end point and a point on the arc.
 
 ## Usage
 

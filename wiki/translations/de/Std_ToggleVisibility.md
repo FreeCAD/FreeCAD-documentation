@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std ToggleVisibility
-   Name/de:Std SichtbarkeitUmschalten
-   MenuLocation:Ansicht → Ein/Ausblenden
-   Workbenches:Alle
-   Shortcut:**Space**
-   SeeAlso:[Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection/de.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
+- GuiCommand   */de
+   Name   *Std ToggleVisibility
+   Name/de   *Std SichtbarkeitUmschalten
+   MenuLocation   *Ansicht → Ein/Ausblenden
+   Workbenches   *Alle
+   Shortcut   ***Space**
+   SeeAlso   *[Std AuswahlEinblenden](Std_ShowSelection/de.md), [Std AuswahlAusblenden](Std_HideSelection/de.md), [Std ObjekteUmschalten](Std_ToggleObjects/de.md), [Std ObjekteEinblenden](Std_ShowObjects/de.md), [Std ObjekteAusblenden](Std_HideObjects/de.md)
 ---
 
 # Std ToggleVisibility/de
@@ -39,7 +39,7 @@ Der Befehl **Std SichtbarkeitUmschalten** schaltet die Sichtbarkeit von ausgewä
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -51,9 +51,9 @@ import FreeCADGui
 
 obj = FreeCADGui.ActiveDocument.myObjectName
 
-if obj.Visibility == True:
+if obj.Visibility == True   *
   obj.hide()
-else:
+else   *
   obj.show()
 ```
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Part_Chamfer
-   Name/fr:Part Chanfrein
-   MenuLocation:Part → Chanfrein
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Congé](Part_Fillet/fr.md)
+- GuiCommand   */fr
+   Name   *Part_Chamfer
+   Name/fr   *Part Chanfrein
+   MenuLocation   *Part → Chanfrein
+   Workbenches   *[Part](Part_Workbench/fr.md)
+   SeeAlso   *[Part Congé](Part_Fillet/fr.md)
 ---
 
 # Part Chamfer/fr
@@ -17,7 +17,7 @@ Chanfreine le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vo
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande :
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Part_Chamfer.svg" width=16px> Chanfreiner les arêtes...**.
     -   Sélectionnez l\'option **Part → Chanfrein** dans le menu.
 2.  Sélectionnez la forme à chanfreiner dans la boîte de dialogue.
@@ -41,33 +41,33 @@ Chanfreine le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vo
 
 {{Properties_Title|Base}}
 
--    **Base**: La forme sur laquelle le chanfrein doit être appliqué.
+-    **Base**   * La forme sur laquelle le chanfrein doit être appliqué.
 
--    **Placement**: Spécifie l\'orientation et la position de la forme dans l\'espace 3D.
+-    **Placement**   * Spécifie l\'orientation et la position de la forme dans l\'espace 3D.
 
--    **Label**: Etiquette donnée à l\'objet. Changer en fonction de vos besoins.
+-    **Label**   * Etiquette donnée à l\'objet. Changer en fonction de vos besoins.
 
 
 
 
 ## Limitations
 
-Le chanfrein peut ne rien faire si le résultat touche ou traverse le bord adjacent suivant. Donc, si vous n\'obtenez pas le résultat attendu, essayez avec une valeur inférieure. C\'est pareil pour <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Congé](Part_Fillet/fr.md).
+Le chanfrein peut ne rien faire si le résultat touche ou traverse le bord adjacent suivant. Donc, si vous n\'obtenez pas le résultat attendu, essayez avec une valeur inférieure. C\'est pareil pour <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> [Part Congé](Part_Fillet/fr.md).
 
-Notez également que la fonction Chanfrein est affectée par le [problème de nommage topologique](Topological_naming_problem/fr.md) lorsque toute modification est apportée à une étape de modélisation plus tôt dans la chaîne qui affecte le nombre de facettes ou de sommets. Cela pourrait entraîner des résultats imprévisibles. En attendant que cela soit résolu (éventuellement avec V0.20), il est conseillé d'appliquer les opérations Chanfrein et <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Congé](Part_Fillet/fr.md) aux dernières étapes de la chaîne.
+Notez également que la fonction Chanfrein est affectée par le [problème de nommage topologique](Topological_naming_problem/fr.md) lorsque toute modification est apportée à une étape de modélisation plus tôt dans la chaîne qui affecte le nombre de facettes ou de sommets. Cela pourrait entraîner des résultats imprévisibles. En attendant que cela soit résolu (éventuellement avec V0.20), il est conseillé d'appliquer les opérations Chanfrein et <img alt="" src=images/Part_Fillet.svg  style="width   *24px;"> [Congé](Part_Fillet/fr.md) aux dernières étapes de la chaîne.
 
 ## Script
 
 L\'outil Chanfrein peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en ajoutant un objet Chanfrein au document.
 
-**Exemple de Script:**
+**Exemple de Script   ***
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
-chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
 chmfr.Base = FreeCAD.ActiveDocument.myCube
 myEdges = []
 myEdges.append((1, 1.5, 1.25)) # (edge number, chamfer start length, chamfer end length)
@@ -87,12 +87,12 @@ FreeCADGui.ActiveDocument.myCube.Visibility = False
 FreeCAD.ActiveDocument.recompute()
 ```
 
-**Explication de l\'exemple de Script :**
+**Explication de l\'exemple de Script    ***
 
 
 ```python
 import Part
-cube = FreeCAD.ActiveDocument.addObject("Part::Feature", "myCube")
+cube = FreeCAD.ActiveDocument.addObject("Part   *   *Feature", "myCube")
 cube.Shape = Part.makeBox(5, 5, 5)
 ```
 
@@ -100,7 +100,7 @@ cube.Shape = Part.makeBox(5, 5, 5)
 
 
 ```python
-chmfr = FreeCAD.ActiveDocument.addObject("Part::Chamfer", "myChamfer")
+chmfr = FreeCAD.ActiveDocument.addObject("Part   *   *Chamfer", "myChamfer")
 ```
 
 -   Ajoute un nouvel objet au document de type Chanfrein (de l\'atelier Part) avec le libellé \"myChamfer\".

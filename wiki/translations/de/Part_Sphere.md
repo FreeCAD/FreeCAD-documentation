@@ -1,21 +1,21 @@
 ---
-- GuiCommand:/de
-   Name:Part Sphere
-   Name/de:Part Kugel
-   MenuLocation:Part → Grundkörper → Kugel
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Grundelemente](Part_Primitives/de.md)
+- GuiCommand   */de
+   Name   *Part Sphere
+   Name/de   *Part Kugel
+   MenuLocation   *Part → Grundkörper → Kugel
+   Workbenches   *[Part](Part_Workbench/de.md)
+   SeeAlso   *[Part Grundelemente](Part_Primitives/de.md)
 ---
 
 # Part Sphere/de
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> **Part Kugel** erstellt einen parametrischen Volumenkörper, eine Kugel. Sie ist das Ergebnis der Drehung eines Kreisbogens um eine Achse. Im Koordinatensystem durch ihre {{PropertyData/de|Placement}} festgelegt, liegt ihr Mittelpunkt im Ursprung und Ihre Drehachse ist die Z-Achse.
+Der Befehl <img alt="" src=images/Part_Sphere.svg  style="width   *24px;"> **Part Kugel** erstellt einen parametrischen Volumenkörper, eine Kugel. Sie ist das Ergebnis der Drehung eines Kreisbogens um eine Achse. Im Koordinatensystem durch ihre {{PropertyData/de|Placement}} festgelegt, liegt ihr Mittelpunkt im Ursprung und Ihre Drehachse ist die Z-Achse.
 
 Eine Part-Kugel kann oben und/oder unten beschnitten werden, indem man die {{PropertyData/de|Angle1}} und die {{PropertyData/de|Angle2}} ändert (die Winkel vom Äquator in Richtung der Pole). Sie kann in ein Kugelsegment gewandelt werden, durch Änderung der {{PropertyData/de|Angle3}} (Umfangswinkel).
 
-<img alt="" src=images/Part_Sphere_Example.png  style="width:400px;">
+<img alt="" src=images/Part_Sphere_Example.png  style="width   *400px;">
 
 ## Anwendung
 
@@ -24,7 +24,7 @@ Eine Part-Kugel kann oben und/oder unten beschnitten werden, indem man die {{Pro
 
 ## Anwendung 
 
-Klicke im Arbeitsbereich [Part](Part_Workbench/de.md) auf das Kugelsymbol <img alt="" src=images/Part_Sphere.svg  style="width:24px;">. Die Kugel wird bei der Erstellung am Ursprung (Punkt 0,0,0) positioniert. Die Winkelparameter erlauben es, einen Teil der Kugel statt einer Vollkugel zu erstellen (sie sind standardmäßig auf 360° eingestellt).
+Klicke im Arbeitsbereich [Part](Part_Workbench/de.md) auf das Kugelsymbol <img alt="" src=images/Part_Sphere.svg  style="width   *24px;">. Die Kugel wird bei der Erstellung am Ursprung (Punkt 0,0,0) positioniert. Die Winkelparameter erlauben es, einen Teil der Kugel statt einer Vollkugel zu erstellen (sie sind standardmäßig auf 360° eingestellt).
 
 
 </div>
@@ -37,13 +37,13 @@ Ein Part-Kugel-Objekt, das mit dem [Skriptbeispiel](#Skripten.md) weiter unten e
 
 ## Hinweise
 
--   A Part Sphere can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+-   A Part Sphere can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width   *16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
 
 ## Eigenschaften
 
-See also: [Property editor](Property_editor.md).
+See also   * [Property editor](Property_editor.md).
 
-Ein Part-Kugel-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+Ein Part-Kugel-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften   *
 
 ### Daten
 
@@ -55,29 +55,29 @@ The object has the same attachment properties as a [Part Part2DObject](Part_Part
 
 {{TitleProperty|Kugel}}
 
--    **Radius|Length**: The radius of the sphere. The default is {{Value|5mm}}.
+-    **Radius|Length**   * The radius of the sphere. The default is {{Value|5mm}}.
 
--    **Angle1|Angle**: The start angle of the circular arc profile of the sphere. Valid range: {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. May not be equal to **Angle2**. The default is {{Value|-90°}}.
+-    **Angle1|Angle**   * The start angle of the circular arc profile of the sphere. Valid range   * {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. May not be equal to **Angle2**. The default is {{Value|-90°}}.
 
--    **Angle2|Angle**: The end angle of the circular arc profile of the sphere. Valid range: {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. May not be equal to **Angle1**. The default is {{Value|90°}}. If the total angle of the arc profile is smaller than {{Value|180°}} the sphere will be truncated and have a flat face at the top and/or bottom.
+-    **Angle2|Angle**   * The end angle of the circular arc profile of the sphere. Valid range   * {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. May not be equal to **Angle1**. The default is {{Value|90°}}. If the total angle of the arc profile is smaller than {{Value|180°}} the sphere will be truncated and have a flat face at the top and/or bottom.
 
--    **Angle3|Angle**: The total angle of revolution of the sphere. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a sphere.
+-    **Angle3|Angle**   * The total angle of revolution of the sphere. Valid range   * {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a sphere.
 
 ## Skripten
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Sphere can be created with the {{Incode|addObject()}} method of the document:
+A Part Sphere can be created with the {{Incode|addObject()}} method of the document   *
 
 
 ```python
-sphere = FreeCAD.ActiveDocument.addObject("Part::Sphere", "mySphere")
+sphere = FreeCAD.ActiveDocument.addObject("Part   *   *Sphere", "mySphere")
 ```
 
 -   Where {{Incode|"mySphere"}} is the name for the object.
 -   The function returns the newly created object.
 
-Beispiel:
+Beispiel   *
 
 
 ```python
@@ -85,7 +85,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-sphere = doc.addObject("Part::Sphere", "mySphere")
+sphere = doc.addObject("Part   *   *Sphere", "mySphere")
 sphere.Radius = 20
 sphere.Angle1 = -30
 sphere.Angle2 = 45

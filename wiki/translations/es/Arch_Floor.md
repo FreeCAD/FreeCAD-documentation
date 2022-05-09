@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Arch Floor
-   Name/es:Arch Floor
-   Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)
-   MenuLocation:Arquitectura → Piso
-   Shortcut:**F** **L**
-   SeeAlso:
+- GuiCommand   */es
+   Name   *Arch Floor
+   Name/es   *Arch Floor
+   Workbenches   *[Entorno de Arquitectura](Arch_Workbench/es.md)
+   MenuLocation   *Arquitectura → Piso
+   Shortcut   ***F** **L**
+   SeeAlso   *
 ---
 
 # Arch Floor/es
@@ -36,8 +36,8 @@ As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch 
 
 <div class="mw-translate-fuzzy">
 
--   Después de la creación de un piso, puedes añadirle más objetos arrastrando y soltándolos en la vista en árbol o utilizando la herramienta <img alt="" src=images/Arch_Add.png  style="width:16px;"> [Añadir](Arch_Add/es.md)
--   Puedes eliminar objetos de un piso arrastrando y soltándolos fuera en la vista de árbol o utilizando la herramienta <img alt="" src=images/Arch_Remove.png  style="width:16px;"> [Remover](Arch_Remove/es.md)
+-   Después de la creación de un piso, puedes añadirle más objetos arrastrando y soltándolos en la vista en árbol o utilizando la herramienta <img alt="" src=images/Arch_Add.png  style="width   *16px;"> [Añadir](Arch_Add/es.md)
+-   Puedes eliminar objetos de un piso arrastrando y soltándolos fuera en la vista de árbol o utilizando la herramienta <img alt="" src=images/Arch_Remove.png  style="width   *16px;"> [Remover](Arch_Remove/es.md)
 
 
 </div>
@@ -57,7 +57,7 @@ An Arch Floor object shares all properties from an [Arch BuildingPart](Arch_Buil
 
 <div class="mw-translate-fuzzy">
 
-La herramientas piso se puede utilizar en [macros](macros/es.md) y desde la consola de Python utilizando las siguiente funcion:
+La herramientas piso se puede utilizar en [macros](macros/es.md) y desde la consola de Python utilizando las siguiente funcion   *
 
 
 </div>
@@ -71,12 +71,12 @@ Floor = makeFloor(objectslist=None, baseobj=None, name="Floor")
 <div class="mw-translate-fuzzy">
 
 
-:   Crea un piso incluyendo los objetos de la lista dada.
+   *   Crea un piso incluyendo los objetos de la lista dada.
 
 
 </div>
 
-Ejemplo:
+Ejemplo   *
 
 
 ```python

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Part Mirror
-   MenuLocation:Part → Mirror
-   Workbenches:[Part](Part_Workbench.md)
+- GuiCommand   *
+   Name   *Part Mirror
+   MenuLocation   *Part → Mirror
+   Workbenches   *[Part](Part_Workbench.md)
 ---
 
 # Part Mirror
@@ -11,9 +11,7 @@
 
 \'Mirror Object\' - This tool creates a new object (image) which is a reflection of the original object (source). The image object is created behind a mirror plane. The mirror plane may be standard plane (**XY**, **YZ**, or **XZ**), or any plane parallel to a standard plane.
 
-[App Link](App_Link.md) objects linked to the proper object types and [App Part](App_Part.md) containers with the proper visible objects inside may also be used as sources for mirroring. <small>(v0.20)</small> 
-
-An example:
+An example   *
 
 ![Before](images/PARTMirrorBeforev11.png )
 
@@ -42,8 +40,9 @@ The **Base point** boxes can be used to move the mirror plane parallel to the se
   **YZ**           **X**            Move mirror plane along **X** axis.
   **YZ**           **Y**, **Z**     No effect.
 
-## Limitations
+## Notes
 
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
 -   Arbitrary mirror planes (ie not parallel to a standard plane) are not supported.
 
 

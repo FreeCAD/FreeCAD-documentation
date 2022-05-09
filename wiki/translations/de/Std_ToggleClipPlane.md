@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Std ToggleClipPlane
-   Name/de:Std Schnittebene
-   MenuLocation:Ansicht → Schnittebene
-   Workbenches:Alle
-   SeeAlso:[Part Ausschnitt](Part_SectionCut/de.md)
+- GuiCommand   */de
+   Name   *Std ToggleClipPlane
+   Name/de   *Std Schnittebene
+   MenuLocation   *Ansicht → Schnittebene
+   Workbenches   *Alle
+   SeeAlso   *[Part Ausschnitt](Part_SectionCut/de.md)
 ---
 
 # Std ToggleClipPlane/de
@@ -22,13 +22,13 @@ Der Befehl **Std Schnittebene** blendet Objekte und Teile von Objekten aus, die 
 ## Anwendung
 
 1.  Menüeintrag **Ansicht → <img src="images/Std_ToggleClipPlane.svg" width=16px> Schnittebene** auswählen.
-2.  Im Aufgabenbereich Clipping hat man folgende Möglichkeiten:
+2.  Im Aufgabenbereich Clipping hat man folgende Möglichkeiten   *
     -   Eine oder mehrere der Checkboxen {{CheckBox|TRUE|Abschneiden in X}} bis {{CheckBox|TRUE| Abschneiden in Z}} aktivieren.
         -   Bei Bedarf die Abstandswerte ändern.
         -   Bei Bedarf die jeweilige Schaltfläche **Flip** drücken, um die Seite zu Wählen, auf der die Objekte ausgeblendet werden.
     -   Checkbox {{CheckBox|TRUE|Abschneiden in benutzerdefinierterRichtung}} aktivieren.
         -   Bei Bedarf die Abstandswert ändern.
-        -   Nun hat man diese Möglichkeiten:
+        -   Nun hat man diese Möglichkeiten   *
             -   Schaltfläche **Ansicht** drücken, um die Richtung der aktuellen Ansicht zu verwenden.
             -   Checkbox {{CheckBox|TRUE|An Blickrichtung anpassen}} aktivieren, damit sich die Richtung dynamisch an Änderungen der Ansicht anpassen.
             -   Angabe einer Richtung durch Eingabe der X-, Y- und Z-Koordinaten eines Normalenvektors.
@@ -37,7 +37,7 @@ Der Befehl **Std Schnittebene** blendet Objekte und Teile von Objekten aus, die 
 
 ## Hinweise
 
--   Zur deutlichen Unterscheidung des Inneren der teilweise geschnittenen Objekte kann deren {{PropertyView/de|Lighting}} auf \'One side\' geändert werden. Die Farbe der Innenseite ihrer Flächen hängt dann von den Backlight-Einstellungen ab: **Bearbeiten → Einstellungen... → Display → 3D View → Backlight color - Intensity**. Siehe [Voreinstellungseditor](Preferences_Editor/de#3D-Ansicht.md).
+-   Zur deutlichen Unterscheidung des Inneren der teilweise geschnittenen Objekte kann deren {{PropertyView/de|Lighting}} auf \'One side\' geändert werden. Die Farbe der Innenseite ihrer Flächen hängt dann von den Backlight-Einstellungen ab   * **Bearbeiten → Einstellungen... → Display → 3D View → Backlight color - Intensity**. Siehe [Voreinstellungseditor](Preferences_Editor/de#3D-Ansicht.md).
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Rocket Fin
-   Name/fr:Rocket Aileron
-   MenuLocation:Rocket → Fin
-   Workbenches:[Rocket](Rocket_Workbench/fr.md)
-   Version:0.19
+- GuiCommand   */fr
+   Name   *Rocket Fin
+   Name/fr   *Rocket Aileron
+   MenuLocation   *Rocket → Fin
+   Workbenches   *[Rocket](Rocket_Workbench/fr.md)
+   Version   *0.19
 ---
 
 # Rocket Fin/fr
@@ -13,12 +13,12 @@
 
 Les ailerons sont utilisés pour contrôler aérodynamiquement la direction du vol.
 
-<img alt="" src=images/Nike_Fin_TTW_2.png  style="width:256px;"> 
+<img alt="" src=images/Nike_Fin_TTW_2.png  style="width   *256px;"> 
 *Un aileron conique avec une attache TTW*
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande:
+1.  Il existe plusieurs façons d\'appeler la commande   *
     -   Appuyez sur le bouton **<img src="images/Rocket_Fin.svg" width=16px> [Fin](Rocket_Fin/fr.md)**.
     -   Sélectionnez l\'option **Rocket  → <img src="images/Rocket_Fin.svg" width=16px> Fin** dans le menu.
     -   Double-cliquez sur un objet Fin dans la [Vue en arborescence](Tree_view/fr.md).
@@ -36,42 +36,42 @@ La forme en coupe d\'un aileron peut grandement affecter ses performances à dif
 
 -   Carré. Les bords avant et arrière sont au carré.
 
-<img alt="" src=images/CS_Square.png  style="width:128px;"> 
+<img alt="" src=images/CS_Square.png  style="width   *128px;"> 
 *Coupe transversale carrée *
 
 -   Rond. Les bords d\'attaque et de fuite sont arrondis.
 
-<img alt="" src=images/CS_Round.png  style="width:128px;"> 
+<img alt="" src=images/CS_Round.png  style="width   *128px;"> 
 *Coupe transversale ronde*
 
--   Profil aérodynamique. Utilise la forme aérodynamique symétrique du [Profil NACA](https://fr.wikipedia.org/wiki/Profil_NACA) avec une épaisseur maximale à 30% de la membrure.
+-   Profil aérodynamique. Utilise la forme aérodynamique symétrique du [Profil NACA](https   *//fr.wikipedia.org/wiki/Profil_NACA) avec une épaisseur maximale à 30% de la membrure.
 
-<img alt="" src=images/CS_Airfoil.png  style="width:128px;"> 
+<img alt="" src=images/CS_Airfoil.png  style="width   *128px;"> 
 *Coupe transversale de profil aérodynamique*
 
 -   Cale. Le bord de fuite de l\'aileron est carré, convergeant vers un point du bord d\'attaque.
 
-<img alt="" src=images/CS_Wedge.png  style="width:128px;"> 
+<img alt="" src=images/CS_Wedge.png  style="width   *128px;"> 
 *Section transversale forme de cale*
 
 -   Diamant. La forme du losange commence à partir d\'un point sur le bord d\'attaque, directement jusqu\'à l\'épaisseur maximale en un point déterminé par **Length 1** et retourne à un point sur le bord de fuite.
 
-<img alt="" src=images/CS_Diamond.png  style="width:128px;"> 
+<img alt="" src=images/CS_Diamond.png  style="width   *128px;"> 
 *Section transversale en diamant*
 
 -   Cône du bord d\'attaque (LE). Le bord d\'attaque est effilé jusqu\'à un point déterminé par **Length 1**.
 
-<img alt="" src=images/LE_Taper.png  style="width:128px;"> 
+<img alt="" src=images/LE_Taper.png  style="width   *128px;"> 
 *Coupe transversale conique du bord avant*
 
 -   Cône du bord de fuite (TE). Le bord de fuite est effilé jusqu\'à un point déterminé par **Length 1**.
 
-<img alt="" src=images/TE_Taper.png  style="width:128px;"> 
+<img alt="" src=images/TE_Taper.png  style="width   *128px;"> 
 *Coupe transversale effilée du bord arrière*
 
 -   Biseau. Le bord avant est effilé jusqu\'à un point déterminé par **Length 1** et le bord arrière est effilé jusqu\'à un point déterminé par **Length 2**.
 
-<img alt="" src=images/CS_Taper.png  style="width:128px;"> 
+<img alt="" src=images/CS_Taper.png  style="width   *128px;"> 
 *Section transversale biseautée*
 
 ### Attaches à travers la paroi 
@@ -86,72 +86,80 @@ Les ailerons à travers la paroi (**Through the Wall = TTW**) ajoutent une rési
 
 {{TitleProperty|Fin}}
 
--    **Fin Type**: Définit la forme de l\'aileron. Pour l\'instant, seuls les ailerons trapézoïdaux sont pris en charge.
+-    **Fin Type**   * Définit la forme de l\'aileron. Pour l\'instant, seuls les ailerons trapézoïdaux sont pris en charge.
 
--    **Height**: La hauteur de l\'aileron.
+-    **Height**   * La hauteur de l\'aileron.
 
--    **Profile**:
+-    **Profile**   *
 
--    **Root Chord**: La distance entre le bord d\'attaque et le bord de fuite de l\'aileron à la racine.
+-    **Root Chord**   * La distance entre le bord d\'attaque et le bord de fuite de l\'aileron à la racine.
 
--    **Root Cross Section**: La forme de la section transversale de l\'aileron à l\'emplanture, voir [Options](#Options.md).
+-    **Root Cross Section**   * La forme de la section transversale de l\'aileron à l\'emplanture, voir [Options](#Options.md).
 
--    **Root Length 1**: L\'utilisation dépend de **Fin Root Cross Section** et s\'appliquera à une longueur conique ou similaire, voir [Options](#Options.md).
+-    **Root Length 1**   * L\'utilisation dépend de **Fin Root Cross Section** et s\'appliquera à une longueur conique ou similaire, voir [Options](#Options.md).
 
--    **Root Length 2**: L\'utilisation dépend de **Fin Root Cross Section** et s\'appliquera à une longueur conique ou similaire lorsque plusieurs valeurs sont requises, voir [Options](#Options.md).
+-    **Root Length 2**   * L\'utilisation dépend de **Fin Root Cross Section** et s\'appliquera à une longueur conique ou similaire lorsque plusieurs valeurs sont requises, voir [Options](#Options.md).
 
--    **Root Per Cent**: Exprime les propriétés **Fin Root Length 1** et **Fin Root Length 2** en pourcentage de la **Fin Root Chord**.
+-    **Root Per Cent**   * Exprime les propriétés **Fin Root Length 1** et **Fin Root Length 2** en pourcentage de la **Fin Root Chord**.
 
--    **Root Thickness**: Epaisseur maximale à la base de l\'aileron
+-    **Root Thickness**   * Epaisseur maximale à la base de l\'aileron
 
--    **Sweep Angle**: L\'angle de l\'avant de l\'aileron, un avant vertical étant égal à 0 degré. Cette valeur peut être négative. Le réglage de cette valeur entraînera l\'ajustement de **Sweep Length**.
+-    **Sweep Angle**   * L\'angle de l\'avant de l\'aileron, un avant vertical étant égal à 0 degré. Cette valeur peut être négative. Le réglage de cette valeur entraînera l\'ajustement de **Sweep Length**.
 
--    **Sweep Length**: La distance entre l\'avant de l\'emplanture de l\'aileron et l\'avant de l\'extrémité de l\'aileron le long de l\'axe x. Cette valeur peut être négative. Cette valeur peut être négative. Si vous définissez cette valeur, **Sweep Angle** sera ajusté.
+-    **Sweep Length**   * La distance entre l\'avant de l\'emplanture de l\'aileron et l\'avant de l\'extrémité de l\'aileron le long de l\'axe x. Cette valeur peut être négative. Cette valeur peut être négative. Si vous définissez cette valeur, **Sweep Angle** sera ajusté.
 
--    **Tip Chord**: La distance entre le bord d\'attaque et le bord de fuite de l\'aileron à l\'extrémité.
+-    **Tip Chord**   * La distance entre le bord d\'attaque et le bord de fuite de l\'aileron à l\'extrémité.
 
--    **Tip Cross Section**: La forme de la section transversale de l\'aileron à l\'extrémité, voir [Options](#Options.md).
+-    **Tip Cross Section**   * La forme de la section transversale de l\'aileron à l\'extrémité, voir [Options](#Options.md).
 
--    **Tip Length 1**: L\'utilisation dépend de la **Fin Tip Cross Section** et s\'applique à une longueur conique ou similaire, voir [Options](#Options.md).
+-    **Tip Length 1**   * L\'utilisation dépend de la **Fin Tip Cross Section** et s\'applique à une longueur conique ou similaire, voir [Options](#Options.md).
 
--    **Tip Length 2**: L\'utilisation dépend de la **Fin Tip Cross Section** et s\'appliquera à une longueur conique ou similaire lorsque plusieurs valeurs sont requises, voir [Options](#Options.md).
+-    **Tip Length 2**   * L\'utilisation dépend de la **Fin Tip Cross Section** et s\'appliquera à une longueur conique ou similaire lorsque plusieurs valeurs sont requises, voir [Options](#Options.md).
 
--    **Tip Per Cent**: Exprime les propriétés **Fin Tip Length 1** et **Fin Tip Length 2** en pourcentage de la **Fin Tip Chord**.
+-    **Tip Per Cent**   * Exprime les propriétés **Fin Tip Length 1** et **Fin Tip Length 2** en pourcentage de la **Fin Tip Chord**.
 
--    **Tip Thickness**: Epaisseur maximale à l\'extrémité de l\'aileron
+-    **Tip Thickness**   * Epaisseur maximale à l\'extrémité de l\'aileron
 
--    **Ttw**: Vrai lorsqu\'une attache pour les ailerons Through the Wall est requis, voir [Options](#Options.md).
+-    **Ttw**   * Vrai lorsqu\'une attache pour les ailerons Through the Wall est requis, voir [Options](#Options.md).
 
--    **Ttw Height**: Hauteur de l\'attache TTW
+-    **Ttw Height**   * Hauteur de l\'attache TTW
 
--    **Ttw Length**: Longueur de l\'attache TTW
+-    **Ttw Length**   * Longueur de l\'attache TTW
 
--    **Ttw Offset**: Distance entre l\'avant de l\'aileron et l\'avant de l\'attache TTW.
+-    **Ttw Offset**   * Distance entre l\'avant de l\'aileron et l\'avant de l\'attache TTW.
 
--    **Ttw Thickness**: Epaisseur de l\'attache TTW
+-    **Ttw Thickness**   * Epaisseur de l\'attache TTW
 
 
 {{TitleProperty|Rocket Component}}
 
 Ces paramètres sont fournis à titre indicatif et n\'ont aucun effet sur la conception du composant.
 
--    **Description**: Description du composant
+-    **Description**   * Description du composant
 
--    **Manufacturer**: Fabricant lorsqu\'il est connu
+-    **Manufacturer**   * Fabricant lorsqu\'il est connu
 
--    **Material**: Matériau lorsqu\'il est connu
+-    **Material**   * Matériau lorsqu\'il est connu
 
--    **Part Number**: Numéro de pièce du fabricant
+-    **Part Number**   * Numéro de pièce du fabricant
 
 ## Script
 
-Voir aussi : [:Category:API/fr](:Category:API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi    * [   *Category   *API/fr](   *Category   *API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 A définir
 
 ## Tutoriels et apprentissage 
 
-[Aileron atelier Rocket](https://youtu.be/8MmEVyGkA0I) Tutoriel sur YouTube
+[Aileron atelier Rocket](https   *//youtu.be/8MmEVyGkA0I) Tutoriel sur YouTube
+
+
+
+
+
+
+
+[Category   *Addons](Category_Addons.md) [Category   *External Workbenches](Category_External_Workbenches.md)
 
 
 

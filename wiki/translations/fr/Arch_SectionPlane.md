@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch SectionPlane
-   Name/fr:Arch Plan de section
-   MenuLocation:Arch → Plan de section
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**S** **P**
-   SeeAlso:[Draft Vue 2D d'une forme](Draft_Shape2DView/fr.md), [TechDraw Vue Arch](TechDraw_ArchView/fr.md)
+- GuiCommand   */fr
+   Name   *Arch SectionPlane
+   Name/fr   *Arch Plan de section
+   MenuLocation   *Arch → Plan de section
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   Shortcut   ***S** **P**
+   SeeAlso   *[Draft Vue 2D d'une forme](Draft_Shape2DView/fr.md), [TechDraw Vue Arch](TechDraw_ArchView/fr.md)
 ---
 
 # Arch SectionPlane/fr
@@ -16,7 +16,7 @@ Cet outil place dans le document courant une \"chose\" qui définit un plan de s
 
 Le Plan de section seul ne permet pas de créer une vue de son ensemble d\'objets. Pour cela, vous devez créer une [TechDraw Vue Arch](TechDraw_ArchView/fr.md) pour créer une vue dans une [page TechDraw](TechDraw_Workbench/fr.md).
 
-<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width   *600px;">
 
 ## Utilisation
 
@@ -33,31 +33,31 @@ Le Plan de section seul ne permet pas de créer une vue de son ensemble d\'objet
 
 -   Après avoir sélectionné un plan de coupe, utilisez l\'outil de [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) pour créer un objet shape qui représente l\'affichage du plan de coupe dans le document
 
-<img alt="Arch Section" src=images/Arch_Section_example2.jpg  style="width:600px;">
+<img alt="Arch Section" src=images/Arch_Section_example2.jpg  style="width   *600px;">
 
 -   Créer un nouvel objet [Draft Dessin](Draft_Drawing/fr.md) si vous travaillez avec l\'[atelier Drawing](Drawing_Workbench/fr.md), ou [TechDraw Vue Arch](TechDraw_ArchView/fr.md) si vous utilisez l\'[atelier TechDraw](TechDraw_Workbench/fr.md).
 
-<img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Section_example3.jpg  style="width   *600px;">
 
 -   Le Plan de section peut également être utilisé pour afficher toute la vue 3D coupée par un plan infini. Ceci est seulement visuel, et n\'affectera pas la géométrie des objets coupés.
 
-<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width   *600px;">
 
 ## Propriétés
 
--    **Only Solids**: S\'il est activé, les objets non solides comppris dans l\'ensemble ne seront pas pris en charge
+-    **Only Solids**   * S\'il est activé, les objets non solides comppris dans l\'ensemble ne seront pas pris en charge
 
--    **Display Length**: Donne la longueur du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
+-    **Display Length**   * Donne la longueur du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
 
--    **Display Height**: Donne hauteur du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
+-    **Display Height**   * Donne hauteur du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
 
--    **Arrow Size**: Donne la dimension des flèches du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
+-    **Arrow Size**   * Donne la dimension des flèches du Section Plane dans la vue 3D. N\'affecte pas le résultat de la vue résultante.
 
--    **Cut View**: Si `True`, toute la vue 3D sera coupée à l\'emplacement du Section Plane.
+-    **Cut View**   * Si `True`, toute la vue 3D sera coupée à l\'emplacement du Section Plane.
 
--    **Clip view**: Si `True`, il coupera la vue à la hauteur et à la longueur de l\'affichage du plan de coupe. Cela transforme effectivement le plan de coupe en une caméra orthographique, limitant le champ de vision.{{version/fr|0.19}}
+-    **Clip view**   * Si `True`, il coupera la vue à la hauteur et à la longueur de l\'affichage du plan de coupe. Cela transforme effectivement le plan de coupe en une caméra orthographique, limitant le champ de vision.{{version/fr|0.19}}
 
-<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width   *600px;">
 
 
 
@@ -65,16 +65,16 @@ Le Plan de section seul ne permet pas de créer une vue de son ensemble d\'objet
 
 ## Ajustements
 
--   Ajout manuel d\'une propriété nommée **RotateSolidRender** de type **App::PropertyAngle** aux propriétés \'\' \'View\' \'\' du plan de coupe (cliquez avec le bouton droit sur la vue des propriétés -\> tout afficher, clic droit de nouveau -\> ajouter une propriété) permet de faire pivoter le rendu lors de l\'utilisation du mode Solide. Ceci est utile lorsqu\'une vue rendue comporte, par exemple, des éléments Arch et Draft, et que le rendu des éléments Arch pivote par rapport aux éléments Draft. {{version/fr|0.19}}
+-   Ajout manuel d\'une propriété nommée **RotateSolidRender** de type **App   *   *PropertyAngle** aux propriétés \'\' \'View\' \'\' du plan de coupe (cliquez avec le bouton droit sur la vue des propriétés -\> tout afficher, clic droit de nouveau -\> ajouter une propriété) permet de faire pivoter le rendu lors de l\'utilisation du mode Solide. Ceci est utile lorsqu\'une vue rendue comporte, par exemple, des éléments Arch et Draft, et que le rendu des éléments Arch pivote par rapport aux éléments Draft. {{version/fr|0.19}}
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [API](Arch_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil plan de coupe peut servir dans une [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
+L\'outil plan de coupe peut servir dans une [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante    *
 
 
 ```python
@@ -83,7 +83,7 @@ Section = makeSectionPlane(objectslist=None, name="Section")
 
 -   Crée un objet `Section` à partir de `objectlist` qui est une liste d\'objets.
 
-Exemple :
+Exemple    *
 
 
 ```python

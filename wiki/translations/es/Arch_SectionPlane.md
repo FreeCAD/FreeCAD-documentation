@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Arch SectionPlane
-   Name/es:Arch Plano de Sección
-   MenuLocation:Arquitectura → Plano de sección
-   Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**S** **P**
+- GuiCommand   */es
+   Name   *Arch SectionPlane
+   Name/es   *Arch Plano de Sección
+   MenuLocation   *Arquitectura → Plano de sección
+   Workbenches   *[Entorno de Arquitectura](Arch_Workbench/es.md)
+   Shortcut   ***S** **P**
 ---
 
 # Arch SectionPlane/es
@@ -30,7 +30,7 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 
 </div>
 
-<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -45,7 +45,7 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 
 1.  Opcionalmente, configure el [ Draft Working Plane](Draft_SelectPlane/es.md) para reflejar el plano donde desea colocar el plano de sección
 2.  Seleccionar los objetos que quieres incluir en la vista de sección
-3.  Presionar el botón <img alt="" src=images/Arch_SectionPlane.png  style="width:16px;"> 
+3.  Presionar el botón <img alt="" src=images/Arch_SectionPlane.png  style="width   *16px;"> 
 **Plano de sección** o pulsar las teclas **S** y **P**
 4.  [ Mover](Draft_Move/es.md) / [ rotar](Draft_Rotate/es.md) el plano de sección en la posición correcta si es necesario
 5.  Seleccione el plano de sección si no está seleccionado
@@ -72,7 +72,7 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 
 </div>
 
-<img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Section_example2.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -82,31 +82,31 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 
 </div>
 
-<img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Section_example3.jpg  style="width   *600px;">
 
 -   El plano de sección también se puede usar para mostrar toda la vista 3D cortada por un plano infinito. Esto es solo visual, y no afectará la geometría de los objetos que se cortan.
 
-<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width   *600px;">
 
 ## Propiedades
 
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es | Only Solids}}: si esto es True, no se tendrán en cuenta los objetos no sólidos del conjunto
+-    {{PropertyData/es | Only Solids}}   * si esto es True, no se tendrán en cuenta los objetos no sólidos del conjunto
 
--    {{PropertyView/es | Display Length}}: la longitud del gizmo del plano de sección en la vista 3D. No afecta la vista resultante
+-    {{PropertyView/es | Display Length}}   * la longitud del gizmo del plano de sección en la vista 3D. No afecta la vista resultante
 
--    {{PropertyView/es | Display Height}}: la altura del gizmo del plano de sección en la vista 3D. No afecta la vista resultante
+-    {{PropertyView/es | Display Height}}   * la altura del gizmo del plano de sección en la vista 3D. No afecta la vista resultante
 
--    {{PropertyView/es | Tamaño de flecha}}: El tamaño de las flechas del gizmo de plano de sección en la vista 3D. No afecta la vista resultante
+-    {{PropertyView/es | Tamaño de flecha}}   * El tamaño de las flechas del gizmo de plano de sección en la vista 3D. No afecta la vista resultante
 
--    {{PropertyView/es | Cut View}}: si esto es True, toda la vista 3D se cortará en la ubicación de este plano de sección (experimental).
+-    {{PropertyView/es | Cut View}}   * si esto es True, toda la vista 3D se cortará en la ubicación de este plano de sección (experimental).
 
 
 </div>
 
-<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width   *600px;">
 
 
 
@@ -114,7 +114,7 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 
 ## Tweaks
 
--   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
+-   Adding manually a property named **RotateSolidRender** of type **App   *   *PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -127,7 +127,7 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 
 <div class="mw-translate-fuzzy">
 
-La herramienta plano de sección se puede utilizar en [macros](macros/es.md) y desde la consaola de Python mediante las siguientes funciones:
+La herramienta plano de sección se puede utilizar en [macros](macros/es.md) y desde la consaola de Python mediante las siguientes funciones   *
 
 
 </div>
@@ -141,12 +141,12 @@ Section = makeSectionPlane(objectslist=None, name="Section")
 <div class="mw-translate-fuzzy">
 
 
-:   Crea objetos plano de sección incluyendo los objetos dados
+   *   Crea objetos plano de sección incluyendo los objetos dados
 
 
 </div>
 
-Ejemplo:
+Ejemplo   *
 
 
 ```python
@@ -180,6 +180,11 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
+
+
+ 
+
+[Category   *Arch/es](Category   *Arch/es.md)
 
 
 

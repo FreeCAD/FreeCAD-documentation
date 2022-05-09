@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Arch Rebar BentShape
-   MenuLocation:Arch → Rebar tools → Bent-Shape Rebar<br>3D/BIM → Reinforcement tools → Bent-Shape Rebar
-   Workbenches:[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Stirrup](Arch_Rebar_Stirrup.md)
+- GuiCommand   *
+   Name   *Arch Rebar BentShape
+   MenuLocation   *Arch → Rebar tools → Bent-Shape Rebar<br>3D/BIM → Reinforcement tools → Bent-Shape Rebar
+   Workbenches   *[Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md)
+   Version   *0.17
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Rebar Stirrup](Arch_Rebar_Stirrup.md)
 ---
 
 # Arch Rebar BentShape/pt-br
@@ -15,9 +15,9 @@ The [BentShape Rebar](Arch_Rebar_BentShape.md) tool allows the user to create a 
 
 The [BentShape Rebar](Arch_Rebar_BentShape.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width   *400px;"> 
 *Two sets of bent reinforcement bars inside an [Arch Structure](Arch_Structure.md)*
 
 ## Utilização
@@ -42,7 +42,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 9.  Click **Cancel** to exit the task panel.
 
-:   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
+   *   <img alt="" src=images/BentShapeDialog.png  style="width   *250px;">
 
 
 
@@ -50,34 +50,34 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Propriedades
 
--    **Orientation**: It decides the orientation of the rebar (like a bottom, top, right and left).
+-    **Orientation**   * It decides the orientation of the rebar (like a bottom, top, right and left).
 
--    **Front Cover**: The distance between rebar and selected face.
+-    **Front Cover**   * The distance between rebar and selected face.
 
--    **Left Cover**: The distance between the left end of the rebar to the left face of the structure.
+-    **Left Cover**   * The distance between the left end of the rebar to the left face of the structure.
 
--    **Right Cover**: The distance between the right end of the rebar to right face of the structure.
+-    **Right Cover**   * The distance between the right end of the rebar to right face of the structure.
 
--    **Bottom Cover**: The distance between rebar from the bottom face of the structure.
+-    **Bottom Cover**   * The distance between rebar from the bottom face of the structure.
 
--    **Top Cover**: The distance between rebar from the top face of the structure.
+-    **Top Cover**   * The distance between rebar from the top face of the structure.
 
--    **Anchor Length**: It is the arm\'s length of bent shape rebar.
+-    **Anchor Length**   * It is the arm\'s length of bent shape rebar.
 
--    **Bent Angle**: It decides angle in bent shape rebar.
+-    **Bent Angle**   * It decides angle in bent shape rebar.
 
--    **Amount**: The amount of rebars.
+-    **Amount**   * The amount of rebars.
 
--    **Spacing**: The distance between the axes of each bar.
+-    **Spacing**   * The distance between the axes of each bar.
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The BentShape Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The BentShape Rebar tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
                            diameter, t_cover, bentLength, bentAngle, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
@@ -156,6 +156,11 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

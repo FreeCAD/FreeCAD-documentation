@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std Part
-   Name/de:Std Baugruppe
-   MenuLocation:None
-   Workbenches:All
-   Version:0.17
-   SeeAlso:[Std Group](Std_Group/de.md), [PartDesign Body](PartDesign_Body/de.md)
+- GuiCommand   */de
+   Name   *Std Part
+   Name/de   *Std Baugruppe
+   MenuLocation   *None
+   Workbenches   *All
+   Version   *0.17
+   SeeAlso   *[Std Group](Std_Group/de.md), [PartDesign Body](PartDesign_Body/de.md)
 ---
 
 # Std Part/de
@@ -13,7 +13,7 @@
 ## Beschreibung
 
 
-**[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)**
+**[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part/de.md)**
 
 , intern [Anwendung Teil](App_Part/de.md) genannt, ist ein Sammelbehälter zur allgemeinen Verwendung, der eine Gruppe von Objekten zusammenhält, so dass sie zusammen als Einheit in der [3D Ansicht](3D_view/de.md) bewegt werden können.
 
@@ -21,12 +21,12 @@ Das \'Std Part\'-Element wurde entwickelt, um als Fundament zur Zusammenstellung
 
 Obwohl es vorläufig für Festkörper gedacht ist, kann \'Std Part\' zur Handhabung jedes Objektes verwendet werden, das eine [Positionierungseigenschaft](Placement/de.md) hat. Deshalb kann es auch [Polygonnetz Formelement](Mesh_Feature/de.md), [Skizzen](Sketch/de.md) und andere Objekte enthalten, die aus [App GeoFeature](App_GeoFeature.md) kommen.
 
-Die **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)**-Schaltfläche verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. Beim anderen wird [Standard Teil](Std_Part/de.md) nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte zur Erzeugung von [Baugruppen](assembly/de.md) im Raum zu positionieren.
+Die **[<img src=images/PartDesign_Body.svg style="width   *16px"> [PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part/de.md)**-Schaltfläche verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem <img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. Beim anderen wird [Standard Teil](Std_Part/de.md) nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte zur Erzeugung von [Baugruppen](assembly/de.md) im Raum zu positionieren.
 
 
 <div class="mw-translate-fuzzy">
 
-Das Werkzeug **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)** wird nicht durch einen bestimmten Arbeitsbereich festgelegt, sondern durch das Grundsystem. Daher befindet es sich in der **structure toolbar**, die es in allen [Arbeitsbereichen](Workbenches/de.md) gibt. Mit der Schaltfläche **[<img src=images/Std_Group.svg style="width:16px"> [Std Gruppe](Std_Group/de.md)** können Objekte in der Baumansicht frei gruppiert werden, ohne ihre Position zu berücksichtigen. Dieses Objekt beeinflußt die Positionen seiner Elemente nicht. Es ist im wesentlichen nur ein Ordner mit dem die [Baumansicht](tree_view/de.md) geordnet werden kann.
+Das Werkzeug **[<img src=images/Std_Part.svg style="width   *16px"> [Std Part](Std_Part/de.md)** wird nicht durch einen bestimmten Arbeitsbereich festgelegt, sondern durch das Grundsystem. Daher befindet es sich in der **structure toolbar**, die es in allen [Arbeitsbereichen](Workbenches/de.md) gibt. Mit der Schaltfläche **[<img src=images/Std_Group.svg style="width   *16px"> [Std Gruppe](Std_Group/de.md)** können Objekte in der Baumansicht frei gruppiert werden, ohne ihre Position zu berücksichtigen. Dieses Objekt beeinflußt die Positionen seiner Elemente nicht. Es ist im wesentlichen nur ein Ordner mit dem die [Baumansicht](tree_view/de.md) geordnet werden kann.
 
 
 </div>
@@ -38,7 +38,7 @@ Das Werkzeug **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_
 
 
 
-*Links: Elemente innerhalt eines 'Std Part's in der [Baumansicht](tree_view/de.md). Rechts: Objekte im Raum, positioniert bezogen auf den Ursprung von 'Std Part'.*
+*Links   * Elemente innerhalt eines 'Std Part's in der [Baumansicht](tree_view/de.md). Rechts   * Objekte im Raum, positioniert bezogen auf den Ursprung von 'Std Part'.*
 
 
 </div>
@@ -48,7 +48,7 @@ Das Werkzeug **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_
 
 <div class="mw-translate-fuzzy">
 
-1.  Die Schaltfläche **[<img src=images/Std_Part.svg style="width:16px"> [Baugruppe erstellen](Std_Part/de.md)** betätigen. Ein leeres Teil wird erzeugt und ist automatisch *[aktiv](Std_Part#Active_status.md)*.
+1.  Die Schaltfläche **[<img src=images/Std_Part.svg style="width   *16px"> [Baugruppe erstellen](Std_Part/de.md)** betätigen. Ein leeres Teil wird erzeugt und ist automatisch *[aktiv](Std_Part#Active_status.md)*.
 2.  In der [Baumansicht](tree_view/de.md) ein Objekt wählen und durch Drag & Drop auf dieses Teil ziehen, um es zum Teil hinzuzufügen.
 3.  Um Objekte aus einem Teil zu entfernen, zieht man es per Drag & Drop aus dem Teil auf die Dokumentenbeschriftung oben in der [Baumansicht](tree_view/de.md).
 
@@ -77,7 +77,7 @@ Das Werkzeug **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_
 
 <div class="mw-translate-fuzzy">
 
-Ein [Std Teil](Std_Part/de.md) wird intern [App Part](App_Part.md)(`App::Part` Klasse) genannt und stammt aus einer [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
+Ein [Std Teil](Std_Part/de.md) wird intern [App Part](App_Part.md)(`App   *   *Part` Klasse) genannt und stammt aus einer [App GeoFeature](App_GeoFeature.md) (`App   *   *GeoFeature` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
 
 
 </div>
@@ -98,36 +98,36 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/de|Typ|Zeichenfolge}}: eine Beschreibung für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
+-    {{PropertyData/de|Typ|Zeichenfolge}}   * eine Beschreibung für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
 
--    {{PropertyData/de|Id|Zeichenfolge}}: eine Identifikations- oder Teilenummer für dieses Objekt. Standardmäßig handelt es sich um eine leere Zeichenfolge {{value|""}}.
+-    {{PropertyData/de|Id|Zeichenfolge}}   * eine Identifikations- oder Teilenummer für dieses Objekt. Standardmäßig handelt es sich um eine leere Zeichenfolge {{value|""}}.
 
--    {{PropertyData/de|Lizenz|Zeichenfolge}}: ein Feld zur Angabe der Lizenz für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
+-    {{PropertyData/de|Lizenz|Zeichenfolge}}   * ein Feld zur Angabe der Lizenz für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
 
--    {{PropertyData/de|LizenzURL|Zeichenfolge}}: ein Feld zur Angabe der Webadresse zur Lizenz oder zum Vertrag für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
+-    {{PropertyData/de|LizenzURL|Zeichenfolge}}   * ein Feld zur Angabe der Webadresse zur Lizenz oder zum Vertrag für dieses Objekt. Standardmäßig ist es eine leere Zeichenfolge {{value|""}}.
 
--    **Farbe|Farbe**: ein Tupel von vier Fließkomma RGBA Werten white color angezeigt wird.
+-    **Farbe|Farbe**   * ein Tupel von vier Fließkomma RGBA Werten white color angezeigt wird.
 
--    {{PropertyData/de|Positionierung|Positionierung}}: die Position des Objekts in der [3D Ansicht](3D_view/de.md). Die Platzierung wird durch einen `Base` Punkt (Vektor) und eine `Drehung` (Achse und Winkel) definiert. Siehe [Positionierung](Placement/de.md).
+-    {{PropertyData/de|Positionierung|Positionierung}}   * die Position des Objekts in der [3D Ansicht](3D_view/de.md). Die Platzierung wird durch einen `Base` Punkt (Vektor) und eine `Drehung` (Achse und Winkel) definiert. Siehe [Positionierung](Placement/de.md).
 
     -   
         {{PropertyData/de|Winkel}}
         
-        : den Drehwinkel um die {{PropertyData/de|Achse}}. Standardmäßig lautet er {{value|0°}}. (Null Grad).
+           * den Drehwinkel um die {{PropertyData/de|Achse}}. Standardmäßig lautet er {{value|0°}}. (Null Grad).
 
     -   
         {{PropertyData/de|Achse}}
         
-        : der Einheitsvektor, der die Drehachse für die Positionierung festlegt. Jede Komponente ist ein Fließkommawert zwischen {{value|0}} und {{value|1}}. Wenn irgendein Wert über {{value|1}} liegt, wird der Vektor so normiert, dass die Größenordnung des Vektors {{value|1}} ist. Standardmäßig ist dies die positive Z Achse, {{value|(0, 0, 1)}}.
+           * der Einheitsvektor, der die Drehachse für die Positionierung festlegt. Jede Komponente ist ein Fließkommawert zwischen {{value|0}} und {{value|1}}. Wenn irgendein Wert über {{value|1}} liegt, wird der Vektor so normiert, dass die Größenordnung des Vektors {{value|1}} ist. Standardmäßig ist dies die positive Z Achse, {{value|(0, 0, 1)}}.
 
     -   
         {{PropertyData/de|Position}}
         
-        : ein Vektor mit den 3D Koordinaten des Basispunkts. Standardmäßig ist dies der Ursprung {{value|(0, 0, 0)}}.
+           * ein Vektor mit den 3D Koordinaten des Basispunkts. Standardmäßig ist dies der Ursprung {{value|(0, 0, 0)}}.
 
--    {{PropertyData/de|Kennzeichen|Zeichenfolge}}: der vom Benutzer bearbeitbare Name dieses Objekts, es ist eine beliebige UTF8 Zeichenfolge.
+-    {{PropertyData/de|Kennzeichen|Zeichenfolge}}   * der vom Benutzer bearbeitbare Name dieses Objekts, es ist eine beliebige UTF8 Zeichenfolge.
 
--    {{PropertyData/de|Gruppe|VerknüpfungListe}}: eine Liste der verknüpften Objekte. Standardmäßig ist sie leer {{value|[]}}.
+-    {{PropertyData/de|Gruppe|VerknüpfungListe}}   * eine Liste der verknüpften Objekte. Standardmäßig ist sie leer {{value|[]}}.
 
 
 </div>
@@ -137,18 +137,18 @@ Diese Eigenschaften stehen im [Eigenschaftseditor](property_editor/de.md) zur Ve
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: {{value|Group}}.
+-    **Display Mode|Enumeration**   * {{value|Group}}.
 
--    **Show In Tree|Bool**: if it is `True`, the object appears in the [Tree view](Tree_view.md). Otherwise, it is set as invisible.
+-    **Show In Tree|Bool**   * if it is `True`, the object appears in the [Tree view](Tree_view.md). Otherwise, it is set as invisible.
 
--    **Visibility|Bool**: if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar in the keyboard.
+-    **Visibility|Bool**   * if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar in the keyboard.
 
 
 {{TitleProperty|Selection}}
 
--    **On Top When Selected|Enumeration**: {{value|Disabled}} (default), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
+-    **On Top When Selected|Enumeration**   * {{value|Disabled}} (default), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
 
--    **Selection Style|Enumeration**: {{value|Shape}} (default), {{value|BoundBox}}. If the option is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} only the bounding box will be highlighted.
+-    **Selection Style|Enumeration**   * {{value|Shape}} (default), {{value|BoundBox}}. If the option is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} only the bounding box will be highlighted.
 
 ## Detaillierte Beschreibung 
 
@@ -165,7 +165,7 @@ Ein geöffnetes Dokument kann mehrere Zusammenstellungen enthalten. Eine aktive 
 
 <div class="mw-translate-fuzzy">
 
-Eine Zusammenstellung aktivieren oder deaktivieren:
+Eine Zusammenstellung aktivieren oder deaktivieren   *
 
 -   Doppelklick auf die Zusammenstellung in der [Baumansicht](Tree_view/de.md) oder
 -   das Kontextmenü mit einem Rechtsklick öffnen und **Toggle active part** wählen.
@@ -190,18 +190,18 @@ Der Ursprung besteht aus den drei Standardachsen (X, Y, Z) und drei Standardeben
 
 
 
-*Links: Teil Ursprung in der [Baumansicht](tree_view/de.md). Rechts: Ansicht der Ursprungselemente in der [3D-Ansicht](3D_view/de.md).*
+*Links   * Teil Ursprung in der [Baumansicht](tree_view/de.md). Rechts   * Ansicht der Ursprungselemente in der [3D-Ansicht](3D_view/de.md).*
 
 
 </div>
 
 
-**Hinweis:**
+**Hinweis   ***
 
-der Ursprung ist ein [App-Origin](App_OriginGroupExtension/de.md)-Objekt (`App::OriginGroupExtension` Klasse), während die Achsen und Ebenen Objekte des Typs `App::Line` bzw. `App::Plane` sind. Jedes dieser Elemente kann mit der **Leertaste** individuell versteckt und wieder angezeigt werden. Damit kann sicher die korrekte Referenz gewählt werden, wenn andere Objekte erzeugt werden.
+der Ursprung ist ein [App-Origin](App_OriginGroupExtension/de.md)-Objekt (`App   *   *OriginGroupExtension` Klasse), während die Achsen und Ebenen Objekte des Typs `App   *   *Line` bzw. `App   *   *Plane` sind. Jedes dieser Elemente kann mit der **Leertaste** individuell versteckt und wieder angezeigt werden. Damit kann sicher die korrekte Referenz gewählt werden, wenn andere Objekte erzeugt werden.
 
 
-**Hinweis 2:**
+**Hinweis 2   ***
 
 alle Elemente innerhalb einer Zusammenstellung beziehen sich auf den Ursprung der Zusammenstellung. Das bedeutet, dass die Zusammenstellung bezogen auf das globale Koordinatensystem verschoben oder gedreht werden kann, ohne Auswirkung auf die Positionierung der Elemente in der Zusammenstellung.
 
@@ -210,7 +210,7 @@ alle Elemente innerhalb einer Zusammenstellung beziehen sich auf den Ursprung de
 Die Sichtbarkeit der Zusammenstellung verdrängt die Sichtbarkeit jedes darin enthaltenen Objekts. Wenn die Zusammenstellung ausgeblendet ist, werden auch die darin enthaltenen Objekte ausgeblendet, auch wenn ihre jeweilige Eigenschaft **Sichtbarkeit** auf `True` (wahr) gesetzt ist. Ist die Zusammenstellung sichtbar, entscheidet die Eigenschaft **Sichtbarkeit** jedes Objektes, ob das Objekt angezeigt wird oder nicht.
 
 ![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
-*Die Sichtbarkeitseigenschaft von 'Std Part' entscheidet, ob die Objekte, die unter der Zusammenstellung zusammengestellt sind, in der [3D-Ansicht](3D_view/de.md) angezeigt werden oder nicht. Links: die Zusammenstellung ist verborgen und keines der Objekte wird in der [3D-Ansicht](3D_view/de.md) angezeigt. Rechts: die Zusammenstellung ist sichtbar und jedes Objekt kontrolliert seine Sichtbarkeit selbst.*
+*Die Sichtbarkeitseigenschaft von 'Std Part' entscheidet, ob die Objekte, die unter der Zusammenstellung zusammengestellt sind, in der [3D-Ansicht](3D_view/de.md) angezeigt werden oder nicht. Links   * die Zusammenstellung ist verborgen und keines der Objekte wird in der [3D-Ansicht](3D_view/de.md) angezeigt. Rechts   * die Zusammenstellung ist sichtbar und jedes Objekt kontrolliert seine Sichtbarkeit selbst.*
 
 ## Skripten
 
@@ -218,7 +218,7 @@ Die Sichtbarkeit der Zusammenstellung verdrängt die Sichtbarkeit jedes darin en
 <div class="mw-translate-fuzzy">
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](scripted_objects/de.md).
 
@@ -240,10 +240,10 @@ Eine \'Std Part\' ([Anwendung Teil](App_Part/de.md))-Zusammenstellung wird mit d
 import FreeCAD as App
 
 doc = App.newDocument()
-part = App.ActiveDocument.addObject("App::Part", "Part")
+part = App.ActiveDocument.addObject("App   *   *Part", "Part")
 
-obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
-obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign   *   *Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part   *   *Box", "Box")
 
 part.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
@@ -252,51 +252,51 @@ App.ActiveDocument.recompute()
 
 <div class="mw-translate-fuzzy">
 
-Du kannst kein geskriptetes {{Incode|App::Part}} erstellen. Du kannst aber {{Incode|App::Part}}-Verhalten zu einem geskripteten {{Incode|Part::FeaturePython}}-Objekt durch Verwenden des folgenden Codes hinzufügen:
+Du kannst kein geskriptetes {{Incode|App   *   *Part}} erstellen. Du kannst aber {{Incode|App   *   *Part}}-Verhalten zu einem geskripteten {{Incode|Part   *   *FeaturePython}}-Objekt durch Verwenden des folgenden Codes hinzufügen   *
 
 
 </div>
 
 
 ```python
-class MyGroup(object):
-    def __init__(self, obj=None):
+class MyGroup(object)   *
+    def __init__(self, obj=None)   *
         self.Object = obj
-        if obj:
+        if obj   *
             self.attach(obj)
 
-    def __getstate__(self):
+    def __getstate__(self)   *
         return
 
-    def __setstate__(self, _state):
+    def __setstate__(self, _state)   *
         return
 
-    def attach(self, obj):
-        obj.addExtension("App::OriginGroupExtensionPython")
-        obj.Origin = FreeCAD.ActiveDocument.addObject("App::Origin", "Origin")
+    def attach(self, obj)   *
+        obj.addExtension("App   *   *OriginGroupExtensionPython")
+        obj.Origin = FreeCAD.ActiveDocument.addObject("App   *   *Origin", "Origin")
 
-    def onDocumentRestored(self, obj):
+    def onDocumentRestored(self, obj)   *
         self.Object = obj
 
-class ViewProviderMyGroup(object):
-    def __init__(self, vobj=None):
-        if vobj:
+class ViewProviderMyGroup(object)   *
+    def __init__(self, vobj=None)   *
+        if vobj   *
             vobj.Proxy = self
             self.attach(vobj)
-        else:
+        else   *
             self.ViewObject = None
 
-    def attach(self, vobj):
-        vobj.addExtension("Gui::ViewProviderOriginGroupExtensionPython")
+    def attach(self, vobj)   *
+        vobj.addExtension("Gui   *   *ViewProviderOriginGroupExtensionPython")
         self.ViewObject = vobj
 
-    def __getstate__(self):
+    def __getstate__(self)   *
         return None
 
-    def __setstate__(self, _state):
+    def __setstate__(self, _state)   *
         return None
 
-App.ActiveDocument.addObject("Part::FeaturePython",
+App.ActiveDocument.addObject("Part   *   *FeaturePython",
                              "Group",
                              group.MyGroup(),
                              group.ViewProviderMyGroup(),

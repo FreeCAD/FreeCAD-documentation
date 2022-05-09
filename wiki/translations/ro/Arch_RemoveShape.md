@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ro
-   Name:Arch RemoveShape   Name/ro:Arch RemoveShape
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   MenuLocation:Arch → Utilities → Remove Shape
-   SeeAlso:[Arch MeshToShape](Arch_MeshToShape.md)
+- GuiCommand   */ro
+   Name   *Arch RemoveShape   Name/ro   *Arch RemoveShape
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   MenuLocation   *Arch → Utilities → Remove Shape
+   SeeAlso   *[Arch MeshToShape](Arch_MeshToShape.md)
 ---
 
 # Arch RemoveShape/ro
@@ -45,7 +45,7 @@ Acest instrument încearcă să înlăture forma cubică interioară a unui [Arc
 
 <div class="mw-translate-fuzzy">
 
-Acest instrument poate fi utilizat în [macros](macros.md) și din consola Python utilizând următoarea funcție:
+Acest instrument poate fi utilizat în [macros](macros.md) și din consola Python utilizând următoarea funcție   *
 
 
 </div>
@@ -67,7 +67,7 @@ ia un obiect arc (perete sau o structură) construit pe o formă cubică și în
 ```python
 import FreeCAD, Draft, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 1000
 Box.Width = 2000
 Box.Height = 1000
@@ -88,11 +88,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
-
-
-{{Arch_Tools_navi
-
-}}
 
 
 

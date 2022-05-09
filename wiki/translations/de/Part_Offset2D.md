@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Part Offset2D
-   Name/de:Part 2DVersatz
-   MenuLocation:Formteil → 2D-Versatz
-   Workbenches:[Part](Part_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Part Versatz](Part_Offset/de.md), [Part Dicke](Part_Thickness/de.md), [Draft Versatz](Draft_Offset/de.md)
+- GuiCommand   */de
+   Name   *Part Offset2D
+   Name/de   *Part 2DVersatz
+   MenuLocation   *Formteil → 2D-Versatz
+   Workbenches   *[Part](Part_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[Part Versatz](Part_Offset/de.md), [Part Dicke](Part_Thickness/de.md), [Draft Versatz](Draft_Offset/de.md)
 ---
 
 # Part Offset2D/de
@@ -20,52 +20,20 @@ Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben,
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle ein Objekt zum Versetzen aus.
-2.  Drücke die **[<img src=images/Part_Offset2D.svg style="width:24px">** **2D-Versatz**-Taste.
+2.  Drücke die **[<img src=images/Part_Offset2D.svg style="width   *24px">** **2D-Versatz**-Taste.
 3.  Richte den Versatz im [Aufgabenbereich](Task_Panel/de.md) ein.
 4.  Drücke **OK**.
 
-Ein parametrisches 2D Offset Objekt wird erstellt. Originalobjekte werden in den Drahtmodell Anzeigemodus geschaltet.
 
-## Eigenschaften
+</div>
 
--    {{PropertyData/de|Quelle}}: Verbindung zur Originalform
+## Notes
 
--    {{PropertyData/de|Wert}}: Der Abstand, um den einen Draht versetzt / eine Fläche vergrößert wird. Falls negativ, wird stattdessen der Draht in die Gegenrichtung versetzt / die Fläche geschrumpft.
-
--    {{PropertyData/de|Modus}}(\"Pipe\" oder \"Skin\"): Legt fest, wie nicht geschlosseneDrähte verarbeitet werden. Bei \"Pipe\" wird der Draht so umrissen, als wäre er eine extrem dünne, geschlossene Kontur. Wenn \"Skin\", wird ein offener Draht erzeugt.
-
-:   ![600px](images/Part_Offset2D_Mode.png)
-
--    {{PropertyData/de|Fügen}}(\"Bogen\", \"Tangente\", \"Schnittpunkt\"): legt das Verhalten um Knicke fest. Wenn \"Bogen\", sind Offsetsegmente mit einem Kreisbogen verbunden, der am Scheitelpunkt zentriert ist. \"Tangente\" wird auf OCC7.0.0.0. \"Schnittpunkt\" nicht unterstützt: Versetzte Segmente werden bis zum Schnittpunkt verlängert.
-
-:   ![600px](images/Part_Offset2D_Join.png)
-
--    {{PropertyData/de|Knotenpunkt}}(\"falsch\", \"wahr\"): setzt, ob mehrere Drähte gemeinsam oder unabhängig behandelt werden. Wenn \"falsch\", werden die Drähte unabhängig voneinander versetzt, Knotenpunkte zwischen den resultierenden Drähten werden ignoriert. Wenn \"true\", werden die Drähte auf kollektive Weise versetzt.
-
-:   ![600px](images/Part_Offset2D_Intersection.png)
-
-
-
-
-
-:   Nur Drähte innerhalb einer Verbindung werden gekoppelt. Wenn die Struktur beispielsweise wie der Verbund (Draht1, Draht2, Verbindung (Draht3, Draht4)) ist, werden Draht1 und Draht2 gemeinsam, aber unabhängig von Draht3 und Draht4 behandelt. Ebenso werden Draht3 und Draht4 gemeinsam, aber unabhängig von Draht1+Draht2 behandelt.
-
-
-
-
-
-:   Auch im kollektiven Modus sind die Richtungen der Drähte wichtig und beeinflussen die Richtung des Versatzes. Dies steht in engem Zusammenhang mit der Art und Weise, wie Löcher in Flächen behandelt werden.
-
-
-
-
-
-:   Drähte, die gemeinsam behandelt werden, müssen koplanar sein. Drähte, die unabhängig voneinander versetzt werden, müssen nicht koplanar sein.
-
--    {{PropertyData/de|Ausfüllen}}(\"false\", \"true\"): wenn \"true\", wird der Raum zwischen dem ursprünglichen Draht/Fläche und dem Offset mit einer Fläche gefüllt.
-
-:   ![600px](images/Part_Offset2D_Fill.png)
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
 
 ## Bekannte Probleme 
 
@@ -85,15 +53,55 @@ Ein parametrisches 2D Offset Objekt wird erstellt. Originalobjekte werden in den
 
 -   Versatzdrähte aus einem einzigen Liniensegment werden nicht unterstützt (da der Linienabschnitt keine Ebene definiert). Auch einzelne Linienabschnitte können nicht am Kollektivversatz teilnehmen.
 
+## Eigenschaften
+
+-    {{PropertyData/de|Quelle}}   * Verbindung zur Originalform
+
+-    {{PropertyData/de|Wert}}   * Der Abstand, um den einen Draht versetzt / eine Fläche vergrößert wird. Falls negativ, wird stattdessen der Draht in die Gegenrichtung versetzt / die Fläche geschrumpft.
+
+-    {{PropertyData/de|Modus}}(\"Pipe\" oder \"Skin\")   * Legt fest, wie nicht geschlosseneDrähte verarbeitet werden. Bei \"Pipe\" wird der Draht so umrissen, als wäre er eine extrem dünne, geschlossene Kontur. Wenn \"Skin\", wird ein offener Draht erzeugt.
+
+   *   ![600px](images/Part_Offset2D_Mode.png)
+
+-    {{PropertyData/de|Fügen}}(\"Bogen\", \"Tangente\", \"Schnittpunkt\")   * legt das Verhalten um Knicke fest. Wenn \"Bogen\", sind Offsetsegmente mit einem Kreisbogen verbunden, der am Scheitelpunkt zentriert ist. \"Tangente\" wird auf OCC7.0.0.0. \"Schnittpunkt\" nicht unterstützt   * Versetzte Segmente werden bis zum Schnittpunkt verlängert.
+
+   *   ![600px](images/Part_Offset2D_Join.png)
+
+-    {{PropertyData/de|Knotenpunkt}}(\"falsch\", \"wahr\")   * setzt, ob mehrere Drähte gemeinsam oder unabhängig behandelt werden. Wenn \"falsch\", werden die Drähte unabhängig voneinander versetzt, Knotenpunkte zwischen den resultierenden Drähten werden ignoriert. Wenn \"true\", werden die Drähte auf kollektive Weise versetzt.
+
+   *   ![600px](images/Part_Offset2D_Intersection.png)
+
+
+
+
+
+   *   Nur Drähte innerhalb einer Verbindung werden gekoppelt. Wenn die Struktur beispielsweise wie der Verbund (Draht1, Draht2, Verbindung (Draht3, Draht4)) ist, werden Draht1 und Draht2 gemeinsam, aber unabhängig von Draht3 und Draht4 behandelt. Ebenso werden Draht3 und Draht4 gemeinsam, aber unabhängig von Draht1+Draht2 behandelt.
+
+
+
+
+
+   *   Auch im kollektiven Modus sind die Richtungen der Drähte wichtig und beeinflussen die Richtung des Versatzes. Dies steht in engem Zusammenhang mit der Art und Weise, wie Löcher in Flächen behandelt werden.
+
+
+
+
+
+   *   Drähte, die gemeinsam behandelt werden, müssen koplanar sein. Drähte, die unabhängig voneinander versetzt werden, müssen nicht koplanar sein.
+
+-    {{PropertyData/de|Ausfüllen}}(\"false\", \"true\")   * wenn \"true\", wird der Raum zwischen dem ursprünglichen Draht/Fläche und dem Offset mit einer Fläche gefüllt.
+
+   *   ![600px](images/Part_Offset2D_Fill.png)
+
 ## Skripten
 
-Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden: {{code|code=
-f = App.ActiveDocument.addObject("Part::Offset2D", "Offset2D")
+Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden   * {{code|code=
+f = App.ActiveDocument.addObject("Part   *   *Offset2D", "Offset2D")
 f.Source =  #some object
 f.Value = 10.0
 }}
 
-2D offset is also available as a method of Part.Shape. Example: {{code|code=
+2D offset is also available as a method of Part.Shape. Example   * {{code|code=
 import Part
 circle = Part.Circle().toShape()
 enlarged_circle = circle.makeOffset2D(10.0)
@@ -101,19 +109,19 @@ Part.show(circle)
 Part.show(enlarged_circle)
 # makeOffset2D(offset, join = 0, fill = False, openResult = false, intersection = false)
 # 
-# * offset: distance to expand the shape by. 
+# * offset   * distance to expand the shape by. 
 # 
-# * join: method of offsetting non-tangent joints. 0 = arcs, 1 = tangent, 2 =
+# * join   * method of offsetting non-tangent joints. 0 = arcs, 1 = tangent, 2 =
 # intersection
 # 
-# * fill: if true, the output is a face filling the space covered by offset. If
+# * fill   * if true, the output is a face filling the space covered by offset. If
 # false, the output is a wire/face.
 # 
-# * openResult: True for "Skin" mode; False for Pipe mode. 
+# * openResult   * True for "Skin" mode; False for Pipe mode. 
 # 
-# * intersection: collective offset
+# * intersection   * collective offset
 # 
-# Returns: result of offsetting (wire or face or compound of those). Compounding
+# Returns   * result of offsetting (wire or face or compound of those). Compounding
 # structure follows that of source shape.
 }}
 

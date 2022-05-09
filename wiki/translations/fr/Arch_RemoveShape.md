@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Arch RemoveShape
-   Name/fr:Arch Supprimer la forme
-   MenuLocation:Arch → Utilitaires → Supprimer la forme
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
+- GuiCommand   */fr
+   Name   *Arch RemoveShape
+   Name/fr   *Arch Supprimer la forme
+   MenuLocation   *Arch → Utilitaires → Supprimer la forme
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[Arch Séparer un objet Mesh](Arch_SplitMesh/fr.md), [Arch Maillage vers une forme](Arch_MeshToShape/fr.md)
 ---
 
 # Arch RemoveShape/fr
@@ -21,11 +21,11 @@ Cet outil vise à supprimer la forme cubique intérieure d\'un **<img src="image
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction : 
+Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la console [Python](Python/fr.md) en utilisant la fonction    * 
 ```python
 removeShape(objs, mark=True)
 ```
@@ -41,7 +41,7 @@ removeShape(objs, mark=True)
 ```python
 import FreeCAD, Draft, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 1000
 Box.Width = 2000
 Box.Height = 1000
@@ -53,14 +53,6 @@ FreeCAD.ActiveDocument.recompute()
 Arch.removeShape(Structure)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-
-
-
-{{Arch_Tools_navi
-
-}}
 
 
 

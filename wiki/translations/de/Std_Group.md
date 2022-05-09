@@ -1,13 +1,13 @@
 # Std Group/de
 ---
-- GuiCommand:/de
-   Name:Std Group
-   Name/de:Std Gruppe
-   MenuLocation:Baumansicht → Rechtsklick auf den Dokumentennamen
-   |Workbenches:Alle
-   Shortcut:
-   Version:
-   SeeAlso:[Standard Teil](Std_Part/de.md), [Wähle Gruppe](Draft_SelectGroup/de.md), [zur Gruppe hinzufügen](Draft_AddToGroup/de.md)---
+- GuiCommand   */de
+   Name   *Std Group
+   Name/de   *Std Gruppe
+   MenuLocation   *Baumansicht → Rechtsklick auf den Dokumentennamen
+   |Workbenches   *Alle
+   Shortcut   *
+   Version   *
+   SeeAlso   *[Standard Teil](Std_Part/de.md), [Wähle Gruppe](Draft_SelectGroup/de.md), [zur Gruppe hinzufügen](Draft_AddToGroup/de.md)---
 
 ## Beschreibung
 
@@ -47,7 +47,7 @@ Um 3D-Objekte zu einer einzelnen Einheit zu gruppieren, um Baugruppen zu erzeuge
 
 <div class="mw-translate-fuzzy">
 
-Eine [Standard Gruppe](Std_Group/de.md) wird intern [Anwendung DokumentObjektGruppe](App_DocumentObjectGroup/de.md) (`App::DocumentObjectGroup` Klasse) genannt und stammt aus einer [Anwendung DokumentObjekt](App_DocumentObject/de.md) (`App::DocumentObject` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
+Eine [Standard Gruppe](Std_Group/de.md) wird intern [Anwendung DokumentObjektGruppe](App_DocumentObjectGroup/de.md) (`App   *   *DocumentObjectGroup` Klasse) genannt und stammt aus einer [Anwendung DokumentObjekt](App_DocumentObject/de.md) (`App   *   *DocumentObject` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
 
 
 </div>
@@ -68,9 +68,9 @@ Zusätzlich zu den Eigenschaften, die in [App FeaturePython](App_FeaturePython.m
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/de|Bezeichnung|String}}: der Name dieses Objekts, vom Benutzer als beliebige UTF8-Zeichenkette veränderbar.
+-    {{PropertyData/de|Bezeichnung|String}}   * der Name dieses Objekts, vom Benutzer als beliebige UTF8-Zeichenkette veränderbar.
 
--    **Gruppe|LinkList**: eine Liste referenzierter Objekte. Ein leerer Wert {{value|[]}} ist vorgegeben.
+-    **Gruppe|LinkList**   * eine Liste referenzierter Objekte. Ein leerer Wert {{value|[]}} ist vorgegeben.
 
 
 </div>
@@ -81,7 +81,7 @@ Zusätzlich zu den Eigenschaften, die in [App FeaturePython](App_FeaturePython.m
 <div class="mw-translate-fuzzy">
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md) und [Skriptgenerierte Objekte](scripted_objects/de.md).
 
@@ -103,21 +103,21 @@ Eine \'Std Group\' ([Anwendung DokumentObjektGruppe](App_DocumentObjectGroup/de.
 import FreeCAD as App
 
 doc = App.newDocument()
-group = App.ActiveDocument.addObject("App::DocumentObjectGroup", "Group")
+group = App.ActiveDocument.addObject("App   *   *DocumentObjectGroup", "Group")
 
-obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
-obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign   *   *Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part   *   *Box", "Box")
 
 group.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
-Diese grundlegende `App::DocumentObjectGroup` hat kein Proxyobjekt, sodass es vollständig für Unterklassen verwendet werden kann.
+Diese grundlegende `App   *   *DocumentObjectGroup` hat kein Proxyobjekt, sodass es vollständig für Unterklassen verwendet werden kann.
 
 
 <div class="mw-translate-fuzzy">
 
-Deshalb sollte ein `App::DocumentObjectGroupPython`-Objekt für Unterklassen mit [Python](Python/de.md) erzeugt werden.
+Deshalb sollte ein `App   *   *DocumentObjectGroupPython`-Objekt für Unterklassen mit [Python](Python/de.md) erzeugt werden.
 
 
 </div>
@@ -127,17 +127,17 @@ Deshalb sollte ein `App::DocumentObjectGroupPython`-Objekt für Unterklassen mit
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::DocumentObjectGroupPython", "Name")
+obj = App.ActiveDocument.addObject("App   *   *DocumentObjectGroupPython", "Name")
 obj.Label = "Custom label"
 ```
 
-Zum Beispiel ist ein [FEM Analyse](FEM_Analysis/de.md) ein `App::DocumentObjectGroupPython`-Objekt mit einem benutzerdefinierten Icon und zusätzlichen Eigenschaften.
+Zum Beispiel ist ein [FEM Analyse](FEM_Analysis/de.md) ein `App   *   *DocumentObjectGroupPython`-Objekt mit einem benutzerdefinierten Icon und zusätzlichen Eigenschaften.
 
 ## Verweise
 
 -   [Arch Tutorium](Arch_tutorial/de#Organizing_your_model.md)
 -   [Dokumentenstruktur](Document_structure/de.md)
--   [Arch Tutorium/Ihr Modell organisieren](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial/de#Ihr_Modell_organisieren)
+-   [Arch Tutorium/Ihr Modell organisieren](http   *//www.freecadweb.org/wiki/index.php?title=Arch_tutorial/de#Ihr_Modell_organisieren)
 
 
 

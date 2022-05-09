@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/es
-   Name:Arch PipeConnector
-   Name/es:Arch PipeConnector
-   MenuLocation:Arch → Pipe Tools → Pipe Connector
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   Shortcut:**P** **C**
-   Version:0.17
-   SeeAlso:[Arch Pipe](Arch_Pipe/es.md), [Arch Equipment](Arch_Equipment/es.md)
+- GuiCommand   */es
+   Name   *Arch PipeConnector
+   Name/es   *Arch PipeConnector
+   MenuLocation   *Arch → Pipe Tools → Pipe Connector
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   Shortcut   ***P** **C**
+   Version   *0.17
+   SeeAlso   *[Arch Pipe](Arch_Pipe/es.md), [Arch Equipment](Arch_Equipment/es.md)
 ---
 
 # Arch PipeConnector/es
@@ -38,7 +38,7 @@ Esta herramienta permite crear una conexión de esquina o de salida en T entre d
 
 ### Propiedades
 
--    {{PropertyData/es|Radius}}: El radio de curvatura de este conector
+-    {{PropertyData/es|Radius}}   * El radio de curvatura de este conector
 
 ## Flujo de trabajo típico 
 
@@ -63,7 +63,7 @@ Ver [Arch Pipe\#Typical\_workflow](Arch_Pipe#Typical_workflow.md)
 
 <div class="mw-translate-fuzzy">
 
-La herramienta conector de tubería se puede usar en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función:
+La herramienta conector de tubería se puede usar en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función   *
 
 
 </div>
@@ -76,7 +76,7 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
     -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft, Arch
 

@@ -1,23 +1,23 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw ShareView
-   Name/de:TechDraw AnsichtTeilen
-   MenuLocation:TechDraw → Ansicht teilen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.20
-   SeeAlso:[TechDraw AnsichtVerschieben](TechDraw_MoveView/de.md)
+- GuiCommand   */de
+   Name   *TechDraw ShareView
+   Name/de   *TechDraw AnsichtTeilen
+   MenuLocation   *TechDraw → Ansicht teilen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   Version   *0.20
+   SeeAlso   *[TechDraw AnsichtVerschieben](TechDraw_MoveView/de.md)
 ---
 
 # TechDraw ShareView/de
 
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/TechDraw_ShareView.svg  style="width:24px;"> **TechDraw AnsichtTeilen** macht eine Ansicht mit all ihren abhängigen Inhalten (Balloons, Maße usw.) auf einer zweiten Seite sichtbar.
+Das Werkzeug <img alt="" src=images/TechDraw_ShareView.svg  style="width   *24px;"> **TechDraw AnsichtTeilen** macht eine Ansicht mit all ihren abhängigen Inhalten (Balloons, Maße usw.) auf einer zweiten Seite sichtbar.
 
 ## Anwendung
 
 1.  Optional wählt man eine Ansicht, eine Von-Seite und eine Nach-Seite. Die Seiten müssen in dieser Reihenfolge ausgewählt werden.
-2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
+2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen   *
     -   Drücken der Schaltfläche **<img src="images/TechDraw_ShareView.svg" width=16px> [Ansicht teilen](TechDraw_ShareView/de.md)**.
     -   Auswahl des Menüeintrags **TechDraw → <img src="images/TechDraw_ShareView.svg" width=16px> Ansicht teilen**.
 3.  Es öffnet sich ein Dialog, der es erlaubt, eine Ansicht, eine Von-Seite und eine Nach-Seite auszuwählen.
@@ -26,11 +26,11 @@ Das Werkzeug <img alt="" src=images/TechDraw_ShareView.svg  style="width:24px;">
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Ansicht teilen kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus genutzt werden durch Verwendung der folgenden Funktionen:
+Das Werkzeug Ansicht teilen kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus genutzt werden durch Verwendung der folgenden Funktionen   *
 
 
 ```python

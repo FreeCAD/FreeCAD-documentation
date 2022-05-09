@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FEM PostFilterCutFunction
-   Name/fr:FEM Filtre de fonction coupe
-   MenuLocation:Résultats → Filtre de la fonction coupe
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand   */fr
+   Name   *FEM PostFilterCutFunction
+   Name/fr   *FEM Filtre de fonction coupe
+   MenuLocation   *Résultats → Filtre de la fonction coupe
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   SeeAlso   *[FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterCutFunction/fr
@@ -16,7 +16,7 @@ Affiche les résultats sur une sphère ou un plan traversant le modèle.
 ## Utilisation
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé.
-2.  Lancez la commande de l\'une des façons suivantes :
+2.  Lancez la commande de l\'une des façons suivantes    *
     -   Appuyez sur le bouton **<img src="images/FEM_PostFilterCutFunction.svg" width=16px> [Filtre de la fonction coupe](FEM_PostFilterCutFunction/fr.md)** bouton.
     -   Sélectionnez l\'option **Résultats → <img src="images/FEM_PostFilterCutFunction.svg" width=16px> Filtre de la fonction coupe** dans le menu.
 3.  Ajustez les options d\'affichage de **Résultats** comme pour le [pipeline de résultats](FEM_PostPipelineFromResult/fr.md). Cachez ce pipeline pour voir l\'effet d\'un Filtre de la fonction coupe.

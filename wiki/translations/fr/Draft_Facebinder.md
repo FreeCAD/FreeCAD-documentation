@@ -1,67 +1,67 @@
 ---
-- GuiCommand:/fr
-   Name:Draft Facebinder
-   Name/fr:Draft Surfaces liées
-   MenuLocation:Drafting → Surfaces liées
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**F** **F**
-   Version:0.14
+- GuiCommand   */fr
+   Name   *Draft Facebinder
+   Name/fr   *Draft Surfaces liées
+   MenuLocation   *Esquisse → Surfaces liées
+   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut   ***F** **F**
+   Version   *0.14
 ---
 
 # Draft Facebinder/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Draft Surfaces liées** crée un objet de surface à partir des faces sélectionnées. Un objet Draft Surfaces liées est paramétrique, il sera mis à jour si vous modifiez son ou ses objets sources.
+La commande <img alt="" src=images/Draft_Facebinder.svg  style="width   *24px;"> **Draft Surfaces liées** crée un objet de surface à partir des faces sélectionnées. Un objet Draft Surfaces liées est paramétrique, il sera mis à jour si vous modifiez son ou ses objets sources.
 
 Elle peut être utilisée pour créer une extrusion à partir d\'une combinaison de surfaces. Cette extrusion peut par exemple représenter une finition de mur dans une conception architecturale.
 
-<img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_facebinder_example.jpg  style="width   *400px;"> 
 *Surfaces liées créées à partir des faces de murs*
 
 ## Utilisation
 
 1.  Sélectionnez une ou plusieurs faces.
-2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Facebinder.svg" width=16px> [Créer un objet Facebinder...](Draft_Facebinder/fr.md)**.
-    -   Sélectionnez l\'option **Drafting → <img src="images/Draft_Facebinder.svg" width=16px> Surfaces liées** dans le menu.
-    -   Utilisez le raccourci clavier : **F** puis **F**.
+2.  Il existe plusieurs façons de lancer la commande    *
+    -   Appuyez sur le bouton **<img src="images/Draft_Facebinder.svg" width=16px> [Surfaces liées](Draft_Facebinder/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Facebinder.svg" width=16px> Surfaces liées** dans le menu.
+    -   Utilisez le raccourci clavier    * **F** puis **F**.
 
 ## Propriétés
 
-Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Draft Surfaces liées est dérivée d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet Draft Surfaces liées est dérivé de [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
 
 {{TitleProperty|Draft}}
 
--    {{PropertyData/fr|Area|Area}}: (en lecture seule) spécifie la surface totale des faces liées de la surface liée.
+-    **Area|Area**   * (en lecture seule) spécifie la surface totale des faces liées de la surface liée.
 
--    {{PropertyData/fr|Extrusion|Distance}}: spécifie l\'épaisseur d\'extrusion de la surface liée.
+-    **Extrusion|Distance**   * spécifie l\'épaisseur d\'extrusion de la surface liée.
 
--    {{PropertyData/fr|Faces|LinkSubList}}: spécifie les faces liées de la surface liée.
+-    **Faces|LinkSubList**   * spécifie les faces liées de la surface liée.
 
--    {{PropertyData/fr|Offset|Distance}}: spécifie une distance de décalage à appliquer entre la lime à facettes et les faces originales, avant l\'extrusion.
+-    **Offset|Distance**   * spécifie une distance de décalage à appliquer entre la lime à facettes et les faces originales, avant l\'extrusion.
 
--    {{PropertyData/fr|Remove Splitter|Bool}}: spécifie s\'il faut supprimer les lignes de séparation qui divisent les faces coplanaires de la surface liée.
+-    **Remove Splitter|Bool**   * spécifie s\'il faut supprimer les lignes de séparation qui divisent les faces coplanaires de la surface liée.
 
--    {{PropertyData/fr|Sew|Bool}}: spécifie s\'il faut effectuer une opération de couture topologique sur la surface liée.
+-    **Sew|Bool**   * spécifie s\'il faut effectuer une opération de couture topologique sur la surface liée.
 
 ### Vue
 
 
 {{TitleProperty|Draft}}
 
--    {{PropertyView/fr|Pattern|Enumeration}}: spécifie le [Draft Motif](Draft_Pattern/fr.md) avec lequel remplir les surfaces liées. Cette propriété ne fonctionne que si {{PropertyView/fr|Display Mode}} est {{value|Flat Lines}}.
+-    **Pattern|Enumeration**   * spécifie le [Draft Motif](Draft_Pattern/fr.md) avec lequel remplir les surfaces liées. Cette propriété ne fonctionne que si **Display Mode** est {{value|Flat Lines}}.
 
--    {{PropertyView/fr|Pattern Size|Float}}: spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
+-    **Pattern Size|Float**   * spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
 
 ## Script
 
-Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Pour créer une Draft Surface liée, utilisez la méthode `make_facebinder` ({{Version/fr|0.19}}) du module Draft. Cette méthode remplace la méthode dépréciée `makeFacebinder`.
 
@@ -90,7 +90,7 @@ L\'épaisseur de Facebinder peut être ajoutée en écrasant son attribut `Extru
 
 Le placement de Facebinder peut être modifié en remplaçant son attribut `Placement` ou en écrasant individuellement ses attributs `Placement.Base` et `Placement.Rotation`.
 
-Exemple :
+Exemple    *
 
 
 ```python
@@ -101,7 +101,7 @@ import Draft
 doc = App.newDocument()
 
 # Insert a solid box
-box = doc.addObject("Part::Box", "Box")
+box = doc.addObject("Part   *   *Box", "Box")
 box.Length = 2300
 box.Width = 800
 box.Height = 1000

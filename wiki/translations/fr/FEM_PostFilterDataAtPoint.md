@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FEM PostFilterDataAtPoint
-   Name/fr:FEM Données du filtre d'écrêtage d'un point
-   MenuLocation:Résultats → Données du filtre d'écrêtage du point
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
+- GuiCommand   */fr
+   Name   *FEM PostFilterDataAtPoint
+   Name/fr   *FEM Données du filtre d'écrêtage d'un point
+   MenuLocation   *Résultats → Données du filtre d'écrêtage du point
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterDataAtPoint/fr
@@ -16,7 +16,7 @@ Affiche la valeur d\'un champ sélectionné à un point choisi.
 ## Utilisation
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé.
-2.  Lancez la commande de l\'une des façons suivantes :
+2.  Lancez la commande de l\'une des façons suivantes    *
     -   Appuyez sur le bouton **<img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> [Données du filtre d'écrêtage du point](FEM_PostFilterDataAtPoint/fr.md)**.
     -   Sélectionnez l\'option **Résultats → <img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> Données du filtre d'écrêtage du point** dans le menu.
 3.  Cliquez sur le bouton **Sélectionnez un point**.

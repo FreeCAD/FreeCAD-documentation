@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/fr
-   Name:Arch PipeConnector
-   Name/fr:Arch Raccord
-   MenuLocation:Arch → Outils pour la tuyauterie → Raccord
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**P** **C**
-   Version:0.17
-   SeeAlso:[Arch Tuyau](Arch_Pipe/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
+- GuiCommand   */fr
+   Name   *Arch PipeConnector
+   Name/fr   *Arch Raccord
+   MenuLocation   *Arch → Outils pour la tuyauterie → Raccord
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   Shortcut   ***P** **C**
+   Version   *0.17
+   SeeAlso   *[Arch Tuyau](Arch_Pipe/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
 ---
 
 # Arch PipeConnector/fr
@@ -22,7 +22,7 @@ Cet outil vous permet de créer des raccords entre deux ou plusieurs [Arch Tuyau
 
 ## Propriétés
 
--    **Radius**: Le rayon de la courbe de la connexion
+-    **Radius**   * Le rayon de la courbe de la connexion
 
 ## Processus de travail typique 
 
@@ -31,11 +31,11 @@ Reportez-vous aux informations de [Tuyaux](Arch_Pipe/fr.md) pour en savoir plus 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Connecteur peut être utilisé dans une [macro](Macros/fr.md) ou depuis la console [Python](Python/fr.md) en utilisant la fonction suivante: 
+L\'outil Connecteur peut être utilisé dans une [macro](Macros/fr.md) ou depuis la console [Python](Python/fr.md) en utilisant la fonction suivante   * 
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```
@@ -43,7 +43,7 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Crée un objet `Connector` à partir du `pipes` donné qui est une liste de [Arch Tuyaux](Arch_Pipe/fr.md) et éventuellement un rayon `radius` de courbure.
     -   Les objets de base ([Draft Polylignes](Draft_Wire/fr.md)) des [Arch Tuyaux](Arch_Pipe/fr.md) devraient partager un point d\'extrémité afin de créer un connecteur correct et lisse.
 
-Exemple: 
+Exemple   * 
 ```python
 import FreeCAD, Draft, Arch
 

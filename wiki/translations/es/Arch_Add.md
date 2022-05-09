@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Arch Add
-   Name/es:Arch Add
-   Workbenches:[Entorno de Arquitectura](Arch_Workbench/es.md)
-   MenuLocation:Arquitectura → Adicción
-   SeeAlso:[Arch Suprimir](Arch_Remove/es.md)
+- GuiCommand   */es
+   Name   *Arch Add
+   Name/es   *Arch Add
+   Workbenches   *[Entorno de Arquitectura](Arch_Workbench/es.md)
+   MenuLocation   *Arquitectura → Adicción
+   SeeAlso   *[Arch Suprimir](Arch_Remove/es.md)
 ---
 
 # Arch Add/es
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta de adicción te permite realizar cuatro tipos de operaciones:
+La herramienta de adicción te permite realizar cuatro tipos de operaciones   *
 
 -   Añadir objetos basados en [formas](Part_Workbench/es.md) a un componente de Arquitectura, tal como un [muro](Arch_Wall/es.md) o una [estructura](Arch_Structure/es.md). Estos objetos forman así parte del componente de Arquitectura, y te permiten modificar su forma pero manteniendo sus propiedades base tales como el ancho y alto.
 -   Añadir componentes de Arquitectura, como [muros](Arch_Wall/es.md) o [estructuras](Arch_Structure/es.md), a un objeto de arquitectura como los [pisos](Arch_Floor/es.md).
@@ -29,7 +29,7 @@ La herramienta de adicción te permite realizar cuatro tipos de operaciones:
 
 The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -51,7 +51,7 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 <div class="mw-translate-fuzzy">
 
 1.  Selecciona el objeto(s) a ser añadido, luego el objeto \"huésped\" (el objeto huésped debe ser el último que selecciones)
-2.  Presiona el botón <img alt="" src=images/Arch_Add.png  style="width:16px;"> 
+2.  Presiona el botón <img alt="" src=images/Arch_Add.png  style="width   *16px;"> 
 **Añadir**
 
 
@@ -68,13 +68,13 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Añadir se puede utilizar en [macros](macros/es.md) y desde la consola de Python por medio de las siguientes instrucciones:
+La herramienta Añadir se puede utilizar en [macros](macros/es.md) y desde la consola de Python por medio de las siguientes instrucciones   *
 
 
 </div>
 
 
-:   
+   *   
     
 ```python
     addComponents(objectsList, host)
@@ -91,7 +91,7 @@ La herramienta Añadir se puede utilizar en [macros](macros/es.md) y desde la co
 
 </div>
 
-Ejemplo:
+Ejemplo   *
 
 
 ```python

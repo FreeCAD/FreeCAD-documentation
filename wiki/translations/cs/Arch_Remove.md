@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/cs
-   Name:Arch Remove
-   Name/cs:Architektura Odebrat
-   MenuLocation:Arch → Remove
-   Workbenches:[Arch](Arch_Workbench/cs.md)
-   SeeAlso:[[Arch Add]]
+- GuiCommand   */cs
+   Name   *Arch Remove
+   Name/cs   *Architektura Odebrat
+   MenuLocation   *Arch → Remove
+   Workbenches   *[Arch](Arch_Workbench/cs.md)
+   SeeAlso   *[[Arch Add]]
 ---
 
 # Arch Remove/cs
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Odebrat Vám umožňuje 2 druhy činnosti:
+Nástroj Odebrat Vám umožňuje 2 druhy činnosti   *
 
 -   Odebrat komponentu ze stavebního objektu, například odebrat kvádr, který byl přidán do zdi, jako je v příkladu [Přidat](Arch_Add/cs.md)
 -   Odebrat objekt založený na objektu [tvar](Part_Workbench/cs.md) ze stavební komponenty jako je třeba [zeď](Arch_Wall/cs.md) nebo [struktura](Arch_Structure/cs.md)
@@ -27,7 +27,7 @@ Nástroj Odebrat Vám umožňuje 2 druhy činnosti:
 
 The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 
-<img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Remove_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -48,7 +48,7 @@ The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px>
 
 <div class="mw-translate-fuzzy">
 
-1.  Vyberte součást uvnitř stavebního objektu **nebo**:
+1.  Vyberte součást uvnitř stavebního objektu **nebo**   *
 2.  Vyberte objekt(y), který má být odebrán, potom stavební komponentu, ze které se bude odebírat (tato stavební komponenta musí být vybrána jako poslední)
 3.  Stiskněte tlačítko **<img src="images/Arch_Remove.png" width=16px> '''Odebrat'''
 **
@@ -72,7 +72,7 @@ Or
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Odebrat může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
+Nástroj Odebrat může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -87,19 +87,19 @@ removeComponents(objectsList, host=None)
 
 -   odebere zadanou komponentu nebo komponenty podle zadaného seznamu objectsList z jejich rodičů. Je-li specifikován hlavní objekt hostObject, tato funkce se pokusí místo nich přidat komponenty jako jsou mezery.
 
-Příklad:
+Příklad   *
 
 
 </div>
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft, Arch
 
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

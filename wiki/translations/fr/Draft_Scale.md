@@ -1,36 +1,36 @@
 ---
-- GuiCommand:/fr
-   Name:Draft Scale
-   Name/fr:Draft Échelle
-   MenuLocation:Modification → Échelle
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**S** **C**
-   SeeAlso:[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md), [Draft Clone](Draft_Clone/fr.md)
+- GuiCommand   */fr
+   Name   *Draft Scale
+   Name/fr   *Draft Échelle
+   MenuLocation   *Modification → Échelle
+   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut   ***S** **C**
+   SeeAlso   *[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md), [Draft Clone](Draft_Clone/fr.md)
 ---
 
 # Draft Scale/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Draft Échelle** met à l\'échelle ou copie les objets sélectionnés autour d\'un point de base. En mode sous-élément, la commande met à l\'échelle les points et les arêtes sélectionnés de [Draft Ligne](Draft_Line/fr.md) et [Draft Polyligne](Draft_Wire/fr.md).
+La commande <img alt="" src=images/Draft_Scale.svg  style="width   *24px;"> **Draft Échelle** met à l\'échelle ou copie les objets sélectionnés autour d\'un point de base. En mode sous-élément, la commande met à l\'échelle les points et les arêtes sélectionnés de [Draft Ligne](Draft_Line/fr.md) et [Draft Polyligne](Draft_Wire/fr.md).
 
 La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draft](Draft_Workbench/fr.md) ou l\'[Atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[Atelier Part](Part_Workbench/fr.md), l\'[Atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[Atelier Arch](Arch_Workbench/fr.md).
 
-<img alt="" src=images/Draft_Scale_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_Scale_example.png  style="width   *400px;"> 
 *Mise à l'échelle d'un objet autour d'un point de base*
 
 ## Usage
 
-Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi    * [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Sélectionnez éventuellement un ou plusieurs objets, ou un ou plusieurs sous-éléments de [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
-2.  Il existe plusieurs manières d\'invoquer la commande :
+2.  Il existe plusieurs manières d\'invoquer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_Scale.svg" width=16px> [Draft Échelle](Draft_Scale/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Scale.svg" width=16px> Échelle** dans le menu.
-    -   Utilisez le raccourci clavier : **S** puis **C**.
-3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
+    -   Utilisez le raccourci clavier    * **S** puis **C**.
+3.  Si vous n\'avez pas encore sélectionné d\'objet    * sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 4.  Le panneau des tâches **Échelle** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-5.  Si des sous-éléments ont été sélectionnés : cochez la case **Modifier les sous-éléments** pour activer le mode sous-élément.
+5.  Si des sous-éléments ont été sélectionnés    * cochez la case **Modifier les sous-éléments** pour activer le mode sous-élément.
 6.  Choisissez le point de base dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 7.  Entrez les facteurs d\'échelle X, Y et Z.
 8.  Appuyez sur **Retour** ou sur le bouton **OK** pour terminer la commande.
@@ -64,15 +64,15 @@ Les raccourcis clavier à caractère unique mentionné ici peut être modifié. 
 
 ## Préférences
 
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
+Voir aussi    * [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des facteurs d\'échelle ({{Version/fr|0.20}}) et des coordonnées : **Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
--   Pour modifier le nombre de décimales utilisées pour la saisie des facteurs d\'échelle ({{VersionMinus/fr|0.19}}) : **Édition → Préférences... → Draft → Paramètres généraux → Paramètres généraux Draft → Niveau de précision interne**.
--   Pour resélectionner les objets de base après avoir copié les objets : **Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie**.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des facteurs d\'échelle ({{Version/fr|0.20}}) et des coordonnées    * **Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des facteurs d\'échelle ({{VersionMinus/fr|0.19}})    * **Édition → Préférences... → Draft → Paramètres généraux → Paramètres généraux Draft → Niveau de précision interne**.
+-   Pour resélectionner les objets de base après avoir copié les objets    * **Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie**.
 
 ## Script
 
-Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Pour mettre à l\'échelle des objets, utilisez la méthode `scale` du module Draft.
 
@@ -91,7 +91,7 @@ scaled_list = scale(objectslist, scale=Vector(1,1,1), center=Vector(0,0,0), copy
 
 -    `scaled_list`est retourné avec les objets originaux mis à l\'échelle, ou avec les nouvelles copies. Il s\'agit soit d\'un objet unique, soit d\'une liste d\'objets, en fonction de `objectslist`.
 
-Exemple :
+Exemple    *
 
 
 ```python

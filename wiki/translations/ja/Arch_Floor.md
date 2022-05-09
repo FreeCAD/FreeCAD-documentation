@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ja
-   Name:Arch Floor   Name/ja:Arch Floor
-   MenuLocation:Arch → Floor
-   Workbenches:[Arch](Arch_Workbench/ja.md)
-   Shortcut:**F** **L**
-   SeeAlso:[[Arch Building]], [[Arch BuildingPart]], [[Arch Site]]
+- GuiCommand   */ja
+   Name   *Arch Floor   Name/ja   *Arch Floor
+   MenuLocation   *Arch → Floor
+   Workbenches   *[Arch](Arch_Workbench/ja.md)
+   Shortcut   ***F** **L**
+   SeeAlso   *[[Arch Building]], [[Arch BuildingPart]], [[Arch Site]]
 ---
 
 # Arch Floor/ja
@@ -66,7 +66,7 @@ Floor = makeFloor(objectslist=None, baseobj=None, name="Floor")
 
 -   Creates a `Floor` object from `objectslist`, which is a list of objects.
 
-例題:
+例題   *
 
 
 ```python

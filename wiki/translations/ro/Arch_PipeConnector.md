@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Arch PipeConnector
-   MenuLocation:Arch → Pipe Tools → Pipe Connector
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:**P** **C**
-   SeeAlso:[Arch Equipment/ro](Arch_Pipe/ro]],_[[Arch_Equipment.md)
-   Version:0.17
+- GuiCommand   */ro
+   Name   *Arch PipeConnector
+   MenuLocation   *Arch → Pipe Tools → Pipe Connector
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   Shortcut   ***P** **C**
+   SeeAlso   *[Arch Equipment/ro](Arch_Pipe/ro]],_[[Arch_Equipment.md)
+   Version   *0.17
 ---
 
 # Arch PipeConnector/ro
@@ -40,7 +40,7 @@ Acest instrument permite crearea unui conector de colț sau T între două sau t
 
 ## Proprietăți
 
--    **Radius**: Raza curburii acestui conector
+-    **Radius**   * Raza curburii acestui conector
 
 ## Fluxul de lucru tipic 
 
@@ -65,7 +65,7 @@ See [Arch Pipe\#Typical\_workflow](Arch_Pipe#Typical_workflow.md)
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Pipe Connector poate fi utilizat în [macros](macros.md) și de la consola Python folosind următoarea funcție:
+Instrumentul Pipe Connector poate fi utilizat în [macros](macros.md) și de la consola Python folosind următoarea funcție   *
 
 
 </div>
@@ -78,7 +78,7 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
     -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft, Arch
 

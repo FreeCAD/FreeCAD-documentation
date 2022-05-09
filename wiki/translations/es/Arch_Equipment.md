@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Arch Equipment
-   Name/es:Arch Equipment
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   MenuLocation:Arch → Equipment
-   Shortcut:E Q
-   SeeAlso:[3 views from mesh](Arch_3Views/es.md)
+- GuiCommand   */es
+   Name   *Arch Equipment
+   Name/es   *Arch Equipment
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   MenuLocation   *Arch → Equipment
+   Shortcut   *E Q
+   SeeAlso   *[3 views from mesh](Arch_3Views/es.md)
 ---
 
 # Arch Equipment/es
@@ -14,13 +14,13 @@
 </div>
 
 ---
-- GuiCommand:/es
-   Name:Arch Equipment
-   Name/es:Arch Equipment
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   MenuLocation:Arch → Equipment
-   Shortcut:E Q
-   SeeAlso:[3 views from mesh](Arch_3Views/es.md)
+- GuiCommand   */es
+   Name   *Arch Equipment
+   Name/es   *Arch Equipment
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   MenuLocation   *Arch → Equipment
+   Shortcut   *E Q
+   SeeAlso   *[3 views from mesh](Arch_3Views/es.md)
 ---
 
 # Arch Equipment/es
@@ -81,11 +81,11 @@ Cuando se utiliza el exportador Arch OBJ, todos los equipos que están en el mod
 
 ## Propiedades
 
--    {{PropertyData/es|Model}}: una descripción del modelo de este equipamiento.
+-    {{PropertyData/es|Model}}   * una descripción del modelo de este equipamiento.
 
--    {{PropertyData/es|Url}}: una URL de la página del producto donde se puede encontrar más información sobre este equipamiento.
+-    {{PropertyData/es|Url}}   * una URL de la página del producto donde se puede encontrar más información sobre este equipamiento.
 
--    {{PropertyData/es|Mesh}}: una representación de [Mesh](Mesh_Workbench/es.md) para usar con este equipo. Cuando se establece, el modo de visualización **Mesh** está disponible.
+-    {{PropertyData/es|Mesh}}   * una representación de [Mesh](Mesh_Workbench/es.md) para usar con este equipo. Cuando se establece, el modo de visualización **Mesh** está disponible.
 
 
 <div class="mw-translate-fuzzy">
@@ -96,14 +96,14 @@ Cuando se utiliza el exportador Arch OBJ, todos los equipos que están en el mod
 </div>
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Equipamiento puede utilizarse en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función:
+La herramienta Equipamiento puede utilizarse en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función   *
 
 
 </div>
@@ -122,11 +122,11 @@ Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 
 </div>
 
-Ejemplo: 
+Ejemplo   * 
 ```python
 import FreeCAD, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 500
 Box.Width = 2000
 Box.Height = 600

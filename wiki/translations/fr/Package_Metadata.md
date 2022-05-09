@@ -3,7 +3,7 @@
 
 ## Introduction
 
-A partir de la version 0.20 de FreeCAD, les add-ons externes (ateliers, macros, et kits de préférences) peuvent être distribués avec un fichier de métadonnées décrivant le contenu du package. Si le fichier \"package.xml\" est présent, il est lu par FreeCAD et son contenu est utilisé dans diverses parties de l\'interface utilisateur. Il est actuellement facultatif pour les blocs de travail et les macros, et obligatoire pour les packs de préférences. Cette page documente le format de ce fichier de métadonnées. Le format (et le contenu de cette page Wiki) est basé sur [REP 149](https://ros.org/reps/rep-0149.html).
+A partir de la version 0.20 de FreeCAD, les add-ons externes (ateliers, macros, et kits de préférences) peuvent être distribués avec un fichier de métadonnées décrivant le contenu du package. Si le fichier \"package.xml\" est présent, il est lu par FreeCAD et son contenu est utilisé dans diverses parties de l\'interface utilisateur. Il est actuellement facultatif pour les blocs de travail et les macros, et obligatoire pour les packs de préférences. Cette page documente le format de ce fichier de métadonnées. Le format (et le contenu de cette page Wiki) est basé sur [REP 149](https   *//ros.org/reps/rep-0149.html).
 
 ## Format général du fichier 
 
@@ -11,7 +11,7 @@ Ce document décrit actuellement la version 1 du format de fichier.
 
 Le fichier de métadonnées doit être un document XML 1.0 valide et bien formé. Il doit s\'appeler \"package.xml\", et doit exister dans le répertoire de base du logiciel. Toutes les balises XML comprises sont en minuscules, mais les balises non reconnues ne constituent pas une erreur. La plupart des balises sont facultatives, et certaines ne s\'appliquent qu\'à certains types de contenu de paquetage (par exemple, seuls les ateliers fournissent actuellement un élément \"classname\"). Les éléments inutiles ou non reconnus sont ignorés.
 
-Tout chemin de fichier spécifié dans package.xml doit utiliser la barre oblique (\"/\") comme séparateur de répertoire : sur les systèmes qui attendent un séparateur différent pendant l\'exécution (par exemple Windows) FreeCAD convertira automatiquement vers le séparateur correct.
+Tout chemin de fichier spécifié dans package.xml doit utiliser la barre oblique (\"/\") comme séparateur de répertoire    * sur les systèmes qui attendent un séparateur différent pendant l\'exécution (par exemple Windows) FreeCAD convertira automatiquement vers le séparateur correct.
 
 ## Éléments de contenu 
 
@@ -19,18 +19,18 @@ Tout chemin de fichier spécifié dans package.xml doit utiliser la barre obliqu
 
 Le seul élément de haut niveau autorisé est , et le fichier ne peut contenir qu\'un seul élément . Immédiatement subordonnés à celui-ci se trouvent plusieurs éléments obligatoires ou facultatifs, définis ici. Aucune autre balise n\'est autorisée directement sous l\'élément .
 
-    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+    <package format="1" xmlns="https   *//wiki.freecad.org/Package_Metadata">
 
 La balise  est la balise unique de premier niveau dans un fichier package.xml. Toutes les autres balises sont imbriquées sous elle.
 
 #### Attributs
 
--   format=\"NUMERO\" : Spécifier le format package.xml utilisé. Pour cette interface, vous devez spécifier format=\"1\".
--   xmlns=\"NAMESPACE\" : Spécifie l\'espace de noms XML pour ce paquet, et doit être inclus exactement comme indiqué ci-dessus, comme un lien vers <https://wiki.freecad.org/Package_Metadata>.
+-   format=\"NUMERO\"    * Spécifier le format package.xml utilisé. Pour cette interface, vous devez spécifier format=\"1\".
+-   xmlns=\"NAMESPACE\"    * Spécifie l\'espace de noms XML pour ce paquet, et doit être inclus exactement comme indiqué ci-dessus, comme un lien vers <https   *//wiki.freecad.org/Package_Metadata>.
 
 #### Balises enfant requises 
 
-L\'élément  de niveau supérieur doit contenir au moins les balises suivantes :
+L\'élément  de niveau supérieur doit contenir au moins les balises suivantes    *
 
 -   [](#.3Cname.3E.md)
 -   [](#.3Cversion.3E.md)
@@ -56,13 +56,13 @@ L\'élément  de niveau supérieur doit contenir au moins les balises suivantes 
 
 OBLIGATOIRE
 
-Le nom de ce paquet. Ne doit contenir que des caractères valides pour les noms de fichiers (les caractères non autorisés sont /\\?%\*:\|\"\<\> ).
+Le nom de ce paquet. Ne doit contenir que des caractères valides pour les noms de fichiers (les caractères non autorisés sont /\\?%\*   *|\"\<\> ).
 
 ###  
 
 OBLIGATOIRE
 
-Un numéro de version qui suit soit la [norme de versionnement sémantique 2.0](https://semver.org) (par exemple 1.0.2-beta), soit le style [CalVer](https://calver.org/) (par exemple 2021.12.08). Notez que vous ne pouvez pas inclure les deux types, et que le passage d\'un type à l\'autre n\'est pas pris en charge. En interne, le code n\'a aucune notion du type choisi, lors de la comparaison des versions, il effectue une simple comparaison numérique entre chaque composant numérique successif, quel que soit le type.
+Un numéro de version qui suit soit la [norme de versionnement sémantique 2.0](https   *//semver.org) (par exemple 1.0.2-beta), soit le style [CalVer](https   *//calver.org/) (par exemple 2021.12.08). Notez que vous ne pouvez pas inclure les deux types, et que le passage d\'un type à l\'autre n\'est pas pris en charge. En interne, le code n\'a aucune notion du type choisi, lors de la comparaison des versions, il effectue une simple comparaison numérique entre chaque composant numérique successif, quel que soit le type.
 
 ###  
 
@@ -84,9 +84,9 @@ Le nom de la personne qui maintient le paquet. Tous les paquets nécessitent un 
 
 #### Attributs 
 
--   email=\"name\@domain.tld\" (obligatoire) : Adresse électronique du responsable.
+-   email=\"name\@domain.tld\" (obligatoire)    * Adresse électronique du responsable.
 
-Un paquet orphelin est un paquet qui n\'a pas de mainteneur attitré. Les paquets orphelins doivent utiliser les informations suivantes sur le mainteneur :
+Un paquet orphelin est un paquet qui n\'a pas de mainteneur attitré. Les paquets orphelins doivent utiliser les informations suivantes sur le mainteneur    *
 
     <maintainer email="no-one@freecad.org">No current maintainer</maintainer>
 
@@ -96,9 +96,9 @@ AU MOINS UN OBLIGATOIRE (plusieurs autorisés)
 
 Nom de la licence pour ce paquet, par exemple BSD, GPL, LGPL. Afin de faciliter la lecture par les machines, n\'incluez que le nom de la licence dans cette balise. Pour les licences multiples, plusieurs balises distinctes doivent être utilisées. Un paquet aura plusieurs licences si les différents fichiers sources ont des licences différentes. Chaque licence apparaissant dans les fichiers sources doit avoir une balise  correspondante. Pour tout texte explicatif sur les mises en garde relatives aux licences, veuillez utiliser la balise .
 
-Les licences de logiciels libres les plus courantes sont décrites sur le [site web de l\'OSI](https://opensource.org/licenses/alphabetical).
+Les licences de logiciels libres les plus courantes sont décrites sur le [site web de l\'OSI](https   *//opensource.org/licenses/alphabetical).
 
-Les licences les plus utilisées :
+Les licences les plus utilisées    *
 
 -    `"Apache-2.0"`
     
@@ -131,24 +131,24 @@ Les licences les plus utilisées :
 
 #### Attributs 
 
--    `file<nowiki>=</nowiki>"FILE"`(facultatif) : Un chemin relatif au fichier `package.xml` contenant le texte complet de la licence. De nombreuses licences exigent l\'inclusion du texte de la licence lors de la redistribution du logiciel. Par exemple, la licence Apache, version 2.0, stipule au paragraphe 4.1 : \"Vous devez remettre à tout autre destinataire de l\'œuvre ou des œuvres dérivées une copie de la présente licence\".
+-    `file<nowiki>=</nowiki>"FILE"`(facultatif)    * Un chemin relatif au fichier `package.xml` contenant le texte complet de la licence. De nombreuses licences exigent l\'inclusion du texte de la licence lors de la redistribution du logiciel. Par exemple, la licence Apache, version 2.0, stipule au paragraphe 4.1    * \"Vous devez remettre à tout autre destinataire de l\'œuvre ou des œuvres dérivées une copie de la présente licence\".
 
 ###  
 
 OBLIGATOIRE
 
-La balise  décrit le contenu réel du paquet. Elle n\'a pas d\'attributs, et contient un nombre quelconque d\'enfants. Ces enfants peuvent avoir des noms de balises arbitraires, dont seuls certains peuvent être reconnus par FreeCAD. FreeCAD supporte actuellement les éléments \"workbench\", \"macro\", et \"preferencepack\". Chaque enfant est ensuite défini récursivement par cette norme, contenant n\'importe quel ou tous les éléments autorisés pour le noeud racine . Par exemple :
+La balise  décrit le contenu réel du paquet. Elle n\'a pas d\'attributs, et contient un nombre quelconque d\'enfants. Ces enfants peuvent avoir des noms de balises arbitraires, dont seuls certains peuvent être reconnus par FreeCAD. FreeCAD supporte actuellement les éléments \"workbench\", \"macro\", et \"preferencepack\". Chaque enfant est ensuite défini récursivement par cette norme, contenant n\'importe quel ou tous les éléments autorisés pour le noeud racine . Par exemple    *
 
     <content>
       <preferencepack>
         <name>Unicorn Sparkles Theme</name>
         <version>1.0.0</version>
-        <url type="readme">https://github.com/chennes/FreeCAD-themes/blob/main/Unicorn%20Sparkles%20Theme/Readme.md</url>
+        <url type="readme">https   *//github.com/chennes/FreeCAD-themes/blob/main/Unicorn%20Sparkles%20Theme/Readme.md</url>
         <icon>sparkles.svg</icon>
       </preferencepack>
     </content>
 
-L\'existence d\'éléments  implique un ensemble de sous-dossiers, un pour chaque élément de contenu, nommé exactement comme le nom donné à l\'élément. Ainsi, pour l\'exemple ci-dessus, la structure des dossiers du paquet est la suivante :
+L\'existence d\'éléments  implique un ensemble de sous-dossiers, un pour chaque élément de contenu, nommé exactement comme le nom donné à l\'élément. Ainsi, pour l\'exemple ci-dessus, la structure des dossiers du paquet est la suivante    *
 
     Package Directory/
       package.xml
@@ -159,7 +159,7 @@ L\'existence d\'éléments  implique un ensemble de sous-dossiers, un pour chaqu
 
 Outre les autres éléments de , les éléments de contenu peuvent éventuellement fournir des informations dans les balises ,  et  (techniquement, celles-ci peuvent également être fournies à la balise racine , mais elles y sont généralement inutilisées).
 
-**Note de rétrocompatibilité** : pour éviter de devoir restructurer les paquets antérieurs à cette norme de métadonnées, la balise facultative [](#.3Csubdirectory.3E.md) est autorisée à spécifier \"./\" comme sous-répertoire pour un élément de contenu, auquel cas aucun sous-répertoire n\'est nécessaire. Cela correspond au système pré-standard où un seul poste de travail était situé au sommet de la structure des répertoires.
+**Note de rétrocompatibilité**    * pour éviter de devoir restructurer les paquets antérieurs à cette norme de métadonnées, la balise facultative [](#.3Csubdirectory.3E.md) est autorisée à spécifier \"./\" comme sous-répertoire pour un élément de contenu, auquel cas aucun sous-répertoire n\'est nécessaire. Cela correspond au système pré-standard où un seul poste de travail était situé au sommet de la structure des répertoires.
 
 ####  
 
@@ -187,18 +187,18 @@ Fournis pour la convivialité d\'autres outils, un certain nombre d\'autres fich
 
 ###  
 
-Plusieurs autorisés : Le type \"repository\" est obligatoire, et le type \"readme\" est fortement recommandé.
+Plusieurs autorisés    * Le type \"repository\" est obligatoire, et le type \"readme\" est fortement recommandé.
 
 Un URL (Uniform Resource Locator) pour le site web du paquet, le système de suivi des bogues, le dépôt des sources, le lien de téléchargement du zip, le fichier readme ou la documentation (comme spécifié par l\'attribut \"type\" - voir ci-dessous).
 
-Lorsque vous spécifiez le type \"readme\", un lien direct vers une version restituée du fichier README doit être fourni. Par exemple, sur GitHub, il s\'agit d\'un lien de type \"blob\" tel que \"<https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md>\", ou sur une instance GitLab, \"<https://gitlab.com/opensimproject/cfdof/-/blob/master/README.md>\" (notez le format d\'URL légèrement différent entre les deux).
+Lorsque vous spécifiez le type \"readme\", un lien direct vers une version restituée du fichier README doit être fourni. Par exemple, sur GitHub, il s\'agit d\'un lien de type \"blob\" tel que \"<https   *//github.com/FreeCAD/FreeCAD-addons/blob/master/README.md>\", ou sur une instance GitLab, \"<https   *//gitlab.com/opensimproject/cfdof/-/blob/master/README.md>\" (notez le format d\'URL légèrement différent entre les deux).
 
 C\'est une bonne idée d\'inclure des balises  pointant les utilisateurs vers les ressources en ligne de votre paquet. Il s\'agit généralement d\'une page wiki de wiki.freecad.org où les utilisateurs peuvent trouver et mettre à jour des informations sur le paquet, par exemple. Le gestionnaire d\'addons répertorie ces URL et fournit des liens cliquables vers celles-ci dans la description du paquet.
 
 #### Attributs 
 
--   type=\"TYPE\" (obligatoire) : Le type doit être l\'un des identifiants suivants : \"website\", \"bugtracker\", \"repository\", \"readme\" ou \"documentation\".
--   branch=\"BRANCH\" (obligatoire pour type=\"repository\") : Le nom de la branche à extraire pour obtenir ce paquet. Il s\'agit généralement du nom de votre branche de développement principale. Peut également spécifier tout autre type de référence git, par exemple une balise ou un commit spécifique.
+-   type=\"TYPE\" (obligatoire)    * Le type doit être l\'un des identifiants suivants    * \"website\", \"bugtracker\", \"repository\", \"readme\" ou \"documentation\".
+-   branch=\"BRANCH\" (obligatoire pour type=\"repository\")    * Le nom de la branche à extraire pour obtenir ce paquet. Il s\'agit généralement du nom de votre branche de développement principale. Peut également spécifier tout autre type de référence git, par exemple une balise ou un commit spécifique.
 
 ###  
 
@@ -208,7 +208,7 @@ Le nom d\'une personne qui est un auteur du paquet, comme reconnaissance de son 
 
 #### Attributs 
 
--   email=\"name\@domain.tld\" (facultatif) : Adresse électronique de l\'auteur.
+-   email=\"name\@domain.tld\" (facultatif)    * Adresse électronique de l\'auteur.
 
 ###  
 
@@ -220,12 +220,12 @@ Déclare une dépendance sur un autre addon FreeCAD ou un atelier interne, ou un
 
 Toutes les dépendances et relations peuvent restreindre leur applicabilité à des versions particulières. Un attribut peut être utilisé pour chaque opérateur de comparaison. Deux de ces attributs peuvent être utilisés ensemble pour décrire une gamme de versions.
 
--   version\_lt=\"VERSION\" (facultatif) : La dépendance au paquet est limitée aux versions inférieures au numéro de version indiqué.
--   version\_lte=\"VERSION\" (facultatif) : La dépendance au paquet est limitée aux versions inférieures ou égales au numéro de version indiqué.
--   version\_eq=\"VERSION\" (facultatif) : La dépendance au paquet est restreinte à une version égale au numéro de version indiqué.
--   version\_gte=\"VERSION\" (facultatif) : La dépendance au paquet est limitée aux versions supérieures ou égales au numéro de version indiqué.
--   version\_gt=\"VERSION\" (facultatif) : La dépendance au paquet est limitée aux versions supérieures au numéro de version indiqué.
--   condition=\"CONDITION\_EXPRESSION\" : Chaque dépendance peut être conditionnée par une expression de condition. Si l\'expression de condition vaut \"true\", la dépendance est utilisée et considérée comme si elle n\'avait pas d\'attribut de condition. Si l\'expression conditionnelle vaut \"false\", la dépendance est ignorée et considérée comme si elle n\'existait pas. L\'expression doit être une expression FreeCAD valide (i.e. syntaxe en Python), et peut faire référence aux variables \"\$BuildVersionMajor\", \"\$BuildVersionMinor\", et \"\$BuildRevision\" représentant la version de FreeCAD en cours d\'exécution.
+-   version\_lt=\"VERSION\" (facultatif)    * La dépendance au paquet est limitée aux versions inférieures au numéro de version indiqué.
+-   version\_lte=\"VERSION\" (facultatif)    * La dépendance au paquet est limitée aux versions inférieures ou égales au numéro de version indiqué.
+-   version\_eq=\"VERSION\" (facultatif)    * La dépendance au paquet est restreinte à une version égale au numéro de version indiqué.
+-   version\_gte=\"VERSION\" (facultatif)    * La dépendance au paquet est limitée aux versions supérieures ou égales au numéro de version indiqué.
+-   version\_gt=\"VERSION\" (facultatif)    * La dépendance au paquet est limitée aux versions supérieures au numéro de version indiqué.
+-   condition=\"CONDITION\_EXPRESSION\"    * Chaque dépendance peut être conditionnée par une expression de condition. Si l\'expression de condition vaut \"true\", la dépendance est utilisée et considérée comme si elle n\'avait pas d\'attribut de condition. Si l\'expression conditionnelle vaut \"false\", la dépendance est ignorée et considérée comme si elle n\'existait pas. L\'expression doit être une expression FreeCAD valide (i.e. syntaxe en Python), et peut faire référence aux variables \"\$BuildVersionMajor\", \"\$BuildVersionMinor\", et \"\$BuildRevision\" représentant la version de FreeCAD en cours d\'exécution.
 
 ###  
 
@@ -261,17 +261,17 @@ La version maximale de FreeCAD requise pour utiliser le paquetage/élément, sou
 
 ## Exemples
 
-Un paquet simple réservé à l\'atelier (par exemple, pour ajouter un fichier de métadonnées à un paquet antérieur à ce format de métadonnées) :
+Un paquet simple réservé à l\'atelier (par exemple, pour ajouter un fichier de métadonnées à un paquet antérieur à ce format de métadonnées)    *
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+    <package format="1" xmlns="https   *//wiki.freecad.org/Package_Metadata">
       <name>Legacy Workbench</name>
       <description>A package.xml file to add to a workbench that predates the metadata standard.</description>
       <version>1.0.1</version>
       <date>2022-01-07</date>
       <maintainer email="your_address@null.com">Your Name</maintainer>
       <license file="LICENSE">LGPLv2.1</license>
-      <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
+      <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
       <icon>Resources/icons/PackageIcon.svg</icon> 
 
       <content>
@@ -283,17 +283,17 @@ Un paquet simple réservé à l\'atelier (par exemple, pour ajouter un fichier d
 
     </package>
 
-Un paquet complexe, à plusieurs composantes :
+Un paquet complexe, à plusieurs composantes    *
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+    <package format="1" xmlns="https   *//wiki.freecad.org/Package_Metadata">
       <name>Example Package Format</name>
       <description>An example of the package.xml file format</description>
       <version>2022.01</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
       <license file="LICENSE">GPLv3</license>
-      <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
+      <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 
       <content>
@@ -323,17 +323,17 @@ Un paquet complexe, à plusieurs composantes :
 
     </package>
 
-Un paquet avec des dépendances :
+Un paquet avec des dépendances    *
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+    <package format="1" xmlns="https   *//wiki.freecad.org/Package_Metadata">
       <name>Example with Dependencies</name>
       <description>An example of the package.xml file format</description>
       <version>1.0.1-beta3</version>
       <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
       <license file="LICENSE">GPLv3</license>
-      <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
+      <url type="repository" branch="main">https   *//github.com/chennes/FreeCAD-Package</url>
       <icon>PackageIcon.svg</icon>
 
       <content>
@@ -362,6 +362,11 @@ Un paquet avec des dépendances :
       </content>
 
     </package>
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

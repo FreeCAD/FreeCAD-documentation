@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Arch RemoveShape
-   Name/de:Arch FormEntfernen
-   Workbenches:[Arch-Arbeitsbereich](Arch_Workbench/de.md)
-   MenuLocation:Architektur → Dienstprogramme → Entferne Form
-   SeeAlso:[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
+- GuiCommand   */de
+   Name   *Arch RemoveShape
+   Name/de   *Arch FormEntfernen
+   Workbenches   *[Arch-Arbeitsbereich](Arch_Workbench/de.md)
+   MenuLocation   *Architektur → Dienstprogramme → Entferne Form
+   SeeAlso   *[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
 ---
 
 # Arch RemoveShape/de
@@ -33,7 +33,7 @@ Dieses Werkzeug versucht, beim entfernen der inneren kubische Form eines **<img 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -43,7 +43,7 @@ Dieses Werkzeug versucht, beim entfernen der inneren kubische Form eines **<img 
 
 <div class="mw-translate-fuzzy">
 
-Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
+Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden   *
 
 
 </div>
@@ -64,7 +64,7 @@ removeShape(objs, mark=True)
 ```python
 import FreeCAD, Draft, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 1000
 Box.Width = 2000
 Box.Height = 1000
@@ -85,11 +85,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
-
-
-{{Arch_Tools_navi
-
-}}
 
 
 

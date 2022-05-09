@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Sketcher Create3PointCircle
-   Name/es:Croquizador CrearCírculo3Puntos
-   MenuLocation:Croquis → Geometrías del Croquizador → Crear círculo por tres puntos
-   Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */es
+   Name   *Sketcher Create3PointCircle
+   Name/es   *Croquizador CrearCírculo3Puntos
+   MenuLocation   *Croquis → Geometrías del Croquizador → Crear círculo por tres puntos
+   Workbenches   *[Croquizador](Sketcher_Workbench/es.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Sketcher Create3PointCircle/es
@@ -15,7 +15,7 @@
 
 ## Descripción
 
-Esta herramienta <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:16px;"> dibuja un círculo eligiendo tres puntos en el contorno del círculo. Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de círculo rojo. Además se muestran las coordenadas en tiempo real.
+Esta herramienta <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *16px;"> dibuja un círculo eligiendo tres puntos en el contorno del círculo. Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de círculo rojo. Además se muestran las coordenadas en tiempo real.
 
 ## Utilización
 

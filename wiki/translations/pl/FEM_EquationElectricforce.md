@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/pl
-   Name:FEM EquationElectricforce
-   Name/pl:MES: Równanie siły elektrostatycznej
-   MenuLocation:Rozwiąż → Równanie siły elektrostatycznej
-   Workbenches:[MES](FEM_Workbench/pl.md)
-   Version:0.19
-   SeeAlso:
+- GuiCommand   */pl
+   Name   *FEM EquationElectricforce
+   Name/pl   *MES   * Równanie siły elektrostatycznej
+   MenuLocation   *Rozwiąż → Równanie siły elektrostatycznej
+   Workbenches   *[MES](FEM_Workbench/pl.md)
+   Version   *0.19
+   SeeAlso   *
 ---
 
 # FEM EquationElectricforce/pl

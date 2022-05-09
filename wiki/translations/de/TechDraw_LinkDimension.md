@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw Dimension Link
-   Name/de:TechDraw MaßVerknüpfen
-   MenuLocation:TechDraw → Bemaßungen → Maß mit 3D Geometrie verknüpfen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw ProjektionsGruppe](TechDraw_ProjectionGroup/de.md)
+- GuiCommand   */de
+   Name   *TechDraw Dimension Link
+   Name/de   *TechDraw MaßVerknüpfen
+   MenuLocation   *TechDraw → Bemaßungen → Maß mit 3D Geometrie verknüpfen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso   *[TechDraw Ansicht](TechDraw_View/de.md), [TechDraw ProjektionsGruppe](TechDraw_ProjectionGroup/de.md)
 ---
 
 # TechDraw LinkDimension/de
@@ -44,11 +44,11 @@ Beachte, dass, wenn die zu verknüpfende Bemaßung auf zwei Eckpunkten basiert, 
 ## Programmierung
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug MaßVerknüpfung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
+Das Werkzeug MaßVerknüpfung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden   *
 
 
 ```python

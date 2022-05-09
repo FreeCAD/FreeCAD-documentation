@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Std Placement
-   Name/de : Std Positionierung
-   MenuLocation:Bearbeiten → Placement...
-   Workbenches:Alle
-   SeeAlso:[Std Ausrichtung](Std_Alignment/de.md), [Positionierung](Placement/de.md)
+- GuiCommand   */de
+   Name   *Std Placement
+   Name/de    * Std Positionierung
+   MenuLocation   *Bearbeiten → Placement...
+   Workbenches   *Alle
+   SeeAlso   *[Std Ausrichtung](Std_Alignment/de.md), [Positionierung](Placement/de.md)
 ---
 
 # Std Placement/de
@@ -24,7 +24,7 @@ Der Befehl **Std Positionierung** zeigt den [ Aufgabenbereich](Task_panel/de.md)
 
 3.  Einen oder mehrere der Translations- und Rotationsparameter ändern.
 
-4.  Mache eins der folgenden:
+4.  Mache eins der folgenden   *
     -   Die Schaltfläche **OK** drücken, um die Änderungen zu übernehmen und den Aufgabenbereich zu schließen.
     -   Die Schaltfläche **Anwenden** drücken, um die Änderungen zu übernehmen, aber den Aufgabenbereich für weitere Änderungen offen zu lassen.
 
@@ -40,20 +40,20 @@ Der Dialog kann auch durch Klicken auf die Ellipsentaste **...** gestartet werde
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Siehe das [Python Skipterstellung Tutorium](Python_scripting_tutorial/de#Vektoren_und_Platzierungen.md).
 
-Eine Positionierung wird intern durch eine Matrix bestimmt; in vielen Fällen ist es einfacher, dies durch zwei Komponenten darzustellen, einem `Base`-Punkt (Vektor) und einem `Rotation`-Wert. `Rotation` selbst hat verschiedene Entsprechungen. Es kann vollständig durch den Wert einer \"[quaternion](https://en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)` bestimmt werden. Es kann aber auch durch eine Rotations `Axis` (Einheitsvektor) und eine Rotations `Angle` (Bogenmaß) bestimmt werden.
+Eine Positionierung wird intern durch eine Matrix bestimmt; in vielen Fällen ist es einfacher, dies durch zwei Komponenten darzustellen, einem `Base`-Punkt (Vektor) und einem `Rotation`-Wert. `Rotation` selbst hat verschiedene Entsprechungen. Es kann vollständig durch den Wert einer \"[quaternion](https   *//en.wikipedia.org/wiki/Quaternion)\" `(xi + yj + zk + w)` bestimmt werden. Es kann aber auch durch eine Rotations `Axis` (Einheitsvektor) und eine Rotations `Angle` (Bogenmaß) bestimmt werden.
 
 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = doc.addObject("Part::Cylinder", "Cylinder")
+obj = doc.addObject("Part   *   *Cylinder", "Cylinder")
 
 print(obj.Placement)
 # Placement [Pos=(0,0,0), Yaw-Pitch-Roll=(0,0,0)]

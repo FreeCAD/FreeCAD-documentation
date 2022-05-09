@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Arch_Rebar_BeamReinforcement
-   Name/de:Architektur Bewehrung BalkenVerstärkung
-   MenuLocation:Arch → Bewehrungswerkzeuge oder 3D/BIM → Reinforcement → BalkenVerstärkung
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[Reinforcement_Workbench/de](Reinforcement_Workbench/de.md), [Arch Rebar](Arch_Rebar/de.md), [SäulenVerstärkung ZweiBinderSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md), [Architektur Bewehrung](Arch_Rebar/de.md)
+- GuiCommand   */de
+   Name   *Arch_Rebar_BeamReinforcement
+   Name/de   *Architektur Bewehrung BalkenVerstärkung
+   MenuLocation   *Arch → Bewehrungswerkzeuge oder 3D/BIM → Reinforcement → BalkenVerstärkung
+   Workbenches   *[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[Reinforcement_Workbench/de](Reinforcement_Workbench/de.md), [Arch Rebar](Arch_Rebar/de.md), [SäulenVerstärkung ZweiBinderSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md), [Architektur Bewehrung](Arch_Rebar/de.md)
 ---
 
 # Arch Rebar BeamReinforcement/de
@@ -22,7 +22,7 @@ Das [Arch Balkenverstärkung](Arch_Rebar_BeamReinforcement/de.md)-Werkzeug ist a
 
 <div class="mw-translate-fuzzy">
 
-Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
+Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
 
 
 </div>
@@ -41,7 +41,7 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 3\. A dialog box will pop-out on screen as shown below.
 
-:   <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:700px;">
+   *   <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width   *700px;">
 
 
 
@@ -53,7 +53,7 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 6\. Click **Next** and the dialog box will be updated as shown below.
 
-:   <img alt="" src=images/BeamReinforcementDialog_TopRebars.png  style="width:700px;">
+   *   <img alt="" src=images/BeamReinforcementDialog_TopRebars.png  style="width   *700px;">
 
 
 
@@ -64,34 +64,34 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 {{ColoredParagraph|#f8f9fa|
 
-: To edit Number#Diameter@Offset value, click on the **Edit** button next to Number#Diameter@Offset label. A dialog box will pop-out as shown below.
+   * To edit Number#Diameter@Offset value, click on the **Edit** button next to Number#Diameter@Offset label. A dialog box will pop-out as shown below.
 
-:<img src="images/Beam_TopReinforcement_NumberDiameterOffset.png" width=500px>
+   *<img src="images/Beam_TopReinforcement_NumberDiameterOffset.png" width=500px>
 
-: To edit Rebar Type value, click on the **Edit** button next to Rebar Type label. A dialog box will pop-out as shown below.
+   * To edit Rebar Type value, click on the **Edit** button next to Rebar Type label. A dialog box will pop-out as shown below.
 
-:<img src="images/Beam_TopReinforcement_RebarType.png" width=300px>
+   *<img src="images/Beam_TopReinforcement_RebarType.png" width=300px>
 
-: To edit Hook Orientation value, click on the **Edit** button next to Hook Orientation label. A dialog box will pop-out as shown below.
+   * To edit Hook Orientation value, click on the **Edit** button next to Hook Orientation label. A dialog box will pop-out as shown below.
 
-:<img src="images/Beam_TopReinforcement_HookOrientation.png" width=300px>
+   *<img src="images/Beam_TopReinforcement_HookOrientation.png" width=300px>
 
-: To edit Hook Extension value, click on the **Edit** button next to Hook Extension label. A dialog box will pop-out as shown below.
+   * To edit Hook Extension value, click on the **Edit** button next to Hook Extension label. A dialog box will pop-out as shown below.
 
-:<img src="images/Beam_TopReinforcement_HookExtension.png" width=300px>
+   *<img src="images/Beam_TopReinforcement_HookExtension.png" width=300px>
 
-: To edit LRebar Rounding value, click on the **Edit** button next to Rounding label. A dialog box will pop-out as shown below.
+   * To edit LRebar Rounding value, click on the **Edit** button next to Rounding label. A dialog box will pop-out as shown below.
 
-:<img src="images/Beam_TopReinforcement_LRebarRounding.png" width=300px>
+   *<img src="images/Beam_TopReinforcement_LRebarRounding.png" width=300px>
 
-: To edit Layer Spacing value, click on the **Edit** button next to Layer Spacing label. A dialog box will pop-out as shown below.
+   * To edit Layer Spacing value, click on the **Edit** button next to Layer Spacing label. A dialog box will pop-out as shown below.
 
-:<img src="images/Beam_TopReinforcement_LayerSpacing.png" width=300px>
+   *<img src="images/Beam_TopReinforcement_LayerSpacing.png" width=300px>
 }}
 
 8\. Click **Next** and the dialog box will be updated as shown below.
 
-:   <img alt="" src=images/BeamReinforcementDialog_BottomRebars.png  style="width:700px;">
+   *   <img alt="" src=images/BeamReinforcementDialog_BottomRebars.png  style="width   *700px;">
 
 
 
@@ -101,7 +101,7 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 10\. Click **Next** and the dialog box will be updated as shown below.
 
-:   <img alt="" src=images/BeamReinforcementDialog_LeftRebars.png  style="width:700px;">
+   *   <img alt="" src=images/BeamReinforcementDialog_LeftRebars.png  style="width   *700px;">
 
 
 
@@ -112,30 +112,30 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 {{ColoredParagraph|#f8f9fa|
 
-: To edit Number#Diameter@Offset value, click on the **Edit** button next to Number#Diameter@Offset label. A dialog box will pop-out as shown below.
+   * To edit Number#Diameter@Offset value, click on the **Edit** button next to Number#Diameter@Offset label. A dialog box will pop-out as shown below.
 
-:<img src="images/Beam_ShearReinforcement_NumberDiameterOffset.png" width=500px>
+   *<img src="images/Beam_ShearReinforcement_NumberDiameterOffset.png" width=500px>
 
-: To edit Rebar Type value, click on the **Edit** button next to Rebar Type label. A dialog box will pop-out as shown below.
+   * To edit Rebar Type value, click on the **Edit** button next to Rebar Type label. A dialog box will pop-out as shown below.
 
-:<img src="images/Beam_ShearReinforcement_RebarType.png" width=300px>
+   *<img src="images/Beam_ShearReinforcement_RebarType.png" width=300px>
 
-: To edit Hook Orientation value, click on the **Edit** button next to Hook Orientation label. A dialog box will pop-out as shown below.
+   * To edit Hook Orientation value, click on the **Edit** button next to Hook Orientation label. A dialog box will pop-out as shown below.
 
-:<img src="images/Beam_ShearReinforcement_HookOrientation.png" width=300px>
+   *<img src="images/Beam_ShearReinforcement_HookOrientation.png" width=300px>
 
-: To edit Hook Extension value, click on the **Edit** button next to Hook Extension label. A dialog box will pop-out as shown below.
+   * To edit Hook Extension value, click on the **Edit** button next to Hook Extension label. A dialog box will pop-out as shown below.
 
-:<img src="images/Beam_ShearReinforcement_HookExtension.png" width=300px>
+   *<img src="images/Beam_ShearReinforcement_HookExtension.png" width=300px>
 
-: To edit LRebar Rounding value, click on the **Edit** button next to Rounding label. A dialog box will pop-out as shown below.
+   * To edit LRebar Rounding value, click on the **Edit** button next to Rounding label. A dialog box will pop-out as shown below.
 
-:<img src="images/Beam_ShearReinforcement_LRebarRounding.png" width=300px>
+   *<img src="images/Beam_ShearReinforcement_LRebarRounding.png" width=300px>
 }}
 
 12\. Click **Next** and the dialog box will be updated as shown below.
 
-:   <img alt="" src=images/BeamReinforcementDialog_RightRebars.png  style="width:700px;">
+   *   <img alt="" src=images/BeamReinforcementDialog_RightRebars.png  style="width   *700px;">
 
 
 
@@ -149,64 +149,64 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 ## Eigenschaften
 
-**Stirrups:**
+**Stirrups   ***
 
--    **Left Cover**: The distance between the left end of the stirrup to the left face of the structure.
+-    **Left Cover**   * The distance between the left end of the stirrup to the left face of the structure.
 
--    **Right Cover**: The distance between the right end of the stirrup to right face of the structure.
+-    **Right Cover**   * The distance between the right end of the stirrup to right face of the structure.
 
--    **Top Cover**: The distance between stirrup from the top face of the structure.
+-    **Top Cover**   * The distance between stirrup from the top face of the structure.
 
--    **Bottom Cover**: The distance between stirrup from the bottom face of the structure.
+-    **Bottom Cover**   * The distance between stirrup from the bottom face of the structure.
 
--    **Offset**: The distance between stirrup from the selected/back face of the structure.
+-    **Offset**   * The distance between stirrup from the selected/back face of the structure.
 
--    **Diameter**: Diameter of the stirrup.
+-    **Diameter**   * Diameter of the stirrup.
 
--    **Bent Angle**: Bent angle defines the angle at the ends of a stirrup.
+-    **Bent Angle**   * Bent angle defines the angle at the ends of a stirrup.
 
--    **Extension Factor**: Extension Factor defines length of end of stirrup, expressed in times the diameter.
+-    **Extension Factor**   * Extension Factor defines length of end of stirrup, expressed in times the diameter.
 
--    **Number**: The number of stirrup.
+-    **Number**   * The number of stirrup.
 
--    **Spacing**: The distance between the axes of each stirrup.
+-    **Spacing**   * The distance between the axes of each stirrup.
 
-**Top/Bottom Reinforcement Rebars:** Rebars present at top/bottom side of beam
+**Top/Bottom Reinforcement Rebars   *** Rebars present at top/bottom side of beam
 
--    **NumberDiameterOffset**: A tuple of Number\#Diameter\@Offset string. Each element of tuple represents reinforcement for each new layer.
+-    **NumberDiameterOffset**   * A tuple of Number\#Diameter\@Offset string. Each element of tuple represents reinforcement for each new layer.
 
--    **Rebar Type**: List of tuple of type of reinforcement bars.
+-    **Rebar Type**   * List of tuple of type of reinforcement bars.
 
--    **Hook Orientation**: List of tuple of orientation of LShaped hooks.
+-    **Hook Orientation**   * List of tuple of orientation of LShaped hooks.
 
--    **Hook Extension**: List of tuple of length of hook of LShaped rebars.
+-    **Hook Extension**   * List of tuple of length of hook of LShaped rebars.
 
--    **Rounding**: List of tuple of a rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
+-    **Rounding**   * List of tuple of a rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
 
--    **Layer Spacing**: List of spacing between two consecutive reinforcement layers.
+-    **Layer Spacing**   * List of spacing between two consecutive reinforcement layers.
 
-**Left/Right Reinforcement Rebars:** Rebars present at left/right side of beam
+**Left/Right Reinforcement Rebars   *** Rebars present at left/right side of beam
 
--    **NumberDiameterOffset**: String of Number\#Diameter\@Offset set for reinforcement bars.
+-    **NumberDiameterOffset**   * String of Number\#Diameter\@Offset set for reinforcement bars.
 
--    **Rebar Type**: List of type of reinforcement bars.
+-    **Rebar Type**   * List of type of reinforcement bars.
 
--    **Hook Orientation**: List of orientation of LShaped hooks.
+-    **Hook Orientation**   * List of orientation of LShaped hooks.
 
--    **Hook Extension**: List of length of hook of LShaped rebars.
+-    **Hook Extension**   * List of length of hook of LShaped rebars.
 
--    **Rounding**: List of a rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
+-    **Rounding**   * List of a rounding value to be applied to the corners of the LShape rebars, expressed in times the diameter.
 
--    **Rebar Spacing**: Clear spacing between consecutive reinforcement bars.
+-    **Rebar Spacing**   * Clear spacing between consecutive reinforcement bars.
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Architektur API](Arch_API/de.md), [Bewehrung API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-The BeamReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
+The BeamReinforcement tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   *
 
 ### Create Two Legged Stirrups 
 
@@ -270,7 +270,7 @@ RebarGroup = makeReinforcement(
 
 -    `top_reinforcement_number_diameter_offset`and `bottom_reinforcement_number_diameter_offset` are tuple of number\_diameter\_offset string. Each element of tuple represents reinforcement for each new layer.
 
-   Syntax: (
+   Syntax   * (
                "number1#diameter1@offset1+number2#diameter2@offset2+...",
                "number3#diameter3@offset3+number4#diameter4@offset4+...",
                ...,
@@ -278,7 +278,7 @@ RebarGroup = makeReinforcement(
 
 -    `top_reinforcement_rebar_type`and `bottom_reinforcement_rebar_type` specifies type of top/bottom reinforcement bars.
 
-   Possible values:
+   Possible values   *
    1. 'StraightRebar' or 'LShapeRebar'
 ', ...) and number of elements of tuple must be equal to number of reinforcement
       layers.
@@ -297,18 +297,18 @@ RebarGroup = makeReinforcement(
 
 -    `top_reinforcement_layer_spacing`and `bottom_reinforcement_layer_spacing` is the spacing between two consecutive reinforcement layers.
 
-   Possible values:
+   Possible values   *
 
 , ...) and number of elements of tuple must be
       equal to one less than number of layers.
 
 -    `left_rebars_number_diameter_offset`and `right_rebars_number_diameter_offset` are string of number\_diameter\_offset.
 
-   Syntax: "number1#diameter1@offset1+number2#diameter2@offset2+..."
+   Syntax   * "number1#diameter1@offset1+number2#diameter2@offset2+..."
 
 -    `left_rebars_type`and `right_rebars_type` specifies type of left/right reinforcement bars.
 
-   Possible values:
+   Possible values   *
    1. 'StraightRebar' or 'LShapeRebar'
 ', ...) and each element of tuple represents rabar_type for each set of rebars.
 
@@ -385,6 +385,11 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

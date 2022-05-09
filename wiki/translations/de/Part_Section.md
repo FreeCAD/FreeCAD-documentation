@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Part Section
-   Name/de:Part Schnittkurve
-   MenuLocation:Formteil → Schnittkurve
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Querschnitte](Part_CrossSections/de.md)
+- GuiCommand   */de
+   Name   *Part Section
+   Name/de   *Part Schnittkurve
+   MenuLocation   *Formteil → Schnittkurve
+   Workbenches   *[Part](Part_Workbench/de.md)
+   SeeAlso   *[Part Querschnitte](Part_CrossSections/de.md)
 ---
 
 # Part Section/de
@@ -13,11 +13,11 @@
 
 Extrahiert eine Schnittkurve aus der Überschneidung zweier ausgewählter Formen, wobei die zweite als Schnittebene verwendet wird. Diese Operation ist voll parametrisch und die Komponenten können modifiziert und das Ergebnis neu berechnet werden.
 
-In diesem Beispiel wird ein Würfel mit einem Zylinder geschnitten:
+In diesem Beispiel wird ein Würfel mit einem Zylinder geschnitten   *
 
 +++
-| ![](images/PartSection1_it.png ) | -   **Basis**: Basisobjekt, der Quader            |
-|                                                | -   **Werkzeug**: Beschnittwerkzeug, der Zylinder |
+| ![](images/PartSection1_it.png ) | -   **Basis**   * Basisobjekt, der Quader            |
+|                                                | -   **Werkzeug**   * Beschnittwerkzeug, der Zylinder |
 +++
 
 
@@ -31,7 +31,7 @@ In diesem Beispiel wird ein Würfel mit einem Zylinder geschnitten:
 
 ## Verknüpfungen
 
-Zum Erzeugen von Abschnitten mit einer Schnittebene siehe <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Querschnitte](Part_CrossSections/de.md).
+Zum Erzeugen von Abschnitten mit einer Schnittebene siehe <img alt="" src=images/Part_CrossSections.svg  style="width   *24px;"> [Querschnitte](Part_CrossSections/de.md).
 
 
 

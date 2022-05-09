@@ -3,9 +3,9 @@
 
 ## Introduzione
 
-<img alt="" src=images/Px.svg  style="width:32px;">
+<img alt="" src=images/Px.svg  style="width   *32px;">
 
-Un oggetto [App DocumentObject](App_DocumentObject/it.md), o formalmente un `App::DocumentObject`, è la classe di base di tutte le classi di oggetti gestite nel documento.
+Un oggetto [App DocumentObject](App_DocumentObject/it.md), o formalmente un `App   *   *DocumentObject`, è la classe di base di tutte le classi di oggetti gestite nel documento.
 
 
 <div class="mw-translate-fuzzy">
@@ -19,16 +19,16 @@ In termini generali, un \"DocumentObject\" è qualsiasi \"cosa\" che può appari
 
 
 
-*Vista ad albero che mostra diversi oggetti nel documento. Ognuno di essi è un "oggetto documento", derivato in definitiva dalla classe di base `App::DocumentObject*.`
+*Vista ad albero che mostra diversi oggetti nel documento. Ognuno di essi è un "oggetto documento", derivato in definitiva dalla classe di base `App   *   *DocumentObject*.`
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
 
 
-*Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::DocumentObject* è la classe base essenzialmente di tutti gli oggetti nel software.`
+*Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App   *   *DocumentObject* è la classe base essenzialmente di tutti gli oggetti nel software.`
 
 
 </div>
@@ -46,7 +46,7 @@ In termini generali, un \"DocumentObject\" è qualsiasi \"cosa\" che può appari
 
 <div class="mw-translate-fuzzy">
 
-Alcuni dei DocumentObjects più importanti sono i seguenti:
+Alcuni dei DocumentObjects più importanti sono i seguenti   *
 
 -   La classe [App FeaturePython](App_FeaturePython/it.md), un oggetto vuoto che può essere utilizzato per scopi diversi, a seconda delle proprietà aggiunte.
 -   La classe [App GeoFeature](App_GeoFeature/it.md), l\'oggetto base di tutti gli oggetti geometrici, ovvero di oggetti che hanno una proprietà [Posizionamento](Placement/it.md) che definisce la loro posizione nella [ Vista 3D](3D_view/it.md).
@@ -65,13 +65,13 @@ Queste sono le proprietà di base che essenzialmente hanno tutti gli oggetti. È
 
 <div class="mw-translate-fuzzy">
 
--    **Expression Engine|ExpressionEngine**: un elenco di espressioni.
+-    **Expression Engine|ExpressionEngine**   * un elenco di espressioni.
 
--    **Label|String**: il nome di questo oggetto modificabile dall\'utente, è una stringa UTF8 arbitraria. Di default, è uguale al `Name`.
+-    **Label|String**   * il nome di questo oggetto modificabile dall\'utente, è una stringa UTF8 arbitraria. Di default, è uguale al `Name`.
 
--    **Label2|String**: una descrizione modificabile dall\'utente più lunga di questo oggetto, è una stringa UTF8 arbitraria che può includere nuove righe. Di default, è una stringa vuota {{value|""}}.
+-    **Label2|String**   * una descrizione modificabile dall\'utente più lunga di questo oggetto, è una stringa UTF8 arbitraria che può includere nuove righe. Di default, è una stringa vuota {{value|""}}.
 
--    **Visibility|Bool**: se visualizzare l\'oggetto o no.
+-    **Visibility|Bool**   * se visualizzare l\'oggetto o no.
 
 
 </div>
@@ -84,7 +84,7 @@ Per gli oggetti derivati, solo la proprietà **Label** verrà elencata di defaul
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](scripted_objects/it.md).
 
@@ -106,7 +106,7 @@ Un DocumentObject viene creato con il metodo `addObject()` del documento. Tuttav
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::DocumentObject", "Name")
+obj = App.ActiveDocument.addObject("App   *   *DocumentObject", "Name")
 obj.Label = "Custom label"
 ```
 

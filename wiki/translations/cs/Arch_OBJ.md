@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Navíc ke standardu exportu z FreeCADu [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file), [ModulArchitektura](Arch_Workbench.md) má i alternativní exportní systém, který exportuje koplanární plochy jako celé OBJ plochy, místo triangulačních objektů založených na objektu [Tvar](Part_Workbench.md) jako to dělají jiné standardní exportní systémy.
+Navíc ke standardu exportu z FreeCADu [OBJ](http   *//en.wikipedia.org/wiki/Wavefront_.obj_file), [ModulArchitektura](Arch_Workbench.md) má i alternativní exportní systém, který exportuje koplanární plochy jako celé OBJ plochy, místo triangulačních objektů založených na objektu [Tvar](Part_Workbench.md) jako to dělají jiné standardní exportní systémy.
 
 
 </div>
@@ -37,10 +37,10 @@ mesh = MeshPart.meshFromShape(Shape=shape, LinearDeflection=0.1, Segments=True)
 
 face_colors = [(0, 0, 0)] * mesh.CountFacets
 
-for i in range(mesh.countSegments()):
+for i in range(mesh.countSegments())   *
     color = shape_colors[i]
     segm = mesh.getSegment(i)
-    for j in segm:
+    for j in segm   *
         face_colors[j] = color
 
 mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
@@ -48,7 +48,7 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 ## More information 
 
--   [Convert STEP to Wavefront OBJ with colors of faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452)
+-   [Convert STEP to Wavefront OBJ with colors of faces](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=37452)
 
 ## Tutorials
 
@@ -63,6 +63,11 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 
 </div>
+
+
+ 
+
+[Category   *File Formats](Category_File_Formats.md)
 
 
 

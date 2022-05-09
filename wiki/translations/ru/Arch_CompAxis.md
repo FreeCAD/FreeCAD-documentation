@@ -25,11 +25,11 @@ Create axis.
 
 ==Типы осей==
 
-* <img src="images/Arch_Axis.svg" width=32px> [Axis](Arch_Axis.md): Adds a 1-direction array of axes.
+* <img src="images/Arch_Axis.svg" width=32px> [Axis](Arch_Axis.md)   * Adds a 1-direction array of axes.
 
-* <img src="images/Arch_AxisSystem.svg" width=32px> [Axis System](Arch_AxisSystem.md): Adds an axis system composed of several axes.
+* <img src="images/Arch_AxisSystem.svg" width=32px> [Axis System](Arch_AxisSystem.md)   * Adds an axis system composed of several axes.
 
-* <img src="images/Arch_Grid.svg" width=32px> [Grid](Arch_Grid.md): Adds a grid-like object.
+* <img src="images/Arch_Grid.svg" width=32px> [Grid](Arch_Grid.md)   * Adds a grid-like object.
 
 
 <div class="mw-translate-fuzzy">

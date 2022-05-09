@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw ExportPageSVG
-   Name/de:TechDraw ExportiereSeiteSVG
-   MenuLocation:TechDraw → Exportiere Seite als SVG
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md), [Entwurf SVG](Draft_SVG/de.md)
+- GuiCommand   */de
+   Name   *TechDraw ExportPageSVG
+   Name/de   *TechDraw ExportiereSeiteSVG
+   MenuLocation   *TechDraw → Exportiere Seite als SVG
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   SeeAlso   *[TechDraw Vorlagen](TechDraw_Templates/de.md), [Entwurf SVG](Draft_SVG/de.md)
 ---
 
 # TechDraw ExportPageSVG/de
@@ -26,11 +26,11 @@ Das ExportSeiteSVG Werkzeug speichert das aktuelle Zeichnungsseite als [SVG](SVG
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDrawGui API](TechDrawGui_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das SpeichereSVG Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen benutzt werden:
+Das SpeichereSVG Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole mit den folgenden Funktionen benutzt werden   *
 
 
 ```python

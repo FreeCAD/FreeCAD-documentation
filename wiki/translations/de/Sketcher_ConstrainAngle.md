@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher ConstrainAngle
-   Name/de:Skizzierer BeschränkeWinkel
-   MenuLocation:Skizze → Skizzierer Beschränkungen → Winkel beschränken
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
-   Shortcut:**A**
-   SeeAlso:[Skizzierer Beschränke Abstand](Sketcher_ConstrainDistance/de.md), [Skizzierer Beschränkung Senkrecht](Sketcher_ConstrainPerpendicular/de.md)
+- GuiCommand   */de
+   Name   *Sketcher ConstrainAngle
+   Name/de   *Skizzierer BeschränkeWinkel
+   MenuLocation   *Skizze → Skizzierer Beschränkungen → Winkel beschränken
+   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md)
+   Shortcut   ***A**
+   SeeAlso   *[Skizzierer Beschränke Abstand](Sketcher_ConstrainDistance/de.md), [Skizzierer Beschränkung Senkrecht](Sketcher_ConstrainPerpendicular/de.md)
 ---
 
 # Sketcher ConstrainAngle/de
@@ -19,7 +19,7 @@ Die Winkelbeschränkung ist eine [Bezugsbeschränkung](Sketcher_Workbench/de#Ski
 
 ## Anwendung
 
-Es gibt vier verschiedene Möglichkeiten, wie die Beschränkung angewendet werden kann:
+Es gibt vier verschiedene Möglichkeiten, wie die Beschränkung angewendet werden kann   *
 
 -   auf einzelne Linien
 -   zwischen Linien
@@ -29,15 +29,15 @@ Es gibt vier verschiedene Möglichkeiten, wie die Beschränkung angewendet werde
 
 <div class="mw-translate-fuzzy">
 
-Um die Winkelbeschränkung anzuwenden, sollte man den Schritten folgen:
+Um die Winkelbeschränkung anzuwenden, sollte man den Schritten folgen   *
 
 1.  Wähle ein, zwei oder drei Elemente in der Skizze aus. Der Modus wird abhängig von der Auswahl gewählt.
-2.  Rufe die Beschränkung mit verschiedenen Methoden auf:
-    -   Drücken der **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Beschränke Winkel](Sketcher_ConstrainAngle/de.md)** Schaltfläche in der Werkzeugleiste.
-    -   Verwendung der **A** Tastaturkürzel. (**A**\' steht für **A**ngle, engl.: Winkel)
-    -   Verwendung des **Skizze → Skizzierer Beschränkungen → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Beschränke Winkel** aus dem obersten Menüeintrag
+2.  Rufe die Beschränkung mit verschiedenen Methoden auf   *
+    -   Drücken der **[<img src=images/Sketcher_ConstrainAngle.svg style="width   *16px"> [Beschränke Winkel](Sketcher_ConstrainAngle/de.md)** Schaltfläche in der Werkzeugleiste.
+    -   Verwendung der **A** Tastaturkürzel. (**A**\' steht für **A**ngle, engl.   * Winkel)
+    -   Verwendung des **Skizze → Skizzierer Beschränkungen → [<img src=images/Sketcher_ConstrainAngle.svg style="width   *16px"> Beschränke Winkel** aus dem obersten Menüeintrag
 3.  Ein Bezugs Bezugsbearbeitungsdialogfeld klappt auf.
-4.  Ändere den Winkel, falls erforderlich. **Hinweis:** Der Winkel kann als Ausdruck eingegeben werden, der ausgewertet und als Ergebnis gespeichert wird.
+4.  Ändere den Winkel, falls erforderlich. **Hinweis   *** Der Winkel kann als Ausdruck eingegeben werden, der ausgewertet und als Ergebnis gespeichert wird.
 5.  Klicke **OK**
 
 
@@ -49,33 +49,33 @@ Wie bei jeder Bezugsbeschränkung ist es möglich, den Winkelwert später zu än
 
 ### Linienneigungswinkel
 
-**Akzeptierte Auswahl:** Linie
+**Akzeptierte Auswahl   *** Linie
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width   *600px;">
 
 Die Beschränkung legt den Polwinkel der Linienrichtung fest. Es ist der Winkel zwischen der Linie und der X Achse der Skizze.
 
 ### Winkel eines Kreisbogens 
 
-**akzeptierte Auswahl:** Kreisbogen
+**akzeptierte Auswahl   *** Kreisbogen
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width   *600px;">
 
 In diesem Modus fixiert die Beschränkung die Winkelspannweite eines Kreisbogens.
 
 ### Zwischen Linien 
 
-**Akzeptierte Auswahl:** Linie + Linie
+**Akzeptierte Auswahl   *** Linie + Linie
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width   *600px;">
 
 In diesem Modus legt die Beschränkung den Winkel zwischen zwei Linien fest. Es ist nicht erforderlich, dass sich die Linien schneiden.
 
 ### Zwischen Kurven am Schnittpunkt (Winkel-über-Punkt) 
 
-**Akzeptierte Auswahl:** jede Linie/Kurve + jede Linie/Kurve + jeder Punkt
+**Akzeptierte Auswahl   *** jede Linie/Kurve + jede Linie/Kurve + jeder Punkt
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width   *600px;">
 
 In diesem Modus wird der Winkel zwischen zwei Kurven an ihrem Schnittpunkt beschränkt. Der Schnittpunkt kann auf der Verlängerung der Kurven liegen. Der Punkt sollte explizit angegeben werden, da sich Kurven typischerweise in mehr als einem Punkt schneiden.
 
@@ -86,7 +86,7 @@ Damit die Beschränkung korrekt funktioniert, muss der Punkt auf beiden Kurven l
 
 <div class="mw-translate-fuzzy">
 
-Winkelbeschränkung kann aus [Makros](Macros/de.md) und aus der Python Konsole wie folgt erstellt werden:
+Winkelbeschränkung kann aus [Makros](Macros/de.md) und aus der Python Konsole wie folgt erstellt werden   *
 
 
 </div>
@@ -106,17 +106,17 @@ Sketch.addConstraint(Sketcher.Constraint('Angle',iline1,pointpos1,iline2,pointpo
 Sketch.addConstraint(Sketcher.Constraint('AngleViaPoint',icurve1,icurve2,geoidpoint,pointpos,angle))
 ```
 
-wobei:
+wobei   *
 
-:\* `Sketch` ein Skizzenobjekt ist
+   ** `Sketch` ein Skizzenobjekt ist
 
-:\* `iline, iline1, iline2` sind ganze Zahlen, die die Zeilen durch ihre Ordnungszahlen in `Sketch` angeben.
+   ** `iline, iline1, iline2` sind ganze Zahlen, die die Zeilen durch ihre Ordnungszahlen in `Sketch` angeben.
 
-:\* `pointpos1, pointpos2` sollte 1 für den Startpunkt und 2 für den Endpunkt sein. Die Wahl der Endpunkte ermöglicht die Einstellung des internen (oder externen) Winkels, und sie beeinflusst die Art und Weise, wie die Beschränkung auf dem Bildschirm gezeichnet wird.
+   ** `pointpos1, pointpos2` sollte 1 für den Startpunkt und 2 für den Endpunkt sein. Die Wahl der Endpunkte ermöglicht die Einstellung des internen (oder externen) Winkels, und sie beeinflusst die Art und Weise, wie die Beschränkung auf dem Bildschirm gezeichnet wird.
 
-:\* `geoidpoint` und `pointpos` in `AngleViaPoint` sind die Indizes, die den Schnittpunkt angeben.
+   ** `geoidpoint` und `pointpos` in `AngleViaPoint` sind die Indizes, die den Schnittpunkt angeben.
 
-:\* `angle` ist der Winkelwert im Bogenmaß. Der Winkel wird zwischen Tangentenvektoren im Gegenuhrzeigersinn gezählt. Tangentenvektoren zeigen für die Linien von Anfang bis Ende (oder umgekehrt, wenn der Endpunkt im Modus Winkel zwischen den Linien angegeben wird) und für Kreise, Bögen und Ellipsen entlang der Richtung entgegen dem Uhrzeigersinn. Die Menge wird auch als Winkel akzeptiert (z.B. `App.Units.Quantity('45 deg'))`
+   ** `angle` ist der Winkelwert im Bogenmaß. Der Winkel wird zwischen Tangentenvektoren im Gegenuhrzeigersinn gezählt. Tangentenvektoren zeigen für die Linien von Anfang bis Ende (oder umgekehrt, wenn der Endpunkt im Modus Winkel zwischen den Linien angegeben wird) und für Kreise, Bögen und Ellipsen entlang der Richtung entgegen dem Uhrzeigersinn. Die Menge wird auch als Winkel akzeptiert (z.B. `App.Units.Quantity('45 deg'))`
 
 Die [Skizzierer Skripten](Sketcher_scripting/de.md)-Seite erklärt die Werte, die für `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` und `pointpos` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FEM ConstraintElectrostaticPotential
-   Name/fr:FEM Contrainte potentiel électrostatique
-   MenuLocation:Modèle → Contraintes électrostatiques → Contrainte de potentiel électrostatique
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[FEM Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
+- GuiCommand   */fr
+   Name   *FEM ConstraintElectrostaticPotential
+   Name/fr   *FEM Contrainte potentiel électrostatique
+   MenuLocation   *Modèle → Contraintes électrostatiques → Contrainte de potentiel électrostatique
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   SeeAlso   *[FEM Exemple calcul capacité de deux sphères](FEM_Example_Capacitance_Two_Balls/fr.md), [FEM Tutoriel](FEM_tutorial/fr.md)
 ---
 
 # FEM ConstraintElectrostaticPotential/fr
@@ -25,15 +25,15 @@ Crée une contrainte FEM pour le potentiel électrostatique. A utiliser avec [FE
 
 ## Options
 
-La boîte de dialogue propose les paramètres suivants :
+La boîte de dialogue propose les paramètres suivants    *
 
 ![](images/FEM_ElectrostaticPotential_dialog.png )
 
--   **Potential** : Le potentiel électrique en V.
--   **Potential Constant** : Option pour définir un potentiel constant.
--   **Farfield / Electric infinity** : Option pour spécifier que le volume est éloigné d\'un potentiel électrique.
--   **Calculate Electric Force** : Option pour déclencher le calcul de la force électrique en utilisant [FEM Équation force électrique](FEM_EquationElectricforce/fr.md).
--   **Capacity Body :** : Compteur du corps (ou de la face) avec une capacitance.
+-   **Potential**    * Le potentiel électrique en V.
+-   **Potential Constant**    * Option pour définir un potentiel constant.
+-   **Farfield / Electric infinity**    * Option pour spécifier que le volume est éloigné d\'un potentiel électrique.
+-   **Calculate Electric Force**    * Option pour déclencher le calcul de la force électrique en utilisant [FEM Équation force électrique](FEM_EquationElectricforce/fr.md).
+-   **Capacity Body    ***    * Compteur du corps (ou de la face) avec une capacitance.
 
 
 

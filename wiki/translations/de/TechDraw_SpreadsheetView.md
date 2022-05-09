@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw SpreadsheetView
-   Name/de:TechDraw KalkulationstabelleAnsicht
-   MenuLocation:TechDraw → Einfügen Kalkulationstabelle Ansicht
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md), [Kalkulationstabelle Arbeitsbereich](Spreadsheet_Workbench/de.md)
+- GuiCommand   */de
+   Name   *TechDraw SpreadsheetView
+   Name/de   *TechDraw KalkulationstabelleAnsicht
+   MenuLocation   *TechDraw → Einfügen Kalkulationstabelle Ansicht
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md), [Kalkulationstabelle Arbeitsbereich](Spreadsheet_Workbench/de.md)
 ---
 
 # TechDraw SpreadsheetView/de
@@ -22,19 +22,19 @@ Dieses Werkzeug ermöglicht dir eine [Kalkulationstabellen](Spreadsheet_Workbenc
 
 ## Eigenschaften
 
--    **Quelle**: Das der Seite hinzuzufügende Arbeitsblatt
+-    **Quelle**   * Das der Seite hinzuzufügende Arbeitsblatt
 
--    **Zellanfang**: Die linke obere Zelle des Zellbereichs, der in diese Ansicht aufgenommen werden soll
+-    **Zellanfang**   * Die linke obere Zelle des Zellbereichs, der in diese Ansicht aufgenommen werden soll
 
--    **Zellenende**: Die Zelle unten rechts des Zellbereichs, der in diese Ansicht aufgenommen werden soll
+-    **Zellenende**   * Die Zelle unten rechts des Zellbereichs, der in diese Ansicht aufgenommen werden soll
 
--    **Schriftart**: Der Name der für Texte verwendeten Schriftart
+-    **Schriftart**   * Der Name der für Texte verwendeten Schriftart
 
--    **Farbe**: Die Farbe von Linien und Texten, die keine in der Kalkulationstabelle angegebene Farbe haben
+-    **Farbe**   * Die Farbe von Linien und Texten, die keine in der Kalkulationstabelle angegebene Farbe haben
 
--    **Schriftgröße**: Die Schriftgröße von Texten
+-    **Schriftgröße**   * Die Schriftgröße von Texten
 
--    **Linienbreite**: Die Breite der Zellränder
+-    **Linienbreite**   * Die Breite der Zellränder
 
 
 

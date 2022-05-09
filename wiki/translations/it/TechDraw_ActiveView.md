@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/it
-   Name:TechDraw_ActiveView
-   Name/it:Vista attiva
-   Icon:TechDraw_ActiveView.svg
-   MenuLocation:TechDraw → Vista attiva
-   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Simbolo](TechDraw_Symbol/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *TechDraw_ActiveView
+   Name/it   *Vista attiva
+   Icon   *TechDraw_ActiveView.svg
+   MenuLocation   *TechDraw → Vista attiva
+   Workbenches   *[TechDraw](TechDraw_Workbench/it.md)
+   SeeAlso   *[Simbolo](TechDraw_Symbol/it.md)
+   Version   *0.19
 ---
 
 # TechDraw ActiveView/it
@@ -36,49 +36,49 @@ Lo strumento Vista attiva inserisce una copia di una finestra 3D in una pagina d
 
 ## Options
 
-The following can be specified:
+The following can be specified   *
 
--    **Width**: The width of the generated view.
+-    **Width**   * The width of the generated view.
 
--    **Height**: The height of the generated view.
+-    **Height**   * The height of the generated view.
 
--    **Border**: The amount of empty space to be left around the view (but within Width x Height).
+-    **Border**   * The amount of empty space to be left around the view (but within Width x Height).
 
--    **Background**: If checked a background with the specified color is added.
+-    **Background**   * If checked a background with the specified color is added.
 
--    **Line Width**: The thickness of the lines in the view.
+-    **Line Width**   * The thickness of the lines in the view.
 
--    **Render Mode**: The available modes are:
+-    **Render Mode**   * The available modes are   *
 
     -   
         {{Value|As is}}
         
-        : Render primitives as they are.
+           * Render primitives as they are.
 
     -   
         {{Value|Wireframe}}
         
-        : Render polygons as wireframe.
+           * Render polygons as wireframe.
 
     -   
         {{Value|Points}}
         
-        : Render only the vertices of the polygons and lines.
+           * Render only the vertices of the polygons and lines.
 
     -   
         {{Value|Wireframe overlay}}
         
-        : Render a wireframe overlay in addition to the {{Value|As is}} mode.
+           * Render a wireframe overlay in addition to the {{Value|As is}} mode.
 
     -   
         {{Value|Hidden Line}}
         
-        : As {{Value|Wireframe}}, but culls lines which would otherwise not be shown due to geometric culling.
+           * As {{Value|Wireframe}}, but culls lines which would otherwise not be shown due to geometric culling.
 
     -   
         {{Value|Bounding box}}
         
-        : Only show the bounding box of each object.
+           * Only show the bounding box of each object.
 
 ## Note
 
@@ -86,7 +86,7 @@ The following can be specified:
 <div class="mw-translate-fuzzy">
 
 -   Le viste attive sono statiche, una volta generate non vengono mai aggiornate con le modifiche al modello 3D.
--   Vista attiva in realtà è un <img alt="" src=images/TechDraw_Symbol.svg  style="width:24px;"> [Simbolo](TechDraw_Symbol/it.md). La sua proprietà **Scale Type** viene quindi sempre inizializzata come *Personalizzata*.
+-   Vista attiva in realtà è un <img alt="" src=images/TechDraw_Symbol.svg  style="width   *24px;"> [Simbolo](TechDraw_Symbol/it.md). La sua proprietà **Scale Type** viene quindi sempre inizializzata come *Personalizzata*.
 -   Questo strumento è ancora in qualche modo **sperimentale**.
 
 
@@ -97,7 +97,7 @@ The following can be specified:
 
 <div class="mw-translate-fuzzy">
 
-Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Simbolo](TechDraw_Symbol/it.md)
+Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width   *16px;"> [Simbolo](TechDraw_Symbol/it.md)
 
 
 </div>
@@ -108,7 +108,7 @@ Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Simbolo
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [TechDraw API](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -118,7 +118,7 @@ Vedere <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Simbolo
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Vista attiva può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+Lo strumento Vista attiva può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione   *
 
 
 </div>

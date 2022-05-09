@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Die FreeCAD Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) Werkzeugsatz und hat einen Aufbau nach Stand der Technik. Einige Aspekte der Oberfläche können angepasst werden. Du kannst z.B. benutzerdefinierte Werkzeugleisten hinzufügen, mit Werkzeugen von mehreren Arbeitsbereichen oder in Makros festgelegten Werkzeugen, und du kannst eigene Tastaturkürzel erstellen. Die Menüs und Standardwerkzeugleisten, die mit FreeCAD und seinen Arbeitsbereichen geliefert werden, können jedoch nicht geändert werden.
+Die FreeCAD Oberfläche basiert auf dem modernen [Qt](http   *//en.wikipedia.org/wiki/Qt_(toolkit)) Werkzeugsatz und hat einen Aufbau nach Stand der Technik. Einige Aspekte der Oberfläche können angepasst werden. Du kannst z.B. benutzerdefinierte Werkzeugleisten hinzufügen, mit Werkzeugen von mehreren Arbeitsbereichen oder in Makros festgelegten Werkzeugen, und du kannst eigene Tastaturkürzel erstellen. Die Menüs und Standardwerkzeugleisten, die mit FreeCAD und seinen Arbeitsbereichen geliefert werden, können jedoch nicht geändert werden.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *Das Dialogfeld Anpassen*
@@ -11,7 +11,7 @@ Die FreeCAD Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wi
 ## Anwendung
 
 1.  Die im Dialogfeld Anpassen verfügbaren Befehle hängen von den Arbeitsbereichen ab, die in der aktuellen FreeCAD Sitzung geladen wurden. Du solltest also zunächst alle Arbeitsbereiche laden, auf deren Befehle du Zugriff haben möchtest.
-2.  Es gibt mehrere Wege, das Dialogfeld <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std DlgAnpassen](Std_DlgCustomize/de.md) aufzurufen:
+2.  Es gibt mehrere Wege, das Dialogfeld <img alt="" src=images/Std_DlgCustomize.svg  style="width   *16px;"> [Std DlgAnpassen](Std_DlgCustomize/de.md) aufzurufen   *
     -   Wähle die {{MenuCommand/de|Werkzeuge → <img src="images/Std_DlgCustomize.svg" width=16px> Anpassen...}} Option aus dem Menü.
     -   Rechtsklicke einen Werkzeugleistenbereich und wähle **<img src="images/Std_DlgCustomize.svg" width=16px> Anpaasen...** aus dem Kontextmenü.
 3.  Ein Dialogfeld Anpassen öffnet sich. Für weitere Informationen siehe [Optionen](#Optionen.md).
@@ -20,7 +20,7 @@ Die FreeCAD Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wi
 
 ## Optionen
 
-Im Dialogfeld Anpassen sind die folgenden Reiter verfügbar:
+Im Dialogfeld Anpassen sind die folgenden Reiter verfügbar   *
 
 ### Befehle
 
@@ -33,8 +33,8 @@ Auf diesem Reiter kannst Du die verfügbaren Befehle durchsuchen.
 
 1.  Wähle eine Befehlskategorie im **Kategorie** Paneel auf der linken Seite. Einige Kategorien entsprechen Menüeinträgen.
 2.  Die in der gewählten Kategorie verfügbaren Werkzeuge werden im Paneel auf der rechten Seite angezeigt.
-3.  Bewege den Mauszeiger über einen Befehl: Seine Werkzeugspitze wird angezeigt.
-4.  Wähle einen Befehl aus: Sein Statusleistentext wird unterhalb der beiden Paneele angezeigt.
+3.  Bewege den Mauszeiger über einen Befehl   * Seine Werkzeugspitze wird angezeigt.
+4.  Wähle einen Befehl aus   * Sein Statusleistentext wird unterhalb der beiden Paneele angezeigt.
 
 
 {{Top}}
@@ -175,7 +175,7 @@ Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 -   Werkzeugleisten, die zum aktuellen Arbeitsbereich gehören, werden sofort aktualisiert. Aber nach einer Aktivierung oder Deaktivierung einer Werkzeugleiste muss zunächst irgend ein anderer Arbeitsbereich ausgewählt werden um die Darstellung zu aktualisieren.
 -   Das Gleiche gilt für globale Werkzeugleisten. Auch hier muss erst ein anderer Arbeitsbereich aufgerufen werden um Änderungen (Hinzufügen oder Entfernen von Schaltflächen) zu aktualisieren. Falls die Reihenfolge von globalen Werkzeugleisten geändert wurde oder diese umbenannt wurden, braucht es sogar einen Neustart um die Änderungen anzuzeigen.
 
--   In der version 0.19 gibt es ein Problem mit manchen neuen (\'Draft\') Kommandos. Nachdem sie zu einer Werkzeugleiste hinzugefügt wurden müssen sie noch manuell im File {{FileName|user.cfg}} bearbeitet werden. Dazu muss man zunächst das Programm schließen. Suche dann in dem File die entsprechende Werkzeugleiste und ändere in diesem Abschnitt den Inhalt der `FCText`-Elemente, die mit `gui_` beginnen, auf `DraftTools`.
+-   In der version 0.19 gibt es ein Problem mit manchen neuen (\'Draft\') Kommandos. Nachdem sie zu einer Werkzeugleiste hinzugefügt wurden müssen sie noch manuell im File **user.cfg** bearbeitet werden. Dazu muss man zunächst das Programm schließen. Suche dann in dem File die entsprechende Werkzeugleiste und ändere in diesem Abschnitt den Inhalt der `FCText`-Elemente, die mit `gui_` beginnen, auf `DraftTools`.
 
 
 {{Top}}
@@ -185,9 +185,9 @@ Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *Der Reiter Makros*
 
-Auf diesem Tab können Makro-Kommandos eingerichtet werden. Sobald sie eingerichtet wurden, können sie einer Werkzeugleiste hinzugefügt werden. FreeCAD verwendet einen speziellen Ordner für User-Makros und nur Makros in diesem Folder können eingerichtet werden. Verwende die Kommandos <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) um diesen Ordner auf deinem System zu finden.
+Auf diesem Tab können Makro-Kommandos eingerichtet werden. Sobald sie eingerichtet wurden, können sie einer Werkzeugleiste hinzugefügt werden. FreeCAD verwendet einen speziellen Ordner für User-Makros und nur Makros in diesem Folder können eingerichtet werden. Verwende die Kommandos <img alt="" src=images/Std_DlgMacroExecute.svg  style="width   *16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) um diesen Ordner auf deinem System zu finden.
 
-Wenn du ein Makro mit <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) herunterladest, vergiss nicht auch das zugehörige Icon-File herunterzuladen. Die meisten Makros haben einen Link auf ein Bild das im Addon Manager dargestellt wird. Du kannst dieses Bild z.B. in den Ordner für User-Makros legen.
+Wenn du ein Makro mit <img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [Addon Manager](Std_AddonMgr.md) herunterladest, vergiss nicht auch das zugehörige Icon-File herunterzuladen. Die meisten Makros haben einen Link auf ein Bild das im Addon Manager dargestellt wird. Du kannst dieses Bild z.B. in den Ordner für User-Makros legen.
 
 Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell installieren. Dazu findest du mehr Informationen unter [How to install macros](How_to_install_macros.md).
 
@@ -198,8 +198,8 @@ Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell i
 3.  Vergib einen \"Tool tip\". Dieser Hilfstext erscheint in der Nähe der Maus, wenn du mit dieser über der Schaltfläche verharrst.
 4.  Vergib einen \"Status text\". Dieser wird im [status bar](Status_bar.md) angezeigt, wenn du mit der Maus über die Schaltfläche fährst.
 5.  Vergib (falls vorhanden) einen Link auf eine Wiki-Seite für das Makro im \"What\'s this\"-Eingabefeld. Gib dort den Namen der Seite an - nicht die ganze URL!
-6.  Vergib (falls gewünscht) ein Tastenkürzel im \"Accelerator\"-Eingabefeld. Mehr dazu unter: [Keyboard](#Keyboard.md)
-7.  Um ein Icon hinzuzufügen:
+6.  Vergib (falls gewünscht) ein Tastenkürzel im \"Accelerator\"-Eingabefeld. Mehr dazu unter   * [Keyboard](#Keyboard.md)
+7.  Um ein Icon hinzuzufügen   *
     1.  Drücke die \"Pixmap\"- **...** - Schaltfläche.
     2.  Es öffnet sich ein Dialogfenster um ein Icon auszuwählen.
     3.  Falls erforderlich, drücke die Schaltfläche **Icon folders...** um einen Icon-Ordner hinzuzufügen.
@@ -224,58 +224,58 @@ Wenn du Makros aus einer anderen Quelle verwenden willst, musst du sie manuell i
 
 ### Spaceball Bewegung 
 
-Wenn kein Spaceball erkannt wurde ist dieser Reiter leer. Siehe: [3DVerbindung Eingabegeräte](3Dconnexion_input_devices/de.md). {{Top}}
+Wenn kein Spaceball erkannt wurde ist dieser Reiter leer. Siehe   * [3DVerbindung Eingabegeräte](3Dconnexion_input_devices/de.md). {{Top}}
 
 ### Spaceball Tasten 
 
-Wenn kein Spaceball erkannt wurde ist dieser Tab leer. Siehe: [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
+Wenn kein Spaceball erkannt wurde ist dieser Tab leer. Siehe   * [3Dconnexion input devices](3Dconnexion_input_devices.md). {{Top}}
 
 ## Themen
 
-FreeCAD unterstützt die vollständige Themensetzung der Oberfläche über .qss stylesheets. Das [qss Format](https://doc.qt.io/qt-5/stylesheet-syntax.html) ist dem in Webseiten verwendeten [css Format](https://en.wikipedia.org/wiki/CSS) sehr ähnlich, es fügt im Grunde Methoden hinzu, um die verschiedenen Widgets und Elemente der Qt Oberfläche zu referenzieren. Du kannst das Standardthema (das einfach den von deinem Desktopsystem definierten Stil übernimmt) ändern, indem du ein **Stylesheet** in den [FreeCAD Voreinstellungen](Preferences_Editor/de#Allgemein.md) auswählst.
+FreeCAD unterstützt die vollständige Themensetzung der Oberfläche über .qss stylesheets. Das [qss Format](https   *//doc.qt.io/qt-5/stylesheet-syntax.html) ist dem in Webseiten verwendeten [css Format](https   *//en.wikipedia.org/wiki/CSS) sehr ähnlich, es fügt im Grunde Methoden hinzu, um die verschiedenen Widgets und Elemente der Qt Oberfläche zu referenzieren. Du kannst das Standardthema (das einfach den von deinem Desktopsystem definierten Stil übernimmt) ändern, indem du ein **Stylesheet** in den [FreeCAD Voreinstellungen](Preferences_Editor/de#Allgemein.md) auswählst.
 
-Du kannst auch ein eigenes Thema erstellen, wenn du mit den Themen, die mit FreeCAD mitgeliefert werden, nicht zufrieden bist, z.B. indem du ein [existierende Gestaltungsbögen](https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets) bearbeitest. Ihre neue Grstaltung muss in einem bestimmten Ordner abgelegt werden, damit er von FreeCAD gefunden wird:
+Du kannst auch ein eigenes Thema erstellen, wenn du mit den Themen, die mit FreeCAD mitgeliefert werden, nicht zufrieden bist, z.B. indem du ein [existierende Gestaltungsbögen](https   *//github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets) bearbeitest. Ihre neue Grstaltung muss in einem bestimmten Ordner abgelegt werden, damit er von FreeCAD gefunden wird   *
 
--    {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}}(unter Windows). Der Ordner {{FileName|%APPDATA%}} kann durch Eingabe von {{Incode|App.getUserAppDataDir()}} in der [Python-Konsole](Python_console.md) abgerufen werden.
+-    **%APPDATA%/FreeCAD/Gui/Stylesheets**(unter Windows). Der Ordner **%APPDATA%** kann durch Eingabe von {{Incode|App.getUserAppDataDir()}} in der [Python-Konsole](Python_console.md) abgerufen werden.
 
--    {{FileName|$HOME/.FreeCAD/Gui/Stylesheets}}(unter Linux).
+-    **$HOME/.FreeCAD/Gui/Stylesheets**(unter Linux).
 
--    {{FileName|$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets}}(unter MacOS).
+-    **$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets**(unter MacOS).
 
 
 {{Top}}
 
 ## Erweiterungen
 
-Erweiterungen bieten eine weitere Möglichkeit, die Benutzeroberfläche anzupassen. Nachfolgend sind einige von Anwendern erstellte Erweiterungen aus der FreeCAD Gemeinschaft. Sie können über den <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) heruntergeladen werden (Hinweis: Sie sind auf dem Arbeitsbereiche Reiter aufgeführt).
+Erweiterungen bieten eine weitere Möglichkeit, die Benutzeroberfläche anzupassen. Nachfolgend sind einige von Anwendern erstellte Erweiterungen aus der FreeCAD Gemeinschaft. Sie können über den <img alt="" src=images/Std_AddonMgr.svg  style="width   *16px;"> [Addon Manager](Std_AddonMgr.md) heruntergeladen werden (Hinweis   * Sie sind auf dem Arbeitsbereiche Reiter aufgeführt).
 
 ### KubusMenü
 
--   Github Repositorium: <https://github.com/triplus/CubeMenu>
+-   Github Repositorium   * <https   *//github.com/triplus/CubeMenu>
 
 ### Glass
 
--   Github Repositorium: <https://github.com/triplus/Glass>.
+-   Github Repositorium   * <https   *//github.com/triplus/Glass>.
 
 ### SymbolGestaltung
 
--   Github Repositorium: <https://github.com/triplus/IconThemes>
+-   Github Repositorium   * <https   *//github.com/triplus/IconThemes>
 
 ### Startprogramm
 
--   Github Repositorium: <https://github.com/triplus/Launcher>.
+-   Github Repositorium   * <https   *//github.com/triplus/Launcher>.
 
 ### PieMenü
 
--   Github Repositorium: <https://github.com/triplus/PieMenu>.
+-   Github Repositorium   * <https   *//github.com/triplus/PieMenu>.
 
 ### RemBench
 
--   Github Repositorium: <https://github.com/triplus/RemBench>.
+-   Github Repositorium   * <https   *//github.com/triplus/RemBench>.
 
 ### TastenKürzel
 
--   Github Repositorium: <https://github.com/triplus/ShortCuts>.
+-   Github Repositorium   * <https   *//github.com/triplus/ShortCuts>.
 
 
 {{Top}}

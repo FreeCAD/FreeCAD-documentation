@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Sketcher CreateRegularPolygon
-   Name/fr:Sketcher Polygone régulier
-   MenuLocation:Esquisse → Géométries d'esquisse → Créer un polygone régulier
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **P** **R**
+- GuiCommand   */fr
+   Name   *Sketcher CreateRegularPolygon
+   Name/fr   *Sketcher Polygone régulier
+   MenuLocation   *Esquisse → Géométries d'esquisse → Créer un polygone régulier
+   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut   ***G** **P** **R**
 ---
 
 # Sketcher CreateRegularPolygon/fr
@@ -15,7 +15,7 @@ Dessine un polygone régulier inscrit dans un cercle de géométrie de construct
 
 ## Utilisation
 
-1.  Après avoir appuyé sur le bouton **[<img src=images/Sketcher_CreateRegularPolygon.svg style="width:16px"> [Créer un polygone régulier](Sketcher_CreateRegularPolygon/fr.md)**, définissez le nombre de côtés du polygone dans la fenêtre contextuelle et confirmez en appuyant sur **OK** bouton.
+1.  Après avoir appuyé sur le bouton **[<img src=images/Sketcher_CreateRegularPolygon.svg style="width   *16px"> [Créer un polygone régulier](Sketcher_CreateRegularPolygon/fr.md)**, définissez le nombre de côtés du polygone dans la fenêtre contextuelle et confirmez en appuyant sur **OK** bouton.
 2.  Cliquez une fois pour définir le centre, puis déplacez la souris et cliquez une seconde fois pour définir l\'un des sommets.
 3.  Appuyez sur **Echap** ou cliquez sur le bouton droit de la souris pour annuler la fonction.
 

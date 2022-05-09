@@ -10,7 +10,7 @@ Aber FreeCAD scheint sie nicht zu erkennen.
 |Version=1.0
 |Date=2014-09-01
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/8/88/Force_Recompute.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/8/88/Force_Recompute.png ToolBar Icon]
 }}
 
 
@@ -28,7 +28,7 @@ Sometimes when a user applies changes to the model, FreeCAD does not seem to rec
 
 <div class="mw-translate-fuzzy">
 
-**Hinweis:** Ab {{VersionPlus/de|0.17}} kann die Wirkung dieses Makros über die GUI erreicht werden. Rechtsklicke auf das Projekt in der [Modellbaumansicht](Tree_view/de.md) und wähle **Zum Neuberechnen markieren** aus dem Kontextmenü. Dadurch wird das Symbol Aktualisieren/Neuberechnen wieder aktiv. Drücke nun auf die <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Aktualisieren/Neuberechnen](Std_Refresh/de.md) Taste, um eine Neuberechnung auszulösen.
+**Hinweis   *** Ab {{VersionPlus/de|0.17}} kann die Wirkung dieses Makros über die GUI erreicht werden. Rechtsklicke auf das Projekt in der [Modellbaumansicht](Tree_view/de.md) und wähle **Zum Neuberechnen markieren** aus dem Kontextmenü. Dadurch wird das Symbol Aktualisieren/Neuberechnen wieder aktiv. Drücke nun auf die <img alt="" src=images/Std_Refresh.svg  style="width   *24px;"> [Aktualisieren/Neuberechnen](Std_Refresh/de.md) Taste, um eine Neuberechnung auszulösen.
 
 
 </div>
@@ -47,18 +47,18 @@ Run the macro when necessary.
 
 ## Skript
 
-ToolBar Icon <img alt="" src=images/Force_Recompute.png  style="width:24px;">
+ToolBar Icon <img alt="" src=images/Force_Recompute.png  style="width   *24px;">
 
 **Macro Force\_Recompute.py**
 
 
 {{MacroCode|code=
-# -*- coding: utf-8 -*-
+# -*- coding   * utf-8 -*-
 # Force Recompute
 # macro provided by shoogen
 
 import FreeCAD
-for obj in FreeCAD.ActiveDocument.Objects:
+for obj in FreeCAD.ActiveDocument.Objects   *
  obj.touch()
 FreeCAD.ActiveDocument.recompute()
 

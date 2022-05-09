@@ -3,19 +3,19 @@
 
 ## Introduction
 
-Il principale strumento di gestione del codice sorgente per il progetto FreeCAD è [Git](http://en.wikipedia.org/wiki/Git_%28software%29), che può essere facilmente installato nella maggior parte dei sistemi operativi da un gestore di pacchetti o direttamente dal [sito web di Git](https://git-scm.com/). Si consiglia di acquisire familiarità con Git prima di lavorare direttamente con il codice sorgente di FreeCAD. Visitare la pagina [Git documentation](https://git-scm.com/doc) per il manuale di riferimento, nonché il [Pro Git book](https://git-scm.com/book/en/v2) per imparare a utilizzare il sistema in modo generale. Il presente documento si concentra sull\'uso di Git per lo sviluppo di FreeCAD. La compilazione di FreeCAD è descritta in [Compilare FreeCAD](Compiling/it.md).
+Il principale strumento di gestione del codice sorgente per il progetto FreeCAD è [Git](http   *//en.wikipedia.org/wiki/Git_%28software%29), che può essere facilmente installato nella maggior parte dei sistemi operativi da un gestore di pacchetti o direttamente dal [sito web di Git](https   *//git-scm.com/). Si consiglia di acquisire familiarità con Git prima di lavorare direttamente con il codice sorgente di FreeCAD. Visitare la pagina [Git documentation](https   *//git-scm.com/doc) per il manuale di riferimento, nonché il [Pro Git book](https   *//git-scm.com/book/en/v2) per imparare a utilizzare il sistema in modo generale. Il presente documento si concentra sull\'uso di Git per lo sviluppo di FreeCAD. La compilazione di FreeCAD è descritta in [Compilare FreeCAD](Compiling/it.md).
 
-Sebbene Git sia principalmente un\'applicazione da terminale, esistono molti client grafici che facilitano il lavoro con i rami, l\'applicazione di patch e l\'invio di richieste di pull a un ramo principale. Gli esempi includono [gitk](https://git-scm.com/docs/gitk) (la prima interfaccia grafica sviluppata), [gitg](https://wiki.gnome.org/Apps/Gitg/) (Gnome), [qgit](https://github.com/tibirna/qgit) (Qt), [tig](https://jonas.github.io/tig/) (Ncurses), [git-cola](http://github.com/git-cola/git-cola) e [GitKraken](https://www.gitkraken.com/) (proprietario). Per una breve introduzione a questo strumento vedere [Sviluppo di FreeCAD con GitKraken](Developing_FreeCAD_with_GitKraken/it.md).
+Sebbene Git sia principalmente un\'applicazione da terminale, esistono molti client grafici che facilitano il lavoro con i rami, l\'applicazione di patch e l\'invio di richieste di pull a un ramo principale. Gli esempi includono [gitk](https   *//git-scm.com/docs/gitk) (la prima interfaccia grafica sviluppata), [gitg](https   *//wiki.gnome.org/Apps/Gitg/) (Gnome), [qgit](https   *//github.com/tibirna/qgit) (Qt), [tig](https   *//jonas.github.io/tig/) (Ncurses), [git-cola](http   *//github.com/git-cola/git-cola) e [GitKraken](https   *//www.gitkraken.com/) (proprietario). Per una breve introduzione a questo strumento vedere [Sviluppo di FreeCAD con GitKraken](Developing_FreeCAD_with_GitKraken/it.md).
 
-Note: if any of this is starting to make you dizzy, there is a very good non-technical series on how to use git and Github called \'[Git and Github for Poets](https://youtu.be/BCQHnlnPusY)\'
+Note   * if any of this is starting to make you dizzy, there is a very good non-technical series on how to use git and Github called \'[Git and Github for Poets](https   *//youtu.be/BCQHnlnPusY)\'
 
 ## Accesso al codice sorgente 
 
-Tutti possono accedere e ottenere una copia del codice sorgente di FreeCAD, ma solo i gestori del progetto di FreeCAD hanno l\'accesso in scrittura. È possibile ottenere una copia del codice, studiarlo e modificarlo come si desidera, ma se si desidera che le proprie modifiche vengano incluse nel codice sorgente ufficiale, è necessario eseguire una \"richiesta di pull\" sul repository principale in modo che le modifiche possano essere esaminate dai gestori. Questo stile di sviluppo è noto come [Dictator and lieutenants workflow](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows), dato che gli sviluppatori principali (dittatori) e gli sviluppatori fidati (luogotenenti ) filtrano il codice inviato da sviluppatori e utenti indipendenti.
+Tutti possono accedere e ottenere una copia del codice sorgente di FreeCAD, ma solo i gestori del progetto di FreeCAD hanno l\'accesso in scrittura. È possibile ottenere una copia del codice, studiarlo e modificarlo come si desidera, ma se si desidera che le proprie modifiche vengano incluse nel codice sorgente ufficiale, è necessario eseguire una \"richiesta di pull\" sul repository principale in modo che le modifiche possano essere esaminate dai gestori. Questo stile di sviluppo è noto come [Dictator and lieutenants workflow](https   *//git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows), dato che gli sviluppatori principali (dittatori) e gli sviluppatori fidati (luogotenenti ) filtrano il codice inviato da sviluppatori e utenti indipendenti.
 
-Se le modifiche al codice sorgente sono significative, si consiglia di spiegarle nella sezione di richiesta pull del [forum di FreeCAD](http://forum.freecadweb.org/viewforum.php?f=17).
+Se le modifiche al codice sorgente sono significative, si consiglia di spiegarle nella sezione di richiesta pull del [forum di FreeCAD](http   *//forum.freecadweb.org/viewforum.php?f=17).
 
-<img alt="" src=images/FreeCAD_git_workflow.svg  style="width:600px;"> 
+<img alt="" src=images/FreeCAD_git_workflow.svg  style="width   *600px;"> 
 *Flusso di lavoro generico per sviluppare codice per FreeCAD; tutti possono ottenere il codice dal repository principale, ma gli sviluppatori principali hanno il diritto esclusivo di rivedere e unire gli invii di altri sviluppatori.*
 
 
@@ -23,22 +23,22 @@ Se le modifiche al codice sorgente sono significative, si consiglia di spiegarle
 
 ### Repositorio ufficiale GitHub 
 
-Il codice sorgente di FreeCAD è ospitato in Github, {{URL|https://github.com/FreeCAD/FreeCAD}}
+Il codice sorgente di FreeCAD è ospitato in Github, {{URL|https   *//github.com/FreeCAD/FreeCAD}}
 
 
 </div>
 
-The FreeCAD source code is hosted on Github, {{URL|https://github.com/FreeCAD/FreeCAD}}
+The FreeCAD source code is hosted on Github, {{URL|https   *//github.com/FreeCAD/FreeCAD}}
 
-Per poter contribuire con il codice, bisogna avere un [account GitHub](https://github.com/join).
+Per poter contribuire con il codice, bisogna avere un [account GitHub](https   *//github.com/join).
 
-In the past, the source code was hosted as an SVN repository, {{URL|https://free-cad.svn.sourceforge.net/svnroot/free-cad}}. This was moved to GitHub on 2011 October 10th, with [commit 120ca87015](https://github.com/FreeCAD/FreeCAD/commit/120ca87015).
+In the past, the source code was hosted as an SVN repository, {{URL|https   *//free-cad.svn.sourceforge.net/svnroot/free-cad}}. This was moved to GitHub on 2011 October 10th, with [commit 120ca87015](https   *//github.com/FreeCAD/FreeCAD/commit/120ca87015).
 
-:   Therefore, there are many changes that were made before this time which are not recorded in the modern Git commit history. Read more about this on the [History](History.md) page.
+   *   Therefore, there are many changes that were made before this time which are not recorded in the modern Git commit history. Read more about this on the [History](History.md) page.
 
 ### Impostare il proprio nome utente in Git 
 
-Gli sviluppatori devono conferire il codice al proprio repository personale del progetto utilizzando il proprio nome utente di GitHub. Se il nome utente non è ancora impostato a livello globale, è possibile impostarlo a livello locale per il repository Git attuale in questo modo:
+Gli sviluppatori devono conferire il codice al proprio repository personale del progetto utilizzando il proprio nome utente di GitHub. Se il nome utente non è ancora impostato a livello globale, è possibile impostarlo a livello locale per il repository Git attuale in questo modo   *
 
 
 {{Code|lang=text|code=
@@ -50,39 +50,39 @@ Dove `"YOUR_NAME"` rappresenta il proprio nome completo o nickname, utilizzato p
 
 ### Remote repositories 
 
-Please read [What is the difference between origin and upstream on GitHub?](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github#9257901) (Stackoverflow) to help you understand the difference between `origin` and `upstream` in the context of Git. This section explains how to set the correct repositories for development. Essentially:
+Please read [What is the difference between origin and upstream on GitHub?](https   *//stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github#9257901) (Stackoverflow) to help you understand the difference between `origin` and `upstream` in the context of Git. This section explains how to set the correct repositories for development. Essentially   *
 
--    `origin`is your personal fork of the official FreeCAD repository, that is, {{URL|https://github.com/GITHUB_USERNAME/FreeCAD}}
+-    `origin`is your personal fork of the official FreeCAD repository, that is, {{URL|https   *//github.com/GITHUB_USERNAME/FreeCAD}}
 
--    `upstream`is the official FreeCAD repository, that is, {{URL|https://github.com/FreeCAD/FreeCAD}}
+-    `upstream`is the official FreeCAD repository, that is, {{URL|https   *//github.com/FreeCAD/FreeCAD}}
 
 This distinction is important, as you should write code in your own copy of the repository first, before pushing those changes to the official repository.
 
-Based on the above, there are two ways to setup your Git development environment:
+Based on the above, there are two ways to setup your Git development environment   *
 
--   1st Method: fork on GitHub and clone your fork locally
--   2nd Method: clone FreeCAD directly to your local machine, and adjust the remote servers
+-   1st Method   * fork on GitHub and clone your fork locally
+-   2nd Method   * clone FreeCAD directly to your local machine, and adjust the remote servers
 
 We recommend the 1st method because it\'s one step faster.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-#### 1st Method: Fork on GitHub and clone your fork locally 
+#### 1st Method   * Fork on GitHub and clone your fork locally 
 
 
 <div class="mw-collapsible-content">
 
 First you will fork the FreeCAD repository in GitHub, then clone this personal fork to your computer, and finally set the `upstream` repository.
 
--   [Log in](https://github.com/join) to your GitHub account.
--   Go to the official FreeCAD repository: {{URL|https://github.com/FreeCAD/FreeCAD}}
--   In the top right of the page press the \"Fork\" button. This will create a personal copy of the FreeCAD repository under your GitHub username: {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}
+-   [Log in](https   *//github.com/join) to your GitHub account.
+-   Go to the official FreeCAD repository   * {{URL|https   *//github.com/FreeCAD/FreeCAD}}
+-   In the top right of the page press the \"Fork\" button. This will create a personal copy of the FreeCAD repository under your GitHub username   * {{URLn|https   *//github.com/GITHUB_USERNAME/FreeCAD}}
 -   On your machine, clone your newly created FreeCAD fork. It will be created inside a directory `freecad-source`.
 
 
 {{Code|lang=text|code=
-git clone https://github.com/GITHUB_USERNAME/FreeCAD.git freecad-source
+git clone https   *//github.com/GITHUB_USERNAME/FreeCAD.git freecad-source
 }}
 
 -   Once the download is complete, enter the new source directory and set the `upstream` repository.
@@ -90,17 +90,17 @@ git clone https://github.com/GITHUB_USERNAME/FreeCAD.git freecad-source
 
 {{Code|lang=text|code=
 cd  freecad-source
-git remote add upstream https://github.com/FreeCAD/FreeCAD.git
+git remote add upstream https   *//github.com/FreeCAD/FreeCAD.git
 }}
 
 -   Confirm your remote repositories with `git remote -v`; the output should be similar to this
 
 
 {{Code|lang=text|code=
-origin  https://github.com/GITHUB_USERNAME/FreeCAD.git (fetch)
-origin  https://github.com/GITHUB_USERNAME/FreeCAD.git (push)
-upstream    https://github.com/FreeCAD/FreeCAD.git (fetch)
-upstream    https://github.com/FreeCAD/FreeCAD.git (push)
+origin  https   *//github.com/GITHUB_USERNAME/FreeCAD.git (fetch)
+origin  https   *//github.com/GITHUB_USERNAME/FreeCAD.git (push)
+upstream    https   *//github.com/FreeCAD/FreeCAD.git (fetch)
+upstream    https   *//github.com/FreeCAD/FreeCAD.git (push)
 }}
 
 -   Now development can begin.
@@ -114,21 +114,21 @@ upstream    https://github.com/FreeCAD/FreeCAD.git (push)
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-#### 2° metodo: clonare FreeCAD direttamente sul proprio computer locale 
+#### 2° metodo   * clonare FreeCAD direttamente sul proprio computer locale 
 
 
 <div class="mw-collapsible-content">
 
 First you will fork the FreeCAD repository in GitHub, however, you will clone the original FreeCAD repository to your local machine, and then alter your remotes via the terminal.
 
--   [Log in](https://github.com/join) to your GitHub account.
--   Go to the official FreeCAD repository: {{URL|https://github.com/FreeCAD/FreeCAD}}
--   In the top right of the page press the \"Fork\" button. This will create a personal copy of the FreeCAD repository under your GitHub username: {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}
+-   [Log in](https   *//github.com/join) to your GitHub account.
+-   Go to the official FreeCAD repository   * {{URL|https   *//github.com/FreeCAD/FreeCAD}}
+-   In the top right of the page press the \"Fork\" button. This will create a personal copy of the FreeCAD repository under your GitHub username   * {{URLn|https   *//github.com/GITHUB_USERNAME/FreeCAD}}
 -   Clone the original FreeCAD repository. It will be created inside a directory `freecad-source`.
 
 
 {{Code|lang=text|code=
-git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
+git clone https   *//github.com/FreeCAD/FreeCAD.git freecad-source
 }}
 
 -   Once the download is complete, enter the new source directory and set the `origin` repository.
@@ -136,24 +136,24 @@ git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
 
 {{Code|lang=text|code=
 cd freecad-source
-git remote add origin https://github.com/GITHUB_USERNAME/FreeCAD.git
+git remote add origin https   *//github.com/GITHUB_USERNAME/FreeCAD.git
 }}
 
 -   Then set up the `upstream` repository.
 
 
 {{Code|lang=text|code=
-git remote add upstream https://github.com/FreeCAD/FreeCAD.git
+git remote add upstream https   *//github.com/FreeCAD/FreeCAD.git
 }}
 
 -   Confirm your remote repositories with `git remote -v`; the output should be similar to this
 
 
 {{Code|lang=text|code=
-origin  https://github.com/GITHUB_USERNAME/FreeCAD.git (fetch)
-origin  https://github.com/GITHUB_USERNAME/FreeCAD.git (push)
-upstream    https://github.com/FreeCAD/FreeCAD.git (fetch)
-upstream    https://github.com/FreeCAD/FreeCAD.git (push)
+origin  https   *//github.com/GITHUB_USERNAME/FreeCAD.git (fetch)
+origin  https   *//github.com/GITHUB_USERNAME/FreeCAD.git (push)
+upstream    https   *//github.com/FreeCAD/FreeCAD.git (fetch)
+upstream    https   *//github.com/FreeCAD/FreeCAD.git (push)
 }}
 
 -   Now development can begin.
@@ -169,7 +169,7 @@ If for some reason the remote repositories exist but point to the wrong address,
 
 {{Code|lang=text|code=
 git remote rename origin upstream
-git remote add origin https://github.com/GITHUB_USERNAME/FreeCAD.git
+git remote add origin https   *//github.com/GITHUB_USERNAME/FreeCAD.git
 git remote -v
 }}
 
@@ -189,19 +189,19 @@ git remote show upstream
 ## Processo di sviluppo Git 
 
 
-**Non sviluppare mai sul ramo "master". Creare invece un ramo per lo sviluppo e quindi unire questo ramo al ramo principale. Si prega di leggere [https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Branching], [https://book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Basic Branching and Merging], e [https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - Contributing to a project] to learn more.**
+**Non sviluppare mai sul ramo "master". Creare invece un ramo per lo sviluppo e quindi unire questo ramo al ramo principale. Si prega di leggere [https   *//git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell Git Branching], [https   *//book.git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging Basic Branching and Merging], e [https   *//git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project GitHub - Contributing to a project] to learn more.**
 
 
 </div>
 
-<img alt="" src=images/FreeCAD_git_branches_workflow.svg  style="width:800px;"> 
+<img alt="" src=images/FreeCAD_git_branches_workflow.svg  style="width   *800px;"> 
 *Generic workflow to develop code for FreeCAD using `git*; the main repository is forked online and cloned to an offline computer (0); new branches (1) are used to commit local changes and additions to the code (2); the branches are rebased to the latest online code (3), and then are pushed to the remote repository (4); then a pull request is created in order to merge the code into the main repository (5). Then the personal clone is updated with the new master code (a); this updated master is also pushed to the remote repository (b) in order to have the same code both online and offline.`
 
 ### Ramificazioni
 
 Instead of working on the master version of the code, best practices with Git recommend creating a new branch whenever you want to work on a new feature. Branches are inexpensive, they don\'t copy the entire source tree, but merely create a point in time on top of which you will write code; thus branches help keep work in progress separate from the main code.
 
-Using a new branch is done in two steps, first your create the branch, and then you switch to it:
+Using a new branch is done in two steps, first your create the branch, and then you switch to it   *
 
 
 {{Code|lang=text|code=
@@ -209,14 +209,14 @@ git branch myNewBranch
 git checkout myNewBranch
 }}
 
-oppure, eseguire entrambe le operazioni in una sola:
+oppure, eseguire entrambe le operazioni in una sola   *
 
 
 {{Code|lang=text|code=
 git checkout -b myNewBranch
 }}
 
-è sempre possibile verificare in quale ramo si stà operando con:
+è sempre possibile verificare in quale ramo si stà operando con   *
 
 
 {{Code|lang=text|code=
@@ -233,7 +233,7 @@ git log --oneline --decorate --graph --all
 
 ### Invio
 
-Once you are inside a new branch, edit the source files that you want with a text editor. To see which files were modified use the `status` and `diff` operations; when you are satisfied with the modifications, save the changes with the `commit` operation:
+Once you are inside a new branch, edit the source files that you want with a text editor. To see which files were modified use the `status` and `diff` operations; when you are satisfied with the modifications, save the changes with the `commit` operation   *
 
 
 {{Code|lang=text|code=
@@ -244,7 +244,7 @@ git commit -a
 
 A differenza di SVN, è necessario indicare specificare quali file sono da inviare (o tutti con l\'opzione -a). Il proprio editor di testo si apre per consentire di scrivere un messaggio di commit.
 
-Alternatively add the message in the commit itself:
+Alternatively add the message in the commit itself   *
 
 
 {{Code|lang=text|code=
@@ -268,12 +268,12 @@ Where `path` can be any directory or file.
 
 ### Scrivere buoni messaggi di commit 
 
-Si dovrebbe cercare di lavorare in piccole parti. Se non è possibile riassumere le proprie modifiche in una sola frase, è probabile che sia passato troppo tempo da quando si è fatto l\'ultimo commit. Inoltre è importante che le descrizioni del lavoro siano dettagliate e utili. Per i messaggi di commit, FreeCAD adotta un formato menzionato nel libro [Pro Git](http://progit.org/book/it).
+Si dovrebbe cercare di lavorare in piccole parti. Se non è possibile riassumere le proprie modifiche in una sola frase, è probabile che sia passato troppo tempo da quando si è fatto l\'ultimo commit. Inoltre è importante che le descrizioni del lavoro siano dettagliate e utili. Per i messaggi di commit, FreeCAD adotta un formato menzionato nel libro [Pro Git](http   *//progit.org/book/it).
 
 
 </div>
 
-For big changes, it is important that you have helpful and useful descriptions of your work. FreeCAD has adopted a format mentioned in the [Pro Git](https://git-scm.com/book/en/v2) book, which consists of a short message, and then a larger descriptive paragraph.
+For big changes, it is important that you have helpful and useful descriptions of your work. FreeCAD has adopted a format mentioned in the [Pro Git](https   *//git-scm.com/book/en/v2) book, which consists of a short message, and then a larger descriptive paragraph.
 
 
 <div class="mw-translate-fuzzy">
@@ -297,7 +297,7 @@ Ulteriori paragrafi vanno dopo una riga vuota. 
 
 <div class="mw-translate-fuzzy">
 
-Se si sta facendo diversi lavori connessi, [qui](http://forum.freecadweb.org/viewtopic.php?f=10&t=2062&p=14887#p14886) viene suggerito che si dovrebbero fare altrettanti invii, grandi o piccoli, secondo come è necessario e descriverli con brevi messaggi di commit. Quando si desidera unirli, fare un **log master git..BRANCH** e utilizzare il risultato come base per il messaggio di commit. Poi, quando si uniscono al master usare l\'opzione **\--squash** e inviarlo con il messaggio di commit. Questo permette di essere molto liberi con il commit e contribuisce a fornire un buon livello di dettagli nei messaggi di commit senza tante descrizioni distinte.
+Se si sta facendo diversi lavori connessi, [qui](http   *//forum.freecadweb.org/viewtopic.php?f=10&t=2062&p=14887#p14886) viene suggerito che si dovrebbero fare altrettanti invii, grandi o piccoli, secondo come è necessario e descriverli con brevi messaggi di commit. Quando si desidera unirli, fare un **log master git..BRANCH** e utilizzare il risultato come base per il messaggio di commit. Poi, quando si uniscono al master usare l\'opzione **\--squash** e inviarlo con il messaggio di commit. Questo permette di essere molto liberi con il commit e contribuisce a fornire un buon livello di dettagli nei messaggi di commit senza tante descrizioni distinte.
 
 
 </div>
@@ -336,7 +336,7 @@ Use the `rebase` operation with the `--interactive` or `-i` option to select var
 git rebase -i 6394da
 }}
 
-(TIP: If you know how many commits you want to edit, you can use `git rebase -i HEAD~n` to work on the last `n` commits)
+(TIP   * If you know how many commits you want to edit, you can use `git rebase -i HEAD~n` to work on the last `n` commits)
 
 The command line editor, like `nano` or `vim`, will open to show you the commits again, now with the older commit on top. Before each commit, the word `pick` will be shown. Delete the word `pick`, and write the word `squash` or just the letter `s` instead, with the exception of the first entry; this commit is the oldest one, so all future commits will be squashed into it.
 
@@ -363,9 +363,9 @@ c83d67 OK, feature B is fully implemented now, with proper module setup, and cle
 6394da Feature A
 }}
 
-When coding for FreeCAD, we ask that you begin each commit message with the module that it affects. For example, a commit message for a change to sketcher might be:
+When coding for FreeCAD, we ask that you begin each commit message with the module that it affects. For example, a commit message for a change to sketcher might be   *
 
-    Sketcher: make straight lines curve a bit
+    Sketcher   * make straight lines curve a bit
 
     Straight lines are sort of ugly, so this commit adds a little bit of curvature to them, so
     they are more visually pleasing. They also sparkle some, and change colors over time.
@@ -378,7 +378,7 @@ Your PR will be easier to review, and faster to be merged, if you are careful to
 
 The local branches in your computer aren\'t automatically synchronized with the remote servers that you have specified as `origin` or `upstream` (see [Remote repositories](#Remote_repositories.md)); you have to explicitly push the branches to the remote servers, for which you must have write access. Once you do this, the branches become public, and available for review by other developers.
 
-For FreeCAD, you should push your local branch to the `origin` remote repository, that is, {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}. You need to enter your username and password every time you push, unless you have set up [Credential caching](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage#_credential_caching). Please read [Pushing commits to a remote repository](https://help.github.com/articles/pushing-to-a-remote/) for more information.
+For FreeCAD, you should push your local branch to the `origin` remote repository, that is, {{URLn|https   *//github.com/GITHUB_USERNAME/FreeCAD}}. You need to enter your username and password every time you push, unless you have set up [Credential caching](https   *//git-scm.com/book/en/v2/Git-Tools-Credential-Storage#_credential_caching). Please read [Pushing commits to a remote repository](https   *//help.github.com/articles/pushing-to-a-remote/) for more information.
 
 
 {{Code|lang=text|code=
@@ -389,11 +389,11 @@ When you work with a single branch, you may need to interactively rebase, squash
 
 
 {{Code|lang=text|code=
-error: failed to push some refs to 'https://github.com/USER/FreeCAD.git'
-hint: Updates were rejected because a pushed branch tip is behind its remote
-hint: counterpart. Check out this branch and integrate the remote changes
-hint: (e.g. 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+error   * failed to push some refs to 'https   *//github.com/USER/FreeCAD.git'
+hint   * Updates were rejected because a pushed branch tip is behind its remote
+hint   * counterpart. Check out this branch and integrate the remote changes
+hint   * (e.g. 'git pull ...') before pushing again.
+hint   * See the 'Note about fast-forwards' in 'git push --help' for details.
 }}
 
 In order to finally push your branch to the remote repository you need to \"force push\" it. This will completely overwrite your remote branch with the actual branch that you have offline.
@@ -403,7 +403,7 @@ In order to finally push your branch to the remote repository you need to \"forc
 git push -f origin myNewBranch
 }}
 
-The regular developer doesn\'t have write access to the `upstream` repository {{URL|https://github.com/FreeCAD/FreeCAD}}, therefore, you should never push code to this remote server.
+The regular developer doesn\'t have write access to the `upstream` repository {{URL|https   *//github.com/FreeCAD/FreeCAD}}, therefore, you should never push code to this remote server.
 
 ### Rebasing from upstream 
 
@@ -413,7 +413,7 @@ While you work on your own branch, the official FreeCAD code keeps \"moving forw
          / 
     oZ FreeCAD upstream/master
 
-Therefore, when you are ready to merge your branch to the main FreeCAD repository, you must \"rebase\" your own copy of the repository, so that it is as close as possible to the official repository. See [Git Branching - Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for more information.
+Therefore, when you are ready to merge your branch to the main FreeCAD repository, you must \"rebase\" your own copy of the repository, so that it is as close as possible to the official repository. See [Git Branching - Rebasing](https   *//git-scm.com/book/en/v2/Git-Branching-Rebasing) for more information.
 
 
 {{Code|lang=text|code=
@@ -456,28 +456,28 @@ git rebase master
 
 ### Merging the branch (pull request) 
 
-Once you have committed your changes locally, rebased your branch from the upstream repository, and pushed your branch online, you can initiate a \"pull request\". A [pull request](https://help.github.com/articles/about-pull-requests/) tells the administrators of the official FreeCAD repository that you want to merge the new code in your branch with the official code.
+Once you have committed your changes locally, rebased your branch from the upstream repository, and pushed your branch online, you can initiate a \"pull request\". A [pull request](https   *//help.github.com/articles/about-pull-requests/) tells the administrators of the official FreeCAD repository that you want to merge the new code in your branch with the official code.
 
-To recap, the development process looks like this:
+To recap, the development process looks like this   *
 
 1.  Fork FreeCAD and get a local copy of that fork.
 2.  Create a branch on your fork and change to that branch.
 3.  Code! Commit and much or as little as you like, writing good commit messages to keep track of what you are doing.
-4.  When you are satisfied with your work, use `git rebase -i HEAD~n` (where n is the total number of commits you\'ve made) to collapse your commits into a logical set with good commit messages (each message should begin with the name of the module it affects, e.g. \"Sketcher: make straight lines curve a bit\").
+4.  When you are satisfied with your work, use `git rebase -i HEAD~n` (where n is the total number of commits you\'ve made) to collapse your commits into a logical set with good commit messages (each message should begin with the name of the module it affects, e.g. \"Sketcher   * make straight lines curve a bit\").
 5.  Use GitHub to submit your code as a \"Pull Request (PR)\" as described below.
 
-As soon as you push the code to your `origin` repository {{URLn|https://github.com/GITHUB_USERNAME/FreeCAD}}, GitHub will give you the option of comparing and creating a pull request against the `upstream` repository. By pressing **Compare & pull request** you will open an interface that will allow you to pick which repository is the \"base\", target of the merge, and which is the \"head\", your additional code. A quick check will be done by the system telling you if there are no conflicts with the files that you modified; if you worked on files that nobody has touched, your branch will be able to merge cleanly.
+As soon as you push the code to your `origin` repository {{URLn|https   *//github.com/GITHUB_USERNAME/FreeCAD}}, GitHub will give you the option of comparing and creating a pull request against the `upstream` repository. By pressing **Compare & pull request** you will open an interface that will allow you to pick which repository is the \"base\", target of the merge, and which is the \"head\", your additional code. A quick check will be done by the system telling you if there are no conflicts with the files that you modified; if you worked on files that nobody has touched, your branch will be able to merge cleanly.
 
-GitHub will show you a text editor so you can write a message documenting your changes: this editor will be pre-filled with a welcome message (that you can delete), a checklist (that you should go through), and a reminder to document your change on the wiki when it\'s accepted. To use the checklist, go through each item in turn and change the `[ ]` to `[X]` to indicate that you\'ve done that step. GitHub will also display the number of commits in your branch, the number of files that were modified, and a view showing you the differences between the \"base\" and the \"head\" so that everybody can immediately see your intended modifications. Double-check these for things like stray blank lines you didn\'t mean to add, or huge formatting changes that your IDE decided to make behind your back.
+GitHub will show you a text editor so you can write a message documenting your changes   * this editor will be pre-filled with a welcome message (that you can delete), a checklist (that you should go through), and a reminder to document your change on the wiki when it\'s accepted. To use the checklist, go through each item in turn and change the `[ ]` to `[X]` to indicate that you\'ve done that step. GitHub will also display the number of commits in your branch, the number of files that were modified, and a view showing you the differences between the \"base\" and the \"head\" so that everybody can immediately see your intended modifications. Double-check these for things like stray blank lines you didn\'t mean to add, or huge formatting changes that your IDE decided to make behind your back.
 
 
 {{Code|lang=text|code=
-base repository: FreeCAD/FreeCAD    base: master  <  head repository: GITHUB_USERNAME/FreeCAD    compare: myNewBranch
+base repository   * FreeCAD/FreeCAD    base   * master  <  head repository   * GITHUB_USERNAME/FreeCAD    compare   * myNewBranch
 
 Able to merge. These branches can be automatically merged.
 }}
 
-Click **Create pull request** to proceed. A message will appear indicating that some checks need to be done on the code. This is a system that compiles FreeCAD automatically and runs the unit tests. If the tests pass, the pull request will have a better chance of being merged into the main code, otherwise a report will be made indicating the errors encountered. See [FreeCAD pull requests](https://travis-ci.org/FreeCAD/FreeCAD/pull_requests).
+Click **Create pull request** to proceed. A message will appear indicating that some checks need to be done on the code. This is a system that compiles FreeCAD automatically and runs the unit tests. If the tests pass, the pull request will have a better chance of being merged into the main code, otherwise a report will be made indicating the errors encountered. See [FreeCAD pull requests](https   *//travis-ci.org/FreeCAD/FreeCAD/pull_requests).
 
     Some checks haven’t completed yet
 
@@ -497,7 +497,7 @@ Now you must wait for the administrators to merge your branch; you will be notif
 {{Code|lang=text|code=
 Pull request successfully merged and closed
 
-You’re all set — the GITHUB_USERNAME:myNewBranch branch can be safely deleted.
+You’re all set — the GITHUB_USERNAME   *myNewBranch branch can be safely deleted.
 If you wish, you can also delete your fork of FreeCAD/FreeCAD.
 }}
 
@@ -509,7 +509,7 @@ oZA' FreeCAD upstream/master
 }}
 
 
-**Note:**
+**Note   ***
 
 you may continue working (`git commit -a`) on the same branch while you wait for merge approval; if you `git push` again, a second merge commit will be queued in the same pull request, and another automated test will be done. That is, while your merges aren\'t yet approved by the administrators, you may keep pushing changes to your `origin` repository, and this will queue those commits in the same pull request to the `upstream` repository. Using a single pull request to queue many individual commits is often desirable for small changes. For big additions to the source code, you should create another branch, develop your features there, and then submit a separate pull request for this branch.
 
@@ -517,32 +517,32 @@ The pull request interface can be used whenever you want to submit code from you
 
 
 {{Code|lang=text|code=
-base repository: SomeProject/Some_Software  base: master       <  head repository: GITHUB_USERNAME/Some_Software  compare: add_new_functions
-base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repository: FreeCAD/FreeCAD                compare: master
-base repository: GITHUB_USERNAME/FreeCAD    base: myNewBranch  <  head repository: GITHUB_USERNAME/FreeCAD        compare: fix-many-bugs-branch
+base repository   * SomeProject/Some_Software  base   * master       <  head repository   * GITHUB_USERNAME/Some_Software  compare   * add_new_functions
+base repository   * GITHUB_USERNAME/FreeCAD    base   * myNewBranch  <  head repository   * FreeCAD/FreeCAD                compare   * master
+base repository   * GITHUB_USERNAME/FreeCAD    base   * myNewBranch  <  head repository   * GITHUB_USERNAME/FreeCAD        compare   * fix-many-bugs-branch
 }}
 
 ### Keeping the GitHub repository up to date 
 
-Once you\'ve forked FreeCAD, your personal repository exists independently from the original. When the original repository has new commits, GitHub will inform you that your personal repository is behind in number of commits:
+Once you\'ve forked FreeCAD, your personal repository exists independently from the original. When the original repository has new commits, GitHub will inform you that your personal repository is behind in number of commits   *
 
 
 {{Code|lang=text|code=
-This branch is 5 commits behind FreeCAD:master.
+This branch is 5 commits behind FreeCAD   *master.
 }}
 
-In similar way, if you created a development branch with new code, GitHub will inform you that this branch is ahead in number of commits; that is, this branch has changes that haven\'t been merged into the official FreeCAD repository:
+In similar way, if you created a development branch with new code, GitHub will inform you that this branch is ahead in number of commits; that is, this branch has changes that haven\'t been merged into the official FreeCAD repository   *
 
 
 {{Code|lang=text|code=
-This branch is 3 commits ahead of FreeCAD:master.
+This branch is 3 commits ahead of FreeCAD   *master.
 }}
 
-While developing, both cases are possible, as your own branch may lack commits made by other developers, but include new commits by you:
+While developing, both cases are possible, as your own branch may lack commits made by other developers, but include new commits by you   *
 
 
 {{Code|lang=text|code=
-This branch is 2 commits ahead, 14 commits behind FreeCAD:master. 
+This branch is 2 commits ahead, 14 commits behind FreeCAD   *master. 
 }}
 
 When developing code it is recommended that you rebase the branch in which you are currently working, as that will put your branch always ahead of the FreeCAD master code.
@@ -560,7 +560,7 @@ After this is done, GitHub will let you know that your are synchronized with the
 
 
 {{Code|lang=text|code=
-This branch is even with FreeCAD:master. 
+This branch is even with FreeCAD   *master. 
 }}
 
 Now that your `master` is up to date, you may decide to switch to it, and delete the other branch that you used previously to develop a feature.
@@ -578,19 +578,19 @@ To delete the branch in the `origin` remote repository, you can use the `push` o
 git push origin myNewBranch
 }}
 
-However, if you use the notation `local_name:remote_name`, the local branch is created in the remote repository under a different name:
+However, if you use the notation `local_name   *remote_name`, the local branch is created in the remote repository under a different name   *
 
 
 {{Code|lang=text|code=
-git push origin myNewBranch:someRemoteBranch
+git push origin myNewBranch   *someRemoteBranch
 }}
 
-Therefore, you can delete the remote branch by pushing an empty local branch:
+Therefore, you can delete the remote branch by pushing an empty local branch   *
 
 
 {{Code|lang=text|code=
-git push origin :myNewBranch
-git push origin :someRemoteBranch
+git push origin    *myNewBranch
+git push origin    *someRemoteBranch
 }}
 
 Now that you only have an up-to-date `master`, you can create a new branch, and repeat the steps of changing files, committing, pushing, submitting a pull request, merging, and updating.
@@ -616,7 +616,7 @@ Hard resetting a branch like this is usually not needed. In most cases, you want
 
 ### Searching
 
-Some handy tools to help you find what you\'re looking for:
+Some handy tools to help you find what you\'re looking for   *
 
 #### Search filenames 
 
@@ -644,12 +644,12 @@ Once a conflict occurs, a message like this may appear.
 
 
 {{Code|lang=text|code=
-CONFLICT (content): Merge conflict in src/Mod/source_code.py
-error: Failed to merge in the changes.
+CONFLICT (content)   * Merge conflict in src/Mod/source_code.py
+error   * Failed to merge in the changes.
 Patch failed at 1234 Some commit message when editing source_code.py
 }}
 
-If a specialized diff tool is installed and configured for Git, for example, Gnome\'s [Meld](https://wiki.gnome.org/Apps/Meld), the conflict can be examined and solved by using the `mergetool` operation.
+If a specialized diff tool is installed and configured for Git, for example, Gnome\'s [Meld](https   *//wiki.gnome.org/Apps/Meld), the conflict can be examined and solved by using the `mergetool` operation.
 
 
 {{Code|lang=text|code=
@@ -664,16 +664,16 @@ git merge --continue
 git rebase --continue
 }}
 
-For more information on merging and solving conflicts see:
+For more information on merging and solving conflicts see   *
 
--   [How merge conflicts are presented](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented) with `git merge`.
--   [Basic merge conflicts](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merge_conflicts) and [Git Tools - Advanced Merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging).
--   [Resolving a merge conflict using the command line](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
--   [External merge and diff tools](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_external_merge_tools) to use when you encounter a Git conflict.
+-   [How merge conflicts are presented](https   *//git-scm.com/docs/git-merge#_how_conflicts_are_presented) with `git merge`.
+-   [Basic merge conflicts](https   *//git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merge_conflicts) and [Git Tools - Advanced Merging](https   *//git-scm.com/book/en/v2/Git-Tools-Advanced-Merging).
+-   [Resolving a merge conflict using the command line](https   *//help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
+-   [External merge and diff tools](https   *//git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_external_merge_tools) to use when you encounter a Git conflict.
 
 ### Inspect changes 
 
-Inspect the history of a single file through various commits with the `log` operation:
+Inspect the history of a single file through various commits with the `log` operation   *
 
 
 {{Code|lang=text|code=
@@ -684,7 +684,7 @@ Where `path` can be any directory or file. Instead of `--patch`, also the shorth
 
 ### Inspect changes between two branches 
 
-Inspect the changes between two branches with the `log` and `diff` operations with the names of the branches:
+Inspect the changes between two branches with the `log` and `diff` operations with the names of the branches   *
 
 
 {{Code|lang=text|code=
@@ -698,7 +698,7 @@ The `log` operation shows the commits, while `diff` shows the actual changes in 
 
 If you accidentally made modifications to a file or directory, you may want to completely revert these changes, to get the previous state of the source code.
 
-This can be done quickly using the `checkout` operation:
+This can be done quickly using the `checkout` operation   *
 
 
 {{Code|lang=text|code=
@@ -708,7 +708,7 @@ git checkout .
 
 This will restore the `path` (a file or a directory) to the state it is at the tip of the branch, discarding changes that haven\'t been committed. If `path` is the single dot `.`, it will restore all files in the current directory.
 
-If you have accidentally added files and directories you can use the `clean` operation:
+If you have accidentally added files and directories you can use the `clean` operation   *
 
 
 {{Code|lang=text|code=
@@ -717,7 +717,7 @@ git clean -df
 
 This will forcefully delete all files and directories (`-df`) that are not being tracked by the repository, that is, those that have not been included previously with the `add` operation.
 
-To completely reset the repository, losing all uncommitted modifications, use the `reset` operation:
+To completely reset the repository, losing all uncommitted modifications, use the `reset` operation   *
 
 
 {{Code|lang=text|code=
@@ -805,7 +805,7 @@ where `XXXX` is a number from `0000` to `9999`, and the commit message forms the
 
 #### Applying patches 
 
-Git can merge patches or diffs. To know more about this process read [Applying patches with Git](https://www.drupal.org/node/1399218).
+Git can merge patches or diffs. To know more about this process read [Applying patches with Git](https   *//www.drupal.org/node/1399218).
 
 If you already have the patch file in your system, just apply it.
 
@@ -818,19 +818,19 @@ You can use `curl` to download a patch from a website, and then apply it through
 
 
 {{Code|lang=text|code=
-curl -O https://some.website.org/code/myCode.patch
+curl -O https   *//some.website.org/code/myCode.patch
 git apply myCode.patch
 }}
 
 Add `.diff` or `.patch` at the end of the URL of a GitHub commit, pull request, or compare view so that the website shows you the plain text view of that page.
 
--   Regular commit page: {{URL|https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621}}
--   Diff page: {{URL|https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.diff}}
--   Patch page: {{URL|https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.patch}}
+-   Regular commit page   * {{URL|https   *//github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621}}
+-   Diff page   * {{URL|https   *//github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.diff}}
+-   Patch page   * {{URL|https   *//github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.patch}}
 
 You can point `curl` to a particular commit patch in the repository, and pipe it directly to `git` to apply the patch.
 
-    curl https://github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.patch | git apply -
+    curl https   *//github.com/FreeCAD/FreeCAD/commit/c476589652a0f67b544735740e20ff702e8d0621.patch | git apply -
 
 #### Reversing a patch 
 
@@ -880,18 +880,18 @@ You can list multiple stash commits with
 git stash list
 }}
 
-To learn more, read [Useful tricks you might not know about Git stash](https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a).
+To learn more, read [Useful tricks you might not know about Git stash](https   *//medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a).
 
 ### Check out GitHub requests locally 
 
-[Checkout GitHub pull requests locally](https://gist.github.com/piscisaureus/3342247)
+[Checkout GitHub pull requests locally](https   *//gist.github.com/piscisaureus/3342247)
 
 ### Blaming
 
 
 **Section TBD**
 
-Add content from <https://forum.freecadweb.org/viewtopic.php?f=23&t=55943&p=481483#p481287>
+Add content from <https   *//forum.freecadweb.org/viewtopic.php?f=23&t=55943&p=481483#p481287>
 
 ### Bisect
 
@@ -900,12 +900,12 @@ Add content from <https://forum.freecadweb.org/viewtopic.php?f=23&t=55943&p=4814
 
 is a method to find the specific commit that introduced a bug.
 
-You need to find 2 commits:
+You need to find 2 commits   *
 
 -   A good commit (for example `abcd`) before the system broke.
 -   A bad commit (for example `efgh`) after the system broke.
 
-Then enter this from the terminal:
+Then enter this from the terminal   *
 
 
 {{Code|lang=text|code=
@@ -914,9 +914,9 @@ git bisect good abcd
 git bisect bad efgh
 }}
 
-Result: `git` will check out the mid point between the two commits.
+Result   * `git` will check out the mid point between the two commits.
 
-The next step is to build and test the code. If the system works, continue the process by typing:
+The next step is to build and test the code. If the system works, continue the process by typing   *
 
 
 {{Code|lang=text|code=
@@ -925,7 +925,7 @@ git bisect good
 
 Repeat the previous step of building the code and testing it.
 
-If the system is broken, type:
+If the system is broken, type   *
 
 
 {{Code|lang=text|code=
@@ -936,18 +936,18 @@ Repeat the previous steps applying `good` or `bad` depending on the outcome of y
 
 Eventually, `git` will tell you that `wxyz` is the first bad commit.
 
-Finally, to exit the bisect process, type:
+Finally, to exit the bisect process, type   *
 
 
 {{Code|lang=text|code=
 git bisect reset
 }}
 
-Note: `git bisect` takes a long time if good and bad are far apart.
+Note   * `git bisect` takes a long time if good and bad are far apart.
 
 ## FreeCAD revision number 
 
-In contrast to subversion, which uses a consecutive number for its revisions, Git produces [SHA-1 hash values](https://en.wikipedia.org/wiki/SHA-1) with every commit. A hash value is a long alphanumeric string that looks like this
+In contrast to subversion, which uses a consecutive number for its revisions, Git produces [SHA-1 hash values](https   *//en.wikipedia.org/wiki/SHA-1) with every commit. A hash value is a long alphanumeric string that looks like this
 
 
 {{Code|lang=text|code=
@@ -965,7 +965,7 @@ git rev-list --count HEAD
 git rev-list --count origin
 }}
 
-Or browse [the repository on GitHub](https://github.com/FreeCAD/FreeCAD), and read the amount of commits reported in the particular branch.
+Or browse [the repository on GitHub](https   *//github.com/FreeCAD/FreeCAD), and read the amount of commits reported in the particular branch.
 
 ### Revision number of a specific commit hash 
 
@@ -1010,14 +1010,14 @@ git rev-list --count 44c2f19e38
 15000
 }}
 
--   [Show the commits](https://forum.freecadweb.org/viewtopic.php?f=10&t=26673) immediately before a particular commit in GitHub: in the address bar of the browser, change the word `commit` to `commits` to show a list.
--   [Finding the revision number of the commit](https://forum.freecadweb.org/viewtopic.php?t=5308)
--   [Finding the revision number of the commit](https://forum.freecadweb.org/viewtopic.php?f=18&t=12883&p=103207#p103203)
--   [Finding the corresponding hash value to a particular commit number](https://forum.freecadweb.org/viewtopic.php?f=10&t=31118)
+-   [Show the commits](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=26673) immediately before a particular commit in GitHub   * in the address bar of the browser, change the word `commit` to `commits` to show a list.
+-   [Finding the revision number of the commit](https   *//forum.freecadweb.org/viewtopic.php?t=5308)
+-   [Finding the revision number of the commit](https   *//forum.freecadweb.org/viewtopic.php?f=18&t=12883&p=103207#p103203)
+-   [Finding the corresponding hash value to a particular commit number](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=31118)
 
 ### Revision number in FreeCAD\'s interface 
 
-The version number that appears with the [Std About](Std_About.md) tool is defined in `src/Build/Version.h`, which is created at compile time when the `cmake` tool is run. Read [Extract version number from git source](https://forum.freecadweb.org/viewtopic.php?f=4&t=3025) for more information.
+The version number that appears with the [Std About](Std_About.md) tool is defined in `src/Build/Version.h`, which is created at compile time when the `cmake` tool is run. Read [Extract version number from git source](https   *//forum.freecadweb.org/viewtopic.php?f=4&t=3025) for more information.
 
 
 <div class="mw-translate-fuzzy">
@@ -1045,11 +1045,11 @@ git fetch OTHER_USER
 git checkout -b OTHER_BRANCH OTHER_USER/OTHER_BRANCH
 }}
 
-For example, lets add Bernd\'s remote repository:
+For example, lets add Bernd\'s remote repository   *
 
 
 {{Code|lang=text|code=
-git remote add bernd http://github.com/berndhahnebach/FreeCAD_bhb
+git remote add bernd http   *//github.com/berndhahnebach/FreeCAD_bhb
 }}
 
 The `git fetch` command downloads the references from that remote repository.
@@ -1096,7 +1096,7 @@ git pull --rebase upstream master
 
 The new branch is ready to be modified and compiled as described in [Compiling](Compiling.md).
 
-Head to the development section of the [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=6) to discuss more about development.
+Head to the development section of the [FreeCAD forum](https   *//forum.freecadweb.org/viewforum.php?f=6) to discuss more about development.
 
 ## Ulteriori letture 
 
@@ -1104,11 +1104,15 @@ Head to the development section of the [FreeCAD forum](https://forum.freecadweb.
 <div class="mw-translate-fuzzy">
 
 -   [Sviluppo di FreeCAD con GitKraken](Developing_FreeCAD_with_GitKraken/it.md), una guida per utilizzare un\'interfaccia grafica con Git.
--   [Git for the lazy](https://wiki.spheredev.org/index.php/Git_for_the_lazy), una guida molto concisa ai principali comandi di `git`.
--   The [Pro Git book](https://git-scm.com/book), un libro open source su Git; è disponibile in versione elettronica e cartacea.
+-   [Git for the lazy](https   *//wiki.spheredev.org/index.php/Git_for_the_lazy), una guida molto concisa ai principali comandi di `git`.
+-   The [Pro Git book](https   *//git-scm.com/book), un libro open source su Git; è disponibile in versione elettronica e cartacea.
 
 
 </div>
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md)
 
 
 

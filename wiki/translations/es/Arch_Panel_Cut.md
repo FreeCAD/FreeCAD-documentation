@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Arch Panel Cut
-   Name/es:Arch Corte de Panel
-   MenuLocation:Arch → Panel Tools → Panel Cut
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   Shortcut:**P** **C**
-   SeeAlso:[Arch Panel](Arch_Panel/es.md), [[Arch Panel Sheet/es]], [[Arch Nest/es]], [[Path Workbench/es]]
+- GuiCommand   */es
+   Name   *Arch Panel Cut
+   Name/es   *Arch Corte de Panel
+   MenuLocation   *Arch → Panel Tools → Panel Cut
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   Shortcut   ***P** **C**
+   SeeAlso   *[Arch Panel](Arch_Panel/es.md), [[Arch Panel Sheet/es]], [[Arch Nest/es]], [[Path Workbench/es]]
 ---
 
 # Arch Panel Cut/es
@@ -59,32 +59,32 @@ Esta herramienta crea, en el documento 3D, una vista 2D plana de un [Arch Panel]
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Source}}: el objeto [Arch Panel](Arch_Panel/es.md) mostrado por este corte
+-    {{PropertyData/es|Source}}   * el objeto [Arch Panel](Arch_Panel/es.md) mostrado por este corte
 
--    {{PropertyData/es|Tag Text}}: el texto para mostrar. Puede ser %tag%, %label% o %description% para mostrar la etiqueta o etiqueta del panel
+-    {{PropertyData/es|Tag Text}}   * el texto para mostrar. Puede ser %tag%, %label% o %description% para mostrar la etiqueta o etiqueta del panel
 
--    {{PropertyData/es|Tag Size}}: el tamaño del texto de la etiqueta
+-    {{PropertyData/es|Tag Size}}   * el tamaño del texto de la etiqueta
 
--    {{PropertyData/es|Tag Position}}: la posición del texto de la etiqueta. Mantener (0,0,0) para la posición central automática
+-    {{PropertyData/es|Tag Position}}   * la posición del texto de la etiqueta. Mantener (0,0,0) para la posición central automática
 
--    {{PropertyData/es|Tag Rotation}}: la rotación del texto de la etiqueta
+-    {{PropertyData/es|Tag Rotation}}   * la rotación del texto de la etiqueta
 
--    {{PropertyData/es|Font File}}: la fuente del texto de la etiqueta
+-    {{PropertyData/es|Font File}}   * la fuente del texto de la etiqueta
 
--    {{PropertyView/es|Margin}}: un margen que se puede mostrar fuera de la forma de corte del panel
+-    {{PropertyView/es|Margin}}   * un margen que se puede mostrar fuera de la forma de corte del panel
 
--    {{PropertyView/es|Show Margin}}: Activa/desactiva la visualización del margen
+-    {{PropertyView/es|Show Margin}}   * Activa/desactiva la visualización del margen
 
--    {{PropertyData/es|Make Face}}: si es verdadero, el panel es una cara de la pieza, de lo contrario, una Part Wire
+-    {{PropertyData/es|Make Face}}   * si es verdadero, el panel es una cara de la pieza, de lo contrario, una Part Wire
 
 
 </div>
 
 ### View
 
--    **Margin**: A margin that can be displayed outside the panel cut shape
+-    **Margin**   * A margin that can be displayed outside the panel cut shape
 
--    **Show Margin**: Turns the display of the margin on/off
+-    **Show Margin**   * Turns the display of the margin on/off
 
 ## Scripting
 
@@ -99,7 +99,7 @@ Esta herramienta crea, en el documento 3D, una vista 2D plana de un [Arch Panel]
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Panel puede usarse en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función:
+La herramienta Panel puede usarse en [macros](macros/es.md) y desde la consola de Python utilizando la siguiente función   *
 
 
 </div>
@@ -110,7 +110,7 @@ View = makePanelCut(panel, name="PanelView")```
 
 -   Creates a `View` object (2D projection) from the existing `panel`.
 
-Ejemplo: 
+Ejemplo   * 
 ```python
 import FreeCAD, Draft, Arch
 

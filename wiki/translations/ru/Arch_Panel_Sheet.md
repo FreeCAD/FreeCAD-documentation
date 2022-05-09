@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Arch_Panel_Sheet
-   Name:Arch_Panel_Sheet
-   MenuLocation:Arch → Инструменты панели → Лист панелей
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   Shortcut:**P** **S**
-   SeeAlso:[Arch Panel](Arch_Panel/ru.md), [Arch Panel Cut](Arch_Panel_Cut/ru.md), [Arch Nest](Arch_Nest/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Arch_Panel_Sheet
+   Name   *Arch_Panel_Sheet
+   MenuLocation   *Arch → Инструменты панели → Лист панелей
+   Workbenches   *[Arch](Arch_Workbench/ru.md)
+   Shortcut   ***P** **S**
+   SeeAlso   *[Arch Panel](Arch_Panel/ru.md), [Arch Panel Cut](Arch_Panel_Cut/ru.md), [Arch Nest](Arch_Nest/ru.md)
 ---
 
 # Arch Panel Sheet/ru
@@ -17,9 +17,9 @@
 
 This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](Arch_Panel_Cut.md) objects, or any other 2D object such as those made by the [Draft Workbench](Draft_Workbench.md) and [Sketcher Workbench](Sketcher_Workbench.md). The Panel Sheet is typically made to layout cuts to be made by a CNC machine. These sheets can then be exported to a [DXF](Draft_DXF.md) file.
 
-<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_03.jpg  style="width   *1024px;">
 
-<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_04.jpg  style="width   *1024px;">
 
 *The above image shows how Panel Sheets appear when exported to DXF.*
 
@@ -41,42 +41,42 @@ This tool allows to build a 2D sheet, including any number of [Arch Panel Cut](A
 
 ### Данные
 
--    **Height**: The height of the sheet
+-    **Height**   * The height of the sheet
 
--    **Width**: The width of the sheet
+-    **Width**   * The width of the sheet
 
--    **Fill Ratio**: The percentage of the sheet area that is filled by cuts (automatic)
+-    **Fill Ratio**   * The percentage of the sheet area that is filled by cuts (automatic)
 
--    **Tag Text**: The text to display
+-    **Tag Text**   * The text to display
 
--    **Tag Size**: The size of the tag text
+-    **Tag Size**   * The size of the tag text
 
--    **Tag Position**: The position of the tag text. Keep (0,0,0) for automatic center position
+-    **Tag Position**   * The position of the tag text. Keep (0,0,0) for automatic center position
 
--    **Tag Rotation**: The rotation of the tag text
+-    **Tag Rotation**   * The rotation of the tag text
 
--    **Font File**: The font of the tag text
+-    **Font File**   * The font of the tag text
 
--    **Make Face**: If True, the panel is a Part Face, otherwise a Part Wire
+-    **Make Face**   * If True, the panel is a Part Face, otherwise a Part Wire
 
--    **Grain Direction**: This allows you to inform the main direction of the panel fiber (clockwise direction, 0° means up)
+-    **Grain Direction**   * This allows you to inform the main direction of the panel fiber (clockwise direction, 0° means up)
 
 ### Вид
 
--    **Margin**: A margin that can be displayed inside the panel border
+-    **Margin**   * A margin that can be displayed inside the panel border
 
--    **Show Margin**: Turns the display of the margin on/off
+-    **Show Margin**   * Turns the display of the margin on/off
 
--    **Show Grain**: Shows a fiber texture (Make Face must be set to True)
+-    **Show Grain**   * Shows a fiber texture (Make Face must be set to True)
 
 ## Сценарии
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Panel sheet tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+The Panel sheet tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
 
 
 ```python
@@ -85,7 +85,7 @@ Sheet = makePanelSheet(panels=[], name="PanelSheet")
 
 -   Creates a `Sheet` object from `panels`, which is a list of [Arch Panel](Arch_Panel.md) objects.
 
-Пример:
+Пример   *
 
 
 ```python

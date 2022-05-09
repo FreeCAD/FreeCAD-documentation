@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Part RuledSurface
-   MenuLocation:Part → RuledSurface
-   Workbenches:[Part](Part_Workbench.md)
-   SeeAlso:[Part MakeFace](Part_MakeFace.md)
+- GuiCommand   *
+   Name   *Part RuledSurface
+   MenuLocation   *Part → RuledSurface
+   Workbenches   *[Part](Part_Workbench.md)
+   SeeAlso   *[Part MakeFace](Part_MakeFace.md)
 ---
 
 # Part RuledSurface/en
@@ -16,9 +16,13 @@ Create ruled surface
 
 ## Usage
 
-1.  Invoke the Ruled Surface command several waysː
-    -   Press the <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;"> [Part RuledSurface](Part_RuledSurface.md) button
+1.  There are several ways to invoke the command   *
+    -   Press the <img alt="" src=images/Part_RuledSurface.svg  style="width   *24px;"> [Part RuledSurface](Part_RuledSurface.md) button
     -   Use the **Part → RuledSurface** entry in the Part menu
+
+## Notes
+
+-   [App Link](App_Link.md) objects linked to the appropriate object types can also be used as source objects. <small>(v0.20)</small>
 
 
 

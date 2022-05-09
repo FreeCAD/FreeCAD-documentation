@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Arch_Building
-   Name/ru:Здание
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   MenuLocation:Arch → Здание
-   Shortcut:**B** **U**
-   SeeAlso:[Строительная деталь](Arch_BuildingPart/ru.md), [Местность](Arch_Site/ru.md)
+- GuiCommand   */ru
+   Name   *Arch_Building
+   Name/ru   *Здание
+   Workbenches   *[Arch](Arch_Workbench/ru.md)
+   MenuLocation   *Arch → Здание
+   Shortcut   ***B** **U**
+   SeeAlso   *[Строительная деталь](Arch_BuildingPart/ru.md), [Местность](Arch_Site/ru.md)
 ---
 
 # Arch Building/ru
@@ -27,23 +27,23 @@ Arch Building - это особый тип объекта группы FreeCAD, 
 
 ## Свойства
 
--    **Building Type**: The type of this building, to choose from a list
+-    **Building Type**   * The type of this building, to choose from a list
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Building tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Building tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 Building = makeBuilding(objectslist=None, baseobj=None, name="Building")
 ```
 
 -   Creates a `Building` object from `objectslist`, which is a list of objects, or `baseobj`, which is a `Shape`.
 
-Пример:
+Пример   *
 
 
 ```python

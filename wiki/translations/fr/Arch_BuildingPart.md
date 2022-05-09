@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch BuildingPart
-   Name/fr:Arch Partie de bâtiment
-   MenuLocation:Arch → Partie de bâtiment
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Version:0.18
-   SeeAlso:[Arch Bâtiment](Arch_Building/fr.md), [Arch Site](Arch_Site/fr.md)
+- GuiCommand   */fr
+   Name   *Arch BuildingPart
+   Name/fr   *Arch Partie de bâtiment
+   MenuLocation   *Arch → Partie de bâtiment
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   Version   *0.18
+   SeeAlso   *[Arch Bâtiment](Arch_Building/fr.md), [Arch Site](Arch_Site/fr.md)
 ---
 
 # Arch BuildingPart/fr
@@ -38,16 +38,16 @@ Ce plan est toujours parallèle au plan de base du BuildingPart, mais vous pouve
 
 ## Propriétés
 
-Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
 
-Une Arch Partie de bâtiment est dérivé d\'un objet [App GeoFeature](App_GeoFeature/fr.md) et hérite de toutes ses propriétés. Elle possède également les propriétés supplémentaires suivantes :
+Une Arch Partie de bâtiment est dérivé d\'un objet [App GeoFeature](App_GeoFeature/fr.md) et hérite de toutes ses propriétés. Elle possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
 
 {{TitleProperty|Base}}
 
--    **Group|LinkList**: Liste des objets référencés.
+-    **Group|LinkList**   * Liste des objets référencés.
 
 -    **_ Group Touched|Bool|Hidden**
     
@@ -55,38 +55,38 @@ Une Arch Partie de bâtiment est dérivé d\'un objet [App GeoFeature](App_GeoFe
 
 {{TitleProperty|Building Part}}
 
--    **Area|Area**: La surface calculée de cet étage.
+-    **Area|Area**   * La surface calculée de cet étage.
 
--    **Height|Length**: La hauteur de cet objet et de ses objets enfants. Les objets enfants peuvent être, par exemple, des [Arch Walls](Arch_Wall/fr.md). La hauteur de chaque mur doit être définie sur `0` (zéro) de sorte que la propriété de hauteur du BuildingPart se propage aux objets qu\'il contient.
+-    **Height|Length**   * La hauteur de cet objet et de ses objets enfants. Les objets enfants peuvent être, par exemple, des [Arch Walls](Arch_Wall/fr.md). La hauteur de chaque mur doit être définie sur `0` (zéro) de sorte que la propriété de hauteur du BuildingPart se propage aux objets qu\'il contient.
 
--    **Level Offset|Length**: Le niveau du point (0,0,0) de ce niveau. Cette valeur est ajoutée à l\'attribut `Placement.Base.z` du BuildingPart, pour indiquer un décalage vertical sans déplacer réellement l\'objet. Le décalage résultant est affiché si **Show Level** est `True`.
+-    **Level Offset|Length**   * Le niveau du point (0,0,0) de ce niveau. Cette valeur est ajoutée à l\'attribut `Placement.Base.z` du BuildingPart, pour indiquer un décalage vertical sans déplacer réellement l\'objet. Le décalage résultant est affiché si **Show Level** est `True`.
 
--    **Tableau des matériaux|Map|Hidden**: Une carte MaterialName:SolidIndexesList qui associe les noms de matériaux à des index de solides à utiliser pour référencer cet objet à partir d\'autres fichiers.
+-    **Tableau des matériaux|Map|Hidden**   * Une carte MaterialName   *SolidIndexesList qui associe les noms de matériaux à des index de solides à utiliser pour référencer cet objet à partir d\'autres fichiers.
 
--    **Only Solids|Bool**: Si mis à true, seuls les solides seront collectés par cet objet lorsqu\'il sera référencé à partir d\'autres fichiers.
+-    **Only Solids|Bool**   * Si mis à true, seuls les solides seront collectés par cet objet lorsqu\'il sera référencé à partir d\'autres fichiers.
 
--    **Saved Inventor|FileIncluded|Hidden**: Cette propriété stocke une représentation de l\'inventeur pour cet objet.
+-    **Saved Inventor|FileIncluded|Hidden**   * Cette propriété stocke une représentation de l\'inventeur pour cet objet.
 
--    **Shape|PartShape|Hidden**: La forme de cet objet.
+-    **Shape|PartShape|Hidden**   * La forme de cet objet.
 
 
 {{TitleProperty|Children}}
 
--    **Height Propagate|Bool**: Si vrai, la valeur de la hauteur se propage aux objets contenus.
+-    **Height Propagate|Bool**   * Si vrai, la valeur de la hauteur se propage aux objets contenus.
 
 
 {{TitleProperty|IFC}}
 
--    **Ifc Data|Map|Hidden**: Données IFC.
+-    **Ifc Data|Map|Hidden**   * Données IFC.
 
--    **Ifc Properties|Map|Hidden**: Les propriétés IFC de cet objet.
+-    **Ifc Properties|Map|Hidden**   * Les propriétés IFC de cet objet.
 
--    **Ifc Type|Enumeration**: Le type IFC de cet objet.
+-    **Ifc Type|Enumeration**   * Le type IFC de cet objet.
 
 
 {{TitleProperty|IFC Attributes}}
 
--    **Description|String**: Une description facultative pour ce composant.
+-    **Description|String**   * Une description facultative pour ce composant.
 
 -    **Global Id|String**
     
@@ -106,7 +106,7 @@ Une Arch Partie de bâtiment est dérivé d\'un objet [App GeoFeature](App_GeoFe
 -    **Predefined Type|Enumeration**
     
 
--    **Tag|String**: Une balise facultative pour ce composant.
+-    **Tag|String**   * Une balise facultative pour ce composant.
 
 -    **User Defined Partitioning Type|String**
     
@@ -116,84 +116,84 @@ Une Arch Partie de bâtiment est dérivé d\'un objet [App GeoFeature](App_GeoFe
 
 {{TitleProperty|Auto Group}}
 
--    **Autogroup Autosize|Bool**: Définit automatiquement la taille de la boîte de capture à partir du contenu de Partie de bâtiment. {{Version/fr|0.20}}
+-    **Autogroup Autosize|Bool**   * Définit automatiquement la taille de la boîte de capture à partir du contenu de Partie de bâtiment. {{Version/fr|0.20}}
 
--    **Autogroup Box|Bool**: Active/désactive le regroupement automatique (et l\'affichage de la boîte de capture). {{Version/fr|0.20}}
+-    **Autogroup Box|Bool**   * Active/désactive le regroupement automatique (et l\'affichage de la boîte de capture). {{Version/fr|0.20}}
 
--    **Autogroup Margin|Length**: Une marge à utiliser lorsque la taille automatique est activée. {{Version/fr|0.20}}
+-    **Autogroup Margin|Length**   * Une marge à utiliser lorsque la taille automatique est activée. {{Version/fr|0.20}}
 
--    **Autogroup Size|IntegerList**: La boîte de capture pour les objets nouvellement créés, exprimée en \[XMin,YMin,ZMin,XMax,YMax,ZMax\]. {{Version/fr|0.20}}
+-    **Autogroup Size|IntegerList**   * La boîte de capture pour les objets nouvellement créés, exprimée en \[XMin,YMin,ZMin,XMax,YMax,ZMax\]. {{Version/fr|0.20}}
 
 
 {{TitleProperty|Building Part}}
 
--    **Diffuse Color|ColorList|Hidden**: Les couleurs individuelles de la face.
+-    **Diffuse Color|ColorList|Hidden**   * Les couleurs individuelles de la face.
 
--    **Display Offset|Placement**: Une transformation à appliquer à la marque de niveau.
+-    **Display Offset|Placement**   * Une transformation à appliquer à la marque de niveau.
 
--    **Font Name|Font**: La police à utiliser pour les textes.
+-    **Font Name|Font**   * La police à utiliser pour les textes.
 
--    **Font Size|Length**: La taille de la police des textes.
+-    **Font Size|Length**   * La taille de la police des textes.
 
--    **Line Width|Float**: La largeur de ligne de cet objet.
+-    **Line Width|Float**   * La largeur de ligne de cet objet.
 
--    **Origin Offset|Bool**: Si true, lorsqu\'il est activé, le décalage d\'affichage affectera également la marque d\'origine.
+-    **Origin Offset|Bool**   * Si true, lorsqu\'il est activé, le décalage d\'affichage affectera également la marque d\'origine.
 
--    **Override Unit|String**: Une unité facultative pour exprimer les niveaux.
+-    **Override Unit|String**   * Une unité facultative pour exprimer les niveaux.
 
--    **Show Label|Bool**: Si true, l\'étiquette de l\'objet est affichée lorsqu\'elle est activée.
+-    **Show Label|Bool**   * Si true, l\'étiquette de l\'objet est affichée lorsqu\'elle est activée.
 
--    **Show Level|Bool**: Si true, affiche le niveau.
+-    **Show Level|Bool**   * Si true, affiche le niveau.
 
--    **Show Unit|Bool**: Si true, affiche l\'unité sur l\'étiquette du niveau.
+-    **Show Unit|Bool**   * Si true, affiche l\'unité sur l\'étiquette du niveau.
 
 
 {{TitleProperty|Children}}
 
--    **Couleur de ligne des enfants|Couleur**: La couleur de ligne à appliquer aux enfants de cette Partie de bâtiment.
+-    **Couleur de ligne des enfants|Couleur**   * La couleur de ligne à appliquer aux enfants de cette Partie de bâtiment.
 
--    **Children Line Width|Float**: La largeur de ligne à appliquer aux enfants de cette Partie de bâtiment.
+-    **Children Line Width|Float**   * La largeur de ligne à appliquer aux enfants de cette Partie de bâtiment.
 
--    **Children Override|Bool**: Si true, les objets contenus dans cette Partie de bâtiment adopteront ces paramètres de ligne, de couleur et de transparence.
+-    **Children Override|Bool**   * Si true, les objets contenus dans cette Partie de bâtiment adopteront ces paramètres de ligne, de couleur et de transparence.
 
--    **Children Shape Color|Color**: La couleur de forme à appliquer aux enfants de cette Partie de bâtiment.
+-    **Children Shape Color|Color**   * La couleur de forme à appliquer aux enfants de cette Partie de bâtiment.
 
--    **Children Transparency|Percent**: La transparence à appliquer aux enfants de cette Partie de bâtiment.
+-    **Children Transparency|Percent**   * La transparence à appliquer aux enfants de cette Partie de bâtiment.
 
 
 {{TitleProperty|Clip}}
 
--    **Auto Cut View|Bool**: Active la découpe lors de l\'activation de ce niveau.
+-    **Auto Cut View|Bool**   * Active la découpe lors de l\'activation de ce niveau.
 
--    **Cut Margin|Length**: La distance entre le plan du niveau et la ligne de coupe.
+-    **Cut Margin|Length**   * La distance entre le plan du niveau et la ligne de coupe.
 
--    **Cut View|Bool**: Coupe la vue au-dessus de ce niveau.
+-    **Cut View|Bool**   * Coupe la vue au-dessus de ce niveau.
 
 
 {{TitleProperty|Interactions}}
 
--    **Auto Working Plane|Bool**: Si la valeur est True, le plan de travail sera maintenu en mode Auto.
+-    **Auto Working Plane|Bool**   * Si la valeur est True, le plan de travail sera maintenu en mode Auto.
 
--    **Double Click Activates|Bool**: Si True, un double-clic sur cet objet dans l\'arbre l\'active.
+-    **Double Click Activates|Bool**   * Si True, un double-clic sur cet objet dans l\'arbre l\'active.
 
--    **Restore View|Bool**: Si cette option est activée, la vue stockée dans cet objet sera restaurée lors d\'un double-clic.
+-    **Restore View|Bool**   * Si cette option est activée, la vue stockée dans cet objet sera restaurée lors d\'un double-clic.
 
--    **Save Inventor|Bool**: Si cette option est activée, la représentation de l\'inventeur de cet objet sera enregistrée dans le fichier FreeCAD, ce qui permettra de le référencer dans d\'autres fichiers en mode léger.
+-    **Save Inventor|Bool**   * Si cette option est activée, la représentation de l\'inventeur de cet objet sera enregistrée dans le fichier FreeCAD, ce qui permettra de le référencer dans d\'autres fichiers en mode léger.
 
--    **Saved Inventor|FileIncluded|Hidden**: Un emplacement pour enregistrer la représentation de l\'inventeur de cet objet, s\'il est activé.
+-    **Saved Inventor|FileIncluded|Hidden**   * Un emplacement pour enregistrer la représentation de l\'inventeur de cet objet, s\'il est activé.
 
--    **Set Working Plane|Bool**: Si true, lorsqu\'il est activé, le plan de travail s\'adaptera automatiquement à cet élément de construction.
+-    **Set Working Plane|Bool**   * Si true, lorsqu\'il est activé, le plan de travail s\'adaptera automatiquement à cet élément de construction.
 
--    **View Data|FloatList|Hidden**: Données de position de la caméra associées à cet objet.
+-    **View Data|FloatList|Hidden**   * Données de position de la caméra associées à cet objet.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Partie de bâtiment (BuildingPart) peut être utilisé à l\'intérieur d\'une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
+L\'outil Partie de bâtiment (BuildingPart) peut être utilisé à l\'intérieur d\'une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante    *
 
 
 ```python
@@ -202,7 +202,7 @@ BuildingPart = makeBuildingPart(objectslist=None)
 
 -   Crée un objet `BuildingPart` à partir de `objectslist` qui est une liste d\'objets.
 
-Exemple : 
+Exemple    * 
 ```python
 import FreeCAD, Draft, Arch
 

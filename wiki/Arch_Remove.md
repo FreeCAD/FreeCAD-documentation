@@ -1,16 +1,16 @@
 ---
-- GuiCommand:
-   Name:Arch Remove
-   MenuLocation:Arch → Remove component
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Arch CutLine](Arch_CutLine.md), [Arch CutPlane](Arch_CutPlane.md), [Arch Add](Arch_Add.md)
+- GuiCommand   *
+   Name   *Arch Remove
+   MenuLocation   *Arch → Remove component
+   Workbenches   *[Arch](Arch_Workbench.md)
+   SeeAlso   *[Arch CutLine](Arch_CutLine.md), [Arch CutPlane](Arch_CutPlane.md), [Arch Add](Arch_Add.md)
 ---
 
 # Arch Remove
 
 ## Description
 
-The Remove tools allows you to do 2 kinds of operations:
+The Remove tools allows you to do 2 kinds of operations   *
 
 -   Remove a subcomponent from an Arch object, for example remove a box that has been added to a wall, like in the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** example.
 -   Subtract a [shape](Part_Workbench.md)-based object from an Arch component such as a **<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall.md)
@@ -18,7 +18,7 @@ The Remove tools allows you to do 2 kinds of operations:
 
 The counterpart of this tool is the **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** tool.
 
- <img alt="" src=images/Arch_Remove_example.jpg  style="width:600px;">  
+ <img alt="" src=images/Arch_Remove_example.jpg  style="width   *600px;">  
 *A box subtracted from a wall, leaving a hole in it.*
 
 ## Usage
@@ -34,11 +34,11 @@ Or
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Remove tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:  
+The Remove tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *  
 ```python
 removeComponents(objectsList, host=None)
 ```
@@ -46,14 +46,14 @@ removeComponents(objectsList, host=None)
 -   Removes the given objects in `objectsList` from their parents.
 -   If a `host` object is specified, this function will try adding the objects in `objectsList` as holes to the `host`.
 
-Example:  
+Example   *  
 ```python
 import FreeCAD, Draft, Arch
 
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

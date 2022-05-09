@@ -1,34 +1,34 @@
 ---
-- GuiCommand:/fr
-   Name:Draft Fillet
-   Name/fr:Draft Congé
-   MenuLocation:Drafting → Fillet
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**F** **I**
-   Version:0.19
-   SeeAlso:[Draft Ligne](Draft_Line/fr.md), [Draft Polyligne](Draft_Wire/fr.md)
+- GuiCommand   */fr
+   Name   *Draft Fillet
+   Name/fr   *Draft Congé
+   MenuLocation   *Esquisse → Congé
+   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut   ***F** **I**
+   Version   *0.19
+   SeeAlso   *[Draft Ligne](Draft_Line/fr.md), [Draft Polyligne](Draft_Wire/fr.md)
 ---
 
 # Draft Fillet/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft Congé** crée un congé, un coin arrondi ou un chanfrein, un bord droit entre deux [Draft Lignes](Draft_Line/fr.md).
+La commande <img alt="" src=images/Draft_Fillet.svg  style="width   *24px;"> **Draft Congé** crée un congé, un coin arrondi ou un chanfrein, un bord droit entre deux [Draft Lignes](Draft_Line/fr.md).
 
-<img alt="" src=images/Draft_Fillet_example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_Fillet_example.png  style="width   *400px;"> 
 *Plusieurs congés et chanfreins créés entre deux lignes*
 
 ## Utilisation
 
 1.  Sélectionnez deux [Draft Lignes](Draft_Line/fr.md) qui se rejoignent en un seul point.
-2.  Il y a plusieurs façons de lancer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Fillet.svg" width=16px> [Créer un congé entre deux lignes...](Draft_Fillet/fr.md)**.
-    -   Sélectionnez l\'option **Drafting → <img src="images/Draft_Fillet.svg" width=16px> Congé** dans le menu.
-    -   Utilisez le raccourci clavier : **F** puis **I**.
+2.  Il y a plusieurs façons de lancer la commande    *
+    -   Appuyez sur le **<img src="images/Draft_Fillet.svg" width=16px> [Congé](Draft_Fillet/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Fillet.svg" width=16px> Congé** dans le menu.
+    -   Utilisez le raccourci clavier    * **F** puis **I**.
 3.  Saisissez le **Rayon du congé**. Si l\'option **Créer un chanfrein** est sélectionnée, ce sera la taille du chanfrein (la longueur de la règle). Notez que la commande n\'aboutira pas si le rayon ou la taille du chanfrein est trop grand pour les lignes sélectionnées.
 4.  Vérifiez éventuellement l\'option **Supprimer les objets originaux**.
 5.  Vérifiez éventuellement l\'option **Créer un chanfrein**.
-6.  Si vous avez sélectionné l\'une des deux options précédentes : Cliquez dans le champ de saisie **Rayon du congé**.
+6.  Si vous avez sélectionné l\'une des deux options précédentes    * Cliquez dans le champ de saisie **Rayon du congé**.
 7.  Appuyez sur **Entrée**.
 
 ## Options
@@ -43,43 +43,43 @@ La commande <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draf
 
 ## Propriétés
 
-Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Draft Congé est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet Draft Congé est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
 
 {{TitleProperty|Draft}}
 
--    {{PropertyData/fr|End|VectorDistance}}: (en lecture seule) spécifie le dernier point du congé.
+-    **End|VectorDistance**   * (en lecture seule) spécifie le dernier point du congé.
 
--    {{PropertyData/fr|Fillet Radius|Length}}: (en lecture seule) rayon avec lequel le congé a été créé.
+-    **Fillet Radius|Length**   * (en lecture seule) rayon avec lequel le congé a été créé.
 
--    {{PropertyData/fr|Length|Length}}: (en lecture seule) spécifie la longueur totale du congé.
+-    **Length|Length**   * (en lecture seule) spécifie la longueur totale du congé.
 
--    {{PropertyData/fr|Start|VectorDistance}}: (lecture seule) spécifie le point de départ du congé.
+-    **Start|VectorDistance**   * (lecture seule) spécifie le point de départ du congé.
 
 ### Vue
 
 
 {{TitleProperty|Draft}}
 
--    {{PropertyView/fr|Arrow Size|Length}}: spécifie la taille du symbole affiché à la fin du filet.
+-    **Arrow Size|Length**   * spécifie la taille du symbole affiché à la fin du filet.
 
--    {{PropertyView/fr|Arrow Type|Enumeration}}: spécifie le type de symbole affiché à la fin du filet qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**   * spécifie le type de symbole affiché à la fin du filet qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
 
--    {{PropertyView/fr|End Arrow|Bool}}: spécifie s\'il faut afficher un symbole à la fin du congé, afin qu\'il puisse être utilisé comme ligne d\'annotation.
+-    **End Arrow|Bool**   * spécifie s\'il faut afficher un symbole à la fin du congé, afin qu\'il puisse être utilisé comme ligne d\'annotation.
 
--    {{PropertyView/fr|Pattern|Enumeration}}: non utilisé.
+-    **Pattern|Enumeration**   * non utilisé.
 
--    {{PropertyView/fr|Pattern Size|Float}}: non utilisé.
+-    **Pattern Size|Float**   * non utilisé.
 
 ## Script
 
-Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-Pour créer un Draft Congé, utilisez la méthode `make_fillet` du module Draft :
+Pour créer un Draft Congé, utilisez la méthode `make_fillet` du module Draft    *
 
 
 ```python
@@ -90,7 +90,7 @@ fillet = make_fillet([line1, line2], radius=100, chamfer=False, delete=False)
 -   Si le `chanfrein` est `True`, il créera une arête droite de la longueur du `rayon`, au lieu d\'un arête arrondie.
 -   Si `delete` est `True`, il supprimera les `ligne1` et `ligne2` données, et ne laissera que le nouvel objet.
 
-Exemple :
+Exemple    *
 
 
 ```python

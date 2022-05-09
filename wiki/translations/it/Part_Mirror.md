@@ -1,6 +1,6 @@
 # Part Mirror/it
 ---
-- GuiCommand:/it   Name:Part_Mirror   Name/it:Specchia   MenuLocation:Parte → Specchia...   Workbenches:[[Part_Workbench/it   Parte]]|SeeAlso:---
+- GuiCommand   */it   Name   *Part_Mirror   Name/it   *Specchia   MenuLocation   *Parte → Specchia...   Workbenches   *[[Part_Workbench/it   Parte]]|SeeAlso   *---
 
 
 </div>
@@ -9,7 +9,7 @@
 
 Crea un nuovo oggetto (un duplicato) di un oggetto di tipo **Parte** che è una riflessione dell\'oggetto originale (sorgente). L\'oggetto duplicato viene creato tramite un piano di riflessione. Il piano di riflessione può essere un piano standard (XY, YZ o XZ), o qualsiasi piano parallelo ad un piano standard.
 
-Esempio:
+Esempio   *
 
 ![L\'oggetto originale](images/PARTMirrorBeforev11.png )
 
@@ -38,6 +38,8 @@ Le caselle **Punto base** possono essere utilizzate per spostare il piano di spe
   **XZ**           **X**, **Z**   Nessun effetto.
   **YZ**           **X**          Sposta il piano lungo l\'asse **X**.
   **YZ**           **Y**, **Z**   Nessun effetto.
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">

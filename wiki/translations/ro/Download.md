@@ -20,19 +20,19 @@ Versiunea 0,17 inițială de FreeCAD (0.17.13509) a fost publicată în 2018-04-
 
 <div class="mw-translate-fuzzy">
 
-Veți găsi SHA256 checksums (pentru a verifica integritatea descărcării) și versiunea portabilă pe Windows la [0.17 Release page on GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.17). (Versiunile mai vechi au fost \"tunse\". Disponibilitatea va reveni în viitor)
+Veți găsi SHA256 checksums (pentru a verifica integritatea descărcării) și versiunea portabilă pe Windows la [0.17 Release page on GitHub](https   *//github.com/FreeCAD/FreeCAD/releases/tag/0.17). (Versiunile mai vechi au fost \"tunse\". Disponibilitatea va reveni în viitor)
 
 
 </div>
 
-Previous versions can be downloaded from the [releases](https://github.com/FreeCAD/FreeCAD/releases) page.
+Previous versions can be downloaded from the [releases](https   *//github.com/FreeCAD/FreeCAD/releases) page.
 
-+::+---+::+---+::+
++   *   *+---+   *   *+---+   *   *+
 | ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png )         |
 |                                                                                                                                   |   |                                                                                                                 |   |                                                    |
 | [Install on Windows](Installing_on_Windows.md)                                                                            |   | [Install on Mac](Installing_on_Mac.md)                                                                  |   | [Install on Linux](Installing_on_Linux.md) |
 |                                                                                                                                   |   |                                                                                                                 |   |                                                    |
-| [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-4.exe) (includes installer) |   | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)             |
+| [64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-4.exe) (includes installer) |   | [macOS 64-bit](https   *//github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)             |
 ++---++---++
 
 
@@ -40,8 +40,8 @@ Previous versions can be downloaded from the [releases](https://github.com/FreeC
 
 #### Note către utilizatorii de Windows 
 
--   The 32-Bit installer (x86) suportă următoarele versiune de Windows: 7/8/10.
--   The 64-Bit installer (x64) suportă următoarele versiuni de Windows: 7/8/10.
+-   The 32-Bit installer (x86) suportă următoarele versiune de Windows   * 7/8/10.
+-   The 64-Bit installer (x64) suportă următoarele versiuni de Windows   * 7/8/10.
 
 
 </div>
@@ -74,7 +74,7 @@ FreeCAD poate fi instalat din depozitele oficiale ale majorității distribuții
 
 Please see the [Installing on Linux](Installing_on_Linux.md) page for more installation options, including daily packages for Ubuntu and derivatives.
 
-A portable version that doesn\'t need installation can be achieved by starting FreeCAD with these commands: <small>(v0.19)</small>  
+A portable version that doesn\'t need installation can be achieved by starting FreeCAD with these commands   * <small>(v0.19)</small>  
 ```python
 cd path/to/directory_containing_AppImage/
 chmod +x ./FreeCAD_0.19-24366-Linux-Conda_glibc2.12-x86_64.AppImage
@@ -88,7 +88,7 @@ More information about FreeCAD\'s environment variables can be found on [the con
 
 ### Versiuni în dezvoltare 
 
-Dezvoltarea reeCAD-ului este întotdeauna activă! Doriți să verificați versiunea de dezvoltare 0.18? Pentru utilizatorii de Linux, verificați versiunea 0.18 [AppImage](AppImage.md).m Pentru MacOS, Windows și codul sursă, a se vedea pe pagina [FreeCAD releases](https://github.com/FreeCAD/FreeCAD/releases).
+Dezvoltarea reeCAD-ului este întotdeauna activă! Doriți să verificați versiunea de dezvoltare 0.18? Pentru utilizatorii de Linux, verificați versiunea 0.18 [AppImage](AppImage.md).m Pentru MacOS, Windows și codul sursă, a se vedea pe pagina [FreeCAD releases](https   *//github.com/FreeCAD/FreeCAD/releases).
 
 
 </div>

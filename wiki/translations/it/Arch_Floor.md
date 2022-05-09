@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch Floor
-   Name/it:Piano
-   Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch → Piano
-   Shortcut:**L** **V**
-   SeeAlso:[Edificio](Arch_Building/it.md), [Sito](Arch_Site/it.md)
+- GuiCommand   */it
+   Name   *Arch Floor
+   Name/it   *Piano
+   Workbenches   *[Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Arch → Piano
+   Shortcut   ***L** **V**
+   SeeAlso   *[Edificio](Arch_Building/it.md), [Sito](Arch_Site/it.md)
 ---
 
 # Arch Floor/it
@@ -22,7 +22,7 @@ A partire da FreeCAD 0.18, il Piano è derivato interamente dall\'oggetto [Parte
 ## Utilizzo
 
 1.  Opzionalmente, selezionare uno o più oggetti da includere nel nuovo piano.
-2.  Richiamare il comando Piano in uno di questi modi:
+2.  Richiamare il comando Piano in uno di questi modi   *
     -   Premere il pulsante **<img src="images/Arch_Floor.svg" width=16px> [Piano](Arch_Floor/it.md)** nella barra degli strumenti.
     -   Usare la scorciatoia **L** **V** da tastiera.
     -   Usare **Arch → Piano** dal menu principale.
@@ -45,18 +45,18 @@ Un oggetto Piano condivide tutte le proprietà di una [Parte di edificio](Arch_B
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Piano può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
+Lo strumento Piano può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione   * 
 ```python
 Floor = makeFloor(objectslist=None, baseobj=None, name="Floor")
 ```
 
 -   Crea un oggetto `Floor` da una `objectslist`, che è una lista di oggetti.
 
-Esempio:
+Esempio   *
 
 
 ```python

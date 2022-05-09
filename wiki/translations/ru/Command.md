@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Каждая команда FreeCAD имеет уникальное имя, которое внесено в список [:Category:Command\_Reference/ru](:Category:Command_Reference/ru.md). Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из [python](python/ru.md) скрипта или [консоли Python](Python_console/ru.md), по средством выполнения следующей комманды:
+Каждая команда FreeCAD имеет уникальное имя, которое внесено в список [   *Category   *Command\_Reference/ru](   *Category   *Command_Reference/ru.md). Команды могут запускаться с помощью кнопки на панели инструментов или из списка меню, а так же из [python](python/ru.md) скрипта или [консоли Python](Python_console/ru.md), по средством выполнения следующей комманды   *
 
 
 </div>
@@ -29,14 +29,14 @@ FreeCADGui.runCommand("my_Command_Name")
 
 ## Назначение команд в C++ 
 
-Пример назначения команды на языке C++, назначение производится по следующей структре {{FileName|Mod/ModuleName/Gui/Command.cpp}}.
+Пример назначения команды на языке C++, назначение производится по следующей структре **Mod/ModuleName/Gui/Command.cpp**.
 
 
 {{Code|lang=cpp|code=
 DEF_STD_CMD_A(StdCmdMyCommand);
 
-StdCmdMyCommand::StdCmdMyCommand()
-  : Command("Std_My_Command")
+StdCmdMyCommand   *   *StdCmdMyCommand()
+     * Command("Std_My_Command")
 {
     sGroup        = QT_TR_NOOP("File");
     sMenuText     = QT_TR_NOOP("My Command");
@@ -47,47 +47,47 @@ StdCmdMyCommand::StdCmdMyCommand()
     sAccel        = "Ctrl+A";
 }
 
-void StdCmdExport::activated(int iMsg)
+void StdCmdExport   *   *activated(int iMsg)
 {
     // place here the code to be executed when the command is ran
 }
 
-bool StdCmdMyCommand::isActive(void)
+bool StdCmdMyCommand   *   *isActive(void)
 {
     // here you have a chance to return true or false depending if your command must be shown as active or inactive (greyed).
 }
 
 // the command must be "registered" in FreeCAD's command system
-CommandManager &rcCmdMgr = Application::Instance->commandManager();
+CommandManager &rcCmdMgr = Application   *   *Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
 ## Назначение команд в Python 
 
-Пример назначения команды на языке Python. Данный код может быть размещен в папке по адрессу вроде этого: {{FileName|Mod/ModuleName/tools/commands.py}}. 
+Пример назначения команды на языке Python. Данный код может быть размещен в папке по адрессу вроде этого   * **Mod/ModuleName/tools/commands.py**. 
 ```python
 from PySide.QtCore import QT_TRANSLATE_NOOP
 
 
-class MyCommand:
+class MyCommand   *
     """Explanation of the command."""
 
-    def __init__(self):
+    def __init__(self)   *
         """Initialize variables for the command that must exist at all times."""
         pass
 
-    def GetResources(self):
+    def GetResources(self)   *
         """Return a dictionary with data that will be used by the button or menu item."""
-        return {'Pixmap': 'MyCommand.svg',
-                'Accel': "Ctrl+A",
-                'MenuText': QT_TRANSLATE_NOOP("My_Command", "My Command"),
-                'ToolTip': QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
+        return {'Pixmap'   * 'MyCommand.svg',
+                'Accel'   * "Ctrl+A",
+                'MenuText'   * QT_TRANSLATE_NOOP("My_Command", "My Command"),
+                'ToolTip'   * QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
 
-    def Activated(self):
+    def Activated(self)   *
         """Run the following code when the command is activated (button press)."""
         print("Activated")
 
-    def IsActive(self):
+    def IsActive(self)   *
         """Return True when the command should be active or False when it should be disabled (greyed)."""
         return True
 
@@ -98,6 +98,11 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 ## Примеры
 
 Смотрите [функцию рисования линии](Line_drawing_function/ru.md).
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Glossary](Category_Glossary.md)
 
 
 

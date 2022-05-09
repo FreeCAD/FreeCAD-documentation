@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/it
-   Name:Arch CutPlane
-   Name/it:Taglia con piano
-   Workbenches:[[Arch_Workbench/it   Arch]]|MenuLocation:Arch → Taglia con piano
-   SeeAlso:[Taglia con una linea](Arch_CutLine/it.md), [Rimuovi](Arch_Remove/it.md)
+- GuiCommand   */it
+   Name   *Arch CutPlane
+   Name/it   *Taglia con piano
+   Workbenches   *[[Arch_Workbench/it   Arch]]|MenuLocation   *Arch → Taglia con piano
+   SeeAlso   *[Taglia con una linea](Arch_CutLine/it.md), [Rimuovi](Arch_Remove/it.md)
 ---
 
 # Arch CutPlane/it
@@ -13,16 +13,16 @@
 
 ## Descrizione
 
-Lo strumento Taglia con piano permette di tagliare un oggetto Arch secondo un piano:
+Lo strumento Taglia con piano permette di tagliare un oggetto Arch secondo un piano   *
 
 -   È possibile tagliare un oggetto di Arch dalla parte normale a una faccia selezionata, o dalla parte opposta del piano.
 -   Questo aggiunge un elemento sottrazione CutVolume all\'oggetto Arch.
 
-<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_CutPlane_example.jpg  style="width   *640px;">
 
 
 
-*A sinistra: prima di applicare lo strumento Taglia con piano. Al centro: parete risultante dopo il taglio. A destra: un altro risultato opzionale*
+*A sinistra   * prima di applicare lo strumento Taglia con piano. Al centro   * parete risultante dopo il taglio. A destra   * un altro risultato opzionale*
 
 ## Utilizzo
 
@@ -43,7 +43,7 @@ Lo strumento Taglia con piano permette di tagliare un oggetto Arch secondo un pi
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -51,14 +51,14 @@ Lo strumento Taglia con piano permette di tagliare un oggetto Arch secondo un pi
 </div>
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Taglia con Piano può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Lo strumento Taglia con Piano può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -81,7 +81,7 @@ cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 
 -    `sideFace`specifica su quale lato del `FaceObject` verrà creato un volume; questo volume verrà quindi utilizzato per sottrarlo dal `archObject`. Se `sideFace` è `0` crea un volume nella parte posteriore della faccia, altrimenti lo crea davanti alla faccia.
 
-Esempio: 
+Esempio   * 
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 

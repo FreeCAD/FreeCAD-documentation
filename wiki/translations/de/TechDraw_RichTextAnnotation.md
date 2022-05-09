@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw RichTextAnnotation
-   Name/de:TechDraw FormatierteTextAnmerkung
-   MenuLocation:TechDraw → Anmerkungen → Einfügen Formatierte Text Anmerkungen
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Vorlagen](TechDraw_Templates/de.md), [Entwurf SVG](Draft_SVG/de.md), [TechDraw Führungslinie](TechDraw_LeaderLine/de.md)
+- GuiCommand   */de
+   Name   *TechDraw RichTextAnnotation
+   Name/de   *TechDraw FormatierteTextAnmerkung
+   MenuLocation   *TechDraw → Anmerkungen → Einfügen Formatierte Text Anmerkungen
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Vorlagen](TechDraw_Templates/de.md), [Entwurf SVG](Draft_SVG/de.md), [TechDraw Führungslinie](TechDraw_LeaderLine/de.md)
 ---
 
 # TechDraw RichTextAnnotation/de
@@ -14,7 +14,7 @@
 
 Das FormatierterTextBlock Werkzeug fügt einen formatierten Anmerkungsblock zu einer [Führunglinie](TechDraw_LeaderLine/de.md) oder einer Ansicht hinzu.
 
-<img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width:220px;"> 
+<img alt="" src=images/TechDraw_RichTextBlock_sample.png  style="width   *220px;"> 
 *Eigenständiger FormatierterTextBlock*
 
 ## Anwendung
@@ -27,18 +27,18 @@ Das FormatierterTextBlock Werkzeug fügt einen formatierten Anmerkungsblock zu e
 
 ## Eigenschaften
 
--    {{PropertyData/de|X,Y}}: Die Position des Blocks. Relativ zum Ende der Zeile, wenn sie an eine [LeaderLine](TechDraw_LeaderLine/de.md) angehängt ist, ansonsten ist dies die Position auf der Seite.
+-    {{PropertyData/de|X,Y}}   * Die Position des Blocks. Relativ zum Ende der Zeile, wenn sie an eine [LeaderLine](TechDraw_LeaderLine/de.md) angehängt ist, ansonsten ist dies die Position auf der Seite.
 
--    {{PropertyData/de|AnzeigeRahmen}}: Zeichnet einen Umriss um den Block herum.
+-    {{PropertyData/de|AnzeigeRahmen}}   * Zeichnet einen Umriss um den Block herum.
 
--    {{PropertyData/de|MaxBreite}}: Begrenzt die horizontale Größe des Blocks. Ein Wert von -1 ist für unbegrenzte Breite.
+-    {{PropertyData/de|MaxBreite}}   * Begrenzt die horizontale Größe des Blocks. Ein Wert von -1 ist für unbegrenzte Breite.
 
--    {{PropertyData/de|AnmerkungsText}}: Der HTML-Text des Blocks.
+-    {{PropertyData/de|AnmerkungsText}}   * Der HTML-Text des Blocks.
 
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -46,7 +46,7 @@ Das FormatierterTextBlock Werkzeug kann in [Makros](Macros/de.md) und aus der [P
 ```python
 myPage = FreeCAD.ActiveDocument().Page
 myBase = FreeCAD.ActiveDocument().View
-blockObj = FreeCAD.ActiveDocument.addObject('TechDraw::DrawRichAnno','DrawRichAnno')
+blockObj = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawRichAnno','DrawRichAnno')
 FreeCAD.activeDocument().myPage.addView(blockObj)
 blockObj.X = 5
 blockObj.Y = 5

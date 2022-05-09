@@ -7,7 +7,7 @@
 |Version=00.03
 |Date=2022/03/29
 |FCVersion=0.18 and more
-|Download= [https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
+|Download= [https   *//wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
 |SeeAlso = [Arch Survey](Arch_Survey/it.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo/it.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass/it.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
 }}
 
@@ -16,14 +16,14 @@
 Fornisce informazioni sulla forma selezionata e può visualizzare una conversione di raggio, diametro, lunghezza, area, volume \... in diverse unità (metriche e imperiali) in una barra degli strumenti. Le informazioni da visualizzare sono parametrizzabili nel parametro di FreeCAD.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/45da6835214d570588244705d2c0f37f97320874/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https   *//gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/45da6835214d570588244705d2c0f37f97320874/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo\_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
 
 ## Usare
 
-Dopo aver eseguito la macro, andare a Menu → Strumenti → Modifica parametri \... :BaseApp/Preferences/Macros/FCMmacros/FCInfo\_ToolBar
+Dopo aver eseguito la macro, andare a Menu → Strumenti → Modifica parametri \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo\_ToolBar
 
 e aggiungere le informazioni da visualizzare.
 
@@ -31,7 +31,7 @@ Le informazioni complete vengono visualizzate nella finestra ToolTip, l\'opzione
 
 Usate il pulsante reset dopo aver cambiato un\'opzione nella finestra dei parametri.
 
-L\'unità delle dimensione può essere selezionata: km, hm, dam, m, dm, cm, mm, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
+L\'unità delle dimensione può essere selezionata   * km, hm, dam, m, dm, cm, mm, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
 ![FCInfo\_ToolBar the info toolTip](images/Macro_FCInfo_ToolBar_01.png ) 
 *FCInfo_ToolBar the info toolTip*
@@ -40,11 +40,11 @@ L\'unità delle dimensione può essere selezionata: km, hm, dam, m, dm, cm, mm, 
 
 Le opzioni si trovano nel parametro di FreeCAD
 
-*Menu → Strumenti → Modifica parametri \... :BaseApp/Preferences/Macros/FCMmacros/FCInfo\_ToolBar*
+*Menu → Strumenti → Modifica parametri \...    *BaseApp/Preferences/Macros/FCMmacros/FCInfo\_ToolBar*
 
 -   ***switch\_User\_ToolbarIconSize***
-    -   se = `False`: l\'icona della barra degli strumenti rispetta il valore di FreeCAD per la dimensione dell\'icona
-    -   se = `True`: l\'icona prende i valori della variabile **seT\_User\_sizeIconX** e **seT\_User\_sizeIconY**
+    -   se = `False`   * l\'icona della barra degli strumenti rispetta il valore di FreeCAD per la dimensione dell\'icona
+    -   se = `True`   * l\'icona prende i valori della variabile **seT\_User\_sizeIconX** e **seT\_User\_sizeIconY**
 
 -   ***seT\_User\_sizeIconX***
     -   imposta il valore X dell\'icona
@@ -62,7 +62,7 @@ Le opzioni si trovano nel parametro di FreeCAD
     -   Lavora con la preselezione, i dati sono calcolate in tempo reale
 
 -   ***seT\_User\_StyleSheetColorToolBar***
-    -   imposta il colore della barra degli strumenti in formato HTML esempio: **\#F8E6E0**\'.
+    -   imposta il colore della barra degli strumenti in formato HTML esempio   * **\#F8E6E0**\'.
     -   se il valore è **0**\' la barra degli strumenti prende il colore del sistema
 
 -   ***seT\_User\_DecimalValue***
@@ -78,39 +78,39 @@ Le opzioni si trovano nel parametro di FreeCAD
     -   visualizza il nome del sotto-elemento ()
 
 -   ***switch\_User\_Display\_ShapeType***
-    -   visualizzare il Shape type (TyS:)
+    -   visualizzare il Shape type (TyS   *)
 
 -   ***switch\_User\_Display\_TypeId***
-    -   visualizzare il TypeId (TyI:)
+    -   visualizzare il TypeId (TyI   *)
 
 -   ***switch\_User\_Display\_RadiusObject***
-    -   visualizzare il raggio e il diametro (r:) \[D:\]
+    -   visualizzare il raggio e il diametro (r   *) \[D   *]
 
 -   ***switch\_User\_Display\_LengthObject***
     -   Visualizza la lunghezza del bordo selezionato o il perimetro della faccia selezionata
-        -   (L:) visualizza la lunghezza del filo, linea, bordo selezionato
-        -   (P:) visualizza il perimetro della fascia selezionata
+        -   (L   *) visualizza la lunghezza del filo, linea, bordo selezionato
+        -   (P   *) visualizza il perimetro della fascia selezionata
 
 -   ***switch\_User\_Display\_SommeAllEdgesObject***
-    -   visualizza la lunghezza totale dei bordi (edges) di l\'obietto selezionato (Se:)
+    -   visualizza la lunghezza totale dei bordi (edges) di l\'obietto selezionato (Se   *)
 
 -   ***switch\_User\_Display\_NumberFacesMesh***
-    -   visualizza il numero di facce dell\'oggetto Mesh (Nf:)
+    -   visualizza il numero di facce dell\'oggetto Mesh (Nf   *)
 
 -   ***switch\_User\_Display\_NumberPointsMeshPoints***
-    -   visualizza il numero di punti dell\'oggetto Mesh (Np:)
+    -   visualizza il numero di punti dell\'oggetto Mesh (Np   *)
 
 -   ***switch\_User\_Display\_NumberEdgesMesh***
-    -   visualizza il numero di bordi dell\'oggetto Mesh (Ne:)
+    -   visualizza il numero di bordi dell\'oggetto Mesh (Ne   *)
 
 -   ***switch\_User\_Display\_AreaObject***
-    -   visualizza la superficie dell\'oggetto (A:)
+    -   visualizza la superficie dell\'oggetto (A   *)
 
 -   ***switch\_User\_Display\_AreaSubObject***
-    -   visualizza la superficie della faccia selezionata (Af:)
+    -   visualizza la superficie della faccia selezionata (Af   *)
 
 -   ***switch\_User\_Display\_VolumeObject***
-    -   visualizza il volume dell\'oggetto (V:)
+    -   visualizza il volume dell\'oggetto (V   *)
 
 -   ***switch\_User\_Display\_BsplineObject***
     -   visualizza il numero di nodi della Bspline selezionata
@@ -120,13 +120,13 @@ Le opzioni si trovano nel parametro di FreeCAD
         -   (BSc) BSPline Points Sub Obbietto numero di punti del sub obbietto selezionato (case Edge)
 
 -   ***switch\_User\_Display\_CentreObject***
-    -   visualizza il centro del cerchio (se viene rilevato un cerchio) o dell\'oggetto selezionato (Ce:)
+    -   visualizza il centro del cerchio (se viene rilevato un cerchio) o dell\'oggetto selezionato (Ce   *)
 
 -   ***switch\_User\_Display\_CentreBoundBoxObject***
-    -   visualizza il centro del boundingBox dell\'oggetto (BBCe:)
+    -   visualizza il centro del boundingBox dell\'oggetto (BBCe   *)
 
 -   ***switch\_User\_Display\_Position***
-    -   visualizza le coordinate del punto puntato dal mouse (Pos:)
+    -   visualizza le coordinate del punto puntato dal mouse (Pos   *)
 
 -   ***switch\_User\_NotInfoOnBeginning***
     -   se è `False` l\'informazione (questa informazione) viene visualizzata
@@ -149,11 +149,11 @@ Nella tua scorciatoia *verifica il tuo percorso giusto*.
 
 \"Percorso\_completo\_di\_FreeCAD\" \"Percorso\_completo\_della\_macro.FCMacro\"
 
-esempio:
+esempio   *
 
 
 ```python
-"C:/FreeCAD_0.20.26858_Win-LPv12.5.4_vc17.x-x86-64/bin/FreeCAD.exe" "C:/Users/User/AppData/Roaming/FreeCAD/Macro/FCInfo_ToolBar.FCMacro"
+"C   */FreeCAD_0.20.26858_Win-LPv12.5.4_vc17.x-x86-64/bin/FreeCAD.exe" "C   */Users/User/AppData/Roaming/FreeCAD/Macro/FCInfo_ToolBar.FCMacro"
 ```
 
 #### nella directory Mod 
@@ -162,13 +162,13 @@ esempio:
 2.  Creare la directory *FCInfo\_ToolBar*.
 3.  Copiare la macro FCInfo\_ToolBar.FCMacro (copiare non spostare) nella directory *FCInfo\_ToolBar* e rinominarla in FCInfo\_ToolBar.py
 4.  Creare un file chiamato InitGui.py
-5.  Incolla il codice in InitGui.py:
+5.  Incolla il codice in InitGui.py   *
 
 
 ```python
-#### FC Version: 0.1 #16/02/2022
+#### FC Version   * 0.1 #16/02/2022
 #### Mario52
-#### FCInfo_ToolBar : mini FCInfo ####
+#### FCInfo_ToolBar    * mini FCInfo ####
 #
 import importlib
 from importlib import reload
@@ -177,15 +177,15 @@ App = FreeCAD
 Gui = FreeCADGui
 
 
-switch_User_NotRunAuto = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar").GetBool("switch_User_NotRunAuto")
+switch_User_NotRunAuto = FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar").GetBool("switch_User_NotRunAuto")
 ## switch_User_NotRunAuto 0 (False) = run the macro in begin
 ## switch_User_NotRunAuto 1 (True)  = not run automatic the macro
 
 
-if switch_User_NotRunAuto == False:
+if switch_User_NotRunAuto == False   *
     import FCInfo_ToolBar
     #reload(FCInfo_ToolBar)
-    FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar").SetBool("switch_User_NotRunAuto", False)
+    FreeCAD.ParamGet("User parameter   *BaseApp/Preferences/Macros/FCMmacros/FCInfo_ToolBar").SetBool("switch_User_NotRunAuto", False)
     #FreeCAD.Console.PrintMessage("InitGui Ok FCInfo_ToolBar" + "\n")
 ```
 
@@ -198,15 +198,15 @@ enjoy
 
 ## Collegamento
 
-Discussioni sul forum [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
+Discussioni sul forum [Feature request   * coordinates display](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=66294)
 
 ## Versione
 
-version: (00.02 +) 00.03 2022/03/22 : add somme all edges
+version   * (00.02 +) 00.03 2022/03/22    * add somme all edges
 
-version: 00.02 2022/03/14 : add calcul in real time (with preselection), dimension of toolBar, add info mesh and points
+version   * 00.02 2022/03/14    * add calcul in real time (with preselection), dimension of toolBar, add info mesh and points
 
-version: 00.01 2022/02/16 :
+version   * 00.01 2022/02/16    *
 
 
 

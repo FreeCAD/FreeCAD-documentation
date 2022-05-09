@@ -1,6 +1,6 @@
 # Part ReverseShapes/it
 ---
-- GuiCommand:/it   Name:Part ReverseShapes   Name/it:‏‎Inverti forme   Empty:1‏‎   MenuLocation:Part → Inverti forme   Workbenches:[[Part Workbench/it   Part]]|SeeAlso:---
+- GuiCommand   */it   Name   *Part ReverseShapes   Name/it   *‏‎Inverti forme   Empty   *1‏‎   MenuLocation   *Part → Inverti forme   Workbenches   *[[Part Workbench/it   Part]]|SeeAlso   *---
 
 
 </div>
@@ -29,14 +29,8 @@ Inverte le normali di tutte le facce dell\'oggetto selezionato.
 
 </div>
 
-Eseguendo questo comando, FreeCAD capovolge le normali di tutte le facce della forma o solido.
-
-Per verificare questo
-
-1.  Nascondere tutti gli oggetti, tranne la forma invertita
-2.  Selezionare la forma invertita
-3.  Nella scheda \"Vista\" cambiare la proprietà **Lighting** da \"Two side\" a \"One side\"
-4.  La forma diventa nera, cioè la faccia è vista dal lato opposto, se ad esempio è un solido esso viene visto dall\'interno verso l\'esterno
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
+-   To see the effect of the command change the **Lighting** property of the reversed shape to {{Value|On side}} and if required change **Edit → Preferences... → Display → Rendering → Backlight color**.
 
 ## Proprietà
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/ru
-   Name:Part ReverseShapes
-   Name/ru:Обратная фигура
-   MenuLocation:Деталь → Обратная фигура
-   Workbenches:[Part](Part_Workbench/ru.md)
+- GuiCommand   */ru
+   Name   *Part ReverseShapes
+   Name/ru   *Обратная фигура
+   MenuLocation   *Деталь → Обратная фигура
+   Workbenches   *[Part](Part_Workbench/ru.md)
 ---
 
 # Part ReverseShapes/ru
@@ -29,14 +29,8 @@
 
 ## Примечания
 
-Выполняя команду, FreeCAD переворачивает нормали всех поверхностей формы/тела.
-
-Вы можете проверить это
-
-1.  сделав все остальные объекты, кроме обращённого, невидимыми
-2.  выбрать обращённый объект
-3.  изменить **Lighting** на вкладке \"View\" с \"Two side\" на \"One side\"
-4.  где форма или тело выглядит чёрной, там Вы смотрите на обратную сторону её поверхностей
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
+-   To see the effect of the command change the **Lighting** property of the reversed shape to {{Value|On side}} and if required change **Edit → Preferences... → Display → Rendering → Backlight color**.
 
 ## Properties
 

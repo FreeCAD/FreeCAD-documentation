@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Sketcher Circles
-   Name/fr:Sketcher Cercles
-   Icon:Sketcher_CompCreateCircle.png
-   MenuLocation:Barre d'outils seulement
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Sketcher Circles
+   Name/fr   *Sketcher Cercles
+   Icon   *Sketcher_CompCreateCircle.png
+   MenuLocation   *Barre d'outils seulement
+   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
 ---
 
 # Sketcher CompCreateCircle/fr
@@ -15,8 +15,8 @@
 
 ## Types de cercles 
 
--   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Cercle](Sketcher_CreateCircle/fr.md): dessine un cercle en choisissant deux points: le centre et un point le long du rayon.
--   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Cercle par 3 points](Sketcher_Create3PointCircle/fr.md): Dessine un cercle en choisissant trois points sur le contour du cercle.
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width   *32px;"> [Cercle](Sketcher_CreateCircle/fr.md)   * dessine un cercle en choisissant deux points   * le centre et un point le long du rayon.
+-   <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width   *32px;"> [Cercle par 3 points](Sketcher_Create3PointCircle/fr.md)   * Dessine un cercle en choisissant trois points sur le contour du cercle.
 
 
 

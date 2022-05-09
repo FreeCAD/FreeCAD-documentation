@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Arch MergeWalls
-   Name/ru:Arch MergeWalls
-   MenuLocation:Архитектура → Утилиты → Объединить стенки
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   SeeAlso:[[Arch Wall]]
+- GuiCommand   */ru
+   Name   *Arch MergeWalls
+   Name/ru   *Arch MergeWalls
+   MenuLocation   *Архитектура → Утилиты → Объединить стенки
+   Workbenches   *[Arch](Arch_Workbench/ru.md)
+   SeeAlso   *[[Arch Wall]]
 ---
 
 # Arch MergeWalls/ru
@@ -28,16 +28,16 @@ The [MergeWalls](Arch_MergeWalls.md) tool fuses two or more selected **<img src=
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+This tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 base = joinWalls(walls, delete=False)
 ```
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft, Arch
 

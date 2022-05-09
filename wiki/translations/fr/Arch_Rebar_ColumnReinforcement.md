@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Rebar ColumnReinforcement
-   Name/fr:Arch Rebar Armature en colonne
-   MenuLocation:Arch → Rebar tools → Column Reinforcement<br>3D/BIM → Reinforcement → Column Reinforcement
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version:0.19
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature hélicoïdale](Arch_Rebar_Helical/fr.md), [Arch Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Rebar ColumnReinforcement
+   Name/fr   *Arch Rebar Armature en colonne
+   MenuLocation   *Arch → Rebar tools → Column Reinforcement<br>3D/BIM → Reinforcement → Column Reinforcement
+   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version   *0.19
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Armature hélicoïdale](Arch_Rebar_Helical/fr.md), [Arch Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md)
 ---
 
 # Arch Rebar ColumnReinforcement/fr
@@ -16,32 +16,32 @@ L\'outil [Renfort de colonnes](Arch_Rebar_Circular_ColumnReinforcement/fr.md) pe
 
 L\'outil [Rebar Armature en colonne](Arch_Rebar_ColumnReinforcement.md) est également intégré dans [atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width   *400px;"> 
 *Renfort de colonne à l'intérieur d'une colonne [Arch Structure](Arch_Structure/fr.md)*
 
 ## Utilisation
 
 1\. Sélectionnez n\'importe quelle face d\'un objet **<img src="images/_Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)** précédemment créé.
 2. Ensuite, sélectionnez **<img src="images/_Arch_Rebar_ColumnReinforcement.svg" width=16px> [Column Reinforcement](Arch_Rebar_ColumnReinforcement/fr.md)** dans les outils d\'armature.
-3. Une boîte de dialogue apparaîtra à l\'écran comme indiqué ci-dessous. <img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;">
+3. Une boîte de dialogue apparaîtra à l\'écran comme indiqué ci-dessous. <img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width   *700px;">
 *Boîte de dialogue pour l'outil Arch Rebar Renfort de colonnes*
 
 4\. Sélectionnez le type de ferraillage souhaité.
 5. Donnez des entrées pour les données relatives aux cadres.
 6. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
-<img alt="" src=images/ColumnReinforcementDialog_MainRebars.png  style="width:700px;">
+<img alt="" src=images/ColumnReinforcementDialog_MainRebars.png  style="width   *700px;">
 *Boîte de dialogue pour les données des barres principales*
 
 7\. Sélectionnez le type de barres souhaitées et remplissez les données pour les barres principales.
 8. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
-<img alt="" src=images/ColumnReinforcementDialog_XDirRebars.png  style="width:700px;">
+<img alt="" src=images/ColumnReinforcementDialog_XDirRebars.png  style="width   *700px;">
 *Boîte de dialogue pour les données selon la direction X des armatures*
 
 9\. Sélectionnez le type d\'armatures souhaitées et remplissez les données pour les armatures de direction X.
 10. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
-<img alt="" src=images/ColumnReinforcementDialog_YDirRebars.png  style="width:700px;">
+<img alt="" src=images/ColumnReinforcementDialog_YDirRebars.png  style="width   *700px;">
 *Boîte de dialogue pour les données selon la direction Y des armatures*
 
 7\. Sélectionnez le type d\'armatures souhaitées et remplissez les données pour les armatures de direction Y.
@@ -50,86 +50,86 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 ## Propriétés
 
-**Etriers:**
+**Etriers   ***
 
--    {{PropertyData/fr|Left Cover}}: distance entre l\'extrémité gauche de l\'étrier et la face gauche de la structure.
+-    {{PropertyData/fr|Left Cover}}   * distance entre l\'extrémité gauche de l\'étrier et la face gauche de la structure.
 
--    {{PropertyData/fr|Right Cover}}: distance entre l\'extrémité droite de l\'étrier et la face droite de la structure.
+-    {{PropertyData/fr|Right Cover}}   * distance entre l\'extrémité droite de l\'étrier et la face droite de la structure.
 
--    {{PropertyData/fr|Top Cover}}: distance séparant la liaison de la face supérieure de la structure.
+-    {{PropertyData/fr|Top Cover}}   * distance séparant la liaison de la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Cover}}: distance séparant l\'étrier de la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Cover}}   * distance séparant l\'étrier de la face inférieure de la structure.
 
--    {{PropertyData/fr|Offset}}: distance séparant l\'étrier de la face supérieure/inférieure de la structure.
+-    {{PropertyData/fr|Offset}}   * distance séparant l\'étrier de la face supérieure/inférieure de la structure.
 
--    {{PropertyData/fr|Diameter}}: diamètre de l\'étrier.
+-    {{PropertyData/fr|Diameter}}   * diamètre de l\'étrier.
 
--    {{PropertyData/fr|Bent Angle}}: l\'angle courbé définit l\'angle aux extrémités de l\'étrier.
+-    {{PropertyData/fr|Bent Angle}}   * l\'angle courbé définit l\'angle aux extrémités de l\'étrier.
 
--    {{PropertyData/fr|Extension Factor}}: le facteur d\'extension définit la longueur de la fin de l\'étrier, exprimée en nombre de diamètre.
+-    {{PropertyData/fr|Extension Factor}}   * le facteur d\'extension définit la longueur de la fin de l\'étrier, exprimée en nombre de diamètre.
 
--    {{PropertyData/fr|Number}}: nombre d\'étriers.
+-    {{PropertyData/fr|Number}}   * nombre d\'étriers.
 
--    {{PropertyData/fr|Spacing}}: distance entre les axes de chaque étrier.
+-    {{PropertyData/fr|Spacing}}   * distance entre les axes de chaque étrier.
 
-**Armatures principales :** barres d\'armature présentes aux coins de l\'étrier
+**Armatures principales    *** barres d\'armature présentes aux coins de l\'étrier
 
--    {{PropertyData/fr|Rebar Type}}: type d\'armatures principales.
+-    {{PropertyData/fr|Rebar Type}}   * type d\'armatures principales.
 
--    {{PropertyData/fr|Hook Orientation}}: orientation du crochet en forme de L.
+-    {{PropertyData/fr|Hook Orientation}}   * orientation du crochet en forme de L.
 
--    {{PropertyData/fr|Hook Extend Along}}: direction de l\'extension des crochets.
+-    {{PropertyData/fr|Hook Extend Along}}   * direction de l\'extension des crochets.
 
--    {{PropertyData/fr|Hook Extension}}: longueur du crochet des armatures en forme de L.
+-    {{PropertyData/fr|Hook Extension}}   * longueur du crochet des armatures en forme de L.
 
--    {{PropertyData/fr|Rounding}}: valeur arrondie à appliquer aux coins des barres d\'armature en forme de L, exprimée en nombre de diamètre.
+-    {{PropertyData/fr|Rounding}}   * valeur arrondie à appliquer aux coins des barres d\'armature en forme de L, exprimée en nombre de diamètre.
 
--    {{PropertyData/fr|Top Offset}}: distance entre les barres d\'armature à partir de la face supérieure de la structure.
+-    {{PropertyData/fr|Top Offset}}   * distance entre les barres d\'armature à partir de la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Offset}}: distance entre les barres d\'armature et la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Offset}}   * distance entre les barres d\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Diameter}}: diamètre des armatures principales.
+-    {{PropertyData/fr|Diameter}}   * diamètre des armatures principales.
 
-**Barres d\'armature secondaires XDir :** barres d\'armature suivant la direction X sauf les barres d\'armature principales
+**Barres d\'armature secondaires XDir    *** barres d\'armature suivant la direction X sauf les barres d\'armature principales
 
--    {{PropertyData/fr|Type d'armature}}: type d\'armatures de direction X.
+-    {{PropertyData/fr|Type d'armature}}   * type d\'armatures de direction X.
 
--    {{PropertyData/fr|Hook Orientation}}: Orientation des crochets en forme de L.
+-    {{PropertyData/fr|Hook Orientation}}   * Orientation des crochets en forme de L.
 
--    {{PropertyData/fr|Hook Extension}}: longueur du crochet des armatures en forme de L.
+-    {{PropertyData/fr|Hook Extension}}   * longueur du crochet des armatures en forme de L.
 
--    {{PropertyData/fr|Rounding}}: valeur arrondie à appliquer aux coins des barres d\'armature en forme de L, exprimée en nombre de diamètre.
+-    {{PropertyData/fr|Rounding}}   * valeur arrondie à appliquer aux coins des barres d\'armature en forme de L, exprimée en nombre de diamètre.
 
--    {{PropertyData/fr|Top Offset}}: distance entre les barres d\'armature à partir de la face supérieure de la structure.
+-    {{PropertyData/fr|Top Offset}}   * distance entre les barres d\'armature à partir de la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Offset}}: distance entre les barres d\'armature et la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Offset}}   * distance entre les barres d\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Number#Diameter}}: Number\#Diameter ensemble des armatures dans la direction X.
+-    {{PropertyData/fr|Number#Diameter}}   * Number\#Diameter ensemble des armatures dans la direction X.
 
-**Barres d\'armature secondaires YDir :** barres d\'armature suivant la direction Y sauf les barres d\'armature principales
+**Barres d\'armature secondaires YDir    *** barres d\'armature suivant la direction Y sauf les barres d\'armature principales
 
--    {{PropertyData/fr|Type d'armature}}: type d\'armatures de direction y.
+-    {{PropertyData/fr|Type d'armature}}   * type d\'armatures de direction y.
 
--    {{PropertyData/fr|Hook Orientation}}: orientation des crochets en forme de L.
+-    {{PropertyData/fr|Hook Orientation}}   * orientation des crochets en forme de L.
 
--    {{PropertyData/fr|Hook Extension}}: longueur du crochet des armatures en forme de L.
+-    {{PropertyData/fr|Hook Extension}}   * longueur du crochet des armatures en forme de L.
 
--    {{PropertyData/fr|Rounding}}: valeur arrondie à appliquer aux coins des barres d\'armature en forme de L, exprimée en nombre de diamètre.
+-    {{PropertyData/fr|Rounding}}   * valeur arrondie à appliquer aux coins des barres d\'armature en forme de L, exprimée en nombre de diamètre.
 
--    {{PropertyData/fr|Top Offset}}: distance entre les barres d\'armature à partir de la face supérieure de la structure.
+-    {{PropertyData/fr|Top Offset}}   * distance entre les barres d\'armature à partir de la face supérieure de la structure.
 
--    {{PropertyData/fr|Bottom Offset}}: distance entre les barres d\'armature et la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Offset}}   * distance entre les barres d\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Number#Diameter}}: Number\#Diameter ensemble des armatures dans la direction Y.
+-    {{PropertyData/fr|Number#Diameter}}   * Number\#Diameter ensemble des armatures dans la direction Y.
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Arch API](Arch_API/fr.md), [API de renforts](Reinforcement_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L'outil Renfort de colonne (ColumnReinforcement) peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
+L'outil Renfort de colonne (ColumnReinforcement) peut être utilisé dans une [macros](macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante    *
 
 ### Création d\'un seul cadre pour quatre armatures 
 
@@ -181,7 +181,7 @@ RebarGroup = makeSingleTieFourRebars(
 
 -    {{incode | rebar_type}}est le type des armatures principales. il peut s\'agir de `"StraightRebar"` ou de `"LShapeRebar"`.
 
--    `hook_orientation`spécifie l\'orientation du crochet en forme de L; il peut s\'agir de: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
+-    `hook_orientation`spécifie l\'orientation du crochet en forme de L; il peut s\'agir de   * `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
 
 -    `hook_extend_along`spécifie la direction de l\'extension du crochet; il peut s\'agir de `"x-axis"` ou `"y-axis"`.
 
@@ -338,7 +338,7 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `main_rebars_type`est le type des armatures principales. Il peut s\'agir de `"StraightRebar"` ou de `"LShapeRebar"`.
 
--    `main_hook_orientation`spécifie l\'orientation du crochet principal de forme L. Il peut s\'agir de: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, {{ incode\|\"En haut à droite\"}}, `"En haut à gauche"`, `"En bas à droite"` ou `"En bas à gauche"`.
+-    `main_hook_orientation`spécifie l\'orientation du crochet principal de forme L. Il peut s\'agir de   * `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, {{ incode\|\"En haut à droite\"}}, `"En haut à gauche"`, `"En bas à droite"` ou `"En bas à gauche"`.
 
 -    `main_hook_extend_along`spécifie la direction de l\'extension du crochet principal. Il peut s\'agir de `"axe x"` ou de `"axe y"`.
 
@@ -407,7 +407,7 @@ RebarGroup = SingleTieMultipleRebars.makeSingleTieMultipleRebars(
 
 ### Édition d\'un seul étrier pour quatre armatures 
 
-Vous pouvez modifier les propriétés des étriers et des armatures avec la fonction suivante:
+Vous pouvez modifier les propriétés des étriers et des armatures avec la fonction suivante   *
 
 
 ```python
@@ -477,7 +477,7 @@ rebar_group = SingleTie.editSingleTieFourRebars(
 
 ### Édition d\'un seul étrier pour plusieurs armatures 
 
-Vous pouvez modifier les propriétés des étriers et des armatures avec la fonction suivante:
+Vous pouvez modifier les propriétés des étriers et des armatures avec la fonction suivante   *
 
 
 ```python
@@ -557,6 +557,14 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
     facename=None,
 )
 ```
+
+
+
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

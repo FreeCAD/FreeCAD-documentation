@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/fr
-   Name:Std DependencyGraph
-   Name/fr:Std Graphique de dépendances
-   MenuLocation:Outils → Graphique de dépendance...
-   Workbenches:Tous
+- GuiCommand   */fr
+   Name   *Std DependencyGraph
+   Name/fr   *Std Graphique de dépendances
+   MenuLocation   *Outils → Graphique de dépendance...
+   Workbenches   *Tous
 ---
 
 # Std DependencyGraph/fr
@@ -16,29 +16,29 @@ Il peut être utile pour analyser un document FreeCAD et localiser des fourches 
 
 Le graphique de dépendance est un outil purementde visualisation. Il ne peut donc pas être édité. Il se met automatiquement à jour si des changements sont apportés au modèle.
 
-<img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;"> 
+<img alt="" src=images/Std_DependencyGraph_example.svg  style="width   *400px;"> 
 *Exemple de graphe de dépendances avec un corps PartDesign à gauche et un objet créé avec des opérations Part à droite*
 
 ## Installation
 
-Pour utiliser la commande, un logiciel tiers nommé [Graphviz](http://graphviz.org/) doit être installé. Si vous ne l\'avez pas préinstallé ou s\'il est installé dans un emplacement non conventionnel, FreeCAD affichera la boîte de dialogue suivante:
+Pour utiliser la commande, un logiciel tiers nommé [Graphviz](http   *//graphviz.org/) doit être installé. Si vous ne l\'avez pas préinstallé ou s\'il est installé dans un emplacement non conventionnel, FreeCAD affichera la boîte de dialogue suivante   *
 
 ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
 ### Windows
 
-Téléchargez le programme d\'installation **graphviz-2.xx** depuis la page [page de téléchargement Graphviz](https://graphviz.org/download/#windows) puis lancez l\'installation. Certaines versions plus anciennes semblent avoir des problèmes pour afficher le graphique. Les versions 2.38 et plus récentes sont connues pour être fiables. Vous pouvez trouver toutes les versions de Graphviz sur [Gitlab](https://gitlab.com/graphviz/graphviz/-/releases).
+Téléchargez le programme d\'installation **graphviz-2.xx** depuis la page [page de téléchargement Graphviz](https   *//graphviz.org/download/#windows) puis lancez l\'installation. Certaines versions plus anciennes semblent avoir des problèmes pour afficher le graphique. Les versions 2.38 et plus récentes sont connues pour être fiables. Vous pouvez trouver toutes les versions de Graphviz sur [Gitlab](https   *//gitlab.com/graphviz/graphviz/-/releases).
 
 ### MacOSX
 
-Vous pouvez installer graphviz à l\'aide du gestionnaire de paquets [Homebrew](https://brew.sh/index_fr.html). (Lors de l\'installation de Homebrew, ne soyez pas nerveux, si MacOS vous demande d\'installer des mises à jour, par exemple pour les outils de ligne de commande Xcode. Ces mises à jour sont effectuées plus tard par le processus d\'installation.)
+Vous pouvez installer graphviz à l\'aide du gestionnaire de paquets [Homebrew](https   *//brew.sh/index_fr.html). (Lors de l\'installation de Homebrew, ne soyez pas nerveux, si MacOS vous demande d\'installer des mises à jour, par exemple pour les outils de ligne de commande Xcode. Ces mises à jour sont effectuées plus tard par le processus d\'installation.)
 
 
 {{Code|lang=text|code=
 brew install graphviz
 }}
 
-Ceci installe les binaires de graphviz sous /usr/local/bin pour macOS sur Intel, et /opt/homebrew pour macOS sur Apple Silicon/ARM. FreeCAD va chercher là tout seul. Si le programme n\'y est pas trouvé, il vous est demandé d\'entrer le chemin. Malheureusement, nous ne pouvons pas y naviguer directement à partir de la boîte de dialogue de sélection de fichier qui s\'affiche à partir de **Outils → Graphique de dépendance...**. Lorsque vous avez la boîte de dialogue de sélection de fichier, vous avez deux possibilités : Vous pouvez utiliser la combinaison de touches Cmd+Shift+. qui vous montrera tous les éléments cachés, ou vous utilisez les touches Cmd+Shift+G pour obtenir un champ de saisie pour le chemin. Validez
+Ceci installe les binaires de graphviz sous /usr/local/bin pour macOS sur Intel, et /opt/homebrew pour macOS sur Apple Silicon/ARM. FreeCAD va chercher là tout seul. Si le programme n\'y est pas trouvé, il vous est demandé d\'entrer le chemin. Malheureusement, nous ne pouvons pas y naviguer directement à partir de la boîte de dialogue de sélection de fichier qui s\'affiche à partir de **Outils → Graphique de dépendance...**. Lorsque vous avez la boîte de dialogue de sélection de fichier, vous avez deux possibilités    * Vous pouvez utiliser la combinaison de touches Cmd+Shift+. qui vous montrera tous les éléments cachés, ou vous utilisez les touches Cmd+Shift+G pour obtenir un champ de saisie pour le chemin. Validez
 
 
 {{Code|lang=text|code=
@@ -72,7 +72,7 @@ Et vous pouvez ensuite diriger FreeCAD vers ce répertoire.
 
 ### Linux
 
-Dans la plupart des distributions Linux (Debian/Ubuntu, Fedora, OpenSUSE), il suffit d\'installer le paquet graphviz depuis les dépôts. Toutefois, similaire à Mac/OSX, dans certains cas les fichiers binaires de Graphviz sont installés dans un emplacement non-standard. Essayez de trouver le programme avec la commande:
+Dans la plupart des distributions Linux (Debian/Ubuntu, Fedora, OpenSUSE), il suffit d\'installer le paquet graphviz depuis les dépôts. Toutefois, similaire à Mac/OSX, dans certains cas les fichiers binaires de Graphviz sont installés dans un emplacement non-standard. Essayez de trouver le programme avec la commande   *
 
 
 {{Code|lang=text|code=
@@ -97,7 +97,7 @@ Et vous pouvez ensuite pointer FreeCAD vers ce répertoire.
 
 ## Enregistrer
 
-Vous pouvez enregistrer un graphique de dépendance :
+Vous pouvez enregistrer un graphique de dépendance    *
 
 1.  Assurez-vous que l\'onglet Graphique des dépendances est au premier plan.
 2.  Sélectionnez l\'option **Fichier → [Enregistrer](Std_Save/fr.md)** ou **Fichier → [Enregistrer sous](Std_SaveAs/fr.md)** dans le menu.
@@ -124,7 +124,9 @@ Vous pouvez enregistrer un graphique de dépendance :
 
 {{Std Base navi
 
-}}
+}} 
+
+[Category   *3rd Party](Category_3rd_Party.md)
 
 
 

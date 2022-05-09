@@ -1,6 +1,6 @@
 # Part ReverseShapes/ro
 ---
-- GuiCommand:   Name:Part ReverseShapes‏‎   MenuLocation:Part → Reverse Shapes   Workbenches:[[Part Workbench   Part]]|SeeAlso:---
+- GuiCommand   *   Name   *Part ReverseShapes‏‎   MenuLocation   *Part → Reverse Shapes   Workbenches   *[[Part Workbench   Part]]|SeeAlso   *---
 
 
 </div>
@@ -39,7 +39,7 @@ Flips the normals of all faces of the selected object.
 ## Note
 
 Prin executarea acestei comenzi, FreeCAD inversează(cu susul în jos) normalele tuturor fețetelor formei / solidului.
-Puteți verifica prin :
+Puteți verifica prin    *
 
 1.  ascundeți toate celelalte obiecte, cu excepția formei/solidului inversat(ă)
 2.  selectați forma/solidul inversat(ă)
@@ -49,14 +49,8 @@ Puteți verifica prin :
 
 </div>
 
-By executing this command, FreeCAD flips the normals of all faces of the shape/solid.
-
-You can verify this by
-
-1.  Making all other objects but the reversed shape invisible.
-2.  Selecting the reversed shape.
-3.  Change **Lighting** from \"Two side\" to \"One side\".
-4.  The shape will turn black, meaning that you are now looking at the back of the faces.
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
+-   To see the effect of the command change the **Lighting** property of the reversed shape to {{Value|On side}} and if required change **Edit → Preferences... → Display → Rendering → Backlight color**.
 
 ## Properties
 

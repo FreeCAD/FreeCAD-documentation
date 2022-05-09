@@ -1,6 +1,6 @@
 # Std Group/ro
 ---
-- GuiCommand:   Name:Std Group   MenuLocation:Tree View → Right click on the document name   |Workbenches:All   Shortcut:   SeeAlso:[Draft SelectGroup](Draft_SelectGroup.md), [Draft AddToGroup](Draft_AddToGroup.md)---
+- GuiCommand   *   Name   *Std Group   MenuLocation   *Tree View → Right click on the document name   |Workbenches   *All   Shortcut   *   SeeAlso   *[Draft SelectGroup](Draft_SelectGroup.md), [Draft AddToGroup](Draft_AddToGroup.md)---
 
 
 </div>
@@ -23,7 +23,7 @@ To group 3D objects as a single unit, with the intention of creating assemblies,
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/group_with_objects.png  style="width:300px;">
+<img alt="" src=images/group_with_objects.png  style="width   *300px;">
 
 
 </div>
@@ -56,7 +56,7 @@ De îndată ce semnul se schimbă într-un simbol \"plus\", este posibil să vă
 
 ## Proprietăți
 
-The [Std Group](Std_Group.md), internally called [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App::DocumentObjectGroup` class), is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class) and inherits all its properties.
+The [Std Group](Std_Group.md), internally called [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App   *   *DocumentObjectGroup` class), is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App   *   *DocumentObject` class) and inherits all its properties.
 
 The Std Group has the same properties as the [App FeaturePython](App_FeaturePython#Properties.md), which is the most basic instance of an [App DocumentObject](App_DocumentObject.md). It also has the following additional properties in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
 
@@ -68,7 +68,7 @@ The Std Group has the same properties as the [App FeaturePython](App_FeaturePyth
 
 <div class="mw-translate-fuzzy">
 
--    **Label**: Numele grupului
+-    **Label**   * Numele grupului
 
 
 </div>
@@ -78,7 +78,7 @@ The Std Group has the same properties as the [App FeaturePython](App_FeaturePyth
 
 <div class="mw-translate-fuzzy">
 
-Următaorea comandaă adugă un nou grup în documentul activ:
+Următaorea comandaă adugă un nou grup în documentul activ   *
 
 
 </div>
@@ -92,29 +92,29 @@ A Std Group ([App DocumentObjectGroup](App_DocumentObjectGroup.md)) is created w
 import FreeCAD as App
 
 doc = App.newDocument()
-group = App.ActiveDocument.addObject("App::DocumentObjectGroup", "Group")
+group = App.ActiveDocument.addObject("App   *   *DocumentObjectGroup", "Group")
 
-obj1 = App.ActiveDocument.addObject("PartDesign::Body", "Body")
-obj2 = App.ActiveDocument.addObject("Part::Box", "Box")
+obj1 = App.ActiveDocument.addObject("PartDesign   *   *Body", "Body")
+obj2 = App.ActiveDocument.addObject("Part   *   *Box", "Box")
 
 group.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
-This basic `App::DocumentObjectGroup` doesn\'t have a Proxy object so it can\'t be fully used for sub-classing.
+This basic `App   *   *DocumentObjectGroup` doesn\'t have a Proxy object so it can\'t be fully used for sub-classing.
 
-For [Python](Python.md) subclassing you should create a `App::DocumentObjectGroupPython` object.
+For [Python](Python.md) subclassing you should create a `App   *   *DocumentObjectGroupPython` object.
 
 
 ```python
 import FreeCAD as App
 
 doc = App.newDocument()
-obj = App.ActiveDocument.addObject("App::DocumentObjectGroupPython", "Name")
+obj = App.ActiveDocument.addObject("App   *   *DocumentObjectGroupPython", "Name")
 obj.Label = "Custom label"
 ```
 
-For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPython` object with a custom icon and additional properties.
+For example, a [FEM Analysis](FEM_Analysis.md) is an `App   *   *DocumentObjectGroupPython` object with a custom icon and additional properties.
 
 ## Legături
 
@@ -123,7 +123,7 @@ For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPy
 
 -   [Use case in Arch Tutorial](Arch_tutorial#Organizing_your_model.md)
 -   [Document structure](Document_structure.md)
--   [Organizing your model](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
+-   [Organizing your model](http   *//www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
 
 
 </div>

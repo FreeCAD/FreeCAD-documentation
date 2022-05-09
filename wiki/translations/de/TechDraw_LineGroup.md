@@ -19,7 +19,7 @@ Zum ändern der LinienGruppen-Definitionsdatei
 
 Wenn du Schreibberechtigung hast, kannst du `LineGroup.csv` bearbeiten, um deine eigenen LinienGruppen hinzuzufügen.
 
-Diese Datei ist normalerweise in:
+Diese Datei ist normalerweise in   *
 
 
 ```python
@@ -37,21 +37,21 @@ Du kannst deine bevorzugten Standardeinstellungen in den [TechDraw Einstellungen
 
 ## LinienGruppe Dateipfad 
 
--   **Windows**: `C:\Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
--   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`
--   **Linux**: {`/usr/share/freecad/Mod/TechDraw/LineGroup/`}
-    -   ***freecad-daily PPA***: `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
+-   **Windows**   * `C   *Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
+-   **Mac**   * `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`
+-   **Linux**   * {`/usr/share/freecad/Mod/TechDraw/LineGroup/`}
+    -   ***freecad-daily PPA***   * `/usr/share/freecad-daily/Mod/TechDraw/LineGroup/`
 
-Hinweis: Eine neue Einstellung wurde hinzugefügt, die es dir erlaubt, deine eigene persönliche LinienGruppe Datei zu verwenden.
+Hinweis   * Eine neue Einstellung wurde hinzugefügt, die es dir erlaubt, deine eigene persönliche LinienGruppe Datei zu verwenden.
 
 
 ```python
 ;FreeCAD LineGroup Definitions
-;Format: *GroupName,thin,graphic,thick,extra
-;thin: hidden lines
-;graphic: dimensions, centerlines
-;thick: visible lines
-;extra: not implemented
+;Format   * *GroupName,thin,graphic,thick,extra
+;thin   * hidden lines
+;graphic   * dimensions, centerlines
+;thick   * visible lines
+;extra   * not implemented
 ```
 
 

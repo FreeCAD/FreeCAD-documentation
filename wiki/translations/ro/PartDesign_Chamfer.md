@@ -1,6 +1,6 @@
 # PartDesign Chamfer/ro
 ---
-- GuiCommand:   Name:PartDesign Chamfer   Workbenches:[MenuLocation:Part Design → Chamfer   SeeAlso:[[Part Chamfer|Chamfer Part](PartDesign_Workbench___PartDesign]],_Complete.md)---
+- GuiCommand   *   Name   *PartDesign Chamfer   Workbenches   *[MenuLocation   *Part Design → Chamfer   SeeAlso   *[[Part Chamfer|Chamfer Part](PartDesign_Workbench___PartDesign]],_Complete.md)---
 
 
 </div>
@@ -12,8 +12,8 @@
 
 ## Introducere
 
-Acest instrument utilizează **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)** pe muchiile selecționate ale unui obiect. Un element nou **Chamfer** (urmat de un număr secvențial dacă nu este primul element **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein](_PartDesign_Chamfer/fr.md)** creat în document) este adăugat în arborescența proiectului.
-<img alt="Pièce chanfreinée" src=images/PartDesign_Chamfer_fr_01.png  style="width:480px;">
+Acest instrument utilizează **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)** pe muchiile selecționate ale unui obiect. Un element nou **Chamfer** (urmat de un număr secvențial dacă nu este primul element **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein](_PartDesign_Chamfer/fr.md)** creat în document) este adăugat în arborescența proiectului.
+<img alt="Pièce chanfreinée" src=images/PartDesign_Chamfer_fr_01.png  style="width   *480px;">
 
 
 
@@ -38,19 +38,19 @@ This tool creates chamfers on the selected edges of an object. A new separate Ch
 
 ## Utilizare
 
-Selecționați una, sau mai multe muchii ale unui obiect apoi porniți instrumentul fie prin click pe iconiță **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein](_PartDesign_Chamfer/fr.md)** din bara de instrumente, fie din meniu **Affichage → Atelier → Part Design**.
-Pentru un lanț de muchii tangente una pe alta, este necesară selectarea numai a uneia dintre margini. **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, se va propaga automat în lungul lanțului .
-Pentru a-l modifica **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)** după crearea sa, double-cliquer pe intrarea sa în **Vue Combinée → Projet →** pe **Chamfer** pentru a modifica, sau faceți click butonul dreapta, și selecționați **Modifier le chanfrein**.
+Selecționați una, sau mai multe muchii ale unui obiect apoi porniți instrumentul fie prin click pe iconiță **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein](_PartDesign_Chamfer/fr.md)** din bara de instrumente, fie din meniu **Affichage → Atelier → Part Design**.
+Pentru un lanț de muchii tangente una pe alta, este necesară selectarea numai a uneia dintre margini. **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, se va propaga automat în lungul lanțului .
+Pentru a-l modifica **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)** după crearea sa, double-cliquer pe intrarea sa în **Vue Combinée → Projet →** pe **Chamfer** pentru a modifica, sau faceți click butonul dreapta, și selecționați **Modifier le chanfrein**.
 ==Opțiuni==
 
 ### Vizualizarea combinată → Sarcini 
 
-[240px\|left](IMAGE:PartDesign_Chamfer_fr_05.png.md) {{TitleTasks|[<img src=images/PartDesign_Chamfer.png style="width:16px"> Paramètres du chanfrein}}
+[240px\|left](IMAGE   *PartDesign_Chamfer_fr_05.png.md) {{TitleTasks|[<img src=images/PartDesign_Chamfer.png style="width   *16px"> Paramètres du chanfrein}}
 
 
 {{OngletTache|Size}}
 
-: Réglez la dimension du **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, en saisissant une valeur, ou en cliquant sur les flèches haut et bas. Un aperçu en temps réel est affiché dans la fenêtre 3D.
+   * Réglez la dimension du **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, en saisissant une valeur, ou en cliquant sur les flèches haut et bas. Un aperçu en temps réel est affiché dans la fenêtre 3D.
 Cliquez sur **OK** pour valider.
 
 Șanfrenul va avea întodeauna unghiul la 45°.
@@ -60,39 +60,39 @@ Lățimea maximă a șanfrenului trebuie să fie inferior celei mai micii fațet
 
 ### Vue combinée → Chamfer → Vue 
 
-<img alt="" src=images/PartDesign_Chamfer_fr_03.png‎  style="width:240px;"> {{PartOngletVue/fr}}
+<img alt="" src=images/PartDesign_Chamfer_fr_03.png‎  style="width   *240px;"> {{PartOngletVue/fr}}
 ===Vue combinée → Chamfer → Données===
-<img alt="" src=images/PartDesign_Chamfer_fr_04.png  style="width:240px;"> {{TitleProperty|Base}}
+<img alt="" src=images/PartDesign_Chamfer_fr_04.png  style="width   *240px;"> {{TitleProperty|Base}}
 
 
 {{ProprieteDonnees|Label}}
 
-: Nom de l\'objet (modifiable à volonté).
+   * Nom de l\'objet (modifiable à volonté).
 
 
 {{ProprieteDonnees|Placement}}
 
-: \[(**0,00 0,00 1,00**);**0,00**;(**0,00 0,00 0,00**)\], donne l\'ensemble des données **Axis, Angle**, et, **Position** ci dessous.
-Si vous sélectionnez, le titre **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width:256px;">, un bouton avec **trois petits points** s\'affiche, en cliquant sur ce bouton **''' ... '''**, vous avez accès à la fenêtre d\'options **[Tâche Placement](Tasks_Placement/fr.md)**.
+   * \[(**0,00 0,00 1,00**);**0,00**;(**0,00 0,00 0,00**)\], donne l\'ensemble des données **Axis, Angle**, et, **Position** ci dessous.
+Si vous sélectionnez, le titre **Placement** <img alt="Options Placement" src=images/Tache_Placement_01_fr_00.png  style="width   *256px;">, un bouton avec **trois petits points** s\'affiche, en cliquant sur ce bouton **''' ... '''**, vous avez accès à la fenêtre d\'options **[Tâche Placement](Tasks_Placement/fr.md)**.
 
--    {{ProprieteDonnees|Angle}}: Angle de rotation par rapport aux coordonnées **X, Y, Z**
+-    {{ProprieteDonnees|Angle}}   * Angle de rotation par rapport aux coordonnées **X, Y, Z**
 
--    {{ProprieteDonnees|Axis}}: Sélection de l\'axe(s) de rotation de travail **X, Y**, ou **Z**.
-    Par exemple : nous déterminons un {{ProprieteDonnees|Angle}} de **15°**, nous spécifions une valeur de **1,0 pour x** et **2,0 pour y**, cette configuration, aura pour effet, une rotation finale de la pièce qui sera de, \"*\' 15° dans l\'axe x*\' \" et \"*\' 30° dans l\'axe y*\' \". (Défaut, **Z = 1 = actif**)
+-    {{ProprieteDonnees|Axis}}   * Sélection de l\'axe(s) de rotation de travail **X, Y**, ou **Z**.
+    Par exemple    * nous déterminons un {{ProprieteDonnees|Angle}} de **15°**, nous spécifions une valeur de **1,0 pour x** et **2,0 pour y**, cette configuration, aura pour effet, une rotation finale de la pièce qui sera de, \"*\' 15° dans l\'axe x*\' \" et \"*\' 30° dans l\'axe y*\' \". (Défaut, **Z = 1 = actif**)
 
--    {{ProprieteDonnees|Position}}: Déplacement des coordonnées **X, Y, Z**, par rapport aux points d\'origine **0, 0, 0**.
+-    {{ProprieteDonnees|Position}}   * Déplacement des coordonnées **X, Y, Z**, par rapport aux points d\'origine **0, 0, 0**.
 
 
 {{ProprieteDonnees|Size}}
 
-:Projet Donne la valeur au **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)** 
+   *Projet Donne la valeur au **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)** 
 
 ## Exemple
 
 
 <center>
 
-<File:PartDesign_Chamfer_fr_06.png>‎\|Sélectionnez l\'arête, ou les arêtes à **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfreiner](_PartDesign_Chamfer/fr.md)**, cliquez sur le bouton **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein](_PartDesign_Chamfer/fr.md)** entrez votre dimension, puis validez avec le bouton **OK**, <File:PartDesign_Chamfer_fr_01.png>‎\|le résultat final.
+<File   *PartDesign_Chamfer_fr_06.png>‎\|Sélectionnez l\'arête, ou les arêtes à **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfreiner](_PartDesign_Chamfer/fr.md)**, cliquez sur le bouton **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein](_PartDesign_Chamfer/fr.md)** entrez votre dimension, puis validez avec le bouton **OK**, <File   *PartDesign_Chamfer_fr_01.png>‎\|le résultat final.
 
 
 </center>
@@ -101,45 +101,45 @@ Si vous sélectionnez, le titre **Placement** <img alt="Options Placement" src=i
 
 <center>
 
-<File:PartDesign_Chamfer_fr_07.png>‎\|Une nouvelle icône s\'ajoute à l\'arborescence du projet, cette icône est totalement indépendante, et, est un objet supplémentaire.
-Vous pouvez modifier le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)** en double cliquant dessus, ou faites clic droit sur l\'icône et cliquez sur **Modifier le chanfrein**, ou encore dans [Vue combinée → Chamfer → Données → Size](#Vue_combinée_→_Projet_→_Données.md).
+<File   *PartDesign_Chamfer_fr_07.png>‎\|Une nouvelle icône s\'ajoute à l\'arborescence du projet, cette icône est totalement indépendante, et, est un objet supplémentaire.
+Vous pouvez modifier le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)** en double cliquant dessus, ou faites clic droit sur l\'icône et cliquez sur **Modifier le chanfrein**, ou encore dans [Vue combinée → Chamfer → Données → Size](#Vue_combinée_→_Projet_→_Données.md).
 
 
 </center>
 
 == Comparaison Chanfrein Conception de Pièce et Chanfrein Pièce ==
 
-**Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
+**Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
 Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utilisent différemment.
 
-### Voici quelques différences : 
+### Voici quelques différences    * 
 
--   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** est *paramétrique*. Après l\'application d\'un **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
--   Les arêtes doivent être sélectionnées avant de démarrer le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
--   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ajoute une entrée distincte dans l\'arborescence Projet. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** devient le parent de l\'objet auquel il a été appliqué.
--   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** affiche un aperçu en temps réel de l\'application du chanfrein avant la validation de la fonction.
--   Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** supporte les dimensions variables (avec une dimension de départ, et, une dimension d\'arrivée). Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne le permet pas.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** est *paramétrique*. Après l\'application d\'un **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
+-   Les arêtes doivent être sélectionnées avant de démarrer le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ajoute une entrée distincte dans l\'arborescence Projet. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** devient le parent de l\'objet auquel il a été appliqué.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** affiche un aperçu en temps réel de l\'application du chanfrein avant la validation de la fonction.
+-   Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** supporte les dimensions variables (avec une dimension de départ, et, une dimension d\'arrivée). Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File   *PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne le permet pas.
 
 -   Select a single edge, multiple edges or a face on an object, then start the tool either by clicking the button **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chamfer'''** or using the menu **PartDesign → Apply a dress-up feature → Chamfer**. In case you selected a face or a 3D object (<small>(v0.20)</small> ) all its edges are respected for chamfering.
--   In the appearing [Task panel](Task_panel.md) you can define the chamfer in 3 ways:
+-   In the appearing [Task panel](Task_panel.md) you can define the chamfer in 3 ways   *
     -   
         **Equal distance**
         
-        : The chamfer edges are equally distanced from the body edge.
+           * The chamfer edges are equally distanced from the body edge.
 
     -   
         **Two distances**
         
-        : The distances of the chamfer edge to the body edge are specified. The distance direction can be flipped. <small>(v0.19)</small> 
+           * The distances of the chamfer edge to the body edge are specified. The distance direction can be flipped. <small>(v0.19)</small> 
 
     -   
         **Distance and angle**
         
-        : One distances of the chamfer edge to the body edge is specified. The second chamfer edge is defined by the angle of the chamfer. The distance direction can be flipped. <small>(v0.19)</small> 
+           * One distances of the chamfer edge to the body edge is specified. The second chamfer edge is defined by the angle of the chamfer. The distance direction can be flipped. <small>(v0.19)</small> 
 -   If you want to add more edges or faces click the **Add** button and select edges and/or the faces.
 -   After clicking the **Add** button you can add all edges of the object by right-clicking and selecting **Add all edges** from the context menu. <small>(v0.20)</small> 
 -   If you want to remove edges or faces
-    -   either select the edge/face in the list of the dialog and press the **DEL** key. *Note*: Since there must be at least one edge for the feature, the last remaining edge or face in the list cannot be removed.
+    -   either select the edge/face in the list of the dialog and press the **DEL** key. *Note*   * Since there must be at least one edge for the feature, the last remaining edge or face in the list cannot be removed.
     -   or click the **Remove** button. All edges and faces being previously selected are highlighted in purple. Select the edge or the face to be removed.
     -   Ensure the **Use all edges** checkbox is unchecked or else some widgets in the dialog will be disabled. <small>(v0.20)</small> 
 -   Click **OK** to validate.

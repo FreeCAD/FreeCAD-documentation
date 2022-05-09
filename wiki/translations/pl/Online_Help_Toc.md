@@ -1,9 +1,9 @@
 # Online Help Toc/pl
-Jest to spis treści używany do automatycznego budowania systemu pomocy online w programie FreeCAD. Wersja podręcznika do druku jest również dostępna na stronie [wydania](https://github.com/FreeCAD/FreeCAD/releases). Jeśli masz jakiekolwiek pytania lub potrzebujesz pomocy w programie FreeCAD, zapoznaj się ze [Stroną pomocy](Help/pl.md), w tym z forum i czatem grupy dyskusyjnej.
+Jest to spis treści używany do automatycznego budowania systemu pomocy online w programie FreeCAD. Wersja podręcznika do druku jest również dostępna na stronie [wydania](https   *//github.com/FreeCAD/FreeCAD/releases). Jeśli masz jakiekolwiek pytania lub potrzebujesz pomocy w programie FreeCAD, zapoznaj się ze [Stroną pomocy](Help/pl.md), w tym z forum i czatem grupy dyskusyjnej.
 
-Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual:Introduction/pl.md).
+Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual   *Introduction/pl.md).
 
-<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
+<img alt="" src=images/Online_Help_Toc.svg  style="width   *64px;">
 
 -   Wprowadzenie
     -   [Witamy](Online_Help_Startpage/pl.md)
@@ -24,28 +24,28 @@ Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual:Introduction/p
 
 -   [Środowiska pracy](Workbenches/pl.md)
 
--   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Narzędzia standardowe dla wszystkich środowisk pracy](Std_Base/pl.md)
-    -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Architektura](Arch_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Rysunek Roboczy](Draft_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [MES](FEM_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> [Obraz](Image_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Inspection.svg  style="width:32px;"> [Inspekcja](Inspection_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Mesh.svg  style="width:32px;"> [Siatka](Mesh_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Część](Part_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Projekt Części](PartDesign_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [Path](Path_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> [Punkty](Points_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> [Raytracing](Raytracing_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> [Inżynieria Wsteczna](Reverse_Engineering_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> [Robot](Robot_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [Szkicownik](Sketcher_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Start](Start_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Powierzchnia](Surface_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md)
-    -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> [Test Framework](Testing/pl.md)
-    -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;">[Web](Web_Workbench/pl.md)
+-   -   <img alt="" src=images/Freecad.svg  style="width   *32px;"> [Narzędzia standardowe dla wszystkich środowisk pracy](Std_Base/pl.md)
+    -   <img alt="" src=images/Workbench_Arch.svg  style="width   *32px;"> [Architektura](Arch_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Draft.svg  style="width   *32px;"> [Rysunek Roboczy](Draft_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_FEM.svg  style="width   *32px;"> [MES](FEM_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Image.svg  style="width   *32px;"> [Obraz](Image_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Inspection.svg  style="width   *32px;"> [Inspekcja](Inspection_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Mesh.svg  style="width   *32px;"> [Siatka](Mesh_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_OpenSCAD.svg  style="width   *32px;"> [OpenSCAD](OpenSCAD_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Part.svg  style="width   *32px;"> [Część](Part_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_PartDesign.svg  style="width   *32px;"> [Projekt Części](PartDesign_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Path.svg  style="width   *32px;"> [Path](Path_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Points.svg  style="width   *32px;"> [Punkty](Points_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Raytracing.svg  style="width   *32px;"> [Raytracing](Raytracing_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width   *32px;"> [Inżynieria Wsteczna](Reverse_Engineering_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Robot.svg  style="width   *32px;"> [Robot](Robot_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Sketcher.svg  style="width   *32px;"> [Szkicownik](Sketcher_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width   *32px;"> [Arkusz Kalkulacyjny](Spreadsheet_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Start.svg  style="width   *32px;"> [Start](Start_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Surface.svg  style="width   *32px;"> [Powierzchnia](Surface_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_TechDraw.svg  style="width   *32px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md)
+    -   <img alt="" src=images/Workbench_Test.svg  style="width   *32px;"> [Test Framework](Testing/pl.md)
+    -   <img alt="" src=images/Workbench_Web.svg  style="width   *32px;">[Web](Web_Workbench/pl.md)
     -   [Środowiska zewnętrzne](External_workbenches/pl.md)
 
 -   [Lista wszystkich poleceń FreeCAD](List_of_Commands.md)
@@ -68,7 +68,7 @@ Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual:Introduction/p
     -   [Makrodefinicje](Macros/pl.md)
     -   [Tworzenie skryptów](Scripts/pl.md)
     -   [Wprowadzenie do środowiska Python](Introduction_to_Python/pl.md)
-    -   [Poradnik: Tworzenie skryptów Python](Python_scripting_tutorial/pl.md)
+    -   [Poradnik   * Tworzenie skryptów Python](Python_scripting_tutorial/pl.md)
     -   [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md)
     -   [Skrypty w środowisku Część](Part_scripting/pl.md)
     -   [Skrypty danych topologicznych](Topological_data_scripting/pl.md)
@@ -100,12 +100,17 @@ Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual:Introduction/p
         -   [Dodanie modułu aplikacji](Workbench_creation/pl.md)
         -   [Instalowanie dodatkowych modułów Python](Extra_python_modules/pl.md)
     -   [Dokumentacja źródeł](Source_documentation/pl.md)
-    -   [API](https://www.freecadweb.org/api/)
+    -   [API](https   *//www.freecadweb.org/api/)
 
 -   Uznanie
     -   [Współpracownicy](Contributors.md)
 
 -   [Słowniczek](Glossary.md)
+
+
+
+
+[Category   *Documentation](Category_Documentation.md)
 
 
 

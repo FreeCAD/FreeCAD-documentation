@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher ConstrainTangent
-   Name/de:Skizzierer BeschränkeTangential
-   MenuLocation:Skizze → Skizzierer Beschränkungen → Beschränke Tangente
-   Workbenches:[Skizzierer](Sketcher_Workbench/de.md) 
-   Shortcut:**T**
-   SeeAlso:[Skizzierer Beschränkung Punkt auf Objekt](Sketcher_ConstrainPointOnObject/de.md)
+- GuiCommand   */de
+   Name   *Sketcher ConstrainTangent
+   Name/de   *Skizzierer BeschränkeTangential
+   MenuLocation   *Skizze → Skizzierer Beschränkungen → Beschränke Tangente
+   Workbenches   *[Skizzierer](Sketcher_Workbench/de.md) 
+   Shortcut   ***T**
+   SeeAlso   *[Skizzierer Beschränkung Punkt auf Objekt](Sketcher_ConstrainPointOnObject/de.md)
 ---
 
 # Sketcher ConstrainTangent/de
@@ -18,7 +18,7 @@ Tangentenbeschränkung kann auch mit zwei Linien verwendet werden, um sie koline
 
 ## Anwendung
 
-Es gibt fünf verschiedene Arten, wie die Beschränkung angewendet werden kann:
+Es gibt fünf verschiedene Arten, wie die Beschränkung angewendet werden kann   *
 
 1.  zwischen zwei Kurven (nicht für alle Kurven verfügbar)
 2.  zwischen zwei Endpunkten einer Kurve, wodurch eine glatte Verbindung entsteht
@@ -26,18 +26,18 @@ Es gibt fünf verschiedene Arten, wie die Beschränkung angewendet werden kann:
 4.  zwischen zwei Kurven an benutzerdefiniertem Punkt
 5.  zwischen zwei Linien, um eine kollineare Bedingung zu erzeugen
 
-Um die Tangentialbindung anzuwenden, sollten die folgenden Schritte befolgt werden:
+Um die Tangentialbindung anzuwenden, sollten die folgenden Schritte befolgt werden   *
 
 -   Wähle zwei oder drei Elemente in der Skizze aus.
 -   Deaktiviere die Beschränkung, durch klicken auf das Symbol in der Werkzeugleiste, durch Auswahl des Menüelements oder durch Verwendung eines Tastaturkürzels.
 
 ### Zwischen zwei Kurven (direkte Tangentialität) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode1.png  style="width   *600px;">
 
 Zwei Kurven werden so angeordnet, dass sie sich tangential berühren; der Berührungspunkt wird implizit bestimmt. Dieser Modus wird angewandt, wenn zwei Kurven als ganzes ausgewählt werden.
 
-**Zulässige Auswahl:**
+**Zulässige Auswahl   ***
 
 -   Linie + Linie, Kreis, Kreisbogen, Ellipse, Ellipsenbogen
 -   Kreis, Kreisbogen + Kreis, Kreisbogen
@@ -48,31 +48,31 @@ Es wird nicht empfohlen den Berührungspunkt zu bestimmen, indem ein Punkt gener
 
 ### Zwischen zwei Endpunkten (Punkt-zu-Punkt Tangentialität) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode2.png  style="width   *600px;">
 
 In diesem Modus werden die Endpunkte deckungsgleich gemacht und die Verbindung wird tangential gemacht (C1-glatt oder \"scharf\", je nach Platzierung der Kurven vor Anwendung der Beschränkung). Dieser Modus wird angewendet, wenn zwei Endpunkte von zwei Kurven ausgewählt wurden. Wenn du diese Art der Tangente willst, darfst du nicht die Deckungsgleichheit plus die Tangente zwischen den Kurven/Linien verwenden. Der Löser kann für diese Kombination keine stabilen Lösungen erzeugen und ersetzt die Beschränkungen entsprechend.
 
-**Zulässige Auswahl:**
+**Zulässige Auswahl   ***
 
 -   Endpunkt einer Linie / eines Bogens / eines Ellipsenbogens + Endpunkt einer Linie / eines Bogens / eines Ellipsenbogens (im Allgemeinen zwei Endpunkte von jedweden Kurven)
 
 ### Zwischen einer Kurve und einem Endpunkt (Punkt-zu-Kurve Tangentialität) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode3.png  style="width   *600px;">
 
 In diesen Modus wird der Endpunkt der einen Kurve auf die andere Kurve gelegt und die Kurven berühren sich tangential in diesen Punkt. Dieser Modus wird angewandt, wenn eine Kurve und der Endpunkt einer anderen Kurve ausgewählt wurden.
 
-**Zulässige Auswahl:**
+**Zulässige Auswahl   ***
 
 -   Linie, Kreis, Kreisbogen, Ellipsenbogen + Endpunkt einer Linie / eines Kreises / eines Kreisbogens / eines Ellipsenbogens (im Allgemeinen jede Kurve + der Endpunkt irgend einer anderen Kurve)
 
 ### Zwischen zwei Kurven an einem Punkt (Punkt-Tangentialität) (v0.15) 
 
-<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintTangent_mode4.png  style="width   *600px;">
 
 In diesen Modus werden zwei Kurven tangential an einem ausgewählten Punkt angeordnet. Dieser Modus wird angewandt, wenn zwei Kurven und ein Punkt ausgewählt werden.
 
-**Zulässige Auswahl:**
+**Zulässige Auswahl   ***
 
 -   irgendeine Linie / Kurve + irgend eine Linie / Kurve + irgendein Punkt
 
@@ -86,15 +86,15 @@ Die Platzierung des Punktes vor der Anwendung der Beschränkung ist ein Hinweis 
 
 ### Zwischen zwei Linien (kollinear) 
 
-<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConstraintTangent_mode5.png  style="width   *600px;">
 
-**Akzeptierte Auswahl:**
+**Akzeptierte Auswahl   ***
 
 -   jede Linie/Knoten + jede Linie/Knoten
 
 ## Skripten
 
-Die tangentiale Beschränkung kann aus [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole wie folgt erstellt werden: 
+Die tangentiale Beschränkung kann aus [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole wie folgt erstellt werden   * 
 ```python
 # direct tangency
 Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,icurve2))
@@ -107,15 +107,15 @@ Sketch.addConstraint(Sketcher.Constraint('Tangent',icurve1,pointpos1,icurve2))
 
 # tangent-via-point (plain constraint, helpers are not added automatically)
 Sketch.addConstraint(Sketcher.Constraint('TangentViaPoint',icurve1,icurve2,geoidpoint,pointpos)) 
-``` wobei:
+``` wobei   *
 
-:\* `Sketch` ist ein Skizzenobjekt
+   ** `Sketch` ist ein Skizzenobjekt
 
-:\* `icurve1`, `icurve2` sind zwei Integer Zahlen, die die Kurven identifizieren, die zueinander tangential liegen sollen. Dies Integer Zahlen sind Indexwerte der Skizze (der Wert, der vom Aufruf `Sketch.addGeometry` zurückgegeben wird).
+   ** `icurve1`, `icurve2` sind zwei Integer Zahlen, die die Kurven identifizieren, die zueinander tangential liegen sollen. Dies Integer Zahlen sind Indexwerte der Skizze (der Wert, der vom Aufruf `Sketch.addGeometry` zurückgegeben wird).
 
-:\* `pointpos1`, `pointpos2` sollten 1 für den Startpunkt und 2 für den Endpunkt sein.
+   ** `pointpos1`, `pointpos2` sollten 1 für den Startpunkt und 2 für den Endpunkt sein.
 
-:\* `geoidpoint` und `pointpos` in `TangentViaPoint` sind die Indexe, die den Punkt der Tangentialität spezifizieren.
+   ** `geoidpoint` und `pointpos` in `TangentViaPoint` sind die Indexe, die den Punkt der Tangentialität spezifizieren.
 
 Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite erklärt die Werte, die für `incurve1`, `incurve2`, `pointpos1`, `pointpos2`, `geoidpoint` und `pointpos` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python Skripten erstellt.
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/de
-   Name:Part ReverseShapes
-   Name/de:Part FormenUmkehren
-   MenuLocation:Part → Formen umkehren
-   Workbenches:[Part Arbeitsbereich](Part_Workbench/de.md)
+- GuiCommand   */de
+   Name   *Part ReverseShapes
+   Name/de   *Part FormenUmkehren
+   MenuLocation   *Part → Formen umkehren
+   Workbenches   *[Part Arbeitsbereich](Part_Workbench/de.md)
 ---
 
 # Part ReverseShapes/de
@@ -20,14 +20,8 @@ Kippt die Normalen aller Flächen des ausgewählten Objekts.
 
 ## Hinweise
 
-Durch die Ausführung dieses Befehls kippt FreeCAD die Normalen aller Flächen der Form / des Festkörpers.
-
-Du kannst dies überprüfen, indem du
-
-1.  Alle anderen Objekte außer der umgekehrten Form unsichtbar machst.
-2.  Auswahl der umgekehrten Form.
-3.  Ändere {{PropertyView/de|Lighting}} von \"Zwei Seiten\" auf \"Eine Seite\".
-4.  Die Form wird schwarz, was bedeutet, dass du jetzt auf die Rückseite der Flächen schaust.
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as source objects. <small>(v0.20)</small> 
+-   To see the effect of the command change the **Lighting** property of the reversed shape to {{Value|On side}} and if required change **Edit → Preferences... → Display → Rendering → Backlight color**.
 
 ## Eigenschaften
 

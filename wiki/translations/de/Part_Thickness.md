@@ -1,17 +1,17 @@
 ---
-- GuiCommand:/de
-   Name:Part Thickness
-   Name/de:Part Dicke
-   MenuLocation:Formteil → Dicke...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Versatz](Part_Offset/de.md)
+- GuiCommand   */de
+   Name   *Part Thickness
+   Name/de   *Part Dicke
+   MenuLocation   *Formteil → Dicke...
+   Workbenches   *[Part](Part_Workbench/de.md)
+   SeeAlso   *[Part Versatz](Part_Offset/de.md)
 ---
 
 # Part Thickness/de
 
 ## Beschreibung
 
-Das <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part_Thickness/de.md) Werkzeug bearbeitet eine massive Form und wandelt sie in einen hohlen Gegenstand um, indem es jeder seiner Flächen eine definierte Dicke verleiht. Bei einigen Volumenkörpern erlaubt es dir, die Arbeit erheblich zu beschleunigen und vermeidet die Herstellung von Extrusionen und Taschen.
+Das <img alt="" src=images/Part_Thickness.svg  style="width   *24px;"> [Dicke](Part_Thickness/de.md) Werkzeug bearbeitet eine massive Form und wandelt sie in einen hohlen Gegenstand um, indem es jeder seiner Flächen eine definierte Dicke verleiht. Bei einigen Volumenkörpern erlaubt es dir, die Arbeit erheblich zu beschleunigen und vermeidet die Herstellung von Extrusionen und Taschen.
 
 ## Verwendung
 
@@ -24,29 +24,35 @@ Das <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part
 
 ## Optionen
 
--   Dicke: Wanddicke des resultierenden Objekts
+-   Dicke   * Wanddicke des resultierenden Objekts
     -   Ein positiver Wert versetzt die Oberflächen nach außen
     -   Ein negativer Wert versetzt die Oberflächen nach innen
 -   Modus
-    -   Oberfläche: Wähle diese Option, wenn Du einen Gegenstand ähnlich einer Vase haben möchtest, oben offen, aber mit einem Boden
-    -   Rohr: Wähle diese Option, wenn Du ein Objekt ähnlich einem Rohr haben möchtest, oben und unten offen. In diesem Fall kann es einfacher sein, die zu löschenden Flächen vor dem Aufruf des Werkzeugs zu löschen. Helfen können die Buttons für die vordefinierten Ansichten oder die numerischen Tasten.
-    -   Hinten-Vorne:
+    -   Oberfläche   * Wähle diese Option, wenn Du einen Gegenstand ähnlich einer Vase haben möchtest, oben offen, aber mit einem Boden
+    -   Rohr   * Wähle diese Option, wenn Du ein Objekt ähnlich einem Rohr haben möchtest, oben und unten offen. In diesem Fall kann es einfacher sein, die zu löschenden Flächen vor dem Aufruf des Werkzeugs zu löschen. Helfen können die Buttons für die vordefinierten Ansichten oder die numerischen Tasten.
+    -   Hinten-Vorne   *
 -   Verknüpfungstyp
-    -   Kreisbogen: Entfernt die äußeren Kanten und erstellt eine Fase mit einem Radius gleich der definierten Dicke
-    -   Tangente:
-    -   Schnitt:
--   Schnitt:
--   Selbstdurchdringung: Aktiviert Selbstdurchdringung
--   Flächen / Fertig: Wähel die zu entfernenden Flächen, klicke dann **Fertig**
--   Ansicht akutalisieren: Automatisches Aktualisieren in Echtzeit
+    -   Kreisbogen   * Entfernt die äußeren Kanten und erstellt eine Fase mit einem Radius gleich der definierten Dicke
+    -   Tangente   *
+    -   Schnitt   *
+-   Schnitt   *
+-   Selbstdurchdringung   * Aktiviert Selbstdurchdringung
+-   Flächen / Fertig   * Wähel die zu entfernenden Flächen, klicke dann **Fertig**
+-   Ansicht akutalisieren   * Automatisches Aktualisieren in Echtzeit
 
-## Begrenzungen
+## Notes
+
+
+<div class="mw-translate-fuzzy">
 
 Komplexe Formen können bizarre, schwer vorherzusagende Ergebnisse produzieren. Prüfe sorgfältig die entstandene Form und speichere Deine Arbeit vor der Anwendung an komplexen Objekten.
 
+
+</div>
+
 ## Verweise
 
-Ein gutes Beispiel zur Benutzung dieses Werkzeuges gibt es im Forum: [Re: Help designing a simple enclosure](http://forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
+Ein gutes Beispiel zur Benutzung dieses Werkzeuges gibt es im Forum   * [Re   * Help designing a simple enclosure](http   *//forum.freecadweb.org/viewtopic.php?f=3&t=3766&p=29741&hilit=enclosure#p29547)
 
 ## Beispiele
 
@@ -57,7 +63,7 @@ Ein gutes Beispiel zur Benutzung dieses Werkzeuges gibt es im Forum: [Re: Help d
 3.  Click on the **<img src="images/Part_Thickness.svg" width=16px> Thickness
 ** button (no need to change default settings) and press **OK**
 
-Notes:
+Notes   *
 
 -   For this shape, consider using **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube.md)** instead <small>(v0.19)</small> 
 -   Select the cylinder\'s top surface only to create a receptacle

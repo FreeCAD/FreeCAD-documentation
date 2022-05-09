@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ja
-   Name:Sketcher CreateCircle
-   Name/ja:Sketcher CreateCircle
-   Workbenches:[スケッチャー](Sketcher_Workbench/ja.md)
-   MenuLocation:Sketch → Sketcher geometries → Create circle
-   SeeAlso:[Sketcher Arc](Sketcher_Arc/ja.md)
+- GuiCommand   */ja
+   Name   *Sketcher CreateCircle
+   Name/ja   *Sketcher CreateCircle
+   Workbenches   *[スケッチャー](Sketcher_Workbench/ja.md)
+   MenuLocation   *Sketch → Sketcher geometries → Create circle
+   SeeAlso   *[Sketcher Arc](Sketcher_Arc/ja.md)
 ---
 
 # Sketcher CreateCircle/ja

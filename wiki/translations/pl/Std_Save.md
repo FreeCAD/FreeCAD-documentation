@@ -1,46 +1,47 @@
 ---
-- GuiCommand:
-   Name:Std Save
-   MenuLocation:File → Save
-   Workbenches:All
-   Shortcut:**Ctrl**+**S**
-   SeeAlso:[Std SaveAs](Std_SaveAs.md), [Std SaveCopy](Std_SaveCopy.md), [Std SaveAll](Std_SaveAll.md)
+- GuiCommand   */pl
+   Name   *Std Save
+   Name/pl   *Std   * Zapisz
+   MenuLocation   *Plik → Zapisz
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl** + **S**
+   SeeAlso   *[Zapisz jako ...](Std_SaveAs/pl.md), [Zapisz jako kopię...](Std_SaveCopy/pl.md), [Zapisz wszystkie](Std_SaveAll/pl.md)
 ---
 
 # Std Save/pl
 
-## Description
+## Opis
 
-The **Std Save** command saves the active document.
+Polecenie **Zapisz** powoduje zapisanie aktywnego dokumentu.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Save.svg" width=16px> [Std Save](Std_Save.md)** button.
-    -   Select the **File → <img src="images/Std_Save.svg" width=16px> Save** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**S**.
-2.  For new documents: enter a filename in the dialog box and press the **Save** button.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_Save.svg" width=16px> [Zapisz](Std_Save.md)**.
+    -   Wybierz z menu opcję **Plik → <img src="images/Std_Save.svg" width=16px> Zapisz ...** opcję z menu.
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **S**.
+2.  W przypadku nowych dokumentów   * wprowadź nazwę pliku w oknie dialogowym i naciśnij przycisk **Zapisz**.
 
-## Options
+## Opcje
 
--   For new documents: press **Esc** or the **Cancel** button to abort the command.
+-   W przypadku zapisywania nowego dokumentu   * naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
-## Notes
+## Uwagi
 
--   This command can also be used to save dependency graphs. See [Std DependencyGraph](Std_DependencyGraph.md).
+-   Tego polecenia można również użyć do zapisania grafów zależności. Zobacz informacje na stronie [Graf zależności](Std_DependencyGraph/pl.md).
 
-## Preferences
+## Ustawienia
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To save a document use the `save` method of the document object. A new document must first be saved with the `saveAs` method of the document object. For a scripting example see [Std New](Std_New.md).
+Aby zapisać dokument, należy użyć metody `save` obiektu *document*. Nowy dokument musi być najpierw zapisany za pomocą metody `saveAs` obiektu *document*. Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/pl#Tworzenie_skrypt.C3.B3w.md).
 
 
 

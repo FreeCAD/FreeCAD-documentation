@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/cs
-   Name:Arch RemoveShape   Name/cs:Arch RemoveShape
-   Workbenches:[Arch](Arch_Workbench/cs.md)
-   MenuLocation:Arch → Utilities → Remove Shape
-   SeeAlso:[Arch MeshToShape](Arch_MeshToShape/cs.md)
+- GuiCommand   */cs
+   Name   *Arch RemoveShape   Name/cs   *Arch RemoveShape
+   Workbenches   *[Arch](Arch_Workbench/cs.md)
+   MenuLocation   *Arch → Utilities → Remove Shape
+   SeeAlso   *[Arch MeshToShape](Arch_MeshToShape/cs.md)
 ---
 
 # Arch RemoveShape/cs
@@ -45,7 +45,7 @@ Tento nástroj se pokouší odebrat trojrozměrný tvar ze [zdi](Arch_Wall.md) n
 
 <div class="mw-translate-fuzzy">
 
-Tento nástroj může být použit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
+Tento nástroj může být použit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -67,7 +67,7 @@ vezme stavební objekt (zeď nebo struktura) založený na trojrozměrném tvaru
 ```python
 import FreeCAD, Draft, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 1000
 Box.Width = 2000
 Box.Height = 1000
@@ -88,11 +88,6 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
-
-
-{{Arch_Tools_navi
-
-}}
 
 
 

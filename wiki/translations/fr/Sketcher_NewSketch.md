@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Sketcher NewSketch
-   Name/fr:Sketcher Créer une esquisse
-   MenuLocation:Esquisse → Créer une esquisse
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   SeeAlso:[PartDesign Esquisse](PartDesign_NewSketch/fr.md), [Sketcher Esquisse sur une face](Sketcher_MapSketch/fr.md), [Sketcher Réorienter l'esquisse](Sketcher_ReorientSketch/fr.md)
+- GuiCommand   */fr
+   Name   *Sketcher NewSketch
+   Name/fr   *Sketcher Créer une esquisse
+   MenuLocation   *Esquisse → Créer une esquisse
+   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
+   SeeAlso   *[PartDesign Esquisse](PartDesign_NewSketch/fr.md), [Sketcher Esquisse sur une face](Sketcher_MapSketch/fr.md), [Sketcher Réorienter l'esquisse](Sketcher_ReorientSketch/fr.md)
 ---
 
 # Sketcher NewSketch/fr
@@ -13,7 +13,7 @@
 
 Cela créera une nouvelle [esquisse](Sketcher_Workbench/fr.md).
 
-Notez que l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) a son propre outil [nouvelle esquisse](PartDesign_NewSketch/fr.md). Lorsque vous travaillez sur un [PartDesign Corps](PartDesign_Body/fr.md), il est préférable d\'utiliser cet outil.
+Notez que l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width   *24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) a son propre outil [nouvelle esquisse](PartDesign_NewSketch/fr.md). Lorsque vous travaillez sur un [PartDesign Corps](PartDesign_Body/fr.md), il est préférable d\'utiliser cet outil.
 
 ## Utilisation
 

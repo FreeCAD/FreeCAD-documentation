@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Arch_Rebar_Helical   Name/de:Arch Bewehrungsstab spiralförmig
-   MenuLocation:Arch → Rebar tools → Spiralförmige Bewehrung oder 3D/BIM → Verstärkung → Spiralförmige Bewehrung 
-   Workbenches:[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md),[Arch Stützenverstärkung](Arch_Rebar_ColumnReinforcement/de.md)
+- GuiCommand   */de
+   Name   *Arch_Rebar_Helical   Name/de   *Arch Bewehrungsstab spiralförmig
+   MenuLocation   *Arch → Rebar tools → Spiralförmige Bewehrung oder 3D/BIM → Verstärkung → Spiralförmige Bewehrung 
+   Workbenches   *[Arch](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/de.md), [Arch Bewehrung](Arch_Rebar/de.md), [bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md),[Arch Stützenverstärkung](Arch_Rebar_ColumnReinforcement/de.md)
 ---
 
 # Arch Rebar Helical/de
@@ -18,9 +18,9 @@ Das [spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)-Werkzeug erlaubt 
 
 Das [Arch Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
-Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
-:   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
+   *   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width   *80px;">
 
 
 
@@ -39,7 +39,7 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
 10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
 
-:   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
+   *   <img alt="" src=images/HelicalRebarDialog.png  style="width   *250px;">
 
 
 
@@ -47,24 +47,24 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 ## Eigenschaften
 
--    {{PropertyData/de|Side Cover}}: Der Abstand zwischen dem Bewehrungsstab und der gekrümmten Fläche.
+-    {{PropertyData/de|Side Cover}}   * Der Abstand zwischen dem Bewehrungsstab und der gekrümmten Fläche.
 
--    {{PropertyData/de|Top Cover}}: Der Abstand zwischen dem Bewehrungsstab und der oberen Fläche der Struktur.
+-    {{PropertyData/de|Top Cover}}   * Der Abstand zwischen dem Bewehrungsstab und der oberen Fläche der Struktur.
 
--    {{PropertyData/de|Bottom Cover}}: Der Abstand zwischen dem Bewehrungsstab und der unteren Fläche der Struktur.
+-    {{PropertyData/de|Bottom Cover}}   * Der Abstand zwischen dem Bewehrungsstab und der unteren Fläche der Struktur.
 
--    {{PropertyData/de|Pitch}}: Die Höhe einer vollständigen Helixumdrehung, gemessen parallel zu den Achsen der Helix.
+-    {{PropertyData/de|Pitch}}   * Die Höhe einer vollständigen Helixumdrehung, gemessen parallel zu den Achsen der Helix.
 
--    {{PropertyData/de|Diameter}}: Durchmesser des Bewehrungsstabs.
+-    {{PropertyData/de|Diameter}}   * Durchmesser des Bewehrungsstabs.
 
 ## Scripting
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
-Das Spiralförmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
+Das Spiralförmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden   *
 
 
 ```python
@@ -131,6 +131,11 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

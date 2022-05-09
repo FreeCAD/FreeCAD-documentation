@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name/ru:Вставить Вид сечения
-   Name:TechDraw_SectionView
-   MenuLocation:TechDraw → Вставить Вид сечения
-   Workbenches:[TechDraw](TechDraw_Workbench/ru.md)
-   SeeAlso:[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
+- GuiCommand   */ru
+   Name/ru   *Вставить Вид сечения
+   Name   *TechDraw_SectionView
+   MenuLocation   *TechDraw → Вставить Вид сечения
+   Workbenches   *[TechDraw](TechDraw_Workbench/ru.md)
+   SeeAlso   *[Вставить Вид](TechDraw_View/ru.md), [Вставить группу проекций](TechDraw_ProjectionGroup/ru.md)
 ---
 
 # TechDraw SectionView/ru
@@ -13,7 +13,7 @@
 
 The Section tool creates a cross section view based on an existing part view.
 
-<img alt="" src=images/TechDraw_Section_example.png  style="width:250px;"> 
+<img alt="" src=images/TechDraw_Section_example.png  style="width   *250px;"> 
 *Sectioning an already placed view, which shows the internal holes and a shaded cut surface*
 
 ## Применение
@@ -32,72 +32,72 @@ The Section tool creates a cross section view based on an existing part view.
 
 #### Section
 
--    **Base View**: The view on which this section is based.
+-    **Base View**   * The view on which this section is based.
 
--    **Section Normal**: A vector describing the direction normal to the cutting plane.
+-    **Section Normal**   * A vector describing the direction normal to the cutting plane.
 
--    **Section Origin**: A vector describing a point on the cutting plane. Typically the centroid of the original part.
+-    **Section Origin**   * A vector describing a point on the cutting plane. Typically the centroid of the original part.
 
--    **Fuse Before Cut**: Fuse the source shapes before performing the section cut.
+-    **Fuse Before Cut**   * Fuse the source shapes before performing the section cut.
 
 #### Cut Surface Format 
 
--    **Cut Surface Display**: Appearance of cut surface. Options:
+-    **Cut Surface Display**   * Appearance of cut surface. Options   *
 
     -   *Hide* Hides the cut surface, only the outline will be displayed.
-    -   *Color*: Colors the cut surface using the setting of **Cut Surface Color** in the [TechDraw preferences](TechDraw_Preferences.md).
-    -   *SvgHatch*: Hatches the section cut using a [hatch](TechDraw_Hatch.md)
-    -   *PatHatch*: Hatches the section cut using a [geometric hatch](TechDraw_GeometricHatch.md)
+    -   *Color*   * Colors the cut surface using the setting of **Cut Surface Color** in the [TechDraw preferences](TechDraw_Preferences.md).
+    -   *SvgHatch*   * Hatches the section cut using a [hatch](TechDraw_Hatch.md)
+    -   *PatHatch*   * Hatches the section cut using a [geometric hatch](TechDraw_GeometricHatch.md)
 
--    **File Hatch Pattern**: Full path to SVG hatch pattern file.
+-    **File Hatch Pattern**   * Full path to SVG hatch pattern file.
 
--    **File Geom Pattern**: Full path to PAT pattern file.
+-    **File Geom Pattern**   * Full path to PAT pattern file.
 
--    **Svg Included**: Full path to the included SVG hatch pattern file.
+-    **Svg Included**   * Full path to the included SVG hatch pattern file.
 
--    **Pat Included**: Full path to the included PAT pattern file.
+-    **Pat Included**   * Full path to the included PAT pattern file.
 
--    **Name Geom Pattern**: Name of PAT pattern to use (ignored for the *SvgHatch* setting of **Cut Surface Display**).
+-    **Name Geom Pattern**   * Name of PAT pattern to use (ignored for the *SvgHatch* setting of **Cut Surface Display**).
 
 ### Вид
 
 #### Cut Surface 
 
--    **Cut Surface Color**: Solid color for surface highlight. Used if **Cut Surface Display** is set to *Color*.
+-    **Cut Surface Color**   * Solid color for surface highlight. Used if **Cut Surface Display** is set to *Color*.
 
 #### Surface Hatch 
 
--    **Hatch Color**: Color for surface hatch lines.
+-    **Hatch Color**   * Color for surface hatch lines.
 
--    **Weight Pattern**: Line weight for surface hatch lines.
+-    **Weight Pattern**   * Line weight for surface hatch lines.
 
 ### Base View 
 
-A Section view inherits all applicable properties of the view specified as **BaseView**. In the properties of the view you can change the appearance of the section line:
+A Section view inherits all applicable properties of the view specified as **BaseView**. In the properties of the view you can change the appearance of the section line   *
 
--    **Section Line Color**: Color for the section line.
+-    **Section Line Color**   * Color for the section line.
 
--    **Section Line Style**: Style for the section line.
+-    **Section Line Style**   * Style for the section line.
 
 The default settings for these parameters are set via the settings **Section Line** and **Section Line Style** in the [TechDraw preferences](TechDraw_Preferences.md).
 
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The New Section tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The New Section tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions   *
 
 
 ```python
-view = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewPart','View')
+view = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewPart','View')
 rc = page.addView(view)
 view.Source = box
 view.Direction = (0.0,0.0,1.0)
 
-section = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewSection','Section')
+section = FreeCAD.ActiveDocument.addObject('TechDraw   *   *DrawViewSection','Section')
 rc = page.addView(section)
 section.Source = box
 section.BaseView = view
@@ -108,9 +108,9 @@ section.SectionOrigin = (5.0,5.0,5.0)
 
 ## Примечания
 
--   **Section Line Format**: both the traditional section line format (as depicted above), and the \"reference arrow method\" are supported. This option is controlled by the Preference setting \"Mod/TechDraw/Format/SectionFormat\" (see [Std\_DlgParameter](Std_DlgParameter.md)). 0 for traditional line, 1 for reference arrow method.
--   **CutSurfaceDisplay**: the cut surface can be hidden, painted in a solid color, hatched using an Svg pattern (default) or hatched using a PAT pattern. See [Hatching](TechDraw_Hatching.md).
--   **FuseBeforeCut**: the section operation sometimes fails to cut the source shapes. If FuseBeforeCut is true, the source shapes are merged into a single shape before the section operation is attempted. If you encounter problems with the section operation, try flipping this value.
+-   **Section Line Format**   * both the traditional section line format (as depicted above), and the \"reference arrow method\" are supported. This option is controlled by the Preference setting \"Mod/TechDraw/Format/SectionFormat\" (see [Std\_DlgParameter](Std_DlgParameter.md)). 0 for traditional line, 1 for reference arrow method.
+-   **CutSurfaceDisplay**   * the cut surface can be hidden, painted in a solid color, hatched using an Svg pattern (default) or hatched using a PAT pattern. See [Hatching](TechDraw_Hatching.md).
+-   **FuseBeforeCut**   * the section operation sometimes fails to cut the source shapes. If FuseBeforeCut is true, the source shapes are merged into a single shape before the section operation is attempted. If you encounter problems with the section operation, try flipping this value.
 
 
 

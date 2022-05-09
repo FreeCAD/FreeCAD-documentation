@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:Arch Panel Cut
-   Name/ru:Arch Panel Cut
-   MenuLocation:Arch → Panel Tools → Нарезка панелей
-   Workbenches:[Arch](Arch_Workbench/ru.md), [Path](Path_Workbench/ru.md)
-   Shortcut:**P** **C**
-   SeeAlso:[Arch Panel](Arch_Panel/ru.md), [Arch Panel Sheet](Arch_Panel_Sheet/ru.md), [Arch Nest](Arch_Nest/ru.md)
+- GuiCommand   */ru
+   Name   *Arch Panel Cut
+   Name/ru   *Arch Panel Cut
+   MenuLocation   *Arch → Panel Tools → Нарезка панелей
+   Workbenches   *[Arch](Arch_Workbench/ru.md), [Path](Path_Workbench/ru.md)
+   Shortcut   ***P** **C**
+   SeeAlso   *[Arch Panel](Arch_Panel/ru.md), [Arch Panel Sheet](Arch_Panel_Sheet/ru.md), [Arch Nest](Arch_Nest/ru.md)
 ---
 
 # Arch Panel Cut/ru
@@ -23,7 +23,7 @@
 
 </div>
 
-<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width   *1024px;">
 
 ## Использование
 
@@ -43,40 +43,40 @@
 
 ### Data
 
--    **Source**: The [Arch Panel](Arch_Panel.md) object shown by this Cut
+-    **Source**   * The [Arch Panel](Arch_Panel.md) object shown by this Cut
 
--    **Tag Text**: The text to display. Can be %tag%, %label% or %description% to display the panel tag or label
+-    **Tag Text**   * The text to display. Can be %tag%, %label% or %description% to display the panel tag or label
 
--    **Tag Size**: The size of the tag text
+-    **Tag Size**   * The size of the tag text
 
--    **Tag Position**: The position of the tag text. Keep (0,0,0) for automatic center position
+-    **Tag Position**   * The position of the tag text. Keep (0,0,0) for automatic center position
 
--    **Tag Rotation**: The rotation of the tag text
+-    **Tag Rotation**   * The rotation of the tag text
 
--    **Font File**: The font of the tag text
+-    **Font File**   * The font of the tag text
 
--    **Make Face**: If True, the panel is a Part Face, otherwise a Part Wire
+-    **Make Face**   * If True, the panel is a Part Face, otherwise a Part Wire
 
 ### View
 
--    **Margin**: A margin that can be displayed outside the panel cut shape
+-    **Margin**   * A margin that can be displayed outside the panel cut shape
 
--    **Show Margin**: Turns the display of the margin on/off
+-    **Show Margin**   * Turns the display of the margin on/off
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Panel Cut tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The Panel Cut tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 View = makePanelCut(panel, name="PanelView")```
 
 -   Creates a `View` object (2D projection) from the existing `panel`.
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft, Arch
 

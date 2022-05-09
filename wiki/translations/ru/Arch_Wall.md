@@ -1,19 +1,19 @@
 # Arch Wall/ru
 ---
-- GuiCommand:/ru
-   Name:Arch_Wall
-   Name/ru:Стена
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   MenuLocation:Архитектура → Стена
-   Shortcut:**W** **A**
-   SeeAlso:[Структура](Arch_Structure/ru.md)---
+- GuiCommand   */ru
+   Name   *Arch_Wall
+   Name/ru   *Стена
+   Workbenches   *[Arch](Arch_Workbench/ru.md)
+   MenuLocation   *Архитектура → Стена
+   Shortcut   ***W** **A**
+   SeeAlso   *[Структура](Arch_Structure/ru.md)---
 
 ## Описание
 
 
 <div class="mw-translate-fuzzy">
 
-Этот инструмент создает объект Wall с нуля или поверх любого другого объекта [ shape](Part_Workbench.md) или [ mesh](Mesh_Workbench.md). Стена может быть построена без какого-либо базового объекта, и в этом случае она ведет себя как кубический том, используя свойства длины, ширины и высоты. При построении поверх существующей формы стена может основываться на:
+Этот инструмент создает объект Wall с нуля или поверх любого другого объекта [ shape](Part_Workbench.md) или [ mesh](Mesh_Workbench.md). Стена может быть построена без какого-либо базового объекта, и в этом случае она ведет себя как кубический том, используя свойства длины, ширины и высоты. При построении поверх существующей формы стена может основываться на   *
 
 
 </div>
@@ -23,7 +23,7 @@
 -   A **solid**, in which case length, width and height properties have no effect. The wall simply uses the underlying solid as its shape.
 -   A **mesh**, in which case the underlying mesh must be a closed, manifold solid.
 
-<img alt="" src=images/Arch_Wall_example.jpg  style="width:780px;"> 
+<img alt="" src=images/Arch_Wall_example.jpg  style="width   *780px;"> 
 *Walls built from a line, a wire, a face, a solid, and a sketch*
 
 Walls can also have additions or subtractions. Additions are other objects whose shapes are joined in this Wall\'s shape, while subtractions are subtracted. Additions and subtractions can be added with the [Arch Add](Arch_Add.md) and [Arch Remove](Arch_Remove.md) tools. Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor.md). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
@@ -48,7 +48,7 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 -   Walls share the common properties and behaviours of all [Arch Components](Arch_Component.md)
 -   The height, width and alignment of a wall can be set during drawing, via the task panel
--   When snapping a wall to an existing wall, both walls will be joined into one. The way the two walls are joined depends on their properties: If they have the same width, height and alignment, and if the option \"join base sketches\" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
+-   When snapping a wall to an existing wall, both walls will be joined into one. The way the two walls are joined depends on their properties   * If they have the same width, height and alignment, and if the option \"join base sketches\" is enabled in the Arch preferences, the resulting wall will be one object based on a sketch made of several segments. Otherwise, the latter wall will be added to the first one as addition.
 -   Press **X**, **Y** or **Z** after the first point to constrain the second point on the given axis.
 -   To enter coordinates manually, simply enter the numbers, then press **Enter** between each X, Y and Z component.
 -   Press **R** or click the checkbox to check/uncheck the **Relative** button. If relative mode is on, the coordinates of the second point are relative to the first one. If not, they are absolute, taken from the (0,0,0) origin point.
@@ -63,49 +63,49 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 
 Привязка к стенам Arch работает немного иначе, чем с другими объектами Arch и Draft. Если стена имеет базовый объект, привязка будет привязана к базовому объекту, а не к геометрии стены, что позволит легко выровнять стены по их базовой линии. Однако, если вы специально хотите привязаться к геометрии стены, нажатие **Ctrl** переключит привязку на объект стены.
 
-<img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;"> 
+<img alt="" src=images/Arch_wall_snap.jpg  style="width   *780px;"> 
 *Second wall snapping perpendicularly to the first one*
 
 ## Свойства
 
-Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and also have the following extra properties:
+Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and also have the following extra properties   *
 
--    **Align**: The alignment of the wall on its baseline: Left, Right or Center
+-    **Align**   * The alignment of the wall on its baseline   * Left, Right or Center
 
--    **Base**: The base object this wall is built on
+-    **Base**   * The base object this wall is built on
 
--    **Face**: The index of the face from the base object to use. If the value is not set or 0, the whole object is used
+-    **Face**   * The index of the face from the base object to use. If the value is not set or 0, the whole object is used
 
--    **Force Wire**: If True, and the wall is based on a face, only the border wire of the face is used, resulting in a wall bordering the face
+-    **Force Wire**   * If True, and the wall is based on a face, only the border wire of the face is used, resulting in a wall bordering the face
 
--    **Length**: The length of the wall (not used when the wall is based on an object)
+-    **Length**   * The length of the wall (not used when the wall is based on an object)
 
--    **Width**: The width of the wall (not used when the wall is based on a face)
+-    **Width**   * The width of the wall (not used when the wall is based on a face)
 
--    **Height**: The height of the wall (not used when the wall is based on a solid). If no height is given, and the wall is inside a [floor](Arch_Floor.md) object with its height defined, the wall will automatically take the value of the floor height.
+-    **Height**   * The height of the wall (not used when the wall is based on a solid). If no height is given, and the wall is inside a [floor](Arch_Floor.md) object with its height defined, the wall will automatically take the value of the floor height.
 
--    **Normal**: An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
+-    **Normal**   * An extrusion direction for the wall. If set to (0,0,0), the extrusion direction is automatic.
 
--    **Offset**: This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
+-    **Offset**   * This specifies the distance between the wall and its baseline. Works only if the Align property is set to Right or Left.
 
 
 {{Version/ru|0.18}}
 
--    **Make Blocks**: Enable this to make the wall generate blocks
+-    **Make Blocks**   * Enable this to make the wall generate blocks
 
--    **Block Length**: The length of each block
+-    **Block Length**   * The length of each block
 
--    **Block Height**: The height of each block
+-    **Block Height**   * The height of each block
 
--    **Offset First**: The horizontal offset of the first line of blocks
+-    **Offset First**   * The horizontal offset of the first line of blocks
 
--    **Offset Second**: The horizontal offset of the second line of blocks
+-    **Offset Second**   * The horizontal offset of the second line of blocks
 
--    **Joint**: The size of the joints between each block
+-    **Joint**   * The size of the joints between each block
 
--    **Count Entire**: The number of entire blocks (read-only)
+-    **Count Entire**   * The number of entire blocks (read-only)
 
--    **Count Broken**: The number of broken blocks (read-only)
+-    **Count Broken**   * The number of broken blocks (read-only)
 
 ## Scripting
 
@@ -115,7 +115,7 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 ## Программирование
 
 
-**См. так же:**
+**См. так же   ***
 
 [Arch API](Arch_API/ru.md) и [Основы написания скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
@@ -125,7 +125,7 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 
 <div class="mw-translate-fuzzy">
 
-Инструмент «Стена» может использоваться в [макросах](Macros/ru.md) и на консоли [Python](Python.md) с помощью следующей функции:
+Инструмент «Стена» может использоваться в [макросах](Macros/ru.md) и на консоли [Python](Python.md) с помощью следующей функции   *
 
 
 </div>
@@ -143,7 +143,7 @@ Wall = makeWall(baseobj=None, length=None, width=None, height=None, align="Cente
 
 -   It returns `None` if the operation fails.
 
-Пример:
+Пример   *
 
 
 ```python

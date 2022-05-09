@@ -1,6 +1,6 @@
 # FEM ConstraintForce/ru
 ---
-- GuiCommand:/ru   Name:FEM ConstraintForce   Name/ru:FEM ConstraintForce   MenuLocation:FEM → Constraint force   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/ru|FEM tutorial](FEM_Workbench/ru___FEM]].md)---
+- GuiCommand   */ru   Name   *FEM ConstraintForce   Name/ru   *FEM ConstraintForce   MenuLocation   *FEM → Constraint force   |Workbenches   *[Shortcut   *   SeeAlso   *[[FEM_tutorial/ru|FEM tutorial](FEM_Workbench/ru___FEM]].md)---
 
 
 </div>
@@ -11,9 +11,9 @@ This command applies a force of given value \[N\] to selected target geometry.
 
 ## Usage
 
-Applying a force to a face, line or point:
+Applying a force to a face, line or point   *
 
--   In FEM workbench, click on <img alt="Constraint Force" src=images/FEM_ConstraintForce.svg  style="width:24px;"> or select **Model** → **Mechanical Constraints** → **Constraint force** to open Force Constraint properties dialog.
+-   In FEM workbench, click on <img alt="Constraint Force" src=images/FEM_ConstraintForce.svg  style="width   *24px;"> or select **Model** → **Mechanical Constraints** → **Constraint force** to open Force Constraint properties dialog.
 
 -   If you have Mesh displayed, you need to hide it (select the mesh object and press **spacebar** or right-click and select **Hide item**) and show the original model.
 
@@ -21,11 +21,11 @@ Applying a force to a face, line or point:
 
 -   Fill in **Load [N]** with a force value in \[N\].
 
--    **Direction**: In a typical case, you\'ll leave this field empty to apply a force in the normal direction. You can revert the direction of the force by clicking **Reverse direction**. In other cases, you need to pick a face/plane or edge, which serves as reference for force direction.
+-    **Direction**   * In a typical case, you\'ll leave this field empty to apply a force in the normal direction. You can revert the direction of the force by clicking **Reverse direction**. In other cases, you need to pick a face/plane or edge, which serves as reference for force direction.
 
 ![](images/FEM_ConstraintForce_example.JPG )
 
--   Click **OK** to finish the dialog and create **[<img src=images/FEM_ConstraintForce.svg style="width:24px"> ConstraintForce** object.
+-   Click **OK** to finish the dialog and create **[<img src=images/FEM_ConstraintForce.svg style="width   *24px"> ConstraintForce** object.
 
 ## Notes
 

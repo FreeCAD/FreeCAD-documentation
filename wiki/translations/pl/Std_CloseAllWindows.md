@@ -1,45 +1,46 @@
 ---
-- GuiCommand:
-   Name:Std CloseAllWindows
-   MenuLocation:File → Close All
-   Workbenches:All
-   SeeAlso:[Std Close](Std_CloseActiveWindow.md)
+- GuiCommand   */pl
+   Name   *Std CloseAllWindows
+   Name/pl   *Std   * Zamknij wszystkie okna
+   MenuLocation   *Plik → Zamknij wszystkie
+   Workbenches   *wszystkie
+   SeeAlso   *[Zamknij](Std_CloseActiveWindow/pl.md)
 ---
 
 # Std CloseAllWindows/pl
 
-## Description
+## Opis
 
-The **Std CloseAllWindows** command closes all windows, thereby closing all documents.
+Polecenie **Zamknij wszystkie okna** powoduje zamknięcie wszystkich okien, a tym samym zamknięcie całego dokumentu.
 
-## Usage
+## Użycie
 
-1.  Select the **File → <img src="images/Std_CloseAllWindows.svg" width=16px> Close All** option from the menu.
-2.  If there are unsaved documents a dialog box will prompt you to save them:
-    -   Press the **Save** button to save the active document. If required enter a filename first.
-    -   Press the **Discard** button to discard the active document and lose all changes.
+1.  Wybierz z menu opcję **Plik → <img src="images/Std_CloseAllWindows.svg" width=16px> Zamknij wszystkie**.
+2.  Jeśli istnieją niezapisane dokumenty, pojawi się okno dialogowe z prośbą o ich zapisanie   *
+    -   Naciśnij przycisk **Zapisz**, aby zapisać aktywny dokument. W razie potrzeby wprowadź najpierw nazwę pliku.
+    -   Naciśnij przycisk **Porzuć zmiany**, aby odrzucić aktywny dokument i utracić wszystkie zmiany.
 
-## Options
+## Opcje
 
--   When the dialog box is displayed: press **Esc** or the **Cancel** button to abort the command.
--   If there are multiple unsaved documents: check the {{CheckBox|TRUE|Apply answer to all}} checkbox to avoid being prompted for each unsaved document separately.
+-   Po wyświetleniu okna dialogowego   * naciśnij przycisk **Esc** lub **Anuluj**, aby przerwać wykonywanie polecenia.
+-   Jeśli istnieje wiele niezapisanych dokumentów   * zaznacz pole wyboru {{CheckBox|TRUE|Zastosuj odpowiedź do wszystkich}}, aby uniknąć wyświetlania monitów dla każdego niezapisanego dokumentu osobno.
 
-## Notes
+## Uwagi
 
--   A document can also be closed by right-clicking it in the [Tree view](Tree_view.md) and selecting **Close document** from the context menu.
+-   Dokument można również zamknąć, klikając go prawym przyciskiem myszy w oknie [Widoku drzewa](Tree_view.md) i wybierając z menu kontekstowego polecenie **Zamknij dokument**.
 
-## Preferences
+## Ustawienia
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To close a document use the `closeDocument` method of the FreeCAD application. For a scripting example see [Std New](Std_New.md).
+Aby zamknąć dokument, należy użyć metody `closeDocument` aplikacji FreeCAD. Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/pl#Tworzenie_skrypt.C3.B3w.md).
 
 
 

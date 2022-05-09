@@ -1,6 +1,6 @@
 # Arch Building/ro
 ---
-- GuiCommand:/ro   Name:Arch Building   Name/ro:Arch Building   Workbenches:[MenuLocation:Arch → Building   Shortcut:B U   SeeAlso:[[Arch Floor](Arch_Workbench/ro___Arch]].md), [[Arch Site]]---
+- GuiCommand   */ro   Name   *Arch Building   Name/ro   *Arch Building   Workbenches   *[MenuLocation   *Arch → Building   Shortcut   *B U   SeeAlso   *[[Arch Floor](Arch_Workbench/ro___Arch]].md), [[Arch Site]]---
 
 
 </div>
@@ -32,15 +32,15 @@ Clădirea Arch este un tip special de obiect al grupului FreeCAD, care este spec
 
 <div class="mw-translate-fuzzy">
 
--   După crearea unei clădiri, puteți să adăugați mai multe obiecte prin glisarea și plasarea acestora în Vizualizarea Arborescentă sau utilizând instrumentul <img alt="" src=images/Arch_Add.png  style="width:16px;"> [Arch Add](Arch_Add.md)
--   Puteți să eliminați obiecte dintr-o clădire prin tragerea/glisarea și scoaterea lor din Vizualizarea arborescentă sau folosind instrumentul <img alt="" src=images/Arch_Remove.png  style="width:16px;"> [Arch Remove](Arch_Remove.md)
+-   După crearea unei clădiri, puteți să adăugați mai multe obiecte prin glisarea și plasarea acestora în Vizualizarea Arborescentă sau utilizând instrumentul <img alt="" src=images/Arch_Add.png  style="width   *16px;"> [Arch Add](Arch_Add.md)
+-   Puteți să eliminați obiecte dintr-o clădire prin tragerea/glisarea și scoaterea lor din Vizualizarea arborescentă sau folosind instrumentul <img alt="" src=images/Arch_Remove.png  style="width   *16px;"> [Arch Remove](Arch_Remove.md)
 
 
 </div>
 
 ## Properties
 
--    **Building Type**: The type of this building, to choose from a list
+-    **Building Type**   * The type of this building, to choose from a list
 
 
 <div class="mw-translate-fuzzy">
@@ -53,7 +53,7 @@ Clădirea Arch este un tip special de obiect al grupului FreeCAD, care este spec
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul pentru Construcție poate fi utilizat în [macro-uri](Macros/ro.md) și din consola Python utilizând următoarea funcție:
+Instrumentul pentru Construcție poate fi utilizat în [macro-uri](Macros/ro.md) și din consola Python utilizând următoarea funcție   *
 
 
 </div>

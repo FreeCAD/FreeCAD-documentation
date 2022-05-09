@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch CompPipe
-   Name/it:Tubazioni
-   MenuLocation:Arch → Tubazioni
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:
-   Version:0.17
+- GuiCommand   */it
+   Name   *Arch CompPipe
+   Name/it   *Tubazioni
+   MenuLocation   *Arch → Tubazioni
+   Workbenches   *[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso   *
+   Version   *0.17
 ---
 
 # Arch CompPipe/it
@@ -19,9 +19,9 @@ Grouping of several pipe related tools.
 
 ## Tipi di oggetti per tubazioni 
 
--   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Pipe](Arch_Pipe.md): Creates a pipe.
+-   <img alt="" src=images/Arch_Pipe.svg  style="width   *32px;"> [Pipe](Arch_Pipe.md)   * Creates a pipe.
 
--   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connector](Arch_PipeConnector.md): Creates a corner or T-connection between 2 or 3 selected pipes.
+-   <img alt="" src=images/Arch_PipeConnector.svg  style="width   *32px;"> [Connector](Arch_PipeConnector.md)   * Creates a corner or T-connection between 2 or 3 selected pipes.
 
 
 <div class="mw-translate-fuzzy">

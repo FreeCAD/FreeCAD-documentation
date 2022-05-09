@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Arch 3Views
-   Name/de:Arch 3Ansichten
-   MenuLocation:Arch → Dienstprogramme → 3 Ansichten aus Netz
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
+- GuiCommand   */de
+   Name   *Arch 3Views
+   Name/de   *Arch 3Ansichten
+   MenuLocation   *Arch → Dienstprogramme → 3 Ansichten aus Netz
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   SeeAlso   *[Arch NetzAufteilen](Arch_SplitMesh/de.md), [Arch NetzZuForm](Arch_MeshToShape/de.md)
 ---
 
 # Arch 3Views/de
@@ -24,11 +24,11 @@ Er dient dazu, flache, formbasierte Ansichten aus einem [Mesh](Mesh_Workbench/de
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden: 
+Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden   * 
 ```python
 shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False, largestonly=False)
 ```
@@ -39,7 +39,7 @@ shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False,
 
 Verwende `Part.show()`, um die resultierende flache Form anzuzeigen.
 
-Beispiel: 
+Beispiel   * 
 ```python
 import FreeCAD, Draft, Arch, Mesh, MeshPart
 
@@ -50,7 +50,7 @@ FreeCAD.ActiveDocument.recompute()
 Shape = Wall.Shape.copy(False)
 Shape.Placement = Wall.getGlobalPlacement()
 
-mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh::Feature", "Mesh")
+mesh_obj = FreeCAD.ActiveDocument.addObject("Mesh   *   *Feature", "Mesh")
 mesh_obj.Mesh = MeshPart.meshFromShape(Shape=Shape, MaxLength=520)
 mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 FreeCAD.ActiveDocument.recompute()

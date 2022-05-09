@@ -1,14 +1,14 @@
-# Part XOR/de
 ---
-- GuiCommand:/de
-   Name:Part_XOR
-   Name/de:Part_XOR
-   MenuLocation:Part → Split → Boolean Xor
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Boolean Fragments](Part_BooleanFragments.md), [Part Slice](Part_Slice.md), [Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)---
+- GuiCommand   */de
+   Name   *Part XOR
+   Name/de   *Part XOdeR
+   MenuLocation   *Formteil → Teilen → Boolesches exklusives Oder (XOR)
+   Workbenches   *[Part](Part_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[Part BoolescheFragmente](Part_BooleanFragments/de.md), [Part Zerschneiden](Part_Slice/de.md), [Part AuswahlVerbindungsmethoden](Part_CompJoinFeatures/de.md), [Part Boolesche Operationen](Part_Boolean/de.md)
+---
 
-
-</div>
+# Part XOR/de
 
 ## Beschreibung
 
@@ -16,18 +16,9 @@
 
 ## Eigenschaften
 
-## Beispiel:
+## Beispiel   *
 
 ## Skripten
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

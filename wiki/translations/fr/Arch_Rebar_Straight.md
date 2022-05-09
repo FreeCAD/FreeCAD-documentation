@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Rebar Straight
-   Name/fr:Arch Rebar Armature droite
-   MenuLocation:Arch → Rebar tools → Straight Rebar<br>3D/BIM → Reinforcement tools → Straight Rebar
-   Workbenches:[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
-   Version:0.17
-   SeeAlso:[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Rebar Straight
+   Name/fr   *Arch Rebar Armature droite
+   MenuLocation   *Arch → Rebar tools → Straight Rebar<br>3D/BIM → Reinforcement tools → Straight Rebar
+   Workbenches   *[Arch](Arch_Workbench/fr.md), [BIM](BIM_Workbench/fr.md)
+   Version   *0.17
+   SeeAlso   *[Reinforcement](Reinforcement_Workbench/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md), [Arch Rebar Nomenclature](Arch_Rebar_BOM/fr.md)
 ---
 
 # Arch Rebar Straight/fr
@@ -16,9 +16,9 @@ L\'outil [Armature droite](Arch_Rebar_Straight/fr.md) permet à l\'utilisateur d
 
 L\'outil [Straight Rebar](Arch_Rebar_Straight/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width   *400px;"> 
 *Deux jeux d'armatures droites à l'intérieur d'une [Structure](Arch_Structure/fr.md)*
 
 ## Comment faire 
@@ -34,37 +34,37 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 9.  Cliquez sur **OK** ou **Appliquer** pour générer les barres d'arceau.
 10. Cliquez sur **Annuler** pour quitter le panneau de tâches.
 
-<img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
+<img alt="" src=images/StraightRebarDialog.png  style="width   *250px;"> 
 *Panneau de tâches pour l'outil Armature droite*
 
 ## Propriétés
 
--    {{PropertyData/fr|Orientation}}: Il définit l\'orientation de la barre d\'armature (comme fond, haut, droite et gauche).
+-    {{PropertyData/fr|Orientation}}   * Il définit l\'orientation de la barre d\'armature (comme fond, haut, droite et gauche).
 
--    {{PropertyData/fr|Front Cover}}: La distance entre l\'armature et la face sélectionnée.
+-    {{PropertyData/fr|Front Cover}}   * La distance entre l\'armature et la face sélectionnée.
 
--    {{PropertyData/fr|Right Cover}}: La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
+-    {{PropertyData/fr|Right Cover}}   * La distance entre l\'extrémité droite de l\'armature et la face droite de la structure.
 
--    {{PropertyData/fr|Left Cover}}: La distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
+-    {{PropertyData/fr|Left Cover}}   * La distance entre l\'extrémité gauche de l\'armature et la face gauche de la structure.
 
--    {{PropertyData/fr|Cover along}}: Ces propriétés permettent à l\'utilisateur de spécifier la couverture supérieure ou inférieure.
+-    {{PropertyData/fr|Cover along}}   * Ces propriétés permettent à l\'utilisateur de spécifier la couverture supérieure ou inférieure.
 
--    {{PropertyData/fr|Bottom Cover}}: La distance entre l\'armature et la face inférieure de la structure.
+-    {{PropertyData/fr|Bottom Cover}}   * La distance entre l\'armature et la face inférieure de la structure.
 
--    {{PropertyData/fr|Top Cover}}: La distance entre l\'armature et la face supérieure de la structure.
+-    {{PropertyData/fr|Top Cover}}   * La distance entre l\'armature et la face supérieure de la structure.
 
--    {{PropertyData/fr|Amount}}: La quantité de barres d\'armature.
+-    {{PropertyData/fr|Amount}}   * La quantité de barres d\'armature.
 
--    {{PropertyData/fr|Spacing}}: La distance entre les axes de chaque barre.
+-    {{PropertyData/fr|Spacing}}   * La distance entre les axes de chaque barre.
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Arch API](Arch_API/fr.md), [Reinforcement API](Reinforcement_API/fr.md) et [FreeCAD Scripts de bases](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Armature droite peut être utilisé dans une [macro](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante :
+L\'outil Armature droite peut être utilisé dans une [macro](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante    *
 
 
 ```python
@@ -186,7 +186,7 @@ editStraightRebar(Rebar, f_cover, coverAlong, rt_cover, lb_cover,
 
 -    `structure`et `facename` peuvent être omis afin que l\'armature reste dans la structure d\'origine.
 
-Exemple : 
+Exemple    * 
 ```python
 import StraightRebar
 
@@ -202,6 +202,14 @@ StraightRebar.editStraightRebar(Rebar3, 50, ("Right Side", 20), 100, 100,
 StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
                                 24, True, 7, "Vertical")
 ```
+
+
+
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

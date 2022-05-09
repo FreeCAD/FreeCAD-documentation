@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Floor
-   Name/fr:Arch Niveau
-   MenuLocation:Arch → Niveau
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**L** **V**
-   SeeAlso:[Arch Bâtiment](Arch_Building/fr.md), [Arch Partie de bâtiment](Arch_BuildingPart/fr.md), [Arch Site](Arch_Site/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Floor
+   Name/fr   *Arch Niveau
+   MenuLocation   *Arch → Niveau
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   Shortcut   ***L** **V**
+   SeeAlso   *[Arch Bâtiment](Arch_Building/fr.md), [Arch Partie de bâtiment](Arch_BuildingPart/fr.md), [Arch Site](Arch_Site/fr.md)
 ---
 
 # Arch Floor/fr
@@ -19,7 +19,7 @@
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets que vous voulez inclure dans votre nouveau niveau.
-2.  Appelez la commande Arch Niveau de plusieurs manières:
+2.  Appelez la commande Arch Niveau de plusieurs manières   *
     -   En appuyant sur le bouton **<img src="images/Arch_Floor.svg" width=16px> [Niveau](Arch_Floor/fr.md)** dans la barre d\'outils.
     -   Utilisation des touches **L** puis **V**.
     -   Utilisation de l\'entrée **Arch → Niveau** dans le menu supérieur.
@@ -36,18 +36,18 @@ Un objet Niveau partage toutes les propriétés d\'un objet [Arch Partie de bât
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Niveau peut être utilisé dans une [macro](macros/fr.md) ainsi que dans la console [Python](Python/fr.md) en utilisant la commande : 
+L\'outil Niveau peut être utilisé dans une [macro](macros/fr.md) ainsi que dans la console [Python](Python/fr.md) en utilisant la commande    * 
 ```python
 Floor = makeFloor(objectslist=None, baseobj=None, name="Floor")
 ```
 
 -   Crée un objet `Floor` à partir de `objectlist` qui est une liste d\'objets.
 
-Exemple :
+Exemple    *
 
 
 ```python

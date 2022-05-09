@@ -1,6 +1,6 @@
 # Arch Floor/pt
 ---
-- GuiCommand:/pt   Name:Arch Floor   Name/pt:Arch Floor   Workbenches:[MenuLocation:Arch → Floor   Shortcut:F L   SeeAlso:[[Arch Building/pt|Arch Building](Arch_Workbench/pt___Arch]].md), [Arch Site](Arch_Site/pt.md)---
+- GuiCommand   */pt   Name   *Arch Floor   Name/pt   *Arch Floor   Workbenches   *[MenuLocation   *Arch → Floor   Shortcut   *F L   SeeAlso   *[[Arch Building/pt|Arch Building](Arch_Workbench/pt___Arch]].md), [Arch Site](Arch_Site/pt.md)---
 
 
 </div>
@@ -41,18 +41,18 @@ An Arch Floor object shares all properties from an [Arch BuildingPart](Arch_Buil
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Floor tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Floor tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 Floor = makeFloor(objectslist=None, baseobj=None, name="Floor")
 ```
 
 -   Creates a `Floor` object from `objectslist`, which is a list of objects.
 
-Example:
+Example   *
 
 
 ```python

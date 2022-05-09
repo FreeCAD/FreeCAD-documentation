@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Std DependencyGraph
-   MenuLocation:[Tools](Std_Tools_Menu.md) → Dependency graph...
-   Workbenches:All
+- GuiCommand   *
+   Name   *Std DependencyGraph
+   MenuLocation   *[Tools](Std_Tools_Menu.md) → Dependency graph...
+   Workbenches   *All
 ---
 
 # Std DependencyGraph/ro
@@ -30,13 +30,13 @@ Poate fi util în analizarea unui document FreeCAD și în localizarea ramurilor
 
 Graficul de dependență este pur și simplu un instrument de vizualizare, prin urmare nu poate fi editat; se actualizează automat dacă se fac modificări ale modelului.
 
-<img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;"> ![](images/DependencyGraph1.png ) 
+<img alt="" src=images/Std_DependencyGraph_example.svg  style="width   *400px;"> ![](images/DependencyGraph1.png ) 
 
 ## Installation
 
 ## Instalarea
 
-Pentru a se utiliza Dependency graph, un software terț numit [Graphviz](http://graphviz.org/) trebuie să fie instalat prima dată. Dacă nu-l aveți preinstalat sau este instalat într-o locație neconvențională, FreeCAD va afișa următorul dialog: ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
+Pentru a se utiliza Dependency graph, un software terț numit [Graphviz](http   *//graphviz.org/) trebuie să fie instalat prima dată. Dacă nu-l aveți preinstalat sau este instalat într-o locație neconvențională, FreeCAD va afișa următorul dialog   * ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
 ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
@@ -47,7 +47,7 @@ Pentru a se utiliza Dependency graph, un software terț numit [Graphviz](http://
 
 ### Windows 
 
-Descărcați programul **graphviz-2.xx.msi** de instalare de la [Graphviz Download page](https://graphviz.gitlab.io/_pages/Download/Download_windows.html) și lansați-l pentru a instala
+Descărcați programul **graphviz-2.xx.msi** de instalare de la [Graphviz Download page](https   *//graphviz.gitlab.io/_pages/Download/Download_windows.html) și lansați-l pentru a instala
 
 
 </div>
@@ -59,7 +59,7 @@ Descărcați programul **graphviz-2.xx.msi** de instalare de la [Graphviz Downlo
 
 ### Mac/OSX 
 
-Puteți instala graphviz folosind [Homebrew](https://brew.sh/):
+Puteți instala graphviz folosind [Homebrew](https   *//brew.sh/)   *
 
 
 </div>
@@ -91,7 +91,7 @@ or
 
 și confirmați câmpul de introducere și dialogul de selectare a fișierelor.
 
-În cazul în care fișierele binare Graphviz sunt instalate într-o locație nestandard, încercați să găsiți programul împreună cu comanda:
+În cazul în care fișierele binare Graphviz sunt instalate într-o locație nestandard, încercați să găsiți programul împreună cu comanda   *
 
 
 {{Code|lang=text|code=
@@ -111,7 +111,7 @@ dot is /usr/local/bin/dot
 
 ### Linux 
 
-Sub cele mai multe distribuții Linux (Debian / Ubuntu, Fedora, OpenSUSE), trebuie doar să instalați pachetul grafic din colecțiile de depozitare. Cu toate acestea, în mod similar cu MacOSX, în cazurile în care binarele Graphviz sunt instalate într-o locație nestandardă, încercați să găsiți programul cu comanda:
+Sub cele mai multe distribuții Linux (Debian / Ubuntu, Fedora, OpenSUSE), trebuie doar să instalați pachetul grafic din colecțiile de depozitare. Cu toate acestea, în mod similar cu MacOSX, în cazurile în care binarele Graphviz sunt instalate într-o locație nestandardă, încercați să găsiți programul cu comanda   *
 
 
 {{Code|lang=text|code=
@@ -149,7 +149,7 @@ se deschide în zona principală a ferestrei FreeCAD.
 
 ## Save/Export
 
-Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În timp ce tab-ul Dependency graph este în prim plan:
+Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În timp ce tab-ul Dependency graph este în prim plan   *
 
 -   Just choose **File** → [Save As](Std_SaveAs.md) to save the graph as a picture (PNG/BMP/GIF/JPG), a vector graphic (SVG) or as a PDF document.
 -   **File** → [Export](Std_Export.md) or **Tools** → [Save picture](Std_ViewScreenShot.md) will **NOT** work.
@@ -187,7 +187,9 @@ Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În
 
 {{Std Base navi
 
-}}
+}} 
+
+[Category   *3rd Party](Category_3rd_Party.md)
 
 
 

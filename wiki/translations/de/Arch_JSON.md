@@ -7,20 +7,20 @@
 
 </div>
 
-Der Hauptzweck dieses Exportformat ist es, FreeCAD-Modelldaten mit anderen Programmiersprachen zu verarbeiten. Das [JSON](http://json.org/)-Format ist wie folgt:
+Der Hauptzweck dieses Exportformat ist es, FreeCAD-Modelldaten mit anderen Programmiersprachen zu verarbeiten. Das [JSON](http   *//json.org/)-Format ist wie folgt   *
 
       {
-        "version": "0.0.1",
-        "description": "Mesh data exported from FreeCAD",
-        "objects": [
+        "version"   * "0.0.1",
+        "description"   * "Mesh data exported from FreeCAD",
+        "objects"   * [
           {
-            "name": "<object name>",
-            "description": "<object description>",
-            "color": "<object color>",
-            "wires": [[[<float>, <float>, <float>], . . .], . . .],
-            "vertices": [[<float>, <float>, <float>], . . .],
-            "normals": [[<float>, <float>, <float>], . . .],
-            "facets": [[<int>, <int>, <int>], . . .]
+            "name"   * "<object name>",
+            "description"   * "<object description>",
+            "color"   * "<object color>",
+            "wires"   * [[[<float>, <float>, <float>], . . .], . . .],
+            "vertices"   * [[<float>, <float>, <float>], . . .],
+            "normals"   * [[<float>, <float>, <float>], . . .],
+            "facets"   * [[<int>, <int>, <int>], . . .]
           }, . . .
         ]
       }
@@ -35,6 +35,11 @@ Beachte, dass Facetten Dreiecke bilden und ihre Integer-Werte sich auf Punkte im
 
 
 </div>
+
+
+ 
+
+[Category   *File Formats](Category_File_Formats.md)
 
 
 

@@ -1,6 +1,6 @@
 # Arch SectionPlane/cs
 ---
-- GuiCommand:/cs   Name:Arch SectionPlane   Name/cs:Arch SectionPlane   Workbenches:[[Arch_Workbench/cs   Arch]]|MenuLocation:Arch → Section Plane   Shortcut:S P---
+- GuiCommand   */cs   Name   *Arch SectionPlane   Name/cs   *Arch SectionPlane   Workbenches   *[[Arch_Workbench/cs   Arch]]|MenuLocation   *Arch → Section Plane   Shortcut   *S P---
 
 
 </div>
@@ -23,7 +23,7 @@ Po vytvoření objekt Rovina řezu také vkládá [pohled](Drawing_View.md) sama
 
 </div>
 
-<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -57,7 +57,7 @@ Po vytvoření objekt Rovina řezu také vkládá [pohled](Drawing_View.md) sama
 
 </div>
 
-<img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Section_example2.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -67,23 +67,23 @@ Po vytvoření objekt Rovina řezu také vkládá [pohled](Drawing_View.md) sama
 
 </div>
 
-<img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Section_example3.jpg  style="width   *600px;">
 
 -   The Section Plane can also be used to show the entire 3D view cut by an infinite plane. This is only visual, and won\'t affect the geometry of the objects being cut.
 
-<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width   *600px;">
 
 ## Vlastnosti
 
 
 <div class="mw-translate-fuzzy">
 
--    **Rozměr zobrazení**: Velikost pomůcky Rovina řezu ve 3D pohledu
+-    **Rozměr zobrazení**   * Velikost pomůcky Rovina řezu ve 3D pohledu
 
 
 </div>
 
-<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width   *600px;">
 
 
 
@@ -91,7 +91,7 @@ Po vytvoření objekt Rovina řezu také vkládá [pohled](Drawing_View.md) sama
 
 ## Tweaks
 
--   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
+-   Adding manually a property named **RotateSolidRender** of type **App   *   *PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -104,7 +104,7 @@ Po vytvoření objekt Rovina řezu také vkládá [pohled](Drawing_View.md) sama
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Rovina řezu může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce:
+Nástroj Rovina řezu může být využit v [makrech](macros.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -118,12 +118,12 @@ Section = makeSectionPlane(objectslist=None, name="Section")
 <div class="mw-translate-fuzzy">
 
 
-:   Vytvoří objekt Rovina řezu zahrnující zadané objekty.
+   *   Vytvoří objekt Rovina řezu zahrnující zadané objekty.
 
 
 </div>
 
-Příklad:
+Příklad   *
 
 
 ```python
@@ -157,6 +157,11 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
+
+
+ 
+
+[Category   *Arch/cs](Category   *Arch/cs.md)
 
 
 

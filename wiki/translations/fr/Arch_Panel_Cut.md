@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Panel Cut
-   Name/fr:Arch Découpe de panneaux
-   MenuLocation:Arch → Outils pour les panneaux → Panneau de coupe
-   Workbenches:[Arch](Arch_Workbench/fr.md), [Path](Path_Workbench/fr.md)
-   Shortcut:**P** **C**
-   Version:0.17
-   SeeAlso:[Arch Panneaux](Arch_Panel/fr.md), [Arch Panneau feuille](Arch_Panel_Sheet/fr.md), [Arch Calepinage](Arch_Nest/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Panel Cut
+   Name/fr   *Arch Découpe de panneaux
+   MenuLocation   *Arch → Outils pour les panneaux → Panneau de coupe
+   Workbenches   *[Arch](Arch_Workbench/fr.md), [Path](Path_Workbench/fr.md)
+   Shortcut   ***P** **C**
+   Version   *0.17
+   SeeAlso   *[Arch Panneaux](Arch_Panel/fr.md), [Arch Panneau feuille](Arch_Panel_Sheet/fr.md), [Arch Calepinage](Arch_Nest/fr.md)
 ---
 
 # Arch Panel Cut/fr
@@ -15,7 +15,7 @@
 
 Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneaux](Arch_Panel/fr.md), à inclure dans un [Arch Panneau feuille](Arch_Panel_Sheet/fr.md) ou directement exportée vers [DXF](Draft_DXF/fr.md). Les objets Découpe de panneaux sont également pris en charge par l\'[atelier Path](Path_Workbench/fr.md).
 
-<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_Wikihouse_02.jpg  style="width   *1024px;">
 
 ## Utilisation
 
@@ -36,40 +36,40 @@ Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneaux](Ar
 
 ### Données
 
--    **Source**: L\'objet [Arch Panneaux](Arch_Panel/fr.md) montré par cette coupe.
+-    **Source**   * L\'objet [Arch Panneaux](Arch_Panel/fr.md) montré par cette coupe.
 
--    **Tag Text**: Le texte à afficher. Peut être %tag%, %label% ou %description% pour afficher la balise ou l\'étiquette du panneau.
+-    **Tag Text**   * Le texte à afficher. Peut être %tag%, %label% ou %description% pour afficher la balise ou l\'étiquette du panneau.
 
--    **Tag Size**: La taille du texte de la balise
+-    **Tag Size**   * La taille du texte de la balise
 
--    **Tag Position**: La position du texte de la balise. Conservez (0,0,0) pour une position centrale automatique.
+-    **Tag Position**   * La position du texte de la balise. Conservez (0,0,0) pour une position centrale automatique.
 
--    **Tag Rotation**: La rotation du texte de la balise
+-    **Tag Rotation**   * La rotation du texte de la balise
 
--    **Font File**: La police du texte de la balise
+-    **Font File**   * La police du texte de la balise
 
--    **Make Face**: Si True, le panneau est un Part Face, sinon une Part Polyligne.
+-    **Make Face**   * Si True, le panneau est un Part Face, sinon une Part Polyligne.
 
 ### Vue
 
--    **Margin**: La marge à afficher hors du panneau coupé.
+-    **Margin**   * La marge à afficher hors du panneau coupé.
 
--    **Show Margin**: Tourne l\'affichage des marges oui/non.
+-    **Show Margin**   * Tourne l\'affichage des marges oui/non.
 
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil panneau peut être utilisé dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant le code suivant: 
+L\'outil panneau peut être utilisé dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant le code suivant   * 
 ```python
 View = makePanelCut(panel, name="PanelView")```
 
 -   Crée un objet `View` (projection 2D) à partir du `panel` existant.
 
-Exemple: 
+Exemple   * 
 ```python
 import FreeCAD, Draft, Arch
 

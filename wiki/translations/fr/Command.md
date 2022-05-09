@@ -6,7 +6,7 @@
 
 Une [commande](Command/fr.md) est ce qui est en cours d'exécution lorsque vous appuyez sur un bouton de la barre d'outils ou tapez un raccourci clavier. Cela peut être une action très simple, comme changer le niveau de zoom de la [vue 3D](3D_view/fr.md) ou faire pivoter le point de vue, ou un système complexe qui ouvrira des boîtes de dialogue et attendra que l\'utilisateur exécute des tâches spécifiques.
 
-Chaque commande FreeCAD a un nom unique, qui apparaît dans la page [:Category:Command\_Reference](:Category_Command_Reference.md). Les commandes peuvent être lancées à l\'aide d\'un bouton de la barre d\'outils, d\'un élément de menu, d\'un script [Python](Python/fr.md) ou de la [console Python](Python_console/fr.md), en exécutant :
+Chaque commande FreeCAD a un nom unique, qui apparaît dans la page [   *Category   *Command\_Reference](   *Category_Command_Reference.md). Les commandes peuvent être lancées à l\'aide d\'un bouton de la barre d\'outils, d\'un élément de menu, d\'un script [Python](Python/fr.md) ou de la [console Python](Python_console/fr.md), en exécutant    *
 
 
 ```python
@@ -23,14 +23,14 @@ Les commandes peuvent être définies en C ++ ou en Python.
 
 ## Commandes définies en C++ 
 
-Exemple d\'une définition de commande C++, généralement définie suivant la structure {{FileName|Mod/ModuleName/Gui/Command.cpp}}.
+Exemple d\'une définition de commande C++, généralement définie suivant la structure **Mod/ModuleName/Gui/Command.cpp**.
 
 
 {{Code|lang=cpp|code=
 DEF_STD_CMD_A(StdCmdMyCommand);
 
-StdCmdMyCommand::StdCmdMyCommand()
-  : Command("Std_My_Command")
+StdCmdMyCommand   *   *StdCmdMyCommand()
+     * Command("Std_My_Command")
 {
     sGroup        = QT_TR_NOOP("File");
     sMenuText     = QT_TR_NOOP("My Command");
@@ -41,47 +41,47 @@ StdCmdMyCommand::StdCmdMyCommand()
     sAccel        = "Ctrl+A";
 }
 
-void StdCmdExport::activated(int iMsg)
+void StdCmdExport   *   *activated(int iMsg)
 {
     // place here the code to be executed when the command is ran
 }
 
-bool StdCmdMyCommand::isActive(void)
+bool StdCmdMyCommand   *   *isActive(void)
 {
     // here you have a chance to return true or false depending if your command must be shown as active or inactive (greyed).
 }
 
 // the command must be "registered" in FreeCAD's command system
-CommandManager &rcCmdMgr = Application::Instance->commandManager();
+CommandManager &rcCmdMgr = Application   *   *Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
 ## Commandes définies en Python 
 
-Exemple d\'une définition de commande Python, elle peut être placée dans un répertoire comme {{FileName|Mod/ModuleName/tools/commands.py}}. 
+Exemple d\'une définition de commande Python, elle peut être placée dans un répertoire comme **Mod/ModuleName/tools/commands.py**. 
 ```python
 from PySide.QtCore import QT_TRANSLATE_NOOP
 
 
-class MyCommand:
+class MyCommand   *
     """Explanation of the command."""
 
-    def __init__(self):
+    def __init__(self)   *
         """Initialize variables for the command that must exist at all times."""
         pass
 
-    def GetResources(self):
+    def GetResources(self)   *
         """Return a dictionary with data that will be used by the button or menu item."""
-        return {'Pixmap': 'MyCommand.svg',
-                'Accel': "Ctrl+A",
-                'MenuText': QT_TRANSLATE_NOOP("My_Command", "My Command"),
-                'ToolTip': QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
+        return {'Pixmap'   * 'MyCommand.svg',
+                'Accel'   * "Ctrl+A",
+                'MenuText'   * QT_TRANSLATE_NOOP("My_Command", "My Command"),
+                'ToolTip'   * QT_TRANSLATE_NOOP("My_Command", "Runs my command in the active document")}
 
-    def Activated(self):
+    def Activated(self)   *
         """Run the following code when the command is activated (button press)."""
         print("Activated")
 
-    def IsActive(self):
+    def IsActive(self)   *
         """Return True when the command should be active or False when it should be disabled (greyed)."""
         return True
 
@@ -92,6 +92,11 @@ FreeCADGui.addCommand('My_Command', MyCommand())
 ## Exemples
 
 Voir [Fonction - tracer une ligne](Line_drawing_function/fr.md).
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Glossary](Category_Glossary.md)
 
 
 

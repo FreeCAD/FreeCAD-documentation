@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ru
-   Name:Arch Survey
-   Name/ru:Arch Survey
-   MenuLocation:Архитектура → Опрос/анкетирование
-   Workbenches:[Arch](Arch_Workbench/ru.md)
-   SeeAlso:[FCInfo (macro)](Macro_FCInfo/ru.md)
+- GuiCommand   */ru
+   Name   *Arch Survey
+   Name/ru   *Arch Survey
+   MenuLocation   *Архитектура → Опрос/анкетирование
+   Workbenches   *[Arch](Arch_Workbench/ru.md)
+   SeeAlso   *[FCInfo (macro)](Macro_FCInfo/ru.md)
 ---
 
 # Arch Survey/ru
@@ -14,14 +14,14 @@
 
 ## Описание
 
-Инструмент опроса **<img src="images/Arch_Survey.svg" width=16px> [Arch Survey](Arch_Survey.md)** входит в специальный режим съемки, который позволяет быстро захватывать измерения и информацию с модели и передавать эту информацию другим приложениям. Когда вы находитесь в режиме Survey, нажатие на различные подэлементы трехмерных объектов собирает следующую информацию, в зависимости от того, что вы нажимаете:
+Инструмент опроса **<img src="images/Arch_Survey.svg" width=16px> [Arch Survey](Arch_Survey.md)** входит в специальный режим съемки, который позволяет быстро захватывать измерения и информацию с модели и передавать эту информацию другим приложениям. Когда вы находитесь в режиме Survey, нажатие на различные подэлементы трехмерных объектов собирает следующую информацию, в зависимости от того, что вы нажимаете   *
 
 -   Если вы нажмете на край, вы получите его длину
 -   Если вы нажмете на вершину, вы получите ее высоту (координату по оси Z)
 -   Если вы нажмете на фасетка, вы получите его площадь
 -   Если вы дважды щелкните что-нибудь, поэтому выберите весь объект, вы получите его объем
 
-When such a piece of information is gathered, several things happen:
+When such a piece of information is gathered, several things happen   *
 
 -   A label is placed on top of the element you clicked, that displays the value (with \"a\" for area, \"l\" for length, \"z\" for height, or \"v\" for volume)
 -   The numeric value is copied to the clipboard, so you can paste it in another application
@@ -29,7 +29,7 @@ When such a piece of information is gathered, several things happen:
 -   The total length or area of the elements you clicked so far is also printed in the output window
 -   Each length or area is also recorded in the task dialog
 
-<img alt="" src=images/Arch_Survey_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Survey_example.jpg  style="width   *640px;">
 
 *The above image shows what happens when running the survey mode.*
 
@@ -45,16 +45,16 @@ When such a piece of information is gathered, several things happen:
 -   You can add a custom label to any line in the Task dialog by clicking that line, then adding a text in the description field, then press the **set description** button.
 -   Once you are done, before closing, you can export the contents of the Task dialog by pressing the \"export CSV\" button. The resulting CSV file can then be opened in any spreadsheet application such as Excel or LibreOffice Calc. The values and units will be separated in the resulting CSV file, and the totals are written as SUM() functions.
 
-<img alt="" src=images/Arch_Survey_spreadsheet.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Survey_spreadsheet.jpg  style="width   *640px;">
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Survey tool doesn\'t have a programming interface, but gathering the same information from any selected [Part](Part_Workbench.md)-based object is reproduced with the following script:
+The Survey tool doesn\'t have a programming interface, but gathering the same information from any selected [Part](Part_Workbench.md)-based object is reproduced with the following script   *
 
 
 ```python
@@ -62,12 +62,12 @@ import FreeCADGui
 
 selection = FreeCADGui.Selection.getSelectionEx()
 
-for obj in selection:
-    for element in obj.SubObjects:
-        print("Area: %f", element.Area)
-        print("Length: %f", element.Length)
-        print("Volume: %f", element.Volume)
-        print("Center of Mass: %f", element.CenterOfMass)
+for obj in selection   *
+    for element in obj.SubObjects   *
+        print("Area   * %f", element.Area)
+        print("Length   * %f", element.Length)
+        print("Volume   * %f", element.Volume)
+        print("Center of Mass   * %f", element.CenterOfMass)
 ```
 
 

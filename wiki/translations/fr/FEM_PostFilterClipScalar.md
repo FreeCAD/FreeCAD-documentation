@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:FEM PostFilterClipScalar
-   Name/fr:FEM Filtre d'écrêtage scalaire
-   MenuLocation:Résultats → Filtre d'écrêtage scalaire
-   Workbenches:[FEM](FEM_Workbench/fr.md)
-   SeeAlso:[Tutoriel FEM](FEM_tutorial/fr.md)
+- GuiCommand   */fr
+   Name   *FEM PostFilterClipScalar
+   Name/fr   *FEM Filtre d'écrêtage scalaire
+   MenuLocation   *Résultats → Filtre d'écrêtage scalaire
+   Workbenches   *[FEM](FEM_Workbench/fr.md)
+   SeeAlso   *[Tutoriel FEM](FEM_tutorial/fr.md)
 ---
 
 # FEM PostFilterClipScalar/fr
@@ -16,7 +16,7 @@ Filtre un champ en utilisant une valeur scalaire spécifiée.
 ## Utilisation
 
 1.  Sélectionnez un [pipeline de résultats](FEM_PostPipelineFromResult/fr.md) précédemment créé.
-2.  Lancez la commande de l\'une des façons suivantes :
+2.  Lancez la commande de l\'une des façons suivantes    *
     -   Appuyez sur le bouton **<img src="images/FEM_PostFilterClipScalar.svg" width=16px> [Filtre d'écrêtage scalaire](FEM_PostFilterClipScalar/fr.md)**.
     -   Sélectionnez l\'option **Résultats → <img src="images/FEM_PostFilterClipScalar.svg" width=16px> Filtre d'écrêtage scalaire** dans le menu.
 3.  Ajustez les options d\'affichage de **Résultats** comme pour le [pipeline de résultats](FEM_PostPipelineFromResult/fr.md). Masquez ce pipeline pour voir l\'effet d\'un Filtre d\'écrêtage scalaire.

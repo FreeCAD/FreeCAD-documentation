@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/ro
-   Name:Arch Survey
-   Name/ro:Arch Survey
-   MenuLocation:Arch → Survey
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   SeeAlso:[FCInfo (macro)](Macro_FCInfo/ro.md)
+- GuiCommand   */ro
+   Name   *Arch Survey
+   Name/ro   *Arch Survey
+   MenuLocation   *Arch → Survey
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   SeeAlso   *[FCInfo (macro)](Macro_FCInfo/ro.md)
 ---
 
 # Arch Survey/ro
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul survey introduce un mod special de supraveghere, care vă permite să luați rapid măsuri și informații dintr-un model și să transferați aceste informații către alte aplicații. Odată ce vă aflați în modul Survey, faceți clic pe subelementele diferite ale obiectelor 3D, și funcție de selecția dvs, următoarele informații sunt colectate:
+Instrumentul survey introduce un mod special de supraveghere, care vă permite să luați rapid măsuri și informații dintr-un model și să transferați aceste informații către alte aplicații. Odată ce vă aflați în modul Survey, faceți clic pe subelementele diferite ale obiectelor 3D, și funcție de selecția dvs, următoarele informații sunt colectate   *
 
 
 </div>
@@ -27,7 +27,7 @@ Instrumentul survey introduce un mod special de supraveghere, care vă permite s
 -   If you click on a face, you get its area
 -   If you double-click anything, therefore select the whole object, you get its volume
 
-Când se colectează o astfel de informație, se întâmplă mai multe lucruri:
+Când se colectează o astfel de informație, se întâmplă mai multe lucruri   *
 
 -   O etichetă este plasată pe elementul pe care ați făcut clic, care afișează valoarea (cu \"a\" pentru zonă, \"l\" pentru lungime, \"z\" pentru înălțime sau \"v\" pentru volum)
 -   The numeric value is copied to the clipboard, so you can paste it in another application
@@ -35,7 +35,7 @@ Când se colectează o astfel de informație, se întâmplă mai multe lucruri:
 -   The total length or area of the elements you clicked so far is also printed in the output window
 -   Each length or area is also recorded in the task dialog
 
-<img alt="" src=images/Arch_Survey_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Survey_example.jpg  style="width   *640px;">
 
 *Imaginea de mai sus arată ce se întâmplă atunci când rulați modul survey.*
 
@@ -64,7 +64,7 @@ Când se colectează o astfel de informație, se întâmplă mai multe lucruri:
 -   Puteți adăuga o etichetă personalizată la orice linie din caseta de dialog Activare făcând clic pe acea linie, apoi adăugând un text în câmpul de descriere, apoi apăsați pe butonul**set description**.
 -   Once you are done, before closing, you can export the contents of the Task dialog by pressing the \"export CSV\" button. The resulting CSV file can then be opened in any spreadsheet application such as Excel or LibreOffice Calc. The values and units will be separated in the resulting CSV file, and the totals are written as SUM() functions.
 
-<img alt="" src=images/Arch_Survey_spreadsheet.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Survey_spreadsheet.jpg  style="width   *640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -77,7 +77,7 @@ Când se colectează o astfel de informație, se întâmplă mai multe lucruri:
 
 <div class="mw-translate-fuzzy">
 
-Modul Survey nu poate fi folosit direct de la scripturile Python, dar culegerea acelorași informații din oricare dintre obiectele Part selectate [Partși](Part_Workbench.md) este ușor reproductibil cu următorul script:
+Modul Survey nu poate fi folosit direct de la scripturile Python, dar culegerea acelorași informații din oricare dintre obiectele Part selectate [Partși](Part_Workbench.md) este ușor reproductibil cu următorul script   *
 
 
 </div>
@@ -88,12 +88,12 @@ import FreeCADGui
 
 selection = FreeCADGui.Selection.getSelectionEx()
 
-for obj in selection:
-    for element in obj.SubObjects:
-        print("Area: %f", element.Area)
-        print("Length: %f", element.Length)
-        print("Volume: %f", element.Volume)
-        print("Center of Mass: %f", element.CenterOfMass)
+for obj in selection   *
+    for element in obj.SubObjects   *
+        print("Area   * %f", element.Area)
+        print("Length   * %f", element.Length)
+        print("Volume   * %f", element.Volume)
+        print("Center of Mass   * %f", element.CenterOfMass)
 ```
 
 

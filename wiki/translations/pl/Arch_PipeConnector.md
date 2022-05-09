@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
-   Name:Arch PipeConnector
-   MenuLocation:Arch → Pipe Tools → Pipe Connector
-   Workbenches:[Arch](Arch_Workbench.md)
-   Shortcut:**P** **C**
-   Version:0.17
-   SeeAlso:[Arch Pipe](Arch_Pipe.md), [Arch Equipment](Arch_Equipment.md)
+- GuiCommand   *
+   Name   *Arch PipeConnector
+   MenuLocation   *Arch → Pipe Tools → Pipe Connector
+   Workbenches   *[Arch](Arch_Workbench.md)
+   Shortcut   ***P** **C**
+   Version   *0.17
+   SeeAlso   *[Arch Pipe](Arch_Pipe.md), [Arch Equipment](Arch_Equipment.md)
 ---
 
 # Arch PipeConnector/pl
@@ -21,7 +21,7 @@ This tool allows to create corner or tee connection between two or three selecte
 
 ## Properties
 
--    **Radius**: The curvature radius of this connector
+-    **Radius**   * The curvature radius of this connector
 
 ## Typical workflow 
 
@@ -30,11 +30,11 @@ See the information on [Arch Pipe](Arch_Pipe.md) for the workflow on using pipes
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Pipe Connector tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The Pipe Connector tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```
@@ -42,7 +42,7 @@ Connector = makePipeConnector(pipes, radius=0, name="Connector")
 -   Creates a `Connector` object from the given `pipes`, which is a list of [Arch Pipes](Arch_Pipe.md), and optionally a `radius` of curvature.
     -   The base objects ([Draft Wires](Draft_Wire.md)) of the [Arch Pipes](Arch_Pipe.md) should share an endpoint so they create a proper, smooth connector.
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft, Arch
 

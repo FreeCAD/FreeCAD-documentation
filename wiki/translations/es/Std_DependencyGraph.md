@@ -1,9 +1,9 @@
 ---
-- GuiCommand:/es
-   Name:Std DependencyGraph
-   Name/es:Std GrafoDependencia
-   MenuLocation:Hierramientas → Grafo Dependencia...
-   Workbenches:Todo
+- GuiCommand   */es
+   Name   *Std DependencyGraph
+   Name/es   *Std GrafoDependencia
+   MenuLocation   *Hierramientas → Grafo Dependencia...
+   Workbenches   *Todo
 ---
 
 # Std DependencyGraph/es
@@ -22,22 +22,22 @@ Puede ser útil para analizar un documento de FreeCAD y localizar bifurcaciones 
 
 El gráfico de dependencias es una mera herramienta de visualización, por lo que no puede editarse. Se actualiza automáticamente si se realizan cambios en el modelo.
 
-<img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;"> 
+<img alt="" src=images/Std_DependencyGraph_example.svg  style="width   *400px;"> 
 *Ejemplo de un gráfico de dependencia con un cuerpo de DiseñoPiezas a la izquierda y un objeto creado con operaciones de Pieza a la derecha*
 
 ## Instalación
 
-Para utilizar el comando es necesario instalar un software de terceros llamado [Graphviz](http://graphviz.org/). Si no lo tienes preinstalado o está instalado en una ubicación no convencional, FreeCAD mostrará el siguiente diálogo:
+Para utilizar el comando es necesario instalar un software de terceros llamado [Graphviz](http   *//graphviz.org/). Si no lo tienes preinstalado o está instalado en una ubicación no convencional, FreeCAD mostrará el siguiente diálogo   *
 
 ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
 ### Windows
 
-Descarga el instalador **graphviz-2.xx** de la página [Graphviz Download page](https://graphviz.org/download/#windows) y ejecútalo para instalarlo. Algunas versiones anteriores parecen tener problemas para mostrar el gráfico; se sabe que la versión 2.38 y las más recientes son fiables. Puedes encontrar todas las versiones de graphviz en [Gitlab](https://gitlab.com/graphviz/graphviz/-/releases).
+Descarga el instalador **graphviz-2.xx** de la página [Graphviz Download page](https   *//graphviz.org/download/#windows) y ejecútalo para instalarlo. Algunas versiones anteriores parecen tener problemas para mostrar el gráfico; se sabe que la versión 2.38 y las más recientes son fiables. Puedes encontrar todas las versiones de graphviz en [Gitlab](https   *//gitlab.com/graphviz/graphviz/-/releases).
 
 ### Mac/OSX
 
-Puedes instalar graphviz usando [Homebrew](https://brew.sh/). (Mientras instalas Homebrew, no te pongas nervioso, si MacOS te pide que instales actualizaciones, por ejemplo, para las herramientas de línea de comandos de Xcode. Estas actualizaciones se realizan posteriormente por el proceso de instalación).
+Puedes instalar graphviz usando [Homebrew](https   *//brew.sh/). (Mientras instalas Homebrew, no te pongas nervioso, si MacOS te pide que instales actualizaciones, por ejemplo, para las herramientas de línea de comandos de Xcode. Estas actualizaciones se realizan posteriormente por el proceso de instalación).
 
 
 {{Code|lang=text|code=
@@ -47,7 +47,7 @@ brew install graphviz
 
 <div class="mw-translate-fuzzy">
 
-Esto instala los binarios de graphviz en /usr/local/bin. FreeCAD buscará allí por sí mismo. Si el programa no se encuentra allí se le pide que introduzca la ruta. Desgraciadamente no podemos navegar directamente hasta allí desde el diálogo de archivos que aparece desde **Herramientas → Gráfico dependencia...**. Cuando te sale el diálogo de selección de archivos tienes dos posibilidades: Puedes utilizar la combinación de teclas Cmd+Shift+. que te mostrará todos los elementos ocultos. O bien utilizar las teclas Cmd+Shift+G para obtener un campo de entrada para la ruta. Entrar
+Esto instala los binarios de graphviz en /usr/local/bin. FreeCAD buscará allí por sí mismo. Si el programa no se encuentra allí se le pide que introduzca la ruta. Desgraciadamente no podemos navegar directamente hasta allí desde el diálogo de archivos que aparece desde **Herramientas → Gráfico dependencia...**. Cuando te sale el diálogo de selección de archivos tienes dos posibilidades   * Puedes utilizar la combinación de teclas Cmd+Shift+. que te mostrará todos los elementos ocultos. O bien utilizar las teclas Cmd+Shift+G para obtener un campo de entrada para la ruta. Entrar
 
 
 </div>
@@ -84,7 +84,7 @@ Y por lo tanto puedes decirle a FreeCAD que busque en ese directorio.
 
 ### Linux
 
-En la mayoría de las distribuciones de Linux (Debian/Ubuntu, Fedora, OpenSUSE), basta con instalar el paquete Graphviz desde los repositorios. Sin embargo, al igual que en Mac/OSX, en los casos en los que los binarios de Graphviz están instalados en una ubicación no estándar, intente encontrar el programa con el comando:
+En la mayoría de las distribuciones de Linux (Debian/Ubuntu, Fedora, OpenSUSE), basta con instalar el paquete Graphviz desde los repositorios. Sin embargo, al igual que en Mac/OSX, en los casos en los que los binarios de Graphviz están instalados en una ubicación no estándar, intente encontrar el programa con el comando   *
 
 
 {{Code|lang=text|code=
@@ -109,7 +109,7 @@ Y por tanto puedes indicar a FreeCAD que busque en ese directorio.
 
 ## Guardar
 
-Puede guardar un gráfico dependencia:
+Puede guardar un gráfico dependencia   *
 
 1.  Asegúrese de que la ficha del gráfico dependencia está en primer plano.
 2.  Seleccione la opción **Archivo → [Guardar](Std_Save/es.md)** o **Archivo → [Guardar como](Std_SaveAs.md)** del menú.
@@ -142,7 +142,9 @@ Puede guardar un gráfico dependencia:
 
 {{Std Base navi
 
-}}
+}} 
+
+[Category   *3rd Party](Category_3rd_Party.md)
 
 
 

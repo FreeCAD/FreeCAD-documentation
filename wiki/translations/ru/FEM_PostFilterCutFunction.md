@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ru
-   Name:FEM PostFilterCutFunction
-   Name/ru:FEM PostFilterCutFunction
-   MenuLocation:Results → Function cut filter
-   Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand   */ru
+   Name   *FEM PostFilterCutFunction
+   Name/ru   *FEM PostFilterCutFunction
+   MenuLocation   *Results → Function cut filter
+   Workbenches   *[FEM](FEM_Workbench/ru.md)
+   Shortcut   *
+   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM PostFilterCutFunction/ru
@@ -20,7 +20,7 @@ Displays the results on a sphere or a plane cutting through the model.
 ## Использование
 
 1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md).
-2.  Invoke the command in one of the several ways:
+2.  Invoke the command in one of the several ways   *
     -   Press the **<img src="images/FEM_PostFilterCutFunction.svg" width=16px> [Function cut filter](FEM_PostFilterCutFunction.md)** button.
     -   Select the **Results → <img src="images/FEM_PostFilterCutFunction.svg" width=16px> Function cut filter** option from the menu.
 3.  Adjust the **Result display options** like for the [result pipeline](FEM_PostPipelineFromResult.md). Hide that pipeline to see the effect of a Function Cut Filter.

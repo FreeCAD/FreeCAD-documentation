@@ -7,17 +7,17 @@ Les **Macros** sont un moyen pratique de reproduire des actions complexes dans F
 
 Alors que les scripts Python ont normalement l\'extension `.py`, les macros FreeCAD doivent avoir l\'extension `.FCMacro`. Une collection de macros écrites par des utilisateurs expérimentés se trouve sur la page [Macros](Macros_recipes/fr.md).
 
-Voyez la [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md) pour en savoir plus sur le langage de programmation [Python](Python/fr.md) et sur l\'écriture de macros. En particulier, vous devriez commencer par ces pages :
+Voyez la [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md) pour en savoir plus sur le langage de programmation [Python](Python/fr.md) et sur l\'écriture de macros. En particulier, vous devriez commencer par ces pages    *
 
 -   [Introduction à Python](Introduction_to_Python/fr.md)
 -   [Tutoriel de script Python](Python_scripting_tutorial/fr.md)
--   [FreeCAD : Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md)
+-   [FreeCAD    * Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md)
 
 ## Fonctionnement
 
-Activez la sortie de la console dans le menu **Edition → Préférences → Général → Macro → Montrer les commandes du script dans la console Python**. Vous verrez que dans FreeCAD, chaque action que vous effectuez, comme appuyer sur un bouton, génère une commande Python. Ces commandes sont ce qui peut être enregistré dans une macro. L\'outil principal pour créer des macros est la barre d\'outils des macros : ![](images/Macros_toolbar.jpg ). Vous y avez 4 boutons : Enregistrer, arrêter l\'enregistrement, éditer et lire la macro en cours.
+Activez la sortie de la console dans le menu **Edition → Préférences → Général → Macro → Montrer les commandes du script dans la console Python**. Vous verrez que dans FreeCAD, chaque action que vous effectuez, comme appuyer sur un bouton, génère une commande Python. Ces commandes sont ce qui peut être enregistré dans une macro. L\'outil principal pour créer des macros est la barre d\'outils des macros    * ![](images/Macros_toolbar.jpg ). Vous y avez 4 boutons    * Enregistrer, arrêter l\'enregistrement, éditer et lire la macro en cours.
 
-C\'est très simple à utiliser : appuyez sur le bouton d\'enregistrement, il vous sera demandé de donner un nom à votre macro, puis effectuez quelques actions. Lorsque vous avez terminé, cliquez sur le bouton Arrêter l\'enregistrement et vos actions seront enregistrées. Vous pouvez maintenant accéder à la boîte de dialogue de macro avec le bouton d\'édition.
+C\'est très simple à utiliser    * appuyez sur le bouton d\'enregistrement, il vous sera demandé de donner un nom à votre macro, puis effectuez quelques actions. Lorsque vous avez terminé, cliquez sur le bouton Arrêter l\'enregistrement et vos actions seront enregistrées. Vous pouvez maintenant accéder à la boîte de dialogue de macro avec le bouton d\'édition.
 
 ![](images/Macros.png ) 
 *Interface listant les macros disponibles dans le système*
@@ -46,7 +46,7 @@ Allez sur [Comment installer des macros](How_to_install_macros/fr.md) pour une d
 
 ## Les dépôts des macros 
 
-Il existe deux emplacements principaux pour les macros. Le premier est le dépôts des macros officielles évalués par des pairs sur [GitHub](https://github.com/FreeCAD/FreeCAD-macros). La deuxième est la page [Liste des macros](Macros_recipes/fr.md) à partir de laquelle vous pouvez choisir des macros utiles à ajouter à votre installation FreeCAD. Les macros des deux référentiels peuvent être installées via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) directement depuis FreeCAD.
+Il existe deux emplacements principaux pour les macros. Le premier est le dépôts des macros officielles évalués par des pairs sur [GitHub](https   *//github.com/FreeCAD/FreeCAD-macros). La deuxième est la page [Liste des macros](Macros_recipes/fr.md) à partir de laquelle vous pouvez choisir des macros utiles à ajouter à votre installation FreeCAD. Les macros des deux référentiels peuvent être installées via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) directement depuis FreeCAD.
 
 ## Informations supplémentaires 
 
@@ -59,6 +59,14 @@ Vous pouvez installer manuellement des extensions, cependant, il est beaucoup pl
 
 -   [Comment installer des macros](How_to_install_macros/fr.md)
 -   [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md)
+
+
+
+
+
+
+
+[Category   *Developer Documentation](Category_Developer_Documentation.md) [Category   *Python Code](Category_Python_Code.md) [Category   *Macros](Category_Macros.md)
 
 
 

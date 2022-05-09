@@ -4,12 +4,12 @@
 |Icon=Macro_Joint_Icon.svg
 |Description=Crée une variété d'assemblages, tels que les assemblages à mortaise/tenon, les assemblages à queue droite, les assemblages à queue d'aronde et autres assemblages.
 |Author=TheMarkster
-|Version=0.2022.04.28
-|Date=2022-04-28
+|Version=0.2022.05.01
+|Date=2022-05-01
 |FCVersion=Versions en Python 3
-|Download=[https://wiki.freecadweb.org/File:Macro_Joint_Icon.svg Icône de la barre d'outils]
+|Download=[https   *//wiki.freecadweb.org/File   *Macro_Joint_Icon.svg Icône de la barre d'outils]
 |SeeAlso=
-|Links=[https://github.com/mwganson/joint Documentation complète sur Github]
+|Links=[https   *//github.com/mwganson/joint Documentation complète sur Github]
 }}
 
 ## Description
@@ -18,7 +18,7 @@ Cette macro est utilisée pour créer des assemblages de différents types, tels
 
 La macro fonctionne dans l\'[atelier Part Design](PartDesign_Workbench/fr.md), mais aussi avec des solides créés dans tout autre atelier.
 
-La documentation complète se trouve sur github : [Joint](https://github.com/mwganson/joint).
+La documentation complète se trouve sur github    * [Joint](https   *//github.com/mwganson/joint).
 
 ## Utilisation
 
@@ -30,13 +30,13 @@ La documentation complète se trouve sur github : [Joint](https://github.com/mwg
 6.  Un objet joint paramétrique est créé.
 7.  Vous pouvez éventuellement modifier les propriétés de l\'objet articulé.
 
-<img alt="" src=images/Macro_joint_scr1.png  style="width:400px;"> 
+<img alt="" src=images/Macro_joint_scr1.png  style="width   *400px;"> 
 *Capture d'écran de la Macro Joint - quelques-uns des types de joints qui peuvent être réalisés‎*
 
 ## Légende
 
 
-{{Codeextralink|https://gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9/raw/3e80ecbfe6215338f09e142764f7f060f771a4b2/Joint.FCMacro|Joint.FCMacro}}
+{{Codeextralink|https   *//gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9/raw/0509ffb01e7f6af7a9e35dab19da62bd44be614d/Joint.FCMacro|Joint.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Macro_Joint_Icon.svg )
 
@@ -45,7 +45,7 @@ Icône de la barre d\'outils ![](images/Macro_Joint_Icon.svg )
 **Macro Joint.FCMacro**
 
 
-{{CodeDownload|https://gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9|Joint.FCMacro}}
+{{CodeDownload|https   *//gist.github.com/mwganson/09d70aa11183e57b5f5925169b4c70b9|Joint.FCMacro}}
 
 
 

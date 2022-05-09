@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Arch Roof
-   Name/es:Arch Techo
-   MenuLocation:Arquitectura → Techo
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   Shortcut:**R** **F**
+- GuiCommand   */es
+   Name   *Arch Roof
+   Name/es   *Arch Techo
+   MenuLocation   *Arquitectura → Techo
+   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
+   Shortcut   ***R** **F**
 ---
 
 # Arch Roof/es
@@ -22,14 +22,14 @@ La herramienta Techo le permite crear un techo inclinado a partir de un wire sel
 
 </div>
 
-**Note:** This tool is still in development, and might fail with very complex shapes.
+**Note   *** This tool is still in development, and might fail with very complex shapes.
 
-<img alt="" src=images/RoofExample.png  style="width:600px;">
+<img alt="" src=images/RoofExample.png  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/RoofExample.png  style="width:600px;">
+<img alt="" src=images/RoofExample.png  style="width   *600px;">
 
 
 </div>
@@ -54,13 +54,13 @@ La herramienta Techo le permite crear un techo inclinado a partir de un wire sel
 6.  \* ![](images/_RoofTable.png )
 7.  Cada línea corresponde a un panel de techo. Entonces puede establecer las propiedades que desea para cada panel de techo.
 8.  Para ayudarlo, puede establecer Ángulo o Run en 0 y definir un Id relativo, esto hace cálculos automáticos para encontrar los datos relativos al Id relativo.
-9.  Funciona así:
+9.  Funciona así   *
     1.  Si Angle = 0 y Run = 0, el perfil es idéntico al perfil relativo.
     2.  Si Angle = 0, el ángulo se calcula de modo que la altura sea la misma que el perfil relativo.
     3.  Si Run = 0, Run se calcula para que la altura sea la misma que el perfil relativo.
 10. Al final, establece un ángulo de 90 ° para hacer un frontón.
 11. \* ![ 600px](images/_RoofProfil.png )
-12. **También puedes consultar este video**: <https://www.youtube.com/watch?v=4Urwru71dVk>
+12. **También puedes consultar este video**   * <https   *//www.youtube.com/watch?v=4Urwru71dVk>
 
 
 </div>
@@ -80,17 +80,17 @@ La herramienta Techo le permite crear un techo inclinado a partir de un wire sel
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Angles}}: Lista del ángulo de inclinación del panel de techo (un ángulo para cada borde en el wire).
+-    {{PropertyData/es|Angles}}   * Lista del ángulo de inclinación del panel de techo (un ángulo para cada borde en el wire).
 
--    {{PropertyData/es|Runs}}: Lista del ancho del panel del techo (una ejecución para cada borde en el wire).
+-    {{PropertyData/es|Runs}}   * Lista del ancho del panel del techo (una ejecución para cada borde en el wire).
 
--    {{PropertyData/es|IdRel}}: Lista de la relación Id El ángulo de inclinación del techo
+-    {{PropertyData/es|IdRel}}   * Lista de la relación Id El ángulo de inclinación del techo
 
--    {{PropertyData/es|Thickness}}: Lista de espesores del panel de techo. (un espesor para cada borde en el wire).
+-    {{PropertyData/es|Thickness}}   * Lista de espesores del panel de techo. (un espesor para cada borde en el wire).
 
--    {{PropertyData/es|Overhang}}: Lista del saliente del panel del techo (un saliente para cada borde en el wire).
+-    {{PropertyData/es|Overhang}}   * Lista del saliente del panel del techo (un saliente para cada borde en el wire).
 
--    {{PropertyData/es|Face}}: El índice de la cara del objeto base que se utilizará \#No realmente utilizado
+-    {{PropertyData/es|Face}}   * El índice de la cara del objeto base que se utilizará \#No realmente utilizado
 
 
 </div>
@@ -106,7 +106,7 @@ La herramienta Techo le permite crear un techo inclinado a partir de un wire sel
 
 <div class="mw-translate-fuzzy">
 
-La herramientas techo se puede utilizar en [macros](macros/es.md) y desde la consola de Python utilizando las siguientes funciones:
+La herramientas techo se puede utilizar en [macros](macros/es.md) y desde la consola de Python utilizando las siguientes funciones   *
 
 
 </div>
@@ -120,12 +120,12 @@ Roof = makeRoof(baseobj=None, facenr=0, angles=[45.,], run=[], idrel=[0,], thick
 <div class="mw-translate-fuzzy">
 
 
-:   Hace un techo basado en un wire cerrado. Puede proporcionar una lista de ángulos, ejecutar, idrel, espesor, voladizo para cada borde en el wire para definir la forma del techo. El valor predeterminado para el ángulo es 45 y la lista se completa automáticamente para que coincida con el número de bordes en el wire.
+   *   Hace un techo basado en un wire cerrado. Puede proporcionar una lista de ángulos, ejecutar, idrel, espesor, voladizo para cada borde en el wire para definir la forma del techo. El valor predeterminado para el ángulo es 45 y la lista se completa automáticamente para que coincida con el número de bordes en el wire.
 
 
 </div>
 
-Ejemplo:
+Ejemplo   *
 
 
 ```python
@@ -156,6 +156,11 @@ doc.recompute()
 
 
 </div>
+
+
+ 
+
+[Category   *Arch/es](Category   *Arch/es.md)
 
 
 

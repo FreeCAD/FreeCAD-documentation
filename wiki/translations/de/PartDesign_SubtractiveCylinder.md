@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:PartDesign SubtractiveCylinder
-   Name/de:PartDesign Abzuziehender Zylinder
-   MenuLocation:Part Design → Erzeuge einen abzuziehenden Grundkörper → Abzuziehender Zylinder
-   Workbenches:[PartDesign](PartDesign_Workbench/de.md)
-   Version:0.17
-   SeeAlso:[PartDesign CompSubtraktiverGrundkörper](PartDesign_CompPrimitiveSubtractive/de.md)
+- GuiCommand   */de
+   Name   *PartDesign SubtractiveCylinder
+   Name/de   *PartDesign Abzuziehender Zylinder
+   MenuLocation   *Part Design → Erzeuge einen abzuziehenden Grundkörper → Abzuziehender Zylinder
+   Workbenches   *[PartDesign](PartDesign_Workbench/de.md)
+   Version   *0.17
+   SeeAlso   *[PartDesign CompSubtraktiverGrundkörper](PartDesign_CompPrimitiveSubtractive/de.md)
 ---
 
 # PartDesign SubtractiveCylinder/de
@@ -26,7 +26,7 @@ Fügt einen abzuziehenden Zylinder in den aktiven Körper (Body) ein. Die Form w
 
 <div class="mw-translate-fuzzy">
 
-1.  Drücke die **<img src="images/PartDesign_SubtractiveCylinder.svg" width=24px> '''Abzuziehender Zylinder'''** Schaltfläche. **Anmerkung**: Abzuziehender Zylinder ist Teil des benannten Symbols *Erzeuge einen abzuziehenden Grundkörper*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Um zur Schaltfläche Zylinder zu gelangen, klicke auf den Abwärtspfeil neben dem sichtbaren Symbol und wähle im Menü Subtraktiver Zylinder.
+1.  Drücke die **<img src="images/PartDesign_SubtractiveCylinder.svg" width=24px> '''Abzuziehender Zylinder'''** Schaltfläche. **Anmerkung**   * Abzuziehender Zylinder ist Teil des benannten Symbols *Erzeuge einen abzuziehenden Grundkörper*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Um zur Schaltfläche Zylinder zu gelangen, klicke auf den Abwärtspfeil neben dem sichtbaren Symbol und wähle im Menü Subtraktiver Zylinder.
 2.  Lege die Grundkörperparameter und [Attachment](Part_EditAttachment/de.md) fest.
 3.  Klicke **OK**.
 4.  Ein Zylinder erscheint unterhalb des aktiven Körpers.
@@ -38,7 +38,7 @@ Fügt einen abzuziehenden Zylinder in den aktiven Körper (Body) ein. Die Form w
 
 It is possible to create skewed prisms by specifying angles in respect to the normal vector of the chosen attachment. <small>(v0.20)</small> 
 
-Der Zylinder kann auf zwei verschieden Wege bearbeitet werden:
+Der Zylinder kann auf zwei verschieden Wege bearbeitet werden   *
 
 -   Doppelklicke ihn im Modellbaum oder durch Rechtsklick und Auswahl von **Grundkörper bearbeiten** im Kontextmenü; dadurch werden die Grundkörperparameter angezeigt.
 -   Mittels des [Eigenschafteneditors](Property_editor/de.md).
@@ -48,15 +48,15 @@ Der Zylinder kann auf zwei verschieden Wege bearbeitet werden:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
+-    **Attachment**   * Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
 
--    **Label**: Die vom Benutzer vergebene Bezeichung für das Zylinder-Objekt. Dies kann nach Bedarf geändert werden.
+-    **Label**   * Die vom Benutzer vergebene Bezeichung für das Zylinder-Objekt. Dies kann nach Bedarf geändert werden.
 
--    **Radius**: Der Wert des Radius von dem Zylinder.
+-    **Radius**   * Der Wert des Radius von dem Zylinder.
 
--    **Angle**: Der Rotationswinkel des halben Querschnitts (360° ergeben einen vollen Zylinder).
+-    **Angle**   * Der Rotationswinkel des halben Querschnitts (360° ergeben einen vollen Zylinder).
 
--    **Height**: Die Länge des Zylinders entlang seiner Achse.
+-    **Height**   * Die Länge des Zylinders entlang seiner Achse.
 
 
 </div>

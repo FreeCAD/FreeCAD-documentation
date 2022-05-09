@@ -1,36 +1,36 @@
 ---
-- GuiCommand:/fr
-   Name:Part Cylinder
-   Name/fr:Part Cylindre
-   MenuLocation:Part → Primitives → Cylindre
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
+- GuiCommand   */fr
+   Name   *Part Cylinder
+   Name/fr   *Part Cylindre
+   MenuLocation   *Part → Primitives → Cylindre
+   Workbenches   *[Part](Part_Workbench/fr.md)
+   SeeAlso   *[Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Cylinder/fr
 
 ## Description
 
-La commande <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> **Part Cylindre** crée un solide cylindrique paramétrique. Il est le résultat de l\'extrusion d\'un arc de cercle le long d\'une trajectoire droite. Dans le système de coordonnées défini par sa propriété **Placement**, la face inférieure du cylindre se trouve sur le plan XY avec son centre à l\'origine.
+La commande <img alt="" src=images/Part_Cylinder.svg  style="width   *24px;"> **Part Cylindre** crée un solide cylindrique paramétrique. Il est le résultat de l\'extrusion d\'un arc de cercle le long d\'une trajectoire droite. Dans le système de coordonnées défini par sa propriété **Placement**, la face inférieure du cylindre se trouve sur le plan XY avec son centre à l\'origine.
 
 Un Part Cylindre peut être transformé en un segment de cylindre en modifiant sa propriété **Angle**.
 
-<img alt="" src=images/Part_Cylinder_Example.png  style="width:400px;">
+<img alt="" src=images/Part_Cylinder_Example.png  style="width   *400px;">
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande :
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Part_Cylinder.svg" width=16px> [Cylindre](Part_Cylinder/fr.md)**.
     -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Cylinder.svg" width=16px> Cylindre** dans le menu.
 2.  Le cylindre est créé.
-3.  Vous pouvez éventuellement modifier les dimensions et **Placement** du cylindre en effectuant l\'une des opérations suivantes :
-    -   Double-cliquez sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md) :
+3.  Vous pouvez éventuellement modifier les dimensions et **Placement** du cylindre en effectuant l\'une des opérations suivantes    *
+    -   Double-cliquez sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md)    *
         1.  Le panneau de tâches **Primitives géométriques** s\'ouvre.
         2.  Modifiez une ou plusieurs propriétés.
         3.  L\'objet est mis à jour dynamiquement dans la [Vue 3D](3D_view/fr.md).
         4.  Appuyez sur le bouton **OK**.
         5.  Modifiez les propriétés dans l\'[Éditeur de propriétés](Property_editor/fr.md).
-    -   Changez la **Placement** avec la <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
+    -   Changez la **Placement** avec la <img alt="" src=images/Std_TransformManip.svg  style="width   *16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
 
 ## Exemple
 
@@ -40,13 +40,13 @@ Un objet Part Cylindre créé avec l\'[exemple du script](#Script.md) ci-dessous
 
 ## Remarques
 
--   Un Part Cylindre peut également être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives/fr.md). Avec cette commande, vous pouvez spécifier les dimensions et le placement au moment de la création.
+-   Un Part Cylindre peut également être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width   *16px;"> [Part Primitives](Part_Primitives/fr.md). Avec cette commande, vous pouvez spécifier les dimensions et le placement au moment de la création.
 
 ## Propriétés
 
-Voir aussi : [Éditeur de propriétés](Property_editor/fr.md).
+Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md).
 
-Un objet Part Cylindre est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet Part Cylindre est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
@@ -58,34 +58,34 @@ L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Par
 
 {{TitleProperty|Cylinder}}
 
--    **Radius|Length**: Le rayon de l\'arc de cercle qui définit le cylindre. La valeur par défaut est {{Value|2mm}}.
+-    **Radius|Length**   * Le rayon de l\'arc de cercle qui définit le cylindre. La valeur par défaut est {{Value|2mm}}.
 
--    **Height|Length**: La hauteur du cylindre. La valeur par défaut est {{Value|10mm}}.
+-    **Height|Length**   * La hauteur du cylindre. La valeur par défaut est {{Value|10mm}}.
 
--    **Angle|Angle**: L\'angle de l\'arc de cercle qui définit le cylindre. Plage valide : {{Value|0° &lt; value &lt;&#61; 360°}}. La valeur par défaut est {{Value|360°}}. Si elle est inférieure à {{Value|360°}}, le solide résultant sera un segment de cylindre.
+-    **Angle|Angle**   * L\'angle de l\'arc de cercle qui définit le cylindre. Plage valide    * {{Value|0° &lt; value &lt;&#61; 360°}}. La valeur par défaut est {{Value|360°}}. Si elle est inférieure à {{Value|360°}}, le solide résultant sera un segment de cylindre.
 
 
 {{TitleProperty|Prism}}
 
--    **Premier Angle|Angle**: L\'angle entre la direction d\'extrusion du cylindre et son axe Z positif, mesuré autour de son axe Y. L\'angle est positif vers son axe X positif. L\'angle est positif vers son axe X positif. Plage valide : {{Value|0° &lt;&#61; value &lt; 90°}}. La valeur par défaut est {{Value|0°}}. {{Version/fr|0.20}}
+-    **Premier Angle|Angle**   * L\'angle entre la direction d\'extrusion du cylindre et son axe Z positif, mesuré autour de son axe Y. L\'angle est positif vers son axe X positif. L\'angle est positif vers son axe X positif. Plage valide    * {{Value|0° &lt;&#61; value &lt; 90°}}. La valeur par défaut est {{Value|0°}}. {{Version/fr|0.20}}
 
--    **Second Angle|Angle**: L\'angle entre la direction d\'extrusion du cylindre et son axe Z positif, mesuré autour de son axe X. L\'angle est positif vers son axe Y positif. L\'angle est positif vers son axe Y positif. Plage valide : {{Value|0° &lt;&#61; value &lt; 90°}}. La valeur par défaut est {{Value|0°}}. {{Version/fr|0.20}}
+-    **Second Angle|Angle**   * L\'angle entre la direction d\'extrusion du cylindre et son axe Z positif, mesuré autour de son axe X. L\'angle est positif vers son axe Y positif. L\'angle est positif vers son axe Y positif. Plage valide    * {{Value|0° &lt;&#61; value &lt; 90°}}. La valeur par défaut est {{Value|0°}}. {{Version/fr|0.20}}
 
 ## Script
 
-Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Un Part Cylindre est créé avec la méthode `addObject()` du document :
+Un Part Cylindre est créé avec la méthode `addObject()` du document    *
 
 
 ```python
-cylinder = FreeCAD.ActiveDocument.addObject("Part::Cylinder", "myCylinder")
+cylinder = FreeCAD.ActiveDocument.addObject("Part   *   *Cylinder", "myCylinder")
 ```
 
 -   Où {{Incode|"myCylinder"}} est le nom de l\'objet.
 -   La fonction restitue l\'objet nouvellement créé.
 
-Exemple :
+Exemple    *
 
 
 ```python
@@ -93,7 +93,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-cylinder = doc.addObject("Part::Cylinder", "myCylinder")
+cylinder = doc.addObject("Part   *   *Cylinder", "myCylinder")
 cylinder.Radius = 10
 cylinder.Height = 50
 cylinder.Placement = App.Placement(App.Vector(5, 10, 15), App.Rotation(75, 60, 30))

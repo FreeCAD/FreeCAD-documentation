@@ -3,18 +3,18 @@
 
 ## Introduzione
 
-<img alt="" src=images/Link.svg  style="width:32px;">
+<img alt="" src=images/Link.svg  style="width   *32px;">
 
-Un <img alt="" src=images/Link.svg  style="width:32px;"> [App Link](App_Link/it.md), o formalmente un `App::Link`, è un tipo di oggetto che fa riferimento o si collega a un altro oggetto, nello stesso documento o in un altro documento. È appositamente progettato per duplicare in modo efficiente un singolo oggetto più volte, il che aiuta nella creazione di [assemblaggi](assembly/it.md) complessi da sottoassiemi più piccoli e da più componenti riutilizzabili come viti, dadi e dispositivi di fissaggio simili.
+Un <img alt="" src=images/Link.svg  style="width   *32px;"> [App Link](App_Link/it.md), o formalmente un `App   *   *Link`, è un tipo di oggetto che fa riferimento o si collega a un altro oggetto, nello stesso documento o in un altro documento. È appositamente progettato per duplicare in modo efficiente un singolo oggetto più volte, il che aiuta nella creazione di [assemblaggi](assembly/it.md) complessi da sottoassiemi più piccoli e da più componenti riutilizzabili come viti, dadi e dispositivi di fissaggio simili.
 
-<img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+<img alt="" src=images/FreeCAD_core_objects.svg  style="width   *800px;">
 
 
 <div class="mw-translate-fuzzy">
 
 
 
-*Diagramma semplificato delle relazioni tra gli oggetti principali del programma. L'oggetto `App::Link* è un componente principale del sistema, non dipende da alcun ambiente, ma può essere utilizzato con la maggior parte degli oggetti creati in tutti gli ambienti.`
+*Diagramma semplificato delle relazioni tra gli oggetti principali del programma. L'oggetto `App   *   *Link* è un componente principale del sistema, non dipende da alcun ambiente, ma può essere utilizzato con la maggior parte degli oggetti creati in tutti gli ambienti.`
 
 
 </div>

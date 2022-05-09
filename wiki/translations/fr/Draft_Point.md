@@ -1,27 +1,27 @@
 ---
-- GuiCommand:/fr
-   Name:Draft Point
-   Name/fr:Draft Point
-   MenuLocation:Drafting → Point
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Version:0.7
+- GuiCommand   */fr
+   Name   *Draft Point
+   Name/fr   *Draft Point
+   MenuLocation   *Esquisse → Point
+   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Version   *0.7
 ---
 
 # Draft Point/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Draft Point** crée un point simple. Les Draft Points peuvent être utiles comme référence pour placer des lignes, des fils ou d\'autres objets.
+La commande <img alt="" src=images/Draft_Point.svg  style="width   *24px;"> **Draft Point** crée un point simple. Les Draft Points peuvent être utiles comme référence pour placer des lignes, des fils ou d\'autres objets.
 
-<img alt="" src=images/Draft_point_example.jpg  style="width:400px;">
+<img alt="" src=images/Draft_point_example.jpg  style="width   *400px;">
 
 ## Utilisation
 
-Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi    * [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
-1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Point.svg" width=16px> [Créer un objet point...](Draft_Point/fr.md)**.
-    -   Sélectionnez l\'option **Drafting → <img src="images/Draft_Point.svg" width=16px> Point** dans le menu.
+1.  Il existe plusieurs façons de lancer la commande    *
+    -   Appuyez sur le bouton **<img src="images/Draft_Point.svg" width=16px> [Point](Draft_Point/fr.md)**.
+    -   Sélectionnez l\'option **Esquisse → <img src="images/Draft_Point.svg" width=16px> Point** dans le menu.
 2.  Le panneau de tâches **Point** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez un point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 
@@ -34,47 +34,47 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des points.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.
+-   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
 
 ## Remarques
 
--   Utilisez <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) pour s\'aimanter aux points Draft.
+-   Utilisez <img alt="" src=images/Draft_Snap_Near.svg  style="width   *16px;"> [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) pour s\'aimanter aux points Draft.
 
 ## Préférences
 
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
+Voir aussi    * [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées    * **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
 
 ## Propriétés
 
-Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi   * [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Draft Point est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet Draft Point est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
 
 {{TitleProperty|Draft}}
 
--    {{PropertyData/fr|X|Distance}}: spécifie la coordonnée X du point.
+-    **X|Distance**   * spécifie la coordonnée X du point.
 
--    {{PropertyData/fr|Y|Distance}}: spécifie la coordonnée Y du point.
+-    **Y|Distance**   * spécifie la coordonnée Y du point.
 
--    {{PropertyData/fr|Z|Distance}}: spécifie la coordonnée Z du point.
+-    **Z|Distance**   * spécifie la coordonnée Z du point.
 
 ### Vue
 
 
 {{TitleProperty|Draft}}
 
--    {{PropertyView/fr|Pattern|Enumeration}}: non utilisé.
+-    **Pattern|Enumeration**   * non utilisé.
 
--    {{PropertyView/fr|Pattern Size|Float}}: non utilisé.
+-    **Pattern Size|Float**   * non utilisé.
 
 ## Script
 
-Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Pour créer un Draft Point, utilisez la méthode `make_point` ({{Version/fr|0.19}}) du module Draft. Cette méthode remplace la méthode dépréciée `makePoint`.
 
@@ -93,7 +93,7 @@ point = make_point(point, Y=0, Z=0, color=None, name="Point", point_size=5)
 
 -    `point_size`est la taille de l\'objet en pixels si l\'interface graphique est chargée.
 
-Exemple:
+Exemple   *
 
 
 ```python
@@ -110,7 +110,7 @@ point2 = Draft.make_point(p2, color=(0.5, 0.3, 0.6), point_size=10)
 doc.recompute()
 ```
 
-Exemple:
+Exemple   *
 
 Ce code crée des `N` points aléatoires dans un carré de côté `2L`. Cela crée une boucle créant des `N` points, qui peuvent apparaître n\'importe où de `-L` à `+ L` sur X et Y/ Il choisit également une couleur et une taille aléatoires pour chaque point. Modifiez `N` pour changer le nombre de points, puis `L` pour changer la zone couverte par les points.
 
@@ -127,7 +127,7 @@ centered = App.Placement(App.Vector(-L, -L, 0), App.Rotation())
 rectangle = Draft.make_rectangle(2*L, 2*L, placement=centered)
 
 N = 10
-for i in range(N):
+for i in range(N)   *
     x = 2*L*random.random() - L
     y = 2*L*random.random() - L
     z = 0

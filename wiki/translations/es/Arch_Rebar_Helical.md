@@ -1,12 +1,12 @@
 ---
-- GuiCommand:Addon/es
-   Name:Arch Rebar Helical
-   Name/es:Arch Rebar Helical
-   MenuLocation:Arch → Rebar tools
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   Addon:Reinforcement
-   Shortcut:None
-   SeeAlso:[Arch Rebar](Arch_Rebar/es.md)
+- GuiCommand   *Addon/es
+   Name   *Arch Rebar Helical
+   Name/es   *Arch Rebar Helical
+   MenuLocation   *Arch → Rebar tools
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   Addon   *Reinforcement
+   Shortcut   *None
+   SeeAlso   *[Arch Rebar](Arch_Rebar/es.md)
 ---
 
 # Arch Rebar Helical/es
@@ -26,14 +26,14 @@ La herramienta {{KEY | <img src="images/_Arch_Rebar_Helical.png_" width= 16px> H
 
 The [Helical Rebar](Arch_Rebar_Helical.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-:   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
+   *   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width   *80px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/HelicalRebar.png  style="width:800px;">
+<img alt="" src=images/HelicalRebar.png  style="width   *800px;">
 
 
 </div>
@@ -52,7 +52,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 1.  Crear un elemento [structure](Arch_Structure/es.md)
 2.  Seleccione cualquier cara de la estructura
 3.  A continuación, seleccione **<img src="images/_Arch_Rebar_Helical.png" width=16px> Helical Rebar** desde las herramientas de la barra de refuerzo
-4.  Aparecerá un panel de tareas en el lado izquierdo de la pantalla como se muestra a continuación <img alt="" src=images/_HelicalRebarDialog.png  style="width:250px;">
+4.  Aparecerá un panel de tareas en el lado izquierdo de la pantalla como se muestra a continuación <img alt="" src=images/_HelicalRebarDialog.png  style="width   *250px;">
 5.  Seleccione la orientación deseada
 6.  Proporcione las entradas como la cubierta frontal, la cubierta lateral derecha, la cubierta lateral izquierda, la cubierta inferior y el diámetro de la barra de refuerzo
 7.  Seleccione el modo de distribución, ya sea cantidad o espaciado
@@ -65,7 +65,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 </div>
 
 
-:   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
+   *   <img alt="" src=images/HelicalRebarDialog.png  style="width   *250px;">
 
 
 
@@ -73,15 +73,15 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Propiedades
 
--    {{PropertyData/es|Side Cover}}: la distancia entre las barras de refuerzo a la cara curva.
+-    {{PropertyData/es|Side Cover}}   * la distancia entre las barras de refuerzo a la cara curva.
 
--    {{PropertyData/es|Top Cover}}: la distancia entre barras de refuerzo desde la cara superior de la estructura.
+-    {{PropertyData/es|Top Cover}}   * la distancia entre barras de refuerzo desde la cara superior de la estructura.
 
--    {{PropertyData/es|Bottom Cover}}: la distancia entre las barras de refuerzo desde la cara inferior de la estructura.
+-    {{PropertyData/es|Bottom Cover}}   * la distancia entre las barras de refuerzo desde la cara inferior de la estructura.
 
--    {{PropertyData/es|Pitch}}: el pitch de una hélice es la altura de un giro completo de hélice, medido en paralelo al eje de la hélice.
+-    {{PropertyData/es|Pitch}}   * el pitch de una hélice es la altura de un giro completo de hélice, medido en paralelo al eje de la hélice.
 
--    {{PropertyData/es|Diameter}}: Diámetro de la barra de refuerzo.
+-    {{PropertyData/es|Diameter}}   * Diámetro de la barra de refuerzo.
 
 
 <div class="mw-translate-fuzzy">
@@ -94,7 +94,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-La herramienta **<img src="images/_Arch_Rebar_Helical.png" width=16px> Helical Rebar** puede utilizarse en [macros](macros/es.md) y desde la consola de python utilizando la siguiente función:
+La herramienta **<img src="images/_Arch_Rebar_Helical.png" width=16px> Helical Rebar** puede utilizarse en [macros](macros/es.md) y desde la consola de python utilizando la siguiente función   *
 
 
 </div>
@@ -156,6 +156,11 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 
 
 </div>
+
+
+ 
+
+[Category   *Arch/es](Category   *Arch/es.md) [Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

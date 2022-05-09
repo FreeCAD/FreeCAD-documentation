@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch CutLine
-   Name/it:Taglia con una linea
-   MenuLocation:Arch → Taglia con una linea
-   Workbenches:[Arch](Arch_Workbench/it.md)
-   SeeAlso:[Taglia con un piano](Arch_CutPlane/it.md)
-   Version:0.19
+- GuiCommand   */it
+   Name   *Arch CutLine
+   Name/it   *Taglia con una linea
+   MenuLocation   *Arch → Taglia con una linea
+   Workbenches   *[Arch](Arch_Workbench/it.md)
+   SeeAlso   *[Taglia con un piano](Arch_CutPlane/it.md)
+   Version   *0.19
 ---
 
 # Arch CutLine/it
@@ -17,11 +17,11 @@
 
 Lo strumento [Taglia con una linea](Arch_CutLine/it.md) consente di tagliare un oggetto Arch solido come un [muro](Arch_Wall/it.md) o una [struttura](Arch_Structure/it.md) utilizzando una linea che attraversa l\'oggetto.
 
-<img alt="" src=images/Arch_CutLine_example_1.png  style="width:" height="300px;"> <img alt="" src=images/Arch_CutLine_example_2.png  style="width:" height="300px;">
+<img alt="" src=images/Arch_CutLine_example_1.png  style="width   *" height="300px;"> <img alt="" src=images/Arch_CutLine_example_2.png  style="width   *" height="300px;">
 
 
 
-*Muro tagliato da una linea. A sinistra: parallelepipedo sottrattivo che appare quando si utilizza lo strumento. A destra: parete risultante dopo il taglio.*
+*Muro tagliato da una linea. A sinistra   * parallelepipedo sottrattivo che appare quando si utilizza lo strumento. A destra   * parete risultante dopo il taglio.*
 
 ## Utilizzo
 
@@ -43,7 +43,7 @@ Lo strumento [Taglia con una linea](Arch_CutLine/it.md) consente di tagliare un 
 <div class="mw-translate-fuzzy">
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 

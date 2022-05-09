@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
-   Name:Std DependencyGraph
-   MenuLocation:Tools → Dependency graph...
-   Workbenches:All
+- GuiCommand   *
+   Name   *Std DependencyGraph
+   MenuLocation   *Tools → Dependency graph...
+   Workbenches   *All
 ---
 
 # Std DependencyGraph
@@ -15,28 +15,28 @@ It can be useful in analyzing a FreeCAD document and locating forks in a tree. T
 
 The dependency graph is purely a visualization tool, therefore it cannot be edited. It automatically updates if changes are made to the model.
 
- <img alt="" src=images/Std_DependencyGraph_example.svg  style="width:400px;">  
+ <img alt="" src=images/Std_DependencyGraph_example.svg  style="width   *400px;">  
 *Example of a dependency graph with a PartDesign body on the left and an object created with Part operations on the right*
 
 ## Installation
 
-To use the command a third-party software named [Graphviz](http://graphviz.org/) needs to be installed. If you do not have it pre-installed or it is installed in an unconventional location, FreeCAD will display the following dialog:
+To use the command a third-party software named [Graphviz](http   *//graphviz.org/) needs to be installed. If you do not have it pre-installed or it is installed in an unconventional location, FreeCAD will display the following dialog   *
 
 ![](images/FreeCAD-0.17-missing-Graphviz-error-dialogue.png )
 
 ### Windows
 
-Download the **graphviz-2.xx** installer from the [Graphviz Download page](https://graphviz.org/download/#windows) and launch it to install it. Some older versions seem to have issues displaying the graph; version 2.38 and newer are known to be reliable. You can find all graphviz releases on [Gitlab](https://gitlab.com/graphviz/graphviz/-/releases).
+Download the **graphviz-2.xx** installer from the [Graphviz Download page](https   *//graphviz.org/download/#windows) and launch it to install it. Some older versions seem to have issues displaying the graph; version 2.38 and newer are known to be reliable. You can find all graphviz releases on [Gitlab](https   *//gitlab.com/graphviz/graphviz/-/releases).
 
 ### Mac/OSX
 
-You can install graphviz using [Homebrew](https://brew.sh/). (While installing Homebrew, don\'t get nervous, if MacOS asks you to install updates, e.g. for the Xcode commandline tools. These updates are performed later by the installation process.)
+You can install graphviz using [Homebrew](https   *//brew.sh/). (While installing Homebrew, don\'t get nervous, if MacOS asks you to install updates, e.g. for the Xcode commandline tools. These updates are performed later by the installation process.)
 
  {{Code|lang=text|code=
 brew install graphviz
 }}
 
-This installs the graphviz binaries under /usr/local/bin for macOS on Intel, and /opt/homebrew for macOS on Apple Silicon/ARM. FreeCAD will look there all by itself. If the program is not found there you are asked to enter the path. Unfortunately we can\'t navigate directly there from the file dialog that comes up from **Tools → Dependency graph...**. When you get the file selection dialog you have two possibilities: You can use the key combination Cmd+Shift+. which will show you all the hidden items. Or you use the keys Cmd+Shift+G to get an input field for the path. Enter
+This installs the graphviz binaries under /usr/local/bin for macOS on Intel, and /opt/homebrew for macOS on Apple Silicon/ARM. FreeCAD will look there all by itself. If the program is not found there you are asked to enter the path. Unfortunately we can\'t navigate directly there from the file dialog that comes up from **Tools → Dependency graph...**. When you get the file selection dialog you have two possibilities   * You can use the key combination Cmd+Shift+. which will show you all the hidden items. Or you use the keys Cmd+Shift+G to get an input field for the path. Enter
 
  {{Code|lang=text|code=
 /usr/local/bin
@@ -66,7 +66,7 @@ And therefore you can tell FreeCAD to look in that directory.
 
 ### Linux
 
-On most Linux distributions (Debian/Ubuntu, Fedora, OpenSUSE), you just need to install the graphviz package from the repositories. However, similar to the Mac/OSX, in cases where the Graphviz binaries are installed in a non-standard location, try to find the program with the command:
+On most Linux distributions (Debian/Ubuntu, Fedora, OpenSUSE), you just need to install the graphviz package from the repositories. However, similar to the Mac/OSX, in cases where the Graphviz binaries are installed in a non-standard location, try to find the program with the command   *
 
  {{Code|lang=text|code=
 type dot
@@ -89,7 +89,7 @@ And therefore you can point FreeCAD to look in that directory.
 
 ## Save
 
-You can save a dependency graph:
+You can save a dependency graph   *
 
 1.  Make sure the Dependency graph tab is in the foreground.
 2.  Select the **File → [Save](Std_Save.md)** or **File → [Save As](Std_SaveAs.md)** option from the menu.
@@ -113,7 +113,9 @@ You can save a dependency graph:
 
 
 
- {{Std Base navi}}
+ {{Std Base navi}} 
+
+[Category   *3rd Party](Category_3rd_Party.md)
 
 
 

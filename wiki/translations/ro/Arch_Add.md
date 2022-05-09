@@ -1,6 +1,6 @@
 # Arch Add/ro
 ---
-- GuiCommand:/ro   Name:Arch Add   Name/ro:Arch Add   Workbenches:[MenuLocation:Arch → Add   SeeAlso:[[Arch Remove|Arch Remove](Arch_Workbench/ro___Arch]].md)---
+- GuiCommand   */ro   Name   *Arch Add   Name/ro   *Arch Add   Workbenches   *[MenuLocation   *Arch → Add   SeeAlso   *[[Arch Remove|Arch Remove](Arch_Workbench/ro___Arch]].md)---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Add vă permite 4 feluri de operații:
+Instrumentul Add vă permite 4 feluri de operații   *
 
 -   Add [shape](Part_Workbench.md)-based objects to an Arch component, such as a [wall](Arch_Wall.md) or [structure](Arch_Structure.md). Aceste obiecte fac parte din componenta Arch și vă permit să modificați forma sa, dar păstrând proprietățile sale de bază ca lățimea și înalțimea
 -   Adaugă componente Arch, ca de exemplu [walls](Arch_Wall.md) sau [structures](Arch_Structure.md), la un grup de obiecte de bază Arch ca de exempluh o [floors](Arch_Floor.md).
@@ -22,7 +22,7 @@ Instrumentul Add vă permite 4 feluri de operații:
 
 The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -61,13 +61,13 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Add poate fi folosit în [macros](macros.md) și de la consola Python utilizând următoarea funcție:
+Instrumentul Add poate fi folosit în [macros](macros.md) și de la consola Python utilizând următoarea funcție   *
 
 
 </div>
 
 
-:   
+   *   
     
 ```python
     addComponents(objectsList, host)

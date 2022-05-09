@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Part JoinEmbed
-   Name/fr:Part Intégrer un objet
-   MenuLocation:Part → Joindre → Intégrer un objet
-   Workbenches:[Part](Part_Workbench/fr.md)
-   Version:0.16
-   SeeAlso:[Part Connecter un objet](Part_JoinConnect/fr.md), [Part Découpe](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
+- GuiCommand   */fr
+   Name   *Part JoinEmbed
+   Name/fr   *Part Intégrer un objet
+   MenuLocation   *Part → Joindre → Intégrer un objet
+   Workbenches   *[Part](Part_Workbench/fr.md)
+   Version   *0.16
+   SeeAlso   *[Part Connecter un objet](Part_JoinConnect/fr.md), [Part Découpe](Part_JoinCutout/fr.md), [Part Opération booléenne](Part_Boolean/fr.md), [Part Évidement](Part_Thickness/fr.md)
 ---
 
 # Part JoinEmbed/fr
@@ -28,19 +28,19 @@ Un objet Part Intégrer est créé, avec le mode défini sur \'Embed\' (Intégr�
 
 {{TitleProperty|Base}}
 
--    **Base**: Référence à l\'objet de base (celui dans lequel l\'autre objet doit être incorporé). L\'objet doit être un seul solide.
+-    **Base**   * Référence à l\'objet de base (celui dans lequel l\'autre objet doit être incorporé). L\'objet doit être un seul solide.
 
--    **Tool**: Référence à l\'objet Insert (l\'objet à incorporer). L\'objet peut être un solide unique ou un [composé valide](Part_Compound/fr.md) de solides.
+-    **Tool**   * Référence à l\'objet Insert (l\'objet à incorporer). L\'objet peut être un solide unique ou un [composé valide](Part_Compound/fr.md) de solides.
 
--    **Mode**: Le mode opératoire est égal à \'Intégrer\' (Changer ce qui transformera l\'Insert en une autre Part\_JoinXXX). La valeur \'bypass\' peut être utilisée pour désactiver temporairement les calculs longs (un composé de Base et Insert sera créé, ce qui est une opération rapide).
+-    **Mode**   * Le mode opératoire est égal à \'Intégrer\' (Changer ce qui transformera l\'Insert en une autre Part\_JoinXXX). La valeur \'bypass\' peut être utilisée pour désactiver temporairement les calculs longs (un composé de Base et Insert sera créé, ce qui est une opération rapide).
 
--    **Refine**: Définit si l\'opération [Affiner](Part_RefineShape/fr.md) doit être appliquée ou non à la forme finale. La valeur par défaut est déterminée par une case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de PartDesign. Lorsque la propriété Mode est réglée sur \"bypass\", Affiner est ignoré (jamais appliqué).
+-    **Refine**   * Définit si l\'opération [Affiner](Part_RefineShape/fr.md) doit être appliquée ou non à la forme finale. La valeur par défaut est déterminée par une case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de PartDesign. Lorsque la propriété Mode est réglée sur \"bypass\", Affiner est ignoré (jamais appliqué).
 
 ## Exemple
 
-1.  Créez un tuyau en appliquant [évidement (ou coque)](Part_Thickness/fr.md) à un [cylindre](Part_Cylinder/fr.md) :
-    <img alt="" src=images/JoinFeatures_Example_step1.png  style="width:320px;">
-2.  Créez un autre tuyau de plus petit diamètre et placez-le de manière à ce qu\'il perce la paroi du premier tuyau :
+1.  Créez un tuyau en appliquant [évidement (ou coque)](Part_Thickness/fr.md) à un [cylindre](Part_Cylinder/fr.md)    *
+    <img alt="" src=images/JoinFeatures_Example_step1.png  style="width   *320px;">
+2.  Créez un autre tuyau de plus petit diamètre et placez-le de manière à ce qu\'il perce la paroi du premier tuyau    *
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Sélectionnez le premier tuyau, puis le second (l\'ordre de sélection est important), puis cliquez sur l\'option \"Intégrer l\'objet\" dans le bouton de la barre d\'outils déroulante Outils de jointure.
     ![320px](images/JoinFeatures_Example_step3_Embed.png)
@@ -53,7 +53,7 @@ Les algorithmes derrière les outils Joindre sont assez simples et leur compréh
 
 1\. L\'objet de base est [soustraction booléenne](Part_Cut/fr.md) avec l\'objet Insert. La forme résultante est un ensemble ([composé](Part_Compound/fr.md)) de solides non sécants (généralement deux).
 
-2\. Le composé résultant est filtré : seul le plus grand solide est conservé.
+2\. Le composé résultant est filtré    * seul le plus grand solide est conservé.
 
 3\. Le plus grand solide est une [Union](Part_Fuse/fr.md) avec l\'objet Tool.
 
@@ -68,7 +68,7 @@ Les algorithmes derrière les outils Joindre sont assez simples et leur compréh
 
 ## Script
 
-L\'outil Joindre peut être utilisé dans des [macros](macros/fr.md) à partir de la console Python en utilisant la fonction suivante :
+L\'outil Joindre peut être utilisé dans des [macros](macros/fr.md) à partir de la console Python en utilisant la fonction suivante    *
 
 
 ```pythonJoinFeatures.makePartJoinFeature(name = 'Embed', mode = 'Embed')```
@@ -76,7 +76,7 @@ L\'outil Joindre peut être utilisé dans des [macros](macros/fr.md) à partir d
 -   Crée une fonction Intégration vide (ou une autre fonction de jointure, selon le mode transmis). Les propriétés Base et Insert doivent être affectées explicitement, après.
 -   Renvoie l\'objet nouvellement créé.
 
-Exemple :
+Exemple    *
 
 
 {{code|code=
@@ -86,7 +86,7 @@ j.Base = FreeCADGui.Selection.getSelection()[0]
 j.Tool = FreeCADGui.Selection.getSelection()[1]
 }}
 
-L\'outil lui-même est implémenté en Python, voir {{FileName|/Mod/Part/JoinFeatures.py}} ([Github link](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) là où FreeCAD est installé.
+L\'outil lui-même est implémenté en Python, voir **/Mod/Part/JoinFeatures.py** ([Github link](https   *//github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Part/JoinFeatures.py)) là où FreeCAD est installé.
 
 
 

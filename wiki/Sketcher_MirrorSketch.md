@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:Sketcher MirrorSketch
-   MenuLocation:Sketch → Mirror sketch
-   Workbenches:[Sketcher](Sketcher_Workbench.md)
-   Version:0.16
+- GuiCommand   *
+   Name   *Sketcher MirrorSketch
+   MenuLocation   *Sketch → Mirror sketch
+   Workbenches   *[Sketcher](Sketcher_Workbench.md)
+   Version   *0.16
 ---
 
 # Sketcher MirrorSketch
@@ -15,7 +15,7 @@ Mirror a sketch along the x-axis, the y-axis, or the origin. This command is inv
 ## Usage
 
 1.  Select sketch to be mirrored (typically by clicking on it in the [tree view](Tree_view.md)).
-2.  Click on **[<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Mirror sketch](Sketcher_MirrorSketch.md)** or choose **Sketch → [<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Mirror sketch](Sketcher_MirrorSketch.md)** from the top menu.
+2.  Click on **[<img src=images/Sketcher_MirrorSketch.svg style="width   *16px"> [Mirror sketch](Sketcher_MirrorSketch.md)** or choose **Sketch → [<img src=images/Sketcher_MirrorSketch.svg style="width   *16px"> [Mirror sketch](Sketcher_MirrorSketch.md)** from the top menu.
 3.  The resulting sketch is created as a separate new object.
 
 ## Notes

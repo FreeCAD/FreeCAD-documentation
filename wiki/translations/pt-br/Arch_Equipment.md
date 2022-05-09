@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Arch Equipment
-   MenuLocation:Arch → Equipment
-   Workbenches:[Arch](Arch_Workbench.md)
-   Shortcut:**E** **Q**
-   SeeAlso:[Arch 3 views](Arch_3Views.md)
+- GuiCommand   *
+   Name   *Arch Equipment
+   MenuLocation   *Arch → Equipment
+   Workbenches   *[Arch](Arch_Workbench.md)
+   Shortcut   ***E** **Q**
+   SeeAlso   *[Arch 3 views](Arch_3Views.md)
 ---
 
 # Arch Equipment/pt-br
@@ -34,20 +34,20 @@ When using the Arch OBJ exporter, all equipment objects that are in mesh display
 
 ## Propriedades
 
--    **Model**: A description of the model of this equipment.
+-    **Model**   * A description of the model of this equipment.
 
--    **Url**: An URL of the product page where more information about this equipment can be found.
+-    **Url**   * An URL of the product page where more information about this equipment can be found.
 
--    **Mesh**: A [Mesh](Mesh_Workbench.md) representation to use for this equipment. When set, the **Mesh** display mode becomes available.
+-    **Mesh**   * A [Mesh](Mesh_Workbench.md) representation to use for this equipment. When set, the **Mesh** display mode becomes available.
 
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Equipment tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The Equipment tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   * 
 ```python
 Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 ```
@@ -56,11 +56,11 @@ Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 -   If a `placement` is given, it is used.
 -   It returns `None` if the operation fails.
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Arch
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 500
 Box.Width = 2000
 Box.Height = 600

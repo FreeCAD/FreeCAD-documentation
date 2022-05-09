@@ -1,19 +1,19 @@
 ---
-- GuiCommand:/fr
-   Name:Part Helix
-   Name/fr:Part Hélice
-   MenuLocation:Part → [Créer des primitives...](Part_Primitives/fr.md) → Hélice
-   Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
+- GuiCommand   */fr
+   Name   *Part Helix
+   Name/fr   *Part Hélice
+   MenuLocation   *Part → [Créer des primitives...](Part_Primitives/fr.md) → Hélice
+   Workbenches   *[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso   *[Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Helix/fr
 
 ## Description
 
-Une <img alt="" src=images/Part_Helix.svg  style="width:24px;"> **Part Hélice** est une forme paramétrique qui peut être créée avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives/fr.md). Dans le système de coordonnées défini par sa propriété **Placement**, l\'axe de l\'hélice correspond à l\'axe des Z et son point inférieur, le point de départ, se trouve sur l\'axe des X.
+Une <img alt="" src=images/Part_Helix.svg  style="width   *24px;"> **Part Hélice** est une forme paramétrique qui peut être créée avec la commande <img alt="" src=images/Part_Primitives.svg  style="width   *24px;"> [Part Primitives](Part_Primitives/fr.md). Dans le système de coordonnées défini par sa propriété **Placement**, l\'axe de l\'hélice correspond à l\'axe des Z et son point inférieur, le point de départ, se trouve sur l\'axe des X.
 
-<img alt="" src=images/Part_Helix_Example.png  style="width:400px;">
+<img alt="" src=images/Part_Helix_Example.png  style="width   *400px;">
 
 ## Utilisation
 
@@ -27,13 +27,13 @@ Un objet Part Hélice créé avec l\'[exemple du script](#Script.md) ci-dessous.
 
 ## Remarques
 
--   Une Part Hélice peut être utilisée pour créer des filets de vis. Voir [Tutoriel : Création de vis](Thread_for_Screw_Tutorial/fr.md).
+-   Une Part Hélice peut être utilisée pour créer des filets de vis. Voir [Tutoriel    * Création de vis](Thread_for_Screw_Tutorial/fr.md).
 
 ## Propriétés
 
-Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Part Hélice est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet Part Hélice est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
@@ -45,36 +45,36 @@ L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Par
 
 {{TitleProperty|Coordinate System}}
 
--    **Local Coord|Enumeration**: La [chiralité](https://fr.wikipedia.org/wiki/Chiralit%C3%A9), ou direction, de l\'hélice : {{Value|Right-handed}} ou {{Value|Left-handed}}. La valeur par défaut est {{Value|Right-handed}}, ce qui signifie que l\'hélice tourne dans le sens inverse des aiguilles d\'une montre en montant.
+-    **Local Coord|Enumeration**   * La [chiralité](https   *//fr.wikipedia.org/wiki/Chiralit%C3%A9), ou direction, de l\'hélice    * {{Value|Right-handed}} ou {{Value|Left-handed}}. La valeur par défaut est {{Value|Right-handed}}, ce qui signifie que l\'hélice tourne dans le sens inverse des aiguilles d\'une montre en montant.
 
 
 {{TitleProperty|Helix}}
 
--    **Pitch|Length**: La distance entre deux tours consécutifs de l\'hélice, mesurée le long de son axe Z. La valeur par défaut est {{Value|1mm}}.
+-    **Pitch|Length**   * La distance entre deux tours consécutifs de l\'hélice, mesurée le long de son axe Z. La valeur par défaut est {{Value|1mm}}.
 
--    **Height|Length**: La hauteur de l\'hélice. La valeur par défaut est {{Value|2mm}}.
+-    **Height|Length**   * La hauteur de l\'hélice. La valeur par défaut est {{Value|2mm}}.
 
--    **Radius|Length**: Le rayon de départ de l\'hélice. L\'hélice a un rayon constant si **Angle** est {{Value|0°}}.
+-    **Radius|Length**   * Le rayon de départ de l\'hélice. L\'hélice a un rayon constant si **Angle** est {{Value|0°}}.
 
--    **Segment Length|QuantityConstraint**: Le nombre de tours par subdivision de l\'hélice. La valeur par défaut est {{Value|1}}, ce qui signifie que chaque tour complet de l\'hélice est un segment séparé. Utilisez {{Value|0}} pour supprimer la subdivision.
+-    **Segment Length|QuantityConstraint**   * Le nombre de tours par subdivision de l\'hélice. La valeur par défaut est {{Value|1}}, ce qui signifie que chaque tour complet de l\'hélice est un segment séparé. Utilisez {{Value|0}} pour supprimer la subdivision.
 
--    **Angle|Angle**: L\'angle qui définit la forme extérieure de l\'hélice. Plage valide : {{Value|-90° &lt; value &lt; 90°}}. La valeur par défaut est {{Value|0°}}. Si la valeur est {{Value|0°}}, l\'hélice est cylindrique, sinon elle est conique.
+-    **Angle|Angle**   * L\'angle qui définit la forme extérieure de l\'hélice. Plage valide    * {{Value|-90° &lt; value &lt; 90°}}. La valeur par défaut est {{Value|0°}}. Si la valeur est {{Value|0°}}, l\'hélice est cylindrique, sinon elle est conique.
 
 ## Script
 
-Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Une Part Hélice est créée avec la méthode `addObject()` du document :
+Une Part Hélice est créée avec la méthode `addObject()` du document    *
 
 
 ```python
-helix = FreeCAD.ActiveDocument.addObject("Part::Helix", "myHelix")
+helix = FreeCAD.ActiveDocument.addObject("Part   *   *Helix", "myHelix")
 ```
 
 -   Où {{Incode|"myHelix"}} est le nom de l\'objet.
 -   La fonction restitue l\'objet nouvellement créé.
 
-Exemple :
+Exemple    *
 
 
 ```python
@@ -82,7 +82,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-helix = doc.addObject("Part::Helix", "myHelix")
+helix = doc.addObject("Part   *   *Helix", "myHelix")
 helix.Pitch = 2
 helix.Height = 3
 helix.Radius = 4

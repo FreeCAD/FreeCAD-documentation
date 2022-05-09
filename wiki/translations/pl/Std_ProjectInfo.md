@@ -1,41 +1,44 @@
 ---
-- GuiCommand:
-   Name:Std ProjectInfo
-   MenuLocation:File → Project information...
-   Workbenches:All
-   SeeAlso:[Std New](Std_New.md)
+- GuiCommand   */pl
+   Name   *Std ProjectInfo
+   Name/pl   *Std   * Informacja o projekcie
+   MenuLocation   *Plik → Informacja o projekcie ...
+   Workbenches   *wszystkie
+   SeeAlso   *[Nowy](Std_New/pl.md)
 ---
 
 # Std ProjectInfo/pl
 
-## Description
+## Opis
 
-The **Std ProjectInfo** command shows a dialog box with project information belonging to the active document. Some of this information can be edited.
+Polecenie **Informacja o projekcie** wyświetla okno dialogowe z informacjami o projekcie należącym do aktywnego dokumentu. Niektóre z tych informacji można edytować.
 
-## Usage
+## Użycie
 
-1.  Select the **File → <img src="images/Std_ProjectInfo.svg" width=16px> Project information...** option from the menu.
-2.  A dialog box with the following information pops up:
-    -   **Name**: The name of the document. **Not editable**. Corresponds to the Label property of the document which can be changed in the [Property editor](Property_editor.md).
-    -   **Path**: The full path of the file. Blank if the document has not been saved. **Not editable**.
-    -   **UUID**: FreeCAD automatically enters a checksum value. **Not editable**.
-    -   **Created by**: Enter an author name. **Can be preset**.
-    -   **Creation date**: FreeCAD automatically enters the correct date. **Not editable**.
-    -   **Last modified by**: Enter an author name. **Can be preset**.
-    -   **Last modification date**: FreeCAD automatically enters the correct date. **Not editable**.
-    -   **Company**: Enter a company name. **Can be preset**.
-    -   **License Information**: Select a license from the pulldown menu. **Can be preset**.
-    -   **License URL**: The URL will change with the selected license, but can be overwritten. **Can be preset**.
-    -   **Comment**: Enter any comment that may apply.
-3.  Enter the required information and press the **OK** button.
+1.  Wybierz z menu opcję **Plik → <img src="images/Std_ProjectInfo.svg" width=16px>. Informacje o projekcie ...**.
+2.  Wyskakuje okno dialogowe z następującymi informacjami   *
+    -   **Nazwa**   * Nazwa dokumentu. **Nie edytowalne**. Odpowiada właściwości Etykieta dokumentu, którą można zmienić w [Edytorze właściwości](Property_editor/pl.md).
+    -   **Ścieżka**   * Pełna ścieżka dostępu do pliku. Puste, jeśli dokument nie został zapisany. **Nie edytowalne**.
+    -   **UUID**   * FreeCAD automatycznie wpisuje wartość sumy kontrolnej. **Nie edytowalne**.
+    -   **Utworzony przez**   * Wprowadź nazwisko autora. **Może być wstępnie ustawiony**.
+    -   **Data utworzenia**   * FreeCAD automatycznie wpisuje poprawną datę. **Nie edytowalne**.
+    -   **Ostatnio modyfikowane przez**   * Wprowadź nazwisko autora. **Może być wstępnie ustawiony**.
+    -   **Data ostatniej modyfikacji**   * FreeCAD automatycznie wpisuje poprawną datę. **nie edytowalne**.
+    -   **Firma**   * Wprowadź nazwę firmy. **Może być wstępnie ustawiona**.
+    -   **Informacje o licencji**   * Wybierz licencję z menu rozwijanego. **Może być wstępnie ustawiony**.
+    -   **Adres URL licencji**   * Adres URL będzie się zmieniał wraz z wybraną licencją, ale może zostać nadpisany. **Może być wstępnie ustawiony**.
+    -   **Komentarz**   * Wprowadź dowolny komentarz, który może mieć zastosowanie.
+3.  Wprowadź wymagane informacje i naciśnij przycisk **OK**.
 
-## Options
+Przetłumaczono z www.DeepL.com/Translator (wersja darmowa)
 
--   Press **Esc** or the **Cancel** button to abort the command.
+## Opcje
 
-## Preferences
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
--   The values for the author names, company name and license information can be preset in the [Preferences Editor](Preferences_Editor#Document.md).
+## Ustawienia
+
+-   Wartości dla nazwisk autorów, nazwy firmy i informacji o licencji można wstępnie ustawić w [Edytorze ustawień](Preferences_Editor/pl#Dokument.md).
 
 
 

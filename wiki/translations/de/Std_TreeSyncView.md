@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Std TreeSyncView
-   Name/de:Std BaumSyncAnsicht
-   MenuLocation:Ansicht → BaumAnsicht-Aktionen → Sync-Ansicht
-   Workbenches:All
-   Shortcut:**T** **1**
-   Version:0.19
+- GuiCommand   */de
+   Name   *Std TreeSyncView
+   Name/de   *Std BaumSyncAnsicht
+   MenuLocation   *Ansicht → BaumAnsicht-Aktionen → Sync-Ansicht
+   Workbenches   *All
+   Shortcut   ***T** **1**
+   Version   *0.19
 ---
 
 # Std TreeSyncView/de
@@ -16,14 +16,14 @@ Der Befehl **Std BaumSyncAnsicht** schaltet den SyncView-Modus der [Baumansicht]
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Anklicken des nach unten weisenden Pfeils rechts neben der Schaltfläche **<img src="images/Std_TreeSyncView.svg" width=16px>** und Auswahl des Eintrags **Sync-Ansicht** von der angezeigten Liste. Hinweis: Das Bild auf der Schaltfläche ändert sich entsprechend der Auswahl.
+1.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen   *
+    -   Anklicken des nach unten weisenden Pfeils rechts neben der Schaltfläche **<img src="images/Std_TreeSyncView.svg" width=16px>** und Auswahl des Eintrags **Sync-Ansicht** von der angezeigten Liste. Hinweis   * Das Bild auf der Schaltfläche ändert sich entsprechend der Auswahl.
     -   Den Menüeintrag **Ansicht → BaumAnsicht-Aktionen → <img src="images/Std_TreeSyncView.svg" width=16px> Sync-Ansicht** auswählen.
     -   Das Tastaturkürzel **T** dann **1**.
 
 ## Einstellungen
 
--   Der SyncView-Modus der Baumansicht kann auch im [Eigenschafteneditor](Property_editor/de#Selection.md) ausgewähltwerden: **Bearbeiten→ Einstellungen... → Allgemein → Auswahl**.
+-   Der SyncView-Modus der Baumansicht kann auch im [Eigenschafteneditor](Property_editor/de#Selection.md) ausgewähltwerden   * **Bearbeiten→ Einstellungen... → Allgemein → Auswahl**.
 
 
 

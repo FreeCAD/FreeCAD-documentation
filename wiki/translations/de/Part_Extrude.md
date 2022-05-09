@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/de
-   Name:Part Extrude
-   Name/de:Part Extrudieren
-   MenuLocation:Formteil → Extrudieren...
-   Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Draft Trimex](Draft_Trimex/de.md), [PartDesign Pad](PartDesign_Pad/de.md)
+- GuiCommand   */de
+   Name   *Part Extrude
+   Name/de   *Part Extrudieren
+   MenuLocation   *Formteil → Extrudieren...
+   Workbenches   *[Part](Part_Workbench/de.md)
+   SeeAlso   *[Draft Trimex](Draft_Trimex/de.md), [PartDesign Pad](PartDesign_Pad/de.md)
 ---
 
 # Part Extrude/de
@@ -23,7 +23,7 @@ In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformty
 -   extrudieren eines offenen Drahts (z.B. Entwurf Draht) wird wahlweise eine offene Hülle (mehrere verbundene Flächen) erzeugen
 -   extrudieren eines geschlossenen Linienzuges (z.B. Draft Linienzug) wird wahlweise eine Hülle (mehrere angeschlossene Flächen) oder wenn der Parameter *Festkörper* `True` ist, einen Festkörper erzeugen
 -   extrudieren einer Fläche (z.B. Ebene) wird einen Festkörper (z.B. Quader) erzeugen
--   extrudieren eines **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Entwurf Form Zeichenfolge](Draft_ShapeString.md)** wird einen Verbund von Festkörpern (die Zeichenfolge ist ein Verbund der Buchstaben, die ebenfalls Festkörper sind) erzeugen
+-   extrudieren eines **[<img src=images/Draft_ShapeString.svg style="width   *16px"> [Entwurf Form Zeichenfolge](Draft_ShapeString.md)** wird einen Verbund von Festkörpern (die Zeichenfolge ist ein Verbund der Buchstaben, die ebenfalls Festkörper sind) erzeugen
 -   extrudieren einer Hülle von Flächen wird ein Verbundfestkörper erzeugt
 
 ## Anwendung
@@ -66,47 +66,47 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 <div class="mw-translate-fuzzy">
 
--   **Basis**: Die Eingabeform (die Form, auf die Part Extrudieren angewendet wurde)
+-   **Basis**   * Die Eingabeform (die Form, auf die Part Extrudieren angewendet wurde)
 
 
 </div>
 
--   **Dir**: Die Richtung, in die die Form extrudiert werden soll. Falls **Dir Mode** auf \'Custom\' gesetzt ist, kann **Dir** geändert werden. Andernfalls ist **Dir** nur-lesen und wird aus der verbundenen Form berechnet.
+-   **Dir**   * Die Richtung, in die die Form extrudiert werden soll. Falls **Dir Mode** auf \'Custom\' gesetzt ist, kann **Dir** geändert werden. Andernfalls ist **Dir** nur-lesen und wird aus der verbundenen Form berechnet.
 
 
 <div class="mw-translate-fuzzy">
 
--   **Dir Link**: Parametrische Verbindung zu einer Kante (Linie), die die Extrusionsrichtung setzt. Seit v0.17 wird diese Eigenschaft nicht mehr vom Eigenschafteneditor unterstützt.
+-   **Dir Link**   * Parametrische Verbindung zu einer Kante (Linie), die die Extrusionsrichtung setzt. Seit v0.17 wird diese Eigenschaft nicht mehr vom Eigenschafteneditor unterstützt.
 
 
 </div>
 
--   **Dir Mode**: legt fest, wie **Dir** kontrolliert wird. \'Custom\' bedeutet, **Dir** ist änderbar. \'Edge\' bedeutet, Dir wird aus einer über **Dir Link** verbundenen Kante (Linie) ermittelt. \'Normal\' bedeutet, Dir ist senkrecht zur Ebene der Eingabeform.
+-   **Dir Mode**   * legt fest, wie **Dir** kontrolliert wird. \'Custom\' bedeutet, **Dir** ist änderbar. \'Edge\' bedeutet, Dir wird aus einer über **Dir Link** verbundenen Kante (Linie) ermittelt. \'Normal\' bedeutet, Dir ist senkrecht zur Ebene der Eingabeform.
 
--   **Length Fwd**: Die zu extrudierende Länge. Falls sowohl **Length Fwd** und **Length Rev** Null sind, wird die Länge des **Dir**-Vektors verwendet.
+-   **Length Fwd**   * Die zu extrudierende Länge. Falls sowohl **Length Fwd** und **Length Rev** Null sind, wird die Länge des **Dir**-Vektors verwendet.
 
--   **Length Rev**: Zusätzliche zu extrudierende Länge gegen **Dir**.
+-   **Length Rev**   * Zusätzliche zu extrudierende Länge gegen **Dir**.
 
--   **Solid**: Falls `True`, wird das Extrudieren einer geschlossenen Kante oder eines geschlossenen Linienzuges einen Festkörper ergeben. Falls `False`, wird eine Hülle entstehen.
+-   **Solid**   * Falls `True`, wird das Extrudieren einer geschlossenen Kante oder eines geschlossenen Linienzuges einen Festkörper ergeben. Falls `False`, wird eine Hülle entstehen.
 
--   **Reversed**: Kehrt die Extrusionsrichtung um (gegen **Dir**).
+-   **Reversed**   * Kehrt die Extrusionsrichtung um (gegen **Dir**).
 
--   **Symmetric**: wenn True, ist die Extrusion an der Eingangsform zentriert, und die Gesamtlänge ist **Länge Fwd**. **Länge Rev**\' wird ignoriert.
+-   **Symmetric**   * wenn True, ist die Extrusion an der Eingangsform zentriert, und die Gesamtlänge ist **Länge Fwd**. **Länge Rev**\' wird ignoriert.
 
 
 <div class="mw-translate-fuzzy">
 
--   **Neigungswinkel**\' und **Neigungswinkel Rev**\': wendet einen Winkel auf die Extrusion an, so dass die Seiten der Extrusion um den angegebenen Winkel verzogen werden. Positiver Winkel bedeutet, dass sich der Querschnitt ausdehnt. **Neigungswinkel Rev**: legt die Verjüngung für den umgekehrten Teil der Extrusion fest (der Teil aus **Länge Rev**). Ab v0.17 wird die geneigte Extrusion nur noch für Drähte ohne Löcher unterstützt. Neigung funktioniert nicht gut, wenn die extrudierte Form B-Splines enthält.
+-   **Neigungswinkel**\' und **Neigungswinkel Rev**\'   * wendet einen Winkel auf die Extrusion an, so dass die Seiten der Extrusion um den angegebenen Winkel verzogen werden. Positiver Winkel bedeutet, dass sich der Querschnitt ausdehnt. **Neigungswinkel Rev**   * legt die Verjüngung für den umgekehrten Teil der Extrusion fest (der Teil aus **Länge Rev**). Ab v0.17 wird die geneigte Extrusion nur noch für Drähte ohne Löcher unterstützt. Neigung funktioniert nicht gut, wenn die extrudierte Form B-Splines enthält.
 
 
 </div>
 
--   **Flächer Hersteller Klasse**\': legt den C++ Klassennamen des Flächen Hersteller Codes fest, der bei der Herstellung von Festkörpern aus Drähten verwendet wird. Diese Eigenschaft dient hier hauptsächlich der Aufrechterhaltung der Abwärtskompatibilität. Nicht antasten, es sei denn, du weißt, was du tust.
+-   **Flächer Hersteller Klasse**\'   * legt den C++ Klassennamen des Flächen Hersteller Codes fest, der bei der Herstellung von Festkörpern aus Drähten verwendet wird. Diese Eigenschaft dient hier hauptsächlich der Aufrechterhaltung der Abwärtskompatibilität. Nicht antasten, es sei denn, du weißt, was du tust.
 
 
 <div class="mw-translate-fuzzy">
 
--   **Placement**: Die Standard-[placement](Placement.md)-Parameter
+-   **Placement**   * Die Standard-[placement](Placement.md)-Parameter
 
 
 </div>
@@ -114,7 +114,7 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 <div class="mw-translate-fuzzy">
 
--   **Label**: Bezeichnung die im Modell [Baumansicht](tree_view/de.md) angezeigt wird (nicht verfügbar bei der Extrusionserstellung)
+-   **Label**   * Bezeichnung die im Modell [Baumansicht](tree_view/de.md) angezeigt wird (nicht verfügbar bei der Extrusionserstellung)
 
 
 </div>
@@ -123,37 +123,39 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 
 ![](images/Part_Extrude_dialog.png )
 
--    **OK**: Schaltfläche erzeugt die Extrusion und schließt den Dialog.
+-    **OK**   * Schaltfläche erzeugt die Extrusion und schließt den Dialog.
 
 -    **Schließen**Schaltfläche schließt den Dialog, ohne etwas zu tun.
 
 -    **Anwenden**Schaltfläche erzeut die Extrusion, schließt aber nicht den Dialog. Nach Auswahl einer weiteren Form in der Liste am Schluss kann eine weitere Extrusionen erfolgen. Mehrfaches Klicken auf **Apply** erzeugt mehrere Extrusionen.
 
--   \'Richtung\' Radioknöpfe: Legt den Weg fest, wie die Extrusionsrichtung berechnet wird.
+-   \'Richtung\' Radioknöpfe   * Legt den Weg fest, wie die Extrusionsrichtung berechnet wird.
 
 
 <div class="mw-translate-fuzzy">
 
--    **Select**Schaltfläche: Klicke ihn und greife dann eine Kante in der [3D Ansicht](3D_view/de.md). Diese Kante wird im Textfeld neben dem Button erscheinen im Format \"ObjectName:EdgeN\". Du kannst auch den Link manuell eintippen. Die X, Y und Z Werte werden entsprechend der Kantenrichtung gefüllt.
+-    **Select**Schaltfläche   * Klicke ihn und greife dann eine Kante in der [3D Ansicht](3D_view/de.md). Diese Kante wird im Textfeld neben dem Button erscheinen im Format \"ObjectName   *EdgeN\". Du kannst auch den Link manuell eintippen. Die X, Y und Z Werte werden entsprechend der Kantenrichtung gefüllt.
 
 
 </div>
 
--    **X**, **Y**, **Z** Schaltflächen: Klicke *x* Schaltfläche, um die Extrusionsrichtung auf +*x* Achse zu setzen. Erneutes klicken setzt sie auf -*x* Achse.
+-    **X**, **Y**, **Z** Schaltflächen   * Klicke *x* Schaltfläche, um die Extrusionsrichtung auf +*x* Achse zu setzen. Erneutes klicken setzt sie auf -*x* Achse.
 
--    **X**, **Y**, **Z** Eingabefelder: Setzt oder zeigt den Richtungsvektor der Extrusion. Wenn beide Längen Null sind, setzt die Länge dieses Vektor die Extrusionslänge. Die Längen sind immer in mm, unabhängig von Einheiteneinstellungen.
+-    **X**, **Y**, **Z** Eingabefelder   * Setzt oder zeigt den Richtungsvektor der Extrusion. Wenn beide Längen Null sind, setzt die Länge dieses Vektor die Extrusionslänge. Die Längen sind immer in mm, unabhängig von Einheiteneinstellungen.
 
--   Längen Felder: Setzt die Extrusionslänge. Diese Eingabefelder berücksichtigen Einheiteneinstellungen.
+-   Längen Felder   * Setzt die Extrusionslänge. Diese Eingabefelder berücksichtigen Einheiteneinstellungen.
 
--   Symmetrisch: breitet die Extrusion in beide Richtungen aus, so dass das Profil in der Mitte verbleibt.
+-   Symmetrisch   * breitet die Extrusion in beide Richtungen aus, so dass das Profil in der Mitte verbleibt.
 
--   Außenneigungswinkel: positiver Winkel bedeutet, dass das Profil am anderen Ende der Extrusion erweitert wird.
+-   Außenneigungswinkel   * positiver Winkel bedeutet, dass das Profil am anderen Ende der Extrusion erweitert wird.
 
--   Erzeuge Festkörper Ankreuzkästchen: Wenn aktiviert, wird die Extrusion eines geschlossenen Linienzugs oder einer geschlossenen Kante einen Festkörper ergeben. Es ist wird standardmäßig aktiviert, wenn vor dem Aufruf von Part Extrusion ein geschlossener Linienzug ausgewählt wurde.
+-   Erzeuge Festkörper Ankreuzkästchen   * Wenn aktiviert, wird die Extrusion eines geschlossenen Linienzugs oder einer geschlossenen Kante einen Festkörper ergeben. Es ist wird standardmäßig aktiviert, wenn vor dem Aufruf von Part Extrusion ein geschlossener Linienzug ausgewählt wurde.
 
--   Formliste: Hier werden die zu extrudierenden Formen ausgewählt. Bei der Auswahl von mehreren Objekte werden mehrere Extrusionsobjekte erstellt.
+-   Formliste   * Hier werden die zu extrudierenden Formen ausgewählt. Bei der Auswahl von mehreren Objekte werden mehrere Extrusionsobjekte erstellt.
 
 ## Hinweise
+
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and to specify the direction. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -161,22 +163,6 @@ Die Extrusionsform wird durch die folgenden Parameter festgelegt, die nach ihrer
 ## Hab Dichs 
 
 Der Part Extrudieren Dialog bietet noch keine Vorschau. **Anwenden** erzeugt jedes Mal, wenn du darauf klickst, ein Extrusionsobjekt, das als Vorschau nützlich sein kann; sie bleiben jedoch erhalten und ein weiteres wird erzeugt, wenn du auf **OK** klickst. [Rückgängig](Std_Undo/de.md) kann nützlich sein, um sie vor dem **OK** Klicken zu bereinigen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Seit v0.17 kann eine Skizze, die aus PartDesign heraus erstellt wurde, nicht für die Teileextrusion verwendet werden, wenn sie sich innerhalb eines Körpers befindet (\"Verknüpfungen gehen außerhalb des zulässigen Bereichs\" Fehler)// (\"Links go out of allowed scope\" error). Um eine Skizze für die Teilextrusion zu verwenden, solltest du die Skizze aus dem Skizzierer Arbeitsbereich aus erstellen. Du kannst aber auch einfach eins aus PartDesign aus einem Körper herausziehen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Extrusion mit Neigungswinkel unterstützt keine Bohrungen. Es kann auch zu falschen Ergebnissen führen, wenn sich die Anzahl der Segmente im Profil infolge der Verjüngung ändert.
 
 
 </div>

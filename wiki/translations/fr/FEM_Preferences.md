@@ -3,22 +3,22 @@
 
 Il y a plusieurs onglets dans les préférences de l\'atelier FEM, en commençant par la configuration **Générale** de l\'atelier. Le reste des onglets contrôle la façon dont FEM interagit avec les solveurs externes supportés.
 
-Les solveurs externes actuellement acceptés sont :
+Les solveurs externes actuellement acceptés sont    *
 
--   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [CalculiX](FEM_SolverCalculixCxxtools/fr.md)
--   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer/fr.md)
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Mystran](FEM_SolverMystran/fr.md) {{Version/fr|0.20}}
--   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Z88](FEM_SolverZ88/fr.md)
+-   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width   *32px;"> [CalculiX](FEM_SolverCalculixCxxtools/fr.md)
+-   <img alt="" src=images/FEM_SolverElmer.svg  style="width   *32px;"> [Elmer](FEM_SolverElmer/fr.md)
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width   *32px;"> [Mystran](FEM_SolverMystran/fr.md) {{Version/fr|0.20}}
+-   <img alt="" src=images/FEM_SolverZ88.svg  style="width   *32px;"> [Z88](FEM_SolverZ88/fr.md)
 
 ## Général
 
-Dans l\'onglet *Général*, vous pouvez spécifier les éléments suivants:
+Dans l\'onglet *Général*, vous pouvez spécifier les éléments suivants   *
 
 ![](images/Preference_Fem_Tab_01.png )
 
 ## Gmsh
 
-Dans l\'onglet *Gmsh*, vous pouvez spécifier les éléments suivants :
+Dans l\'onglet *Gmsh*, vous pouvez spécifier les éléments suivants    *
 
 +++
 | Nom                                                             | Description                                                                                                                                   |
@@ -36,19 +36,19 @@ Dans l\'onglet *Gmsh*, vous pouvez spécifier les éléments suivants :
 
 ## CalculiX
 
-Dans l\'onglet *CalculiX*, vous pouvez spécifier les éléments suivants :
+Dans l\'onglet *CalculiX*, vous pouvez spécifier les éléments suivants    *
 
 ![](images/Preference_Fem_Tab_02.png )
 
 ## Elmer
 
-Dans l\'onglet *Elmer*, vous pouvez spécifier les éléments suivants :
+Dans l\'onglet *Elmer*, vous pouvez spécifier les éléments suivants    *
 
 +++
 | Nom                                                                           | Description                                                                                                                                                                       |
 +===============================================================================+===================================================================================================================================================================================+
 |                                                                | Si cette option est cochée, FreeCAD recherchera le binaire de l\'utilitaire d\'écriture du réseau d\'[Elmer](FEM_SolverElmer.md) dans les répertoires (habituels) connus. |
-| **ElmerGrid : Rechercher dans les répertoires binaires connus**   |                                                                                                                                                                                   |
+| **ElmerGrid    * Rechercher dans les répertoires binaires connus**   |                                                                                                                                                                                   |
 |                                                                            |                                                                                                                                                                                   |
 +++
 |                                                                | Le chemin vers le binaire de l\'utilitaire d\'écriture du réseau d\'[Elmer](FEM_SolverElmer/fr.md).                                                                       |
@@ -57,7 +57,7 @@ Dans l\'onglet *Elmer*, vous pouvez spécifier les éléments suivants :
 | .                                                                             |                                                                                                                                                                                   |
 +++
 |                                                                | Si cette option est cochée, FreeCAD recherchera le solveur binaire d\'[Elmer](FEM_SolverElmer/fr.md) dans les répertoires (habituels) connus.                             |
-| **ElmerSolver : Rechercher dans les répertoires binaires connus** |                                                                                                                                                                                   |
+| **ElmerSolver    * Rechercher dans les répertoires binaires connus** |                                                                                                                                                                                   |
 |                                                                            |                                                                                                                                                                                   |
 +++
 |                                                                | Le chemin vers le binaire du solveur d\'[Elmer](FEM_SolverElmer/fr.md).                                                                                                   |
@@ -69,7 +69,7 @@ Dans l\'onglet *Elmer*, vous pouvez spécifier les éléments suivants :
 
 ## Mystran
 
-Dans l\'onglet *Mystran*, vous pouvez spécifier les éléments suivants :
+Dans l\'onglet *Mystran*, vous pouvez spécifier les éléments suivants    *
 
 +++
 | Nom                                                             | Description                                                                                                                                       |
@@ -87,7 +87,7 @@ Dans l\'onglet *Mystran*, vous pouvez spécifier les éléments suivants :
 
 ## Z88
 
-Dans l\'onglet *Z88*, vous pouvez spécifier les éléments suivants :
+Dans l\'onglet *Z88*, vous pouvez spécifier les éléments suivants    *
 
 +++
 | Nom                                                              | Description                                                                                                                                                                                                                                             |
@@ -118,7 +118,7 @@ Dans l\'onglet *Z88*, vous pouvez spécifier les éléments suivants :
 
 ## Matériau
 
-Dans l\'onglet *Matériau*, vous pouvez spécifier les éléments suivants :
+Dans l\'onglet *Matériau*, vous pouvez spécifier les éléments suivants    *
 
 +++
 | Nom                                                                                                                     | Description                                                                                                                                                                                                         |
@@ -151,7 +151,9 @@ Dans l\'onglet *Matériau*, vous pouvez spécifier les éléments suivants :
 
 {{FEM Tools navi
 
-}}
+}} 
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

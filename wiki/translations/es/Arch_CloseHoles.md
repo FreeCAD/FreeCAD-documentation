@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/es
-   Name:Arch CloseHoles
-   Name/es:Tapar agujeros
-   MenuLocation:Arquitectura → Utilidades → Tapar agujeros
-   Workbenches:[Arquitectura](Arch_Workbench/es.md)
-   SeeAlso:[Comprobar](Arch_Check/es.md)
+- GuiCommand   */es
+   Name   *Arch CloseHoles
+   Name/es   *Tapar agujeros
+   MenuLocation   *Arquitectura → Utilidades → Tapar agujeros
+   Workbenches   *[Arquitectura](Arch_Workbench/es.md)
+   SeeAlso   *[Comprobar](Arch_Check/es.md)
 ---
 
 # Arch CloseHoles/es
@@ -50,7 +50,7 @@ Esta herramienta identifica agujeros (secuencia circular de aristas abiertas) in
 
 <div class="mw-translate-fuzzy">
 
-Esta herramienta se puede utilizar en [macros](macros/es.md) y desde la consola de Python por medio de las siguientes funciones:
+Esta herramienta se puede utilizar en [macros](macros/es.md) y desde la consola de Python por medio de las siguientes funciones   *
 
 
 </div>
@@ -68,14 +68,14 @@ cierra un agujero en una forma abierta
 
 </div>
 
-Example: 
+Example   * 
 ```python
 import FreeCAD, Draft, Arch
 
 Line = Draft.makeWire([FreeCAD.Vector(0, 0, 0),FreeCAD.Vector(2000, 2000, 0)])
 Wall = Arch.makeWall(Line, width=150, height=3000)
 
-Box = FreeCAD.ActiveDocument.addObject("Part::Box", "Box")
+Box = FreeCAD.ActiveDocument.addObject("Part   *   *Box", "Box")
 Box.Length = 900
 Box.Width = 450
 Box.Height = 2000

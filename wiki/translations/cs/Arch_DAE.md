@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Formát [Collada (DAE)](http://en.wikipedia.org/wiki/COLLADA) je standardizovaný souborový formát pro výměnu Síťových dat. [Modul Architektura](Arch_Workbench.md) umí importovat sítě z .dae souborů a exportovat stavební nebo jiné objekty založené na objektu [Tvar](Part_Workbench.md) do .dae formatu.
+Formát [Collada (DAE)](http   *//en.wikipedia.org/wiki/COLLADA) je standardizovaný souborový formát pro výměnu Síťových dat. [Modul Architektura](Arch_Workbench.md) umí importovat sítě z .dae souborů a exportovat stavební nebo jiné objekty založené na objektu [Tvar](Part_Workbench.md) do .dae formatu.
 
 
 </div>
@@ -26,7 +26,7 @@ Mějte na paměti, že importované objekty budou síťovými objekty a pro opti
 
 <div class="mw-translate-fuzzy">
 
-Importní funkcionalita Collady v modulu Architektura závisí na [pycollada](http://pycollada.github.com/). Jestliže Collada není na Vašem systému nainstalována, import/export nebude povolen.
+Importní funkcionalita Collady v modulu Architektura závisí na [pycollada](http   *//pycollada.github.com/). Jestliže Collada není na Vašem systému nainstalována, import/export nebude povolen.
 
 
 </div>
@@ -43,6 +43,11 @@ Importní funkcionalita Collady v modulu Architektura závisí na [pycollada](ht
 
 
 </div>
+
+
+ 
+
+[Category   *File Formats](Category_File_Formats.md)
 
 
 

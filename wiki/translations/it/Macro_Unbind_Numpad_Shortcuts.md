@@ -11,7 +11,7 @@
 |Version=1.0
 |Date=2018-04-22
 |FCVersion=Tutte
-|Download=[https://www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png ToolBar Icon]
 }}
 
 
@@ -29,7 +29,7 @@ Quando si immettono i numeri e la casella di immissione del numero non è corret
 
 </div>
 
-Vedere nel forum la discussione [Come disattivare (disabilitare) la navigazione dal tastierino numerico?](https://forum.freecadweb.org/viewtopic.php?f=3&t=26667)
+Vedere nel forum la discussione [Come disattivare (disabilitare) la navigazione dal tastierino numerico?](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=26667)
 
 ## Utilizzo
 
@@ -56,8 +56,8 @@ preset = [
     ("Std_ViewBottom", "Ctrl+5"),
     ("Std_ViewLeft"  , "Ctrl+6"),
 ]
-for (cmd, shortcut) in preset:
-    App.ParamGet("User parameter:BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
+for (cmd, shortcut) in preset   *
+    App.ParamGet("User parameter   *BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
 }}
 
 

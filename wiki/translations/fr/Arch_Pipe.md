@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/fr
-   Name:Arch Pipe
-   Name/fr:Arch Tuyau
-   MenuLocation:Arch → Outils pour la tuyauterie → Tuyau
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   Shortcut:**P** **I**
-   Version:0.17
-   SeeAlso:[Arch Raccord](Arch_PipeConnector/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
+- GuiCommand   */fr
+   Name   *Arch Pipe
+   Name/fr   *Arch Tuyau
+   MenuLocation   *Arch → Outils pour la tuyauterie → Tuyau
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   Shortcut   ***P** **I**
+   Version   *0.17
+   SeeAlso   *[Arch Raccord](Arch_PipeConnector/fr.md), [Arch Equipement](Arch_Equipment/fr.md)
 ---
 
 # Arch Pipe/fr
@@ -18,7 +18,7 @@ Cet outil vous permet de créer un tube à partir de zéro ou à partir d\'objet
 ## Utilisation
 
 1.  Sélectionnez une forme linéaire [Part](Part_Workbench/fr.md) telle qu\'une [Draft Ligne](Draft_Line/fr.md), un [Draft Polyligne](Draft_Wire.md) ou une [Esquisse](Sketcher_NewSketch/fr.md) ouverte.
-2.  Appelez cette commande en utilisant plusieurs méthodes:
+2.  Appelez cette commande en utilisant plusieurs méthodes   *
     -   En appuyant sur le bouton **<img src="images/Arch_Pipe.svg" width=16px> [Tuyau](Arch_Pipe/fr.md)** dans la barre d\'outils.
     -   En appuyant sur le raccourci clavier **P** puis **I**.
     -   Depuis **Arch → Outils pour la tuyauterie → Tuyau** dans le menu supérieur.
@@ -29,13 +29,13 @@ Cet outil vous permet de créer un tube à partir de zéro ou à partir d\'objet
 
 ## Propriétés
 
--    **Length**: Donne une longueur au tube, s\'il n\'est pas basé sur un fil (wire).
+-    **Length**   * Donne une longueur au tube, s\'il n\'est pas basé sur un fil (wire).
 
--    **Diameter**: Le diamètre du tube, s\'il n\'est pas basé sur un profil
+-    **Diameter**   * Le diamètre du tube, s\'il n\'est pas basé sur un profil
 
--    **Base**: Le fil est basé seulement sur le tube
+-    **Base**   * Le fil est basé seulement sur le tube
 
--    **Profile**: Le tube est basé sur le profil. S\'il n\'y a pas de profil, le tube est cylindrique.
+-    **Profile**   * Le tube est basé sur le profil. S\'il n\'y a pas de profil, le tube est cylindrique.
 
 ## Processus de travail typique 
 
@@ -43,21 +43,21 @@ Cet outil vous permet de créer un tube à partir de zéro ou à partir d\'objet
 
 ![](images/Arch_pipe_example_01.jpg )
 
--   Dans Arch Equipments vous avez maintenant une nouvelle propriété **SnapPoints** qui est une liste de vecteurs 3D. Cela vous permet d\'ajouter des points d\'accrochage personnalisés, auxquels vous pouvez vous accrocher lorsque le bouton d\'accrochage [Draft Spécial](Draft_Snap_Special/fr.md) est activé. Actuellement, cette propriété n\'est cependant disponible que pour python. Dans le cas ci-dessus, j\'ai ajouté un nouveau point d\'accrochage à la sortie du wc. Les vecteurs à l\'intérieur des SnapPoints apparaissent sur le modèle sous forme de points blancs:
+-   Dans Arch Equipments vous avez maintenant une nouvelle propriété **SnapPoints** qui est une liste de vecteurs 3D. Cela vous permet d\'ajouter des points d\'accrochage personnalisés, auxquels vous pouvez vous accrocher lorsque le bouton d\'accrochage [Draft Spécial](Draft_Snap_Special/fr.md) est activé. Actuellement, cette propriété n\'est cependant disponible que pour python. Dans le cas ci-dessus, j\'ai ajouté un nouveau point d\'accrochage à la sortie du wc. Les vecteurs à l\'intérieur des SnapPoints apparaissent sur le modèle sous forme de points blancs   *
 
 FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_02.jpg )
 
--   Avec [Draft Aimantation Spécial](Draft_Snap_Special/fr.md), vous pouvez maintenant vous accrocher sur tous ces points:
+-   Avec [Draft Aimantation Spécial](Draft_Snap_Special/fr.md), vous pouvez maintenant vous accrocher sur tous ces points   *
 
 ![](images/Arch_pipe_example_03.jpg )
 
--   Maintenant vous pouvez créer vos tubes en utilisant les fonctions Draft Lignes, Draft Polylignes ou Esquisses. La meilleure solution est d\'utiliser uniquement Draft Lignes:
+-   Maintenant vous pouvez créer vos tubes en utilisant les fonctions Draft Lignes, Draft Polylignes ou Esquisses. La meilleure solution est d\'utiliser uniquement Draft Lignes   *
 
 ![](images/Arch_pipe_example_04.jpg )
 
--   Il y a maintenant un nouvel outil [Draft Pente](Draft_Slope/fr.md) qui permet de donner une pente aux lignes, par exemple: 5% (0.05). Nous pouvons donc donner facilement une pente aux tubes de décharge. Seul la coordonnée Z est changée avec cet outil, il faut donner le départ et la fin, la coordonnées de départ (haut) reste inchangé.
+-   Il y a maintenant un nouvel outil [Draft Pente](Draft_Slope/fr.md) qui permet de donner une pente aux lignes, par exemple   * 5% (0.05). Nous pouvons donc donner facilement une pente aux tubes de décharge. Seul la coordonnée Z est changée avec cet outil, il faut donner le départ et la fin, la coordonnées de départ (haut) reste inchangé.
 
 ![](images/Arch_pipe_example_05.jpg )
 
@@ -65,7 +65,7 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_06.jpg )
 
--   Vous pouvez maintenant créer des connexions avec deux ou trois tubes coïncidents en cliquant sur le bouton [Arch Raccord](Arch_PipeConnector/fr.md). Si vous sélectionnez trois tubes, deux tubes doivent être alignés pour créer un élément de départ:
+-   Vous pouvez maintenant créer des connexions avec deux ou trois tubes coïncidents en cliquant sur le bouton [Arch Raccord](Arch_PipeConnector/fr.md). Si vous sélectionnez trois tubes, deux tubes doivent être alignés pour créer un élément de départ   *
 
 ![](images/Arch_pipe_example_07.jpg )
 
@@ -76,11 +76,11 @@ Il est aussi possible de créer un tube sans ligne de base, dans ce cas utilisez
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi   ***
 
 [API](Arch_API/fr.md) and [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Tube peut être utilisé dans une [macro](macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante : 
+L\'outil Tube peut être utilisé dans une [macro](macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante    * 
 ```python
 Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/es
-   Name:Arch Frame
-   Name/es:Arch Frame
-   MenuLocation:Arch → Frame
-   Workbenches:[Arch](Arch_Workbench/es.md)
-   Shortcut:**F** **R**
-   SeeAlso:[[Arch Wall/es]], [[Arch Structure/es]]
+- GuiCommand   */es
+   Name   *Arch Frame
+   Name/es   *Arch Frame
+   MenuLocation   *Arch → Frame
+   Workbenches   *[Arch](Arch_Workbench/es.md)
+   Shortcut   ***F** **R**
+   SeeAlso   *[[Arch Wall/es]], [[Arch Structure/es]]
 ---
 
 # Arch Frame/es
@@ -23,7 +23,7 @@ La herramienta armazón se usa para construir todo tipo de objetos de armazón b
 
 </div>
 
-<img alt="" src=images/Arch_Frame_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Frame_example.jpg  style="width   *640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -66,15 +66,15 @@ La herramienta armazón se usa para construir todo tipo de objetos de armazón b
 
 ## Propiedades
 
--    {{PropertyData/es|Base}}: el layout en el que se basa este armazón.
+-    {{PropertyData/es|Base}}   * el layout en el que se basa este armazón.
 
--    {{PropertyData/es|Profile}}: el perfil en el que se basa este armazón.
+-    {{PropertyData/es|Profile}}   * el perfil en el que se basa este armazón.
 
--    {{PropertyData/es|Align}}: Especifica si el perfil debe girarse para que su eje normal esté alineado con cada borde.
+-    {{PropertyData/es|Align}}   * Especifica si el perfil debe girarse para que su eje normal esté alineado con cada borde.
 
--    {{PropertyData/es|Offset}}: una distancia opcional entre el objeto de layout y el objeto de armazón.
+-    {{PropertyData/es|Offset}}   * una distancia opcional entre el objeto de layout y el objeto de armazón.
 
--    {{PropertyData/es|Rotation}}: la rotación del perfil alrededor de su eje de extrusión.
+-    {{PropertyData/es|Rotation}}   * la rotación del perfil alrededor de su eje de extrusión.
 
 ## Scripting
 
@@ -89,7 +89,7 @@ La herramienta armazón se usa para construir todo tipo de objetos de armazón b
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Armazón se puede utilizar en [macros](macros/es.md) y desde la consola de Python mediante la siguiente función:
+La herramienta Armazón se puede utilizar en [macros](macros/es.md) y desde la consola de Python mediante la siguiente función   *
 
 
 </div>
@@ -108,7 +108,7 @@ Frame = makeFrame(baseobj, profile)
 
 </div>
 
-Ejemplo: 
+Ejemplo   * 
 ```python
 import Draft, Arch
 

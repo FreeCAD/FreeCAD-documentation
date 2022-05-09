@@ -1,6 +1,6 @@
 # Arch Add/sv
 ---
-- GuiCommand:/sv   Name:Arch Add   Name/sv:Arch Add   Workbenches:[MenuLocation:Arch → Add   SeeAlso:[[Arch Remove/sv|Arch Remove](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand   */sv   Name   *Arch Add   Name/sv   *Arch Add   Workbenches   *[MenuLocation   *Arch → Add   SeeAlso   *[[Arch Remove/sv|Arch Remove](Arch_Workbench/sv___Arch]].md)---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Add verkytget låter dig göra 2 olika operationer:
+Add verkytget låter dig göra 2 olika operationer   *
 
 -   Lägga till [form](Part_Workbench/sv.md)-baserade objekt till en Arch komponent, som en [vägg](Arch_Wall/sv.md) eller [struktur](Arch_Structure/sv.md). Dessa objekt blir sedan en del av Arch komponenten, och låter dig förändra dess form men behåller dess grundegenskaper som bredd och höjd
 -   lägga till Arch komponenter, som [väggar](Arch_Wall/sv.md) eller [strukturer](Arch_Structure/sv.md), till en gruppbaserat Arch objekt som [golv](Arch_Floor/sv.md).
@@ -20,7 +20,7 @@ Add verkytget låter dig göra 2 olika operationer:
 
 The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** tool.
 
-<img alt="" src=images/Arch_Add_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Add_example.jpg  style="width   *640px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -42,7 +42,7 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 <div class="mw-translate-fuzzy">
 
 1.  Välj de objekt som ska läggas till, och sedan \"värd\" objektet (värdobjektet måste väljas sist)
-2.  Klicka på <img alt="" src=images/Arch_Add.png  style="width:16px;"> **Add** knappen
+2.  Klicka på <img alt="" src=images/Arch_Add.png  style="width   *16px;"> **Add** knappen
 
 
 </div>
@@ -50,13 +50,13 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 ## Scripting
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function   *
 
-:   
+   *   
     
 ```python
     addComponents(objectsList, host)
@@ -68,10 +68,10 @@ The Add tool can be used in [macros](Macros.md) and from the [Python](Python.md)
 
 
 
-:   The above code snippet adds the given objects in `objectsList` to the given `host` object.
-:   **Note:** `objectsList` can be a single object or a list of objects.
+   *   The above code snippet adds the given objects in `objectsList` to the given `host` object.
+   *   **Note   *** `objectsList` can be a single object or a list of objects.
 
-Example:
+Example   *
 
 
 ```python

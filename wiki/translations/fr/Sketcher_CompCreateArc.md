@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Sketcher Arcs
-   Name/fr:Sketcher Arcs
-   Icon:Sketcher_CompCreateArc.png
-   MenuLocation:Barre d'outils seulement
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+- GuiCommand   */fr
+   Name   *Sketcher Arcs
+   Name/fr   *Sketcher Arcs
+   Icon   *Sketcher_CompCreateArc.png
+   MenuLocation   *Barre d'outils seulement
+   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
 ---
 
 # Sketcher CompCreateArc/fr
@@ -15,8 +15,8 @@
 
 ## Types d\'arcs 
 
--   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Arc](Sketcher_CreateArc/fr.md) : Dessine un arc en prenant trois points : le centre, l\'angle de départ le long du rayon et l\'angle d\'arrivée.
--   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Arc par 3 points](Sketcher_Create3PointArc/fr.md) : Dessine un arc en prenant trois points : le point de départ, le point d\'arrivée et un point sur l\'arc.
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width   *32px;"> [Arc](Sketcher_CreateArc/fr.md)    * Dessine un arc en prenant trois points    * le centre, l\'angle de départ le long du rayon et l\'angle d\'arrivée.
+-   <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width   *32px;"> [Arc par 3 points](Sketcher_Create3PointArc/fr.md)    * Dessine un arc en prenant trois points    * le point de départ, le point d\'arrivée et un point sur l\'arc.
 
 
 

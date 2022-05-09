@@ -1,23 +1,23 @@
 ---
-- GuiCommand:/de
-   Name:Fasteners ScrewCalculator
-   Name/de:Fasteners Schraubenrechner
-   MenuLocation:Fasteners → Screw calculator
-   Workbenches:[Fasteners](Fasteners_Workbench.md)
+- GuiCommand   */de
+   Name   *Fasteners ScrewCalculator
+   Name/de   *Fasteners Schraubenrechner
+   MenuLocation   *Fasteners → Screw calculator
+   Workbenches   *[Fasteners](Fasteners_Workbench.md)
 ---
 
 # Fasteners ScrewCalculator/de
 
 ## Beschreibung
 
-The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> **Fasteners ScrewCalculator** command shows a calculator to determine the tap hole size of screws.
+The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width   *24px;"> **Fasteners ScrewCalculator** command shows a calculator to determine the tap hole size of screws.
 
 ![](images/Fasteners_ScrewCalculator_Dialog.png ) 
 *The Screw hole calculator dialog box*
 
 ## Anwendung
 
-1.  There are several ways to invoke the command:
+1.  There are several ways to invoke the command   *
     -   Press the **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator.md)** button.
     -   Select the **Fasteners → <img src="images/Fasteners_ScrewCalculator.svg" width=16px> Screw calculator** option from the menu.
 2.  The **Screw hole calculator** dialog box opens.
@@ -32,7 +32,9 @@ The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> *
 
 {{Fasteners Tools navi
 
-}}
+}} 
+
+[Category   *External Command Reference](Category_External_Command_Reference.md)
 
 
 

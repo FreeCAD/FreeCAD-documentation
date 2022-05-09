@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
-   Name:FEM ConstraintElectrostaticPotential
-   MenuLocation: Model → Electrostatic Constraints → Constraint Electrostatic Potential
-   Workbenches:[FEM](FEM_Workbench.md)
-   SeeAlso:[FEM capacitance example](FEM_Example_Capacitance_Two_Balls.md), [FEM tutorial](FEM_tutorial.md)
+- GuiCommand   *
+   Name   *FEM ConstraintElectrostaticPotential
+   MenuLocation   * Model → Electrostatic Constraints → Constraint Electrostatic Potential
+   Workbenches   *[FEM](FEM_Workbench.md)
+   SeeAlso   *[FEM capacitance example](FEM_Example_Capacitance_Two_Balls.md), [FEM tutorial](FEM_tutorial.md)
 ---
 
 # FEM ConstraintElectrostaticPotential/en
@@ -23,15 +23,15 @@ Creates a FEM constraint for the electrostatic potential. To be used together wi
 
 ## Options
 
-The dialog offers the following settings:
+The dialog offers the following settings   *
 
 ![](images/FEM_ElectrostaticPotential_dialog.png )
 
--   **Potential**: The electric potential in V.
--   **Potential Constant**: Option to set a constant potential.
--   **Farfield / Electric infinity**: Option to specify that the volume as for away from an electric potential.
--   **Calculate Electric Force**: Option to trigger the calculation of the electric for using the [Electricforce](FEM_EquationElectricforce.md) equation.
--   \'\'\'Capacity Body: \'\'\': Counter of the body (or face) with a capacitance.
+-   **Potential**   * The electric potential in V.
+-   **Potential Constant**   * Option to set a constant potential.
+-   **Farfield / Electric infinity**   * Option to specify that the volume as for away from an electric potential.
+-   **Calculate Electric Force**   * Option to trigger the calculation of the electric for using the [Electricforce](FEM_EquationElectricforce.md) equation.
+-   \'\'\'Capacity Body   * \'\'\'   * Counter of the body (or face) with a capacitance.
 
 
 

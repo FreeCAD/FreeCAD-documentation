@@ -1,29 +1,29 @@
 ---
-- GuiCommand:/fr
-   Name:Draft PathArray
-   Name/fr:Draft Réseau selon une courbe
-   MenuLocation:Modification → Outils de réseau → Réseau selon une courbe
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Version:0.14
-   SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
+- GuiCommand   */fr
+   Name   *Draft PathArray
+   Name/fr   *Draft Réseau selon une courbe
+   MenuLocation   *Modification → Outils de réseau → Réseau selon une courbe
+   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Version   *0.14
+   SeeAlso   *[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
 ---
 
 # Draft PathArray/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_PathArray.svg  style="width:24px;"> **Draft Réseau selon une courbe** crée un réseau régulier à partir d\'un objet sélectionné en plaçant des copies le long d\'un chemin. Utilisez la commande [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md) pour créer un réseau [Link](App_Link/fr.md) plus efficace à la place. À l\'exception du type de réseau créé, réseau de liens ou réseau régulier, la commande [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md) est identique à cette commande.
+La commande <img alt="" src=images/Draft_PathArray.svg  style="width   *24px;"> **Draft Réseau selon une courbe** crée un réseau régulier à partir d\'un objet sélectionné en plaçant des copies le long d\'un chemin. Utilisez la commande [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md) pour créer un réseau [Link](App_Link/fr.md) plus efficace à la place. À l\'exception du type de réseau créé, réseau de liens ou réseau régulier, la commande [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md) est identique à cette commande.
 
 Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
 
-<img alt="" src=images/Draft_PathArray_Example.png  style="width:400px;"> 
+<img alt="" src=images/Draft_PathArray_Example.png  style="width   *400px;"> 
 *Un réseau Draft selon une courbe*
 
 ## Utilisation
 
 1.  Sélectionnez l\'objet que vous souhaitez mettre en réseau.
-2.  Ajoutez l\'objet courbe à la sélection. Il est également possible de sélectionner des arêtes à la place. Les arêtes doivent appartenir au même objet. Elles doivent être connectées et doivent être sélectionnées dans le bon ordre.
-3.  Il existe plusieurs façons de lancer la commande :
+2.  Ajouter l\'objet trajectoire à la sélection. Il est également possible de sélectionner des arêtes à la place. Les arêtes doivent appartenir au même objet et doivent être connectées. Dans FreeCAD version 0.19 et antérieures, les arêtes doivent être sélectionnées dans le bon ordre.
+3.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le **<img src="images/Draft_PathArray.svg" width=16px> [Réseau selon une courbe](Draft_PathArray/fr.md)**.
     -   Sélectionnez l\'option **Modification → Outils de réseau → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** dans le menu.
 4.  Le réseau est créé.
@@ -31,18 +31,18 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 
 ## Alignement
 
-L\'alignement des éléments d\'un Draft Réseau selon une courbe dépend des propriétés du réseau et de l\'orientation de l\'objet source. La position de l\'objet source est ignorée : pour les besoins du réseau, les valeurs {{Value|x}}, {{Value|y}} et {{Value|z}} sont fixées à {{Value|0}}. Si la propriété **Align** du réseau est définie à `False`, l\'orientation des éléments du réseau est identique à celle de l\'objet source. Si elle a pour valeur `True`, l\'axe X du système de coordonnées local de chaque élément placé est tangent à la trajectoire. Les axes Y et Z des systèmes de coordonnées locaux dépendent de la propriété **Align Mode** du réseau. Les autres propriétés du réseau impliquées dans l\'alignement comprennent **Tangent Vector**, **Force Vertical** et **Vertical Vector**.
+L\'alignement des éléments d\'un Draft Réseau selon une courbe dépend des propriétés du réseau et de l\'orientation de l\'objet source. La position de l\'objet source est ignorée    * pour les besoins du réseau, les valeurs {{Value|x}}, {{Value|y}} et {{Value|z}} sont fixées à {{Value|0}}. Si la propriété **Align** du réseau est définie à `False`, l\'orientation des éléments du réseau est identique à celle de l\'objet source. Si elle a pour valeur `True`, l\'axe X du système de coordonnées local de chaque élément placé est tangent à la trajectoire. Les axes Y et Z des systèmes de coordonnées locaux dépendent de la propriété **Align Mode** du réseau. Les autres propriétés du réseau impliquées dans l\'alignement comprennent **Tangent Vector**, **Force Vertical** et **Vertical Vector**.
 
-<img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> 
-*3 réseaux basés sur la même courbe non planaire. De gauche à droite : Align est false, Align à true pour Align Mode Original et Align à true pour Align Mode Frenet.*.
+<img alt="" src=images/Draft_PathArray_example2.png  style="width   *600px;"> 
+*3 réseaux basés sur la même courbe non planaire. De gauche à droite    * Align est false, Align à true pour Align Mode Original et Align à true pour Align Mode Frenet.*.
 
 ### Mode d\'alignement 
 
-Trois modes sont disponibles :
+Trois modes sont disponibles    *
 
 #### Original
 
-Ce mode se rapproche le plus du mode unique **Align Mode** disponible dans la version 0.18. Il s\'appuie sur un vecteur normal fixe. Si le chemin est planaire, ce vecteur est perpendiculaire au plan du chemin, sinon un vecteur par défaut, l\'axe Z positif, est utilisé. À partir de ce vecteur normal et du vecteur tangent local (l\'axe X local), un [produit vectoriel](https://fr.wikipedia.org/wiki/Produit_vectoriel) est calculé. Ce nouveau vecteur est utilisé comme axe Z local. L\'orientation de l\'axe Y local est déterminée à partir des axes X et Z locaux.
+Ce mode se rapproche le plus du mode unique **Align Mode** disponible dans la version 0.18. Il s\'appuie sur un vecteur normal fixe. Si le chemin est planaire, ce vecteur est perpendiculaire au plan du chemin, sinon un vecteur par défaut, l\'axe Z positif, est utilisé. À partir de ce vecteur normal et du vecteur tangent local (l\'axe X local), un [produit vectoriel](https   *//fr.wikipedia.org/wiki/Produit_vectoriel) est calculé. Ce nouveau vecteur est utilisé comme axe Z local. L\'orientation de l\'axe Y local est déterminée à partir des axes X et Z locaux.
 
 #### Frenet
 
@@ -60,9 +60,9 @@ L\'utilisation de ces propriétés peut être nécessaire si l\'un des bords du 
 
 ## Propriétés
 
-Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi   * [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Draft Réseau selon une courbe est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés (à l\'exception de certaines propriétés Vue qui ne sont pas héritées par les réseaux Link). Les propriétés suivantes sont supplémentaires, sauf indication contraire :
+Un objet Draft Réseau selon une courbe est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés (à l\'exception de certaines propriétés Vue qui ne sont pas héritées par les réseaux Link). Les propriétés suivantes sont supplémentaires, sauf indication contraire    *
 
 ### Données
 
@@ -104,30 +104,30 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 {{TitleProperty|Alignment}}
 
--    **Align|Bool**: spécifie si les éléments du réseau sont alignés ou non le long du chemin. Si elle vaut `False`, toutes les autres propriétés de ce groupe, à l\'exception de **Extra Translation** ne s\'appliquent pas et sont masquées.
+-    **Align|Bool**   * spécifie si les éléments du réseau sont alignés ou non le long du chemin. Si elle vaut `False`, toutes les autres propriétés de ce groupe, à l\'exception de **Extra Translation** ne s\'appliquent pas et sont masquées.
 
--    **Align Mode|Enumeration**: spécifie le mode d\'alignement, qui peut être {{Value|Original}}, {{Value|Frenet}} ou {{Value|Tangent}}.
+-    **Align Mode|Enumeration**   * spécifie le mode d\'alignement, qui peut être {{Value|Original}}, {{Value|Frenet}} ou {{Value|Tangent}}.
 
--    **Extra Translation|VectorDistance**: spécifie un déplacement supplémentaire pour chaque élément le long du chemin.
+-    **Extra Translation|VectorDistance**   * spécifie un déplacement supplémentaire pour chaque élément le long du chemin.
 
--    **Force Vertical|Bool**: spécifie s\'il faut remplacer la direction normale par défaut par la valeur de **Vecteur Vertical**. Utilisé uniquement si **Align Mode** est {{Value|Original}} ou {{Value|Tangent}}. <small>(v0.19)</small> 
+-    **Force Vertical|Bool**   * spécifie s\'il faut remplacer la direction normale par défaut par la valeur de **Vecteur Vertical**. Utilisé uniquement si **Align Mode** est {{Value|Original}} ou {{Value|Tangent}}. <small>(v0.19)</small> 
 
--    **Tangent Vector|Vector**: spécifie le vecteur d\'alignement. Utilisé uniquement si **Align Mode** est {{Value|Tangent}}. {{Version/fr|0.19}}
+-    **Tangent Vector|Vector**   * spécifie le vecteur d\'alignement. Utilisé uniquement si **Align Mode** est {{Value|Tangent}}. {{Version/fr|0.19}}
 
--    **Vertical Vector|Vector**: spécifie le remplacement de la direction normale par défaut. Utilisé uniquement si **Vertical Vector** est `True`. {{Version/fr|0.19}}
+-    **Vertical Vector|Vector**   * spécifie le remplacement de la direction normale par défaut. Utilisé uniquement si **Vertical Vector** est `True`. {{Version/fr|0.19}}
 
 
 {{TitleProperty|Objects}}
 
--    **Base|LinkGlobal**: spécifie l\'objet à dupliquer dans le réseau.
+-    **Base|LinkGlobal**   * spécifie l\'objet à dupliquer dans le réseau.
 
--    **Count|Integer**: spécifie le nombre d\'éléments dans le réseau.
+-    **Count|Integer**   * spécifie le nombre d\'éléments dans le réseau.
 
--    **Expand Array|Bool**: indique s\'il faut développer le réseau dans la [Vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type lien (Link).
+-    **Expand Array|Bool**   * indique s\'il faut développer le réseau dans la [Vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type lien (Link).
 
--    **Path Object|LinkGlobal**: spécifie l\'objet à utiliser pour le chemin. Il doit contenir {{Value|Edges}} dans sa [Part TopoShape](Part_TopoShape/fr.md).
+-    **Path Object|LinkGlobal**   * spécifie l\'objet à utiliser pour le chemin. Il doit contenir {{Value|Edges}} dans sa [Part TopoShape](Part_TopoShape/fr.md).
 
--    **Path Subelements|LinkSubListGlobal**: spécifie une liste d\'arêtes de **Path Object**. Si elle est renseignée, seules ces arêtes sont utilisées pour le chemin.
+-    **Path Subelements|LinkSubListGlobal**   * spécifie une liste d\'arêtes de **Path Object**. Si elle est renseignée, seules ces arêtes sont utilisées pour le chemin.
 
 ### Vue
 
@@ -148,7 +148,7 @@ Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne s
 -    **Point Size|FloatConstraint**
     
 
--    **Selectable|Bool**: il s\'agit d\'une propriété héritée qui apparaît dans le groupe Sélection pour d\'autres réseaux.
+-    **Selectable|Bool**   * il s\'agit d\'une propriété héritée qui apparaît dans le groupe Sélection pour d\'autres réseaux.
 
 -    **Shape Material|Material**
     
@@ -170,16 +170,16 @@ Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne s
 -    **Override Material List|BoolList|Caché**
     
 
--    **Proxy|PythonObject|Caché**: il s\'agit d\'une propriété héritée.
+-    **Proxy|PythonObject|Caché**   * il s\'agit d\'une propriété héritée.
 
 
 {{TitleProperty|Display Options}}
 
 Les propriétés de ce groupe sont des propriétés héritées. Voir [Part Feature](Part_Feature/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    **Bounding Box|Bool**: cette propriété n\'est pas héritée par les réseaux de liens (Link).
+-    **Bounding Box|Bool**   * cette propriété n\'est pas héritée par les réseaux de liens (Link).
 
--    **Display Mode|Enumeration**: pour les réseaux de liens, il peut s\'agir de {{value|Link}} ou {{value|ChildView}}. Pour les autres réseaux, il peut s\'agir de : {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} ou {{value|Points}}
+-    **Display Mode|Enumeration**   * pour les réseaux de liens, il peut s\'agir de {{value|Link}} ou {{value|ChildView}}. Pour les autres réseaux, il peut s\'agir de    * {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} ou {{value|Points}}
 
 -    **Show In Tree|Bool**
     
@@ -190,9 +190,9 @@ Les propriétés de ce groupe sont des propriétés héritées. Voir [Part Featu
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: non utilisé.
+-    **Pattern|Enumeration**   * non utilisé.
 
--    **Pattern Size|Float**: non utilisé.
+-    **Pattern Size|Float**   * non utilisé.
 
 
 {{TitleProperty|Object style}}
@@ -201,7 +201,7 @@ Les propriétés de ce groupe ne sont pas héritées par les réseaux de liens.
 
 ## Script
 
-Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Pour créer un réseau selon une courbe, utilisez la méthode `make_path_array` ({{Version/fr|0.19}}) de l\'atelier Draft. Cette méthode remplace la méthode dépréciée `makePathArray`.
 
@@ -234,7 +234,7 @@ path_array = make_path_array(base_object, path_object,
 
 -    `path_array`est restitué avec l\'objet réseau créé.
 
-Exemple :
+Exemple    *
 
 
 ```python

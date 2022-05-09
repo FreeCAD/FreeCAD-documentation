@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:Sketcher Create3PointArc
-   Name/de:Skizzierer Erstelle3PunktBogen
-   MenuLocation:Skizze → Skizzengeometrien → Erstelle Bogen durch drei Punkte
-   Workbenches:[Sketcher](Sketcher_Workbench/de.md)
-   Shortcut:
-   SeeAlso:
+- GuiCommand   */de
+   Name   *Sketcher Create3PointArc
+   Name/de   *Skizzierer Erstelle3PunktBogen
+   MenuLocation   *Skizze → Skizzengeometrien → Erstelle Bogen durch drei Punkte
+   Workbenches   *[Sketcher](Sketcher_Workbench/de.md)
+   Shortcut   *
+   SeeAlso   *
 ---
 
 # Sketcher Create3PointArc/de
@@ -15,7 +15,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug zeichnet einen Kreisbogen durch setzen von drei Punkten: Den Startpunkt, den Endpunkt und einen Punkt auf dem Kreisbogen.
+Dieses Werkzeug zeichnet einen Kreisbogen durch setzen von drei Punkten   * Den Startpunkt, den Endpunkt und einen Punkt auf dem Kreisbogen.
 
 ## Anwendung
 

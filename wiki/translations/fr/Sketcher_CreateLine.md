@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/fr
-   Name:Sketcher CreateLine
-   Name/fr:Sketcher Ligne
-   MenuLocation:Esquisse → Géométries d'esquisse → Créer une ligne
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Shortcut:**G** **L**
-   SeeAlso:[Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
+- GuiCommand   */fr
+   Name   *Sketcher CreateLine
+   Name/fr   *Sketcher Ligne
+   MenuLocation   *Esquisse → Géométries d'esquisse → Créer une ligne
+   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
+   Shortcut   ***G** **L**
+   SeeAlso   *[Sketcher Polyligne](Sketcher_CreatePolyline/fr.md)
 ---
 
 # Sketcher CreateLine/fr

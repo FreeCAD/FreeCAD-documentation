@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/de
-   Name:Arch Stairs
-   Name/de:Arch Treppe
-   MenuLocation:Arch → Treppe
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   Shortcut:**S** **R**
-   Version:0.14
-   SeeAlso:[Arch Struktur](Arch_Structure/de.md), [Arch Ausstattung](Arch_Equipment/de.md)
+- GuiCommand   */de
+   Name   *Arch Stairs
+   Name/de   *Arch Treppe
+   MenuLocation   *Arch → Treppe
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   Shortcut   ***S** **R**
+   Version   *0.14
+   SeeAlso   *[Arch Struktur](Arch_Structure/de.md), [Arch Ausstattung](Arch_Equipment/de.md)
 ---
 
 # Arch Stairs/de
@@ -26,12 +26,12 @@ Das [Treppen](Arch_Stairs/de.md) Werkzeug ermöglicht dir automatisch verschiede
 
 <div class="mw-translate-fuzzy">
 
-Siehe den [Wikipediaeintrag](http://de.wikipedia.org/wiki/Treppe) für eine Erläuterung der verschiedenen verwendeten Begriffe zum beschreiben der Treppenbauteile.
+Siehe den [Wikipediaeintrag](http   *//de.wikipedia.org/wiki/Treppe) für eine Erläuterung der verschiedenen verwendeten Begriffe zum beschreiben der Treppenbauteile.
 
 
 </div>
 
-<img alt="" src=images/Arch_Stairs_example.jpg  style="width:640px;"> 
+<img alt="" src=images/Arch_Stairs_example.jpg  style="width   *640px;"> 
 *Zwei konstruierte Treppen, eine mit massiver Struktur und Absatz  und eine mit einer mittigen Treppenwange.*
 
 ## Optionen
@@ -64,29 +64,29 @@ Siehe den [Wikipediaeintrag](http://de.wikipedia.org/wiki/Treppe) für eine Erl�
 
 {{TitleProperty|Segment and Parts}}
 
--    **Abs Top|Vector**: (read-only) The absolute top level the stairs lead to.
+-    **Abs Top|Vector**   * (read-only) The absolute top level the stairs lead to.
 
--    **Last Segment|Link**: Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
+-    **Last Segment|Link**   * Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
 
--    **Outline Left|VectorList**: The left outline of the stairs.
+-    **Outline Left|VectorList**   * The left outline of the stairs.
 
--    **Outline Left All|VectorList**: The left outline of all segments of the stairs.
+-    **Outline Left All|VectorList**   * The left outline of all segments of the stairs.
 
--    **Outline Right|VectorList**: The right outline of the stairs.
+-    **Outline Right|VectorList**   * The right outline of the stairs.
 
--    **Outline Right All|VectorList**: The right outline of all segments of the stairs.
+-    **Outline Right All|VectorList**   * The right outline of all segments of the stairs.
 
--    **Railing Height Left|Length**: Height of the left railing of the stairs or landing.
+-    **Railing Height Left|Length**   * Height of the left railing of the stairs or landing.
 
--    **Railing Height Right|Length**: Height of the right railing of the stairs or landing.
+-    **Railing Height Right|Length**   * Height of the right railing of the stairs or landing.
 
--    **Railing Left|String**: Name of the left railing object.
+-    **Railing Left|String**   * Name of the left railing object.
 
--    **Railing Offset Left|Length**: Offset of the left railing from the edge of the stairs or landing.
+-    **Railing Offset Left|Length**   * Offset of the left railing from the edge of the stairs or landing.
 
--    **Railing Offset Right|Length**: Offset of the right railing from the edge of the stairs or landing.
+-    **Railing Offset Right|Length**   * Offset of the right railing from the edge of the stairs or landing.
 
--    **Railing Right|String**: Name of the right railing object.
+-    **Railing Right|String**   * Name of the right railing object.
 
 
 {{TitleProperty|Stairs}}
@@ -94,15 +94,15 @@ Siehe den [Wikipediaeintrag](http://de.wikipedia.org/wiki/Treppe) für eine Erl�
 
 <div class="mw-translate-fuzzy">
 
--    **Ausrichtung**: Die Ausrichtung der Treppe zur Basislinie, wenn diese vorhanden ist.
+-    **Ausrichtung**   * Die Ausrichtung der Treppe zur Basislinie, wenn diese vorhanden ist.
 
--    **Basis**: Die Basislinie der Treppe, wenn vorhanden.
+-    **Basis**   * Die Basislinie der Treppe, wenn vorhanden.
 
--    **Höhe**: Die Gesamthöhe der Treppe, wenn nicht aufbauend auf einer Basisline, oder wenn die Basislinie horizontal ist.
+-    **Höhe**   * Die Gesamthöhe der Treppe, wenn nicht aufbauend auf einer Basisline, oder wenn die Basislinie horizontal ist.
 
--    **Länge**: Die Gesamtlänge der Treppe, wenn keine Basislinie definiert ist.
+-    **Länge**   * Die Gesamtlänge der Treppe, wenn keine Basislinie definiert ist.
 
--    **Breite**: Die Breite der Treppe.
+-    **Breite**   * Die Breite der Treppe.
 
 
 </div>
@@ -118,15 +118,15 @@ Stufen
 
 <div class="mw-translate-fuzzy">
 
--    **Überstand**: Überstand des Auftritts gegenüber der darunterliegenden Setzstufe.
+-    **Überstand**   * Überstand des Auftritts gegenüber der darunterliegenden Setzstufe.
 
--    **Stufenanzahl**: Die Anzahl der Treppenstufen (Setzstufen) der Treppe.
+-    **Stufenanzahl**   * Die Anzahl der Treppenstufen (Setzstufen) der Treppe.
 
--    **Setzstufenhöe**: Die Höhe der Setzstufe.
+-    **Setzstufenhöe**   * Die Höhe der Setzstufe.
 
--    **Auftrittsbreite**: Die Breite des Auftritts.
+-    **Auftrittsbreite**   * Die Breite des Auftritts.
 
--    **Stufendicke**: Die Dicke der Stufen.
+-    **Stufendicke**   * Die Dicke der Stufen.
 
 
 </div>
@@ -142,17 +142,17 @@ Treppenlauf
 
 <div class="mw-translate-fuzzy">
 
--    **Podeste**: Typ des Treppenpodestes.
+-    **Podeste**   * Typ des Treppenpodestes.
 
--    **Wangenversatz**: Der Versatz zwischen Treppenrand und Treppenwange.
+-    **Wangenversatz**   * Der Versatz zwischen Treppenrand und Treppenwange.
 
--    **Wangenbreite**: Breite der Treppenwange.
+-    **Wangenbreite**   * Breite der Treppenwange.
 
--    **Lauf**: Typ des Treppenlaufs.
+-    **Lauf**   * Typ des Treppenlaufs.
 
--    **Laufdicke**: Die Höhe des Treppenlaufs.
+-    **Laufdicke**   * Die Höhe des Treppenlaufs.
 
--    **Windung**: Die Art der Treppenwindung.
+-    **Windung**   * Die Art der Treppenwindung.
 
 
 </div>
@@ -165,8 +165,8 @@ Treppenlauf
 ## Begrenzungen
 
 -   Momentan werden nur gerade Treppen unterstützt
--   Für runde Treppen siehe [Forum Eintrag](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534)
--   Siehe auch [Ankündigung im Forum](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564)
+-   Für runde Treppen siehe [Forum Eintrag](http   *//forum.freecadweb.org/viewtopic.php?f=23&t=6534)
+-   Siehe auch [Ankündigung im Forum](http   *//forum.freecadweb.org/viewtopic.php?f=9&t=4564)
 
 
 </div>
@@ -179,7 +179,7 @@ Treppenlauf
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -189,7 +189,7 @@ Treppenlauf
 
 <div class="mw-translate-fuzzy">
 
-Das Raum Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole mit der folgenden Funktion verwendet werden:
+Das Raum Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole mit der folgenden Funktion verwendet werden   *
 
 
 </div>
@@ -202,7 +202,7 @@ Stairs = makeStairs(baseobj=None, length=None, width=None, height=None, steps=No
 -   Erstellt ein `stairs` Objekt aus dem gegebenen `baseobj`.
 -   Wenn `baseobj` nicht gegeben ist, werden `length`, `width`, `height` und `steps` verwendet, um einen Festkörper zu erstellen.
 
-Beispiel: 
+Beispiel   * 
 ```python
 import Arch
 

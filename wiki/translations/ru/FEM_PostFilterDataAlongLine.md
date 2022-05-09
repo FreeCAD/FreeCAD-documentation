@@ -1,12 +1,12 @@
 ---
-- GuiCommand:/ru
-   Name:FEM PostCreateDataAlongLineFilter
-   Name/ru:FEM PostCreateDataAlongLineFilter
-   Icon:Fem-DataAlongLine.svg
-   MenuLocation: Results → Data along line filter
-   |Workbenches:[FEM](FEM_Workbench/ru.md)
-   Shortcut:
-   SeeAlso:[FEM tutorial](FEM_tutorial/ru.md)
+- GuiCommand   */ru
+   Name   *FEM PostCreateDataAlongLineFilter
+   Name/ru   *FEM PostCreateDataAlongLineFilter
+   Icon   *Fem-DataAlongLine.svg
+   MenuLocation   * Results → Data along line filter
+   |Workbenches   *[FEM](FEM_Workbench/ru.md)
+   Shortcut   *
+   SeeAlso   *[FEM tutorial](FEM_tutorial/ru.md)
 ---
 
 # FEM PostFilterDataAlongLine/ru
@@ -21,7 +21,7 @@ Plots the values of a field along a specified line.
 ## Использование
 
 1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md).
-2.  Invoke the command in one of the several ways:
+2.  Invoke the command in one of the several ways   *
     -   Press the **<img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> [Line clip filter](FEM_PostFilterDataAlongLine.md)** button.
     -   Select the **Results → <img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> Line clip filter** option from the menu.
 3.  Specify the coordinates of two points defining the line along which the results are to be evaluated. Optionally, press the **Select Points** button and pick the points manually on the surface of the mesh.

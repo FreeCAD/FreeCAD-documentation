@@ -46,37 +46,37 @@ Nachfolgend sind weitere Informationen zu einigen technischen Optionen. Dennoch 
 
 ## Installation for all users of the Windows system 
 
-By default FreeCAD will be installed for the user that executes the installer. If this user only has user permissions, the default installation path is:
+By default FreeCAD will be installed for the user that executes the installer. If this user only has user permissions, the default installation path is   *
 
-:   
-    {{FileName|C:\Users\<username>\AppData\Local\Programs\FreeCAD X.YY}}
+   *   
+    **C   *Users\<username>\AppData\Local\Programs\FreeCAD X.YY**
     
 
 If the installer is executed by an admin user, or you execute it as admin, you can choose if FreeCAD should be installed for all users of the system or just for you. The default is for all users.
 
-If installed for all users, the default installation path is:
+If installed for all users, the default installation path is   *
 
-:   
-    {{FileName|C:\Program Files\FreeCAD X.YY}}
+   *   
+    **C   *Program Files\FreeCAD X.YY**
     
 
 ## Silent Installation 
 
-To install FreeCAD silently, you can execute the installer from the command line:
+To install FreeCAD silently, you can execute the installer from the command line   *
 
 
 {{Code|lang=text|code=
 FreeCAD-~.exe /S
 }}
 
-Default settings will be used for all options. A custom installation path can be specified in this manner:
+Default settings will be used for all options. A custom installation path can be specified in this manner   *
 
 
 {{Code|lang=text|code=
 FreeCAD-~.exe /S /D=A path to FreeCAD with spaces
 }}
 
-By default, even with silent installations, there will be a short popup when the installer is checked for corruption. This so-called cyclic redundancy check only takes a few seconds at most. To disable this corruption check:
+By default, even with silent installations, there will be a short popup when the installer is checked for corruption. This so-called cyclic redundancy check only takes a few seconds at most. To disable this corruption check   *
 
 
 {{Code|lang=text|code=
@@ -90,7 +90,7 @@ Note that this {{Incode|/NCRC}} flag is **not recommended** since the corruption
 
 <div class="mw-translate-fuzzy">
 
-Jedoch wird dringend empfohlen, dass du einen Paketmanager wie Chocolatey verwendest, um deine Software auf dem neuesten Stand zu halten. Du kannst Chocolatey nach [diese Anweisungen](https://chocolatey.org/install) installieren und dann ein PowerShell Terminal als Administrator öffnen und ausführen:
+Jedoch wird dringend empfohlen, dass du einen Paketmanager wie Chocolatey verwendest, um deine Software auf dem neuesten Stand zu halten. Du kannst Chocolatey nach [diese Anweisungen](https   *//chocolatey.org/install) installieren und dann ein PowerShell Terminal als Administrator öffnen und ausführen   *
 
 
 </div>
@@ -116,22 +116,22 @@ choco upgrade freecad
 
 <div class="mw-translate-fuzzy">
 
-um die neueste Version zu erhalten, die im Chocolatey Repositorium verfügbar ist. Wenn es irgendwelche Probleme mit dem Chocolatey Paket gibt, kannst du dich an die Betreuer unter [auf dieser Seite](https://chocolatey.org/packages/freecad) wenden.
+um die neueste Version zu erhalten, die im Chocolatey Repositorium verfügbar ist. Wenn es irgendwelche Probleme mit dem Chocolatey Paket gibt, kannst du dich an die Betreuer unter [auf dieser Seite](https   *//chocolatey.org/packages/freecad) wenden.
 
 
 </div>
 
 ## Deinstallation
 
-To uninstall FreeCAD it is preferable to use the Windows tools for uninstalling software. Alternatively you can execute the uninstaller directly. This is the file:
+To uninstall FreeCAD it is preferable to use the Windows tools for uninstalling software. Alternatively you can execute the uninstaller directly. This is the file   *
 
-:   
-    {{FileName|Uninstall-FreeCAD.exe}}
+   *   
+    **Uninstall-FreeCAD.exe**
     
 
 You can find it in the folder where FreeCAD is installed.
 
-The uninstaller can also be executed silently using the command line:
+The uninstaller can also be executed silently using the command line   *
 
 
 {{Code|lang=text|code=

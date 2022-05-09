@@ -1,7 +1,7 @@
 # Arch Preferences/zh-cn
 The preferences for the [Arch Workbench](Arch_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), in the menu **Edit → Preferences → Arch**.
 
-There are two tabs: General settings, and Defaults.
+There are two tabs   * General settings, and Defaults.
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +26,14 @@ There are two tabs: General settings, and Defaults.
 </div>
 
 ![](images/Preference_Arch_Tab_02.png )
+
+
+
+
+
+ 
+
+[Category   *Preferences](Category_Preferences.md)
 
 
 

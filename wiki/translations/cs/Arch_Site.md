@@ -1,6 +1,6 @@
 # Arch Site/cs
 ---
-- GuiCommand:/cs   Name:Arch Site   Name/cs:Arch Site   Workbenches:[MenuLocation:Arch → Site   Shortcut:S I   SeeAlso:[[Arch Floor/cs|Arch Floor](Arch_Workbench/cs___Arch]].md), [Arch Building](Arch_Building/cs.md)---
+- GuiCommand   */cs   Name   *Arch Site   Name/cs   *Arch Site   Workbenches   *[MenuLocation   *Arch → Site   Shortcut   *S I   SeeAlso   *[[Arch Floor/cs|Arch Floor](Arch_Workbench/cs___Arch]].md), [Arch Building](Arch_Building/cs.md)---
 
 
 </div>
@@ -38,8 +38,8 @@ Staveniště je speciální typ skupinového objektu FreeCADu zvlášť vhodný 
 
 <div class="mw-translate-fuzzy">
 
--   Po vytvoření staveniště můžete přidávat další objekty pomocí myši přetáhnutím a upuštěním (drag and drop) na požadované místo v panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Add.png  style="width:16px;"> [Přidat](Arch_Add/cs.md)
--   Odstranit objekty ze staveniště můžete podobně myší přetáhnutím a upuštěním objektu mimo panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Remove.png  style="width:16px;"> [Odebrat](Arch_Remove/cs.md).
+-   Po vytvoření staveniště můžete přidávat další objekty pomocí myši přetáhnutím a upuštěním (drag and drop) na požadované místo v panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Add.png  style="width   *16px;"> [Přidat](Arch_Add/cs.md)
+-   Odstranit objekty ze staveniště můžete podobně myší přetáhnutím a upuštěním objektu mimo panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Remove.png  style="width   *16px;"> [Odebrat](Arch_Remove/cs.md).
 
 
 </div>
@@ -48,53 +48,53 @@ Staveniště je speciální typ skupinového objektu FreeCADu zvlášť vhodný 
 
 ### Data
 
--    **Terrain**: The base terrain of this site
+-    **Terrain**   * The base terrain of this site
 
--    **Address**: The street and housenumber of this site
+-    **Address**   * The street and housenumber of this site
 
--    **Postal Code**: The postal or zip code of this site
+-    **Postal Code**   * The postal or zip code of this site
 
--    **City**: The city of this site
+-    **City**   * The city of this site
 
--    **Country**: The country of this site
+-    **Country**   * The country of this site
 
--    **Latitude**: The latitude of this site
+-    **Latitude**   * The latitude of this site
 
--    **Longitude**: The longitude of this site
+-    **Longitude**   * The longitude of this site
 
--    **Url**: An url that shows this site in a mapping website
+-    **Url**   * An url that shows this site in a mapping website
 
--    **Projected Area**: The area of the projection of this object onto the XY plane
+-    **Projected Area**   * The area of the projection of this object onto the XY plane
 
--    **Perimeter**: The perimeter length of this terrain
+-    **Perimeter**   * The perimeter length of this terrain
 
--    **Addition Volume**: The volume of earth to be added to this terrain
+-    **Addition Volume**   * The volume of earth to be added to this terrain
 
--    **Subtraction Volume**: The volume of earth to be removed from this terrain
+-    **Subtraction Volume**   * The volume of earth to be removed from this terrain
 
--    **Extrusion Vector**: An extrusion vector to use when performing boolean operations
+-    **Extrusion Vector**   * An extrusion vector to use when performing boolean operations
 
--    **Remove Splitter**: Remove splitters from the resulting shape
+-    **Remove Splitter**   * Remove splitters from the resulting shape
 
--    **Declination**: The angle between the true North and the North direction in this document, that is, the Y axis. <small>(v0.18)</small>  This means that by default North points to the Y axis, and East to the X axis; the angle increments counterclockwise. This property was previously known as **North Deviation**.
+-    **Declination**   * The angle between the true North and the North direction in this document, that is, the Y axis. <small>(v0.18)</small>  This means that by default North points to the Y axis, and East to the X axis; the angle increments counterclockwise. This property was previously known as **North Deviation**.
 
--    **EPW File**: Allow to attach an EPW file from the [Ladybug EPW data website](https://www.ladybug.tools/epwmap/) to this site. This is needed to display wind rose diagrams <small>(v0.19)</small> 
+-    **EPW File**   * Allow to attach an EPW file from the [Ladybug EPW data website](https   *//www.ladybug.tools/epwmap/) to this site. This is needed to display wind rose diagrams <small>(v0.19)</small> 
 
 ### View
 
--    **Solar Diagram**: Shows or hides the solar diagram
+-    **Solar Diagram**   * Shows or hides the solar diagram
 
--    **Solar Diagram Color**: The color of the solar diagram
+-    **Solar Diagram Color**   * The color of the solar diagram
 
--    **Solar Diagram Position**: The position of the solar diagram
+-    **Solar Diagram Position**   * The position of the solar diagram
 
--    **Solar Diagram Scale**: The scale of the solar diagram
+-    **Solar Diagram Scale**   * The scale of the solar diagram
 
--    **Wind Rose**: Shows or hides the wind rose diagram (requires the **EPW File** data property filled, and the Ladybug Python module installed (see below)
+-    **Wind Rose**   * Shows or hides the wind rose diagram (requires the **EPW File** data property filled, and the Ladybug Python module installed (see below)
 
 ## Typical workflow 
 
-Start by creating an object that represents your terrain. It must be an open surface, not a solid. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part → Create Shape from Mesh**. Then, create a Site object, and set its **Terrain** property to the Part we just created:
+Start by creating an object that represents your terrain. It must be an open surface, not a solid. For example, it is easy to import mesh data, that can be turned into a Part Shape from menu **Part → Create Shape from Mesh**. Then, create a Site object, and set its **Terrain** property to the Part we just created   *
 
 ![](images/Arch_site_example_01.jpg )
 
@@ -108,9 +108,9 @@ The site geometry will be recomputed and the areas, perimeter, and volumes prope
 
 ## Solar and wind diagrams 
 
-If [Ladybug](https://www.ladybug.tools/ladybug.html) is installed on your system, [Arch Sites](Arch_Site.md) can display a solar diagram and/or a wind rose. For this, **Longitude**, **Latitude** and **Declination** (previously **North Deviation**) must be correctly set, and **Solar Diagram** or **Wind Rose** set to `True`. Respectively <small>(v0.17)</small>  and <small>(v0.19)</small> 
+If [Ladybug](https   *//www.ladybug.tools/ladybug.html) is installed on your system, [Arch Sites](Arch_Site.md) can display a solar diagram and/or a wind rose. For this, **Longitude**, **Latitude** and **Declination** (previously **North Deviation**) must be correctly set, and **Solar Diagram** or **Wind Rose** set to `True`. Respectively <small>(v0.17)</small>  and <small>(v0.19)</small> 
 
-**Note**: If you don\'t have Ladybug, [pysolar](http://pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required; this version only works with Python 3. If you require this feature with Python 2, you should have Pysolar 0.6 as this is the last version that works with Python 2. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https://github.com/ladybug-tools/ladybug).
+**Note**   * If you don\'t have Ladybug, [pysolar](http   *//pysolar.org/) is still supported to generate solar diagrams, but not wind roses. Pysolar 0.7 or above is required; this version only works with Python 3. If you require this feature with Python 2, you should have Pysolar 0.6 as this is the last version that works with Python 2. However, Ladybug is a much more powerful tool that will probably be used more in the future, so we recommend using it instead of pysolar. Ladybug can be installed simply via [pip](https   *//github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
 
@@ -127,7 +127,7 @@ If [Ladybug](https://www.ladybug.tools/ladybug.html) is installed on your system
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Staveniště může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce:
+Nástroj Staveniště může být využit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -145,7 +145,7 @@ vytvoří staveniště včetně objektů ze seznamu objectslist
 
 </div>
 
-Příklad: 
+Příklad   * 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -188,7 +188,7 @@ Node = makeSolarDiagram(longitude, latitude, scale=1, complete=False)
 ```
 
 -   Creates a solar diagram as a Pivy node, using `longitude` and `latitude`, with an optional `scale`.
--   If `complete` is `True`, the 12 months are drawn, which shows the full solar [analemma](https://en.wikipedia.org/wiki/Analemma).
+-   If `complete` is `True`, the 12 months are drawn, which shows the full solar [analemma](https   *//en.wikipedia.org/wiki/Analemma).
 
 
 ```python
@@ -203,6 +203,11 @@ FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 
 
 </div>
+
+
+ 
+
+[Category   *Arch/cs](Category   *Arch/cs.md)
 
 
 

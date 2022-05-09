@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch_Rebar_LShape
-   Name/it:Armatura a L
-   MenuLocation:Arch → Strumenti armatura → Armatura a L o BIM → 3D/BIM → Reinforcement → LShape Rebar 
-   Workbenches:[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
-   SeeAlso:[Armatura sagomata](Arch_Rebar_BentShape/it.md), [Armature](Arch_Rebar/it.md)
-   Version:0.17
+- GuiCommand   */it
+   Name   *Arch_Rebar_LShape
+   Name/it   *Armatura a L
+   MenuLocation   *Arch → Strumenti armatura → Armatura a L o BIM → 3D/BIM → Reinforcement → LShape Rebar 
+   Workbenches   *[Arch](Arch_Workbench/it.md), [BIM](BIM_Workbench/it.md)
+   SeeAlso   *[Armatura sagomata](Arch_Rebar_BentShape/it.md), [Armature](Arch_Rebar/it.md)
+   Version   *0.17
 ---
 
 # Arch Rebar LShape/it
@@ -22,12 +22,12 @@ Lo strumento **Armatura a L** è anche integrato in [BIM](BIM_Workbench/it.md).
 
 <div class="mw-translate-fuzzy">
 
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 
 </div>
 
-<img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
+<img alt="" src=images/Arch_Rebar_LShape_example.png  style="width   *400px;"> 
 *Quattro serie di barre di rinforzo a forma di L all'interno di una [Struttura](Arch_Structure/it.md)*
 
 ## Utilizzo
@@ -53,7 +53,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 10. Cliccare **Cancel** per uscire dal pannello delle azioni.
 
-:   <img alt="" src=images/LShapeDialog.png  style="width:250px;">
+   *   <img alt="" src=images/LShapeDialog.png  style="width   *250px;">
 
 
 
@@ -61,36 +61,36 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 ## Proprietà
 
--    {{PropertyData/it|Orientation}}: Decide l\'orientamento dell\'armatura (es. verso il basso, verso l\'alto, a destra o a sinistra).
+-    {{PropertyData/it|Orientation}}   * Decide l\'orientamento dell\'armatura (es. verso il basso, verso l\'alto, a destra o a sinistra).
 
--    {{PropertyData/it|Front Cover}}: La distanza tra l\'armatura e la faccia selezionata. Copriferro anteriore
+-    {{PropertyData/it|Front Cover}}   * La distanza tra l\'armatura e la faccia selezionata. Copriferro anteriore
 
--    {{PropertyData/it|Right Cover}}: La distanza tra l\'estremità destra della barra di destra e la faccia destra della struttura. Copriferro destro
+-    {{PropertyData/it|Right Cover}}   * La distanza tra l\'estremità destra della barra di destra e la faccia destra della struttura. Copriferro destro
 
--    {{PropertyData/it|Left Cover}}: La distanza tra l\'estremità sinistra della barra di sinistra e la faccia sinistra della struttura. Copriferro sinistro
+-    {{PropertyData/it|Left Cover}}   * La distanza tra l\'estremità sinistra della barra di sinistra e la faccia sinistra della struttura. Copriferro sinistro
 
--    {{PropertyData/it|Bottom Cover}}: La distanza tra l\'armatura e la parte inferiore della struttura. Copriferro inferiore
+-    {{PropertyData/it|Bottom Cover}}   * La distanza tra l\'armatura e la parte inferiore della struttura. Copriferro inferiore
 
--    {{PropertyData/it|Top Cover}}: La distanza tra l\'armatura e la parte superiore della struttura. Copriferro superiore
+-    {{PropertyData/it|Top Cover}}   * La distanza tra l\'armatura e la parte superiore della struttura. Copriferro superiore
 
--    {{PropertyData/it|Rounding}}: Il raggio di curvatura da applicare agli angoli delle barre, espresso quantità di diametro delle barre.
+-    {{PropertyData/it|Rounding}}   * Il raggio di curvatura da applicare agli angoli delle barre, espresso quantità di diametro delle barre.
 
--    {{PropertyData/it|Amount}}: La quantità di barre.
+-    {{PropertyData/it|Amount}}   * La quantità di barre.
 
--    {{PropertyData/it|Spacing}}: La distanza tra gli assi di ogni barra.
+-    {{PropertyData/it|Spacing}}   * La distanza tra gli assi di ogni barra.
 
 ## Scripting
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Armatura a L può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+Lo strumento Armatura a L può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   * 
 ```python
 Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom Left",
-                        structure=None, facename=None):
+                        structure=None, facename=None)   *
 ```
 
 -   Crea un oggetto `Rebar` dalla `structure` data, che è una [Struttura](Arch_Structure/it.md), e da una `facename`, che è una faccia di quella struttura.
@@ -129,7 +129,7 @@ Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 
 ### Modifica delle barre 
 
-È possibile modificare le proprietà dell\'armatura con la seguente funzione: 
+È possibile modificare le proprietà dell\'armatura con la seguente funzione   * 
 ```python
 editLShapeRebar(Rebar, f_cover, b_cover, l_cover, r_cover,
                 diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation,
@@ -161,6 +161,11 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

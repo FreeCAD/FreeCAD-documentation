@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/it
-   Name:Arch Building
-   Name/it:Edificio
-   Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch → Edificio
-   Shortcut:**B** **U**
-   SeeAlso:[Parte di edificio](Arch_BuildingPart/it.md), [Sito](Arch_Site/it.md)
+- GuiCommand   */it
+   Name   *Arch Building
+   Name/it   *Edificio
+   Workbenches   *[Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Arch → Edificio
+   Shortcut   ***B** **U**
+   SeeAlso   *[Parte di edificio](Arch_BuildingPart/it.md), [Sito](Arch_Site/it.md)
 ---
 
 # Arch Building/it
@@ -30,23 +30,23 @@ L\'Edificio di Arch è un gruppo speciale di oggetti di FreeCAD particolarmente 
 
 ## Proprietà
 
--    **Building Type**: Il tipo di edificio, da scegliere da una lista
+-    **Building Type**   * Il tipo di edificio, da scegliere da una lista
 
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Edificio può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+Lo strumento Edificio può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   * 
 ```python
 Building = makeBuilding(objectslist=None, baseobj=None, name="Building")
 ```
 
 -   Crea un oggetto `Building` da una `objectslist`, che è una lista di oggetti, o da un `baseobj`, che è una `Shape`.
 
-Esempio:
+Esempio   *
 
 
 ```python

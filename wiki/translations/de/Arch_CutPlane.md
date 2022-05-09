@@ -1,26 +1,26 @@
 ---
-- GuiCommand:/de
-   Name:Arch CutPlane
-   Name/de:Arch SchneideEbene
-   MenuLocation:Arch → Ebene Schneiden
-   Workbenches:[Arch](Arch_Workbench/de.md)
-   SeeAlso:[Arch SchneideLinie](Arch_CutLine/de.md), [Arch Entfernen](Arch_Remove/de.md)
+- GuiCommand   */de
+   Name   *Arch CutPlane
+   Name/de   *Arch SchneideEbene
+   MenuLocation   *Arch → Ebene Schneiden
+   Workbenches   *[Arch](Arch_Workbench/de.md)
+   SeeAlso   *[Arch SchneideLinie](Arch_CutLine/de.md), [Arch Entfernen](Arch_Remove/de.md)
 ---
 
 # Arch CutPlane/de
 
 ## Beschreibung
 
-Das Schnittebenen Werkzeug ermöglicht dir ein Arch Objekt entsprechend einer Ebene schneiden:
+Das Schnittebenen Werkzeug ermöglicht dir ein Arch Objekt entsprechend einer Ebene schneiden   *
 
 -   Du kannst ein Arch Objekt mit der ausgewählten Fläche schneiden, normal oder gegenüber der Flächenebene.
 -   Dies fügt dem Arch Objekt eine Subtraktionskomponente SchneideVolumen hinzu.
 
-<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_CutPlane_example.jpg  style="width   *640px;">
 
 
 
-*Links: Vor der Anwendung des Werkzeugs CutPlane. Mitte: resultierende Wand nach dem Schnitt. Rechts: ein weiteres optionales Ergebnis*
+*Links   * Vor der Anwendung des Werkzeugs CutPlane. Mitte   * resultierende Wand nach dem Schnitt. Rechts   * ein weiteres optionales Ergebnis*
 
 ## Anwendung
 
@@ -41,7 +41,7 @@ Das Schnittebenen Werkzeug ermöglicht dir ein Arch Objekt entsprechend einer Eb
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
@@ -49,14 +49,14 @@ Das Schnittebenen Werkzeug ermöglicht dir ein Arch Objekt entsprechend einer Eb
 </div>
 
 
-**See also:**
+**See also   ***
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 
 <div class="mw-translate-fuzzy">
 
-Das SchneideEbene Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
+Das SchneideEbene Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden   *
 
 
 </div>
@@ -79,7 +79,7 @@ cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 
 -    `sideFace`gibt an, auf welcher Seite des `FaceObject` ein Volumenkörpers erzeugt werden soll; dieser Volumenkörper wird dann vom `archObject` subtrahiert (subtracted). Falls `sideFace` den Wert `0` hat, wird ein Volumenkörper hinter der Fläche erzeugt, anderenfalls vor der Fläche.
 
-Beispiel: 
+Beispiel   * 
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 

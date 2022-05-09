@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/ro
-   Name:Arch SectionPlane
-   Name/ro:Arch SectionPlane
-   MenuLocation:Arch → Section Plane
-   Workbenches:[Arch](Arch_Workbench/ro.md)
-   Shortcut:**S** **P**
-   SeeAlso:[Draft Shape2DView](Draft_Shape2DView.md), [TechDraw NewArch](TechDraw_ArchView.md)
+- GuiCommand   */ro
+   Name   *Arch SectionPlane
+   Name/ro   *Arch SectionPlane
+   MenuLocation   *Arch → Section Plane
+   Workbenches   *[Arch](Arch_Workbench/ro.md)
+   Shortcut   ***S** **P**
+   SeeAlso   *[Draft Shape2DView](Draft_Shape2DView.md), [TechDraw NewArch](TechDraw_ArchView.md)
 ---
 
 # Arch SectionPlane/ro
@@ -25,7 +25,7 @@ Acest instrumetn plasează în documentul curent un plan de secțiune gizmo, car
 
 The Section Plane alone won\'t create any view of its objects set. For that, you must create a [TechDraw ArchView](TechDraw_ArchView.md) to create a view in a [TechDraw page](TechDraw_Workbench.md).
 
-<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_example.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -67,7 +67,7 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 </div>
 
-<img alt="" src=images/Arch_Section_example2.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Section_example2.jpg  style="width   *600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -77,31 +77,31 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 </div>
 
-<img alt="" src=images/Arch_Section_example3.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Section_example3.jpg  style="width   *600px;">
 
 -   Planul secțiunii poate fi, de asemenea, utilizat pentru a arăta întreaga vedere 3D tăiată printr-un plan infinit. Aceasta este doar vizuală și nu va afecta geometria obiectelor tăiate.
 
-<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_CutView.jpg  style="width   *600px;">
 
 ## Proprietăți
 
 
 <div class="mw-translate-fuzzy">
 
--    **Only Solids**: If this is True, non-solid objects in the set will be disregarded
+-    **Only Solids**   * If this is True, non-solid objects in the set will be disregarded
 
--    **Display Length**: The length of the section plane gizmo in the 3D view. Doesn\'t affect the resulting view
+-    **Display Length**   * The length of the section plane gizmo in the 3D view. Doesn\'t affect the resulting view
 
--    **Display Height**: The height of the section plane gizmo in the 3D view. Doesn\'t affect the resulting view
+-    **Display Height**   * The height of the section plane gizmo in the 3D view. Doesn\'t affect the resulting view
 
--    **Arrow Size**: The size of the arrows of the section plane gizmo in the 3D view. Doesn\'t affect the resulting view
+-    **Arrow Size**   * The size of the arrows of the section plane gizmo in the 3D view. Doesn\'t affect the resulting view
 
--    **Cut View**: If this is true, the whole 3D view will be cut at the location of this section plane (experimental).
+-    **Cut View**   * If this is true, the whole 3D view will be cut at the location of this section plane (experimental).
 
 
 </div>
 
-<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
+<img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width   *600px;">
 
 
 
@@ -109,7 +109,7 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 ## Tweaks
 
--   Adding manually a property named **RotateSolidRender** of type **App::PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
+-   Adding manually a property named **RotateSolidRender** of type **App   *   *PropertyAngle** to the section plane\'s **View** properties (right-click the properties view -\> show all, right-click again -\> add property) allows to rotate the render when using Solid mode. This is useful when a rendered view has for example both Arch and Draft elements, and the rendering of the Arch elements is rotated in relation to the Draft elements. <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -122,7 +122,7 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Section Plane poate fi utilizat în [macros](macros.md) și de la consola Python utilizând următoarele funcții:
+Instrumentul Section Plane poate fi utilizat în [macros](macros.md) și de la consola Python utilizând următoarele funcții   *
 
 
 </div>
@@ -136,7 +136,7 @@ Section = makeSectionPlane(objectslist=None, name="Section")
 <div class="mw-translate-fuzzy">
 
 
-:   Creates a Section plane objects including the given objects.
+   *   Creates a Section plane objects including the given objects.
 
 
 </div>
@@ -175,6 +175,11 @@ FreeCAD.ActiveDocument.recompute()
 
 
 </div>
+
+
+ 
+
+[Category   *Arch/ro](Category   *Arch/ro.md)
 
 
 

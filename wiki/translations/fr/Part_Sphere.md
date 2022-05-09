@@ -1,36 +1,36 @@
 ---
-- GuiCommand:/fr
-   Name:Part Sphere
-   Name/fr:Part Sphère
-   MenuLocation:Part → Primitives → Sphère
-   Workbenches:[Part](Part_Workbench/fr.md)
-   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
+- GuiCommand   */fr
+   Name   *Part Sphere
+   Name/fr   *Part Sphère
+   MenuLocation   *Part → Primitives → Sphère
+   Workbenches   *[Part](Part_Workbench/fr.md)
+   SeeAlso   *[Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Sphere/fr
 
 ## Description
 
-La commande <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> **Part Sphère** crée un solide sphérique paramétrique. C\'est le résultat de la rotation d\'un profil en arc de cercle autour d\'un axe. Dans le système de coordonnées défini par sa propriété **Placement**, le centre de la sphère est positionné à l\'origine, et son axe de révolution est l\'axe Z.
+La commande <img alt="" src=images/Part_Sphere.svg  style="width   *24px;"> **Part Sphère** crée un solide sphérique paramétrique. C\'est le résultat de la rotation d\'un profil en arc de cercle autour d\'un axe. Dans le système de coordonnées défini par sa propriété **Placement**, le centre de la sphère est positionné à l\'origine, et son axe de révolution est l\'axe Z.
 
 Une Part Sphère peut être tronquée en haut et/ou en bas en modifiant ses propriétés **Angle1** et/ou **Angle2**. Il peut être transformé en un segment de sphère en modifiant sa propriété **Angle3**.
 
-<img alt="" src=images/Part_Sphere_Example.png  style="width:400px;">
+<img alt="" src=images/Part_Sphere_Example.png  style="width   *400px;">
 
 ## Utilisation
 
-1.  Il existe plusieurs façons de lancer la commande :
+1.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Part_Sphere.svg" width=16px> [Sphère](Part_Sphere/fr.md)**.
     -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Sphere.svg" width=16px> Sphère** dans le menu.
 2.  La sphère est créée.
-3.  Vous pouvez éventuellement modifier les dimensions et **Placement** de la sphère en effectuant l\'une des opérations suivantes :
-    -   Double-cliquez sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md) :
+3.  Vous pouvez éventuellement modifier les dimensions et **Placement** de la sphère en effectuant l\'une des opérations suivantes    *
+    -   Double-cliquez sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md)    *
         1.  Le panneau de tâches **Primitives géométriques** s\'ouvre.
         2.  Modifiez une ou plusieurs propriétés.
         3.  L\'objet est mis à jour dynamiquement dans la [Vue 3D](3D_view/fr.md).
         4.  Appuyez sur le bouton **OK**.
         5.  Modifiez les propriétés dans l\'[Éditeur de propriétés](Property_editor/fr.md).
-    -   Changez la **Placement** avec la <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
+    -   Changez la **Placement** avec la <img alt="" src=images/Std_TransformManip.svg  style="width   *16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
 
 ## Exemple
 
@@ -40,13 +40,13 @@ Un objet Part Sphère créé avec l\'[exemple du script](#Script.md) ci-dessous.
 
 ## Remarques
 
--   Une Part Sphère peut également être créée avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives/fr.md). Avec cette commande, vous pouvez spécifier les dimensions et le placement au moment de la création.
+-   Une Part Sphère peut également être créée avec la commande <img alt="" src=images/Part_Primitives.svg  style="width   *16px;"> [Part Primitives](Part_Primitives/fr.md). Avec cette commande, vous pouvez spécifier les dimensions et le placement au moment de la création.
 
 ## Propriétés
 
-Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Part Sphère est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet Part Sphère est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
@@ -58,29 +58,29 @@ L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Par
 
 {{TitleProperty|Sphere}}
 
--    **Radius|Length**: Le rayon de la sphère. La valeur par défaut est {{Value|5mm}}.
+-    **Radius|Length**   * Le rayon de la sphère. La valeur par défaut est {{Value|5mm}}.
 
--    **Angle1|Angle**: L\'angle de départ du profil en arc de cercle de la sphère. Plage valide : {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. Ne peut être égal à **Angle2**. La valeur par défaut est {{Value|-90°}}.
+-    **Angle1|Angle**   * L\'angle de départ du profil en arc de cercle de la sphère. Plage valide    * {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. Ne peut être égal à **Angle2**. La valeur par défaut est {{Value|-90°}}.
 
--    **Angle2|Angle**: L\'angle final du profil en arc de cercle de la sphère. Plage valide : {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. Ne peut être égal à **Angle1**. La valeur par défaut est {{Value|90°}}. Si l\'angle total du profil en arc est inférieur à {{Value|180°}}, la sphère sera tronquée et aura une face plate en haut et/ou en bas.
+-    **Angle2|Angle**   * L\'angle final du profil en arc de cercle de la sphère. Plage valide    * {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. Ne peut être égal à **Angle1**. La valeur par défaut est {{Value|90°}}. Si l\'angle total du profil en arc est inférieur à {{Value|180°}}, la sphère sera tronquée et aura une face plate en haut et/ou en bas.
 
--    **Angle3|Angle**: L\'angle total de révolution de la sphère. Plage valide : {{Value|0° &lt; value &lt;&#61; 360°}}. La valeur par défaut est {{Value|360°}}. S\'il est inférieur à {{Value|360°}}, le solide résultant sera un segment de sphère.
+-    **Angle3|Angle**   * L\'angle total de révolution de la sphère. Plage valide    * {{Value|0° &lt; value &lt;&#61; 360°}}. La valeur par défaut est {{Value|360°}}. S\'il est inférieur à {{Value|360°}}, le solide résultant sera un segment de sphère.
 
 ## Script
 
-Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Une Part Sphère est créée avec la méthode `addObject()` du document :
+Une Part Sphère est créée avec la méthode `addObject()` du document    *
 
 
 ```python
-sphere = FreeCAD.ActiveDocument.addObject("Part::Sphere", "mySphere")
+sphere = FreeCAD.ActiveDocument.addObject("Part   *   *Sphere", "mySphere")
 ```
 
 -   Où {{Incode|"mySphere"}} est le nom de l\'objet.
 -   La fonction restitue l\'objet nouvellement créé.
 
-Exemple :
+Exemple    *
 
 
 ```python
@@ -88,7 +88,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-sphere = doc.addObject("Part::Sphere", "mySphere")
+sphere = doc.addObject("Part   *   *Sphere", "mySphere")
 sphere.Radius = 20
 sphere.Angle1 = -30
 sphere.Angle2 = 45

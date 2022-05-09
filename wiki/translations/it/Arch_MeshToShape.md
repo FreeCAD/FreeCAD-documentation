@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/it
-   Name:Arch MeshToShape
-   Name/it:Da Mesh a Forma
-   Workbenches:[Architettura](Arch_Workbench/it.md)
-   MenuLocation:Arch → Utilità → Da Mesh a Forma
-   SeeAlso:[Dividi mesh](Arch_SplitMesh/it.md), [Rimuovi Forma](Arch_RemoveShape/it.md)
+- GuiCommand   */it
+   Name   *Arch MeshToShape
+   Name/it   *Da Mesh a Forma
+   Workbenches   *[Architettura](Arch_Workbench/it.md)
+   MenuLocation   *Arch → Utilità → Da Mesh a Forma
+   SeeAlso   *[Dividi mesh](Arch_SplitMesh/it.md), [Rimuovi Forma](Arch_RemoveShape/it.md)
 ---
 
 # Arch MeshToShape/it
@@ -19,7 +19,7 @@ Da Mesh a Forma converte un oggetto [Mesh](Mesh/it.md) ([Mesh Feature](Mesh_Feat
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo strumento corrispondente **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Crea forma da mesh](Part_ShapeFromMesh/it.md)** dell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Parte](Part_Workbench/it.md) potrebbe essere più adatto per oggetti che contengono superfici curve.
+Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo strumento corrispondente **[<img src=images/Part_ShapeFromMesh.svg style="width   *16px"> [Crea forma da mesh](Part_ShapeFromMesh/it.md)** dell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Parte](Part_Workbench/it.md) potrebbe essere più adatto per oggetti che contengono superfici curve.
 
 
 </div>
@@ -47,7 +47,7 @@ Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo st
 ## Script
 
 
-**Vedere anche:**
+**Vedere anche   ***
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
@@ -57,7 +57,7 @@ Questo strumento è ottimizzato per oggetti con facce piane (senza curve). Lo st
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione   *
 
 
 </div>
@@ -79,11 +79,11 @@ new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True
 
 -   Se `cut` è `True` i fori nelle facce sono fatti per sottrazione.
 
-Esempio: 
+Esempio   * 
 ```python
 import Arch, Mesh, BuildRegularGeoms
 
-Box = FreeCAD.ActiveDocument.addObject("Mesh::Cube", "Cube")
+Box = FreeCAD.ActiveDocument.addObject("Mesh   *   *Cube", "Cube")
 Box.Length = 1000
 Box.Width = 2000
 Box.Height = 1000

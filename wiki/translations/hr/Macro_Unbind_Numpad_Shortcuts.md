@@ -11,7 +11,7 @@
 |Version=1.0
 |Date=2018-04-22
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png ToolBar Icon]
+|Download=[https   *//www.freecadweb.org/wiki/images/1/1e/Macro_Unbind_Numpad_Shortcuts.png ToolBar Icon]
 }}
 
 
@@ -29,9 +29,9 @@ Kada unosite brojeve, a okvir za unos broja nije pravilno fokusiran, FreeCAD će
 
 </div>
 
-Pogledajte nit na forumu [How to turn off (disable) Numpad navigation?](https://forum.freecadweb.org/viewtopic.php?f=3&t=26667)
+Pogledajte nit na forumu [How to turn off (disable) Numpad navigation?](https   *//forum.freecadweb.org/viewtopic.php?f=3&t=26667)
 
-## Kako koristiti: 
+## Kako koristiti   * 
 
 1\. Copy-paste makro kod na Py konzolu FreeCAD-a.
 
@@ -56,8 +56,8 @@ preset = [
     ("Std_ViewBottom", "Ctrl+5"),
     ("Std_ViewLeft"  , "Ctrl+6"),
 ]
-for (cmd, shortcut) in preset:
-    App.ParamGet("User parameter:BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
+for (cmd, shortcut) in preset   *
+    App.ParamGet("User parameter   *BaseApp/Preferences/Shortcut").SetString(cmd, shortcut)
 }}
 
 

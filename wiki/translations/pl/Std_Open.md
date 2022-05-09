@@ -1,48 +1,49 @@
 ---
-- GuiCommand:
-   Name:Std Open
-   MenuLocation:File → Open...
-   Workbenches:All
-   Shortcut:**Ctrl**+**O**
-   SeeAlso:[Std Import](Std_Import.md), [Std New](Std_New.md)
+- GuiCommand   */pl
+   Name   *Std Open
+   Name/pl   *Std   * Otwórz
+   MenuLocation   *Plik → Otwórz ...
+   Workbenches   *wszystkie
+   Shortcut   ***Ctrl**+**O**
+   SeeAlso   *[Importuj](Std_Import/pl.md), [Nowy](Std_New/pl.md)
 ---
 
 # Std Open/pl
 
-## Description
+## Opis
 
-The **Std Open** command opens a file. If the file is not a native FreeCAD file (\*.FCStd) its geometry will be imported into a new document. See [Std Import](Std_Import.md) for more information.
+Polecenie **Std   * Otwórz** otwiera plik. Jeśli plik nie jest natywnym plikiem FreeCAD *(\*.FCStd)*, jego geometria zostanie zaimportowana do nowego dokumentu. Zobacz stronę [Std   * Importuj](Std_Import/pl.md), aby uzyskać więcej informacji.
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Open.svg" width=16px> [Std Open](Std_Open.md)** button.
-    -   Select the **File → <img src="images/Std_Open.svg" width=16px> Open...** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**O**.
-2.  Optionally select the correct file format in the dialog box.
-3.  Select a file.
-4.  Press the **Open** button.
+1.  Istnieje kilka sposobów na wywołanie tego polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_Open.svg" width=16px> [Otwórz](Std_Open/pl.md)**.
+    -   Wybierz z menu opcję **Plik → <img src="images/Std_Open.svg" width=16px> Otwórz ...** opcję z menu.
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **O**.
+2.  Opcjonalnie wybierz odpowiedni format pliku w oknie dialogowym.
+3.  Wybierz plik.
+4.  Naciśnij przycisk **Otwórz**.
 
-## Options
+## Opcje
 
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
-## Preferences
+## Ustawienia
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To open a document use the `open(filepath)` method or the `openDocument(filepath, [hidden<nowiki>=</nowiki>False])` method of the FreeCAD application.
+Aby otworzyć dokument, należy użyć metody `open(filepath)` lub metody `openDocument(filepath, [hidden<nowiki>=</nowiki>False])` aplikacji FreeCAD.
 
-These methods create and return a document and load a project file into it. The `filepath` argument must be a string pointing to an existing file. If the file doesn\'t exist or the file cannot be loaded an I/O exception is thrown. In this case the created document is kept, but will be empty. If `hidden<nowiki>=</nowiki>True` is used, the document won\'t be displayed in the GUI and no tab will appear for it. This allows performing automatic operations on a document and closing it without disrupting the user interface.
+Wymienione metody tworzą i zwracają dokument oraz wczytują do niego plik projektu. Argument `filepath` musi być łańcuchem wskazującym na istniejący plik. Jeśli plik nie istnieje lub nie można go wczytać, zostanie wywołany wyjątek wejścia / wyjścia. W takim przypadku utworzony dokument zostanie zachowany, ale będzie pusty. Jeśli zostanie użyta opcja `hidden<nowiki>=</nowiki>True`, dokument nie będzie wyświetlany w GUI i nie pojawi się dla niego żadna zakładka. Umożliwia to wykonywanie automatycznych operacji na dokumencie i zamykanie go bez zakłócania pracy interfejsu użytkownika.
 
-For a scripting example see [Std New](Std_New#Scripting.md).
+Przykład skryptu można znaleźć na stronie opisującej opcję [Nowy](Std_New/pl#Tworzenie_skrypt.C3.B3w.md).
 
 
 

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Sketcher SwitchVirtualSpace
-   Name/fr:Sketcher Basculer l'espace virtuel
-   MenuLocation:Esquisse → Espace virtuel de l'esquisse → Basculer vers/de l'espace virtuel
-   Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
-   Version:0.17
+- GuiCommand   */fr
+   Name   *Sketcher SwitchVirtualSpace
+   Name/fr   *Sketcher Basculer l'espace virtuel
+   MenuLocation   *Esquisse → Espace virtuel de l'esquisse → Basculer vers/de l'espace virtuel
+   Workbenches   *[Sketcher](Sketcher_Workbench/fr.md)
+   Version   *0.17
 ---
 
 # Sketcher SwitchVirtualSpace/fr
@@ -15,18 +15,18 @@ FreeCAD Sketcher comporte deux espaces virtuels sur lesquels des contraintes peu
 
 ## Utilisation
 
-Pour déplacer des contraintes vers l\'autre espace virtuel:
+Pour déplacer des contraintes vers l\'autre espace virtuel   *
 
 1.  Sélectionnez les contraintes que vous souhaitez déplacer.
-2.  Appuyez sur le bouton **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> [Basculer vers/de l'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md)**.
+2.  Appuyez sur le bouton **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width   *16px"> [Basculer vers/de l'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md)**.
 
-Pour changer d\'espace virtuel:
+Pour changer d\'espace virtuel   *
 
 1.  Vérifiez qu\'aucune contrainte n\'est sélectionnée.
-2.  Appuyez sur le bouton **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> [Basculer vers/de l'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md)**.
+2.  Appuyez sur le bouton **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width   *16px"> [Basculer vers/de l'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md)**.
 
 
-**Remarque:**
+**Remarque   ***
 
 Si vous décidez de définir des contraintes sur le deuxième espace virtuel, ne les oubliez pas plus tard si vous ne les voyez pas dans la [Vue 3D](3D_view/fr.md).
 

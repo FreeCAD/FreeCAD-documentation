@@ -1,10 +1,10 @@
 ---
-- GuiCommand:/fr
-   Name:Arch MergeWalls
-   Name/fr:Arch Fusionner des murs
-   MenuLocation:Arch → Utilitaires → Fusionner des murs
-   Workbenches:[Arch](Arch_Workbench/fr.md)
-   SeeAlso:[Arch Murs](Arch_Wall/fr.md)
+- GuiCommand   */fr
+   Name   *Arch MergeWalls
+   Name/fr   *Arch Fusionner des murs
+   MenuLocation   *Arch → Utilitaires → Fusionner des murs
+   Workbenches   *[Arch](Arch_Workbench/fr.md)
+   SeeAlso   *[Arch Murs](Arch_Wall/fr.md)
 ---
 
 # Arch MergeWalls/fr
@@ -25,16 +25,16 @@ L\'outil [Fusionner des Murs](Arch_MergeWalls/fr.md) fusionne deux ou plusieurs 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi    ***
 
 [Arch API](Arch_API.md) et [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Cet outil peut être utilisé dans des [macros](macros.md) et à partir de la console [Python](Python.md) à l\'aide de la fonction suivante : 
+Cet outil peut être utilisé dans des [macros](macros.md) et à partir de la console [Python](Python.md) à l\'aide de la fonction suivante    * 
 ```python
 base = joinWalls(walls, delete=False)
 ```
 
-Exemple: 
+Exemple   * 
 ```python
 import FreeCAD, Draft, Arch
 

@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/de
-   Name:TechDraw  ActiveView
-   Name/de:TechDraw AktiveAnsicht
-   MenuLocation:TechDraw → Aktive Ansicht einfügen (3D Ansicht)
-   Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   Version:0.19
-   SeeAlso:[TechDraw Symbol](TechDraw_Symbol/de.md)
+- GuiCommand   */de
+   Name   *TechDraw  ActiveView
+   Name/de   *TechDraw AktiveAnsicht
+   MenuLocation   *TechDraw → Aktive Ansicht einfügen (3D Ansicht)
+   Workbenches   *[TechDraw](TechDraw_Workbench/de.md)
+   Version   *0.19
+   SeeAlso   *[TechDraw Symbol](TechDraw_Symbol/de.md)
 ---
 
 # TechDraw ActiveView/de
@@ -32,49 +32,49 @@ Das Werkzeug AktiveAnsicht fügt eine Kopie eines 3D Fensters in eine Zeichnungs
 
 ## Options
 
-The following can be specified:
+The following can be specified   *
 
--    **Width**: The width of the generated view.
+-    **Width**   * The width of the generated view.
 
--    **Height**: The height of the generated view.
+-    **Height**   * The height of the generated view.
 
--    **Border**: The amount of empty space to be left around the view (but within Width x Height).
+-    **Border**   * The amount of empty space to be left around the view (but within Width x Height).
 
--    **Background**: If checked a background with the specified color is added.
+-    **Background**   * If checked a background with the specified color is added.
 
--    **Line Width**: The thickness of the lines in the view.
+-    **Line Width**   * The thickness of the lines in the view.
 
--    **Render Mode**: The available modes are:
+-    **Render Mode**   * The available modes are   *
 
     -   
         {{Value|As is}}
         
-        : Render primitives as they are.
+           * Render primitives as they are.
 
     -   
         {{Value|Wireframe}}
         
-        : Render polygons as wireframe.
+           * Render polygons as wireframe.
 
     -   
         {{Value|Points}}
         
-        : Render only the vertices of the polygons and lines.
+           * Render only the vertices of the polygons and lines.
 
     -   
         {{Value|Wireframe overlay}}
         
-        : Render a wireframe overlay in addition to the {{Value|As is}} mode.
+           * Render a wireframe overlay in addition to the {{Value|As is}} mode.
 
     -   
         {{Value|Hidden Line}}
         
-        : As {{Value|Wireframe}}, but culls lines which would otherwise not be shown due to geometric culling.
+           * As {{Value|Wireframe}}, but culls lines which would otherwise not be shown due to geometric culling.
 
     -   
         {{Value|Bounding box}}
         
-        : Only show the bounding box of each object.
+           * Only show the bounding box of each object.
 
 ## Hinweise
 
@@ -82,7 +82,7 @@ The following can be specified:
 <div class="mw-translate-fuzzy">
 
 -   Aktive Ansichten sind nach der Erzeugung statisch, sie werden nie mit Änderungen am 3D Modell aktualisiert.
--   AktiveAnsicht hinter den Kulissen ist ein <img alt="" src=images/TechDraw_Symbol.svg  style="width:24px;"> [Symbolansicht](TechDraw_Symbol/de.md). Sein **Maßstabstyp** wird daher immer als *Angepasst* gekennzeichnet.
+-   AktiveAnsicht hinter den Kulissen ist ein <img alt="" src=images/TechDraw_Symbol.svg  style="width   *24px;"> [Symbolansicht](TechDraw_Symbol/de.md). Sein **Maßstabstyp** wird daher immer als *Angepasst* gekennzeichnet.
 
 * Dieses Werkzeug ist noch etwas **experimentell**.
 
@@ -94,7 +94,7 @@ The following can be specified:
 
 <div class="mw-translate-fuzzy">
 
-See <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Symbol](TechDraw_Symbol/de.md)
+See <img alt="" src=images/TechDraw_Symbol.svg  style="width   *16px;"> [Symbol](TechDraw_Symbol/de.md)
 
 
 </div>
@@ -102,11 +102,11 @@ See <img alt="" src=images/TechDraw_Symbol.svg  style="width:16px;"> [Symbol](Te
 ## Skripten
 
 
-**Siehe auch:**
+**Siehe auch   ***
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug AktiveAnsicht kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole heraus mittels folgender Funktionen verwendet werden:
+Das Werkzeug AktiveAnsicht kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole heraus mittels folgender Funktionen verwendet werden   *
 
 
 ```python

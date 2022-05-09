@@ -1,6 +1,6 @@
 # Arch MeshToShape/cs
 ---
-- GuiCommand:/cs   Name:Arch MeshToShape   Name/cs:Arch MeshToShape   Workbenches:[MenuLocation:Arch → Utilities → Mesh to Shape   SeeAlso:[[Arch RemoveShape/cs|Arch RemoveShape](Arch_Workbench/cs___Arch]].md)---
+- GuiCommand   */cs   Name   *Arch MeshToShape   Name/cs   *Arch MeshToShape   Workbenches   *[MenuLocation   *Arch → Utilities → Mesh to Shape   SeeAlso   *[[Arch RemoveShape/cs|Arch RemoveShape](Arch_Workbench/cs___Arch]].md)---
 
 
 </div>
@@ -15,7 +15,7 @@ Tento nástroj konvertuje vybraný objekt [Síť](Mesh_Workbench/cs.md) do objek
 
 </div>
 
-This tool is optimized for objects with flat faces (no curves). The corresponding tool **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
+This tool is optimized for objects with flat faces (no curves). The corresponding tool **[<img src=images/Part_ShapeFromMesh.svg style="width   *16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** from the <img alt="" src=images/Workbench_Part.svg  style="width   *16px;"> [Part Workbench](Part_Workbench.md) might be more suited for objects that contain curved surfaces.
 
 ## Použití
 
@@ -45,7 +45,7 @@ This tool is optimized for objects with flat faces (no curves). The correspondin
 
 <div class="mw-translate-fuzzy">
 
-Tento nástroj může být použit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce:
+Tento nástroj může být použit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -63,11 +63,11 @@ zkonvertuje síť do tvaru, přitom sjednocuje koplanární (ležící v jedné 
 
 </div>
 
-Example: 
+Example   * 
 ```python
 import Arch, Mesh, BuildRegularGeoms
 
-Box = FreeCAD.ActiveDocument.addObject("Mesh::Cube", "Cube")
+Box = FreeCAD.ActiveDocument.addObject("Mesh   *   *Cube", "Cube")
 Box.Length = 1000
 Box.Width = 2000
 Box.Height = 1000

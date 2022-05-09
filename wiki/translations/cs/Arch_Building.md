@@ -1,6 +1,6 @@
 # Arch Building/cs
 ---
-- GuiCommand:/cs   Name:Arch Building   Name/cs:Arch Budova   Workbenches:[MenuLocation:Arch → Building   Shortcut:B U   SeeAlso:[[Arch Floor/cs|Arch Podlaží](Arch_Workbench/cs___Architektura]].md), [Arch Staveniště](Arch_Site/cs.md)---
+- GuiCommand   */cs   Name   *Arch Building   Name/cs   *Arch Budova   Workbenches   *[MenuLocation   *Arch → Building   Shortcut   *B U   SeeAlso   *[[Arch Floor/cs|Arch Podlaží](Arch_Workbench/cs___Architektura]].md), [Arch Staveniště](Arch_Site/cs.md)---
 
 
 </div>
@@ -32,15 +32,15 @@ Stavba je speciální typ skupiny objektů FreeCADu, zvlášť přizpůsobené k
 
 <div class="mw-translate-fuzzy">
 
--   Po vytvoření stavby můžete přidávat další objekty pomocí myši přetáhnutím a upuštěním (drag and drop) na požadované místo v panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Add.png  style="width:16px;"> [Přidat](Arch_Add/cs.md)
--   Odstranit objekty ze stavby můžete podobně myší přetáhnutím a upuštěním objektu mimo panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Remove.png  style="width:16px;"> [Odebrat](Arch_Remove/cs.md).
+-   Po vytvoření stavby můžete přidávat další objekty pomocí myši přetáhnutím a upuštěním (drag and drop) na požadované místo v panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Add.png  style="width   *16px;"> [Přidat](Arch_Add/cs.md)
+-   Odstranit objekty ze stavby můžete podobně myší přetáhnutím a upuštěním objektu mimo panelu stromu nebo použitím nástroje <img alt="" src=images/Arch_Remove.png  style="width   *16px;"> [Odebrat](Arch_Remove/cs.md).
 
 
 </div>
 
 ## Properties
 
--    **Building Type**: The type of this building, to choose from a list
+-    **Building Type**   * The type of this building, to choose from a list
 
 
 <div class="mw-translate-fuzzy">
@@ -53,7 +53,7 @@ Stavba je speciální typ skupiny objektů FreeCADu, zvlášť přizpůsobené k
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Stavba může být použit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce:
+Nástroj Stavba může být použit v [makrech](macros/cs.md) a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
@@ -71,7 +71,7 @@ vytvoří stavbu včetně objektů ze seznamu objectslist
 
 </div>
 
-Příklad:
+Příklad   *
 
 
 ```python

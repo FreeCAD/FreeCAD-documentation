@@ -1,32 +1,23 @@
 # Draft Preferences/de
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
-The preferences for the [Draft Workbench](Draft_Workbench.md) can be found in the [Preferences Editor](Preferences_Editor.md). In the menu select **Edit → Preferences...** and then **Draft**.
+Die Einstellungen für den Arbeitsbereich [Draft](Draft_Workbench.md) findet man im [Voreinstellungseditor](Preferences_Editor.md). Im Menü wählt man **Edit → Einstellungen...** und dann **Draft**.
 
-There are five tabs: [General settings](#General_settings.md), [User interface settings](#User_interface_settings.md), [Grid and snapping](#Grid_and_snapping.md), [Visual settings](#Visual_settings.md) and [Texts and dimensions](#Texts_and_dimensions.md).
+Es gibt fünf Reiter   * [Allgemeine Einstellungen](#General_settings/de.md), [Einstellungen für die Benutzeroberfläche](#User_interface_settings/de.md), [Raster und einrasten](#Grid_and_snapping/de.md), [Visuelle Einstellungen](#Visual_settings/de.md) and [Texte und Bemaßungen](#Texts_and_dimensions/de.md).
 
 ## Allgemeine Einstellungen 
 
-On the *General settings* tab you can specify the following:
+On the *General settings* tab you can specify the following   *
 
 +++
 | Name                                                        | Description                                                                                                                                                                                                                                                                                       |
 +=============================================================+===================================================================================================================================================================================================================================================================================================+
-|                                              | The initial working plane when the [Draft Workbench](Draft_Workbench.md) is first loaded in a FreeCAD session. The options are:                                                                                                                                                           |
+|                                              | The initial working plane when the [Draft Workbench](Draft_Workbench.md) is first loaded in a FreeCAD session. The options are   *                                                                                                                                                           |
 | **Default working plane**                       |                                                                                                                                                                                                                                                                                                   |
 |                                                          | -                                                                                                                                                                                                                                                                                  |
 |                                                             |     **None**                                                                                                                                                                                                                                                                          |
 |                                                             |                                                                                                                                                                                                                                                                                                |
-|                                                             |     : this is equivalent to the **Automatic** option of the [Draft SelectPlane](Draft_SelectPlane.md) command.                                                                                                                                                  |
+|                                                             |        * this is equivalent to the **Automatic** option of the [Draft SelectPlane](Draft_SelectPlane.md) command.                                                                                                                                                  |
 |                                                             |                                                                                                                                                                                                                                                                                                   |
 |                                                             | -                                                                                                                                                                                                                                                                                  |
 |                                                             |     **XY (Top)**                                                                                                                                                                                                                                                                      |
@@ -97,9 +88,9 @@ On the *General settings* tab you can specify the following:
 
 ![](images/Preferences_Draft_Tab_General_settings.png )
 
-## User interface settings 
+## Einstellungen für die Benutzeroberfläche 
 
-On the *User interface settings* tab you can specify the following:
+On the *User interface settings* tab you can specify the following   *
 
 +++
 | Name                                    | Description                                                                                                                                                                                                                                   |
@@ -209,11 +200,11 @@ On the *User interface settings* tab you can specify the following:
 
 ![](images/Preferences_Draft_Tab_User_interface_settings.png )
 
-## Gitter und Fangen 
+## Raster und einrasten 
 
 Note that several grid preferences can also be changed with the [Draft SelectPlane](Draft_SelectPlane.md) command. This command will update the grid in the current [3D view](3D_view.md) in real-time.
 
-On the *Grid and snapping* tab you can specify the following:
+On the *Grid and snapping* tab you can specify the following   *
 
 +++
 | Name                                                          | Description                                                                                                                                                                                                                                                                           |
@@ -317,12 +308,12 @@ On the *Grid and snapping* tab you can specify the following:
 
 ## Visuelle Einstellungen 
 
-On the *Visual settings* tab you can specify the following:
+On the *Visual settings* tab you can specify the following   *
 
 +++
 | Name                                                              | Description                                                                                                                                                                                                         |
 +===================================================================+=====================================================================================================================================================================================================================+
-|                                                    | The symbols used to mark found [snap points](Draft_Snap.md). The options are:                                                                                                                               |
+|                                                    | The symbols used to mark found [snap points](Draft_Snap.md). The options are   *                                                                                                                               |
 | **Snap symbols style**                                |                                                                                                                                                                                                                     |
 |                                                                | -                                                                                                                                                                                                    |
 |                                                                   |     **Draft classic style**                                                                                                                                                                             |
@@ -362,11 +353,11 @@ On the *Visual settings* tab you can specify the following:
 |                                                                   |                                                                                                                                                                                                                  |
 +++
 |                                                    | Not used.                                                                                                                                                                                                           |
-| **Hatch patterns resolution**                         |                                                                                                                                                                                                                     |
+| **SVG patterns resolution**                           |                                                                                                                                                                                                                     |
 |                                                                |                                                                                                                                                                                                                     |
 +++
 |                                                    | The default pattern size. Note that a higher value results in a denser pattern.                                                                                                                                     |
-| **Hatch Pattern default size**                        |                                                                                                                                                                                                                     |
+| **SVG Pattern default size**                          |                                                                                                                                                                                                                     |
 |                                                                |                                                                                                                                                                                                                     |
 +++
 |                                                    | If checked, the colors of faces are preserved during [downgrade](Draft_Downgrade.md) and [upgrade](Draft_Upgrade.md) operations (splitFaces and makeShell only).                                    |
@@ -392,16 +383,16 @@ On the *Visual settings* tab you can specify the following:
 
 ![](images/Preferences_Draft_Tab_Visual_settings.png )
 
-## Texte und Abmessungen 
+## Texte und Bemaßungen 
 
 These preferences are the defaults used when creating new objects. Changing them does not affect existing objects.
 
-On the *Texts and dimensions* tab you can specify the following:
+On the *Texts and dimensions* tab you can specify the following   *
 
 +++
 | Name                                               | Description                                                                                                                                                                                                                                                                                                                                                        |
 +====================================================+====================================================================================================================================================================================================================================================================================================================================================================+
-|                                     | The font used for all Draft texts and dimensions. It can be a font name such as {{Value|Arial}}, a style such as {{Value|sans}}, {{Value|serif}} or {{Value|mono}}, a font family such as {{Value|Arial,Helvetica,sans}}, or a name with a style such as {{Value|Arial:Bold}}. |
+|                                     | The font used for all Draft texts and dimensions. It can be a font name such as {{Value|Arial}}, a style such as {{Value|sans}}, {{Value|serif}} or {{Value|mono}}, a font family such as {{Value|Arial,Helvetica,sans}}, or a name with a style such as {{Value|Arial   *Bold}}. |
 | **Font family**                        |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
@@ -409,23 +400,23 @@ On the *Texts and dimensions* tab you can specify the following:
 | **Font size**                          |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
-|                                     | Specifies how the dimension text is displayed. The options are:                                                                                                                                                                                                                                                                                                    |
+|                                     | Specifies how the dimension text is displayed. The options are   *                                                                                                                                                                                                                                                                                                    |
 | **Display mode**                       |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 | -                                                                                                                                                                                                                                                                                                                                                   |
 |                                                    |     **text above (2D)**                                                                                                                                                                                                                                                                                                                                |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                    |     : the dimension text is displayed in a plane defined by the **Normal** of the dimension.                                                                                                                                                                                                                                            |
+|                                                    |        * the dimension text is displayed in a plane defined by the **Normal** of the dimension.                                                                                                                                                                                                                                            |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                    | -                                                                                                                                                                                                                                                                                                                                                   |
 |                                                    |     **text inside (3D)**                                                                                                                                                                                                                                                                                                                               |
 |                                                    |                                                                                                                                                                                                                                                                                                                                                                 |
-|                                                    |     : the dimension text always faces the camera.                                                                                                                                                                                                                                                                                                                  |
+|                                                    |        * the dimension text always faces the camera.                                                                                                                                                                                                                                                                                                                  |
 +++
 |                                     | The number of decimal places to display for the dimension text.                                                                                                                                                                                                                                                                                                    |
 | **Number of decimals**                 |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
-|                                     | The length of the extension lines below the dimension line.                                                                                                                                                                                                                                                                                                        |
+|                                     | The length of the extension lines below the dimension line. See [Draft Dimension](Draft_Dimension#View.md).                                                                                                                                                                                                                                                |
 | **Extension lines size**               |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
@@ -437,7 +428,7 @@ On the *Texts and dimensions* tab you can specify the following:
 | **Dimension line overshoot**           |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
-|                                     | The symbol to display at the ends of the dimension line. The options are:                                                                                                                                                                                                                                                                                          |
+|                                     | The symbol to display at the ends of the dimension line. The options are   *                                                                                                                                                                                                                                                                                          |
 | **Arrows style**                       |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 | -                                                                                                                                                                                                                                                                                                                                                   |
 |                                                    |     **Dot**                                                                                                                                                                                                                                                                                                                                            |
@@ -463,7 +454,7 @@ On the *Texts and dimensions* tab you can specify the following:
 | **Arrows size**                        |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
-|                                     | Not used. The orientation of the dimension text when the dimension is vertical. The options are:                                                                                                                                                                                                                                                                   |
+|                                     | Not used. The orientation of the dimension text when the dimension is vertical. The options are   *                                                                                                                                                                                                                                                                   |
 | **Text orientation**                   |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 | -                                                                                                                                                                                                                                                                                                                                                   |
 |                                                    |     **Left (ISO standard)**                                                                                                                                                                                                                                                                                                                            |
@@ -485,7 +476,7 @@ On the *Texts and dimensions* tab you can specify the following:
 | **Override unit**                      |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
-|                                     | The default font file to use. See [Draft ShapeString](Draft_ShapeString.md). For Windows users: please read the [Font file selection on Windows](Draft_ShapeString#Font_file_selection_on_Windows.md) paragraph on that page.                                                                                                                      |
+|                                     | The default font file to use. See [Draft ShapeString](Draft_ShapeString.md). For Windows users   * please read the [Font file selection on Windows](Draft_ShapeString#Font_file_selection_on_Windows.md) paragraph on that page.                                                                                                                      |
 | **Default ShapeString font file**      |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +++
@@ -493,13 +484,12 @@ On the *Texts and dimensions* tab you can specify the following:
 ![](images/Preferences_Draft_Tab_Texts_and_dimensions.png )
 
 
-<div class="mw-translate-fuzzy">
 
 
 
+ 
 
-
-</div>
+[Category   *Preferences](Category_Preferences.md)
 
 
 

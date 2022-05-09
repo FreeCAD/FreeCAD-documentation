@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Part Loft
-   MenuLocation:Part → Loft...
-   Workbenches:[Part](Part_Workbench.md)
-   Version:0.13
-   SeeAlso:[Part Sweep](Part_Sweep.md)
+- GuiCommand   *
+   Name   *Part Loft
+   MenuLocation   *Part → Loft...
+   Workbenches   *[Part](Part_Workbench.md)
+   Version   *0.13
+   SeeAlso   *[Part Sweep](Part_Sweep.md)
 ---
 
 # Part Loft/en
@@ -17,13 +17,17 @@ The Loft has three parameters, \"Ruled surface\",\"Create solid\" and \"Closed\"
 
 If \"Create solid\" is \"true\" FreeCAD creates a solid if the profiles are of closed geometry, if \"false\" FreeCAD creates a face or (if more than one face) a shell for either open or closed profiles.
 
-If \"Ruled surface\" is \"true\" FreeCAD creates a face, faces or a solid from ruled surfaces. [Ruled surface page on Wikipedia.](http://en.wikipedia.org/wiki/Ruled_surface)
+If \"Ruled surface\" is \"true\" FreeCAD creates a face, faces or a solid from ruled surfaces. [Ruled surface page on Wikipedia.](http   *//en.wikipedia.org/wiki/Ruled_surface)
 
 If \"Closed\" is \"true\" FreeCAD attempts to loft the last profile to the first profile to create a closed figure.
 
 For more info on how the profiles are joined together, refer [Part Loft Technical Details](Part_Loft_Technical_Details.md) page.
 
 ![centre\|Part Loft. From three profiles which are two Part Circles and one Part Ellipse. Parameters are Solid \"True\" and Ruled \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
+
+## Notes
+
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
 
 ## Limitations and complications 
 
@@ -64,7 +68,7 @@ The Loft tool is in the Part Workbench, menu Part -\> Loft\... or via the icon i
 
 ![](images/Part_Loft_Ikon_Ballon_Hilfe.png )
 
-In the \"Tasks\" will be two lists: \"Available\" and \"Selected\".
+In the \"Tasks\" will be two lists   * \"Available\" and \"Selected\".
 
 ![](images/Part_Loft_Liste3.png )
 
@@ -80,7 +84,7 @@ Thereafter, with the blue arrow that item is added to the list of \"Selected\".
 
 The selected items must be of the same type.
 
-Tip: the active/selected items in the list are displayed in the 3D area as active/selected.
+Tip   * the active/selected items in the list are displayed in the 3D area as active/selected.
 
 ### Command complete 
 
@@ -88,7 +92,7 @@ If both sections are selected, the command can be completed with \"OK\".
 
 ![](images/Part_Loft_Liste_Auswahl_3d.png )
 
-## Result
+### Result
 
 From closed lines we get surfaces which might be taken as a superficial look for solids.
 

@@ -1,6 +1,8 @@
 # Category:Std Base/pl
 Ta kategoria zawiera listę stron związanych z [Std Base](Std_Base/pl.md), która zbiera polecenia z systemu bazowego, niezwiązane z żadną z grup roboczych.
 
+[Category   *User\_Documentation/pl](Category   *User_Documentation/pl.md)
+
 ### Contents
 
 |     |     |     |

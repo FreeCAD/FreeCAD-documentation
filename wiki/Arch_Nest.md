@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
-   Name:Arch Nest
-   MenuLocation:Arch → Panel tools → Nest
-   Workbenches:[Arch](Arch_Workbench.md)
-   Version:0.17
-   SeeAlso:[Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md)
+- GuiCommand   *
+   Name   *Arch Nest
+   MenuLocation   *Arch → Panel tools → Nest
+   Workbenches   *[Arch](Arch_Workbench.md)
+   Version   *0.17
+   SeeAlso   *[Arch Panel](Arch_Panel.md), [Arch Panel Sheet](Arch_Panel_Sheet.md)
 ---
 
 # Arch Nest
@@ -15,7 +15,7 @@ The **<img src="images/Arch_Nest.svg" width=16px> [Arch Nest](Arch_Nest.md)** to
 
 The algorithm behind the Nest tool is in constant evolution, and is currently not fully optimized. In the future the performance of this tool should become much better.
 
-<img alt="" src=images/Arch_Nest_example.jpg  style="width:600px;">
+<img alt="" src=images/Arch_Nest_example.jpg  style="width   *600px;">
 
 *The image above shows a series of shapes before and after the nesting operation.*
 
@@ -30,7 +30,7 @@ The algorithm behind the Nest tool is in constant evolution, and is currently no
 7.  At the end of the calculation, click the **Preview** button to create a temporary preview of the result.
 8.  If you wish to apply the result (move and rotate the actual shapes into place), click **OK**.
 
-<img alt="" src=images/Arch_Nest_panel.jpg  style="width:800px;"> 
+<img alt="" src=images/Arch_Nest_panel.jpg  style="width   *800px;"> 
 *Taskview panel for the [Arch Nest](Arch_Nest.md) tool*
 
 ## Notes

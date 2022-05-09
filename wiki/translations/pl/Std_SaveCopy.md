@@ -1,50 +1,51 @@
 ---
-- GuiCommand:
-   Name:Std SaveCopy
-   MenuLocation:File → Save a Copy...
-   Workbenches:All
-   SeeAlso:[Std SaveAs](Std_SaveAs.md), [Std Save](Std_Save.md)
+- GuiCommand   */pl
+   Name   *Std SaveCopy
+   Name/pl   *Std   * Zapisz jako kopię
+   MenuLocation   *Plik → Zapisz jako kopię ...
+   Workbenches   *wszystkie
+   SeeAlso   *[Zapisz wszystkie jako](Std_SaveAs/pl.md), [Zapisz](Std_Save/pl.md)
 ---
 
 # Std SaveCopy/pl
 
-## Description
+## Opis
 
-The **Std SaveCopy** command saves a copy of the active document under a new file name.
+Polecenie **Zapisz jako kopię** zapisuje kopię aktywnego dokument w pliku pod nową nazwą.
 
-## Usage
+## Użycie
 
-1.  Select the **File → <img src="images/Std_SaveCopy.svg" width=16px> Save a Copy...** option from the menu.
-2.  Enter a filename in the dialog box.
-3.  Press the **Save** button.
+1.  Wybierz z menu opcję **Plik → <img src="images/Std_SaveCopy.svg" width=16px> Zapisz jako kopię ...**.
+2.  Wprowadź nazwę pliku w oknie dialogowym.
+3.  Naciśnij przycisk **Zapisz**.
 
-## Options
+## Opcje
 
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
-## Preferences
+## Ustawienia
 
--   The last used file location is stored: **Tools → Edit parameters... → BaseApp → Preferences → General → FileOpenSavePath**.
+-   Przechowywana jest ostatnio używana lokalizacja pliku   * **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również   ***
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To save a copy of a document use the `saveCopy` method of the document object.
+Aby zapisać kopię dokumentu, należy użyć metody `saveCopy` obiektu *document*.
 
 
 ```python
 import FreeCAD
 from pathlib import Path
 
-# The folder and filename we will use:
-fld = 'D:/testfiles/'
+# The folder and filename we will use   *
+fld = 'D   */testfiles/'
 fnm = fld + 'testCopy.FCStd'
 
-# Make sure fld exists:
+# Make sure fld exists   *
 Path(fld).mkdir(parents=True, exist_ok=True)
 
 doc = FreeCAD.newDocument()

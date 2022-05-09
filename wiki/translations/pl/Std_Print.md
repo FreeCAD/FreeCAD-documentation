@@ -1,30 +1,31 @@
 ---
-- GuiCommand:
-   Name:Std Print
-   MenuLocation:File → Print...
-   Workbenches:All
-   Shortcut:**Ctrl**+**P**
-   SeeAlso:[Std PrintPreview](Std_PrintPreview.md), [Std PrintPdf](Std_PrintPdf.md), [Std Export](Std_Export.md), [Std ViewScreenShot](Std_ViewScreenShot.md)
+- GuiCommand   */pl
+   Name   *Std Print
+   Name/pl   *Std   * Drukuj
+   MenuLocation   *Plik → Drukuj ...
+   Workbenches   *All
+   Shortcut   ***Ctrl** + **P**
+   SeeAlso   *[Podgląd wydruku](Std_PrintPreview/pl.md), [Eksportuj do PDF](Std_PrintPdf/pl.md), [Exportuj](Std_Export/pl.md), [Zrzut ekranu](Std_ViewScreenShot/pl.md)
 ---
 
 # Std Print/pl
 
-## Description
+## Opis
 
-The **Std Print** command is primarily intended to print [TechDraw Workbench](TechDraw_Workbench.md) pages, but can also be used to print what is currently visible in the [3D view](3D_View.md).
+Polecenie **Drukuj** jest przeznaczone głównie do drukowania stron środowiska [Rysunek Techniczny](TechDraw_Workbench/pl.md), ale może być również użyte do drukowania tego, co jest aktualnie widoczne w oknie [widoku 3D](3D_view/pl.md).
 
-## Usage
+## Użycie
 
-1.  If required activate the correct TechDraw page or change the 3D view to your liking.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Std_Print.svg" width=16px> [Std Print](Std_Print.md)** button.
-    -   Select the **File → <img src="images/Std_Print.svg" width=16px> Print...** option from the menu.
-    -   Use the keyboard shortcut: **Ctrl**+**P**.
-3.  The standard print dialog box will pop up.
+1.  W razie potrzeby aktywuj właściwą stronę Rysunku Technicznego lub zmień widok 3D zgodnie z własnymi upodobaniami.
+2.  Istnieje kilka sposobów na wywołanie polecenia   *
+    -   Naciśnij przycisk **<img src="images/Std_Print.svg" width=16px> [Drukuj](Std_Print/pl.md)**.
+    -   Wybierz z menu opcje **Plik → <img src="images/Std_Print.svg" width=16px> Drukuj ...**.
+    -   Użyj skrótu klawiaturowego   * **Ctrl** + **P**.
+3.  Pojawi się standardowe okno dialogowe drukowania.
 
-## Options
+## Opcje
 
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
 
 

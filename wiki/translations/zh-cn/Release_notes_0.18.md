@@ -1,7 +1,7 @@
 # Release notes 0.18/zh-cn
 <div class="mw-translate-fuzzy">
 
-FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Download.md)。本文为此版本中最有趣的一些变化的总结。而完整的变更列表可从[MantisBT bug追踪程序记录的FC 0.18版变更日志](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78)处找到。
+FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Download.md)。本文为此版本中最有趣的一些变化的总结。而完整的变更列表可从[MantisBT bug追踪程序记录的FC 0.18版变更日志](https   *//www.freecadweb.org/tracker/changelog_page.php?version_id=78)处找到。
 
 旧版FreeCAD的发布说明可从[特性列表处找到](Feature_list#Release_notes.md)。
 
@@ -12,21 +12,21 @@ FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Downloa
 
 经过扩展的[TechDraw工作台工具](#TechDraw_Workbench.md)
 
-<img alt="图中模型由Laurent14制作" src=images/TechDraw_sheet_screenshot.png  style="width:700px;">
+<img alt="图中模型由Laurent14制作" src=images/TechDraw_sheet_screenshot.png  style="width   *700px;">
 
 
 
 
 新的[草图工作台工具](#Sketcher_Workbench.md)，以及更稳定、更健壮的[PartDesign工作台](#PartDesign_Workbench.md)
 
-<img alt="图中模型由un1corn制作" src=images/Part_engine_screenshot.jpg  style="width:700px;">
+<img alt="图中模型由un1corn制作" src=images/Part_engine_screenshot.jpg  style="width   *700px;">
 
 
 
 
 经过增强与扩展的[建筑与BIM工作台工具](#Arch_Workbench.md)
 
-<img alt="图中模型由regis制作" src=images/TechDraw_sheet_screenshot.png  style="width:700px;">
+<img alt="图中模型由regis制作" src=images/TechDraw_sheet_screenshot.png  style="width   *700px;">
 
 
 
@@ -34,7 +34,7 @@ FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Downloa
 ## 通用特性
 
 -   Redesigned Start center
--   The Document tree (Model tab) now offers 3 options for how all documents are displayed, with the option set from the menu **View → Document Tree** :
+-   The Document tree (Model tab) now offers 3 options for how all documents are displayed, with the option set from the menu **View → Document Tree**    *
     -   Single Document (Only display the currently active document)
     -   Multi Document (Display all documents as it used to be up to FreeCAD 0.17)
     -   Collapse/Expand (Expand the active document and collapse all others)
@@ -43,35 +43,35 @@ FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Downloa
 -   Generic support for US Civil / Transportation Engineering units has been added. These units include ft, ft\^2, ft\^3, mph, and angles as degrees/minutes/seconds. These units allow for expression of feet in decimal form, as opposed to US Building, which forces fractions of inches.
 -   It is now possible to specify a custom background image for FreeCAD\'s main window using the option [**Preferences → General → Enable tiled background**](Preferences_Editor#General.md).
 
-<File:Start> center 0.18 screenshot.jpg\|thumb\|left\|The redesigned Start center <File:FC018> Navigation Cube.png\|thumb\|left\|The navigation cube <File:FreeCAD> with background image.jpg\|thumb\|left\|FreeCAD with a custom background image
+<File   *Start> center 0.18 screenshot.jpg\|thumb\|left\|The redesigned Start center <File   *FC018> Navigation Cube.png\|thumb\|left\|The navigation cube <File   *FreeCAD> with background image.jpg\|thumb\|left\|FreeCAD with a custom background image
 
 
 
 
 ## 建筑工作台
 
-<img alt="The Arch workbench at work" src=images/Arch_release018_example.jpg  style="width:700px;">
+<img alt="The Arch workbench at work" src=images/Arch_release018_example.jpg  style="width   *700px;">
 
 -   [Walls](Arch_Wall.md) can now be displayed as a stack of blocks. There are many options to configure their size and how blocks must be stacked.
 -   [Building Parts](Arch_BuildingPart.md) are the new use-for-all Arch container. They can group any number of objects, they can be used to make floors (storeys), buildings (the [Arch Floor](Arch_Floor.md) and [Arch Building](Arch_Building.md) tools now produce Building Parts), or any other group of Arch objects. They can be moved like [Parts](Std_Part.md), and they are [clonable](Draft_Clone.md) and [referencable](Arch_Reference.md)!
 -   The [BIM Workbench](BIM_Workbench.md) (added via the [Addon Manager](Std_AddonMgr.md)), is a new external, experimental counterpart of [Arch](Arch_Workbench.md). In it, we test new features and workflows in a more free environment. Be sure to give it a test ride!
--   [Windows](Arch_Window.md) have new presets such as a 4-pane sliding window, plus, if the [Parts Library](https://github.com/FreeCAD/FreeCAD-library/tree/c5eea12cdda7a3e6349323808815f63b0f97ef2e) is installed, all the doors and windows from the library.
+-   [Windows](Arch_Window.md) have new presets such as a 4-pane sliding window, plus, if the [Parts Library](https   *//github.com/FreeCAD/FreeCAD-library/tree/c5eea12cdda7a3e6349323808815f63b0f97ef2e) is installed, all the doors and windows from the library.
 -   [Panels](Arch_Panel.md) can now do different kinds of corrugated panels, such as undulated sheets, or even sandwich panels.
 -   [Structure](Arch_Structure.md) objects have a new beam drawing mode, which allow you to click two points to place a structural element between them.
 -   All IFC types are now available for all Arch objects. Any object can be exported to any other type to IFC.
 -   [Window placement](Arch_Window.md) has been fully redesigned. Correctly placing windows in host objects, which was before a real pain to do is now much easier.
--   Dynamic window parameters: The size of the window frames is now a window property, so it is now possible to adjust the thickness of preset windows without the need to edit their components or base sketches.
+-   Dynamic window parameters   * The size of the window frames is now a window property, so it is now possible to adjust the thickness of preset windows without the need to edit their components or base sketches.
 -   IFC Property Sets are now supported by all Arch objects.
--   The IFC importer and exporter have been greatly enhanced with a wealth of new features: Property sets support, grid support, file compression, shared profiles, groups support, quantity sets, etc\...
+-   The IFC importer and exporter have been greatly enhanced with a wealth of new features   * Property sets support, grid support, file compression, shared profiles, groups support, quantity sets, etc\...
 -   [Materials](Arch_SetMaterial.md) now support hierarchy, if you give a material another material as father, they appear correctly stacked in the tree.
 -   All Arch objects and materials now support classification systems (not yet supported by IFC import/export).
 -   [External references](Arch_Reference.md) now allow you to link parts from another FreeCAD file into a FreeCAD file.
 
--   But there is much more! Check the [Arch/BIM development reports](https://github.com/yorikvanhavre/BIM_Workbench/wiki) to see everything that has been done there this year.
+-   But there is much more! Check the [Arch/BIM development reports](https   *//github.com/yorikvanhavre/BIM_Workbench/wiki) to see everything that has been done there this year.
 
 ## 底图工作台
 
-<img alt="More precise Draft annotation tools" src=images/Draft_release018_example.jpg  style="width:700px;">
+<img alt="More precise Draft annotation tools" src=images/Draft_release018_example.jpg  style="width   *700px;">
 
 -   The [Draft Scale](Draft_Scale.md) tool has been fully redesigned, and has now more options and is much more comfortable to use
 -   The [Draft Text](Draft_Text.md) tool has also been fully redesigned, it now has its own parametric object with many more options. Warning, these new texts are not supported by 0.17
@@ -86,7 +86,7 @@ FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Downloa
 
 ## FEM Workbench 
 
-<img alt="The polished FEM material dialog" src=images/FEM-Material-dialog-018.png  style="width:300px;"> In 0.17 there where added tons of new features in FEM. Thus the main focus for FEM in 0.18 release of FreeCAD was not adding even more new features and tools, but make the existing ones more stable and fix as much as possible bugs. FEM got 470 commits during FreeCAD 0.18 development cycle [1](https://forum.freecadweb.org/viewtopic.php?f=10&t=13154&p=297292#p297110).
+<img alt="The polished FEM material dialog" src=images/FEM-Material-dialog-018.png  style="width   *300px;"> In 0.17 there where added tons of new features in FEM. Thus the main focus for FEM in 0.18 release of FreeCAD was not adding even more new features and tools, but make the existing ones more stable and fix as much as possible bugs. FEM got 470 commits during FreeCAD 0.18 development cycle [1](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=13154&p=297292#p297110).
 
 ### General Improvements on the code base 
 
@@ -110,7 +110,7 @@ The material handling was improved. It is now possible to use the global FreeCAD
 ## 零件工作台
 
 -   The [Check Geometry](Part_CheckGeometry.md) tool now opens a small window with a progress bar and a **Cancel** button to end the task if it takes too long.
--   The new [Defeaturing](Defeaturing_Workbench.md) tool is based on the tool of the same name included in OCCT 7.3.0. It can remove selected attributes on a solid such as holes, protrusions, gaps, chamfers, fillets, etc. For more info, see [3D Model Defeaturing](https://dev.opencascade.org/index.php?q=node/1211) article on the OCCT website. Please note that if FreeCAD is built on an older version that OCCT 7.3.0, this tool won\'t be available and will be greyed out.
+-   The new [Defeaturing](Defeaturing_Workbench.md) tool is based on the tool of the same name included in OCCT 7.3.0. It can remove selected attributes on a solid such as holes, protrusions, gaps, chamfers, fillets, etc. For more info, see [3D Model Defeaturing](https   *//dev.opencascade.org/index.php?q=node/1211) article on the OCCT website. Please note that if FreeCAD is built on an older version that OCCT 7.3.0, this tool won\'t be available and will be greyed out.
 
 -   The new [SliceApart](Part_SliceApart.md) tool is based on the [Slice to Compound](Part_Slice.md) and includes an automatic compound explode for easily splitting objects.
 
@@ -147,7 +147,7 @@ The material handling was improved. It is now possible to use the global FreeCAD
 
 ## 草图工作台
 
-<img alt="Sketcher View Section demo" src=images/Sketch-clip-plane-demo.png  style="width:700px;">
+<img alt="Sketcher View Section demo" src=images/Sketch-clip-plane-demo.png  style="width   *700px;">
 
 -   The new **[View section](Sketcher_ViewSection.md)** tool creates a section plane that removes matter on the model that is in front of the sketch plane. This can be useful when the sketch plane is located inside a solid model. Pressing the View section tool again toggles the view back to a full view.
 -   The **Sketcher solver** benefited from improvements and is now better at detecting redundant and conflicting constraints, especially those induced by symmetric constraints.
@@ -160,12 +160,12 @@ The material handling was improved. It is now possible to use the global FreeCAD
 -   New **[Move](Sketcher_Move.md)** command to move all selected geometry from the last selected point. It can be access under the Clone tool drop down.
 -   Added *Extended Information* checkbox to the Constraints list widget.
 
-Relevant forum links:
+Relevant forum links   *
 
--   [Recent Several Sketcher improvements](https://forum.freecadweb.org/viewtopic.php?f=9&t=29192)
--   [Feature \#1632: Allow entering of diameter instead of radius for circle radius constraint](https://forum.freecadweb.org/viewtopic.php?f=8&t=29152)
--   [Sketcher Auto Remove Redundants mode](https://forum.freecadweb.org/viewtopic.php?f=9&t=30594)
--   [Constraints extended naming](https://forum.freecadweb.org/viewtopic.php?f=10&t=28890)
+-   [Recent Several Sketcher improvements](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=29192)
+-   [Feature \#1632   * Allow entering of diameter instead of radius for circle radius constraint](https   *//forum.freecadweb.org/viewtopic.php?f=8&t=29152)
+-   [Sketcher Auto Remove Redundants mode](https   *//forum.freecadweb.org/viewtopic.php?f=9&t=30594)
+-   [Constraints extended naming](https   *//forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 
 ## 电子表格工作台
 
@@ -192,7 +192,7 @@ The TechDraw Workbench received a number of additions and improvements for v0.18
 
 ## Material Handling 
 
-<img alt="A material card" src=images/Material-Card-018.png  style="width:300px;"> The material handling has been improved. It is now possible to create **material cards** for every material. The cards can contain all information, physical properties, architectural specification, web links, comments. etc. The cards are text files with the file suffix {{FileName|.FCMat}} and can be used for all workbenches of FreeCAD.
+<img alt="A material card" src=images/Material-Card-018.png  style="width   *300px;"> The material handling has been improved. It is now possible to create **material cards** for every material. The cards can contain all information, physical properties, architectural specification, web links, comments. etc. The cards are text files with the file suffix **.FCMat** and can be used for all workbenches of FreeCAD.
 
 FreeCAD provides material cards for standard metals, plastics and different types of steel.
 
@@ -202,25 +202,27 @@ Some of the new community modules that were actively developed during the 0.18 d
 
 -   [A2plus](A2plus_Workbench.md) is a new workbench to assemble different parts in FreeCAD. It is an extension of the Assembly2 workbench providing an extended color and transparency handling for parts and a new constraint using the center of mass of parts.
 
--   [Curves](https://github.com/tomate44/CurvesWB), a collection of tools to create and edit NURBS curves and surfaces.
+-   [Curves](https   *//github.com/tomate44/CurvesWB), a collection of tools to create and edit NURBS curves and surfaces.
 
--   [Nurbs](https://github.com/microelly2/freecad-nurbs), a collection of scripts for managing freeform surfaces and curves.
+-   [Nurbs](https   *//github.com/microelly2/freecad-nurbs), a collection of scripts for managing freeform surfaces and curves.
 
--   [Silk](https://github.com/edwardvmills/Silk), a collection of NURBS surface modeling tools focused on low degree and seam continuity.
+-   [Silk](https   *//github.com/edwardvmills/Silk), a collection of NURBS surface modeling tools focused on low degree and seam continuity.
 
 -   [Flamingo Workbench](Flamingo_Workbench.md), a set of customized FreeCAD commands and objects that help to speed-up the drawing of frames and pipelines.
 
 -   [Civil Engineering/Transportation Workbench](Civil_Engineering_Workbench.md)
 
--   [GDT](https://github.com/juanvanyo/FreeCAD-GDT), geometric dimensioning and tolerancing (GD&T).
+-   [GDT](https   *//github.com/juanvanyo/FreeCAD-GDT), geometric dimensioning and tolerancing (GD&T).
 
--   [InventorLoader](https://github.com/jmplonka/InventorLoader) to import Autodesk Inventor files (in progress).
+-   [InventorLoader](https   *//github.com/jmplonka/InventorLoader) to import Autodesk Inventor files (in progress).
 
--   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) is aimed to help KiCad and FreeCAD users in ECAD and MCAD collaboration.
+-   [Kicad StepUp Workbench](https   *//www.freecadweb.org/wiki/KicadStepUp_Workbench) is aimed to help KiCad and FreeCAD users in ECAD and MCAD collaboration.
 
--   [CadQuery FreeCAD Module](https://github.com/jmwright/cadquery-freecad-module/wiki) is a workbench that allows users to write Python scripts, and is tailored to those based on the CadQuery CAD scripting API. A new code editor is made available, and script variables can be edited dynamically through the use of a parameter dialog. The workbench also adds a menu that includes normal file operations for CadQuery scripts (open, new, close, etc), and example scripts to help users learn new concepts.
+-   [CadQuery FreeCAD Module](https   *//github.com/jmwright/cadquery-freecad-module/wiki) is a workbench that allows users to write Python scripts, and is tailored to those based on the CadQuery CAD scripting API. A new code editor is made available, and script variables can be edited dynamically through the use of a parameter dialog. The workbench also adds a menu that includes normal file operations for CadQuery scripts (open, new, close, etc), and example scripts to help users learn new concepts.
 
 -   [Defeaturing Workbench](Defeaturing_Workbench.md) is intended for editing imported STEP models, removal of the selected features from the model.
+
+[Category   *News](Category_News.md) [Category   *Documentation](Category_Documentation.md) [Category   *Releases](Category_Releases.md)
 
 
 

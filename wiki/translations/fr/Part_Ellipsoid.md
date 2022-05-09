@@ -1,21 +1,21 @@
 ---
-- GuiCommand:/fr
-   Name:Part Ellipsoid
-   Name/fr:Part Ellipsoide
-   MenuLocation:Part → [Créer des primitives...](Part_Primitives/fr.md) → Ellipsoïde
-   Workbenches:[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
-   SeeAlso:[Part Primitives](Part_Primitives/fr.md)
+- GuiCommand   */fr
+   Name   *Part Ellipsoid
+   Name/fr   *Part Ellipsoide
+   MenuLocation   *Part → [Créer des primitives...](Part_Primitives/fr.md) → Ellipsoïde
+   Workbenches   *[Part](Part_Workbench/fr.md), [OpenSCAD](OpenSCAD_Workbench/fr.md)
+   SeeAlso   *[Part Primitives](Part_Primitives/fr.md)
 ---
 
 # Part Ellipsoid/fr
 
 ## Description
 
-Un <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> **Part Ellipsoïde** est un solide paramétrique qui peut être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitives](Part_Primitives/fr.md). Dans le système de coordonnées défini par sa propriété **Placement**, les axes de l\'ellipsoïde sont alignés sur les axes X, Y et Z, et son centre est donc positionné à l\'origine.
+Un <img alt="" src=images/Part_Ellipsoid.svg  style="width   *24px;"> **Part Ellipsoïde** est un solide paramétrique qui peut être créé avec la commande <img alt="" src=images/Part_Primitives.svg  style="width   *24px;"> [Part Primitives](Part_Primitives/fr.md). Dans le système de coordonnées défini par sa propriété **Placement**, les axes de l\'ellipsoïde sont alignés sur les axes X, Y et Z, et son centre est donc positionné à l\'origine.
 
 Un Part Ellipsoïde peut être tronqué en haut et/ou en bas en modifiant ses propriétés **Angle1** et/ou **Angle2**. Il peut être transformé en un segment d\'ellipsoïde en modifiant sa propriété **Angle3**.
 
-<img alt="" src=images/Part_Ellipsoid_Example.png  style="width:400px;">
+<img alt="" src=images/Part_Ellipsoid_Example.png  style="width   *400px;">
 
 ## Utilisation
 
@@ -29,9 +29,9 @@ Un objet Part Ellipsoïde créé avec l\'[exemple du script](#Script.md) ci-dess
 
 ## Propriétés
 
-Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
+Voir aussi    * [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Part Ellipsoïde est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet Part Ellipsoïde est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes    *
 
 ### Données
 
@@ -43,33 +43,33 @@ L\'objet a les mêmes propriétés d\'attachement qu\'un [Part Part2DObject](Par
 
 {{TitleProperty|Ellipsoid}}
 
--    **Radius1|Length**: Le rayon de l\'ellipsoïde dans sa direction Z. La valeur par défaut est {{Value|2mm}}.
+-    **Radius1|Length**   * Le rayon de l\'ellipsoïde dans sa direction Z. La valeur par défaut est {{Value|2mm}}.
 
--    **Radius2|Length**: Le rayon de l\'ellipsoïde dans sa direction X. La valeur par défaut est {{Value|4mm}}.
+-    **Radius2|Length**   * Le rayon de l\'ellipsoïde dans sa direction X. La valeur par défaut est {{Value|4mm}}.
 
--    **Radius3|Length**: Le rayon de l\'ellipsoïde dans sa direction Y. La valeur par défaut est {{Value|4mm}}. La valeur par défaut est {{Value|4mm}}.
+-    **Radius3|Length**   * Le rayon de l\'ellipsoïde dans sa direction Y. La valeur par défaut est {{Value|4mm}}. La valeur par défaut est {{Value|4mm}}.
 
--    **Angle1|Angle**: L\'angle de départ des côtés elliptiques de l\'ellipsoïde. Plage valide : {{Value|-90° &lt;&#61; value &lt; 90°}}. Doit être inférieur à **Angle2**. La valeur par défaut est {{Value|-90°}}.
+-    **Angle1|Angle**   * L\'angle de départ des côtés elliptiques de l\'ellipsoïde. Plage valide    * {{Value|-90° &lt;&#61; value &lt; 90°}}. Doit être inférieur à **Angle2**. La valeur par défaut est {{Value|-90°}}.
 
--    **Angle2|Angle**: Le dernier angle des côtés elliptiques de l\'ellipsoïde. Plage valide : {{Value|-90° &lt; value &lt;&#61; 90°}}. Doit être supérieur à **Angle1**. La valeur par défaut est {{Value|90°}}. Si l\'angle total des côtés de l\'ellipse est inférieur à {{Value|180°}}, l\'ellipsoïde sera tronqué et aura une face plate en haut et/ou en bas.
+-    **Angle2|Angle**   * Le dernier angle des côtés elliptiques de l\'ellipsoïde. Plage valide    * {{Value|-90° &lt; value &lt;&#61; 90°}}. Doit être supérieur à **Angle1**. La valeur par défaut est {{Value|90°}}. Si l\'angle total des côtés de l\'ellipse est inférieur à {{Value|180°}}, l\'ellipsoïde sera tronqué et aura une face plate en haut et/ou en bas.
 
--    **Angle3|Angle**: L\'angle total de l\'ellipsoïde dans son plan XY. Plage valide : {{Value|0° &lt; value &lt;&#61; 360°}}. La valeur par défaut est {{Value|360°}}. Si elle est inférieure à {{Value|360°}}, le solide résultant sera un segment d\'ellipsoïde.
+-    **Angle3|Angle**   * L\'angle total de l\'ellipsoïde dans son plan XY. Plage valide    * {{Value|0° &lt; value &lt;&#61; 360°}}. La valeur par défaut est {{Value|360°}}. Si elle est inférieure à {{Value|360°}}, le solide résultant sera un segment d\'ellipsoïde.
 
 ## Script
 
-Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi   * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/), [Part Ecrire un script](Part_scripting/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-Un Part Ellipsoïde est créé avec la méthode `addObject()` du document :
+Un Part Ellipsoïde est créé avec la méthode `addObject()` du document    *
 
 
 ```python
-ellipsoid = FreeCAD.ActiveDocument.addObject("Part::Ellipsoid", "myEllipsoid")
+ellipsoid = FreeCAD.ActiveDocument.addObject("Part   *   *Ellipsoid", "myEllipsoid")
 ```
 
 -   Où {{Incode|"myEllipsoid"}} est le nom de l\'objet.
 -   La fonction restitue l\'objet nouvellement créé.
 
-Exemple :
+Exemple    *
 
 
 ```python
@@ -77,7 +77,7 @@ import FreeCAD as App
 
 doc = App.activeDocument()
 
-ellipsoid = doc.addObject("Part::Ellipsoid", "myEllipsoid")
+ellipsoid = doc.addObject("Part   *   *Ellipsoid", "myEllipsoid")
 ellipsoid.Radius1 = 2
 ellipsoid.Radius2 = 4
 ellipsoid.Radius3 = 6

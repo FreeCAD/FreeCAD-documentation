@@ -1,11 +1,11 @@
 ---
-- GuiCommand:/pl
-   Name:Sketcher ConstrainAngle
-   Name/pl:Szkicownik: Wiązanie kąta
-   MenuLocation:Szkicownik → Wiązania szkicownika → Wiązanie kąta
-   Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
-   Shortcut:**K** **A**
-   SeeAlso:[Szkicownik: Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Szkicownik: Wiązanie prostopadłości](Sketcher_ConstrainPerpendicular/pl.md)
+- GuiCommand   */pl
+   Name   *Sketcher ConstrainAngle
+   Name/pl   *Szkicownik   * Wiązanie kąta
+   MenuLocation   *Szkicownik → Wiązania szkicownika → Wiązanie kąta
+   Workbenches   *[Szkicownik](Sketcher_Workbench/pl.md)
+   Shortcut   ***K** **A**
+   SeeAlso   *[Szkicownik   * Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Szkicownik   * Wiązanie prostopadłości](Sketcher_ConstrainPerpendicular/pl.md)
 ---
 
 # Sketcher ConstrainAngle/pl
@@ -16,20 +16,20 @@ Wiązanie kąta jest [wiązaniem odniesienia](Sketcher_Workbench/pl#Wiązania_w_
 
 ## Użycie
 
-Istnieją cztery różne sposoby zastosowania tego wiązania:
+Istnieją cztery różne sposoby zastosowania tego wiązania   *
 
 -   do pojedynczych linii
 -   pomiędzy liniami
 -   do przecinających się krzywych
 -   do łuków okręgów
 
-Aby zastosować wiązanie kąta, należy wykonać następujące czynności:
+Aby zastosować wiązanie kąta, należy wykonać następujące czynności   *
 
 1.  Wybierz jeden, dwa lub trzy elementy na szkicu. Tryb wiązania zostanie wybrany automatycznie w zależności od dokonanego wyboru.
-2.  Wywołaj wiązanie za pomocą kilku metod:
-    -   Wciskając przycisk **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Wiązanie kąta](Sketcher_ConstrainAngle/pl.md)** na pasku narzędzi.
+2.  Wywołaj wiązanie za pomocą kilku metod   *
+    -   Wciskając przycisk **[<img src=images/Sketcher_ConstrainAngle.svg style="width   *16px"> [Wiązanie kąta](Sketcher_ConstrainAngle/pl.md)** na pasku narzędzi.
     -   Używając skrótu klawiaturowego **K** kolejnie **A**.
-    -   Używając z menu głównego **Szkicownik → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Wiązanie kąta**
+    -   Używając z menu głównego **Szkicownik → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainAngle.svg style="width   *16px"> Wiązanie kąta**
 3.  Zostanie wywołane okno dialogowe edycji danych.
 4.  Zmodyfikuj wartość kąta, jeśli to konieczne. Kąt może być wprowadzony jako wyrażenie, które zostanie obliczone i wynik zostanie zapisany.
 5.  Kliknij przycisk **OK**.
@@ -40,33 +40,33 @@ Jak w przypadku każdego wiązania odniesienia, istnieje możliwość późniejs
 
 ### Kąt nachylenia linii 
 
-**Wybór zaakceptowany:** linia
+**Wybór zaakceptowany   *** linia
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width   *600px;">
 
 Wiązanie to określa kąt biegunowy kierunku linii. Jest to kąt pomiędzy linią a osią X szkicu.
 
 ### Rozpiętość łuku okręgu 
 
-**Wybór zaakceptowany:** łuk koła
+**Wybór zaakceptowany   *** łuk koła
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode2.png  style="width   *600px;">
 
 W tym trybie wiązanie ustala rozpiętość kątową łuku koła.
 
 ### Pomiędzy liniami 
 
-**Wybór zaakceptowany:** linia + linia
+**Wybór zaakceptowany   *** linia + linia
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode3.png  style="width   *600px;">
 
 W tym trybie wiązanie ustawia kąt pomiędzy dwoma liniami. Nie jest wymagane, aby te linie się przecinały.
 
 ### Między krzywymi na przecięciu *(kąt w punkcie)* 
 
-**Wybór zaakceptowany:** dowolna linia / krzywa + dowolna linia / krzywa + dowolny punkt
+**Wybór zaakceptowany   *** dowolna linia / krzywa + dowolna linia / krzywa + dowolny punkt
 
-<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width:600px;">
+<img alt="" src=images/Sketcher_ConsraintAngle_mode4.png  style="width   *600px;">
 
 W tym trybie, kąt pomiędzy dwoma krzywymi jest związany w punkcie ich przecięcia. Punkt przecięcia może znajdować się na przedłużeniach krzywych. Punkt ten powinien być wyraźnie określony, ponieważ krzywe zwykle przecinają się w więcej niż jednym punkcie.
 
@@ -74,7 +74,7 @@ Aby wiązanie działało prawidłowo, punkt musi znajdować się na obu krzywych
 
 ## Tworzenie skryptów 
 
-Ograniczenie kąta może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli [Pyton](Python/pl.md) za pomocą następujących narzędzi: 
+Ograniczenie kąta może być utworzone przez [makropolecenie](Macros/pl.md) i z konsoli [Pyton](Python/pl.md) za pomocą następujących narzędzi   * 
 ```python
 # line slope angle
 Sketch.addConstraint(Sketcher.Constraint('Angle',iline,angle))
@@ -87,17 +87,17 @@ Sketch.addConstraint(Sketcher.Constraint('Angle',iline1,pointpos1,iline2,pointpo
 
 # angle-via-point (no helper constraints are added automatically when from python)
 Sketch.addConstraint(Sketcher.Constraint('AngleViaPoint',icurve1,icurve2,geoidpoint,pointpos,angle))
-``` gdzie:
+``` gdzie   *
 
-:\* `Sketch` jest obiektem typu szkic,
+   ** `Sketch` jest obiektem typu szkic,
 
-:\* `iline, iline1, iline2` są liczbami całkowitymi określającymi wiersze za pomocą ich liczb porządkowych w obiekcie `Sketch`.
+   ** `iline, iline1, iline2` są liczbami całkowitymi określającymi wiersze za pomocą ich liczb porządkowych w obiekcie `Sketch`.
 
-:\* `pointpos1, pointpos2` przyjmuje wartość 1 dla punktu początkowego i 2 dla końcowego. Wybór punktów końcowych pozwala na ustawienie kąta wewnętrznego *(lub zewnętrznego)*, a także wpływa na sposób narysowania wiązania na ekranie,
+   ** `pointpos1, pointpos2` przyjmuje wartość 1 dla punktu początkowego i 2 dla końcowego. Wybór punktów końcowych pozwala na ustawienie kąta wewnętrznego *(lub zewnętrznego)*, a także wpływa na sposób narysowania wiązania na ekranie,
 
-:\* `geoidpoint` oraz `pointpos` w `AngleViaPoint` są indeksami określającymi punkt przecięcia,
+   ** `geoidpoint` oraz `pointpos` w `AngleViaPoint` są indeksami określającymi punkt przecięcia,
 
-:\* `angle` to wartość kąta w radianach. Kąt jest liczony pomiędzy wektorami stycznymi w kierunku przeciwnym do ruchu wskazówek zegara. to wartość kąta w radianach. Kąt jest liczony pomiędzy wektorami stycznymi w kierunku przeciwnym do ruchu wskazówek zegara. Wektory styczne dla linii są wskazywane od punktu początkowego do końcowego *(lub odwrotnie, jeżeli punkt końcowy jest podany w trybie kąta między liniami)*, zgodnie z kierunkiem przeciwnym do ruchu wskazówek zegara. Ilość jest również przyjmowana jako kąt (np. `App.Units.Quantity('45 deg')`)
+   ** `angle` to wartość kąta w radianach. Kąt jest liczony pomiędzy wektorami stycznymi w kierunku przeciwnym do ruchu wskazówek zegara. to wartość kąta w radianach. Kąt jest liczony pomiędzy wektorami stycznymi w kierunku przeciwnym do ruchu wskazówek zegara. Wektory styczne dla linii są wskazywane od punktu początkowego do końcowego *(lub odwrotnie, jeżeli punkt końcowy jest podany w trybie kąta między liniami)*, zgodnie z kierunkiem przeciwnym do ruchu wskazówek zegara. Ilość jest również przyjmowana jako kąt (np. `App.Units.Quantity('45 deg')`)
 
 Strona [Skrypty szkicownika](Sketcher_scripting/pl.md) wyjaśnia wartości, które mogą być używane dla `iline`, `iline1`, `iline2`, `pointpos1`, `pointpos2`, `geoidpoint` i `pointpos`, a także zawiera kolejne przykłady tworzenia wiązań za pomocą skryptów języka Python.
 

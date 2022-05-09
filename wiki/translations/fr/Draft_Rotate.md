@@ -1,37 +1,37 @@
 ---
-- GuiCommand:/fr
-   Name:Draft Rotate
-   Name/fr:Draft Pivoter
-   MenuLocation:Modification → Pivoter
-   Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
-   Shortcut:**R** **O**
-   Version:0.7
-   SeeAlso:[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md)
+- GuiCommand   */fr
+   Name   *Draft Rotate
+   Name/fr   *Draft Pivoter
+   MenuLocation   *Modification → Pivoter
+   Workbenches   *[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut   ***R** **O**
+   Version   *0.7
+   SeeAlso   *[Draft Surligner les sous éléments](Draft_SubelementHighlight/fr.md)
 ---
 
 # Draft Rotate/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Draft Pivoter** permet de faire pivoter ou de copier les objets sélectionnés autour d\'un point central selon un angle donné. En mode sous-élément, la commande fait tourner les points et les bords sélectionnés ou copie les bords sélectionnés des [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md).
+La commande <img alt="" src=images/Draft_Rotate.svg  style="width   *24px;"> **Draft Pivoter** permet de faire pivoter ou de copier les objets sélectionnés autour d\'un point central selon un angle donné. En mode sous-élément, la commande fait tourner les points et les bords sélectionnés ou copie les bords sélectionnés des [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md).
 
 Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
 
-<img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Rotate_example.jpg  style="width   *400px;"> 
 *Pivoter un objet autour d'un point central*
 
 ## Utilisation
 
-Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi    * [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Sélectionnez un ou plusieurs objets ou un ou plusieurs sous-éléments de [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
-2.  Il existe plusieurs façons de lancer la commande :
+2.  Il existe plusieurs façons de lancer la commande    *
     -   Appuyez sur le bouton **<img src="images/Draft_Rotate.svg" width=16px> [Pivoter](Draft_Rotate/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Rotate.svg" width=16px> Pivoter** dans le menu.
-    -   Utilisez le raccourci clavier : **R** puis **O**.
-3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
+    -   Utilisez le raccourci clavier    * **R** puis **O**.
+3.  Si vous n\'avez pas encore sélectionné d\'objet    * sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 4.  Le panneau de tâches **Rotate** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-5.  Si des sous-éléments ont été sélectionnés : cochez la case **Modifier les sous-éléments** pour activer le mode sous-élément.
+5.  Si des sous-éléments ont été sélectionnés    * cochez la case **Modifier les sous-éléments** pour activer le mode sous-élément.
 6.  Choisissez le premier point, le centre de rotation, dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 7.  Choisissez le deuxième point dans la [Vue 3D](3D_view/fr.md) ou entrez un **Angle de base**.
 8.  Choisissez le troisième point dans la [Vue 3D](3D_view/fr.md) ou entrez une **Rotation**.
@@ -57,15 +57,15 @@ Le raccourci clavier à caractère unique et les touches de modification mention
 
 ## Préférences
 
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
+Voir aussi    * [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées et des angles : **Édition → Préférences... → Général → Unités → Réglages des unités → Nombre de décimales**.
--   Pour stocker et réutiliser le même paramètre de mode de copie d\'une commande à l\'autre : **Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Mode de copie global**.
--   Pour resélectionner les objets de base après avoir copié des objets : ** Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie**.
+-   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées et des angles    * **Édition → Préférences... → Général → Unités → Réglages des unités → Nombre de décimales**.
+-   Pour stocker et réutiliser le même paramètre de mode de copie d\'une commande à l\'autre    * **Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Mode de copie global**.
+-   Pour resélectionner les objets de base après avoir copié des objets    * ** Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie**.
 
 ## Script
 
-Voir aussi: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi    * [Autogenerated API documentation](https   *//freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 Pour faire pivoter des objets, utilisez la méthode `rotate` du module Draft.
 
@@ -86,7 +86,7 @@ rotated_list = rotate(objectslist, angle, center=Vector(0,0,0), axis=Vector(0,0,
 
 -    `rotated_list`est retourné avec les objets originaux ayant subi une rotation, ou avec les nouvelles copies. Il s\'agit soit d\'un objet unique, soit d\'une liste d\'objets, en fonction de `objectlist`.
 
-Exemple:
+Exemple   *
 
 
 ```python

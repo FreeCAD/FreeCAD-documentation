@@ -1,12 +1,12 @@
 # Arch Rebar BentShape/ro
 ---
-- GuiCommand:Addon   Name:Arch Rebar BentShape   Workbenches:[Addon:Reinforcement   MenuLocation:Arch → Rebar tools   Shortcut:None   SeeAlso:[[Arch_Rebar_Stirrup|Stirrup](Arch_Workbench/ro___Arch]].md)---
+- GuiCommand   *Addon   Name   *Arch Rebar BentShape   Workbenches   *[Addon   *Reinforcement   MenuLocation   *Arch → Rebar tools   Shortcut   *None   SeeAlso   *[[Arch_Rebar_Stirrup|Stirrup](Arch_Workbench/ro___Arch]].md)---
 
 
 </div>
 
 ---
-- GuiCommand:Addon   Name:Arch Rebar BentShape   Workbenches:[Addon:Reinforcement   MenuLocation:Arch → Rebar tools   Shortcut:None   SeeAlso:[[Arch_Rebar_Stirrup|Stirrup](Arch_Workbench/ro___Arch]].md)---
+- GuiCommand   *Addon   Name   *Arch Rebar BentShape   Workbenches   *[Addon   *Reinforcement   MenuLocation   *Arch → Rebar tools   Shortcut   *None   SeeAlso   *[[Arch_Rebar_Stirrup|Stirrup](Arch_Workbench/ro___Arch]].md)---
 
 ## Descriere
 
@@ -20,14 +20,14 @@ Instrumentul **<img src="images/Arch_Rebar_BentShape.png" width=16px> Bent Shape
 
 The [BentShape Rebar](Arch_Rebar_BentShape.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width   *24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;">
+<img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width   *400px;">
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/BentShapeRebar.png  style="width:800px;">
+<img alt="" src=images/BentShapeRebar.png  style="width   *800px;">
 
 
 </div>
@@ -53,7 +53,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 </div>
 
 
-:   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
+   *   <img alt="" src=images/BentShapeDialog.png  style="width   *250px;">
 
 
 
@@ -61,25 +61,25 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 ## Proprietăți
 
--    **Orientation**: Acesta decide orientarea armăturii (de ex. jos, sus, drepta și stânga).
+-    **Orientation**   * Acesta decide orientarea armăturii (de ex. jos, sus, drepta și stânga).
 
--    **Front Cover**: Distanța dintre armături și fațetele selectate.
+-    **Front Cover**   * Distanța dintre armături și fațetele selectate.
 
--    **Right Cover**: Distanța între capătul dintre capătul dreapta al armăturii și fațeta dreapta a structurii.
+-    **Right Cover**   * Distanța între capătul dintre capătul dreapta al armăturii și fațeta dreapta a structurii.
 
--    **Left Cover**: Distanța dintre capătul din stânga al armăturii și fațeta stângă a structurii
+-    **Left Cover**   * Distanța dintre capătul din stânga al armăturii și fațeta stângă a structurii
 
--    **Bottom Cover**: Distanța dintre armătură și fațeta de jos a structurii.
+-    **Bottom Cover**   * Distanța dintre armătură și fațeta de jos a structurii.
 
--    **Top Cover**: Distanța dintre armătură și fața superioară a structurii.
+-    **Top Cover**   * Distanța dintre armătură și fața superioară a structurii.
 
--    **Anchor Length**: Aceasta este lungimea brațelor armăturii îndoite/bent shape rebar.
+-    **Anchor Length**   * Aceasta este lungimea brațelor armăturii îndoite/bent shape rebar.
 
--    **Bent Angle**: Stabilește unghiul de îndoire a bent shape rebar.
+-    **Bent Angle**   * Stabilește unghiul de îndoire a bent shape rebar.
 
--    **Amount**: Cantitatea de armătură.
+-    **Amount**   * Cantitatea de armătură.
 
--    **Spacing**: Distanța între acele fiecărei bare.
+-    **Spacing**   * Distanța între acele fiecărei bare.
 
 
 <div class="mw-translate-fuzzy">
@@ -92,7 +92,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul **<img src="images/Arch_Rebar_BentShape.png" width=16px> Bent Shape Rebar** poate fi utilizat în [macros](macros.md) și de la consola Python console utilizând următorele funcții:
+Instrumentul **<img src="images/Arch_Rebar_BentShape.png" width=16px> Bent Shape Rebar** poate fi utilizat în [macros](macros.md) și de la consola Python console utilizând următorele funcții   *
 
 
 </div>
@@ -107,7 +107,7 @@ Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
 
 <div class="mw-translate-fuzzy">
 
--   Bent Shape Rebar are patru orientări diferite:
+-   Bent Shape Rebar are patru orientări diferite   *
     -   Bottom
     -   Top
     -   Left
@@ -175,6 +175,11 @@ BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
 
 
 </div>
+
+
+ 
+
+[Category   *Reinforcement](Category_Reinforcement.md)
 
 
 

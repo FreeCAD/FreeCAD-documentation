@@ -1,6 +1,6 @@
 # PartDesign Fillet/cs
 ---
-- GuiCommand:/cs   Name:PartDesign Fillet   Name/cs:PartDesign Fillet   Workbenches:[MenuLocation:PartDesign → Fillet   SeeAlso:[[Part Fillet/cs|Part Fillet](PartDesign_Workbench/cs___PartDesign]],_Complete.md)---
+- GuiCommand   */cs   Name   *PartDesign Fillet   Name/cs   *PartDesign Fillet   Workbenches   *[MenuLocation   *PartDesign → Fillet   SeeAlso   *[[Part Fillet/cs|Part Fillet](PartDesign_Workbench/cs___PartDesign]],_Complete.md)---
 
 
 </div>
@@ -32,7 +32,7 @@ This tool creates fillets (rounds) on the selected edges of an object. A new sep
 
 #### Návrh dílu Zaoblení VS. Zaoblení dílu 
 
-**Návrh dílu Zaoblení nelze zaměňovat s jeho [Protějškem na pracovní ploše Díl](Part_Fillet.md)**. Ačkoliv používají stejnou ikonu, není to to samé a ani nejsou stejně používány. Zde je uvedeno čím se vzájemně liší:
+**Návrh dílu Zaoblení nelze zaměňovat s jeho [Protějškem na pracovní ploše Díl](Part_Fillet.md)**. Ačkoliv používají stejnou ikonu, není to to samé a ani nejsou stejně používány. Zde je uvedeno čím se vzájemně liší   *
 
 -   Návrh dílu Zaoblení je *parametrické*. Po aplikaci zaoblení může být jeho poloměr upraven; to není možné u Zaoblení dílu.
 -   Hrany na objektu musí být vybrány před aktivací Návrh dílu Zaoblení. Při použití Zaoblení dílu může být nástroj spuštěn a potom teprve vybráno těleso a hrany.
@@ -51,7 +51,7 @@ This tool creates fillets (rounds) on the selected edges of an object. A new sep
 -   If you want to add more edges or faces click the **Add** button and select edges and/or the faces.
 -   After clicking the **Add** button you can add all edges of the object by right-clicking and selecting **Add all edges** from the context menu. <small>(v0.20)</small> 
 -   If you want to remove edges or faces
-    -   either select the edge/face in the list of the dialog and press the **DEL** key. *Note*: Since there must be at least one edge for the feature, the last remaining edge or face in the list cannot be removed.
+    -   either select the edge/face in the list of the dialog and press the **DEL** key. *Note*   * Since there must be at least one edge for the feature, the last remaining edge or face in the list cannot be removed.
     -   or click the **Remove** button. All edges and faces being previously selected are highlighted in purple. Select the edge or the face to be removed.
     -   Ensure the **Use all edges** checkbox is unchecked or else some widgets in the dialog will be disabled. <small>(v0.20)</small> 
 -   Click **OK** to validate.
@@ -67,27 +67,27 @@ This tool creates fillets (rounds) on the selected edges of an object. A new sep
 
 Fillets, chamfers, and other features that operate on solid bodies depend on the underlying OpenCASCADE Technology (OCCT) kernel that FreeCAD uses. The OCCT kernel occasionally has difficulty handling coincident sharp edges, where two faces meet. If this is the case FreeCAD may crash without an explanation.
 
-If run from the terminal, FreeCAD may output a log like this one after the crash:
+If run from the terminal, FreeCAD may output a log like this one after the crash   *
 
 
 {{code|code=
-#1  0x7fff63d660ba in BRep_Tool::Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
-#2  0x7fff63d69546 in BRep_Tool::Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
-#3  0x7fff71f4fef5 in ChFi3d_Builder::PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
-#4  0x7fff71f58307 in ChFi3d_Builder::PerformOneCorner(int, bool) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x1097
-#5  0x7fff71ef6218 in ChFi3d_Builder::PerformFilletOnVertex(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x4e8
-#6  0x7fff71ef71d1 in ChFi3d_Builder::Compute() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0xe31
-#7  0x7fff720ad7c3 in BRepFilletAPI_MakeChamfer::Build() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x33
-#8  0x7fff723be48e in PartDesign::Chamfer::execute() from /usr/lib/freecad-daily/lib/_PartDesign.so+0x60e
+#1  0x7fff63d660ba in BRep_Tool   *   *Curve(TopoDS_Edge const&, TopLoc_Location&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x2a
+#2  0x7fff63d69546 in BRep_Tool   *   *Curve(TopoDS_Edge const&, double&, double&) from /usr/lib/x86_64-linux-gnu/libTKBRep.so.7+0x46
+#3  0x7fff71f4fef5 in ChFi3d_Builder   *   *PerformIntersectionAtEnd(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x3b05
+#4  0x7fff71f58307 in ChFi3d_Builder   *   *PerformOneCorner(int, bool) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x1097
+#5  0x7fff71ef6218 in ChFi3d_Builder   *   *PerformFilletOnVertex(int) from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x4e8
+#6  0x7fff71ef71d1 in ChFi3d_Builder   *   *Compute() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0xe31
+#7  0x7fff720ad7c3 in BRepFilletAPI_MakeChamfer   *   *Build() from /usr/lib/x86_64-linux-gnu/libTKFillet.so.7+0x33
+#8  0x7fff723be48e in PartDesign   *   *Chamfer   *   *execute() from /usr/lib/freecad-daily/lib/_PartDesign.so+0x60e
 ...
 }}
 
 This output references functions located in `libTKBRep.so`, `libTKFillet.so`, etc., which are OCCT libraries. If this type of crashes occurs, the problem may need to be reported and solved in OCCT rather than in FreeCAD.
 
-See the forum threads for more information:
+See the forum threads for more information   *
 
--   [Bug Chamfer bigger than 2mm crashes freecad](https://forum.freecadweb.org/viewtopic.php?p=263818#p263818)
--   [Segfault when using part design fillet](https://forum.freecadweb.org/viewtopic.php?p=264827#p264827)
+-   [Bug Chamfer bigger than 2mm crashes freecad](https   *//forum.freecadweb.org/viewtopic.php?p=263818#p263818)
+-   [Segfault when using part design fillet](https   *//forum.freecadweb.org/viewtopic.php?p=264827#p264827)
 
 The user is also responsible for the integrity of his or her own model. Depending on the model, it may be impossible to perform a fillet or chamfer if the body is not big enough to support that operation. For example, it wouldn\'t be possible to create a 10 mm fillet if an edge is separated only 5 mm from the next surface. In that case, the maximum radius for a fillet would be 5 mm; trying to use a larger value may result in a shape that doesn\'t compute, or even a crash. If using the exact limit of 5 mm doesn\'t work, it may be possible to use a very close approximation, like 4.9999 mm, to produce the same visible result.
 
@@ -102,12 +102,12 @@ Read more in [topological naming problem](Topological_naming_problem.md).
 
 ## Skriptování
 
-Nástroj **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.png.md) [Návrh dílu Zaoblení](_PartDesign_Fillet/cs.md)** může být použit v makru a z konzoly Pythonu použitím následující funkce:
+Nástroj **[16px|text-top=Fillet|link=PartDesign_Fillet](File   *PartDesign_Fillet.png.md) [Návrh dílu Zaoblení](_PartDesign_Fillet/cs.md)** může být použit v makru a z konzoly Pythonu použitím následující funkce   *
 
 
 </div>
 
-The tool **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Fillet](PartDesign_Fillet.md)** can be used in a macro, and, from the Python console using the following function:
+The tool **[16px|text-top=Fillet|link=PartDesign_Fillet](File   *PartDesign_Fillet.svg.md) [Fillet](PartDesign_Fillet.md)** can be used in a macro, and, from the Python console using the following function   *
 
 
 ```python
@@ -121,7 +121,7 @@ Box = Box.makeFillet(3,[Box.Edges[1],Box.Edges[2],Box.Edges[3],Box.Edges[4]]) # 
 
 <div class="mw-translate-fuzzy">
 
-Příklad:
+Příklad   *
 
 
 </div>
